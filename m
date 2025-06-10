@@ -1,53 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============7508932833343393988=="
+Content-Type: multipart/mixed; boundary="===============4221848270212290765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 10 Jun 2025 11:14:54 -0000
-Message-Id: <174955409463.2996622.8057289998190931360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 10 Jun 2025 11:15:02 -0000
+Message-Id: <174955410273.2997910.3466149413286594077@gitolite.kernel.org>
 
---===============7508932833343393988==
+--===============4221848270212290765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.12.33
-    old: 0000000000000000000000000000000000000000
-    new: 8153480cb077e10b2412586864c088a083cf5ab2
+  - ref: refs/heads/linux-6.12.y
+    old: ba9210b8c96355a16b78e1b890dce78f284d6f31
+    new: e03ced99c437f4a7992b8fa3d97d598f55453fd0
+    log: revlist-ba9210b8c963-e03ced99c437.txt
 
---===============7508932833343393988==
+--===============4221848270212290765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749554128 -0400
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1749554093-9908582f1f61e7b6ed862093f7b9e7b95cb95826
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749554136 -0400
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1749554101-2f96ade575a9a271017e3236672ff488148ca783
 
-0000000000000000000000000000000000000000 8153480cb077e10b2412586864c088a083cf5ab2 refs/tags/v6.12.33
+ba9210b8c96355a16b78e1b890dce78f284d6f31 e03ced99c437f4a7992b8fa3d97d598f55453fd0 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhIE9AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+COsP/jYTe2vHWMQne9c+2rfw
-PKydzIgXkCtl54WZcUtCWr82EnTG+ny41yyUdKhueeyGFqYGqtf3IPYaMSEQ839Y
-cV7MwWSqZB3L4mE0hi/0oWxr1X68G7S0HNrZlOZopxqNSuiFoOkMathUph1hP+q6
-oNAb9IvLyxX5IgcQsTNCaw8BIdEXac5Cbvjmn+fz1Fw1wSPQNxpUVF6XuAANMG6Z
-hqCIKG2fcNC9Vck4GG+BiEEW9aLMqng4wT5/tF7WfM64wReg0CZjy4Extox29pKZ
-krjF4PSjOFTCFdDd9yKhr/RU/Yvm59u7DIxxOmOd+1S7IExTTpvT7SRjfXvRrq/f
-i5EeRdW56M1j4RWvx3oWBffz6R9NPdtgPLDio+jX+YcBdtZ9GCVID0qnm+apDuG7
-WzbBRUsTMUh8U5/Xvl0b5eyD1QJz/nL6fyxXH7gbfyU8Wq33XBPMxwseAjsbT2Ig
-wOa0dnQAJ//bKBI7efqYU3c2e+HeE4ErnrMG3ydU8biYDvxzBdxkst2dQSHWiC+v
-mi3DpxN9XBlHHYFCBxTCEwwz7LhLwxSSUH+f1/MmM/4y9HeZz+z2Swrw7MPu6q54
-Vq8ez0GkknypmMrxxVA9XKeuBkuqWUNiDxkvDhSmwTV9RPbKTpHGhUoeMDYEcz81
-dV/pKxiemry+vFAYtSVL5lO2
-=t7Il
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhIE9gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z0QP/0X0e6Hts4VXAQ6OYUBo
+nYw2Z/lUtK2tXCh9u3OFXss0ttzwqivosGhxWki0cF55wsxrgg47f1uSVWIANlAp
+qZwjgYhF0AnVB05H7A2G6ZEBYVoYVQpAKVH20/AgfMXXBail3E85avno22Req7dp
+mv05TXm14qYKF5yq8h33O7d2VMG8quqL8fItlqjvvNl8EHRN3lGuwJj/N3NNkeyR
+kptkRJX1OWsQp6qkXqwBz1loE857hu72LBNoweusYlgUSU5UilW1BDaqzl4LFGYx
+iawPtyl2nRswcJ51l/1Nbu5kRwwmlqJR/EexXFg7nU2ix4OeuQ45t3q013BFoZsv
+VjrW3kOvTqoj9Nxf9QjVsFH2Mqgr9MhymJBN1LUjETqmWYnangi2fusHg3b7N4SW
+W5UePrSR8EqbutHPiMejijFD+SWFYBkkF4O/vJ3ptGARatEVib/KtR1EzFbJGTx6
+T90yRpA1pv9rLKWoIV7hOR/JywgX9KSqSNuvFbmYw99Ayopb2Btkf9SJ1vFMEXI9
+OGa657Orz9F+pZJZT1kz6JOQLCremntRP6YlTLeP2zBzts5pu7VIHcgB8if7dGzZ
+Tex8SO6+4TNysizNhFWfE+jvUYzD2h639zqxKxIZv02HQoRaJSZjINaiuzK/lfon
+IMmwA0elwz9PDMzurfdsIJLD
+=Qj1R
 -----END PGP SIGNATURE-----
 
---===============7508932833343393988==--
+--===============4221848270212290765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ba9210b8c963-e03ced99c437.txt
+
+db758487f3dd3c079834ff7b0c6ea9e4c973f73b tracing: Fix compilation warning on arm32
+bf49527089ec1ba894c6e587affabbfb2329f52e f2fs: fix to avoid accessing uninitialized curseg
+f49c751d6000ffb20e798df91e6a010c08318864 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+614456f1a0febc83cd4b902e3f49990c95a39057 pinctrl: armada-37xx: set GPIO output value before setting direction
+32b7c46c4dae93fb5e9a8c2f33fefbb160d2808f acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
+f28fae36bad35c49a49342df7faa825d709319bb Documentation: ACPI: Use all-string data node references
+a6a55fe660f8c0d62a1ad663fc878593dafad0f5 rtc: Make rtc_time64_to_tm() support dates before 1970
+6b482b16f32e2b04aacff6933f6367b6afa04f5e rtc: Fix offset calculation for .start_secs < 0
+f4deea418499a78ca00b3e4fb8878317ab9a358d accel/ivpu: Add initial Panther Lake support
+4685153b121e0e79ad02ae7ed77b8c35bcce58b1 accel/ivpu: Update power island delays
+3c4fed940db2a4da00adbe8c7c3ff08292c84a4c PCI/ASPM: Disable L1 before disabling L1 PM Substates
+0c60158ff14df04c92792dd9b1809372b095040f block: fix adding folio to bio
+a347664312be418cf6e28b7afa1fa24623a387d6 Revert "cpufreq: tegra186: Share policy per cluster"
+23179d009cf593bb90811d9a12c22cbf52cc1dfe usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
+393ad978388ee83911eaef389dcc4e1183bef7bf usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
+1a51004aa0463b63aa9c273ef3f4614f7ff45722 USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
+4490c7951898dc64505533e7979837429bc9e290 usb: typec: ucsi: fix Clang -Wsign-conversion warning
+e428b7e205ed775a1b9c1adb16e2c15d1cff158a Bluetooth: hci_qca: move the SoC type check to the right place
+985961dd2688a527a4847300d41beaad475ab7af serial: jsm: fix NPE during jsm_uart_port_init
+b4fac3f172f27c8255d4d6840cec12e24e24033a usb: usbtmc: Fix timeout value in get_stb
+eb2d5e794fb966b3ef8bde99eb8561446a53509f thunderbolt: Do not double dequeue a configuration request
+1ed84b17fa9bf070fb2d2da1013aa3b06fa26ce2 dt-bindings: usb: cypress,hx3: Add support for all variants
+d452b168da17cbf193dc5599c949fb5075f28ff6 dt-bindings: phy: imx8mq-usb: fix fsl,phy-tx-vboost-level-microvolt property
+80fe1ebc1fbcd51adc7e7293c136421da4717fa4 Revert "drm/amd/display: more liberal vmin/vmax update for freesync"
+e03ced99c437f4a7992b8fa3d97d598f55453fd0 Linux 6.12.33
+
+--===============4221848270212290765==--
