@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 10 Jun 2025 07:54:18 -0000
-Message-Id: <174954205897.2823357.1584196708521305765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 10 Jun 2025 07:57:16 -0000
+Message-Id: <174954223658.2826956.5456083024655574416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/testing
-    old: 7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2
-    new: 766f6a784bdfd0747c66e40102e53c48bb89e135
+  - ref: refs/heads/master
+    old: 52d3d1e0e857b2101853bb878f4f4bf3570bbc16
+    new: f7fa48f991b5342eef2f584c10b35fb34e2096b7
     log: |
-         766f6a784bdfd0747c66e40102e53c48bb89e135 Merge branch 'xfrm: fixes for xfrm_state_find under preemption'
+         cd097df4596f3a1e9d75eb8520162de1eb8485b2 powerpc/powernv/memtrace: Fix out of bounds issue in memtrace mmap
+         0d67f0dee6c9176bc09a5482dd7346e3a0f14d0b powerpc/vas: Return -EINVAL if the offset is non-zero in mmap()
+         f09079bd04a924c72d555cd97942d5f8d7eca98c Merge tag 'powerpc-6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         f7fa48f991b5342eef2f584c10b35fb34e2096b7 Merge branch 'linus'
          
