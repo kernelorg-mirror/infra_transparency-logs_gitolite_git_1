@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4474233189909692422=="
+Content-Type: multipart/mixed; boundary="===============3427252164200480885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Tue, 10 Jun 2025 08:00:57 -0000
-Message-Id: <174954245750.2831246.476606397509072090@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 08:01:02 -0000
+Message-Id: <174954246298.2831566.13531963205630889865@gitolite.kernel.org>
 
---===============4474233189909692422==
+--===============3427252164200480885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,93 +16,53 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0ff41df1cb26-19272b37aa4f.txt
-  - ref: refs/heads/linux-6.16.y
-    old: 0000000000000000000000000000000000000000
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-  - ref: refs/heads/linux-6.16.y-rt
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194
+    new: 4234d83182005275489870b1456699363e9ad21c
+    log: revlist-8e2a31f2ddd3-4234d8318200.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194
+    new: 4234d83182005275489870b1456699363e9ad21c
+    log: revlist-8e2a31f2ddd3-4234d8318200.txt
+  - ref: refs/heads/linux-6.16.y-rt-rebase
     old: 0000000000000000000000000000000000000000
     new: 4234d83182005275489870b1456699363e9ad21c
-  - ref: refs/heads/linux-6.16.y-rt-patches
-    old: 0000000000000000000000000000000000000000
-    new: 6c0a606a162a8dc7c307c91eb2d680193a499b60
-  - ref: refs/tags/v6.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
-  - ref: refs/tags/v6.16-rc1-rt1
-    old: 0000000000000000000000000000000000000000
-    new: 09e6ff1df1bc1403c236cdb79bd2566f08719eb7
-  - ref: refs/tags/v6.16-rc1-rt1-patches
-    old: 0000000000000000000000000000000000000000
-    new: 4bd7080f727f7b7660165aa37af62b1ed954f4cf
-  - ref: refs/tags/v6.16-rc1-rt1-rebase
-    old: 0000000000000000000000000000000000000000
-    new: ee01c5578f99b508bfb6ef7bf209cfd4d327e9d0
 
---===============4474233189909692422==
+--===============3427252164200480885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1749542461 +0200
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1749542495 +0200
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1749542425-fabcc12a4ba3895affb1d91542713e75527ae9ea
+nonce 1749542458-c3f9711b5b9fc5a301fbe49a574deacc83b169ed
 
-0ff41df1cb268fc69e703a08a57ee14ae967d0ca 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/master
-0000000000000000000000000000000000000000 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/linux-6.16.y
-0000000000000000000000000000000000000000 4234d83182005275489870b1456699363e9ad21c refs/heads/linux-6.16.y-rt
-0000000000000000000000000000000000000000 6c0a606a162a8dc7c307c91eb2d680193a499b60 refs/heads/linux-6.16.y-rt-patches
-0000000000000000000000000000000000000000 d9946fe286439c2aeaa7953b8c316efe5b83d515 refs/tags/v6.16-rc1
-0000000000000000000000000000000000000000 09e6ff1df1bc1403c236cdb79bd2566f08719eb7 refs/tags/v6.16-rc1-rt1
-0000000000000000000000000000000000000000 4bd7080f727f7b7660165aa37af62b1ed954f4cf refs/tags/v6.16-rc1-rt1-patches
-0000000000000000000000000000000000000000 ee01c5578f99b508bfb6ef7bf209cfd4d327e9d0 refs/tags/v6.16-rc1-rt1-rebase
+8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194 4234d83182005275489870b1456699363e9ad21c refs/heads/for-kbuild-bot/current-stable
+8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194 4234d83182005275489870b1456699363e9ad21c refs/heads/for-kbuild-bot/prepare-release
+0000000000000000000000000000000000000000 4234d83182005275489870b1456699363e9ad21c refs/heads/linux-6.16.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmhH5j0WHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W9EiC/95NyE5RIbyhy7zCUkLrcSQOXcd
-lSuISUIHhN8ok8hO8zyuZIUHcAH/yVcrTElji3kM9Az7gKtieSQOFVL9cw8A48wX
-t+y4VQjTRaXLizT67Pq5VDKnMnVVASch/MZPOWjlU8or4tcOCu5I9v09wOSUNLrD
-tMAsZ/SqcyarzjirCfiY0aykewNQq6zTa0hyQ3cm/amOOaGnSVO2m+aPsk2rr4zG
-gWO9sdyraE1bmZ5Js6VAf7S1EunuDdTnO0VLWGnwpPbiCM12xetLDlHxVDZzKhAb
-Ydf+OGhv7D5j6/LsHgyOZuKJAEXF+1rgOmIajIdmKSg0DcgD5YjdbVQV3dqBxPvg
-SQCydxNteMw8GNWcovfHAaXfB/HPk6HNCDDZLgJ90dnFsAX4YA0G+c4bNqvsrUza
-yYVy9Fc2oj57NBkwcBQiQHNPiW6VavRP20Z5Ws4BCQ8ypYUgn8pI4vf7Tf81e3cU
-10hEatHPRWoGrmt3jO8Rx9XAFGROTsfPif/4Fxk=
-=9J9c
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmhH5l8WHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W/D2C/oDrEzpIjQd0lo1k1cTKwUksCe7
+hwPHosEjamrcT7OAFkvComHBaLFSviCsjY5RP61/gtOsOKnN2Aek4CLAHwEk7CGL
+atD9nzD1CHiRbvyzT2WBje4jodJJuFzPjVtL2YKs6K7nCw6wXHAvtw+ChsdBxbov
+Ug17QqOk0Hf0a2slbYLE9EXzLMBdtxCkAg3fm8droIpnBvi89p+x4hunhCky+MyN
+VrwxxvPkB23XvLIAX6+FoMF8G0wLw3A6GclH/fiNdK0uM2DVj3L41kF13Memsdym
+4pmcI9d9hrHLsJMelq3t5xQysjBavKGVV4d+KvkC/49xAnFHHxAaLYktbPay++Vd
+y6WJTdzSOj9yPG7mVQAQrm7aW+5R+A0s/CE9fpALyDESs7wDHuaR1NG7MGKr4IiV
+UpDU1kvutbU54duvhKgaVRIHLJ7wLPIWcKnQHQCFIVV5eXSXsBpT8Th0Ldr+2/bX
+fujEdDHGHAeUpHLusPL2IupGW7z/m7LPebgNIiY=
+=koPc
 -----END PGP SIGNATURE-----
 
---===============4474233189909692422==
+--===============3427252164200480885==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0ff41df1cb26-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-8e2a31f2ddd3-4234d8318200.txt
 
-35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
-9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
-5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
-70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
-54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
-fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
-d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
-8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
-0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
-c59783780c8ad66f6076a9a7c74df3e006e29519 net: airoha: Fix an error handling path in airoha_alloc_gdm_port()
-c6bb8a21cdad8c975a3a646b9e5c8df01ad29783 net/mlx5: Add error handling in mlx5_query_nic_vport_node_guid()
-126cd7852a62c6fab11a4a4cb6fa96421929ab69 net: mctp: start tx queue on netdev open
-09d7ff0694ea133c50ad905fd6e548c13f8af458 tools: ynl: parse extack for sub-messages
-c8ef20fe7274c5766a317f9193b70bed717b6b3d tipc: use kfree_sensitive() for aead cleanup
-a540ee75945a96f606c6ac955bfed5410d318f7d net/mlx5: HWS, Fix an error code in mlx5hws_bwc_rule_create_complex()
-82fb5a369b8de625660c8c7f82e5286ec195be5e mlxsw: core_thermal: Constify struct thermal_zone_device_ops
-08f8bad0255c7319f4ffe53d0f0eab50fa2cb5e9 cxgb4: Constify struct thermal_zone_device_ops
 d9d836bfa5e6e255c411733b4b1ce7a1f8346c54 selftests: net: move wait_local_port_listen to lib.sh
 cb575e5e9fd1cba99f1514c36375e74609f92e70 net: Kconfig NET_DEVMEM selects GENERIC_ALLOCATOR
 e9cb929670a1e98b592b30f03f06e9e20110f318 net: phy: fix up const issues in to_mdio_device() and to_phy_device()
@@ -1106,5 +1066,26 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+8be81c3a163162533b4f1b5fd988cd2ab3fbbe81 Reapply "serial: 8250: Switch to nbcon console"
+3512f346597c2a873d5c145f9eb6a9d28b494aa0 Reapply "serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()""
+dd8f1522a3a29552974ced115c2bd4b8852704b8 drm/i915: Use preempt_disable/enable_rt() where recommended
+912b2e4bf8e3567f9c6cafa2767b4793d0491302 drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+0fd53d860121cd162a0a4b40ad3959a3ada2011f drm/i915: Don't check for atomic context on PREEMPT_RT
+d7f1773cf564b0d3ecfb7a0d664526079e04d85f drm/i915: Disable tracing points on PREEMPT_RT
+c84a731aa5eee228e014122573ca493fda454f0b drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+6db8cb1bc38b6e437fd7caa1bc2c456c56bb9b75 drm/i915: Drop the irqs_disabled() check
+069fdfb32e3766d6c4f354bcb4fdd9a181199d9d drm/i915/guc: Consider also RCU depth in busy loop.
+7e0a21fc4f974850abdcf335bdc2a3a784cd2475 Revert "drm/i915: Depend on !PREEMPT_RT."
+f2d4bb37da38a70326977eac32682f1ac6aa1cd0 arm: Disable jump-label on PREEMPT_RT.
+4b815e40116bb8275617ced11bbaf4fc4cb72627 ARM: enable irq in translation/section permission fault handlers
+70d7b850b38fb5f9fb3f9f4dd6de1d1f47a11826 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+6e4411835d13c04f2e638ea9d44c05c1ca75a7b9 ARM: Allow to enable RT
+4be9eab544553140cbb7d0b6099589493b5e0c67 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+684a49fc50ad860efc31f626b0d9f3c23e65c9de powerpc/pseries: Select the generic memory allocator.
+035cddc4a25ef520fcc16f072ae98a2616a33130 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+d07409165a5606741f9c2ca52c9d1b14473b58ea powerpc/stackprotector: work around stack-guard init from atomic
+62db90425df480b86513aa09c8de00195b4ecea7 POWERPC: Allow to enable RT
+da3e931c16648ee671060d0bbd736b0c7c0a1fa7 sysfs: Add /sys/kernel/realtime entry
+4234d83182005275489870b1456699363e9ad21c Add localversion for -RT release
 
---===============4474233189909692422==--
+--===============3427252164200480885==--
