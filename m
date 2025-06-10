@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4404372987242801456=="
+Content-Type: multipart/mixed; boundary="===============7039157057893961968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 10 Jun 2025 06:37:14 -0000
-Message-Id: <174953743484.2753402.10342216547943934502@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 06:47:58 -0000
+Message-Id: <174953807816.2761959.15627167914972477119@gitolite.kernel.org>
 
---===============4404372987242801456==
+--===============7039157057893961968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 784e48a82976ee0b645788750343cd1b28a372f3
+    new: 458957b8e3d552701cdb55ffacc38627d2039fe8
     log: |
-         5808c34216954cd832bd4b8bc52dfa287049122b platform/x86: ideapad-laptop: use usleep_range() for EC polling
-         685f88c72a0c4d12d3bd2ff50286938f14486f85 platform/x86/intel-uncore-freq: Fail module load when plat_info is NULL
-         afbdc4bbb3a6418778cf969b0795bbaa8237cdd3 platform/x86: samsung-galaxybook: Add SAM0426
-         1d0a61940e22e165e6acc4a9c6fb26edbe69112e platform/x86/intel: power-domains: Fix error code in tpmi_init()
-         4dbd11796f3a8eb95647507befc41995458a4023 platform/x86/amd: pmc: Clear metrics table at start of cycle
-         f8afb12a2d7503de6558c23cacd7acbf6e9fe678 x86/platform/amd: move final timeout check to after final sleep
-         784e48a82976ee0b645788750343cd1b28a372f3 x86/platform/amd: replace down_timeout() with down_interruptible()
+         844d8e4c7f9a3eeb681493f12c55de0392510fe3 platform/x86: alienware-wmi-wmax: Add appropriate labels to fans
+         e7c1a9e8d33ceb44ef088de7a9112a1db94d13a4 platform/x86/amd/hsmp: Use IS_ENABLED() instead of IS_REACHABLE()
+         f746b064e946de9ccd057e9550e6344ef7de93ce platform/x86: ideapad: Expose charge_types
+         22428723a27e6ee03dffd86ba62501bffe5b4c78 platform/x86: intel_telemetry: Remove unused telemetry_*_events()
+         2ad029bde3d4dd7787483f646384a93a95922cf8 platform/x86: intel_telemetry: Remove unused telemetry_[gs]et_sampling_period()
+         458957b8e3d552701cdb55ffacc38627d2039fe8 platform/x86: intel_telemetry: Remove unused telemetry_raw_read_events()
          
 
---===============4404372987242801456==
+--===============7039157057893961968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1749537463 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1749538108 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1749537427-3e8a8cbe7ad53f0db3e1357d19e55c935afb5d10
+nonce 1749538072-eb2f45383ffeb939fff7f6fd0a5629dd402daa90
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 784e48a82976ee0b645788750343cd1b28a372f3 refs/heads/fixes
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 458957b8e3d552701cdb55ffacc38627d2039fe8 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaEfSvQAKCRBZrE9hU+XO
-MR8WAQCdA/Ir5Y7JXB8T9ZTNfMub+ZAAEQaodIUFXTxMvNoqqwEAgnzTCasatnzE
-bDfg52TExwpkgtYz++S8K2S9QIsHmgo=
-=VkaI
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaEfVQAAKCRBZrE9hU+XO
+MejdAQC46N1wAvmXi5XxRu/pF70edpVPm0iQyuNYkf5aCW9YtwEAygvXKOfeTaMu
+OsJsH34X9CzPDtmMP5afXQrjzICxCQA=
+=QOcT
 -----END PGP SIGNATURE-----
 
---===============4404372987242801456==--
+--===============7039157057893961968==--
