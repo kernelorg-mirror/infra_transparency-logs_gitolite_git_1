@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 11 Jun 2025 08:40:06 -0000
-Message-Id: <174963120662.12726.9750729838419434144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Wed, 11 Jun 2025 09:11:36 -0000
+Message-Id: <174963309657.37357.4459267337686845428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/davem/net
+user: davem
 changes:
-  - ref: refs/heads/review-andy
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 42e4327e3d126266424a4fde60f80897bd7605ae
+  - ref: refs/heads/main
+    old: f478d68b653323b691280b40fbd3b8ca1ac75aa2
+    new: d9816ec74e6d6aa29219d010bba3f780ba1d9d75
     log: |
-         4863d750fdc0d29b68530355b216dfc6d7b52c9a pinctrl: baytrail: use new GPIO line value setter callbacks
-         83ab731cb26b5ec3a37be6a672e0b3bdc0ae84c7 pinctrl: cherryview: use new GPIO line value setter callbacks
-         241d79f02538fa19ad3441d27c0ee9e18aa9fd3b pinctrl: intel: use new GPIO line value setter callbacks
-         20e62271fbc80290f543579f3ba8149805d8e06c pinctrl: lynxpoint: use new GPIO line value setter callbacks
-         42e4327e3d126266424a4fde60f80897bd7605ae Merge patch series "pinctrl: intel: use new GPIO line value setter callbacks"
+         d9816ec74e6d6aa29219d010bba3f780ba1d9d75 macsec: MACsec SCI assignment for ES = 0
          
