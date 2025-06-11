@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1715131903083508489=="
+Content-Type: multipart/mixed; boundary="===============2805940723154483091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 11 Jun 2025 15:51:01 -0000
-Message-Id: <174965706174.460254.3537570222567555053@gitolite.kernel.org>
+Date: Wed, 11 Jun 2025 15:52:06 -0000
+Message-Id: <174965712657.460985.13038624435620353458@gitolite.kernel.org>
 
---===============1715131903083508489==
+--===============2805940723154483091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-current
-    old: f3fe49dbddd73f0155a8935af47cb63693069dbe
-    new: f87586598fffac31afc1141471b789251b030a76
-    log: revlist-f3fe49dbddd7-f87586598fff.txt
+  - ref: refs/heads/ath-next
+    old: 1b98f357dadd6ea613a435fbaef1a5dd7b35fd21
+    new: 2c7e4a2663a1ab5a740c59c31991579b6b865a26
+    log: revlist-1b98f357dadd-2c7e4a2663a1.txt
 
---===============1715131903083508489==
+--===============2805940723154483091==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f3fe49dbddd7-f87586598fff.txt
+Content-Disposition: attachment; filename=revlist-1b98f357dadd-2c7e4a2663a1.txt
 
+0c905cadf38b49d53deee25819f0eaa46091c83a Merge tag 'cpufreq-arm-updates-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+e4f59f873c3ffe2a0150e11115a83e2dfb671dbf ARM: aspeed: Don't select SRAM
+d9f0a97e859bdcef51f9c187b1eb712eb13fd3ff soc: aspeed: lpc: Fix impossible judgment condition
+f1706e0e1a74b095cbc60375b9b1e6205f5f4c98 soc: aspeed: Add NULL check in aspeed_lpc_enable_snoop()
 7e1a0dfb3f5996c74cf39337ecd958342bffe442 arm64: dts: nuvoton: Add pinctrl
 7148b42e85420bd0d8028a5c5c3611e1c59f6e1f Merge tag 'samsung-drivers-6.16-2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers
 a65dc234cd690adde1949232dc538e6d07b833fb Merge tag 'memory-controller-drv-6.16-2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into soc/drivers
@@ -1046,9 +1050,5 @@ e9e668cd2756c1300f3bf84eba1d6711b886b531 Merge tag 'arm64-fixes' of git://git.ke
 cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 71052a800371c64b4546a1d7f69ad515a779316f MAINTAINERS: add entry for crypto library
 2c7e4a2663a1ab5a740c59c31991579b6b865a26 Merge tag 'net-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-570896604f47d44d4ff6882d2a588428d2a6ef17 Revert "wifi: mwifiex: Fix HT40 bandwidth issue."
-6a0f81c549a00f87865ff0ad2400944ca0726868 wifi: iwlwifi: fix merge damage related to iwl_pci_resume
-8d60350891b185553836ebea1c406078a69a56e4 Merge tag 'ath-current-20250608' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-f87586598fffac31afc1141471b789251b030a76 wifi: cfg80211: use kfree_sensitive() for connkeys cleanup
 
---===============1715131903083508489==--
+--===============2805940723154483091==--
