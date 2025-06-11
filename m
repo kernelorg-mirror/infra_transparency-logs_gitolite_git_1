@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2484374955413933547=="
+Content-Type: multipart/mixed; boundary="===============8805828708072360809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 11 Jun 2025 09:35:28 -0000
-Message-Id: <174963452843.60343.7650337174721391469@gitolite.kernel.org>
+Date: Wed, 11 Jun 2025 09:35:41 -0000
+Message-Id: <174963454175.60781.11051749013768234003@gitolite.kernel.org>
 
---===============2484374955413933547==
+--===============8805828708072360809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.19.y-st
-    old: b62efd7958f4b55d26295ca29701847e444fb753
-    new: e00abfb443ca19a4c8d4c5741f035809f5b5f21e
-    log: revlist-b62efd7958f4-e00abfb443ca.txt
+  - ref: refs/heads/linux-4.19.y-cip
+    old: 33b79fc4625daef9e71c91db90a0808d2bc1ae23
+    new: 3237eeb37d4b43b59ddbb9d45fcce28a18e43e68
+    log: revlist-33b79fc4625d-3237eeb37d4b.txt
 
---===============2484374955413933547==
+--===============8805828708072360809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b62efd7958f4-e00abfb443ca.txt
+Content-Disposition: attachment; filename=revlist-33b79fc4625d-3237eeb37d4b.txt
 
 18f64880924ff4240e30419721169b1e3724eb24 ata: pata_pxa: Fix potential NULL pointer dereference in pxa_ata_probe()
 de24db1bef021886c3e080d9023992393c9055c9 tipc: fix memory leak in tipc_link_xmit
@@ -160,5 +160,7 @@ cce15cb09dc44d955e4decc3569e0e34feee5162 PCI: Rename PCI_IRQ_LEGACY to PCI_IRQ_I
 0aa36fa45e3beaab07a94f156ff44aacabf29c1e clk: check for disabled clock-provider in of_clk_get_hw_from_clkspec()
 127e4ee2c5d9fccfeae111df2f6d3c2cffb18a6d x86/bugs: Don't fill RSB on VMEXIT with eIBRS+retpoline
 e00abfb443ca19a4c8d4c5741f035809f5b5f21e Update localversion-st, tree is up-to-date with 5.4.293.
+7e9e8598809451bafb57cfbea10ba3fe0daab260 Merge branch 'linux-4.19.y-st' into linux-4.19.y-cip
+3237eeb37d4b43b59ddbb9d45fcce28a18e43e68 CIP: Bump version suffix to -cip121 after merge from cip/linux-4.19.y-st tree
 
---===============2484374955413933547==--
+--===============8805828708072360809==--
