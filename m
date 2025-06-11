@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 11 Jun 2025 08:33:37 -0000
-Message-Id: <174963081795.5389.12223443584422165293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Wed, 11 Jun 2025 08:37:44 -0000
+Message-Id: <174963106458.9471.10738734385687364600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/for-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 42e4327e3d126266424a4fde60f80897bd7605ae
+  - ref: refs/heads/master
+    old: 2898e33f435b56444d4620c3b352cbc6b2fde468
+    new: 021d41cfbae6dc6ea8a2dda1382c34d656668ba5
     log: |
-         4863d750fdc0d29b68530355b216dfc6d7b52c9a pinctrl: baytrail: use new GPIO line value setter callbacks
-         83ab731cb26b5ec3a37be6a672e0b3bdc0ae84c7 pinctrl: cherryview: use new GPIO line value setter callbacks
-         241d79f02538fa19ad3441d27c0ee9e18aa9fd3b pinctrl: intel: use new GPIO line value setter callbacks
-         20e62271fbc80290f543579f3ba8149805d8e06c pinctrl: lynxpoint: use new GPIO line value setter callbacks
-         42e4327e3d126266424a4fde60f80897bd7605ae Merge patch series "pinctrl: intel: use new GPIO line value setter callbacks"
+         021d41cfbae6dc6ea8a2dda1382c34d656668ba5 Port to RT-Thread Smart DM PCI
          
