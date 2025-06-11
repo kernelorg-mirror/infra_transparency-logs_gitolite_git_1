@@ -1,35 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7479678719612554478=="
+Content-Type: multipart/mixed; boundary="===============4260196405575756246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Wed, 11 Jun 2025 03:02:27 -0000
-Message-Id: <174961094742.3929943.6680937554531869418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Wed, 11 Jun 2025 03:04:49 -0000
+Message-Id: <174961108971.3931494.15061714966974684515@gitolite.kernel.org>
 
---===============7479678719612554478==
+--===============4260196405575756246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
     old: b9802b54d41bbe98f673e08bc148b0c563fdc02e
-    new: 40a98e702b528c631094f2e524d309faf33dc774
-    log: revlist-b9802b54d41b-40a98e702b52.txt
-  - ref: refs/tags/v6.16-p4
-    old: 0000000000000000000000000000000000000000
-    new: c0c7bbabcf634067f8ddcd545f2f2f8de77d826d
+    new: be381bf8cd84efeb151ce93f8d71c3cfea0f1024
+    log: revlist-b9802b54d41b-be381bf8cd84.txt
 
---===============7479678719612554478==
+--===============4260196405575756246==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b9802b54d41b-40a98e702b52.txt
+Content-Disposition: attachment; filename=revlist-b9802b54d41b-be381bf8cd84.txt
 
-418da6ee1ea62090f6b66d95b8fcf7db2f42c00f Merge tag 'pmdomain-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1053,5 +1049,6 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 40a98e702b528c631094f2e524d309faf33dc774 crypto: hkdf - move to late_initcall
+be381bf8cd84efeb151ce93f8d71c3cfea0f1024 crypto: ahash - Add support for drivers with no fallback
 
---===============7479678719612554478==--
+--===============4260196405575756246==--
