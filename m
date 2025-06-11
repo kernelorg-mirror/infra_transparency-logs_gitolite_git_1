@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Wed, 11 Jun 2025 21:04:07 -0000
-Message-Id: <174967584798.728773.13211770426131538301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Jun 2025 21:04:33 -0000
+Message-Id: <174967587359.729775.15240574395875192770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 021d41cfbae6dc6ea8a2dda1382c34d656668ba5
-    new: fca6726ed6dbb4f97dbfbaa612413dca2e823139
+  - ref: refs/heads/main
+    old: a184bb1e71a0e45201316a39fb564688d11d2d52
+    new: 18667214b955ef89f208d451820c39a5dfd77f27
     log: |
-         fca6726ed6dbb4f97dbfbaa612413dca2e823139 header.h: Classes and capabilities from PCI Code and ID Assignment rev 1.18
+         18667214b955ef89f208d451820c39a5dfd77f27 net/mlx5: Expose serial numbers in devlink info
          
