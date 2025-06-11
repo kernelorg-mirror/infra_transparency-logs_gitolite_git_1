@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6375238533024109634=="
+Content-Type: multipart/mixed; boundary="===============4794347256146574134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 11 Jun 2025 19:48:13 -0000
-Message-Id: <174967129376.663079.8348423866773734308@gitolite.kernel.org>
+Date: Wed, 11 Jun 2025 19:50:09 -0000
+Message-Id: <174967140934.666345.12783831320240392526@gitolite.kernel.org>
 
---===============6375238533024109634==
+--===============4794347256146574134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
-  - ref: refs/heads/nova-gsp
-    old: 2902e68b7c08883067a96415dcee27e452a8f1e6
+  - ref: refs/heads/nova/sequencer
+    old: 084ce90aa84f5c0339434a69a16e72d3c69aca4e
     new: f2d45268475c16d666f7b487e8a3db2a91dc1e18
-    log: revlist-2902e68b7c08-f2d45268475c.txt
+    log: revlist-084ce90aa84f-f2d45268475c.txt
 
---===============6375238533024109634==
+--===============4794347256146574134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2902e68b7c08-f2d45268475c.txt
+Content-Disposition: attachment; filename=revlist-084ce90aa84f-f2d45268475c.txt
 
 46f91addfabbd4109fb64876a032ae4a4a924919 rust: revocable: implement Revocable::access()
 f301cb978c068faa8fcd630be2cb317a2d0ec063 rust: devres: implement Devres::access()
@@ -118,4 +118,4 @@ a446bc000424f49fac07f4b4fde8431e80de7af2 nova-core: falcon: Add support to write
 3debd074af2ac0a1544bcb2e2e42bdb83f6d2781 nova-core: Implement the GSP sequencer
 f2d45268475c16d666f7b487e8a3db2a91dc1e18 nova-core: Wait till INIT_DONE received
 
---===============6375238533024109634==--
+--===============4794347256146574134==--
