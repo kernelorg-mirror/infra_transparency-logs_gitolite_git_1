@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 11 Jun 2025 14:35:01 -0000
-Message-Id: <174965250100.386833.1872533792784956111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 11 Jun 2025 14:39:51 -0000
+Message-Id: <174965279111.391013.8441466702271514726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: dcd2b35c9b56191b06cd560198b41f985372dae5
-    new: bd35cd12d915bc410c721ba28afcada16f0ebd16
+    old: 95b72bbf1fe42216d02a5ebb99bd18e9b69b6064
+    new: aea0f46f173f85a71908452b0c6ed16f647f6117
     log: |
-         866fd57640cedee18e02e1aa6385022a8998f0d3 Bluetooth: btintel_pcie: Fix potential race condition in firmware download
-         ba6b287d9f9151aa8c2d23f5d34f1d97c43979e0 Bluetooth: btintel_pcie: Support Function level reset
-         bd35cd12d915bc410c721ba28afcada16f0ebd16 Bluetooth: btintel_pcie: Reword restart to recovery
+         b7dfccf0e52aa4628a731dd555f038d18ddd42fe doc: sco.rst: BT_PHY is read-only
+         883c1c11c6448e7f0ca04e523a5ac2030d7f161c obexd: Pass at_(un)register value to logind callbacks
+         df0036d9e41fc4bb0fe8839b7833bac16359396b pbap: use the public DBus connection
+         aea0f46f173f85a71908452b0c6ed16f647f6117 Revert "obexd: Support creating private system/session bus connections"
          
