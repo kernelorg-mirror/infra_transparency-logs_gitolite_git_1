@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 11 Jun 2025 03:55:42 -0000
-Message-Id: <174961414290.3974850.2314020275568206844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 11 Jun 2025 04:11:20 -0000
+Message-Id: <174961508005.3987272.9910188680079346691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: ad3fd31d4c87e0144845030777815087d8464795
-    new: 303fbec57b588a48279e7f300b94d187bbce724d
+  - ref: refs/heads/damon/next
+    old: 9e93d86f62accd4ba819ffcc0b4fe4fd95ea2de2
+    new: 1cb60cabe50efda833a53e1f41ce412a6985cddc
     log: |
-         be501bbdbef93631ca4aafd094f2a9a6d7efc606 todo: update status
-         303fbec57b588a48279e7f300b94d187bbce724d todo: add new items
+         1cb60cabe50efda833a53e1f41ce412a6985cddc Docs/mm/damon/maintainer-profile: update for mm-new tree
          
