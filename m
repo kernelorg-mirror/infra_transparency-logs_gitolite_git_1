@@ -1,43 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1211093039215959150=="
+Content-Type: multipart/mixed; boundary="===============4451827804897414574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 11 Jun 2025 07:33:51 -0000
-Message-Id: <174962723151.4150429.14504208405853160130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 11 Jun 2025 07:46:31 -0000
+Message-Id: <174962799166.4161513.9602497515705149251@gitolite.kernel.org>
 
---===============1211093039215959150==
+--===============4451827804897414574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/devfreq-testing
-    old: a4bcf6ccfb61f2e8354081ecc584c003d6b91c4e
-    new: 0ee1862e09c38bc1d76a1cc18374d8a7c1cac207
-    log: revlist-a4bcf6ccfb61-0ee1862e09c3.txt
+  - ref: refs/heads/work.dcache
+    old: 2b533e4447b65ea7488892cbc874f32de2a37b33
+    new: cf0fe746d815f4257f190311790fff217ae44752
+    log: revlist-2b533e4447b6-cf0fe746d815.txt
 
---===============1211093039215959150==
+--===============4451827804897414574==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a4bcf6ccfb61-0ee1862e09c3.txt
+Content-Disposition: attachment; filename=revlist-2b533e4447b6-cf0fe746d815.txt
 
-fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
-d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
-8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
-0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
-c59783780c8ad66f6076a9a7c74df3e006e29519 net: airoha: Fix an error handling path in airoha_alloc_gdm_port()
-c6bb8a21cdad8c975a3a646b9e5c8df01ad29783 net/mlx5: Add error handling in mlx5_query_nic_vport_node_guid()
-126cd7852a62c6fab11a4a4cb6fa96421929ab69 net: mctp: start tx queue on netdev open
-09d7ff0694ea133c50ad905fd6e548c13f8af458 tools: ynl: parse extack for sub-messages
-c8ef20fe7274c5766a317f9193b70bed717b6b3d tipc: use kfree_sensitive() for aead cleanup
-a540ee75945a96f606c6ac955bfed5410d318f7d net/mlx5: HWS, Fix an error code in mlx5hws_bwc_rule_create_complex()
-82fb5a369b8de625660c8c7f82e5286ec195be5e mlxsw: core_thermal: Constify struct thermal_zone_device_ops
-08f8bad0255c7319f4ffe53d0f0eab50fa2cb5e9 cxgb4: Constify struct thermal_zone_device_ops
 d9d836bfa5e6e255c411733b4b1ce7a1f8346c54 selftests: net: move wait_local_port_listen to lib.sh
 cb575e5e9fd1cba99f1514c36375e74609f92e70 net: Kconfig NET_DEVMEM selects GENERIC_ALLOCATOR
 e9cb929670a1e98b592b30f03f06e9e20110f318 net: phy: fix up const issues in to_mdio_device() and to_phy_device()
@@ -1041,14 +1029,26 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-b352dd6860d5c73faefff4df139877681d936b60 PM / devfreq: governor: Replace sscanf() with kstrtoul() in set_freq_store()
-aa0cc001f9b653ff226a3862fc7dd56e185320b9 PM / devfreq: Limit max_freq with scaling_min_freq
-bcbecd4b2250b8219ef1b1e0d06eaba9a1596e0c PM / devfreq: Remove redundant devfreq_get_freq_range() calling in devfreq_add_device()
-aedffbe297ece49d1d2ff942267e76b179d09a5a PM / devfreq: Check governor before using governor->name
-765695f9d3cfedae03d461cd3fd66af1c692a309 PM / devfreq: Fix a index typo in trans_stat
-9afe3b29344e13583622bf3a4d8883b97dce828b PM / devfreq: sun8i-a33-mbus: Simplify by using more devm functions
-a579e91b6fd2ad3de31a8df49b10f92b0bd40d6d PM / devfreq: rockchip-dfi: double count on RK3588
-46863830dd646b59a91a853d2da1cc3a68574ece PM / devfreq: rockchip-dfi: add support for LPDDR5
-0ee1862e09c38bc1d76a1cc18374d8a7c1cac207 PM / devfreq: Allow devfreq driver to add custom sysfs ABIs
+5e317d23f6c6c4b59d84e228a2271228e81cc797 d_set_mounted(): we don't need to bump seqcount component of rename_lock
+5943c611c47c9444e834555c867dec744158b7ad procfs: kill ->proc_dops
+790fa81b8c43cda9fe25c1b564d0afe3ddeeb370 new helper: d_splice_alias_ops()
+ec169ef86ba45389b353189cf1fc06461163f667 switch procfs from d_set_d_op() to d_splice_alias_ops()
+4bd9f3fd87e252303e8fef6105b704f05d3f2678 fuse: no need for special dentry_operations for root dentry
+05fb0e666495cda068c068a681ecbbf8e57324d0 new helper: set_default_d_op()
+fcb1e72060391bde188f243b9c3115c78cbffa73 split d_flags calculation out of d_set_d_op()
+18aadae44e783dfc2d9679d9bc01ce35b5d556b0 correct the set of flags forbidden at d_set_d_op() time
+fcb17e05ed8b9e53fe15be608a762ae6095c0f84 set_default_d_op(): calculate the matching value for ->d_flags
+db39d54d22f06463eb3ae9f1997ff29c88ddd463 simple_lookup(): just set DCACHE_DONTCACHE
+ed28782d838274e9e1b6dc39d38329462dae49d4 make d_set_d_op() static
+7386857691c108213c5c60f08eedf6ca81ab6050 d_alloc_parallel(): set DCACHE_PAR_LOOKUP earlier
+9d790137f90adb654ad394f7d365b2bf61d17f11 shmem: no dentry retention past the refcount reaching zero
+80bb50f2833957f545a2052326e25b5116d4c9c3 devpts, sunrpc, hostfs: don't bother with ->d_op
+e9b714c7aa64c67a89c0b417f5b5986f0f82237c kill simple_dentry_operations
+3be560267e6df65c5e0b296ca42127831c24948c ramfs, hugetlbfs, mqueue: set DCACHE_DONTCACHE
+c90ffc95afcf418d106f41bd4eb6377ed9cd6c54 9p: don't bother with always_delete_dentry
+2399eb6f53df6b72cf422657906d72c39951cb80 efivarfs: use DCACHE_DONTCACHE instead of always_delete_dentry()
+15f4ca6d158aeebe6b3447956767838f6adbd4df debugfs: use DCACHE_DONTCACHE
+3e0bd2c602dcaecbd6873aea56edcb2c4feab06e configfs: use DCACHE_DONTCACHE
+cf0fe746d815f4257f190311790fff217ae44752 tracefs: set DCACHE_DONTCACHE
 
---===============1211093039215959150==--
+--===============4451827804897414574==--
