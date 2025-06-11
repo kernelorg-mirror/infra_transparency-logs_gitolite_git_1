@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Jun 2025 19:36:37 -0000
-Message-Id: <174967059729.653676.5806079409751691847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Wed, 11 Jun 2025 19:42:52 -0000
+Message-Id: <174967097216.658363.15032703291248694730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: iweiny
 changes:
-  - ref: refs/heads/master
-    old: 517b088a846b3ce56b3ff07cdf24cd68c89b3a9e
-    new: 3b55a9e6738b7b82a7c57ebaa484aabd0c9d36bd
+  - ref: refs/heads/libnvdimm-fixes
+    old: 173a04ea6d7b957eac361d7a766cde536ff4704b
+    new: 62a65b32bddb0f242b106b8c464913f2f01c108d
     log: |
-         3b55a9e6738b7b82a7c57ebaa484aabd0c9d36bd bpf: Clear user buf when bpf_d_path failed
+         62a65b32bddb0f242b106b8c464913f2f01c108d dt-bindings: pmem: Convert binding to YAML
          
