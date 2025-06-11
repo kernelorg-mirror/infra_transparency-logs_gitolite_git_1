@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9157618637954420811=="
+Content-Type: multipart/mixed; boundary="===============0234690174175519585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 11 Jun 2025 06:25:27 -0000
-Message-Id: <174962312795.4097241.3720636392533849388@gitolite.kernel.org>
+Date: Wed, 11 Jun 2025 06:26:11 -0000
+Message-Id: <174962317178.4097881.8769848563252638191@gitolite.kernel.org>
 
---===============9157618637954420811==
+--===============0234690174175519585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: e7a37c9e428a2912a4eec160e633503cd72e1ee6
     new: 0097c4195b1d0ca57d15979626c769c74747b5a0
     log: revlist-e7a37c9e428a-0097c4195b1d.txt
 
---===============9157618637954420811==
+--===============0234690174175519585==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c4246f4cce05f1134fb9ea82460b5690ab6710a5 octeontx2-pf: Avoid typecasts by simpli
 265c6ff0f8c2feef5981e9a1aedf6b5b476d7492 selftests/net: packetdrill: more xfail changes
 0097c4195b1d0ca57d15979626c769c74747b5a0 net: airoha: Add PPPoE offload support
 
---===============9157618637954420811==--
+--===============0234690174175519585==--
