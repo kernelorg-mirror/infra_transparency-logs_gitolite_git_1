@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1125367602026869951=="
+Content-Type: multipart/mixed; boundary="===============0931324987045785824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 11 Jun 2025 15:42:04 -0000
-Message-Id: <174965652463.449265.6617847299999195102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 11 Jun 2025 15:42:11 -0000
+Message-Id: <174965653172.449632.2755901506573132350@gitolite.kernel.org>
 
---===============1125367602026869951==
+--===============0931324987045785824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.17
-    old: d6fa0ca959db8efd4462d7beef4bdc5568640fd0
-    new: a4eb71ff98c4792f441f108910bd829da7a04092
+  - ref: refs/heads/for-6.17
+    old: 3d594a648b33663fe3bb5588b1359ee0c5dd5e4d
+    new: 6cafcc53eb5fffd9b9bdfde700bb9bad21e98ed3
     log: |
-         55d9fd9819de09e70401b3b5262ff46d5de951b7 regulator: bd718x7: Clarify comment by moving it
-         a4eb71ff98c4792f441f108910bd829da7a04092 regulator: rpi-panel-v2: Fix missing OF dependency
+         414145b4cf6c64831aa497f0ec6cc1ca2d76c1d2 spi: dt-bindings: mediatek,spi-mt65xx: Add support for MT6991/MT8196 SPI
+         6cafcc53eb5fffd9b9bdfde700bb9bad21e98ed3 spi: spi-mt65xx: Add support for MT6991 Dimensity 9400 SPI IPM
          
 
---===============1125367602026869951==
+--===============0931324987045785824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749656558 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1749656522-978cc03cacacca2c32430780954332fea0758e7d
+pusher C3F436CA30F5D8EB 1749656566 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1749656529-ef784408c4f7c41341960b11e7ad52c62f533da7
 
-d6fa0ca959db8efd4462d7beef4bdc5568640fd0 a4eb71ff98c4792f441f108910bd829da7a04092 refs/heads/regulator-6.17
+3d594a648b33663fe3bb5588b1359ee0c5dd5e4d 6cafcc53eb5fffd9b9bdfde700bb9bad21e98ed3 refs/heads/for-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhJo+4ACgkQJNaLcl1U
-h9D+3wf/QWdEUcX0ApSGbkQNG2V36KTuaQO5qhwrJ233b9QnyQTsAjQPVLGTxGmH
-HFSZA/bs3HTltxKIz+FthrhxlwM4wcB64tFFCFzwcjKAoahZAFNyiGrfWpi2BRoo
-5qEm5qPrJffz0RH3qAmQtqy5uGApZX7/+7cJBKfU+ztvMusmMaOqn8zOXO11aXBB
-xBFmWBXA7ZqBivdHmMjT6JBa9pETrr9ynz420adA7riFKyq5bW+3zv7SXD4qv5i7
-KOOYPa5S5fBOADQ0fSGHRKbxbmsYHNW5sFm5Qq1P9Yyb8DOTw0K/gXP0Yqwsy1yB
-iYueqb/NYbruWDFMg2p6oV/Qi5MqIQ==
-=06y7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhJo/YACgkQJNaLcl1U
+h9Aovwf/buFG8TPanpP6Cy2ZGY7OloUZYLm74J+hgQGnXmpfs81XezIGGUq6vk3C
+VazW4UPD9Uj5A3fzxGdk5qHqi1Of9aPSYnkNDy6j3R/hbK9caVCL560wyZ7fVT/d
+30o/rzzer8Ydii1TFUv/kMqBpgr1Vtc2wVNMftMBhuTNW/EQmYeMyMluQI5gMk0l
+U+WkhMU7NfE+W3AYB6uP/RI1DEyQDs7g42D0KOEMCvQnV8zMFIZfnBN9Tdwu2D3e
+wdsJmceX6zKs5XBUByViFH29pHFpwsxoD6/hxCARdkkliwVysUEHAcUd08r+fCGA
+3XOon3I5B7uiO4yhKsaNleH6LrEysA==
+=9Qj7
 -----END PGP SIGNATURE-----
 
---===============1125367602026869951==--
+--===============0931324987045785824==--
