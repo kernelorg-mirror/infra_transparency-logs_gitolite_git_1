@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1804239805439607749=="
+Content-Type: multipart/mixed; boundary="===============6383204676162226514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 11 Jun 2025 14:06:49 -0000
-Message-Id: <174965080903.362822.14261561920337380020@gitolite.kernel.org>
+Date: Wed, 11 Jun 2025 14:06:52 -0000
+Message-Id: <174965081202.362983.11166911462807291109@gitolite.kernel.org>
 
---===============1804239805439607749==
+--===============6383204676162226514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 2c7e4a2663a1ab5a740c59c31991579b6b865a26
     new: 0097c4195b1d0ca57d15979626c769c74747b5a0
     log: revlist-2c7e4a2663a1-0097c4195b1d.txt
 
---===============1804239805439607749==
+--===============6383204676162226514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ c4246f4cce05f1134fb9ea82460b5690ab6710a5 octeontx2-pf: Avoid typecasts by simpli
 265c6ff0f8c2feef5981e9a1aedf6b5b476d7492 selftests/net: packetdrill: more xfail changes
 0097c4195b1d0ca57d15979626c769c74747b5a0 net: airoha: Add PPPoE offload support
 
---===============1804239805439607749==--
+--===============6383204676162226514==--
