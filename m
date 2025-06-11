@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 11 Jun 2025 15:01:18 -0000
-Message-Id: <174965407880.410804.4781857706622947768@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6735265363252455088=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 11 Jun 2025 15:05:19 -0000
+Message-Id: <174965431918.414696.3407178667032592049@gitolite.kernel.org>
+
+--===============6735265363252455088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 85e0d2feef71b048909ed3acf19b47ba441565d3
-    new: 3ac2a5c9e2cebaa4e90f82ce86d0104a4189e808
+  - ref: refs/heads/master
+    old: 0537a20ebdd1c00b39f52a682acd71a83af0cc46
+    new: 5e5d925f0f53b03742d15bd02d26a328cc0815fc
     log: |
-         df66ceadb4dd8fa18cd5b61b0dfb62f5fcb02355 NFSD: Rename a function parameter
-         2f69439a732cf78cec174c281eddadd9e0f38bdb NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort
-         8917ce4075d25f3c8bb884adc664e5b77c44b712 NFSD: Remove the cap on number of operations per NFSv4 COMPOUND
-         3ac2a5c9e2cebaa4e90f82ce86d0104a4189e808 siw: Enable try_gso
+         5e5d925f0f53b03742d15bd02d26a328cc0815fc ez: fix incorrect handling of pre-flight-checks config
          
+
+--===============6735265363252455088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1749654354 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1749654318-90a14757e7fe877994c7780a7f85276d28c568ad
+
+0537a20ebdd1c00b39f52a682acd71a83af0cc46 5e5d925f0f53b03742d15bd02d26a328cc0815fc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaEmbUgAKCRC2xBzjVmSZ
+bIhnAP9Qk/Gap1L1K+TrrcYwOiJ4DsontHReso9Im5GPX7NM0QD/VXkLQ6YkXFO1
+rtL1/v6eQiR+x3+8XBTycS0bGrYYuw0=
+=e7c/
+-----END PGP SIGNATURE-----
+
+--===============6735265363252455088==--
