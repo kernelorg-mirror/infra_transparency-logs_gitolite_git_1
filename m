@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 11 Jun 2025 01:07:02 -0000
-Message-Id: <174960402291.3831067.450403584888262882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 11 Jun 2025 01:19:25 -0000
+Message-Id: <174960476576.3840492.12734640627612278929@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250606-with-new-overflow-stddef-helpers
-    old: 6e6db180c8bb887fcb5a5562ea0b624554418b12
-    new: 001524faa7888b749752e191c04b565e210536e5
+  - ref: refs/heads/fixes
+    old: b79a6fbc74e9d7a0c026c41820a8185d367c3ff5
+    new: cbc0a84fa2a1174d70402e790df4dd6d7d98e096
     log: |
-         001524faa7888b749752e191c04b565e210536e5 overflow/stddef: Add new DEFINE_FLEX_GROUP(), TRAILING_OVERLAP(), and more helper
+         8d90d9872edae7e78c3a12b98e239bfaa66f3639 riscv: fix runtime constant support for nommu kernels
+         cbc0a84fa2a1174d70402e790df4dd6d7d98e096 RISC-V: uaccess: Wrap the get_user_8 uaccess macro
          
