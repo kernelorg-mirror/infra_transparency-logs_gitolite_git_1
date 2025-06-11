@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 11 Jun 2025 16:41:48 -0000
-Message-Id: <174966010843.505065.258988528030534933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 11 Jun 2025 16:53:47 -0000
+Message-Id: <174966082768.513894.11736665051805024576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/pending
-    old: 2c7e4a2663a1ab5a740c59c31991579b6b865a26
-    new: 6414f1985d987c0b15c7c127b5d87228e3c9d3c4
-    log: |
-         6414f1985d987c0b15c7c127b5d87228e3c9d3c4 wifi: ath12k: Avoid CPU busy-wait by handling VDEV_STAT and BCN_STAT
-         
+  - ref: refs/tags/sent/20250609-arm64-gcs-flush-thread-8aeff2a71d5d-v1
+    old: 0000000000000000000000000000000000000000
+    new: bca82f5dbf6c35a4a91cd979f16c4ec760bd39f6
