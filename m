@@ -1,41 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8623259258256452742=="
+Content-Type: multipart/mixed; boundary="===============4557697124481090335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 11 Jun 2025 05:05:59 -0000
-Message-Id: <174961835980.4033459.16351482483470702874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 11 Jun 2025 05:06:10 -0000
+Message-Id: <174961837015.4033895.7439693942613830732@gitolite.kernel.org>
 
---===============8623259258256452742==
+--===============4557697124481090335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: b27cc623e01be9de1580eaa913508b237a7a9673
     new: 19a60293b9925080d97f22f122aca3fc46dadaf9
     log: revlist-b27cc623e01b-19a60293b992.txt
-  - ref: refs/heads/stable
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: aef17cb3d3c43854002956f24c24ec8e1a0e3546
-    log: |
-         cd097df4596f3a1e9d75eb8520162de1eb8485b2 powerpc/powernv/memtrace: Fix out of bounds issue in memtrace mmap
-         0d67f0dee6c9176bc09a5482dd7346e3a0f14d0b powerpc/vas: Return -EINVAL if the offset is non-zero in mmap()
-         f09079bd04a924c72d555cd97942d5f8d7eca98c Merge tag 'powerpc-6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-         aef17cb3d3c43854002956f24c24ec8e1a0e3546 Revert "mm/damon/Kconfig: enable CONFIG_DAMON by default"
-         
-  - ref: refs/tags/next-20250311
-    old: aff4f65c863a13f33dfd32dc88267ce0eb512de0
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250611
     old: 0000000000000000000000000000000000000000
     new: 72d7c68e20e68858d39213d534eb02177c336f95
 
---===============8623259258256452742==
+--===============4557697124481090335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -927,4 +915,4 @@ cb915bb7bd818889b1efea03306787e481a2d6cd Merge branch 'next' of https://git.kern
 2dcf08f3c3e9750056e84de300f88af62a2a867c Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 19a60293b9925080d97f22f122aca3fc46dadaf9 Add linux-next specific files for 20250611
 
---===============8623259258256452742==--
+--===============4557697124481090335==--
