@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Wed, 11 Jun 2025 13:12:03 -0000
-Message-Id: <174964752392.314815.16907287294188380280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 11 Jun 2025 13:13:29 -0000
+Message-Id: <174964760958.315589.15430023140041320834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-user: neeraj.upadhyay
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/rcu-exp.11.06.2025
-    old: 0000000000000000000000000000000000000000
-    new: c142cbe5bc1017beccc1b6d30891362bcf6161dc
-  - ref: refs/heads/rcu.11.06.2025
-    old: 0000000000000000000000000000000000000000
-    new: 768383fa8770896909c76d5c7ea31aa666966246
-  - ref: refs/heads/rcu.merge.11.06.2025
-    old: 0000000000000000000000000000000000000000
-    new: 34f59699aa5b52b9db6e9327c9adc73bc5acee97
-  - ref: refs/heads/rcutorture.11.06.2025
-    old: 0000000000000000000000000000000000000000
-    new: 845daa21dda1437ce80d19a2e25012fb9230ec68
-  - ref: refs/heads/srcu.11.06.2025
-    old: 0000000000000000000000000000000000000000
-    new: 663f6217f8a9c2f8600fca3e5b8c9dce56feef1a
-  - ref: refs/heads/torture-scripts.11.06.2025
-    old: 0000000000000000000000000000000000000000
-    new: 8c34455e25b2575c51c6c4eb01305ef79701cccb
+  - ref: refs/heads/dma-direct-pfn
+    old: 0577e06979d000543caf764193c6628c6fdd67a0
+    new: d2e72004ba20d251d2071d99c69df45016895903
+    log: |
+         3045edcc0a6b42f36fd0687aaea74a688d309d40 dma-mapping: move DMA IOVA API to separate header file
+         93fefd308e3f7984a59e06c2347c87bebdcb4abd dma-mapping: Refactor dma_map_page() to rely on physical address
+         aa84d13a579ce0be675b09d39848b4878a7b374c dma-mapping: add native support for non-IOVA path
+         d2e72004ba20d251d2071d99c69df45016895903 mm/hmm: Avoid struct page use completely in DMA flow
+         
