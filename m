@@ -1,22 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Wed, 11 Jun 2025 18:05:38 -0000
-Message-Id: <174966513839.579236.6521710865103994455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 11 Jun 2025 18:28:06 -0000
+Message-Id: <174966648678.596229.18318074933787064257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/rust/devres
-    old: 75f5966a3ea7a9bc8e7c36036f6b51580428c6f0
-    new: 03e685c245c5e710b055484f2b68dc905056c3e3
+  - ref: refs/heads/arm32-for-6.17
+    old: 25dcfe4042aaa96b3792ffaa933314a4bbebab98
+    new: da7811bb0edbea0208800cfa16516a47b8d45747
     log: |
-         f9ff4a913edd7c61ee5b101227be0b09c03e0ff7 rust: devres: do not dereference to the internal Revocable
-         37f34ee7901282f264711a52473e9ce38a66521f rust: devres: replace Devres::new_foreign_owned()
-         27a6ec326ac751e3fdb508a2de0c6316778b2b9a rust: devres: get rid of Devres' inner Arc
-         03e685c245c5e710b055484f2b68dc905056c3e3 rust: devres: implement register_foreign_release()
+         da7811bb0edbea0208800cfa16516a47b8d45747 ARM: dts: qcom: msm8960: use macros for interrupts
          
+  - ref: refs/heads/arm64-for-6.17
+    old: 277d48b2ab1e1150993ccb233156d0916b0cebd3
+    new: 0bc88e66b3a1e9086f786f1033a03867777a1104
+    log: |
+         b9137c58c737c928d71c3dd2bb3abc47abdd05b6 arm64: dts: qcom: x1e80100-hp-x14: add usb-1-ss1-sbu-mux
+         8766cead89ff362fa19fa5fd93f6752bdf68c2c4 arm64: dts: qcom: x1e80100-hp-x14: remove unused i2c buses
+         0bc88e66b3a1e9086f786f1033a03867777a1104 arm64: dts: qcom: x1e80100-hp-x14: amend order of nodes
+         
+  - ref: refs/heads/arm64-defconfig-for-6.17
+    old: 0000000000000000000000000000000000000000
+    new: c5d02bbaa217b2454ba1ce7528113aa2ecf14f3c
