@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 12 Jun 2025 14:53:04 -0000
-Message-Id: <174973998458.1635843.12229423939820295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Jun 2025 15:02:14 -0000
+Message-Id: <174974053453.1643874.10311700916973499508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: aea0f46f173f85a71908452b0c6ed16f647f6117
-    new: 6bc584b11b8b10dbd717ca4012a6c09afb18d1c7
+  - ref: refs/heads/main
+    old: 27cea0e419d2f9dc6f51bbce5a44c70bc3774b9a
+    new: d4e6cb324dcc952618fec6b25aa3fc7bfc2750b4
     log: |
-         39d9651857658811e1d8c0fb6197b281273eef0e shared/bass: Move cb->handle earlier in the flow
-         6bc584b11b8b10dbd717ca4012a6c09afb18d1c7 bass: support for encrypted broadcast source
+         d4e6cb324dcc952618fec6b25aa3fc7bfc2750b4 net: phy: phy_caps: Don't skip better duplex macth on non-exact match
          
