@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0778133458550596981=="
+Content-Type: multipart/mixed; boundary="===============1849478895178034106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 12 Jun 2025 00:34:51 -0000
-Message-Id: <174968849138.905467.10523555708142551838@gitolite.kernel.org>
+Date: Thu, 12 Jun 2025 00:34:54 -0000
+Message-Id: <174968849405.905732.15923387730642002594@gitolite.kernel.org>
 
---===============0778133458550596981==
+--===============1849478895178034106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: a088ce22c118aacfbce2ea44770acdcc855fa3ad
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: a5806cd506af5a7c19bcd596e4708b5c464bfd21
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-a088ce22c118-19272b37aa4f.txt
+    log: revlist-a5806cd506af-19272b37aa4f.txt
 
---===============0778133458550596981==
+--===============1849478895178034106==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a088ce22c118-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-a5806cd506af-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============0778133458550596981==--
+--===============1849478895178034106==--
