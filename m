@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3138201363992695454=="
+Content-Type: multipart/mixed; boundary="===============9072210430196193296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 12 Jun 2025 16:17:33 -0000
-Message-Id: <174974505360.1711358.143685792257974012@gitolite.kernel.org>
+Date: Thu, 12 Jun 2025 16:17:36 -0000
+Message-Id: <174974505621.1711501.808251303138349256@gitolite.kernel.org>
 
---===============3138201363992695454==
+--===============9072210430196193296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 260388f79e94fb3026c419a208ece8358bb7b555
     new: d5705afbaca2f5b3fb8766391ca6c43105d229b2
     log: revlist-260388f79e94-d5705afbaca2.txt
 
---===============3138201363992695454==
+--===============9072210430196193296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ d78ebc772c7ceccf6e655ddb93099f49a1268af4 net: ethtool: Don't check if RSS contex
 613fd52ea75d70275fa67de0af5af2b5d65bed16 Merge branch 'fix-ntuple-rules-targeting-default-rss'
 d5705afbaca2f5b3fb8766391ca6c43105d229b2 Merge tag 'wireless-2025-06-12' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 
---===============3138201363992695454==--
+--===============9072210430196193296==--
