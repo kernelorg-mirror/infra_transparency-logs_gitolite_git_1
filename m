@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 12 Jun 2025 12:30:21 -0000
-Message-Id: <174973142104.1509495.2265209550862460480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Thu, 12 Jun 2025 12:31:20 -0000
+Message-Id: <174973148073.1510334.1382653260412059925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/20250612_rf_asoc_cs35l56_change_firmware_filenames_for_soundwire
-    old: 0000000000000000000000000000000000000000
-    new: fa8fae5f82e48db1a06ba570a2a3fdc087fc93c0
-  - ref: refs/heads/filek0jeie
-    old: 0000000000000000000000000000000000000000
-    new: 8a5a5cecb79058b608e5562d8998123a3adb313c
-  - ref: refs/heads/fileq7SRRp
-    old: 0000000000000000000000000000000000000000
-    new: ba06528ad5a31923efc24324706116ccd17e12d8
+  - ref: refs/heads/for-next
+    old: 42e4327e3d126266424a4fde60f80897bd7605ae
+    new: 3b4408038da935be7b1efb7589cc1badb6d10a67
+    log: |
+         3b4408038da935be7b1efb7589cc1badb6d10a67 pinctrl: intel: fix build warnings about export.h
+         
