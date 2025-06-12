@@ -1,42 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============2110976918433467930=="
+Content-Type: multipart/mixed; boundary="===============1535881766774155083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 12 Jun 2025 15:27:38 -0000
-Message-Id: <174974205851.1669303.1598491461001668319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 12 Jun 2025 15:29:03 -0000
+Message-Id: <174974214334.1670197.17797987983953035538@gitolite.kernel.org>
 
---===============2110976918433467930==
+--===============1535881766774155083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 2c4a1f3fe03edab80db66688360685031802160a
-    new: 9cc7d5904bab74f54aad4948a04535c1f07c74d8
-    log: revlist-2c4a1f3fe03e-9cc7d5904bab.txt
+  - ref: refs/heads/for-next
+    old: cfb77bf283acf3074e696750f09488a13aa04498
+    new: d1598ed132fa7cd390bfd24550f2b121ed26dc47
+    log: |
+         3d6470990bfc8600609177962a53201cb0640daa dt-bindings: clock: exynosautov920: sort clock definitions
+         da5cb65d25f747236a003b82525eb6de5d49a2e6 dt-bindings: clock: exynosautov920: add hsi2 clock definitions
+         5324ed663da85e312bb628afcfba1a30e343fb73 Merge branch 'for-v6.17/clk-dt-bindings-headers' into next/clk
+         2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15 clk: samsung: exynosautov920: add block hsi2 clock support
+         e2016763590f571cdc3912d6a7ec848d2b61e6c2 arm64: dts: exynosautov920: add CMU_HSI2 clock DT nodes
+         d1598ed132fa7cd390bfd24550f2b121ed26dc47 Merge branches 'next/clk' and 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/clk
+    old: 320e7efce30e2613c2c7877acc46a8e71192cdcd
+    new: 2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15
+    log: |
+         3d6470990bfc8600609177962a53201cb0640daa dt-bindings: clock: exynosautov920: sort clock definitions
+         da5cb65d25f747236a003b82525eb6de5d49a2e6 dt-bindings: clock: exynosautov920: add hsi2 clock definitions
+         5324ed663da85e312bb628afcfba1a30e343fb73 Merge branch 'for-v6.17/clk-dt-bindings-headers' into next/clk
+         2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15 clk: samsung: exynosautov920: add block hsi2 clock support
+         
+  - ref: refs/heads/next/dt64
+    old: 6c1497a4bd72438360d977f37837d9638b702f33
+    new: e2016763590f571cdc3912d6a7ec848d2b61e6c2
+    log: |
+         e2016763590f571cdc3912d6a7ec848d2b61e6c2 arm64: dts: exynosautov920: add CMU_HSI2 clock DT nodes
+         
+  - ref: refs/heads/for-v6.17/clk-dt-bindings-headers
+    old: 0000000000000000000000000000000000000000
+    new: da5cb65d25f747236a003b82525eb6de5d49a2e6
 
---===============2110976918433467930==
+--===============1535881766774155083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c4a1f3fe03e-9cc7d5904bab.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-56ec63a6e107e724619e61c7e605b49d365dfa07 pinctrl: qcom: switch to devm_gpiochip_add_data()
-315345610faee8a0568b522dba9e35067d1732ab pinctrl: qcom: pinctrl-qcm2290: Add missing pins
-fcd65d65fd85dbde090ef8c2615760ebc5ccf9e3 pinctrl: st: Drop unused st_gpio_bank() function
-d38e00c417e1ca0c586802e47ad7d54347c91f67 pinctrl: MAINTAINERS: Drop bouncing Jianlong Huang
-24b0277c1c539cd41539d9297baafc62df04464a pinctrl: tb10x: Drop of_match_ptr for ID table
-ea7caffedd011f7d40abe93a884ffbe46f122535 ARC: atomics: Implement arch_atomic64_cmpxchg using _relaxed
-857f4517965b282234e12f6bca0c21ef10eec09b ARC: unwind: Use built-in sort swap to reduce code size and improve performance
-2cb74be378675c860af0fcaf1ec2801beebdf028 ARC: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
-179e949719fe81219a3e23f1e716ac2d02eea845 ARC: Replace __ASSEMBLY__ with __ASSEMBLER__ in the non-uapi headers
-5558f27a58459a4038ebb23bcb5bd40c1e345c57 pinctrl: sunxi: dt: Consider pin base when calculating bank number from pin
-3d853391c441965d30cc94d00d59e8bb2dd0668c Merge tag 'arc-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-9cc7d5904bab74f54aad4948a04535c1f07c74d8 Merge tag 'pinctrl-v6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+certificate version 0.1
+pusher krzk@kernel.org 1749742177 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1749742140-d018e3684e2b9c24c4b17d45ef837d99bc42edcf
 
---===============2110976918433467930==--
+cfb77bf283acf3074e696750f09488a13aa04498 d1598ed132fa7cd390bfd24550f2b121ed26dc47 refs/heads/for-next
+320e7efce30e2613c2c7877acc46a8e71192cdcd 2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15 refs/heads/next/clk
+6c1497a4bd72438360d977f37837d9638b702f33 e2016763590f571cdc3912d6a7ec848d2b61e6c2 refs/heads/next/dt64
+0000000000000000000000000000000000000000 da5cb65d25f747236a003b82525eb6de5d49a2e6 refs/heads/for-v6.17/clk-dt-bindings-headers
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhK8mEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD185tD/wLodoh55Tnsa6YyyGUTcrbqrGwmyn2abT7
+RJLm7EhlEYcz28zmtl7UulwGf81j1P4PFgXKfjRcu6Gn76Dx9uRmtNANoOm5k0kq
+lrW4DS8A/OzQs28Sz/LLHl9dvRFt+FwgUO9TizF0Z3GsZBU8oIfPDMVkKwNuPn7Z
+Co9JazO3tgwBkwtiJ+2BaE+V6LFiI5XWVwuTMu3qj0fSW+4ipIraJqcVfzyxJf1z
+9Uac15J+hC3RoWwLIJ0Lcu4WgaVc+q01hejxo/h937ABf+7d5CjdsBNyyxV5YCPp
+cmDY9BXNApb2DyjxpCcQf5yYEWKNvCo9tVk13c5/Ro8uCpUGnyABLCEmbpSejKHW
+CMmiDDKQQ3V9QO23D7GoPzKBFt9UBaXGzIV+qO4Mx91x5mk74MdW3/YwL58BWhKJ
+mqLKanpK3bt0Feldvut2TAc9sJTm33ZCWr22wlC1KPr4EQxkD1UKAH4Bh9gRlpio
+H6j6exS/NtEMcKGaQeai173X1W595rsJvyYAfKLS0gT0PmD8lfO2erAKE4mMurZT
+juI08+OIR3X8ZgRa9Iirkov7WNeJi764SI7RL3WvfSJBfrz1aFOL69316tkPLNf0
+gJNlpaM0owFmP8heBVmtNOGWxbcZVfmJS2o6Bm4qih3LVp5UfcOPzSPDAVN16osz
+5wPCRxpMlw==
+=Gj8B
+-----END PGP SIGNATURE-----
+
+--===============1535881766774155083==--
