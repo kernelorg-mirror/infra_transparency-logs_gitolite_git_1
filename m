@@ -1,24 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 12 Jun 2025 20:06:38 -0000
-Message-Id: <174975879817.1915514.6361829986567136871@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3978789793391769396=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 12 Jun 2025 20:19:10 -0000
+Message-Id: <174975955083.1924521.12535238219214938482@gitolite.kernel.org>
+
+--===============3978789793391769396==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 8d90d9872edae7e78c3a12b98e239bfaa66f3639
-    new: 2aa5801ada29948ce510fc8b1e3b3ec8162423e2
+  - ref: refs/heads/master
+    old: d60bccd270fa344c15effbc418a1afcdd923c960
+    new: 6de5bfd8b6203c656d7149a72176ba7d5b2e0b57
     log: |
-         4262bd0d9cc704ea1365ac00afc1272400c2cbef riscv: vector: Fix context save/restore with xtheadvector
-         2b9518684f8558cd61a7c608cc03a27822cf7b03 RISC-V: vDSO: Correct inline assembly constraints in the getrandom syscall wrapper
-         5c5ecd1f3413cce5474a16255f4212680d3ca5d5 Merge tag 'riscv-fixes-6.16-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/alexghiti/linux into fixes
-         bc75552b80e6683b2def5a0459433607ea4788f5 raid6: riscv: Fix NULL pointer dereference caused by a missing clobber
-         dbe0038b65ff4b8c13b862f24c0381e0d9196e5f Merge patch "Fix a segmentation fault also add raid6test for RISC-V support"
-         2aa5801ada29948ce510fc8b1e3b3ec8162423e2 RISC-V: uaccess: Wrap the get_user_8 uaccess macro
+         e8550e23b94c97782af199c25fdb78ec61222656 Ensure tests pass mypy strict
+         6de5bfd8b6203c656d7149a72176ba7d5b2e0b57 Update requirements.txt with latest data
          
+
+--===============3978789793391769396==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1749759586 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1749759549-b9f6e7b416d1107144f50f24928b6b706e0dc32f
+
+d60bccd270fa344c15effbc418a1afcdd923c960 6de5bfd8b6203c656d7149a72176ba7d5b2e0b57 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaEs2YgAKCRC2xBzjVmSZ
+bA4hAQCR1kFONrLrBFxn1CElQB2yuZwe4EC0bCn/tOGaNeNzCAD/VWR9Kj0s7MYL
+MvsBVIbIwrkrFtIX3+kDC4UZBozRrgs=
+=Nwx8
+-----END PGP SIGNATURE-----
+
+--===============3978789793391769396==--
