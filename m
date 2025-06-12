@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3358926520497250942=="
+Content-Type: multipart/mixed; boundary="===============3632813118149817554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 12 Jun 2025 23:53:18 -0000
-Message-Id: <174977239830.2107440.1610764801106936636@gitolite.kernel.org>
+Date: Thu, 12 Jun 2025 23:53:31 -0000
+Message-Id: <174977241169.2107843.1116854910963146846@gitolite.kernel.org>
 
---===============3358926520497250942==
+--===============3632813118149817554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: de7904f603a6c33630ccee40c0f2a9369444dc4a
+  - ref: refs/heads/for-next
+    old: 1c66f4a3612c194f9b76e46e478bffa23398bf43
     new: fa6932577c073497379a1f5901ea5b208a38da10
-    log: revlist-de7904f603a6-fa6932577c07.txt
+    log: revlist-1c66f4a3612c-fa6932577c07.txt
 
---===============3358926520497250942==
+--===============3632813118149817554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de7904f603a6-fa6932577c07.txt
+Content-Disposition: attachment; filename=revlist-1c66f4a3612c-fa6932577c07.txt
 
 baaebe0928bf321a1cd980d569e308dec66be94c Revert "bpf: use common instruction history across all states"
 96c6aa4c63af0bb0675c41b3e61a2fc7f6fed998 bpf: compute SCCs in program control flow graph
@@ -43,4 +43,4 @@ e3f6660b78b07a6662f65e44414d7d554e04801f Merge branch 'bpf-propagate-read-precis
 50034d93628143c747e90418b5bf7df6851ac612 docs/bpf: Default cpu version changed from v1 to v3 in llvm 20
 fa6932577c073497379a1f5901ea5b208a38da10 bpf: Initialize used but uninit variable in propagate_liveness()
 
---===============3358926520497250942==--
+--===============3632813118149817554==--
