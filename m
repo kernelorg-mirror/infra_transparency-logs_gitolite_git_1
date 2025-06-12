@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 12 Jun 2025 05:07:44 -0000
-Message-Id: <174970486456.1140945.11366573782193638056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 12 Jun 2025 05:33:06 -0000
+Message-Id: <174970638682.1161224.161057848137060164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/testing
-    old: 766f6a784bdfd0747c66e40102e53c48bb89e135
-    new: c0f21029f123d1b15f8eddc8e3976bf0c8781c43
-    log: |
-         c0f21029f123d1b15f8eddc8e3976bf0c8781c43 xfrm: always initialize offload path
-         
+  - ref: refs/heads/wip-sha512
+    old: 0000000000000000000000000000000000000000
+    new: 1f6bd08e15f556f28aec0200019cb06895f372ca
