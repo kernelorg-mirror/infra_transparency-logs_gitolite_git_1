@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Thu, 12 Jun 2025 10:54:53 -0000
-Message-Id: <174972569369.1426060.5902301964659512335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 12 Jun 2025 11:07:29 -0000
+Message-Id: <174972644909.1437107.7342863261069603682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: 97011d1f4e98ecb07ff6aadb14d218a8265b4799
-    new: 84d9dd2fcbc865a35d7f04d9b465b05ef286d281
+  - ref: refs/heads/wip/leon-for-next
+    old: d629cf6ce09a0cbb8eb86fe58c109b437e7e74ec
+    new: c81fef22020c7467c08929330009c7c613e5ff5c
     log: |
-         84d9dd2fcbc865a35d7f04d9b465b05ef286d281 dtc: Add data_insert_data function
-         
-  - ref: refs/heads/master
-    old: 97011d1f4e98ecb07ff6aadb14d218a8265b4799
-    new: 84d9dd2fcbc865a35d7f04d9b465b05ef286d281
-    log: |
-         84d9dd2fcbc865a35d7f04d9b465b05ef286d281 dtc: Add data_insert_data function
+         c81fef22020c7467c08929330009c7c613e5ff5c RDMA/rxe: Remove redundant page presence check
          
