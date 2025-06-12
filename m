@@ -1,38 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2533347162440250928=="
+Content-Type: multipart/mixed; boundary="===============2176105925580941728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 12 Jun 2025 04:06:57 -0000
-Message-Id: <174970121705.1089807.8296873067791084205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 12 Jun 2025 04:07:06 -0000
+Message-Id: <174970122648.1090185.10941379152536201777@gitolite.kernel.org>
 
---===============2533347162440250928==
+--===============2176105925580941728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 19a60293b9925080d97f22f122aca3fc46dadaf9
     new: 0bb71d301869446810a0b13d3da290bd455d7c78
     log: revlist-19a60293b992-0bb71d301869.txt
-  - ref: refs/heads/stable
-    old: aef17cb3d3c43854002956f24c24ec8e1a0e3546
-    new: 488ef3560196ee10fc1c5547e1574a87068c3494
-    log: |
-         488ef3560196ee10fc1c5547e1574a87068c3494 KEYS: Invert FINAL_PUT bit
-         
-  - ref: refs/tags/next-20250312
-    old: 3dc6dfee650a7f0175424667b8cdd18c456f6038
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250612
     old: 0000000000000000000000000000000000000000
     new: d909e6968a15f0e6dd11c541b65f740691bbc98c
 
---===============2533347162440250928==
+--===============2176105925580941728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -592,4 +583,4 @@ e9be3cb65783fc19323c31b1e3ba55be47e4414c Merge branch 'next' of git://git.kernel
 87c8aabd95b37ce45eb38965a1802554aba0ed70 Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 0bb71d301869446810a0b13d3da290bd455d7c78 Add linux-next specific files for 20250612
 
---===============2533347162440250928==--
+--===============2176105925580941728==--
