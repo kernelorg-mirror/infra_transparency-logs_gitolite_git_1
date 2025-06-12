@@ -1,31 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0110188839092008515=="
+Content-Type: multipart/mixed; boundary="===============0778133458550596981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 12 Jun 2025 00:12:33 -0000
-Message-Id: <174968715342.888175.1669969923055547710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 12 Jun 2025 00:34:51 -0000
+Message-Id: <174968849138.905467.10523555708142551838@gitolite.kernel.org>
 
---===============0110188839092008515==
+--===============0778133458550596981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/dt/memory-region
-    old: 3f71b910daf21295ece36068c590dfe7d54d0626
-    new: acb6a336a64dc26032171de30a4d43a25aa88284
-    log: revlist-3f71b910daf2-acb6a336a64d.txt
+  - ref: refs/heads/i2c/i2c-host
+    old: a088ce22c118aacfbce2ea44770acdcc855fa3ad
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-a088ce22c118-19272b37aa4f.txt
 
---===============0110188839092008515==
+--===============0778133458550596981==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3f71b910daf2-acb6a336a64d.txt
+Content-Disposition: attachment; filename=revlist-a088ce22c118-19272b37aa4f.txt
 
+35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
+9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
+5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
+70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
+54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
+fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
+d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
+8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
+0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
+c59783780c8ad66f6076a9a7c74df3e006e29519 net: airoha: Fix an error handling path in airoha_alloc_gdm_port()
+c6bb8a21cdad8c975a3a646b9e5c8df01ad29783 net/mlx5: Add error handling in mlx5_query_nic_vport_node_guid()
+126cd7852a62c6fab11a4a4cb6fa96421929ab69 net: mctp: start tx queue on netdev open
+09d7ff0694ea133c50ad905fd6e548c13f8af458 tools: ynl: parse extack for sub-messages
 c8ef20fe7274c5766a317f9193b70bed717b6b3d tipc: use kfree_sensitive() for aead cleanup
 a540ee75945a96f606c6ac955bfed5410d318f7d net/mlx5: HWS, Fix an error code in mlx5hws_bwc_rule_create_complex()
 82fb5a369b8de625660c8c7f82e5286ec195be5e mlxsw: core_thermal: Constify struct thermal_zone_device_ops
@@ -1033,22 +1050,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-a77198b051a82fecfe3fb4868045892ef935d7b8 of: Common "memory-region" parsing
-ad8112ef27e513573350ff33dfc28c2796c294ec remoteproc: Use of_reserved_mem_region_* functions for "memory-region"
-8716476a2b38eb39c434ad14542cd1dd5c43c351 tpm: Use of_reserved_mem_region_to_resource() for "memory-region"
-3d26242c29af4c02aca72503fdb5d459efa855f6 firmware: tegra: bpmp: Use of_reserved_mem_region_to_resource() for "memory-region"
-035f29c0f73979621bc05464950652833bfec967 fsi: master-ast-cf: Use of_reserved_mem_region_to_resource for "memory-region"
-3a3fdb656ec69778a3bbe109cb0cc4033c4573c7 drm/msm: Use of_reserved_mem_region_to_resource() for "memory-region"
-de5f20021f5bd55863f9fc867a5991d41d4501c3 drm/simpledrm: Use of_reserved_mem_region_to_resource() for "memory-region"
-7b6ddd35b62d206ad0119b1b3e357de9df7d21ff media: Use of_reserved_mem_region_to_resource() for "memory-region"
-a1e29ec9d330c344aff8d5bc51fd9a9d4cc029a2 misc: fastrpc: Use of_reserved_mem_region_to_resource() for "memory-region"
-050d93627f59cfe49ee3d5f2e96a97d0e8244d21 net: Use of_reserved_mem_region_to_resource{_byname}() for "memory-region"
-5b4bc3c2294b891a39c778088f00b2c8249a56b6 wireless: Use of_reserved_mem_region_to_resource() for "memory-region"
-6f0b9713e92ffc273cebaaa38ebfafbbf0051d5e soc: aspeed: Use of_reserved_mem_region_to_resource() for "memory-region"
-13d36b7dbf0719374abee0f87ebe34ebd1024e6f fbdev: simplefb: Use of_reserved_mem_region_to_resource() for "memory-region"
-33a7f934b5564c3b26dc0984c21a770428c1a1c3 watchdog: rti_wdt: Use of_reserved_mem_region_to_resource() for "memory-region"
-abfef1238782a8a12da06e1c707572039ec2ec96 ASoC: Use of_reserved_mem_region_to_resource() for "memory-region"
-fe695b0151e4eb63f746fff059491762bfb96c4d hwtracing: Use of_reserved_mem_region_to_resource() for "memory-region"
-acb6a336a64dc26032171de30a4d43a25aa88284 spi: Use of_reserved_mem_region_to_resource() for "memory-region"
 
---===============0110188839092008515==--
+--===============0778133458550596981==--
