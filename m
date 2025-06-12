@@ -1,60 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2789728764985178092=="
+Content-Type: multipart/mixed; boundary="===============2110976918433467930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Thu, 12 Jun 2025 15:25:25 -0000
-Message-Id: <174974192529.1668169.8586232330997304932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 12 Jun 2025 15:27:38 -0000
+Message-Id: <174974205851.1669303.1598491461001668319@gitolite.kernel.org>
 
---===============2789728764985178092==
+--===============2110976918433467930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 6cd594ed969d5cfc7f97029f8ca0d240637ebb8d
-    log: |
-         4ce310e733d8e520e52772099ebeb980fd491cec ARM: dts: vt8500: Add node address and reg in CPU nodes
-         ab46710603aba03ec6881152219ee7de27d20eff ARM: dts: vt8500: Move memory nodes to board dts and fix addr/size
-         8b37e3c425c3fa8439ec2e100521cb1e9651741e ARM: dts: vt8500: Use generic node name for the SD/MMC controller
-         1918e51321c0c34341397644512568ac3451e416 ARM: dts: vt8500: Fix the unit address of the VT8500 LCD controller
-         6cd594ed969d5cfc7f97029f8ca0d240637ebb8d ARM: dts: vt8500: Add L2 cache controller on WM8850/WM8950
-         
+  - ref: refs/heads/master
+    old: 2c4a1f3fe03edab80db66688360685031802160a
+    new: 9cc7d5904bab74f54aad4948a04535c1f07c74d8
+    log: revlist-2c4a1f3fe03e-9cc7d5904bab.txt
 
---===============2789728764985178092==
+--===============2110976918433467930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2c4a1f3fe03e-9cc7d5904bab.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1749741959 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1749741923-12936147a8bc6443c22636d3f4d70d2a76c0c7ba
+56ec63a6e107e724619e61c7e605b49d365dfa07 pinctrl: qcom: switch to devm_gpiochip_add_data()
+315345610faee8a0568b522dba9e35067d1732ab pinctrl: qcom: pinctrl-qcm2290: Add missing pins
+fcd65d65fd85dbde090ef8c2615760ebc5ccf9e3 pinctrl: st: Drop unused st_gpio_bank() function
+d38e00c417e1ca0c586802e47ad7d54347c91f67 pinctrl: MAINTAINERS: Drop bouncing Jianlong Huang
+24b0277c1c539cd41539d9297baafc62df04464a pinctrl: tb10x: Drop of_match_ptr for ID table
+ea7caffedd011f7d40abe93a884ffbe46f122535 ARC: atomics: Implement arch_atomic64_cmpxchg using _relaxed
+857f4517965b282234e12f6bca0c21ef10eec09b ARC: unwind: Use built-in sort swap to reduce code size and improve performance
+2cb74be378675c860af0fcaf1ec2801beebdf028 ARC: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
+179e949719fe81219a3e23f1e716ac2d02eea845 ARC: Replace __ASSEMBLY__ with __ASSEMBLER__ in the non-uapi headers
+5558f27a58459a4038ebb23bcb5bd40c1e345c57 pinctrl: sunxi: dt: Consider pin base when calculating bank number from pin
+3d853391c441965d30cc94d00d59e8bb2dd0668c Merge tag 'arc-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+9cc7d5904bab74f54aad4948a04535c1f07c74d8 Merge tag 'pinctrl-v6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 6cd594ed969d5cfc7f97029f8ca0d240637ebb8d refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhK8YcQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13b4D/9NeDf8S8xbfgxXlrqRQ6Ehet4g80sug3GY
-k7Ux9HrAx/tZTCZdN4tCQvAOs4q68bvVo06pWtQ7x7tMOoe3UVJhnYt4HXfOQpXR
-yUAKW0R6nlHxcuvaF35nC4LqQAN1jBaDLTZsHBDrlo1hfUWPiSG88/d9viiCkXre
-z9QpnLtdmCkNjj0loqCxqvjOIrJ14THSW8FcdX7X3yaSJ+57/1+on3J+VVGic1sV
-MqIek76q/YBZhRaegzH4Pw4xxKWEc+gIDYFxmDrBEkYql2FL/0aKHXIVAGRHCcTe
-BfVdN6sOzJ+A9aJZGAzu5cwW+JZJlsWNrK8ciGrU/ub/FU+qHuh2MY4L+elzvA8+
-UqvxZykH7yy5TeIUH8UjNRIfqex4zbaB+Wp+F0U1W0xuTQ+S3qUAZ+sIW/YMbbaB
-sUZvd8fQ7Z/XPkPC/P1YIMBmPx3eMezMlmVdC2UekZkwa3fNML22iWY+komEGn/p
-0cakkd87QAsza7t7VQxoDbjNWlCPNjV6rU449wZHX6+i5HBHZWVDg9vYMEuRgy7U
-YaefjL446+eFYA7+1xOKFlrocbDddffIBM1XwtTI9AoTph4mp+E1Z+tyMsuT6h4P
-IP0Dc03GofTgzW8xsRlvu/2sIdmnesXudTGh9sBCCOmMjxWPdpMT5AVwtKufm2hO
-sHeRfVSXoQ==
-=yAk6
------END PGP SIGNATURE-----
-
---===============2789728764985178092==--
+--===============2110976918433467930==--
