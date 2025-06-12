@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7941545807905181222=="
+Content-Type: multipart/mixed; boundary="===============7730497723306594406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Thu, 12 Jun 2025 01:44:59 -0000
-Message-Id: <174969269921.969553.257231883917736018@gitolite.kernel.org>
+Date: Thu, 12 Jun 2025 01:45:08 -0000
+Message-Id: <174969270887.971583.5748579949865326730@gitolite.kernel.org>
 
---===============7941545807905181222==
+--===============7730497723306594406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/ndctl/ndctl
 user: aschofie
 changes:
-  - ref: refs/heads/pending
+  - ref: refs/heads/main
     old: 92d5203077553bfc9f7bf1c219563db0fc28e660
     new: 74b9e411bf13e87df39a517d10143fafa7e2ea92
     log: revlist-92d520307755-74b9e411bf13.txt
 
---===============7941545807905181222==
+--===============7730497723306594406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ d014bb43454bb5d12c82d2738a99b2fb08f11ad6 test/cxl-features.sh: add test for CXL 
 d37d7738eade9b7f007a4917f89ab99fdc4c137c README.md: update the kernel config requirement for unit tests
 74b9e411bf13e87df39a517d10143fafa7e2ea92 ndctl: release v82
 
---===============7941545807905181222==--
+--===============7730497723306594406==--
