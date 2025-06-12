@@ -1,47 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3978789793391769396=="
+Content-Type: multipart/mixed; boundary="===============3619736381959548161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 12 Jun 2025 20:19:10 -0000
-Message-Id: <174975955083.1924521.12535238219214938482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
+Date: Thu, 12 Jun 2025 20:25:39 -0000
+Message-Id: <174975993978.1932142.13000917626947798990@gitolite.kernel.org>
 
---===============3978789793391769396==
+--===============3619736381959548161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sven/linux
+user: sven
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: d60bccd270fa344c15effbc418a1afcdd923c960
-    new: 6de5bfd8b6203c656d7149a72176ba7d5b2e0b57
-    log: |
-         e8550e23b94c97782af199c25fdb78ec61222656 Ensure tests pass mypy strict
-         6de5bfd8b6203c656d7149a72176ba7d5b2e0b57 Update requirements.txt with latest data
-         
+  - ref: refs/heads/b4/apple-kconfig-defconfig
+    old: 0000000000000000000000000000000000000000
+    new: 8483af46a89d46c125beaa9a45e258bd0cc4e797
 
---===============3978789793391769396==
+--===============3619736381959548161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1749759586 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1749759549-b9f6e7b416d1107144f50f24928b6b706e0dc32f
+pusher 44117D242A751EE9! 1749759969 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
+nonce 1749759932-d246fb5ceaad188cadd15750bdc8072b054fd541
 
-d60bccd270fa344c15effbc418a1afcdd923c960 6de5bfd8b6203c656d7149a72176ba7d5b2e0b57 refs/heads/master
+0000000000000000000000000000000000000000 8483af46a89d46c125beaa9a45e258bd0cc4e797 refs/heads/b4/apple-kconfig-defconfig
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaEs2YgAKCRC2xBzjVmSZ
-bA4hAQCR1kFONrLrBFxn1CElQB2yuZwe4EC0bCn/tOGaNeNzCAD/VWR9Kj0s7MYL
-MvsBVIbIwrkrFtIX3+kDC4UZBozRrgs=
-=Nwx8
+iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaEs34QAKCRBEEX0kKnUe
+6dH6AP9+o7EkM7P3/SLnWqErWOUNfOuAFoFIG2FV9QKDyOBaNgD/brAz8ymr7nav
+b/Dh8d7Evszt6vzkWmmdrmMMTp2MIgg=
+=PEA0
 -----END PGP SIGNATURE-----
 
---===============3978789793391769396==--
+--===============3619736381959548161==--
