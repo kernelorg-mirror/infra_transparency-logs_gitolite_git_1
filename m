@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6097394203067782044=="
+Content-Type: multipart/mixed; boundary="===============7098034374338814322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 12 Jun 2025 15:43:35 -0000
-Message-Id: <174974301524.1682367.2135812354495906606@gitolite.kernel.org>
+Date: Thu, 12 Jun 2025 15:43:44 -0000
+Message-Id: <174974302400.1682646.6168068565869585605@gitolite.kernel.org>
 
---===============6097394203067782044==
+--===============7098034374338814322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 260388f79e94fb3026c419a208ece8358bb7b555
-    new: d5705afbaca2f5b3fb8766391ca6c43105d229b2
-    log: revlist-260388f79e94-d5705afbaca2.txt
+  - ref: refs/heads/dev-queue
+    old: be88b28a31c338d75a05c9669806c4e5c33f0318
+    new: 4b5e2cf7bca50835e5030137d47d759da3646379
+    log: revlist-be88b28a31c3-4b5e2cf7bca5.txt
 
---===============6097394203067782044==
+--===============7098034374338814322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-260388f79e94-d5705afbaca2.txt
+Content-Disposition: attachment; filename=revlist-be88b28a31c3-4b5e2cf7bca5.txt
 
 1650d32b92b01db03a1a95d69ee74fcbc34d4b00 ath10k: snoc: fix unbalanced IRQ enable in crash recovery
 dc9c4252fe0d7a7f1ee904405ea91534277305bf wifi: ath10k: Avoid vdev delete timeout when firmware is already down
@@ -86,5 +86,14 @@ d78ebc772c7ceccf6e655ddb93099f49a1268af4 net: ethtool: Don't check if RSS contex
 56c5d291e88538621029e5c7c5f60540d37846a8 selftests: drv-net: rss_ctx: Add test for ntuple rules targeting default RSS context
 613fd52ea75d70275fa67de0af5af2b5d65bed16 Merge branch 'fix-ntuple-rules-targeting-default-rss'
 d5705afbaca2f5b3fb8766391ca6c43105d229b2 Merge tag 'wireless-2025-06-12' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+5487ef8d27a09b00594183ee5cf00e1cdd6470e5 coccinelle: misc: secs_to_jiffies script: Create dummy report
+e5bae4bf82f374df51e65626d62e4faa2af40568 ice: fix lane number calculation
+c7a19b6bce193fb36f770220b8483442e9cf78ad ice: fix fwlog after driver reinit
+e27a719edd7340caf48ba56b1c5238bd44749c08 ice: fix eswitch code memory leak in reset scenario
+f9cc2f1e9994b3b076f17fb78289dd1ffcd3a0b1 net: ice: Perform accurate aRFS flow match
+5706a0392b8fc7556eff50975873abebfd18774b ice: add NULL check in eswitch lag check
+801774c9827878d7101ba184166ddfcaf71106b8 idpf: return 0 size for RSS key if not supported
+162f984d8b11d5ae7038a4f0eed5f02214eefb0f e1000e: set fixed clock frequency indication for Nahum 11 and Nahum 13
+4b5e2cf7bca50835e5030137d47d759da3646379 idpf: convert control queue mutex to a spinlock
 
---===============6097394203067782044==--
+--===============7098034374338814322==--
