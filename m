@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9054642671629642713=="
+Content-Type: multipart/mixed; boundary="===============2789728764985178092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Thu, 12 Jun 2025 15:25:11 -0000
-Message-Id: <174974191112.1667766.11546381868759531493@gitolite.kernel.org>
+Date: Thu, 12 Jun 2025 15:25:25 -0000
+Message-Id: <174974192529.1668169.8586232330997304932@gitolite.kernel.org>
 
---===============9054642671629642713==
+--===============2789728764985178092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
+  - ref: refs/heads/for-next
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: 6cd594ed969d5cfc7f97029f8ca0d240637ebb8d
     log: |
@@ -27,34 +27,34 @@ changes:
          6cd594ed969d5cfc7f97029f8ca0d240637ebb8d ARM: dts: vt8500: Add L2 cache controller on WM8850/WM8950
          
 
---===============9054642671629642713==
+--===============2789728764985178092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1749741945 +0200
+pusher krzk@kernel.org 1749741959 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1749741909-73e0ee71aab63b63caf1298ae95f583f71d7c532
+nonce 1749741923-12936147a8bc6443c22636d3f4d70d2a76c0c7ba
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 6cd594ed969d5cfc7f97029f8ca0d240637ebb8d refs/heads/next/dt
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 6cd594ed969d5cfc7f97029f8ca0d240637ebb8d refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhK8XkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18wjD/wLvhyDqamAz4Wx5nX8axyjLPNB0EiAsRqD
-MViQnoGayYZNDEwW69OxnnBYOHLkSUqqYHnbEdhe11QAuI6Sy3MXuuFXLReC4yq0
-xkpgGhsSwqsg+bHADdPMdoNzsb4kbU5cCYnNmrRJaVs5QPdzCSpsmVkb39azg2cc
-d8cENYLFEJY2I88j603mcxhqnvPiJDXmJODqQmy1o90lQNogrCli6/DEIsGWgebz
-FO2R53v2tSlhb5ZIwGwJl2I9f1HmsQ+LzoQtJqH9aDNKlP/iEd4QdTFUyicuFkDs
-OR0jFyqa5KkmLL1El6lH8rhuXNN7xX098n3MsZ8Sh1RxWPMOFskZ1bBHVUF9jX5F
-w5S6+ETutKCVP6UvB3FHFfLFwIiLuQCdqXUKq6eTDy3gyIu4jNcJ4kbGIIyhzxaZ
-KfnX7vP/1StM7GSeAjzJitD+sr3jOlPLIutIt/Uei0FH8cYduD7/juh4eSFGVBDm
-+d+mtjxqOhJLtwJTQGs7cGeLePbvz24k7A4v4d2NvTwiFqoydZFIcZYwNOx35zHT
-0J2m9jdqslA6oKrvSMdI5O+I56mGlPOjLAKr9wytmE9tYk5tQaRXioeSxS/B2P6s
-zc5SoX1SDSCy9g3INimx0pcc3+OHe2ae/XFJ9luLgsGhAI6M5+QwqNFKLfhkycO3
-5cg3EnSh/g==
-=GutA
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhK8YcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13b4D/9NeDf8S8xbfgxXlrqRQ6Ehet4g80sug3GY
+k7Ux9HrAx/tZTCZdN4tCQvAOs4q68bvVo06pWtQ7x7tMOoe3UVJhnYt4HXfOQpXR
+yUAKW0R6nlHxcuvaF35nC4LqQAN1jBaDLTZsHBDrlo1hfUWPiSG88/d9viiCkXre
+z9QpnLtdmCkNjj0loqCxqvjOIrJ14THSW8FcdX7X3yaSJ+57/1+on3J+VVGic1sV
+MqIek76q/YBZhRaegzH4Pw4xxKWEc+gIDYFxmDrBEkYql2FL/0aKHXIVAGRHCcTe
+BfVdN6sOzJ+A9aJZGAzu5cwW+JZJlsWNrK8ciGrU/ub/FU+qHuh2MY4L+elzvA8+
+UqvxZykH7yy5TeIUH8UjNRIfqex4zbaB+Wp+F0U1W0xuTQ+S3qUAZ+sIW/YMbbaB
+sUZvd8fQ7Z/XPkPC/P1YIMBmPx3eMezMlmVdC2UekZkwa3fNML22iWY+komEGn/p
+0cakkd87QAsza7t7VQxoDbjNWlCPNjV6rU449wZHX6+i5HBHZWVDg9vYMEuRgy7U
+YaefjL446+eFYA7+1xOKFlrocbDddffIBM1XwtTI9AoTph4mp+E1Z+tyMsuT6h4P
+IP0Dc03GofTgzW8xsRlvu/2sIdmnesXudTGh9sBCCOmMjxWPdpMT5AVwtKufm2hO
+sHeRfVSXoQ==
+=yAk6
 -----END PGP SIGNATURE-----
 
---===============9054642671629642713==--
+--===============2789728764985178092==--
