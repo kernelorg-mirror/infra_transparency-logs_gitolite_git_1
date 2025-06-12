@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4327105031959578951=="
+Content-Type: multipart/mixed; boundary="===============5243146409592774188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 12 Jun 2025 16:32:05 -0000
-Message-Id: <174974592557.1726911.4019712607863558966@gitolite.kernel.org>
+Date: Thu, 12 Jun 2025 16:32:08 -0000
+Message-Id: <174974592803.1727018.11137954328214778413@gitolite.kernel.org>
 
---===============4327105031959578951==
+--===============5243146409592774188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0097c4195b1d0ca57d15979626c769c74747b5a0
     new: 5d6d67c4cb10a4b4d3ae35758d5eeed6239afdc8
     log: revlist-0097c4195b1d-5d6d67c4cb10.txt
 
---===============4327105031959578951==
+--===============5243146409592774188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ b2f96c3c96314ff3888ebb7d3126cf5f5e7c278b net: phy: micrel: add cable test suppor
 078bb22cfc652aa206c89e16d25ab3ffffc7427c net: bcmgenet: enable GRO software interrupt coalescing by default
 5d6d67c4cb10a4b4d3ae35758d5eeed6239afdc8 Merge branch 'net-bcmgenet-add-support-for-gro-software-interrupt-coalescing'
 
---===============4327105031959578951==--
+--===============5243146409592774188==--
