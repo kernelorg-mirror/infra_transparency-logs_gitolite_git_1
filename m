@@ -1,60 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6190126220611734172=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 12 Jun 2025 15:07:50 -0000
-Message-Id: <174974087017.1648835.2630044834667548701@gitolite.kernel.org>
-
---===============6190126220611734172==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Jun 2025 15:10:56 -0000
+Message-Id: <174974105686.1652536.3716421323159216174@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 0688aa2e10990fec613ec3e0a9596ba131a03bee
-    new: cfb77bf283acf3074e696750f09488a13aa04498
+  - ref: refs/heads/main
+    old: 7ca52541c05c832d32b112274f81a985101f9ba8
+    new: 1619bdf4389c829f16af5c7d5b4fa5f1673614d7
     log: |
-         a67a28f59fbaeebbc37186d60a6c56e16b99829c dt-bindings: arm: samsung: document g0s board binding
-         11715fcf1ccab759d43ee1ad3b1b5bedd7559b48 arm64: dts: exynos: add initial support for exynos2200 SoC
-         5430fd9e0794a21b08ccdc01ddc942b09830c1be arm64: dts: exynos: add initial support for Samsung Galaxy S22+
-         6c1497a4bd72438360d977f37837d9638b702f33 MAINTAINERS: add entry for Samsung Exynos2200 SoC
-         cfb77bf283acf3074e696750f09488a13aa04498 Merge branch 'next/dt64' into for-next
+         d35acc1be3480505b5931f17e4ea9b7617fea4d3 net_sched: prio: fix a race in prio_tune()
+         85a3e0ede38450ea3053b8c45d28cf55208409b8 net_sched: red: fix a race in __red_change()
+         43eb466041216d25dedaef1c383ad7bd89929cbc net_sched: tbf: fix a race in tbf_change()
+         d92adacdd8c2960be856e0b82acc5b7c5395fddb net_sched: ets: fix a race in ets_qdisc_change()
+         adcaa890c7a4a91a422168d8fb629183fff07b2f net_sched: remove qdisc_tree_flush_backlog()
+         a844b0c864a28e43affa3f1a048414b7122def40 Merge branch 'net_sched-no-longer-use-qdisc_tree_flush_backlog'
+         9337c54401a5bb6ac3c9f6c71dd2a9130cfba82e veth: prevent NULL pointer dereference in veth_xdp_rcv
+         1619bdf4389c829f16af5c7d5b4fa5f1673614d7 net/mlx5: HWS, Add error checking to hws_bwc_rule_complex_hash_node_get()
          
-
---===============6190126220611734172==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1749740904 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1749740868-040e2f6c7dd5030ec1d7deb82e9e4adb8fa91e8d
-
-0688aa2e10990fec613ec3e0a9596ba131a03bee cfb77bf283acf3074e696750f09488a13aa04498 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhK7WgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12BdD/oCQ4OaB+pKRJy83A6l4YlEnYgUbw3nXKQl
-BQCuKLMpEbXw618qIdhoCoIKJpmM6x4+xnD3NmbJ6/sc03yUE4/IeMZFYVPMvRT9
-KjuT8D2vYi08v3TFtHOM3/qxzZjmnWD+eTlWS2G5EcoPa2L0SD+ZErz6R0sjwA/T
-SaLEEt1kfNuLgahyhtL4BsjpScbjfjRie/lGNHunP32OYpM65O63AUvznxFExgIG
-C+sYB++AQvWc86SyOVxOkaiTmwXQh3NYziyYu1qzSRZ5B5SWlVTYqGQ7aNikcjUe
-K+y16MVzRRyVihO9HaA6Pj5NArn9bfb3HevzvNvbHV+zHhLiHbkv1F/aCLWYFNV9
-cVKMRH2lmEX8FtCSUOy7mj33IA0PaiBM1woZOnNve2/SgYhvkxZAirlbzG8Jq1GP
-LiMlC33yCbdVsxFQ2Be0ky6+mqymr3TlQ6htRxiwB5s3hIeuyn6+wxofGPVzmsGF
-4k3PnrSIijgDpw+anjfWkUv7+h4/cehXMJ845rDDYPXvSFZB+6Hnmulokww+dLwP
-f8F9ctLoDyTvx92jVM06w9RdWSoT6QzYaB6VkTHDjQytkvojpHNQ+cjkkdBGHb7f
-guHfY+4g0W+TAIl8kwG+yzoJk4Erp17ChckOv3wqK3I+vt1YfY1si/3TE8z8DULW
-yI3JL1TXHQ==
-=CID8
------END PGP SIGNATURE-----
-
---===============6190126220611734172==--
