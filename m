@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4825489990366802760=="
+Content-Type: multipart/mixed; boundary="===============6442997730578656034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 13 Jun 2025 14:50:04 -0000
-Message-Id: <174982620479.2876045.3483821284119789557@gitolite.kernel.org>
+Date: Fri, 13 Jun 2025 14:50:30 -0000
+Message-Id: <174982623067.2876450.7625312284636321534@gitolite.kernel.org>
 
---===============4825489990366802760==
+--===============6442997730578656034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/riscv-firmware-for-next
+    old: 8400291e289ee6b2bf9779ff1c83a291501f017b
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0af2f6be1b42-19272b37aa4f.txt
+    log: revlist-8400291e289e-19272b37aa4f.txt
 
---===============4825489990366802760==
+--===============6442997730578656034==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-8400291e289e-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============4825489990366802760==--
+--===============6442997730578656034==--
