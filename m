@@ -1,48 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7759663484873467736=="
+Content-Type: multipart/mixed; boundary="===============5150510473429675703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 13 Jun 2025 18:39:33 -0000
-Message-Id: <174983997330.3088444.5883220744124854413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Fri, 13 Jun 2025 18:40:12 -0000
+Message-Id: <174984001241.3091151.14499091427872413190@gitolite.kernel.org>
 
---===============7759663484873467736==
+--===============5150510473429675703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 1a31713036f7f6e0d874c062c68bd8dcd6f38963
-    new: 80e1a7f02c523e77c86fa3c11ce876a369f35c9e
-    log: |
-         fade5953b9dca02aac518d786b09aa0142d64a0a ty: Allow users to specify whether thank-yous are sent to themselves
-         22790361792f65546b066a64750c12cab71f39cd Merge patch "ty: Allow users to specify whether thank-yous are sent to themselves"
-         80e1a7f02c523e77c86fa3c11ce876a369f35c9e ty: document the --me-too flag and tweak wording
-         
+  - ref: refs/heads/crc-next
+    old: 7234baeec076d4c2ac05d160ed8cdb2f2d033069
+    new: ca7d4fa3943140b110a3aebd943da283d02d9a06
+    log: revlist-7234baeec076-ca7d4fa39431.txt
 
---===============7759663484873467736==
+--===============5150510473429675703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7234baeec076-ca7d4fa39431.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1749840008 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1749839972-49e006a1a42165cb829cab4582e21602b4c750ed
+17f986831decf32e2a20b9ac82756279463567f1 lib/crc: prepare for arch-optimized code in subdirs of lib/crc/
+9029a86827bf2fbbc6169c271ce177953841d400 lib/crc/arm: migrate arm-optimized CRC code into lib/crc/
+5104e8d11a397df229332f270b31b13c826077d5 lib/crc/arm64: migrate arm64-optimized CRC code into lib/crc/
+2c958c1ce3f161d11e7d9b52335e664b7e287b37 lib/crc/loongarch: migrate loongarch-optimized CRC code into lib/crc/
+ecbf67cd094d7ec4a55e0fcbfecc33a9550267cc lib/crc/mips: migrate mips-optimized CRC code into lib/crc/
+daf38911e8f5f2a18e35cee1f39068c1ec9caa7d lib/crc/powerpc: migrate powerpc-optimized CRC code into lib/crc/
+ee5aadc371cd4fd7b78c91d2d245e1a124cf29d0 lib/crc/riscv: migrate riscv-optimized CRC code into lib/crc/
+d430320499d1083041011f5b55516a00cb5c8962 lib/crc/s390: migrate s390-optimized CRC code into lib/crc/
+c6969b097741278aaaa610fe2d4a187a905275c3 lib/crc/sparc: migrate sparc-optimized CRC code into lib/crc/
+fe8cc84cc61d83ffd96deeff8007f3eff647e81c lib/crc/x86: migrate x86-optimized CRC code into lib/crc/
+a57de0ac548aa9a687dc485ffd2dc318e7951cdb lib/crc: remove ARCH_HAS_* kconfig symbols
+ca7d4fa3943140b110a3aebd943da283d02d9a06 lib/crc: explicitly include <linux/export.h>
 
-1a31713036f7f6e0d874c062c68bd8dcd6f38963 80e1a7f02c523e77c86fa3c11ce876a369f35c9e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaExwiAAKCRC2xBzjVmSZ
-bHNJAP0Q4FXLRQdf2fmNmqTg4ol4RMe6uvvUHnEKxiaH6v6d4AD+IrVITNRNquXL
-eYdct3A/qo+ycb/vC80/IPB+cFdIiAs=
-=dFDJ
------END PGP SIGNATURE-----
-
---===============7759663484873467736==--
+--===============5150510473429675703==--
