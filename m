@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 13 Jun 2025 18:50:52 -0000
-Message-Id: <174984065299.3101097.11541463540786424751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 13 Jun 2025 18:59:06 -0000
+Message-Id: <174984114607.3106552.12029219030588362969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: e4c8f96adeb29a98f7848ee793085765cdede64c
-    new: 4a4b84ba9e453295c746d81cb245c0c5d80050f0
+  - ref: refs/heads/nfsd-fixes
+    old: 704660e743d00c9d911b8b9b864ed667d8610cfc
+    new: 3f55e4725b3bdfe1a05ba2794c8921067234f09d
     log: |
-         3157f7e2999616ac91f4d559a8566214f74000a5 bpf: handle jset (if a & b ...) as a jump in CFG computation
-         4a4b84ba9e453295c746d81cb245c0c5d80050f0 selftests/bpf: verify jset handling in CFG computation
+         3f55e4725b3bdfe1a05ba2794c8921067234f09d nfsd: use threads array as-is in netlink interface
          
