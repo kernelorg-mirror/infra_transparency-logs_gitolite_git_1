@@ -1,45 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============9065373539814290204=="
+Content-Type: multipart/mixed; boundary="===============2268069492279167855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 13 Jun 2025 07:02:19 -0000
-Message-Id: <174979813934.2472923.11700765060036018841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 13 Jun 2025 07:05:10 -0000
+Message-Id: <174979831025.2476197.4261940190282626331@gitolite.kernel.org>
 
---===============9065373539814290204==
+--===============2268069492279167855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/wip-sha512
-    old: 22900a50209ce59655295a8a336fb1aa3c3cd239
-    new: 8d350b39e0c241e71023381696211701b67bb5e2
-    log: revlist-22900a50209c-8d350b39e0c2.txt
+  - ref: refs/heads/fixes-test
+    old: 0d67f0dee6c9176bc09a5482dd7346e3a0f14d0b
+    new: e75cb6010838f61b9d63e921d1763a8ab177e38e
+    log: |
+         b93755f408325170edb2156c6a894ed1cae5f4f6 powerpc/vdso: Fix build of VDSO32 with pcrel
+         33bc69cf6655cf60829a803a45275f11a74899e5 powerpc/eeh: Fix missing PE bridge reconfiguration during VFIO EEH recovery
+         4e6d080acfda5344ccbc63afe778830e22be4be9 powerpc/microwatt: Fix model property in device tree
+         e75cb6010838f61b9d63e921d1763a8ab177e38e powerpc: dts: mpc8315erdb: Add GPIO controller node
+         
 
---===============9065373539814290204==
+--===============2268069492279167855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22900a50209c-8d350b39e0c2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f5877a5673716f4d79c9503802c6e703cc6ea34b lib/crypto/sha512: add support for SHA-384 and SHA-512
-81248e293ee1caf9db0ae9c3c58397bb7b52168d lib/crypto/sha512: add HMAC-SHA384 and HMAC-SHA512 support
-afc241886114822d896c868b0a62e2fa2d245343 lib/crypto/sha512: add KUnit tests for SHA-384 and SHA-512
-185700b5dee8653d7b9e0025f9c0019b3755ad1d lib/crypto/sha256: add KUnit tests for SHA-224 and SHA-256
-fd7076ac858d3cd052df9cbf2061227af9d6749f crypto: riscv/sha512 - stop depending on sha512_generic_block_fn
-7287bb51c87945ecc94270b4b7843d612779322e crypto: sha512 - replace sha512_generic with wrapper around SHA-512 library
-0bf2c45149ec0b20bc86ba4e73e539d300ad233b lib/crypto/sha512: migrate arm-optimized SHA-512 code to library
-9d533841550ea14a1a244feefa96e4ed85d258d7 lib/crypto/sha512: migrate arm64-optimized SHA-512 code to library
-9b320dcd473340c347c8ff586ff4a28fc8289172 mips: cavium-octeon: move octeon-crypto.h into asm directory
-472c556420b643cdb15b8c02edb01f5a9de273e7 lib/crypto/sha512: migrate mips-optimized SHA-512 code to library
-a543c021992b64deba3a61b38afbef529b21c1a4 lib/crypto/sha512: migrate riscv-optimized SHA-512 code to library
-27f4ad49fbdba4f6814c0ed01260cdda0fc47e5e lib/crypto/sha512: migrate s390-optimized SHA-512 code to library
-d2964ec7b83dc0ea89471bf7b353ddae677a2f54 lib/crypto/sha512: migrate sparc-optimized SHA-512 code to library
-4eabecfccfe8e52028ea13a0dda749e103ce3b7a lib/crypto/sha512: migrate x86-optimized SHA-512 code to library
-8d350b39e0c241e71023381696211701b67bb5e2 crypto: sha512 - remove sha512_base.h
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1749798311 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1749798274-5af0d9fc1d9d73a16d0659454bc45689000831a6
 
---===============9065373539814290204==--
+0d67f0dee6c9176bc09a5482dd7346e3a0f14d0b e75cb6010838f61b9d63e921d1763a8ab177e38e refs/heads/fixes-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmhLzacACgkQpnEsdPSH
+ZJTCChAAiY9uqgLhkDSVJY3BfgYyrjwhihZP4xPG50ax7z5WzXl4I38YMM/W2YUy
+Y9AYb17EsXk5WePhqan8J3U9Au0h/vPLLEOVOrNiEe251nTMwnV+RTXxkr6aAr0n
+fLxP4aSQ9NV2KJCNAiqbCTuDRSCEvHhK5NFNCsajMU7uWGwh8bTkkgGPGFC8wkrb
+Bx8wfdM22pPk4jf4OPk6h1Z/y43tQ3XJG7j/VGG/xHEpqC/VvZoTnCCZIxNGhyzW
+HtTcJKwyPXuoDVR8jQseO8WjdOR9bxdmLgLrXl80VQu9/bQDQJkX0VDbAU2rYWUg
+EBfMNfI2ujdFolDdfj+Fzgbfg+ppy5irfPx1gC7x1lkxDFgZkw13Gj2/bzY68+nD
+5Stu6BdS6x0hftjS0CaQatjkOVXWtySJ850tNgVhZXBqKeRB3LOgZGkE9KbzE7OR
+5kqjiHnkp1sFBR4f07pdAgeiVdzO6UL4EyjxUicGoTscwuGqkw/4kpvSzYGpdiLF
+pUf3lLrdI4Stxhx10ql0dho4RZdLtxbjYiiFT1dHWFvIpTxncvAK0r6KpBk1Ci7x
+c6XI1dJXASQdOog4+8MELLXK1nlTQyKynHW3s3l+neHZ1df6/DFKW0/VDmCRw5/y
+CnOT06rG01/S3nPVPwh8qySRv19v+84chT8gXEl94YXcfg7KF7Q=
+=kUTh
+-----END PGP SIGNATURE-----
+
+--===============2268069492279167855==--
