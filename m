@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5494528465207038737=="
+Content-Type: multipart/mixed; boundary="===============3292118403553107528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 13 Jun 2025 14:50:58 -0000
-Message-Id: <174982625861.2876909.17019628980844533176@gitolite.kernel.org>
+Date: Fri, 13 Jun 2025 14:51:31 -0000
+Message-Id: <174982629134.2877452.12865123248671234468@gitolite.kernel.org>
 
---===============5494528465207038737==
+--===============3292118403553107528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-soc-drivers-for-next
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0af2f6be1b42-19272b37aa4f.txt
+  - ref: refs/heads/riscv-soc-for-next
+    old: 59986662d2f41f80b9190a3d21d22d53a1907a78
+    new: 9aec698873863cfd370f68e991fddb97a51519e3
+    log: revlist-59986662d2f4-9aec69887386.txt
 
---===============5494528465207038737==
+--===============3292118403553107528==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-59986662d2f4-9aec69887386.txt
 
-35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1050,5 +1049,6 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+9aec698873863cfd370f68e991fddb97a51519e3 riscv: defconfig: enable Andes SoC
 
---===============5494528465207038737==--
+--===============3292118403553107528==--
