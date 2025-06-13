@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1852840705346398471=="
+Content-Type: multipart/mixed; boundary="===============7048752642548946003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 13 Jun 2025 21:06:19 -0000
-Message-Id: <174984877952.3212952.4017999114544123747@gitolite.kernel.org>
+Date: Fri, 13 Jun 2025 21:06:23 -0000
+Message-Id: <174984878327.3213194.9361785592702072594@gitolite.kernel.org>
 
---===============1852840705346398471==
+--===============7048752642548946003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 5d6d67c4cb10a4b4d3ae35758d5eeed6239afdc8
     new: 08207f42d3ffee43c97f16baf03d7426a3c353ca
     log: revlist-5d6d67c4cb10-08207f42d3ff.txt
 
---===============1852840705346398471==
+--===============7048752642548946003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c9080abea1e69b8b1408ec7dec0acdfdc577a3e2 ionic: clean dbpage in de-init
 52fdba899e6ffaaa1e74d4b4877125191a9e8e68 ionic: cancel delayed work earlier in remove
 08207f42d3ffee43c97f16baf03d7426a3c353ca Merge branch 'ionic-cleanups' into main
 
---===============1852840705346398471==--
+--===============7048752642548946003==--
