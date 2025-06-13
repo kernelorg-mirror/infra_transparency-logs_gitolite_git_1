@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6783274228640100453=="
+Content-Type: multipart/mixed; boundary="===============3621420374019034968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Fri, 13 Jun 2025 14:56:44 -0000
-Message-Id: <174982660471.2884346.2177397998073544088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Fri, 13 Jun 2025 14:57:02 -0000
+Message-Id: <174982662239.2884730.628434366196608968@gitolite.kernel.org>
 
---===============6783274228640100453==
+--===============3621420374019034968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: b338a2ae9b316df1d81b5289badcc8cbbbfe1b2b
-    new: 3bc1740d3157c9a9d30614371400f490dbbffd62
-    log: revlist-b338a2ae9b31-3bc1740d3157.txt
+  - ref: refs/heads/for-backlight-next
+    old: e12d3e1624a02706cdd3628bbf5668827214fa33
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-e12d3e1624a0-19272b37aa4f.txt
 
---===============6783274228640100453==
+--===============3621420374019034968==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b338a2ae9b31-3bc1740d3157.txt
+Content-Disposition: attachment; filename=revlist-e12d3e1624a0-19272b37aa4f.txt
 
+35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
@@ -1048,7 +1050,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-fab15f57360b1e6620a1d0d6b0fbee896e6c1f07 leds: flash: leds-qcom-flash: Fix registry access after re-bind
-3bc1740d3157c9a9d30614371400f490dbbffd62 MAINTAINERS: Adjust file entry in TPS6131X FLASH LED DRIVER
 
---===============6783274228640100453==--
+--===============3621420374019034968==--
