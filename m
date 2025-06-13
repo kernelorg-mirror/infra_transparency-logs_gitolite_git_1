@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 13 Jun 2025 08:48:05 -0000
-Message-Id: <174980448580.2566328.6351864117030610725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 13 Jun 2025 09:02:41 -0000
+Message-Id: <174980536112.2579543.4412070664798473778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/misc
-    old: e2241dfe85963b834fc1984759979f54c6db5d9f
-    new: 7a04f18b95bdefdc8d976ccc8a4c0443b460039a
+  - ref: refs/heads/x86/kconfig
+    old: 9e3d5f041005dbd0f5c84bc72424488df4af27fc
+    new: c86ec5635d079e62a66e767422ee71a06f930c86
     log: |
-         7a04f18b95bdefdc8d976ccc8a4c0443b460039a PCI/ASPM: Use boolean type for aspm_disabled and aspm_force
+         c86ec5635d079e62a66e767422ee71a06f930c86 x86/kconfig: Remove the CONFIG_DRM_I915=y driver from the defconfig
          
