@@ -1,58 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2268069492279167855=="
+Content-Type: multipart/mixed; boundary="===============4072866195232962142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 13 Jun 2025 07:05:10 -0000
-Message-Id: <174979831025.2476197.4261940190282626331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 13 Jun 2025 07:19:21 -0000
+Message-Id: <174979916135.2486128.5581985179413354962@gitolite.kernel.org>
 
---===============2268069492279167855==
+--===============4072866195232962142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/fixes-test
-    old: 0d67f0dee6c9176bc09a5482dd7346e3a0f14d0b
-    new: e75cb6010838f61b9d63e921d1763a8ab177e38e
-    log: |
-         b93755f408325170edb2156c6a894ed1cae5f4f6 powerpc/vdso: Fix build of VDSO32 with pcrel
-         33bc69cf6655cf60829a803a45275f11a74899e5 powerpc/eeh: Fix missing PE bridge reconfiguration during VFIO EEH recovery
-         4e6d080acfda5344ccbc63afe778830e22be4be9 powerpc/microwatt: Fix model property in device tree
-         e75cb6010838f61b9d63e921d1763a8ab177e38e powerpc: dts: mpc8315erdb: Add GPIO controller node
-         
+  - ref: refs/heads/work.rpc_pipe
+    old: 45c3812ad12a749fe0325ea9f3d4ed4d80f1bd23
+    new: 22bab27a20424de9734ffc44d10618f492c8fa38
+    log: revlist-45c3812ad12a-22bab27a2042.txt
 
---===============2268069492279167855==
+--===============4072866195232962142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-45c3812ad12a-22bab27a2042.txt
 
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1749798311 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1749798274-5af0d9fc1d9d73a16d0659454bc45689000831a6
+6b7dee6481e123203947248a79da21a8ccece251 new helper: simple_start_creating()
+03b35065220d7119f465c17963c449ecf2bbb528 rpc_pipe: clean failure exits in fill_super
+6978fd151bdf01d6f8d8d64040d4cbf36e09cd51 rpc_{rmdir_,}depopulate(): use simple_recursive_removal() instead
+63de21709309a22935069698ff7bb5b4ed8ac6f8 rpc_unlink(): use simple_recursive_removal()
+47b1303ff545817855721201924cce427b13e16e rpc_populate(): lift cleanup into callers
+84566cf5cf36bc314bc2fe45e6337f282cb0c5aa rpc_unlink(): saner calling conventions
+449c99847323341cfe0f266e660d7777ec7f8b55 rpc_mkpipe_dentry(): saner calling conventions
+ec79c9c8b846e087c9b907c0fb5959894bef8e23 rpc_pipe: don't overdo directory locking
+09195416677f16478d71e43f74724f0a5425f88d rpc_pipe: saner primitive for creating subdirectories
+964569052bf3a7ad81d83e7a462a6cb980fb90c1 rpc_pipe: saner primitive for creating regular files
+a55e618ee9bb40eba7662b4ed0436fbc70b7b433 rpc_mkpipe_dentry(): switch to start_creating()
+5dfa7ca130fd00d70f523f855dccd079e61ae5b2 rpc_gssd_dummy_populate(): don't bother with rpc_populate()
+636df38753fb3dfc05d7fa0d7bf19ea9a30ca75e rpc_pipe: expand the calls of rpc_mkdir_populate()
+a6996ef74a6e54ac110033ac7f2c1035513be2d4 rpc_new_dir(): the last argument is always NULL
+ad7d4f9cbd7000d84d7a13d33af07b9a8a3c9246 rpc_create_client_dir(): don't bother with rpc_populate()
+22bab27a20424de9734ffc44d10618f492c8fa38 rpc_create_client_dir(): return 0 or -E...
 
-0d67f0dee6c9176bc09a5482dd7346e3a0f14d0b e75cb6010838f61b9d63e921d1763a8ab177e38e refs/heads/fixes-test
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmhLzacACgkQpnEsdPSH
-ZJTCChAAiY9uqgLhkDSVJY3BfgYyrjwhihZP4xPG50ax7z5WzXl4I38YMM/W2YUy
-Y9AYb17EsXk5WePhqan8J3U9Au0h/vPLLEOVOrNiEe251nTMwnV+RTXxkr6aAr0n
-fLxP4aSQ9NV2KJCNAiqbCTuDRSCEvHhK5NFNCsajMU7uWGwh8bTkkgGPGFC8wkrb
-Bx8wfdM22pPk4jf4OPk6h1Z/y43tQ3XJG7j/VGG/xHEpqC/VvZoTnCCZIxNGhyzW
-HtTcJKwyPXuoDVR8jQseO8WjdOR9bxdmLgLrXl80VQu9/bQDQJkX0VDbAU2rYWUg
-EBfMNfI2ujdFolDdfj+Fzgbfg+ppy5irfPx1gC7x1lkxDFgZkw13Gj2/bzY68+nD
-5Stu6BdS6x0hftjS0CaQatjkOVXWtySJ850tNgVhZXBqKeRB3LOgZGkE9KbzE7OR
-5kqjiHnkp1sFBR4f07pdAgeiVdzO6UL4EyjxUicGoTscwuGqkw/4kpvSzYGpdiLF
-pUf3lLrdI4Stxhx10ql0dho4RZdLtxbjYiiFT1dHWFvIpTxncvAK0r6KpBk1Ci7x
-c6XI1dJXASQdOog4+8MELLXK1nlTQyKynHW3s3l+neHZ1df6/DFKW0/VDmCRw5/y
-CnOT06rG01/S3nPVPwh8qySRv19v+84chT8gXEl94YXcfg7KF7Q=
-=kUTh
------END PGP SIGNATURE-----
-
---===============2268069492279167855==--
+--===============4072866195232962142==--
