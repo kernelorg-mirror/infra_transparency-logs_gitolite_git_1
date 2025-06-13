@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Fri, 13 Jun 2025 14:34:07 -0000
-Message-Id: <174982524715.2860438.7908011578727386452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 13 Jun 2025 14:48:40 -0000
+Message-Id: <174982612065.2872360.4647279213994180575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: a1bf2e61230301bfc12eba19abfc1c5a880f53be
-    new: 00361e8bb1e59a0cf7a2a83028fab323f60c2207
+  - ref: refs/heads/qspi-regular
+    old: 336a403847427f18a171b3c76496e9c759f4873d
+    new: afe7fdb63f36d89ddafd94f0349339c1b4ef67b8
     log: |
-         00361e8bb1e59a0cf7a2a83028fab323f60c2207 Convert *.log files into UTF-8 encoding
+         afe7fdb63f36d89ddafd94f0349339c1b4ef67b8 fixup! spi: microchip-core-qspi: Add regular transfers
          
