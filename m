@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5736413869351159897=="
+Content-Type: multipart/mixed; boundary="===============3092592525621578034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
-Date: Fri, 13 Jun 2025 17:31:26 -0000
-Message-Id: <174983588618.3028188.7579032155553254187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Fri, 13 Jun 2025 17:35:11 -0000
+Message-Id: <174983611133.3032074.1176826132297666095@gitolite.kernel.org>
 
---===============5736413869351159897==
+--===============3092592525621578034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sven/linux
-user: sven
-git_push_cert_status: E
+repo: pub/scm/utils/patatt/patatt
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/apple-soc/fixes-6.16
-    old: 0000000000000000000000000000000000000000
-    new: 08a0d93c353bd55de8b5fb77b464d89425be0215
+  - ref: refs/heads/main
+    old: 7ddc5fb880ace72cb9da72e2a63035f3349b4ce9
+    new: 8355594a7fba15ba95ffa9f05f989f92e80bedd4
+    log: |
+         8355594a7fba15ba95ffa9f05f989f92e80bedd4 Fix validation for openpgp sigs without pubkey data
+         
 
---===============5736413869351159897==
+--===============3092592525621578034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 44117D242A751EE9! 1749835915 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
-nonce 1749835879-954dab520ede1b2fc54ce5f6bafff757545c7c52
+pusher B6C41CE35664996C! 1749836146 -0400
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1749836110-d0126056d6d890ef9290dd6bb018877603dbd7e9
 
-0000000000000000000000000000000000000000 08a0d93c353bd55de8b5fb77b464d89425be0215 refs/heads/apple-soc/fixes-6.16
+7ddc5fb880ace72cb9da72e2a63035f3349b4ce9 8355594a7fba15ba95ffa9f05f989f92e80bedd4 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaExgiwAKCRBEEX0kKnUe
-6T3RAQC3Wlnjf9wA1IIpJFRGbaXWh0pabMxzppsFUOB2xPODmAD/a5mNUhpvqcAU
-WR1u10yGHVrVMTbyNOsTCw7JXF4xpQQ=
-=Az9f
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaExhcgAKCRC2xBzjVmSZ
+bGcPAP49jNfc7AxJgpgHKB38flhBygO5k189T+WUDnFsHawc4QEAm1ThkQMiSDu0
+VbKMdjPBp7XZZhMByi+ADVaKRt+ldQU=
+=L6Rp
 -----END PGP SIGNATURE-----
 
---===============5736413869351159897==--
+--===============3092592525621578034==--
