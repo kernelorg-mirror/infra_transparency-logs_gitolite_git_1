@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8991062996928166987=="
+Content-Type: multipart/mixed; boundary="===============6408347317426104068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 13 Jun 2025 14:55:19 -0000
-Message-Id: <174982651955.2882184.2107738871145041144@gitolite.kernel.org>
+Date: Fri, 13 Jun 2025 14:55:35 -0000
+Message-Id: <174982653511.2882762.8585719562337555893@gitolite.kernel.org>
 
---===============8991062996928166987==
+--===============6408347317426104068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: conor
 changes:
-  - ref: refs/heads/clk-microchip
+  - ref: refs/heads/clk-microchip-fixes
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-0af2f6be1b42-19272b37aa4f.txt
 
---===============8991062996928166987==
+--===============6408347317426104068==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============8991062996928166987==--
+--===============6408347317426104068==--
