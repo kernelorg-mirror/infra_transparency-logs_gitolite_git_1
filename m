@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 13 Jun 2025 02:13:15 -0000
-Message-Id: <174978079510.2230549.6393056404521203018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 13 Jun 2025 02:18:34 -0000
+Message-Id: <174978111488.2235060.16752652952470840612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 0e93df45c7b45e0dd35668019ceb32cd25371715
-    new: af91af33c16853c569ca814124781b849886f007
-    log: |
-         af91af33c16853c569ca814124781b849886f007 tools/bpf_jit_disasm: Fix potential negative tpath index in get_exec_path()
-         
+  - ref: refs/heads/work.rpc_pipe
+    old: 0000000000000000000000000000000000000000
+    new: 45c3812ad12a749fe0325ea9f3d4ed4d80f1bd23
