@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5580865141837113788=="
+Content-Type: multipart/mixed; boundary="===============1109794230185038677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 13 Jun 2025 18:21:10 -0000
-Message-Id: <174983887057.3073563.6238582198467082710@gitolite.kernel.org>
+Date: Fri, 13 Jun 2025 18:21:14 -0000
+Message-Id: <174983887494.3073810.838427109221689980@gitolite.kernel.org>
 
---===============5580865141837113788==
+--===============1109794230185038677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d5705afbaca2f5b3fb8766391ca6c43105d229b2
     new: 5466491c9e3309ed5c7adbb8fad6e93fcc9a8fe9
     log: revlist-d5705afbaca2-5466491c9e33.txt
 
---===============5580865141837113788==
+--===============1109794230185038677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aef17cb3d3c43854002956f24c24ec8e1a0e3546 Revert "mm/damon/Kconfig: enable CONFIG
 27605c8c0f69e319df156b471974e4e223035378 Merge tag 'net-6.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5466491c9e3309ed5c7adbb8fad6e93fcc9a8fe9 ionic: Prevent driver/fw getting out of sync on devcmd(s)
 
---===============5580865141837113788==--
+--===============1109794230185038677==--
