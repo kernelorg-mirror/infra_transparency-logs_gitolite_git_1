@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6055287769758172056=="
+Content-Type: multipart/mixed; boundary="===============2686600427214981618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 13 Jun 2025 08:25:36 -0000
-Message-Id: <174980313606.2547017.12712561114327609547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 13 Jun 2025 08:26:17 -0000
+Message-Id: <174980317768.2547557.12253938262196702017@gitolite.kernel.org>
 
---===============6055287769758172056==
+--===============2686600427214981618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
+repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.core/bugs
-    old: 21cecf756b79df0f519fac1249d912e7474b5869
-    new: d298bb98d65f964288bb87feef014da1baafedda
-    log: revlist-21cecf756b79-d298bb98d65f.txt
+  - ref: refs/heads/master
+    old: d8b0054c1e6b3eaefe6a57eb50099e63163b055f
+    new: ac74f121bb9cb7651160af302178e6731f7c710f
+    log: revlist-d8b0054c1e6b-ac74f121bb9c.txt
 
---===============6055287769758172056==
+--===============2686600427214981618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21cecf756b79-d298bb98d65f.txt
+Content-Disposition: attachment; filename=revlist-d8b0054c1e6b-ac74f121bb9c.txt
 
 aec58b48517c911fbdf2beebba46a347e5910072 bugs/core: Extend __WARN_FLAGS() with the 'cond_str' parameter
 3bc3c9c3ab6df45a3a3389f74000f8bec1bc96e3 bugs/core: Pass down the condition string of WARN_ON_ONCE(cond) warnings to __WARN_FLAGS()
@@ -42,5 +42,6 @@ e39fbab1ff10ea4e92b8e952dbddce6b15c9d9ec bugs/riscv: Pass in 'cond_str' to __BUG
 e05788a238cfed10b78face08dbd4ab3e1c52e3d bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
 4c8c74d1830076bb0a18d2bd7c908b39b366c396 bugs/sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
 d298bb98d65f964288bb87feef014da1baafedda bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
+ac74f121bb9cb7651160af302178e6731f7c710f Merge branch into tip/master: 'core/bugs'
 
---===============6055287769758172056==--
+--===============2686600427214981618==--
