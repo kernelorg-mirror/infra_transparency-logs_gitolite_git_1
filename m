@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3632813118149817554=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 12 Jun 2025 23:53:31 -0000
-Message-Id: <174977241169.2107843.1116854910963146846@gitolite.kernel.org>
-
---===============3632813118149817554==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 13 Jun 2025 00:10:05 -0000
+Message-Id: <174977340550.2122757.3456349488343868827@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 1c66f4a3612c194f9b76e46e478bffa23398bf43
-    new: fa6932577c073497379a1f5901ea5b208a38da10
-    log: revlist-1c66f4a3612c-fa6932577c07.txt
-
---===============3632813118149817554==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c66f4a3612c-fa6932577c07.txt
-
-baaebe0928bf321a1cd980d569e308dec66be94c Revert "bpf: use common instruction history across all states"
-96c6aa4c63af0bb0675c41b3e61a2fc7f6fed998 bpf: compute SCCs in program control flow graph
-13f843c0177eeb367ac63467c538046b90785583 bpf: frame_insn_idx() utility function
-9a2a0d79244d27fae6b5174e199b34fe17db0316 bpf: starting_state parameter for __mark_chain_precision()
-23b37d616565c89dd202febc68d926345727d092 bpf: set 'changed' status if propagate_precision() did any updates
-dfb2d4c64b82ac1e7a03e0b28b4326458705d26f bpf: set 'changed' status if propagate_liveness() did any updates
-b5c677d8d9e58b9f6c6478ba0850580883588d3c bpf: move REG_LIVE_DONE check to clean_live_states()
-c9e31900b54cadf5398dfb838c0a63effa1defec bpf: propagate read/precision marks over state graph backedges
-0e0da5f901f582b97bfeefbf1f36a27e9d427ff4 bpf: remove {update,get}_loop_entry functions
-0f54ff54700315caa8ed3bea36fa0ff3ebc53f56 bpf: include backedges in peak_states stat
-5159482fdb2b4c15cb0a087e41d8bc5d730bb697 selftests/bpf: tests with a loop state missing read/precision mark
-e3f6660b78b07a6662f65e44414d7d554e04801f Merge branch 'bpf-propagate-read-precision-marks-over-state-graph-backedges'
-3d71b8b9abae68f6dfc434f779e1139370fbe891 bpf: Fix state use-after-free on push_stack() err
-6a4bd31f680a1d1cf06492fe6dc4f08da09769e6 selftests/bpf: fix signedness bug in redir_partial()
-50034d93628143c747e90418b5bf7df6851ac612 docs/bpf: Default cpu version changed from v1 to v3 in llvm 20
-fa6932577c073497379a1f5901ea5b208a38da10 bpf: Initialize used but uninit variable in propagate_liveness()
-
---===============3632813118149817554==--
+  - ref: refs/heads/main-pending
+    old: 23650807eedcfed2ad00c2bbefbc3c8f752fa970
+    new: d08df11f19de12ca913c7049fe0c6fa51b27fb87
+    log: |
+         93ba393799a68f70824b36f9fa49425ec52a3400 wifi: ath12k: fix documentation on firmware stats
+         32ec6eb9625f333433040b5ca27aba9577af04d5 wifi: ath12k: avoid burning CPU while waiting for firmware stats
+         1135b3b67de3c97761dcc9984dcbac3e84b44877 wifi: ath12k: don't use static variables in ath12k_wmi_fw_stats_process()
+         f6c994a3230843a4d1cdcf16a2d639c0f4d5f3fb wifi: ath12k: don't wait when there is no vdev started
+         d08df11f19de12ca913c7049fe0c6fa51b27fb87 Merge branch 'pending' into main-pending
+         
+  - ref: refs/tags/ath-pending-202506122342
+    old: 0000000000000000000000000000000000000000
+    new: d08df11f19de12ca913c7049fe0c6fa51b27fb87
