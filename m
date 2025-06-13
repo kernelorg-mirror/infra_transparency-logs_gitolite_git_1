@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Jun 2025 01:10:44 -0000
-Message-Id: <174977704442.2176750.2013318514371688294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 13 Jun 2025 01:13:44 -0000
+Message-Id: <174977722429.2178119.13460007181805878333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 27605c8c0f69e319df156b471974e4e223035378
-    new: 5466491c9e3309ed5c7adbb8fad6e93fcc9a8fe9
+    old: 8f9fee2595c6f4220d6b628b69f82acf67447400
+    new: b1b36680107ede3a4ec7fa41d052971606d6b325
     log: |
-         5466491c9e3309ed5c7adbb8fad6e93fcc9a8fe9 ionic: Prevent driver/fw getting out of sync on devcmd(s)
+         b1b36680107ede3a4ec7fa41d052971606d6b325 net: phy: assign default match function for non-PHY MDIO devices
          
