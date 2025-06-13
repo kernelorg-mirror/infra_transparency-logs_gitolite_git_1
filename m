@@ -1,828 +1,1085 @@
-Content-Type: multipart/mixed; boundary="===============7958510956878532239=="
+Content-Type: multipart/mixed; boundary="===============9131775868252360135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
-Date: Fri, 13 Jun 2025 17:18:15 -0000
-Message-Id: <174983509528.3013256.3791704024338043241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/e2fsprogs
+Date: Fri, 13 Jun 2025 17:18:48 -0000
+Message-Id: <174983512855.3013911.16266945313730040127@gitolite.kernel.org>
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
+repo: pub/scm/linux/kernel/git/djwong/e2fsprogs
 user: djwong
 changes:
-  - ref: refs/heads/atomic-writes
-    old: cf048c178df178c65e104a375947cbfb451b5e08
-    new: a63efd0d3f54df11820de5306761cccb3b58a2c8
-    log: revlist-cf048c178df1-a63efd0d3f54.txt
-  - ref: refs/heads/capture-mount-failures
-    old: eec313f1d5f88214144c015ed0183634f7dd91f3
-    new: fee970d6641eb05f158215c589f7e235a9b5e010
-    log: revlist-eec313f1d5f8-fee970d6641e.txt
-  - ref: refs/heads/djwong-wtf
-    old: b44942337f47af549fb7ad3f0d7ce6ce1c3b5109
-    new: b0de77834a89add28c07534a37a1625409eaf07e
-    log: revlist-b44942337f47-b0de77834a89.txt
-  - ref: refs/heads/fuse2fs
-    old: 5be4ef77e855a8d7ee5f62f764e5d40ba8bdb818
-    new: dcdac8742b73181ff3ca646174189b9cfcd2ac1b
-    log: revlist-5be4ef77e855-dcdac8742b73.txt
-  - ref: refs/heads/fuzz-baseline
-    old: cb31da6837b40791622605c6f5eefdc0d6e2d658
-    new: 33a1d45be345083341a497b0034b79d7663966df
-    log: revlist-cb31da6837b4-33a1d45be345.txt
-  - ref: refs/heads/health-monitoring
-    old: c1579062d5811693d1123ee64b31029e025f24dc
-    new: 0dac38f5b3d5f98cab9fcdd9814c54d1da56d850
-    log: revlist-c1579062d581-0dac38f5b3d5.txt
-  - ref: refs/heads/linux-6.15-sync
-    old: 9eada911863eeebceded4b044ed07577b0d224ce
-    new: a6f7a4310fa5fd0735d4500c9e1143096169e571
-    log: revlist-9eada911863e-a6f7a4310fa5.txt
-  - ref: refs/heads/logwrites-fix-zeroing
-    old: 254595755e48f7732f1e299afd5c6a0425eac42e
-    new: 22a600baa4ebfb70cb34e03a37f6a9ea92650c40
-    log: revlist-254595755e48-22a600baa4eb.txt
-  - ref: refs/heads/master
-    old: e161fc34861a36838d03b6aad5e5b178f2a4e8e1
-    new: b3da4865e80d920158906b7a138081f8921545c6
-    log: revlist-e161fc34861a-b3da4865e80d.txt
-  - ref: refs/heads/upgrade-newer-features
-    old: 281629261d2de277a9bf1895474a97ce8c3ccb1f
-    new: 250faf17f9ad495a9e983a3d761491673828e295
-    log: revlist-281629261d2d-250faf17f9ad.txt
-  - ref: refs/heads/upgrade-older-features
-    old: 57897037d3f90dd91da18616dab487428d03adda
-    new: 9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0
-    log: revlist-57897037d3f9-9e7d181b7fe3.txt
-  - ref: refs/tags/v2025.06.08
+  - ref: refs/heads/for-next
+    old: 5c38ce5512a29326549f6c1134421bf1ac9dcdf8
+    new: 34b2a4a1f9794498ca403393003cc5840c240d42
+    log: revlist-5c38ce5512a2-34b2a4a1f979.txt
+  - ref: refs/heads/fuse2fs-fixes
+    old: 0eefe9b90e29d57b0aeca886530c39a1d21f6840
+    new: 18b135a0ff487b8f00b955f3074780b434a1862d
+    log: revlist-0eefe9b90e29-18b135a0ff48.txt
+  - ref: refs/heads/fuse2fs-iomap
+    old: 2db057eff3aefd1649a2c9c8325e67bf4a60097f
+    new: 82382974f332dcf12ac9cb01e844002b2f9ef9b8
+    log: revlist-2db057eff3ae-82382974f332.txt
+  - ref: refs/heads/fuse2fs-library-upgrade
+    old: cf1e294a1a67fa99df88f284a8e537d0006ca53d
+    new: 9984a149466110da8d171a9a08e6d27e80b5e943
+    log: revlist-cf1e294a1a67-9984a1494661.txt
+  - ref: refs/heads/fuse2fs-new-features
+    old: 6ae8edba454660b60a38f77172f38874f39e507a
+    new: 5337d7f96f9eef1daf51f9cc63f6233ab96aa288
+    log: revlist-6ae8edba4546-5337d7f96f9e.txt
+  - ref: refs/heads/fuse2fs-tracing
+    old: 3991d18a0bca58c3714368dc04fef3edaa67e5fe
+    new: a678f492c49e0c57289fb11d1672930cc064007e
+    log: revlist-3991d18a0bca-a678f492c49e.txt
+  - ref: refs/heads/fuse2fs-use-fuseblk
+    old: f03cbcb66e5747a973742726ceed7207f20bd428
+    new: 22f9295ab5d365af2d313f52f93d70a0a79fd9b4
+    log: revlist-f03cbcb66e57-22f9295ab5d3.txt
+  - ref: refs/heads/fuse2fs-writability
+    old: 58e27a36fef477468ed1d5a34e08bee8f9ce2695
+    new: 441a356fa725d4de857ac7a80b5ca270a1e383e4
+    log: revlist-58e27a36fef4-441a356fa725.txt
+  - ref: refs/heads/libext2fs-iomap-prep
+    old: 1c5c3a2e325a05d9fef0fe9b2c25c0b9467fc663
+    new: b61a8fbfd15c30921308bae7d8b93d37c5db93cb
+    log: revlist-1c5c3a2e325a-b61a8fbfd15c.txt
+  - ref: refs/tags/origin/next_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: 65062073111fa1aa1489b73e26c309efefd351c7
-  - ref: refs/tags/linux-6.15-sync_2025-06-13
+    new: 45017409bd4bcb509eb6ed9d3b2a3a2861584f7a
+  - ref: refs/tags/fuse2fs-fixes_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: 244019300d34c17b3aac04e3ef5161be941506c1
-  - ref: refs/tags/logwrites-fix-zeroing_2025-06-13
+    new: 372ec9c7bc8dfde97c51904bdf3225ff0cf5babd
+  - ref: refs/tags/fuse2fs-new-features_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: 114f850e4b35c2c58a63d39c9f4010ab3126956a
-  - ref: refs/tags/upgrade-older-features_2025-06-13
+    new: 84cffc184a55b1bfc220aa6656d3e27b499bde5f
+  - ref: refs/tags/fuse2fs-use-fuseblk_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: b3dc91a592ddca4847d60fdb488e24844db251d8
-  - ref: refs/tags/atomic-writes_2025-06-13
+    new: e60c36fdc6ae21306587d55cc9756c3c70e86858
+  - ref: refs/tags/fuse2fs-tracing_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: b2388977cd17bd47b6d7f974480ba55cda67a4c2
-  - ref: refs/tags/capture-mount-failures_2025-06-13
+    new: 480233329ef180811fcac3fe71b7df294d996aec
+  - ref: refs/tags/fuse2fs-writability_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: 75781cda2505357504a0a723fbf05a75d60ae632
-  - ref: refs/tags/health-monitoring_2025-06-13
+    new: f2bbe49201d6ecd0588b9766eaf7a7e596907340
+  - ref: refs/tags/fuse2fs-library-upgrade_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: 20b758e620a5c6cced61914cad3ef5d41a6547e3
-  - ref: refs/tags/upgrade-newer-features_2025-06-13
+    new: 75fdcf4c2236e702f947ca25352df84c8394421c
+  - ref: refs/tags/libext2fs-iomap-prep_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: 607580f9415bafead8a38641d38c2d14c61bd7ed
-  - ref: refs/tags/fuse2fs_2025-06-13
+    new: 81be4385bb0ad38e6848d2cbf8045dd6b215af2c
+  - ref: refs/tags/fuse2fs-iomap_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: 71c030848feec934c950fa96b927d7b6054fd794
-  - ref: refs/tags/fuzz-baseline_2025-06-13
+    new: 4381b9fcf4cdbd2e72e1bac8fb71b11c90042bb7
+  - ref: refs/heads/fuse2fs-iomap-cache
     old: 0000000000000000000000000000000000000000
-    new: 34e0db906401c77711d844f9e96d8039b59eda5d
-  - ref: refs/tags/djwong-wtf_2025-06-13
+    new: 1f4dc03f4faeccff9d5f1d95a97d216940171877
+  - ref: refs/tags/fuse2fs-iomap-cache_2025-06-13
     old: 0000000000000000000000000000000000000000
-    new: c544deeabd3f3f13e306263f269a3a8c219a1ffe
+    new: 2e7085cd7972cf5d2178eb36980f61a1fccdced8
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf048c178df1-a63efd0d3f54.txt
+Content-Disposition: attachment; filename=revlist-5c38ce5512a2-34b2a4a1f979.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-a63efd0d3f54df11820de5306761cccb3b58a2c8 generic: various atomic write tests with scsi_debug
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eec313f1d5f8-fee970d6641e.txt
+Content-Disposition: attachment; filename=revlist-0eefe9b90e29-18b135a0ff48.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-a63efd0d3f54df11820de5306761cccb3b58a2c8 generic: various atomic write tests with scsi_debug
-c54691fa0cd8d977000a7452f99ad26e2688817e treewide: convert all $MOUNT_PROG to _mount
-fee970d6641eb05f158215c589f7e235a9b5e010 check: capture dmesg of mount failures if test fails
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b44942337f47-b0de77834a89.txt
+Content-Disposition: attachment; filename=revlist-2db057eff3ae-82382974f332.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-a63efd0d3f54df11820de5306761cccb3b58a2c8 generic: various atomic write tests with scsi_debug
-c54691fa0cd8d977000a7452f99ad26e2688817e treewide: convert all $MOUNT_PROG to _mount
-fee970d6641eb05f158215c589f7e235a9b5e010 check: capture dmesg of mount failures if test fails
-bee8950e79a7d98e252c7df0b952ba9f8258acbf xfs: test health monitoring code
-7a131d4592e935feae56bb6a5ae669a19495c54d xfs: test for metadata corruption error reporting via healthmon
-86e675a1268fa5fe81283f5cdcc44f373476ac03 xfs: test io error reporting via healthmon
-0dac38f5b3d5f98cab9fcdd9814c54d1da56d850 xfs: test new xfs_healer daemon
-c70b9de837bb2a6a0fbf90bfaecc628c2ca057bd xfs/1856: add metadir upgrade to test matrix
-3cdfdaa9b71c284419ca3e930101271293f576c0 xfs/1856: add rtrmapbt upgrade to test matrix
-05e74b994ab4e54178b33c77d6239cd5ce766078 xfs/1856: add rtreflink upgrade to test matrix
-250faf17f9ad495a9e983a3d761491673828e295 xfs/1856: tweak need_metadir for zoned filesystems
-02a36cc5e322ead1a201d913d2ba24cf19c6aafe misc: adapt tests to handle the fuse ext[234] drivers
-2127331c9c18e14844241d48d3ffbbb286d8b11c misc: fix for fuse.ext[234] now too
-5519500169200b1a28c54d0399d4e90bee83e763 generic/740: don't run this test for fuse ext* implementations
-851548f09c4ec45107e8cb13d467bdbad9827ad7 ext/052: use popdir.pl for much faster directory creation
-2184e1fb6246b6f7298cc924fef64ebedfa62155 common/rc: skip test if swapon doesn't work
-3f01d6073980eb9196dadf6fa519fcb65adae184 common/rc: streamline _scratch_remount
-4a8ba5d28206cef037c42fc998a20f514a68d78f ext/039: require metadata journalling
-5e09e4e9fdaf5ffcbaf093b2e428116349543b4d populate: don't check for htree directories on fuse.ext4
-ea36e8c5cde5839b62e6522c68a6e7b11932cbf5 misc: convert _scratch_mount -o remount to _scratch_remount
-f6b2e5f96192cc3b9998155c34e6c82c93fbedc4 misc: use explicitly $FSTYP'd mount calls
-a085ea7be7c2331f076e95eac25035858688442a common/ext4: explicitly format with $FSTYP
-41d1b6af155e65325aa7655bf9715eecd5f67976 tests/ext*: refactor open-coded _scratch_mkfs_sized calls
-c32d9ce9d7af22174f63389a004e5ffeb01eca2e generic/732: disable for fuse.ext4
-de72c9e3b40b07d085069dfd1bb15fcf36717ab8 defrag: fix ext4 defrag ioctl test
-2da6b17d9f70ce55a7d508059c4112cea1f9c6e2 misc: explicitly require online resize support
-8670c07477bffeec3a61d75ea9353305097d1071 ext4/004: disable for fuse2fs
-405de46bc3ba8136533ac173fd374cff229d1495 generic/679: disable for fuse2fs
-1c1fefabac5d848604cd659486ced79f26e3c8d3 ext4/045: don't run the long dirent test on fuse2fs
-757fb7800f209fbf1338c6cde8325141e99c6aa3 generic/338: skip test if we can't mount with strictatime
-dcdac8742b73181ff3ca646174189b9cfcd2ac1b generic/563: fuse doesn't support cgroup-aware writeback accounting
-a15dcab4aa35586caf855306a4cbd1f3953c6df2 xfs: online fuzz test known output
-7a519400837e42d71b908be19de067ea09c60136 xfs: offline fuzz test known output
-897d2a9ede4480f06d2057c78f5ecfb1308931e5 xfs: norepair fuzz test known output
-33a1d45be345083341a497b0034b79d7663966df xfs: bothrepair fuzz test known output
-5ef15daa5ea07ae71b2d84e85b50fc1797a0df05 debug some arm problem
-f6c018f97669dee173a2a7bd3c00dca19483f796 generic/230: extend grace period to 6 seconds
-b7ebffc9ea3a34d765db20cee758cb5f83b36282 does this fix the writeback invalidation test on arm64?
-fb70ad042473d48703c20cdc2466056366fcf7c1 force local definition until we stabilize abi
-dfce85908252808d146fb3f1c841377d265f07e3 revert commit 790f4d8444fa4b ("xfs: new EOF fragmentation tests")
-b0de77834a89add28c07534a37a1625409eaf07e selftest: add tests for dmesg and mount failure collection
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
+6b729d679357e79ee0262246ed0bd462078c74e6 fuse2fs: use file handles when possible
+1cb679433d7a4135a46870327346624eddc23338 fuse2fs: implement dir seeking
+3ccc0f1b3b8a6d1deb5c3b555ee36f5aa4ab9af2 fuse2fs: implement readdirplus
+87db18838e9a79bd318cfd9704b8207eb7769d94 fuse2fs: implement dirsync mode
+0b8735eb47d6bc2a92b6e59f244f4a1095ce6f2e fuse2fs: only flush O_SYNC files on close
+54edf4ce17ea72ea68f3c60af6be62afcb99480a fuse2fs: improve want_extra_isize handling
+5337d7f96f9eef1daf51f9cc63f6233ab96aa288 fuse2fs: cache symlink targets in the kernel
+e3039ac60218f05915a8b7419c94d50ce24c2176 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+9061691fa871f299c0aa2ca3dbf1270702fa39f8 fuse2fs: get rid of the global_fs variable
+6a0e7d1df461446fd12ddbe973fb494ac539d228 fuse2fs: close filesystem from op_destroy
+977d2d27dde9c1898fe65ed99100a3f7d47c7e91 fuse2fs: split filesystem mounting into helper functions
+8c259415456af89086c735982e8edb7b1a783529 fuse2fs: make norecovery behavior consistent with the kernel
+e3b66127796d4b91bc46b2e016fc877cc51d1bd1 fuse2fs: check for recorded fs errors before touching things
+0e45414125b82e32b0c346ffd5c93b92952e5751 fuse2fs: recheck support after replaying journal
+00df864d7de8ac240386bad1a2581f669844a8e9 fuse2fs: improve error handling behaviors
+f6490d229b6b857130a525f700c9f7b76a619156 libext2fs: make it possible to extract the fd from an IO manager
+22f9295ab5d365af2d313f52f93d70a0a79fd9b4 fuse2fs: use fuseblk mode for mounting filesystems
+c40ed24aea001e108385cd849da88a033608e673 fuse2fs: register as an IO flusher thread
+538533d61f9d6df67dcc75867d3df093fcfba980 fuse2fs: hook library error message printing
+7bc2962f40b46bb6c34506fe6d84475b1c8dfd9b fuse2fs: log all errors being sent to libfuse
+a678f492c49e0c57289fb11d1672930cc064007e fuse2fs: print the function name in error messages, not the file name
+ae6a8f483a79a50c7de8af91920750384b05ee1e fuse2fs: pass a struct fuse2fs to fs_writeable
+441a356fa725d4de857ac7a80b5ca270a1e383e4 fuse2fs: track our own writable state
+6a3c9f5c49ec5beb7db893bc11c11bc134e27d22 fuse2fs: bump library version
+0b2e08de227226dd973eba08aea5dc52a1bf814b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+9984a149466110da8d171a9a08e6d27e80b5e943 fuse2fs: disable nfs exports
+b25bb791116bc7b274acbca9656b09b1c3af18bd libext2fs: always fsync the device when flushing the cache
+b78b779879c53dfbca4d0833e7e4076fc1943dbb libext2fs: always fsync the device when closing the unix IO manager
+921db4c4d587e78918736140790a2cbd8dfda447 libext2fs: only fsync the unix fd if we wrote to the device
+6da615f40182146c141f13b339c9ec3dad31cf48 libext2fs: invalidate cached blocks when freeing them
+042e74a19f5f11dc4f8cc3ebae644ad156a50125 libext2fs: add tagged block IO for better caching
+309e660e255780394ce7c8a7405d57b0132aace3 libext2fs: add tagged block IO caching to the unix IO manager
+1dcc12723bd644fa7b0ebe8728248189b9ea1d9f libext2fs: only flush affected blocks in unix_write_byte
+a227a832ef86fc896adb228f467bc6fbac94352a libext2fs: allow unix_write_byte when the write would be aligned
+f3b828adcc508a178046081ba266c67a626a0643 libext2fs: allow clients to ask to write full superblocks
+b61a8fbfd15c30921308bae7d8b93d37c5db93cb libext2fs: allow callers to disallow I/O to file data blocks
+994aa55463bd491981bf6757511eb86a4bbf94a5 fuse2fs: implement bare minimum iomap for file mapping reporting
+495c6a7297262cf0417ae79106d116dfa0823854 fuse2fs: register block devices for use with iomap
+851850e77657a78da955d811eaee9ded19070b5c fuse2fs: always use directio disk reads with fuse2fs
+cfd7159ba0b41e0c329b02d1ab3af70f7bc34c50 fuse2fs: implement directio file reads
+6b896845ab0051380998e8e7c371bd053e398c68 fuse2fs: use tagged block IO for zeroing sub-block regions
+043466b986d96ecda7b9c733eb9a37748ac24fd9 fuse2fs: only flush the cache for the file under directio read
+6df532695e399f840f24b7d9ab9987f5d7f1bdae fuse2fs: add extent dump function for debugging
+74c0dcb6c873c3e74dc3cd2d0565fa1ae61defe7 fuse2fs: implement direct write support
+515704a66bbbc5bca2deefdd3ef827aa37dea5c8 fuse2fs: turn on iomap for pagecache IO
+613e4d46fb3a4f82bc8d2ff97eb7622afab471a7 fuse2fs: flush and invalidate the buffer cache on trim
+bf5db22f9810e1b1cc5c61e5f068b49889e41a40 fuse2fs: improve tracing for fallocate
+fdc398871ae3d1153466a14681ab836f49c78499 fuse2fs: don't zero bytes in punch hole
+8c0d114cecda2dd06c0ad0fb3774ed95c2acbee6 fuse2fs: don't do file data block IO when iomap is enabled
+357b75bb82327d47a304d9d6acb7b8c0df528418 fuse2fs: disable most io channel flush/invalidate in iomap pagecache mode
+4ad60e80d35f3e2ed8871b72b07b9f93f2c6a789 fuse2fs: re-enable the block device pagecache for metadata IO
+82382974f332dcf12ac9cb01e844002b2f9ef9b8 fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5be4ef77e855-dcdac8742b73.txt
+Content-Disposition: attachment; filename=revlist-cf1e294a1a67-9984a1494661.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-a63efd0d3f54df11820de5306761cccb3b58a2c8 generic: various atomic write tests with scsi_debug
-c54691fa0cd8d977000a7452f99ad26e2688817e treewide: convert all $MOUNT_PROG to _mount
-fee970d6641eb05f158215c589f7e235a9b5e010 check: capture dmesg of mount failures if test fails
-bee8950e79a7d98e252c7df0b952ba9f8258acbf xfs: test health monitoring code
-7a131d4592e935feae56bb6a5ae669a19495c54d xfs: test for metadata corruption error reporting via healthmon
-86e675a1268fa5fe81283f5cdcc44f373476ac03 xfs: test io error reporting via healthmon
-0dac38f5b3d5f98cab9fcdd9814c54d1da56d850 xfs: test new xfs_healer daemon
-c70b9de837bb2a6a0fbf90bfaecc628c2ca057bd xfs/1856: add metadir upgrade to test matrix
-3cdfdaa9b71c284419ca3e930101271293f576c0 xfs/1856: add rtrmapbt upgrade to test matrix
-05e74b994ab4e54178b33c77d6239cd5ce766078 xfs/1856: add rtreflink upgrade to test matrix
-250faf17f9ad495a9e983a3d761491673828e295 xfs/1856: tweak need_metadir for zoned filesystems
-02a36cc5e322ead1a201d913d2ba24cf19c6aafe misc: adapt tests to handle the fuse ext[234] drivers
-2127331c9c18e14844241d48d3ffbbb286d8b11c misc: fix for fuse.ext[234] now too
-5519500169200b1a28c54d0399d4e90bee83e763 generic/740: don't run this test for fuse ext* implementations
-851548f09c4ec45107e8cb13d467bdbad9827ad7 ext/052: use popdir.pl for much faster directory creation
-2184e1fb6246b6f7298cc924fef64ebedfa62155 common/rc: skip test if swapon doesn't work
-3f01d6073980eb9196dadf6fa519fcb65adae184 common/rc: streamline _scratch_remount
-4a8ba5d28206cef037c42fc998a20f514a68d78f ext/039: require metadata journalling
-5e09e4e9fdaf5ffcbaf093b2e428116349543b4d populate: don't check for htree directories on fuse.ext4
-ea36e8c5cde5839b62e6522c68a6e7b11932cbf5 misc: convert _scratch_mount -o remount to _scratch_remount
-f6b2e5f96192cc3b9998155c34e6c82c93fbedc4 misc: use explicitly $FSTYP'd mount calls
-a085ea7be7c2331f076e95eac25035858688442a common/ext4: explicitly format with $FSTYP
-41d1b6af155e65325aa7655bf9715eecd5f67976 tests/ext*: refactor open-coded _scratch_mkfs_sized calls
-c32d9ce9d7af22174f63389a004e5ffeb01eca2e generic/732: disable for fuse.ext4
-de72c9e3b40b07d085069dfd1bb15fcf36717ab8 defrag: fix ext4 defrag ioctl test
-2da6b17d9f70ce55a7d508059c4112cea1f9c6e2 misc: explicitly require online resize support
-8670c07477bffeec3a61d75ea9353305097d1071 ext4/004: disable for fuse2fs
-405de46bc3ba8136533ac173fd374cff229d1495 generic/679: disable for fuse2fs
-1c1fefabac5d848604cd659486ced79f26e3c8d3 ext4/045: don't run the long dirent test on fuse2fs
-757fb7800f209fbf1338c6cde8325141e99c6aa3 generic/338: skip test if we can't mount with strictatime
-dcdac8742b73181ff3ca646174189b9cfcd2ac1b generic/563: fuse doesn't support cgroup-aware writeback accounting
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
+6b729d679357e79ee0262246ed0bd462078c74e6 fuse2fs: use file handles when possible
+1cb679433d7a4135a46870327346624eddc23338 fuse2fs: implement dir seeking
+3ccc0f1b3b8a6d1deb5c3b555ee36f5aa4ab9af2 fuse2fs: implement readdirplus
+87db18838e9a79bd318cfd9704b8207eb7769d94 fuse2fs: implement dirsync mode
+0b8735eb47d6bc2a92b6e59f244f4a1095ce6f2e fuse2fs: only flush O_SYNC files on close
+54edf4ce17ea72ea68f3c60af6be62afcb99480a fuse2fs: improve want_extra_isize handling
+5337d7f96f9eef1daf51f9cc63f6233ab96aa288 fuse2fs: cache symlink targets in the kernel
+e3039ac60218f05915a8b7419c94d50ce24c2176 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+9061691fa871f299c0aa2ca3dbf1270702fa39f8 fuse2fs: get rid of the global_fs variable
+6a0e7d1df461446fd12ddbe973fb494ac539d228 fuse2fs: close filesystem from op_destroy
+977d2d27dde9c1898fe65ed99100a3f7d47c7e91 fuse2fs: split filesystem mounting into helper functions
+8c259415456af89086c735982e8edb7b1a783529 fuse2fs: make norecovery behavior consistent with the kernel
+e3b66127796d4b91bc46b2e016fc877cc51d1bd1 fuse2fs: check for recorded fs errors before touching things
+0e45414125b82e32b0c346ffd5c93b92952e5751 fuse2fs: recheck support after replaying journal
+00df864d7de8ac240386bad1a2581f669844a8e9 fuse2fs: improve error handling behaviors
+f6490d229b6b857130a525f700c9f7b76a619156 libext2fs: make it possible to extract the fd from an IO manager
+22f9295ab5d365af2d313f52f93d70a0a79fd9b4 fuse2fs: use fuseblk mode for mounting filesystems
+c40ed24aea001e108385cd849da88a033608e673 fuse2fs: register as an IO flusher thread
+538533d61f9d6df67dcc75867d3df093fcfba980 fuse2fs: hook library error message printing
+7bc2962f40b46bb6c34506fe6d84475b1c8dfd9b fuse2fs: log all errors being sent to libfuse
+a678f492c49e0c57289fb11d1672930cc064007e fuse2fs: print the function name in error messages, not the file name
+ae6a8f483a79a50c7de8af91920750384b05ee1e fuse2fs: pass a struct fuse2fs to fs_writeable
+441a356fa725d4de857ac7a80b5ca270a1e383e4 fuse2fs: track our own writable state
+6a3c9f5c49ec5beb7db893bc11c11bc134e27d22 fuse2fs: bump library version
+0b2e08de227226dd973eba08aea5dc52a1bf814b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+9984a149466110da8d171a9a08e6d27e80b5e943 fuse2fs: disable nfs exports
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb31da6837b4-33a1d45be345.txt
+Content-Disposition: attachment; filename=revlist-6ae8edba4546-5337d7f96f9e.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-a63efd0d3f54df11820de5306761cccb3b58a2c8 generic: various atomic write tests with scsi_debug
-c54691fa0cd8d977000a7452f99ad26e2688817e treewide: convert all $MOUNT_PROG to _mount
-fee970d6641eb05f158215c589f7e235a9b5e010 check: capture dmesg of mount failures if test fails
-bee8950e79a7d98e252c7df0b952ba9f8258acbf xfs: test health monitoring code
-7a131d4592e935feae56bb6a5ae669a19495c54d xfs: test for metadata corruption error reporting via healthmon
-86e675a1268fa5fe81283f5cdcc44f373476ac03 xfs: test io error reporting via healthmon
-0dac38f5b3d5f98cab9fcdd9814c54d1da56d850 xfs: test new xfs_healer daemon
-c70b9de837bb2a6a0fbf90bfaecc628c2ca057bd xfs/1856: add metadir upgrade to test matrix
-3cdfdaa9b71c284419ca3e930101271293f576c0 xfs/1856: add rtrmapbt upgrade to test matrix
-05e74b994ab4e54178b33c77d6239cd5ce766078 xfs/1856: add rtreflink upgrade to test matrix
-250faf17f9ad495a9e983a3d761491673828e295 xfs/1856: tweak need_metadir for zoned filesystems
-02a36cc5e322ead1a201d913d2ba24cf19c6aafe misc: adapt tests to handle the fuse ext[234] drivers
-2127331c9c18e14844241d48d3ffbbb286d8b11c misc: fix for fuse.ext[234] now too
-5519500169200b1a28c54d0399d4e90bee83e763 generic/740: don't run this test for fuse ext* implementations
-851548f09c4ec45107e8cb13d467bdbad9827ad7 ext/052: use popdir.pl for much faster directory creation
-2184e1fb6246b6f7298cc924fef64ebedfa62155 common/rc: skip test if swapon doesn't work
-3f01d6073980eb9196dadf6fa519fcb65adae184 common/rc: streamline _scratch_remount
-4a8ba5d28206cef037c42fc998a20f514a68d78f ext/039: require metadata journalling
-5e09e4e9fdaf5ffcbaf093b2e428116349543b4d populate: don't check for htree directories on fuse.ext4
-ea36e8c5cde5839b62e6522c68a6e7b11932cbf5 misc: convert _scratch_mount -o remount to _scratch_remount
-f6b2e5f96192cc3b9998155c34e6c82c93fbedc4 misc: use explicitly $FSTYP'd mount calls
-a085ea7be7c2331f076e95eac25035858688442a common/ext4: explicitly format with $FSTYP
-41d1b6af155e65325aa7655bf9715eecd5f67976 tests/ext*: refactor open-coded _scratch_mkfs_sized calls
-c32d9ce9d7af22174f63389a004e5ffeb01eca2e generic/732: disable for fuse.ext4
-de72c9e3b40b07d085069dfd1bb15fcf36717ab8 defrag: fix ext4 defrag ioctl test
-2da6b17d9f70ce55a7d508059c4112cea1f9c6e2 misc: explicitly require online resize support
-8670c07477bffeec3a61d75ea9353305097d1071 ext4/004: disable for fuse2fs
-405de46bc3ba8136533ac173fd374cff229d1495 generic/679: disable for fuse2fs
-1c1fefabac5d848604cd659486ced79f26e3c8d3 ext4/045: don't run the long dirent test on fuse2fs
-757fb7800f209fbf1338c6cde8325141e99c6aa3 generic/338: skip test if we can't mount with strictatime
-dcdac8742b73181ff3ca646174189b9cfcd2ac1b generic/563: fuse doesn't support cgroup-aware writeback accounting
-a15dcab4aa35586caf855306a4cbd1f3953c6df2 xfs: online fuzz test known output
-7a519400837e42d71b908be19de067ea09c60136 xfs: offline fuzz test known output
-897d2a9ede4480f06d2057c78f5ecfb1308931e5 xfs: norepair fuzz test known output
-33a1d45be345083341a497b0034b79d7663966df xfs: bothrepair fuzz test known output
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
+6b729d679357e79ee0262246ed0bd462078c74e6 fuse2fs: use file handles when possible
+1cb679433d7a4135a46870327346624eddc23338 fuse2fs: implement dir seeking
+3ccc0f1b3b8a6d1deb5c3b555ee36f5aa4ab9af2 fuse2fs: implement readdirplus
+87db18838e9a79bd318cfd9704b8207eb7769d94 fuse2fs: implement dirsync mode
+0b8735eb47d6bc2a92b6e59f244f4a1095ce6f2e fuse2fs: only flush O_SYNC files on close
+54edf4ce17ea72ea68f3c60af6be62afcb99480a fuse2fs: improve want_extra_isize handling
+5337d7f96f9eef1daf51f9cc63f6233ab96aa288 fuse2fs: cache symlink targets in the kernel
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1579062d581-0dac38f5b3d5.txt
+Content-Disposition: attachment; filename=revlist-3991d18a0bca-a678f492c49e.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-a63efd0d3f54df11820de5306761cccb3b58a2c8 generic: various atomic write tests with scsi_debug
-c54691fa0cd8d977000a7452f99ad26e2688817e treewide: convert all $MOUNT_PROG to _mount
-fee970d6641eb05f158215c589f7e235a9b5e010 check: capture dmesg of mount failures if test fails
-bee8950e79a7d98e252c7df0b952ba9f8258acbf xfs: test health monitoring code
-7a131d4592e935feae56bb6a5ae669a19495c54d xfs: test for metadata corruption error reporting via healthmon
-86e675a1268fa5fe81283f5cdcc44f373476ac03 xfs: test io error reporting via healthmon
-0dac38f5b3d5f98cab9fcdd9814c54d1da56d850 xfs: test new xfs_healer daemon
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
+6b729d679357e79ee0262246ed0bd462078c74e6 fuse2fs: use file handles when possible
+1cb679433d7a4135a46870327346624eddc23338 fuse2fs: implement dir seeking
+3ccc0f1b3b8a6d1deb5c3b555ee36f5aa4ab9af2 fuse2fs: implement readdirplus
+87db18838e9a79bd318cfd9704b8207eb7769d94 fuse2fs: implement dirsync mode
+0b8735eb47d6bc2a92b6e59f244f4a1095ce6f2e fuse2fs: only flush O_SYNC files on close
+54edf4ce17ea72ea68f3c60af6be62afcb99480a fuse2fs: improve want_extra_isize handling
+5337d7f96f9eef1daf51f9cc63f6233ab96aa288 fuse2fs: cache symlink targets in the kernel
+e3039ac60218f05915a8b7419c94d50ce24c2176 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+9061691fa871f299c0aa2ca3dbf1270702fa39f8 fuse2fs: get rid of the global_fs variable
+6a0e7d1df461446fd12ddbe973fb494ac539d228 fuse2fs: close filesystem from op_destroy
+977d2d27dde9c1898fe65ed99100a3f7d47c7e91 fuse2fs: split filesystem mounting into helper functions
+8c259415456af89086c735982e8edb7b1a783529 fuse2fs: make norecovery behavior consistent with the kernel
+e3b66127796d4b91bc46b2e016fc877cc51d1bd1 fuse2fs: check for recorded fs errors before touching things
+0e45414125b82e32b0c346ffd5c93b92952e5751 fuse2fs: recheck support after replaying journal
+00df864d7de8ac240386bad1a2581f669844a8e9 fuse2fs: improve error handling behaviors
+f6490d229b6b857130a525f700c9f7b76a619156 libext2fs: make it possible to extract the fd from an IO manager
+22f9295ab5d365af2d313f52f93d70a0a79fd9b4 fuse2fs: use fuseblk mode for mounting filesystems
+c40ed24aea001e108385cd849da88a033608e673 fuse2fs: register as an IO flusher thread
+538533d61f9d6df67dcc75867d3df093fcfba980 fuse2fs: hook library error message printing
+7bc2962f40b46bb6c34506fe6d84475b1c8dfd9b fuse2fs: log all errors being sent to libfuse
+a678f492c49e0c57289fb11d1672930cc064007e fuse2fs: print the function name in error messages, not the file name
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9eada911863e-a6f7a4310fa5.txt
+Content-Disposition: attachment; filename=revlist-f03cbcb66e57-22f9295ab5d3.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
+6b729d679357e79ee0262246ed0bd462078c74e6 fuse2fs: use file handles when possible
+1cb679433d7a4135a46870327346624eddc23338 fuse2fs: implement dir seeking
+3ccc0f1b3b8a6d1deb5c3b555ee36f5aa4ab9af2 fuse2fs: implement readdirplus
+87db18838e9a79bd318cfd9704b8207eb7769d94 fuse2fs: implement dirsync mode
+0b8735eb47d6bc2a92b6e59f244f4a1095ce6f2e fuse2fs: only flush O_SYNC files on close
+54edf4ce17ea72ea68f3c60af6be62afcb99480a fuse2fs: improve want_extra_isize handling
+5337d7f96f9eef1daf51f9cc63f6233ab96aa288 fuse2fs: cache symlink targets in the kernel
+e3039ac60218f05915a8b7419c94d50ce24c2176 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+9061691fa871f299c0aa2ca3dbf1270702fa39f8 fuse2fs: get rid of the global_fs variable
+6a0e7d1df461446fd12ddbe973fb494ac539d228 fuse2fs: close filesystem from op_destroy
+977d2d27dde9c1898fe65ed99100a3f7d47c7e91 fuse2fs: split filesystem mounting into helper functions
+8c259415456af89086c735982e8edb7b1a783529 fuse2fs: make norecovery behavior consistent with the kernel
+e3b66127796d4b91bc46b2e016fc877cc51d1bd1 fuse2fs: check for recorded fs errors before touching things
+0e45414125b82e32b0c346ffd5c93b92952e5751 fuse2fs: recheck support after replaying journal
+00df864d7de8ac240386bad1a2581f669844a8e9 fuse2fs: improve error handling behaviors
+f6490d229b6b857130a525f700c9f7b76a619156 libext2fs: make it possible to extract the fd from an IO manager
+22f9295ab5d365af2d313f52f93d70a0a79fd9b4 fuse2fs: use fuseblk mode for mounting filesystems
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254595755e48-22a600baa4eb.txt
+Content-Disposition: attachment; filename=revlist-58e27a36fef4-441a356fa725.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
+6b729d679357e79ee0262246ed0bd462078c74e6 fuse2fs: use file handles when possible
+1cb679433d7a4135a46870327346624eddc23338 fuse2fs: implement dir seeking
+3ccc0f1b3b8a6d1deb5c3b555ee36f5aa4ab9af2 fuse2fs: implement readdirplus
+87db18838e9a79bd318cfd9704b8207eb7769d94 fuse2fs: implement dirsync mode
+0b8735eb47d6bc2a92b6e59f244f4a1095ce6f2e fuse2fs: only flush O_SYNC files on close
+54edf4ce17ea72ea68f3c60af6be62afcb99480a fuse2fs: improve want_extra_isize handling
+5337d7f96f9eef1daf51f9cc63f6233ab96aa288 fuse2fs: cache symlink targets in the kernel
+e3039ac60218f05915a8b7419c94d50ce24c2176 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+9061691fa871f299c0aa2ca3dbf1270702fa39f8 fuse2fs: get rid of the global_fs variable
+6a0e7d1df461446fd12ddbe973fb494ac539d228 fuse2fs: close filesystem from op_destroy
+977d2d27dde9c1898fe65ed99100a3f7d47c7e91 fuse2fs: split filesystem mounting into helper functions
+8c259415456af89086c735982e8edb7b1a783529 fuse2fs: make norecovery behavior consistent with the kernel
+e3b66127796d4b91bc46b2e016fc877cc51d1bd1 fuse2fs: check for recorded fs errors before touching things
+0e45414125b82e32b0c346ffd5c93b92952e5751 fuse2fs: recheck support after replaying journal
+00df864d7de8ac240386bad1a2581f669844a8e9 fuse2fs: improve error handling behaviors
+f6490d229b6b857130a525f700c9f7b76a619156 libext2fs: make it possible to extract the fd from an IO manager
+22f9295ab5d365af2d313f52f93d70a0a79fd9b4 fuse2fs: use fuseblk mode for mounting filesystems
+c40ed24aea001e108385cd849da88a033608e673 fuse2fs: register as an IO flusher thread
+538533d61f9d6df67dcc75867d3df093fcfba980 fuse2fs: hook library error message printing
+7bc2962f40b46bb6c34506fe6d84475b1c8dfd9b fuse2fs: log all errors being sent to libfuse
+a678f492c49e0c57289fb11d1672930cc064007e fuse2fs: print the function name in error messages, not the file name
+ae6a8f483a79a50c7de8af91920750384b05ee1e fuse2fs: pass a struct fuse2fs to fs_writeable
+441a356fa725d4de857ac7a80b5ca270a1e383e4 fuse2fs: track our own writable state
 
---===============7958510956878532239==
+--===============9131775868252360135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e161fc34861a-b3da4865e80d.txt
+Content-Disposition: attachment; filename=revlist-1c5c3a2e325a-b61a8fbfd15c.txt
 
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
+c3188ee4ecca2e5da82d88232fb45318887fce78 libext2fs: fix error paths after alocation failures
+c0667222d06886fc1119ecedef5c029be91f117a util: fix potential OOB write in the symlinks build helper
+6e1e57671c85a48624069a274b66740d279cfcc8 e2fsck: fix int vs ssize_t warnings from Coverity
+7dbac9cdbea1455225e0ef4628c61393dedc1a80 fuse2fs: fix portability issues when compiling on MacOS
+3f148554686027f087e16dd45735d02e9bc803c1 libext2fs: fix unix io manager invalidation
+af9b01d23006a365488b1be31d01afa2cce977b0 libext2fs: fix livelock in the unix io manager
+ac2ff60cd29e2de8a066ca3e64c7928056634efc fuse2fs: clean up error messages
+1d6ff53834dac0c3d708ce95c2f9de96ebd8a833 fuse2fs: fix cache size parsing
+c7f2688540d95e7f2cbcd178f8ff62ebe079faf7 fuse2fs: compact all the boolean flags in struct fuse2fs
+5c7fec6121e6b24732db30ac408d9c8ab4805245 fuse2fs: support XATTR_CREATE/REPLACE in setxattr
+18c01ba6cfd542e7c966de685d4a225d81b95c57 fuse2fs: fix error return handling in op_truncate
+bb2a4e6cf6af196349651664767091badc3e4dd5 fuse2fs: flip parameter order in __translate_error
+7c08dcb576f8d8e79dff6ddfe70e443df1dc353f fuse2fs: fix CLI argument parsing leaks
+0a72f4656dc88eb89c837a42f44f215d5fcf58a3 fuse2fs: allow some control over acls
+8646830d9bffbcd1243db044eb141ac8ee5de8cd fuse2fs: enable processing of acls in the kernel
+cb115a8761ab0bc35be41e60c00e2765e1db1bfb fuse2fs: make removexattr work correctly
+b022aca269a5552395393989a4be530cbf7b5e70 fuse2fs: implement O_TRUNC correctly
+65ddfa481d1fc47b51f8ec550ae35704bee00e26 fuse2fs: rearrange check_inum_access parameters a bit
+dca02019d9536fd771381107990ca5a7828c85ed fuse2fs: make filesystem corruption a hard error
+4a59e57e3d18b6f3d1b0f4f7261b233e36e697d4 fuse2fs: make internal state corruption a hard error
+3ec4cd88f9cbdacb27e353428c9381ec5030d9e9 fuse2fs: make bad magic numbers report a corruption error too
+7f9166cd55c6ad1b62105b9aa54badb09bd612af fuse2fs: return EPERM for write access to EXT2_IMMUTABLE_FL files
+2f9b156c1e174750ae17fc3de0abd40801331078 fuse2fs: check the immutable flag in more places
+9f69dfc4e275ccc06605111fa5ee7b781b627e60 fuse2fs: implement O_APPEND correctly
+ce89945a5d8627b8d1ec1863ee4d5de1b5364e7d fuse2fs: decode fuse_main error codes
+f09e999be64bd0df0e4d779ea90c878745cf557f fuse2fs: fix fallocate zero range
+010a73cdeb5719ac80845a142bee77ee790304a2 fuse2fs: check for supported xattr name prefixes
+f23be676388c3e8afacdf6703755f1b5bda96a47 fuse2fs: fix return value handling
+7607e348ab22fcf1381bb0b832c922a5fbe6337e fuse2fs: simplify reading and writing inodes
+3045aed621117f6b1d206621dcf11470bf641984 fuse2fs: fix removing ea inodes when freeing a file
+4581ac60eb53ec1ad7443491a0de1e4aa9086cc4 fuse2fs: fix post-EOF preallocation clearing on truncation
+bdef89e681da87506cdda924c72b6d2b8487198c fuse2fs: also ignore the nodelalloc mount option
+2c7900387620a60b4f233a2de03eb2490b7a4283 fuse2fs: propagate default ACLs to new children
+3469e6ff606af8938a4ed3332b9cd43e91fa5164 fuse2fs: fix group membership checking in op_chmod
+a6d88edd2b8332c4e7793a06584277979fba950f fuse2fs: clean up open-coded ext2_inode_large -> ext2_inode casts
+ca3f4e3a9c4e9b2ea9229fa913b8ea269e7e6e34 fuse2fs: replace ext2fs_{read,write}_inode with fuse2fs_{read,write}_inode
+241dae1b68aabe121974d095c150e7d2f9f33ade fuse2fs: implement blocksize converters
+51d68472456d22b6e64159244be63bce51473691 debugfs: abort reading a file on failure when dumping out a file
+cddc1ddbe815ba7cb132ca6be3e67d46d97ed63e mke2fs: modify the fallback path for copying data
+167719dce93fb34cba459298ddfad32cf2c2e73a mke2fs: factor out 'write_all()' functionality
+6bfa843b4435334ac073e42950b48d8bacb54977 mke2fs: enable copying of fs-verity metadata
+bc53cd6a2e7a4fad8fc214b0927cfeae2b252089 mke2fs: add support for copying signature blobs in the fs-verity metadata
+03fa1a5ee55d0653f5931cea3cab760599bab216 mke2fs: disallow -O verity without extents
+0a5dc78ba4dce69bdb320e51a79def9d2e0102d4 Add a support for new flag (EXT2FS_LINK_EXPAND) for ext2fs_link()
+aef4ee829aa6318ce812ae8fad7425c21dd4220c libext2fs: fix ext2fs_link() for EXT2FS_LINK_APPEND and non-regular files
+b107c3a2b8e857bc75af61e3741edcb4ed2b9d4f libext2fs: add new function ext2fs_mkdir2()
+06d2777426e16ae9c354f1c14b779d666492802c mke2fs: propagate some chattr flags into the fs image when using mke2fs -d
+86f11317429bd424ef61dc287566c0e3c4a4298c libext2fs: fix Coverity type warnings from ext2fs_inode_xtime_set()
+707af4359e132bc415c3f6339f4ced9f23b28c0b e2fsck: fix e2fsck -E unshare_blocks when there are no shared blocks
+dd0c4efa173203484f0cd612f97eb19181240a33 e4defrag: fix memory leak
+3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
+015c3f4a4e1b6740843ffad6f66e5e898c723d98 fuse2fs: fix old libfuse compatibility issue
+0c675a67c5684252e3a228c824b0accb9f3ab5d7 debugfs: return after printing the usage message in the e2freefrag command
+954ec190896b9630657153760a8d2c176988c933 create_inode: fix 32-bit -Werror=pointer-to-int-cast build failure
+f10e1427c6ebbae0bdac6c765023d5c410076966 Merge branch 'fix-fuse' of github.com:allisonkarlitskaya/e2fsprogs into next
+2b0c19bf1d4fccdd613343d24e43569af466a523 .gitignore: add files generated by "make depend"
+7e0bd0be25ff9cc15104d744ea1a19d7717deb37 Update Makefile.in files using "make depend"
+95255bb941b3686ec6e3d39e4bfcdbf06c09a45c debian: update libext2fs2t64.symbols with shared library additions
+6551ff61118b02e7fe48708431e9027a46683fa0 util: avoid potential buffer overruns caused by super-long pathnames
+4ef16799622b4fb1a0a0c20ecb780387df3fc734 po: update ms.po (from translationproject.org)
+7bbb358283cd9799c07e8f0cd6513834f40af9b9 po: update nl.po (from translationproject.org)
+99b0921597cb70afa80ccc0a7cc6f7608b8d02d3 po: update pt.po (from translationproject.org)
+e51822048f50affb2fd44a211f96c0b3cafd1a4a po: update sr.po (from translationproject.org)
+344dd5b242c4e9e981851d6162cfd28368f4e938 po: add Georgian language from the Translation Project
+6af12b68af940793013743a35f15efb9b2370f98 Update release notes, etc., for the 1.47.3 release
+e996c6c0e8468b3e27166500ef082a9facf3146c debian: use 1.47.3~rc1 in libext2fs2t64.symbols instead of 1.47.3
+6cba1e8a18651ab889441d4e325df60b4ebaad9b debian: release 1.47.3~rc1-1 to experimental
+1036f723a4f8be383e92809c44998402ff33559f debian: remove physical address of the FSF from the copyright file
+41b400841b85dd7fb72fb0e605e33d7d7b146f71 debian: add a Built-Using field to the e2fsck-static package
+84edbfa27dfe1675db7a02dc2dc86b3f27f42bcb misc: define alternative errno if OS doesn't provide ENODATA
+9882047bee29ded1c5c642a63166973cab29fb04 misc: define XATTR_{CREATE,REMOVE} if necessary
+4d6cfa2557de7d0878fed3203ac36d3e91df183f mke2fs: fix a misindentation in the man page
+030b523d84a96c941cf9914444e39254aff10e59 e2freefrag: correct a mistyped symbol name
+b914701223255c116745a11f30563652c9fdbb4b libext2fs: fix a extent tree corruption bug in ext2fs_extent_set_bmap()
+205ea4dea7174997b28ad0dffdd6b861af8798f8 libext2fs: fix ext2fs_link() when the directory has an extent tree depth > 1
+34b2a4a1f9794498ca403393003cc5840c240d42 libext2fs: fix integer overflow in ext2fs_punch() when releasing more than 2**31 blocks
+d33d0e6df5775fbf6f9bbef4c2439253d697dde3 libext2fs: fix spurious warnings from fallocate
+8a2fbdd63e2b15d8fad126e37999f3a6bf71e952 libext2fs: fix bounding error in the extent fallocate code
+fb5cc3047b713ed2bdc7cf27daed25b78f0a8ee0 fuse2fs: fix error bailout in op_create
+18b135a0ff487b8f00b955f3074780b434a1862d fuse2fs: fuse2fs: correctly handle system errno values in __translate_error()
+6b729d679357e79ee0262246ed0bd462078c74e6 fuse2fs: use file handles when possible
+1cb679433d7a4135a46870327346624eddc23338 fuse2fs: implement dir seeking
+3ccc0f1b3b8a6d1deb5c3b555ee36f5aa4ab9af2 fuse2fs: implement readdirplus
+87db18838e9a79bd318cfd9704b8207eb7769d94 fuse2fs: implement dirsync mode
+0b8735eb47d6bc2a92b6e59f244f4a1095ce6f2e fuse2fs: only flush O_SYNC files on close
+54edf4ce17ea72ea68f3c60af6be62afcb99480a fuse2fs: improve want_extra_isize handling
+5337d7f96f9eef1daf51f9cc63f6233ab96aa288 fuse2fs: cache symlink targets in the kernel
+e3039ac60218f05915a8b7419c94d50ce24c2176 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+9061691fa871f299c0aa2ca3dbf1270702fa39f8 fuse2fs: get rid of the global_fs variable
+6a0e7d1df461446fd12ddbe973fb494ac539d228 fuse2fs: close filesystem from op_destroy
+977d2d27dde9c1898fe65ed99100a3f7d47c7e91 fuse2fs: split filesystem mounting into helper functions
+8c259415456af89086c735982e8edb7b1a783529 fuse2fs: make norecovery behavior consistent with the kernel
+e3b66127796d4b91bc46b2e016fc877cc51d1bd1 fuse2fs: check for recorded fs errors before touching things
+0e45414125b82e32b0c346ffd5c93b92952e5751 fuse2fs: recheck support after replaying journal
+00df864d7de8ac240386bad1a2581f669844a8e9 fuse2fs: improve error handling behaviors
+f6490d229b6b857130a525f700c9f7b76a619156 libext2fs: make it possible to extract the fd from an IO manager
+22f9295ab5d365af2d313f52f93d70a0a79fd9b4 fuse2fs: use fuseblk mode for mounting filesystems
+c40ed24aea001e108385cd849da88a033608e673 fuse2fs: register as an IO flusher thread
+538533d61f9d6df67dcc75867d3df093fcfba980 fuse2fs: hook library error message printing
+7bc2962f40b46bb6c34506fe6d84475b1c8dfd9b fuse2fs: log all errors being sent to libfuse
+a678f492c49e0c57289fb11d1672930cc064007e fuse2fs: print the function name in error messages, not the file name
+ae6a8f483a79a50c7de8af91920750384b05ee1e fuse2fs: pass a struct fuse2fs to fs_writeable
+441a356fa725d4de857ac7a80b5ca270a1e383e4 fuse2fs: track our own writable state
+6a3c9f5c49ec5beb7db893bc11c11bc134e27d22 fuse2fs: bump library version
+0b2e08de227226dd973eba08aea5dc52a1bf814b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+9984a149466110da8d171a9a08e6d27e80b5e943 fuse2fs: disable nfs exports
+b25bb791116bc7b274acbca9656b09b1c3af18bd libext2fs: always fsync the device when flushing the cache
+b78b779879c53dfbca4d0833e7e4076fc1943dbb libext2fs: always fsync the device when closing the unix IO manager
+921db4c4d587e78918736140790a2cbd8dfda447 libext2fs: only fsync the unix fd if we wrote to the device
+6da615f40182146c141f13b339c9ec3dad31cf48 libext2fs: invalidate cached blocks when freeing them
+042e74a19f5f11dc4f8cc3ebae644ad156a50125 libext2fs: add tagged block IO for better caching
+309e660e255780394ce7c8a7405d57b0132aace3 libext2fs: add tagged block IO caching to the unix IO manager
+1dcc12723bd644fa7b0ebe8728248189b9ea1d9f libext2fs: only flush affected blocks in unix_write_byte
+a227a832ef86fc896adb228f467bc6fbac94352a libext2fs: allow unix_write_byte when the write would be aligned
+f3b828adcc508a178046081ba266c67a626a0643 libext2fs: allow clients to ask to write full superblocks
+b61a8fbfd15c30921308bae7d8b93d37c5db93cb libext2fs: allow callers to disallow I/O to file data blocks
 
---===============7958510956878532239==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-281629261d2d-250faf17f9ad.txt
-
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-a63efd0d3f54df11820de5306761cccb3b58a2c8 generic: various atomic write tests with scsi_debug
-c54691fa0cd8d977000a7452f99ad26e2688817e treewide: convert all $MOUNT_PROG to _mount
-fee970d6641eb05f158215c589f7e235a9b5e010 check: capture dmesg of mount failures if test fails
-bee8950e79a7d98e252c7df0b952ba9f8258acbf xfs: test health monitoring code
-7a131d4592e935feae56bb6a5ae669a19495c54d xfs: test for metadata corruption error reporting via healthmon
-86e675a1268fa5fe81283f5cdcc44f373476ac03 xfs: test io error reporting via healthmon
-0dac38f5b3d5f98cab9fcdd9814c54d1da56d850 xfs: test new xfs_healer daemon
-c70b9de837bb2a6a0fbf90bfaecc628c2ca057bd xfs/1856: add metadir upgrade to test matrix
-3cdfdaa9b71c284419ca3e930101271293f576c0 xfs/1856: add rtrmapbt upgrade to test matrix
-05e74b994ab4e54178b33c77d6239cd5ce766078 xfs/1856: add rtreflink upgrade to test matrix
-250faf17f9ad495a9e983a3d761491673828e295 xfs/1856: tweak need_metadir for zoned filesystems
-
---===============7958510956878532239==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57897037d3f9-9e7d181b7fe3.txt
-
-f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
-0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
-f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
-aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
-c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
-34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
-cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
-68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
-75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
-359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
-7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
-3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
-282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
-3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
-1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
-49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
-22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
-67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
-b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e6fc42f16c77ea40090b7168a7195ea12967b012 overlay: workaround libmount failure to remount,ro
-d235c7eef1d84b2ba5502cb866efca0f16e437dc overlay: fix regression in _repair_overlay_scratch_fs
-3b385bf1e90f9d59213b4c198cabe2480d9ca9ef generic/604: do not run with overlayfs
-3d339199525f1a74a08210701c117dc2731286d6 generic: remove incorrect _require_idmapped_mounts checks
-3563fda0140f8512e15578eb975da15d0fa04052 generic/699: fix failure with MOUNT_OPTIONS
-b3da4865e80d920158906b7a138081f8921545c6 fstests: generic/741: make cleanup to handle test failure properly
-049282ec0c686b9e29e359bd89c53a6f68c60d35 xfs/273: fix test for internal zoned filesystems
-85932b49c0281c8fc1575f42074aa72cda232cd1 xfs/259: drop the 512-byte fsblock logic from this test
-9a25725fc7dd9a68e846dbffdac06d716236c05a xfs/259: try to force loop device block size
-a6f7a4310fa5fd0735d4500c9e1143096169e571 xfs/432: fix metadump loop device blocksize problems
-77b62670058b1a64da86491a611369b8a409a7ce logwrites: warn if we don't think read after discard returns zeroes
-f328d670203dc58710ce7f85952a2556b6a4c0f1 logwrites: use BLKZEROOUT if it's available
-22a600baa4ebfb70cb34e03a37f6a9ea92650c40 logwrites: only use BLKDISCARD if we know discard zeroes data
-9e7d181b7fe30b123fd64f77f38f82cf8a2d46d0 xfs: test upgrading old features
-
---===============7958510956878532239==--
+--===============9131775868252360135==--
