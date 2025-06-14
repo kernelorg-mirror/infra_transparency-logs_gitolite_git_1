@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8076596913581743208=="
+Content-Type: multipart/mixed; boundary="===============1477182165590561078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 14 Jun 2025 02:48:27 -0000
-Message-Id: <174986930706.3494974.5147368315448631351@gitolite.kernel.org>
+Date: Sat, 14 Jun 2025 02:48:51 -0000
+Message-Id: <174986933117.3495436.9676935735242286493@gitolite.kernel.org>
 
---===============8076596913581743208==
+--===============1477182165590561078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: b4a29efc51461edf1a02e9da656d4480cabd24b0
+  - ref: refs/heads/fixes
+    old: 35076d2223c731f7be75af61e67f90807384d030
     new: ef102dfe9e96a0f3e339e300c608ac441f71e738
-    log: revlist-b4a29efc5146-ef102dfe9e96.txt
+    log: revlist-35076d2223c7-ef102dfe9e96.txt
 
---===============8076596913581743208==
+--===============1477182165590561078==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b4a29efc5146-ef102dfe9e96.txt
+Content-Disposition: attachment; filename=revlist-35076d2223c7-ef102dfe9e96.txt
 
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 ef102dfe9e96a0f3e339e300c608ac441f71e738 erofs: impersonate the opener's credentials when accessing backing file
 
---===============8076596913581743208==--
+--===============1477182165590561078==--
