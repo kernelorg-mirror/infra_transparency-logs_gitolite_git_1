@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5983434327662918861=="
+Content-Type: multipart/mixed; boundary="===============4531685346273843452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 14 Jun 2025 11:11:36 -0000
-Message-Id: <174989949671.3910057.12356156674202909704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 14 Jun 2025 11:11:40 -0000
+Message-Id: <174989950025.3910225.1174361809959208794@gitolite.kernel.org>
 
---===============5983434327662918861==
+--===============4531685346273843452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: ba06528ad5a31923efc24324706116ccd17e12d8
     new: dc8b60918fc5ba281743f3694e9b671ddbf0e930
     log: |
@@ -26,37 +26,37 @@ changes:
          f59427932885f9b47b22b532b079478905b9ad08 ASoC: apple: mca: Drop default ARCH_APPLE in Kconfig
          dc8b60918fc5ba281743f3694e9b671ddbf0e930 ASoC: cs35l56: Change firmware filenames for SoundWire
          
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 5eb8a0d7733d4cd32a776acf1d1aa1c7c01c8a14
     new: 000d8b9420c09a42271310c9785e42a229cb069a
     log: revlist-5eb8a0d7733d-000d8b9420c0.txt
 
---===============5983434327662918861==
+--===============4531685346273843452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749899530 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1749899494-f00e51cce6be447bceeb2807418e9998abde8a08
+pusher C3F436CA30F5D8EB 1749899534 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1749899497-44c7f4793bb0bd0db13a0091ff1e3de9d6fd4053
 
-ba06528ad5a31923efc24324706116ccd17e12d8 dc8b60918fc5ba281743f3694e9b671ddbf0e930 refs/heads/for-6.16
-5eb8a0d7733d4cd32a776acf1d1aa1c7c01c8a14 000d8b9420c09a42271310c9785e42a229cb069a refs/heads/for-6.17
+ba06528ad5a31923efc24324706116ccd17e12d8 dc8b60918fc5ba281743f3694e9b671ddbf0e930 refs/heads/asoc-6.16
+5eb8a0d7733d4cd32a776acf1d1aa1c7c01c8a14 000d8b9420c09a42271310c9785e42a229cb069a refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhNWQoACgkQJNaLcl1U
-h9DX7wf/eY4k5cX5efFjU5A5UM7vUJ/CjzRPRaG5GaFt0Wm462SJXFNihwbCp3pe
-O5IuwyBtfBYKjgb0f/zbKGM6Q9CkMKC/bywm7KqmF9usk/bOiX+TdX11siRaipH/
-qTT7qkWxVp26gegsuxqJ2OwvjkqDsiXhAhwI0cJsd+VEsk6Osk7Tm0P6B73IQNGr
-mjrTzowqZMGNCgGC/DkoRJYx74UrV8hHke5t1m5DbWKRMoyFvqlTq6AWOXa4eB6t
-uF9XWM6j8LHO8UKyka/NKHuD3Sb/zPKRgs0jjlYBzJ3eX1fPpUBnztG+Tfd6LIpi
-IVl3RtiGxQWIH781vLZmAAQ+mKLEHA==
-=61p2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhNWQ4ACgkQJNaLcl1U
+h9ByyAf/Zu53vI7jCd4w+l3WjSMk0v47yBP/zubE1f1In6kauG9rNYDvyPSZ1Ei9
+Pn03LDgB6rPxwj9r7Yjo3SGaJvFFbFEq7BVZ5z3HLIYAyhcsCM9lK0W+4XetI7No
+/iRevg9B06CyIysVQL/os47jxC2MiPunO3pvnpqRDqOoufXflR+xxsXr5bNSMj1F
+z6Ei7zgEDmWhyDXOnXsyc1RMjfdsYWHXACDk35mWhGCm1EitrjlE1H0QYjg2V5/i
+RxaD0CYKvEP4cVVZTRmxJQxaobIl6QKrz9VhAuSS8+Cg15h6Y6leZQYo/JwjpJoC
+c5Zs8vfDNgxUkTqGcv2KcjTCX/sXjw==
+=L1o4
 -----END PGP SIGNATURE-----
 
---===============5983434327662918861==
+--===============4531685346273843452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ b2c090c9f6aa9d19f4c966233d7fcb872255f83b ASoC: mediatek: mt8173-afe-pcm: use loc
 bb8d8ba4715cb8f997d63d90ba935f6073595df5 ASoC: mediatek: mt8183-afe-pcm: use local `dev` pointer in driver callbacks
 000d8b9420c09a42271310c9785e42a229cb069a ASoC: mediatek: use reserved memory or enable
 
---===============5983434327662918861==--
+--===============4531685346273843452==--
