@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 14 Jun 2025 20:48:38 -0000
-Message-Id: <174993411829.179905.16374633631485410901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 14 Jun 2025 21:31:08 -0000
+Message-Id: <174993666878.214682.14014479834867477400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 6c021599d559f371475400a3722efb128622c270
-    new: f4073c3a3974f55722f27a6b3bc468bb03cf742b
+  - ref: refs/heads/damon/next
+    old: 2b5e2b536704a39246ae5dc85888250b6aafca37
+    new: c11d376a557f34c800aef879b6f02eac20c9b56f
     log: |
-         f4073c3a3974f55722f27a6b3bc468bb03cf742b hkml_list: cleanup code
+         e7d80a8852830e6cd2561a250b9025ca62ee1e1b lru_sort modernization
+         18a30df6ad3f41779d186a099b708a6d6b19bfcc mm/damon: introduce active:inactive memory ratio damos quota goal metric
+         5eeb37ccaf5abeca8d350c40e7273a9597d1ad4b mm/damon/lru_sort: consider age for quota prioritization
+         c11d376a557f34c800aef879b6f02eac20c9b56f mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
          
