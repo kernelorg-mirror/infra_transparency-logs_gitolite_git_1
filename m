@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7556046028530512953=="
+Content-Type: multipart/mixed; boundary="===============4703591684655825760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Sat, 14 Jun 2025 22:19:01 -0000
-Message-Id: <174993954167.251837.16816457693009236848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Sat, 14 Jun 2025 22:19:33 -0000
+Message-Id: <174993957390.252792.777461778540792906@gitolite.kernel.org>
 
---===============7556046028530512953==
+--===============4703591684655825760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
   - ref: refs/heads/for-next
-    old: c07d3aede2b26830ee63f64d8326f6a87dee3a6d
-    new: baed3a4b7d3821092da465cd1b33a51fba47cf6e
-    log: revlist-c07d3aede2b2-baed3a4b7d38.txt
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: b59e04b8a1a0d76adb8335f8b46f049fd9af17c2
+    log: revlist-0af2f6be1b42-b59e04b8a1a0.txt
 
---===============7556046028530512953==
+--===============4703591684655825760==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c07d3aede2b2-baed3a4b7d38.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-b59e04b8a1a0.txt
 
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1049,6 +1049,6 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-baed3a4b7d3821092da465cd1b33a51fba47cf6e fscrypt: explicitly include <linux/export.h>
+b59e04b8a1a0d76adb8335f8b46f049fd9af17c2 fsverity: explicitly include <linux/export.h>
 
---===============7556046028530512953==--
+--===============4703591684655825760==--
