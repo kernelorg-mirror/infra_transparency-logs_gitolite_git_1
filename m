@@ -1,36 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 14 Jun 2025 01:13:09 -0000
-Message-Id: <174986358924.3415790.3611638863618553149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 14 Jun 2025 01:13:21 -0000
+Message-Id: <174986360161.3416144.3271394475304902195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/reorg-bandwidth-control
-    old: 4fb6a1d4d6d42ab17daa40c0e4a1411ff4b06432
-    new: eed2586789078045cccb6cfb5f358be04ae77ba1
+  - ref: refs/heads/main
+    old: 0051ea4aca6714965ea1e5ce78bde329eb37b138
+    new: f5e72579fe34a81c00c53fd3b1d76c16aa4a2a58
     log: |
-         18a59424c9bf3fcbebb26c2f8aaf2289a39bbe71 sched/fair: Move max_cfs_quota_period decl and default_cfs_period() def from fair.c to sched.h
-         37ce816ecd187eb69af39010ece0632850b42c60 sched/core: Relocate tg_get_cfs_*() and cpu_cfs_*_read_*()
-         80a28b3a492f873e9304e950caacb1a01574be87 sched/core: Reorganize cgroup bandwidth control interface file reads
-         eed2586789078045cccb6cfb5f358be04ae77ba1 sched/core: Reorganize cgroup bandwidth control interface file writes
-         
-  - ref: refs/heads/scx-bandwidth-control
-    old: 2243c13290a5fd69f3a022d66893e3e54b260c8d
-    new: 077814f57f8acce13f91dc34bbd2b7e4911fbf25
-    log: |
-         18a59424c9bf3fcbebb26c2f8aaf2289a39bbe71 sched/fair: Move max_cfs_quota_period decl and default_cfs_period() def from fair.c to sched.h
-         37ce816ecd187eb69af39010ece0632850b42c60 sched/core: Relocate tg_get_cfs_*() and cpu_cfs_*_read_*()
-         80a28b3a492f873e9304e950caacb1a01574be87 sched/core: Reorganize cgroup bandwidth control interface file reads
-         eed2586789078045cccb6cfb5f358be04ae77ba1 sched/core: Reorganize cgroup bandwidth control interface file writes
-         53ceec14842fe8472706cd67a4b33fd7830138dc Merge branch 'reorg-bandwidth-control' into scx-bandwidth-control
-         d713770ac7a3292167003e62cd27683a8f474f72 sched_ext: Make scx_group_set_weight() always update tg->scx.weight
-         49668b4d8b790ac182e57d3bab3ac65b5f561192 sched_ext, sched/core: Don't call scx_group_set_weight() prematurely from sched_create_group()
-         55aa129e6add97a98340326451bdadd4c5dd3242 sched_ext, sched/core: Factor out struct scx_task_group
-         077814f57f8acce13f91dc34bbd2b7e4911fbf25 sched_ext: Add support for cgroup bandwidth control interface
+         5f6ec55777d5a1253615851fa50fd405a0db8eb9 net: phy: dp83tg720: implement soft reset with asymmetric delay
+         491e991f781611c7977a69a1e243fc56cef61e3c net: phy: dp83tg720: remove redundant 600ms post-reset delay
+         cc8aeb0f535f3214c2aad13a384e93a55db15569 net: phy: dp83tg720: switch to adaptive polling and remove random delays
+         f5e72579fe34a81c00c53fd3b1d76c16aa4a2a58 Merge branch 'dp83tg720-reduce-link-recovery'
          
