@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0798728800910622864=="
+Content-Type: multipart/mixed; boundary="===============8134000093736259042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 14 Jun 2025 06:35:44 -0000
-Message-Id: <174988294485.3684535.10942329277905363600@gitolite.kernel.org>
+Date: Sat, 14 Jun 2025 06:48:51 -0000
+Message-Id: <174988373186.3694126.6799480655818195673@gitolite.kernel.org>
 
---===============0798728800910622864==
+--===============8134000093736259042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/headers.param
-    old: bfc032d943f7bb5d9e81d68b36dbd691dbdc22df
-    new: 0778f35b125d64c1736a34e88504e9fe9c6166ac
-    log: revlist-bfc032d943f7-0778f35b125d.txt
+  - ref: refs/heads/work.misc
+    old: c1feab95e0b2e9fce7e4f4b2739baf40d84543af
+    new: d412fb33a616f810a48f75aa175b305cc5a98303
+    log: revlist-c1feab95e0b2-d412fb33a616.txt
 
---===============0798728800910622864==
+--===============8134000093736259042==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bfc032d943f7-0778f35b125d.txt
+Content-Disposition: attachment; filename=revlist-c1feab95e0b2-d412fb33a616.txt
 
-c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
-9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
-5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
-70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
 54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
 fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
 d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
@@ -1047,8 +1042,13 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-041e17b4412e40a17223d333ac604b716eac178d xtensa: get rid uapi/asm/param.h
-16ac3c0f2f8b336b14f8913c53816d41980b1acc alpha: regularize the situation with asm/param.h
-0778f35b125d64c1736a34e88504e9fe9c6166ac loongarch, um, xtensa: get rid of generated arch/$ARCH/include/asm/param.h
+6d8dfa4b6ca0b934fba3da991e29cb9fcd831d80 landlock: opened file never has a negative dentry
+b7147532185c55eb4ecdfa3d464cd0e67deb8383 apparmor: file never has NULL f_path.mnt
+8a9738b9d91a515712da7f9bd849366199fdfc79 don't duplicate vfs_open() in kernel_file_open()
+6b50ece75b9f8db65e366758f6584335588d2cc5 proc_fd_getattr(): don't bother with S_ISDIR() check
+8eb52226546a637b55b46e28dc58b9befe397bd8 secretmem: move setting O_LARGEFILE and bumping users' count to the place where we create the file
+d466a58463bd670cd66c2458165c3c991398fe0f [bpf_iter] get rid of redundant 3rd argument of prepare_seq_file()
+aa79f512c02059d2cdb081452996bc71d55cd198 binder_ioctl_write_read(): simplify control flow a bit
+d412fb33a616f810a48f75aa175b305cc5a98303 selinuxfs_fill_super(): don't bother with selinuxfs_info_free() on failures
 
---===============0798728800910622864==--
+--===============8134000093736259042==--
