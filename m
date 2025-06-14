@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8321150381786972584=="
+Content-Type: multipart/mixed; boundary="===============4107661939916366595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 14 Jun 2025 06:59:21 -0000
-Message-Id: <174988436149.3702967.1259294062840977461@gitolite.kernel.org>
+Date: Sat, 14 Jun 2025 06:59:38 -0000
+Message-Id: <174988437824.3704007.11426562404003645456@gitolite.kernel.org>
 
---===============8321150381786972584==
+--===============4107661939916366595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e09060facea0e610728f546c174339b1cd821681
-    new: baaf9d62a0b979ada65bf71f1d4f7dfc522d2d69
-    log: revlist-e09060facea0-baaf9d62a0b9.txt
+    old: baaf9d62a0b979ada65bf71f1d4f7dfc522d2d69
+    new: 7c7b36738644523badeea1c4da2bca513e2cb4fa
+    log: |
+         8863fea808b71b11e8231624763334dc4d3db53f Merge branch into tip/master: 'irq/urgent'
+         8f2e2245c2b593beee4535efa51ea0f58cd6619f Merge branch into tip/master: 'locking/urgent'
+         6d7c7f3ff342b2505b20cd2763c5c7288e3b7ee9 Merge branch into tip/master: 'perf/urgent'
+         9eb1eed6bc92b5013faceed1c6aff5137ef11d06 Merge branch into tip/master: 'x86/urgent'
+         2bb31788da0a4faa690dccb7391411b3c48eabfc Merge branch into tip/master: 'core/bugs'
+         5472d16f409f6f68bc3f902ed1078b52e74d364b Merge branch into tip/master: 'core/entry'
+         5feda98d80e46c34a4990a1160e278071edb80c4 Merge branch into tip/master: 'irq/core'
+         438623cb3a0a3e129bd750bbd48dda870d2a2fd6 Merge branch into tip/master: 'irq/drivers'
+         d7012901b10006485fc863f307fba9c1b8748abf Merge branch into tip/master: 'sched/core'
+         7c822a0a67a4467fe48fbedabdf758b2a334399c Merge branch into tip/master: 'smp/core'
+         c52dc23a8a469de652b04891d181064b010593f3 Merge branch into tip/master: 'timers/core'
+         7c7b36738644523badeea1c4da2bca513e2cb4fa Merge branch into tip/master: 'x86/kconfig'
+         
+  - ref: refs/heads/tip/urgent
+    old: c1031aaba3d7ec755b5338870e117165c70a8356
+    new: 9eb1eed6bc92b5013faceed1c6aff5137ef11d06
+    log: revlist-c1031aaba3d7-9eb1eed6bc92.txt
 
---===============8321150381786972584==
+--===============4107661939916366595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e09060facea0-baaf9d62a0b9.txt
+Content-Disposition: attachment; filename=revlist-c1031aaba3d7-9eb1eed6bc92.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -114,6 +131,9 @@ d080d3b54448501ddb0f9e1f85a8043253100f55 Merge tag 'bitmap-for-6.16-rc2' of http
 a24823d14b2d35909e1299d10c34d85dfbf23434 Merge tag 'drm-xe-fixes-2025-06-12' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 1364af9cb2c5716f1905113cc84ff77ddf16a22e Merge tag 'drm-misc-fixes-2025-06-12' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 9f0ad43b158d07bc7144d219ceabdea36e28e392 spi: spi-pci1xxxx: Drop MSI-X usage as unsupported by DMA engine
+2b32fc8ff08deac3aa509f321a28e21b1eea5525 genirq/cpuhotplug: Rebalance managed interrupts across multi-CPU hotplug
+72218d74c9c57b8ea36c2a58875dff406fc10462 genirq/cpuhotplug: Restore affinity even for suspended IRQ
+8a2277a3c9e4cc5398f80821afe7ecbe9bdf2819 genirq/irq_sim: Initialize work context pointers properly
 36df6f734a7ad69880c5262543165c47cb57169f Merge tag 'bcachefs-2025-06-12' of git://evilpiepirate.org/bcachefs
 ad6159087fbbd754bfe940bd62b6322307925faa Merge tag 'v6.16-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 dde63797055cf3615bdac744d641e19e165467bb Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
@@ -128,6 +148,9 @@ f688b599d711d169b22e99f2d055847d66c4e0d3 Merge tag 'pm-6.16-rc2' of git://git.ke
 18531f4d1c8c47c4796289dbbc1ab657ffa063d2 Merge tag 'acpi-6.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 25294cb8a404e8116eecaf2f151ee2fd6c17fb9b Merge tag 'drm-fixes-2025-06-14' of https://gitlab.freedesktop.org/drm/kernel
 4774cfe3543abb8ee98089f535e28ebfd45b975a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-baaf9d62a0b979ada65bf71f1d4f7dfc522d2d69 Merge branch 'linus'
+8863fea808b71b11e8231624763334dc4d3db53f Merge branch into tip/master: 'irq/urgent'
+8f2e2245c2b593beee4535efa51ea0f58cd6619f Merge branch into tip/master: 'locking/urgent'
+6d7c7f3ff342b2505b20cd2763c5c7288e3b7ee9 Merge branch into tip/master: 'perf/urgent'
+9eb1eed6bc92b5013faceed1c6aff5137ef11d06 Merge branch into tip/master: 'x86/urgent'
 
---===============8321150381786972584==--
+--===============4107661939916366595==--
