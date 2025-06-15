@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1705720515667664456=="
+Content-Type: multipart/mixed; boundary="===============4611018210431128501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Jun 2025 17:37:07 -0000
-Message-Id: <175000902737.1175945.9280899525754292331@gitolite.kernel.org>
+Date: Sun, 15 Jun 2025 17:37:25 -0000
+Message-Id: <175000904599.1176446.14431818277975235511@gitolite.kernel.org>
 
---===============1705720515667664456==
+--===============4611018210431128501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6f6a3e087d6476dde52daeac3d700bc4a06d0cf0
-    new: 33773debdd8d177ff859ff7ff814b2c93b12dbd3
-    log: revlist-6f6a3e087d64-33773debdd8d.txt
+    old: 33773debdd8d177ff859ff7ff814b2c93b12dbd3
+    new: 74f86163845cfeb1b4b0173eaa1ee05e2e8ca4fd
+    log: |
+         165086ec2cda27eef168f8f0a1fc49dbb9da04ad Merge branch into tip/master: 'irq/urgent'
+         339cc7465c3d0e97dd29860d016c62c31f89ffe7 Merge branch into tip/master: 'locking/urgent'
+         778cf6312f403beee348c1e86c1563fe77eee6f9 Merge branch into tip/master: 'perf/urgent'
+         af8de379e60a4618b47454106bdc6730a9276f31 Merge branch into tip/master: 'x86/urgent'
+         39a775a4d8b7c2054e53961701ac7bee37fd7ea4 Merge branch into tip/master: 'core/bugs'
+         434b98296c16bcb381219317ad916876599c8c31 Merge branch into tip/master: 'core/entry'
+         3b8926bb5d8bc7ddf01d67e1bfaa4799964197a3 Merge branch into tip/master: 'irq/core'
+         67fff1ca1d3af8625d2f3406b74c216067eef864 Merge branch into tip/master: 'irq/drivers'
+         6a93b2dc0c923773d797b8a4ce59067097e8996c Merge branch into tip/master: 'sched/core'
+         6fb44d4f291b62b21d9ce2c5d43db08ef8e0700b Merge branch into tip/master: 'smp/core'
+         355b77b6442b359e33e8b81e3d4b32037d6d2453 Merge branch into tip/master: 'timers/core'
+         74f86163845cfeb1b4b0173eaa1ee05e2e8ca4fd Merge branch into tip/master: 'x86/kconfig'
+         
+  - ref: refs/heads/tip/urgent
+    old: 7de8522af19bc5bbfbdd24aed8133e80eff2d33e
+    new: af8de379e60a4618b47454106bdc6730a9276f31
+    log: revlist-7de8522af19b-af8de379e60a.txt
 
---===============1705720515667664456==
+--===============4611018210431128501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f6a3e087d64-33773debdd8d.txt
+Content-Disposition: attachment; filename=revlist-7de8522af19b-af8de379e60a.txt
 
 93310053663ba647e402ef67e4bb18ec06ff8dc4 smb: client: disable path remapping with POSIX extensions
 ac0b8b327a5677dc6fecdf353d808161525b1ff0 io_uring: fix use-after-free of sq->thread in __io_uring_show_fdinfo()
@@ -62,6 +79,9 @@ ac91b4de4492bfdbbf46b265fb6c5c0ed4b66504 Merge tag 'iommu-fixes-v6.16-rc1' of gi
 a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/export.h from W=1 to W=2
 2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-33773debdd8d177ff859ff7ff814b2c93b12dbd3 Merge branch 'linus'
+165086ec2cda27eef168f8f0a1fc49dbb9da04ad Merge branch into tip/master: 'irq/urgent'
+339cc7465c3d0e97dd29860d016c62c31f89ffe7 Merge branch into tip/master: 'locking/urgent'
+778cf6312f403beee348c1e86c1563fe77eee6f9 Merge branch into tip/master: 'perf/urgent'
+af8de379e60a4618b47454106bdc6730a9276f31 Merge branch into tip/master: 'x86/urgent'
 
---===============1705720515667664456==--
+--===============4611018210431128501==--
