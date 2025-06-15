@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Sun, 15 Jun 2025 10:38:55 -0000
-Message-Id: <174998393588.839087.8436149116854950086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 15 Jun 2025 11:24:09 -0000
+Message-Id: <174998664977.874825.10526854418225841357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: c54a2e825847c898c7f003b8556ba2eca08349f1
-    new: 386e7db5e6d87e42001803de314d6568105cd8ee
+  - ref: refs/heads/x86/kconfig
+    old: 5fda7f875a706421f7b47e995517bbc1265a1892
+    new: 1dbc32c1928d5a775df8e2953a2debae3054e11e
     log: |
-         386e7db5e6d87e42001803de314d6568105cd8ee Use static linking for libarchive by default on MacOS
-         
-  - ref: refs/heads/next
-    old: c54a2e825847c898c7f003b8556ba2eca08349f1
-    new: 386e7db5e6d87e42001803de314d6568105cd8ee
-    log: |
-         386e7db5e6d87e42001803de314d6568105cd8ee Use static linking for libarchive by default on MacOS
+         ad2062c81e6362937eddb388c2c09de753d135d0 x86/tools: insn_decoder_test.c: Emit standard build success messages
+         1dbc32c1928d5a775df8e2953a2debae3054e11e x86/tools: insn_sanity.c: Emit standard build success messages
          
