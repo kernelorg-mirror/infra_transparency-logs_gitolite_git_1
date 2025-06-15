@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1237914631097549134=="
+Content-Type: multipart/mixed; boundary="===============2773956774326737820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 15 Jun 2025 15:49:35 -0000
-Message-Id: <175000257509.1087909.4795622739731758721@gitolite.kernel.org>
+Date: Sun, 15 Jun 2025 15:49:46 -0000
+Message-Id: <175000258631.1088220.8046711455596147842@gitolite.kernel.org>
 
---===============1237914631097549134==
+--===============2773956774326737820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 8630c59e99363c4b655788fd01134aef9bcd9264
-    new: 2f6b47b295518c3ba16fabb1dddbe6a319899acb
-    log: revlist-8630c59e9936-2f6b47b29551.txt
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-8630c59e9936-19272b37aa4f.txt
 
---===============1237914631097549134==
+--===============2773956774326737820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8630c59e9936-2f6b47b29551.txt
+Content-Disposition: attachment; filename=revlist-8630c59e9936-19272b37aa4f.txt
 
 99850a1c93fe7ca40ad9efddc00acec6e85c5e48 x86/fpu: Remove unused trace events
 86aa94cd50b138be0dd872b0779fa3036e641881 perf/x86/intel: Fix incorrect MSR index calculations in intel_pmu_config_acr()
@@ -88,7 +88,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/export.h from W=1 to W=2
-2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 
---===============1237914631097549134==--
+--===============2773956774326737820==--
