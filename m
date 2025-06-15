@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5648369505074503267=="
+Content-Type: multipart/mixed; boundary="===============1237914631097549134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 15 Jun 2025 15:49:21 -0000
-Message-Id: <175000256101.1086964.10760174099102042528@gitolite.kernel.org>
+Date: Sun, 15 Jun 2025 15:49:35 -0000
+Message-Id: <175000257509.1087909.4795622739731758721@gitolite.kernel.org>
 
---===============5648369505074503267==
+--===============1237914631097549134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/fixes
     old: 8630c59e99363c4b655788fd01134aef9bcd9264
     new: 2f6b47b295518c3ba16fabb1dddbe6a319899acb
     log: revlist-8630c59e9936-2f6b47b29551.txt
 
---===============5648369505074503267==
+--===============1237914631097549134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/export.h from W=1 to W=2
 2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 
---===============5648369505074503267==--
+--===============1237914631097549134==--
