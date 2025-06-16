@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 16 Jun 2025 10:59:32 -0000
-Message-Id: <175007157275.2157391.1379652407229793539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 16 Jun 2025 11:35:26 -0000
+Message-Id: <175007372612.2188675.3335649376571882180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 12fe085fa4096dedd82a9af0901fb8721379011f
-    new: 9e65270e3bcb1cf2ee6764f8e8743766d6661ecf
+  - ref: refs/heads/master
+    old: c4b3ade6074d0ccb3b58187bef7b60e361bf5bfb
+    new: 51c0697e5551fe3c2d481a4ac71d81695e5374ba
     log: |
-         4cb2b59c30c23fdda8c4b00f00397fb7b4992758 qcom: add gpu firmwares for X1P42100 chipset
-         9e65270e3bcb1cf2ee6764f8e8743766d6661ecf Merge branch 'robot/pr-0-1750050383' into 'main'
+         51c0697e5551fe3c2d481a4ac71d81695e5374ba libblkid/src/topology/dm: fix fscanf return value check to match expected number of parsed items
          
