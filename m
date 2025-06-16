@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5073717649740136903=="
+Content-Type: multipart/mixed; boundary="===============8420735543722985231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 16 Jun 2025 16:03:44 -0000
-Message-Id: <175008982461.2442104.12110726766821123356@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 16:03:56 -0000
+Message-Id: <175008983621.2442497.8220353540144675494@gitolite.kernel.org>
 
---===============5073717649740136903==
+--===============8420735543722985231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/kbuild
     old: b48ef6837c0390c9f0ed49e02da276988108dd24
     new: e04c78d86a9699d136910cfc0bdcf01087e3267e
     log: revlist-b48ef6837c03-e04c78d86a96.txt
 
---===============5073717649740136903==
+--===============8420735543722985231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -265,4 +265,4 @@ ac91b4de4492bfdbbf46b265fb6c5c0ed4b66504 Merge tag 'iommu-fixes-v6.16-rc1' of gi
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 
---===============5073717649740136903==--
+--===============8420735543722985231==--
