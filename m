@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============2583474572224510936=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 16 Jun 2025 17:42:49 -0000
-Message-Id: <175009576989.2531665.11542978654630896524@gitolite.kernel.org>
-
---===============2583474572224510936==
-Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 16 Jun 2025 17:43:33 -0000
+Message-Id: <175009581315.2532142.18121639301033162553@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,26 +12,14 @@ repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: 2118f2bdc7faf36bb4d34d1708c969036138a71b
-    new: 5eb2b4f5e39d20c6cc948095d55a81fb77b48eee
-    log: revlist-2118f2bdc7fa-5eb2b4f5e39d.txt
-
---===============2583474572224510936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2118f2bdc7fa-5eb2b4f5e39d.txt
-
-63003409805a3c6413f0505162fa8b3aab9ca191 f2fs: introduce reserved_pin_section sysfs entry
-a37c957278a519e47d85d75ecd14a7eeda0fbe33 f2fs: compress: change the first parameter of page_array_{alloc,free} to sbi
-219d2bf03997eb996129b84da53cc39ffde206aa f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic
-421e66b9a3e0c47304be3ae8bdf289e5aaabe1dc f2fs: introduce reserved_pin_section sysfs entry
-75cc919a3fcb406c053d74eddee962fd39c8a950 f2fs: Add fs parameter specifications for mount options
-da5625e3c64340a63a7941f83b7c24033158c188 f2fs: move the option parser into handle_mount_opt
-895fc49cf0922d42e1b3d43af0555443b49f6edf f2fs: Allow sbi to be NULL in f2fs_printk
-dd9e2e88b3dc58453550ad702ad760455f86ba50 f2fs: Add f2fs_fs_context to record the mount options
-c9fb48c20b40519d223e5786609414585c14f483 f2fs: separate the options parsing and options checking
-ea4a6577d986c8d65ed411f3916139f905997d45 f2fs: introduce fs_context_operation structure
-5eb2b4f5e39d20c6cc948095d55a81fb77b48eee f2fs: switch to the new mount api
-
---===============2583474572224510936==--
+    old: 5eb2b4f5e39d20c6cc948095d55a81fb77b48eee
+    new: efa38cdf8fc886c1070d25890c91d6c2a7e70dec
+    log: |
+         6eae0ea3f24c8b3ed99811218adc125c812f48ef f2fs: Add fs parameter specifications for mount options
+         2a6a3b83d35cb8d287cfb5ebdbeec379d87b2f39 f2fs: move the option parser into handle_mount_opt
+         8b751f1671c346a56724cb89c7e8bcf550f5d5a6 f2fs: Allow sbi to be NULL in f2fs_printk
+         d3102283c7d6a5a11b26ee365dfd0d23a550d199 f2fs: Add f2fs_fs_context to record the mount options
+         49df9a82119738f1db6000056b289be27ca5e1bf f2fs: separate the options parsing and options checking
+         01d82c858c078c489873522cdf423e33ea5e083c f2fs: introduce fs_context_operation structure
+         efa38cdf8fc886c1070d25890c91d6c2a7e70dec f2fs: switch to the new mount api
+         
