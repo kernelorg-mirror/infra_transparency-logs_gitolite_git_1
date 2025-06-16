@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7782826235466357763=="
+Content-Type: multipart/mixed; boundary="===============2447365077211102710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 16 Jun 2025 07:17:49 -0000
-Message-Id: <175005826938.1865093.11243240158907715952@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 07:20:47 -0000
+Message-Id: <175005844741.1871686.15489813394710957865@gitolite.kernel.org>
 
---===============7782826235466357763==
+--===============2447365077211102710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: 0645c849aadd029e3382b5ab5dd785b2007cd9bf
-    new: 401d97f21cc4568890a217a5edb8013a1e987d2a
-    log: revlist-0645c849aadd-401d97f21cc4.txt
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 63685e8e8122881a1e5eec654bf602d262b595f7
+    new: 7517df011b2a7749b7dcaa5d33bbd4f9e7fc9ba6
+    log: revlist-63685e8e8122-7517df011b2a.txt
 
---===============7782826235466357763==
+--===============2447365077211102710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0645c849aadd-401d97f21cc4.txt
+Content-Disposition: attachment; filename=revlist-63685e8e8122-7517df011b2a.txt
 
-3d0b2bdafa06149aae7c6d2c3ca83bb30b91915c clk: renesas: r9a08g045: Add clocks, resets and power domain support for the ADC IP
-f021b34eab3e0141779236baaf126c0f7dd697bf iio: adc: rzg2l_adc: Convert dev_err() to dev_err_probe()
-194e2729165e61c0d2b54f377f55fb4624a7b751 iio: adc: rzg2l_adc: Simplify the runtime PM code
-044e08f1dafd6cbccdc025ca276a5944d8e83d05 iio: adc: rzg2l_adc: Switch to RUNTIME_PM_OPS() and pm_ptr()
-fdd7f1a14ab1e9ad48a564995712eab8d7423f14 iio: adc: rzg2l_adc: Use read_poll_timeout()
-22b77f7637cff95b9c9d14645e5501bc35dadbc2 iio: adc: rzg2l_adc: Simplify the locking scheme in rzg2l_adc_read_raw()
-ac71048103ece76c4d83753aaedeb7bda296c340 iio: adc: rzg2l_adc: Enable runtime PM autosuspend support
-3db530107c7ac4e9606086323cb4b2221bdaa666 iio: adc: rzg2l_adc: Prepare for the addition of RZ/G3S support
-e4ab757d54a53ffbec766990e50fa59854cc3a9a iio: adc: rzg2l_adc: Add support for channel 8
-00cda147dc1dcc222fc3fe979cc63de89f2b6ac1 iio: adc: rzg2l_adc: Add suspend/resume support
-df5f6d6f03d0115ce404a76e53b9f41000622f3e dt-bindings: iio: adc: renesas,rzg2l-adc: Document RZ/G3S SoC
-b8c9bcb017bc2542f5731202a39e8666f4c77c74 iio: adc: rzg2l_adc: Add support for Renesas RZ/G3S
-e037f6a6d12867780f2fce63a84fc9f0f99d67dc arm64: dts: renesas: r9a08g045: Add ADC node
-401d97f21cc4568890a217a5edb8013a1e987d2a arm64: dts: renesas: rzg3s-smarc-som: Enable ADC
+b8fbf37c4d12f4cc03d41d3cbf1cee949b2829cb clk: renesas: r9a08g045: Add clocks, resets and power domain support for the ADC IP
+b472f7549b6770c73734a652e34e52f1eb73c538 iio: adc: rzg2l_adc: Convert dev_err() to dev_err_probe()
+ffe4a44bf16c17a26124536533179c12239668de iio: adc: rzg2l_adc: Simplify the runtime PM code
+2d5ced3b1353289aaf92548d31430c9f7f1346f1 iio: adc: rzg2l_adc: Switch to RUNTIME_PM_OPS() and pm_ptr()
+74d9cb94ef596205be2701181556a1335263b8c5 iio: adc: rzg2l_adc: Use read_poll_timeout()
+b93ae84013ac0b6f77e2e9b88b5ab3264b6f7fcc iio: adc: rzg2l_adc: Simplify the locking scheme in rzg2l_adc_read_raw()
+14e4eaeb21c94b6c2db4f45132bdf6e02c4e705f iio: adc: rzg2l_adc: Enable runtime PM autosuspend support
+bb5cba06cd34ac4550f896535df38d8d559d6f81 iio: adc: rzg2l_adc: Prepare for the addition of RZ/G3S support
+a674736d1ba1f1b182e6442b2874c02d39c67c8f iio: adc: rzg2l_adc: Add support for channel 8
+b9312990d479d39392765247c1f002b4b8d3bfc6 iio: adc: rzg2l_adc: Add suspend/resume support
+1eece19a7b6d0ca6e6b2e862179899cacf3fa3db dt-bindings: iio: adc: renesas,rzg2l-adc: Document RZ/G3S SoC
+17903c0f1b026478b324487623d4d2b7d0839f8f iio: adc: rzg2l_adc: Add support for Renesas RZ/G3S
+60551cfd08e97eec803dc465ad1c6afa6073cd95 arm64: dts: renesas: r9a08g045: Add ADC node
+7517df011b2a7749b7dcaa5d33bbd4f9e7fc9ba6 arm64: dts: renesas: rzg3s-smarc-som: Enable ADC
 
---===============7782826235466357763==--
+--===============2447365077211102710==--
