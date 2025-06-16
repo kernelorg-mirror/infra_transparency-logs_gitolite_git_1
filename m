@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 16 Jun 2025 18:58:11 -0000
-Message-Id: <175010029154.2597753.9877384157342769279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 16 Jun 2025 19:19:07 -0000
+Message-Id: <175010154710.2614185.2693378782235940780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 44a5ab7a7958fbf190ae384b8ef252f23b840c1b
-    new: 9afe652958c3ee88f24df1e4a97f298afce89407
+  - ref: refs/heads/work.simple_recursive_removal
+    old: 8a1b8b75acc2bf0f75c414119d8149ba33b3a596
+    new: b555e93402bade7015fb9a1f460dfb3b6556323d
     log: |
-         e34dbbc85d64af59176fe59fad7b4122f4330fe2 x86/fred/signal: Prevent immediate repeat of single step trap on return from SIGTRAP handler
-         f287822688eeb44ae1cf6ac45701d965efc33218 selftests/x86: Add a test to detect infinite SIGTRAP handler loop
-         0b3bc018e86afdc0cbfef61328c63d5c08f8b370 x86/virt/tdx: Avoid indirect calls to TDX assembly functions
-         1dbf30fdb5e57fb2c39f17f35f2b544d5de34397 x86/mm/pat: don't collapse pages without PSE set
-         47410d839fcda6890cb82828f874f97710982f24 x86/Kconfig: only enable ROX cache in execmem when STRICT_MODULE_RWX is set
-         0b0cae7119a0ec9449d7261b5e672a5fed765068 x86/its: move its_pages array to struct mod_arch_specific
-         a82b26451de126a5ae130361081986bc459afe9b x86/its: explicitly manage permissions for ITS pages
-         7cd9a11dd0c3d1dd225795ed1b5b53132888e7b5 Revert "mm/execmem: Unify early execmem_cache behaviour"
-         9afe652958c3ee88f24df1e4a97f298afce89407 Merge tag 'x86_urgent_for_6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         61c5d53e815784708c45dac086c50a12ed1db694 simple_recursive_removal(): saner interaction with fsnotify
+         8ab031515c9dbdde4dd99ca03bccacbc3af9e527 add locked_recursive_removal()
+         7ada26e828b8bd4a9237227c3a6e89c11cf5faf0 spufs: switch to locked_recursive_removal()
+         9ac35c07efdbc978ef21bc3243b84b4564fcb121 binfmt_misc: switch to locked_recursive_removal()
+         6f8454e40e60f6adb9593f6b2d1f3ff3d42d8c1f pstore: switch to locked_recursive_removal()
+         f10f2890f786873732aa2539d34f8f1a3328c68a fuse_ctl: use simple_recursive_removal()
+         cc83e23ff1016b67617b48a1ca603d08a5d12799 kill binderfs_remove_file()
+         b555e93402bade7015fb9a1f460dfb3b6556323d functionfs, gadgetfs: use simple_recursive_removal()
          
