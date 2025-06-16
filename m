@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============9122215860948433297=="
+Content-Type: multipart/mixed; boundary="===============7344239527072109167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 16 Jun 2025 22:45:15 -0000
-Message-Id: <175011391556.2793435.5916230925876133807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 16 Jun 2025 22:45:22 -0000
+Message-Id: <175011392233.2793830.16044041433811116698@gitolite.kernel.org>
 
---===============9122215860948433297==
+--===============7344239527072109167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: a7d6fb31a4db2a351159cfc5d3e2bb78ea4aa821
-    new: 9fc86a85f36c51dd9e628c82091326151c8ff638
-    log: revlist-a7d6fb31a4db-9fc86a85f36c.txt
+    old: be28fa230e056f5f452572cf936797061b86a7d0
+    new: 8a71d8fa55760eb7f6b1c8a96e771e2678625b9c
+    log: revlist-be28fa230e05-8a71d8fa5576.txt
   - ref: refs/heads/next
-    old: a7d6fb31a4db2a351159cfc5d3e2bb78ea4aa821
-    new: 9fc86a85f36c51dd9e628c82091326151c8ff638
-    log: revlist-a7d6fb31a4db-9fc86a85f36c.txt
+    old: be28fa230e056f5f452572cf936797061b86a7d0
+    new: 8a71d8fa55760eb7f6b1c8a96e771e2678625b9c
+    log: revlist-be28fa230e05-8a71d8fa5576.txt
 
---===============9122215860948433297==
+--===============7344239527072109167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7d6fb31a4db-9fc86a85f36c.txt
+Content-Disposition: attachment; filename=revlist-be28fa230e05-8a71d8fa5576.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
@@ -279,6 +279,6 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 dd2d6b7f6f519d078a866a36a625b0297d81c5bc fs: drop assert in file_seek_cur_needs_f_lock
 fe78e02600f83d81e55f6fc352d82c4f264a2901 Merge tag 'vfs-6.16-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-9fc86a85f36c51dd9e628c82091326151c8ff638 lsm: trivial comment fix
+8a71d8fa55760eb7f6b1c8a96e771e2678625b9c selinux: add a 5 second sleep to /sys/fs/selinux/user
 
---===============9122215860948433297==--
+--===============7344239527072109167==--
