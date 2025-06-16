@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3645825315947235538=="
+Content-Type: multipart/mixed; boundary="===============2150880926820733182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 16 Jun 2025 21:56:41 -0000
-Message-Id: <175011100157.2748050.15963625484677551786@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 21:57:04 -0000
+Message-Id: <175011102473.2748427.8911306372211433735@gitolite.kernel.org>
 
---===============3645825315947235538==
+--===============2150880926820733182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 5c3ba81923e02adae354ec8afd006f93289b4a3c
-    new: 9b71a94b0bc7f30d1c87c41b15df906f3f641649
+  - ref: refs/tags/mkp-scsi-queue
+    old: 233f989b18c06c1bb5968ca53d5f1389c9478406
+    new: 3659e4948bcf6001ad92dc0eaf2eed90015843c2
     log: |
-         d8ab68bdb294b09a761e967dad374f2965e1913f scsi: target: Fix NULL pointer dereference in core_scsi3_decode_spec_i_port()
-         2a8a5a5dd06eef580f9818567773fd75057cb875 scsi: elx: efct: Fix memory leak in efct_hw_parse_filter()
-         19ec970841ca3135e53268a6bb08a850880479bb scsi: storvsc: Explicitly set max_segment_size to UINT_MAX
-         9b71a94b0bc7f30d1c87c41b15df906f3f641649 scsi: megaraid_sas: Fix invalid node index
+         8b0b14614c1566de7857d6ee29e27ec9ac740578 scsi: fcoe: Remove fcoe_select_cpu()
+         c6503be73fa37034fac87c1ffed9f2a82adb5441 scsi: fc_transport: docs: Add documentation for FC Remote Ports
+         ae7795a8c2582b5fb7971132753810a3f158e7b2 scsi: ufs: core: Add HID support
+         9d2c232d575a8c8dfa66276ed7edccfac482a4df scsi: trace: Show rtn in string for scsi_dispatch_cmd_error()
          
 
---===============3645825315947235538==
+--===============2150880926820733182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1750111036 -0400
+pusher 75C5DE3D 1750111042 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1750110999-ef8db62c418b6314edc722c34b0a5ed5b66f14fa
+nonce 1750111005-09d5b65512332cf1fb12eccb2103cdbca8796a04
 
-5c3ba81923e02adae354ec8afd006f93289b4a3c 9b71a94b0bc7f30d1c87c41b15df906f3f641649 refs/heads/fixes
+233f989b18c06c1bb5968ca53d5f1389c9478406 3659e4948bcf6001ad92dc0eaf2eed90015843c2 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhQkzwACgkQ7ulgGnXF
-3j2PEA/+J2vL2sbum38CXy14vEwISemKHmxAjMuT5MdKQtV0U9HRak/a8RaD2ZfK
-r+v3dI603t7MZv82KaURXG44ajxGVBLYzXZXKWyXKCMFr4yU1mHJVsYMAAPEmuqi
-xSmRIFdJI8qou2FqJP8D9kpSPTn7jU50LHPdFGcQJVCFOCu526NnupOlqny6/oJo
-kn2PJ2c1ClH1x++PDhRzd1xv3A/95qQ6+vRHTUta3p02ehOIKXbtpoqdISaknYhJ
-uIXgC9PGO+oB7hNbrV67JgO3Zyjf7aGLXrxNvZSiT+RNAOyE3M+gKI0+t+Bv8Kwl
-jsJMfqHUtpFkuLHlGJS3J0+kjAzFCxYpnYYdIuZd/HeIJBwq1JeiB5ep2679hKqm
-Wiq1seQruV53SFpwiI6oB8UknAykEyrBQZqgaRucsn1LouXNjRQJKthCi3oTQqEu
-btkM78kIqQGyu+iAiixWnzx0VEECbxPhUtruKopu4kBXFrmBJKBreBvYZvL1zr3X
-qgnehNcBmRbyqjtE+OeqxdCOUNCtwYS/nhQGgi0JaB4d1KafGaf+3DAagtR66Ntc
-BppFfF++Br9vsWO0U4PgJb7iRu5foOMHqM6Xo4/VcPWKzUwoSEEIxFg6beAt7V4Y
-vmfFEytxT9qpNQveCeiO5zpVhf33d2AHM2dJ9BwM8GSEnLGKg1o=
-=OYY+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhQk0IACgkQ7ulgGnXF
+3j3vEhAAtEN3/hv1wwjM16Wuqcez5efy8mdxiwtaby37HN/FmvomCeXSCk/2nopV
+f0MYXXmzdlUywYa8+zqcsEBzy5fZuwdW8mX22dylIJNr9K/8u/73Rnhz3hENZQJK
+C9AvEjjwpHf8pQvLIRydWYrLRUsmyPIFFV4xYfaMQTiWBAjqQJxd/Ana73jyddCh
+SZ7+/EGAaDhOROIlUu40gw14AUfA1dmBUvayKgQpBQ11/Ws3d/Fyh4GIKcf8nIAX
+vuptxuP+yasbvEwam4teSPMYn3yaJ+tHo54uKsiLusZ8P0JLGi7hWmJJoUTcfQ1J
+vf3dWYPhbqh44rE9G1Dgv8yvaimzC6mxl4jXmT+34bxjxFenZ5bCxLuv5s54tk4R
+aP1sD2Vb2WctsY7vWAs01g5Y6iUQVr/AAeRiTf9+36jHSQ3YGCFxQ+uGlhiQmijl
+Fhtzp535+ygWb8YR0/ZYaeRvpwdroiH6vndrzun32kPZzM9yzcG5a8EnkTgHEEDP
+IWYZVrmIdC7SRODLEa+S0n1CDjciaSnSix75EtzxibtUd5K/SeZjWrBoaxUz5epd
+CLp2jXeBzFdM6yjeosbWAgSgMU74hBfWbGqF2ByqXhptgtd/leb0Bwq82CkdjhgE
+LCRxFkfh994WEneGzkhIklG0VGERXCmw+Ff9ARWZEN3JMhdJPE8=
+=fS4G
 -----END PGP SIGNATURE-----
 
---===============3645825315947235538==--
+--===============2150880926820733182==--
