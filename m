@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4180143715994524613=="
+Content-Type: multipart/mixed; boundary="===============5006991673093166676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 16 Jun 2025 19:33:19 -0000
-Message-Id: <175010239973.2626278.17917639170798378821@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 19:33:35 -0000
+Message-Id: <175010241539.2626709.11238896931040139449@gitolite.kernel.org>
 
---===============4180143715994524613==
+--===============5006991673093166676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 00108b669f880b96e46183c440fdda152d58b77d
-    new: 983ab26065de5b37482916c9464f08d398c2b7d4
-    log: revlist-00108b669f88-983ab26065de.txt
+  - ref: refs/heads/m68k-queue
+    old: 5cdfcf9cbee325dd1894d70ee9b22ee1f1202d8d
+    new: 1b6ac8a25761989a0614fb00e7f267a504cdc937
+    log: revlist-5cdfcf9cbee3-1b6ac8a25761.txt
 
---===============4180143715994524613==
+--===============5006991673093166676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00108b669f88-983ab26065de.txt
+Content-Disposition: attachment; filename=revlist-5cdfcf9cbee3-1b6ac8a25761.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -266,6 +266,8 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
-983ab26065de5b37482916c9464f08d398c2b7d4 Merge tag 'v6.16-rc2'
+64b13bafdcb62a8d0bc9635550055a7d4f604f51 m68k: atari: usb: Add ISP1160 USB host controller support
+83cdea3ca87827df0e188f806258c8bb3d743fd0 m68k: atari: Update Kconfig.bus help text
+1b6ac8a25761989a0614fb00e7f267a504cdc937 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4180143715994524613==--
+--===============5006991673093166676==--
