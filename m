@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5738110067433141632=="
+Content-Type: multipart/mixed; boundary="===============4492308639274525915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 16 Jun 2025 13:39:01 -0000
-Message-Id: <175008114191.2314643.8141153382449611223@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 13:39:45 -0000
+Message-Id: <175008118521.2315677.4885703826910181577@gitolite.kernel.org>
 
---===============5738110067433141632==
+--===============4492308639274525915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity
+  - ref: refs/heads/next-integrity-testing
     old: fe3aebf27dc1875b2a0d13431e2e8cf3cf350cca
     new: aa9bb1b32594cd67cafd29b330b158128b503882
     log: revlist-fe3aebf27dc1-aa9bb1b32594.txt
 
---===============5738110067433141632==
+--===============4492308639274525915==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 aa9bb1b32594cd67cafd29b330b158128b503882 ima: add a knob ima= to allow disabling IMA in kdump kernel
 
---===============5738110067433141632==--
+--===============4492308639274525915==--
