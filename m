@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 16 Jun 2025 15:43:27 -0000
-Message-Id: <175008860779.2422167.6744489011678977804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 16 Jun 2025 15:46:58 -0000
+Message-Id: <175008881890.2426033.4349949821102141155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 60fdef1d4a990071c30c1c48d9f310d75697582a
-    new: b5bfe2be74f14dd93792521a2dc52ecc82b0bdc1
-    log: |
-         b5bfe2be74f14dd93792521a2dc52ecc82b0bdc1 pwm: stm32: add support for stm32mp25
-         
+  - ref: refs/heads/fileaXf5J1
+    old: b081d8564e4a396843a78788476fdcbf70efed06
+    new: 0000000000000000000000000000000000000000
