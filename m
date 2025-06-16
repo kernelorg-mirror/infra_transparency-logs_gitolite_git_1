@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1621609670819997844=="
+Content-Type: multipart/mixed; boundary="===============7813040885331393163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 16 Jun 2025 20:36:00 -0000
-Message-Id: <175010616008.2680775.9372604194080504702@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 20:36:02 -0000
+Message-Id: <175010616247.2680864.10889549630054987948@gitolite.kernel.org>
 
---===============1621609670819997844==
+--===============7813040885331393163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 08207f42d3ffee43c97f16baf03d7426a3c353ca
     new: 8909f5f4ecd551c2299b28e05254b77424c8c7dc
     log: revlist-08207f42d3ff-8909f5f4ecd5.txt
 
---===============1621609670819997844==
+--===============7813040885331393163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ ffe8a49091767f71802a3c601c121aa0ab84ac5f net: ti: icssg-prueth: Read firmware-na
 0c17270f9b920e4e1777488f1911bbfdaf2af3be net: sysfs: Implement is_visible for phys_(port_id, port_name, switch_id)
 8909f5f4ecd551c2299b28e05254b77424c8c7dc net: stmmac: qcom-ethqos: add ethqos_pcs_set_inband()
 
---===============1621609670819997844==--
+--===============7813040885331393163==--
