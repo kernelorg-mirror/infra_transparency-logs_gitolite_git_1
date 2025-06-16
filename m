@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0570763393187851311=="
+Content-Type: multipart/mixed; boundary="===============7801814410334189486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 16 Jun 2025 10:09:59 -0000
-Message-Id: <175006859974.2115623.537645171973648967@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 10:10:02 -0000
+Message-Id: <175006860282.2116816.6489818256767174691@gitolite.kernel.org>
 
---===============0570763393187851311==
+--===============7801814410334189486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 8630c59e99363c4b655788fd01134aef9bcd9264
     new: e04c78d86a9699d136910cfc0bdcf01087e3267e
     log: revlist-8630c59e9936-e04c78d86a96.txt
 
---===============0570763393187851311==
+--===============7801814410334189486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750068635 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750068638 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1750068598-18576a47881d1f9876aaadebfeff798a2e8b8c9b
+nonce 1750068601-876bcfe7985d0ca5001fbdb96394ea78d8d881ff
 
-8630c59e99363c4b655788fd01134aef9bcd9264 e04c78d86a9699d136910cfc0bdcf01087e3267e refs/heads/staging-linus
+8630c59e99363c4b655788fd01134aef9bcd9264 e04c78d86a9699d136910cfc0bdcf01087e3267e refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhP7ZsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YxMQALNsg0Kitq6nCzXtSC3q
-xdSSjEDhtIRjW9zEmlgG/5ZAY269zjbeWpBFy/CyIj/FF1UEXr5So6Te0H0uO+dh
-RWeHd1h4sqHHmLpTTAqPHtrkBgUtRBllfLI//12umutRI8BI6JkbXRM4ATPobHvN
-CzZL3fPV+PUUxXTb0N5pypc7QMFUCwd2Sv+w/DZlRnX5168xG0NxDLLoFb4X1gjf
-HZJtL24qquf9Zd/bX2ocd9w+Ug1oM/Rz29jd3/HRJKm6ihgrLLjF6Ky2kgur9fND
-WKaqlE6ktN3Gd7edvrwbXzFPQR0vBWntXxMVxY9MqwydjR3LZWSis4oeTcu1IHCN
-4y7fYxeidRzd2AjmDVPxG7nZ1XBgs6BR/5LKdW1AT9+aTluiAZhNj9FmfRr5bWf7
-FEXPge4CkjxNXBRDF2NK4810Fau4R0reWa+zCDgTM5SBVCas19rl/4/VMj1/0ZmQ
-AgmipkB0m8KDDuGBExz86hsQh4OA+wkZY9OEVWxlm2E/4kcmmWqD5i1s6p6TYPHA
-3DqQ8101gqkqiGiOs6N1zC+PwsVK3aFfIZyrDpUP3jdkytimH4XM2zrzpjq2wOpr
-CTkSvv56ZKi3ote9Ta97B9Ovq4HPXZgG9RgJx8WvQ2SUNtkSB0LBKJZpft1VKqeX
-7fFEwbzitfYsLr79V5BWyH2A
-=yj3Z
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhP7Z4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wKYQAIhIM6apKOIDOrDSJ7ou
+352IlQl6nm/gbrjIRkfjK8CVgslzeT5rHkeMx3agF2lanYo/uP9JBgi7frbaK5tg
+RM7o7fkuYlb4MX16VaXGSX5f8AwLjJjcah8627B0kVaedtOO993/De7Oe8Rjqe8q
+y5IMfKdH5vU1EIZ1BRxVFmXIiN5sCLWycXpuMRoO8PzWhd5LRgWaImY5XUk6xrgf
+zghTe85Jk0xOvO+Fh+k+s9UmBb8jnkFmRsOD8Lpij9EOBU2givIr3aEYYvDOyy76
+Dk4ydOB02ti3LHG/8Qb3TE+FypPb13QTT/00Udg0YI/0FsaaLYiI104kTzAHAv/p
+duiXkKdN6wjWc/VgWMj+5XQPoH8Fr3P7+gcPOr/KnnZstAIgHAep5WsFlFEh8zhn
+qVRgJPAFQ7JsFmFGUY3kIjmPyOtv02qBgImlKhahrAfkCrbErRVlC30LUXwyyHng
+EbKIJbtL4S7PMbU7kHT37ZUyhWjcJASPWF951gRMSo2cirID5RyRoOKWDrwKhfkd
+46cfYZEw0YmjT4fPxqTTuB+NukW+RVmgcren50nR7Zjraowy//UwcREkoHddaCH5
+NgaH/s7wE2VXQjsaXzgMcC9qgpkL8XXZi3e4wrF2pNwQHAMofknLFqn5oXMtLVzd
+k6C2GDat345et75B27bKIll7
+=FTPx
 -----END PGP SIGNATURE-----
 
---===============0570763393187851311==
+--===============7801814410334189486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -360,4 +360,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 
---===============0570763393187851311==--
+--===============7801814410334189486==--
