@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Jun 2025 21:17:57 -0000
-Message-Id: <175010867732.2714448.8651094463108187594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Mon, 16 Jun 2025 21:44:53 -0000
+Message-Id: <175011029382.2735440.3154264616462788389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/main
-    old: 5466491c9e3309ed5c7adbb8fad6e93fcc9a8fe9
-    new: 1224b218a4b9203656ecc932152f4c81a97b4fcc
+  - ref: refs/heads/scx-dl-server
+    old: 1d229d193555fe86419c9dc8506ce7c85ac96898
+    new: 654d2869c06c2298c19026fe76243ea4ef135b62
     log: |
-         1224b218a4b9203656ecc932152f4c81a97b4fcc pldmfw: Select CRC32 when PLDMFW is selected
+         b8cb3c5c0c19c23f1354d95915235ecc88058bf5 sched_ext: Update rq clock when stopping dl_server
+         654d2869c06c2298c19026fe76243ea4ef135b62 sched/deadline: Reset total bandwidth when server is disabled
          
