@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5758230673342302385=="
+Content-Type: multipart/mixed; boundary="===============5231782522564860918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 16 Jun 2025 09:16:34 -0000
-Message-Id: <175006539491.2017668.9750433136945731705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 16 Jun 2025 09:16:50 -0000
+Message-Id: <175006541050.2018118.12410997975991143232@gitolite.kernel.org>
 
---===============5758230673342302385==
+--===============5231782522564860918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: e04c78d86a9699d136910cfc0bdcf01087e3267e
     log: revlist-19272b37aa4f-e04c78d86a96.txt
 
---===============5758230673342302385==
+--===============5231782522564860918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -267,4 +267,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 
---===============5758230673342302385==--
+--===============5231782522564860918==--
