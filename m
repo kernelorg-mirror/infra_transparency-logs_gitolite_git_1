@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8852780382985804625=="
+Content-Type: multipart/mixed; boundary="===============6622149919565116247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 16 Jun 2025 21:47:15 -0000
-Message-Id: <175011043596.2738331.18038403593808516785@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 21:55:15 -0000
+Message-Id: <175011091592.2746666.12770512892639835045@gitolite.kernel.org>
 
---===============8852780382985804625==
+--===============6622149919565116247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 262a703002e5975d13affdd2b9e13c5038292053
-    new: 082cdcbde817f400dc42e4103cbe3432b42eb81f
+  - ref: refs/heads/stable-0.14.y
+    old: d7477de41c44dc2794a3e5ecebe6c913b82083cf
+    new: 4d41358a523b33c6d91937e9f23bcd27b9857b26
     log: |
-         082cdcbde817f400dc42e4103cbe3432b42eb81f ez: be more careful when applying trailers to non-prep branches
+         4d41358a523b33c6d91937e9f23bcd27b9857b26 ez: be more careful when applying trailers to non-prep branches
          
 
---===============8852780382985804625==
+--===============6622149919565116247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1750110471 -0400
+pusher B6C41CE35664996C! 1750110951 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1750110435-71932a2adbb3bba44c633018898a63d2096e209b
+nonce 1750110915-48efbef782adab90cb8a9e549493e1fd2cfac656
 
-262a703002e5975d13affdd2b9e13c5038292053 082cdcbde817f400dc42e4103cbe3432b42eb81f refs/heads/master
+d7477de41c44dc2794a3e5ecebe6c913b82083cf 4d41358a523b33c6d91937e9f23bcd27b9857b26 refs/heads/stable-0.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaFCRBwAKCRC2xBzjVmSZ
-bKONAQC1pHCLT1PK7cpg0Chq1dLX098R4sHK+IWspJF5Rtov6gD9ExkKSq1lL9PT
-UCVSLfRobu4DzhYST7bMxfEuDnhrdQA=
-=ZJor
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaFCS5wAKCRC2xBzjVmSZ
+bNhiAQDhbrePg4lhWbAPZD9aRgf/BmOmqFRacWYTg/5l2Pck8AEAiRBKh4stUJYm
+UHVNx4BUxmE5zRnlKceDVgD0s7BIJg4=
+=rMSP
 -----END PGP SIGNATURE-----
 
---===============8852780382985804625==--
+--===============6622149919565116247==--
