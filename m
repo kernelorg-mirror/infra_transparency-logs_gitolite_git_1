@@ -1,30 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============0590157328412927301=="
+Content-Type: multipart/mixed; boundary="===============8384883033484841577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Mon, 16 Jun 2025 23:02:13 -0000
-Message-Id: <175011493304.2806950.1192796183627571373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 16 Jun 2025 23:02:33 -0000
+Message-Id: <175011495357.2807328.13202623422993494256@gitolite.kernel.org>
 
---===============0590157328412927301==
+--===============8384883033484841577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
+  - ref: refs/heads/next
+    old: 8a71d8fa55760eb7f6b1c8a96e771e2678625b9c
+    new: 8c1898122c3bf6b71e249569e90b630882ef7b89
+    log: |
+         86c8db86af43f52f682e53a0f2f0828683be1e52 selinux: fix selinux_xfrm_alloc_user() to set correct ctx_len
+         8c1898122c3bf6b71e249569e90b630882ef7b89 Automated merge of 'dev' into 'next'
+         
   - ref: refs/heads/stable-6.16
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: e04c78d86a9699d136910cfc0bdcf01087e3267e
-    log: revlist-19272b37aa4f-e04c78d86a96.txt
+    new: 86c8db86af43f52f682e53a0f2f0828683be1e52
+    log: revlist-19272b37aa4f-86c8db86af43.txt
 
---===============0590157328412927301==
+--===============8384883033484841577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-e04c78d86a96.txt
+Content-Disposition: attachment; filename=revlist-19272b37aa4f-86c8db86af43.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -266,5 +273,6 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
+86c8db86af43f52f682e53a0f2f0828683be1e52 selinux: fix selinux_xfrm_alloc_user() to set correct ctx_len
 
---===============0590157328412927301==--
+--===============8384883033484841577==--
