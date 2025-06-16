@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 16 Jun 2025 05:38:02 -0000
-Message-Id: <175005228272.1764350.8900411005672799931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Mon, 16 Jun 2025 05:41:45 -0000
+Message-Id: <175005250509.1768273.4364075667987695401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/tags/v6.16-rc2-dts
-    old: 0000000000000000000000000000000000000000
-    new: 87571f66be2c8328c53bff9a9e008c116c64876a
+  - ref: refs/heads/linux-5.10.y-cip
+    old: 4a486399bbd8e14562827f9fcdb74099467a8c28
+    new: d28d910dfcc4cc6d98ff1d388c042a72289a0978
+    log: |
+         d28d910dfcc4cc6d98ff1d388c042a72289a0978 media: mc: Provide a helper for setting bus_info field
+         
