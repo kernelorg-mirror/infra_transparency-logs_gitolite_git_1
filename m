@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8711535454580337869=="
+Content-Type: multipart/mixed; boundary="===============3997483707660013114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 16 Jun 2025 01:33:28 -0000
-Message-Id: <175003760852.1568390.11925501233903770416@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 01:38:50 -0000
+Message-Id: <175003793088.1572930.8299621899438774522@gitolite.kernel.org>
 
---===============8711535454580337869==
+--===============3997483707660013114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,25 +16,25 @@ repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
   - ref: refs/heads/sha512-lib-v2
-    old: 5d84fe946652c1b7b80cfce02409d11e4f404f68
-    new: 6b6a5d6f1f773c2fc47f5d279e33eb3d478862a5
-    log: revlist-5d84fe946652-6b6a5d6f1f77.txt
+    old: 6b6a5d6f1f773c2fc47f5d279e33eb3d478862a5
+    new: 8e5c9107f33a0b51ee9ef02ec6f5f0b37a96ed8c
+    log: revlist-6b6a5d6f1f77-8e5c9107f33a.txt
 
---===============8711535454580337869==
+--===============3997483707660013114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d84fe946652-6b6a5d6f1f77.txt
+Content-Disposition: attachment; filename=revlist-6b6a5d6f1f77-8e5c9107f33a.txt
 
-a4cbff121fbd7993f5168101e424ce04c02021aa crypto: sha512 - use same state format as legacy drivers
-15107091f1229af18c7ab243e7f66b791a92749f lib/crypto/sha512: migrate arm-optimized SHA-512 code to library
-1e4f2928183e449a1f73251471ca46fb009e1062 lib/crypto/sha512: migrate arm64-optimized SHA-512 code to library
-10a5ad7a7d81ac233fddc3f56c461d3af695c979 mips: cavium-octeon: move octeon-crypto.h into asm directory
-ac9a73b687ba1524f70001a8d94b4b70f7ce60b1 lib/crypto/sha512: migrate mips-optimized SHA-512 code to library
-b5825db9b423ac3955c317622c7ac0e2ee0ea7fb lib/crypto/sha512: migrate riscv-optimized SHA-512 code to library
-ddfbc7bb83a805abd8cc62cbcc8fcc3668a073f5 lib/crypto/sha512: migrate s390-optimized SHA-512 code to library
-75679d69a6287755a5c19ba541ebcb2b3c6679a2 lib/crypto/sha512: migrate sparc-optimized SHA-512 code to library
-5a863a857f62116e16fed57eff417116af96a5d3 lib/crypto/sha512: migrate x86-optimized SHA-512 code to library
-6b6a5d6f1f773c2fc47f5d279e33eb3d478862a5 crypto: sha512 - remove sha512_base.h
+72571ece90a255f49aef62d73285be7519c22e88 crypto: sha512 - use same state format as legacy drivers
+0344be184d2b416e715bf586cbf05a8bfd47d3e7 lib/crypto/sha512: migrate arm-optimized SHA-512 code to library
+639ae2f7a4c3fbb3363d8d75ec8739d491eda1a9 lib/crypto/sha512: migrate arm64-optimized SHA-512 code to library
+33d2c401290636ae9abeffc14926c7dcf1253d96 mips: cavium-octeon: move octeon-crypto.h into asm directory
+72e90d58cd33594de6ed681f653232e4a4f8f92d lib/crypto/sha512: migrate mips-optimized SHA-512 code to library
+07790545508ed6ac698a13537ca9a2142113d70a lib/crypto/sha512: migrate riscv-optimized SHA-512 code to library
+d43d0c8a2fdb0faca1a584748466f87da0664c47 lib/crypto/sha512: migrate s390-optimized SHA-512 code to library
+9d3405ead0a842ef9bd24a3ce481160c0be1493e lib/crypto/sha512: migrate sparc-optimized SHA-512 code to library
+cf82802aac1e7d1720d685926613d7786cf7b26b lib/crypto/sha512: migrate x86-optimized SHA-512 code to library
+8e5c9107f33a0b51ee9ef02ec6f5f0b37a96ed8c crypto: sha512 - remove sha512_base.h
 
---===============8711535454580337869==--
+--===============3997483707660013114==--
