@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Jun 2025 08:04:38 -0000
-Message-Id: <175006107823.1956516.7637821810214400691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Mon, 16 Jun 2025 08:04:51 -0000
+Message-Id: <175006109133.1956913.9873561170614668736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/heads/master
-    old: 74f86163845cfeb1b4b0173eaa1ee05e2e8ca4fd
-    new: a071f9bb3b56e0069d175d242d1ec819672f57e1
-    log: |
-         e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
-         a071f9bb3b56e0069d175d242d1ec819672f57e1 Merge branch 'linus'
-         
+  - ref: refs/heads/for-next
+    old: f9b5ee4364ede78a84429fcf34815c76068c6390
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
