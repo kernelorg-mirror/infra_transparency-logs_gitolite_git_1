@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2544007571945332941=="
+Content-Type: multipart/mixed; boundary="===============1609409065700699923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 16 Jun 2025 16:04:24 -0000
-Message-Id: <175008986464.2443154.13259052351002391328@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 16:06:25 -0000
+Message-Id: <175008998546.2446495.9710376653156083086@gitolite.kernel.org>
 
---===============2544007571945332941==
+--===============1609409065700699923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-drivers
-    old: ea3b0b7f541b9511abe2b89547c95458804f38e2
+  - ref: refs/heads/edac-for-next
+    old: 855b5de2e562c07d6cda4deb08d09dc2e0e2b18d
     new: a7c277541e295afc319caf6fbb48c35a1be55aab
-    log: revlist-ea3b0b7f541b-a7c277541e29.txt
+    log: revlist-855b5de2e562-a7c277541e29.txt
 
---===============2544007571945332941==
+--===============1609409065700699923==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ea3b0b7f541b-a7c277541e29.txt
+Content-Disposition: attachment; filename=revlist-855b5de2e562-a7c277541e29.txt
 
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
@@ -1051,4 +1051,4 @@ e7db63a06a65492eb5ceea39f06b94af5dfabcdc ie31200/EDAC: Add Intel Bartlett Lake-S
 f5033f407bc7afe0ff85bc2d77ef0b2a5f10ce17 EDAC/ie31200: Enable support for Core i5-14600 and i7-14700
 a7c277541e295afc319caf6fbb48c35a1be55aab EDAC/ie31200: Document which CPUs correspond to each Raptor Lake-S device ID
 
---===============2544007571945332941==--
+--===============1609409065700699923==--
