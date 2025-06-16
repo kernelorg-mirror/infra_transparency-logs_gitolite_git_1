@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7046992474411114680=="
+Content-Type: multipart/mixed; boundary="===============1224554234441614632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 16 Jun 2025 15:49:36 -0000
-Message-Id: <175008897682.2429220.15300975803476507228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 16 Jun 2025 15:49:40 -0000
+Message-Id: <175008898002.2429338.9341537531953121687@gitolite.kernel.org>
 
---===============7046992474411114680==
+--===============1224554234441614632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 06118ae36855b7d3d22688298e74a766ccf0cb7a
     new: 8acfb165a492251a08a22a4fa6497a131e8c2609
     log: revlist-06118ae36855-8acfb165a492.txt
 
---===============7046992474411114680==
+--===============1224554234441614632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1750089011 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1750088974-bdd0b73f704f15e12b1754e47e6d293109e9906a
+pusher C3F436CA30F5D8EB 1750089014 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1750088978-f87816716e6091d2f805a5cd151c14578b9d515c
 
-06118ae36855b7d3d22688298e74a766ccf0cb7a 8acfb165a492251a08a22a4fa6497a131e8c2609 refs/heads/for-6.16
+06118ae36855b7d3d22688298e74a766ccf0cb7a 8acfb165a492251a08a22a4fa6497a131e8c2609 refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhQPTMACgkQJNaLcl1U
-h9CIoQf/QILSbuEyJ1yhBUlTt7TA/2e8ZoGxBcOcAW8je8pusMRAcRsPL/psn9cT
-CXm6RkSgZNfivjYF0zIWLxMzdFTLefK5gX0+xguF351ppXF3kacQywgzHfaaHHrl
-K8hg974YRfTMW6c88V1oruaeab1nHsicbVH4iLn2eVz3mXKGKApHkfrAMMK82gKG
-PNa5ThgnHHZpQoHxfD5K/XxHwsUvNI4S40YaAr4eDwQvC/v19zNYLK3Bk+8DxsYT
-u99jWwIDJweDgZyikqVeqJ9R3LcG5ve/YeTH5J5/ayEyRvthHN6z9T9AsEWzi4Wr
-JO0Aptm5BAG0MhFgwcGmBgJ4CP14Lg==
-=2YRv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhQPTYACgkQJNaLcl1U
+h9AO9wf8CFnK1JztJzYIlFPLwmgQVssPAsP6mh0o790LUWRK4FkJRhPnrevCDLzd
+zpuUIbjKLmy+kgN1P/ZhlaauSc6jQvvkCVg9gW/HjbSBswZ2hVuqPZEwkNCcQlzB
+smYvv5VwNPNWtg2SJmGn/nSvmG1E0FCfkiVYcNHPZreaUBqIYgYOLgNrD/kq3gT6
+Y/oAdUUfhREQqMAaZOT9SJBe9hawdaQbaUbGXVTYrdgCmgzr+ps5lrgb04x8+YUb
+9NDBnqxexAMZdHW/lAj1uGMAdJtPGjx1fz+u7zelJ8bZwZhFdvGql7kUhSOK/B1j
+jPJuAAdgGMyizTfZNbSTkcdHL+GQMA==
+=E53o
 -----END PGP SIGNATURE-----
 
---===============7046992474411114680==
+--===============1224554234441614632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -292,4 +292,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 8acfb165a492251a08a22a4fa6497a131e8c2609 regulator: fan53555: add enable_time support and soft-start times
 
---===============7046992474411114680==--
+--===============1224554234441614632==--
