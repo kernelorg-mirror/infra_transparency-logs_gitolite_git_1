@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2976888913813342538=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Mon, 16 Jun 2025 18:04:07 -0000
-Message-Id: <175009704748.2551521.10995416438694721618@gitolite.kernel.org>
-
---===============2976888913813342538==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 16 Jun 2025 18:33:11 -0000
+Message-Id: <175009879149.2576241.5871125456975770909@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/patatt/patatt
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/main
-    old: 0aa5a9a9f049d42da14d09ff0c6a56a698563ea5
-    new: 3b250282f08fa0e77afdacde4a8c4088c6d9cb2d
+  - ref: refs/heads/for-6.17
+    old: fda6add9243867486f8cd456d7b05395d2132e0a
+    new: 63bfc4688970fa61bbe80b728b05e88c560e90d0
     log: |
-         3b250282f08fa0e77afdacde4a8c4088c6d9cb2d Add py.typed to the source tree
+         70f65c17ad9b1e2f78d614337ca7898f11d883cb Workqueue: add system_percpu_wq and system_dfl_wq
+         d92609e9c869a17ed1b34f06bbbf02cd6d6e0203 Workqueue: add new WQ_PERCPU flag
+         63bfc4688970fa61bbe80b728b05e88c560e90d0 Workqueue: add WQ_PERCPU
          
-
---===============2976888913813342538==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1750097082 -0400
-pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1750097046-1e2f11761886db3e819cf196bbc23feedc3101ab
-
-0aa5a9a9f049d42da14d09ff0c6a56a698563ea5 3b250282f08fa0e77afdacde4a8c4088c6d9cb2d refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaFBcugAKCRC2xBzjVmSZ
-bIRmAQDqMRpYoo4Uc5EeASFcyFYG9lUhwDx7AHef4/HUl1YEkAEAxuEAP5fzvAKt
-ylOz3xBh9msddfKBLUMNziyTw2/V1As=
-=CqOq
------END PGP SIGNATURE-----
-
---===============2976888913813342538==--
+  - ref: refs/heads/for-next
+    old: fda6add9243867486f8cd456d7b05395d2132e0a
+    new: 63bfc4688970fa61bbe80b728b05e88c560e90d0
+    log: |
+         70f65c17ad9b1e2f78d614337ca7898f11d883cb Workqueue: add system_percpu_wq and system_dfl_wq
+         d92609e9c869a17ed1b34f06bbbf02cd6d6e0203 Workqueue: add new WQ_PERCPU flag
+         63bfc4688970fa61bbe80b728b05e88c560e90d0 Workqueue: add WQ_PERCPU
+         
