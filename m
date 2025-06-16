@@ -1,46 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6143883266898766764=="
+Content-Type: multipart/mixed; boundary="===============2272963503649590381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/patatt/patatt
-Date: Mon, 16 Jun 2025 13:16:21 -0000
-Message-Id: <175007978149.2296451.16887729778799797257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 16 Jun 2025 13:17:26 -0000
+Message-Id: <175007984651.2297154.13598865381759164463@gitolite.kernel.org>
 
---===============6143883266898766764==
+--===============2272963503649590381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/patatt/patatt
+repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5724c52363b73d400806570524547d65a6b7b3e0
-    new: 0aa5a9a9f049d42da14d09ff0c6a56a698563ea5
+  - ref: refs/heads/master
+    old: 083a02929b707e4c184c337cd244d7d496802538
+    new: 08c49d2073707bc3be1641003026da44ee393564
     log: |
-         0aa5a9a9f049d42da14d09ff0c6a56a698563ea5 Don't use @deprecated decorator
+         08c49d2073707bc3be1641003026da44ee393564 Update to latest patatt main
          
 
---===============6143883266898766764==
+--===============2272963503649590381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1750079817 -0400
-pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
-nonce 1750079780-2ff8c777936e7ed398bea249296e04afd6016852
+pusher B6C41CE35664996C! 1750079882 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1750079845-4738dee0b3efc34f08f0d7d61f7f167c1e5a01c2
 
-5724c52363b73d400806570524547d65a6b7b3e0 0aa5a9a9f049d42da14d09ff0c6a56a698563ea5 refs/heads/main
+083a02929b707e4c184c337cd244d7d496802538 08c49d2073707bc3be1641003026da44ee393564 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaFAZSQAKCRC2xBzjVmSZ
-bOHaAQDgFD/U6/Dnly3zvXm17wH6JTcvcWEfi7z+kABTmEiGDgEAxvXj1B7UJHdh
-gQp/3ZPB7hC4NTHRvUgxKNLqFeoiCQc=
-=pKJR
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaFAZigAKCRC2xBzjVmSZ
+bBIzAQC8ZUvywQHYxTd1cXMNe23Y+JBINR85+MPdMLx2BrgcxAD+Lg2BY1VGIJQJ
+AvRuz75jlDiTbCZXY4+AsYawAve06QQ=
+=1TTd
 -----END PGP SIGNATURE-----
 
---===============6143883266898766764==--
+--===============2272963503649590381==--
