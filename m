@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8497895081894328043=="
+Content-Type: multipart/mixed; boundary="===============8863750715907634348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 16 Jun 2025 11:50:39 -0000
-Message-Id: <175007463989.2219970.18397880945288402583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 16 Jun 2025 11:50:53 -0000
+Message-Id: <175007465345.2220304.10863951097287872347@gitolite.kernel.org>
 
---===============8497895081894328043==
+--===============8863750715907634348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e76fe965a0365e346cdaaf462847bac748354ab2
 
---===============8497895081894328043==
+--===============8863750715907634348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -270,4 +270,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 
---===============8497895081894328043==--
+--===============8863750715907634348==--
