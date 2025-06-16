@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2424890350315040513=="
+Content-Type: multipart/mixed; boundary="===============8333671170687784259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 16 Jun 2025 07:52:18 -0000
-Message-Id: <175006033804.1928630.494594488350190853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 16 Jun 2025 07:57:09 -0000
+Message-Id: <175006062973.1950179.9628411020864934607@gitolite.kernel.org>
 
---===============2424890350315040513==
+--===============8333671170687784259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: d28d910dfcc4cc6d98ff1d388c042a72289a0978
-    new: 542de9a8950af5cae0b7c13ed5ddd3ad19a8e18a
-    log: revlist-d28d910dfcc4-542de9a8950a.txt
+  - ref: refs/heads/vfs.all
+    old: 381011d6ae29857c35cbcd8a4ec6594484ecfc84
+    new: c78b6f6fb42f3dbe59d63f1cba7d8cccb56ab111
+    log: revlist-381011d6ae29-c78b6f6fb42f.txt
+  - ref: refs/heads/vfs.fixes
+    old: ad5a0351064c8f744416df3a49156d2c61af5bc0
+    new: ec86bba684b194a1927a0fee7ca384b6a7c356c2
+    log: |
+         527c88d8390d6c0358dea4d71696795c05328925 ovl: fix debug print in case of mkdir error
+         0b9d62a47149083d581d8b2abb04124b6175cb29 fs: unlock the superblock during iterate_supers_type
+         ec86bba684b194a1927a0fee7ca384b6a7c356c2 fs: drop assert in file_seek_cur_needs_f_lock
+         
 
---===============2424890350315040513==
+--===============8333671170687784259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d28d910dfcc4-542de9a8950a.txt
+Content-Disposition: attachment; filename=revlist-381011d6ae29-c78b6f6fb42f.txt
 
-67d4d70bef1d6d163e3f5671289dd91ed9839bbb clk: renesas: r9a08g045: Add clocks, resets and power domain support for the ADC IP
-6ca7a90b9012085d8a2a05f9c4d217f0371afbf2 iio: adc: rzg2l_adc: Convert dev_err() to dev_err_probe()
-2e775fffefca9fe71cabdb4533f13598b29e9631 iio: adc: rzg2l_adc: Simplify the runtime PM code
-83fd90c8d585f93f136755f5cf8c842a898f8746 iio: adc: rzg2l_adc: Use read_poll_timeout()
-abbf1edc6a89328cf84cd8e831c02ff2f27b78ea iio: adc: rzg2l_adc: Enable runtime PM autosuspend support
-9c1c3011644dfd1a2840896868d9987b90ba31e7 iio: adc: rzg2l_adc: Prepare for the addition of RZ/G3S support
-d54063f2e9609b89b6e932f78372bd004b16d5e7 iio: adc: rzg2l_adc: Add support for channel 8
-e7c7b9001d2d377c16191b493483fb4dc003bc8e iio: adc: rzg2l_adc: Add suspend/resume support
-56202ec9ee35b6d12baa05456ba1a9666c70d2bf dt-bindings: iio: adc: renesas,rzg2l-adc: Document RZ/G3S SoC
-855c70fbb49adf715cf083379b63066d96e650b8 iio: adc: rzg2l_adc: Add support for Renesas RZ/G3S
-39f9bdbd5bdebc8946da258fe3fdab2c790fcf7b arm64: dts: renesas: r9a08g045: Add ADC node
-542de9a8950af5cae0b7c13ed5ddd3ad19a8e18a arm64: dts: renesas: rzg3s-smarc-som: Enable ADC
+12b5b138d111db0588492002fdd8089af61b80e5 coredump: allow for flexible coredump handling
+994dc26302ed744960ad74932eb206b49c0ebb44 selftests/coredump: fix build
+474dd09d22df1d3bae9211078185aab9b6f1635e selftests/coredump: cleanup coredump tests
+be227ba8215f08aaeb9bfc3ce5f1db8763e7b490 tools: add coredump.h header
+59cd658eaf404e3634624b25afc3233066bea34c selftests/coredump: add coredump server selftests
+c8e7ce2aa11c1beb06ba7ccceb31396fd8d7464f Merge patch series "coredump: allow for flexible coredump handling"
+e04f97c8be29523bae2576fceee84a4b030406fb coredump: cleanup coredump socket functions
+527c88d8390d6c0358dea4d71696795c05328925 ovl: fix debug print in case of mkdir error
+0b9d62a47149083d581d8b2abb04124b6175cb29 fs: unlock the superblock during iterate_supers_type
+ec86bba684b194a1927a0fee7ca384b6a7c356c2 fs: drop assert in file_seek_cur_needs_f_lock
+a4d8105b0a0790e3f0da9ab7397dd67536b4cda7 Merge branch 'vfs.fixes' into vfs.all
+585f0b3392d9cab2db00ed57783db5d919337897 Merge branch 'vfs-6.17.misc' into vfs.all
+8cdc69e46f8e85add9b1c6c0f3ca7a42bd3fe03a Merge branch 'vfs-6.17.coredump' into vfs.all
+06781b718a32c41210870c7dd43429748113ae59 Merge branch 'vfs-6.17.file' into vfs.all
+c78b6f6fb42f3dbe59d63f1cba7d8cccb56ab111 Merge branch 'vfs-6.17.async.dir' into vfs.all
 
---===============2424890350315040513==--
+--===============8333671170687784259==--
