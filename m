@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3488438669934886784=="
+Content-Type: multipart/mixed; boundary="===============7155202582718648636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 16 Jun 2025 13:10:15 -0000
-Message-Id: <175007941523.2291332.10623643676172250829@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 13:15:33 -0000
+Message-Id: <175007973311.2295793.11665687775069336434@gitolite.kernel.org>
 
---===============3488438669934886784==
+--===============7155202582718648636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 245f35685cdb520cc1da32dead86dbd72563b14a
-    new: 45afe5b47dacbba26ddf7d21807e403ed32d0564
-    log: revlist-245f35685cdb-45afe5b47dac.txt
+  - ref: refs/heads/nfsd-testing
+    old: 232a0e0b6ddbfd0f6e6204c6fa2a5bf0deb06f18
+    new: a077f29a25b4b24ea34e3bdb99c7d569493a6778
+    log: revlist-232a0e0b6ddb-a077f29a25b4.txt
 
---===============3488438669934886784==
+--===============7155202582718648636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-245f35685cdb-45afe5b47dac.txt
+Content-Disposition: attachment; filename=revlist-232a0e0b6ddb-a077f29a25b4.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -273,5 +273,19 @@ cf7d814fc7835e24821211bc1fbdf56ad75a88aa sunrpc: simplify xdr_partial_copy_from_
 ea7a24d3b5b7c26bafab87bd7974c9ddcf1b2473 sunrpc: unexport csum_partial_copy_to_xdr
 1c595f43d92aeb84eab2c279980643bc33cdc7c5 sunrpc: new tracepoints around svc thread wakeups
 45afe5b47dacbba26ddf7d21807e403ed32d0564 nfsd: Change the type of ek_fsidtype from int to u8 and use kstrtou8
+91d0a79d013c07471e92f3bd04912ea341ec7d72 nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm()
+4ffa76b798188dafbbbe878ad17a34ab5fd9e574 NFSD: detect mismatch of file handle and delegation stateid in OPEN op
+f48c2459732f38b28aeb0a3ab813cc7dc17aecd6 NFSD: Rename a function parameter
+8b7c5051bb74c6e079d1bc1fbda1563d6286a2dd NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort
+942109a68b4ba18befa80683e56d450f952df874 NFSD: Remove the cap on number of operations per NFSv4 COMPOUND
+097401510f904bf18a027492a3caf2449d6e6e9b nfsd: Use correct error code when decoding extents
+6a97b9c1165f9571d5e58cd803ac8b886cb365da NFSD: Remove definition for trace_nfsd_file_unhash_and_queue
+c086baf5c6f6d7efdda91f0380c0d438fa1b64ea NFSD: Remove definitions for unused trace_nfsd_file_lru trace points
+6ed7278abcd7e2d6e283ca1ff43f2988a6d71353 NFSD: Remove definition for trace_nfsd_file_gc_recent
+91857b7b4b27dc70ff39024cbe58083aed3da188 NFSD: Remove definition for trace_nfsd_ctl_maxconn
+1c14d71928ef620da43e3de3f7c2f5cec26276fa NFSD: Clean up kdoc for nfsd_file_put_local()
+e4bb2e5edd055d535722facb92f4e6bf18f8e1e2 NFSD: Use vfs_iocb_iter_read()
+71ba3b36e6e21bef896942f2cca12df788409940 NFSD: Use vfs_iocb_iter_write()
+a077f29a25b4b24ea34e3bdb99c7d569493a6778 siw: Enable try_gso
 
---===============3488438669934886784==--
+--===============7155202582718648636==--
