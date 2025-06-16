@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1658797598731403474=="
+Content-Type: multipart/mixed; boundary="===============0746725382648577296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 16 Jun 2025 14:24:10 -0000
-Message-Id: <175008385087.2355598.2369653467174189075@gitolite.kernel.org>
+Date: Mon, 16 Jun 2025 14:24:18 -0000
+Message-Id: <175008385893.2355865.1560639936512919742@gitolite.kernel.org>
 
---===============1658797598731403474==
+--===============0746725382648577296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/features
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 7360ee47599af91a1d5f4e74d635d9408a54e489
-    log: revlist-19272b37aa4f-7360ee47599a.txt
+    new: 42398caf16c955251a2dab86f797b76adeb99899
+    log: revlist-19272b37aa4f-42398caf16c9.txt
 
---===============1658797598731403474==
+--===============0746725382648577296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-7360ee47599a.txt
+Content-Disposition: attachment; filename=revlist-19272b37aa4f-42398caf16c9.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -266,6 +266,7 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
-7360ee47599af91a1d5f4e74d635d9408a54e489 s390/pkey: Prevent overflow in size calculation for memdup_user()
+9b27182c553542118c5bbfdd89bab28e460ffdc8 s390: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
+42398caf16c955251a2dab86f797b76adeb99899 s390: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
 
---===============1658797598731403474==--
+--===============0746725382648577296==--
