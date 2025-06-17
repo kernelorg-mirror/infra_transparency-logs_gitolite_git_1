@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 17 Jun 2025 05:46:38 -0000
-Message-Id: <175013919877.3182287.14923130438280972320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 17 Jun 2025 05:50:02 -0000
+Message-Id: <175013940251.3185104.17665490865605980396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 8d5c83da46eb259f626af2b7c61538bfcdb10c4d
-    new: 6f3495511418093f04a619e54854a1c9c6fce13e
+  - ref: refs/heads/next
+    old: 95463cbb4fe6489921fb8c72890113dca54ce83f
+    new: f0185cd5942569ea9872bf85dce621d0a7fa401e
     log: |
-         6f3495511418093f04a619e54854a1c9c6fce13e patches/next: rebase to latest mm-new
+         f0185cd5942569ea9872bf85dce621d0a7fa401e phy: qcom: add linux/bitfield.h header to fix a build error
          
