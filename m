@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0444500656447492742=="
+Content-Type: multipart/mixed; boundary="===============1252331845004496500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 17 Jun 2025 08:44:51 -0000
-Message-Id: <175014989152.3327814.1631104540441275286@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 09:06:39 -0000
+Message-Id: <175015119943.3346442.11111614498510972307@gitolite.kernel.org>
 
---===============0444500656447492742==
+--===============1252331845004496500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 2a1ea59de83bf367215e2a4dd9bf8bbd061349b3
-    new: fb506e31b3d52f7faaec00352c2732ce31c1f930
+    old: fb506e31b3d52f7faaec00352c2732ce31c1f930
+    new: b29929b819f35503024c6a7e6ad442f6e36c68a0
     log: |
-         2841ef8d9630fb9735bd219f15f33cd1c70cb0d1 const_structs.checkpatch: add bin_attribute
-         340d8e66c43f16a51f8fbdb1762e5b40c4e29f8e sysfs: constify internal references to 'struct bin_attribute'
-         2fbe82037ab2513275b9d97fe4fd9947df26e960 sysfs: treewide: switch back to bin_attribute::read()/write()
-         fb506e31b3d52f7faaec00352c2732ce31c1f930 sysfs: treewide: switch back to attribute_group::bin_attrs
+         b29929b819f35503024c6a7e6ad442f6e36c68a0 driver core: Add device_link_test() for testing device link flags
          
 
---===============0444500656447492742==
+--===============1252331845004496500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750149918 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750151220 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1750149881-d82fc0a3fea36b8feecaa700077bdab1ed9fc97a
+nonce 1750151183-5791fe60243e7bf8389f16b601dd6cedde7df6ef
 
-2a1ea59de83bf367215e2a4dd9bf8bbd061349b3 fb506e31b3d52f7faaec00352c2732ce31c1f930 refs/heads/driver-core-testing
+fb506e31b3d52f7faaec00352c2732ce31c1f930 b29929b819f35503024c6a7e6ad442f6e36c68a0 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhRKx4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6RQP/0Uyxtpxz2RjnQ0rb0MW
-fS05sTp2Jknqb1OlroTBrlOlmZ9UQaKWuP9e8Pp7fMCbkgXBtHJ6OLPoQbNDbSZ8
-ozbZMqbTFzncFkt+QzwxN6/r/MY05sREM2VgIZdEcijisEO1Grg+t+1zh566ZPVw
-my4zFp1pG4KfWrnM1yM8Oz0/Eta4/8cntK+cJ+MOHLJ4R208bE3xuncOzmxEK+yb
-O+xRT2TgazFfS0XRDXNeAuIk144VWkSlpRefdfcPjtU5v+BnZdkrS+lmNbLlfJpc
-qyDnTXj5ptUT69Dn/m1n9scPhEX14Q5xFo+TfnJd8LhV0ggv5jqzhB0qz3HFZg0+
-L6E/2tODM319cI6XDQb5z31j5L3RQF4Z5OK4m/QZCyKKW3rVOPHv10xMyJ2uWYEw
-C810RKXsWXUSp9t7uLtNKn79QvjynD4U+OUEcGyaaKQNJm2TmaDJj4b3XsHKDDtL
-17A5PEGRuo7GahtkI+2hdxQpqbgijUGq1RkfVQj9BCNQyrMcZJEPbs9G8c3F0ssc
-oXZG4xDAgcUuWz2ffeiqy2tg07cNQpD0bNgsOfA2EGLAbDQZWC/zc6EqwxhfBcG/
-TAHZmAqxOmfxfeiRBU2S2wFYELN6mkyWv+0wIbq4QxMrJ3pHv5fvyGYXVNiKcy95
-x9rg8GVgSyR7R+5NbFYi6fmx
-=u4Gh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhRMDQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iwAQAKZ98IY4ZW3MZU5us6U4
+TsJxysoOrgUoBEjUiD5FhXQeIoOXsZl5UXVaIIkDesgctziMP4vc7gIL98HWAPPl
+CfO4eNEM8k+UziUpz4+ruAnXzpns0hgWzPrbMHDN3nJ+hx5UvcnLLAiNXwjK+rhX
+vK674BgW/3gB8/7VWcz9XV0+EgVYNOhqLm391k2LWDWgb4ALu1QBpshrv6bYWNRu
+R3FIyQLJ35gPRVh+ROYPIeJio+0jZMcEoLcR3ZIa/UEfs71PcvbLAHiHuTqw8MYr
+NZSJKud0nmA4ThsShi/Obg9IR81MxNhpVkQuvJFzyyo2ula9tmt1/+LTctM2eS4c
+zw7F+IzJ/lhfYVza6IqJ8ZdRl+770xjYM11SxCvP2BsF/ttV2UNfJFIm2Cmu5jhG
+UUeM0KI4BOp67pUnVcFDKQk0VuPMflwCln40CGF5q046UEMQAs9OPjM3kmNHhAZX
+kbzVg4N1Hn9NH4Z71PcuXfNPwPQ3cpYuFVZUP90qWitwKT28IXIL2djbFA7gEvfu
+aHoTx5YzRZz7TOlNotnF7NK7VZhzp5JZ1EopAMat4fWQeH8VuD7WGCMpNS2Mlkjv
+8TEZ5qSiUqJOQLUFH3AvNzJAvwczcSMmHvSS2oSmEDLjPlTXSGP/bxNZPTHiKmBj
+92raybusVwmMSXX3nZVw8kiJ
+=p4Ci
 -----END PGP SIGNATURE-----
 
---===============0444500656447492742==--
+--===============1252331845004496500==--
