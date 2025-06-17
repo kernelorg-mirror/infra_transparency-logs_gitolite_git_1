@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 17 Jun 2025 13:20:45 -0000
-Message-Id: <175016644558.3575100.16284265940908552506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 17 Jun 2025 13:20:55 -0000
+Message-Id: <175016645563.3575445.17684891820686755348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 6c8fc84ebeb89b5eef8728e583a34172e3c61a6d
-    new: 4deaf4e05bcb9ec2becce98d01cd6093629f4d0c
+    old: 96a38d120a0e687baf8d75473b6be2bc1bdbffed
+    new: 93bf44173cc39ff29fe633c73282c556d6ae365c
     log: |
-         d9f38d9824bfb1b046d2e720349d2f45959ab184 ASoC: tegra: AHUB: Remove unneeded semicolon
-         4deaf4e05bcb9ec2becce98d01cd6093629f4d0c Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
+         3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115 regulator: rpi-panel-v2: Add shutdown hook
+         93bf44173cc39ff29fe633c73282c556d6ae365c Merge remote-tracking branch 'regulator/for-6.17' into regulator-next
          
