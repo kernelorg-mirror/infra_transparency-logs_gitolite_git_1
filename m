@@ -1,47 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5120111761659437181=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 17 Jun 2025 12:38:45 -0000
-Message-Id: <175016392591.3532967.4679235086119074521@gitolite.kernel.org>
-
---===============5120111761659437181==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 17 Jun 2025 12:47:30 -0000
+Message-Id: <175016445032.3540848.274767582838693317@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: e2468dc700743683e1d1793bbd855e2536fd3de2
-    new: 109f4d29dade8ae5b4ac6325af9d1bc24b4230f8
+  - ref: refs/heads/main
+    old: bf7d2c5a3b7e7b4cfc2ee8dddb0f59a3327e3e1f
+    new: a0929f67f1349536da54ef5dab9260a03ca4fea9
     log: |
-         c8892c2a5b27d4026cda60409c393ba0d6c88df9 platform/x86: portwell-ec: Move watchdog device under correct platform hierarchy
-         109f4d29dade8ae5b4ac6325af9d1bc24b4230f8 platform/mellanox: mlxbf-tmfifo: fix vring_desc.len assignment
+         9b5ed35078b1068d0fdbc12720763d58f646d58d bitlk-compat-test: Use `eval` in load_vars().
+         5ce481a8c2332cd6654925ac3ca788d60543821f po: update de.po (from translationproject.org)
+         ef592405ddafa1bc2419caeee899bf1f1ba7aa49 po: update fr.po (from translationproject.org)
+         e9c626cccd40a935533c90710b6184951e98f73a po: update ja.po (from translationproject.org)
+         f3d348776d0c83d9c4a3ca5d019709248dd713bd po: update pl.po (from translationproject.org)
+         e9a20ad3dcccb12687935a3dafc8a08a6ba4e674 po: update ro.po (from translationproject.org)
+         e57f1b3dd848a7d8a3118afdaac794f64f7c6bc7 po: update sk.po (from translationproject.org)
+         a0929f67f1349536da54ef5dab9260a03ca4fea9 po: update uk.po (from translationproject.org)
          
-
---===============5120111761659437181==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1750163940 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1750163902-82ac39d8ae297487c4582808fa8dcc92815e2386
-
-e2468dc700743683e1d1793bbd855e2536fd3de2 109f4d29dade8ae5b4ac6325af9d1bc24b4230f8 refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaFFh+QAKCRBZrE9hU+XO
-Me5qAP44IeddTWGAMrXk9/iIvXUbYkS9n68b0X/y/Vrs9yMUsQEA6g77yP1JS9Sr
-Puo0MI6U3iyaoHmCGb/8paw1KsMjYwg=
-=Uchg
------END PGP SIGNATURE-----
-
---===============5120111761659437181==--
+  - ref: refs/heads/master
+    old: bf7d2c5a3b7e7b4cfc2ee8dddb0f59a3327e3e1f
+    new: a0929f67f1349536da54ef5dab9260a03ca4fea9
+    log: |
+         9b5ed35078b1068d0fdbc12720763d58f646d58d bitlk-compat-test: Use `eval` in load_vars().
+         5ce481a8c2332cd6654925ac3ca788d60543821f po: update de.po (from translationproject.org)
+         ef592405ddafa1bc2419caeee899bf1f1ba7aa49 po: update fr.po (from translationproject.org)
+         e9c626cccd40a935533c90710b6184951e98f73a po: update ja.po (from translationproject.org)
+         f3d348776d0c83d9c4a3ca5d019709248dd713bd po: update pl.po (from translationproject.org)
+         e9a20ad3dcccb12687935a3dafc8a08a6ba4e674 po: update ro.po (from translationproject.org)
+         e57f1b3dd848a7d8a3118afdaac794f64f7c6bc7 po: update sk.po (from translationproject.org)
+         a0929f67f1349536da54ef5dab9260a03ca4fea9 po: update uk.po (from translationproject.org)
+         
+  - ref: refs/merge-requests/811/head
+    old: 0000000000000000000000000000000000000000
+    new: 9b5ed35078b1068d0fdbc12720763d58f646d58d
+  - ref: refs/merge-requests/811/merge
+    old: 0000000000000000000000000000000000000000
+    new: c8241d749defae082299d4ecb485990a850770c4
