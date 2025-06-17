@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1267381000274324728=="
+Content-Type: multipart/mixed; boundary="===============0378611923609145613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 17 Jun 2025 15:37:46 -0000
-Message-Id: <175017466678.3716264.4142551765253136626@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 15:37:49 -0000
+Message-Id: <175017466949.3716492.5593291906544868603@gitolite.kernel.org>
 
---===============1267381000274324728==
+--===============0378611923609145613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8909f5f4ecd551c2299b28e05254b77424c8c7dc
     new: 170e4e3944aa39accf64d869b27c187f8c08abc7
     log: revlist-8909f5f4ecd5-170e4e3944aa.txt
 
---===============1267381000274324728==
+--===============0378611923609145613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -95,4 +95,4 @@ dd4a5780f7d95989eaef3486162c1acb4d03d868 net: enetc: replace PCVLANR1/2 with SIC
 9149a6328897acf718e68684ff432f03b40ba61a Merge branch 'intel-next-queue-1GbE'
 170e4e3944aa39accf64d869b27c187f8c08abc7 net: phy: Add c45_phy_ids sysfs directory entry
 
---===============1267381000274324728==--
+--===============0378611923609145613==--
