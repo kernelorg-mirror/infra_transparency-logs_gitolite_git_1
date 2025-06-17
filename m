@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 17 Jun 2025 17:00:18 -0000
-Message-Id: <175017961845.3789665.15690536408834981492@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5791356896069137835=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/bugspray/bugspray
+Date: Tue, 17 Jun 2025 17:00:20 -0000
+Message-Id: <175017962093.3789802.12369668384893939512@gitolite.kernel.org>
+
+--===============5791356896069137835==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/utils/bugspray/bugspray
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 44a5ab7a7958fbf190ae384b8ef252f23b840c1b
-    new: 9afe652958c3ee88f24df1e4a97f298afce89407
+    old: 9d805b9c94fb9971c302cf504480e47a58874c10
+    new: 5a8ceb40e4afc4e7aec98d51b59b7d46aef2220a
     log: |
-         e34dbbc85d64af59176fe59fad7b4122f4330fe2 x86/fred/signal: Prevent immediate repeat of single step trap on return from SIGTRAP handler
-         f287822688eeb44ae1cf6ac45701d965efc33218 selftests/x86: Add a test to detect infinite SIGTRAP handler loop
-         0b3bc018e86afdc0cbfef61328c63d5c08f8b370 x86/virt/tdx: Avoid indirect calls to TDX assembly functions
-         1dbf30fdb5e57fb2c39f17f35f2b544d5de34397 x86/mm/pat: don't collapse pages without PSE set
-         47410d839fcda6890cb82828f874f97710982f24 x86/Kconfig: only enable ROX cache in execmem when STRICT_MODULE_RWX is set
-         0b0cae7119a0ec9449d7261b5e672a5fed765068 x86/its: move its_pages array to struct mod_arch_specific
-         a82b26451de126a5ae130361081986bc459afe9b x86/its: explicitly manage permissions for ITS pages
-         7cd9a11dd0c3d1dd225795ed1b5b53132888e7b5 Revert "mm/execmem: Unify early execmem_cache behaviour"
-         9afe652958c3ee88f24df1e4a97f298afce89407 Merge tag 'x86_urgent_for_6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         5a8ceb40e4afc4e7aec98d51b59b7d46aef2220a Add typing data to reach mypy clean
          
+
+--===============5791356896069137835==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1750179656 -0400
+pushee gitolite.kernel.org:pub/scm/utils/bugspray/bugspray
+nonce 1750179620-fd0a327c79d527a46e7ce78e1877f67e91ffcdcc
+
+9d805b9c94fb9971c302cf504480e47a58874c10 5a8ceb40e4afc4e7aec98d51b59b7d46aef2220a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaFGfSAAKCRC2xBzjVmSZ
+bCunAP0WHPm8YnX7rsnt1jhyACHQIQ7Lsy+3MpIqUQgpfAGFWgD/XrcWH21kKqrN
+RFth2MNWU8sIZv1DjbAt6OjddrgOTg4=
+=GWtc
+-----END PGP SIGNATURE-----
+
+--===============5791356896069137835==--
