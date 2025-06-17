@@ -1,29 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 17 Jun 2025 22:28:47 -0000
-Message-Id: <175019932747.4083768.5030006753847233226@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8931830600746466848=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 17 Jun 2025 22:31:23 -0000
+Message-Id: <175019948379.4087479.8255271499331778409@gitolite.kernel.org>
+
+--===============8931830600746466848==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/dev-queue
-    old: aaf20d98d9d4da6a1562ca0b9b76747f94fa93d2
-    new: 245d0e432f7858217773389541a9c1b4d10d9a40
-    log: |
-         216cf68e1b65e8d9e6b1bf65a26945db560279be net: ice: Perform accurate aRFS flow match
-         366100820d821aa7d289160bf6bbaf5641beeb71 ice: add E835 device IDs
-         d3f0b5e112108f05e507486020064639018fb6a2 ice: add NULL check in eswitch lag check
-         bd7667a5359faa4ade68b5e2f3e67276a7cd8f28 idpf: return 0 size for RSS key if not supported
-         9c59a1b3698dfc980786afc1b44364b49aea2e5d e1000e: set fixed clock frequency indication for Nahum 11 and Nahum 13
-         6e3c732ed709b93326bd3ebd356d3457f752742f igc: disable L1.2 PCI-E link substate to avoid performance issue
-         59a4d8ba668e1f53c5dc328657665108ee2f0e8c devlink: add overwrite mask from factory settings
-         8f02c4894e00794795afa322f1aab5b2c58da21b ice: add overwrite mask from factory settings
-         0001297d8295ee899aeeb7e7957a9e4fc174c9a8 ixgbe: add overwrite mask from factory settings
-         41dee2b6e571453f234af3d6ff87b22acf3bfa3b igbvf: remove unused interrupt counter fields from struct igbvf_adapter
-         245d0e432f7858217773389541a9c1b4d10d9a40 igbvf: add tx_timeout_count to ethtool statistics
-         
+  - ref: refs/heads/libcrypto-pending
+    old: ce15dd0cf625dd2c8374875377f996ae2b167da1
+    new: eb59dbf11d9a38cebf113f1f3db52ed65a744f42
+    log: revlist-ce15dd0cf625-eb59dbf11d9a.txt
+
+--===============8931830600746466848==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ce15dd0cf625-eb59dbf11d9a.txt
+
+06680ce50fbee37e7faab1ecacc9a345c1825c78 lib/crypto/arm: move arch/arm/lib/crypto/ to lib/crypto/arm/
+5104856a61fcd4d0a93a224238e0c947e8652dcd lib/crypto/arm64: move arch/arm64/lib/crypto/ to lib/crypto/arm64/
+d3130fe6eadd4deb40abe625df510fd0c969c26e lib/crypto/mips: move arch/mips/lib/crypto/ to lib/crypto/mips/
+c70aaa95adbc34f5a384f66a0e66f440445e7927 lib/crypto/powerpc: move arch/powerpc/lib/crypto/ to lib/crypto/powerpc/
+6d6efdea311907834288c92adfc5b448c30db659 lib/crypto/riscv: move arch/riscv/lib/crypto/ to lib/crypto/riscv/
+cd80b405923ec9b48da6c7f99c800891f638f738 lib/crypto/s390: move arch/s390/lib/crypto/ to lib/crypto/s390/
+19dd8e08f9f6768ed9384ada020c39ca2880c8da lib/crypto/sparc: move arch/sparc/lib/crypto/ to lib/crypto/sparc/
+b9dc8764ca829be9f453dbc42132b39d6312a8dc lib/crypto/x86: move arch/x86/lib/crypto/ to lib/crypto/x86/
+a2e813994b37ee02c81f12bcf8fbcd625bffc62f MAINTAINERS: drop arch/*/lib/crypto/ pattern
+81ff7b56d2eb1e6c8ecb77fad6b24ad0204b9210 lib/crypto/sha512: add KUnit tests for SHA-384 and SHA-512
+eb59dbf11d9a38cebf113f1f3db52ed65a744f42 lib/crypto/sha256: add KUnit tests for SHA-224 and SHA-256
+
+--===============8931830600746466848==--
