@@ -1,50 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============6633932464586321459=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 17 Jun 2025 13:20:36 -0000
-Message-Id: <175016643602.3574687.13956934936049284178@gitolite.kernel.org>
-
---===============6633932464586321459==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 17 Jun 2025 13:20:45 -0000
+Message-Id: <175016644558.3575100.16284265940908552506@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.17
-    old: a4eb71ff98c4792f441f108910bd829da7a04092
-    new: 3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115
+  - ref: refs/heads/for-next
+    old: 6c8fc84ebeb89b5eef8728e583a34172e3c61a6d
+    new: 4deaf4e05bcb9ec2becce98d01cd6093629f4d0c
     log: |
-         3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115 regulator: rpi-panel-v2: Add shutdown hook
+         d9f38d9824bfb1b046d2e720349d2f45959ab184 ASoC: tegra: AHUB: Remove unneeded semicolon
+         4deaf4e05bcb9ec2becce98d01cd6093629f4d0c Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
          
-
---===============6633932464586321459==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1750166471 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1750166433-db1cb0cf7ca0c1a7f822bcf0bda45ea3410ee5de
-
-a4eb71ff98c4792f441f108910bd829da7a04092 3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115 refs/heads/regulator-6.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhRa8cACgkQJNaLcl1U
-h9ADMAf/R+avexe+wQq3OvW2U6sXLO63nr39226us1S+YTmB5SzY7PHeaBrOq+g/
-axAKGJK0YCEnAAsi5nNRC0HwoYLiwuT92cEMmIYBuh1wXscISSruQfz1GnxilVdB
-esMHFYKW6qb+7yDUP78vBmRS04ug6s8mI5Sv6BPbP+eIj2UyJYjxU90Lh9GT86U+
-K8TSPcLv8Un2U5GwD01K0pVFXkiv9bmxdfpYea3CQs2XlthNtHfavSp+4X6/InR6
-WA66LMKVTb2afaiKYspQHRcZjYnrxVHI3MK8q0EBtz37i6ZpDAaZnW+sJVAwHbRd
-z70LoamedFXkGTAgW6d3OCVRQ6ZtVQ==
-=Up1S
------END PGP SIGNATURE-----
-
---===============6633932464586321459==--
