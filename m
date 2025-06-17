@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Tue, 17 Jun 2025 10:38:11 -0000
-Message-Id: <175015669193.3428009.10536712082707144323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 17 Jun 2025 10:38:14 -0000
+Message-Id: <175015669492.3428092.10171263769288835732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/mhi-next
-    old: 700081f7c15577de4d3281528aaa6ff8bc3cafea
-    new: 3010503f3e064d6145095cc6612456e4950ae618
-    log: |
-         3010503f3e064d6145095cc6612456e4950ae618 bus: mhi: host: Fix endianness of BHI vector table
-         
+  - ref: refs/heads/master
+    old: ec18ac7a217e6f8c46cee90585b64a4e4fb7b589
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
