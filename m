@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4757025592037793369=="
+Content-Type: multipart/mixed; boundary="===============2017458535698002068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 17 Jun 2025 09:15:00 -0000
-Message-Id: <175015170072.3353921.14225192910817149810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 17 Jun 2025 09:15:18 -0000
+Message-Id: <175015171806.3355962.16910752496374838306@gitolite.kernel.org>
 
---===============4757025592037793369==
+--===============2017458535698002068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e04c78d86a9699d136910cfc0bdcf01087e3267e
     log: revlist-19272b37aa4f-e04c78d86a96.txt
 
---===============4757025592037793369==
+--===============2017458535698002068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -267,4 +267,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 
---===============4757025592037793369==--
+--===============2017458535698002068==--
