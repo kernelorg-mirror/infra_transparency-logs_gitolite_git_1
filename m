@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5972722130944383311=="
+Content-Type: multipart/mixed; boundary="===============0175206041762244550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 17 Jun 2025 08:11:29 -0000
-Message-Id: <175014788928.3300287.1790552951349885464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Tue, 17 Jun 2025 08:11:40 -0000
+Message-Id: <175014790063.3300646.16307644889669248636@gitolite.kernel.org>
 
---===============5972722130944383311==
+--===============0175206041762244550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/gnss-linus
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: e04c78d86a9699d136910cfc0bdcf01087e3267e
     log: revlist-19272b37aa4f-e04c78d86a96.txt
 
---===============5972722130944383311==
+--===============0175206041762244550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -267,4 +267,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 
---===============5972722130944383311==--
+--===============0175206041762244550==--
