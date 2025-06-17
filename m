@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5979493870382461378=="
+Content-Type: multipart/mixed; boundary="===============5164441681987368162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Jun 2025 11:58:10 -0000
-Message-Id: <175016149066.3498117.13535811232648559143@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 11:58:30 -0000
+Message-Id: <175016151077.3498549.4799454417814358176@gitolite.kernel.org>
 
---===============5979493870382461378==
+--===============5164441681987368162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 656c5a2fbbb58ce5ed809c38eb438e997d254218
-    new: 33543c626c5db5430b75d43ba7645b41b4b6fdfe
-    log: revlist-656c5a2fbbb5-33543c626c5d.txt
+    old: 33543c626c5db5430b75d43ba7645b41b4b6fdfe
+    new: 6895dbecf3db4bf0dc306e390715d1540afe6e3c
+    log: |
+         8331998ae19276bd8d7892be2733acea1a424f5e Merge branch into tip/master: 'irq/urgent'
+         51aae9ff6625f3d07e548a6fadc02a672496b447 Merge branch into tip/master: 'locking/urgent'
+         6119c952fa554f2c981b8a7968d903a7a172dd1e Merge branch into tip/master: 'perf/urgent'
+         2de76b6612b217b2ef579cff535522545dad6a8b Merge branch into tip/master: 'x86/urgent'
+         932874de23763126c9415556ed0ee495e88a6eea Merge branch into tip/master: 'core/bugs'
+         83deccfe2abb58ed51935d30c9a696cdce82e188 Merge branch into tip/master: 'core/entry'
+         301e2abbe3ce1611fc0ca2c62f7c54f12e2b5ec7 Merge branch into tip/master: 'irq/core'
+         499359a8b8571ea8eae926d18d564332954183cb Merge branch into tip/master: 'irq/drivers'
+         a2ea2cbece0aff781fd60b1297acf867061abbfb Merge branch into tip/master: 'sched/core'
+         7188bfd40b5da2c7c67e9838738ec2f85e285ccb Merge branch into tip/master: 'smp/core'
+         8aceb8e78258217599d722939d34fec59bd3611f Merge branch into tip/master: 'timers/core'
+         6895dbecf3db4bf0dc306e390715d1540afe6e3c Merge branch into tip/master: 'x86/kconfig'
+         
+  - ref: refs/heads/tip/urgent
+    old: 48359ecaaad13bdd08f4070167b0855245767228
+    new: 2de76b6612b217b2ef579cff535522545dad6a8b
+    log: revlist-48359ecaaad1-2de76b6612b2.txt
 
---===============5979493870382461378==
+--===============5164441681987368162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-656c5a2fbbb5-33543c626c5d.txt
+Content-Disposition: attachment; filename=revlist-48359ecaaad1-2de76b6612b2.txt
 
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
 714d02b41939d2720379e11ef25227aec4e5bec9 ovl: fix regression caused by lookup helpers API changes
@@ -43,7 +60,9 @@ fe78e02600f83d81e55f6fc352d82c4f264a2901 Merge tag 'vfs-6.16-rc3.fixes' of git:/
 44a5ab7a7958fbf190ae384b8ef252f23b840c1b Merge tag 'powerpc-6.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 9afe652958c3ee88f24df1e4a97f298afce89407 Merge tag 'x86_urgent_for_6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 594902c986e269660302f09df9ec4bf1cf017b77 x86,fs/resctrl: Remove inappropriate references to cacheinfo in the resctrl subsystem
-2ead9e1005e14b17e8002e8c831f34f696662049 Merge branch 'linus'
-33543c626c5db5430b75d43ba7645b41b4b6fdfe Merge branch into tip/master: 'x86/urgent'
+8331998ae19276bd8d7892be2733acea1a424f5e Merge branch into tip/master: 'irq/urgent'
+51aae9ff6625f3d07e548a6fadc02a672496b447 Merge branch into tip/master: 'locking/urgent'
+6119c952fa554f2c981b8a7968d903a7a172dd1e Merge branch into tip/master: 'perf/urgent'
+2de76b6612b217b2ef579cff535522545dad6a8b Merge branch into tip/master: 'x86/urgent'
 
---===============5979493870382461378==--
+--===============5164441681987368162==--
