@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1724532910525444104=="
+Content-Type: multipart/mixed; boundary="===============9197786059208785106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 17 Jun 2025 18:11:25 -0000
-Message-Id: <175018388587.3851113.10178517822309923392@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 18:11:31 -0000
+Message-Id: <175018389138.3851436.17771940451675294150@gitolite.kernel.org>
 
---===============1724532910525444104==
+--===============9197786059208785106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: e04c78d86a9699d136910cfc0bdcf01087e3267e
-    log: revlist-19272b37aa4f-e04c78d86a96.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 903cc7096db22f889d48e2cee8840709ce04fdac
+    new: d88d96c79919ef615e6055b77cf8e191b214ed3a
+    log: revlist-903cc7096db2-d88d96c79919.txt
 
---===============1724532910525444104==
+--===============9197786059208785106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-e04c78d86a96.txt
+Content-Disposition: attachment; filename=revlist-903cc7096db2-d88d96c79919.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -266,5 +266,6 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
+d88d96c79919ef615e6055b77cf8e191b214ed3a dt-bindings: i2c: nvidia,tegra20-i2c: Specify the required properties
 
---===============1724532910525444104==--
+--===============9197786059208785106==--
