@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 17 Jun 2025 13:20:02 -0000
-Message-Id: <175016640259.3571522.6758874693187990588@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 13:20:06 -0000
+Message-Id: <175016640688.3573051.14041746582773545629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.17
-    old: 47972c1c3315672352f25c68f91dd88543541947
-    new: d9f38d9824bfb1b046d2e720349d2f45959ab184
+  - ref: refs/heads/regulator-6.17
+    old: a4eb71ff98c4792f441f108910bd829da7a04092
+    new: 3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115
     log: |
-         d9f38d9824bfb1b046d2e720349d2f45959ab184 ASoC: tegra: AHUB: Remove unneeded semicolon
+         3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115 regulator: rpi-panel-v2: Add shutdown hook
          
