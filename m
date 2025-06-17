@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9197786059208785106=="
+Content-Type: multipart/mixed; boundary="===============6893563262035257432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 17 Jun 2025 18:11:31 -0000
-Message-Id: <175018389138.3851436.17771940451675294150@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 18:11:33 -0000
+Message-Id: <175018389346.3851519.12540424829451773967@gitolite.kernel.org>
 
---===============9197786059208785106==
+--===============6893563262035257432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 903cc7096db22f889d48e2cee8840709ce04fdac
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: d88d96c79919ef615e6055b77cf8e191b214ed3a
-    log: revlist-903cc7096db2-d88d96c79919.txt
+    log: revlist-19272b37aa4f-d88d96c79919.txt
 
---===============9197786059208785106==
+--===============6893563262035257432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-903cc7096db2-d88d96c79919.txt
+Content-Disposition: attachment; filename=revlist-19272b37aa4f-d88d96c79919.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -268,4 +268,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 d88d96c79919ef615e6055b77cf8e191b214ed3a dt-bindings: i2c: nvidia,tegra20-i2c: Specify the required properties
 
---===============9197786059208785106==--
+--===============6893563262035257432==--
