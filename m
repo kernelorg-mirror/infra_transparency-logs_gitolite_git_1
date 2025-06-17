@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5908505947115998553=="
+Content-Type: multipart/mixed; boundary="===============5120111761659437181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 17 Jun 2025 12:29:05 -0000
-Message-Id: <175016334527.3524872.9608452662957899983@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 12:38:45 -0000
+Message-Id: <175016392591.3532967.4679235086119074521@gitolite.kernel.org>
 
---===============5908505947115998553==
+--===============5120111761659437181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.16-2
-    old: 0000000000000000000000000000000000000000
-    new: 722d0e3833d1bca71782a8db58c9cfbdfa24ddc8
+  - ref: refs/heads/review-ilpo-fixes
+    old: e2468dc700743683e1d1793bbd855e2536fd3de2
+    new: 109f4d29dade8ae5b4ac6325af9d1bc24b4230f8
+    log: |
+         c8892c2a5b27d4026cda60409c393ba0d6c88df9 platform/x86: portwell-ec: Move watchdog device under correct platform hierarchy
+         109f4d29dade8ae5b4ac6325af9d1bc24b4230f8 platform/mellanox: mlxbf-tmfifo: fix vring_desc.len assignment
+         
 
---===============5908505947115998553==
+--===============5120111761659437181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1750163380 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1750163940 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1750163342-ad87ad9dc29b188c9cc72b14f78a7f3564781a79
+nonce 1750163902-82ac39d8ae297487c4582808fa8dcc92815e2386
 
-0000000000000000000000000000000000000000 722d0e3833d1bca71782a8db58c9cfbdfa24ddc8 refs/tags/platform-drivers-x86-v6.16-2
+e2468dc700743683e1d1793bbd855e2536fd3de2 109f4d29dade8ae5b4ac6325af9d1bc24b4230f8 refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaFFftQAKCRBZrE9hU+XO
-MS5zAQDhzSBbNVM8E1/31RCT+4avR4X48q4Z/MzJgpFbdp6FKAEAv5VfVsntKytm
-R01klBq/S5yTFqCeryLvqRCo7VUDLA4=
-=K9kg
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaFFh+QAKCRBZrE9hU+XO
+Me5qAP44IeddTWGAMrXk9/iIvXUbYkS9n68b0X/y/Vrs9yMUsQEA6g77yP1JS9Sr
+Puo0MI6U3iyaoHmCGb/8paw1KsMjYwg=
+=Uchg
 -----END PGP SIGNATURE-----
 
---===============5908505947115998553==--
+--===============5120111761659437181==--
