@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2509915660232778040=="
+Content-Type: multipart/mixed; boundary="===============6134183443563496678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Tue, 17 Jun 2025 18:02:50 -0000
-Message-Id: <175018337048.3842083.16871078492622940459@gitolite.kernel.org>
+Date: Tue, 17 Jun 2025 18:02:58 -0000
+Message-Id: <175018337881.3842339.14044051289179799632@gitolite.kernel.org>
 
---===============2509915660232778040==
+--===============6134183443563496678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-fixes
-    old: 5b2d595efbfc9c46823bdb9ef11e1f9fa46adf9d
+  - ref: refs/heads/rust-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: e04c78d86a9699d136910cfc0bdcf01087e3267e
-    log: revlist-5b2d595efbfc-e04c78d86a96.txt
+    log: revlist-19272b37aa4f-e04c78d86a96.txt
 
---===============2509915660232778040==
+--===============6134183443563496678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b2d595efbfc-e04c78d86a96.txt
+Content-Disposition: attachment; filename=revlist-19272b37aa4f-e04c78d86a96.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -116,6 +116,7 @@ aef17cb3d3c43854002956f24c24ec8e1a0e3546 Revert "mm/damon/Kconfig: enable CONFIG
 c393befa14ab26596fb86d702566d648832dae06 driver core: faux: Suppress bind attributes
 ff53a6e247285687df1a71d8ee5c457939792c13 driver core: faux: Quiet probe failures
 162457f5853ce3348e7956666916f5e5e31be51f ACPI: APEI: EINJ: Do not fail einj_init() on faux_device_create() failure
+5b2d595efbfc9c46823bdb9ef11e1f9fa46adf9d rust: time: Fix compile error in impl_has_hr_timer macro
 2f76d269073bdb2971b253ef87d1f96f1a94c50e ACPI: PAD: Update arguments of mwait_idle_with_hints()
 15eece6c5b05e5f9db0711978c3e3b7f1a2cfe12 ACPI: CPPC: Fix NULL pointer dereference when nosmp is used
 7a0d59f6a913a2bc7680c663b8cf1e45d1bdbf26 ACPI: EC: Ignore ECDT tables with an invalid ID string
@@ -266,4 +267,4 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
 
---===============2509915660232778040==--
+--===============6134183443563496678==--
