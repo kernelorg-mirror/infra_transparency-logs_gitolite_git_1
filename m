@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 17 Jun 2025 22:04:46 -0000
-Message-Id: <175019788640.4062461.15361017214365898759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 17 Jun 2025 22:08:21 -0000
+Message-Id: <175019810161.4065876.15351595646262065821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/work.misc
-    old: ce5da265fe9276b1ab1c6ed193aadd3ba53adebe
-    new: 7e7cf464ce53f1da4a83a1c984b69106df6ef61b
+  - ref: refs/heads/master
+    old: 4663747812d1a272312d1b95cbd128f0cdb329f2
+    new: 52da431bf03b5506203bca27fe14a97895c80faf
     log: |
-         d1832e648d2be564e4b5e357f94d0f33156590dc landlock: opened file never has a negative dentry
-         273a291dd7e62c42ee315777477dade0ede6636e apparmor: file never has NULL f_path.mnt
-         1812de14f04848daa354f99e9240e0f7c643718c secretmem: move setting O_LARGEFILE and bumping users' count to the place where we create the file
-         5a6acd563af4a0789e4a93afb28d71c177e71b8b binder_ioctl_write_read(): simplify control flow a bit
-         7e7cf464ce53f1da4a83a1c984b69106df6ef61b selinuxfs_fill_super(): don't bother with selinuxfs_info_free() on failures
+         62a65b32bddb0f242b106b8c464913f2f01c108d dt-bindings: pmem: Convert binding to YAML
+         52da431bf03b5506203bca27fe14a97895c80faf Merge tag 'libnvdimm-fixes-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
          
