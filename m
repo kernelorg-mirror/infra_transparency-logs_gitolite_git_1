@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Wed, 18 Jun 2025 20:27:57 -0000
-Message-Id: <175027847725.1082630.8372836410437240295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 18 Jun 2025 20:41:52 -0000
+Message-Id: <175027931209.1094408.11206374556776374639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/rust-atomic-v6
+  - ref: refs/heads/work.pidfs.persistent
     old: 0000000000000000000000000000000000000000
-    new: 561bc5564c0f1b731e297c743c36d2723cfd2708
+    new: 78a62a8d5e637bb67b3c9d8a26caa56632dc8044
