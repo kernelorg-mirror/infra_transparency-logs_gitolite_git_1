@@ -1,58 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0224524624282278485=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 18 Jun 2025 11:07:10 -0000
-Message-Id: <175024483094.554222.7943436348307608810@gitolite.kernel.org>
-
---===============0224524624282278485==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 18 Jun 2025 11:07:55 -0000
+Message-Id: <175024487575.554845.9042167248917841604@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/master
-    old: d709c40f642111437121e4cd5f63b651cebf93d6
-    new: 4168c0ff229c52f130b0206eb341c80f7b2f4fc0
+  - ref: refs/heads/slab/for-next
+    old: 5660ee54e7982f9097ddc684e90f15bdcc7fef4b
+    new: 3cf3ee6a0be4474e6ed090933e9e4a3813b6e14d
     log: |
-         1d03d5ad4177c5d87f518d51f409ec6ff2774322 assign some more cve ids from gsd-request-2022-09-15
-         5baf1119e0ed5ac737206861bd85d0a8bb921978 mark gsd-request-2022-09-15 as now processed
-         4168c0ff229c52f130b0206eb341c80f7b2f4fc0 strip the new mbox files
+         262e086f93026a6633da034f270c4baae47c4706 doc: Move SLUB documentation to the admin guide
+         30908096dd8d79b66d987782df04d14e1c907c25 slab: Rename slab->__page_flags to slab->flags
+         c5c44900f4739b14af71875bbd407c81bf576d04 slab: Add SL_partial flag
+         3df29914d9fd1a28ff0630ad5aa8a92abb97543d slab: Add SL_pfmemalloc flag
+         e8a45f198e3ae2434108f815bc28f37f6fe6742b slub: Fix a documentation build error for krealloc()
+         18085170994c9bd0970e25331dab758789918286 doc: Add slab internal kernel-doc
+         a39a6acc375de395aba66664ea36df312ab57501 vmcoreinfo: Remove documentation of PG_slab and PG_hugetlb
+         d8178294c53e970c717f23c721e70660b3c95969 proc: Remove mention of PG_slab
+         f1929f36768a698c1ced491891e1c9edb951cbec kfence: Remove mention of PG_slab
+         234380d270c4a1abc90ffe2e10fe35d2198edd5b memcg_slabinfo: Fix use of PG_slab
+         3cf3ee6a0be4474e6ed090933e9e4a3813b6e14d slab: Update MAINTAINERS entry
          
-
---===============0224524624282278485==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750244855 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1750244818-822dc357886393b9cb684e562a14ae969756556f
-
-d709c40f642111437121e4cd5f63b651cebf93d6 4168c0ff229c52f130b0206eb341c80f7b2f4fc0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhSnfcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x1QQALzir7onmupGef/r3ztj
-CJ9lRkGBz0c+jRshuaecpSnwXvjdn6YqlwNOokAQ6Cxh+WmVYyFjev17/Zr0zrDw
-wbr8WpdE2OG0fK9BvhJyN206v7XJm17uy1rzKNmx14EsOH7TTWdv0SxDW4Lx0JIK
-HPgD+S5FeeSCcylc0hyizHYlpVFap/WVPNTa6+tIt596hogjSGthHv97OMB/AZKh
-OqzU63oVDZWBHUQQ4Q6QARfmrmY3JMO5m37qhEEiq/Qd26WBO5VngODm0ajcJa1N
-iuWomi/XPnDyOlQ5OjDmPb3FYKGhYvlTAdK34vpxWsPF38jWS/URanVZZ37C6hqM
-vI5IBIE4MDdPlgQ0YWle5XOA5TLeIiEwSVCRy8Cjo9SAOXKxgAXWOBkjMaRi3zGf
-bZc9uw+2z7B/uBhYS85X3Wojdp3EiT0slHCUt1a0Xg4SR8Rb/AK6je9oSINDGOzM
-T928+Q6H36VuQh0o9fgWX9eMu4QOFxeSicjLGJQtyhkx1dDA+TCSIPkH75/WKUxd
-HGTMlIRbP4gPv/88E6D0W1c9lWtTjVMoBxFpC3nGJIDWqMBeNa9BJarX8bRMXPLa
-OhDgD78zRv3K2/jO/fvJPf6EalINN9Fq9RHKIyVnOdneGrj02rbX8ElVOK+4sMcl
-haG1EUY8uBrKbmPMU4Mhw4pq
-=QNy4
------END PGP SIGNATURE-----
-
---===============0224524624282278485==--
