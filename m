@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5149499635731752145=="
+Content-Type: multipart/mixed; boundary="===============1427604008798520316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 18 Jun 2025 14:03:53 -0000
-Message-Id: <175025543327.709931.3774498807142875746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 18 Jun 2025 14:08:23 -0000
+Message-Id: <175025570391.714274.12765796481584131779@gitolite.kernel.org>
 
---===============5149499635731752145==
+--===============1427604008798520316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kthread/core
-    old: d158401fbb86b0fef8530ffb275b6ab87804ef34
-    new: 7daa54cc4bdda34e5e6f5b256c2c29cddb5ab6a6
-    log: revlist-d158401fbb86-7daa54cc4bdd.txt
+  - ref: refs/heads/master
+    old: fbcc2fed98d5a0cae3e851edbe9efab8f592683b
+    new: 384235e2d5f95738024e3e01e58f0c517a0a7b35
+    log: |
+         384235e2d5f95738024e3e01e58f0c517a0a7b35 reject CVE-2022-50081 as it was reverted
+         
 
---===============5149499635731752145==
+--===============1427604008798520316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d158401fbb86-7daa54cc4bdd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a268ef06d84620dada9141b1b172437f6b7883ca sched/isolation: Save boot defined domain flags
-f523013d9178071d72608e938b44dd1ecb421115 cpuset: Convert boot_hk_cpus to use HK_TYPE_DOMAIN_BOOT
-c02cd4da7590cf8609dbcb4a17dc81297ebab87c driver core: cpu: Convert /sys/devices/system/cpu/isolated to use HK_TYPE_DOMAIN_BOOT
-5b1eff38a6aa50dd1db853af725563efaea7fd58 net: Keep ignoring isolated cpuset change
-d67c385c19e2a9db5c7486849040b726954f909f block: Protect against concurrent isolated cpuset change
-fe6f7e41b97550f30624569025f50c5e3ee5989e cpu: Provide lockdep check for CPU hotplug lock write-held
-05e43fab6c79570f51a8dc92ddac0dafa2cfaba8 cpuset: Provide lockdep check for cpuset lock held
-f1bf6776fe28795d82c70afb34e28abd20a3360e sched/isolation: Convert housekeeping cpumasks to rcu pointers
-cc02f46bc1262992fb6ddfd5bfef1fc382fd91dd cpuset: Update HK_TYPE_DOMAIN cpumask from cpuset
-19655f18b17cf18c07b0c1cbca23dc9198c4926e sched/isolation: Flush memcg workqueues on cpuset isolated partition change
-f86ff8c095b8ec72bb81da77c3946f3d976c1652 sched/housekeeping: Flush vmstat workqueues on cpuset isolated partition change
-f743045574c348a836cc09d81bd7a6893ad67354 cpuset: Propagate cpuset isolation update to workqueue through housekeeping
-c81222ad5665ee75461d981e995c24a1c75c2b95 cpuset: Remove cpuset_cpu_is_isolated()
-b76cb30c3e76ace60a1f22c18afcad121d6bf902 sched/isolation: Remove HK_TYPE_TICK test from cpu_is_isolated()
-5319a831f4332b72ec54604ddfd6effcc4a00baf kthread: Refine naming of affinity related fields
-8de1cc3fe05cf8ff61c7e0ed7ada5a8d3c89539f kthreads: Include unbound kthreads in the managed affinity list
-b5d329d90da546f95723a306a9f31859bd2ae770 kthread: Include kthreadd to the managed affinity list
-9c37c3c8eadcdb2407c16be0639565f65f6d26d7 kthread: Rely on HK_TYPE_DOMAIN for preferred affinity management
-13792a44dd8789e5f4d3ba111481d04a108a46f4 sched: Switch the fallback task allowed cpumask to HK_TYPE_DOMAIN
-b06a422c124caf66a4b761740d5fa73ef19cbe1d kthreads: Handle kthreads preferred affinity after cpuset changes
-756ae3d1563b84b64c37144971197b159fbc163f sched/topology: Use HK_TYPE_DOMAIN_BOOT where needed
-7daa54cc4bdda34e5e6f5b256c2c29cddb5ab6a6 tracing
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750255740 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1750255703-91b40e01723689a17666bd2094505eea4a4c0e33
 
---===============5149499635731752145==--
+fbcc2fed98d5a0cae3e851edbe9efab8f592683b 384235e2d5f95738024e3e01e58f0c517a0a7b35 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhSyHwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AnkQAI1x9ftcUQUXJnBDZCg4
+Epfwc3eoJ8XhBcBVowrtzWG9L5zjHHHiZC423zD9dHSig1QJdoRx+Z6grux9OC/U
+ryXTHfYxuXci0mSvZNW72MH6sH6MZEJtJDQJWsJ2dbRjgXjx8mQsW1vO9GEoTROv
+DNwhzyQMpdXtHcbzcx5e3hJHbhFbDqZMzHMuxM4L2K+cQLfn4PCnDRcE4UmhaQVQ
+hNlkA207SUxPu83/kuQQ4cMuVXykTQvJ75WDdiy8oYkVJvcc5MWtwjZE3JGWzxH1
+CuSqtEAWtJXGmVCdnAqdTBFjk4XQXZu9IbBbXGQdPDgtFwHByNtcpQ6Yp/KyD6rM
+Q5Ye0NXtwwtNU6v2ZnRkuHHu6ZBPXe5iiCWwQFw+EBl9BEmL1NtDSLru4o4dlefJ
+lwRyD+eJH1XY/krfuXVg6aGI5SoFYS3SZdyp/F9fBXDDtlroQEoAXAUiOThkD9iT
+MFBUWsPk43lO/TdI8+TvbCnyRXt8DvJpbHmi4S03J4mihiiPL0ma62VU2nR9dfWL
+XZFOShrX2w98EBBOTlQQ5N9mHM6Ogo0ZLSsS1t4AyiGFYRg19taaTEvj4SB2cpcf
+D06xR6aJafRR5kpR3bl+N2Cmbmt6QWOAHNrOAFm+qnASTgFQ1MQZfXyGBzcCDsXg
+DtWnddUWjgw0C0pja+JiOlyK
+=AxTE
+-----END PGP SIGNATURE-----
+
+--===============1427604008798520316==--
