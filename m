@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 18 Jun 2025 19:32:46 -0000
-Message-Id: <175027516629.1031274.1784014790598560345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 18 Jun 2025 19:37:01 -0000
+Message-Id: <175027542117.1035360.7020436627830050035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 09cd3653765144614a417981f6f178546be9cccb
-    new: b32f33687537466e3deb2f2e3737c6d2b094a59e
+  - ref: refs/heads/for-next
+    old: cdfa60a1d71325105ba295eba352b75fd62d1c35
+    new: 41af159dfe0e30bf852c2e1a84199caf3dc12ec2
     log: |
-         b65b8ed7e80dd7e1c944a9fa75c47c030612f5a6 thermal: int340x: processor_thermal: Add Wildcat Lake PCI ID
-         7a209aa4086a873a524783846fdf9772c335e6fc Merge branch 'thermal-intel' into bleeding-edge
-         2e1185c9d7b4f890614e891ae1414653b35b88e3 cpufreq: userspace: set CPUFREQ_GOV_STRICT_TARGET flag
-         221504a63419bc3ef6e72deb42f9f8476eb83538 cpufreq: docs: userspace: Explain HW coordination influence
-         b32f33687537466e3deb2f2e3737c6d2b094a59e Merge branch 'pm-cpufreq' into bleeding-edge
+         a633dab4b4d2f06c0fcb3caa6f110efabdf889f9 selftests/bpf: Fix RELEASE build failure with gcc14
+         fc2915bb8bfcfdc6e5ea2cfc8d13fbaefe77c2c8 selftests/bpf: More precise cpu_mitigations state detection
+         66ab68c9de89672366fdc474f4f185bb58cecf2d selftests/bpf: Fix unintentional switch case fall through
+         85cd83fed8267cde0dd1cea719808aad95ae4de7 bpftool: Fix JSON writer resource leak in version command
+         f5527f0171f049e73c0aed21507662abd78821b8 bpf: Get rid of redundant 3rd argument of prepare_seq_file()
+         bd07bd12f2c17d3e13d58c09f5eac5d021ec14ea bpf: Fix key serial argument of bpf_lookup_user_key()
+         cd7312a78f36e981939abe1cd1f21d355e083dfe selftests/bpf: include limits.h needed for PATH_MAX directly
+         41af159dfe0e30bf852c2e1a84199caf3dc12ec2 Merge branch 'bpf-next/master' into for-next
          
