@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3008851292778568807=="
+Content-Type: multipart/mixed; boundary="===============5948035286897228595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Jun 2025 15:11:29 -0000
-Message-Id: <175025948929.769072.13551333132484695214@gitolite.kernel.org>
+Date: Wed, 18 Jun 2025 15:11:32 -0000
+Message-Id: <175025949201.769181.1280205468404951913@gitolite.kernel.org>
 
---===============3008851292778568807==
+--===============5948035286897228595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7b4ac12cc929e281cf7edc22203e0533790ebc2b
     new: d0fa59897e049e84432600e86df82aab3dce7aa5
     log: revlist-7b4ac12cc929-d0fa59897e04.txt
 
---===============3008851292778568807==
+--===============5948035286897228595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ b160766e26d4e2e2d6fe2294e0b02f92baefcec5 net/sched: fix use-after-free in taprio
 0aff00432cc755ad7713f8a2f305395d443cdd4c Merge branch 'atm-fix-uninit-and-mem-accounting-leak-in-vcc_sendmsg'
 d0fa59897e049e84432600e86df82aab3dce7aa5 tcp: fix tcp_packet_delayed() for tcp_is_non_sack_preventing_reopen() behavior
 
---===============3008851292778568807==--
+--===============5948035286897228595==--
