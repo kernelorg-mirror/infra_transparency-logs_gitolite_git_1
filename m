@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Wed, 18 Jun 2025 02:37:22 -0000
-Message-Id: <175021424271.111365.14032639221746630582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Wed, 18 Jun 2025 02:50:24 -0000
+Message-Id: <175021502470.123065.17017045003525485468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 37e00703228ab44d0aacc32a97809a4f6f58df1b
+  - ref: refs/heads/master
+    old: def8eda83d74223cd32ef86cbbb475b48dee66ee
+    new: 260bafe7805533ea3a79c72a27ac3ba357e18129
     log: |
-         37e00703228ab44d0aacc32a97809a4f6f58df1b zynq_fpga: use sgtable-based scatterlist wrappers
+         260bafe7805533ea3a79c72a27ac3ba357e18129 hkml_list: handle empty line command output on handle_gitlog_date_misorders()
          
