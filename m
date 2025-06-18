@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1480046616148372077=="
+Content-Type: multipart/mixed; boundary="===============0919255908712555969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 18 Jun 2025 15:41:01 -0000
-Message-Id: <175026126148.833467.8491196288450946550@gitolite.kernel.org>
+Date: Wed, 18 Jun 2025 15:41:04 -0000
+Message-Id: <175026126401.833594.15599242120058658212@gitolite.kernel.org>
 
---===============1480046616148372077==
+--===============0919255908712555969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 170e4e3944aa39accf64d869b27c187f8c08abc7
     new: fc4842cd0f117042a648cf565da4db0c04a604be
     log: revlist-170e4e3944aa-fc4842cd0f11.txt
 
---===============1480046616148372077==
+--===============0919255908712555969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -145,4 +145,4 @@ c5efaabd45ad1c93679c2529f778569cb2b828c6 netconsole: append msgid to sysdata
 8c587aa3fa5400467063f88a3a48f8e9480b2e33 docs: netconsole: document msgid feature
 fc4842cd0f117042a648cf565da4db0c04a604be Merge branch 'netconsole-msgid' into main
 
---===============1480046616148372077==--
+--===============0919255908712555969==--
