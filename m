@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8532366683032485171=="
+Content-Type: multipart/mixed; boundary="===============4688156441842639579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Wed, 18 Jun 2025 20:00:41 -0000
-Message-Id: <175027684102.1058128.5544918482026989800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 18 Jun 2025 20:00:59 -0000
+Message-Id: <175027685904.1058460.4998069918450553110@gitolite.kernel.org>
 
---===============8532366683032485171==
+--===============4688156441842639579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
+repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 5adb635077d1b4bd65b183022775a59a378a9c00
     log: revlist-4663747812d1-5adb635077d1.txt
 
---===============8532366683032485171==
+--===============4688156441842639579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a7b3b77fd111d49f8e25624e4ea1046322a57baf ata: ahci: Disallow LPM for Asus B550-F
 5da3ff1fd0fdce7b5d9508c62403c04a8c96a1e5 Merge tag 'ftrace-v6.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5adb635077d1b4bd65b183022775a59a378a9c00 Merge tag 'selinux-pr-20250618' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 
---===============8532366683032485171==--
+--===============4688156441842639579==--
