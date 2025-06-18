@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1352319942499786762=="
+Content-Type: multipart/mixed; boundary="===============0611362813340633262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 18 Jun 2025 13:49:33 -0000
-Message-Id: <175025457314.696676.9949275283175008341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 18 Jun 2025 13:50:47 -0000
+Message-Id: <175025464761.699211.14480206129096701785@gitolite.kernel.org>
 
---===============1352319942499786762==
+--===============0611362813340633262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e59ee93bc5c0c40c5888211c992480867dfe192a
-    new: ede00d893af8a50412c3b93067322d27fb8ee97d
-    log: revlist-e59ee93bc5c0-ede00d893af8.txt
-  - ref: refs/tags/ath-202506181342
-    old: 0000000000000000000000000000000000000000
-    new: ede00d893af8a50412c3b93067322d27fb8ee97d
+  - ref: refs/heads/master
+    old: dd346d2c1b4b9051ace7bcb767fbb831a8f06710
+    new: 36135e265fbfbfbad9397c3086e2addf3ef64193
+    log: |
+         36135e265fbfbfbad9397c3086e2addf3ef64193 reject CVE-2022-50180 as the git id was reverted
+         
 
---===============1352319942499786762==
+--===============0611362813340633262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e59ee93bc5c0-ede00d893af8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a85b8544d46390469b6ca72d6bfd3ecb7be985ff wifi: remove zero-length arrays
-d1b1a5eb27c4948e8811cf4dbb05aaf3eb10700c wifi: mac80211: drop invalid source address OCB frames
-d19bac3d4edc4ab92e90d1c6bf68620192254b4b wifi: mac80211: don't WARN for late channel/color switch
-e7417421d89358da071fd2930f91e67c7128fbff wifi: ath6kl: remove WARN on bad firmware input
-05ced11a508af932c15bf549add04584cb989dc9 Merge tag 'ath-current-20250617' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-db5957ab85204a02093ac5ab2d0bbfe253955b71 wifi: iwlwifi: restore missing initialization of async_handlers_list (again)
-d5352b491a3a2628f1a798952a4ae76bde5d42e4 wifi: iwlwifi: cfg: Limit cb_size to valid range
-432a41232ca932ecb2330f46105e68e296ba8c7f wifi: iwlwifi: dvm: restore n_no_reclaim_cmds setting
-83f3ac2848b46e3e5af5d06b5f176c17e35733a3 wifi: iwlwifi: Fix incorrect logic on cmd_ver range checking
-68dd8eeb7208f16a0592da3896dd59379d95d553 Merge tag 'iwlwifi-fixes-2025-06-18' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-b56df6ccaa49b63a852c5046b886aabb75129a70 Merge branch 'ath-next'
-d8c64044adca332c15936726b68a9c37978a983f Merge branch 'ath-current'
-b53f3c16c90823186241d8bb838e6d0382094bde Merge remote-tracking branch 'mhi/mhi-next'
-ede00d893af8a50412c3b93067322d27fb8ee97d Add localversion-wireless-testing-ath
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750254683 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1750254647-2e588ba0d774de67b4741126138d1a966c01c704
 
---===============1352319942499786762==--
+dd346d2c1b4b9051ace7bcb767fbb831a8f06710 36135e265fbfbfbad9397c3086e2addf3ef64193 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhSxFwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/LYP/jsDB+L6HzPmcKiOkwcZ
+T6wsrSq4mrOr30XP+JyRm5RiU00mVKau0Mc8cU+gkITNIyMyyMNwdbUj4q6I58y9
+npsNGB62s471IRvZ1BFeHbur+b/XisII0lB+tVopEM5uiSBdfKFADzffTOCiD8LO
+YpHIAjiXAt/rPgfezZ5Qn7ECnWCceEVo1kjI8JSWJKVvyRx8A0CZ6eA0OxMdz55Z
+gDicHTw/YQFGmyvKFUUBZdqgBZErHPHYzgzpgk+bl5QOW375U7idMUkADDq3a0fU
+4bahHWKR/pG9S61sW//sIQQTmqcB9qGYBmoZwg1xHlpDF0gSquVmbypRM1bTObWN
+jdbQi4kmnFlXPXwUiHxzuS2xBIEOiMf/3/UWOpEOjFJv8r4/KhehuRybTelmyGyH
+0m/4y7AnfjnP5iDAYgpMHoonfk+xLmj7vBXMS/0MWhZBpBhpktuigX2O+5COOSRO
+is18HhXbdf2NJYuiaOTCglD3OqGzkLw2cnFpi3LFzFMFnCTAcKv+t0o4Goh2Pazt
+NB6NsexZY9PhiQg7bXKYYR59eS7KTn7HjP01iZpNsfMpf0eSapBmZff4jD6ot9Fd
+ET1zQQkWwbpY8JwmVcWAiJX9V0Be2oZITQOSru6m7zAJu7hUudqY6rO6adHAygNQ
+IkKaT4OqxkBRcmkZ28mQbCT/
+=OIUj
+-----END PGP SIGNATURE-----
+
+--===============0611362813340633262==--
