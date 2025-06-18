@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3282195784642903220=="
+Content-Type: multipart/mixed; boundary="===============4523757713114454815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 18 Jun 2025 06:27:47 -0000
-Message-Id: <175022806748.298868.8417065821905558528@gitolite.kernel.org>
+Date: Wed, 18 Jun 2025 06:28:06 -0000
+Message-Id: <175022808621.299276.10662456877657209875@gitolite.kernel.org>
 
---===============3282195784642903220==
+--===============4523757713114454815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6895dbecf3db4bf0dc306e390715d1540afe6e3c
-    new: cf719bdcf7c86ecf00c15fe88aaa319567c7078f
-    log: revlist-6895dbecf3db-cf719bdcf7c8.txt
+    old: cf719bdcf7c86ecf00c15fe88aaa319567c7078f
+    new: e462fd42ad34b6b0c787d30e97e9dfa25ef0719e
+    log: |
+         714b105aae4a6ab34bc6d9244e2c0a5f5bdb1358 Merge branch into tip/master: 'irq/urgent'
+         acf3a42c19ffcfcb09c7d054f65dbb890e287b1c Merge branch into tip/master: 'locking/urgent'
+         ddd5d79f1a4226f6fa6582462b38bafcd41b90b4 Merge branch into tip/master: 'perf/urgent'
+         27d791a5b453b8c56096d9c3cabf9ef97385b1a1 Merge branch into tip/master: 'x86/urgent'
+         eb35365a5d6190e7d016c6a4083bf15171da6785 Merge branch into tip/master: 'core/bugs'
+         62506a4dbbd7b25594505f1f5f5c99a8c00a837a Merge branch into tip/master: 'core/entry'
+         9b3881b71570012ce3a4c4991a2f30d5c5847ca5 Merge branch into tip/master: 'irq/core'
+         10146c1bc40dd5f0b2fc724d14b2be23fc1aa9dd Merge branch into tip/master: 'irq/drivers'
+         40785d06d063abd69541bd99d14b4aa9c9d91700 Merge branch into tip/master: 'sched/core'
+         fdf06a2fa5d00e8cf43d2865b058c2458efe37e1 Merge branch into tip/master: 'smp/core'
+         08aa08c50f601cf05974fd3e8235e5f2388af8bd Merge branch into tip/master: 'timers/core'
+         e462fd42ad34b6b0c787d30e97e9dfa25ef0719e Merge branch into tip/master: 'x86/kconfig'
+         
+  - ref: refs/heads/tip/urgent
+    old: 2de76b6612b217b2ef579cff535522545dad6a8b
+    new: 27d791a5b453b8c56096d9c3cabf9ef97385b1a1
+    log: revlist-2de76b6612b2-27d791a5b453.txt
 
---===============3282195784642903220==
+--===============4523757713114454815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6895dbecf3db-cf719bdcf7c8.txt
+Content-Disposition: attachment; filename=revlist-2de76b6612b2-27d791a5b453.txt
 
 5808c34216954cd832bd4b8bc52dfa287049122b platform/x86: ideapad-laptop: use usleep_range() for EC polling
 685f88c72a0c4d12d3bd2ff50286938f14486f85 platform/x86/intel-uncore-freq: Fail module load when plat_info is NULL
@@ -52,7 +69,9 @@ e2468dc700743683e1d1793bbd855e2536fd3de2 Revert "platform/x86: alienware-wmi-wma
 94a17f2dc90bc7eae36c0f478515d4bd1c23e877 x86/mm: Disable INVLPGB when PTI is enabled
 3c902383f2da91cba3821b73aa6edd49f4db6023 x86/its: Fix an ifdef typo in its_alloc()
 cb6075bc62dc6a9cd7ab3572758685fdf78e3e20 x86/mm: Fix early boot use of INVPLGB
-b7441b288985a80db844f2a1b4f96bd25d7517fc Merge branch into tip/master: 'x86/urgent'
-cf719bdcf7c86ecf00c15fe88aaa319567c7078f Merge branch 'linus'
+714b105aae4a6ab34bc6d9244e2c0a5f5bdb1358 Merge branch into tip/master: 'irq/urgent'
+acf3a42c19ffcfcb09c7d054f65dbb890e287b1c Merge branch into tip/master: 'locking/urgent'
+ddd5d79f1a4226f6fa6582462b38bafcd41b90b4 Merge branch into tip/master: 'perf/urgent'
+27d791a5b453b8c56096d9c3cabf9ef97385b1a1 Merge branch into tip/master: 'x86/urgent'
 
---===============3282195784642903220==--
+--===============4523757713114454815==--
