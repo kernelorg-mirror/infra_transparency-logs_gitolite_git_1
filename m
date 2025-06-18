@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7136752647741825446=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 18 Jun 2025 21:30:23 -0000
-Message-Id: <175028222321.1137381.12897672065336085312@gitolite.kernel.org>
-
---===============7136752647741825446==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 18 Jun 2025 21:31:16 -0000
+Message-Id: <175028227610.1138042.18010446864480001802@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 4bfbc2691de8c869339090e851703209b17ba378
-    new: 29bb79e9dbf1ba100125e39deb7147acd490903f
+  - ref: refs/heads/main
+    old: d0fa59897e049e84432600e86df82aab3dce7aa5
+    new: f82727adcf2992822e12198792af450a76ebd5ef
     log: |
-         29bb79e9dbf1ba100125e39deb7147acd490903f stddef: Introduce TRAILING_OVERLAP() helper macro
+         5d3bc9e5e725aa36cca9b794e340057feb6880b4 net: ice: Perform accurate aRFS flow match
+         48c8b214974dc55283bd5f12e3a483b27c403bbc ice: fix eswitch code memory leak in reset scenario
+         688a0d61b2d7427189c4eb036ce485d8fc957cbb e1000e: set fixed clock frequency indication for Nahum 11 and Nahum 13
+         c6d732c38f93c4aebd204a5656583142289c3a2e net: ethtool: remove duplicate defines for family info
+         ae409629e022fbebbc6d31a1bfeccdbbeee20fd6 net: ftgmac100: select FIXED_PHY
+         28c0d7756fd9b69971073c946076e35851a7133b Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         9ac8d0c640a161486eaf71d1999ee990fad62947 Octeontx2-pf: Fix Backpresure configuration
+         f82727adcf2992822e12198792af450a76ebd5ef tipc: fix null-ptr-deref when acquiring remote ip of ethernet bearer
          
-
---===============7136752647741825446==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1750282259 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1750282221-51d570bdf8479bb4dfeb946e4dbc4a5be524f47d
-
-4bfbc2691de8c869339090e851703209b17ba378 29bb79e9dbf1ba100125e39deb7147acd490903f refs/heads/for-next/hardening
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaFMwEwAKCRA2KwveOeQk
-u+keAP9TIkXlLOCR+teRpnTWv/rey51VmDq3hhIZ4bRAxeL7rAD9ESGDK9LwvzOW
-TdJjqWRoVz23qsJ/UZN5Xq+bQSrQagc=
-=fkk3
------END PGP SIGNATURE-----
-
---===============7136752647741825446==--
