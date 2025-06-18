@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8018436340657016303=="
+Content-Type: multipart/mixed; boundary="===============5216684968393670734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Jun 2025 15:09:03 -0000
-Message-Id: <175025934382.764985.1607232489744572253@gitolite.kernel.org>
+Date: Wed, 18 Jun 2025 15:09:11 -0000
+Message-Id: <175025935141.765301.9933919195546626804@gitolite.kernel.org>
 
---===============8018436340657016303==
+--===============5216684968393670734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 7b4ac12cc929e281cf7edc22203e0533790ebc2b
-    new: d0fa59897e049e84432600e86df82aab3dce7aa5
-    log: revlist-7b4ac12cc929-d0fa59897e04.txt
+  - ref: refs/heads/dev-queue
+    old: 0702f3320aeae819d9354173a6189932631b4e36
+    new: b9cd47274acee72a76ec549cb6cfaba44dcf55f9
+    log: revlist-0702f3320aea-b9cd47274ace.txt
 
---===============8018436340657016303==
+--===============5216684968393670734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b4ac12cc929-d0fa59897e04.txt
+Content-Disposition: attachment; filename=revlist-0702f3320aea-b9cd47274ace.txt
 
 db22720545207f734aaa9d9f71637bfc8b0155e0 can: tcan4x5x: fix power regulator retrieval during probe
 60524f1d2bdf222db6dc3f680e0272441f697fe4 net: ti: icssg-prueth: Fix packet handling for XDP_TX
@@ -43,5 +43,15 @@ b160766e26d4e2e2d6fe2294e0b02f92baefcec5 net/sched: fix use-after-free in taprio
 7851263998d4269125fd6cb3fdbfc7c6db853859 atm: Revert atm_account_tx() if copy_from_iter_full() fails.
 0aff00432cc755ad7713f8a2f305395d443cdd4c Merge branch 'atm-fix-uninit-and-mem-accounting-leak-in-vcc_sendmsg'
 d0fa59897e049e84432600e86df82aab3dce7aa5 tcp: fix tcp_packet_delayed() for tcp_is_non_sack_preventing_reopen() behavior
+1a1fc9152638cbe8401f227072ec638e5a48c577 coccinelle: misc: secs_to_jiffies script: Create dummy report
+e9193418957c16878ffcd835b45b90339f205b97 ice: fix lane number calculation
+2d7a97de597a6a7ac05722e4f8efd8e92b2bb798 ice: fix fwlog after driver reinit
+8d66625ae98b5f3b1c9110c8b88763568e006ddd ice: fix eswitch code memory leak in reset scenario
+57bc45348c21ad8462351d027a5aac5a2a2f5c97 net: ice: Perform accurate aRFS flow match
+154aa52574da2646bf6a4b5112d9c633ab9ee69a ice: add NULL check in eswitch lag check
+aee96ed7eda2b213525415daae0f7c78940aea0d idpf: return 0 size for RSS key if not supported
+3ddc97900e51eb36bf3e4bca0b2fefd34de69f90 e1000e: set fixed clock frequency indication for Nahum 11 and Nahum 13
+ba074fffdb7a661f794ecea37cf4013eefa93c6a idpf: convert control queue mutex to a spinlock
+b9cd47274acee72a76ec549cb6cfaba44dcf55f9 igc: disable L1.2 PCI-E link substate to avoid performance issue
 
---===============8018436340657016303==--
+--===============5216684968393670734==--
