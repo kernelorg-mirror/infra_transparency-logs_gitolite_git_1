@@ -1,58 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============9153202019521925949=="
+Content-Type: multipart/mixed; boundary="===============6727086464819528987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Wed, 18 Jun 2025 10:22:39 -0000
-Message-Id: <175024215946.516283.5650546665010833561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 18 Jun 2025 10:24:23 -0000
+Message-Id: <175024226327.517160.16674730509566845212@gitolite.kernel.org>
 
---===============9153202019521925949==
+--===============6727086464819528987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/dev/gicv5-v5
-    old: 93e6020b4a68410920bb2759fdd64639b59857db
-    new: 78c784f1c06f7ad9b8b46aea1feea49d5627a936
-    log: revlist-93e6020b4a68-78c784f1c06f.txt
+  - ref: refs/heads/for-next
+    old: b0f11a0e05a8b8c7bebe8b92ffbece3c28e936e6
+    new: a15edf91668beefdb5171c53fa698c9b43dd1e0d
+    log: |
+         134442a04bb9a6981923cbb24f041b5f5690bda6 arm64: dts: exynosautov920: Add DT node for all SPI ports
+         b649082312dd1a4c3989bbdb7c25eb711e9b1d94 arm64: dts: exynos: gs101: Add 'local-timer-stop' to cpuidle nodes
+         a15edf91668beefdb5171c53fa698c9b43dd1e0d Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: e2016763590f571cdc3912d6a7ec848d2b61e6c2
+    new: b649082312dd1a4c3989bbdb7c25eb711e9b1d94
+    log: |
+         134442a04bb9a6981923cbb24f041b5f5690bda6 arm64: dts: exynosautov920: Add DT node for all SPI ports
+         b649082312dd1a4c3989bbdb7c25eb711e9b1d94 arm64: dts: exynos: gs101: Add 'local-timer-stop' to cpuidle nodes
+         
 
---===============9153202019521925949==
+--===============6727086464819528987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93e6020b4a68-78c784f1c06f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-adb8b5397188e6ef1060729819ec3e50edc20529 Arm GICv5: Host driver implementation
-55dd2b5e343b50663559a6cd85b0a9041d1e9fdf dt-bindings: interrupt-controller: Add Arm GICv5
-f330893b274eb08f7165be75ce78f2a399cdb189 arm64/sysreg: Add GCIE field to ID_AA64PFR2_EL1
-a3a79296e7523bb5f1876cbec3240ec8b89e3179 arm64/sysreg: Add ICC_PPI_PRIORITY<n>_EL1
-9e260f141e80173dac623265abf02df0b614d349 arm64/sysreg: Add ICC_ICSR_EL1
-78852a5fb9025a5c1ad5159ecc0757dece584ef6 arm64/sysreg: Add ICC_PPI_HMR<n>_EL1
-9d2d801e70799bd05931107351e3e91e0b34ad82 arm64/sysreg: Add ICC_PPI_ENABLER<n>_EL1
-d9c656b684ec5fad678d42aa22f87903ea7aaecb arm64/sysreg: Add ICC_PPI_{C/S}ACTIVER<n>_EL1
-6ed34e4a6caf8d57042235f7bc1de05d32e8467c arm64/sysreg: Add ICC_PPI_{C/S}PENDR<n>_EL1
-1992b3be6705672a09ea510ca6cd3e528ab6f821 arm64/sysreg: Add ICC_CR0_EL1
-23adcd757aa919a124ddcfb8f8ac0429214d0962 arm64/sysreg: Add ICC_PCR_EL1
-378490b64d4402a3ddbb6c4f46146fb65b2100d1 arm64/sysreg: Add ICC_IDR0_EL1
-f66998ce51cbc2ba642b9f76d3e63a0777226451 arm64/sysreg: Add ICH_HFGRTR_EL2
-5edbe42204c504e4c91d82107dcf616ad57fb7b4 arm64/sysreg: Add ICH_HFGWTR_EL2
-621483cdea91fc09108dbaf2af847f5f7410f513 arm64/sysreg: Add ICH_HFGITR_EL2
-2c6e85e7f4b39c1dd5a70cb828218b459560e152 arm64: Disable GICv5 read/write/instruction traps
-e29ecfd5b21bbea9ce9ae9b0db46b107cad0bdd1 arm64: cpucaps: Rename GICv3 CPU interface capability
-09e04c74cee86514257e8b3b2afb558e2aa72f60 arm64: cpucaps: Add GICv5 CPU interface (GCIE) capability
-71acb6f5c124b8c6659391ba1701f05170c9044c arm64: smp: Support non-SGIs for IPIs
-12da92f61a2d0a7fdd5edacaf9ef624b754d0e55 arm64: Add support for GICv5 GSB barriers
-8f5a379bc6fc6ceb1a7ebd50f4e5d0389cb306d2 irqchip/gic-v5: Add GICv5 PPI support
-f23cb3ad0bde0413a11aeeb41133a730ce8a6092 irqchip/gic-v5: Add GICv5 IRS/SPI support
-ca077bc1410091c8d6b8bd87de799a23dc1d0b23 irqchip/gic-v5: Add GICv5 LPI/IPI support
-f941ff0581b3e0c4181209cb46da6592b71ca433 irqchip/gic-v5: Enable GICv5 SMP booting
-7401fb994b571ff2da21d43f569cd6ca899450fb irqchip/gic-v5: Add GICv5 ITS support
-3bd2f052bc72506e400426791843ba0ca8ecacc6 irqchip/gic-v5: Add GICv5 IWB support
-eda72ca28262b4e8238605f5807a16a7b7cd32a7 docs: arm64: gic-v5: Document booting requirements for GICv5
-78c784f1c06f7ad9b8b46aea1feea49d5627a936 arm64: Kconfig: Enable GICv5
+certificate version 0.1
+pusher krzk@kernel.org 1750242298 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1750242261-312da53226787acb6827d393d491e36f01a936f7
 
---===============9153202019521925949==--
+b0f11a0e05a8b8c7bebe8b92ffbece3c28e936e6 a15edf91668beefdb5171c53fa698c9b43dd1e0d refs/heads/for-next
+e2016763590f571cdc3912d6a7ec848d2b61e6c2 b649082312dd1a4c3989bbdb7c25eb711e9b1d94 refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhSk/oQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1ytFD/9lvqlq/+XJ1DMsRsnih3pp8+MHSHnnF47/
+SbkwvqxF93GOD0grNej4WaPl7PdrK/a8Jc0ruEtYSfztQ/heSsobwD/aXacjZ1eN
+sw+Vr96wy8qv7ooN5Bv9XcrFamGOMpGvHmMafq0uUuBhJpmEVfvkkm2zhk/eKl3V
+ur4rpl3Bx24dv2ui+UrLwV2RCQ+ZORuGmlAevKkgqufI/GuTSwFb9n2/K8H8tldT
+JGr8IQKtMLfsJz0FUYI2fpXbmppMtWyOOgPD7R+yOKur0FO/VRM6gYnXrMsWvcdV
+FUQzMO88bdPVIDQPdXl8FRo/Z9NbTfhfgHcq9rIOZRPBr+SrqwSirjy4FOdRhfPu
+KffMvpC78fAuaU+LiF2hiEworjszMqvJRrcoPuo7nJ8Qe7uXsP2UypCh+rc92k+a
+kKl8Wkidu2RvwyXiNf6YwnP1JnAPXhOjfuHDIEbmZ3FFUvqnUD7ruCXcG1ScXfof
+sdclvF5CTMmqKCYamr0iCGzeTIAkx9D/0S5eXXwzrIHgLKKGOA+MPduE7jTGvgy4
+1M9X9EQF2CxnLOxKx82ECP7H52CGjqm7o3YqRCqWL6Hg/LDES+Gv7HLZSUXYbzMW
+2r++jv6fdKDtZ9dWpsOu91q9cYbAck4cjWDDn8ktTRXCURIoBQ07quNVICUsEFmh
+DmeTefW4Uw==
+=7hQv
+-----END PGP SIGNATURE-----
+
+--===============6727086464819528987==--
