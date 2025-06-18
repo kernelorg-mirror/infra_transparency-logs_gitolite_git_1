@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 18 Jun 2025 19:13:18 -0000
-Message-Id: <175027399862.1015319.13024338288564413071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 18 Jun 2025 19:32:46 -0000
+Message-Id: <175027516629.1031274.1784014790598560345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/next
-    old: 9b5779876bdc1ae5af3cda2f4c73e30d5afd9285
-    new: a97d0b8dd4d79ac8e48bc857c17e3b4f0a8148f7
+  - ref: refs/heads/bleeding-edge
+    old: 09cd3653765144614a417981f6f178546be9cccb
+    new: b32f33687537466e3deb2f2e3737c6d2b094a59e
     log: |
-         5fe7b173e9b02c6628dc5c49137e2fa9c10ac4a2 landlock: Remove warning in collect_domain_accesses()
-         dfeb17c38a79e1218fe7c83af5595dd8f60bee32 selftests/landlock: Add tests for access through disconnected paths
-         a97d0b8dd4d79ac8e48bc857c17e3b4f0a8148f7 selftests/landlock: Add tests for access through disconnected paths
+         b65b8ed7e80dd7e1c944a9fa75c47c030612f5a6 thermal: int340x: processor_thermal: Add Wildcat Lake PCI ID
+         7a209aa4086a873a524783846fdf9772c335e6fc Merge branch 'thermal-intel' into bleeding-edge
+         2e1185c9d7b4f890614e891ae1414653b35b88e3 cpufreq: userspace: set CPUFREQ_GOV_STRICT_TARGET flag
+         221504a63419bc3ef6e72deb42f9f8476eb83538 cpufreq: docs: userspace: Explain HW coordination influence
+         b32f33687537466e3deb2f2e3737c6d2b094a59e Merge branch 'pm-cpufreq' into bleeding-edge
          
