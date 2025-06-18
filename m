@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2746149400283572385=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 18 Jun 2025 10:57:52 -0000
-Message-Id: <175024427282.545278.11605559025646635426@gitolite.kernel.org>
-
---===============2746149400283572385==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 18 Jun 2025 10:59:07 -0000
+Message-Id: <175024434711.545945.4117437884015847408@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 36964af6712d2e567f8b80c5bbd3da7952726be0
-    new: d709c40f642111437121e4cd5f63b651cebf93d6
+  - ref: refs/heads/wip/leon-for-next
+    old: c81fef22020c7467c08929330009c7c613e5ff5c
+    new: c036993721a3773f918d9a34bd706f72dc1628bf
     log: |
-         d709c40f642111437121e4cd5f63b651cebf93d6 reserve some more 2022 cve ids from cve.org
+         24baad32b7100448fc4c3b13eceb0a222b25b12c RDMA/qib: Remove outdated driver
+         c036993721a3773f918d9a34bd706f72dc1628bf Maintainers: Remove QIB
          
-
---===============2746149400283572385==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750244309 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1750244272-225dddcb7e2833c502dc7b849eb896ad0fde17e2
-
-36964af6712d2e567f8b80c5bbd3da7952726be0 d709c40f642111437121e4cd5f63b651cebf93d6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhSm9UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OPIP/01q1ZIFhJwm9pQPjZOb
-CSvT6hPK/IjK73JcfUTF9DjiymFWjkeBPJyDRcVpOi3CneRyurt6Hp8c1SkHJVfy
-sU/VkGFkW6zX2/2fizWrbe2mCI7Q1tn7X3CmVXlrZq/LSol2pPg90SpZT4npZawW
-Aa1AhCDIqGqTgT9eyPPoUMXn60MyUitkJtZhSH+YjWzIZvYpeSYYoIO8CPV2PjQm
-knaGV/ytWuDNdLVC9ujU09ep7LwH2tjSjejlzDvfOrebCFmIL/nTO6bA/1BtSqpo
-1dLYlIiK8MNNDzI6j1s2UJjtTqyzmoQw3l88SPzITeCBDheXiLVgwQA2lOSG7A3t
-iddZ357z0G/34Cfk1fkzIQEsZrYEOZ4veLL1Te5M06aG4ZqzXs6BPLaRRBl+NmuP
-bHeduQ9AhCj4AND1uWjVD7uLg6BOPxN4/pck5c2m9+eScMop5JMlfWB9P02/Zxcp
-yZCvj0kJjh+LHOgiMEdMDFk7YdcXwjCW6wUdzZPpTVh1eH8JyTwjzKu2/uZoqwGb
-soN/rtYxuWf7PqM1dQpv8/NyzvjZxNQb+vQb0pWjlCrAzXckpcOz4FgYZlHhyyg4
-G28d1ILLjPudYt64bNnPrzrYcOKlshMAAvRsY942BRp6zq7i5DniVfVfqw0Xz+61
-2UiWgWME/ZD27HhEmZwj6S0l
-=xCUB
------END PGP SIGNATURE-----
-
---===============2746149400283572385==--
+  - ref: refs/heads/wip/leon-for-rc
+    old: b26852daaa83f535109253d114426d1fa674155d
+    new: 8edab8a72d67742f87e9dc2e2b0cdfddda5dc29a
+    log: |
+         2c6b640ea08bff1a192bf87fa45246ff1e40767c RDMA/mlx5: Fix unsafe xarray access in implicit ODP handling
+         333e4d79316c9ed5877d7aac8b8ed22efc74e96d RDMA/core: Rate limit GID cache warning messages
+         8edab8a72d67742f87e9dc2e2b0cdfddda5dc29a RDMA/mlx5: Initialize obj_event->obj_sub_list before xa_insert
+         
