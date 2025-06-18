@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 18 Jun 2025 18:40:25 -0000
-Message-Id: <175027202506.987541.14247318509843449751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Wed, 18 Jun 2025 18:44:57 -0000
+Message-Id: <175027229732.990002.7534293428562076937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 8ada5f7b5e67db62b722fd0231cef4996f71d1b9
-    new: a3bf9ba771be41397187e00cfd9fdfe8c3b60b77
+  - ref: refs/heads/rust-sched-v2
+    old: 1cf3ffc6d205124b70fb17149560a427813a8dc5
+    new: db5af4f81c99e11a1e63dbfdfb31caefcc9b35de
     log: |
-         88efa0de3285be66969b71ec137d9dab1ee19e52 EDAC/igen6: Fix NULL pointer dereference
-         a3bf9ba771be41397187e00cfd9fdfe8c3b60b77 Merge branch 'edac-urgent' into edac-for-next
+         00f89918ec012a520ef5d99d2c4fc922e97b2e8f rust: Introduce file_from_location()
+         db5af4f81c99e11a1e63dbfdfb31caefcc9b35de rust: task: Add Rust version of might_sleep()
          
