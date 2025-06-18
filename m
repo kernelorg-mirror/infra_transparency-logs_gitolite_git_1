@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6486122171959247525=="
+Content-Type: multipart/mixed; boundary="===============6229125365100122012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 18 Jun 2025 13:46:38 -0000
-Message-Id: <175025439879.694360.280595546080340045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 18 Jun 2025 13:48:43 -0000
+Message-Id: <175025452365.695401.8227256819921252116@gitolite.kernel.org>
 
---===============6486122171959247525==
+--===============6229125365100122012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 2665ac4ffc5f71500316fd4b9c9b884d53d664f0
-    new: dd346d2c1b4b9051ace7bcb767fbb831a8f06710
+  - ref: refs/heads/fixes
+    old: e2468dc700743683e1d1793bbd855e2536fd3de2
+    new: 109f4d29dade8ae5b4ac6325af9d1bc24b4230f8
     log: |
-         dd346d2c1b4b9051ace7bcb767fbb831a8f06710 reject CVE-2022-50216 as it was reverted
+         c8892c2a5b27d4026cda60409c393ba0d6c88df9 platform/x86: portwell-ec: Move watchdog device under correct platform hierarchy
+         109f4d29dade8ae5b4ac6325af9d1bc24b4230f8 platform/mellanox: mlxbf-tmfifo: fix vring_desc.len assignment
          
 
---===============6486122171959247525==
+--===============6229125365100122012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750254435 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1750254398-00ce00800c961403037d2c643821aa1ce0364a92
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1750254554 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1750254517-e3086bd0f67f26fd825408c54dcaa89ea36254cc
 
-2665ac4ffc5f71500316fd4b9c9b884d53d664f0 dd346d2c1b4b9051ace7bcb767fbb831a8f06710 refs/heads/master
+e2468dc700743683e1d1793bbd855e2536fd3de2 109f4d29dade8ae5b4ac6325af9d1bc24b4230f8 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhSw2MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2wEQANStJXQqowmoNKZG8la1
-OkV/eIekW2eaQJLhccaJoW0/oKC7PvbHcGGl6DlRcS7fnoJ2X574M7UQS/s0ZCTT
-FsptnmLly6umL5NL0iMRn6YMdweSUMxaNf+Z/qQ3/xhN6g7BiO1I7Qd798spKXc4
-NVx+9ndl3QaGMuhfyXOpqhtueWWHsh/j9ZfzEqZ1b50Q90eCrLubMfWr/dD1T7Lh
-bg/g1xspo9TIa09Zhu1IDBqKB37jIBM1B+OPLHe+ewcnUqN1amMReBIhV6UaQRKK
-evlmZn6DIe+Hijy/R6b7Qp0HHXSxPYfNd42M64m88H/PR1ICAoHFzFbNS+EMxl0u
-Bg4+iVM2GFHFGX7TXA65M2D8L6zw9iy9PORI21b6pn67NotGWd1ev1fdPlTiOome
-s4h/EAmefB57QQBpQZbUcviMRn8esLGQsWNvA56k/7cp2F+2on+ZAKOGtKlYQIr/
-elALHWrJAKm7H4R10nD1lmCBXPqZjKKMu8Ox0oGQzdRjaD4EJyfiMdGEx05udtFx
-RA/Emr8XB9AYTQNcIeOUv2U6b6CekfVzqW9mjz61arFknUeaPD5mC3x2ET6qtR+z
-UBGsAvuPYrH7ewGW4HZT+glP5X+gkdWpTxXZzY1cKraP6gVvqIdtwLRasJ65PjGL
-Ruf/7A9uDHXDYTHF9mIYiugu
-=2yiv
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaFLD4AAKCRBZrE9hU+XO
+MQQ1AQDmnTL7Y6e8tfXVerp6m0ZMlQ+9Yvc1VET3Avn8H3SAJAEA5KAsyl0hO7Cy
+MKAHlsBvGLG44lkkyhIh3wvBGs5faQs=
+=sptf
 -----END PGP SIGNATURE-----
 
---===============6486122171959247525==--
+--===============6229125365100122012==--
