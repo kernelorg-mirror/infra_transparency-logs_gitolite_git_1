@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Wed, 18 Jun 2025 02:50:24 -0000
-Message-Id: <175021502470.123065.17017045003525485468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 18 Jun 2025 02:58:54 -0000
+Message-Id: <175021553439.128724.12970701294246818816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: def8eda83d74223cd32ef86cbbb475b48dee66ee
-    new: 260bafe7805533ea3a79c72a27ac3ba357e18129
+  - ref: refs/heads/arm64-for-6.17
+    old: 49b1c8df672a2a6229798e4f4088ce90ed44a103
+    new: 66bf410e72348691cfbc222afae4414ed1cc657c
     log: |
-         260bafe7805533ea3a79c72a27ac3ba357e18129 hkml_list: handle empty line command output on handle_gitlog_date_misorders()
+         642b55ce06c923a52cf52f94a2508c7a20b02536 arm64: dts: qcom: x1e80100-dell-xps-9345: Add WiFi/BT pwrseq
+         3a931f4aa3982f77f32050b4869afa76a711e5c7 arm64: dts: qcom: apq8016-sbc-d3-camera: Convert to DT overlay
+         d288abc3a70efd23a3882de9d2a5effb890f8e40 arm64: dts: qcom: sm8750: Add UFS nodes for SM8750 SoC
+         a95d8e3f40756d87c35b1c5b4318297005ddc7ce arm64: dts: qcom: sm8750: Add UFS nodes for SM8750 MTP
+         66bf410e72348691cfbc222afae4414ed1cc657c arm64: dts: qcom: sm8750: Add UFS nodes for SM8750 QRD board
          
