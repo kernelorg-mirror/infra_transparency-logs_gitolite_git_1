@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 18 Jun 2025 20:24:48 -0000
-Message-Id: <175027828854.1078715.17063544550579013744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Wed, 18 Jun 2025 20:27:57 -0000
+Message-Id: <175027847725.1082630.8372836410437240295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/next
-    old: da9ba4132057cc31ac2ab9dfa9c98b7baaac3ca8
-    new: e72fe8cbd8a0c111542ccaae932ad323c7edaeb3
-    log: |
-         e72fe8cbd8a0c111542ccaae932ad323c7edaeb3 selftests/ptrace: Fix spelling mistake "multible" -> "multiple"
-         
+  - ref: refs/heads/rust-atomic-v6
+    old: 0000000000000000000000000000000000000000
+    new: 561bc5564c0f1b731e297c743c36d2723cfd2708
