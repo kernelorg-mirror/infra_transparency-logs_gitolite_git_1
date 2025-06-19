@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 19 Jun 2025 07:06:12 -0000
-Message-Id: <175031677279.1620478.13643569498411195453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 19 Jun 2025 07:09:22 -0000
+Message-Id: <175031696258.1622079.12468005054292191689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 897c0958808ac6b11a9715adef38682d7fa66229
-    new: 43ab245a9ec3837a0ca75c3ed9ba887d8e8b022e
-    log: |
-         43ab245a9ec3837a0ca75c3ed9ba887d8e8b022e cpufreq: brcmstb-avs: Fully open-code compatible for grepping
-         
+  - ref: refs/heads/gpio/mmio-bgpiof-no-input-flag
+    old: 0000000000000000000000000000000000000000
+    new: deefc7083414de81aad102b60f0390f600d7eb79
+  - ref: refs/tags/gpio-mmio-bgpiof-no-input-flag-for-v6.17
+    old: 0000000000000000000000000000000000000000
+    new: 30a4e2d2be46ba8f5b4698798e5c736b989639ae
