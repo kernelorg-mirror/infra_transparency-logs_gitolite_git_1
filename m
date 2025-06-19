@@ -1,27 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 19 Jun 2025 20:31:38 -0000
-Message-Id: <175036509807.2521747.1219372536449669101@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7846051911600495404=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 19 Jun 2025 20:36:31 -0000
+Message-Id: <175036539116.2526130.14824042739202498095@gitolite.kernel.org>
+
+--===============7846051911600495404==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 6f3495511418093f04a619e54854a1c9c6fce13e
-    new: 82795aa70fabf1806cdf4199c8b85989ad89cc91
-    log: |
-         440d19134a7f472bdc42cc62830715e2e7461740 patches/next: rebase to latest mm-new
-         1f9c82298b06bc832886b2e32cff61d6b859718e patches/next: add minor typo fixes
-         57250c5fa83076b7564425c13e679e2409e91a13 patches/next: add Yunjeong's mtier target mem util parameter patch
-         56a09d99456d99c4cab05d20707648165d845a51 patches/next: node_memcg_used damos quota goal work and memcg_path memleak fix
-         d36ae35617640538d27b388d1231f5eb6a4ff97a patches/next: wordsmith memcg_path leak fix
-         991b5ad788fb0323fbb5efa63a0b5a89f26767f2 patches/posted: add memcg_path memleak fix
-         a6ad54f2749e939ac4b7f1e67a220f33ce9f3575 patches/posted: add msgids for memcg_path memleak fix
-         24c9bc1f564ddbe89e16b7006456d1ce761a7f84 patches/next: implement DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-         82795aa70fabf1806cdf4199c8b85989ad89cc91 patches/next: wordsmith damos_quota_memcg_used_free_bp cv
-         
+  - ref: refs/heads/crc-next
+    old: c5c2480aaff861f1b5ec1fef2a727c31733bd9b2
+    new: acebc7b765a8df9750b18fb53c964ae098673f6b
+    log: revlist-c5c2480aaff8-acebc7b765a8.txt
+
+--===============7846051911600495404==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c5c2480aaff8-acebc7b765a8.txt
+
+0afa7b9e89ba404f36ad8599505935260ba96e8c lib/crc32: Remove unused combination support
+57e2089bf4bec6248ed371fcd5820a15c9ff998e lib/crc: Move files into lib/crc/
+fe753a72a2021e4bc14fa8b014650ed377bf0bc3 lib/crc: Prepare for arch-optimized code in subdirs of lib/crc/
+dfc5de984d9bdf6b86f5f839a95c383e97d996b7 lib/crc: arm: Migrate optimized CRC code into lib/crc/
+a6116be22fd8c08b8a7f6037f8071cdc80b3de78 lib/crc: arm64: Migrate optimized CRC code into lib/crc/
+f4af2f2f5e238d0a92c54c2b34165d6c75d274ef lib/crc: loongarch: Migrate optimized CRC code into lib/crc/
+25e3d113accc0c813e6ff5d996f8d73d32f21070 lib/crc: mips: Migrate optimized CRC code into lib/crc/
+09cd44c4288703822a58bc714d78612fa8b01b63 lib/crc: powerpc: Migrate optimized CRC code into lib/crc/
+341edcec0fcbc6d6351e69fc07cc1991fef84760 lib/crc: riscv: Migrate optimized CRC code into lib/crc/
+63eff619f0a3d3bead8de9b1f7228c4115740b16 lib/crc: s390: Migrate optimized CRC code into lib/crc/
+6d04028240c23a9e6c2dea882f391890c840fc20 lib/crc: sparc: Migrate optimized CRC code into lib/crc/
+b0c572dc20bb5ad237e132e86e17addcad8e4b1e lib/crc: x86: Migrate optimized CRC code into lib/crc/
+15352fae213992ddfbfd73e68132bdd0b99bd1e4 lib/crc: Remove ARCH_HAS_* kconfig symbols
+bfb73427ea43f95a217c90c7f73509ac7cb42042 lib/crc: Explicitly include <linux/export.h>
+9944518b4383ac20b1711bfac9306ee9d80fd912 lib/crc: crc32: Document crc32_le(), crc32_be(), and crc32c()
+08ca710b3a607c679c4e48f8c68213f6b51f9eef lib/crc: crc32: Change crc32() from macro to inline function and remove cast
+acebc7b765a8df9750b18fb53c964ae098673f6b lib/crc: crc64: Add include/linux/crc64.h to kernel-api.rst
+
+--===============7846051911600495404==--
