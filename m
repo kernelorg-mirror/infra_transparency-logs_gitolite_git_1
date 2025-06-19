@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
-Date: Thu, 19 Jun 2025 22:52:52 -0000
-Message-Id: <175037357219.2647959.2866784439294304409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 19 Jun 2025 23:10:42 -0000
+Message-Id: <175037464288.2663051.13285292145364137341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: dfec1c14aecee6813f9bafc7b560cc3a31d24079
-    new: 7399ef9840220ba59a884ad70f7db4e5e2d06c42
+    old: 5c8013ae2e86ec36b07500ba4cacb14ab4d6f728
+    new: e0fca6f2cebff539e9317a15a37dcf432e3b851a
     log: |
-         7399ef9840220ba59a884ad70f7db4e5e2d06c42 net: mana: Set tx_packets to post gso processing packet count
+         e0fca6f2cebff539e9317a15a37dcf432e3b851a net: mana: Record doorbell physical address in PF mode
          
