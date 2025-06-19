@@ -1,20 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux
-Date: Thu, 19 Jun 2025 12:15:21 -0000
-Message-Id: <175033532153.1928746.6737014658592586383@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4403831795512627056=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 19 Jun 2025 12:19:37 -0000
+Message-Id: <175033557741.1931405.9721810493581095093@gitolite.kernel.org>
+
+--===============4403831795512627056==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwamatsu/linux
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 7dafb2a16b0b5027eb573d027dbc19a66dfe9744
-    new: 959113a2182eb5a7337ed9ff612e35d13004f1b8
-    log: |
-         1104ff06c8c5cac1fb9d5e506233a1be9052670f tcp: make sure init the accept_queue's spinlocks once
-         959113a2182eb5a7337ed9ff612e35d13004f1b8 tomoyo: fix UAF write bug in tomoyo_write_control()
-         
+  - ref: refs/heads/master
+    old: 74b4cc9b8780bfe8a3992c9ac0033bf22ac01f19
+    new: fb4d33ab452ea254e2c319bac5703d1b56d895bf
+    log: revlist-74b4cc9b8780-fb4d33ab452e.txt
+
+--===============4403831795512627056==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74b4cc9b8780-fb4d33ab452e.txt
+
+1b56e765bf8990f1f60e124926c11fc4ac63d752 rust: completion: implement initial abstraction
+4b76fafb20dd4a2becb94949d78e86bc88006509 rust: revocable: indicate whether `data` has been revoked already
+f744201c6159fc7323c40936fd079525f7063598 rust: devres: fix race in Devres::drop()
+20c96ed278e362ae4e324ed7d8c69fb48c508d3c rust: devres: do not dereference to the internal Revocable
+b8b8663ac82a2595a0922d30014f60c5547084de mailmap: add entry for Danilo Krummrich
+a89f5fae998bdc4d0505306f93844c9ae059d50c ksmbd: add free_transport ops in ksmbd connection
+7ac5b66acafcc9292fb935d7e03790f2b8b2dc0e ksmbd: fix null pointer dereference in destroy_previous_session
+4ea0bb8aaedfad8e695429cda6bd1c8b0dad0844 ksmbd: handle set/get info file for streamed file
+eab9dcb76b9fca47402c9e93afca243e745a0f02 Documentation: embargoed-hardware-issues.rst: Add myself for Power
+229f135e0680da3dd0bcce515c07be87858f1d12 Merge tag 'driver-core-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+fb4d33ab452ea254e2c319bac5703d1b56d895bf Merge tag '6.16-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+
+--===============4403831795512627056==--
