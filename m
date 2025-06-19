@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 19 Jun 2025 14:44:29 -0000
-Message-Id: <175034426960.2221638.17008174915699383508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Thu, 19 Jun 2025 14:44:41 -0000
+Message-Id: <175034428196.2221941.1282757277013113020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/filelZczuo
-    old: 0000000000000000000000000000000000000000
-    new: 16ea4666bbb7f5bd1130fa2d75631ccf8b62362e
+  - ref: refs/heads/main
+    old: ea4cdaea1a553685444a3fb39aae6b2cfee387ef
+    new: 34f21b7acea8afbea9348d0f421beeeedca7a136
+    log: |
+         34f21b7acea8afbea9348d0f421beeeedca7a136 mdmonitor: use MAILFROM to set sendmail envelope sender address
+         
