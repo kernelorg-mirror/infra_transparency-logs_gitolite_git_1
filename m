@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5791612816401384951=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 19 Jun 2025 15:33:41 -0000
-Message-Id: <175034722102.2267266.3441390212178179305@gitolite.kernel.org>
-
---===============5791612816401384951==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 19 Jun 2025 15:34:32 -0000
+Message-Id: <175034727258.2268255.16006373607250789804@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/staging-linus
-    old: e04c78d86a9699d136910cfc0bdcf01087e3267e
-    new: a55bc4ffc06d8c965a7d6f0a01ed0ed41380df28
+  - ref: refs/heads/for-mfd-next
+    old: 3d5341b17ca242fbf1dc78d642c36af0a510c758
+    new: 3d77b3cc7cc8115d89fa14eaf601e56372953484
     log: |
-         a55bc4ffc06d8c965a7d6f0a01ed0ed41380df28 staging: rtl8723bs: Avoid memset() in aes_cipher() and aes_decipher()
+         b2082f5eabe1a2e1a0746258cf9f88bc313d0b35 mfd: tps65219: Update TPS65214 MFD cell's GPIO compatible string
+         cadc8dc3ed0481ee74a7f1de67ec1bcd3edf36e7 mfd: cros_ec: Separate charge-control probing from USB-PD
+         4cb3f31963c871a162f3ee8859e42101955b6943 mfd: Constify reg_sequence and regmap_irq
+         8d68a05091658a128b3df7f50df0734ee0326e9c dt-bindings: mfd: convert mxs-lradc bindings to json-schema
+         87d9387bf68a6bd0cc89d5221c71fce020867f1b dt-bindings: mfd: Convert lpc1850-creg-clk, pc1850-dmamux and phy-lpc18xx-usb-otg to YAML format
+         72272af90148324ac2a2aead78397fd4f00d3964 mfd: twl6030-irq: Remove unused twl6030_mmc_card_detect*
+         cf5d2f2deaee5dbfcac2db8758c3e6e0864a0c86 mfd: stm32-timers: Fix build warnings about export.h
+         0cfe69476ebf3a27b074848f2a147ae22c2d84fc mfd: Use dev_fwnode() instead of of_fwnode_handle()
+         3d77b3cc7cc8115d89fa14eaf601e56372953484 mfd: twl4030-irq: Remove redundant 'node' variable
          
-
---===============5791612816401384951==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750347255 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1750347218-db25e6c1f1b6838797d3507c6069ef69ea393d82
-
-e04c78d86a9699d136910cfc0bdcf01087e3267e a55bc4ffc06d8c965a7d6f0a01ed0ed41380df28 refs/heads/staging-linus
------BEGIN PGP SIGNATURE-----
-
-iQJOBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhULfcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZrAP9jE4CgPfCxkOta/F8Caq
-7IQsx8AVi9iVE1xrZobdM1e6x1EJiBgrx+hJRU+68ihdDxKOd2XbeHnezb4RxtfD
-CtomJyQKxaY/YFeDa2DZPJoh7KaxsP8HnWZDXCWpr1iDxLc/2+4CVK/e1yREaZwG
-5DoogfiwG0BJsWegX+Hx3r8gpNxuEAi4iHL7XMrIS9QMpN8hfQr0zKAysoLEfgMy
-rzayOnNoqGNWzDmrUabCk8V2+Q+HicX2ncybULtpoN4FK+lnu0npX2R4+CoAEv7Q
-QDjD2Txv932JJbO48ICfSzil2ljiZPxCdqOe65AgE4e7yzmZiHWzoFgJIBG2l58W
-oXrbCd+jmhbTvlkfNvvsoP+q6JypuYJhOPpF5hFlgNm1kE/3+hcMpE0ZyDCttjt7
-6cDeo4O3aTPXaeCHLoimviqm+XylGLBAVg+fPdX5+oNxsYB2ZhIlnEx3a5kXuWdL
-Mu8zfR6aZhtET/z2DBcVsDfkjqReK7Yy9TURWnPaHcskYMbNvMvwIppvdZqR8bvz
-jkfXxiRnHLLx82KpxWt5INCFC/p6Kj/d9dYUNWNAiW3uVoGhp0jdFDjJuqdN/1mI
-l1ytNL973EwSOmcOxiS3UvmFluC4i+vuVMKCl53dP+X9ZV//IN4KN9OcywhiJgRl
-KSBvKxkmRBoEov17mrHAZlw=
-=+eck
------END PGP SIGNATURE-----
-
---===============5791612816401384951==--
