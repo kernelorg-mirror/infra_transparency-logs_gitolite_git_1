@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 19 Jun 2025 06:25:54 -0000
-Message-Id: <175031435423.1588713.14667211712876956817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 19 Jun 2025 07:06:12 -0000
+Message-Id: <175031677279.1620478.13643569498411195453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 3349a581d33bd1cb401a5621b09e406366d6b64f
-    new: 15df68c8d5a3ec627bb81a44a9391cd592af01ee
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 897c0958808ac6b11a9715adef38682d7fa66229
+    new: 43ab245a9ec3837a0ca75c3ed9ba887d8e8b022e
     log: |
-         6fc3cd7abc207e2af70fd18885ca3d5a4ba32add cpu/temporal: Avoid tight-loop accesses to possibly shared cachelines
-         15df68c8d5a3ec627bb81a44a9391cd592af01ee cpu/temporal: Report actual winning CPU for coe runs
+         43ab245a9ec3837a0ca75c3ed9ba887d8e8b022e cpufreq: brcmstb-avs: Fully open-code compatible for grepping
          
