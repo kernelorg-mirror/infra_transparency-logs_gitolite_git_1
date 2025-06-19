@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3560875320790626317=="
+Content-Type: multipart/mixed; boundary="===============0445905446637681647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 19 Jun 2025 10:36:37 -0000
-Message-Id: <175032939787.1794456.6491120129785216397@gitolite.kernel.org>
+Date: Thu, 19 Jun 2025 10:41:21 -0000
+Message-Id: <175032968157.1798584.5513659676353942655@gitolite.kernel.org>
 
---===============3560875320790626317==
+--===============0445905446637681647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: e04c78d86a9699d136910cfc0bdcf01087e3267e
-    new: 31a6afbe86e8e9deba9ab53876ec49eafc7fd901
+    old: 31a6afbe86e8e9deba9ab53876ec49eafc7fd901
+    new: 7aed15379db9c6ec67999cdaf5c443b7be06ea73
     log: |
-         7e2c421ef88e9da9c39e01496b7f5b0b354b42bc usb: cdnsp: do not disable slot for disabled slot
-         630a1dec3b0eba2a695b9063f1c205d585cbfec9 usb: dwc3: Abort suspend on soft disconnect failure
-         cee4392a57e14a799fbdee193bc4c0de65b29521 Logitech C-270 even more broken
-         8f5b7e2bec1c36578fdaa74a6951833541103e27 usb: hub: fix detection of high tier USB3 devices behind suspended hubs
-         3b18405763c1ebb1efc15feef5563c9cdb2cc3a7 usb: acpi: fix device link removal
-         31a6afbe86e8e9deba9ab53876ec49eafc7fd901 usb: chipidea: udc: disconnect/reconnect from host when do suspend/resume
+         f6c7bc4a6823a0a959f40866a1efe99bd03c2c5b Revert "usb: gadget: u_serial: Add null pointer check in gs_start_io"
+         c529c3730bd09115684644e26bf01ecbd7e2c2c9 usb: gadget: u_serial: Fix race condition in TTY wakeup
+         3eff494f6e17abf932699483f133a708ac0355dc usb: xhci: Skip xhci_reset in xhci_resume if xhci is being removed
+         7aed15379db9c6ec67999cdaf5c443b7be06ea73 Revert "usb: xhci: Implement xhci_handshake_check_state() helper"
          
 
---===============3560875320790626317==
+--===============0445905446637681647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750329431 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750329715 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1750329393-dd3d0eaca1bdfa547368fa773623c1de905a2fb1
+nonce 1750329678-b3024621d421be3ffa83cea050ab3eadcc471ace
 
-e04c78d86a9699d136910cfc0bdcf01087e3267e 31a6afbe86e8e9deba9ab53876ec49eafc7fd901 refs/heads/usb-linus
+31a6afbe86e8e9deba9ab53876ec49eafc7fd901 7aed15379db9c6ec67999cdaf5c443b7be06ea73 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhT6FcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JbUQANWPV1PBJFgXuwsGxPj4
-u2Qtlo/FSdss4tNfCOd2IJ46MSn9DxTuETNhJVsFfUTj2DWNrkrK62uORsZLK28w
-XOrrh6SLW5uniQ0QiVmTQ52WAltgL1nJWrS6Wlr6yQpPFS+UmHCwTs+nFmRbVVIS
-SNa/NXwwfpYj1orR3J61qUratvL4qM2Sj3+SXUdU8GInfj7w98G0uZAdibE5mfMU
-LzLLT7so7J89dUDSJ6WuNGYdv82158JxvbcJUebn+gKpzsz4GIbtSzx4SXj3VoBh
-hU3nv9EHbD3Cr9weWdIXHKXZH+E08wU4BkZZM4xCDV7J7M4ZAz9rFqrepCmxMwgS
-/V1B4hRdI4C/ueqmwXbpjqcyiqfFdrgLO4TM8jO0ac4nrCK5IJB7rmEujWaRpBrk
-OLjjBubIUGxncNOs0/ViMv3PWjq0E89gopnK24dub3hqUPJp8pFXiuqKk0HmSWmU
-axZ1m6p2T1mdRCeHpvGhaQ9gKmUmegXBga4D8SzwGlRH/D75+pexwLLAd84LtPZi
-O+iYqd/DBo6Xkam3jYdGQI4lgu2jPXKZ+gtP2ATnlzp/m0TRxvAr6p4ek4KCKMtM
-DjQQDVNb/lnJjqwVaaxuTn7xg4OMsiYuIstBNQ5CIv526/jzVhInO/8i0SKD4ZUW
-WANZtEgOdLgxRoPaMe9F661H
-=/dJw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhT6XMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aEEP/R4YAZTR4xNtRs3g//Ut
+V+NkDxn5tPYxjGyT0bywDam6ntbPS62zCd57ukiC6OQdaCUcnSrOD86dVWZtAgFJ
+LW7BQHQLRaI3tToaVoFnwGsRWy1kEJHebMy7uRxUb7G5tbFjU0Tgpj+oFzYiRr4K
+5QyKpvxNxzA+ZJ9si9KeOXuJCB6MGvNMdDk4/bDF9dUsU37/c4nttsK3D5c8P51G
+NRu069jaYXWXI+fadF1DCFfWjeTJVrgYIAYSK4JsbbbpqmQUTvjfD18Apa3lgnx/
+RhIqTzhAeX8hffW3C201WtywSAi8VpLSojZb5edtoso45du05YeQ85hZ+9xr0CAv
+7o1M1ynk0MP9R6BDgIM7ATrkCA8kNVPGXecpdJ3U+CqtpeTQj9K59NteuiEnmPoW
+yFL8H5/MDPV4zRduaF3x6/F5c7k/WsrSiSNCLHx7PsH8hofaZJZho3ROq3crfBw1
+vyArEgSR1kdzZPiHMJ6FlXci/aeDR1nrfnHO/1pI36gEn4PsnKCBhga+hpU5XXmA
+SK5mPv3OsLs02WBgs1EIF7KgpXp+TVEgm+pDDrU1GiDgCS5ib6Pa1DCUJXIreffx
+2Jc7eHbd5bNJV+GtXSg9nbi6f88OU12NIUMzrpu85mixp78rBmMfxyz4lH4SlQSY
+aURvSiJ976FSWKqLbihZ7NFj
+=2pUn
 -----END PGP SIGNATURE-----
 
---===============3560875320790626317==--
+--===============0445905446637681647==--
