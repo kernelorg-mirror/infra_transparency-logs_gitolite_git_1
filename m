@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7105454874181903108=="
+Content-Type: multipart/mixed; boundary="===============7718724169800168469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Jun 2025 13:24:07 -0000
-Message-Id: <175033944738.1998743.2192888707560520157@gitolite.kernel.org>
+Date: Thu, 19 Jun 2025 13:24:29 -0000
+Message-Id: <175033946988.1999700.15239065890812366855@gitolite.kernel.org>
 
---===============7105454874181903108==
+--===============7718724169800168469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e462fd42ad34b6b0c787d30e97e9dfa25ef0719e
-    new: ff341e35bfbfeaa22e5390f7f4d1f79a2385ebf7
-    log: revlist-e462fd42ad34-ff341e35bfbf.txt
+    old: ff341e35bfbfeaa22e5390f7f4d1f79a2385ebf7
+    new: 8f1f52443e86bc4f4e15a9dd418f810864d4316c
+    log: revlist-ff341e35bfbf-8f1f52443e86.txt
+  - ref: refs/heads/tip/urgent
+    old: 27d791a5b453b8c56096d9c3cabf9ef97385b1a1
+    new: f6faa5ebcd412cda3456a4656642d910e039f97e
+    log: revlist-27d791a5b453-f6faa5ebcd41.txt
 
---===============7105454874181903108==
+--===============7718724169800168469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e462fd42ad34-ff341e35bfbf.txt
+Content-Disposition: attachment; filename=revlist-ff341e35bfbf-8f1f52443e86.txt
+
+c78c16b6d875dcfd0f7df6e895e548e786527387 Merge branch into tip/master: 'irq/urgent'
+0f59bb5130f3cc5efd43d2d110ede2087b67cb1b Merge branch into tip/master: 'locking/urgent'
+3484a1c1351cf9621f93cb670bdc4a6f211b3c8c Merge branch into tip/master: 'perf/urgent'
+f6faa5ebcd412cda3456a4656642d910e039f97e Merge branch into tip/master: 'x86/urgent'
+292e507899dce3916554f8488d695fd24e355cb5 Merge branch into tip/master: 'core/bugs'
+ab4372f848a26b5a6a0cbb93b0cd695141f21c7e Merge branch into tip/master: 'core/entry'
+a2fbde22d5004fe594c2d8bf959729ac4b123446 Merge branch into tip/master: 'irq/core'
+3244b2cc7a142e17f62dbf44cadb619a04a464e2 Merge branch into tip/master: 'irq/drivers'
+87a8b11da0f1c5cd010c838737dbb291e4b8f5ad Merge branch into tip/master: 'irq/msi'
+b5eb152eed957a6093989b20a8dca8c21d87af36 Merge branch into tip/master: 'sched/core'
+71f9f43b82511a37719af0c64831a6de2fdfa28d Merge branch into tip/master: 'smp/core'
+6ff8ae2b70be521ea8ae34ff934001001ffa1b1c Merge branch into tip/master: 'timers/core'
+3ec9788fac2b1446aef1695fcabfa5d9e5b32094 Merge branch into tip/master: 'x86/kconfig'
+8f1f52443e86bc4f4e15a9dd418f810864d4316c Merge branch into tip/master: 'x86/sev'
+
+--===============7718724169800168469==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-27d791a5b453-f6faa5ebcd41.txt
 
 d29fc02caad7f94b62d56ee1b01c954f9c961ba7 ata: pata_via: Force PIO for ATAPI devices on VT6415/VT6330
 33877220b8641b4cde474a4229ea92c0e3637883 ata: libata-acpi: Do not assume 40 wire cable if no devices are enabled
@@ -55,21 +80,16 @@ eab9dcb76b9fca47402c9e93afca243e745a0f02 Documentation: embargoed-hardware-issue
 5a3b583f2050870e0403ffed650f06c94d7968a4 Merge tag 'ata-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 5da3ff1fd0fdce7b5d9508c62403c04a8c96a1e5 Merge tag 'ftrace-v6.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5adb635077d1b4bd65b183022775a59a378a9c00 Merge tag 'selinux-pr-20250618' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-4a089c0b3f55b400689a5c35f7dfa0a74c363dae PCI/MSI: Remove duplicated to_pci_dev() conversion
 37fb58a7273726e59f9429c89ade5116083a213d cgroup,freezer: fix incomplete freezing when attaching tasks
-3f83ab6f9f1db9e8f0141c0c6b974f40b4aa0dcf virt: sev-guest: Contain snp_guest_request_ioctl in sev-guest
-d100016eac21636c8c0507a83bc32d9eb8cd56ab x86/sev: Allocate request in TSC_INFO_REQ on stack
-7ffeb2fc26707f613685ce7711c26a9de5890ab1 x86/sev: Document requirement for linear mapping of guest request buffers
-040ed574ee823a2ce5da36a8d385d3133787c9c5 x86/sev: Drop unnecessary parameter in snp_issue_guest_request()
 61f4769affffc398499250ccacf0b86d5b654399 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 4f24bfcc398eb77aa41fe1bb1621d8c2cca5368d Merge tag 'sched_ext-for-6.16-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 0564e6a8c2c3152783906534d5767cabe1b05930 Merge tag 'wq-for-6.16-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 74b4cc9b8780bfe8a3992c9ac0033bf22ac01f19 Merge tag 'cgroup-for-6.16-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 229f135e0680da3dd0bcce515c07be87858f1d12 Merge tag 'driver-core-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 fb4d33ab452ea254e2c319bac5703d1b56d895bf Merge tag '6.16-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-3a2fb33c8ae8890a5a2f68e2eefc0f0f77064bca Merge branch into tip/master: 'x86/urgent'
-555a9f8e853148d0d93a8de9f223d2be753df0cf Merge branch into tip/master: 'irq/msi'
-7a8a1a18d802a0290eb4de67a54552b02b15a5a3 Merge branch into tip/master: 'x86/sev'
-ff341e35bfbfeaa22e5390f7f4d1f79a2385ebf7 Merge branch 'linus'
+c78c16b6d875dcfd0f7df6e895e548e786527387 Merge branch into tip/master: 'irq/urgent'
+0f59bb5130f3cc5efd43d2d110ede2087b67cb1b Merge branch into tip/master: 'locking/urgent'
+3484a1c1351cf9621f93cb670bdc4a6f211b3c8c Merge branch into tip/master: 'perf/urgent'
+f6faa5ebcd412cda3456a4656642d910e039f97e Merge branch into tip/master: 'x86/urgent'
 
---===============7105454874181903108==--
+--===============7718724169800168469==--
