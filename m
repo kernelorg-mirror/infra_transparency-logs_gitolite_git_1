@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 19 Jun 2025 15:50:45 -0000
-Message-Id: <175034824545.2284975.6913584172905915567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 19 Jun 2025 16:23:30 -0000
+Message-Id: <175035021019.2310520.6082478463742354491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 15df68c8d5a3ec627bb81a44a9391cd592af01ee
-    new: d9d7395c600e3a08a621a5504936baad449711db
+    old: fb4d33ab452ea254e2c319bac5703d1b56d895bf
+    new: 24770983ccfec854d89da9d87ca5f2c9efc695fc
     log: |
-         c9b21a0c587b64dd038a17699537571f2db916a3 cpu/temporal: Report actual winning CPU for coe runs
-         a12af31359ed43d29b964e97f43b3fa067f187d9 cpu/coe: Add sample output to header comment
-         d8e9c68e660961ec20a3979f3f7c2b828f598ca4 cpu/temporal: Update output format in header comment
-         d3e274c21c8df60fc328b9aa97d0899105fe2bd3 cpu/fre: Add description of output format the the header comment.
-         99e30198cc664a88c0aa95d0b19558f1455c1dd3 cpu/temporal: Avoid tight-loop accesses to possibly shared cachelines
-         e2eb5f1f8c683aa40155c0693ac39b20fbf321b1 cpu/coe2first: Fix header comment to specify correct script
-         6a392dfea08fb4b57a45811eda547f6260d2654c cpu/tscalibrate: Add sample output to header comment
-         d9d7395c600e3a08a621a5504936baad449711db cpu/README: Add a README file describing all the other files
+         14c9ede9ca4cd078ad76a6ab9617b81074eb58bf hwmon: (ftsteutates) Fix TOCTOU race in fts_read()
+         744c2fe950e936c4d62430de899d6253424200ed hwmon: (occ) Rework attribute registration for stack usage
+         2c021b45c154958566aad0cae9f74ab26a2d5732 hwmon: (occ) fix unaligned accesses
+         c25892b7a1744355e16281cd24a9b59ec15ec974 hwmon: (ltc4282) avoid repeated register write
+         24770983ccfec854d89da9d87ca5f2c9efc695fc Merge tag 'hwmon-for-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
          
