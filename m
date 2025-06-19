@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Jun 2025 10:26:59 -0000
-Message-Id: <175032881915.1785108.16197149120195912559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 19 Jun 2025 10:29:07 -0000
+Message-Id: <175032894752.1786147.18068645190781346114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 9b70c362a9d4ab93e0b582dad73acb2a953ef797
-    new: 5bd1bafd4474ee26f504b41aba11f3e2a1175b88
+  - ref: refs/heads/master
+    old: 023c5f499e2c9bbe126a6017ac7797b7579b3398
+    new: c8e5b8a818323af30ec656f079c7feadaeeb13c3
     log: |
-         5bd1bafd4474ee26f504b41aba11f3e2a1175b88 eth: fbnic: avoid double free when failing to DMA-map FW msg
+         10f0de325d016d7f0fcdbb07372292bd406fdb96 include/strutils: Add startswithpath()
+         c8e5b8a818323af30ec656f079c7feadaeeb13c3 libmount: don't update utab when moving /run
          
