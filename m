@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfs-linux
-Date: Thu, 19 Jun 2025 14:48:11 -0000
-Message-Id: <175034449140.2226114.12689115095179138436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 19 Jun 2025 14:49:26 -0000
+Message-Id: <175034456612.2226933.6130063724883248708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/xfs_iclog_list
-    old: afda326719e3cf177d555ca6d4dbf45890bc2962
-    new: 3e5ebe4a35f360483f658d8fe9397b7e9699f030
+  - ref: refs/heads/block-6.16
+    old: cffc873d68ab09a0432b8212008c5613f8a70a2c
+    new: 8c8472855884355caf3d8e0c50adf825f83454b2
     log: |
-         3e5ebe4a35f360483f658d8fe9397b7e9699f030 xfs: kill xlog_in_core_2_t typedef
+         8c8472855884355caf3d8e0c50adf825f83454b2 ublk: santizize the arguments from userspace when adding a device
          
