@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Thu, 19 Jun 2025 03:49:54 -0000
-Message-Id: <175030499489.1458219.7216608180581873770@gitolite.kernel.org>
+Date: Thu, 19 Jun 2025 04:04:44 -0000
+Message-Id: <175030588401.1470135.16651321649453768611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,25 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/defconfig
+  - ref: refs/heads/imx/bindings
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: fcd657cc7492ba7a580d2201be0c88c3e2b53449
+    new: 24e67d28ef9590ea00a258e29a5107b11ce905a8
     log: |
-         fcd657cc7492ba7a580d2201be0c88c3e2b53449 ARM: imx_v6_v7_defconfig: Select BT_HCIUART_BCM
-         
-  - ref: refs/heads/imx/dt
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 276c1170eb2c0fc3f7cdd2305a96ade97889646c
-    log: |
-         32eaa78aeb1e187cf0c8e9f760405ce4068f1e8c ARM: dts: imx7s-warp: Improve the Bluetooth description
-         55b8480a5e0a82351862981ea3b7f296cff4ec04 ARM: dts: imx7s-warp: Improve the Wifi description
-         276c1170eb2c0fc3f7cdd2305a96ade97889646c ARM: dts: add ngpios for vf610 compatible gpio controllers
+         24e67d28ef9590ea00a258e29a5107b11ce905a8 dt-bindings: arm: fsl: Add GOcontroll Moduline Display
          
   - ref: refs/heads/imx/dt64
-    old: 1a2ad59da68dd294f994efbf68c5d671f6b42fad
-    new: 40567fa4ef149838378497bbcc30cb2a83776460
+    old: 40567fa4ef149838378497bbcc30cb2a83776460
+    new: bfb861766f3f0f13a818ccbd80828e201e3c6924
     log: |
-         696a4c325fad8af95da6a9d797766d1613831622 arm64: dts: freescale: imx93-tqma9352: Limit BUCK2 to 600mV
-         dea4914e48aef3c2a25d24d77009427b876c7a63 arm64: dts: freescale: imx93-tqma9352: Remove unneeded GPIO hog
-         40567fa4ef149838378497bbcc30cb2a83776460 arm64: dts: add ngpios for vf610 compatible gpio controllers
+         5f465a764523c048f4ca4f304c6f46e94a072630 arm64: dts: imx8mp: Add pinctrl config definitions
+         67fbe9fc5d5b21096aa038a1be3ce2227aa9bc0f arm64: dts: freescale: add Ka-Ro Electronics tx8p-ml81 COM
+         844cddc2ded0546460bcb5fb9d4c5078d98cf648 arm64: dts: freescale: Add the GOcontroll Moduline Display baseboard
+         8c6d53ee0a1956bc0cf5ddc73df3a8b8f8de1911 arm64: dts: freescale: Add the BOE av101hdt-a10 variant of the Moduline Display
+         bfb861766f3f0f13a818ccbd80828e201e3c6924 arm64: dts: freescale: Add the BOE av123z7m-n17 variant of the Moduline Display
          
