@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6408562109919571193=="
+Content-Type: multipart/mixed; boundary="===============6481193641487869944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 19 Jun 2025 20:03:38 -0000
-Message-Id: <175036341828.2498564.1606374796131516286@gitolite.kernel.org>
+Date: Thu, 19 Jun 2025 20:03:43 -0000
+Message-Id: <175036342378.2498774.12554552559623901154@gitolite.kernel.org>
 
---===============6408562109919571193==
+--===============6481193641487869944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: 09f0961d37e27073fcbf7af7e00b0a5afdcfd965
-    new: 31db2949add2467f78fc946298d02f6c6bc4d81e
-    log: revlist-09f0961d37e2-31db2949add2.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
+    old: ff1c8ae0bddd0100ff450b52c7c12b456e59ab6a
+    new: a9980dd6bf6a81da85f748bfccb575e4fa700e71
+    log: revlist-ff1c8ae0bddd-a9980dd6bf6a.txt
 
---===============6408562109919571193==
+--===============6481193641487869944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09f0961d37e2-31db2949add2.txt
+Content-Disposition: attachment; filename=revlist-ff1c8ae0bddd-a9980dd6bf6a.txt
 
 dd1e56ec422eed212177758bdfb75a3397b13991 NFSD: Avoid corruption of a referring call list
 eba81920c571a79e738921ed31898561e48d94e3 SUNRPC: Cleanup/fix initial rq_pages allocation
@@ -55,31 +55,12 @@ d764cb7e395516d698e0808128c3af77d9c4bf22 fs: reformat the statx definition
 b054c69ed30c5af7093b4f1844f3db71020c0bbf xfs: cleanup xfs_vn_getattr
 c14f907f049a39454283cda5d8ae043ce42dc13a xfs: report the correct read/write dio alignment for reflinked inodes
 02a4d79580096ad6f547f331c243ca1f94eb3525 xfs: report larger dio alignment for COW inodes
-1e852851f29d28c131a152907e232185bb43101b NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
-43c9ff751d525c232ab41f79d001b72396016661 NFSD: release read access of nfs4_file when a write delegation is returned
-13487e997aedf2ba9b22d2c97bdaf6055ae488d7 sunrpc: simplify xdr_init_encode_pages
-27c547dd7c2ce56a845640c1bf04a3f8a5bc1da3 sunrpc: simplify xdr_partial_copy_from_skb
-62c2d80177c25c38f58eadd5bad5524265d88e87 sunrpc: unexport csum_partial_copy_to_xdr
-c088219a6dfb29fd9602da91c695383aee6d08a9 sunrpc: new tracepoints around svc thread wakeups
-bfda69e6e1033da00ab1e15e79ff66ae7988b6e4 nfsd: Change the type of ek_fsidtype from int to u8 and use kstrtou8
-3923a26acf74448c523873cc12fd8737b24e0498 nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm()
-b6ca646cb95f652e518c505f0e2cdc78f1210ed9 NFSD: detect mismatch of file handle and delegation stateid in OPEN op
-8c8cb6acab526e03fa19090825ca0f6baa7c9bb9 NFSD: Rename a function parameter
-65f7454b26bccba399f7463b37d46330e80303bf NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort
-a6b46b4cb84030a3456db17c658159c2bfbd6416 NFSD: Remove the cap on number of operations per NFSv4 COMPOUND
-9c0f99a818798bff0633a0eed5d3836d2506ef99 nfsd: Use correct error code when decoding extents
-eb58dc3aea413399fbe680d9746e9361a69e2c54 NFSD: Remove definition for trace_nfsd_file_unhash_and_queue
-5fb44684929edef2b192fb653e79d2ebff3d0014 NFSD: Remove definitions for unused trace_nfsd_file_lru trace points
-59443b1d7d6202e5047361d2912a99401b18a558 NFSD: Remove definition for trace_nfsd_file_gc_recent
-258f53f89471be844fdde0dea0304d420e7f1f52 NFSD: Remove definition for trace_nfsd_ctl_maxconn
-a5d58f2ad261fc79ce72c842d24076fd20dcd924 NFSD: Clean up kdoc for nfsd_file_put_local()
-ca90971cb7d1b711122cfb9cb854ada80eb60263 NFSD: Use vfs_iocb_iter_read()
-055fc5764d8b8eacfedd8a119488843480f17d3f NFSD: Use vfs_iocb_iter_write()
-5616f789215972999669701b5efe8e35898d7e36 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
-2f7d758cc6becef55672df4f7e10ba027f24bf6c NFSD: pass nfsd_file to nfsd_iter_read()
-199a4f9cfefcb353955f9768b9160da56ff8a94e NFSD: add io_cache_read controls to debugfs interface
-dbe2bb1bc02aa7988ebe707a5449fe18c738a4b0 NFSD: add io_cache_write controls to debugfs interface
-583cd91887ed5761e1be3acde4bbe55d2184723e lib/iov_iter: remove piecewise bvec length checking in iov_iter_aligned_bvec
-31db2949add2467f78fc946298d02f6c6bc4d81e NFSD: issue READs using O_DIRECT even if IO is misaligned
+e38447dde11232bf52059dfbb7c537c1a93949a9 sunrpc: fix loop in gss seqno cache
+ce2674c61035a85ba624c07ea656ff1099484dc2 filemap: Add a helper for filesystems implementing dropbehind
+aeebd40d2e31b693ce5c07c81a578eb84915be27 filemap: Mark folios as dropbehind in generic_perform_write()
+37ced0bd1dd7dd8e91dd845f6548ee0ac6ee5423 NFS: Enable the RWF_DONTCACHE flag for the NFS client
+ec780ddcc2c1983b91996a99bd6fbafdbe785c85 Expand the type of nfs_fattr->valid
+8c3f0aa8bac802010a24a58828015ac430909019 nfs: Add timecreate to nfs inode
+a9980dd6bf6a81da85f748bfccb575e4fa700e71 NFS: Return the file btime in the statx results when appropriate
 
---===============6408562109919571193==--
+--===============6481193641487869944==--
