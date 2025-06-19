@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2324084407604609796=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 19 Jun 2025 13:30:27 -0000
-Message-Id: <175033982792.2033851.2641091443877886588@gitolite.kernel.org>
-
---===============2324084407604609796==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Thu, 19 Jun 2025 13:31:08 -0000
+Message-Id: <175033986834.2059888.2201034248019222590@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/notes/signatures/tar
-    old: ceee038074cb4e71c1731d752b807865fb8f9817
-    new: 253956142230eafacdd9f055715740d8cfb04c89
+  - ref: refs/heads/rust-atomic-v6
+    old: 561bc5564c0f1b731e297c743c36d2723cfd2708
+    new: 87ef7fb17067901db7a4815bc94fb7f65e43ebb9
     log: |
-         253956142230eafacdd9f055715740d8cfb04c89 Notes added by 'git notes add'
+         37b2858fcc3e86a285e106d2abd6359aeb8c1bfd rust: sync: atomic: Add ordering annotation types
+         1943f7f2e585bcfc048af3712b1215dc336dfe33 rust: sync: atomic: Add generic atomics
+         dde5922600e0eb138859f17b7338202a0452dd69 rust: sync: atomic: Add atomic {cmp,}xchg operations
+         ba433abccd3c61ba950079da7c9888f9572e499c rust: sync: atomic: Add the framework of arithmetic operations
+         0fdeabb9a822fa5670585f65af7b033d897175db rust: sync: atomic: Add Atomic<u{32,64}>
+         ba5d9a35ae1569e66b65714622d93bc16c343d8a rust: sync: atomic: Add Atomic<{usize,isize}>
+         324ae69e2782e614d948c44ab0d46e104c452d6a rust: sync: atomic: Add Atomic<*mut T>
+         87ef7fb17067901db7a4815bc94fb7f65e43ebb9 rust: sync: Add memory barriers
          
-
---===============2324084407604609796==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750339863 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1750339825-ba3d6d048bca59ad5dac8a252ce6ebc09eda8fe6
-
-ceee038074cb4e71c1731d752b807865fb8f9817 253956142230eafacdd9f055715740d8cfb04c89 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhUERgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xc4QALh5bCzyKd7Q4ib6X+XY
-t+4djgQybk1M1jwOJaHFJp2O7A1ogQ6/qLTsMtO4oJsIEC3pZHKV/B9NyJZp6uMZ
-XKgoc0GUJPCdGYmsHbedLTyECTPk9csE1akSGlg+XpIgH8//A/0UqosIvtuF7gHL
-i4dL7FazpST6IdbhXmrCm/aWbGQxc7idfSams2fR3WoadRcLimM9/PQNkhHxQPoV
-7DGfH+ziBARyqKSREgLM1Y34BmP3yR1tBxMvmUbNF+BXJ2SS/Tgl2tyJDefGlWyU
-JdyqzCB/ow8EvIPUcyE7GLYP8mVAt7ivKlgtMf6blirw3I6olQICj9xt5aMRAanJ
-M+/iIda0k+qsp2seVweh6MXzPok14RA+UWK+KIuYxHntT0dkVLk5k5VloYeBdOzk
-v7YlAk8Y1TWZ8GfwKZFmFJ69Jh+tiBJC0WB5k2tBOR4JjVYt+SETctw6Z7y/M0QX
-gbkJfrCUy8n6vaBPFhWKCbNjA45jKJW4cvgo6gvGyH5rnYnbcOAK+PGKD6/4+B/M
-uO6VCqlqvvKOUM0vZQWWBd7fJSmdCyrhfR+6GdtMiKvud/QyK5fFdTizYmU3Dt+8
-zsNL12mDPqNsmXTIgZd7kMj45UA1mZ4124JmQH3LjoA8kwg3jevsm9rWahpW4Wfv
-9KKUOGtlATZ+ZQI8AoiVcwhT
-=6Jl3
------END PGP SIGNATURE-----
-
---===============2324084407604609796==--
