@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Thu, 19 Jun 2025 20:40:16 -0000
-Message-Id: <175036561615.2531945.2026929490520486938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Thu, 19 Jun 2025 20:48:44 -0000
+Message-Id: <175036612492.2537442.2176612916178723361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/for-next
-    old: 8c8e53b8b4bdf38b960b334d1bea6a1fe7877c2a
-    new: 652fbf527daf11ff6cdafb2cbeb838a6e035fefc
+  - ref: refs/heads/rust-sched-v2
+    old: db5af4f81c99e11a1e63dbfdfb31caefcc9b35de
+    new: 8ad9a502b1de1cef57e74c67e97c23c106adc01b
     log: |
-         86c8de10c8a77617b5b245af597e70fde426854d fscrypt: Explicitly include <linux/export.h>
-         88910024c1d000b9e5b71c93918e354c3b9961a3 fscrypt: Don't use problematic non-inline crypto accelerators
-         652fbf527daf11ff6cdafb2cbeb838a6e035fefc fscrypt: Drop obsolete recommendation to enable optimized SHA-512
+         1637ddae5aaea913c7ec6a7e3c9e753118c8da0f rust: Introduce file_from_location()
+         8ad9a502b1de1cef57e74c67e97c23c106adc01b rust: task: Add Rust version of might_sleep()
          
