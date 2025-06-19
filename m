@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 19 Jun 2025 21:49:11 -0000
-Message-Id: <175036975104.2589667.8907050777360232814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 19 Jun 2025 21:49:12 -0000
+Message-Id: <175036975285.2589751.6886424715036492521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 72b3c30b4cde292057dcef44c29b17d658b41682
-    new: 66285ec8cb53c2687f293f8d209ca39418f1592c
+  - ref: refs/heads/work.pidfs.fhandle
+    old: 954fd59d76e83dfd10efc9b103064b15075948f0
+    new: 863d934f933f6bdaf7ec2c8c29e4bf34598515f1
     log: |
-         64df8e2e207a2152201ef3515baacd8816c13282 arm64: dts: rockchip: enable USB on Sige5
-         36fdc231986671bb66a4a2274d9c32990e8ee7a7 Merge branch 'v6.16-armsoc/dtsfixes' into for-next
-         66285ec8cb53c2687f293f8d209ca39418f1592c Merge branch 'v6.17-armsoc/dts64' into for-next
+         2250bf875bdd5afb987fed81234e74839df71ee7 fhandle: hoist copy_from_user() above get_path_from_fd()
+         c414976fe1dafceb6dd29d8370a6acde2f6b1f2d fhandle: rename to get_path_anchor()
+         439cdbc87b0041773966ca76c601df546afbad28 pidfs: add pidfs_root_path() helper
+         b6aa1b40417f0285e0fdddb3bf372b81ebe083cd fhandle: reflow get_path_anchor()
+         47b9c91e7513a3e5e52f4c2b16edc22f214d4db7 pidfs: add FILEID_PIDFS
+         432a8e1e3283692be8ad3198ab68eaf89ad56ef1 fhandle, pidfs: support open_by_handle_at() purely based on file handle
+         863d934f933f6bdaf7ec2c8c29e4bf34598515f1 fhandle, pidfs: simplify opening file handles
          
