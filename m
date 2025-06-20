@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 20 Jun 2025 13:27:29 -0000
-Message-Id: <175042604967.3408134.6916830364303529012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 20 Jun 2025 13:34:10 -0000
+Message-Id: <175042645006.3413090.15943660969819868121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: ed7d0debcc2745040db244fce504e338dc12da4b
-    new: 4f8c9bee649ee383594c9dc9daf74c5e690f4de5
-    log: |
-         4f8c9bee649ee383594c9dc9daf74c5e690f4de5 sasha: review v6.15.3
-         
+  - ref: refs/heads/fixes
+    old: 9b71a94b0bc7f30d1c87c41b15df906f3f641649
+    new: 19ec970841ca3135e53268a6bb08a850880479bb
