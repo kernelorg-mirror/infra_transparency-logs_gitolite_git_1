@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 20 Jun 2025 07:02:41 -0000
-Message-Id: <175040296109.3062550.8160150620910479672@gitolite.kernel.org>
+Date: Fri, 20 Jun 2025 07:05:27 -0000
+Message-Id: <175040312754.3065971.6383417538716016614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-6.17/mcp2221
-    old: 0d6b550dce55f2bd47579a92ffc000cb0186e4c4
-    new: a5db1591d0829bda219d6967e5860764c648edbd
-    log: |
-         a5db1591d0829bda219d6967e5860764c648edbd HID: mcp-2221: Replace manual comparison with min() macro
-         
   - ref: refs/heads/for-next
-    old: 4fc2b63eddfb058852baa99dc3c6786c2c547b46
-    new: 89a5a2c4c10542fbdebe643e04118d40fe0191e5
+    old: 89a5a2c4c10542fbdebe643e04118d40fe0191e5
+    new: f4b34b59b33534ce7b20755b8a51802c38decc23
     log: |
-         a5db1591d0829bda219d6967e5860764c648edbd HID: mcp-2221: Replace manual comparison with min() macro
-         89a5a2c4c10542fbdebe643e04118d40fe0191e5 Merge branch 'for-6.17/mcp2221' into for-next
+         c8be000387e47624d14b328daca260f897756402 HID: uclogic: make read-only array reconnect_event static const
+         f4b34b59b33534ce7b20755b8a51802c38decc23 Merge branch 'for-6.17/uclogic' into for-next
          
+  - ref: refs/heads/for-6.17/uclogic
+    old: 0000000000000000000000000000000000000000
+    new: c8be000387e47624d14b328daca260f897756402
