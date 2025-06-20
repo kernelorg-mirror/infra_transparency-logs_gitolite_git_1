@@ -1,45 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3334508026637514083=="
+Content-Type: multipart/mixed; boundary="===============5911190462658011542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Fri, 20 Jun 2025 01:29:23 -0000
-Message-Id: <175038296308.2786954.18170943001296393989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Fri, 20 Jun 2025 03:13:46 -0000
+Message-Id: <175038922652.2868900.12831189404600254476@gitolite.kernel.org>
 
---===============3334508026637514083==
+--===============5911190462658011542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: b503c1069add46c93e4216d16fd825fcc33e38ab
-    new: d10fed8a5839523f406e03b8fe4255e848f3122f
-    log: revlist-b503c1069add-d10fed8a5839.txt
+  - ref: refs/heads/6.16/scsi-fixes
+    old: 9b71a94b0bc7f30d1c87c41b15df906f3f641649
+    new: 85d6fbc47c3087c5d048e6734926b0c36af34fe9
+    log: |
+         752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
+         2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
+         a35b29bdedb4d2ae3160d4d6684a6f1ecd9ca7c2 scsi: fnic: Fix crash in fnic_wq_cmpl_handler when FDMI times out
+         74f46a0524f8d2f01dc7ca95bb5fc463a8603e72 scsi: fnic: Turn off FDMI ACTIVE flags on link down
+         9b9b8594654a79e3d4166356fd86cd5397477b24 scsi: fnic: Add and improve logs in FDMI and FDMI ABTS paths
+         18b5cb6f1fdda4454f55a31f7c78d94da62be495 scsi: fnic: Set appropriate logging level for log message
+         85d6fbc47c3087c5d048e6734926b0c36af34fe9 scsi: fnic: Fix missing DMA mapping error in fnic_send_frame()
+         
 
---===============3334508026637514083==
+--===============5911190462658011542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b503c1069add-d10fed8a5839.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-31ff1060175c45844960e6006b28242cad0267cd arm64: dts: imx8mp: Add pinctrl config definitions
-bac63d7c5f461f0efc7af7072d686ea495880ddd arm64: dts: freescale: add Ka-Ro Electronics tx8p-ml81 COM
-03f07be54cdc5c3dd86bd538d3cc69a5639ff2b8 arm64: dts: freescale: Add the GOcontroll Moduline Display baseboard
-6121e3a4d24738d36e1fee897d5e47e0bce9cebf arm64: dts: freescale: Add the BOE av101hdt-a10 variant of the Moduline Display
-abe127c46704d3619ef8b1280b81965c8ddc0cca arm64: dts: freescale: Add the BOE av123z7m-n17 variant of the Moduline Display
-449d38f551f244bc58828a6fc25ae5f0b8ec1061 arm64: dts: tqma8mnql: Add EASRC support
-bbdf793028001e26c057e67ea4884404528c61f3 arm64: dts: tqma8mpql: Add EASRC support
-cd23badae54b90e56ca33bd954dbe68761a404a8 arm64: dts: freescale: imx93-phycore-som: Move ethernet0 alias to SoM
-05bb0921b473d599171207bbcb364ff37343bd1f arm64: dts: freescale: imx93-phyboard-segin: Set ethernet1 alias
-06ee2f0e2180328ce436c09f41132c46350aad16 arm64: dts: Add DSPI entries for S32G platforms
-d57d72fd0a52354729d6a6f7f3fd34cdf696908b arm64: dts: s32g: add RTC node
-42856ab028ae41f8d1ed1e5b7f5e6b1c9a5341b6 Merge branch 'imx/bindings' into for-next
-f1d9399ca841d2671e7aff81d066f886fb07b7ad Merge branch 'imx/dt' into for-next
-dd07acf306a8319f5ea4a737bc815fc4e60fbad2 Merge branch 'imx/dt64' into for-next
-d10fed8a5839523f406e03b8fe4255e848f3122f Merge branch 'imx/defconfig' into for-next
+certificate version 0.1
+pusher 75C5DE3D 1750389207 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1750389166-a27707e8e122330a5d7d7d5e6e00cce30315aaff
 
---===============3334508026637514083==--
+9b71a94b0bc7f30d1c87c41b15df906f3f641649 85d6fbc47c3087c5d048e6734926b0c36af34fe9 refs/heads/6.16/scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhU0dcACgkQ7ulgGnXF
+3j3kMQ/+MKZ4GYM+TFAxePrMSNmBAdP/7nPmYkjgUC59f+6RnRfcBorZXSACejrg
+/1cXflL58CFSG+UU0uUwzCmh+hdJ6uDpdJRAs276cMXkY2qZG17WcSmP0UkUi4W3
+sN8CtJCOTdG278ACafNLBfDCcGDBoDAOY/51y59GkQXZCl93kWQ3WZu+Ieo7VJId
+Rtp2H09dbo6uxIGhk88BJzIDFzJMJlZtY2WKKX6hEBzlBJmEpyYk/hGL+vZjEE67
+J6hVyI33XrocEfs2eAzTRMMiZHSkMw1BDS9sy2AoWWVHMzCbiVHa+Dafw+ozD+7S
+oRP5/1rQJk+pDVaKKoXiiNizRw3foPpl4pvK/F6uKVBa2F117u4v+NTtqtC4pVMD
+W6/r3QHcfZGFfl5I9SKaB3W3Y+cHZJ3uiNO/OU+6qV2lgvmbm8+x9zgJ+UZvnaZ3
+uScvXJTmnhXpchJpXM4jUPqASkFzg6mgzBG0/ycRzWTscJe99fERUOuKpKTX/ctG
+6KJ5rKMhMEugsG39dUztmRmmE8y1vjGuPfwxHqvSYLEYoYyyr4bf7vM5Ok2K1qZP
+ppxvPvPKJTnJQMCnlFH+THxcp/AzVZ/l22b91gowdtKBVf1QCopd6dPw61kdIPm4
+2eOuIks1LNXkfjnPvB9LQ48q6eZCMuOPs2UE1w6QAcIVllfwlTY=
+=4UTs
+-----END PGP SIGNATURE-----
+
+--===============5911190462658011542==--
