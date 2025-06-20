@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 20 Jun 2025 20:49:41 -0000
-Message-Id: <175045258178.3811194.14241640200281982271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 20 Jun 2025 20:57:10 -0000
+Message-Id: <175045303098.3817919.11314722805799187581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ae0756933e879a703e1a5deb701d9ec88b032ba3
-    new: 13b38e6b8059de096ebddb5d770c2419943949b7
+  - ref: refs/heads/for-next
+    old: ec04ea9f7b6141a612a5d19d60d5d0a978b4030a
+    new: 4dccf2c3da106505615f73eaad7c4c6621abf3e7
     log: |
-         ce3d5af2a92bd6cd775ce819f5e83857e8a277fb perf vendor events arm64: Update FUJITSU-MONAKA pmu event
-         588d22b40480bca9efdb6e24d253baaa5165884c perf test: Expand user space event reading (rdpmc) tests
-         dcbe6e51a0bb80a40f9a8c87750c291c2364573d perf parse-events: Set default GH modifier properly
-         2d584688643fac90428ab12513e05d6deff7c606 perf test: Add header shell test
-         13b38e6b8059de096ebddb5d770c2419943949b7 perf header: remove unecessary core id test
+         4734c93b5032a3a28ab2313fd9e2a792204de2fe dt-bindings: arm: rockchip: Add Firefly ROC-RK3588S-PC
+         471f0718c815767c2c7f6ce66880f1acb9515581 arm64: dts: rockchip: add DTs for Firefly ROC-RK3588S-PC
+         4dccf2c3da106505615f73eaad7c4c6621abf3e7 Merge branch 'v6.17-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.17-armsoc/dts64
+    old: 669080eb7f7c4720aa4e640a49f7490cd928cfcc
+    new: 471f0718c815767c2c7f6ce66880f1acb9515581
+    log: |
+         4734c93b5032a3a28ab2313fd9e2a792204de2fe dt-bindings: arm: rockchip: Add Firefly ROC-RK3588S-PC
+         471f0718c815767c2c7f6ce66880f1acb9515581 arm64: dts: rockchip: add DTs for Firefly ROC-RK3588S-PC
          
