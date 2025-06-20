@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 20 Jun 2025 14:22:19 -0000
-Message-Id: <175042933936.3459630.8572657754192684865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 20 Jun 2025 14:28:37 -0000
+Message-Id: <175042971740.3464306.9593090636268821291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/work.pidfs.fhandle
-    old: 66b8e21a6339de27330c28c60c22c75060eb2f16
-    new: 8acb6b4479425494a0745de2e5995f9e85b9928e
+  - ref: refs/heads/fixes
+    old: 30b58444807c93bffeaba7d776110f2a909d2f9a
+    new: 7869738b6908eec7755818aaf6f3aa068b2f0e1b
     log: |
-         3aa41f6b5830b3f9022dddda6fa714f8fcf8e52a tools: add exportfs.h header
-         6254d9158bc6c5333915d61b1b7bb6c991938018 selftests/pidfd: decode pidfd file handles withou having to specify an fd
-         8acb6b4479425494a0745de2e5995f9e85b9928e fhandle, pidfs: simplify opening file handles
+         7869738b6908eec7755818aaf6f3aa068b2f0e1b erofs: refuse crafted out-of-file-range encoded extents
          
