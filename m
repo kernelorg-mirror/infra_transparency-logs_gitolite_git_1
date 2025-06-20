@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 20 Jun 2025 07:08:22 -0000
-Message-Id: <175040330253.3067442.14631605415907767161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 20 Jun 2025 07:09:52 -0000
+Message-Id: <175040339270.3068796.15984827729410400290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/crc-next
-    old: acebc7b765a8df9750b18fb53c964ae098673f6b
-    new: bfb73427ea43f95a217c90c7f73509ac7cb42042
+  - ref: refs/heads/for-6.16/upstream-fixes
+    old: 4540e41e753a7d69ecd3f5bad51fe620205c3a18
+    new: a8905238c3bbe13db90065ed74682418f23830c3
+    log: |
+         a8905238c3bbe13db90065ed74682418f23830c3 HID: lenovo: Add support for ThinkPad X1 Tablet Thin Keyboard Gen2
+         
+  - ref: refs/heads/for-next
+    old: f4b34b59b33534ce7b20755b8a51802c38decc23
+    new: ddfaedfeb0227dfd83f0abdac125a6cb4b166666
+    log: |
+         a8905238c3bbe13db90065ed74682418f23830c3 HID: lenovo: Add support for ThinkPad X1 Tablet Thin Keyboard Gen2
+         ddfaedfeb0227dfd83f0abdac125a6cb4b166666 Merge branch 'for-6.16/upstream-fixes' into for-next
+         
