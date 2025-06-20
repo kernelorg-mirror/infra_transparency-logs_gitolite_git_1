@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4974338008730135028=="
+Content-Type: multipart/mixed; boundary="===============2804878223829726401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Fri, 20 Jun 2025 21:31:48 -0000
-Message-Id: <175045510889.3847900.14812024521695467743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Fri, 20 Jun 2025 21:33:41 -0000
+Message-Id: <175045522113.3848997.9233581814998192541@gitolite.kernel.org>
 
---===============4974338008730135028==
+--===============2804878223829726401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
   - ref: refs/heads/for-next
-    old: 652fbf527daf11ff6cdafb2cbeb838a6e035fefc
-    new: 01a0817f9ad958d346fbec73c186bd2e10966959
-    log: revlist-652fbf527daf-01a0817f9ad9.txt
+    old: b59e04b8a1a0d76adb8335f8b46f049fd9af17c2
+    new: 9f92eeef95f5ec513703cc63779d988fca8aca79
+    log: revlist-b59e04b8a1a0-9f92eeef95f5.txt
 
---===============4974338008730135028==
+--===============2804878223829726401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-652fbf527daf-01a0817f9ad9.txt
+Content-Disposition: attachment; filename=revlist-b59e04b8a1a0-9f92eeef95f5.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -266,8 +266,6 @@ a6a7946bd691940cfe7289ae6dfb1f077516df72 kbuild: move warnings about linux/expor
 2f6b47b295518c3ba16fabb1dddbe6a319899acb gendwarfksyms: Fix structure type overrides
 08215f5486ec4d7c39cf14987ffb133e1e1f6c10 Merge tag 'kbuild-fixes-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 e04c78d86a9699d136910cfc0bdcf01087e3267e Linux 6.16-rc2
-c6a14b32c9ba041fbe043aa30ebd5c6b467d6518 fscrypt: Explicitly include <linux/export.h>
-8f794934b37b9592d3ab41a77a85760bda477e82 fscrypt: Don't use problematic non-inline crypto accelerators
-01a0817f9ad958d346fbec73c186bd2e10966959 fscrypt: Drop obsolete recommendation to enable optimized SHA-512
+9f92eeef95f5ec513703cc63779d988fca8aca79 fsverity: Explicitly include <linux/export.h>
 
---===============4974338008730135028==--
+--===============2804878223829726401==--
