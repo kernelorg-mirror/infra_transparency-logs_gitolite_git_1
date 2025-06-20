@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7989437879364295978=="
+Content-Type: multipart/mixed; boundary="===============8586955964412791519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 20 Jun 2025 10:21:58 -0000
-Message-Id: <175041491880.3243993.13714136911210706240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 20 Jun 2025 10:22:02 -0000
+Message-Id: <175041492223.3244176.13919807144468226586@gitolite.kernel.org>
 
---===============7989437879364295978==
+--===============8586955964412791519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 7f8924e8785b68c998bc1906e049bf5595865e60
     new: a1d203d390e04798ccc1c3c06019cd4411885d6d
     log: |
@@ -29,28 +29,28 @@ changes:
          a1d203d390e04798ccc1c3c06019cd4411885d6d ASoC: SOF: ipc4-pcm: Enable delay reporting for ChainDMA streams
          
 
---===============7989437879364295978==
+--===============8586955964412791519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1750414954 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1750414916-7f92065a90ff527ac2caf8756afec985c4c2e271
+pusher C3F436CA30F5D8EB 1750414957 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1750414919-aefb92706b432c261411ec7793802d2dc622a055
 
-7f8924e8785b68c998bc1906e049bf5595865e60 a1d203d390e04798ccc1c3c06019cd4411885d6d refs/heads/for-6.17
+7f8924e8785b68c998bc1906e049bf5595865e60 a1d203d390e04798ccc1c3c06019cd4411885d6d refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhVNmoACgkQJNaLcl1U
-h9DOlAf+OHRsTco4z0EcVvXM9R2P6OXC5hSi3DaZIU2zhy9KpvF/nqyrNWxeLloX
-OkIigG5MkoESgpuLNCT27Yw6wEPqus7436KPzZ07Id+gGx/DO6Ajv7dsi+HPgMQ0
-avwpDmfwMutYGHnPwChe0f7MH8QtscblIEfjcWNhv04kL8ZEPSyIhUXvBDRRLv3k
-W8TqcvsEZrLYn9HWmFdHzLLgYxFu40amZbeD6TPyBQc83UZXeS3+ZzySgMXSnjMX
-VNHDD/0gSyFZ5SToUXZ5qxXa8fFsqtfX4QduXeS+UyzkT5Pyyrhmv23diAlti+ja
-zeTQYU4mLqU4xEKcfG54PAG/7vaf3A==
-=k1dE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhVNm0ACgkQJNaLcl1U
+h9Bhzgf/UPhK1tnhqYtxjnbHymwg/jgbgX/fRu2l9EL1qCPhDhMCLc1iOja9c3yv
+13SD7IwTwfo2t4X8ahffNRWJc6ZBt3j7XaVY0qr8tDVNz940C2J1PkkmxzKNMs8g
+emd9d58TEqt/JFh/0X2wW0FUYn0xRjEArz0Gj1Vy12zRj3R18PYTvGlV418jPa3v
+XseUaZSV0Q0P7vblkDC1P2YFbKK/EQLSpwHTmHvAuMkg2Quv3E0HTV6rp11Rubh0
+jmWUuumEa0GVGnl5OcAMBZr1iPRtZ5fy1LsMkMX2AgJP050qi+k73PoAvJJEU8kP
+9gxvBgpFsOuYg9r7rZGRlHojRE1h1w==
+=WLLQ
 -----END PGP SIGNATURE-----
 
---===============7989437879364295978==--
+--===============8586955964412791519==--
