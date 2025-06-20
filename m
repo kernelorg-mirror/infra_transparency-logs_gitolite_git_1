@@ -1,68 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6721362184462243042=="
+Content-Type: multipart/mixed; boundary="===============6226443937732719191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 20 Jun 2025 17:27:24 -0000
-Message-Id: <175044044485.3639201.5654686252933495033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 20 Jun 2025 17:28:30 -0000
+Message-Id: <175044051005.3639905.4485913529210084442@gitolite.kernel.org>
 
---===============6721362184462243042==
+--===============6226443937732719191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 75f5f23f8787c5e184fcb2fbcd02d8e9317dc5e7
-    new: 11313e2f78128c948e9b4eb58b3dacfc30964700
-    log: revlist-75f5f23f8787-11313e2f7812.txt
+  - ref: refs/heads/main-pending
+    old: 6a8b7b7155b4deb22e992adc7ffbb68450c53973
+    new: 53301e7326ddd402b338045a240c455f3f789017
+    log: revlist-6a8b7b7155b4-53301e7326dd.txt
+  - ref: refs/tags/ath-pending-202506201718
+    old: 0000000000000000000000000000000000000000
+    new: 53301e7326ddd402b338045a240c455f3f789017
 
---===============6721362184462243042==
+--===============6226443937732719191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75f5f23f8787-11313e2f7812.txt
+Content-Disposition: attachment; filename=revlist-6a8b7b7155b4-53301e7326dd.txt
 
-22188b9df60dde48eaba276da22062aaf8e12dfe ASoC: cs48l32: Fix a signedness bug in cs48l32_hw_params()
-b44b2694005b501b2eaeb56aa778f3ca22de4659 ASoC: codecs: ES8326: Modify initialization configuration
-a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2 ASoC: loongson: Fix build warnings about export.h
-c987a390f1b3b8bdac11031d7004e3410fe259bd ALSA: hda/intel: Add Thinkpad E15 to PM deny list
-f00de8e82cab24ef2e2cae0b297b4dc46c3e37ca ALSA: ctxfi: Replace deprecated strcpy() with strscpy()
-a0914bf56e26d2cf457690602883f9cd2ec2c646 ALSA: hda/realtek - Add mute LED support for HP Victus 16-s1xxx and HP Victus 15-fa1xxx
-c6451a7325874c119def1d4094f6815c0c8fdc23 ALSA: hda/realtek: Fix built-in mic on ASUS VivoBook X513EA
-7b23887a0c70d15459f02c51651a111e9e5cab86 ALSA: hda/realtek: Add quirk for Asus GU605C
-ed29e073ba93f2d52832804cabdd831d5d357d33 ALSA: sb: Don't allow changing the DMA mode during operations
-4c267ae2ef349639b4d9ebf00dd28586a82fdbe6 ALSA: sb: Force to disable DMAs once when DMA mode is changed
-e0d4a0f1d066f14522049e827107a577444d9183 MAINTAINERS: Update HiSilicon GPIO driver maintainer
-6325766d69900d1aa9733fc7572456fc4427b708 ASoC: sdw_utils: Fix potential NULL pointer deref in is_sdca_endpoint_present()
-72f37957007d25f4290e3ba40d40aaec1dd0b0cf gpio: loongson-64bit: Correct Loongson-7A2000 ACPI GPIO access mode
-d1fc7687959b0fbf335815a8d808e6076b969309 ASoC: cs35l56: Use SoundWire address as firmware name suffix for new silicon
-e5d5b3aebdc8acf9f52d1369a7744a2ab9ca591c ASoC: cs35l56: Use SoundWire address as alternate firmware suffix on L56 B0
-fa8fae5f82e48db1a06ba570a2a3fdc087fc93c0 ASoC: doc: cs35l56: Update to add new SoundWire firmware filename suffix
-ba06528ad5a31923efc24324706116ccd17e12d8 ASoC: amd: yc: Add quirk for MSI Bravo 17 D7VF internal mic
-c0c7fa4e7a512006710c8e4d6b6f7b40c9f786cd docs: arm64: Fix ICC_SRE_EL2 register typo in booting.rst
-650768c512faba8070bf4cfbb28c95eb5cd203f3 arm64: Restrict pagetable teardown to avoid false warning
-d2be3270f40b1330f8c1c9512c59dd085a758ac0 arm64/gcs: Don't call gcs_free() during flush_gcs()
-39dfc971e42d886e7df01371cd1bef505076d84c arm64/ptrace: Fix stack-out-of-bounds read in regs_get_kernel_stack_nth()
-93adf20ff4d6e865e0b974110d3cf2f07c057177 ALSA: usb-audio: Rename ALSA kcontrol PCM and PCM1 for the KTMicro sound card
-f59427932885f9b47b22b532b079478905b9ad08 ASoC: apple: mca: Drop default ARCH_APPLE in Kconfig
-dc8b60918fc5ba281743f3694e9b671ddbf0e930 ASoC: cs35l56: Change firmware filenames for SoundWire
-13b86ea92ebf0fa587fbadfb8a60ca2e9993203f ASoC: amd: yc: update quirk data for HP Victus
-efa6bdf1bc75e26cafaa5f1d775e8bb7c5b0c431 ALSA: hda/realtek: enable headset mic on Latitude 5420 Rugged
-60599e4f8a041d1186afe4bcf12ba522afe4c5bc ALSA: hda/realtek: Add quirk for Asus GA605K
-e6382fcf989074566bb9a54bbd3c514d7bb99397 gpio: spacemit: Add missing MODULE_DEVICE_TABLE
-b081d8564e4a396843a78788476fdcbf70efed06 ASoC: SOF: imx8: add core shutdown operation for imx8/imx8x
-0a1db19f66c0960eb00e1f2ccd40708b6747f5b1 gpio: pca953x: fix wrong error probe return value
-10af0273a35ab4513ca1546644b8c853044da134 gpio: mlxbf3: only get IRQ for device instance 0
-6c5b8895c8cab4fdb496b38513ec417588b58596 ASoC: doc: cs35l56: Add CS35L63 to the list of supported devices
-16ea4666bbb7f5bd1130fa2d75631ccf8b62362e ASoC: Intel: sof-function-topology-lib: Print out the unsupported dmic count
-721385192415b6e9979454cdb08d67e2ded684d6 Merge tag 'asoc-fix-v6.16-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-33bdee12822d240caaa01aeac231eac42182fd64 ALSA: hda/realtek: Enable headset Mic on Positivo P15X
-d41fef1ce2f3cd9df128d2c3cf6d91ce15130daf Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-299f489f5bad3554531f67335d1762225448ff39 Merge tag 'sound-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-11313e2f78128c948e9b4eb58b3dacfc30964700 Merge tag 'gpio-fixes-for-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+2f25e464ce9a4450852a405de6d345c13f9bbea8 wifi: ath12k: disable pdev for non supported country
+5ff09a73a4aecd30e55c926f3617070eee26fac4 wifi: ath12k: Prepare ahvif scan link for parallel scan
+b3ca9a8e2f3b9b5a3b24fb50eee9438d1c39f67a wifi: ath12k: Split scan request for split band device
+f8ebf660017c9fcffffa56e83fba1b5f445296c5 wifi: ath12k: combine channel list for split-phy devices in single-wiphy
+2bd96e0b8f1f9d60817bd9c9f3cc29d24bb86a66 wifi: ath12k: update channel list in worker when wait flag is set
+eb050df208c81ddb0a4de0235c0995bbb635ef74 wifi: ath12k: handle regulatory hints during mac registration
+81bd1425410e2e548a00619b0587f7fddcea6486 wifi: ath12k: avoid bit operation on key flags
+0aea4e3de78ece5fab67886d1c73e2e0161c06cb wifi: ath12k: install pairwise key first
+44a8500ad2a8f7371af90dfe009a843b40272e31 wifi: ath12k: remove monitor handling from ath12k_dp_rx_deliver_msdu()
+758610b23363f8ef92fe76ff5149ce7d570f25b7 wifi: ath12k: Decrement TID on RX peer frag setup error handling
+97f0fae3c5f27b8ccf296701456510fc6f8d533c wifi: ath: Add missing include of export.h
+b1f806b9c58e3dc58eef17de4f6871c0219d6cdb wifi: ath9k: Add missing include of export.h
+05266b76f652c85a8265a145d56c38e13ed7cecd wifi: ath10k: Add missing include of export.h
+b8a2be187872cffdd4dc834ab661652e4d10c678 wifi: ath11k: Add missing include of export.h
+2944c3628f88f4f90bb003550e67feed18691ba7 wifi: ath12k: Add missing include of export.h
+3ba5125191f5ad87e7ba0c6b86dbba1f0cac7351 wifi: ath12k: Enable REO queue lookup table feature on QCN9274 hw2.0
+21bc3a58f8e005bd55a8ca8b5b1390a9636bcc4f wifi: ath12k: Use spinlock when reading stats from arsta
+3793b02c0c4ab6c6b724f2fec267c49ab3913129 wifi: ath12k: Fix double budget decrement while reaping monitor ring
+e30e5d6789346156dc07cd19fc092c281055cd29 wifi: ath12k: Pass ab pointer directly to ath12k_dp_tx_get_encap_type()
+53301e7326ddd402b338045a240c455f3f789017 Merge branch 'pending' into main-pending
 
---===============6721362184462243042==--
+--===============6226443937732719191==--
