@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 20 Jun 2025 07:01:08 -0000
-Message-Id: <175040286827.3061564.6277269205623326532@gitolite.kernel.org>
+Date: Fri, 20 Jun 2025 07:02:41 -0000
+Message-Id: <175040296109.3062550.8160150620910479672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-6.16/upstream-fixes
-    old: f3054152c12e2eed1e72704aff47b0ea58229584
-    new: 4540e41e753a7d69ecd3f5bad51fe620205c3a18
+  - ref: refs/heads/for-6.17/mcp2221
+    old: 0d6b550dce55f2bd47579a92ffc000cb0186e4c4
+    new: a5db1591d0829bda219d6967e5860764c648edbd
     log: |
-         4540e41e753a7d69ecd3f5bad51fe620205c3a18 HID: appletb-kbd: fix "appletb_backlight" backlight device reference counting
+         a5db1591d0829bda219d6967e5860764c648edbd HID: mcp-2221: Replace manual comparison with min() macro
          
   - ref: refs/heads/for-next
-    old: 7bcf255d15e8231c015ccf9044f232e31c2985a3
-    new: 4fc2b63eddfb058852baa99dc3c6786c2c547b46
+    old: 4fc2b63eddfb058852baa99dc3c6786c2c547b46
+    new: 89a5a2c4c10542fbdebe643e04118d40fe0191e5
     log: |
-         4540e41e753a7d69ecd3f5bad51fe620205c3a18 HID: appletb-kbd: fix "appletb_backlight" backlight device reference counting
-         4fc2b63eddfb058852baa99dc3c6786c2c547b46 Merge branch 'for-6.16/upstream-fixes' into for-next
+         a5db1591d0829bda219d6967e5860764c648edbd HID: mcp-2221: Replace manual comparison with min() macro
+         89a5a2c4c10542fbdebe643e04118d40fe0191e5 Merge branch 'for-6.17/mcp2221' into for-next
          
