@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 20 Jun 2025 07:14:28 -0000
-Message-Id: <175040366818.3073050.10525087961194941535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Fri, 20 Jun 2025 07:17:09 -0000
+Message-Id: <175040382998.3076209.14828918726816184964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/for-6.17/core
-    old: d3db1ce9bf8f4a8e03d3bd19000b32290bca7d74
-    new: 37a9acb971c2f338e7a1b602b0ee40ad70668e81
-    log: |
-         37a9acb971c2f338e7a1b602b0ee40ad70668e81 HID: replace scnprintf() with sysfs_emit()
-         
-  - ref: refs/heads/for-next
-    old: ddfaedfeb0227dfd83f0abdac125a6cb4b166666
-    new: 0b8c33c01aa344448650287b355f0fa4767cb5a2
-    log: |
-         37a9acb971c2f338e7a1b602b0ee40ad70668e81 HID: replace scnprintf() with sysfs_emit()
-         0b8c33c01aa344448650287b355f0fa4767cb5a2 Merge branch 'for-6.17/core' into for-next
-         
+  - ref: refs/heads/clk-bindings
+    old: 0000000000000000000000000000000000000000
+    new: 4c55936671db32dc72ab0ceb2b8aeee0184ef38c
+  - ref: refs/heads/clk-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 2f80dfab862847b762206c6596e1d7ea281830d8
+  - ref: refs/heads/clk-pwm
+    old: 0000000000000000000000000000000000000000
+    new: f5f792f07bd23f26fcc98a0fca596a2101a6f640
+  - ref: refs/heads/clk-hw-device
+    old: 0000000000000000000000000000000000000000
+    new: ac32d031f508e46c19ab38d6ba8b53fc28df9945
