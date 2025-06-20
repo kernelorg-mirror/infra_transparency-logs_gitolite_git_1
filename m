@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6316848047350152105=="
+Content-Type: multipart/mixed; boundary="===============7040839528813321316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 20 Jun 2025 07:50:43 -0000
-Message-Id: <175040584397.3107075.5145736410751466070@gitolite.kernel.org>
+Date: Fri, 20 Jun 2025 07:51:08 -0000
+Message-Id: <175040586864.3107517.8690261354912424053@gitolite.kernel.org>
 
---===============6316848047350152105==
+--===============7040839528813321316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8f1f52443e86bc4f4e15a9dd418f810864d4316c
-    new: 17579793f0a3f85d20dc7f0737c4863e60bfd366
-    log: revlist-8f1f52443e86-17579793f0a3.txt
+    old: 17579793f0a3f85d20dc7f0737c4863e60bfd366
+    new: 99a9396fdc2e17961257dea72c17a89a752d4cdf
+    log: revlist-17579793f0a3-99a9396fdc2e.txt
+  - ref: refs/heads/tip/urgent
+    old: f6faa5ebcd412cda3456a4656642d910e039f97e
+    new: 234a269a51c9beb69255f50f4f5e11cf159998a8
+    log: revlist-f6faa5ebcd41-234a269a51c9.txt
 
---===============6316848047350152105==
+--===============7040839528813321316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f1f52443e86-17579793f0a3.txt
+Content-Disposition: attachment; filename=revlist-17579793f0a3-99a9396fdc2e.txt
+
+54c44861543ee2d5812c6a161f3aa69120221428 Merge branch into tip/master: 'irq/urgent'
+db64facef6b667ac2215e1ab90cd82bfa819aaa7 Merge branch into tip/master: 'locking/urgent'
+db8b3e7f5cf8fae1a2da62d0bf2630efac991221 Merge branch into tip/master: 'perf/urgent'
+234a269a51c9beb69255f50f4f5e11cf159998a8 Merge branch into tip/master: 'x86/urgent'
+352bfe14f246aedab854f633334dfc27bfc8762d Merge branch into tip/master: 'core/bugs'
+a0cb28b71f50bc45ed093c5f0a52825750afb031 Merge branch into tip/master: 'core/entry'
+96b014b10a8114bfe1937a4ccd49ef919c7bff0e Merge branch into tip/master: 'irq/core'
+42f7d4ae9d57402065dcda911b494ef73af8ed60 Merge branch into tip/master: 'irq/drivers'
+9670484a9667f47a885e5d64db579c4cddbdeb5c Merge branch into tip/master: 'irq/msi'
+a7febea69a0651e79f40bfbdeb92eb0f35079bfa Merge branch into tip/master: 'sched/core'
+f72e0a1fbf11e50d80d53a705fe034c782ae1c64 Merge branch into tip/master: 'smp/core'
+05dd9f540f04587f9c8a0d4e16a70beab7829b5e Merge branch into tip/master: 'timers/core'
+215cfaa4f13360b7ef4c6a934b229ee395d77925 Merge branch into tip/master: 'x86/kconfig'
+99a9396fdc2e17961257dea72c17a89a752d4cdf Merge branch into tip/master: 'x86/sev'
+
+--===============7040839528813321316==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f6faa5ebcd41-234a269a51c9.txt
 
 83c4c67076c209787515e06fffd41dd0bdab09b9 drm/msm/dp: Disable wide bus support for SDM845
 146e87f3e11de0dfa091ff87e34b4bc6eec761a4 drm/msm/disp: Correct porch timing for SDM845
@@ -175,6 +200,9 @@ e0990236bbdc96440bfc4a5b24b5dd811fd2210d Merge tag 'regulator-fix-v6.16-rc2' of 
 5f2b6c5f6b692c696a232d12c43b8e41c0d393b9 Merge tag 'drm-fixes-2025-06-20' of https://gitlab.freedesktop.org/drm/kernel
 255da9b8d761c20dbdca3ff2c96635d50a9f1fb8 Merge tag 'io_uring-6.16-20250619' of git://git.kernel.dk/linux
 75f5f23f8787c5e184fcb2fbcd02d8e9317dc5e7 Merge tag 'block-6.16-20250619' of git://git.kernel.dk/linux
-17579793f0a3f85d20dc7f0737c4863e60bfd366 Merge branch 'linus'
+54c44861543ee2d5812c6a161f3aa69120221428 Merge branch into tip/master: 'irq/urgent'
+db64facef6b667ac2215e1ab90cd82bfa819aaa7 Merge branch into tip/master: 'locking/urgent'
+db8b3e7f5cf8fae1a2da62d0bf2630efac991221 Merge branch into tip/master: 'perf/urgent'
+234a269a51c9beb69255f50f4f5e11cf159998a8 Merge branch into tip/master: 'x86/urgent'
 
---===============6316848047350152105==--
+--===============7040839528813321316==--
