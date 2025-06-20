@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8870840351842495248=="
+Content-Type: multipart/mixed; boundary="===============1538897772968224888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 20 Jun 2025 03:14:28 -0000
-Message-Id: <175038926800.2870507.13393394195369302573@gitolite.kernel.org>
+Date: Fri, 20 Jun 2025 03:14:51 -0000
+Message-Id: <175038929164.2871079.10729150184623612667@gitolite.kernel.org>
 
---===============8870840351842495248==
+--===============1538897772968224888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 9d2c232d575a8c8dfa66276ed7edccfac482a4df
-    new: 76549adb4260e5966db533c73fbf5a4648038c1d
+  - ref: refs/tags/mkp-scsi-staging
+    old: c6914b9557ea44b7c4d65b4cb48121c3890b672f
+    new: b4f6d8107ebcb99970aeec6e24a0fb7489658545
     log: |
-         0ec996edf4fdb727340ec9f50e2795042c23cd86 scsi: mpt3sas: Drop unused variable in mpt3sas_send_mctp_passthru_req()
-         b1ba03c49a711c30e24735733dfd68f2422fa150 scsi: core: Remember if a device is an ATA device
-         76549adb4260e5966db533c73fbf5a4648038c1d scsi: Don't use %pK through printk()
+         d56d980d9b2829572e634b9ab60dfa0239b1c6a7 scsi: ufs: Clear ucd_rsp_ptr for UPIU requests once
+         258a0a19621793b811356fc9d1849f950629d669 scsi: pm80xx: Free allocated tags after failure
+         04caad5a7ba86e830d04750417a15bad8ac2613c scsi: mpi3mr: Correctly handle ATA device errors
+         15592a11d5a5c8411ac8494ec49736b658f6fbff scsi: mpt3sas: Correctly handle ATA device errors
          
 
---===============8870840351842495248==
+--===============1538897772968224888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1750389303 -0400
+pusher 75C5DE3D 1750389309 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1750389266-9e0d385ede242234bd309200fd4ed0f9fa0f1524
+nonce 1750389271-02d529755188684b1d9c605e4357118c83bd6686
 
-9d2c232d575a8c8dfa66276ed7edccfac482a4df 76549adb4260e5966db533c73fbf5a4648038c1d refs/heads/queue
+c6914b9557ea44b7c4d65b4cb48121c3890b672f b4f6d8107ebcb99970aeec6e24a0fb7489658545 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhU0jcACgkQ7ulgGnXF
-3j3P4w/8DdQRGIPX1OO4e48P80MFBLr6BR4myLvqQi0rRMBXf7c03ZFh03EzG4dP
-RA/Hvf68UFgaGeKvQDnj3GHEUfKn6KpiesQyg+NFNsi5p7N8ItzSuawyQW9Nnj67
-EECyBK8ymD+2GTl/VFFyvE8Bq/DHIlF2fJL1gn7x1UWDxJKsDl/B1o55sUE6Csaj
-ND0pDSO5g0g6EztIV9GbzjzRGbwtAHmH4CHUWny9GiX+RQ5MwGtFNoOWV9rVCwwi
-JvbbfF+4934Vgxa8EtuL1E4BiU8odiRbwrLDMWzNbrOD8BjysrdJ2y37+BYljWoP
-24GB7s1Mp27Ioty0SGZLe2gwPnRaqIVan9ocyfwsqiHIwbd/jcV01BTARicpZp+z
-LrZfeGibDfyvVjjGQ5Ina/FCJRnForb5EFdU9xnywoolnjD8XITlGvmdjnMLzos4
-o/PqvSsYGiaSWXq/grY2CtQNVedc7Ev12L00n9e6jFmEcGoz1THKZTA3SgL7T+Ft
-hbq8Oe/lpL1GbqtZbrFsU/wCVymjAxTJg9yYMnjJY15Nws1CA33xTibgQZLomz+/
-cbsC2O/c2Ubrs2QNJoT7sDc73VgQR6xgA1SCbiWAnGnh0VZh35g2Cgs9XxpIqklb
-HiIT86QMv511lM2rUOouYLXEovVukSV1EDKUHfuDhvGXpnPBh8E=
-=NxXf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhU0j0ACgkQ7ulgGnXF
+3j11eQ//RwfBWYNWaacncilenv8rE3jA0TPXsIunATGVgu9t2E9zc5IB8D1NnifK
+MAUfE1L/FYJOxWfEhsK9JtHAGcGqvGKReHvpuG8uCACWjak813u23yT1d7CgayR2
+IJn6+tiTis1Hkoapd+xHoP6IrdNJyThoaSKAssFFSTor/5k5iQgvxL3doeYz8Fu3
+F+fQYqhEvvBcGSx2w2oDtY67rMzgdGbuHOclJUKLE1xbCX5HdtCD0nDF4kOshLKQ
+giI4WWrwL2beLZBVlgcdkjHwFqHfF+0rANV/GRPflhVWkxnb6w9f5gWoaNwOpghP
+FjLLiGAh8Gu3xePRWaFhQUkO1MF5eQPXXeYpSPHGpjShFSrk/YHSh0ZJ32Bq1C1T
+/qG/WKb3T9LcWf+tyruru5vBiZeDOz3xWN//uqj+k6vim5clv+bNIleYDq6x2/5X
+eorPmR7u3Dr/X1XWdu6y52XEz/+QgHkhE7kdF3lFiHUDwpWQYyIlb6BIFWUSC3YU
+G6OTiCrLOvyMLpypKdy0m44qkF58yQOezwk+hmgbZ+2CI8kRguwRNX8XJ7sOHLGK
+nTNnxqDRwiHDXwQ0mS2ZfyqfGNVjEAfoCQAulL+KfcNi1YvrI7V5ETou9ACKgv+v
+gPXaAn7nbEUe33smxAnzHArfGY2nWs/3MRVnh2q1XhpPOFT3qqk=
+=vuQb
 -----END PGP SIGNATURE-----
 
---===============8870840351842495248==--
+--===============1538897772968224888==--
