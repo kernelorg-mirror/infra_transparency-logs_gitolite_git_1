@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 20 Jun 2025 17:06:36 -0000
-Message-Id: <175043919627.3621634.16131624066915790652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 20 Jun 2025 17:07:04 -0000
+Message-Id: <175043922424.3622255.15660196400678029394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 257637619f374f19717b93dfdf9fdb54b9a99e6c
-    new: 6a6071ccf8a56998ee48ffe5ab731761f60d1f89
+  - ref: refs/heads/pending
+    old: 3ba5125191f5ad87e7ba0c6b86dbba1f0cac7351
+    new: 21bc3a58f8e005bd55a8ca8b5b1390a9636bcc4f
     log: |
-         6a6071ccf8a56998ee48ffe5ab731761f60d1f89 patches/next: rebase to latest mm-new
+         21bc3a58f8e005bd55a8ca8b5b1390a9636bcc4f wifi: ath12k: Use spinlock when reading stats from arsta
          
