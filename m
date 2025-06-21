@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Sat, 21 Jun 2025 00:02:43 -0000
-Message-Id: <175046416336.3971631.13338760634160791646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 21 Jun 2025 01:07:30 -0000
+Message-Id: <175046805074.4024547.7702286914533404585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: 2b43bf5cfa3027857eaf9ac6ccf3bc524798e6ea
-    new: 248d0f3efd57bd6a16699c72aa3e94fb3431077a
+  - ref: refs/heads/damon/next
+    old: 86c16d88b7aa7ade3856a8a83171e8eb4c9d9fa1
+    new: 8298bce29ca2e47392eecb3dd1aa6096cab40a91
     log: |
-         ddb27f74734949e58aa6b9a63e83967fe910f320 launcher: return 1 on unknown exe
-         a43cb3e845162f87bedf5d9a207c1b3eff09656b s2idle: main now returns None on success and 1 any error
-         2db5fb555095479a2d082f4a104f2d286119734e pstate: main now returns None on success and 1 any error
-         0127a25e4fb7cb34161c2c0a6847acc4eaef1a59 bios: main now returns None on success and 1 any error
-         248d0f3efd57bd6a16699c72aa3e94fb3431077a installer: install_dep_superset now returns None on success and 1 any error
+         5ea98cdb578d5cc638048ad479c0f847a921be4d ==== damon-based interleave prototype ====
+         aa569862e21fec641c7589865914fc48785d4572 mm/damon: add damos_migrate_dest struct
+         99ee5e1855b4847e5a6e94b0c46c9a2a2a4b13bd mm/damon/sysfs-schemes: implement action destination directory
+         8298bce29ca2e47392eecb3dd1aa6096cab40a91 mm/damon/sysfs-schemes: implement dests directory
          
