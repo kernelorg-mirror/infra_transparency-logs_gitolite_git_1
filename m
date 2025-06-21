@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 Jun 2025 14:51:40 -0000
-Message-Id: <175051750034.554678.7140159387476036573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 Jun 2025 14:51:49 -0000
+Message-Id: <175051750986.555055.15195288901482181676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 46d1816f1bda7eb6362ade75c45874202a4bb468
-    new: ab2aa5453bb83d05e764a1207a61109c6fd4fe4c
+    old: e0fca6f2cebff539e9317a15a37dcf432e3b851a
+    new: 714db279942b1fb9b97c4243e186825a96750239
     log: |
-         4672aec56d2e8edabcb74c3e2320301d106a377e netmem: fix skb_frag_address_safe with unreadable skbs
-         6e307a873d30ce027ff08ea6bb42a0fe6dda125d rds: Correct endian annotation of port and addr assignments
-         433dce0692a01b00a36fde4044bff641c9bff608 rds: Correct spelling
-         1ed3ced30a7e1a8cf22b918665b3f813a69b1015 Merge branch 'rds-minor-updates-for-spelling-and-endian'
-         ab2aa5453bb83d05e764a1207a61109c6fd4fe4c can: rcar_canfd: Describe channel-specific FD registers using C struct
+         0b39b055b5b48cbbdf5746a1ca6e3f6b0221e537 net: usb: qmi_wwan: add SIMCom 8230C composition
+         714db279942b1fb9b97c4243e186825a96750239 CREDITS: Add entry for Shannon Nelson
          
