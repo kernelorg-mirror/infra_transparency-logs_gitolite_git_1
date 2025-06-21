@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
-Date: Sat, 21 Jun 2025 11:36:46 -0000
-Message-Id: <175050580657.394749.8609178730160898664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 21 Jun 2025 12:00:23 -0000
+Message-Id: <175050722366.414404.10050903597759474579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: 4f4040ea5d3e4bebebbef9379f88085c8b99221c
-    new: 0289c51f889e435a7626931688023a80090d9c5e
+  - ref: refs/heads/x86/boot
+    old: ce2c403c26c1ed0e28fc541ab30fe13ff50236be
+    new: 61b57d35396a4b4bcca9944644b24fc6015976b5
     log: |
-         0289c51f889e435a7626931688023a80090d9c5e octeontx2-af: Fix rvu_mbox_init return path
+         61b57d35396a4b4bcca9944644b24fc6015976b5 x86/efi: Implement support for embedding SBAT data for x86
          
