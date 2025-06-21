@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sat, 21 Jun 2025 20:31:45 -0000
-Message-Id: <175053790588.839545.903182777834891936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 21 Jun 2025 21:01:05 -0000
+Message-Id: <175053966532.863364.18167605939964943551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/clk-fixes
-    old: aacc875a448d363332b9df0621dde6d3a225ea9f
-    new: a42b4dcc4f9f309a23e6de5ae57a680b9fd2ea10
+  - ref: refs/heads/syscon-rework-4
+    old: 9107bef51ff2a39777fe481c9ec3b9d75843bc67
+    new: df3f0f49c38e40455bbcdaee6ecd3380ea253501
     log: |
-         a42b4dcc4f9f309a23e6de5ae57a680b9fd2ea10 dt-bindings: clock: mediatek: Add #reset-cells property for MT8188
-         
-  - ref: refs/heads/clk-next
-    old: d7d3a74eeecf01790de80d4936705fdee584e79c
-    new: b721267f02a1e49f10539d528b68d52dfd74157c
-    log: |
-         a42b4dcc4f9f309a23e6de5ae57a680b9fd2ea10 dt-bindings: clock: mediatek: Add #reset-cells property for MT8188
-         b721267f02a1e49f10539d528b68d52dfd74157c Merge branch 'clk-fixes' into clk-next
+         e54b3cbb8f74d042a7d937f10ebb35bc4f083d5b clk: divider, gate: create regmap-backed copies of gate and divider clocks
+         df3f0f49c38e40455bbcdaee6ecd3380ea253501 clk: microchip: mpfs: use regmap clock types
          
