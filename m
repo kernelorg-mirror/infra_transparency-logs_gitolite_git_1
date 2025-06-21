@@ -1,40 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3941350762177483081=="
+Content-Type: multipart/mixed; boundary="===============2988961472592238266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 21 Jun 2025 16:33:07 -0000
-Message-Id: <175052358735.643211.7837501445407572764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
+Date: Sat, 21 Jun 2025 17:05:04 -0000
+Message-Id: <175052550439.670192.11831986078756544901@gitolite.kernel.org>
 
---===============3941350762177483081==
+--===============2988961472592238266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sven/linux
+user: sven
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: f7301f856d351f068f807d0a3d442b85b2c6a01d
-    new: 739a6c93cc755c0daf3a7e57e018a8c61047cd90
-    log: revlist-f7301f856d35-739a6c93cc75.txt
+  - ref: refs/tags/apple-soc-fixes-6.16
+    old: 0000000000000000000000000000000000000000
+    new: 9cd1802e57a169335804b74e0c348ef9101f61ac
 
---===============3941350762177483081==
+--===============2988961472592238266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7301f856d35-739a6c93cc75.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-32ce6b3a83b71d8abf0c0837dc78775f16c9902f NFSD: Avoid corruption of a referring call list
-8b3ac9fabaa825b7bae850ee7b4580c5cba32699 SUNRPC: Cleanup/fix initial rq_pages allocation
-905eeb2b7c33adda23a966aeb811ab4cb9e62031 erofs: impersonate the opener's credentials when accessing backing file
-30b58444807c93bffeaba7d776110f2a909d2f9a erofs: remove unused trace event erofs_destroy_inode
-7869738b6908eec7755818aaf6f3aa068b2f0e1b erofs: refuse crafted out-of-file-range encoded extents
-8ea688a3372e8369dc04395b39b4e71a6d91d4d5 nfsd: use threads array as-is in netlink interface
-94d10a4dba0bc482f2b01e39f06d5513d0f75742 sunrpc: handle SVC_GARBAGE during svc auth processing as auth error
-417b8af2e30d7f131682a893ad79c506fd39c624 erofs: remove a superfluous check for encoded extents
-1f9378d4a7dd862b28d83a062a2dcc6ef1a0daa7 Merge tag 'erofs-for-6.16-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-739a6c93cc755c0daf3a7e57e018a8c61047cd90 Merge tag 'nfsd-6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+certificate version 0.1
+pusher 44117D242A751EE9! 1750525539 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
+nonce 1750525501-cfb8e5662961e31119a5100da9c397f6faee677b
 
---===============3941350762177483081==--
+0000000000000000000000000000000000000000 9cd1802e57a169335804b74e0c348ef9101f61ac refs/tags/apple-soc-fixes-6.16
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaFbmYwAKCRBEEX0kKnUe
+6YInAQCmVUHbX7HjiLoeszfLHH67plPXvd1pcdDJ+qgAZaN/HAEA3Y0jri6/s16p
+9dg0kUYeF5CRUrOYIv78oW45qsGDcAk=
+=9JYq
+-----END PGP SIGNATURE-----
+
+--===============2988961472592238266==--
