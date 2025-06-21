@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 21 Jun 2025 13:01:37 -0000
-Message-Id: <175051089775.465892.1993620052210574550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Sat, 21 Jun 2025 13:26:30 -0000
+Message-Id: <175051239006.485951.12145201791419574457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/work.pidfs.fhandle
-    old: aa750e4ee43eb7c2a58f5146394a47215c116eca
-    new: c3d717ead81720a1bf42168dc1042861740f92ad
+  - ref: refs/heads/main
+    old: 0289c51f889e435a7626931688023a80090d9c5e
+    new: 46d1816f1bda7eb6362ade75c45874202a4bb468
     log: |
-         6111889305919c27202c91fd7fa4c084106ea2b4 fhandle, pidfs: support open_by_handle_at() purely based on file handle
-         ebcbba07eaeae1e0159f04abf476e36d994ae7b4 selftests/pidfd: decode pidfd file handles withou having to specify an fd
-         9cf7f8c065e6d753b09e101de8e4e1e2d5aa1d37 selftests/pidfd: test autonomous file handle encoding/decoding
-         c3d717ead81720a1bf42168dc1042861740f92ad fhandle, pidfs: simplify opening file handles
+         d05ebf7cc3c5ee78ff8567a22148ab0d82a5d1c4 gve: rename gve_xdp_xmit to gve_xdp_xmit_gqi
+         cb711b3d197aaf7c86d8f70163cd09c5fe768796 gve: refactor DQO TX methods to be more generic for XDP
+         d8a8ca14c93739250bc770f9aa33eb38e23b1f37 gve: add XDP_TX and XDP_REDIRECT support for DQ RDA
+         46d1816f1bda7eb6362ade75c45874202a4bb468 Merge branch 'gve-xdp-tx-redirect' into main
          
