@@ -1,60 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7192842180209365329=="
+Content-Type: multipart/mixed; boundary="===============2194760321681073427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 21 Jun 2025 03:03:36 -0000
-Message-Id: <175047501678.4117754.6663498151656515366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 21 Jun 2025 04:06:15 -0000
+Message-Id: <175047877515.4172271.12877610387722625996@gitolite.kernel.org>
 
---===============7192842180209365329==
+--===============2194760321681073427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-6.17
-    old: f479fee3827aa8a532b62b41025075b25259117e
-    new: ddceadce63d9cb752c2472e220ded05cabaf7971
-    log: revlist-f479fee3827a-ddceadce63d9.txt
-  - ref: refs/heads/for-next
-    old: 853b78934cf932a9e1ebc654ac751e589088ab2d
-    new: 8a010e2486148b60fd6118512bc738e3981d2d26
-    log: |
-         d403a3689af5c3a3e3ac6e282958d0eaa69ca47f sched/fair: Move max_cfs_quota_period decl and default_cfs_period() def from fair.c to sched.h
-         de4c80c6963e130707ead16a544a387f811dbd87 sched/core: Relocate tg_get_cfs_*() and cpu_cfs_*_read_*()
-         43e33f53e25687ca870248d1939cfade0164426c sched/core: Reorganize cgroup bandwidth control interface file reads
-         5bc34be478d09c4d16009e665e020ad0fcd0deea sched/core: Reorganize cgroup bandwidth control interface file writes
-         e4ee150fea818c8519a0921d53794b763af1a006 sched_ext: Merge branch 'sched/core' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into for-6.17
-         e4e149dd2f80b3f61d738f0b7d9cc9772c1353a4 sched_ext: Merge branch 'for-6.16-fixes' into for-6.17
-         6e6558a6bc418f1478c5dc8609d03805364e0cb9 sched_ext, sched/core: Factor out struct scx_task_group
-         ddceadce63d9cb752c2472e220ded05cabaf7971 sched_ext: Add support for cgroup bandwidth control interface
-         8a010e2486148b60fd6118512bc738e3981d2d26 Merge branch 'for-6.17' into for-next
-         
+  - ref: refs/heads/libcrypto-next
+    old: 399f8a305b567a7c6c508c8adca7dae02b5145b1
+    new: 9078a1078302456fb480b7752c8f93f6dce74580
+    log: revlist-399f8a305b56-9078a1078302.txt
 
---===============7192842180209365329==
+--===============2194760321681073427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f479fee3827a-ddceadce63d9.txt
+Content-Disposition: attachment; filename=revlist-399f8a305b56-9078a1078302.txt
 
-cd097df4596f3a1e9d75eb8520162de1eb8485b2 powerpc/powernv/memtrace: Fix out of bounds issue in memtrace mmap
-0d67f0dee6c9176bc09a5482dd7346e3a0f14d0b powerpc/vas: Return -EINVAL if the offset is non-zero in mmap()
-f09079bd04a924c72d555cd97942d5f8d7eca98c Merge tag 'powerpc-6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-aef17cb3d3c43854002956f24c24ec8e1a0e3546 Revert "mm/damon/Kconfig: enable CONFIG_DAMON by default"
-488ef3560196ee10fc1c5547e1574a87068c3494 KEYS: Invert FINAL_PUT bit
-47096d301e39f96962ca1fd6c7b71bfa796c53db sched_ext: Update mailing list entry in MAINTAINERS
-c50784e99f0e7199cdb12dbddf02229b102744ef sched_ext: Make scx_group_set_weight() always update tg->scx.weight
-33796b91871ad4010c8188372dd1faf97cf0f1c0 sched_ext, sched/core: Don't call scx_group_set_weight() prematurely from sched_create_group()
-d403a3689af5c3a3e3ac6e282958d0eaa69ca47f sched/fair: Move max_cfs_quota_period decl and default_cfs_period() def from fair.c to sched.h
-de4c80c6963e130707ead16a544a387f811dbd87 sched/core: Relocate tg_get_cfs_*() and cpu_cfs_*_read_*()
-43e33f53e25687ca870248d1939cfade0164426c sched/core: Reorganize cgroup bandwidth control interface file reads
-5bc34be478d09c4d16009e665e020ad0fcd0deea sched/core: Reorganize cgroup bandwidth control interface file writes
-e4ee150fea818c8519a0921d53794b763af1a006 sched_ext: Merge branch 'sched/core' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into for-6.17
-e4e149dd2f80b3f61d738f0b7d9cc9772c1353a4 sched_ext: Merge branch 'for-6.16-fixes' into for-6.17
-6e6558a6bc418f1478c5dc8609d03805364e0cb9 sched_ext, sched/core: Factor out struct scx_task_group
-ddceadce63d9cb752c2472e220ded05cabaf7971 sched_ext: Add support for cgroup bandwidth control interface
+819a956982d59525b544890a520b736aa95edca3 lib/crypto: arm: Move arch/arm/lib/crypto/ into lib/crypto/
+95425b02444d7482453b8c39737678811658ac5b lib/crypto: arm64: Move arch/arm64/lib/crypto/ into lib/crypto/
+a655d6c605ad9327a002d05a0459446b3203f856 lib/crypto: mips: Move arch/mips/lib/crypto/ into lib/crypto/
+23afc9095efeead7dd86e0f9c1d2a900bda35b64 lib/crypto: powerpc: Move arch/powerpc/lib/crypto/ into lib/crypto/
+8f3cb565cd1ffb3ab3d71bf27067c2b61bbc8abf lib/crypto: riscv: Move arch/riscv/lib/crypto/ into lib/crypto/
+948439e41762ddac5dfe8bb5e59d1379cd111dee lib/crypto: s390: Move arch/s390/lib/crypto/ into lib/crypto/
+a46ef588ccae75fe920e504157d1a5d3db751133 lib/crypto: sparc: Move arch/sparc/lib/crypto/ into lib/crypto/
+496d57f6635e0fa7fdb7bebe1da7e37ab7aa1cc6 lib/crypto: x86: Move arch/x86/lib/crypto/ into lib/crypto/
+12b501e47a3f3b35d76cff90f28732ff8ad2cc2b MAINTAINERS: Drop arch/*/lib/crypto/ pattern
+96d41327428f70faa93a71603278cbb9ceee8ad9 lib/crypto: sha512: Add KUnit tests for SHA-384 and SHA-512
+1a6e7eb3b6c6e1fe753358ef973ae07f91d2ed68 lib/crypto: sha256: Add KUnit tests for SHA-224 and SHA-256
+9078a1078302456fb480b7752c8f93f6dce74580 lib/crypto: x86/sha512: Remove unnecessary checks for nblocks==0
 
---===============7192842180209365329==--
+--===============2194760321681073427==--
