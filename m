@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 21 Jun 2025 17:23:12 -0000
-Message-Id: <175052659288.683982.1532664165054855678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Sat, 21 Jun 2025 17:35:08 -0000
+Message-Id: <175052730856.694973.3081735258372426937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/dev
-    old: 43850be8cff712192031a1f25c0856b21fbbe0a9
-    new: 06b7595db0dc9fd5fd54664b594a751c82ba10cf
+  - ref: refs/heads/master
+    old: 248d0f3efd57bd6a16699c72aa3e94fb3431077a
+    new: 2d2bad7e663de7d0039ed4c29daef13396768b1b
     log: |
-         76ec098cdf8cdc88aa23625eccd46dda87ed47c4 erofs-utils: lib: add erofs_sys_l{list,get}xattr wrappers
-         06b7595db0dc9fd5fd54664b594a751c82ba10cf erofs-utils: mkfs: skip xattrs where getxattr() returns ENODATA
+         2d2bad7e663de7d0039ed4c29daef13396768b1b s2idle: fix quote reuse inside f-string for older python versions
          
