@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 21 Jun 2025 14:51:49 -0000
-Message-Id: <175051750986.555055.15195288901482181676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sat, 21 Jun 2025 14:54:26 -0000
+Message-Id: <175051766678.557027.3430607378809891817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/main
-    old: e0fca6f2cebff539e9317a15a37dcf432e3b851a
-    new: 714db279942b1fb9b97c4243e186825a96750239
+  - ref: refs/heads/work.pidfs.fhandle
+    old: c3d717ead81720a1bf42168dc1042861740f92ad
+    new: abfd504369cc98a543fc3dda0e7b78f11d775773
     log: |
-         0b39b055b5b48cbbdf5746a1ca6e3f6b0221e537 net: usb: qmi_wwan: add SIMCom 8230C composition
-         714db279942b1fb9b97c4243e186825a96750239 CREDITS: Add entry for Shannon Nelson
+         abfd504369cc98a543fc3dda0e7b78f11d775773 SAVe
          
