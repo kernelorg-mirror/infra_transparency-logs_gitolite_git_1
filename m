@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 21 Jun 2025 12:53:23 -0000
-Message-Id: <175051040376.458162.6348610668753716735@gitolite.kernel.org>
+Date: Sat, 21 Jun 2025 13:01:37 -0000
+Message-Id: <175051089775.465892.1993620052210574550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/work.pidfs.fhandle
-    old: 11c2cf99c6d3c5d31c367d42b9a802ab6c1aaa37
-    new: aa750e4ee43eb7c2a58f5146394a47215c116eca
+    old: aa750e4ee43eb7c2a58f5146394a47215c116eca
+    new: c3d717ead81720a1bf42168dc1042861740f92ad
     log: |
-         5916296a6500f3bf835d0a81a67097b25b9d19af selftests/pidfd: decode pidfd file handles withou having to specify an fd
-         aa750e4ee43eb7c2a58f5146394a47215c116eca fhandle, pidfs: simplify opening file handles
+         6111889305919c27202c91fd7fa4c084106ea2b4 fhandle, pidfs: support open_by_handle_at() purely based on file handle
+         ebcbba07eaeae1e0159f04abf476e36d994ae7b4 selftests/pidfd: decode pidfd file handles withou having to specify an fd
+         9cf7f8c065e6d753b09e101de8e4e1e2d5aa1d37 selftests/pidfd: test autonomous file handle encoding/decoding
+         c3d717ead81720a1bf42168dc1042861740f92ad fhandle, pidfs: simplify opening file handles
          
