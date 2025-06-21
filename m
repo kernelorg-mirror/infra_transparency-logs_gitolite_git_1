@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 Jun 2025 15:27:31 -0000
-Message-Id: <175051965100.587146.10687196615580720450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Sat, 21 Jun 2025 15:33:48 -0000
+Message-Id: <175052002898.591903.16887140417174954375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/main
-    old: 0685ca51b0c9bf6ee7e13327fbcb32b24d9b3536
-    new: 091d019adce033118776ef93b50a268f715ae8f6
+  - ref: refs/heads/master
+    old: b78c087b3d49aaeb8c74fce01337174a8091773f
+    new: de4cfd13f659ed8de8da64a8a467388ca169dc16
     log: |
-         091d019adce033118776ef93b50a268f715ae8f6 net/smc: remove unused function smc_lo_supports_v2
+         de4cfd13f659ed8de8da64a8a467388ca169dc16 libpci: djgpp: Handle Windows NTVDM zero error codes
          
