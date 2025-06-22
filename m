@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 22 Jun 2025 14:39:23 -0000
-Message-Id: <175060316367.1766936.1058756336007169542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 22 Jun 2025 15:46:44 -0000
+Message-Id: <175060720433.1822918.3431590656145134141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/tags/v2025.06.22
-    old: 0000000000000000000000000000000000000000
-    new: 894d92ab98b2ad18e8420c2c4956a73419308e91
+  - ref: refs/heads/x86/merge
+    old: 37ef4bfb86512ad4a79c049ab8702d92a13513d2
+    new: 0000000000000000000000000000000000000000
