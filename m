@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
-Date: Sun, 22 Jun 2025 17:50:00 -0000
-Message-Id: <175061460050.1924031.13741537100876897283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Sun, 22 Jun 2025 18:30:54 -0000
+Message-Id: <175061705401.1957426.18239633636608340749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net-next
+repo: pub/scm/linux/kernel/git/davem/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 14966a8df77e2dffdf765b56abe194aa6b0da325
-    new: 5e95c0a3a55aea490420bd6994805edb050cc86b
+    old: 302251f1fdfd302ce99a619aac1a5164d0bb7c4b
+    new: b993ea46b3b601915ceaaf3c802adf11e7d6bac6
     log: |
-         5e95c0a3a55aea490420bd6994805edb050cc86b netdevsim: fix UaF when counting Tx stats
+         b993ea46b3b601915ceaaf3c802adf11e7d6bac6 atm: clip: prevent NULL deref in clip_push()
          
