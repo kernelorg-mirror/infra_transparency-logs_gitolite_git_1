@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 22 Jun 2025 11:38:28 -0000
-Message-Id: <175059230856.1618352.11417060032948137828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sun, 22 Jun 2025 13:10:15 -0000
+Message-Id: <175059781505.1692320.9368514872212331134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/testing
-    old: d1584d12ec8c35534172882c1713947110564e4c
-    new: 51bf5269b5c3652a0d9cb2cececadb481e86758b
+  - ref: refs/heads/work.pidfs.fhandle
+    old: 332af87f7a1bfc07842ea82cf68340aff7f775a1
+    new: 77f3ee82dd98e580b559d439d9271dfea769cdb9
     log: |
-         65c78068dd21a1623521bbd4f727d113048a0e2c iio: accel: adxl313: make use of regmap cache
-         51bf5269b5c3652a0d9cb2cececadb481e86758b iio: accel: adxl313: add function to enable measurement
+         2a201adc886d6f35a130ba35b97f76724d5d86d0 fhandle, pidfs: support open_by_handle_at() purely based on file handle
+         af4afd440c04eb2eb9f7ed6abce63930ea037945 selftests/pidfd: decode pidfd file handles withou having to specify an fd
+         de5e047028f7fe8867e8f52f5e6552c75b3386f2 selftests/pidfd: test autonomous file handle encoding/decoding
+         77f3ee82dd98e580b559d439d9271dfea769cdb9 fhandle, pidfs: simplify opening file handles
          
