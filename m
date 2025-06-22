@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sun, 22 Jun 2025 01:32:34 -0000
-Message-Id: <175055595498.1082671.2261280904263601155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Sun, 22 Jun 2025 05:51:24 -0000
+Message-Id: <175057148485.1286334.731299090419541621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/for-next
-    old: e4ab1bfc3fe92ef5f8cebcc17963a08955963995
-    new: 6af8ffab2db3199f22298641880dd111f3a630e2
+  - ref: refs/heads/ti-k3-config-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 631ce8f743a5c85bd7f0a5e7dcca70566d88f43f
     log: |
-         6af8ffab2db3199f22298641880dd111f3a630e2 power: reset: at91-sama5d2_shdwc: Refactor wake-up source logging to use dev_info
+         631ce8f743a5c85bd7f0a5e7dcca70566d88f43f arm64: Kconfig.platforms: remove useless select for ARCH_K3
          
