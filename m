@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Sun, 22 Jun 2025 00:41:24 -0000
-Message-Id: <175055288448.1039498.1438736092944813346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sun, 22 Jun 2025 00:54:42 -0000
+Message-Id: <175055368231.1051080.12474937852268063591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/kmod-34.y
-    old: 180335d11ce9e18d1e46dce71d8cee22a842703a
-    new: 6b93232c972b338e972a5d4ccc2651ff78cb359e
+  - ref: refs/heads/for-next
+    old: 6aa1c3a72b99abeb7ddc649047073d701ede2c91
+    new: 3f87baacea4d185071655f9b0baf07abb6237fcd
     log: |
-         6b93232c972b338e972a5d4ccc2651ff78cb359e tools/modprobe: Fix odd --remove-holders behavior
+         3f87baacea4d185071655f9b0baf07abb6237fcd power: supply: qcom_battmgr: Report battery capacity
          
