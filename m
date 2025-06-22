@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5552950744254493328=="
+Content-Type: multipart/mixed; boundary="===============8877807594889687734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 22 Jun 2025 21:04:37 -0000
-Message-Id: <175062627795.2082102.15648528858208325516@gitolite.kernel.org>
+Date: Sun, 22 Jun 2025 21:04:40 -0000
+Message-Id: <175062628033.2082190.6345013872267127939@gitolite.kernel.org>
 
---===============5552950744254493328==
+--===============8877807594889687734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,102 +15,77 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 28249bff66f80f2488df09d1539bf6b2963c5d59
-    new: 2333b8c29c6b74fe3962011dd67498f406e21fc3
-    log: revlist-28249bff66f8-2333b8c29c6b.txt
+  - ref: refs/heads/master
+    old: 739a6c93cc755c0daf3a7e57e018a8c61047cd90
+    new: 86731a2a651e58953fc949573895f2fa6d456841
+    log: revlist-739a6c93cc75-86731a2a651e.txt
 
---===============5552950744254493328==
+--===============8877807594889687734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28249bff66f8-2333b8c29c6b.txt
+Content-Disposition: attachment; filename=revlist-739a6c93cc75-86731a2a651e.txt
 
-59f618c718d036132b59bcf997943d4f5520149f ==== drgn and python based sysfs selftest ====
-70c8f4cf235e0cbf24cf9a8e83884a735a691d58 selftests/damon: add drgn script for extracting damon status
-6b5a9e14e817a5d70df89f0b42e731eb6156d56b selftests/damon/_damon_sysfs: set Kdamond.pid in start()
-ea450ab5a21ca942b2e9d5f424ff1afc2d41bce5 selftests/damon: add python and drgn-based DAMON sysfs test
-b473b100f9c7bf25da4233f823fff54349661fe5 selftests/damon/sysfs.py: test monitoring attribute parameters
-d0aa10f5915f3e509d180b250599f2d88ff91e27 selftests/damon/sysfs.py: test adaptive targets parameter
-232c092ca3eca1a83e0fc73261f741d9a0374ed1 selftests/damon/sysfs.py: test DAMOS schemes parameters setup
-e733c3d1cffb1f827611deb195a725de7c5b4def ==== damon-based interleave prototype ====
-949e39bde7db10d3f7f028697b49e3bd4b870ba1 mm/damon: add struct damos_migrate_dest
-99174683d5984a9485b16760e930934e76de0470 mm/damon/core: add damos->migrate_dest field
-2da19c5c33dc7964bc472e8c48ec7d9117be46ad mm/damon/sysfs-schemes: implement DAMOS action destinations directory
-7c473b817dcbe1e4d521371c4f1947e2da2f9492 mm/damon/sysfs-schemes: set damos->migrate_dest
-ea150baeab55c3574edddd291efd4c5e8f8646c1 ==== write-only monitoring ====
-ef9aa79b32555374a47281f3a70248942c0b740b mm/damon: implement damon_report_access()
-8ee956e8b354c7ddeb3b94640db0f047d53f58e3 mm/damon/core: receive damon_report_access struct on damon_report_access()
-56e33d19b0219897f0b27a550ed5e00674a05b63 mm/damon/core: record accessed time on damon_access_report
-fed0bdc9d01ccbbc9522f9ec5c82ca7cf398970d mm/damon/core: do check reported accesses
-0b830c1e08822475e07d70f4a42cab436ca65518 ==== docs for DAMON and mm ====
-50b881b3c219d08b4dacca06a23c81fdd58de5d7 Docs/mm/damon/design: add table of contents for overall and DAMOS
-f0ec4bf4c80aed73febe369b063f4f7a28d586fb Docs/process/2.Process: Update mm tree URL
-aedc13c3cd5e9e9cdc373b304b560e6e81e32599 Docs/mm/damon/design: add API link to damon_ctx
-20ea762bee24fa30a610715e0813b090b0a49cc6 ==== ACMA ====
-4eb668ca7d2948e058a59ef6a78de03737874778 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-6e8398fc00e53c72bc6a7b85b631d19201a402a4 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-6eac556e6664a35684cac3fca9b523012b6258bf mm/page_reporting: implement a function for reporting specific pfn range
-4189e17e7a054151dcb2f5dbbb59f918a5b0b127 mm/damon/acma: implement scale down feature
-249f6246cc2a9d236f01261b4552cd447e1a8e9c mm/damon/acma: implement scale up feature
-278206e6e8e3ae39f6ead48f134eb2b170f4561e drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-224d65790b3b1870816312485177d286d745fcf4 === commits aiming not to be posted ===
-a81642e9d1d944aa6ac658eb992b8d84a9f1abf3 mm/damon: Add debug code
-208fc8dbdf628b77cf528b1cac548b3be6c7c777 mm/damon/core: add debugging log for intervals auto-tuning
-fb704e77d52fc2564d037a83289182f2d2ea1d4a mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-3644a0e1b2cbe5b556d86a5fdbce3c55060906cb mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-0b99d05fcd06409e3e4c293811db1a5e6a599382 mm/damon/core: add todo for DAMOS interval validation
-dd108400e954bf612d10e6040429b0d7dc349087 mm/damon/core: add debugging-purpose log of tuned esz
-3a052b4ea292bead3687771c3028c0b6ba04d1c2 Add debug log for PSI
-c37f24aef9b20ccbe39a7cad542caa4f0729bc56 mm/damon/core: add debug log for reset_regions()
-b22f0a11afd1b4b55a7c0e3b2742a83db86ffb24 ==== page-gran cache address space monitoring ====
-c39de4aeef292db5b22301b73d890c98da77c431 add a script to help understanding of DAMON cops
-0dff4c9e6e63adf8e4bd9eceddbc21370043b1d4 mm/damon/paddr: implement a DAMON operations set for cache address space
-c4108c9024a2075c49b625904bf6eb4e33100aae ==== auto-tune trace events ====
-145ce2e7a9fe9abed3a867358f7b2fd4cb39982c mm/damon: add tracevent for auto-tuned monitoring intervals
-7724895c758d171d9ca87f9f150c3a6a1c972990 mm/damon: add trace event for intervals score
-643f9b81a885f61eb85f53ad059605fb35993c66 ==== lru_sort modernization ====
-ddfe3c7b99398de5baea10d7cded590805b36a9d mm/damon: introduce active:inactive memory ratio damos quota goal metric
-006e028d3a9f140120b8b392a2e8427ddc07f7c2 mm/damon/lru_sort: consider age for quota prioritization
-f2accb178971942811ea4b0af854837161d586af mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-643dd9d861cadc95e64f2b3443609b7adb3131b2 ==== misc cleanups ====
-db9aa4b0d7e15f16fe7a19ae9bef442393832aad tools/mm: add thp_swap_allocator_test to .gitignore
-8a6599fdd519b4246fdcaa21107235f2af17b14f samples/damon/prcl: rename to have damon_sample_ prefix
-edad1397c05cb4dcaaec89e274072f9ffa78c6a4 samples/damon/wsse: rename to have damon_sample_ prefix
-54ab3f8866ed61c8d51b971b668f8777825a7cd4 samples/damon/mtier: rename to have damon_sample_ prefix
-30d092a9eabaeba9981d4e9fe224da7fcbebb520 samples/damon/mtier: support boot time enable setup
-8d9a6554ab71f93a47b7719cc59037af5ed4a47c mm/damon/sysfs: use DAMON core API damon_is_running()
-9f93ccd1ccf073ce2abe7aa056bfcd1c8f09f64e mm/damon/sysfs: don't hold kdamond_lock in before_terminate()
-729639eb9e6e9f8451c706cdae4f2c4dd7ec4f3f Docs/mm/damon/maintainer-profile: update for mm-new tree
-3c77b5f6f3e528f5a0dade774ef935184d80b836 mm/damon/sysfs-schemes: decouple quota goal keywords and quota goal metrics
-dd9f9838d1bee91bbf1832c0a4cc9272dc02ad69 mm/damon/sysfs-schemes: decouple damos_action and sysfs keywords
-0d233924d1d15a775076afff5cdadd1adcd9235d mm/damon/sysfs-schemes: decouple with enum damos_wmark_metric
-450af3f79a73cb6c5497d63142908ff64e0288c3 mm/damon/sysfs-schemes: decouple with enum damos_filter_type
-eda0ee4bf27968d3f45f734f3e3aeeccfc74ef2c mm/damon/sysfs: decouple with enum damon_ops_id
-5a3267c127825abe2a76489807d9499546823709 ==== numa_memcg_used_bp DAMOS quota goal metric ====
-763069cfbd4ab4cd0f1926f5c07065cb9b9e1595 mm/damon: document damos_quota_goal->nid use case
-c6baa29c09f523a4c71a27005b88712a1d0f4a0b mm/damon: add a new DAMOS quota goal metric for cgroup on node memory usage
-13817b5f5e19ecbef35e9e3c790a2d090eae5e0a mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_USED_BP
-8152077b8007771abbb778b96643d5ea2f8f4c16 mm/damon/sysfs-schemes: implement path file under quota goal directory
-182fe14663106d5f89ca9d3c4e93de16abc5fb97 mm/damon/sysfs-schemes: connect quota goal path file to DAMON core
-dae182396346809c575a9eda49b0ed43a4c65657 Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_USED_BP
-d8535b11387820a9168afeb7bc333850afb1ba0b Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
-773f6cb13703e43997b4c9c666f6faa41a3724af mm/damon: add DAMOS_QUOTA_NODE_MEMCG_FREE_BP quota tuning goal metric
-f0ee8e935ddc87c9ddfd655370719e5528d84367 mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-6920586279dad4b8aaa608e8100ce360eb489749 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-7b7dacd08af0f782f3f9f2b7de3ab58d9b967203 Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-d6feceb72b11bb2fd194f5c8fce11cd283cd320f ==== lru_sort modernization part 2 ====
-0621890bf37f96b5107fa2fd6185d336418a9368 mm/damon: change definition of active_mem_bp
-90e13a391c3af9b81608006e076e412f3f20c2d9 mm/damon/core: support changed active_mem_bp definition
-481aaf2e29ea7bc7801eb0eb06049e397a45af28 mm/damon: add INACTIVE_MEM_BP quota goal
-dc19627587627d028c8f52b0ad9e0e10e548a49e mm/damon/core: support inactive_mem_bp
-74d90d401bd4fa8f16f405c71a0b37b0bd6bf661 mm/damon/lru_sort: use young page filters
-8873f764f86ec5fc15c7ac1333c63e7743c9c732 mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-14c94bd6fa3471430b766994d8c2766accf47e34 Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-c3874df72e1957d909480f2bbbed2ee986a4feb3 mm/damon/lru_sort: make page level filter opt-in
-75e41f9bc034c010b9db26149bf30de4f13d3346 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-c3bb9371dd81723e3abf532caa237069050d0237 ==== uncategorized ====
-2fc6ecc2d63af8de90203fe07e2b8a46e56a84c2 mm/damon/core: add an hacking idea concept interface prototype
-2333b8c29c6b74fe3962011dd67498f406e21fc3 mm/damon/core: fix prototype warning of damon_search()
+4f6fc782128355931527cefe3eb45338abd8ab39 perf: Fix sample vs do_exit()
+61988e36dc5457cdff7ae7927e8d9ad1419ee998 perf: Fix cgroup state vs ERROR
+3b7a34aebbdf2a4b7295205bf0c654294283ec82 perf: Fix dangling cgroup pointer in cpuctx
+3172fb986666dfb71bf483b6d3539e1e587fa197 perf/core: Fix WARN in perf_cgroup_switch()
+49b393af3130c7712c7e8f215f4126c9a8060fa6 perf: Add comment to enum perf_event_state
+1a9dcf69c7a97e733aa2fc026db22f22928ca7b7 selftests/futex: getopt() requires int as return value.
+0ecb4232fc65e659ca7020f8bb2e0fc347acfb7d selftests/futex: Set the home_node in futex_numa_mpol
+8337204c58899fe422db765b481711eb2d95eb0b futex: Handle invalid node numbers supplied by user
+bc4394e5e79cdda1b0997e0be1d65e242f523f02 perf: Fix the throttle error of some clock events
+69a14d146f3b87819f3fb73ed5d1de3e1fa680c1 futex: Verify under the lock if hash can be replaced
+903cc7096db22f889d48e2cee8840709ce04fdac dt-bindings: i2c: nvidia,tegra20-i2c: Specify the required properties
+614b1c3cbfb0ecbafd40284d2f8e67c865818714 i2c: use inclusive callbacks in struct i2c_algorithm
+b0823d5fbacb1c551d793cbfe7af24e0d1fa45ed perf/x86/intel: Fix crash in icl_update_topdown_event()
+2b32fc8ff08deac3aa509f321a28e21b1eea5525 genirq/cpuhotplug: Rebalance managed interrupts across multi-CPU hotplug
+72218d74c9c57b8ea36c2a58875dff406fc10462 genirq/cpuhotplug: Restore affinity even for suspended IRQ
+8a2277a3c9e4cc5398f80821afe7ecbe9bdf2819 genirq/irq_sim: Initialize work context pointers properly
+594902c986e269660302f09df9ec4bf1cf017b77 x86,fs/resctrl: Remove inappropriate references to cacheinfo in the resctrl subsystem
+b2e673ae53ef4b943f68585207a5f21cfc9a0714 EDAC/amd64: Correct number of UMCs for family 19h models 70h-7fh
+6aba0cb5bba6141158d5449f2cf53187b7f755f9 RISC-V: KVM: Fix the size parameter check in SBI SFENCE calls
+2e7be162996640bbe3b6da694cc064c511b8a5d9 RISC-V: KVM: Don't treat SBI HFENCE calls as NOPs
+9a816ebeb573eddc2ed079dd4ea57a8d831c176c Merge tag 'i2c-host-fixes-6.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+94a17f2dc90bc7eae36c0f478515d4bd1c23e877 x86/mm: Disable INVLPGB when PTI is enabled
+3c902383f2da91cba3821b73aa6edd49f4db6023 x86/its: Fix an ifdef typo in its_alloc()
+cb6075bc62dc6a9cd7ab3572758685fdf78e3e20 x86/mm: Fix early boot use of INVPLGB
+2aebf5ee43bf0ed225a09a30cf515d9f2813b759 x86/alternatives: Fix int3 handling failure from broken text_poke array
+88efa0de3285be66969b71ec137d9dab1ee19e52 EDAC/igen6: Fix NULL pointer dereference
+306cb65bb0cb243389fcbd0a66907d5bdea07d1e smb: fix secondary channel creation issue with kerberos by populating hostname when adding channels
+840738eae94864993a735ab677b9795bb8f3b961 cifs: Remove duplicate fattr->cf_dtype assignment from wsl_to_fattr() function
+8a8ff069c7ad9a359c54683329883e2432cff191 KVM: arm64: nv: Fix tracking of shadow list registers
+1fbe6861a6d9a942fb8ab8677ddf1ecb86b1af60 KVM: arm64: Explicitly treat routing entry type changes as changes
+56a14984505b11674df5e01407748236bc4bc8f8 KVM: arm64: selftests: Close the GIC FD in arch_timer_edge_cases
+cade3d57e456e69f67aa9894bf89dc8678796bb7 KVM: arm64: VHE: Synchronize restore of host debug registers
+257d0aa8e2502754bc758faceceb6ff59318af60 KVM: arm64: VHE: Synchronize CPTR trap deactivation
+e62dd507844fa47f0fdc29f3be5a90a83f297820 KVM: arm64: Reorganise CPTR trap manipulation
+59e6e101a6fa542a365dd5858affd18ba3e84cb8 KVM: arm64: Remove ad-hoc CPTR manipulation from fpsimd_sve_sync()
+186b58bacd74d9b7892869f7c7d20cf865a3c237 KVM: arm64: Remove ad-hoc CPTR manipulation from kvm_hyp_handle_fpsimd()
+3a300a33e4063fb44c7887bec3aecd2fd6966df8 KVM: arm64: Remove cpacr_clear_set()
+04c5355b2a94ff3191ce63ab035fb7f04d036869 KVM: arm64: VHE: Centralize ISBs when returning to host
+a09e359d434e07941095503dbf21c280143857e4 Merge tag 'kvmarm-fixes-6.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+2f3fc29ae86f4a4e91c74e066e49657443af7149 Merge tag 'kvm-riscv-fixes-6.16-1' of https://github.com/kvm-riscv/linux into HEAD
+b5aafcb4efd2bdacbc37753cf807d69faa6a7304 KVM: TDX: Add new TDVMCALL status code for unsupported subfuncs
+cf207eac06f661fb692f405d5ab8230df884ee52 KVM: TDX: Handle TDG.VP.VMCALL<GetQuote>
+25e8b1dd4883e6c251c3db5b347f3c8ae4ade921 KVM: TDX: Exit to userspace for GetTdVmCallInfo
+3085ef9d9e7ab5ae4cddbe809e2e3b8dc11cdc75 irqchip/ath79-misc: Fix missing prototypes warnings
+34331d7beed7576acfc98e991c39738b96162499 smb: client: fix first command failure during re-negotiation
+a379a8a2a0032e12e7ef397197c9c2ad011588d6 smb: client: fix max_sge overflow in smb_extract_folioq_to_rdma()
+2c4fd3d141465ef1afc8318c95e7b916d9a8c49c cifs: Fix prepare_write to negotiate wsize if needed
+a2182743a8b4969481f64aec4908ff162e8a206c smb: Log an error when close_all_cached_dirs fails
+4eb11a34b72c86d559f437fdadc47e512bba41d2 smb: Use loff_t for directory position in cached_dirents
+4d360cfe8cbac3b62bd9e1df9889bde8a9d5b1d7 smb: minor fix to use sizeof to initialize flags_string buffer
+27e9d5d021dbaa1211836d07a240078bf84b284e smb: minor fix to use SMB2_NTLMV2_SESSKEY_SIZE for auth_key size
+a6c23dac756b9541b33aa3bcd30f464df2879209 i2c: k1: check for transfer error
+75f99f8cf445d577132ed97514032d9a3d3e2758 Merge tag 'v6.16-rc2-smb3-client-fixes-v2' of git://git.samba.org/sfrench/cifs-2.6
+e669e322c52c49c161e46492963e64319fbb53a8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+73543bad766486c3cdbf6fa9d1faf7d0c4bcc7af Merge tag 'edac_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+17ef32ae66b1afc9fa6dbea40eb18a13edba9c31 Merge tag 'perf_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+33efa7dbabcf62491c2eac9631752d52b8e159f8 Merge tag 'irq_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5c00eca95a9a20e662bd290c3ef3f2e07dfa9baa Merge tag 'x86_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============5552950744254493328==--
+--===============8877807594889687734==--
