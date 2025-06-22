@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux
-Date: Sun, 22 Jun 2025 22:00:19 -0000
-Message-Id: <175062961963.2130214.7588880502838716873@gitolite.kernel.org>
+Date: Sun, 22 Jun 2025 22:05:33 -0000
+Message-Id: <175062993370.2134848.5461504922621129596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwamatsu/linux
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: e43abd6989fc8715df0eb51520cdd614c09785dc
-    new: d6d37cbccf55401745c0f69416815af42a431897
+  - ref: refs/heads/linux-5.15.y
+    old: 0a69e455657e4719e549bbdcf0b37a51e60ed6a0
+    new: bee257f7ddf67d3ab86e7fd496cc431aa9a17a78
     log: |
-         d6d37cbccf55401745c0f69416815af42a431897 fbdev: efifb: Register sysfs groups through driver core
+         bee257f7ddf67d3ab86e7fd496cc431aa9a17a78 fbdev: efifb: Register sysfs groups through driver core
          
