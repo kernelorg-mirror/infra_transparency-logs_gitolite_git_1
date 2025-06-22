@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux
-Date: Sun, 22 Jun 2025 22:05:33 -0000
-Message-Id: <175062993370.2134848.5461504922621129596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sun, 22 Jun 2025 22:09:21 -0000
+Message-Id: <175063016148.2136699.5476874006738242572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwamatsu/linux
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 0a69e455657e4719e549bbdcf0b37a51e60ed6a0
-    new: bee257f7ddf67d3ab86e7fd496cc431aa9a17a78
+  - ref: refs/heads/fixes
+    old: a9ea6b0629a5a91d11db9318fba45a2e058babb1
+    new: a1ec827b5c62e2bf8d0aea6f41f70146878d84f3
     log: |
-         bee257f7ddf67d3ab86e7fd496cc431aa9a17a78 fbdev: efifb: Register sysfs groups through driver core
+         2e7072350656c2945607f5b6eebcb17ae1b801e9 replace collect_mounts()/drop_collected_mounts() with safer variant
+         a1ec827b5c62e2bf8d0aea6f41f70146878d84f3 attach_recursive_mnt(): do not lock the covering tree when sliding something under it
          
