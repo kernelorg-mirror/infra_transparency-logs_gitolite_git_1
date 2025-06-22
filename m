@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 22 Jun 2025 21:39:33 -0000
-Message-Id: <175062837353.2111656.16367014767358181545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux
+Date: Sun, 22 Jun 2025 21:57:48 -0000
+Message-Id: <175062946812.2126758.13778792270205514663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/iwamatsu/linux
+user: iwamatsu
 changes:
-  - ref: refs/heads/master
-    old: b3634c510afdef112ad93ef97ac31a9674acacd0
-    new: de8a9b436246084593cc947b72a78512007687f5
+  - ref: refs/heads/linux-5.4.y
+    old: f8eb4784ca267004fdebb857b70de455b6ac3546
+    new: 0d87cd6e736665d97b40c07f937daf862c4c008f
     log: |
-         696112197e35c4d7208fcc59b615c27fdf61b2c7 patches/posted: add sysfs-core decouple v1
-         de8a9b436246084593cc947b72a78512007687f5 patches/posted: add msgids for sysfs-core decouple v1
+         5d29558a017a66e5f40b40d8d855fe0d98f26da4 wifi: mt76: disable napi on driver removal
+         0d87cd6e736665d97b40c07f937daf862c4c008f fbdev: efifb: Register sysfs groups through driver core
          
