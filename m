@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 23 Jun 2025 21:54:57 -0000
-Message-Id: <175071569775.3468492.1582852110660038266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 23 Jun 2025 22:06:01 -0000
+Message-Id: <175071636148.3478709.190432160428442350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 2301e80bd2967b529ef2a988fe0d4fc36d892b15
-    new: ed1dae4d3dc7bcd0fd8130fe24f7bd9e1cf5b7c3
+  - ref: refs/heads/for-next
+    old: 306e57988197945beca7d589be8c01e059f74ffe
+    new: fda589c286040d9ba2d72a0eaf0a13945fc48026
     log: |
-         f8c38fed5c0d95c068f6aeb10d9893c54166a70e perf build: Suggest java-latest-openjdk-devel instead of old 1.8.0 one
-         9eabcaf7fc5aac789b2b40a420b382411dffb181 perf build: Add the libpfm devel fedora package name to the hint
-         ed1dae4d3dc7bcd0fd8130fe24f7bd9e1cf5b7c3 perf build: The bfd features are opt-in, stop testing for them by default
+         e2d02461b2e2d043e41a8b750f559252c5035caa riscv: Fix typo EXRACT -> EXTRACT
+         771c94605d5079e6e3620d91abe2e33bcdcd1397 riscv: Strengthen duplicate and inconsistent definition of RV_X()
+         38b566b84cf6b1329283db995c75f854abd78548 riscv: Move all duplicate insn parsing macros into asm/insn.h
+         fda589c286040d9ba2d72a0eaf0a13945fc48026 Merge patch series "Move duplicated instructions macros into asm/insn.h"
          
