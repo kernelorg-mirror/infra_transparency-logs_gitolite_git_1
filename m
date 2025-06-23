@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 23 Jun 2025 12:06:21 -0000
-Message-Id: <175068038124.2931323.15005613174127833225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 23 Jun 2025 12:08:00 -0000
+Message-Id: <175068048033.2932335.14199015317339038561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/endpoint/epf-vntb
+  - ref: refs/heads/for-6.16-rc3
     old: 0000000000000000000000000000000000000000
-    new: a0cc6e6fd072616315147ac68a12672d5a2fa223
+    new: c0d90a79e8e65b89037508276b2b31f41a1b3783
