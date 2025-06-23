@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 23 Jun 2025 22:38:07 -0000
-Message-Id: <175071828798.3506534.7175721159059758463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 23 Jun 2025 22:44:03 -0000
+Message-Id: <175071864358.3511193.15058658386724592917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/fixes
-    old: 850f0e2433cdd38f36d80a4c1ab59f82029bef74
-    new: 2f73c62d4e13df67380ff6faca39eec2bf08dd93
-    log: |
-         2f73c62d4e13df67380ff6faca39eec2bf08dd93 Revert "riscv: misaligned: fix sleeping function called during misaligned access handling"
-         
+  - ref: refs/heads/rtc-next
+    old: b1248da008362323f75e8b84874586e9ea4c0b31
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
