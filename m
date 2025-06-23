@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4069184166268135828=="
+Content-Type: multipart/mixed; boundary="===============0396124616179104530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Jun 2025 15:59:00 -0000
-Message-Id: <175069434051.3156360.14886492045249196568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Jun 2025 15:59:04 -0000
+Message-Id: <175069434458.3156591.13307532947125367238@gitolite.kernel.org>
 
---===============4069184166268135828==
+--===============0396124616179104530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 16ea4666bbb7f5bd1130fa2d75631ccf8b62362e
     new: bf39286adc5e10ce3e32eb86ad316ae56f3b52a0
     log: revlist-16ea4666bbb7-bf39286adc5e.txt
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: f186a1a985d349f59ab67af36dfacd2f28d2540a
     new: 3421d46440ebe0865bec71dbd2330b4e17a425ab
     log: |
@@ -28,32 +28,32 @@ changes:
          3421d46440ebe0865bec71dbd2330b4e17a425ab HID: core: Add bus define for SoundWire bus
          
 
---===============4069184166268135828==
+--===============0396124616179104530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1750694376 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1750694338-8a7e5ef4d2e380ca5241dbd76eedb623ec4ac66f
+pusher C3F436CA30F5D8EB 1750694380 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1750694341-ff6a15a730a6247199b90fe7727714ecbbf3cccc
 
-16ea4666bbb7f5bd1130fa2d75631ccf8b62362e bf39286adc5e10ce3e32eb86ad316ae56f3b52a0 refs/heads/for-6.16
-f186a1a985d349f59ab67af36dfacd2f28d2540a 3421d46440ebe0865bec71dbd2330b4e17a425ab refs/heads/for-6.17
+16ea4666bbb7f5bd1130fa2d75631ccf8b62362e bf39286adc5e10ce3e32eb86ad316ae56f3b52a0 refs/heads/asoc-6.16
+f186a1a985d349f59ab67af36dfacd2f28d2540a 3421d46440ebe0865bec71dbd2330b4e17a425ab refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhZeegACgkQJNaLcl1U
-h9Dw1Qf/Xz6Js+7AVAaJJLZKOF/8hFajOSWilkLkpbKRhIyLg+WEXlyHZtUQm/X2
-jSBq5PlgENnht2QZ4CGUkdxliSvW46mYSJkZufr0oXh44Pyy+cnO++8TwzmpzlK3
-yZqzRbwHOgdHn90lhyUCtBLbWhsTpYI1NqM9y3dhfrxBndDU5eITL44Fwi6LYG2I
-HhE+K0ZFKT4hj2Sib040clEG0TCoZDnrBtjvuXyM2hZKaV5yrwjOEb8BhtPJfiY8
-OnCYhgzlWdvoINHUq16WhdJ38WZxAhFEbf5tFyP/rBkIdyCwitd3485XfYQoHmIp
-25kI4q30rnclmeEwQtf7Zw/eXp2eKg==
-=CtBZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhZeewACgkQJNaLcl1U
+h9BQSAf/axpu3w4/l0yXfhsxVMwrAXOknA5e5ePWEGeAIxn5G9U0/TF6fEHL5zTR
+FDemoWE9jc5GUXxE7pBNdehSkbgIQynpXkRvxq7RlmDrCBZlux+/s8p+MJxELeOg
+MnGK2mt+26QYS23osHRKXQ+y64r90Ve2a46cPxz5gqrewDr+p2uJt3eTFtsRM5gg
+LKcAhF/S+tPhYtA71qvVXpSL8pCNhc22nC6A66bDoGaqZezS4HXZZ6jTmqeOKh7C
+1MMZrl6vWHDjdGHEvEShlrN7+f+VumhHN7CYqJbU+Z4aCv3ElJBg2pulx3ahKfKH
+OeTugBkXhzcxgeC/B9S8e1Dza3wUNw==
+=M0dz
 -----END PGP SIGNATURE-----
 
---===============4069184166268135828==
+--===============0396124616179104530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -668,4 +668,4 @@ b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://g
 7186b81807b4a08f8bf834b6bdc72d6ed8ba1587 ASoC: amd: yc: add quirk for Acer Nitro ANV15-41 internal mic
 bf39286adc5e10ce3e32eb86ad316ae56f3b52a0 ASoC: amd: yc: Add DMI quirk for Lenovo IdeaPad Slim 5 15
 
---===============4069184166268135828==--
+--===============0396124616179104530==--
