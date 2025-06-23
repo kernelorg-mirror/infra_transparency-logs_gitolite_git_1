@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 23 Jun 2025 18:03:03 -0000
-Message-Id: <175070178393.3273376.2346917728597550216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 23 Jun 2025 18:06:02 -0000
+Message-Id: <175070196204.3277041.8841012798680481358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: f0ebc66d68ecf5c5a236a26bf0e62442cf924d25
-    new: 857356a68a2d5f53e62e6ae9cea534922d89ec01
+  - ref: refs/heads/for-linus
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 5aa326a6a2ff0a7e7c6e11777045e66704c2d5e4
     log: |
-         7484e15dbb016d9d40f8c6e0475810212ae181db replace collect_mounts()/drop_collected_mounts() with a safer variant
-         ce7df19686530920f2f6b636e71ce5eb1d9303ef attach_recursive_mnt(): do not lock the covering tree when sliding something under it
-         857356a68a2d5f53e62e6ae9cea534922d89ec01 Merge branch 'fixes' into for-next
+         5aa326a6a2ff0a7e7c6e11777045e66704c2d5e4 PCI/PTM: Build debugfs code only if CONFIG_DEBUG_FS is enabled
          
