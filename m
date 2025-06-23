@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 23 Jun 2025 16:34:27 -0000
-Message-Id: <175069646731.3193764.8902309009484879503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Mon, 23 Jun 2025 16:34:36 -0000
+Message-Id: <175069647602.3194388.1644709081673261594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: c11f34e30088b25b7e240e12566fcf28f7ad07cc
-    new: 3ce7cdde66e65a400b2d1b2a7f72c499e1db26b6
-    log: |
-         3ce7cdde66e65a400b2d1b2a7f72c499e1db26b6 selftests/bpf: Support ppc64el in vmtest
-         
+  - ref: refs/tags/damon/next-2025-06-23-09-35-on-v6.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: a489d289e219f10bf16d1c352cb870176d4ec4f7
