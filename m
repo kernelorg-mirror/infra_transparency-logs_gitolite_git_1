@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 23 Jun 2025 12:00:16 -0000
-Message-Id: <175068001673.2926359.4880803165005942799@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7733515606055739187=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 23 Jun 2025 12:01:28 -0000
+Message-Id: <175068008874.2927049.8388885738232195716@gitolite.kernel.org>
+
+--===============7733515606055739187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/syscon-rework-4
-    old: df3f0f49c38e40455bbcdaee6ecd3380ea253501
-    new: 7faa8dee1f1fb7788417f3daf61913d0ad95af6e
+  - ref: refs/heads/master
+    old: 4fa643213d3d6bbcf8954bac2571a7c9a2048671
+    new: 976f0b66bfaf70c550d56de9fbb0c3d6db5135e1
     log: |
-         bf065e7e6f062022727076cf23563f06a5fa3c20 dt-bindings: mfd: syscon document the control-scb syscon on PolarFire SoC
-         9393f719b9a5ac1993ffa91dc1c1844479ea1109 dt-bindings: soc: microchip: document the simple-mfd syscon on PolarFire SoC
-         9ac2fada5a1614544f1ea1ac6f0c548b2a4448a7 soc: microchip: add mfd drivers for two syscon regions on PolarFire SoC
-         b0541afbdeba8cd3a71a0999e4fe80d14ecf801f reset: mpfs: add non-auxiliary bus probing
-         70f99a5ae2ac56273dacff546c35645064a47f3b dt-bindings: clk: microchip: mpfs: remove first reg region
-         05466ed9721739d8795aef4e0a0d0480a4a611ec riscv: dts: microchip: fix mailbox description
-         e8bee8b8bccb71c2bf08fbef3ec534e62fb76867 riscv: dts: microchip: convert clock and reset to use syscon
-         7dad5fc747f1bfee1a37589177beea18d26f8423 clk: divider, gate: create regmap-backed copies of gate and divider clocks
-         7faa8dee1f1fb7788417f3daf61913d0ad95af6e clk: microchip: mpfs: use regmap clock types
+         976f0b66bfaf70c550d56de9fbb0c3d6db5135e1 5.10-stable patches
          
+
+--===============7733515606055739187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750680125 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1750680085-f1ef5182d76b2135145dd6eecfaeeac74739421c
+
+4fa643213d3d6bbcf8954bac2571a7c9a2048671 976f0b66bfaf70c550d56de9fbb0c3d6db5135e1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhZQj0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7zQP+gPZZNvyqvAdMDrfiqFS
+r3A5GgWzDZkhl3iC86DccxP45SNzkjnrz+7wm9nYyT1e1jQypTRc8yo9UKBSzdSh
+z+wIaDO19cl4K2WONRMpTg4ZkahLqLcNj+ixjJFNO8gjQ2cbtIruyjK87dqjUTY2
+8kJr0+H9XLDRBIK6JdCeGoVuRgebvbrnH6b/B6rz38BVS/iJMYRf7cXQFP23UCNU
+ev0SN+BxDN6zF6jUw2BnEhLo5NCHFbeiQhgychsRclmExMc0Y4ad4xAu/lD9n/uB
+xk2UJ794zachBVri1ZjkBO+psgl84O0Sqf4pLVV3NfMPoYMMd9RJnav6vg7Wm8sa
+ws4jq8sYfc6NQRcg6VqH2VTYhmntNZMwqPuQwSOp9PFQs2YVmhAfYCWGgoIDDsF7
+gvgxBJB1jrEhziPh6zuE0nt5tEz6xktoYxIIx6gjifBeH/4yK8fnORFRxmiKke4k
+aeOJqUXXtILjiBQBFKltF2tqNEa1U/xY/CPKjcDkXa9zVu/ivfH25SV10X+bOCdl
+u4TMkZcXNAE88gWwTFB++ezaAlThsI1K6kzv9OrljFisf8Nft+eCEhVh0EJwCqgr
+UgE1DXqpGLpaJWC5/sZBBRwqUT5g/zPar9s0t1c8rKDkgl7Z9wjFU9NFsgxKf04x
+1FGZLac9jY0/jJL3zdGpMbTz
+=z47J
+-----END PGP SIGNATURE-----
+
+--===============7733515606055739187==--
