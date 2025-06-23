@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8991268481924167816=="
+Content-Type: multipart/mixed; boundary="===============2783867952919912229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 23 Jun 2025 13:31:43 -0000
-Message-Id: <175068550382.3016260.4930478998767865181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Jun 2025 13:31:47 -0000
+Message-Id: <175068550741.3016420.17956662522046938101@gitolite.kernel.org>
 
---===============8991268481924167816==
+--===============2783867952919912229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 8acfb165a492251a08a22a4fa6497a131e8c2609
     new: 86731a2a651e58953fc949573895f2fa6d456841
     log: revlist-8acfb165a492-86731a2a651e.txt
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/regulator-6.17
     old: 3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115
     new: 19cbc930c209d59a2c9828de4c7b767e9f14667e
     log: |
          19cbc930c209d59a2c9828de4c7b767e9f14667e regulator: pca9450: Support PWM mode also for pca9451a
          
 
---===============8991268481924167816==
+--===============2783867952919912229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1750685539 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1750685501-75e770d76d505841420875b0f79c931cc36537e0
+pusher C3F436CA30F5D8EB 1750685542 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1750685505-071399656a55c0fdc73651a997513a732c4680fc
 
-8acfb165a492251a08a22a4fa6497a131e8c2609 86731a2a651e58953fc949573895f2fa6d456841 refs/heads/for-6.16
-3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115 19cbc930c209d59a2c9828de4c7b767e9f14667e refs/heads/for-6.17
+8acfb165a492251a08a22a4fa6497a131e8c2609 86731a2a651e58953fc949573895f2fa6d456841 refs/heads/regulator-6.16
+3e1c01d06e1f52f78fe00ef26a9cf80dbb0a3115 19cbc930c209d59a2c9828de4c7b767e9f14667e refs/heads/regulator-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhZV2MACgkQJNaLcl1U
-h9DUoQf/fWNOEy31h8SeiwFhJTyorfHnNWPH/y8ty8slZiEtEHfl88Rksb4Fatxl
-FCyFmtxm477oFEgTeGLl8jZA0K9eZ3/hgU6VBALaf4YFg6bcfHmxrOROsZRtIEUa
-Gyu9uVel3YqkBpdLqsokCUeOfKHMV5CBmXyASkgwb3Bir2bQxQG0MLhtR85c+KFB
-uyvf7i/vLNvLAiZWtbshcGtux6D+neHrt4z7L3AV58U5UXtPpL09lfAVcgIf8RVM
-ih1Qg7+63EyrqAsYQXWie9V79XfucaMIkVVNOU5mokat5xAMCdWvOO3llotjesxB
-yqM9fnG3zMwAXzzsE8pcGpU6xkEV6w==
-=k46Q
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhZV2YACgkQJNaLcl1U
+h9Ahvgf5ARUC2fp8DrxqYDXvOoLJcZnsbgDFX21dU191MWvT64blgaI6ctHHF1hV
+RI57vnoHo5S5WMS87jbg0ptY0SoeC/oClu+GOSNQ6s5lv8m2bOdszBoFU4JVe8Z6
+6SCF5/lvBbNFR2VH6q4R2LOAP3/AxY1A6b1fnxKZXZW7qgR5b1Zb4RlpY9werjuG
+g93EEl6pXordNoH/VTwxbjouAMbEPfDJbmJmztJ0f4Uih9GYMD4NNq7pNvqo5ksf
+Ct6vuZf73cAbrjfg8Mm8bjHZpH5ojH2Slb0It7VJHKzWDhWA4iNpFTfb/OZw7/7d
+2SZG9GaObrlK0qWmhIBQR+ZarlNXqw==
+=Zy0X
 -----END PGP SIGNATURE-----
 
---===============8991268481924167816==
+--===============2783867952919912229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -437,4 +437,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============8991268481924167816==--
+--===============2783867952919912229==--
