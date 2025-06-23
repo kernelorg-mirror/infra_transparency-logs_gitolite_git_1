@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0045151972571288887=="
+Content-Type: multipart/mixed; boundary="===============8888214063161760427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 23 Jun 2025 14:06:03 -0000
-Message-Id: <175068756373.3050417.12048183855886313686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 23 Jun 2025 14:06:50 -0000
+Message-Id: <175068761005.3050962.12143403515275353632@gitolite.kernel.org>
 
---===============0045151972571288887==
+--===============8888214063161760427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 86731a2a651e58953fc949573895f2fa6d456841
     log: revlist-d222b6e6fb31-86731a2a651e.txt
 
---===============0045151972571288887==
+--===============8888214063161760427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -371,4 +371,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============0045151972571288887==--
+--===============8888214063161760427==--
