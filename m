@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5291982506822893509=="
+Content-Type: multipart/mixed; boundary="===============6537142522226109766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 23 Jun 2025 14:47:24 -0000
-Message-Id: <175069004406.3086754.14195999753785825060@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 14:47:35 -0000
+Message-Id: <175069005586.3087158.15719765472930673146@gitolite.kernel.org>
 
---===============5291982506822893509==
+--===============6537142522226109766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 757259db79fc6054780e07bb284f768b01cf8fa9
+  - ref: refs/heads/pending
+    old: a5c0b29aa775807842e1e1311928b75a938f8459
     new: 05062834350f0bf7ad1abcebc2807220e90220eb
-    log: revlist-757259db79fc-05062834350f.txt
+    log: revlist-a5c0b29aa775-05062834350f.txt
 
---===============5291982506822893509==
+--===============6537142522226109766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-757259db79fc-05062834350f.txt
+Content-Disposition: attachment; filename=revlist-a5c0b29aa775-05062834350f.txt
 
 36670b67de18f1e5d34900c5d2ac60a8970c293c wifi: ath12k: Avoid accessing uninitialized arvif->ar during beacon miss
 0f9842b0b0e58173ae0d4f9838e4d9375b29a38b wifi: ath12k: disable pdev for non supported country
@@ -46,4 +46,4 @@ b79742b84e16e41c4a09f3126436f39f36e75c06 wifi: ath12k: Enable REO queue lookup t
 54c350055b1da2767f18a49c11e4fcc42cf33ff8 wifi: ath12k: Fix double budget decrement while reaping monitor ring
 05062834350f0bf7ad1abcebc2807220e90220eb wifi: ath12k: Pass ab pointer directly to ath12k_dp_tx_get_encap_type()
 
---===============5291982506822893509==--
+--===============6537142522226109766==--
