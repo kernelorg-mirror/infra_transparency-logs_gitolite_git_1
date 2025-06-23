@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8888214063161760427=="
+Content-Type: multipart/mixed; boundary="===============4849424788304699370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 23 Jun 2025 14:06:50 -0000
-Message-Id: <175068761005.3050962.12143403515275353632@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 14:06:54 -0000
+Message-Id: <175068761466.3051210.15593867721680176192@gitolite.kernel.org>
 
---===============8888214063161760427==
+--===============4849424788304699370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: d222b6e6fb31e320eca506e665694d8ddf459157
     new: 86731a2a651e58953fc949573895f2fa6d456841
     log: revlist-d222b6e6fb31-86731a2a651e.txt
 
---===============8888214063161760427==
+--===============4849424788304699370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -371,4 +371,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============8888214063161760427==--
+--===============4849424788304699370==--
