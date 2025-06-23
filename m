@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3252035350215255781=="
+Content-Type: multipart/mixed; boundary="===============2579610193056488491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 23 Jun 2025 18:31:33 -0000
-Message-Id: <175070349391.3300627.17626296352216908422@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 18:32:30 -0000
+Message-Id: <175070355050.3301185.13242906220450383226@gitolite.kernel.org>
 
---===============3252035350215255781==
+--===============2579610193056488491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,34 +17,35 @@ user: vbabka
 git_push_cert_status: E
 changes:
   - ref: refs/heads/b4/anon_name_cleanup
-    old: 467cffe593e3e6754895f978e5450dab7d737e49
-    new: d89766e54e1bbea95d069cce9c565c6bb5744090
+    old: d89766e54e1bbea95d069cce9c565c6bb5744090
+    new: 11fbefbf2c465b336585f0aa27e7f44feddf7675
     log: |
-         d89766e54e1bbea95d069cce9c565c6bb5744090 fixup! mm, madvise: simplify anon_name handling
+         215d12c1ff8812e65a1b505647845bbd11ccbb0e mm, madvise: simplify anon_name handling
+         11fbefbf2c465b336585f0aa27e7f44feddf7675 mm, madvise: move prctl_set_vma() to mm/madvise.c
          
 
---===============3252035350215255781==
+--===============2579610193056488491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1750703527 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1750703584 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1750703489-c5276f10b1b27719c32991c342569f06a6d73473
+nonce 1750703546-1fc707eb3b41aa579394acc3acbfdf3720202d01
 
-467cffe593e3e6754895f978e5450dab7d737e49 d89766e54e1bbea95d069cce9c565c6bb5744090 refs/heads/b4/anon_name_cleanup
+d89766e54e1bbea95d069cce9c565c6bb5744090 11fbefbf2c465b336585f0aa27e7f44feddf7675 refs/heads/b4/anon_name_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmhZnacACgkQu+CwddJF
-iJpH6wf+JD5vBphNQsoFQXRVbNB2Pxyo3mdBRODWDEWl+J5NAWAKPTQvtwBfBtja
-IF/p7Xmj/Lv+DlQvPfXtSP7LHtK9LXZZjmtBI9pe0L3ymNP3wivBk8uv1pdOhGZ1
-0qR7gTx1EZE7NJj9nQqkHAFAVXT7MiX1/QL9MQx02E2tytSKVggyv+e6tI6/zfti
-rseFzTi3IyPFxkP+zbRrA+nup/0FDrvLfl6oxyWX1oRxvPeRbY0PkR5+siyVcS+b
-pqdF5IvV+VkDI2LvznBDM5yFQ0ykwGn3n1IN63EWKvUviiLdi952TUETTk4HvMKb
-DwRQ2zEKzodyVxkp67psphlXrh570A==
-=WwP2
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmhZneAACgkQu+CwddJF
+iJocSQf/aYCGbbF1DRettK+QzkrJi14DUn2DelGaqi6oMBIZD/VGxiD2S9ACkGOR
+4Vo4ocTnEjVR/CxaUC3OXIJkV3Jl5ie6qpwGwtQ1HmR3ZiCGhWlrI8tFXDz5MSO/
+m1/aCoutaH19zdA3qMbziAyvE2gmN5ACOCJTT3vZrpqDE3JcvMaQv6R09pmkFQsm
+5v7MWdnmxl0fhpTCG6uec0kgsIja3xG3oAEch9aULYEnfuhTHLjpfCobEoSOqH+t
+fRp7Gw6Ju3HGn4YyFgVQrDK7Ekp6bigestkcggCyYHkD0YLX7n0rquyPnrJNYfBB
+5PlDMrbS/s7oO6vcY+Rye637RsmnGg==
+=zjKk
 -----END PGP SIGNATURE-----
 
---===============3252035350215255781==--
+--===============2579610193056488491==--
