@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 23 Jun 2025 07:16:23 -0000
-Message-Id: <175066298351.2649017.18425466309508064534@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 07:17:34 -0000
+Message-Id: <175066305443.2649873.6700368365484632949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-next
-    old: fd19792851db77e74cff4e2dc772d25a83cdc34d
-    new: e6bb78570f7d531622ec572ef9ddbe6e66ff16ce
+    old: e6bb78570f7d531622ec572ef9ddbe6e66ff16ce
+    new: a0cfbc67d71c763357a8847305e3d5254028c0da
     log: |
-         e6bb78570f7d531622ec572ef9ddbe6e66ff16ce gpio: sysfs: fix use-after-free in error path
+         a0cfbc67d71c763357a8847305e3d5254028c0da gpio: ts5500: use new GPIO line value setter callbacks
          
