@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3267638238360602685=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 23 Jun 2025 08:08:35 -0000
-Message-Id: <175066611558.2694687.2523078170269059090@gitolite.kernel.org>
-
---===============3267638238360602685==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Mon, 23 Jun 2025 08:10:56 -0000
+Message-Id: <175066625673.2698103.2509345595887135502@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/master
-    old: f616e4ad306f0d68ed1ddb2eb04a397fe4a1e5c4
-    new: 5485103616320497f1cbf2759187d5911dd1315f
+  - ref: refs/heads/jag/mv_ctltables_iter2
+    old: f9a2ec6e95e5cd4582560c2ec2562f7bc8a9ead8
+    new: 501dd0fbc76bcae57902ea000d9c6ccd9d5f226e
     log: |
-         5485103616320497f1cbf2759187d5911dd1315f 6.6-stable patches
+         5262c2992f4f768bdf4f4654efd39bd52d092c4b locking/rtmutex: Move max_lock_depth into rtmutex.c
+         8c30fe23a2d01a702ecd966c3bcaadd9c0661b42 rcu: Move rcu_stall related sysctls into rcu/tree_stall.h
+         9fe1c5d8519b87b8656e463f7faca82b6cf5761a mm: move randomize_va_space into memory.c
+         299e41e8c9c52252a6ed340973a83fa389033b2e parisc/power: Move soft-power into power.c
+         c9224ec8b1c0cdc082fbfd1b98e918499f4e511d fork: mv threads-max into kernel/fork.c
+         61faccd255bb4a341fd878acbea2d6d6a0a1d278 Input: sysrq: mv sysrq into drivers/tty/sysrq.c
+         411cfadf56ff25d39984ea414b8bb86d7c31ff5c sysctl: Move tainted ctl_table into kernel/panic.c
+         bb9a25ccf98032f9955009dde8709286857a8f46 sysctl: move cad_pid into kernel/pid.c
+         b56939fb9606c5b337a6a4231a2b612d3b0aa58c sysctl: Move sysctl_panic_on_stackoverflow to kernel/panic.c
+         2ba3bab76923a08685242df05f8379f6b5ca134a sysctl: Remove (very) old file changelog
+         501dd0fbc76bcae57902ea000d9c6ccd9d5f226e sysctl: Remove superfluous includes from kernel/sysctl.c
          
-
---===============3267638238360602685==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750666152 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1750666112-67edb62e47a40b0477cca071f31cbdf3fb1692bc
-
-f616e4ad306f0d68ed1ddb2eb04a397fe4a1e5c4 5485103616320497f1cbf2759187d5911dd1315f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhZC6gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fVIQAJXEAbGaRyp/veRLzVtn
-9Gi5R4Jdd+MCvASW/Qpisy41N7Brs4zO3WxZapkQgXpbzruCw0B8j2/86Z/ugc5h
-KFiJ4O93DsP8R0uMkz16H2F8KLI34MaWJz04XgBAnKs5y6zPTw9kLLSHD98cFxIp
-b/kLo0oTGjKZOKxCrBIwedv8CRjuocHxssBb+fLx3Fhi1NK27ltoo1Fz0ZS13qGP
-j0sxKXulGYHy6Hhx6ixxt22r//eQIGcIOFfTJ9jSMPlxVoGpr9wQVqnMxec22fgE
-EQuPhVKSHpDglBloC4FM941MKqUaLOmp9vEJJECt1AFwAQv9bTOGOlVupQ/uERi3
-ScVzP/0w0hXissLtl6RieT2S4VZFUrsk/8BHpMysyGBIOX/RWqs6AmiwqPXPHhnZ
-oBADrvl9MXwWOOn5cTs67ImrrlU4dsdbil/sWAGS5mNIbLvOhaLrM9HFCmuLwKem
-WfMKDhJgZfxZNeptp5ivbWxMwapWBBOBd1A6FJdboGa4wGPovS4VZrblxX9AsDgs
-iKPsjyrPZ0mDqRs/DiFonVgTB42OCYffjk7o+LoiUG0KsLMvLirvFHf7XYYmgxnL
-+GwsI1L7X2Ujx+GAJrSDO0bwi47GDLPBg4kPUqErKS3YEHpFzC7WN24NgRpt8WgG
-8CTIe4hSvxL7s/B+CJnEc1nP
-=8aoa
------END PGP SIGNATURE-----
-
---===============3267638238360602685==--
