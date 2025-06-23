@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Jun 2025 19:51:05 -0000
-Message-Id: <175070826512.3367413.13798833232740695748@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 20:02:30 -0000
+Message-Id: <175070895020.3376240.17474387518728393303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d3b2afa987b5ffb4352a32e5063e5932e00c9872
-    new: 9f22c3ddb8cf0e49e9b1ad539d7f3bcb59381fad
+    old: 9f22c3ddb8cf0e49e9b1ad539d7f3bcb59381fad
+    new: bfb4a6c721517a11b277e8841f8a7a64b1b14b72
     log: |
-         9f22c3ddb8cf0e49e9b1ad539d7f3bcb59381fad net: stmmac: lpc18xx: use plat_dat->phy_interface
+         bfb4a6c721517a11b277e8841f8a7a64b1b14b72 selftests: drv-net: import things in lib one by one
          
