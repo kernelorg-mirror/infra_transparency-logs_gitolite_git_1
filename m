@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 23 Jun 2025 11:26:42 -0000
-Message-Id: <175067800292.2889160.15686865563883860163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 23 Jun 2025 11:29:31 -0000
+Message-Id: <175067817173.2891218.5865917124836414522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 9ef9f4d18a5d33385af50d8295e194b094532c55
-    new: dac8df4be6a5dd485ca77afd297a5413ad828078
+  - ref: refs/heads/main
+    old: 49c833a10ad96a61a218d28028aed20aeeac124c
+    new: b4e2acf35e2c7b4b77ed7d617899e554273fe3fd
     log: |
-         dac8df4be6a5dd485ca77afd297a5413ad828078 Drop arm64-restrict-pagetable-teardown-to-avoid-false-warning.patch from older trees
+         1c4846b614e018c70b078b1aeeddd134d230602e brcm: Fix symlinks for Khadas VIM SDIO wifi config
+         b4e2acf35e2c7b4b77ed7d617899e554273fe3fd Merge branch 'robot/patch-0-1750607404' into 'main'
          
