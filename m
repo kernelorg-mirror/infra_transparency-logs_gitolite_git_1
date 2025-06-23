@@ -1,65 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0597172955029997228=="
+Content-Type: multipart/mixed; boundary="===============0346484963051091138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Mon, 23 Jun 2025 06:01:51 -0000
-Message-Id: <175065851147.2582288.15460465023481160961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 23 Jun 2025 06:09:38 -0000
+Message-Id: <175065897811.2588320.5401656278193059117@gitolite.kernel.org>
 
---===============0597172955029997228==
+--===============0346484963051091138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/virtio/msg
-    old: dc097267b0671ba364049bc11933d592a493e9eb
-    new: 5f67045e286cdb4e32b1d656ed0370cbc2adb7dd
+  - ref: refs/heads/master
+    old: 6159ec131a6df6a0389654b8453fb9321e13d426
+    new: b73605cb47a0d68cd2b86a1efcad5cd91f571d89
     log: |
-         4749a62eed9a838de25940223ead2e2fc9821e25 virtio-msg: Add userspace interface to read/write messages
-         28130a05bc730ab480903e1fafd914ab8248cbb9 virtio-msg: Add support for ARM FF-A based bus
-         5f67045e286cdb4e32b1d656ed0370cbc2adb7dd virtio-msg: Add support for loopback bus
+         b73605cb47a0d68cd2b86a1efcad5cd91f571d89 6.1-stable patches
          
-  - ref: refs/heads/virtio/msg-v2
-    old: dc097267b0671ba364049bc11933d592a493e9eb
-    new: 5f67045e286cdb4e32b1d656ed0370cbc2adb7dd
-    log: |
-         4749a62eed9a838de25940223ead2e2fc9821e25 virtio-msg: Add userspace interface to read/write messages
-         28130a05bc730ab480903e1fafd914ab8248cbb9 virtio-msg: Add support for ARM FF-A based bus
-         5f67045e286cdb4e32b1d656ed0370cbc2adb7dd virtio-msg: Add support for loopback bus
-         
-  - ref: refs/heads/virtio/msg-v2-xen
-    old: f37689500a981b2bb1746b1684100a765550708f
-    new: a09a85ea4ce0c5a73487bc8368bb72d05d00330e
-    log: revlist-f37689500a98-a09a85ea4ce0.txt
 
---===============0597172955029997228==
+--===============0346484963051091138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f37689500a98-a09a85ea4ce0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4749a62eed9a838de25940223ead2e2fc9821e25 virtio-msg: Add userspace interface to read/write messages
-28130a05bc730ab480903e1fafd914ab8248cbb9 virtio-msg: Add support for ARM FF-A based bus
-5f67045e286cdb4e32b1d656ed0370cbc2adb7dd virtio-msg: Add support for loopback bus
-2776f0829dc244f5dfb50cb5649240efdf7aceb5 firmware: arm_ffa: Fix struct ffa_indirect_msg_hdr
-bc7fcf579a417bbc442213dfbcd6514a4bc90992 dt-bindings: firmware: Add bindings for ARM FFA
-b3173e73a06c0f15c7ce9506e18e01660fbbea2a firmware: arm_ffa: Setup of_node for ffa devices
-ccd24093ad96ec8490bc6426af9a30d095820179 firmware: arm_ffa: Provide .dma_configure()
-d8e1e1f8de922f955b7949155676e4b886c9f04d firmware: arm_ffa: Bump version to 1.2
-9a17f5f046d1c48f5bcba821e7715426bc8f5f89 virtio-msg-ffa: Add support for sharing memory
-4b98eaedf20f0278d9b62036e02cc4090189fc33 virtio-msg: Add DMA OPs support
-054b7e8222231d33e5913f438b1f00beda345c42 virtio-msg: ffa: Add reserved mem support
-240fe3ccda09eba2c6f98d63c000f6997741895b virtio: msg: Poll for events if indirect FFA messages aren't supported
-958bfce64b3f28179ee8b0cf583caf620fec9c74 HACK: firmware: arm_ffa: Partitions can come online after the host
-983e49a8a8c88f1f39e1df291426e03005cc0afa HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-4549881e6ae6fbb8928a6fe0dc8723a8beda89d0 HACK: virtio-msg: ffa: Make it work on the host side
-14f691c1691cbe1bbb95ac029f9de3ba5f174f05 HACK: virtio-msg: Virtqueue index not known for Xen based testing
-0f6f4f5381f8465895be51e11dc94baa56133c96 Revert "virtio-msg: ffa: Add reserved mem support"
-e96079cfed3b4b228396fa7f87b2cdd3db204cea TEMP: defconfig: Reset
-a09a85ea4ce0c5a73487bc8368bb72d05d00330e TEMP: defconfig: Enable virtio-msg + qemu/xen options
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750659013 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1750658974-c2dbb07123703c0071c5e434aa0719fdcf3cff0b
 
---===============0597172955029997228==--
+6159ec131a6df6a0389654b8453fb9321e13d426 b73605cb47a0d68cd2b86a1efcad5cd91f571d89 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhY78YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m2gP/1hmFn7MAPsgusk08lQk
+dY6Qc/86s09vdTIZr0HPpQO/Wuve1+tj5MAja6Sz4ZCsYkNTDd4LDTEBVhzPYXsK
+Rg9PI1p/7cg/egG2K/NPxPXn9b66agSvD0iqYKW3TXwHuJtJAFBkh4zHFddxcGrE
+Pevos1v3JaZDpJhHim89Zq/aCTiC32tJhGN7n8wT1iHrTRdcqlH8KvdaqiMWgyTM
+Wb0x1ZiThvbIhwv1MhW5m/JVi8aKXhrOUiLFWFIkHyNwbjMZv9yS9LY1XYo5jmsT
+e9hRvBH8N+Nlwtqo/d/xi3dsW7AZjHbIm+JvKyiKTdRcXd33k3GtegCs0optMz3T
+aJNrl3QLzR8KX++kzsiav0L4hTcHbRqqVHtd5d8AIvqQK/4Xsci4Bfez6ivVv2wm
+5upDwCX9dJe0qaVbdagGm58MPWiaOnCs2UiH4W22tn1HEPoBhWELbSEZaaslsGQZ
+Iprb7ZcPQKjdZRrsWz/iixJGVSOhZbgH9bPaeBmqZrTPoGBVQSsFcGP7VCi1fv6q
+YpxXoJ7zzO0mvcF3W4Gh7vj9yWf07b8Z63f9vPtS9htpixDIs+iTRll+5xsq6vDf
+F5etnYL8oeYIbZsStD0y1E1DHNdnYI5wy3Nl8Cu8fVpU+jtsci61PngUW6gSjEtP
+GK9r0Uxaukg4TZ8tCoELqHON
+=zQnk
+-----END PGP SIGNATURE-----
+
+--===============0346484963051091138==--
