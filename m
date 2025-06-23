@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3919299083622592358=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 23 Jun 2025 07:27:22 -0000
-Message-Id: <175066364235.2657971.17147739064020373587@gitolite.kernel.org>
-
---===============3919299083622592358==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 23 Jun 2025 07:27:42 -0000
+Message-Id: <175066366240.2658492.2616932923758495265@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: a0cfbc67d71c763357a8847305e3d5254028c0da
-    new: cb908f3699fb137e28017a8fdf506c35762b3eb6
-    log: revlist-a0cfbc67d71c-cb908f3699fb.txt
-
---===============3919299083622592358==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0cfbc67d71c-cb908f3699fb.txt
-
-40b71f1171da13664e9677fbd993d9098315d71e gpio: pca9570: use new GPIO line value setter callbacks
-4027438be823abdcfb50ee2abed06fa4e6af4b7c gpio: pcf857x: use new GPIO line value setter callbacks
-74260fb09cc6f6e7bb6741bedca4463079800ead gpio: pch: use new GPIO line value setter callbacks
-201e0f24a5b73fa73606ae2261d155f00cb6d577 gpio: pl061: use new GPIO line value setter callbacks
-fecdef830c442e4375a3bbdde26af385583fb05c gpio: pmic-eic-sprd: drop unneeded .set() callback
-f1ff31c8ef80f4720ebf7854e6af6204dddd9ce3 gpio: pxa: use new GPIO line value setter callbacks
-309ea5811136a06f572c7abbeae2dcf773629a5e gpio: rc5t583: use new GPIO line value setter callbacks
-76033f1f927cd93907c1e9eb3f86e54015e4366d gpio: rdc321x: use new GPIO line value setter callbacks
-6731ad96e8770595d4a6ceb07e587b07d22da110 gpio: rockchip: use new GPIO line value setter callbacks
-d68ddf651dd2faea5cdc6f6656148b739c38645b gpio: rtd: use new GPIO line value setter callbacks
-cb908f3699fb137e28017a8fdf506c35762b3eb6 gpio: sa1100: use new GPIO line value setter callbacks
-
---===============3919299083622592358==--
+  - ref: refs/heads/ti-k3-dts-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 26bc2019542fe262b799546c5211cc4b88b3f5ea
+    log: |
+         945e48a39c957924bc84d1a6c137da039e13855b arm64: dts: ti: k3-am642-phyboard-electra: Fix PRU-ICSSG Ethernet ports
+         bdf4252f736cc1d2a8e3e633c70fe6c728f0756e arm64: dts: ti: k3-am62-verdin: Enable pull-ups on I2C buses
+         cb2d9c00770e2e6c51864704b5d98c9a0ddccaf9 arm64: dts: ti: k3-am62p-verdin: Enable pull-ups on I2C_3_HDMI
+         56bf596ff9026b616137968102884233c86055d4 arm64: dts: ti: k3-j721s2-main: Add McASP nodes
+         9c1185a99811a173e3c126d664982f6744f80997 arm64: dts: ti: k3-am62a7-sk: Describe the SPI NAND
+         fdc8ad019ab9a2308b8cef54fbc366f482fb746f arm64: dts: ti: k3-am62p-j722s: fix pinctrl-single size
+         a947e57796894f5557183dc1c106804239e30212 arm64: dts: ti: k3-j722s-main: Add audio-refclk0 node
+         26bc2019542fe262b799546c5211cc4b88b3f5ea arm64: dts: ti: k3-am642-evm-pcie0-ep: Add boot phase tag to "pcie0_ep"
+         
