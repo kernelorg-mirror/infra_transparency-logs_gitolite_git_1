@@ -1,74 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5008637838889613664=="
+Content-Type: multipart/mixed; boundary="===============5291982506822893509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
-Date: Mon, 23 Jun 2025 14:46:41 -0000
-Message-Id: <175069000142.3086191.7217127998426149192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 23 Jun 2025 14:47:24 -0000
+Message-Id: <175069004406.3086754.14195999753785825060@gitolite.kernel.org>
 
---===============5008637838889613664==
+--===============5291982506822893509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
-user: kdave
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: eeab081e9d9fbdf4583122ed1caedf541383cf2d
-    new: 3da67f1c78bcbd7556f04d89e31aa4621face50b
-    log: revlist-eeab081e9d9f-3da67f1c78bc.txt
+  - ref: refs/heads/ath-next
+    old: 757259db79fc6054780e07bb284f768b01cf8fa9
+    new: 05062834350f0bf7ad1abcebc2807220e90220eb
+    log: revlist-757259db79fc-05062834350f.txt
 
---===============5008637838889613664==
+--===============5291982506822893509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeab081e9d9f-3da67f1c78bc.txt
+Content-Disposition: attachment; filename=revlist-757259db79fc-05062834350f.txt
 
-da4c6041fafaa99cea62a049e4a37d2c495a5033 btrfs-progs: check: fix false alert on missing csum for hole
-3354928ce5965c9176ffff63d02639c119411968 btrfs-progs: device replace: fix an unexpected new line when replace failed
-5ec0cf77e8afdb3fce3ae6e75f344acf4f1f087b btrfs-progs: rescue: add new command fix-data-checksum
-46c93e31f6fdebdf9ec1cd3ab34856d722c99b94 btrfs-progs: fix a bug in btrfs_find_item()
-cdf3c10d85370c2c0b0a89bbeaf6c3c62f767f15 btrfs-progs: fix-data-checksum: show affected files
-e99cae2562776d77b84c26383d28652d7b0ca2a4 btrfs-progs: fix-data-checksum: introduce interactive mode
-e3b9a9d6ab45435183d894cd0f0ddc8cbbdf1f2f btrfs-progs: fix-data-checksum: update csum items to fix csum mismatch
-c1a82de5151207b6ff8e7b6a0d6cbdf389a57a91 btrfs-progs: fix-data-checksum: introduce option -m|--mirror
-bde483434bb2bc99ee50a70188e484789d70ca4a btrfs-progs: docs: clarify compress-force mount option
-7a057d7792916439148ea5368d8afdf38ecd8add btrfs-progs: docs: mention that fallocate disables compression
-79263120b42f2d80e91b65a24f3172ea49403cf4 btrfs-progs: check/lowmem: fix a false alert when counting the refs
-4300a9e063d2ef1153b40bb63fecadd40fb150be btrfs-progs: tests: fix image for 020 which has incorrect super block dev item
-6f5b0b1bd65a732af194ffd8a202321d71da4609 btrfs-progs: remove the unused fs_info parameter for btrfs_csum_data()
-9453a94104c075328e8b1d3c06bb9b0499d12f3a btrfs-progs: mkfs: do not use extent buffer to write super block
-2c6f016a94a5952e96a957289bc3440131a769c1 btrfs-progs: print-tree: enhance btrfs_print_leaf() to handle NULL fs_info
-577e6b74a870253a29faa4d2bff838d8257b76ce btrfs-progs: allow new inodes to inherit some flags from their parents
-78ef54ecf7898220ced7fa49da54c3153a151e2f btrfs-progs: do not generate checksum nor compress if the inode has NODATACOW or NODATASUM
-9f9d29b415251f5d9d3101eb72211cec3c1759c3 btrfs-progs: mkfs: add --inode-flags option
-57364d98d010728c966acebac7b03a4755027079 btrfs-progs: tests: new test case for mkfs.btrfs --inode-flags
-940d401326dc6e1a69b6da86b8f858f718def0ef btrfs-progs: zoned: create a data block-group for relocation
-efad87150934edc3b2dd8ea5c188d17e83748319 btrfs-progs: print csum values on superblock mismatch
-f01bb9b6c12b60d4c6e22e608fced6c77c420b73 btrfs-progs: docs: fix kernel version to set defrag compress level
-92336b434e331e47bcf89f607bc4be0802abc201 btrfs-progs: convert: add feature dependency checks for bgt
-30fa93610aa555eac9214622f2b50c4bc07a552d btrfs-progs: convert: replace the bytenrs check with a UASSERT()
-e9a77733fed842f8f11b46751295126e0e649f89 btrfs-progs: convert: simplify insert_temp_root_item()
-e3e725c2f030da011a805a2b28c11801615cc5d2 btrfs-progs: convert: simplify insert_temp_dev_item() and insert_temp_chunk_item()
-50afb2ac0012d28090a647fe3b055960a88710c8 btrfs-progs: convert: simplify insert_temp_dev_extent()
-7a5cd95b8b6fe6389fcfb863ab46e63ef04f6466 btrfs-progs: convert: simplify insert_temp_extent_item() and insert_temp_block_group()
-d2f7f8697737f6b2fc5fa77f1800fa0be5e8d7a8 btrfs-progs: convert: merge setup_temp_fs_tree() and setup_temp_csum_tree()
-b20baf13254827d5c1692d0b42e2e14734b8a52e btrfs-progs: convert: implement the block group tree support properly
-88b9650167866e040471f89d63b3b9f1b78977f0 btrfs-progs: tests: add a test case for convert with bgt feature
-0d3d22c40eabd705bcbbe4319b31db6243f33845 btrfs-progs: docs: add 6.15 kernel development statistics
-318139fbc216fe1155cac72c3907101973a94ccc btrfs-progs: docs: update 6.15 contribution graphs
-3aa2f942fc0434bfe8414d3a91880ae5ac1b1cd5 btrfs-progs: subvolume delete: enhance warning message when deleting default subvolume
-5aeaf21c32bc6ef2ca430fe78941e6f7a03b36ed btrfs-progs: restore: remove stale debug message
-66e361978ab7d9b7c339995b8851515145a9bef5 btrfs-progs: list-chunks: fix typo in help text
-a30f59d1df0aabdbefb570e25ec77e14ce5090c2 btrfs-progs: merge device id comparators
-835ff5bc7f81efb5ab9fddc4d2a8f31205b59072 btrfs-progs: rename local dev_list to devices in btrfs_alloc_chunk
-94f9a0354d8999279f77e9ad034442b5e348de6c btrfs-progs: tune convert-bgt: fix uninitialized value which leads to failed resume
-be1012657882215498b809e6f3ed8aa2289dd418 btrfs-progs: optimize the block group item load for half converted fs
-7aa089a9549b1586ac4bb9ee3879c9944aff90ec btrfs-progs: tests: add image for btrfstune bgt conversion
-5d47f58fc37fbc93d630d30183e8a2d3354d58e6 btrfs-progs: tests: add execution permission and warning messages
-7b446e405abda0ae59c266f84d36cbfb5fa8e6fb btrfs-progs: update CHANGES for 6.15
-3da67f1c78bcbd7556f04d89e31aa4621face50b Btrfs progs v6.15
+36670b67de18f1e5d34900c5d2ac60a8970c293c wifi: ath12k: Avoid accessing uninitialized arvif->ar during beacon miss
+0f9842b0b0e58173ae0d4f9838e4d9375b29a38b wifi: ath12k: disable pdev for non supported country
+14c7d7eac1bfc29917acedb894e09dae6c00a014 wifi: ath12k: Prepare ahvif scan link for parallel scan
+feed05f1526e81677f508b026fd2d66d178f65f8 wifi: ath12k: Split scan request for split band device
+acc152f9be205d76771f8156002d55c3fcd21252 wifi: ath12k: combine channel list for split-phy devices in single-wiphy
+437c7a2db6a34db2a9048920694a2bf9b0169726 wifi: ath12k: update channel list in worker when wait flag is set
+906619a0096747adbce9415e10b639cfd2c5e714 wifi: ath12k: handle regulatory hints during mac registration
+49375e11819b0d0f59ba59726d8e0b47656f5406 wifi: ath12k: avoid bit operation on key flags
+66e865f9dc78d00e6d1c8c6624cb0c9004e5aafb wifi: ath12k: install pairwise key first
+359d69285adc4f4a6a4bdafac30f3bd917873bbc wifi: ath12k: remove monitor handling from ath12k_dp_rx_deliver_msdu()
+7c0884fcd2ddde0544d2e77f297ae461e1f53f58 wifi: ath12k: Decrement TID on RX peer frag setup error handling
+3abe2740e50f86401aa3518e9b69c6abefaa020a wifi: ath: Add missing include of export.h
+e435827f6d0c4ace62cc9dfed5e337fa4549994a wifi: ath9k: Add missing include of export.h
+32c3a0f8894311c743b2a6a15b50b13d01411ce1 wifi: ath10k: Add missing include of export.h
+f204e0377efeb5f42c7c518febf82f4af32567f0 wifi: ath11k: Add missing include of export.h
+c19c24c3b9e2c4d656472738f67ffc68a9b85cb0 wifi: ath12k: Add missing include of export.h
+b79742b84e16e41c4a09f3126436f39f36e75c06 wifi: ath12k: Enable REO queue lookup table feature on QCN9274 hw2.0
+54c350055b1da2767f18a49c11e4fcc42cf33ff8 wifi: ath12k: Fix double budget decrement while reaping monitor ring
+05062834350f0bf7ad1abcebc2807220e90220eb wifi: ath12k: Pass ab pointer directly to ath12k_dp_tx_get_encap_type()
 
---===============5008637838889613664==--
+--===============5291982506822893509==--
