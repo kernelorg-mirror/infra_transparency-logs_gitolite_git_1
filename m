@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 23 Jun 2025 23:58:38 -0000
-Message-Id: <175072311887.3575515.13987510741200672008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 23 Jun 2025 23:59:49 -0000
+Message-Id: <175072318906.3576727.13027165562019416646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/v2_20250612_kuninori_morimoto_gx_asoc_standardize_asoc_menu
-    old: e64e4da146b21aa9b17750352bd983245aa317cb
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 7df6c0245595871500758c4cfa6052081e6687c9
+    new: b630c781bcf6ff87657146661816d0d30a902139
+    log: |
+         b630c781bcf6ff87657146661816d0d30a902139 caif: reduce stack size, again
+         
