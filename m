@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0424912231847461258=="
+Content-Type: multipart/mixed; boundary="===============3313028531148745943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 23 Jun 2025 17:00:25 -0000
-Message-Id: <175069802550.3218961.8381364352493195057@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 17:01:25 -0000
+Message-Id: <175069808502.3219642.17679580075715679867@gitolite.kernel.org>
 
---===============0424912231847461258==
+--===============3313028531148745943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d16813402994bde9201030ef877c9d753227e6dd
-    new: e1ccad54987f65fe5552f06a9d058f649f7c8b4a
-    log: revlist-d16813402994-e1ccad54987f.txt
+  - ref: refs/heads/1GbE
+    old: fc4842cd0f117042a648cf565da4db0c04a604be
+    new: 27390db9592d828b6d3c2764305a5037a9aa969d
+    log: revlist-fc4842cd0f11-27390db9592d.txt
 
---===============0424912231847461258==
+--===============3313028531148745943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d16813402994-e1ccad54987f.txt
+Content-Disposition: attachment; filename=revlist-fc4842cd0f11-27390db9592d.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
@@ -478,66 +478,5 @@ c58b9d1829d45cdbdf5e7977c94c26bc53d0f748 eth: sfc: siena: migrate to new RXFH ca
 14966a8df77e2dffdf765b56abe194aa6b0da325 selftest: add selftest for anycast notifications
 5e95c0a3a55aea490420bd6994805edb050cc86b netdevsim: fix UaF when counting Tx stats
 27390db9592d828b6d3c2764305a5037a9aa969d testptp: add option to enable external timestamping edges
-a31b6d5d8e9b95d3ae0eb53872a42b4d88ddb9f0 coccinelle: misc: secs_to_jiffies script: Create dummy report
-1e716f130a176fe0256509581135cc2484d3312e ixgbe: add MDD support
-3b2d97aeedec183b81ac2c1985f8669d77517e06 ixgbe: check for MDD events
-fe28eb724b8168ba34fc37a63172aef02430db11 ixgbe: add Tx hang detection unhandled MDD
-c858c974ad7372c76a7940f73134496ad3d87b90 ixgbe: turn off MDD while modifying SRRCTL
-2e6525409c796d75a386f5281c619b43327cf502 ice: fix lane number calculation
-41e52b516317604e4f98a9762ad3fe7f071ae904 ice: Allow 100M speed for E825C SGMII device
-d6003e64841322faac536cad7b8d220faab2b994 ice: Remove casts on void pointers in LAG
-e5a8113e6d548c7d0a6f0b8986888c3b394220a6 ice: replace u8 elements with bool where
-357dc7e027c25b5a2db1bb6932209044b44884ba ice: Add driver specific prefix to LAG
-0171238bdf10c57732fbcefe33c90ce88d6de18d ice: move LAG function in code to prepare for
-881d87a0bdf62cd74ecd4352b3c68b73795ae088 ice: Cleanup variable initialization in LAG
-87796c0464f73c14c6ae0d26dcc58eb2f9078872 ice: cleanup capabilities evaluation
-23af968c08fcc80a3645084f913aa19deb362805 ice: breakout common LAG code into helpers
-dd3e044fd170ecce8ef741b319a559a4154aecf0 ice: Implement support for SRIOV VFs across
-6a9d64bc1464a78f3640f24df679bd41f5946a4a virtchnl2: rename enum virtchnl2_cap_rss
-0031238f56ee2af847db25f704e12e89a16404d7 virtchnl2: add flow steering support
-bac01ddd7937aa4dddc0ffa449b8f542fb9c9a8e idpf: add flow steering support
-5309f76be60c1be75e5d0884008ceb6c0e14fec9 ice: add ICE_READ/WRITE_CGU_REG_OR_DIE helpers
-b286e72183a1cb3fc00ca1393372e5e6a6e65466 ice: clear time_sync_en field for E825-C during reprogramming
-f621c295dcfa0030642af003322d9763fd58bcb0 ice: read TSPLL registers again before reporting status
-a5a9899f8e6fe7d80f65c50ba6613a4dc6696d38 ice: use bitfields instead of unions for CGU regs
-ca47ae0b23628bc1a8001861d3479b1bc29e9338 ice: add multiple TSPLL helpers
-e17c43603039eca1e5ba31ff04334bd1ea4d7463 ice: wait before enabling TSPLL
-2887fc87dd894a35c7634d44c926d63900affc4c ice: fall back to TCXO on TSPLL lock fail
-fea275e602f9bd345d14e7e6d72e572d18131d62 ice: move TSPLL init calls to ice_ptp.c
-381a8aaea208101f16071bdb4f1772f7fb67d52c ice: default to TIME_REF instead of TXCO on E825-C
-7da895441033892e471475e8a2e6baa00db62f73 ice, libie: move generic adminq descriptors to lib
-990392fdb9e96926e9ffd648f5a445d64a071f6c ixgbe: use libie adminq descriptors
-ae2b4eb91fe466edf70ae9e2378f03c92af8a5bd i40e: use libie adminq descriptors
-ac318fbbbe36c9708b912d9b983f3656094a01a7 iavf: use libie adminq descriptors
-ba1f60fab6d75d16a3c7e4b40df3c52e0d87d13b libie: add adminq helper for converting err to str
-a8d8ea0c719abf4af987ad15e6f4302cfb1bcabf ice: use libie_aq_str
-34c1dcdab13724f70b8d722ed1db7af629371c1f iavf: use libie_aq_str
-9ed5bd9018dc092da7362cb0b377275364569f18 i40e: use libie_aq_str
-68ff4e69f9cb7c48944cb2a13f6acccfb5464392 ice: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-c19f43bb0da189e6beec8882248f27775ee66617 igc: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-7496a207d01dcc01a8a6755e02c7cbf09daea72e igb: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-35c7bd796e2f1851024562e82bb7febc83ea5634 ixgbe: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-d89459ef794378561b238b01f2acbe527627f58d i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-68e310329f88d1989ed5857832db62264b4fc618 idpf: introduce local idpf structure to store virtchnl queue chunks
-bdd4fa83a5972aa3e1047144b40af283e6f3ccd8 idpf: use existing queue chunk info instead of preparing it
-75b2eac98b233f044ad2a002d8ce408bfcccc188 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
-a4d9edc722c2769249557e3bd8105cad5d018c89 idpf: move queue resources to idpf_q_vec_rsrc structure
-72281f39aaf66b01be8c9d59f7fb9eb0d58da2da idpf: reshuffle idpf_vport struct members to avoid holes
-3312b30a968f77e5738b95f071908c5bfa2870a2 idpf: add rss_data field to RSS function parameters
-db54cba18a81553aabf9782602a4e91475e0d2bc idpf: generalize send virtchnl message API
-bc9a300f0804ef483e60755fb515b78aa1b78212 idpf: avoid calling get_rx_ptypes for each vport
-025bcf681cc4abf254c050deebca26f26260159f idpf: generalize mailbox API
-d1281ac6a3ebec41a3a747108d50f742f395ff88 ice: add 40G speed to Admin Command GET PORT OPTION
-f726a81fbc0fadbe97b1cb4c4ce8ba727664329c idpf: convert control queue mutex to a spinlock
-cc24c0492443666e7c8c2f412affb14d8ed4038f ice: add E835 device IDs
-c154e3ed2916705e77b81668f609edb4391bf24b ice: add NULL check in eswitch lag check
-39e4c1cd2bef665efdaafbaf64d541e95ca79560 idpf: return 0 size for RSS key if not supported
-1cb610053decf0d71468fd8446d984fcd991036d igc: disable L1.2 PCI-E link substate to avoid performance issue
-76487f86b1d175795d39b416653bbfe500ace73c devlink: add overwrite mask from factory settings
-095924cc933691fe4d555e69be57902d247625cc ice: add overwrite mask from factory settings
-70492cb763e5bd49aa52c8d54e4cb2dff32f8588 ixgbe: add overwrite mask from factory settings
-d8cdf14918bb09516a543b82e907119c742da9cd igbvf: remove unused interrupt counter fields from struct igbvf_adapter
-4c89bc4eb2a13299353d72b38e6a78bc57e84e74 igbvf: add tx_timeout_count to ethtool statistics
-e1ccad54987f65fe5552f06a9d058f649f7c8b4a ixgbe: initialize aci lock before it's used
 
---===============0424912231847461258==--
+--===============3313028531148745943==--
