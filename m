@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4867348968631865110=="
+Content-Type: multipart/mixed; boundary="===============7523089570423183915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 23 Jun 2025 23:08:30 -0000
-Message-Id: <175072011069.3532915.4617370895556867105@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 23:09:12 -0000
+Message-Id: <175072015259.3533423.4111968911206850292@gitolite.kernel.org>
 
---===============4867348968631865110==
+--===============7523089570423183915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 6d658392b3f0f3fa3d6fb0ae948f2d07a2f26483
-    new: 8eb22dcfe50e130158c088b16948660edc256e7a
-    log: revlist-6d658392b3f0-8eb22dcfe50e.txt
+  - ref: refs/heads/fixes
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-0af2f6be1b42-19272b37aa4f.txt
 
---===============4867348968631865110==
+--===============7523089570423183915==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6d658392b3f0-8eb22dcfe50e.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-19272b37aa4f.txt
 
+35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
@@ -1048,7 +1050,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-dccb920a08382a0ee8c9d6f0062da2a726a10e9f ARM: dts: omap: am335x: Use non-deprecated rts-gpios
-8eb22dcfe50e130158c088b16948660edc256e7a Revert "ARM: dts: Update pcie ranges for dra7"
 
---===============4867348968631865110==--
+--===============7523089570423183915==--
