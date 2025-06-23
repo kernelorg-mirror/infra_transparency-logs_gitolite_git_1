@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8991000031974743583=="
+Content-Type: multipart/mixed; boundary="===============7954023300248753140=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 23 Jun 2025 05:50:11 -0000
-Message-Id: <175065781172.2571962.162877979453017469@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 05:50:17 -0000
+Message-Id: <175065781717.2572232.13193411904846379564@gitolite.kernel.org>
 
---===============8991000031974743583==
+--===============7954023300248753140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: eab9dcb76b9fca47402c9e93afca243e745a0f02
+  - ref: refs/heads/main
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: 86731a2a651e58953fc949573895f2fa6d456841
-    log: revlist-eab9dcb76b9f-86731a2a651e.txt
+    log: revlist-19272b37aa4f-86731a2a651e.txt
 
---===============8991000031974743583==
+--===============7954023300248753140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750657848 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750657853 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1750657809-1d9aaa4b9c93b714ff90c30548dd464f24fae1ef
+nonce 1750657815-84d8546e2812861f8d5023405ec2585dab578fc8
 
-eab9dcb76b9fca47402c9e93afca243e745a0f02 86731a2a651e58953fc949573895f2fa6d456841 refs/heads/driver-core-linus
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 86731a2a651e58953fc949573895f2fa6d456841 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhY6zgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N/QP/iubWkVpIhq22pn4Luwc
-YswVgquYGgWV85xuslr895b1zzPqySOJ92rWvwiBLJG/x331jU97vfI7Ttqg6Ee8
-qIv/37vL/xUb7/Gr2E0KZCYsSD9gZC5Rl63IEqTkvnbiLSDg6hqKeKDs9z4zYmI9
-xqH+1gfnOc80l8fHiAQZE6n5Slh4zC9QdcfGAA32nGy8xO7lKcNd9SvZfmuEcS8B
-NzTYs4afPtCm9Dxc+aT3uBYJZ3JvYeJR5A3AO9xmNvLOaFBG0X1Q1ZfsF+TiCsoY
-UNesXwAXIXb7+aDhqax0Lj1WQ35hKMRg89J7MHdwgtsrwuBmSUsDzongQHbVutDm
-EQeixf6bRw8aDbFD0sZ9KJeaP4Q9NPDLtFFup2TEyAPrOH43yOmFa9TqOIsTunAf
-unNj6i0+tTB8ZLPqMOvFdeWp8tvBAAgcv8rxZcudOf4lumKBtWPxlHUfVsTnvAgb
-ZSfRg3GetX5sqDoFj2NrEcZ5pS9vrSpJjorHVE4yLjU+Hy0C27dQsQXE8GPEUWx0
-NBM9G9iJPUAzgN0ZaKKVCyhBRcYZgNKhk65grHA/XTbgfL4RkyCAtYmIgBHItZXN
-g76kRBVgZzI2nTbsrMO6Fu5BTxT3MMjkK+1fZJxgZCEBU1Cqw8re9RS/zwuPzoWd
-hqKqZA358zP4+bNiGI85fojA
-=EFw1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhY6z0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ngEQAJtSZR6yG6zKVMc42Ojp
+Srr0I5yXfWqfgxSNpioR3nqpZF56KsdcZC/XvfILsJg+UT1rtBIuwHhmcb6udmOr
+auAl3NUvjPUnOVwadbYIeSlGanXiwNLnvjlym6CuOGrvL1UG0WJsO5M0U7fvkbIi
+ePfpkjfkeXsgJ3hcMgB45lb8AxqGWaFwVgW8FoJSOAiNMi7+ol494IGgefALDQuS
+1/Q1SkG2voaoAYca6UPKTiMzhwVIDW/6mFbFdaT8FW1lb+snxw5mzxxxKaJf0Jk+
+qdccke7YvjsUniwLUYe/FRvjn92xj2JgwyHx7WseLH6YSkzPpBt2QZ+C0obCryD1
+TTXNOdBTKyGTeZ3rrpqpNk4piygoh5VvUeaP0Ff2apt6xVttqTqm9vlJFbNDfvj2
+hL+s7nwKGpytNgoofuAXQKFTdAaD5rR3bjNEfX81DmAsL9RbmKPE6xwqT0acUULe
+nb48UROyVZt4DQNB1I1i8nO6Kx9FT/m0KORTdJe/erqE/vujlfrP75oAM3DNQpWF
+QLyxRNKhtXv4EJ9/oQAc+aSREOLaWRUoxCko8PToOM0ZdiQbHH4ynWoL846tXgNI
+AoxzmJZCacARzA4NHxwSRddqKYO3rtAeldf+T9VTUt50Z0z1QO/1ToH+o38HmKA1
+ut1vl2Nk1l7FNUh9PbCUadEm
+=Ob70
 -----END PGP SIGNATURE-----
 
---===============8991000031974743583==
+--===============7954023300248753140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eab9dcb76b9f-86731a2a651e.txt
+Content-Disposition: attachment; filename=revlist-19272b37aa4f-86731a2a651e.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
@@ -402,6 +402,10 @@ f688b599d711d169b22e99f2d055847d66c4e0d3 Merge tag 'pm-6.16-rc2' of git://git.ke
 18531f4d1c8c47c4796289dbbc1ab657ffa063d2 Merge tag 'acpi-6.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 9ce6c9875f3e995be5fd720b65835291f8a609b1 nvme: always punt polled uring_cmd end_io work to task_work
 b62e0efd8a8571460d05922862a451855ebdf3c6 io_uring: run local task_work from ring exit IOPOLL reaping
+1b56e765bf8990f1f60e124926c11fc4ac63d752 rust: completion: implement initial abstraction
+4b76fafb20dd4a2becb94949d78e86bc88006509 rust: revocable: indicate whether `data` has been revoked already
+f744201c6159fc7323c40936fd079525f7063598 rust: devres: fix race in Devres::drop()
+20c96ed278e362ae4e324ed7d8c69fb48c508d3c rust: devres: do not dereference to the internal Revocable
 25294cb8a404e8116eecaf2f151ee2fd6c17fb9b Merge tag 'drm-fixes-2025-06-14' of https://gitlab.freedesktop.org/drm/kernel
 4774cfe3543abb8ee98089f535e28ebfd45b975a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 efa6bdf1bc75e26cafaa5f1d775e8bb7c5b0c431 ALSA: hda/realtek: enable headset mic on Latitude 5420 Rugged
@@ -425,6 +429,7 @@ a7137b1825b535eb7258b25beeb0d5425e0037d2 drm/i915/pmu: Fix build error with GCOV
 c464ce6af332e7c802c36cd337cacf81db05400c drm/i915/dsi: Fix off by one in BXT_MIPI_TRANS_VTOTAL
 e6382fcf989074566bb9a54bbd3c514d7bb99397 gpio: spacemit: Add missing MODULE_DEVICE_TABLE
 dd2d6b7f6f519d078a866a36a625b0297d81c5bc fs: drop assert in file_seek_cur_needs_f_lock
+b8b8663ac82a2595a0922d30014f60c5547084de mailmap: add entry for Danilo Krummrich
 b081d8564e4a396843a78788476fdcbf70efed06 ASoC: SOF: imx8: add core shutdown operation for imx8/imx8x
 8acfb165a492251a08a22a4fa6497a131e8c2609 regulator: fan53555: add enable_time support and soft-start times
 14c9ede9ca4cd078ad76a6ab9617b81074eb58bf hwmon: (ftsteutates) Fix TOCTOU race in fts_read()
@@ -538,6 +543,7 @@ dba90f5a79c13936de4273a19e67908a0c296afe mtd: spinand: winbond: Prevent unsuppor
 e1c75831f682eef0f68b35723437146ed86070b1 io_uring: fix potential page leak in io_sqe_buffer_register()
 327e28664307d49ce3fa71ba30dcc0007c270974 fgraph: Do not enable function_graph tracer when setting funcgraph-args
 2aebf5ee43bf0ed225a09a30cf515d9f2813b759 x86/alternatives: Fix int3 handling failure from broken text_poke array
+eab9dcb76b9fca47402c9e93afca243e745a0f02 Documentation: embargoed-hardware-issues.rst: Add myself for Power
 bbf10cd686835d5a4b8566dc73a3b00b4cd7932a PCI: pciehp: Ignore belated Presence Detect Changed caused by DPC
 6c5b8895c8cab4fdb496b38513ec417588b58596 ASoC: doc: cs35l56: Add CS35L63 to the list of supported devices
 a55737dab6ba63eb4241e9c6547629058af31e12 drm/amdkfd: move SDMA queue reset capability check to node_show
@@ -671,4 +677,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============8991000031974743583==--
+--===============7954023300248753140==--
