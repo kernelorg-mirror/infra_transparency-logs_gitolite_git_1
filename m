@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 23 Jun 2025 19:39:01 -0000
-Message-Id: <175070754114.3355737.9657268467072417998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Mon, 23 Jun 2025 19:42:49 -0000
+Message-Id: <175070776936.3359564.4778789632755363082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: c833e8cc4dca7e3c0a9d0b9047a1b4822b229262
-    new: 2301e80bd2967b529ef2a988fe0d4fc36d892b15
+  - ref: refs/heads/next
+    old: 3f8d032afbf4105ffcc8e7373b9802b62dff1e83
+    new: 22d004b154db9994431cf560b45a09b30479e09a
     log: |
-         2ca6c0690d05f9980736c0cff4429d542d690410 perf debug: Add function symbols to dump_stack
-         770207b2196cffe4e44ba3b7b70573879344a3e1 perf srcline: Lower verbosity on addr2line debug messages
-         37871de6c9384135b1e3add2dec9e160049b74d4 perf build: Suggest java-latest-openjdk-devel instead of old 1.8.0 one
-         5078dff14ca7064c00bc6bd47303dbe9e2ed823c perf build: Add the libpfm devel fedora package name to the hint
-         2301e80bd2967b529ef2a988fe0d4fc36d892b15 perf build: The bfd features are opt-in, stop testing for them by default
+         0488b19529df26489c689c18908e76ac01639592 landlock: Remove warning in collect_domain_accesses()
+         ea586db6c88e16d6f26395eb80a1b83c3d4ab0d3 selftests/landlock: Add tests for access through disconnected paths
+         22d004b154db9994431cf560b45a09b30479e09a landlock: Fix warning from KUnit tests
          
