@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 23 Jun 2025 00:44:19 -0000
-Message-Id: <175063945986.2263399.7554486373646423469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 23 Jun 2025 00:58:46 -0000
+Message-Id: <175064032646.2275452.12504424567603424724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/posix24
-    old: 2aec70dc79b7be01f1332aa63718d34183bc31ef
-    new: 9b90e9493cb2d2aea447fc084c93ab7afa1a3e3f
-    log: |
-         d9fde54abc5f0eb8fb8b7c729acad77bf83c6c20 man/man3/ptsname.3: VERSIONS: Document ptsname_r(3) incompatibility on FreeBSD
-         1412243d52174b00633ad1d3ec0b7b799574f0be man/man2/gettimeofday.2: Declare functions with [[deprecated]]
-         9b90e9493cb2d2aea447fc084c93ab7afa1a3e3f man/man3/ftime.3: SYNOPSIS: Declare ftime with [[deprecated]]
-         
+  - ref: refs/heads/20250616_krzysztof_kozlowski_asoc_codecs_wcd93xx_drop_enums_for_chipid_values_minor_cleanup
+    old: 0000000000000000000000000000000000000000
+    new: a48352921f0b15b1f7eff83f5b5613d6ae2350d3
+  - ref: refs/heads/file0Ily0y
+    old: 0000000000000000000000000000000000000000
+    new: 19cbc930c209d59a2c9828de4c7b767e9f14667e
+  - ref: refs/heads/filefoFpvJ
+    old: 0000000000000000000000000000000000000000
+    new: bf39286adc5e10ce3e32eb86ad316ae56f3b52a0
+  - ref: refs/heads/filefSlNCG
+    old: 0000000000000000000000000000000000000000
+    new: c4ca928a6db1593802cd945f075a7e21dd0430c1
+  - ref: refs/heads/v2_20250612_kuninori_morimoto_gx_asoc_standardize_asoc_menu
+    old: 0000000000000000000000000000000000000000
+    new: e64e4da146b21aa9b17750352bd983245aa317cb
