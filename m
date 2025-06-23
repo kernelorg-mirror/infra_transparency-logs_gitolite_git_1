@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Mon, 23 Jun 2025 16:52:35 -0000
-Message-Id: <175069755549.3210576.9741681735697728265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 23 Jun 2025 16:55:59 -0000
+Message-Id: <175069775984.3214316.14517935431516684276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/for-net-2025-06-23
-    old: 0000000000000000000000000000000000000000
-    new: 2cdc00c3c01b05e4e7e7f9b914ce8cf7887096fc
+  - ref: refs/heads/20250623_angelogioacchino_delregno_regulator_dvfsrc_add_support_for_mt8196_and_mt6893
+    old: 024f39fff6d222cedde361f7fe34d9ba4e6afb92
+    new: 0000000000000000000000000000000000000000
