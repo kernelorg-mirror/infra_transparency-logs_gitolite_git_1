@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 23 Jun 2025 15:39:31 -0000
-Message-Id: <175069317133.3137168.5240585569653264402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 23 Jun 2025 15:41:44 -0000
+Message-Id: <175069330425.3141001.18056678985692741136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/main
-    old: a7931ff26b5200623d6a19c629bae19947160ee6
-    new: 0e1d4c5138d2f8a27df871fc03495cc98ea8cb30
+  - ref: refs/heads/rproc-next
+    old: f6588dea0ab2873760b87b3ffbd02316e7826ee0
+    new: 82a4277fa5e027028b955982ea876e24f660f808
     log: |
-         cbbce56d6dcc1ec8fb485dfb92c68cb9acd51410 amdgpu: update dmcub fw for dcn401
-         0e1d4c5138d2f8a27df871fc03495cc98ea8cb30 Merge branch 'amd-staging' into 'main'
+         82a4277fa5e027028b955982ea876e24f660f808 remoteproc: xlnx: Allow single core use in split mode
          
