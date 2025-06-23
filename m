@@ -1,55 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============0730694365362397719=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 23 Jun 2025 14:56:07 -0000
-Message-Id: <175069056723.3096114.9704965768178279142@gitolite.kernel.org>
-
---===============0730694365362397719==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 23 Jun 2025 14:59:31 -0000
+Message-Id: <175069077150.3098422.14450235876587879214@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: bf6c8e5bb5c1b262b5f8da392bcf5219327ee806
-    new: e9efdcce074c55be396ca45add336121549bdcbc
-    log: revlist-bf6c8e5bb5c1-e9efdcce074c.txt
-  - ref: refs/tags/ath-202506231449
-    old: 0000000000000000000000000000000000000000
-    new: e9efdcce074c55be396ca45add336121549bdcbc
-
---===============0730694365362397719==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf6c8e5bb5c1-e9efdcce074c.txt
-
-36670b67de18f1e5d34900c5d2ac60a8970c293c wifi: ath12k: Avoid accessing uninitialized arvif->ar during beacon miss
-0f9842b0b0e58173ae0d4f9838e4d9375b29a38b wifi: ath12k: disable pdev for non supported country
-14c7d7eac1bfc29917acedb894e09dae6c00a014 wifi: ath12k: Prepare ahvif scan link for parallel scan
-feed05f1526e81677f508b026fd2d66d178f65f8 wifi: ath12k: Split scan request for split band device
-acc152f9be205d76771f8156002d55c3fcd21252 wifi: ath12k: combine channel list for split-phy devices in single-wiphy
-437c7a2db6a34db2a9048920694a2bf9b0169726 wifi: ath12k: update channel list in worker when wait flag is set
-906619a0096747adbce9415e10b639cfd2c5e714 wifi: ath12k: handle regulatory hints during mac registration
-49375e11819b0d0f59ba59726d8e0b47656f5406 wifi: ath12k: avoid bit operation on key flags
-66e865f9dc78d00e6d1c8c6624cb0c9004e5aafb wifi: ath12k: install pairwise key first
-359d69285adc4f4a6a4bdafac30f3bd917873bbc wifi: ath12k: remove monitor handling from ath12k_dp_rx_deliver_msdu()
-7c0884fcd2ddde0544d2e77f297ae461e1f53f58 wifi: ath12k: Decrement TID on RX peer frag setup error handling
-3abe2740e50f86401aa3518e9b69c6abefaa020a wifi: ath: Add missing include of export.h
-e435827f6d0c4ace62cc9dfed5e337fa4549994a wifi: ath9k: Add missing include of export.h
-32c3a0f8894311c743b2a6a15b50b13d01411ce1 wifi: ath10k: Add missing include of export.h
-f204e0377efeb5f42c7c518febf82f4af32567f0 wifi: ath11k: Add missing include of export.h
-c19c24c3b9e2c4d656472738f67ffc68a9b85cb0 wifi: ath12k: Add missing include of export.h
-b79742b84e16e41c4a09f3126436f39f36e75c06 wifi: ath12k: Enable REO queue lookup table feature on QCN9274 hw2.0
-54c350055b1da2767f18a49c11e4fcc42cf33ff8 wifi: ath12k: Fix double budget decrement while reaping monitor ring
-05062834350f0bf7ad1abcebc2807220e90220eb wifi: ath12k: Pass ab pointer directly to ath12k_dp_tx_get_encap_type()
-90a8c821d16a3fe8e40082cfe5da1dec2cc6469e Merge branch 'ath-next'
-7deebe5c89b3b6c791d501df71716d152c846bb1 Merge remote-tracking branch 'mhi/mhi-next'
-e9efdcce074c55be396ca45add336121549bdcbc Add localversion-wireless-testing-ath
-
---===============0730694365362397719==--
+    old: b4e2acf35e2c7b4b77ed7d617899e554273fe3fd
+    new: a7931ff26b5200623d6a19c629bae19947160ee6
+    log: |
+         8c091f4b0ec561b31ba9a41b6d418e8c4aa721f9 qcom: Add sdx61 Foxconn vendor firmware image file
+         a7931ff26b5200623d6a19c629bae19947160ee6 Merge branch 'robot/patch-0-1750679812' into 'main'
+         
