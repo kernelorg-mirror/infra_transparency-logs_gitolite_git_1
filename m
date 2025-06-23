@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0414557475007135458=="
+Content-Type: multipart/mixed; boundary="===============4434348962416742354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 23 Jun 2025 09:43:53 -0000
-Message-Id: <175067183341.2789695.5185338057532654120@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 09:46:10 -0000
+Message-Id: <175067197057.2792947.18146259401671322143@gitolite.kernel.org>
 
---===============0414557475007135458==
+--===============4434348962416742354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/fixes
     old: e04c78d86a9699d136910cfc0bdcf01087e3267e
-    new: 86731a2a651e58953fc949573895f2fa6d456841
-    log: revlist-e04c78d86a96-86731a2a651e.txt
+    new: 58d71d4242ce057955c783a14c82270c71f9e1e8
+    log: revlist-e04c78d86a96-58d71d4242ce.txt
 
---===============0414557475007135458==
+--===============4434348962416742354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e04c78d86a96-86731a2a651e.txt
+Content-Disposition: attachment; filename=revlist-e04c78d86a96-58d71d4242ce.txt
 
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
 714d02b41939d2720379e11ef25227aec4e5bec9 ovl: fix regression caused by lookup helpers API changes
@@ -405,5 +405,6 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 5c00eca95a9a20e662bd290c3ef3f2e07dfa9baa Merge tag 'x86_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
+58d71d4242ce057955c783a14c82270c71f9e1e8 thunderbolt: Fix wake on connect at runtime
 
---===============0414557475007135458==--
+--===============4434348962416742354==--
