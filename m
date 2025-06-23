@@ -1,52 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============3856007300867608742=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 23 Jun 2025 14:59:42 -0000
-Message-Id: <175069078239.3098801.16573982996490653524@gitolite.kernel.org>
-
---===============3856007300867608742==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 23 Jun 2025 15:04:17 -0000
+Message-Id: <175069105726.3104216.4961001553539585852@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/b4/anon_name_cleanup
-    old: af5825fb33996793107ef401c8815a34a077b876
-    new: 467cffe593e3e6754895f978e5450dab7d737e49
+  - ref: refs/heads/fixes
+    old: d2444a614ce5760d1c98c4fb4ae2cf36317308d9
+    new: 091e588e7e33d1979df6e7ffac252f85b29cc514
     log: |
-         2d42a31cd29279221dac3cb9c78876491b52b17a madvise anon_name cleanups
-         dfb6e3c6cb34fa8f161d6eb5e18abc5c4b67455b mm, madvise: simplify anon_name handling
-         467cffe593e3e6754895f978e5450dab7d737e49 mm, madvise: move prctl_set_vma() to mm/madvise.c
+         19118e0198170ad4a7f4ed3ae6ea9edd4e742b52 replace collect_mounts()/drop_collected_mounts() with a safer variant
+         091e588e7e33d1979df6e7ffac252f85b29cc514 attach_recursive_mnt(): do not lock the covering tree when sliding something under it
          
-
---===============3856007300867608742==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1750690816 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1750690778-eff9fbaa5015c6daeeaf9254563762e2db32f205
-
-af5825fb33996793107ef401c8815a34a077b876 467cffe593e3e6754895f978e5450dab7d737e49 refs/heads/b4/anon_name_cleanup
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmhZbAAACgkQu+CwddJF
-iJoArQgAkQxURD+b71WcGES+uxBiVMOxUHFvrEofZiQIgm0UVI1B0pa7HTQkgKNR
-zzUR+Et09ZKP++nTV/EEfiik9S9XmBErh2MfNyRPPOd1qgcN+wOXH3FwNJcnSCtS
-QFeAm9GeNSiSZGwgHjF6z2Dkarz3WIPV6MDnDmGMpgN6SgnCEmBVJFAt20YubwFa
-0RIvd3Kb3rzEvZ0GGexrw1sL6gVPeoJWRIGS1LkknM6SBakRvCMApDFg8XiGxZDR
-0ySS8BxK8P/PLzlHdJcrR3Cg2KyXkAQv+cptZogmkvESWG5kwjkbZBRmNYZI2zsz
-+zmor51g0LL3M6aZPJPKKRdYF4gc9Q==
-=KXFA
------END PGP SIGNATURE-----
-
---===============3856007300867608742==--
