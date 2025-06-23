@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8396131409311344960=="
+Content-Type: multipart/mixed; boundary="===============7793348712123401340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Mon, 23 Jun 2025 11:49:47 -0000
-Message-Id: <175067938716.2912705.14759119620107029610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 23 Jun 2025 11:50:04 -0000
+Message-Id: <175067940428.2914452.5343941328049465430@gitolite.kernel.org>
 
---===============8396131409311344960==
+--===============7793348712123401340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev/gicv5-v6
-    old: 07cd2514f11b81d575a99dca6c97a01eb92f0ab1
-    new: 9535329d02431658e953a0b70166bdf81f32462b
-    log: revlist-07cd2514f11b-9535329d0243.txt
+  - ref: refs/heads/master
+    old: c674c8c0812549f225de6716c5e056843bf0b1a6
+    new: a199a502231122843c41f140a8dce1c651fd70af
+    log: |
+         a199a502231122843c41f140a8dce1c651fd70af proposed: Add Ruiqi's CVE review of v6.14.9 & v6.15.{1,2}
+         
 
---===============8396131409311344960==
+--===============7793348712123401340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07cd2514f11b-9535329d0243.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c2220948ee563761899dd00c6701dff97615102c irqchip/gic-v5: Add GICv5 PPI support
-cbd8f493bac440e7724ad1266278d44e2e6de8d5 irqchip/gic-v5: Add GICv5 IRS/SPI support
-0fcefbbb7d018419fde4a5b6b385cc98b4a9b5f6 irqchip/gic-v5: Add GICv5 LPI/IPI support
-4d7c631649070f9c3840fc1a1b671f1ee1cf1ea6 irqchip/gic-v5: Enable GICv5 SMP booting
-d2b2419a9cc991bb406045b46e284bb79f03f44d of/irq: Add of_msi_xlate() helper function
-d361c95198d7cb4ef78cfe4daa02b5e099daba3f PCI/MSI: Add pci_msi_map_rid_ctlr_node() helper function
-29168c64baf06f797a1ac5a068d10e9a524f9ba1 irqchip/gic-v3: Rename GICv3 ITS MSI parent
-a65dbdb108cee1791ac594d23293440f49b354f3 irqchip/msi-lib: Add IRQ_DOMAIN_FLAG_FWNODE_PARENT handling
-da50fb1d121a0ac750fc1e1c8401f86d9e681ace irqchip/gic-v5: Add GICv5 ITS support
-2fe34f1a9f592c9a30f18852d88f2d0041afbd55 irqchip/gic-v5: Add GICv5 IWB support
-1023b503f51718a7a1c5b4ca94f737b50fe25f6d docs: arm64: gic-v5: Document booting requirements for GICv5
-9535329d02431658e953a0b70166bdf81f32462b arm64: Kconfig: Enable GICv5
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750679441 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1750679403-fbfc3f136ab1a185b7fd86f81373b06689c4c533
 
---===============8396131409311344960==--
+c674c8c0812549f225de6716c5e056843bf0b1a6 a199a502231122843c41f140a8dce1c651fd70af refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhZP5EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6rMQANH1tAWX4N8uEzGFAj1S
+vcrnWW4H3leD2DyYDp/j61S6qA4XygmaihhpB7vUiMJMWhnYXwshF/LoZ/QgUI2a
+X5457E4tr8zVyoodjoQcR3VNgotH0/HhKOzTxT9c2GUY4xaVGDOWGGec0nBsriyp
+orZXvwLUauZQw/vkq8WiDgj1OO9wuhrzHnwGaKSrJ9FCjhYPqCjy1YA9DsweVrlT
+Gm4n+yKlD6Eo5D3yJr2gK0heXWJWhf8Uwb7fmKo/sxrThth8XEnpLhbKBrffyasd
+nOlZlzqmmTgHge+HX8bbw7woXT05qo/vOSEdmWnvgpq8OgRsS0f17ZSVGgntVh24
+78SxLwVb309dont9kr2e4U+2YSM1T0/bUVn7KmGGYaIwvfIh7g7V53BDbhg4nulS
+GSseSDpoFmc1ACYKSj3v7LYv5jw5W4hpCtB+s1qvjMMo2mYuLUNtQHMZJjXFQ5JL
+uc1+cOm87VRzDntCG7gFx9TBa1grECNoBLMXcAYJTP7TDqu6WwYE/ByaZ0ufj7tU
+NoFrfKoLmMA1pXwpqsHdaLL6yK9yaWi8pDBpXoo9ggtjp+pTqNvkrq02LTZUT9pN
+Kid+cZii2tHoALedH9jZA8gPJKyTPNtCC84pDsbCAJf1KlA0aIXHpnePJQgRMFUs
+BA0pAt/sMVGHMq3EmwBMNE4I
+=0D2v
+-----END PGP SIGNATURE-----
+
+--===============7793348712123401340==--
