@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 23 Jun 2025 00:40:27 -0000
-Message-Id: <175063922708.2261413.16151409435902163126@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 00:42:13 -0000
+Message-Id: <175063933316.2262178.16085323947032117135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/posix24
-    old: e7e6bad9f868c328356382446581e7a155641def
-    new: a14f09834fca24a00b50d92b177870b6a24fd448
+    old: a14f09834fca24a00b50d92b177870b6a24fd448
+    new: 2aec70dc79b7be01f1332aa63718d34183bc31ef
     log: |
-         a14f09834fca24a00b50d92b177870b6a24fd448 man/man2/gettimeofday.2: Declare functions with [[deprecated]].
+         2aec70dc79b7be01f1332aa63718d34183bc31ef man/man2/gettimeofday.2: Declare functions with [[deprecated]]
          
