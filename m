@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1143716387042215313=="
+Content-Type: multipart/mixed; boundary="===============0628437524502370876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 23 Jun 2025 22:12:03 -0000
-Message-Id: <175071672347.3483755.6024852580835118913@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 22:12:47 -0000
+Message-Id: <175071676730.3484324.976350035651406534@gitolite.kernel.org>
 
---===============1143716387042215313==
+--===============0628437524502370876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 78f4e737a53e1163ded2687a922fce138aee73f5
-    log: revlist-19272b37aa4f-78f4e737a53e.txt
+  - ref: refs/heads/dev-test
+    old: 907bf0e9c765b93533e61cccc4cf2df21671d219
+    new: 65f4135ddc7d183d502d778306aa97845aafe13b
+    log: revlist-907bf0e9c765-65f4135ddc7d.txt
 
---===============1143716387042215313==
+--===============0628437524502370876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-78f4e737a53e.txt
+Content-Disposition: attachment; filename=revlist-907bf0e9c765-65f4135ddc7d.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
@@ -162,7 +162,6 @@ faf2f8382088e8c74bd6eeb236c8c9190e61615e drm/meson: use vclk_freq instead of pix
 fe5b391fc56f77cf3c22a9dd4f0ce20db0e3533f ata: pata_cs5536: fix build on 32-bit UML
 5558f27a58459a4038ebb23bcb5bd40c1e345c57 pinctrl: sunxi: dt: Consider pin base when calculating bank number from pin
 8a157d8a00e815cab4432653cb50c9cedbbb4931 tracing: Do not free "head" on error path of filter_free_subsystem_filters()
-6dea74e454c260cd757b53a2f6861fffe6d83308 f2fs: Fix __write_node_folio() conversion
 a298bbab903e3fb4cbe16d36d6195e68fad1b776 tools/resolve_btfids: Fix build when cross compiling kernel with clang.
 a2c90d63b71223d69a813333c1abf4fdacddbbe5 i40e: return false from i40e_reset_vf if reset is in progress
 fb4e9239e029954a37a00818b21e837cebf2aa10 i40e: retry VFLR handling if there is ongoing VF reset
@@ -555,7 +554,6 @@ f82727adcf2992822e12198792af450a76ebd5ef tipc: fix null-ptr-deref when acquiring
 0564e6a8c2c3152783906534d5767cabe1b05930 Merge tag 'wq-for-6.16-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 74b4cc9b8780bfe8a3992c9ac0033bf22ac01f19 Merge tag 'cgroup-for-6.16-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 229f135e0680da3dd0bcce515c07be87858f1d12 Merge tag 'driver-core-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
-ba8dac350faf16afc129ce6303ca4feaf083ccb1 f2fs: fix to zero post-eof page
 fb4d33ab452ea254e2c319bac5703d1b56d895bf Merge tag '6.16-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 3168276591210d147ed9e6dc267f8a04007593c7 selftests: netdevsim: improve lib.sh include in peer.sh
 c65b5bb2329e36340eba76f05752f8f1eb15bee0 selftests: net: add passive TFO test binary
@@ -687,5 +685,23 @@ c06944560a562828d507166b4f87c01c367cc9c1 Merge tag 'mm-hotfixes-stable-2025-06-2
 5ca7fe213ba3113dde19c4cd46347c16d9e69f81 Merge tag 'for-6.16-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 cb0de0e220d2233a84a2ff1afb8ffba7597d02fa Merge tag 'f2fs-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 78f4e737a53e1163ded2687a922fce138aee73f5 Merge tag 'for-6.16/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+24bf3ee37fb8ed736094247133d00cb2c3bab3ce f2fs: make sure zoned device GC to use FG_GC in shortage of free section
+8142daf8a53806689186ee255cc02f89af7f8890 f2fs: turn off one_time when forcibly set to foreground GC
+1773f63d108b1b9b9d053d8c95f8300c556f93b8 f2fs: handle nat.blkaddr corruption in f2fs_get_node_info()
+70b6e8500431ca8bd8d1471ae721d61fc2acc844 f2fs: do sanity check on fio.new_blkaddr in do_write_page()
+554d9b7242a73d701ce121ac81bb578a3fca538e f2fs: fix bio memleak when committing super block
+90d5c9ba3ed91950f1546bf123a7a57cd958b452 f2fs: fix to avoid invalid wait context issue
+59c1c89e9ba8cefff05aa982dd9e6719f25e8ec5 f2fs: introduce reserved_pin_section sysfs entry
+8e2a9b656474d67c55010f2c003ea2cf889a19ff f2fs: compress: change the first parameter of page_array_{alloc,free} to sbi
+39868685c2a94a70762bc6d77dc81d781d05bff5 f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic
+26aa1e635ad022f2aecc6bf7d440b62882844698 f2fs: Fix the typos in comments
+15b5f23706af179684b8b9b0e6bbd31f284c91f7 f2fs: fix KMSAN uninit-value in extent_info usage
+ca5f9a3de340063a9d200715f0a0e041e3207849 f2fs: Add fs parameter specifications for mount options
+d953a26d0e7ee422ae635b76dcc78243dfe18828 f2fs: move the option parser into handle_mount_opt
+2f865ef012774afd2875b8ad915c3baaede80a3f f2fs: Allow sbi to be NULL in f2fs_printk
+bf800626c965e56703c69225e330c2fe0b25afba f2fs: Add f2fs_fs_context to record the mount options
+4b7abd2d8153fc703d6a6c8cbd0de9d9936b9f0c f2fs: separate the options parsing and options checking
+1552ab13e615402ed4d49e26b74b71910b6d56d4 f2fs: introduce fs_context_operation structure
+65f4135ddc7d183d502d778306aa97845aafe13b f2fs: switch to the new mount api
 
---===============1143716387042215313==--
+--===============0628437524502370876==--
