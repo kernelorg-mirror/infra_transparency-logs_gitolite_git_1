@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8992690998274315972=="
+Content-Type: multipart/mixed; boundary="===============1490933519478906101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 23 Jun 2025 07:56:40 -0000
-Message-Id: <175066540071.2684545.16944664330461078413@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 07:57:06 -0000
+Message-Id: <175066542652.2684977.12360203503112801409@gitolite.kernel.org>
 
---===============8992690998274315972==
+--===============1490933519478906101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 5a0c749125c001cba673e9951b0002fba7ea2886
+  - ref: refs/heads/mips-fixes
+    old: c44572e0cc13c9afff83fd333135a0aa9b27ba26
     new: 86731a2a651e58953fc949573895f2fa6d456841
-    log: revlist-5a0c749125c0-86731a2a651e.txt
+    log: revlist-c44572e0cc13-86731a2a651e.txt
 
---===============8992690998274315972==
+--===============1490933519478906101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a0c749125c0-86731a2a651e.txt
+Content-Disposition: attachment; filename=revlist-c44572e0cc13-86731a2a651e.txt
 
 3a4b05c9bae485d230560278a659e0830f96e28f PCI: cadence-ep: Introduce cdns_pcie_ep_disable() helper for cleanup
 a2790bf81f0f7b0fb683204cd3bef07feecb9958 PCI: j721e: Add support to build as a loadable module
@@ -1051,4 +1051,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============8992690998274315972==--
+--===============1490933519478906101==--
