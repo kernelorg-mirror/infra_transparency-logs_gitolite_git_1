@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4728168444983112852=="
+Content-Type: multipart/mixed; boundary="===============3717919469498217602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 23 Jun 2025 13:39:39 -0000
-Message-Id: <175068597982.3025130.17331040490436685605@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 13:40:16 -0000
+Message-Id: <175068601635.3027188.14622836140688796050@gitolite.kernel.org>
 
---===============4728168444983112852==
+--===============3717919469498217602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: e04c78d86a9699d136910cfc0bdcf01087e3267e
-    new: 86731a2a651e58953fc949573895f2fa6d456841
-    log: revlist-e04c78d86a96-86731a2a651e.txt
+  - ref: refs/heads/nfsd-next
+    old: 45afe5b47dacbba26ddf7d21807e403ed32d0564
+    new: 2e7381adb959b25dfa48cd5b822a6aa02993229a
+    log: revlist-45afe5b47dac-2e7381adb959.txt
 
---===============4728168444983112852==
+--===============3717919469498217602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e04c78d86a96-86731a2a651e.txt
+Content-Disposition: attachment; filename=revlist-45afe5b47dac-2e7381adb959.txt
 
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
 714d02b41939d2720379e11ef25227aec4e5bec9 ovl: fix regression caused by lookup helpers API changes
@@ -405,5 +405,17 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 5c00eca95a9a20e662bd290c3ef3f2e07dfa9baa Merge tag 'x86_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
+3628790e2524323c9c7f0a4a6d37dc442b1d1690 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+058c71d2bfaf3a5f3c1fd9902f2c79b7aa7fd015 NFSD: release read access of nfs4_file when a write delegation is returned
+f7b44eb9037b0e6b9531510a98e91eadcd2f5c4d sunrpc: simplify xdr_init_encode_pages
+788d62d556acce9bfa8a8f01039708c14ccadfaf sunrpc: simplify xdr_partial_copy_from_skb
+a8924393589ce08eed75cc71b8e364262093081d sunrpc: unexport csum_partial_copy_to_xdr
+f2fb111fa1c471441bac909357b84f1fd68b9c1b sunrpc: new tracepoints around svc thread wakeups
+2544bffbbf171ee46fb772af92fa8cdece6c0583 nfsd: Change the type of ek_fsidtype from int to u8 and use kstrtou8
+faa52fe30bd4fdac9eca3c45cd9da5afc67404ac nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm()
+4c10b9c2b0eeffe6bcfcb2567e0429505ef4d2d1 NFSD: detect mismatch of file handle and delegation stateid in OPEN op
+25ff9509567d3f7f9c61f9fc1b10086fa7adeb9e NFSD: Rename a function parameter
+71155e863c0ab52753481bcf28ac3357cc70320d NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort
+2e7381adb959b25dfa48cd5b822a6aa02993229a NFSD: Remove the cap on number of operations per NFSv4 COMPOUND
 
---===============4728168444983112852==--
+--===============3717919469498217602==--
