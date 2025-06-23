@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1084001206933202213=="
+Content-Type: multipart/mixed; boundary="===============5720113060539430583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 23 Jun 2025 16:19:01 -0000
-Message-Id: <175069554178.3175889.1398823777007413704@gitolite.kernel.org>
+Date: Mon, 23 Jun 2025 16:19:04 -0000
+Message-Id: <175069554488.3176049.176421529525009582@gitolite.kernel.org>
 
---===============1084001206933202213==
+--===============5720113060539430583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f82727adcf2992822e12198792af450a76ebd5ef
     new: 95b6759a81833d0e8c7456430186c2f6d174764e
     log: revlist-f82727adcf29-95b6759a8183.txt
 
---===============1084001206933202213==
+--===============5720113060539430583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -302,4 +302,4 @@ e0fca6f2cebff539e9317a15a37dcf432e3b851a net: mana: Record doorbell physical add
 b993ea46b3b601915ceaaf3c802adf11e7d6bac6 atm: clip: prevent NULL deref in clip_push()
 95b6759a81833d0e8c7456430186c2f6d174764e net: qed: reduce stack usage for TLV processing
 
---===============1084001206933202213==--
+--===============5720113060539430583==--
