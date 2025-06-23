@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 23 Jun 2025 18:11:02 -0000
-Message-Id: <175070226214.3283081.17582060633891102933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 23 Jun 2025 18:13:28 -0000
+Message-Id: <175070240888.3284368.9432169953886395702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: andrii
 changes:
-  - ref: refs/heads/for-6.17
-    old: ddceadce63d9cb752c2472e220ded05cabaf7971
-    new: e2a37c277c64078d5439693963fb9813fa1e6e9c
+  - ref: refs/heads/master
+    old: d4adf1c9ee7722545450608bcb095fb31512f0c6
+    new: aa485e8789d56a4573f7c8d000a182b749eaa64d
     log: |
-         e2a37c277c64078d5439693963fb9813fa1e6e9c kernel/sched/ext.c: fix typo "occured" -> "occurred" in comments
-         
-  - ref: refs/heads/for-next
-    old: 8a010e2486148b60fd6118512bc738e3981d2d26
-    new: 105f41719c0ad607f51d58fb4a3f187acbb8522e
-    log: |
-         e2a37c277c64078d5439693963fb9813fa1e6e9c kernel/sched/ext.c: fix typo "occured" -> "occurred" in comments
-         105f41719c0ad607f51d58fb4a3f187acbb8522e Merge branch 'for-6.17' into for-next
+         aa485e8789d56a4573f7c8d000a182b749eaa64d libbpf: Fix null pointer dereference in btf_dump__free on allocation failure
          
