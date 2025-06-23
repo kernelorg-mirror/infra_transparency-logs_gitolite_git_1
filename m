@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux
-Date: Mon, 23 Jun 2025 08:25:42 -0000
-Message-Id: <175066714201.2711972.4539829707084951104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 23 Jun 2025 08:27:00 -0000
+Message-Id: <175066722066.2712715.10357733327700154148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwamatsu/linux
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 273d39614ef50ca9f86daee840fdeb2fd34397a0
-    new: 6ebee823359ab85bc460845548b36f6fcecc1ffb
-    log: |
-         6ebee823359ab85bc460845548b36f6fcecc1ffb Bluetooth: L2CAP: Fix uaf in l2cap_connect
-         
+  - ref: refs/tags/v6.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e76fe965a0365e346cdaaf462847bac748354ab2
+  - ref: refs/tags/v6.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
