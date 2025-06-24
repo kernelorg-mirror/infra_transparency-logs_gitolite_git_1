@@ -1,126 +1,199 @@
-Content-Type: multipart/mixed; boundary="===============3839758579800935292=="
+Content-Type: multipart/mixed; boundary="===============0139015221577566185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 24 Jun 2025 21:24:34 -0000
-Message-Id: <175080027445.540180.9424490878560636224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 24 Jun 2025 21:35:03 -0000
+Message-Id: <175080090352.549807.5684775220989654759@gitolite.kernel.org>
 
---===============3839758579800935292==
+--===============0139015221577566185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0afca73d4317fad14694b4f6db1d820a165be800
-    new: e86409153fb3121639ed48e64623c3d34bfc0877
-    log: revlist-0afca73d4317-e86409153fb3.txt
+  - ref: refs/heads/main
+    old: cb3b40381e1d5ee32dde96521ad7cfd68eb308a6
+    new: f0135a9047ca37d4d117dcf21f7e3e89fad85d00
+    log: revlist-cb3b40381e1d-f0135a9047ca.txt
+  - ref: refs/heads/master
+    old: cb3b40381e1d5ee32dde96521ad7cfd68eb308a6
+    new: f0135a9047ca37d4d117dcf21f7e3e89fad85d00
+    log: revlist-cb3b40381e1d-f0135a9047ca.txt
+  - ref: refs/heads/next
+    old: 7c2003159bacce310b20a522e641b9749eb67935
+    new: b486b64238e9a587c8c2906384c408ecf1c55882
+    log: revlist-7c2003159bac-b486b64238e9.txt
+  - ref: refs/heads/seen
+    old: 04dbb4f309692b4734e5148c0e298d78194f92f5
+    new: 8fdef1eb8c663b13291bfea4bf5780427bab3aad
+    log: revlist-04dbb4f30969-8fdef1eb8c66.txt
+  - ref: refs/notes/amlog
+    old: 06352eda9d3548320b7ed8ca8848489a0d68a1b0
+    new: 575d50dd637c352b088020bcd8fb9d64c3f4a8a1
+    log: |
+         4ea2307efe1b8a4f0c986581b57d33cd31e43f33 amlog
+         9862b0a9366b47adb65fab76af21c259ee3eac58 Notes added by 'git notes add'
+         f6ac0c2ec07dd57bbdc81b97d934498c3f301088 Notes added by 'git commit --amend'
+         dcd049c73dbb0b906660061fd31121b17f796d19 Notes added by 'git notes add'
+         00ef41058c85efedcc6f691721309ecdc0d8cbca Notes added by 'git notes add'
+         e7ac95356014d9986506b1e0cba9fcbd556412df Notes added by 'git notes add'
+         381f279362b362f7e9d94f5ce3310820e928d8a2 Notes added by 'git notes add'
+         284b4bfe9491cf61dd9472d67c051b672e59b31b Notes added by 'git notes add'
+         977e29e894dc3b792a62da39e0ec06cf25b8e729 Notes added by 'git notes add'
+         d6765103aec4c4568cafcde96814f2552ab3a294 Notes added by 'git commit --amend'
+         575d50dd637c352b088020bcd8fb9d64c3f4a8a1 Notes added by 'git commit --amend'
+         
 
---===============3839758579800935292==
+--===============0139015221577566185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0afca73d4317-e86409153fb3.txt
+Content-Disposition: attachment; filename=revlist-cb3b40381e1d-f0135a9047ca.txt
 
-82eaf94d69fce20f8859a2b8dae8e7064d9343da dt-bindings: net: qca,ar803x: Add IPQ5018 Internal GE PHY support
-d46502279a11b48ede1d8bf65a229c8231bf0602 net: phy: qcom: at803x: Add Qualcomm IPQ5018 Internal PHY support
-d3b2afa987b5ffb4352a32e5063e5932e00c9872 Merge branch 'add-support-for-the-ipq5018-internal-ge-phy'
-9f22c3ddb8cf0e49e9b1ad539d7f3bcb59381fad net: stmmac: lpc18xx: use plat_dat->phy_interface
-bfb4a6c721517a11b277e8841f8a7a64b1b14b72 selftests: drv-net: import things in lib one by one
-96c16c59b705d02c29f6bef54858b5da78c3fb13 ethtool: pse-pd: Add missing linux/export.h include
-bf92ffb0d332f7b91e689cb24b0840607802329d dt-bindings: net: convert qca,qca7000.txt yaml format
-ae2402bf882b40fb9cf3b6a5c9ff0e6c7a9ef842 net/smc: replace strncpy with strscpy
-b04202d6065cba5dfd51fb9866400b25573eac67 net/sched: replace strncpy with strscpy
-7df6c0245595871500758c4cfa6052081e6687c9 lib: test_objagg: split test_hints_case() into two functions
-b630c781bcf6ff87657146661816d0d30a902139 caif: reduce stack size, again
-e84a4927a404f369c842c19de93b216627fcc690 net: annotate races around sk->sk_uid
-c51da3f7a161c6822232be832abdffe47eb55b4c net: remove sock_i_uid()
-0fd9e5958ebb41188700b566467a1d9a3ebcdece Merge branch 'net-replace-sock_i_uid-with-sk_uid'
-3169e36ae14802b01abe4bfa7ec593b0a1af5cc7 net: make sk->sk_sndtimeo lockless
-935b67675a9f233aa4ac4ae6452b2cc45418d839 net: make sk->sk_rcvtimeo lockless
-2f70ba1c0bf04349182ae209c8c69e1b71d4c0a8 Merge branch 'net-lockless-sk_sndtimeo-and-sk_rcvtimeo'
-ca6a3faee66e6dc84f3d24fa1b1fa8b0628871e9 selftests: drv-net: stats: fix pylint issues
-2baa45432d9a84d69f6ae247f5d6eb6525572bbe selftests: drv-net: stats: use skip instead of xfail for unsupported features
-b7ac47616fae7151377cbabb71a286dca71f7a13 Merge branch 'selftests-drv-net-stats-use-skip-instead-of-xfail'
-ee85b483fefbbebe1e6e61c53169f864bbdd8f13 net: ethernet: mtk_eth_soc: support named IRQs
-4981901009923c8889a635a928d55b8f7f8b31ec net: ethernet: mtk_eth_soc: add consts for irq index
-9c0feca0a68b33cf012dd835edc6067407597a59 net: ethernet: mtk_eth_soc: skip first IRQ if not used
-070e98dd4e26279280e15db8f37077a001ca1b4c net: ethernet: mtk_eth_soc: only use legacy mode on missing IRQ name
-0b20433d8285ca33f5fcdfd04e626ef1227d8a45 Merge branch 'rework-irq-handling-in-mtk_eth_soc'
-cccfe0982208c72e116462e5431919c88505e890 page_pool: import Jesper's page_pool benchmark
-bbb7d478d91ac4d5c288e226cc8744daf3820798 net: phy: Add interface types for 50G and 100G
-3b180b227eb19fb37714293d601ad49dcc7cf08f fbnic: Do not consider mailbox "initialized" until we have verified fw version
-a6bbbc5bc4c671f6cd791a65743f0c6c83d69edd fbnic: Retire "AUTO" flags and cleanup handling of FW link settings
-f663a1abf39a16bdd8c5a3eb2d79b27c7d5c211b fbnic: Replace link_mode with AUI
-0853d8521bc1ef71bbedab4aadd3b833287fd521 fbnic: Update FW link mode values to represent actual link modes
-22780f69fb45d546d2ae32479317049de3621729 fbnic: Set correct supported modes and speeds based on FW setting
-fb9a3bb7f7f23b86d05e94f85e523d7d3f5fa57d fbnic: Add support for reporting link config
-eb4c27edb4d8dbfbdcc7bc03e0394a0fab8af7d5 fbnic: Add support for setting/getting pause configuration
-a6a4db166c6565d8143f5b59b9c2c05472bb1726 Merge branch 'add-support-for-25g-50g-and-100g-to-fbnic'
-42fa8f17e453ca142d3ed1b2a7b264bf52e8599e dt-bindings: pse: tps23881: Clarify channels property description
-dad51ea09040f9ac2ea2a0f694e5e3ed5cf167b9 net: pse-pd: tps23881: Clarify setup_pi_matrix callback documentation
-ee1a0c653f9cad7e2634a39f6c530e12edddf0fc Merge branch 'pse-improve-documentation-clarity'
-5410c197c37689da2c17f985d67d8264c88d7528 coccinelle: misc: secs_to_jiffies script: Create dummy report
-e27b9bfa617ba4f22126d3f14f83b9ae345fa231 ixgbe: add MDD support
-3bbb8cc7cbe76073f2aa7e2597a5acce40a84505 ixgbe: check for MDD events
-d95c5720cdba196fc7ad971b4fbef8b28bde5276 ixgbe: add Tx hang detection unhandled MDD
-d7a04bfd0eb3131229d9c2935a99694074bcb314 ixgbe: turn off MDD while modifying SRRCTL
-3472b9fc52f946337ce17bd993d65612777fd1e8 ice: fix lane number calculation
-2b395d64bd58184e009ab3639b1b68585ea1249a ice: Allow 100M speed for E825C SGMII device
-a0912c3dba674a8b3397b62f1f6b9d368dc7fe36 ice: Remove casts on void pointers in LAG
-0bd468767235071b826ddc2f1e205193b709acc1 ice: replace u8 elements with bool where
-93375ef46d7ff9150fcf6475b490e2c79c1be721 ice: Add driver specific prefix to LAG
-0c446693ef88e375340e4b4867792881c469be5c ice: move LAG function in code to prepare for
-a90e382cecd66d793fee8bfecf40c021939fd73f ice: Cleanup variable initialization in LAG
-b6f53c2617065d51fa252b026cea815a93510514 ice: cleanup capabilities evaluation
-326f7d5074f8fbc4baae4427f2ffc381667463bb ice: breakout common LAG code into helpers
-dd3b50fd909644dc2b5afb5ce49fd773deb1f265 ice: Implement support for SRIOV VFs across
-cfc9f178c807f8883a0a0808d106342e1bf6a183 virtchnl2: rename enum virtchnl2_cap_rss
-96a8c651cd46d16fb9b4664c6dbd627df6532594 virtchnl2: add flow steering support
-6e60aab486c3c4e1587d64fb6bb0def3284cc0a4 idpf: add flow steering support
-ae7f4761ba0662f7298da99bde7699a3546aa50a ice, libie: move generic adminq descriptors to lib
-1a91065b1b5c90d6e15cedb30ea0148f96409cdb ixgbe: use libie adminq descriptors
-4da72607f669f91b8ceb66416a16602cbd216ed3 i40e: use libie adminq descriptors
-1d20e62f82878deb974a72588a202e8da8caecdc iavf: use libie adminq descriptors
-d79820322f380d71082a8e9e90be8458060d8fb4 libie: add adminq helper for converting err to str
-34432d655a89e9c2385d3a2695205794a7270a1a ice: use libie_aq_str
-7dee790e33428c13a9293b9c9fdfb696333155c5 iavf: use libie_aq_str
-ccb5e64752ec17c85c9be430e58454cd8730e4d9 i40e: use libie_aq_str
-9a3937a409c160022c680ac50938f516b3500bc5 ice: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-060ce23760af5b247d1859e2e5766400539bafd6 igc: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-2c951746cd44b2d5615d49604fd9a0e189704038 igb: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-0202ea06e35092cb12fab24207a08a83ded3904a ixgbe: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-f468aa619ca414dbb13f87b93ba9260f16d82c17 i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-05cbe525898a703dd984868e1eae35143560a405 ice: add 40G speed to Admin Command GET PORT OPTION
-ae40f5b49f1aa27f807da32ef78debb57a456beb idpf: convert control queue mutex to a spinlock
-22f5bd8aed36a52864919c813ce0792e52c17987 ice: add E835 device IDs
-f5ea98f214ea2f1c43658a527713a3a266da7bc9 ice: add NULL check in eswitch lag check
-35bc4e65287540f2245beef0ffc6fd17f4992fbc idpf: return 0 size for RSS key if not supported
-7271a9a3792bbcf1a8ac9b3a0ac72d14e054763c igc: disable L1.2 PCI-E link substate to avoid performance issue
-c6401dd364237b0ece94baf1a6230be6e4039607 devlink: add overwrite mask from factory settings
-4fe062ded021fcc064a3b0d114febf202edc4460 ice: add overwrite mask from factory settings
-009fd15e4b014211474b3079632965143b1693eb ixgbe: add overwrite mask from factory settings
-db01253c2f87ca3a19db817f55cdb014fe06b415 igbvf: remove unused interrupt counter fields from struct igbvf_adapter
-1db7f0210283c7176c2eaf155bedebb0f9820703 igbvf: add tx_timeout_count to ethtool statistics
-316c9b59ee1a43f426d2a33aa7c2d37a9fb4249c ixgbe: initialize aci lock before it's used
-ddbebd68d07b43d3cf4c2eecc4c122c3ff67cda4 i40e: report VF tx_dropped with tx_errors instead of tx_discards
-21c3a499abab368a546a2efe4bd0f4ec3944713a ethernet: intel: fix building with large NR_CPUS
-4a7b8351674b5f69876ec3cc1c52d118e077336e ice: convert ice_add_prof() to bitmap
-a076c720f297ee53dc37695493ea18fe2ac20c41 idpf: add cross timestamping
-9f19718121694f77b37f11924f1287e1b06c11e7 ice: add support for reading and unpacking Rx queue context
-d5cab26147b4ec2da0c84ea88df53f106c10ced1 ice: add functions to get and set Tx queue context
-b6170822900b56004047e626164552ed3f70de29 ice: save RSS hash configuration for migration
-a815738bf70d8a1c437a68c43e2bd6cc4f953b8f ice: move ice_vsi_update_l2tsel to ice_lib.c
-c7aa3b089802d4296f239d35df68faa4ec1c3eef ice: expose VF functions used by live migration
-3740e39bbe3c8f6dadbca90af80acb1bc1a439be ice: use pci_iov_vf_id() to get VF ID
-5dc5ecc71a85d6b0765548d04e8491c80c95fe69 ice: avoid rebuilding if MSI-X vector count is unchanged
-828cc3b91f239e17afd70d5223005b750e26ab22 ice: introduce ice_get_vf_by_dev() wrapper
-68a0ebb263b2b378b9d7fe0be75517fd646d1788 igc: Relocate RSS field definitions to igc_defines.h
-179df0756d1a44aca892594f241dfadbdaa51635 igc: Add wildcard rule support to ethtool NFC using Default Queue
-e86409153fb3121639ed48e64623c3d34bfc0877 ixgbe: spelling corrections
+092bd1532c2cea6c257cb65981d2aabf6b62a191 send-email: fix bug resulting in broken threads if a message is edited
+2cc27b3501064231c5ae190cf2158786e4bfc87b send-email: show the new message id assigned by outlook in the logs
+7cd080acf65a96032824f3b5faad506346b69f5c contrib/subtree: parse using --stuck-long
+fea50ce4118c38d74d05c3595abe7756cabee4e1 contrib/subtree: add -S/--gpg-sign
+e6659b77dfed6f3778e5c6870927be3da082d4f5 stash: allow "git stash -p <pathspec>" to assume push again
+468817bab2ab5fd9b71a8df49e02b8d5521b1631 stash: allow "git stash [<options>] --patch <pathspec>" to assume push
+a3d278bb6457fa33461891a8f0a4ccffaf0f5296 revision: fix memory leak in prepare_show_merge()
+b1d47b464e553331c555f122c5e341dfbfb618bd environment: remove the global variable 'core_preload_index'
+1fde1c5daf399bb2d645261e38a7f4b8b1de04c6 preload-index: stop depending on 'the_repository'
+ffb36c64f2b39833f1ac95b79d39c881ed60de24 stash: fix incorrect branch name in stash message
+fdbea0870e4abecfa28eb5b196104fcd18e1c6d1 CodingGuidelines: let BSS do its job
+abf94a283fd85e680f8d720241e6059dbb5f23f5 cat-file: fix mailmap application for different author and committer
+2939494284909cdc1410944c9c1e00a4a6eff2e9 git.c: remove the_repository dependence in run_builtin()
+855cfc65aeca5b2458a6bc100eb1280a119fdb87 t2400: replace 'test -[efd]' with 'test_path_is_*'
+afe1a7aee768e3171e83772d0587e789ca0de3df Merge branch 'pw/subtree-gpg-sign'
+d2fb10344798a9bfb76592e20715131dfac11a51 Merge branch 'pw/stash-p-pathspec-fixes'
+91e15c5e0cc236cd6dc740c762c4b70f0d9c58a6 Merge branch 'ag/send-email-edit-threading-fix'
+77eb1dc722ff32d7608ed696de37efb086f858d3 Merge branch 'kj/stash-onbranch-submodule-fix'
+f6e507f7cbbda52ce830278f74557139ce8f9793 Merge branch 'ly/prepare-show-merge-leakfix'
+2859812ca3da039c2e390b65863fa2c42ff5d380 Merge branch 'ac/preload-index-wo-the-repository'
+1f082506ba5b9815a6d7476aca40880c08950fef Merge branch 'jc/cg-let-bss-do-its-job'
+1e60e1d6d8e769c71547569d127f8149bffcd9ff Merge branch 'sa/multi-mailmap-fix'
+da59201dfcafac520a0a3d5d02c467c0a6f304c2 Merge branch 'rm/t2400-modernize'
+277c3e82edbb59c9611b1ca0b8a76a740931eea9 Merge branch 'ly/run-builtin-use-passed-in-repo'
+f0135a9047ca37d4d117dcf21f7e3e89fad85d00 The third batch
 
---===============3839758579800935292==--
+--===============0139015221577566185==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7c2003159bac-b486b64238e9.txt
+
+a8f959cbf6581a6b124a502139c8d750a2fa6a0e contrib: remove "remotes2config.sh"
+6672b90ecec88f9f68532839731983a9bad0f260 contrib: remove "examples" directory
+9a5e587d47c8d973d34842c24b57aae0585520bf contrib: remove remote-helper stubs
+5e16d46ba49a28bb125f146251d707419825d6ea contrib: remove "thunderbird-patch-inline"
+9a19b79e7599432754cab22b29a0ad3291b3d455 contrib: remove "hooks" directory
+21b4f9009dd5a03e8c16d2c9473c896cff791001 contrib: remove "mw-to-git"
+1248fb08d7e87911487fefb9f514d39eb5f4ddcb contrib: remove "persistent-https" remote helper
+bb9a9297d708827151442cba4d9f39eeede245a4 contrib: remove "git-resurrect.sh"
+95bc4474190515ca03ebe8719951949ecef73a6c contrib: remove "emacs" directory
+15405cd325be6f51bea1115be6cc842d5b06f59d contrib: remove "git-new-workdir"
+af2a4b3eb75ca794514dd1e65f90f5d3417c34a0 contrib: remove some scripts in "stats" directory
+393bbb21c977d4dbfcfc8ffd7474712b65719d3d object-name: make get_oid quietly return an error
+7572e59b3d89a8ff15a2d81de7d5f1814181d981 builtin/stash: factor out revision parsing into a function
+27c0be9a3f3bb32781aadd1caec14c1e1846a5da builtin/stash: provide a way to export stashes to a ref
+bc303718cc288b54233b204ce88223a16fb38487 builtin/stash: provide a way to import stashes from a ref
+3a54f5bd5db0478c39a52b4da149e3c2413f46eb merge/pull: add the "--compact-summary" option
+c8b4805897aa12305389c76480e1d59c4696f2ac merge/pull: extend merge.stat configuration variable to cover --compact-summary
+0ed16dc3c4f60ac79f9f51b4b991bf36d7ab73ea Merge branch 'ag/imap-send-resurrection' into jt/imap-send-message-fix
+1d304ce1301f4bcc239683702e8d9e675f5f78f4 imap-send: fix confusing 'store' terminology in error message
+d30bf28d09d4d13ca7984d8593522be22f698f8a imap-send: improve error messages with configuration hints
+1129596dc88a5b0ad53e0d36981bd91c2352cba8 t7422: replace confusing printf with echo
+f62dcc7f30d16af29c0f707005aceb5eb6119279 remote: remove branch->merge_name and fix branch_release()
+2084f119b4d8252116493336f597d205cfa8f0b8 remote: fix tear down of struct remote
+059268fd056c4063eb913e6ec265bcdf85437b03 dir: move starts_with_dot(_dot)_slash to dir.h
+f8542961da88bee31f7e0da21fd8d2792d62f888 remote: remove the_repository from some functions
+e759275c8fbf76e380600a87f72d6857d3b48ba3 submodule--helper: improve logic for fallback remote name
+fedfb0735b2d2dd7b47287925ad5a0aa4fbb9712 submodule: move get_default_remote_submodule()
+ca62f524c1eaef606b5c312de53ef7c4d9eefa4f submodule: look up remotes by URL first
+b32c7ec02f6407bf3445b0fedf6c7294179b7e49 test-lib: teach test_seq the -f option
+afe1a7aee768e3171e83772d0587e789ca0de3df Merge branch 'pw/subtree-gpg-sign'
+d2fb10344798a9bfb76592e20715131dfac11a51 Merge branch 'pw/stash-p-pathspec-fixes'
+91e15c5e0cc236cd6dc740c762c4b70f0d9c58a6 Merge branch 'ag/send-email-edit-threading-fix'
+77eb1dc722ff32d7608ed696de37efb086f858d3 Merge branch 'kj/stash-onbranch-submodule-fix'
+f6e507f7cbbda52ce830278f74557139ce8f9793 Merge branch 'ly/prepare-show-merge-leakfix'
+2859812ca3da039c2e390b65863fa2c42ff5d380 Merge branch 'ac/preload-index-wo-the-repository'
+1f082506ba5b9815a6d7476aca40880c08950fef Merge branch 'jc/cg-let-bss-do-its-job'
+1e60e1d6d8e769c71547569d127f8149bffcd9ff Merge branch 'sa/multi-mailmap-fix'
+da59201dfcafac520a0a3d5d02c467c0a6f304c2 Merge branch 'rm/t2400-modernize'
+277c3e82edbb59c9611b1ca0b8a76a740931eea9 Merge branch 'ly/run-builtin-use-passed-in-repo'
+f0135a9047ca37d4d117dcf21f7e3e89fad85d00 The third batch
+3dfd301fa1f0c91a006ed8730aa45d2fd632e412 Merge branch 'bc/stash-export-import' into next
+29893fdca6590afaac5775168f97b31cd1171944 Merge branch 'jc/merge-compact-summary' into next
+5d97a089a81c95301f321908c78b41da91fba0ad Merge branch 'ps/contrib-sweep' into next
+106e5c22eb83030519d3d70abebe91c54d016bda Merge branch 'jt/imap-send-message-fix' into next
+6726b890cb5910cf12c073479c0f7d6957f7f2cf Merge branch 'jk/test-seq-format' into next
+0354a7779f81579676885632233cb4d1731b2f72 Merge branch 'jk/submodule-remote-lookup-cleanup' into next
+b486b64238e9a587c8c2906384c408ecf1c55882 Sync with 'master'
+
+--===============0139015221577566185==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-04dbb4f30969-8fdef1eb8c66.txt
+
+b32c7ec02f6407bf3445b0fedf6c7294179b7e49 test-lib: teach test_seq the -f option
+c614dad51f322cff7f3d5cf4562bff222dc588ce contrib: use a more portable shebang for git-credential-netrc
+c24355427bf788de2785231e8842282ee6bfe8d1 contrib: warn for invalid netrc file ports in git-credential-netrc
+12169402ebe8e0cdee9836e08cf99dfa6704f2d9 contrib: better support symbolic port names in git-credential-netrc
+b9cec16db9914cac87a8af3864cfc1fa46ee623d compat/posix.h: track SA_RESTART fallback
+061103d18ac77bc1c408038c12d27463a8146057 daemon: use sigaction() to install child_handler()
+7047307108973227449d326cacc5daba7c54c047 daemon: explicitly allow EINTR during poll()
+afe1a7aee768e3171e83772d0587e789ca0de3df Merge branch 'pw/subtree-gpg-sign'
+d2fb10344798a9bfb76592e20715131dfac11a51 Merge branch 'pw/stash-p-pathspec-fixes'
+91e15c5e0cc236cd6dc740c762c4b70f0d9c58a6 Merge branch 'ag/send-email-edit-threading-fix'
+77eb1dc722ff32d7608ed696de37efb086f858d3 Merge branch 'kj/stash-onbranch-submodule-fix'
+f6e507f7cbbda52ce830278f74557139ce8f9793 Merge branch 'ly/prepare-show-merge-leakfix'
+2859812ca3da039c2e390b65863fa2c42ff5d380 Merge branch 'ac/preload-index-wo-the-repository'
+1f082506ba5b9815a6d7476aca40880c08950fef Merge branch 'jc/cg-let-bss-do-its-job'
+1e60e1d6d8e769c71547569d127f8149bffcd9ff Merge branch 'sa/multi-mailmap-fix'
+da59201dfcafac520a0a3d5d02c467c0a6f304c2 Merge branch 'rm/t2400-modernize'
+277c3e82edbb59c9611b1ca0b8a76a740931eea9 Merge branch 'ly/run-builtin-use-passed-in-repo'
+f0135a9047ca37d4d117dcf21f7e3e89fad85d00 The third batch
+b57f57afcafe0d978153f635e46b8aeddc5c681c Merge branch 'jc/you-still-use-whatchanged' into jch
+6a1e16c0b46574afba08df3659819a2855cd6807 Merge branch 'ps/maintenance-ref-lock' into jch
+63a68818ebdc081c07c300473ecec348ecb4f4f7 Merge branch 'jc/diff-no-index-with-pathspec-fix' into jch
+26a7cbace0738f0486a60d9d44e3837b65b94253 Merge branch 'jg/mailinfo-leakfix' into jch
+c0a9368bb1a8b59191bbafeaa9c44b8f16fda1df Merge branch 'jc/cocci-avoid-regexp-constraint' into jch
+282ee49627f54360619daaf6fdecf30d828035d7 Merge branch 'ag/imap-send-resurrection' into jch
+58aa8092df743f8d9750cfb83a5259c3f779e38e Merge branch 'bc/stash-export-import' into jch
+1e99d6b4eb608d035539e061223376ffd542d0c6 Merge branch 'jc/merge-compact-summary' into jch
+4e219d2994ab67a738963790611bcbd7544d3742 Merge branch 'ps/contrib-sweep' into jch
+67e17b00ced0048c2cf5f65757493db2f4fe8d00 Merge branch 'jt/imap-send-message-fix' into jch
+90cc4411df24602b28b65b17f731df08ebee86e1 Merge branch 'jk/test-seq-format' into jch
+876ed3f2f2ef862ec180601765828f8ddc72322d Merge branch 'jk/submodule-remote-lookup-cleanup' into jch
+498d2e4c70be58f17a0c10b7b70711e1976bbdaa ### match next
+a4fce15120a8ec79896eaeabd4ddd9d576e5d2b5 Merge branch 'sk/reftable-clarify-tests' into jch
+47d92024891dd1c2d10920990db649182a34731c Merge branch 'ps/object-store' into jch
+dbedc7acbe0a38f58c845f7a875320cb0c885c79 Merge branch 'ly/load-bitmap-leakfix' into jch
+939af3919910bb4b7e29780ff77f302332a4283c Merge branch 'tb/prepare-midx-pack-cleanup' into jch
+53dfcc6acb0cb1583087a8c0e0a6a59ace9972ca Merge branch 'kn/fetch-push-bulk-ref-update' into jch
+7b79a6a0abe551193095a9df25fb7006228425c6 Merge branch 'kn/fetch-push-bulk-ref-update-fixup' into jch
+13458e4669887253e0dff0e9dedfdcb2dd9065a1 Merge branch 'kj/renamed-submodule' into jch
+569da53e80cb9d61326263f6e40c998da6d5f6ed Merge branch 'ja/doc-git-log-markup' into jch
+04b163becf1c8204eb6786f6317e0e0d4dfde213 Merge branch 'tb/midx-avoid-cruft-packs' into jch
+47702c9b16647e79d98e93b2310ccfbd9b73d6fc Merge branch 'jc/coccicheck-fails-make-when-it-fails' into jch
+8e5723dd1cdef5db8e6b766030c5daa90661e10d Merge branch 'jc/cocci-dtype' into jch
+538f587bac4bc3752a370651e0675d5e515c4413 Merge branch 'mc/netrc-service-names' into jch
+291164085264df30fb191964d5f288470483f417 Merge branch 'bc/use-sha256-by-default-in-3.0' into seen
+13203de4f320316c40a165d2b9229161d14e7265 Merge branch 'ss/compat-bswap-revamp' into seen
+5cafa08afd5b2c965c4dc5f0dda493b3d057109b Merge branch 'cc/promisor-remote-capability' into seen
+7f6c7e6feb5e0e60e3a747ecb711029fb41d34bf Merge branch 'sj/string-list-typefix' into seen
+841fb98ce28d985d7737e8ea51129c23d18b32f0 Merge branch 'lm/add-p-context' into seen
+8c82c148fe2411b9b873abb8324018b859808de4 Merge branch 'ow/rebase-verify-insn-fmt-before-initializing-state' into seen
+03d73b4797de4614d0b858f15534f4427ee41ef9 Merge branch 'bs/config-mak-freebsd' into seen
+319456a0d23ddf8d11296dea03e6b2bb302ec098 Merge branch 'jc/tag-idempotent-no-op' into seen
+4d5f3b87bcc6f0c7a5808c76ba31dd23515eaff0 Merge branch 'ac/deglobal-sparse-variables' into seen
+a74cc524a9d58d6f30d3cf81f034df14011b3add Merge branch 'cc/fast-import-export-signature-names' into seen
+20b7fc89041c511a3c0c1b0785767fb0adab2362 Merge branch 'ph/fetch-prune-optim' into seen
+8fdef1eb8c663b13291bfea4bf5780427bab3aad Merge branch 'cb/daemon-leap-children' into seen
+
+--===============0139015221577566185==--
