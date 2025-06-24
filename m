@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 24 Jun 2025 12:33:31 -0000
-Message-Id: <175076841139.65655.994105249019886384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 24 Jun 2025 12:44:34 -0000
+Message-Id: <175076907470.74975.8718739075008957999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/dev
-    old: 9bdfd3d465e9671f71aed0aa897376aaaa257b63
-    new: 55edf54333c0d306ea89acff59dd9209d0e42c6e
+  - ref: refs/heads/linux-6.1.y-scmi-fix
+    old: 75b00d8e8c23d6c393d4a049ba803aad7ef5e2f1
+    new: 5931dd0abe33f5310efd07fd150d549633a673b6
     log: |
-         55edf54333c0d306ea89acff59dd9209d0e42c6e rcu: Document that rcu_barrier() hurries lazy callbacks
+         a38d148771d43162f207a84f80e11569bbdbc500 firmware: arm_scmi: Add a common helper to check if a message is supported
+         5931dd0abe33f5310efd07fd150d549633a673b6 firmware: arm_scmi: Ensure that the message-id supports fastchannel
          
-  - ref: refs/tags/v6.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e76fe965a0365e346cdaaf462847bac748354ab2
-  - ref: refs/tags/v6.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
