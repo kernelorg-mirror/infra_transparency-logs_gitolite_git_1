@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Jun 2025 10:01:31 -0000
-Message-Id: <175075929158.4122917.2869576049981824463@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6263387283419737392=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 24 Jun 2025 10:03:20 -0000
+Message-Id: <175075940039.4123939.13764857412448437448@gitolite.kernel.org>
+
+--===============6263387283419737392==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 394d0440fb81d647fb887ea69d775fe9ca6eeddc
-    new: c4c5af37976c875edbfb3c76075bff998cd3b09c
+    old: 4e9644b44f16491d7429cb36ce4d3fbbd1d62424
+    new: 2594fa410348b3e60d98ab0dedaf11787c8ef7a2
     log: |
-         98ff5c071d1cde9426b0bfa449c43d49ec58f1c4 x86/bugs: Avoid AUTO after the select step in the retbleed mitigation
-         530e80648bff083e1d19ad7248c0540812a9a35f x86/bugs: Simplify the retbleed=stuff checks
-         9f85fdb9fc5a1bd308a10a0a7d7e34f2712ba58b x86/bugs: Avoid warning when overriding return thunk
-         7e44909e0ea8346ba08b244ecc275fc3394e2b8e x86/bugs: Use switch/case in its_apply_mitigation()
-         8374a2719df2a00781e6821e373d7de71390d1b4 x86/bugs: Introduce cdt_possible()
-         e2a9c03192f54bb53a5422bf5106bdc4d04a7426 x86/bugs: Remove its=stuff dependency on retbleed
-         e88b1627b86eb756406ca0738c3db86351a58e4f x86/bugs: Allow ITS stuffing in eIBRS+retpoline mode also
-         c4c5af37976c875edbfb3c76075bff998cd3b09c Merge x86/bugs into tip/master
+         2594fa410348b3e60d98ab0dedaf11787c8ef7a2 drop rust patches from 6.15 as they broke the build
          
+
+--===============6263387283419737392==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1750759432 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1750759395-807dd20140d40e77f06be1a3914201f20f58c22a
+
+4e9644b44f16491d7429cb36ce4d3fbbd1d62424 2594fa410348b3e60d98ab0dedaf11787c8ef7a2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhaeAgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fygP/1WP8TUPT/3/hLWi4ucf
+mQt0b/zeRDyrvnGD8VDaBs/hCWG+L4pNUZmpoYLIDnYQiV5Q9HixVK6imTG0KWF+
+kGu/Z+6IdngRybCAzUF1t9Vav/QOx3MD9IURdwPH9q1GFmBMkOgZFwI2UM7Dqv0N
+2JCmqT2Zlm2sBnraYXI0TnK+26jfyU/FOGBUOVyhIvcSm2KOTLb/WBKd2s1fyKpL
+ukhycUv+Uyjy1di5AleZbC6GcJu84XtX2PAabDUV2SUvRBrmT50LNIHMy2NGG5ZQ
+pQ4XeCPsTONjvKwmNTsqlhTt6ml5rVzieYW3FVPoHFGp9ChcEefLoWckc9BffQBS
+fcCWot3sK4qhOcpvDjHlgad/3j35v8SC/cGaBFrHboADAxsIudZvhHB/y5iIfnLZ
+4IRYIJHW4itP3jTwR29+zcYyM4GsKo1y8soOUinXED4e+Vekj6tt/vGU7gt4BwUB
+5epY74jFhjKKb/7X04IlT7iAOVg7YQZAta3EcdjY6U+xQbv3Dra+QBAWo4KECPqn
+NoiPYjqnjEW8MEibXF1UGkyYhRhn1o8TbC095ZmBZghTzDGeAT0lcv8SrO7/1vcZ
+Nv+9wCD5P+XsYyrjWqcAAGkH6E3OAnSK05HSyrNuQ/iFfkCVGXKURjY0SpViIW0u
+PWDjUGaC/QqvNc+yjmlp49bY
+=DZa8
+-----END PGP SIGNATURE-----
+
+--===============6263387283419737392==--
