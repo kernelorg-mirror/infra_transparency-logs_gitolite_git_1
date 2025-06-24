@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7762669875545311783=="
+Content-Type: multipart/mixed; boundary="===============8494375001851433915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 24 Jun 2025 17:32:21 -0000
-Message-Id: <175078634167.344926.11489924667668177866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 24 Jun 2025 17:32:45 -0000
+Message-Id: <175078636505.345418.8057688388217195143@gitolite.kernel.org>
 
---===============7762669875545311783==
+--===============8494375001851433915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.16
+  - ref: refs/heads/for-linus
     old: d57e92dd660014ccac884eda616cafc7b04601e0
     new: 86731a2a651e58953fc949573895f2fa6d456841
     log: revlist-d57e92dd6600-86731a2a651e.txt
-  - ref: refs/heads/spi-6.17
-    old: 5fc2c383125c2b4b6037e02ad8796b776b25e6d0
+  - ref: refs/heads/for-next
+    old: 4f326fa6236787ca516ea6eab8e5e9dc5c236f03
     new: 3e36c822506d924894ff7de549b9377d3114c2d7
-    log: revlist-5fc2c383125c-3e36c822506d.txt
+    log: revlist-4f326fa62367-3e36c822506d.txt
 
---===============7762669875545311783==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1750786377 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1750786339-54672c270bedbbadc7127c6690bbcf112c250b4d
-
-d57e92dd660014ccac884eda616cafc7b04601e0 86731a2a651e58953fc949573895f2fa6d456841 refs/heads/spi-6.16
-5fc2c383125c2b4b6037e02ad8796b776b25e6d0 3e36c822506d924894ff7de549b9377d3114c2d7 refs/heads/spi-6.17
------BEGIN PGP SIGNATURE-----
-
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmha4UkACgkQJNaLcl1U
-h9CF3Qf4gjVmk0K7FoI8DjXfcTu317tKUwXpFhvw5j6YEDMz0ON1PeETJQS7KaDc
-W1hff+o8v+3VnDb9x/LiaXqEo5hGLJXK+IZLXmsD0tytRnkB7dW4kHNjJV4/eHu5
-MXP1itAWgtlXsAwv35qZc5lgU6i6NviGuIRGcJm4f4gUgF7mSxjCDaD8OKmFuXQN
-aqzZPD1TFYqDcKOAiJbHmpTRJLZzGmS3Bk4PLQPewWx/pwa2/HMfQM9hqkQwmLQE
-sFgjktQemUz0NAtlRnSaI577fpkzssZUgAnUbHT35/gese4JLqz4AsmoBcA/4BkT
-m/iAurnlXpiaS2wKnYsvroW9W2zu
-=EOVR
------END PGP SIGNATURE-----
-
---===============7762669875545311783==
+--===============8494375001851433915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -666,11 +640,11 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============7762669875545311783==
+--===============8494375001851433915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fc2c383125c-3e36c822506d.txt
+Content-Disposition: attachment; filename=revlist-4f326fa62367-3e36c822506d.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
@@ -974,7 +948,6 @@ b0823d5fbacb1c551d793cbfe7af24e0d1fa45ed perf/x86/intel: Fix crash in icl_update
 93adf20ff4d6e865e0b974110d3cf2f07c057177 ALSA: usb-audio: Rename ALSA kcontrol PCM and PCM1 for the KTMicro sound card
 ac90aad0e9bf7c37e706fdc08ce763a553890bdf crypto: testmgr - reinstate kconfig control over full self-tests
 f59427932885f9b47b22b532b079478905b9ad08 ASoC: apple: mca: Drop default ARCH_APPLE in Kconfig
-9f0ad43b158d07bc7144d219ceabdea36e28e392 spi: spi-pci1xxxx: Drop MSI-X usage as unsupported by DMA engine
 9ba75ccad85708c5a484637dccc1fc59295b0a83 platform/x86/amd/pmc: Add PCSpecialist Lafite Pro V 14M to 8042 quirks list
 e2468dc700743683e1d1793bbd855e2536fd3de2 Revert "platform/x86: alienware-wmi-wmax: Add G-Mode support to Alienware m16 R1"
 f826ec7966a63d48e16e0868af4e038bf9a1a3ae bio: Fix bio_first_folio() for SPARSEMEM without VMEMMAP
@@ -989,7 +962,6 @@ b5acc3628898baa63658bc4125f9525f9b3dd4f3 ata: ahci: Disallow LPM for ASUSPRO-D84
 553ab30a181043f01b99a493ba13f9c011eb75ae Documentation: nouveau: Update GSP message queue kernel-doc reference
 f9705d66fa7107fcd619083f7aae2afb0554a593 iommu/tegra: Fix incorrect size calculation
 db3dfae1a2f662e69d535827703bcdbb04b8d72b Documentation: ublk: Separate UBLK_F_AUTO_BUF_REG fallback behavior sublists
-d57e92dd660014ccac884eda616cafc7b04601e0 spi: tegra210-qspi: Remove cache operations
 ab107276607af90b13a5994997e19b7b9731e251 powerpc: Fix struct termio related ioctl macros
 36df6f734a7ad69880c5262543165c47cb57169f Merge tag 'bcachefs-2025-06-12' of git://evilpiepirate.org/bcachefs
 ad6159087fbbd754bfe940bd62b6322307925faa Merge tag 'v6.16-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
@@ -1289,4 +1261,4 @@ b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://g
 1256eb42db5d1635f4c6da5b1b58db0b53320883 spi: microchip-core-qspi: Add regular transfers
 3e36c822506d924894ff7de549b9377d3114c2d7 spi: spi-pci1xxxx: Add support for per-instance DMA interrupt vectors
 
---===============7762669875545311783==--
+--===============8494375001851433915==--
