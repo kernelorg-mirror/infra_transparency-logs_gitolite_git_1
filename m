@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============5757668844269159302=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Jun 2025 08:33:24 -0000
-Message-Id: <175075400450.4026034.13357646719492800229@gitolite.kernel.org>
-
---===============5757668844269159302==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 24 Jun 2025 08:35:27 -0000
+Message-Id: <175075412701.4029373.14214667719014683308@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,86 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 71767d8ff485c0b3ac8ab37d1dd34ebefc4bd9c3
-    new: 394d0440fb81d647fb887ea69d775fe9ca6eeddc
-    log: revlist-71767d8ff485-394d0440fb81.txt
-  - ref: refs/heads/tip/urgent
-    old: a24cc6ce1933eade12aa2b9859de0fcd2dac2c06
-    new: 38580b01f6d83380415373a4d43406a0785a5ee9
-    log: revlist-a24cc6ce1933-38580b01f6d8.txt
-  - ref: refs/tags/v6.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
-
---===============5757668844269159302==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71767d8ff485-394d0440fb81.txt
-
-38580b01f6d83380415373a4d43406a0785a5ee9 Merge branch into tip/master: 'locking/urgent'
-fb38e1d32ca1532f41f7dbfbfeaae2ab32f21435 Merge branch into tip/master: 'core/bugs'
-07dcdedec745f7f3c2643056403f442035e4dd88 Merge branch into tip/master: 'core/entry'
-00104c35141c80b75094e8fa94627173247b2102 Merge branch into tip/master: 'irq/core'
-902c34ecee5ea3460a8c23ef625c223b9b46d6f4 Merge branch into tip/master: 'irq/drivers'
-47a262866ce132285dd93740ac7f4b5deed0b4d4 Merge branch into tip/master: 'irq/msi'
-48d2008f1e581bc14526b747151fa3f869a779de Merge branch into tip/master: 'sched/core'
-81cfdb789be5634e7e5c4056ec33f3af3ff92ed6 Merge branch into tip/master: 'smp/core'
-0fde1cfda589dad660bb5c43d501296a18891799 Merge branch into tip/master: 'timers/core'
-9976f703ce310882a80e976068637cbdb5f65fb9 Merge branch into tip/master: 'x86/boot'
-5bdadc310f7786e2def900398a8b44cb5ae296fd Merge branch into tip/master: 'x86/cpu'
-c2f4a027b9f3c314a3b40411334c9628681003e9 Merge branch into tip/master: 'x86/kconfig'
-394d0440fb81d647fb887ea69d775fe9ca6eeddc Merge branch into tip/master: 'x86/sev'
-
---===============5757668844269159302==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a24cc6ce1933-38580b01f6d8.txt
-
-4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
-6dea74e454c260cd757b53a2f6861fffe6d83308 f2fs: Fix __write_node_folio() conversion
-ba8dac350faf16afc129ce6303ca4feaf083ccb1 f2fs: fix to zero post-eof page
-c769be2d3dbb165a3d432f4fcca2c80fabb35877 btrfs: include root in error message when unlinking inode
-dd276214e439db08f444fd3e07e9fe4c9e0ca210 btrfs: fix delayed ref refcount leak in debug assertion
-186b9dc3c302ad706b3f23c857eb128165f6b484 btrfs: warn if leaking delayed_nodes in btrfs_put_root()
-65d5112b4d7cf019ccb62cf40077038aae66239b btrfs: scrub: add prefix for the error messages
-3ca864de852bc91007b32d2a0d48993724f4abad btrfs: fix a race between renames and directory logging
-ae4477f937569d097ca5dbce92a89ba384b49bc6 btrfs: update superblock's device bytes_used when dropping chunk
-e5b5596011773a38e035e9633ed928ef13c720b1 btrfs: fix double unlock of buffer_tree xarray when releasing subpage eb
-2dcf838cf5c2f0f4501edaa1680fcad03618d760 btrfs: fix invalid inode pointer dereferences during log replay
-16edae52f60658caeaa0702e7cb6b738a09d4ad4 btrfs: don't silently ignore unexpected extent type when replaying log
-1961d20f6fa8903266ed9bd77c691924c22c8f02 btrfs: fix assertion when building free space tree
-a26bf338cdad3643a6e7c3d78a172baadba15c1a btrfs: fix race between async reclaim worker and close_ctree()
-547e836661554dcfa15c212a3821664e85b4191a btrfs: handle csum tree error with rescue=ibadroots correctly
-c0d90a79e8e65b89037508276b2b31f41a1b3783 btrfs: zoned: fix alloc_offset calculation for partly conventional block groups
-a05dd8ae5cbb1cb45f349922cfea4f548a5e5d6f mm/shmem, swap: fix softlockup with mTHP swapin
-965f87700adbcc6d72430f524d88135027f5bba3 selftests/mm: increase timeout from 180 to 900 seconds
-517f496e1e61bd169d585dab4dd77e7147506322 mm/gup: revert "mm: gup: fix infinite loop within __get_longterm_locked"
-0ea148a799198518d8ebab63ddd0bb6114a103bc mm: userfaultfd: fix race of userfaultfd_move and swap cache
-417d145c2e71ad7362200ede6e8afdfc6e56c4fb MAINTAINERS: add linux-mm@ list to Kexec Handover
-12b9a2c05d1b474518b0f5fac4a50b7f93b16930 kho: initialize tail pages for higher order folios properly
-223731cd63004cb07edfc6257d53565995c00cbb selftests/mm: add configs to fix testcase failure
-845f1f2d69f3f49b3d8c142265952c8257e3368c Revert "bcache: update min_heap_callbacks to use default builtin swap"
-48fd7ebe00c1cdc782b42576548b25185902f64c Revert "bcache: remove heap-related macros and switch to generic min_heap"
-95b2e31e1752494d477c5da89d6789f769b0d67b bcache: remove unnecessary select MIN_HEAP
-3333871296efd52ef6f6d5cce5a92dc7b06ba879 selftests/mm: skip uprobe vma merge test if uprobes are not enabled
-38103247777695ca2b09691b2247e66f157908c6 MAINTAINERS: add missing mm/workingset.c file to mm reclaim section
-40ffd2887635c492b758d8b02172c97f5d42f593 MAINTAINERS: add missing test files to mm gup section
-fba46a5d83ca8decb338722fb4899026d8d9ead2 maple_tree: fix MA_STATE_PREALLOC flag in mas_preallocate()
-883cf5b0b8389610f17106c454180c7f54b8d486 MAINTAINERS: update maintainers for HugeTLB
-b6d19f3742ff3429d8eb2cdf51a8ab598c197ee5 MAINTAINERS: add further init files to mm init block
-d91b00b687abf6fef13be030abd848416f320149 MAINTAINERS: add hugetlb_cgroup.c to hugetlb section
-a1540dcbe0246c42ee271a3b7bba5ec7c933321a MAINTAINERS: add stray rmap file to mm rmap section
-db5921ab8aa23142b277325192a7443601dc4534 MAINTAINERS: add memfd, shmem quota files to shmem section
-c742d127d2d831aa83ae2987a508bca2bf0c7736 MAINTAINERS: add additional mmap-related files to mmap section
-b872f562c8cef59743993b48eb458c2d87c1651e dm-crypt: Extend state buffer size in crypt_iv_lmk_one
-db53805156f1e0aa6d059c0d3f9ac660d4ef3eb4 dm-raid: fix variable in journal device check
-c06944560a562828d507166b4f87c01c367cc9c1 Merge tag 'mm-hotfixes-stable-2025-06-22-18-52' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-5ca7fe213ba3113dde19c4cd46347c16d9e69f81 Merge tag 'for-6.16-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-cb0de0e220d2233a84a2ff1afb8ffba7597d02fa Merge tag 'f2fs-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-78f4e737a53e1163ded2687a922fce138aee73f5 Merge tag 'for-6.16/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-38580b01f6d83380415373a4d43406a0785a5ee9 Merge branch into tip/master: 'locking/urgent'
-
---===============5757668844269159302==--
+  - ref: refs/heads/core/merge
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/irq/merge
+    old: 92a09c47464d040866cf2b4cd052bc60555185fb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/perf/merge
+    old: 0ae27a2014d3011f3b096143bffa270441637cb1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ras/merge
+    old: 62de6e1685269e1637a6c6684c8be58cc8d4ff38
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/merge
+    old: 37ef4bfb86512ad4a79c049ab8702d92a13513d2
+    new: 0000000000000000000000000000000000000000
