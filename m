@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 24 Jun 2025 19:11:02 -0000
-Message-Id: <175079226227.429173.13105038743694152502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 24 Jun 2025 19:11:05 -0000
+Message-Id: <175079226514.429316.8529598910380636308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: ff21a6ec0f27c126db0a86d96751bd6e5d1d9874
-    new: 6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e
+  - ref: refs/heads/tmp.perf-tools-next
+    old: be59dba332e1e8edd3e88d991ba0e4795ae2bcb2
+    new: 597f15d0930663d48cee653a65c86433cbed518c
     log: |
-         6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e ASoC: SOF: Intel: hda: Use devm_kstrdup() to avoid memleak.
+         614f806a34e134b7a35eb4b29a139b2c8c1b7795 perf test: Replace grep perl regexp with awk
+         51f4c00436b89696773e195c5f2d4a808483ff66 perf tools: Remove excess variable declarations
+         597f15d0930663d48cee653a65c86433cbed518c perf annotate: Fix source code annotate with objdump
          
