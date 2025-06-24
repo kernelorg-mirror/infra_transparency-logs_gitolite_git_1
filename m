@@ -1,66 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1802476347744453325=="
+Content-Type: multipart/mixed; boundary="===============7250042290314345457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 24 Jun 2025 15:25:50 -0000
-Message-Id: <175077875004.218622.12991660860614735927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 24 Jun 2025 15:33:05 -0000
+Message-Id: <175077918563.223802.15934484664045417922@gitolite.kernel.org>
 
---===============1802476347744453325==
+--===============7250042290314345457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/vfs-6.17.misc
-    old: 06a705356d7543b4eb2f41bef1ee0d5951700f7a
-    new: b39f7d75dc41b5f5d028192cd5d66cff71179f35
-    log: |
-         b39f7d75dc41b5f5d028192cd5d66cff71179f35 fs: Remove three arguments from block_write_end()
-         
-  - ref: refs/heads/vfs.all
-    old: bd0c22755f23eeec273b121f996a6dcf457a4d1a
-    new: d6eacb711016996b97563dad45c20915125be4eb
-    log: revlist-bd0c22755f23-d6eacb711016.txt
-  - ref: refs/heads/vfs.fixes
-    old: cbe4134ea4bc493239786220bd69cb8a13493190
-    new: dbee298cb7bba3aa112a0265b208f2f3861c5744
-    log: |
-         dbee298cb7bba3aa112a0265b208f2f3861c5744 fuse: fix fuse_fill_write_pages() upper bound calculation
-         
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 350fcb7d5fa661df34270972e35838a6dfb21eb5
+    new: 7806c6e91510f0045bd0072b816ca7c649600e9e
+    log: revlist-350fcb7d5fa6-7806c6e91510.txt
 
---===============1802476347744453325==
+--===============7250042290314345457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd0c22755f23-d6eacb711016.txt
+Content-Disposition: attachment; filename=revlist-350fcb7d5fa6-7806c6e91510.txt
 
-dbee298cb7bba3aa112a0265b208f2f3861c5744 fuse: fix fuse_fill_write_pages() upper bound calculation
-cc678bf7aa9e2e6c2356fd7f955513c1bd7d4c97 fhandle: raise FILEID_IS_DIR in handle_type
-774adcb55f159167fe0dfd343174fdedba3ae2f4 fhandle: hoist copy_from_user() above get_path_from_fd()
-f7be8a333253cc319f5c6456b5cdab2a57b7351b fhandle: rename to get_path_anchor()
-a0d8051cfd8145eb49dbd0c0c2f174d09da77796 pidfs: add pidfs_root_path() helper
-1c5484395f9f8b7bf0702f34aa3406353e45d7ec fhandle: reflow get_path_anchor()
-a4c746f06853f91d3759ae8aca514d135b6aa56d uapi/fcntl: mark range as reserved
-67fcec2919e4ed31ab845eb456ad7d6f1e85505c fcntl/pidfd: redefine PIDFD_SELF_THREAD_GROUP
-cd5d2006327b6d8488612cb8c03ad7304417c8f2 uapi/fcntl: add FD_INVALID
-b39f7d75dc41b5f5d028192cd5d66cff71179f35 fs: Remove three arguments from block_write_end()
-3941e37f62fe2c3c8b8675c12183185f20450539 uapi/fcntl: add FD_PIDFS_ROOT
-b95361481b1e5bd3627835b7e4b921d5a09e68a4 fhandle, pidfs: support open_by_handle_at() purely based on file handle
-914e6b1e85c5715ca2e7ec6293c05c71e9a98e86 selftests/pidfd: decode pidfd file handles withou having to specify an fd
-867673063e1da91cf960133f25d87e38fc790d7b Merge patch series "fhandle, pidfs: allow open_by_handle_at() purely based on file handle"
-822dc1dd7706660ccfc33c4eb9ad61c28c4035c6 Merge branch 'vfs.fixes' into vfs.all
-76fd0542f47b6bf6a0a104ee81ec1b4bdf317486 Merge branch 'vfs-6.17.misc' into vfs.all
-a79b7ff3af6be41592a3e0737b8b453cf3b9c5e5 Merge branch 'vfs-6.17.coredump' into vfs.all
-590a2f1904c3abe0d54b6b354f2d91c340e4020e Merge branch 'vfs-6.17.file' into vfs.all
-6a4d57ca8550cc8be2da3212294257cbac6cc11b Merge branch 'vfs-6.17.nsfs' into vfs.all
-07e66d5a01b076b36fff131dc20390e787293d99 Merge branch 'vfs-6.17.async.dir' into vfs.all
-8c05d6ba6d17ece6609ca6f5e5bdbf1d75ecde67 Merge branch 'vfs-6.17.mmap_prepare' into vfs.all
-9bd214a63874a061a2b7c9144b421ce10453a4bc Merge branch 'vfs-6.17.pidfs' into vfs.all
-0e804e6762df8c0e1328ffe106d654e91028ed3c Merge branch 'vfs-6.17.bpf' into vfs.all
-d6eacb711016996b97563dad45c20915125be4eb Merge branch 'vfs-6.17.rust' into vfs.all
+c49233ad0ab731c20942e12b9b22b1a4378b0836 clk: renesas: r9a09g047: Add SDHI clocks/resets
+1dfaef8c5fde2469d3d537d0a2ada3f770b82d54 dt-bindings: mmc: renesas,sdhi: Document RZ/G3E support
+77e71edf38f2a515a05f0f70d699d15e066d2c20 of: base: Add of_get_available_child_by_name()
+c5c471eb349adafd82438552904fb5bed215189f mmc: tmio: add callback for dma irq
+59f1497a7fbfba26d098b5c6796ad1b59b6ec7b7 mmc: renesas_sdhi: improve naming of DMA struct
+63b8aa964176771c5621b12844cbcc5910dc4d1e mmc: renesas_sdhi: remove accessor function for internal_dmac
+05408f44c5f42dc4576ef7cf3292af2f9dc43c74 mmc: renesas_sdhi: take DMA end interrupts into account
+c01fb6af8ee6aac81adf07db72157162c6f46afe mmc: renesas_sdhi: add helper to access quirks
+26632efcd43e0189e2a40ad1b741ab922c4b9bba mmc: renesas_sdhi: use plain numbers for end_flags
+4789488ff74486a74c575901a1a5afe0fb0079cd mmc: renesas_sdhi: use typedef for dma_filter_fn
+aaaf87c46bf7cf3a7b86adbb6723d8ef026b7c9d mmc: renesas_sdhi: Add support for RZ/G3E SoC
+4e34f25077e8d50093b603a9d9b3800fd3b04cd1 mmc: renesas_sdhi: Use of_get_available_child_by_name()
+ca747a95ca2c48c630d93b222ea0aa25a3e42618 arm64: dts: renesas: r9a09g047: Add SDHI0-SDHI2 nodes
+825b369e9e3ed37e3082ea0d39cc7e53fe92fb6f arm64: dts: renesas: r9a09g057: Add support for enabling SDHI internal regulator
+1d5f53a149f735b523418bedf0289c1f07c03d79 arm64: dts: renesas: rzg3e-smarc-som: Enable SDHI{0,2}
+578a27a3a022417bc13561bc604e08893526855b arm64: dts: renesas: rzg3e-smarc-som: Add support to enable SD on SDHI0
+7806c6e91510f0045bd0072b816ca7c649600e9e arm64: dts: renesas: r9a09g047e57-smarc: Enable SDHI1
 
---===============1802476347744453325==--
+--===============7250042290314345457==--
