@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2329293211769101378=="
+Content-Type: multipart/mixed; boundary="===============7762669875545311783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 24 Jun 2025 17:32:18 -0000
-Message-Id: <175078633823.344763.9306661109495638007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 24 Jun 2025 17:32:21 -0000
+Message-Id: <175078634167.344926.11489924667668177866@gitolite.kernel.org>
 
---===============2329293211769101378==
+--===============7762669875545311783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: d57e92dd660014ccac884eda616cafc7b04601e0
     new: 86731a2a651e58953fc949573895f2fa6d456841
     log: revlist-d57e92dd6600-86731a2a651e.txt
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 5fc2c383125c2b4b6037e02ad8796b776b25e6d0
     new: 3e36c822506d924894ff7de549b9377d3114c2d7
     log: revlist-5fc2c383125c-3e36c822506d.txt
 
---===============2329293211769101378==
+--===============7762669875545311783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1750786373 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1750786335-8b74c37ee629e2d0ccba1f0abe491596dd4ce839
+pusher C3F436CA30F5D8EB 1750786377 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1750786339-54672c270bedbbadc7127c6690bbcf112c250b4d
 
-d57e92dd660014ccac884eda616cafc7b04601e0 86731a2a651e58953fc949573895f2fa6d456841 refs/heads/for-6.16
-5fc2c383125c2b4b6037e02ad8796b776b25e6d0 3e36c822506d924894ff7de549b9377d3114c2d7 refs/heads/for-6.17
+d57e92dd660014ccac884eda616cafc7b04601e0 86731a2a651e58953fc949573895f2fa6d456841 refs/heads/spi-6.16
+5fc2c383125c2b4b6037e02ad8796b776b25e6d0 3e36c822506d924894ff7de549b9377d3114c2d7 refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmha4UUACgkQJNaLcl1U
-h9CFIwgAg0e9bQXgRUOXw/4z33kt2xaW6t3VbVIxq7qG0GKTkRgRK8QRcSxV7KlQ
-0/2mhQUBTmqzyuHWyWG+s6W7hgpfCFyRHZXFDEt6rKfXURsSkmK0Lk6E8QYSUDVX
-PSekR5P/PNF/IV12ewl5tqNpoSJKm7QLVM1ZYN/uhLikvozbeFtSN4EL+rIN7lrw
-CIqi+3ho3HPhqYjSHyCcvZp1Iz3UtsZGhj47I92MceDSS5b6MiaHR+gWWno3K/Vr
-xJn0ev0iBLXOevxPdklJ2JcShYBKUTqQkZcm4GXR8MQ6sQLqhNJcuL9lCfjYiJZI
-dB0wzVeSkscCjqFffgnCQhw9MGL0ng==
-=dDo2
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmha4UkACgkQJNaLcl1U
+h9CF3Qf4gjVmk0K7FoI8DjXfcTu317tKUwXpFhvw5j6YEDMz0ON1PeETJQS7KaDc
+W1hff+o8v+3VnDb9x/LiaXqEo5hGLJXK+IZLXmsD0tytRnkB7dW4kHNjJV4/eHu5
+MXP1itAWgtlXsAwv35qZc5lgU6i6NviGuIRGcJm4f4gUgF7mSxjCDaD8OKmFuXQN
+aqzZPD1TFYqDcKOAiJbHmpTRJLZzGmS3Bk4PLQPewWx/pwa2/HMfQM9hqkQwmLQE
+sFgjktQemUz0NAtlRnSaI577fpkzssZUgAnUbHT35/gese4JLqz4AsmoBcA/4BkT
+m/iAurnlXpiaS2wKnYsvroW9W2zu
+=EOVR
 -----END PGP SIGNATURE-----
 
---===============2329293211769101378==
+--===============7762669875545311783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -666,7 +666,7 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============2329293211769101378==
+--===============7762669875545311783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1289,4 +1289,4 @@ b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://g
 1256eb42db5d1635f4c6da5b1b58db0b53320883 spi: microchip-core-qspi: Add regular transfers
 3e36c822506d924894ff7de549b9377d3114c2d7 spi: spi-pci1xxxx: Add support for per-instance DMA interrupt vectors
 
---===============2329293211769101378==--
+--===============7762669875545311783==--
