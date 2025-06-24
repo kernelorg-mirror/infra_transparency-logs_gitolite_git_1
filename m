@@ -1,73 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0960150916028445823=="
+Content-Type: multipart/mixed; boundary="===============6112467750697637737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 24 Jun 2025 07:09:07 -0000
-Message-Id: <175074894740.3950393.17409450025250494677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Tue, 24 Jun 2025 07:27:01 -0000
+Message-Id: <175075002142.3965815.14204925001844380881@gitolite.kernel.org>
 
---===============0960150916028445823==
+--===============6112467750697637737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: fac62e76b870292648c62522efd1cfb72aefc079
+  - ref: refs/heads/main
+    old: 757259db79fc6054780e07bb284f768b01cf8fa9
+    new: 1265168759f3b5298a21d2172b017d9e90de647a
     log: |
-         fac62e76b870292648c62522efd1cfb72aefc079 ARM: configs: sama5_defconfig: Select CONFIG_WILC1000_SDIO
+         3c2dd2473d452afd8cd26cbb44e7eb64f8687765 wl1251: Remove unused wl1251_acx_rate_policies
+         6f3ec1828502ec8f9bc6cffc4c50927fe24cbdad wl1251: Remove unused wl1251_cmd_*
+         1265168759f3b5298a21d2172b017d9e90de647a wifi: wlcore: Remove unused wl12xx_cmd_start_fwlog
          
-  - ref: refs/heads/at91-dt
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 51860eebc98fc7fbd110c781ca33898f7a305627
-    log: revlist-19272b37aa4f-51860eebc98f.txt
-  - ref: refs/heads/at91-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 58716b888afdc6d9a71a6d04f7f2a2419173dd8f
-    log: revlist-19272b37aa4f-58716b888afd.txt
 
---===============0960150916028445823==
+--===============6112467750697637737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-51860eebc98f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9c2026fe46dfed1d5c48390c841ff26dc9c6b0b6 ARM: dts: microchip: use recent scl/sda gpio bindings
-71b39aeaaff152a4899f7fbee5a7f5fa8b335b85 ARM: dts: microchip: sama7d65: Add crypto support
-a9ea0d5f70ab63370159b3b07d2ebbf9de12532b ARM: dts: microchip: sama7d65: Add PWM support
-ec9a309d0c7e26efd7705600e15ff0909434e67a ARM: dts: microchip: sama7d65: Add CAN bus support
-5a4aad596e0d930c8fa189764ad4b06835843a13 ARM: dts: microchip: sama7d65: Clean up extra space
-198b54b0a6870d83576115deaecb5523ab6e56b9 ARM: dts: microchip: sama7d65: Enable CAN bus
-11b83df6bb920123409dfbb8d2e824fddb279186 ARM: dts: microchip: sam9x7: Add HLCD controller
-47b77557d3beb748c505ffd4cc378725f7c495c5 ARM: dts: microchip: sama7g5: Adjust clock xtal phandle
-0029468132ba2e00a3010865038783d9b2e6cc07 ARM: dts: microchip: sama7d65: Add clock name property
-2e24723492b28ffdccb0e3e68725673e299e3823 ARM: dts: microchip: sam9x7: Add clock name property
-7c0650f1f95fa0b72d47214458f68d26732128aa ARM: dts: microchip: gardena-smart-gateway: Fix power LED
-51860eebc98fc7fbd110c781ca33898f7a305627 ARM: dts: at91-sama5d27_wlsom1: Improve the Wifi compatible
+certificate version 0.1
+pusher 7BF9099A 1750750032 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1750749994-91a39d406ef20d185d70cd607eb029e1d72776c8
 
---===============0960150916028445823==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-58716b888afd.txt
+757259db79fc6054780e07bb284f768b01cf8fa9 1265168759f3b5298a21d2172b017d9e90de647a refs/heads/main
+-----BEGIN PGP SIGNATURE-----
 
-9c2026fe46dfed1d5c48390c841ff26dc9c6b0b6 ARM: dts: microchip: use recent scl/sda gpio bindings
-71b39aeaaff152a4899f7fbee5a7f5fa8b335b85 ARM: dts: microchip: sama7d65: Add crypto support
-a9ea0d5f70ab63370159b3b07d2ebbf9de12532b ARM: dts: microchip: sama7d65: Add PWM support
-ec9a309d0c7e26efd7705600e15ff0909434e67a ARM: dts: microchip: sama7d65: Add CAN bus support
-5a4aad596e0d930c8fa189764ad4b06835843a13 ARM: dts: microchip: sama7d65: Clean up extra space
-198b54b0a6870d83576115deaecb5523ab6e56b9 ARM: dts: microchip: sama7d65: Enable CAN bus
-11b83df6bb920123409dfbb8d2e824fddb279186 ARM: dts: microchip: sam9x7: Add HLCD controller
-47b77557d3beb748c505ffd4cc378725f7c495c5 ARM: dts: microchip: sama7g5: Adjust clock xtal phandle
-0029468132ba2e00a3010865038783d9b2e6cc07 ARM: dts: microchip: sama7d65: Add clock name property
-2e24723492b28ffdccb0e3e68725673e299e3823 ARM: dts: microchip: sam9x7: Add clock name property
-7c0650f1f95fa0b72d47214458f68d26732128aa ARM: dts: microchip: gardena-smart-gateway: Fix power LED
-51860eebc98fc7fbd110c781ca33898f7a305627 ARM: dts: at91-sama5d27_wlsom1: Improve the Wifi compatible
-fac62e76b870292648c62522efd1cfb72aefc079 ARM: configs: sama5_defconfig: Select CONFIG_WILC1000_SDIO
-58716b888afdc6d9a71a6d04f7f2a2419173dd8f Merge branch 'at91-dt' into at91-next
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmhaU1AACgkQ10qiO8sP
+aAB4LQ/+MEt4WKlug+WHRhv9+JhpgklFSWxlRCHMUK89hluYXIfTYKIzvDtAnC/Y
+LqfQ1NRYTZROjal+KDqD/rCdw7qwNDRPQDkxY088OiFc//aAwwcuhrB6kdUbdNAv
+ad/3eK6Edo4CsxfTJKipUzDEd1v13Oc4Vd1pVbdRzlFoFCQhVqymrYAqdsC2MiLp
+sC5cK8PrzFMZsuMWAddnoSGIrLftdj6JqQ2+j7dZLDOADWHniq/HRg02Hy1PIM+2
+JQDBpswpd2zVXP9XZQ+YxzMJPJeprvz8F4cwU8ZpihCakQAHyQaieKT5UY6lLdLH
+l/RB6ag+Mz9kaDX0uJi3NpANYkZhhW6FCHdfgo1On72z6p94gz9km1cF0apQacHs
+OPNlQAQjfBwTFxOPcyVgf98qjsRkoxy9Q4ItOq08AprrNam683FmDt3rG4D751NW
+PuR0ymNZonWlA7JAO9r2378Fq+2xpejH9XYZyjtybC3XnG+v4vyxr4RmkeWRVQf5
+FWgE171EzkdQXeUbDq5AxiRtaRyacjvMLqB98AHU7OxLCAn+REHrU8Gn58ORVWsr
+uhYtRFEUZ6J6iSvBkhZWsesjnnP58He8cgGb6ciwskapmVa4fXfXZy5Pe/y0wxQW
+GX6mW18kRc9FD9oAHuZWWp5QTBEgtCeeS8BD0ncHnp0owogrPMs=
+=Ip+/
+-----END PGP SIGNATURE-----
 
---===============0960150916028445823==--
+--===============6112467750697637737==--
