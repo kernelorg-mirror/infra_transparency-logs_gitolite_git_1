@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Jun 2025 20:27:22 -0000
-Message-Id: <175079684244.491335.15458350355831174560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 24 Jun 2025 20:29:59 -0000
+Message-Id: <175079699962.493464.12463792640380324722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 2aebf5ee43bf0ed225a09a30cf515d9f2813b759
-    new: fa7d0f83c5c4223a01598876352473cb3d3bd4d7
+  - ref: refs/heads/endpoint/epf-vntb
+    old: a0cc6e6fd072616315147ac68a12672d5a2fa223
+    new: 4eacb24f6fa342a672d6194d3ad1a44e6d923209
     log: |
-         5f465c148c61e876b6d6eacd8e8e365f2d47758f x86/traps: Initialize DR6 by writing its architectural reset value
-         fa7d0f83c5c4223a01598876352473cb3d3bd4d7 x86/traps: Initialize DR7 by writing its architectural reset value
+         4eacb24f6fa342a672d6194d3ad1a44e6d923209 PCI: endpoint: pci-epf-vntb: Allow BAR assignment via configfs
          
