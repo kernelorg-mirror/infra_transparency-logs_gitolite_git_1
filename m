@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 24 Jun 2025 11:30:06 -0000
-Message-Id: <175076460616.8240.4088422450248935930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 24 Jun 2025 11:30:10 -0000
+Message-Id: <175076461070.8622.9416525703035165167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/gnss
-user: johan
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/gnss-next
-    old: 86731a2a651e58953fc949573895f2fa6d456841
-    new: e326371f3002dbf54befd8ada9570fa489a46991
+  - ref: refs/heads/kbuild
+    old: 0a1eab129fedb4281e65c845b04be02b53c99f9c
+    new: f4363dfc900a7ffda96587d38982a1f3ea3d10bd
     log: |
-         e326371f3002dbf54befd8ada9570fa489a46991 dt-bindings: gnss: u-blox: add u-blox,neo-9m compatible
+         694174f94ebeeb5ec5cc0e9de9b40c82057e1d95 kconfig: lxdialog: fix 'space' to (de)select options
+         626c54af35764b0b8a4ed5c446458ba6ddfe9cc8 kheaders: rebuild kheaders_data.tar.xz when a file is modified within a minute
+         1a0faff2833b59a74c8389bcdc390af99dc9d2cf kheaders: rebuild kheaders_data.tar.xz when KBUILD_BUILD_TIMESTAMP is changed
+         f4363dfc900a7ffda96587d38982a1f3ea3d10bd kheaders: double-quote variables to satisfy shellcheck
          
