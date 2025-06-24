@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 24 Jun 2025 07:02:03 -0000
-Message-Id: <175074852376.3927151.8427291272655305720@gitolite.kernel.org>
+Date: Tue, 24 Jun 2025 07:02:47 -0000
+Message-Id: <175074856786.3927776.12322624190995883297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 7517df011b2a7749b7dcaa5d33bbd4f9e7fc9ba6
-    new: 350fcb7d5fa661df34270972e35838a6dfb21eb5
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 401d97f21cc4568890a217a5edb8013a1e987d2a
+    new: fc6dcff79abae0104f8c1a2f16b4f060b3f1b17c
     log: |
-         ec9e24893f1c1a624cb0ba176ace3aea259b86ee dt-bindings: watchdog: renesas,wdt: Document RZ/V2H(P) SoC
-         e7be3130426e3a807b36f67672c483be40149ece watchdog: Add Watchdog Timer driver for RZ/V2H(P)
-         b207036e51495e38eae3b0a933766e9b7500697c clk: renesas: r9a09g047: Add WDT clocks and resets
-         b272d893560f6e593a787bf7b6412c3d5abf7abb dt-bindings: watchdog: renesas,wdt: Document RZ/G3E support
-         ecedc65bd9927c7b35abde1a2b9bf3222cfc24c1 watchdog: Enable RZV2HWDT driver depend on ARCH_RENESAS
-         d2ac956f7e5fade994d5f100e8be7c50ae884bc2 arm64: dts: renesas: r9a09g047: Add WDT1-WDT3 nodes
-         9b7f73faf3a2280eefdc559968723ecd835a403e arm64: dts: renesas: rzg3e-smarc-som: Enable watchdog
-         350fcb7d5fa661df34270972e35838a6dfb21eb5 arm64: defconfig: Enable Renesas RZ/V2H(P) Watchdog driver
+         7f62264b25a5dedf2b678563d4eae17de31d85c6 clk: renesas: r9a09g047: Add WDT clocks and resets
+         651d02c66c412ad0686248725eabbec9821f3e67 dt-bindings: watchdog: renesas,wdt: Document RZ/G3E support
+         d7cb1496db0a4f52ed754c3c380d3d925083d68f watchdog: rzv2h_wdt: Use local `dev` pointer in probe
+         6753eb61f2fc539f7d3c0441f939b6f6978d0f5d watchdog: Enable RZV2HWDT driver depend on ARCH_RENESAS
+         4b6381b95e67e31c6ceddd91d0dfb7da79fa16ec arm64: dts: renesas: r9a09g047: Add WDT1-WDT3 nodes
+         cfc21a4e2bf734523d218acc312a6a10fdcd5526 arm64: dts: renesas: rzg3e-smarc-som: Enable watchdog
+         fc6dcff79abae0104f8c1a2f16b4f060b3f1b17c arm64: defconfig: Enable Renesas RZ/V2H(P) Watchdog driver
          
