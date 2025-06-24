@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 24 Jun 2025 14:25:56 -0000
-Message-Id: <175077515695.163985.7295720808178962821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mmc/mmc-utils
+Date: Tue, 24 Jun 2025 14:29:59 -0000
+Message-Id: <175077539976.166330.8318509188042015487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/utils/mmc/mmc-utils
+user: ulfh
 changes:
-  - ref: refs/heads/for-next
-    old: 857356a68a2d5f53e62e6ae9cea534922d89ec01
-    new: 38f6691add4143edc9f96c0243f0a2efddc08616
+  - ref: refs/heads/master
+    old: a23ad7875b89df0dedc23f0b173926374f01bc76
+    new: d8a8358a7207bd81d0c38dca2cf27a48bf411341
     log: |
-         0748e553df0225754c316a92af3a77fdc057b358 userns and mnt_idmap leak in open_tree_attr(2)
-         38f6691add4143edc9f96c0243f0a2efddc08616 Merge branch 'fixes' into for-next
+         d8a8358a7207bd81d0c38dca2cf27a48bf411341 mmc-utils: Pass key_mac buffer to rpmb_get_key()
          
