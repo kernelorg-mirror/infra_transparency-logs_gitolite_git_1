@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0545628686894201728=="
+Content-Type: multipart/mixed; boundary="===============3100123424594126620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 24 Jun 2025 11:22:39 -0000
-Message-Id: <175076415951.4193912.9112797599848007896@gitolite.kernel.org>
+Date: Tue, 24 Jun 2025 11:22:51 -0000
+Message-Id: <175076417187.4194255.15076958825776408758@gitolite.kernel.org>
 
---===============0545628686894201728==
+--===============3100123424594126620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/master
     old: e04c78d86a9699d136910cfc0bdcf01087e3267e
     new: 86731a2a651e58953fc949573895f2fa6d456841
     log: revlist-e04c78d86a96-86731a2a651e.txt
 
---===============0545628686894201728==
+--===============3100123424594126620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -406,4 +406,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============0545628686894201728==--
+--===============3100123424594126620==--
