@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 24 Jun 2025 17:44:16 -0000
-Message-Id: <175078705651.354748.17050241773377914541@gitolite.kernel.org>
+Date: Tue, 24 Jun 2025 17:45:27 -0000
+Message-Id: <175078712792.357764.9613983634577268861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: c8e73a3f54901196c98c1022ad8b21f38366cc50
+  - ref: refs/heads/perf-tools-next
+    old: c833e8cc4dca7e3c0a9d0b9047a1b4822b229262
     new: be59dba332e1e8edd3e88d991ba0e4795ae2bcb2
     log: |
          3317dc9ebda6d585a4e74a8d4a74d0d2dc6b14c6 perf srcline: Lower verbosity on addr2line debug messages
