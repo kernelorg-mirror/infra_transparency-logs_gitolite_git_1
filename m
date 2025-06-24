@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 24 Jun 2025 14:13:12 -0000
-Message-Id: <175077439298.152374.341993060161462812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 24 Jun 2025 14:25:40 -0000
+Message-Id: <175077514040.163658.9132184583107458851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/pwrseq/for-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: d4c2d9b5b7ceed14a3a835fd969bb0699b9608d3
+  - ref: refs/heads/fixes
+    old: ce7df19686530920f2f6b636e71ce5eb1d9303ef
+    new: 0748e553df0225754c316a92af3a77fdc057b358
     log: |
-         d4c2d9b5b7ceed14a3a835fd969bb0699b9608d3 power: sequencing: Add T-HEAD TH1520 GPU power sequencer driver
+         0748e553df0225754c316a92af3a77fdc057b358 userns and mnt_idmap leak in open_tree_attr(2)
          
