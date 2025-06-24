@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 24 Jun 2025 07:02:47 -0000
-Message-Id: <175074856786.3927776.12322624190995883297@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5700275545988481159=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 24 Jun 2025 07:06:13 -0000
+Message-Id: <175074877371.3948929.9896639451573991574@gitolite.kernel.org>
+
+--===============5700275545988481159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: 401d97f21cc4568890a217a5edb8013a1e987d2a
-    new: fc6dcff79abae0104f8c1a2f16b4f060b3f1b17c
+  - ref: refs/heads/main
+    old: 5c8013ae2e86ec36b07500ba4cacb14ab4d6f728
+    new: 7a3750ff0f2e8fee338a9c168f429f6c37f0e820
     log: |
-         7f62264b25a5dedf2b678563d4eae17de31d85c6 clk: renesas: r9a09g047: Add WDT clocks and resets
-         651d02c66c412ad0686248725eabbec9821f3e67 dt-bindings: watchdog: renesas,wdt: Document RZ/G3E support
-         d7cb1496db0a4f52ed754c3c380d3d925083d68f watchdog: rzv2h_wdt: Use local `dev` pointer in probe
-         6753eb61f2fc539f7d3c0441f939b6f6978d0f5d watchdog: Enable RZV2HWDT driver depend on ARCH_RENESAS
-         4b6381b95e67e31c6ceddd91d0dfb7da79fa16ec arm64: dts: renesas: r9a09g047: Add WDT1-WDT3 nodes
-         cfc21a4e2bf734523d218acc312a6a10fdcd5526 arm64: dts: renesas: rzg3e-smarc-som: Enable watchdog
-         fc6dcff79abae0104f8c1a2f16b4f060b3f1b17c arm64: defconfig: Enable Renesas RZ/V2H(P) Watchdog driver
+         0e7facea6da2bd360361440786785752aa5b0e30 wifi: iwlegacy: work around excessive stack usage on clang/kasan
+         7a3750ff0f2e8fee338a9c168f429f6c37f0e820 wifi: mac80211: fix beacon interval calculation overflow
          
+
+--===============5700275545988481159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1750748780 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1750748742-0e08acd96716bd53c275e7af48412b87146311df
+
+5c8013ae2e86ec36b07500ba4cacb14ab4d6f728 7a3750ff0f2e8fee338a9c168f429f6c37f0e820 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmhaTmwACgkQ10qiO8sP
+aABNwQ//WM5tVWH+1Zl42JFOdmDGtCZ3dWG4ypO4tAJXqj+PhX65TyQDIUKpPwdz
+O9BFNInE7FAxHOSRscOng0KQCUiDDWD0ipnTy4KRiIK80AxJ3AIYSAvCwzgZJ7t2
+smsEDWnWHLxB3fWxMp1HS8X2Mc0W7ssR+3rHTWInVCQ+rRc5EFyNwfHuISKp2iBo
+Vf2GM1Fc+DLomb9IMtbZ/HlAqTFapXg3DJdCZywbwsAQogY1XnlCgCDrANKFhBPV
+QgLRtOhNm5jvZd2QshCTwpzDqLWlY+LawuUrF00ThyIZ46I9RKFEfFh4SW6OC7WT
+ffsxkGxB0VwGe9KYXXJeSWbuQM9hvnhAy5S2ZaAot5oMw7dOPv4MC4Ib+oJ/mJxp
+7X5g6c7BBzohXakem7CWp3P/KZf1MjCC6H3eli1jdk4yAvMV7PXlxIJ41Uk5UVZw
+fGwnflabBzYDG4AcmsZaOAswC0zDkNcLoVXi5ZQWgWZ5TwSQiMLSKU49g+nrC6hk
++1D4+IuKnE+IaVEx58H0xKKYGQiIu8JQBZOcMtTOioGopwh5L/FBC1teIdk+PdE0
+u6ZuIuFpDWUQWyhnoJU1E9jFiciD21LqRVKwa1P18icMm9YG8VjafWcH/j7OG8zy
+KRkLBjgUSHUAkXswf4SUN1d8pDgDE9XLiz0kj5nFMU9mmEHdYKI=
+=D6RR
+-----END PGP SIGNATURE-----
+
+--===============5700275545988481159==--
