@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 24 Jun 2025 17:02:07 -0000
-Message-Id: <175078452751.319878.1191911230366827136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Tue, 24 Jun 2025 17:24:47 -0000
+Message-Id: <175078588740.337586.6762120513627026084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/100GbE
-    old: 3509a21e2f04916162512499a932e8dbecdb19b1
-    new: 78b3d493ad73edf61a4a1514be0a42d5e47679eb
+  - ref: refs/heads/rust-sched-v2
+    old: 8ad9a502b1de1cef57e74c67e97c23c106adc01b
+    new: d2af5404a72c386bc696dae62457430f47ac22a4
     log: |
-         a65541b88604e5a29b7693ff91c959f9c2d633b8 ice: clear time_sync_en field for E825-C during reprogramming
-         6206045fb07524f7571d369a5db5e99fd8c8ee21 ice: read TSPLL registers again before reporting status
-         44249b78d7ce63ddfdc2b80e9f87606086738bfd ice: use bitfields instead of unions for CGU regs
-         c6b39376bc0f238166419f11279d4741c23a55f9 ice: add multiple TSPLL helpers
-         45ff177167738f5769e5938acf87f963b6aea26a ice: wait before enabling TSPLL
-         7806c65e78bb2e25615ca1d5f71ab348ff93eaf1 ice: fall back to TCXO on TSPLL lock fail
-         8f35f7deef5e4c7a732e5f1fdcd5e0d816f2e963 ice: move TSPLL init calls to ice_ptp.c
-         78b3d493ad73edf61a4a1514be0a42d5e47679eb ice: default to TIME_REF instead of TXCO on E825-C
+         d403a3689af5c3a3e3ac6e282958d0eaa69ca47f sched/fair: Move max_cfs_quota_period decl and default_cfs_period() def from fair.c to sched.h
+         de4c80c6963e130707ead16a544a387f811dbd87 sched/core: Relocate tg_get_cfs_*() and cpu_cfs_*_read_*()
+         43e33f53e25687ca870248d1939cfade0164426c sched/core: Reorganize cgroup bandwidth control interface file reads
+         5bc34be478d09c4d16009e665e020ad0fcd0deea sched/core: Reorganize cgroup bandwidth control interface file writes
+         3f9ebeba9878679bb43ee2db7d50a4691f55e3a5 rust: sync: Mark CondVar::notify_*() inline
+         11867144ff81ab98f4b11c99716c3e8b714b8755 rust: sync: Mark PollCondVar::drop() inline
+         0a41f5af19391ce55cae1f0d7a562e8694bf1fd5 rust: task: Mark Task methods inline
+         c3fce9d49fd1c43ed1204fac89712e48e0fae8c3 rust: Introduce file_from_location()
+         d2af5404a72c386bc696dae62457430f47ac22a4 rust: task: Add Rust version of might_sleep()
          
