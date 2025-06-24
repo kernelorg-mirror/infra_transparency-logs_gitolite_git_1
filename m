@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8828136144120580417=="
+Content-Type: multipart/mixed; boundary="===============1381830801945368324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 24 Jun 2025 21:23:46 -0000
-Message-Id: <175080022641.538264.17107589644472161904@gitolite.kernel.org>
+Date: Tue, 24 Jun 2025 21:23:48 -0000
+Message-Id: <175080022867.538373.3287688830290607935@gitolite.kernel.org>
 
---===============8828136144120580417==
+--===============1381830801945368324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 95b6759a81833d0e8c7456430186c2f6d174764e
     new: 1fd26729e013d0c829eb0675d5b6ad77ff497ab3
     log: revlist-95b6759a8183-1fd26729e013.txt
 
---===============8828136144120580417==
+--===============1381830801945368324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ e1ca44e85f652a6ebd657c67c394894c1fdfb403 af_unix: Add test for consecutive consu
 c3f429388c192eeb17aafa17eb315cb01f5d2aa8 Merge branch 'af_unix-fix-two-oob-issues'
 1fd26729e013d0c829eb0675d5b6ad77ff497ab3 Merge tag 'for-net-2025-06-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
---===============8828136144120580417==--
+--===============1381830801945368324==--
