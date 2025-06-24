@@ -1,60 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============0288205974953650053=="
+Content-Type: multipart/mixed; boundary="===============3149281715804139440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 24 Jun 2025 08:28:09 -0000
-Message-Id: <175075368936.4020800.11107263314668243969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Jun 2025 08:32:46 -0000
+Message-Id: <175075396691.4025186.10050619418799682660@gitolite.kernel.org>
 
---===============0288205974953650053==
+--===============3149281715804139440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/work.pidfs.fhandle
-    old: 3c92ed77f6682e3d10436c7e07255645886ea48d
-    new: 5307812986f79b4dac12122f68c3539eab3690bd
-    log: revlist-3c92ed77f668-5307812986f7.txt
+  - ref: refs/heads/master
+    old: b7e21417e1f2c9b2d5c15b0a7d866e810de772aa
+    new: 71767d8ff485c0b3ac8ab37d1dd34ebefc4bd9c3
+    log: revlist-b7e21417e1f2-71767d8ff485.txt
 
---===============0288205974953650053==
+--===============3149281715804139440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c92ed77f668-5307812986f7.txt
+Content-Disposition: attachment; filename=revlist-b7e21417e1f2-71767d8ff485.txt
 
-1a1ad73aa1a66787f05f7f10f686b74bab77be72 pidfs: raise SB_I_NODEV and SB_I_NOEXEC
-bda3f1608d993419fa247dc11263fc931ceca58a libfs: massage path_from_stashed() to allow custom stashing behavior
-23cdee615c4fdad1a8ec6f317b3c294cb37d662d libfs: massage path_from_stashed()
-75215c972581d3934e76a57690cf838d7ceab399 pidfs: move to anonymous struct
-8ec7c826d97b390879df2a03dfb035c70af86779 pidfs: persist information
-5ee83f8d1af4d069475eabd9a5ed551b3d2cf9a8 pidfs: remove unused members from struct pidfs_inode
-0f93d71b9d17a8b3fcb38b5e66ac5bd94f56a8de pidfs: remove custom inode allocation
-804d6794497e6f3992d156e07d01e22b037ce09e pidfs: remove pidfs_{get,put}_pid()
-d718249bbac664c24a34ed472d627381d4505e00 pidfs: remove pidfs_pid_valid()
-c007d95221397eda24e7d6b4ac5a5d699ea2f1ca libfs: prepare to allow for non-immutable pidfd inodes
-f769b3db24fa9ef48abcb515c50de1abeeaa0281 pidfs: make inodes mutable
-91d837cae3c7856cdca23dc6e8ec8954d887e970 pidfs: support xattrs on pidfds
-49fba3725910c54878212ca08b968b9e1285866c selftests/pidfd: test extended attribute support
-7442d093dfae0c9482eeeb8bebfd682459244be0 selftests/pidfd: test extended attribute support
-8c2ab04135682d0f5b1eb1c74ac5f328b65015ea selftests/pidfd: test setattr support
-f9fac1f48c20a29f2c39c9a9b96d539ad1636824 pidfs: add some CONFIG_DEBUG_VFS asserts
-4e3d1e6e1b2d9df9650be14380c534b3c5081ddd Merge patch series "pidfs: persistent info & xattrs"
-048349973fbd5cfc505b6703ed1ba8cdbda99061 fhandle: raise FILEID_IS_DIR in handle_type
-77b47e7439a7b00aa07c8c37ac20ec54b17b461c fhandle: hoist copy_from_user() above get_path_from_fd()
-0b5f6c1988e92d7b4723abda5b136dfab6f416a5 fhandle: rename to get_path_anchor()
-cdeb91ebc360782d2fbfeaef4ece9b0908ce7876 pidfs: add pidfs_root_path() helper
-6184e514db43dd83f53f5301d420187828a6df86 fhandle: reflow get_path_anchor()
-ac2dec6913638c3a3e0d8df6574bf024a1902309 uapi/fcntl: mark range as reserved
-a4968972c57c4bc859c3e66066577d9935487804 uapi/fcntl: add FD_INVALID
-336e983671ef8db670f0286432f7972f1b3e95fb exportfs: add FILEID_PIDFS
-404a82ebda631f5c3272b941eb2a4e74eb3ec5cc fhandle: add EXPORT_OP_AUTONOMOUS_HANDLES marker
-cfe0fe9b38b9e62615fc0d8aee43b62f56031e58 fhandle, pidfs: support open_by_handle_at() purely based on file handle
-f3f050f06e02cfcf87171772cc212d391886831b selftests/pidfd: decode pidfd file handles withou having to specify an fd
-8b7d37ff2c570d38ba7445c2f77deb8f4a1ba3dc fhandle, pidfs: allow open_by_handle_at() purely based on file handle
-5307812986f79b4dac12122f68c3539eab3690bd SAVE
+4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
+6dea74e454c260cd757b53a2f6861fffe6d83308 f2fs: Fix __write_node_folio() conversion
+ba8dac350faf16afc129ce6303ca4feaf083ccb1 f2fs: fix to zero post-eof page
+c769be2d3dbb165a3d432f4fcca2c80fabb35877 btrfs: include root in error message when unlinking inode
+dd276214e439db08f444fd3e07e9fe4c9e0ca210 btrfs: fix delayed ref refcount leak in debug assertion
+186b9dc3c302ad706b3f23c857eb128165f6b484 btrfs: warn if leaking delayed_nodes in btrfs_put_root()
+65d5112b4d7cf019ccb62cf40077038aae66239b btrfs: scrub: add prefix for the error messages
+3ca864de852bc91007b32d2a0d48993724f4abad btrfs: fix a race between renames and directory logging
+ae4477f937569d097ca5dbce92a89ba384b49bc6 btrfs: update superblock's device bytes_used when dropping chunk
+e5b5596011773a38e035e9633ed928ef13c720b1 btrfs: fix double unlock of buffer_tree xarray when releasing subpage eb
+2dcf838cf5c2f0f4501edaa1680fcad03618d760 btrfs: fix invalid inode pointer dereferences during log replay
+16edae52f60658caeaa0702e7cb6b738a09d4ad4 btrfs: don't silently ignore unexpected extent type when replaying log
+1961d20f6fa8903266ed9bd77c691924c22c8f02 btrfs: fix assertion when building free space tree
+a26bf338cdad3643a6e7c3d78a172baadba15c1a btrfs: fix race between async reclaim worker and close_ctree()
+547e836661554dcfa15c212a3821664e85b4191a btrfs: handle csum tree error with rescue=ibadroots correctly
+c0d90a79e8e65b89037508276b2b31f41a1b3783 btrfs: zoned: fix alloc_offset calculation for partly conventional block groups
+a05dd8ae5cbb1cb45f349922cfea4f548a5e5d6f mm/shmem, swap: fix softlockup with mTHP swapin
+965f87700adbcc6d72430f524d88135027f5bba3 selftests/mm: increase timeout from 180 to 900 seconds
+517f496e1e61bd169d585dab4dd77e7147506322 mm/gup: revert "mm: gup: fix infinite loop within __get_longterm_locked"
+0ea148a799198518d8ebab63ddd0bb6114a103bc mm: userfaultfd: fix race of userfaultfd_move and swap cache
+417d145c2e71ad7362200ede6e8afdfc6e56c4fb MAINTAINERS: add linux-mm@ list to Kexec Handover
+12b9a2c05d1b474518b0f5fac4a50b7f93b16930 kho: initialize tail pages for higher order folios properly
+223731cd63004cb07edfc6257d53565995c00cbb selftests/mm: add configs to fix testcase failure
+845f1f2d69f3f49b3d8c142265952c8257e3368c Revert "bcache: update min_heap_callbacks to use default builtin swap"
+48fd7ebe00c1cdc782b42576548b25185902f64c Revert "bcache: remove heap-related macros and switch to generic min_heap"
+95b2e31e1752494d477c5da89d6789f769b0d67b bcache: remove unnecessary select MIN_HEAP
+3333871296efd52ef6f6d5cce5a92dc7b06ba879 selftests/mm: skip uprobe vma merge test if uprobes are not enabled
+38103247777695ca2b09691b2247e66f157908c6 MAINTAINERS: add missing mm/workingset.c file to mm reclaim section
+40ffd2887635c492b758d8b02172c97f5d42f593 MAINTAINERS: add missing test files to mm gup section
+fba46a5d83ca8decb338722fb4899026d8d9ead2 maple_tree: fix MA_STATE_PREALLOC flag in mas_preallocate()
+883cf5b0b8389610f17106c454180c7f54b8d486 MAINTAINERS: update maintainers for HugeTLB
+b6d19f3742ff3429d8eb2cdf51a8ab598c197ee5 MAINTAINERS: add further init files to mm init block
+d91b00b687abf6fef13be030abd848416f320149 MAINTAINERS: add hugetlb_cgroup.c to hugetlb section
+a1540dcbe0246c42ee271a3b7bba5ec7c933321a MAINTAINERS: add stray rmap file to mm rmap section
+db5921ab8aa23142b277325192a7443601dc4534 MAINTAINERS: add memfd, shmem quota files to shmem section
+c742d127d2d831aa83ae2987a508bca2bf0c7736 MAINTAINERS: add additional mmap-related files to mmap section
+b872f562c8cef59743993b48eb458c2d87c1651e dm-crypt: Extend state buffer size in crypt_iv_lmk_one
+db53805156f1e0aa6d059c0d3f9ac660d4ef3eb4 dm-raid: fix variable in journal device check
+c06944560a562828d507166b4f87c01c367cc9c1 Merge tag 'mm-hotfixes-stable-2025-06-22-18-52' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+5ca7fe213ba3113dde19c4cd46347c16d9e69f81 Merge tag 'for-6.16-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+cb0de0e220d2233a84a2ff1afb8ffba7597d02fa Merge tag 'f2fs-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+78f4e737a53e1163ded2687a922fce138aee73f5 Merge tag 'for-6.16/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+71767d8ff485c0b3ac8ab37d1dd34ebefc4bd9c3 Merge branch 'linus'
 
---===============0288205974953650053==--
+--===============3149281715804139440==--
