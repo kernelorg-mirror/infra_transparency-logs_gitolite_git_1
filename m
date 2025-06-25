@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 25 Jun 2025 22:21:24 -0000
-Message-Id: <175089008460.1885090.14600587533067822738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 25 Jun 2025 22:21:57 -0000
+Message-Id: <175089011715.1885566.13919455414812893628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/tags/bpf-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 8d3f632b12114a75dbef2459a233344a381cfdb0
+  - ref: refs/heads/pending
+    old: af08f2b22d9bbc07c65da716013b36e30d360da4
+    new: f357ccefbbfa27c368e69525aeda8f5e63f23370
+    log: |
+         f357ccefbbfa27c368e69525aeda8f5e63f23370 wifi: ath12k: Add support for transmit histogram stats
+         
