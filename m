@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7419264123477421314=="
+Content-Type: multipart/mixed; boundary="===============3428533685296094693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 25 Jun 2025 19:10:56 -0000
-Message-Id: <175087865621.1713048.7959956667130442254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 25 Jun 2025 19:10:59 -0000
+Message-Id: <175087865934.1713152.17692667116435230747@gitolite.kernel.org>
 
---===============7419264123477421314==
+--===============3428533685296094693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 3e36c822506d924894ff7de549b9377d3114c2d7
     new: e6352bfae9edffb952aac79221bc9cd86abe47dd
     log: |
@@ -29,28 +29,28 @@ changes:
          e6352bfae9edffb952aac79221bc9cd86abe47dd Add few updates to the STM32 SPI driver
          
 
---===============7419264123477421314==
+--===============3428533685296094693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1750878692 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1750878654-af0be42bdc9924d5c6537258d33d390581b81475
+pusher C3F436CA30F5D8EB 1750878695 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1750878657-1715948ee9cb333b38ed48e0b746bce3e741910e
 
-3e36c822506d924894ff7de549b9377d3114c2d7 e6352bfae9edffb952aac79221bc9cd86abe47dd refs/heads/for-6.17
+3e36c822506d924894ff7de549b9377d3114c2d7 e6352bfae9edffb952aac79221bc9cd86abe47dd refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhcSeQACgkQJNaLcl1U
-h9BVZQf+NZDF1M8hydP5VsockJ1BkziOnSps/6b4e64SIcEulJhsHWlvQLIumDpm
-An0HQZIv2K3yAvwmpCJpScSJo8+CYs4Tx6Pi3eO6wbykepGb89xXiJlrGok81dDH
-K4MSF17z+pwtsUyMk7SLr48r16cWCET/M/fG6ksZ8zWhZGIjK5HZjH4El20Y0xHj
-4DkO1H3u5a6ZUNe+ZLPNvjGhNACmd2Di9MBbGVBykfqqOgAbMrIgV1ai9B2GBLR9
-l16UZrzU2RUP8FEZRy88u3wKVIZ6GDUauSy+rWWY/B0yK4p5uiqQVm7pZhsusPhN
-AwQXLuHpoYY2WwJncQKWzlyt70r/Aw==
-=bQcW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhcSecACgkQJNaLcl1U
+h9B+4Qf9GFEWzZnQxOUkzNh8s7SX62dK0rR0rdF88NELWAq48gzdelGFJrF42ovz
+e6NeNUHxTupEb5Ies+YLGG1wHS+gQfzYypHq+bvqR4Mo5i9M0DqzOGxE9UiiSr9n
+dDdILd7GqZJ0kXCAXpwBOndWtMaTpotviTaEITNhm25+GgwAHtoJm6OCIpUvfp5L
+pKQxmgv5+r35X52aHhTiGr7TlRLc+xld0uCn9JlP8xGo24rg47NIgkkK5i+mZQjY
+D3OV6fwEXvW/GIIdNWpmxzTa3D2qUWCgtSHm5yYI0KJYGqRKMmqxL2MvtzxUdyfk
+PwYFZJD6zmFi7ODYHpb8GBFzWfxAHQ==
+=+psn
 -----END PGP SIGNATURE-----
 
---===============7419264123477421314==--
+--===============3428533685296094693==--
