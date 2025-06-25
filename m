@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 25 Jun 2025 17:53:24 -0000
-Message-Id: <175087400408.1640102.13359047530572713494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 25 Jun 2025 17:53:49 -0000
+Message-Id: <175087402932.1640630.3650326108824629452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: f9f43996087d651594a99409d7391f75fd8639b7
-    new: dc9b2fe5f874e3d59f0df83dc43930ae9ca93f1a
+  - ref: refs/heads/pending
+    old: 4354b4a2ba4361ae6e5019dec5d684c9052bdc0f
+    new: fd189ebef26a6070119a2fb9d6387bb0a37904e6
     log: |
-         7aea400b3ab28887e09efad8838b41433a6a33a9 cifs: Fix the smbd_reponse slab to allow usercopy
-         ecd66e4e1009f14b9893a918a359efff7cebe3b8 cifs: Fix reading into an ITER_FOLIOQ from the smbdirect code
-         9ee1c1860c952bed1f8c6a0ff4f3605d900ba8d5 smb: client: fix potential deadlock when reconnecting channels
-         4d2f067052f8fc4f26b1275070b34d40bee62322 netfs: Renumber the NETFS_RREQ_* flags to make traces easier to read
-         dc9b2fe5f874e3d59f0df83dc43930ae9ca93f1a netfs: Update tracepoints in a number of ways
+         fd189ebef26a6070119a2fb9d6387bb0a37904e6 wifi: ath12k: Send WMI_VDEV_SET_TPC_POWER_CMD for AP vdev
          
