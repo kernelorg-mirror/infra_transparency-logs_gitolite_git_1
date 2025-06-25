@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sailus/linux
-Date: Wed, 25 Jun 2025 07:02:15 -0000
-Message-Id: <175083493548.1065193.5881166004664907098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 25 Jun 2025 07:10:47 -0000
+Message-Id: <175083544787.1073081.12290509077647623464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sailus/linux
-user: sailus
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/tags/pm-direct-v6.16-rc1
+  - ref: refs/heads/work.mount-1
     old: 0000000000000000000000000000000000000000
-    new: 5df383a013ac585fe7715784ef0470a7c3c325d8
+    new: f0ffab7e184b23ee798c96f3c96a6284a6824d75
