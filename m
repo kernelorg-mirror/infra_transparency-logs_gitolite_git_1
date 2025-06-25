@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0990445897636168851=="
+Content-Type: multipart/mixed; boundary="===============4554279681200408447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 25 Jun 2025 20:20:58 -0000
-Message-Id: <175088285878.1779494.14947701262627875354@gitolite.kernel.org>
+Date: Wed, 25 Jun 2025 20:21:01 -0000
+Message-Id: <175088286109.1779723.15079637930425431245@gitolite.kernel.org>
 
---===============0990445897636168851==
+--===============4554279681200408447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
+  - ref: refs/heads/i2c/i2c-host-next
     old: 941af7ffcbf5503867da2319d2b6a7a188c83b1c
     new: 86731a2a651e58953fc949573895f2fa6d456841
     log: revlist-941af7ffcbf5-86731a2a651e.txt
 
---===============0990445897636168851==
+--===============4554279681200408447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -406,4 +406,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============0990445897636168851==--
+--===============4554279681200408447==--
