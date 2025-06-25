@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 25 Jun 2025 00:22:58 -0000
-Message-Id: <175081097829.691240.4608758521458884169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 25 Jun 2025 00:54:57 -0000
+Message-Id: <175081289752.716696.16293818175315405870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 78f4e737a53e1163ded2687a922fce138aee73f5
-    new: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
-    log: |
-         fde46f60f6c5138ee422087addbc5bf5b4968bf1 selinux: change security_compute_sid to return the ssid or tsid on match
-         7595b66ae9de667bf35a8c99e8f1bfc4792e207e Merge tag 'selinux-pr-20250624' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-         
+  - ref: refs/heads/work.misc
+    old: 7e7cf464ce53f1da4a83a1c984b69106df6ef61b
+    new: 5a6acd563af4a0789e4a93afb28d71c177e71b8b
