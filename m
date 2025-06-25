@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 25 Jun 2025 00:56:41 -0000
-Message-Id: <175081300132.719092.2248443834729400849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 25 Jun 2025 00:59:22 -0000
+Message-Id: <175081316284.720453.16661031343721116165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 38f6691add4143edc9f96c0243f0a2efddc08616
-    new: b6f6c6fa4813606cc94494987a3824f71728aa9f
+  - ref: refs/heads/main
+    old: a19e5812dc96e6ad3ba6740a22d0ae45b4c059d8
+    new: da7aee71616397234023e4ebd5c848a3c945f877
     log: |
-         b6f6c6fa4813606cc94494987a3824f71728aa9f Merge branches 'work.misc' and 'fixes' into for-next
+         da7aee71616397234023e4ebd5c848a3c945f877 net: xsk: dpaa2: avoid repeatedly updating the global consumer
          
