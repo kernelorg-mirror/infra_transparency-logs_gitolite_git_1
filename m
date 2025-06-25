@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 25 Jun 2025 17:01:00 -0000
-Message-Id: <175087086099.1594275.3090595907017365427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 25 Jun 2025 17:12:53 -0000
+Message-Id: <175087157315.1603452.8679038134863438592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 5e897bedf2683cafa8fb5730ccc8acdf43e1bdf3
-    new: d0d399637bd18333cd5a88fca05fd084873c3c48
+  - ref: refs/heads/dev-queue
+    old: e86409153fb3121639ed48e64623c3d34bfc0877
+    new: 4969c5eea412e52196d6c89880338757c293bb3c
     log: |
-         f6421057ab3e20cf63cf38256e9566482360991f firmware: arm_ffa: Change initcall level of ffa_init() to rootfs_initcall
-         d0d399637bd18333cd5a88fca05fd084873c3c48 tpm: tpm_crb_ffa: try to probe tpm_crb_ffa when it's built-in
+         4969c5eea412e52196d6c89880338757c293bb3c idpf: preserve coalescing settings across resets
          
