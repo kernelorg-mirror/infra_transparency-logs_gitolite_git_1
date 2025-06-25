@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 25 Jun 2025 19:11:24 -0000
-Message-Id: <175087868415.1713665.2450767526033491301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 25 Jun 2025 19:22:10 -0000
+Message-Id: <175087933040.1722691.17880467471857388660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: c8e3e777d772807d6e68b0a5ec06395f8a4dc6ae
-    new: 64da27e08fd1012e4106662932ce91f319ba433b
+  - ref: refs/heads/tpm2-rsassa-pkcs1
+    old: c15cd6c4b1d8806668e8bebb9cd69972d2edd7c5
+    new: a230b0209f520b4b41c879ec096e9140da73853e
     log: |
-         e4feefa5c71912ebfcb97a3dbe2b021fd1cea9d1 spi: stm32: Add SPI_READY mode to spi controller
-         21f1c800f6620e43f31dfd76709dbac8ebaa5a16 spi: stm32: Check for cfg availability in stm32_spi_probe
-         d17dd2f1d8a1d919e39c6302b024f135a2f90773 spi: stm32: use STM32 DMA with STM32 MDMA to enhance DDR use
-         4956bf44524394211ca80aa04d0c9e1e9bb0219d spi: stm32: deprecate `st,spi-midi-ns` property
-         bd60f94a3eb4f80cb66c9687d640554fd0c579d0 spi: dt-bindings: stm32: update bindings with SPI Rx DMA-MDMA chaining
-         9a944494c299fabf3cc781798eb7c02a0bece364 spi: dt-bindings: stm32: deprecate `st,spi-midi-ns` property
-         e6352bfae9edffb952aac79221bc9cd86abe47dd Add few updates to the STM32 SPI driver
-         64da27e08fd1012e4106662932ce91f319ba433b Merge remote-tracking branch 'spi/for-6.17' into spi-next
+         a230b0209f520b4b41c879ec096e9140da73853e KEYS: asymmetric: TPM2 RSA key
          
