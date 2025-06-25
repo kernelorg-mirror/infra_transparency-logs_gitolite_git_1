@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 25 Jun 2025 19:05:59 -0000
-Message-Id: <175087835965.1707593.648216441489012635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Wed, 25 Jun 2025 19:06:04 -0000
+Message-Id: <175087836423.1707812.12440669517968705824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/tags/mm-everything-2025-06-25-01-42
-    old: 0000000000000000000000000000000000000000
-    new: edb65f8a5458b890055e3301e73b3a55f87f14ef
-  - ref: refs/tags/mm-everything-2025-06-25-18-37
-    old: 0000000000000000000000000000000000000000
-    new: 31779646587c868f6354b5b0c241a0aacafc91f9
-  - ref: refs/tags/mm-everything-2025-06-25-19-05
-    old: 0000000000000000000000000000000000000000
-    new: 0b4cc909a8c4c94bc02a8b534974b795b6a354cf
+  - ref: refs/heads/fixes
+    old: 46db07d71e501e98704178e10ac6c86468d5c6b4
+    new: 0a46f60a9fe16f5596b6b4b3ee1a483ea7854136
+    log: |
+         0a46f60a9fe16f5596b6b4b3ee1a483ea7854136 cxl/edac: Fix using wrong repair type to check dram event record
+         
