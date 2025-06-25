@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sailus/linux
-Date: Wed, 25 Jun 2025 07:49:24 -0000
-Message-Id: <175083776425.1105242.1762556267223826911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Wed, 25 Jun 2025 07:49:40 -0000
+Message-Id: <175083778098.1106145.274990319661771878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sailus/linux
-user: sailus
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/pm-mark-last-busy-v6.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5df383a013ac585fe7715784ef0470a7c3c325d8
+  - ref: refs/heads/dev/gicv5-v6
+    old: 7eb9ae5fcec8daf0a13ee57a6b9ec04b98c24301
+    new: 0000000000000000000000000000000000000000
