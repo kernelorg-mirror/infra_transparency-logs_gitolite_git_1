@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5793864146944266786=="
+Content-Type: multipart/mixed; boundary="===============3597102887408748199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 25 Jun 2025 01:44:02 -0000
-Message-Id: <175081584254.766426.18151540286298498522@gitolite.kernel.org>
+Date: Wed, 25 Jun 2025 01:44:26 -0000
+Message-Id: <175081586661.767457.6132991992149110648@gitolite.kernel.org>
 
---===============5793864146944266786==
+--===============3597102887408748199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 85d6fbc47c3087c5d048e6734926b0c36af34fe9
-    new: 021f243627ead17eb6500170256d3d9be787dad8
+  - ref: refs/tags/mkp-scsi-queue
+    old: 9f4cf072da94753fa53231abc368a2e1ed7a2e57
+    new: d5a2f5ed9e670763dff68703fd63764d507a0a3c
     log: |
-         c3b214719a87735d4f67333a8ef3c0e31a34837c scsi: qla2xxx: Fix DMA mapping test in qla24xx_get_port_database()
-         00f452a1b084efbe8dcb60a29860527944a002a1 scsi: qla4xxx: Fix missing DMA mapping error in qla4xxx_alloc_pdu()
-         8889676cd62161896f1d861ce294adc29c4f2cb5 scsi: sd: Fix VPD page 0xb7 length check
-         844c6a160e69cc6d1da4b666f8672f6fc5f4f862 scsi: RDMA/srp: Don't set a max_segment_size when virt_boundary_mask is set
-         4937e604ca24c41cae3296d069c871c2f3f519c8 scsi: core: Enforce unlimited max_segment_size when virt_boundary_mask is set
-         021f243627ead17eb6500170256d3d9be787dad8 scsi: ufs: core: Fix spelling of a sysfs attribute name
+         d56d980d9b2829572e634b9ab60dfa0239b1c6a7 scsi: ufs: Clear ucd_rsp_ptr for UPIU requests once
+         258a0a19621793b811356fc9d1849f950629d669 scsi: pm80xx: Free allocated tags after failure
+         04caad5a7ba86e830d04750417a15bad8ac2613c scsi: mpi3mr: Correctly handle ATA device errors
+         15592a11d5a5c8411ac8494ec49736b658f6fbff scsi: mpt3sas: Correctly handle ATA device errors
          
 
---===============5793864146944266786==
+--===============3597102887408748199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1750815878 -0400
+pusher 75C5DE3D 1750815884 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1750815840-6998e7f347158d3879bae141dfda1357eba3cccf
+nonce 1750815846-e856e2d54e519cb1006255ca0dcdc1e638cee3fe
 
-85d6fbc47c3087c5d048e6734926b0c36af34fe9 021f243627ead17eb6500170256d3d9be787dad8 refs/heads/fixes
+9f4cf072da94753fa53231abc368a2e1ed7a2e57 d5a2f5ed9e670763dff68703fd63764d507a0a3c refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhbVIYACgkQ7ulgGnXF
-3j0x0RAAuKx2zMbVxbG8kxAEyuG6XXCtJ1s9gbhMxOt08eALvyNUEIqbsvwO1xmH
-KMmRYFI7nn+heAOZc0qHFZo6YrowN6c2kqgP3bjhJp4D5RA2D190A8rXAeNL6EF9
-ITrLqg+EMii2TxjW8Qw/MTbUcKsjHocpy5O6BkNHDbPBzaDsrxCykzgGYyv3VRxO
-a5z1m92zUn2extSj2HX1nV89bNw40GL9Eao40+ZCF/178pSvIGynN0sW/Qr9S06X
-4sv/KDeXrN8KPflsWPqH0iEN+A58iwbA2ci0sX7FLGZvqWjmZzRKfbjiYmv2KNkw
-bCTG7D742bWYfCWSG+VJEpaYmV4Wqx6REtzgdlKcQo6OSgJWaPdJ3JtojWNvVFDN
-bHazrVXT+2sYbiSgVAUviKA9wzAUPS78/UDydB/WLhDyHzba810n8+I7M+g7To6C
-bhYgMnyibiUnTcuOkb/iyRNPnQv7VrgLugHUearXSdgdubKUcK45/EC2A2WUhxr3
-j3utQV1GWNSRNN6dYNrik3Isg/a3itHngUnkRGQhIZitYani89OiTMNMG7bG1bid
-de2L5tvl4/dBfZQ98UhWGDslONzM3tKNKm3TeoZfOZ5kpph+2Z0aAUaZuclBArxB
-g2DlzcydRo1IITu9aUqxljWwwSzSlacjkZYow6VVH5g9ahs4j5g=
-=0HRF
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhbVIwACgkQ7ulgGnXF
+3j3NBg/8CAJv1o8fcB9S6B1ht7/c0bFRwQ04wcMb9LLxbNeicBMKPUU1b0c+zdSL
+plq6j5Gyp+efvtUBvWIKJduOWQpfLNHwzvAnec5gI5PYbJDaz2BAS/2W91LK5KRi
+W/jGhVVOZ3E4YOqCDllq1gMFFyTTpRH4GsA0IhTj4BbpnA2cKg3P2bU/rAVb3NLv
+dxklixeserzsto3i6A5F1khWgcYmi3+zABTWImtG3HcCBTVqO/pig/7d66pN7C/b
+qU92osAGoAde4PFCgvBAx4kAZJ65/i8JhqSGlh01GXaMDK3YkWT/4tfvMth+2LUL
+cDrkuuppnMY50vsjRzwkY8Cgxcn2KuR7kZ+ZZZG8S8FIDWmO0qVTn4AMQdhpfsVc
+FPeTPzeLlG/Eh07dL2j9DaYWJ/ZGCaW60EdBqBOOK5smtM51nPu1+wHPRD8pFZmQ
+fkCWB9e9IYhX7OPbYwxa/mUa+G48o/4Nikm1S8K+fjsazQRRNNqPo5i7s5Gnooty
+5JOljfJHh6Nfdc7a3tlrM3N3GhQJheLNEua2P3D/MfWhxOXg2r33snDpAhslM17P
+onlNXskC8IusxCYXvD+9LFXY2fVDD4hFqp56htIsTIvMBTVW0idJ17TaMVfhiaMo
+8aoILXaaLm3wDG2VyU19XaTZlBEnXZVQww7Fs1IiCBvgj8e6Ddk=
+=2ybj
 -----END PGP SIGNATURE-----
 
---===============5793864146944266786==--
+--===============3597102887408748199==--
