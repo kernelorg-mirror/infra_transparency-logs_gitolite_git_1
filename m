@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 25 Jun 2025 14:04:33 -0000
-Message-Id: <175086027333.1430609.17111902605687185244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 25 Jun 2025 14:13:34 -0000
+Message-Id: <175086081459.1437911.7624277583777960875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/next
-    old: 22d004b154db9994431cf560b45a09b30479e09a
-    new: 3a843024e7f759de34d700837e6f33cde605178d
-    log: |
-         8fc708357009e32d345dd46f4993a3c8f78a0cc1 selftests/landlock: Add tests for access through disconnected paths
-         3a843024e7f759de34d700837e6f33cde605178d landlock: Fix warning from KUnit tests
-         
+  - ref: refs/heads/20250625_yung_chuan_liao_asoc_sdw_utils_generate_combined_spk_components_string
+    old: 0000000000000000000000000000000000000000
+    new: 0f60ecffbfe35e12eb56c99640ba2360244b5bb3
