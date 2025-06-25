@@ -1,44 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3755161419739875660=="
+Content-Type: multipart/mixed; boundary="===============2814059855950407368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Jun 2025 22:39:22 -0000
-Message-Id: <175089116266.1898948.1349647585222453913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 25 Jun 2025 22:41:24 -0000
+Message-Id: <175089128400.1902344.11844752951859058888@gitolite.kernel.org>
 
---===============3755161419739875660==
+--===============2814059855950407368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ab4eb6a25de2a20c6d1d7244f8e9ad7a06cde1b0
-    new: 2855e43c6bb154a9b8e27abda8df364aed574b22
-    log: revlist-ab4eb6a25de2-2855e43c6bb1.txt
+    old: 7b515f35a911fdc31fbde6531828dcd6ae9803d3
+    new: 9186c43c1f000ce18069b429afcc725c2997d040
+    log: revlist-7b515f35a911-9186c43c1f00.txt
 
---===============3755161419739875660==
+--===============2814059855950407368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab4eb6a25de2-2855e43c6bb1.txt
+Content-Disposition: attachment; filename=revlist-7b515f35a911-9186c43c1f00.txt
 
-bfb4fb77f9a8ce33ce357224569eae5564eec573 team: replace team lock with rtnl lock
-826334359eacc1b70e9752ebc4954ed775dd40ca netlink: specs: add the multicast group name to spec
-ceca0769e87ff4e33e8dab9c0277646da6d422fe net: ethtool: dynamically allocate full req size req
-963781bdfe2007e062e05b6b8a263ae9340bd523 net: ethtool: call .parse_request for SET handlers
-f9dc3e52d821dc1f9afeec43fb1c18ac94bd587a net: ethtool: remove the data argument from ethtool_notify()
-3073947de382a27d8621be31594cb694b3a83f43 net: ethtool: copy req_info from SET to NTF
-46837be5afc6ea70bc827ca4439410e069e2ee37 net: ethtool: rss: add notifications
-47c3ed01af43784ef8ef4af96d35da464770b3f5 doc: ethtool: mark ETHTOOL_GRXFHINDIR as reimplemented
-4d13c6c449af374fbcd0580764a216668d970d26 selftests: drv-net: test RSS Netlink notifications
-b48d353d24d92dce2ea31aa248e2584980f7c989 Merge branch 'net-ethtool-rss-add-notifications'
-9b19b50c8d65e06d4ff7f230855a2a28ac200f35 neighbour: Remove redundant assignment to err
-4b70e2a069d90cdc447c6bf8437c8b99345852e9 net/sched: Remove unused functions
-8bd0af3154b2206ce19f8b1410339f7a2a56d0c3 lib: packing: Include necessary headers
-2855e43c6bb154a9b8e27abda8df364aed574b22 uapi: net_dropmon: drop unused is_drop_point_hw macro
+2434ccb94dfc8e036c81e9d7c77fca6dc1dc2590 netlink: specs: nfsd: replace underscores with dashes in names
+791a9ed0a40dfa70fe793dcecf950273255cbb84 netlink: specs: fou: replace underscores with dashes in names
+07caaf875c937e5f0a262a1dbad307d08ecc8673 netlink: specs: ethtool: replace underscores with dashes in names
+354592f19c7b0ac5983d56d8594a76aa3437f0a6 netlink: specs: dpll: replace underscores with dashes in names
+9407680945145cc34fafd0e9f802b03574620d43 netlink: specs: devlink: replace underscores with dashes in names
+e40d3d0931d2b1e86ba2ca0e9c95f90ac6dd5525 netlink: specs: ovs_flow: replace underscores with dashes in names
+9e6dd4c256d0774701637b958ba682eff4991277 netlink: specs: mptcp: replace underscores with dashes in names
+8d7e211ea925e050882c762ddf8cf2da78856dfb netlink: specs: rt-link: replace underscores with dashes in names
+eef0eaeca7fa8e358a31e89802f564451b797718 netlink: specs: tc: replace underscores with dashes in names
+af852f1f1c951d43b36881302fd10d9f898cdb54 netlink: specs: enforce strict naming of properties
+9186c43c1f000ce18069b429afcc725c2997d040 Merge branch 'netlink-specs-enforce-strict-naming-of-properties'
 
---===============3755161419739875660==--
+--===============2814059855950407368==--
