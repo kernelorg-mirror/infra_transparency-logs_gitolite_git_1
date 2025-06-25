@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 25 Jun 2025 17:53:49 -0000
-Message-Id: <175087402932.1640630.3650326108824629452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 25 Jun 2025 17:58:49 -0000
+Message-Id: <175087432968.1644834.9658866070708052316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/pending
-    old: 4354b4a2ba4361ae6e5019dec5d684c9052bdc0f
-    new: fd189ebef26a6070119a2fb9d6387bb0a37904e6
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 5587161919fc823b5416868e1ddc038bc857fb0c
+    new: 9c9f4a27eb1096beb650f312a1ce996a9960b56c
     log: |
-         fd189ebef26a6070119a2fb9d6387bb0a37904e6 wifi: ath12k: Send WMI_VDEV_SET_TPC_POWER_CMD for AP vdev
+         9c9f4a27eb1096beb650f312a1ce996a9960b56c perf debug: Add function symbols to dump_stack
          
