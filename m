@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 25 Jun 2025 20:36:02 -0000
-Message-Id: <175088376265.1792102.8405595081862519999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 25 Jun 2025 20:52:11 -0000
+Message-Id: <175088473108.1805105.13912983315451681072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/tpm-buf-cleanup
-    old: f7371954c0da0a9e49d6c55132eae1fb45b13811
-    new: b2ecf48011bed9352be6400414e015be8b3592c3
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 86731a2a651e58953fc949573895f2fa6d456841
+    new: cbdb25ccf7566eee0c2b945e35cb98baf9ed0aa6
     log: |
-         b2ecf48011bed9352be6400414e015be8b3592c3 tpm: Pack struct tpm_buf to 128 bits
+         a5d0b9e32745277644cda8d7d334e7080bd339bf i2c: imx: fix emulated smbus block read
+         56ad91c1aa9c18064348edf69308080b03c9dc48 i2c: robotfuzz-osif: disable zero-length read messages
+         cbdb25ccf7566eee0c2b945e35cb98baf9ed0aa6 i2c: tiny-usb: disable zero-length read messages
          
