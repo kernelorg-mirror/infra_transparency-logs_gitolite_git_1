@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Jun 2025 00:59:22 -0000
-Message-Id: <175081316284.720453.16661031343721116165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 25 Jun 2025 00:59:31 -0000
+Message-Id: <175081317180.721281.15333863938596053445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a19e5812dc96e6ad3ba6740a22d0ae45b4c059d8
-    new: da7aee71616397234023e4ebd5c848a3c945f877
+    old: 22bbc1dcd0d6785fb390c41f0dd5b5e218d23bdd
+    new: 9caca6ac0e26cd20efd490d8b3b2ffb1c7c00f6f
     log: |
-         da7aee71616397234023e4ebd5c848a3c945f877 net: xsk: dpaa2: avoid repeatedly updating the global consumer
+         9caca6ac0e26cd20efd490d8b3b2ffb1c7c00f6f bnxt: properly flush XDP redirect lists
          
