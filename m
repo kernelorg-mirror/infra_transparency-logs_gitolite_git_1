@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 25 Jun 2025 16:25:32 -0000
-Message-Id: <175086873216.1564620.14669804933320153273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 25 Jun 2025 16:26:30 -0000
+Message-Id: <175086879099.1565260.18360079692253672787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: cb0f7c516c978d1d6cef6d358345889b64a94d67
-    new: 8ab1e5ccf4e66d5d508597410ac0d937500d14e7
+  - ref: refs/heads/testing/wfamnae-next20250616
+    old: a90c68ba6146ca3ab83e7dab3d1dd458d25f2e83
+    new: 78f053980ba50a0becae798ab7d07527d97e790d
     log: |
-         e7878f222221a877d033214600b2c95ef2c294da smb: client: fix warning when reconnecting channel
-         db6c446f962b072c3c88638fb1db7585ce262e26 smb: client: let smbd_post_send_iter() respect the peers max_send_size and transmit all data
-         cd68dd49555bc5e7e0899d8020445a604ea38d4c cifs: Fix reading into an ITER_FOLIOQ from the smbdirect code
-         5851a251720669023b474f8fb0c4c1fc187e8abc cifs: Fix the smbd_request and smbd_reponse slabs to allow usercopy
-         97c185b990ac311c9a32707761cf7505346b4e31 smb: client: fix potential deadlock when reconnecting channels
-         86ebd0b3b44486977fe1ad923bdcea281d64b5eb netfs: Renumber the NETFS_RREQ_* flags to make traces easier to read
-         8ab1e5ccf4e66d5d508597410ac0d937500d14e7 netfs: Update tracepoints in a number of ways
+         5dbd2e2af444019fc6f79a6579ae6c01ab1be890 acpi: nfit: intel: avoid multiple -Wflex-array-member-not-at-end warnings
+         10d0a639dca07fe68f5442481ba36a3fdefeacfb NFSD: Avoid multiple -Wflex-array-member-not-at-end warnings
+         a92cfa5cb833d8530d74acceb870e644c3b0b011 stddef: Introduce TRAILING_OVERLAP() helper macro
+         78101a5946cb1b77ee5aa9afc8e116e807f5a084 firmware: efi: Avoid -Wflex-array-member-not-at-end warning
+         78f053980ba50a0becae798ab7d07527d97e790d treewide: Avoid -Wflex-array-member-not-at-end warnings
          
