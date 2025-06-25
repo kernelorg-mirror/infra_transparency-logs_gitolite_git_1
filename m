@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 25 Jun 2025 12:15:54 -0000
-Message-Id: <175085375476.1335499.14619607999093823065@gitolite.kernel.org>
+Date: Wed, 25 Jun 2025 12:19:41 -0000
+Message-Id: <175085398104.1337799.18076138679504894741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: c4853b345d2f007c39c5b397b4d183f0b07a8ed8
-    new: 28c85e2840fb3667ea7fe04f7f1b5166d2cf99dd
+  - ref: refs/heads/fixes-base
+    old: 2a8a5a5dd06eef580f9818567773fd75057cb875
+    new: 85d6fbc47c3087c5d048e6734926b0c36af34fe9
     log: |
          752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
          2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
