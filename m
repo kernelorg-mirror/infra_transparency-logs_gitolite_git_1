@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3379361880710422351=="
+Content-Type: multipart/mixed; boundary="===============0990445897636168851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 25 Jun 2025 20:20:56 -0000
-Message-Id: <175088285644.1779409.5050431298353672885@gitolite.kernel.org>
+Date: Wed, 25 Jun 2025 20:20:58 -0000
+Message-Id: <175088285878.1779494.14947701262627875354@gitolite.kernel.org>
 
---===============3379361880710422351==
+--===============0990445897636168851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: e04c78d86a9699d136910cfc0bdcf01087e3267e
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 941af7ffcbf5503867da2319d2b6a7a188c83b1c
     new: 86731a2a651e58953fc949573895f2fa6d456841
-    log: revlist-e04c78d86a96-86731a2a651e.txt
+    log: revlist-941af7ffcbf5-86731a2a651e.txt
 
---===============3379361880710422351==
+--===============0990445897636168851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e04c78d86a96-86731a2a651e.txt
+Content-Disposition: attachment; filename=revlist-941af7ffcbf5-86731a2a651e.txt
 
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
 714d02b41939d2720379e11ef25227aec4e5bec9 ovl: fix regression caused by lookup helpers API changes
@@ -406,4 +406,4 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
 
---===============3379361880710422351==--
+--===============0990445897636168851==--
