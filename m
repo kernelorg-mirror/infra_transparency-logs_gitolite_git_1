@@ -1,52 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3306628799873175957=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
-Date: Wed, 25 Jun 2025 12:13:31 -0000
-Message-Id: <175085361197.1331958.2411426208236878001@gitolite.kernel.org>
-
---===============3306628799873175957==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 25 Jun 2025 12:15:54 -0000
+Message-Id: <175085375476.1335499.14619607999093823065@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/uml/linux
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/tags/uml-for-6.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6d296f1f4d808047551b4d4b06ece1a8b05aa456
-
---===============3306628799873175957==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1750853623 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/uml/linux.git
-nonce 1750853585-3bb6ea502568e307d1708cce6dc5e419b226ecaa
-
-0000000000000000000000000000000000000000 6d296f1f4d808047551b4d4b06ece1a8b05aa456 refs/tags/uml-for-6.16-rc4
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmhb5/cACgkQ10qiO8sP
-aAB0xw/7BDNsTMA+hdbyOOS/wwELztS+/G7iHq/8jTbYCYtt+nsWxERtxL/NGaxZ
-GX1Bw1KynPsR+MO+uIPnRMXJMt7MUGEY1M65ALx+R6NENwRTF6Alv/yPE5uFOJmb
-m7u4PVf6WAaO9PkQGmbYIAD/Xb6mrljaY1+aex2V00gIAxzlqlXjLZve9rRIZ6nf
-6ecwotFextDbEhbtcfTMot+3V2kYVyVGEUugNdGfPzBwBbuXAg394sSsxinappX0
-ukpRojIB6ypyY1kMjqsSBEJI4CEZXSLoXMvBq60td6z+pmva8Y3N0hsveKYP/DV2
-9cIj8Z2qRLvMSoJxXRgMWqBEeuF1m5WmmKJfVB0i1HPMU3gz/24I9EYTrfqDV1Fk
-pCgpMmg2wHJBc0DxVvgLeDzE0JDs9aHmWs+PEfc3HJdBXvs8mLLpyqbhsrl0mPZD
-mtIX910aw/LbWWR5zDmqSWOW5mBqGw2Fbj/ODfitC2kofubfXNS4xd0mi99HSPcU
-uvIztwy7LTdnQkDzzbbAswKEZiVBocuF9hwNSIzD95CGGU/mM9NXFnazNUNTya3B
-XoW7zTIwBHHUMzSzJIu7rnjcMK85G1QsV5pOtCZbIjz6tTHEh6w5D1U1cTf8PC/F
-G0FyE44Vc22TKPaB1Ki0Qa4neQFfgYcNTDsVnJDKg+27vknfcPk=
-=mCd6
------END PGP SIGNATURE-----
-
---===============3306628799873175957==--
+  - ref: refs/tags/scsi-fixes
+    old: c4853b345d2f007c39c5b397b4d183f0b07a8ed8
+    new: 28c85e2840fb3667ea7fe04f7f1b5166d2cf99dd
+    log: |
+         752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
+         2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
+         a35b29bdedb4d2ae3160d4d6684a6f1ecd9ca7c2 scsi: fnic: Fix crash in fnic_wq_cmpl_handler when FDMI times out
+         74f46a0524f8d2f01dc7ca95bb5fc463a8603e72 scsi: fnic: Turn off FDMI ACTIVE flags on link down
+         9b9b8594654a79e3d4166356fd86cd5397477b24 scsi: fnic: Add and improve logs in FDMI and FDMI ABTS paths
+         18b5cb6f1fdda4454f55a31f7c78d94da62be495 scsi: fnic: Set appropriate logging level for log message
+         85d6fbc47c3087c5d048e6734926b0c36af34fe9 scsi: fnic: Fix missing DMA mapping error in fnic_send_frame()
+         
