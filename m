@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7603417635348109991=="
+Content-Type: multipart/mixed; boundary="===============0828673783862723292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 25 Jun 2025 15:06:44 -0000
-Message-Id: <175086400439.1489833.7836854653527550626@gitolite.kernel.org>
+Date: Wed, 25 Jun 2025 15:07:10 -0000
+Message-Id: <175086403066.1490373.5686548567705369118@gitolite.kernel.org>
 
---===============7603417635348109991==
+--===============0828673783862723292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: e9e743b5678e6e841ac3057d5c368c20416fe680
-    new: 5e897bedf2683cafa8fb5730ccc8acdf43e1bdf3
-    log: revlist-e9e743b5678e-5e897bedf268.txt
+  - ref: refs/heads/next
+    old: e271ed52b344ac02d4581286961d0c40acc54c03
+    new: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
+    log: revlist-e271ed52b344-7595b66ae9de.txt
 
---===============7603417635348109991==
+--===============0828673783862723292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9e743b5678e-5e897bedf268.txt
+Content-Disposition: attachment; filename=revlist-e271ed52b344-7595b66ae9de.txt
 
+39d86db34e41b96bd86f1955cd0ce6cd9c5fca4c loop: add file_start_write() and file_end_write()
+a784d606acbb22cd63d03d653f59f446d09df57d ASoC: codecs: wcd93xx: Few regulator supplies fixes
+0ec33c81d9c7342f03864101ddb2e717a0cce03e io_uring/zcrx: fix area release on registration failure
+be9b3f9a54101c19226c25ba7163d291183777a0 drm/connector: only call HDMI audio helper plugged cb if non-null
 6579a03e68ffa5feb2d2823dea16ca7466f6de16 drm/bridge: analogix_dp: Remove the unnecessary calls to clk_disable_unprepare() during probing
 e97633492f5a3eca7b3ff03b4ef6f993017f7955 scsi: ufs: core: Don't perform UFS clkscaling during host async scan
 c8426f258a0aa4c2fa0fb87806b73592b03dacac scsi: core: devinfo: Fix typo in comment
@@ -1046,9 +1050,5 @@ c06944560a562828d507166b4f87c01c367cc9c1 Merge tag 'mm-hotfixes-stable-2025-06-2
 cb0de0e220d2233a84a2ff1afb8ffba7597d02fa Merge tag 'f2fs-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 78f4e737a53e1163ded2687a922fce138aee73f5 Merge tag 'for-6.16/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 7595b66ae9de667bf35a8c99e8f1bfc4792e207e Merge tag 'selinux-pr-20250624' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-591a5c88486da51c3acb15f272003c51ada80a10 tpm: add bufsiz parameter in the .send callback
-0ca70a9060c024e43ed1be479778b6d98f445bce tpm: support devices with synchronous send()
-a68559c17e8edc2bd66e32c0be493876da6ad215 tpm/tpm_ftpm_tee: support TPM_CHIP_FLAG_SYNC
-5e897bedf2683cafa8fb5730ccc8acdf43e1bdf3 tpm/tpm_svsm: support TPM_CHIP_FLAG_SYNC
 
---===============7603417635348109991==--
+--===============0828673783862723292==--
