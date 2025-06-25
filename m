@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0083948871751696362=="
+Content-Type: multipart/mixed; boundary="===============2232031182707527425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Wed, 25 Jun 2025 10:02:17 -0000
-Message-Id: <175084573738.1220807.1297962770891612640@gitolite.kernel.org>
+Date: Wed, 25 Jun 2025 10:02:22 -0000
+Message-Id: <175084574236.1221119.7858843289031421598@gitolite.kernel.org>
 
---===============0083948871751696362==
+--===============2232031182707527425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 983ab26065de5b37482916c9464f08d398c2b7d4
-    new: 56305a98e411188bfdb8b66d6595d083b96897e7
-    log: revlist-983ab26065de-56305a98e411.txt
+  - ref: refs/heads/m68k-queue
+    old: 1b6ac8a25761989a0614fb00e7f267a504cdc937
+    new: 1617eac6aba8795304326e2d8c35dce76a72d23b
+    log: revlist-1b6ac8a25761-1617eac6aba8.txt
 
---===============0083948871751696362==
+--===============2232031182707527425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-983ab26065de-56305a98e411.txt
+Content-Disposition: attachment; filename=revlist-1b6ac8a25761-1617eac6aba8.txt
 
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
 714d02b41939d2720379e11ef25227aec4e5bec9 ovl: fix regression caused by lookup helpers API changes
@@ -405,6 +405,8 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 5c00eca95a9a20e662bd290c3ef3f2e07dfa9baa Merge tag 'x86_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
-56305a98e411188bfdb8b66d6595d083b96897e7 Merge tag 'v6.16-rc3'
+f8d33e3caf30c62fef64fb1fbbdb3d9e73d6ed65 m68k: atari: usb: Add ISP1160 USB host controller support
+733e676d0aa80f1ca8c280df8e02497816a140a8 m68k: atari: Update Kconfig.bus help text
+1617eac6aba8795304326e2d8c35dce76a72d23b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0083948871751696362==--
+--===============2232031182707527425==--
