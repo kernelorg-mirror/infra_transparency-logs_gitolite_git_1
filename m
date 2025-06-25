@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 25 Jun 2025 14:50:12 -0000
-Message-Id: <175086301230.1475418.17259521562085049222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Wed, 25 Jun 2025 14:53:54 -0000
+Message-Id: <175086323407.1477124.10155261850069808365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
+user: frederic
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 10fa9a4e4dc332e0ff18150c82ba87311deb82bc
-    new: f03d924a90f668e036239941057bdf259dfa4bb1
+  - ref: refs/heads/master
+    old: 50b575846e8f2afa84aaf7a0babf3cea473bbef7
+    new: df3395a048c84c1da37b11e17df3c5d020e10a2c
     log: |
-         a3f3040657417aeadb9622c629d4a0c2693a0f93 EDAC/amd64: Fix size calculation for Non-Power-of-Two DIMMs
-         f03d924a90f668e036239941057bdf259dfa4bb1 Merge ras/edac-urgent into for-next
+         d2e06dd2cb4383bad5bb1f43f5a91bbc0d27cc04 noise_parse: check if nohz cpus are in smp_affinity_list
+         4f0ece0ee9b2da9c0b35f769a421934ce93e92d9 noise_parse: check if SMT is enabled
+         edd82f2ff5e862af852efc1f2680e64f91dbf65a noise_parse: check if siblings thread are all nohz_full
+         df3395a048c84c1da37b11e17df3c5d020e10a2c Merge branch 'irq-affinity' into 'master'
          
