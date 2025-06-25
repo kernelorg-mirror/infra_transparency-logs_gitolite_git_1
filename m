@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3105484008483611978=="
+Content-Type: multipart/mixed; boundary="===============5128555393835190186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Wed, 25 Jun 2025 14:20:49 -0000
-Message-Id: <175086124907.1446715.12045254418537775759@gitolite.kernel.org>
+Date: Wed, 25 Jun 2025 14:20:54 -0000
+Message-Id: <175086125445.1446904.2674585629108740871@gitolite.kernel.org>
 
---===============3105484008483611978==
+--===============5128555393835190186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
+  - ref: refs/heads/for-next
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: 2642f55d44ce563f227dd9c620eda0dec8d882be
     log: |
@@ -24,34 +24,34 @@ changes:
          2642f55d44ce563f227dd9c620eda0dec8d882be pinctrl: samsung: add support for gs101 wakeup mask programming
          
 
---===============3105484008483611978==
+--===============5128555393835190186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1750861285 +0200
+pusher krzk@kernel.org 1750861290 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1750861246-1aa60751a997794b9ec1057611381f013570f81d
+nonce 1750861252-b9870f0bd5a51c1850171df7f0d6415b960dd117
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 2642f55d44ce563f227dd9c620eda0dec8d882be refs/heads/pinctrl-next
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 2642f55d44ce563f227dd9c620eda0dec8d882be refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhcBeUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12EqD/9r5Eq8MXgZcQ9PMscoETCp5FJvyTRD0c4k
-jb9XoVfx/tlyTfVBfM7rXeQJhQPq6ZvOfBa/imw/oSlRYS5ATscqCPrFwwtgQzNx
-+9ocjhwwCOlazF7nzFJs9RZbvIw548+1jocARSUk664xY4/JGBY4OEL3lRUzLXI7
-H/xYUm/aVeAnT+NRqO+cgbhr63LP57O1SdZRuR1567ghOv6qA340Q+jPm9rWnxr6
-rHRvvCk7LhfoVgMZBWrh1hNABn7u46cxNqnvYDjPZ0tjBbcGrm2tUKvssCZwgYhi
-Wkr7WoP5vXaGEv3qrQfJ/JpSqTQIX+VTqOJkQiCs8Wxlm+HUOF74Rw01n8v8tWSE
-3QNUoXSCZz6fWoZPKdqA0FK69/EzgyHuM4/+VytK5F+vp/8TfdH94x2tW8BRAGqa
-RpDXh1nFF6Z+fTX4ht06QHMJ9KZCECEVL6xr1CIGptzPpHDs675R+iX0z1dm/v9b
-z3Q8VZfSbXG0v6ZbiivTYKhL4tielQwd5zrkBxBEq/kVEUO/AGGviv238rtbpXtz
-zVxPB4c2sFhvkBFUhx7BL6LdufCGNbJ6v+bTb8dZHcmc00lrezNLpW8q8fUeV6UP
-nWcd+itUITP/IMOZfrlUnIsBiUZxmEKRDo0mc8bVjqXVQrnKjaiCrHaijRxfWdNX
-5RlO7yC4yw==
-=Dj+v
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhcBeoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xArD/9pG1uHU96/uyfYUb2/npsq7qa9SCew+oa8
+ChJYOP+hrJzCyZfnpAurSjR+xiBghaIUpUu/RosscRMrlZUQkEEMJyn0eFGZpWcj
+6xfUFmSDk4dLkYblBwzC1AkCKLXmQfaZNE+2/uGmM/AcBIcZ0G1b5Evd/e4usujN
+0MBQnxXEberFxZzhRSI5qDUs+8Cs00CRImv4tWQqngiBPNQtASK6ghQdOXa06rvz
+Ad0vMmUBDAAZlv7rWqQ9LHPe1V+uPz/4aXF3I12UCIu/apRBE0p4jJxz7+i+AM3t
+edtU8V6kkySbdE8F+EaPG/v794iDUZFYh4mAdyCMis4NWGa7vjcB0LEaxMp0FG0a
+cZWDpEC1ebbwJgHcpz7eMKUWO/qwvfo4Vl0Ae7ZbWsb34YjzU5Bzff9jcvLxkg5K
+7hpz8AHBSiymGmPb1GMlTeTau8LKuz/Os9t92VHLW4M+871hvkk8DuFEAuqQYxoV
+f/JpeQ83FK2xM1HuX53vPSQHDlJLcrdh+YnWzY93sJKbrJj0c0rConBvhhsE06ZP
+RKYmGrGP1DhMbhMDiEbVSpa2T54EO0p/kMcdmH00YpS8gDgPQu9HmBOVj6bVbyWx
+HS/5XIX4ilDzFyTRykmPFWUSoyM2/kxv0ysEiA5X1XAXs9qdXNAt9uQUQLq9VJM2
+bnjwkYeXZg==
+=I97H
 -----END PGP SIGNATURE-----
 
---===============3105484008483611978==--
+--===============5128555393835190186==--
