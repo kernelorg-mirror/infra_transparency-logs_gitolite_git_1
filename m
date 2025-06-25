@@ -1,19 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 25 Jun 2025 18:16:27 -0000
-Message-Id: <175087538731.1662613.7058006904847290034@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4771311311547617718=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 25 Jun 2025 18:21:53 -0000
+Message-Id: <175087571341.1667161.10914064319211091177@gitolite.kernel.org>
+
+--===============4771311311547617718==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/fixes
-    old: 3c70ec71abdaf4e4fa48cd8fdfbbd864d78235a8
-    new: 46db07d71e501e98704178e10ac6c86468d5c6b4
-    log: |
-         46db07d71e501e98704178e10ac6c86468d5c6b4 cxl/edac: Fix using wrong repair type to check dram event record
-         
+  - ref: refs/heads/master
+    old: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
+    new: 92ca6c498a5e6e2083b520b82d318e7e525f3e7c
+    log: revlist-7595b66ae9de-92ca6c498a5e.txt
+
+--===============4771311311547617718==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7595b66ae9de-92ca6c498a5e.txt
+
+752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
+2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
+a35b29bdedb4d2ae3160d4d6684a6f1ecd9ca7c2 scsi: fnic: Fix crash in fnic_wq_cmpl_handler when FDMI times out
+74f46a0524f8d2f01dc7ca95bb5fc463a8603e72 scsi: fnic: Turn off FDMI ACTIVE flags on link down
+9b9b8594654a79e3d4166356fd86cd5397477b24 scsi: fnic: Add and improve logs in FDMI and FDMI ABTS paths
+18b5cb6f1fdda4454f55a31f7c78d94da62be495 scsi: fnic: Set appropriate logging level for log message
+85d6fbc47c3087c5d048e6734926b0c36af34fe9 scsi: fnic: Fix missing DMA mapping error in fnic_send_frame()
+c55c7a85e02a7bfee20a3ffebdff7cbeb41613ef um: ubd: Add missing error check in start_io_thread()
+bc4e2ae08183d9017f43bf88aa7cfdf84e76f573 um: vfio: Prevent duplicate device assignments
+8948941276024fcfb08fdb3d678867dc1f7b1c16 um: Use correct data source in fpregs_legacy_set()
+2d65fc13be85c336c56af7077f08ccd3a3a15a4a um: vector: Reduce stack usage in vector_eth_configure()
+2dca89df0d1116f722b4be100e4bfcff858058e8 Merge tag 'uml-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
+92ca6c498a5e6e2083b520b82d318e7e525f3e7c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+
+--===============4771311311547617718==--
