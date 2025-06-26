@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 26 Jun 2025 20:52:40 -0000
-Message-Id: <175097116072.3039733.1651363633433383214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 26 Jun 2025 20:54:18 -0000
+Message-Id: <175097125854.3040554.11560497272767082209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/main
-    old: 62569231861bf128f05ac8b9128600441ab58d9b
-    new: 4fb98d37afdac11db1f82c1d662e0fd3d209afaa
+  - ref: refs/heads/i2c/i2c-host
+    old: c7a9497164141240d5859d684e82f34e1bf3d275
+    new: b1554f2b024039a85341895c40a004bfe1aa29a2
     log: |
-         4b06c10a73811022fc464ce8adfc7b492e40e860 Merge branch 'ath-next'
-         469e26dd1f71b5e80e8a6c27bd242d97483616ae Merge remote-tracking branch 'mhi/mhi-next'
-         4fb98d37afdac11db1f82c1d662e0fd3d209afaa Add localversion-wireless-testing-ath
+         b1554f2b024039a85341895c40a004bfe1aa29a2 PATCH] i2c: stm32f7: Use str_on_off() helper
          
-  - ref: refs/tags/ath-202506262045
-    old: 0000000000000000000000000000000000000000
-    new: 4fb98d37afdac11db1f82c1d662e0fd3d209afaa
