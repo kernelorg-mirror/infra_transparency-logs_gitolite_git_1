@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9218314747088731959=="
+Content-Type: multipart/mixed; boundary="===============4994209792350464569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 26 Jun 2025 15:28:50 -0000
-Message-Id: <175095173060.2757539.13551195141575187153@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 15:28:52 -0000
+Message-Id: <175095173292.2757664.870596843830735767@gitolite.kernel.org>
 
---===============9218314747088731959==
+--===============4994209792350464569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1fd26729e013d0c829eb0675d5b6ad77ff497ab3
     new: 85720e04d9af0b77f8092b12a06661a8d459d4a0
     log: revlist-1fd26729e013-85720e04d9af.txt
 
---===============9218314747088731959==
+--===============4994209792350464569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ a433791aeaea6e84df709e0b9584b9bbe040cd1c atm: Release atm_dev_mutex after removi
 8d89661a36dd3bb8c9902cff36dc0c144dce3faf net: selftests: fix TCP packet checksum
 85720e04d9af0b77f8092b12a06661a8d459d4a0 net: libwx: fix the creation of page_pool
 
---===============9218314747088731959==--
+--===============4994209792350464569==--
