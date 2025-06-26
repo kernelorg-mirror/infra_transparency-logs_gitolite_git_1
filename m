@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1801488631779892965=="
+Content-Type: multipart/mixed; boundary="===============8634685018567173978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 26 Jun 2025 20:17:52 -0000
-Message-Id: <175096907273.3009581.8312825866920763506@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 20:26:45 -0000
+Message-Id: <175096960542.3017176.8696436888911545497@gitolite.kernel.org>
 
---===============1801488631779892965==
+--===============8634685018567173978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main-pending
-    old: e56ba806327518b130ec8f78468b2fcf69e87bff
-    new: 6ef3a8a8007d0d20eb4935a93ebcc85ab059cd46
-    log: revlist-e56ba8063275-6ef3a8a8007d.txt
-  - ref: refs/tags/ath-pending-202506261955
-    old: 0000000000000000000000000000000000000000
-    new: 6ef3a8a8007d0d20eb4935a93ebcc85ab059cd46
+  - ref: refs/heads/ath-next
+    old: 7322a7d80c48f81888414f347e88ebd4e49f7f56
+    new: 28aa52b6189f1cc409f96910c63fa1b99370b99e
+    log: revlist-7322a7d80c48-28aa52b6189f.txt
 
---===============1801488631779892965==
+--===============8634685018567173978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e56ba8063275-6ef3a8a8007d.txt
+Content-Disposition: attachment; filename=revlist-7322a7d80c48-28aa52b6189f.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 4f6fc782128355931527cefe3eb45338abd8ab39 perf: Fix sample vs do_exit()
@@ -649,34 +646,5 @@ d42e5248c9fa7796d4e16b92cc084dc52b1d4731 eth: fbnic: rename fbnic_fw_clear_cmpl 
 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c docs: net: sysctl documentation cleanup
 e34a79b96ab9d49ed8b605fee11099cf3efbb428 Merge tag 'net-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 28aa52b6189f1cc409f96910c63fa1b99370b99e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-25e45ba7e21c3c81cf831a7790a69d4553982e75 wifi: ath9k: ahb: reorder declarations
-a4b92de0f84b767807a26bf8498f89d81a7ec923 wifi: ath9k: ahb: reorder includes
-c29f5c2d03bd5a9e4fe723c495c798b7dd091d9a dt-bindings: net: wireless: ath9k: add WIFI bindings
-66e009b1777d1bef1a2fef7944ec490fb374606c wifi: ath9k: ahb: replace id_table with of
-d0c3363833d773217006451738c79c558871bb4c dt-bindings: net: wireless: ath11k-pci: describe firmware-name property
-8aa9e7e9e078c37701f0c1c6bca88284cf6149db wifi: ath11k: support usercase-specific firmware overrides
-f69a8da346af7da0e84277e295a0bf5814654eed wifi: ath11k: clear initialized flag for deinit-ed srng lists
-a87ab91b98aeb39dc8e97e678b53b8ad51e45ff9 wifi: ath11k: fix suspend use-after-free after probe failure
-af023f8129ae320bd32554ac3e55a9c66de33435 wifi: ath11k: Make read-only const array svc_id static const
-667c575a79cf40b9a1463aac195a80844076a245 wifi: ath12k: handle WMI event for real noise floor calculation
-36f2ed504fbdf71a96a0fe88b121a0cf599df8b4 wifi: ath12k: use real noise floor instead of default value
-5faab3a4661cadcc80a68b3010fb885cca0d4a14 wifi: ath12k: Fix station association with MBSSID Non-TX BSS
-20c0e20624988d58a1c0397b85a3981105b43819 wifi: ath12k: Fix beacon reception for sta associated to Non-TX AP
-670d4c49e65744e57c3919c135baa936096aa730 wifi: ath12k: Add memset and update default rate value in wmi tx completion
-07936a1e21f2d3611febf0e0b433687c931dc1c3 wifi: ath12k: Send WMI_VDEV_SET_TPC_POWER_CMD for AP vdev
-0c8c026d83d39190229a79a2b55a32dd4401032f wifi: ath11k: fix dest ring-buffer corruption
-1fa23c8f5304aa339e620422fc52a9a69487de99 wifi: ath11k: use plain access for descriptor length
-cadd1f3acba6bb7ff06f8e159b44fb7dc217f486 wifi: ath11k: use plain accesses for monitor descriptor
-2a9951e39ded1d79d1bf3cb27be13425cd2a2edc wifi: ath11k: fix source ring-buffer corruption
-b1c1aaea91235f7cedee8edd439c0fe4d0139a09 wifi: ath11k: fix dest ring-buffer corruption when ring is full
-04edd2dea9266843cb4aa32a8adf20b93120bd69 wifi: ath12k: fix dest ring-buffer corruption
-6d2e2a989872956b258afafd3df24d814071713c wifi: ath12k: use plain access for descriptor length
-20c1a3768b8fdf63cd7df1930246236592303b63 wifi: ath12k: fix source ring-buffer corruption
-a1511045dff2f14ff3251e4c6b6ea9c2d75ca426 wifi: ath12k: fix dest ring-buffer corruption when ring is full
-580396964c6b8071bad699c5d25e7eef55700115 wifi: ath12k: Clear auth flag only for actual association in security mode
-2d0e050c021020a1146d139ee2698b34d92ed10a wifi: ath12k: Add support for transmit histogram stats
-cd64e5fef0c71d3b89bc060f9e7da981e8a2f647 wifi: ath12k: Add support to TDMA and MLO stats
-4ae112d8bc2d22b17364a42f14a03da4aed7d065 wifi: ath12k: Add support to RTT stats
-6ef3a8a8007d0d20eb4935a93ebcc85ab059cd46 Merge branch 'pending' into main-pending
 
---===============1801488631779892965==--
+--===============8634685018567173978==--
