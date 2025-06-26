@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7790839731990231929=="
+Content-Type: multipart/mixed; boundary="===============7552716112386973513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 26 Jun 2025 15:29:14 -0000
-Message-Id: <175095175423.2758646.9304274658470035877@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 15:29:36 -0000
+Message-Id: <175095177692.2759716.4051987910195632416@gitolite.kernel.org>
 
---===============7790839731990231929==
+--===============7552716112386973513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ee1a0c653f9cad7e2634a39f6c530e12edddf0fc
-    new: 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c
-    log: revlist-ee1a0c653f9c-5cfb2ac2806c.txt
+  - ref: refs/heads/dev-queue
+    old: 4969c5eea412e52196d6c89880338757c293bb3c
+    new: 83586cfb9a7f5ed2a4d6d0fea62a3a0c4aec380b
+    log: revlist-4969c5eea412-83586cfb9a7f.txt
 
---===============7790839731990231929==
+--===============7552716112386973513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee1a0c653f9c-5cfb2ac2806c.txt
+Content-Disposition: attachment; filename=revlist-4969c5eea412-83586cfb9a7f.txt
 
 34116ec67cc12bc0501ce2912372d167d597e4dd wifi: iwlwifi: mvm: d3: Avoid -Wflex-array-member-not-at-end warnings
 4c95423b6f01a50505308d2eaec2da2a2bcd3139 wifi: rtlwifi: Constify struct rtl_hal_ops and rtl_hal_cfg
@@ -241,5 +241,64 @@ f7d4c21667cc1a5baffd17d28794e32b352e576a eth: fbnic: realign whitespace
 d42e5248c9fa7796d4e16b92cc084dc52b1d4731 eth: fbnic: rename fbnic_fw_clear_cmpl to fbnic_mbx_clear_cmpl
 0afcde806414b57884da1caa1d110287bcbfa65e Merge branch 'eth-fbnic-trivial-code-tweaks'
 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c docs: net: sysctl documentation cleanup
+3d749c311a40b63c2ef15d5a10fddcf5e1a513c1 coccinelle: misc: secs_to_jiffies script: Create dummy report
+ebccc7934204775277c0b0382c581f3c057f4be1 ixgbe: add MDD support
+1e9e34944e7c0c08e373c7e691b33aa5c785f84d ixgbe: check for MDD events
+10d4d4c52c75820f1519da921bd636b2f8b8397b ixgbe: add Tx hang detection unhandled MDD
+fbee874316ea8169703484c785e65c174f1bd71a ixgbe: turn off MDD while modifying SRRCTL
+48222bf893d5be11fd18cd217ffa5098fc6d7f7e ice: fix lane number calculation
+0f999cd9c0ee01a99e10e23d66e2ffdd4dedbbc3 ice: Allow 100M speed for E825C SGMII device
+2461017efea549f9e3c023790f8e586c42116dc3 ice: Remove casts on void pointers in LAG
+ba6b64d5b6c7d90920f69dc00623c3163af7a6eb ice: replace u8 elements with bool where
+bf929f24bbffe52550453b0f2dc8bc91961579db ice: Add driver specific prefix to LAG
+e5eafe8cd038bea7a800cd82004e45817e354cca ice: move LAG function in code to prepare for
+21b6d6c9ea2e381e715d23d4f67635aae333adbd ice: Cleanup variable initialization in LAG
+b217bd9e9019e3b5a09bdea21db96a25c96a0600 ice: cleanup capabilities evaluation
+4b7fa3b990d484c85954714c85f9f5e450f96d64 ice: breakout common LAG code into helpers
+30d2a0e6f44f0e2abe5849f435e12056819c957d ice: Implement support for SRIOV VFs across
+47d32a204614610973ea534e672ac958601df58d virtchnl2: rename enum virtchnl2_cap_rss
+ec086d3c371e2702b290a9438d811066623d4f09 virtchnl2: add flow steering support
+35c90cdfe9ded1ecbc1e56b5079312b4fc8b8aa5 idpf: add flow steering support
+34c501dc8581b6356d526e88cc53292ab733f452 ice, libie: move generic adminq descriptors to lib
+9615a6f09469503c31838cfac22fbb6d3f1bcd81 ixgbe: use libie adminq descriptors
+1ee9da14fc917e9c53ece6b0ece92d5d1c81bd09 i40e: use libie adminq descriptors
+92c13da2765c9189e345438944249b1b7a064d8f iavf: use libie adminq descriptors
+23a57520dade6fc524d5c272e369c59be715bcb0 libie: add adminq helper for converting err to str
+4c2a159dc1c10c0476a5c9aaa7fd9149dd7fbd0c ice: use libie_aq_str
+6c0defe54585d28ba5747a344047f0dfc30a0e94 iavf: use libie_aq_str
+cc7e3c67a199ee9ae25fb3a7ce73387de0ecf513 i40e: use libie_aq_str
+4fb787851c2e21fe13f46afd52052bfdc8cff444 ice: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+5e0d9b95ace0743fd635ac111f213299eb0f0283 igc: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+8c41f87ccfe9c049e09c4b36651ae93eb7e15a4e igb: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+5c7ea7a3c3096266a14068f9ef203a295c984e92 ixgbe: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+c7a533a7a151152b4cde480f97c1b1fef5fa37b1 i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+c0e9eea367ff3f5fd9e05191ea029dbc18d1b051 ice: add 40G speed to Admin Command GET PORT OPTION
+ea90b36ba4e2c2d766816feacc42af34898eae27 idpf: convert control queue mutex to a spinlock
+cbd81af15937a3d498aded7dbde918136b77906e ice: add E835 device IDs
+e4b38ae56bf56a857d471d16c4cb4edb5860232f ice: add NULL check in eswitch lag check
+d95a574ca7cf4e27b819cd4a0f81a1e9edcb5b2e idpf: return 0 size for RSS key if not supported
+d1b0712aa8cdfbb7f4124a85f1cb38e619de8b7c igc: disable L1.2 PCI-E link substate to avoid performance issue
+3c6d7a3db9ac5751e9fcfa2eb478c8e47fc370a5 devlink: add overwrite mask from factory settings
+e714540f46a3b04fd141d4f2340a84a0584b2bde ice: add overwrite mask from factory settings
+aa0f52cf821ac519ac58cf66e6cd66a391a22266 ixgbe: add overwrite mask from factory settings
+7a96f7eb20e95567068d1dd83ca04524440bb82a igbvf: remove unused interrupt counter fields from struct igbvf_adapter
+12571da87d329ff8572fbdc96d24739ab735bb3a igbvf: add tx_timeout_count to ethtool statistics
+2f2e5acca7214c92575a57f130363fee562150ed ixgbe: initialize aci lock before it's used
+320044517b55777408c1a922dcc11a7536777e3b i40e: report VF tx_dropped with tx_errors instead of tx_discards
+2f9520ec2f5694fdf544345ba6c07b93b5649d4f ethernet: intel: fix building with large NR_CPUS
+d5318aab24228456268331a653fc0054ac45a7a6 ice: convert ice_add_prof() to bitmap
+81bb597c9fc45aaac834b9b39436b3d9c61d68e4 idpf: add cross timestamping
+ba987cb32e61cd95d6697caa766e9383cf9e45c3 ice: add support for reading and unpacking Rx queue context
+6cac7a7235003e76ebf7bde49c8f15e7c23d9449 ice: add functions to get and set Tx queue context
+2c5f7a7d0a6f1dbab823f6a5c942f5d3aac32ed1 ice: save RSS hash configuration for migration
+2540637f4834559dc8cbf8f2fa80ce73734888ad ice: move ice_vsi_update_l2tsel to ice_lib.c
+12b27946f768a5550ef36b7c7d199694e163665b ice: expose VF functions used by live migration
+b3b492ae37ddf99f8414514cd9621c358c576a7c ice: use pci_iov_vf_id() to get VF ID
+760d614ce856af3e9173a15823f00941e7ff1483 ice: avoid rebuilding if MSI-X vector count is unchanged
+7603547054e659a2af228e97c1b44782c56bef15 ice: introduce ice_get_vf_by_dev() wrapper
+0ee03149d7209e705e14ff62eabf8ac793740572 igc: Relocate RSS field definitions to igc_defines.h
+db943014b9a9ae6df1defa4b024148fa5d37e435 igc: Add wildcard rule support to ethtool NFC using Default Queue
+3a0db6b1eb051d4673106f71045c820988f5b929 ixgbe: spelling corrections
+83586cfb9a7f5ed2a4d6d0fea62a3a0c4aec380b idpf: preserve coalescing settings across resets
 
---===============7790839731990231929==--
+--===============7552716112386973513==--
