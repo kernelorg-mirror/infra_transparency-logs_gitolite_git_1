@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 26 Jun 2025 21:08:33 -0000
-Message-Id: <175097211381.3053535.6830212665689781361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Thu, 26 Jun 2025 21:20:38 -0000
+Message-Id: <175097283867.3064763.3144024396497304525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 17898f4dc42c8aebbd0bfe1c7598fac4504547f8
-    new: 327d745f23afb5f3dd448d19b30a443cc4707fcd
+  - ref: refs/heads/rust/devres
+    old: cbac2b0368e39d8546234d3f0715fa6ce3f05af7
+    new: 185cded10210df16af43ac1c46e17fdd7b0d4f97
     log: |
-         5c46351a1ceec0d17692ea04519b3050e88ae3a8 i2c: imx: use guard to take spinlock
-         327d745f23afb5f3dd448d19b30a443cc4707fcd Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         185cded10210df16af43ac1c46e17fdd7b0d4f97 rust: devres: implement register_release()
          
