@@ -1,69 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1974429948927682567=="
+Content-Type: multipart/mixed; boundary="===============7480759603255564162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 26 Jun 2025 13:14:31 -0000
-Message-Id: <175094367176.2640351.6743964131984302544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 26 Jun 2025 13:32:03 -0000
+Message-Id: <175094472324.2655019.7474215538286932835@gitolite.kernel.org>
 
---===============1974429948927682567==
+--===============7480759603255564162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: dc9b2fe5f874e3d59f0df83dc43930ae9ca93f1a
-    new: 1faa0a6eb6b0a06ae31387a9da1cd2510e438d99
-    log: |
-         9d2bf0b15f1275f2bd508f587e5be3da13b56c8a netfs: Fix i_size updating
-         1faa0a6eb6b0a06ae31387a9da1cd2510e438d99 netfs: Merge i_size update functions
-         
-  - ref: refs/remotes/linus/HEAD
-    old: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
-    new: ee88bddf7f2f5d1f1da87dd7bedc734048b70e88
-    log: revlist-7595b66ae9de-ee88bddf7f2f.txt
-  - ref: refs/remotes/linus/master
-    old: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
-    new: ee88bddf7f2f5d1f1da87dd7bedc734048b70e88
-    log: revlist-7595b66ae9de-ee88bddf7f2f.txt
+  - ref: refs/heads/experimental
+    old: 06fe82b0c3d4fdf554b8f3a9f35e724d1dc8b14e
+    new: 69cb278593bcaffa97e5acb613e03ed2bb6839c3
+    log: revlist-06fe82b0c3d4-69cb278593bc.txt
 
---===============1974429948927682567==
+--===============7480759603255564162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7595b66ae9de-ee88bddf7f2f.txt
+Content-Disposition: attachment; filename=revlist-06fe82b0c3d4-69cb278593bc.txt
 
-a766cfbbeb3a74397965a8fa2e9a402026d3e1d8 bpf: Mark dentry->d_inode as trusted_or_null
-d4adf1c9ee7722545450608bcb095fb31512f0c6 bpf: Adjust free target to avoid global starvation of LRU map
-752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
-2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
-a35b29bdedb4d2ae3160d4d6684a6f1ecd9ca7c2 scsi: fnic: Fix crash in fnic_wq_cmpl_handler when FDMI times out
-74f46a0524f8d2f01dc7ca95bb5fc463a8603e72 scsi: fnic: Turn off FDMI ACTIVE flags on link down
-9b9b8594654a79e3d4166356fd86cd5397477b24 scsi: fnic: Add and improve logs in FDMI and FDMI ABTS paths
-18b5cb6f1fdda4454f55a31f7c78d94da62be495 scsi: fnic: Set appropriate logging level for log message
-85d6fbc47c3087c5d048e6734926b0c36af34fe9 scsi: fnic: Fix missing DMA mapping error in fnic_send_frame()
-7484e15dbb016d9d40f8c6e0475810212ae181db replace collect_mounts()/drop_collected_mounts() with a safer variant
-ce7df19686530920f2f6b636e71ce5eb1d9303ef attach_recursive_mnt(): do not lock the covering tree when sliding something under it
-aa485e8789d56a4573f7c8d000a182b749eaa64d libbpf: Fix null pointer dereference in btf_dump__free on allocation failure
-2eb7648558a7911f2208e8940cd22ca40e93cc76 bpf: Specify access type of bpf_sysctl_get_name args
-b8a205486ed5c0c5c0386e472157a81ce686af25 selftests/bpf: Convert test_sysctl to prog_tests
-190113989ae01da7f5925877815a3ac75856d9ed Merge branch 'bpf-specify-access-type-of-bpf_sysctl_get_name-args'
-0748e553df0225754c316a92af3a77fdc057b358 userns and mnt_idmap leak in open_tree_attr(2)
-b07f349d1864abe29436f45e3047da2bdd476462 spi: spi-cadence-quadspi: Fix pm runtime unbalance
-c55c7a85e02a7bfee20a3ffebdff7cbeb41613ef um: ubd: Add missing error check in start_io_thread()
-bc4e2ae08183d9017f43bf88aa7cfdf84e76f573 um: vfio: Prevent duplicate device assignments
-8948941276024fcfb08fdb3d678867dc1f7b1c16 um: Use correct data source in fpregs_legacy_set()
-2d65fc13be85c336c56af7077f08ccd3a3a15a4a um: vector: Reduce stack usage in vector_eth_configure()
-2dca89df0d1116f722b4be100e4bfcff858058e8 Merge tag 'uml-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
-92ca6c498a5e6e2083b520b82d318e7e525f3e7c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-c4dce0c094a89b1bc8fde1163342bd6fe29c0370 Merge tag 'spi-fix-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-fa6f092cc0a02d0fcee37e9e8172eda372a03d33 libbpf: Fix possible use-after-free for externs
-5e9388f7984a9cc7e659a105113f6ccf0aebedd0 selftests/bpf: adapt one more case in test_lru_map to the new target_free
-c5c2a8b497d69fb01d2563e383615a4eb69c72bc Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-ee88bddf7f2f5d1f1da87dd7bedc734048b70e88 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+81169bf3cfd26b8f2b3aa3b20da23971168a90a9 erofs-utils: release 1.8.9
+36229f5294a60f8fea7bed259eb6c2637bff7932 erofs-utils: lib: use Z_EROFS_LCLUSTER_TYPE_MAX to simplify switches
+d89c58a075d6c51c104744fad7bfb3447b984d0f erofs-utils: lib: simplify tail inline pcluster handling
+152db1e9867e6ce16b276e9db07eff2c51b873a6 erofs-utils: lib: clean up header parsing for ztailpacking and fragments
+1021d2de522c7335db3c737214f8bcadad50ca13 erofs-utils: get rid of NULL_ADDR{,_UL}
+1d982fdf20775b515c8fc8ac633336ffb309811a erofs-utils: lib: sync up with the 48-bit kernel erofs_fs.h
+7edf7c39f4a193bdbde38b83aacb644d9f7114b0 erofs-utils: implement 48-bit block addressing for unencoded inodes
+f0d0728841f857253b593e3254e65e7e4a7355fb erofs-utils: mkfs: support 48-bit block addressing for unencoded inodes
+f48216eecb13ac2670b4b35312bbc857d2c3b9df erofs-utils: support dot-omitted directories
+834b345ea9d042793ef309b4be90ac8e9684cdb1 erofs-utils: lib: implement encoded extent metadata
+69cb278593bcaffa97e5acb613e03ed2bb6839c3 erofs-utils: support encoded extents
 
---===============1974429948927682567==--
+--===============7480759603255564162==--
