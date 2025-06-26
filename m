@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Thu, 26 Jun 2025 14:05:43 -0000
-Message-Id: <175094674385.2685165.5293387231666243192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 26 Jun 2025 14:06:16 -0000
+Message-Id: <175094677695.2685546.7119364320611989246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: f90a927448fad23473d344d139b17db365f72612
-    new: 4095c3a3786ae244fda6091a23e3e9680d42f992
+  - ref: refs/heads/irq/drivers
+    old: 2250db8628a0d8293ad2e0671138b848a185fba1
+    new: 128ab2cfd0205fe395196a9f3221bcddd6adf54e
     log: |
-         078eb1308102d583f6b9f7c7fca2f2dec2060e37 usb: xhci: quirk for data loss in ISOC transfers
-         dec347f499ccec4143284b721bb45dc8f05a2aa1 xhci: Disable stream for xHC controller with XHCI_BROKEN_STREAMS
-         86a3baf4a12704b58e422412f5d1aa2c9dcab233 xhci: dbctty: disable ECHO flag by default
-         4095c3a3786ae244fda6091a23e3e9680d42f992 xhci: dbc: Flush queued requests before stopping dbc
+         5fe331cdcfba5b2c2dd8211127dadefcaaa97dec riscv: Helper to parse hart index
+         81f335e10605beda222d51d348a1ac058d4bac61 irqchip/riscv-aplic: Use riscv_get_hart_index()
+         ed651979bb780270ae14b35ca6bae68f658eddad dt-bindings: interrupt-controller: Add MIPS P8700 aclint-sswi
+         df0f030ee7e444c55341f4210124115878284125 irqchip/thead-c900-aclint-sswi: Generalize aclint-sswi driver and add MIPS P800 support
+         93406e374295ad25ab06104f734459cd25ce7134 irqchip/aclint-sswi: Remove unneeded includes
+         c8c8443a64a186df0508c709d51fe9c7db0b5d55 irqchip/aclint-sswi: Reduce data scope
+         128ab2cfd0205fe395196a9f3221bcddd6adf54e irqchip/aslint-sswi: Resolve hart index
          
