@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Thu, 26 Jun 2025 16:32:58 -0000
-Message-Id: <175095557881.2819128.14608003358536873749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 26 Jun 2025 16:33:55 -0000
+Message-Id: <175095563556.2819840.3639391354071279733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 55aa8ff7ceb7ac3adc9aae40603e67c18f71f268
-    new: 99ad6e3c0010dd416a00be0c51937bf30cdf5826
+  - ref: refs/heads/dev-queue
+    old: ca6ef570f0b30c0b0fd5547db937ecc455de811c
+    new: a0098a0979cb446badde2cb4e9344927983d64c2
     log: |
-         edf29a3fcd9a4da3bcd64d04b578dfb773493b84 rpmsg: char: Export alias for RPMSG ID rpmsg-raw from table
-         99ad6e3c0010dd416a00be0c51937bf30cdf5826 Merge branches 'rproc-next' and 'rpmsg-next' into for-next
+         a0098a0979cb446badde2cb4e9344927983d64c2 ice: check correct pointer in fwlog debugfs
          
