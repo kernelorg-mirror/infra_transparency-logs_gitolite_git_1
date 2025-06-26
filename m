@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============9194267598182494009=="
+Content-Type: multipart/mixed; boundary="===============8710630618717636174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 26 Jun 2025 08:06:21 -0000
-Message-Id: <175092518127.2376618.1308579227510812007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 26 Jun 2025 08:06:31 -0000
+Message-Id: <175092519166.2377075.8114692676683333454@gitolite.kernel.org>
 
---===============9194267598182494009==
+--===============8710630618717636174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 1b152eeca84a02bdb648f16b82ef3394007a9dcf
     new: ecb259c4f70dd5c83907809f45bf4dc6869961d7
     log: revlist-1b152eeca84a-ecb259c4f70d.txt
-  - ref: refs/heads/stable
-    old: 78f4e737a53e1163ded2687a922fce138aee73f5
-    new: c4dce0c094a89b1bc8fde1163342bd6fe29c0370
-    log: revlist-78f4e737a53e-c4dce0c094a8.txt
-  - ref: refs/tags/next-20250326
-    old: 9e9459ef76e922c529a64c210ea55876a15cf85b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250626
     old: 0000000000000000000000000000000000000000
     new: 7e5ee158886bb7c244a34623de6a410b62023d60
 
---===============9194267598182494009==
+--===============8710630618717636174==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1061,28 +1054,4 @@ c1fc09573c9d0921ce9f50885f611d924997ee95 Merge branch 'next' of https://git.kern
 3d7c229daafef8861b80472568d0fccbf76cd0e2 Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 ecb259c4f70dd5c83907809f45bf4dc6869961d7 Add linux-next specific files for 20250626
 
---===============9194267598182494009==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78f4e737a53e-c4dce0c094a8.txt
-
-fde46f60f6c5138ee422087addbc5bf5b4968bf1 selinux: change security_compute_sid to return the ssid or tsid on match
-752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
-2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
-a35b29bdedb4d2ae3160d4d6684a6f1ecd9ca7c2 scsi: fnic: Fix crash in fnic_wq_cmpl_handler when FDMI times out
-74f46a0524f8d2f01dc7ca95bb5fc463a8603e72 scsi: fnic: Turn off FDMI ACTIVE flags on link down
-9b9b8594654a79e3d4166356fd86cd5397477b24 scsi: fnic: Add and improve logs in FDMI and FDMI ABTS paths
-18b5cb6f1fdda4454f55a31f7c78d94da62be495 scsi: fnic: Set appropriate logging level for log message
-85d6fbc47c3087c5d048e6734926b0c36af34fe9 scsi: fnic: Fix missing DMA mapping error in fnic_send_frame()
-b07f349d1864abe29436f45e3047da2bdd476462 spi: spi-cadence-quadspi: Fix pm runtime unbalance
-7595b66ae9de667bf35a8c99e8f1bfc4792e207e Merge tag 'selinux-pr-20250624' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-c55c7a85e02a7bfee20a3ffebdff7cbeb41613ef um: ubd: Add missing error check in start_io_thread()
-bc4e2ae08183d9017f43bf88aa7cfdf84e76f573 um: vfio: Prevent duplicate device assignments
-8948941276024fcfb08fdb3d678867dc1f7b1c16 um: Use correct data source in fpregs_legacy_set()
-2d65fc13be85c336c56af7077f08ccd3a3a15a4a um: vector: Reduce stack usage in vector_eth_configure()
-2dca89df0d1116f722b4be100e4bfcff858058e8 Merge tag 'uml-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
-92ca6c498a5e6e2083b520b82d318e7e525f3e7c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-c4dce0c094a89b1bc8fde1163342bd6fe29c0370 Merge tag 'spi-fix-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-
---===============9194267598182494009==--
+--===============8710630618717636174==--
