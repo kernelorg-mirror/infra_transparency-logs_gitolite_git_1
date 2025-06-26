@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 26 Jun 2025 16:34:26 -0000
-Message-Id: <175095566636.2820754.5611143700482453813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 26 Jun 2025 16:35:00 -0000
+Message-Id: <175095570024.2821281.16101002287931351976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: a0098a0979cb446badde2cb4e9344927983d64c2
-    new: 3a2b5ac920a1a46b114bb49deed150d17330b265
+    old: ef6564fb883856834ab603c35573a78cc9cb711e
+    new: d65f824431cb41b073383279d0624a3ec21a9ae4
     log: |
-         3a2b5ac920a1a46b114bb49deed150d17330b265 ice: check correct pointer in fwlog debugfs
+         d65f824431cb41b073383279d0624a3ec21a9ae4 ice: check correct pointer in fwlog debugfs
          
