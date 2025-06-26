@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4102825015776297009=="
+Content-Type: multipart/mixed; boundary="===============6037352035928091031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 26 Jun 2025 18:35:46 -0000
-Message-Id: <175096294688.2924950.3688608053459241407@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 18:36:06 -0000
+Message-Id: <175096296679.2925264.5909767234339313883@gitolite.kernel.org>
 
---===============4102825015776297009==
+--===============6037352035928091031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: b57cb7c47e31244bef6612f271c5dc390f761e17
+  - ref: refs/heads/togreg
+    old: 0a2857e778599c2794dc89c40dc79ead631b34df
     new: 7048348e330ed2002d7f13e1bf3036564d402395
-    log: revlist-b57cb7c47e31-7048348e330e.txt
+    log: revlist-0a2857e77859-7048348e330e.txt
 
---===============4102825015776297009==
+--===============6037352035928091031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b57cb7c47e31-7048348e330e.txt
+Content-Disposition: attachment; filename=revlist-0a2857e77859-7048348e330e.txt
 
 f0fdb01df208edb6478ee83b1e4137b2655eaac2 iio: adc: ti-ads131e08: Fix spelling mistake "tweek" -> "tweak"
 c430955d0cb87fb7c6b186e457cb3beca4a9c89a iio: cros_ec_sensors: add cros_ec_activity driver
@@ -105,4 +105,4 @@ c65ce2c5ab6e5ccf2a5075f9845e259895a5722d iio: imu: bmi270: add channel for step 
 ea39f4c860fa6c448aa6853b76392d7152d8ec6c iio: imu: bmi270: add step counter watermark event
 7048348e330ed2002d7f13e1bf3036564d402395 iio: adc: ad7173: simplify clock enable/disable
 
---===============4102825015776297009==--
+--===============6037352035928091031==--
