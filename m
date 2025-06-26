@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7284679570772755169=="
+Content-Type: multipart/mixed; boundary="===============5673914715697610692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 26 Jun 2025 13:52:11 -0000
-Message-Id: <175094593157.2672826.2888130621411920306@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 13:52:20 -0000
+Message-Id: <175094594037.2673135.11907058925789657250@gitolite.kernel.org>
 
---===============7284679570772755169==
+--===============5673914715697610692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental-tests-fscache
-    old: 4166176d4a2ae9624a6d141e0993fa8336638a8d
-    new: 2ca608f8081537631f02c391479ee4557bf9ac3e
-    log: revlist-4166176d4a2a-2ca608f80815.txt
+  - ref: refs/heads/experimental-tests
+    old: 37ddd8a01d7d73ff01f4934493cbe995b8bc7a23
+    new: 3ce0c4848c97876485993c352052a42b08bd1ad1
+    log: revlist-37ddd8a01d7d-3ce0c4848c97.txt
 
---===============7284679570772755169==
+--===============5673914715697610692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4166176d4a2a-2ca608f80815.txt
+Content-Disposition: attachment; filename=revlist-37ddd8a01d7d-3ce0c4848c97.txt
 
 38cb2da1acf47e7a9ee6ea66341d4d1ee74960db erofs-utils: lib: fix `1UL << vi->u.chunkbits` on 32-bit platforms
 cac2a4e92bb32acf0e99365329523d50bd48a843 erofs-utils: lib: fix maximum huffman length for kite-deflate
@@ -90,20 +90,5 @@ dfb44abb3b1bfd2edc4e15eb86d06f94c47724a5 erofs-utils: update .gitignore for test
 5983a0a7fee1317de4e96df6c9f1614f80db30d5 erofs-utils: tests: add test for corrupted directories with hardlinks
 1c3853c10fcba3b73253f0c459441bd9c9a383ec erofs-utils: tests: add compression algorithms check for tests
 3ce0c4848c97876485993c352052a42b08bd1ad1 erofs-utils: tests: add test for Zstandard compression
-098e759236cf59a56acd1b60a7e6efbb0523e29a erofs-utils: tests: add cachefilesd2.c for fscache test cases
-654ad94e180073be583fd7dcf3c875f49d069b44 erofs-utils: tests: add fscache/001
-69733138de26ee5d4c47c942195404f6669ce336 erofs-utils: tests: add fscache/002
-ddf53315da3afc7f0123b8ab94ecaa74606a19ab erofs-utils: tests: add fscache/003
-74ed639d7ff2375c58752be7682b25fa842f16ff erofs-utils: tests: add fscache/004
-756437360208312c544767606ca2fead3dca3bf2 erofs-utils: tests: add fscache/005
-18cb3b69105875ed9e45fcbaeacdaacc5ac349ea erofs-utils: tests: add fscache/006
-9b51e8b9dc50968043367cd4a53b58a295fd2442 erofs-utils: tests: add fscache/007
-2d82f1e33407a377a80a43b966abf5ed45318047 erofs-utils: tests: add fscache/008
-41a05d6512640b584522fbb2e44c2e63d82bc840 erofs-utils: tests: add fscache/009
-e3f8395a9db6d774d52a7a40e8b42122634119a0 erofs-utils: tests: add fscache/010
-fb38e48bc4c4ffa3e209c3a7e7d3b88c8dda030b erofs-utils: tests: add fscache/011
-b06618c3311390c447c14fc2a8df59cde899d97d erofs-utils: tests: add fscache/012
-ec490e4e608d8bec478f78be86d27a1b142c5ade erofs-utils: tests: add fscache/013
-2ca608f8081537631f02c391479ee4557bf9ac3e erofs-utils: tests: add fscache/014
 
---===============7284679570772755169==--
+--===============5673914715697610692==--
