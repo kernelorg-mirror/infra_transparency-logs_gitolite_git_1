@@ -1,112 +1,89 @@
-Content-Type: multipart/mixed; boundary="===============6599086852259191119=="
+Content-Type: multipart/mixed; boundary="===============6490181459738181668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Thu, 26 Jun 2025 23:31:07 -0000
-Message-Id: <175098066741.3175840.13864180509131094084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 26 Jun 2025 23:41:47 -0000
+Message-Id: <175098130785.3184132.6000590729328888492@gitolite.kernel.org>
 
---===============6599086852259191119==
+--===============6490181459738181668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/linus-next
-    old: d3555d577325a7929b46759262d73242227e4a3f
-    new: 41e39556ea10e383e167ad4808141faf0f0ea576
-    log: revlist-d3555d577325-41e39556ea10.txt
-  - ref: refs/heads/master
-    old: ee88bddf7f2f5d1f1da87dd7bedc734048b70e88
-    new: f02769e7f272d6f42b9767f066c5a99afd2338f3
-    log: revlist-ee88bddf7f2f-f02769e7f272.txt
+  - ref: refs/heads/klp-build
+    old: 439da160634568101bad92df7d4aca912af54d14
+    new: 2e8af547dd0aa9878f52806e1bf9b89e5d263ee2
+    log: revlist-439da1606345-2e8af547dd0a.txt
 
---===============6599086852259191119==
+--===============6490181459738181668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3555d577325-41e39556ea10.txt
+Content-Disposition: attachment; filename=revlist-439da1606345-2e8af547dd0a.txt
 
-400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
-d53fd59707c402d03ec740b4e90a2ddcb5312006 dt-bindings: soc: fsl,ls1028a-reset: Drop extra "/" in $id
-5ae416c5b1e2e816aee7b3fc8347adf70afabb4c HID: wacom: fix memory leak on kobject creation failure
-1a19ae437ca5d5c7d9ec2678946fb339b1c706bf HID: wacom: fix memory leak on sysfs attribute creation failure
-85a720f4337f0ddf1603c8b75a8f1ffbbe022ef9 HID: wacom: fix kobject reference count leak
-4a0381080397e77792a5168069f174d3e56175ff HID: nintendo: avoid bluetooth suspend/resume stalls
-73f3a7415d93cf418c7625d03bce72da84344406 HID: Intel-thc-hid: Intel-quicki2c: Enhance QuickI2C reset flow
-54bae4c17c11688339eb73a04fd24203bb6e7494 HID: quirks: Add quirk for 2 Chicony Electronics HP 5MP Cameras
-fa10d4515817274a50af510d5d283d3c7fffc1ae HID: input: lower message severity of 'No inputs registered, leaving' to debug
-1a8953f4f7746c6a515989774fe03047c522c613 HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY
-9327e3ee5b077c4ab4495a09b67624f670ed88b6 HID: lenovo: Restrict F7/9/11 mode to compact keyboards only
-0e97f5b6a0808fa2ea865280708511c817d4bca3 hid: intel-ish-hid: Use PCI_DEVICE_DATA() macro for ISH device table
-5cdb49a680b45f467e9d915c0e74756bc0c67c57 HID: intel-ish-hid: ipc: Add Wildcat Lake PCI device ID
-f3054152c12e2eed1e72704aff47b0ea58229584 HID: wacom: fix crash in wacom_aes_battery_handler()
-ed2a6ff0234e21cd5e56b63d8bff80120bbe5f15 dt-bindings: serial: Convert altr,juart-1.0 to DT schema
-f75794b6077ec729f57de9a1ad24f14d288a68bb dt-bindings: serial: Convert altr,uart-1.0 to DT schema
-4540e41e753a7d69ecd3f5bad51fe620205c3a18 HID: appletb-kbd: fix "appletb_backlight" backlight device reference counting
-a8905238c3bbe13db90065ed74682418f23830c3 HID: lenovo: Add support for ThinkPad X1 Tablet Thin Keyboard Gen2
-e34a79b96ab9d49ed8b605fee11099cf3efbb428 Merge tag 'net-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f02769e7f272d6f42b9767f066c5a99afd2338f3 Merge tag 'devicetree-fixes-for-6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-093b0d29e26813fc5d3303afe897ceb3a32cd354 Merge remote-tracking branch 'origin/master' into linus-next
-41e39556ea10e383e167ad4808141faf0f0ea576 Merge tag 'hid-for-linus-2025062701' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid into linus-next
+ef25dfe532618a794f15930ef44218f9ee994888 compiler.h: Make addressable symbols less of an eyesore
+ca67c06d3810f1d45cd8766d0cf899f4725cca7b elfnote: Change ELFNOTE() to use __UNIQUE_ID()
+8c457bf0087beccb4d82b4672f2a2c163f1c22b7 kbuild: Remove 'kmod_' prefix from __KBUILD_MODNAME
+64791e0033a46ca2a6f8cf4f65d4a6de76971ffb modpost: Ignore unresolved section bounds symbols
+eb5078c9b057c1349bc284dbaedc20efb256d9c6 x86/alternative: Refactor INT3 call emulation selftest
+4afefca1066b8600d82f7b2dd9f6e3c2922884bd objtool: Make find_symbol_containing() less arbitrary
+7b7c07141dee4ebd08c5720c7fbb12a0e212a2a0 objtool: Fix broken error handling in read_symbols()
+7fefa2fc608709425c24ac24f727936df86fcb07 objtool: Propagate elf_truncate_section() error in elf_write()
+7c19aa11a94bf259a2a2544298c3660013bbd0f1 objtool: Remove error handling boilerplate
+9e858a0ab92dbbab161920dde93090301b52470b objtool: Add empty symbols to the symbol tree again
+3d051a58df7eaef60c52e60a3f3dfabc71a33b05 objtool: Fix interval tree insertion for zero-length symbols
+19b1efe3f1f6bac2268497e609d833903aa99599 objtool: Fix weak symbol detection
+be28e43710d44248ff7799c312bffa965bc516ab objtool: Fix x86 addend calculation
+40dd3c7d6ad7b76efa7951cbaa78a5d01e4f173e objtool: Fix __pa_symbol() relocation handling
+62942eb3702579d21fc916635173d3d8c9defb6c objtool: Fix "unexpected end of section" warning for alternatives
+8ccb86bda68d31f29137ee25d027e9d293307327 objtool: Check for missing annotation entries in read_annotate()
+27078775d1de24c686354d68d2061e81a69e2bb8 objtool: Const string cleanup
+6c22915a4ef67a05c64dd0855021d1d7426409f8 objtool: Clean up compiler flag usage
+35844c25d06dff0681a63d3c0a25c083cc4c833d objtool: Remove .parainstructions reference
+20cc3419a20de60a9325d2459d8fd753a5c751cb objtool: Convert elf iterator macros to use 'struct elf'
+c897dc0a55a84f9992b8c766214ff38b0f597583 objtool: Add section/symbol type helpers
+dbba3d7d7bcf13f496f3ce6319fe5e55572b2225 objtool: Mark .cold subfunctions
+9019e977fb7fb682f63cfb17954f0617a36cbd57 objtool: Fix weak symbol hole detection for .cold functions
+f277ca3e78d662268d6303637b1bba71c2a22b1f objtool: Mark prefix functions
+81f34e12846bc8a7cda1ec54d5dfc012c0314587 objtool: Simplify reloc offset calculation in unwind_read_hints()
+ee0570241895ca7fba2b31f094a66b1af45adafa objtool: Avoid emptying lists for duplicate sections
+66c5e0958f494953647e7b060c224441aa5f859f objtool: Rename --Werror to --werror
+a38a84c7202384d3842af3fab9d03f6f889a6121 objtool: Resurrect --backup option
+bf399762027642d6b4a54741c6904e0cb5dd8ad0 objtool: Reindent check_options[]
+5263a182e608408bf42dc1ed12bc43dee9598ac9 objtool: Refactor add_jump_destinations()
+204ebb40c041782c0f0bd6b3d082028e158d054a objtool: Simplify special symbol handling in elf_update_symbol()
+00b7e0dd3f8ffe4061f6e4ba0e16d3948edabf47 objtool: Generalize elf_create_symbol()
+ebcc791211149e00f79bb5cecaead7fba2486231 objtool: Generalize elf_create_section()
+d758b2e764764060977ba216cdd85bbb454f8eb3 objtool: Add elf_create_data()
+28472bc6f2c7e25cd034d1ba6d591ba1c0252933 objtool: Add elf_create_reloc() and elf_init_reloc()
+c0b43a4f23ab4c7fdf9a398e91ce5fd9952a6c54 objtool: Add elf_create_file()
+cf1cfb9042005be7bf0a1c3f2bdbeebc769e3ee4 kbuild,x86: Fix special section module permissions
+e048e6afcb2022114ea908205f4e81b7a53eba48 x86/alternative: Define ELF section entry size for alternatives
+7217634a8158e56703dfe22199f1b9c08c501ae3 x86/jump_label: Define ELF section entry size for jump labels
+6c3466449d8c721af903ccc5e16251e36f678236 x86/static_call: Define ELF section entry size of static calls
+1a53b6dcf236ce1fe0f0cd0d4441fc2bd9022cb3 x86/extable: Define ELF section entry size for exception table
+43b5d27827075a3418edd0fad621c78070e4f444 x86/bug: Define ELF section entry size for bug table
+edd9abc04a63d009d527a3dd69ebeb040236afb2 x86/orc: Define ELF section entry size for unwind hints
+113d5ea267328c65a2220dbb94eb51a2084d3a27 objtool: Unify STACK_FRAME_NON_STANDARD entry sizes
+ddbc940aea9bbce037527c6d83ef192faf60b72c objtool/klp: Add --checksum option to generate per-function checksums
+545d32e05f6c2634a6fc854ca6246d602f09768a objtool/klp: Add --debug-checksum=<funcs> to show per-instruction checksums
+d2d72fbe1a4762858742efece78c16d7034921b8 objtool/klp: Introduce klp diff subcommand for diffing object files
+cdc42fe6c27a0a8e9c5ab01cea61fd2556eeb3a8 objtool/klp: Add --debug option to show cloning decisions
+543b435b521c4bd65dd2c3efced892a5a22a7ef4 objtool/klp: Add post-link subcommand to finalize livepatch modules
+4173bb38e7e056d7aa64bae2885b4f710aca9125 objtool: Disallow duplicate prefix symbols
+55fe04b73123ef5029beeabebf14028d153467a1 objtool: Add base objtool support for livepatch modules
+38ab721002c42abe6664aeef25b4bfa095f6b101 livepatch: Add CONFIG_KLP_BUILD
+d83af9f86f2f7a24096d4ea0ddd78574fef9a5d3 kbuild,objtool: Defer objtool validation step for CONFIG_KLP_BUILD
+6ec2a82b31a90f52040846dc9a713d69a658820c livepatch/klp-build: Introduce fix-patch-lines script to avoid __LINE__ diff noise
+47595fe6105e0eca4c219f1f9edbad4b0690a93d livepatch/klp-build: Add stub init code for livepatch modules
+745556b18e81603fa7a3be2f0dca307550024a34 livepatch/klp-build: Introduce klp-build script for generating livepatch modules
+3cd69269e164baa39e3eb3dfb5294ddaf22858cc livepatch/klp-build: Add --debug option to show cloning decisions
+35e2ab14098362fc98aebb9ee08401c5f58d9f63 livepatch/klp-build: Add --show-first-changed option to show function divergence
+2e8af547dd0aa9878f52806e1bf9b89e5d263ee2 livepatch: Introduce source code helpers for livepatch modules
 
---===============6599086852259191119==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee88bddf7f2f-f02769e7f272.txt
-
-400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
-d53fd59707c402d03ec740b4e90a2ddcb5312006 dt-bindings: soc: fsl,ls1028a-reset: Drop extra "/" in $id
-ed2a6ff0234e21cd5e56b63d8bff80120bbe5f15 dt-bindings: serial: Convert altr,juart-1.0 to DT schema
-f75794b6077ec729f57de9a1ad24f14d288a68bb dt-bindings: serial: Convert altr,uart-1.0 to DT schema
-e0fca6f2cebff539e9317a15a37dcf432e3b851a net: mana: Record doorbell physical address in PF mode
-89a33de314945c866b155d369f224fa552af1722 Bluetooth: btintel_pcie: Fix potential race condition in firmware download
-042bb9603c44620dce98717a2d23235ca57a00d7 Bluetooth: L2CAP: Fix L2CAP MTU negotiation
-db0ff7e15923ffa7067874604ca275e92343f1b1 driver: bluetooth: hci_qca:fix unable to load the BT driver
-0b39b055b5b48cbbdf5746a1ca6e3f6b0221e537 net: usb: qmi_wwan: add SIMCom 8230C composition
-714db279942b1fb9b97c4243e186825a96750239 CREDITS: Add entry for Shannon Nelson
-302251f1fdfd302ce99a619aac1a5164d0bb7c4b Fix typo in marvell octeontx2 documentation
-b993ea46b3b601915ceaaf3c802adf11e7d6bac6 atm: clip: prevent NULL deref in clip_push()
-95b6759a81833d0e8c7456430186c2f6d174764e net: qed: reduce stack usage for TLV processing
-1d6123102e9fbedc8d25bf4731da6d513173e49e Bluetooth: hci_core: Fix use-after-free in vhci_flush()
-f5990207026987a353d5a95204c4d9cb725637fd net: netpoll: Initialize UDP checksum field before checksumming
-d5e3241c5a386a2425823c8c7afb77a465bd040f ethernet: ionic: Fix DMA mapping tests
-7544f3f5b0b58c396f374d060898b5939da31709 bridge: mcast: Fix use-after-free during router port configuration
-0e7facea6da2bd360361440786785752aa5b0e30 wifi: iwlegacy: work around excessive stack usage on clang/kasan
-7a3750ff0f2e8fee338a9c168f429f6c37f0e820 wifi: mac80211: fix beacon interval calculation overflow
-32ca245464e1479bfea8592b9db227fdc1641705 af_unix: Don't leave consecutive consumed OOB skbs.
-e1ca44e85f652a6ebd657c67c394894c1fdfb403 af_unix: Add test for consecutive consumed OOB.
-2a5a4841846b079b5fca5752fe94e59346fbda40 af_unix: Don't set -ECONNRESET for consumed OOB skb.
-632f55fa60c481035297739ecd374d945c9b32c7 selftest: af_unix: Add tests for -ECONNRESET.
-c3f429388c192eeb17aafa17eb315cb01f5d2aa8 Merge branch 'af_unix-fix-two-oob-issues'
-93598167dcb6351ba40449d994244696168f1094 wifi: iwlwifi: mvm: assume '1' as the default mac_config_cmd version
-1fd26729e013d0c829eb0675d5b6ad77ff497ab3 Merge tag 'for-net-2025-06-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-d87c3ca0f8f1ca4c25f2ed819e954952f4d8d709 wifi: mac80211: finish link init before RCU publish
-22bbc1dcd0d6785fb390c41f0dd5b5e218d23bdd vsock/uapi: fix linux/vm_sockets.h userspace compilation errors
-9caca6ac0e26cd20efd490d8b3b2ffb1c7c00f6f bnxt: properly flush XDP redirect lists
-95b922dd04f74a45fb86b34a25cda62f427a2b5c Merge tag 'iwlwifi-fixes-2025-06-25' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-010c40c1f50eecab3cdeaa895808294ad0c4f000 Merge tag 'wireless-2025-06-25' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-c4890963350dcf4e9a909bae23665921fba4ad27 atm: idt77252: Add missing `dma_map_error()`
-7b515f35a911fdc31fbde6531828dcd6ae9803d3 net: enetc: Correct endianness handling in _enetc_rd_reg64
-2434ccb94dfc8e036c81e9d7c77fca6dc1dc2590 netlink: specs: nfsd: replace underscores with dashes in names
-791a9ed0a40dfa70fe793dcecf950273255cbb84 netlink: specs: fou: replace underscores with dashes in names
-07caaf875c937e5f0a262a1dbad307d08ecc8673 netlink: specs: ethtool: replace underscores with dashes in names
-354592f19c7b0ac5983d56d8594a76aa3437f0a6 netlink: specs: dpll: replace underscores with dashes in names
-9407680945145cc34fafd0e9f802b03574620d43 netlink: specs: devlink: replace underscores with dashes in names
-e40d3d0931d2b1e86ba2ca0e9c95f90ac6dd5525 netlink: specs: ovs_flow: replace underscores with dashes in names
-9e6dd4c256d0774701637b958ba682eff4991277 netlink: specs: mptcp: replace underscores with dashes in names
-8d7e211ea925e050882c762ddf8cf2da78856dfb netlink: specs: rt-link: replace underscores with dashes in names
-eef0eaeca7fa8e358a31e89802f564451b797718 netlink: specs: tc: replace underscores with dashes in names
-af852f1f1c951d43b36881302fd10d9f898cdb54 netlink: specs: enforce strict naming of properties
-9186c43c1f000ce18069b429afcc725c2997d040 Merge branch 'netlink-specs-enforce-strict-naming-of-properties'
-a433791aeaea6e84df709e0b9584b9bbe040cd1c atm: Release atm_dev_mutex after removing procfs in atm_dev_deregister().
-8d89661a36dd3bb8c9902cff36dc0c144dce3faf net: selftests: fix TCP packet checksum
-85720e04d9af0b77f8092b12a06661a8d459d4a0 net: libwx: fix the creation of page_pool
-e34a79b96ab9d49ed8b605fee11099cf3efbb428 Merge tag 'net-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f02769e7f272d6f42b9767f066c5a99afd2338f3 Merge tag 'devicetree-fixes-for-6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-
---===============6599086852259191119==--
+--===============6490181459738181668==--
