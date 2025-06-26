@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 26 Jun 2025 15:58:01 -0000
-Message-Id: <175095348173.2786272.2437665816246724149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
+Date: Thu, 26 Jun 2025 15:58:38 -0000
+Message-Id: <175095351877.2786811.10108786575145047981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/aegl/linux
+user: aegl
 changes:
-  - ref: refs/tags/s390-6.16-3
+  - ref: refs/heads/davidboxv2
     old: 0000000000000000000000000000000000000000
-    new: 69e95f8b1c99d59f03e222c1f4c63716469960e4
+    new: 4742bf1fab91403ca48efc45f7f7fd68a156a955
