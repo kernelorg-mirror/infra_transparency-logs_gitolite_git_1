@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0838223927897922756=="
+Content-Type: multipart/mixed; boundary="===============5803684410857767493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 26 Jun 2025 23:12:48 -0000
-Message-Id: <175097956833.3158555.15892022489798654287@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 23:12:54 -0000
+Message-Id: <175097957405.3158854.5832476600522406030@gitolite.kernel.org>
 
---===============0838223927897922756==
+--===============5803684410857767493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 28aa52b6189f1cc409f96910c63fa1b99370b99e
+  - ref: refs/heads/pending
+    old: 4ae112d8bc2d22b17364a42f14a03da4aed7d065
     new: 81a0286cefe6f81744160d3524d70e67479b314b
-    log: revlist-28aa52b6189f-81a0286cefe6.txt
+    log: revlist-4ae112d8bc2d-81a0286cefe6.txt
 
---===============0838223927897922756==
+--===============5803684410857767493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28aa52b6189f-81a0286cefe6.txt
+Content-Disposition: attachment; filename=revlist-4ae112d8bc2d-81a0286cefe6.txt
 
 5cbfef9039f61691c87f522f8761d628033bc392 wifi: ath9k: ahb: reorder declarations
 c8123302c01936d297e22adbd75cad38c5049f92 wifi: ath9k: ahb: reorder includes
@@ -55,4 +55,4 @@ ffc7adb0a121cd72a02095106bd006f44593ee35 wifi: ath12k: Add support for transmit 
 a7f74e782e274e8255808c165cb2cf63ee0876cc wifi: ath12k: Add support to TDMA and MLO stats
 81a0286cefe6f81744160d3524d70e67479b314b wifi: ath12k: Add support to RTT stats
 
---===============0838223927897922756==--
+--===============5803684410857767493==--
