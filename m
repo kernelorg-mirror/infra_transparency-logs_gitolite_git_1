@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7552716112386973513=="
+Content-Type: multipart/mixed; boundary="===============0613600508874040204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 26 Jun 2025 15:29:36 -0000
-Message-Id: <175095177692.2759716.4051987910195632416@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 15:35:48 -0000
+Message-Id: <175095214874.2766159.10376587389948335279@gitolite.kernel.org>
 
---===============7552716112386973513==
+--===============0613600508874040204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 4969c5eea412e52196d6c89880338757c293bb3c
-    new: 83586cfb9a7f5ed2a4d6d0fea62a3a0c4aec380b
-    log: revlist-4969c5eea412-83586cfb9a7f.txt
+  - ref: refs/heads/1GbE
+    old: 27390db9592d828b6d3c2764305a5037a9aa969d
+    new: 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c
+    log: revlist-27390db9592d-5cfb2ac2806c.txt
 
---===============7552716112386973513==
+--===============0613600508874040204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4969c5eea412-83586cfb9a7f.txt
+Content-Disposition: attachment; filename=revlist-27390db9592d-5cfb2ac2806c.txt
 
 34116ec67cc12bc0501ce2912372d167d597e4dd wifi: iwlwifi: mvm: d3: Avoid -Wflex-array-member-not-at-end warnings
 4c95423b6f01a50505308d2eaec2da2a2bcd3139 wifi: rtlwifi: Constify struct rtl_hal_ops and rtl_hal_cfg
@@ -109,6 +109,32 @@ c19c24c3b9e2c4d656472738f67ffc68a9b85cb0 wifi: ath12k: Add missing include of ex
 b79742b84e16e41c4a09f3126436f39f36e75c06 wifi: ath12k: Enable REO queue lookup table feature on QCN9274 hw2.0
 54c350055b1da2767f18a49c11e4fcc42cf33ff8 wifi: ath12k: Fix double budget decrement while reaping monitor ring
 05062834350f0bf7ad1abcebc2807220e90220eb wifi: ath12k: Pass ab pointer directly to ath12k_dp_tx_get_encap_type()
+82eaf94d69fce20f8859a2b8dae8e7064d9343da dt-bindings: net: qca,ar803x: Add IPQ5018 Internal GE PHY support
+d46502279a11b48ede1d8bf65a229c8231bf0602 net: phy: qcom: at803x: Add Qualcomm IPQ5018 Internal PHY support
+d3b2afa987b5ffb4352a32e5063e5932e00c9872 Merge branch 'add-support-for-the-ipq5018-internal-ge-phy'
+9f22c3ddb8cf0e49e9b1ad539d7f3bcb59381fad net: stmmac: lpc18xx: use plat_dat->phy_interface
+bfb4a6c721517a11b277e8841f8a7a64b1b14b72 selftests: drv-net: import things in lib one by one
+96c16c59b705d02c29f6bef54858b5da78c3fb13 ethtool: pse-pd: Add missing linux/export.h include
+bf92ffb0d332f7b91e689cb24b0840607802329d dt-bindings: net: convert qca,qca7000.txt yaml format
+ae2402bf882b40fb9cf3b6a5c9ff0e6c7a9ef842 net/smc: replace strncpy with strscpy
+b04202d6065cba5dfd51fb9866400b25573eac67 net/sched: replace strncpy with strscpy
+7df6c0245595871500758c4cfa6052081e6687c9 lib: test_objagg: split test_hints_case() into two functions
+b630c781bcf6ff87657146661816d0d30a902139 caif: reduce stack size, again
+e84a4927a404f369c842c19de93b216627fcc690 net: annotate races around sk->sk_uid
+c51da3f7a161c6822232be832abdffe47eb55b4c net: remove sock_i_uid()
+0fd9e5958ebb41188700b566467a1d9a3ebcdece Merge branch 'net-replace-sock_i_uid-with-sk_uid'
+3169e36ae14802b01abe4bfa7ec593b0a1af5cc7 net: make sk->sk_sndtimeo lockless
+935b67675a9f233aa4ac4ae6452b2cc45418d839 net: make sk->sk_rcvtimeo lockless
+2f70ba1c0bf04349182ae209c8c69e1b71d4c0a8 Merge branch 'net-lockless-sk_sndtimeo-and-sk_rcvtimeo'
+ca6a3faee66e6dc84f3d24fa1b1fa8b0628871e9 selftests: drv-net: stats: fix pylint issues
+2baa45432d9a84d69f6ae247f5d6eb6525572bbe selftests: drv-net: stats: use skip instead of xfail for unsupported features
+b7ac47616fae7151377cbabb71a286dca71f7a13 Merge branch 'selftests-drv-net-stats-use-skip-instead-of-xfail'
+ee85b483fefbbebe1e6e61c53169f864bbdd8f13 net: ethernet: mtk_eth_soc: support named IRQs
+4981901009923c8889a635a928d55b8f7f8b31ec net: ethernet: mtk_eth_soc: add consts for irq index
+9c0feca0a68b33cf012dd835edc6067407597a59 net: ethernet: mtk_eth_soc: skip first IRQ if not used
+070e98dd4e26279280e15db8f37077a001ca1b4c net: ethernet: mtk_eth_soc: only use legacy mode on missing IRQ name
+0b20433d8285ca33f5fcdfd04e626ef1227d8a45 Merge branch 'rework-irq-handling-in-mtk_eth_soc'
+cccfe0982208c72e116462e5431919c88505e890 page_pool: import Jesper's page_pool benchmark
 d8643e681825cc5ac233f7a782c8b9406d016166 wifi: rtw89: coex: Add v1 Bluetooth AFH handshake for WiFi 7
 39251e189e4144c935adc8f2c08d7d703c3b8537 wifi: rtw89: coex: Enable outsource info H2C command
 10a39b9fd7a11591371bc352c16524f1a4d76396 wifi: rtw89: coex: Query Bluetooth TX power when firmware support
@@ -129,7 +155,19 @@ c2852b5a0575b0f9de7e6359b9725a5b074778f8 wifi: rtw89: report boottime of receivi
 3c2dd2473d452afd8cd26cbb44e7eb64f8687765 wl1251: Remove unused wl1251_acx_rate_policies
 6f3ec1828502ec8f9bc6cffc4c50927fe24cbdad wl1251: Remove unused wl1251_cmd_*
 1265168759f3b5298a21d2172b017d9e90de647a wifi: wlcore: Remove unused wl12xx_cmd_start_fwlog
+bbb7d478d91ac4d5c288e226cc8744daf3820798 net: phy: Add interface types for 50G and 100G
+3b180b227eb19fb37714293d601ad49dcc7cf08f fbnic: Do not consider mailbox "initialized" until we have verified fw version
+a6bbbc5bc4c671f6cd791a65743f0c6c83d69edd fbnic: Retire "AUTO" flags and cleanup handling of FW link settings
+f663a1abf39a16bdd8c5a3eb2d79b27c7d5c211b fbnic: Replace link_mode with AUI
 16d8fd74dbfca0ea58645cd2fca13be10cae3cdd wifi: rtl818x: Kill URBs before clearing tx status queue
+0853d8521bc1ef71bbedab4aadd3b833287fd521 fbnic: Update FW link mode values to represent actual link modes
+22780f69fb45d546d2ae32479317049de3621729 fbnic: Set correct supported modes and speeds based on FW setting
+fb9a3bb7f7f23b86d05e94f85e523d7d3f5fa57d fbnic: Add support for reporting link config
+eb4c27edb4d8dbfbdcc7bc03e0394a0fab8af7d5 fbnic: Add support for setting/getting pause configuration
+a6a4db166c6565d8143f5b59b9c2c05472bb1726 Merge branch 'add-support-for-25g-50g-and-100g-to-fbnic'
+42fa8f17e453ca142d3ed1b2a7b264bf52e8599e dt-bindings: pse: tps23881: Clarify channels property description
+dad51ea09040f9ac2ea2a0f694e5e3ed5cf167b9 net: pse-pd: tps23881: Clarify setup_pi_matrix callback documentation
+ee1a0c653f9cad7e2634a39f6c530e12edddf0fc Merge branch 'pse-improve-documentation-clarity'
 df56e58104b650bd5d87a93a38d1de9a36593c63 wifi: brcmfmac: don't allow arp/nd offload to be enabled if ap mode exists
 140c6a61d83cbd85adba769b5ef8d61acfa5b392 wifi: mac80211: update radar_required in channel context after channel switch
 e581b7fe62218d390520287e0095bfd6fe0454f8 wifi: mac80211: add support towards MLO handling of station statistics
@@ -241,64 +279,5 @@ f7d4c21667cc1a5baffd17d28794e32b352e576a eth: fbnic: realign whitespace
 d42e5248c9fa7796d4e16b92cc084dc52b1d4731 eth: fbnic: rename fbnic_fw_clear_cmpl to fbnic_mbx_clear_cmpl
 0afcde806414b57884da1caa1d110287bcbfa65e Merge branch 'eth-fbnic-trivial-code-tweaks'
 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c docs: net: sysctl documentation cleanup
-3d749c311a40b63c2ef15d5a10fddcf5e1a513c1 coccinelle: misc: secs_to_jiffies script: Create dummy report
-ebccc7934204775277c0b0382c581f3c057f4be1 ixgbe: add MDD support
-1e9e34944e7c0c08e373c7e691b33aa5c785f84d ixgbe: check for MDD events
-10d4d4c52c75820f1519da921bd636b2f8b8397b ixgbe: add Tx hang detection unhandled MDD
-fbee874316ea8169703484c785e65c174f1bd71a ixgbe: turn off MDD while modifying SRRCTL
-48222bf893d5be11fd18cd217ffa5098fc6d7f7e ice: fix lane number calculation
-0f999cd9c0ee01a99e10e23d66e2ffdd4dedbbc3 ice: Allow 100M speed for E825C SGMII device
-2461017efea549f9e3c023790f8e586c42116dc3 ice: Remove casts on void pointers in LAG
-ba6b64d5b6c7d90920f69dc00623c3163af7a6eb ice: replace u8 elements with bool where
-bf929f24bbffe52550453b0f2dc8bc91961579db ice: Add driver specific prefix to LAG
-e5eafe8cd038bea7a800cd82004e45817e354cca ice: move LAG function in code to prepare for
-21b6d6c9ea2e381e715d23d4f67635aae333adbd ice: Cleanup variable initialization in LAG
-b217bd9e9019e3b5a09bdea21db96a25c96a0600 ice: cleanup capabilities evaluation
-4b7fa3b990d484c85954714c85f9f5e450f96d64 ice: breakout common LAG code into helpers
-30d2a0e6f44f0e2abe5849f435e12056819c957d ice: Implement support for SRIOV VFs across
-47d32a204614610973ea534e672ac958601df58d virtchnl2: rename enum virtchnl2_cap_rss
-ec086d3c371e2702b290a9438d811066623d4f09 virtchnl2: add flow steering support
-35c90cdfe9ded1ecbc1e56b5079312b4fc8b8aa5 idpf: add flow steering support
-34c501dc8581b6356d526e88cc53292ab733f452 ice, libie: move generic adminq descriptors to lib
-9615a6f09469503c31838cfac22fbb6d3f1bcd81 ixgbe: use libie adminq descriptors
-1ee9da14fc917e9c53ece6b0ece92d5d1c81bd09 i40e: use libie adminq descriptors
-92c13da2765c9189e345438944249b1b7a064d8f iavf: use libie adminq descriptors
-23a57520dade6fc524d5c272e369c59be715bcb0 libie: add adminq helper for converting err to str
-4c2a159dc1c10c0476a5c9aaa7fd9149dd7fbd0c ice: use libie_aq_str
-6c0defe54585d28ba5747a344047f0dfc30a0e94 iavf: use libie_aq_str
-cc7e3c67a199ee9ae25fb3a7ce73387de0ecf513 i40e: use libie_aq_str
-4fb787851c2e21fe13f46afd52052bfdc8cff444 ice: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-5e0d9b95ace0743fd635ac111f213299eb0f0283 igc: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-8c41f87ccfe9c049e09c4b36651ae93eb7e15a4e igb: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-5c7ea7a3c3096266a14068f9ef203a295c984e92 ixgbe: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-c7a533a7a151152b4cde480f97c1b1fef5fa37b1 i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-c0e9eea367ff3f5fd9e05191ea029dbc18d1b051 ice: add 40G speed to Admin Command GET PORT OPTION
-ea90b36ba4e2c2d766816feacc42af34898eae27 idpf: convert control queue mutex to a spinlock
-cbd81af15937a3d498aded7dbde918136b77906e ice: add E835 device IDs
-e4b38ae56bf56a857d471d16c4cb4edb5860232f ice: add NULL check in eswitch lag check
-d95a574ca7cf4e27b819cd4a0f81a1e9edcb5b2e idpf: return 0 size for RSS key if not supported
-d1b0712aa8cdfbb7f4124a85f1cb38e619de8b7c igc: disable L1.2 PCI-E link substate to avoid performance issue
-3c6d7a3db9ac5751e9fcfa2eb478c8e47fc370a5 devlink: add overwrite mask from factory settings
-e714540f46a3b04fd141d4f2340a84a0584b2bde ice: add overwrite mask from factory settings
-aa0f52cf821ac519ac58cf66e6cd66a391a22266 ixgbe: add overwrite mask from factory settings
-7a96f7eb20e95567068d1dd83ca04524440bb82a igbvf: remove unused interrupt counter fields from struct igbvf_adapter
-12571da87d329ff8572fbdc96d24739ab735bb3a igbvf: add tx_timeout_count to ethtool statistics
-2f2e5acca7214c92575a57f130363fee562150ed ixgbe: initialize aci lock before it's used
-320044517b55777408c1a922dcc11a7536777e3b i40e: report VF tx_dropped with tx_errors instead of tx_discards
-2f9520ec2f5694fdf544345ba6c07b93b5649d4f ethernet: intel: fix building with large NR_CPUS
-d5318aab24228456268331a653fc0054ac45a7a6 ice: convert ice_add_prof() to bitmap
-81bb597c9fc45aaac834b9b39436b3d9c61d68e4 idpf: add cross timestamping
-ba987cb32e61cd95d6697caa766e9383cf9e45c3 ice: add support for reading and unpacking Rx queue context
-6cac7a7235003e76ebf7bde49c8f15e7c23d9449 ice: add functions to get and set Tx queue context
-2c5f7a7d0a6f1dbab823f6a5c942f5d3aac32ed1 ice: save RSS hash configuration for migration
-2540637f4834559dc8cbf8f2fa80ce73734888ad ice: move ice_vsi_update_l2tsel to ice_lib.c
-12b27946f768a5550ef36b7c7d199694e163665b ice: expose VF functions used by live migration
-b3b492ae37ddf99f8414514cd9621c358c576a7c ice: use pci_iov_vf_id() to get VF ID
-760d614ce856af3e9173a15823f00941e7ff1483 ice: avoid rebuilding if MSI-X vector count is unchanged
-7603547054e659a2af228e97c1b44782c56bef15 ice: introduce ice_get_vf_by_dev() wrapper
-0ee03149d7209e705e14ff62eabf8ac793740572 igc: Relocate RSS field definitions to igc_defines.h
-db943014b9a9ae6df1defa4b024148fa5d37e435 igc: Add wildcard rule support to ethtool NFC using Default Queue
-3a0db6b1eb051d4673106f71045c820988f5b929 ixgbe: spelling corrections
-83586cfb9a7f5ed2a4d6d0fea62a3a0c4aec380b idpf: preserve coalescing settings across resets
 
---===============7552716112386973513==--
+--===============0613600508874040204==--
