@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 26 Jun 2025 14:28:51 -0000
-Message-Id: <175094813112.2702841.9606155968845551425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 26 Jun 2025 14:31:11 -0000
+Message-Id: <175094827131.2706572.13448037220215611248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 338b505d564c1ea04d5ad0495dd25098a475f168
-    new: b7c26cbd5b704a350b3176669f47047153903bc9
+  - ref: refs/heads/edac-drivers
+    old: 10fa9a4e4dc332e0ff18150c82ba87311deb82bc
+    new: 815703e2ecdf091a724c16671aadd8c55de24878
     log: |
-         b7c26cbd5b704a350b3176669f47047153903bc9 clk: renesas: rzv2h: Add missing include file
-         
-  - ref: refs/heads/renesas-clk-for-v6.17
-    old: 338b505d564c1ea04d5ad0495dd25098a475f168
-    new: b7c26cbd5b704a350b3176669f47047153903bc9
-    log: |
-         b7c26cbd5b704a350b3176669f47047153903bc9 clk: renesas: rzv2h: Add missing include file
+         815703e2ecdf091a724c16671aadd8c55de24878 EDAC/mem_repair: Reduce stack usage in edac_mem_repair_get_desc()
          
