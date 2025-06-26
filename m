@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6873366700821881578=="
+Content-Type: multipart/mixed; boundary="===============2993886430064459500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 26 Jun 2025 15:35:51 -0000
-Message-Id: <175095215151.2766285.2491601035420516840@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 15:35:54 -0000
+Message-Id: <175095215429.2766518.9137708581579711111@gitolite.kernel.org>
 
---===============6873366700821881578==
+--===============2993886430064459500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 27390db9592d828b6d3c2764305a5037a9aa969d
     new: 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c
     log: revlist-27390db9592d-5cfb2ac2806c.txt
 
---===============6873366700821881578==
+--===============2993886430064459500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -280,4 +280,4 @@ d42e5248c9fa7796d4e16b92cc084dc52b1d4731 eth: fbnic: rename fbnic_fw_clear_cmpl 
 0afcde806414b57884da1caa1d110287bcbfa65e Merge branch 'eth-fbnic-trivial-code-tweaks'
 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c docs: net: sysctl documentation cleanup
 
---===============6873366700821881578==--
+--===============2993886430064459500==--
