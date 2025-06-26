@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 26 Jun 2025 17:21:16 -0000
-Message-Id: <175095847699.2860382.3965316201358868690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 26 Jun 2025 17:39:00 -0000
+Message-Id: <175095954094.2873316.8693540342124213026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 63dafeb392139b893a73b6331f347613f0929702
-    new: c79cbde9b7bc7a650af96269588518950e3c2441
-    log: |
-         c942dba38064cd35214c6b3249120f3f2945e810 rust: device: Add child accessor and iterator
-         c3e05bd15e0c99f3ff45e0b1f01814778bc1128c rust: device: Add property_get_reference_args
-         c79cbde9b7bc7a650af96269588518950e3c2441 samples: rust: platform: Add property child and reference args examples
-         
+  - ref: refs/tags/v6.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
