@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 26 Jun 2025 09:20:09 -0000
-Message-Id: <175092960911.2442681.4772373873396616818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Thu, 26 Jun 2025 09:22:55 -0000
+Message-Id: <175092977553.2443871.2558274653019786466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/for-next
-    old: 842cf5a6e356567b31041aeeeb64b218179df847
-    new: 19564a8576ac847ec981207292b500efbbbfaf7b
+  - ref: refs/heads/dev/gicv5-v6
+    old: 3ec171d5c8c201b9d95bd2199f6c15cb8d9168b8
+    new: 1c78baef112115877c64148bac917891b1217486
     log: |
-         16e2707cf15e09234445d40ddd76f11240be8767 cpumask: add cpumask_clear_cpus()
-         59f7d2138591ef8f0e4e4ab5f1ab674e8181ad3a RDMA: hfi1: fix possible divide-by-zero in find_hw_thread_mask()
-         15b0536313045c3fdd374b99f747b15278ac8895 RDMA: hfi1: simplify find_hw_thread_mask()
-         59ae2e3c6ad798072adbe9429534092fd471592c RDMA: hfi1: simplify init_real_cpu_mask()
-         4ea9f618d73466234eeadf78c3a054d086c916af RDMA: hfi1: use rounddown in find_hw_thread_mask()
-         3ad8fb8afd843a4e3380690ed7b9822d9cf26d76 RDMA: hfi1: simplify hfi1_get_proc_affinity()
-         b61cc1891c040f72ee3038ef123d76fe874bd93a RDMI: hfi1: drop cpumask_empty() call in hfi1/affinity.c
-         12423d8e18f301c5707173c83f8fb8bf33ed7c67 RDMA/siw: work around clang stack size warning
-         19564a8576ac847ec981207292b500efbbbfaf7b RDMA/rxe: Fix a couple IS_ERR() vs NULL bugs
+         c1bbd462070600fabdec928ee976b7c2269e6ca4 PCI/MSI: Add pci_msi_map_rid_ctlr_node() helper function
+         95a30275bb565bb1bffc6e54e775c35003763320 irqchip/gic-v3: Rename GICv3 ITS MSI parent
+         d00d74ba286977f52ed7927ce03f8b821e7bfe68 irqchip/msi-lib: Add IRQ_DOMAIN_FLAG_FWNODE_PARENT handling
+         2aed773f933190db096cb55f736e752d53f96c03 irqchip/gic-v5: Add GICv5 ITS support
+         a8a9425a1dc95dd35531f1ad83471e3912fe08dd irqchip/gic-v5: Add GICv5 IWB support
+         1ca5d0e0d989ce9d1d12e426c470d9c8401e38c4 docs: arm64: gic-v5: Document booting requirements for GICv5
+         1c78baef112115877c64148bac917891b1217486 arm64: Kconfig: Enable GICv5
          
