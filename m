@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 26 Jun 2025 12:47:54 -0000
-Message-Id: <175094207481.2617823.17519945518088472094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 26 Jun 2025 12:52:17 -0000
+Message-Id: <175094233781.2622156.489217127902930111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: f38240489de2207ac3271ddc89338ea187e075cd
-    new: e51a38e71974982abb3f2f16141763a1511f7a3f
+  - ref: refs/heads/main
+    old: a9b24b3583ae1da7dbda031f141264f2da260219
+    new: a8a3bddb3aada131a4658cc36c0ea33206f61d94
     log: |
-         98b5dab4d22181c931f2bf63c060416badbb49ab x86/bugs: Clean up SRSO microcode handling
-         e51a38e71974982abb3f2f16141763a1511f7a3f Merge x86/bugs into tip/master
+         9b357ea52523f935acec153cea20f7a4fe704b48 dt-bindings: net: ti: k3-am654-cpsw-nuss: update phy-mode in example
+         ca13b249f291f4920466638d1adbfb3f9c8db6e9 net: ethernet: ti: am65-cpsw: fixup PHY mode for fixed RGMII TX delay
+         e02adac7c84bf2883ce5d5a828a03871c0c1d4f9 checkpatch: check for comment explaining rgmii(|-rxid|-txid) PHY modes
+         a8a3bddb3aada131a4658cc36c0ea33206f61d94 Merge branch 'follow-up-to-rgmii-mode-clarification-am65-cpsw-fix-checkpatch'
          
