@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 26 Jun 2025 12:52:17 -0000
-Message-Id: <175094233781.2622156.489217127902930111@gitolite.kernel.org>
+Date: Thu, 26 Jun 2025 13:00:49 -0000
+Message-Id: <175094284967.2629976.2352304699611351683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,13 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: a9b24b3583ae1da7dbda031f141264f2da260219
-    new: a8a3bddb3aada131a4658cc36c0ea33206f61d94
+    old: a8a3bddb3aada131a4658cc36c0ea33206f61d94
+    new: 0afcde806414b57884da1caa1d110287bcbfa65e
     log: |
-         9b357ea52523f935acec153cea20f7a4fe704b48 dt-bindings: net: ti: k3-am654-cpsw-nuss: update phy-mode in example
-         ca13b249f291f4920466638d1adbfb3f9c8db6e9 net: ethernet: ti: am65-cpsw: fixup PHY mode for fixed RGMII TX delay
-         e02adac7c84bf2883ce5d5a828a03871c0c1d4f9 checkpatch: check for comment explaining rgmii(|-rxid|-txid) PHY modes
-         a8a3bddb3aada131a4658cc36c0ea33206f61d94 Merge branch 'follow-up-to-rgmii-mode-clarification-am65-cpsw-fix-checkpatch'
+         f2657cfb45869d26fb341cdea9c4667eb48782cc eth: fbnic: remove duplicate FBNIC_MAX_.XQS macros
+         461bc4030dc928d7d177a77834e848f77de69258 eth: fbnic: fix stampinn typo in a comment
+         f7d4c21667cc1a5baffd17d28794e32b352e576a eth: fbnic: realign whitespace
+         536bc9b2d8e85a0e8155f0ccfa5dcf6813f1a81d eth: fbnic: sort includes
+         d42e5248c9fa7796d4e16b92cc084dc52b1d4731 eth: fbnic: rename fbnic_fw_clear_cmpl to fbnic_mbx_clear_cmpl
+         0afcde806414b57884da1caa1d110287bcbfa65e Merge branch 'eth-fbnic-trivial-code-tweaks'
          
