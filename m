@@ -1,48 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1813204519132588906=="
+Content-Type: multipart/mixed; boundary="===============9023478131869351644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 26 Jun 2025 01:35:07 -0000
-Message-Id: <175090170777.2055352.16328025377740881079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 26 Jun 2025 01:49:25 -0000
+Message-Id: <175090256531.2065174.18258768432626526049@gitolite.kernel.org>
 
---===============1813204519132588906==
+--===============9023478131869351644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main-pending
-    old: b80e2404f055711a73926c4b2a15df9bdc09f98f
-    new: 687171b91642e37f7593ead929ce45cc6ae06b5c
-    log: revlist-b80e2404f055-687171b91642.txt
-  - ref: refs/tags/ath-pending-202506252242
-    old: 0000000000000000000000000000000000000000
-    new: 687171b91642e37f7593ead929ce45cc6ae06b5c
+  - ref: refs/heads/master
+    old: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
+    new: c4dce0c094a89b1bc8fde1163342bd6fe29c0370
+    log: revlist-7595b66ae9de-c4dce0c094a8.txt
 
---===============1813204519132588906==
+--===============9023478131869351644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b80e2404f055-687171b91642.txt
+Content-Disposition: attachment; filename=revlist-7595b66ae9de-c4dce0c094a8.txt
 
-fd189ebef26a6070119a2fb9d6387bb0a37904e6 wifi: ath12k: Send WMI_VDEV_SET_TPC_POWER_CMD for AP vdev
-2ed315c057845e5e8a3a068c573e2b30eb1ad4d4 wifi: ath11k: fix dest ring-buffer corruption
-87bd790ac9ea98bc16f70d4965ea64c95468f885 wifi: ath11k: use plain access for descriptor length
-35952abcb27b18ca1ebface8727d9643fe421939 wifi: ath11k: use plain accesses for monitor descriptor
-7ad128a19ffb107e33bf738453feb507a3460e0d wifi: ath11k: fix source ring-buffer corruption
-61f8563e2cf4a2f91a4ff44563a87a31b650a3e7 wifi: ath11k: fix dest ring-buffer corruption when ring is full
-d2927039cbe990196fc0f98494b035f8c49c4b66 wifi: ath12k: fix dest ring-buffer corruption
-3afb3fcaec92c11e356cb3a9531e5549d10d6230 wifi: ath12k: use plain access for descriptor length
-646ec11356c3538df768dff578776c8174a9c85a wifi: ath12k: fix source ring-buffer corruption
-e2c768544ed3121016c0854c75a8e7edd3702b63 wifi: ath12k: fix dest ring-buffer corruption when ring is full
-af08f2b22d9bbc07c65da716013b36e30d360da4 wifi: ath12k: Clear auth flag only for actual association in security mode
-f357ccefbbfa27c368e69525aeda8f5e63f23370 wifi: ath12k: Add support for transmit histogram stats
-ead105f8027c4d5df92d0ad3218d4066f81346db wifi: ath12k: Add support to TDMA and MLO stats
-d494db22285e662c37f75f5aba6c8795fe596663 wifi: ath12k: Add support to RTT stats
-687171b91642e37f7593ead929ce45cc6ae06b5c Merge branch 'pending' into main-pending
+752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
+2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
+a35b29bdedb4d2ae3160d4d6684a6f1ecd9ca7c2 scsi: fnic: Fix crash in fnic_wq_cmpl_handler when FDMI times out
+74f46a0524f8d2f01dc7ca95bb5fc463a8603e72 scsi: fnic: Turn off FDMI ACTIVE flags on link down
+9b9b8594654a79e3d4166356fd86cd5397477b24 scsi: fnic: Add and improve logs in FDMI and FDMI ABTS paths
+18b5cb6f1fdda4454f55a31f7c78d94da62be495 scsi: fnic: Set appropriate logging level for log message
+85d6fbc47c3087c5d048e6734926b0c36af34fe9 scsi: fnic: Fix missing DMA mapping error in fnic_send_frame()
+b07f349d1864abe29436f45e3047da2bdd476462 spi: spi-cadence-quadspi: Fix pm runtime unbalance
+c55c7a85e02a7bfee20a3ffebdff7cbeb41613ef um: ubd: Add missing error check in start_io_thread()
+bc4e2ae08183d9017f43bf88aa7cfdf84e76f573 um: vfio: Prevent duplicate device assignments
+8948941276024fcfb08fdb3d678867dc1f7b1c16 um: Use correct data source in fpregs_legacy_set()
+2d65fc13be85c336c56af7077f08ccd3a3a15a4a um: vector: Reduce stack usage in vector_eth_configure()
+2dca89df0d1116f722b4be100e4bfcff858058e8 Merge tag 'uml-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
+92ca6c498a5e6e2083b520b82d318e7e525f3e7c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+c4dce0c094a89b1bc8fde1163342bd6fe29c0370 Merge tag 'spi-fix-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============1813204519132588906==--
+--===============9023478131869351644==--
