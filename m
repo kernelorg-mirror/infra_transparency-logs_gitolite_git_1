@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============9023478131869351644=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 26 Jun 2025 01:49:25 -0000
-Message-Id: <175090256531.2065174.18258768432626526049@gitolite.kernel.org>
-
---===============9023478131869351644==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Thu, 26 Jun 2025 02:38:33 -0000
+Message-Id: <175090551392.2103594.12543493408877808537@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
   - ref: refs/heads/master
-    old: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
-    new: c4dce0c094a89b1bc8fde1163342bd6fe29c0370
-    log: revlist-7595b66ae9de-c4dce0c094a8.txt
-
---===============9023478131869351644==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7595b66ae9de-c4dce0c094a8.txt
-
-752eb816b55adb0673727ba0ed96609a17895654 scsi: megaraid_sas: Fix invalid node index
-2e083cd802294693a5414e4557a183dd7e442e71 scsi: ufs: core: Fix clk scaling to be conditional in reset and restore
-a35b29bdedb4d2ae3160d4d6684a6f1ecd9ca7c2 scsi: fnic: Fix crash in fnic_wq_cmpl_handler when FDMI times out
-74f46a0524f8d2f01dc7ca95bb5fc463a8603e72 scsi: fnic: Turn off FDMI ACTIVE flags on link down
-9b9b8594654a79e3d4166356fd86cd5397477b24 scsi: fnic: Add and improve logs in FDMI and FDMI ABTS paths
-18b5cb6f1fdda4454f55a31f7c78d94da62be495 scsi: fnic: Set appropriate logging level for log message
-85d6fbc47c3087c5d048e6734926b0c36af34fe9 scsi: fnic: Fix missing DMA mapping error in fnic_send_frame()
-b07f349d1864abe29436f45e3047da2bdd476462 spi: spi-cadence-quadspi: Fix pm runtime unbalance
-c55c7a85e02a7bfee20a3ffebdff7cbeb41613ef um: ubd: Add missing error check in start_io_thread()
-bc4e2ae08183d9017f43bf88aa7cfdf84e76f573 um: vfio: Prevent duplicate device assignments
-8948941276024fcfb08fdb3d678867dc1f7b1c16 um: Use correct data source in fpregs_legacy_set()
-2d65fc13be85c336c56af7077f08ccd3a3a15a4a um: vector: Reduce stack usage in vector_eth_configure()
-2dca89df0d1116f722b4be100e4bfcff858058e8 Merge tag 'uml-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
-92ca6c498a5e6e2083b520b82d318e7e525f3e7c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-c4dce0c094a89b1bc8fde1163342bd6fe29c0370 Merge tag 'spi-fix-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-
---===============9023478131869351644==--
+    old: 386e7db5e6d87e42001803de314d6568105cd8ee
+    new: e50fbaa4d156a6ff62dc85c4737fa97c4cb858aa
+    log: |
+         d0353818151146051bb4eb2be6a65c4b946b83de debian: fix libcom-err2 package name in d/rules
+         9c27c2fee4949c921d549a47d02cc9f43f9040dd debian: use dpkg-shlibdeps for library dependency calculation
+         e50fbaa4d156a6ff62dc85c4737fa97c4cb858aa fuse2fs: clean up the lockfile handling
+         
+  - ref: refs/heads/next
+    old: 386e7db5e6d87e42001803de314d6568105cd8ee
+    new: e50fbaa4d156a6ff62dc85c4737fa97c4cb858aa
+    log: |
+         d0353818151146051bb4eb2be6a65c4b946b83de debian: fix libcom-err2 package name in d/rules
+         9c27c2fee4949c921d549a47d02cc9f43f9040dd debian: use dpkg-shlibdeps for library dependency calculation
+         e50fbaa4d156a6ff62dc85c4737fa97c4cb858aa fuse2fs: clean up the lockfile handling
+         
