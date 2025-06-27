@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6703861988340634746=="
+Content-Type: multipart/mixed; boundary="===============6770241468245333641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 27 Jun 2025 21:33:51 -0000
-Message-Id: <175106003180.309570.11970062183914290578@gitolite.kernel.org>
+Date: Fri, 27 Jun 2025 21:33:54 -0000
+Message-Id: <175106003460.309679.3420675548025281976@gitolite.kernel.org>
 
---===============6703861988340634746==
+--===============6770241468245333641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5cfb2ac2806c7a255df5184d86ffca056cd5cb5c
     new: 8efa26fcbf8a7f783fd1ce7dd2a409e9b7758df0
     log: revlist-5cfb2ac2806c-8efa26fcbf8a.txt
 
---===============6703861988340634746==
+--===============6770241468245333641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -395,4 +395,4 @@ a6ee35bd1fe0ef91135479c18ff63af3ef9fe11d dt-bindings: net: Document support for 
 67e3ba978361cb262f8f8981ab88ccb97f1e2bda net: mdio: Add MDIO bus controller for Airoha AN7583
 8efa26fcbf8a7f783fd1ce7dd2a409e9b7758df0 tg3: spelling corrections
 
---===============6703861988340634746==--
+--===============6770241468245333641==--
