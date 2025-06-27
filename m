@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3586774378668490171=="
+Content-Type: multipart/mixed; boundary="===============3076029690825698909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 27 Jun 2025 21:15:34 -0000
-Message-Id: <175105893402.294263.4394056161107369029@gitolite.kernel.org>
+Date: Fri, 27 Jun 2025 21:15:37 -0000
+Message-Id: <175105893710.294395.14047182918876051316@gitolite.kernel.org>
 
---===============3586774378668490171==
+--===============3076029690825698909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 85720e04d9af0b77f8092b12a06661a8d459d4a0
     new: e34a79b96ab9d49ed8b605fee11099cf3efbb428
     log: revlist-85720e04d9af-e34a79b96ab9.txt
 
---===============3586774378668490171==
+--===============3076029690825698909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -321,4 +321,4 @@ c5c2a8b497d69fb01d2563e383615a4eb69c72bc Merge tag 'pull-fixes' of git://git.ker
 ee88bddf7f2f5d1f1da87dd7bedc734048b70e88 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 e34a79b96ab9d49ed8b605fee11099cf3efbb428 Merge tag 'net-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3586774378668490171==--
+--===============3076029690825698909==--
