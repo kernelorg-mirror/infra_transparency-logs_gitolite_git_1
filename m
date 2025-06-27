@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
-Date: Fri, 27 Jun 2025 09:25:35 -0000
-Message-Id: <175101633557.3667999.2132820539241888933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Fri, 27 Jun 2025 09:35:43 -0000
+Message-Id: <175101694369.3676522.13344753781538721205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/main
-    old: 67e3ba978361cb262f8f8981ab88ccb97f1e2bda
-    new: 8efa26fcbf8a7f783fd1ce7dd2a409e9b7758df0
-    log: |
-         8efa26fcbf8a7f783fd1ce7dd2a409e9b7758df0 tg3: spelling corrections
-         
+  - ref: refs/heads/jag/sysctl
+    old: 0000000000000000000000000000000000000000
+    new: 059069480b55bc27d8e0a9c08c0a5298d9326653
