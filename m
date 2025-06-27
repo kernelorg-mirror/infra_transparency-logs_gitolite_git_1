@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6332498677173397518=="
+Content-Type: multipart/mixed; boundary="===============5030941101985027215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Fri, 27 Jun 2025 05:55:32 -0000
-Message-Id: <175100373250.3497856.15860783679669348803@gitolite.kernel.org>
+Date: Fri, 27 Jun 2025 05:55:49 -0000
+Message-Id: <175100374954.3498305.4796946803591372791@gitolite.kernel.org>
 
---===============6332498677173397518==
+--===============5030941101985027215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
+  - ref: refs/heads/for-next
     old: a0be20055d41028a121a5acc140e17c73d7541c5
     new: 0e3dd41a94b29d5d9973dac356ebd37f87bd8a37
     log: |
@@ -24,34 +24,34 @@ changes:
          0e3dd41a94b29d5d9973dac356ebd37f87bd8a37 memory: brcmstb_memc: Simplify compatible matching
          
 
---===============6332498677173397518==
+--===============5030941101985027215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1751003763 +0200
+pusher krzk@kernel.org 1751003785 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1751003724-346f9448b5f261e1c15ad8457c1a5b456be42e60
+nonce 1751003747-0df98ca02ab0f6267f777d88c30e14afb00fd8ed
 
-a0be20055d41028a121a5acc140e17c73d7541c5 0e3dd41a94b29d5d9973dac356ebd37f87bd8a37 refs/heads/mem-ctrl-next
+a0be20055d41028a121a5acc140e17c73d7541c5 0e3dd41a94b29d5d9973dac356ebd37f87bd8a37 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmheMnMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17iyD/9ydiPV0Px8B/x2m9iWs5DNMJjkmYs11k2d
-XdqqVz1qNHSfDrCZZVw4HabWCrXw2G8A9bCXsqThZnJ/FzW09LeyE5FwnqHbASMt
-kNtOsiTcS9YuA96wwC8vW2OVUfkiKXqvcqRfaTYMBuXaNjMe9IIIL4t60NKngdXY
-TorfYRU//d7mEtbmYRwYPVLCIWv6FU1nmWMtIb8ONuIxxVd/CPo7123PkU0Y541k
-Ku8mlBW932DGYRDXpfG51QstmuL0CWA0QApq+uyWP6ToPCYQhEO1W93Iz4QA3rE4
-QQg2B02/HwwxhFCV6Ye9nwmEzPbkt/dRmGX1uvAdLeexR4gCLCXpq4tR1eYzWqGk
-l4e8vbuMQG9Snx5AjIt+En8K/6DO3mrsAc0xrjYhAYDshz4uwrd5/VY4rcbAEhCn
-ehiXagRc0EmtzS5Q9k/7e8gW28rtL8rqXoxQbIRDTXc4QvpVwMcid570hY3B+m87
-e1AWzeSPHhgV32DSK81Ywv5JNM71UDbQCffdPy76s1h2ppfmXA6AzXNXAr9NpfpA
-6NjkoVAxucqDzuKl841LdWbtAL+EcHowjA9KOe7oqpO9uEOwNMHm8XelkuJjhpop
-vwgLGF9PBJHgBsqbq8dzKQgk85+fNsEI50cZa31Ill/RaJtWfK5ZP3V9G+KOYmkz
-0VqrtpSUnQ==
-=TlrD
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmheMokQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16xaEACOqO2rHxKFZaPNzA3d2pVSXTg58gvPKcJ0
+3kouVshSoMXB626g4jfT3XoJSS5RU+3TX6nPAZn1yIJXp38vCzUcqCPR6Vdn/N3T
+egF0Ghr5wn+45qA3E1ziIEdw6J0v54n80SGRyCx7oSPKcxtRRA8PkbUB6ugJPJxs
+9k+rmMouQlAwmQv6w8mTOq3BethtESRIvAZqjlwbNSOwwkQjiOmCwLnpizPTCu0o
+6ZvETnRVfGBelI28OIhaOiyO8qIe0J6ruNsMBOO5+lYMl1JxncKiaqMVRQK4q9Za
+7aZI47Q0OvFf5Rk9tQ5cqJ3++cUbxQvoENd8HJi4lgLIXTvHfryQB/4qIQrEu8Ws
+7+S7u+ImWj7Bie78HdEgcs65NbbGh2A7GUpg+eclWXgz/p/+oljN6gG/PWnkDBCy
+ji4q4n3XKQw07TiIX+YY/ogEmWbvIrIjWpGqVRHmghO7eQ5iN9cvqVGD3HCMjfBW
+OZK7qJErlp4MnwBJ2B31xZJivS0lEsCXsS5mJbfBQQ9GrnZNOqLDBhtmPmf88C3D
+zTx0J2wBQGk2odEFA/UQtdDetjMTsukFajxSXbgJOL6Z4ob2w38rteBuFxLzztUz
+J21ZxcetA/fV9l++WkkXiKzN4DYYcalhJv/rsLYfqEcw801XPOs7sxD4bV1gCGLx
+DXxE/iAWsA==
+=re1t
 -----END PGP SIGNATURE-----
 
---===============6332498677173397518==--
+--===============5030941101985027215==--
