@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8867551568176104420=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 27 Jun 2025 20:28:34 -0000
-Message-Id: <175105611404.252854.1412935351534788957@gitolite.kernel.org>
-
---===============8867551568176104420==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 27 Jun 2025 20:35:09 -0000
+Message-Id: <175105650958.259776.785831741362164311@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 29bb79e9dbf1ba100125e39deb7147acd490903f
-    new: 5e54510a9389caa922360218a83a58cd30fec686
+  - ref: refs/heads/ath-next
+    old: cb6dcabdfd0e3b608969d1cab71d8658495f9c4f
+    new: 6e17bbb5a86e6c68d65e38dfc850699e7a0706cb
     log: |
-         5e54510a9389caa922360218a83a58cd30fec686 acpi: nfit: intel: avoid multiple -Wflex-array-member-not-at-end warnings
+         6e17bbb5a86e6c68d65e38dfc850699e7a0706cb wifi: ath12k: fix timeout while waiting for regulatory update during interface creation
          
-
---===============8867551568176104420==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1751056151 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1751056112-556c97e2073b25d58464bba6923d9de83f67e95b
-
-29bb79e9dbf1ba100125e39deb7147acd490903f 5e54510a9389caa922360218a83a58cd30fec686 refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaF7/FwAKCRA2KwveOeQk
-u4cbAP4kZFzAsCOVXWouYyl5P5kf9fOosqJAl25fricnMPUMVgEA+eYkW/xAvI+u
-Pyzwwm+mBYGLsfUP7S8iDAgy/n1Cmwk=
-=MdRR
------END PGP SIGNATURE-----
-
---===============8867551568176104420==--
