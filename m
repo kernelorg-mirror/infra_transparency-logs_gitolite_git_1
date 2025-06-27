@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 27 Jun 2025 22:12:11 -0000
-Message-Id: <175106233173.343759.1316084893483671160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/da.gomez/linux
+Date: Fri, 27 Jun 2025 22:19:09 -0000
+Message-Id: <175106274936.348791.1723437061687979845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/da.gomez/linux
+user: da.gomez
 changes:
-  - ref: refs/heads/main
-    old: e34a79b96ab9d49ed8b605fee11099cf3efbb428
-    new: 8550821a153558d49dffacbc1dc98ac9d3eed2fa
-    log: |
-         8550821a153558d49dffacbc1dc98ac9d3eed2fa MAINTAINERS: update smc section
-         
+  - ref: refs/heads/b4/modules-error-injection
+    old: 0000000000000000000000000000000000000000
+    new: 442ce796d290d20fecf393d6b389645693a16b44
