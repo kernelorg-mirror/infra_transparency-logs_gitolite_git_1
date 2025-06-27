@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 27 Jun 2025 20:23:10 -0000
-Message-Id: <175105579065.247838.17760121686228336831@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3807325643592653526=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/bugspray/bugspray
+Date: Fri, 27 Jun 2025 20:25:04 -0000
+Message-Id: <175105590454.250870.14357739934917726307@gitolite.kernel.org>
+
+--===============3807325643592653526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/utils/bugspray/bugspray
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 982e7054d3c3bc94e2060ee3db3267c5a2d9d291
-    new: ec0f261ac38f2f6693096bad23597dc705cff63c
+    old: d55886cd21a59ed63f031c9eda0991f7714cd9da
+    new: e9be2fc3d97a1c2f349eea006b7f92b9fe4b3af3
     log: |
-         12f1b539ff7eeeed44523c96bc0e8a6511dd577d ci: 'temporary' disable sanitizers for 32bit builds
-         75a1e9348d1b7beac8295ffa70729cda3379b693 ci: remove default options from Debian/bullseye build
-         ec0f261ac38f2f6693096bad23597dc705cff63c ci: move compression variants further down
+         e9be2fc3d97a1c2f349eea006b7f92b9fe4b3af3 Show us a better error than just a traceback
          
+
+--===============3807325643592653526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1751055941 -0400
+pushee gitolite.kernel.org:pub/scm/utils/bugspray/bugspray
+nonce 1751055903-3f8d9cfbf4458ebd52994869531c9c821d479cb0
+
+d55886cd21a59ed63f031c9eda0991f7714cd9da e9be2fc3d97a1c2f349eea006b7f92b9fe4b3af3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaF7+RQAKCRC2xBzjVmSZ
+bMSdAP4pCEycaqkcBFoD8lY3z9U9pxA+L6VkUARpByvL/zUJqAD+KiP3LMCKJSMU
+7olmZHMSd4JaZ1N5J+08PDma5g0U4QA=
+=OiTw
+-----END PGP SIGNATURE-----
+
+--===============3807325643592653526==--
