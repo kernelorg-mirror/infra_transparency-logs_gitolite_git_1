@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Fri, 27 Jun 2025 12:58:24 -0000
-Message-Id: <175102910442.4053606.1398527620100280548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Fri, 27 Jun 2025 13:03:55 -0000
+Message-Id: <175102943574.4058305.977006420192527176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 426e0c8e8eed26b67bbbd138483bb5973724adae
-    new: 1d7a74dfba583a9e8dde1f0234e91a5b49032863
-    log: |
-         2e84a5e5374232e6f356ce5c079a5658d7e4af2c leds: leds-lp50xx: Handle reg to get correct multi_index
-         1d7a74dfba583a9e8dde1f0234e91a5b49032863 dt-bindings: leds: lp50xx: Document child reg, fix example
-         
+  - ref: refs/heads/b4/aarch64-dynamic-kernel-stacks-v6.16-rc1-clobber-afsr01_el1
+    old: 0000000000000000000000000000000000000000
+    new: 937f7fe4d879020658b3fba3a3d92a95f584c449
