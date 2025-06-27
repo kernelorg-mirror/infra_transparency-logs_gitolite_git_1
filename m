@@ -1,41 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1956609795465188995=="
+Content-Type: multipart/mixed; boundary="===============0774010186145306503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 27 Jun 2025 02:15:56 -0000
-Message-Id: <175099055677.3319540.15267939937250054332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 27 Jun 2025 02:42:03 -0000
+Message-Id: <175099212318.3339720.10844878889505195659@gitolite.kernel.org>
 
---===============1956609795465188995==
+--===============0774010186145306503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: dc589f9888447507f5966984ba2bde0d17af3100
-    new: 3f9eb7b9ffcfb1a44e9756f69650ebd5672babea
-    log: revlist-dc589f988844-3f9eb7b9ffcf.txt
+  - ref: refs/heads/master
+    old: f02769e7f272d6f42b9767f066c5a99afd2338f3
+    new: 8a20830f2dd180064f25254d9c55beb243fe9223
+    log: revlist-f02769e7f272-8a20830f2dd1.txt
 
---===============1956609795465188995==
+--===============0774010186145306503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc589f988844-3f9eb7b9ffcf.txt
+Content-Disposition: attachment; filename=revlist-f02769e7f272-8a20830f2dd1.txt
 
-d1f4e9026007d50e6b28cf8f57a38f03fc3b0ce6 kernfs: remove iattr_mutex
-535b070f4a807bbd26a30994aba8dfb4011fd447 bpf: Introduce bpf_cgroup_read_xattr to read xattr of cgroup's node
-1504d8c7c702cc3697ad1a690c2d6bb4c8687927 bpf: Mark cgroup_subsys_state->cgroup RCU safe
-f4fba2d6d2822efd2733949c0831435dcd96cbd3 selftests/bpf: Add tests for bpf_cgroup_read_xattr
-13b0cce9e294f8ddf228b9db3e01d76ac29872f2 Merge patch series "Introduce bpf_cgroup_read_xattr"
-be898cb5cbf4dede2f760303d73f5a427107282a selftests/bpf: Separate var preset parsing in veristat
-edc99d0b021c1b345af3a27150d5d23799c1bc25 selftests/bpf: Support array presets in veristat
-583588594b249e0ad3a64c68846d17018295ebe4 selftests/bpf: Test array presets in veristat
-6def0822d211df4bfb3276eac42f541dc9cc9fb8 Merge branch 'support-array-presets-in-veristat'
-48d998af99f9e78ac8a8e405c50a7af64a5325a6 Merge branch 'vfs-6.17.bpf' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-3f9eb7b9ffcfb1a44e9756f69650ebd5672babea Merge branch 'bpf-next/master' into for-next
+5ae416c5b1e2e816aee7b3fc8347adf70afabb4c HID: wacom: fix memory leak on kobject creation failure
+1a19ae437ca5d5c7d9ec2678946fb339b1c706bf HID: wacom: fix memory leak on sysfs attribute creation failure
+85a720f4337f0ddf1603c8b75a8f1ffbbe022ef9 HID: wacom: fix kobject reference count leak
+4a0381080397e77792a5168069f174d3e56175ff HID: nintendo: avoid bluetooth suspend/resume stalls
+73f3a7415d93cf418c7625d03bce72da84344406 HID: Intel-thc-hid: Intel-quicki2c: Enhance QuickI2C reset flow
+54bae4c17c11688339eb73a04fd24203bb6e7494 HID: quirks: Add quirk for 2 Chicony Electronics HP 5MP Cameras
+fa10d4515817274a50af510d5d283d3c7fffc1ae HID: input: lower message severity of 'No inputs registered, leaving' to debug
+1a8953f4f7746c6a515989774fe03047c522c613 HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY
+9327e3ee5b077c4ab4495a09b67624f670ed88b6 HID: lenovo: Restrict F7/9/11 mode to compact keyboards only
+0e97f5b6a0808fa2ea865280708511c817d4bca3 hid: intel-ish-hid: Use PCI_DEVICE_DATA() macro for ISH device table
+5cdb49a680b45f467e9d915c0e74756bc0c67c57 HID: intel-ish-hid: ipc: Add Wildcat Lake PCI device ID
+f3054152c12e2eed1e72704aff47b0ea58229584 HID: wacom: fix crash in wacom_aes_battery_handler()
+4540e41e753a7d69ecd3f5bad51fe620205c3a18 HID: appletb-kbd: fix "appletb_backlight" backlight device reference counting
+a8905238c3bbe13db90065ed74682418f23830c3 HID: lenovo: Add support for ThinkPad X1 Tablet Thin Keyboard Gen2
+8a20830f2dd180064f25254d9c55beb243fe9223 Merge tag 'hid-for-linus-2025062701' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============1956609795465188995==--
+--===============0774010186145306503==--
