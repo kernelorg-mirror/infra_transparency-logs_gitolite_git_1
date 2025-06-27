@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 27 Jun 2025 01:42:37 -0000
-Message-Id: <175098855751.3290693.16701858622770313917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 27 Jun 2025 02:09:31 -0000
+Message-Id: <175099017163.3311484.15072428333632047396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/pending
-    old: 8a9b8f01bf2054027e5aaa24a53c79b6710e8802
-    new: 186db6749b873a2e19850674687914435d446584
+  - ref: refs/heads/main
+    old: b05fabcd6f2a16d50b5f86c389dde7a33f00bb81
+    new: b27862c732f56f6c47940be08296c58df06e43cc
     log: |
-         e30e2b6b7dfcdc0fd0ab311e216607123074943b wifi: ath10k: Fix Spelling
-         186db6749b873a2e19850674687914435d446584 wifi: ath6kl: Fix spellings
+         09db581815f83e972c47530e34be6e8cd42e8f73 amdgpu: DMCUB updates for DCN401
+         b27862c732f56f6c47940be08296c58df06e43cc Merge branch 'amd-staging' into 'main'
          
