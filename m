@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 27 Jun 2025 18:58:07 -0000
-Message-Id: <175105068740.173695.9919647660575725711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 27 Jun 2025 19:00:08 -0000
+Message-Id: <175105080827.176927.15753149490540939330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/s390-sha-fix
-    old: 0000000000000000000000000000000000000000
-    new: c70135f0041c8782235a545841e4538836c17fbb
+  - ref: refs/heads/icc-fixes
+    old: 65fceba30d6f1e7849048d0b292d3541695403f3
+    new: 7c24e6b88a8576f202525ec27eb0767a33e46446
+    log: |
+         1b8e6ea29e5ad5284c78cde3e922fe9217ddf8ef interconnect: icc-clk: destroy nodes in case of memory allocation failures
+         7c24e6b88a8576f202525ec27eb0767a33e46446 interconnect: avoid memory allocation when 'icc_bw_lock' is held
+         
