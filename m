@@ -1,34 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4582184066838823884=="
+Content-Type: multipart/mixed; boundary="===============3207467874935512380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Fri, 27 Jun 2025 03:21:55 -0000
-Message-Id: <175099451578.3374119.15252705393031697513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 27 Jun 2025 03:31:10 -0000
+Message-Id: <175099507016.3382250.1100376018631099480@gitolite.kernel.org>
 
---===============4582184066838823884==
+--===============3207467874935512380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/linus-next
-    old: 41e39556ea10e383e167ad4808141faf0f0ea576
-    new: 158b1268d93fd46811d4cd14ae9e19785930d965
-    log: revlist-41e39556ea10-158b1268d93f.txt
   - ref: refs/heads/master
-    old: f02769e7f272d6f42b9767f066c5a99afd2338f3
-    new: 8a20830f2dd180064f25254d9c55beb243fe9223
-    log: revlist-f02769e7f272-8a20830f2dd1.txt
+    old: 8a20830f2dd180064f25254d9c55beb243fe9223
+    new: 6f2a71a99ebd5dfaa7948a2e9c59eae94b741bd8
+    log: revlist-8a20830f2dd1-6f2a71a99ebd.txt
 
---===============4582184066838823884==
+--===============3207467874935512380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41e39556ea10-158b1268d93f.txt
+Content-Disposition: attachment; filename=revlist-8a20830f2dd1-6f2a71a99ebd.txt
 
 0f4dd2ce352d38c7ecf1b3821c908816eb6376a7 bcachefs: trace_extent_trim_atomic
 3bd6f8aeae3d3f8121cbae5a8650a46622aa4e07 bcachefs: btree iter tracepoints
@@ -81,30 +77,6 @@ f5109c201cf2bc304a05ecc40c2aabb119b27833 bcachefs: Use wait_on_allocator() when 
 3e72acb78b73ccffeaf929c039dc5a0a7a147535 bcachefs: Ensure btree node scan runs before checking for scanned nodes
 64b6a788bd96a0cdc11073a2d1f85413b078c1f2 bcachefs: Ensure we rewind to run recovery passes
 ef6fac0f9e5d0695cee1d820c727fe753eca52d5 bcachefs: Plumb correct ip to trans_relock_fail tracepoint
-8a20830f2dd180064f25254d9c55beb243fe9223 Merge tag 'hid-for-linus-2025062701' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-c68ae5a3551f861b8279201d4cd80afc2503ef01 Merge remote-tracking branch 'origin/master' into linus-next
-158b1268d93fd46811d4cd14ae9e19785930d965 Merge tag 'bcachefs-2025-06-26' of git://evilpiepirate.org/bcachefs into linus-next
+6f2a71a99ebd5dfaa7948a2e9c59eae94b741bd8 Merge tag 'bcachefs-2025-06-26' of git://evilpiepirate.org/bcachefs
 
---===============4582184066838823884==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f02769e7f272-8a20830f2dd1.txt
-
-5ae416c5b1e2e816aee7b3fc8347adf70afabb4c HID: wacom: fix memory leak on kobject creation failure
-1a19ae437ca5d5c7d9ec2678946fb339b1c706bf HID: wacom: fix memory leak on sysfs attribute creation failure
-85a720f4337f0ddf1603c8b75a8f1ffbbe022ef9 HID: wacom: fix kobject reference count leak
-4a0381080397e77792a5168069f174d3e56175ff HID: nintendo: avoid bluetooth suspend/resume stalls
-73f3a7415d93cf418c7625d03bce72da84344406 HID: Intel-thc-hid: Intel-quicki2c: Enhance QuickI2C reset flow
-54bae4c17c11688339eb73a04fd24203bb6e7494 HID: quirks: Add quirk for 2 Chicony Electronics HP 5MP Cameras
-fa10d4515817274a50af510d5d283d3c7fffc1ae HID: input: lower message severity of 'No inputs registered, leaving' to debug
-1a8953f4f7746c6a515989774fe03047c522c613 HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY
-9327e3ee5b077c4ab4495a09b67624f670ed88b6 HID: lenovo: Restrict F7/9/11 mode to compact keyboards only
-0e97f5b6a0808fa2ea865280708511c817d4bca3 hid: intel-ish-hid: Use PCI_DEVICE_DATA() macro for ISH device table
-5cdb49a680b45f467e9d915c0e74756bc0c67c57 HID: intel-ish-hid: ipc: Add Wildcat Lake PCI device ID
-f3054152c12e2eed1e72704aff47b0ea58229584 HID: wacom: fix crash in wacom_aes_battery_handler()
-4540e41e753a7d69ecd3f5bad51fe620205c3a18 HID: appletb-kbd: fix "appletb_backlight" backlight device reference counting
-a8905238c3bbe13db90065ed74682418f23830c3 HID: lenovo: Add support for ThinkPad X1 Tablet Thin Keyboard Gen2
-8a20830f2dd180064f25254d9c55beb243fe9223 Merge tag 'hid-for-linus-2025062701' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-
---===============4582184066838823884==--
+--===============3207467874935512380==--
