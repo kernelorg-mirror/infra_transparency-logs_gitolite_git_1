@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Fri, 27 Jun 2025 19:01:40 -0000
-Message-Id: <175105090068.178151.7689146239210229111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 27 Jun 2025 19:09:47 -0000
+Message-Id: <175105138779.184163.11914036931199336148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/icc-next
-    old: 65fceba30d6f1e7849048d0b292d3541695403f3
-    new: c5b60592886f97b01503c1bb553f88d6a7df42ea
+  - ref: refs/heads/master
+    old: e540341508ce2f6e27810106253d5de194b66750
+    new: 35e261cd95ddc741d8664f5ac897bbd0d384bbd0
     log: |
-         c5b60592886f97b01503c1bb553f88d6a7df42ea interconnect: avoid memory allocation when 'icc_bw_lock' is held
+         2b8be57fa0c88ac824a906f29c04d728f9f6047a Revert "PCI/ACPI: Fix allocated memory release on error in pci_acpi_scan_root()"
+         35e261cd95ddc741d8664f5ac897bbd0d384bbd0 Merge tag 'acpi-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
          
