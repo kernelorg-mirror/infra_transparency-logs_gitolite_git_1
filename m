@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8780807390093006653=="
+Content-Type: multipart/mixed; boundary="===============0120733873539386851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Fri, 27 Jun 2025 12:27:05 -0000
-Message-Id: <175102722517.4026267.1448087088322301885@gitolite.kernel.org>
+Date: Fri, 27 Jun 2025 12:27:37 -0000
+Message-Id: <175102725741.4026731.14606094752728084745@gitolite.kernel.org>
 
---===============8780807390093006653==
+--===============0120733873539386851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-fixes
-    old: c708bbd57d158d9f20c2fcea5bcb6e0afac77bef
-    new: 573afda830f301320d22ad4154e32414254f7449
-    log: revlist-c708bbd57d15-573afda830f3.txt
+  - ref: refs/heads/for-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 1cd2162f90557df36c62955115e71a76db47c84f
+    log: revlist-0af2f6be1b42-1cd2162f9055.txt
 
---===============8780807390093006653==
+--===============0120733873539386851==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c708bbd57d15-573afda830f3.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-1cd2162f9055.txt
 
-049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
-9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
 5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
 70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
 54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
@@ -1049,6 +1044,11 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+e426953c193a2b51c8adcd3922fb8eef15790219 nvmem: apple: drop default ARCH_APPLE in Kconfig
+6aa656ce94693c8712c004045375e2221b157659 dt-bindings: nvmem: fixed-layout: Allow optional bit positions
+98addb97db5d86ad18c831241c03f180d269438f nvmem: core: Fix typos in comments and MODULE_AUTHOR strings
+e315a752a6a5399d711fe413bd3543306ef5e421 dt-bindings: nvmem: convert lpc1857-eeprom.txt to yaml format
 573afda830f301320d22ad4154e32414254f7449 nvmem: layouts: u-boot-env: remove crc32 endianness conversion
+1cd2162f90557df36c62955115e71a76db47c84f Merge branches 'nvmem-fixes' and 'nvmem-for-6.17' into nvmem-for-next
 
---===============8780807390093006653==--
+--===============0120733873539386851==--
