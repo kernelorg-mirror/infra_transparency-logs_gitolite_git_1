@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5726155380278595774=="
+Content-Type: multipart/mixed; boundary="===============0174217127898680658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 27 Jun 2025 18:04:56 -0000
-Message-Id: <175104749680.126373.18427211722712311137@gitolite.kernel.org>
+Date: Fri, 27 Jun 2025 18:08:08 -0000
+Message-Id: <175104768887.130055.10486978916713692272@gitolite.kernel.org>
 
---===============5726155380278595774==
+--===============0174217127898680658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0c7bd8a7ec090ab34b3406a46742004bd94fc30b
-    new: a9b2aba54be85ea2933c43b8a6d71c1611230b59
+  - ref: refs/heads/stable-0.14.y
+    old: aa5510c5e880d554574c1d7f84913e27955bf18c
+    new: 2ce6c157e2708ede3a87184427a7b376f955b7bf
     log: |
-         a9b2aba54be85ea2933c43b8a6d71c1611230b59 Support smtpauth=none in sendemail configs
+         2ce6c157e2708ede3a87184427a7b376f955b7bf Support smtpauth=none in sendemail configs
          
 
---===============5726155380278595774==
+--===============0174217127898680658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1751047533 -0400
+pusher B6C41CE35664996C! 1751047726 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1751047495-0a3aa592c93d1e9e2077a4e3e00033f418deef71
+nonce 1751047688-7aa3c10e9c05e51349bd7a763b97a504bfd07d82
 
-0c7bd8a7ec090ab34b3406a46742004bd94fc30b a9b2aba54be85ea2933c43b8a6d71c1611230b59 refs/heads/master
+aa5510c5e880d554574c1d7f84913e27955bf18c 2ce6c157e2708ede3a87184427a7b376f955b7bf refs/heads/stable-0.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaF7dbQAKCRC2xBzjVmSZ
-bJhCAP0dYFJYo5InYTLHohoO6DfYvzftdGBOTmZue3YNIZj9QgD+KPM/fvAOxXma
-vJLIhFRvCmZRc3xVzU8A6zuh8de+5wA=
-=3pkT
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaF7eLgAKCRC2xBzjVmSZ
+bEzwAP9HYS3QgPR26yDkagRb7nJVufxGSdSLzk9q1AqFq91dnAD/UJglJU04mN4Y
+wMIIinpFUMF/QN6RVlPr6IhMGuxN1gw=
+=Xlcc
 -----END PGP SIGNATURE-----
 
---===============5726155380278595774==--
+--===============0174217127898680658==--
