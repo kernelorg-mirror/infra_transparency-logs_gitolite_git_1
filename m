@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 27 Jun 2025 10:58:29 -0000
-Message-Id: <175102190935.3947074.9847512096990545914@gitolite.kernel.org>
+Date: Fri, 27 Jun 2025 10:58:46 -0000
+Message-Id: <175102192643.3947483.852319866468249640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-6.17
-    old: 53e1d4a8a20f5e14b3196d183a023687806f8070
-    new: ce57bc9771411d6d27f2ca7b40396cbd7d684ba9
+  - ref: refs/heads/spi-6.17
+    old: e6352bfae9edffb952aac79221bc9cd86abe47dd
+    new: ac4c064f67d3cdf9118b9b09c1e3b28b6c10a7ea
     log: |
-         ce57bc9771411d6d27f2ca7b40396cbd7d684ba9 regulator: core: Don't use "proxy" headers
+         ac4c064f67d3cdf9118b9b09c1e3b28b6c10a7ea spi: dt-bindings: add nxp,lpc3220-spi.yaml
          
