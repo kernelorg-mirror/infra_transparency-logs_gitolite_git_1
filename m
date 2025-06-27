@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 27 Jun 2025 10:31:38 -0000
-Message-Id: <175102029895.3875644.14571474041106879422@gitolite.kernel.org>
+Date: Fri, 27 Jun 2025 10:32:37 -0000
+Message-Id: <175102035778.3876306.12470996918195586537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: ef59259df6956d26b949a99b9d720d83c80d1ae0
+  - ref: refs/heads/loongarch-next
+    old: 0564c570b98070a944384226bcdcb05c384bdede
     new: 955853cf83657faa58572ef3f08b44f0f88885c1
     log: |
          9159c5e733cfa35ec863fa81960a3e7435f831fb LoongArch: KVM: Add address alignment check for IOCSR emulation
