@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 28 Jun 2025 15:32:54 -0000
-Message-Id: <175112477450.1241442.17928316338092262751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sat, 28 Jun 2025 16:05:50 -0000
+Message-Id: <175112675040.1268542.14426575698461540513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: 7048348e330ed2002d7f13e1bf3036564d402395
-    new: 14071b9cf2d751ff9bc8b5e43fa94fbf08aceea1
+  - ref: refs/heads/linus-next
+    old: 1faca1bec76a32d16913f2e20458a92219dba158
+    new: f1d56205b4d1b4bff0acc0909081114797421abf
     log: |
-         533309a8f739a5827d3fa4a8c0566041f14169c0 dt-bindings: iio: adc: ad4851: add spi-3wire
-         6c5c7961a91883c924e2e10412d2cc84eca2c7b1 iio: adc: ad4851: add spi 3-wire support
-         fad0ece70ce63918f1365965147b9adab8f9100c iio: adc: ad7380: remove unused oversampling_ratio getter
-         14071b9cf2d751ff9bc8b5e43fa94fbf08aceea1 dt-bindings: iio: adc: nxp,lpc3220-adc: allow clocks property
+         6921d1e07cb5eddec830801087b419194fde0803 tracing: Fix filter logic error
+         f1d56205b4d1b4bff0acc0909081114797421abf Merge tag 'trace-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace into linus-next
          
