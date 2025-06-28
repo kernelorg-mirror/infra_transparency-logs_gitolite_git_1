@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3903577033825006221=="
+Content-Type: multipart/mixed; boundary="===============8550308358180664588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 28 Jun 2025 11:26:01 -0000
-Message-Id: <175110996172.1044167.6030003978519439357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 28 Jun 2025 11:29:59 -0000
+Message-Id: <175111019995.1046651.5438449298847421146@gitolite.kernel.org>
 
---===============3903577033825006221==
+--===============8550308358180664588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/pci/xgene-fixes
-    old: c6980399484bf12298b068419d522a39387696ad
-    new: 1ecab868c4d2a6901da7447665b02ba2628518c9
-    log: revlist-c6980399484b-1ecab868c4d2.txt
+  - ref: refs/heads/ras/urgent
+    old: 4783b9cb374af02d49740e00e2da19fd4ed6dec4
+    new: 30ad231a5029bfa16e46ce868497b1a5cdd3c24d
+    log: revlist-4783b9cb374a-30ad231a5029.txt
 
---===============3903577033825006221==
+--===============8550308358180664588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6980399484b-1ecab868c4d2.txt
+Content-Disposition: attachment; filename=revlist-4783b9cb374a-30ad231a5029.txt
 
+2619a6d413f4c3c4c1eddf63e83ecc345f250d07 Merge tag 'fuse-update-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+fe4281644c62ce9385d3b9165e27d6c86ae0a845 Merge tag 'gfs2-for-6.16-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
+fd1f8473503e5bf897bd3e8efe3545c0352954e6 Merge tag 'mm-stable-2025-06-01-14-06' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+c8be54240893dbf89c294cb6a9e338fdc2f73ead Merge tag 'modules-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
+546b1c9e93c2bb8cf5ed24e0be1c86bb089b3253 Merge tag 'bootconfig-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 408da3a0f89d581421ca9bd6ff39c7dd05bc4b2f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 ad78d7e364a7f26ceed91d2e3b2b3f6bd19ef557 Merge branch 'for-6.16/apple' into for-linus
 6f96598984a0e4ba7d4e92566b25dbf30ab1f387 Merge branch 'for-6.16/core' into for-linus
@@ -1040,15 +1045,10 @@ aff2a7e23f23738ca3cd62e4ce5be2d62a3d52ad Merge tag 'locking_urgent_for_v6.16_rc3
 5c00eca95a9a20e662bd290c3ef3f2e07dfa9baa Merge tag 'x86_urgent_for_v6.16_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b67ec639010f7d2ce2b467cef36f3e5e785d8d50 Merge tag 'i2c-for-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 86731a2a651e58953fc949573895f2fa6d456841 Linux 6.16-rc3
-3334072a1e0cdb19d47dd761fea7ef72c3d0c1f1 genirq: Teach handle_simple_irq() to resend an in-progress interrupt
-f0e4c0cc0b540cc7142855c9b99be00bcd26d57e PCI: xgene: Make per-CPU interrupt setup robust
-4fb4902e84e51f91c5d757af1c76616b4ddf911b PCI: xgene: Drop superfluous fields from xgene_msi
-7a70f1de0cf1d047700650ec5e6bd14fd29a03f8 PCI: xgene: Use device-managed memory allocations
-b269add43a66c68e754496add9cb994936f0e9b9 PCI: xgene: Sanitise MSI allocation and affinity setting
-baa7e2ee20993e00bb46aaaadf1c3967ded43535 PCI: xgene: Resend an MSI racing with itself on a different CPU
-af098bfff68c9be2abe6d15f9331a1d15886dfe3 PCI: xgene: Defer probing if the MSI widget driver hasn't probed yet
-837bc327b170003d8257aa9780d43de027fd43e9 PCI: xgene: Probe as a standard platform driver
-2b953f0bde3062daa81815a616e678c1c4a481db PCI: xgene: Drop useless conditional compilation
-1ecab868c4d2a6901da7447665b02ba2628518c9 PCI: xgene: Drop XGENE_PCIE_IP_VER_UNKN
+4c113a5b28bfd589e2010b5fc8867578b0135ed7 x86/mce: Don't remove sysfs if thresholding sysfs init fails
+00c092de6f28ebd32208aef83b02d61af2229b60 x86/mce: Ensure user polling settings are honored when restarting timer
+d66e1e90b16055d2f0ee76e5384e3f119c3c2773 x86/mce/amd: Add default names for MCA banks and blocks
+5f6e3b720694ad771911f637a51930f511427ce1 x86/mce/amd: Fix threshold limit reset
+30ad231a5029bfa16e46ce868497b1a5cdd3c24d x86/mce: Make sure CMCI banks are cleared during shutdown on Intel
 
---===============3903577033825006221==--
+--===============8550308358180664588==--
