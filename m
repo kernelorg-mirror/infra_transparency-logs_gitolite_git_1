@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0786829912596253584=="
+Content-Type: multipart/mixed; boundary="===============4976743543368694043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 28 Jun 2025 07:44:28 -0000
-Message-Id: <175109666863.864530.308633170541904303@gitolite.kernel.org>
+Date: Sat, 28 Jun 2025 07:53:20 -0000
+Message-Id: <175109720042.872103.9679645147784288527@gitolite.kernel.org>
 
---===============0786829912596253584==
+--===============4976743543368694043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 4dc7072515ddfa0a38efcc1b5714bf39f1bf6259
-    new: 60f2ab1f7277b01941bd836b9cecfbbf353291f4
+    old: 60f2ab1f7277b01941bd836b9cecfbbf353291f4
+    new: 1fe89afb79ab13f72487cd5984f105ef1f4493d3
     log: |
-         60f2ab1f7277b01941bd836b9cecfbbf353291f4 assign two cve ids on request
+         b8d3f61b1f2a69f834d0dc7a90406d88adf9827d assign a cve on request
+         1fe89afb79ab13f72487cd5984f105ef1f4493d3 strip the new mboxes that were created
          
 
---===============0786829912596253584==
+--===============4976743543368694043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751096706 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751097238 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1751096668-7da1097925cde5d700ac42f0ea09ad9140308b1d
+nonce 1751097199-c0e570aef61114a5e8565bc0e5569b89997c8609
 
-4dc7072515ddfa0a38efcc1b5714bf39f1bf6259 60f2ab1f7277b01941bd836b9cecfbbf353291f4 refs/heads/master
+60f2ab1f7277b01941bd836b9cecfbbf353291f4 1fe89afb79ab13f72487cd5984f105ef1f4493d3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhfnYIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z+YQAM/i7uCEH8yM89fOwhsH
-dTWLqynQE1ZEVlPsggpFO+BVO1qA0n3qHs5lb7pRbHM1YXgN6ZDWByVIKrbPB2Ym
-EM7SHShptXyZ4oV8fhvSrSBNOssJ/RZBo7h85F2nGCjRcik1UdF/G01CL5kDpSe1
-rbvkwJXOuKUf5e4s4R1y6ybjdyy4/KzQOZP+BnTk7SIu6p3FmnHDeilZSijE9QJp
-lB9RFz4pUoLwiXN+t72/Cs6deQFIl8Asv3zIrxFMLxAiggqeTsvTCYeOZdoAusBc
-KZDjhK7vCDgGz5MR1dVuK8OZGvwIDpKMRdZsVDmFky53h1e14zJGJgHImvKE8qBj
-B5/xtkGES652iXpIfgWcPwJz5s26th7OSorPYjkbSrC1gBjF2ZaPsy4qQ9K22yEK
-tZgq9xmZKKLNk2yQ4wYLs2C6zdoQPVmDIuBbOq/yD/G2ucpiVFXk4nqrAntqr6yV
-Q15SUuaoW6iXqwKWd0YBYcxOzRYg2ZcHOujw7LgoFUsvfwnNA1hB85pK/5iojmtS
-kQozTAu0XwmD+JKSQYWLw59yheUahTXzV17PkVSiXhpJTu+3jPnDJjlwVK+3in8P
-odhAj+LIJEJ15Jykw2UltBLCKxW+AHheygc+Y9/WAHFCU/J3c91FkwgYQyHIOeli
-B3ssUODTSBN6Vo9kMgkFK964
-=gmdq
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhfn5YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8gkP/RRyem91glugNYrAwtUR
+WP3SZVNxvW/88Ct5nR6umMKzFg4tjSr0I1G+ZRvtvJpIttB3/5Pz5wkPiW7BT9Gt
+b/Ip6NE9SePRTKQq1sCC+X652Sm1AXmpJ8/35z5jPDI0iUVnTlbgBKSHWU8sWipq
+2dYJuDOUScdWIkBNiTcuu6sGows1aPr69dpEMVRfZXYqHHxBBjUImpFUJJIyrL5n
+/8njhvoDU1qCSq/xS7WaAFQq894vm8M6ebLxYscxwoAsLSmJiHoSGcJBiR6xtwT+
+FJbg0JPZwMGQfrslsBRk8hvojbuxu3wQ3n5zoxaLYPpvE3C+2iZEK63TNYkDyEqC
+U6rO2LHirf6k507mkBQi4M3nF7ttPzZhE5/6/9KBMq+dYClTiiSaTEJb/TAkeLFD
+N5XixXDfPo4SgFh0Wu8c+cpdgYFEBeFGn6GXAwzIs3/rfQ2KYKyO7MaIQNTWlkjL
+jrEqTCEyEU4VUARJRar6cmXWBHr00beX/Oy9/vZo5OUBAlxBL545iJBWDFxMCi8a
+W4EDDDSCq4R99DN1AzoaxfJiydaLh3s8O4q4sW1DXdemnn2xFZlr9/vcae3KDXhy
+KLIffkLqMFgSxKw9KS1gEBvV4YUq6mIp7rQWOpIRJr7wBGJJeFZZhzv8v7/QsnWQ
+DXxC7AbWyWdUiWT29e/wIF26
+=OBrP
 -----END PGP SIGNATURE-----
 
---===============0786829912596253584==--
+--===============4976743543368694043==--
