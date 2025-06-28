@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6928825383527674931=="
+Content-Type: multipart/mixed; boundary="===============2378155972211860522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 28 Jun 2025 15:20:27 -0000
-Message-Id: <175112402703.1231571.10088489407862780025@gitolite.kernel.org>
+Date: Sat, 28 Jun 2025 15:23:29 -0000
+Message-Id: <175112420952.1233036.2528646592451316754@gitolite.kernel.org>
 
---===============6928825383527674931==
+--===============2378155972211860522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: a49e1e2e785fb3621f2d748581881b23a364998a
-    new: efe3e3ae5a66cb38ef29c909e951b4039044bae9
+  - ref: refs/heads/usb-testing
+    old: eb90d36bfa0674ac2f1713a3376abacc5539ecd0
+    new: 246fef761a5734285ec2c1e61dd9a3d8943d33a8
     log: |
-         80e08394377559ed5a2ccadd861e62d24b826911 usb: dwc3: gadget: Fix TRB reclaim logic for short transfers and ZLPs
-         cbc889ab0122366f6cdbe3c28d477c683ebcebc2 usb: xhci: quirk for data loss in ISOC transfers
-         cd65ee81240e8bc3c3119b46db7f60c80864b90b xhci: Disable stream for xHC controller with XHCI_BROKEN_STREAMS
-         2b857d69a5e116150639a0c6c39c86cc329939ee xhci: dbctty: disable ECHO flag by default
-         efe3e3ae5a66cb38ef29c909e951b4039044bae9 xhci: dbc: Flush queued requests before stopping dbc
+         ed7513dfb3e1a653346a7f8bbee862a4cfc165c4 dt-bindings: usb: genesys,gl850g: use usb-hub.yaml
+         246fef761a5734285ec2c1e61dd9a3d8943d33a8 dt-bindings: usb: genesys,gl850g: add downstream facing ports
          
 
---===============6928825383527674931==
+--===============2378155972211860522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751124063 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751124246 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1751124024-11c4e2375a8b3f50028645c5b9b41290ad2653d6
+nonce 1751124207-666b389e04a06c6458f94627cf4bb1e02e453945
 
-a49e1e2e785fb3621f2d748581881b23a364998a efe3e3ae5a66cb38ef29c909e951b4039044bae9 refs/heads/usb-linus
+eb90d36bfa0674ac2f1713a3376abacc5539ecd0 246fef761a5734285ec2c1e61dd9a3d8943d33a8 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhgCF8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CzkP/RSt+Z6aDU6QTX37N4zd
-av+maTKcrJmJPI2GEXwjsguvWCA+3LQytewl9wxXUJJEtVCctZ9KWCNxx0l14YH0
-uLpLrGYENeVX+PZpBceJcQdBc02CHzYx7wW6cGyaA4oc48taJZMqmYxqJp+a7Tzs
-d82zFFXlhSkhRlxT+F4SJ8ZUB1Ncr0bkUZBaH9SB2SNLAYyyyLgid6hVClEHvnyy
-CIjiDiJloMr1V38oak1MM+QTQ/nDXphNAGAGQ510Ej8gZdg/Z6rvCOr+Sh2wbYSZ
-LPbKXOAuR0TMSWEO13t5NEFXC/PELLohwbbpOS7OBB8QCcB/ivGUVW3egomqrPTu
-1s/yOuWLO04H0JEpg2NplvcXdnPEK4klCGmCe60qhdGdy5ShhBMcrxt8ei4lxhSb
-55DiBiWSCFeb02zHUU7g9DirLrSHgK60R5nrS4eDdwphBF6iT+aw5Csf2nHhRiWV
-FGgCPI4Fivw4zrDFu38+ORU/421URzAZ5VKVp0ow2odvxkvbnHi/iyG66re5u7jY
-Hr8ZsYuECwvU4BIH391xnWTQhyUWhIPxmWXWbge756Yc6kWZeZ+VBWfZP1UNKnxq
-pZ9iTzF/ifKhcnssOrAoXSoGTjH2jktkiX349pZPyUA0I1ea23c8UWRPkn9UTskW
-DjbXVEfXjtIJU9BCZn+LK4YW
-=nDcr
+iQJOBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhgCRYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kOEP+Lje8rGdbCvynZC0PBvk
+U+Yjk7+X+rrAU6HVCHJnPRFH073HTFFKBz1NKt9fQgFlvZDAu9vNUMrGu+ZAnnrF
+CUqL8rX1g/Qru2evi9cU8fwZGAbP5Lg75ciqjE5MUj6zJjpIzsJD7b/i3n9CHPQR
+Rrno8TWNzNBUkbglGn8JONsqjT88eG6k41AWZ8nzWkTpaqEspfAq2wXli/mwOxka
+8FWLSC2MHTlRLUq6KpxAJ4YKwXKYC0VR2kyY0eb14i1oGUi8TeenbbBaz7b1A3Gs
+lieZv0CsuDaFRzGpczOqsgN6meTUBnYu7IGnLPH6Oh7pnW3JfrCoGsyUU9ABI8Ox
++hLsFlsULWsI67Wf3U9MdLAElWCrSGYV08mCzybdtD3WEsniqhJ9q+j3Ld/2fAHP
+nDFxfgsK2YptiAvTRZ3vXle++sydeqM0cewlB+jVaGn15JmCqyA6IOqznasyR/0P
+/cx9MaimgKQ/upLJ/m9LBHOLm2fDDVlO7d3Onhjw4Qnncbg+IyKdPI1myW8MQvqV
+zHDQdjh2bDkwA34bWsxUArBRpCOxeG0vbHdyGgKDwTQrZaiEYZEljK4wUS8cFIbq
+4J6cOE10T+YSfWrZw9dO8yDRboiewymOcWLTKaQT8F3OvIqDM2zBXbnZIXM6RWFI
+2Jrearv2nQWX2LRwOFcqL4U=
+=SVR4
 -----END PGP SIGNATURE-----
 
---===============6928825383527674931==--
+--===============2378155972211860522==--
