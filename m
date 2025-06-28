@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/AARCHMRS
-Date: Sat, 28 Jun 2025 08:35:27 -0000
-Message-Id: <175109972799.907181.16026744736788719163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Sat, 28 Jun 2025 09:44:00 -0000
+Message-Id: <175110384088.960253.13831559810013362606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/AARCHMRS
-user: maz
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: e3fa251237c89eef401e3d3bf81aa9b1055d6db6
-    new: a4c920e0d9c10b6a1adc6202b59ea4be4e45dfe4
+  - ref: refs/heads/main
+    old: f22e6fdf7b3395a627a1ad06ab70835015f7ff17
+    new: beead7eea896e5bc803027d1f3e0d0f9c3b9d196
     log: |
-         a4c920e0d9c10b6a1adc6202b59ea4be4e45dfe4 AARCHMRS_OPENSOURCE_A_profile-2025-06
+         beead7eea896e5bc803027d1f3e0d0f9c3b9d196 net: ipv4: guard ip_mr_output() with rcu
          
