@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1900711903783725688=="
+Content-Type: multipart/mixed; boundary="===============7986091575608301761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 28 Jun 2025 10:57:19 -0000
-Message-Id: <175110823951.1019646.11809813925460422547@gitolite.kernel.org>
+Date: Sat, 28 Jun 2025 11:01:07 -0000
+Message-Id: <175110846745.1023578.17636696582601538308@gitolite.kernel.org>
 
---===============1900711903783725688==
+--===============7986091575608301761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/tip/urgent
-    old: 7ed1f13ed278c2f05c648e286513b1e94e77b6a6
-    new: a34535e3752e06dc7d9c43d3a1d2392160235f20
-    log: revlist-7ed1f13ed278-a34535e3752e.txt
+  - ref: refs/heads/master
+    old: e51a38e71974982abb3f2f16141763a1511f7a3f
+    new: 4da71e9f8939987cd2063e0b2ab5bb5eafc80a87
+    log: revlist-e51a38e71974-4da71e9f8939.txt
 
---===============1900711903783725688==
+--===============7986091575608301761==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7ed1f13ed278-a34535e3752e.txt
+Content-Disposition: attachment; filename=revlist-e51a38e71974-4da71e9f8939.txt
 
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
 d53fd59707c402d03ec740b4e90a2ddcb5312006 dt-bindings: soc: fsl,ls1028a-reset: Drop extra "/" in $id
@@ -234,18 +234,38 @@ af2b588abe006bd55ddd358c4c3b87523349c475 drm/xe: Process deferred GGTT node remo
 969127bf0783a4ac0c8a27e633a9e8ea1738583f ublk: sanity check add_dev input for underflow
 5990b776fb79a444f91431d35d24b0bdc622984b Merge tag 'nvme-6.16-2025-06-26' of git://git.infradead.org/nvme into block-6.16
 c007062188d8e402c294117db53a24b2bed2b83f block: fix false warning in bdev_count_inflight_rw()
+5fe331cdcfba5b2c2dd8211127dadefcaaa97dec riscv: Helper to parse hart index
+81f335e10605beda222d51d348a1ac058d4bac61 irqchip/riscv-aplic: Use riscv_get_hart_index()
+ed651979bb780270ae14b35ca6bae68f658eddad dt-bindings: interrupt-controller: Add MIPS P8700 aclint-sswi
+df0f030ee7e444c55341f4210124115878284125 irqchip/thead-c900-aclint-sswi: Generalize aclint-sswi driver and add MIPS P800 support
+93406e374295ad25ab06104f734459cd25ce7134 irqchip/aclint-sswi: Remove unneeded includes
+c8c8443a64a186df0508c709d51fe9c7db0b5d55 irqchip/aclint-sswi: Reduce data scope
+128ab2cfd0205fe395196a9f3221bcddd6adf54e irqchip/aslint-sswi: Resolve hart index
 711741f94ac3cf9f4e3aa73aa171e76d188c0819 smb: client: fix potential deadlock when reconnecting channels
 43e7e284fc77b710d899569360ea46fa3374ae22 cifs: Fix the smbd_response slab to allow usercopy
 263debecb4aa7cec0a86487e6f409814f6194a21 cifs: Fix reading into an ITER_FOLIOQ from the smbdirect code
 e34a79b96ab9d49ed8b605fee11099cf3efbb428 Merge tag 'net-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 178b8ff66ff827c41b4fa105e9aabb99a0b5c537 io_uring/kbuf: flag partial buffer mappings
 f02769e7f272d6f42b9767f066c5a99afd2338f3 Merge tag 'devicetree-fixes-for-6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+5f295519b42f100c735a1e8e1a70060e26f30c3f smp: Improve locality in smp_call_function_any()
+976e0e3103e463725e19a5493d02ce7b7b380663 smp: Use cpumask_any_but() in smp_call_function_many_cond()
+a12a498a9738db65152203467820bb15b6102bd2 smp: Don't wait for remote work done if not needed in smp_call_function_many_cond()
+b4d6510684bf040c24dead879cce29035ef45826 smp: Defer check for local execution in smp_call_function_many_cond()
 06f6516ee0b1fd98da2cb781a848b54d504462e8 Merge tag 'amd-drm-fixes-6.16-2025-25-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 b6211ab2ebc1e47c1ce8e42c5edbd75d8161c654 Merge tag 'drm-intel-fixes-2025-06-26' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 6daaa479ac557bc426a7fd2e913b618523fe41fd Merge tag 'drm-xe-fixes-2025-06-26' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 8a20830f2dd180064f25254d9c55beb243fe9223 Merge tag 'hid-for-linus-2025062701' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 6f2a71a99ebd5dfaa7948a2e9c59eae94b741bd8 Merge tag 'bcachefs-2025-06-26' of git://evilpiepirate.org/bcachefs
 67a993863163cb88b1b68974c31b0d84ece4293e Merge tag 'v6.16-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+b940c7b8ea921fae7a99d305e819883d8311669e bugs/s390: Use 'cond_str' in __EMIT_BUG()
+4218dedd47c79946bc9e6214f50c0d16096873ce bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
+77691494231116f22466ef2e7b45dfe2f30a8740 bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
+58e421837e2f29c3c7e5fd807bbf88c5ec29413f bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
+62aa47bc027366030047002b23847da40e43ab4f bugs/sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
+4584f5907e79490515012adbfe63e3fd28723402 bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
+7b22e0432981c2fa230f1b493082b7e67112c4aa x86/sev/vc: Fix EFI runtime instruction emulation
+e7e26cfad96c57c81156693cbf63032d899fe7c9 bugs/s390: Remove private WARN_ON() implementation
+a7549636f67f973474ebe1ad262acc2aa4d1327d x86/sev: Let sev_es_efi_map_ghcbs() map the CA pages too
 9c2f970518c900821acdac47bbd681b99a325e3d Merge tag 'sound-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 51df97f90002cb055e966189bd46d831af69e155 Merge tag 's390-6.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 9c7331f150549d3c724051aa11c5dcb51bf3aa99 Merge tag 'ata-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
@@ -263,5 +283,20 @@ aaf724ed69264719550ec4f194d3ab17b886af9a Merge tag 'v6.16-rc3-smb3-client-fixes'
 955d0884251f0cf1f4a66024e1afd1188b8281c5 Merge locking/urgent into tip/urgent
 c189ccd938b7b7a6782d153ed142337a37ee9dca Merge x86/urgent into tip/urgent
 a34535e3752e06dc7d9c43d3a1d2392160235f20 Merge perf/urgent into tip/urgent
+dfd9d43c68b35cc702149efff169b22926fb72b2 Merge irq/core into tip/master
+983f928d2bb2995c0cdb5ab70a28677bc5015e52 Merge core/entry into tip/master
+8b69103516be8b3b348c8af3e8c9323bcdf1a1cd Merge timers/core into tip/master
+db15b6264d7d688010feae375b95d093d86d6e5e Merge x86/kconfig into tip/master
+fb2d73d96df0e5b4432ba8c0908e23f019790f41 Merge sched/core into tip/master
+60c34a049301aae50ae649313630128c4343349f Merge irq/msi into tip/master
+833a42b42d5f6eee74a7a37375749d7d87e5ca8d Merge timers/ptp into tip/master
+91b216a139ec985730a75a4a3738dc203b0ad219 Merge x86/boot into tip/master
+67b43e0e4decddf4ae4d7876960d5f08d177334a Merge x86/cpu into tip/master
+715d289638eea8e4b9733bd5a4066b22b0ed5b19 Merge x86/fpu into tip/master
+3bddb1963b7097c464aa00377834d423c3273d02 Merge x86/bugs into tip/master
+da1f52ad35abd24c42ba4884ecb8deb35b9f4090 Merge irq/drivers into tip/master
+a3ce22ef145fd7c33fb1bbe4b23152f73b85f660 Merge smp/core into tip/master
+5954288bbcdebdc1ea3e493697a6df0ce45150ee Merge core/bugs into tip/master
+4da71e9f8939987cd2063e0b2ab5bb5eafc80a87 Merge x86/sev into tip/master
 
---===============1900711903783725688==--
+--===============7986091575608301761==--
