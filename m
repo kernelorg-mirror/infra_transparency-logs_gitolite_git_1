@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 29 Jun 2025 23:14:29 -0000
-Message-Id: <175123886939.2846517.6872307771010928885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 29 Jun 2025 23:49:25 -0000
+Message-Id: <175124096538.2874424.11882737379252570884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: e149735213518154c6b1b458a2273fcdb00bd932
-    new: 81d2fce44dbafe3777c71830cf19d462a23db251
+  - ref: refs/heads/io_uring-6.16
+    old: 178b8ff66ff827c41b4fa105e9aabb99a0b5c537
+    new: 6f11adcc6f36ffd8f33dbdf5f5ce073368975bc3
     log: |
-         359bf2de1089bd4580646fa2acf51d4c95645f32 foo
-         81d2fce44dbafe3777c71830cf19d462a23db251 foo
+         6f11adcc6f36ffd8f33dbdf5f5ce073368975bc3 io_uring: gate REQ_F_ISREG on !S_ANON_INODE as well
          
