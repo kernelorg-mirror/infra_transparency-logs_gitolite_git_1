@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sun, 29 Jun 2025 08:33:10 -0000
-Message-Id: <175118599027.2058534.10022350729542898265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 29 Jun 2025 08:43:22 -0000
+Message-Id: <175118660285.2066969.14274152205155230990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
+repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/tags/edac_urgent_for_v6.16_rc4
+  - ref: refs/tags/locking_urgent_for_v6.16_rc4
     old: 0000000000000000000000000000000000000000
-    new: 03cd3107fe6cd0807ae9acfeca2ecd1746a8fab8
+    new: f778b8bf481c99f763aef11bf9037e709d004925
