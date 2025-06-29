@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3082721442056858927=="
+Content-Type: multipart/mixed; boundary="===============6440602838600642227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 29 Jun 2025 12:22:37 -0000
-Message-Id: <175119975739.2321502.17847077203747889206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 29 Jun 2025 12:24:22 -0000
+Message-Id: <175119986231.2322265.17900408808735996871@gitolite.kernel.org>
 
---===============3082721442056858927==
+--===============6440602838600642227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/staging-6.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 787f8e6ac78bb426d73d30c0540f1641036c9716
+  - ref: refs/heads/tty-testing
+    old: d2db0d78154442fb89165edf8836bf2644c6c58d
+    new: acc902de05b2b8229dc27820925b7573b6d2d34e
+    log: |
+         5e40169f7aa85396448cd79b561cf13f39f8e005 tty: serial: fsl_lpuart: Constify struct lpuart_soc_data
+         acc902de05b2b8229dc27820925b7573b6d2d34e serial: 8250: Move CE4100 quirks to a module under 8250 driver
+         
 
---===============3082721442056858927==
+--===============6440602838600642227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751199793 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1751199755-9a706a42bf44dbbf4b34f98b857a89f8b87b716a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751199898 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1751199859-daddbd02e3f2494afb13bc87dd86c673bb4452b3
 
-0000000000000000000000000000000000000000 787f8e6ac78bb426d73d30c0540f1641036c9716 refs/tags/staging-6.16-rc4
+d2db0d78154442fb89165edf8836bf2644c6c58d acc902de05b2b8229dc27820925b7573b6d2d34e refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhhMDEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cn4P/iLVHIpAZuY5GDwVr+ug
-MA4JfJANErbZ0rFdPefSHhs4FzGvFMoBB2qAjeWOInwHckY76fD9SbU56Lr4uEeM
-y7KrDdF85GOddOBIN3m7wM5wx6fsBpomgYEO1OhXFYEPvbh4WPTx4Mj8FubbJ361
-MJpXAkjpwN3Kc6vqF0XQiDkDegw9BNdVOKGOYoNggPDRSd3D9ULkZuE0KJud9h0U
-tYswIExazc33Lx6QzVXIH9pXrOHInREiNdRT0m1k8WlmBLfsBkBHx/qY/15TBIsb
-UyXHcXPCif9N8HWrWC6A0ABsmpqrCJxYxh66CKPKFH3Nb/61kqRlDUEl0C0+CnOr
-3O1FayTaf7aNV55C3z6l8xqXUZXx/4LmJAvZcwRZqu/Wj/e4t8oiRAl8LInABbik
-hPzFMCBX55YIhNayGNEJwK/j06Z26IrKXqoVx8dc5TNMaHBLTyNy+EAKIAre/VQX
-TYR3HNaslvWceE/c+kEd+KPEgWrrAKvJni3snL3B1ezh/we68rRpk6M8+32TUosT
-7o+LwcJgK+q6Qy+GtKzW6UYtejUx5x43JxbLNneuQN3GHLBngxq6MQrDHooqkyCV
-st0qAb/kLxBKJgh5or+yRKiEdusyvHNetSHZ+TS5+buXclCuAZ0pd6LaXNhd+bXn
-/wu078v1rbbwKOlHUf5yFh1A
-=5yvV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhhMJobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RXwP/3NwIBA5NmSH9C5sbINN
+zQxT5NjxIYmjoRiRv207RePwaPn+hqeXlbiRbQKbnu1IOwGoOlu43ewNbMasYUvR
+O4Of+QUdF74nfskqw2zuslpZuTRDZ2ma02hVdK8BxlQBlfDMSXM4cL7Chz/aUCJv
+23HuxUP/7pHC28fhr4SIkSs95s/xnRju6Fe++ctrGdvR8iWYJ0LFbqlR+oqNUVhl
+Pm4j2S+ajIWoiRRXjl//WnenTXEHsyFXq69+i/H+79p7Auyg6VEan13rFJXYpixs
+G8isfRBUW41PgZfH5Y9HBdwWOLRbZ3wc130k6CB4DZXAxxVs/ik2JrA5faAz66eB
+dM+SD05ySLibC7wjkwq/ZY+RByChPy64KeogApJMf5KxuMd/L6v3Mw3tdAjgbjmO
+UFgidu7koacAxu3kxUdMZziPEDgfaHd8mk9Nh5Zx0Bzn78LYkJPsd+HuWjWpwXtp
+L5hge/a1Gmn1E8SlAnOGkFzGDSfjbJbNC9a1Yymb/j5wean+FuzV9G6mv4JTiIIV
+pwIzEz5T/6H6KPzWhsK10Pf5Wi2blkz4ypnMm25D0JG7WobVeUaY0nHQ+MgOlnw5
+F08rQODxW7RuDjt9QVSLZJHB3TyOP3CE4Q/ZPmcMX0Ts314KMAfwhjdRRXApYrws
+JR8D5Sb+BoE7WfwSy3FR+lfX
+=9lyH
 -----END PGP SIGNATURE-----
 
---===============3082721442056858927==--
+--===============6440602838600642227==--
