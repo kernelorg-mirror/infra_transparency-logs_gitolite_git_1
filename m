@@ -1,47 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4024284497903294039=="
+Content-Type: multipart/mixed; boundary="===============1612649564598387458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 29 Jun 2025 16:37:53 -0000
-Message-Id: <175121507322.2529637.14369285479051139480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 29 Jun 2025 17:35:19 -0000
+Message-Id: <175121851991.2576550.4249640765302063294@gitolite.kernel.org>
 
---===============4024284497903294039==
+--===============1612649564598387458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: dfba48a70cb68888efb494c9642502efe73614ed
-    new: afa9a6f4f5744d907954f5b708d76c9bffa43234
-    log: revlist-dfba48a70cb6-afa9a6f4f574.txt
+  - ref: refs/heads/testing
+    old: 14071b9cf2d751ff9bc8b5e43fa94fbf08aceea1
+    new: 42498420746a4db923f03d048a0ebc9bd2371f56
+    log: revlist-14071b9cf2d7-42498420746a.txt
 
---===============4024284497903294039==
+--===============1612649564598387458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfba48a70cb6-afa9a6f4f574.txt
+Content-Disposition: attachment; filename=revlist-14071b9cf2d7-42498420746a.txt
 
-ff78538e07fa284ce08cbbcb0730daa91ed16722 vt: add missing notification when switching back to text mode
-747b52413effe958ed57cf6d7bef80c34e1185f3 vt: fix kernel-doc warnings in ucs_get_fallback()
-d36f0e9a0002f04f4d6dd9be908d58fe5bd3a279 serial: core: restore of_node information in sysfs
-a55bc4ffc06d8c965a7d6f0a01ed0ed41380df28 staging: rtl8723bs: Avoid memset() in aes_cipher() and aes_decipher()
-a24cc6ce1933eade12aa2b9859de0fcd2dac2c06 futex: Initialize futex_phash_new during fork().
-f23c52aafb1675ab1d1f46914556d8e29cbbf7b3 serial: imx: Restore original RXTL for console to fix data loss
-09812134071b3941fb81def30b61ed36d3a5dfb5 dt-bindings: serial: 8250: Make clocks and clock-frequency exclusive
-5f465c148c61e876b6d6eacd8e8e365f2d47758f x86/traps: Initialize DR6 by writing its architectural reset value
-fa7d0f83c5c4223a01598876352473cb3d3bd4d7 x86/traps: Initialize DR7 by writing its architectural reset value
-a3f3040657417aeadb9622c629d4a0c2693a0f93 EDAC/amd64: Fix size calculation for Non-Power-of-Two DIMMs
-1476b218327b89bbb64c14619a2d34f0c320f2c3 perf/aux: Fix pending disable flow when the AUX ring buffer overruns
-753a0f61b9091536425d656c145881b70eb402f7 Merge tag 'locking_urgent_for_v6.16_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2fc18d0b8958dcea74c7357ebbc6912d0d6e2936 Merge tag 'perf_urgent_for_v6.16_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3b1890e4b250c95cf93a0a772433c3a2300e7c8f Merge tag 'edac_urgent_for_v6.16_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+b866e55291e1d8eef6b114f489c7cbd907a3302a iio: accel: adxl345: make adxl345_events const
+4a922878a7e46315cef328a5f73095a8e791180d iio: accel: mma9553: make mma9553_event_info const
+f3e86ff5bca6593f23e3e3152358d7989342deef iio: adc: ad7091r5: make ad7091r5_init_info const
+3e8d53d6a6a566c28e8424aba20ca176dca9e925 iio: adc: ad7091r8: make ad7091r_init_info const
+8a7d1c7047f73bbe7f4ebf6e35c2ceec3abd10bb iio: adc: at91_adc: make at91_adc_caps const
+7ffcdbf27c9212c8bf345955209857c37daf94d4 iio: adc: axp20x_adc: make axp717_maps const
+285ce2e3390ee10b5cc9d0ea55d416f70da1e1ca iio: adc: mp2629_adc: make mp2629_channels const
+301ab52e6a6c8903eb4bcf623d90732170413a81 iio: adc: qcom-vadc: make scale_adc5_fn const
+7b7fac9d3f9d70038f78d990bbb2ee3429b4ef07 iio: adc: stm32-adc: make stm32_adc_trig_info const
+d2eb85c4d30ceed8c4930884149c3d9d6086014c iio: amplifiers: ad8366: make ad8366_info const
+7d7c205fe973624a63163872e017a387e2713978 iio: chemical: atlas-ezo-sensor: make atlas_ezo_devices const
+939079fddd873edc7c449abb0ac2b1b51be3b623 iio: common: hid-sensor-attributes: make unit_conversion const
+3f547cd877964a8d00f20f4c1eb0d4836bffe7a0 iio: dac: ad5770r: make ad5770r_rng_tbl const
+d7ba9b8957b5091abd911a22d5023e3134a6c73c iio: dac: ltc2688: make ltc2688_dither_ext_info const
+1e5b514b9c8661fb82d941786f90f8e79e964eae iio: imu: bmi160: make bmi160_regs const
+24af8244e93f5f72c22c907d7be88e36e9370fda iio: imu: bno055: make bno055_sysfs_attr const
+75abee384a8110a777064df06e97043be3e772c2 iio: light: isl76682: make isl76682_range_table const
+efabcb3e76d46bbf8c7111e04dfec3ca1a14d79f iio: light: zopt2201: make zopt2201_scale const
+7e17ce3d3204939a68f56e9ea34eba4a10f9dbd7 iio: pressure: abp060mg: make abp_config const
+ba13dc55d31328f7ab8c00a1b942c6b626d42b72 iio: proximity: vcnl3020: pass struct vcnl3020_property by pointer
+42498420746a4db923f03d048a0ebc9bd2371f56 iio: proximity: vcnl3020: make vcnl3020_property const
 
---===============4024284497903294039==--
+--===============1612649564598387458==--
