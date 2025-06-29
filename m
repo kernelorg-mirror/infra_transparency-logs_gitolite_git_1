@@ -1,56 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============0284231179719656164=="
+Content-Type: multipart/mixed; boundary="===============6769868603669868432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 29 Jun 2025 11:38:52 -0000
-Message-Id: <175119713219.2234078.4049126587585006781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 29 Jun 2025 11:40:20 -0000
+Message-Id: <175119722066.2237297.12907361938261271302@gitolite.kernel.org>
 
---===============0284231179719656164==
+--===============6769868603669868432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1fe89afb79ab13f72487cd5984f105ef1f4493d3
-    new: fe452989049ba421e5f2208a492191c94b3c5b50
-    log: |
-         fe452989049ba421e5f2208a492191c94b3c5b50 update cvelistV5
-         
+    old: aaf724ed69264719550ec4f194d3ab17b886af9a
+    new: dfba48a70cb68888efb494c9642502efe73614ed
+    log: revlist-aaf724ed6926-dfba48a70cb6.txt
 
---===============0284231179719656164==
+--===============6769868603669868432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751197164 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1751197127-f82197652ab4e335e276c8637c2bb5e438f6b004
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751197256 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1751197218-74485652c8bb81588072345b8b7b8948253fe7eb
 
-1fe89afb79ab13f72487cd5984f105ef1f4493d3 fe452989049ba421e5f2208a492191c94b3c5b50 refs/heads/master
+aaf724ed69264719550ec4f194d3ab17b886af9a dfba48a70cb68888efb494c9642502efe73614ed refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhhJewbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+db0P/RLAt7EOfyhPp0eSq27l
-U/jo6en/p6R75mDWkmh2jbIljmBPPZW1Az7OsHTCpnB+eLcYHc/kZohiVBiVm5KF
-a/IfYnnTeDMr8gnVw79QNLH779jkGtCV51q8+vAJ274qqhKQE/1WX9tG2753EtfQ
-ByGbKYCnL3BOdrBVA06wE1Iy1DqYh4GnnrEzY4lUt/IzgO0BNc+/8SQ5oKsWmQ/5
-BPjHakGE2G+0n2DensHVR++yP8/vyiBszymULdLcvyzo4SkbLiUhdCHtkvQAtCaH
-fXraNmXWY0d0Hx2icAUxsPxmlzW1SMU1zedD3g3Z6ALojlDRC60RK8IAzSABy9ZT
-Bj5mEjCHjTno70lQ0g8WXq2yHiPWDLS5gDV1dRuz3Nv0/++skH2E23QWloFOOtfA
-W99r0symKZsNc4kXv/O6Vfc5QR3ymZ3WQ5UZ4d7+Iam+hB9T6AVuUN5v7724iQkA
-kpJlF73ZRTNHiCRkXeprEB8Pq3EWuAJJ48zgWCg/+Zxi8Y62zK5N9PvKCWkdBL7i
-/c1XvS47tYNYTgHWx/bc5oCf31d/Ow3LHM3BUE2eg+BXKQvvk9SlCnf8Ls42eLXZ
-+soXjz24bSsTNiA6lOYxf7Xi2CXudFuufD7Q/tGDrM3BSVCJ3+EjyJlUX11wCvyQ
-J6Bb3Jg3iKVx1ExyjLk4zGay
-=gquf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhhJkgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aH0QAJf4Zad+xUmxhPD/t6wp
+Mu2C9TuYfuEb0Y5UCQrJ/uGxX9JrAw68AlgzNiVJppx0P5F2C8848ZrzKZ8dbQJy
+yZnAuuFsvMvP2A4EhODRmYvDVdTYykGdsllht8EbFt/N04GntPhLg8pLIOaqhnUe
+aUcRiw7Dkcoaxkp+VC3aCWkxPW2GWSn1ed+X1/BvuyOXNBShAYrPVYjHj/0zdEcS
+MeJaJ6pso0p/HaqfoF65PcI+Rhi/xGjnAilwyCPHZmDklx20eBnrqWxF3SG3d7Dl
+z/JVbYDE2iaBk855iOb9g8IN+vwNJ0xk9nCI2gjbDlqrFTZFrRwullMDQ4mor1z2
+UHgiD9MdvQ3puEiQ+hh82KwjlOeDRNsjsbEnCI3jo7XiEUSIydjBwZHOrg2RtHBJ
+H7AOQWGyeuBg2AoV0y77rozC6hiCZJEZ7gt4PwqoRbU71mjhJL6nAWo4FzZamRxF
+IUHblSccDWDjIOdOn6DfMQsIrSEGdmRzD1L3lExdjuuZAQ7SujCqqnPq87qpY/8L
+jfpzmDTuOMxOR0pnpucO2GW5Y9xdd71Kxy7rk1ODl4pA3cJ2BXNhEDs41GLOup+l
+48Q3AIjyeRS0d4F8sUXungaIBPZ+6HftN4sP1FYwGDExCW4a4jB5GcJBg36AJgTC
+ouKwyp2qsu5t3hMX+OIcsMh0
+=MchP
 -----END PGP SIGNATURE-----
 
---===============0284231179719656164==--
+--===============6769868603669868432==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-aaf724ed6926-dfba48a70cb6.txt
+
+a5d0b9e32745277644cda8d7d334e7080bd339bf i2c: imx: fix emulated smbus block read
+56ad91c1aa9c18064348edf69308080b03c9dc48 i2c: robotfuzz-osif: disable zero-length read messages
+cbdb25ccf7566eee0c2b945e35cb98baf9ed0aa6 i2c: tiny-usb: disable zero-length read messages
+942e1aece13e4007656e41d3182c0adf05cf08b8 i2c: designware: Initialize adapter name only when not set
+c8dc579169738a3546f57ecb38e62d3872a3cc04 i2c: amd-isp: Initialize unique adapter name
+577c1e0ef351e41aba764816232a9feb7a9b3969 platform/x86: Use i2c adapter name to fix build errors
+666c23af755dccca8c25b5d5200ca28153c69a05 i2c: omap: Fix an error handling path in omap_i2c_probe()
+f0ef0b02af381418973a952867052b12194f9c16 LoongArch: Replace __ASSEMBLY__ with __ASSEMBLER__ in headers
+7d69294b8a8d0e19600797711ed3bc047fead1c1 LoongArch: Fix build warnings about export.h
+39503fc84b4ea94f2bedca481de5e225e0df729d LoongArch: Reserve the EFI memory map region
+a0137c9048252ea965a0436895c77d1c917dfe2a LoongArch: Handle KCOV __init vs inline mismatches
+080e8d2ecdfde588897aa8a87a8884061f4dbbbb LoongArch: KVM: Avoid overflow with array index
+48e29133ae880a8f30ff098a9843d22e012350e0 Merge tag 'i2c-host-fixes-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+9159c5e733cfa35ec863fa81960a3e7435f831fb LoongArch: KVM: Add address alignment check for IOCSR emulation
+c34bbc2c990700ba07b271fc7c8113b0bc3e4093 LoongArch: KVM: Fix interrupt route update with EIOINTC
+45515c643d0abb75c2cc760a6bc6b235eadafd66 LoongArch: KVM: Check interrupt route from physical CPU
+cc8d5b209e09d3b52bca1ffe00045876842d96ae LoongArch: KVM: Check validity of "num_cpu" from user space
+955853cf83657faa58572ef3f08b44f0f88885c1 LoongArch: KVM: Disable updating of "num_cpu" and "feature"
+f40213cd93e608ee78b5e25db042c42ec07139fe i2c: scx200_acb: depends on HAS_IOPORT
+6921d1e07cb5eddec830801087b419194fde0803 tracing: Fix filter logic error
+3a3de75a68ff8d52466980c4cfb2c16192d5e4e7 Merge tag 'loongarch-fixes-6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+ded779017ad78fc9df3e9d9ae0e39d2e73865851 Merge tag 'trace-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+dfba48a70cb68888efb494c9642502efe73614ed Merge tag 'i2c-for-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+
+--===============6769868603669868432==--
