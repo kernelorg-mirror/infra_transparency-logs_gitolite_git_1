@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4499869747814962029=="
+Content-Type: multipart/mixed; boundary="===============8853549453416292361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 30 Jun 2025 16:08:15 -0000
-Message-Id: <175129969560.3784269.3327974993688213043@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 16:08:18 -0000
+Message-Id: <175129969808.3784521.8818825266777837169@gitolite.kernel.org>
 
---===============4499869747814962029==
+--===============8853549453416292361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8efa26fcbf8a7f783fd1ce7dd2a409e9b7758df0
     new: 99e3eb454cc48b9f2691256780aeb247bdc0ee3d
     log: revlist-8efa26fcbf8a-99e3eb454cc4.txt
 
---===============4499869747814962029==
+--===============8853549453416292361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ beead7eea896e5bc803027d1f3e0d0f9c3b9d196 net: ipv4: guard ip_mr_output() with rc
 7012d4f3c7a82008113974108bf0c9c0553b424a net/mlx5e: Fix error handling in RQ memory model registration
 99e3eb454cc48b9f2691256780aeb247bdc0ee3d net: ethtool: avoid OOB accesses in PAUSE_SET
 
---===============4499869747814962029==--
+--===============8853549453416292361==--
