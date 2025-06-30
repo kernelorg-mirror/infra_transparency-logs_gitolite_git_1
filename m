@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2662829493926784996=="
+Content-Type: multipart/mixed; boundary="===============5323466120204913017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 30 Jun 2025 13:42:10 -0000
-Message-Id: <175129093085.3651950.6767273736525670436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 30 Jun 2025 13:46:12 -0000
+Message-Id: <175129117208.3655969.507885218595299805@gitolite.kernel.org>
 
---===============2662829493926784996==
+--===============5323466120204913017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: f63f7aec0057fd187a1212a5828560c3d9fcc739
-    new: 7481a97c5f49f10c7490bb990d0e863f23b9bb71
+  - ref: refs/heads/master
+    old: c746f6a317269f64e0a79cbf554e4eeaf0d271e0
+    new: 516554c3d7c4ac6c8d900f64af6058402c5ef5af
     log: |
-         7481a97c5f49f10c7490bb990d0e863f23b9bb71 usb: dwc2: disable platform lowlevel hw resources during shutdown
+         516554c3d7c4ac6c8d900f64af6058402c5ef5af 6.1-stable patches
          
 
---===============2662829493926784996==
+--===============5323466120204913017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751290967 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1751290928-7b9194bdf106bcd8e034a2a1412c15b96c262b61
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751291209 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1751291169-cd5f4c3aed9cbc2d07050de02b80e39260cca898
 
-f63f7aec0057fd187a1212a5828560c3d9fcc739 7481a97c5f49f10c7490bb990d0e863f23b9bb71 refs/heads/usb-testing
+c746f6a317269f64e0a79cbf554e4eeaf0d271e0 516554c3d7c4ac6c8d900f64af6058402c5ef5af refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhilFcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GKoP/0c2G2Zt2DkRSDHZC4KQ
-3WTDNaDSn/4Zo2h76C7Fu09e0Hg+pVvB+QN0qQOcJkfeUwKjVir018XSoOXsFcgx
-UQaAXt3dn70Ymzjb806rY1UOjrshKfV0PkFMA0wMZIixbSHTYbSzyL6qkRdLqoIe
-Tq/6/JpvhzuAKEFqs6UyyhQhzx7PZ03q4flR2aaYmvT1Cjn3+HWqzEkqYLwv2JMP
-8QGNHcpPs6cx6i2zga3oNtomy02i6P2t1yRw+98PQva0B3voZjAKoDLWcLu2vcea
-I8O/QaOiQDDRDWHhyGJ4TM+vg9MQ3/XUEVJdJ2ou0+oWTJ21edC1hdpVkxaPPyDR
-HLKhfwUI+pDk3ldD3riHNfW2sBLAc7fkaIcJ1zm94crHFqg6PT40jAMQ3ab7Z+z/
-HOJQPIsBP0gKgnxf6WOfGwXcIBE72pqxvo6bu1Bfo0/91EqH5tLRfTrIVLvn4jEA
-0PYGqT4BhUrOdWuCPB1lKvbfeLRiso/c88Aor6RwJANwf3mdOAyoAFkADTh+yDa5
-GLFxYrziTNkmhyFiv48RyQk0yM5zsHluqpFMkOvABzxMRrJGVQewauR4sJrT5d08
-kAWJfBFzROx8GG1m6S6ObOr1Nh4xCcCEfTfmsUBsK12ijqLQVj2u3jGrxG70LL6A
-eCUceeYns0Y9keA6J7Pf9kaG
-=ct0p
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhilUkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T9EQANLKMIi6ec0Me7+uEMFE
+iijvzpNdiViq3VfglA6dFcQ9Tn7Pu43o2TK1nafghxSXPLzmDnCOaQ5QzcaYonaW
+gHTPXF8Rm1zJnUXuYIOQGE0Anu4MEIgLI8gcxG/2rL5IRtt304Lx9u13zIAoFhp4
++RaF5/hvYsb6dK0lyvmOiyTBr1Y75oQJRnYeBotSTTEofHwF0yZnjjzSkME6HjpC
+lH+fCED+fy/WPg/hsQ8oHJaMPOgdIrjnj1Z6MojhMbkgArXvmuYSlsi+livNiMDf
+xv67gdHeQkT7WrF/Q5Dh86gt84SPJCdRauxiNR4yeIMu1PajyLgIw7lNWMtZrIXW
+VV6nWdw0vbYWfWlSqhi07Bzg+r6HTx/hr4EDnJe00d3OOHCPFMCAq9w03eA9Dmq7
+mqqtEQAqKOOKD/RSDgBzCc0PT9TMHkbbnxiXzROmHCsBJSAZyf6hHIsMP+sUN9/f
+qSCHpXJ3pnCG+bzxKigGu1eS8Fc1sXeP/GJWOGCAg4Ej47MJs6KobrdehjTJyuAZ
++ahX7AMRFW1HF5whJkef1LvJ48bOOpuNrcq0MIxlCUG2143NDyra2SJ6hdsMoF3U
+sS1AYo+BXrOI2avidGAXtqG1NpKHiaQWDwxDxdj7ls8pR+zOjWwDmp1ZezLL04zq
+5ZUuQWD0mtVDR2GAyZHs96Rt
+=zQx7
 -----END PGP SIGNATURE-----
 
---===============2662829493926784996==--
+--===============5323466120204913017==--
