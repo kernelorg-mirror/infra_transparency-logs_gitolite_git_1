@@ -1,96 +1,89 @@
-Content-Type: multipart/mixed; boundary="===============4355986931158428828=="
+Content-Type: multipart/mixed; boundary="===============3426949997834855533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 30 Jun 2025 03:58:12 -0000
-Message-Id: <175125589255.3083726.2049022195920999792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 30 Jun 2025 04:24:38 -0000
+Message-Id: <175125747871.3104577.7516040036222824014@gitolite.kernel.org>
 
---===============4355986931158428828==
+--===============3426949997834855533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/ino
-    old: c27a2d7f80c7824918abe5958be6b5eb2dbe8278
-    new: a0e35ba47b6174d1f02d196daed208701d3c5193
-    log: revlist-c27a2d7f80c7-a0e35ba47b61.txt
+  - ref: refs/heads/kbuild
+    old: 25936a33af4df9733258ca19b40e726a68eade35
+    new: b7976190754ec1ab81ebeb7bcb7e805118f79b8d
+    log: revlist-25936a33af4d-b7976190754e.txt
 
---===============4355986931158428828==
+--===============3426949997834855533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c27a2d7f80c7-a0e35ba47b61.txt
+Content-Disposition: attachment; filename=revlist-25936a33af4d-b7976190754e.txt
 
-bc19e4afae1b13bb5840e8d9dfec0f0fe67d38ce man/man2/sched_setaffinity.2: EXAMPLES: Use 0 instead of getpid()
-325e7851b827450a89452a58bce78afb5c9fabe2 man/man2/futex.2: Prepare for sashimi
-9351d6f38b146423f209257ed8983f384a7fa05c man/man2/futex.2: De-duplicate information about timeouts
-d1b80994f61f16beffce3bc8ae0c8290cc19b266 man/man2/futex.2, man/man2const/FUTEX_WAIT.2const: Split FUTEX_WAIT from futex(2)
-2425f1c6ace2a9b0ab1b35a920d707693bbe294a man/man2const/FUTEX_WAIT.2const: Tweak after split
-8b8f6a64c14f000413d5ce67965f1e773216c423 man/man2/futex.2, man/man2const/FUTEX_WAKE.2const: Split FUTEX_WAKE from futex(2)
-e02f01800509ccc6e562194c6c8eacad267db943 man/man2const/FUTEX_WAKE.2const: Tweak after split
-8a9849bd2cc614ddf805b9fef2fed0db33d341bf man/man2/futex.2, man/man2const/FUTEX_FD.2const: Split FUTEX_FD from futex(2)
-d7f758ef47d22dbc3150769cbf54b3d6b9e7b76c man/man2const/FUTEX_FD.2const: Tweak after split
-178e3024de7e6361c1c9de896de0dbf5362e6011 man/man2/futex.2, man/man2const/FUTEX_REQUEUE.2const: Split FUTEX_REQUEUE from futex(2)
-b270cc2efeadff786abdda19f5630aef7605cdf6 man/man2const/FUTEX_REQUEUE.2const: Tweak after split
-65aadbccb6183b0804182e888332134a6540c4cc man/man2/futex.2, man/man2const/FUTEX_CMP_REQUEUE.2const: Split FUTEX_CMP_REQUEUE from futex(2)
-aad869d6133eaed7d910bc062784f82a2ea00f1f man/man2const/FUTEX_CMP_REQUEUE.2const: Tweak after split
-9bead1fb6aa464379819f6c60fa45b1ade8792e2 man/man2/futex.2, man/man2const/FUTEX_WAKE_OP.2const: Split FUTEX_WAKE_OP from futex(2)
-4f8f50f7276fedacefd77fce4e2a7d1d4800159b man/man2const/FUTEX_WAKE_OP.2const: Tweak after split
-ae663a6ba8e5e4cb3f2e3cd0c7c6a98f3a27065b man/man2/futex.2, man/man2const/FUTEX_WAIT_BITSET.2const: Split FUTEX_WAIT_BITSET and FUTEX_WAKE_BITSET from futex(2)
-84dc88da8c8c1f39db8059d678fb71739ad7834b man/man2const/FUTEX_WA??_BITSET.2const: Tweak after split, and add link page
-f747ffeb68acbc6d84bab238ed7190079c43162b man/man2/futex.2, man/man2const/FUTEX_LOCK_PI.2const: Split FUTEX_LOCK_PI from futex(2)
-0597168ca82477d9ed8abcae0646409313644daf man/man2const/FUTEX_LOCK_PI.2const: Tweak after split
-2cf885e9c33bdd90f5288ddca5380d186f9b7442 man/man2/futex.2, man/man2const/FUTEX_LOCK_PI2.2const: Split FUTEX_LOCK_PI2 from futex(2)
-61cbf5ff9bbf60ff09db216527486efffe7202a8 man/man2const/FUTEX_LOCK_PI2.2const: Tweak after split
-e95aef2560250b2f7a0e2e0500428fd45d54d516 man/man2/futex.2, man/man2const/FUTEX_TRYLOCK_PI.2const: Split FUTEX_TRYLOCK_PI from futex(2)
-15e2b03302ee6146e4c6938fc459f68d7b3950b4 man/man2const/FUTEX_TRYLOCK_PI.2const: Tweak after split
-770fc20089c3b16b261a7a08783aaddb798b3531 man/man2/futex.2, man/man2const/FUTEX_UNLOCK_PI.2const: Split FUTEX_UNLOCK_PI from futex(2)
-cd20b4265bb64c7eb760b76748daeb3a076381b1 man/man2const/FUTEX_UNLOCK_PI.2const: Tweak after split
-f84ecad68f946c9804979c9d197ffe0b576b3588 man/man2/futex.2, man/man2const/FUTEX_CMP_REQUEUE_PI.2const: Split FUTEX_CMP_REQUEUE_PI from futex(2)
-628c4a43a33e3ff46e2c248e1a3166ac84951b4e man/man2const/FUTEX_CMP_REQUEUE_PI.2const: Tweak after split
-1602f3f1f9870603b7133da195d7a30fa9c6c1fb man/man2/futex.2, man/man2const/FUTEX_WAIT_REQUEUE_PI.2const: Split FUTEX_WAIT_REQUEUE_PI from futex(2)
-e0db144da7ed030fd29a83b83f13789b008ac357 man/man2const/FUTEX_WAIT_REQUEUE_PI.2const: Tweak after split
-e8b597ea7957a3ad0de84a675b129b5c0ce94794 man/man2/futex.2: Tweak after making sashimi of this page
-88948d32039c3666500e0979e9c605cbc3937a22 man/man2/futex.2, man/man2const/FUTEX_*.2const: Make sashimi of futex(2)
-4f965ab610b1a6229196e03ee9d802f1c8b87c64 man/man2/open.2: Fix doc for O_CREAT | O_DIRECTORY
-54e7cfffa8387ce340f493a7dc1b6434430456e1 man/man2/: SYNOPSIS: Use array notation
-dce426993ba8f5f549b0ea8fb872ed942b099509 man/man2/mbind.2: SYNOPSIS: ffix
-3f727aab6e5f29e756ce9f7a89019869c7b07c61 man/: Fix name of /proc/sys/vm/hugetlb_shm_group
-3c2e9ebe2d5ea15a47c1669f75b280cea42a6f8b man/man2/: Fix broken references to proc_sys_vm(5)
-7929f1028b3e48827fd54e335663bcea607767b1 man/man2const/KEYCTL_SESSION_TO_PARENT.2const: SYNOPSIS: ffix
-8b0cd411191d9645cc24a41a82bf36632b79e8f2 man/man2const/: TH: Fix subsection
-b9fc84dd29174380439d4fafd5214520db98d7d8 man/man2const/PR_SET_MM_AUXV.2const: SYNOPSIS: Fix position of #include line
-efc8f8feb5bfd840edd858ad376d6836d5f400f5 man/: SYNOPSIS: Use array notation
-5e1415cc716b0c8befe22440af88bbe69ce6fe86 man/man3/: Shorten parameter names
-5899e25072f8b722020ee3c93cadff6cb5e3f839 man/man3/inet_net_pton.3: SYNOPSIS: ffix
-c23117a84d06083245ef0277602fec6e0762b596 man/man3/scalb*.3: NAME: Document the meaning of the name of these functions
-471c38fb3c5c53c6df2fad4a7353559b330c1323 etc/checkpatch/checkpatch.conf: Ignore TYPO_SPELLING
-57013e97dbc677245c67fed6c838e5fce0413ca7 man/man2const/TIOCLINUX.2const: Document TIOCL_GETBRACKETEDPASTE
-9fbe8215606e577f66aea30b1106815e7143bdce man/man2/ioctl_vt.2: Document VT_GETCONSIZECSRPOS
-d1324c82d0fedb45678d7c74cda2200f14f75a72 man/man1/iconv.1: Mention that -c does not change exit status
-e00ed36b54405ee36b3b26839a228c802da3e361 man/man2/prctl.2, man/man2const/PR_FUTEX_HASH.2const: Document PR_FUTEX_HASH
-249fa859134d815df71c8bd5c414ea0a04b66530 INSTALL: Adjust file names to match current build system organization.
-86654b987c6f8fdf78902a0c57b2245c180781ba Revert "GNUmakefile: help: Show only variables assigned with '?='"
-99c9623cee2a0fdfcadeb571cb9376b32d23f216 man/man2/chmod.2: Document fchmodat(AT_EMPTY_PATH)
-f2f77f09174fdcea4ca8088e2334fc3945be6291 man/man5/core.5: Document the new %F identifier in core_pattern
-c4f63aada8b078ff95e2d21564b95ee437652449 man/man2/cachestat.2: Add page
-f9bd8dbdcd1f10630552cf1a6d4af333ce3ed27b man/man3/malloc.3: Shorten parameter name (s/ptr/p/)
-591bef7177364e16ba7e9ed7171fbb01eb458258 man/man5/elf.5: Clarify string table reference for SHT_SYMTAB sections
-2fc4bf025adba6cb7dbc0beb3ebc2a4df48854ae man/man2/statx.2: Properly align stx_dio_read_offset_align
-684b9001d0cd0367daad5d7a7c9e3b7c040e0250 man/man2/statx.2: Add stx_atomic_write_unit_max_opt
-aefbd603d14612032c5a296746125e30b4ee696e man/man2/chmod.2: Document AT_SYMLINK_NOFOLLOW support in fchmodat(2)
-4e5a253a1b75f448c768905eafcbadae501ee9c6 man/man3/ftime.3: Reorder and clarify STANDARDS
-ab6d18f812c9adea228bb6720265e035b2e92098 man3attr/: Add subsection for attributes
-4445a5dacb3b52c1ed2c735dd2908dbcd5f87505 man/man3attr/intro.3attr: Add page
-453a8c3586ef3ec04886db5f41b9d0fc1fbddd18 man/man3attr/gnu::aligned.3attr: Add page
-6569dd9b22d256f26928ddcc398db9f123546171 share/mk/: uninstall-man: Fix support for pages with ':' in their file name
-8eea66b827a11bc8983da517499cc236c6cd97ba man/: SYNOPSIS: Don't highlight forward declarations of function parameters
-c99bfd43496f6ae3396fda67b5e0d8449cd04b06 man/: Use '.member' notation for referring to struct/union members
-a0e35ba47b6174d1f02d196daed208701d3c5193 man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
+cd5f1534a37e0b05733a8714195ec90474c20e82 kconfig: qconf: do not show checkbox icon for choice
+604f5b2127fb76e15dcc6dabbd73b541817a2fba kconfig: qconf: show selected choice in the Value column
+3c292cd0047c8758a2db7a44e441314e78b4db00 kconfig: rename menu_get_parent_menu() to menu_get_menu_or_parent_menu()
+7d1bfaa457686b1e791de03450a3d49f28bdd022 kconfig: re-add menu_get_parent_menu() that returns parent menu
+2f2d60f489f0b2410f33103fa42296f7466673e0 kconfig: gconf: make columns resizable
+f72ed4c6a375e52a3f4b75615e4a89d29d8acea7 kconfig: gconf: fix potential memory leak in renderer_edited()
+cd34fd0b4f83be1bcff0bac65a45c45a1f918b29 kconfig: gconf: always destroy dialog in on_window1_delete_event()
+852e76fbacf065bf4edff205a23537553c45e7f1 kconfig: gconf: remove old #ifdef GTK_CHECK_VERSION
+764e2f9d2a8f8c0ad2a85313666c665f0eefe576 kconfig: gconf: remove empty if-block
+4b9c926fb46fcf6bdcfbb825bb900f8f6b821d4a kconfig: gconf: remove meaningless code in init_main_window()
+1042ebbdf65a7042965e23e5b76d8cadbe6a800a kconfig: gconf: remove unneeded gtk_tree_view_set_headers_visible() calls
+618f7ad05612d62c5b0c14e9fde561e6c81c3187 kconfig: gconf: remove gtk_tree_view_column_set_visible() calls
+f1ff4615405b19b9dd1c477a2a615a6c346be4cf kconfig: gconf: remove gtk_widget_realize() calls
+be3e3c9ee54ca3d41e31dd5aebc49ecd25e69ac1 kconfig: gconf: remove gtk_tree_view_set_rules_hint() calls
+64afe3c351086aa4d2619cf1dfb9237636340e04 kconfig: gconf: remove unnecessary gtk_set_locale() call
+014c5163bce5f31e9bd82e4ec001278d3c5ee3cd kconfig: gconf: remove internal-child="image" nodes from glade
+08141d81a9a352ff84f497e0d26ba3e0bef8bd1f kconfig: gconf: remove parents[] array and indent variable
+53f7a002ab0961a10d541cf1464e368d011fcb81 kconfig: gconf: remove unnecessary NULL checks for tree1 and tree2
+29cfdf462d9161b2d650d8c07314a277741d7c47 kconfig: gconf: remove unneeded variable in on_split_clicked()
+54f517a94ff5d2fd490f9c1db2c35cc96584ba1a kconfig: gconf: remove unneeded variables in on_treeview*_button_press_event()
+dc8aba7b9ce25f9c9c3c8be70ae5134a6ef1ce33 kconfig: gconf: remove unused 'color' variable
+ace2e1246b4a4aa21288d4f147bc65721ddd942a kconfig: gconf: add static qualifiers to variables
+90980863e8c4779bfb0744c4b1929de1fc2091ab kconfig: gconf: move init_*() functions below
+0eaff723439456e8bc7bce6223b00f400df92c20 kconfig: gconf: refactor view setting code
+36ad3bc1b14b81d09386943109a0d38bf6fbf27c kconfig: gconf: grey out button for current view
+65cda4804057dfd905c76922bee8242d8a85fff4 kconfig: gconf: move the main window event handlers below
+7a5ca886b03f545f7a57190c7c5549b590817da0 kconfig: gconf: move button1 and save1 initialization code
+653fe6ac26a53470863687fd831a890729359eba kconfig: gconf: add static qualifiers to event handlers
+469574d1716c33f55778ca8b2f593d125c1fe509 kconfig: gconf: remove glade_xml_signal_autoconnect() call
+e5066c0a5ec971d2801543048cede6cd2d3223e8 kconfig: gconf: make key_press_event work in left pane too
+770cfadc593eab24c96bca95a1c3fa8d11facf88 kconfig: gconf: avoid hardcoding model2 in on_treeview2_cursor_changed()
+a29429ede62dbe3155fd0d3cd62af050bd892df8 kconfig: gconf: avoid hardcoding model2 in renderer_edited()
+1258baea48e2e43f0d40585f01a3d97a1c2550ea kconfig: gconf: avoid hardcoding model* in on_treeview*_button_press_event()
+04a84cdc98097102f04cad668cd694366357b67e kconfig: gconf: add on_save_clicked() event handler
+1015cf8b783e7f8c5e69e2c164ae017132fca2d0 kconfig: gconf: use GtkFileChooser in on_load1_activate()
+f45430a92cb9bdec08678161f76bae147a2a2bbf kconfig: gconf: use GtkFileChooser in on_save_as1_activate()
+b66c61d4785944067bff565c40011e97ba843aa3 kconfig: gconf: use GdkPixbuf in replace_button_icon()
+4b153b56e55ac928881db2497f1645a8db79f372 kconfig: gconf: refactor replace_button_icon()
+938282a6e288a4072079ccab47dff4b4500b536f kconfig: gconf: make introduction, about, license dialogs modal
+52aeedba1353f6a138bb952164cf491cc8949033 kconfig: gconf: remove global 'tree' variable
+0ef56f59e4b02b1bf4778e307269cc750168b9d4 kconfig: gconf: merge 'current' and 'browsed' global variables
+e041fb8a945a2953b670c91ddcfed0ce42c1622d kconfig: gconf: preserve menu selection when switching view mode
+9e34e3fd3c976ae3d26881593f1a081ce0b8ee0c kconfig: gconf: use GtkTreeModelFilter to control row visibility
+4144f04fba68265a7c94461445843c9760fc0f78 kconfig: gconf: remove global 'model1' and 'model2' variables
+aab5bad514efa6092bb36e49609ab596fb21c36a kconfig: gconf: remove init_tree_model()
+a641829152214e98944f5f1885a080e6e6c2036b kconfig: gconf: inline fill_row() into set_node()
+5d1b6664d06b280b51dd1b5e35d2f76f999650b2 kconfig: gconf: do not reconstruct tree store when a symbol is changed
+3693ce805abc288d48cd10a418b32b770d372b01 kconfig: gconf: inline display_list() into set_view_mode()
+503673b6a57d400f40a72311ab677af168edb247 kconfig: gconf: remove dead code in display_tree_part()
+dbcd8af013c7ca9feebfb03e5a7a9280e2aa4e65 kconfig: gconf: replace GDK_space with GDK_KEY_space
+ad6009e45c3bfa5b3043a1c58d0352dbc28e0b0e kconfig: gconf: replace GTK_STOCK_{OK,NO,CANCEL}
+b7ff7abbb8e7e7325de9d055beca1094003c9b58 kconfig: gconf: remove "tooltips" property from glade
+8b28c22e42536afe49545fa1f5720423a42139d8 kconfig: gconf: replace "tooltip" property with "tooltip-text"
+cff550df321e05b230232112d08d0d01967e6e4d kconfig: gconf: remove unnecessary default message in text view
+7d4f25a86e21475d02773ae62515e6e46383e6d7 kconfig: gconf: use gtk_check_menu_item_get_active() accessor
+814383b46dd5f920dca106e53fb2ddbc19c13a85 kconfig: gconf: use gtk_dialog_get_content_area() accessor
+8e27f8468271269760b0636adcbc94e4e1fed616 kconfig: gconf: remove GtkHandleBox from glade
+8920e7dd4175c8e5b726cc7fb59a3900771d10f6 kconfig: nconf: Ensure null termination where strncpy is used
+b7976190754ec1ab81ebeb7bcb7e805118f79b8d docs: kconfig: add alldefconfig to the all*configs
 
---===============4355986931158428828==--
+--===============3426949997834855533==--
