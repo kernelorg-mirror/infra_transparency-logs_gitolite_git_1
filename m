@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5559844419760468394=="
+Content-Type: multipart/mixed; boundary="===============7894225207225086655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 30 Jun 2025 07:32:25 -0000
-Message-Id: <175126874581.3313821.6576911488949723216@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 07:32:37 -0000
+Message-Id: <175126875744.3314154.2508953332881292584@gitolite.kernel.org>
 
---===============5559844419760468394==
+--===============7894225207225086655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 49b393af3130c7712c7e8f215f4126c9a8060fa6
-    new: 7b4c5a37544ba22c6ebe72c0d4ea56c953459fa5
-    log: revlist-49b393af3130-7b4c5a37544b.txt
+  - ref: refs/heads/sched/urgent
+    old: 02d954c0fdf91845169cdacc7405b120f90afe01
+    new: b18ad3387895ae22eb784f721d476094ad71899b
+    log: revlist-02d954c0fdf9-b18ad3387895.txt
 
---===============5559844419760468394==
+--===============7894225207225086655==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-49b393af3130-7b4c5a37544b.txt
+Content-Disposition: attachment; filename=revlist-02d954c0fdf9-b18ad3387895.txt
 
-ffa74d44f4b95a97b36a038c66f53e4edeaffb99 kmsan: test: add module description
 7266f590ca1fab3adf7c2546894dc418f2d86ba6 MAINTAINERS: add mm swap section
 2da20fd904f87f7bb31b79719bc3dda4093f8cdb kernel/rcu/tree_stall: add /sys/kernel/rcu_stall_count
 3c4c39cbde6aab4b77bcb12b7879ab5e121f4ca4 Merge tag 'drm-misc-fixes-2025-05-28' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
@@ -1049,6 +1048,7 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
-7b4c5a37544ba22c6ebe72c0d4ea56c953459fa5 perf/core: Fix the WARN_ON_ONCE is out of lock protected region
+07c2f083d2f038e89f82afad8af97774ea9feea7 sched: Fix preemption string of preempt_dynamic_none
+b18ad3387895ae22eb784f721d476094ad71899b sched/core: Fix migrate_swap() vs. hotplug
 
---===============5559844419760468394==--
+--===============7894225207225086655==--
