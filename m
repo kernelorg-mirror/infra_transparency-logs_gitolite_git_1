@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2885963977599858520=="
+Content-Type: multipart/mixed; boundary="===============1832895289952636641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 30 Jun 2025 11:38:35 -0000
-Message-Id: <175128351555.3538191.11246132813312096030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Jun 2025 11:38:39 -0000
+Message-Id: <175128351959.3538371.17563910786190728950@gitolite.kernel.org>
 
---===============2885963977599858520==
+--===============1832895289952636641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 86731a2a651e58953fc949573895f2fa6d456841
     new: eeca209124bb694650026216d3e59cae02d91686
     log: revlist-86731a2a651e-eeca209124bb.txt
 
---===============2885963977599858520==
+--===============1832895289952636641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1751283552 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1751283513-ffeab827da8c40db24535d8e251559c4c5b68e20
+pusher C3F436CA30F5D8EB 1751283556 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1751283516-c31e6de78997a7ce8577c52c64d7d4f1122f2172
 
-86731a2a651e58953fc949573895f2fa6d456841 eeca209124bb694650026216d3e59cae02d91686 refs/heads/for-6.16
+86731a2a651e58953fc949573895f2fa6d456841 eeca209124bb694650026216d3e59cae02d91686 refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid2AACgkQJNaLcl1U
-h9Cvtwf/QHSLK/LKs8e2F4JzLkuIpGXleL1g5x4f4yzgY0FG3I2tIX8OuP3cdpDt
-RpbdWTZTL5PHVToaZsxkMha7MIRkkRRJ1ZWsCKUFvfNj2xEGdxy6a2PZrjpZ7THA
-ccJhJjW/00uxvPqZJFbovv6VDj0K/BWRt7hNET0nVxbQtOKLJcDGu8ovz2Wf5pkz
-HugvLMw7NnYPdZHzgRXeu5UBYCZQzF1kHljin3bjUewyHRCSKhY30nXxrUG7Q0Mo
-nfAsz7SEBGYaQT+r5/KyIaBjPN1S4nmzqmLilesodKSKawnJcnuXpp2Wcf5995aS
-TM8FjZUmMudQloyWJKmZYwUayEyguA==
-=Wc43
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid2QACgkQJNaLcl1U
+h9CIoQf9EZT87JbxgkKGp/B5zfximctEy1vBoQb0XmELsVjE4xAsNUlxqc7YOrWx
+sBm0JKT5e7Ayg7AVG1YsCpOyZMJK22qUEeiKBSNB/0eIJu0iXKNXwuxQzu/XSviL
+eZeIy8qE4hTttkJ77T+u5C160765fI11/ZSngvw30Lce1DUJ6WXN7rVv6DAZ2TzZ
+E+mCE5PWp2xrNoyPRskVliy3sMQ+4cd2+POk0gSnP1M+AyNOfo0uA3JZL4IytMty
+xkWqzcVB2xediOswGfGv8Uzc4mHI3cytxRbqVqB0kMPaE3bVDq047jkRywIfuOU5
+asL0xq2Y8vp5lDGnARP6SsFut7+2Aw==
+=Y4Y8
 -----END PGP SIGNATURE-----
 
---===============2885963977599858520==
+--===============1832895289952636641==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -401,4 +401,4 @@ d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
 ca46946a482238b0cdea459fb82fc837fb36260e regulator: core: fix NULL dereference on unbind due to stale coupling data
 eeca209124bb694650026216d3e59cae02d91686 regulator: tps65219: Fix devm_kmalloc size allocation
 
---===============2885963977599858520==--
+--===============1832895289952636641==--
