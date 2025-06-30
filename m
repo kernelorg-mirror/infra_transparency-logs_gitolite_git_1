@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 30 Jun 2025 15:58:13 -0000
-Message-Id: <175129909398.3775328.11961593567948092083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 30 Jun 2025 15:58:51 -0000
+Message-Id: <175129913189.3775797.11659476200949542682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/kdevops
-    old: 9626dc2ce51a8c60ff9b62acdaa2065fe24e6935
-    new: 4e988941863ec60a70acc656f81bc1c2c11eac97
+  - ref: refs/heads/main
+    old: 99e3eb454cc48b9f2691256780aeb247bdc0ee3d
+    new: 647496422ba9d2784fb8e15b3fda7fe801b1f2ff
     log: |
-         4e988941863ec60a70acc656f81bc1c2c11eac97 nfs: scan write data for large swaths of NULs
+         5ec353dbff4fd5fed21fa2104c3e01444cc06c89 net: ethtool: take rss_lock for all rxfh changes
+         739d18cce105ce3c8437ad56bec3fbe62f0210bb net: ethtool: move rxfh_fields callbacks under the rss_lock
+         040cef30b5e67271e3193e0206f82b206fc97095 net: ethtool: move get_rxfh callback under the rss_lock
+         647496422ba9d2784fb8e15b3fda7fe801b1f2ff Merge branch 'net-ethtool-consistently-take-rss_lock-for-all-rxfh-ops'
          
