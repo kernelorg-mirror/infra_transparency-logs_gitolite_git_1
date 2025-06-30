@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8412737553043236867=="
+Content-Type: multipart/mixed; boundary="===============6521822864947335808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 30 Jun 2025 17:54:45 -0000
-Message-Id: <175130608557.3879896.7984104256888604632@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 17:54:48 -0000
+Message-Id: <175130608806.3879982.17978210590536510961@gitolite.kernel.org>
 
---===============8412737553043236867==
+--===============6521822864947335808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 5c46351a1ceec0d17692ea04519b3050e88ae3a8
-    new: ca2f83d122fd27459785689c7f5927bcc7aaaec9
-    log: revlist-5c46351a1cee-ca2f83d122fd.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 666c23af755dccca8c25b5d5200ca28153c69a05
+    new: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
+    log: revlist-666c23af755d-d0b3b7b22dfa.txt
 
---===============8412737553043236867==
+--===============6521822864947335808==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5c46351a1cee-ca2f83d122fd.txt
+Content-Disposition: attachment; filename=revlist-666c23af755d-d0b3b7b22dfa.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
@@ -265,13 +265,6 @@ e97f9540ce001503a4539f337da742c1dfa7d86a smb: client: remove \t from TP_printk s
 c4dce0c094a89b1bc8fde1163342bd6fe29c0370 Merge tag 'spi-fix-v6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 0a46f60a9fe16f5596b6b4b3ee1a483ea7854136 cxl/edac: Fix using wrong repair type to check dram event record
 fa6f092cc0a02d0fcee37e9e8172eda372a03d33 libbpf: Fix possible use-after-free for externs
-a5d0b9e32745277644cda8d7d334e7080bd339bf i2c: imx: fix emulated smbus block read
-56ad91c1aa9c18064348edf69308080b03c9dc48 i2c: robotfuzz-osif: disable zero-length read messages
-cbdb25ccf7566eee0c2b945e35cb98baf9ed0aa6 i2c: tiny-usb: disable zero-length read messages
-942e1aece13e4007656e41d3182c0adf05cf08b8 i2c: designware: Initialize adapter name only when not set
-c8dc579169738a3546f57ecb38e62d3872a3cc04 i2c: amd-isp: Initialize unique adapter name
-577c1e0ef351e41aba764816232a9feb7a9b3969 platform/x86: Use i2c adapter name to fix build errors
-666c23af755dccca8c25b5d5200ca28153c69a05 i2c: omap: Fix an error handling path in omap_i2c_probe()
 5e9388f7984a9cc7e659a105113f6ccf0aebedd0 selftests/bpf: adapt one more case in test_lru_map to the new target_free
 c4890963350dcf4e9a909bae23665921fba4ad27 atm: idt77252: Add missing `dma_map_error()`
 7b515f35a911fdc31fbde6531828dcd6ae9803d3 net: enetc: Correct endianness handling in _enetc_rd_reg64
@@ -373,14 +366,5 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
-024499a4c4c35ed01c8e4fe2f43199842e0e1541 i2c: tegra: Add missing kernel-doc for dma_dev member
-724924942ab2a0bdacdedfefd26791ef316c557c dt-bindings: i2c: renesas,riic: Move ref for i2c-controller.yaml to the end
-ac54e31a205346899ef5646d0456b97179901070 dt-bindings: i2c: renesas,riic: Document RZ/T2H and RZ/N2H support
-7194d296ce38cee0d2b6aceb55a5a0f3e23b419a i2c: riic: Pass IRQ desc array as part of OF data
-2670dde4b7dbc837c988ad0a3869fbdb7e1c587a i2c: riic: Move generic compatible string to end of array
-8efbabfe5cb89bd666ea3ae2c78536ab3058a6fe i2c: riic: Add support for RZ/T2H SoC
-2ba2bb5bfb451dcfd5a7abe001e4a99b730ad533 dt-bindings: i2c: nxp,pnx-i2c: allow clocks property
-9b7d9d7ab4084cbc51b14c4733e78a2d8366c6ce i2c: stm32f7: Use str_on_off() helper
-ca2f83d122fd27459785689c7f5927bcc7aaaec9 i2c: imx: use guard to take spinlock
 
---===============8412737553043236867==--
+--===============6521822864947335808==--
