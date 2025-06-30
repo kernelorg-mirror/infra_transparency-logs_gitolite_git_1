@@ -1,42 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============7540617631133738671=="
+Content-Type: multipart/mixed; boundary="===============1308998144803856404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Mon, 30 Jun 2025 10:30:07 -0000
-Message-Id: <175127940737.3474603.7180965747417630475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 30 Jun 2025 10:41:49 -0000
+Message-Id: <175128010982.3483438.5364718831797914864@gitolite.kernel.org>
 
---===============7540617631133738671==
+--===============1308998144803856404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: 3998b151264b559872838c5af3b9df90724f0cfa
-    new: 16d8e6e68c7625721a69070e6740d248231b0512
-    log: revlist-3998b151264b-16d8e6e68c76.txt
+  - ref: refs/heads/review-ilpo-fixes
+    old: 690be4bc589a145dc211b8d66b8f851713abd344
+    new: af14ed3fcb2703d1185bf10531fee87e6e1cc60b
+    log: |
+         b1c26e059536d8acbf9d508374f4b76537e20fb7 Move FCH header to a location accessible by all archs
+         af14ed3fcb2703d1185bf10531fee87e6e1cc60b i2c: Re-enable piix4 driver on non-x86
+         
 
---===============7540617631133738671==
+--===============1308998144803856404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3998b151264b-16d8e6e68c76.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2123c45d611e2816ae62073d5a0bcf25e14d4da4 netfs: Fix double put of request
-7c019882bdc266311c3bd54c512354f6035a67c9 netfs: Provide helpers to perform NETFS_RREQ_IN_PROGRESS flag wangling
-a7efdc03be6eae14ce15589acbeff17a8400e860 netfs: Fix looping in wait functions
-40c8042e61fe1330f203d784e48aa5e4fc910d5e netfs: Fix ref leak on inserted extra subreq in write retry
-9344db30f51d6f96adf178c8e60e44cb923863b5 smb: client: set missing retry flag in smb2_writev_callback()
-4b53278a82f4f091645153fe2eafe04fc78ecd83 smb: client: set missing retry flag in cifs_readv_callback()
-a7c7bc77a99b57ce755e98aa9b16f09efe9593f4 smb: client: set missing retry flag in cifs_writev_callback()
-c2bdebc9d595d6aefc5a818c67d48e00c8aa1a91 smb: client: fix warning when reconnecting channel
-3413f8d2b462e1cb93e49f626ce789487fd2fc1a netfs: Fix i_size updating
-fdf35161706fb08f4c1f7da311d9d522a9c9b417 netfs: Merge i_size update functions
-1fa5eb50009fb8532700957a5e9e29fa2710c017 netfs: Renumber the NETFS_RREQ_* flags to make traces easier to read
-16d8e6e68c7625721a69070e6740d248231b0512 netfs: Update tracepoints in a number of ways
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1751280145 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1751280106-fb39af969fc398dd308a7929b0d6f39a5a501d03
 
---===============7540617631133738671==--
+690be4bc589a145dc211b8d66b8f851713abd344 af14ed3fcb2703d1185bf10531fee87e6e1cc60b refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaGJqEwAKCRBZrE9hU+XO
+MTwhAQCvRSsG1oEJV/2XlkEYL6wL1jIbFkwfVB9VyL3nh5nBzgD/cmYM6Hw4TY8/
+mYynmewmT3oZmmKTg5bO/tyb5X4xPwM=
+=QhrC
+-----END PGP SIGNATURE-----
+
+--===============1308998144803856404==--
