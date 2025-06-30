@@ -1,67 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============2582603035157612868=="
+Content-Type: multipart/mixed; boundary="===============6844484201246538604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 30 Jun 2025 20:52:03 -0000
-Message-Id: <175131672344.4030567.5090141210996622603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 30 Jun 2025 21:09:00 -0000
+Message-Id: <175131774057.4043159.8822278431294200094@gitolite.kernel.org>
 
---===============2582603035157612868==
+--===============6844484201246538604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 078ffdc22b98b49d19f573f7badbadb6b3b3a542
-    new: 4e86d9d89f33e0eabcb1db2272cd8f158f46c7d8
-    log: revlist-078ffdc22b98-4e86d9d89f33.txt
+  - ref: refs/heads/dev-queue
+    old: 60a93637a6c83d381440dfa46fae4de75d02f9a7
+    new: 7d0ed75968573290cf921ae6f6ee0e985d8beab9
+    log: revlist-60a93637a6c8-7d0ed7596857.txt
 
---===============2582603035157612868==
+--===============6844484201246538604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-078ffdc22b98-4e86d9d89f33.txt
+Content-Disposition: attachment; filename=revlist-60a93637a6c8-7d0ed7596857.txt
 
-7ea488cce73263231662e426639dd3e836537068 PCI: endpoint: pci-epf-vntb: Return -ENOENT if pci_epc_get_next_free_bar() fails
-a079d83c4afd4896f7f29bd9e807cb382043b360 PCI: endpoint: pci-epf-vntb: Align MW naming with config names
-a02fd05661d73a8507dd70dd820e9b984490c545 PCI: Extend isolated function probing to LoongArch
-4eacb24f6fa342a672d6194d3ad1a44e6d923209 PCI: endpoint: pci-epf-vntb: Allow BAR assignment via configfs
-9989e0ca7462c62f93dbc62f684448aa2efb9226 PCI: Fix link speed calculation on retrain failure
-b85af48de3ece4e5bbdb2248a5360a409991cf67 PCI: Adjust the position of reading the Link Control 2 register
-817f989700fddefa56e5e443e7d138018ca6709d PCI: Rename PCIE_RESET_CONFIG_DEVICE_WAIT_MS to PCIE_RESET_CONFIG_WAIT_MS
-bbc6a829ad3f054181d24a56944f944002e68898 PCI: rockchip-host: Use macro PCIE_RESET_CONFIG_WAIT_MS
-c7eb9c5e1498882951b7583c56add0b77bfc162e PCI: dw-rockchip: Wait PCIE_RESET_CONFIG_WAIT_MS after link-up IRQ
-15b6b243cc2b1017cf89e2477aa0b4e1a306a82a PCI: qcom: Wait PCIE_RESET_CONFIG_WAIT_MS after link-up IRQ
-80dc18a0cba8dea42614f021b20a04354b213d86 PCI: dwc: Ensure that dw_pcie_wait_for_link() waits 100 ms after link up
-d7467bc72ce4e3f64062017d6c9ae3816e8a7b0e PCI: Move link up wait time and max retries macros to pci.h
-470f10f18b482b3d46429c9e6723ff0f7854d049 PCI: Reduce PCIE_LINK_WAIT_SLEEP_MS
-032f05be51ab4a1d67d08a8083ec16dd934d255e PCI: dwc: Simplify the return value of PTM debugfs functions returning bool
-d79123d79a8154b4318529b7b2ff7e15806f480b PCI: endpoint: Fix configfs group list head handling
-910bdb8197f9322790c738bb32feaa11dba26909 PCI: endpoint: Fix configfs group removal on driver teardown
-a6f494becf09c9ebba72ed67d3728f6811daa634 PCI/AER: Add message when AER_MAX_MULTI_ERR_DEVICES limit is hit
-55e2fd3578e820446ab5fa47a71791f7afd558ba Merge branch 'pci/aer'
-8dba2757280a8aad898e8019f617724966761a32 Merge branch 'pci/aspm'
-a2ceb573670d1c4d18cb467f7d5a6f404563b488 Merge branch 'pci/enumeration'
-fa4757eb0751d923e1e2e5d991a62cd8ae5ee49e Merge branch 'pci/pwrctrl'
-189a3a9b0c06fce44d06c7e5b64e055414968ddd Merge branch 'pci/dt-bindings'
-9e946052c50aef8d8e9ef9f7c250034a5f4848f5 Merge branch 'pci/endpoint/core'
-6b6fe2df4f5697c6ad35a11472f62986c51c3706 Merge branch 'pci/endpoint/epf-vntb'
-78805a4ab0fccee69779533893bcb3ac294f51d4 Merge branch 'pci/controller/linkup-fix'
-9c207e7696ade67ea9f0abf2d4940a3d7802c2ea Merge branch 'pci/controller/altera'
-3dee7e218b094030b1c42d11ce0fbfb986d65bf9 Merge branch 'pci/controller/brcmstb'
-27a856485443bbac87dda8abda67c11cc88c35fe Merge branch 'pci/controller/cadence'
-0fcdee82077e027196451641f2f9617d3b71908b Merge branch 'pci/controller/dwc'
-c330da5024d93fee24b4ab54a2a4f04873af2ecd Merge branch 'pci/controller/dw-rockchip'
-3aeaacf20ea02f471bc9ddf09977b7c6e969b269 Merge branch 'pci/controller/mediatek-gen3'
-f99d5bf4d003ed99efa63218fce9d4f6b2aee985 Merge branch 'pci/controller/mobiveil'
-4587c52a624303e6f1b2785715d778bc4859797f Merge branch 'pci/controller/rockchip'
-57a5c3abd8cfacd4b9163df6bc866dd515a182ac Merge branch 'pci/controller/rockchip-host'
-68023c1592a4ee48d30a6e433e970c3aeddef391 Merge branch 'pci/controller/sophgo'
-45975ae2547f2d9f8604018d3c1b8ad3c6edac66 Merge branch 'pci/controller/vmd'
-4e86d9d89f33e0eabcb1db2272cd8f158f46c7d8 Merge branch 'pci/misc'
+dcec0636074b98a38543092b3f4e790c5276bda0 ixgbe: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+c2fbfddcf34c7d2dcb2b8b6492176761c20219ed i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+8316394e6d5240e94a78b07a140a82a6b99c339b ice: add 40G speed to Admin Command GET PORT OPTION
+1619aa16b731f4ba1ba38e408fa8677f19bb6b75 idpf: convert control queue mutex to a spinlock
+50fe8da9692019b20f5ce05ad3be8538589a2a69 ice: add E835 device IDs
+3fda476265b9afacca899668fcde3401accb8317 ice: add NULL check in eswitch lag check
+e7e065e2ed14068997c50de3072560c2cf80f574 idpf: return 0 size for RSS key if not supported
+ae2a6174ad815fbd67af69803f73b9fce5385a1b igc: disable L1.2 PCI-E link substate to avoid performance issue
+c101c3fd38af2b05c1211f3c72769e1f8ed120a6 devlink: add overwrite mask from factory settings
+e2d10e2c3ddf78208cab64e419e45efd748e8047 ice: add overwrite mask from factory settings
+32273f07b069c7becb4b146d1b5db0f48d61970d ixgbe: add overwrite mask from factory settings
+2626cc2cda51fc20e9ef06493863f61c61710e6a igbvf: remove unused interrupt counter fields from struct igbvf_adapter
+c892bd3cee0c4a5f8cdc488f8955d259ba6a27d9 igbvf: add tx_timeout_count to ethtool statistics
+0ea19e6c55bd4d0d95cae9d42a13cc1f1de9e46b ixgbe: initialize aci lock before it's used
+7ee675cf2aebcbc18dfbb5b841eba551b34ff3bf i40e: report VF tx_dropped with tx_errors instead of tx_discards
+a80495a30f9a3b33d09d54d9ed58a823e266a768 ethernet: intel: fix building with large NR_CPUS
+a75c57e864aef5b22c8df3976faea39719ec4a5f ice: convert ice_add_prof() to bitmap
+4e5484ec65030d6b0dda923dc58ec147624d4d53 idpf: add cross timestamping
+d387af68cb6601e7d31ef7bb7c533573345824e3 ice: add support for reading and unpacking Rx queue context
+8f79fe8770a5047ac7592eb37f47aad371e7a245 ice: add functions to get and set Tx queue context
+4276a17bd811108bff94ca2519d999ca29012c1e ice: save RSS hash configuration for migration
+c60ad6abe2138ac5e3f923725c04527869f0bb81 ice: move ice_vsi_update_l2tsel to ice_lib.c
+06fdd2f286a022320073af5332dfea5a5c6881cc ice: expose VF functions used by live migration
+5e4fbb44df345ee097c01cbaee3ec96c2a9d5964 ice: use pci_iov_vf_id() to get VF ID
+e72595b96206b200479e973c2bc2e21219d0dbef ice: avoid rebuilding if MSI-X vector count is unchanged
+f74a10e007993ac06441d83487385872294d04a8 ice: introduce ice_get_vf_by_dev() wrapper
+7ccb562e358cda3e612f07e1be539e36fd41bb90 igc: Relocate RSS field definitions to igc_defines.h
+f27d7f22e143728759509511ad3bdda3557c3e6d igc: Add wildcard rule support to ethtool NFC using Default Queue
+43e7e2ceda8e2b629204db1d0606e5d881dd87bd ixgbe: spelling corrections
+200cca66af29bbf833a29c22ab07170608f8cb3d idpf: preserve coalescing settings across resets
+498c68ccdff595ef1c03c2cfa1bc7be5cbc6c8e2 ice: check correct pointer in fwlog debugfs
+7d0ed75968573290cf921ae6f6ee0e985d8beab9 i40e: When removing VF MAC filters, only check PF-set MAC
 
---===============2582603035157612868==--
+--===============6844484201246538604==--
