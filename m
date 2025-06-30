@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1832895289952636641=="
+Content-Type: multipart/mixed; boundary="===============5953045448271199258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 30 Jun 2025 11:38:39 -0000
-Message-Id: <175128351959.3538371.17563910786190728950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 30 Jun 2025 11:38:47 -0000
+Message-Id: <175128352771.3538775.13008237381290229807@gitolite.kernel.org>
 
---===============1832895289952636641==
+--===============5953045448271199258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.16
-    old: 86731a2a651e58953fc949573895f2fa6d456841
-    new: eeca209124bb694650026216d3e59cae02d91686
-    log: revlist-86731a2a651e-eeca209124bb.txt
+  - ref: refs/heads/for-6.16
+    old: b07f349d1864abe29436f45e3047da2bdd476462
+    new: fa60c094c19b97e103d653f528f8d9c178b6a5f5
+    log: revlist-b07f349d1864-fa60c094c19b.txt
 
---===============1832895289952636641==
+--===============5953045448271199258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1751283556 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1751283516-c31e6de78997a7ce8577c52c64d7d4f1122f2172
+pusher C3F436CA30F5D8EB 1751283564 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1751283525-3f36bbc1b4ab11dc66c79228a0125bfb8ac884e0
 
-86731a2a651e58953fc949573895f2fa6d456841 eeca209124bb694650026216d3e59cae02d91686 refs/heads/regulator-6.16
+b07f349d1864abe29436f45e3047da2bdd476462 fa60c094c19b97e103d653f528f8d9c178b6a5f5 refs/heads/for-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid2QACgkQJNaLcl1U
-h9CIoQf9EZT87JbxgkKGp/B5zfximctEy1vBoQb0XmELsVjE4xAsNUlxqc7YOrWx
-sBm0JKT5e7Ayg7AVG1YsCpOyZMJK22qUEeiKBSNB/0eIJu0iXKNXwuxQzu/XSviL
-eZeIy8qE4hTttkJ77T+u5C160765fI11/ZSngvw30Lce1DUJ6WXN7rVv6DAZ2TzZ
-E+mCE5PWp2xrNoyPRskVliy3sMQ+4cd2+POk0gSnP1M+AyNOfo0uA3JZL4IytMty
-xkWqzcVB2xediOswGfGv8Uzc4mHI3cytxRbqVqB0kMPaE3bVDq047jkRywIfuOU5
-asL0xq2Y8vp5lDGnARP6SsFut7+2Aw==
-=Y4Y8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid2wACgkQJNaLcl1U
+h9Aa1Af/ZsQaYKREaLLtcS41uTmD9WVqeFZuLDz99dodYPFYeGOVyCdwmSWCbiro
+tZGxiq2FwFyKM8+bZG5PUM42wiwT8ruh7RAFgY+9GnOSmDEgpbsAjGSnLsjdsFyq
+RpFy0D/Pf/KhntxUsxuBwedk464FC3yxvA9VR9HV461ciViWIJUhwH7S4l2xcAVE
+GP61pfrzm2NyysZeSvpYr5+ACoX/vSa0MGdwoMkzdmQ5WR7I0qe8td+uhTIZpogL
+oY9Jav4qW/FIMmE7uRDsmcnOvJP/a+cFG/UXLiqjzxkU6PZH3p7sbeEb/UHAQd6g
+rhHSiwNg7uetySHocrEzWKe1OZnstA==
+=IyT/
 -----END PGP SIGNATURE-----
 
---===============1832895289952636641==
+--===============5953045448271199258==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-86731a2a651e-eeca209124bb.txt
+Content-Disposition: attachment; filename=revlist-b07f349d1864-fa60c094c19b.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
@@ -250,7 +250,6 @@ f23c52aafb1675ab1d1f46914556d8e29cbbf7b3 serial: imx: Restore original RXTL for 
 66abb996999de0d440a02583a6e70c2c24deab45 drm/amd/display: Fix AMDGPU_MAX_BL_LEVEL value
 6847b3b6e84ef37451c074e6a8db3fbd250c8dbf drm/amd/display: Add sanity checks for drm_edid_raw()
 6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e ASoC: SOF: Intel: hda: Use devm_kstrdup() to avoid memleak.
-b07f349d1864abe29436f45e3047da2bdd476462 spi: spi-cadence-quadspi: Fix pm runtime unbalance
 62207293479e6c03ef498a70f2914c51f4d31d2c drm/xe/display: Add check for alloc_ordered_workqueue()
 9127a69c7193ad47047ff968a2de9161d5c93d37 drm/xe/hwmon: Fix xe_hwmon_power_max_write
 5c4acbc8ce9025fe6e318966af8d3c42ffc6e9ca bcachefs: Don't unlock the trans if ret doesn't match BCH_ERR_operation_blocked
@@ -398,7 +397,7 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
-ca46946a482238b0cdea459fb82fc837fb36260e regulator: core: fix NULL dereference on unbind due to stale coupling data
-eeca209124bb694650026216d3e59cae02d91686 regulator: tps65219: Fix devm_kmalloc size allocation
+96893cdd4760ad94a438c1523cc5ca2470e04670 spi: Raise limit on number of chip selects to 24
+fa60c094c19b97e103d653f528f8d9c178b6a5f5 spi: spi-fsl-dspi: Clear completion counter before initiating transfer
 
---===============1832895289952636641==--
+--===============5953045448271199258==--
