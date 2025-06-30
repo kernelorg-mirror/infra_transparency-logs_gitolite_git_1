@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2156597011598369854=="
+Content-Type: multipart/mixed; boundary="===============5945109446901861617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 30 Jun 2025 00:27:37 -0000
-Message-Id: <175124325711.2907065.6256553979693601304@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 00:30:09 -0000
+Message-Id: <175124340931.2910418.3995121507604364262@gitolite.kernel.org>
 
---===============2156597011598369854==
+--===============5945109446901861617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 86731a2a651e58953fc949573895f2fa6d456841
-    new: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    log: revlist-86731a2a651e-d0b3b7b22dfa.txt
+  - ref: refs/heads/nfsd-next
+    old: 2e7381adb959b25dfa48cd5b822a6aa02993229a
+    new: 84a25d9ff40d90750a461cbbe853676642aca674
+    log: revlist-2e7381adb959-84a25d9ff40d.txt
 
---===============2156597011598369854==
+--===============5945109446901861617==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-86731a2a651e-d0b3b7b22dfa.txt
+Content-Disposition: attachment; filename=revlist-2e7381adb959-84a25d9ff40d.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
@@ -373,5 +373,24 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
+4242d6569258f4ce33912ba3f44dd0eb0dea91c6 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+25e0176ba9e054b2349c04b52bedfe5091ad2a78 NFSD: release read access of nfs4_file when a write delegation is returned
+de6db05888b91a7ca22097b4901c1f1e16388ada sunrpc: simplify xdr_init_encode_pages
+0cf8f48c0a03b860150be0cd2b00f2fc48fa7ca7 sunrpc: simplify xdr_partial_copy_from_skb
+28e561b54394822e7ec8c483bff1d5349a0fffad sunrpc: unexport csum_partial_copy_to_xdr
+fdcd75f50393d44a7936faf682a8355428a145d9 sunrpc: new tracepoints around svc thread wakeups
+5a66b79ac9eb882d03ec35218c5bfa7334a5bc58 nfsd: Change the type of ek_fsidtype from int to u8 and use kstrtou8
+4ef9e9ebff8748ed0e7cd9f9709c6072348a574b nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm()
+5dea3d6567bddd77915357999afaccd43ed969ba NFSD: detect mismatch of file handle and delegation stateid in OPEN op
+d752bcd012da7379cdc558ee1c19c85eb02d9847 NFSD: Rename a function parameter
+e2ca53dc7d3a79a5200086f3f5200a4c2d3da8f7 NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort
+d65360809302fe4aba2ca47394bc9623768da778 NFSD: Remove the cap on number of operations per NFSv4 COMPOUND
+779d20ee2f1982fd19831659aaf7836dc0fd373d nfsd: Use correct error code when decoding extents
+ca645d90832f547353bd65f8bb31dedc7c07d0ae NFSD: Remove definition for trace_nfsd_file_unhash_and_queue
+917ccda8bd968db4a13e8a3ff2c12cc86745179c NFSD: Remove definitions for unused trace_nfsd_file_lru trace points
+e6d7183b81e651911b0b26d745377ec487a30900 NFSD: Remove definition for trace_nfsd_file_gc_recent
+3b79549e996672e649228a5acadec997191df31a NFSD: Remove definition for trace_nfsd_ctl_maxconn
+bb96f2e16a7597e6c7465f6bdcd9b978f785612a NFSD: Clean up kdoc for nfsd_file_put_local()
+84a25d9ff40d90750a461cbbe853676642aca674 NFSD: Clean up kdoc for nfsd_open_local_fh()
 
---===============2156597011598369854==--
+--===============5945109446901861617==--
