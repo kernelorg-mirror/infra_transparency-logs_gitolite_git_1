@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0442338321954781917=="
+Content-Type: multipart/mixed; boundary="===============2662829493926784996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 30 Jun 2025 13:41:53 -0000
-Message-Id: <175129091304.3651563.8031699120146825611@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 13:42:10 -0000
+Message-Id: <175129093085.3651950.6767273736525670436@gitolite.kernel.org>
 
---===============0442338321954781917==
+--===============2662829493926784996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: e35a5d814525006f043b29bffd1bbdcb549b23c5
-    new: f63f7aec0057fd187a1212a5828560c3d9fcc739
+    old: f63f7aec0057fd187a1212a5828560c3d9fcc739
+    new: 7481a97c5f49f10c7490bb990d0e863f23b9bb71
     log: |
-         f63f7aec0057fd187a1212a5828560c3d9fcc739 usb: misc: onboard_usb_dev: Add Bison Electronics Inc. Integrated Camera
+         7481a97c5f49f10c7490bb990d0e863f23b9bb71 usb: dwc2: disable platform lowlevel hw resources during shutdown
          
 
---===============0442338321954781917==
+--===============2662829493926784996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751290949 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751290967 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1751290910-349feee69b3c928e925122e779d73d10d78469ee
+nonce 1751290928-7b9194bdf106bcd8e034a2a1412c15b96c262b61
 
-e35a5d814525006f043b29bffd1bbdcb549b23c5 f63f7aec0057fd187a1212a5828560c3d9fcc739 refs/heads/usb-testing
+f63f7aec0057fd187a1212a5828560c3d9fcc739 7481a97c5f49f10c7490bb990d0e863f23b9bb71 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhilEUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+llYP/0KBbcMVfJCfGFYSe28o
-iB/l9gODkWSeYcVj8QBa7m1MEi+QJ/D70C0FSGUP8GRe3nTvFVvPcdFAI99zc41C
-fxnrE+fWjaloQkdfW2zNX92KQIl+EZbXbCDD5MhMIl4g4qxijENla/5eqFXpQ74F
-c7ttWa30FRx3tHCTlR73fEQHm7sUrhIo65/VFO81pQc0t0m50seJCFXmfKDVY6zr
-uIj8ynRJzyRP9Z+XChSZ64Oq3hhV3kdG+JZG9rMt07NoAbhu4omLmjlto+jZfSSg
-DRNi/D5Z1Hozz/9359D48RbNc0Odd7lBM/Cb5C+3gzGHXXwumsHkGGzgK3sir2l9
-A20sbcuFLCQIRbrV747kfjwxWoXI+GE56dqQoNmAvVoeEpUKufS87iORSajIR/cX
-Iua3HkgZi+pqMF2+W9B2igmK+o8f4aw0DcpbQX8lfbqqk6WWCQOUwiF5A+yY1mMR
-E/7qiVW40sEPXkj9fM3r9mg609GdCC/9gYZk5S7+6Kzu2WdIBU3a2IegIT5AqJU5
-2riweqzOnG6VIZU5FKOk3kvswwMRZW5bb/1/fAqXChHiAceMD04DYSAnbbFwyuCF
-es6/iGMpkjZJ4wjwBmUj2fRH9xl8blCoASrC6w1qiWEJjboXLXrTMSozmads/I4o
-srntiOAXX5fUyRnpJoIZOhY7
-=KcJB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhilFcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GKoP/0c2G2Zt2DkRSDHZC4KQ
+3WTDNaDSn/4Zo2h76C7Fu09e0Hg+pVvB+QN0qQOcJkfeUwKjVir018XSoOXsFcgx
+UQaAXt3dn70Ymzjb806rY1UOjrshKfV0PkFMA0wMZIixbSHTYbSzyL6qkRdLqoIe
+Tq/6/JpvhzuAKEFqs6UyyhQhzx7PZ03q4flR2aaYmvT1Cjn3+HWqzEkqYLwv2JMP
+8QGNHcpPs6cx6i2zga3oNtomy02i6P2t1yRw+98PQva0B3voZjAKoDLWcLu2vcea
+I8O/QaOiQDDRDWHhyGJ4TM+vg9MQ3/XUEVJdJ2ou0+oWTJ21edC1hdpVkxaPPyDR
+HLKhfwUI+pDk3ldD3riHNfW2sBLAc7fkaIcJ1zm94crHFqg6PT40jAMQ3ab7Z+z/
+HOJQPIsBP0gKgnxf6WOfGwXcIBE72pqxvo6bu1Bfo0/91EqH5tLRfTrIVLvn4jEA
+0PYGqT4BhUrOdWuCPB1lKvbfeLRiso/c88Aor6RwJANwf3mdOAyoAFkADTh+yDa5
+GLFxYrziTNkmhyFiv48RyQk0yM5zsHluqpFMkOvABzxMRrJGVQewauR4sJrT5d08
+kAWJfBFzROx8GG1m6S6ObOr1Nh4xCcCEfTfmsUBsK12ijqLQVj2u3jGrxG70LL6A
+eCUceeYns0Y9keA6J7Pf9kaG
+=ct0p
 -----END PGP SIGNATURE-----
 
---===============0442338321954781917==--
+--===============2662829493926784996==--
