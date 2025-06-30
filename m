@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 30 Jun 2025 23:28:58 -0000
-Message-Id: <175132613810.4159676.1605850985371513847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 30 Jun 2025 23:31:03 -0000
+Message-Id: <175132626363.4162974.4568016834892351118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/imx93-ethos-v2
-    old: e47b72ad46c1f22faaea2d29a7f24ac294b5893c
-    new: e2533aabd58e39b5a86438a8884e75b665fd885c
+  - ref: refs/heads/tmp.perf-tools-next
+    old: aa497357c125662d7526d6ec8ce1259e72b2c8af
+    new: 114339ee4d66a328d186264ffa23a766542a9a15
     log: |
-         9ee87eea655ef692799d8bff90d3291e8defde7c drm: ethos: Add support for SRAM
-         2da344a646d80751a30977a411a90cb5cc570745 drm: ethos: job: Use a temp var for ethos_validated_cmdstream_info
-         6ed9cfa0d43f20773aa9ca5a208c6a163c1c6623 drm: ethos: job: ensure the cmd BO is not a region BO
-         bdba476f852e656a774a5ca53c8ed4aedc40a682 arm64: dts: imx93: Enable SRAM for Ethos-U65
-         e2533aabd58e39b5a86438a8884e75b665fd885c ethos-test: Add a memory to SRAM to memory test
+         844f962ca6bf5b01d0af0bc62a7f06135581fe92 perf test: perf header test fails on s390
+         bb986e4720009da4221aeeeed7dec3f56d96502c perf drm_pmu: Fix spelling mistake "bufers" -> "buffers"
+         5ceedc09f27f87a6adc00d522b06dcce990a1986 perf test: Add basic callgraph test to record testing
+         146847932278fef1ce13b5a839077e51ca019395 perf test annotate: Use --percent-limit rather than head to reduce output
+         114339ee4d66a328d186264ffa23a766542a9a15 perf build: Specify shellcheck should use bash
          
