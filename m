@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 30 Jun 2025 12:10:24 -0000
-Message-Id: <175128542450.3570944.2038593069682923194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 30 Jun 2025 12:21:20 -0000
+Message-Id: <175128608009.3579619.14719828292202484148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: eec70d52f44e9637cc5f84670d160eff53a617cd
-    new: 15636abfb03c1a48fc1aced1fa97c95e91fecf72
+  - ref: refs/heads/next-rc
+    old: 7b5f775be14ac1532c049022feadcfe44769566d
+    new: 9e9b46672b1daac814b384286c21fb8332a87392
     log: |
-         90c8c31e19d4fe659dc38e537f241e79266ff478 ALSA: timer: Replace deprecated strcpy() with strscpy()
-         24ffcf7f27cf75389ca550a18f9e45a8dad27bd2 ALSA: hrtimer: Replace deprecated strcpy() with strscpy()
-         66b338d006d75ab52b16bf05a7f4f451043199bf ALSA: dummy: Replace deprecated strcpy() with strscpy()
-         15636abfb03c1a48fc1aced1fa97c95e91fecf72 Merge branch 'for-next'
+         9e9b46672b1daac814b384286c21fb8332a87392 xfs: add FALLOC_FL_ALLOCATE_RANGE to supported flags mask
          
