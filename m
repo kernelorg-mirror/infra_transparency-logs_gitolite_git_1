@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 30 Jun 2025 17:30:49 -0000
-Message-Id: <175130464987.3858675.880927747348843924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 30 Jun 2025 17:34:06 -0000
+Message-Id: <175130484681.3860143.6732685989259915478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-linus
-    old: 5aa326a6a2ff0a7e7c6e11777045e66704c2d5e4
-    new: ba74278c638df7c333a970a265dfcc258e70807b
+  - ref: refs/heads/imx93-ethos-v2
+    old: 52601d3246a0cb9a0cc7e4eabd03bc9cfe9ab688
+    new: e47b72ad46c1f22faaea2d29a7f24ac294b5893c
     log: |
-         643c0c9d0496c5727ca28cd841d069b5afee06cf PCI: apple: Add tracking of probed root ports
-         bdb32a0f6780660512d2335db2ebe32e6582cdc8 PCI: host-generic: Set driver_data before calling gen_pci_init()
-         ba74278c638df7c333a970a265dfcc258e70807b Revert "PCI: ecam: Allow cfg->priv to be pre-populated from the root port device"
+         99124495c158172ec966260700b5db80006e307c arm64: dts: imx93: Set NPU parent clock
+         e47b72ad46c1f22faaea2d29a7f24ac294b5893c drm: ethos: Add bounds check on cmd stream regions
          
