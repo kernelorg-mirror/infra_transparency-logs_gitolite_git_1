@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7219585205272039182=="
+Content-Type: multipart/mixed; boundary="===============3555938397600848906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 30 Jun 2025 11:38:23 -0000
-Message-Id: <175128350356.3537579.5672680149223894718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Jun 2025 11:38:27 -0000
+Message-Id: <175128350700.3537741.14410688652239658443@gitolite.kernel.org>
 
---===============7219585205272039182==
+--===============3555938397600848906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regmap-6.16
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: c871c199accb39d0f4cb941ad0dccabfc21e9214
     log: revlist-19272b37aa4f-c871c199accb.txt
 
---===============7219585205272039182==
+--===============3555938397600848906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1751283540 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1751283501-3b285ece33826fbc899dccc05326167ba4b4673c
+pusher C3F436CA30F5D8EB 1751283543 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1751283504-a1f58c398f7364b8ce5dc64cb43fd7515da93c54
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 c871c199accb39d0f4cb941ad0dccabfc21e9214 refs/heads/for-6.16
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 c871c199accb39d0f4cb941ad0dccabfc21e9214 refs/heads/regmap-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid1QACgkQJNaLcl1U
-h9Abagf8DECMYK2DM64YjFOhzIypgrtaZnhIYUcwlXD5iKYJAStnh3W+5RBkEpjU
-WlwtYLUt1aDv6FeH/28+JMc4moFfCjHKXSePG5fG7WL+icC+XUajZKJZqBSDg1go
-Jue7PIODDh0VAHAXNtDcIEU+NYCQIWFhstiE+IXe9+7dsQP+BbyxJjMzUKZBEpeb
-a7ivihI4PGlmUiQLobaKLEkctl4Pjukb2iM0EL8p+Ij/iFm4CveG+ikjSfwmrWA+
-fQdc3/hOtg8U1T2heHx3z+Ct4ih4Z8fOAf0j1sXw3baPpLUWCwe3mYzwlmMqfoSb
-m+Eie/oEOUUqs+4e6PQW29aVgTADkw==
-=B95R
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid1cACgkQJNaLcl1U
+h9DJdQf3ZlYhISiG7vGR/Cfsbb5I0Eb+Gen17jVxZysxZP/uENzB2EpsmNORIrlS
+5nQxJnfbTMGzHAXvoNTF5GbUc2m9+9GmMjtwA0/gFUXRJVlpU5AMdkDShwUhxqyQ
++Gg8pZqKXPs+SoNtPtztKmuTG7xXf+9Zsw89xLKQ2MoHvNU4XqnU5AEU9euaxet9
+b+sk/zR3NB+VyUgfECpfPeMSNcjVBL7Oa+MtoBX9aIUxKuA7aU3bk9EHeWkGeuJB
+g8Hv8dvCKzyiysa4cvQU40PL1wqZaNDmqBbcLAEmzXTASCnuLqwsAqjk1zI857wz
+G0vSxdP1T/UI+AKMDWavvGpTasxR
+=wwSx
 -----END PGP SIGNATURE-----
 
---===============7219585205272039182==
+--===============3555938397600848906==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1019,4 +1019,4 @@ afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://g
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
 c871c199accb39d0f4cb941ad0dccabfc21e9214 regmap: fix potential memory leak of regmap_bus
 
---===============7219585205272039182==--
+--===============3555938397600848906==--
