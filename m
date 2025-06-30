@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 30 Jun 2025 15:54:03 -0000
-Message-Id: <175129884335.3771257.1854162680843777370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 30 Jun 2025 15:58:13 -0000
+Message-Id: <175129909398.3775328.11961593567948092083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: ef0f7c235e5c2195ff61a2c9a5b9efb2375ce433
-    new: aa497357c125662d7526d6ec8ce1259e72b2c8af
+  - ref: refs/heads/kdevops
+    old: 9626dc2ce51a8c60ff9b62acdaa2065fe24e6935
+    new: 4e988941863ec60a70acc656f81bc1c2c11eac97
     log: |
-         aa497357c125662d7526d6ec8ce1259e72b2c8af perf stat: Fix uncore aggregation number
+         4e988941863ec60a70acc656f81bc1c2c11eac97 nfs: scan write data for large swaths of NULs
          
