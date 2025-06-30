@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6521822864947335808=="
+Content-Type: multipart/mixed; boundary="===============4189851918153916125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 30 Jun 2025 17:54:48 -0000
-Message-Id: <175130608806.3879982.17978210590536510961@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 17:54:50 -0000
+Message-Id: <175130609054.3880468.4815075208625726531@gitolite.kernel.org>
 
---===============6521822864947335808==
+--===============4189851918153916125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 666c23af755dccca8c25b5d5200ca28153c69a05
-    new: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    log: revlist-666c23af755d-d0b3b7b22dfa.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 327d745f23afb5f3dd448d19b30a443cc4707fcd
+    new: ca2f83d122fd27459785689c7f5927bcc7aaaec9
+    log: revlist-327d745f23af-ca2f83d122fd.txt
 
---===============6521822864947335808==
+--===============4189851918153916125==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-666c23af755d-d0b3b7b22dfa.txt
+Content-Disposition: attachment; filename=revlist-327d745f23af-ca2f83d122fd.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
@@ -366,5 +366,14 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
+024499a4c4c35ed01c8e4fe2f43199842e0e1541 i2c: tegra: Add missing kernel-doc for dma_dev member
+724924942ab2a0bdacdedfefd26791ef316c557c dt-bindings: i2c: renesas,riic: Move ref for i2c-controller.yaml to the end
+ac54e31a205346899ef5646d0456b97179901070 dt-bindings: i2c: renesas,riic: Document RZ/T2H and RZ/N2H support
+7194d296ce38cee0d2b6aceb55a5a0f3e23b419a i2c: riic: Pass IRQ desc array as part of OF data
+2670dde4b7dbc837c988ad0a3869fbdb7e1c587a i2c: riic: Move generic compatible string to end of array
+8efbabfe5cb89bd666ea3ae2c78536ab3058a6fe i2c: riic: Add support for RZ/T2H SoC
+2ba2bb5bfb451dcfd5a7abe001e4a99b730ad533 dt-bindings: i2c: nxp,pnx-i2c: allow clocks property
+9b7d9d7ab4084cbc51b14c4733e78a2d8366c6ce i2c: stm32f7: Use str_on_off() helper
+ca2f83d122fd27459785689c7f5927bcc7aaaec9 i2c: imx: use guard to take spinlock
 
---===============6521822864947335808==--
+--===============4189851918153916125==--
