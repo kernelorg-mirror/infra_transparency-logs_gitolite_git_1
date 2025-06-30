@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 30 Jun 2025 18:20:17 -0000
-Message-Id: <175130761738.3905591.1171764482378955664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 30 Jun 2025 18:23:29 -0000
+Message-Id: <175130780990.3907140.11102669089068180360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dm-6.17
-    old: ebbd17695e9e1f4c3cdb36149c8b8f38b585e14d
-    new: 6e11952a6abc4641dc8ae63f01b318b31b44e8db
+  - ref: refs/heads/kdevops
+    old: 15eab30af6c90a0d03d061038d5a08e9a4caa88b
+    new: a1fc58460b926abd12af9985f6a1020ef4736450
     log: |
-         f86272350f38d3fa4049944257a1b4260f3eba2e dm-mpath: make dm_unregister_path_selector return void
-         6e11952a6abc4641dc8ae63f01b318b31b44e8db dm-mpath: don't print the "loaded" message if registering fails
+         a1fc58460b926abd12af9985f6a1020ef4736450 nfs: scan outgoing write data for large swaths of NULs
          
