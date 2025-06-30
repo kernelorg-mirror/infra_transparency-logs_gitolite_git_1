@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8698950835864005295=="
+Content-Type: multipart/mixed; boundary="===============2909430274848909282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 30 Jun 2025 05:48:40 -0000
-Message-Id: <175126252025.3221773.5987107523313063423@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 05:48:58 -0000
+Message-Id: <175126253849.3222137.1293754222218976022@gitolite.kernel.org>
 
---===============8698950835864005295==
+--===============2909430274848909282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 6241b49540a65a6d5274fa938fd3eb4cbfe2e076
-    new: acc902de05b2b8229dc27820925b7573b6d2d34e
-    log: |
-         d2db0d78154442fb89165edf8836bf2644c6c58d dt-bindings: serial: 8250: allow clock 'uartclk' and 'reg' for nxp,lpc1850-uart
-         5e40169f7aa85396448cd79b561cf13f39f8e005 tty: serial: fsl_lpuart: Constify struct lpuart_soc_data
-         acc902de05b2b8229dc27820925b7573b6d2d34e serial: 8250: Move CE4100 quirks to a module under 8250 driver
-         
+  - ref: refs/tags/tty-6.16-rc1
+    old: d6fbf3c26be01235e8152a8bb2903f89b646416d
+    new: 0000000000000000000000000000000000000000
 
---===============8698950835864005295==
+--===============2909430274848909282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751262558 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751262576 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1751262519-417bf71c716ebdee609c366bf0cce62511c9bacb
+nonce 1751262537-5d84ec6c6f03f4f8c69d597a2070b97b55bfbb66
 
-6241b49540a65a6d5274fa938fd3eb4cbfe2e076 acc902de05b2b8229dc27820925b7573b6d2d34e refs/heads/tty-next
+d6fbf3c26be01235e8152a8bb2903f89b646416d 0000000000000000000000000000000000000000 refs/tags/tty-6.16-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhiJV4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Nc8P/0fXFDaT/meXvWXnRtr5
-ZteDZ2vziwNSlwRMdtRj3SG5sQP1c9PW6s1iTlPA2hmXYgvb8LYnjrJ+LmJHx79Q
-zrfUl5Zyavbo78bZUV4ZnGyQ/3He8Vx6T1046XH7jt8cREkV6kIDcowNDe0A4P4y
-35eFi/dH1ObNFvDnqcySOieBO4RxUcSgiNQ6lp0MQLK4dG15IIfjIoY232M9LICK
-oOTHQkv+LIHg6VAqW5Gm33LPXPZ0xCc0+Dr3v8vimgmCBblYyJ/VfdKwZOP8MfWy
-TzXUZPPzuNEvdQ4uddUYy/PGLbxFAd52eta5QeORIp0UiDsQbjwCL03Q5k3UUAbW
-c1X7qNu/HqlpPVhum6A4z4tYgc+A/oYiQfzU/R1a0p6FUjRSR1TJ8zm2A+dl0x9U
-ufsdje5MEntEPoclNIPHx6yPjYzsV4ytDViKuVQuvV4nYsxw8d+7O4bDhPpTFUGe
-5mQfDUUUL4JzG/e94bBcXGhMuDDAZvo2hq1DTCQ7wuFhBQYrKPJ9Pb7Bu5DwW7g9
-RKBwn507bwOHG1rXQ/IDRBQMttxGs90ymjm+fJtM1MqkW2pJh0Qtg14ZZeGGZX7h
-Ng1tr6ufXhuMhthaRvF9PBLfQ0JIm6iAGkXxDsN1D3CXYRIuuUE5ym3DBsxVg73x
-FkSi0sBYh1zZr7rEKelJrOh2
-=euIn
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhiJXAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N4YP/iBeKYi7z8g7QghlJpcS
+dd0LcirMmOvsABYUTNr64RgpundDu1fHeuKNEvxBZH5AIFjmkmbw1gbbEtekDAd/
+fq06/X03Fu0ZHwiQ+VKsX2STvPGYJjB+B9jK+W3zkNg+L5H0X4A1HkZPFBKShvF/
+YUkDxFzONFjIMZF7A0yJisurl91ehYarvPCxSUVI8W8raQdtL3ccGwVnvKXCzZKl
+2O2XQP8Q0Jl9gBmydTbjmFm8Fz7KAcWGTtcV1Ot96gcHT3R7P07X+KFqf1l4l01+
+VCzj8wxBTqGUsnkz9rCotqx8mVgW8OMvpbx7TvrxV7WDnvHScxX5/PTvSVmc/4nl
+A99B87SXaF53FZbCBPNVZuldE4fvzKMmrxaU5tHVDLUZ+r09NpVCEC1VrkjqP4uZ
+c0CCNmn9mFokown5V2JKaHRej8nOmaTdNltQF1h4Mih5WfhAgLXjle3yIJ+94C1P
+GVFpMdv2UKVs1E4w9I4hq/qmOy4dMLDoGXxd0qGnFTjGu74IO/Orfg/MUv1QUwi2
+SVC+XACoTN4RX7vDFKS0jaPlDRG6px2ToEQbE1/S9mqzI4afgpjqxufudWZuRSsR
+Vc1EkYTd7IGnbjPBuw/NSsTcRR6+AGDcBBQG1dyz/XT5ZIGMdAFbcWYUngfZLhRN
+Y+n/IebHUwpC754oUolwEbNA
+=eOLU
 -----END PGP SIGNATURE-----
 
---===============8698950835864005295==--
+--===============2909430274848909282==--
