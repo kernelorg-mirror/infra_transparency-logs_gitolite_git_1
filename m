@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 30 Jun 2025 18:01:21 -0000
-Message-Id: <175130648198.3887597.11648876488505941709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 30 Jun 2025 18:01:42 -0000
+Message-Id: <175130650288.3888062.17957682783186798067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/kdevops
-    old: 1a47c920fef71a3e049bfcc303750ee22a58aca3
-    new: 15eab30af6c90a0d03d061038d5a08e9a4caa88b
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
+    new: 3d30048958e0d43425f6d4e76565e6249fa71050
     log: |
-         3a6f323b792fcbfe0934581c99786996ef7cb6c9 nfs: add a switch to disable delegated timestamps
-         15eab30af6c90a0d03d061038d5a08e9a4caa88b nfs: scan outgoing write data for large swaths of NULs
+         3d30048958e0d43425f6d4e76565e6249fa71050 i2c/designware: Fix an initialization issue
          
