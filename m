@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8761941495565193926=="
+Content-Type: multipart/mixed; boundary="===============6895266833959686702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 30 Jun 2025 06:17:37 -0000
-Message-Id: <175126425735.3249070.590333746060254612@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 06:17:41 -0000
+Message-Id: <175126426189.3249321.11601999889573199624@gitolite.kernel.org>
 
---===============8761941495565193926==
+--===============6895266833959686702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e04c78d86a9699d136910cfc0bdcf01087e3267e
+  - ref: refs/heads/staging-linus
+    old: a55bc4ffc06d8c965a7d6f0a01ed0ed41380df28
     new: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    log: revlist-e04c78d86a96-d0b3b7b22dfa.txt
+    log: revlist-a55bc4ffc06d-d0b3b7b22dfa.txt
 
---===============8761941495565193926==
+--===============6895266833959686702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751264295 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751264299 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1751264256-98b7a61a44dedfa256bf2784e467cac72d7e43ec
+nonce 1751264260-0cacd6c274c2080d3c856b1c0b3d5f51b0892254
 
-e04c78d86a9699d136910cfc0bdcf01087e3267e d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af refs/heads/main
+a55bc4ffc06d8c965a7d6f0a01ed0ed41380df28 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhiLCcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pAIQALuuafXt7dKxam6QxzVN
-q/6f0023XHrYelsngNQgQAIK49/1kdcGzRVYvPn98KKKxeoNddc7WVvLdbR4qlW+
-OPwxUYyN6TQaYGoGvvUssgQ97K40zaOWhLrXeJ1qp/o3KcVyJeAu2Uob03KQwf1l
-FZnRJP4mqZpH8GENMidtQSTv5ts3qpu5ECIyB/jWLTCwnYmW7rjEWWH30TIfoj9G
-twf2LNEen/SJPNC+cGiVyFdk1Z+dStZ6AjvNZEMl+u2XaIecOMjPOQr2G0uDBOLh
-yFOXuG1kxm4cXAimEOCT6W42akYMfqZ+RoNuqqN7Z7pKGXVIB24jjWl61mtdbAFM
-I+x7GMgw6advJJepF7zg1oMj+BMnIaF3gy96CKYoonGtyfjDyNXTSqk7p5Rsv8pz
-BdRiWBd4BeaJIoadKXMxBdQJWhI4eLztS2QNydhmy1f6KNd1AAiu9C0oJqqVc2pc
-illWNSoI2bIlDo/EJ10XA06Dypo5UOEbEw4g+UR6d3u6FkhgQriNJmSKzDt26EOU
-68KJ1iG6gECMHa1MjsWiburDiWjDISWxQutddauX3NaZWdb9ZQYGvD9HPTbl10KV
-f9XGzwbSabUNz7RCUNV74XX3rn6aJc6NdumgQ3vumoMFlWB93H4+oDEVWTf/4yXa
-9MEdMBFKBzttmgoG90EW05wo
-=PkU5
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhiLCsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AusQAIcTlqxaGdeWNxmeuTu4
+RMk+mFwxitTOumDZBpLRyWuIB5VRSovlP3oZL/6izVfbQEwMmoNDAmPRLiS5z4ZB
+Z+s8iOPqZoQhAAQU5SjKNXm9P+ilrgbe0gbFQA1KefqYZvZZqeafI1SIN7EyZLp+
+QKQjpgfbqBy+Hbw2VB+dcZVEj3//F7Csfqm4sVDtX+kqWWDKGHVSsEqdPbrA5y32
++0kwVjqgTUmInuZg56Spt6D5RoYSGEdoVh1RnjKhf7haKKWAPagpeoET3olcdhT0
+BPgEParrHLUXdUpYSSIADn3Ar3CXxdv3rGyH7MDcd3wXmOA6/5Mh0acpAY4LUt3y
+aN1n9ywH8ltEIZD9k004NipirDfkBJ5+53ijnAbYZaGbH2Dmb6Fw4gjlJp5JctHg
+/pAzsZ3FfiyWykqf6wcMRuYqUkX38hjeJMNwY8JkPnc+wiBS9hnxJ3+76T2vLHAN
+pYiUa7SvY7Bt+1qVGPvKbTgU/x9RsWBTRKfBja/SIlyi/beLWQguTaelKoGy0wqH
+GqzZRfoyeUnx5Ufbl1wMxofJH9PWLxbopBp/Qu3EWIWuHA+ONvFe2AEzKZLfTSEU
+HGWHRno5tI2PnVtnboHs7fHNWfNvhVLYTmyAfDIIsOJNIkVABLctRFXVVjEsmNnF
+/H9ybbqkpCEOha11VXoajx1b
+=G4do
 -----END PGP SIGNATURE-----
 
---===============8761941495565193926==
+--===============6895266833959686702==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e04c78d86a96-d0b3b7b22dfa.txt
+Content-Disposition: attachment; filename=revlist-a55bc4ffc06d-d0b3b7b22dfa.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
@@ -463,7 +463,6 @@ e353b0854d3a1a31cb061df8d022fbfea53a0f24 net: lan743x: fix potential out-of-boun
 a39d082c3553d35b4fe5585e1e2fb221c130cae8 drm/xe: Fix early wedge on GuC load failure
 a1113cefd7d62e20735edda79507dc9f6ce103ff MAINTAINERS: Remove Shannon Nelson from MAINTAINERS file
 10876da918fa1aec0227fb4c67647513447f53a9 calipso: Fix null-ptr-deref in calipso_req_{set,del}attr().
-a55bc4ffc06d8c965a7d6f0a01ed0ed41380df28 staging: rtl8723bs: Avoid memset() in aes_cipher() and aes_decipher()
 fc27ab48904ceb7e4792f0c400f1ef175edf16fe NFC: nci: uart: Set tty->disc_data only in success path
 78bd03ee1f20a267d2c218884b66041b3508ac9c net: airoha: Always check return value from airoha_ppe_foe_get_entry()
 e7ea5f5b1858ddb96b152584d5fe06e6fc623e89 mlxbf_gige: return EPROBE_DEFER if PHY IRQ is not available
@@ -784,4 +783,4 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
 
---===============8761941495565193926==--
+--===============6895266833959686702==--
