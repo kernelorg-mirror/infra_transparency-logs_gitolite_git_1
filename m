@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5400108063796535406=="
+Content-Type: multipart/mixed; boundary="===============3101879357583816590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 30 Jun 2025 05:50:01 -0000
-Message-Id: <175126260184.3223896.17298070095503412317@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 05:50:06 -0000
+Message-Id: <175126260616.3225536.4438428383307787858@gitolite.kernel.org>
 
---===============5400108063796535406==
+--===============3101879357583816590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e04c78d86a9699d136910cfc0bdcf01087e3267e
+  - ref: refs/heads/tty-linus
+    old: 09812134071b3941fb81def30b61ed36d3a5dfb5
     new: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    log: revlist-e04c78d86a96-d0b3b7b22dfa.txt
+    log: revlist-09812134071b-d0b3b7b22dfa.txt
 
---===============5400108063796535406==
+--===============3101879357583816590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751262639 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751262643 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1751262600-5d1ef920b785f5c9098d1b8473355b64cc7c5f6a
+nonce 1751262604-af42fe9fab77a0d9af886285bb116afedaea01a4
 
-e04c78d86a9699d136910cfc0bdcf01087e3267e d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af refs/heads/main
+09812134071b3941fb81def30b61ed36d3a5dfb5 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhiJa8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bc0P/iuzZsOFL1yAhA1AvNiS
-kgvaceT7lD+sPbGB23d7idH7uIUwJEtGGgAEeQz5kyufLwMHVQhHmtSb/urG2t4U
-ZTGkM8v2WJh+ew+qnQF1yLlztw7SOLaYfQoIE8xcUFCNEg0adLWfCHWYnwmxGT2L
-QmrE7oUXHBx59kDZA/VmBv6cHufRXHSMSu21zJvrliaxYrR2tOzErmLvcKncnJHj
-eETsapxKWA9o2a4W1ki/Ag8sN4bCOvW6u9ey4swy8DNtS9WJMvTzXHH6lIKGV1CX
-xtaEuZYqkjF3vzGIkM3xN9prDVYoo8wd9LCdTBt/UN9aQ7RiZU2ZfZjfClScYcCH
-VwQaHaRqLoYtuBvWn3v0XJ+Oc6ydP3SSe8RGglY2uoJE20YzBUugtli3pde+nFU2
-LFYTNwYzMck8LjMMCO2Vayi8Wp1q81akj0EB630+7J0tmWgGV4UfjR8nfZIgyCSy
-3yZIM/QvwH4etlOebBncEziyNGKjZQz8R+xpdEOoXPAEmXe5F0voRVOn6StaXHko
-2liS3zUBc+RNP/qaJDKiLfzkgrgNj7/COYHkm+pca9zN0T9ozZTDzeIg2UMDpKjk
-bl9VP3hdX3/tfqfA0HRP6FyA2ZJH9y4ht6mZtOd8wAoNTwxzsLARS/vXLsRz3tmk
-xQOiq0fKcqCvR47DBh2xdkNZ
-=N50E
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhiJbMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+awQP/2ACUdxzW2OvCd3zqklN
+9kRVdGyW0JaDKKd/H6JdkPLtRo+SVMK1EpCd4cG3ifpSvT95ZRNbtiLEwCIgybDF
+p04GS+0u3Fjv+Ndurhxs5DujGON6I7f1eOo+UX2h2uNRXRp13ZtiRbvWNPje+CA+
+37irHMa4+GTaE3wQevACHc5wSbuvuRJ1iRYs2gkJ/DCVjOONHxJ7clG1UJ7hYaUj
+8Q+prMjuile2dl0pi8bmspxgjWaeFIcmF6/tO0vGnMNPHks9djmkE8uEOEUS1oMY
+dQLCcSXh9Msij+T39pbgx6JdxD/dtB6zEn8VzfFte0GW6esMpgAWDBWhNFoawuWI
+Rw3hyLMIes+EctLGhTGTAQdkCnsRBfcCenG0/AdjUnqwi0gJlsE/Wszp0+6uBhCD
+8vMm7i5cX+0YE9lrt27UFGe5XeUpx5nWEaV+bVuk/acqJ0MvdiAuCjr3ZMvJZKqM
+P0dqI8Yv4Y09n+VdG1sgeRHHdTJRaWZdr/oHaawE7sAdn6UMWl3b8ioHHWn9x4cS
+JMkbIHB6fC2o1S8zHe/N6V8Cj+MgolKhNJgDTi8t7l68g3r1A2vH3E8KBzcv5cza
+yPYUyJVctvKwpBdwSvbEwDZUSnH4vCY/vuptW0WUQ6hEu3J/JgGF4rsEbbu3mA8O
+n75fTnxND8KFfJNjc5Y0nFD1
+=I/jW
 -----END PGP SIGNATURE-----
 
---===============5400108063796535406==
+--===============3101879357583816590==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e04c78d86a96-d0b3b7b22dfa.txt
+Content-Disposition: attachment; filename=revlist-09812134071b-d0b3b7b22dfa.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 b55eb6eb2a7427428c59b293a0900131fc849595 pidfs: never refuse ppid == 0 in PIDFD_GET_INFO
@@ -430,9 +430,6 @@ bec8ff17ff6528bec9f2089dcef9e41a63b71dea Merge tag 'drm-intel-fixes-2025-06-18' 
 1fbe6861a6d9a942fb8ab8677ddf1ecb86b1af60 KVM: arm64: Explicitly treat routing entry type changes as changes
 56a14984505b11674df5e01407748236bc4bc8f8 KVM: arm64: selftests: Close the GIC FD in arch_timer_edge_cases
 5bd1bafd4474ee26f504b41aba11f3e2a1175b88 eth: fbnic: avoid double free when failing to DMA-map FW msg
-ff78538e07fa284ce08cbbcb0730daa91ed16722 vt: add missing notification when switching back to text mode
-747b52413effe958ed57cf6d7bef80c34e1185f3 vt: fix kernel-doc warnings in ucs_get_fallback()
-d36f0e9a0002f04f4d6dd9be908d58fe5bd3a279 serial: core: restore of_node information in sysfs
 cade3d57e456e69f67aa9894bf89dc8678796bb7 KVM: arm64: VHE: Synchronize restore of host debug registers
 257d0aa8e2502754bc758faceceb6ff59318af60 KVM: arm64: VHE: Synchronize CPTR trap deactivation
 e62dd507844fa47f0fdc29f3be5a90a83f297820 KVM: arm64: Reorganise CPTR trap manipulation
@@ -625,8 +622,6 @@ b272f42547d85356b035e46273ddaf2aa4e161b8 ALSA: qc_audio_offload: Fix missing err
 ff21a6ec0f27c126db0a86d96751bd6e5d1d9874 ASoC: rt721-sdca: fix boost gain calculation error
 d87c3ca0f8f1ca4c25f2ed819e954952f4d8d709 wifi: mac80211: finish link init before RCU publish
 0748e553df0225754c316a92af3a77fdc057b358 userns and mnt_idmap leak in open_tree_attr(2)
-f23c52aafb1675ab1d1f46914556d8e29cbbf7b3 serial: imx: Restore original RXTL for console to fix data loss
-09812134071b3941fb81def30b61ed36d3a5dfb5 dt-bindings: serial: 8250: Make clocks and clock-frequency exclusive
 0043ec26d827ddb1e85bd9786693152aa6f55d16 drm/amdgpu/gfx9: Add Cleaner Shader Support for GFX9.x GPUs
 99579c55c3d6132a5236926652c0a72a526b809d drm/amdgpu/mes: add compatibility checks for set_hw_resource_1
 73eab78721f7b85216f1ca8c7b732f13213b5b32 drm/amd: Adjust output for discovery error handling
@@ -784,4 +779,4 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
 
---===============5400108063796535406==--
+--===============3101879357583816590==--
