@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7707774684793186966=="
+Content-Type: multipart/mixed; boundary="===============0146471857753025478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 30 Jun 2025 16:08:20 -0000
-Message-Id: <175129970082.3784648.1196112750577203396@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 16:08:39 -0000
+Message-Id: <175129971966.3785000.2007334915748675888@gitolite.kernel.org>
 
---===============7707774684793186966==
+--===============0146471857753025478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 8b4987543453c6172983f4b0b084c55a18e250ad
+  - ref: refs/heads/200GbE
+    old: b814e3c0e14474cf3f4d541c5c3ad76cd221dc72
     new: 99e3eb454cc48b9f2691256780aeb247bdc0ee3d
-    log: revlist-8b4987543453-99e3eb454cc4.txt
+    log: revlist-b814e3c0e144-99e3eb454cc4.txt
 
---===============7707774684793186966==
+--===============0146471857753025478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b4987543453-99e3eb454cc4.txt
+Content-Disposition: attachment; filename=revlist-b814e3c0e144-99e3eb454cc4.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 4f6fc782128355931527cefe3eb45338abd8ab39 perf: Fix sample vs do_exit()
@@ -368,6 +368,14 @@ c5c2a8b497d69fb01d2563e383615a4eb69c72bc Merge tag 'pull-fixes' of git://git.ker
 ee88bddf7f2f5d1f1da87dd7bedc734048b70e88 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8d89661a36dd3bb8c9902cff36dc0c144dce3faf net: selftests: fix TCP packet checksum
 85720e04d9af0b77f8092b12a06661a8d459d4a0 net: libwx: fix the creation of page_pool
+d261d755300eb0644873ebf41d01e1ea9f1ff8d4 ice: clear time_sync_en field for E825-C during reprogramming
+38f742df9fcfc91a681d650fc5b622276b6c61b5 ice: read TSPLL registers again before reporting status
+c6b4486a62013460e1dc78abe936560aad27f977 ice: use bitfields instead of unions for CGU regs
+5755b4c023dbfc0856087f005ddf437f341c3c45 ice: add multiple TSPLL helpers
+df3f3c5645bec3c7e2595acbf37db34c0a7de58a ice: wait before enabling TSPLL
+84b8694433c8ac0c13acd2b247fde682751e0ff2 ice: fall back to TCXO on TSPLL lock fail
+e980aa68520963f07364c98eac9f4426f968526c ice: move TSPLL init calls to ice_ptp.c
+8b4987543453c6172983f4b0b084c55a18e250ad ice: default to TIME_REF instead of TXCO on E825-C
 e34a79b96ab9d49ed8b605fee11099cf3efbb428 Merge tag 'net-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 28aa52b6189f1cc409f96910c63fa1b99370b99e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d53320aeef18ece4999c0cf07cb802d1dd990885 dt-bindings: net: Rename renesas,r9a09g057-gbeth.yaml
@@ -425,4 +433,4 @@ beead7eea896e5bc803027d1f3e0d0f9c3b9d196 net: ipv4: guard ip_mr_output() with rc
 7012d4f3c7a82008113974108bf0c9c0553b424a net/mlx5e: Fix error handling in RQ memory model registration
 99e3eb454cc48b9f2691256780aeb247bdc0ee3d net: ethtool: avoid OOB accesses in PAUSE_SET
 
---===============7707774684793186966==--
+--===============0146471857753025478==--
