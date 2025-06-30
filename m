@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Mon, 30 Jun 2025 15:30:39 -0000
-Message-Id: <175129743905.3750568.792685246946094056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 30 Jun 2025 15:34:49 -0000
+Message-Id: <175129768938.3752918.2166846218584323325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/rust-atomic-v6
-    old: 466d8fe296a1864d696ce95180e57ccada00f8a0
-    new: 098b54f4d30ff23c4a2aef58d6e02dd30f07ec84
+  - ref: refs/heads/main
+    old: e34a79b96ab9d49ed8b605fee11099cf3efbb428
+    new: 2def09ead4ad5907988b655d1e1454003aaf8297
     log: |
-         6d313c0cc63cfe9ec0513a0bbd4e26d5c6e2b4c8 rust: sync: atomic: Add atomic {cmp,}xchg operations
-         8196293cdb77d1694905ea815560fd856f0983d9 rust: sync: atomic: Add the framework of arithmetic operations
-         2399a70a9e0d788092085b4097fcc48e07d1e513 rust: sync: atomic: Add Atomic<u{32,64}>
-         8d2cfbc6975b0934e35882c13785a0417ee5d2b4 rust: sync: atomic: Add Atomic<{usize,isize}>
-         469418337bb807a4c72531791a308ec645c4cad3 rust: sync: atomic: Add Atomic<*mut T>
-         098b54f4d30ff23c4a2aef58d6e02dd30f07ec84 rust: sync: Add memory barriers
+         8550821a153558d49dffacbc1dc98ac9d3eed2fa MAINTAINERS: update smc section
+         6e457732c8a4431952a5cc075215268ce021dc0f docs: netdev: correct the heading level for co-posting selftests
+         ba2f83eecd2b36b12f92e5edd8bdc0509c7cd44e doc: tls: socket needs to be established to enable ulp
+         d72411d20905180cdc452c553be17481b24463d2 ethernet: atl1: Add missing DMA mapping error checks and count errors
+         2def09ead4ad5907988b655d1e1454003aaf8297 dpaa2-eth: fix xdp_rxq_info leak
          
