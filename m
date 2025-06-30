@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2503025889811092087=="
+Content-Type: multipart/mixed; boundary="===============2050439096054858800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 30 Jun 2025 11:38:12 -0000
-Message-Id: <175128349294.3536981.3744873502548724284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Jun 2025 11:38:16 -0000
+Message-Id: <175128349653.3537207.7762079783359335203@gitolite.kernel.org>
 
---===============2503025889811092087==
+--===============2050439096054858800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e
     new: a7528e9beadbddcec21b394ce5fa8dc4e5cdaa24
     log: revlist-6c038b58a2dc-a7528e9beadb.txt
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 086d0960d8b38e15ebc805122440feb1a424b1ab
     new: 29ddce17e909779633f856ad1c2f111fbf71c0df
     log: |
          29ddce17e909779633f856ad1c2f111fbf71c0df ASoC: codecs: Add calibration function to aw88399 chip
          
 
---===============2503025889811092087==
+--===============2050439096054858800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1751283529 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1751283490-65d6dde4601387a612f7a985b9035d70a4e6180a
+pusher C3F436CA30F5D8EB 1751283533 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1751283494-f78c0e6ba76e90fd8aba0d38131185a082425d61
 
-6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e a7528e9beadbddcec21b394ce5fa8dc4e5cdaa24 refs/heads/for-6.16
-086d0960d8b38e15ebc805122440feb1a424b1ab 29ddce17e909779633f856ad1c2f111fbf71c0df refs/heads/for-6.17
+6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e a7528e9beadbddcec21b394ce5fa8dc4e5cdaa24 refs/heads/asoc-6.16
+086d0960d8b38e15ebc805122440feb1a424b1ab 29ddce17e909779633f856ad1c2f111fbf71c0df refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid0kACgkQJNaLcl1U
-h9CV5Af8CzPYjKH++WPZvPNjBurfKPOzk9gTSPquZiyvsyzm0FXDyqCbSLwccUPR
-ZyB/iV9bWFIVGfBfert9CKMY4cOgtpJ9PUE+la2g1YbCeq60dRFbyWuGYfy10ovd
-uEo0Rayk/8dBcP138dYzXfhDAdoh/Wtn5MTiF//AbWs+F3ILGnHssA7bTkCjdX7O
-hoUwIM8RGiXK4pAYLp4TfE6rypakwSyiqFBFKLn+KtLjsCVEY2JJum5v2UuToQPW
-BnqrLYHKwO+B2+lohDge9V4NXrDa8kF51RF2SiRqko3xxn5Tg/bJL395NjBZaG4X
-Rs3W3hj0t2ELTn2Pu8j5kA0X8nCabw==
-=2rvc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid00ACgkQJNaLcl1U
+h9Cqhgf+NweiKioRIfnv398VrGXBNajoc/myUiICc8JwC6fpNhfBgcrLvMYZ+Asf
+mty48hheIBOyJPPYzsySfOkNrgoKnIWGBCFy/FeAiB8lhOts7wkQbFjsaYhdxwbZ
+xIIyScMCiTiG2/qeV0tOCjCs1cr6t8KVC1uF+aBBcEcaUNihlh7mT2cewPx1dAsv
+8RW90HQcWrrzoj0uy6BOY6qxgiqk9J4KIkdTWfSGSHpKt4QgShOY9bUyt4CeMkd8
+rCQP8J8j0GczUZ5jgKeXwYwxo1QUFelCf0KF2oD40O5Z5cWVPIcWWuXYKHmxURhl
+2R4cotZ62gHzlhUiZycvBSGv4uOfjQ==
+=rUmS
 -----END PGP SIGNATURE-----
 
---===============2503025889811092087==
+--===============2050439096054858800==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -405,4 +405,4 @@ dc78f7e59169d3f0e6c3c95d23dc8e55e95741e2 ASoC: fsl_sai: Force a software reset w
 be2e1a63448b35bd6736b5934f7720534649b51e MAINTAINERS: update Qualcomm audio codec drivers list
 a7528e9beadbddcec21b394ce5fa8dc4e5cdaa24 ASoC: Intel: soc-acpi: arl: Correct order of cs42l43 matches
 
---===============2503025889811092087==--
+--===============2050439096054858800==--
