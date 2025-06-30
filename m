@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5945109446901861617=="
+Content-Type: multipart/mixed; boundary="===============8643674058549581100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 30 Jun 2025 00:30:09 -0000
-Message-Id: <175124340931.2910418.3995121507604364262@gitolite.kernel.org>
+Date: Mon, 30 Jun 2025 00:32:22 -0000
+Message-Id: <175124354248.2911670.16807997433214416806@gitolite.kernel.org>
 
---===============5945109446901861617==
+--===============8643674058549581100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 2e7381adb959b25dfa48cd5b822a6aa02993229a
-    new: 84a25d9ff40d90750a461cbbe853676642aca674
-    log: revlist-2e7381adb959-84a25d9ff40d.txt
+  - ref: refs/heads/nfsd-testing
+    old: 1d20382f12518d1dc603cafc48d221ca31fcdf9c
+    new: 180fa987d2d41114f4eaf23c27590dafe130298e
+    log: revlist-1d20382f1251-180fa987d2d4.txt
 
---===============5945109446901861617==
+--===============8643674058549581100==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2e7381adb959-84a25d9ff40d.txt
+Content-Disposition: attachment; filename=revlist-1d20382f1251-180fa987d2d4.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
@@ -392,5 +392,20 @@ e6d7183b81e651911b0b26d745377ec487a30900 NFSD: Remove definition for trace_nfsd_
 3b79549e996672e649228a5acadec997191df31a NFSD: Remove definition for trace_nfsd_ctl_maxconn
 bb96f2e16a7597e6c7465f6bdcd9b978f785612a NFSD: Clean up kdoc for nfsd_file_put_local()
 84a25d9ff40d90750a461cbbe853676642aca674 NFSD: Clean up kdoc for nfsd_open_local_fh()
+1f8eac1b843e58b61544f35c009f0d5fa1eeb51d NFSD: Use vfs_iocb_iter_read()
+99223b5d28998681f84f5631c53405ab41137ee7 NFSD: Use vfs_iocb_iter_write()
+3fa3240f5bfa5871055275dd671c26410efaaece NFSD: Avoid multiple -Wflex-array-member-not-at-end warnings
+042bbe1aaa5cd9ecb52b60fce5bbcd2a87542eb8 Revert "NFSD: Force all NFSv4.2 COPY requests to be synchronous"
+24e009db91859d4f268f5e98de8d17ae465e761c NFSD: Access a knfsd_fh's fsid by pointer
+74057c9ed91397f241c86264bd872801696de6b5 NFSD: Simplify struct knfsd_fh
+ee66664adb51a2e2db521a5c3534ce4aec7bf07b sunrpc: fix handling of unknown auth status codes
+74bc13b49418af0831aa0bd2ce09de6ce0b5bd03 sunrpc: remove SVC_SYSERR
+659184dc42b1dc1612f4edc9b58cb6ba84c0baeb sunrpc: reset rq_accept_statp when starting a new RPC
+9be3016a3fe4d2bfc10d61fdb470729a8ae15e45 sunrpc: return better error in svcauth_gss_accept() on alloc failure
+ff0176930268449067e0175ae8a10278249d67f6 sunrpc: rearrange struct svc_rqst for fewer cachelines
+25b247ef0da497f6a240ba4baf8950d4cac8108a sunrpc: make svc_tcp_sendmsg() take a signed sentp pointer
+625857cc509466be9846b226c03ff7d00c675ace nfsd: Drop dprintk in blocklayout xdr functions
+187f0182f94b764467b2d603f670ba5e1b91b047 nfsd: Implement large extent array support in pNFS
+180fa987d2d41114f4eaf23c27590dafe130298e siw: Enable try_gso
 
---===============5945109446901861617==--
+--===============8643674058549581100==--
