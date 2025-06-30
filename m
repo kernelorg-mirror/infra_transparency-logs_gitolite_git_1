@@ -1,30 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============2872409092906249203=="
+Content-Type: multipart/mixed; boundary="===============2503025889811092087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 30 Jun 2025 11:37:47 -0000
-Message-Id: <175128346709.3536562.3775852945174700506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 30 Jun 2025 11:38:12 -0000
+Message-Id: <175128349294.3536981.3744873502548724284@gitolite.kernel.org>
 
---===============2872409092906249203==
+--===============2503025889811092087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.16
-    old: b07f349d1864abe29436f45e3047da2bdd476462
-    new: fa60c094c19b97e103d653f528f8d9c178b6a5f5
-    log: revlist-b07f349d1864-fa60c094c19b.txt
+  - ref: refs/heads/for-6.16
+    old: 6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e
+    new: a7528e9beadbddcec21b394ce5fa8dc4e5cdaa24
+    log: revlist-6c038b58a2dc-a7528e9beadb.txt
+  - ref: refs/heads/for-6.17
+    old: 086d0960d8b38e15ebc805122440feb1a424b1ab
+    new: 29ddce17e909779633f856ad1c2f111fbf71c0df
+    log: |
+         29ddce17e909779633f856ad1c2f111fbf71c0df ASoC: codecs: Add calibration function to aw88399 chip
+         
 
---===============2872409092906249203==
+--===============2503025889811092087==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1751283529 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1751283490-65d6dde4601387a612f7a985b9035d70a4e6180a
+
+6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e a7528e9beadbddcec21b394ce5fa8dc4e5cdaa24 refs/heads/for-6.16
+086d0960d8b38e15ebc805122440feb1a424b1ab 29ddce17e909779633f856ad1c2f111fbf71c0df refs/heads/for-6.17
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhid0kACgkQJNaLcl1U
+h9CV5Af8CzPYjKH++WPZvPNjBurfKPOzk9gTSPquZiyvsyzm0FXDyqCbSLwccUPR
+ZyB/iV9bWFIVGfBfert9CKMY4cOgtpJ9PUE+la2g1YbCeq60dRFbyWuGYfy10ovd
+uEo0Rayk/8dBcP138dYzXfhDAdoh/Wtn5MTiF//AbWs+F3ILGnHssA7bTkCjdX7O
+hoUwIM8RGiXK4pAYLp4TfE6rypakwSyiqFBFKLn+KtLjsCVEY2JJum5v2UuToQPW
+BnqrLYHKwO+B2+lohDge9V4NXrDa8kF51RF2SiRqko3xxn5Tg/bJL395NjBZaG4X
+Rs3W3hj0t2ELTn2Pu8j5kA0X8nCabw==
+=2rvc
+-----END PGP SIGNATURE-----
+
+--===============2503025889811092087==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b07f349d1864-fa60c094c19b.txt
+Content-Disposition: attachment; filename=revlist-6c038b58a2dc-a7528e9beadb.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
@@ -164,16 +196,12 @@ e41687b511d5e5437db5d2151e23c115dba30411 ALSA: hda/realtek: Add quirks for some 
 68cc9d3c8e44afe90e43cbbd2960da15c2f31e23 ALSA: hda/realtek - Enable mute LED on HP Pavilion Laptop 15-eg100
 302251f1fdfd302ce99a619aac1a5164d0bb7c4b Fix typo in marvell octeontx2 documentation
 b993ea46b3b601915ceaaf3c802adf11e7d6bac6 atm: clip: prevent NULL deref in clip_push()
-999fb9d51f939ee23cbb9313ae558d29d6987804 ASoC: qcom: sm8250: Fix possibly undefined reference
-7186b81807b4a08f8bf834b6bdc72d6ed8ba1587 ASoC: amd: yc: add quirk for Acer Nitro ANV15-41 internal mic
-bf39286adc5e10ce3e32eb86ad316ae56f3b52a0 ASoC: amd: yc: Add DMI quirk for Lenovo IdeaPad Slim 5 15
 fb721b2c35b1829b8ecf62e3adb41cf30260316a drm: writeback: Fix drm_writeback_connector_cleanup signature
 20d71750cc72e80859d52548cf5c2a7513983b0d crypto: wp512 - Use API partial block handling
 b872f562c8cef59743993b48eb458c2d87c1651e dm-crypt: Extend state buffer size in crypt_iv_lmk_one
 9205999e9f13a07cb29d5a8836c25afdca186007 drm/i915/snps_hdmi_pll: Fix 64-bit divisor truncation by using div64_u64
 a24cc6ce1933eade12aa2b9859de0fcd2dac2c06 futex: Initialize futex_phash_new during fork().
 a3ef3c2da675a8a564c8bea1a511cdd0a2a9aa49 drm/dp: Change AUX DPCD probe address from DPCD_REV to LANE0_1_STATUS
-dc6458ed95e40146699f9c523e34cb13ff127170 ASoC: amd: ps: fix for soundwire failures during hibernation exit sequence
 95b6759a81833d0e8c7456430186c2f6d174764e net: qed: reduce stack usage for TLV processing
 ff8abbd248c1f52df0c321690b88454b13ff54b2 smb: client: fix regression with native SMB symlinks
 db53805156f1e0aa6d059c0d3f9ac660d4ef3eb4 dm-raid: fix variable in journal device check
@@ -212,7 +240,6 @@ c3f429388c192eeb17aafa17eb315cb01f5d2aa8 Merge branch 'af_unix-fix-two-oob-issue
 b272f42547d85356b035e46273ddaf2aa4e161b8 ALSA: qc_audio_offload: Fix missing error code in prepare_qmi_response()
 93598167dcb6351ba40449d994244696168f1094 wifi: iwlwifi: mvm: assume '1' as the default mac_config_cmd version
 1fd26729e013d0c829eb0675d5b6ad77ff497ab3 Merge tag 'for-net-2025-06-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-ff21a6ec0f27c126db0a86d96751bd6e5d1d9874 ASoC: rt721-sdca: fix boost gain calculation error
 d87c3ca0f8f1ca4c25f2ed819e954952f4d8d709 wifi: mac80211: finish link init before RCU publish
 0748e553df0225754c316a92af3a77fdc057b358 userns and mnt_idmap leak in open_tree_attr(2)
 f23c52aafb1675ab1d1f46914556d8e29cbbf7b3 serial: imx: Restore original RXTL for console to fix data loss
@@ -224,7 +251,7 @@ f23c52aafb1675ab1d1f46914556d8e29cbbf7b3 serial: imx: Restore original RXTL for 
 31135cc99c40247bec924dcdcd74a58e866c52d8 drm/amdgpu/sdma7: add ucode version checks for userq support
 66abb996999de0d440a02583a6e70c2c24deab45 drm/amd/display: Fix AMDGPU_MAX_BL_LEVEL value
 6847b3b6e84ef37451c074e6a8db3fbd250c8dbf drm/amd/display: Add sanity checks for drm_edid_raw()
-6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e ASoC: SOF: Intel: hda: Use devm_kstrdup() to avoid memleak.
+b07f349d1864abe29436f45e3047da2bdd476462 spi: spi-cadence-quadspi: Fix pm runtime unbalance
 62207293479e6c03ef498a70f2914c51f4d31d2c drm/xe/display: Add check for alloc_ordered_workqueue()
 9127a69c7193ad47047ff968a2de9161d5c93d37 drm/xe/hwmon: Fix xe_hwmon_power_max_write
 5c4acbc8ce9025fe6e318966af8d3c42ffc6e9ca bcachefs: Don't unlock the trans if ret doesn't match BCH_ERR_operation_blocked
@@ -372,7 +399,10 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
-96893cdd4760ad94a438c1523cc5ca2470e04670 spi: Raise limit on number of chip selects to 24
-fa60c094c19b97e103d653f528f8d9c178b6a5f5 spi: spi-fsl-dspi: Clear completion counter before initiating transfer
+cbe876121633dadb2b0ce52711985328638e9aab ASoC: fsl_asrc: use internal measured ratio for non-ideal ratio mode
+960aed31eedbaeb2e47b1bc485b462fd38a53311 ASoC: Intel: SND_SOC_INTEL_SOF_BOARD_HELPERS select SND_SOC_ACPI_INTEL_MATCH
+dc78f7e59169d3f0e6c3c95d23dc8e55e95741e2 ASoC: fsl_sai: Force a software reset when starting in consumer mode
+be2e1a63448b35bd6736b5934f7720534649b51e MAINTAINERS: update Qualcomm audio codec drivers list
+a7528e9beadbddcec21b394ce5fa8dc4e5cdaa24 ASoC: Intel: soc-acpi: arl: Correct order of cs42l43 matches
 
---===============2872409092906249203==--
+--===============2503025889811092087==--
