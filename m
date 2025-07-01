@@ -1,117 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0151430762944159575=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 01 Jul 2025 10:34:10 -0000
-Message-Id: <175136605047.527577.7604445826790538640@gitolite.kernel.org>
-
---===============0151430762944159575==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Tue, 01 Jul 2025 10:39:46 -0000
+Message-Id: <175136638665.532787.9459538407798592415@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/tags/driver-core-6.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4f2d82f8473451b62169c1dee57a73804e6c440f
-  - ref: refs/tags/driver-core-6.14-rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: fc05fbddac77417eb2ae02201ab9d5a77502047f
-  - ref: refs/tags/topic/device-context-2025-04-17
-    old: 0000000000000000000000000000000000000000
-    new: 42b1310583c1c6c0b545153be0bd451c324c03f7
-  - ref: refs/tags/v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
-  - ref: refs/tags/v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
-  - ref: refs/tags/v6.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
-  - ref: refs/tags/v6.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
-  - ref: refs/tags/v6.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
-  - ref: refs/tags/v6.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: bc720facc421d0ff6d568323035d1a4d5d35ce84
-  - ref: refs/tags/v6.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5cb8274d66c611b7889565c418a8158517810f9b
-  - ref: refs/tags/v6.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
-  - ref: refs/tags/v6.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
-  - ref: refs/tags/v6.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e76fe965a0365e346cdaaf462847bac748354ab2
-  - ref: refs/tags/v6.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
-  - ref: refs/tags/v6.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
-
---===============0151430762944159575==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751366084 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1751366045-8ee8fa2e3cff7b454551431d8c721f5066faa909
-
-0000000000000000000000000000000000000000 4f2d82f8473451b62169c1dee57a73804e6c440f refs/tags/driver-core-6.12-rc3
-0000000000000000000000000000000000000000 fc05fbddac77417eb2ae02201ab9d5a77502047f refs/tags/driver-core-6.14-rc1-2
-0000000000000000000000000000000000000000 42b1310583c1c6c0b545153be0bd451c324c03f7 refs/tags/topic/device-context-2025-04-17
-0000000000000000000000000000000000000000 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023 refs/tags/v6.14
-0000000000000000000000000000000000000000 12b58398bffc23db89e715414399b0533255da51 refs/tags/v6.14-rc7
-0000000000000000000000000000000000000000 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd refs/tags/v6.15
-0000000000000000000000000000000000000000 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9 refs/tags/v6.15-rc1
-0000000000000000000000000000000000000000 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd refs/tags/v6.15-rc2
-0000000000000000000000000000000000000000 f34da179a4517854b2ffbe4bce8c3405bd9be04e refs/tags/v6.15-rc3
-0000000000000000000000000000000000000000 39d6783f6488786301f36b0e7c619f220c3e8d2c refs/tags/v6.15-rc4
-0000000000000000000000000000000000000000 bc720facc421d0ff6d568323035d1a4d5d35ce84 refs/tags/v6.15-rc5
-0000000000000000000000000000000000000000 5cb8274d66c611b7889565c418a8158517810f9b refs/tags/v6.15-rc6
-0000000000000000000000000000000000000000 c3223240f4b9bd8142c101420c76abe8ed1eae73 refs/tags/v6.15-rc7
-0000000000000000000000000000000000000000 d9946fe286439c2aeaa7953b8c316efe5b83d515 refs/tags/v6.16-rc1
-0000000000000000000000000000000000000000 e76fe965a0365e346cdaaf462847bac748354ab2 refs/tags/v6.16-rc2
-0000000000000000000000000000000000000000 7204503c922cfdb4fcfce4a4ab61f4558a01a73b refs/tags/v6.16-rc3
-0000000000000000000000000000000000000000 88bf743cabe5793d24f831ef8240a0bf90e5fd44 refs/tags/v6.16-rc4
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhjucQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BeYQAKDefjOJFpLMB7Yt5rq3
-5c0l4qP0KxBkwpmbgBmU4/orvXbByJKIEylJV/T062GTROgQeYON3cOsqKhQ3OYy
-ebEN4JsU4Uws4EeIdj/iL9Rs4eXhVmIsLngzoKaVBBnI6vMl0LtXVusO2DcTJXLQ
-tRmGRVbqgRki8BupS8oAvL5ORyTf6vjSoE9WIWgZdIbBhWGGED6aYQUTBeUyeb2V
-Mrdbwcf59UFSr/Dvc4igDp1R0KmSTk7WVGZgNhU/SNhQJkJXH+jHDxMCBI3ZxPkR
-057aLPUZameryr2BsMj9xqaTW1R6GfIaY+CNCY2Zkfo3kVNauHGJ0+lg99JH8AlV
-+4YJEErzeUj1nBHsdGXSQnktDKtDrJZIL+7+ezXB89ICWTHzDUlGXZ19lBSxdy/0
-jJFUOoU/KCkcLdQOypqAMfsnhCRZBqNeLoWgkUxr2BjKq2Ja20q/E4b9ZcBY2WFH
-O2APqP2aqDfD0+2SC4kure2Yhc3PmzjDlsJX2QHQZ/i01IqDq3mMTpaoCI3MDwE7
-Qe0E1ijzuQPE8WkRDsduGCILHiD+cojEOO2jIe2Lsd/ctMgBm7uKXlIlqXU9/SYV
-0sTGMVf5aT0/rmC1xu4KhI1LFJqT0erNh1ALTr5pIHWcf3dFk19SXNq1qUoLm9dT
-lsZ1iNdKamZbgFBqVKrEljg9
-=XdkA
------END PGP SIGNATURE-----
-
---===============0151430762944159575==--
+  - ref: refs/heads/next
+    old: 4c7cdb5d6b24fd61cd76aa78a3167de9742bec6d
+    new: dfb561beca34ac492cd8bd50323de7df8a33db5f
+    log: |
+         dfb561beca34ac492cd8bd50323de7df8a33db5f selftests/landlock: Add tests for access through disconnected paths
+         
