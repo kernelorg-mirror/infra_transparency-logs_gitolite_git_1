@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5972904406465704220=="
+Content-Type: multipart/mixed; boundary="===============4466207580916869165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 01 Jul 2025 11:07:44 -0000
-Message-Id: <175136806407.558729.18349289792173236338@gitolite.kernel.org>
+Date: Tue, 01 Jul 2025 11:08:18 -0000
+Message-Id: <175136809805.559274.12861358610530144199@gitolite.kernel.org>
 
---===============5972904406465704220==
+--===============4466207580916869165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/container_of_const_mess
-    old: 8d9af6d18115e37b75e45bb1b915c11d415e560d
-    new: a2c07277226d6e7a4eebdd8adf79116fdf5c1326
-    log: revlist-8d9af6d18115-a2c07277226d.txt
+  - ref: refs/heads/pmu_bus
+    old: a4bdb0cb2c7ae76a67069338e746019f5ad766e5
+    new: b240b9724faabd3eb484254b41bbf9d8bb73d0f7
+    log: revlist-a4bdb0cb2c7a-b240b9724faa.txt
 
---===============5972904406465704220==
+--===============4466207580916869165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751368095 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751368133 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1751368055-aa1e9f568198238881e017cb62fe2498cce5a63a
+nonce 1751368093-9cd76d33830d7ac59f65a48a901f6d04ea19f973
 
-8d9af6d18115e37b75e45bb1b915c11d415e560d a2c07277226d6e7a4eebdd8adf79116fdf5c1326 refs/heads/container_of_const_mess
+a4bdb0cb2c7ae76a67069338e746019f5ad766e5 b240b9724faabd3eb484254b41bbf9d8bb73d0f7 refs/heads/pmu_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhjwZ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dE0P/32w5A8PxT7dVOjjxQ/1
-Jk6IIQR90gJ6141n8KuyCCqZqM2oP+JKJtXrnAPcsfcxKeNmUXJW9HX8Ne5XCbOd
-wukNeFBGitDj97rDv1M3F4QdW5XHHcYiw3f+06RRazR/2lyCAu0eqXMf9jysVFFE
-AGqPCvApgDgc6821ciaM3hrVAiE6b2i/b1tHZE8GyQTvTDQ4Zw7JyYe6qbpG7h9L
-u9lNQz4nPFkkXDvbig68NukM1I1T5wA5EWxqGDbOqbxm7HUVeATZWULyS1QMpz4u
-DErPvzh3gc45olqx110PxqUkNKZaYbX4jzwbabd8SxSb6QJJbgAiXfav1lVcf/5v
-zt/6JhP+5fZeCzmOFn/0lvaHDjr7hGRgv7ITZriwuiSGDWcHmM9zr9LzsvrHYRUc
-xx+cFuJqk4EhzOZOqRaiM538abxj2y8mZ737yGluBP4synqcgytajcr/BmRLcuZB
-yTblEPDNt3PzcBQKHaoHFAJi3JJe+f7zOJ3ffT0t1n0lAeuM+ZDbxUndHrH7jNvE
-7WxohLBciHqFRaY9AVBCX7XrRIIH6Du85VQsd9zk9LqVagGPane2inCfoTr5PpvN
-ZSlzPdjjOIbOAzaKnuYrptTGsJ5FqIFMXBJgwW1fPQiID3s9dFWETKbDdPH5AWCr
-0WBuqxPnDIYfDLkYpxNmASFV
-=x+gP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhjwcUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3D0QAM6GocEFMkTxp3G+u1SX
+DjF1HDqIqLUy69yiAF1M0wwI8aoFTGmlanyMuWmG06tNDRSQyXWJqLXKPctERoF1
+dwEjGTy6JaeGd7Dt8RoU4QYsBJjm+ZK7UC0wuxKIE4UefH9RoRcLwzJeBMCSCnPj
+rUqWqqcWPP6D4BqdWrWSVVE0pn2fwhNk3ht+MEgJZ6dn7PCcsRCUTnX9V93IGiO1
+afRAspjQjDzH4O85465ZRJ2Zb4Wm/5ZHOp13N1TR/dVRNSjrm1etMoMq78QtizAX
+xtKX9OnQ2SVj/wZWEUuulAsDKnEnre8gAwMrTYlTPJ+3WKN999kwwt/rPeV5t7P6
+OOP1Bn2wzY/TaS2SWVTnIJ8Bc9qUvtPtYuPihxyH0RJq3+YE2dVDC7ieq3Zc6LGQ
+Ahz0vgwJMxaHewY7bUovIF6pa8/43IT8/eSsIMRkkhLHnvFo1e3/f4k68gw37YSV
+EoFoGBOBc2AzegY3IRCnboe5dTPH0Aa6mfQcpe2Rl3qRpwRfrWTmRVkdSsrAAOW+
+W/Fc56+oVQFqeAcaAGA6D43CDOmdhgWNjwwC76M8IgYNMEKXum9H1wg9n5PBEUeJ
+wAj0EGZZLaf/L1hM7yql1FgKduOCjeewEWMhRYrp/rlpzcQVtlsZ4gVKK99AkvuX
+O4+HgVq5VgTY9bnMX9rqkM6t
+=E2Wn
 -----END PGP SIGNATURE-----
 
---===============5972904406465704220==
+--===============4466207580916869165==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8d9af6d18115-a2c07277226d.txt
+Content-Disposition: attachment; filename=revlist-a4bdb0cb2c7a-b240b9724faa.txt
 
+ffa74d44f4b95a97b36a038c66f53e4edeaffb99 kmsan: test: add module description
+7266f590ca1fab3adf7c2546894dc418f2d86ba6 MAINTAINERS: add mm swap section
+2da20fd904f87f7bb31b79719bc3dda4093f8cdb kernel/rcu/tree_stall: add /sys/kernel/rcu_stall_count
+3c4c39cbde6aab4b77bcb12b7879ab5e121f4ca4 Merge tag 'drm-misc-fixes-2025-05-28' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+800d0b9b6a8b1b354637b4194cc167ad1ce2bdd3 fs/xattr.c: fix simple_xattr_list()
 b828b4bf29d10a3e505a76a39c4daea969e19dc9 ceph: fix variable dereferenced before check in ceph_umount_begin()
 e242bbbb6d7ac7556aa1e358294dc7e3c82cc902 LoongArch: vDSO: Correctly use asm parameters in syscall wrappers
 07aeb50e6c74e59c268ad6460c6b51411bea1759 LoongArch: dts: Add PWM support to Loongson-2K0500
@@ -1075,11 +1080,6 @@ cc69ac7a65820dd96c48fd2988255f8acc2527f2 Merge tag 'x86_urgent_for_v6.16_rc4' of
 798804b69fb6c5b5a4a5d38cd6054e42fc4a174e Merge tag 'tty-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 afa9a6f4f5744d907954f5b708d76c9bffa43234 Merge tag 'staging-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
-e892bc4bb5f2e23ebc0e7b98430ff6162b58eed7 drivers: misc: sram: fix up some const issues with recent attribute changes
-1b59d0bb225a10391069f09da8666445993015b3 staging: vme: vme_user: fix up const issue in vme_bus_match()
-073b060518facdc6c98188c1e8bb1b38f8237420 container_of: switch to be a const call
-2c193e4062545341aa993c93b9b97b0d361766c4 time/timecounter: fix the lie that struct cyclecounter is const
-66627d4c5b1b5a3ff3fe8b370f11d2d9f0c2be70 staging: greybus: gbphy: fix up const issue with the match callback
-a2c07277226d6e7a4eebdd8adf79116fdf5c1326 generic: fix up some const issues.
+b240b9724faabd3eb484254b41bbf9d8bb73d0f7 perf/core: move all of the pmu devices into their own location
 
---===============5972904406465704220==--
+--===============4466207580916869165==--
