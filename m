@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 01 Jul 2025 07:16:23 -0000
-Message-Id: <175135418317.364059.11949608274020696297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 01 Jul 2025 07:50:09 -0000
+Message-Id: <175135620929.391652.8495547828322559756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 981d7f91aeda17424b29f033249f4fa7cd2a7556
-    new: 5af89b6309417bdc2ff6835509d33a172c4a3218
+  - ref: refs/heads/main
+    old: aed4969f2bdfda5a2670684a02f483d261152816
+    new: 8f240030794ca027fa669b447c0f27ffd8ae72d5
     log: |
-         0c8fe93f4e7767b0e579959de051dcaddd7197fd platform/chrome: chromeos_laptop: Remove duplicate check
-         5af89b6309417bdc2ff6835509d33a172c4a3218 platform/chrome: chromeos_laptop: Replace open coded variant of DEFINE_RES_IRQ()
+         22955d942f281e476f1db997c1fd4f24c6e3b693 Use unqualified references to ffi types
+         c9a7bcd2c016ac814fd56e5a2b0946fb14960de4 Cast to the proper type
+         8f240030794ca027fa669b447c0f27ffd8ae72d5 Merge branch 'clean-up-usage-of-ffi-types'
          
