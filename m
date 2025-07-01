@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 01 Jul 2025 22:22:34 -0000
-Message-Id: <175140855437.1142557.14753904087742757932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 01 Jul 2025 22:37:58 -0000
+Message-Id: <175140947816.1154747.16762214686617251268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 66701750d5565c574af42bef0b789ce0203e3071
-    new: bf4807c89d8f92c47404b1e4eeeefb42259d1b50
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 114339ee4d66a328d186264ffa23a766542a9a15
+    new: 0e22c5ca44e687981f79598e650d26faad101746
     log: |
-         f8242745871f81a3ac37f9f51853d12854fd0b58 bpf: Reject %p% format string in bprintf-like helpers
-         bf4807c89d8f92c47404b1e4eeeefb42259d1b50 selftests/bpf: Add negative test cases for snprintf
+         b6cea9b4f892e15d6d0dfabb11f3db299cdb9f01 perf test: Name the noploop process
+         0e22c5ca44e687981f79598e650d26faad101746 perf test: Add sched latency and script shell tests
          
