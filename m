@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 01 Jul 2025 14:37:26 -0000
-Message-Id: <175138064625.742894.14601717531417865528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 01 Jul 2025 14:37:30 -0000
+Message-Id: <175138065040.743159.14196292629470442310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/tpm-buf-cleanup
-    old: 6c123f82792bf05c8e97c8068e0776376da45e0d
-    new: 92b07cc94686b23b9871e272c18c781a063eae9b
+  - ref: refs/heads/controller/rockchip
+    old: ac0683c68e647601db112961da5e29d012f4c99c
+    new: 5d89ab04bb0bcae2f1c1660b5f6f78e0fc990206
     log: |
-         92b07cc94686b23b9871e272c18c781a063eae9b tpm: Managed allocations for tpm_buf instances
+         2c16050becc533286470e3ad031efac82c272752 PCI: rockchip: Use standard PCIe definitions
+         5d89ab04bb0bcae2f1c1660b5f6f78e0fc990206 PCI: rockchip: Set Target Link Speed to 5.0 GT/s before retraining
          
