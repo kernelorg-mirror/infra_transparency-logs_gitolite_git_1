@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 01 Jul 2025 16:37:01 -0000
-Message-Id: <175138782108.848803.16318515319835637088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 01 Jul 2025 16:38:01 -0000
+Message-Id: <175138788132.849469.12257628240559610702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/kdevops
-    old: bba189b280934fb5290dcec3b89b616c090ab563
-    new: 2785694c2efe123ba80a275ad806f1582fcc803d
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 3d30048958e0d43425f6d4e76565e6249fa71050
+    new: c584c4f264c3bd7c27247688056a5c77907dbb07
     log: |
-         1ea2edb74311fe8250659edf4bafb1b835110656 sunrpc: delay pc_release callback until after sending a reply
-         3875ba1780cc2ac34773d46cc93f7dffdc8ef42e SQUASH: fix the order
-         2785694c2efe123ba80a275ad806f1582fcc803d nfsd: call generic_fadvise after v3 READ, stable WRITE or COMMIT
+         c584c4f264c3bd7c27247688056a5c77907dbb07 i2c: microchip-core: re-fix fake detections w/ i2cdetect
          
