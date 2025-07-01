@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1190836823880538611=="
+Content-Type: multipart/mixed; boundary="===============3947264101795640421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 01 Jul 2025 14:12:57 -0000
-Message-Id: <175137917715.717199.15570882493746418125@gitolite.kernel.org>
+Date: Tue, 01 Jul 2025 14:13:28 -0000
+Message-Id: <175137920847.717759.942878782373796873@gitolite.kernel.org>
 
---===============1190836823880538611==
+--===============3947264101795640421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
-    new: a1fb8acbf488d93cf3ffed653929f9617a338630
-    log: revlist-7595b66ae9de-a1fb8acbf488.txt
+  - ref: refs/heads/tpm-buf-cleanup
+    old: ad8c701a7ec2b0b9c8e66311a660245d90a4a402
+    new: f53d961c6f0f6482f8235a52297c69b837786543
+    log: revlist-ad8c701a7ec2-f53d961c6f0f.txt
 
---===============1190836823880538611==
+--===============3947264101795640421==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7595b66ae9de-a1fb8acbf488.txt
+Content-Disposition: attachment; filename=revlist-ad8c701a7ec2-f53d961c6f0f.txt
 
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
 d53fd59707c402d03ec740b4e90a2ddcb5312006 dt-bindings: soc: fsl,ls1028a-reset: Drop extra "/" in $id
@@ -349,5 +349,6 @@ d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
 def2bf41c86487e96c2a03e4c5c74c5e12a44b49 firmware: arm_ffa: Change initcall level of ffa_init() to rootfs_initcall
 2001dad82b75be683fcfae45b3f69d1012022fb4 tpm: tpm_crb_ffa: try to probe tpm_crb_ffa when it's built-in
 a1fb8acbf488d93cf3ffed653929f9617a338630 tpm_crb_ffa: Remove unused export
+f53d961c6f0f6482f8235a52297c69b837786543 tpm: Repeal and replace tpm_buf_init*() and tpm_buf_destroy()
 
---===============1190836823880538611==--
+--===============3947264101795640421==--
