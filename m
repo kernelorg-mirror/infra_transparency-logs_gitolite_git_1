@@ -1,40 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5577984759406686797=="
+Content-Type: multipart/mixed; boundary="===============0042833163814960107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Jul 2025 15:16:41 -0000
-Message-Id: <175138300168.779138.15284690103326939298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 01 Jul 2025 15:17:07 -0000
+Message-Id: <175138302741.779663.15868603127786323205@gitolite.kernel.org>
 
---===============5577984759406686797==
+--===============0042833163814960107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 2def09ead4ad5907988b655d1e1454003aaf8297
-    new: 72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc
-    log: revlist-2def09ead4ad-72fb83735c71.txt
+  - ref: refs/heads/main
+    old: 647496422ba9d2784fb8e15b3fda7fe801b1f2ff
+    new: 21deb2d966920f0d4dd098ca6c3a55efbc0b2f23
+    log: revlist-647496422ba9-21deb2d96692.txt
 
---===============5577984759406686797==
+--===============0042833163814960107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2def09ead4ad-72fb83735c71.txt
+Content-Disposition: attachment; filename=revlist-647496422ba9-21deb2d96692.txt
 
-1f029b4e30a602db33dedee5ac676e9236ad193c Bluetooth: Prevent unintended pause by checking if advertising is active
-46c0d947b64ac8efcf89dd754213dab5d1bd00aa Bluetooth: hci_sync: revert some mesh modifications
-e5af67a870f738bb8a4594b6c60c2caf4c87a3c9 Bluetooth: MGMT: set_mesh: update LE scan interval and window
-f3cb5676e5c11c896ba647ee309a993e73531588 Bluetooth: MGMT: mesh_send: check instances prior disabling advertising
-89fb8acc38852116d38d721ad394aad7f2871670 Bluetooth: HCI: Set extended advertising data synchronously
-60f7f4afaf6d09c27971f30f5ab69a3aab78b28f MAINTAINERS: Add myself as mlx5 core and mlx5e co-maintainer
-e39ed71c7a26e8e94c637e222bc373b511ca127f net: txgbe: fix the issue of TX failure
-6c7ffc9af7186ed79403a3ffee9a1e5199fc7450 net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
-3b2c45cb1b508014cee59cbabb1fc936f2f2dd3f MAINTAINERS: adjust file entry after renaming rzv2h-gbeth dtb
-72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc Merge tag 'for-net-2025-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+af232e7615e45e88c790dbbf4401ff3ffd6b3ad8 ipv6: guard ip6_mr_output() with rcu
+03dc03fa0432a9160c4fcbdb86f274e6b4587972 neighbor: Add NTF_EXT_VALIDATED flag for externally validated entries
+171f2ee31a42f1802299862686c2521eda77dc61 selftests: net: Add a selftest for externally validated neighbor entries
+b28fe7f20a05f824a07aeecccd8bd71c29ff99e4 Merge branch 'add-support-for-externally-validated-neighbor-entries'
+b7ad21258f9e9a7f58b19595d5ceed2cde3bed68 net: fec: allow disable coalescing
+f5ed33771bced4a0743ec2cef7b4e220a08db5c9 net: enetc: change the statistics of ring to unsigned long type
+9fe5f7145ad746e1b8e7522b8a955f642ff1b404 net: enetc: separate 64-bit counters from enetc_port_counters
+4c7ef319848faac5ac8c4b0b3e31a82fe59502f0 net: enetc: read 64-bit statistics from port MAC counters
+7878e21e40d47f3e55968eec8b8c690d6b8f7813 Merge branch 'net-enetc-change-some-statistics-to-64-bit'
+aed4969f2bdfda5a2670684a02f483d261152816 net: net->nsid_lock does not need BH safety
+22955d942f281e476f1db997c1fd4f24c6e3b693 Use unqualified references to ffi types
+c9a7bcd2c016ac814fd56e5a2b0946fb14960de4 Cast to the proper type
+8f240030794ca027fa669b447c0f27ffd8ae72d5 Merge branch 'clean-up-usage-of-ffi-types'
+c22f056e49d905d54a0203a32e344dc422766e38 net: usb: lan78xx: fix possible NULL pointer dereference in lan78xx_phy_init()
+8b79380dfe3c3fb143eba69e6cca36a88606a041 docs: fbnic: explain the ring config
+21deb2d966920f0d4dd098ca6c3a55efbc0b2f23 net: ieee8021q: fix insufficient table-size assertion
 
---===============5577984759406686797==--
+--===============0042833163814960107==--
