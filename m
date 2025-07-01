@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 01 Jul 2025 16:10:41 -0000
-Message-Id: <175138624103.826036.17244940045021246157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 01 Jul 2025 16:11:41 -0000
+Message-Id: <175138630197.826648.4467704728440407106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/fixes
-    old: f1d673b38cb86a27ff55f56fa2494dabf8f8896e
-    new: 18e7dfc5e0f135c68986a23f593868900518261a
+  - ref: refs/heads/kdevops
+    old: 958493cdc913d773e180a3a2b54491c7e6932690
+    new: bba189b280934fb5290dcec3b89b616c090ab563
     log: |
-         18e7dfc5e0f135c68986a23f593868900518261a fix proc_sys_compare() handling of in-lookup dentries
+         bba189b280934fb5290dcec3b89b616c090ab563 nfsd: call generic_fadvise after READ, stable WRITE or COMMIT
          
