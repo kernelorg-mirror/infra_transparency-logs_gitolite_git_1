@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 01 Jul 2025 18:28:16 -0000
-Message-Id: <175139449697.941160.1702006315579244369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 01 Jul 2025 18:34:09 -0000
+Message-Id: <175139484904.945795.4391778500320550334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/nova/master
-    old: 31424b0794824b7523d8cc803135e752635f67e1
-    new: 125d6060747abd5b33b4235f7e4502dbf9329411
+  - ref: refs/heads/master
+    old: 54e626d097b05af9421534d211c9f96211d07d66
+    new: 6a71a6679fcbe96f894292d6cfc0d58eabf9ac8c
     log: |
-         3b24cd7d69a80c0f806da043fb684dd42907b687 JOEL: Add LSM metadata
-         4771ba357efd5f9c7bc17847756dbb76264aab42 JOEL: Add defconfig with Nova, Rust and DM options to boot Ubuntu
-         41409adf0c79741d5f01ac8854c61b85149005a7 JOEL: config: update defconfig with open gpu path
-         affce834acdc5903781e88645605c38e30b6b03f JOEL: config: Set firmware version correctly for bindgen
-         61f67278b381d7cba4d9f4f4bad07d2b00a91e0e JOEL: config: Enable Nouveau=m and VFIO_PCI=m in config and make a VNG-specific config
-         e42607300e03bd902dbb7bd0ced00405399d85df JOEL: Fix bindings path for rust-analyzer in my tree
-         4a3d5236c44dadfe410eb1fa3b0dca8f86118da6 fixup: sequencer: get rid of dump_bytes
-         e31daf59da462345a1930f09bbdea0f83f2201c4 fixup: sequencer: Store entire GspSequencerInfo in GspSequencer
-         233a4ad6eae21af1cc40c0ad493b545decd80e42 fixup! DEBUG: nova-core: debugfs support to dump logrm, logintr, loginit
-         125d6060747abd5b33b4235f7e4502dbf9329411 fixup! fixup: sequencer: Store entire GspSequencerInfo in GspSequencer
+         45601c66b5ddbe665937659b957e71bc8efedd46 dt-bindings: input: touchscreen: convert tsc2007.txt to yaml format
+         6a71a6679fcbe96f894292d6cfc0d58eabf9ac8c Input: cs40l50 - remove redundant flush_workqueue() calls
+         
+  - ref: refs/heads/next
+    old: 54e626d097b05af9421534d211c9f96211d07d66
+    new: 6a71a6679fcbe96f894292d6cfc0d58eabf9ac8c
+    log: |
+         45601c66b5ddbe665937659b957e71bc8efedd46 dt-bindings: input: touchscreen: convert tsc2007.txt to yaml format
+         6a71a6679fcbe96f894292d6cfc0d58eabf9ac8c Input: cs40l50 - remove redundant flush_workqueue() calls
          
