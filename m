@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5292635096010826041=="
+Content-Type: multipart/mixed; boundary="===============8879508266088807755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 01 Jul 2025 22:14:05 -0000
-Message-Id: <175140804598.1133292.2419069509044283547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 01 Jul 2025 22:14:09 -0000
+Message-Id: <175140804918.1133511.10816760697681829805@gitolite.kernel.org>
 
---===============5292635096010826041==
+--===============8879508266088807755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 4ec24e9601d5cfc9ac9798c0acb8e88c6ab61fc5
     new: 04a8ff1bc3514808481ddebd454342ad902a3f60
     log: |
          04a8ff1bc3514808481ddebd454342ad902a3f60 spi: cadence-quadspi: fix cleanup of rx_chan on failure paths
          
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 7e1c28fbf235791cb5046fafdac5bc16fe8e788d
     new: 244bc18e5f1875401a4af87d2eae3f9376d9d720
     log: |
@@ -31,29 +31,29 @@ changes:
          244bc18e5f1875401a4af87d2eae3f9376d9d720 spi: stm32: delete stray tabs in stm32h7_spi_data_idleness()
          
 
---===============5292635096010826041==
+--===============8879508266088807755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1751408082 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1751408043-abaf2a2e7303729edea89c75eb1430a178bb6332
+pusher C3F436CA30F5D8EB 1751408086 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1751408047-3c42853d6ff33c0a768d06b49d2cd5459c677c1a
 
-4ec24e9601d5cfc9ac9798c0acb8e88c6ab61fc5 04a8ff1bc3514808481ddebd454342ad902a3f60 refs/heads/for-6.16
-7e1c28fbf235791cb5046fafdac5bc16fe8e788d 244bc18e5f1875401a4af87d2eae3f9376d9d720 refs/heads/for-6.17
+4ec24e9601d5cfc9ac9798c0acb8e88c6ab61fc5 04a8ff1bc3514808481ddebd454342ad902a3f60 refs/heads/spi-6.16
+7e1c28fbf235791cb5046fafdac5bc16fe8e788d 244bc18e5f1875401a4af87d2eae3f9376d9d720 refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhkXdIACgkQJNaLcl1U
-h9Awxgf/YlGrZUBIwI7s6Cqy8RKe61HDiw/rpObFerOtUv4PYj276P/aXOcAo9Di
-9acAtw/6irc1ixdmOYG7FvHsfV1RnVsOMlzXxRvokrZyhWsJI7urP7Jm0O+WgjyS
-4NzbaVQMRPE+Kq2JIo9t6gTOfg+Tc/N9l7D+6xfNEo4QjCgfwgIGlr70oHH3/sDX
-5ddx7olOwzadw0S85VwvUrfCrgS2hRGIgZpdlh1oNcv/u7UqfW1XQhXB247aGarG
-xDy8qQDhSNnnHjuN7dFeOw6xelzb7j36d/VaXzohhMEBVO0KF6Pghc4xSMwblVR5
-pLMfL/ABk4vvqFLwqTLXXGFjUtpvsg==
-=pdP7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhkXdYACgkQJNaLcl1U
+h9D2wAf9FL7573L/eP/tbYhF5nNB4CKXQBizEzyBNdvczmUYRLUJfKj1AyDRE/LO
+mRahD/xzZHokQL0fkU5bC0orIoyGkt5GhVJvqXtYdG4LD4NigykGD3UQ8AcEN1F7
+EU8POBs6LFRKP3p5apTlstOWxX+PkiQE/JHNIeHyymuZPUwkaOwp4p+0a2D04XLF
+OiXNJuca+oYS7gWUwvXhwNtVy+nfyVtwuRpTehlBlp6Ru26mGCPTrhnwmRmdTgcP
+0JbhmhVwmmS71ptqeKkbgDW9KHNMr5OLFT3Hd+ute9+iD6RqxhX5r+5SqBPJyMQa
+aXbAGkq4ouSKbo7W5y5TpG7ZgaoVLg==
+=WEpd
 -----END PGP SIGNATURE-----
 
---===============5292635096010826041==--
+--===============8879508266088807755==--
