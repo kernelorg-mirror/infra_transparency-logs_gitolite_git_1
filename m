@@ -1,35 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5636407729909368065=="
+Content-Type: multipart/mixed; boundary="===============4381549037012132351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 01 Jul 2025 09:08:52 -0000
-Message-Id: <175136093254.455616.6467177863544393287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 01 Jul 2025 09:09:03 -0000
+Message-Id: <175136094368.456017.16910959984436345247@gitolite.kernel.org>
 
---===============5636407729909368065==
+--===============4381549037012132351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 1343433ed38923a21425c602e92120a1f1db5f7a
     new: 3f804361f3b9af33e00b90ec9cb5afcc96831e60
     log: revlist-1343433ed389-3f804361f3b9.txt
-  - ref: refs/tags/next-20250331
-    old: 1c4df70331c0dc7f82f724166575c16931ec66b3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20250401
-    old: 7b872e8812b0f1dfa4932da0f3f1852e99e42851
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250701
     old: 0000000000000000000000000000000000000000
     new: bf66a1ba8e378d23fde984df2034d909215f5150
 
---===============5636407729909368065==
+--===============4381549037012132351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1054,4 @@ e96113485737761153a1f6d0112a3f03ad55f962 Merge branch 'caps-next' of git://git.k
 32474de939984819af1f709064c7d3e16a45802f Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 3f804361f3b9af33e00b90ec9cb5afcc96831e60 Add linux-next specific files for 20250701
 
---===============5636407729909368065==--
+--===============4381549037012132351==--
