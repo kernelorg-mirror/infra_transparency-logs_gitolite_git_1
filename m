@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 01 Jul 2025 13:58:54 -0000
-Message-Id: <175137833432.704548.11033529265506077668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 01 Jul 2025 14:02:31 -0000
+Message-Id: <175137855183.708490.18289265491319443393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 5cba85346eaf2f0f394fe4d1d45f0e80d8b8ba5f
-    new: 3bc46213b81278f3a9df0324768e152de71eb9fe
+  - ref: refs/heads/imx93-ethos-v2
+    old: e2533aabd58e39b5a86438a8884e75b665fd885c
+    new: 0387723ea682298c3cd4749dc78bd81a012e8b8f
     log: |
-         638e12b9a265ed5b5405df14d0f6fb8e215859d4 Bluetooth: hci_event: Add support for handling LE BIG Sync Lost event
-         3bc46213b81278f3a9df0324768e152de71eb9fe Bluetooth: Fix spelling mistakes
+         1d362014f7cf1cec6234c3a8aa68cb39d2b4fc3f arm64: dts: imx93: Fix SRAM size
+         0387723ea682298c3cd4749dc78bd81a012e8b8f drm: ethos: SRAM support rework.
          
