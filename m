@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 01 Jul 2025 09:28:46 -0000
-Message-Id: <175136212695.473647.743260811025308735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 01 Jul 2025 09:49:07 -0000
+Message-Id: <175136334781.489947.12178635903523594879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 4422577f93fbfbffb602ffbab7bf90068ad7b011
-    new: 643eb7af40da6c7c3b254012e2f3aecbe8f1a8e3
-    log: |
-         643eb7af40da6c7c3b254012e2f3aecbe8f1a8e3 dt-bindings: pwm: Convert lpc32xx-pwm.txt to yaml format
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: 4422577f93fbfbffb602ffbab7bf90068ad7b011
-    new: 643eb7af40da6c7c3b254012e2f3aecbe8f1a8e3
-    log: |
-         643eb7af40da6c7c3b254012e2f3aecbe8f1a8e3 dt-bindings: pwm: Convert lpc32xx-pwm.txt to yaml format
-         
+  - ref: refs/tags/pm-runtime-6.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: dd112daf8358cfed63087008e0197d83ec7feb2c
