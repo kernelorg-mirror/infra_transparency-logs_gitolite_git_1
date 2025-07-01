@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2264398039026450174=="
+Content-Type: multipart/mixed; boundary="===============1308153684770854267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Jul 2025 15:16:34 -0000
-Message-Id: <175138299477.778577.7992907708639489652@gitolite.kernel.org>
+Date: Tue, 01 Jul 2025 15:16:37 -0000
+Message-Id: <175138299707.778865.15517734587620327040@gitolite.kernel.org>
 
---===============2264398039026450174==
+--===============1308153684770854267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2def09ead4ad5907988b655d1e1454003aaf8297
     new: 72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc
     log: revlist-2def09ead4ad-72fb83735c71.txt
 
---===============2264398039026450174==
+--===============1308153684770854267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ e39ed71c7a26e8e94c637e222bc373b511ca127f net: txgbe: fix the issue of TX failure
 3b2c45cb1b508014cee59cbabb1fc936f2f2dd3f MAINTAINERS: adjust file entry after renaming rzv2h-gbeth dtb
 72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc Merge tag 'for-net-2025-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
---===============2264398039026450174==--
+--===============1308153684770854267==--
