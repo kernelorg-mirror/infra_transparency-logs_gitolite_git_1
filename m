@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 01 Jul 2025 09:10:41 -0000
-Message-Id: <175136104130.459332.12397679979219078646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 01 Jul 2025 09:15:54 -0000
+Message-Id: <175136135476.463733.5676511706996669270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/next
-    old: b2b0b621d0c2aad0a085a9b488164db9dfb38426
-    new: 4c7cdb5d6b24fd61cd76aa78a3167de9742bec6d
+  - ref: refs/heads/for-next
+    old: 19564a8576ac847ec981207292b500efbbbfaf7b
+    new: f1208b05574f63c52e88109d8c75afdf4fc6bf42
     log: |
-         f1644ca986a6aa5f4821b73bd60a78305f7f7ce7 landlock: Remove warning in collect_domain_accesses()
-         4c7cdb5d6b24fd61cd76aa78a3167de9742bec6d selftests/landlock: Add tests for access through disconnected paths
+         8cffca866ba86cbf0d097e56521b17d830956d4a RDMA/core: Extend RDMA device registration to be net namespace aware
+         611d08207d313500d010d8792424346ce70d0cfb RDMA/mlx5: Allocate IB device with net namespace supplied from core dev
+         f1208b05574f63c52e88109d8c75afdf4fc6bf42 RDMA/ipoib: Use parent rdma device net namespace
          
