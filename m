@@ -1,57 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4649329010915337211=="
+Content-Type: multipart/mixed; boundary="===============2699771560434258059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 01 Jul 2025 14:56:46 -0000
-Message-Id: <175138180676.760945.17739808313843489929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 01 Jul 2025 15:15:10 -0000
+Message-Id: <175138291038.776643.2607387630985468624@gitolite.kernel.org>
 
---===============4649329010915337211==
+--===============2699771560434258059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/usb-next
-    old: e35a5d814525006f043b29bffd1bbdcb549b23c5
-    new: 7481a97c5f49f10c7490bb990d0e863f23b9bb71
-    log: |
-         f63f7aec0057fd187a1212a5828560c3d9fcc739 usb: misc: onboard_usb_dev: Add Bison Electronics Inc. Integrated Camera
-         7481a97c5f49f10c7490bb990d0e863f23b9bb71 usb: dwc2: disable platform lowlevel hw resources during shutdown
-         
+  - ref: refs/heads/main
+    old: 2def09ead4ad5907988b655d1e1454003aaf8297
+    new: 72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc
+    log: revlist-2def09ead4ad-72fb83735c71.txt
 
---===============4649329010915337211==
+--===============2699771560434258059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2def09ead4ad-72fb83735c71.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751381843 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1751381804-5397a05a59a88b75a4aff1d4890d568f3bbdaaae
+1f029b4e30a602db33dedee5ac676e9236ad193c Bluetooth: Prevent unintended pause by checking if advertising is active
+46c0d947b64ac8efcf89dd754213dab5d1bd00aa Bluetooth: hci_sync: revert some mesh modifications
+e5af67a870f738bb8a4594b6c60c2caf4c87a3c9 Bluetooth: MGMT: set_mesh: update LE scan interval and window
+f3cb5676e5c11c896ba647ee309a993e73531588 Bluetooth: MGMT: mesh_send: check instances prior disabling advertising
+89fb8acc38852116d38d721ad394aad7f2871670 Bluetooth: HCI: Set extended advertising data synchronously
+60f7f4afaf6d09c27971f30f5ab69a3aab78b28f MAINTAINERS: Add myself as mlx5 core and mlx5e co-maintainer
+e39ed71c7a26e8e94c637e222bc373b511ca127f net: txgbe: fix the issue of TX failure
+6c7ffc9af7186ed79403a3ffee9a1e5199fc7450 net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
+3b2c45cb1b508014cee59cbabb1fc936f2f2dd3f MAINTAINERS: adjust file entry after renaming rzv2h-gbeth dtb
+72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc Merge tag 'for-net-2025-06-27' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
-e35a5d814525006f043b29bffd1bbdcb549b23c5 7481a97c5f49f10c7490bb990d0e863f23b9bb71 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhj91MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rA0P/RXIclZrJmhVNcZoRnpR
-FgIwsPJ0ynyWwaiJC9DsJUM9MvguvakhtrhyP1dCJw2FALKOE1bGXhMleykVOvgH
-gNO7ssnOSOV8rY8nVTTs/8cOECb5652Rbghfs3IVXBfYDx8kmntKcdKpAIec1Y5l
-V84jF17p0cVmF756XCp5E/H+owlsKm9x9F7xalzqRaNj18FaB9jBwQt/+czPQY1b
-HkZwwNo+zOi/7xlgGFROzq/0hOrLIPfwQGN5bv6WM2PVoVuhgAGBZzu3uFserFeS
-ITxpH7whCQDxo3JGZw0boz6sTvZEpKeH78+BwQzHxh0nPGUVoTEht0fOFGlvKw9f
-2VhQ14YKF+LdBcc7CetxfivYeGSH79szP66PvsxhE2TVD6fr3scZzh7D9EkxyiBm
-O/C3sMqOBZoPgjYN0DNpSU6kXZs5/hlWyAn/nwlq7RIzVWN39CIQXwvsg1DdUscs
-rgoiesUpBdUpBFhKDHDqcG+Er1hlZFb7r/iINr0/exlbvm0vfA4+NVGct02rqvTG
-lxMsBnunuZc2Xe/N+zu6OzNMOIcN6CNAYphPVsVoXy9YYNT98EHS4LpUhCNBsGdT
-B6xv4eFRajecfBEvyvTYi1QOxmte3T3S2vNQU34L93oAfD1qloNpY2lmswdzj/Lq
-XcHDP4dNGhf4Oi8TJjo136Wu
-=kVAu
------END PGP SIGNATURE-----
-
---===============4649329010915337211==--
+--===============2699771560434258059==--
