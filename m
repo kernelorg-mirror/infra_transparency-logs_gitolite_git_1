@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Tue, 01 Jul 2025 11:03:36 -0000
-Message-Id: <175136781647.554356.13046249182391598637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 01 Jul 2025 11:04:00 -0000
+Message-Id: <175136784077.554714.4696258830190770308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: 53c63dd421d79dbd81e1b608c9b807a463d124a0
-    new: 7da5d106c7400fc02b0b5bee1b565b07895f5132
+  - ref: refs/heads/wip/leon-for-next
+    old: d7d403f74f236d8ef2778b32dc5ae9a6fc269790
+    new: 4d67f2ac89a89271047598f7486f9c4494b79799
     log: |
-         7da5d106c7400fc02b0b5bee1b565b07895f5132 fdtput: Fix documentation about existing nodes
-         
-  - ref: refs/heads/master
-    old: 53c63dd421d79dbd81e1b608c9b807a463d124a0
-    new: 7da5d106c7400fc02b0b5bee1b565b07895f5132
-    log: |
-         7da5d106c7400fc02b0b5bee1b565b07895f5132 fdtput: Fix documentation about existing nodes
+         4d67f2ac89a89271047598f7486f9c4494b79799 Fix dma_unmap_sg() nents value
          
