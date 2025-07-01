@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Tue, 01 Jul 2025 13:33:21 -0000
-Message-Id: <175137680130.680977.15478740456640031744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Tue, 01 Jul 2025 13:33:48 -0000
+Message-Id: <175137682850.681415.15978309222802633123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/modules/linux
+user: da.gomez
 changes:
-  - ref: refs/tags/mfd-fixes-6.16
-    old: 0000000000000000000000000000000000000000
-    new: 0318016b6c9f813da9752708671dbe8a362b81cb
+  - ref: refs/heads/modules-next
+    old: f4e47f3ac79849846189058491ff885491223ab8
+    new: 6c7ceed3f375bf9e2b093623af76df3094c88871
+    log: |
+         6c7ceed3f375bf9e2b093623af76df3094c88871 module: Make sure relocations are applied to the per-CPU section
+         
