@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 01 Jul 2025 00:37:34 -0000
-Message-Id: <175133025430.31497.13921891797727602770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Tue, 01 Jul 2025 00:42:38 -0000
+Message-Id: <175133055886.36584.10665115235395810140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: lclaudio
 changes:
-  - ref: refs/heads/master
-    old: d0d399637bd18333cd5a88fca05fd084873c3c48
-    new: 56803d06eb6ee7ff80e4aaa6958a76b8e83cefef
-    log: |
-         dc770cb53250c0a29c2d09e40bdaa671f6f0903c tpm: Prepare tpm_buf for cleanup class
-         56803d06eb6ee7ff80e4aaa6958a76b8e83cefef tpm_crb_ffa: Remove unused export
-         
+  - ref: refs/tags/v5.10.239-rt133-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09ed9f53313445ed609d8d2e6fd7db295c49c9ee
