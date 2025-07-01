@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8288822437370465621=="
+Content-Type: multipart/mixed; boundary="===============1190836823880538611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 01 Jul 2025 14:12:40 -0000
-Message-Id: <175137916049.716810.9006640390646133232@gitolite.kernel.org>
+Date: Tue, 01 Jul 2025 14:12:57 -0000
+Message-Id: <175137917715.717199.15570882493746418125@gitolite.kernel.org>
 
---===============8288822437370465621==
+--===============1190836823880538611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 56803d06eb6ee7ff80e4aaa6958a76b8e83cefef
+  - ref: refs/heads/next
+    old: 7595b66ae9de667bf35a8c99e8f1bfc4792e207e
     new: a1fb8acbf488d93cf3ffed653929f9617a338630
-    log: revlist-56803d06eb6e-a1fb8acbf488.txt
+    log: revlist-7595b66ae9de-a1fb8acbf488.txt
 
---===============8288822437370465621==
+--===============1190836823880538611==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-56803d06eb6e-a1fb8acbf488.txt
+Content-Disposition: attachment; filename=revlist-7595b66ae9de-a1fb8acbf488.txt
 
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
 d53fd59707c402d03ec740b4e90a2ddcb5312006 dt-bindings: soc: fsl,ls1028a-reset: Drop extra "/" in $id
@@ -350,4 +350,4 @@ def2bf41c86487e96c2a03e4c5c74c5e12a44b49 firmware: arm_ffa: Change initcall leve
 2001dad82b75be683fcfae45b3f69d1012022fb4 tpm: tpm_crb_ffa: try to probe tpm_crb_ffa when it's built-in
 a1fb8acbf488d93cf3ffed653929f9617a338630 tpm_crb_ffa: Remove unused export
 
---===============8288822437370465621==--
+--===============1190836823880538611==--
