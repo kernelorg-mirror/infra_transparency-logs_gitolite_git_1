@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 02 Jul 2025 18:44:44 -0000
-Message-Id: <175148188404.2209281.10448079291541784889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 02 Jul 2025 18:44:48 -0000
+Message-Id: <175148188835.2209678.12478893924945262163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 65fdafd6765f677494ab0cb35b8237eb742a18e5
-    new: 38d95beb4b24301362f8bdae7fbdb82d74b803ca
-    log: |
-         38d95beb4b24301362f8bdae7fbdb82d74b803ca selftests/bpf: Allow veristat compile standalone
-         
+  - ref: refs/heads/nfs-tracepoints
+    old: 0000000000000000000000000000000000000000
+    new: 9f72322f8de2eecc1960776b2b5756002144368a
