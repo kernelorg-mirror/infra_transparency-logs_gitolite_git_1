@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8909440024028712381=="
+Content-Type: multipart/mixed; boundary="===============2289723796245563101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 02 Jul 2025 10:12:34 -0000
-Message-Id: <175145115459.1743720.16090706474809888164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 02 Jul 2025 10:12:44 -0000
+Message-Id: <175145116497.1744133.17174112010352933164@gitolite.kernel.org>
 
---===============8909440024028712381==
+--===============2289723796245563101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 3f804361f3b9af33e00b90ec9cb5afcc96831e60
     new: 50c8770a42faf8b1c7abe93e7c114337f580a97d
     log: revlist-3f804361f3b9-50c8770a42fa.txt
-  - ref: refs/heads/stable
-    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    new: 66701750d5565c574af42bef0b789ce0203e3071
-    log: revlist-d0b3b7b22dfa-66701750d556.txt
-  - ref: refs/tags/next-20250402
-    old: f5f8def029913e51f5d13b717bbf475117473234
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250702
     old: 0000000000000000000000000000000000000000
     new: d92baf706cd5b8d226003a3337c0fbaa559a44de
 
---===============8909440024028712381==
+--===============2289723796245563101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1035,24 +1028,4 @@ ff061a222a23e70617a710e4b549b4215601592e Merge branch 'crc-next' of git://git.ke
 021aaba9ccd84a3cf3d87f780f2396a08accb40b Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux.git
 50c8770a42faf8b1c7abe93e7c114337f580a97d Add linux-next specific files for 20250702
 
---===============8909440024028712381==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0b3b7b22dfa-66701750d556.txt
-
-002cc0ee90e6172ef40ae95c248bf6ce67fb3f3f rtc: s5m: cache device type during probe
-a57743bf009e788ada3607ac6b74ae9ebbd4ed74 rtc: s5m: prepare for external regmap
-e64180846e7e4397938bbd0acf0640836f0f8051 rtc: s5m: add support for S2MPG10 RTC
-972a3b47f6e191a0c5afcc45f4de74bf3d043a75 rtc: s5m: fix a typo: peding -> pending
-1dd609587414f8b2844e551d1fe0505f12871992 rtc: s5m: switch to devm_device_init_wakeup
-f5adb1fa04d08731a13db48afafd1a5f4384d3c9 rtc: s5m: replace regmap_update_bits with regmap_clear/set_bits
-b1248da008362323f75e8b84874586e9ea4c0b31 rtc: s5m: replace open-coded read/modify/write registers with regmap helpers
-00a39d8652ff9088de07a6fe6e9e1893452fe0dd rtc: cmos: use spin_lock_irqsave in cmos_interrupt
-fa78e9b606a472495ef5b6b3d8b45c37f7727f9d rtc: pcf2127: fix SPI command byte for PCF2131
-08d82d0cad51c2b1d454fe41ea1ff96ade676961 rtc: pcf2127: add missing semicolon after statement
-6f11adcc6f36ffd8f33dbdf5f5ce073368975bc3 io_uring: gate REQ_F_ISREG on !S_ANON_INODE as well
-4b424a3f7d91c4c694a36ecb30b978e30689cdae Merge tag 'rtc-6.16-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-66701750d5565c574af42bef0b789ce0203e3071 Merge tag 'io_uring-6.16-20250630' of git://git.kernel.dk/linux
-
---===============8909440024028712381==--
+--===============2289723796245563101==--
