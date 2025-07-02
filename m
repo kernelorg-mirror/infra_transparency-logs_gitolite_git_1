@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6495213366066697582=="
+Content-Type: multipart/mixed; boundary="===============3934738025921862880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Jul 2025 17:30:32 -0000
-Message-Id: <175147743222.2142974.4997216717962397908@gitolite.kernel.org>
+Date: Wed, 02 Jul 2025 17:30:41 -0000
+Message-Id: <175147744124.2143375.12142871062779141905@gitolite.kernel.org>
 
---===============6495213366066697582==
+--===============3934738025921862880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
-    old: 7ede1c61eea3796bd4df9b9b3d22b55b40b3a1b2
-    new: e0d1ec28743b41fabffcef0763151d37930924d9
-    log: revlist-7ede1c61eea3-e0d1ec28743b.txt
+  - ref: refs/heads/tip/urgent
+    old: 6733c6bdbecbbc2f4fbc93ac94fb1f0442677891
+    new: be71a94e83b0785f46b28e9a7f8f8108d26e1bd1
+    log: revlist-6733c6bdbecb-be71a94e83b0.txt
 
---===============6495213366066697582==
+--===============3934738025921862880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ede1c61eea3-e0d1ec28743b.txt
+Content-Disposition: attachment; filename=revlist-6733c6bdbecb-be71a94e83b0.txt
 
 009c3a4bc41e855fd76f92727f9fbae4e5917d7f mmc: core: sd: Apply BROKEN_SD_DISCARD quirk earlier
 3358b836d4369ad47823c26834b3613778fe75b2 mmc: sdhci-of-k1: Fix error code in probe()
@@ -62,7 +62,6 @@ ce95858aeedfd7f942e91234b81841eec0260a82 Merge tag 'nfs-for-6.16-2' of git://git
 3c894cb29bbf4e36c5f2497cf8ea6fb09e157920 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 ba6a2f25d3d0c813bc5f70c4437002ecc90b85d5 Merge tag 's390-6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b4911fb0b060899e4eebca0151eb56deb86921ec Merge tag 'mmc-v6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-e0e9506523fea415e0d5abaa103fd67dc8a39696 smp: Defer check for local execution in smp_call_function_many_cond()
 48a332384970ed3ca7c6af14e4a975c910040d36 Merge ras/urgent into tip/urgent
 d0de29978225b71c4b3bf8e5df7fa54152a7c6fc Merge perf/urgent into tip/urgent
 1ee0050af6c730088e4264728e0e9892a8f120a9 Merge irq/urgent into tip/urgent
@@ -70,23 +69,5 @@ d0de29978225b71c4b3bf8e5df7fa54152a7c6fc Merge perf/urgent into tip/urgent
 b8206496d2a0bba5e3b1f4469dab72159cd9ce21 Merge sched/urgent into tip/urgent
 a3d2985e1218b486a8ae5d55c311dc597159ab6e Merge objtool/urgent into tip/urgent
 be71a94e83b0785f46b28e9a7f8f8108d26e1bd1 Merge locking/urgent into tip/urgent
-b725c7c3890c3ad0d01f006e84151a94439f3317 Merge irq/core into tip/master
-7f28027c7a300a63d6a0e5187c862f330f544caf Merge timers/core into tip/master
-f9ea785934740dfd48eeca61fab0606bea476e08 Merge x86/kconfig into tip/master
-8392d0879a72956c579172958f831a494851adee Merge sched/core into tip/master
-a6f7c23ab38b348aa7994e7759fab006b8a8639d Merge irq/msi into tip/master
-0cc2b98e083a720bb385da554470a1dd4dedbfa0 Merge x86/boot into tip/master
-8529c0b1eff6522ac0f0a4a5a8a3938c3f24a6c2 Merge x86/cpu into tip/master
-400137fea2970dddc44f1bdf10435b23819600bb Merge x86/fpu into tip/master
-4da5c278020e95cbfb85615a45150664eb5d6dc0 Merge x86/bugs into tip/master
-2bb097adb1aa35fa39dcac7e49bf9f928e789316 Merge x86/sev into tip/master
-ca8a6b88eee1c9c520a317c7a3b0e20ca63a9fa7 Merge timers/ptp into tip/master
-12fa721605228f2d37158ce8c327abfd94977a36 Merge locking/core into tip/master
-6114d4fa0eb966193b5ab276ecb2f1686a019bc3 Merge core/entry into tip/master
-3b8e6399e3faedd5b4d9dfb97eac2f2a7cb6c85a Merge timers/cleanups into tip/master
-26f50622b781f6b7d8d57cd1725b8a4f737c61fa Merge timers/vdso into tip/master
-0562c969f7d322060c18b23e90894922d2dabc12 Merge irq/drivers into tip/master
-e10cd9b7b1dc3e24b65b1d61402453e9f3e559a4 Merge core/bugs into tip/master
-e0d1ec28743b41fabffcef0763151d37930924d9 Merge smp/core into tip/master
 
---===============6495213366066697582==--
+--===============3934738025921862880==--
