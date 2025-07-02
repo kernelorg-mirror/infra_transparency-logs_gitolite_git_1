@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7119343144228833740=="
+Content-Type: multipart/mixed; boundary="===============0616538059942026746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 02 Jul 2025 14:19:05 -0000
-Message-Id: <175146594523.1962904.7325223881942689980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 02 Jul 2025 14:22:10 -0000
+Message-Id: <175146613079.1966706.16035616508219586546@gitolite.kernel.org>
 
---===============7119343144228833740==
+--===============0616538059942026746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: f5d3ef25d238901a76fe0277787afa44f7714739
-    new: b75e1f0619bd707e027812e262af3fbce445e71a
+  - ref: refs/heads/master
+    old: 0ee64d21bbd76371c7e298805ae4df8645c9195a
+    new: 650ea4f925f93ca09ab4d127459483cb836c95a7
     log: |
-         9b5cdd5f40191d11d3b535ab7978751a4a3e4bc5 rust: fix typo in #[repr(transparent)] comments
-         b9ff1c2a26fa31216be18e9b14c419ff8fe39e72 rust: miscdevice: clarify invariant for `MiscDeviceRegistration`
-         5accfca0e5ba26fd1113ecf461ffff607244e3b7 Docs/ABI: Fix sysfs-kernel-address_bits path
-         b75e1f0619bd707e027812e262af3fbce445e71a device property: Use tidy for_each_named_* macros
+         650ea4f925f93ca09ab4d127459483cb836c95a7 5.10-stable patches
          
 
---===============7119343144228833740==
+--===============0616538059942026746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751465983 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1751465944-f78ada00a1b521d6d1946d387b56c20b9a77ba5b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751466166 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1751466127-7064dc1edc7fab3415570ae6568cff1579162bc4
 
-f5d3ef25d238901a76fe0277787afa44f7714739 b75e1f0619bd707e027812e262af3fbce445e71a refs/heads/driver-core-next
+0ee64d21bbd76371c7e298805ae4df8645c9195a 650ea4f925f93ca09ab4d127459483cb836c95a7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhlP/8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xq0QAISVqKifcq5rNjUdosbv
-TGANLUmfDqYNbeGM9Y9DkQ3EpB3FvpxCCmySo2WF8voOERJL0Dz963OWUPgWFABX
-e2fnoMHGgm5ylbrd7T6OdzjwPDpXDg/fMXGO0ZWCwT4IXwzcMq+3cFbGDKAAHwoH
-C6lzehgCg/+7IIF6dMnddrTeasXVHf8ybpe2ZfYQ6AVYAUfqsT8zmtHHWAQ7Xbad
-/Po8s7aQDuhRiF9/UgqhZ+gkWx7LlPOpSsHPRYi16lehV7v6VJ0NbbQ0kcPNpNGY
-ws1JP+IwHhdvjHK6Qp3b5myQbbQSKitWGZl6pPo1wSi6ZxLajWJdyVatzsD8U9e5
-+hMp5vuYvdykvPAtxf3g17dYhklu2VVwk2Vg3D77dDJiXNLW9lKbe31Lv0LY/EYX
-BJb1XV93SzzeCSWRAYHwRnLi4+gfmOHQU4oYw5PTaXhFN8rqE/PH0oy0Yzrru3J2
-MGDok6So15Qj/03HRqBnbgCPvpmalsRPIyzF5YxUF8n22HG+Hndj9OUSEeJ6GTrb
-THHDn65ZO0uVcplDsITbFJJh82mSx2ByevHrZqdFL2NcIb588NrXFl86SVFZ30Ao
-dzCJ+aOtvNLXTfp28krZmeF0aWgOE7Yr5Uvm++yRnty7HvlLrCzN4G8c7T0cZk4/
-SrXybw6pzVUBfwZWhP38AVk9
-=l6jl
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhlQLYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AlkP/ApSiP53GYy0HYPgbIgK
+5dDh4P3eMOashz7snSttpD6+iJSAvWi0FIbE2IAmuH3nLHRj1QUsCZ2hTFwFJNVR
+8kDks/mg1EXCLPoe7RlBOzZvjUl/txb3Gw4GxWQLKIyJDN38eWb8Twr8Q8bO3j2Y
+y/5Gr9fJZdmSWpUVln68jTK7QUvl0r98prWi+sNBTcJWnuFuEowAwvD5Yaoz9BOv
+AMpUqhh7i7tRQaTcXjL7iinJtH6FgXkieh7bL1VI5Q4RDr3m9LZNQac6vmVTDOn0
+Iyaax+RTYqWDYHmdmSdF4EnLxZaVLDuEcNo7o/Nb+RqpqlkvEh3AB9ykjiS8wcW/
+EcjOddVxF7XxGGyZ8TD4cPd+s4sztpV57YNKmURoJwNMPhicgkdFjSBZIXN3uk+U
+rh7JbIcscbicZPGufeoFUtAgBgGFEgtRXh+edrJ1erxaUmSmkevOyMHQCVtaPME1
+diXTFMl50lWFGW5kBaQZBHaTfJ/bB0LvSiv3j/mOcK12iqK1uWE8RxYB/rX0VZ71
+o90y4c8SjCJ31CWUENoFkPDxD2RHrEKZNLR4j7gBcTtlZJLrGQLvQEDAZlEpwneT
+DN89D3wq8BzTFfsmXSqYzfAUF61GadQikvcWRWks9vsmaXI4g9lws+JWhfBEtdBg
+CoAg7DrfgpHxyV7G9NoxSrGY
+=fs4f
 -----END PGP SIGNATURE-----
 
---===============7119343144228833740==--
+--===============0616538059942026746==--
