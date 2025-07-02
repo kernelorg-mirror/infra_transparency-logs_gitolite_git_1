@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 02 Jul 2025 06:23:12 -0000
-Message-Id: <175143739280.1547481.9842097783351801176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 02 Jul 2025 06:38:26 -0000
+Message-Id: <175143830676.1559648.10414799912582221716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/mhi-next
-    old: bd78a01cdee3d2333f70e659f3c1b4ffc3fd5c42
-    new: 99b1cac2680b297b74a87fdd0f80e501d20e7561
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: b1b41bc072baf7301b1ae95fe417de09a5ad47e2
+    new: 4a26df233266a628157d7f0285451d8655defdfc
     log: |
-         99b1cac2680b297b74a87fdd0f80e501d20e7561 bus: mhi: host: Use str_true_false() helper
+         4a26df233266a628157d7f0285451d8655defdfc cpufreq: armada-8k: Fix off by one in armada_8k_cpufreq_free_table()
          
