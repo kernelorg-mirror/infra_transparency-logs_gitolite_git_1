@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1691472682935848466=="
+Content-Type: multipart/mixed; boundary="===============4368127747155474370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 02 Jul 2025 13:45:17 -0000
-Message-Id: <175146391707.1932615.11356840687020651901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 02 Jul 2025 13:45:29 -0000
+Message-Id: <175146392982.1933054.9469545587905724959@gitolite.kernel.org>
 
---===============1691472682935848466==
+--===============4368127747155474370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
 
---===============1691472682935848466==
+--===============4368127747155474370==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -772,4 +772,4 @@ d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
 4b424a3f7d91c4c694a36ecb30b978e30689cdae Merge tag 'rtc-6.16-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 66701750d5565c574af42bef0b789ce0203e3071 Merge tag 'io_uring-6.16-20250630' of git://git.kernel.dk/linux
 
---===============1691472682935848466==--
+--===============4368127747155474370==--
