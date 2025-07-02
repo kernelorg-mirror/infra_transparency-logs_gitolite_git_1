@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Jul 2025 17:13:22 -0000
-Message-Id: <175147640211.2127085.14121924951550158449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 02 Jul 2025 17:24:56 -0000
+Message-Id: <175147709678.2136597.12391059639795405862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/smp/core
-    old: b4d6510684bf040c24dead879cce29035ef45826
-    new: e0e9506523fea415e0d5abaa103fd67dc8a39696
+  - ref: refs/heads/master
+    old: 248a671e518566b7cd0e0c4c63563d5b31b5372c
+    new: 50fb9042e1ad471115e21ed83daebae278594aa7
     log: |
-         e0e9506523fea415e0d5abaa103fd67dc8a39696 smp: Defer check for local execution in smp_call_function_many_cond()
+         90e2296ee45959d286c7520f51d163360fb7c387 advertising: client_remove: use concrete type
+         50fb9042e1ad471115e21ed83daebae278594aa7 mesh: node: remove dead function declaration
          
