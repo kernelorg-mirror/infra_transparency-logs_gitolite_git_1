@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 02 Jul 2025 17:50:50 -0000
-Message-Id: <175147865081.2160751.1227515097614273902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 02 Jul 2025 18:03:25 -0000
+Message-Id: <175147940555.2169867.4516894859680026024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: leon
 changes:
-  - ref: refs/heads/fixes
-    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    new: 5903a7452e642f1475f274373633522db168b60b
+  - ref: refs/heads/mlx5-next
+    old: 1f6da56679d33c733aaee929fd9af962ad66edbd
+    new: 8366561fd6c641670214d8df68560e327f7b57e6
     log: |
-         6f49743af42ca43ef6d5487fc6d32f6184909430 riscv: Require clang-17 or newer for kCFI
-         2b29be967ae456fc09c320d91d52278cf721be1e riscv: cpu_ops_sbi: Use static array for boot_data
-         5903a7452e642f1475f274373633522db168b60b Merge tag 'riscv-fixes-6.16-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/alexghiti/linux into fixes
+         8366561fd6c641670214d8df68560e327f7b57e6 net/mlx5: fs, fix RDMA TRANSPORT init cleanup flow
          
