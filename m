@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6183632297383106057=="
+Content-Type: multipart/mixed; boundary="===============4259705552497430226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Wed, 02 Jul 2025 02:33:01 -0000
-Message-Id: <175142358146.1358250.17351758538561313012@gitolite.kernel.org>
+Date: Wed, 02 Jul 2025 02:34:02 -0000
+Message-Id: <175142364239.1358851.63161743905425584@gitolite.kernel.org>
 
---===============6183632297383106057==
+--===============4259705552497430226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 785cdec46e9227f9433884ed3b436471e944007c
+  - ref: refs/heads/for-next
+    old: bcb908845d3361dc0934446b12b0b4490e3d4dd3
     new: 66701750d5565c574af42bef0b789ce0203e3071
-    log: revlist-785cdec46e92-66701750d556.txt
+    log: revlist-bcb908845d33-66701750d556.txt
 
---===============6183632297383106057==
+--===============4259705552497430226==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-785cdec46e92-66701750d556.txt
+Content-Disposition: attachment; filename=revlist-bcb908845d33-66701750d556.txt
 
 6f7e234f74caf5f8863bbca51b1b135d0736b0b3 Merge tag 'drm-misc-fixes-2025-06-06' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 11fcf368506d347088e613edf6cd2604d70c454f uapi: bitops: use UAPI-safe variant of BITS_PER_LONG again
@@ -1051,4 +1051,4 @@ d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af Linux 6.16-rc4
 4b424a3f7d91c4c694a36ecb30b978e30689cdae Merge tag 'rtc-6.16-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 66701750d5565c574af42bef0b789ce0203e3071 Merge tag 'io_uring-6.16-20250630' of git://git.kernel.dk/linux
 
---===============6183632297383106057==--
+--===============4259705552497430226==--
