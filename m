@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Wed, 02 Jul 2025 12:13:16 -0000
-Message-Id: <175145839685.1848190.15907887931904758056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 02 Jul 2025 12:18:18 -0000
+Message-Id: <175145869877.1852527.5194176290413446057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/mips-next
-    old: 2aceb3c6e8a66d13129e82fce096b63315eb3ef5
-    new: 35acf3970a97e691215c896bbd5126c4365abf49
+  - ref: refs/heads/vfs-6.17.bpf
+    old: 13b0cce9e294f8ddf228b9db3e01d76ac29872f2
+    new: 70619d40e8307b4b2ce1d08405e7b827c61ba4a8
     log: |
-         ac23b02b66ded960dcef821a5c923a200b231b3f MIPS: mobileye: dts: eyeq6h: add the emmc controller
-         190108a63e41fe15f410ac53086bf70ed99a5d10 MIPS: eyeq6_defconfig: add cadence MMC/SDHCI driver
-         be582c523451898c10318c1513f3338ea5a4c6e4 MIPS: mobileye: dts: eyeq5: add the emmc controller
-         35acf3970a97e691215c896bbd5126c4365abf49 MIPS: eyeq5_defconfig: add cadence MMC/SDHCI driver
+         fb7b30cb0e31bce904b4ec6a20e863351f9fee82 kernfs: remove iattr_mutex
+         b95ee9049c93b05da66599d6e0d1fcfea291360b bpf: Introduce bpf_cgroup_read_xattr to read xattr of cgroup's node
+         5bc9557c9f17c38ed8c9070c1d369d49eabea1a9 bpf: Mark cgroup_subsys_state->cgroup RCU safe
+         21eebc655b0f8e84fcac2cf5e20e9eb31d17a982 selftests/bpf: Add tests for bpf_cgroup_read_xattr
+         05a039312428457582708a4fcbd799b1a6e97f62 Merge patch series "Introduce bpf_cgroup_read_xattr"
+         70619d40e8307b4b2ce1d08405e7b827c61ba4a8 selftests/kernfs: test xattr retrieval
          
