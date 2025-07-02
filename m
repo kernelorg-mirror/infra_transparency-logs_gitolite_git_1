@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 02 Jul 2025 21:58:47 -0000
-Message-Id: <175149352768.2375020.1462168464560141160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 02 Jul 2025 22:06:29 -0000
+Message-Id: <175149398996.2382561.9640345929636827430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: bfa50ecd5e35e9f841d0a2acc206129049ca4a0d
-    new: d70ec84e210c1d8e418b3e9bf5cd9a8e2ec625a8
+  - ref: refs/heads/main
+    old: 9e2a7ad4ae909d1ec0e1b1bde4ff67a75962c41b
+    new: 04b1d18c5bae0e3c40207953658b1f62182d4829
     log: |
-         562a7162c685f93c272de32d347783cdc2e87572 foo
-         618fa556d3304e3491f3eab800ad2600099fd1c8 foo
-         d70ec84e210c1d8e418b3e9bf5cd9a8e2ec625a8 foo
+         6d359cf464f40baadf5e5595613c38a12f5829ef dt-bindings: net: Convert socfpga-dwmac bindings to yaml
+         e84b20b25d37622641953568ac54f0c63c409fef vsock/test: Add macros to identify transports
+         3a764d93385ca8bea38bbec8f2e4da0442890616 vsock/test: Add test for null ptr deref when transport changes
+         04b1d18c5bae0e3c40207953658b1f62182d4829 Merge branch 'vsock-test-check-for-null-ptr-deref-when-transport-changes'
          
