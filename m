@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arj/bmc
-Date: Wed, 02 Jul 2025 01:48:16 -0000
-Message-Id: <175142089638.1318720.9034997192107334254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Wed, 02 Jul 2025 01:49:09 -0000
+Message-Id: <175142094964.1319316.17532338903933319652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arj/bmc
+repo: pub/scm/linux/kernel/git/bmc/linux
 user: arj
 changes:
   - ref: refs/heads/aspeed/drivers
