@@ -1,56 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============2923597415830428053=="
+Content-Type: multipart/mixed; boundary="===============8491140552267237469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 02 Jul 2025 14:08:23 -0000
-Message-Id: <175146530336.1953765.6280808801360088004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 02 Jul 2025 14:17:59 -0000
+Message-Id: <175146587932.1962198.6383580938080127614@gitolite.kernel.org>
 
---===============2923597415830428053==
+--===============8491140552267237469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3d7c716945918307064196740a86fab649dd6037
-    new: 59d280956b0981374744c7231b9fd4dfec9b1549
+  - ref: refs/heads/char-misc-next
+    old: 421d3a860d3d795b816d3efbcc3c2001c1ee1325
+    new: 626e89412dfb88766d90d842af4d9ec432d8526f
     log: |
-         59d280956b0981374744c7231b9fd4dfec9b1549 finish up 6.15.3 review from greg
+         7f81907b7e3f93dfed2e903af52659baa4944341 cdx: Enable compile testing
+         fd353a0e49ec3eb2b331783469b391177a6f72fc cdx: controller: Simplify with dev_err_probe()
+         cfe78d4aa9b241ee27b032f71f442d1446aee1fe cdx: controller: Drop useless probe success message
+         a46da20be76cd25c791e22532d34d9313b422cf1 cdx: controller: Do not open-code module_platform_driver()
+         a398c4223b019d1698200d79777ea8d9917fe1a9 cdx: controller: Drop unneeded driver.pm NULL assignment
+         bfb4cf9fb97e4063f0aa62e9e398025fb6625031 vmci: Prevent the dispatching of uninitialized payloads
+         6bca1e955830808dc90e0506b2951b4256b81bbb pps: clients: gpio: fix interrupt handling order in remove path
+         12c409aa1ec2592280a2ddcc66ff8f3c7f7bb171 pps: fix poll support
+         bd80e3ccd6e7485218cc47fbee60db43be86977e greybus: gb-beagleplay: remove unneeded calls to devm_gpiod_put()
+         626e89412dfb88766d90d842af4d9ec432d8526f char: misc: Rename a local variable in misc_init()
          
 
---===============2923597415830428053==
+--===============8491140552267237469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751465334 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1751465295-35d501cdd4ca7802032759e01d4816be87dfea51
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751465917 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1751465878-047bb72abfa05f19e5aaba95908279a3ce9e9842
 
-3d7c716945918307064196740a86fab649dd6037 59d280956b0981374744c7231b9fd4dfec9b1549 refs/heads/master
+421d3a860d3d795b816d3efbcc3c2001c1ee1325 626e89412dfb88766d90d842af4d9ec432d8526f refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhlPXYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sGEQAJKi13IQ1HXzXPQ+o+vw
-LPgtBD6kFz1BaA3+T6bergVwyda8S1wuTmynlEpcDn9Y6sbrZDwulQUG3uB0/Sza
-UryMHwx2XmAVpfXfCNQTBiHDusxli59O0HFTH7vf14zR5KyRf/NB+vyf+jJZPF+x
-0vRF3ux6cHSas16itQK8VGQg5xPLttPuDZ1snv8onsgPA7MS0URmW42Xd3ll+hPQ
-DoRyj+WSOLIk0YvkrVHVFC2OGkXlzaBaW2Qw5bZ/nS/IwwcKV763JzxnOGTG0Lyk
-7ghpnW4T4FWhUfO2hhfE95KzueQRqeIRuquAcCFhc1oxf4k60Q/q8DPIV2dbUKk+
-nvNSOPEFzbR5M5YXlt9so/e3PwflqKmp8NEJafsnTe67suZmyCjoK2lOAbbBrFTc
-iZh7uHc+38wVP62Jxlk9GoAVeLG1IGEPfDYQacoFziMcNtRQ34n3U76CL8eEg6j9
-BcyFSAvlKawU02AcP3CD7Xfm7atlIwejhnodH9Cu3N8HWl0jWSUs8PXB86elThpK
-tp0xUQo5mWHw4Qkhw1EsH3tDM69a8kRQ+8mX587RQmt8veB8ulOB8sbs04hFF6gt
-9TvWcOYOs+/Omezm1n5VIScIzZGmbryUlcjKQ6nF9rgL7NEWSEUlO2cfGAdJ0UsD
-3S3yJS0E4gV8tYHhSRp9pEdO
-=xfjL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhlP70bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hBMP/Av+iv2s/qUnFPjXcvvw
+FLiZVIIDRtVWGL5x6XZFfn0qKPD4GwlkwlxZk4dJspT1WKw1IbPSH39GQ5GtOriR
+TL3UyEtgG7yJhN/8foiZvhqFJ9+mR3K5oJ/X04CvX7W4EV8GwEaYY2veQJS6fQt+
+FmTwV3qOQB8q0HYzsknmlclb49T/Ovbful/TBjGc2JdmKOVQ3MCELIFXpmG3nKP8
+cg7+v9gaDQuTP4gtniZxW4eyhD1arf7FFs8SyU+jAnzPgcELa07RElbt5KfJacuo
+8Qm8glRj32ZJZJ4kB7c3B0aRTfQmqY7Y+YIVJbjL+ByhhXn3GQLzRgE3ld93CGND
+8gJjlD9cMQYpkZVzKtAK6i6YehIFHDnqtIKoE8ngK47y9t3KTMNdQG2icY9rRHEm
+kFwPKv7GzBQXqA9uzhmhRGgUCu2zYW+Gm+5BVTD1eK9VJYWNnxpHJ4F0kXL2TK/L
+BKRIoCjONA1KjHxL/dNMh0bY3nmPtNrDDwn6JTn/CXe3DfQS1cReUrLgLl6QnOqE
+ewNw+bLIwBMFXwpP60Qd0F1qmI2M7OVvB3U3R5LHlkEuOih+OU2Uk3IbRin8/zvE
+u4MvrpEiiYtbuFKCua/1cqTfcVbYcCin41KUipKr4UvQ1UqYnh7Ka+waBBCdidFF
+3IX5Ar2Kv9/fb3Ygy67gj6SX
+=nNzC
 -----END PGP SIGNATURE-----
 
---===============2923597415830428053==--
+--===============8491140552267237469==--
