@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 02 Jul 2025 14:03:00 -0000
-Message-Id: <175146498016.1947974.8078485180601247436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 02 Jul 2025 14:04:45 -0000
+Message-Id: <175146508528.1949545.9698434556792375727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: fe1fc8c0516954d345ee5f7613b8e4740b69b9c1
-    new: 506688059030ddb1b0f09eda437c75d32534ce9a
+  - ref: refs/heads/ath-next
+    old: c256a94d1b1b15109740306f7f2a7c2173e12072
+    new: a82ce08775bc5b50613d48ab7e41b25fc46825af
     log: |
-         06667b2a1a945527e73b6f7fbe2f9fdc6071b519 configure: fix compile error of __kernel_timespec
-         506688059030ddb1b0f09eda437c75d32534ce9a Merge branch 'fix' of https://github.com/kexianda/liburing
+         5d6707e88e7fe2d603ad45c5fe7eba096be9533a wifi: ath12k: push HE MU-MIMO params to hardware
+         df8207bc0b4895c18e98a4b084806222b592d9f1 wifi: ath12k: push EHT MU-MIMO params to hardware
+         1eafb8d15d8af39ac7b4d78d69b17f85aa8e00fa wifi: ath12k: move HE MCS mapper to a separate function
+         5ab7479a063d1b557fa59999de701ad8a4624b84 wifi: ath12k: generate rx and tx mcs maps for supported HE mcs
+         9ad6b169ddef679a64727e3870a6177c78f24b05 wifi: ath12k: add support for setting fixed HE rate/GI/LTF
+         dd25a004fb66c60934fa9572298671c1eb1c06c2 wifi: ath12k: clean up 80P80 support
+         18ab9d038fadd35d8a4ac5db87ad16dde78f5fdc wifi: ath12k: add support for 160 MHz bandwidth
+         a82ce08775bc5b50613d48ab7e41b25fc46825af wifi: ath12k: add extended NSS bandwidth support for 160 MHz
          
