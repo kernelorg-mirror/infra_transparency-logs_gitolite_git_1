@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 02 Jul 2025 03:52:30 -0000
-Message-Id: <175142835038.1426437.1900237954426747382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 02 Jul 2025 04:12:24 -0000
+Message-Id: <175142954402.1442481.10961806509995396680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: bf7c653c76ca832245629418e4103a6d494745de
-    new: f0bef8066fd8d208a03995b89ee53e49df3e670b
+  - ref: refs/heads/libcrypto-pending
+    old: 0c1bd1e3b6ad2629d59512da258e988868911743
+    new: f5fec19cbde284fbc5f0a0b0e83ed045621c2db8
     log: |
-         fce10464b53b1c8edece598a9c14d1f7a77b56b1 patches/next: add Honggyu's fixes
-         f0bef8066fd8d208a03995b89ee53e49df3e670b patches/next: rebase to latest mm-new
+         f5fec19cbde284fbc5f0a0b0e83ed045621c2db8 apparmor: use SHA-256 library API instead of crypto_shash API
          
