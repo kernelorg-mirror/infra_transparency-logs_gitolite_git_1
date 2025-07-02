@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8519366882058591794=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 02 Jul 2025 09:58:12 -0000
-Message-Id: <175145029266.1730939.12562073069643490816@gitolite.kernel.org>
-
---===============8519366882058591794==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Wed, 02 Jul 2025 10:02:12 -0000
+Message-Id: <175145053271.1735071.16912986937015305797@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/tty-next
-    old: 815ac67919148f9d65537af550fd26e2cbbd47bb
-    new: 0c8a3a284a4fb56f0540f216f7428b39ba911ac8
+  - ref: refs/heads/for-6.17
+    old: 0013ddc4cf2047caca31c541b18728d9e2eccba9
+    new: cb35d3b62274ec4a0b9f9d18ef46fcc902784a92
     log: |
-         0c8a3a284a4fb56f0540f216f7428b39ba911ac8 dt-bindings: serial: mediatek,uart: add MT6572
+         d360121832d8a36871249271df5b9ff05f835f62 ata: libata-core: Introduce ata_dev_config_lpm()
+         d99a9142e782f34197dd7459a703ebc0971078e8 ata: libata-core: Move device LPM quirk settings to ata_dev_config_lpm()
+         b1f5af54f1f5202ba0cd29a94e45ee7ac7517c0f ata: libata-core: Advertize device support for DIPM and HIPM features
+         4371fe1ba40065c5e1dd6e8317f9df8ba50a3db7 ata: libata-eh: Avoid unnecessary resets when revalidating devices
+         413e800cadbf67550d76c77c230b2ecd96bce83a ata: libata-sata: Disallow changing LPM state if not supported
+         f7870e8d345cdabfb94bcbdcba6a07e050f8705e ata: ahci: Disable DIPM if host lacks support
+         4edf1505b76d30e1e1e283d431e4f84ad01ddcef ata: ahci: Disallow LPM policy control for external ports
+         65b2c92f69d3df81422d27e5be012e357e733241 ata: ahci: Disallow LPM policy control if not supported
+         3b50dd4c064d71f8f50a266b46d93537eeba782e ata: libata-core: Reduce the number of messages signaling broken LPM
+         cb35d3b62274ec4a0b9f9d18ef46fcc902784a92 ata: libata_eh: Add debug messages to ata_eh_link_set_lpm()
          
-
---===============8519366882058591794==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751450330 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1751450291-f5d21421826483159b37e502b12e64a60ff603ec
-
-815ac67919148f9d65537af550fd26e2cbbd47bb 0c8a3a284a4fb56f0540f216f7428b39ba911ac8 refs/heads/tty-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhlAtobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xY8QAK+amkxuPUkD7CMO8yaS
-N5YtFi9U+k44IyW1eU6al1EeKl+k9bRBQdPBC9MYjXkO5+mmTzz0WrR55F5i7sup
-iYj89L2U840MjfALsXjhlpyf4Dwxjtps79p0JKJY27IcpmHaskwUUGA0pMQk6q2v
-ij4xssR+YabHa+TEGehIHDdhgvP3wAkM5N0uUNtWrnhy9fLeqWqlSQN0EYJ52AZU
-iqeCBZdSf6FA09Z5Jt+OigyIlOyuI+8ZumOdrfllMppSrWx60xt9h3hEWvC8MExT
-r7fybN089UO6dNGLScSr1UCZMxTxZbT+1iO2HmluKMxANvsdxbY3wgMde/SmjopZ
-bXZdtF7TXsiTln/dEeo2jmK28KjWVJta/NXR0leTkCRODmDnGuBQHyzUEw65G1um
-7TtBBW2j8nI8sRV951POt4zbuzmLCz5ggBDc6MxRoasZbmdIDoRInjufttms7xOx
-zrmouTc4x9dENBfHzn2FAsctbZA76kjw3gWEvdymn2Zeuga6TciMYDp4ng/vZgbb
-BMW21X8mj2IxocoMHCTPYdfZP6ORdd1w56XFuhNQ8ZgAuAHaXnmH2Meaohk7OEXA
-ZpDR2B/dZqF8DsqgN+nmUZDswE2Uirsyod/ueo4bkVOgQCT6h0Sxp2NwrtqSMoJo
-vJ4WmV9UR1xRRVnEZYieTCmL
-=oMvM
------END PGP SIGNATURE-----
-
---===============8519366882058591794==--
