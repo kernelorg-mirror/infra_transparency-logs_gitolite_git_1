@@ -1,75 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1029402499884454546=="
+Content-Type: multipart/mixed; boundary="===============7823265679321536720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 02 Jul 2025 11:36:38 -0000
-Message-Id: <175145619891.1817968.3224020847904504864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Wed, 02 Jul 2025 11:54:49 -0000
+Message-Id: <175145728912.1832095.7961623112065778573@gitolite.kernel.org>
 
---===============1029402499884454546==
+--===============7823265679321536720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/rdma-next
-    old: 22972c43bc369dec2293b6ff6b493a490e2d1a7a
-    new: 839c76b16028184c778569358fdf2ca05a742087
-    log: revlist-22972c43bc36-839c76b16028.txt
+  - ref: refs/heads/mips-next
+    old: 86731a2a651e58953fc949573895f2fa6d456841
+    new: 2aceb3c6e8a66d13129e82fce096b63315eb3ef5
+    log: revlist-86731a2a651e-2aceb3c6e8a6.txt
 
---===============1029402499884454546==
+--===============7823265679321536720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22972c43bc36-839c76b16028.txt
+Content-Disposition: attachment; filename=revlist-86731a2a651e-2aceb3c6e8a6.txt
 
-1e2db07185cffd6f606787c85e7db39edfba65e7 RDMA/core: Introduce a DMAH object and its alloc/free APIs
-93373567e53b16770862489bf54f6f9456426e8a RDMA/mlx5: Add DMAH object support
-168ba9ae20f43f39bd0863cf185d5ac4d63a3583 IB: Extend UVERBS_METHOD_REG_MR to get DMAH
-76fe9705d66e08de2cf61002432b62ff509d5628 RDMA/mlx5: Add DMAH support for reg_user_mr/reg_user_dmabuf_mr
-1f7e709d40fea2bda15f14a8d61fa64ce6b2b3da RDMA/core: Introduce peer memory interface
-4e7d3c7f446a09f538c4a7d5da763a23adbaa4b6 TEMP: Increase lockdep depth
-ffee7cb0ade7e86d2ed031459aafc965d68baaf8 TEMP: Increase MAX_LOCKDEP_ENTRIES size
-5ca527fce6e70f27524509ced8043b08be924ff0 xfrm: advance SEQ number in non-ESN mode
-7d1b745340584c683eea97643a8e6c50c2780ea0 xfrm: advance SEQ number in ESN mode
-20f937783a81a0245718fbfbc7da17ad6b4929e5 xfrm: advance SEQ number in BMP mode
-0eeb1745e7d87680a2dd2eed75501bfe9464fa0a rds: rely on IB/core to determine if device is ODP capable
-a7fdfb251e656c0ff9f0fcc0144964d17150dfbb swiotlb: Enrich message about buffer overflow
-c35b6017926343c9d89deba1ce211f2f3311d2b1 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
-079de4d4f1e0481e0496960fbe69968e4557294d xfrm: skip templates check for packet offload tunnel mode
-0af0e322ecda86024c76ba9551343b2bf07fde12 coccinelle: misc: secs_to_jiffies script: Create dummy report
-5cc256e77cba1b735bc3999ffc147f1db000e81c xfrm: always initialize offload path
-49e7451ba7cacfa1f12b5a1ac7011449edc929fa IB/mad: Add state machine to MAD layer
-ca77c09b90e8d3b962a66042d24236592a09ec9a IB/mad: Add flow control for solicited MADs
-56d7065f376ebb683a4a678d8ae5a751912d07b0 IB/cm: Use separate agent w/o flow control for REP
-20dc3531326917d058ad31c49706cb2880701cd3 net/mlx5: Check device memory pointer before usage
-cbb3e4c3592c9fe9ad5e2100a2761866bdd23121 RDMA/sa_query: Add RMPP support for SA queries
-8fd140639806006018f4bd5bc70601d5adb8bfb3 RDMA/sa_query: Support IB service records resolution
-115aee533d03272d878aa22a099cb4652b3bbfee RDMA/cma: Support IB service record resolution
-221dede3977faeef128f6b4100c50a65bda1cc22 RDMA/ucma: Support query resolved service records
-1b97b050096abe7957ecc4b4985c2b53274dd8e7 RDMA/ucma: Support write an event into a CM
-145c6854ecf6b3a9998ea46eebf60b2f52d68c0d sched/topology: Correct "sched_domains_curr_level" in topology_span_sane()
-2fef7934098804559b3d8ac403a72bc032c2ffb9 net/mlx5: Refactor devcom to return NULL on failure
-213aa0cf309ad8bd5d887dcb0820eda924db5e85 net/mlx5: Fix IPsec cleanup over MPV device
-0d4abea40f6ae0caaf000f03cc6f8415d9e3253f IB/mlx5: Reduce IMR KSM size when 5-level paging is enabled
-0021e079601ab4e5d8fa20f4173a2d37c06b21b6 net/mlx5: fs, fix RDMA TRANSPORT init cleanup flow
-f1f56de81bffb5a62e827f952e3ae374c402bbd3 PCI: Move REQ_ACS_FLAGS into pci_regs.h as PCI_ACS_ISOLATED
-b5ae0c2092bbc6c057ff0792bced1cb0bc00d29f PCI: Add pci_bus_isolation()
-8d36a96d21ba82f195aa13e8e1564286a13d0cac iommu: Compute iommu_groups properly for PCIe switches
-8c8507460e4e6489e67a273fe79b5c314ee54f1c iommu: Organize iommu_group by member size
-51c8987ad3231f4e1dfda78f1ba81e8126b6f5ef PCI: Add pci_reachable_set()
-b1106093e2f0f1b4450752d0d8d5540a61a96f46 iommu: Use pci_reachable_set() in pci_device_group()
-6e9829dd3e110a90d64fa31343fd18d2aadac3d0 iommu: Validate that pci_for_each_dma_alias() matches the groups
-19d565fcd37023cf80e9c0f05d0ef0b3abbe84d2 PCI: Add the ACS Enhanced Capability definitions
-985e784e2244239d024f00442d5445199eb9bdb0 PCI: Enable ACS Enhanced bits for enable_acs and config_acs
-e994026197c35322a0835acaf04d51afc1d0b96b PCI: Check ACS DSP/USP redirect bits in pci_enable_pasid()
-d84c7ba873b4a051acdf51c9873cf0d00aa8960c PCI: Check ACS Extended flags for pci_bus_isolated()
-b24d54ce924b997720c534f37c753944109393c9 RDMA/mlx5: Fix UMR modifying of mkey page size
-ad9ff5527ae43d8b9039e239f892d7a5463ddfc9 net/mlx5: Expose HCA capability bits for mkey max page size
-7e095a9a5eeefce6f83d9ab1849dd6eaaeeea11d RDMA/mlx5: Align mkc page size capability check to PRM
-839c76b16028184c778569358fdf2ca05a742087 RDMA/mlx5: Optimize DMABUF mkey page size
+002d90627cdbf7efd16f0846a814889409e42f07 firmware/nvram: bcm47xx: Don't use "proxy" headers
+292f0b50d3918220663cf6416ce2fdc2928d2e34 dt-bindings: clock: mediatek,mtmips-sysc: Adapt compatible for MT7688 boards
+0e029c91a7ec029f859bc878144aa09625415e45 MIPS: dts: ralink: mt7628a: Fix sysc's compatible property for MT7688
+87eaf31f91c9053f21d6a7e6c46cb8cde7df7b27 MIPS: dts: ralink: mt7628a: Update watchdog node according to bindings
+1306996722a9b37d3582dc117be64134096b7641 MIPS: dts: ralink: gardena_smart_gateway_mt7688: Fix power LED
+971665c0af5d6ec50c1bf9e7927564f180f29c66 mips: dts: cameo-rtl9302c: Add switch block
+1931e4ccb9dcfd1b45508ba59d20fa25175914a0 mips: dts: realtek: Add switch interrupts
+787981d189a04c90b66e2d334bbdf83e9f284340 mips: dts: realtek: Add watchdog
+e4442636a61ffffc10b21208de6cbf1132ddd769 mips: dts: realtek: Add gpio block
+f13e645e15f1a4a33f0709844dac1a962b335b16 MIPS: ralink: add missing header include
+de94259d064814b7eacd6d1f4b26e934eed02590 MIPS: pci-rt2880: make pcibios_init() static
+9591220e7a6c12c788b1fc013c39af26edf99538 MIPS: txx9: Constify bin_attribute arguments of txx9_sram_{read,write}()
+3376910ff827e11976633bd28d3e43e24131eefe MIPS/Loongson: Fix build warnings about export.h
+cff836f0bb0c53fcf43c12e32ee499cdf7e4a584 MIPS: lantiq: xway: mark dma_init() as static
+50162a0c6e014c4954ee4443109b7a4251b377fc MIPS: pci: lantiq: marks pcibios_init() as static
+c714186debb45fc88098b666d46cb29ff728e06d MIPS: lantiq: xway: mark dcdc_init() as static
+d97394bf381eda85d04bec68b72dbc397744fcc3 MIPS: lantiq: irq: fix misc missing-prototypes warnings
+98a0bd6aa579506949b19831e5ead3cc8afe304d pinctrl: xway: mark xway_pinconf_group_set() as static
+a9a693f1d5d71c5f3d3ac9db225a18be4317bbf6 MIPS: lantiq: xway: mark ltq_ar9_sys_hz() as static
+44cf77da9aed1ee256157b7e0cca60a98e58d26f MIPS: lantiq: xway: gptu: mark gptu_init() as static
+421dc67e665256fac3452d8031125d083dfadd63 MIPS: lantiq: xway: add prototype for ltq_get_cp1_base()
+faa901f416ea77ff33691814e9c7f636a9ca302e MIPS: lantiq: falcon: fix misc missing-prototypes warnings
+fcb7f5e9eec12d39a5c600f291c713a295c0e7cd MIPS: lantiq: falcon: sysctrl: remove unused falcon_trigger_hrst()
+d950227f15bf7a93cffedc3d55380a316e2d08b4 MIPS: lantiq: falcon: sysctrl: add missing header prom.h
+2aceb3c6e8a66d13129e82fce096b63315eb3ef5 MIPS: lantiq: falcon: sysctrl: fix request memory check logic
 
---===============1029402499884454546==--
+--===============7823265679321536720==--
