@@ -1,39 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0496212019599220630=="
+Content-Type: multipart/mixed; boundary="===============0137350161744000041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Jul 2025 16:16:54 -0000
-Message-Id: <175147301493.2080050.1050470913025981527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 02 Jul 2025 16:30:03 -0000
+Message-Id: <175147380322.2091968.13082410912324442922@gitolite.kernel.org>
 
---===============0496212019599220630==
+--===============0137350161744000041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/core/bugs
-    old: 2a20b2730147e33f42a5db381805fd7118d54e1f
-    new: b6477e06f87874735985c156b91bc999684961d2
-    log: revlist-2a20b2730147-b6477e06f878.txt
+  - ref: refs/heads/vfs-6.17.fileattr
+    old: 3d569556cacc102978edd686902cb9ca692083db
+    new: 662416578541723a185278b7047d8b0112d3f600
+    log: |
+         be7efb2d20d67f334a7de2aef77ae6c69367e646 fs: introduce file_getattr and file_setattr syscalls
+         662416578541723a185278b7047d8b0112d3f600 Merge patch series "fs: introduce file_getattr and file_setattr syscalls"
+         
+  - ref: refs/heads/vfs.all
+    old: 413ca98a6eaf9689af45cdd4b059698cb1842c40
+    new: 3551c4d5976cfa1f2e554f09a8265a6563aeba84
+    log: revlist-413ca98a6eaf-3551c4d5976c.txt
 
---===============0496212019599220630==
+--===============0137350161744000041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a20b2730147-b6477e06f878.txt
+Content-Disposition: attachment; filename=revlist-413ca98a6eaf-3551c4d5976c.txt
 
-87ec384ed4bab9c49bb8082b1b002b4227c77ebe bugs/LoongArch: Concatenate 'cond_str' with '__FILE__' in __BUG_ENTRY(), to extend WARN_ON/BUG_ON output
-9dd69f29433dfa80c4d23c9eaed32c2900c1c1f5 bugs/s390: Pass in 'cond_str' to __EMIT_BUG()
-6540db6ce800aaeedc8d733d1e6d2f1c83c7b217 bugs/s390: Use 'cond_str' in __EMIT_BUG()
-e6a637ecacc78eb5147b80eb13acda2a807d8119 bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
-773802a1394f650a4624b411c38bc5715fe199c2 bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
-f89dd4386895adb16ad3fc2b34d1d36b8f870242 bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-2b2382a22c1e2f59fd7bf56b87ab8e9fb2232f8a bugs/sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-c61affe5f15bff79064e15311b1eff7d6db4842c bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
-b6477e06f87874735985c156b91bc999684961d2 bugs/s390: Remove private WARN_ON() implementation
+be7efb2d20d67f334a7de2aef77ae6c69367e646 fs: introduce file_getattr and file_setattr syscalls
+662416578541723a185278b7047d8b0112d3f600 Merge patch series "fs: introduce file_getattr and file_setattr syscalls"
+d9eefd6bde9a63b4193f8beff4c4fdfd23e55d1e Merge branch 'vfs.fixes' into vfs.all
+4580c7305035a053c4e5e10899b9751b13ab8f96 Merge branch 'vfs-6.17.misc' into vfs.all
+35dba9950d79417f051a273ada6c034ccda8ee7d Merge branch 'vfs-6.17.coredump' into vfs.all
+5cc3180af3d42b26c54ef07952003df61be0143d Merge branch 'vfs-6.17.file' into vfs.all
+df73a973d39de74de4f1644a564a978a71239b11 Merge branch 'vfs-6.17.nsfs' into vfs.all
+4993684a0f966687c9a87158b9db151a13be36cc Merge branch 'vfs-6.17.async.dir' into vfs.all
+7e602c1d17e1b2cdcf87fb060242b8d936c33a54 Merge branch 'vfs-6.17.mmap_prepare' into vfs.all
+6502e182772a81f70193e817c40dc01650dba112 Merge branch 'vfs-6.17.pidfs' into vfs.all
+3adc5fdb4ed33f1a088d5fd683e5c5bdcc3ec890 Merge branch 'vfs-6.17.bpf' into vfs.all
+d7c491f6ddf4c884c37dfbacf967476a8bcae14d Merge branch 'vfs-6.17.rust' into vfs.all
+673f798c95f4fa0e39cf7a8d360d7d55d7267a6f Merge branch 'vfs-6.17.integrity' into vfs.all
+3551c4d5976cfa1f2e554f09a8265a6563aeba84 Merge branch 'vfs-6.17.fileattr' into vfs.all
 
---===============0496212019599220630==--
+--===============0137350161744000041==--
