@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 02 Jul 2025 21:43:24 -0000
-Message-Id: <175149260416.2361174.1338877167914999476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 02 Jul 2025 21:46:01 -0000
+Message-Id: <175149276157.2364537.4815255436597415712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/work.debugfs
-    old: 1a8ee66575edc8b20d04ae132365674d4e33afae
-    new: 359cd741d720ce7942c68f95207e2d2351cd6977
+  - ref: refs/heads/main
+    old: 561aa0e22b70a5e7246b73d62a824b3aef3fc375
+    new: 5186ff7e1d0e26aaef998ba18b31c79c28d1441f
     log: |
-         cacd020a9f69181fd189f84ea77564de38389699 netronome: don't bother with debugfs_real_fops()
-         46f6000e9ccd1a73471e3f08436175de51c1a5bb debugfs: split short and full proxy wrappers, kill debugfs_real_fops()
-         d7b6cdafea9673c31c3f00b24f9d1acaee50b6dd fix tt_command_write()
-         c33a871a594a53e33d6c762527bc6ea474aa69ee debugfs_get_aux(): allow storing non-const void *
-         848962ae80a0627abb69f31e8fa50681258d4141 blk-mq-debugfs: use debugfs_get_aux()
-         359cd741d720ce7942c68f95207e2d2351cd6977 lpfc: don't use file->f_path.dentry for comparisons
+         103406b38c600fec1fe375a77b27d87e314aea09 net/sched: Always pass notifications when child class becomes empty
+         16ceda2ef683a50cd0783006c0504e1931cd8879 amd-xgbe: do not double read link status
+         5186ff7e1d0e26aaef998ba18b31c79c28d1441f net: libwx: fix the incorrect display of the queue number
          
