@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4985680622135340170=="
+Content-Type: multipart/mixed; boundary="===============2009521801516314944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arj/bmc
-Date: Wed, 02 Jul 2025 01:58:31 -0000
-Message-Id: <175142151134.1327877.7224929003952772700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Wed, 02 Jul 2025 01:58:59 -0000
+Message-Id: <175142153928.1328278.16865615633374433634@gitolite.kernel.org>
 
---===============4985680622135340170==
+--===============2009521801516314944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arj/bmc
+repo: pub/scm/linux/kernel/git/bmc/linux
 user: arj
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: e05bedc024d0b25bb8a988b54472cae9f84b326a
     log: revlist-ee665e12d2f5-e05bedc024d0.txt
 
---===============4985680622135340170==
+--===============2009521801516314944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ Content-Disposition: attachment; filename=revlist-ee665e12d2f5-e05bedc024d0.txt
 cc9c0964e2738d5013cdc2b5e40671eddd7ad6bb soc: aspeed: lpc-snoop: Lift channel config to const structs
 e05bedc024d0b25bb8a988b54472cae9f84b326a Merge branches 'aspeed/drivers', 'aspeed/dt' and 'nuvoton/arm64/dt' into for-next
 
---===============4985680622135340170==--
+--===============2009521801516314944==--
