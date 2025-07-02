@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0682271148899711503=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 02 Jul 2025 09:08:19 -0000
-Message-Id: <175144729951.1688643.17563037866918646410@gitolite.kernel.org>
-
---===============0682271148899711503==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 02 Jul 2025 09:08:40 -0000
+Message-Id: <175144732049.1689044.5607986319784176702@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 73f0f2b52c5ea67b3140b23f58d8079d158839c8
-    new: be91bf40a96d567973d5c5e870d1464eb51b6c42
+  - ref: refs/heads/master
+    old: 06419fe95b06c7aa8670081a68dbe43a53bff303
+    new: 6249a1f340fb77353d7038f2de281f223bebc41e
     log: |
-         a8fc1224f2318d3e5948671d1cad458e6372d921 platform/x86: x86-android-tablets: Add generic_lipo_4v2_battery info
-         be91bf40a96d567973d5c5e870d1464eb51b6c42 platform/x86: x86-android-tablets: Add ovc-capacity-table info
+         9dc97c99ae5b501a941dd31485671309a8f94573 man: Replace RETURN VALUE with EXIT STATUS in section 1
+         0595f7b280c5f61fd8e1187b0251d31215d61041 rename: change "expression" to "substring"
+         6249a1f340fb77353d7038f2de281f223bebc41e Merge branch 'man-exit-status' of https://github.com/jmr/util-linux
          
-
---===============0682271148899711503==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1751447333 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1751447294-d0259e56aa1d9af9cbd02705dfbbcf3cf9042c7e
-
-73f0f2b52c5ea67b3140b23f58d8079d158839c8 be91bf40a96d567973d5c5e870d1464eb51b6c42 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaGT3KQAKCRBZrE9hU+XO
-MQMeAQCb8JXsvLpUxDgoXzIAxTrxlkkkSlPbJnzi6olA2itSEgEAs8ajd9WrVjKL
-Hj5d2oUfm9yngOczMOqtn+wuSEoQXAg=
-=j1bf
------END PGP SIGNATURE-----
-
---===============0682271148899711503==--
