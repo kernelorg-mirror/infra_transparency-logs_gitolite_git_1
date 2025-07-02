@@ -1,52 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Wed, 02 Jul 2025 19:53:28 -0000
-Message-Id: <175148600889.2269564.17829442963449633666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 02 Jul 2025 19:55:43 -0000
+Message-Id: <175148614376.2272873.5042981564462012588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/tags/1.43
-    old: 0000000000000000000000000000000000000000
-    new: 4e17874258905c1e6d30d3faf52dfca2af49fbc3
-  - ref: refs/tags/1.43.4
-    old: 0000000000000000000000000000000000000000
-    new: 5100a424b351223980a6a020805d3e98ca01b988
-  - ref: refs/tags/archive/debian/1.47.2-2
-    old: 0000000000000000000000000000000000000000
-    new: 84f19d182bb8614b9a6f125b0c74ce61a96f3888
-  - ref: refs/tags/archive/debian/1.47.2-3
-    old: 0000000000000000000000000000000000000000
-    new: 570145ba2e1ec60f8a98f9c2ec982265099076a7
-  - ref: refs/tags/archive/debian/1.47.3_rc2-1
-    old: 0000000000000000000000000000000000000000
-    new: 522086166b871c81c25e219c26b910c55cd2530d
-  - ref: refs/tags/archive/debian/1.47.3_rc3-1
-    old: 0000000000000000000000000000000000000000
-    new: 488940c4f6839584e1d54ed2d88d0257a7d87617
-  - ref: refs/tags/debian/1.47.2-2
-    old: 0000000000000000000000000000000000000000
-    new: 8113e19d483767457d5f71c95bbad4e2f01a704d
-  - ref: refs/tags/debian/1.47.2-3
-    old: 0000000000000000000000000000000000000000
-    new: f8b3955c4f2ee0cc58adb61eed90986e10ed22a6
-  - ref: refs/tags/debian/1.47.3_rc2-1
-    old: 0000000000000000000000000000000000000000
-    new: fb2fcbe7c7523b646e863ee34f16c69aa684a73c
-  - ref: refs/tags/debian/1.47.3_rc3-1
-    old: 0000000000000000000000000000000000000000
-    new: b206d4695196b079106a386398c2a012cb8dca09
-  - ref: refs/tags/v1.47.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bf3f9b812eb626a83d4aa0be2577148a51e51584
-  - ref: refs/tags/v1.47.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4bca09c103f5c623f26dbb475c819e1d66684156
-  - ref: refs/tags/v1.47.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 56d2d78e9449be97b39cd8b0da35f5b249fbcd25
+  - ref: refs/heads/imx93-ethos-v2
+    old: b8b0937ffa109c1365260f22e64a706948f670cb
+    new: 652b6e3a8a3b0663143c380c080702c9e705be8d
+    log: |
+         a7d6ecbab1151460a0710b25037c800009632a6d arm64: dts: imx93: Add a imx93 specific compatible for ethos NPU
+         652b6e3a8a3b0663143c380c080702c9e705be8d dt-bindings: npu: Add Arm Ethos-U65/U85
+         
