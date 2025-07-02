@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 02 Jul 2025 02:29:03 -0000
-Message-Id: <175142334340.1353388.2555612766651628553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 02 Jul 2025 02:30:20 -0000
+Message-Id: <175142342034.1356353.15317760462180681709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/main
-    old: aaf2b2480375099c022a82023e1cd772bf1c6a5d
-    new: 34a500caf48c47d5171f4aa1f237da39b07c6157
+  - ref: refs/heads/kbuild
+    old: b4a2f54bd23d2a7537644ac03bc6465ead4db1ae
+    new: fda4003e3dee9fc8558f4a14a22679af71d1cd2e
     log: |
-         34a500caf48c47d5171f4aa1f237da39b07c6157 rose: fix dangling neighbour pointers in rose_rt_device_down()
+         215dadd5d93c32afa82f78124b3eb251e63fd485 gendwarfksyms: use preferred form of sizeof for allocation
+         fda4003e3dee9fc8558f4a14a22679af71d1cd2e gendwarfksyms: order -T symtypes output by name
          
