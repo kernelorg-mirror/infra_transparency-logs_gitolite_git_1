@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0801188869351678803=="
+Content-Type: multipart/mixed; boundary="===============7568830957241124899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 03 Jul 2025 15:19:04 -0000
-Message-Id: <175155594454.3319120.13265719666062460863@gitolite.kernel.org>
+Date: Thu, 03 Jul 2025 15:19:06 -0000
+Message-Id: <175155594680.3319411.2923302113140573622@gitolite.kernel.org>
 
---===============0801188869351678803==
+--===============7568830957241124899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc
     new: 223e2288f4b8c262a864e2c03964ffac91744cd5
     log: revlist-72fb83735c71-223e2288f4b8.txt
 
---===============0801188869351678803==
+--===============7568830957241124899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ b2f8ef030ef77130844c4b6f1eee28553163d5a7 Merge branch 'fix-irq-vectors'
 f030713e5abf67d0a88864c8855f809c763af954 dt-bindings: net: sophgo,sg2044-dwmac: Drop status from the example
 223e2288f4b8c262a864e2c03964ffac91744cd5 vsock/vmci: Clear the vmci transport packet properly when initializing it
 
---===============0801188869351678803==--
+--===============7568830957241124899==--
