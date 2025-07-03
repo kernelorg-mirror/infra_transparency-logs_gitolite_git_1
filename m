@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 03 Jul 2025 08:24:49 -0000
-Message-Id: <175153108930.2896271.14905027631442053574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 03 Jul 2025 08:29:11 -0000
+Message-Id: <175153135167.2899829.870847308429287131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/sched/core
-    old: 5bc34be478d09c4d16009e665e020ad0fcd0deea
-    new: d398a68e8bcf430e231cccfbaa27cb25a7a6f224
+  - ref: refs/heads/controller/qcom
+    old: 7c184aa42a3dc9b2630010fbcb06c701c440f8e3
+    new: 9e09ecef33e6f1019be921732cc2d7bd945202d8
     log: |
-         3f9ebeba9878679bb43ee2db7d50a4691f55e3a5 rust: sync: Mark CondVar::notify_*() inline
-         11867144ff81ab98f4b11c99716c3e8b714b8755 rust: sync: Mark PollCondVar::drop() inline
-         0a41f5af19391ce55cae1f0d7a562e8694bf1fd5 rust: task: Mark Task methods inline
-         0aa2b78ce5a9eac8f3332192ea77755d63a831cd rust: Introduce file_from_location()
-         7e611710acf966df1e14bcf4e067385e38e549a1 rust: task: Add Rust version of might_sleep()
-         d398a68e8bcf430e231cccfbaa27cb25a7a6f224 Merge tag 'rust-sched.2025.06.24' of git://git.kernel.org/pub/scm/linux/kernel/git/boqun/linux into sched/core
+         77df6234668afa9c44490130e62d5c30734d6e2d dt-bindings: PCI: qcom: Move PHY & reset GPIO to Root Port node
+         9e09ecef33e6f1019be921732cc2d7bd945202d8 PCI: qcom: Add support for parsing the new Root Port binding
          
