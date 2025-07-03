@@ -1,29 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Thu, 03 Jul 2025 09:37:32 -0000
-Message-Id: <175153545280.2958369.1330638176890841777@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0170449672196357603=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 03 Jul 2025 09:38:07 -0000
+Message-Id: <175153548740.2958943.8452876585913197092@gitolite.kernel.org>
+
+--===============0170449672196357603==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 7f08e8dbeedf045582af2af78942dd2dd585c518
-    new: 54711d6bffe16613696aa668bd7023c1c142fde1
-    log: |
-         7e08c6f50f231c9ea1921dfc6f457a29d09a0665 loadkeys: Add --tkeymap to dump the keymap as text
-         b1bf002a2fc7a5ddc22c207fb29dd299de98f159 Merge branch 'github-pull-132'
-         c9debc0b7720bf60da7cc35725bb2d6360b133f2 tests: Make memcheck optional
-         38e46e6b655f45e22b4f864c03492a275e44e27e tests: disable libkbdfile testcase on ppc64el
-         9190dcb51c004dd8afaef60efe6109aead8e8a77 dump: Fix rountrip
-         25254ea998033981a1de49b84eaafe3c467b2004 dump: Show keymaps keyword only if needed
-         b8e7eb4b941515e1a44c7b347ee70af495d4b0f5 dump: Add a high level wrapper to improve consistency
-         dc5cd7f94e0f876e92d40b397b4b512d56e084ce dump: Drop obsolete comments
-         a374f3b984a9dcf1be0c8849651df968a6038ca7 tests: Optimize utils.at
-         1eaff6809f26b2984c57051e5e45159e957b840d tests: check parsing and restoration of alt_is_meta
-         54711d6bffe16613696aa668bd7023c1c142fde1 Merge branch 'github-pull-136'
-         
+  - ref: refs/heads/rdma-next
+    old: 25ddf2eb68d2d13104398995bef08a1d7cadbcd5
+    new: 9d6ba3b9b47851d6f3be895eb18ba1a92429de84
+    log: revlist-25ddf2eb68d2-9d6ba3b9b478.txt
+
+--===============0170449672196357603==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-25ddf2eb68d2-9d6ba3b9b478.txt
+
+b8a793ad658b21ed5a6de94072ed77aeaf3acb6c IB/mlx5: Reduce IMR KSM size when 5-level paging is enabled
+49a90dd0aa17538aa0065a32d9fb2616f887f66a net/mlx5: fs, fix RDMA TRANSPORT init cleanup flow
+4b000c6d41414728fd9403b06f600db1324f3ad6 PCI: Move REQ_ACS_FLAGS into pci_regs.h as PCI_ACS_ISOLATED
+941278f4635757ff8581d54483038057b6a13a7e PCI: Add pci_bus_isolation()
+5530591ce9dcb3c4d3a176eebc22138a93b2d7f4 iommu: Compute iommu_groups properly for PCIe switches
+9a85ab0cc461b4acf8616c05e03c4d73438aba2d iommu: Organize iommu_group by member size
+1cea5a412f14f7d388e254df5e81e764e129e706 PCI: Add pci_reachable_set()
+e6597be32334066fad11d2e8baef9836c534ec7d iommu: Use pci_reachable_set() in pci_device_group()
+2f604cd854d351d7a11d4b7e2d4f40488ad5df96 iommu: Validate that pci_for_each_dma_alias() matches the groups
+2477a9c19a5359c4ca568a6505ed9d4eed932714 PCI: Add the ACS Enhanced Capability definitions
+e7e69313f56a8c8ec115c70d80225c8c32323b04 PCI: Enable ACS Enhanced bits for enable_acs and config_acs
+2a152d01d77213bb6f9391d5b3aba26d3abfd92f PCI: Check ACS DSP/USP redirect bits in pci_enable_pasid()
+0c1c7b700d059fcfa851e6447f483de4c108784a PCI: Check ACS Extended flags for pci_bus_isolated()
+b20fd03a453d18bd1ef47a85ace8e68182fc2643 RDMA/mlx5: Fix UMR modifying of mkey page size
+76bfb7b0d1008057531f7450ed011a39827d83d4 net/mlx5: Expose HCA capability bits for mkey max page size
+8277cca73acccb36cda623ec7668b3383ef59ef4 RDMA/mlx5: Align mkc page size capability check to PRM
+9d6ba3b9b47851d6f3be895eb18ba1a92429de84 RDMA/mlx5: Optimize DMABUF mkey page size
+
+--===============0170449672196357603==--
