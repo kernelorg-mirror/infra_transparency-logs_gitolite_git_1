@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 03 Jul 2025 23:09:11 -0000
-Message-Id: <175158415196.3739762.491653958169553409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Thu, 03 Jul 2025 23:09:57 -0000
+Message-Id: <175158419771.3741100.4722377943229908212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: f6131cccbee77aed575ae1f9d33789e26ee088e6
-    new: 228b4fb0f5ba036301bf1450a5d33942a343a539
+  - ref: refs/heads/i3c/next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: a747e01adad2715bc002755ee15ef72360190ffc
     log: |
-         f55bf29a5934ae6f47e831f99d1bbd9ca345c514 foo
-         d58ba3484c18c7339e007815a915919237f78b46 foo
-         28502a76076c699d22979530516aa7ead027afc8 foo
-         228b4fb0f5ba036301bf1450a5d33942a343a539 foo
+         1b84691e7870bc5b6a66a1e81abe0eae8359dfce i3c: dw: use adapter timeout value for I2C transfers
+         be27ed672878bdfb38580b491270f38cc5c36b38 i3c: master: cdns: use adapter timeout value for I2C transfers
+         c0a90eb55a69fc9016f4a0b19bb03708d6b1d0b7 i3c: mipi-i3c-hci: use adapter timeout value for I2C transfers
+         a747e01adad2715bc002755ee15ef72360190ffc i3c: master: svc: use adapter timeout value for I2C transfers
          
