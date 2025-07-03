@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 03 Jul 2025 12:43:54 -0000
-Message-Id: <175154663407.3174628.15948126506212920406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 03 Jul 2025 13:02:08 -0000
+Message-Id: <175154772808.3190143.5419258051662110479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/timers/ptp
-    old: 7b95663a3d96b39b40f169dba5faef3e20163c5c
-    new: 8959338617a85e35820e3a7fa21801cf55b068bf
-    log: |
-         5b605dbee07dda8fd538af1f07cbf1baf0a49cbc timekeeping: Provide ktime_get_clock_ts64()
-         a6d9638d4da9740c189c141510584161ffd84307 Merge tag 'ktime-get-clock-ts64-for-ptp' into timers/ptp
-         8959338617a85e35820e3a7fa21801cf55b068bf timekeeping: Remove the temporary CLOCK_AUX workaround
-         
+  - ref: refs/tags/net-6.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 6aae5a0e6d0ac0f94262904f9c882384c62ab6f9
