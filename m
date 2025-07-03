@@ -1,71 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2510095775242519331=="
+Content-Type: multipart/mixed; boundary="===============0729945321359691185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 03 Jul 2025 22:46:14 -0000
-Message-Id: <175158277444.3721608.12810528312303660772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 03 Jul 2025 23:06:58 -0000
+Message-Id: <175158401821.3738340.16591955680248195593@gitolite.kernel.org>
 
---===============2510095775242519331==
+--===============0729945321359691185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/devel
-    old: 4ab401099d4764d1479914fd4c8b9876d5b3aca1
-    new: eaa655c2e5beaf2b29c69006d66f80149edebe1e
-    log: revlist-4ab401099d47-eaa655c2e5be.txt
-  - ref: refs/heads/fixes
-    old: 46147490b4098e200b7d7d3ac4637a3e4f7b806a
-    new: 8ff4fb276e2384a87ae7f65f3c28e1e139dbb3fe
-    log: |
-         8ff4fb276e2384a87ae7f65f3c28e1e139dbb3fe pinctrl: amd: Clear GPIO debounce for suspend
-         
-  - ref: refs/heads/for-next
-    old: aeaca01619b05d3df117e81f486f5b3b694329bf
-    new: 237b7bac8c93afd795fe643ddd24a0b7f10bb06e
-    log: revlist-aeaca01619b0-237b7bac8c93.txt
+  - ref: refs/heads/unwind/sframe
+    old: c8146eb1ba2030edc7af2a4a78fe7837b97296be
+    new: 9315278afa8ff6b4a4772b61bf1d29e149e7fb2c
+    log: revlist-c8146eb1ba20-9315278afa8f.txt
 
---===============2510095775242519331==
+--===============0729945321359691185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ab401099d47-eaa655c2e5be.txt
+Content-Disposition: attachment; filename=revlist-c8146eb1ba20-9315278afa8f.txt
 
-2c75dc82ed96852138ba09908d5f82cadb8ecfff pinctrl: renesas: gpio: Use new GPIO line value setter callbacks
-146ea9380f0bba7ff453317c25cdcb0f2a1ce1e9 pinctrl: renesas: rzg2l: Use new GPIO line value setter callbacks
-c5eab2dfdb671383f685627fac156c1a245e5474 pinctrl: renesas: rza1: Use new GPIO line value setter callbacks
-acffb7ccd238cd533f15029b5b6d067300903644 pinctrl: renesas: rzv2m: Use new GPIO line value setter callbacks
-d2fb02624020767f1ee53be0f0f30ef964dbd845 pinctrl: renesas: rza2: Use new GPIO line value setter callbacks
-52161035571cd62be9865039b4be65615860dce0 pinctrl: renesas: rzg2l: Validate pins before setting mux function
-56ffb63749f4a1e88c282b763c458f3ed73d8c27 pinctrl: qcom: add multi TLMM region option parameter
-d3eed11b9cf84166ec38ba68ab892fcd9261b810 dt-bindings: pinctrl: convert nxp,lpc1850-scu.txt to yaml format
-b838fb5f16a355ef851b1ed7ac31aaf4dc7f45a0 dt-bindings: pinctrl: stm32: Add missing blank lines
-b306791037bc7274c10372c4f3d777b0deb08f06 pinctrl: equilibrium: Add request and free hooks
-eaa655c2e5beaf2b29c69006d66f80149edebe1e Merge tag 'renesas-pinctrl-for-v6.17-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
+c73cc90ebc1f795112523ca31b468806e59e9ee6 unwind: Clear unwind_mask on exit back to user space
+7e960b221bc469e7d44c3a2a47f49f3e122757e5 unwind: Add USED bit to only have one conditional on way back to user space
+889da1accccc6ef647c780555e76f18e2ccf42f0 unwind: Finish up unwind when a task exits
+0fb64ece09a25796931e5a8af0c57b9526c7e616 unwind_user/x86: Enable compat mode frame pointer unwinding on x86
+48f877ee61f07b45067e9f23e87610277566b436 unwind_user/sframe: Add support for reading .sframe headers
+6cb4bad815cdba8288c5bf3e1459a7c69872f008 unwind_user/sframe: Store sframe section data in per-mm maple tree
+b88e1f8ed815f2e68a06d5dd3fd7250fcb7f6c5d x86/uaccess: Add unsafe_copy_from_user() implementation
+dd0bf2e82e0a55891c5d21fea8b34c15e2898335 unwind_user/sframe: Add support for reading .sframe contents
+e6d380bbbcbfc085abe39db51f277bb205358f0b unwind_user/sframe: Detect .sframe sections in executables
+bb231cf93c5575b463d4dc673cb390aa853adbcd unwind_user/sframe: Wire up unwind_user to sframe
+4b79cd8f7e7f9a90402655f82dc0ca0b937c78d2 unwind_user/sframe/x86: Enable sframe unwinding on x86
+8e8fabdcbba57e5bbec86f6d7b707dde1c858f1b unwind_user/sframe: Remove .sframe section on detected corruption
+8908705603745e9ba509443afa4605490016c260 unwind_user/sframe: Show file name in debug output
+5cd1110127336e9c53f73a5a3d1b8565a42fdf76 unwind_user/sframe: Enable debugging in uaccess regions
+c902bc96ea61cc2af27fed49dbd9616e47898559 unwind_user/sframe: Add .sframe validation option
+9315278afa8ff6b4a4772b61bf1d29e149e7fb2c [DO NOT APPLY] unwind_user/sframe: Add prctl() interface for registering .sframe sections
 
---===============2510095775242519331==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aeaca01619b0-237b7bac8c93.txt
-
-2c75dc82ed96852138ba09908d5f82cadb8ecfff pinctrl: renesas: gpio: Use new GPIO line value setter callbacks
-146ea9380f0bba7ff453317c25cdcb0f2a1ce1e9 pinctrl: renesas: rzg2l: Use new GPIO line value setter callbacks
-c5eab2dfdb671383f685627fac156c1a245e5474 pinctrl: renesas: rza1: Use new GPIO line value setter callbacks
-acffb7ccd238cd533f15029b5b6d067300903644 pinctrl: renesas: rzv2m: Use new GPIO line value setter callbacks
-d2fb02624020767f1ee53be0f0f30ef964dbd845 pinctrl: renesas: rza2: Use new GPIO line value setter callbacks
-52161035571cd62be9865039b4be65615860dce0 pinctrl: renesas: rzg2l: Validate pins before setting mux function
-56ffb63749f4a1e88c282b763c458f3ed73d8c27 pinctrl: qcom: add multi TLMM region option parameter
-d3eed11b9cf84166ec38ba68ab892fcd9261b810 dt-bindings: pinctrl: convert nxp,lpc1850-scu.txt to yaml format
-b838fb5f16a355ef851b1ed7ac31aaf4dc7f45a0 dt-bindings: pinctrl: stm32: Add missing blank lines
-b306791037bc7274c10372c4f3d777b0deb08f06 pinctrl: equilibrium: Add request and free hooks
-eaa655c2e5beaf2b29c69006d66f80149edebe1e Merge tag 'renesas-pinctrl-for-v6.17-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
-8ff4fb276e2384a87ae7f65f3c28e1e139dbb3fe pinctrl: amd: Clear GPIO debounce for suspend
-237b7bac8c93afd795fe643ddd24a0b7f10bb06e Merge branch 'devel' into for-next
-
---===============2510095775242519331==--
+--===============0729945321359691185==--
