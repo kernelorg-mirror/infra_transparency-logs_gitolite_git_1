@@ -1,52 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0591277070318221050=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Thu, 03 Jul 2025 02:05:17 -0000
-Message-Id: <175150831767.2586188.5069578683290498479@gitolite.kernel.org>
-
---===============0591277070318221050==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 03 Jul 2025 02:22:57 -0000
+Message-Id: <175150937762.2599698.9994578909544034333@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/for-next
-    old: 26f285671a0fd77933d5a18faefbc7dacd6e5e28
-    new: f1965a03895933c6dbf1e4df98b093e2bc804114
-    log: revlist-26f285671a0f-f1965a038959.txt
-
---===============0591277070318221050==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26f285671a0f-f1965a038959.txt
-
-dcbb8fc01c42df5132a50fb22cbab49083b3fae3 arm64: dts: freescale: imx8qxp/imx8qm: Add CAAM support
-74450a41f190b4635f2cb675a04de9045dfb3d1e arm64: dts: imx8mp: drop gpcv2 vpu power-domains and clocks
-024870defe3ce90022de32c1a0dabc12291894e2 arm64: dts: imx8mp: fix VPU_BUS clock setting
-1659a61e82c988037a58ed642544bdf01dbb00c0 arm64: dts: imx8mp-nominal: Explicitly configure nominal VPU clocks
-195aaa6ff51f06d1909f096333f5056099f87a93 arm64: dts: imx8mp: Configure VPU clocks for overdrive
-8adba3555dfdd93b360cbf1cd1f7aa72da5b1c98 ARM: imx_v6_v7_defconfig: cleanup with savedefconfig
-128fe144e7b86ee53cccef7021312157fda311f0 ARM: imx_v6_v7_defconfig: select CONFIG_INPUT_PWM_BEEPER
-0c7124658677885b603f1748fb997b3bdc87dc69 ARM: imx_v6_v7_defconfig: select CONFIG_USB_HSIC_USB3503
-3d1678688810ddf1fc1746c1b992b72e1c1ec89a dt-bindings: arm: fsl: support Engicam MicroGEA BMM board
-73ee9b11878a41f5677054be39ce7f9e8f63fa72 dt-bindings: arm: fsl: support Engicam MicroGEA RMM board
-69c9acadd4d277c4ad5480f1f8c77c551075e6d3 dt-bindings: arm: fsl: support Engicam MicroGEA GTW board
-a8281618e8a50f22082f7159900bc066abe7098c ARM: dts: imx6ul: support Engicam MicroGEA-MX6UL SoM
-02e0babff3f785c131f3a79ebf8c9014450335d0 ARM: dts: imx6ul: support Engicam MicroGEA BMM board
-ffea3cac94ba5f43837acf6c42a4a2215e1e96a6 ARM: dts: imx6ul: support Engicam MicroGEA RMM board
-c343d58ed8b6b649ae8bf3a1a8dc2fc272ab39b5 ARM: dts: imx6ul: support Engicam MicroGEA GTW board
-aac6adf7821123aacc1bd808e5be45fc96328cd3 arm64: dts: freescale: imx8mp-toradex-smarc: add fan cooling levels
-4bda0fcfd55459359f8cc34675a0fe21bb5f2291 arm64: dts: imx93: add edma error interrupt support
-907f6525500fbf02844129dd069afeef8fbd92af Merge branch 'imx/drivers' into for-next
-d2ad7055c8734ea7a6accd9044c383a39b7cbacd Merge branch 'imx/bindings' into for-next
-b11513d96902339afc1db098cb2e3c5bb10461b3 Merge branch 'imx/dt' into for-next
-df1b65650b8a473c2f47f7f81a3d1b05643fe7ad Merge branch 'imx/dt64' into for-next
-f1965a03895933c6dbf1e4df98b093e2bc804114 Merge branch 'imx/defconfig' into for-next
-
---===============0591277070318221050==--
+  - ref: refs/heads/tmp.perf-tools-next
+    old: d4ae1620c6209661ced9244d058f3582d1847dca
+    new: e9846f5ead26d2ed2eea0987e3991a667fc38d22
+    log: |
+         63a088e999de3f431f87d9a367933da894ddb613 perf dso: Add missed dso__put to dso__load_kcore
+         7a8557fc4aa12cffc97e5c8a1b8b8fd0275464b2 perf test code-reading: Avoid a leak of cpus and threads
+         d1f18106778b4d1af5ca6bde191e05e075c7e697 perf hwmon_pmu: Hold path rather than fd
+         e793e2c0f188fb7a7998224f14241c0d87df5249 perf dso: With ref count checking, avoid dso_data holding dso live
+         e9846f5ead26d2ed2eea0987e3991a667fc38d22 perf test: In forked mode add check that fds aren't leaked
+         
