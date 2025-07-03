@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============1668501471430423818=="
+Content-Type: multipart/mixed; boundary="===============3226395684804629735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 03 Jul 2025 10:32:33 -0000
-Message-Id: <175153875347.3010432.16956639719721375744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Thu, 03 Jul 2025 10:34:57 -0000
+Message-Id: <175153889799.3012307.11042329388854522609@gitolite.kernel.org>
 
---===============1668501471430423818==
+--===============3226395684804629735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: c9276c36c704cf70e2741d3fdfcf6e81bdf56e84
-    new: 6a944ceda37d208ca117909547e7c71251d3fbb4
-    log: |
-         6a944ceda37d208ca117909547e7c71251d3fbb4 drop ext4 patches.
-         
+  - ref: refs/heads/mips-next
+    old: e8d96b18c45f46468b68283a20d1851fa726d51f
+    new: b5a1f9870f9828bd6625d6c946c66be4983d56f6
+    log: revlist-e8d96b18c45f-b5a1f9870f98.txt
 
---===============1668501471430423818==
+--===============3226395684804629735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e8d96b18c45f-b5a1f9870f98.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751538791 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1751538751-71f652f7589b78d662c69c30200c5eb648e78d9a
+de521c6d99d755bbdfa0f1f35299a3e2b02b0dfe MIPS: lantiq: xway: mark ltq_ar9_sys_hz() as static
+e23bd7f95a86c4fc5da5499a3bdc95aa7518f7eb MIPS: lantiq: xway: gptu: mark gptu_init() as static
+3f8565be1e848de86c1cc98285ac27a4a9bcb161 MIPS: lantiq: xway: add prototype for ltq_get_cp1_base()
+d97930fbf2d2aa00e7da9be7f128754920486953 MIPS: lantiq: falcon: fix misc missing-prototypes warnings
+01432b513638b0ffb080aa211b5b7f7ecf316f24 MIPS: lantiq: falcon: sysctrl: remove unused falcon_trigger_hrst()
+8a6156bd26240177e710fd8623bc2eb0ef0092cf MIPS: lantiq: falcon: sysctrl: add missing header prom.h
+9c9a7ff9882fc6ba7d2f4050697e8bb80383e8dc MIPS: lantiq: falcon: sysctrl: fix request memory check logic
+71ad8d3c463ead1fc9392dfaff2fd977856c07d5 MIPS: mobileye: dts: eyeq6h: add the emmc controller
+e1c98b1f5f88ece4740f5c33d919f64a7dd6dfec MIPS: eyeq6_defconfig: add cadence MMC/SDHCI driver
+2de84c70ffcd5dea6050fb343d1a61c0e22e2b5b MIPS: mobileye: dts: eyeq5: add the emmc controller
+f973fe6528335033d12efe49815f6bfa63bfd666 MIPS: eyeq5_defconfig: add cadence MMC/SDHCI driver
+da1fe323261f6a3e1a959e59c24f86186e8a9f4f mips: dts: qca: add wmac support
+e9f4a6b3421e936c3ee9d74710243897d74dbaa2 MIPS: Don't crash in stack_top() for tasks without ABI or vDSO
+b5a1f9870f9828bd6625d6c946c66be4983d56f6 mips: boot: use 'targets' instead of extra-y in Makefile
 
-c9276c36c704cf70e2741d3fdfcf6e81bdf56e84 6a944ceda37d208ca117909547e7c71251d3fbb4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhmXGcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6HMP/2yw9cJdwWo8iHXLpibE
-n4c49nHJem7zHnciJHWexK2BegxxwPAJwRwaDQRyQvrHL9LGKfAAQta0Cn2wJeh4
-u4frc7eerjESMvADp55xkd2d3pNxIl1AtNgzKnvgADmPZXckI3QWaxU0Puh+FQql
-uoQ6L/9MHhpK+qCQ2XO3X/6syl3/oKyLCAHBn2l/QpGRC72oFopupltpUW8CKm1l
-DnkAUnTBJGEE1tewIhBMj2LqoTrsIllTze9z0mGNv8F7bmm0lMsrBibahscM+cTX
-WEJN/L6W4mLxx35ERIJgI8XsXsoLDmwCrBmjEc7VVBFgSt4GW91wFBFHfv9DvcSu
-HLrPTCxSzgfv8TNnDQ+SfOGPJPcPNZZ3KkWb2GN2kukLHVnGq/TJHRlQwmtcSnDa
-a9ADu5en1o4ztqMnCjvuDKdlsbGQbX1ax9CnE/SK6syqMqXH0DXivFRm7E+5uwtq
-FthtRlPkHEglwQLhzZtn5Jz6b8ahOvaoAmGAiD5mTOc8H4ghqz1DwrxUtTuCcvZf
-4ZeAQ/svg18xYSbJsYyKFusS3N5OXK7uyDXy0SAFHZfjZsvJmMP0JpN/ziFGinTV
-8T+DeWF1yJt9B+4zx/mgmgmBv+MfajQHosC9SEYrCzUNLCHewMOTqDPhivcHVjAC
-okHxtDtwGuYfQPLluMbFULd1
-=oWsc
------END PGP SIGNATURE-----
-
---===============1668501471430423818==--
+--===============3226395684804629735==--
