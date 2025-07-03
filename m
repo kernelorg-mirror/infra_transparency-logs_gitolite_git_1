@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 03 Jul 2025 19:24:48 -0000
-Message-Id: <175157068864.3555431.15432168037215917034@gitolite.kernel.org>
+Date: Thu, 03 Jul 2025 20:17:00 -0000
+Message-Id: <175157382035.3598569.14743398674609484046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: e49c73aeb79b69aaf0981d40bc05b26a1b59773b
-    new: e7fc97f556f211e2c4f424b86282a29110e3c13c
+    old: e7fc97f556f211e2c4f424b86282a29110e3c13c
+    new: cc032c161e6d24f695292b9f55f531b2c551b969
     log: |
-         e7fc97f556f211e2c4f424b86282a29110e3c13c wifi: ath12k: set RX_FLAG_SKIP_MONITOR in WBM error path
+         cc032c161e6d24f695292b9f55f531b2c551b969 wifi: ath12k: allow beacon protection keys to be installed in hardware
          
