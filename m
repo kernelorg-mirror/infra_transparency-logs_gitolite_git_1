@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6201114521706845747=="
+Content-Type: multipart/mixed; boundary="===============1640183912641724207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Thu, 03 Jul 2025 15:49:30 -0000
-Message-Id: <175155777088.3354274.7456286548560187975@gitolite.kernel.org>
+Date: Thu, 03 Jul 2025 15:49:49 -0000
+Message-Id: <175155778938.3354693.12650412719844893864@gitolite.kernel.org>
 
---===============6201114521706845747==
+--===============1640183912641724207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/clk/imx
-    old: 6a55647af3334f1d935ece67de4a838a864b53fc
+  - ref: refs/heads/for-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-6a55647af333-19272b37aa4f.txt
+    log: revlist-0af2f6be1b42-19272b37aa4f.txt
 
---===============6201114521706845747==
+--===============1640183912641724207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 1B5F44C900951556 1751557803 +0300
+pusher 1B5F44C900951556 1751557825 +0300
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/abelvesa/linux
-nonce 1751557764-b4c6fcde46ed92686cba44551b6b36fb1ce5df38
+nonce 1751557786-c67aa213597b2da0a5950c79d37e6fc7c3342209
 
-6a55647af3334f1d935ece67de4a838a864b53fc 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/clk/imx
+0af2f6be1b4281385b618cb86ad946eded089ac8 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmhmpqsACgkQG19EyQCV
-FVZiERAAibdksChg7xFOojbwsyAorF3GvF7ETia8rQK2ua29TWgHLcew0VQ28R1s
-KMc3Kf1BjdRuqVP+L/nEdirYl+BlWoSNaDBi3btWpD09leqiV4vo3p5RtmVbNsk2
-nPFmZ7bmcKKnTqDuz8RvcUIUlikoTQ2qgf+bsoQ8eVFLlfYdPfQWvHySzE1i723y
-CvhJOq4TckU0gR2QKs7WlAZSFOoeKCtcb5b/jNr2Z5JW7zOTtocpoLeUTftjZFJ9
-FQGP549M6tG1Eddh5lXZJzeW86rU9gOr6V/J9IHxCVw/0qc7j7dK2wCaqjJ/L5Ma
-voLxJ4Q7mjj7rJS5YzNFtQ/OOBtlhHrmoMgw/40tasgdE+7TecBWTWJtMNuaKvlY
-nkpPOo3cwiqArcgwFab90b+6/YUO2Jg2PocfkBMhe9FZzJywZ5NCq/t/LYbSqDzJ
-rsj0cVEn/3ttk6sRXSxP6YjqjsnnA1D5VwuAykW+iRH3pPpkd7ZEGXusw+UKif9t
-5P4vuZ2m0AfgFN3Fjbhhz3H/Gec2WzWNFmE1Zt4k1e6UiCp68lb3/Q4kksKdVxXm
-ZE9r9Zny+dlSDTRJJO2YYdLA3M3H2lVgWNqVJByjqsfXFNm+cqi6tSQjz5FzzlIq
-CXVfwliquA/iOg6GZULyPjjRR0tfggbBBSXW1Gfwzu+KIk2bHQE=
-=p11X
+iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmhmpsIACgkQG19EyQCV
+FVYeYg//eiyIu0PtlsNR60gH6umK0fwlL9acez1H2EOVG85rTzRGe5l2Cvz4VZrv
+rMSY1HiIczPqczYJLgsWbhv849c8TFFiKgpdwfJ5VD/8UGb7bIi1MjhY5QXrhLIX
+MUqabqD9m9GJHETCbo+PhlCdN94MwoRWRy0uRiAOoTuW2C7OG3bEYfux36/RtSoe
+S9n6qxm0m7kS2LlUl9D7p35bukza93q1SDnP8H89GwHgS9Us2zl8t2hu/qXxH1py
+B68AqdNfogGQEolVeLLX2+HQI7wI7zo88Ew1aB5kpOly5Ba0uJO2bDGv+9g4+HBV
+m0c49VHMjAIuL3Kaqis6FmM/QQINRMlVsN8LRneanWHwx37vZspn/NEMcPrZgYR0
+X3QnBic/4FnNGAm7zjcWcEl5MddnWpVCs+R5atWCafWJEEkz6QRmoYr5S8hYGASt
+Q2aV7vakWi3eG7h1Mcgncn2W2EGhtdUiKQ8u0QLmBW+fPfbQ0oj1mNtzicEqG6L0
+ZSteatsIl2FqWN5EV9xvpcI5+7dJRiXqFzzgbqzUP8XntpjblDH/ZzSbfg+mTDTg
+1Yis1jLDcoHw3Bwh6jfbbMlC8vE/gYDw+2YdVOZs5GZ9IB8DOKeXh4VmH4164E0z
++5qE6IMr4MyQp9MNQNhrS3LugPUhvg1cskeFjwTi9mhajPlV3fw=
+=pNuR
 -----END PGP SIGNATURE-----
 
---===============6201114521706845747==
+--===============1640183912641724207==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6a55647af333-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1081,4 +1081,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============6201114521706845747==--
+--===============1640183912641724207==--
