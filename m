@@ -1,63 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============0969875687765181358=="
+Content-Type: multipart/mixed; boundary="===============4638071864591161159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 03 Jul 2025 15:20:02 -0000
-Message-Id: <175155600243.3323062.10285739561599050019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 03 Jul 2025 15:20:57 -0000
+Message-Id: <175155605728.3325090.14991853030823790437@gitolite.kernel.org>
 
---===============0969875687765181358==
+--===============4638071864591161159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3fd5232f990eef459cd916cb6d6b3de0bf18e813
-    new: c3886beeb27ff99411b1c17027307fe7e1837420
-    log: revlist-3fd5232f990e-c3886beeb27f.txt
+  - ref: refs/heads/for-linux-next
+    old: e42372c0470df98fcde03400c6ff2870365ed3a4
+    new: cbcaad48dec1f52a3366eddc63a954726abc0b2a
+    log: revlist-e42372c0470d-cbcaad48dec1.txt
 
---===============0969875687765181358==
+--===============4638071864591161159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fd5232f990e-c3886beeb27f.txt
+Content-Disposition: attachment; filename=revlist-e42372c0470d-cbcaad48dec1.txt
 
-3b1ab251139b9a31df5b07263e2a1edcb306e2a2 i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-d3347a47a7a1e3997d4bc5f344fd271217f14666 ice: add 40G speed to Admin Command GET PORT OPTION
-de5a5a6ee563efebabf7bafcf99f1494a724eb86 idpf: convert control queue mutex to a spinlock
-386e34f2f229ff12d4101dd8c487e7b640980377 ice: add E835 device IDs
-86cc8a40ad58978ab3b49d53d0926aa512e1fd5e ice: add NULL check in eswitch lag check
-bda8d5ca15460efb610bf490fef61d47485b9ab7 idpf: return 0 size for RSS key if not supported
-e5341b9175774fe6f80c49aae020b3cb34103b5b igc: disable L1.2 PCI-E link substate to avoid performance issue
-10ec11eac431373b0278941474f1300111abe539 devlink: add overwrite mask from factory settings
-8c713e621265bbef529f7aaf6932f8d487515855 ice: add overwrite mask from factory settings
-c5a5e5006d6da7e99c5a7f33cf095e3f5ec32e34 ixgbe: add overwrite mask from factory settings
-0819cded6f62dc9477103e4f8a2179774cf09700 igbvf: remove unused interrupt counter fields from struct igbvf_adapter
-664f9b514bfb404f7f3e8c940f61c66b7afce03b igbvf: add tx_timeout_count to ethtool statistics
-99a11b51214d36653900b11afd23be57cbdf8e07 ixgbe: initialize aci lock before it's used
-0b7d26e17d058dbbaadb31536566f86a3259c49a i40e: report VF tx_dropped with tx_errors instead of tx_discards
-57e34f3a0f53db5dddd4f8c4e512e8663865fcd3 ethernet: intel: fix building with large NR_CPUS
-a75ae391e8c43c3a059c1ddc418efbc76f247617 ice: convert ice_add_prof() to bitmap
-7acd536a3a9b99a2e196910b5cb3612d676defaf idpf: add cross timestamping
-ac0ba3a93b1487285cb047c633033c8b4c6711dc ice: add support for reading and unpacking Rx queue context
-225ae3efd95d0c29250eec752026c44f430fee11 ice: add functions to get and set Tx queue context
-c93c96496afad6dafd45bc1a0f0aa8a63c093850 ice: save RSS hash configuration for migration
-8526a83b1bb9a66c6502dbfd860df8ea107cb1bf ice: move ice_vsi_update_l2tsel to ice_lib.c
-9f5b145697eeef6359ec5c7dde760113f4730ac6 ice: expose VF functions used by live migration
-fc303619228380a075b29141b44e6b7366d1a294 ice: use pci_iov_vf_id() to get VF ID
-329ce1821a81a3aebb28f22568d072d04a9a0af4 ice: avoid rebuilding if MSI-X vector count is unchanged
-296274697603982121ef6a24d7785f5f89415061 ice: introduce ice_get_vf_by_dev() wrapper
-e6aadaf40a1b47a202e32c91602412ff7b2ddc23 igc: Relocate RSS field definitions to igc_defines.h
-d77c558340446e506089b97ce1531584ec1c74bd igc: Add wildcard rule support to ethtool NFC using Default Queue
-c9b875ee2af36b81513c38cbe5acec3ebaae0316 ixgbe: spelling corrections
-691b49a2b8a3a99f6aeded20b62ee1890acaa016 idpf: preserve coalescing settings across resets
-9935e5685ae49f07d94290c7184e556f834aaeee ice: check correct pointer in fwlog debugfs
-c30626b47ebcba64387bfee2cc106caf9210d317 i40e: When removing VF MAC filters, only check PF-set MAC
-fa9df5457e1f067e3d061d693a6a253ed008e5a0 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
-c3886beeb27ff99411b1c17027307fe7e1837420 ice: fix possible leak in ice_plug_aux_dev() error path
+009c3a4bc41e855fd76f92727f9fbae4e5917d7f mmc: core: sd: Apply BROKEN_SD_DISCARD quirk earlier
+3358b836d4369ad47823c26834b3613778fe75b2 mmc: sdhci-of-k1: Fix error code in probe()
+539d80575b810c7a5987c7ac8915e3bc99c03695 mtk-sd: Fix a pagefault in dma_unmap_sg() for not prepared data
+b26852daaa83f535109253d114426d1fa674155d RDMA/mlx5: reduce stack usage in mlx5_ib_ufile_hw_cleanup
+2c6b640ea08bff1a192bf87fa45246ff1e40767c RDMA/mlx5: Fix unsafe xarray access in implicit ODP handling
+333e4d79316c9ed5877d7aac8b8ed22efc74e96d RDMA/core: Rate limit GID cache warning messages
+8edab8a72d67742f87e9dc2e2b0cdfddda5dc29a RDMA/mlx5: Initialize obj_event->obj_sub_list before xa_insert
+d9d79e4f7dc935fea96dbf3de524404c08d08b03 mfd: Fix building without CONFIG_OF
+f5de469990f19569627ea0dd56536ff5a13beaa3 mtk-sd: Prevent memory corruption from DMA map failure
+9c19b3315cef8b62d2c037616a66b4446b966f6d sunrpc: fix loop in gss seqno cache
+e8d6f3ab59468e230f3253efe5cb63efa35289f7 nfs: Clean up /proc/net/rpc/nfs when nfs_fs_proc_net_init() fails.
+c01776287414ca43412d1319d2877cbad65444ac NFSv4/pNFS: Fix a race to wake on NFS_LAYOUT_DRAIN
+14633da0f416fdbb6844d1b295cdc828b666e273 mmc: core: Adjust some error messages for SD UHS-II cards
+2881ba9af073faa8ee7408a8d1e0575e50eb3f6c mmc: sdhci: Add a helper function for dump register in dynamic debug mode
+49b14db035135341f6cf4de7af6ac2cbc8ad29b6 mmc: sdhci-uhs2: Adjust some error messages and register dump for SD UHS-II card
+dcc3bcfc5b50c625b475dcc25d167b6b947a6637 Revert "mmc: sdhci: Disable SD card clock before changing parameters"
+818625570558cd91082c9bafd6f2b59b73241a69 iommufd/selftest: Fix iommufd_dirty_tracking with large hugepage sizes
+4b75e3babb85238912f50bbe0647bae08242a9b6 iommufd/selftest: Add missing close(mfd) in memfd_mmap()
+a9bf67ee170514b17541038c60bb94cb2cf5732f iommufd/selftest: Add asserts testing global mfd
+9a96876e3c6578031fa5dc5dde7759d383b2fb75 iommufd/selftest: Fix build warnings due to uninitialized mfd
+2ed25aa7f7711f508b6120e336f05cd9d49943c0 IB/mlx5: Fix potential deadlock in MR deregistration
+3f5f6321f129ad5a30aa03c99c196b4612be68a8 IB/core: Annotate umem_mutex acquisition under fs_reclaim for lockdep
+3cc1dbfddf88dc5ecce0a75185061403b1f7352d RDMA/mlx5: Fix HW counters query for non-representor devices
+acd245b1e33fc4b9d0f2e3372021d632f7ee0652 RDMA/mlx5: Fix CC counters query for MPV
+a9a9e68954f29b1e197663f76289db4879fd51bb RDMA/mlx5: Fix vport loopback for MPV device
+ec54c0a20709ed6e56f40a8d59eee725c31a916b mtk-sd: reset host->mrq on prepare_data() error
+38074de35b015df5623f524d6f2b49a0cd395c40 NFSv4/flexfiles: Fix handling of NFS level errors in I/O
+45537926dd2aaa9190ac0fac5a0fbeefcadfea95 s390/pci: Fix stale function handles in error handling
+b97a7972b1f4f81417840b9a2ab0c19722b577d5 s390/pci: Do not try re-enabling load/store if device is disabled
+62355f1f87b8c7f8785a8dd3cd5ca6e5b513566a s390/pci: Allow automatic recovery with minimal driver support
+ce95858aeedfd7f942e91234b81841eec0260a82 Merge tag 'nfs-for-6.16-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
+65c1736c8e9d06bfa5cc734b156518ff65926918 Merge tag 'mfd-fixes-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
+7e4a6b57dd7f55cce9ece0778c111905e73db7b1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+3c894cb29bbf4e36c5f2497cf8ea6fb09e157920 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+ba6a2f25d3d0c813bc5f70c4437002ecc90b85d5 Merge tag 's390-6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+b4911fb0b060899e4eebca0151eb56deb86921ec Merge tag 'mmc-v6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+555e9174ef06b7bfc54a3127a8d8fc47d55d04f4 firmware: arm_scmi: Add support for debug counter decrement
+a9cd861e61ae80b441af87f332bc3f44aa0b7c02 firmware: arm_scmi: Track number of inflight SCMI transfers
+f8e656382b4aa45ae51135b72262044550224920 include: trace:  Add tracepoint support for inflight xfer count
+cbcaad48dec1f52a3366eddc63a954726abc0b2a Merge branches 'for-next/scmi/updates' and 'for-next/smccc/updates', tag 'ffa-fixes-6.16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============0969875687765181358==--
+--===============4638071864591161159==--
