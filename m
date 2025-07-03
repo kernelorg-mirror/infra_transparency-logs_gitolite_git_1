@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Jul 2025 13:26:31 -0000
-Message-Id: <175154919116.3211145.3741823559719842671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Thu, 03 Jul 2025 13:28:34 -0000
+Message-Id: <175154931444.3212196.5519072327148021406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/main
-    old: 8b98f34ce1d8c520403362cb785231f9898eb3ff
-    new: 135faae63218808475501b1d4eab8b2342a131f9
+  - ref: refs/heads/task/work-v4
+    old: d95c2d0d58a2774c0ae62f6aac8a097f0ee57d03
+    new: 87896fa0dc36b421533c9dc85dd32b61eaff887b
     log: |
-         135faae63218808475501b1d4eab8b2342a131f9 bonding: don't force LACPDU tx to ~333 ms boundaries
+         b6a3181e228309ba089c7a27fa99194d12759313 sched/isolation: Introduce isolated task work
+         87896fa0dc36b421533c9dc85dd32b61eaff887b mm: Drain LRUs upon resume to userspace on nohz_full CPUs
          
