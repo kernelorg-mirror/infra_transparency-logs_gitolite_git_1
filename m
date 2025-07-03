@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 03 Jul 2025 04:39:56 -0000
-Message-Id: <175151759674.2710411.1742559973935388458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 03 Jul 2025 05:18:40 -0000
+Message-Id: <175151992046.2740918.2045752686562013893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 375f37ffbccef266976dc4c1e1df170d9619947e
-    new: 27bfcbfbd97947ab3e7ff33252d08adb362cdbdf
+  - ref: refs/heads/damon/next
+    old: 0f05b07c80997671d4353a5e78d465e1924ec488
+    new: 191db004a913b89183cc39a8965d0079f6f5ac2e
     log: |
-         c9e36860c9b4f07e3060e169266c92880ee28141 patches/next: fix and categorize damon_call() repeat mode
-         a35e1362c5e7e4c1abb363f84f9257e084c2803f patches/next: categorize damon_initialized()
-         27bfcbfbd97947ab3e7ff33252d08adb362cdbdf patches/next: rebase to latest mm-new
+         8ce4ed785034d639746c60c2837770ab4c996a63 mm/damon/reclaim: use damon_call() repeat mode, instead of dmon_callback
+         5c932b7265a58b176da5c224202b76c2cf6e2599 mm/damon/lru_sort: use repeat mode damon_call()
+         c11166ef08cc5e7474cd972b22444a209c4fc3aa samples/damon/prcl: use repeat damon_call_control
+         7d1f25741a9915e1c22dc000cfc7a931d254d675 samples/damon/wsse: replace damon_callback with damon_call()
+         bad2e3e94358a16c7734683da1a59af0a488a8e4 ==== uncategorized ====
+         1ae049f3faec99714878ad0a27d4ebe754f0c2fb mm/damon/core: add an hacking idea concept interface prototype
+         191db004a913b89183cc39a8965d0079f6f5ac2e mm/damon/core: fix prototype warning of damon_search()
          
