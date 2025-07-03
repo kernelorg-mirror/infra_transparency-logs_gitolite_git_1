@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 03 Jul 2025 18:52:34 -0000
-Message-Id: <175156875466.3527237.1689719913580110805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Thu, 03 Jul 2025 18:54:09 -0000
+Message-Id: <175156884956.3528204.18182284900383010465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: e9846f5ead26d2ed2eea0987e3991a667fc38d22
-    new: cc4b392718dcbf64301681f8a3daa8a013cf6427
+  - ref: refs/heads/rust-atomic-v6
+    old: 3e709627b804a50cd9f1d101f451fcfdc02078d9
+    new: 90aadbdfdfbab912d7fccbc2747974c9b828c028
     log: |
-         6c21316e52959f60e9367a41a7893d8459d7dfab perf header: Fix pipe mode header dumping
-         8081ca8d6be8c4b08b5d2fa06b2129f00aa95451 perf tests make: Add NO_LIBDW=1 to minimal and add standalone test
-         10d9b89203765fb776512742c13af8dd92821842 perf sched: Make sure it frees the usage string
-         aa9fdd106bab8c478d37eba5703c0950ad5c0d4f perf sched: Free thread->priv using priv_destructor
-         dc3a80c98884d86389b3b572c50ccc7f502cd41b perf sched: Fix memory leaks in 'perf sched map'
-         e2eb59260c4f6bac403491d0112891766b8650d1 perf sched: Fix thread leaks in 'perf sched timehist'
-         117e5c33b1c44037af016d77ce6c0b086d55535f perf sched: Fix memory leaks for evsel->priv in timehist
-         7a4002ec9e0fced907179da94f67c3082d7b4162 perf sched: Use RC_CHK_EQUAL() to compare pointers
-         e68b1c0098b959cb88afce5c93dd6a9324e6da78 perf sched: Fix memory leaks in 'perf sched latency'
-         cc4b392718dcbf64301681f8a3daa8a013cf6427 perf test: Add more test cases to sched test
+         897e148a6ce1dea1ae333f084af7da012310a301 rust: sync: atomic: Add generic atomics
+         3e0c738e26b880ce0c3410d46ab2fbc2d0862df1 rust: sync: atomic: Add atomic {cmp,}xchg operations
+         85d0ae47ba7fe42e0fb7fdc5970891bc5617eb65 rust: sync: atomic: Add the framework of arithmetic operations
+         e38d07979934978cf156e27801eefbd0266e6f6f rust: sync: atomic: Add Atomic<u{32,64}>
+         10a064daeec777fe33921f2b21049817740e50ce rust: sync: Add memory barriers
+         b0c4e624a430e927ab615f9946f078f5f5a12f3e rust: Add helpers for atomic_long_t
+         c662036e7229f648f5061eb8426d7068790481de rust: sync: atomic: Implement AtomicImpl for isize
+         fea19c4d5cb7193fd32f77fdc03ac0e9242cd5f7 rust: sync: atomic: Add Atomic<{usize,isize}>
+         872a587aef8193eca670d576d27ae4ff360f26ca WIP: rust: sync: atomic: Implement AtomicImpl for *mut ()
+         90aadbdfdfbab912d7fccbc2747974c9b828c028 WIP: rust: sync: atomic: Add Atomic<*mut T>
          
