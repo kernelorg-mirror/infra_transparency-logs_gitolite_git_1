@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Jul 2025 14:05:35 -0000
-Message-Id: <175155153522.3246675.5928483085084188032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mmc/mmc-utils
+Date: Thu, 03 Jul 2025 14:14:46 -0000
+Message-Id: <175155208670.3253063.5695937423389330447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/mmc/mmc-utils
+user: ulfh
 changes:
-  - ref: refs/heads/main
-    old: 129676952ee0672480cd50ac028330ef9e92b98f
-    new: 5f712c3877f99d5b5e4d011955c6467ae0e535a6
+  - ref: refs/heads/master
+    old: d8a8358a7207bd81d0c38dca2cf27a48bf411341
+    new: b5480ed26f83ccb1e4270adbdb799fb9d0883a20
     log: |
-         5f712c3877f99d5b5e4d011955c6467ae0e535a6 ipv6: Cleanup fib6_drop_pcpu_from()
+         14cc86b32fbd3ad3ff768ab8168c1e5b3ec1f5d5 mmc-utils: Add option to print version
+         e3f0ea76bb38a1390493950d02fe57d4b671ad67 mmc-utils: Makefile: Make version string to show commit date
+         332787910812748726b9885b1aca0910067ce63a mmc-utils: mmc.c: Print version at program start
+         b5480ed26f83ccb1e4270adbdb799fb9d0883a20 mmc-utils: Remove unnecessary null pointer checks
          
