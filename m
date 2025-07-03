@@ -1,28 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Thu, 03 Jul 2025 18:54:09 -0000
-Message-Id: <175156884956.3528204.18182284900383010465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 03 Jul 2025 19:00:57 -0000
+Message-Id: <175156925716.3535514.13369709080275091841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/rust-atomic-v6
-    old: 3e709627b804a50cd9f1d101f451fcfdc02078d9
-    new: 90aadbdfdfbab912d7fccbc2747974c9b828c028
+  - ref: refs/heads/for-kernelci
+    old: 3cd1604f930f959d5f1860632d81ac0b39378b5c
+    new: 99a69586e447660c2b425bab0d61f72f2eb28c00
     log: |
-         897e148a6ce1dea1ae333f084af7da012310a301 rust: sync: atomic: Add generic atomics
-         3e0c738e26b880ce0c3410d46ab2fbc2d0862df1 rust: sync: atomic: Add atomic {cmp,}xchg operations
-         85d0ae47ba7fe42e0fb7fdc5970891bc5617eb65 rust: sync: atomic: Add the framework of arithmetic operations
-         e38d07979934978cf156e27801eefbd0266e6f6f rust: sync: atomic: Add Atomic<u{32,64}>
-         10a064daeec777fe33921f2b21049817740e50ce rust: sync: Add memory barriers
-         b0c4e624a430e927ab615f9946f078f5f5a12f3e rust: Add helpers for atomic_long_t
-         c662036e7229f648f5061eb8426d7068790481de rust: sync: atomic: Implement AtomicImpl for isize
-         fea19c4d5cb7193fd32f77fdc03ac0e9242cd5f7 rust: sync: atomic: Add Atomic<{usize,isize}>
-         872a587aef8193eca670d576d27ae4ff360f26ca WIP: rust: sync: atomic: Implement AtomicImpl for *mut ()
-         90aadbdfdfbab912d7fccbc2747974c9b828c028 WIP: rust: sync: atomic: Add Atomic<*mut T>
+         d3a80c5109a358943bde903f7dea3be469377ea5 arm64/debug: Drop redundant DBG_MDSCR_* macros
+         30ff3c981e48b37a93249a96675b450469ac13a6 KVM: selftests: Change MDSCR_EL1 register holding variables as uint64_t
+         2a3c5cee36db72f07a39ee37230805a048e1ac4b Merge branch 'for-next/mdscr-cleanup' into for-next/core
+         99a69586e447660c2b425bab0d61f72f2eb28c00 Merge branch 'for-next/core' into for-kernelci
          
+  - ref: refs/heads/for-next/core
+    old: 8872a53b8a2256dd367db65df8d768774fc9f0aa
+    new: 2a3c5cee36db72f07a39ee37230805a048e1ac4b
+    log: |
+         d3a80c5109a358943bde903f7dea3be469377ea5 arm64/debug: Drop redundant DBG_MDSCR_* macros
+         30ff3c981e48b37a93249a96675b450469ac13a6 KVM: selftests: Change MDSCR_EL1 register holding variables as uint64_t
+         2a3c5cee36db72f07a39ee37230805a048e1ac4b Merge branch 'for-next/mdscr-cleanup' into for-next/core
+         
+  - ref: refs/heads/for-next/mdscr-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 30ff3c981e48b37a93249a96675b450469ac13a6
