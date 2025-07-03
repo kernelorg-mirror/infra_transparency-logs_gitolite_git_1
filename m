@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 03 Jul 2025 14:57:04 -0000
-Message-Id: <175155462422.3296697.5387108984623601493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 03 Jul 2025 15:00:03 -0000
+Message-Id: <175155480325.3300080.1862667722846253011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: pratyush
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: d8b73ce1c5fc60cff8628d406caf7a5a5cecb1c7
-    new: a45ab839f52f3f00ac3dae18a50e902efd216de2
+  - ref: refs/heads/pending
+    old: b6553de74c8ba611444522a1736b0a3a05c21e19
+    new: 432952bc20dfe5facc6bbd6e23f617d3597bb953
     log: |
-         a45ab839f52f3f00ac3dae18a50e902efd216de2 mtd: spi-nor: spansion: Fixup params->set_4byte_addr_mode for SEMPER
+         432952bc20dfe5facc6bbd6e23f617d3597bb953 wifi: ath12k: update unsupported bandwidth flags in reg rules
          
