@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 03 Jul 2025 09:52:41 -0000
-Message-Id: <175153636112.2971756.1924226578604744917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 03 Jul 2025 09:55:14 -0000
+Message-Id: <175153651434.2975181.1548129003834609382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: b0727b0ccd907aa669ba48027f29019f1c48d42c
-    new: b2f8ef030ef77130844c4b6f1eee28553163d5a7
+  - ref: refs/heads/fixes
+    old: 0e02219f9cf4f0c0aa3dbf3c820e6612bf3f0c8c
+    new: 42ce432522a17685f5a84529de49e555477c0a1f
     log: |
-         cc9f7f65cd2f31150b10e6956f1f0882e1bbae49 net: txgbe: request MISC IRQ in ndo_open
-         e37546ad1f9b2c777d3a21d7e50ce265ee3dece8 net: wangxun: revert the adjustment of the IRQ vector sequence
-         4174c0c331a2aa3322d3b3be532808deb041b37d net: ngbe: specify IRQ vector when the number of VFs is 7
-         b2f8ef030ef77130844c4b6f1eee28553163d5a7 Merge branch 'fix-irq-vectors'
+         105485a182dc6ba32e55db46839af756c105afae KVM: arm64: Fix handling of FEAT_GTG for unimplemented granule sizes
+         42ce432522a17685f5a84529de49e555477c0a1f KVM: arm64: Remove kvm_arch_vcpu_run_map_fp()
          
+  - ref: refs/tags/kvmarm-fixes-6.16-5
+    old: 0000000000000000000000000000000000000000
+    new: 37d25056273fbbff78d033190bd5c27bdebc56fc
