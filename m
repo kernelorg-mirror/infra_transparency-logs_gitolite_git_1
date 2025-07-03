@@ -1,72 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5459587515088641533=="
+Content-Type: multipart/mixed; boundary="===============2616915858430134282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 03 Jul 2025 08:09:46 -0000
-Message-Id: <175153018618.2881219.5999121837563646750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 03 Jul 2025 08:14:47 -0000
+Message-Id: <175153048738.2886208.15654390832339844584@gitolite.kernel.org>
 
---===============5459587515088641533==
+--===============2616915858430134282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 88e326b3316a8c6d86c528d31a8da31444716d73
-    new: b9707d46a95962bb4e28ae1929015e419ad6aff7
-    log: revlist-88e326b3316a-b9707d46a959.txt
+  - ref: refs/heads/master
+    old: 42b89c769e198219f2fdf3e164a56bf7f52f16ed
+    new: aaa1358ee938681a716a7a8bd385664ff39a1664
+    log: |
+         2ee149414ad42c6d15037892fcee0656eba45ecc update 6.14.9 review from greg
+         f66e790a0d25035e84b8ae3acba8834d229d99c3 allocate some more 6.14.9 cve ids
+         e797b58df0505ef33a62eb2772e689266c2b80f3 strip mbox files
+         aaa1358ee938681a716a7a8bd385664ff39a1664 update cvelistV5
+         
 
---===============5459587515088641533==
+--===============2616915858430134282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1751530221 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1751530182-aaab897437e7ad4e5953e0980072bdc09eecea1e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751530523 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1751530484-20c14deb96750ad657cfe8268f80796c009fcc5e
 
-88e326b3316a8c6d86c528d31a8da31444716d73 b9707d46a95962bb4e28ae1929015e419ad6aff7 refs/heads/review-ilpo-next
+42b89c769e198219f2fdf3e164a56bf7f52f16ed aaa1358ee938681a716a7a8bd385664ff39a1664 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaGY67wAKCRBZrE9hU+XO
-MZ5ZAQCHUZnEQT+smYCGDpGstQKhdGiqmRdJt/gSGOE1H/0AwwD+J8ar2i4qoun+
-KvK/j/wgeDnJfnQU2zgXAe3YnNucIAU=
-=VyMh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhmPBsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yTkQAIoTwg6stsmoQgPZqB08
+TvPkc+dA0xclk0JRN19SH19iwVjUD/0AE6j3cJrxqssjr4GpZOiuZ1CxKhqjxdz0
+ZOU7ZiynfYMeUEBTOmBK6d4FF8/FdgtnahCrDvOK34uewsADOOH1pyqzY88YGsEv
+DLAjdQO8oHV5GS00nejNpMaUjEBlkR219lGQPdEoKFrLceYR8CNdgXCl2ARIAXSD
+B8CXnZTlUuF0G2MpotSvu17JB5j5mOZLvW3HwkmqAuwUm5W0KKIZ9pFst7R662fy
+NEr/pAtxYv1VvmZMJ31wQ/DfIQ78FYC89DFbRqaEAdcZuyQGdo1I6FL/bNqOAtFb
+Dwa/mH7Q5zkNePi6P73br9Ji3Et6zG6jeIenR0UPb4euTOmE7L8einCNguBpc6nv
+J6IqilG6ib5Coea5UNKHPJ6FJzOc4ijH0oqmKdN9OZ/jDh4WBJJnzFquAwUqr/rX
+SBnhZjQjUa/na5IwlGZjICIMGJTR8GZHFc5+bAwQHDQsrjYTtE7d8yUjq7RHKX/1
+kO0zxVGsX7nIQo8ZayoPXJQ6OLMCxof4tSunSScOa95LUex6wPToi1o7G52JcZ77
+EpOWxm0PNhtkbDJa/D9ufLDfsxIYeZ9FIa/ELBHhbTA1Tsqj8A0j39hcOyxQbBdd
+dYjADgzghYfse8meihTuziSr
+=heqE
 -----END PGP SIGNATURE-----
 
---===============5459587515088641533==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88e326b3316a-b9707d46a959.txt
-
-57139e126a30ce64f111c78b1b9e37b39a2b7424 platform/x86: Add lenovo-wmi-* driver Documentation
-e521d16e76cd9ea99c585e064f4e7daf657b1451 platform/x86: Add lenovo-wmi-helpers
-949bf144bdc72e87018197ae71aa4959f17885d5 platform/x86: Add Lenovo WMI Events Driver
-e1a5fe662b593108d14cd0481019601698f9fbe8 platform/x86: Add Lenovo Capability Data 01 WMI Driver
-22024ac5366f065a7b931bee5b62e2588521c4f0 platform/x86: Add Lenovo Gamezone WMI Driver
-edc4b183b794baefb54aa0baeb810fe3ac65d826 platform/x86: Add Lenovo Other Mode WMI Driver
-fb1311b3f171bbb3c07cc7764ec981605564c83a MAINTAINERS: Add link to documentation of Intel PMT ABI
-dc957ab6aa05c118c3da0542428a4d6602aa2d2d platform/x86/intel/vsec: Add private data for per-device data
-b0631f8a5740c55b52d02174cc4c9c84cc7a16a1 platform/x86/intel/vsec: Create wrapper to walk PCI config space
-8a67d4b49bbdebcd255abde9e652092c3de3b657 platform/x86/intel/vsec: Add device links to enforce dependencies
-1f3855ea7d6b03f68c2eec7a0bcd537cedcc6680 platform/x86/intel/vsec: Skip absent features during initialization
-e4436e98672c7993cdfd7743efd0fcaa8df7cc17 platform/x86/intel/vsec: Skip driverless features
-10f32796e86c04f73b7f8580cc9483765ed19f49 platform/x86/intel/vsec: Add new Discovery feature
-d9a0788093565c300f7c8dd034dbfa6ac4da9aa6 platform/x86/intel/pmt: Add PMT Discovery driver
-2e7ba52110ef15d29846b40eb28b400f1fb1834a docs: Add ABI documentation for intel_pmt feature directories
-934954df0f44de5e10afc1af84c06f78149f15fe platform/x86/intel/tpmi: Relocate platform info to intel_vsec.h
-a885a2780937afac4f31f00d11663f50d05dfb35 platform/x86/intel/vsec: Set OOBMSM to CPU mapping
-c9699057521834862616ce159a47bd33920f0d9f platform/x86/intel/tpmi: Get OOBMSM CPU mapping from TPMI
-86fc85c75bcd9b0f28afadd60c9f890669b42ba4 platform/x86/intel/pmt/discovery: Get telemetry attributes
-42dabe5442887946b16e64c6ebe91d2671a96fbb platform/x86/intel/pmt/telemetry: Add API to retrieve telemetry regions by feature
-b9707d46a95962bb4e28ae1929015e419ad6aff7 platform/x86/intel/pmt: KUNIT test for PMT Enhanced Discovery API
-
---===============5459587515088641533==--
+--===============2616915858430134282==--
