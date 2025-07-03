@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 03 Jul 2025 18:03:25 -0000
-Message-Id: <175156580554.3484202.14687051292136752005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 03 Jul 2025 18:03:56 -0000
+Message-Id: <175156583656.3484678.2271613548522736932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/dev-queue
-    old: e1b336470a7a8189a18f4202d80d2e65929a288a
-    new: ef20c43137cfc09cd6a3290d067ae3580348e745
+  - ref: refs/heads/tpm-buf-cleanup
+    old: a0c199afecd7d8170a2f143db2955e48fb1bb5a4
+    new: 08dc96f93208c383f8522492a6988662ab3a3332
     log: |
-         ba01f16c0d65be749cd247edf87b9f5912c19302 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
-         ef20c43137cfc09cd6a3290d067ae3580348e745 e1000e: ignore uninitialized checksum word on tgp
+         08dc96f93208c383f8522492a6988662ab3a3332 tpm: Managed allocations for tpm_buf instances
          
