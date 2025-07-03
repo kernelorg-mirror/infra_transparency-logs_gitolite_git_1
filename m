@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8332187150886490801=="
+Content-Type: multipart/mixed; boundary="===============7187957003997449804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 03 Jul 2025 15:19:08 -0000
-Message-Id: <175155594897.3319500.17205349499580553884@gitolite.kernel.org>
+Date: Thu, 03 Jul 2025 15:19:11 -0000
+Message-Id: <175155595165.3319625.8592481327728778952@gitolite.kernel.org>
 
---===============8332187150886490801==
+--===============7187957003997449804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 72fb83735c71e3f6f025ab7f5dbfec7c9e26b6cc
+  - ref: refs/heads/200GbE
+    old: 0325143b59c6c6d79987afc57d2456e7a20d13b7
     new: 223e2288f4b8c262a864e2c03964ffac91744cd5
-    log: revlist-72fb83735c71-223e2288f4b8.txt
+    log: revlist-0325143b59c6-223e2288f4b8.txt
 
---===============8332187150886490801==
+--===============7187957003997449804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72fb83735c71-223e2288f4b8.txt
+Content-Disposition: attachment; filename=revlist-0325143b59c6-223e2288f4b8.txt
 
-f77bf1ebf8ff6301ccdbc346f7b52db928f9cbf8 idpf: return 0 size for RSS key if not supported
-b2beb5bb2cd90d7939e470ed4da468683f41baa3 idpf: convert control queue mutex to a spinlock
-0325143b59c6c6d79987afc57d2456e7a20d13b7 igc: disable L1.2 PCI-E link substate to avoid performance issue
 e6ed134a4ef592fe1fd0cafac9683813b3c8f3e8 lib: test_objagg: Set error message in check_expect_hints_stats()
 42fd432fe6d320323215ebdf4de4d0d7e56e6792 amd-xgbe: align CL37 AN sequence as per databook
 aaf2b2480375099c022a82023e1cd772bf1c6a5d enic: fix incorrect MTU comparison in enic_change_mtu()
@@ -55,4 +52,4 @@ b2f8ef030ef77130844c4b6f1eee28553163d5a7 Merge branch 'fix-irq-vectors'
 f030713e5abf67d0a88864c8855f809c763af954 dt-bindings: net: sophgo,sg2044-dwmac: Drop status from the example
 223e2288f4b8c262a864e2c03964ffac91744cd5 vsock/vmci: Clear the vmci transport packet properly when initializing it
 
---===============8332187150886490801==--
+--===============7187957003997449804==--
