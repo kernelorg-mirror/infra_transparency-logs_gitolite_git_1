@@ -1,70 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============4638071864591161159=="
+Content-Type: multipart/mixed; boundary="===============2453543245836808028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 03 Jul 2025 15:20:57 -0000
-Message-Id: <175155605728.3325090.14991853030823790437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 03 Jul 2025 15:22:47 -0000
+Message-Id: <175155616704.3326320.3264379277962338795@gitolite.kernel.org>
 
---===============4638071864591161159==
+--===============2453543245836808028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-linux-next
-    old: e42372c0470df98fcde03400c6ff2870365ed3a4
-    new: cbcaad48dec1f52a3366eddc63a954726abc0b2a
-    log: revlist-e42372c0470d-cbcaad48dec1.txt
+  - ref: refs/heads/bleeding-edge
+    old: 69f538a2707b22544e21cbd6c57f4fddb0d9a6e6
+    new: 0298fbbd820473eb360e9af716610ffa6a0127c2
+    log: revlist-69f538a2707b-0298fbbd8204.txt
+  - ref: refs/heads/fixes
+    old: 1299a1d808b03138e6993cb4bc8b793972dadda4
+    new: 73cb2657cb1637055353d8df53b686f969901d3e
+    log: |
+         3e7e5adcd2a86783c441edf6f518fc903e3c4e7c PM: sleep: docs: Replace "diasble" with "disable"
+         73cb2657cb1637055353d8df53b686f969901d3e Merge branch 'pm-sleep' into fixes
+         
+  - ref: refs/tags/v6.16-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
 
---===============4638071864591161159==
+--===============2453543245836808028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e42372c0470d-cbcaad48dec1.txt
+Content-Disposition: attachment; filename=revlist-69f538a2707b-0298fbbd8204.txt
 
-009c3a4bc41e855fd76f92727f9fbae4e5917d7f mmc: core: sd: Apply BROKEN_SD_DISCARD quirk earlier
-3358b836d4369ad47823c26834b3613778fe75b2 mmc: sdhci-of-k1: Fix error code in probe()
-539d80575b810c7a5987c7ac8915e3bc99c03695 mtk-sd: Fix a pagefault in dma_unmap_sg() for not prepared data
-b26852daaa83f535109253d114426d1fa674155d RDMA/mlx5: reduce stack usage in mlx5_ib_ufile_hw_cleanup
-2c6b640ea08bff1a192bf87fa45246ff1e40767c RDMA/mlx5: Fix unsafe xarray access in implicit ODP handling
-333e4d79316c9ed5877d7aac8b8ed22efc74e96d RDMA/core: Rate limit GID cache warning messages
-8edab8a72d67742f87e9dc2e2b0cdfddda5dc29a RDMA/mlx5: Initialize obj_event->obj_sub_list before xa_insert
-d9d79e4f7dc935fea96dbf3de524404c08d08b03 mfd: Fix building without CONFIG_OF
-f5de469990f19569627ea0dd56536ff5a13beaa3 mtk-sd: Prevent memory corruption from DMA map failure
-9c19b3315cef8b62d2c037616a66b4446b966f6d sunrpc: fix loop in gss seqno cache
-e8d6f3ab59468e230f3253efe5cb63efa35289f7 nfs: Clean up /proc/net/rpc/nfs when nfs_fs_proc_net_init() fails.
-c01776287414ca43412d1319d2877cbad65444ac NFSv4/pNFS: Fix a race to wake on NFS_LAYOUT_DRAIN
-14633da0f416fdbb6844d1b295cdc828b666e273 mmc: core: Adjust some error messages for SD UHS-II cards
-2881ba9af073faa8ee7408a8d1e0575e50eb3f6c mmc: sdhci: Add a helper function for dump register in dynamic debug mode
-49b14db035135341f6cf4de7af6ac2cbc8ad29b6 mmc: sdhci-uhs2: Adjust some error messages and register dump for SD UHS-II card
-dcc3bcfc5b50c625b475dcc25d167b6b947a6637 Revert "mmc: sdhci: Disable SD card clock before changing parameters"
-818625570558cd91082c9bafd6f2b59b73241a69 iommufd/selftest: Fix iommufd_dirty_tracking with large hugepage sizes
-4b75e3babb85238912f50bbe0647bae08242a9b6 iommufd/selftest: Add missing close(mfd) in memfd_mmap()
-a9bf67ee170514b17541038c60bb94cb2cf5732f iommufd/selftest: Add asserts testing global mfd
-9a96876e3c6578031fa5dc5dde7759d383b2fb75 iommufd/selftest: Fix build warnings due to uninitialized mfd
-2ed25aa7f7711f508b6120e336f05cd9d49943c0 IB/mlx5: Fix potential deadlock in MR deregistration
-3f5f6321f129ad5a30aa03c99c196b4612be68a8 IB/core: Annotate umem_mutex acquisition under fs_reclaim for lockdep
-3cc1dbfddf88dc5ecce0a75185061403b1f7352d RDMA/mlx5: Fix HW counters query for non-representor devices
-acd245b1e33fc4b9d0f2e3372021d632f7ee0652 RDMA/mlx5: Fix CC counters query for MPV
-a9a9e68954f29b1e197663f76289db4879fd51bb RDMA/mlx5: Fix vport loopback for MPV device
-ec54c0a20709ed6e56f40a8d59eee725c31a916b mtk-sd: reset host->mrq on prepare_data() error
-38074de35b015df5623f524d6f2b49a0cd395c40 NFSv4/flexfiles: Fix handling of NFS level errors in I/O
-45537926dd2aaa9190ac0fac5a0fbeefcadfea95 s390/pci: Fix stale function handles in error handling
-b97a7972b1f4f81417840b9a2ab0c19722b577d5 s390/pci: Do not try re-enabling load/store if device is disabled
-62355f1f87b8c7f8785a8dd3cd5ca6e5b513566a s390/pci: Allow automatic recovery with minimal driver support
-ce95858aeedfd7f942e91234b81841eec0260a82 Merge tag 'nfs-for-6.16-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
-65c1736c8e9d06bfa5cc734b156518ff65926918 Merge tag 'mfd-fixes-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
-7e4a6b57dd7f55cce9ece0778c111905e73db7b1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-3c894cb29bbf4e36c5f2497cf8ea6fb09e157920 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-ba6a2f25d3d0c813bc5f70c4437002ecc90b85d5 Merge tag 's390-6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-b4911fb0b060899e4eebca0151eb56deb86921ec Merge tag 'mmc-v6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-555e9174ef06b7bfc54a3127a8d8fc47d55d04f4 firmware: arm_scmi: Add support for debug counter decrement
-a9cd861e61ae80b441af87f332bc3f44aa0b7c02 firmware: arm_scmi: Track number of inflight SCMI transfers
-f8e656382b4aa45ae51135b72262044550224920 include: trace:  Add tracepoint support for inflight xfer count
-cbcaad48dec1f52a3366eddc63a954726abc0b2a Merge branches 'for-next/scmi/updates' and 'for-next/smccc/updates', tag 'ffa-fixes-6.16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+4734c8b46b901cff2feda8b82abc710b65dc31c1 ACPI: APEI: GHES: add TAINT_MACHINE_CHECK on GHES panic path
+9395090d5da415db1f97c6c10271f49d90fab1a1 Merge branch 'acpi-apei' into bleeding-edge
+13edf7539211d8f7d0068ce3ed143005f1da3547 ACPI: processor: fix acpi_object initialization
+15b3954528af617a33d85922925670fe2da38091 Merge branch 'acpi-processor' into bleeding-edge
+4266e8fa56d3d982bf451d382a410b9db432015c PM: sleep: console: Fix the black screen issue
+fcf3a086efb6fa5c10f0d8610e2a1f41f37c490d Merge branch 'pm-sleep-next' into bleeding-edge
+3f538b5865b98aa3a9f258911ee0b6318cd6edc5 cpufreq: intel_pstate: Always use HWP_DESIRED_PERF in passive mode
+74076e819f8d6f9e5c6fceb40658c9511c310661 Merge branch 'pm-cpufreq' into bleeding-edge
+5e8be76a7c37b98876704cf211ac0ab674304f4f PM: sleep: Drop superfluous might_sleep() calls
+5ac04282d43ecadeae00c41658e3ae5b4cfa52be Merge branch 'pm-sleep-next' into bleeding-edge
+1a4aabc27e95674837f2e25f4ef340c0469e6203 thermal: sysfs: Return ENODATA instead of EAGAIN for reads
+e5a89e10eba0ae8e48fde5bed67e4f71698e5c52 Merge branch 'thermal-core' into bleeding-edge
+d96681c81075aa3943cb10f7df955c40ce61eaa7 cpufreq: intel_pstate: Add Granite Rapids support in no-HWP mode
+00f91420a30e510a066a87d7fa9e98c15055a03a Merge branch 'pm-cpufreq' into bleeding-edge
+ed18738fff025df2a424d3b21e895992e6cb230a PM: sleep: Make async resume handle consumers like children
+06799631d52261162d356623d14381d9f30223dc PM: sleep: Make async suspend handle suppliers like parents
+c7179c36987d2d98d1bbe39dcb3565c398bff0e4 Merge branch 'pm-sleep-next' into bleeding-edge
+4df516afa00e44c4c4c1cab88e7f43c81c6542b2 cpufreq: Contain scaling_cur_freq.attr in cpufreq_attrs
+d25d9573c4cf66ca421a71d74967dbb5fed07deb cpufreq: Remove duplicate check in __cpufreq_offline()
+572d33ce5d87dd387037d053d7b09d817618911d Merge branch 'pm-cpufreq' into bleeding-edge
+9047685cfd2911c36ce89a16270aafa71057c507 PM: Don't use "proxy" headers
+072af34da2d9cbbe22fef0bf1fe4d2d32ae39b98 Merge branch 'pm-misc' into bleeding-edge
+200046d827188f878a61c01539c4315370577c73 PM: Use true/false as power.needs_force_resume values
+c021c1b38f90d639423c1369625daa703a8472ea PM: Move two sleep-related functions under CONFIG_PM_SLEEP
+e21bd84c2f1dd2900adb343a796bc88101ce48d0 PM: Make pm_runtime_force_resume() work with DPM_FLAG_SMART_SUSPEND
+89d9cec3b1e9c49bae9375a2db6dc49bc7468af0 PM: runtime: Clear power.needs_force_resume in pm_runtime_reinit()
+ab5ce09709b5f3cc73124bd1f2d6de06c1a4b6be PM: Check power.needs_force_resume in pm_runtime_force_suspend()
+2b2dcf08116d6e96a446c8f3216b2479701e39aa PM: runtime: Introduce __rpm_get_driver_callback()
+ffda4ca4608ea811aee2aace211bbf27c68a8853 PM: sleep: Add strict_midlayer flag to struct dev_pm_info
+325e3778eac3916f3451f8ceccafdc31427ccdd1 ACPI: PM: Set/clear power.strict_midlayer in prepare/complete
+f19dc0489ed52f527e9b198b86b0b807ebbfa4e5 PCI/PM: Set power.strict_midlayer in pci_pm_init()
+0675d36ee9bcbf803f46a73dadd39eec1a5b8bfd Merge branch 'pm-sleep-next' into bleeding-edge
+46dc57406887dd02565cb264224194a6776d882b powercap: dtpm_cpu: Fix NULL pointer dereference in get_pd_power_uw()
+0298fbbd820473eb360e9af716610ffa6a0127c2 Merge branch 'pm-powercap-next' into bleeding-edge
 
---===============4638071864591161159==--
+--===============2453543245836808028==--
