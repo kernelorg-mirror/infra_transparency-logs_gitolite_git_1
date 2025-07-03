@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 03 Jul 2025 14:01:04 -0000
-Message-Id: <175155126408.3242384.13390407842386090321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 03 Jul 2025 14:05:35 -0000
+Message-Id: <175155153522.3246675.5928483085084188032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/pending
-    old: 52f1b9fc37b25d2e06fb8c5f8da69401178b9704
-    new: 8d3852b5458e15e45ceca50af5f1caa179f51e06
+  - ref: refs/heads/main
+    old: 129676952ee0672480cd50ac028330ef9e92b98f
+    new: 5f712c3877f99d5b5e4d011955c6467ae0e535a6
     log: |
-         8d3852b5458e15e45ceca50af5f1caa179f51e06 wifi: ath12k: Block radio bring-up in FTM mode
+         5f712c3877f99d5b5e4d011955c6467ae0e535a6 ipv6: Cleanup fib6_drop_pcpu_from()
          
