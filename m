@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 03 Jul 2025 19:01:06 -0000
-Message-Id: <175156926685.3535908.3050047207409609477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 03 Jul 2025 19:01:23 -0000
+Message-Id: <175156928314.3536351.2996798347358504439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 50fb9042e1ad471115e21ed83daebae278594aa7
-    new: 655421a962636d3e2ed2124eee8f588b0815ae3b
-    log: |
-         a2156408b13fa129644482b5714febff2786da18 unit: Remove dependencies to android
-         f0512114aacfaf82fcd06e086884c0478c4ae124 Remove android support
-         655421a962636d3e2ed2124eee8f588b0815ae3b shared/shell: Fix not calling pre_run for main menu
-         
+  - ref: refs/heads/tlbi
+    old: 0000000000000000000000000000000000000000
+    new: ee71369b6f20e3354d420825f76a670aa02abe97
+  - ref: refs/heads/vsock
+    old: 0000000000000000000000000000000000000000
+    new: 074563a9b7c1ec197e0deebaf2e867eaab66a9a5
