@@ -1,57 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4834848477798552788=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 04 Jul 2025 09:06:27 -0000
-Message-Id: <175161998778.55526.8107234057025194850@gitolite.kernel.org>
-
---===============4834848477798552788==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 04 Jul 2025 09:08:17 -0000
+Message-Id: <175162009752.56595.5706749295217372684@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 1cdd8bb3960d7d089ae4eaa52d0677b9c37684e1
-    new: 9ad2f711981874b90cc52f5688cbf03d926fe5c6
+  - ref: refs/heads/stm32-next
+    old: 998adc8cd5cbd4f45446ab7ad8bc1e1e7b62d7a1
+    new: 9259e150de55d7ae4c38f78ff01b6110d543c635
     log: |
-         bcfcd9a9038c9b539b96350475d4f013732d9581 verify 2 drm patches in 6.15
-         9ad2f711981874b90cc52f5688cbf03d926fe5c6 drop some drm patches that were not right
+         339571778a61087efb16f45449b61e3bb41a7688 arm64: dts: st: add timer nodes on stm32mp251
+         0b22e2e5648f8e40d77706000565c544c5104c3d arm64: dts: st: add timer pins for stm32mp257f-ev1
+         986fa0721c1f1f5447ab3f8e36cc9d4ae17bce3f arm64: dts: st: add timer nodes on stm32mp257f-ev1
+         9259e150de55d7ae4c38f78ff01b6110d543c635 arm64: defconfig: enable STM32 timers drivers
          
-
---===============4834848477798552788==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751620025 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1751619985-24de82065a40dc1d0de567dc6ad4b0a0d438e945
-
-1cdd8bb3960d7d089ae4eaa52d0677b9c37684e1 9ad2f711981874b90cc52f5688cbf03d926fe5c6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhnmbobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VS0QAI+ZxFaOSA6dm9hzNGvG
-mC/VRjf+iF8CCnniyzCWyQzZ/vS133U4oW1+/IoMASIOUaKWf41ibk//7c6bcDUu
-FTfxQNn4yEoYw9/ciHiMgwhvF8FRVmtGOEQ0fsE3kpF0WAnJWVHqQqv+JHShSjTB
-10keMCWV1EvdqtuiYvyXjEJNHaD9ZuXWVPHOUczVQGqNXH/4rC2BuNPzWkBHbd/C
-qCcm37S6DGPt6SgKnEL1n4EduHbB/9tgBVssqNcaEUCEMWyuW1/Oll/GEXfn3ump
-i14WIwJv72OUhBCn9FnFj4me/AqIiSun+bZ+cDmbGlZJJdWPoCrMj6DbgQePj4Zx
-YiwqcvpNM5xM0cGKEaQshVy3U2C/TTneX9RyJ+C86Bgfj23DGXyl7hPYkP9xVGkt
-iaVszivrhbOSuE1DG2Oj8VGsEck/7+Gl4NHlg5AyBtfIfYCPrpgjO3cBnnCCcrPR
-+CQuzUTqkXzZ1LnuXMMebnfBHSY0MeKkvDcsoraFXP2qn6C+9rUOfj6tRpIPLDwS
-QDsPJ7YAR85ha/iOn4wWXbLMy1LC1Qsuq5hcqyaVOxcnJJ65rzHuquud493yKNGO
-IvQF+1PNiK6rm0S0QAQFZrl9drQUJkwyG0F9ae7RtbZYVjoy8BECICmIgsKURJnj
-Gm+BAUDvDAxGX/+XxviZZWgE
-=fdIm
------END PGP SIGNATURE-----
-
---===============4834848477798552788==--
