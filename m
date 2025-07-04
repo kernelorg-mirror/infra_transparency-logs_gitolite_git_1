@@ -1,25 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 04 Jul 2025 04:05:26 -0000
-Message-Id: <175160192670.3996070.1991479238126755284@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1565386324107901790=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Fri, 04 Jul 2025 04:08:26 -0000
+Message-Id: <175160210606.3997557.16213282477619098702@gitolite.kernel.org>
+
+--===============1565386324107901790==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/work.debugfs
-    old: 359cd741d720ce7942c68f95207e2d2351cd6977
-    new: 72736df658c08708421cd25262fdf3f104eef668
-    log: |
-         51d26db0fd00fbd501f9271550667bab6c5fb107 vmscan: don't bother with debugfs_real_fops()
-         3d9313c8afee6ea4738ddaa882fc4a7573e527cf netronome: don't bother with debugfs_real_fops()
-         7156b9ecc63383273508c2898ae041fa74e7eee7 debugfs: split short and full proxy wrappers, kill debugfs_real_fops()
-         02a8a59cd064952a7f5fe921354f0e74d91f5f0f fix tt_command_write()
-         d241ea092ad031e64406b4c11493e7138f44396d debugfs_get_aux(): allow storing non-const void *
-         c1c4e3982db44f3144665258e0b99eef1f0d5f98 blk-mq-debugfs: use debugfs_get_aux()
-         72736df658c08708421cd25262fdf3f104eef668 lpfc: don't use file->f_path.dentry for comparisons
-         
+  - ref: refs/heads/aspeed/dt
+    old: 5ecbe5ed12179f1402685025bc3e4316ccfecf5e
+    new: 1c15e359ba53b297ba5fd72bbf626ede72c3de3e
+    log: revlist-5ecbe5ed1217-1c15e359ba53.txt
+
+--===============1565386324107901790==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ecbe5ed1217-1c15e359ba53.txt
+
+4770567623929e6f34367d94c2d25b7c5f5cb177 ARM: dts: aspeed: catalina: Enable MCTP for frontend NIC management
+cffc64d37db365c7eec6371ead20336da01455e9 ARM: dts: aspeed: harma: add E1.S power monitor
+32885aa268e1c2f2ad81ab129b10664af12ee532 ARM: dts: aspeed: harma: add fan board I/O expander
+de5cdbff1e682b3608b76e0258426d1b4d2ab4d2 ARM: dts: aspeed: harma: add ADC128D818 for voltage monitoring
+ce5b2797b4fada53f669a6d474b2cbceb5c883a1 ARM: dts: aspeed: Harma: revise gpio bride pin for battery
+2236141ed3d6f31f53147c26208dafef6051ae43 ARM: dts: aspeed: harma: add mmc health
+f0d03c44ee61d045065762e124db61a4326e5a6e ARM: dts: aspeed: lanyang: Fix 'lable' typo in LED nodes
+ab5e4c9777361c45160be2ec1a129e0c35c5363d ARM: dts: aspeed: bletchley: enable USB PD negotiation
+462af36699b62ae1e765f7c5533cebb1def4a534 dt-bindings: arm: aspeed: add Meta Santabarbara board
+9237e0a207ac61b77eec84e917e63683959ef009 ARM: dts: aspeed: santabarbara: Add Meta Santabarbara BMC
+1c15e359ba53b297ba5fd72bbf626ede72c3de3e ARM: dts: aspeed: yosemite4: add gpio name for uart mux sel
+
+--===============1565386324107901790==--
