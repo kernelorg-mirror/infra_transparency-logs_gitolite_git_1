@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 04 Jul 2025 07:30:21 -0000
-Message-Id: <175161422157.4167570.15028327130814640944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 04 Jul 2025 07:43:07 -0000
+Message-Id: <175161498751.4177003.3433846888259470158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/testing
-    old: 94f39804d891cffe4ce17737d295f3b195bc7299
-    new: 95cfe23285a6de17f11715378c93e6aee6d0ca75
+  - ref: refs/heads/vfs.fixes
+    old: df43ee1b368c791b7042504d2aa90893569b9034
+    new: 1e7ab6f67824343ee3e96f100f0937c393749a8a
     log: |
-         95cfe23285a6de17f11715378c93e6aee6d0ca75 xfrm: Skip redundant statistics update for crypto offload
+         1e7ab6f67824343ee3e96f100f0937c393749a8a anon_inode: rework assertions
          
