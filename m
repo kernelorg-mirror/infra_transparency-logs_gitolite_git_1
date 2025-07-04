@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 04 Jul 2025 18:26:54 -0000
-Message-Id: <175165361467.576450.2737736209204003314@gitolite.kernel.org>
+Date: Fri, 04 Jul 2025 18:28:03 -0000
+Message-Id: <175165368399.577145.7985819919740566112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileuxcGte
+  - ref: refs/heads/20250704_sakari_ailus_treewide_remove_redundant_pm_runtime_mark_last_busy_calls
     old: 0000000000000000000000000000000000000000
-    new: 571defe0dff3f1e4180bd0db79283d3d5bf74a71
+    new: 2bd9648d5a8d329ca734ca2c273a80934867471e
