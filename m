@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 04 Jul 2025 21:41:18 -0000
-Message-Id: <175166527835.735056.10359077772481624936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 04 Jul 2025 21:42:00 -0000
+Message-Id: <175166532042.735734.18168055970046338249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: b42dcb29ae6634c8b2851ca52f52abd5f583a9cc
-    new: f6325d63f858ff39fc9b57e348f33e3084864146
-    log: |
-         571defe0dff3f1e4180bd0db79283d3d5bf74a71 ASoC: codec: rockchip_sai: Remove including of_gpio.h
-         f6325d63f858ff39fc9b57e348f33e3084864146 Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
-         
+  - ref: refs/heads/20250704_sakari_ailus_treewide_remove_redundant_pm_runtime_mark_last_busy_calls
+    old: 2bd9648d5a8d329ca734ca2c273a80934867471e
+    new: 0000000000000000000000000000000000000000
