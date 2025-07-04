@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 04 Jul 2025 07:52:39 -0000
-Message-Id: <175161555969.4185860.2866495948636287654@gitolite.kernel.org>
+Date: Fri, 04 Jul 2025 07:56:44 -0000
+Message-Id: <175161580462.4190064.18407602507044206729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 88475b9d8759f14d80caddd10067d5a19c6dec36
+  - ref: refs/heads/dev
+    old: d8acc417c113b5112280f5bd9f0ca445e5337408
     new: cbe9664e0760243d959068651e9c20ddd684146a
     log: |
          082a18936c6abe701ffb68d53ab4abf2a1d2c651 erofs-utils: lib: simplify tail inline pcluster handling
