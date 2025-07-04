@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 04 Jul 2025 15:56:13 -0000
-Message-Id: <175164457360.429260.8136574789854501719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 04 Jul 2025 16:01:26 -0000
+Message-Id: <175164488608.433654.10121017839807738274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/for-next
-    old: b77163d3020c7f4e4bb80a20b773e77a4339a262
-    new: b42dcb29ae6634c8b2851ca52f52abd5f583a9cc
+  - ref: refs/heads/controller/qcom
+    old: 9e09ecef33e6f1019be921732cc2d7bd945202d8
+    new: f2726395a096802e62a7cd178710e7b5edafd826
     log: |
-         bc163baef57002c08b3afe64cdd2f55f55a765eb ASoC: Use of_reserved_mem_region_to_resource() for "memory-region"
-         b42dcb29ae6634c8b2851ca52f52abd5f583a9cc Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
+         f2726395a096802e62a7cd178710e7b5edafd826 PCI: qcom: Add support for parsing the new Root Port binding
          
