@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0302580356298581943=="
+Content-Type: multipart/mixed; boundary="===============7105011493625561702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 04 Jul 2025 14:34:34 -0000
-Message-Id: <175163967432.355079.11186465266803932916@gitolite.kernel.org>
+Date: Fri, 04 Jul 2025 14:35:05 -0000
+Message-Id: <175163970577.357381.118859172840678168@gitolite.kernel.org>
 
---===============0302580356298581943==
+--===============7105011493625561702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/tip/urgent
-    old: 41e4c617f732effc865ab82287f31e551a3fb0d8
-    new: a26f93a17fcd2853291d9148572ac5fbd54b027b
-    log: revlist-41e4c617f732-a26f93a17fcd.txt
+  - ref: refs/heads/master
+    old: a4585558a904c253ba8b71a016718e971e8b0d1c
+    new: 3a9e5d64afcfeb0c24d112170cc8c972949417ed
+    log: revlist-a4585558a904-3a9e5d64afcf.txt
 
---===============0302580356298581943==
+--===============7105011493625561702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41e4c617f732-a26f93a17fcd.txt
+Content-Disposition: attachment; filename=revlist-a4585558a904-3a9e5d64afcf.txt
 
 b0f77d301eb2b4e1fc816f33ade8519ae7f894f4 xfs: check for shutdown before going to sleep in xfs_select_zone
 a593c89ac5a417605b165cbc9768b3663ab4d8ad xfs: remove NULL pointer checks in xfs_mru_cache_insert
@@ -34,6 +34,11 @@ df3b7e2b56d271f93e2d1f395c13235a1a277639 xfs: use xfs_readonly_buftarg in xfs_re
 db44d088a5ab030b741a3adf2e7b181a8a6dcfbe xfs: actually use the xfs_growfs_check_rtgeom tracepoint
 c3b214719a87735d4f67333a8ef3c0e31a34837c scsi: qla2xxx: Fix DMA mapping test in qla24xx_get_port_database()
 00f452a1b084efbe8dcb60a29860527944a002a1 scsi: qla4xxx: Fix missing DMA mapping error in qla4xxx_alloc_pdu()
+3f9ebeba9878679bb43ee2db7d50a4691f55e3a5 rust: sync: Mark CondVar::notify_*() inline
+11867144ff81ab98f4b11c99716c3e8b714b8755 rust: sync: Mark PollCondVar::drop() inline
+0a41f5af19391ce55cae1f0d7a562e8694bf1fd5 rust: task: Mark Task methods inline
+0aa2b78ce5a9eac8f3332192ea77755d63a831cd rust: Introduce file_from_location()
+7e611710acf966df1e14bcf4e067385e38e549a1 rust: task: Add Rust version of might_sleep()
 8889676cd62161896f1d861ce294adc29c4f2cb5 scsi: sd: Fix VPD page 0xb7 length check
 844c6a160e69cc6d1da4b666f8672f6fc5f4f862 scsi: RDMA/srp: Don't set a max_segment_size when virt_boundary_mask is set
 4937e604ca24c41cae3296d069c871c2f3f519c8 scsi: core: Enforce unlimited max_segment_size when virt_boundary_mask is set
@@ -81,6 +86,7 @@ aaf2b2480375099c022a82023e1cd772bf1c6a5d enic: fix incorrect MTU comparison in e
 5186ff7e1d0e26aaef998ba18b31c79c28d1441f net: libwx: fix the incorrect display of the queue number
 c2a2ff6b4db55647575260bf2227b0e09d46addb net: ipv4: fix stat increase when udp early demux drops the packet
 bd475eeaaf3cad1b183418fff7b19c9b1e3d1c4f Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+d398a68e8bcf430e231cccfbaa27cb25a7a6f224 Merge tag 'rust-sched.2025.06.24' of git://git.kernel.org/pub/scm/linux/kernel/git/boqun/linux into sched/core
 ba677dbe77af5ffe6204e0f3f547f3ba059c6302 perf: Revert to requiring CAP_SYS_ADMIN for uprobes
 315dbdd7cdf6aa533829774caaf4d25f1fd20e73 virtio-net: ensure the received length does not exceed allocated size
 4be2193b3393dca33504793fe7586fed547abb5d virtio-net: remove redundant truesize check with PAGE_SIZE
@@ -97,6 +103,21 @@ e37546ad1f9b2c777d3a21d7e50ce265ee3dece8 net: wangxun: revert the adjustment of 
 b2f8ef030ef77130844c4b6f1eee28553163d5a7 Merge branch 'fix-irq-vectors'
 f030713e5abf67d0a88864c8855f809c763af954 dt-bindings: net: sophgo,sg2044-dwmac: Drop status from the example
 223e2288f4b8c262a864e2c03964ffac91744cd5 vsock/vmci: Clear the vmci transport packet properly when initializing it
+5b605dbee07dda8fd538af1f07cbf1baf0a49cbc timekeeping: Provide ktime_get_clock_ts64()
+a6d9638d4da9740c189c141510584161ffd84307 Merge tag 'ktime-get-clock-ts64-for-ptp' into timers/ptp
+8959338617a85e35820e3a7fa21801cf55b068bf timekeeping: Remove the temporary CLOCK_AUX workaround
+858e65af91351f8842bbe2c5ae6f100778783f42 irqdomain: Add device pointer to irq_domain_info and msi_domain_info
+91650ca5efcf4be00eae5620ad571ce4cdf66ab5 irqchip/bcm2712-mip: Switch to msi_create_parent_irq_domain()
+59422904dd9855f94d00dc66598bef1bd2663894 irqchip/riscv-imsic: Convert to msi_create_parent_irq_domain() helper
+c7cc7b122a4cf1235b53e5bb5f441ce95d8b0cd2 irqchip/imx-mu-msi: Convert to msi_create_parent_irq_domain() helper
+7f91d608cc43ea7f417caf097a87d2619a0e2747 irqchip/loongson-pch-msi.c: Switch to msi_create_parent_irq_domain()
+7c0dbd80de036d400525b8df862be665d321d0fc irqchip/sg2042-msi: Switch to msi_create_parent_irq_domain()
+6e44ac411255e0a48674862b53f2b1b47148c209 irqchip/alpine-msi: Clean up whitespace style
+71476f915f92cd9fb209f8729d700703ec3c36bc irqchip/alpine-msi: Convert to lock guards
+f7c2dd9f4c2d93b8dfb30dcc91b7e241fc1f5811 irqchip/alpine-msi: Convert to __free
+7a91ad7ebd618d89c0966f19fe453701b1e17494 irqchip/alpine-msi: Switch to msi_create_parent_irq_domain()
+bafb2901317ff53c0add8b40e96267ad2d2e8ffb irqchip/armada-370-xp: Switch to msi_create_parent_irq_domain()
+94b59d5f567a148a3eb25265a4e60f8605ff8423 irqchip/ls-scfg-msi: Switch to use msi_create_parent_irq_domain()
 d32e907d15f7257f69d38b4c829f87a79ecf8b7f Merge tag 'xfs-fixes-6.16-rc5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 17bbde2e1716e2ee4b997d476b48ae85c5a47671 Merge tag 'net-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 025c1970da725b07701464990f747fe1c2bd797f Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -109,5 +130,23 @@ b3ad220fc39a1a82821242bbfea2c9764be33471 Merge x86/urgent into tip/urgent
 b5d4fae36702ea726719586995b512492b5e0162 Merge locking/urgent into tip/urgent
 63834b5995a01585f4a8dea177378a62b1a1ce73 Merge perf/urgent into tip/urgent
 a26f93a17fcd2853291d9148572ac5fbd54b027b Merge sched/urgent into tip/urgent
+bc1d35661da44c6f1f0e85ea6f57347c72b5bd2c Merge irq/core into tip/master
+d177e1df938ea399dfffbffe91d3d9b983b0d8d2 Merge timers/core into tip/master
+722bfc3db9a92f5af67528e678eb7b0460dd21e5 Merge x86/kconfig into tip/master
+8f1923e5eacd490bcd1076db1ae583a1b8ff27c3 Merge irq/msi into tip/master
+aefaf205ca088289274c448198bc52eaebf91a94 Merge x86/boot into tip/master
+a69598e0def3cb92fd698c379f21474049a54e53 Merge x86/cpu into tip/master
+09d7fc317bcd988cf94453a5adec7bc80ea982fd Merge x86/fpu into tip/master
+ce8d749e7206b3d199a5ac1b52cd685c16ae837f Merge x86/bugs into tip/master
+f8b8626b49f05961ac97750bd14ab20e541435ad Merge x86/sev into tip/master
+37a3d717b19e1e70eaf72406b01a23c7319c1b30 Merge locking/core into tip/master
+834bd9356c2f1a60692f1b1393a4991d5fe90d36 Merge core/entry into tip/master
+337e6985f883bd375d1169675fa2feb4ade41035 Merge timers/cleanups into tip/master
+13aaaf9b910e2c58e23d97be845d30b0a949bf27 Merge timers/vdso into tip/master
+96145a05697a4f0f4b7d05562cc49efa2eaf128f Merge smp/core into tip/master
+6d92662ad4666c31f3ca2474f8c9c8a3560e6d0f Merge core/bugs into tip/master
+84b1489909aaee5018fdd435e545746d1abf99d9 Merge sched/core into tip/master
+24672182dbab71cd5f7d5dff399e5858fc1d03a8 Merge timers/ptp into tip/master
+3a9e5d64afcfeb0c24d112170cc8c972949417ed Merge irq/drivers into tip/master
 
---===============0302580356298581943==--
+--===============7105011493625561702==--
