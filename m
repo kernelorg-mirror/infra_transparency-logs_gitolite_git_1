@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6331347416354131469=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 04 Jul 2025 09:24:37 -0000
-Message-Id: <175162107779.70998.7283975746113082904@gitolite.kernel.org>
-
---===============6331347416354131469==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 04 Jul 2025 09:27:07 -0000
+Message-Id: <175162122768.74009.12704027404010301296@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 9ad2f711981874b90cc52f5688cbf03d926fe5c6
-    new: 4e20ccb7f544b6f578276c74bbb3c95d6a6bc9aa
+  - ref: refs/heads/stm32-next
+    old: ebf53abe62b0eddeecfee9cc1421f63c665de651
+    new: fadfd41a49ce563ab3ed05bd512cb78c26823e4b
     log: |
-         4e20ccb7f544b6f578276c74bbb3c95d6a6bc9aa 6.15-stable patches
+         ab2e0f4f6cbfa8220e75a29cf80abbd8eeec7879 ARM: dts: stm32: fullfill diversity with OPP for STM32M15xF SOCs
+         8ac2fba023cfb2f0ead73e527b5920369db625eb ARM: dts: stm32: use 'typec' generic name for stusb1600 on stm32mp15xx-dkx
+         9bc35edb9ac76b23285e7ceafa1576ce53da9b6c dt-bindings: regulator: Add STM32MP15 SCMI regulator identifiers
+         bcd6cc9ee13a5cb2c323b45f6b177e4296f9f164 ARM: dts: stm32: use internal regulators bindings for MP15 scmi variants
+         d1e88874c0f63cc923fc215fb95e5fd55a507d58 ARM: dts: stm32: optee async notif interrupt for MP15 scmi variants
+         ef21a063d123af0e5773ee60695fb2218a25ee67 dt-bindings: arm: stm32: add STM32MP157F-DK2 board compatible
+         fadfd41a49ce563ab3ed05bd512cb78c26823e4b ARM: dts: stm32: add stm32mp157f-dk2 board support
          
-
---===============6331347416354131469==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751621115 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1751621073-ab45c08c8aa8050b7cc019bfd0822b95af4a9656
-
-9ad2f711981874b90cc52f5688cbf03d926fe5c6 4e20ccb7f544b6f578276c74bbb3c95d6a6bc9aa refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhnnfwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gmcQAJeIfWSFk61Dvk1Y/mQg
-7XIahYFUyMxpQEIE1VNmTVvOdGl0gfw9bnHx8nwanw+0pNMGiyIt5bCgo9WwNuiK
-/10UslOUp/bk5y975U5mOxYCooKfLDr/Kv9/V0iLY1SfgGGtEZCM9sluBq3faY+C
-l+7FPm0iTDQSKtugfe0wgiCYfoLu7Yptn/szcB5A5OuvnlyN4da2Z8Aj8xF8W3+c
-Qba/quuJlvhZ2hiH52Bta/KgdHC/IIWY6pByBqoVvNBFUewjhXdjRVswo+Yb+kTX
-qd4UehSmHP8KwaBtgV+VLMI6F1qBqQhrPx4/EYTRC24FmEn0h1R5GS9L7zkvRUTG
-6eIOv6puv26qOAWW90KqfiIgh6lU4rJJrgxWGhVa6nvXVTQYZ6WxzeBWNNMhvVwJ
-K4NaRSrmb9AC06T2oM+lAP1nnu9L6kLdKmlb7UapoBgWgcg+s4+Tn5f7ddGFlhZ5
-7AxdvdmR9Ymmau0PCCdP9nLH6A2SD2Kpbbw5zUe951dLqVeCT0tX4CIvIHzVX51h
-ed1EDMWASkZM5DiQ9cGGbosAZGAgFIjVxgoFxWPXNR/W653vR9dSJYkUcRLD5Cqk
-b7OuUtGWZ1S7mxP25mcZZ0YfVjOrwu7ZYpRPUoQJcoO8yb2Jvr1Ype63h0BwIZTe
-cHKKUbc/LwsEqxNIwZpwmd/m
-=IckW
------END PGP SIGNATURE-----
-
---===============6331347416354131469==--
