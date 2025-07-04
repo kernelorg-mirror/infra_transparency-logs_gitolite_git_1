@@ -1,57 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4909081075078803751=="
+Content-Type: multipart/mixed; boundary="===============6910767401838020710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 04 Jul 2025 10:58:59 -0000
-Message-Id: <175162673935.170026.9072098324728206319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Fri, 04 Jul 2025 11:03:50 -0000
+Message-Id: <175162703057.174513.7108938841024344608@gitolite.kernel.org>
 
---===============4909081075078803751==
+--===============6910767401838020710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/master
-    old: 7add34629af5da4227c8b5046d337eba8e559e77
-    new: f0f21dd6847a7909ca9cd102b5d89cc849441998
-    log: |
-         5b18de5ae33493aac3294ea007ba9dc618cc94df strip newly created mbox files
-         f0f21dd6847a7909ca9cd102b5d89cc849441998 first rough cut of 6.15.4 review from greg added
-         
+  - ref: refs/heads/x86/lass
+    old: b736659dfd706a887b18b8482e38fa75a47290bc
+    new: c2088a56388496f5478ec4b6e56dad3db61cfc3b
+    log: revlist-b736659dfd70-c2088a563884.txt
 
---===============4909081075078803751==
+--===============6910767401838020710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b736659dfd70-c2088a563884.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751626775 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1751626736-9c9dfcc4f0b0ae66695b5a1c2a51ad83f90347d1
+c33a3125a39a9524b0a40ccbf5f8ae77f95fabdc x86/alternatives: Disable LASS when patching kernel alternatives
+6d9e526a1112e0bd6c5ea01a3c600e48e52a7c54 x86/cpu: Set LASS CR4 bit as pinning sensitive
+988e2513697407a44e3f20fa78f77797837a82fa x86/cpu: Defer CR pinning setup until after EFI initialization
+b028122795566c179636d99d38f15094a7c6ee62 efi: Disable LASS around set_virtual_address_map() EFI call
+21ec83c15aef74b857c1a5f74a80c05425ec16f4 x86/vsyscall: Do not require X86_PF_INSTR to emulate vsyscall
+686bc0c0bd1ffe4746c5cbb9d50953f9529a32c0 x86/vsyscall: Reorganize the #PF emulation code
+e864cf38661630bfc680eeee0b716978c21f2f1a x86/traps: Consolidate user fixups in exc_general_protection()
+3bf4b5a6da4eb0e575c23dd55659c37b069706ec x86/vsyscall: Add vsyscall emulation for #GP
+1cf4de7e73f88835d2810d36607eea9b4bbcb7e6 x86/vsyscall: Disable LASS if vsyscall mode is set to EMULATE
+4fe42b6c9db5220b1a7a2055681c24337f746e0b x86/traps: Communicate a LASS violation in #GP message
+c309e880066a9aef4de91ba6e9fadbb2c55f9646 x86/traps: Generalize #GP address decode and hint code
+0c4f5d2fb2ca3e71885418a938121926987dfa59 x86/traps: Handle LASS thrown #SS
+c20f5c96d67bbfe13e96fe217fcee75f3aed8e10 x86/cpu: Enable LASS during CPU initialization
+4a04f6fbb141846e34de029d9effd0bc7ecb3e99 x86/cpu: Make LAM depend on LASS
+c2088a56388496f5478ec4b6e56dad3db61cfc3b x86: Re-enable Linear Address Masking
 
-7add34629af5da4227c8b5046d337eba8e559e77 f0f21dd6847a7909ca9cd102b5d89cc849441998 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhntBcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VYIQAJM+aO4IHmZBvjRhw0OD
-2+z9wmsJyGgtx60UO/K6s5io8iIKLeN2dsYxjSUXoAJvLM97ZSJyI4S2keW7EAop
-kCWq9BtL3zAf4u0BIqPgEyBUrrGh6rN98CaOdl5EAjYQkIPTkbGreLkq7wWtZPwN
-wUgQgHy92qYSFbFrxKpDI9oqui0T9g/b6RCaG6B0svnPJtZ9Xp7ic2oK4yEcF/pf
-6IRtyWDFYaiej2T5wZ2i3gKTeWjrW1ZPZPexQmsJuCzUkF8uqpMIrr8/+lpGiN68
-PYZtP80vVoZ++k3TbXnG+MMSWoNYkI79P/Vb67f1FoaUoBqdGKxBEcS+JS9cX+tz
-BsPVfZDlf4XWRfCyKqZnrrJt1Nbf4TQyq/VwcNr1+dUt/KKxRaGfIVcSKh0+K8EI
-R6ZCAgVlU3/kMxEclKf6eFNX9+RjjjFBc51E3BTgGS1LcU0FR2XVVDUyr1NvSvPL
-nhsw6krMNg67kZhTmcXBH0aPHSE35vdNUcZE0kn43KkUeYYYFt8CuP1OWdF+IqDf
-W28lctlYFvAN8eG2q/xl+zNhflxBGKnY5g8Dx5iM2I7flb4tL7aAixFhvMPfHgnN
-ZRUSTG4CpECtE8WOOfabhdbFWEzk18NPsqb6jdQr1pQwImQo5JVP53YDqoTApwjm
-Ud9NdHd1BpQ0WOYXyulel7el
-=COFI
------END PGP SIGNATURE-----
-
---===============4909081075078803751==--
+--===============6910767401838020710==--
