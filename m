@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Sat, 05 Jul 2025 19:38:51 -0000
-Message-Id: <175174433148.1802074.16805395418665307944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 05 Jul 2025 19:39:12 -0000
+Message-Id: <175174435210.1802508.16082592508959613536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/next-fixes
-    old: 23f016e9b6603f6255dbdc1dc9ac423c29006188
-    new: 91f450d46ac3fabfc174f6dafecba5be752ae430
+  - ref: refs/heads/next
+    old: ecaebed807a426f9ebc15cb937deaefba73228dc
+    new: 8d4d052b2fe8fd8c9f71b9149d65f4152823672e
     log: |
-         91f450d46ac3fabfc174f6dafecba5be752ae430 Merge branch 'misc-6.16' into next-fixes
+         e8c97abbfac5346219904e99ea98bf5bf1e12573 _damo_records: add sample_interval_us to snapshot
+         afbc89a1bf91a29799686f1f3c872d94ffc44083 _damo_records: support snapshot sample intervals on kvpairs
+         ec0c7661eedd5e97e97ce139800feabb23af8f1a _damo_records: support multiple tracepoints on RecordingHandle
+         75b778e6716c17e0ea64b68dc5bedf524111c494 damo_record: rename tracepoint_from_args() to tracepoints_from_args()
+         155b31ed12f61912729897b1c38fed70084337ce _damo_records: exclude unsupported tracepoints when recording
+         97a195781aa1deced322dfea7f1ae62a5ceb112b damo_record: record auto-tuned interval
+         75b2e353451fa34c5fcb03db807653b86b1ac0e5 _damo_records: parse damon_monitor_intervals_tune trace
+         1f1f9f12f67eab1f99c346c183382a23c7ac1c48 damo_report_access: use captured tuned interval from infer_aggr_time_us()
+         8d4d052b2fe8fd8c9f71b9149d65f4152823672e TODO,release_note: update for damon_monitor_intervals_tune() support
          
