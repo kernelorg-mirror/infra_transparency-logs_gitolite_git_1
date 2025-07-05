@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 05 Jul 2025 22:17:11 -0000
-Message-Id: <175175383106.1931373.16006156881773106086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 05 Jul 2025 23:15:54 -0000
+Message-Id: <175175735493.1979442.12622211863213154947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: d343dea94b3c22f60c00e82062c20c9637551abd
-    new: 43c2770bbcfbbc470d555194088aa9414181c870
+    old: 05df91921da664ebba2752a7e45b63e3dddb85de
+    new: 1f988d0788f50d8464f957e793fab356e2937369
     log: |
-         b17eeb2592ed1c9d28c5350e925aa9d4ac69887c patches/next: move damon_callback deprecation to top of te queue
-         43c2770bbcfbbc470d555194088aa9414181c870 patches/next: modules fixups
+         c80f2b047d5cc42fbd2dff9d1942d4ba7545100f HID: appletb-kbd: fix memory corruption of input_handler_list
+         50f9ff52c078d66053bba791ded6fafc64055524 HID: elecom: add support for ELECOM HUGE 019B variant
+         194808a1ea391e35d364d6c9406e2eccb6174525 HID: Fix debug name for BTN_GEAR_DOWN, BTN_GEAR_UP, BTN_WHEEL
+         38224c472a038fa9ccd4085511dd9f3d6119dbf9 HID: appletb-kbd: fix slab use-after-free bug in appletb_kbd_probe
+         1f988d0788f50d8464f957e793fab356e2937369 Merge tag 'hid-for-linus-2025070502' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
          
