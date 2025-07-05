@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5805994307676844805=="
+Content-Type: multipart/mixed; boundary="===============7197435696847765534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 05 Jul 2025 05:54:13 -0000
-Message-Id: <175169485392.1138891.13770235107493733085@gitolite.kernel.org>
+Date: Sat, 05 Jul 2025 05:54:21 -0000
+Message-Id: <175169486198.1139182.1342053646831075423@gitolite.kernel.org>
 
---===============5805994307676844805==
+--===============7197435696847765534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 9bd9c8026341f75f25c53104eb7e656e357ca1a2
-    new: 3c2bd251d2039ce2778c35ced5ef47b3a379f5df
-    log: revlist-9bd9c8026341-3c2bd251d203.txt
+  - ref: refs/heads/usb-next
+    old: cf16f408364efd8a68f39011a3b073c83a03612d
+    new: 81c3b7256f9ec3c9f7659e4a2aec8d8ead0d4c3b
+    log: revlist-cf16f408364e-81c3b7256f9e.txt
 
---===============5805994307676844805==
+--===============7197435696847765534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751694891 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751694897 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1751694851-ac505e569688117ee492455671ca2f7e31ec7e4b
+nonce 1751694857-777e757a332dc84c38996880fca4ddbe9ef2e4c5
 
-9bd9c8026341f75f25c53104eb7e656e357ca1a2 3c2bd251d2039ce2778c35ced5ef47b3a379f5df refs/heads/usb-linus
+cf16f408364efd8a68f39011a3b073c83a03612d 81c3b7256f9ec3c9f7659e4a2aec8d8ead0d4c3b refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhovisbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ok8P/REC2OFWE2dEru0wdx4e
-zbU9lwCguOaCJa7M80E/Luck+RMNnoDaISDfQ5zZ7cvYPKencsszURGy2SElw+3V
-+QP4ilX4t6J4HsYF8N7l9myTBw33/kMTK15W8KmBR5PsBq+XurGULN2IPLJThJYZ
-fuIhKwbsx0zqKkHNlnBGjSjC3zARYOUqYaJEO05GvfU1mG6tyoIUZmTT1yUsmTq5
-PIhsznfeAACyzNpvKqqkWx8Yxgwlc3soWxpSa9ngKNA/sjQZSoTSdq1SNgCOld1Y
-JGBDVW8dlKSI8mjiBtlTLGuuAq/PVyoL84J956XjqvorCKGOs3sz7lW3HMzMgSuw
-r6iKmnkJDodYfDZfHiLRDScUlOzUVgTH6KpZoxNS0XP28W+o2tEM7lCPD4aViFpK
-NC1et97dO0GYgfYtcFzRGrRc6A3w7v+5/Ve6r9Kahv0pypCAaGsDe05E1TPhgEeB
-6g3eZQ6z9fw7Ezoa1C5xx5Shs84kdbfSDd5ao59SxRg56KdrWmAPkOgIykwZmXff
-UMNCx8HQ8vYrk75t++ma3kt7uQVRnbFl1EKLhzF5Aukn1cYLk+ezfxpNvtJyiA7h
-iAnbcz+AhBGpG9YnOSVl6D9aRVtU0minwiBiWLi6MfAvggKjGM6NBscmqskdyQ2f
-J22GCKD22t62Q6pohk+XKKKl
-=iCGt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhovjEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2AYQAIsjJn0fanXOfqrxEN6t
+KdNDVR0wfmqrMO+nmgz4lPCKUfWnT6wa2vkyxUNsbyBbIWp0XP3ScdvT48oTKcyb
+PqjV+Oh/Af5865IQDx7W997zBi+xTDugDyXTLbmLbrDpXGOkzzcquV9lW3BAsPvZ
+17C4qg5Fvx/+CB/+/sNwdh2UbAv2wwtPFu/X/5psJl+7cc3+QlTyF0G+uelvsJzW
+AUt4gThQPPEEzNwrPMceH6fGqb1UH/F2Eoc18wWpfidH/LPnpiaVEbIjs26alVA1
+FuQ+D3qte4KdLdv87t8OUwHsNEtZLsn7GfByRbDZnqw5zLYgaH9s1z7IaWsd8Hxf
+B9KyQ1l2RHWx9Y7/U96+SSlcUhL7nz/z7R8HQrXvZw13BXbns5CQJ/x+3Xn3jnNx
+qJXEWr0MHB+KY+5k6wuxPDdWQ1CgizYs+sjC4kP2h9o0NPNyt9NLL5wxwRdBOm+y
+ddf83Kx19ONqxRFIC+ZODgN+qya/rZDD+0eHfJS2U2jehzYvbLS9ceaiWKF/tx5o
+iQqkB3PHhpltl+72Wr+i2vJgzMYnvYKYqoREO6YllLGZ8Tzqin5cJGU4eabY7C3s
+CsIkYKNaCG21qASs/u9gHsQj//9yQo0lWPO5L4AtGyY3g32U9t2Uc/sjV+v5CxQJ
+YlSUmNh+LBNmhBQ7eAbM7N0o
+=EE6A
 -----END PGP SIGNATURE-----
 
---===============5805994307676844805==
+--===============7197435696847765534==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9bd9c8026341-3c2bd251d203.txt
+Content-Disposition: attachment; filename=revlist-cf16f408364e-81c3b7256f9e.txt
 
 4db7384ce55c4d7bfb9876fabd8d8778b2ff90ff btrfs: don't drop a reference if btrfs_check_write_meta_pointer() fails
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
@@ -453,6 +453,16 @@ bec8ff17ff6528bec9f2089dcef9e41a63b71dea Merge tag 'drm-intel-fixes-2025-06-18' 
 56a14984505b11674df5e01407748236bc4bc8f8 KVM: arm64: selftests: Close the GIC FD in arch_timer_edge_cases
 d9d79e4f7dc935fea96dbf3de524404c08d08b03 mfd: Fix building without CONFIG_OF
 5bd1bafd4474ee26f504b41aba11f3e2a1175b88 eth: fbnic: avoid double free when failing to DMA-map FW msg
+7e2c421ef88e9da9c39e01496b7f5b0b354b42bc usb: cdnsp: do not disable slot for disabled slot
+630a1dec3b0eba2a695b9063f1c205d585cbfec9 usb: dwc3: Abort suspend on soft disconnect failure
+cee4392a57e14a799fbdee193bc4c0de65b29521 Logitech C-270 even more broken
+8f5b7e2bec1c36578fdaa74a6951833541103e27 usb: hub: fix detection of high tier USB3 devices behind suspended hubs
+3b18405763c1ebb1efc15feef5563c9cdb2cc3a7 usb: acpi: fix device link removal
+31a6afbe86e8e9deba9ab53876ec49eafc7fd901 usb: chipidea: udc: disconnect/reconnect from host when do suspend/resume
+f6c7bc4a6823a0a959f40866a1efe99bd03c2c5b Revert "usb: gadget: u_serial: Add null pointer check in gs_start_io"
+c529c3730bd09115684644e26bf01ecbd7e2c2c9 usb: gadget: u_serial: Fix race condition in TTY wakeup
+3eff494f6e17abf932699483f133a708ac0355dc usb: xhci: Skip xhci_reset in xhci_resume if xhci is being removed
+7aed15379db9c6ec67999cdaf5c443b7be06ea73 Revert "usb: xhci: Implement xhci_handshake_check_state() helper"
 f5de469990f19569627ea0dd56536ff5a13beaa3 mtk-sd: Prevent memory corruption from DMA map failure
 ff78538e07fa284ce08cbbcb0730daa91ed16722 vt: add missing notification when switching back to text mode
 747b52413effe958ed57cf6d7bef80c34e1185f3 vt: fix kernel-doc warnings in ucs_get_fallback()
@@ -680,6 +690,10 @@ f23c52aafb1675ab1d1f46914556d8e29cbbf7b3 serial: imx: Restore original RXTL for 
 31135cc99c40247bec924dcdcd74a58e866c52d8 drm/amdgpu/sdma7: add ucode version checks for userq support
 66abb996999de0d440a02583a6e70c2c24deab45 drm/amd/display: Fix AMDGPU_MAX_BL_LEVEL value
 6847b3b6e84ef37451c074e6a8db3fbd250c8dbf drm/amd/display: Add sanity checks for drm_edid_raw()
+bec15191d52300defa282e3fd83820f69e447116 usb: typec: tcpm: apply vbus before data bringup in tcpm_src_attach
+2831a81077f5162f104ba5a97a7d886eb371c21c usb: cdnsp: Fix issue with CV Bad Descriptor test
+af4db5a35a4ef7a68046883bfd12468007db38f1 usb: typec: altmodes/displayport: do not index invalid pin_assignments
+099cf1fbb8afc3771f408109f62bdec66f85160e usb: typec: displayport: Fix potential deadlock
 6c038b58a2dc5a008c7e7a1297f5aaa4deaaaa7e ASoC: SOF: Intel: hda: Use devm_kstrdup() to avoid memleak.
 b07f349d1864abe29436f45e3047da2bdd476462 spi: spi-cadence-quadspi: Fix pm runtime unbalance
 62207293479e6c03ef498a70f2914c51f4d31d2c drm/xe/display: Add check for alloc_ordered_workqueue()
@@ -799,6 +813,7 @@ af2b588abe006bd55ddd358c4c3b87523349c475 drm/xe: Process deferred GGTT node remo
 969127bf0783a4ac0c8a27e633a9e8ea1738583f ublk: sanity check add_dev input for underflow
 5990b776fb79a444f91431d35d24b0bdc622984b Merge tag 'nvme-6.16-2025-06-26' of git://git.infradead.org/nvme into block-6.16
 c007062188d8e402c294117db53a24b2bed2b83f block: fix false warning in bdev_count_inflight_rw()
+a49e1e2e785fb3621f2d748581881b23a364998a usb: hub: Fix flushing and scheduling of delayed work that tunes runtime pm
 711741f94ac3cf9f4e3aa73aa171e76d188c0819 smb: client: fix potential deadlock when reconnecting channels
 43e7e284fc77b710d899569360ea46fa3374ae22 cifs: Fix the smbd_response slab to allow usercopy
 263debecb4aa7cec0a86487e6f409814f6194a21 cifs: Fix reading into an ITER_FOLIOQ from the smbdirect code
@@ -869,6 +884,11 @@ fa33adcaf8af147f4238c84d76a316a47e43e091 Merge tag 'pci-v6.16-fixes-2' of git://
 867b9987a30b7f68a6e9e89d3670730692222a4a Merge tag 'riscv-for-linus-5.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 0fd39af24e37a6866c479ca385301845f6029787 Merge tag 'mm-hotfixes-stable-2025-06-27-16-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 aaf724ed69264719550ec4f194d3ab17b886af9a Merge tag 'v6.16-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+80e08394377559ed5a2ccadd861e62d24b826911 usb: dwc3: gadget: Fix TRB reclaim logic for short transfers and ZLPs
+cbc889ab0122366f6cdbe3c28d477c683ebcebc2 usb: xhci: quirk for data loss in ISOC transfers
+cd65ee81240e8bc3c3119b46db7f60c80864b90b xhci: Disable stream for xHC controller with XHCI_BROKEN_STREAMS
+2b857d69a5e116150639a0c6c39c86cc329939ee xhci: dbctty: disable ECHO flag by default
+efe3e3ae5a66cb38ef29c909e951b4039044bae9 xhci: dbc: Flush queued requests before stopping dbc
 45537926dd2aaa9190ac0fac5a0fbeefcadfea95 s390/pci: Fix stale function handles in error handling
 b97a7972b1f4f81417840b9a2ab0c19722b577d5 s390/pci: Do not try re-enabling load/store if device is disabled
 62355f1f87b8c7f8785a8dd3cd5ca6e5b513566a s390/pci: Allow automatic recovery with minimal driver support
@@ -898,6 +918,7 @@ ba806c900379899e5cdd6ca165b900e2081e1c99 nvme: correctly account for namespace h
 2b95a7db6e0f75587bffddbb490399cbb87e4985 dma-buf: fix timeout handling in dma_resv_wait_timeout v2
 97e000acf2e20a86a50a0ec8c2739f0846f37509 drm/ttm: fix error handling in ttm_buffer_object_transfer
 9e9b46672b1daac814b384286c21fb8332a87392 xfs: add FALLOC_FL_ALLOCATE_RANGE to supported flags mask
+9bd9c8026341f75f25c53104eb7e656e357ca1a2 usb: hub: Fix flushing of delayed work used for post resume purposes
 4b424a3f7d91c4c694a36ecb30b978e30689cdae Merge tag 'rtc-6.16-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 eb028cd884e1b0976ff8c5944ee6650fe3ed0a6c drm/bridge: panel: move prepare_prev_first handling to drm_panel_bridge_add_typed
 e8537cad824065b0425fb0429e762e14a08067c2 drm/bridge: aux-hpd-bridge: fix assignment of the of_node
@@ -1008,5 +1029,6 @@ da8d8e9001c6a3741e9bec26a6cdcfd75ecabc88 Merge tag 'drm-xe-fixes-2025-07-03' of 
 42bb9b630c4c6c0964cddca98d9d30aa992826de Merge tag 'drm-fixes-2025-07-04' of https://gitlab.freedesktop.org/drm/kernel
 d46971e0b6f574059d167ddda1355ed301a0bae6 Merge tag 'input-for-v6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 3c2bd251d2039ce2778c35ced5ef47b3a379f5df Merge tag 'usb-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+81c3b7256f9ec3c9f7659e4a2aec8d8ead0d4c3b Merge merge point of tag 'usb-6.16-rc5' into usb-next
 
---===============5805994307676844805==--
+--===============7197435696847765534==--
