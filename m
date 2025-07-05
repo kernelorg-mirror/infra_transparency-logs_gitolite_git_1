@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Sat, 05 Jul 2025 20:25:37 -0000
-Message-Id: <175174713702.1841931.16963500320025943935@gitolite.kernel.org>
+Date: Sat, 05 Jul 2025 20:26:03 -0000
+Message-Id: <175174716396.1842363.43051227909264907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-linus
-    old: a8905238c3bbe13db90065ed74682418f23830c3
-    new: 38224c472a038fa9ccd4085511dd9f3d6119dbf9
-    log: |
-         c80f2b047d5cc42fbd2dff9d1942d4ba7545100f HID: appletb-kbd: fix memory corruption of input_handler_list
-         50f9ff52c078d66053bba791ded6fafc64055524 HID: elecom: add support for ELECOM HUGE 019B variant
-         194808a1ea391e35d364d6c9406e2eccb6174525 HID: Fix debug name for BTN_GEAR_DOWN, BTN_GEAR_UP, BTN_WHEEL
-         38224c472a038fa9ccd4085511dd9f3d6119dbf9 HID: appletb-kbd: fix slab use-after-free bug in appletb_kbd_probe
-         
+  - ref: refs/tags/hid-for-linus-2025070502
+    old: 0000000000000000000000000000000000000000
+    new: 89227adcfc45cbbf83acbd6ddb1b0e55ae52167f
