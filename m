@@ -1,27 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 05 Jul 2025 19:39:12 -0000
-Message-Id: <175174435210.1802508.16082592508959613536@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2887958545991629196=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 05 Jul 2025 20:07:19 -0000
+Message-Id: <175174603983.1825805.17079431013321168054@gitolite.kernel.org>
+
+--===============2887958545991629196==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: ecaebed807a426f9ebc15cb937deaefba73228dc
-    new: 8d4d052b2fe8fd8c9f71b9149d65f4152823672e
-    log: |
-         e8c97abbfac5346219904e99ea98bf5bf1e12573 _damo_records: add sample_interval_us to snapshot
-         afbc89a1bf91a29799686f1f3c872d94ffc44083 _damo_records: support snapshot sample intervals on kvpairs
-         ec0c7661eedd5e97e97ce139800feabb23af8f1a _damo_records: support multiple tracepoints on RecordingHandle
-         75b778e6716c17e0ea64b68dc5bedf524111c494 damo_record: rename tracepoint_from_args() to tracepoints_from_args()
-         155b31ed12f61912729897b1c38fed70084337ce _damo_records: exclude unsupported tracepoints when recording
-         97a195781aa1deced322dfea7f1ae62a5ceb112b damo_record: record auto-tuned interval
-         75b2e353451fa34c5fcb03db807653b86b1ac0e5 _damo_records: parse damon_monitor_intervals_tune trace
-         1f1f9f12f67eab1f99c346c183382a23c7ac1c48 damo_report_access: use captured tuned interval from infer_aggr_time_us()
-         8d4d052b2fe8fd8c9f71b9149d65f4152823672e TODO,release_note: update for damon_monitor_intervals_tune() support
-         
+  - ref: refs/heads/master
+    old: a79a588fc1761dc12a3064fc2f648ae66cea3c5a
+    new: 05df91921da664ebba2752a7e45b63e3dddb85de
+    log: revlist-a79a588fc176-05df91921da6.txt
+
+--===============2887958545991629196==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a79a588fc176-05df91921da6.txt
+
+b8f89cb723b9e66f5dbd7199e4036fee34fb0de0 smb: client: fix readdir returning wrong type with POSIX extensions
+3d30048958e0d43425f6d4e76565e6249fa71050 i2c/designware: Fix an initialization issue
+3bbe46716092d8ef6b0df4b956f585c5cd0fc78e smb: client: fix warning when reconnecting channel
+74ebd02163fde05baa23129e06dde4b8f0f2377a cifs: all initializations for tcon should happen in tcon_info_alloc
+c584c4f264c3bd7c27247688056a5c77907dbb07 i2c: microchip-core: re-fix fake detections w/ i2cdetect
+5f05fc6e2218db7ecc52c60eb34b707fe69262c2 dt-bindings: i2c: realtek,rtl9301: Fix missing 'reg' constraint
+266b5d02e14f3a0e07414e11f239397de0577a1d smb: client: fix race condition in negotiate timeout by using more precise timing
+3363da82e02f1bddc54faa92ea430c6532e2cd2e smb: client: fix native SMB symlink traversal
+534eb6de621954cde61c910dbeb8fb1700a0a0d6 Merge tag 'i2c-host-fixes-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+fd860cd78146605eeeeee3ac264ca166cc9fa943 Merge tag 'i2c-for-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+05df91921da664ebba2752a7e45b63e3dddb85de Merge tag 'v6.16-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+
+--===============2887958545991629196==--
