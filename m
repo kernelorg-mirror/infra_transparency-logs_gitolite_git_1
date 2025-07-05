@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7823178668223953497=="
+Content-Type: multipart/mixed; boundary="===============0121479552789989551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 05 Jul 2025 19:12:04 -0000
-Message-Id: <175174272421.1780111.8691327194364089584@gitolite.kernel.org>
+Date: Sat, 05 Jul 2025 19:12:41 -0000
+Message-Id: <175174276146.1780653.3560225032052849728@gitolite.kernel.org>
 
---===============7823178668223953497==
+--===============0121479552789989551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/tip/urgent
-    old: a26f93a17fcd2853291d9148572ac5fbd54b027b
-    new: 14cf20bfadb3f5058350cd1be4856836fcb5afe3
-    log: revlist-a26f93a17fcd-14cf20bfadb3.txt
+  - ref: refs/heads/master
+    old: 3a9e5d64afcfeb0c24d112170cc8c972949417ed
+    new: 8784fb5fa2e0042fe3b1632d4876e1037b695f56
+    log: revlist-3a9e5d64afcf-8784fb5fa2e0.txt
 
---===============7823178668223953497==
+--===============0121479552789989551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a26f93a17fcd-14cf20bfadb3.txt
+Content-Disposition: attachment; filename=revlist-3a9e5d64afcf-8784fb5fa2e0.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -219,5 +219,23 @@ edf2c5787aebca56a32c020cc111aceeecada4b1 Merge x86/urgent into tip/urgent
 92ba6d629a708f0c9041467964659e2e2b7f0839 Merge locking/urgent into tip/urgent
 d2dc80772b4ad9e5d4e1ef3d96cb07348fb32b58 Merge perf/urgent into tip/urgent
 14cf20bfadb3f5058350cd1be4856836fcb5afe3 Merge sched/urgent into tip/urgent
+c2ec571be0921947d7f27a0337be2e9f508fc223 Merge irq/core into tip/master
+9b65174c66ba6af80c514f6bc41615ffe3f1d2a3 Merge timers/core into tip/master
+4039326c042c458983c87cd2c4ceced31593182f Merge x86/kconfig into tip/master
+eeed003eead0fa370ed879545704bb520420a7d8 Merge irq/msi into tip/master
+49faa6af46f4b4178d8103a2c74b604f9cfbc540 Merge x86/boot into tip/master
+966a169bcf67f7d12e62bdec46dd0e761a00cf41 Merge x86/cpu into tip/master
+b3f668748d3c2907e795d762031abb4c69fc1e31 Merge x86/fpu into tip/master
+c1e7e592d82c40d6f2d41fedab1af886d805c6d4 Merge x86/bugs into tip/master
+f515338551ed8a7459871a67e6ea33b11c405812 Merge x86/sev into tip/master
+46788e095d821c668280e445fb17e7f55d2806f6 Merge locking/core into tip/master
+e4a0c5a054fdb49659eb72a95e67cb2f332eb859 Merge core/entry into tip/master
+273cfbfaaed21cd929bebb52c9a958bd88506e7e Merge timers/cleanups into tip/master
+ddbe994d55632f7f760b0575d6a7ee1d8ad13a5d Merge timers/vdso into tip/master
+364d140ab56fabac1ce9d3b7195cded2476d450f Merge smp/core into tip/master
+98f7f1c5f1d6ae7705395c6b7d4b18afd69dff3f Merge core/bugs into tip/master
+438cadc3a9e0d98e0ab56efdf1a4a10c27d6dac0 Merge sched/core into tip/master
+11119b0b378a03f7f4200d897545a2e925f9e938 Merge timers/ptp into tip/master
+8784fb5fa2e0042fe3b1632d4876e1037b695f56 Merge irq/drivers into tip/master
 
---===============7823178668223953497==--
+--===============0121479552789989551==--
