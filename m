@@ -1,56 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============1085212426686547356=="
+Content-Type: multipart/mixed; boundary="===============3512162578405099258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Sat, 05 Jul 2025 08:50:43 -0000
-Message-Id: <175170544335.1283123.16322387529461970478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 05 Jul 2025 08:51:14 -0000
+Message-Id: <175170547454.1283614.8900499360525668855@gitolite.kernel.org>
 
---===============1085212426686547356==
+--===============3512162578405099258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: 2642f55d44ce563f227dd9c620eda0dec8d882be
-    new: 683d532dfc9657ab8aae25204f378352ed144646
+    old: 6a37b3c73a59c7554ea5b468c99c045e298959ac
+    new: 5e55762f952afff789fbb2f1620934a0bd36033e
     log: |
-         683d532dfc9657ab8aae25204f378352ed144646 pinctrl: samsung: Fix gs101 irq chip
+         e9355e894aebcbeacffd284644749190cc5f33a4 arm64: dts: exynos7870: add quirk to disable USB2 LPM in gadget mode
+         2bdfa35a7bb6e3a319e7a290baa44720bc96e5e4 arm64: dts: exynos7870-on7xelte: reduce memory ranges to base amount
+         49a27c6c392dec46c826ee586f7ec8973acaeed7 arm64: dts: exynos7870-j6lte: reduce memory ranges to base amount
+         5e55762f952afff789fbb2f1620934a0bd36033e Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: 98be2d60fdb70b53e29a04c807ee62e06fb9c08f
+    new: 49a27c6c392dec46c826ee586f7ec8973acaeed7
+    log: |
+         e9355e894aebcbeacffd284644749190cc5f33a4 arm64: dts: exynos7870: add quirk to disable USB2 LPM in gadget mode
+         2bdfa35a7bb6e3a319e7a290baa44720bc96e5e4 arm64: dts: exynos7870-on7xelte: reduce memory ranges to base amount
+         49a27c6c392dec46c826ee586f7ec8973acaeed7 arm64: dts: exynos7870-j6lte: reduce memory ranges to base amount
          
 
---===============1085212426686547356==
+--===============3512162578405099258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1751705481 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1751705441-29c0ed349baf5402e0c1734b8a1d7759205ba59b
+pusher krzk@kernel.org 1751705511 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1751705472-0a7e7e92420c6654496a28948acca54334206c6f
 
-2642f55d44ce563f227dd9c620eda0dec8d882be 683d532dfc9657ab8aae25204f378352ed144646 refs/heads/for-next
+6a37b3c73a59c7554ea5b468c99c045e298959ac 5e55762f952afff789fbb2f1620934a0bd36033e refs/heads/for-next
+98be2d60fdb70b53e29a04c807ee62e06fb9c08f 49a27c6c392dec46c826ee586f7ec8973acaeed7 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmho54kQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17hdD/4yQQC4X5+HQoxFr9O7vEalCxSt26BGh+J1
-hqTd3JiLyk0Xd9go6lmbeVTz0ZAM3r1dbZTa4HAEEJa6ZQrRQ+qVSF5zCc+JuJle
-AIxHa1HNRowIv3QIjphMf2iMgyTOjmPThaqZcVXv5Ba2ARfdFMoqrze3CvXv7kLK
-y7UHMJJTvJ50QRXHJ/ig9S9TlwkVU9c1Ps8AbkQvDFkIxgP+hbHgth9yQa2iQaAu
-7xX4Vmq8b4SOlI4gbe1/nQwgH9i1RCPif6uqeQjqdmRFlNkjFFxPDdUcl1MOiN41
-nLzphCr3FDizrlFsLyuhkeZ3XAdrRsC+BHfGd3abG9r3myPc687E6+phQf64tMCB
-nxOpjJSLBbST2mgM+O5C9XTy5JK5J666/+DZYoAEJ9g75hXwcUR35rUHfpR5fgXD
-yHsOPl6OhcAyAA4BZeikGz7rZ/2GIdXAbLn3f8ML/0YjI/vHS7jGVk7N34Se15pN
-oyQBAMwy7ejitGsisBiBp4KtFyL/meHVYvrQCiMo6RHjN/8I85ER1hPi9AvAuNLy
-F3RLJDvUFkMflFuE8C5MtvQyLT99ZqnD8EKStYJ4hzZhSdvGASCapOc0n/r7JwjF
-nbF+JTulTfewgo6wrViQpwIWiW2FUKXth6wEWMNUZNQRZ5/sYtkpPeXEg/1fICzl
-QSdrh3akEA==
-=8Ll2
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmho56cQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15GPEACQ+BlhrwidOgUKvkNnoXh6Zbi9GJ9JowlV
+I43SyN3SXsNQ3DBDuNIJ/+FCdi7RNel3Gu6Knr+n6iUMkW9DP2AX5wHuitlzkffC
+LRyVYKqwKVc4PEsO0a1d12wRFxr14KlA00rt1G6epa2OLD1z4Q35hmuTS8gQ68ah
+bh3jrvBKtlNxPFIPkRG/c2Y3b5OxRbyIoO0r6o6mwJ4XT8bGuONJsBDlASaT5GdM
+4pmvad4Ob5X7miZlEujIE3o1HN/5df78S2E5pG2nFCbsdEyHHkevU/fGQVnIv97I
+VmDXZcd5/1XYCcqgalz8mR1Gg83gvf9BgNBPSgb2CEZDxFmb8oWMN3QFZmMe4ji+
+vjpOmC2lrjl6sSofY/EEDi7Lrhq1yATvrbsWqyEBybtmR9AQFnVlUvO9M3Td7Xcl
+jjxzzLmoVSDR2SdcEVzaYyrxDsWhCE5TX9Vun53z1oxXwDLZx940N7Mg69d9DwPx
+Vg+LOhKmApst1f2hjdTEYSUdTCUSAZPkTR9B1LR7JqULgYTZGGuyZtqrgA21BMei
+etY7FCgJUPbTNEgHplwszOh6qouk3o9L3HYxlY7yKNjkoBzkVgGrr30fmG8jybNc
+rQ6qBnLaKOX6NMOVf3U7DoXiBwTvnYCFXMZ8GM3Re/pZyTVXz+OcwFJZ0MqRTJR8
+hiRyC5LZaA==
+=IMAH
 -----END PGP SIGNATURE-----
 
---===============1085212426686547356==--
+--===============3512162578405099258==--
