@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 06 Jul 2025 10:43:54 -0000
-Message-Id: <175179863421.2695170.4992961801987787737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Sun, 06 Jul 2025 10:56:14 -0000
+Message-Id: <175179937473.2706451.12643140036152827211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/testing
-    old: aaa7bc7a28fe70b85ffdef823d929fdb2c23a7e9
-    new: 349ca41a7dd5dd930ddaf953f2b22ab8dd9e2b4d
+  - ref: refs/heads/for-v6.17
+    old: 8135422ae047fe0d5b7e8017f3fd43cf4dfa80c4
+    new: c8995932db2bad6fa093ac64dbaf7a3e8870eafa
     log: |
-         ec2da4712d306a1ddca7c96e540606b217eec457 iio: adc: ad4000: don't use shift_right()
-         940b0ec95bf28bb274720dea4c21c03fb87087ef dt-bindings: iio: adc: mt6359: Add MT6363 PMIC AuxADC
-         f07990793d0806c12d8b94283a134feb56325578 dt-bindings: iio: adc: mt6359: Add MT6373 PMIC AuxADC
-         c02ab608d6090c457bc510cee66e63a74b70c68f iio: adc: mt6359: Add ready register index and mask to channel data
-         ef0615d7e0265214aed6bdb5583b85bc7e81b8ac iio: adc: mt6359: Move reference voltage to platform data
-         e6b9b2e63633981bd65d59d806ae3d5d248dc11a iio: adc: mt6359: Add support for MediaTek MT6363 PMIC AUXADC
-         349ca41a7dd5dd930ddaf953f2b22ab8dd9e2b4d iio: adc: mt6359: Add support for MediaTek MT6373 PMIC AUXADC
+         210a1ce8ed4391b64a888b3fb4b5611a13f5ccc7 m68k: Fix lost column on framebuffer debug console
+         0da6458417d74449e5daf845cdd4eb4d6ec6ec87 m68k: Avoid pointless recursion in debug console rendering
+         e911044c28ed200c3dcf59bf532e092e770488d0 m68k: Remove unused "cursor home" code from debug console
+         83f672a7f69ec38b1bbb27221e342937f68c11c7 m68k: Don't unregister boot console needlessly
+         4fbdd56edf1f0b3e338c90a011bbae1a677ac884 m68k: Enable dead code elimination
+         16eea8d2d3c1d325b3b5f25c1e073874082aac74 m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
+         7164aacfcea221e66c41ae02712a549a59892cff m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
+         c4958c118cd9beb81bddeab6dbb17694b76deee2 m68k: defconfig: Update defconfigs for v6.16-rc2
+         c8995932db2bad6fa093ac64dbaf7a3e8870eafa m68k: mac: Improve clocksource driver commentary
          
