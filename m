@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8584840617028185503=="
+Content-Type: multipart/mixed; boundary="===============8842328282930637304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 06 Jul 2025 09:38:08 -0000
-Message-Id: <175179468832.2640579.8400186792003533448@gitolite.kernel.org>
+Date: Sun, 06 Jul 2025 09:38:32 -0000
+Message-Id: <175179471235.2641046.13367365337516255582@gitolite.kernel.org>
 
---===============8584840617028185503==
+--===============8842328282930637304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 6742eff60460e77158d4f1b233f17e0345c9e66a
+  - ref: refs/heads/togreg
+    old: 7048348e330ed2002d7f13e1bf3036564d402395
     new: 6becd485fa8e904660dafe4ec5b4a883b5b0ba35
-    log: revlist-6742eff60460-6becd485fa8e.txt
+    log: revlist-7048348e330e-6becd485fa8e.txt
 
---===============8584840617028185503==
+--===============8842328282930637304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6742eff60460-6becd485fa8e.txt
+Content-Disposition: attachment; filename=revlist-7048348e330e-6becd485fa8e.txt
 
 7c62cd9c796a4e1b38a23cb70e56275cf7c7ac77 iio: imu: bmi270: add channel for step counter
 e602ee39986a3500762f8c05db84e931492293d4 iio: imu: bmi270: add step counter watermark event
@@ -57,4 +57,4 @@ f08bdfbc9ae9e6638f9f5b519a4e965c43dafd6b iio: proximity: vcnl3020: make vcnl3020
 95e52b824730a988b9ec04835bbd36fcdd0765ba iio: adc: ad7124: drop use of chip info array
 6becd485fa8e904660dafe4ec5b4a883b5b0ba35 iio: adc: ad7768-1: add low pass -3dB cutoff attribute
 
---===============8584840617028185503==--
+--===============8842328282930637304==--
