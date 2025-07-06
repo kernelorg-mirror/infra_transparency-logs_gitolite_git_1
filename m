@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 06 Jul 2025 07:37:43 -0000
-Message-Id: <175178746314.2433735.8688636496028979376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 06 Jul 2025 07:38:43 -0000
+Message-Id: <175178752323.2434477.12354628100434658379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: e040e5e2625c1a1b5a993806e512b1545fba29df
-    new: bdc5726cdd454f91d7bf49f47c8c31377cb3d7ce
+  - ref: refs/heads/locking/urgent
+    old: 9a57c3773152a3ff2c35cc8325e088d011c9f83b
+    new: 46b0a67e8f22d2dbc679b37b26c5ff0f50424847
     log: |
-         8ba2e1eb6b3ec2a14fadb357a0e2676e9007582a RDMA/bnxt_re: Fix size of uverbs_copy_to() in BNXT_RE_METHOD_GET_TOGGLE_MEM
-         c6acd006f110a0e9c4d1eabcff2f34cff612abcb RDMA/bnxt_re: Support 2G message size
-         bdc5726cdd454f91d7bf49f47c8c31377cb3d7ce RDMA/bnxt_re: Use macro instead of hard coded value
+         46b0a67e8f22d2dbc679b37b26c5ff0f50424847 selftests/futex: Add futex_numa to .gitignore
          
