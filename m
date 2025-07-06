@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sun, 06 Jul 2025 02:03:14 -0000
-Message-Id: <175176739492.2110378.7440915147535405030@gitolite.kernel.org>
+Date: Sun, 06 Jul 2025 02:04:54 -0000
+Message-Id: <175176749436.2112129.8990876189103358860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/next
-    old: bed4c276d7cb2cdbb9d583f11de916e5620f4d07
-    new: 1e4802dc0346af9b897581c852dae1da4956372a
+    old: 1e4802dc0346af9b897581c852dae1da4956372a
+    new: 9d718ac8f66e7131a3aeec275acddf180df077ce
     log: |
-         1e4802dc0346af9b897581c852dae1da4956372a rcu: Document GP initialization vs hotplug ordering requirements
+         9d718ac8f66e7131a3aeec275acddf180df077ce rcu: Document GP initialization vs hotplug ordering requirements
          
