@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sun, 06 Jul 2025 19:27:06 -0000
-Message-Id: <175183002696.3127722.12514525236470970490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Sun, 06 Jul 2025 20:24:32 -0000
+Message-Id: <175183347280.3172488.18303805817828779872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/rcu/next
-    old: 2ce33be6cb9a0b43ae29c9e00f6240a711ad8afa
-    new: 0ce623866c4ff9eefbf5c3d08f335b83b2e63f6f
+  - ref: refs/heads/main
+    old: 44c2ebd6d878a09c75b8032fac1071186a8bd17c
+    new: 4d07b28af75c89bf03c71ef1f7f1ae095bfc27a6
     log: |
-         9ca63571bcfd550fc88ec5f2d480e26c5c8842ee rcu: Document GP init vs hotplug-scan ordering requirements
-         0ce623866c4ff9eefbf5c3d08f335b83b2e63f6f rcu: Document separation of rcu_state and rnp's gp_seq
+         ce7108f47ef68f49a93026ad1860800082dda32a qcom/adreno: sort entries in WHENCE
+         4d07b28af75c89bf03c71ef1f7f1ae095bfc27a6 Merge branch 'robot/patch-0-1751822053' into 'main'
          
