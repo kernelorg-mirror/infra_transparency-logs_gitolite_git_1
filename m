@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3716174840503643091=="
+Content-Type: multipart/mixed; boundary="===============3575914198935043817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 06 Jul 2025 08:38:08 -0000
-Message-Id: <175179108803.2488257.375469200892401247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 06 Jul 2025 08:57:48 -0000
+Message-Id: <175179226878.2504457.13856218365215514656@gitolite.kernel.org>
 
---===============3716174840503643091==
+--===============3575914198935043817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 8f5d9bed6122b8d96508436e5ad2498bb797eb6b
-    new: db15ec7abd33ce245120f36be91f56f0ba0b247e
+  - ref: refs/heads/master
+    old: 8c52e0c8fd537df88bc5876fb69608efa8aba960
+    new: 1b2d6bba5208abdfbc890b763f2dfa7bd60acd81
     log: |
-         db15ec7abd33ce245120f36be91f56f0ba0b247e rust: miscdevice: remove unnecessary import
+         1b2d6bba5208abdfbc890b763f2dfa7bd60acd81 Linux 6.1.143
          
 
---===============3716174840503643091==
+--===============3575914198935043817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751791125 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1751791086-ecb9bb97f5984b0b6118db717e23dc1c2b5c4759
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751792307 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1751792266-54c596f04d5a4cc68e76a397f58336af49017946
 
-8f5d9bed6122b8d96508436e5ad2498bb797eb6b db15ec7abd33ce245120f36be91f56f0ba0b247e refs/heads/char-misc-testing
+8c52e0c8fd537df88bc5876fb69608efa8aba960 1b2d6bba5208abdfbc890b763f2dfa7bd60acd81 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhqNhUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a+EP/1cOO5mFVYqcUx3rWmVl
-nz1WG2sbFbSshoXWEWZdiLiSiM2S7fKVi64s1yaqywLIyh8g9NhpIyNSdsJ75ToU
-uQfvQ82UPl7yR8sHDdugtb24KaRG2t7RKB+C11/26rvwTrpRUk8mRFEtjf7FDDoe
-WppNnLRVQ4B/3ElJI44BrDIhlAl6/wkBidjZj4WCSEFHoXB9IdZ4M9Cu+DLOpsFr
-UovGPEDYWwGHFgOJMdUkgR1t9A40Oap3loC/yJ6hg+4u6AiKx2E4HShB6x/8wBPl
-hPAdHbOU+sF27fxXlwKfWrl7QyL53fqd+yyyZbUjPxWeWmI37jsmCCFmE4s4InTz
-9l4x06yAy7Fv/ZRI17QIgxkyN8V86iyxTaAkAchx2L/hVXVR9SD0GWyrYWx6VhQz
-bURBO1XJgWdMYBxFTTSVxX7aG5cOd0i/AaFwFOARlVYI8Dnxc1LabNW3kduoXS62
-AztPSefPITwtd+8sSUVm1HWvgRRfXxO4Fvkp9RgEsuibeQtF8HuA/nC3YgcHGZ/Q
-I4RgE/VQSDUf5YYteLQ7r+OqSinPqr3L9DzPRKesEnTMBVliR2vBF8075wepH6F9
-mwyslpUdynGTxr/b18uEu6UvEdfx9gDcs6X+cRnQUIfsIMWHldyv/myz3mFYpCpU
-rxiyO1+mMfPsaGefSVKo2L3R
-=kigx
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhqOrMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BGcP/i9pLc43ZfyIYr9obOKL
+yuVCDJiwCLVc6Q+TrJofyaD9341CTo38lomitbmCCdfhYZ+RCawOG5e/SeReF1IY
+eKkHnWE9LgItxU7/YfvZFC8qxGasxxCA+yuBTX0RKJbskjfdhi5dqdxfAhSJ6PE3
+cT4nVIOtXsmkD724xUk+OMd+dORPP56LII83aitkyUHqVV5HkbkC5j8RTQIGieKv
+O004tvY0XdOh/kw8D50lfJF3TDm1uN1nzVrxpR9fTQw8wZUsVa536llqc6LwFJ8T
+bRKH/DwmK86jWdsDedixklCpN85GFNqt4pNu0WaXj7c/LTybFlpJQHjHsRu9pf7c
+jMpkYckSvQCku7EHgF1Wl9xeZdkOp9bTNcWM+ZJ7DQTXFzNdBJrXJwngTQXtG10Y
+AarJrs24IJPZT8eQjtJEpR8PopbkJsLJ/33mIF1LWCo64/sZcTb5j1+f044BjzGo
+qwst0KOIn7KqbnkhvhxjJkepoG0dGFRMOVTiNTJE1XmG+rg1lpB1oXmc1SZ65exV
+SkRlVqunhOT4mB/O5KiYsdjnGamxeftPdG3T+1KpLfYTJsg/Yx7AG+uRhbvNGqF4
+qs7pgFDtyPoQZjWLkjIoPwRuGZkWBMF9+EiozTMiNK8mLU0pIRqyRbbHbvCoz8pb
+YKOAoiy6+4I+ksElGrqmXFCM
+=s7Kx
 -----END PGP SIGNATURE-----
 
---===============3716174840503643091==--
+--===============3575914198935043817==--
