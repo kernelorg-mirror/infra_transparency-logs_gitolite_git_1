@@ -1,40 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2651602993301050761=="
+Content-Type: multipart/mixed; boundary="===============7781085519210052814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 06 Jul 2025 06:44:53 -0000
-Message-Id: <175178429397.2387778.599520995385632812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 06 Jul 2025 06:47:00 -0000
+Message-Id: <175178442077.2390312.3402595520386116973@gitolite.kernel.org>
 
---===============2651602993301050761==
+--===============7781085519210052814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: f1208b05574f63c52e88109d8c75afdf4fc6bf42
-    new: 1db50f7b7a793670adcf062df9ff27798829d963
-    log: revlist-f1208b05574f-1db50f7b7a79.txt
+  - ref: refs/heads/master
+    old: 53fbff08e3e17211b6ab2dc66faf2b2c6e90ea95
+    new: d60e4370799789aef1047db807a2f5fcbdf2870e
+    log: |
+         d60e4370799789aef1047db807a2f5fcbdf2870e tools/verhaal: update to 020 release
+         
 
---===============2651602993301050761==
+--===============7781085519210052814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1208b05574f-1db50f7b7a79.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f458ccd2aa2c5a6f0129a9b1548f2825071fdc6b RDMA/uverbs: Check CAP_NET_RAW in user namespace for flow create
-95a89ec304c38f7447cdbf271f2d1cbad4c3bf81 RDMA/mlx5: Check CAP_NET_RAW in user namespace for flow create
-14957e8125e767bfd40a3ac61b1d6b8e62ee0a98 RDMA/mlx5: Check CAP_NET_RAW in user namespace for anchor create
-0498c2d9984ed2ad75b1cd5ba6abfa1226742df5 RDMA/uverbs: Check CAP_NET_RAW in user namespace for QP create
-a6dca091ba7646ff5304af660c94fa51b6696476 RDMA/uverbs: Check CAP_NET_RAW in user namespace for RAW QP create
-4b527c23c92dcc211446a8edb305d9514a8dae05 RDMA/uverbs: Check CAP_NET_RAW in user namespace for RAW QP create
-bd82467f17e0940c6f6a5396278cda586c9cb6fd RDMA/mlx5: Check CAP_NET_RAW in user namespace for devx create
-28ea058a2979f063d4b756c5d82d885fc16f5ca2 RDMA/nldev: Check CAP_NET_RAW in user namespace for QP modify
-449728196d65fce513dbacf4d3696764be1c6524 RDMA/counter: Check CAP_NET_RAW check in user namespace for RDMA counters
-1db50f7b7a793670adcf062df9ff27798829d963 Fix dma_unmap_sg() nents value
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751784459 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1751784420-90066fb9e283bfa16eb6c95ae9dc741c4768dce6
 
---===============2651602993301050761==--
+53fbff08e3e17211b6ab2dc66faf2b2c6e90ea95 d60e4370799789aef1047db807a2f5fcbdf2870e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhqHAsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zmIP/3O1blwKuwnzlRiyEZJc
+3ihzhdBO/M65bdFmR8f/nV1uXjalnF5iCkA8EmP23d0zFy1qOlfYVgRejWBni5Ti
+AG9BYTXMPkfWBcAUt33Ipdk0YKIbOIUaWfVL1tZUjJCs5A5GHlkNaRfLz0MN0rY8
+qUPPdTLdHRUqjI1yua5nyVuNmSfKEmWh6LCTnfxrGiyoq4t1Vz0e3JsLc5gpLkPY
+WyZSgBeCxcz9LKUqn/E5LAs11J8LDk0iZ3j5I9U+uuEFV4xA6oEsK4lRjWZITYxv
+LHGad8yojNu/b6L1B1r2gfA3IuBLb1BipU+O2wKRo6Hn8g1l2pmeCWY+N+t3PTkF
+o066ehlEqI/TFbtjS9griW/AqgTClQ0gSHQ/48mGw0to7sP2lsvW2NKbSgZlRt5w
+/ZDxa8XcuCvH69gm91vOMUTu2nO4oYMesCGcb9ayd6X417RDUjzYEK2pZLI9XrqB
+DLS2nKOSUzs8j5c4Q6X2lIDJ5A4JoStN55AcMkmwSCwX0Vm62WSJQO6Sm9I+O1Ye
+t0QrvP8OTFqLroyTphHPqV7C3wmL3uvWjWkj6ulySLtq/2zjwH596FymdSxSvzkl
+RZqCTkMw4S2TDmZak/vNatXpExBcrC+J3jhV/L633AIMKg2XR5b9jE6eA43/RW4x
+OjEM0UepOWem5elK+91lRT14
+=A3yo
+-----END PGP SIGNATURE-----
+
+--===============7781085519210052814==--
