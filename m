@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 06 Jul 2025 21:07:12 -0000
-Message-Id: <175183603235.3208335.7415046110622748787@gitolite.kernel.org>
+Date: Sun, 06 Jul 2025 21:10:04 -0000
+Message-Id: <175183620414.3211949.13546216059266447973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 772b78c2abd85586bb90b23adff89f7303c704c7
-    new: bab5cac627b36a96ffc344274953558906418495
+    old: bab5cac627b36a96ffc344274953558906418495
+    new: d7b8f8e20813f0179d8ef519541a3527e7661d3a
     log: |
-         b969f9614885c20f903e1d1f9445611daf161d6d fix proc_sys_compare() handling of in-lookup dentries
-         bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+         d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
          
+  - ref: refs/tags/v6.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 47633099a672fc7bfe604ef454e4f116e2c954b1
