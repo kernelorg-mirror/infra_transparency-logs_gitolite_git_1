@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7994003589150897161=="
+Content-Type: multipart/mixed; boundary="===============7369034231866480172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 07 Jul 2025 18:15:23 -0000
-Message-Id: <175191212362.188540.13813531078218309218@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 18:15:29 -0000
+Message-Id: <175191212909.188811.646477089499558322@gitolite.kernel.org>
 
---===============7994003589150897161==
+--===============7369034231866480172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 5f712c3877f99d5b5e4d011955c6467ae0e535a6
     new: 6b9fd8857b9fc4dd62e7cd300327f0e48dd76642
     log: revlist-5f712c3877f9-6b9fd8857b9f.txt
 
---===============7994003589150897161==
+--===============7369034231866480172==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -367,4 +367,4 @@ d32e907d15f7257f69d38b4c829f87a79ecf8b7f Merge tag 'xfs-fixes-6.16-rc5' of git:/
 17bbde2e1716e2ee4b997d476b48ae85c5a47671 Merge tag 'net-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6b9fd8857b9fc4dd62e7cd300327f0e48dd76642 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============7994003589150897161==--
+--===============7369034231866480172==--
