@@ -1,63 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6516883216929664197=="
+Content-Type: multipart/mixed; boundary="===============2572118336282459736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 07 Jul 2025 09:17:45 -0000
-Message-Id: <175187986532.3871380.5732053328602519259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 07 Jul 2025 09:21:32 -0000
+Message-Id: <175188009273.3875266.16781872587420831673@gitolite.kernel.org>
 
---===============6516883216929664197==
+--===============2572118336282459736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/main
-    old: e34a79b96ab9d49ed8b605fee11099cf3efbb428
-    new: 737bb912ebbe4571195c56eba557c4d7315b26fb
-    log: |
-         1fe44a86ff0ff483aa1f1332f2b08f431fa51ce8 wifi: cfg80211: fix S1G beacon head validation in nl80211
-         74b1ec9f5d627d2bdd5e5b6f3f81c23317657023 wifi: zd1211rw: Fix potential NULL pointer dereference in zd_mac_tx_to_dev()
-         c5fd399a24c8e2865524361f7dc4d4a6899be4f4 wifi: mac80211: correctly identify S1G short beacon
-         8af596e8ae44c3bcf36d1aea09fc9a6f17c555e5 wifi: mac80211: clear frame buffer to never leak stack
-         e1e6ebf490e55fee1ae573aa443c1d4aea5e4a40 wifi: mac80211: fix non-transmitted BSSID profile search
-         3b602ddc0df723992721b0d286c90c9bdd755b34 wifi: mwifiex: discard erroneous disassoc frames on STA interface
-         58fcb1b4287ce38850402bb2bb16d09bf77b91d9 wifi: mac80211: reject VHT opmode for unsupported channel widths
-         2ce6ad9262256dd345cb104ba0ac6cf4aeed25a3 wifi: rt2x00: fix remove callback type mismatch
-         737bb912ebbe4571195c56eba557c4d7315b26fb wifi: prevent A-MSDU attacks in mesh networks
-         
+  - ref: refs/heads/v6.16-next/dts64
+    old: a40b35819ba9fce0e942bd89600cbd78da8304f0
+    new: 5a40efb8c9d26e51db8acc61e920c3eda9407c02
+    log: revlist-a40b35819ba9-5a40efb8c9d2.txt
 
---===============6516883216929664197==
+--===============2572118336282459736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a40b35819ba9-5a40efb8c9d2.txt
 
-certificate version 0.1
-pusher 7BF9099A 1751879871 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1751879831-ada15a3fd99e8ad85f8d25844b4fd86d679685d5
+32239b8900a4c8481017e1e86e2ec81db155a784 dt-bindings: arm: mediatek: Merge MT8186 Voltorb entries
+8101382c24b9ecfe3f56225410f92913b4fa8730 dt-bindings: arm: mediatek: Add MT8186 Squirtle Chromebooks
+8609434f64ce5892eb3e39c20f7181e5f495b91b arm64: dts: mediatek: mt8186-steelix: Mark second source components for probing
+57ac6f86ee9ab446e49d7c72eef10b2b44d58f9e arm64: dts: mediatek: mt8186: Merge Voltorb device trees
+85c767d2d36fa9d505266b2038931c5b745e6678 arm64: dts: mediatek: mt8186: Add Squirtle Chromebooks
+1fcb7608a0eac3f86d4ac4a3241dfc5eb86a5393 arm64: dts: mediatek: mt8192-asurada-spherion: Mark trackpads as fail-needs-probe
+d172b9237e47ff918336d4f88b2eac9f91ebf800 arm64: dts: airoha: en7581: Add ethernet nodes to EN7581 SoC evaluation board
+bd9e0f5d90959d2d07986084fbd58042b62aa549 dt-bindings: interconnect: add mt7988-cci compatible
+0cbdb6d04689f8c05074e348c8e0a42b229ef9a3 arm64: dts: mediatek: mt7988: add cci node
+b5a4ad957114b59a74b3e3f598ae0785dd86cd32 arm64: dts: mediatek: mt7988a-bpi-r4: add proc-supply for cci
+bc51660cd5fd2d0ee9a65b59e0c65e2d1b65975a arm64: dts: mediatek: mt7988a-bpi-r4: drop unused pins
+5a40efb8c9d26e51db8acc61e920c3eda9407c02 arm64: dts: mediatek: mt7988a-bpi-r4: add gpio leds
 
-e34a79b96ab9d49ed8b605fee11099cf3efbb428 737bb912ebbe4571195c56eba557c4d7315b26fb refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmhrkL8ACgkQ10qiO8sP
-aADOLQ//Re4jYvG7LYOQps9DyTaGOGni33wG7eEanfh5z2X9qKqf+Sty1lW+yg3S
-5jvp8HvuYpZAAUVR6t1BqYrJeAyEpy4J4mnv9ko/nDnMxwChY9KstTWafD/FOyti
-21j6BKyKS7iLAcFhfeGsnZe+WGD8kriRBoFbpwwIkw6of7aDTfcIh+ZR4z1ZW8lq
-VSSkwsY4qtXR9SJBQqC6E5ANVEKNAMwzw6s/zv/lAa6aBabuzZxubnM77Xr7CdTe
-0dFAnP4fZYfkZs28AHkxkJg3qILmEk3a6yylONoFt0pHeyqOn58SgJYX64AhjIPr
-y3lVnpux34e+Z8RmNaBZ0QctK7kIaAC8uFYZmpE2TeQ7mnWTC2y3oVet1fVYiy+C
-uYqq2tfbfjrkuftD/czJAu7IaY4jiBb47Vu1y+okCTI+lTfPsCbhf1aR/k/BdCpt
-ZKIfMSVYgwLGveAkVVS9ZytB0XkpnzQHSnFFgOeKRmVaix8xYtQTch6LLyb5J6F7
-+xZ7Jy2SoPf6L1v/0pEsRSrZf9HIiCQTxu592om2apB8/fRJnqFDiYCRtLE3QLCr
-fSrPAnN2aKTXApCpkEXCCj42VAXSImtBUtsE69d++9uymVU36qwyKc7aInCBRD2Z
-3IOEdxyh6Z4eFcXXbT/8t5BUXfzP5fQDw9nJs/6JDbnxUI7lAJw=
-=4bP/
------END PGP SIGNATURE-----
-
---===============6516883216929664197==--
+--===============2572118336282459736==--
