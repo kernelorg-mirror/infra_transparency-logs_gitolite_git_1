@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 07 Jul 2025 21:39:26 -0000
-Message-Id: <175192436693.361030.878612643254497838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 07 Jul 2025 21:42:19 -0000
+Message-Id: <175192453955.364120.16102543013918021085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/pending
-    old: b6b4e94401f9da95aef8c96d8a7a23b4e9c916d7
-    new: 64d1c5821afea0d3812c1d1aeda909d1ea0299aa
+  - ref: refs/heads/rtc-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 0bafe291cb429d39b5ff70bcf7b2f3ab026dcb02
     log: |
-         64d1c5821afea0d3812c1d1aeda909d1ea0299aa wifi: ath12k: properly set bit for pdev mask for firmware PPDU_STATS request
+         590951f908f25c7e4d6822f0109e7e230d7b0a89 dt-bindings: Move sophgo,cv1800b-rtc to rtc directory
+         d754e2c4aaeadb342036f89d8afc78db6ba2e210 dt-bindings: rtc: move nxp,lpc3220-rtc to separated file from trivial-rtc.yaml
+         0bafe291cb429d39b5ff70bcf7b2f3ab026dcb02 dt-bindings: rtc: nxp,lpc1788-rtc: add compatible string nxp,lpc1850-rtc
          
