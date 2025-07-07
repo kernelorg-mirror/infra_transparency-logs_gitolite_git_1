@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8194532512481112405=="
+Content-Type: multipart/mixed; boundary="===============6530014025515157505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 07 Jul 2025 09:03:33 -0000
-Message-Id: <175187901359.3856176.867073013205295750@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 09:03:47 -0000
+Message-Id: <175187902730.3856602.6430762394960667833@gitolite.kernel.org>
 
---===============8194532512481112405==
+--===============6530014025515157505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: 81c3b7256f9ec3c9f7659e4a2aec8d8ead0d4c3b
     new: 0c43c19bf7a6cf2883b4a7ff08171be4af8ef814
     log: |
@@ -25,34 +25,34 @@ changes:
          0c43c19bf7a6cf2883b4a7ff08171be4af8ef814 Merge tag 'thunderbolt-for-v6.17-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
          
 
---===============8194532512481112405==
+--===============6530014025515157505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751879051 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751879066 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1751879011-2291c0cbb12409a61eb919238cf39818c19e6b89
+nonce 1751879026-835375233fe0736b3a6d227f88bdc7d270cc8524
 
-81c3b7256f9ec3c9f7659e4a2aec8d8ead0d4c3b 0c43c19bf7a6cf2883b4a7ff08171be4af8ef814 refs/heads/usb-testing
+81c3b7256f9ec3c9f7659e4a2aec8d8ead0d4c3b 0c43c19bf7a6cf2883b4a7ff08171be4af8ef814 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhrjYsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BggP/0tG2Py0IpFzAPxPzeLV
-4v2H5Pj2rYMTFQrodM/ajcofWesI7Oxw/sAojfTztde9T9ed9wOqFaLmeBm2cfpS
-rswxIG6+Pc+wGDdx7l/hyWvQS5ghbwSMjm3Y7CCgQugCUhGt4TuVVMMhE7GW6ibG
-CwIqIqF5LB+UFgsWJ9SbcBJwbP4a4qrFsli+WSzrMbEWV/qAiH5bFrtnEkenBclM
-6++DtNNitxyNLBWrepvTcx+qgn4kjVONJCG0gPT9jLhDrEhSUs2QjueLXALe0fnz
-/bZTtHJsmcUk4RS6PfEqW2wxpR+FBZPIUI51DPDpZ2iFXhBAHYs6iLrlq0i4HBls
-JrA5taNvHZwi0z237hwI0OnLPZ+T2edGRUp9y/IWUEZMzA0BKn1Pi4A9bruzNQ6L
-QbOpRKvXOhwUAgPHHe9mY+vSw/pJExeNTC4c8FEhZ+Jp9gNrYpEFbc+9sle+K+Om
-F7P/+TFseZdqcKwZuLjYCmHLk2gHIZ4zZOX8Sw8Qhl2VfyZu07jg9NyKr0Lficmb
-KTkdz6L5K4AMLJ8WmmzDth+XXrbPHXdzNIlU2pVMxn+M86D7GuXiGfflGja8b2YT
-AEbo4+Az89w9NDIFwBdLAg4uc0wXrN4noTZJPkd03OrSkRbam7ohlVxhc/ivtere
-WdjtpB20WUq6XlFiWY9GerVK
-=/91u
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhrjZobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qJYP/iI7JtRfcOYGYci5aUGj
+MKpZW0B/W75kasyQTqJJEqASqZ3JnQZoac4H0VquTL/gloUESC7ZsCwoQPsDqlWm
+aOeAqXo90g6YJaxmT1KNFOXitMJB3Bs23Sl2xspMcjlcUzRGA9VkHWWFoIzh6Suz
+o8T/baLXjIb2lDIsp4LzYbiENyvI4sTyDdDObPv3uoVhqUThs8yqV8QA9ZAikjUb
+GLyA3qYYm9zMtFXMyXActqoMwsDAxBoLa1ZbUaqd/AX+3Gt6JlQmU17oQkeZxUqN
+fNGnkndVn12VaO6AXmWoy+tTb8ro2clPYHTvDfJDY3Wx95AMZxLlCpaE4smd9+Hd
+c6AttSxInkfcxEjijKGNAaN+J+dPc7GllnzVUftNnuYZQt0+aWa9QxWUu+LTEXmm
+vw1JjcJwhTb9AN/uFJY++iph9sGDH1lE2amw9gyeFoLDkefoEFnaxYd3lxmHaw5K
+vLK5Q7VLMgf2MVK0JxMderIY8HGnVExiceJeqGgncWMLcHFP/Yyd1rJIFcwb15RO
+VN3fY7D7BMn+EsaVZBzkrySlppLtyYaKxmFjz+Sf6YlMdK8Zq2B/VFuDnuNY3ZsZ
+UQxwJALJokyRg5rXxDspZeEtj9sYKiYE4QKCUNEG+CTTI124KtrDN2oPKECoyOO2
+1eDNh66aOsa/JWDN3VOANBz3
+=85sE
 -----END PGP SIGNATURE-----
 
---===============8194532512481112405==--
+--===============6530014025515157505==--
