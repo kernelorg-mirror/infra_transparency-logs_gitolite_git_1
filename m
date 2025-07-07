@@ -1,93 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============7169741689776062617=="
+Content-Type: multipart/mixed; boundary="===============3059582412728126791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 07 Jul 2025 06:18:44 -0000
-Message-Id: <175186912452.3667158.5879581825585079975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 07 Jul 2025 06:43:19 -0000
+Message-Id: <175187059941.3687243.15711600895667009820@gitolite.kernel.org>
 
---===============7169741689776062617==
+--===============3059582412728126791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/rdma-next
-    old: 9d6ba3b9b47851d6f3be895eb18ba1a92429de84
-    new: e414d44fc8f4f12b3b20418f56ae5a2f6c0046bc
-    log: revlist-9d6ba3b9b478-e414d44fc8f4.txt
+  - ref: refs/heads/pwm/fixes
+    old: 3a001fad203fbc75bd184b07abc4935fd397da70
+    new: 505b730ede7f5c4083ff212aa955155b5b92e574
+    log: |
+         9ee124caae1b0defd0e02c65686f539845a3ac9b pwm: Fix invalid state detection
+         505b730ede7f5c4083ff212aa955155b5b92e574 pwm: mediatek: Ensure to disable clocks in error path
+         
+  - ref: refs/heads/pwm/for-next
+    old: 07c020e70f69a6ba3099dd09321720b24ddf36fd
+    new: edd3bcb1801e1bb98f4f81485140e18c86406ced
+    log: revlist-07c020e70f69-edd3bcb1801e.txt
+  - ref: refs/heads/pwm/for-nexxt
+    old: 07c020e70f69a6ba3099dd09321720b24ddf36fd
+    new: edd3bcb1801e1bb98f4f81485140e18c86406ced
+    log: revlist-07c020e70f69-edd3bcb1801e.txt
 
---===============7169741689776062617==
+--===============3059582412728126791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d6ba3b9b478-e414d44fc8f4.txt
+Content-Disposition: attachment; filename=revlist-07c020e70f69-edd3bcb1801e.txt
 
-c6957b95ecc5b63c5a4bb4ecc28af326cf8f6dc8 RDMA/hns: Fix double destruction of rsv_qp
-998b41cb20b02c4e28ac558e4e7f8609d659ec05 RDMA/hns: Fix HW configurations not cleared in error flow
-2c2ec0106c0f1f12d4eefd11de318ac47557a750 RDMA/hns: Get message length of ack_req from FW
-278c18a4a78a9a6bf529ef45ccde512a5686ea9d RDMA/hns: Fix accessing uninitialized resources
-5338abb299f0cd764edf78a7e71a0b746af35030 RDMA/hns: Drop GFP_NOWARN
-79d56805c5068f2bc81518043e043c3dedd1c82a RDMA/hns: Fix -Wframe-larger-than issue
-09d231ab569ca97478445ccc1ad44ab026de39b1 RDMA/bnxt_re: Fix size of uverbs_copy_to() in BNXT_RE_METHOD_GET_TOGGLE_MEM
-0aed817380d620987b2d5c573fdd2f01c30976a4 RDMA/bnxt_re: Support 2G message size
-7788278ff267f831bab39a377beaa7e08d79c2a9 RDMA/bnxt_re: Use macro instead of hard coded value
-2f84892fc2c099c7499f782b907ee425a18dc2f0 net/sched: Don't print dump stack in event of transmission timeout
-19ab4b3c10f7fe901aa56b4a509c31598bb35f30 RDMA/mlx5: Add debugfs to dump MR cache state
-29aecf8d593760f6c42efbeb25a7851b24e49dcf IB/mlx5: Fix potential deadlock in MR deregistration
-ccc4d80461f9d3311da08d1b9f4033caf3191af3 RDMA/mlx5: Fix unsafe xarray access in implicit ODP handling
-c27a6b31d058e9677808736b760bd562d8861ced pci/tph: Expose pcie_tph_get_st_table_size()
-b34abbcb9c23a26c52bfe6ce3506eb7317f1aaab net/mlx5: Expose IFC bits for TPH
-e724e2ceeac790a5997eb7c3565c2eb975d37e64 net/mlx5: Add support for device steering tag
-4942374f67c90d9d98761f0e942497c5f9606739 IB/core: Add UVERBS_METHOD_REG_MR on the MR object
-be5c7a94600241e6c545ab0daea6da36eab9d71a RDMA/core: Introduce a DMAH object and its alloc/free APIs
-fed44725b927271899fbd474e7a53ac3f61576da RDMA/mlx5: Add DMAH object support
-cf5c48ead58e0ec3919a847f7ae1d48cf116cb4e IB: Extend UVERBS_METHOD_REG_MR to get DMAH
-19999a0977794669cf7c3f3795a991ee3ca30863 RDMA/mlx5: Add DMAH support for reg_user_mr/reg_user_dmabuf_mr
-1989e34161b6f10f766e6af49f76f698c0dda42e RDMA/core: Introduce peer memory interface
-393cee956f8f4110ca730610943ff347a9bae2bd TEMP: Increase lockdep depth
-bc7d1e8ad395b24a3913853723a9735bdb8b54e6 TEMP: Increase MAX_LOCKDEP_ENTRIES size
-faf147853fd0a0651c4cd0f8dcf117255a56e693 xfrm: advance SEQ number in non-ESN mode
-3ddded0cd1eaf38e9279af2d60a1c100e491a928 xfrm: advance SEQ number in ESN mode
-5dad8fba212fc31c939677978e8514654dd11e52 xfrm: advance SEQ number in BMP mode
-835fbd89cd49c708a691213ca3f03368d5d01b8f rds: rely on IB/core to determine if device is ODP capable
-c12f81187c9324e1d5b4b69e0a50a49573627cc6 swiotlb: Enrich message about buffer overflow
-dababd99b383c5b433a21a26c965949120b3ca4c compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
-19f515540fca84c99b631ea338309795440c3914 xfrm: skip templates check for packet offload tunnel mode
-d50f10187b20047d48e1f3ca9e476c528f114096 coccinelle: misc: secs_to_jiffies script: Create dummy report
-483c755c93e92189efdee80ff72a2728b25d194c xfrm: always initialize offload path
-bab3a91c795a71466fa07799edf6d8cad8f0b1ae IB/mad: Add state machine to MAD layer
-8e3a01bf43cb2ef91bac4f5aaf30203f92fc5f7b IB/mad: Add flow control for solicited MADs
-07203c0bd1a967527b97b172f42b0c1cb4d172bc IB/cm: Use separate agent w/o flow control for REP
-3c65330d7e12bc66a6a2a5ffb7737b5e5e92d5df net/mlx5: Check device memory pointer before usage
-4c68e27af5ca86c7a4de9bff9fa05c4b10faa064 RDMA/sa_query: Add RMPP support for SA queries
-6cc2d4517310d3fd6bd57a21e6413b06bbfe8f34 RDMA/sa_query: Support IB service records resolution
-8c9ceb728f6e46c49fe5c662f302f56474ac9feb RDMA/cma: Support IB service record resolution
-514237379a301c16147e0318846e639aa8f12cd9 RDMA/ucma: Support query resolved service records
-f0663c91f46a655fc0a5f4440286944dd553c4ba RDMA/ucma: Support write an event into a CM
-7cfc78795395de8e84a8c423c381c66cdae1307f sched/topology: Correct "sched_domains_curr_level" in topology_span_sane()
-cbc4894642f1b1a46981ea21f9d3dc1b22404890 net/mlx5: Refactor devcom to return NULL on failure
-7e62aa9428ad231f05961d6ff8ca8affdb79ff21 net/mlx5: Fix IPsec cleanup over MPV device
-8f658a140097909d011cb9afb2376e827fb612c1 IB/mlx5: Reduce IMR KSM size when 5-level paging is enabled
-156a58e1fc2d25d70a07131aee5d38fb82099427 net/mlx5: fs, fix RDMA TRANSPORT init cleanup flow
-43fb780eb025b54aca2a45e39da41cfc80efcbfc PCI: Move REQ_ACS_FLAGS into pci_regs.h as PCI_ACS_ISOLATED
-48b858dc3ae85853e723c6873f76faac44e9521d PCI: Add pci_bus_isolation()
-9c1a5b9adada426e668f1cbe0a998f86fa50de66 iommu: Compute iommu_groups properly for PCIe switches
-9ecc52bb24faa69791447cea8d8d425f19343c48 iommu: Organize iommu_group by member size
-868875e75a5de7e02b11e764697707023fc45135 PCI: Add pci_reachable_set()
-c4ebbcb83ec4b2380fa578c98ca373677678e425 iommu: Use pci_reachable_set() in pci_device_group()
-7c9b7785cbf9d0cab825a6460a41cdd0182b4642 iommu: Validate that pci_for_each_dma_alias() matches the groups
-07b2c3ecce8c4e3cb391578afaa935c60877175c PCI: Add the ACS Enhanced Capability definitions
-eed7e9469bce5391f97a2fdc25725bc623789f67 PCI: Enable ACS Enhanced bits for enable_acs and config_acs
-3d1c4b0a85a59375216b14c2d2368f9ae326caec PCI: Check ACS DSP/USP redirect bits in pci_enable_pasid()
-b2731a73cc0794a42084b4f7a8842b0c004daf50 PCI: Check ACS Extended flags for pci_bus_isolated()
-2d3dafa5922d8424485af276bd2d6ca0a91b067f RDMA/mlx5: Fix UMR modifying of mkey page size
-90bf972c3b817ef2e94e04dafa461a6dcf03d80d net/mlx5: Expose HCA capability bits for mkey max page size
-cb7bba4fab252bd27fce5e5f34c7fc78c9cb7d3c RDMA/mlx5: Align mkc page size capability check to PRM
-187138b60c8ac79a6ec18e80c8c91fb3024ba015 RDMA/mlx5: Optimize DMABUF mkey page size
-e414d44fc8f4f12b3b20418f56ae5a2f6c0046bc RDMA/mlx5: Refactor optional counters steering code
+9ee124caae1b0defd0e02c65686f539845a3ac9b pwm: Fix invalid state detection
+505b730ede7f5c4083ff212aa955155b5b92e574 pwm: mediatek: Ensure to disable clocks in error path
+9c06f26ba5f5da14bcac405c7a652dcf578a785d pwm: Add support for pwmchip devices for faster and easier userspace access
+08e0b981231fd467204764f162087d6d9d1359af dt-bindings: pwm: marvell,pxa-pwm: Add SpacemiT K1 PWM support
+52d2d14d9e49b8c33ff718d2036084d0c92f23f1 pwm: pxa: Add optional reset control
+27b5dfe4b4eaf490df6fa9d5d0bf95cd51abf563 pwm: pxa: Allow to enable for SpacemiT K1 SoC
+f4bcf818e5d6474c981ef16153827458a2b57181 riscv: dts: sifive: unleashed/unmatched: Remove PWM controlled LED's active-low properties
+7dbc4432ea6bf9d709391eb57f1e9fb44e99845a pwm: sifive: Fix PWM algorithm and clarify inverted compare behavior
+6df3aac763fa995260ab0545c1e54f0c21b2feb8 pwm: sifive: Fix rounding and idempotency issues in apply and get_state
+2b66b67530b828ce939c050d7d3366a80ef22d7a dt-bindings: pwm: sophgo: Add pwm controller for SG2044
+8c805dfafd9b9d82a4bdb2e804d85f3be0435aeb pwm: sophgo-sg2042: Reorganize the code structure
+21d5daad93547c36732b6568dfb8ad88004b2d68 pwm: sophgo-sg2042: Add support for SG2044
+076a2f3d54a95330709a39c95bde7f19660673da dt-bindings: pwm: adi,axi-pwmgen: Update documentation link
+fd0b06972a8f92d57358e62267f5925721c73c6e pwm: stm32: add support for stm32mp25
+0b4d1abe5ca568c5b7f667345ec2b5ad0fb2e54b pwm: rockchip: Round period/duty down on apply, up on get
+56ad79b848d4a1e9ae270687f6f41835911eba87 dt-bindings: pwm: convert lpc1850-sct-pwm.txt to yaml format
+3bb9948921784b6c9cc2f5ed8df7bdf8ab4ffaf3 dt-bindings: pwm: mediatek,mt2712-pwm: Add support for MT6991/MT8196
+d4f1e7a2fe029ec7ca2c32ec10b58a84b56d719d pwm: pwm-mediatek: Pass PWM_CK_26M_SEL from platform data
+e47026facf73a8431a4cdb90f11918c84af98597 pwm: pwm-mediatek: Add support for PWM IP V3.0.2 in MT6991/MT8196
+6fdd4d8c84f36c4814ec7d499e9fb88b170669c5 dt-bindings: vendor-prefixes: Document Argon40
+f6bd99a2d24ecccb560771dde13eff2d0808d897 dt-bindings: pwm: argon40,fan-hat: Document Argon40 Fan HAT
+0191c80e8a288d38f3f5a17dd0bb6a3b08c6e464 pwm: argon-fan-hat: Add Argon40 Fan HAT support
+62df49917eb4aa378c21cb2f6a7093749870da96 pwm: atmel: Drop driver local locking
+f0d91b16dcb3d3daa013572caf76720fffcd7bab pwm: clps711x: Drop driver local locking
+7c1a529a240b1c84204b9f45cc05f0db0fb17402 pwm: fsl-ftm: Drop driver local locking
+33d73bde06e9ab7862e8e8482ad1a9c4fa1a57f2 pwm: lpc18xx-sct: Drop driver local locking
+9470e7d11fe2b6c21a35327175d51a06afd3fca9 pwm: microchip-core: Drop driver local locking
+d2c8bdc72fa906d78cac4f87ad9d75692fe47a9f pwm: sti: Drop driver local locking
+dce0df8ac14fd2b4d00c17bc893fe3f3b06c853c pwm: sun4i: Drop driver local locking
+2c06a2178926993f77e52f77e6b0c540e3d771ce pwm: twl-led: Drop driver local locking
+10e9b32d9a14edbbed902dd5447a1ca3cd487935 docs: pwm: Adapt Locking paragraph to reality
+4cd2f417a0acdced4335fa19dc75b3a80941d60d dt-bindings: pwm: Convert lpc32xx-pwm.txt to yaml format
+edd3bcb1801e1bb98f4f81485140e18c86406ced pwm: Expose PWM_WFHWSIZE in public header
 
---===============7169741689776062617==--
+--===============3059582412728126791==--
