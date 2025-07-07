@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 07 Jul 2025 21:33:38 -0000
-Message-Id: <175192401803.355437.14040600731896947029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 07 Jul 2025 21:34:34 -0000
+Message-Id: <175192407474.356719.11727129361986129504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/main
-    old: 6b9fd8857b9fc4dd62e7cd300327f0e48dd76642
-    new: 59f44c9ccc3bb68aa3b062b8e57ce0e1ee2fca75
+  - ref: refs/heads/next
+    old: e72fe8cbd8a0c111542ccaae932ad323c7edaeb3
+    new: a089bb2822a49b0c5777a8936f82c1f8629231fb
     log: |
-         5c3f832de23658ed4e1240476aeb60ac362d9add net: usb: lan78xx: stop including phy_fixed.h
-         59f44c9ccc3bb68aa3b062b8e57ce0e1ee2fca75 net: openvswitch: allow providing upcall pid for the 'execute' command
+         95d32c7ee05001ea6ecd0d9c415dd00599a7dc56 selftests: print installation complete message
+         a089bb2822a49b0c5777a8936f82c1f8629231fb selftests: tracing: Use mutex_unlock for testing glob filter
          
