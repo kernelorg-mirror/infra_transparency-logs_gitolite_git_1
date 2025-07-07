@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3773940938510968199=="
+Content-Type: multipart/mixed; boundary="===============7994003589150897161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 07 Jul 2025 18:11:56 -0000
-Message-Id: <175191191669.184757.16371356198333647475@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 18:15:23 -0000
+Message-Id: <175191212362.188540.13813531078218309218@gitolite.kernel.org>
 
---===============3773940938510968199==
+--===============7994003589150897161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6dbc64bfa1f08ecc3770d1c795ecdde25167fe63
-    new: 90de501485f01080e7146083cac162ad210df8c0
-    log: revlist-6dbc64bfa1f0-90de501485f0.txt
+  - ref: refs/heads/1GbE
+    old: 5f712c3877f99d5b5e4d011955c6467ae0e535a6
+    new: 6b9fd8857b9fc4dd62e7cd300327f0e48dd76642
+    log: revlist-5f712c3877f9-6b9fd8857b9f.txt
 
---===============3773940938510968199==
+--===============7994003589150897161==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6dbc64bfa1f0-90de501485f0.txt
+Content-Disposition: attachment; filename=revlist-5f712c3877f9-6b9fd8857b9f.txt
 
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
 009c3a4bc41e855fd76f92727f9fbae4e5917d7f mmc: core: sd: Apply BROKEN_SD_DISCARD quirk earlier
@@ -366,79 +366,5 @@ f030713e5abf67d0a88864c8855f809c763af954 dt-bindings: net: sophgo,sg2044-dwmac: 
 d32e907d15f7257f69d38b4c829f87a79ecf8b7f Merge tag 'xfs-fixes-6.16-rc5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 17bbde2e1716e2ee4b997d476b48ae85c5a47671 Merge tag 'net-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6b9fd8857b9fc4dd62e7cd300327f0e48dd76642 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ba862d34495301565165ffac6154141fac604579 coccinelle: misc: secs_to_jiffies script: Create dummy report
-067c982b87bca2d352bd4b0b2852a4abe44bcca8 ixgbe: add MDD support
-ebb84b30d78aa0b5df4df2de78c605cc79934fe1 ixgbe: check for MDD events
-0d29cc49476ca574a6551fc4540454637f790905 ixgbe: add Tx hang detection unhandled MDD
-09e152491a1e0d479d49eb38a5fd341f4ff2efbc ixgbe: turn off MDD while modifying SRRCTL
-7a4f7bdfc920a85bd54cef1553eb262f0c063c97 ice: fix lane number calculation
-2ff94489ba58ec6f45940e786f3953aacdfb7416 ice: Allow 100M speed for E825C SGMII device
-d921e730c00c0eccd4951cfa422b8e752a37e29d ice: Remove casts on void pointers in LAG
-40dc98c4775e1b113a1d05066f986dfd28de8eca ice: replace u8 elements with bool where
-b50d30c618ce3f2ea1d7a885858c1ca0c11a66c0 ice: Add driver specific prefix to LAG
-28ffcf12d77ed29e938cf5d4f712090cf4540e56 ice: move LAG function in code to prepare for
-a509713d3d4899bb7eefb43edc68da4ddbaa0a90 ice: Cleanup variable initialization in LAG
-c08cda1cbc13952afb9d007cd481540a7e0a5fa7 ice: cleanup capabilities evaluation
-d7c44792abcbcc384d47510d21bd11e92197951e ice: breakout common LAG code into helpers
-c2a42f0fbee1864ab11fae1cbc24f4b71ef311da ice: Implement support for SRIOV VFs across
-f75730fa3616e7317990622d5562fc1ebb12e23a idpf: fix Rx descriptor ready check barrier in splitq
-2cf585d55f8a7e9709a85e4c8f62a1e20e75a1fd idpf: use a saner limit for default number of queues to allocate
-8d965d8a060f2ed1e299e35f89201fdb4aa4bcb9 idpf: link NAPIs to queues
-1a8cb4f753e349aeb72959bbf7dfa4615d668316 idpf: add 4-byte completion descriptor definition
-da3eb6ad72e731be0ef0dda816a6a91d7ecaa15f idpf: remove SW marker handling from NAPI
-8f8701564c57b29ad29bb2c4b2cb328117079074 idpf: add support for nointerrupt queues
-3d368b9d6a0b54b134622dae68b8a5f64015f347 idpf: prepare structures to support XDP
-23454de9d10e6d283fd0c5d48fcd8452cfbf6580 idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
-dec88f0ee13be5b4be5f96f9115a56459631688a idpf: use generic functions to build xdp_buff and skb
-db00380968bc43501f99d5d0446557f53e7ab9b7 idpf: add support for XDP on Rx
-c42b2cde67fc997885bb2bb757fa957c383564e9 idpf: add support for .ndo_xdp_xmit()
-18baa7004070f02aeb452d07b98964fa11be48c6 idpf: add XDP RSS hash hint
-483ee422377585c30e027f8d9b38110cf173559a virtchnl2: rename enum virtchnl2_cap_rss
-bfcef9dec91bc3d8ae48430e0aff13d23b3ebce4 virtchnl2: add flow steering support
-348a35ec5ec9b5d10e14773cff8c35c625752702 idpf: add flow steering support
-ff25029081c44272da983e4b29fe7a8515b6f7f9 ice, libie: move generic adminq descriptors to lib
-19696f914ec0b824475bb871ad97e5191494ed31 ixgbe: use libie adminq descriptors
-49655728894f308756d1a32b87965a047536f397 i40e: use libie adminq descriptors
-3359239262ea5cc3d11a4555852346fea9794cbe iavf: use libie adminq descriptors
-50a794d51593e0972b8f0665bd415a9df0229634 libie: add adminq helper for converting err to str
-75429be13df335d3b1b4bf7bbb436a7458f878bb ice: use libie_aq_str
-72a852f64e338a51ceec33c702f43741dd950db1 iavf: use libie_aq_str
-6ee091e4b6baa184404f70a4ed70107fddfdad7c i40e: use libie_aq_str
-e1eca3c8145eeccc2911fb08991ade7428d9406d ice: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-eaa1543b635b5c84a3bb4d6774cac962c47afdee igc: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-9334348805a931f391faa51db86188e636dd31bd igb: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-b4bc5b020601d08e75b5d60a5c26c4d351485602 ixgbe: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-8d9321ce09568bdb97c84fed38c8156dbbeb3661 i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-fce8abda69243bd516fd975b5d94c4056e3a136d ice: add 40G speed to Admin Command GET PORT OPTION
-1bbd240da22bd353b452df5d49355ffbee60a4d8 ice: add E835 device IDs
-0881684a7e334cdb137141cdd4736f3e2f34db53 ice: add NULL check in eswitch lag check
-05b4e82cc0e05d1e505930258d42da2c06460335 devlink: add overwrite mask from factory settings
-e9c7649b9d95c313736721dc1c936847ca402c34 ice: add overwrite mask from factory settings
-af9eb2abbfac5f695e1e5035a0bf2b996c1710f5 ixgbe: add overwrite mask from factory settings
-745cd56fea64b91c554a263cb737744fd0c72721 igbvf: remove unused interrupt counter fields from struct igbvf_adapter
-f85bb889959a3b8c927a6a950e5f7ae6d5c462aa igbvf: add tx_timeout_count to ethtool statistics
-a26a42b22940177f0b43aa9bb358482a7e9e377e ixgbe: initialize aci lock before it's used
-fd245902ea7b57be2d9d09dc137fb4c6cf5ecf30 i40e: report VF tx_dropped with tx_errors instead of tx_discards
-234a925d7850e60c1c63f9b886ddd966a0a6e8fe ethernet: intel: fix building with large NR_CPUS
-925b920cf6dbcf79919bf3df2ca117dd77b30782 ice: convert ice_add_prof() to bitmap
-d05909f1fec06629a8a9f9aba1d1f194ab0094b2 idpf: add cross timestamping
-98a24c77cdbca917e976a7241940cf3942f360dc ice: add support for reading and unpacking Rx queue context
-34aa43a6cef57803e41aed360d812023ef545407 ice: add functions to get and set Tx queue context
-33ff285f74117483bbd23d663333d58b388d768c ice: save RSS hash configuration for migration
-db6505d92efaf05858d4c5f2ddedfb01b59ab5f6 ice: move ice_vsi_update_l2tsel to ice_lib.c
-94789563edd22e28132879c7ef02c8fb4a4e3020 ice: expose VF functions used by live migration
-940a226808b828f47424685b5c17b2fd0005694e ice: use pci_iov_vf_id() to get VF ID
-e6544c4a2496950e3568b4e4ce272b8ac8705bf9 ice: avoid rebuilding if MSI-X vector count is unchanged
-d6256b79e2f05f0bf9f6a3cced06680d612a0844 ice: introduce ice_get_vf_by_dev() wrapper
-da2bb449274a6c34a226d302540622e2905bbc2f igc: Relocate RSS field definitions to igc_defines.h
-819d5e18ccedc4423528bcf77406866cecc7d457 igc: Add wildcard rule support to ethtool NFC using Default Queue
-48cf5afa6c01fa902157c550fb3e22b4b93f08ec ixgbe: spelling corrections
-6920ed5007af2ce0472b8ff95a69e9069d05b396 idpf: preserve coalescing settings across resets
-d633954e4b79c5824617d4910622487ad82e1c57 ice: check correct pointer in fwlog debugfs
-0308305a599857f4886eb40e51401e601801fdd7 i40e: When removing VF MAC filters, only check PF-set MAC
-4b2719230857a62ff8538f845c54671807ce3226 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
-5a8df8ecfc13bb97ce49da3d8e815d3f899ec8ee ice: fix possible leak in ice_plug_aux_dev() error path
-a1aee71a378f963d6fc447ce7f0d1bafb22314c8 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
-90de501485f01080e7146083cac162ad210df8c0 e1000e: ignore uninitialized checksum word on tgp
 
---===============3773940938510968199==--
+--===============7994003589150897161==--
