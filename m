@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Mon, 07 Jul 2025 03:31:19 -0000
-Message-Id: <175185907977.3531108.8620532858521973285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Mon, 07 Jul 2025 03:34:08 -0000
+Message-Id: <175185924879.3532584.16989691646101606003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: ef5785eb56d9c597ce5fa32fb0c17dcc17b26221
-    new: 181698af38d3f93381229ad89c09b5bd0496661a
+  - ref: refs/heads/rcu/next
+    old: 398dd827b4eecd0297dd4c8c041a8cc298fb90c5
+    new: 73e5a5b6f73776df9a069a9824601763a3012248
     log: |
-         181698af38d3f93381229ad89c09b5bd0496661a crypto: ccp - Fix crash when rebind ccp device for ccp.ko
+         73e5a5b6f73776df9a069a9824601763a3012248 rcu: Document concurrent quiescent state reporting for offline CPUs
          
