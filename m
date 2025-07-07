@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 07 Jul 2025 22:35:12 -0000
-Message-Id: <175192771235.409964.1001145096473765659@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 22:35:20 -0000
+Message-Id: <175192772027.410282.15345670259543887641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: a82ce08775bc5b50613d48ab7e41b25fc46825af
+  - ref: refs/heads/pending
+    old: 44185b56d56973bd934cff0dcc1137c4c25991f2
     new: a1bff3d6cc454d65a3a654cd3fcd0c90f1fb45fb
     log: |
          ebebe66ec208d37e3368b91e2033907cb5140821 wifi: ath12k: fill link station statistics for MLO
