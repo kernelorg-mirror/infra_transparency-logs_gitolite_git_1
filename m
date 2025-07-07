@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 07 Jul 2025 21:42:19 -0000
-Message-Id: <175192453955.364120.16102543013918021085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 07 Jul 2025 21:42:56 -0000
+Message-Id: <175192457696.364599.4922224591184239760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/rtc-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 0bafe291cb429d39b5ff70bcf7b2f3ab026dcb02
+  - ref: refs/heads/pending
+    old: 64d1c5821afea0d3812c1d1aeda909d1ea0299aa
+    new: 44185b56d56973bd934cff0dcc1137c4c25991f2
     log: |
-         590951f908f25c7e4d6822f0109e7e230d7b0a89 dt-bindings: Move sophgo,cv1800b-rtc to rtc directory
-         d754e2c4aaeadb342036f89d8afc78db6ba2e210 dt-bindings: rtc: move nxp,lpc3220-rtc to separated file from trivial-rtc.yaml
-         0bafe291cb429d39b5ff70bcf7b2f3ab026dcb02 dt-bindings: rtc: nxp,lpc1788-rtc: add compatible string nxp,lpc1850-rtc
+         44185b56d56973bd934cff0dcc1137c4c25991f2 wifi: ath12k: Add num_stations counter for each interface
          
