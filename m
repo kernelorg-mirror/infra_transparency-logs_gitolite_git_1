@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 07 Jul 2025 19:39:09 -0000
-Message-Id: <175191714956.257443.87697364304301554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Mon, 07 Jul 2025 19:42:31 -0000
+Message-Id: <175191735174.261284.7903653191006643340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 731bfc181896a4dfd20a8c219bef1c205dd1d708
-    new: 2233378a8c606f7f6893d4c16aa6eb6fea027a52
-    log: |
-         2233378a8c606f7f6893d4c16aa6eb6fea027a52 iio: adc: ad7173: fix num_slots
-         
+  - ref: refs/heads/nova/irq-2
+    old: 0000000000000000000000000000000000000000
+    new: 660661f9902166f1d7cddeee5fcfc12bbfbcaba0
