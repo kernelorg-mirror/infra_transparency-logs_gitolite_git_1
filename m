@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Mon, 07 Jul 2025 14:27:58 -0000
-Message-Id: <175189847862.4175070.13831832154532278818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Mon, 07 Jul 2025 14:29:09 -0000
+Message-Id: <175189854974.4175896.17408703873525119645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/rcu/next
-    old: 47e3e6ce71e2d22d28f95e545cdd5c8f63d4fb1b
-    new: 7ba59b7a775fbad44455c2368531b2e77ec28bba
+  - ref: refs/heads/master
+    old: a5753d029173d69b09f593da13575b19e17641ff
+    new: a37b30288380b7ca1e513611eb1c2a3ac5493cc5
     log: |
-         7ba59b7a775fbad44455c2368531b2e77ec28bba rcu: Document concurrent quiescent state reporting for offline CPUs
+         a37b30288380b7ca1e513611eb1c2a3ac5493cc5 Make.Rules: Fix broken link to the sendmail issue
          
