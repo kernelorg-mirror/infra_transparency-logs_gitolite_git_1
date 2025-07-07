@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 07 Jul 2025 15:54:25 -0000
-Message-Id: <175190366576.63807.7937454185217215543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Mon, 07 Jul 2025 16:02:27 -0000
+Message-Id: <175190414763.70907.13946906277544069910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-linux-next
-    old: e37c15692a6743bf23e4c3d7ae41618138158e59
-    new: cfb5db387349f0349bdf62134576fb6d5c20852a
+  - ref: refs/heads/master
+    old: ec0f261ac38f2f6693096bad23597dc705cff63c
+    new: 9c1a363e3eca30646351962e7d3a172c862afb69
     log: |
-         76e65f7a0e0fb41d636c11b688db6393676f4bf4 firmware: arm_scmi: Add power management operations to SCMI bus
-         9a0658d3991e6c82df87584b253454842f22f965 firmware: arm_scmi: power_control: Ensure SCMI_SYSPOWER_IDLE is set early during resume
-         45ff50047f8632fcb1b04c35d7b788c0edf7aee6 firmware: arm_scmi: Optimize notifiers registration
-         cfb5db387349f0349bdf62134576fb6d5c20852a Merge branches 'for-next/smccc/updates' and 'for-next/scmi/updates' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         f14f2603820e46b1946d8f96eee10c99690aea82 util: fix endless loop in get_backoff_delta_msec
+         65afd0f1c6c7128a6166aed8096390c0649f5fe5 util: check for overflow in get_backoff_delta_msec
+         f71f74efa07ec289edfbd975ae1681cda506e26f testsuite: add test for get_backoff_delta_msec
+         2537c171bc906fcc67a6854c69b41cb0eb2db947 modprobe: return error on timeout
+         9c1a363e3eca30646351962e7d3a172c862afb69 util: Use local variable in get_backoff_delta_msec
          
