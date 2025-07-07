@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 07 Jul 2025 20:18:49 -0000
-Message-Id: <175191952983.291435.1233225563217630715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 07 Jul 2025 20:24:28 -0000
+Message-Id: <175191986827.296604.4761734829628806794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dm-6.17
-    old: 6e11952a6abc4641dc8ae63f01b318b31b44e8db
-    new: 846e9e999dd36ce5898d302d674e441e72c3a8cf
+  - ref: refs/heads/main
+    old: fc8ce20b25a596da3f4d58f68831bfd996e05651
+    new: 2208e9f56bf22fa43d3968df848e67a0fa51155b
     log: |
-         846e9e999dd36ce5898d302d674e441e72c3a8cf dm-stripe: fix a possible integer overflow
+         74d80fcf8ce29b1fc41d96178b9bbf708af72abd xe: Add fan_control v203.0.0.0 for BMG
+         2208e9f56bf22fa43d3968df848e67a0fa51155b Merge branch 'intel/fan_control_8086_e20b_8086_1100' into 'main'
          
