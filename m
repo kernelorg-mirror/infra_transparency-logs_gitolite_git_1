@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4352761202239151986=="
+Content-Type: multipart/mixed; boundary="===============5891451728871490023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 07 Jul 2025 18:07:11 -0000
-Message-Id: <175191163156.178754.14997600787266121960@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 18:10:58 -0000
+Message-Id: <175191185805.182714.12369261925807536760@gitolite.kernel.org>
 
---===============4352761202239151986==
+--===============5891451728871490023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: ef20c43137cfc09cd6a3290d067ae3580348e745
-    new: 50e60b392d0cf2d30e45072c53adfc786fed2cc7
-    log: revlist-ef20c43137cf-50e60b392d0c.txt
+  - ref: refs/heads/1GbE
+    old: 223e2288f4b8c262a864e2c03964ffac91744cd5
+    new: b9fd9888a5654e59f6c6249337e36c53c1faa329
+    log: revlist-223e2288f4b8-b9fd9888a565.txt
 
---===============4352761202239151986==
+--===============5891451728871490023==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ef20c43137cf-50e60b392d0c.txt
+Content-Disposition: attachment; filename=revlist-223e2288f4b8-b9fd9888a565.txt
 
 400123bd0107175e92a9780b97f7a5934eb0a991 dt-bindings: drm/bridge: ti-sn65dsi83: drop $ref to fix lvds-vod* warnings
 009c3a4bc41e855fd76f92727f9fbae4e5917d7f mmc: core: sd: Apply BROKEN_SD_DISCARD quirk earlier
@@ -323,18 +323,5 @@ b4911fb0b060899e4eebca0151eb56deb86921ec Merge tag 'mmc-v6.16-rc1' of git://git.
 d32e907d15f7257f69d38b4c829f87a79ecf8b7f Merge tag 'xfs-fixes-6.16-rc5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 17bbde2e1716e2ee4b997d476b48ae85c5a47671 Merge tag 'net-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b9fd9888a5654e59f6c6249337e36c53c1faa329 bnxt_en: eliminate the compile warning in bnxt_request_irq due to CONFIG_RFS_ACCEL
-51ab2fdde20777b9abd2d3449c8d5ae9add84d76 coccinelle: misc: secs_to_jiffies script: Create dummy report
-9f2794c1434f817817b2ddb5cc016af82a442da0 ice: fix lane number calculation
-b51f033e2c4288303cc3dc96209407e1b0c0d61a ice: fix fwlog after driver reinit
-6659154a2ac081828b10b4003c2c272dc6a343b1 ice: add NULL check in eswitch lag check
-ec7ed3b4be5feb79d7c7f077b0304415f016ef4d ixgbe: initialize aci lock before it's used
-fac518cd9e86f2a40429fdab04ad90fbd9e9875f i40e: report VF tx_dropped with tx_errors instead of tx_discards
-0a771f2347bcbc3856f22e0abc053098e2172845 ethernet: intel: fix building with large NR_CPUS
-ede96c86ecc4ce8c6282809987ab663f22d19845 ice: check correct pointer in fwlog debugfs
-a36bbcd950e430e470d9615ebf27241f29059948 i40e: When removing VF MAC filters, only check PF-set MAC
-a5592f782c4f54fe67295c9401e54241d55fb5b9 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
-e8b8960d34560f72396d120ebee0c32700f64ac8 ice: fix possible leak in ice_plug_aux_dev() error path
-3291ccbd0d8c9a136405bf0fbdc86832e6ae23e0 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
-50e60b392d0cf2d30e45072c53adfc786fed2cc7 e1000e: ignore uninitialized checksum word on tgp
 
---===============4352761202239151986==--
+--===============5891451728871490023==--
