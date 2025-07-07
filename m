@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3182786524655195221=="
+Content-Type: multipart/mixed; boundary="===============8500829558402385899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Jul 2025 09:31:38 -0000
-Message-Id: <175188069829.3884718.15703279238408223547@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 09:31:49 -0000
+Message-Id: <175188070982.3885005.5103901523854184120@gitolite.kernel.org>
 
---===============3182786524655195221==
+--===============8500829558402385899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: f0638b4fd3769e4f39dd7b12b81dea456a5e1e40
-    new: 0fe926a05d02a3f4406c16c66a6d95c86fbbc826
-    log: revlist-f0638b4fd376-0fe926a05d02.txt
+  - ref: refs/heads/m68k-queue
+    old: 496bc9bb0e2447c8d2b794e743eec59cb2f2faae
+    new: 3d365559c1a265fe78adc92028b8cc503f480b2c
+    log: revlist-496bc9bb0e24-3d365559c1a2.txt
 
---===============3182786524655195221==
+--===============8500829558402385899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0638b4fd376-0fe926a05d02.txt
+Content-Disposition: attachment; filename=revlist-496bc9bb0e24-3d365559c1a2.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -377,6 +377,20 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
-0fe926a05d02a3f4406c16c66a6d95c86fbbc826 Merge tag 'v6.16-rc5'
+622e6cfcceebb895ead13cda1daa1580c548892d m68k: mm: Convert get_pointer_table() to use ptdescs
+a7435adb9e1bb43614d498d3107029d0ff6d942d m68k: mm: Convert free_pointer_table() to use ptdescs
+2d7e00e54f3c91a8cafebb2e56389e4a30327d8e m68k: mm: Convert init_pointer_table() to use ptdescs
+4f596adb57d1ce14702f9ccfb237060bfd099718 m68k: mm: Convert pointer table macros to use ptdescs
+46f3ec0cb6d77ad9bb3c8350806bf199f093bfcf m68k: Fix lost column on framebuffer debug console
+6303b102c14d76bda0121d2bd65f6ad17e38abc3 m68k: Avoid pointless recursion in debug console rendering
+89b26bd37cffc26c570d7ff7cbd8f2c689c8d9e4 m68k: Remove unused "cursor home" code from debug console
+72e0abbdb69095ec9ee4668ed9db3805542a2438 m68k: Don't unregister boot console needlessly
+3bd5ec8e1ac356a677b587ef81ccf43930ad90ca m68k: Enable dead code elimination
+1a6723566c700948cfd6f773c424e37ca895242c m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
+f586fcba137c6f4648b3baf7543e302d295206c3 m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
+6386f30af8b2efc1d6f621be3f995936df7877c8 m68k: mac: Improve clocksource driver commentary
+d7c4c76c3b046596be50b5d408cd688d1948b96a m68k: atari: usb: Add ISP1160 USB host controller support
+3187d3df48b6f43a54f8eb96cc446d0e173b369f m68k: atari: Update Kconfig.bus help text
+3d365559c1a265fe78adc92028b8cc503f480b2c m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3182786524655195221==--
+--===============8500829558402385899==--
