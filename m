@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Mon, 07 Jul 2025 03:28:03 -0000
-Message-Id: <175185888386.3527184.13200543915006951955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Mon, 07 Jul 2025 03:29:34 -0000
+Message-Id: <175185897421.3528775.641906377955072424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: a71d3e1beb7a9637eb75929b995f01d20981f013
-    new: ef5785eb56d9c597ce5fa32fb0c17dcc17b26221
+  - ref: refs/heads/rcu/next
+    old: 75713505f2fdc76f13b3999e48f55249184c1ba2
+    new: 398dd827b4eecd0297dd4c8c041a8cc298fb90c5
     log: |
-         b4abeccb8d39db7d9b51cb0098d6458760b30a75 crypto: ccp - Fix locking on alloc failure handling
-         cb7fa6b6fc71e0c801e271aa498e2f19e6df2931 crypto: inside-secure - Fix `dma_unmap_sg()` nents value
-         735b72568c73875269a6b73ab9543a70f6ac8a9f crypto: jitter - fix intermediary handling
-         93dbc14fc1d4c223fc304e613f0a6f03e0bf3179 crypto: sun8i-ce - Fix `dma_unmap_sg()` nents value
-         ef5785eb56d9c597ce5fa32fb0c17dcc17b26221 crypto: ccp - Fix crash when rebind ccp device for ccp.ko
+         69b6743393e7e331c961edcd84f17ad9008066ab rcu: Fix rcu_read_unlock() deadloop due to IRQ work
+         eb2b096c8cf713489796a2b5f29605af0f148713 rcu: Refactor expedited handling check in rcu_read_unlock_special()
+         bb450a2a48a86883982b20626ba365e655764694 rcu: Remove redundant check for irq state during unlock
+         f9f0ca15f8357b03406e431d1f347401838b6fd3 rcu: Document GP init vs hotplug-scan ordering requirements
+         298df6b66b86c662e768e2142af2e5c0c413137f rcu: Document separation of rcu_state and rnp's gp_seq
+         398dd827b4eecd0297dd4c8c041a8cc298fb90c5 rcu: Document concurrent quiescent state reporting for offline CPUs
          
