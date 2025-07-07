@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5891451728871490023=="
+Content-Type: multipart/mixed; boundary="===============7342059770611307378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 07 Jul 2025 18:10:58 -0000
-Message-Id: <175191185805.182714.12369261925807536760@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 18:11:01 -0000
+Message-Id: <175191186121.182821.9872427480594494635@gitolite.kernel.org>
 
---===============5891451728871490023==
+--===============7342059770611307378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 223e2288f4b8c262a864e2c03964ffac91744cd5
     new: b9fd9888a5654e59f6c6249337e36c53c1faa329
     log: revlist-223e2288f4b8-b9fd9888a565.txt
 
---===============5891451728871490023==
+--===============7342059770611307378==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -324,4 +324,4 @@ d32e907d15f7257f69d38b4c829f87a79ecf8b7f Merge tag 'xfs-fixes-6.16-rc5' of git:/
 17bbde2e1716e2ee4b997d476b48ae85c5a47671 Merge tag 'net-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b9fd9888a5654e59f6c6249337e36c53c1faa329 bnxt_en: eliminate the compile warning in bnxt_request_irq due to CONFIG_RFS_ACCEL
 
---===============5891451728871490023==--
+--===============7342059770611307378==--
