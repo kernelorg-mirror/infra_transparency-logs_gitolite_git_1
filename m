@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2572118336282459736=="
+Content-Type: multipart/mixed; boundary="===============1516310565966741435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 07 Jul 2025 09:21:32 -0000
-Message-Id: <175188009273.3875266.16781872587420831673@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 09:22:36 -0000
+Message-Id: <175188015601.3876032.15904163006635946021@gitolite.kernel.org>
 
---===============2572118336282459736==
+--===============1516310565966741435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v6.16-next/dts64
-    old: a40b35819ba9fce0e942bd89600cbd78da8304f0
-    new: 5a40efb8c9d26e51db8acc61e920c3eda9407c02
-    log: revlist-a40b35819ba9-5a40efb8c9d2.txt
+  - ref: refs/heads/for-next
+    old: 96130fd85e1738e9b5d20745e3dca35286e52dd5
+    new: 7c984ff78646835b480c1508dbf33e81bb967e62
+    log: revlist-96130fd85e17-7c984ff78646.txt
 
---===============2572118336282459736==
+--===============1516310565966741435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a40b35819ba9-5a40efb8c9d2.txt
+Content-Disposition: attachment; filename=revlist-96130fd85e17-7c984ff78646.txt
 
 32239b8900a4c8481017e1e86e2ec81db155a784 dt-bindings: arm: mediatek: Merge MT8186 Voltorb entries
 8101382c24b9ecfe3f56225410f92913b4fa8730 dt-bindings: arm: mediatek: Add MT8186 Squirtle Chromebooks
@@ -38,5 +38,6 @@ bd9e0f5d90959d2d07986084fbd58042b62aa549 dt-bindings: interconnect: add mt7988-c
 b5a4ad957114b59a74b3e3f598ae0785dd86cd32 arm64: dts: mediatek: mt7988a-bpi-r4: add proc-supply for cci
 bc51660cd5fd2d0ee9a65b59e0c65e2d1b65975a arm64: dts: mediatek: mt7988a-bpi-r4: drop unused pins
 5a40efb8c9d26e51db8acc61e920c3eda9407c02 arm64: dts: mediatek: mt7988a-bpi-r4: add gpio leds
+7c984ff78646835b480c1508dbf33e81bb967e62 Merge branch 'v6.16-next/soc' into for-next
 
---===============2572118336282459736==--
+--===============1516310565966741435==--
