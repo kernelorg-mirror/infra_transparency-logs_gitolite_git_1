@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Mon, 07 Jul 2025 19:42:31 -0000
-Message-Id: <175191735174.261284.7903653191006643340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 07 Jul 2025 20:02:28 -0000
+Message-Id: <175191854800.278338.17562420895212805269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/nova/irq-2
-    old: 0000000000000000000000000000000000000000
-    new: 660661f9902166f1d7cddeee5fcfc12bbfbcaba0
+  - ref: refs/heads/v2_20250701_kuninori_morimoto_gx_asoc_soc_dapm_cleanups
+    old: 08dc0f5cc26a203e8008c38d9b436c079e7dbb45
+    new: 0000000000000000000000000000000000000000
