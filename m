@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Mon, 07 Jul 2025 02:35:08 -0000
-Message-Id: <175185570838.3482874.17476850294585666339@gitolite.kernel.org>
+Date: Mon, 07 Jul 2025 02:41:29 -0000
+Message-Id: <175185608901.3487969.10233153121634761988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/next
-    old: 29234e544df82695a15a390efc8125f7f1b539bf
-    new: b3f902d0df31e1683f16de8cb504f01d8a586772
+    old: b3f902d0df31e1683f16de8cb504f01d8a586772
+    new: 9a7c0f9685914fbb25239d7a5ffd3241d40f3c02
     log: |
-         b3f902d0df31e1683f16de8cb504f01d8a586772 rcu/doc: Clarify why ofl_lock is not needed in second phase
+         9a7c0f9685914fbb25239d7a5ffd3241d40f3c02 rcu/doc: Show second loop behavior in race condition diagram
          
