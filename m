@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 08 Jul 2025 13:09:01 -0000
-Message-Id: <175198014170.1152183.16012151146609774466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 08 Jul 2025 13:10:19 -0000
+Message-Id: <175198021946.1155284.10842761337075430266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 52003b917e58b8e927ddbfc18109875c70a673dd
-    new: 1080fb4d68dc853fa85f28126de3b2b6b22daf6f
+  - ref: refs/heads/next
+    old: c2b58a664aaed6f70e17a5608a42e3e24c51ca06
+    new: a72c5607ff30d47472a79bd3400b9e1be8460c2a
     log: |
-         1080fb4d68dc853fa85f28126de3b2b6b22daf6f patches/next: rebase to latest mm-new
+         a72c5607ff30d47472a79bd3400b9e1be8460c2a TODO: update with new items
          
