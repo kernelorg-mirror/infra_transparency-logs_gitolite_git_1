@@ -1,47 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4216127516373071859=="
+Content-Type: multipart/mixed; boundary="===============0057181703414466090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Tue, 08 Jul 2025 14:42:37 -0000
-Message-Id: <175198575770.1235595.11402469579895382800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 08 Jul 2025 14:42:54 -0000
+Message-Id: <175198577478.1235955.17442104881446381526@gitolite.kernel.org>
 
---===============4216127516373071859==
+--===============0057181703414466090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 7482bb149b9f4e2c9f195a3fcb2af2f2b5aa8307
-    new: ec4801305969384c16a4ecb9327a53d752d51777
-    log: revlist-7482bb149b9f-ec4801305969.txt
-  - ref: refs/heads/for-next/core
-    old: 6ca72592aa85571fa8bee72dc1de49ba8d3b5f7b
-    new: 16b0485f601ceed9aa8b009dea63c37103a8ef69
-    log: revlist-6ca72592aa85-16b0485f601c.txt
-  - ref: refs/heads/for-next/debug-entry
-    old: bea7b63b2225dddf7ae6ef1af6830f02389e9072
-    new: a8b8cce9d96d65dfe3d89abf02033151f8b7d670
-    log: revlist-bea7b63b2225-a8b8cce9d96d.txt
-  - ref: refs/heads/for-next/misc
-    old: 093ae7a033cfde536db997e7dc4e829ce65fb38a
-    new: 344b6580472451390d070c65c27f59716a1deecb
-    log: |
-         344b6580472451390d070c65c27f59716a1deecb arm64: fix unnecessary rebuilding when CONFIG_DEBUG_EFI=y
-         
-  - ref: refs/heads/for-next/vmap-stack
-    old: 0000000000000000000000000000000000000000
-    new: 9d1869f0f537d26005a521a141dde759fc3303f5
+  - ref: refs/heads/x86/urgent
+    old: 52e1a03e6cf61ae165f59f41c44394a653a0a788
+    new: 5a97aa3a4f1f19656aea5c76c1da66ce9dc5ddaf
+    log: revlist-52e1a03e6cf6-5a97aa3a4f1f.txt
 
---===============4216127516373071859==
+--===============0057181703414466090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7482bb149b9f-ec4801305969.txt
+Content-Disposition: attachment; filename=revlist-52e1a03e6cf6-5a97aa3a4f1f.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -247,7 +230,6 @@ f3e58d8e154dae5015c7400812c80789589fc36e drm/amdgpu: Fix memory leak in amdgpu_c
 964209202ebe1569c858337441e87ef0f9d71416 powercap: intel_rapl: Do not change CLAMPING bit if ENABLE bit cannot be changed
 74ebd02163fde05baa23129e06dde4b8f0f2377a cifs: all initializations for tcon should happen in tcon_info_alloc
 fbf913cb72a52559ae98951fb4311b81d7b0650e bcachefs: Fix incorrect transaction restart handling
-52e1a03e6cf61ae165f59f41c44394a653a0a788 x86/sev: Use TSC_FACTOR for Secure TSC frequency calculation
 66701750d5565c574af42bef0b789ce0203e3071 Merge tag 'io_uring-6.16-20250630' of git://git.kernel.dk/linux
 e39ed71c7a26e8e94c637e222bc373b511ca127f net: txgbe: fix the issue of TX failure
 6c7ffc9af7186ed79403a3ffee9a1e5199fc7450 net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
@@ -364,13 +346,6 @@ b969f9614885c20f903e1d1f9445611daf161d6d fix proc_sys_compare() handling of in-l
 4cf65845fdd09d711fc7546d60c9abe010956922 Input: cs40l50-vibra - fix potential NULL dereference in cs40l50_upload_owt()
 25b1b75bbaf96331750fb01302825069657b2ff8 iommu/vt-d: Assign devtlb cache tag on ATS enablement
 fc975cfb36393db1db517fbbe366e550bcdcff14 sched/deadline: Fix dl_server runtime calculation formula
-ef8923e6c051a98164c2889db943df9695a39888 arm64: efi: Fix KASAN false positive for EFI runtime stack
-727c2a53cf959f599493c50a80fe2a356b8b1df6 arm64: Unconditionally select CONFIG_JUMP_LABEL
-0d1c86b840966a278d9b25a9d7c18881980f306e arm64/gcs: Don't try to access GCS registers if arm64.nogcs is enabled
-6c66bb655ca3fd5e9304163cf70796d08de512ed arm64: move smp_send_stop() cpu mask off stack
-a75ad2fc76a2ab70817c7eed3163b66ea84ca6ac arm64: Filter out SME hwcaps when FEAT_SME isn't implemented
-22f3a4f6085951eff28bd1e44d3f388c1d9a5f44 arm64: poe: Handle spurious Overlay faults
-9dd1757493416310a5e71146a08bc228869f8dae arm64/mm: Drop wrong writes into TCR2_EL1
 2eb7f03acf4ac5db937974e99e75dac4c2c5a83d Merge tag 'vfs-6.16-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 482deed9dfa065cf3f68372dadac857541c7d504 Merge tag 'bcachefs-2025-07-03' of git://evilpiepirate.org/bcachefs
 534eb6de621954cde61c910dbeb8fb1700a0a0d6 Merge tag 'i2c-host-fixes-6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
@@ -401,84 +376,7 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
-ad8b22648b7d0bc6f84230508436b1aafc2e2516 arm64: debug: clean up single_step_handler logic
-b1e2d95524e4d0f5b643394c739212869e95cf6a arm64: refactor aarch32_break_handler()
-6adfdc5e2ef9c71a76d8d127a2eb54f0fbe9be5e arm64: debug: call software breakpoint handlers statically
-403b48aad5b3e857b8c2576ce6a421f3d23dd6a6 arm64: debug: call step handlers statically
-d4e0b12620946a4011ad695490211fc38bf5cb42 arm64: debug: remove break/step handler registration infrastructure
-eaff68b3286116d499a3d4e513a36d772faba587 arm64: entry: Add entry and exit functions for debug exceptions
-43e2ae77fcab8a01101a2e5da528b5222b338e5f arm64: debug: split hardware breakpoint exception entry
-80691d35523de3292b64c2ffa444aab3d55e51ba arm64: debug: refactor reinstall_suspended_bps()
-0ac7584c08ceff13fc1e3082a0104548688d6b00 arm64: debug: split single stepping exception entry
-413f0bba005dacf2484bb8ecce212fab9be79d81 arm64: debug: split hardware watchpoint exception entry
-31575e11ecf7e44face72d1e624cb147a9283733 arm64: debug: split brk64 exception entry
-fc5e5d0477c532054ce8692fd16fdaab2cb8946f arm64: debug: split bkpt32 exception entry
-a8b8cce9d96d65dfe3d89abf02033151f8b7d670 arm64: debug: remove debug exception registration infrastructure
-ef6861b8e6dd7d933e29022b6620c42085b907f9 arm64: Mandate VMAP_STACK
-63829521a8e8fd8852305b521ba8cb7b41722365 arm64: efi: Remove CONFIG_VMAP_STACK check
-0909c719c17b7a3e88dd1ee231b4a136c946c39e arm64: Remove CONFIG_VMAP_STACK conditionals from THREAD_SHIFT and THREAD_ALIGN
-c4a5699d5cefd9d6a6a1d326297d5de6e8e0adde arm64: remove CONFIG_VMAP_STACK conditionals from irq stack setup
-e5692bba1e6667441836e13f723112e4aeec3028 arm64: remove CONFIG_VMAP_STACK conditionals from traps overflow stack
-907cb5cd8efdae8672b7fd45047d130a430179f6 arm64: remove CONFIG_VMAP_STACK checks from stacktrace overflow logic
-3e72b9e9f01a4851640a095de688a031d9259f5d arm64: remove CONFIG_VMAP_STACK checks from SDEI stack handling
-9d1869f0f537d26005a521a141dde759fc3303f5 arm64: remove CONFIG_VMAP_STACK checks from entry code
-344b6580472451390d070c65c27f59716a1deecb arm64: fix unnecessary rebuilding when CONFIG_DEBUG_EFI=y
-16b0485f601ceed9aa8b009dea63c37103a8ef69 Merge branches 'for-next/acpi', 'for-next/debug-entry', 'for-next/feat_mte_store_only', 'for-next/kselftest', 'for-next/livepatch', 'for-next/mdscr-cleanup', 'for-next/misc', 'for-next/user-contig-bbml2' and 'for-next/vmap-stack' into for-next/core
-ec4801305969384c16a4ecb9327a53d752d51777 Merge branches 'for-next/core' and 'for-next/fixes' into for-kernelci
+dc562662cb2b0bcc7af4ca3cd53e6140ff52a418 x86/rdrand: Disable RDSEED on AMD Cyan Skillfish
+5a97aa3a4f1f19656aea5c76c1da66ce9dc5ddaf x86/CPU/AMD: Disable INVLPGB on Zen2
 
---===============4216127516373071859==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ca72592aa85-16b0485f601c.txt
-
-c0c7fa4e7a512006710c8e4d6b6f7b40c9f786cd docs: arm64: Fix ICC_SRE_EL2 register typo in booting.rst
-650768c512faba8070bf4cfbb28c95eb5cd203f3 arm64: Restrict pagetable teardown to avoid false warning
-d2be3270f40b1330f8c1c9512c59dd085a758ac0 arm64/gcs: Don't call gcs_free() during flush_gcs()
-39dfc971e42d886e7df01371cd1bef505076d84c arm64/ptrace: Fix stack-out-of-bounds read in regs_get_kernel_stack_nth()
-ef8923e6c051a98164c2889db943df9695a39888 arm64: efi: Fix KASAN false positive for EFI runtime stack
-ad8b22648b7d0bc6f84230508436b1aafc2e2516 arm64: debug: clean up single_step_handler logic
-b1e2d95524e4d0f5b643394c739212869e95cf6a arm64: refactor aarch32_break_handler()
-6adfdc5e2ef9c71a76d8d127a2eb54f0fbe9be5e arm64: debug: call software breakpoint handlers statically
-403b48aad5b3e857b8c2576ce6a421f3d23dd6a6 arm64: debug: call step handlers statically
-d4e0b12620946a4011ad695490211fc38bf5cb42 arm64: debug: remove break/step handler registration infrastructure
-eaff68b3286116d499a3d4e513a36d772faba587 arm64: entry: Add entry and exit functions for debug exceptions
-43e2ae77fcab8a01101a2e5da528b5222b338e5f arm64: debug: split hardware breakpoint exception entry
-80691d35523de3292b64c2ffa444aab3d55e51ba arm64: debug: refactor reinstall_suspended_bps()
-0ac7584c08ceff13fc1e3082a0104548688d6b00 arm64: debug: split single stepping exception entry
-413f0bba005dacf2484bb8ecce212fab9be79d81 arm64: debug: split hardware watchpoint exception entry
-31575e11ecf7e44face72d1e624cb147a9283733 arm64: debug: split brk64 exception entry
-fc5e5d0477c532054ce8692fd16fdaab2cb8946f arm64: debug: split bkpt32 exception entry
-a8b8cce9d96d65dfe3d89abf02033151f8b7d670 arm64: debug: remove debug exception registration infrastructure
-ef6861b8e6dd7d933e29022b6620c42085b907f9 arm64: Mandate VMAP_STACK
-63829521a8e8fd8852305b521ba8cb7b41722365 arm64: efi: Remove CONFIG_VMAP_STACK check
-0909c719c17b7a3e88dd1ee231b4a136c946c39e arm64: Remove CONFIG_VMAP_STACK conditionals from THREAD_SHIFT and THREAD_ALIGN
-c4a5699d5cefd9d6a6a1d326297d5de6e8e0adde arm64: remove CONFIG_VMAP_STACK conditionals from irq stack setup
-e5692bba1e6667441836e13f723112e4aeec3028 arm64: remove CONFIG_VMAP_STACK conditionals from traps overflow stack
-907cb5cd8efdae8672b7fd45047d130a430179f6 arm64: remove CONFIG_VMAP_STACK checks from stacktrace overflow logic
-3e72b9e9f01a4851640a095de688a031d9259f5d arm64: remove CONFIG_VMAP_STACK checks from SDEI stack handling
-9d1869f0f537d26005a521a141dde759fc3303f5 arm64: remove CONFIG_VMAP_STACK checks from entry code
-344b6580472451390d070c65c27f59716a1deecb arm64: fix unnecessary rebuilding when CONFIG_DEBUG_EFI=y
-16b0485f601ceed9aa8b009dea63c37103a8ef69 Merge branches 'for-next/acpi', 'for-next/debug-entry', 'for-next/feat_mte_store_only', 'for-next/kselftest', 'for-next/livepatch', 'for-next/mdscr-cleanup', 'for-next/misc', 'for-next/user-contig-bbml2' and 'for-next/vmap-stack' into for-next/core
-
---===============4216127516373071859==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bea7b63b2225-a8b8cce9d96d.txt
-
-ad8b22648b7d0bc6f84230508436b1aafc2e2516 arm64: debug: clean up single_step_handler logic
-b1e2d95524e4d0f5b643394c739212869e95cf6a arm64: refactor aarch32_break_handler()
-6adfdc5e2ef9c71a76d8d127a2eb54f0fbe9be5e arm64: debug: call software breakpoint handlers statically
-403b48aad5b3e857b8c2576ce6a421f3d23dd6a6 arm64: debug: call step handlers statically
-d4e0b12620946a4011ad695490211fc38bf5cb42 arm64: debug: remove break/step handler registration infrastructure
-eaff68b3286116d499a3d4e513a36d772faba587 arm64: entry: Add entry and exit functions for debug exceptions
-43e2ae77fcab8a01101a2e5da528b5222b338e5f arm64: debug: split hardware breakpoint exception entry
-80691d35523de3292b64c2ffa444aab3d55e51ba arm64: debug: refactor reinstall_suspended_bps()
-0ac7584c08ceff13fc1e3082a0104548688d6b00 arm64: debug: split single stepping exception entry
-413f0bba005dacf2484bb8ecce212fab9be79d81 arm64: debug: split hardware watchpoint exception entry
-31575e11ecf7e44face72d1e624cb147a9283733 arm64: debug: split brk64 exception entry
-fc5e5d0477c532054ce8692fd16fdaab2cb8946f arm64: debug: split bkpt32 exception entry
-a8b8cce9d96d65dfe3d89abf02033151f8b7d670 arm64: debug: remove debug exception registration infrastructure
-
---===============4216127516373071859==--
+--===============0057181703414466090==--
