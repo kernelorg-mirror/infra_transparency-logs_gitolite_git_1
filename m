@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5846072397237599257=="
+Content-Type: multipart/mixed; boundary="===============2198776518140825620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 08 Jul 2025 13:52:15 -0000
-Message-Id: <175198273526.1191245.453665945494666452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 08 Jul 2025 13:52:29 -0000
+Message-Id: <175198274907.1191636.8650600372120805731@gitolite.kernel.org>
 
---===============5846072397237599257==
+--===============2198776518140825620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: 3b3312f28ee2d9c386602f8521e419cfc69f4823
-    new: 6f80be548588429100eb1f5e25dc2a714d583ffe
+  - ref: refs/heads/for-6.17
+    old: 769fced9433ec0c12a3815ed1001e90b511da5cf
+    new: 5054740e0092aac528c0589251f612b3b41c9e7b
     log: |
-         6f80be548588429100eb1f5e25dc2a714d583ffe ASoC: amd: yc: add DMI quirk for ASUS M6501RM
+         5054740e0092aac528c0589251f612b3b41c9e7b regulator: sy8827n: make enable gpio NONEXCLUSIVE
          
 
---===============5846072397237599257==
+--===============2198776518140825620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1751982774 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1751982732-4be5f98e15db7e142b38666ab02a221a3b6b0e0a
+pusher Mark Brown <broonie@kernel.org> 1751982787 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1751982747-185d1902e2585c9fffd843f2629fb7fd8a30ed1b
 
-3b3312f28ee2d9c386602f8521e419cfc69f4823 6f80be548588429100eb1f5e25dc2a714d583ffe refs/heads/asoc-6.16
+769fced9433ec0c12a3815ed1001e90b511da5cf 5054740e0092aac528c0589251f612b3b41c9e7b refs/heads/for-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhtIrYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0C7CB/wNu7kho/f3Vx5lwXaAxzCqwnIrlL9t
-gh53eV9+dWpc2cb3hxlapRXR8ON+XCxBPOBF9f6/HUjfB9m31kaEbIyvdCNtzgwq
-SFyxzFxfc+xWpsISKWXRa64IcNxNQyQ8EDdMe9rjWSeKcRW6kN9pA3QV4QF9tEGx
-lclWx4DwOQU2J0qONRta6VsIJgGl7G8+PBeKkHNW8yJlxT68xDyOyCnycKfYN36m
-h56Mri8MfYKFFgsivsW9fEEEIJhWfzAThIziFATuunW1rhZHjHJv8Eq8CxeXAM9H
-TKKLUkdX1CcwYXLLAkgQGo1HwkArspB8uPrgbWhVvmHG0iCYYQ/rQmCy
-=+nCe
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhtIsMTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0J8lB/4ocnHd/V6bJY2zWbht+fWJTGAcpT1p
+Z31ZkJDOYY8Rm7ZUPdfZkVq0xn+L5Hq9FzFHq1VNftd2z+dru/WCCGH0s21adPHv
+cHeeqZ7wMzDY4ClP4YwIfsRiNJ3U0e3eOe90sAPV+wGOPX9i09hpFfPPV0Mx9Fjg
+wJiNCINp56evH3YUJAiz7GsiDRy4sQ1P7WJOOTIUhOKXJrO/dSDVTOApPlYDKb9v
+C9xilfegGwc2vmxSDi1PdfyAYZwlyrjBOE/Z8qg0Eqr+kpBqXvX/2yXnAsPHccBE
+Z4OKkVkXNqw7C9XwtgyQ1UAH0LgxwveWfClAbCKe+zXFvAUPPEPFgsop
+=DfxI
 -----END PGP SIGNATURE-----
 
---===============5846072397237599257==--
+--===============2198776518140825620==--
