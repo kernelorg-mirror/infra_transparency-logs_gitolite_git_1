@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Tue, 08 Jul 2025 02:32:46 -0000
-Message-Id: <175194196671.623393.6375290172594432950@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 02:39:15 -0000
+Message-Id: <175194235571.628168.9042677955393947976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bmc/linux
 user: arj
 changes:
-  - ref: refs/tags/aspeed-6.16-fixes-0
+  - ref: refs/tags/aspeed-6.17-drivers-1
     old: 0000000000000000000000000000000000000000
-    new: 6132e646e026f66aa5ad309a31f6472f40f1e45b
+    new: 9059c1961b3273526649790a2bdae495f87341a9
