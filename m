@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Tue, 08 Jul 2025 18:01:57 -0000
-Message-Id: <175199771709.1433799.14765039683624739856@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3763698058042082948=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Jul 2025 18:04:30 -0000
+Message-Id: <175199787021.1435693.17293456641244699281@gitolite.kernel.org>
+
+--===============3763698058042082948==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next/perf
-    old: 860a831de138a7ad6bc86019adaf10eb84c02655
-    new: ba2ff3e1b640ca7aa0841be3dae94daa6b60bf49
+  - ref: refs/heads/master
+    old: 36cff323379593e4493af1fb57aed8de272cb788
+    new: 5f794f53ec0b4f951a78217accf1092aa626d926
     log: |
-         52e4a56ab8b85a11ffc017eaec5b2f38642a43ba arm64/sysreg: Add BRBE registers and fields
-         ae344bcb0d4967f6aa5f7b02f86bcfd389e513e4 arm64: Handle BRBE booting requirements
-         d7567e9b9ba53861390830ee18b9fb2035ca81c4 KVM: arm64: nvhe: Disable branch generation in nVHE guests
-         58074a0fce66c6c97b35ce8a28ed4e7b780f9a8f perf: arm_pmuv3: Add support for the Branch Record Buffer Extension (BRBE)
-         ba2ff3e1b640ca7aa0841be3dae94daa6b60bf49 perf: arm_spe: Relax period restriction
+         5f794f53ec0b4f951a78217accf1092aa626d926 update queue-5.15/x86-bugs-add-a-transient-scheduler-attacks-mitigation.patch
          
+
+--===============3763698058042082948==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751997906 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1751997866-2a1515e2d4774072de470b68bd02d67df6c3f0b6
+
+36cff323379593e4493af1fb57aed8de272cb788 5f794f53ec0b4f951a78217accf1092aa626d926 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhtXdIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8LoP/1tVvX4c0lbJpEaDpc+Z
+sTFzJqmP1wKw7aCNxxnaJvYYv1FnnfukLK/oOPggrcgxpOZZQYhSFGd/fTB/MiRo
+XDqQ430eTcm9KJZnIDeVeaheStNnpRgC+KIPocad1pr/AhohSPf0+62zbbRmTyjw
+ESrmQIr69pYFbAqeeNtUizsTdmxFb8aFKq+QSu869irUlYMBZ5Biz3s29BU18yrC
+z47gCPXyzpkRp7YbPwoMCTBDHZccGzyXPE5oWKw3UGjAIFehDssgO9B6QeaHEeLy
+VQ4UyqUQVESLPSBHadeZNv5A5Okk/VUuLquTQ2cq9CUZ/MTrJd055qGWm0MmtSuK
+2dMwED8ZBAaAPkcDZ+kg0F/ddFA7BmZSW8ftDXSmVV9xZxapfFZyVTqYzGILDvel
+kCvxLgwddb5ZXSYipqDxwQqGTLD5HwoYMIeytc1XlAwNdQ3HuQV/sOPA5phc/Nih
+QciEntclWk2aOCO2ifXEYvOnDjVuxF3Mnl2GoHeYpWK2ZMyIg1E15DDev0LStIpi
+lywzyyEGn8W4Eob5iTFld8WLR2y2e925uWFNf6pdJwbHR+CDSBUC30cerxK1hw4F
+Zx/bCNmy189RGpCoKpPgZsVxpwEe0BVC8enNNBJCBxJmWH+aSnnMnAmH2SUmcWyV
+8+h7NEu0HdwyaIzXEaL6XZB6
+=CJAq
+-----END PGP SIGNATURE-----
+
+--===============3763698058042082948==--
