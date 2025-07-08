@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0328563191370588763=="
+Content-Type: multipart/mixed; boundary="===============4152500280087706442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 08 Jul 2025 19:53:18 -0000
-Message-Id: <175200439861.1539567.18232159278733150763@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 19:53:21 -0000
+Message-Id: <175200440155.1539718.10370758877954988991@gitolite.kernel.org>
 
---===============0328563191370588763==
+--===============4152500280087706442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: 9bc39aaefacb4d80290aeaba34058c1f131871a2
-    new: f16aa0fd145eec996d6feb36c729d7b281e5949e
-    log: revlist-9bc39aaefacb-f16aa0fd145e.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: bd675ab2cae76cded95f3b5cc5c1e0ab36a8a1b2
+    new: 7f27fa6c60c682367a647a1279d0280fe0e643bd
+    log: revlist-bd675ab2cae7-7f27fa6c60c6.txt
 
---===============0328563191370588763==
+--===============4152500280087706442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bc39aaefacb-f16aa0fd145e.txt
+Content-Disposition: attachment; filename=revlist-bd675ab2cae7-7f27fa6c60c6.txt
 
 12aeaa8e1e9ce410475ff12f1068d56bac6f0d8c NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
 a393ec84469dc2ea5fa5c2b26de5d353ff393557 NFSD: release read access of nfs4_file when a write delegation is returned
@@ -74,5 +74,11 @@ dda0daed6144e95b738dddb14a3c8bdfe08f0268 NFS: Enable the RWF_DONTCACHE flag for 
 bd83ad086d1665488930e92bbd91569902227ae3 Expand the type of nfs_fattr->valid
 ba7c2fb63eb9b08870db852f3b214fb8f8648002 nfs: Add timecreate to nfs inode
 f16aa0fd145eec996d6feb36c729d7b281e5949e NFS: Return the file btime in the statx results when appropriate
+266dc99a2eba55f9400aa68c8d59e2dbbb4f751a nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+ff79591c9619bc6273059b7a8db60d294d9183bf nfs/localio: add localio_async_probe modparm
+10da8d6fc49792af0cc2abdf81fccd1d390fcd56 nfs/localio: make trace_nfs_local_open_fh more useful
+8342c19e0e638eff7c9b7556faf5a56dbae53bd1 nfs/localio: add nfsd_file_dio_alignment
+c5a291971d6919806690eb4e98a1b220be676290 nfs/localio: refactor iocb initialization
+7f27fa6c60c682367a647a1279d0280fe0e643bd nfs/localio: fallback to NFSD for misaligned O_DIRECT READs
 
---===============0328563191370588763==--
+--===============4152500280087706442==--
