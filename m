@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 08 Jul 2025 00:10:23 -0000
-Message-Id: <175193342360.492282.13295912051970073363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 08 Jul 2025 00:13:22 -0000
+Message-Id: <175193360296.493691.2581962502333743261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 73fb506e7cd41ffe37354faff95dc14c992cf44d
-    new: 52003b917e58b8e927ddbfc18109875c70a673dd
+  - ref: refs/heads/nova/irq-2
+    old: d5f0e26218b5dfa30081b2dc7d76704a396af2b8
+    new: bac4a332c09645b0a57a50ef9d7d0d9b4ea25fa4
     log: |
-         52003b917e58b8e927ddbfc18109875c70a673dd patches/next: add Yunjeong's mtier address setup patch
+         bac4a332c09645b0a57a50ef9d7d0d9b4ea25fa4 nova-core: Implement rm_control and initial irq table dump
          
