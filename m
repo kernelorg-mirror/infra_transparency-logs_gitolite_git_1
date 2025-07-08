@@ -1,76 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5577620172871248661=="
+Content-Type: multipart/mixed; boundary="===============0642070123400208817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 08 Jul 2025 05:48:18 -0000
-Message-Id: <175195369829.783430.14925988601051922655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 08 Jul 2025 06:08:32 -0000
+Message-Id: <175195491209.799768.12374107448070583160@gitolite.kernel.org>
 
---===============5577620172871248661==
+--===============0642070123400208817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/rdma-next
-    old: de1afd82a2e86f44b30920a0f14eaa0fe1d8b8f8
-    new: 60a756c82fa1f2e6e6be7b118cce6b520a627679
-    log: revlist-de1afd82a2e8-60a756c82fa1.txt
+  - ref: refs/heads/test/hda-reorg
+    old: be6979113a769a90bab2a55a30ae83b76f5971e6
+    new: a237105a22ccd3962d471035a8ce4620644120b4
+    log: revlist-be6979113a76-a237105a22cc.txt
 
---===============5577620172871248661==
+--===============0642070123400208817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de1afd82a2e8-60a756c82fa1.txt
+Content-Disposition: attachment; filename=revlist-be6979113a76-a237105a22cc.txt
 
-592cb54e50e784279836409eac7726fa492ef4c6 net/mlx5: Add support for device steering tag
-498e5946847317959516bd22c3e073a41f9c95f9 IB/core: Add UVERBS_METHOD_REG_MR on the MR object
-82f8e39ede16ecd30fbb0069c80fbf8803ced727 RDMA/core: Introduce a DMAH object and its alloc/free APIs
-69ffd35708bead528b3bff9ace7cd8df959a261b RDMA/mlx5: Add DMAH object support
-99f6c7a29df1f20b057b38115a918c657ab0ae6f IB: Extend UVERBS_METHOD_REG_MR to get DMAH
-fce6eb5302c85497439f8b80aa95d12be72d3488 RDMA/mlx5: Add DMAH support for reg_user_mr/reg_user_dmabuf_mr
-b8a8c9ef883114faf222cbd49202fe8a4b46d1af RDMA/core: Introduce peer memory interface
-f11ce9d0d804cab8609f1389cd37eace8554f208 TEMP: Increase lockdep depth
-e44e3cd6de6b74fc0df0541e4f0539e8355cb667 TEMP: Increase MAX_LOCKDEP_ENTRIES size
-7a2d4ded641d50ffa420d02dec81f61367b5c177 xfrm: advance SEQ number in non-ESN mode
-df7b4bab630c067f370067e9d21462a40752a40d xfrm: advance SEQ number in ESN mode
-9c6ce6da72bc0b7e07884837cca2b0414f6b1636 xfrm: advance SEQ number in BMP mode
-d8f167f71a5a50692e89ce2ceb7ad804f7122f21 rds: rely on IB/core to determine if device is ODP capable
-84dc9adb83d17cbfaedeba290e79776cacbe0fdc swiotlb: Enrich message about buffer overflow
-6504774172e0e58e73c5641e1b88140370eaf1a5 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
-83f4d4a78695e19dbba39dae2573e159c4723dde xfrm: skip templates check for packet offload tunnel mode
-ede92adb5d017ef3bd851bcad5f345348964d40a coccinelle: misc: secs_to_jiffies script: Create dummy report
-68bb4b7024400da58801677ef98a95bfe0571996 xfrm: always initialize offload path
-2714fd2d0b990bdd03b0e99126622e69e2cd3d4a IB/mad: Add state machine to MAD layer
-cdc9252e9aebad539417ee0fd0c8d9f5fd7c8b93 IB/mad: Add flow control for solicited MADs
-71802b5b8ec90a1eb2f1dd026dee4214993b610f IB/cm: Use separate agent w/o flow control for REP
-33642e050d6cbbcce20ee77a32affed48bc10dc0 RDMA/sa_query: Add RMPP support for SA queries
-13c4ce331342c175689b9e2ff6c2d027322ff6a1 RDMA/sa_query: Support IB service records resolution
-00137900a10510f1cf998a665176d846d27fcc99 RDMA/cma: Support IB service record resolution
-cfb555ace260e0eebe5c49e0a7ed2aae5842f0b4 RDMA/ucma: Support query resolved service records
-987329f3326ffe283f97d1eb0b5cc47d286057bf RDMA/ucma: Support write an event into a CM
-c91ccd36da71deffc96031a95c41921747f4bbd6 sched/topology: Correct "sched_domains_curr_level" in topology_span_sane()
-53313ef5b252c696e8f83fa78bf617f49ea25ac7 net/mlx5: Refactor devcom to return NULL on failure
-cebe5974cb7d30daebc91fd103693729fd6074dc net/mlx5: Fix IPsec cleanup over MPV device
-6f6f037ceebd8c923ceef215049d059fcebde01f IB/mlx5: Reduce IMR KSM size when 5-level paging is enabled
-5792d66108802173649774a050fff0c3de05f9c0 PCI: Move REQ_ACS_FLAGS into pci_regs.h as PCI_ACS_ISOLATED
-bf53f53dfdfba7d10e8cba72f511e7604265e7bd PCI: Add pci_bus_isolation()
-902c1ae893ba0dfcc8905be7bebec9da72da1c88 iommu: Compute iommu_groups properly for PCIe switches
-fac5191e71f5bf1b1e37ee56defa5bf914895064 iommu: Organize iommu_group by member size
-9959dae6882a93d0cd6e2c501241e62f4e35331d PCI: Add pci_reachable_set()
-68f5222c4c5b318d86bb0798dfe94b0c9b55805e iommu: Use pci_reachable_set() in pci_device_group()
-c871c50503d3d5cd7e9e1b12476d9a5b712802c7 iommu: Validate that pci_for_each_dma_alias() matches the groups
-db55e45152df48d6dd7a52fa7fdd608e6dbfa1f9 PCI: Add the ACS Enhanced Capability definitions
-ea68836874b748b3550ce9012cad8deeaee65363 PCI: Enable ACS Enhanced bits for enable_acs and config_acs
-7e2dd0235ef68cb5b0492793186d7b275f85a360 PCI: Check ACS DSP/USP redirect bits in pci_enable_pasid()
-d24d6ddf4aa579b9d9d88f2f65e4d127c5a0ed13 PCI: Check ACS Extended flags for pci_bus_isolated()
-c152fe78a3cc18fc5645dc9a7b9dd65b0cf91144 RDMA/mlx5: Fix UMR modifying of mkey page size
-7a26533b4bd81fd0d19013f02f59fa1e63386d29 net/mlx5: Expose HCA capability bits for mkey max page size
-d74b13e4d9ae46c1cdbe8780d30a3ea2ebf827a0 RDMA/mlx5: Align mkc page size capability check to PRM
-aaf3939f140f4c445ae9acbddf4f94d9cb96e7c3 RDMA/mlx5: Optimize DMABUF mkey page size
-60a756c82fa1f2e6e6be7b118cce6b520a627679 RDMA/mlx5: Refactor optional counters steering code
+c4a5519c4d19dabe3a40d670a926fbf1947fd830 ALSA: hda: Move HD-audio core stuff into sound/hda/core
+4fa4e405783e6e007f9061529a66dd40557c615d ALSA: hda: Move common codec driver into sound/hda/common directory
+703e4270636f2347d7395697928c37e1c82d41e2 ALSA: hda: Move CONFIG_SND_HDA_PREALLOC_SIZE into sound/hda/common
+8a7d6bc1aa639438b8e70451ea15277111b2c359 ALSA: hda: Move controller drivers into sound/hda/controllers directory
+af1b6cd8a0511d356f19ddd40a9c52e4decec74a ALSA: hda: Move codec drivers into sound/hda/codecs directory
+d4eab1abe816ab979adca733f35dd1763ce358ef ALSA: hda: Split Realtek HD-audio codec driver
+7622bc9b84b0c64075f75ec360d5039676acc4c6 ALSA: hda/hdmi: Split vendor codec drivers
+3565c157826f03744e03eb3e0e5c7e7bb98ba7e2 ALSA: hda: Introduce hda_codec_ops into hda_codec_driver
+87471ca5132f06a0534fd65bc1639ac97055bd06 ALSA: hda/generic: Rewrite to new probe method
+079406a5a13ba9500fe1f0ab6e14de6f993511d2 ALSA: hda/realtek: Rewrite to new probe method
+16412f75648d27f7358697733a087dec57fe6554 ALSA: hda/cmedia: Rewrite to new probe method
+dc13c7c5f364df11fd50d2b7f7fe1a7de984ceaf ALSA: hda/analog: Rewrite to new probe method
+caf467027b666a6932dae4128bd949a78ea52d5e ALSA: hda/ca0110: Rewrite to new probe method
+fc4560f93f6f09edf1c986fb9e48ca1091f47033 ALSA: hda/cirrus: Split to cs420x and cs421x drivers
+c8085311397b43ec211046c9da241aa68da95c03 ALSA: hda/cs8409: Rewrite to new probe method
+113add352154efc08e8267483ee896dbe2d73ea1 ALSA: hda/conexant: Rewrite to new probe method
+b4ac8eaa946db279f80f7a39ecc06af033071ee7 ALSA: hda/senary: Rewrite to new probe method
+75438968334f1b8a5397e524aa44af1023b36847 ALSA: hda/si3054: Rewrite to new probe method
+a77de0db13ec165ebd5d2ab906ecb41b1a5c3422 ALSA: hda/via: Rewrite to new probe method
+fd2545b32cbdac38085fce733f26ad90ff3e1ff7 ALSA: hda/sigmatel: Rewrite to new probe method
+28a2379d81ed188e4114485c0c1a717d8b6b50d3 ALSA: hda/ca0132: Rewrite to new probe method
+56c702feed5424d1fd37a4666caa324cf3dacc37 ALSA: hda/hdmi: Rewrite to new probe method
+832558cb9f0f4c235deb859fefd861a8cb2bb104 ALSA: hda: Drop old codec binding method
+2d9c9c63060179dda1dd997bf959f4f0353742f4 ALSA: hda: Drop superfluous driver->ops NULL checks
+b37831e532a683e78b85dae0102d78fc060c401c MAINTAINERS: Adjust to the new HD-audio driver paths
+a237105a22ccd3962d471035a8ce4620644120b4 ALSA: hda: Return the codec init error properly at snd_hda_codec_build_controls()
 
---===============5577620172871248661==--
+--===============0642070123400208817==--
