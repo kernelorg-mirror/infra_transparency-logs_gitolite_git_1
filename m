@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 08 Jul 2025 13:51:23 -0000
-Message-Id: <175198268370.1190122.10035464876337629915@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 13:51:36 -0000
+Message-Id: <175198269637.1190514.8287195151263402939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: 3b3312f28ee2d9c386602f8521e419cfc69f4823
-    new: 6f80be548588429100eb1f5e25dc2a714d583ffe
+  - ref: refs/heads/regulator-6.17
+    old: 769fced9433ec0c12a3815ed1001e90b511da5cf
+    new: 5054740e0092aac528c0589251f612b3b41c9e7b
     log: |
-         6f80be548588429100eb1f5e25dc2a714d583ffe ASoC: amd: yc: add DMI quirk for ASUS M6501RM
+         5054740e0092aac528c0589251f612b3b41c9e7b regulator: sy8827n: make enable gpio NONEXCLUSIVE
          
