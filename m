@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0824566912198939616=="
+Content-Type: multipart/mixed; boundary="===============6731761875795148960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 08 Jul 2025 20:33:29 -0000
-Message-Id: <175200680970.1573798.14288576429342933708@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 20:33:44 -0000
+Message-Id: <175200682435.1574212.12209333163843830454@gitolite.kernel.org>
 
---===============0824566912198939616==
+--===============6731761875795148960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 7b4c5a37544ba22c6ebe72c0d4ea56c953459fa5
-    new: 5e67f6c8f058a8efd7bdd34487dc151eceb247be
-    log: revlist-7b4c5a37544b-5e67f6c8f058.txt
+  - ref: refs/heads/perf/core
+    old: 9180c58bbf88480ee32fcb95dd870e6ca3bcd70e
+    new: aecf59bf9c89b5019ec808a7392b1ce67886847d
+    log: revlist-9180c58bbf88-aecf59bf9c89.txt
 
---===============0824566912198939616==
+--===============6731761875795148960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b4c5a37544b-5e67f6c8f058.txt
+Content-Disposition: attachment; filename=revlist-9180c58bbf88-aecf59bf9c89.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -193,6 +193,7 @@ ba806c900379899e5cdd6ca165b900e2081e1c99 nvme: correctly account for namespace h
 14005c96d6649b27fa52d0cd0f492eb3b5586c07 nvme-pci: refresh visible attrs after being checked
 6f49743af42ca43ef6d5487fc6d32f6184909430 riscv: Require clang-17 or newer for kCFI
 2b29be967ae456fc09c320d91d52278cf721be1e riscv: cpu_ops_sbi: Use static array for boot_data
+7b4c5a37544ba22c6ebe72c0d4ea56c953459fa5 perf/core: Fix the WARN_ON_ONCE is out of lock protected region
 eb617dd25ca176f3fee24f873f0fd60010773d67 platform/x86: dell-wmi-sysman: Fix WMI data block retrieval in sysfs callbacks
 1e14ea901dc8d976d355ddc3e0de84ee86ef0596 EDAC: Initialize EDAC features sysfs attributes
 e1af6f0146d64fc4fb142504ba128a97cd171558 platform/x86: Update swnode graph for amd isp4
@@ -376,6 +377,9 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
-5e67f6c8f058a8efd7bdd34487dc151eceb247be perf/core: Fix WARN in perf_sigtrap()
+396574680f006acd7fdc12e92d1fffa18a78ff76 perf/x86/intel/uncore: Support MSR portal for discovery tables
+925962c86a1758b6e15baa10a47089013c686cce perf/x86/intel/uncore: Support customized MMIO map size
+dcf441e465d0ff9ff4f155caeb566e404adec375 perf/x86/intel/uncore: Add Panther Lake support
+aecf59bf9c89b5019ec808a7392b1ce67886847d perf/x86/intel/uncore: Add iMC freerunning for Panther Lake
 
---===============0824566912198939616==--
+--===============6731761875795148960==--
