@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9100647489113469129=="
+Content-Type: multipart/mixed; boundary="===============6598980568654322522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Jul 2025 16:03:26 -0000
-Message-Id: <175199060625.1317399.16935004996590293186@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 16:03:28 -0000
+Message-Id: <175199060864.1317630.4340493754878863026@gitolite.kernel.org>
 
---===============9100647489113469129==
+--===============6598980568654322522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: b9fd9888a5654e59f6c6249337e36c53c1faa329
     new: 3ef07434c7dbfba302df477bb6c70e082965f232
     log: revlist-b9fd9888a565-3ef07434c7db.txt
 
---===============9100647489113469129==
+--===============6598980568654322522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ b3603c0466a85bed302e80226950092ceaf09b94 dt-bindings: net: sun8i-emac: Rename A5
 40c47232772e45385757e8c979d8871895c78823 Merge branch 'vsock-fix-transport_-h2g-g2h-dgram-local-toctou-issues'
 3ef07434c7dbfba302df477bb6c70e082965f232 net: airoha: Fix an error handling path in airoha_probe()
 
---===============9100647489113469129==--
+--===============6598980568654322522==--
