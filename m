@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 08 Jul 2025 15:03:10 -0000
-Message-Id: <175198699011.1253948.7009657777122877179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 08 Jul 2025 15:03:24 -0000
+Message-Id: <175198700438.1254310.317474016740987557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kdevops
-    old: 790eb4993915b8777f54cf053ee714e6c8613405
-    new: f011f43b98f8ddf76791f1ebe9d965f86877916c
+  - ref: refs/heads/main
+    old: d3a5f2871adc0c61c61869f37f3e697d97f03d8c
+    new: 462da827c6e2be59c7b0981ed39fff7a9488d013
     log: |
-         14958516bf45f92a8609cb6ad504e92550b416d7 nfsd: add a NFSD_IO_FADVISE setting to io_cache_write
-         f011f43b98f8ddf76791f1ebe9d965f86877916c nfs: add mount option to disable delegated timestamps
+         b3603c0466a85bed302e80226950092ceaf09b94 dt-bindings: net: sun8i-emac: Rename A523 EMAC0 to GMAC0
+         462da827c6e2be59c7b0981ed39fff7a9488d013 Merge branch 'allwinner-a523-rename-emac0-to-gmac0'
          
