@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7604795677851402632=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 08 Jul 2025 14:10:19 -0000
-Message-Id: <175198381902.1209532.18179807155821370164@gitolite.kernel.org>
-
---===============7604795677851402632==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 08 Jul 2025 14:24:27 -0000
+Message-Id: <175198466705.1220095.5706493417039647102@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: b9707d46a95962bb4e28ae1929015e419ad6aff7
-    new: 56036d6af41a473a8129fc960a5ab3673eda13d5
+  - ref: refs/heads/rcu/next
+    old: 7ba59b7a775fbad44455c2368531b2e77ec28bba
+    new: 156f8bee52aefedf09cc59dca3397d1f135415cb
     log: |
-         56036d6af41a473a8129fc960a5ab3673eda13d5 platform/x86: dell_rbu: Remove unused struct
+         5633836a91a2a06c391beebedd763caebf2ef7cf smp: Document preemption and stop_machine() mutual exclusion
+         1808575c8957f889b513aec6417997033f7b9fb0 rcu: Fix rcu_read_unlock() deadloop due to IRQ work
+         ffe6b239507eb51ae0e56ca702cf60982f5604d4 rcu: Refactor expedited handling check in rcu_read_unlock_special()
+         c794ed01493d436465d11de9fda922128b0fdfd8 rcu: Remove redundant check for irq state during unlock
+         25dbb22008b8718abe60f29d8e1189beb9ccf8ae rcu: Document GP init vs hotplug-scan ordering requirements
+         64eb9186da14d1bc427dc9014ba26f89d5e701b1 rcu: Document separation of rcu_state and rnp's gp_seq
+         156f8bee52aefedf09cc59dca3397d1f135415cb rcu: Document concurrent quiescent state reporting for offline CPUs
          
-
---===============7604795677851402632==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1751983855 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1751983815-4c4f1764e622355265f2d1e2d622a73ff440c816
-
-b9707d46a95962bb4e28ae1929015e419ad6aff7 56036d6af41a473a8129fc960a5ab3673eda13d5 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaG0m8gAKCRBZrE9hU+XO
-MegLAQCFUFVx3dORpCnvQGLOScZ2BrYmyOecnau0B5yfc2eMXQD+MbDRvdFcYEVJ
-wLfhHFdw/uzZbr+lK6E5I1d/YNkr/AU=
-=UI3K
------END PGP SIGNATURE-----
-
---===============7604795677851402632==--
