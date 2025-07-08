@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Tue, 08 Jul 2025 02:39:15 -0000
-Message-Id: <175194235571.628168.9042677955393947976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 08 Jul 2025 02:49:24 -0000
+Message-Id: <175194296459.637181.7085746221360670254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/aspeed-6.17-drivers-1
+  - ref: refs/heads/io_uring-recv-mshot-len
     old: 0000000000000000000000000000000000000000
-    new: 9059c1961b3273526649790a2bdae495f87341a9
+    new: 1e1aa2fb717a076f2bc63fe39617dc98c7e490c6
