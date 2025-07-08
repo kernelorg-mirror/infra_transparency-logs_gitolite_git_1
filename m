@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6598980568654322522=="
+Content-Type: multipart/mixed; boundary="===============0689705692699911873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Jul 2025 16:03:28 -0000
-Message-Id: <175199060864.1317630.4340493754878863026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Jul 2025 16:03:30 -0000
+Message-Id: <175199061067.1317834.9222087606875755744@gitolite.kernel.org>
 
---===============6598980568654322522==
+--===============0689705692699911873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/10GbE
-    old: b9fd9888a5654e59f6c6249337e36c53c1faa329
-    new: 3ef07434c7dbfba302df477bb6c70e082965f232
-    log: revlist-b9fd9888a565-3ef07434c7db.txt
+  - ref: refs/heads/master
+    old: 957863fa975116190c9e97bfd880526df46e1c29
+    new: 57881f61b8d0502f49d8e1b8502ea98b39723dbd
+    log: |
+         57881f61b8d0502f49d8e1b8502ea98b39723dbd 6.6-stable patches
+         
 
---===============6598980568654322522==
+--===============0689705692699911873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9fd9888a565-3ef07434c7db.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ef9675b0ef030d135413e8638989f3a7d1f3217a Bluetooth: hci_sync: Fix not disabling advertising instance
-59710a26a289ad4e7ef227d22063e964930928b0 Bluetooth: hci_core: Remove check of BDADDR_ANY in hci_conn_hash_lookup_big_state
-314d30b1508682e27c8a324096262c66f23455d9 Bluetooth: hci_sync: Fix attempting to send HCI_Disconnect to BIS handle
-c7349772c268ec3c91d83cbfbbcf63f1bd7c256c Bluetooth: hci_event: Fix not marking Broadcast Sink BIS as connected
-e31cf3cce2102af984656fed6e2254cbdd46da02 net: phy: qcom: move the WoL function to shared library
-4ab9ada765b7acb5cd02fe27632ec2586b7868ee net: phy: qcom: qca808x: Fix WoL issue by utilizing at8031_set_wol()
-4e2bba30b16935d18e59d137f607f8e10b6fda87 Merge branch 'fix-qca808x-wol-issue'
-ae8f160e7eb24240a2a79fc4c815c6a0d4ee16cc netlink: Fix wraparounds of sk->sk_rmem_alloc.
-1e3b66e326015f77bc4b36976bebeedc2ac0f588 vsock: fix `vsock_proto` declaration
-667eeab4999e981c96b447a4df5f20bdf5c26f13 tipc: Fix use-after-free in tipc_conn_close().
-ffc2c8c4a714df53a715827d6334ab9474424f6a net: bcmgenet: Initialize u64 stats seq counter
-80852774ba0adc37dfdc230acceb7b2a90c900d8 Merge tag 'for-net-2025-07-03' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-d3a5f2871adc0c61c61869f37f3e697d97f03d8c tcp: Correct signedness in skb remaining space calculation
-b3603c0466a85bed302e80226950092ceaf09b94 dt-bindings: net: sun8i-emac: Rename A523 EMAC0 to GMAC0
-462da827c6e2be59c7b0981ed39fff7a9488d013 Merge branch 'allwinner-a523-rename-emac0-to-gmac0'
-95a234f6affbf51f06338383537ab80d637bb785 net: ethernet: rtsn: Fix a null pointer dereference in rtsn_probe()
-209fd720838aaf1420416494c5505096478156b4 vsock: Fix transport_{g2h,h2g} TOCTOU
-687aa0c5581b8d4aa87fd92973e4ee576b550cdf vsock: Fix transport_* TOCTOU
-1e7d9df379a04ccd0c2f82f39fbb69d482e864cc vsock: Fix IOCTL_VM_SOCKETS_GET_LOCAL_CID to check also `transport_local`
-40c47232772e45385757e8c979d8871895c78823 Merge branch 'vsock-fix-transport_-h2g-g2h-dgram-local-toctou-issues'
-3ef07434c7dbfba302df477bb6c70e082965f232 net: airoha: Fix an error handling path in airoha_probe()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751990649 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1751990608-64234a3242c2fe8339227a2ff9adc3f458005b6f
 
---===============6598980568654322522==--
+957863fa975116190c9e97bfd880526df46e1c29 57881f61b8d0502f49d8e1b8502ea98b39723dbd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhtQXkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vYkP/AiB2Vlkdr9h1r8YW63j
+fGuvxe89bDlMAY8pTZurW88yGRyO7wmyvMAxeVajwW75MTKorXh9TXgy4lu76aoe
+bkSNtt+UqtaRcSzuCkUfnEgpbOXVIJJ1PbhhApgcNPMs27kzRgYNFuhEsKt7JNDt
+5grnwa+AJYj/yLX7zS+bkmibV3NhdDYdGlc9HJUKQOnlclsZteG5lBiKNuF83wKR
+lKV7OvMF9WPOvLLJYd5/7MnQHr3ikANjl/oETOACgOe+q1JVqSAIdFShqcXCcQqT
+38rNd6+2Ib+VL5LAsnt/Ozb0TC/pVf0REgSec3ooG7VtvX2Jb3qPB8e0cbPO3tqx
+/A97equZuVwpOdeq6+How4r3lyl4a2e5jyRKlFXd+kAESBjr8yfGxdsJ7SA4kOKN
+wDLE7sZj/vKtQXMpaTr2UHqzO7NiXmmVUG/Q+spFAWT2P6gOuBeLYgm67Zxqc17N
+nwZ5QITpsF9sJfU3MvgsJaUjbRSze70H6unWcNcBHEHuFta5BgT3M3HFQwPHkgMS
+KyeEsUH4lbUXMeg2yor+Vfs9qnF/A7osbilXKnoe2RjO2rH+K/lFfeTYAOp0CsWC
+06uZSPZVJ0cAEsEfCbTMyu/eM1yzUKaMSrPbwdey9pkJP0QKwBzWibF0uqAXaa+F
+ao5Ry9TRzXtH3JaTdgqmCags
+=zBar
+-----END PGP SIGNATURE-----
+
+--===============0689705692699911873==--
