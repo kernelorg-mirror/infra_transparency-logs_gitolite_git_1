@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Tue, 08 Jul 2025 19:30:48 -0000
-Message-Id: <175200304812.1519402.15788082240203274847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Tue, 08 Jul 2025 19:31:56 -0000
+Message-Id: <175200311677.1520157.1957378845137393161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/tags/linux-cpupower-6.17-rc1-fixed
-    old: 0000000000000000000000000000000000000000
-    new: cc69718217b45011219a1555ab21430154c38f54
+  - ref: refs/heads/master
+    old: 24cdb0bed894f6201436ab11570d2b5d53599517
+    new: 2d5c06e6af95e6bef05d864c426eeea9bd68cb74
+    log: |
+         68bd953b90d6f94f8ff90442db7223fdb4971341 trace-cmd: libtrace-cmd: Fix glob() return value checks
+         2d5c06e6af95e6bef05d864c426eeea9bd68cb74 trace-cmd: record: Fix glob() return value checks
+         
