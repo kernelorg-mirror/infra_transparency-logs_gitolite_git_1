@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6960752716235392640=="
+Content-Type: multipart/mixed; boundary="===============9141840509262930371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 08 Jul 2025 02:03:40 -0000
-Message-Id: <175194022063.597012.12771961152348032669@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 02:04:14 -0000
+Message-Id: <175194025475.597556.15281634124136071834@gitolite.kernel.org>
 
---===============6960752716235392640==
+--===============9141840509262930371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/unwind/sframe
-    old: 9315278afa8ff6b4a4772b61bf1d29e149e7fb2c
-    new: 1f143aea4ed5e05a960788d5c6f5bfc8c53eb4ea
-    log: revlist-9315278afa8f-1f143aea4ed5.txt
+  - ref: refs/heads/unwind/main
+    old: 0904c8b3e0c842d2d2f67559a254a96d86560e4a
+    new: 530e04509dc6af353bd5b20be2c160d65758a5ae
+    log: revlist-0904c8b3e0c8-530e04509dc6.txt
 
---===============6960752716235392640==
+--===============9141840509262930371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9315278afa8f-1f143aea4ed5.txt
+Content-Disposition: attachment; filename=revlist-0904c8b3e0c8-530e04509dc6.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -391,6 +391,17 @@ b7774f90b90d3916b3c5f58dd403e0b039a4bf60 unwind: Clear unwind_mask on exit back 
 69e49b898dab85a6d56b4a6a0a80288becb94b0c unwind: Finish up unwind when a task exits
 431c3cc8d78e6bdcbff3ba8f34d2b402ed3cde22 unwind_user/x86: Enable frame pointer unwinding on x86
 ce8d69a1a5784bb232a37e8d1dca3582e7faf563 unwind_user/x86: Enable compat mode frame pointer unwinding on x86
+d1e8c0d59ed6b7ca130b613bc73ab0bee38c4848 perf: Remove get_perf_callchain() init_nr argument
+3d99dfb686067e0bd622337e05dfc6ed5d8ed63e perf: Have get_perf_callchain() return NULL if crosstask and user are set
+b002e8ce9d7a4472d18f5190e06eab96f1090bf3 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
+901441ee4e3a8ae8050eef899c893a975f20a7b3 perf: Simplify get_perf_callchain() user logic
+5ba184e6becbe841957e1e057d195e9c4dc42b1e perf: Skip user unwind if the task is a kernel thread
+8e1ef58e0adb179a8add5a6ba128d89d08fb746d perf: Support deferred user callchains
+09669ce3a0adee75f2de22e69691e7d921088613 perf: Support deferred user callchains for per CPU events
+d20672297550721057f1c012e29eceba92b75f35 perf tools: Minimal CALLCHAIN_DEFERRED support
+402d59640e61fc651104791e7b557e140f803789 perf record: Enable defer_callchain for user callchains
+e6c4f2065cc9ea03210e60951a75ce696482e618 perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
+3d88d03d533ede8d2d513942e768607aa9279c4b perf tools: Merge deferred user callchains
 d4abbe89304b602922c9635e636d08fcd8ba8c43 unwind_user/sframe: Add support for reading .sframe headers
 a9bdd8b1dfbee00f722399e76215b674919d8752 unwind_user/sframe: Store sframe section data in per-mm maple tree
 f7ffac82b00d2f9b43e917c1ac2b034944860abe x86/uaccess: Add unsafe_copy_from_user() implementation
@@ -403,5 +414,6 @@ e2b685076e79ec504432e85557a3c72be5effa40 unwind_user/sframe: Remove .sframe sect
 b14311415b82269dd042bcdffe57ac7afdfdb399 unwind_user/sframe: Enable debugging in uaccess regions
 97acfb4bd7ce5e1a74d0da24603e99df9bd50003 unwind_user/sframe: Add .sframe validation option
 1f143aea4ed5e05a960788d5c6f5bfc8c53eb4ea unwind_user/sframe: Add prctl() interface for registering .sframe sections
+530e04509dc6af353bd5b20be2c160d65758a5ae Merge branch 'trace/unwind/sframe' into trace/unwind/main
 
---===============6960752716235392640==--
+--===============9141840509262930371==--
