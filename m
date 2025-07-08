@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 08 Jul 2025 01:19:30 -0000
-Message-Id: <175193757050.554796.17677923868633887300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 08 Jul 2025 01:38:03 -0000
+Message-Id: <175193868396.572867.7973244606477585453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 183b3e0216208dfb17ef232f97c0c1e3811050ca
-    new: cfb517459d6889d4e9287ac9bc80476be12fa90e
+  - ref: refs/heads/main
+    old: 59f44c9ccc3bb68aa3b062b8e57ce0e1ee2fca75
+    new: e2793101d6a99cc8b2f7793aeceada09c18719ae
     log: |
-         cfb517459d6889d4e9287ac9bc80476be12fa90e man/io_uring_prep_recvmsg.3: improve wording for terminating multishot
+         e2793101d6a99cc8b2f7793aeceada09c18719ae mlxbf_gige: emit messages during open and probe failures
          
