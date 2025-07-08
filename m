@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7725657524905095391=="
+Content-Type: multipart/mixed; boundary="===============8691488290572606802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 08 Jul 2025 15:19:59 -0000
-Message-Id: <175198799945.1273275.16485764370704327664@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 15:22:53 -0000
+Message-Id: <175198817308.1276872.10048868155925014873@gitolite.kernel.org>
 
---===============7725657524905095391==
+--===============8691488290572606802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b8bfb5bb49c3967cfd68be16a44b324c508fccf4
-    new: 1e5a080340ae666a5907bd7b51b97afb6c20e565
+    old: 1e5a080340ae666a5907bd7b51b97afb6c20e565
+    new: db74c3d248f608c2ece78b343351407ccaa4835a
     log: |
-         1e5a080340ae666a5907bd7b51b97afb6c20e565 6.15-stable patches
+         db74c3d248f608c2ece78b343351407ccaa4835a drop queue-6.6/cifs-all-initializations-for-tcon-should-happen-in-tcon_info_alloc.patch
          
 
---===============7725657524905095391==
+--===============8691488290572606802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751988038 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751988211 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1751987997-a6e6e3bb4cebd560e572d076f58042da6fbb6aad
+nonce 1751988171-e673517cd3cdde367455871312864f3bde03a7c3
 
-b8bfb5bb49c3967cfd68be16a44b324c508fccf4 1e5a080340ae666a5907bd7b51b97afb6c20e565 refs/heads/master
+1e5a080340ae666a5907bd7b51b97afb6c20e565 db74c3d248f608c2ece78b343351407ccaa4835a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhtN0YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VMQP/2YJJK17A5n98Wo6k2/Z
-YvxWi86C7CUO4NPAiKWwiYJMybXLRsfX9QYIYKCcT9qGtcyxu0OvZzvKGJxlDWzP
-sk3B5UpDm8oae8f/Oyz+IKQP9F2K/8Iat2IcgR5vDW9Zz5LBbUnChGnz6Eyc0JLF
-Zc4L7X/uTBmkkZy2babPBAqwJVzXu5OY0VdIlNW+tMtthdETc7hg6jE1OcAyPdAs
-WxdkEXVpy/u+ozAx28GdC1FPlIuPY6gEEyQqYZEGfyh4UoC+ueX3N/IJUeZcJiz0
-pog9S3m/fEJrckbn6A85JW+a/P+YV5K1xvp/EYwe00hNqMqON0at1YIY+WhzWxj+
-bDbtbr9gcHuA4WAqt4vEJ7KmNdXkRiA21nzC2z1QBkZblXklJ6qg91NuhEqp/gx9
-nZTBu8dYRsEKoxWLhDj5MNIijRcj/U6i7SytEzeRlv2Faa8zSZTLOydOH0F9YXXU
-kUdIDPDKGS4fo2xvvP5wqAzUIPrHwrFU6apWbSMJWrLWEuf0jlkEC1laKFMwE2cv
-qO5dUeWAoPUnlyOdRGVTHqpneWezIoJyVhfkC7XcTekR5w6nKVSdmlgzZMWBhEH/
-I1yxQnPWVZ0iG2wxmSW2XzBpvMUDLErTO0igtkIO2g71zMN0aomo+XNsQm2wTIdO
-oaRxVkcyexoYypVBPcmXVMWt
-=Cmuu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhtN/MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g2kP/0Jz9bUjhA8bELbx3rlz
+8MmA4NsJIy7JWB2spY7Y+/wpnRusNMpq+rKRMdWytMGJla2IvhL95LwpAP5tVI+e
+jWxqb7fRQPqZ4Z/vaQN8SnTIGPw8f8v2dPW3qwP6fKnmLw2vdg97OV1/+WUcAeEz
+JenQ08sDDierZBqqbokOcZFgLGzkZNlQSd7lkUof7S0C+uy0f7QbS/CWKfzxfsIS
+2zHFJiVMflLXvFJFY11mUMSacZtiMFyg6+DAIGeo8rI3V2hY8NN1efJuYysPK/aG
+iDnpgKp7afj57D9yHj9IBOMJpY3t5W5HgEuLnh/coBi5iENazgvRWPdcGjWVhovw
+X/K+RZkaMl2+EPqSkkRmUXneRcJFCAB6NIl9+BJFUV96aYpLsKHLRAc7adpuqzUg
+odhhqxBkuqqOuXUDp3BQJ3apt92jGytFAhvIIh08QUPs35ogpG7y6rNxwyt65WAL
+6g2HF2RO++h+lOWUrPtenGH1Errk0g+UZMRMi/ydxduL7VtwNm5bO8i3BZ+iOy+4
+ReAyzt4xGHPwd/HdlPJdK4yNQtGNKBAPYz5RYD8jUeYNQB08xfxYhFPhG6km5WIK
+RmnbzQKCoA8psi+QXygqEBsZsHZdRuFuiiC2htrWWqCQRW/33iJh6SSnUBhqQ0JD
+Avcm2SD8Ww7Ex97d4ZIvHah6
+=Kv8D
 -----END PGP SIGNATURE-----
 
---===============7725657524905095391==--
+--===============8691488290572606802==--
