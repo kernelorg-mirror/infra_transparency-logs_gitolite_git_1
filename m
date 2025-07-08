@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1156701937438673271=="
+Content-Type: multipart/mixed; boundary="===============7569092266337692145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Tue, 08 Jul 2025 18:52:56 -0000
-Message-Id: <175200077600.1483973.5325056856230529916@gitolite.kernel.org>
+Date: Tue, 08 Jul 2025 18:55:26 -0000
+Message-Id: <175200092654.1487364.3055570429535136939@gitolite.kernel.org>
 
---===============1156701937438673271==
+--===============7569092266337692145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: da.gomez
 changes:
-  - ref: refs/heads/modules-fixes
-    old: 43c92fd184e085ded28fa86b4f05fb77dfffccbb
+  - ref: refs/heads/modules-next
+    old: 5c63ffdfbcda105b7e2e2c5a8229dbffbe76536b
     new: af1ccf546e5f2915fbbde26841db43a971d81cf3
-    log: revlist-43c92fd184e0-af1ccf546e5f.txt
+    log: revlist-5c63ffdfbcda-af1ccf546e5f.txt
 
---===============1156701937438673271==
+--===============7569092266337692145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43c92fd184e0-af1ccf546e5f.txt
+Content-Disposition: attachment; filename=revlist-5c63ffdfbcda-af1ccf546e5f.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -382,4 +382,4 @@ eb0994a954978f0edd3efb38d0cbe6744df8b83d module: Avoid unnecessary return value 
 570db4b39f535a8bb722adb8be0280d09e34ca99 module: Make sure relocations are applied to the per-CPU section
 af1ccf546e5f2915fbbde26841db43a971d81cf3 MAINTAINERS: update Daniel Gomez's role and email address
 
---===============1156701937438673271==--
+--===============7569092266337692145==--
