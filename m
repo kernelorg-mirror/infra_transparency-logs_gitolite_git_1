@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3800359572988730501=="
+Content-Type: multipart/mixed; boundary="===============2624952334820824609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 08 Jul 2025 07:55:11 -0000
-Message-Id: <175196131191.890984.1261686584599799597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 08 Jul 2025 08:02:01 -0000
+Message-Id: <175196172122.896190.2057315668211596954@gitolite.kernel.org>
 
---===============3800359572988730501==
+--===============2624952334820824609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 069c64649d02a1168fceec6f03e88fc6d59b3cbc
-    new: ca03b4dfe713fa6423b378cc7f36b39f6d7b4a78
+  - ref: refs/heads/usb-next
+    old: 0c43c19bf7a6cf2883b4a7ff08171be4af8ef814
+    new: d1b07cc0868fe14f4540cbc48c1a7c1a8055e284
     log: |
-         ca03b4dfe713fa6423b378cc7f36b39f6d7b4a78 comment out some changelog lines in queue-6.6/f2fs-fix-to-zero-post-eof-page.patch
+         2b7eec2ec3015f52fc74cf45d0408925e984ecd1 usb: early: xhci-dbc: Fix early_ioremap leak
+         6693750a6f8e5237233b96f6363a5afcbf498ad7 usb: dwc3: gadget: Simplify TRB reclaim logic by removing redundant 'chain' argument
+         b581e472d95d584d2e30e34f3e055d9754faddb2 usb: gadget: f_fs: Remove unnecessary spinlocks.
+         7168c06d9ba0932466272ac8bfbdd793a4fab636 usb: gadget: f_uac2: replace scnprintf() with sysfs_emit()
+         e8dcc89dabec0e3ea8ab975a33eaf57f125f6ef1 dt-bindings: usb: Add compatible strings for s32g2/s32g3
+         a4a27565464e9a2eee99bd83e2071a3a6898a0a2 usb: chipidea: s32g: Add usb support for s32g2
+         08c8767ada7137c9403e2e20eb5b8f7387214391 usb: chipidea: s32g: Add usb support for s32g3
+         d1b07cc0868fe14f4540cbc48c1a7c1a8055e284 arm64: dts: s32g: Add USB device tree information for s32g2/s32g3
          
 
---===============3800359572988730501==
+--===============2624952334820824609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751961347 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1751961307-522783378aba49caa36fda12051ea957920504ac
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1751961760 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1751961720-cf678df0c609096f8beaf568c7a53dfa5ded602e
 
-069c64649d02a1168fceec6f03e88fc6d59b3cbc ca03b4dfe713fa6423b378cc7f36b39f6d7b4a78 refs/heads/master
+0c43c19bf7a6cf2883b4a7ff08171be4af8ef814 d1b07cc0868fe14f4540cbc48c1a7c1a8055e284 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhszwMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O+0P/1z5VoMFq0whQfNOlSKu
-ywG4V2L7e397gBEwxGng0bhKKnYT2UgKvprIZfKxiJUJCGhePDEvYrLCrizgF/P5
-4ZWh+oBmdG627T39VE567spmj0Fh0KQmWpf8IdKKbyPzjT72jKfmyibxRhhPnEIU
-cCtnJK/DZEZWIrlbV9cp5imfrdqK7pVIS/ph8ng31oFKzEgeplD70lIZz5GQIa2C
-IkawWuVXA1BFvEw6ji8hMCoxyZnQWngDJf+CbSQg6J1sRsRbPfwoxV1BhHIFQP0o
-EUGCTUbDmFU2cMS/GQfOwq3CdzPRTkODDF3cOI0pf9Ibvnk7CfWJU24F83Rcc28E
-/CBBDF9G5HUbFmo+ijp27Xd+NpxHAgOUJGE4G+JAZyEsu88DG6qnWF76gM+ze4w8
-HPxinTuPjOhVFA0+7hZadN6ZMN89+BtD/p27tYh/9ekwc0Jzj8LaN81f732Amy3k
-j1p15kU8SU0ncwqir7Tp1q79plkGWM1iLV50CB3OxmiX2IX+Ev6zCC7kSfxfFnUY
-ds/OmVPXgshqyLQrfF3YfGGvCeFlZ6U1k3NvQRs0+oQ9vV9zm4DWYGA9pM1sKgMh
-NbtBBL3HnmQMoY/4QHQFPGJ26R6Fkc43awom/PQDxsubm7vRDuLCnqQ9IxKE7jSS
-zaPjpwVNcBVHSFuehCVMyTL6
-=gyl6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhs0KAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yWAP/1thBH2x9Qiu6x120so4
+QgA170awLhONa0anEXielzWTgTRokopaxP1zz8WbqVFx3pAt8kTctq1BiZrQoSZj
+em4Tras6RnbugmT1iqeMaccYtMfYpH8pypIX1AMGMPQ9z4pnDV1Ov5xzxg6X2YNT
+FMupEjKWjNHEbF8hLWinIJeEnqnP7qmJOL5EzGT40a69pDeZI+D3qh7JsKe5xKO6
+GCotd+8xT1SbNGq4XV2gh3kfD/Q6qoCwwWjf+a190aHQ9DWVKwZVHlch9O7EMALa
+ZP86GypldsLk3XmnqfortuOPjVyI4G8laVqjZFMwei/DcfzoPoPSPOuW1ESHnY9y
+K1grHDDEb4BFW3NGihOziuXPM62psY/nhU1/m6qRSe/LBS9+WqA8VENCzp8KtLdi
+GXP48V1/y1XodcGhsgEn3EI6l0YLffs1EqsWcYC3E38cI3VVDKfO7NoeOyt3Pzon
+oO9ZkClps/LIROtIhumS79bG9ABNrfow6odaGnkXriDd+7UoFzw65kWSjqswWgY4
+5io86i8qeG+Bi4Kbl3sSLBZIFvJjB00UeWvE1D+tHdkvBaapdn3j8hwQC0hGaBgY
+RIh7s73p0QWwG3STElgngzpv49EG0GmXQBh892mQ+93VLXwCJ44+ID2pyr4w9YEY
+r/CX3Y9VtKe6xjeAKI/FS98j
+=gjSs
 -----END PGP SIGNATURE-----
 
---===============3800359572988730501==--
+--===============2624952334820824609==--
