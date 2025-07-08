@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 08 Jul 2025 11:29:13 -0000
-Message-Id: <175197415360.1067618.12009473933970559372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 08 Jul 2025 11:32:10 -0000
+Message-Id: <175197433051.1071226.2026159818618597589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/testing
-    old: a90b2a1aaacbcf0f91d7e4868ad6c51c5dee814b
-    new: 2a198bbec6913ae1c90ec963750003c6213668c7
-    log: |
-         b441cf3f8c4b8576639d20c8eb4aa32917602ecd xfrm: delete x->tunnel as we delete x
-         2a198bbec6913ae1c90ec963750003c6213668c7 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-         
+  - ref: refs/tags/sound-6.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 357e39d480620c38d4456cb0c34313528dd13d96
