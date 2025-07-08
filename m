@@ -1,62 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3165839650033425866=="
+Content-Type: multipart/mixed; boundary="===============5811012827878346728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 08 Jul 2025 07:08:03 -0000
-Message-Id: <175195848380.848650.8450199448117540943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Tue, 08 Jul 2025 07:28:13 -0000
+Message-Id: <175195969383.865147.15229032129949652354@gitolite.kernel.org>
 
---===============3165839650033425866==
+--===============5811012827878346728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: f1965a03895933c6dbf1e4df98b093e2bc804114
-    new: 3743a40501597dc7eef2c80b3ef274854d38f230
-    log: revlist-f1965a038959-3743a4050159.txt
+  - ref: refs/heads/export_modules
+    old: 318be03cab91dbc1dc61acd8e098c3b39620adde
+    new: 5231b9c6c5fd04282cd3fb4f98ae9e94e52c4093
+    log: |
+         bacd6dc5b88662650fa217ffa7093d2314a29163 Restrict module namespace to in-tree modules and rename macro
+         c9d87e69ec76f95fe5b0b595132e2707111d6d9e module: Restrict module namespace access to in-tree modules
+         5231b9c6c5fd04282cd3fb4f98ae9e94e52c4093 module: Rename EXPORT_SYMBOL_GPL_FOR_MODULES to EXPORT_SYMBOL_FOR_MODULES
+         
 
---===============3165839650033425866==
+--===============5811012827878346728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1965a038959-3743a4050159.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b8fc0bb4fe7e9c6b0005015cc00d97b121478c59 arm64: dts: imx8mp-evk: Use fsl-asoc-card to replace simple card
-6e6fd467e6d8716345aa942223575c8a2ceef1aa arm64: dts: imx8qxp-mek: support wcpu board's wm8962 codec
-1f126663b75afb624418140c17ac99373daef65d arm64: dts: imx8qm-mek: support revd board's wm8962 codec
-12cb89d35de55d6d459f9580fbe13475845de336 arm64: dts: tqma8mpql-mba8mpxl-lvds: Rename overlay to include display name
-5d813e1cf8fca358ea6020e78bee73c3eab85d83 arm64: dts: imx8mm-beacon: Fix HS400 USDHC clock speed
-48c94014f2a0143f7e67f59b2f851016edd3b3a6 arm64: dts: imx8mn-beacon: Fix HS400 USDHC clock speed
-fbe94be09fa81343d623a86ec64a742759b669b3 arm64: dts: freescale: imx8mm-verdin: Keep LDO5 always on
-cd45e5e8c30c18200a1c353356ba38d60b9112c1 arm64: dts: freescale: imx93-phycore-som: Add watchdog ext-reset-output pin
-a3cce846e5570063971bdb0549cf99dd3652423f arm64: dts: fsl-ls1043a: Add missing DMA entries for I2C & LPUART
-7247d1dbe2d9015bceb7575711ebc03b2ced63aa arm64: dts: fsl-ls1046a: Add missing DMA entries for I2C & LPUART
-0c23bbbdc85b5c3d41eb331e85ab7a5b6ff6ac86 arm64: dts: imx8mm: Configure DMA on UART2
-af9f3d18b922abcf2e0c0d9ad6006a51ad9d05ff arm64: dts: imx8mn: Configure DMA on UART2
-326ee183547c142ac54d78cf008da4caa55353ad arm64: dts: imx94: add missing clock related properties to flexcan1
-db05490d417d75802955978f3b615e85e9293f5b ARM: dts: imx6-karo: Replace license text comment with SPDX identifier
-dbf26882de7b3456c44dba14934610301de27e22 arm64: dts: fsl-ls1043a: Remove superfluous address and size cells
-b5870bfd9ec9dd5657535d1fbeedbc7c2b4e305f arm64: dts: fsl-ls1046a: Remove superfluous address and size cells
-d0e87ff849cdfb182d320d7061308f5c46c21c53 arm64: dts: fsl-ls1088a: Remove superfluous address and size cells
-0a4094703ba6309f12373f82e558b6860f9ced45 arm64: dts: tqmls10xxa: Move SFP cage definition to common place
-1d272819ba714b028b34d9904250be242c46ddbe arm64: dts: tqmls1043a: Enable SFP interface
-b84ded3956227e9cd8a27a23bc03dc1a3dee5f96 arm64: dts: tqmls1046a: Enable SFP interfaces
-9088499f0df623dbbe2a67ab50c926fd5f11a2a6 arm64: dts: freescale: tqmls10xx-mbls10xxa: Add vdd-supply for i2c mux
-7f16175e509ee19e4e61ac5d7b819aaf72aae032 arm64: dts: freescale: tqmls10xx: Add vdd-supply for spi-nor flash
-281ce773ded45d1438e7fbf38bb1bae8ad737036 arm64: dts: imx93-phycore-som: Add RPMsg overlay
-35c2b58a4c7f4f7ed8d4198a997ed5eeaf7c1115 arm64: dts: imx93-phyboard-segin: Add PEB-EVAL-01 overlay
-01e53960f694d24bcf208606dfd3316757e3b7d7 arm64: dts: imx93-phyboard-segin: Add PEB-WLBT-05 overlay
-0648fac08c6dd865aef44f9826fb9e41009983fc arm64: dts: imx93-phyboard-nash: Add PEB-WLBT-07 overlay
-486225f952c04a618312e68a68044256559b974a MAINTAINERS: Update i.MX entry
-454ebfa3e15938efcc9e6dd6cb403be018635fbb Merge branch 'imx/drivers' into for-next
-77dda56b206e6f9ed193a0e4012c3e33c266b58b Merge branch 'imx/bindings' into for-next
-c083b6cdb766bb75c3a77980768aa15119f6c266 Merge branch 'imx/dt' into for-next
-f7808f159102a77490ed9a5f03aa5d26a3e2696f Merge branch 'imx/dt64' into for-next
-3743a40501597dc7eef2c80b3ef274854d38f230 Merge branch 'imx/defconfig' into for-next
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1751959729 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1751959688-5a1f561d6bc41c26205d90921bc52d3c9b07f5f8
 
---===============3165839650033425866==--
+318be03cab91dbc1dc61acd8e098c3b39620adde 5231b9c6c5fd04282cd3fb4f98ae9e94e52c4093 refs/heads/export_modules
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmhsyLEACgkQu+CwddJF
+iJqquwf9EHLhGJ5vsUk12TY+OkDrkzKNcI7CisJJp8CI83KeNySX1jA+f3/AOee/
+ayeqMGAGpU1rJvFGcyUr7qS5i0nAdbHlhwIrbbpaNcsgcfrH43jv17/NEOawYgXo
++nufBJnFYQ8BF1hZD87oCAOIDMV5mJ2NdW+Gn5ouZjLoGHytZld/AJu2FPzGh78e
+iZIIRwr8Oul7oTUmoFqwarefhTSs+i6x/jrJWrTwgtKQww95GADIwNhE/LySJyUL
+RmrJKgvK+zJJZpUg2hNYUcjGV6RxthRv3UbRmjb5rY13JtJdHeqKWvp5wn8/0Ix+
+GAMc0yQUVtgSfsytDIdq/i+pmtpSfw==
+=jKpm
+-----END PGP SIGNATURE-----
+
+--===============5811012827878346728==--
