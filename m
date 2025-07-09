@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7148407911150904775=="
+Content-Type: multipart/mixed; boundary="===============4312375785477127688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Wed, 09 Jul 2025 14:25:09 -0000
-Message-Id: <175207110964.2492253.14706971256293351980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Wed, 09 Jul 2025 14:25:22 -0000
+Message-Id: <175207112224.2492544.13956756550386923897@gitolite.kernel.org>
 
---===============7148407911150904775==
+--===============4312375785477127688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 47633099a672fc7bfe604ef454e4f116e2c954b1
 
---===============7148407911150904775==
+--===============4312375785477127688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -406,4 +406,4 @@ af1ccf546e5f2915fbbde26841db43a971d81cf3 MAINTAINERS: update Daniel Gomez's role
 72782127388d96e971f0186996a5bd44e64a1665 Merge tag 'modules-6.16-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
 733923397fd95405a48f165c9b1fbc8c4b0a4681 Merge tag 'pwm/for-6.16-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============7148407911150904775==--
+--===============4312375785477127688==--
