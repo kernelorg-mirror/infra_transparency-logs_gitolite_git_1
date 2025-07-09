@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8571007440518349934=="
+Content-Type: multipart/mixed; boundary="===============5788030740704079185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 09 Jul 2025 23:58:03 -0000
-Message-Id: <175210548318.2975002.14925754005393659097@gitolite.kernel.org>
+Date: Wed, 09 Jul 2025 23:58:12 -0000
+Message-Id: <175210549247.2975332.16971311010676254906@gitolite.kernel.org>
 
---===============8571007440518349934==
+--===============5788030740704079185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: 14ae3003e73e777c9b36385a7c86f754b50a1821
-    new: 580d45f2cc3ad4d893595c27c5fa6ad5e1cd6396
-    log: revlist-14ae3003e73e-580d45f2cc3a.txt
+  - ref: refs/heads/hyperv-next
+    old: 96959283a58d91ae20d025546f00e16f0a555208
+    new: d9016a249be5316ec2476f9947356711e70a16ec
+    log: revlist-96959283a58d-d9016a249be5.txt
 
---===============8571007440518349934==
+--===============5788030740704079185==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-14ae3003e73e-580d45f2cc3a.txt
+Content-Disposition: attachment; filename=revlist-96959283a58d-d9016a249be5.txt
 
+e479da4054875c4cc53a7fb956ebff03d2dac939 drm/ssd130x: fix ssd132x_clear_screen() columns
+8ecbad4853f83d9853d7bb0c2d8373afab8851d3 drm/arm/malidp: Silence informational message
+d1fc7687959b0fbf335815a8d808e6076b969309 ASoC: cs35l56: Use SoundWire address as firmware name suffix for new silicon
+e5d5b3aebdc8acf9f52d1369a7744a2ab9ca591c ASoC: cs35l56: Use SoundWire address as alternate firmware suffix on L56 B0
+fa8fae5f82e48db1a06ba570a2a3fdc087fc93c0 ASoC: doc: cs35l56: Update to add new SoundWire firmware filename suffix
+527c88d8390d6c0358dea4d71696795c05328925 ovl: fix debug print in case of mkdir error
+0b9d62a47149083d581d8b2abb04124b6175cb29 fs: unlock the superblock during iterate_supers_type
+ba06528ad5a31923efc24324706116ccd17e12d8 ASoC: amd: yc: Add quirk for MSI Bravo 17 D7VF internal mic
+c538f400fae22725580842deb2bef546701b64bd io_uring: consistently use rcu semantics with sqpoll thread
 c0c7fa4e7a512006710c8e4d6b6f7b40c9f786cd docs: arm64: Fix ICC_SRE_EL2 register typo in booting.rst
 650768c512faba8070bf4cfbb28c95eb5cd203f3 arm64: Restrict pagetable teardown to avoid false warning
 d4e6cb324dcc952618fec6b25aa3fc7bfc2750b4 net: phy: phy_caps: Don't skip better duplex macth on non-exact match
@@ -1038,17 +1047,8 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
-7b89a44b2e8c7ba548e3ad5d5155a17279625335 Drivers: hv: Select CONFIG_SYSFB only if EFI is enabled
-0d86a8d65c1e69610bfe1a7a774f71ff111ed8c1 tools/hv: fcopy: Fix incorrect file path conversion
-b0871aa0f8df55dbf0aad55d2ab2100c23071b4b Drivers: hv: Fix the check for HYPERVISOR_CALLBACK_VECTOR
-2b206d3468236047d71d4ab6110b1f5b70448e0e Drivers: hv: Fix warnings for missing export.h header inclusion
-0271e72bc0f7cf180dce3f6d145c83f2d5709a25 x86/hyperv: Fix warnings for missing export.h header inclusion
-5b187e9a31547d63a1a4078b79f7fb3fdbca92cd clocksource: hyper-v: Fix warnings for missing export.h header inclusion
-4a4f15170b63bd3b8a6534b39330e981704c7369 PCI: hv: Fix warnings for missing export.h header inclusion
-9669ddda18fbe7f1e28cd0bfc1218e746fae6c50 net: mana: Fix warnings for missing export.h header inclusion
-f84b21da3624d9c8514db409d254a22b84fac66a PCI: hv: Don't load the driver for baremetal root partition
-bb169f80ed5a156ec3405e0e49c6b8e9ae264718 x86/hyperv: Fix usage of cpu_online_mask to get valid cpu
-faab52b59b09721edeb8f92eabad3f4d320fb522 x86/hyperv: Clean up hv_map/unmap_interrupt() return values
-580d45f2cc3ad4d893595c27c5fa6ad5e1cd6396 PCI: hv: Use the correct hypercall for unmasking interrupts on nested
+29c75ddc2d1952528a1195b6ac52054c47c0ee89 tools/hv: Make the sample hv_get_dhcp_info script more useful
+7372ef21109a4c37bd307e2455e6eec6855d619e tools/hv: Make network-scripts DHCP status check more specific
+d9016a249be5316ec2476f9947356711e70a16ec hv/hv_kvp_daemon: Prevent similar logs in kvp_key_add_or_modify()
 
---===============8571007440518349934==--
+--===============5788030740704079185==--
