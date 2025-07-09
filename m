@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3854295374906388560=="
+Content-Type: multipart/mixed; boundary="===============1168998289109593495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 09 Jul 2025 07:23:09 -0000
-Message-Id: <175204578998.2114351.5467310744882007424@gitolite.kernel.org>
+Date: Wed, 09 Jul 2025 07:23:32 -0000
+Message-Id: <175204581295.2114720.5910302198800671005@gitolite.kernel.org>
 
---===============3854295374906388560==
+--===============1168998289109593495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/master
-    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    new: d7b8f8e20813f0179d8ef519541a3527e7661d3a
-    log: revlist-d0b3b7b22dfa-d7b8f8e20813.txt
+  - ref: refs/heads/for-next
+    old: 9eb8364d688d01f0421062b67798a0759dcc82e8
+    new: d14e99cde31f33849b554b2e199c71519fb75d0b
+    log: revlist-9eb8364d688d-d14e99cde31f.txt
 
---===============3854295374906388560==
+--===============1168998289109593495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0b3b7b22dfa-d7b8f8e20813.txt
+Content-Disposition: attachment; filename=revlist-9eb8364d688d-d14e99cde31f.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -168,9 +168,6 @@ cbc889ab0122366f6cdbe3c28d477c683ebcebc2 usb: xhci: quirk for data loss in ISOC 
 cd65ee81240e8bc3c3119b46db7f60c80864b90b xhci: Disable stream for xHC controller with XHCI_BROKEN_STREAMS
 2b857d69a5e116150639a0c6c39c86cc329939ee xhci: dbctty: disable ECHO flag by default
 efe3e3ae5a66cb38ef29c909e951b4039044bae9 xhci: dbc: Flush queued requests before stopping dbc
-45537926dd2aaa9190ac0fac5a0fbeefcadfea95 s390/pci: Fix stale function handles in error handling
-b97a7972b1f4f81417840b9a2ab0c19722b577d5 s390/pci: Do not try re-enabling load/store if device is disabled
-62355f1f87b8c7f8785a8dd3cd5ca6e5b513566a s390/pci: Allow automatic recovery with minimal driver support
 14da58521ee5b31976f5b5b437438b8f28f9ba51 bcachefs: fix btree_trans_peek_prev_journal()
 18665eaa2acbe17da11c2748ac43c2f4ec2fad85 drm/exynos: Don't use %pK through printk
 b846350aa272de99bf6fecfa6b08e64ebfb13173 drm/exynos: exynos7_drm_decon: add vblank check in IRQ handling
@@ -377,5 +374,7 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
+7cf636c99b257c1b4b12066ab34fd5f06e8d892f s390/early: Copy last breaking event address to pt_regs
+d14e99cde31f33849b554b2e199c71519fb75d0b Merge branch 'features' into for-next
 
---===============3854295374906388560==--
+--===============1168998289109593495==--
