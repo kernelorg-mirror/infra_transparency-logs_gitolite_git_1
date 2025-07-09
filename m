@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0734347240431788800=="
+Content-Type: multipart/mixed; boundary="===============8190415160046321576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 09 Jul 2025 13:23:08 -0000
-Message-Id: <175206738870.2435459.4795573582536094154@gitolite.kernel.org>
+Date: Wed, 09 Jul 2025 13:23:10 -0000
+Message-Id: <175206739087.2435701.8566591794431607369@gitolite.kernel.org>
 
---===============0734347240431788800==
+--===============8190415160046321576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 5f05fc6e2218db7ecc52c60eb34b707fe69262c2
-    new: d7b8f8e20813f0179d8ef519541a3527e7661d3a
-    log: revlist-5f05fc6e2218-d7b8f8e20813.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 5a1f20888f536debcd0fa3a5b390f66d0cde1fd9
+    new: e3b7a7ef2f7107573c657598e06ace9bdc3eaf08
+    log: revlist-5a1f20888f53-e3b7a7ef2f71.txt
 
---===============0734347240431788800==
+--===============8190415160046321576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f05fc6e2218-d7b8f8e20813.txt
+Content-Disposition: attachment; filename=revlist-5a1f20888f53-e3b7a7ef2f71.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -374,5 +374,14 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
+cf8bd8de5e3da2582c6011c45fbfa5420f41dd81 i2c: tegra: Add missing kernel-doc for dma_dev member
+99ef3e269d114379653023049d92554ef3eaffdc dt-bindings: i2c: renesas,riic: Move ref for i2c-controller.yaml to the end
+c813e5d1c3a7ac52e46c4f6ca7415f597de02b5a dt-bindings: i2c: renesas,riic: Document RZ/T2H and RZ/N2H support
+6b0c2bb748dee1110fb64ef2f7f5974a6555ea37 i2c: riic: Pass IRQ desc array as part of OF data
+c378b51b04078a925bcbc9e8d728313db30da792 i2c: riic: Move generic compatible string to end of array
+4dc517a0097bc8e2be4bad5224073ae6504d5c2f i2c: riic: Add support for RZ/T2H SoC
+1d5acf5de82db78e71dd58835892235f8844118f dt-bindings: i2c: nxp,pnx-i2c: allow clocks property
+6f12da12421b3907ea1a54682969d791a60f6711 i2c: stm32f7: Use str_on_off() helper
+e3b7a7ef2f7107573c657598e06ace9bdc3eaf08 i2c: imx: use guard to take spinlock
 
---===============0734347240431788800==--
+--===============8190415160046321576==--
