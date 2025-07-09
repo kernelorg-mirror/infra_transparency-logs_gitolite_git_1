@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 09 Jul 2025 15:55:35 -0000
-Message-Id: <175207653584.2573429.803751143772709284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Wed, 09 Jul 2025 15:56:21 -0000
+Message-Id: <175207658120.2573901.9549599751171592152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/testing
-    old: 3e28fa06444e7031aba0b3552cce332b776fe267
-    new: f8f559752d573a051a984adda8d2d1464f92f954
+  - ref: refs/heads/sunxi/dt-for-6.17
+    old: de713ccb99345be302adf507274d1b190dd2302e
+    new: 9615e017464dfbe72e12e36592b7c5b65e9203fd
     log: |
-         b6b1bec54ae2fb1805da2d387dc3a516e3bbf5c9 iio: accel: kionix-kx022a: Apply approximate iwyu principles to includes
-         f8f559752d573a051a984adda8d2d1464f92f954 dt-bindings: iio: adc: Add support for MT7981
+         9615e017464dfbe72e12e36592b7c5b65e9203fd dt-bindings: arm: sunxi: Combine board variants into enums
          
