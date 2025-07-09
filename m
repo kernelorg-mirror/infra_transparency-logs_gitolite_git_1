@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 09 Jul 2025 14:49:15 -0000
-Message-Id: <175207255568.2511995.143465048989067909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Wed, 09 Jul 2025 14:49:52 -0000
+Message-Id: <175207259226.2513227.15644608921352431132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 6c99a046edfac782b5ec3a3a1a5f0633bed28563
-    new: 0cf6d425d39cfc1b676fbf9dea36ecd68eeb27ee
-    log: |
-         0cf6d425d39cfc1b676fbf9dea36ecd68eeb27ee gpio: sim: allow to mark simulated lines as invalid
-         
+  - ref: refs/heads/old-maint
+    old: 1a5205df40e4483525f5161f2df323ef6f412470
+    new: 0000000000000000000000000000000000000000
