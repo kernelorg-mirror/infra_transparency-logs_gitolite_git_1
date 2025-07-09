@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Jul 2025 01:30:07 -0000
-Message-Id: <175202460708.1828683.264555691026873171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 09 Jul 2025 01:36:34 -0000
+Message-Id: <175202499458.1833711.13731817326184867565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/main
-    old: 042ef6aafd3fa22a0398c1c25c2dc742cba78eed
-    new: 01af00018733ba862b38d37cd0f06f36239cc8b5
+  - ref: refs/heads/rcu/next
+    old: 156f8bee52aefedf09cc59dca3397d1f135415cb
+    new: 21ccb62bb414d30459a33560a9cdce336fae9507
     log: |
-         1eb8b0dac1899c4f806b00253ac03b1a039663c0 net: xsk: update tx queue consumer immediately after transmission
-         680acde13ffd10ae4b95ed7d8f1633df38180462 selftests/bpf: add a new test to check the consumer update case
-         01af00018733ba862b38d37cd0f06f36239cc8b5 Merge branch 'net-xsk-update-tx-queue-consumer'
+         8decabe1afcf129e044e51defe243b2b93c8bae9 rcu: Fix rcu_read_unlock() deadloop due to IRQ work
+         9ef96351508b56d36578dfedaa4716fd8bc7ade5 rcu: Refactor expedited handling check in rcu_read_unlock_special()
+         7cfbc16f6e549d1a3c1698201280acee6551eba9 rcu: Remove redundant check for irq state during unlock
+         ce5b26061987a0c7e203463b9abd98a4882034c5 rcu: Document GP init vs hotplug-scan ordering requirements
+         49a865305f1f9ff1c27d5a9894e68f2b14f53caf rcu: Document separation of rcu_state and rnp's gp_seq
+         21ccb62bb414d30459a33560a9cdce336fae9507 rcu: Document concurrent quiescent state reporting for offline CPUs
          
