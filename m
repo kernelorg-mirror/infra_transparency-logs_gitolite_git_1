@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 09 Jul 2025 04:27:26 -0000
-Message-Id: <175203524678.1972505.16266376881537720729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 09 Jul 2025 06:11:56 -0000
+Message-Id: <175204151619.2054838.12494241568288609326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 1dd85ca4b2fdd4ffff90f88adbc8f0f179d1025d
-    new: bca4146b1f66dbca07591bfd6ad695c699b5a093
+  - ref: refs/heads/dev-test
+    old: 09c08e135078fee7a697a10cb3a4e2aa7df643df
+    new: 720a556a42a8925e36bcf78735b9b73cf1bff41a
     log: |
-         5b272127884bded21576a6ddceca13725a351c63 arm64: dts: ti: k3-pinctrl: Enable Schmitt Trigger by default
-         b1a8daa7cf2650637f6cca6aaf014bee89672120 arm64: dts: ti: k3-am62p-verdin: fix PWM_3_DSI GPIO direction
-         bca4146b1f66dbca07591bfd6ad695c699b5a093 arm64: dts: ti: Enable overlays for all DTB files
+         e4bf03326f018d2b6c5403baacc4a69d843c1eda erofs: use memcpy_to_folio() to replace copy_to_iter()
+         5075ca0c0856a6d1023981554305dca7f5c23987 erofs: address D-cache aliasing
+         720a556a42a8925e36bcf78735b9b73cf1bff41a erofs: do sanity check on m->type in z_erofs_load_compact_lcluster()
          
