@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Wed, 09 Jul 2025 19:44:54 -0000
-Message-Id: <175209029475.2766940.9934340966240003503@gitolite.kernel.org>
+Date: Wed, 09 Jul 2025 19:45:10 -0000
+Message-Id: <175209031018.2768768.13196051179387658574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/tags/renesas-clk-for-v6.17-tag2
-    old: 0000000000000000000000000000000000000000
-    new: 7614f1c59d4bf722aac4c44a924f0288d79c2dfa
-  - ref: refs/tags/renesas-pinctrl-for-v6.17-tag2
-    old: 0000000000000000000000000000000000000000
-    new: 1508a9fddbd53b07b535b06677109a0297bffc59
+  - ref: refs/heads/renesas-clk
+    old: 17dc02f7d29314ac4e1db19e3f708828c734bbb8
+    new: 0ab2d84f94dae48c3e7605cdc99dbb4e7c7b206a
+    log: |
+         e6e54229f328c30a1b4ecba1253f9d314dd42e33 clk: renesas: r9a09g047: Add clock and reset signals for the GBETH IPs
+         0ab2d84f94dae48c3e7605cdc99dbb4e7c7b206a clk: renesas: r9a08g045: Add MSTOP for coupled clocks as well
+         
