@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 09 Jul 2025 06:12:16 -0000
-Message-Id: <175204153695.2055198.16082155972813004847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Wed, 09 Jul 2025 06:46:29 -0000
+Message-Id: <175204358976.2083400.13328163871133556868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/dev
-    old: 09c08e135078fee7a697a10cb3a4e2aa7df643df
-    new: 720a556a42a8925e36bcf78735b9b73cf1bff41a
+  - ref: refs/heads/erofs-dev
+    old: f596850f130bc00d097ead7969e5e3323bbf58b6
+    new: 8610bf7c63126c083867e39646bc6bad9fb8b22c
     log: |
-         e4bf03326f018d2b6c5403baacc4a69d843c1eda erofs: use memcpy_to_folio() to replace copy_to_iter()
-         5075ca0c0856a6d1023981554305dca7f5c23987 erofs: address D-cache aliasing
-         720a556a42a8925e36bcf78735b9b73cf1bff41a erofs: do sanity check on m->type in z_erofs_load_compact_lcluster()
+         fb2ff7b05745dfce046208f29289f380c2c406dc erofs: fix to add missing tracepoint in erofs_readahead()
+         360f674e72714f02f1573785df1734964afef65a erofs: fix to add missing tracepoint in erofs_read_folio()
+         09c08e135078fee7a697a10cb3a4e2aa7df643df erofs: do sanity check on m->type in z_erofs_load_compact_lcluster()
+         0559e69dc9fc76dce39cfe77902e6a7b07b11539 erofs: allow readdir() to be interrupted
+         8610bf7c63126c083867e39646bc6bad9fb8b22c erofs: support to readahead dirent blocks in erofs_readdir()
          
