@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6332863532187366326=="
+Content-Type: multipart/mixed; boundary="===============5076869402090905630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 09 Jul 2025 11:44:35 -0000
-Message-Id: <175206147513.2349007.5779289815991695716@gitolite.kernel.org>
+Date: Wed, 09 Jul 2025 11:45:04 -0000
+Message-Id: <175206150479.2351119.6828355988061314143@gitolite.kernel.org>
 
---===============6332863532187366326==
+--===============5076869402090905630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 0c8a3a284a4fb56f0540f216f7428b39ba911ac8
-    new: a553ab200ef456a264aa0ebb8cb55a924e406ed3
+    old: a553ab200ef456a264aa0ebb8cb55a924e406ed3
+    new: 0666e3fe95ab55c295984f2f51277ec27d3f190c
     log: |
-         f7a676a4842b629bd6638a612c519f9e060cd72a serial: 8520_ce4100: Reuse mem_serial_in() in ce4100_mem_serial_in()
-         6ac1d604737279313bbd55797460204f21044327 dt-bindings: serial: sh-sci: Document r8a78000 bindings
-         a553ab200ef456a264aa0ebb8cb55a924e406ed3 serial: sh-sci: Add R-Car Gen5 support
+         dfa983c98cf76b4f22f3b8e3f30b9672c969f70a dt-bindings: serial: renesas,rsci: Add optional secondary clock input
+         64a2e41b8ef7771554374a0ac8386648fc6db2ba dt-bindings: serial: rsci: Update maintainer entry
+         13af95c7f602cf3644f3145530ec2e80a88659eb serial: sh-sci: Replace direct stop_rx/stop_tx calls with port ops in sci_shutdown()
+         1d26517d11de7fc9408c22429b8e75963314420d serial: sh-sci: Use private port ID
+         0666e3fe95ab55c295984f2f51277ec27d3f190c serial: sh-sci: Add support for RZ/T2H SCI
          
 
---===============6332863532187366326==
+--===============5076869402090905630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752061513 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752061542 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1752061472-d3daa1533bdd0b74bcc5bf15f3002e6d834cc682
+nonce 1752061502-e1189b4b85c469d6992ced29463cb633f83bf8a9
 
-0c8a3a284a4fb56f0540f216f7428b39ba911ac8 a553ab200ef456a264aa0ebb8cb55a924e406ed3 refs/heads/tty-testing
+a553ab200ef456a264aa0ebb8cb55a924e406ed3 0666e3fe95ab55c295984f2f51277ec27d3f190c refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhuVkkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ox0P/i2BYX2I8b9aiv0MjNGS
-NdiByGTFvBe8cgo8Gv4ORmyNVdalw8oZ2NNnJLK5jKUCTvRf1GYh4DnPkb1TVgLf
-zo2fm8zEkMT4jTYRV5epx1U90rrVsT69enMH6nh7KMJ6ueWF4sj598C61MNXSTIH
-06hiDNyfOaZbRwygaP3kCS6tqhiAhbnWNZJ0VYcYoUnZwvhcxbUsDoyT6nsFnnj2
-rsfaXb78xtDRGTEs1tOKxLHOBahUrepgkP12Ojg6KUCIV4/zDP5rwC6e1bE42tRj
-30Gnum9ivwLvtRcZ5g9CuiwVvkDRG6Q2TIZWneCn5BLDsllRu1uvSVowb8Kn8N5n
-tvcd2B7yT9f5ocPduhyOu01ZNPbfi0X4ZwPzuA6b1l7jyaOAp8IHqyBECrnYzeO8
-3X8bds2M2Nc4cHJOpxPOAMjqRnVkpCPh3fFoIJvPFwy/iFgH9bPdYvSdNB9J2WQC
-H1NS798i7c9VHhiqgGTkANR8zaGSQbFBV4U8t7Cn/wY48scL6XSVd2SgGlFOqUQO
-l6kRPVx253YoKhPtepLQ3io1QD7hfWh7gZPggpQypeHqmhN687C8RiYG/p7IudA5
-fyIxLJMKVwWrcdBYx3DbL6h7itYbKB0i6eRVjr11z/Q89qWJo5pXN4mtLtev24m+
-/DgFDgOMYPPW6kCoT4JcPkVL
-=ViC4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhuVmYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+exMP/2n1mn1TAbs2Ip0Qy6WC
+3FXtM/pU8bvYDRS1DUo3VB9jKbCykOoP6kz34wMZOD6mR0ZpUu8ixcq11GzWUPlw
+6pJbxrWHYIS8R5T9gaLEywPHIzzIbRQmXLvqlRMV/W+Lf+wOu0JMWQ7btjDlPQKR
+BcwAkTHATKSoV5eF3j/W0AgeXo5RD4z42YobmYosUOFSKQ6ARyYK+j/XHi1AUEOF
+RxVR4IVxU8vXX+i3J/bJ7dmqMHeNMLaFLQOOCjFd6MI8tH1vlt+D0X6229cRpgoc
+bUkwkopULYLnxJWR8EjGO9bKzDBu3dAKx/3VImR7VXPzOtmSsPxn43GqMdj83IaS
+ZJo2NXQqt5cb+JcjMWzbCnt0s+fNsc7H0jV46VAJxS7ckAoLRcuy5VTBgA+cwt4m
+82BEAV7mC1Ic3YbJN8eZEPTRnnRQ8rC3bSLAsOxK+CTnXr2KnWQUyOxkdvduRajY
+DATy7uAk+f2fheJAtAvY0UMVkLRMHUBVnJSluAS+nfOw6t7YDrqBBYvxLTOjsGAL
+ADpVWqzUhrgkN4J6DrKCA/+OAAbLJ1JPu/oHcLetJJjzuoTnGBl911i6AjU1XTEx
+bSiLIRod4G9gnX3JYzB3W2kKpdXzB9UV8IT94kWhn7qqezriKeC9CzuHTZs8wOQh
+H4x17nDjZ75jR5cApnvdbfnS
+=OGPj
 -----END PGP SIGNATURE-----
 
---===============6332863532187366326==--
+--===============5076869402090905630==--
