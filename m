@@ -1,60 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============5076869402090905630=="
+Content-Type: multipart/mixed; boundary="===============1680176219349719995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 09 Jul 2025 11:45:04 -0000
-Message-Id: <175206150479.2351119.6828355988061314143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 09 Jul 2025 11:47:17 -0000
+Message-Id: <175206163706.2352289.10304638421740164667@gitolite.kernel.org>
 
---===============5076869402090905630==
+--===============1680176219349719995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/tty-testing
-    old: a553ab200ef456a264aa0ebb8cb55a924e406ed3
-    new: 0666e3fe95ab55c295984f2f51277ec27d3f190c
-    log: |
-         dfa983c98cf76b4f22f3b8e3f30b9672c969f70a dt-bindings: serial: renesas,rsci: Add optional secondary clock input
-         64a2e41b8ef7771554374a0ac8386648fc6db2ba dt-bindings: serial: rsci: Update maintainer entry
-         13af95c7f602cf3644f3145530ec2e80a88659eb serial: sh-sci: Replace direct stop_rx/stop_tx calls with port ops in sci_shutdown()
-         1d26517d11de7fc9408c22429b8e75963314420d serial: sh-sci: Use private port ID
-         0666e3fe95ab55c295984f2f51277ec27d3f190c serial: sh-sci: Add support for RZ/T2H SCI
-         
+  - ref: refs/heads/linus-next
+    old: 0bb7ecc6c892419be989ecac68d90ebb9bfd1cf2
+    new: ecfd4e45aa7ead5bc8f7b3e5b89f2df19346580a
+    log: revlist-0bb7ecc6c892-ecfd4e45aa7e.txt
+  - ref: refs/heads/master
+    old: d006330be3f782ff3fb7c3ed51e617e01f29a465
+    new: 733923397fd95405a48f165c9b1fbc8c4b0a4681
+    log: revlist-d006330be3f7-733923397fd9.txt
 
---===============5076869402090905630==
+--===============1680176219349719995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0bb7ecc6c892-ecfd4e45aa7e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752061542 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1752061502-e1189b4b85c469d6992ced29463cb633f83bf8a9
+93712205ce2f1fb047739494c0399a26ea4f0890 pinctrl: qcom: msm: mark certain pins as invalid for interrupts
+7d502192431e2d863f4b2595182d61c7fa8e656f MAINTAINERS: drop bouncing Lakshmi Sowjanya D
+46147490b4098e200b7d7d3ac4637a3e4f7b806a pinctrl: nuvoton: Fix boot on ma35dx platforms
+8ff4fb276e2384a87ae7f65f3c28e1e139dbb3fe pinctrl: amd: Clear GPIO debounce for suspend
+5285b5ed04ab6ad40f7b654eefbccd6ae8cbf415 pinctrl: aw9523: fix can_sleep flag for GPIO chip
+9ee124caae1b0defd0e02c65686f539845a3ac9b pwm: Fix invalid state detection
+505b730ede7f5c4083ff212aa955155b5b92e574 pwm: mediatek: Ensure to disable clocks in error path
+70b9c0c11e55167b9552ef395bc00f4920299177 uapi: bitops: use UAPI-safe variant of BITS_PER_LONG again (2)
+1afc85deecd32ff0f9972b38ecfbddb8be63143e MAINTAINERS: bitmap: add UAPI headers
+a3b5b88ea9bc9da00bd89d94738bf7181b2516f7 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+2dbae28a1d263902d647822937f9c42090c4adcc Merge tag 'bitmap-for-6.16-rc6' of https://github.com/norov/linux
+72782127388d96e971f0186996a5bd44e64a1665 Merge tag 'modules-6.16-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
+733923397fd95405a48f165c9b1fbc8c4b0a4681 Merge tag 'pwm/for-6.16-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+dcda5e1915b7aa79eea3b8e1867c76e48595ce92 Merge remote-tracking branch 'origin/master' into linus-next
+ecfd4e45aa7ead5bc8f7b3e5b89f2df19346580a Merge tag 'pinctrl-v6.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl into linus-next
 
-a553ab200ef456a264aa0ebb8cb55a924e406ed3 0666e3fe95ab55c295984f2f51277ec27d3f190c refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
+--===============1680176219349719995==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d006330be3f7-733923397fd9.txt
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhuVmYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+exMP/2n1mn1TAbs2Ip0Qy6WC
-3FXtM/pU8bvYDRS1DUo3VB9jKbCykOoP6kz34wMZOD6mR0ZpUu8ixcq11GzWUPlw
-6pJbxrWHYIS8R5T9gaLEywPHIzzIbRQmXLvqlRMV/W+Lf+wOu0JMWQ7btjDlPQKR
-BcwAkTHATKSoV5eF3j/W0AgeXo5RD4z42YobmYosUOFSKQ6ARyYK+j/XHi1AUEOF
-RxVR4IVxU8vXX+i3J/bJ7dmqMHeNMLaFLQOOCjFd6MI8tH1vlt+D0X6229cRpgoc
-bUkwkopULYLnxJWR8EjGO9bKzDBu3dAKx/3VImR7VXPzOtmSsPxn43GqMdj83IaS
-ZJo2NXQqt5cb+JcjMWzbCnt0s+fNsc7H0jV46VAJxS7ckAoLRcuy5VTBgA+cwt4m
-82BEAV7mC1Ic3YbJN8eZEPTRnnRQ8rC3bSLAsOxK+CTnXr2KnWQUyOxkdvduRajY
-DATy7uAk+f2fheJAtAvY0UMVkLRMHUBVnJSluAS+nfOw6t7YDrqBBYvxLTOjsGAL
-ADpVWqzUhrgkN4J6DrKCA/+OAAbLJ1JPu/oHcLetJJjzuoTnGBl911i6AjU1XTEx
-bSiLIRod4G9gnX3JYzB3W2kKpdXzB9UV8IT94kWhn7qqezriKeC9CzuHTZs8wOQh
-H4x17nDjZ75jR5cApnvdbfnS
-=OGPj
------END PGP SIGNATURE-----
+68279380266a5fa70e664de754503338e2ec3f43 crypto: s390/sha - Fix uninitialized variable in SHA-1 and SHA-2
+9ee124caae1b0defd0e02c65686f539845a3ac9b pwm: Fix invalid state detection
+505b730ede7f5c4083ff212aa955155b5b92e574 pwm: mediatek: Ensure to disable clocks in error path
+70b9c0c11e55167b9552ef395bc00f4920299177 uapi: bitops: use UAPI-safe variant of BITS_PER_LONG again (2)
+1afc85deecd32ff0f9972b38ecfbddb8be63143e MAINTAINERS: bitmap: add UAPI headers
+a3b5b88ea9bc9da00bd89d94738bf7181b2516f7 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+ca3881f6fd8e9b6eb2d51e8718d07d3b8029d886 module: Fix memory deallocation on error path in move_module()
+eb0994a954978f0edd3efb38d0cbe6744df8b83d module: Avoid unnecessary return value initialization in move_module()
+570db4b39f535a8bb722adb8be0280d09e34ca99 module: Make sure relocations are applied to the per-CPU section
+af1ccf546e5f2915fbbde26841db43a971d81cf3 MAINTAINERS: update Daniel Gomez's role and email address
+2dbae28a1d263902d647822937f9c42090c4adcc Merge tag 'bitmap-for-6.16-rc6' of https://github.com/norov/linux
+72782127388d96e971f0186996a5bd44e64a1665 Merge tag 'modules-6.16-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
+733923397fd95405a48f165c9b1fbc8c4b0a4681 Merge tag 'pwm/for-6.16-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============5076869402090905630==--
+--===============1680176219349719995==--
