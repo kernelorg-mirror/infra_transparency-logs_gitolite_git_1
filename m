@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Wed, 09 Jul 2025 10:31:57 -0000
-Message-Id: <175205711720.2279086.1548412277748822618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Wed, 09 Jul 2025 10:34:11 -0000
+Message-Id: <175205725102.2280185.13946318576974221967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
   - ref: refs/heads/next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: f393a761763c542761abcf978252d431269366d6
+    old: 82e20f5ea16a92dca8a3f48e0f280985cb52a740
+    new: 59b61f705b83d41a876144975a2332c7b8ea96b0
     log: |
-         f393a761763c542761abcf978252d431269366d6 efi: add ovmf debug log driver
+         59b61f705b83d41a876144975a2332c7b8ea96b0 coresight: Only register perf symlink for sinks with alloc_buffer
          
