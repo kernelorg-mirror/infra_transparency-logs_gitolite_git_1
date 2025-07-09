@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5500717025844551327=="
+Content-Type: multipart/mixed; boundary="===============0734347240431788800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 09 Jul 2025 13:23:06 -0000
-Message-Id: <175206738669.2435374.12979978052849169351@gitolite.kernel.org>
+Date: Wed, 09 Jul 2025 13:23:08 -0000
+Message-Id: <175206738870.2435459.4795573582536094154@gitolite.kernel.org>
 
---===============5500717025844551327==
+--===============0734347240431788800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: ca2f83d122fd27459785689c7f5927bcc7aaaec9
-    new: e3b7a7ef2f7107573c657598e06ace9bdc3eaf08
-    log: revlist-ca2f83d122fd-e3b7a7ef2f71.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 5f05fc6e2218db7ecc52c60eb34b707fe69262c2
+    new: d7b8f8e20813f0179d8ef519541a3527e7661d3a
+    log: revlist-5f05fc6e2218-d7b8f8e20813.txt
 
---===============5500717025844551327==
+--===============0734347240431788800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca2f83d122fd-e3b7a7ef2f71.txt
+Content-Disposition: attachment; filename=revlist-5f05fc6e2218-d7b8f8e20813.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -220,7 +220,6 @@ a106b6a888caf478d5fd31d123ffa09558500772 Input: alps - use scnprintf() to suppre
 905967e359f0a3345dce096504e8c0390d0a8f49 drm/amdgpu/sdma5.x: suspend KFD queues in ring reset
 62461367f4c0dcf4fab9cafb4ab3a7d346788df6 amdkfd: MTYPE_UC for ext-coherent system memory
 e54c5de901ea56fc68f8d56b3cce9940169346f4 drm/amdgpu: Include sdma_4_4_4.bin
-3d30048958e0d43425f6d4e76565e6249fa71050 i2c/designware: Fix an initialization issue
 cf234231fcbc7d391e2135b9518613218cc5347f drm/amdkfd: Don't call mmput from MMU notifier callback
 f3e58d8e154dae5015c7400812c80789589fc36e drm/amdgpu: Fix memory leak in amdgpu_ctx_mgr_entity_fini
 34659c1a1f4fd4c148ab13e13b11fd64df01ffcd drm/amdkfd: add hqd_sdma_get_doorbell callbacks for gfx7/8
@@ -250,7 +249,6 @@ ccdd09e0fc0d5ce6dfc8360f0c88da9a5045b6ea objtool: Add missing endian conversion 
 f77bf1ebf8ff6301ccdbc346f7b52db928f9cbf8 idpf: return 0 size for RSS key if not supported
 b2beb5bb2cd90d7939e470ed4da468683f41baa3 idpf: convert control queue mutex to a spinlock
 0325143b59c6c6d79987afc57d2456e7a20d13b7 igc: disable L1.2 PCI-E link substate to avoid performance issue
-c584c4f264c3bd7c27247688056a5c77907dbb07 i2c: microchip-core: re-fix fake detections w/ i2cdetect
 2d5cff2b4bc567dcaad7ab5b46c973ba534cc062 drm/xe: Fix out-of-bounds field write in MI_STORE_DATA_IMM
 8c44dac8add7503c345c0f6c7962e4863b88ba42 eventpoll: Fix priority inversion problem
 da8cf4bd458722d090a788c6e581eeb72695c62f netfs: Fix hang due to missing case in final DIO read result collection
@@ -290,7 +288,6 @@ aaf2b2480375099c022a82023e1cd772bf1c6a5d enic: fix incorrect MTU comparison in e
 4f30f946f27b7f044cf8f3f1f353dee1dcd3517a platform/x86: think-lmi: Fix sysfs group cleanup
 561aa0e22b70a5e7246b73d62a824b3aef3fc375 nui: Fix dma_mapping_error() check
 1e7ab6f67824343ee3e96f100f0937c393749a8a anon_inode: rework assertions
-5f05fc6e2218db7ecc52c60eb34b707fe69262c2 dt-bindings: i2c: realtek,rtl9301: Fix missing 'reg' constraint
 7e4a6b57dd7f55cce9ece0778c111905e73db7b1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 3c894cb29bbf4e36c5f2497cf8ea6fb09e157920 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 ba6a2f25d3d0c813bc5f70c4437002ecc90b85d5 Merge tag 's390-6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -377,14 +374,5 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
-cf8bd8de5e3da2582c6011c45fbfa5420f41dd81 i2c: tegra: Add missing kernel-doc for dma_dev member
-99ef3e269d114379653023049d92554ef3eaffdc dt-bindings: i2c: renesas,riic: Move ref for i2c-controller.yaml to the end
-c813e5d1c3a7ac52e46c4f6ca7415f597de02b5a dt-bindings: i2c: renesas,riic: Document RZ/T2H and RZ/N2H support
-6b0c2bb748dee1110fb64ef2f7f5974a6555ea37 i2c: riic: Pass IRQ desc array as part of OF data
-c378b51b04078a925bcbc9e8d728313db30da792 i2c: riic: Move generic compatible string to end of array
-4dc517a0097bc8e2be4bad5224073ae6504d5c2f i2c: riic: Add support for RZ/T2H SoC
-1d5acf5de82db78e71dd58835892235f8844118f dt-bindings: i2c: nxp,pnx-i2c: allow clocks property
-6f12da12421b3907ea1a54682969d791a60f6711 i2c: stm32f7: Use str_on_off() helper
-e3b7a7ef2f7107573c657598e06ace9bdc3eaf08 i2c: imx: use guard to take spinlock
 
---===============5500717025844551327==--
+--===============0734347240431788800==--
