@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 09 Jul 2025 15:51:01 -0000
-Message-Id: <175207626179.2569035.15850214415744507924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Wed, 09 Jul 2025 15:55:35 -0000
+Message-Id: <175207653584.2573429.803751143772709284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: 3263a554f396422b07ab42831c2f106f9596b9f4
-    new: 907e01b3ce4cee04aed33cdffcd444d6bd2a684e
+  - ref: refs/heads/testing
+    old: 3e28fa06444e7031aba0b3552cce332b776fe267
+    new: f8f559752d573a051a984adda8d2d1464f92f954
     log: |
-         907e01b3ce4cee04aed33cdffcd444d6bd2a684e ALSA: echoaudio: Replace deprecated strcpy() with strscpy()
-         
-  - ref: refs/heads/master
-    old: f2a24c40b272d285f6d2e2e58a9f5db5f925bb91
-    new: e0028cf30228e94fe6e687c3b552ceb182f80e89
-    log: |
-         907e01b3ce4cee04aed33cdffcd444d6bd2a684e ALSA: echoaudio: Replace deprecated strcpy() with strscpy()
-         e0028cf30228e94fe6e687c3b552ceb182f80e89 Merge branch 'for-next'
+         b6b1bec54ae2fb1805da2d387dc3a516e3bbf5c9 iio: accel: kionix-kx022a: Apply approximate iwyu principles to includes
+         f8f559752d573a051a984adda8d2d1464f92f954 dt-bindings: iio: adc: Add support for MT7981
          
