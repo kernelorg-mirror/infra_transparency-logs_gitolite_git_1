@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0627248237192844998=="
+Content-Type: multipart/mixed; boundary="===============6106636775252814127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 09 Jul 2025 15:34:15 -0000
-Message-Id: <175207525531.2551396.15643574849703639754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 09 Jul 2025 15:34:22 -0000
+Message-Id: <175207526201.2551727.11723424567722821325@gitolite.kernel.org>
 
---===============0627248237192844998==
+--===============6106636775252814127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 6f80be548588429100eb1f5e25dc2a714d583ffe
     new: a609bd74b8680dba62c44f7e6d00d381ddb2d3c0
     log: |
          a609bd74b8680dba62c44f7e6d00d381ddb2d3c0 ASoC: Intel: avs: Fix NULL ptr deref on rmmod
          
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 68e4dadacb7faa393b532b41bbf99a2dbfec3b1b
     new: c61da55412a08268ea0cdef99dea11f7ade934ee
     log: |
@@ -34,29 +34,29 @@ changes:
          c61da55412a08268ea0cdef99dea11f7ade934ee ASoC: sdw_utils: Add missed component_name strings for speaker amps
          
 
---===============0627248237192844998==
+--===============6106636775252814127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1752075293 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1752075253-34c2b69447dcd07b3c4c93f3aba717e0c7c8bee5
+pusher Mark Brown <broonie@kernel.org> 1752075299 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1752075259-7f5dc8a54c6cd124ed030c14ed7b1b85b3be3f59
 
-6f80be548588429100eb1f5e25dc2a714d583ffe a609bd74b8680dba62c44f7e6d00d381ddb2d3c0 refs/heads/for-6.16
-68e4dadacb7faa393b532b41bbf99a2dbfec3b1b c61da55412a08268ea0cdef99dea11f7ade934ee refs/heads/for-6.17
+6f80be548588429100eb1f5e25dc2a714d583ffe a609bd74b8680dba62c44f7e6d00d381ddb2d3c0 refs/heads/asoc-6.16
+68e4dadacb7faa393b532b41bbf99a2dbfec3b1b c61da55412a08268ea0cdef99dea11f7ade934ee refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhujB0THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0N9pB/91YKca6fYvzv+6VQEPao5JpvIapf4b
-U80RR6n913Z3R+dbvSS6Fa/eSqEDwDNS8nCcbbDmbkjvDhO+ha/pChI+bwSv+gE1
-XQqxgB8IoH4VXI6wc/xyQ+5YbJ+yb73vSz2WrOxn2Ki2lx+QLqVpBXIUc3d0Xanc
-mCbrTWtEMmY41+YLCLRnGBkdXvJG7iyKw94p25pEfn2WGJFw6uDd3NCEF98buSlM
-zxkAKiLq1gUO21eSzJT4d3uEiz3aSNtRlCpLugP43uNLaetwjZXSfIi6zV7PfZuh
-8kAxkjkrDj7u8CNDoX1w3aoMWpfcTlSvD1S9iMVVWvnHhK1D/Zud7pDO
-=fgiO
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhujCQTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0I2nB/9jK8vQmPyNv/QVbRifchJnBbx9+sGQ
+97hAqiyLdfHIFi7pzRMWfCKHHhQ69/5vCoUF8f+9HBK4mxdBNn4uNJs/seUeaetc
+20oKhe2Z8fo+XHrtrIlbUsUQXq8vW/dO1Dw8RFUtcLC3IdAJMzmpWMUpMqB2t3nN
+d6+WZR0oRM4zlTRiJNRJ5QrQPwAQEqweUdQlsH1akaq6oWjee1wEQjTz9rNzbYil
+43velduEGvLWdBNrENdz6iNvH/Dvdtbb8yqPbKasRCQ9445xnlPaNEZFJ/XXxArM
+cZoTOW/V2O521bvg4F1wJlFYllnqf4buwF0I7+781FKZ/vpTpEqqYa63
+=VK0A
 -----END PGP SIGNATURE-----
 
---===============0627248237192844998==--
+--===============6106636775252814127==--
