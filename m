@@ -1,34 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Wed, 09 Jul 2025 03:11:49 -0000
-Message-Id: <175203070920.1911816.7130222667329251180@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8148151801791682747=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 09 Jul 2025 03:49:04 -0000
+Message-Id: <175203294435.1940465.4295085693094183278@gitolite.kernel.org>
+
+--===============8148151801791682747==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: e4b0a53e512c455bb8065b9a4b8e82b4ccd82010
-    new: da631e117dcf8797bfda0f48bdaa05ac0fbcf7af
+  - ref: refs/heads/next-test
+    old: cf183c1730f2634245da35e9b5d53381b787d112
+    new: bde5b1a1553c5e96367afd4da64de947ae4b6f84
     log: |
-         a99e6b3c87f7fab57df2543d2effd7bedc7fabb7 po: update ms.po (from translationproject.org)
-         da631e117dcf8797bfda0f48bdaa05ac0fbcf7af Update release notes, etc., for the 1.47.3 release
+         760b9b4f6de9a33ca56a05f950cabe82138d25bd (powerpc/512) Fix possible `dma_unmap_single()` on uninitialized pointer
+         fbf355f32b98903c572544ead7fc0db79583c3a2 powerpc/pseries: Correct secvar format representation for static key management
+         c1d96cd9a10bfea6aea71aaca6a161d98320edc5 powerpc/secvar: Expose secvars relevant to the key management mode
+         bde5b1a1553c5e96367afd4da64de947ae4b6f84 integrity/platform_certs: Allow loading of keys in the static key management mode
          
-  - ref: refs/heads/next
-    old: e4b0a53e512c455bb8065b9a4b8e82b4ccd82010
-    new: da631e117dcf8797bfda0f48bdaa05ac0fbcf7af
-    log: |
-         a99e6b3c87f7fab57df2543d2effd7bedc7fabb7 po: update ms.po (from translationproject.org)
-         da631e117dcf8797bfda0f48bdaa05ac0fbcf7af Update release notes, etc., for the 1.47.3 release
-         
-  - ref: refs/heads/web
-    old: bab42d82be094230d1e1bf495e808fce2e1f8dc5
-    new: 4eeb20629a4e30b04c67d9db5453d1a1455cba86
-    log: |
-         a595a044fa069d232af5e69056b3caa6b25c900f Update for the 1.47.2 release
-         4eeb20629a4e30b04c67d9db5453d1a1455cba86 Update for the 1.47.3 release
-         
+
+--===============8148151801791682747==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1752032976 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1752032935-61a673136c1a8fd047951f66ebe0bc3d173c2893
+
+cf183c1730f2634245da35e9b5d53381b787d112 bde5b1a1553c5e96367afd4da64de947ae4b6f84 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmht5tAACgkQpnEsdPSH
+ZJQqXQ//dX4HvEkNrskm5hsaeQefN5drRjtXxXUzTLV/9htzhvMGJPVl9kWQobnn
+DuwuezvrAi27wJqVohvwtQgHO6s8lMkAiMlZiv75eTJQX2qHOBv/3N4oBkLwEJ2A
+EJvgW8eQPcxccccq8xSuHpIXIvBcn9sSoA+h4WIYyDQX1/AHhXn8MZynhy2eUydf
+a+gLUKkL2BSiIgfFhFAc9MndtO89pMtHJhTf/Sm0UzD+CoXMoML6IocX5gqlZ8wd
+VRV7CSMZfyeYyCv1tRkil6Q7wd1oPjqj8BIoZPvVwMuDTi66VBPkrT/ZBWSldb2Y
+SvHAk28KPvzqnfxAony/pRXnU9OGJastRlQGwM23BABJY9FvBs3xRfm5O5EaNhTL
+9kTAdtPnveAANMFRmdZ0a/SAFuXkHFDeczY1y9iljQgsS4ZDGXxemy9s0atercGe
+bl/1IFjVekb5ZflJH/gw8Sk9+U/OjO7jFTo73fHcP4/ZhGQPiMTXuJglCkM9qn8D
+cX8tBOCT5gtwQdeYhn58BfxqVdLnVzWXBszMRDFBDXu2weo0s8XAwKK4YdNui70+
+FfwEi2C77kgD/0yESp/QYQNUo54P1sCYNi740p0Lb8YtdPiRnDFi1nM+Kn/J2cPv
+HQGLq5E8qLTAxts95qlQJH1/EguR6J2eoBVFrPhHffL0/OCPkGg=
+=hB1m
+-----END PGP SIGNATURE-----
+
+--===============8148151801791682747==--
