@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9142098326797947620=="
+Content-Type: multipart/mixed; boundary="===============7670820768474808803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 09 Jul 2025 08:35:04 -0000
-Message-Id: <175205010423.2177727.3298276968774074096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 09 Jul 2025 08:38:16 -0000
+Message-Id: <175205029626.2179163.3727162274292436776@gitolite.kernel.org>
 
---===============9142098326797947620==
+--===============7670820768474808803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 56036d6af41a473a8129fc960a5ab3673eda13d5
-    new: 428f6f3a56ac85f37a07a3fe5149b593185d5c4c
+  - ref: refs/heads/master
+    old: 959d7b3540a43ff2c6f9d32a8eef23c55bbd5250
+    new: 546322167090286a5d81883c17a1a49b24fa10e6
     log: |
-         428f6f3a56ac85f37a07a3fe5149b593185d5c4c platform/x86/intel/pmt/discovery: Fix size_t specifiers for 32-bit
+         546322167090286a5d81883c17a1a49b24fa10e6 6.12-stable patches
          
 
---===============9142098326797947620==
+--===============7670820768474808803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1752050142 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1752050101-6ffd3f287028b6f06607d22cad36538c93781089
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752050333 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1752050293-6f94aa208b5a5b75e6a0fb54dfe8e1b2610657c2
 
-56036d6af41a473a8129fc960a5ab3673eda13d5 428f6f3a56ac85f37a07a3fe5149b593185d5c4c refs/heads/for-next
+959d7b3540a43ff2c6f9d32a8eef23c55bbd5250 546322167090286a5d81883c17a1a49b24fa10e6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaG4p3wAKCRBZrE9hU+XO
-MSn2AP91fZ9UEyRWqjAGOGf+fYeDsb0hIJAQnrm3TrTDIPu3EgEA/+gzSZfczkXM
-VWd4tYQ5bIkDW1piSqrKtnX8vgrD6Q4=
-=T81u
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhuKp0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WdMQAMWvhPvxL5vd5w7m8tt8
+gbISNj27wZvB9DZ0U4zO+vcgFjAtRPTzWhW5hb4H5TIIPBfSzBK09AgzUD0kcts7
+hDbhnUnXdg70V/ho/9ngkKJenzJcVviU7INgol2RZCnNqNMAk5DFTfPXMJMCRgWS
+J0cVnBebm59dAmI8JUQD7Ox9ZOex2p7RuqoUulV6agr8tOwYDJ/GPsjfc4q34gtj
+fBfptxaYryFAPqL3OXcc8iPyFmdtqNxDjnYhtFQSc2mqz1BYLio2mlTkW4xNUR6R
+Xb1pPELjsAZ0E3xxKXWGedBQWJaB2kIzBp2h9QcWIUDn2V75w4Jwc+LP1M1qn2FV
+kD8PsDEyThwkkzr7mS1SH2Hz2ZDLbmCoRMpfJmpvJftGOuLf8LVxvz2A/ECSOmrw
+dyA1VsQ3tsTlDfI/BStJpTHwlqRvfsCeXlPOC3fKepCZFErLCq4YuDyhT51n3lsh
+Mali1PxzMYN1UT/BP9S0RbK5ieopiv8jQKMaG24cFcMZV5++HDZq+UdpMgY3PBi5
+3oL/9cyH2GZOXQfgjfCccs3dBw4e3XzbkUsTxxfRcCFsg8Y4UqONl2VHwWDv6Z3C
+tYaYio8HpWjzYvqW7W4bv+5a5m4H8OdEVDTf5M6tauq6cEkV18BO8vBDBSRQEr6F
+mcKieTD/LcqpRGSklJmFhq0N
+=ykry
 -----END PGP SIGNATURE-----
 
---===============9142098326797947620==--
+--===============7670820768474808803==--
