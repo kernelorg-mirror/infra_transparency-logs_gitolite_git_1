@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 09 Jul 2025 15:35:08 -0000
-Message-Id: <175207530879.2554862.8412338192695480259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 09 Jul 2025 15:35:38 -0000
+Message-Id: <175207533855.2555330.18295619758027462416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 8cdea9ca2d1251cd60f13800e1c29b3b53ed3cf0
-    new: ce669d44622ccc320af4c1551997239605aa8101
-    log: |
-         defe01abfb7f5c5bd53c723b8577d4fcd64faa5a spi: stm32-ospi: Use of_reserved_mem_region_to_resource() for "memory-region"
-         ce669d44622ccc320af4c1551997239605aa8101 Merge remote-tracking branch 'spi/for-6.17' into spi-next
-         
+  - ref: refs/heads/20250708_kuninori_morimoto_gx_asoc_don_t_set_dapm_bias_level_directly
+    old: 67bdd67aedcec8c63e3158c3c82991fbde0c4d22
+    new: 0000000000000000000000000000000000000000
