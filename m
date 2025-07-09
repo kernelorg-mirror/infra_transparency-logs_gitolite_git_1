@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5467924853065522071=="
+Content-Type: multipart/mixed; boundary="===============5521789814167636182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 09 Jul 2025 08:38:41 -0000
-Message-Id: <175205032103.2179627.6698814950754698640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Wed, 09 Jul 2025 08:45:21 -0000
+Message-Id: <175205072136.2186765.6861364481560252107@gitolite.kernel.org>
 
---===============5467924853065522071==
+--===============5521789814167636182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/heads/master
-    old: 546322167090286a5d81883c17a1a49b24fa10e6
-    new: b6bf4faa74364bddec3e5c5c6139e9ddadaf397b
-    log: |
-         b6bf4faa74364bddec3e5c5c6139e9ddadaf397b drop queue-6.12/firmware-arm_ffa-replace-mutex-with-rwlock-to-avoid-.patch
-         
+  - ref: refs/heads/next
+    old: cf80c02a9fdb6c5bc8508beb6a0f6a1294fc32f6
+    new: 34f2573661e3e644efaf383178af634a2fd67828
+    log: revlist-cf80c02a9fdb-34f2573661e3.txt
 
---===============5467924853065522071==
+--===============5521789814167636182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cf80c02a9fdb-34f2573661e3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752050358 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1752050319-ebec0f67c3ee74fe67477cc45b10f1b55289ff73
+14db492738d922a982a1efdc9a4613d414c73a72 wifi: iwlwifi: Add an helper function for polling bits
+563abc938f21e2cb7d6ce895fb853f966b2c1f38 wifi: iwlwifi: use PNVM data embedded in .ucode files
+377edee91b8977615ea5154817e07387ef67720c wifi: iwlwifi: pcie move gen1_2 probe to gen1_2/trans.c
+0b261b014a99fa9f9879fb6b819d67c13f0731a1 wifi: iwlwifi: pcie: Move txcmd size/align calculation to callers
+318f54a6486c769e796cf5bee1a822111b7fc98d wifi: iwlwifi: bump FW API to 102 for BZ/SC/DR
+e1dbd37f145af4e3ed39c0f2fea879f68c94e721 wifi: iwlwifi: pcie move common probe logic
+46f29dbfa9c8208eb1f7a6ec7e14a9de6823ad36 wifi: iwlwifi: trans: remove iwl_trans_init
+c0a44a7bd26c7ed39f96ca3cd31c2f94bedbf5e8 wifi: iwlwifi: mvm/mld: make PHC messages debug messages
+43375cf823479693a095f51db4fe2f3f1e168eaa wifi: iwlwifi: remove Intel driver load message
+c5fbdf0ba7c1a6ed52dc3650bee73ce00c86cf7f wifi: iwlwifi: match discrete/integrated to fix some names
+8a4583d6264c1c5a4124b93f5f110adec1163e6d wifi: iwlwifi: pcie: rename iwl_pci_gen1_2_probe() argument
+cb09c80f5904cd99d2e2419733a502f7bdc209b9 wifi: iwlwifi: mvm: remove MLO GTK rekey code
+915d3522563b6ca672d76b0bf459062ffd575fe6 wifi: iwlwifi: mvm: remove unneeded argument
+e9b7a0264baf9b4aa55ff3ddae275d26b56f476b wifi: iwlwifi: bump minimum API version in BZ
+34f2573661e3e644efaf383178af634a2fd67828 wifi: iwlwifi: mvm: remove support for iwl_wowlan_info_notif_v4
 
-546322167090286a5d81883c17a1a49b24fa10e6 b6bf4faa74364bddec3e5c5c6139e9ddadaf397b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhuKrYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rPcP/iA3tqzJNcPtNu4Uz1vu
-xT1WWT2OKppNfOuSF++aVt6cc2tKmW0J/qGwEga56wRtg0lLQI6vLF66DOJds/aq
-HLRjC3fizTxXR40HaXFupWWzsLXhKoBk4WE/0ZWSBJhoYGc85/YjDT8vQaxO6a+o
-ail2VCD/Oj1lC6iF/D/EcgYMoTrdE0VO1JEoe9Sk4372zmUgwUu3JAjDByAS5yBi
-byXbhGvv7/sqDsu/0MlUbVFWUptNpewCLx/BfxoYrhgGYGDcifhuMhD2WuQSJRvf
-7RDPrrveIOSxYLml0twQ7aF7fkEcZZ1FflSsvh64+HvZAqWLXMs7mSMACtLFRymB
-avxaJPKDo5ehJi71wUGGasmClAKnDQDI1piAwvIuLoHv1fm+ckevqNEhZGMCqB1x
-/dMlyqWruCddsYE16ugolRJgtLLVGVKOMw6BmsE1hH/qec95ZLhgJkIJG8YTw4Md
-L88PXLj+fbhuSmRJQMfV2GHTeGbchIGgvV4BcPW6QNTP6PsxDYcSRqoV2l5I3R5E
-CITszveEIqrXlyRyjFSueHcxFrjWhJNjwm5MGaWnxNOqhpXZ5VQ9GPio9OX6fm9k
-OByXaTLjefC7jk9oynpll4tNurMh44TNN2VbI5uda0I0Fczf7e4p+7Rvo1XzlZVa
-aB9q0KCchJOoRNtOjoVtOohJ
-=xJMt
------END PGP SIGNATURE-----
-
---===============5467924853065522071==--
+--===============5521789814167636182==--
