@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 09 Jul 2025 17:20:59 -0000
-Message-Id: <175208165967.2646895.7327992989585701136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Wed, 09 Jul 2025 17:28:47 -0000
+Message-Id: <175208212777.2652100.11849541892257151857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/network/connman/connman
+user: denkenz
 changes:
-  - ref: refs/heads/non-rcu/next
-    old: 5c23ce0cb897b491a12667e3c15288eb03f8928d
-    new: 125b9ae972197fa6ecc789b847427f6ad1156e52
+  - ref: refs/heads/master
+    old: 670ad57d72500d58b0cfdbf6a5aa4aa5b6ec00d5
+    new: d1e56402d8cce1ad4f960ac3e053ffd820f39403
     log: |
-         88172700423c27c0123fdb05b8c4a62444cfcba2 docs/memory-barriers.txt: Add wait_event_cmd() and wait_event_exclusive_cmd()
-         125b9ae972197fa6ecc789b847427f6ad1156e52 Merge branches 'lkmm.2025.07.09a' and 'ratelimit.2025.06.24a' into HEAD
+         d1e56402d8cce1ad4f960ac3e053ffd820f39403 client: Add missing newlines on error messages
          
