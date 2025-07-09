@@ -1,57 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5033729950166170631=="
+Content-Type: multipart/mixed; boundary="===============7017299837162303269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 09 Jul 2025 17:55:54 -0000
-Message-Id: <175208375407.2675634.4430814634994091790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 09 Jul 2025 18:04:25 -0000
+Message-Id: <175208426544.2681769.9272389000235904476@gitolite.kernel.org>
 
---===============5033729950166170631==
+--===============7017299837162303269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 5383fc057a0ea18e8eb9a0472ea853c24b59ee5e
-    new: 4578a747f3c7950be3feb93c2db32eb597a3e55b
-    log: |
-         4578a747f3c7950be3feb93c2db32eb597a3e55b KVM: x86: avoid underflow when scaling TSC frequency
-         
-  - ref: refs/tags/for-linus
-    old: 237ee1bd5bd208196e2e9f6d3e6c03054fdc1847
-    new: f91d6ba81c5787ba1d2bcca1312715f2e2a6ad68
-    log: |
-         4578a747f3c7950be3feb93c2db32eb597a3e55b KVM: x86: avoid underflow when scaling TSC frequency
-         
+  - ref: refs/heads/dev
+    old: 39868685c2a94a70762bc6d77dc81d781d05bff5
+    new: c1cfc87e49525853ebe9dce2ffce6332eb811fa6
+    log: revlist-39868685c2a9-c1cfc87e4952.txt
 
---===============5033729950166170631==
+--===============7017299837162303269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-39868685c2a9-c1cfc87e4952.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1752083785 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1752083745-fac1b1b14ecc632500e84fe00e7a0cfec0ec1064
+1f136890263c3d34072b8eeea905c1f47e30369a f2fs: Fix the typos in comments
+90c5ce37adf074ed85b26d1cd43074f29c0743ba f2fs: convert F2FS_I_SB to sbi in f2fs_setattr()
+154467f4ad033473e5c903a03e7b9bca7df9a0fa f2fs: fix KMSAN uninit-value in extent_info usage
+10dcaa56ef93f2a45e4c3fec27d8e1594edad110 f2fs: fix to check upper boundary for value of gc_boost_zoned_gc_percent
+956b81b3d41adacbf4b51289ad49a71f9813c7b8 f2fs: enable tuning of boost_zoned_gc_percent via sysfs
+55fc364b430e3b234ecb9b6e1aa48b242a8663cc f2fs: account and print more stats during recovery
+7a96d1d73ce9de5041e891a623b722f900651561 f2fs: fix to check upper boundary for gc_valid_thresh_ratio
+a919ae794ad2dc6d04b3eea2f9bc86332c1630cc f2fs: fix to check upper boundary for gc_no_zoned_gc_percent
+d738f708564764ed591cb6ab50d55489f87c726a f2fs: don't allow unaligned truncation to smaller/equal size on pinned file
+e23ab8028de0d92df5921a570f5212c0370db3b5 f2fs: check the generic conditions first
+185f203a6991f7dd7f8070d6638415215da35d7e f2fs: avoid splitting bio when reading multiple pages
+8f4688591d96be9a71c0ddfbf32032d55dd54cfa f2fs: fix to use f2fs_is_valid_blkaddr_raw() in do_write_page()
+e9705c61b1dbe7bac9dc189de434994d8a76b191 f2fs: use kfree() instead of kvfree() to free some memory
+81b6ecca2f15922e8d653dc037df5871e754be6e f2fs: doc: fix wrong quota mount option description
+7c30d79930132466f5be7d0b57add14d1a016bda f2fs: fix to avoid UAF in f2fs_sync_inode_meta()
+a509a55f8eecc8970b3980c6f06886bbff0e2f68 f2fs: fix to avoid panic in f2fs_evict_inode
+c1cfc87e49525853ebe9dce2ffce6332eb811fa6 f2fs: introduce is_cur{seg,sec}()
 
-5383fc057a0ea18e8eb9a0472ea853c24b59ee5e 4578a747f3c7950be3feb93c2db32eb597a3e55b refs/heads/master
-237ee1bd5bd208196e2e9f6d3e6c03054fdc1847 f91d6ba81c5787ba1d2bcca1312715f2e2a6ad68 refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmhurUkUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNcMQf/UspDEJnmhEv4VXgurTXwcjtIgmb8
-6JoiFUZrGnAw38Mp7AA3tudnOab3SH2Gds3N0w9RvLjIQCVNSjKNsBNaiEDBVJc0
-B/xp/CBNd9Rqz2iqq+YjjtPayByn5KIscay/1PJx4beUbhq0Mmq/Zt9ukhsfw7q4
-/JV6ddq7kC4HssA9jvQzsE/XYzCCsCkO8qh/N/stvXRmBTrP0x8kBnS21C/gze3c
-+/fNPW2AfSnltkOKTSvB7UdDaKP2dvOwWOs0QZb1jJCib1R4A85QnsOTDUhTie3D
-/0qo47oso134C90CuFyCIbxRy8Ih2d0PU6c/cfI39p9J0ggNWSbFdeDD6g==
-=G6OF
------END PGP SIGNATURE-----
-
---===============5033729950166170631==--
+--===============7017299837162303269==--
