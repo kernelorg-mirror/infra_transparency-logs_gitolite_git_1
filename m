@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3129541443785536141=="
+Content-Type: multipart/mixed; boundary="===============5516511611208566557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 09 Jul 2025 10:42:50 -0000
-Message-Id: <175205777064.2289553.8440015484623447141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 09 Jul 2025 10:44:51 -0000
+Message-Id: <175205789135.2291620.7188403615770505083@gitolite.kernel.org>
 
---===============3129541443785536141==
+--===============5516511611208566557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 3014168731b7930300aab656085af784edc861f6
-    new: cd0f8649d0e1c747d1bf6290201f38474fc23925
+  - ref: refs/heads/master
+    old: bc32006ddf69234e6d07cf6b92dd1d9f6afc614b
+    new: d4b6ea6d858288afda7e6be1bd45ce6721600c52
     log: |
-         08f49cdb71f3759368fded4dbc9dde35a404ec2b USB: serial: option: add Foxconn T99W640
-         cd0f8649d0e1c747d1bf6290201f38474fc23925 Merge tag 'usb-serial-6.16-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         0efb2696c025082a9e4827f97ff465e1acd2e218 assign some cve ids to 6.15.5 commits
+         18d79fa0f1e4d274bbedd7254ea5925b5a38e9fb strip the newly created mbox files
+         d4b6ea6d858288afda7e6be1bd45ce6721600c52 update cvelistV5
          
 
---===============3129541443785536141==
+--===============5516511611208566557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752057808 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1752057768-831f15e99526828cda18feb929235f808086afcb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752057930 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1752057890-8ac0671cb25391c4ce6bfd31ad5fda23b551cd9b
 
-3014168731b7930300aab656085af784edc861f6 cd0f8649d0e1c747d1bf6290201f38474fc23925 refs/heads/usb-linus
+bc32006ddf69234e6d07cf6b92dd1d9f6afc614b d4b6ea6d858288afda7e6be1bd45ce6721600c52 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhuR9AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mzcP/ibM/7/VGWuZNdlbdQYO
-2oqzplH94mnTXoisaTThL85ZOisyK4U4g0Axn+L0eEreYh7y0iZ91piUME/28wk7
-hCNKeJOOr3YAf2sAoisSpcUdZB5U+R9bcMi3X0r0PBCtoWCGp1jHMfuQksnXePOA
-cFeLZle7nYjquwdaCiKiiAWESSdmQaT407hRElKFd3ftidNwS+uwKvNlQNyFhDEh
-0sdqk256eCFK0tQ37/p0A6nh+mMJ50WPT6oNu21vp8HNfCZZ+ZtPCDJijZlunb8D
-OHKCThJ2+8Kw/mlwTNaKvv+RjUSaFOxhb5i0kyQ1ABq1roBCtq8qhEz7flgwpfyt
-wYMngETvyMkgxBXD7PRTlY8PgUlEYYCERa6lOPc7Rd+ZVBuszbhrJT35s/xU0JyQ
-UGpDBoPEvq/nN95r504DnyUmsJ3P6y3UrUx1zIvXTPqskBIMaNa3Z8IXNgXZTxCf
-UzSFdqkWr3MflvdjtlzC9iOxlCW1stnnlo1pSYmCu3aBBjVexQ/L24uvoqYyaoMr
-aCCl+NeJ1WKRMl/4iNP3W/UePcH5VzO3RE6w0KO7ErXUrfOm0vOdInK57IJx4BN0
-VQpQOftfb0ZGkSxcBLXByaMZ7439LQB7q6G5GiXXGwiRQtS6cTtYEpKSwkXpzVA4
-sQIt8ItG1F3/ypVucItR7gwo
-=A2BQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhuSEobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w7YP/3xfYiVSBNO5dT6QS6I9
+Gkj/gAfR5e2AVcskyedisK9vDewIJsZstWHDroVji2KTcvmnNGbZIrwEP5yWLUtK
+F7UMyvMniB42v0oZDigpiuUUJ9bjEyTzYm+8dIAAglGvj5CNswsceAqAKqKRs0Of
+SSfmdLh1aBmON2wWJ6ehz+D1d7VPDJzBdQtBXDmR8i2cJbEyHr1iIIkm5Il1rn+k
+OorF70LhEZwtnnRqMs2/ZRDUB/ZWdLS3pTRSJx4ggy2UDAmUHfYQKpuSMKyMfllE
+HTzu42kQKxN/fbTOfks7cs32LLQ9kX3x/4strWnKXbZQMsizqsSD4uNdC2aZ+j+/
+TOZ+QCW3b2Ot8ozXNllmFg2/wJo3AOS68C43xJIw1N/1y2vtIkHHLgcqadxGN0j4
+I+0wH593jVBSMNrQOy6bOTYKnxCKsrr90fQnN8a07lgKDOyUsmxOW9BwUn2GYxXu
+RYVa9Bdk5S7Igf/7YY2J/NF43xqCe6x0yZR66GOonc4BUm3aD3MyBzuni5VTrrCS
+wU85eVQgYMwzQKTxxf7X0rjqASMSAu/nNjMHNKDVzBE8c5lHdFAWgieMLwNprz1R
+LOAud9P/gsonPW2IRlYkJrWBD9IrW2zczBvJk0QCBV6WTxM6HjA/oswlgiTebATc
+wjWQmC0nSr8jtC1Ok7mECGde
+=M/Im
 -----END PGP SIGNATURE-----
 
---===============3129541443785536141==--
+--===============5516511611208566557==--
