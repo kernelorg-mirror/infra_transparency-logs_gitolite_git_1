@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============9072048241208071398=="
+Content-Type: multipart/mixed; boundary="===============4777683280646378649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 10 Jul 2025 14:29:41 -0000
-Message-Id: <175215778164.3919044.3503329080100008464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 10 Jul 2025 14:29:58 -0000
+Message-Id: <175215779880.3919599.10975990185491059365@gitolite.kernel.org>
 
---===============9072048241208071398==
+--===============4777683280646378649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/ring-buffer/for-next
-    old: 99d232804405e35d7a9af1536a057578a1442e81
-    new: ca296d32ece38b07113bad64e08add75073a0e2b
-    log: revlist-99d232804405-ca296d32ece3.txt
+  - ref: refs/heads/x86/core
+    old: 6a7c3c2606105a41dde81002c0037420bc1ddf00
+    new: 4fdc3431e03b9c11803f399f91837fca487029a1
+    log: revlist-6a7c3c260610-4fdc3431e03b.txt
 
---===============9072048241208071398==
+--===============4777683280646378649==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-99d232804405-ca296d32ece3.txt
+Content-Disposition: attachment; filename=revlist-6a7c3c260610-4fdc3431e03b.txt
 
-312d02adb959ea199372f375ada06e0186f651e4 optee: ffa: fix sleep in atomic context
-332d6a94ce80efae2e6b38e01a46e92230577354 Merge tag 'cpufreq-arm-fixes-6.16-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-e479da4054875c4cc53a7fb956ebff03d2dac939 drm/ssd130x: fix ssd132x_clear_screen() columns
 8ecbad4853f83d9853d7bb0c2d8373afab8851d3 drm/arm/malidp: Silence informational message
 d1fc7687959b0fbf335815a8d808e6076b969309 ASoC: cs35l56: Use SoundWire address as firmware name suffix for new silicon
 e5d5b3aebdc8acf9f52d1369a7744a2ab9ca591c ASoC: cs35l56: Use SoundWire address as alternate firmware suffix on L56 B0
@@ -1049,6 +1046,9 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
-ca296d32ece38b07113bad64e08add75073a0e2b tracing: ring_buffer: Rewind persistent ring buffer on reboot
+1d738dbb252f66dd909a662d85c67b93314d7ae7 drm/gpu: Remove dead checks on wbinvd_on_all_cpus()'s return value
+e638081751a292560a8aed36ec72e8f65b057892 x86/lib: Drop the unused return value from wbinvd_on_all_cpus()
+07f99c3fbe6e322bdb222fbfd59f708ced799cc5 x86/lib: Add WBNOINVD helper functions
+4fdc3431e03b9c11803f399f91837fca487029a1 x86/lib: Add WBINVD and WBNOINVD helpers to target multiple CPUs
 
---===============9072048241208071398==--
+--===============4777683280646378649==--
