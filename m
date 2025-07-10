@@ -1,87 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============4046689137843789680=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 10 Jul 2025 08:49:28 -0000
-Message-Id: <175213736882.3423835.16517991592889514600@gitolite.kernel.org>
-
---===============4046689137843789680==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 10 Jul 2025 08:51:59 -0000
+Message-Id: <175213751912.3426760.16551503978841759206@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 2944cb59ec1f22c1bc6f6994759b9291c9665bfb
-    new: 5aba9be56e42921023ee279aada28ff808fb3778
-    log: revlist-2944cb59ec1f-5aba9be56e42.txt
-
---===============4046689137843789680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2944cb59ec1f-5aba9be56e42.txt
-
-9c2c83100c19d64de72231a37a03a921f69726d3 foo
-4b7b4f65eb71bcbe66ec9773818c914fb22dbdda foo
-a5ab5fb52c90392f4827dbff6ae2c24eae7bedeb foo
-e3d76d1294a75670c74e43b0cb02697a56b9f575 foo
-e56e532892690fd21e73b5bd749c7b9b3896c758 foo
-2525de197f07158720c385b1b45147c22c60c175 foo
-cf1a93302f9f18364a983b17dff14c460a447c3f foo
-54430a36b8b6b031c8197613294e0e5758fda973 foo
-907a3eafe589d97f670ee25af35cc77c28a790fb foo
-93b9be5358ed84beb3a6fd9fe0446b3e8c269362 foo
-2b99d51b7bf8a12a00fedc8c6f81a4022744d73d foo
-c9c55c1f905a78f0ed8cefa022a35b8ff96abfa4 foo
-1e9adabfa3de46c2b46e253bd529c10812ee49d9 foo
-fbbf5f0e297efd5206ac78a968e4239cfa8d4b24 foo
-55c4a850e2c9b4e52bc31b35aca6b0d0298c4085 foo
-83c0d12dc7e8d79de40a2192d426d37b30d5622d foo
-923da34bf097361fbb7735238ef8263662dc23ce foo
-f7538a74aaa9de5d67e177ae62e45194deb49357 foo
-005348a17b138199423a9bf46bb2171d4f7997ea foo
-e0a12e6ffd184de9d16e7004b479867faa502026 foo
-07336902e1bcb6fd6d46c50772a9cf9147e82e6c foo
-ee4000bb01ea18b37fabfa9071273eb50a310ec3 foo
-a69df9389a05cc699a28a45588a8515635411fc7 foo
-119af779905e8c851869f82926127c2069cef9f2 foo
-0fd4723583b7619383f59ddc70d566e994362d2c foo
-b6f8c474a1e3d4641f31ba222912eb36a7bc7c57 foo
-9f092c5be54a58dea1f5fd26757e391785359a36 foo
-700df33bd809b99278a51849027daaea0e43820d foo
-8f8d5df8ada5b1d9bf8627adc2f20255a1aef892 foo
-39e0ee19783b171b022084b42ad57786cd190fe3 foo
-e4ff091129f866f3852225848b6902017eac3f8c foo
-14cc997f6398a4f00d4973eb5ab49338bea6220b foo
-ba307e9c0ba579929076f75af7601fb7449d6f15 foo
-e524e4c526626549b3f22d6b07bf7ba662f54479 foo
-c072dff8073c38b4e572d55a6a1f2568c194978f foo
-8f882d5db66ca9a5c414e45d0bc6a3424f429731 foo
-525d473a8b65aac8a3abc1bd16fa6e3242510b9a foo
-c3fae2ec969fa2f4355e588a247b86a6006b8dee foo
-d226a27297848418daa8c51d5ac03be0c1c7348a foo
-20d68dd2ef8ff6b864a4def1cbe87b7138806ac9 foo
-481d5fdfbbaeb18e6c32a9b0c49492c497e920ed foo
-484b148cc67104a553b52bca882c556cc8055584 foo
-e33d688af9bf3d181643a34e45011ac11398f8b9 foo
-1b5487f3f8b94a7eda99fb3c84caebe1294c1793 foo
-3650765b9ee052ba94538bc6561550cfedec051b foo
-58013f9da11888efd71f99fc22af1236fd21b885 foo
-3751f183189bd0d6120291e203468481008b1476 foo
-221000b6d30265f9245e4085227d4ac5b3b48b80 foo
-a4595b522a3028bc6d2a2f42688da353bf7d8055 foo
-2501463d6431d4197d8ca670cda8f82b8bb76f36 foo
-f3cd5823c73db7dd73382234a72c629d006ebe5c foo
-2c107c363f469b1c4c5097c45d40df7ec4bf5ad7 foo
-adc71366bf5438aead5e2ac98a070c9981279104 foo
-3c4c3b3781c8688a9b1798caeef431bc73934305 foo
-a440b1d7a1512bbd8a34cc3cb684c3b61d8b94b0 foo
-a4a5fb9aea8ea58bfdcccd5fc8ef6919fcff98ad foo
-5aba9be56e42921023ee279aada28ff808fb3778 foo
-
---===============4046689137843789680==--
+  - ref: refs/tags/asoc-fix-v6.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f4de95dd684dfd74dafccca725cd700930946e13
