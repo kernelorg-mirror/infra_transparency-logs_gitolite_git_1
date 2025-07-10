@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 10 Jul 2025 14:32:37 -0000
-Message-Id: <175215795740.3922887.1171946932114020993@gitolite.kernel.org>
+Date: Thu, 10 Jul 2025 14:35:19 -0000
+Message-Id: <175215811903.3926537.14142147612744898665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: a1bff3d6cc454d65a3a654cd3fcd0c90f1fb45fb
+  - ref: refs/heads/pending
+    old: 33f18a7fea6a8f1f3dae4643c43c1dd55d275615
     new: 27ba973caaf85ff3a2a23eca33d6dc9b4fe405e8
     log: |
          2109e98503bc1c01c399feac68cc8b7faf6d0a4a wifi: ath12k: update unsupported bandwidth flags in reg rules
