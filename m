@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1256324033627205411=="
+Content-Type: multipart/mixed; boundary="===============7884174781978826545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 10 Jul 2025 17:54:48 -0000
-Message-Id: <175217008898.4103382.18332653966716872910@gitolite.kernel.org>
+Date: Thu, 10 Jul 2025 17:54:52 -0000
+Message-Id: <175217009223.4103576.4922731771058739212@gitolite.kernel.org>
 
---===============1256324033627205411==
+--===============7884174781978826545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 3ef07434c7dbfba302df477bb6c70e082965f232
     new: bc9ff192a6c940d9a26e21a0a82f2667067aaf5f
     log: revlist-3ef07434c7db-bc9ff192a6c9.txt
 
---===============1256324033627205411==
+--===============7884174781978826545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -369,4 +369,4 @@ dd831ac8221e691e9e918585b1003c7071df0379 net/sched: sch_qfq: Fix null-deref in a
 73d7cf07109e79b093d1a1fb57a88d4048cd9b4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 bc9ff192a6c940d9a26e21a0a82f2667067aaf5f Merge tag 'net-6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============1256324033627205411==--
+--===============7884174781978826545==--
