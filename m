@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2520734136581680090=="
+Content-Type: multipart/mixed; boundary="===============7329877222582792144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 10 Jul 2025 00:32:28 -0000
-Message-Id: <175210754823.3003138.2551799261973421972@gitolite.kernel.org>
+Date: Thu, 10 Jul 2025 00:35:12 -0000
+Message-Id: <175210771299.3006723.17663275692779698236@gitolite.kernel.org>
 
---===============2520734136581680090==
+--===============7329877222582792144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/latency/for-next
-    old: 92a09c47464d040866cf2b4cd052bc60555185fb
-    new: fac5493251a680cb74343895d0e76843624a90d8
-    log: revlist-92a09c47464d-fac5493251a6.txt
+  - ref: refs/heads/tools/for-next
+    old: 8020361d51eea5145402e450d91b083bccdcd874
+    new: 2a4e466dcdfb0c0e9b1a3f4cfb4ff4bc26288059
+    log: revlist-8020361d51ee-2a4e466dcdfb.txt
 
---===============2520734136581680090==
+--===============7329877222582792144==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-92a09c47464d-fac5493251a6.txt
+Content-Disposition: attachment; filename=revlist-8020361d51ee-2a4e466dcdfb.txt
 
+0b9d62a47149083d581d8b2abb04124b6175cb29 fs: unlock the superblock during iterate_supers_type
+ba06528ad5a31923efc24324706116ccd17e12d8 ASoC: amd: yc: Add quirk for MSI Bravo 17 D7VF internal mic
+c538f400fae22725580842deb2bef546701b64bd io_uring: consistently use rcu semantics with sqpoll thread
 c0c7fa4e7a512006710c8e4d6b6f7b40c9f786cd docs: arm64: Fix ICC_SRE_EL2 register typo in booting.rst
 650768c512faba8070bf4cfbb28c95eb5cd203f3 arm64: Restrict pagetable teardown to avoid false warning
 d4e6cb324dcc952618fec6b25aa3fc7bfc2750b4 net: phy: phy_caps: Don't skip better duplex macth on non-exact match
@@ -1038,17 +1041,14 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 772b78c2abd85586bb90b23adff89f7303c704c7 Merge tag 'sched_urgent_for_v6.16_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
-2d088762631b212eb0809e112642843844ef64eb rv: Add #undef TRACE_INCLUDE_FILE
-0af3ecdde58676f6c42eeec07d6816d5bf87ff88 printk: Make vprintk_deferred() public
-3f045de7f557850ca6b3632c6d45c2cdaf948694 panic: Add vpanic()
-ff4e233d8ab70fe6ae460ecc8c0e5b24dd0fedb0 rv: Let the reactors take care of buffers
-c94d27c01b1ff2e26ca347524b3527534e285a39 rv: rename CONFIG_DA_MON_EVENTS to CONFIG_RV_MON_EVENTS
-a9769a5b987838f03f3dd57b097794cd4c691098 rv: Add support for LTL monitors
-886fc86e9419a2bf61713ba566eb6edd8e6aa989 rv: Add rtapp container monitor
-a37c71ca412d90365e143581582c4ecd3a90508f riscv: mm: Add page fault trace points
-9162620eb604d7461da5b02ec379bb50c3c3b604 rv: Add rtapp_pagefault monitor
-f74f8bb246cf22f27752977da62079cb615f55b2 rv: Add rtapp_sleep monitor
-670ff946b9bd398749450ad1b8a4bd4e78c82a2b rv: Add documentation for rtapp monitor
-fac5493251a680cb74343895d0e76843624a90d8 rv: Allow to configure the number of per-task monitor
+a266df6209600056a3492466ec6380bb9c309199 verification/dot2k: Make a separate dot2k_templates/Kconfig_container
+e3c7a7c0e9807b2ceb90145ed459ea581b2fd91d verification/dot2k: Remove __buff_to_string()
+30b30ccb57453e21727a8576dc60cb11bc654dd4 verification/dot2k: Replace is_container() hack with subparsers
+f4ab5362521feff96043fbe4f6e5a7fb9398c6a2 verification/dot2k: Prepare the frontend for LTL inclusion
+62655339fbc5217bcfe886ad77ac2120b0d117c6 Documentation/rv: Prepare monitor synthesis document for LTL inclusion
+2e0180fb1d0c6ebddb1e21f2f0dfe51a5db174ac verification/rvgen: Restructure the templates files
+f68af4f8098a21b63688fb7ead2b3fc2316db10e verification/rvgen: Restructure the classes to prepare for LTL inclusion
+c3d00896d37e90edb7559b0f171dff26032ff979 verification/rvgen: Add support for linear temporal logic
+2a4e466dcdfb0c0e9b1a3f4cfb4ff4bc26288059 Documentation/rv: Add documentation for linear temporal logic monitors
 
---===============2520734136581680090==--
+--===============7329877222582792144==--
