@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1272163799934205840=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 10 Jul 2025 14:41:42 -0000
-Message-Id: <175215850211.3932016.3447403539261043417@gitolite.kernel.org>
-
---===============1272163799934205840==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 10 Jul 2025 14:45:07 -0000
+Message-Id: <175215870782.3935622.7410442645438548769@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: c19905cdf1dced8b18df033c7b5b635ad3ce10a9
-    new: a4cf29a3e96ad75d035991ad7c8163e8d591bf46
+  - ref: refs/heads/main
+    old: 45bbd91fc41b7cb6319e45e6fd732c5c8a0c44e3
+    new: 3a6df1678acc3687d49ce94e23df7b6a289f27f9
     log: |
-         a4cf29a3e96ad75d035991ad7c8163e8d591bf46 add 6.15.6 review from greg
+         7a793ba2cc4a9ef59ab290d50cd847d314514323 bus: mhi: host: pci_generic: Add Foxconn T99W696 modem
+         2109e98503bc1c01c399feac68cc8b7faf6d0a4a wifi: ath12k: update unsupported bandwidth flags in reg rules
+         fee9b1f6691120182136edacf590f52d62d9de7f wifi: ath12k: pack HTT pdev rate stats structs
+         0424cc3d70f6bd72e6501c730b1f95ba966e2ee9 wifi: ath12k: set RX_FLAG_SKIP_MONITOR in WBM error path
+         27ba973caaf85ff3a2a23eca33d6dc9b4fe405e8 wifi: ath12k: allow beacon protection keys to be installed in hardware
+         f8b152d3e631837be2311542512198795668e268 Merge branch 'ath-next'
+         dc680767a3dbfdbb6034bf5ee779a8cd09606b31 Merge remote-tracking branch 'mhi/mhi-next'
+         3a6df1678acc3687d49ce94e23df7b6a289f27f9 Add localversion-wireless-testing-ath
          
-
---===============1272163799934205840==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752158539 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1752158499-aecac06251767e8a941c88d770eec101c1364d4f
-
-c19905cdf1dced8b18df033c7b5b635ad3ce10a9 a4cf29a3e96ad75d035991ad7c8163e8d591bf46 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhv0UsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8owP/0l98xyejsPJDve3Sni4
-s7yA6NhCFrwW9wDErUYZlBXGCpSu0lcToIEVQDANfDhtUMzLsv5PHshtU9TJfFxg
-Ia+LgKHcJmy3M6FZ70Tafb51isJPVYMLpFW0lQ7N/5MAXw637SSQWgrmu5ndVOo0
-OLCc3j3C2sxfP0K8WILvyrU4S0wLCQpDPo6pBuhiHTM34wrCKgSgcDe/JhTevaTQ
-k5j6Lv/5chBctt7LDVIy/0n/nE0o8Pr74PNI0354Y7CyogvyyNVYi3VNP5ke0GXr
-Re9iGZbAxVacCqRujZzyT54N+wOI11BmAdh9duFT+8HKCn1fLakpHT84mhtxCk37
-SAyexLjLxAPUj3UTo2PGdWUcyJx67JAxFKuoLeCV9ykw6ilvs6WM3C1q2QiutfxF
-sFUmGBBLP4NkFPtkEZL7WJxvGj9YmdAVmUktVzQXJn0AkiRiezFQcC9oJuXSqZzK
-xMoP74t97PA/6j5K5ALWMCrQbNUQRTrh8sAzii/cuXWI9dggxllD2nPzQ7cgYUEq
-Sv/3JQvHivYbPlIAZ/NOwXcMFtkW/kRYIj8ubKSpct2YhdVqdw0Hp3DrCkAAj+o4
-z2YZft+KumWWUjJuqRjOKa4+kZZ5iM72qTnLey5WRgoykMmGOTvu5VFvmfR8yB6e
-hXcALs/eW+aVhiQ4PeOv5wF/
-=SLZ3
------END PGP SIGNATURE-----
-
---===============1272163799934205840==--
+  - ref: refs/tags/ath-202507101436
+    old: 0000000000000000000000000000000000000000
+    new: 3a6df1678acc3687d49ce94e23df7b6a289f27f9
