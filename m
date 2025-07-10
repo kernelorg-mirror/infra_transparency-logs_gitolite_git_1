@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7855320681927835914=="
+Content-Type: multipart/mixed; boundary="===============0310256861313149448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 10 Jul 2025 17:55:05 -0000
-Message-Id: <175217010565.4105570.8606514693717610432@gitolite.kernel.org>
+Date: Thu, 10 Jul 2025 17:55:29 -0000
+Message-Id: <175217012957.4106004.12060304758254478318@gitolite.kernel.org>
 
---===============7855320681927835914==
+--===============0310256861313149448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 19c066f940666bf6c0982635e4441100ca8d75bc
-    new: e090f978054e1cfcd970234589168fcbcba33976
-    log: revlist-19c066f94066-e090f978054e.txt
+  - ref: refs/heads/dev-queue
+    old: a2e66566f94085b3eea82379f07e55db8bfb8729
+    new: f7ee0b436ea0faaade36a8e9f8a009c7c4303982
+    log: revlist-a2e66566f940-f7ee0b436ea0.txt
 
---===============7855320681927835914==
+--===============0310256861313149448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19c066f94066-e090f978054e.txt
+Content-Disposition: attachment; filename=revlist-a2e66566f940-f7ee0b436ea0.txt
 
 52931f55159ea5c27ad4fe66fc0cb8ad75ab795b net/mlx5: fs, add multiple prios to RDMA TRANSPORT steering domain
 ebf8d47121b6ef3f38425a343a72f37c60fd6dbc net/mlx5: Small refactor for general object capabilities
@@ -131,5 +131,69 @@ c65d34296b2252897e37835d6007bbd01b255742 Merge branch 'net-mlx5-misc-changes-202
 f38ae0c62ec8e549e752be2e23d25c142dca96c5 net: dsa: rzn1_a5psw: add COMPILE_TEST
 37bfeebc12a4cab3c4c94b5429a4cb7eb3e42e79 net: dsa: rzn1_a5psw: use devm to enable clocks
 e090f978054e1cfcd970234589168fcbcba33976 Merge branch 'net-dsa-rzn1_a5psw-add-compile_test'
+f5c4bdb3bfa5ca98f6079ae4ae7a3178dc3266a7 coccinelle: misc: secs_to_jiffies script: Create dummy report
+4cfc95ab65f7760529d275f5557ce8711d045e52 ice: fix lane number calculation
+57a8d3bfa812063e24813a82d36508e4ba8422eb ice: Allow 100M speed for E825C SGMII device
+46a9f3178284f70a39fe1ca89b598087cbadf26a ice: Remove casts on void pointers in LAG
+9457ec686057c6c4718ae868b1baad69e31dd3df ice: replace u8 elements with bool where
+77cb1aad5507c3fb870e455b0f90cb794ba6559a ice: Add driver specific prefix to LAG
+231ca387f9304ac6067cb7f47d886b1c1206b342 ice: move LAG function in code to prepare for
+d6bc0cfa0932b25750e618e699f76e901441cfc8 ice: Cleanup variable initialization in LAG
+f8ac209b1dfb953d9ab93a620dcfd3aa455de8e5 ice: cleanup capabilities evaluation
+3124d3c9bfd4629e6d172870a99a70d35b8bc194 ice: breakout common LAG code into helpers
+447d97efb3e823192abab8af0fe286f51876ae55 ice: Implement support for SRIOV VFs across
+1762fa679366dd6ecb7b4170f83dd466dcc65ff5 idpf: fix Rx descriptor ready check barrier in splitq
+e0c3c1d5f3c196116e4dc2e107184eb3060e693c idpf: use a saner limit for default number of queues to allocate
+a90aa6dc43c872c4eb562bce60b71f0cf1a766d1 idpf: link NAPIs to queues
+99dfa5cf9a9333afe61e90a9b0d2ad2c4808fb16 idpf: add 4-byte completion descriptor definition
+2e0b12da3de932412b08557d5548f8fe14d3345f idpf: remove SW marker handling from NAPI
+ee92d339cbc856203ad2b6cbb67f307a7d03bf23 idpf: add support for nointerrupt queues
+f32ddd5e0127203486aa906060b9f354dec20aa8 idpf: prepare structures to support XDP
+2a11baaa7cfdca408fe8ff1ef393309c05354b69 idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
+b5288d7b555826069450eaad052a21939fce9d7e idpf: use generic functions to build xdp_buff and skb
+d2779281defcf0c621b4ca471966a22445951b82 idpf: add support for XDP on Rx
+eeb5f74c332787cb9477aa41ac0186d6501580b5 idpf: add support for .ndo_xdp_xmit()
+6a33d574e5c328e21c76fb5eadeb5cb7afb4f177 idpf: add XDP RSS hash hint
+7331c21c4603051a8135311e94841bfbe8331439 virtchnl2: rename enum virtchnl2_cap_rss
+dfb2952ad511732d3045ff93882eb57406c84c21 virtchnl2: add flow steering support
+d7930b8bca576813ea1bbb6320072e24b99e30ce idpf: add flow steering support
+ec295e26487d6e27c3afab8dcbd6f4b21b56259b ice, libie: move generic adminq descriptors to lib
+9c8b1cfacb5037bb593a24f9a510745267a15765 ixgbe: use libie adminq descriptors
+07deead92de1d243565a05a919dfa6995a7a1c68 i40e: use libie adminq descriptors
+df3f4517d5307fb5913b1a498c99bb1cdcb83a0c iavf: use libie adminq descriptors
+5717733c4c5a23ed1a95c3701e9c2ad6903a4e40 libie: add adminq helper for converting err to str
+13bba895b15f29a5c55b4e9e0f36e1693a874236 ice: use libie_aq_str
+2ecff60f9e7bd29512a3656b242ed3969fd905fc iavf: use libie_aq_str
+7e6323a6f92df6eaecaf28b930f9bb2f0bd53764 i40e: use libie_aq_str
+33d941ec8ea282c6d6bde3f1e24e97ecd9a4ca38 ice: add 40G speed to Admin Command GET PORT OPTION
+6894d67d75e05758b5d187b29331014df6ac2f83 ice: add E835 device IDs
+4ae8cd6deb64b2554009db0ed147c203694b41a9 ice: add NULL check in eswitch lag check
+a2d03e29724865c17209e29f1c5e6f200257814d devlink: add overwrite mask from factory settings
+4ea211aba8d8298f9fae0526df7cbb83cf7a7038 ice: add overwrite mask from factory settings
+ce2f1a84e5dab6b65796d171a68f7f31d5bde093 ixgbe: add overwrite mask from factory settings
+201b11ac4a416858996116a6becfc2685c744b58 ixgbe: initialize aci lock before it's used
+1f190b58af57dc370135429608cb3b9620e5cb83 i40e: report VF tx_dropped with tx_errors instead of tx_discards
+3718691a5c6be202fe48caf66fbdd65c6c2b8cdd ethernet: intel: fix building with large NR_CPUS
+6da5126ded519ede5a3fa91e2588fd43d5f0ac2e ice: convert ice_add_prof() to bitmap
+8fcf09bf309e1484f0e5917ad14fca9c27df1ebf idpf: add cross timestamping
+98d14a5340be7619371ac7389d31a40030ec749e ice: add support for reading and unpacking Rx queue context
+0fb4163984a5d77211e6f321bcc754fbcc5b5107 ice: add functions to get and set Tx queue context
+aeaef9f95e6e2413d164dedc2d4f133df995b272 ice: save RSS hash configuration for migration
+e831cfc3201a2be9f46f2a9bf4c64b04b6f0b416 ice: move ice_vsi_update_l2tsel to ice_lib.c
+ce4d154d170770101539e58670c50677889396f3 ice: expose VF functions used by live migration
+89006a8a9ed76e7ba1b7de7d53bc4492a9ca2f1b ice: use pci_iov_vf_id() to get VF ID
+5d7f8866c4d4f054b2ba43608ae107acb4e99bf0 ice: avoid rebuilding if MSI-X vector count is unchanged
+94ca17d4ab1eca85dcff4dbdaa2f0f9e2227e1c0 ice: introduce ice_get_vf_by_dev() wrapper
+337e9ec6595ac3cb823f924f0581a2bdcd61c737 igc: Relocate RSS field definitions to igc_defines.h
+2e535821e2c50fc066646bcbd233dbfc48135846 igc: Add wildcard rule support to ethtool NFC using Default Queue
+ee875590c0700a52c0fc23f76d2a6873fd3e558b idpf: preserve coalescing settings across resets
+39f913b0293bb6d19ed4457400a5472fca1e7405 ice: check correct pointer in fwlog debugfs
+4d65e5ec11093db202d628e0c2383ec4bbb27aa8 i40e: When removing VF MAC filters, only check PF-set MAC
+3ad520f8212f8a7a66c5b37cd612a06ac8793c6c ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
+3021a301db22baf301ef823eed336d3d3ab09063 ice: fix possible leak in ice_plug_aux_dev() error path
+5020951f4d6bdc3b37e8f5c23b0876bfa03b7d8d e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
+7f3091d08dee2a50de2d4542d33aa838cac7ddee e1000e: ignore uninitialized checksum word on tgp
+7e94291e621be1a0f9ede4b92a49d5d44d5fac62 ice: Fix a null pointer dereference in ice_copy_and_init_pkg()
+f7ee0b436ea0faaade36a8e9f8a009c7c4303982 ixgbe: add the 2.5G and 5G speeds in auto-negotiation for E610
 
---===============7855320681927835914==--
+--===============0310256861313149448==--
