@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 10 Jul 2025 22:27:42 -0000
-Message-Id: <175218646252.157543.6339336331237650146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 10 Jul 2025 22:28:13 -0000
+Message-Id: <175218649399.158005.10516973641524288791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 4a64142fec05e8b0672b6f22a174f0fe1d67564f
-    new: 2b9420489bdf0f46f9f43c70050c97f074e1dd9e
+    old: f7ee0b436ea0faaade36a8e9f8a009c7c4303982
+    new: 91aa7bacd621647807057804dd181f42f5442321
     log: |
-         1b515c4aafece4e0fde2c77a7d1f44aa92721aa7 devlink: allow driver to freely name interfaces
-         2b9420489bdf0f46f9f43c70050c97f074e1dd9e ixgbe: prevent from unwanted interface name changes
+         ba6a0ca83efc06b1de2f0831e3d6c958625e1e0b devlink: allow driver to freely name interfaces
+         ff5452e159755b28fd0ddec11cbc77ce6570cd7e ixgbe: prevent from unwanted interface name changes
+         10727eee1d490f68e6d0e72bea9142c5e8b01b99 ice: add recovery clock and clock 1588 control for E825c
+         91aa7bacd621647807057804dd181f42f5442321 igbvf: remove unused fields from struct igbvf_adapter
          
