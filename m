@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0270803437765893114=="
+Content-Type: multipart/mixed; boundary="===============2310815637831638862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 10 Jul 2025 18:07:47 -0000
-Message-Id: <175217086704.4115343.12006895916415002997@gitolite.kernel.org>
+Date: Thu, 10 Jul 2025 18:07:49 -0000
+Message-Id: <175217086964.4115468.17162373404923080872@gitolite.kernel.org>
 
---===============0270803437765893114==
+--===============2310815637831638862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 19c066f940666bf6c0982635e4441100ca8d75bc
     new: e090f978054e1cfcd970234589168fcbcba33976
     log: revlist-19c066f94066-e090f978054e.txt
 
---===============0270803437765893114==
+--===============2310815637831638862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -132,4 +132,4 @@ f38ae0c62ec8e549e752be2e23d25c142dca96c5 net: dsa: rzn1_a5psw: add COMPILE_TEST
 37bfeebc12a4cab3c4c94b5429a4cb7eb3e42e79 net: dsa: rzn1_a5psw: use devm to enable clocks
 e090f978054e1cfcd970234589168fcbcba33976 Merge branch 'net-dsa-rzn1_a5psw-add-compile_test'
 
---===============0270803437765893114==--
+--===============2310815637831638862==--
