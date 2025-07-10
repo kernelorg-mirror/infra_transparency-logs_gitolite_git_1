@@ -1,57 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3284038703342134359=="
+Content-Type: multipart/mixed; boundary="===============9105559099159477135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 10 Jul 2025 07:53:19 -0000
-Message-Id: <175213399904.3372802.8005826984522541177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 10 Jul 2025 08:08:12 -0000
+Message-Id: <175213489213.3384893.14526039071065295814@gitolite.kernel.org>
 
---===============3284038703342134359==
+--===============9105559099159477135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ab190cb11a32271cb10c9f021342662febbea02b
-    new: 8b394a05503e78f6e42d0971a562a1c8f46ff3cb
+  - ref: refs/heads/for-6.17
+    old: c61da55412a08268ea0cdef99dea11f7ade934ee
+    new: f5b92c7449a2905963083836150f1085ce9d58c9
     log: |
-         2a3e02b3dc940beed881c073ec803b78b91cc22c assign some 6.15.3 cve ids
-         8b394a05503e78f6e42d0971a562a1c8f46ff3cb strip the mbox files of the new cves
+         a3c3e84fc495dd983374f041e145e13df3525a15 ASoC: rt700: don't set dapm->bias_level
+         67bdd67aedcec8c63e3158c3c82991fbde0c4d22 ASoC: rt715: don't set dapm->bias_level
+         f5b92c7449a2905963083836150f1085ce9d58c9 ASoC: don't set dapm->bias_level directly
          
 
---===============3284038703342134359==
+--===============9105559099159477135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752134033 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1752133994-92ba0a8b1331a30a23c209a8a42a7f22dba248e6
+pusher Mark Brown <broonie@kernel.org> 1752134930 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1752134890-7881740b994b3c07309280dbcd73ed3fd7eec673
 
-ab190cb11a32271cb10c9f021342662febbea02b 8b394a05503e78f6e42d0971a562a1c8f46ff3cb refs/heads/master
+c61da55412a08268ea0cdef99dea11f7ade934ee f5b92c7449a2905963083836150f1085ce9d58c9 refs/heads/for-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhvcZEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U40QANY+LQ1BCBVFFKqlYfDZ
-wWhlSjLZw8C3fZQAa0pvYlMNcTR/O0cSVHYjWMoklkMQqHBsmQvf0jfuPttJgyus
-pJ7X3OrGKeEHQ30Jfy7k8Pq8ymA3nvuFqG7YQ5mXtkBY6KO/4tlOQmf9aO/OdC0t
-RF0OYJr7bI0aYNtKVjC362f6lGlGT4sVVx7DA+BfIo2ZDdQsj6x+DG9i03rn9gFO
-j50RQuU0FpFdaZGDAdBx3zhPTajwaY0Lv1pQQKmVGTyQk8k4E7l195FikqoQYzMg
-9bZf5Hid4jz9ekpLxR/ebTqlTGJxae153VFKd6G7N8Z1V8H5MbicPm/zRGRaxvs0
-PaXZUfMjfpTbuxOvAjxSLqNIrl6x+Wd79B1+Nqfk3YuO+S68EDAGmQQgxOBd+a32
-/8fEu8A1qs9bR+0f/sxt4YiId5ivLYBMRQtSqxfXZD4FgehI/+fz+p3VjlEx2ujT
-HqEgpK/g1ALTxA2kY+098ypd6mxzms2DMriu31PUOYDBGX10H10cEoQsSqxkRyYe
-5OuRMTjYEnr65fbLIHFAiThN2+3T2uzF5brha+bX508PLB9tCxEWLsL/OWjrQBDQ
-lpVVMnmrmvq7QqISam3wli9TMjoxFPLL3H2NxEhuva09ivrPRROMQGURJ0gxh6v4
-ud0LVgVxqCICAO0djuKdUZhl
-=+Ct5
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhvdRITHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0DHBB/0RPYwxg4hlRRC7uyc9CeJzqpuCOGkL
+Gn0UgJ4KxMlYIJ57/t9tFKCd+MknrPL6X8B7KAh5hl8vmZrKo6B7Lwz5R+/9dwvX
+3Zx1WtvKGM+aaZ2uj9U6qwiB3UqGav3R+kFhwThwMamBBPFizc7mzHeZAwxfpubA
+Pu/18OpUjqc/MtzQdNX9t7Cgp8am3B5v8Fg5IflS4Vy0aUHGSdXX2QUaLcWcWTxp
+E6i2sGsUXOSZbYi7tb37VYr44yTcBabEfHcanNmEeTtl6dXMuIINzdIx616csMHs
+jGg9kw/s1B27DNfD4nCXmpO8HGIMbfFk3AVhgKn4aA31TyfSFMmuANno
+=KGOU
 -----END PGP SIGNATURE-----
 
---===============3284038703342134359==--
+--===============9105559099159477135==--
