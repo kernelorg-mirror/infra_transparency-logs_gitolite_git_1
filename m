@@ -1,52 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============3069322409232392836=="
+Content-Type: multipart/mixed; boundary="===============5227492546183625881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 10 Jul 2025 12:29:57 -0000
-Message-Id: <175215059712.3662488.12571312300072846497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 10 Jul 2025 12:31:16 -0000
+Message-Id: <175215067611.3664713.9371239146020247595@gitolite.kernel.org>
 
---===============3069322409232392836==
+--===============5227492546183625881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/wireless-next-2025-07-10
-    old: 0000000000000000000000000000000000000000
-    new: ed9858bf37db7ba16bc4e86489ca8d1b989fefb3
+  - ref: refs/heads/driver-core-next
+    old: 5cddd546df0fa21316735d1d60fe826886e0dc21
+    new: 3964d07dd821efe9680e90c51c86661a98e60a0f
+    log: revlist-5cddd546df0f-3964d07dd821.txt
 
---===============3069322409232392836==
+--===============5227492546183625881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1752150613 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1752150573-38b66349c5ba8d7862ecd3b7bb1537f7caa4b1be
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752150713 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1752150672-142d6ff500b30a9d37ec176b4e464b6d93dab924
 
-0000000000000000000000000000000000000000 ed9858bf37db7ba16bc4e86489ca8d1b989fefb3 refs/tags/wireless-next-2025-07-10
+5cddd546df0fa21316735d1d60fe826886e0dc21 3964d07dd821efe9680e90c51c86661a98e60a0f refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmhvslUACgkQ10qiO8sP
-aADWqg/9Ha8gqTh9b2f+UPmQAX2nVH45uWF+jtIqNrFqDcPDybwnl7fRanwO6pYb
-sKfhX3RZ/+z2laHhv0N1cJ6s3EY99IP5jJD+yFW8+1F5DMPH/TskCWc2PAFFVy1O
-jnV01PaW8tkPD711Pd2BXcNt4sV1cpT1Rk01dLgTo0P/gW4FiRU2TnLHufvPiV5H
-qfEpSaIcz4dRNcVJO5HoljPq0PK1uvNhfq1rrE+vy60zb27P20eMGrN5GQjHoryg
-mZb4BPoMCh8x9NzObsvFtfIUiblpTPMb9JSFKSnbV3m/OtsAkKPYaQ263gpjMQCS
-ITFllyEPctuUdva/1NcxcDPj+jvCwh6LiHE+QMfQy9ish5HSBdeZUL85m5UtmfRI
-62hTVop+hsa+qZfLKKSi2iahWCoBEU8Y4Yar432jYabWxDXoXSDuaK7huONqD0I7
-uJ3AOJ+C+GNCfVaZD6QBm57wjny7X7DUtCyhgFAYQAuoGgf/4NleRnMUaNnxR3Ea
-ae0kN5SGn3DRgm/rSFuKu5Mmtkb969a74ptPODo8Xqx2tjl+MQWAUhYv6qPG775e
-e8HtZsENGbH813MTfRJ6O+mN2OaPwQ7BYGu8Kg3BiE+CuY4BfVXMLQNpZ6Jewlrw
-50yh/8a8pqQheTPzRlNMKGHELn5sLp21BL6gXfvvPz1aoIc2MKA=
-=l6MK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhvsrkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9XQP+QEy3bfYM+NnU90JOQiJ
+bkZfEuv+thSQVU5/0NL/ztFf7XiY9XG+0mtev06o5m+FYsDmLIe4OZlcgBWY+sUX
+LXktSRVSTchuqiBCerk+cDY6qoTqgGYrMdGCmCmTzE/tADxNmdQMRzNgrQg3GFTt
+Ah2NPQtPFD4VG/BCHZVhzrOKpjz6toDUL4eMNtfET9oE7YUdXDhGxs7CZGv6Qug1
+OwO+qkq4Z/ovQtBtNRkpE0RkDtCLeV+mfDa5UYaOGD3y71j1hfMELOGbdQLlTTYW
+dhJ1Bj/dvNqi1CqENzQ3ABNg3ut/FOakkz75Q0H3AiKiJAIgZcOuIjpEamAwcHGZ
+5IjCjr3LjWHzo8GvFb/I5RfKftBzk/niOpXuCNqBZzjSqHqGrHJmSW+u03Umzkay
+hOuFMEmk0uGx2wblZfiNrGfnTENQnchjNtC7lYoFWpt48+bMnmFh9CcdXTFjk1CX
+xDFvRPbsXiuRc6K+yjWjjdjzR8D/wIOgXu2dUecb8cdzIAPUw5zw19/TS90O2uLM
+ryxIVy/O5F72vlV8PZJCtWzpNCp6iYdET2Nge7rzRsSV0kk0eW0oGEYjOjmyQxt4
+ifU6RY74dMhhFScOhArnjlRA1FvovPk4NeDZK2LdLpQKQSjZO9cV+VXA4YrIiG+6
+2ZBNHdIOKIJlbYOhVJWkGaYG
+=9AsY
 -----END PGP SIGNATURE-----
 
---===============3069322409232392836==--
+--===============5227492546183625881==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5cddd546df0f-3964d07dd821.txt
+
+fa7486d3f9470c58c5971caba7244cc8773672e0 rust: device: introduce device::CoreInternal
+880dec12a25890e8f5626f04c58d38003f1a5585 rust: device: add drvdata accessors
+f0a68a912c673d8899d863c2f01f1ef7006e0b11 rust: platform: use generic device drvdata accessors
+4231712c8e9840c023192032d438f98061b9ee1f rust: pci: use generic device drvdata accessors
+c46f60246f9ae372ecc1f10976a8af3914b3f79e rust: auxiliary: use generic device drvdata accessors
+4be5f3fff151e49b0e7a82d33d4d12e91840abde rust: platform: implement Driver::unbind()
+18ebb25dfa18c09474fed78b20808fa445370666 rust: pci: implement Driver::unbind()
+5f512533b7aa780488c15e001791d1b8000ad50e samples: rust: pci: reset pci-testdev in unbind()
+327a206c0e1484b960e7804954d568bf80bad93c zynqmp: don't bother with debugfs_file_{get,put}() in proxied fops
+2b4b80cfcf25e613148a2cd6b273b200b0064b40 hfi1: get rid of redundant debugfs_file_{get,put}()
+8009fb751d2c355b4fb83ca158c6b75590d3a3c1 regmap: get rid of redundant debugfs_file_{get,put}()
+460e36ee6f84c2df4d194ee788e3ca116e8c563b resctrl: get rid of pointless debugfs_file_{get,put}()
+a7694ff11aa9d97d0f690351a964544849e5158d vmscan: don't bother with debugfs_real_fops()
+1c1ec6f00e20296a9db044977dafaada070c581f netronome: don't bother with debugfs_real_fops()
+d9bc88aa54d6aa22ff1e850a86be7a37f0503889 debugfs: split short and full proxy wrappers, kill debugfs_real_fops()
+00bbe512e60f681aef132f0dd2c92eb6521acef1 fix tt_command_write()
+9d3b96be2ee81a7d6ad08cb5094753f06382db1b debugfs_get_aux(): allow storing non-const void *
+4c0727e56831cf3646c604131e2eea25c734c9eb blk-mq-debugfs: use debugfs_get_aux()
+3964d07dd821efe9680e90c51c86661a98e60a0f lpfc: don't use file->f_path.dentry for comparisons
+
+--===============5227492546183625881==--
