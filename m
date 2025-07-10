@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 10 Jul 2025 08:16:36 -0000
-Message-Id: <175213539600.3394161.5085025716727022435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 10 Jul 2025 08:16:46 -0000
+Message-Id: <175213540688.3394462.11530365723105514717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev-test
-    old: 720a556a42a8925e36bcf78735b9b73cf1bff41a
-    new: 552d2b809cbd69eb08fb8256fda1c034c1b00ef3
-    log: |
-         df12da16d595ca53661321241fe81a8758933c75 erofs: address D-cache aliasing
-         b98dbec486368c4282b838274d34f1629478fddc erofs: allow readdir() to be interrupted
-         552d2b809cbd69eb08fb8256fda1c034c1b00ef3 erofs: do sanity check on m->type in z_erofs_load_compact_lcluster()
-         
+  - ref: refs/heads/fileTgLO8a
+    old: 0000000000000000000000000000000000000000
+    new: 7d61715c58a39edc5f74fc7366487726fc223530
