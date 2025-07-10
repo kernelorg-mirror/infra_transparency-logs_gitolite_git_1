@@ -1,130 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1274355233155981421=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 10 Jul 2025 21:53:25 -0000
-Message-Id: <175218440511.128025.11325174397475165423@gitolite.kernel.org>
-
---===============1274355233155981421==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Thu, 10 Jul 2025 21:57:40 -0000
+Message-Id: <175218466062.132193.10117319549165467396@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/for-6.16/arm/dt
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 7cfd76f086c640119f4c5201115cf73488cabdcb
+  - ref: refs/heads/dev
+    old: f3128dd6762d71ec92ae888bf582a5f751c3f2e0
+    new: 5d8b97c946777118930e1cfb075cab59a139ca7c
     log: |
-         c533c0a2acb1194d3353d46377ca1206305465bc ARM: tegra: Rename the apbdma nodename to match with common dma-controller binding
-         b6e892ec333eaa3fb53f37232c34d3e6fa11a481 ARM: tegra: Add device-tree for ASUS Transformer Pad LTE TF300TL
-         7cfd76f086c640119f4c5201115cf73488cabdcb ARM: tegra: apalis-eval: Remove pcie-switch node
+         5d8b97c946777118930e1cfb075cab59a139ca7c MAINTAINERS: Add Xiu and myself as Lockdown maintainers
          
-  - ref: refs/heads/for-6.17/arm/core
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 398e67e0f5ae04b29bcc9cbf342e339fe9d3f6f1
+  - ref: refs/heads/next
+    old: f3128dd6762d71ec92ae888bf582a5f751c3f2e0
+    new: 5d8b97c946777118930e1cfb075cab59a139ca7c
     log: |
-         398e67e0f5ae04b29bcc9cbf342e339fe9d3f6f1 ARM: tegra: Use I/O memcpy to write to IRAM
+         5d8b97c946777118930e1cfb075cab59a139ca7c MAINTAINERS: Add Xiu and myself as Lockdown maintainers
          
-  - ref: refs/heads/for-6.17/arm64/defconfig
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: bd3b8e53e244fec2255ab037242230847559161a
-    log: |
-         18c590e012d35b0551ba70798efd0b8d6c66c585 arm64: defconfig: Enable Tegra HSP and BPMP
-         bd3b8e53e244fec2255ab037242230847559161a arm64: defconfig: Enable Tegra241 and Tegra264
-         
-  - ref: refs/heads/for-6.17/arm64/dt
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: ad204394f63a1f96f634d88b7c0d0e969470ae92
-    log: |
-         cbe6783a923ab62a2f41c7a074f5c64060107ecd arm64: tegra: Add Tegra264 support
-         ad204394f63a1f96f634d88b7c0d0e969470ae92 arm64: tegra: Add p3971-0089+p3834-0008 support
-         
-  - ref: refs/heads/for-6.17/dt-bindings
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 0cd8e25935333849eb327f742ababe8a9a07cf6e
-    log: |
-         5b820eb176846dad95b0a45dcfe788931f5e7527 dt-bindings: tegra: pmc: Add Tegra264 compatible
-         b6be35ae29a38431e554d3ad35ec552058058ae6 dt-bindings: mailbox: tegra-hsp: Bump number of shared interrupts
-         a96f216ecc63c239daecc59947af94e986f25e95 dt-bindings: mailbox: tegra-hsp: Properly sort compatible string list
-         f84bb9f8382825233d34c81fe165db11328c905c dt-bindings: firmware: Document Tegra264 BPMP
-         fc2eb498a3078c82f3cc5d3bb5e0fd6552a929a4 dt-bindings: misc: Document Tegra264 APBMISC compatible
-         40da907b1be34f285e24eeda3e9a442c9fb66bd4 dt-bindings: dma: Add Tegra264 compatible string
-         92548604f0b03f2037b1885acda89af864e72c50 dt-bindings: rtc: tegra: Document Tegra264 RTC
-         fe5a38e37aa2b25b6cf0f24ca00bbbd1fd65591c dt-bindings: tegra: Document P3971-0089+P3834-0008 Platform
-         493dca571943f30dcb3ca9fadf909dc5c83a7bf0 dt-bindings: Add Tegra264 clock and reset definitions
-         0cd8e25935333849eb327f742ababe8a9a07cf6e dt-bindings: arm: tegra: Add Asus VivoTab RT TF600T
-         
-  - ref: refs/heads/for-6.17/firmware
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: dbe4efea38d0a79ed58069499368e08b815952c6
-    log: |
-         78eb18020a88a4eed15f5af7700ed570642ff8f1 firmware: tegra: Fix IVC dependency problems
-         94bce2cf7cf6ee4f52e1632b66d67345067725db firmware: tegra: bpmp: Add support on Tegra264
-         dbe4efea38d0a79ed58069499368e08b815952c6 firmware: tegra: bpmp: Use of_reserved_mem_region_to_resource() for "memory-region"
-         
-  - ref: refs/heads/for-6.17/soc
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 84daa158bb5e72ec279ab168892df86a25d3c459
-    log: |
-         14bdb1be98629b5413f315c51294975dc3802f65 soc/tegra: Enable support for Tegra264
-         5273adad12ff9eee4a56da951da073858060dd37 soc/tegra: pmc: Add Tegra264 support
-         7ddca4500140053ab0d0fba4f30f9bdcf66985d0 soc/tegra: Add Tegra264 APBMISC compatible string
-         a0647bca8966db04b79af72851ebd04224a4da40 soc/tegra: cbb: Clear ERR_FORCE register with ERR_STATUS
-         9c150799677719bf06e31dfb86b34965e535e3dc soc/tegra: cbb: Change master/slave to initiator/target
-         2f2c32f9cc940f908b42d070207c6d503362793c soc/tegra: cbb: Make error interrupt enable and status per SoC
-         25de5c8fe0801361182b41c42f086bd089feda14 soc/tegra: cbb: Improve handling for per SoC fabric data
-         5f2c2c439983ca3a208a0175f7793c355fab8566 soc/tegra: cbb: Support HW lookup to get timed out target address
-         fa4854a9f5d6630df060a4aa5894f9b4eb8cc3ef soc/tegra: cbb: Add support for CBB fabrics in Tegra264
-         84daa158bb5e72ec279ab168892df86a25d3c459 soc/tegra: cbb: Add support for CBB fabrics in Tegra254
-         
-  - ref: refs/heads/for-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 678a70591a2a42defbd234c40b999136d2400da3
-    log: revlist-19272b37aa4f-678a70591a2a.txt
-
---===============1274355233155981421==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-678a70591a2a.txt
-
-5b820eb176846dad95b0a45dcfe788931f5e7527 dt-bindings: tegra: pmc: Add Tegra264 compatible
-b6be35ae29a38431e554d3ad35ec552058058ae6 dt-bindings: mailbox: tegra-hsp: Bump number of shared interrupts
-a96f216ecc63c239daecc59947af94e986f25e95 dt-bindings: mailbox: tegra-hsp: Properly sort compatible string list
-f84bb9f8382825233d34c81fe165db11328c905c dt-bindings: firmware: Document Tegra264 BPMP
-fc2eb498a3078c82f3cc5d3bb5e0fd6552a929a4 dt-bindings: misc: Document Tegra264 APBMISC compatible
-14bdb1be98629b5413f315c51294975dc3802f65 soc/tegra: Enable support for Tegra264
-5273adad12ff9eee4a56da951da073858060dd37 soc/tegra: pmc: Add Tegra264 support
-7ddca4500140053ab0d0fba4f30f9bdcf66985d0 soc/tegra: Add Tegra264 APBMISC compatible string
-78eb18020a88a4eed15f5af7700ed570642ff8f1 firmware: tegra: Fix IVC dependency problems
-94bce2cf7cf6ee4f52e1632b66d67345067725db firmware: tegra: bpmp: Add support on Tegra264
-18c590e012d35b0551ba70798efd0b8d6c66c585 arm64: defconfig: Enable Tegra HSP and BPMP
-40da907b1be34f285e24eeda3e9a442c9fb66bd4 dt-bindings: dma: Add Tegra264 compatible string
-92548604f0b03f2037b1885acda89af864e72c50 dt-bindings: rtc: tegra: Document Tegra264 RTC
-fe5a38e37aa2b25b6cf0f24ca00bbbd1fd65591c dt-bindings: tegra: Document P3971-0089+P3834-0008 Platform
-493dca571943f30dcb3ca9fadf909dc5c83a7bf0 dt-bindings: Add Tegra264 clock and reset definitions
-398e67e0f5ae04b29bcc9cbf342e339fe9d3f6f1 ARM: tegra: Use I/O memcpy to write to IRAM
-dbe4efea38d0a79ed58069499368e08b815952c6 firmware: tegra: bpmp: Use of_reserved_mem_region_to_resource() for "memory-region"
-a0647bca8966db04b79af72851ebd04224a4da40 soc/tegra: cbb: Clear ERR_FORCE register with ERR_STATUS
-9c150799677719bf06e31dfb86b34965e535e3dc soc/tegra: cbb: Change master/slave to initiator/target
-2f2c32f9cc940f908b42d070207c6d503362793c soc/tegra: cbb: Make error interrupt enable and status per SoC
-25de5c8fe0801361182b41c42f086bd089feda14 soc/tegra: cbb: Improve handling for per SoC fabric data
-5f2c2c439983ca3a208a0175f7793c355fab8566 soc/tegra: cbb: Support HW lookup to get timed out target address
-fa4854a9f5d6630df060a4aa5894f9b4eb8cc3ef soc/tegra: cbb: Add support for CBB fabrics in Tegra264
-84daa158bb5e72ec279ab168892df86a25d3c459 soc/tegra: cbb: Add support for CBB fabrics in Tegra254
-0cd8e25935333849eb327f742ababe8a9a07cf6e dt-bindings: arm: tegra: Add Asus VivoTab RT TF600T
-cbe6783a923ab62a2f41c7a074f5c64060107ecd arm64: tegra: Add Tegra264 support
-ad204394f63a1f96f634d88b7c0d0e969470ae92 arm64: tegra: Add p3971-0089+p3834-0008 support
-bd3b8e53e244fec2255ab037242230847559161a arm64: defconfig: Enable Tegra241 and Tegra264
-8b5ef3258bd8dc8c55ddee477d210f1c17c44cd0 Merge branch for-6.17/soc into for-next
-415bd499aaaaef19b957ede59dcfcd2d00647e50 Merge branch for-6.17/firmware into for-next
-481a6e153313db1f0ab6ff952f8177e073dceb8e Merge branch for-6.17/dt-bindings into for-next
-d0a8a1202c4aff825306d1ee9fed09e19d6b4c69 Merge branch for-6.17/arm/core into for-next
-a5618750f88587ac8361d8818a1b4b7146d1995d Merge branch for-6.17/arm64/dt into for-next
-678a70591a2a42defbd234c40b999136d2400da3 Merge branch for-6.17/arm64/defconfig into for-next
-
---===============1274355233155981421==--
