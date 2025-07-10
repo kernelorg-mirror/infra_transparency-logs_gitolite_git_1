@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 10 Jul 2025 15:53:59 -0000
-Message-Id: <175216283902.3999699.10820860622731317112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Thu, 10 Jul 2025 16:27:16 -0000
+Message-Id: <175216483676.4027735.9713229483496529147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/sched/core
-    old: 0b9ca2dcabc3c8816a6ee75599cab7bef3330609
-    new: 2885daf47081dd1aaf1a588e9d001eb343df1f90
-    log: |
-         2885daf47081dd1aaf1a588e9d001eb343df1f90 lib/smp_processor_id: Make migration check unconditional of SMP
-         
+  - ref: refs/heads/rust-atomic-v7
+    old: 0000000000000000000000000000000000000000
+    new: 3c4ba1d810a193480779f9650d22adafc0acfeb5
