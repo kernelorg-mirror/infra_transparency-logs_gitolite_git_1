@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 10 Jul 2025 15:33:44 -0000
-Message-Id: <175216162465.3980423.11542344365835350973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Thu, 10 Jul 2025 15:42:45 -0000
+Message-Id: <175216216599.3988757.1789697811013031067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
+user: khilman
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: 6c24e7124642846b628274c845cd6de252f1dfbf
-    new: 06d0ab6d9ce4986313b587832c073038d3e31951
-    log: |
-         a08a4ac1eea3ef4506fe16a4352c11d450cbd7be netfs: Fix copy-to-cache so that it performs collection with ceph+fscache
-         06d0ab6d9ce4986313b587832c073038d3e31951 netfs: Fix race between cache write completion and ALL_QUEUED being set
-         
+  - ref: refs/tags/omap-for-v6.16/soc-signed
+    old: 58460b6447ea44af86d4c9270425818132183ea2
+    new: 2922510eda956877937661843d0ae62b5283b9fb
