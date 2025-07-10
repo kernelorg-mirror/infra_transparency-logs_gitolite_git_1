@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 10 Jul 2025 17:23:40 -0000
-Message-Id: <175216822090.4075972.531230235742319856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 10 Jul 2025 17:26:39 -0000
+Message-Id: <175216839941.4079524.1048246042019202365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 1eea42b9d33ffe5413a970dffde12ce8457c6503
-    new: 5ad198510b20f31620714571693875983d0f444d
+  - ref: refs/heads/perf-tools-next
+    old: 585189332afe02c99e66c6a0d328fe05e456ff6a
+    new: a12a23720c135a299ed914adf623387c7404e014
     log: |
-         982ac6d394db13693de5b6b81a3c36f6e96ae9e9 Bluetooth: btusb: Fix potential NULL dereference on kmalloc failure
-         4e8c8afb1eef67dc21726a400ce1f10e44310820 Bluetooth: btusb: Add RTL8852BE device 0x13d3:0x3618
-         5ad198510b20f31620714571693875983d0f444d Bluetooth: btusb: Add new VID/PID 0489/e14e for MT7925
+         a12a23720c135a299ed914adf623387c7404e014 perf list: Remove trailing A in PAI crypto event 4210
          
