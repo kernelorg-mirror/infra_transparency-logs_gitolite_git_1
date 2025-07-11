@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Fri, 11 Jul 2025 03:42:01 -0000
-Message-Id: <175220532164.427698.13612186988970906654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 11 Jul 2025 04:11:29 -0000
+Message-Id: <175220708954.451487.5447973026332804018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/for-next
-    old: 5af89b6309417bdc2ff6835509d33a172c4a3218
-    new: ab229c2b72c35739e8ffb70af11190ff40f38701
-    log: |
-         ab229c2b72c35739e8ffb70af11190ff40f38701 platform/chrome: cros_ec_typec: Add role swap ops
-         
+  - ref: refs/tags/linux-6.1.y-cip-rebase
+    old: 40eaa85017d6b0d82e9f622493c117f6ee5d2abc
+    new: 0000000000000000000000000000000000000000
