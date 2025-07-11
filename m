@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7039956067772697572=="
+Content-Type: multipart/mixed; boundary="===============7462327208734894144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Fri, 11 Jul 2025 10:13:49 -0000
-Message-Id: <175222882917.774088.15499873607607783668@gitolite.kernel.org>
+Date: Fri, 11 Jul 2025 10:13:56 -0000
+Message-Id: <175222883643.774378.12947536436894624152@gitolite.kernel.org>
 
---===============7039956067772697572==
+--===============7462327208734894144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 170e4e3944aa39accf64d869b27c187f8c08abc7
-    new: 0f26870a989bf69957ed69d10c7ffc57ca5a7f52
-    log: revlist-170e4e3944aa-0f26870a989b.txt
-  - ref: refs/heads/master
-    old: 170e4e3944aa39accf64d869b27c187f8c08abc7
-    new: 0f26870a989bf69957ed69d10c7ffc57ca5a7f52
-    log: revlist-170e4e3944aa-0f26870a989b.txt
+  - ref: refs/heads/testing
+    old: 1fee0c61317272dd6807fb38a28ee85d00cd1cb4
+    new: 0e6639c8505d70e821bc27f951a0ff6303f10d4d
+    log: revlist-1fee0c613172-0e6639c8505d.txt
 
---===============7039956067772697572==
+--===============7462327208734894144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1752228858 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1752228872 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1752228816-ac2d1a9b53f8054885e35c8bac1f3ccf49865daa
+nonce 1752228832-b80c0531a93e2d51e8180b36782336553d554696
 
-170e4e3944aa39accf64d869b27c187f8c08abc7 0f26870a989bf69957ed69d10c7ffc57ca5a7f52 refs/heads/main
-170e4e3944aa39accf64d869b27c187f8c08abc7 0f26870a989bf69957ed69d10c7ffc57ca5a7f52 refs/heads/master
+1fee0c61317272dd6807fb38a28ee85d00cd1cb4 0e6639c8505d70e821bc27f951a0ff6303f10d4d refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmhw4/oTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnBN+CACCPwc0jRhzNwDeESWjJgdw3KocOZDY
-lROj5bg2o0ZvnrAPEFDIBgoqc6uuLpoXZr0YjQUASICNPqgiaAqaiebA4g5fo+sY
-dD/LJFA3X6w6GTmXKVkK20fhO2APnkXfzITklaW9LF9b9a61X4O+V7miMfyqRpom
-x3NHTTNU+L9un9iWO+ezzgf2W7m7QdB76r7EczBjoBJRT2XwAN5uldXKtXS2TGRB
-+nh0XTZAlF4AWElvChpzmdHy3LSWMAZmsfz7GbVPcMVIDUaUuLryT93ICLyiu5ZD
-+ThLpCrrb8PJ9Zg7y0ECNeu4kPSuwWQX9/Caxa9F96IpSvYCYhJTVru6
-=CbB0
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmhw5AkTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnG04B/44+fFyjidwMLBOmllsx3qjI/BSXN6t
+wFZb+o9VmaWl6mvGCFNt7sLuc75E198i3YFOY52etmfEYfIRLJffhgRf3CkCyb35
+Kf+76P3jhkHN2Opq4T03sfQpkDomZq8WrNAs/n891KxyE3e1EbUpO+11wu+1bzNE
+JTDDx63gjt5gFprVyonXkpsXPY8ZAPqUSpVzWh9/5/tsF5pJJjWimh/1fquuEpgC
+S8z2wvgVpdMHWgp25qRVx0V+BoNzVijefVVmgDpRivu+wNOEErDzynD0JVPmQDfM
+FpSeTi3CTMOq+j99nQ+B/UQZ8CzzVabDclag6kryLZR5L/z+ziHsMCLH
+=CPzC
 -----END PGP SIGNATURE-----
 
---===============7039956067772697572==
+--===============7462327208734894144==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-170e4e3944aa-0f26870a989b.txt
+Content-Disposition: attachment; filename=revlist-1fee0c613172-0e6639c8505d.txt
 
-3f5f6321f129ad5a30aa03c99c196b4612be68a8 IB/core: Annotate umem_mutex acquisition under fs_reclaim for lockdep
-3cc1dbfddf88dc5ecce0a75185061403b1f7352d RDMA/mlx5: Fix HW counters query for non-representor devices
 acd245b1e33fc4b9d0f2e3372021d632f7ee0652 RDMA/mlx5: Fix CC counters query for MPV
 a9a9e68954f29b1e197663f76289db4879fd51bb RDMA/mlx5: Fix vport loopback for MPV device
 52931f55159ea5c27ad4fe66fc0cb8ad75ab795b net/mlx5: fs, add multiple prios to RDMA TRANSPORT steering domain
@@ -1080,5 +1073,7 @@ fc6c8af6d784961b7f19bf0870baa1cdab5f7ad5 dt-bindings: net: ftgmac100: Add resets
 af350ee72e9dda474af4697ff59601cb73387b31 net: ftgmac100: Add optional reset control for RMII mode on Aspeed SoCs
 0106424ae408e1ddc32bfc4f5f9f3d009ee7343f Merge branch 'net-ftgmac100-add-soc-reset-support-for-rmii-mode'
 0f26870a989bf69957ed69d10c7ffc57ca5a7f52 Merge tag 'nf-next-25-07-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+25883e286e7a2a73b5bbd7e7a80c4d4fcefd297e can: rcar_can: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
+0e6639c8505d70e821bc27f951a0ff6303f10d4d can: rcar_canfd: Drop unused macros
 
---===============7039956067772697572==--
+--===============7462327208734894144==--
