@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 11 Jul 2025 07:14:51 -0000
-Message-Id: <175221809129.619629.5131668979670881256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 11 Jul 2025 07:19:14 -0000
+Message-Id: <175221835462.623139.10776588769941090694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/bugfix/common
-    old: a52deaf35483e5072d52ab6ee542a65be69d38e0
-    new: 4b14b9179a046af5260a6a9cbfbb4f0c90a68668
+  - ref: refs/heads/gpio/for-current
+    old: d563e7f95c933816efe531c3a48e22bc099c0f55
+    new: edb471108cf1477c44b95e87e8cec261825eb079
     log: |
-         4b14b9179a046af5260a6a9cbfbb4f0c90a68668 f2fs: fix to avoid out-of-boundary access in devs.path
+         edb471108cf1477c44b95e87e8cec261825eb079 MAINTAINERS: remove bouncing address for Nandor Han
          
