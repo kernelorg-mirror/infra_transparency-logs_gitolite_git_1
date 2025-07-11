@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 11 Jul 2025 15:31:40 -0000
-Message-Id: <175224790097.1047274.13801820043404392036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 11 Jul 2025 15:44:38 -0000
+Message-Id: <175224867888.1057402.9152893858404540101@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 1c304d9b95b15992760a812db1386638ec1d2796
-    new: 5d845ab29ac2c335d3061eae050f5d8686b73980
+  - ref: refs/heads/pending
+    old: d1acc2537646ae3498c88c6c2eda2e8050cbe064
+    new: c1b1191cd537c0ad5664dc8f1e2bf1499032efe9
     log: |
-         84db2f930f866e70b040000acb276d5621c6bd51 testsuite/init_module: Handle __NR_riscv_hwprobe in syscall wrapper
-         5d845ab29ac2c335d3061eae050f5d8686b73980 testsuite: simplify syscall number handling
+         c1b1191cd537c0ad5664dc8f1e2bf1499032efe9 wifi: ath12k: support average ack rssi in station dump
          
