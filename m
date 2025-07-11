@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
-Date: Fri, 11 Jul 2025 23:08:15 -0000
-Message-Id: <175227529581.1441250.5312340497998973776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Fri, 11 Jul 2025 23:16:00 -0000
+Message-Id: <175227576062.1448771.3951464022257464209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aegl/linux
-user: aegl
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/rdt-aet-v7-base
+  - ref: refs/tags/mm-hotfixes-stable-2025-07-11-16-16
     old: 0000000000000000000000000000000000000000
-    new: 882f32fbcc7ba5b46cf8889607fa677de1e222e0
+    new: 02ae32a24d1a192587c5116638b48b9c3f8f7942
