@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0814505033259851242=="
+Content-Type: multipart/mixed; boundary="===============1877452467358170188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 11 Jul 2025 02:11:50 -0000
-Message-Id: <175219991034.355114.4857873914792167710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 11 Jul 2025 03:14:22 -0000
+Message-Id: <175220366235.404138.5591340800401165364@gitolite.kernel.org>
 
---===============0814505033259851242==
+--===============1877452467358170188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/nova/master
-    old: 202fde2c5a7a16927e6f4342f61023ff4e324e06
-    new: edb865ce0131127b8b5633eeb8a5ffea4e92d85f
-    log: revlist-202fde2c5a7a-edb865ce0131.txt
+  - ref: refs/heads/next-test
+    old: bde5b1a1553c5e96367afd4da64de947ae4b6f84
+    new: 75cd37c5f28b85979fd5a65174013010f6b78f27
+    log: |
+         e82fff08327e295b825e38af8dd3197cbc87f7a8 misc: ocxl: Replace scnprintf() with sysfs_emit() in sysfs show functions
+         75cd37c5f28b85979fd5a65174013010f6b78f27 arch: powerpc: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
+         
 
---===============0814505033259851242==
+--===============1877452467358170188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-202fde2c5a7a-edb865ce0131.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0b4e879ff6a885fe32c7df9b5cef3f5a3e729ca4 nova-core: Implement the GSP sequencer
-c04b4195e3f0d8e26788ac8ac5d5b4767c791ce6 nova-core: sequencer: Add register opcodes
-0f3cf7a85ee1ef7c56a6efec3688a4fd74f17f7c nova-core: sequencer: Add delay opcode support
-30f34c0c43b13662abf0bb8605d364a9d4b9517e nova-core: sequencer: Implement basic core operations
-8456f2523401556b30344f357ecabcf6a1a93932 nova-core: sequencer: Implement core resume operation
-0d9084776b20460f083e4d956a2a548352f34129 [please squash or move] nova-core: Add receive_wait
-238edb2ead140ea19180ebe0ca8a34b383e7eb46 [please squash or move] ELF changes, belonging to different patch.
-0c0aac7c1236e06c1a1b9b4be8649e2e14965c67 nova-core: DEBUG: debugfs support to dump logrm, logintr, loginit
-fb16b6ec6873134758b2a7c7568093316bbda02a nova-core: scrubber fix from Ben Skeggs
-1038cce5b9e2f3050077fd9e4c25096c1b31b927 nova-core: gsp: Add init done command to wait for gsp initialisation
-c47b769f6d9809a7ca3d852de4097d25b2f57e39 nova-core: gsp: Add get static info command
-21866eec3c95f2d2fe39ca01ca5758b1be350543 nova-core: Leak memory instead of creating a UAF
-3da2d8166c2ec02b7a34a1ce5a0c4b82eafee1e2 nova-core: clear MBOX0 before waiting for scrubber completion
-275cd7c583113cbc2284a56f18fdec3fd339dc18 nova-core: Ada GPU support: up and running, with caveats
-768000b3dcbd9ede403bbe45144dff2ceac8770f [please squash] gsp.rs: nova-core: Make receive() method public
-edb865ce0131127b8b5633eeb8a5ffea4e92d85f [please squash] Fixup to patch "nova-core: gsp: Add GSP command queue handling"
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1752203693 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1752203652-f04958fe58e1dabc0252e5fb070e32aef5c6cf43
 
---===============0814505033259851242==--
+bde5b1a1553c5e96367afd4da64de947ae4b6f84 75cd37c5f28b85979fd5a65174013010f6b78f27 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmhwga0ACgkQpnEsdPSH
+ZJTYRQ/+Mjw5Q/CkvveC7v8nNBbt3LQtYFlPCpzUI0R/bySQ/NOmIpcjCrqGDYas
+lfH9LRPjUouX4Sbp9t3gBau+nrvfUR6FsgGoED+LgOVgq2317Wp+0HBF8Au1/Xi6
+fRsP5vi4VRrJpHmyi5oTh7zYpnZ0T11FLCGRs05+JBHI4ieaUR4fnevGhzdKS5e/
+d47W2cfjhHOuhJ2Y+RzXUOptPXXimKvVwRM/S0I//ALDCqFj++jEv9zisA4ufX2v
+TE687eM+A0tcUlzHZftBgsarovM8MPlcEyeUNEbbtfGTHPDvtXtYCkQ1NjwHhIWj
+szq8o5x6sI0sXUKHkH7AfKEgzhfQxN96HMUHhJ5NM9rHiznF9KAx1BPqHdmaesQ5
+I4KDt4SpZ4CRtxz55nuwBvSIFI0USbcBx6T37tDClDi6MteFjfneKoIKrpsunjTJ
+Qzp0agNOClPN7YpzFcx//k10aIi6vaJ97tMxKDSORlqiE7QFhnLgcy1u6Xs/fZap
+V4GOFwksYuc28wesxyAO97sZbI+oE7dUR9yvWnChCIPma4flB3eSFALrQgC9Wi/g
+C4XHED4y6neqbUs+d6a2W0gHAmHl2PiEWP+1p/NtEBRE2B+vGArShF53g5JcZs9E
+7MwYNbODIF8ZFyXiaJnDqtG9WFLTygCR1zmqm581fqRAUMVbhug=
+=GqR5
+-----END PGP SIGNATURE-----
+
+--===============1877452467358170188==--
