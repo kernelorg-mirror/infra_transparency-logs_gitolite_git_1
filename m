@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2917065692062069867=="
+Content-Type: multipart/mixed; boundary="===============4870070697696010065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 11 Jul 2025 10:19:38 -0000
-Message-Id: <175222917800.779860.11963506132516388040@gitolite.kernel.org>
+Date: Fri, 11 Jul 2025 10:19:46 -0000
+Message-Id: <175222918655.780170.7955676187513656977@gitolite.kernel.org>
 
---===============2917065692062069867==
+--===============4870070697696010065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: d0fa59897e049e84432600e86df82aab3dce7aa5
-    new: 47c84997c686b4d43b225521b732492552b84758
-    log: revlist-d0fa59897e04-47c84997c686.txt
-  - ref: refs/heads/master
-    old: d0fa59897e049e84432600e86df82aab3dce7aa5
-    new: 47c84997c686b4d43b225521b732492552b84758
-    log: revlist-d0fa59897e04-47c84997c686.txt
+  - ref: refs/heads/testing
+    old: db22720545207f734aaa9d9f71637bfc8b0155e0
+    new: 58805e9cbc6f6a28f35d90e740956e983a0e036e
+    log: revlist-db2272054520-58805e9cbc6f.txt
 
---===============2917065692062069867==
+--===============4870070697696010065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1752229214 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1752229223 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1752229173-ba640da335a62ee7057589df02a720c51365489b
+nonce 1752229182-c7984347ab647c8becf1dec87043eb0a12bfae5e
 
-d0fa59897e049e84432600e86df82aab3dce7aa5 47c84997c686b4d43b225521b732492552b84758 refs/heads/main
-d0fa59897e049e84432600e86df82aab3dce7aa5 47c84997c686b4d43b225521b732492552b84758 refs/heads/master
+db22720545207f734aaa9d9f71637bfc8b0155e0 58805e9cbc6f6a28f35d90e740956e983a0e036e refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmhw5V4THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnNq8B/9iTqyqpAV6PLEdIEhAA1Vx1kXOMMJo
-tTLUgVxd7vi24ElZMk3KvQUHuMmK0JCPTMa77i1Jei+tB1Qit5UsCrOMplbdtgHB
-stYAnJi1xvWlEyuETxZsa1Q9LHMwcRKunsjdPGSiWx/kQpxglamcsU8+X0bkfch/
-7fK2nnByn2CTSXqN29BYLFgvfyKb7pZ10pw1Jt/yYjU2eMim9+96rZWG7XNEJMbR
-5CWmAOvXwzORud+fu2ZEKHt42HBBSA0ArIGcu6K8I7i3i36hTCHPdKUqBAQajfFo
-KsLUsRqU29HBmkwUYDWULIYkY/Y4jruSNTmPMvibNwbFfiYRm9VUrjOW
-=SkOg
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmhw5WcTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnOmFB/sGp3BkBGyblQBvx4bOaJgsp+Qmi6SJ
+ryJvnFb4FKyvLbfSNfl0GjQV9sYdPBrBq5rybCvMVwFWvSjoO1MujU96oxfNUYFu
+eBF6xacArbh1gY6szYpmgbF9GeFiARbJ3eEWn8ODNrKotSNx5JqmBd/Gfe069NQO
+gWpfKBr/RFnrwMk1KqR+ZU+jBCTcc7UUYcSBWf6UDiSSaKWqq54ZUROrbIQGUPm4
+fNBo1w/Ch4KpVbw/7X0ad3uNr4wjt1oldBys202TBadPTWRGzzjnGq9fCKx+VRbu
+2p2PmEgr2M3V6GqVXnF2B2DBH13OpaYQMsmRM/ucpDSbISEI4jwAR+P2
+=Erl/
 -----END PGP SIGNATURE-----
 
---===============2917065692062069867==
+--===============4870070697696010065==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d0fa59897e04-47c84997c686.txt
+Content-Disposition: attachment; filename=revlist-db2272054520-58805e9cbc6f.txt
 
-191334400d8031df367eb74b6ab49bc163f6f821 bcachefs: fsck: fix extent past end of inode repair
-a7137b1825b535eb7258b25beeb0d5425e0037d2 drm/i915/pmu: Fix build error with GCOV and AutoFDO enabled
-c464ce6af332e7c802c36cd337cacf81db05400c drm/i915/dsi: Fix off by one in BXT_MIPI_TRANS_VTOTAL
-e6382fcf989074566bb9a54bbd3c514d7bb99397 gpio: spacemit: Add missing MODULE_DEVICE_TABLE
-dd2d6b7f6f519d078a866a36a625b0297d81c5bc fs: drop assert in file_seek_cur_needs_f_lock
-b0f77d301eb2b4e1fc816f33ade8519ae7f894f4 xfs: check for shutdown before going to sleep in xfs_select_zone
-a593c89ac5a417605b165cbc9768b3663ab4d8ad xfs: remove NULL pointer checks in xfs_mru_cache_insert
-df3b7e2b56d271f93e2d1f395c13235a1a277639 xfs: use xfs_readonly_buftarg in xfs_remount_rw
-0989dfa61f438150c4f1110604ba0787856fe8b0 xfs: move xfs_submit_zoned_bio a bit
-19fa6e493a933c095f164230d3393d504216e052 xfs: Improve error handling in xfs_mru_cache_create()
-db44d088a5ab030b741a3adf2e7b181a8a6dcfbe xfs: actually use the xfs_growfs_check_rtgeom tracepoint
-b8b8663ac82a2595a0922d30014f60c5547084de mailmap: add entry for Danilo Krummrich
-b081d8564e4a396843a78788476fdcbf70efed06 ASoC: SOF: imx8: add core shutdown operation for imx8/imx8x
-8acfb165a492251a08a22a4fa6497a131e8c2609 regulator: fan53555: add enable_time support and soft-start times
-14c9ede9ca4cd078ad76a6ab9617b81074eb58bf hwmon: (ftsteutates) Fix TOCTOU race in fts_read()
-744c2fe950e936c4d62430de899d6253424200ed hwmon: (occ) Rework attribute registration for stack usage
-2c021b45c154958566aad0cae9f74ab26a2d5732 hwmon: (occ) fix unaligned accesses
 c25892b7a1744355e16281cd24a9b59ec15ec974 hwmon: (ltc4282) avoid repeated register write
 7360ee47599af91a1d5f4e74d635d9408a54e489 s390/pkey: Prevent overflow in size calculation for memdup_user()
 fe78e02600f83d81e55f6fc352d82c4f264a2901 Merge tag 'vfs-6.16-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -163,8 +141,19 @@ a89f5fae998bdc4d0505306f93844c9ae059d50c ksmbd: add free_transport ops in ksmbd 
 d222b6e6fb31e320eca506e665694d8ddf459157 tools headers x86 cpufeatures: Sync with the kernel sources
 52da431bf03b5506203bca27fe14a97895c80faf Merge tag 'libnvdimm-fixes-6.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 f4b048a6a34af9ad14a3a4a82902748f6cea6872 Input: apple_z2 - drop default ARCH_APPLE in Kconfig
+60524f1d2bdf222db6dc3f680e0272441f697fe4 net: ti: icssg-prueth: Fix packet handling for XDP_TX
 94a17f2dc90bc7eae36c0f478515d4bd1c23e877 x86/mm: Disable INVLPGB when PTI is enabled
+6f793a1d053775f8324b8dba1e7ed224f8b0166f net: netmem: fix skb_ensure_writable with unreadable skbs
+68a4abb1ef797095799e91d21f5d428c5bd09342 Merge tag 'linux-can-fixes-for-6.16-20250617' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+1e9ac33fa271be0d2480fd732f9642d81542500b bnxt_en: Fix double invocation of bnxt_ulp_stop()/bnxt_ulp_start()
+e11baaea94e2923739a98abeee85eb0667c04fd3 bnxt_en: Add a helper function to configure MRU and RSS
+5dacc94c6fe61cde6f700e95cf35af9944b022c4 bnxt_en: Update MRU and RSS table of RSS contexts on queue reset
+13c90202ddbb5f6e8457dadc797ca88b2d1b0742 Merge branch 'bnxt_en-bug-fixes'
 3c902383f2da91cba3821b73aa6edd49f4db6023 x86/its: Fix an ifdef typo in its_alloc()
+5ab73b010cad294851e558f1d4714a85c6f206c7 ptp: fix breakage after ptp_vclock_in_use() rework
+aa112cbc5f0ac6f3b44d829005bf34005d9fe9bb ptp: allow reading of currently dialed frequency to succeed on free-running clocks
+4300fd62daf219e712687fff82098490517d6b20 Merge branch 'ptp_vclock-fixes'
+b160766e26d4e2e2d6fe2294e0b02f92baefcec5 net/sched: fix use-after-free in taprio_dev_notifier
 18ae7d0cdd76420e80f6ab15ada063708f14ba40 wifi: ath12k: Avoid CPU busy-wait by handling VDEV_STAT and BCN_STAT
 062ade23991e556a14bbb27c1cf873c34dbd9d28 wifi: ath12k: parse and save hardware mode info from WMI_SERVICE_READY_EXT_EVENTID event for later use
 241d130f1419fd99923d99aff6e40490a4c34d93 wifi: ath12k: parse and save sbs_lower_band_end_freq from WMI_SERVICE_READY_EXT2_EVENTID event
@@ -182,7 +171,11 @@ cb6075bc62dc6a9cd7ab3572758685fdf78e3e20 x86/mm: Fix early boot use of INVPLGB
 1df310860aa5b4d97b3cc83a1a8dee599071b72d bcachefs: fsck: Fix oops in key_visible_in_snapshot()
 88bd771191f7f20d6295700d1746f576419e3d1f bcachefs: fix spurious error in read_btree_roots()
 434635987fb7d544dd134f25c922413e19b02112 bcachefs: Fix missing newlines before ero
+6dbb0d97c5096072c78a6abffe393584e57ae945 mpls: Use rcu_dereference_rtnl() in mpls_route_input_rcu().
 49a5fdc06ccfece8fc935aef1d15f4400d47602b Merge tag 'drm-msm-fixes-2025-06-16' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+2f370ae1fb6317985f3497b1bb80d457508ca2f7 atm: atmtcp: Free invalid length skb in atmtcp_c_send().
+7851263998d4269125fd6cb3fdbfc7c6db853859 atm: Revert atm_account_tx() if copy_from_iter_full() fails.
+0aff00432cc755ad7713f8a2f305395d443cdd4c Merge branch 'atm-fix-uninit-and-mem-accounting-leak-in-vcc_sendmsg'
 905eeb2b7c33adda23a966aeb811ab4cb9e62031 erofs: impersonate the opener's credentials when accessing backing file
 30b58444807c93bffeaba7d776110f2a909d2f9a erofs: remove unused trace event erofs_destroy_inode
 e7417421d89358da071fd2930f91e67c7128fbff wifi: ath6kl: remove WARN on bad firmware input
@@ -191,6 +184,7 @@ db5957ab85204a02093ac5ab2d0bbfe253955b71 wifi: iwlwifi: restore missing initiali
 d5352b491a3a2628f1a798952a4ae76bde5d42e4 wifi: iwlwifi: cfg: Limit cb_size to valid range
 432a41232ca932ecb2330f46105e68e296ba8c7f wifi: iwlwifi: dvm: restore n_no_reclaim_cmds setting
 83f3ac2848b46e3e5af5d06b5f176c17e35733a3 wifi: iwlwifi: Fix incorrect logic on cmd_ver range checking
+d0fa59897e049e84432600e86df82aab3dce7aa5 tcp: fix tcp_packet_delayed() for tcp_is_non_sack_preventing_reopen() behavior
 68dd8eeb7208f16a0592da3896dd59379d95d553 Merge tag 'iwlwifi-fixes-2025-06-18' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 df29f60369ccec0aa17d7eed7e2ae1fcdc9be6d4 crypto: ahash - Fix infinite recursion in ahash_def_finup
 635e118317ffa773f6d25ec6a71b7927d7e8886a Revert "mtd: core: always create master device"
@@ -1080,5 +1074,6 @@ dd4360c0e8504f2f7639c7f5d07c93cfd6a98333 net: phy: microchip: limit 100M workaro
 4d61a8a7334399f457867442445a4f916b40cddb selftests: Add IPv6 multicast route generation tests for GRE devices.
 ce913b2292e9bdf2661af6e584ddfb4ed5978893 Merge branch 'gre-fix-default-ipv6-multicast-route-creation'
 47c84997c686b4d43b225521b732492552b84758 selftests: net: lib: fix shift count out of range
+58805e9cbc6f6a28f35d90e740956e983a0e036e can: m_can: m_can_handle_lost_msg(): downgrade msg lost in rx message to debug level
 
---===============2917065692062069867==--
+--===============4870070697696010065==--
