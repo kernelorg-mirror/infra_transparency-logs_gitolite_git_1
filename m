@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 11 Jul 2025 13:44:29 -0000
-Message-Id: <175224146986.950219.3483024704435962060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 11 Jul 2025 13:49:23 -0000
+Message-Id: <175224176390.954738.15046656587428809296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: efacb2cdedc180b0cdb27f90e3397c908f9510c9
-    new: c819e415efb3070b702dc3d521e0be1a15f7c170
+  - ref: refs/heads/for-6.17/block
+    old: 8b428f42f3edfd62422aa7ad87049ab232a2eaa9
+    new: 1bb94ff5ab4be2485884e0a46483f12629f3bb92
     log: |
-         728beb9bb8b359a841779d15ba5b9ecbd5971d66 Bluetooth: btintel: Fix typo in comment
-         03b2d5bf48810059ccc02ad2457300db7625f79d Bluetooth: btmtk: Fix typo in log string
-         5d12ca7530703276483bca64823f0827c09732af Bluetooth: btrtl: Fix typo in comment
-         aa0d0b408a5af0720bb8d9a5ddacad771b86a724 Bluetooth: hci_bcm4377: Fix typo in comment
-         033ea129991b2bc1969d24e5641d31aa46d57195 Bluetooth: aosp: Fix typo in comment
-         b14c362ad1129073ce16ab735fbb61437c8e5a86 Bluetooth: RFCOMM: Fix typos in comments
-         c819e415efb3070b702dc3d521e0be1a15f7c170 Bluetooth: Fix typos in comments
+         1bb94ff5ab4be2485884e0a46483f12629f3bb92 nvme-pci: don't allocate dma_vec for IOVA mappings
+         
+  - ref: refs/heads/for-next
+    old: 232ed3c2e04757c5272bcba3fad86f695edc84b6
+    new: d7d3914e6d4aa9591f60b509cd9037fa8027d451
+    log: |
+         1bb94ff5ab4be2485884e0a46483f12629f3bb92 nvme-pci: don't allocate dma_vec for IOVA mappings
+         d7d3914e6d4aa9591f60b509cd9037fa8027d451 Merge branch 'for-6.17/block' into for-next
          
