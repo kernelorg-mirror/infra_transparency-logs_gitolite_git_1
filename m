@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Fri, 11 Jul 2025 08:31:08 -0000
-Message-Id: <175222266891.685361.11894188420242740195@gitolite.kernel.org>
+Date: Fri, 11 Jul 2025 08:32:16 -0000
+Message-Id: <175222273606.686021.9414314571264134399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v6.16-next/dts32
-    old: 513e45539a721259568aaa5858b3b6ee78d2adb6
-    new: 5a8e7b4eaaa232d747517fe34ba6867139a4cea8
+  - ref: refs/tags/mtk-dts32-for-v6.17
+    old: 86a8db3584d3f06a845c22a36723568ba465130e
+    new: bcd5431bc491f46405c20e20835848b92f7e4b7d
     log: |
          9272cff87d3343bffaf279ffbdfd0522fc8a76df dt-bindings: interrupt-controller: mediatek,mt6577-sysirq: add MT6572
          085e9f15a739f5f2c8622e82e3fe3c57ddff61f1 dt-bindings: watchdog: mediatek,mtk-wdt: add MT6572
