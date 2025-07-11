@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 11 Jul 2025 04:12:53 -0000
-Message-Id: <175220717357.453475.501985658408439797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 11 Jul 2025 04:44:42 -0000
+Message-Id: <175220908202.496028.18251072128883457692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 3a7329a375872c34585078ec7f8baedcdd40525e
-    new: 4763d6f3c02b9933b78ed6ffb27fb8bd40ca8f8a
-    log: |
-         4763d6f3c02b9933b78ed6ffb27fb8bd40ca8f8a Notes added by 'git notes add'
-         
+  - ref: refs/heads/nova/sequencer.orig
+    old: 0000000000000000000000000000000000000000
+    new: f2d45268475c16d666f7b487e8a3db2a91dc1e18
