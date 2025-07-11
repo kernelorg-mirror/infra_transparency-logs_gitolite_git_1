@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 11 Jul 2025 01:03:01 -0000
-Message-Id: <175219578135.290942.11436076948789456332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Fri, 11 Jul 2025 01:05:17 -0000
+Message-Id: <175219591718.294666.7874113224485182373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: 7ac5cc2616257cf80d32a8814e44474f07efed62
-    new: 711c80f7d8b163d3ecd463cd96f07230f488e750
+  - ref: refs/heads/next
+    old: f393a761763c542761abcf978252d431269366d6
+    new: dedf090561dc6e1dcccf7b495a61bec57f2e7079
     log: |
-         711c80f7d8b163d3ecd463cd96f07230f488e750 net: appletalk: Fix device refcount leak in atrtr_create()
+         dedf090561dc6e1dcccf7b495a61bec57f2e7079 rtc: efi: Add runtime check for the wakeup service capability
          
