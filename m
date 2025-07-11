@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 11 Jul 2025 18:00:32 -0000
-Message-Id: <175225683217.1182065.3827808139297462617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 11 Jul 2025 18:05:14 -0000
+Message-Id: <175225711425.1186212.6395078653884166166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: eeec23a74b2bbec4a7f1b2ef0899b2cc1502b3e1
-    new: ea2aecdf7a954a8c0015e185cc870c4191d1d93f
+  - ref: refs/heads/experimental
+    old: 13e5906b697db5905c1c03abe73ad86480371280
+    new: 6aa0fb4c258f81c530afeef80defbe2915756249
     log: |
-         6e816e1c052b453a93aeb8b57ede9acde58c458d bpf: Remove location field in tcx_link
-         2a76a80c7ffc9894b90126af7b17584195b40b7a bpf: Remove attach_type in bpf_netns_link
-         0eeeebdcc5feeec48118f7a3df2ac818e694ccc7 bpf: Remove attach_type in bpf_tracing_link
-         601a3956fead680691cdf0b0108bdb27eea5108b netkit: Remove location field in netkit_link
-         ea2aecdf7a954a8c0015e185cc870c4191d1d93f Merge branch 'move-attach_type-into-bpf_link'
+         4c036b11e9c1049e9945db552e23555ce163c1ab erofs-utils: mkfs: support 48-bit block addressing for unencoded inodes
+         80289ce57ac4b39fc542dcadfb0b02dc4a158d02 erofs-utils: support dot-omitted directories
+         09220282bcbc04e72db1cf1ccc198babb34cfc78 erofs-utils: lib: implement encoded extent metadata
+         cb6a47f155275b330b81ca4ed229cd4012752fab erofs-utils: support encoded extents
+         118be8a0db5636ea19543cd5a9868d01ffcf6e5f erofs-utils: introduce `fallthrough;`
+         f05c87574de619f462a751ef7f47698e0482ef0d erofs-utils: silence `Unintentional integer overflow`
+         75383a807e89fed03809cf3cc79e28bfc24bef07 erofs-utils: resolve `PRINTF_ARGS`
+         6aa0fb4c258f81c530afeef80defbe2915756249 erofs-utils: lib: fix `INTEGER_OVERFLOW`
          
