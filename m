@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Fri, 11 Jul 2025 21:38:48 -0000
-Message-Id: <175226992858.1364609.927493585601734082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Fri, 11 Jul 2025 21:46:45 -0000
+Message-Id: <175227040589.1372182.7880091410338072452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/linux
-user: tnguy
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/for-next
-    old: 9492cf2ed5a44f690adc63bb0b857950ec93ea69
-    new: b0ac16edc4eddb16a68c09cea6cdd1d89873fc4f
+  - ref: refs/heads/cxl/defer_dport_enumeration
+    old: 65a1bc186ee0cc375d72006f69277cc10d7fef49
+    new: dffb017428a9f520d8e2748f9c54c79c3f0a7d23
     log: |
-         b624df8235e73d6c49583179a7161b63baf0be78 idpf: use reserved RDMA vectors from control plane
-         0cb6ff55d18769c4ee90e09464c166a5b04c8cc2 idpf: implement core RDMA auxiliary dev create, init, and destroy
-         2ebe5381b085704f0cd0c3fd4faa56eeca89427a idpf: implement RDMA vport auxiliary dev create, init, and destroy
-         6cc5e1bbedf8c7dd7ef0aaa983fd57523873473c idpf: implement remaining IDC RDMA core callbacks and handlers
-         8042863ddfa76b488a8ac61ebf61cc0ba94bee88 idpf: implement IDC vport aux driver MTU change handler
-         b0ac16edc4eddb16a68c09cea6cdd1d89873fc4f idpf: implement get LAN MMIO memory regions
+         e5dbff9cfd4ed5913492a0aadaa2fa5ecc5feafe cxl: Add helper to reap dport
+         e45a61e36147941ea456d0a27ddbc912d6e4fefe cxl: Defer dport allocation for switch ports
+         3a319863e0d7ea462232c18e742ed7027f3e10f5 cxl/test: Add cxl_test support for cxl_port_update_total_ports()
+         b0c19b46f435278db776c91916c9e49f1ad8cf03 cxl/test: Add mock version of devm_cxl_add_dport_by_dev()
+         70203134d04394be3d0b38cf887b61a190f57d67 cxl: Change sslbis handler to only handle single dport
+         c8df225454639e8da4bfa186c24098f489eb69a2 cxl: Create an xarray to tie a host bridge to the cxl_root
+         a749c57750a1856cc8ef436dfb7a1a269c5de8bb cxl: Move enumeration of hostbridge ports to the memdev probe path
+         dffb017428a9f520d8e2748f9c54c79c3f0a7d23 cxl: Remove devm_cxl_port_enumerate_dports() that is no longer used
          
