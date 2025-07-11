@@ -1,40 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============1141063206025098041=="
+Content-Type: multipart/mixed; boundary="===============0510756288442314364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 11 Jul 2025 18:32:49 -0000
-Message-Id: <175225876955.1210835.3966486968768595446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 11 Jul 2025 18:36:08 -0000
+Message-Id: <175225896865.1214513.16202320554485787491@gitolite.kernel.org>
 
---===============1141063206025098041==
+--===============0510756288442314364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/sched/core
-    old: 2885daf47081dd1aaf1a588e9d001eb343df1f90
-    new: b7a10f16517e0843a58849ea0e17c12736150bde
-    log: revlist-2885daf47081-b7a10f16517e.txt
+  - ref: refs/heads/main
+    old: a215b5723922f8099078478122f02100e489cb80
+    new: c7979c3917fa1326dae3607e1c6a04c12057b194
+    log: revlist-a215b5723922-c7979c3917fa.txt
 
---===============1141063206025098041==
+--===============0510756288442314364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2885daf47081-b7a10f16517e.txt
+Content-Disposition: attachment; filename=revlist-a215b5723922-c7979c3917fa.txt
 
-8eee8d1d329c5ad6efbd81e0cf3b55819788f6bc sched/deadline: Initialize dl_servers after SMP
-752c1c738e4d6b8853780233e0605ecdd76bdeee sched/deadline: Reset extra_bw to max_bw when clearing root domains
-6137d333fee243db1f7fe15637b089b4774dadd7 sched/deadline: Fix accounting after global limits change
-222f4384f8438369afbd5a044e0e51a5b42e9aaf tools/sched: Add root_domains_dump.py which dumps root domains info
-f356d1fe2ecbc1023ef99afe604b52cc2c311220 tools/sched: Add dl_bw_dump.py for printing bandwidth accounting info
-2b990604e2a2e112fccd8c7cd2ab2e706bd7d8fb smpboot: introduce SDTL_INIT() helper to tidy sched topology setup
-b01723a4e6a862612e973a1b6f3e627337ecc518 x86/smpboot: remove redundant CONFIG_SCHED_SMT
-05d222ba10be40aca1f59e1a088db153f6f71b30 x86/smpboot: moves x86_topology to static initialize and truncate
-4592ead59d0bdc62fbf38ab9c3e4606a20a6a579 x86/smpboot: avoid SMT domain attach/destroy if SMT is not enabled
-b7a10f16517e0843a58849ea0e17c12736150bde sched/topology: Remove sched_domain_topology_level::flags
+aa807b9f22df2eee28593cbbabba0f93f4aa26c1 dma-contiguous: hornor the cma address limit setup by user
+30e0fd3c0273dc106320081793793a424f1f1950 gpiolib: fix performance regression when using gpio_chip_get_multiple()
+d563e7f95c933816efe531c3a48e22bc099c0f55 gpio: of: initialize local variable passed to the .of_xlate() callback
+ec3cae639482a8da11a3ae30d28ceceb9d6a3f56 PM: sleep: Call pm_restore_gfp_mask() after dpm_resume()
+edb471108cf1477c44b95e87e8cec261825eb079 MAINTAINERS: remove bouncing address for Nandor Han
+a0f8361c3ce4cf706608edb81c4334783cb093cf Merge tag 'dma-mapping-6.16-2025-07-11' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+87cf461cd30bc3e0ae48936a96590de8db747f54 Merge tag 'pm-6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+5265593a28d91aed5529c31e720be8d3e78e0695 Merge tag 'gpio-fixes-for-v6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+c7979c3917fa1326dae3607e1c6a04c12057b194 Merge tag 'net-6.16-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============1141063206025098041==--
+--===============0510756288442314364==--
