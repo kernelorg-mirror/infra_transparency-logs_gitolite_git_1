@@ -1,44 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6399561293345495698=="
+Content-Type: multipart/mixed; boundary="===============3468682698071149283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 11 Jul 2025 20:17:02 -0000
-Message-Id: <175226502213.1298418.15948129716787361235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 11 Jul 2025 20:39:35 -0000
+Message-Id: <175226637550.1315912.6514371528888900522@gitolite.kernel.org>
 
---===============6399561293345495698==
+--===============3468682698071149283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: a12a23720c135a299ed914adf623387c7404e014
-    new: b4aff7ed7a4c1360e8b29d545c7bc9e05af1a995
-    log: revlist-a12a23720c13-b4aff7ed7a4c.txt
+  - ref: refs/heads/experimental
+    old: 6aa0fb4c258f81c530afeef80defbe2915756249
+    new: bfd8dfca976e699f90c3b612c154daf6af37243b
+    log: revlist-6aa0fb4c258f-bfd8dfca976e.txt
 
---===============6399561293345495698==
+--===============3468682698071149283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a12a23720c13-b4aff7ed7a4c.txt
+Content-Disposition: attachment; filename=revlist-6aa0fb4c258f-bfd8dfca976e.txt
 
-4a6cdecaa1497f1fbbd1d5307a225b6ca5a62a90 perf tests bp_account: Fix leaked file descriptor
-28f5aa8184c9c9b8eab35fa3884c416fe75e88e4 perf hwmon_pmu: Avoid shortening hwmon PMU name
-679c098cd2db458b1899e4410150d41a550ec6d6 perf parse-events: Minor tidy up of event_type helper
-bcc7693ad100ef9c778621edee2295b8c02f2271 perf spark: Fix includes and add SPDX
-8c75dc742089c702cab6d0f21be80c5ddd3c6067 perf pmu: Tolerate failure to read the type for wellknown PMUs
-cb336b6aaeb44be281df9a03684ddeadd3afab60 perf metricgroup: Factor out for-each function and move out printing
-faebee18d720d9e209946ece3e468c06cf13f5ec perf stat: Move metric list from config to evlist
-3787cdaf387cdc14a9a000624742b4ee0a509244 perf expr: Accumulate rather than replace in the context counts
-5c255832deaf34d74c0adf2200eb50a8bba0fc00 perf jevents: If the long_desc and desc are identical then drop the long_desc
-7d5b635d9f4314c93bc1f9828f5d757decb860bc perf python: In str(evsel) use the evsel__pmu_name helper
-64ec9b997f3a9462901a404ad60f452f76dd2d6e perf python: Fix thread check in pyrf_evsel__read
-6183afcba9c1c810656ddb36170106aaf3cf778c perf python: Correct pyrf_evsel__read for tool PMUs
-421c5f39adcdf292ca5c7162f40ed6d120d136a8 perf python: Improve leader copying from evlist
-b4aff7ed7a4c1360e8b29d545c7bc9e05af1a995 perf python: Set index error for invalid thread/cpu map items
+60d474256ab52046d890f4b5835bbf52dd430daf erofs-utils: fix large fragment handling
+0241c7150ca2065d5d3919e12688e207a0f926e9 erofs-utils: lib: use Z_EROFS_LCLUSTER_TYPE_MAX to simplify switches
+37a04515c2b3103a5ffd228b7d303eb7c9eec286 erofs-utils: lib: simplify tail inline pcluster handling
+3fb90e72db9b8252a283a938e0b96e743b3c106b erofs-utils: lib: clean up header parsing for ztailpacking and fragments
+e808d0b9839e0254db2ea863b11b8c1af649da09 erofs-utils: get rid of NULL_ADDR{,_UL}
+3cca1a529ad156525d99d934f567d3e5494da0f7 erofs-utils: lib: sync up with the 48-bit kernel erofs_fs.h
+8b87c29b81adc16bf6cfed1aade0c7734a23175a erofs-utils: implement 48-bit block addressing for unencoded inodes
+1ea1d9ace5fa58d932ed16aefd936c68d23e1848 erofs-utils: mkfs: support 48-bit block addressing for unencoded inodes
+74e4c7abc7e900266da01affaca4e5ca83eb81ae erofs-utils: support dot-omitted directories
+11fdec4af4bdb7c4af0be9343785fa15eb9ab311 erofs-utils: lib: implement encoded extent metadata
+20b717dfece7f326ac618f9101c7a0b5768d7f17 erofs-utils: support encoded extents
+53831787f4856bdb5e46e2a7ca33d1f2aa38b098 erofs-utils: introduce `fallthrough;`
+7f170e5d4851ee1e505a6dc01a01a198a43d9c37 erofs-utils: silence `Unintentional integer overflow`
+5889a8c208c08e9c630e5487583df377e2e3db75 erofs-utils: resolve `PRINTF_ARGS`
+bfd8dfca976e699f90c3b612c154daf6af37243b erofs-utils: lib: fix `INTEGER_OVERFLOW`
 
---===============6399561293345495698==--
+--===============3468682698071149283==--
