@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 11 Jul 2025 02:03:42 -0000
-Message-Id: <175219942275.346801.4442648118436966183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 11 Jul 2025 02:07:45 -0000
+Message-Id: <175219966511.351122.16575853454198335826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 43eeda8ac2d002f50366156bb5b459f9627e54ea
-    new: 0641eff8bb04508132b9d1b44e4a7ed7a1712e61
+    old: d7eacb80fe3d5d5ceb90b95b73c392e669eb348b
+    new: ed1108fb7acc79deb2c5b108d8fb675f7408c74e
     log: |
-         0641eff8bb04508132b9d1b44e4a7ed7a1712e61 patches/next: rebase to latest mm-new
+         ed1108fb7acc79deb2c5b108d8fb675f7408c74e man: note when IORING_REGISTER_SEND_MSG_RING became available
          
