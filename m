@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 11 Jul 2025 18:36:22 -0000
-Message-Id: <175225898246.1214796.11154129415131896396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 11 Jul 2025 18:39:12 -0000
+Message-Id: <175225915285.1216121.6395318850613164190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/tags/net-6.16-rc6-2
-    old: e141fc0e732048002b52e6cf96c1ff033a3e797e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: b763c3067fd1c106f6810e52b24c3cb9bf23f7c1
+    new: 7e22b60a8af12b81ff3d416ed4e7d21fb98e9f25
+    log: |
+         979c5ce4a37680063d87fe13d662ed68e06e77c3 wifi: ath12k: support average ack rssi in station dump
+         b4850c5f9dddbd17514ecdb107eda5df927c23a5 Merge branch 'ath-next'
+         61f28397ec2c78c843dce920339ae5f2e5779f4e Merge branch 'ath-current'
+         0f910da05dd567c57c9bbd4071a8e4bb6734c576 Merge remote-tracking branch 'mhi/mhi-next'
+         7e22b60a8af12b81ff3d416ed4e7d21fb98e9f25 Add localversion-wireless-testing-ath
+         
+  - ref: refs/tags/ath-202507111634
+    old: 0000000000000000000000000000000000000000
+    new: 7e22b60a8af12b81ff3d416ed4e7d21fb98e9f25
