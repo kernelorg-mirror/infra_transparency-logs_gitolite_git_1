@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Sat, 12 Jul 2025 23:09:07 -0000
-Message-Id: <175236174792.2624854.16538785496473264647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 12 Jul 2025 23:10:23 -0000
+Message-Id: <175236182334.2627768.1102199356930784727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net
-user: davem
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 7727ec1523d7973defa1dff8f9c0aad288d04008
-    new: 5e28d5a3f774f118896aec17a3a20a9c5c9dfc64
-    log: |
-         5e28d5a3f774f118896aec17a3a20a9c5c9dfc64 net/sched: sch_qfq: Fix race condition on qfq_aggregate
-         
+  - ref: refs/heads/sha1-lib-v1
+    old: 0000000000000000000000000000000000000000
+    new: 28ae4217cb4df7c908ccf0d4e49e170c7c09ecad
