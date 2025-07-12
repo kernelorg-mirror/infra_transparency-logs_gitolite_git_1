@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 12 Jul 2025 00:51:40 -0000
-Message-Id: <175228150056.1528191.52088563207127621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 12 Jul 2025 02:28:01 -0000
+Message-Id: <175228728157.1603050.8311621820257900864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 19d181d8a0c20fda43c820dbddb1cb4bd477b81c
-    new: a52f9f0d77f20efc285908a28b5697603b6597c7
+  - ref: refs/heads/master
+    old: a49a02376e309ebae6d21c54db10e50f2d292b4a
+    new: 93e995a1ed814acd3fd40d48a49d5ab5c96d29bd
     log: |
-         2b05db6b8a10df423d5478b20cadb1e190fa136f batman-adv: Start new development cycle
-         7dc284702bcd065a822a4c0bdbca09a08de5a654 batman-adv: store hard_iface as iflink private data
-         a52f9f0d77f20efc285908a28b5697603b6597c7 Merge tag 'batadv-next-pullrequest-20250710' of git://git.open-mesh.org/linux-merge
+         a21770895ccb7a7e133509de2a8624ae615b23d2 Fixes for 6.15
+         565562c56028b445cfa17cc2dee922574ff62e7c Fixes for 6.6
+         fb82a2591a6fa013fd552753d3b3338758b73c99 Fixes for 6.1
+         31d84d8afa6cdf5f016c4af6bf664476073eae80 Fixes for 5.15
+         3f4a0b2e6c93890b6235c65b7db9a086dc957bb2 Fixes for 5.10
+         93e995a1ed814acd3fd40d48a49d5ab5c96d29bd Fixes for 5.4
          
