@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 12 Jul 2025 14:55:56 -0000
-Message-Id: <175233215602.2224025.2621879658514203162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sat, 12 Jul 2025 15:02:05 -0000
+Message-Id: <175233252578.2228643.17974280948618077671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: ec37d1eeaddbdd68dbb37e31d9cab99a231238b3
-    new: 749abe6f1b7f9dba0eeb594306c8ef975e443fb0
-    log: |
-         12973f5494996b756b9aa252331ff1a924c3defa Drop 5.10 virtio backport
-         72e56eab37d5d6d3883166665a419d6f1ea73269 Fixes for 5.15
-         749abe6f1b7f9dba0eeb594306c8ef975e443fb0 Fixes for 5.10
-         
+  - ref: refs/tags/erofs-for-6.16-rc6-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 492c3db751c974e450063dee9633e027109ec456
