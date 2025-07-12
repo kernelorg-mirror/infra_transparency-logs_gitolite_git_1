@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6443761978691709473=="
+Content-Type: multipart/mixed; boundary="===============6201721418841781975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 12 Jul 2025 18:52:16 -0000
-Message-Id: <175234633651.2415129.1873196863060357270@gitolite.kernel.org>
+Date: Sat, 12 Jul 2025 18:52:19 -0000
+Message-Id: <175234633936.2415234.17257827549963227490@gitolite.kernel.org>
 
---===============6443761978691709473==
+--===============6201721418841781975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: 7f27fa6c60c682367a647a1279d0280fe0e643bd
-    new: 31a40089dc291f066ba831dd76043c8bfd6b462f
-    log: revlist-7f27fa6c60c6-31a40089dc29.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 08c21d58b16e81ef0492cc4821e8dfd1c7628948
+    new: a60c1a5ecec854d0204c778f6910c38dc84022d2
+    log: revlist-08c21d58b16e-a60c1a5ecec8.txt
 
---===============6443761978691709473==
+--===============6201721418841781975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f27fa6c60c6-31a40089dc29.txt
+Content-Disposition: attachment; filename=revlist-08c21d58b16e-a60c1a5ecec8.txt
 
 ef05dda84557c1d49b54ae34724faa09a3411839 lib/iov_iter: remove piecewise bvec length checking in iov_iter_aligned_bvec
 869f248574f98e47be0c9230eb8a4faca86c9f65 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
@@ -61,5 +61,22 @@ facec187b2e564c30908f1b5943fb6a1ef5c36cc nfs/localio: make trace_nfs_local_open_
 6c1cf47f1dd0c6cf121f2a3cc23119c6a8885d6f nfs/localio: refactor iocb initialization
 13848ec8a78672cb633afb740bac6ccd9f616a9c nfs/localio: fallback to NFSD for misaligned O_DIRECT READs
 31a40089dc291f066ba831dd76043c8bfd6b462f nfs/localio: Only send READ to NFSD if 32K or larger
+5fb8abe128c98d20a1a161ae17f0cffb67a918d3 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+32502680203622dfc39abb2868db40db53ed7c2b Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+460c56a63b9025a54146f29d52fffd675736e90e Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+8d996526f288846a90b15c0a0982dd1d171e0b82 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+89694630faeabd9e6a9c344413f5b6774479f061 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+ab4b9c6a465863511a34ec0708b8f9a30ccd718f Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+1e48703e4e0afced598121887ecd8787999dc8e2 Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+66cb5f80acb8233bcba4c7f604a3a8db0fb412bf Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
+1c0caf29463d8da59ee26e80b71468ee670951bc Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+7860c34d03640ad0d0303f9807ebab7d98608e4b kernel-6.12.24-1
+649490f078daea9a81cf422f9d2ef3e8c2625a86 kernel-6.12.24-2
+edb662ac9c17048f4f819394f07fc89807878eb1 kernel-6.12.24-3
+52b2a8a1f65179118bb3c98af4c5e967f469ae32 kernel-6.12.24-4
+ec029f947152badbf49a0b87d782c48a35dbd272 kernel-6.12.24-5
+674cff52082d0cf2dc5d338fcf50a0501a003cee kernel-6.12.24-6
+2651e2044882d9aea0a6225cc9de073d572d2b82 kernel-6.12.24-7
+a60c1a5ecec854d0204c778f6910c38dc84022d2 kernel-6.12.24-8
 
---===============6443761978691709473==--
+--===============6201721418841781975==--
