@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8224113927573132173=="
+Content-Type: multipart/mixed; boundary="===============0191405769998696329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 13 Jul 2025 14:36:35 -0000
-Message-Id: <175241739574.3418610.9398337925484008549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 13 Jul 2025 14:42:44 -0000
+Message-Id: <175241776428.3423435.7475697321983984833@gitolite.kernel.org>
 
---===============8224113927573132173==
+--===============0191405769998696329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
   - ref: refs/heads/master
-    old: 69fb87e8ff4444750d0b2860a512d809f5e6fb65
-    new: ae226932fb6fd9ae058ba9bc42f2d256ad0416c9
-    log: |
-         ae226932fb6fd9ae058ba9bc42f2d256ad0416c9 6.6-stable patches
-         
+    old: b3da4865e80d920158906b7a138081f8921545c6
+    new: e1e4a0ea3580195c1b68912cdf6db57afa168419
+    log: revlist-b3da4865e80d-e1e4a0ea3580.txt
 
---===============8224113927573132173==
+--===============0191405769998696329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b3da4865e80d-e1e4a0ea3580.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752417434 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1752417393-649c9393c4470c5e8f54cbb104942df1c9a9a10c
+e225772353e212c3b321a31c6ddb364684378e8e xfs: add mount test for read only rt devices
+e7bc1e2427b4ccfd9a51a475b0d1b792b3586a40 ext4/002: make generic to support xfs
+c2acd19575e0101bee35d4b8b7b003a5e2a14f50 generic/738 : add missing _fixed_by_git_commit line to the test
+078937463f4a5763239c7d221c168aa9cf5630b5 generic/689: add _require_acls
+a69ad67d48badc4f394c07767ad2c69fbb557b6d generic/622: fix for exfat
+595773191547d36e36717ce0da4378fe726e0bc9 generic/633: add _require_chown
+5b6072bc96a4e7948919ad4f93f6e2b970577384 xfs/603: add _require_scrub
+3893dd152f1c915d711bb24bffbc685a3ba06747 src/fill2: fix segfault during fopen error cleanup
+ec9a19e726974bf726b75f15ab01b6ecb483d2aa generic/032: fix failure due to attempt to wait for non-child process
+4230bcb1d9f66cc071b5c1de68366c1c48a4e1e3 generic/740: move checking for a scratch device up
+2bade810290c51ab5086e5291b824d56252ac9e2 btrfs/300: set umask to avoid failure on systems with a different umask
+e17714ed95441bf2a2ee80c6e0f8af3841ffb255 generic/551: prevent OOM when running on tmpfs with low memory
+d0f634afb0e30a823b044ec49fb6ea0ad0588d1c xfs/820: skip test when metadir is not supported
+8cde30495eb5199182c492c13441f7cf7f07d62f fstests: add helper _scratch_shutdown_and_syncfs
+4b1cf3df009b225c5112eacf62250331da00273a fstests: add helper _require_xfs_io_shutdown
+e1e4a0ea3580195c1b68912cdf6db57afa168419 overlay: add tests for data-only redirect with userxattr
 
-69fb87e8ff4444750d0b2860a512d809f5e6fb65 ae226932fb6fd9ae058ba9bc42f2d256ad0416c9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhzxJsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WrQP/iEI4hNJGZgnTWumGqmq
-WBmeR1D4r0Fp/KfA1Bq1PADuK3zlkETHhKB03cozCwfMmzZ0a9VsFZps8s6IMa8E
-deQCJR2i7GDlKv3IrdTNbCH8u8SG41g6h1lYP8rAAohRExy85ULqzPNEQo4gaHbJ
-+WLasEmbBKM1Jy1l05HP/8MLPpmJbGzkTVWB5NNgfABa9DjfCAenFOqNn/f2+crA
-hOE+seoZGeb2JL7xYu4TmkOp3qDTf8WRasnwp1nThmx86yk7i1T40rjUSFGHYpBe
-7s2camB5QfH9rcaOH5ss1sCjj6GnJKDyxBPFKkwYLSuelhOzM/wEuf4hGLwPp+uZ
-pKod9XoEQ6jEoh5ecxwKaZXePTxq5nXgAoi5xXjz+YLPRmoP9UMv3q0m01eH5v9k
-UVXHeZcljyIYn8pibYeLXbjYaOh6PCrBKgxEI/ThQBybC4MG5jKMvNtHEBLhZd3d
-w1jzsNoNuGrg5YAm+KypEb1Nse8ZmxmZOfZtAKn/JnzsPtYI+9LNr5MYF00S1290
-HjIBr2PvsSef5b5eoNqRgPZYBlHGP35gkOXcM+EZXruFwN/3+9+IWV0kh1Dxd5e/
-4vbaaF7CN9p5vyaqtY8e9mDOiwfPVyzRIM9J7pSpozSAVyEXr3zuZTzHx0rsBLPQ
-iNutCsJGgP2Fmi5ucbsXonlB
-=G7a9
------END PGP SIGNATURE-----
-
---===============8224113927573132173==--
+--===============0191405769998696329==--
