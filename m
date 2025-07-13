@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9180994480800268982=="
+Content-Type: multipart/mixed; boundary="===============8991551601331932799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 13 Jul 2025 15:30:45 -0000
-Message-Id: <175242064547.3466495.6920390760676407640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 13 Jul 2025 15:43:10 -0000
+Message-Id: <175242139019.3475372.12644456483379737490@gitolite.kernel.org>
 
---===============9180994480800268982==
+--===============8991551601331932799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: cd0f8649d0e1c747d1bf6290201f38474fc23925
-    new: 5724ff190b22bd04fcfd7287a39c6e5494e40f0b
+  - ref: refs/heads/char-misc-linus
+    old: ae68ad3d7a93ea1eedbce8e5813273163b971b36
+    new: 2aa4ad626ee7f817a8f4715a47b318cfdc1714c9
     log: |
-         ef8abc0ba49ce717e6bc4124e88e59982671f3b5 usb: dwc3: qcom: Don't leave BCR asserted
-         5724ff190b22bd04fcfd7287a39c6e5494e40f0b usb: dwc2: gadget: Fix enter to hibernation for UTMI+ PHY
+         2aa4ad626ee7f817a8f4715a47b318cfdc1714c9 nvmem: imx-ocotp: fix MAC address byte length
          
 
---===============9180994480800268982==
+--===============8991551601331932799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752420683 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1752420642-11b2be46f3f173c3516ead07e2fa5513f1cae8f5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752421428 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1752421387-17232dc910d26bc8a72212ea29310c157fb0606c
 
-cd0f8649d0e1c747d1bf6290201f38474fc23925 5724ff190b22bd04fcfd7287a39c6e5494e40f0b refs/heads/usb-linus
+ae68ad3d7a93ea1eedbce8e5813273163b971b36 2aa4ad626ee7f817a8f4715a47b318cfdc1714c9 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhz0UsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aLQQALQ1JFDv/F6hSiEk8W7g
-2lng+7tXwdkgwem/QtizC/1ah22+apPiT7OjUuoXnzkHlcFhfPjXEHgGC3FbpDJq
-3J4YW2Z8SOS3b/adxVcliDF1GKYep6hqY/WCPcHHlKqft7/dV1bSWBMn2anGDqnH
-Jkcp8RjFTnR8QNXfmp7xt8+fTHVCLBo97EHENwTSs46GO7DXH7Tyw0rW2eD5iVu4
-Twu+M9zU2YNfJ/Rt5MzwcilKcjKC7sgtS7w6ttL8SrCOxCAu1vrK/YF7UhwfhpSA
-TZ/a0BYCks0mZdBvBh2fTJgg0uDsui7Te5G7uoOIAkQ5XBFzy9csmXK9wZy0gfIg
-1RjU+LA4lropTBOKRo41OF73riAbJhdxQhVjf5RiJgMPYXQCMkAU6qdFiSBlXAG1
-gORkWqE4SdR6u0/hgM528Hhqte6h6ZtjSojXSF+PjLcYO5jRAUgQghnUjrKUnQ/V
-qNcIcmS+d/QqjSU+Z3rCzDOb7b/XXMxIL4uJC2breuGPCCHPCdxykSIccX60gXqi
-t/GAwFKsA5Qht4OMfZre8tMy81/CoHhbl1RtwOpCsvaEwrI49NO03YAC9EV8GOPn
-+UUbAKSvPHJZ/0RmuGcs81DXSOXVyJd9ZNa6kl2y3qfkxb6gN4Zi8I1Tfo44bBMW
-SarUw7H1Rn1ocJVCEnFGvkpz
-=skcH
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhz1DQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0ZcQAJZrkADVHYA8kIuU9gEk
+OM4NpfWO9BYdC7s7oX9o81MVX0CGgTjWAgA1MHWgwdbBU2a1s+7DAiRG3VOL/064
++zijMvgFOBSsgERClfGqVI4w00tfOJaqCFzsaS7GK/1SkujabQSmWBMnNLZOT4ci
+Fn9hUTn1gE11L6F92rZbDCam0d0XU1Zz8MVFBUTesJ+Sn2qn17dNsMPTZq28aU69
+CaWyWCiPZiffB5N26iU5aw0VbVNml3SzxwLg3QQ0P5NJrQk110fGCFE3X7h3aBRF
+FYZgA0rD66N8vLPQ09Yg1Uh0dqWkt8XFSBRHCRwgXw90fLEB5jbma7ImTrAj9itA
+/mNAf1NRLR7TafyNn4VtbKJOiEajj1HS7T/lHJ6V37x+M7X5zw7klbQQddo1qF01
+LH6d4lq+oQBgZltL1IHxPKUwOvtUgS5rfx6fxS/o5LNgzpcWWMbkChXy1hoD/Uxm
+wcwVAN+yOXZBfyZc6ejW7ll71LhLRK4ekbSBU216CnHhGcsAQg2fyeK/oCwtEk9g
+XIGF0T3H8WaTJ1/InSWca6cklCZqFi2AbuWFmK/JXySiLxbu6fVUD4eocx5xgBCp
+yIAZ4PS1U0tI3pSDw4XsmN90YJbSOyUZKty1nn0hqUgmuEpffz5pA5sfGzfzqxhv
+MsGvAvo3U3l60qRKDgcdyRRe
+=kPaA
 -----END PGP SIGNATURE-----
 
---===============9180994480800268982==--
+--===============8991551601331932799==--
