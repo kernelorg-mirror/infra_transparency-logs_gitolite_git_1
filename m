@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 13 Jul 2025 02:22:30 -0000
-Message-Id: <175237335019.2781720.4282461419685081353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Sun, 13 Jul 2025 04:53:00 -0000
+Message-Id: <175238238081.2899977.13616298139536631100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: 181230acf7d87253b8aaed6600a3ff8be7cc1a93
-    new: fdaf5384fe4882f88f777f17d7fa5723494fc77b
-    log: |
-         5ed2212c2d51948b99e2544407306b623dd97629 foo
-         90bb86ea41000cee1d9f8f481ad4652b38fd82de foo
-         b1192026a3d49b70645e2e12d297be588f4ad901 foo
-         fdaf5384fe4882f88f777f17d7fa5723494fc77b foo
-         
+  - ref: refs/tags/imx-drivers-6.17
+    old: 0000000000000000000000000000000000000000
+    new: 910ad71f7d23a5567f5db265d9ebcab2515ff0c6
