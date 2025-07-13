@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Sun, 13 Jul 2025 22:04:29 -0000
-Message-Id: <175244426936.3784891.17937142652179996081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Sun, 13 Jul 2025 22:19:30 -0000
+Message-Id: <175244517062.3797027.3265723887102268961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/rust-atomic-v7
-    old: 0a96301cf7d99504b08bc33a364f9b683c36dcc0
-    new: bed7f84e1081755f5932f6909478c67983795ff4
+  - ref: refs/heads/vsock
+    old: 074563a9b7c1ec197e0deebaf2e867eaab66a9a5
+    new: 8987693765a2078d46ced3460c5a085bcd3beea2
     log: |
-         a7336d851d7fc26563692c16e38a611be9717f47 rust: sync: atomic: Add generic atomics
-         008aa8909e97736857326b1c507cb97ced10c79f rust: sync: atomic: Add atomic {cmp,}xchg operations
-         67aa3e7c081a6be0306f87d777df7dec403108fe rust: sync: atomic: Add the framework of arithmetic operations
-         43d02f1795be7fff808ed8fc787331da9b8f4c8d rust: sync: atomic: Add Atomic<u{32,64}>
-         14a95852b19b6d4a60d513b91209346fe9e27bef rust: sync: Add memory barriers
-         32561874d4afe67617df805b43292edbb35f8e90 rust: sync: atomic: Add Atomic<{usize,isize}>
-         3e8c6558bcc2a74daf8afaed3f73935c533e7a82 WIP: rust: Add atomic pointer helper
-         c7747f4e6450ffcd9cf969784d4cfa028cf03a76 WIP: rust: sync: atomic: Wire up atomic_ptr_ helpers
-         bed7f84e1081755f5932f6909478c67983795ff4 WIP: rust: sync: atomic: Add Atomic<*mut T>
+         8c4c3d92ff961599365d7703b6eb6058f51445be vsock/virtio: Move length check to callers of virtio_vsock_skb_rx_put()
+         206dd1acab8feb16a5fce3e032db5e068dafc40d vsock/virtio: Resize receive buffers so that each SKB fits in a 4K page
+         937d5dc9066fa375ad6dd4619635e94d505befda vsock/virtio: Rename virtio_vsock_alloc_skb()
+         717fce010e046d918a813d94ac97af5c39e6c253 vsock/virtio: Move SKB allocation lower-bound check to callers
+         5a8b4f58f33577746e5f3e88a230ea9bce7ed0d0 vhost/vsock: Allocate nonlinear SKBs for handling large receive buffers
+         81945ea62b4c5590ae4e34160c17800c27f8b171 vsock/virtio: Rename virtio_vsock_skb_rx_put()
+         8987693765a2078d46ced3460c5a085bcd3beea2 vsock/virtio: Allocate nonlinear SKBs for handling large transmit buffers
          
