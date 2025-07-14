@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9149434502848984574=="
+Content-Type: multipart/mixed; boundary="===============5720455180136595536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 14 Jul 2025 09:27:09 -0000
-Message-Id: <175248522941.211960.7897523760270541897@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 09:29:49 -0000
+Message-Id: <175248538913.213791.761591355416968102@gitolite.kernel.org>
 
---===============9149434502848984574==
+--===============5720455180136595536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: f0dae293c4a480e23c255ed26cd82fbaf31d6daa
-    new: d2be7196e183535fa946dd51b40f54f7345e1eed
+    old: d2be7196e183535fa946dd51b40f54f7345e1eed
+    new: 8eb1a78ba6122ba95d66ac7c15bf0f6c8c0b05b6
     log: |
-         d2be7196e183535fa946dd51b40f54f7345e1eed drop queue-6.15/erofs-fix-to-add-missing-tracepoint-in-erofs_readahead.patch
+         8eb1a78ba6122ba95d66ac7c15bf0f6c8c0b05b6 drop erofs patch from 6.12 and 6.6 as well
          
 
---===============9149434502848984574==
+--===============5720455180136595536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752485265 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752485427 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1752485223-f3169bcfcb6cc75686ec0702685729e36f33917b
+nonce 1752485386-2021f4c4ab7279c144b35b228605fee71ee4117c
 
-f0dae293c4a480e23c255ed26cd82fbaf31d6daa d2be7196e183535fa946dd51b40f54f7345e1eed refs/heads/master
+d2be7196e183535fa946dd51b40f54f7345e1eed 8eb1a78ba6122ba95d66ac7c15bf0f6c8c0b05b6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh0zZEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+98QP/isoicmx9qNsh0uwmJrL
-hwAGxp9NA/YBPveEwLNVypsHovhkMIozzby1rLrbjGAOEh7oUBZsA9QadCuZDvPx
-dV/IaEkKB9NASAAR0edQcox1ZySoe6Vo8+2CDBCpksePJnDuWjWw1O1G6UtYiHP0
-1rqAYYKZWvOTO4MaDjUYfPo9fUoLdS37Lj4ijROs1LpVQseotVpdjKSle+O8DEF0
-wdQroa4bMpZqxxMqKt0jMfNu8YxGwHAMX3O6W4aoOi7Cnr2QiiGRkC8jwXOzFsZV
-Rtnt9oQeiEzdqmDvoQAM63rJCMbELXOLk3HvXpPfNwCFfsSHFr/EhycQdMvzaAWs
-3iSQbvocmTgT+pcT9jllj/WulzRqCZfqw8BpPd+dIANeb8EYKsgnVISvXempWNFO
-ZFcWkDDRcPKfQrcXhgTMFGr5jL3pDUdZGmHj94T8zW2HNcdTrS9TYyRW6XTAfpO5
-mYZaq+yjPhaCETNOsQCDwnt2L37WpuNhFSOkud18B7p38m1EV2oY6aQR5Aq5AH/u
-mkM9XYL8bHzPOjqPEv/dUiqQ/TPvV8wzgyMbMvZILjFlruYrAYpyhiAjx9l7o/zj
-nUcZyuzR0+ciqpFH+WBR8QlFRn1D4GEkBFAqhqco8TRO0ISS1dFNp22Ad+4c4+2U
-IFr41XCIIpCss75DeAFc9Lb6
-=zKSv
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh0zjQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N1IP+wRMGrL5XggorzzIcD8h
+ffEWOXCtPGsEOF34XXtBx4S3kQcM2WLqHjsd/kvJKuTHDSth4jXl2G4Cexlzw0Sl
+Y1Viu8tVQKnNC7hA5Kkwi5V9h0iVfY847nUAHkbULf4SmPsBWvyVhy0qhPBwRm8f
+eE8bvUikysNgee9jknxD4J6nuuovaBv+/PvKs7S7yvy9MFD0a8/6BWqRZA8EsAvs
+Mf1BBKB7kQJqJCSWzoxESpn4ifs2hGDaMuUGPpQQyfFEH9pHYlbQco1jwaOGIg9/
+2eqD82cClJ+U+MuKX2yj3D5LsH1S/vOWS36o/ZVtJODdMCCH3yIse5R8ftay3GpU
+paEEC3B8KpKOsYBqnO2kf200Vq+t/lhQz7PLPyeQrFb67tCzdTSIyP1PXUOK2NVw
+bZ+BxvL1SHdVJJqSqekxpMwkAN09JEzooRJJ/U492SEHlv+tPHXAEqoxxI1ygASN
+uEo5I0uU/l7cEDaAPrY7aY52dgxKQFbjtCZ4Lq1kVmpYQLA7xSvc1FuHPzGh346N
+TK7yii0y/3IeCY+hkUfBazfzbpVUZ42oR1aTtwFSbBqf5nVDABUew4bce5b7RWUC
+hRGqQ1OYd69nNUWcC4JvwPLxrZiqx01Rpy+cHsMoNzRbj0zwk74kU+IZSEA8slPR
++sq4+BHcPCPlRxYZobgWFGqR
+=04i7
 -----END PGP SIGNATURE-----
 
---===============9149434502848984574==--
+--===============5720455180136595536==--
