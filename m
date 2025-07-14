@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Mon, 14 Jul 2025 19:40:26 -0000
-Message-Id: <175252202651.960131.6154737084540870888@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 19:44:11 -0000
+Message-Id: <175252225106.961919.11127824652907881533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,18 @@ repo: pub/scm/linux/kernel/git/boqun/linux
 user: boqun
 changes:
   - ref: refs/heads/rust-atomic-v8
-    old: d39a5bcd9e0e636b41b1219e2167f3b58d475ea1
-    new: 5b24ee54f94ccd19c137599c788cb85df13be53d
+    old: 5b24ee54f94ccd19c137599c788cb85df13be53d
+    new: 44f16b0a85631b2eee496d52235a9b4e91f95b64
     log: |
-         05cf35162fa5f07930e88c0773f7ab3106166e34 rust: sync: atomic: Add ordering annotation types
-         c19f85e57a9855853cfe2e20b1c8e1c268a20f0e rust: sync: atomic: Add generic atomics
-         fd7da26fd094ae5eee848cab72c06626b432c7c6 rust: sync: atomic: Add atomic {cmp,}xchg operations
-         29fa37041ce06e3e8f3f550a54fda3e6054c8cff rust: sync: atomic: Add the framework of arithmetic operations
-         6de80f33801217969454224cf0527a72a25f84ae rust: sync: atomic: Add Atomic<u{32,64}>
-         cedf0e30ee18b7749f3e01d4c6233bc173d72afa rust: sync: Add memory barriers
-         0f532cb23282bad06150a936e5c13d601fc3b126 rust: sync: atomic: Add Atomic<{usize,isize}>
-         73ccd98a1e616f3010e8ddbf08a699575d7c1c1c WIP: rust: Add atomic pointer helper
-         d0f60609f4442e1145f84659a7b867f118bcd3a3 WIP: rust: sync: atomic: Wire up atomic_ptr_ helpers
-         5b24ee54f94ccd19c137599c788cb85df13be53d WIP: rust: sync: atomic: Add Atomic<*mut T>
+         3c6a2cbfffdea6eaac92e6411277f12e9698186f rust: sync: Add basic atomic operation mapping framework
+         bad7b2a92bda3921be849bacb3c44a2866242780 rust: sync: atomic: Add ordering annotation types
+         055615060615692d80fc15bc1694a23fc12e9d4a rust: sync: atomic: Add generic atomics
+         d8c02f065f03101c8bd09b68460a1010e13852ce rust: sync: atomic: Add atomic {cmp,}xchg operations
+         13f98b6825c79546d4a292629f8b040407e9a662 rust: sync: atomic: Add the framework of arithmetic operations
+         2b3378a36e949f797c61ec106418fdda515192ab rust: sync: atomic: Add Atomic<u{32,64}>
+         1b69f3e0b43ffadd9f0b2192fddc5f826f3a007d rust: sync: Add memory barriers
+         9d2a7b14a7a06226aef21d6139f5cb4bd8228992 rust: sync: atomic: Add Atomic<{usize,isize}>
+         9e3522e77e29d6a4e0f0da4af7fec154ae52275f WIP: rust: Add atomic pointer helper
+         d3b01ed5879c190215a348c8b7d8e8adaf9aa0c9 WIP: rust: sync: atomic: Wire up atomic_ptr_ helpers
+         44f16b0a85631b2eee496d52235a9b4e91f95b64 WIP: rust: sync: atomic: Add Atomic<*mut T>
          
