@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Mon, 14 Jul 2025 21:34:42 -0000
-Message-Id: <175252888222.1061488.15078495376566508110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Mon, 14 Jul 2025 22:00:47 -0000
+Message-Id: <175253044763.1083766.1315251824223186859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/for-next
-    old: 32b2d3a57e26804ca96d82a222667ac0fa226cb7
-    new: 601b1d0d9395c711383452bd0d47037afbbb4bcf
+  - ref: refs/heads/rxrpc-fixes
+    old: 3cb96e9a0dc0dd1c9c480edb4cdcb57a5b6699f2
+    new: c8658ec7bdbb2e8758c636d253f8a43f257b0546
     log: |
-         5510bd89da24508f0e9ae04396e7eb6929ec0e18 iommufd: Do not allow _iommufd_object_alloc_ucmd if abort op is set
-         601b1d0d9395c711383452bd0d47037afbbb4bcf iommu/tegra241-cmdqv: import IOMMUFD module namespace
+         fcf77415870cc5c59faeafc6e8d5ec6db004b367 rxrpc: Fix transmission of an abort in response to an abort
+         c8658ec7bdbb2e8758c636d253f8a43f257b0546 rxrpc: Add a tracepoint for interesting rxrpc_sock events
          
