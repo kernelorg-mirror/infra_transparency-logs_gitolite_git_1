@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1361782564681738220=="
+Content-Type: multipart/mixed; boundary="===============5518948821583720641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 14 Jul 2025 16:12:43 -0000
-Message-Id: <175250956308.776557.3404240455343982890@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 16:12:57 -0000
+Message-Id: <175250957762.776877.9099985240605837253@gitolite.kernel.org>
 
---===============1361782564681738220==
+--===============5518948821583720641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 91aa7bacd621647807057804dd181f42f5442321
-    new: a0923cfb360863d0ae370f57eed5aabce1731710
-    log: revlist-91aa7bacd621-a0923cfb3608.txt
+  - ref: refs/heads/1GbE
+    old: e090f978054e1cfcd970234589168fcbcba33976
+    new: b06c4311711c57c5e558bd29824b08f0a6e2a155
+    log: revlist-e090f978054e-b06c4311711c.txt
 
---===============1361782564681738220==
+--===============5518948821583720641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91aa7bacd621-a0923cfb3608.txt
+Content-Disposition: attachment; filename=revlist-e090f978054e-b06c4311711c.txt
 
 2b05db6b8a10df423d5478b20cadb1e190fa136f batman-adv: Start new development cycle
 7dc284702bcd065a822a4c0bdbca09a08de5a654 batman-adv: store hard_iface as iflink private data
@@ -584,32 +584,5 @@ a52f9f0d77f20efc285908a28b5697603b6597c7 Merge tag 'batadv-next-pullrequest-2025
 8c2e602225f0a96f2c5c65de8ab06e304081e542 tools: ynl: process unknown for enum values
 9eb73f92a0b003f2fb9091085c51a4a4554c887d net: dsa: mt7530: Constify struct regmap_config
 b06c4311711c57c5e558bd29824b08f0a6e2a155 tools: ynl: default to --process-unknown in installed mode
-918907ca78746c9cc6640b78bd961cee56192b8b coccinelle: misc: secs_to_jiffies script: Create dummy report
-0511c05e938b1bbed618b45aaf3ef412d9f78c2e ice: fix lane number calculation
-654958882415b478337bdc3db91421ca7b0931cf ice: Allow 100M speed for E825C SGMII device
-db7e8a1101212f92444f694e2627f8c7b6b5dba0 ice: Remove casts on void pointers in LAG
-30aa984262d642aef380b228b79640548b327a43 ice: replace u8 elements with bool where
-ab2be88d3d87d267568b8e4e1666b27589b43bb3 ice: Add driver specific prefix to LAG
-9fe5dbc7298dfd443824bed42f5567d9502f1f89 ice: move LAG function in code to prepare for
-7f4ba8b8731b51fa28f1907805fc5f1d17af083d ice: Cleanup variable initialization in LAG
-60c1dfbcb0e329debe7ea83ac6ec0a64eade9d86 ice: cleanup capabilities evaluation
-6f7f8103bf8911b75f268f47933d0264bf6fb6fe ice: breakout common LAG code into helpers
-94901b585f2d3e6a92a078fce5c0bc78afe72d19 ice: Implement support for SRIOV VFs across
-7e5b3214b3be10f680ea1f4c1d03852af34d8cbc idpf: fix Rx descriptor ready check barrier in splitq
-ae0273fb2f1270c4e144e34e9b4654be059908b0 idpf: use a saner limit for default number of queues to allocate
-5a2db2066c9177cf0e7da1a49c6ddf497236beaa idpf: link NAPIs to queues
-81959465bd645562e1df33c3f109938ccbc35e73 idpf: add 4-byte completion descriptor definition
-5eb6cc57a6d9f3b0dfd7822e870067a3a7148d1e idpf: remove SW marker handling from NAPI
-201c63c8e0158e131aeb608723091513013e7e8c idpf: add support for nointerrupt queues
-932154f42ba02ec95b40a0ec41bc0b9898236291 idpf: prepare structures to support XDP
-7de6d8923f4bc97a5e0cbbbceced5c3087db5cef idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
-477d71accef3a1c5f02d63c42280ce933b184ae6 idpf: use generic functions to build xdp_buff and skb
-bf9db9d34bf46ac59fdb0d7048731b891074e9d9 idpf: add support for XDP on Rx
-0d89b45f38a129eeeb4dc5a8288f6e8213d0ca94 idpf: add support for .ndo_xdp_xmit()
-d8d71e39c1b305d75d8ddeeb25e81f023765c30b idpf: add XDP RSS hash hint
-62e92335fba604db95782210ca8d42dc9bc0a9d2 virtchnl2: rename enum virtchnl2_cap_rss
-d0320d4cb8f1ef6f3c13e6b2f9ec6ffbc99f0647 virtchnl2: add flow steering support
-4f3c2413914da5f74e8124eb61daefc24a47e4a0 idpf: add flow steering support
-a0923cfb360863d0ae370f57eed5aabce1731710 ice, libie: move generic adminq descriptors to lib
 
---===============1361782564681738220==--
+--===============5518948821583720641==--
