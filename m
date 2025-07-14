@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8050935825805833960=="
+Content-Type: multipart/mixed; boundary="===============5978429436617158157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 14 Jul 2025 16:11:42 -0000
-Message-Id: <175250950216.775083.4691180227377669793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Jul 2025 16:11:45 -0000
+Message-Id: <175250950511.775190.8107837254200234598@gitolite.kernel.org>
 
---===============8050935825805833960==
+--===============5978429436617158157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 04a8ff1bc3514808481ddebd454342ad902a3f60
     new: 710505212e3272396394f8cf78e3ddfd05df3f22
     log: revlist-04a8ff1bc351-710505212e32.txt
 
---===============8050935825805833960==
+--===============5978429436617158157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1752509541 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1752509498-cd22ecbccfb76364d912e4e019b49462e9d1417e
+pusher C3F436CA30F5D8EB 1752509544 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1752509503-bbc81c987d4d25b8d98a74a6b0c2bd9cd35a9191
 
-04a8ff1bc3514808481ddebd454342ad902a3f60 710505212e3272396394f8cf78e3ddfd05df3f22 refs/heads/for-6.16
+04a8ff1bc3514808481ddebd454342ad902a3f60 710505212e3272396394f8cf78e3ddfd05df3f22 refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh1LGUACgkQJNaLcl1U
-h9CEnQf/ewa0w1el9Lgv7uzbJ9h13IxX3cxJRzjlIhCMlYagR0iY2OuFqGlQOk6B
-Fy2OsnFFR4E4QWDjoamCfZhLb/sxMoCpWag0YEJzVOdOMLSv5af+mX+Z9W0JEFog
-cJWm3x3KoIU+k7hLCjeZ4Lb87zz1Gl3KPDeRZ1J5QOC9Yc5yPaxR0VtgPnaig0pf
-ykVj+qNWcCfBtsLGY9hYAZjogRnHGr5pEiqXFPbmKozwYkAMGxGVg+xsht08OIte
-J9Nz6MIwCCiQJjS7OKI6aqu7S0x0TqGQDGan9eChpK0zuPECenAVQcwtEUZ9WJv7
-hULFyaaDN+T3K1heTtSIdbIwduJtBw==
-=uoX6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh1LGgACgkQJNaLcl1U
+h9Ah7QgAhBLMeY0EvqRZghxiqdCYhtytEhLXDrMAm31sdUmDFE/4K1bz7m1Y3RGE
+vIYbcXpQZD6RJwM+xjS6pY7MII+gr0DKJDTJKYpZFJP4eZC0ty5rQ/alqD9+YKA9
+EeW55Ozv6pl5n77GWCHPZw2MM8zVNVf0zJn0VmcqSa4uxv2YeddrlqBs+u59VmK1
+pLozRxr9rO816/pmZlTqlbZ58ajePQEfA70n5C3uEN0SQeuVKrYEHeAau9sWF6Dm
+l8O6RlcfVQpsmsYo6rSBovpbkh8Mu87Y8P8S8mEoTfyrlOqPNHJbU7ENY8hrapsi
+ZadWNqIXUvFmJ/eLWyR8Z/jABPE60Q==
+=O3AN
 -----END PGP SIGNATURE-----
 
---===============8050935825805833960==
+--===============5978429436617158157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -398,4 +398,4 @@ bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.ker
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
 710505212e3272396394f8cf78e3ddfd05df3f22 spi: Add check for 8-bit transfer with 8 IO mode support
 
---===============8050935825805833960==--
+--===============5978429436617158157==--
