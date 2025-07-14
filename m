@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6267742726110360167=="
+Content-Type: multipart/mixed; boundary="===============1618953327224817660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 14 Jul 2025 16:06:51 -0000
-Message-Id: <175250921119.768641.1799962913039801610@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 16:07:01 -0000
+Message-Id: <175250922137.768904.7251706612091786752@gitolite.kernel.org>
 
---===============6267742726110360167==
+--===============1618953327224817660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-conversions
-    old: 570be3cc92af8da412ff76d9ce6fa4eb88c43d20
-    new: 85f11cf3ed8848749bbe661da02d10bf49b010dc
-    log: revlist-570be3cc92af-85f11cf3ed88.txt
+  - ref: refs/heads/libcrypto-tests
+    old: 9d38bb6e3ba75c8d2afa183549772f5ff05c22c0
+    new: b3c7973f4aab77088262197db6b0a8126e6890f5
+    log: revlist-9d38bb6e3ba7-b3c7973f4aab.txt
 
---===============6267742726110360167==
+--===============1618953327224817660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-570be3cc92af-85f11cf3ed88.txt
+Content-Disposition: attachment; filename=revlist-9d38bb6e3ba7-b3c7973f4aab.txt
 
 6e07c5e166597de1d7943ecf2539cad18c0e2ce1 lib/crypto: arm/poly1305: Remove unneeded empty weak function
 7941ad696506917fa6228f44be2df0c2f0909a62 lib/crypto: sha2: Add hmac_sha*_init_usingrawkey()
@@ -42,8 +42,10 @@ b10a74abcfc5c61afc63a567c457038be57eeb6e crypto: sha1 - Use same state format as
 26f9f318a684582d189e8837968b47f609f95e7d lib/crypto: sparc/sha1: Migrate optimized code into library
 58a60f3d3a9b1e086988251ea578272007a3fecd lib/crypto: x86/sha1: Migrate optimized code into library
 a8511e2396c687180a7a56b319bb22169c21817b crypto: sha1 - Remove sha1_base.h
-19d952e27f1225bc668cb19fe773d9ea2b41faf7 apparmor: use SHA-256 library API instead of crypto_shash API
-8f1f47437221e7f8898ec94de550925ddcb0d376 fsverity: Explicitly include <linux/export.h>
-85f11cf3ed8848749bbe661da02d10bf49b010dc fsverity: Switch from crypto_shash to SHA-2 library
+ebbd320279f0ac27e7f9303bb1fa072a2e17e622 lib/crypto: tests: Add hash-test-template.h and gen-hash-testvecs.py
+6c6ace5cfee1ed07c78c6799189848879e6f647a lib/crypto: tests: Add KUnit tests for SHA-224 and SHA-256
+c2986624e7663c96745ccbf270a81144d6747c00 lib/crypto: tests: Add KUnit tests for SHA-384 and SHA-512
+0babb26230d2d7cead30595c3d4e4bba2a861d04 lib/crypto: tests: Add KUnit tests for Poly1305
+b3c7973f4aab77088262197db6b0a8126e6890f5 lib/crypto: tests: Add KUnit tests for SHA-1 and HMAC-SHA1
 
---===============6267742726110360167==--
+--===============1618953327224817660==--
