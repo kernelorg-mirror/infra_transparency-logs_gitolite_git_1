@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 14 Jul 2025 06:38:53 -0000
-Message-Id: <175247513329.14269.408072386556098695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 14 Jul 2025 07:01:00 -0000
+Message-Id: <175247646069.33631.13696460871252109885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/tags/mlx5-next-2025-14-07
-    old: 0000000000000000000000000000000000000000
-    new: cd1746cb6555a2238c4aae9f9d60b637a61bf177
+  - ref: refs/heads/master
+    old: a90b2a1aaacbcf0f91d7e4868ad6c51c5dee814b
+    new: 28712d6ed32028b0f2e0defe6681411496971ca3
+    log: |
+         b441cf3f8c4b8576639d20c8eb4aa32917602ecd xfrm: delete x->tunnel as we delete x
+         2a198bbec6913ae1c90ec963750003c6213668c7 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+         28712d6ed32028b0f2e0defe6681411496971ca3 Merge branch 'ipsec: fix splat due to ipcomp fallback tunnel'
+         
