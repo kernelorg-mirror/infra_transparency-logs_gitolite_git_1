@@ -1,44 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8501343991215923875=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 14 Jul 2025 05:14:42 -0000
-Message-Id: <175247008264.4137889.15683749426253163146@gitolite.kernel.org>
-
---===============8501343991215923875==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Mon, 14 Jul 2025 05:16:15 -0000
+Message-Id: <175247017579.4140487.4965262319122742276@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: a12a23720c135a299ed914adf623387c7404e014
-    new: b4aff7ed7a4c1360e8b29d545c7bc9e05af1a995
-    log: revlist-a12a23720c13-b4aff7ed7a4c.txt
-
---===============8501343991215923875==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a12a23720c13-b4aff7ed7a4c.txt
-
-4a6cdecaa1497f1fbbd1d5307a225b6ca5a62a90 perf tests bp_account: Fix leaked file descriptor
-28f5aa8184c9c9b8eab35fa3884c416fe75e88e4 perf hwmon_pmu: Avoid shortening hwmon PMU name
-679c098cd2db458b1899e4410150d41a550ec6d6 perf parse-events: Minor tidy up of event_type helper
-bcc7693ad100ef9c778621edee2295b8c02f2271 perf spark: Fix includes and add SPDX
-8c75dc742089c702cab6d0f21be80c5ddd3c6067 perf pmu: Tolerate failure to read the type for wellknown PMUs
-cb336b6aaeb44be281df9a03684ddeadd3afab60 perf metricgroup: Factor out for-each function and move out printing
-faebee18d720d9e209946ece3e468c06cf13f5ec perf stat: Move metric list from config to evlist
-3787cdaf387cdc14a9a000624742b4ee0a509244 perf expr: Accumulate rather than replace in the context counts
-5c255832deaf34d74c0adf2200eb50a8bba0fc00 perf jevents: If the long_desc and desc are identical then drop the long_desc
-7d5b635d9f4314c93bc1f9828f5d757decb860bc perf python: In str(evsel) use the evsel__pmu_name helper
-64ec9b997f3a9462901a404ad60f452f76dd2d6e perf python: Fix thread check in pyrf_evsel__read
-6183afcba9c1c810656ddb36170106aaf3cf778c perf python: Correct pyrf_evsel__read for tool PMUs
-421c5f39adcdf292ca5c7162f40ed6d120d136a8 perf python: Improve leader copying from evlist
-b4aff7ed7a4c1360e8b29d545c7bc9e05af1a995 perf python: Set index error for invalid thread/cpu map items
-
---===============8501343991215923875==--
+  - ref: refs/heads/rust-atomic-v7
+    old: 9a12f74f4df01ef5bf9a3ab593bfadb76b82005a
+    new: d351df188ddf4cc012692a0e179b24b8f492fb03
+    log: |
+         56cfaceb37548dc6a4bf7f62e93d267ee4893b51 rust: sync: atomic: Add ordering annotation types
+         8375909c7265fbd18d6bdcf9d9c04feac5267862 rust: sync: atomic: Add generic atomics
+         25aa8cb6ef49a0ca00db70d3b21e749a81b64a1c rust: sync: atomic: Add atomic {cmp,}xchg operations
+         a0b1f539d5e4685d2b68667c3c1398648582e701 rust: sync: atomic: Add the framework of arithmetic operations
+         d2a1c91bece34dc2667c3c5de7ffe3d8f3c2df1d rust: sync: atomic: Add Atomic<u{32,64}>
+         a707d41b275cf854f3ee4f6f68bf208e5f30a806 rust: sync: Add memory barriers
+         c73e4a51132517e682da6665379543a7a3c61e84 rust: sync: atomic: Add Atomic<{usize,isize}>
+         c5b375fdccf631411c9ba0279e3a7c02e2603e93 WIP: rust: Add atomic pointer helper
+         d3fdbebee333ee32d30697869f878c10dc963b59 WIP: rust: sync: atomic: Wire up atomic_ptr_ helpers
+         d351df188ddf4cc012692a0e179b24b8f492fb03 WIP: rust: sync: atomic: Add Atomic<*mut T>
+         
