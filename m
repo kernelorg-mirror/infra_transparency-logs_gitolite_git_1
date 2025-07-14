@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 14 Jul 2025 08:32:56 -0000
-Message-Id: <175248197612.112939.2561788937004867355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Mon, 14 Jul 2025 08:37:51 -0000
+Message-Id: <175248227196.117303.16241936579709716463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/fixes
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 9ab29ed505557bd106e292184fa4917955eb8e6e
+  - ref: refs/heads/main
+    old: 9cabae6b0351dff7eb634ebcdcabf06a276c1222
+    new: 52f07dcca47cb88aec51b85663f95f46b7e41457
     log: |
-         9ab29ed505557bd106e292184fa4917955eb8e6e gpiolib: acpi: Add a quirk for Acer Nitro V15
+         52f07dcca47cb88aec51b85663f95f46b7e41457 dtc: Add informative error for stray identifier
+         
+  - ref: refs/heads/master
+    old: 9cabae6b0351dff7eb634ebcdcabf06a276c1222
+    new: 52f07dcca47cb88aec51b85663f95f46b7e41457
+    log: |
+         52f07dcca47cb88aec51b85663f95f46b7e41457 dtc: Add informative error for stray identifier
          
