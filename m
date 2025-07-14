@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 14 Jul 2025 07:19:37 -0000
-Message-Id: <175247757752.49448.2812756605903739902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 14 Jul 2025 07:21:59 -0000
+Message-Id: <175247771982.52307.11416619428199821233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/kvm-arm64/nv-userspace-visibility
-    old: d1e5f32ed0a25680988b6638808f068155237106
-    new: 566a36f6b235a9f2d14d02f72b5f70f4dd4fcc0f
+  - ref: refs/heads/sunxi/for-next
+    old: 694575b9321bf4cb7fb73851cf155a790386a069
+    new: 79ed31fc578a6d6a1355e925b61e9649a5af1533
     log: |
-         e95e901c71290d853494fe0eea5874c3bb4d5d6a KVM: arm64: Don't advertise ICH_*_EL2 registers through GET_ONE_REG
-         b89897e97b2cf7234158447efcdf4105c1e2b88e KVM: arm64: Define constant value for ICC_SRE_EL2
-         d4884fdb0ed93885fb891988c3396692bb9c3375 KVM: arm64: Define helper for ICH_VTR_EL2
-         829d77ac42153f511c39da0a271032c925e41856 KVM: arm64: Let GICv3 save/restore honor visibility attribute
-         1d98c686633d3c083ea3e8c4921fb170ffd5220b KVM: arm64: Expose GICv3 EL2 registers via KVM_DEV_ARM_VGIC_GRP_CPU_SYSREGS
-         537f6e7b097df1db1a410b3083b347fb31698f8d KVM: arm64: Condition FGT registers on feature availability
-         572768ec9578fb38a27f12a649791dffcc704ac6 KVM: arm64: Advertise FGT2 registers to userspace
-         ebfeadb3a0ad02481eb48649598f2cb5e3749776 KVM: arm64: selftests: get-reg-list: Simplify feature dependency
-         566a36f6b235a9f2d14d02f72b5f70f4dd4fcc0f KVM: arm64: selftests: get-reg-list: Add base EL2 registers
+         e8ab346f9907a1a3aa2f0e5decf849925c06ae2e clk: sunxi-ng: v3s: Fix de clock definition
+         ea879ce83d360aa13acd54cf6af913885b69ed44 clk: sunxi-ng: v3s: Assign the de and tcon clocks to the video pll
+         ee9c15ca0f628435334afef74d2ff03112d80bf0 clk: sunxi-ng: ccu_gate: convert from round_rate() to determine_rate()
+         2b0d4f1b3f8524b413208d47099c445eaf7c18f5 clk: sunxi-ng: ccu_nk: convert from round_rate() to determine_rate()
+         8bc614c6ac3c97cef385aebc6520ddcfa0fca8f7 clk: sunxi-ng: ccu_nkmp: convert from round_rate() to determine_rate()
+         80395c3b47577c12121d4e408e7b9478f7f88d02 clk: sunxi-ng: ccu_nm: convert from round_rate() to determine_rate()
+         79ed31fc578a6d6a1355e925b61e9649a5af1533 Merge branch 'sunxi/clk-for-6.17' into sunxi/for-next
          
