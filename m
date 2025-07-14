@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0218873793968061663=="
+Content-Type: multipart/mixed; boundary="===============0956550231081587384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 14 Jul 2025 08:51:15 -0000
-Message-Id: <175248307509.179691.18156834075996592564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 14 Jul 2025 08:59:14 -0000
+Message-Id: <175248355426.184964.5417666788638164518@gitolite.kernel.org>
 
---===============0218873793968061663==
+--===============0956550231081587384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/main
-    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    new: 347e9f5043c89695b01e66b3ed111755afcf1911
-    log: revlist-d0b3b7b22dfa-347e9f5043c8.txt
+  - ref: refs/heads/sched/urgent
+    old: fc975cfb36393db1db517fbbe366e550bcdcff14
+    new: 36569780b0d64de283f9d6c2195fd1a43e221ee8
+    log: revlist-fc975cfb3639-36569780b0d6.txt
 
---===============0218873793968061663==
+--===============0956550231081587384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752483114 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1752483073-1cb534aa4d76470faf4083a6dfef8b2d36125c14
-
-d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af 347e9f5043c89695b01e66b3ed111755afcf1911 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh0xSobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SfcP/AyB0BBsGFFkwfq5HPko
-zccM47grLChwJ0iChHItAmOtXPIuDfL4NnJw0kIykMWgbEqIkKO3EbHlu9f4DrIV
-h3pJmehN5sGuR+uR6UayMClLuwxKhsdtnTUfn9oKk/bpUggEwD12n8Caxspqvl7b
-o4n5xB3uK6076JCZEfP3O2wDyA6X8BJjQYhrPLE2QCHnXHRZo6U42LOI9bM6ksN+
-KD6OMQHwV3RaogxsDuoVZUxhIPqfH22+d4qLSJCM0E+fmkyOTlo2qCTLqMLc8oAx
-p8rlCLmXI1E/qWgqP3woHOMam1arQOF68a1zQMR5ruyB8b3Q7tlRL8i9RBM8+PfV
-9atZVL0dqkRQmg79rLmTpANp5h3sZWiFIP+BnZheDLVl4XYurVLvPxN/lhcggX7X
-CMF6IH+euiHlmvwPNtreUisTHXJDGXaNHlIaU6lTuP3jxtwal4g3w9PJxhvcLsWm
-9TUvSTcGZehLV/5VWooDywvyyTZC+xfoKzIlhK0luYu7f9pN+ruPIFaDM01RmGT4
-Hvff+x4Mnqrsdy5FubE6+RIX1pkDB/qNRkj4c0iJYbFVNMjryQVLZuy8nQoIzVg6
-VuOG0Gif573+38icx3QMTpZoZrGhI0XvyXSJUD2QqlNHhdPOixWQQnNk2jq3sZYy
-jCmXmsQRfuiKoEDu1KkNoUMh
-=1FHH
------END PGP SIGNATURE-----
-
---===============0218873793968061663==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0b3b7b22dfa-347e9f5043c8.txt
+Content-Disposition: attachment; filename=revlist-fc975cfb3639-36569780b0d6.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -313,8 +282,6 @@ e39ed71c7a26e8e94c637e222bc373b511ca127f net: txgbe: fix the issue of TX failure
 a5aa7bc1fca78c7fa127d9e33aa94a0c9066c1d6 drm/i915/gt: Fix timeline left held on VMA alloc error
 8cadce97bf264ed478669c6f32d5603b34608335 drm/i915/gsc: mei interrupt top half should be in irq disabled context
 d6811074203b13f715ce2480ac64c5b1c773f2a5 nvme-multipath: fix suspicious RCU usage warning
-3ebb1b6522392f64902b4e96954e35927354aa27 sched: Fix preemption string of preempt_dynamic_none
-009836b4fa52f92cba33618e773b1094affa8cd2 sched/core: Fix migrate_swap() vs. hotplug
 ccdd09e0fc0d5ce6dfc8360f0c88da9a5045b6ea objtool: Add missing endian conversion to read_annotate()
 9a57c3773152a3ff2c35cc8325e088d011c9f83b futex: Temporary disable FUTEX_PRIVATE_HASH
 04a8ff1bc3514808481ddebd454342ad902a3f60 spi: cadence-quadspi: fix cleanup of rx_chan on failure paths
@@ -436,7 +403,6 @@ b969f9614885c20f903e1d1f9445611daf161d6d fix proc_sys_compare() handling of in-l
 30e0fd3c0273dc106320081793793a424f1f1950 gpiolib: fix performance regression when using gpio_chip_get_multiple()
 5285b5ed04ab6ad40f7b654eefbccd6ae8cbf415 pinctrl: aw9523: fix can_sleep flag for GPIO chip
 25b1b75bbaf96331750fb01302825069657b2ff8 iommu/vt-d: Assign devtlb cache tag on ATS enablement
-fc975cfb36393db1db517fbbe366e550bcdcff14 sched/deadline: Fix dl_server runtime calculation formula
 44306a684cd1699b8562a54945ddc43e2abc9eab drm/tegra: nvdec: Fix dma_alloc_coherent error check
 b9fd9888a5654e59f6c6249337e36c53c1faa329 bnxt_en: eliminate the compile warning in bnxt_request_irq due to CONFIG_RFS_ACCEL
 ef8923e6c051a98164c2889db943df9695a39888 arm64: efi: Fix KASAN false positive for EFI runtime stack
@@ -689,5 +655,6 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 5d5d62298b8b5017d6677af28e021f7ad13f7a62 Merge tag 'x86_urgent_for_v6.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cd752194e2ec2573d0e740f4a1edbfcc28257f5 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
+36569780b0d64de283f9d6c2195fd1a43e221ee8 sched: Change nr_uninterruptible type to unsigned long
 
---===============0218873793968061663==--
+--===============0956550231081587384==--
