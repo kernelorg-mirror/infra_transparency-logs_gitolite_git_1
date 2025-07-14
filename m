@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 14 Jul 2025 20:04:56 -0000
-Message-Id: <175252349685.983209.4754480643578559456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 14 Jul 2025 20:09:56 -0000
+Message-Id: <175252379672.987678.16740381767992722382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/kdevops
-    old: 7017c04cb44269f3645544e861e09ce13c1a1639
-    new: 69e7e5a8270419c08a58e34e19aeb51641e21e36
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 975b02f641edd2a20e6de8f092b6f5caabd9f09e
+    new: dd74564e2cb14565a06a11a674936f954c85a6a2
     log: |
-         69e7e5a8270419c08a58e34e19aeb51641e21e36 nfsd: don't set the ctime on delegated timestamp updates
+         dd74564e2cb14565a06a11a674936f954c85a6a2 i2c: tegra: Fix reset error handling with ACPI
          
