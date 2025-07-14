@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6968273578958014860=="
+Content-Type: multipart/mixed; boundary="===============7113954041850545390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 14 Jul 2025 15:50:37 -0000
-Message-Id: <175250823786.752394.12405012006278166291@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 15:50:47 -0000
+Message-Id: <175250824771.752735.16873007384667039536@gitolite.kernel.org>
 
---===============6968273578958014860==
+--===============7113954041850545390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bc9ff192a6c940d9a26e21a0a82f2667067aaf5f
-    new: b640daa2822a39ff76e70200cb2b7b892b896dce
-    log: revlist-bc9ff192a6c9-b640daa2822a.txt
+  - ref: refs/heads/dev-queue
+    old: 2b9420489bdf0f46f9f43c70050c97f074e1dd9e
+    new: 05c4514ebbefaafc73f56893fd1b0fcda82b6ca6
+    log: revlist-2b9420489bdf-05c4514ebbef.txt
 
---===============6968273578958014860==
+--===============7113954041850545390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc9ff192a6c9-b640daa2822a.txt
+Content-Disposition: attachment; filename=revlist-2b9420489bdf-05c4514ebbef.txt
 
 aa807b9f22df2eee28593cbbabba0f93f4aa26c1 dma-contiguous: hornor the cma address limit setup by user
 1fe44a86ff0ff483aa1f1332f2b08f431fa51ce8 wifi: cfg80211: fix S1G beacon head validation in nl80211
@@ -92,5 +92,21 @@ c1ba3c0cbdb5e53a8ec5d708e99cd4c497028a13 af_packet: fix the SO_SNDTIMEO constrai
 55f0bfc0370539213202f4ce1a07615327ac4713 af_packet: fix soft lockup issue caused by tpacket_snd()
 a059ef8e888941d6c2dc3e94f5f7c98db232ea5d Merge branch 'tpacket_snd-bugs' into main
 b640daa2822a39ff76e70200cb2b7b892b896dce rpl: Fix use-after-free in rpl_do_srh_inline().
+f482738e3b0a3cbbee18fb32f84ef936113e2c10 coccinelle: misc: secs_to_jiffies script: Create dummy report
+91eb58a86cfdbb86cbacc6bbfb4833827da7f710 ice: fix lane number calculation
+611320a3d9d5fc4e5890abf401e4a350cc3ac427 ice: fix fwlog after driver reinit
+d069d5ad9d6a32baa4670556d57b6d9ec287859b ice: add NULL check in eswitch lag check
+259c382bde125561ecc523a12067016f990067d4 ixgbe: initialize aci lock before it's used
+e6a4a501bd65535dcd32b4ab419ac3f07155d8a3 i40e: report VF tx_dropped with tx_errors instead of tx_discards
+362973049a2a81dccd055f9e9fea6774ade7e3a4 ethernet: intel: fix building with large NR_CPUS
+1846cb987ac99bb7b17152654b34c37b6d7771d2 ice: check correct pointer in fwlog debugfs
+6b9417f5dd2fa9b3ab98b45c2dcdd72eaf9fa024 i40e: When removing VF MAC filters, only check PF-set MAC
+a296088759196bd748633179cdad3624e5eec17b ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
+92a2ce145a3d4900799010866ea844a13fa5dca7 ice: fix possible leak in ice_plug_aux_dev() error path
+587cd679a3c64c7c6fb51b7f4ad791f403d9d4b7 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
+89824d9c9d625a39c847ed95bae47cf66205847d e1000e: ignore uninitialized checksum word on tgp
+a2716073856c48f6892f4214e709ec449bfbf339 ice: Fix a null pointer dereference in ice_copy_and_init_pkg()
+ef5158e39b115266852099156d1131ad7d8908d7 devlink: allow driver to freely name interfaces
+05c4514ebbefaafc73f56893fd1b0fcda82b6ca6 ixgbe: prevent from unwanted interface name changes
 
---===============6968273578958014860==--
+--===============7113954041850545390==--
