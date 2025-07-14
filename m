@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8953334150992977575=="
+Content-Type: multipart/mixed; boundary="===============7402063787337031372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 14 Jul 2025 11:03:45 -0000
-Message-Id: <175249102589.331320.5707850197241090444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 14 Jul 2025 11:04:14 -0000
+Message-Id: <175249105466.331702.9917020340437817012@gitolite.kernel.org>
 
---===============8953334150992977575==
+--===============7402063787337031372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: a579e91b6fd2ad3de31a8df49b10f92b0bd40d6d
-    new: c3bc361393b289df3499f5a87276367c71fae7c6
-    log: revlist-a579e91b6fd2-c3bc361393b2.txt
+  - ref: refs/heads/extcon-next
+    old: 195609a5d81104df12f3cc605978368f60d5add2
+    new: 7d1f533973318274b1b9a67603dfc2b79a6cc3cb
+    log: revlist-195609a5d811-7d1f53397331.txt
 
---===============8953334150992977575==
+--===============7402063787337031372==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a579e91b6fd2-c3bc361393b2.txt
+Content-Disposition: attachment; filename=revlist-195609a5d811-7d1f53397331.txt
 
-30b58444807c93bffeaba7d776110f2a909d2f9a erofs: remove unused trace event erofs_destroy_inode
-e7417421d89358da071fd2930f91e67c7128fbff wifi: ath6kl: remove WARN on bad firmware input
 05ced11a508af932c15bf549add04584cb989dc9 Merge tag 'ath-current-20250617' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
 db5957ab85204a02093ac5ab2d0bbfe253955b71 wifi: iwlwifi: restore missing initialization of async_handlers_list (again)
 d5352b491a3a2628f1a798952a4ae76bde5d42e4 wifi: iwlwifi: cfg: Limit cb_size to valid range
@@ -1044,11 +1042,13 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 5d5d62298b8b5017d6677af28e021f7ad13f7a62 Merge tag 'x86_urgent_for_v6.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cd752194e2ec2573d0e740f4a1edbfcc28257f5 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
-914cc799b28f17d369d5b4db3b941957d18157e8 PM / devfreq: governor: Replace sscanf() with kstrtoul() in set_freq_store()
-5487f2595bc821348848b0708f42df825d856f9e PM / devfreq: Limit max_freq with scaling_min_freq
-a98d36802f677d90333cc431e23f13cd53608a96 PM / devfreq: Remove redundant devfreq_get_freq_range() calling in devfreq_add_device()
-bab7834c03820eb11269bc48f07c3800192460d2 PM / devfreq: Check governor before using governor->name
-78c5845fbbf6aaeb9959c5fbaee5cc53ef5f38c2 PM / devfreq: Fix a index typo in trans_stat
-c3bc361393b289df3499f5a87276367c71fae7c6 PM / devfreq: sun8i-a33-mbus: Simplify by using more devm functions
+2c7b79301694ec1863fba3e1141493a78b4ab852 extcon: adc-jack: Fix wakeup source leaks on device unbind
+2e1b540361f7734697ec2a0a0fd45f89f23ee3c0 extcon: axp288: Fix wakeup source leaks on device unbind
+8016c4fa2ec7b5cf5e7764634a9285d4807aa05b extcon: fsa9480: Fix wakeup source leaks on device unbind
+03f178b881ae1fc24aabccc0a46bb1ccb684811c extcon: qcom-spmi-misc: Fix wakeup source leaks on device unbind
+30655dbfd4bc5134707b5c16b3ebeaa4281e127d extcon: adc-jack: Cleanup wakeup source only if it was enabled
+7b4680ba04d6f3795f8459f2128a8adb43a43a62 dt-bindings: extcon: Document Maxim MAX14526 MUIC
+37aecfb05338e6dc99498e1ecf1e7a48342e597f extcon: Add basic support for Maxim MAX14526 MUIC
+7d1f533973318274b1b9a67603dfc2b79a6cc3cb extcon: max14526: avoid defined but not used warning
 
---===============8953334150992977575==--
+--===============7402063787337031372==--
