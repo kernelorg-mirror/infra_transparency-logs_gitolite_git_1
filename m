@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5518948821583720641=="
+Content-Type: multipart/mixed; boundary="===============5164022891105307807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 14 Jul 2025 16:12:57 -0000
-Message-Id: <175250957762.776877.9099985240605837253@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 16:13:00 -0000
+Message-Id: <175250958092.776982.1500447131263508258@gitolite.kernel.org>
 
---===============5518948821583720641==
+--===============5164022891105307807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e090f978054e1cfcd970234589168fcbcba33976
     new: b06c4311711c57c5e558bd29824b08f0a6e2a155
     log: revlist-e090f978054e-b06c4311711c.txt
 
---===============5518948821583720641==
+--===============5164022891105307807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -585,4 +585,4 @@ a52f9f0d77f20efc285908a28b5697603b6597c7 Merge tag 'batadv-next-pullrequest-2025
 9eb73f92a0b003f2fb9091085c51a4a4554c887d net: dsa: mt7530: Constify struct regmap_config
 b06c4311711c57c5e558bd29824b08f0a6e2a155 tools: ynl: default to --process-unknown in installed mode
 
---===============5518948821583720641==--
+--===============5164022891105307807==--
