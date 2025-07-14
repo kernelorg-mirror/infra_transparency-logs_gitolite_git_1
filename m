@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 14 Jul 2025 20:04:40 -0000
-Message-Id: <175252348033.982673.7252866276529818413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 14 Jul 2025 20:04:56 -0000
+Message-Id: <175252349685.983209.4754480643578559456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/resources
-    old: 0000000000000000000000000000000000000000
-    new: 84f890414a12b8d1480045b92a5e4e6ac4ab3419
+  - ref: refs/heads/kdevops
+    old: 7017c04cb44269f3645544e861e09ce13c1a1639
+    new: 69e7e5a8270419c08a58e34e19aeb51641e21e36
+    log: |
+         69e7e5a8270419c08a58e34e19aeb51641e21e36 nfsd: don't set the ctime on delegated timestamp updates
+         
