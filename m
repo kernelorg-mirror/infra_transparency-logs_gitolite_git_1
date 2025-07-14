@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6033945723747987833=="
+Content-Type: multipart/mixed; boundary="===============8088634948883150931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 14 Jul 2025 12:47:17 -0000
-Message-Id: <175249723701.423747.16391278610493448817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Jul 2025 12:47:20 -0000
+Message-Id: <175249724042.423962.10703279624525338055@gitolite.kernel.org>
 
---===============6033945723747987833==
+--===============8088634948883150931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: c9764fd88bc744592b0604ccb6b6fc1a5f76b4e3
     new: d7b8f8e20813f0179d8ef519541a3527e7661d3a
     log: revlist-c9764fd88bc7-d7b8f8e20813.txt
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/regulator-6.17
     old: b30d390812c8559c5835f8ae5f490b38488fafc8
     new: b88b7e2096665dec5931c1d20b0b6269aa4bfaa4
     log: revlist-b30d390812c8-b88b7e209666.txt
 
---===============6033945723747987833==
+--===============8088634948883150931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1752497276 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1752497234-905cf31b52cae59e936da8b48ca69da56a6831fe
+pusher C3F436CA30F5D8EB 1752497279 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1752497238-93eb1c0dc49b682e86bab8c3c52604bd3bf438c2
 
-c9764fd88bc744592b0604ccb6b6fc1a5f76b4e3 d7b8f8e20813f0179d8ef519541a3527e7661d3a refs/heads/for-6.16
-b30d390812c8559c5835f8ae5f490b38488fafc8 b88b7e2096665dec5931c1d20b0b6269aa4bfaa4 refs/heads/for-6.17
+c9764fd88bc744592b0604ccb6b6fc1a5f76b4e3 d7b8f8e20813f0179d8ef519541a3527e7661d3a refs/heads/regulator-6.16
+b30d390812c8559c5835f8ae5f490b38488fafc8 b88b7e2096665dec5931c1d20b0b6269aa4bfaa4 refs/heads/regulator-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh0/HwACgkQJNaLcl1U
-h9D/GQf+LRubPs0MVb9FB9cThsOcda35AclNU7H0j4jB9uz4QrQbfSCdgK4j19z1
-YzQipqGzU1P1FIaEsd6yNxrPD5Fa63ehvX1pYAOIxprDJV+eo6zOTtRetwAZbaT9
-37Whwc79lb0IDRi+QJNtTWtS7oqyD5E+qOOqajmLDf5J6hBb9j5zP6hNJYdEgzeC
-FRHUNrLUOZfShMP5+yUNJ64Cj4HE62495413THgeZ/QiZdbN304CJjH4HNmCQv0A
-4PMkyD/Bht1bTSmk0Z+AfKU/AFQF4ZeulCKywh++SytFUpF9VFjNg/ME4i8YwcmG
-lrn5+aM/uoYN8SSEqcJHg/4HElZ5Tg==
-=PXZt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh0/H8ACgkQJNaLcl1U
+h9DlSQf9E83MeoiusugmAJRT1WhfocqXhTWKE9Mw6jBKGB4r9MosaPeoXdFDixGK
+2gul6kicby8ene6Y1nWa3a/pKGLhFQ9LTs2AditxCCm1mbRupk/TIWekvTkVH048
+eK0VPK7Yi3JnJb/AgdW/hrF6WVCAC7WaEFSxYfBRJRIIO+smIaHFM+ZmqQYNZya4
+FiXZpVFypiySXAPSvWRqC8lNHuu9xesfnmckeUib7T23RwiF0NtmyLAx6wLkJqbm
+/+4IbdYCw95RkhlEfVR1BC9/doDH4x6p9k6XmXzLNzPuup8zGgV4EtjZtblfxhsX
+DOy2JhzN8AimbvxaycKdnNCAiqkxMw==
+=XCSc
 -----END PGP SIGNATURE-----
 
---===============6033945723747987833==
+--===============8088634948883150931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -403,7 +403,7 @@ a1639ce5e590300af45bebedfbacf8fabc1777ed Merge tag 'perf_urgent_for_v6.16_rc5' o
 bab5cac627b36a96ffc344274953558906418495 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 d7b8f8e20813f0179d8ef519541a3527e7661d3a Linux 6.16-rc5
 
---===============6033945723747987833==
+--===============8088634948883150931==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1394,4 +1394,4 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 3aa47d2ec83316c24e1ed15a492b331802dc6a69 regulator: qcom-rpmh: add support for pm7550 regulators
 b88b7e2096665dec5931c1d20b0b6269aa4bfaa4 Add RPMh regulator support for PM7550 & PMR735B
 
---===============6033945723747987833==--
+--===============8088634948883150931==--
