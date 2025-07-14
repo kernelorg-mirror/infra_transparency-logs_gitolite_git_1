@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 14 Jul 2025 07:01:00 -0000
-Message-Id: <175247646069.33631.13696460871252109885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 14 Jul 2025 07:04:44 -0000
+Message-Id: <175247668493.35939.15377978873459069193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: a90b2a1aaacbcf0f91d7e4868ad6c51c5dee814b
-    new: 28712d6ed32028b0f2e0defe6681411496971ca3
-    log: |
-         b441cf3f8c4b8576639d20c8eb4aa32917602ecd xfrm: delete x->tunnel as we delete x
-         2a198bbec6913ae1c90ec963750003c6213668c7 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-         28712d6ed32028b0f2e0defe6681411496971ca3 Merge branch 'ipsec: fix splat due to ipcomp fallback tunnel'
-         
+  - ref: refs/heads/kvm-arm64/nv-userspace-visibility
+    old: 0000000000000000000000000000000000000000
+    new: d1e5f32ed0a25680988b6638808f068155237106
