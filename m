@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 14 Jul 2025 14:33:59 -0000
-Message-Id: <175250363920.676807.1477808225682859725@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 14:34:12 -0000
+Message-Id: <175250365296.677154.14231816283974332857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 979c5ce4a37680063d87fe13d662ed68e06e77c3
+  - ref: refs/heads/pending
+    old: 3a94f25ee280547f0839da5381dcbec7c41c3497
     new: 9d2abd4162fca8a1eb46f664268dffad35c8ad20
     log: |
          defae535dd63b1eb78ba87d5b8c0b4fb5418fe0c wifi: ath12k: Add a table of parameters entries impacting memory consumption
