@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3614236299480774478=="
+Content-Type: multipart/mixed; boundary="===============6077722250568778980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 14 Jul 2025 16:13:04 -0000
-Message-Id: <175250958413.777217.18288207651055412579@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 16:13:07 -0000
+Message-Id: <175250958711.777344.2882446187902832378@gitolite.kernel.org>
 
---===============3614236299480774478==
+--===============6077722250568778980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: e090f978054e1cfcd970234589168fcbcba33976
+  - ref: refs/heads/100GbE
+    old: 2d925db5b2c6e0c70166de928f34cebf6844b8fd
     new: b06c4311711c57c5e558bd29824b08f0a6e2a155
-    log: revlist-e090f978054e-b06c4311711c.txt
+    log: revlist-2d925db5b2c6-b06c4311711c.txt
 
---===============3614236299480774478==
+--===============6077722250568778980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e090f978054e-b06c4311711c.txt
+Content-Disposition: attachment; filename=revlist-2d925db5b2c6-b06c4311711c.txt
 
 2b05db6b8a10df423d5478b20cadb1e190fa136f batman-adv: Start new development cycle
 7dc284702bcd065a822a4c0bdbca09a08de5a654 batman-adv: store hard_iface as iflink private data
@@ -487,15 +487,7 @@ c07981af55d3ba3ec3be880cfe4a0cc10f1f7138 wifi: mac80211: add the virtual monitor
 73d7cf07109e79b093d1a1fb57a88d4048cd9b4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 bc9ff192a6c940d9a26e21a0a82f2667067aaf5f Merge tag 'net-6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3321e97eab71df7d632b35276da9f8503e6e040f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ef41603d09f124fcebb86bcc4a648ffafbfa120b ice: add support for reading and unpacking Rx queue context
 b430f6c38da629381f43b5ee723bd7e325ffa784 Merge branch 'virtio_udp_tunnel_08_07_2025' of https://github.com/pabeni/linux-devel
-b6f82e9b79b1b0d6eb8861502c6069b7cdff03f9 ice: add functions to get and set Tx queue context
-5ff8d956235725b1fa455375dcdad33046c3e3be ice: save RSS hash configuration for migration
-4f98ac2d8e53c414ef79d7ea1fd0201e45d76779 ice: move ice_vsi_update_l2tsel to ice_lib.c
-066c2715ada8f839fa4c272fcf87ee11d36f20d4 ice: expose VF functions used by live migration
-4ef21c83ea4bb33aa12f2e927bbaabbd1bdd2ae9 ice: use pci_iov_vf_id() to get VF ID
-922683498e847ef8b2db14afb2c52b7184dde466 ice: avoid rebuilding if MSI-X vector count is unchanged
-2d925db5b2c6e0c70166de928f34cebf6844b8fd ice: introduce ice_get_vf_by_dev() wrapper
 29712b437339bf9ae36affa6b922340b059cd153 dt-bindings: net: mediatek,net: update mac subnode pattern for mt7988
 356dea0baf4c0903ac188bf18e8ff1af0866c930 dt-bindings: net: mediatek,net: allow up to 8 IRQs
 23ac2a71bdbd5d12616d46f276b7a7a06e74a8c3 dt-bindings: net: mediatek,net: allow irq names
@@ -585,4 +577,4 @@ a52f9f0d77f20efc285908a28b5697603b6597c7 Merge tag 'batadv-next-pullrequest-2025
 9eb73f92a0b003f2fb9091085c51a4a4554c887d net: dsa: mt7530: Constify struct regmap_config
 b06c4311711c57c5e558bd29824b08f0a6e2a155 tools: ynl: default to --process-unknown in installed mode
 
---===============3614236299480774478==--
+--===============6077722250568778980==--
