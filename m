@@ -1,20 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 14 Jul 2025 11:46:46 -0000
-Message-Id: <175249360629.371446.10632540829895343098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Mon, 14 Jul 2025 11:52:45 -0000
+Message-Id: <175249396597.376403.1052646508390202360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: will
 changes:
-  - ref: refs/heads/selftests-fchmodat2
-    old: 0b8215c3829386b1110539892507f41cd2085377
-    new: 07e744f63d7572fff6dfc0ff46b0fd8f277ddfec
+  - ref: refs/heads/arm/smmu/bindings
+    old: 86731a2a651e58953fc949573895f2fa6d456841
+    new: f7fa8520f30373ce99c436c4d57c76befdacbef3
     log: |
-         5b0f8e9f9890a4311d17e8d046680f76158d9c04 selftests/fchmodat2: Clean up temporary files and directories
-         07e744f63d7572fff6dfc0ff46b0fd8f277ddfec selftests/fchmodat2: Use ksft_finished()
+         f7fa8520f30373ce99c436c4d57c76befdacbef3 iommu/arm-smmu-qcom: Add SM6115 MDSS compatible
+         
+  - ref: refs/heads/arm/smmu/updates
+    old: 86731a2a651e58953fc949573895f2fa6d456841
+    new: b9bb7e814cd0c3633791327a96749a1f9b7f3ef4
+    log: |
+         ec7ca73144e9ca98ed278523b9bf30e1c775c0a9 iommu/io-pgtable-arm: Remove unused macro iopte_prot
+         49f42634e8054e57d09c7f9ef5e4527e116059cb iommu/arm-smmu-v3: Revert vmaster in the error path
+         b9bb7e814cd0c3633791327a96749a1f9b7f3ef4 iommu/arm-smmu: disable PRR on SM8250
+         
+  - ref: refs/heads/core
+    old: 8154f3c0fd946db58ba1eed49a4f1126300f734a
+    new: ced24bf4352c2216e413d1b81f6675950473e7f6
+    log: |
+         ced24bf4352c2216e413d1b81f6675950473e7f6 iommu/qcom: Fix pgsize_bitmap
+         
+  - ref: refs/heads/samsung/exynos
+    old: 86731a2a651e58953fc949573895f2fa6d456841
+    new: 2d70fdd9b5c9a10c5a4b15179b425ff554b60c6d
+    log: |
+         2d70fdd9b5c9a10c5a4b15179b425ff554b60c6d iommu/exynos: add support for reserved regions
          
