@@ -1,67 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 14 Jul 2025 09:20:43 -0000
-Message-Id: <175248484347.207086.16168329983932888741@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9149434502848984574=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 14 Jul 2025 09:27:09 -0000
+Message-Id: <175248522941.211960.7897523760270541897@gitolite.kernel.org>
+
+--===============9149434502848984574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs-6.17.coredump
-    old: a6ed5691b2428cc578908ee050d5d4908a6e065e
-    new: 5c21c5f22d0701ac6c1cafc0e8de4bf42e5c53e5
+  - ref: refs/heads/master
+    old: f0dae293c4a480e23c255ed26cd82fbaf31d6daa
+    new: d2be7196e183535fa946dd51b40f54f7345e1eed
     log: |
-         5c21c5f22d0701ac6c1cafc0e8de4bf42e5c53e5 cleanup: add a scoped version of CLASS()
+         d2be7196e183535fa946dd51b40f54f7345e1eed drop queue-6.15/erofs-fix-to-add-missing-tracepoint-in-erofs_readahead.patch
          
-  - ref: refs/heads/vfs-6.17.integrity
-    old: 4a3def74d9810f4d4148a3aa17b76d2f0c0f6109
-    new: 42b0ef01e6b5e9c77b383d32c25a0ec2a735d08a
-    log: |
-         42b0ef01e6b5e9c77b383d32c25a0ec2a735d08a block: fix FS_IOC_GETLBMD_CAP parsing in blkdev_common_ioctl()
-         
-  - ref: refs/heads/vfs-6.17.misc
-    old: 25050181b61aa0153f3a378a5472d134f8e4ef25
-    new: 0f235ca12321e6d38c99fa74251729c5b78e6d91
-    log: |
-         3bc4e4410830d556b0f40dfa6671bfcaeacc1599 vfs: Remove unnecessary list_for_each_entry_safe() from evict_inodes()
-         110ae5fb48ed6b0dd7e84087c9e4f0695caf4681 drm/i915: Use kernel_write() in shmem object create
-         dd09194ff58c4b551be9e9357d8ed20bbe62624b drm/i915: Refactor shmem_pwrite() to use kiocb and write_iter
-         254a06118b314c34ab903cf8b2aef0d683428ff7 fs: change write_begin/write_end interface to take struct kiocb *
-         ff2219c021c54f4b281ef6a8ebe198b8db0eac7e mm/pagemap: add write_begin_get_folio() helper function
-         2677497bc6f4d89870200db5198f0e25ec19f1c9 ext4: support uncached buffered I/O
-         0f235ca12321e6d38c99fa74251729c5b78e6d91 Merge patch series "fs: refactor write_begin/write_end and add ext4 IOCB_DONTCACHE support"
-         
-  - ref: refs/heads/vfs-6.17.nsfs
-    old: cd267cdef5fe98006a6b989c5cda035032bb839f
-    new: 76fdb7eb4e1c91086ce9c3db6972c2ed48c96afb
-    log: |
-         76fdb7eb4e1c91086ce9c3db6972c2ed48c96afb uapi: export PROCFS_ROOT_INO
-         
-  - ref: refs/heads/vfs-6.17.pidfs
-    old: a683a5b2ba23598ad343e5ec10a4ef4077497fc9
-    new: 1f531e35c146cca22dc6f4a1bc657098f146f358
-    log: |
-         1f531e35c146cca22dc6f4a1bc657098f146f358 don't bother with path_get()/path_put() in unix_open_file()
-         
-  - ref: refs/heads/vfs-6.17.super
-    old: 165fa94de612c4d7313862c1830e2f40ddcbb592
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-  - ref: refs/heads/vfs.fixes
-    old: 98f99394a104cc80296da34a62d4e1ad04127013
-    new: 86ab0c10090b26e789b7bf477d4b673b5e18e55b
-    log: |
-         6b89819b06d8d339da414f06ef3242f79508be5e cachefiles: Fix the incorrect return value in __cachefiles_write()
-         0a9e7405131380b57e155f10242b2e25d2e51852 isofs: Verify inode mode when loading from disk
-         177bb4cba97aae951b910d8ca248480715d09009 iomap: avoid unnecessary ifs_set_range_uptodate() with locks
-         fdfe0133473a528e3f5da69c35419ce6711d6b89 fix a leak in fcntl_dirnotify()
-         4c238e30774e3022a505fa54311273add7570f13 netfs: Fix copy-to-cache so that it performs collection with ceph+fscache
-         89635eae076cd8eaa5cb752f66538c9dc6c9fdc3 netfs: Fix race between cache write completion and ALL_QUEUED being set
-         86ab0c10090b26e789b7bf477d4b673b5e18e55b Merge patch series "netfs: Fix use of fscache with ceph"
-         
-  - ref: refs/heads/vfs-6.17.iomap
-    old: 0000000000000000000000000000000000000000
-    new: 2f368b5f93430e58f5006d6d5be4916753130cb0
+
+--===============9149434502848984574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752485265 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1752485223-f3169bcfcb6cc75686ec0702685729e36f33917b
+
+f0dae293c4a480e23c255ed26cd82fbaf31d6daa d2be7196e183535fa946dd51b40f54f7345e1eed refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh0zZEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+98QP/isoicmx9qNsh0uwmJrL
+hwAGxp9NA/YBPveEwLNVypsHovhkMIozzby1rLrbjGAOEh7oUBZsA9QadCuZDvPx
+dV/IaEkKB9NASAAR0edQcox1ZySoe6Vo8+2CDBCpksePJnDuWjWw1O1G6UtYiHP0
+1rqAYYKZWvOTO4MaDjUYfPo9fUoLdS37Lj4ijROs1LpVQseotVpdjKSle+O8DEF0
+wdQroa4bMpZqxxMqKt0jMfNu8YxGwHAMX3O6W4aoOi7Cnr2QiiGRkC8jwXOzFsZV
+Rtnt9oQeiEzdqmDvoQAM63rJCMbELXOLk3HvXpPfNwCFfsSHFr/EhycQdMvzaAWs
+3iSQbvocmTgT+pcT9jllj/WulzRqCZfqw8BpPd+dIANeb8EYKsgnVISvXempWNFO
+ZFcWkDDRcPKfQrcXhgTMFGr5jL3pDUdZGmHj94T8zW2HNcdTrS9TYyRW6XTAfpO5
+mYZaq+yjPhaCETNOsQCDwnt2L37WpuNhFSOkud18B7p38m1EV2oY6aQR5Aq5AH/u
+mkM9XYL8bHzPOjqPEv/dUiqQ/TPvV8wzgyMbMvZILjFlruYrAYpyhiAjx9l7o/zj
+nUcZyuzR0+ciqpFH+WBR8QlFRn1D4GEkBFAqhqco8TRO0ISS1dFNp22Ad+4c4+2U
+IFr41XCIIpCss75DeAFc9Lb6
+=zKSv
+-----END PGP SIGNATURE-----
+
+--===============9149434502848984574==--
