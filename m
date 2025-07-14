@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4608824163989238422=="
+Content-Type: multipart/mixed; boundary="===============6157366267760230303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 14 Jul 2025 15:56:58 -0000
-Message-Id: <175250861809.759057.7740825020894329603@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 15:57:00 -0000
+Message-Id: <175250862070.759306.16828838032996073939@gitolite.kernel.org>
 
---===============4608824163989238422==
+--===============6157366267760230303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bc9ff192a6c940d9a26e21a0a82f2667067aaf5f
     new: b640daa2822a39ff76e70200cb2b7b892b896dce
     log: revlist-bc9ff192a6c9-b640daa2822a.txt
 
---===============4608824163989238422==
+--===============6157366267760230303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -93,4 +93,4 @@ c1ba3c0cbdb5e53a8ec5d708e99cd4c497028a13 af_packet: fix the SO_SNDTIMEO constrai
 a059ef8e888941d6c2dc3e94f5f7c98db232ea5d Merge branch 'tpacket_snd-bugs' into main
 b640daa2822a39ff76e70200cb2b7b892b896dce rpl: Fix use-after-free in rpl_do_srh_inline().
 
---===============4608824163989238422==--
+--===============6157366267760230303==--
