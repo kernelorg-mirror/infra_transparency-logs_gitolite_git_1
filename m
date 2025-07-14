@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1520272279188158611=="
+Content-Type: multipart/mixed; boundary="===============0157616210545901557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 14 Jul 2025 19:48:33 -0000
-Message-Id: <175252251329.965912.13953780581677887980@gitolite.kernel.org>
+Date: Mon, 14 Jul 2025 19:48:35 -0000
+Message-Id: <175252251583.966034.9250897280423247512@gitolite.kernel.org>
 
---===============1520272279188158611==
+--===============0157616210545901557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 405c65914ebb5d9579ceb909fe99c94940d163e3
-    new: db988b8a73f1e5897e4cf09d309e611be2bf51e6
-    log: revlist-405c65914ebb-db988b8a73f1.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 6aae87fe7f180cd93a74466cdb6cf2aa9bb28798
+    new: 975b02f641edd2a20e6de8f092b6f5caabd9f09e
+    log: revlist-6aae87fe7f18-975b02f641ed.txt
 
---===============1520272279188158611==
+--===============0157616210545901557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-405c65914ebb-db988b8a73f1.txt
+Content-Disposition: attachment; filename=revlist-6aae87fe7f18-975b02f641ed.txt
 
 c33453d08a56a45c2e72f9f56043610b8f7449c7 efi: Drop preprocessor directives from zboot.lds
 aa807b9f22df2eee28593cbbabba0f93f4aa26c1 dma-contiguous: hornor the cma address limit setup by user
@@ -307,15 +307,9 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 5d5d62298b8b5017d6677af28e021f7ad13f7a62 Merge tag 'x86_urgent_for_v6.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cd752194e2ec2573d0e740f4a1edbfcc28257f5 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
-5f6742dc621a347c32022c3c86347e46baad1a55 i2c: tegra: Add missing kernel-doc for dma_dev member
-4028813c4407c85fb7568e0dc4baf0824f4402ca dt-bindings: i2c: renesas,riic: Move ref for i2c-controller.yaml to the end
-1fc4ff6420281b26978ae57359b7f688ea2c212c dt-bindings: i2c: renesas,riic: Document RZ/T2H and RZ/N2H support
-280036bd8ab89ec1db83d329c580597850121b69 i2c: riic: Pass IRQ desc array as part of OF data
-0656d648a1ddacdb247681ffd05f025ae638a56b i2c: riic: Move generic compatible string to end of array
-b3160b9da090f7a80d991f89d8706d68c2bb44c5 i2c: riic: Add support for RZ/T2H SoC
-9d80128feac5fe208ffb35678e6092208f415a3b dt-bindings: i2c: nxp,pnx-i2c: allow clocks property
-ebcd1d14ea9ab5bac08d30ea62a5e13095ed2f32 i2c: stm32f7: Use str_on_off() helper
-f16d38116be0d607a677bcc3d2d6f72e877b28db i2c: imx: use guard to take spinlock
-db988b8a73f1e5897e4cf09d309e611be2bf51e6 i2c: busses: Use min() to improve code
+7c18e08f4c3acd72a192a6b43d2e193f962118aa i2c: omap: Handle omap_i2c_init() errors in omap_i2c_probe()
+cfba2fe76b2b562502f3b60427ea97e2c2e5ab08 i2c: omap: Fix an error handling path in omap_i2c_probe()
+36ae42978569d7e5c3f4751d84a3065a750a735b i2c: stm32: fix the device used for the DMA map
+975b02f641edd2a20e6de8f092b6f5caabd9f09e i2c: stm32f7: unmap DMA mapped buffer
 
---===============1520272279188158611==--
+--===============0157616210545901557==--
