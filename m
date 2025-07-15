@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 15 Jul 2025 16:25:56 -0000
-Message-Id: <175259675623.2149071.13746255224390406750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 15 Jul 2025 16:26:59 -0000
+Message-Id: <175259681910.2149741.10807186616278305459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/enumeration
-    old: 83571b4f691c5414b848622c9ae9541c5d8b247f
-    new: 91703041697c9d2e8dffe5b3a159198ba0dd24e7
+  - ref: refs/heads/arm64-selftest-bodge-hwcap3
+    old: bcebdfe7d9dcf9d59c00c9c8c471aee480dcdc4d
+    new: 6be80a309d67fbd443dbebe73b1213da5679fde3
     log: |
-         91703041697c9d2e8dffe5b3a159198ba0dd24e7 PCI: Allow built-in drivers to use async initial probing
+         6be80a309d67fbd443dbebe73b1213da5679fde3 kselftest/arm4: Provide local defines for AT_HWCAP3
          
