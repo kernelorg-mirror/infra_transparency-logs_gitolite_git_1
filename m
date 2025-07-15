@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6012616873487993052=="
+Content-Type: multipart/mixed; boundary="===============2779257032419256962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 15 Jul 2025 10:01:09 -0000
-Message-Id: <175257366944.1761294.17575603222718562183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 15 Jul 2025 10:01:23 -0000
+Message-Id: <175257368303.1761641.15868164638184721968@gitolite.kernel.org>
 
---===============6012616873487993052==
+--===============2779257032419256962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 347e9f5043c89695b01e66b3ed111755afcf1911
     log: revlist-d7b8f8e20813-347e9f5043c8.txt
 
---===============6012616873487993052==
+--===============2779257032419256962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -308,4 +308,4 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 3cd752194e2ec2573d0e740f4a1edbfcc28257f5 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
 
---===============6012616873487993052==--
+--===============2779257032419256962==--
