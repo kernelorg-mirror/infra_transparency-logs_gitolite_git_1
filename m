@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 15 Jul 2025 03:58:45 -0000
-Message-Id: <175255192599.1396193.6800998597318793703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 15 Jul 2025 03:59:02 -0000
+Message-Id: <175255194230.1396661.4798539358043873241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 347e9f5043c89695b01e66b3ed111755afcf1911
-    new: 155a3c003e555a7300d156a5252c004c392ec6b0
+    old: d15b29e95b36fb603b03b1487a5258b2c96ee087
+    new: bc4992623d71b465c38008324e80872bfb5e2cd0
     log: |
-         b1bf1a782fdf5c482215c0c661b5da98b8e75773 dm-bufio: fix sched in atomic context
-         155a3c003e555a7300d156a5252c004c392ec6b0 Merge tag 'for-6.16/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+         bc4992623d71b465c38008324e80872bfb5e2cd0 patches/next: rebase to latest mm-new
          
