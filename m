@@ -1,56 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============5764583137423608684=="
+Content-Type: multipart/mixed; boundary="===============6414931885261628314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 15 Jul 2025 09:03:55 -0000
-Message-Id: <175257023523.1692734.3336515978316517588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 15 Jul 2025 09:06:27 -0000
+Message-Id: <175257038704.1696320.2479359416719338577@gitolite.kernel.org>
 
---===============5764583137423608684==
+--===============6414931885261628314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 85d4c529803a0cafd2f977a4a37224ecfd90a681
-    new: 09a984bd97a2c82bde731bc87f30d6de8fe166d7
+  - ref: refs/heads/for-next
+    old: 5e55762f952afff789fbb2f1620934a0bd36033e
+    new: 8f5e324a428a59d7f4775fd8c4302fe49d36aa8a
     log: |
-         09a984bd97a2c82bde731bc87f30d6de8fe166d7 6.15-stable patches
+         7f311e5ac36b6cf9cc0734d89546e643f33b684a arm64: tesla/google: MAINTAINERS: Reference "SoC clean" maintainer profile
+         8e5bf103b3ada972ea890ae6aa2118ff9b8c321c arm64: samsung: MAINTAINERS: Add Tesla FSD DTS to Exynos entry
+         8f5e324a428a59d7f4775fd8c4302fe49d36aa8a Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: 49a27c6c392dec46c826ee586f7ec8973acaeed7
+    new: 8e5bf103b3ada972ea890ae6aa2118ff9b8c321c
+    log: |
+         7f311e5ac36b6cf9cc0734d89546e643f33b684a arm64: tesla/google: MAINTAINERS: Reference "SoC clean" maintainer profile
+         8e5bf103b3ada972ea890ae6aa2118ff9b8c321c arm64: samsung: MAINTAINERS: Add Tesla FSD DTS to Exynos entry
          
 
---===============5764583137423608684==
+--===============6414931885261628314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752570275 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1752570233-38fb291219dd577ad3a7d4b6ba05fd49e0970f0a
+pusher krzk@kernel.org 1752570423 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1752570381-870cac60e1db451455d4586bffb3018d84301489
 
-85d4c529803a0cafd2f977a4a37224ecfd90a681 09a984bd97a2c82bde731bc87f30d6de8fe166d7 refs/heads/master
+5e55762f952afff789fbb2f1620934a0bd36033e 8f5e324a428a59d7f4775fd8c4302fe49d36aa8a refs/heads/for-next
+49a27c6c392dec46c826ee586f7ec8973acaeed7 8e5bf103b3ada972ea890ae6aa2118ff9b8c321c refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh2GaMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bg4QANRadVal2QWxCIeACSO/
-h5TSjrbS5J7WS0PP3RzCnne2TL5X5o6juwuSnh08LDLEJJGgPYgF4TCEz+WGvISS
-Zl9QnvebOPrdZmt8SHfCktiV8ib26oggZSxHxgn4C+Ty8bOwI1mC3UeBapWLsbKH
-6R8j6TjPRGnmG3ZLgFuJTkr/lVFqXLgkL3OsRGA8CYdG2BU1G4NB5mm9yfDnIu87
-WeoLSfLcSmTO+/mUbNK4ThzDyTVxs/rpTCoRNcF7GoeRJfFdSOUK3GacElfTFppo
-p9wHO9ZTN9tniV/6dzo3CLEGc56vQPFInSDctbfdygqKUbCAKaR4s0ubvucQ3/Oq
-X0+Rx5JyH2TbHtMaRbvEC2Kxkz8iuz6yzW6f+HbxZ8UT4auBeK9nlMWL3Pi3Fa7y
-SqUg32gS1AFDRlsEcyCnoKwzkKsGXR1j+5+0liNtn9Ww2lq8e0pp/CrXsCm0byZu
-56WcRUK5TA1c/bkePxs45h2UFbcOaAc5awfp0yXN5rvV5N8iatzRCvifjc8LUjw1
-TZ5TyP5FYMpYDLwCvnn8dw6Kof2b2WxA+wUUkYuzGje6QwFCf+03/0KbRYEwX5uR
-VscgjEK5EImcp7ajEb2J3CVsWq9y8Zf7ePknV2VqjCpyvlxiIuKFTucUisdY5eoF
-F/fhqah/ZS7XAGaDxvYPg+a/
-=ini3
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmh2GjcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16POD/9BQQNnAEn+brbVVVFJu4OYV7DTKMsSEKZ4
+q7rEmAH82UmK27Zs5cv4t6mj3CvKR8JjrVrNPdBPg9ttCZ+a5vmYmkegvPcHeN8h
+XHDdKclKoAjM4FoHRcbWxULLI1Ajbi5xUf33UsL8lJABWc9gF+BWACSbUKivsga+
+sLq93ix41Ojf/C6G57gKpLa7Fe50OrdIO4/cBfEQploH1qvIZka8owuVG2NvjAR/
+GDzQrn9m7bUAIGAnljZOp5+0QiY/6KI0MtAQsxOaecWpmjLjQ1jvAX3gvrsYbN6C
+rRZ+dMKj9SKNuGonUivzc5hBXh6RglUOVsM39ISc4pmaMkScszghBViyKhbPDfOo
+5KFf6i4twejA/thtQVuLZynEZ+b2rcVmfQC78LgvxF5JR2gcECZWgrM3koEoLpIg
+7rUi2hIOKAHUya1eLkJlA0uEBHYI+1uxJ/XI+hY0nkFDtwHZfW0RmmnbiuvmAb8C
+49QjOTE0OdYlIGGxt5jO034dnA2xLZA2oVr37z8v+fkXUuzQdX6lwjN2o5oSV7ww
+As/K1NX1e4DpcGrt3xoKCO4/NZDc3cu3WoeQv3XgaxDxyvpzymvSW91kUR174Qto
+NPznC/2Kveswfv8TsQQRDNSu/BnQ9OUwhl5r1F6Akbz/ME9BHIY4idBQxjglkxZL
+kruYuB6fmw==
+=eIT8
 -----END PGP SIGNATURE-----
 
---===============5764583137423608684==--
+--===============6414931885261628314==--
