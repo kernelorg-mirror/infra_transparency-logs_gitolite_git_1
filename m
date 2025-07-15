@@ -1,57 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5272566361597993312=="
+Content-Type: multipart/mixed; boundary="===============8353031117893913290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 15 Jul 2025 08:39:42 -0000
-Message-Id: <175256878254.1652903.17797900289089319091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Tue, 15 Jul 2025 08:40:05 -0000
+Message-Id: <175256880516.1656025.9351153742138196342@gitolite.kernel.org>
 
---===============5272566361597993312==
+--===============8353031117893913290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/heads/main
-    old: c7979c3917fa1326dae3607e1c6a04c12057b194
-    new: 444020f4bf06fb86805ee7e7ceec0375485fd94d
-    log: |
-         afcefc58fdfd687e3a9a9bef0be5846b96f710b7 wifi: ath12k: Fix packets received in WBM error ring with REO LUT enabled
-         2aec790e666bf1f11d39bb50aa9df8febd58a548 Merge tag 'ath-current-20250714' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-         444020f4bf06fb86805ee7e7ceec0375485fd94d wifi: cfg80211: remove scan request n_channels counted_by
-         
+  - ref: refs/heads/next
+    old: ea045a0de3b9de8f917f0149783bae8dc14fcbb2
+    new: 24bc49d158c7848b56faf7b9023c92f751a74921
+    log: revlist-ea045a0de3b9-24bc49d158c7.txt
 
---===============5272566361597993312==
+--===============8353031117893913290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ea045a0de3b9-24bc49d158c7.txt
 
-certificate version 0.1
-pusher 7BF9099A 1752568799 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1752568758-373997b6d50cd991ccf4db8980e8121969ca3039
+9f9c762705d937a1284c3289583351d549746c02 wifi: iwlwifi: mvm: remove IWL_MVM_ESR_EXIT_FAIL_ENTRY
+91b9f31d5c88789e29733369eec92408ce6e97ee wifi: iwlwifi: mvm: remove extra link ID
+f2829c89e296005ba1dbd95515d5b95790b9be0c wifi: iwlwifi: mvm/mld: use average RSSI for beacons
+bf6ce412d8fad3ae26bed3e9a1167cef8224d926 wifi: iwlwifi: mvm: Add dump handler to iwl_mvm
+e3fd06d1d8869747e02a022e3c9045a3187f3aa5 wifi: iwlwifi: mvm: remove support for REDUCE_TX_POWER_CMD ver 6 and 7
+100f38b0aeca07ccdd11a9f452d42ec6b81c8a5b wifi: iwlwifi: mld: remove support for REDUCE_TX_POWER_CMD ver 9
+9696454c920382d8c856a9c2ae4703af4b416e0b wifi: iwlwifi: remove an unused struct
+8bec2ec156903e12a8b45a57ae9bca409ead5646 wifi: iwlwifi: mld: remove support for iwl_geo_tx_power_profiles_cmd version 4
+3735526d3e1c852dd9a3c05d82896a456819adc9 wifi: iwlwifi: mld: support iwl_omi_send_status_notif version 2
+0ce92d548b44649a8de706f9bb9e74a4ed2f18a7 wifi: iwlwifi: mld: Revert "wifi: iwlwifi: mld: add kunit test for emlsr with bt on"
+7cc5f89bfbc309e8027eda255a1db0957c7fca86 wifi: iwlwifi: mld: Revert "wifi: iwlwifi: mld: allow EMLSR with 2.4 GHz when BT is ON"
+0356e509d373fb9e320f283a2da8f0c0ea9371e0 wifi: iwlwifi: mld: remove support for iwl_mcc_update_resp versions
+ee86cd90c91e8820c2509bbbba02f4e3c5e1e3c6 wifi: iwlwifi: remove support of versions 4 and 5 of iwl_alive_ntf
+493681d9f95bdf119af077ea05eeb42476e1f488 wifi: iwlwifi: remove support of version 4 of iwl_wowlan_rsc_tsc_params_cmd
+24bc49d158c7848b56faf7b9023c92f751a74921 wifi: iwlwifi: remove support of several iwl_ppag_table_cmd versions
 
-c7979c3917fa1326dae3607e1c6a04c12057b194 444020f4bf06fb86805ee7e7ceec0375485fd94d refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmh2E98ACgkQ10qiO8sP
-aACu5A//fTAHDEAY8+cHmBZOB49OONeN/nQBqv9Qcqo2zhTsbmNrz7iV5qvgH5SF
-c1QsEz6IptkMX47wE3qjn0Z+X7UWmZE/E+u5tc/dKb7WyD4IcdijAc2bIcF/5bKX
-THHmKI+z0nGRf3aHIT19OnR9PyUaVTcYRVJWhRTiAxDyubsWkFCiuTVUHVIx42Vk
-ZoNjcIENthgJcrTNCqhgoh5hVFp6P5nXu6tdpEI10ZfgjGZeISqTeZ1Bg2TVADTE
-ZSep8Bq7hSE5AR7MxBYWL0ey7kN2A1M+AR1+p1Cdv3fOfAC6KiGwM0Rg+M79fj7X
-dYgQD8svRFMYSvrNKnepqqtktxYP1ChIWfD0H4nVtLZ79J8IFLssWghsQ+JG4E0h
-YHsowZly89GG1Qmsky4MySooQbZ3r1LSzgONSbF7m+SbdlzMg5iPbCyKKMYHRBTx
-terrNlr5/LzEVfRIOme396/EIO+AOvtXMyjZ9Wf7nLA/xCY3zXV/YTxOgeS0+A/N
-w9qItD1IXzPzhAG/tMZmo8xptHCa/BzrSxztvzwMBHFfCPZ7Hgg4OxCGnECuYu8V
-Ksn5Pev3P3vZiXpU0+RVTlm5j7lva3+fmmH8FXgwH3kYKhwpXCilBVlb9COmpDSJ
-YWIarMl1u7iHR01U2253hLFrJQdyHqm5gY8qEUadWe8XW4pXMo0=
-=AYNw
------END PGP SIGNATURE-----
-
---===============5272566361597993312==--
+--===============8353031117893913290==--
