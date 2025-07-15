@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 15 Jul 2025 23:07:49 -0000
-Message-Id: <175262086900.2498073.15389069543401640656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Tue, 15 Jul 2025 23:18:19 -0000
+Message-Id: <175262149952.2506670.4539047564048623160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/main
-    old: 0e9418961f897be59b1fab6e31ae1b09a0bae902
-    new: ae2256f9677b3c784bad99d4198d27b1a62fabc9
+  - ref: refs/heads/rust-atomic-v8
+    old: 266ce6f7a97815ffdb840e9a680b9570854279ff
+    new: 51173dae20b76c7aaaf8159607804ab6a01005b0
     log: |
-         0f97a7588db7a545ea07ee0d512789bfad4931d8 can: tcan4x5x: fix reset gpio usage during probe
-         4c4ca3c46167518f8534ed70f6e3b4bf86c4d158 usb: net: sierra: check for no status endpoint
-         ae2256f9677b3c784bad99d4198d27b1a62fabc9 Merge tag 'linux-can-fixes-for-6.16-20250715' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+         e090edeb73bb1f4021b8ef6e65346aa48e85b1cf rust: sync: atomic: Add generic atomics
+         dba5881e95218a20a72d3bb78c56190cfaaa6bd7 rust: sync: atomic: Add atomic {cmp,}xchg operations
+         c6ab4ce1da345d28a1c352b33deced37e1334fb0 rust: sync: atomic: Add the framework of arithmetic operations
+         7ff331294b2e5c6be96bc3493a08d78d16d8df77 rust: sync: atomic: Add Atomic<u{32,64}>
+         4d7d0922f053013f3c6e29c9c981939c55983a6a rust: sync: Add memory barriers
+         0cfab382c31f77124f02d3d17f1205cdb734924e rust: sync: atomic: Add Atomic<{usize,isize}>
+         27a0e1831f6548e1bac94003700e6e9bed517110 WIP: rust: Add atomic pointer helper
+         51173dae20b76c7aaaf8159607804ab6a01005b0 WIP: rust: sync: atomic: Wire up atomic_ptr_ helpers
          
