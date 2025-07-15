@@ -1,83 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6133608440831823898=="
+Content-Type: multipart/mixed; boundary="===============0067852569254280883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Tue, 15 Jul 2025 11:55:55 -0000
-Message-Id: <175258055551.1879811.10371326884805622867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 15 Jul 2025 11:58:47 -0000
+Message-Id: <175258072730.1881360.13152215461473635105@gitolite.kernel.org>
 
---===============6133608440831823898==
+--===============0067852569254280883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: will
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/amd/amd-vi
-    old: c694bc8b612ddd0dd70e122a00f39cb1e2e6927f
-    new: 39215bb3b0d929f336b6c82ff1665a3377ca0d4f
-    log: |
-         ad48b1dd14fb217e0a0b0af46744a3d1f6f26dea iommu/amd: Refactor AMD IOMMU debugfs initial setup
-         7a4ee419e8c144b747a8915856e91a034d7c8f34 iommu/amd: Add debugfs support to dump IOMMU MMIO registers
-         4d9c5d5a1dc940e44084e5cab780e1646501b6c1 iommu/amd: Add debugfs support to dump IOMMU Capability registers
-         fb3af1f4fefb78f9180446aae2834e11a6f7d134 iommu/amd: Add debugfs support to dump IOMMU command buffer
-         2e98940f123d9c69d4759078aea9a536244c98d3 iommu/amd: Add support for device id user input
-         b484577824452e526191cb87f297f78dadd97dda iommu/amd: Add debugfs support to dump device table
-         349ad6d5263a6299aae64ad59d82bb5b03b478fa iommu/amd: Add debugfs support to dump IRT Table
-         39215bb3b0d929f336b6c82ff1665a3377ca0d4f iommu/amd: Add documentation for AMD IOMMU debugfs support
-         
-  - ref: refs/heads/arm/smmu/bindings
-    old: f7fa8520f30373ce99c436c4d57c76befdacbef3
-    new: 2f0187392cbab96ee6a1fa28d34da9474939ede5
-    log: |
-         2f0187392cbab96ee6a1fa28d34da9474939ede5 dt-bindings: arm-smmu: document the support on Milos
-         
   - ref: refs/heads/master
-    old: b4aa439d5201c45d596ba6c6b2f5ee497396d6c8
-    new: 644e5589a6b6b0f309af3020889b204bd9b5f5d3
-    log: revlist-b4aa439d5201-644e5589a6b6.txt
-  - ref: refs/heads/next
-    old: dfcc014b3e5db37bc5bd5c3b467034592aa82766
-    new: 4ba382d42e2dd8294311fd4ee1ad446c8e5585aa
-    log: revlist-dfcc014b3e5d-4ba382d42e2d.txt
+    old: 09a984bd97a2c82bde731bc87f30d6de8fe166d7
+    new: 466f833362e25b2bceccab44b701db2c41584b00
+    log: |
+         466f833362e25b2bceccab44b701db2c41584b00 6.15-stable patches
+         
 
---===============6133608440831823898==
+--===============0067852569254280883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4aa439d5201-644e5589a6b6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2f0187392cbab96ee6a1fa28d34da9474939ede5 dt-bindings: arm-smmu: document the support on Milos
-ad48b1dd14fb217e0a0b0af46744a3d1f6f26dea iommu/amd: Refactor AMD IOMMU debugfs initial setup
-7a4ee419e8c144b747a8915856e91a034d7c8f34 iommu/amd: Add debugfs support to dump IOMMU MMIO registers
-4d9c5d5a1dc940e44084e5cab780e1646501b6c1 iommu/amd: Add debugfs support to dump IOMMU Capability registers
-fb3af1f4fefb78f9180446aae2834e11a6f7d134 iommu/amd: Add debugfs support to dump IOMMU command buffer
-2e98940f123d9c69d4759078aea9a536244c98d3 iommu/amd: Add support for device id user input
-b484577824452e526191cb87f297f78dadd97dda iommu/amd: Add debugfs support to dump device table
-349ad6d5263a6299aae64ad59d82bb5b03b478fa iommu/amd: Add debugfs support to dump IRT Table
-39215bb3b0d929f336b6c82ff1665a3377ca0d4f iommu/amd: Add documentation for AMD IOMMU debugfs support
-264e16e99851e1a152cc23ea82af5c7044d36a91 Merge branches 'core' and 'samsung/exynos' into next
-4ba382d42e2dd8294311fd4ee1ad446c8e5585aa Merge branches 'intel/vt-d', 'amd/amd-vi', 'mediatek', 'ti/omap', 'apple/dart', 'arm/smmu/bindings' and 'arm/smmu/updates' into next
-644e5589a6b6b0f309af3020889b204bd9b5f5d3 Merge branch 'next'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752580766 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1752580725-1459baed8ea3290119f5b428c6177362086be55b
 
---===============6133608440831823898==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfcc014b3e5d-4ba382d42e2d.txt
+09a984bd97a2c82bde731bc87f30d6de8fe166d7 466f833362e25b2bceccab44b701db2c41584b00 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-2f0187392cbab96ee6a1fa28d34da9474939ede5 dt-bindings: arm-smmu: document the support on Milos
-ad48b1dd14fb217e0a0b0af46744a3d1f6f26dea iommu/amd: Refactor AMD IOMMU debugfs initial setup
-7a4ee419e8c144b747a8915856e91a034d7c8f34 iommu/amd: Add debugfs support to dump IOMMU MMIO registers
-4d9c5d5a1dc940e44084e5cab780e1646501b6c1 iommu/amd: Add debugfs support to dump IOMMU Capability registers
-fb3af1f4fefb78f9180446aae2834e11a6f7d134 iommu/amd: Add debugfs support to dump IOMMU command buffer
-2e98940f123d9c69d4759078aea9a536244c98d3 iommu/amd: Add support for device id user input
-b484577824452e526191cb87f297f78dadd97dda iommu/amd: Add debugfs support to dump device table
-349ad6d5263a6299aae64ad59d82bb5b03b478fa iommu/amd: Add debugfs support to dump IRT Table
-39215bb3b0d929f336b6c82ff1665a3377ca0d4f iommu/amd: Add documentation for AMD IOMMU debugfs support
-264e16e99851e1a152cc23ea82af5c7044d36a91 Merge branches 'core' and 'samsung/exynos' into next
-4ba382d42e2dd8294311fd4ee1ad446c8e5585aa Merge branches 'intel/vt-d', 'amd/amd-vi', 'mediatek', 'ti/omap', 'apple/dart', 'arm/smmu/bindings' and 'arm/smmu/updates' into next
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh2Qp8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QcQP/097BUVRVtsQ6QDroBS2
+R9D/xbhmFKJ5htcv9p2KMHr/bT9/DeAUqcGMHTBvbq92yG22bblwXE9AzDuUBBd9
+JBn+D3iCj5JIXsviMubHxOb4BJqtuZ+6m8H/g84PGCk58VAgc4hlztSzUAjkwDo6
+Lg7k597IrB827p+HVUDgjn1sjPilhRkSx+kjhEHZA7wGh9IIs8YyKjnRvjEiLSms
+zHlpTlfyx9OqBxCseizNKV3FTE1RGg4cy39ki5ZEJAu3FgxX8w6fpZXYTBPwL+2L
+5NplfS5H6QDNZ6frsVmsiN2wux8lNWDFZz+ivmFOo92I6DcMLMxK5Codnwssracg
+X823t0OevNu9CXoFD9WaD1L9WFTooqlmG/qSVXKZXN79CNnFYTmM5NXC+TdppfW1
+7kcq3X+J/76ldjxmlUC4XGN3Qu62q+JvTGHVHVvRzU7XqEzsl6uES2yANplgVb7K
+D65I66mkXNmxgP1AWyEYTJNluqQscJVRAyfAKtrrMPXritjlnlUcZ1RkzJvnS69p
+9bebNznDy5aUIEhJMDLo7XqnlI0rNAn1JaEZTd3lG4njRuKEw6ClpE5Vv9ikXTQT
+LpM2LvWhvKEdLowkxt73s4nRloGDXxYzqLil6RCF3vHdyndVUrGjJ1HEVL96yBJg
+jUqUwIfj43nCp4o5seGC5ImM
+=rCuU
+-----END PGP SIGNATURE-----
 
---===============6133608440831823898==--
+--===============0067852569254280883==--
