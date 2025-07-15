@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4813489771458931399=="
+Content-Type: multipart/mixed; boundary="===============5787784768704664688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 15 Jul 2025 15:34:09 -0000
-Message-Id: <175259364906.2097866.10878849714129019819@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 15:34:35 -0000
+Message-Id: <175259367524.2098863.16515183626642962227@gitolite.kernel.org>
 
---===============4813489771458931399==
+--===============5787784768704664688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b06c4311711c57c5e558bd29824b08f0a6e2a155
-    new: 55e8757c696210292cfda6f1464991d6f5c4300f
-    log: revlist-b06c4311711c-55e8757c6962.txt
+  - ref: refs/heads/dev-queue
+    old: 0feb2ad5eeb81bef19f0aceb59b182dc4d4e7f58
+    new: 360944f0771abe1899da037f276778521eaf08a1
+    log: revlist-0feb2ad5eeb8-360944f0771a.txt
 
---===============4813489771458931399==
+--===============5787784768704664688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b06c4311711c-55e8757c6962.txt
+Content-Disposition: attachment; filename=revlist-0feb2ad5eeb8-360944f0771a.txt
 
 25883e286e7a2a73b5bbd7e7a80c4d4fcefd297e can: rcar_can: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
 0e6639c8505d70e821bc27f951a0ff6303f10d4d can: rcar_canfd: Drop unused macros
@@ -68,5 +68,75 @@ a8594c956cc9dc6799554a554bc422d1ffd4c46b ipv6: mcast: Avoid a duplicate pointer 
 b7e28129b667dede890bc7bd340a77e325df156a net: mctp: Test conflicts of connect() with bind()
 e6d8e7dbc5a363a8e55a65f3bbe7f9f44f0aeb4f net: mctp: Add bind lookup test
 55e8757c696210292cfda6f1464991d6f5c4300f Merge branch 'net-mctp-improved-bind-handling'
+4372be1b80e91873fa8b432157dad816e6a0ca3a coccinelle: misc: secs_to_jiffies script: Create dummy report
+e815eeed561383160cb9cad94d9364dca90f314f ice: fix lane number calculation
+b3c21969720a68a91910af9b97e8a88a9e700297 ice: Allow 100M speed for E825C SGMII device
+8b599aec25b6822e5be0a67a00fdec6e22e805a7 ice: Remove casts on void pointers in LAG
+d08f8ec4900c1e450fda74c8d433eeda1b97a477 ice: replace u8 elements with bool where
+09b14d42f6cf64fdddbff59dfac5488a9609aff3 ice: Add driver specific prefix to LAG
+e5e3e29431bde0c9982faa6ceefb835fb8d137b4 ice: move LAG function in code to prepare for
+4b3c297b40b5b1eab389acde87142ea773c77883 ice: Cleanup variable initialization in LAG
+3a9ddd9f7964c86f22d061958469eb3c92559e9e ice: cleanup capabilities evaluation
+1acb61c2c37bc47847d192a109ad743ba5efeb9b ice: breakout common LAG code into helpers
+978991f788cde725bdc9d1527b78f174dba44f63 ice: Implement support for SRIOV VFs across
+e0f0b818243f37ebd373af083408b6d1e1b2ba9a idpf: fix Rx descriptor ready check barrier in splitq
+6a39b8505879c1f316ac4e20c2c5be1c38e4c059 idpf: use a saner limit for default number of queues to allocate
+92661776b942499763278a9fd701bf1446c31470 idpf: link NAPIs to queues
+ee87beb66acc523d33f9d07e2588ab60e45f4d14 idpf: add 4-byte completion descriptor definition
+bf0b2897f76e63c6b8597a83d1cdb39b6878f675 idpf: remove SW marker handling from NAPI
+148931dad9fce97c12d05c2e2e9a998f6f8ae5fb idpf: add support for nointerrupt queues
+5730c5a374a77d51d1ffddfd4b4af40687b37463 idpf: prepare structures to support XDP
+5a63eea64cf88d700d2aefcebabe4bf72e8bce00 idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
+bc58cf06ed68a1f83ac62a03e62f37fad17c8deb idpf: use generic functions to build xdp_buff and skb
+6db687c27ddafbe9abc87cb89eb19e9612e9eb30 idpf: add support for XDP on Rx
+0396e486b81c06a2d23f5dd6299dc34c0675fb49 idpf: add support for .ndo_xdp_xmit()
+cfb549e27c987cead4d634d68bbd86bc1c86c4ef idpf: add XDP RSS hash hint
+a3f4c6915b74770fb74b8e9c093975313fad24ad virtchnl2: rename enum virtchnl2_cap_rss
+08d7ca98ca84175dc02eedfa2b9a31f243f92cf0 virtchnl2: add flow steering support
+382e7a74ba5f1431f9b2e7bd9dc912da4667bde2 idpf: add flow steering support
+b62f201a550a9109aa13976a7c03896d6a95af06 ice, libie: move generic adminq descriptors to lib
+16df4f3c58b82ee2ce595b4bb3f450ab56339844 ixgbe: use libie adminq descriptors
+21043bcb0254520c1142c0cae4c39fcdb34e88af i40e: use libie adminq descriptors
+36d182e73aa72fab356ecbfec9a75cfee159c1ed iavf: use libie adminq descriptors
+9fa947edcbd6cc5a111595346eea76dc107beb06 libie: add adminq helper for converting err to str
+063fb3fe01f3a9c53d48011852a59cee5facfb8a ice: use libie_aq_str
+321588e5c3de3530723f82d4fcc75b8c733dcb46 iavf: use libie_aq_str
+618fdb7f69004d308f0c46e008dbe3a0853364c3 i40e: use libie_aq_str
+b1c7a2f68de9a628b873f122661c740f4444bd36 ice: add 40G speed to Admin Command GET PORT OPTION
+c102fd7922dc04313efef7d26661e83453472a99 ice: add E835 device IDs
+4eee131d273adbbab373ce5f3cfff71053ad0d3f ice: add NULL check in eswitch lag check
+10ed441b18fcaefb94e6847ebb1e412af860b0f0 devlink: add overwrite mask from factory settings
+07aeccb5a48ac90e1b1172a461a565abf881a1d3 ice: add overwrite mask from factory settings
+a24a1763c256da3724845896d30ba9573bf8d6af ixgbe: add overwrite mask from factory settings
+036b5bd9aa65d3a1ed2a2b891d3c0aa834683175 ixgbe: initialize aci lock before it's used
+2214ff5cc6cc37096bd37da520e0ecd73f75dc61 i40e: report VF tx_dropped with tx_errors instead of tx_discards
+aa59beac6948de8b74e3f0ff29473e593afe659a ethernet: intel: fix building with large NR_CPUS
+343a40f20418b54d064541ceda518c298d37f237 ice: convert ice_add_prof() to bitmap
+9cf514eacb23e12a7bca5a03883bd70421e9a037 idpf: add cross timestamping
+e6a8c752c97ee1ccc0ea6a8a81e37425f3b71bc3 igc: Relocate RSS field definitions to igc_defines.h
+efae907f5b07cf7904974437c2a44c4311bd98d0 igc: Add wildcard rule support to ethtool NFC using Default Queue
+af7839c84d733929d4f2479fc6c4675269dcd04f idpf: preserve coalescing settings across resets
+e763904b2376ca3089ac6e174c4313c56da045b9 ice: check correct pointer in fwlog debugfs
+dcd5634563c3db6e9206c00a8b73551c00e4212e i40e: When removing VF MAC filters, only check PF-set MAC
+b8ccbe3b87843e04daf11e6d7ff7d0aec5fd6716 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
+23a6a993a26c78789ff08a03f3aa66dbdaa62395 ice: fix possible leak in ice_plug_aux_dev() error path
+d76cc0462fdea9d7a7a9aa5750f542ad0f738e16 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
+41b95c44766e78ae0760965a10b10533192daff3 e1000e: ignore uninitialized checksum word on tgp
+9a2eff4d6325cab3367d7fa94384596dbc5feba2 ice: Fix a null pointer dereference in ice_copy_and_init_pkg()
+16756624940fa459b7aa64df1faa982456264e3b ixgbe: add the 2.5G and 5G speeds in auto-negotiation for E610
+ff50434162d0cf13eb5b1b3c63c13f5fb4b75499 devlink: allow driver to freely name interfaces
+551c89ef198f2fc7e1a85705304c7678749522eb ixgbe: prevent from unwanted interface name changes
+772b1602fb2a2bf4379c8cb2cc4cb388e373b515 ice: add recovery clock and clock 1588 control for E825c
+ca6a3e7618db3ecc7c54c3496e253fdd09add463 igbvf: remove unused fields from struct igbvf_adapter
+c2150c363174306aa7089b17d45d3ceaac5f6f78 e1000e: Populate entire system_counterval_t in get_time_fn() callback
+9dd2aeb4f8b937e8f349285f7466d9d46d238cda idpf: introduce local idpf structure to store virtchnl queue chunks
+e4044f98f45325df305e2e733e44019240960c2d idpf: use existing queue chunk info instead of preparing it
+ede404dcd2ed8f38a5f672133914d5ba16fd5559 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+81930b4751f57a8fd68860f444b1a31328cb2b3b idpf: move queue resources to idpf_q_vec_rsrc structure
+b87f2688ff8dc424f38f0083492b37f874c4342a idpf: reshuffle idpf_vport struct members to avoid holes
+08598741d526d7d31d1bb43b8064de75d20e9c94 idpf: add rss_data field to RSS function parameters
+68970560cbaf37ace7650af77178bb02b98051a4 idpf: generalize send virtchnl message API
+c0f42f179296f75939c4233d353e6d122afb4f94 idpf: avoid calling get_rx_ptypes for each vport
+360944f0771abe1899da037f276778521eaf08a1 idpf: generalize mailbox API
 
---===============4813489771458931399==--
+--===============5787784768704664688==--
