@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 15 Jul 2025 14:29:47 -0000
-Message-Id: <175258978709.2037083.1355080863803376650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 15 Jul 2025 14:38:26 -0000
+Message-Id: <175259030650.2044186.9967506955503863823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: e70513bd98e3912b431b196e3cf53ac821598e6a
-    new: 2aa8ccab5ae67281e4d3660f8d9ee68d8b76fcef
+  - ref: refs/heads/master
+    old: 2b0a6fa0840715bbffe5b7a2195795575ce14600
+    new: 8c9977b02169621f4643106c18de4de9824485a9
     log: |
-         2aa8ccab5ae67281e4d3660f8d9ee68d8b76fcef gpio: pca953x: use regmap_update_bits() to improve performance
+         8c9977b02169621f4643106c18de4de9824485a9 adapter: Fix RemoveDevice timeout when device already disconnected
          
