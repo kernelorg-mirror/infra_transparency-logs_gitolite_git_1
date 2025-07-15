@@ -1,27 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 15 Jul 2025 13:52:43 -0000
-Message-Id: <175258756377.2004108.17510930030816534396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Tue, 15 Jul 2025 13:59:52 -0000
+Message-Id: <175258799271.2010049.14261185689285529895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/dmabuf-vfio
-    old: f6d59f2ea0c48972c4492ba01fa1f93669909fda
-    new: b995be0fff0e33e5b59b4aab51cb4fac64ad9a1b
+  - ref: refs/heads/devel
+    old: 2427d69c3dba3f9bce73d36c2c0adf37b5aee5d9
+    new: cc43eea3e1ef99ea4a5057e7b6bfcd9ed8e2a1d0
     log: |
-         5fc16abb6301e416b0676d3e57ebf17c3ea34e85 block-dma: migrate to dma_map_phys instead of map_page
-         76a7bc00573dddbfb25a3c6a5c48ce388e14ee95 PCI/P2PDMA: Do not store bus_off in the pci_p2pdma_map_state
-         3f363dcfef5807dc1829e6a62d82a66f6626d1a0 PCI/P2PDMA: Split out the information about the providing device from pgmap
-         4c77f0955fba51083abe0e1cf06ad8a089f953fd PCI/P2PDMA: Rely on caller to provide proper provider pointer
-         49bb40620939b8b6e2b31d6ecabf6be8783712eb PCI/P2PDMA: Provide simple interface for DMA ranges
-         4b3d8eaaa54a8aea4f356460bfaaecb1fab5b513 dma-iova: move phys_vec definition to types.h
-         da2c2fdaafb525e88b80258d344e5fd8dd7494bb vfio: Export vfio device get and put registration helpers
-         a531038bcad2bec9b14ffb2cec9f4d3dd888e52a vfio/pci: Share the core device pointer while invoking feature functions
-         b995be0fff0e33e5b59b4aab51cb4fac64ad9a1b vfio/pci: Allow MMIO regions to be exported through dma-buf
+         c8edb80494407f65a253ea63ffbae3fb831f397a pinctrl: samsung: rename exynosautov920_retention_data to no_retention_data
+         2642f55d44ce563f227dd9c620eda0dec8d882be pinctrl: samsung: add support for gs101 wakeup mask programming
+         683d532dfc9657ab8aae25204f378352ed144646 pinctrl: samsung: Fix gs101 irq chip
+         cc43eea3e1ef99ea4a5057e7b6bfcd9ed8e2a1d0 Merge tag 'samsung-pinctrl-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/samsung into devel
+         
+  - ref: refs/heads/for-next
+    old: a1459bbb75f9d84890493e35eccd545bb9acb52f
+    new: 214f42ff67514df3bf2edf8b1c79862a83b1a2c7
+    log: |
+         c8edb80494407f65a253ea63ffbae3fb831f397a pinctrl: samsung: rename exynosautov920_retention_data to no_retention_data
+         2642f55d44ce563f227dd9c620eda0dec8d882be pinctrl: samsung: add support for gs101 wakeup mask programming
+         683d532dfc9657ab8aae25204f378352ed144646 pinctrl: samsung: Fix gs101 irq chip
+         cc43eea3e1ef99ea4a5057e7b6bfcd9ed8e2a1d0 Merge tag 'samsung-pinctrl-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/samsung into devel
+         214f42ff67514df3bf2edf8b1c79862a83b1a2c7 Merge branch 'devel' into for-next
          
