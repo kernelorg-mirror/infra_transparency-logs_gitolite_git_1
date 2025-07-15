@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5016453073970727045=="
+Content-Type: multipart/mixed; boundary="===============4395507077758883319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 15 Jul 2025 13:07:17 -0000
-Message-Id: <175258483722.1946330.12480038293245383358@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 13:07:20 -0000
+Message-Id: <175258484013.1946500.10925791763607251439@gitolite.kernel.org>
 
---===============5016453073970727045==
+--===============4395507077758883319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,124 +16,135 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: c03250de6dd551667a82ba3e7eaf85371fe32d2e
-    new: 167651adebc720ce88f7045baf5423a8fe253a4a
-    log: revlist-c03250de6dd5-167651adebc7.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 139439deda04729a10122fa4fc4fa412bca2a2a8
+    new: cb3da7d94d121ece295f3267e39b9458c07e96d1
+    log: revlist-139439deda04-cb3da7d94d12.txt
 
---===============5016453073970727045==
+--===============4395507077758883319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752584876 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752584879 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1752584834-743ca0dd5ac2a7527221884dab2e658a36ad04ed
+nonce 1752584837-d12e93433cb660c7d99f9dd1286ced5490e08049
 
-c03250de6dd551667a82ba3e7eaf85371fe32d2e 167651adebc720ce88f7045baf5423a8fe253a4a refs/heads/linux-5.15.y
+139439deda04729a10122fa4fc4fa412bca2a2a8 cb3da7d94d121ece295f3267e39b9458c07e96d1 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh2UqwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7vAQAJFGFfjI8xV36XKlSmYI
-LTLDcUOuk1ppuTExehbNaT40zyLqJd3uO2V+axoL2OxsiPGC47XpLR3K5RfSEcgM
-e02AFWN9/i1X8t52Rq6izcsC7Vab4eEtGL7CjsnX6UowMXAqY9CBZ7Yy0rlODkRl
-3KcPiTPnJaiSH57aZ+R8DQQjGdxvq0iAly8kil0DMAGgzoB+NjbrFNT+d7/Io9LM
-phV7vyHeROsOotRTIWHB3vY9ZcC61TckM1jsfvu32N7kNSeLOx6Ta6b6MzNLLDIL
-ydV3CbVVAzmpM1MpI7/CUPl/y6i25SU7n5S9NXC3bmTkSPvQXnco1vmgq4ri4n0V
-R9BONJM2eaLYeuTvTMDgVu6g/Z45tFtN3/jioz1TyqFygKEDMERtcan3KuwSy9W8
-SqsDg1iAItPxvCfY98mAGK2N0WYxIZQ8wh4LZl9FWO6YtePjGMtQhW/7xJvTbAXJ
-jv1e9ID6ZvfowlqVSDVDr8/LU2lXoAS8u9KGDIiH89xcD5vIJAPwV5XhjIYSD4+e
-KbhNv71hmqnIOOToAZJLWRE05dyjm5D0JrPtwHHh2kLwIERxwudsJlfGJbbr9lKV
-h2SSpYWYsuR6kzHFLB1sDEkh7T+qiQ3gpW4uUDFDT1gZvWCs10MVKOlT3QgbCZ+X
-la6H5V4AltScoRw3N1yv3wEd
-=Phw1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh2Uq8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n74P/2Gza1XyBh8RQl42xt5t
+8Dm4NyHC734d5yrFkVRI5bnXke3Mj5KSTBXyn7DpDxZjPS5cDbwLJ3H56WIUsTj9
+XlHeXPQ8Bk01P+8GfFPZCEp4NruN5vFY6D/o/lIeBgVi6GC09GqP38ZrvdeFYno6
+9tPsd3ckjDaRqDzPYzTrmuqg67cmIiMMIpEp5uo8QCRY12niSzLe2q5N+GVbKjWW
+3KO3Rhxn5DBB/Z/O+uzbchcA6S+BWQs39mkXHszu+vn+6vnqlXK/0D6a9D+3ray+
+ncX0bd9danCmMn1o6RNUMhDb0nMDY7HvQ7q9K3OtGEOxB4Ots6mQiUTlf3duRv6o
+GjQjJgf6Nj9TnR8/kMyXEUnP7QjJmhmXJZxHzhcrpPWGFAEeuw6a6MG8nqTrxQHb
+040YlRXXGg4sDC5whgCcyWfJQ9yVSacIcWV1yLa+wX7N2Fw/CKHSq3t5MHvOyqLI
+w2DrzfvrKuDyTiAW9IMYpiFNtAZA69dEXLq66cGyW/P7QW3eaoT7vp6CJRewn8zT
+00lQbQ1tcSJb/+x9qRCXBAwFsS01TEQJL31JbIe1eHdIDH1ss2Ac/Q0pl9fS7LVS
+JLm6U/0u6/J0mWnNsWnxOpyUBQQRB+dLTxa8E6UFKf8rZzWJ8exkNPdLNq4UGM7q
+NYwtOgZl2tuJB2GBH/w74yUJ
+=xccx
 -----END PGP SIGNATURE-----
 
---===============5016453073970727045==
+--===============4395507077758883319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c03250de6dd5-167651adebc7.txt
+Content-Disposition: attachment; filename=revlist-139439deda04-cb3da7d94d12.txt
 
-83b903a7535e4d8ccd7537cf4825c1cb507f41cb drm/exynos: exynos7_drm_decon: add vblank check in IRQ handling
-7873ea7624a1cda5e9290ae9d515bdf59fbfb8ec ASoC: fsl_asrc: use internal measured ratio for non-ideal ratio mode
-96b7bc4c36423df7dfe1ffc1c886849cd1359d21 perf: Revert to requiring CAP_SYS_ADMIN for uprobes
-e4568e09aabed5af12cb8a82e14497fa4caacc56 fix proc_sys_compare() handling of in-lookup dentries
-c1306095d342053a98b4df2192d177699be8d413 netlink: Fix wraparounds of sk->sk_rmem_alloc.
-b304e6019432c9fb0f96ba2b7171fca1bc06cccb tipc: Fix use-after-free in tipc_conn_close().
-34490cf39cdc5841e155fd519c58e3486f24e6d8 vsock: Fix transport_{g2h,h2g} TOCTOU
-68e3f81acb64bdbd08dbfe9f5a905f0b581fa40f vsock: Fix transport_* TOCTOU
-bc91583d5727b75b7d201bae7c9bcf1b2267d4cd vsock: Fix IOCTL_VM_SOCKETS_GET_LOCAL_CID to check also `transport_local`
-3cfb8c10148ffa3be620ecd4799d489ae125e7f0 net: phy: smsc: Fix Auto-MDIX configuration when disabled by strap
-6b1e6bcfb1b85b54d96792d4715db65eb1d000a4 net: phy: smsc: Fix link failure in forced mode with Auto-MDIX
-ec99f2ba26fddd71b9f738f9187db8d30d142723 atm: clip: Fix potential null-ptr-deref in to_atmarpd().
-58450f4a8c409987bcdae685322f379079a24f0f atm: clip: Fix memory leak of struct clip_vcc.
-3cdc54d54a3f98da281e0c51cdbec375d480f42b atm: clip: Fix infinite recursive call of clip_push().
-7149521ce41634560e0ab4aa1ee954e5e7efcb49 atm: clip: Fix NULL pointer dereference in vcc_sendmsg()
-80a362a7486eb4f8e04787c098ee721a3ad38754 net/sched: Abort __tc_modify_qdisc if parent class does not exist
-cbc8a04123db33e5322c7d6a4919c9c8ebf31743 fs/proc: do_task_stat: use __for_each_thread()
-d06791911c03c1223af9f3cf1431076ace95f8ae ice: safer stats processing
-2a86bbb905275505c9c034a522cdc9b2ca6ed34d rxrpc: Fix oops due to non-existence of prealloc backlog struct
-e7b21a32b184b3858ba3a9d65df64793c8a08f3b bpf: fix precision backtracking instruction iteration
-a01d1f0ac97305033024a962e185b62d53175566 thermal/int340x_thermal: handle data_vault when the value is ZERO_SIZE_PTR
-4934535ff74bbc9c1516347b102af15e78bdac1a aoe: avoid potential deadlock at set_capacity
-e3a9f990e86db99ae72923c6e35bd8cd168ef6a4 bpf, sockmap: Fix skb refcnt race after locking changes
-c6c254de947e50158e92831d37633603d930904d jfs: fix null ptr deref in dtInsertEntry
-1dbd8a72728c785843302f681a327964485d513b xen: replace xen_remap() with memremap()
-cbeec58f35ace99cadb418e76f5623a75a5ff198 x86/mce/amd: Fix threshold limit reset
-23aa8863d12f0088d518ac85bc0e01120cc5bd09 x86/mce: Don't remove sysfs if thresholding sysfs init fails
-44e41ad8fe43ae005396ad15b556feaa00111a77 x86/mce: Make sure CMCI banks are cleared during shutdown on Intel
-b95b9b44cf65a964ba14ac273d229eb1dd8c20b0 gre: Fix IPv6 multicast route creation.
-e21f494cfc28d573ef730d0ffcc1f34ce46c0103 pinctrl: qcom: msm: mark certain pins as invalid for interrupts
-915ea1166220a62150f493832d25779c733deb98 drm/sched: Increment job count before swapping tail spsc queue
-93f01dd99c051cf2e5e8e3d54434ca9249a31fb8 drm/gem: Fix race in drm_gem_handle_create_tail()
-34e23c96191cdaa8ab69fd12720365a6c0c89f65 usb: gadget: u_serial: Fix race condition in TTY wakeup
-f1bde073cdc0f82dab2bac496eb67c8acdec2933 Revert "ACPI: battery: negate current when discharging"
-798da7bd74390503070601addc6d3811fcc8e452 btrfs: propagate last_unlink_trans earlier when doing a rmdir
-d7d47173355b8268986dc51605f2fa1a179660b9 btrfs: use btrfs_record_snapshot_destroy() during rmdir
-828df02b5e3cb7cb240ded1ef428d388a4dae9d0 RDMA/mlx5: Fix vport loopback for MPV device
-c194f0e0322d1d2eaa588c16b58259177ebcf4f2 pwm: mediatek: Ensure to disable clocks in error path
-012414cae33ceea85817aaa36276b8ec4c549ef9 netlink: Fix rmem check in netlink_broadcast_deliver().
-dbd7228575fac512af99cfe0fb290316ed47abea netlink: make sure we allow at least one dump skb
-984d97243df9fc24d58f13cc3b0bc0ad979e4133 virtio-net: ensure the received length does not exceed allocated size
-cea5c9850307cc0e2ab148822be317e2deafe88f xhci: Allow RPM on the USB controller (1022:43f7) by default
-d7adf61301a57d94b97a3071114b8fe3e43b2c9c usb: xhci: quirk for data loss in ISOC transfers
-009a89e2c1433d3c325db663604399ff1488ca52 xhci: Disable stream for xHC controller with XHCI_BROKEN_STREAMS
-89832459b93824d84859958ad4368e6c61980a2f Input: xpad - support Acer NGR 200 Controller
-354696e3a017e8f2eb75cb27934ffef41855c11d usb:cdnsp: remove TRB_FLUSH_ENDPOINT command
-26c2814ce30a39c925c339882b9c81ac77259bbe usb: cdnsp: Replace snprintf() with the safer scnprintf() variant
-efebf042b95c20b73608f81f9c758dc963b06476 usb: cdnsp: Fix issue with CV Bad Descriptor test
-2665424e4ebe62932a113f435f56dc882a736dea usb: dwc3: Abort suspend on soft disconnect failure
-c5fb504f0fe7e6abc7650a95329cabd649f7e7d4 dma-buf: add dma_resv_for_each_fence_unlocked v8
-3ebbaef302e4bbc35d0638c45164e98cf46b001d dma-buf: use new iterator in dma_resv_wait_timeout
-68e5c3cc710200ed0f144b3d0baa678aaa669164 dma-buf: fix timeout handling in dma_resv_wait_timeout v2
-82af0bea92a779da193eab240ebf541edf1fd915 platform/x86: think-lmi: Fix sysfs group cleanup
-c5b390c508e4fb88fe60223b2eb1674d86c36d2d wifi: zd1211rw: Fix potential NULL pointer dereference in zd_mac_tx_to_dev()
-380630f57148c567c7a81934f42e299119556955 md/raid1: Fix stack memory use after return in raid1_reshape
-fa91394754296540a78baf1ef4fabb786f6176ca raid10: cleanup memleak at raid10_make_request
-d2af95ba27c65aea0556440617d1f03984ca7bd4 nbd: fix uaf in nbd_genl_connect() error path
-9fc80b2e5f91b1fbd66bc8330dd74951b1a3494e smb: server: make use of rdma_destroy_qp()
-2e375c2abf461d7355794ab250375ab64a482de5 ksmbd: fix a mount write count leak in ksmbd_vfs_kern_path_locked()
-fa923a48bf780d11602f09f66f49a7884425d779 netfilter: flowtable: account for Ethernet header in nf_flow_pppoe_proto()
-f49192cf84d5427de124989f8c02551a0c18ee21 net: appletalk: Fix device refcount leak in atrtr_create()
-2052ca92f744f7321fc68645e279c6d132e485fe net: phy: microchip: limit 100M workaround to link-down events on LAN88xx
-3844aea102dcaa8ac2d9ddb3697d8d047ea10e8d can: m_can: m_can_handle_lost_msg(): downgrade msg lost in rx message to debug level
-945bc639f0e608c4931d979337225bb00beef544 net: ll_temac: Fix missing tx_pending check in ethtools_set_ringparam()
-e566389dd85ca9d064fa7ad0399ee056f2ee0cbe bnxt_en: Fix DCB ETS validation
-d434f6a0504b3660f5166e694f403c61ce7abaa3 bnxt_en: Set DMA unmap len correctly for XDP_REDIRECT
-e673fc01d21df64d90161ec5b3f6294714de45e0 atm: idt77252: Add missing `dma_map_error()`
-08845a82e84124e0bbe25f59dfef36a155c30e5f um: vector: Reduce stack usage in vector_eth_configure()
-e15735398d11b53b1d27c5e023a34c69c5ca020a net: usb: qmi_wwan: add SIMCom 8230C composition
-0a54b4aa958e0cce78534fbc22ba2633795ffdb5 HID: lenovo: Add support for ThinkPad X1 Tablet Thin Keyboard Gen2
-b7bb77347f708f31bb3c35a44e9c39dd63cdfc81 vt: add missing notification when switching back to text mode
-9f476ab7fa730eeec05cd38dcb28ac834cf43c36 HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY
-3b41d31aa8687bf38c15bd43e5a7cc0dda7f4e3e HID: quirks: Add quirk for 2 Chicony Electronics HP 5MP Cameras
-d4924e2aa932a74e96424463a7c16cd569cefa67 Input: atkbd - do not skip atkbd_deactivate() when skipping ATKBD_CMD_GETID
-1531d4146b007486bc7a85350969a0d60771a158 vhost-scsi: protect vq->log_used with vq->mutex
-23ba875e4a5876ff4bf90626e980a7cb1d9505d2 x86/mm: Disable hugetlb page table sharing on 32-bit
-9ca07e825ae507ff158553267c121ee76e61bed8 x86: Fix X86_FEATURE_VERW_CLEAR definition
-167651adebc720ce88f7045baf5423a8fe253a4a Linux 5.15.189-rc1
+5e21b75bf55bc871306858b66f7f65ee3563edd9 drm/exynos: exynos7_drm_decon: add vblank check in IRQ handling
+f5b4c738531692554fb606682caa95cec0bf3869 platform/x86: ideapad-laptop: use usleep_range() for EC polling
+a548ba3a6429e0d820ed28bc25b48bd147c62539 ASoC: fsl_asrc: use internal measured ratio for non-ideal ratio mode
+b5a117883372bbebe3034aafbd0a41a41aaf0c2a perf: Revert to requiring CAP_SYS_ADMIN for uprobes
+a42e21d8e8787cdd9f38e92607c889b445fad165 Bluetooth: hci_sync: Fix not disabling advertising instance
+e9d99fc3540781c096417eabe78800252098d815 fix proc_sys_compare() handling of in-lookup dentries
+cbc5f630254de3501140230f2a39ea4518ed3a88 netlink: Fix wraparounds of sk->sk_rmem_alloc.
+6e15c66549dfe7a6d689d89bd4d260c1504bfd13 tipc: Fix use-after-free in tipc_conn_close().
+3cb69718e6ae8f7f5f6884cf1695f21e7a755877 vsock: Fix transport_{g2h,h2g} TOCTOU
+c785972fe050bb156ce3e092e77a08bcfaf4af0a vsock: Fix transport_* TOCTOU
+fb1dbace8f28887f3b6c58e033e44918154683c5 vsock: Fix IOCTL_VM_SOCKETS_GET_LOCAL_CID to check also `transport_local`
+eabe8f5571927bc13341fdfb3b0cb9d06fcbc193 net: phy: smsc: Fix Auto-MDIX configuration when disabled by strap
+ccd4150a9db22a7dc924388011698c89eb63c1c2 net: phy: smsc: Fix link failure in forced mode with Auto-MDIX
+6721bf262bd5ce2355848de1d7ac7a92465dee6b atm: clip: Fix potential null-ptr-deref in to_atmarpd().
+ae710c7305f6318cc1ce05cc025e1526237403b1 atm: clip: Fix memory leak of struct clip_vcc.
+fc779d00fdf56c70e964807fd07748b9b0e66e2b atm: clip: Fix infinite recursive call of clip_push().
+7708bbc10f1836814ba0e17e373114ac6798680a atm: clip: Fix NULL pointer dereference in vcc_sendmsg()
+7a5dc9e47d0f8f0c469fa94d4706e547b5fc40db net/sched: Abort __tc_modify_qdisc if parent class does not exist
+d4ce1a41d47999dc704cc1a6fc5ce3e6b2b50214 maple_tree: fix MA_STATE_PREALLOC flag in mas_preallocate()
+8e75e6cea963477ee8f8a70fb1b41601d7de3ff5 rxrpc: Fix oops due to non-existence of prealloc backlog struct
+e6ea2748067cd8fcd6a6570537f4ae413fa03a38 x86/boot: Compile boot code with -std=gnu11 too
+6b7e306ac4d66ed3f4fdafb1c69aefa8869eb06b ipmi:msghandler: Fix potential memory corruption in ipmi_create_user()
+3b5f2ffe5071f2c618e1eeffdfde1487f0cdae7c x86/mce/amd: Fix threshold limit reset
+f189f48a549bb203ef447f88784e389d6e343730 x86/mce: Don't remove sysfs if thresholding sysfs init fails
+a1f924681d38e373ef6284abbf148ff2eec2872f x86/mce: Make sure CMCI banks are cleared during shutdown on Intel
+09b3c64fbe1d2cfb35ce7c5b9a65981c4b37a31c KVM: x86/xen: Allow 'out of range' event channel ports in IRQ routing table.
+ca2b1cc9e2f866085efc365f4334e09be529e032 KVM: SVM: Reject SEV{-ES} intra host migration if vCPU creation is in-flight
+96df86ae5b1ef165f016a6a938e83a033c2d13cc gre: Fix IPv6 multicast route creation.
+36c8818f18bf765d887f5af7d472b6aa38a5f7ba md/md-bitmap: fix GPF in bitmap_get_stats()
+276bf982e55ed0afc2bc60362ac8f40c8e34cc82 pinctrl: qcom: msm: mark certain pins as invalid for interrupts
+e063f664b1a0a3a4073c9182e29f2e7e0ae6ffea wifi: prevent A-MSDU attacks in mesh networks
+179f72e413e09248640c0f7f7abc38dd4f2b5872 drm/sched: Increment job count before swapping tail spsc queue
+275915ba96029ebb6789c29c7dfeda39ead15bec drm/ttm: fix error handling in ttm_buffer_object_transfer
+6e3fd93cf54771b1cc5ff82ee8bd2616e6e885b3 drm/gem: Fix race in drm_gem_handle_create_tail()
+5b93118bb7cc152120c4cefc797b85bfa0c29cc0 usb: gadget: u_serial: Fix race condition in TTY wakeup
+3fedf46cc29f0a7cabd863e3a2f3c5db43e5c234 Revert "ACPI: battery: negate current when discharging"
+8810008d1d42a5021d4bdf619dee15e75de4aa51 kallsyms: fix build without execinfo
+3dc2f7f6b7d6b481f59be8e4c7e8af4be7c07f9e maple_tree: fix mt_destroy_walk() on root leaf node
+8e65835f037f1bbff21441eb092ae3d24cffff46 pwm: mediatek: Ensure to disable clocks in error path
+bf675c1cf631565da3caddbafc5767926d0a613f smb: server: make use of rdma_destroy_qp()
+1d8fe4eeda6219c74cdc442820e1a0368554e553 ksmbd: fix a mount write count leak in ksmbd_vfs_kern_path_locked()
+6f842a5fc2f47ed45f2d6ddcb565b5043cd8d74a netlink: Fix rmem check in netlink_broadcast_deliver().
+74351ba195d87631478fbc085b4483465b07f798 netlink: make sure we allow at least one dump skb
+395f83ca182a2e24be744e81bd58920557ea71aa fs: export anon_inode_make_secure_inode() and fix secretmem LSM bypass
+3304b24b283553f2c0bad528be31ab207eb92256 btrfs: propagate last_unlink_trans earlier when doing a rmdir
+22828a419c90c5af2394ea196479fe65daafa375 xhci: Allow RPM on the USB controller (1022:43f7) by default
+32ce0e14f4e25d367f8abeb2d196e72c12ae9d70 usb: xhci: quirk for data loss in ISOC transfers
+039fcaede6daf23568d60684c1ebe810c6834a66 Input: xpad - support Acer NGR 200 Controller
+fa86ffe45c8e0b7a19a676e94f878dcb10fe4c2b usb:cdnsp: remove TRB_FLUSH_ENDPOINT command
+6a1fd14aa60add0efff9c708f8d075a067bdbb73 usb: cdnsp: Replace snprintf() with the safer scnprintf() variant
+7ee1e89940b467367239ae520b45bee4ccab9f47 usb: cdnsp: Fix issue with CV Bad Descriptor test
+a4d1a156dbf26b2d5148325cd9b93b8c0d50b58c usb: dwc3: Abort suspend on soft disconnect failure
+b3eabd242653b84e7870c355ee7dafdcc2e8c124 platform/x86: think-lmi: Fix sysfs group cleanup
+82869672e0103e64536163318d4052edabd55a35 wifi: zd1211rw: Fix potential NULL pointer dereference in zd_mac_tx_to_dev()
+d1687eb252abc75f155de4e442af0ad606a24162 drm/tegra: nvdec: Fix dma_alloc_coherent error check
+f9c847311a439e70de9f5276db27013ba086724a md/raid1: Fix stack memory use after return in raid1_reshape
+5dd3425534f9058bd7f0b04d847caf2eb6ef7774 raid10: cleanup memleak at raid10_make_request
+22289c8b26d0b2e791c94237686476b4c134e74e nbd: fix uaf in nbd_genl_connect() error path
+9a5d51e61d1ed74e0af6eb7429013816597d13a6 erofs: remove the member readahead from struct z_erofs_decompress_frontend
+c85a322a0815f00231abacfaa5c289630d75a61c erofs: clean up z_erofs_pcluster_readmore()
+45581c910ac2015d840465c27230153e5a22c1b9 erofs: allocate extra bvec pages directly instead of retrying
+f670ad2bb4275c1ba160bcf85d844fab47b62530 erofs: avoid on-stack pagepool directly passed by arguments
+724db79534ad16fffb3cb33337a897d119e9aa23 erofs: adapt folios for z_erofs_read_folio()
+d79561b997f1f438e594c89b316e707607eae461 erofs: fix to add missing tracepoint in erofs_read_folio()
+ec989169393b9000a2604e60337fbf132cf80973 netfilter: flowtable: account for Ethernet header in nf_flow_pppoe_proto()
+e11c2277f7ca99b7cfe5cf5957135bbef5a9410f net: appletalk: Fix device refcount leak in atrtr_create()
+922f43ad852bc9601fb175f2738644f7e79b5528 ibmvnic: Fix hardcoded NUM_RX_STATS/NUM_TX_STATS with dynamic sizeof
+c1121e35174060780e45cd7d84d35058c6344cd7 net: phy: microchip: limit 100M workaround to link-down events on LAN88xx
+6b66eb6089c9ccc675adb03bc9b798adfa0a186e can: m_can: m_can_handle_lost_msg(): downgrade msg lost in rx message to debug level
+526687a8238e14173b9dbe4b8baa99eebb01056f net: ll_temac: Fix missing tx_pending check in ethtools_set_ringparam()
+420bfe911efb6a77164c3e3aa273c95f326e3c7e bnxt_en: Fix DCB ETS validation
+90a9b1f87128a368a5ccb96ad2e014c075b353f3 bnxt_en: Set DMA unmap len correctly for XDP_REDIRECT
+49e17be868a6e241cc121bb21b1f090b163a6d5d atm: idt77252: Add missing `dma_map_error()`
+89a5ce0160095a29d792262e4720fba037957b99 um: vector: Reduce stack usage in vector_eth_configure()
+0befda4ddfc1eb8d3f300d8c4135b4ceec11d444 ASoC: amd: yc: add quirk for Acer Nitro ANV15-41 internal mic
+e0a7497f0791b28273c989146c7315d2e77400bf ALSA: hda/realtek - Enable mute LED on HP Pavilion Laptop 15-eg100
+dc42e35124eaa289f15ae3a87037647ad448b486 net: usb: qmi_wwan: add SIMCom 8230C composition
+01a70a4539dd1a140a15849a0286f69390aa59a7 HID: lenovo: Add support for ThinkPad X1 Tablet Thin Keyboard Gen2
+04615388802a8c001fbadb31c351914985a0863c btrfs: fix assertion when building free space tree
+2fa4ae32df41bed393dda25c9da7387e233304a7 vt: add missing notification when switching back to text mode
+3779309cd533026ca04a47dbf425087cd761cea5 HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY
+d89ea346fa91ff2e34bc0f9a219e875a03786373 HID: quirks: Add quirk for 2 Chicony Electronics HP 5MP Cameras
+eeee25bbfb52449efe175e89804572b719163154 Input: atkbd - do not skip atkbd_deactivate() when skipping ATKBD_CMD_GETID
+c39f5f5e98d71121b31b007ace7891e12a686380 vhost-scsi: protect vq->log_used with vq->mutex
+5ad54fb6826450b56f9fb935b0598600963eec5c x86/mm: Disable hugetlb page table sharing on 32-bit
+838288da6d080102adc07c614c5a6a85314c40ec x86: Fix X86_FEATURE_VERW_CLEAR definition
+c4d926e3ebaf86ea0a2a7bee62819c9f05cbcda9 kasan: remove kasan_find_vm_area() to prevent possible deadlock
+6f8e22d343978fff4ade5f4c7678d118060cc721 ksmbd: fix potential use-after-free in oplock/lease break ack
+cb3da7d94d121ece295f3267e39b9458c07e96d1 Linux 6.1.146-rc1
 
---===============5016453073970727045==--
+--===============4395507077758883319==--
