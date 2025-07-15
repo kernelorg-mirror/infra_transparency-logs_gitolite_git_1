@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 15 Jul 2025 00:54:40 -0000
-Message-Id: <175254088064.1230774.16135302878576701162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 15 Jul 2025 00:54:42 -0000
+Message-Id: <175254088239.1230858.8340526941186538228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e18f348632ec4ee25d9172cdff273f0e939241c7
-    new: f0f2b992d8185a0366be951685e08643aae17d6d
+    old: ff2ac4df58adb6d7721bb0ce6069e1bd0e613126
+    new: a44312d58e78cfe8f0e72435101b7a9187b21d46
     log: |
-         f0f2b992d8185a0366be951685e08643aae17d6d net: phy: Don't register LEDs for genphy
+         a44312d58e78cfe8f0e72435101b7a9187b21d46 net: phy: Don't register LEDs for genphy
          
