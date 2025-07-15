@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5083288702786797924=="
+Content-Type: multipart/mixed; boundary="===============9114006405463505651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 15 Jul 2025 15:39:53 -0000
-Message-Id: <175259399346.2104716.2869374004321716890@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 15:39:55 -0000
+Message-Id: <175259399583.2104806.5980247584470664772@gitolite.kernel.org>
 
---===============5083288702786797924==
+--===============9114006405463505651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: b06c4311711c57c5e558bd29824b08f0a6e2a155
     new: 55e8757c696210292cfda6f1464991d6f5c4300f
     log: revlist-b06c4311711c-55e8757c6962.txt
 
---===============5083288702786797924==
+--===============9114006405463505651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ b7e28129b667dede890bc7bd340a77e325df156a net: mctp: Test conflicts of connect() 
 e6d8e7dbc5a363a8e55a65f3bbe7f9f44f0aeb4f net: mctp: Add bind lookup test
 55e8757c696210292cfda6f1464991d6f5c4300f Merge branch 'net-mctp-improved-bind-handling'
 
---===============5083288702786797924==--
+--===============9114006405463505651==--
