@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2212206487909417673=="
+Content-Type: multipart/mixed; boundary="===============7784055297951776019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 15 Jul 2025 11:15:44 -0000
-Message-Id: <175257814434.1827001.12717085097086175129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 15 Jul 2025 11:19:35 -0000
+Message-Id: <175257837532.1829413.10292126589124539939@gitolite.kernel.org>
 
---===============2212206487909417673==
+--===============7784055297951776019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5724ff190b22bd04fcfd7287a39c6e5494e40f0b
-    new: fdfa018c6962c86d2faa183187669569be4d513f
+  - ref: refs/heads/main
+    old: 444020f4bf06fb86805ee7e7ceec0375485fd94d
+    new: bbc19fef578970158847a41d9b6b6b218034b8c2
     log: |
-         c980666b6958d9a841597331b38115a29a32250e USB: serial: ftdi_sio: add support for NDI EMGUIDE GEMINI
-         252f4ac08cd2f16ecd20e4c5e41ac2a17dd86942 USB: serial: option: add Telit Cinterion FE910C04 (ECM) composition
-         fdfa018c6962c86d2faa183187669569be4d513f Merge tag 'usb-serial-6.16-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         e5d110fec068c7708002f4f372bf9ecdc1bc3da2 wifi: iwlwifi: pcie: fix locking on invalid TOP reset
+         5fde0fcbd7608dd5f97a5c0c23a316074d6f17f5 wifi: iwlwifi: mask reserved bits in chan_state_active_bitmap
+         46345ed36296d965af1b6e68e62076d67521c55d wifi: iwlwifi: Fix botched indexing conversion
+         bbc19fef578970158847a41d9b6b6b218034b8c2 Merge tag 'iwlwifi-fixes-2025-07-15' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
          
 
---===============2212206487909417673==
+--===============7784055297951776019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752578182 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1752578141-a505649127d11f03d919e2017aefb68f2e1eae56
+pusher 7BF9099A 1752578391 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1752578350-6926f88fb5d98ce0be1e43c3a8ac47f61207f4e8
 
-5724ff190b22bd04fcfd7287a39c6e5494e40f0b fdfa018c6962c86d2faa183187669569be4d513f refs/heads/usb-linus
+444020f4bf06fb86805ee7e7ceec0375485fd94d bbc19fef578970158847a41d9b6b6b218034b8c2 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh2OIcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EzQQAJWb7naxNPlGj0mlzALR
-W9CyHqx1QzYKm9JfS/7/nWxI076D/YZz+j+Fk7UciW28axWRQVU9k2GtVdrf1u6v
-5WTULlsLjVQSEAK7ApwbPryTi3dVLhdsKBegK5PuBXpKXX8e3VAO3eYt6ufrHO+v
-qgE/RFPeaLF7AL/kvS2SwRjV6aGa1G9k6KBHuc1eUH7GDr0J4qTy9K+tl1C9N4Mz
-wwmNI2N6XUt8I77u4AGyfI7ECYXhlY2DfpoU9were7uYKAAnOXf3ZFtw7PY8FJuq
-avH1UaQ7grcvhY0qQFN9PLFqts+2qVX6EoT67drqsXvdP2wcRdOzAiUjZJ34Hv5c
-leVKGAXPFKsS69nyymUBpiFu4S+0KvVrVWZ/4gwIZtxS8Vd8HDvmonApNtcNjVrt
-kRrwz0C3QDhaMP5XDzUqjGJfWrIvyy2UYwgJF5gnSE4HifO2kX7M3GZi4f6chTFJ
-yb68u5K8aidH2K6DpHCccLNv2mlea9JV/APgXFpgVr7qmYi/QbJWn8TTDOH/85PI
-8M0cwfh1lWCMQi2iw3ECo6rIH+CFE92yJdwscv/Lll7SQROsLqtrfPHu0F48Uc6Z
-XntEwYYsgtWCPhsLFyNjkgLom3AvRT9v9vTll2MLYPzoM9dql4wy3pC9BYOhPRqy
-USg63tTEvEPMOhs+bgWhub9h
-=kRz6
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmh2OVcACgkQ10qiO8sP
+aAC1xg//ZED4s+k1WaLNXNY8bvPoifi8VKbsnpSmx35nRa05XbqrC1zoEs+RNfcl
+zg4ZZo3YENJnxKmiSkB/7sPxIUNqn7CiBr7Rt41e9A04zfE5zhUV1xILMaJT7n2B
+7EKuw22506Vd3yIWN8sUTTuUqtagsvyhPnIRUz9ZAC3bh3+0mvg+AxVfrKw6onjN
+BjRVs2+EskvfJA53ksXkKk1qdCnEoRhe83UO7AekoZR7PHJ4n9hfBBy4n6OvSHat
+GiU2grhuUNG9eK1c77EXk05fA4H8CUeLE9kE5VvWBBe75D2cUSudfTvBo25Dmljf
+5VYWsKyJAJYyU9mJ9S0C6UkNG7gTV1zE9L4YBB18ALc+ZyuRyIznzh1TfIVF/Qmj
+PdBeg7yHdG0J5PSsJOWONPrYsfUdsZKgaBMrMbg64s7ZK4rR/SOjHgdUHlAZ/3D4
+dbeqQKbXH3BanymUabfXA4n4cAG0N15kVy1ud0fZDgidfmMkaB5KjWI88IDx/Upi
+O/sCTmxWQ+SV9hOl/G07uKX0wU+eSNHdhAdcJtIkpO+4imNEnUVsjnOI5YYPIhnz
+dsPWj8NfDkSJlp+hpgsKGvNBIcHIgJ/4nTUhFIcmasuj/5wVPsnoQfYGcVYSp/nk
+pWR17mFQEo1eK/uYkv8JQwUOCKEws+/2z6wThT81rkDGd0yDmcU=
+=p9Kp
 -----END PGP SIGNATURE-----
 
---===============2212206487909417673==--
+--===============7784055297951776019==--
