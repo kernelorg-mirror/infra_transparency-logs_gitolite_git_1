@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 15 Jul 2025 14:38:26 -0000
-Message-Id: <175259030650.2044186.9967506955503863823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Tue, 15 Jul 2025 14:39:27 -0000
+Message-Id: <175259036710.2045457.1190228726380682541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/master
-    old: 2b0a6fa0840715bbffe5b7a2195795575ce14600
-    new: 8c9977b02169621f4643106c18de4de9824485a9
-    log: |
-         8c9977b02169621f4643106c18de4de9824485a9 adapter: Fix RemoveDevice timeout when device already disconnected
-         
+  - ref: refs/tags/chinese-doc-6.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 466bc7f2f9c6f60a068d80388752ed7e6d882d38
