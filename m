@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8224361669130201758=="
+Content-Type: multipart/mixed; boundary="===============4668789038570378352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 15 Jul 2025 01:53:56 -0000
-Message-Id: <175254443605.1286999.13988988309848831051@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 01:54:00 -0000
+Message-Id: <175254444092.1287256.18439600183284533495@gitolite.kernel.org>
 
---===============8224361669130201758==
+--===============4668789038570378352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: d5a2f5ed9e670763dff68703fd63764d507a0a3c
-    new: 208c286a09e28bbf22fde864778a7c955e562ba6
-    log: revlist-d5a2f5ed9e67-208c286a09e2.txt
+  - ref: refs/heads/6.17/scsi-queue
+    old: 15592a11d5a5c8411ac8494ec49736b658f6fbff
+    new: 26b971d58ab9f0d5003ac750a97bb88cec7aa2e1
+    log: revlist-15592a11d5a5-26b971d58ab9.txt
 
---===============8224361669130201758==
+--===============4668789038570378352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1752544422 -0400
+pusher 75C5DE3D 1752544480 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1752544380-a501ec947d840e7425f1f727317cf46e5517b25f
+nonce 1752544439-a2a6132080e624c27eafe3c4ab5399fee16a9a24
 
-d5a2f5ed9e670763dff68703fd63764d507a0a3c 208c286a09e28bbf22fde864778a7c955e562ba6 refs/tags/mkp-scsi-queue
+15592a11d5a5c8411ac8494ec49736b658f6fbff 26b971d58ab9f0d5003ac750a97bb88cec7aa2e1 refs/heads/6.17/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmh1tKYACgkQ7ulgGnXF
-3j12chAAmu3biLljJ8/8OMst0OoFlNVE7qsCO/SWuWdCj/OGC8+7VV2VNzSL0H4c
-urTbNMK7+zc/78HaR/p+3fvlC//NaIiBO6Aik2H9iNH8Q2T0ULZFbNn7orI4tQ8A
-/S5j6aO121uCkjOeHpX5IqhQbh16xSSabysyaY1zeaX7vZTCESrkhO7YgInifvRM
-pHPEfE3g0/z0ySUr5hxq7ALm1/CzaTdn3drf5YVM1WRDaca4mq8djEVL1YBRv3El
-227QUz86SedHUaI+6Xk5Q17f71O1Ns16oFOF+WMJIGIV+PF5sd+uHs04AseinJLR
-dpvCBQ1UBQABK3/WT0nhxqJy5Pn8fAyFEh6ssnC4swNb1eyvs75PN6P/IP5LYdv7
-H6c94jS96tLpITb8bt4TWF6aUBz4K4Jb//u5YIOWGfHnC1KXTTnP/n+UEwXZGlBm
-an6Jz63r10WjM/hSs0DamIic5qQ2zJYyYi0/mz9pD/FOHDTLXtXCRibmDDmejvzf
-YufbKVo+/DZVzu0HeLdDq46c25jc3jdcbGdxmrcy3wgoVyLrvsDcuqjXZCZ7vF9l
-sFPH+2uqkXFSmGmjYxSxXZAG2zWLCIQte1lqFVHvmi0sI7EgUwI7cpapIZW/zb+o
-beuWJKPtGFwtn5EX/7Vw2rcoGGomc4/T5YDLe1jmoKLFdWZl4rU=
-=LcKX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmh1tOAACgkQ7ulgGnXF
+3j2vvxAAk6M345jHn6eoxELneMm4Nu6IlfzEKyCyqUPrWUyFl84CN9ClJAiaM9Wm
+ztkLseW0RXLll821Grh3P1p5byWu4tjTjsonLyi4A8/f+PB8IK6+oGejxmSzhYFy
+KsjDgdBBFKqG/7I21IeeCSeeo2hiGZPLuGqrKVBq6/T/5UUdCnMk0rB2pdwjLq6W
+V1f2Bnga0AaeXnCRROipKrzK/I/Sdik3JdF2Z5CyuIgmbc7MmGyjZBR6POmXKA4T
+hLatjfja35zO6LSJmUXU0MPQoK3O/dDE5eJLvGNNIamoPLKmiGVhWlShovNMmPU9
+HvUu9svOEC4aM2cJsR0c2lBDJ1u16Rc9qgCVevz0faGJdCpTlE+7aTswFvw7cC+t
++WtDx+mIYfEicjqGo5gB2mUgme3fuvwmmN3DNu25mZHntqN7sa6I4uVBot2o2QyU
+CpSBjA6UXGFYrZLQdMQfT9WJ1zwiRWOT9z/GwnzVk41UI60RRZB5BMJ49nxLAg7X
+ywD8HNZEJG9eKeAzUZPZTfAC/6YWBSesEu+PvuAEEy68/yXxiMFlA9RkTHjqio98
+29pjoV+R0VW0edqyMsm42RDaV0lgd+H3hbB4GffAyevNl+chSNkMqSfGiLhzfovu
+GeMgcrErIcbZo9NSgsrq/zmq7ow1TdqJjfoL4svIYbNKgYgYGeg=
+=2vI8
 -----END PGP SIGNATURE-----
 
---===============8224361669130201758==
+--===============4668789038570378352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5a2f5ed9e67-208c286a09e2.txt
+Content-Disposition: attachment; filename=revlist-15592a11d5a5-26b971d58ab9.txt
 
 e6d4486edd4a840e0ec9de4a35dee3448ca5a940 scsi: lpfc: Revise logging format for failed CT MIB requests
 5459bd49f05f7f0f420cb8564ea58cc12afc360e scsi: lpfc: Update debugfs trace ring initialization messages
@@ -75,4 +75,4 @@ ed575d4bca6ac84129046455803028a91e81cc64 scsi: mpi3mr: Fix kernel-doc issues in 
 6243146bb019a200c54a98c96b85f4b9012f2140 scsi: qla2xxx: Avoid stack frame size warning in qla_dfs
 26b971d58ab9f0d5003ac750a97bb88cec7aa2e1 scsi: scsi_devinfo: Remove redundant 'found'
 
---===============8224361669130201758==--
+--===============4668789038570378352==--
