@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6028005470556547320=="
+Content-Type: multipart/mixed; boundary="===============6345267896975344087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Tue, 15 Jul 2025 16:36:42 -0000
-Message-Id: <175259740216.2159574.9613327183548349313@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 16:39:30 -0000
+Message-Id: <175259757051.2161560.13412254344702500849@gitolite.kernel.org>
 
---===============6028005470556547320==
+--===============6345267896975344087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: wens
 changes:
-  - ref: refs/heads/sunxi/dt-for-6.17
-    old: 082c6a2d06c0831d236760a29953355845eee988
-    new: d96d9ac8d2f197f31ea3de931dde1a217950f4ad
-    log: revlist-082c6a2d06c0-d96d9ac8d2f1.txt
+  - ref: refs/heads/sunxi/for-next
+    old: 79ed31fc578a6d6a1355e925b61e9649a5af1533
+    new: cbe908fc8ebbea52f2d674773c2ddaf8cbfa4757
+    log: revlist-79ed31fc578a-cbe908fc8ebb.txt
 
---===============6028005470556547320==
+--===============6345267896975344087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-082c6a2d06c0-d96d9ac8d2f1.txt
+Content-Disposition: attachment; filename=revlist-79ed31fc578a-cbe908fc8ebb.txt
 
 8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 6678791ee3da0b78c28fe7d77814097f53cbb8df KVM: arm64: Add assignment-specific sysreg accessor
@@ -275,5 +275,6 @@ ca5ad734d30f30a577f705926d6e16a87513a2a7 Merge branch 'dt' of git://git.kernel.o
 3b430dce33a8b48ddcae4e26991b2516e0431e84 arm64: dts: allwinner: a523: Add power controller device nodes
 3d99e0dc888727a21b45ca64ff7b0cddbd17dd16 arm64: dts: allwinner: a523: add Mali GPU node
 d96d9ac8d2f197f31ea3de931dde1a217950f4ad arm64: dts: allwinner: a523: enable Mali GPU for all boards
+cbe908fc8ebbea52f2d674773c2ddaf8cbfa4757 Merge branch 'sunxi/dt-for-6.17' into sunxi/for-next
 
---===============6028005470556547320==--
+--===============6345267896975344087==--
