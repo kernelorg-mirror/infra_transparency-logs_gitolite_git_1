@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Tue, 15 Jul 2025 13:59:52 -0000
-Message-Id: <175258799271.2010049.14261185689285529895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Tue, 15 Jul 2025 14:03:06 -0000
+Message-Id: <175258818618.2013217.14120754513705772115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/devel
-    old: 2427d69c3dba3f9bce73d36c2c0adf37b5aee5d9
-    new: cc43eea3e1ef99ea4a5057e7b6bfcd9ed8e2a1d0
+  - ref: refs/heads/dt
+    old: cb1f2ebec676b661725787081d7fff96bafe629e
+    new: f99d4fccd2185176baf4ecac9a49d280fc62b953
     log: |
-         c8edb80494407f65a253ea63ffbae3fb831f397a pinctrl: samsung: rename exynosautov920_retention_data to no_retention_data
-         2642f55d44ce563f227dd9c620eda0dec8d882be pinctrl: samsung: add support for gs101 wakeup mask programming
-         683d532dfc9657ab8aae25204f378352ed144646 pinctrl: samsung: Fix gs101 irq chip
-         cc43eea3e1ef99ea4a5057e7b6bfcd9ed8e2a1d0 Merge tag 'samsung-pinctrl-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/samsung into devel
-         
-  - ref: refs/heads/for-next
-    old: a1459bbb75f9d84890493e35eccd545bb9acb52f
-    new: 214f42ff67514df3bf2edf8b1c79862a83b1a2c7
-    log: |
-         c8edb80494407f65a253ea63ffbae3fb831f397a pinctrl: samsung: rename exynosautov920_retention_data to no_retention_data
-         2642f55d44ce563f227dd9c620eda0dec8d882be pinctrl: samsung: add support for gs101 wakeup mask programming
-         683d532dfc9657ab8aae25204f378352ed144646 pinctrl: samsung: Fix gs101 irq chip
-         cc43eea3e1ef99ea4a5057e7b6bfcd9ed8e2a1d0 Merge tag 'samsung-pinctrl-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/samsung into devel
-         214f42ff67514df3bf2edf8b1c79862a83b1a2c7 Merge branch 'devel' into for-next
+         f99d4fccd2185176baf4ecac9a49d280fc62b953 dt-bindings: power: Add A523 PPU and PCK600 power controllers
          
