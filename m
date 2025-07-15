@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2475772383866933917=="
+Content-Type: multipart/mixed; boundary="===============4473448919106446769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 15 Jul 2025 10:12:37 -0000
-Message-Id: <175257435700.1771697.5766092593204464888@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 10:12:43 -0000
+Message-Id: <175257436394.1771969.17046079887531745850@gitolite.kernel.org>
 
---===============2475772383866933917==
+--===============4473448919106446769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,52 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 58805e9cbc6f6a28f35d90e740956e983a0e036e
-    new: 0f97a7588db7a545ea07ee0d512789bfad4931d8
-    log: revlist-58805e9cbc6f-0f97a7588db7.txt
+  - ref: refs/heads/main
+    old: 47c84997c686b4d43b225521b732492552b84758
+    new: f0f2b992d8185a0366be951685e08643aae17d6d
+    log: revlist-47c84997c686-f0f2b992d818.txt
+  - ref: refs/heads/master
+    old: 47c84997c686b4d43b225521b732492552b84758
+    new: f0f2b992d8185a0366be951685e08643aae17d6d
+    log: revlist-47c84997c686-f0f2b992d818.txt
 
---===============2475772383866933917==
+--===============4473448919106446769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1752574394 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1752574401 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1752574353-ce64bdc86f4101ed2b33b978f9bf889f20590713
+nonce 1752574360-4e57d2973e40068707b093949512ffe1458a111d
 
-58805e9cbc6f6a28f35d90e740956e983a0e036e 0f97a7588db7a545ea07ee0d512789bfad4931d8 refs/heads/testing
+47c84997c686b4d43b225521b732492552b84758 f0f2b992d8185a0366be951685e08643aae17d6d refs/heads/main
+47c84997c686b4d43b225521b732492552b84758 f0f2b992d8185a0366be951685e08643aae17d6d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmh2KboTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnO4QB/9zDW1bnrnPpkffmmWpg9R2Bv9FZCKg
-3W3LFHyUvPgLi4aXVRLxElmXQwNgFJg1fyBfK/NDzFqcGAelhxpVNf6hY4WvtD2M
-uuqdBLdpGzp3Rq5U1CDVhT85a7L8FCzE/TkDX8Qiyj7yRliaP7msbVUSgT5UpoZd
-PR4oqczTpFlt8SpCW/OxHAR3tcwoqplUWf2WUvM/ANjSvyTOznEteo8tqWWLu1bn
-P+cDcaMvTuUUuDot6c7SfqCvsoCV37H5OgYt8zEeHw1Poh8+yT+jNNSm8G89QK6j
-CPYX8GjDx+o/cwdpPTPv5iW9C5GSgp/yEVwfS8ZJo6xaq59yo/mbCe9L
-=/Rba
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmh2KcETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnAd2B/9VFVGDJ4NWP1ATZ4g8P2N38CJ0Cggk
+Hb73SzWZ4Xy2dP/ew+Q75jcJhzUqXYKWsqPOEu6ynb7//8Xwa7RlLx4dxzO9xfRy
+ZIGeOxKgOPl++oAIKWgNyusDZaK4rOYp9dUpTyGYU6cg7epscv1rDcCJc4Ma187X
+MVyXAi/xwEb35EKgd3V3Kh458Al6wd4KJGWG3GKuIit1NvmpYDnuSPeSitgl3jrb
+UY7J+xRUqpeuw5F0KB6OtglNVx4hF2mH0GmK/ZZRy+6KHdMAZg2LUi8lVLMqfxJY
++tnyMV7wFd/XYAumDa0xHFTKj6+4hkDYoBPfeoMuu1UDj6ikNRahMSaX
+=1t56
 -----END PGP SIGNATURE-----
 
---===============2475772383866933917==
+--===============4473448919106446769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58805e9cbc6f-0f97a7588db7.txt
+Content-Disposition: attachment; filename=revlist-47c84997c686-f0f2b992d818.txt
 
 aa807b9f22df2eee28593cbbabba0f93f4aa26c1 dma-contiguous: hornor the cma address limit setup by user
 30e0fd3c0273dc106320081793793a424f1f1950 gpiolib: fix performance regression when using gpio_chip_get_multiple()
 d563e7f95c933816efe531c3a48e22bc099c0f55 gpio: of: initialize local variable passed to the .of_xlate() callback
 ec3cae639482a8da11a3ae30d28ceceb9d6a3f56 PM: sleep: Call pm_restore_gfp_mask() after dpm_resume()
 edb471108cf1477c44b95e87e8cec261825eb079 MAINTAINERS: remove bouncing address for Nandor Han
+58805e9cbc6f6a28f35d90e740956e983a0e036e can: m_can: m_can_handle_lost_msg(): downgrade msg lost in rx message to debug level
 71b976db8c6e683831e1492efdf1fe0a8487adef Merge tag 'linux-can-fixes-for-6.16-20250711' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 f7b76466894083c8f518cf29fef75fcd3ec670e5 net/mlx5: Reset bw_share field when changing a node's parent
 eb41a264a3a576dc040ee37c3d9d6b7e2d9be968 net/mlx5e: Fix race between DIM disable and net_dim()
@@ -81,6 +87,5 @@ b640daa2822a39ff76e70200cb2b7b892b896dce rpl: Fix use-after-free in rpl_do_srh_i
 60ada4fe644edaa6c2da97364184b0425e8aeaf5 smc: Fix various oops due to inet_sock type confusion.
 e18f348632ec4ee25d9172cdff273f0e939241c7 selftests/tc-testing: Create test cases for adding qdiscs to invalid qdisc parents
 f0f2b992d8185a0366be951685e08643aae17d6d net: phy: Don't register LEDs for genphy
-0f97a7588db7a545ea07ee0d512789bfad4931d8 can: tcan4x5x: fix reset gpio usage during probe
 
---===============2475772383866933917==--
+--===============4473448919106446769==--
