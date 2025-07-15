@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5880354654878483953=="
+Content-Type: multipart/mixed; boundary="===============5445962574959365909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 15 Jul 2025 01:54:30 -0000
-Message-Id: <175254447012.1288600.17632219792876722593@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 01:54:52 -0000
+Message-Id: <175254449242.1289005.9813951719341150714@gitolite.kernel.org>
 
---===============5880354654878483953==
+--===============5445962574959365909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 765c43742cc6c92fa28201523e128899c7aec48c
-    new: 30c0375b432ff62b05723a681a37a619cc0b393a
-    log: revlist-765c43742cc6-30c0375b432f.txt
+  - ref: refs/heads/6.17/scsi-staging
+    old: 26b971d58ab9f0d5003ac750a97bb88cec7aa2e1
+    new: add4c4850363d7c1b72e8fce9ccb21fdd2cf5dc9
+    log: revlist-26b971d58ab9-add4c4850363.txt
 
---===============5880354654878483953==
+--===============5445962574959365909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1752544491 -0400
+pusher 75C5DE3D 1752544514 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1752544450-af510c6633c025f1c682c2032ce5502b258716a2
+nonce 1752544473-faec1654746b00be5040bada64593f7bae0cd340
 
-765c43742cc6c92fa28201523e128899c7aec48c 30c0375b432ff62b05723a681a37a619cc0b393a refs/tags/mkp-scsi-staging
+26b971d58ab9f0d5003ac750a97bb88cec7aa2e1 add4c4850363d7c1b72e8fce9ccb21fdd2cf5dc9 refs/heads/6.17/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmh1tOsACgkQ7ulgGnXF
-3j1/3g/6AghZIzTtP8WBqsUKTtpxqTuh7cgNmNyaP8XCUJG2k++xpANxsplDRBvX
-cTIFB6NEMI0fNNP8jkcBbsxNnb0luosQ3hqOZ7nmAzvt9RoCPiJ2cF+Ws/e0Pj2s
-jQhvGlbwJKR5bh1oNeZk3pelDn98px5J6rzTFKOCYV1sO38gCdgwm83RL3zdMK5R
-dTHpBquYqMz7DEoHIY1aJ/zZRnuENawUDVRnSFhh+izMPZ2/jhDmGXxjowLqLMY5
-mm3UAIUN2TnyEzrIi+2mEoOITnYyzhbLPi7CvwMkQWQqVSbgJhXXs5l6aItAsvm9
-06GbPk2gOYHflzykoUHOQ3QiLp6DNyzI+l2EIGSDqVTyYBuzffDsIUnJNHMnUETy
-zdLD82Z+VIHml9NdUd2RLJpI+KYxnk6hGkkULjN/GMUt7gXYUkErDVmz+xezYLfT
-iQX9iJ6RT+FdhGBN0UG3fYcluCYuU3SXWvCLPoCAYTpQsPBjcW2DEoTagF4G6jUU
-O73neQdhbdShXgzMT4zNLXdM49DZIMUvhMRmsnE+Wg9nlNdhqM8sim7E+NUP8yyh
-IImDVYKS6scEfbGujpLWRx9HJ0heWt+OELS/cO0Zw+KSDjbY2hr8RK8tj6i198oX
-uTgnZkd5HPPecH+dTpPLbp6hunrqPvtAvLrTAuRYvZtMa1Enthk=
-=2Rx5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmh1tQIACgkQ7ulgGnXF
+3j0tVQ/8CvJYGFR7ppavr4LoCN5atS55T7kjdqYTqwGrrimfeT3DvYWn6cGrZyTM
+8AfychLf1xUTr+0c9J5gGlyKA2Ul3QwL9TbvMqzmJUiVOSUFk2zgwiVd/9q4LW9k
+Z5ysg5cRTCdwWy0M8SALzig+tCJ2g4Wa1/QTZ3melW1Y5Ylyo2i9En2UWmwKce77
+lOBGO/ARkcuVwv4yUqmX3e7MNYIz1mdBxKLODRD35/M8IRFFv4OedkqecqolZ2uV
+VOva2TgF8qKlMFEFQRPRhCBleQlQoQc4XpJLFCdIVZvBykNMAXKxcX64yFL2QpYZ
+r1P4LvNgEyHdabHtl1V2xdEDx6C8ULDSPwv2Zv7n6JpkPNd+cWF06V17pmXITf0x
+pb65tYs+K6jLZvk7ELwEJyhf3zmgE+N3kVWmaGWyUp42i+tX1RGiD53qq0bhxX0q
+HS0kIh59OieXt7bvWSDLulpqBafBvaisoZFRIw67ruVspUWP3odZStSa+bn6hPzD
+C7WzhOyYyiCkcZhIwY0KX8egi2WDdm2ChT+MOuW1/VzMLigDzX5SNzLwub1Gulzr
+5RZ+q80XGp0Cxl4Lho/yohRXDDXIDcEW1E/8m0gjH8ZpimVK0R/Pm67zzKcODkfg
+YLv6l84yGaqZgh+jirDELftCVB2oRoF75SgWjP75zarYvMqKWlw=
+=VpU7
 -----END PGP SIGNATURE-----
 
---===============5880354654878483953==
+--===============5445962574959365909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-765c43742cc6-30c0375b432f.txt
+Content-Disposition: attachment; filename=revlist-26b971d58ab9-add4c4850363.txt
 
 cc59f3b68542a2ef05e7afd0cc329ff8b8a649d0 scsi: ufs: core: Improve return value documentation
 b152f199fa43ef96ecb29cefafa1e9b0e02b6f3d scsi: qla2xxx: Remove firmware URL
@@ -78,4 +78,4 @@ ae996aeb0e495471e171d0d59d97f344c9a29968 Merge patch series "mpi3mr: Few minor b
 b99a50672513a1445ce777041e3b4d2f829a40d6 Merge patch series "ufs: ufs-qcom: Align programming sequence as per HW spec"
 add4c4850363d7c1b72e8fce9ccb21fdd2cf5dc9 scsi: bfa: Double-free fix
 
---===============5880354654878483953==--
+--===============5445962574959365909==--
