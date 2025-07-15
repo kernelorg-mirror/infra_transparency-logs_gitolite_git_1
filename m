@@ -1,66 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3580924732030078492=="
+Content-Type: multipart/mixed; boundary="===============0375452786595056849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Jul 2025 06:39:27 -0000
-Message-Id: <175256156711.1531796.14984226568180932113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 15 Jul 2025 06:42:20 -0000
+Message-Id: <175256174084.1534792.7371742208697695631@gitolite.kernel.org>
 
---===============3580924732030078492==
+--===============0375452786595056849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: c3203f657090a4871834e039e9af4fe26413a55d
-    new: d9e2d72cc1c47985bd7e1424cbe7ed2e6a6e1861
-    log: revlist-c3203f657090-d9e2d72cc1c4.txt
-  - ref: refs/heads/tip/urgent
-    old: 3b686b841c22e42368536345b5890718dcbe35ac
-    new: ffd9dbccbd55dfbe2d6a0a5328475c40aa74144f
-    log: |
-         b1bf1a782fdf5c482215c0c661b5da98b8e75773 dm-bufio: fix sched in atomic context
-         36569780b0d64de283f9d6c2195fd1a43e221ee8 sched: Change nr_uninterruptible type to unsigned long
-         155a3c003e555a7300d156a5252c004c392ec6b0 Merge tag 'for-6.16/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-         6f111c8ca98f34c6658ea70d4d72d3dcdde4bc49 Merge branch into tip/master: 'locking/urgent'
-         ffd9dbccbd55dfbe2d6a0a5328475c40aa74144f Merge branch into tip/master: 'sched/urgent'
-         
+  - ref: refs/heads/x86-startup-confine-v5
+    old: 38e2c05f6fed5344250bd4593d6b00f1f4538a47
+    new: e19b089a8c54a75793c3abbd03ccb4d6ed2b795e
+    log: revlist-38e2c05f6fed-e19b089a8c54.txt
 
---===============3580924732030078492==
+--===============0375452786595056849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3203f657090-d9e2d72cc1c4.txt
+Content-Disposition: attachment; filename=revlist-38e2c05f6fed-e19b089a8c54.txt
 
-6f111c8ca98f34c6658ea70d4d72d3dcdde4bc49 Merge branch into tip/master: 'locking/urgent'
-ffd9dbccbd55dfbe2d6a0a5328475c40aa74144f Merge branch into tip/master: 'sched/urgent'
-22727af2ac2d977c91c33670788f7c1662f8b417 Merge branch into tip/master: 'x86/merge'
-2de0fc987a20470f42d8f707ec189d26924191dd Merge branch into tip/master: 'core/merge'
-07d122e6427a41caa461baa7ac1b3d86edf011f6 Merge branch into tip/master: 'core/bugs'
-ffea35e72973419425100c46a49a37bd360a5ae5 Merge branch into tip/master: 'irq/core'
-a23e45223303d55419b95c18b9f4082037969228 Merge branch into tip/master: 'irq/drivers'
-7e6387a1cc545f4c23a293f23e25b8e0a7bcb7c2 Merge branch into tip/master: 'irq/msi'
-cb76708d8a21ebc61fa05aa0b487c8a3a15a3706 Merge branch into tip/master: 'locking/core'
-015c77649d5d6bf45cf4656b9e49f181dd7233ce Merge branch into tip/master: 'locking/futex'
-994913163f8218636ba3df83fa5d668644fbabbb Merge branch into tip/master: 'perf/core'
-9d06278e10c8c006674bc6cb4c191045fa2384a5 Merge branch into tip/master: 'sched/core'
-4636b46db029e9f5383dca475abf332923c0b2bd Merge branch into tip/master: 'smp/core'
-8896d06c51f8c3230848f29ac836366c1adb936a Merge branch into tip/master: 'timers/cleanups'
-b570a2416ea7cb73fd12bc1b9fdbd71717c65039 Merge branch into tip/master: 'timers/core'
-be593f7a23f9e7ce151f6701acaaf96791d87528 Merge branch into tip/master: 'timers/ptp'
-8fc10604706c34dd508a5d224a9d8b4ee4ccf978 Merge branch into tip/master: 'timers/vdso'
-483a394a3f0efee4a0a6b58ddbb0d78cce984873 Merge branch into tip/master: 'x86/boot'
-6604a69794133ad30ca5f18a354b3ba15b0feb1e Merge branch into tip/master: 'x86/bugs'
-0a0a69d5d91f21485233d1c8fa7fc55194fa845b Merge branch into tip/master: 'x86/cleanups'
-140fc6965bacc9a1784b4fa7513b272c58df6c1a Merge branch into tip/master: 'x86/core'
-003435fb675337788a5db64eb6b00c852b304d03 Merge branch into tip/master: 'x86/fpu'
-df12e2d445c9f5996b039c6c4d01511a68634e87 Merge branch into tip/master: 'x86/kconfig'
-f84132f2b3aa3bf9de886867da18db0f8a8855f1 Merge branch into tip/master: 'x86/microcode'
-05b7ec5779113523e158302619b29de30ff4c23e Merge branch into tip/master: 'x86/platform'
-d9e2d72cc1c47985bd7e1424cbe7ed2e6a6e1861 Merge branch into tip/master: 'x86/sev'
+f729ae5de7b080034f9c48740fa214e0e62d682a x86/boot: Provide PIC aliases for 5-level paging related constants
+4af9331c68dbb14393d70d7ce7d5f9bb3d5705f2 x86/sev: Provide PIC aliases for SEV related data objects
+0a838c3a2855d405d0d9792495072b4c361dd5b6 x86/sev: Move __sev_[get|put]_ghcb() into separate noinstr object
+a3ad0e122180e48623e5ce35caf0b38fa8c21f58 x86/sev: Export startup routines for later use
+d3d166d48f8ecaf67057ea707f360cbaac6b47ab objtool: Add action to check for absence of absolute relocations
+7fc38ccdd9b81510c038dd71e5e2c6982c7dd589 x86/boot: Check startup code for absence of absolute relocations
+a714d465faa0b008cd939e8c62880d75145a6f3f x86/boot: Revert "Reject absolute references in .head.text"
+1017f1a7e03e9799edae8789abac95cc75b07d2a x86/kbuild: Incorporate boot/startup/ via Kbuild makefile
+0abbc26c1ac6b4f0f7bd0e49fcbcc5400726f7d5 x86/boot: Create a confined code area for startup code
+0a8f0d420c516563701f02edd93fbbad6b6a2c3a efistub/x86: Remap inittext read-execute when needed
+69281a99f1116955b57c602eda02d9c9041f45f5 x86/boot: Move startup code out of __head section
+e19b089a8c54a75793c3abbd03ccb4d6ed2b795e x86/boot: Get rid of the .head.text section
 
---===============3580924732030078492==--
+--===============0375452786595056849==--
