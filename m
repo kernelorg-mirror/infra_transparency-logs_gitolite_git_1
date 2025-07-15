@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 15 Jul 2025 15:31:37 -0000
-Message-Id: <175259349704.2095913.616089550284129993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 15 Jul 2025 15:33:49 -0000
+Message-Id: <175259362949.2097039.8974851365074148528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 8d41af0d378dc0832d64b71bb0f71098c23dd1c4
-    new: 12b3d697c812aaf356e82d9e1f351fbb2ea97500
+  - ref: refs/heads/1GbE
+    old: b640daa2822a39ff76e70200cb2b7b892b896dce
+    new: 0e9418961f897be59b1fab6e31ae1b09a0bae902
     log: |
-         12b3d697c812aaf356e82d9e1f351fbb2ea97500 cxl: Remove core/acpi.c and cxl core dependency on ACPI
+         60ada4fe644edaa6c2da97364184b0425e8aeaf5 smc: Fix various oops due to inet_sock type confusion.
+         e18f348632ec4ee25d9172cdff273f0e939241c7 selftests/tc-testing: Create test cases for adding qdiscs to invalid qdisc parents
+         f0f2b992d8185a0366be951685e08643aae17d6d net: phy: Don't register LEDs for genphy
+         0e9418961f897be59b1fab6e31ae1b09a0bae902 selftests: net: increase inter-packet timeout in udpgro.sh
          
