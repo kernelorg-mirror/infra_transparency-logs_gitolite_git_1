@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7677711649027941086=="
+Content-Type: multipart/mixed; boundary="===============7276828359884404674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 15 Jul 2025 08:10:57 -0000
-Message-Id: <175256705708.1628671.6276141423123829096@gitolite.kernel.org>
+Date: Tue, 15 Jul 2025 08:12:27 -0000
+Message-Id: <175256714737.1629587.15371769150282529723@gitolite.kernel.org>
 
---===============7677711649027941086==
+--===============7276828359884404674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 1b0ee85ee7967a4d7a68080c3f6a66af69e4e0b4
-    new: 851b2f7969382295a03de171ba4543e6b1e2f9e0
+    old: 851b2f7969382295a03de171ba4543e6b1e2f9e0
+    new: 3ab928f06ea9d7e1fa6f656d5ef7c8408f59db2f
     log: |
-         9e233052608b6023dbe21ee6ff5ef51e70c96cdb staging: rtl8723bs: Efuse_WordEnableDataWrite() is not used
-         1b6766034c64d471f65fc692b808a7618cbd7bc3 staging: vme_user: fixed alignment should match open parenthesis
-         ee38e132719949fdb97c131bc1b970649e446e6c staging: greybus: Documentation: firmware.c: fix whitespace alignments
-         1fd45d1efc73005ff180007b05c8a8c0af5f3244 staging: greybus: Documentation: firmware: Move logical AND to previous line
-         b56d3239e34171020de6e105ea1c2e7c44ae4a0b staging: greybus: power_supply fix alignment
-         4bf0d122e646db2b9b855a6d93f372f95df05f6a staging: rtl8723bs: hal: add spaces around ternary operator
-         aea29410dcccad21c8f02a824aeb6e96ab668f31 staging: rtl8723bs: remove blank line before close brace.
-         905f499e20301127226f3ef636a7cad28e41c2d9 staging: rtl8723bs: remove spurious if-block braces
-         851b2f7969382295a03de171ba4543e6b1e2f9e0 staging: rtl8723bs: os_dep: remove whitespace after cast.
+         f117262cf1581b0aa7c711bb4f18d9e237a7a539 staging: rtl8723bs: hal: remove blank line before close brace
+         3ab928f06ea9d7e1fa6f656d5ef7c8408f59db2f staging: rtl8723bs: remove unncessary multiple blank lines
          
 
---===============7677711649027941086==
+--===============7276828359884404674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752567095 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752567186 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1752567054-2b41657f63c285e12cdbbe92d7cbef96fd5620c7
+nonce 1752567144-05dede9503503a50938b70cc3e9e3a503a9f49a8
 
-1b0ee85ee7967a4d7a68080c3f6a66af69e4e0b4 851b2f7969382295a03de171ba4543e6b1e2f9e0 refs/heads/staging-testing
+851b2f7969382295a03de171ba4543e6b1e2f9e0 3ab928f06ea9d7e1fa6f656d5ef7c8408f59db2f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh2DTcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XGQP/iYpHiqImIr74efv3jHV
-Ny1kXko8/Su4Qhd4juewDhPCWl5g3v2unIXQCG18FEYe2V4avUwXzqVYlTdFokNF
-B9/xW1dAHvbKO6IfFLN3jWaRbE0F++t9MBHY2D1tXFxEU8/T/fqWnEcYTodL5b8f
-XftepDyxYQ9/8PGuBMthIaaG1JKiah5WhlTR7aKyysDOYRqWtzGEb+wd0LwPFrJA
-DAmxAen84Sxo/4kxxDRzGp4fESFjPuBH0YGGF615SYj2gGTU14umGi7zgQTNCcSg
-Xqejf6Jxfq6RIa5v4tNO8uDKpWWEKzjYmKpHGi5eQcVGC4PsadL4WgwREjdl8Gwz
-tFPndVrHJ0iV/SRbgC17hVeiZn6rzbkf0TFuub5MGedhm/nlrFA48NLLlonphD1y
-Je6rWRqdxMh24NdXoC80W61gHMl9zI/QCqfOcQS6hIS4T51w89CaqhsOUFSwafLG
-u29y0z8SNQg7n5Lk9hRwSqfJ4UQbNzFnDFyz4J5sjGui+k62OYFdeUqGLDrLJ83I
-H8PW+ab55renLMG7J16o3I+Ovn+06goGri2t0638HAQ5sKzRaAsJzKoYbNjMn7uO
-1OeRcf8dVErMgIj+ARchH6di3KQRTXzyNrUTN7rFbLM5607ofJIZIPtY/n4qGsEz
-UOt2Robg+tAP1riu/Jo+yvPe
-=AbV+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh2DZIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pCIQAIGVIoli8jA/nqicO5hZ
+sfhENfPrQIwpSirRJJYY5oGdkz41sPYClkALC+2z+grdnjyex3yw4UdMahsLPn/a
+55buhOoSLOqOLJrX5sazp+wkdLmHU2o0IvQZnzaYQY2+nM6ymEg1cVwxSf+JDjXD
+7gs5us72bCu3Le2yLgYiquRQEGB9z/Mc5FmaOheItZNoE/47CYWhOKc5z8L4a0Q2
+At8zAin0MwnPv5bFWw/KvVsK2xedl6YKYjfKHwuwjnmByQV/JHm7+xZzzvij/r7a
+d3cnVr2fhMvoS2s7MB8Seth6Lzr0uVnRcRW2B8l/sR5fFTYdip8f8hrxuX/XJhvj
+ja+cZSIKQLVuIxVVZ1SqFkZZeMqwWr5Kg16lbTHZQsXdusyK8kHLVLVHCEP7Atlf
+gdHKj/wO7q3ef3GMgTbWkEzPLjDEVU8ktCgzvLJl4yAg0n8XA3RMvm4Fqp0AHKmo
+uAXrtUpkLnGKsVOrTqGGc2HCP3hHnA1oJPJcKqCaYYDPmrCvK8NvNG/p+TcagjJN
+ppUmLruwl6iOfETBBn+X7vo8T0hAVNbTtgEpa5IRSH0L2vmxcXj2wlamMxzX6bOt
++EW5OGteHOyoLwezsMfBfz9/z4ziVg1IVjwcBdIAecb4bXdtl+3GSAlNn0esJYWm
+G+s2HGQeC2owcJbbA3b6fj2u
+=oqyl
 -----END PGP SIGNATURE-----
 
---===============7677711649027941086==--
+--===============7276828359884404674==--
