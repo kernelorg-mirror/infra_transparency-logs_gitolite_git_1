@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Tue, 15 Jul 2025 16:56:15 -0000
-Message-Id: <175259857585.2178745.1235100773137518224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 15 Jul 2025 16:58:56 -0000
+Message-Id: <175259873604.2180517.4270062131598383012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/sunxi-clk-for-6.17
-    old: 6feaf2d12a02a77c12db56d4fb9c90983268cdfc
-    new: f5932bd17662357a639a2df2b1cb788bc39d5f62
+  - ref: refs/heads/20250715_ckeepax_sdca_bug_fixes
+    old: 0000000000000000000000000000000000000000
+    new: 15247b5a63f506125360fa45d7aa1fbe8b903b95
