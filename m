@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Wed, 16 Jul 2025 09:06:11 -0000
-Message-Id: <175265677191.3027122.14101567222282525323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 16 Jul 2025 09:09:00 -0000
+Message-Id: <175265694086.3028585.2280330647255840691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/mvebu-arm-6.17-1
-    old: 0000000000000000000000000000000000000000
-    new: 7671d3070d4be4b47e81da0ed17f11ced8d31278
+  - ref: refs/heads/gpio/for-current
+    old: e31c8f1db9c1df91af43012cb482e05a9339bbdf
+    new: ff20798820e08af0fe757c756914b4aa51993ccb
+    log: |
+         ff20798820e08af0fe757c756914b4aa51993ccb gpiolib: devres: release GPIOs in devm_gpiod_put_array()
+         
