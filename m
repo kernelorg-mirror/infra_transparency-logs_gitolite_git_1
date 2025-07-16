@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Jul 2025 10:12:02 -0000
-Message-Id: <175266072221.3083868.295915620326727645@gitolite.kernel.org>
+Date: Wed, 16 Jul 2025 10:12:09 -0000
+Message-Id: <175266072900.3084193.17631344822800602500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: e837b59f8b411b5baf5e3de7a5aea10b1c545a63
-    new: 949ddec3728f3a793a13c1c9003028b9b159aefc
+  - ref: refs/heads/spi-6.17
+    old: 6f8584a4826f01a55d3d0c4bbad5961f1de52fc9
+    new: d5255ae7ec48ac1f702e95b472801dbb7bf1e97f
     log: |
-         949ddec3728f3a793a13c1c9003028b9b159aefc ASoC: amd: yc: Add DMI entries to support HP 15-fb1xxx
+         d5255ae7ec48ac1f702e95b472801dbb7bf1e97f spi: dt-bindings: spi-mux: Drop "spi-max-frequency" as required
          
