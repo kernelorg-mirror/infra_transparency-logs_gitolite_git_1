@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 16 Jul 2025 10:34:06 -0000
-Message-Id: <175266204608.3103116.11744584314764366526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 16 Jul 2025 10:48:48 -0000
+Message-Id: <175266292856.3115095.4277292402043253487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev-test
-    old: 1e8c0a22b5d7dad1b464439ed4eee50c97591a33
-    new: b8cbd44a76f1ec8bdf836e69d6e2f9c8f424e8b4
-    log: |
-         b8cbd44a76f1ec8bdf836e69d6e2f9c8f424e8b4 erofs: refine erofs_iomap_begin()
-         
+  - ref: refs/heads/fileDmPD4i
+    old: 8b8cb3bb144176d37f19bc8fe4a4f26a8e4337fe
+    new: 0000000000000000000000000000000000000000
