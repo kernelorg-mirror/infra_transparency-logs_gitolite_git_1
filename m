@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Jul 2025 17:32:57 -0000
-Message-Id: <175268717718.3475491.14638161727856414253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 16 Jul 2025 17:45:08 -0000
+Message-Id: <175268790836.3486595.16829217642040376978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/asoc-6.17
-    old: 03aa2ed9e187e42f25b3871b691d535fc19156c4
-    new: da863e772ece95bcdf4f010bcd8ee1bd404d51c5
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 8db1d772484dfa959044dd43dc28482c8c543b74
+    new: 756a77b1eaba49498b74c8c81848042c84e3bf3f
     log: |
-         4eb6ad5d2080681b531db2c1764246f9a868062f ASoC: SDCA: Allow read-only controls to be deferrable
-         cbcb5f5c2be523ef0908df290b3033138bd4c185 ASoC: SDCA: Remove overly chatty input pin list warning
-         c57ad862462f064c0bd943a5828f5e0eca469ca5 ASoC: SDCA: Move SDCA search functions and export
-         5f86d41d0410b072b5f4875ef5d38bf8d18eed55 ASoC: soc-dai: Add private data to snd_soc_dai
-         7b0d60dbb468fa82e9053292cdc8a5436400bfaf ASoC: SDCA: Add helper to add DAI constraints
-         264d3d776fb1a428706b0ca0f679bbed876fe7c9 ASoC: SDCA: Add a helper to get the SoundWire port number
-         4ed357f72a0e0a691304e5f14a3323811c8ce862 ASoC: SDCA: Add hw_params() helper function
-         da863e772ece95bcdf4f010bcd8ee1bd404d51c5 Add SDCA DAI ops helpers
+         95d692f9aba7c13b5b3e8d842656c47bde7e551f perf flamegraph: Fix minor pylint/type hint issues
+         0fd91d6d253cb6e06c56e7134ac5fe6a9e599130 perf annotate: Rename to __hist_entry__tui_annotate()
+         51f5763a06caf6f263ec9a3afdf3fcfa68334f7f perf annotate: Remove __annotation_line__write()
+         0eb67ef4e778138260ae84d4269d93c31bf49ff4 perf annotate: Pass annotation_print_data to annotation_line__write()
+         c9316da2153060d4b8a534b581d47c386c627729 perf annotate: Simplify width calculation in annotation_line__write()
+         ac17b5eb5bd55e0ce8546ca3d24889c8d25ea555 perf annotate: Add --code-with-type support for TUI
+         ddc3375de76d94d1face54eca8c1a58d8f7e07ee perf annotate: Add 'T' hot key to toggle data type display
+         b573eae20010577c4dc2ecfaf740ef05a66e3b77 perf annotate: Show warning when debuginfo is not available
+         756a77b1eaba49498b74c8c81848042c84e3bf3f perf annotate: Hide data-type for stack operation and canary
          
