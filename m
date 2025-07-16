@@ -1,27 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 16 Jul 2025 20:50:08 -0000
-Message-Id: <175269900895.3644663.1830208584831687466@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7861111297452875331=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 16 Jul 2025 20:57:44 -0000
+Message-Id: <175269946452.3650062.12759570235613663922@gitolite.kernel.org>
+
+--===============7861111297452875331==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 12b3d697c812aaf356e82d9e1f351fbb2ea97500
-    new: b873adfddeeb337fa8e9f381fd35eb94f7887f2f
-    log: |
-         857d18f23ab17284d1b6de6f61f4e74958596376 cleanup: Introduce ACQUIRE() and ACQUIRE_ERR() for conditional locks
-         683513084acb978fb7f401b9e4dce7e3866af172 cxl/mbox: Convert poison list mutex to ACQUIRE()
-         7cb3b42a6bce4e604ca948e6ede543542b49fb54 cxl/decoder: Move decoder register programming to a helper
-         55a89d9c99a9a79a7c2c7cb88c2ae9e86868a60b cxl/decoder: Drop pointless locking
-         a235d7d963e82ac026eca968b71da376534dc9b9 cxl/region: Split commit_store() into __commit() and queue_reset() helpers
-         695d9455af282056b53baf9782da5bcec3409a57 cxl/region: Move ready-to-probe state check to a helper
-         b3a88225519cfd05d71b99946d37476c941145b8 cxl/region: Consolidate cxl_decoder_kill_region() and cxl_region_detach()
-         d03fcf50ba56f4479685b951506422eeca230853 cxl: Convert to ACQUIRE() for conditional rwsem locking
-         b873adfddeeb337fa8e9f381fd35eb94f7887f2f Merge branch 'for-6.17/cxl-acquire' into cxl-for-next
-         
+  - ref: refs/heads/dev
+    old: a326e72a6362a0c8f5d12e950fdd8ca4553f4664
+    new: 169165ab524bdcd94b2818d50aae9579a391c708
+    log: revlist-a326e72a6362-169165ab524b.txt
+  - ref: refs/tags/v6.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
+  - ref: refs/heads/dev.2025.07.11a
+    old: 0000000000000000000000000000000000000000
+    new: 82d2c9da4e9f0cec17ee65793078aff6e9da1df3
+
+--===============7861111297452875331==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a326e72a6362-169165ab524b.txt
+
+f2107ce87f4b0c696a896db01cb566ca4530e2e9 stop_machine: Improve kernel-doc function-header comments
+a6f197b474283715264e8ec5916bfd561e41bc72 smp: Document preemption and stop_machine() mutual exclusion
+f2bb0e5cc6d53fd3dd53f265976576238a1c9131 selftests/pidfd: Fix duplicate-symbol warnings for SCHED_ CPP symbols
+1272f03dcf0ef22b679e3cab031cafed3c67d017 rcu: Document that rcu_barrier() hurries lazy callbacks
+6906a0f8bf271c8c3fb691c52ac994f461e8a7b0 rcutorture: Fix jitter.sh spin time
+aa1324ca8f92a8f525f62fe820cc00d07e4f41ed torture: Add --do-normal parameter to torture.sh help text
+0d506a5069243e95dd857316fa9ed37684451f9c doc: Update whatisRCU.rst for recent RCU API additions
+1256649c43b383a3ffad93106193d73a2d17de68 doc: Add RCU guards to checklist.rst
+527cf2af9860cc6db117fcf72a354fccb0fc0df6 srcu: Move rcu_is_watching() checks to srcu_read_{,un}lock_fast()
+a82e550347b197fba3a2f8b5311686e6af58f03d srcu: Add srcu_read_lock_fast_notrace() and srcu_read_unlock_fast_notrace()
+d8c5408df6f13ee5aa2104ea56321d456f0b9aca srcu: Add guards for notrace variants of SRCU-fast readers
+ed6017c1792ee39c6b9b39ce8a09d3436e184dd0 tracing: Guard __DECLARE_TRACE() use of __DO_TRACE_CALL() with SRCU-fast
+84144cea4c65090e2547bee38bcf1f7b361815d3 EXP srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
+ddaa784b502dc52bcba7b61cee5e3422ac6fbd11 EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
+89bffd0a1b2b6367a26c68dc69e9de52a8094161 EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
+897518ba52f5b36e7408aaaa08545b8797d9c24f EXP locking/mutex: Add down_read_idle()
+169165ab524bdcd94b2818d50aae9579a391c708 EXP arm64: enable PREEMPT_LAZY
+
+--===============7861111297452875331==--
