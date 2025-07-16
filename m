@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 16 Jul 2025 15:24:03 -0000
-Message-Id: <175267944306.3358420.12944929944916404848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 16 Jul 2025 15:28:47 -0000
+Message-Id: <175267972725.3362565.12052570004475215033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/for-next
-    old: fda589c286040d9ba2d72a0eaf0a13945fc48026
-    new: e5efe466d9bd68d817b0183ee54798b311f524dd
+  - ref: refs/heads/riscv-dt-for-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 1ec99dfe9eb0cdc576249e8b75de25f860123629
     log: |
-         ea35561bc9655fd8ac709d8b450bc9882c8c7bbb ACPI: RISC-V: Add support for RIMT
-         0d7c16d0df9211f4252d85ffa83cb7479e883877 ACPI: scan: Add support for RISC-V in acpi_iommu_configure_id()
-         368ed89f7ac96c6c51d289cc6ba3e3493443d7b8 iommu/riscv: Add ACPI support
-         e5efe466d9bd68d817b0183ee54798b311f524dd Merge patch series "RISC-V: Add ACPI support for IOMMU"
+         2a84cb3ede80896ff45dab8798cb86d91ec3877d riscv: dts: starfive: jh7110-milkv-mars sort properties
+         1ec99dfe9eb0cdc576249e8b75de25f860123629 riscv: dts: starfive: jh7110-common: add status power led node
          
