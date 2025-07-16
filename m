@@ -1,72 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4468663429872542672=="
+Content-Type: multipart/mixed; boundary="===============7618090677049529401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 16 Jul 2025 12:28:23 -0000
-Message-Id: <175266890373.3199282.7465991764360278377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/stalld/stalld
+Date: Wed, 16 Jul 2025 12:40:25 -0000
+Message-Id: <175266962511.3210584.7372402388542959748@gitolite.kernel.org>
 
---===============4468663429872542672==
+--===============7618090677049529401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/stalld/stalld
+user: clrkwllms
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: d1934ed9803c6a36280fbe5a9e91dd7df432bfe7
-    new: 5eac636917486f3f072328d7f5bcdc22bbc9a1d1
-    log: revlist-d1934ed9803c-5eac63691748.txt
+  - ref: refs/heads/main
+    old: 6785dd2e190360c8b41c6262e06a6b504216ffdb
+    new: 276cc20af6d27f34b324b4a8fae4ca93a5975ca2
+    log: revlist-6785dd2e1903-276cc20af6d2.txt
 
---===============4468663429872542672==
+--===============7618090677049529401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6785dd2e1903-276cc20af6d2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752668939 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1752668897-65dc7247e1751d1a2caf82e39cd4838c511e622f
+3f49f58bd101dc328999af03e0e7670521cf3b26 bpf/stalld: Unify and generalize debug macro to DEBUG_STALLD
+1613dcb394c0e6516e9a59899eac439394f37fe7 bpf/stalld: Introduce generic 'log' macro for BPF debug prints
+a518b4a0b3a7072577f79892067643a9bc8de23c build/bpf/stalld: Pave way for DEBUG_STALLD command-line override
+4a0a703b9da9a8ee7e68be90cf3f45be24aa0aa9 build/debug: Allow DEBUG_STALLD to be controlled by 'DEBUG' Makefile variable
+8d67b2934859c860d50cc8770942539585fd037d gitignore: Add common build and tag files
+d14ca1230ecffbb2ebae2b2516eb756cf6703cec stalld/queue_track: Consolidate print_queued_tasks verbosity control
+9ed8e943b1969f588216d649399fbdec26b358e9 stalld: Refactor verbose logging with dedicated macros
+a6ec4cdd23c186aae860c30cebbc173f0742bb5e stalld: sched_attr: Do not define for glibc >= 2.41
+beda86c64fbb7f14f511b041082fb46ce10fe544 build/debug: Control optimization and debug levels via DEBUG variable
+50bb0e85c815c0ffe14d6b26ec8f388b8c5028e3 bpf/stalld: Introduce and use for_each_task_entry/for_each_queued_task macros
+6cd939a6d39035022dbabbdde691c01d6e0a28e5 bpf/stalld: Implement and use find_queued_task helper in dequeue_task
+d43deb14e8d9b6aa74799ea4b5c6b2aed0b5c69a stalld: Automatically switch to log-only mode if DL-server present
+96022f49ead8763157a3d55f6cb0f4001d7b4b0a scripts:  add a script for running a local build for debuggin
+276cc20af6d27f34b324b4a8fae4ca93a5975ca2 Makefile:  update version to 1.20.1
 
-d1934ed9803c6a36280fbe5a9e91dd7df432bfe7 5eac636917486f3f072328d7f5bcdc22bbc9a1d1 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh3mwsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oMgP/Awj77TViOhqQWwjf2zg
-/kk6daw8yomrjz3eHzu2pGEK+bKUrlYwU3GwbMM8OI8K5k5R4OLuPux4bEgWaxrs
-DSW17NCgTD/VpNnEHZBo2eST2/MUcUmEqYOCQT/5OffXjiSYW1ngSHo89eRAlpP8
-+Vsyhc7jNe8tMWLSO8kjk0rr4z/Pnqrm5YSU+PsfSFB1xDIkAcu+zWW20YMJu1rX
-5Bqt/t1uFEn1ZzEVfv8MG4214fYwN4vOqnNFObQ1mK4ke2idzeozLtJZRVpXX9ju
-fQxaFmTbysDxYX1/lWMGD4Ki0bg9P75hJ6AqHrpQfxpHMja2XzfqpXpE8xoME9To
-E5sdDyP6yf7RiY/oeFaEIdl8M9L20MRX+zDIBFcZbVIfIBHax/YKmOUdEUIbTIaf
-IjMWje4hBhDWvMOF/0cqUTT8FV1NzqD7Le86HBrWMnQ0m/U4ji6LaGLzKXvGQw9h
-KPXZxok1pEkR+dgKpkOrHF9Fnk360coa4GTVUAdYgQ4nXG8VRAsYOfmezKNtSrxZ
-W4MCz3xxq5dIM1GMdO4bQBk91KDLbbFjyFsy/B9aBRe8QO9vjL8G/zi8GaZHPHfI
-R1/OOhuYFhlgPczN7bHs/LnZk2gN8/yQmhiN2lZBcb5+IHcQLRCz+DhPQntWKx8g
-9u7da7JjsK/7HZjynLFRSg06
-=cVAx
------END PGP SIGNATURE-----
-
---===============4468663429872542672==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1934ed9803c-5eac63691748.txt
-
-77e49c3588689cf3c9a344c7cc80fb4e61c1375e mcb: use sysfs_emit_at() instead of scnprintf() in show functions
-73cca2a7467b1ca91f7a7371a38b538061c7e58e misc: fastrpc: Use of_reserved_mem_region_to_resource() for "memory-region"
-e8b18c11731d3631559d13269dfb0437dc63106f cdx: Fix missing GENERIC_MSI_IRQ on compile test
-239df3e4b4752524e7c0fb3417c218d8063654b4 samples: mei: Fix building on musl libc
-cf4d2ce1eded8de0a678f5e473322eef84adb5e8 eeprom: at25: fram: Detect and support inside-out chip variants
-8282013b56059c34590ac0245c74ea7ed7642924 vmci: Prevent the dispatching of uninitialized payloads
-8ad6249c51d0ea41ad75d770178d8e4efdbc9948 eeprom: at25: convert to spi-mem API
-29f4103b258517bdacb50eead7e063d5e794d556 MAINTAINERS: Update FPGA MANAGER maintainer
-966c5cd72be8989c8a559ddef8e8ff07a37c5eb0 misc: rtsx: usb: Ensure mmc child device is active when card is present
-b8e3603a57e118dc53028b9d27cfbe487df4278c fsi: master-ast-cf: Use of_reserved_mem_region_to_resource for "memory-region"
-5eac636917486f3f072328d7f5bcdc22bbc9a1d1 fsi: make fsi_bus_type constant
-
---===============4468663429872542672==--
+--===============7618090677049529401==--
