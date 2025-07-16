@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Jul 2025 01:41:58 -0000
-Message-Id: <175263011846.2631550.15570813506095886305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Wed, 16 Jul 2025 01:52:18 -0000
+Message-Id: <175263073878.2639912.11064112488154453620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/master
-    old: d31b0176825438a8e09dae6ec2c45bd1be425d97
-    new: 9f4a425223f3bd8ccaebc7f4f42b1d8c5f12fb45
+  - ref: refs/heads/kmalloc_nolock
+    old: 0000000000000000000000000000000000000000
+    new: 412a51611b2bfab5078bbb42e31a8a6fd8825d26
