@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895066899031530561=="
+Content-Type: multipart/mixed; boundary="===============8654573128268263723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 16 Jul 2025 07:36:40 -0000
-Message-Id: <175265140097.2947890.1595965523232751458@gitolite.kernel.org>
+Date: Wed, 16 Jul 2025 07:38:26 -0000
+Message-Id: <175265150687.2948812.16947062176891050004@gitolite.kernel.org>
 
---===============5895066899031530561==
+--===============8654573128268263723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,57 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
-    new: f2b8ebfb867011ddbefbdf7b04ad62626cbc2afd
-    log: |
-         ebe0b2ecb7b8285852414a0f20044432e37d9b4c Revert "staging: vchiq_arm: Improve initial VCHIQ connect"
-         228af5a58524fba09ec4b7d184694db4f7fe96f5 Revert "staging: vchiq_arm: Create keep-alive thread during probe"
-         f2b8ebfb867011ddbefbdf7b04ad62626cbc2afd staging: vchiq_arm: Make vchiq_shutdown never fail
-         
+  - ref: refs/heads/staging-testing
+    old: 5de0fb6a5a86bc2b020001005403a7d933d3c773
+    new: 473b892dd7ad2af8bf9fccb0e47e83cd8f4c3af1
+    log: revlist-5de0fb6a5a86-473b892dd7ad.txt
 
---===============5895066899031530561==
+--===============8654573128268263723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752651439 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752651545 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1752651398-890e16dbeb29485881269f0595725260eefbeb63
+nonce 1752651504-cadaa1349ba44f15800f2ef0d0aa9f6e2a21f40b
 
-d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af f2b8ebfb867011ddbefbdf7b04ad62626cbc2afd refs/heads/staging-linus
+5de0fb6a5a86bc2b020001005403a7d933d3c773 473b892dd7ad2af8bf9fccb0e47e83cd8f4c3af1 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh3VrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s4YQAILMMU7zxBIvG7+/Qxd/
-S6U7Jvz+oKKop5ScPcVso5Zfe+644hx0js6bhfZx40+wsYYACLsjH5czLS+99mDR
-vp0sAC0RVBfVUyLKQzjW2LjN2uyxxozaAuvJN4QyH8q1ySrXV+3IjJrZHZ/0SYY+
-S3bkpSfM6rD7cgL9lWjuW16KbDX6kMvJ0I6c9hKrEOueBrdWfQPE41c3hMcx7QfF
-xMkqkZ+TMelwJg58Y+3FRXYrAUVzD11meF9weYEKP4DLFd5D+uRCyvfbZWK6/Phl
-4F3mUo+DU+LNrj3cP/Nu+B5IYbRhuHSMxvwcq9uY7hbVoTzw7tNQ17nwQqDLxXU3
-9qO8N1tkzNF+zcu2mFN0ELExWGREeTpd9WZ5gFnxDlRpuebHJDs11IIUQig8Iwfc
-Nc+liPR8eSCnUmZ2/kU901zBvZbEFeOAohFDaSONImIea0EInQblkKSneMcnm+8u
-tQyQoSHbIwRp6OgH6gt7iWAq9uuuN9eGfoTR3iNlW2PygHrG+wRLVWIRavByT1u+
-F6pRkAQcDmWMUk7zJASXGfJvtgFGRgtR6OlxPhgBLKIf8kMLLzjCWrxEOCvSpLJ2
-l1tysU5PyMvXpc1L1J5pUfZGESywW0rBQur2t+PaiUwSmbZO7cwRspuV2fJmficB
-utNCnRwHwy8JsBMlTew8fawk
-=AJ6Q
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh3VxkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LrMP/jsv9ER/89/zfdWSDV6g
+F0qs9bpz2ttgKkIE8O0JCXZHbkVp90l3z0ac5NMBN+7iQkRin3CjKXZKPw37RRs0
+0y84olkfGaEegPyznoR9HJAp+Mye20L8p5j8vzWKgcWxk/SQ7dK6uvOUjjsGHxGg
+PejsSW/lVSGUgyRwNL87MG+jSauoXefWD4uPOZd08T8ZQ59TRMBuSt6l787PANAY
+UATIpONEtBuJKcUIHFiqfbNL6F6nUop/vEjZhlq3Y0I9Kr0b+msVmp/0o3TH7THg
+Xi0A1T3yQTwWQFJ8hsviHzsL8A7MDvSmCRHebj2k0XogXc2YHS4/37lGivcZ1Ou3
+Q6guGqcuS0k2dzZfhJOk4fULIbqPIbRpC4L8jEtYcoOQEnPjzJ6LV2P7rhGGg8Sc
+F5PRJqjOwWAsq4kQBxFjOvr6F1FVB3YpB6V/9kKf29xhH60NDZ9eImrNMVI6avoL
+tDLQmz46c0zIzuWQYVG+qql2MFiHQ8lSEfJYnaPl2Lmes3CQTRbGByvgLNchPpXH
+P2U1g15cMjK+l8I3aIzI4iRW5f5mxMRoM3hkO8/j8qtWPSu65iq/Uo9kGwzTqVCs
+6RxsOn8jfc3Fbta4vFa5TYUG7yRMIfmBJrvO9BoIHC0HszreayBS49L2fQeOMngM
+HlvpEhh3ickGvVXo5uv7X4sb
+=d8K8
 -----END PGP SIGNATURE-----
 
---===============5895066899031530561==--
+--===============8654573128268263723==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5de0fb6a5a86-473b892dd7ad.txt
+
+a468ce2e33e2805ed26fd4733e1e288e56cafeb8 staging: rtl8723bs: remove function pointer SetHalODMVarHandler
+9a318cec56d917cfc44c8f40462849d47d392e21 staging: rtl8723bs: remove wrapper rtl8723b_SetHalODMVar
+328463611a0c878c5e5f97082179958ca6085c92 staging: rtl8723bs: remove function pointer hal_notch_filter
+c9517302a086b0682d44d5752b86e2526bd1c177 staging: rtl8723bs: remove function pointer c2h_handler
+206d5db1231dd45c09bd10c50d46becadaf8df95 staging: rtl8723bs: remove macro FillH2CCmd
+8757b8dd63b2af093f14a4e6c247e41710259c84 staging: rtl8723bs: remove function pointer fill_h2c_cmd
+afbb082971100dc9994ecd1f33a7d298518f1856 staging: rtl8723bs: remove macro hal_xmit_handler
+f742f77d96fcd6dde4e34a2312e43d9caa9c253a staging: rtl8723bs: remove function pointer xmit_thread_handler
+95e57a278080e2e2a6985643dfba3a31e3f104a1 staging: rtl8723bs: remove function pointer hal_reset_security_engine
+86dcc99669e253dd68838a5ff24fac1c11913a8d staging: rtl8723bs: remove function pointer c2h_id_filter
+473b892dd7ad2af8bf9fccb0e47e83cd8f4c3af1 staging: rtl8723bs: remove struct hal_ops
+
+--===============8654573128268263723==--
