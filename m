@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Jul 2025 14:37:12 -0000
-Message-Id: <175267663231.3312611.10801969556277243267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Wed, 16 Jul 2025 14:42:57 -0000
+Message-Id: <175267697747.3317249.16756620434169190930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/regulator-6.17
-    old: 63be976da994260ea116c431a2e61485dbede1b0
-    new: ef616b9763e374454957a8785a068479fa5665a6
-    log: |
-         9b614ceada7cb846de1a1c3bb0b29b0a2726ef45 rust: regulator: add a bare minimum regulator abstraction
-         d9f334fca5448907cc47ba8553926f9ba148512f MAINTAINERS: add regulator.rs to the regulator API entry
-         ef616b9763e374454957a8785a068479fa5665a6 Add a bare-minimum Regulator abstraction
-         
+  - ref: refs/heads/for-next
+    old: e01ab90a7adaad952b5106049ae2efd0c04abfcf
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
