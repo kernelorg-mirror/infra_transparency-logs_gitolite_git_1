@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0570728911573159815=="
+Content-Type: multipart/mixed; boundary="===============1612342463381905634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 16 Jul 2025 15:16:54 -0000
-Message-Id: <175267901431.3350787.6681162531275660613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 16 Jul 2025 15:16:59 -0000
+Message-Id: <175267901914.3351040.14820771554370205383@gitolite.kernel.org>
 
---===============0570728911573159815==
+--===============1612342463381905634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 82d369b48a6bd70947f9016cb358e278a737e919
     log: revlist-5903a7452e64-82d369b48a6b.txt
 
---===============0570728911573159815==
+--===============1612342463381905634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -657,4 +657,4 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
 82d369b48a6bd70947f9016cb358e278a737e919 riscv: Stop considering R_RISCV_NONE as bad relocations
 
---===============0570728911573159815==--
+--===============1612342463381905634==--
