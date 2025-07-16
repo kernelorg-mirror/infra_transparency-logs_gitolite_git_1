@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 16 Jul 2025 21:30:14 -0000
-Message-Id: <175270141481.3682247.12471223979024416667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Jul 2025 22:07:56 -0000
+Message-Id: <175270367672.3713252.12957028745626751797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 557c024ca7250bb65ae60f16c02074106c2f197b
-    new: deb016c1669002e48c431d6fd32ea1c20ef41756
+  - ref: refs/heads/main
+    old: c3886ccaadf8fdc2c91bfbdcdca36ccdc6ef8f70
+    new: 511ad4c26446e5254b94352f55067c501d319462
     log: |
-         deb016c1669002e48c431d6fd32ea1c20ef41756 gfs2: No more self recovery
+         3047957cc7c19433dc8b88a7fec471efa13ba034 selftests: rtnetlink: fix addrlft test flakiness on power-saving systems
+         410b0ace8891a324d31efdc445b07b0e3054a68c ethtool: Don't check for RXFH fields conflict when no input_xfrm is requested
+         511ad4c26446e5254b94352f55067c501d319462 selftests: packetdrill: correct the expected timing in tcp_rcv_big_endseq
          
