@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 16 Jul 2025 15:22:39 -0000
-Message-Id: <175267935933.3357637.13826303014814038946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 16 Jul 2025 15:24:03 -0000
+Message-Id: <175267944306.3358420.12944929944916404848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 63be976da994260ea116c431a2e61485dbede1b0
-    new: ef616b9763e374454957a8785a068479fa5665a6
+    old: fda589c286040d9ba2d72a0eaf0a13945fc48026
+    new: e5efe466d9bd68d817b0183ee54798b311f524dd
     log: |
-         9b614ceada7cb846de1a1c3bb0b29b0a2726ef45 rust: regulator: add a bare minimum regulator abstraction
-         d9f334fca5448907cc47ba8553926f9ba148512f MAINTAINERS: add regulator.rs to the regulator API entry
-         ef616b9763e374454957a8785a068479fa5665a6 Add a bare-minimum Regulator abstraction
+         ea35561bc9655fd8ac709d8b450bc9882c8c7bbb ACPI: RISC-V: Add support for RIMT
+         0d7c16d0df9211f4252d85ffa83cb7479e883877 ACPI: scan: Add support for RISC-V in acpi_iommu_configure_id()
+         368ed89f7ac96c6c51d289cc6ba3e3493443d7b8 iommu/riscv: Add ACPI support
+         e5efe466d9bd68d817b0183ee54798b311f524dd Merge patch series "RISC-V: Add ACPI support for IOMMU"
          
