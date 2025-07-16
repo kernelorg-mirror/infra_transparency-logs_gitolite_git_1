@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 16 Jul 2025 22:59:45 -0000
-Message-Id: <175270678582.3758861.13218534949795903540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 16 Jul 2025 23:08:49 -0000
+Message-Id: <175270732994.3766539.8777440543986389186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: b4adfbea99fb2253f952d5f98e5ddc85b64ff569
-    new: 19f9f6fd657386b0eb6a84a6d9a175f8f53d17ed
+  - ref: refs/heads/seen
+    old: 547e164bf0ca258ac5f8bc8c2576b69d3d1b2ac7
+    new: 717eaa045ff8c5d98ac955ced2c4d0d4258c2e30
     log: |
-         188ed1e0722d8c83e8fc42bbc8ec62ee0ed9f92f foo
-         914b99a3fa5bc4095efec197bb2bfc40456a7cb2 foo
-         19f9f6fd657386b0eb6a84a6d9a175f8f53d17ed foo
+         51944418faa744f7afd78e6e37f7cec8575a77b9 Merge branch 'pw/3.0-commentchar-auto-deprecation' into seen
+         f3bc0c6d9585bc130f12588637c44883c7f9b47b Merge branch 'lo/repo-info' into seen
+         717eaa045ff8c5d98ac955ced2c4d0d4258c2e30 Merge branch 'jc/ci-print-test-failures-fix' into seen
          
