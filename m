@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0361156702000169688=="
+Content-Type: multipart/mixed; boundary="===============9082140861281130800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Wed, 16 Jul 2025 11:38:35 -0000
-Message-Id: <175266591506.3156220.6626541217039355303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Wed, 16 Jul 2025 11:40:21 -0000
+Message-Id: <175266602188.3159415.12769223371514625706@gitolite.kernel.org>
 
---===============0361156702000169688==
+--===============9082140861281130800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 1bee63ac33e4ddfcc7f443d9b8f507d49cab4948
-    new: b620eefe576ef8c68310b10e1643caea6f6a2ff1
-    log: revlist-1bee63ac33e4-b620eefe576e.txt
+  - ref: refs/heads/driver-core-testing
+    old: f751fe2a2acbe8cc20da35f118f589ac3b316b78
+    new: 6beb4ec0f9fdff4c4c6eb8ed8654fe8396c2b6e0
+    log: |
+         6beb4ec0f9fdff4c4c6eb8ed8654fe8396c2b6e0 driver core: auxiliary bus: fix OF node leak
+         
 
---===============0361156702000169688==
+--===============9082140861281130800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bee63ac33e4-b620eefe576e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d0884c436c82dddbf5f5ef57acfbf784ff7f7832 xfsprogs: Release v6.15.0
-1705e1fabf772c242f8db1a2d4a43e1afe1d0fa2 xfs: add helpers to compute transaction reservation for finishing intent items
-5049ea2e832a0a1827edd7b8c32c4310cd5275e7 xfs: allow block allocator to take an alignment hint
-8ccf3002f5f71ba0b0919e6aca82e962e222ccb1 xfs: commit CoW-based atomic writes atomically
-b37b0fb5d89befca99d833e5a59016b28e1b83e2 libxfs: add helpers to compute log item overhead
-a33c400097df834434ec0b0c8b93573363d3f275 xfs: add xfs_calc_atomic_write_unit_max()
-6d6479e675210a33a917326e6b76f91a2d078789 xfs: allow sysadmins to specify a maximum atomic write limit at mount time
-7f26eac28679ad7b03fc591278c2e7f034b4fe51 libfrog: move statx.h from io/ to libfrog/
-4890455222bd936a5e384e3e04381f85077e1289 xfs_db: create an untorn_max subcommand
-bc273c7da82fdaafde7fa4e84310b5d014364b1a xfs_io: dump new atomic_write_unit_max_opt statx field
-98d4e479f1e3a93ce16dadac887c981bbe081817 mkfs: don't complain about overly large auto-detected log stripe units
-dd0b2dd548738d693220721062617a8dc7af5b3b mkfs: autodetect log stripe unit for external log devices
-c3cd5b54233e21d47043124a0ac2b68ba4fc044e mkfs: try to align AG size based on atomic write capabilities
-94c4d8e545c89042935a126f97aac8c46e7e3ba5 mkfs: allow users to configure the desired maximum atomic write size
-b620eefe576ef8c68310b10e1643caea6f6a2ff1 xfs_scrub: remove EXPERIMENTAL warnings
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752666060 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1752666019-b09fa3b8908b7a58e943036085025533d85b0f18
 
---===============0361156702000169688==--
+f751fe2a2acbe8cc20da35f118f589ac3b316b78 6beb4ec0f9fdff4c4c6eb8ed8654fe8396c2b6e0 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh3j8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L14QAMFossptr2tnU8Fi0yeT
+RL/edv36TO8CICFQ/tlfW6jUNQGqEASq9AUtLM00RBlWMgAHsJVn2cMdrIA4I/RQ
+j4vZCS+1+SDXxChvE3avXY+2IZZfrRkQqpFKR8B3paDPofjg/P4KlM7hPZMYGcEO
+Aa5O/NJgR6eNkfASkP3WSvGKOqVBfDq8tk4eYvbJ+8MPTQWgBdyNtmPqydML9lA9
+3s6e01Ld6Dq8eeh+osXL6ZXg5sR6Voi0SNeoG1eeAjH0D3eSUIwBhsTFQsfi5pGy
+NMEKCX1MducXkuGWZGd+qEzBvYH0qUeR+pADpVop65mqOErHkH+T/lgZQXPV2Qom
+JllMmzvg7Zmptv5AhJalQTwE3FhK65oP6CP2F5JNjZLD67vfy8hGH7mTZftPfcb7
+MtdCc/DJFrGiOsrEfr3nC+4MbfP/BauHzJ8qQHp2o/BAvwD+lK8/onAYLdpKCJZA
+NeS5WSgd2RKQJrN0rZX5PgEx9hpjH+qgzymiakKfR9BYrORCdlYfdwN9evjtPzd1
+o3z+AmfkPnzgUIGd9QR2BzH9GrRCMH2JbXumZnHkMictaSTamMBRnCPh8m50S/Wd
+kvIBKz76QRY6R6q9TBn0YTi72XtjBR/oeYXs+tHTfBRCCiWMv8dxy74iwVAUJzv6
+UxAups364zor6PQ+GJTdhJbP
+=p9wp
+-----END PGP SIGNATURE-----
+
+--===============9082140861281130800==--
