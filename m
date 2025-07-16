@@ -1,57 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2172183302377281272=="
+Content-Type: multipart/mixed; boundary="===============0361156702000169688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 16 Jul 2025 11:32:38 -0000
-Message-Id: <175266555802.3151720.13133320199272984228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+Date: Wed, 16 Jul 2025 11:38:35 -0000
+Message-Id: <175266591506.3156220.6626541217039355303@gitolite.kernel.org>
 
---===============2172183302377281272==
+--===============0361156702000169688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+user: aalbersh
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 47e6715bb7ea388a9a3a13d31918827ba3aa3f4a
-    new: f751fe2a2acbe8cc20da35f118f589ac3b316b78
-    log: |
-         42573e4df8e2318fce6a711e0f9cafc9e3dc1483 samples/kobject: fix path comment
-         f751fe2a2acbe8cc20da35f118f589ac3b316b78 samples/kobject: make attribute_group const
-         
+  - ref: refs/heads/for-next
+    old: 1bee63ac33e4ddfcc7f443d9b8f507d49cab4948
+    new: b620eefe576ef8c68310b10e1643caea6f6a2ff1
+    log: revlist-1bee63ac33e4-b620eefe576e.txt
 
---===============2172183302377281272==
+--===============0361156702000169688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1bee63ac33e4-b620eefe576e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752665597 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1752665555-3905631eb4dd49e408e96f0c65d04f57de551297
+d0884c436c82dddbf5f5ef57acfbf784ff7f7832 xfsprogs: Release v6.15.0
+1705e1fabf772c242f8db1a2d4a43e1afe1d0fa2 xfs: add helpers to compute transaction reservation for finishing intent items
+5049ea2e832a0a1827edd7b8c32c4310cd5275e7 xfs: allow block allocator to take an alignment hint
+8ccf3002f5f71ba0b0919e6aca82e962e222ccb1 xfs: commit CoW-based atomic writes atomically
+b37b0fb5d89befca99d833e5a59016b28e1b83e2 libxfs: add helpers to compute log item overhead
+a33c400097df834434ec0b0c8b93573363d3f275 xfs: add xfs_calc_atomic_write_unit_max()
+6d6479e675210a33a917326e6b76f91a2d078789 xfs: allow sysadmins to specify a maximum atomic write limit at mount time
+7f26eac28679ad7b03fc591278c2e7f034b4fe51 libfrog: move statx.h from io/ to libfrog/
+4890455222bd936a5e384e3e04381f85077e1289 xfs_db: create an untorn_max subcommand
+bc273c7da82fdaafde7fa4e84310b5d014364b1a xfs_io: dump new atomic_write_unit_max_opt statx field
+98d4e479f1e3a93ce16dadac887c981bbe081817 mkfs: don't complain about overly large auto-detected log stripe units
+dd0b2dd548738d693220721062617a8dc7af5b3b mkfs: autodetect log stripe unit for external log devices
+c3cd5b54233e21d47043124a0ac2b68ba4fc044e mkfs: try to align AG size based on atomic write capabilities
+94c4d8e545c89042935a126f97aac8c46e7e3ba5 mkfs: allow users to configure the desired maximum atomic write size
+b620eefe576ef8c68310b10e1643caea6f6a2ff1 xfs_scrub: remove EXPERIMENTAL warnings
 
-47e6715bb7ea388a9a3a13d31918827ba3aa3f4a f751fe2a2acbe8cc20da35f118f589ac3b316b78 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh3jf0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CAIP/25DkNWCjPF42G/pap3F
-eLRDoITK7jOLZjxL6Q1YpDu2UhfGm8Qtp16PezB2/qB+TE0QCPsOr33ilRQE3SPD
-DEljHmNOKW8niRv9O6mq97ov7PbdXh+A+3QE8oD0J/CW0pzMAH5dlC6O8r7Exlx4
-ZsgkAwoETMuqchODE6yrGcQQhWA1OuZxG2NLaDhOXbtMcWDJL52x2Gt1u1InDLFF
-05VSth0tx2NOZnH6xLnd4KOHNpnQ3tpL0YUxb7mTN0ACF4Quj8v7ROA6Gf4DxeVc
-ThPYf5tl3nJV1EsMpJORq39RR2YM+EWIwacEvnVUx2dlcRH9RORqgmB5slGzxNMf
-733DMuClfSIhA0n4mC+CSzhcOhgrGovqMR/l7XS2TyqyLQp64i9I8Nz1WQFypgP7
-R53KN9xRWqVi3rOxvvmorbe2ANpxS33jYufa7FMYB7Gwv0MTTJcjM3+KCQRcgwoe
-BtWATq2axo4tKXnyy2wemyrnJT3Z3ZMgsKqK3QBw8UF9DF0fV6B/OaQ86GHnJYYE
-z3aPEHMfCBPQrSggRDjyUk7CX59qRnS83W07Dy3o0IbBKPJAet7WKhQKioZnvNjF
-Lj3MyegKSysfiSbe0Y2lfBwWDBOr436CXzDXFQEiIf/wRmyWja6zT1/OOQeqbH2y
-kKFL691ZGCZND/FHVjksYEsw
-=6cXB
------END PGP SIGNATURE-----
-
---===============2172183302377281272==--
+--===============0361156702000169688==--
