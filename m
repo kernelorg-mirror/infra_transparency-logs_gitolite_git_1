@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5825015518877163519=="
+Content-Type: multipart/mixed; boundary="===============2680921472290735905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 16 Jul 2025 11:24:08 -0000
-Message-Id: <175266504841.3143530.18003180986441064614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 16 Jul 2025 11:24:19 -0000
+Message-Id: <175266505972.3143873.15689025451753929474@gitolite.kernel.org>
 
---===============5825015518877163519==
+--===============2680921472290735905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f2b1f6a9f382564b1d4cf16c45e73ccccb917f1f
     new: e8352908bdcd2d0bcf0aca8c69fae85fd5ea5edb
     log: revlist-f2b1f6a9f382-e8352908bdcd.txt
-  - ref: refs/heads/stable
-    old: 347e9f5043c89695b01e66b3ed111755afcf1911
-    new: 155a3c003e555a7300d156a5252c004c392ec6b0
-    log: |
-         b1bf1a782fdf5c482215c0c661b5da98b8e75773 dm-bufio: fix sched in atomic context
-         155a3c003e555a7300d156a5252c004c392ec6b0 Merge tag 'for-6.16/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-         
-  - ref: refs/tags/next-20250416
-    old: c51daae956235c9d4570caad4512871c170f75fd
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250716
     old: 0000000000000000000000000000000000000000
     new: 4d088c49d1e49e0149aa66908c3e8722af68ed07
 
---===============5825015518877163519==
+--===============2680921472290735905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ ac21e5121f9e548fb74370a3e0440caca5d4df72 Merge branch 'for-next/kspp' of git://g
 a6870eda5a64513aa6d932bef02e7c71ee2dc0f3 Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 e8352908bdcd2d0bcf0aca8c69fae85fd5ea5edb Add linux-next specific files for 20250716
 
---===============5825015518877163519==--
+--===============2680921472290735905==--
