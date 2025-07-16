@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Wed, 16 Jul 2025 07:34:02 -0000
-Message-Id: <175265124282.2943800.7119774537309180227@gitolite.kernel.org>
+Date: Wed, 16 Jul 2025 07:34:27 -0000
+Message-Id: <175265126707.2944863.9403105254882280342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: cassel
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/for-next
     old: 148fbaf571697bb1ff2d50ca232a9ac190519fd1
     new: 546527b92d7e72dcd827675a2d3e580002b09cc1
     log: |
