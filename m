@@ -1,50 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1683701019857612099=="
+Content-Type: multipart/mixed; boundary="===============3195247264140265150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 16 Jul 2025 10:13:15 -0000
-Message-Id: <175266079501.3085552.1276700307918049377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 16 Jul 2025 10:13:30 -0000
+Message-Id: <175266081043.3085990.7667926002959883577@gitolite.kernel.org>
 
---===============1683701019857612099==
+--===============3195247264140265150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.17
-    old: 6f8584a4826f01a55d3d0c4bbad5961f1de52fc9
-    new: d5255ae7ec48ac1f702e95b472801dbb7bf1e97f
+  - ref: refs/heads/for-linus
+    old: e837b59f8b411b5baf5e3de7a5aea10b1c545a63
+    new: 949ddec3728f3a793a13c1c9003028b9b159aefc
     log: |
-         d5255ae7ec48ac1f702e95b472801dbb7bf1e97f spi: dt-bindings: spi-mux: Drop "spi-max-frequency" as required
+         949ddec3728f3a793a13c1c9003028b9b159aefc ASoC: amd: yc: Add DMI entries to support HP 15-fb1xxx
          
+  - ref: refs/heads/for-next
+    old: 6bd62e3ffe865ddcd9866856f7112dd3a7484b65
+    new: e59a4e945b83e9b651b59ec31f73264f130d4ea6
+    log: revlist-6bd62e3ffe86-e59a4e945b83.txt
 
---===============1683701019857612099==
+--===============3195247264140265150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6bd62e3ffe86-e59a4e945b83.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1752660834 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1752660792-185dbe871c9ba9e961ddd070e5237b665e4e1ed1
+949ddec3728f3a793a13c1c9003028b9b159aefc ASoC: amd: yc: Add DMI entries to support HP 15-fb1xxx
+8a4d73121d6bd9a70895e65d6d1014ed6b0a6c8e ASoC: codecs: da7219: convert from round_rate() to determine_rate()
+4e15a10f6fb254e33d73a6da3c4d00e3e64d2eb8 ASoC: codecs: rt5682: convert from round_rate() to determine_rate()
+a37d9c8aef1c78876eff0bc8980a889c083de89d ASoC: codecs: rt5682s: convert from round_rate() to determine_rate()
+fc62ed665eb2e8fb0f1e12ab9cdb578666704a76 ASoC: qcom: qdsp6: q6dsp-lpass-clocks: convert from round_rate() to determine_rate()
+afd529d740028a41fa750d4491b106cecbccba3e ASoC: stm: stm32_i2s: convert from round_rate() to determine_rate()
+d5f317fd5cd9dfdf5bbe11384001817760c12b75 ASoC: stm: stm32_sai_sub: convert from round_rate() to determine_rate()
+3f2e4c11925ee24a34853b0d608ab85df2430555 ASoC: SDCA: Fix off by one error in IRQ bound check
+71562278a189af2ca202eafa0ab71a9b68469207 ASoC: SDCA: Avoid use of uninitialised local name variable
+15247b5a63f506125360fa45d7aa1fbe8b903b95 ASoC: SDCA: Update memory allocations to zero initialise
+dd10ed1caf25d5040062e5a9f50516d179f0dd9e ASoC: convert from clk round_rate() to
+3f998cd512960dc08438a3011030aa61a4cf80fd SDCA Bug Fixes
+e59a4e945b83e9b651b59ec31f73264f130d4ea6 Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
 
-6f8584a4826f01a55d3d0c4bbad5961f1de52fc9 d5255ae7ec48ac1f702e95b472801dbb7bf1e97f refs/heads/spi-6.17
------BEGIN PGP SIGNATURE-----
-
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh3e2IACgkQJNaLcl1U
-h9CSoQf4y3gKxN4RNODqeShS0+RP3Oy+YjWzYu4hbhZo6+iPpwhYImSZtFG5aprO
-o2oCdXvjb7lOrHfyQOLVd4Vm6N39ge+heZNk9gy88MKluVcuDQ4Aw65+iAaL1K8t
-ZRYatVVFwVHkSO+SBtpI9a6i3iqVLOjFo1bpFVqB08VNaUCcNkvkh4TnIwewnFeB
-ll4GElb9ms/sD5TMKDhEf2cEVAtLk7WGIl2EDcKvNylAAEQ0L5sV/vq2Pin8uXM3
-ZjTWYkI7pkwOIxAw5d44SQLFaEe0PQ/9NlTBfZl5mcOo6Yif43fYgB5vy0Vb+Umb
-y+aUDcPOptu5tNH7RqU0a5Lvf6Xt
-=rqJ1
------END PGP SIGNATURE-----
-
---===============1683701019857612099==--
+--===============3195247264140265150==--
