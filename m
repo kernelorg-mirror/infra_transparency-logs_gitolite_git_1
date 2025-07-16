@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8143401982742340870=="
+Content-Type: multipart/mixed; boundary="===============1905395326523952267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 16 Jul 2025 18:40:08 -0000
-Message-Id: <175269120802.3531936.8614817744907790937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 16 Jul 2025 18:40:11 -0000
+Message-Id: <175269121128.3532129.4330192614990532944@gitolite.kernel.org>
 
---===============8143401982742340870==
+--===============1905395326523952267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 03aa2ed9e187e42f25b3871b691d535fc19156c4
     new: da863e772ece95bcdf4f010bcd8ee1bd404d51c5
     log: |
@@ -30,28 +30,28 @@ changes:
          da863e772ece95bcdf4f010bcd8ee1bd404d51c5 Add SDCA DAI ops helpers
          
 
---===============8143401982742340870==
+--===============1905395326523952267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1752691247 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1752691205-295658a120ef9a2cfc1ecd31d8aca3aebc9a165f
+pusher C3F436CA30F5D8EB 1752691250 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1752691209-ef003bcdcf8968131fe61e517f6117aa94490e12
 
-03aa2ed9e187e42f25b3871b691d535fc19156c4 da863e772ece95bcdf4f010bcd8ee1bd404d51c5 refs/heads/for-6.17
+03aa2ed9e187e42f25b3871b691d535fc19156c4 da863e772ece95bcdf4f010bcd8ee1bd404d51c5 refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh38i8ACgkQJNaLcl1U
-h9BgjAf7Bxa7D9/+uOgsIDXDMeCqwzz9MHVilfUr3GWhIDFt+E4VU+HcKHrVH7Lv
-Rwzvc6wzdlZYb4nCEdFt2GS76ituSOc4MRRXdJQRAYg7pjwwnF8qq8MOUgt+I/IZ
-z8CtgUV+6+knXLQei32b1Liyjc4w9ipRctttJeYdG4HjmqRaTIJJgWAXdqImp4E2
-Z0dukXZgWwXflUkynXVnGW2vsaEXHn9zWofpJMpIgmn6vwYcghySQ9oSuPDzr2jy
-L/cHaWVd44Lua7XppytYUHACbdOn3GkI8kNUzcwQtmTTG8oxCYjVHfP0q7cSYrxG
-11j961axXqA4bHzaLD+tAuJH9Zco4Q==
-=4SL0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh38jIACgkQJNaLcl1U
+h9AXbQf/cBgONuourr89c9vzgUk7dj0MPqvPbLx51XmPhs+EbZiWdRSM+HtI4Q+9
+cEAtnGJFYR3kMZ0OOPISAfY6HaQsuwS6uVQkew1ICacvU7Fy1pW+Ic3s3kieLKif
+NHe6uYayGjvpBD/qzmovYEbaL0cNhkhOgmbxdzeacU3kkvY5q7n/84QV589qRXK4
+3ycaB2KLnqKRXHKhpCnnOTsxIK8pPLuDyBPV3RUNpf9fYbgTRNvuv1eDZRj7KpCo
+fsgsOD1XczZa4D33V7rna2QM/KU4xGSwDe2MNkl46iiDHxJOaPe74uIRBUMcgL3D
+z39vX4rKYRZk7YI9PTmoPr0RA2NByw==
+=K3P5
 -----END PGP SIGNATURE-----
 
---===============8143401982742340870==--
+--===============1905395326523952267==--
