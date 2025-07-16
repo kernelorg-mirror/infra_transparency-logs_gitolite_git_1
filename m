@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 16 Jul 2025 06:57:38 -0000
-Message-Id: <175264905856.2914070.7221012805083762169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 16 Jul 2025 07:14:23 -0000
+Message-Id: <175265006312.2927475.6123130089547833898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: eb1b9644ebcb413f2d4e08140371e9a222662004
-    new: 7e28bba92c5c05d7def41de0386acf5331a0cba6
+  - ref: refs/heads/dev-test
+    old: 296e7ef18fbd6e85c8660f0ec94358ac4263cd57
+    new: 1e8c0a22b5d7dad1b464439ed4eee50c97591a33
     log: |
-         65a5520a27570787b17e6f0b093829fc7e0514e2 arm64: smp: Fix pNMI setup after GICv5 rework
-         7e28bba92c5c05d7def41de0386acf5331a0cba6 Merge branch irq/gic-v5-host into irq/irqchip-next
+         1e8c0a22b5d7dad1b464439ed4eee50c97591a33 erofs: unify meta buffers in z_erofs_fill_inode()
          
