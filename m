@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3400032473188201293=="
+Content-Type: multipart/mixed; boundary="===============6371865203133054132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Wed, 16 Jul 2025 19:55:37 -0000
-Message-Id: <175269573761.3598460.2544522650088777543@gitolite.kernel.org>
+Date: Wed, 16 Jul 2025 19:56:28 -0000
+Message-Id: <175269578806.3598981.77079577389634983@gitolite.kernel.org>
 
---===============3400032473188201293==
+--===============6371865203133054132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f5d2e0d112228578c19c8527ab0dae0a70e48e57
+  - ref: refs/heads/linux-next
+    old: f6b1eebbdbc75377f98fc9774bb86ffc270dae8e
     new: efbc5b4ac98e187375bf14c18ecc76988d3bab3c
-    log: revlist-f5d2e0d11222-efbc5b4ac98e.txt
+    log: revlist-f6b1eebbdbc7-efbc5b4ac98e.txt
 
---===============3400032473188201293==
+--===============6371865203133054132==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f5d2e0d11222-efbc5b4ac98e.txt
+Content-Disposition: attachment; filename=revlist-f6b1eebbdbc7-efbc5b4ac98e.txt
 
 49a5fdc06ccfece8fc935aef1d15f4400d47602b Merge tag 'drm-msm-fixes-2025-06-16' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
 2f370ae1fb6317985f3497b1bb80d457508ca2f7 atm: atmtcp: Free invalid length skb in atmtcp_c_send().
@@ -1051,4 +1051,4 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
 efbc5b4ac98e187375bf14c18ecc76988d3bab3c Documentation: amd-pstate:fix minimum performance state label error
 
---===============3400032473188201293==--
+--===============6371865203133054132==--
