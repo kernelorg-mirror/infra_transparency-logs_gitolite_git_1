@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 16 Jul 2025 22:59:21 -0000
-Message-Id: <175270676123.3757802.9244081709613651763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 16 Jul 2025 22:59:45 -0000
+Message-Id: <175270678582.3758861.13218534949795903540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 125d33cf6eda1b349d4f540323005b22f1ba7141
-    new: f610561f4d38440957d2f0d89588937f3ce1d540
+  - ref: refs/heads/master
+    old: b4adfbea99fb2253f952d5f98e5ddc85b64ff569
+    new: 19f9f6fd657386b0eb6a84a6d9a175f8f53d17ed
     log: |
-         c39101198e733cacb03fbaa6fcefa15b9c04361c i2c: qup: jump out of the loop in case of timeout
-         8cfa1555f3ba78dac34f446fac116ca137285710 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
-         9f33c75131348b18615bb1333cfcf55763f0787c i2c: stm32f7: support i2c_*_dma_safe_msg_buf APIs
-         400007a6e7547e76d864c2700f86f036df569fab i2c: tegra: Use internal reset when reset property is not available
-         f610561f4d38440957d2f0d89588937f3ce1d540 i2c: tegra: Remove dma_sync_*() calls
+         188ed1e0722d8c83e8fc42bbc8ec62ee0ed9f92f foo
+         914b99a3fa5bc4095efec197bb2bfc40456a7cb2 foo
+         19f9f6fd657386b0eb6a84a6d9a175f8f53d17ed foo
          
