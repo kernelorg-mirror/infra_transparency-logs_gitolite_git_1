@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 17 Jul 2025 13:55:24 -0000
-Message-Id: <175276052422.364314.11438486761085415583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/stalld/stalld
+Date: Thu, 17 Jul 2025 14:14:40 -0000
+Message-Id: <175276168055.378617.13894406853306361982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/utils/stalld/stalld
+user: clrkwllms
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 7c1c8a6aa8f0f7152c44faac4d28d299cf1e9897
-    new: d98bac3cd94b6c0375a7b6e7728b8cf17cc080d0
+  - ref: refs/heads/main
+    old: 276cc20af6d27f34b324b4a8fae4ca93a5975ca2
+    new: 4d5800a1ab91d3cc64685393109d12b8a2949015
     log: |
-         1c4285b49ea12e9817454d1a4fe5f6f238eaf7e0 f2fs: fix to do sanity check on node footer in read_end_io
-         d0e1f147a03445115a1590ec6726f74f92e51212 f2fs: cover f2fs_update_inode_page() w/ node_change lock
-         243816204976d8e2ee6cf5dd891db31e887bda03 f2fs: doc: disk layout
-         96ef5da8650355fa00a93220b1f75514464465f3 f2fs: fix to avoid out-of-boundary access in dnode page
-         d98bac3cd94b6c0375a7b6e7728b8cf17cc080d0 f2fs: fix to avoid redundant allocation for dio write
+         633bafc30299e944c3440092df5f929ce29e9530 bpf/stalld: Introduce compute_ctxswc helper and update ctxswc on sched_switch
+         83036ea135ad6da6a980aebb92297ee1498f767c bpf: Improve task tracking in sched_switch
+         4d5800a1ab91d3cc64685393109d12b8a2949015 Makefile: bump version to v1.20.1
          
