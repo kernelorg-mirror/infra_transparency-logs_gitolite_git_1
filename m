@@ -1,51 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6295523181699814215=="
+Content-Type: multipart/mixed; boundary="===============3218529846212097026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 17 Jul 2025 17:04:04 -0000
-Message-Id: <175277184418.736790.17029951204996573636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 17 Jul 2025 17:05:25 -0000
+Message-Id: <175277192543.740155.8918438393901159070@gitolite.kernel.org>
 
---===============6295523181699814215==
+--===============3218529846212097026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/scx
-    old: 66fef1ba3c7535d1bee7912ed867db79b5f568ef
-    new: b0d9048f3667b5e61f2afc2960964b0f199d258b
-    log: revlist-66fef1ba3c75-b0d9048f3667.txt
+  - ref: refs/heads/arm64-for-6.17
+    old: a150a9c4807ab37d9f63112ef8e11710104a9d09
+    new: dc7e5b210a6b29287c1dae7197863d54e13615bd
+    log: revlist-a150a9c4807a-dc7e5b210a6b.txt
 
---===============6295523181699814215==
+--===============3218529846212097026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66fef1ba3c75-b0d9048f3667.txt
+Content-Disposition: attachment; filename=revlist-a150a9c4807a-dc7e5b210a6b.txt
 
-6088f5eff45cfe255581e28fb66d12d0eb971a4f sched/ext: Prevent update_locked_rq() calls with NULL rq
-b53670a4ed9753d638f860e632ef673791a675a2 sched/topology: Fix for_each_node_numadist() lockup with !CONFIG_NUMA
-099caf39a5c4cc6d7f67f52216a3b3e9c012bbf1 sched_ext: idle: Introduce SCX_PICK_IDLE_IN_LLC
-237a5eb418e015f2af3f05c3bcea08e141dd2558 sched_ext: idle: Introduce scx_bpf_get_cpumask_llc()
-fee8a740fb8323e3e85b430bcabfed5a3ab53fc9 selftests/sched_ext: Add test for scx_bpf_get_cpumask_llc()
-66490c6f911b785ae665e2916249b48680ee9854 sched/debug: Fix updating of ppos on server write ops
-aa499ea64b39f2635f06f503c6652a38bee4a1d4 sched/debug: Stop and start server based on if it was active
-3d755fb7864c782b8e848157e9ec422a6072be23 sched/deadline: Clear the defer params
-523e3a3af059187b4867cd61b617b3f5a31f90d9 sched/deadline: Prevent setting server as started if params couldn't be applied
-90188bd6e8e7dbfd356d68940b2d4417881bef18 sched/deadline: Return EBUSY if dl_bw_cpus is zero
-949f0eba1510a7c36d082b473140f8d1637d7e11 sched: Add support to pick functions to take rf
-72552e1354ad5f90b380c0dcc56ecd880edbd872 sched: Add a server arg to dl_server_update_idle_time()
-431681e0bb9f4f140b82ca2114a579f5bb1c6c92 sched/ext: Add a DL server for sched_ext tasks
-faff940a7c0932ea1f490c8b48c00f13bed81ab7 sched/debug: Add support to change sched_ext server params
-dcf7bd364ad2596e9c4384b1f17562fb755d4943 sched/deadline: Add support to remove DLserver's bandwidth contribution
-692ba0a44f006ba399d882b404b4bea5b9f2250b sched/ext: Relinquish DL server reservations when not needed
-a7b3f1b14557b6e532d751ee73c7d58a9df1b620 selftests/sched_ext: Add test for sched_ext dl_server
-4d654467c6ed85407e408826d759d74fa66dfb52 sched/deadline: Fix DL server crash in inactive_timer callback
-9662532e0348ffd2c3a259c3f77eccc1c3609498 selftests/sched_ext: Add test for DL server total_bw consistency
-1640d002e0299f43c6414964e35db2c507a11d3d sched/deadline: Ignore initialization for hotplugging CPUs
-b0d9048f3667b5e61f2afc2960964b0f199d258b sched/deadline: Fix bandwidth accounting for ext_server
+6d5cda400e94e2a800d64ec0841e8bd0590f3b3a arm64: dts: qcom: ipq5018: Add tsens node
+9e9041abee639a4539d46f5b2f74c08ab7232589 arm64: dts: qcom: sdm845: rename DisplayPort labels
+38ec16dcc8eef9e49aa6cb76512034760a138534 arm64: dts: qcom: sar2130p: use TAG_ALWAYS for MDSS's mdp0-mem path
+48dc1def3605bc4a44a424a2d9c0519394268646 arm64: dts: qcom: sar2130p: correct VBIF region size for MDSS
+7615bcab871d96cddeb6887685d389e753e2e604 arm64: dts: qcom: sar2130p: use defines for DSI PHY clocks
+a2780ef445e949db954151a9bd52be8f346d9076 arm64: dts: qcom: sdm850-lenovo-yoga-c630: add routing for second USB connector
+21124b02b3cba4399e5ee7faa02a123f8afa3fa7 arm64: dts: qcom: sa8775p: rename bus clock to follow the bindings
+5eb736cc14325ceb61cf3f344d5efa1649a7fdf0 dt-bindings: arm: qcom: add qcom,sm6150 fallback compatible to QCS615
+0a759be8003a2c44b89d2bd283fca25ab6d8bc30 arm64: dts: qcom: rename qcs615.dtsi to sm6150.dtsi
+78504f3697dad9373ecfdc821f1864c73ccbae8a arm64: dts: qcom: msm8916: Drop venus-enc/decoder node
+8336a9d06913c52ac0cee98468481ab2a5c34df7 arm64: dts: qcom: sc7180: Drop venus-enc/decoder node
+a9bc750b98998d66ef0eb6431bd39659c62e7d61 arm64: dts: qcom: sdm845: Drop venus-enc/decoder node
+586845ac06625ebc047792d6a4386a5d8b6ae83c arm64: dts: qcom: sm8250: Drop venus-enc/decoder node
+6d664c62d36683a80ed4764d99087b9bfabb87d4 arm64: dts: qcom: x1p42100: Add GPU support
+be627db54478fe82cb24b74b49e04b3bee64d13c arm64: dts: qcom: x1e80100-lenovo-yoga-slim7x: add Bluetooth support
+28375245b5b554b482f077168a92183a20f7d613 arm64: dts: qcom: qcs615: add missing dt property in QUP SEs
+1c6d7b8f96defe7b73139d6d6dbe025268428518 arm64: dts: qcom: sm6350: Add q6usbdai node
+022926c8d2a3c56b703f8b3a8094356e94d494a7 arm64: dts: qcom: sm7225-fairphone-fp4: Enable USB audio offload support
+860b684dd73c088d6f52456b3fd7e5d4fbba7171 Merge branch '20250610-qcom_ipq5424_cmnpll-v3-1-ceada8165645@quicinc.com' into arm64-for-6.17
+a112dfbf087ee93565c0f27a2b9c9d2b135c5cfa arm64: dts: qcom: ipq5424: Add CMN PLL node
+5f1a77d86ea6fc8214280016482c492cc84d560c arm64: dts: qcom: Update IPQ5424 xo_board to use fixed factor clock
+7c78a456396a59ed27d06d6d7006fba85dc56aed arm64: dts: qcom: ipq5018: Add MDIO buses
+dc7e5b210a6b29287c1dae7197863d54e13615bd arm64: dts: qcom: ipq5018: Add GE PHY to internal mdio bus
 
---===============6295523181699814215==--
+--===============3218529846212097026==--
