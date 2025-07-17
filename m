@@ -1,97 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6453003151619563410=="
+Content-Type: multipart/mixed; boundary="===============6295523181699814215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 17 Jul 2025 17:01:59 -0000
-Message-Id: <175277171916.735595.2366882203995593931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Thu, 17 Jul 2025 17:04:04 -0000
+Message-Id: <175277184418.736790.17029951204996573636@gitolite.kernel.org>
 
---===============6453003151619563410==
+--===============6295523181699814215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/tags/v5.10.240
-    old: 0000000000000000000000000000000000000000
-    new: 9c368b8de6957da9a49b72e3ca5aa6a5b9533645
-  - ref: refs/tags/v5.15.188
-    old: 0000000000000000000000000000000000000000
-    new: 038ea6d522604a8723064c25a0986211599adb5d
-  - ref: refs/tags/v5.15.189
-    old: 0000000000000000000000000000000000000000
-    new: 22e929da9a5dfcab3932f80f22cb581bf85d947b
-  - ref: refs/tags/v5.4.296
-    old: 0000000000000000000000000000000000000000
-    new: bc4f0eb3c5ecee4a80a333b912ed29c225703b27
-  - ref: refs/tags/v6.1.145
-    old: 0000000000000000000000000000000000000000
-    new: 897660f265bdb39203cbeb1d23ba23b004f8a421
-  - ref: refs/tags/v6.1.146
-    old: 0000000000000000000000000000000000000000
-    new: a67375ba60665319f46f1f6b6c95f6be64caf459
-  - ref: refs/tags/v6.12.38
-    old: 0000000000000000000000000000000000000000
-    new: 192bc3e89033bcf43ad4c792bac3fba0a27232e2
-  - ref: refs/tags/v6.12.39
-    old: 0000000000000000000000000000000000000000
-    new: e5d561e20dc72057a9907842367a3fa651793712
-  - ref: refs/tags/v6.15.7
-    old: 0000000000000000000000000000000000000000
-    new: 4e776e35257c158e939faef247551f426c1c6757
-  - ref: refs/tags/v6.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
-  - ref: refs/tags/v6.6.98
-    old: 0000000000000000000000000000000000000000
-    new: ac874c4b8ff1a2bb7806fd42a3d5df4656e11c5e
-  - ref: refs/tags/v6.6.99
-    old: 0000000000000000000000000000000000000000
-    new: 52923d6a50016f2a59234ef3d0deb49870e3fc2d
+  - ref: refs/heads/scx
+    old: 66fef1ba3c7535d1bee7912ed867db79b5f568ef
+    new: b0d9048f3667b5e61f2afc2960964b0f199d258b
+    log: revlist-66fef1ba3c75-b0d9048f3667.txt
 
---===============6453003151619563410==
+--===============6295523181699814215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-66fef1ba3c75-b0d9048f3667.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752771751 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1752771708-9cf33ab616804542bd1e5b3de18ce11b83bd4a4e
+6088f5eff45cfe255581e28fb66d12d0eb971a4f sched/ext: Prevent update_locked_rq() calls with NULL rq
+b53670a4ed9753d638f860e632ef673791a675a2 sched/topology: Fix for_each_node_numadist() lockup with !CONFIG_NUMA
+099caf39a5c4cc6d7f67f52216a3b3e9c012bbf1 sched_ext: idle: Introduce SCX_PICK_IDLE_IN_LLC
+237a5eb418e015f2af3f05c3bcea08e141dd2558 sched_ext: idle: Introduce scx_bpf_get_cpumask_llc()
+fee8a740fb8323e3e85b430bcabfed5a3ab53fc9 selftests/sched_ext: Add test for scx_bpf_get_cpumask_llc()
+66490c6f911b785ae665e2916249b48680ee9854 sched/debug: Fix updating of ppos on server write ops
+aa499ea64b39f2635f06f503c6652a38bee4a1d4 sched/debug: Stop and start server based on if it was active
+3d755fb7864c782b8e848157e9ec422a6072be23 sched/deadline: Clear the defer params
+523e3a3af059187b4867cd61b617b3f5a31f90d9 sched/deadline: Prevent setting server as started if params couldn't be applied
+90188bd6e8e7dbfd356d68940b2d4417881bef18 sched/deadline: Return EBUSY if dl_bw_cpus is zero
+949f0eba1510a7c36d082b473140f8d1637d7e11 sched: Add support to pick functions to take rf
+72552e1354ad5f90b380c0dcc56ecd880edbd872 sched: Add a server arg to dl_server_update_idle_time()
+431681e0bb9f4f140b82ca2114a579f5bb1c6c92 sched/ext: Add a DL server for sched_ext tasks
+faff940a7c0932ea1f490c8b48c00f13bed81ab7 sched/debug: Add support to change sched_ext server params
+dcf7bd364ad2596e9c4384b1f17562fb755d4943 sched/deadline: Add support to remove DLserver's bandwidth contribution
+692ba0a44f006ba399d882b404b4bea5b9f2250b sched/ext: Relinquish DL server reservations when not needed
+a7b3f1b14557b6e532d751ee73c7d58a9df1b620 selftests/sched_ext: Add test for sched_ext dl_server
+4d654467c6ed85407e408826d759d74fa66dfb52 sched/deadline: Fix DL server crash in inactive_timer callback
+9662532e0348ffd2c3a259c3f77eccc1c3609498 selftests/sched_ext: Add test for DL server total_bw consistency
+1640d002e0299f43c6414964e35db2c507a11d3d sched/deadline: Ignore initialization for hotplugging CPUs
+b0d9048f3667b5e61f2afc2960964b0f199d258b sched/deadline: Fix bandwidth accounting for ext_server
 
-0000000000000000000000000000000000000000 9c368b8de6957da9a49b72e3ca5aa6a5b9533645 refs/tags/v5.10.240
-0000000000000000000000000000000000000000 038ea6d522604a8723064c25a0986211599adb5d refs/tags/v5.15.188
-0000000000000000000000000000000000000000 22e929da9a5dfcab3932f80f22cb581bf85d947b refs/tags/v5.15.189
-0000000000000000000000000000000000000000 bc4f0eb3c5ecee4a80a333b912ed29c225703b27 refs/tags/v5.4.296
-0000000000000000000000000000000000000000 897660f265bdb39203cbeb1d23ba23b004f8a421 refs/tags/v6.1.145
-0000000000000000000000000000000000000000 a67375ba60665319f46f1f6b6c95f6be64caf459 refs/tags/v6.1.146
-0000000000000000000000000000000000000000 192bc3e89033bcf43ad4c792bac3fba0a27232e2 refs/tags/v6.12.38
-0000000000000000000000000000000000000000 e5d561e20dc72057a9907842367a3fa651793712 refs/tags/v6.12.39
-0000000000000000000000000000000000000000 4e776e35257c158e939faef247551f426c1c6757 refs/tags/v6.15.7
-0000000000000000000000000000000000000000 d2792fee7bfca1cf5e6738856fe2af4b56f26cdd refs/tags/v6.16-rc6
-0000000000000000000000000000000000000000 ac874c4b8ff1a2bb7806fd42a3d5df4656e11c5e refs/tags/v6.6.98
-0000000000000000000000000000000000000000 52923d6a50016f2a59234ef3d0deb49870e3fc2d refs/tags/v6.6.99
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh5LKcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nPsP/AoeArcd9+f+fO8X1u83
-ZUXhXEftWVDVsSewuOlL6ah83zfwTyydngCBrxiN1aqe255zWia0gW5DWALGAfzg
-PETOFa2+8nthWiAG6TQRuh8TVFT5YKMR6Le8GDWP9cTuq03Po/BcOC8ElyqSYckS
-iB71Ua3HPt6VyMoxlAcpTlo0+M6tkAemnNfGcJEe71Vwituw91m+CKkfiou4rqb+
-MSMh5Ulzt2ZyWAQmtGQEnmbuQ/yl7WuQkyaYAZ6H3+fbVFXtW13CncZBfzQirLxs
-EymPVEOe20Fm3Vj6eT42t50PP9QtMneUbA0W5lpfHDGlzrqDMju1nTbPekI1csaC
-UiMrlalYqMsM34JgYT29reJE0J91TezUAS0TpsORgP9IMTM+dbcJuQlQcHPHoddF
-mk6D4o1gYa7Jo+W/QbeVvRcP81eQ/YhRd5cwVHjYO4ym64wIPOQ+30OMO1oI7dBN
-hntMjlDZxjVNEwgTWCVS6O+3YQ+bzlNIcciVwlulFONyQ17Eh5z2s3Sbm3c8Y5Z5
-M3IlXz2uiIpEsMhax9ubaaqaK7NHQRsRNSmOnHkEP2ffhrlbUvW7xROQUvalWH99
-e8wk50wlNEBXH48iTYYmkVM6XecZ9DDzR0YKEtxFrZcFwiA7o0d2u/kSmyrXnqiG
-zmtqMWTMiEWJt4Sd+OuBPraG
-=MCgJ
------END PGP SIGNATURE-----
-
---===============6453003151619563410==--
+--===============6295523181699814215==--
