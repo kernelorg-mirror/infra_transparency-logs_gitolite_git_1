@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 17 Jul 2025 18:57:02 -0000
-Message-Id: <175277862201.840475.10993114699648340291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 17 Jul 2025 19:10:41 -0000
+Message-Id: <175277944176.852355.11775986199327382452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: 169165ab524bdcd94b2818d50aae9579a391c708
-    new: 2588df3fcba2bbe2a3726f030fed50e1e5e51969
+  - ref: refs/heads/main
+    old: af2d6148d2a159e1a0862bce5a2c88c1618a2b27
+    new: 870bc1aaa0f95e1827c1cc089e183e8749dca6da
     log: |
-         98f00a471be8fbb0597addc1865354b83f77a3c8 tracing: Remove boot-time call_srcu() checks from rcu_free_old_probes()
-         2588df3fcba2bbe2a3726f030fed50e1e5e51969 srcu: Add guards for SRCU-fast readers
+         870bc1aaa0f95e1827c1cc089e183e8749dca6da net/mlx5e: TX, Fix dma unmapping for devmem tx
          
