@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 17 Jul 2025 17:58:12 -0000
-Message-Id: <175277509204.787568.14333230953806099512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 17 Jul 2025 18:00:14 -0000
+Message-Id: <175277521459.790617.2395445061928394779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-6.16-fixes
-    old: 37fb58a7273726e59f9429c89ade5116083a213d
-    new: 14a67b42cb6f3ab66f41603c062c5056d32ea7dd
+  - ref: refs/heads/pending
+    old: 65c12b104cb942d588a1a093acc4537fb3d3b129
+    new: 40c54f8a89c6b11f2bf46fd286414a1cacfa08b2
     log: |
-         9beb8c5e77dc10e3889ff5f967eeffba78617a88 sched,freezer: Remove unnecessary warning in __thaw_task
-         14a67b42cb6f3ab66f41603c062c5056d32ea7dd Revert "cgroup_freezer: cgroup_freezing: Check if not frozen"
-         
-  - ref: refs/heads/for-next
-    old: ce888293cf3dd2e52b3aae89b9df8581ba74b0de
-    new: a6eb367a3ce4373bd4d7414e1de0353322d2d06e
-    log: |
-         9beb8c5e77dc10e3889ff5f967eeffba78617a88 sched,freezer: Remove unnecessary warning in __thaw_task
-         14a67b42cb6f3ab66f41603c062c5056d32ea7dd Revert "cgroup_freezer: cgroup_freezing: Check if not frozen"
-         a6eb367a3ce4373bd4d7414e1de0353322d2d06e Merge branch 'for-6.16-fixes' into for-next
+         d2f381e3e2af1281ef0d74f23aea31efd1794dce wifi: ath12k: fix endianness handling while accessing wmi service bit
+         40c54f8a89c6b11f2bf46fd286414a1cacfa08b2 wifi: ath12k: Add support to parse max ext2 wmi service bit
          
