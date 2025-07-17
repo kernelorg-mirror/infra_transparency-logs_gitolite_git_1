@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7076989120465954565=="
+Content-Type: multipart/mixed; boundary="===============2643128158746312547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 17 Jul 2025 17:40:17 -0000
-Message-Id: <175277401725.772966.4347119347546495992@gitolite.kernel.org>
+Date: Thu, 17 Jul 2025 17:40:19 -0000
+Message-Id: <175277401988.773098.14320453439401994873@gitolite.kernel.org>
 
---===============7076989120465954565==
+--===============2643128158746312547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 55e8757c696210292cfda6f1464991d6f5c4300f
     new: a96cee9b369ee47b5309311d0d71cb6663b123fc
     log: revlist-55e8757c6962-a96cee9b369e.txt
 
---===============7076989120465954565==
+--===============2643128158746312547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -142,4 +142,4 @@ e0c7e3154e042e2210b3a0b37e9129b52f3ae91c Merge branch 'dpll-zl3073x-add-misc-fea
 d4f6460a4bc5fa52c04a985b222a719a42c78be6 ppp: Replace per-CPU recursion counter with lock-owner field
 a96cee9b369ee47b5309311d0d71cb6663b123fc Merge branch 'ppp-replace-per-cpu-recursion-counter-with-lock-owner-field'
 
---===============7076989120465954565==--
+--===============2643128158746312547==--
