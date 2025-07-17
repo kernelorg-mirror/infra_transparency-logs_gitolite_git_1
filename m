@@ -1,46 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============0397250642054695568=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 17 Jul 2025 15:00:12 -0000
-Message-Id: <175276441285.424669.8282448540247825995@gitolite.kernel.org>
-
---===============0397250642054695568==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Thu, 17 Jul 2025 15:13:25 -0000
+Message-Id: <175276520580.434302.1684656834891055643@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 changes:
   - ref: refs/heads/master
-    old: fe69c06958297c207fdeadf07ddc2838d0b15c4f
-    new: ee5b5ce3cf1e05a6eaa928510988adaa911e9c49
+    old: 709ea4a8661c731328c1f084dd7a4f0a510932a8
+    new: 4b7d440de209cb2bb83827c30107ba05884a50c7
     log: |
-         ee5b5ce3cf1e05a6eaa928510988adaa911e9c49 Periodic update from keys.openpgp.org
+         073b3eca08f915d9b92818ed8c30123c54058206 Documentation: KVM: Fix unexpected unindent warning
+         b24bbb534c2da4a9a99a23525e9c24a0be7ec6f4 KVM: x86: Reject KVM_SET_TSC_KHZ vCPU ioctl for TSC protected guest
+         b8be70ec2b47ca62ccb54dc3c2ab9a9c93653e00 KVM: VMX: Ensure unused kvm_tdx_capabilities fields are zeroed out
+         ed302854d0155e24a3620b92e7e9f591d510c252 KVM: TDX: Don't report base TDVMCALLs
+         4b7d440de209cb2bb83827c30107ba05884a50c7 Merge tag 'kvm-x86-fixes-6.16-rc7' of https://github.com/kvm-x86/linux into HEAD
          
-
---===============0397250642054695568==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1752764453 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1752764411-c70c429437661ea0502d88825fa251593458ce13
-
-fe69c06958297c207fdeadf07ddc2838d0b15c4f ee5b5ce3cf1e05a6eaa928510988adaa911e9c49 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaHkQJQAKCRC2xBzjVmSZ
-bNimAP9gm0Q8iNhKNG/tJpxGunXnKPEQHyuRtZQbAkZZyfKfiQEA7J7tvvCWZyN6
-r21aGMKKKNcO57Vq6kOvzpAX1ktlfAQ=
-=pJUI
------END PGP SIGNATURE-----
-
---===============0397250642054695568==--
+  - ref: refs/heads/next
+    old: 709ea4a8661c731328c1f084dd7a4f0a510932a8
+    new: 4b7d440de209cb2bb83827c30107ba05884a50c7
+    log: |
+         073b3eca08f915d9b92818ed8c30123c54058206 Documentation: KVM: Fix unexpected unindent warning
+         b24bbb534c2da4a9a99a23525e9c24a0be7ec6f4 KVM: x86: Reject KVM_SET_TSC_KHZ vCPU ioctl for TSC protected guest
+         b8be70ec2b47ca62ccb54dc3c2ab9a9c93653e00 KVM: VMX: Ensure unused kvm_tdx_capabilities fields are zeroed out
+         ed302854d0155e24a3620b92e7e9f591d510c252 KVM: TDX: Don't report base TDVMCALLs
+         4b7d440de209cb2bb83827c30107ba05884a50c7 Merge tag 'kvm-x86-fixes-6.16-rc7' of https://github.com/kvm-x86/linux into HEAD
+         
