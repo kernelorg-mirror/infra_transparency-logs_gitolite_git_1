@@ -1,98 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0422685880885599331=="
+Content-Type: multipart/mixed; boundary="===============4741761953757189090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 17 Jul 2025 16:13:04 -0000
-Message-Id: <175276878487.489418.5703291533479616352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 17 Jul 2025 16:26:15 -0000
+Message-Id: <175276957506.551655.2307295018756710682@gitolite.kernel.org>
 
---===============0422685880885599331==
+--===============4741761953757189090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 347e9f5043c89695b01e66b3ed111755afcf1911
-    new: e2291551827fe5d2d3758c435c191d32b6d1350e
-    log: revlist-347e9f5043c8-e2291551827f.txt
+    old: 60679523dd87bb3b9a19093322a8e32b4188be82
+    new: 476a55f1563b32744ddd2951a9e3d4689b161481
+    log: |
+         476a55f1563b32744ddd2951a9e3d4689b161481 Linux 5.4.296
+         
 
---===============0422685880885599331==
+--===============4741761953757189090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752768825 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1752768782-efd985dea7ab924f2bbec2f2a0ff772bd057fd70
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752769614 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1752769571-984d82b3f0c0b716fd2fa4f92a031d0d3887cd43
 
-347e9f5043c89695b01e66b3ed111755afcf1911 e2291551827fe5d2d3758c435c191d32b6d1350e refs/heads/master
+60679523dd87bb3b9a19093322a8e32b4188be82 476a55f1563b32744ddd2951a9e3d4689b161481 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh5ITkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PXUP/iccs+xutL2RIrtW/Ez8
-kj4OMVPdin2JGFiaZvG9Ccv9jHdFwrT4XuVaaXKfIK5NmTQSqTZyC9+HWCaUqKx3
-8trIJkPAauCrfDg5DKEqp+2CjNEZgP1Rp70paIZ1XH7c472xf2+VHVcKWkJ5r8h4
-f9cBdy3suOXqvG8oM+6S0xH5gGPrkKtESR4j8qsmGUWR0yBoLPCL1VzHObAmfE0L
-73MTcPZfViRcMaknx5y0BEDnU6WzfDkkCkgfC/ke2h20XnxtdxskJTF88A9k3XaK
-rJpPeeyLlZhRxQi8nTqRYsu7yFa0prBaHMaP88nabVUuQp9BxCoMdl0O5b2DkE0l
-hecfJp3ya7A0BaHIoZ+INb2MDsTD1re8tZAeuNis485J4pG1kxG0WAoU7xAzuXq2
-GWmYQePDrOllUSsinc0wZ0UWoX1TVMnvZ4JjetQRvqh8+EJNjwF/w36Vp8yDzbVQ
-kTol6jOD/h2Qm8C/ZL+ncuWj2P/axYKZ4FHMbZBatwfqxM46KCDRN3A05LCX+xfn
-K1941Cynv1QFYswMatgePZiNelTjJDlahYFfwL265ZQuvFDKAza6ZhuOu0/b+qj3
-hPsTws8az8iDlYVzg1JKMY/JokylieTL7WyKgQpGemcSwlnc2KEnDKTjItPyOBIi
-a8KfgD+e+Jwev7BXg2kVscvj
-=lZhY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh5JE4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O1sP/R0Ajdzc1XZavHYF8ja1
+pn0erXCVbztaHMSphUiwztNOOIkfV79NKk9z18pH72WivaBa534v6ttWXx8DtH5G
+JF68firiNll4i2UTjgW+8ZQm0aXv6kViRhNXsiZLE9lw51zPDXpWqElLYyXV4/Ag
+FzkGd5FQBa8U2K9js7wcryHornuXCHj3ubAKkjGS6z0KffhyipfH9eHyHQjILyPr
+AuqUUeZ3vdqmBctYLRFMkjwyGpMyIEAEpXGPA2Q8IKcgMQa2yny1ZDqVjFjlUobB
++QSFp8dja/PYQIvFMAgAuht392CjH+o4lwSXXSYu0q3vcG2K/Q79lUOTMyGtp4Nx
+8DU7fjNV5tazpP915JjlqnBsKp4qDPUGnpDMMe/zqaX2V/owiPiRlUqJw04b9DJn
+ibPtOC8UjnfWi8HVZaeCrgglQgz+G3KGcwuA/KVgrAMctqrUTGhJTRG7Uk027sQM
+6HW6m4j5Sj066D/oWfX7c+IktIQ3T7H1b5fQ/cMSJrCjSsE/HM/X8VOSYu/yudT2
+zXAsqMMUFV+q+Qs0qnAlMuaDdpLekCQpBpxmmvZfs84gnLkF1vRMD14ywZgXMTMP
+xCE3isXA8uay6wNgQY5fjV4MBY/XyYCRMWCHpz/zrOS4sdM03+TXJ/THw2gM9t/i
+hyBfRkYjfc6h2B+t+vtD2Kfp
+=6X7a
 -----END PGP SIGNATURE-----
 
---===============0422685880885599331==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-347e9f5043c8-e2291551827f.txt
-
-af0f43d5d0d6e486b6a83190000dfa7ad447f825 arm64: dts: rockchip: fix rk3576 pcie1 linux,pci-domain
-af9feb0b85f92d2972061224839c5fea5ee39f6d arm64: dts: rockchip: Adjust the HDMI DDC IO driver strength for rk3588
-e625e284172d235be5cd906a98c6c91c365bb9b1 arm64: dts: rockchip: Add cd-gpios for sdcard detect on Cool Pi CM5
-98570e8cb8b0c0893810f285b4a3b1a3ab81a556 arm64: dts: rockchip: Add cd-gpios for sdcard detect on Cool Pi 4B
-3871b51a684275e3a47fbebf93c0a0e7a05d7f9f arm64: defconfig: Enable Qualcomm CPUCP mailbox driver
-869971de8221b97acb6aa4d7ff4fa67eb71adc87 arm64: dts: qcom: sc8280xp-x13s: describe uefi rtc offset
-e8d3dc45f2d3b0fea089e0e6e351d1287a5a2a29 arm64: dts: qcom: x1e80100: describe uefi rtc offset
-528e2d3125ad8d783e922033a0a8e2adb17b400e arm64: dts: imx8mp-venice-gw71xx: fix TPM SPI frequency
-b25344753c53a5524ba80280ce68f2046e559ce0 arm64: dts: imx8mp-venice-gw72xx: fix TPM SPI frequency
-1fc02c2086003c5fdaa99cde49a987992ff1aae4 arm64: dts: imx8mp-venice-gw73xx: fix TPM SPI frequency
-0bdaca0922175478ddeadf8e515faa5269f6fae6 arm64: dts: imx8mp-venice-gw74xx: fix TPM SPI frequency
-c76bcc7d1f24e90a2d7b98d1e523d7524269fc56 arm64: dts: rockchip: list all CPU supplies on ArmSoM Sige5
-36c2bf42b6f02ded87a381edc6b500cd6aac5018 arm64: dts: imx95-19x19-evk: fix the overshoot issue of NETC
-e0322ac2a3cf7013b7af73b1293670f1e163c92e arm64: dts: imx95-15x15-evk: fix the overshoot issue of NETC
-720fd1cbc0a0f3acdb26aedb3092ab10fe05e7ae arm64: dts: add big-endian property back into watchdog node
-53b6445ad08f07b6f4a84f1434f543196009ed89 arm64: dts: rockchip: use cs-gpios for spi1 on ringneck
-9037532ab893635a46afe88542cd747a4a846497 arm64: dts: rockchip: Add missing fan-supply to rk3566-quartz64-a
-61f1065272ea3721c20c4c0a6877d346b0e237c3 arm64: dts: imx95: Correct the DMA interrupter number of pcie0_ep
-8481d59be606d2338dbfe14b04cdbd1a3402c150 soc: aspeed: lpc-snoop: Cleanup resources in stack-order
-56448e78a6bb4e1a8528a0e2efe94eff0400c247 soc: aspeed: lpc-snoop: Don't disable channels that aren't enabled
-fbe94be09fa81343d623a86ec64a742759b669b3 arm64: dts: freescale: imx8mm-verdin: Keep LDO5 always on
-04515e08bca9b5a1f9729b8d99d8b322e56d7454 HID: debug: Remove duplicate entry (BTN_WHEEL)
-b1bf1a782fdf5c482215c0c661b5da98b8e75773 dm-bufio: fix sched in atomic context
-1e7c8c54c5138fe7226f8a7a9fb8e93e24243a01 Merge tag 'imx-fixes-6.16' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-fec3103b5809940b3fe2b66e5167cb9eebcedf5d Merge tag 'v6.16-rockchip-dtsfixes1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-07d45e80960a6f3e51d62104e2083eaa0cda86a6 Merge tag 'aspeed-6.16-fixes-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
-f2ebacd34eeb73081eadfba5e6e99ea967365911 Merge tag 'qcom-arm64-fixes-for-6.16' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-8f0837fdc5d832f0cd953f66db0cbfb2fa8909d2 Merge tag 'qcom-arm64-defconfig-fixes-for-6.16' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-4f15ee98304b96e164ff2340e1dfd6181c3f42aa HID: core: ensure the allocated report buffer can contain the reserved report ID
-0d0777ccaa2d46609d05b66ba0096802a2746193 HID: core: ensure __hid_request reserves the report ID as the first byte
-c2ca42f190b6714d6c481dfd3d9b62ea091c946b HID: core: do not bypass hid_hw_raw_request
-3a1d22bd85381c4e358fc3340e776c3a3223a1d0 selftests/hid: add a test case for the recent syzbot underflow
-155a3c003e555a7300d156a5252c004c392ec6b0 Merge tag 'for-6.16/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-e003ef2cb1de41edda508ea1fdb21974f9f18dfb Merge tag 'hid-for-linus-2025071501' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-4664a4ddb9211a3513aa769453e3a1095fc806d0 Merge tag 'soc-fixes-6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-1ed171a3afe81531b3ace96bd151a372dda3ee25 tracing/probes: Avoid using params uninitialized in parse_btf_arg()
-e2291551827fe5d2d3758c435c191d32b6d1350e Merge tag 'probes-fixes-v6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-
---===============0422685880885599331==--
+--===============4741761953757189090==--
