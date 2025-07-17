@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 17 Jul 2025 18:46:18 -0000
-Message-Id: <175277797874.831553.12745737321180813713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 17 Jul 2025 18:49:00 -0000
+Message-Id: <175277814000.832903.1370796556819300188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: dd8174bd527e24600ea0690e20afd9634962f553
-    new: 2215f5c93ed12bdca19fe640574a0ee7f274325a
+    old: 4c431e5dae3e7cee4ce3d0720fefc530a2524e0b
+    new: 52de8da1a99cd33b517284f87d231055a0dee6bb
     log: |
-         2215f5c93ed12bdca19fe640574a0ee7f274325a Bluetooth: hci_devcd_dump: fix out-of-bounds via dev_coredumpv
+         52de8da1a99cd33b517284f87d231055a0dee6bb doc: Add initial ISO(7) documentation
          
