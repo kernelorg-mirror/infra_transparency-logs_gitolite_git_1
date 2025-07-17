@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Jul 2025 14:39:10 -0000
-Message-Id: <175276315099.402052.5099901407488225951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 17 Jul 2025 14:44:25 -0000
+Message-Id: <175276346502.407569.16449766808894024292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 17ba793f381eb813596d6de1cc6820bcbda5ed8b
-    new: 4ab26bce3969f8fd925fe6f6f551e4d1a508c68b
+    old: 1b1a9d871442f3b5e64921284b0dcf0e2eed3605
+    new: 6fc20e018cca0ab954fe249afb60ac5af69f102a
     log: |
-         d7501e076d859d2f381d57bd984ff6db13172727 hv_netvsc: Set VF priv_flags to IFF_NO_ADDRCONF before open to prevent IPv6 addrconf
-         ad4f6df4f384905bc85f9fbfc1c0c198fb563286 net/mlx5: Update the list of the PCI supported devices
-         be5dcaed694e4255dc02dd0acfe036708c535def virtio-net: fix recursived rtnl_lock() during probe()
-         4ab26bce3969f8fd925fe6f6f551e4d1a508c68b tls: always refresh the queue when reading sock
+         f62714f9a0acd123c9f6864c2ffc356053acf865 WHENCE: clarify io_ti origin
+         2aaf3bf0702cb63656379c434a1cf90737f31e49 WHENCE: extract more license statements
+         6fc20e018cca0ab954fe249afb60ac5af69f102a Merge branch 'license' into 'main'
          
