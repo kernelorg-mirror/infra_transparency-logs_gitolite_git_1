@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7315525144975253757=="
+Content-Type: multipart/mixed; boundary="===============5073225738536776076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 17 Jul 2025 04:30:22 -0000
-Message-Id: <175272662257.4045464.48957285587296489@gitolite.kernel.org>
+Date: Thu, 17 Jul 2025 04:30:24 -0000
+Message-Id: <175272662410.4045553.4298663229551081565@gitolite.kernel.org>
 
---===============7315525144975253757==
+--===============5073225738536776076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,64 +15,57 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm32-for-6.17
-    old: fb84f0ec527c50c54ab662d45c441f6789ec3550
-    new: f36e10fa6e1ed424058b2121c174e105e7c53f1d
-    log: |
-         b538c2f893cf72773132cfc2beae8d08a8e06543 ARM: dts: qcom: msm8960: add sdcc3 pinctrl states
-         12d17b6bc4ac3d322360b13072da9eeaeacd7970 ARM: dts: qcom: msm8960: add gsbi8 and its serial configuration
-         cee2575e2de8816fe3dca047c3fc6dcf25dd0a94 ARM: dts: qcom: msm8960: disable gsbi1 and gsbi5 nodes in msm8960 dtsi
-         82322c7cef16091e646b7e8a227ef1e4f8a3b287 dt-bindings: arm: qcom: add Sony Xperia SP
-         7dabe771b072f7f6c09358d72ccc3d08266d7a34 ARM: dts: qcom: add device tree for Sony Xperia SP
-         f36e10fa6e1ed424058b2121c174e105e7c53f1d ARM: dts: qcom: pm8921: add vibrator device node
-         
-  - ref: refs/heads/arm64-for-6.17
-    old: c5e043aa81c6615781ee9ba3c64f77ba9f97f985
-    new: a150a9c4807ab37d9f63112ef8e11710104a9d09
-    log: revlist-c5e043aa81c6-a150a9c4807a.txt
-  - ref: refs/heads/clk-for-6.17
-    old: a2afa4c33f0a7f7f70d54a1bc5110e326753f982
-    new: 633a81bead863881373cf3399e26d9d10d31315e
-    log: revlist-a2afa4c33f0a-633a81bead86.txt
-  - ref: refs/heads/drivers-for-6.17
-    old: 9f35ab0e53ccbea57bb9cbad8065e0406d516195
-    new: 4587d3910f805ac74348e6c320071a9b65be035e
-    log: revlist-9f35ab0e53cc-4587d3910f80.txt
+  - ref: refs/heads/for-next
+    old: 379b4d3a47660b200dee96bcdb589315ec95ff9e
+    new: 886f37eaf0e7219add278748981f4ec0689a04f1
+    log: revlist-379b4d3a4766-886f37eaf0e7.txt
 
---===============7315525144975253757==
+--===============5073225738536776076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5e043aa81c6-a150a9c4807a.txt
+Content-Disposition: attachment; filename=revlist-379b4d3a4766-886f37eaf0e7.txt
 
-0c25ae62f5dc6a438b563536b5fe7fb6da3612b8 dt-bindings: clock: qcom: Add CMN PLL support for IPQ5424 SoC
+b538c2f893cf72773132cfc2beae8d08a8e06543 ARM: dts: qcom: msm8960: add sdcc3 pinctrl states
+12d17b6bc4ac3d322360b13072da9eeaeacd7970 ARM: dts: qcom: msm8960: add gsbi8 and its serial configuration
+cee2575e2de8816fe3dca047c3fc6dcf25dd0a94 ARM: dts: qcom: msm8960: disable gsbi1 and gsbi5 nodes in msm8960 dtsi
+82322c7cef16091e646b7e8a227ef1e4f8a3b287 dt-bindings: arm: qcom: add Sony Xperia SP
+7dabe771b072f7f6c09358d72ccc3d08266d7a34 ARM: dts: qcom: add device tree for Sony Xperia SP
+f36e10fa6e1ed424058b2121c174e105e7c53f1d ARM: dts: qcom: pm8921: add vibrator device node
 5eede3dc2a6ea548302f54ebd89d5892532449dc arm64: dts: qcom: msm8916: Drop venus-enc/decoder node
 5c034d0e9abe3c950399932ace5b5e8e21b724bd arm64: dts: qcom: sc7180: Drop venus-enc/decoder node
 896f49ab5f525d519c3ff9533659a9f73be89f56 arm64: dts: qcom: sdm845: Drop venus-enc/decoder node
 23221c35d0c9da4da8cafccbd8e714f0f0b5d970 arm64: dts: qcom: sm8250: Drop venus-enc/decoder node
+84684c57c9cd47b86c883a7170dd68222d97ef13 soc: qcom: rpmh-rsc: Add RSC version 4 support
 2c66665d8defe1c36bdd2848b245dc906d4f3ab4 arm64: dts: qcom: x1p42100: Add GPU support
 e57e7084b87bf2534078e04f9ddf377d85d55c13 arm64: dts: qcom: x1e80100-lenovo-yoga-slim7x: add Bluetooth support
 d8356c7975f75c1db52e9ac908cf2597272ce2aa arm64: dts: qcom: qcs615: add missing dt property in QUP SEs
+23972da96e1eee7f10c8ef641d56202ab9af8ba7 firmware: qcom: scm: remove unused arguments from SHM bridge routines
+dc3f4e75c54c19bad9a70419afae00ce6baf3ebf firmware: qcom: scm: take struct device as argument in SHM bridge enable
+87be3e7a2d0030cda6314d2ec96b37991f636ccd firmware: qcom: scm: initialize tzmem before marking SCM as available
+7ab36b51c6bee56e1a1939063dd10d602fe49d13 firmware: qcom: scm: request the waitqueue irq *after* initializing SCM
 30237c2bfda59e3abd7f7e92879e75bc730edfd8 arm64: dts: qcom: sm6350: Add q6usbdai node
 ddcc0ad9a9b8488d3ee0b4ca6fd9b092c462491f arm64: dts: qcom: sm7225-fairphone-fp4: Enable USB audio offload support
-1aa0c99c308173c03b7a7225a8355a58ba985956 Merge branch '20250610-qcom_ipq5424_cmnpll-v3-1-ceada8165645@quicinc.com' into arm64-for-6.17
-0c8ad32ea8acbcd5959ec21f15c6ea794b957b1a arm64: dts: qcom: ipq5424: Add CMN PLL node
-671606d2807550f34e6064f12b227eb489e9cc77 arm64: dts: qcom: Update IPQ5424 xo_board to use fixed factor clock
-23b3da8734e94acad2b98180cacbedf97754e1c1 arm64: dts: qcom: ipq5018: Add MDIO buses
-a150a9c4807ab37d9f63112ef8e11710104a9d09 arm64: dts: qcom: ipq5018: Add GE PHY to internal mdio bus
-
---===============7315525144975253757==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2afa4c33f0a-633a81bead86.txt
-
+e53ff5b79fbac35d1fbf2b8c28a5a5dcf125567e dt-bindings: arm: qcom,ids: Add SoC IDs for SM7635 family
+95f3b09e7e8c963c3206ce5450a88747c4653343 soc: qcom: socinfo: Add SoC IDs for SM7635 family
+9c4299b2361892a2eb8ab4ac63d07b97acd8a1ab soc: qcom: socinfo: Add PM7550 & PMIV0108 PMICs
+50b749fab108c2354bb6368d95aaec82e3c99912 soc: qcom: spmi-pmic: add more PMIC SUBTYPE IDs
+65702c3d293e45d3cac5e4e175296a9c90404326 soc: qcom: pmic_glink: fix OF node leak
+955a41218d2bd2ffadd0406b14a4b4efb67b056c soc: qcom: socinfo: Add support to retrieve APPSBL build details
+4405f3f7b44767c037270d8c40fe2fb3dc3454d0 dt-bindings: firmware: qcom,scm: document Milos SCM Firmware Interface
+6cd06adc39ac92ebca04d5c0df5acb7f0ec5ff2d dt-bindings: soc: qcom,aoss-qmp: document the Milos Always-On Subsystem side channel
+4587d3910f805ac74348e6c320071a9b65be035e dt-bindings: soc: qcom: qcom,pmic-glink: document Milos compatible
 314b903c30040632db7edd187cd33003b2aee512 dt-bindings: clock: qcom: Add CMN PLL support for IPQ5018 SoC
 3c4ee2cc7f56f7097e045c7c0116071a530686a7 Merge branch '20250516-ipq5018-cmn-pll-v4-2-389a6b30e504@outlook.com' into clk-for-6.17
 693a723291d0634eaea24cff2f9d807f3223f204 clk: qcom: ipq5018: keep XO clock always on
 25d12630561d8d0906f1f5eceb055da3af67c8c9 clk: qcom: ipq-cmn-pll: Add IPQ5018 SoC support
+1aa0c99c308173c03b7a7225a8355a58ba985956 Merge branch '20250610-qcom_ipq5424_cmnpll-v3-1-ceada8165645@quicinc.com' into arm64-for-6.17
+0c8ad32ea8acbcd5959ec21f15c6ea794b957b1a arm64: dts: qcom: ipq5424: Add CMN PLL node
+671606d2807550f34e6064f12b227eb489e9cc77 arm64: dts: qcom: Update IPQ5424 xo_board to use fixed factor clock
 9723807046601f6596fa71515a3bc81f202cde5c clk: qcom: gcc-qcm2290: Set HW_CTRL_TRIGGER for video GDSC
 f6a4a55ae5d99f865e106916a9295548e381de47 clk: qcom: gcc-ipq5018: fix GE PHY reset
+23b3da8734e94acad2b98180cacbedf97754e1c1 arm64: dts: qcom: ipq5018: Add MDIO buses
+a150a9c4807ab37d9f63112ef8e11710104a9d09 arm64: dts: qcom: ipq5018: Add GE PHY to internal mdio bus
 48d2c6dec1c46460ee7028915595d49a644e8a77 clk: qcom: clk-alpha-pll: Add support for dynamic update for slewing PLLs
 8df29649903c067138180ef89f315b6f166b8732 dt-bindings: clock: Add Qualcomm QCS615 Camera clock controller
 28bc422939540b37eeaa11dd9c0fb412caaaca27 clk: qcom: camcc-qcs615: Add QCS615 camera clock controller driver
@@ -107,26 +100,6 @@ f40b5217dce1832e5a270ee10f03d3d23233d720 clk: qcom: Add Display Clock controller
 980d7c84461a0ae88ec915735553067c7743ba4c clk: qcom: Add Graphics Clock controller (GPUCC) driver for Milos
 a4937e9741867865bb307ae9dde6ef393b68540b dt-bindings: clock: qcom: document the Milos Video Clock Controller
 633a81bead863881373cf3399e26d9d10d31315e clk: qcom: Add Video Clock controller (VIDEOCC) driver for Milos
+886f37eaf0e7219add278748981f4ec0689a04f1 Merge branches 'arm32-for-6.17', 'arm64-defconfig-fixes-for-6.16', 'arm64-defconfig-for-6.17', 'arm64-fixes-for-6.16', 'arm64-for-6.17', 'clk-for-6.17' and 'drivers-for-6.17' into for-next
 
---===============7315525144975253757==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f35ab0e53cc-4587d3910f80.txt
-
-84684c57c9cd47b86c883a7170dd68222d97ef13 soc: qcom: rpmh-rsc: Add RSC version 4 support
-23972da96e1eee7f10c8ef641d56202ab9af8ba7 firmware: qcom: scm: remove unused arguments from SHM bridge routines
-dc3f4e75c54c19bad9a70419afae00ce6baf3ebf firmware: qcom: scm: take struct device as argument in SHM bridge enable
-87be3e7a2d0030cda6314d2ec96b37991f636ccd firmware: qcom: scm: initialize tzmem before marking SCM as available
-7ab36b51c6bee56e1a1939063dd10d602fe49d13 firmware: qcom: scm: request the waitqueue irq *after* initializing SCM
-e53ff5b79fbac35d1fbf2b8c28a5a5dcf125567e dt-bindings: arm: qcom,ids: Add SoC IDs for SM7635 family
-95f3b09e7e8c963c3206ce5450a88747c4653343 soc: qcom: socinfo: Add SoC IDs for SM7635 family
-9c4299b2361892a2eb8ab4ac63d07b97acd8a1ab soc: qcom: socinfo: Add PM7550 & PMIV0108 PMICs
-50b749fab108c2354bb6368d95aaec82e3c99912 soc: qcom: spmi-pmic: add more PMIC SUBTYPE IDs
-65702c3d293e45d3cac5e4e175296a9c90404326 soc: qcom: pmic_glink: fix OF node leak
-955a41218d2bd2ffadd0406b14a4b4efb67b056c soc: qcom: socinfo: Add support to retrieve APPSBL build details
-4405f3f7b44767c037270d8c40fe2fb3dc3454d0 dt-bindings: firmware: qcom,scm: document Milos SCM Firmware Interface
-6cd06adc39ac92ebca04d5c0df5acb7f0ec5ff2d dt-bindings: soc: qcom,aoss-qmp: document the Milos Always-On Subsystem side channel
-4587d3910f805ac74348e6c320071a9b65be035e dt-bindings: soc: qcom: qcom,pmic-glink: document Milos compatible
-
---===============7315525144975253757==--
+--===============5073225738536776076==--
