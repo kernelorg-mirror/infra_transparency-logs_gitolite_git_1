@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7471232017943419494=="
+Content-Type: multipart/mixed; boundary="===============4695664473061336756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 17 Jul 2025 15:31:11 -0000
-Message-Id: <175276627113.451079.6452786895861874339@gitolite.kernel.org>
+Date: Thu, 17 Jul 2025 15:31:21 -0000
+Message-Id: <175276628148.451585.167299834868492716@gitolite.kernel.org>
 
---===============7471232017943419494==
+--===============4695664473061336756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 0e9418961f897be59b1fab6e31ae1b09a0bae902
-    new: a2bbaff6816a1531fd61b07739c3f2a500cd3693
-    log: revlist-0e9418961f89-a2bbaff6816a.txt
+  - ref: refs/heads/dev-queue
+    old: 07ec3905924b0970df84415e491d0af534125a95
+    new: ec262b70495af7e5b4c7160e54a29bf8f0d5a1db
+    log: revlist-07ec3905924b-ec262b70495a.txt
 
---===============7471232017943419494==
+--===============4695664473061336756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e9418961f89-a2bbaff6816a.txt
+Content-Disposition: attachment; filename=revlist-07ec3905924b-ec262b70495a.txt
 
 e5d110fec068c7708002f4f372bf9ecdc1bc3da2 wifi: iwlwifi: pcie: fix locking on invalid TOP reset
 5fde0fcbd7608dd5f97a5c0c23a316074d6f17f5 wifi: iwlwifi: mask reserved bits in chan_state_active_bitmap
@@ -95,5 +95,21 @@ e9c0b96ec0a34fcacdf9365713578d83cecac34c rxrpc: Fix transmission of an abort in 
 f0295678ad304195927829b1dbf06553aa2187b0 rxrpc: Fix to use conn aborts for conn-wide failures
 32247444dd86681966c56e5c6dc9664c3786c706 Merge branch 'rxrpc-miscellaneous-fixes'
 a2bbaff6816a1531fd61b07739c3f2a500cd3693 Merge tag 'for-net-2025-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+c6fe1fd08df08ac1c287c5f442c78fbcf74824f6 coccinelle: misc: secs_to_jiffies script: Create dummy report
+b4bde0e79e5f3215bb3bc0dfb9c90cf59894a913 ice: fix lane number calculation
+f09df66e77996428dc41d482d59bdc22bb93bb6f ice: fix fwlog after driver reinit
+7202dfa3e4e1aee896d94de7d575149a1a3045e9 ice: add NULL check in eswitch lag check
+ebde9d495001bb7dd1e8f70afbcf5f53bc23c837 ixgbe: initialize aci lock before it's used
+65f4af3680b9514a778b1ef0f30ac51f1e332ee7 i40e: report VF tx_dropped with tx_errors instead of tx_discards
+01d1a1bf829583526334b21f6a9fd1901f6d1cfd i40e: When removing VF MAC filters, only check PF-set MAC
+aadc3c51bda4cf0252e644635014d4b5cd6cdf17 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
+e25f4bfc522805f76e6ac684176db3c1cb999a9f ice: fix possible leak in ice_plug_aux_dev() error path
+10b5218b82d1f2922e4b0e334615d56c099692a6 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
+38ac55a7b260f9bc59e20ccd9b995e4cb671989e e1000e: ignore uninitialized checksum word on tgp
+b649f25b06956c22ac3a3facbbd7d75994b5da3e ice: Fix a null pointer dereference in ice_copy_and_init_pkg()
+175d03581cd6796c46439e67638438ec91693260 devlink: allow driver to freely name interfaces
+20f473bb9d7d411bf75a1faaa41e35a113d16c5e ixgbe: prevent from unwanted interface name changes
+609a81db6c66e017aa1dc1a889bea8180b3e184d e1000e: Populate entire system_counterval_t in get_time_fn() callback
+ec262b70495af7e5b4c7160e54a29bf8f0d5a1db ice: fix Rx page leak on multi-buffer frames
 
---===============7471232017943419494==--
+--===============4695664473061336756==--
