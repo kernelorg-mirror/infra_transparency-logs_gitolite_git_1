@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Thu, 17 Jul 2025 12:32:41 -0000
-Message-Id: <175275556132.290281.6645489804446592621@gitolite.kernel.org>
+Date: Thu, 17 Jul 2025 12:35:20 -0000
+Message-Id: <175275572032.293733.14034579985552444377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,41 +12,44 @@ repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
   - ref: refs/heads/linux-next
-    old: e0d737a665a4e18a27d3a3188ac51a8349e97b21
-    new: c7991b44d7b44f9270dec63acd0b2965d29aab43
+    old: c7991b44d7b44f9270dec63acd0b2965d29aab43
+    new: c2dbb3fc2a975e26751a835939a4c6b7804286b3
     log: |
-         774a14c4d15d0515f0ff88dfab7e08e22b07eb3e vsock/virtio: Validate length in packet header before skb_put()
-         e4b13dce25b41c63716ca51cbc33428245410592 vsock/virtio: Move length check to callers of virtio_vsock_skb_rx_put()
-         5f96156100062d3efdc87ef8c469885675c68ad2 vsock/virtio: Resize receive buffers so that each SKB fits in a 4K page
-         a9d5b4a3ae3d72d8d8a74335aa06ff2e53082613 vsock/virtio: Rename virtio_vsock_alloc_skb()
-         1b21842062ebff3ee56ddde87b204391c8786705 vsock/virtio: Move SKB allocation lower-bound check to callers
-         4243469b093ac35f54c3a0414812a5b97313e149 vhost/vsock: Allocate nonlinear SKBs for handling large receive buffers
-         8a5c2992b0bda3ef65fdd3835210c2301603c53e vsock/virtio: Rename virtio_vsock_skb_rx_put()
-         c7991b44d7b44f9270dec63acd0b2965d29aab43 vsock/virtio: Allocate nonlinear SKBs for handling large transmit buffers
+         71810a70cbeb342e659ff1e76650120626d36233 virtio_ring: constify virtqueue pointer for DMA helpers
+         40564488dfbb8a037e448d89df0bb88b616ac1db virtio_ring: switch to use dma_{map|unmap}_page()
+         d1814d4fca2ca1ce957c7c081f90fc6e77a6e2ae virtio: rename dma helpers
+         8c8433c5ac39e3b6511ef6285317c2fed7727359 virtio: rename dma_dev to map_token
+         35b2026e00b8b566a18b631991122ee090792644 virtio_ring: rename dma_handle to map_handle
+         88a93d2245446636579e47066822782a83f84669 virtio: introduce map ops in virtio core
+         ca3cc7f8da0a37f0d0683a45b0aa7ee861d0dc9f vdpa: rename dma_dev to map_token
+         3db562280331959306e84db81a23cfc4536f9478 vdpa: introduce map ops
+         c2dbb3fc2a975e26751a835939a4c6b7804286b3 vduse: switch to use virtio map API instead of DMA API
          
   - ref: refs/heads/test
-    old: e0d737a665a4e18a27d3a3188ac51a8349e97b21
-    new: c7991b44d7b44f9270dec63acd0b2965d29aab43
+    old: c7991b44d7b44f9270dec63acd0b2965d29aab43
+    new: c2dbb3fc2a975e26751a835939a4c6b7804286b3
     log: |
-         774a14c4d15d0515f0ff88dfab7e08e22b07eb3e vsock/virtio: Validate length in packet header before skb_put()
-         e4b13dce25b41c63716ca51cbc33428245410592 vsock/virtio: Move length check to callers of virtio_vsock_skb_rx_put()
-         5f96156100062d3efdc87ef8c469885675c68ad2 vsock/virtio: Resize receive buffers so that each SKB fits in a 4K page
-         a9d5b4a3ae3d72d8d8a74335aa06ff2e53082613 vsock/virtio: Rename virtio_vsock_alloc_skb()
-         1b21842062ebff3ee56ddde87b204391c8786705 vsock/virtio: Move SKB allocation lower-bound check to callers
-         4243469b093ac35f54c3a0414812a5b97313e149 vhost/vsock: Allocate nonlinear SKBs for handling large receive buffers
-         8a5c2992b0bda3ef65fdd3835210c2301603c53e vsock/virtio: Rename virtio_vsock_skb_rx_put()
-         c7991b44d7b44f9270dec63acd0b2965d29aab43 vsock/virtio: Allocate nonlinear SKBs for handling large transmit buffers
+         71810a70cbeb342e659ff1e76650120626d36233 virtio_ring: constify virtqueue pointer for DMA helpers
+         40564488dfbb8a037e448d89df0bb88b616ac1db virtio_ring: switch to use dma_{map|unmap}_page()
+         d1814d4fca2ca1ce957c7c081f90fc6e77a6e2ae virtio: rename dma helpers
+         8c8433c5ac39e3b6511ef6285317c2fed7727359 virtio: rename dma_dev to map_token
+         35b2026e00b8b566a18b631991122ee090792644 virtio_ring: rename dma_handle to map_handle
+         88a93d2245446636579e47066822782a83f84669 virtio: introduce map ops in virtio core
+         ca3cc7f8da0a37f0d0683a45b0aa7ee861d0dc9f vdpa: rename dma_dev to map_token
+         3db562280331959306e84db81a23cfc4536f9478 vdpa: introduce map ops
+         c2dbb3fc2a975e26751a835939a4c6b7804286b3 vduse: switch to use virtio map API instead of DMA API
          
   - ref: refs/heads/vhost
-    old: e0d737a665a4e18a27d3a3188ac51a8349e97b21
-    new: c7991b44d7b44f9270dec63acd0b2965d29aab43
+    old: c7991b44d7b44f9270dec63acd0b2965d29aab43
+    new: c2dbb3fc2a975e26751a835939a4c6b7804286b3
     log: |
-         774a14c4d15d0515f0ff88dfab7e08e22b07eb3e vsock/virtio: Validate length in packet header before skb_put()
-         e4b13dce25b41c63716ca51cbc33428245410592 vsock/virtio: Move length check to callers of virtio_vsock_skb_rx_put()
-         5f96156100062d3efdc87ef8c469885675c68ad2 vsock/virtio: Resize receive buffers so that each SKB fits in a 4K page
-         a9d5b4a3ae3d72d8d8a74335aa06ff2e53082613 vsock/virtio: Rename virtio_vsock_alloc_skb()
-         1b21842062ebff3ee56ddde87b204391c8786705 vsock/virtio: Move SKB allocation lower-bound check to callers
-         4243469b093ac35f54c3a0414812a5b97313e149 vhost/vsock: Allocate nonlinear SKBs for handling large receive buffers
-         8a5c2992b0bda3ef65fdd3835210c2301603c53e vsock/virtio: Rename virtio_vsock_skb_rx_put()
-         c7991b44d7b44f9270dec63acd0b2965d29aab43 vsock/virtio: Allocate nonlinear SKBs for handling large transmit buffers
+         71810a70cbeb342e659ff1e76650120626d36233 virtio_ring: constify virtqueue pointer for DMA helpers
+         40564488dfbb8a037e448d89df0bb88b616ac1db virtio_ring: switch to use dma_{map|unmap}_page()
+         d1814d4fca2ca1ce957c7c081f90fc6e77a6e2ae virtio: rename dma helpers
+         8c8433c5ac39e3b6511ef6285317c2fed7727359 virtio: rename dma_dev to map_token
+         35b2026e00b8b566a18b631991122ee090792644 virtio_ring: rename dma_handle to map_handle
+         88a93d2245446636579e47066822782a83f84669 virtio: introduce map ops in virtio core
+         ca3cc7f8da0a37f0d0683a45b0aa7ee861d0dc9f vdpa: rename dma_dev to map_token
+         3db562280331959306e84db81a23cfc4536f9478 vdpa: introduce map ops
+         c2dbb3fc2a975e26751a835939a4c6b7804286b3 vduse: switch to use virtio map API instead of DMA API
          
