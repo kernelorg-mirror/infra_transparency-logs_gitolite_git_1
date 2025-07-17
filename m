@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0382664205684276272=="
+Content-Type: multipart/mixed; boundary="===============5855711118782676958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 17 Jul 2025 12:25:24 -0000
-Message-Id: <175275512420.283787.3342931157800419609@gitolite.kernel.org>
+Date: Thu, 17 Jul 2025 12:25:38 -0000
+Message-Id: <175275513868.284188.4369723838528115881@gitolite.kernel.org>
 
---===============0382664205684276272==
+--===============5855711118782676958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 15592a11d5a5c8411ac8494ec49736b658f6fbff
-    new: 26b971d58ab9f0d5003ac750a97bb88cec7aa2e1
-    log: revlist-15592a11d5a5-26b971d58ab9.txt
+  - ref: refs/heads/for-next
+    old: dc9f707da52ef7e336e044355cdc2cd8a65dd108
+    new: 62b38fb31831dbd58dd117e4108a64584f631aab
+    log: revlist-dc9f707da52e-62b38fb31831.txt
 
---===============0382664205684276272==
+--===============5855711118782676958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15592a11d5a5-26b971d58ab9.txt
+Content-Disposition: attachment; filename=revlist-dc9f707da52e-62b38fb31831.txt
 
 e6d4486edd4a840e0ec9de4a35dee3448ca5a940 scsi: lpfc: Revise logging format for failed CT MIB requests
 5459bd49f05f7f0f420cb8564ea58cc12afc360e scsi: lpfc: Update debugfs trace ring initialization messages
@@ -44,5 +44,6 @@ c7ee6c8f2f1e3d4b8efa6ac957289676a3f5cd51 scsi: pm80xx: Add controller SCSI host 
 ed575d4bca6ac84129046455803028a91e81cc64 scsi: mpi3mr: Fix kernel-doc issues in mpi3mr_app.c
 6243146bb019a200c54a98c96b85f4b9012f2140 scsi: qla2xxx: Avoid stack frame size warning in qla_dfs
 26b971d58ab9f0d5003ac750a97bb88cec7aa2e1 scsi: scsi_devinfo: Remove redundant 'found'
+62b38fb31831dbd58dd117e4108a64584f631aab Merge branch 'misc' into for-next
 
---===============0382664205684276272==--
+--===============5855711118782676958==--
