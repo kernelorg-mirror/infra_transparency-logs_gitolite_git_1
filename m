@@ -1,58 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1468794046427008048=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 17 Jul 2025 08:52:48 -0000
-Message-Id: <175274236807.67223.14615368137473100432@gitolite.kernel.org>
-
---===============1468794046427008048==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 17 Jul 2025 08:54:07 -0000
+Message-Id: <175274244701.67991.6917705753077860725@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/usb-testing
-    old: 300386d117a98961fc1d612d1f1a61997d731b8a
-    new: f72b9aa821a2bfe4b6dfec4be19f264d0673b008
+  - ref: refs/heads/for-next
+    old: 05eb0e48d00239bbf9121ca3de84c5d550f7e6cc
+    new: 7c35a350efe47d8c2c9a6b989a0afa726551b1d6
     log: |
-         4b9c60e440525b729ac5f071e00bcee12e0a7e84 usb: xhci: Avoid showing errors during surprise removal
-         65fc0fc137b5da3ee1f4ca4f61050fcb203d7582 usb: xhci: Avoid showing warnings for dying controller
-         f72b9aa821a2bfe4b6dfec4be19f264d0673b008 usb: xhci: Set avg_trb_len = 8 for EP0 during Address Device Command
+         07e04c071a35abe12957b575cd1453ccafc02eb6 arm64: dts: rockchip: Add maskrom button to NanoPi R5S + R5C
+         7c35a350efe47d8c2c9a6b989a0afa726551b1d6 Merge branch 'v6.17-armsoc/dts64' into for-next
          
-
---===============1468794046427008048==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752742406 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1752742364-9d64d4e671078e4c949efbb0ee8abe34528e51dc
-
-300386d117a98961fc1d612d1f1a61997d731b8a f72b9aa821a2bfe4b6dfec4be19f264d0673b008 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh4ugcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QcUQAM3G/csAwy6XBryR8T4U
-zDgo2Ezd/WM6MyykUePcUWKNEAWkAdlNzzTeMpCaFCet/QVpM6mARGX1cAGoBHUL
-a8WFawC2KHdnRhV7C/WScaUlm1BIsraiKl2iWa+YC5RhdNHaWBy1ZlmkTNSJZRnz
-gdi6NqY23cuE1LZYUMkdNJajwdhVx/ANNba8aV6ErVR2LvMtaVA7YdanzM3oH/J7
-pv+Bfh00kZfUu7kJ+Xg3XAS/nO7UpKwMk3CEBuVMdYZrd5hZLrCc9QkKXyb96Mog
-WsX3iyY2xWbdSrtAl1oP/4A8b4Lw8EUTbn6+X8cTGnQKzajJNmerBE3O/BLVJ5o1
-om1/PS+eUVgBLriccorQgzq372spWkBYDz6DrLJalcjOBmooOGPtQrOJRtyWojOw
-U1pUwsMzESILuGxgvFS9fAn8RudjVSSC1JaqjR3iAxaLhya22wLdyEUnY1vDy47u
-n1u1wdVo7YdRgNPnoe5Hq0bQpnKh/6AK51O5J+NGyEHh0FcOj9ZVyDEEu2NlMNmz
-o9MDe+8UsRzQhAKbjCx4RnEBHJkD+Tn0fttvW2vo2dw+RlIHZO+d9TzJV6Hiy1Tw
-uVZKlsoyqspSNahvgFgYerV2xdYFf3YUFJuZdX0fMOeOisVk1jC8CvoQUUOoOflX
-3p6YYPAaIVWAzeacSc5K3XAU
-=cXqA
------END PGP SIGNATURE-----
-
---===============1468794046427008048==--
+  - ref: refs/heads/v6.17-armsoc/dts64
+    old: b2501f327b8a136dbdd1fe7bad5d113eeda2827a
+    new: 07e04c071a35abe12957b575cd1453ccafc02eb6
+    log: |
+         07e04c071a35abe12957b575cd1453ccafc02eb6 arm64: dts: rockchip: Add maskrom button to NanoPi R5S + R5C
+         
