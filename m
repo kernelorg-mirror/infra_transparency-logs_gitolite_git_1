@@ -1,41 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5830414299298604453=="
+Content-Type: multipart/mixed; boundary="===============0397250642054695568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Jul 2025 14:57:41 -0000
-Message-Id: <175276426144.421266.9404879094728048285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 17 Jul 2025 15:00:12 -0000
+Message-Id: <175276441285.424669.8282448540247825995@gitolite.kernel.org>
 
---===============5830414299298604453==
+--===============0397250642054695568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 32247444dd86681966c56e5c6dc9664c3786c706
-    new: a2bbaff6816a1531fd61b07739c3f2a500cd3693
-    log: revlist-32247444dd86-a2bbaff6816a.txt
+  - ref: refs/heads/master
+    old: fe69c06958297c207fdeadf07ddc2838d0b15c4f
+    new: ee5b5ce3cf1e05a6eaa928510988adaa911e9c49
+    log: |
+         ee5b5ce3cf1e05a6eaa928510988adaa911e9c49 Periodic update from keys.openpgp.org
+         
 
---===============5830414299298604453==
+--===============0397250642054695568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32247444dd86-a2bbaff6816a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a0075accbf0d76c2dad1ad3993d2e944505d99a0 Bluetooth: Fix null-ptr-deref in l2cap_sock_resume_cb()
-d85edab911a4c1fcbe3f08336eff5c7feec567d0 Bluetooth: hci_sync: fix connectable extended advertising when using static random address
-6ec3185fbc3528f2284c347fb9bd8be6fa672ed4 Bluetooth: btintel: Check if controller is ISO capable on btintel_classify_pkt_type
-fe4840df0bdf341f376885271b7680764fe6b34e Bluetooth: SMP: If an unallowed command is received consider it a failure
-6ef99c917688a8510259e565bd1b168b7146295a Bluetooth: SMP: Fix using HCI_ERROR_REMOTE_USER_TERM on timeout
-dfef8d87a031ac1a46dde3de804e0fcf3c3a6afd Bluetooth: hci_core: fix typos in macros
-cdee6a4416b2a57c89082929cc60e2275bb32a3a Bluetooth: hci_core: add missing braces when using macro parameters
-6851a0c228fc040dce8e4c393004209e7372e0a3 Bluetooth: hci_dev: replace 'quirks' integer by 'quirk_flags' bitmap
-43015955795a619f7ca4ae69b9c0ffc994c82818 Bluetooth: btusb: QCA: Fix downloading wrong NVM for WCN6855 GF variant without board ID
-d24e4a7fedae121d33fb32ad785b87046527eedb Bluetooth: L2CAP: Fix attempting to adjust outgoing MTU
-a2bbaff6816a1531fd61b07739c3f2a500cd3693 Merge tag 'for-net-2025-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+certificate version 0.1
+pusher B6C41CE35664996C! 1752764453 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1752764411-c70c429437661ea0502d88825fa251593458ce13
 
---===============5830414299298604453==--
+fe69c06958297c207fdeadf07ddc2838d0b15c4f ee5b5ce3cf1e05a6eaa928510988adaa911e9c49 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaHkQJQAKCRC2xBzjVmSZ
+bNimAP9gm0Q8iNhKNG/tJpxGunXnKPEQHyuRtZQbAkZZyfKfiQEA7J7tvvCWZyN6
+r21aGMKKKNcO57Vq6kOvzpAX1ktlfAQ=
+=pJUI
+-----END PGP SIGNATURE-----
+
+--===============0397250642054695568==--
