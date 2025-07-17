@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Jul 2025 12:55:51 -0000
-Message-Id: <175275695102.312952.7088736532911299266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 17 Jul 2025 12:59:50 -0000
+Message-Id: <175275719024.315494.2617677633640563251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/main
-    old: 69b1b21ab90cf8e4ac4f8bb448f1496e71559b94
-    new: e49f95dc8cdce2a686bd13861da152e7d2c19ccb
+  - ref: refs/heads/dt-bindings
+    old: e1cb67ab82aab44cda410616498d4749399da217
+    new: 873eb218b39302654fca8251634da8f25d30c29d
     log: |
-         e5d110fec068c7708002f4f372bf9ecdc1bc3da2 wifi: iwlwifi: pcie: fix locking on invalid TOP reset
-         5fde0fcbd7608dd5f97a5c0c23a316074d6f17f5 wifi: iwlwifi: mask reserved bits in chan_state_active_bitmap
-         afcefc58fdfd687e3a9a9bef0be5846b96f710b7 wifi: ath12k: Fix packets received in WBM error ring with REO LUT enabled
-         2aec790e666bf1f11d39bb50aa9df8febd58a548 Merge tag 'ath-current-20250714' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-         444020f4bf06fb86805ee7e7ceec0375485fd94d wifi: cfg80211: remove scan request n_channels counted_by
-         46345ed36296d965af1b6e68e62076d67521c55d wifi: iwlwifi: Fix botched indexing conversion
-         bbc19fef578970158847a41d9b6b6b218034b8c2 Merge tag 'iwlwifi-fixes-2025-07-15' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-         e49f95dc8cdce2a686bd13861da152e7d2c19ccb Merge tag 'wireless-2025-07-17' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+         f8766fdbefef2b0ac4c068c03ecba55a111051b0 dt-bindings: pci: Convert st,spear1340-pcie to DT schema
+         bfde613ae16ec592e2aa28ad7f7729bc20b9382c dt-bindings: PCI: Convert axis,artpec6-pcie to DT schema
+         ac8ff3e15ec6c54f11d38a6f5016de323ca1d576 dt-bindings: PCI: Convert apm,xgene-pcie to DT schema
+         7d372e2a37af6e02a643f0be80020b05d29b45cc dt-bindings: PCI: Convert marvell,armada-3700-pcie to DT schema
+         a4fa6a0c4d26c8a68b288c833f53235ebce8b6e1 dt-bindings: PCI: Convert amazon,al-alpine-v[23]-pcie to DT schema
+         873eb218b39302654fca8251634da8f25d30c29d dt-bindings: PCI: Remove 83xx-512x-pci.txt
          
