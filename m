@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3856673248824687548=="
+Content-Type: multipart/mixed; boundary="===============3954498555877458047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 17 Jul 2025 15:36:45 -0000
-Message-Id: <175276660501.457283.5467300224636288019@gitolite.kernel.org>
+Date: Thu, 17 Jul 2025 15:36:47 -0000
+Message-Id: <175276660749.457517.6364834797937688882@gitolite.kernel.org>
 
---===============3856673248824687548==
+--===============3954498555877458047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0e9418961f897be59b1fab6e31ae1b09a0bae902
     new: a2bbaff6816a1531fd61b07739c3f2a500cd3693
     log: revlist-0e9418961f89-a2bbaff6816a.txt
 
---===============3856673248824687548==
+--===============3954498555877458047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -96,4 +96,4 @@ f0295678ad304195927829b1dbf06553aa2187b0 rxrpc: Fix to use conn aborts for conn-
 32247444dd86681966c56e5c6dc9664c3786c706 Merge branch 'rxrpc-miscellaneous-fixes'
 a2bbaff6816a1531fd61b07739c3f2a500cd3693 Merge tag 'for-net-2025-07-17' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
---===============3856673248824687548==--
+--===============3954498555877458047==--
