@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6720741691894924442=="
+Content-Type: multipart/mixed; boundary="===============4886657248310578321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 17 Jul 2025 07:17:04 -0000
-Message-Id: <175273662406.4181446.14852047912042232751@gitolite.kernel.org>
+Date: Thu, 17 Jul 2025 07:17:28 -0000
+Message-Id: <175273664869.4181982.533647316390274763@gitolite.kernel.org>
 
---===============6720741691894924442==
+--===============4886657248310578321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,53 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4900e6fd750dd40344d6755c2785620260d3dd6e
-    new: 3ed004baa471c53ad19843d8aa81c88c9e62c410
-    log: revlist-4900e6fd750d-3ed004baa471.txt
+    old: 3ed004baa471c53ad19843d8aa81c88c9e62c410
+    new: 4d94176b272f3e63356d8d388db34610dbad0019
+    log: revlist-3ed004baa471-4d94176b272f.txt
+  - ref: refs/heads/tip/urgent
+    old: 3ddab1783a8c4d5f30a996ede840e85c8981f957
+    new: aa10d6f7563bff1513edb88b828eb1c0309f0bf0
+    log: revlist-3ddab1783a8c-aa10d6f7563b.txt
 
---===============6720741691894924442==
+--===============4886657248310578321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4900e6fd750d-3ed004baa471.txt
+Content-Disposition: attachment; filename=revlist-3ed004baa471-4d94176b272f.txt
+
+1a7d1e849c15d4303cc288bc2fb4ef5c3786e1cc Merge branch into tip/master: 'locking/urgent'
+64685ef6576d52dd2f55baa21574b1361df08fda Merge branch into tip/master: 'sched/urgent'
+aa10d6f7563bff1513edb88b828eb1c0309f0bf0 Merge branch into tip/master: 'x86/urgent'
+11bbd6d59d4592d860495de7c81cfde3bd3a1d12 Merge branch into tip/master: 'x86/merge'
+495117e0a4bee8a4c5273d66ec7a17596a16913a Merge branch into tip/master: 'core/merge'
+213e1bc94650943474feab200ff7fba5194b5c0b Merge branch into tip/master: 'core/bugs'
+eb83d27f7127a074e41c7f787a0e273886aade31 Merge branch into tip/master: 'irq/core'
+bfc54ce4a90e75ed03fb1332c2b543a0c094e4c8 Merge branch into tip/master: 'irq/drivers'
+72b08a32e637f99f1b9e105738eb4034a542e613 Merge branch into tip/master: 'irq/msi'
+c07441414dd13e848c670887764b479a0b7b7338 Merge branch into tip/master: 'locking/core'
+10d557efbc8dccca1ac3628ff25a6670315020d8 Merge branch into tip/master: 'locking/futex'
+74e029bf596f752d48712de055d44c016815c0a3 Merge branch into tip/master: 'perf/core'
+064f3e8c3dfc911fbb7e015ef76c8a8e819914cc Merge branch into tip/master: 'sched/core'
+33d5dc81b7b0a35a0aa91007240a9bca163ccea6 Merge branch into tip/master: 'smp/core'
+ab8bcf27415a5f34c7c36094085781e47f03f1ba Merge branch into tip/master: 'timers/cleanups'
+40d2eb8098663c037bcd9f37bba8cbdba68b0fc5 Merge branch into tip/master: 'timers/core'
+8ff31341358320b82801c25648ef4cdc0191eca2 Merge branch into tip/master: 'timers/ptp'
+204e2fb9ed13965aba4f9c0ddf79f17b3310478a Merge branch into tip/master: 'timers/vdso'
+82a9dba955ef4ecf64117e8e3ada4bd59f517868 Merge branch into tip/master: 'x86/boot'
+121c6259d17ce8ee14222d83eb8ada05d8035296 Merge branch into tip/master: 'x86/bugs'
+21c8f2e29c6bf6aa655e7326f586e0496e33c363 Merge branch into tip/master: 'x86/cleanups'
+c7338b5412556820a965f7a066af097b0a4a9ed9 Merge branch into tip/master: 'x86/core'
+9e7f60b0ab72caf26e033a3287f7eea34e3040a4 Merge branch into tip/master: 'x86/fpu'
+4b35cc7c85a5f7c9701a0c85da65ebced0c77a1a Merge branch into tip/master: 'x86/kconfig'
+4253058758a2a73101276dd311e5dbaa25707469 Merge branch into tip/master: 'x86/microcode'
+40a89b7d24685048b87c77a38635ec9fd8f83b40 Merge branch into tip/master: 'x86/platform'
+4d94176b272f3e63356d8d388db34610dbad0019 Merge branch into tip/master: 'x86/sev'
+
+--===============4886657248310578321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3ddab1783a8c-aa10d6f7563b.txt
 
 af0f43d5d0d6e486b6a83190000dfa7ad447f825 arm64: dts: rockchip: fix rk3576 pcie1 linux,pci-domain
 af9feb0b85f92d2972061224839c5fea5ee39f6d arm64: dts: rockchip: Adjust the HDMI DDC IO driver strength for rk3588
@@ -61,6 +99,8 @@ e003ef2cb1de41edda508ea1fdb21974f9f18dfb Merge tag 'hid-for-linus-2025071501' of
 4664a4ddb9211a3513aa769453e3a1095fc806d0 Merge tag 'soc-fixes-6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 1ed171a3afe81531b3ace96bd151a372dda3ee25 tracing/probes: Avoid using params uninitialized in parse_btf_arg()
 e2291551827fe5d2d3758c435c191d32b6d1350e Merge tag 'probes-fixes-v6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-3ed004baa471c53ad19843d8aa81c88c9e62c410 Merge branch 'linus'
+1a7d1e849c15d4303cc288bc2fb4ef5c3786e1cc Merge branch into tip/master: 'locking/urgent'
+64685ef6576d52dd2f55baa21574b1361df08fda Merge branch into tip/master: 'sched/urgent'
+aa10d6f7563bff1513edb88b828eb1c0309f0bf0 Merge branch into tip/master: 'x86/urgent'
 
---===============6720741691894924442==--
+--===============4886657248310578321==--
