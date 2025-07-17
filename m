@@ -1,24 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Thu, 17 Jul 2025 23:27:57 -0000
-Message-Id: <175279487778.1069549.9738468261484572619@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6849550136786254113=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 17 Jul 2025 23:28:55 -0000
+Message-Id: <175279493502.1070285.6000475110110818558@gitolite.kernel.org>
+
+--===============6849550136786254113==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/rust-atomic-v8
-    old: cbf814af7927b6cc52ad9103739242432b739be0
-    new: 703fac1ede11c924446a1a6ea81fd54b8519cdde
-    log: |
-         bb065cceca7b51c125e34f299eec3686f66b532d rust: sync: atomic: Add generic atomics
-         de0363ff2b0f5a87c009d5be7951938b5a89ed67 rust: sync: atomic: Add atomic {cmp,}xchg operations
-         8593ab70c7328d3965ea50536ac027ab4efe3268 rust: sync: atomic: Add the framework of arithmetic operations
-         3f1c184702246717b0744d5b7098c1355d1edf6e rust: sync: atomic: Add Atomic<u{32,64}>
-         e0c9ff5a47f3e47c7bd86347f53a26d21e62ffec rust: sync: atomic: Add Atomic<{usize,isize}>
-         703fac1ede11c924446a1a6ea81fd54b8519cdde rust: sync: Add memory barriers
-         
+  - ref: refs/heads/driver-core-next
+    old: 3964d07dd821efe9680e90c51c86661a98e60a0f
+    new: 9a8682f0875b8cedad42bdfe601e6ab204fad06d
+    log: revlist-3964d07dd821-9a8682f0875b.txt
+
+--===============6849550136786254113==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3964d07dd821-9a8682f0875b.txt
+
+91ae26b06aab476bdd8b56cd99e127f029490330 rust: devres: initialize Devres::inner::data last
+85aa5b16fef7040213581df9ff093dae27bf8675 rust: devres: provide an accessor for the device
+47e6715bb7ea388a9a3a13d31918827ba3aa3f4a rust: device: implement Device::as_bound()
+42573e4df8e2318fce6a711e0f9cafc9e3dc1483 samples/kobject: fix path comment
+f751fe2a2acbe8cc20da35f118f589ac3b316b78 samples/kobject: make attribute_group const
+6beb4ec0f9fdff4c4c6eb8ed8654fe8396c2b6e0 driver core: auxiliary bus: fix OF node leak
+35cff7af7598b9eb143cc0556e5532e2ded3b61a container_of: Document container_of() is not to be used in new code
+6b585f4ce6e4cde967bffae4f6cd9066094967ac cacheinfo: Set cache 'id' based on DT data
+9a697eff25c97dd11877de04fd1be60af32d6d2d cacheinfo: Add arch hook to compress CPU h/w id into 32 bits for cache-id
+cbf218627d6a5092e653942baa261a10d1444798 arm64: cacheinfo: Provide helper to compress MPIDR value into u32
+2f5606afa4c2bcabd45cb34c92faf93ca5ffe75e device: rust: rename Device::as_ref() to Device::from_raw()
+8d84b32075fb2d9bd95c7e47b165942411d74bba rust: device_id: split out index support into a separate trait
+f65a3218fd92cbe3e00f25427e1c9255b8973b31 rust: net::phy represent DeviceId as transparent wrapper over mdio_device_id
+9a8682f0875b8cedad42bdfe601e6ab204fad06d rust: net::phy Change module_phy_driver macro to use module_device_table macro
+
+--===============6849550136786254113==--
