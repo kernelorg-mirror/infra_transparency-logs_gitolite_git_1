@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 17 Jul 2025 23:24:32 -0000
-Message-Id: <175279467238.1066216.10132474699286919170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Thu, 17 Jul 2025 23:27:57 -0000
+Message-Id: <175279487778.1069549.9738468261484572619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/master
-    old: abda7bfd41f7944827a9a5dcf8eb29ef499dfd98
-    new: 5d72e0de14224cf2f5b7149e60c3f484ec72dcc1
+  - ref: refs/heads/rust-atomic-v8
+    old: cbf814af7927b6cc52ad9103739242432b739be0
+    new: 703fac1ede11c924446a1a6ea81fd54b8519cdde
     log: |
-         1f762f049c91fa882d2dbf6ab19d4e8361193fe3 foo
-         b5ee2ec14a9325e3d17513c7871329115624b80a foo
-         05c1bc185827090ffb913aa8aec83cca58a61541 foo
-         5d72e0de14224cf2f5b7149e60c3f484ec72dcc1 foo
+         bb065cceca7b51c125e34f299eec3686f66b532d rust: sync: atomic: Add generic atomics
+         de0363ff2b0f5a87c009d5be7951938b5a89ed67 rust: sync: atomic: Add atomic {cmp,}xchg operations
+         8593ab70c7328d3965ea50536ac027ab4efe3268 rust: sync: atomic: Add the framework of arithmetic operations
+         3f1c184702246717b0744d5b7098c1355d1edf6e rust: sync: atomic: Add Atomic<u{32,64}>
+         e0c9ff5a47f3e47c7bd86347f53a26d21e62ffec rust: sync: atomic: Add Atomic<{usize,isize}>
+         703fac1ede11c924446a1a6ea81fd54b8519cdde rust: sync: Add memory barriers
          
