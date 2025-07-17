@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 17 Jul 2025 18:49:00 -0000
-Message-Id: <175277814000.832903.1370796556819300188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 17 Jul 2025 18:57:02 -0000
+Message-Id: <175277862201.840475.10993114699648340291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 4c431e5dae3e7cee4ce3d0720fefc530a2524e0b
-    new: 52de8da1a99cd33b517284f87d231055a0dee6bb
+  - ref: refs/heads/dev
+    old: 169165ab524bdcd94b2818d50aae9579a391c708
+    new: 2588df3fcba2bbe2a3726f030fed50e1e5e51969
     log: |
-         52de8da1a99cd33b517284f87d231055a0dee6bb doc: Add initial ISO(7) documentation
+         98f00a471be8fbb0597addc1865354b83f77a3c8 tracing: Remove boot-time call_srcu() checks from rcu_free_old_probes()
+         2588df3fcba2bbe2a3726f030fed50e1e5e51969 srcu: Add guards for SRCU-fast readers
          
