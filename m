@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 17 Jul 2025 22:10:46 -0000
-Message-Id: <175279024604.1005706.7793452179987699951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 17 Jul 2025 22:32:40 -0000
+Message-Id: <175279156000.1022291.5355367076651825535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/enumeration
-    old: f71f4735c2efd19f232fb7e305adb3156015daee
-    new: 91703041697c9d2e8dffe5b3a159198ba0dd24e7
+  - ref: refs/heads/next
+    old: d07b0029a1734062a14466100165994bef2839cf
+    new: 291061ea2eac74f5e401b2816d33883224354e95
+    log: |
+         291061ea2eac74f5e401b2816d33883224354e95 cleanup: Fix documentation build error for ACQUIRE updates
+         
