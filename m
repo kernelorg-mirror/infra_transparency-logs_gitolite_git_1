@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8909387105599616326=="
+Content-Type: multipart/mixed; boundary="===============8360259110550615897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 18 Jul 2025 19:15:39 -0000
-Message-Id: <175286613938.2181261.1283828233771024791@gitolite.kernel.org>
+Date: Fri, 18 Jul 2025 19:16:10 -0000
+Message-Id: <175286617031.2181869.17613765781063086630@gitolite.kernel.org>
 
---===============8909387105599616326==
+--===============8360259110550615897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 0ee30d937c147fc14c4b49535181d437cd2fde7a
-    new: beb1097ec8bdf15e2fed3301920a719e0dd2250a
-    log: revlist-0ee30d937c14-beb1097ec8bd.txt
+  - ref: refs/heads/for-next
+    old: 4682f1044231a89f930c250456d9991160dbd722
+    new: f227e9ed4fe4f2fed40e4725d6c10860d30c2ea2
+    log: revlist-4682f1044231-f227e9ed4fe4.txt
 
---===============8909387105599616326==
+--===============8360259110550615897==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0ee30d937c14-beb1097ec8bd.txt
+Content-Disposition: attachment; filename=revlist-4682f1044231-f227e9ed4fe4.txt
 
-bc75552b80e6683b2def5a0459433607ea4788f5 raid6: riscv: Fix NULL pointer dereference caused by a missing clobber
-dbe0038b65ff4b8c13b862f24c0381e0d9196e5f Merge patch "Fix a segmentation fault also add raid6test for RISC-V support"
 2aa5801ada29948ce510fc8b1e3b3ec8162423e2 RISC-V: uaccess: Wrap the get_user_8 uaccess macro
 ac1daa91e9370e3b88ef7826a73d62a4d09e2717 arm64: dts: apple: t8103: Fix PCIe BCM4377 nodename
 811a909978bf59caa25359e0aca4e30500dcff26 arm64: dts: apple: Drop {address,size}-cells from SPI NOR
@@ -1037,6 +1035,7 @@ fbefd8adda4ef6c7a3a7b875ad075a75f0256094 Merge tag 'drm-intel-fixes-2025-07-17' 
 4399e3d84d6a64f3b5307983b76f75a0f56edd43 Merge tag 'mediatek-drm-fixes-20250718' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
 0238c45fbbf8228f52aa4642f0cdc21c570d1dfe libbpf: Fix handling of BPF arena relocations
 4d33ed640ffc06734271cebda5ac2e3b5a79f453 Merge tag 'drm-xe-fixes-2025-07-17' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+0ee30d937c147fc14c4b49535181d437cd2fde7a libbpf: Fix warning in calloc() usage
 5948705adbf1a7afcecfe9a13ff39221ef61e16b xfs: don't allocate the xfs_extent_busy structure for zoned RTGs
 d3d16f31d7b305df46080a95f2d254f78e04d588 Merge tag 'bcachefs-2025-07-17' of git://evilpiepirate.org/bcachefs
 d551d7bbf264ed11d897368e3670bda5b37b360e Merge tag 'xfs-fixes-6.16-rc7' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -1050,5 +1049,6 @@ d786aba32000f20a58bb79c2e3ae326e4fb377a1 Merge tag 'bpf-fixes' of git://git.kern
 16e14971df69ff8e655196b77515821b1724c61f Merge tag 'gpio-fixes-for-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7abc678e308467ab60ffb8c31f4638a47ee3518c Merge tag 'pmdomain-v6.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 beb1097ec8bdf15e2fed3301920a719e0dd2250a Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf after rc6
+f227e9ed4fe4f2fed40e4725d6c10860d30c2ea2 Merge branch 'bpf-next/master' into for-next
 
---===============8909387105599616326==--
+--===============8360259110550615897==--
