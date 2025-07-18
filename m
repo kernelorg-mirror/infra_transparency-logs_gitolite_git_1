@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 18 Jul 2025 08:39:59 -0000
-Message-Id: <175282799900.1592584.16240956080589312045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Fri, 18 Jul 2025 08:45:22 -0000
+Message-Id: <175282832229.1598636.15730530158142781589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/next-merge
-    old: e381d3e2c80d4b163302e53d0a0879c59ccff148
-    new: 414d21d65b8e15f2b45aa6d61fa277c7068a5d81
-    log: |
-         414d21d65b8e15f2b45aa6d61fa277c7068a5d81 xfs: Remove unused label in xfs_dax_notify_dev_failure
-         
+  - ref: refs/heads/linux-next
+    old: c2dbb3fc2a975e26751a835939a4c6b7804286b3
+    new: c7991b44d7b44f9270dec63acd0b2965d29aab43
+  - ref: refs/heads/test
+    old: c2dbb3fc2a975e26751a835939a4c6b7804286b3
+    new: c7991b44d7b44f9270dec63acd0b2965d29aab43
+  - ref: refs/heads/vhost
+    old: c2dbb3fc2a975e26751a835939a4c6b7804286b3
+    new: c7991b44d7b44f9270dec63acd0b2965d29aab43
