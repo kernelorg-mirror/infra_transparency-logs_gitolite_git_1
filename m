@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2064856184812416227=="
+Content-Type: multipart/mixed; boundary="===============8307808519085904653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fwestphal/nf
-Date: Fri, 18 Jul 2025 10:27:39 -0000
-Message-Id: <175283445993.1720459.9239893285940668397@gitolite.kernel.org>
+Date: Fri, 18 Jul 2025 10:28:33 -0000
+Message-Id: <175283451344.1721005.17731191202361009059@gitolite.kernel.org>
 
---===============2064856184812416227==
+--===============8307808519085904653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fwestphal/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: d2b9d97e89c79c95f8b517e4fa43fd100f936acc
-    new: 7727ec1523d7973defa1dff8f9c0aad288d04008
-    log: revlist-d2b9d97e89c7-7727ec1523d7.txt
+  - ref: refs/heads/testing
+    old: 56dbbb09f94b0ec8c2f642084aea5b7838e60756
+    new: d32b52c03cd4b10d2165e4e262d3940eab7deaee
+    log: revlist-56dbbb09f94b-d32b52c03cd4.txt
 
---===============2064856184812416227==
+--===============8307808519085904653==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d2b9d97e89c7-7727ec1523d7.txt
+Content-Disposition: attachment; filename=revlist-56dbbb09f94b-d32b52c03cd4.txt
 
-1224b218a4b9203656ecc932152f4c81a97b4fcc pldmfw: Select CRC32 when PLDMFW is selected
 2a8a5a5dd06eef580f9818567773fd75057cb875 scsi: elx: efct: Fix memory leak in efct_hw_parse_filter()
 e1bc3a13bd775791cca0bb144d977b00f3598042 drm/v3d: Avoid NULL pointer dereference in `v3d_job_update_stats()`
 86c8db86af43f52f682e53a0f2f0828683be1e52 selinux: fix selinux_xfrm_alloc_user() to set correct ctx_len
@@ -1050,5 +1049,6 @@ a0f8361c3ce4cf706608edb81c4334783cb093cf Merge tag 'dma-mapping-6.16-2025-07-11'
 5265593a28d91aed5529c31e720be8d3e78e0695 Merge tag 'gpio-fixes-for-v6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 c7979c3917fa1326dae3607e1c6a04c12057b194 Merge tag 'net-6.16-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 7727ec1523d7973defa1dff8f9c0aad288d04008 net: emaclite: Fix missing pointer increment in aligned_read()
+d32b52c03cd4b10d2165e4e262d3940eab7deaee netfilter: xt_nfacct: make sure acct name is null-terminated
 
---===============2064856184812416227==--
+--===============8307808519085904653==--
