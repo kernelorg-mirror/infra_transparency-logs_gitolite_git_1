@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6452707474617576757=="
+Content-Type: multipart/mixed; boundary="===============2559789742323390970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Jul 2025 15:30:43 -0000
-Message-Id: <175285264314.1984683.5247907083860809757@gitolite.kernel.org>
+Date: Fri, 18 Jul 2025 15:30:45 -0000
+Message-Id: <175285264574.1984771.11297436186615621698@gitolite.kernel.org>
 
---===============6452707474617576757==
+--===============2559789742323390970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a96cee9b369ee47b5309311d0d71cb6663b123fc
     new: d61f6cb6f6ef3c70d2ccc0d9c85c508cb8017da9
     log: revlist-a96cee9b369e-d61f6cb6f6ef.txt
 
---===============6452707474617576757==
+--===============2559789742323390970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -311,4 +311,4 @@ b6645645d0d0b6c5cb33cf58c9de5e74b6701326 selftests/drivers/net: Support ipv6 for
 96a1e15e60216b52da0e6da5336b6d7f5b0188b0 net: ag71xx: Add missing check after DMA map
 d61f6cb6f6ef3c70d2ccc0d9c85c508cb8017da9 et131x: Add missing check after DMA map
 
---===============6452707474617576757==--
+--===============2559789742323390970==--
