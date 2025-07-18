@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 18 Jul 2025 02:06:30 -0000
-Message-Id: <175280439082.1215967.6698296895012396397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 18 Jul 2025 02:19:09 -0000
+Message-Id: <175280514980.1225180.16535972363788603143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 96a1e15e60216b52da0e6da5336b6d7f5b0188b0
-    new: d61f6cb6f6ef3c70d2ccc0d9c85c508cb8017da9
+  - ref: refs/heads/master
+    old: 2e2713ae1a05eea7dda2f3b6988827196e33b25a
+    new: 0238c45fbbf8228f52aa4642f0cdc21c570d1dfe
     log: |
-         d61f6cb6f6ef3c70d2ccc0d9c85c508cb8017da9 et131x: Add missing check after DMA map
+         0238c45fbbf8228f52aa4642f0cdc21c570d1dfe libbpf: Fix handling of BPF arena relocations
          
