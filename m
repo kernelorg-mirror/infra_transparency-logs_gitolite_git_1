@@ -1,45 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2927679054902016995=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 18 Jul 2025 14:56:12 -0000
-Message-Id: <175285057273.1948998.6735180406121076637@gitolite.kernel.org>
-
---===============2927679054902016995==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 18 Jul 2025 14:57:08 -0000
+Message-Id: <175285062813.1949685.9104800582281190456@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/main
-    old: 5a1ad8faaa165028dfcce650e20868c8fb7148cb
-    new: 9e8086b865ab458e4a1ae520aa3a4f304a0a0539
-    log: revlist-5a1ad8faaa16-9e8086b865ab.txt
-  - ref: refs/tags/ath-202507181409
-    old: 0000000000000000000000000000000000000000
-    new: 9e8086b865ab458e4a1ae520aa3a4f304a0a0539
-
---===============2927679054902016995==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a1ad8faaa16-9e8086b865ab.txt
-
-0443543a04e8423eb3f690b469b75b028133da88 bus: mhi: host: Fix endianness of BHI vector table
-45f4564d88fc3dbbbce79220cdff1e9b7fe45595 bus: mhi: host: pci_generic: Add support for EM929x and set MRU to 32768 for better performance.
-d79fcf4feaf11decd127f9532b01cdf9d23a35f8 bus: mhi: host: Use str_true_false() helper
-f9fca12491128bcdfb5a87b6ebf7bb5986fb9426 bus: mhi: host: pci_generic: Add Foxconn T99W696 modem
-0bfe192d90fea2c1b523868a9c110d176a2be741 bus: mhi: host: Detect events pointing to unexpected TREs
-73d370ed82381428d76d602d74f5806c77d25b09 bus: mhi: host: pci_generic: Add Telit FN990B40 modem support
-8f1a078842d4af4877fb686f3907788024d0d1b7 wifi: ath12k: fix endianness handling while accessing wmi service bit
-1a50c5ca394ab1b3a30094eda2354bcfc00f9909 wifi: ath12k: Add support to parse max ext2 wmi service bit
-48f3b8d3d8b7b6f993306867e4f5e60cbd3a9044 Merge branch 'ath-next'
-eec26b5ceaab85737d6d23bb0a2030ce8ca9fb72 Merge branch 'ath-current'
-ef960ddc4193c5a1ab66ad4bff1b46d75ba4b3da Merge remote-tracking branch 'mhi/mhi-next'
-9e8086b865ab458e4a1ae520aa3a4f304a0a0539 Add localversion-wireless-testing-ath
-
---===============2927679054902016995==--
+  - ref: refs/heads/icc-next
+    old: 2436e190bbddf1aac634e277986ccbfb43513250
+    new: 0a41d93cb73a63de48f03e275f4e7fd4d53fff4c
+    log: |
+         02ee375506dceb7d32007821a2bff31504d64b99 interconnect: qcom: sc8280xp: specify num_links for qnm_a1noc_cfg
+         7e0b59496a02d25828612721e846ea4b717a97b9 interconnect: qcom: sc8180x: specify num_nodes
+         cbabc73e85be9e706a5051c9416de4a8d391cf57 interconnect: qcom: qcs615: Drop IP0 interconnects
+         a8d7161d1dba668d814e66b28aef235341d7b1ed dt-bindings: interconnect: qcom: Remove double colon from description
+         a95571d8ffe2fa92bcc2af22a853170340ae1e9c dt-bindings: interconnect: Add EPSS L3 compatible for QCS8300 SoC
+         a234cffd04bc06386b18976de5b691b23bcf68a4 dt-bindings: interconnect: qcom,msm8998-bwmon: Allow 'nonposted-mmio'
+         0a41d93cb73a63de48f03e275f4e7fd4d53fff4c Merge branch 'icc-fixes' into icc-next
+         
