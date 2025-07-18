@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9014758445415400709=="
+Content-Type: multipart/mixed; boundary="===============5572944229109723906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 18 Jul 2025 10:18:12 -0000
-Message-Id: <175283389222.1711684.2629521401445646702@gitolite.kernel.org>
+Date: Fri, 18 Jul 2025 10:18:50 -0000
+Message-Id: <175283393095.1712247.4062081912875130071@gitolite.kernel.org>
 
---===============9014758445415400709==
+--===============5572944229109723906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
+  - ref: refs/heads/dev
     old: f8a4bca0b1cc853e19e081890ac731145b1fa57c
     new: 45f762ecbea647f4d10422a523971d0dbdcff13e
     log: revlist-f8a4bca0b1cc-45f762ecbea6.txt
 
---===============9014758445415400709==
+--===============5572944229109723906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ a547c6cd08292bc5bbaee5ebc81571c5d465e7aa erofs-utils: introduce `fallthrough;`
 4f9d62d2637450d7dac87ed052ef97bab37afe07 erofs-utils: resolve `PRINTF_ARGS`
 45f762ecbea647f4d10422a523971d0dbdcff13e erofs-utils: lib: fix `INTEGER_OVERFLOW`
 
---===============9014758445415400709==--
+--===============5572944229109723906==--
