@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Fri, 18 Jul 2025 07:04:29 -0000
-Message-Id: <175282226956.1461146.10007126583007761912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 18 Jul 2025 07:28:21 -0000
+Message-Id: <175282370123.1480457.8386134571242035106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/tags/phy-fix-6.16
-    old: 0000000000000000000000000000000000000000
-    new: 76e00e9f14618ab33fc3f4b5fea22411dc49cf01
+  - ref: refs/heads/dev-test
+    old: 800d8ddd4221818af4eb86934d142a6a0e7053f3
+    new: e484a15cdbd35414109b8d539c142bb2b7bcd348
+    log: |
+         00d9b7986904e3d8cb66646e4d86607e838cc786 erofs: fix build error with CONFIG_EROFS_FS_ZIP_ACCEL=y
+         bc7d493701d7d7aadd144c3eb9b4251b52e0d8cf erofs: add on-disk definition for metadata compression
+         e484a15cdbd35414109b8d539c142bb2b7bcd348 erofs: implement metadata compression
+         
