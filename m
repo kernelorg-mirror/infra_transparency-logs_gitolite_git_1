@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 18 Jul 2025 02:01:42 -0000
-Message-Id: <175280410237.1211623.1737914546567891255@gitolite.kernel.org>
+Date: Fri, 18 Jul 2025 02:06:30 -0000
+Message-Id: <175280439082.1215967.6698296895012396397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b6645645d0d0b6c5cb33cf58c9de5e74b6701326
-    new: 96a1e15e60216b52da0e6da5336b6d7f5b0188b0
+    old: 96a1e15e60216b52da0e6da5336b6d7f5b0188b0
+    new: d61f6cb6f6ef3c70d2ccc0d9c85c508cb8017da9
     log: |
-         96a1e15e60216b52da0e6da5336b6d7f5b0188b0 net: ag71xx: Add missing check after DMA map
+         d61f6cb6f6ef3c70d2ccc0d9c85c508cb8017da9 et131x: Add missing check after DMA map
          
