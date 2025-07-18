@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 18 Jul 2025 15:29:26 -0000
-Message-Id: <175285256689.1980779.17310564844518745530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 18 Jul 2025 15:29:37 -0000
+Message-Id: <175285257707.1981126.9728806221836236165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/main
-    old: 7842e9d36827bfe3da64d30c188aca7e903eedd6
-    new: a5fbfa20d1bd0f11d7f530ddee7385812da1f24e
+  - ref: refs/heads/master
+    old: 0768e980feb5cffe63920d375bebef3bb4654961
+    new: 0ee30d937c147fc14c4b49535181d437cd2fde7a
     log: |
-         dcd36f8607e5218bd996d9d378c54da56f3478f1 intel_vpu: Update NPU firmware
-         a5fbfa20d1bd0f11d7f530ddee7385812da1f24e Merge branch 'update-2025ww22' into 'main'
+         0ee30d937c147fc14c4b49535181d437cd2fde7a libbpf: Fix warning in calloc() usage
          
