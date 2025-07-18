@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2204401378055348072=="
+Content-Type: multipart/mixed; boundary="===============2457488327513088074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 18 Jul 2025 10:48:38 -0000
-Message-Id: <175283571859.1738402.17723783544605540099@gitolite.kernel.org>
+Date: Fri, 18 Jul 2025 10:48:51 -0000
+Message-Id: <175283573178.1738735.9105498841529078624@gitolite.kernel.org>
 
---===============2204401378055348072==
+--===============2457488327513088074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/master
-    old: d7b8f8e20813f0179d8ef519541a3527e7661d3a
-    new: 347e9f5043c89695b01e66b3ed111755afcf1911
-    log: revlist-d7b8f8e20813-347e9f5043c8.txt
+  - ref: refs/heads/for-next
+    old: ead25cdd4235f2906d4320b0b3c631e972e1c73b
+    new: bbc33f667095fede98f65583a59d77f2f30e510f
+    log: revlist-ead25cdd4235-bbc33f667095.txt
 
---===============2204401378055348072==
+--===============2457488327513088074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7b8f8e20813-347e9f5043c8.txt
+Content-Disposition: attachment; filename=revlist-ead25cdd4235-bbc33f667095.txt
 
 c33453d08a56a45c2e72f9f56043610b8f7449c7 efi: Drop preprocessor directives from zboot.lds
 aa807b9f22df2eee28593cbbabba0f93f4aa26c1 dma-contiguous: hornor the cma address limit setup by user
@@ -307,5 +307,8 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 5d5d62298b8b5017d6677af28e021f7ad13f7a62 Merge tag 'x86_urgent_for_v6.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cd752194e2ec2573d0e740f4a1edbfcc28257f5 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
+71eb775bb536a92c5a4d2124c9b6990c21bd4750 s390/mm: Remove possible false-positive warning in pte_free_defer()
+eb514b5879ff9a63d0ad2d7ed7c03c56338730f0 Merge branch 'features' into for-next
+bbc33f667095fede98f65583a59d77f2f30e510f Merge branch 'fixes' into for-next
 
---===============2204401378055348072==--
+--===============2457488327513088074==--
