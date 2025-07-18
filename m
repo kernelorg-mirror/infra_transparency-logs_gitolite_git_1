@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Fri, 18 Jul 2025 06:26:24 -0000
-Message-Id: <175281998488.1428935.1699165764762391814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Fri, 18 Jul 2025 06:38:11 -0000
+Message-Id: <175282069197.1438053.8890660506915280393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
 user: vkoul
 changes:
-  - ref: refs/tags/soundwire-6.16-fixes
+  - ref: refs/tags/dmaengine-fix-6.16
     old: 0000000000000000000000000000000000000000
-    new: a88355bbdab9eda95d6b8e28b8dc383527781c9a
+    new: 3b45d6dabeeb00285a570e70e6deb699494d0418
