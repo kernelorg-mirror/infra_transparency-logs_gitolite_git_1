@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 18 Jul 2025 13:59:14 -0000
-Message-Id: <175284715467.1899275.8599971022163112993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 18 Jul 2025 14:05:15 -0000
+Message-Id: <175284751596.1906253.15671208764698647047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/pending
-    old: 40c54f8a89c6b11f2bf46fd286414a1cacfa08b2
-    new: 1a50c5ca394ab1b3a30094eda2354bcfc00f9909
+  - ref: refs/heads/irq/drivers
+    old: aabf4ff06b9789f3cd167bf9e2eb25f1fdb5541a
+    new: 97c03ec2c0e0621bbd7a56f5be19bd2de552e6f4
     log: |
-         8f1a078842d4af4877fb686f3907788024d0d1b7 wifi: ath12k: fix endianness handling while accessing wmi service bit
-         1a50c5ca394ab1b3a30094eda2354bcfc00f9909 wifi: ath12k: Add support to parse max ext2 wmi service bit
+         97c03ec2c0e0621bbd7a56f5be19bd2de552e6f4 irqchip/gic-v3: Fix GICD_CTLR register naming
          
