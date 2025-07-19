@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 19 Jul 2025 20:41:56 -0000
-Message-Id: <175295771612.3495010.11485607482475548255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Sat, 19 Jul 2025 22:16:14 -0000
+Message-Id: <175296337473.3570740.1886910892211551075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/next
-    old: efaf2ab7e353e7dc2ec28b9e81a70588c9650f5f
-    new: 90c8aa0f9069e4ca6421520a6a66503a858b1661
-    log: |
-         0cf4113fc5954b15b301ff8dd984a2ec5619f2af TODO: add an item
-         90c8aa0f9069e4ca6421520a6a66503a858b1661 TOOD: add paddr_fault support
-         
+  - ref: refs/tags/efi-fixes-for-v6.16-2
+    old: 0000000000000000000000000000000000000000
+    new: 89bc26527f923edfb551b769e8892adc45c17475
