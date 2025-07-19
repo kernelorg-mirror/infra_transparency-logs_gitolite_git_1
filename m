@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 19 Jul 2025 16:21:37 -0000
-Message-Id: <175294209775.3281211.10022927331554447470@gitolite.kernel.org>
+Date: Sat, 19 Jul 2025 16:21:44 -0000
+Message-Id: <175294210497.3281765.3431315429918941317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 1a50c5ca394ab1b3a30094eda2354bcfc00f9909
+  - ref: refs/heads/pending
+    old: aff100d60d022d1064fbf86f9397e01a0f3708cd
     new: d29591d5b52eaa62bc8c07ec83fe63018b5546ea
     log: |
          192c8e9a131f1772a635c3c5df4cb592bd7b3e8b wifi: ath12k: Fix the handling of TX packets in Ethernet mode
