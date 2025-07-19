@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9101808600729148038=="
+Content-Type: multipart/mixed; boundary="===============6030748521663734000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 19 Jul 2025 07:39:28 -0000
-Message-Id: <175291076884.2803011.11995421097877586548@gitolite.kernel.org>
+Date: Sat, 19 Jul 2025 07:41:18 -0000
+Message-Id: <175291087888.2805764.16800017554177310061@gitolite.kernel.org>
 
---===============9101808600729148038==
+--===============6030748521663734000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,55 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 45e06a9d7496c7063c2321e06371ecf086d28ab9
-    new: 60c46a0bd34b253dec01c6339d9d6bd25486d72e
-    log: revlist-45e06a9d7496-60c46a0bd34b.txt
+    old: 60c46a0bd34b253dec01c6339d9d6bd25486d72e
+    new: c7f37f8f3b89c5d12256ae0381f972ad2af9ee96
+    log: |
+         37e00703228ab44d0aacc32a97809a4f6f58df1b zynq_fpga: use sgtable-based scatterlist wrappers
+         c7f37f8f3b89c5d12256ae0381f972ad2af9ee96 Merge tag 'fpga-for-6.17-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
+         
 
---===============9101808600729148038==
+--===============6030748521663734000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752910807 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1752910918 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1752910764-1a131ad5c81521f8810508f509d1aee274324edb
+nonce 1752910876-bf346d8c2803b4fd166696af14edff19fe6f6795
 
-45e06a9d7496c7063c2321e06371ecf086d28ab9 60c46a0bd34b253dec01c6339d9d6bd25486d72e refs/heads/char-misc-testing
+60c46a0bd34b253dec01c6339d9d6bd25486d72e c7f37f8f3b89c5d12256ae0381f972ad2af9ee96 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh7S9cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vX4QAJ2tmqDq3RxYE6G6A2rO
-iMnjiGTaZBOuKHyP/u0O2PSZwftq/Xuq0bHCEF+pymuIgz/CMPHbP6P9jsbUafuT
-g0yLjXcPXxO1N67F9F6DfmOoKiSSjDBzkxC9YOnNWjg7SzBWrGJk/fcxJ44gYh1G
-nDsXT7b85egoljceCgfQwUW2MmTQdjR22ol7xaBg6nSw/IzkYB0aB+KtP1/B8xGq
-7FPKQvFB4sf2jOzcBd6CtUxbungtH8ZOo9HcsrS8lKQNTNIhvkNl0mS2DpLeYADm
-Jpq/VeSiu9bCsh+b9jvVRThIEGxsQPluxLXCn8uWmBGmLTHidQW0laGUGw3TB4Tk
-R26jjRTUQTVmhrNYgd5eMSHtGFkAAf8Ii2qMhWKJvwp+hM6bGfazpkgv2MeH5r8T
-WokvUokm6a0h2mAmPLGKZ1ZGIjRNGAEZggRUpxktXmqw89DnpZcj6kQyTOgJJKOA
-AAhOjqNnxcp8oxMkq0Hj2nIEHAFfgDDBiIqsz95UjMUngTsxFPUm5rlCvO0qnfJ1
-ylWiFBkQfCAWGhbQlNlEiKvzQ2pE31Xm4vgeWzKjpNV7CxR18Jmfrtx2VXfnqZmh
-0ydc8f1Re6MoBn69SpRVbFcAnRIjdFVkCT9riUAEkbXBSlqTrmJP9FZxqlQp/Qsm
-IV9SX32JmBAZhAXaeUpie16j
-=xUGQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh7TEYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DKsP/jv8HFgq0wFzZHtFyD5q
+T/3f9pKdvqqbiPqYQGe/siwJha5iwnJciCioitTp/zZTsdumeHNxNZ8gd4KtOF1a
+ejpB2Gl/CrcIYNV5ydi1+JmwdKtNA7ZTToD1n3ma5gPlBecjj+aS8slt3J+lXfPz
+nJN9+R1OidxHvaxIC485b47x2UpQdtTg0YS1IqR+Fuj4MEYfqYAvkjD5z2WCA8dZ
+fqz+nTBWvaFXaQ4Kc+4XpRUY5eqHJzFoe2agicRZSFKzZ0YGFK4ZWSEg8HvKsaOl
+xU/IvFU/oM1hQ3zyN5t3jDbnluFRYS68NH/Q56bxgdfsLfjKero9fMaezURKN6Eo
+5HOiuyeiGTARJIroUvrncbCox3DPmZSD8O9ri5xyuA6qifDb+wjNrat4zRm+1Zg4
+iGWsVtnr5CETscBD5RyKA2PNvY2auTeW21H23wl3nUvhQXuYwVuGVcOH7FO6phHr
+PrQSdWy4m6wqoMFJss8MwAx7viyYCoPqmWrSAS1k4a2IAQJAbaTrn/P9Y9Z8fKmO
+EJk+4s6LbLUpdOEPL0HuCIC0FXwW+Fhc/Nxf8xbPQAaCwHOQ00vZ1FgPvNqjrn/I
+v1PBeExr/yMbBB25KeI4Ad0bErWXkrz3MWHmZRakJSyqskDugAztJvWfhYgjlcXi
+UGnYIEorQy+4pmSaiQwjfV8q
+=bWLZ
 -----END PGP SIGNATURE-----
 
---===============9101808600729148038==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45e06a9d7496-60c46a0bd34b.txt
-
-701aa9ad1e7bfc4c509deeed6557c023c4b875ea bus: mhi: host: Make local functions static
-ae5a34264354087aef38cdd07961827482a51c5a bus: mhi: host: pci_generic: Fix the modem name of Foxconn T99W640
-0494cf9793b7c250f63fdb2cb6b648473e9d4ae6 bus: mhi: host: pci_generic: Disable runtime PM for QDU100
-f471578e8b1a90623674433a01a8845110bc76ce bus: mhi: host: Fix endianness of BHI vector table
-b484fa61acea341c3c0be7ae7414071bc22a19d3 bus: mhi: host: pci_generic: Add support for EM929x and set MRU to 32768 for better performance.
-e99f55e438d187bf60cbff5493818e7130687fc7 bus: mhi: host: Use str_true_false() helper
-0d63055e1406c545f03857db02db7e657c635ebf bus: mhi: host: pci_generic: Add Foxconn T99W696 modem
-5bd398e20f0833ae8a1267d4f343591a2dd20185 bus: mhi: host: Detect events pointing to unexpected TREs
-00559ba3ae740e7544b48fb509b2b97f56615892 bus: mhi: host: pci_generic: Add Telit FN990B40 modem support
-60c46a0bd34b253dec01c6339d9d6bd25486d72e Merge tag 'mhi-for-v6.17' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
-
---===============9101808600729148038==--
+--===============6030748521663734000==--
