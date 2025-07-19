@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 19 Jul 2025 04:45:16 -0000
-Message-Id: <175290031689.2661928.6343963939711048117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+Date: Sat, 19 Jul 2025 04:51:54 -0000
+Message-Id: <175290071465.2667061.14614629964677119326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 3bea98137ca67f6a4458853f7065aa8cf44cacaf
-    new: b529c47416ed024fcd0add5ef0c6973b4fb071ba
+  - ref: refs/heads/dev.19.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: 553a3d47d269e4622e48a8a4e40b3447337f33ba
+  - ref: refs/heads/next.19.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: 553a3d47d269e4622e48a8a4e40b3447337f33ba
+  - ref: refs/heads/rcu.merge.19.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: 553a3d47d269e4622e48a8a4e40b3447337f33ba
+  - ref: refs/heads/srcu.19.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: 954c0d74129948eed5c8f4a6898d3d5b344c8b18
