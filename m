@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0397978524481394465=="
+Content-Type: multipart/mixed; boundary="===============2615560747125844250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 19 Jul 2025 10:16:49 -0000
-Message-Id: <175292020926.2982985.6126693475780002783@gitolite.kernel.org>
+Date: Sat, 19 Jul 2025 10:17:09 -0000
+Message-Id: <175292022978.2983391.13307239616526949360@gitolite.kernel.org>
 
---===============0397978524481394465==
+--===============2615560747125844250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: fc43e3c564ccdad70e6323db4c90fbf13f5597a8
+  - ref: refs/heads/next
+    old: c56b74efe01e44f7de809ca06124bf3f64d551eb
     new: f3a9e5fe7692d637647a05923e2c7dc78172a801
-    log: revlist-fc43e3c564cc-f3a9e5fe7692.txt
+    log: revlist-c56b74efe01e-f3a9e5fe7692.txt
 
---===============0397978524481394465==
+--===============2615560747125844250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc43e3c564cc-f3a9e5fe7692.txt
+Content-Disposition: attachment; filename=revlist-c56b74efe01e-f3a9e5fe7692.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -798,4 +798,4 @@ d73de519c10d7780c1083e2f6a9fc486789ba394 tpm_crb_ffa: Remove unused export
 d5334378954acfe52992677b26667161280a0f49 tpm: Replace scnprintf() with sysfs_emit() and sysfs_emit_at() in sysfs show functions
 f3a9e5fe7692d637647a05923e2c7dc78172a801 tpm: Use of_reserved_mem_region_to_resource() for "memory-region"
 
---===============0397978524481394465==--
+--===============2615560747125844250==--
