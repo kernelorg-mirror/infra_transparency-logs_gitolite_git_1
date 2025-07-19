@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Sat, 19 Jul 2025 15:25:05 -0000
-Message-Id: <175293870578.3233341.3037225393097196126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Sat, 19 Jul 2025 15:35:24 -0000
+Message-Id: <175293932457.3241922.16779155282869253325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/fixes
-    old: 1c6a132cb30909aba5b37ffc1739f3c288330603
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/nfs-6.17
+    old: 0000000000000000000000000000000000000000
+    new: 962ad99c64c92bf25029435ef0ece7758383197f
