@@ -1,40 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8743633590706369209=="
+Content-Type: multipart/mixed; boundary="===============2819701270559337330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 19 Jul 2025 17:27:24 -0000
-Message-Id: <175294604428.3336984.14602594274984600763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Sat, 19 Jul 2025 17:29:23 -0000
+Message-Id: <175294616316.3338541.2546152131024776974@gitolite.kernel.org>
 
---===============8743633590706369209==
+--===============2819701270559337330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/locking/core
-    old: 7ff495e26a39f3e7a3d4058df59b5b6d6f943cab
-    new: ba28549bad8ab2b09264ebc8c2ca24af3537ee52
-    log: revlist-7ff495e26a39-ba28549bad8a.txt
+  - ref: refs/heads/main
+    old: 9e8086b865ab458e4a1ae520aa3a4f304a0a0539
+    new: c65cf1cfe591fc86d23b61c0394d6e015dc1430d
+    log: revlist-9e8086b865ab-c65cf1cfe591.txt
+  - ref: refs/tags/ath-202507191622
+    old: 0000000000000000000000000000000000000000
+    new: c65cf1cfe591fc86d23b61c0394d6e015dc1430d
 
---===============8743633590706369209==
+--===============2819701270559337330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ff495e26a39-ba28549bad8a.txt
+Content-Disposition: attachment; filename=revlist-9e8086b865ab-c65cf1cfe591.txt
 
-d24a54e032021cf381af3c3cf119cc5cf6b3c1be spi: spi-nxp-fspi: Check return value of devm_mutex_init()
-3b07bb900af7f43f13f9ff398b4c6ca1dee217cd leds: lp8860: Check return value of devm_mutex_init()
-daec29dcc8731b7596690ab9f647839e4584a86d locking/mutex: Mark devm_mutex_init() as __must_check
-99214efedea521f1b79fa2a28ff142e933fc3eba rust: sync: Add #[must_use] to Lock::try_lock()
-f84a15b90d96f3da99f67fea2e116850d99fb7c4 locking/rwsem: Use OWNER_NONSPINNABLE directly instead of OWNER_SPINNABLE
-d7c36d6350b5a4b27256eaeeea3b72621a819c9a locking/lockdep: Avoid struct return in lock_stats()
-bd27cfb58c2803923702cd80289b35b7b8108859 locking/lockdep: Change 'static const' variables to enum values
-1dfe5ea6dbb3e03073f5426d65394694683b8692 locking/mutex: Remove redundant #ifdefs
-7a3cedafccf8e7d038ad4cfec5b38052647ceac5 lockdep: Speed up lockdep_unregister_key() with expedited RCU synchronization
-ba28549bad8ab2b09264ebc8c2ca24af3537ee52 Merge tag 'lockdep-for-tip.2025.07.16' of git://git.kernel.org/pub/scm/linux/kernel/git/boqun/linux into locking/core
+ae5a34264354087aef38cdd07961827482a51c5a bus: mhi: host: pci_generic: Fix the modem name of Foxconn T99W640
+0494cf9793b7c250f63fdb2cb6b648473e9d4ae6 bus: mhi: host: pci_generic: Disable runtime PM for QDU100
+f471578e8b1a90623674433a01a8845110bc76ce bus: mhi: host: Fix endianness of BHI vector table
+b484fa61acea341c3c0be7ae7414071bc22a19d3 bus: mhi: host: pci_generic: Add support for EM929x and set MRU to 32768 for better performance.
+e99f55e438d187bf60cbff5493818e7130687fc7 bus: mhi: host: Use str_true_false() helper
+0d63055e1406c545f03857db02db7e657c635ebf bus: mhi: host: pci_generic: Add Foxconn T99W696 modem
+5bd398e20f0833ae8a1267d4f343591a2dd20185 bus: mhi: host: Detect events pointing to unexpected TREs
+00559ba3ae740e7544b48fb509b2b97f56615892 bus: mhi: host: pci_generic: Add Telit FN990B40 modem support
+192c8e9a131f1772a635c3c5df4cb592bd7b3e8b wifi: ath12k: Fix the handling of TX packets in Ethernet mode
+981050b918fc4c36e0ef3bd7392b39d7304ef09b wifi: ath12k: Fix TX status reporting to mac80211 when offload is enabled
+d29591d5b52eaa62bc8c07ec83fe63018b5546ea wifi: ath12k: Advertise encapsulation/decapsulation offload support to mac80211
+4b805f0bb458c44505dd495a3fa5d71d80fa74ef Merge branch 'ath-next'
+510f4d071ac0f4bdf05b83fd34e5bed68bd14660 Merge branch 'ath-current'
+da5f704092e0c622684cf1d62a0c05c9909bf840 Merge remote-tracking branch 'mhi/mhi-next'
+c65cf1cfe591fc86d23b61c0394d6e015dc1430d Add localversion-wireless-testing-ath
 
---===============8743633590706369209==--
+--===============2819701270559337330==--
