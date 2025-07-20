@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 20 Jul 2025 19:23:47 -0000
-Message-Id: <175303942770.483258.4488263930130828005@gitolite.kernel.org>
+Date: Sun, 20 Jul 2025 19:59:27 -0000
+Message-Id: <175304156735.513283.3405536795144595241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,13 @@ repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
   - ref: refs/heads/next
-    old: 90c8aa0f9069e4ca6421520a6a66503a858b1661
-    new: 8d242075ea06924c13d27cd80971616b659a39c4
+    old: 8d242075ea06924c13d27cd80971616b659a39c4
+    new: 2aefe3924fbd49fab2e811947fc68e044fc0520f
     log: |
-         b172802ac794a1b264bce4d364f08387d3fdb134 _damon_args: support dests
-         afe661c3e76982cba3bad32af7310ba40b9074e4 _damon_args: document --damos_action additional arguments for migration actions
-         8d242075ea06924c13d27cd80971616b659a39c4 TODO,release_note: update for DAMOS destinations support
+         c7bfbaa4822410a0507cd46274af695c9a50bb35 Add example script for LRU sorting
+         b8ca13a3595f5112ea83c46b570ce0ba358d3deb scripts: add example memory tiering script
+         3fcb89b4e3e776ca56f30b40c2ab07bc8b417097 USAGE: explain scripts/ directory
+         2717f715e40b970518aa472190aa6e1cb4268212 release_note: update for example memory tiering and lru sorting scripts
+         f0eccf3afb79271fc37d5f07fbea7978cc9f97d5 scripts/mem_tier: add more context
+         2aefe3924fbd49fab2e811947fc68e044fc0520f scripts/lru_sort: add more contexts
          
