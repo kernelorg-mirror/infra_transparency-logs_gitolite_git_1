@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 20 Jul 2025 19:22:05 -0000
-Message-Id: <175303932552.481889.1800734971080278383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 20 Jul 2025 19:22:21 -0000
+Message-Id: <175303934143.482331.8195241135524875420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 5f054ef2e0f1ca7d32ac48e275d08e2ac29d84f3
-    new: 07fa9cad54609df3eea00cd5b167df6088ce01a6
+    old: 98dfc72e75a0119fc2ade99f018b0137ad359ecf
+    new: b88c883a31204901de1fac153b994bfcd06b1ac2
     log: |
-         d0a48dc4df5c986bf8c3caf4d8fc15c480273052 selftests/futex: Convert 32-bit timespec to 64-bit version for 32-bit compatibility mode
-         36569780b0d64de283f9d6c2195fd1a43e221ee8 sched: Change nr_uninterruptible type to unsigned long
-         6b995d01683feae619aa3263d18a6aa19bface16 x86/sev: Work around broken noinstr on GCC
-         62347e279092ae704877467abdc8533e914f945e Merge tag 'sched-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         92329d578d60fe944e30da287ee28f5c154a5802 Merge tag 'locking-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         07fa9cad54609df3eea00cd5b167df6088ce01a6 Merge tag 'x86-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         c0ba6236afeb0e813bc9fd037e52f2a4028b8c3e patches/next: place selftest patches on sent patches category
+         69ad645b783d729715f031eb5c2277f87386777d patches/posted: add sysfs.py full params test patches v1
+         112ad9af96b685e205d54ea3359910872802e83d patches/posted: add msgids for sysfs.py full param test patches
+         d162552814dda57cf49f46f799211a41d9b5dd18 patches/next: add invalid migrate target nid fix
+         a9d3dde9bf6d4fa0e58d62e55878df986d79e906 patches/posted: add invalid migration target nid fix
+         224ebb377b9beb2b0ac030a5629754d0c75f5ee3 patches/posted: add msgid for invalid migration target nid fix
+         32d779bb2fa86eb8961f4677da57bfb09a40d0eb todo: update
+         b88c883a31204901de1fac153b994bfcd06b1ac2 patches/next: rebase to latest mm-new
          
