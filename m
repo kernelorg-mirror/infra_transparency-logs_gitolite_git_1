@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 20 Jul 2025 18:36:00 -0000
-Message-Id: <175303656088.444282.8537824517257192832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 20 Jul 2025 18:49:21 -0000
+Message-Id: <175303736177.454363.4775907652693523187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 5f054ef2e0f1ca7d32ac48e275d08e2ac29d84f3
-    new: 07fa9cad54609df3eea00cd5b167df6088ce01a6
+  - ref: refs/heads/for-6.17/io_uring
+    old: 2e6dbb25ea15844c8b617260d635731c37c85ac9
+    new: d1fbe1ebf4a12cabd7945335d5e47718cb2bef99
     log: |
-         d0a48dc4df5c986bf8c3caf4d8fc15c480273052 selftests/futex: Convert 32-bit timespec to 64-bit version for 32-bit compatibility mode
-         36569780b0d64de283f9d6c2195fd1a43e221ee8 sched: Change nr_uninterruptible type to unsigned long
-         6b995d01683feae619aa3263d18a6aa19bface16 x86/sev: Work around broken noinstr on GCC
-         62347e279092ae704877467abdc8533e914f945e Merge tag 'sched-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         92329d578d60fe944e30da287ee28f5c154a5802 Merge tag 'locking-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         07fa9cad54609df3eea00cd5b167df6088ce01a6 Merge tag 'x86-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         d1fbe1ebf4a12cabd7945335d5e47718cb2bef99 io_uring: fix breakage in EXPERT menu
+         
+  - ref: refs/heads/for-next
+    old: 2c4cb85e42e4e595170970848e1a4db36729a468
+    new: 49fec8c6d49e93ed05f456fc270271e816d65829
+    log: |
+         d1fbe1ebf4a12cabd7945335d5e47718cb2bef99 io_uring: fix breakage in EXPERT menu
+         49fec8c6d49e93ed05f456fc270271e816d65829 Merge branch 'for-6.17/io_uring' into for-next
          
