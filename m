@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 20 Jul 2025 13:13:52 -0000
-Message-Id: <175301723257.176281.2344510942932179567@gitolite.kernel.org>
+Date: Sun, 20 Jul 2025 13:28:01 -0000
+Message-Id: <175301808161.188226.9892721190937212928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
   - ref: refs/heads/dmabuf-vfio
-    old: e39fa86301634c35591b37be2607abe30ea9c82b
-    new: 73a91c8c540979b5ea2e3959214a7df0abd19825
+    old: 73a91c8c540979b5ea2e3959214a7df0abd19825
+    new: 5af80353cf8aa68a43a7e803a1e522ac52422cc8
     log: |
-         f6fcf9270d2791465e52c3867764ee8777867a8e PCI/P2PDMA: Separate global from device P2P initialization logic
-         400450d66a8b03fa85f147521d71fff729bff7cc PCI/P2PDMA: Make sure that p2p users can calculate their type
-         c6efae2e954cd09b0e8dd660d66ab16955ec43d5 dma-iova: move phys_vec definition to types.h
-         f1527780198a48fecedb531b7958bb98b93b0f4b vfio: Export vfio device get and put registration helpers
-         b5968651c93cf15a6ce00e4eeccbd11c9f280a52 vfio/pci: Enable peer-to-peer DMA transactions by default
-         192fc9c9c285c7e0f7fdbd463e25edab68292491 vfio/pci: Share the core device pointer while invoking feature functions
-         73a91c8c540979b5ea2e3959214a7df0abd19825 vfio/pci: Allow MMIO regions to be exported through dma-buf
+         8bd2edfc756391dbddf780db9024436fbc000b4d PCI/P2PDMA: Separate global from device P2P initialization logic
+         42c0f64ced9da0fb3397a8d76b4d81fb968a1999 PCI/P2PDMA: Make sure that p2p users can calculate their type
+         eeffa691cc4c7005fb362aabaa36f72b3e9366b3 dma-iova: move phys_vec definition to types.h
+         992fe00035b89b7856fed9a8d6160229e9d93995 vfio: Export vfio device get and put registration helpers
+         f9bb97df23e43381ca33eacf5528ec65af59c308 vfio/pci: Enable peer-to-peer DMA transactions by default
+         c3fc70b0ef3e7bf668b9e631536369d9023123d8 vfio/pci: Share the core device pointer while invoking feature functions
+         5af80353cf8aa68a43a7e803a1e522ac52422cc8 vfio/pci: Allow MMIO regions to be exported through dma-buf
          
