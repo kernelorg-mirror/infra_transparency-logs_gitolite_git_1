@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 20 Jul 2025 17:11:26 -0000
-Message-Id: <175303148651.373037.13148282730931191856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 20 Jul 2025 17:18:19 -0000
+Message-Id: <175303189947.378092.13596120468267800852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 49cddc46e51c3e5319d8679e493661176f7b04ca
-    new: 98dfc72e75a0119fc2ade99f018b0137ad359ecf
+  - ref: refs/heads/crc-next
+    old: 1e670eda6b711cc59752a885dc8d699caf6fd11c
+    new: b8b0234dadc30c96127454b335ac9d2dbafc64b8
     log: |
-         3bcb99060cc934bb3d40abce3f5203c06c19ad4b patches/next: reduce sysfs.py test runtime
-         ad67a7b8b65c609fa4e1e22f36669214ee90f482 patches/next: wordsmith kselftest patches
-         7017423260351cf0b96b19137d421a9b7c2312d8 patches/next: further wordsmith of selftests patches
-         98dfc72e75a0119fc2ade99f018b0137ad359ecf patches/next: further wordsmithing of kselftest patches
+         b8b0234dadc30c96127454b335ac9d2dbafc64b8 lib/crc: x86/crc32c: Enable VPCLMULQDQ optimization where beneficial
          
