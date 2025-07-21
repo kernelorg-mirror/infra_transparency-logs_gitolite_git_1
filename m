@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2965799706580724789=="
+Content-Type: multipart/mixed; boundary="===============5877396825970354836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 21 Jul 2025 11:10:16 -0000
-Message-Id: <175309621638.1330128.16288263932052797131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 21 Jul 2025 11:10:36 -0000
+Message-Id: <175309623638.1330510.10345549364412440629@gitolite.kernel.org>
 
---===============2965799706580724789==
+--===============5877396825970354836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 89be9a83ccf1f88522317ce02f854f30d6115c41
     log: revlist-347e9f5043c8-89be9a83ccf1.txt
 
---===============2965799706580724789==
+--===============5877396825970354836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -405,4 +405,4 @@ c10ee5cc1217c79dfa606c432aa95d5ee2e81083 Merge tag 'i2c-for-6.16-rc7' of git://g
 2013e8c2e6fd3a4bdf4ccc658ad20a4469360eff Merge tag 'trace-v6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 89be9a83ccf1f88522317ce02f854f30d6115c41 Linux 6.16-rc7
 
---===============2965799706580724789==--
+--===============5877396825970354836==--
