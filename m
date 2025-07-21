@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 21 Jul 2025 14:48:55 -0000
-Message-Id: <175310933532.1535707.16545942346242808313@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 14:49:39 -0000
+Message-Id: <175310937972.1536828.7397173534419479186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/drivers/reset
+  - ref: refs/heads/mediatek/soc
     old: 0000000000000000000000000000000000000000
-    new: 196dbace08243bbd4639cdb3d8ec655b2da361bd
+    new: 331db44e70dacfb6bf1e17d92fae7b1c9517ca6c
