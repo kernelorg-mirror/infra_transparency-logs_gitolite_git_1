@@ -1,64 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8482978444269224951=="
+Content-Type: multipart/mixed; boundary="===============7319248330499836436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 21 Jul 2025 08:16:59 -0000
-Message-Id: <175308581945.1126306.8072252831568913537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Mon, 21 Jul 2025 08:21:25 -0000
+Message-Id: <175308608518.1180704.16140374478839221754@gitolite.kernel.org>
 
---===============8482978444269224951==
+--===============7319248330499836436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 94f19ac4670d5867609484329ee62f6bf254c090
-    new: e66463fc2da55e8ae8a9f4f608c661f2275878e9
+  - ref: refs/heads/clk/imx
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: c78865241ecffaff7ce5db00ed5b71c1a70c0ff1
     log: |
-         d188dccfc7a0b320d8bd7c8d25fc54e28fb49127 soc: samsung: exynos-pmu: Enable CPU Idle for gs101
-         e66463fc2da55e8ae8a9f4f608c661f2275878e9 Merge branch 'next/drivers' into for-next
-         
-  - ref: refs/heads/next/drivers
-    old: 687d974a218a719f7e729bef9c498ec36f18115e
-    new: d188dccfc7a0b320d8bd7c8d25fc54e28fb49127
-    log: |
-         d188dccfc7a0b320d8bd7c8d25fc54e28fb49127 soc: samsung: exynos-pmu: Enable CPU Idle for gs101
+         b2be1327a6ed74fbf7e1ac0bc6ca57750f7ebe07 clk: imx: Fix an out-of-bounds access in dispmix_csr_clk_dev_data
+         0b0cd1857b783711b4bdfb8eb513c263b8a84f6d dt-bindings: clock: Add support for i.MX94 LVDS/DISPLAY CSR
+         b08217a257215ed9130fce93d35feba66b49bf0a clk: imx95-blk-ctl: Fix synchronous abort
+         88768d6f8c13ede81b248177fed3ac285499f77c clk: imx95-blk-ctl: Rename lvds and displaymix csr blk
+         9678bc7661cb34bec4be92685039eec68ca67dad clk: imx95-blk-ctl: Add clock for i.MX94 LVDS/Display CSR
+         c78865241ecffaff7ce5db00ed5b71c1a70c0ff1 MAINTAINERS: Update i.MX Clock Entry
          
 
---===============8482978444269224951==
+--===============7319248330499836436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1753085857 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1753085814-61b9efff931292951fbb751278fc4c853f5100c7
+pusher 1B5F44C900951556 1753086117 +0300
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/abelvesa/linux
+nonce 1753086074-57d0b6210c0485a1dc7495f292509f9aca03d2e4
 
-94f19ac4670d5867609484329ee62f6bf254c090 e66463fc2da55e8ae8a9f4f608c661f2275878e9 refs/heads/for-next
-687d974a218a719f7e729bef9c498ec36f18115e d188dccfc7a0b320d8bd7c8d25fc54e28fb49127 refs/heads/next/drivers
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 c78865241ecffaff7ce5db00ed5b71c1a70c0ff1 refs/heads/clk/imx
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmh996EQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/oEEACF7cH65thuuosDTEbZbrAaEm9FXX4MfQeH
-wpjqC9ZAdv6RHBQRjaDyikeg7iOCVumI6tpBWhC5cpwJ0j1Bq5W88t1BihYlZGHT
-9U5v9kWhj5EQug9YN/esmGkbVbLk519+MrXb19zCbalvLXomL50C+lIOtizytrQL
-i+GYXk5xEU9lGIlY1FexbaELwE9B5IOuWTMdhi06gZP3OuO1zKfH6pkgvpd/kUvq
-CK9qGeK7ILIrgPrMYIcCxEjlaJOUfi4LQVq9ij4T4M3xTw5HA9EL4ucxwB9BXN6W
-kwLEldvQzIcuaH8EwwnOukd0w0p2rZzC7msM+iENEkrVos+rXWXdk2fwLikTzIus
-Y7avsyAvpAww2eCvgMfumWIg4Eheo6BaFhl4imu9jKANRQNEGJgQEt41B+12HvQN
-wEl/L8kTIE0kxqzmT5/xNsqrBMF7QYVNH6OmxonL/9v8QdHHTQfTludU0djTNkGb
-M2R1+cUsXOJizFEgPM8DSHPAa6shyt86yPwetzSCeDbpV2jScTCzeoKMG7tPsPaf
-ZxfVA4gQM0Y042zGdtCEJpDf+70biJBzJA73s1x3fncOVEqKgJ+lQpjWWSomxLz3
-wPE3CG0RM1mB0WOOr2JclP6j86iIhCRx3/rt2v/TvKFrIcavmm4M38jMbz8SP/a2
-SPKb+Lpozg==
-=crOA
+iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmh9+KUACgkQG19EyQCV
+FVZUXxAAnPB0DDWLHnj4BW3wM7Z9n7plZsLSav8tmTrP1LxP36fTiNhXduL9IdDc
+Fp8Cp+ScNtPtvWqgeA1DPKt8sYASyU9h8hHtiwQ5qnAL+FezXaij+jl1bPX/nA/X
+SBICcw8O+8tNNFfBM50tlKX4tL8dcBTEN+KSga61tRvg9ktabAUOtTz9ajry0v4R
+wW5piSzc5v8/lA1O9lbhSAknptJ8LkBXUDaLovlQ+/UE0VhfwmLbRR6VRWEDoVVP
+WpSZoi1oa67a50QdjXFBzGAUaXgs7zt9HpBfNnDi+3usMnJGD4fQ5ciKVnil9DT2
+SP4GwdCjvCfc3wyhDjmxEh/39q99K63vyUzGZ4Z8ke4Rc/nMpdkTsy2LUOlb9XMg
+kjC6tMx0//DGJn3flPw1YdV0qQo65wMlJv42+984DyBTjEBh0MDZB1I8E2znSrp3
+M1qiCq0ZtSapwL6Syz6nSlpjmru7R9M47eundbyucywYx1v5SUifaDbB1QZG/U8g
+QyuVIVPCw/M5GEGThPdzZDvZK683f9h9Bt4FYDVihKayi+SPFe2WHPnu+HfqEk5y
++uU3etwPygMgcqfY0j5W8jtAHV2ZpjPVnlv8QjffpeeCtUaPRvdGCW+AyMZMmTnu
+ny5dV2T+iJoRlDtlC7pF7GcnRADoVUxye092thKt5tS539IZ24w=
+=b1E7
 -----END PGP SIGNATURE-----
 
---===============8482978444269224951==--
+--===============7319248330499836436==--
