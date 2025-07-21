@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============8537265749887969886=="
+Content-Type: multipart/mixed; boundary="===============5829449714767287232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 21 Jul 2025 15:16:47 -0000
-Message-Id: <175311100735.1566895.16350093762975826812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 21 Jul 2025 15:16:53 -0000
+Message-Id: <175311101330.1567196.4910411004159916977@gitolite.kernel.org>
 
---===============8537265749887969886==
+--===============5829449714767287232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/soc/newsoc
-    old: 9cf8d2b8a0764a074725921177caa0860fca5eb3
-    new: c5b9bff35a9823c4dd803f0eda3b34be88bbcded
-    log: revlist-9cf8d2b8a076-c5b9bff35a98.txt
-  - ref: refs/heads/newsoc/cix-p1
+  - ref: refs/heads/main-pending
+    old: fec6a3037f4b4d6254531a12f7f9146d5815ef3c
+    new: 4d952f24c0a28ef843cfcb6380a5cba6ab703123
+    log: revlist-fec6a3037f4b-4d952f24c0a2.txt
+  - ref: refs/tags/ath-pending-202507211508
     old: 0000000000000000000000000000000000000000
-    new: 46f89a0d154312673d5d6045282eb1a7015b1037
-  - ref: refs/heads/newsoc/andes
-    old: 0000000000000000000000000000000000000000
-    new: bf40c1a5b9561bef0c0d1df47bcfc0ceb26a6c8a
+    new: 4d952f24c0a28ef843cfcb6380a5cba6ab703123
 
---===============8537265749887969886==
+--===============5829449714767287232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cf8d2b8a076-c5b9bff35a98.txt
+Content-Disposition: attachment; filename=revlist-fec6a3037f4b-4d952f24c0a2.txt
 
-00dba19aa005c8cff5694adeea996b0ce85808cf riscv: add Andes SoC family Kconfig support
-12d8c15992c4396eeb4df53170cae41c9a1a441a dt-bindings: riscv: add Andes QiLai SoC and the Voyager board bindings
-6eeee4fb1930a3863911cf3b620ec340c9227952 dt-bindings: interrupt-controller: add Andes QiLai PLIC
-1f5ff8c363cf81e1b268108d1ed93b59b6a504f8 dt-bindings: interrupt-controller: add Andes machine-level software interrupt controller
-65bbf10b934ae17e1ce7a673355723eb806668ac dt-bindings: timer: add Andes machine timer
-609496af55caff0e358bac901936b65b98900f92 riscv: dts: andes: add QiLai SoC device tree
-9d462f56db7a0fdb0c814b34a6f9bdd01ebc23f5 riscv: dts: andes: add Voyager board device tree
-ad087c91eb87bebd79f05a4c9b5cfbe72d6186fa riscv: defconfig: enable Andes SoC
-bf40c1a5b9561bef0c0d1df47bcfc0ceb26a6c8a MAINTAINERS: Add entry for Andes SoC
-63e9bb0d6e03f59ff89d71f890a580c27b873ad2 Merge branch 'newsoc/andes' into soc/newsoc
-960dda6eca2b771d1b243c13ab81bd42649b9ac4 dt-bindings: vendor-prefixes: Add CIX Technology Group Co., Ltd.
-69563d502c5a2167bffebb52aba159ab57b76d3d dt-bindings: arm: add CIX P1 (SKY1) SoC
-aa4bc2850e671cc71081f637dd6db1faca8adac7 arm64: Kconfig: add ARCH_CIX for cix silicons
-621d7d081d18fce44ee431df1d054c8865b96ed8 dt-bindings: mailbox: add cix,sky1-mbox
-fe2aa2361ddba8f4ccf05123e0e14e9fb70ea701 mailbox: add CIX mailbox driver
-4cd122a4f642ab624257c2f92a6eddc4306213b4 arm64: defconfig: Enable CIX SoC
-2b752ae0231f7b20cd2b8cad0b4ab36b16d4be88 dt-bindings: clock: cix: Add CIX sky1 scmi clock id
-80be23bb20eab1a89cf585b3bdee0e257d23f5e0 arm64: dts: cix: Add sky1 base dts initial support
-46f89a0d154312673d5d6045282eb1a7015b1037 MAINTAINERS: Add CIX SoC maintainer entry
-c5b9bff35a9823c4dd803f0eda3b34be88bbcded Merge branch 'newsoc/cix-p1' into soc/newsoc
+ae5a34264354087aef38cdd07961827482a51c5a bus: mhi: host: pci_generic: Fix the modem name of Foxconn T99W640
+0494cf9793b7c250f63fdb2cb6b648473e9d4ae6 bus: mhi: host: pci_generic: Disable runtime PM for QDU100
+f471578e8b1a90623674433a01a8845110bc76ce bus: mhi: host: Fix endianness of BHI vector table
+b484fa61acea341c3c0be7ae7414071bc22a19d3 bus: mhi: host: pci_generic: Add support for EM929x and set MRU to 32768 for better performance.
+e99f55e438d187bf60cbff5493818e7130687fc7 bus: mhi: host: Use str_true_false() helper
+0d63055e1406c545f03857db02db7e657c635ebf bus: mhi: host: pci_generic: Add Foxconn T99W696 modem
+5bd398e20f0833ae8a1267d4f343591a2dd20185 bus: mhi: host: Detect events pointing to unexpected TREs
+00559ba3ae740e7544b48fb509b2b97f56615892 bus: mhi: host: pci_generic: Add Telit FN990B40 modem support
+192c8e9a131f1772a635c3c5df4cb592bd7b3e8b wifi: ath12k: Fix the handling of TX packets in Ethernet mode
+981050b918fc4c36e0ef3bd7392b39d7304ef09b wifi: ath12k: Fix TX status reporting to mac80211 when offload is enabled
+d29591d5b52eaa62bc8c07ec83fe63018b5546ea wifi: ath12k: Advertise encapsulation/decapsulation offload support to mac80211
+4b805f0bb458c44505dd495a3fa5d71d80fa74ef Merge branch 'ath-next'
+510f4d071ac0f4bdf05b83fd34e5bed68bd14660 Merge branch 'ath-current'
+da5f704092e0c622684cf1d62a0c05c9909bf840 Merge remote-tracking branch 'mhi/mhi-next'
+c65cf1cfe591fc86d23b61c0394d6e015dc1430d Add localversion-wireless-testing-ath
+ed0c2956d4fe918f05707a930d916e42b7e8bada wifi: ath10k: Prefer {} to {0} in initializers
+2d406b7d2c0a35f30c13bfe0afcec23a8ed5ab1f wifi: ath11k: Prefer {} to {0} in initializers
+b445e4a367389caefe21b56078451669c65fec48 wifi: ath12k: Prefer {} to {0} in initializers
+2649aa05270fdb5de34bcab513cbfc372add0bc2 wifi: ath12k: bring DFS support back for WCN7850
+834764dfff6bdeb13512b6697c4b6e0959aaec23 wifi: ath12k: Correct tid cleanup when tid setup fails
+4d952f24c0a28ef843cfcb6380a5cba6ab703123 Merge branch 'pending' into main-pending
 
---===============8537265749887969886==--
+--===============5829449714767287232==--
