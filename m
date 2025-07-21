@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 21 Jul 2025 20:10:04 -0000
-Message-Id: <175312860481.1824064.6226422335745026163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 21 Jul 2025 20:10:10 -0000
+Message-Id: <175312861055.1824334.15116576103558423576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 125656714fead15d4e39f2181e957e752eca4127
-    new: 10c6d502429ad0de7df1e23d372d0afa70f30400
+    old: ee3b4a48c932064c75d9e758816a7419cd1c0895
+    new: 8263ae08f6e8a964efcf173b1422b509f89acc4e
     log: |
-         77c1102867812e8c26a7c9b21cf9c75065f02c6a ice: fix double-call to ice_deinit_hw() during probe failure
-         10c6d502429ad0de7df1e23d372d0afa70f30400 ice: don't leave device non-functional if Tx scheduler config fails
+         bdaa30c1492158593e8be6b98065f2658800aeb8 ice: fix double-call to ice_deinit_hw() during probe failure
+         8263ae08f6e8a964efcf173b1422b509f89acc4e ice: don't leave device non-functional if Tx scheduler config fails
          
