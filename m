@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 21 Jul 2025 09:13:32 -0000
-Message-Id: <175308921210.1226001.16733614098288968961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Mon, 21 Jul 2025 09:22:33 -0000
+Message-Id: <175308975357.1234043.8844251065025200201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/dm-6.17
-    old: 84eafc3496bbcdcbcc7d1a73014ae0555acdac4b
-    new: 035663ceb5da48e8c6fc1c7b49a89bc63b7d810f
-    log: |
-         035663ceb5da48e8c6fc1c7b49a89bc63b7d810f dm-raid: do not include dm-core.h
-         
+  - ref: refs/tags/loongarch-kvm-6.17
+    old: 0000000000000000000000000000000000000000
+    new: b1ccc24fa653d7f8c107bede85c6d50d8151e22e
