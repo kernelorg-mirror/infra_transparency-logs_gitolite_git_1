@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5713703874777956590=="
+Content-Type: multipart/mixed; boundary="===============1321866187921216326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 21 Jul 2025 23:53:34 -0000
-Message-Id: <175314201462.2013011.14357236498599108812@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 23:53:37 -0000
+Message-Id: <175314201723.2013297.358806117574814417@gitolite.kernel.org>
 
---===============5713703874777956590==
+--===============1321866187921216326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: 79aba4bb6086ec35b095e8f46d21f75fc557d21d
-    new: a4244ae6ff9a6ac7903908aff46d53340a88b98a
-    log: revlist-79aba4bb6086-a4244ae6ff9a.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: 7c8ca30a08e07423cb7ec3ec55d46e217ea68ac2
+    new: 6a078966f6c611fdb2ef5ada8716c7076fb5eeef
+    log: revlist-7c8ca30a08e0-6a078966f6c6.txt
 
---===============5713703874777956590==
+--===============1321866187921216326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79aba4bb6086-a4244ae6ff9a.txt
+Content-Disposition: attachment; filename=revlist-7c8ca30a08e0-6a078966f6c6.txt
 
 b3dc868833a41e3e67611f3834f7640e5ed5015d NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
 afe402988bd06d47af3ab4701fc9aece12eb88d8 NFSD: release read access of nfs4_file when a write delegation is returned
@@ -68,5 +68,11 @@ d1a842222e32478991b59e3761b42ae6a0af50ee sunrpc: Change ret code of xdr_stream_d
 89fc0d222850f9e3acd204041b998d8ec6fad45a NFSD: Rework encoding and decoding of nfsd4_deviceid
 90e6bc1adce20502d72dbe037cdb22e73c6ce8ff NFSD: Minor cleanup in layoutcommit processing
 a4244ae6ff9a6ac7903908aff46d53340a88b98a NFSD: Minor cleanup in layoutcommit decoding
+745926d85784bfea29805f99ab9c313a7b003002 lib/iov_iter: remove piecewise bvec length checking in iov_iter_aligned_bvec
+71f504864f479d275870eda5da618b9ea89b69f5 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+9105268fa59c2d9ada9057e9fb19bf96226a1dd2 NFSD: pass nfsd_file to nfsd_iter_read()
+609f06e0d4d185f0c68e4ae1dace7bb1b15f4d17 NFSD: add io_cache_read controls to debugfs interface
+2879c092d4e086901fdfae1f6a8c628dc01428fa NFSD: add io_cache_write controls to debugfs interface
+6a078966f6c611fdb2ef5ada8716c7076fb5eeef NFSD: issue READs using O_DIRECT even if IO is misaligned
 
---===============5713703874777956590==--
+--===============1321866187921216326==--
