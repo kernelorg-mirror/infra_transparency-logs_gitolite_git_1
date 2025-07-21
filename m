@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 21 Jul 2025 04:01:47 -0000
-Message-Id: <175307050782.914592.9957135150663939707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Mon, 21 Jul 2025 04:33:33 -0000
+Message-Id: <175307241382.939445.1088241837623638556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/dev-test
-    old: e484a15cdbd35414109b8d539c142bb2b7bcd348
-    new: 9b93e7a27593d5be60eb4793b5a98c288703b55d
+  - ref: refs/heads/nuvoton/arm/dt
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 3d673d90fc91b9fe551f54c2a69d353141fc8d36
     log: |
-         9b93e7a27593d5be60eb4793b5a98c288703b55d erofs: support to readahead dirent blocks in erofs_readdir()
+         3d673d90fc91b9fe551f54c2a69d353141fc8d36 ARM: dts: nuvoton: Use generic "ethernet" as node name
          
