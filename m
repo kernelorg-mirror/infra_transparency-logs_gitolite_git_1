@@ -1,30 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 21 Jul 2025 22:02:05 -0000
-Message-Id: <175313532517.1918084.8439473862115169023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Mon, 21 Jul 2025 22:21:51 -0000
+Message-Id: <175313651133.1934259.10338178649843595802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/main
-    old: af483ebe6357a35b4faf6360b23bd77c2ec41ecf
-    new: e7387aea906012a38c96a5010071e4f7d3910e5c
+  - ref: refs/heads/next
+    old: 811ec70dcf9cc411e4fdf36db608dc9bcffb7a06
+    new: 24a58b8c3ee46625036f681b18e76f4202dc858d
     log: |
-         f0b72d15265e877a02427e0062a72ade70ee6f86 wifi: ath10k: Prefer {} to {0} in initializers
-         1228d99fac4c103a1ca6af82ddd27ba2c445d0ca wifi: ath11k: Prefer {} to {0} in initializers
-         306facc029ba8d217ef5a46e8cf4bd50c70603d0 wifi: ath12k: Prefer {} to {0} in initializers
-         c4825d540f4beb179d552f3aa1f44f8db5095fb6 wifi: ath12k: bring DFS support back for WCN7850
-         4a2bf707270f897ab8077baee8ed5842a5321686 wifi: ath12k: Correct tid cleanup when tid setup fails
-         31a58fcdd63ce8cf0c15942c6933e0e859a3de31 Merge branch 'ath-next'
-         eb50b95663cc280e8a77cf79da16d55a1d0c0f07 Merge branch 'ath-current'
-         9f388d22ffc1849ef31c31f49724d5ad1194a3f5 Merge remote-tracking branch 'mhi/mhi-next'
-         e7387aea906012a38c96a5010071e4f7d3910e5c Add localversion-wireless-testing-ath
+         c6e35dff58d348c1a9489e9b3b62b3721e62631d KVM: arm64: Check for SYSREGS_ON_CPU before accessing the CPU state
+         303084ad12767db64c84ba8fcd0450aec38c8534 KVM: arm64: Filter out HCR_EL2 bits when running in hypervisor context
+         d9c5c2320156ba4c7ac79db2ea98f4445a18c2e7 KVM: arm64: Make RAS registers UNDEF when RAS isn't advertised
+         24a58b8c3ee46625036f681b18e76f4202dc858d Merge branch 'kvm-arm64/doublefault2' into kvmarm/next
          
-  - ref: refs/tags/ath-202507212139
-    old: 0000000000000000000000000000000000000000
-    new: e7387aea906012a38c96a5010071e4f7d3910e5c
