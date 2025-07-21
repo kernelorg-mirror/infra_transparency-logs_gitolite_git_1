@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0939243402009941682=="
+Content-Type: multipart/mixed; boundary="===============4486522338230700795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 21 Jul 2025 12:39:30 -0000
-Message-Id: <175310157087.1414170.13771678661470477495@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 12:39:56 -0000
+Message-Id: <175310159644.1414670.574327844608060247@gitolite.kernel.org>
 
---===============0939243402009941682==
+--===============4486522338230700795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,53 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0d252af3965ebe4e5e185a994445672cb0afd6b3
-    new: fe277ff90cec0df8ad4d8bb97df8c4896309735e
-    log: revlist-0d252af3965e-fe277ff90cec.txt
+    old: fe277ff90cec0df8ad4d8bb97df8c4896309735e
+    new: 34481698fd9c3c21425ab744e9e15dc2ce3b1b85
+    log: revlist-fe277ff90cec-34481698fd9c.txt
+  - ref: refs/heads/tip/urgent
+    old: d2272254ada188d80bb60f2030ebff8a335c8a47
+    new: 89be9a83ccf1f88522317ce02f854f30d6115c41
+    log: revlist-d2272254ada1-89be9a83ccf1.txt
+  - ref: refs/tags/v6.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 75083cd99c8261eec695596813cc261a523ab32b
 
---===============0939243402009941682==
+--===============4486522338230700795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d252af3965e-fe277ff90cec.txt
+Content-Disposition: attachment; filename=revlist-fe277ff90cec-34481698fd9c.txt
+
+f4f42e69a95f7e5ce097e82f5bef8c5974ffcf34 Merge branch into tip/master: 'x86/merge'
+e9741b0bef309efee7523d90a697de8ca01d6f07 Merge branch into tip/master: 'core/merge'
+6c7834ec8632f7e3d4d40e18e96bf4da34072bd3 Merge branch into tip/master: 'core/bugs'
+f71765eb41c0c2a7bfe52f00af39ffbcaa2f564b Merge branch into tip/master: 'irq/core'
+d1992f08c8fad5fcb6a13bb95347dc35ce3951f4 Merge branch into tip/master: 'irq/drivers'
+8094281d7e0642bfe9318f5408b46d417162ea7c Merge branch into tip/master: 'irq/msi'
+8d522806f7b86d18dcdc5644e37edd6ac87143aa Merge branch into tip/master: 'locking/core'
+59e063efbef5e0c835a1cf7877c76c0392152ed2 Merge branch into tip/master: 'locking/futex'
+c89cdbcf3e20443e0579f816fa38c4d512b8c0b6 Merge branch into tip/master: 'perf/core'
+b8630d7229fbe99f9c414898d5afd8d046db2014 Merge branch into tip/master: 'sched/core'
+9e2aabdb1898469052fee40377b569c509200b53 Merge branch into tip/master: 'smp/core'
+26888a572ab5a37ba1d442051b511b5dd58a0bf0 Merge branch into tip/master: 'timers/cleanups'
+c5a18e2f3bb741930ff8d2b748999c9dd4d0c6a6 Merge branch into tip/master: 'timers/core'
+e16768a9eed1d1bc38bdf563474ef46a3d857d10 Merge branch into tip/master: 'timers/ptp'
+aaa71424f2720d8f7633861d7708d3199d9d2ec7 Merge branch into tip/master: 'timers/vdso'
+bccf4dda9c42c91c2f7900c23883f10306d6ad38 Merge branch into tip/master: 'x86/boot'
+b5e6c54e0db8ce4029a4ae0bceba37b2af7b9fd6 Merge branch into tip/master: 'x86/bugs'
+4b27a557181316ab292a49bf19aee1ec96cc4995 Merge branch into tip/master: 'x86/cleanups'
+5e2d674ce1e8b426ba83bdb64b9f8c3eeceb0455 Merge branch into tip/master: 'x86/core'
+8927a3490740616857fa2931ad40cb715567465a Merge branch into tip/master: 'x86/fpu'
+24ec09027ef18932ba054cb22df16086f8377cfa Merge branch into tip/master: 'x86/kconfig'
+fe532427961452aa1e3d7b68f9a20e50f80f1ec4 Merge branch into tip/master: 'x86/microcode'
+fdc821719218b911f119c411f8e950ff15b37a8e Merge branch into tip/master: 'x86/platform'
+34481698fd9c3c21425ab744e9e15dc2ce3b1b85 Merge branch into tip/master: 'x86/sev'
+
+--===============4486522338230700795==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d2272254ada1-89be9a83ccf1.txt
 
 da9374819eb3885636934c1006d450c3cb1a02ed iio: backend: fix out-of-bound write
 16285a0931869baa618b1f5d304e1e9d090470a8 iio: fix potential out-of-bound write
@@ -280,6 +318,5 @@ b933c72d650abfb833b6ef700c26271d0a252f37 Merge tag 'staging-6.16-rc6' of git://g
 c10ee5cc1217c79dfa606c432aa95d5ee2e81083 Merge tag 'i2c-for-6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2013e8c2e6fd3a4bdf4ccc658ad20a4469360eff Merge tag 'trace-v6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 89be9a83ccf1f88522317ce02f854f30d6115c41 Linux 6.16-rc7
-fe277ff90cec0df8ad4d8bb97df8c4896309735e Merge branch 'linus'
 
---===============0939243402009941682==--
+--===============4486522338230700795==--
