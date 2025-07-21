@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2590246079059163533=="
+Content-Type: multipart/mixed; boundary="===============8599181869624171472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 21 Jul 2025 23:53:40 -0000
-Message-Id: <175314202006.2013393.15864466000219812248@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 23:53:43 -0000
+Message-Id: <175314202302.2013506.8533538964977676633@gitolite.kernel.org>
 
---===============2590246079059163533==
+--===============8599181869624171472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: 0961ac09367f4ce43024a7fa7e85eb184d8ce203
-    new: 3e2f9b66ff04aa3a0a6b2bca767ba73a19d9857c
-    log: revlist-0961ac09367f-3e2f9b66ff04.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: 31a40089dc291f066ba831dd76043c8bfd6b462f
+    new: 2e45b9db3333ce82e4b6437b5a3dfc1dfdf08cd9
+    log: revlist-31a40089dc29-2e45b9db3333.txt
 
---===============2590246079059163533==
+--===============8599181869624171472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0961ac09367f-3e2f9b66ff04.txt
+Content-Disposition: attachment; filename=revlist-31a40089dc29-2e45b9db3333.txt
 
 b3dc868833a41e3e67611f3834f7640e5ed5015d NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
 afe402988bd06d47af3ab4701fc9aece12eb88d8 NFSD: release read access of nfs4_file when a write delegation is returned
@@ -80,5 +80,15 @@ f3bc90126319eefff14500a468ddbe9854b105d9 filemap: Add a helper for filesystems i
 86c42dff34f821fffddf0c955157b6d21290febd Expand the type of nfs_fattr->valid
 d74f4da7e80b71d2ccf7cefff26224f030f8e996 nfs: Add timecreate to nfs inode
 3e2f9b66ff04aa3a0a6b2bca767ba73a19d9857c NFS: Return the file btime in the statx results when appropriate
+24fa401663158a2ab200348314d5091270398307 NFS/localio: nfs_close_local_fh() fix check for file closed
+0f7770e81611cc58d3cf4a7a3496e545691c0b56 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
+3ac0092b598ed2ab55b2b80be31707196969d626 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+4c6599645f2b92c028da05718b54a58f89e79b25 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+2b2bfd5fc255d704c21171c72ba93e39e44d016a nfs/localio: make trace_nfs_local_open_fh more useful
+3e36a6b4fe520cff3cf257fe52e4725dd7c97262 nfs/localio: add nfsd_file_dio_alignment
+52b440f1ea185e5c19d0876943ccf543b66da72a nfs/localio: refactor iocb initialization
+58ec9d0f7badd4f58a81aa5d45fbf42bd28aa410 nfs/localio: fallback to NFSD for misaligned O_DIRECT READs
+a8b4b57b00dcb823d1bf738312f582f7bc9dbd92 nfs/direct: add misaligned READ support
+2e45b9db3333ce82e4b6437b5a3dfc1dfdf08cd9 nfs/direct: add misaligned WRITE support
 
---===============2590246079059163533==--
+--===============8599181869624171472==--
