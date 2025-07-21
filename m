@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3630355489899493359=="
+Content-Type: multipart/mixed; boundary="===============5713703874777956590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 21 Jul 2025 23:53:31 -0000
-Message-Id: <175314201192.2012909.5672300818750829104@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 23:53:34 -0000
+Message-Id: <175314201462.2013011.14357236498599108812@gitolite.kernel.org>
 
---===============3630355489899493359==
+--===============5713703874777956590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-next
-    old: e82101bbd4aae8632ec5f47f5c8cd39bfec65f78
-    new: 36bd80ee22a97186ddedc1273ca12d3bfd465941
-    log: revlist-e82101bbd4aa-36bd80ee22a9.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing
+    old: 79aba4bb6086ec35b095e8f46d21f75fc557d21d
+    new: a4244ae6ff9a6ac7903908aff46d53340a88b98a
+    log: revlist-79aba4bb6086-a4244ae6ff9a.txt
 
---===============3630355489899493359==
+--===============5713703874777956590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e82101bbd4aa-36bd80ee22a9.txt
+Content-Disposition: attachment; filename=revlist-79aba4bb6086-a4244ae6ff9a.txt
 
 b3dc868833a41e3e67611f3834f7640e5ed5015d NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
 afe402988bd06d47af3ab4701fc9aece12eb88d8 NFSD: release read access of nfs4_file when a write delegation is returned
@@ -58,5 +58,15 @@ a1a5273d68f633f76d77f8ffe93c7d9682adfd8b sunrpc: return better error in svcauth_
 a12980e4b63f0f576ad3fde10eb2e303225acd55 sunrpc: rearrange struct svc_rqst for fewer cachelines
 b24238af10b123a0a4802f22d43fa2f9bbd5dcdd sunrpc: make svc_tcp_sendmsg() take a signed sentp pointer
 36bd80ee22a97186ddedc1273ca12d3bfd465941 nfsd: Drop dprintk in blocklayout xdr functions
+c8499760f0e08d58513533e72761afc14c89874c nfsd: don't set the ctime on delegated atime updates
+dd10aa76011c985e5f2f4c3afc34d68ebf30156a nfsd: avoid ref leak in nfsd_open_local_fh()
+7afeb6f5decec2b8b5c469ffa0fcec8f06bb2a37 NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+8658ef7133f02ebd54fb1dce08755628a9475ca2 NFSD: Move the fh_getattr() helper
+c59c573bd95cc9bc28c56e0612ec83853e6c1b1f sunrpc: delay pc_release callback until after the reply is sent
+40fe07d475e6a5b49d577426ed8e4d196eab1d93 nfsd: discard nfsd_file_get_local()
+d1a842222e32478991b59e3761b42ae6a0af50ee sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+89fc0d222850f9e3acd204041b998d8ec6fad45a NFSD: Rework encoding and decoding of nfsd4_deviceid
+90e6bc1adce20502d72dbe037cdb22e73c6ce8ff NFSD: Minor cleanup in layoutcommit processing
+a4244ae6ff9a6ac7903908aff46d53340a88b98a NFSD: Minor cleanup in layoutcommit decoding
 
---===============3630355489899493359==--
+--===============5713703874777956590==--
