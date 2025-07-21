@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1034587690660672170=="
+Content-Type: multipart/mixed; boundary="===============7058356345162651904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 21 Jul 2025 15:54:18 -0000
-Message-Id: <175311325840.1599704.13113059902776130151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Jul 2025 15:54:22 -0000
+Message-Id: <175311326209.1600391.2563412196903592899@gitolite.kernel.org>
 
---===============1034587690660672170==
+--===============7058356345162651904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 951a6d8d41289b86a564ee5563ededa702b62b1b
     new: 69e536c93242425fc65580b02d3f781a96403660
     log: revlist-951a6d8d4128-69e536c93242.txt
 
---===============1034587690660672170==
+--===============7058356345162651904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1753113298 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1753113256-e5f795587eaa8cc1c25a447de8cbae6fedf1fb1f
+pusher C3F436CA30F5D8EB 1753113302 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1753113259-410a6e1b4d57a238f072c71983e061a7c08da715
 
-951a6d8d41289b86a564ee5563ededa702b62b1b 69e536c93242425fc65580b02d3f781a96403660 refs/heads/for-6.17
+951a6d8d41289b86a564ee5563ededa702b62b1b 69e536c93242425fc65580b02d3f781a96403660 refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh+YtIACgkQJNaLcl1U
-h9AK5Af/RDW5Z7LhzdXadyuHgCvX4ePZ8i983j/pE5AstfV4SInQ4DnF4SwQN6TX
-zm7eZ2py80Uhx2665uYuIWi97qCcAEoyZ5wK8hg86xpmpUuPgn1wW3Iti4Lhr/t4
-YMiPK6erZuNAls9VJEZvOQcWqKHa88ejTsdrVENAQG8zoxaWBDtYdvoaWzbH6bMx
-T6MTTXAb13fOPa0Or3JTT4SJQMztNOPmLp7gMbej2eNGAuYr3XTmAiS86B7HUWBp
-cE+HON/3KYVZVrbXYhREJzCrm098B2QIBL9HHiokVc04Z1N5bJ8FqZHNsU8DNd0y
-GUPCUIYX+oZn8H0kfw9spVtfnAGcyQ==
-=bPkB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh+YtYACgkQJNaLcl1U
+h9CD2Af/ZhJv90uMMjLjkoBu1LgWeE4O7+joF6L9DnzGqDgyWVXwwhQHkm17c9Ut
+93Yf33C+/Q6kgR5Y2wKYgxfQcS1wCJfk5EDD8fSp+x1Y7H8N/9Og2hPLmSVZYrt8
+GRvSU5u+bg+wb+C6DIyMXkZdZafEc+5Dm+IA1SwDmg4TAhmiMWENyK+nVseeQs01
+HtHyjboxQUIAx8a/2730qDs+waG8XandV3bH6UjHbRdaBaNoLomBA/cqWp1xwelf
+KuvG79lfnSDlTB5bnkjJMEyp7ZEeLsTv7ipNvyuXmc5n7S0k0y/8CkYBbLn+rw9F
+crNHeOp5Z0BbCUwL2/ZMXoge2JKI4Q==
+=qJJj
 -----END PGP SIGNATURE-----
 
---===============1034587690660672170==
+--===============7058356345162651904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1065,4 +1065,4 @@ aad2f87cbcab56b322109d26d7b11842a09df91f dt-bindings: trivial-devices: Document 
 d60f7cab7c04944a79af16caa43c141e780a59c6 spi: spidev: Add an entry for the ABB spi sensors
 69e536c93242425fc65580b02d3f781a96403660 spidev: introduce trivial abb sensor device
 
---===============1034587690660672170==--
+--===============7058356345162651904==--
