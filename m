@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 21 Jul 2025 05:59:12 -0000
-Message-Id: <175307755238.1010107.10186411705399976024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 21 Jul 2025 06:28:26 -0000
+Message-Id: <175307930680.1033825.10595575146473529422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/endpoint/epf-vntb
-    old: e7cd58d2fdf8b3d2cb8c1d7a6d8eac2c67e5e18b
-    new: 61ae7f8694fb4b57a8c02a1a8d2b601806afc999
+  - ref: refs/heads/wip/leon-for-next
+    old: aee80e6ffc5878a90ca5c16760b2c4f3f3d7343f
+    new: b83440736864ad96f863666fea49bd14ab17547d
     log: |
-         61ae7f8694fb4b57a8c02a1a8d2b601806afc999 PCI: endpoint: pci-epf-vntb: Fix the incorrect usage of __iomem attribute
+         d59ebb4549ff9bdba7abf6a5246a749e7f4a36ed RDMA/mlx5: Fix returned type from _mlx5r_umr_zap_mkey()
+         b83440736864ad96f863666fea49bd14ab17547d RDMA/mlx5: Fix incorrect MKEY masking
          
