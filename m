@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 21 Jul 2025 23:28:31 -0000
-Message-Id: <175314051161.1991177.8556105477072943115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 21 Jul 2025 23:29:31 -0000
+Message-Id: <175314057183.1992367.12502681196491070492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kdevops
-    old: 34200c1d4a30f7fc26b3135b296c36f959204278
-    new: 335493e5c18562a29f1d31c9ab4938883d518c32
+  - ref: refs/heads/main
+    old: 81e0db8e839822b8380ce4716cd564a593ccbfc5
+    new: 53b2fb6b05cd343aa22367857c0e97aef72e8087
     log: |
-         92b4f639da81b54ab53bab9ffa1635a1672ac08d vfs: fix delegated timestamp handling in setattr_copy()
-         1dedd73ab7be93247f5fd80ae1eb41015f6e863f nfs: add mount option to disable delegated timestamps
-         335493e5c18562a29f1d31c9ab4938883d518c32 vfs: add tracepoints in inode_set_ctime_deleg
+         37848a456fc38c191aedfe41f662cc24db8c23d9 selftests: mptcp: connect: also cover alt modes
+         fdf0f60a2bb02ba581d9e71d583e69dd0714a521 selftests: mptcp: connect: also cover checksum
+         53b2fb6b05cd343aa22367857c0e97aef72e8087 Merge branch 'selftests-mptcp-connect-cover-alt-modes'
          
