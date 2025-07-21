@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 21 Jul 2025 14:30:16 -0000
-Message-Id: <175310821609.1518108.8020280349127537983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Mon, 21 Jul 2025 14:34:42 -0000
+Message-Id: <175310848279.1520798.977332619498720022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: will
 changes:
-  - ref: refs/heads/for-next
-    old: 7cd3c8cafbc050eeeeae89b9d6bd7dc4cb95ab8a
-    new: 0156c22fb0ca869381fe0520731da79f70389652
+  - ref: refs/heads/intel/vt-d
+    old: e934464e098ebfc212c72d3022f1d31b88929768
+    new: cee686775f9cd4eae31f3c1f7ec24b2048082667
     log: |
-         0156c22fb0ca869381fe0520731da79f70389652 ALSA: hda/realtek: Add support for ASUS Commercial laptops using CS35L41 HDA
-         
-  - ref: refs/heads/master
-    old: 258bd214f2ff472f65ffa7f1909b2f1003188768
-    new: 2a3874cf5fbb98e6b76658fd68ac28cee9a17ad4
-    log: |
-         0156c22fb0ca869381fe0520731da79f70389652 ALSA: hda/realtek: Add support for ASUS Commercial laptops using CS35L41 HDA
-         2a3874cf5fbb98e6b76658fd68ac28cee9a17ad4 Merge branch 'for-next'
+         cee686775f9cd4eae31f3c1f7ec24b2048082667 iommu/vt-d: Make iotlb_sync_map a static property of dmar_domain
          
