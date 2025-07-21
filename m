@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 21 Jul 2025 13:49:13 -0000
-Message-Id: <175310575386.1477487.13025621021770747197@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8741786758658148244=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 21 Jul 2025 13:51:47 -0000
+Message-Id: <175310590777.1480968.11168107528564301779@gitolite.kernel.org>
+
+--===============8741786758658148244==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e4427590d9d63a7104dd5df564dd6b7b0c784547
-    new: 74ca5ca5b71d281801a3353a3d7f0ff04a171c8a
+    old: e932a52e6d662044ea3f48bebb28605c371c2fe4
+    new: 3b5771236da371c9dd1a35425f1bee114a11a6de
     log: |
-         92407a2cde683c8e04cd33b3150721d6a64d363f bindings: rust: make Settings:new_with_settings() crate-private
-         1651710b378f7d8bf2fdf647c7f992828fdcea6d bindings: rust: mark constructors that take raw pointers unsafe
-         f1a949f8276eccbe8ad838adf7f9ed9898aba5f7 bindings: rust: rename constructors that wrap raw objects to `from_raw`
-         b20401360ce35fabc123c379ab3fddb394ee467e bindings: rust: remove newline between attribute and attribute
-         6263abf3abb6fcdb4b85745664a7bb3c1d3c4f8c bindings: rust: simplify format statements
-         74ca5ca5b71d281801a3353a3d7f0ff04a171c8a mailmap: update Erik Wierich's name and address
+         3b5771236da371c9dd1a35425f1bee114a11a6de drop drm-nouveau-check-ioctl-command-codes-better.patch
          
+
+--===============8741786758658148244==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753105942 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1753105899-6826d9b9bad8979d9fb5169e46b2ccb976614b2c
+
+e932a52e6d662044ea3f48bebb28605c371c2fe4 3b5771236da371c9dd1a35425f1bee114a11a6de refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh+RhYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ABsP/ilrb0pD+Wuyfkbfzp9t
+9DAY1Z9wqJJfV99A6dt0SuQnu5Mvj8FyXShDke8mb4jEym4mtapAQO+yrcEfVPu/
+0PIKALNLt4Mzt/h9PpoOkw7opJjdEkGyyWdFrQWXoYZI4RH+mCsxSyCka4LSXu8m
+31jfDaeL+CKjdH0XRfC5qTItGmPIQeXL/jcq4yjoKMP9RFwQCZdnvM8KGLewdtoX
+0owqfcagLoDCfJ8rsQ3QODvQSzvfn0PzIENtRADor6BMW2FG9A1wdOVHaCtm2m2e
+di1Rxruhj5RQxlYhQZPUaNqIcnLQq1uyjBviQk6+uXZ2dazob16mjJBhwuncafvT
++SA/TN72maV5ieWewWypqVsYkJsQSRzlyKspvDH30WuaDOefD0i4iD8L7qRZWO6Z
+oKuVD5k6GGcweLCEpJIZJqhcKIEIHy8mk3N/hnUsRE0DU47D7V2hC4orl2oywrjL
+kHthLclejd1KmOnOxoyk387YTgsZTm6AKGZlSPY+JSrmFM892eOwTpZ5sLvfH75H
+3LCp3DhAEErY0Dpm6/g5BikHzPs+L4zn9PhKpCRC8duLj507vDxtLJXHigqtEM0U
+UV8k1AxLvcim1E51mIryhaXsRCehLPvNrFsHmeQ0xWL7vo9PEcBSkmpIwGl2dbe2
+1hiV4rDEhBVZ5k23No1ONw/v
+=hkYH
+-----END PGP SIGNATURE-----
+
+--===============8741786758658148244==--
