@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7517754605153167337=="
+Content-Type: multipart/mixed; boundary="===============6653084396800440700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 21 Jul 2025 17:59:36 -0000
-Message-Id: <175312077662.1710953.9692258800816934588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Jul 2025 17:59:40 -0000
+Message-Id: <175312078005.1711144.5850241769875220726@gitolite.kernel.org>
 
---===============7517754605153167337==
+--===============6653084396800440700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: da863e772ece95bcdf4f010bcd8ee1bd404d51c5
     new: 17882721dcb49323eaa9728d7eaa2ae826c876f7
     log: |
          17882721dcb49323eaa9728d7eaa2ae826c876f7 ASoC: SDCA: add route by the number of input pins in MU entity
          
 
---===============7517754605153167337==
+--===============6653084396800440700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1753120817 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1753120774-5c59c4e77a65411f098b63dd7b320e6c642344b3
+pusher C3F436CA30F5D8EB 1753120820 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1753120777-38fe2c6fd2676e339e4ba91138c06a8991442da4
 
-da863e772ece95bcdf4f010bcd8ee1bd404d51c5 17882721dcb49323eaa9728d7eaa2ae826c876f7 refs/heads/for-6.17
+da863e772ece95bcdf4f010bcd8ee1bd404d51c5 17882721dcb49323eaa9728d7eaa2ae826c876f7 refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh+gDEACgkQJNaLcl1U
-h9AU4Af/Tn91IMj2MVuafHFRWjBTwXUYVBD9dA+Rh/Vq8Ew/JLMQwl90Ozw54ZCI
-LDZjPfrq3SAYAWL4JrXcGmsM+DYtKo2I1WEiHrDYD/MiEklsRZ/oYhC2bSfon4kj
-uESN/oLPT4N65aEfUTiQxcz4rCr5NHkAlMv4rJ6AjBeCkNhpA5BRzdk+IPyVINmM
-AvahaH6WcIgd+Pp7JwE1U9SaXn8v1sI+ev0hoKdJbqzjY3RDB2DE7qyUmUnMKI2s
-dryqVKvhFBQIjAy5lZIKrkYhQTBiAtJwnEcmOz4k4kzvKvk5mZVS339sGbPeI9QK
-WdzhB6mMJcH74O3Aa0i3do7ZbOU25w==
-=Mocx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh+gDQACgkQJNaLcl1U
+h9DQiQf/SkCDB2UpwRgpa1YHRI6fb7xz2RCEPGxc0Mx9TFGbUfu4JIaQnHiGAwzP
+cucJVSr5O7EoQ3FR/aeOeuGyeb9onNL30WzrkVnqF8S1DP8eO7A06vndRWYAxrqo
+5BPtDpA41G8Hgk+IqbBvralFDbO/haOzR/uLsm8irhzIrHzO0A6DktN7Mw6uXpWa
+9U48CqaJdOa1z9kq6uTXB5BvUrGMd8zVgrqdn73fCDvZmOs8dKsaac1Fmux1FCN7
+wOaiRfyTXej/SnlNtpR9/QJxxPK2llUxl2YpFBpNN9AmnAYuJdXQn5dDlOoiRdUb
+2Juo0CsbgDY6T0rdXfsM42G140jVtA==
+=RonB
 -----END PGP SIGNATURE-----
 
---===============7517754605153167337==--
+--===============6653084396800440700==--
