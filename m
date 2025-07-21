@@ -1,46 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============3222979651216773427=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 21 Jul 2025 12:49:36 -0000
-Message-Id: <175310217627.1424595.3456510992554657527@gitolite.kernel.org>
-
---===============3222979651216773427==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 21 Jul 2025 12:53:02 -0000
+Message-Id: <175310238258.1427817.3324398148965048834@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: aef9da333823f70b074e36a94c6e85f5c55e5477
-    new: e2967b50b709970547b5cdfa1b42526835327f36
-    log: |
-         e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and SBL drivers
-         
-
---===============3222979651216773427==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1753102214 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1753102172-25c94ca112f1d6eef060dc73595cefc9a1a3ac3d
-
-aef9da333823f70b074e36a94c6e85f5c55e5477 e2967b50b709970547b5cdfa1b42526835327f36 refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaH43iQAKCRBZrE9hU+XO
-MUGUAQCDuJpWtifkiXJ1cP7pcFqF36H3ATfW6UaUGCadxpytIgEAlRSvzq1N7O+Q
-u7/AJ5sj/9z7wLqd5xat91774ETGFwQ=
-=Gtkt
------END PGP SIGNATURE-----
-
---===============3222979651216773427==--
+  - ref: refs/heads/20250719_hs_spidev_introduce_trivial_abb_sensor_device
+    old: 0000000000000000000000000000000000000000
+    new: d60f7cab7c04944a79af16caa43c141e780a59c6
