@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 21 Jul 2025 18:45:58 -0000
-Message-Id: <175312355817.1751337.16720520756853389547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Mon, 21 Jul 2025 18:54:19 -0000
+Message-Id: <175312405927.1757077.3515545317706724588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/kdevops
-    old: fb6def4ff73a5ef8a4c716053880f9977e7dc729
-    new: 34200c1d4a30f7fc26b3135b296c36f959204278
+  - ref: refs/heads/icc-next
+    old: 0a41d93cb73a63de48f03e275f4e7fd4d53fff4c
+    new: 4804961f0ab508fd95d61ce40e6c174bd3dba5e3
     log: |
-         8d359f7b80712dd498296f44e3aa4f14b39c1258 vfs: fix delegated timestamp handling in setattr_copy()
-         48a53cd204ed9d9f3d08ee1499869c36303d13df nfs: add mount option to disable delegated timestamps
-         34200c1d4a30f7fc26b3135b296c36f959204278 vfs: add tracepoints in inode_set_ctime_deleg
+         0f29e33fbadd7517b96f3f3e86220215d99875cb dt-bindings: interconnect: document the RPMh Network-On-Chip Interconnect in Qualcomm Milos SoC
+         0b8175b7d6461f5139599e44a5b834c47c1d4e76 interconnect: qcom: Add Milos interconnect provider driver
+         4804961f0ab508fd95d61ce40e6c174bd3dba5e3 Merge branch 'icc-milos' into icc-next
          
