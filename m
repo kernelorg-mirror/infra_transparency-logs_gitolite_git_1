@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 21 Jul 2025 12:47:15 -0000
-Message-Id: <175310203546.1421971.16626337699304622836@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3502553666428167225=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 21 Jul 2025 12:49:18 -0000
+Message-Id: <175310215852.1423280.5495554850387767163@gitolite.kernel.org>
+
+--===============3502553666428167225==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 23c701483945a2a555b746ea20310c32f8ad0c8d
-    new: e932a52e6d662044ea3f48bebb28605c371c2fe4
+  - ref: refs/heads/fixes
+    old: aef9da333823f70b074e36a94c6e85f5c55e5477
+    new: e2967b50b709970547b5cdfa1b42526835327f36
     log: |
-         b820b1a16843efcbcbfe032b0e4151e360c1f7ff Fixes for 6.15
-         1478aab18540049a433919d1c34f658fb723bb9d Fixes for 6.12
-         a0a3eda1ef73930d473186ea74166245b1565edb Fixes for 6.6
-         5e2d39ae89f00d513c38ea7c7961a0aa314c55dc Fixes for 6.1
-         b031c7333c929aff87f97e499c53264dbc69207e Fixes for 5.15
-         4811ab1d59c62233767397615d7d9954052f6e85 Fixes for 5.10
-         e932a52e6d662044ea3f48bebb28605c371c2fe4 Fixes for 5.4
+         e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and SBL drivers
          
+
+--===============3502553666428167225==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1753102196 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1753102153-9e7dbe214dd27afc05e12eef4bff94cc056879f7
+
+aef9da333823f70b074e36a94c6e85f5c55e5477 e2967b50b709970547b5cdfa1b42526835327f36 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaH43dwAKCRBZrE9hU+XO
+Ma8wAQDrTqAhxw1vAlX/DhOgEjZ05cbAqor4dj9tNGQCjX7SKwEAqM6lkNO44f/Q
+/OIkcM9Lp66GOsuS9K/mLaQKHPx07wE=
+=Ebfe
+-----END PGP SIGNATURE-----
+
+--===============3502553666428167225==--
