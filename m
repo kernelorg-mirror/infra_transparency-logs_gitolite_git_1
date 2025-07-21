@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Mon, 21 Jul 2025 03:28:31 -0000
-Message-Id: <175306851181.886867.18406109628951881379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 21 Jul 2025 03:53:02 -0000
+Message-Id: <175306998222.906760.12948729950496887083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 5ef62aef33c9cfa66b633815c7b17274dc1c3c60
-    new: a5d70931be450f3f73c95038b7178df7fb184ad0
+  - ref: refs/heads/crc-next
+    old: b4062e830b8a28a025ce2c9c5d7a52ac38733f67
+    new: 118da22eb6fbd48f896d17411f942399283d600c
     log: |
-         079799096863ccd8c15fabe7c7cd04ecb03c426a ARM: dts: aspeed: nvidia: gb200nvl: Add VCC Supply
-         4ac89eb113f3dbb4751f2fb270c50a7574562686 ARM: dts: aspeed: nvidia: gb200nvl: Enable i2c3 bus
-         5585eccc02e282be8b68ac037c0c67495253ef56 ARM: dts: aspeed: nvidia: gb200nvl: Repurpose the HMC gpio pin
-         45454f706a6cec60ddfe58e681a586bb411143cd ARM: dts: aspeed: nvidia: gb200nvl: Enable MAC0 for BMC network
-         a5d70931be450f3f73c95038b7178df7fb184ad0 Merge branches 'aspeed/drivers', 'aspeed/dt' and 'nuvoton/arm64/dt' into for-next
+         110628e55a577468ef21f01e042e87c4257b2fd5 lib/crc: x86: Reorganize crc-pclmul static_call initialization
+         118da22eb6fbd48f896d17411f942399283d600c lib/crc: x86/crc32c: Enable VPCLMULQDQ optimization where beneficial
          
