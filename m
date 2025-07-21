@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1321866187921216326=="
+Content-Type: multipart/mixed; boundary="===============2590246079059163533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 21 Jul 2025 23:53:37 -0000
-Message-Id: <175314201723.2013297.358806117574814417@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 23:53:40 -0000
+Message-Id: <175314202006.2013393.15864466000219812248@gitolite.kernel.org>
 
---===============1321866187921216326==
+--===============2590246079059163533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
-    old: 7c8ca30a08e07423cb7ec3ec55d46e217ea68ac2
-    new: 6a078966f6c611fdb2ef5ada8716c7076fb5eeef
-    log: revlist-7c8ca30a08e0-6a078966f6c6.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
+    old: 0961ac09367f4ce43024a7fa7e85eb184d8ce203
+    new: 3e2f9b66ff04aa3a0a6b2bca767ba73a19d9857c
+    log: revlist-0961ac09367f-3e2f9b66ff04.txt
 
---===============1321866187921216326==
+--===============2590246079059163533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c8ca30a08e0-6a078966f6c6.txt
+Content-Disposition: attachment; filename=revlist-0961ac09367f-3e2f9b66ff04.txt
 
 b3dc868833a41e3e67611f3834f7640e5ed5015d NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
 afe402988bd06d47af3ab4701fc9aece12eb88d8 NFSD: release read access of nfs4_file when a write delegation is returned
@@ -74,5 +74,11 @@ a4244ae6ff9a6ac7903908aff46d53340a88b98a NFSD: Minor cleanup in layoutcommit dec
 609f06e0d4d185f0c68e4ae1dace7bb1b15f4d17 NFSD: add io_cache_read controls to debugfs interface
 2879c092d4e086901fdfae1f6a8c628dc01428fa NFSD: add io_cache_write controls to debugfs interface
 6a078966f6c611fdb2ef5ada8716c7076fb5eeef NFSD: issue READs using O_DIRECT even if IO is misaligned
+f3bc90126319eefff14500a468ddbe9854b105d9 filemap: Add a helper for filesystems implementing dropbehind
+614488b4aa487cf57ff0fd9d8b47c481733fa24b filemap: Mark folios as dropbehind in generic_perform_write()
+7f6646043a548db928a29bb9e3cd4e0c44e67681 NFS: Enable the RWF_DONTCACHE flag for the NFS client
+86c42dff34f821fffddf0c955157b6d21290febd Expand the type of nfs_fattr->valid
+d74f4da7e80b71d2ccf7cefff26224f030f8e996 nfs: Add timecreate to nfs inode
+3e2f9b66ff04aa3a0a6b2bca767ba73a19d9857c NFS: Return the file btime in the statx results when appropriate
 
---===============1321866187921216326==--
+--===============2590246079059163533==--
