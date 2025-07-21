@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 21 Jul 2025 23:53:48 -0000
-Message-Id: <175314202834.2013745.17955607695243147737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 21 Jul 2025 23:56:44 -0000
+Message-Id: <175314220420.2017352.7497936405689865539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/tags/v6.12.24-9
+  - ref: refs/heads/wip-rm-i-verity-info
     old: 0000000000000000000000000000000000000000
-    new: 304ce4defbd0daebc68efeb71b94ce9cb4e6ce5e
+    new: 78d5322189103344d28b2e98cc8f0f2748de42fd
