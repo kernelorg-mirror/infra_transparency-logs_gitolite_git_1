@@ -1,24 +1,44 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 21 Jul 2025 07:20:10 -0000
-Message-Id: <175308241089.1078102.2591078927486739513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 21 Jul 2025 07:23:35 -0000
+Message-Id: <175308261592.1079691.4678765608992389840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/kvm-arm64/rasv1p1
-    old: 03eaf64585b651df25f2f64ba80c6004e519eccb
-    new: 75a1e23529e71f9c137268617bdf6193dac21334
+  - ref: refs/heads/for-linus
+    old: 348954f9b78e1515777708b6764c88f225457c40
+    new: 9744ede7099e8a69c04aa23fbea44c15bc390c04
     log: |
-         2259221dba6a038eb4f5464bdd2170b2de924e75 KVM: arm64: Make RAS registers UNDEF when RAS isn't advertised
-         7f774ff23d37bf7c3f80a81d646081bb95096e4a KVM: arm64: Handle RASv1p1 registers
-         2aef75295092e9363f7faffda0808695d6dbb565 KVM: arm64: Ignore HCR_EL2.FIEN set by L1 guest's EL2
-         62869574aa4b3b159c6ddcf9486e9055e3f6bb1a arm64: Add capability denoting FEAT_RASv1p1
-         ea9dec625bfd5a8d62bd512eb2480c8ade0ff843 KVM: arm64: Expose FEAT_RASv1p1 in a canonical manner
-         75a1e23529e71f9c137268617bdf6193dac21334 KVM: arm64: Make ID_AA64PFR0_EL1.RAS writable
+         21c8ed9047b7f44c1c49b889d4ba2f555d9ee17e ALSA: hda/realtek - Add mute LED support for HP Victus 15-fa0xxx
+         9744ede7099e8a69c04aa23fbea44c15bc390c04 ALSA: hda/realtek - Add mute LED support for HP Pavilion 15-eg0xxx
+         
+  - ref: refs/heads/for-next
+    old: f261196d4bf1d413383eb1667e6eb199ff9af875
+    new: 7cd3c8cafbc050eeeeae89b9d6bd7dc4cb95ab8a
+    log: |
+         d235538723e6c95f354b49a8c4760be43c234579 ASoC: rt5660: Fix the dmic data source from GPIO2
+         e837b59f8b411b5baf5e3de7a5aea10b1c545a63 ASoC: Intel: fix SND_SOC_SOF dependencies
+         949ddec3728f3a793a13c1c9003028b9b159aefc ASoC: amd: yc: Add DMI entries to support HP 15-fb1xxx
+         ec5b9c847bb8ac0f458d2b2a3fa23ee84dd99c40 ASoC: Intel: soc-acpi: add support for HP Omen14 ARL
+         7bab1bd9fdf15b9fa7e6a4b0151deab93df3c80d ASoC: amd: yc: Add DMI quirk for HP Laptop 17 cp-2033dx
+         348954f9b78e1515777708b6764c88f225457c40 Merge tag 'asoc-fix-v6.16-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+         21c8ed9047b7f44c1c49b889d4ba2f555d9ee17e ALSA: hda/realtek - Add mute LED support for HP Victus 15-fa0xxx
+         9744ede7099e8a69c04aa23fbea44c15bc390c04 ALSA: hda/realtek - Add mute LED support for HP Pavilion 15-eg0xxx
+         7cd3c8cafbc050eeeeae89b9d6bd7dc4cb95ab8a Merge branch 'for-linus' into for-next
+         
+  - ref: refs/heads/master
+    old: 96c1137c1ebf81e64182ce821e15a03ad385fb01
+    new: 258bd214f2ff472f65ffa7f1909b2f1003188768
+    log: |
+         21c8ed9047b7f44c1c49b889d4ba2f555d9ee17e ALSA: hda/realtek - Add mute LED support for HP Victus 15-fa0xxx
+         25cb35c4a879c477a7ff3ac556927788eb50037f Merge branch 'for-linus'
+         9744ede7099e8a69c04aa23fbea44c15bc390c04 ALSA: hda/realtek - Add mute LED support for HP Pavilion 15-eg0xxx
+         7cd3c8cafbc050eeeeae89b9d6bd7dc4cb95ab8a Merge branch 'for-linus' into for-next
+         258bd214f2ff472f65ffa7f1909b2f1003188768 Merge branch 'for-next'
          
