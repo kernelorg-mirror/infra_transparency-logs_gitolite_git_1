@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5897249523258845881=="
+Content-Type: multipart/mixed; boundary="===============1410114426822795294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 21 Jul 2025 16:22:31 -0000
-Message-Id: <175311495166.1627344.12630713143042013085@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 16:22:34 -0000
+Message-Id: <175311495402.1627462.3791483073116902190@gitolite.kernel.org>
 
---===============5897249523258845881==
+--===============1410114426822795294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: d61f6cb6f6ef3c70d2ccc0d9c85c508cb8017da9
     new: dd500e4aecf25e48e874ca7628697969df679493
     log: revlist-d61f6cb6f6ef-dd500e4aecf2.txt
 
---===============5897249523258845881==
+--===============1410114426822795294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ e07ba344a46500ec7c11e4b7e3e47b03b09ef58d Merge branch 'net-maintain-netif-vs-dev
 4701ee5044fb3992f1c910630a9673c2dc600ce5 be2net: Use correct byte order and format string for TCP seq and ack_seq
 dd500e4aecf25e48e874ca7628697969df679493 net: usb: Remove duplicate assignments for net->pcpu_stat_type
 
---===============5897249523258845881==--
+--===============1410114426822795294==--
