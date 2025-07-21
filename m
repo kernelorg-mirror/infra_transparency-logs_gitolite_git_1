@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 21 Jul 2025 02:00:25 -0000
-Message-Id: <175306322506.816230.5972995897312359020@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 02:02:24 -0000
+Message-Id: <175306334448.817213.6636490264329024804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,11 @@ repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
   - ref: refs/heads/bugfix/common
-    old: 0ffb0fed57fb1ca986d6454a20e8f8188761b2a7
-    new: 3840827cdcb399503ea26b219f1a49b76399f65c
+    old: 3840827cdcb399503ea26b219f1a49b76399f65c
+    new: 41878a6f13be9f790d4e33e333cc3d4608c2af49
     log: |
-         e8a595361025c25951d6d59f14bcc97e91ec1ef5 f2fs: don't break allocation when crossing contiguous sections
-         18b82ca93a4e57856528c61480f7f2218b410fbf f2fs: fix to do sanity check on node footer in read_end_io
-         3840827cdcb399503ea26b219f1a49b76399f65c f2fs: cover f2fs_update_inode_page() w/ node_change lock
+         026e81230291544d95c18f9e79bb605d597d4217 f2fs: fix to avoid out-of-boundary access in dnode page
+         b10afba7775a4219bd29daaad36a68c86a94e2ff f2fs: don't break allocation when crossing contiguous sections
+         afefa059d681e12c75b77985573cb2b17a9fdd65 f2fs: fix to do sanity check on node footer in read_end_io
+         41878a6f13be9f790d4e33e333cc3d4608c2af49 f2fs: cover f2fs_update_inode_page() w/ node_change lock
          
