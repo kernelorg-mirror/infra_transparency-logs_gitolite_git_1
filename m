@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6502984865594606304=="
+Content-Type: multipart/mixed; boundary="===============2912494944136847969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 21 Jul 2025 02:04:50 -0000
-Message-Id: <175306349034.819044.15914356929324975586@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 02:08:37 -0000
+Message-Id: <175306371799.822182.6914507244607515399@gitolite.kernel.org>
 
---===============6502984865594606304==
+--===============2912494944136847969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: 49e734ecec1aaa9835769605715558ca425a4356
     new: 36d09b96d3e79518e2be31fc7960cc694702afb8
     log: revlist-49e734ecec1a-36d09b96d3e7.txt
 
---===============6502984865594606304==
+--===============2912494944136847969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -414,4 +414,4 @@ b0096e1e5783c7a3cc75eb70a4207f1657ac689b LoongArch: KVM: Use generic function lo
 46ecfb68ddd88118dcf623f21785d78f69337631 LoongArch: KVM: Add stat information with kernel irqchip
 36d09b96d3e79518e2be31fc7960cc694702afb8 LoongArch: KVM: Add tracepoints for CPUCFG and CSR emulation exits
 
---===============6502984865594606304==--
+--===============2912494944136847969==--
