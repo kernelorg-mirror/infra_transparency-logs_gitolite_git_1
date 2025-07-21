@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============2569999378879627390=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 21 Jul 2025 13:59:11 -0000
-Message-Id: <175310635119.1486312.17249160421179165163@gitolite.kernel.org>
-
---===============2569999378879627390==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/libpwm
+Date: Mon, 21 Jul 2025 14:06:33 -0000
+Message-Id: <175310679342.1493651.5073173632902070070@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ukleinek/libpwm
+user: ukleinek
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: b5f20799f164053a0fbf7c61b3c99f8cf9cf0656
-    new: 5a9fffd8a533bfb2688ec69dd6d1b6e53ef1177a
+  - ref: refs/heads/main
+    old: 40eb549b731546d2d99d1075ca16cd6c5581ac7c
+    new: 7e51859bcc90a61d4ba46a626c48d85c1e4c13ba
     log: |
-         5a9fffd8a533bfb2688ec69dd6d1b6e53ef1177a platform/x86/intel/pmt: fix build dependency for kunit test
+         0fb5f1a606f1eb7b83a6cc0240ae300e2fadbca1 Makefile.am: Add uapi-pwm.h to distribution tarball
+         7e51859bcc90a61d4ba46a626c48d85c1e4c13ba Release libpwm 1.0-rc2
          
-
---===============2569999378879627390==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1753106390 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1753106347-e0664c72137a288917262323155f80a72c41161c
-
-b5f20799f164053a0fbf7c61b3c99f8cf9cf0656 5a9fffd8a533bfb2688ec69dd6d1b6e53ef1177a refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaH5H2AAKCRBZrE9hU+XO
-MXGdAQCLpOIO1IndcJY+bPoFs/FxUw6MhwGAZXj0W0I1ynk6HAD9E41bXL0cidqy
-fssmxWweLEAtBMiYj/ivDsZcsCIi4gM=
-=1Ggc
------END PGP SIGNATURE-----
-
---===============2569999378879627390==--
+  - ref: refs/tags/v1.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 3c3dfa3a00b590d569342c011ec23a7ce39df88f
