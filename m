@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6890961494729275311=="
+Content-Type: multipart/mixed; boundary="===============3746391077284540837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 21 Jul 2025 15:32:36 -0000
-Message-Id: <175311195632.1581492.4617094815989632405@gitolite.kernel.org>
+Date: Mon, 21 Jul 2025 15:32:41 -0000
+Message-Id: <175311196154.1581756.14826066563039428204@gitolite.kernel.org>
 
---===============6890961494729275311==
+--===============3746391077284540837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
+  - ref: refs/heads/tty-linus
+    old: 6c0e9f05c9d7875995b0e92ace71be947f280bbd
     new: 89be9a83ccf1f88522317ce02f854f30d6115c41
-    log: revlist-d0b3b7b22dfa-89be9a83ccf1.txt
+    log: revlist-6c0e9f05c9d7-89be9a83ccf1.txt
 
---===============6890961494729275311==
+--===============3746391077284540837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753111997 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753112002 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1753111955-1b793350463750e1335ad1cfaeba629fcabfce0a
+nonce 1753111959-d990961c6b1bf4fae8bc857a182432cfed8f8033
 
-d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af 89be9a83ccf1f88522317ce02f854f30d6115c41 refs/heads/main
+6c0e9f05c9d7875995b0e92ace71be947f280bbd 89be9a83ccf1f88522317ce02f854f30d6115c41 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh+Xb0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u/cP/1VPPJzEfhF1WOZnP57a
-3dDufqW2TQEbE/VYuSwYgRWu06En4z3VsyP4TUXDt+ljBgnFVpNE6XD/JNtRY+Sd
-kdBUsrwVKYNnxFlYrRWaGjq5RHsJs/N9IGbM46ZNlSwEqjXctgciRghnluy4eeV0
-NjC2m3Tx1LFAMH1/ziiG2SnWaDFE9GONdbzbM1BNn2D/w/Kfw4ZhtkGI35TO8stQ
-ion6L7p1hrFb7TIL5vJHwUx4d0VZrzGhiJefu+SmtbQE6KlbNgeFACRtiB7Xutiq
-uf8yIuYYGlOKAl/o9SR49wLoeJpWlM+UK6a0B5c+tF+fDnFSie4+gX6CMZTe1xOa
-laxQzxoyBFkwIBWI4EJLjowsBiZ7u/w64Lh9aNpjWWJhYQcxpTs+SsqRT2v+O4r+
-51T646dy+yK8PTgsH+dJGe9MmWFnX8v90vGpagt64jMgi80dRFmh9J3myF/1JkBZ
-Ux+1tOZkcC0oQESU9MbcKcCnc/HFW54Ys6ohKduIqm9YnQ3DiYepTY8Lqrio4j5d
-tbPBihh+pxSWb+c9mdOyvz1MObIJkpOEbzRpjpZVJzb5DY5x9hzo/FAjaeDrOWjb
-JROTPPt7bjd9bw3yPitt2giNcFWOxEVkGlSLnzAuq1Ngll1d/EVB0C7xfTkN9BwV
-18Ci7ZkdXmBnRLgLgxFMKBRH
-=tM+s
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh+XcIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pB4P/1iVgPWRZaaFJs+aFQUS
+Jk44k4i+/lkwLHIUjhFZ8IXFGpomQW4fZxLFWeNtkflk90viGjud31zV1LOeY3h5
+jIlhqlzW34LUsJ2YCuZd6SrWw24IX5OnO8dNfNYqORXPCEGzX6Xq3WkftwpjKK2A
+YrZUstk77+4V0Gog/imeRZ6fsYvkoKyn3wf+1BgVQotOBH45n4ytowx42k+4KJ/n
+v7ZmBns/tTSNEnLilE9i9KlDcRrR03sIuHk+YghWpoB2jvaTFimfUXUucOI5jpyG
+T1MctPGqmjqWW/N+v6NQfY6hudyfiVJJUVi7pcW9LBY6uvxTnbB5AZeen07s/2uE
+ja/RoA+C64pqnbed0kjV6/wtgcS5bGotucRsm08bnToICmqQNXJcPIcGMe0W7oIq
+SSg1F/LslmtsYXomX+9ztmn0whrfE5L1349ur/ixCc5ZLAlmb3+teSQJY2eTkh9Y
+ir69Sbz4c0dRRZpVCoL7qMC+7QkVRLiWWAA6Z3Wad0Cw9NO2V7PeDTHcYM5uSF7N
++nw9k+SCxcGmq4RDdPjjhTCTn4tSAoXliJUv0CF0DK/DrEczZTQYkLdlrdQrpnEx
+AeJr/ydR9uX/BrkiUYA2h+WUUSNXEElDrrn2IGc8KrTewKl1YG4eNqAgq7SU4hVx
+wDBSeNe/qTjZlBnNGTgaeqXS
+=bH50
 -----END PGP SIGNATURE-----
 
---===============6890961494729275311==
+--===============3746391077284540837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0b3b7b22dfa-89be9a83ccf1.txt
+Content-Disposition: attachment; filename=revlist-6c0e9f05c9d7-89be9a83ccf1.txt
 
 1ac9aa41c6af7949a040f87cf1ed4bc4cac296bf Input: iqs626a - replace snprintf() with scnprintf()
 05286c5d7e72a543a12a62904a221825d72f20e9 Input: fsia6b - suppress buffer truncation warning for phys
@@ -662,8 +662,6 @@ a066917360ed5000c4f73fb190773cfac004c885 wifi: mac80211: Fix uninitialized varia
 500ba33284416255b9a5b50ace24470b6fe77ea5 pmdomain: governor: Consider CPU latency tolerance from pm_domain_cpu_gov
 cd0f8649d0e1c747d1bf6290201f38474fc23925 Merge tag 'usb-serial-6.16-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 3da6bb419750f3ad834786d6ba7c9d5d062c770b perf/core: Fix WARN in perf_sigtrap()
-273cc3406c8d4e830ed45967c70d08d20ca1380e serial: core: fix OF node leak
-6c0e9f05c9d7875995b0e92ace71be947f280bbd pch_uart: Fix dma_sync_sg_for_device() nents value
 f6bfc9afc7510cb5e6fbe0a17c507917b0120280 drm/framebuffer: Acquire internal references on GEM handles
 2265c08ec393ef1f5ef5019add0ab1e3a7ee0b79 KVM: arm64: Fix enforcement of upper bound on MDCR_EL2.HPMN
 bd46cece51a36ef088f22ef0416ac13b0a46d5b0 drm/gem: Fix race in drm_gem_handle_create_tail()
@@ -1068,4 +1066,4 @@ c10ee5cc1217c79dfa606c432aa95d5ee2e81083 Merge tag 'i2c-for-6.16-rc7' of git://g
 2013e8c2e6fd3a4bdf4ccc658ad20a4469360eff Merge tag 'trace-v6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 89be9a83ccf1f88522317ce02f854f30d6115c41 Linux 6.16-rc7
 
---===============6890961494729275311==--
+--===============3746391077284540837==--
