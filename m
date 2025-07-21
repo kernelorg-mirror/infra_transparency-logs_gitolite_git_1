@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2784454827343795726=="
+Content-Type: multipart/mixed; boundary="===============5237245109438679189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 21 Jul 2025 15:03:01 -0000
-Message-Id: <175311018175.1551886.14340789529260941903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Jul 2025 15:03:05 -0000
+Message-Id: <175311018548.1552104.16637421469462995067@gitolite.kernel.org>
 
---===============2784454827343795726==
+--===============5237245109438679189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 6bea85979d05470e6416a2bb504a9bcd9178304c
     new: d312962188dd1f682b0351ccf9933334738ac462
     log: |
@@ -24,28 +24,28 @@ changes:
          d312962188dd1f682b0351ccf9933334738ac462 ASoC: rt5650: Eliminate the high frequency glitch
          
 
---===============2784454827343795726==
+--===============5237245109438679189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1753110222 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1753110179-4b5f179ed5d506a721c65b3012e59e7572a89ec1
+pusher C3F436CA30F5D8EB 1753110225 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1753110182-ce4b6ebcbc3f541d418e5b9f933f04ffc5720677
 
-6bea85979d05470e6416a2bb504a9bcd9178304c d312962188dd1f682b0351ccf9933334738ac462 refs/heads/for-6.16
+6bea85979d05470e6416a2bb504a9bcd9178304c d312962188dd1f682b0351ccf9933334738ac462 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh+Vs4ACgkQJNaLcl1U
-h9C1pAf+OxTURw+t8U8TIRaX3ehqQM6B6AyxvyoxgpvwaP+lmgp7j3whRWsbVPUB
-YVJqKnCDbRKvjqEV9tlV3d9AncgwLBnPdG+jAMqD9pZtGKEGsRDIjhG9kMJ9nsGI
-xDR63ZZb3BPbsgjceiHNbcFB1b/BAO/gDZ1F/CTNgjOCGBWf/g4OLov7LHHsLazE
-3XPLDIXmlM1+5NyfYbRiYQf2ft47seHz5CrJQWn2dg8Z0NF6CgK6Fw/zyBsE6kup
-hev11j4YoqrvL9wYNIuwXNCYyQ8T4QDFE8MzJbVx3W9r3QSp1Bmb+xFBnIVxHg2r
-rKPPHzRMLyF4Y1V0v05EhYtrFcg5DA==
-=18oH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmh+VtEACgkQJNaLcl1U
+h9DpMQf+PBC7te+OmfIw3W8BRaT1V6DB+MB0u86ffWMEaDRZyKkZwMO4Z1pAI3uU
+XGjMAigpk3xAGvAeIUhYzNr2il05AHZtj6awWV9BUp/+qj0w8TNRz/w3/j/nkjlQ
+HAyePwZVgxkwdMEzxL96apMitWDDVXStjL9dBoC04Mle5m+Y960aUWgnKtlx4P7d
+x/Z6Bn4euaf2h8ikOWBwVSRKxcLKaProDfPVPiuv1sekI1L7KX/lreD6K3h8KKR6
+nxTi6l+Jx+7vhj5o6TTNpOc47Fdh1jkKTyYbMbM60BnYdQGhhVpO9AAk5XqXAoLB
+2OtuXuPfMoK6y9znseBp/d3MTFk0PA==
+=L0z2
 -----END PGP SIGNATURE-----
 
---===============2784454827343795726==--
+--===============5237245109438679189==--
