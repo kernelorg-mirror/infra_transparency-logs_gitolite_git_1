@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 22 Jul 2025 20:39:10 -0000
-Message-Id: <175321675076.3116160.17429415844262268156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 22 Jul 2025 20:39:36 -0000
+Message-Id: <175321677610.3117244.13811276934973385668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/endpoint/doorbell
-    old: b964b4894fcfc72e7496cf52a33cbba39d094c5b
-    new: 324cd564355a7e51948680783596bc8cb0a518ff
+  - ref: refs/heads/amlogic/dt
+    old: 7de0d60f6345e701ca8b9a05fe2faa03ad868ccf
+    new: 587c1c00f75565567d1f26a333a3392f7a21c28c
     log: |
-         a444dcba63ec09f557437335439fdaa8dd5a8261 PCI: endpoint: Add RC-to-EP doorbell support using platform MSI controller
-         56ac43b2c8a1bc561a65575b947e68cf86948a78 PCI: endpoint: pci-ep-msi: Add checks for MSI parent and mutability
-         4ef32a6bd22440a6ad873d5a6884b1f2c2af6a5b PCI: endpoint: Add pci_epf_align_inbound_addr() helper for inbound address alignment
-         5c2e4e76348af91685cfa6c41a90b99f8efb109a PCI: endpoint: pci-epf-test: Add doorbell test support
-         8aa9e03fee728d0ed0031f0f5081785eaa451545 misc: pci_endpoint_test: Add doorbell test case
-         324cd564355a7e51948680783596bc8cb0a518ff selftests: pci_endpoint: Add doorbell test case
+         cd9ef86573b5cca654b6ae7077d637cb422c9b4c arm64: dts: amlogic: Align wifi node name with bindings
+         ef491ab7cbf6a460476a41d8b5dbd8a4394282ba dt-bindings: arm: amlogic: Add Ugoos AM3
+         b33f8cfb2b4d91c4bb7c16b354138cc205befed2 arm64: dts: amlogic: Add Ugoos AM3
+         9291207753c733dcd9f1c08749950323f7f071e8 dts: arm64: amlogic: add S7 pinctrl node
+         bd42a25d696e0d5ccc9e27de388d4ca9ff52f710 dts: arm64: amlogic: add S7D pinctrl node
+         fb183c8d7a5a90cdee953701d8a5b92642a2e917 dts: arm64: amlogic: add S6 pinctrl node
+         587c1c00f75565567d1f26a333a3392f7a21c28c arm64: dts: amlogic: Enable the npu node for Alta and VIM3
          
