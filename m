@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============8211738260094166042=="
+Content-Type: multipart/mixed; boundary="===============3258364588816741014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 22 Jul 2025 12:24:52 -0000
-Message-Id: <175318709236.2664933.16085204456450677322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 22 Jul 2025 12:25:05 -0000
+Message-Id: <175318710557.2667031.17116084684331791307@gitolite.kernel.org>
 
---===============8211738260094166042==
+--===============3258364588816741014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/timers/urgent
-    old: 434d7f9b0e24e1f0166d05f10881a8ab386845b7
-    new: 67c632b4a7fbd6b76a08b86f4950f0f84de93439
-    log: revlist-434d7f9b0e24-67c632b4a7fb.txt
+  - ref: refs/heads/usb-linus
+    old: 252f4ac08cd2f16ecd20e4c5e41ac2a17dd86942
+    new: 89be9a83ccf1f88522317ce02f854f30d6115c41
+    log: revlist-252f4ac08cd2-89be9a83ccf1.txt
 
---===============8211738260094166042==
+--===============3258364588816741014==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-434d7f9b0e24-67c632b4a7fb.txt
+Content-Disposition: attachment; filename=revlist-252f4ac08cd2-89be9a83ccf1.txt
 
+fa7d0f83c5c4223a01598876352473cb3d3bd4d7 x86/traps: Initialize DR7 by writing its architectural reset value
+f5109c201cf2bc304a05ecc40c2aabb119b27833 bcachefs: Use wait_on_allocator() when allocating journal
+1f8aede70d491a1d5867f575ca44c86fe2e335ae bcachefs: fix bch2_journal_keys_peek_prev_min() underflow
 22bbc1dcd0d6785fb390c41f0dd5b5e218d23bdd vsock/uapi: fix linux/vm_sockets.h userspace compilation errors
 7595b66ae9de667bf35a8c99e8f1bfc4792e207e Merge tag 'selinux-pr-20250624' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 9caca6ac0e26cd20efd490d8b3b2ffb1c7c00f6f bnxt: properly flush XDP redirect lists
@@ -718,8 +721,6 @@ c870cbbd71fccda71d575f0acd4a8d2b7cd88861 i2c: stm32: fix the device used for the
 04515e08bca9b5a1f9729b8d99d8b322e56d7454 HID: debug: Remove duplicate entry (BTN_WHEEL)
 d7a54d02db41f72f0581a3c77c75b0993ed3f6e2 wifi: mac80211: always initialize sdata::key_list
 c07981af55d3ba3ec3be880cfe4a0cc10f1f7138 wifi: mac80211: add the virtual monitor after reconfig complete
-c980666b6958d9a841597331b38115a29a32250e USB: serial: ftdi_sio: add support for NDI EMGUIDE GEMINI
-252f4ac08cd2f16ecd20e4c5e41ac2a17dd86942 USB: serial: option: add Telit Cinterion FE910C04 (ECM) composition
 d9b99eb3d76a603442311926617654f0e35581d4 ALSA: hda/realtek - Fix mute LED for HP Victus 16-r0xxx
 b1bf1a782fdf5c482215c0c661b5da98b8e75773 dm-bufio: fix sched in atomic context
 e778689390c71462a099b5d6e56d71c316486184 drm/i915/bios: Apply vlv_fixup_mipi_sequences() to v2 mipi-sequences too
@@ -1049,6 +1050,5 @@ b933c72d650abfb833b6ef700c26271d0a252f37 Merge tag 'staging-6.16-rc6' of git://g
 c10ee5cc1217c79dfa606c432aa95d5ee2e81083 Merge tag 'i2c-for-6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2013e8c2e6fd3a4bdf4ccc658ad20a4469360eff Merge tag 'trace-v6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 89be9a83ccf1f88522317ce02f854f30d6115c41 Linux 6.16-rc7
-67c632b4a7fbd6b76a08b86f4950f0f84de93439 timekeeping: Zero initialize system_counterval when querying time from phc drivers
 
---===============8211738260094166042==--
+--===============3258364588816741014==--
