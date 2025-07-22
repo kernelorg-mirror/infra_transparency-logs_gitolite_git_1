@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Tue, 22 Jul 2025 17:55:22 -0000
-Message-Id: <175320692280.2970928.362604333224987324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 22 Jul 2025 18:01:12 -0000
+Message-Id: <175320727219.2975670.14317379848874777888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 5615775dec828f8384b3eeebe4fc9ec53ae95b47
-    new: d7a843355806c20e232adda5b0e1c75c108a3734
+  - ref: refs/heads/for-linus
+    old: 48915162b5ad598bc6fbf8959683f43664b4f6f1
+    new: 931837cd924048ab785eedb4cee5b276c90a2924
     log: |
-         9740a208dca96d5adf73f43177916542c624da41 manifests/lore: updte using scripts/update_lore_manifest.sh
-         d7a843355806c20e232adda5b0e1c75c108a3734 hkml_list: handle misordered git log check failure
+         931837cd924048ab785eedb4cee5b276c90a2924 ALSA: hda/realtek: Fix mute LED mask on HP OMEN 16 laptop
+         
+  - ref: refs/heads/master
+    old: 01755a7ae3500c90246a07ea693cc313652e465a
+    new: bbf9894c84bc84ffa877a9d05ea46cebacb2cea1
+    log: |
+         931837cd924048ab785eedb4cee5b276c90a2924 ALSA: hda/realtek: Fix mute LED mask on HP OMEN 16 laptop
+         bbf9894c84bc84ffa877a9d05ea46cebacb2cea1 Merge branch 'for-linus'
          
