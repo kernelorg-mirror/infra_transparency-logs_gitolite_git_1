@@ -1,55 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4354568328393090780=="
+Content-Type: multipart/mixed; boundary="===============4709366491661888810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 22 Jul 2025 03:50:22 -0000
-Message-Id: <175315622246.2220210.6082058898373145380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 22 Jul 2025 04:07:48 -0000
+Message-Id: <175315726874.2233184.16454641704112714752@gitolite.kernel.org>
 
---===============4354568328393090780==
+--===============4709366491661888810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 603e4dbe9146ad76c6d65a25947ca8bba05f1a67
-    new: 3ea3a256ed81f95ab0f3281a0e234b01a9cae605
+  - ref: refs/heads/next-test
+    old: 3519258edba158e27eb5078309c3320a68334140
+    new: 377ab4ce54f7cb6066db548271c4a6fef942ee48
     log: |
-         3ea3a256ed81f95ab0f3281a0e234b01a9cae605 scsi: libiscsi: Initialize iscsi_conn->dd_data only if memory is allocated
+         9d043cf03e2173cfbb0eabf3d296515a607eea15 powerpc: Don't use %pK through printk
+         6f87840b8f6aef27cbbfaac0d873372ad0399cc4 powerpc: Drop GPL boilerplate text with obsolete FSF address
+         377ab4ce54f7cb6066db548271c4a6fef942ee48 arch/powerpc: Remove .interp section in vmlinux
          
 
---===============4354568328393090780==
+--===============4709366491661888810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1753156263 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1753156220-827968b3388215877321752bfcd74685d96d2c76
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1753157304 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1753157261-b44e5880f388cc6b5532defcd1c38373e8bf53f2
 
-603e4dbe9146ad76c6d65a25947ca8bba05f1a67 3ea3a256ed81f95ab0f3281a0e234b01a9cae605 refs/heads/for-next
+3519258edba158e27eb5078309c3320a68334140 377ab4ce54f7cb6066db548271c4a6fef942ee48 refs/heads/next-test
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmh/CqcACgkQ7ulgGnXF
-3j1WoA//ZuX8dQc1G3OcnU8tM07jNrASL3lRcypjS26+QvlET+BMv+0o4KtenSXO
-PuccDstSFXnDoa+iDKpu/9+IVbmH3oeDPGPmi9lqMzPPPFJJJINiyIffx+bWkWgC
-IsxyTeETe8Dyf79tF+VvhsSSytPGn/Kda5Y0HQf0ro0Py1x5z5TrIuytsxMNSd4y
-s5KdDOBca/rfVAE4E+nKBCzJL+bKJDDRLQPdvfwnr0ph9sjWqlbwJZ0JFHylPDkF
-D/nf2hUg6hg1XgzBM0dXJA3SwNqmm7Ulk2RVpzMYEWs/oiCFJaBUqRf5rMPQrsnL
-c12yQuPQu62DRFcsUjvDGsrGTSmCRP11XCNIcwY5KvtqidldS1Ct2uCID4N49ApT
-3vuoQw5pgriZGgLQUwHoB4tJZ7q/cWLBDa4i+2RznbR70npwZWmSkLiXLD+Ob7Os
-FX2i8ydGWqUP4m4A3PdpYS3yt7uKfHH75HWRvzltiQ7h6gFJ6Qt+bP5UiTDoi1BP
-WgwIJNBtYLikDl7Lglz7ZcR3gZhZi/0sfvH7T1LcZOuZCfGrP1ZEpXiZ2ReRIagV
-znayJQcDXcyvzamWnq4rAfp2Hx2lL/9sVBvyvCnIu59DM8DUwrImDNBdQlKuMVBO
-gZMbmq/50IiYofWgdm6T4OenSggFCQk0XmFrv/kTXBdTcRe0uQM=
-=K5Nm
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmh/DrgACgkQpnEsdPSH
+ZJRSwRAAqMqImBMIB3zJZpK5xQBVeLHciBq/5N2rrICh2baPtsJJaTkbZnoaRk8G
+Co2MuTxijIUUcSD1yHzdNBHsqyLiZb8YR+zq5zNwwC5pmRLGM7X++Fn0cRWhqMRm
+rpsd0TSQpBoAa2damEMcqhOmruO8NQnauzYSE0jZWEOv+3sUEXqHRTfFB/K9tXPY
+FRlLNG209mdg1GVYHmBaItj18D4W304PEQIoO5II0YnCbIplFsjo25C8NY2h8GXO
+8T01rpd3I0s04uiQnN6Lrg4SEp+5gCdfIe3DSPSyJlzwwweanu4DBAlMVNABF6QE
+nrAPC3fT/Z4cWDMUaQDJ0Lqtf2eAHqTdmZasgUdZMt6MFR8U+QojilVqSGEqZgmj
+DdJ/e3aywtnC2QRzjHyEAZWxIYQsgb06e3gsAjS0L3pI7AwFtqIVM14YQjQD5xN3
+XB8pbl+jayVUXTje/y2jiGptf/HCPrLYJVp1LD0fIWdqgFIUDDka0rcEyZe+t254
+XDrcsbN4tnaZ4ZSapcP+PbJ7Og9RZbPJjEFfpsCp0ZZbHV0xTus6O+/8grZswRgy
+QS3NnOaFMJ96g0A37JDEMaak6DgPc3zFTdTRGK7eaPnCpHjw6hgJNdYige0uVvTU
+NwGwMVN5wqiQBTp+SyjHqNxoXb8Xybtd70x22WoEgWUwi8dUXmk=
+=J/nM
 -----END PGP SIGNATURE-----
 
---===============4354568328393090780==--
+--===============4709366491661888810==--
