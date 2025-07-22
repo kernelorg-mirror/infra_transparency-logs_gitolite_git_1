@@ -1,26 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 22 Jul 2025 13:52:56 -0000
-Message-Id: <175319237605.2753675.4485069841659764078@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2425209066925898085=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Tue, 22 Jul 2025 13:56:50 -0000
+Message-Id: <175319261057.2757701.17384203017839876963@gitolite.kernel.org>
+
+--===============2425209066925898085==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: b83440736864ad96f863666fea49bd14ab17547d
-    new: ff2f4dcf7f645b9f58117dff22e814e20a0f1bc5
+  - ref: refs/heads/main
+    old: 69fdb084355d6c0b353536024cc51aa5f7ffb62c
+    new: 708243c62efde8241e2c66e9c3f377658855149d
     log: |
-         723f8b98c6a538b113490982186c56402f66e32b PCI/TPH: Expose pcie_tph_get_st_table_size()
-         b0409b4e14b65135df1c53c55f8e0b3461c50568 net/mlx5: Expose IFC bits for TPH
-         d3a2ef08a0ed60647031c7f9b30a33ba8d408ad7 net/mlx5: Add support for device steering tag
-         0c90560d0d66eaba7284b92b89767ae3006dcc8f IB/core: Add UVERBS_METHOD_REG_MR on the MR object
-         9261a3b61acc20247f187f63dbbc54bc9b5d558d RDMA/core: Introduce a DMAH object and its alloc/free APIs
-         f8bfd61adf2957d216ac066dbdbba4f639724a56 RDMA/mlx5: Add DMAH object support
-         d0c4964d1fb1c0e55446056af8ea5d70c3ce75b8 IB: Extend UVERBS_METHOD_REG_MR to get DMAH
-         ff2f4dcf7f645b9f58117dff22e814e20a0f1bc5 RDMA/mlx5: Add DMAH support for reg_user_mr/reg_user_dmabuf_mr
+         708243c62efde8241e2c66e9c3f377658855149d wifi: mac80211: fix unassigned variable access
          
+
+--===============2425209066925898085==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1753192622 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1753192580-fd5b1bcb920048cedb996982f7ea0710028d4bdf
+
+69fdb084355d6c0b353536024cc51aa5f7ffb62c 708243c62efde8241e2c66e9c3f377658855149d refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmh/mK4ACgkQ10qiO8sP
+aABUFxAAiNvFpjqzjC9eIiKegHp+ND5nid9bFPMGO2DTR36v/hbQjqbVVqTP68L6
+t0biWoJW517zdvStb85tAE4gJLqBDACYO/mDEfIi8uc0sAiSOGzW2AMOyVbeiZIx
+HHKElEJ0/YrbDjmfZK/eQzfFGLppO3gU5zTNcC8MP9HGQiiZ0JFSzoA7G35TmLQw
+OzECPwxO3O0oA53ZLKsZ4UgvplEZzG511npYWwwKhrw1v0Oqr9XK5B4H4PduY7uZ
+kq1UAsvncEXCENY0oR1fDJXcFkyWpjlZXQYBA+J6vXqr7BSe8r3r9t4NRigyWdFs
+XAFqaGVIYEEgtzR2b72G8ck6quILe2/2h1WqOJrldxE2USLBA/hW/mKCreXkG/q0
+CiA/n19Uc1+bG5DJxvmL/2H7do7qX/zAPHZQrcjkq124mqIQYWejNyp0EHKDpGgg
+rMu6TO/UIg+Kcn2N6GsiWhJHKIcFwWk3UiGSaKOmsxexd8SrGUWKwRV/h9AAhDJs
+Jl171D9lEUOVVEkhPDY7CJC5/3hBwmID/zpouwDpiXLbafDJFIV0btSSRuY81kJC
+N4cdpvSvT1pOgYtQgV8Z8GZIe5l1EhXbtazBEL+idb53W25okgW4CEN1zBm/bHvU
+linCWlbQLcwlOdzc9NHIfCEHzdIBVu4j3PYfBvLaFeyZK+g3PJo=
+=ToVB
+-----END PGP SIGNATURE-----
+
+--===============2425209066925898085==--
