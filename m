@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8153934906762709607=="
+Content-Type: multipart/mixed; boundary="===============3397852790446826055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 22 Jul 2025 11:30:42 -0000
-Message-Id: <175318384270.2618267.9268305380478389199@gitolite.kernel.org>
+Date: Tue, 22 Jul 2025 11:31:02 -0000
+Message-Id: <175318386242.2618636.5206275393290581633@gitolite.kernel.org>
 
---===============8153934906762709607==
+--===============3397852790446826055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 26b971d58ab9f0d5003ac750a97bb88cec7aa2e1
-    new: add4c4850363d7c1b72e8fce9ccb21fdd2cf5dc9
-    log: revlist-26b971d58ab9-add4c4850363.txt
+  - ref: refs/heads/for-next
+    old: 62b38fb31831dbd58dd117e4108a64584f631aab
+    new: 28e51caedadd82cc0d84fd19ef20604a3978fa0d
+    log: revlist-62b38fb31831-28e51caedadd.txt
 
---===============8153934906762709607==
+--===============3397852790446826055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26b971d58ab9-add4c4850363.txt
+Content-Disposition: attachment; filename=revlist-62b38fb31831-28e51caedadd.txt
 
 cc59f3b68542a2ef05e7afd0cc329ff8b8a649d0 scsi: ufs: core: Improve return value documentation
 b152f199fa43ef96ecb29cefafa1e9b0e02b6f3d scsi: qla2xxx: Remove firmware URL
@@ -47,5 +47,6 @@ ae996aeb0e495471e171d0d59d97f344c9a29968 Merge patch series "mpi3mr: Few minor b
 063bec4444d54e5f35d11949c5c90eaa1ff84c11 scsi: isci: Fix dma_unmap_sg() nents value
 b99a50672513a1445ce777041e3b4d2f829a40d6 Merge patch series "ufs: ufs-qcom: Align programming sequence as per HW spec"
 add4c4850363d7c1b72e8fce9ccb21fdd2cf5dc9 scsi: bfa: Double-free fix
+28e51caedadd82cc0d84fd19ef20604a3978fa0d Merge branch 'misc' into for-next
 
---===============8153934906762709607==--
+--===============3397852790446826055==--
