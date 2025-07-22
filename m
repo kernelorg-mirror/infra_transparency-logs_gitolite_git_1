@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7356228593178297881=="
+Content-Type: multipart/mixed; boundary="===============8394304684113057990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 22 Jul 2025 23:22:49 -0000
-Message-Id: <175322656929.3263444.16640924395276183738@gitolite.kernel.org>
+Date: Tue, 22 Jul 2025 23:23:33 -0000
+Message-Id: <175322661340.3264152.16054342071889266000@gitolite.kernel.org>
 
---===============7356228593178297881==
+--===============8394304684113057990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 9d8a453b24d4922c881769050a58f8988d64f789
+  - ref: refs/heads/next
+    old: c2e040856a1b9062941866c8e79f18edd8223435
     new: d4640c394f23b202a89512346cf28f6622a49031
-    log: revlist-9d8a453b24d4-d4640c394f23.txt
+    log: revlist-c2e040856a1b-d4640c394f23.txt
 
---===============7356228593178297881==
+--===============8394304684113057990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d8a453b24d4-d4640c394f23.txt
+Content-Disposition: attachment; filename=revlist-c2e040856a1b-d4640c394f23.txt
 
 da9374819eb3885636934c1006d450c3cb1a02ed iio: backend: fix out-of-bound write
 16285a0931869baa618b1f5d304e1e9d090470a8 iio: fix potential out-of-bound write
@@ -162,4 +162,4 @@ faddec84aa8a600f5f6857cdd9b9ea29f7cf60fb tpm/tpm_svsm: support TPM_CHIP_FLAG_SYN
 63d1dbfef6ac5ae92c672a633e4b38998dfa03b2 tpm: Use of_reserved_mem_region_to_resource() for "memory-region"
 d4640c394f23b202a89512346cf28f6622a49031 tpm: Check for completion after timeout
 
---===============7356228593178297881==--
+--===============8394304684113057990==--
