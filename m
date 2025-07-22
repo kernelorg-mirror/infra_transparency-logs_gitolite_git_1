@@ -1,56 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============0264878612525009053=="
+Content-Type: multipart/mixed; boundary="===============3756177968496606794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 22 Jul 2025 12:25:36 -0000
-Message-Id: <175318713666.2667776.2426107725191523379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 22 Jul 2025 12:25:55 -0000
+Message-Id: <175318715568.2668167.1077701515871916039@gitolite.kernel.org>
 
---===============0264878612525009053==
+--===============3756177968496606794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 26e863c4fb290145986f5442333ddce8d69500ca
-    new: b148d9c373fcce5051d59c4a23fa1698c095719c
-    log: |
-         b148d9c373fcce5051d59c4a23fa1698c095719c 6.12-stable patches
-         
+  - ref: refs/heads/for-next
+    old: 6e38b9fcbfa3053e1b5d2806a7233078d712bd34
+    new: 5a9fffd8a533bfb2688ec69dd6d1b6e53ef1177a
+    log: revlist-6e38b9fcbfa3-5a9fffd8a533.txt
 
---===============0264878612525009053==
+--===============3756177968496606794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753187178 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1753187134-a7d86189d5963d0dd3a98506647fb2ee5bd7722a
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1753187192 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1753187149-09dc1da38c3c7021d0f7bf4fc7f09e1f3a0b665f
 
-26e863c4fb290145986f5442333ddce8d69500ca b148d9c373fcce5051d59c4a23fa1698c095719c refs/heads/master
+6e38b9fcbfa3053e1b5d2806a7233078d712bd34 5a9fffd8a533bfb2688ec69dd6d1b6e53ef1177a refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh/g2obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++IgP/AvXXnH4AF0M39L2uSCk
-k0KYt2bPpDWmpbEjTk7e0YEEnZV/YndxKWmjUcpdocKdijb8UUWhru9x3AwJA4bH
-gOpzl3JiCm7qskcr0h+I0F+XqfxM3qEy9OORMHQIVLFKaNxy6aSGZ/rk8d+BZf4i
-W/TqXkXtKXf3rxka00Ue9nIKTnnIBOnLLpb9puVyyByGjpwqF5IM583TOaY5qqRC
-t0s+g5pbfrtfwKNW1nR0/uFHAjQxBqUp7DeJ+x63CWwlWBXe6fYaa3ttNM+nQMSo
-CvOF7DH0M0lSN2IflDged8MVfCHPWxRa04MY5NVXq5U/Hp/u5X3XZoOGwaLrgQoB
-3Je6ic2l+S5wW/y/eQXMJccLFNakz6kdZ1bEEhzQjkorlsdZm07PIN+M9vGZTjJ0
-vER2M2F0M7XNuUKx/Y5qDAnDg0fnGOR0/oEshGssCtfBETY7TXZnzBX/FVsRISj/
-jeVCrLRH1yoUfxWk5/5kV5s/G4H444BTo0EeIRuauycoBF+RKqjYD0crUdqhK1Ub
-VKqyVh3yPJxWis/lIUf2S06Hlnw8KasAr+fIdW/nddUxRTU4bkAnnj4MpEbU5dzH
-PyyotMoi41oIDmqmAO6xMFc4QfuAYCbfKtsKjEICnO1fj//7wXEp6fMXGVglCkez
-EciBOmsuqv/NI1mgIHXsRAfG
-=nouJ
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaH+DfQAKCRBZrE9hU+XO
+MU21AQC7BQ7i4wYdi3SDM5ExKqSggnKhQ47ckSnzISKSDZ0mfgD/Vrwaiz2Rifg+
+Q3KuCSfZj3m8Futzete4Ih655v3Drg4=
+=/lnA
 -----END PGP SIGNATURE-----
 
---===============0264878612525009053==--
+--===============3756177968496606794==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6e38b9fcbfa3-5a9fffd8a533.txt
+
+8346c6af27f1c1410eb314f4be5875fdf1579a10 platform/x86: alienware-wmi-wmax: Fix `dmi_system_id` array
+3ebed2fddf6fac5729ffc8c471c87d111b641678 power: supply: core: Add power_supply_get/set_property_direct()
+a5f354232118751fe43be6ac896f8d6e7d7418b5 power: supply: test-power: Test access to extended power supply
+d4e83784b2a9be58b938d55efb232d2751c4cab4 platform/x86: dell-ddv: Fix taking the psy->extensions_sem lock twice
+44e6ca8faeeed12206f3e7189c5ac618b810bb9c platform/mellanox: mlxbf-pmc: Remove newline char from event name input
+f8c1311769d3b2c82688b294b4ae03e94f1c326d platform/mellanox: mlxbf-pmc: Validate event/enable input
+0e2cebd72321caeef84b6ba7084e85be0287fb4b platform/mellanox: mlxbf-pmc: Use kstrtobool() to check 0/1 input
+9533b789df7e8d273543a5991aec92447be043d7 platform/x86: ideapad-laptop: Fix FnLock not remembered among boots
+e10981075adce203eac0be866389309eeb8ef11e platform/x86: ideapad-laptop: Fix kbd backlight not remembered among boots
+c86f7bb92f1ffbacb18634356bf0573047eab6a0 lenovo-wmi-hotkey: Avoid triggering error -5 due to missing mute LED
+bc48d79a1829ac5a79cc3d1eb8bf30c0ae9b3bcd platform: arm64: huawei-gaokun-ec: fix OF node leak
+2bfe3ae1aa45f8b61cb0dc462114fd0c9636ad32 platform/x86: Fix initialization order for firmware_attributes_class
+dbfb567f4ae86f4acc4644984ec5b59086060b99 platform/x86: alieneware-wmi-wmax: Add AWCC support to more laptops
+aef9da333823f70b074e36a94c6e85f5c55e5477 platform/x86: dell-lis3lv02d: Add Precision 3551
+e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and SBL drivers
+b5f20799f164053a0fbf7c61b3c99f8cf9cf0656 Merge branch 'fixes' into 'for-next'
+5a9fffd8a533bfb2688ec69dd6d1b6e53ef1177a platform/x86/intel/pmt: fix build dependency for kunit test
+
+--===============3756177968496606794==--
