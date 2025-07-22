@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 22 Jul 2025 09:18:20 -0000
-Message-Id: <175317590098.2496829.2851679907346152911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 22 Jul 2025 09:26:10 -0000
+Message-Id: <175317637036.2504797.13668712705125272580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/locking/futex
-    old: 7497e947bc1d3f761b46c2105c8ae37af98add54
-    new: e40892214b454c8734350d82374f46c2e495a4d2
+  - ref: refs/heads/driver-core-testing
+    old: 696b2a6ce9487ae278fd239658ca2714cd211e8e
+    new: 51a486feac0ca002bee6429f03da0a6c206d0dc5
     log: |
-         04850819c65c8242072818655d4341e70ae998b5 selftests/futex: Define SYS_futex on 32-bit architectures with 64-bit time_t
-         e40892214b454c8734350d82374f46c2e495a4d2 selftests/futex: Fix spelling mistake "Succeffuly" -> "Successfully"
+         83fb6160727874a588d70b727bc34f367362e6ed rust: io: fix broken intra-doc link to missing `flags` module
+         51a486feac0ca002bee6429f03da0a6c206d0dc5 rust: io: fix broken intra-doc links to `platform::Device`
          
