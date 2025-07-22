@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Tue, 22 Jul 2025 15:50:49 -0000
-Message-Id: <175319944926.2861100.2956879443223551721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 22 Jul 2025 15:51:36 -0000
+Message-Id: <175319949639.2861699.16883982972923332187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/next
-    old: f59b9437ac95d99e7429009c393b6f959926e88c
-    new: a80198ba650f50d266d7fc4a6c5262df9970f9f2
+  - ref: refs/heads/arm64-sme-mode-switch-doc
+    old: e7d50d01573c61288baade096128a225ee7adfde
+    new: 518cfd6fd0945c07332aa26340ee0b79582940cd
     log: |
-         a80198ba650f50d266d7fc4a6c5262df9970f9f2 coresight: fix indentation error in cscfg_remove_owned_csdev_configs()
+         518cfd6fd0945c07332aa26340ee0b79582940cd arm64/sme: Drop inaccurate documentation of streaming mode switches
          
