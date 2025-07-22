@@ -1,43 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============7972219772947765454=="
+Content-Type: multipart/mixed; boundary="===============0112238686765952536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Tue, 22 Jul 2025 13:37:43 -0000
-Message-Id: <175319146301.2738230.12994591586355436438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 22 Jul 2025 13:39:44 -0000
+Message-Id: <175319158467.2740019.4707086658800705393@gitolite.kernel.org>
 
---===============7972219772947765454==
+--===============0112238686765952536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 304c102cff7382353a28039907a7017bde795db9
-    new: 4a3556b81b99f0c8c0358f7cc6801a62b4538fe2
-    log: revlist-304c102cff73-4a3556b81b99.txt
+  - ref: refs/heads/usb-next
+    old: a83c371c4b6c9e5cc11391ee6e56543a0fef59b9
+    new: fcb476990beb55c958db0b5aa2e9ca772d0fc982
+    log: revlist-a83c371c4b6c-fcb476990beb.txt
 
---===============7972219772947765454==
+--===============0112238686765952536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-304c102cff73-4a3556b81b99.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-dfef90f29811b5b8bc6353e259cac6134a88671f dt-bindings: phy: qcom,sc8280xp-qmp-pcie-phy: Update pcie phy bindings for QCS615
-c3fe7071e196e25789ecf90dbc9e8491a98884d7 phy: rockchip-pcie: Enable all four lanes if required
-25facbabc3fc33c794ad09d73f73268c0f8cbc7d phy: rockchip-pcie: Properly disable TEST_WRITE strobe signal
-9e891b0d21bc889898e726783f20bd81f5fd4056 dt-bindings: usb: qcom,snps-dwc3: Add Milos compatible
-bb39f49a433312ba7558b7cc44cfd9131b46bce1 dt-bindings: phy: qcom,snps-eusb2: document the Milos Synopsys eUSB2 PHY
-7f5f703210109366c1e1b685086c9b0a4897ea54 phy: qcom: phy-qcom-snps-eusb2: Add missing write from init sequence
-828c3e9dce25a9551e52fd076136f4d9936c0498 phy: qcom: phy-qcom-snps-eusb2: Update init sequence per HPG 1.0.2
-f31ac39c037a77a87e210b0f6d86fdefe8fc7258 phy: exynos-mipi-video: correct cam0 sysreg property name for exynos7870
-429efeb1900d4a3164e1233b392ee5f489b6c3f8 dt-bindings: phy: mixel, mipi-dsi-phy: Allow assigned-clock* properties
-a91ec5efde530747c23f3182cc5b53ba99b57051 dt-bindings: phy: marvell,mmp2-usb-phy: Drop status from the example
-99dd7faeb7a4d973f049e1bad234888777e03646 dt-bindings: phy: Convert ti,da830-usb-phy to DT schema
-4c3d05da59eb75bdb7869f8668778dae87229168 dt-bindings: phy: Convert brcm,sr-usb-combo-phy to DT schema
-4a3556b81b99f0c8c0358f7cc6801a62b4538fe2 phy: qcom: phy-qcom-m31: Update IPQ5332 M31 USB phy initialization sequence
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753191626 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1753191583-94b8d6f96d884525e20faefed7ee6bb7ed89bfff
 
---===============7972219772947765454==--
+a83c371c4b6c9e5cc11391ee6e56543a0fef59b9 fcb476990beb55c958db0b5aa2e9ca772d0fc982 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmh/lMobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Mo8QAJiTC3wcMyuJIep1y4SX
+l+FqQFPGeYd1rwIMcGoTGq807Xe8wndxe0e3n6c1kcVIaSYL5Lok7VR1lmeRGgpn
+FVaODp21RPQ2PTPLvQAOUMiraIe/+qgOKGs4r+pWYn+J83IUqnlcJOLVkyrdiNRX
+t/xzqS1c62J8ygFNteCO2yjSXViPtDzOCR60KCHz130UP4nAMfFFe/iPNbJr64Mt
+S2t1RkuzNZC4TH43uv/ReakAw2+NHVrO+di0P/2saa+9wEGlgxvzfwja+fZP0NWr
+uArND2uIme8frVc55zq2HURxjimIOmh2ABB8y5vafVAeAH9iv3SszguXzYr35OlI
+nM4KXtrvTUThcKIsLUNch/wcjdz5s5UuYctbTe9IBmpgtUPciV14jWf3wW8B1Zxr
+R5x6+rud3eJ1BJMuLp538POr/S79UgQTJ92w62KLRnDA27FrQt2tomGZQ5PhJNhJ
+hqpRKfp1LzuAtcPBw16xnj3kj56mA12MxE8P1WLVarKLNCEUUZ2yMyAGCs1nKr5F
+yfBfsE62ocqy+Ek/EJPuDah3eK3q5GeoA+96HwIy658DoItBQuRhW3CtF0IkCJVH
+sG+0jT4DTS2wlp9WlOIxrlkvbRlQ9+vzDqPjyFnPJ0OEv9nVQFrmqQTp2VKuPCAH
+QzwJM3gUYd8lOgGTIkWOnMlI
+=6Ftb
+-----END PGP SIGNATURE-----
+
+--===============0112238686765952536==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a83c371c4b6c-fcb476990beb.txt
+
+64690a90cd7c6db16d3af8616be1f4bf8d492850 cdc-acm: fix race between initial clearing halt and open
+323a80a1a5ace319a722909c006d5bdb2a35d273 usb: gadget: uvc: Initialize frame-based format color matching descriptor
+d8e1ecffb4a282791be1b3d81a05541749b0db64 usb: usblp: clean up assignment inside if conditions
+bb76f0d843a26d11bed5df2793b492ca414de0a4 usb: gadget: f_uac1: replace scnprintf() with sysfs_emit()
+82d8cc9542b8b6588a3c7c7e3db8936243163408 usb: chipidea: imx: Add a missing blank line
+151c0aa896c47a4459e07fee7d4843f44c1bb18e usb: gadget : fix use-after-free in composite_dev_cleanup()
+a33665facf792de619e451bdbf66e86b9c6763bc usb: typec: ucsi: yoga-c630: add DRM dependency
+1e61f6ab08786d66a11cfc51e13d6f08a6b06c56 usb: typec: fusb302: cache PD RX state
+af833e7f7db3cf4c82f063668e1b52297a30ec18 usb: typec: ucsi: psy: Set current max to 100mA for BC 1.2 and Default
+7616f006db07017ef5d4ae410fca99279aaca7aa usb: typec: ucsi: Update power_supply on power role change
+5cc1f66cb23cccc704e3def27ad31ed479e934a5 thunderbolt: Fix copy+paste error in match_service_id()
+fcb476990beb55c958db0b5aa2e9ca772d0fc982 usb: core: add urb->sgt parameter description
+
+--===============0112238686765952536==--
