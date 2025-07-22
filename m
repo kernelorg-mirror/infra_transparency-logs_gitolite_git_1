@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 22 Jul 2025 05:27:42 -0000
-Message-Id: <175316206228.2301769.12267577535288237476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/libpwm
+Date: Tue, 22 Jul 2025 06:22:05 -0000
+Message-Id: <175316532578.2345780.8122762799370430407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ukleinek/libpwm
+user: ukleinek
 changes:
-  - ref: refs/heads/dmabuf-vfio
-    old: 98dc841bafc033915180404adcc9ee278feeec39
-    new: c5718b9d859d7123d852e8fc9cad0fff11053a20
+  - ref: refs/heads/debian/latest
+    old: caa66b0524b01a772ed13081bcff4e442f941afe
+    new: 99cdf080ba4a965483248b7dc113a47ce1c2a5d2
     log: |
-         2578dc25742740fb8a019cfa2be39ed8d991f862 PCI/P2PDMA: Separate global from device P2P initialization logic
-         61be6ed71abd7586e4147e79995ec2954e78ef08 PCI/P2PDMA: Make sure that p2p users can calculate their type
-         b76451200f37a6fb4866c624f1910a26ba96cd33 dma-iova: move phys_vec definition to types.h
-         65f7488bad957a167bd855b78ad9abe34bd253b2 vfio: Export vfio device get and put registration helpers
-         dc59c05c8cc29f51b368173863be4f2315657a6c vfio/pci: Enable peer-to-peer DMA transactions by default
-         587cc7cce5c2ffc570e21627f469e6f5996e72cb vfio/pci: Share the core device pointer while invoking feature functions
-         c5718b9d859d7123d852e8fc9cad0fff11053a20 vfio/pci: Allow MMIO regions to be exported through dma-buf
+         f7c32a3182cb7e5ff5d6550c7ae461e4b13a9a8d sysfs: Complete cleanup in close callback
+         3a9a9d36d95e8aa5ed563590d53c1715285a5ffb cdev: Make backend compilable without <linux/pwm.h>
+         7b2bee962631b7ee4fe65020d8dcceb37039dd77 sysfs: Fix a wrong condition for duty_cycle writing
+         bbaa8ca04b27b7016025a4da3d505d2961f782ae sysfs: Fix polarity handling
+         480fa6e7b29d62128260c8d88718f68b39cd21f8 sysfs: Keep polarity for constant waveforms
+         18d92cb4e09adaee975d04a6b1cd7aa2d21767a5 sysfs: Implement fine grained cache control
+         40eb549b731546d2d99d1075ca16cd6c5581ac7c pwmround/pwmset: Fix check for invalid duty_offset
+         0fb5f1a606f1eb7b83a6cc0240ae300e2fadbca1 Makefile.am: Add uapi-pwm.h to distribution tarball
+         7e51859bcc90a61d4ba46a626c48d85c1e4c13ba Release libpwm 1.0-rc2
+         3af6103d14408ad6798c03a0d0b1487b9b2cb2f0 [debian] Merge tag 'v1.0-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/libpwm.git
+         99cdf080ba4a965483248b7dc113a47ce1c2a5d2 [debian] Release 1.0~rc2-1
          
+  - ref: refs/tags/debian/1.0_rc2-1
+    old: 0000000000000000000000000000000000000000
+    new: 8867098460d18c2f6856cab9ffc85d53dfc1c5ab
