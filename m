@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Tue, 22 Jul 2025 16:05:29 -0000
-Message-Id: <175320032915.2876090.5458216795853437237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 22 Jul 2025 16:05:35 -0000
+Message-Id: <175320033569.2876348.11745668668904469481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/icc-next
-    old: 4804961f0ab508fd95d61ce40e6c174bd3dba5e3
-    new: ca652cf0c2612add5d3c9283bbc742dabc704a77
+  - ref: refs/heads/for-next
+    old: ecf4657a83d532cbf9c50755e30d74364506bf56
+    new: 2bc6db195115429b95ffb5d45554317cb0f6e0e8
     log: |
-         4781dbbfa5fee0e24856ee1f35275f64c5619fd7 interconnect: qcom: Add Milos interconnect provider driver
-         ca652cf0c2612add5d3c9283bbc742dabc704a77 Merge branch 'icc-milos' into icc-next
+         246570cd351299959822ac21e75e2975f80ce4b7 ASoC: SDCA: Fix implicit cast from le16
+         2bc6db195115429b95ffb5d45554317cb0f6e0e8 Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
          
