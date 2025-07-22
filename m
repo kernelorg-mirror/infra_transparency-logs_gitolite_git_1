@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8043049554287366383=="
+Content-Type: multipart/mixed; boundary="===============8969763414641272584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 22 Jul 2025 10:57:02 -0000
-Message-Id: <175318182236.2588238.3545362425287454055@gitolite.kernel.org>
+Date: Tue, 22 Jul 2025 10:57:09 -0000
+Message-Id: <175318182977.2588607.8398314317623027722@gitolite.kernel.org>
 
---===============8043049554287366383==
+--===============8969763414641272584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,45 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 0f97a7588db7a545ea07ee0d512789bfad4931d8
-    new: c1f3f9797c1f44a762e6f5f72520b2e520537b52
-    log: revlist-0f97a7588db7-c1f3f9797c1f.txt
+  - ref: refs/heads/main
+    old: f0f2b992d8185a0366be951685e08643aae17d6d
+    new: b03f15c0192b184078206760c839054ae6eb4eaa
+    log: revlist-f0f2b992d818-b03f15c0192b.txt
+  - ref: refs/heads/master
+    old: f0f2b992d8185a0366be951685e08643aae17d6d
+    new: b03f15c0192b184078206760c839054ae6eb4eaa
+    log: revlist-f0f2b992d818-b03f15c0192b.txt
 
---===============8043049554287366383==
+--===============8969763414641272584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1753181860 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1753181868 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1753181817-cb86decf6293136995292d9e3941ce64fb8571b7
+nonce 1753181825-0b4d70a9bcbf0038a0e5ebfe7db64786d01e4e34
 
-0f97a7588db7a545ea07ee0d512789bfad4931d8 c1f3f9797c1f44a762e6f5f72520b2e520537b52 refs/heads/testing
+f0f2b992d8185a0366be951685e08643aae17d6d b03f15c0192b184078206760c839054ae6eb4eaa refs/heads/main
+f0f2b992d8185a0366be951685e08643aae17d6d b03f15c0192b184078206760c839054ae6eb4eaa refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmh/bqQTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnPzwB/0QJSwGIX1QQrWeXvs0hfLJOpSNbrdh
-Ji415+L5I6jUquJfGCZmy0VGwge0RIfQ9pqEg+1YRwtLiUv5rM1bextv5PJHvGQR
-7cM+qzAPt//OnWseW/IFxVOJ5G8IIqioO5aNOJAXxSASigHdgdWOkSnwjYRHQCJ7
-ftLhiVylp8lE+nxqIUrXihXXFpj3UFzAaa9ahe3dC6RG0+6opug+xY7Oh3s/QOsl
-JuKlf55mkXBSfu9hyx8Ek00woIupzNyj1JWRY8mKhBtMZuroWhg1mfcS0dEcLdaj
-uu7h4H3luMsP3byRiGinJUS4lf2+NBtTzj2O7BkIXg52tef8Q7zfxubl
-=L4Dq
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmh/bqwTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnKX3B/9sX62eyEp7Lps8VCpXDse7ud8P6qnE
+bws6PdebWYSlb7q2Ze82UIbiEIBHyKu4ch5N1fQdC8brjUZaSXAsod6l3NP9jj+9
+3B+nqXvpE/+zHgKEBCjbSickvLpsahVlUH0zdhS8H9YxkQZvjVpflGAiQ9xPhkhM
+k3HPtG3QuFWBIHvlOOkdM1Ug0wlZzS/b8KHyvzlIHJ2F0sBmTb6yRosgIrVr2kXk
+p2e0y5Pmj2kvG76sF9C12fTdEv4J6g8HHPC/0L5AAe4Ku4d/VncSEQtaBfe8vY6e
+QKL2SibkLVbeVwqvBW+jDFHTadVvtoaPz7VmFww1wiOEexldahWuc3ap
+=vnqu
 -----END PGP SIGNATURE-----
 
---===============8043049554287366383==
+--===============8969763414641272584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f97a7588db7-c1f3f9797c1f.txt
+Content-Disposition: attachment; filename=revlist-f0f2b992d818-b03f15c0192b.txt
 
 af0f43d5d0d6e486b6a83190000dfa7ad447f825 arm64: dts: rockchip: fix rk3576 pcie1 linux,pci-domain
 af9feb0b85f92d2972061224839c5fea5ee39f6d arm64: dts: rockchip: Adjust the HDMI DDC IO driver strength for rk3588
@@ -196,6 +201,7 @@ aa085ea1a68d27d34f14db1f4026c35aa6b1ecc8 selftests: netfilter: conntrack_resize.
 2aec790e666bf1f11d39bb50aa9df8febd58a548 Merge tag 'ath-current-20250714' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
 444020f4bf06fb86805ee7e7ceec0375485fd94d wifi: cfg80211: remove scan request n_channels counted_by
 46345ed36296d965af1b6e68e62076d67521c55d wifi: iwlwifi: Fix botched indexing conversion
+0f97a7588db7a545ea07ee0d512789bfad4931d8 can: tcan4x5x: fix reset gpio usage during probe
 bbc19fef578970158847a41d9b6b6b218034b8c2 Merge tag 'iwlwifi-fixes-2025-07-15' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 75b63ce2c98b41c45ee3ff14c76f27c3238bc6d2 PM: suspend: Drop a misplaced pm_restore_gfp_mask() call
 228b9deded0011482149cdb474e3ad15aeeb4a97 PM: suspend: clean up redundant filesystems_freeze/thaw() handling
@@ -275,6 +281,5 @@ fdf0f60a2bb02ba581d9e71d583e69dd0714a521 selftests: mptcp: connect: also cover c
 18ff09c1b94fa1584b31d3f4e9eecdca29230ce5 net: bcmasp: Restore programming of TX map vector register
 6c4a92d07b0850342d3becf2e608f805e972467c net: appletalk: Fix use-after-free in AARP proxy probe
 b03f15c0192b184078206760c839054ae6eb4eaa gve: Fix stuck TX queue for DQ queue format
-c1f3f9797c1f44a762e6f5f72520b2e520537b52 can: netlink: can_changelink(): fix NULL pointer deref of struct can_priv::do_set_mode
 
---===============8043049554287366383==--
+--===============8969763414641272584==--
