@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Tue, 22 Jul 2025 03:15:47 -0000
-Message-Id: <175315414780.2189176.169264398749710536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
+Date: Tue, 22 Jul 2025 03:19:12 -0000
+Message-Id: <175315435210.2190911.4654208001428245554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+user: chao
 changes:
-  - ref: refs/heads/next
-    old: 754fe848b3b297fc85ec24cd959bad22b6df8cb8
-    new: d2af710d6d50b3a3e691c4e2b262ed9de3038e96
+  - ref: refs/heads/wip
+    old: 80961a5a12220b6beef6857fcc84de9f4a3bcf81
+    new: d133a7b0f5549a0168b1f863a709c0c474c438f4
     log: |
-         7b87c542c0115726f67461a6360d2cece1d11896 wifi: iwlwifi: fix cmd length when sending WOWLAN_TSC_RSC_PARAM
-         9296cc59b2278a30a44504fd588b119aff7896ae wifi: iwlwifi: Fix typo "ransport"
-         d2af710d6d50b3a3e691c4e2b262ed9de3038e96 wifi: iwlwifi: mvm/fw: Avoid -Wflex-array-member-not-at-end warnings
+         d133a7b0f5549a0168b1f863a709c0c474c438f4 fsck.f2fs: disable linear lookup by default
          
