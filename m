@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4606657163457735873=="
+Content-Type: multipart/mixed; boundary="===============6615500800116506383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 22 Jul 2025 15:45:26 -0000
-Message-Id: <175319912636.2855501.18272635839646535914@gitolite.kernel.org>
+Date: Tue, 22 Jul 2025 15:45:28 -0000
+Message-Id: <175319912868.2855732.17883999499368765847@gitolite.kernel.org>
 
---===============4606657163457735873==
+--===============6615500800116506383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: dd500e4aecf25e48e874ca7628697969df679493
     new: 391daec35b937a78c2628d08ddb0b7fb7419e950
     log: revlist-dd500e4aecf2-391daec35b93.txt
 
---===============4606657163457735873==
+--===============6615500800116506383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ f5295b5a58492f94833bc0ed0a157c32ec973c8c Octeontx2-af: RPM: Update DMA mask
 49f02e6877d1bec848048dc6366859c30bbc0a04 Octeontx2-af: Debugfs support for firmware data
 391daec35b937a78c2628d08ddb0b7fb7419e950 Merge branch 'octeontx2-af-rpm-misc-feaures'
 
---===============4606657163457735873==--
+--===============6615500800116506383==--
