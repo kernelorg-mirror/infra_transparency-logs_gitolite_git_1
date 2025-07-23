@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8071665901680732700=="
+Content-Type: multipart/mixed; boundary="===============7993555532269000371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 23 Jul 2025 05:42:19 -0000
-Message-Id: <175324933909.3585887.4663215613437135318@gitolite.kernel.org>
+Date: Wed, 23 Jul 2025 05:42:25 -0000
+Message-Id: <175324934501.3586223.9860711229399535100@gitolite.kernel.org>
 
---===============8071665901680732700==
+--===============7993555532269000371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: ff2f4dcf7f645b9f58117dff22e814e20a0f1bc5
+  - ref: refs/heads/for-next
+    old: b83440736864ad96f863666fea49bd14ab17547d
     new: e1bed9a94da86a7c01b985c2e9a030207269cbc7
-    log: revlist-ff2f4dcf7f64-e1bed9a94da8.txt
+    log: revlist-b83440736864-e1bed9a94da8.txt
 
---===============8071665901680732700==
+--===============7993555532269000371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff2f4dcf7f64-e1bed9a94da8.txt
+Content-Disposition: attachment; filename=revlist-b83440736864-e1bed9a94da8.txt
 
 cbe080f931f48bc7b054008fc2567d1c8c247a89 net/mlx5: Expose disciplined_fr_counter through HCA capabilities in mlx5_ifc
 cd1746cb6555a2238c4aae9f9d60b637a61bf177 net/mlx5: IFC updates for disabled host PF
@@ -41,4 +41,4 @@ d83edab562a496a42720902a1d2effccd05c37c5 RDMA/core: Introduce a DMAH object and 
 a272019a46c918575f10cc529c893585d46b3b55 IB: Extend UVERBS_METHOD_REG_MR to get DMAH
 e1bed9a94da86a7c01b985c2e9a030207269cbc7 RDMA/mlx5: Add DMAH support for reg_user_mr/reg_user_dmabuf_mr
 
---===============8071665901680732700==--
+--===============7993555532269000371==--
