@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Wed, 23 Jul 2025 16:36:00 -0000
-Message-Id: <175328856095.4153706.14727540972686509296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 23 Jul 2025 16:39:24 -0000
+Message-Id: <175328876407.4155840.17946798172884488835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/tags/icc-6.17-rc1
+  - ref: refs/heads/controller/mvebu
     old: 0000000000000000000000000000000000000000
-    new: fd3b5fa112d9c2f9fb052d2be7b81afb5a6a20f2
+    new: c79a7ca8fb72a17db03e916438c44d9afc98998f
