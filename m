@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 23 Jul 2025 08:27:50 -0000
-Message-Id: <175325927020.3723572.12517423625631057450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 23 Jul 2025 08:36:30 -0000
+Message-Id: <175325979063.3731382.3723424694509101124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 5607f5ed3c5f30f41e72ce09c8e616af0fc0d474
-    new: 1b6ab07c0c800ed32ce417b71b32bb1baa91b493
+  - ref: refs/heads/wip/leon-for-next
+    old: 10d4de4189533840f296ce7e48eac05b985d96bc
+    new: 60c9a34df2d83dee2e6ec7e47c2310293c98f7e4
     log: |
-         8206650c604687687bed5898b3bdb90e5d361ed4 gpio: tps65219: Update _IDX & _OFFSET macro prefix
-         1b6ab07c0c800ed32ce417b71b32bb1baa91b493 gpio: tps65219: Add support for TI TPS65214 PMIC
+         60c9a34df2d83dee2e6ec7e47c2310293c98f7e4 RDMA/mana_ib: add support of multiple ports
          
