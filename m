@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4076062435658372855=="
+Content-Type: multipart/mixed; boundary="===============8917161941926993794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Wed, 23 Jul 2025 09:02:52 -0000
-Message-Id: <175326137283.3753744.1816620793570115632@gitolite.kernel.org>
+Date: Wed, 23 Jul 2025 09:02:57 -0000
+Message-Id: <175326137707.3753906.5591007300744752865@gitolite.kernel.org>
 
---===============4076062435658372855==
+--===============8917161941926993794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0fe926a05d02a3f4406c16c66a6d95c86fbbc826
-    new: ac32c18dc394cbd030c928f175283ad8fa382d1c
-    log: revlist-0fe926a05d02-ac32c18dc394.txt
+  - ref: refs/heads/m68k-queue
+    old: 3d365559c1a265fe78adc92028b8cc503f480b2c
+    new: f291b024f369f783245ac7bda77bae865ed586d1
+    log: revlist-3d365559c1a2-f291b024f369.txt
 
---===============4076062435658372855==
+--===============8917161941926993794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fe926a05d02-ac32c18dc394.txt
+Content-Disposition: attachment; filename=revlist-3d365559c1a2-f291b024f369.txt
 
 c33453d08a56a45c2e72f9f56043610b8f7449c7 efi: Drop preprocessor directives from zboot.lds
 aa807b9f22df2eee28593cbbabba0f93f4aa26c1 dma-contiguous: hornor the cma address limit setup by user
@@ -307,6 +307,20 @@ b44686c8391b427fb1c85a31c35077e6947c6d90 erofs: fix large fragment handling
 5d5d62298b8b5017d6677af28e021f7ad13f7a62 Merge tag 'x86_urgent_for_v6.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3cd752194e2ec2573d0e740f4a1edbfcc28257f5 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 347e9f5043c89695b01e66b3ed111755afcf1911 Linux 6.16-rc6
-ac32c18dc394cbd030c928f175283ad8fa382d1c Merge tag 'v6.16-rc6'
+a9e7cf909e9911fe22c4cf6e17df487f3d7cf49a m68k: mm: Convert get_pointer_table() to use ptdescs
+de8292e3fccfa09e3eac23dca774fed783ddf636 m68k: mm: Convert free_pointer_table() to use ptdescs
+bfcf87a23dd17d1d2a831859c3ad110904e678a1 m68k: mm: Convert init_pointer_table() to use ptdescs
+575502ed32b4ae95c611e156bc3f962ff2c6ba3d m68k: mm: Convert pointer table macros to use ptdescs
+f3fd8702da318b52a48d4284b0d10ef8c3fd1c74 m68k: Fix lost column on framebuffer debug console
+bcc6f86f87ca94388818ee8a4aad2d3c7da75b70 m68k: Avoid pointless recursion in debug console rendering
+50dc8c01a98fa21c59df764eee30e5476b0c59fb m68k: Remove unused "cursor home" code from debug console
+90067e6fcdba07614b0c56bd018e5c1e46260207 m68k: Don't unregister boot console needlessly
+f099d7595388db5cba083625110bf63ba08fd6d6 m68k: Enable dead code elimination
+b3c2e14682e7632e47228106d234dda5e2e99ade m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
+0f9322cf58420c5373577ddc4fefb7e156297fe3 m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
+d68742d857b94337942b4d79f275b39651687684 m68k: mac: Improve clocksource driver commentary
+0d0e1472ad516abf15a403f3798e20b0656cf36b m68k: atari: usb: Add ISP1160 USB host controller support
+9f6992b1aca663d751a4ea40da6631e2866ddce9 m68k: atari: Update Kconfig.bus help text
+f291b024f369f783245ac7bda77bae865ed586d1 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4076062435658372855==--
+--===============8917161941926993794==--
