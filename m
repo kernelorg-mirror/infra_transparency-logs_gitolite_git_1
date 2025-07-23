@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 23 Jul 2025 14:40:22 -0000
-Message-Id: <175328162233.4044789.6829153301593750288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 23 Jul 2025 14:43:05 -0000
+Message-Id: <175328178597.4045980.584535399875145699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 089a60acbd1bf77d01ec086d026a1e124dc003e8
-    new: ab29b3460c5cec24bde75278d7ffca23cac1b867
+  - ref: refs/heads/kdevops
+    old: 1fddf4cf3dda7a74ea3de8f1d536532d249cee24
+    new: eac86274422da6786b547cf0703f5faff9d09a78
     log: |
-         ab29b3460c5cec24bde75278d7ffca23cac1b867 ALSA: hda: Add TAS2770 support
-         
-  - ref: refs/heads/master
-    old: 959f9254b06cba43471ea11ff38e9c4b89af12a6
-    new: 1f39c345ad85f36c03d2ab61eedc7dcc8da9a72c
-    log: |
-         ab29b3460c5cec24bde75278d7ffca23cac1b867 ALSA: hda: Add TAS2770 support
-         1f39c345ad85f36c03d2ab61eedc7dcc8da9a72c Merge branch 'for-next'
+         c50c5eb6fa4d57144d72d12015006edd21fe3806 vfs: fix delegated timestamp updates
+         c3990fef6aa1201f0fb33bb2992d13f1aaae1607 nfs: add mount option to disable delegated timestamps
+         56ae3c8b07f462a7b5ba19e11e4d5a9e9e6bcdb6 vfs: add ATTR_CTIME_SET flag
+         1bea6601213657ce9158b86097b20a09a87eb832 nfsd: track original timestamps in nfs4_delegation
+         e0ded790502f7f718252edda1ed4575281755c41 nfsd: fix SETATTR for delegated times
+         8cc8177e59cdef9d8777af9a7da1cf0204de3830 vfs: remove delegated ctime update infrastructure
+         eac86274422da6786b547cf0703f5faff9d09a78 nfsd: fix up timestamp updates in CB_GETATTR
          
