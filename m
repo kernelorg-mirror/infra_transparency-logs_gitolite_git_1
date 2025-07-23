@@ -1,52 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8200965625818182442=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Wed, 23 Jul 2025 10:34:47 -0000
-Message-Id: <175326688742.3833661.6553169195773040726@gitolite.kernel.org>
-
---===============8200965625818182442==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 23 Jul 2025 10:46:43 -0000
+Message-Id: <175326760386.3844097.809131483589138597@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/clk-imx-6.17
-    old: 0000000000000000000000000000000000000000
-    new: 022437c43379cd01d7a4c1436f79b7d334098993
-
---===============8200965625818182442==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 1B5F44C900951556 1753266927 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/abelvesa/linux
-nonce 1753266885-5191a1347eb29ec3fd12859c2b11366cf5ecc273
-
-0000000000000000000000000000000000000000 022437c43379cd01d7a4c1436f79b7d334098993 refs/tags/clk-imx-6.17
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmiAuvAACgkQG19EyQCV
-FVa6tw//fvFALz2pWXOExzQYXD29auzoLd/+4qsqge2qZPcoUAO+rB7yq33UxD62
-CfVyv08FuWa1DSXd1e6qqk4RHdemCA/LXure3hElP9iZddSvH9QdIxFswZsfgKI1
-MWbU52K6PIUwhvXDF4qqFk0Da0FYCnVfxV+hNItNuvSrM2wLQxhDRyQeyav3bjGH
-xyzibyAA5K3IS+Vbf1zAc3oKLM/u2sg42MmTmddxJ/o+yWlurbJB7YOfwzH+V5Mo
-p4RlvRtEFzqy88OE0KA2TxAZgy1cnFnbsqC4yuAcPCQpvKSmImNPO0NqTWmU9ar7
-uBGrSZRfHDOw5excg5DXyTue1nBIfcfEmNYo3/pvWVtzPjHP7yLIfs2LhyFNcJ7D
-G+/Rwz7u1dbzLbw9rKbd5n65H6tAN/BQLFecOJySdiTp820w4nirkubFJeHNQ6C3
-kVicOH6y1Ed5iwgAtfjZYkssV0vkHh07waCiTC3cf28iyK0WRVwCbCU9h2be9IKI
-7Zm6iQGOrqoDp8zK1y4dHzNk8TjSs5yUGsgtQcCpRfT83YY5J17A7ycbdr94RNtc
-GxIKfxyOA6dicx4ulhh8AhDsItklhhSEIl/0du/SmTIk8aeRwgmP+bgv0rRE4eYW
-0Y2jOFjOD6usooAWb7UJWSSrQNulKD6ms1yF4GY9RMRTgHEagiU=
-=hPrX
------END PGP SIGNATURE-----
-
---===============8200965625818182442==--
+  - ref: refs/heads/work.inode.offsets
+    old: 4bfa95212a0988c49fe9d08407c37a9269db7cfc
+    new: 70b6693ce3993fc225a6bbb76514718124bb94f7
+    log: |
+         46eae5544ea3b0f2ceeaa4ddfa54973ca3e45d09 fs/verity: use accessors
+         dc0cfa5e748b6ad667173fc9b5f0daf7c2691fdd btrfs: move fsverity to filesystem inode
+         b2d59df4b4ce262ecf24e58ab21e02dfcf5892b8 ext4: move fsverity to filesystem inode
+         99cd5db1fc53d8ede9735841a11ab8d77799b335 f2fs: move fsverity to filesystem inode
+         26815aab831bf6f062471f9b14e6efe02ffe711e fs: drop i_verity_info from struct inode
+         a1ee1a4227cfcf58bdf79b1f5e2581f550fd22c3 fsverity: rephrase documentation and comments
+         70b6693ce3993fc225a6bbb76514718124bb94f7 Move fscrypt and fsverity out of struct inode
+         
