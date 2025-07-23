@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Wed, 23 Jul 2025 21:48:28 -0000
-Message-Id: <175330730894.223744.3888607186563191210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Wed, 23 Jul 2025 21:53:20 -0000
+Message-Id: <175330760028.228076.16117531188991679251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 changes:
-  - ref: refs/heads/rtc-next
-    old: db22fd8880a2cb58d8684ba4345b4a8c152b8a4f
-    new: ae48d3542783cdb826774a751084aa1c536029d5
+  - ref: refs/tags/for-linus
+    old: ec15cb63e9c29f5c324525c869f51cd841035bfe
+    new: 57a73b157c3c1dedf5ffc5dc45465761dc4debbf
     log: |
-         ae48d3542783cdb826774a751084aa1c536029d5 rtc: Optimize calculations in rtc_time64_to_tm()
+         5a53249d149f48b558368c5338b9921b76a12f8c KVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls
          
