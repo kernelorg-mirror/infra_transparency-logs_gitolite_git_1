@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0525959007453091795=="
+Content-Type: multipart/mixed; boundary="===============5141571490285223759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Wed, 23 Jul 2025 17:09:04 -0000
-Message-Id: <175329054428.4181030.18301550926656115822@gitolite.kernel.org>
+Date: Wed, 23 Jul 2025 17:09:10 -0000
+Message-Id: <175329055024.4181393.5497506537550105464@gitolite.kernel.org>
 
---===============0525959007453091795==
+--===============5141571490285223759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: ac32c18dc394cbd030c928f175283ad8fa382d1c
-    new: e00b20bce502a3e4cdc2746fda431d560a2735de
-    log: revlist-ac32c18dc394-e00b20bce502.txt
+  - ref: refs/heads/m68k-queue
+    old: f291b024f369f783245ac7bda77bae865ed586d1
+    new: bab14ddf12480992750a095c3f6f72aace6ee005
+    log: revlist-f291b024f369-bab14ddf1248.txt
 
---===============0525959007453091795==
+--===============5141571490285223759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac32c18dc394-e00b20bce502.txt
+Content-Disposition: attachment; filename=revlist-f291b024f369-bab14ddf1248.txt
 
 da9374819eb3885636934c1006d450c3cb1a02ed iio: backend: fix out-of-bound write
 16285a0931869baa618b1f5d304e1e9d090470a8 iio: fix potential out-of-bound write
@@ -404,6 +404,20 @@ b933c72d650abfb833b6ef700c26271d0a252f37 Merge tag 'staging-6.16-rc6' of git://g
 c10ee5cc1217c79dfa606c432aa95d5ee2e81083 Merge tag 'i2c-for-6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2013e8c2e6fd3a4bdf4ccc658ad20a4469360eff Merge tag 'trace-v6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 89be9a83ccf1f88522317ce02f854f30d6115c41 Linux 6.16-rc7
-e00b20bce502a3e4cdc2746fda431d560a2735de Merge tag 'v6.16-rc7'
+73371fe1266bdf1a7f77bbda8da56adaa8a5f327 m68k: mm: Convert get_pointer_table() to use ptdescs
+e237942e9931f278c7f59f09adb3cc7b19642726 m68k: mm: Convert free_pointer_table() to use ptdescs
+58a165a43245e34a530e2e82e7ca5b8c11c7d2ad m68k: mm: Convert init_pointer_table() to use ptdescs
+3865aa9d7e834c4ed5f5a60e218f475dd2c1b8bc m68k: mm: Convert pointer table macros to use ptdescs
+51bdcb4bdf0f774908dd49989020c3381c043491 m68k: Fix lost column on framebuffer debug console
+c0686571a70a568282fd60ddb6cc475e32f767f7 m68k: Avoid pointless recursion in debug console rendering
+8942fcfdeabbfed62fcadbf374346d68d540944e m68k: Remove unused "cursor home" code from debug console
+38b8bd68c9fa5ee80326d4eb8902002e52903399 m68k: Don't unregister boot console needlessly
+75a2bf037ba1cd91e8592ca333d3c806cafe5382 m68k: Enable dead code elimination
+14624a81f230a7e8efca528cf654d411772ac120 m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
+09f00751b87de237c1a68beddad4fe7d30949ec9 m68k: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
+450c4aecb81e32eb4ab0e2b93890dc6f5155dc27 m68k: mac: Improve clocksource driver commentary
+14ac07020607b29a57711b4787db8a05a95bb041 m68k: atari: usb: Add ISP1160 USB host controller support
+e7bdf224bf2636543a33a59ae44be4a70cd7d132 m68k: atari: Update Kconfig.bus help text
+bab14ddf12480992750a095c3f6f72aace6ee005 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0525959007453091795==--
+--===============5141571490285223759==--
