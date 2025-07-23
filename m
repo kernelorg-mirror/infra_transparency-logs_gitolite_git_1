@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 23 Jul 2025 20:17:41 -0000
-Message-Id: <175330186113.147524.11349340116759561916@gitolite.kernel.org>
+Date: Wed, 23 Jul 2025 20:19:11 -0000
+Message-Id: <175330195198.148399.3871644177704275438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/sophgo/dt
+  - ref: refs/heads/sophgo/sg2000
     old: 0000000000000000000000000000000000000000
-    new: 7f90573099e8a506a6874d691d884d7f5b77ec74
+    new: fe4fd701938197c2bceeeff670da3ace9b488d09
