@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 23 Jul 2025 14:02:35 -0000
-Message-Id: <175327935519.4011083.17601183049415135788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 23 Jul 2025 14:07:19 -0000
+Message-Id: <175327963909.4015306.710727847750669268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/next-merge
-    old: 414d21d65b8e15f2b45aa6d61fa277c7068a5d81
-    new: 10a957e43f28105ceb7b8e31a918d1c47cd4df3e
+  - ref: refs/heads/gpio/devel
+    old: 2f90231e1dfe600452e08f2f8d7ab98729b12e9a
+    new: d0a789d9dedaf5fb343a61a1f78bb39acae305f1
     log: |
-         fe30244c817a5a022f36b2b70a77fbd37829c471 fs/xfs: replace strncpy with memtostr_pad()
-         1edc170bb24082785e5825c46a36af8ae12ac762 xfs: remove unused trace event xfs_dqreclaim_dirty
-         55edb3326b4b07117d0c26cd67d86fb8518ee906 xfs: remove unused trace event xfs_log_cil_return
-         c17f506f0abe67b6009c0d126da81a71fc1e00c1 xfs: remove unused trace event xfs_discard_rtrelax
-         10a957e43f28105ceb7b8e31a918d1c47cd4df3e xfs: remove unused trace event xfs_reflink_cow_enospc
+         36e9ab4a50a308413bb53eef3d2fa7c9fcf5a0e8 ssb: use new GPIO line value setter callbacks for the second GPIO chip
+         ebaa279828c6e5db17dd1241b95449fc07b7fb07 gpio: remove legacy GPIO line value setter callbacks
+         d0a789d9dedaf5fb343a61a1f78bb39acae305f1 treewide: rename GPIO set callbacks back to their original names
          
