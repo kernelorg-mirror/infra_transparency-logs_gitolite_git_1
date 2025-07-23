@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 23 Jul 2025 07:26:23 -0000
-Message-Id: <175325558394.3673329.13279513898381951689@gitolite.kernel.org>
+Date: Wed, 23 Jul 2025 07:31:05 -0000
+Message-Id: <175325586571.3677576.8816699905059114769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
-    old: 2a198bbec6913ae1c90ec963750003c6213668c7
-    new: 28712d6ed32028b0f2e0defe6681411496971ca3
-    log: |
-         28712d6ed32028b0f2e0defe6681411496971ca3 Merge branch 'ipsec: fix splat due to ipcomp fallback tunnel'
-         
+  - ref: refs/tags/ipsec-2025-07-23
+    old: 0000000000000000000000000000000000000000
+    new: 86b6271f651294b2d9a24b02f72e57b8db7099dc
