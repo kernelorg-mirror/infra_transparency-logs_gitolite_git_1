@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 23 Jul 2025 22:45:57 -0000
-Message-Id: <175331075701.275707.9454216382684337171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 23 Jul 2025 22:50:07 -0000
+Message-Id: <175331100717.280062.499698657129517266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: d83adbc94293d93c38b0ac42029ea360fa5a8041
-    new: 48445c432d788a0438cc76285f6aedb7027268e4
+  - ref: refs/heads/master
+    old: 78b9c6cbec1595a67c6256d2cd05f363e3138f44
+    new: b37306395e283137bb56d0b4aeebc3a98de19a4c
     log: |
-         bea947ef3c58bee05cd430a1af0474d032aea134 i2c: stm32f7: support i2c_*_dma_safe_msg_buf APIs
-         8748803c69f86d081a0392a34f5ee24ea34c4e05 i2c: tegra: Use internal reset when reset property is not available
-         48445c432d788a0438cc76285f6aedb7027268e4 i2c: tegra: Remove dma_sync_*() calls
+         b37306395e283137bb56d0b4aeebc3a98de19a4c foo
          
