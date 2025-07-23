@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5095620604752852300=="
+Content-Type: multipart/mixed; boundary="===============6656099815506465013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 23 Jul 2025 22:37:59 -0000
-Message-Id: <175331027968.267554.983737979738800952@gitolite.kernel.org>
+Date: Wed, 23 Jul 2025 22:38:02 -0000
+Message-Id: <175331028201.267661.724329593511911495@gitolite.kernel.org>
 
---===============5095620604752852300==
+--===============6656099815506465013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 77fcac95c1e86b467288a04931c56311509b8ba8
-    new: 7eb5c56bbde503231b62fe4241583f1ce218c93b
-    log: revlist-77fcac95c1e8-7eb5c56bbde5.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: c39101198e733cacb03fbaa6fcefa15b9c04361c
+    new: a7982a14b3012527a9583d12525cd0dc9f8d8934
+    log: revlist-c39101198e73-a7982a14b301.txt
 
---===============5095620604752852300==
+--===============6656099815506465013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77fcac95c1e8-7eb5c56bbde5.txt
+Content-Disposition: attachment; filename=revlist-c39101198e73-a7982a14b301.txt
 
 da9374819eb3885636934c1006d450c3cb1a02ed iio: backend: fix out-of-bound write
 16285a0931869baa618b1f5d304e1e9d090470a8 iio: fix potential out-of-bound write
@@ -404,16 +404,8 @@ b933c72d650abfb833b6ef700c26271d0a252f37 Merge tag 'staging-6.16-rc6' of git://g
 c10ee5cc1217c79dfa606c432aa95d5ee2e81083 Merge tag 'i2c-for-6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2013e8c2e6fd3a4bdf4ccc658ad20a4469360eff Merge tag 'trace-v6.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 89be9a83ccf1f88522317ce02f854f30d6115c41 Linux 6.16-rc7
-da4eb06ea52c25d52a31c2c3b1eaff6a5c7882a4 i2c: tegra: Add missing kernel-doc for dma_dev member
-be221173ee918dff2adaf0e23b03aeea44902d5e dt-bindings: i2c: renesas,riic: Move ref for i2c-controller.yaml to the end
-13aa792c10ada4f8870da5ba0fb51e478eb5a45e dt-bindings: i2c: renesas,riic: Document RZ/T2H and RZ/N2H support
-11db6a53b2375b29fe742948d71b9b341f8944db i2c: riic: Pass IRQ desc array as part of OF data
-832b2f3e3986c8ea8c24a7823ca5189746644bc4 i2c: riic: Move generic compatible string to end of array
-529a3ff283e7e788dd23d372aaf0820dac5822ae i2c: riic: Add support for RZ/T2H SoC
-8428582554c66de11d6f96074be91a53affdb66e dt-bindings: i2c: nxp,pnx-i2c: allow clocks property
-be3b425bcb65b1f5879752371131e813eaa2d481 i2c: stm32f7: Use str_on_off() helper
-07e0e8ea6400673fe6eb40d3db2a64f1f2bce4ca i2c: imx: use guard to take spinlock
-da1a373887dc65ceec6f94c3717a5a1f91046252 i2c: busses: Use min() to improve code
-7eb5c56bbde503231b62fe4241583f1ce218c93b i2c: lpi2c: convert to use secs_to_jiffies()
+56344e241c543f17e8102fa13466ad5c3e7dc9ff i2c: tegra: Fix reset error handling with ACPI
+a663b3c47ab10f66130818cf94eb59c971541c3f i2c: virtio: Avoid hang by using interruptible completion wait
+a7982a14b3012527a9583d12525cd0dc9f8d8934 i2c: qup: jump out of the loop in case of timeout
 
---===============5095620604752852300==--
+--===============6656099815506465013==--
