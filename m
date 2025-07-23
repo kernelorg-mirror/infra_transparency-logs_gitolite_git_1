@@ -1,36 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Wed, 23 Jul 2025 12:46:05 -0000
-Message-Id: <175327476549.3948544.12753949992374481514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 23 Jul 2025 13:06:17 -0000
+Message-Id: <175327597782.3964965.10798303120964929623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: will
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/intel/vt-d
-    old: cee686775f9cd4eae31f3c1f7ec24b2048082667
-    new: f0b9d31c6edd50a6207489cd1bd4ddac814b9cd2
+  - ref: refs/heads/bleeding-edge
+    old: 4adb81f6896160c9818b5d3f5d3ac044dbd9cb7f
+    new: 77d832285656c59238e7992f12296e18657251ee
     log: |
-         f0b9d31c6edd50a6207489cd1bd4ddac814b9cd2 iommu/vt-d: Fix UAF on sva unbind with pending IOPFs
+         77d832285656c59238e7992f12296e18657251ee Merge branch 'pm-cpufreq' into linux-next
          
-  - ref: refs/heads/master
-    old: de10d522ae6950ed04fbdc5d3f0c7898387b15a2
-    new: b33d42585ac807d6b60470b78cb3033bf3706258
+  - ref: refs/heads/linux-next
+    old: db4520e2821f64e37fbe58f3f1498d8655bc6342
+    new: 77d832285656c59238e7992f12296e18657251ee
     log: |
-         f0b9d31c6edd50a6207489cd1bd4ddac814b9cd2 iommu/vt-d: Fix UAF on sva unbind with pending IOPFs
-         6053a83260c517b3f5a523f9328e206997ddb2b2 Merge branches 'core' and 'samsung/exynos' into next
-         cfa767cfedad903dc8aa2680908d1afaf8d5f472 Merge branches 'intel/vt-d', 'amd/amd-vi', 'mediatek', 'ti/omap', 'apple/dart', 'arm/smmu/bindings' and 'arm/smmu/updates' into next
-         b33d42585ac807d6b60470b78cb3033bf3706258 Merge branch 'next'
+         0a1416a49e63c320f6e6c1c8d07e1b58c0d4a3f3 cpufreq: CPPC: Mark driver with NEED_UPDATE_LIMITS flag
+         77d832285656c59238e7992f12296e18657251ee Merge branch 'pm-cpufreq' into linux-next
          
-  - ref: refs/heads/next
-    old: 3973e19fea1a9f4b75a3d47db77356cdecd80fa7
-    new: cfa767cfedad903dc8aa2680908d1afaf8d5f472
+  - ref: refs/heads/testing
+    old: db4520e2821f64e37fbe58f3f1498d8655bc6342
+    new: 77d832285656c59238e7992f12296e18657251ee
     log: |
-         f0b9d31c6edd50a6207489cd1bd4ddac814b9cd2 iommu/vt-d: Fix UAF on sva unbind with pending IOPFs
-         6053a83260c517b3f5a523f9328e206997ddb2b2 Merge branches 'core' and 'samsung/exynos' into next
-         cfa767cfedad903dc8aa2680908d1afaf8d5f472 Merge branches 'intel/vt-d', 'amd/amd-vi', 'mediatek', 'ti/omap', 'apple/dart', 'arm/smmu/bindings' and 'arm/smmu/updates' into next
+         0a1416a49e63c320f6e6c1c8d07e1b58c0d4a3f3 cpufreq: CPPC: Mark driver with NEED_UPDATE_LIMITS flag
+         77d832285656c59238e7992f12296e18657251ee Merge branch 'pm-cpufreq' into linux-next
          
