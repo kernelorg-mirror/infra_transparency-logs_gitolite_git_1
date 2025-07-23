@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 23 Jul 2025 16:07:59 -0000
-Message-Id: <175328687952.4128341.14830239787263777394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+Date: Wed, 23 Jul 2025 16:13:07 -0000
+Message-Id: <175328718713.4132757.124501885259346727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
+user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/fixes
-    old: 71eb775bb536a92c5a4d2124c9b6990c21bd4750
-    new: 62355f1f87b8c7f8785a8dd3cd5ca6e5b513566a
+  - ref: refs/heads/dev.23.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: cc1d1365f0f414f6522378867baa997642a7e6b2
+  - ref: refs/heads/next.23.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: cc1d1365f0f414f6522378867baa997642a7e6b2
+  - ref: refs/heads/rcu-exp.23.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: fc39760cd0f432cd399a209c43dcb887fffdb6dc
+  - ref: refs/heads/rcu.merge.23.07.2025
+    old: 0000000000000000000000000000000000000000
+    new: cc1d1365f0f414f6522378867baa997642a7e6b2
