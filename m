@@ -1,33 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 23 Jul 2025 13:06:17 -0000
-Message-Id: <175327597782.3964965.10798303120964929623@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8945807602280897511=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Wed, 23 Jul 2025 13:17:24 -0000
+Message-Id: <175327664406.3973762.12465908799697975762@gitolite.kernel.org>
+
+--===============8945807602280897511==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 4adb81f6896160c9818b5d3f5d3ac044dbd9cb7f
-    new: 77d832285656c59238e7992f12296e18657251ee
-    log: |
-         77d832285656c59238e7992f12296e18657251ee Merge branch 'pm-cpufreq' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: db4520e2821f64e37fbe58f3f1498d8655bc6342
-    new: 77d832285656c59238e7992f12296e18657251ee
-    log: |
-         0a1416a49e63c320f6e6c1c8d07e1b58c0d4a3f3 cpufreq: CPPC: Mark driver with NEED_UPDATE_LIMITS flag
-         77d832285656c59238e7992f12296e18657251ee Merge branch 'pm-cpufreq' into linux-next
-         
-  - ref: refs/heads/testing
-    old: db4520e2821f64e37fbe58f3f1498d8655bc6342
-    new: 77d832285656c59238e7992f12296e18657251ee
-    log: |
-         0a1416a49e63c320f6e6c1c8d07e1b58c0d4a3f3 cpufreq: CPPC: Mark driver with NEED_UPDATE_LIMITS flag
-         77d832285656c59238e7992f12296e18657251ee Merge branch 'pm-cpufreq' into linux-next
-         
+  - ref: refs/heads/slub-percpu-sheaves-v5-benchmarking
+    old: 0000000000000000000000000000000000000000
+    new: 66abe9cabe8f41038bf15fabcbaa6df90a545e11
+
+--===============8945807602280897511==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1753276681 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1753276638-95ebdefb2e29455b82f1825ee93fc703433fa51f
+
+0000000000000000000000000000000000000000 66abe9cabe8f41038bf15fabcbaa6df90a545e11 refs/heads/slub-percpu-sheaves-v5-benchmarking
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmiA4QkACgkQu+CwddJF
+iJrRJgf+OLQCCDBhHlOuVgZcTcUxtMf+UZKpnWN1JCIHGCuIFjdNSJldVaxILSES
+Qp/4KIYYW8v/7zqEqbJRtBY1oxEVRoQ2CC5lKb4UlJ8Zd8c9ladseToO3vM6lncJ
+BR0eEOaH4BjMr7jCIAdzPSeR6+UAqiK8xqPAoryie7Z5lvh7h+eV6sicsGK0UErg
+42fpcPSSqq7XejMb3iL4P2KBCw6kHbwdguZvdc1FwTsSHTqh24XZSGTa8tPd6fuC
+rNlixA7O+vgMd1shynrXzLAEocxZCKXphPvVP3akJWMAyVYGcvN9mGrOjL1iCd6A
+Jk3e4cVnzsrr+vBx1EZyPrXjGS7lNw==
+=Jjpa
+-----END PGP SIGNATURE-----
+
+--===============8945807602280897511==--
