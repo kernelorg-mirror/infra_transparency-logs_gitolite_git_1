@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 24 Jul 2025 06:38:44 -0000
-Message-Id: <175333912438.719789.7607933457266366545@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3079927027429164976=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 24 Jul 2025 06:44:31 -0000
+Message-Id: <175333947160.724816.8942675615729617598@gitolite.kernel.org>
+
+--===============3079927027429164976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 41878a6f13be9f790d4e33e333cc3d4608c2af49
-    new: 71c1e1b510d5d06db179294817474c62d35cca92
+  - ref: refs/heads/master
+    old: d2799e3d58d8cc354542c506bfd2fb8782849486
+    new: 64782df9c7d78fb3bbb8aa4902f07e7eb20d990f
     log: |
-         5db121ed44f388249f9d905bcc4249945b7f2cb1 f2fs: don't break allocation when crossing contiguous sections
-         dd87a32d3e66efdf4c9306a57fe5bc7235cde71e f2fs: add gc_boost_gc_multiple sysfs node
-         04b17e8b6260fb4b3d9d74ce7f04a33b79aeb73f f2fs: add gc_boost_gc_greedy sysfs node
-         3f16e99f3ce1f548597b6c17e559658cd1c8689b f2fs: ignore valid ratio when free section count is low
-         5d57092b51c4f2e20fe639093a23c2f7dd457daa f2fs: zone: wait for inflight dio completion, excluding pinned files
-         7cf0b7abfbc5a81a6839993ce2828dd69e5b47d9 f2fs: fix to trigger foreground gc during f2fs_map_blocks() in lfs mode
-         ea6a8695eb65ce799c92452680ac6850ae07e262 f2fs: fix to do sanity check on node footer in read_end_io
-         71c1e1b510d5d06db179294817474c62d35cca92 f2fs: cover f2fs_update_inode_page() w/ node_change lock
+         64782df9c7d78fb3bbb8aa4902f07e7eb20d990f 6.6-stable patches
          
+
+--===============3079927027429164976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753339512 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1753339468-3c50aaffded07bd613a1da2d5385e91d999f173a
+
+d2799e3d58d8cc354542c506bfd2fb8782849486 64782df9c7d78fb3bbb8aa4902f07e7eb20d990f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiB1ngbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UIYP/0KY0uN0NUuscuruKniy
+1b56PQaML/gGwgNzK+R6POIGu+2dm3HJ6XnjJRjjl19yx4peVx2KWASqs4rHF3W1
+aY52nlIqeDBEDajCVYPQn2LtPgCt9wSRy6Iek52/ISgnNkh2kGiYJMpB3oP7GZLy
+x6D0u65BapoEd5xYHw/ZDeLrII9sJtaiDcOMkMU38E+NDVw5hslqesjGwMSVtLHH
+TpFjjiCZNx8jUDaUtlXVL4vOswEdr8fwi3fq/dhsWlaTbiUQUZ+H+Ybe/YLelEBN
+RAMlImTmrpq7DFtN/Lk6I08vQZooVdiAoyhakE5aTxt774nRrD7zwIiqRE26W5HV
+gLbckshjm9K9jz7FaXcyA6LjmCEgwOswVuWA/eq6W2zGtLLlaLW214r5fe4jCIVb
+Lh8rNB62c04qhSeprPc2ssJ6ur5nY6dm+Ox3ZzdR5Lo2ODfxdaBc5DaCwclCgIkQ
+aUXgaRZEebVDR4GcTBdirzGGuY7bMCjbz2CxCO+8P5p5TEcFCGvPkmJZsmQnIbnD
+w8skj9rdB0jgrmO0KpxrZCJPEGXip4O9jk7SInM+U51DJpGWHRJIyDJqk++NLdXS
+gkbp/tUmEIMjq/MRiA4K8Lhn1YD/aVqc+1vb7o2TSC0KCna/FfOcFTL4qnUvVJmD
+MPmaw+a9LMRq022ndB9wz+wY
+=5Nme
+-----END PGP SIGNATURE-----
+
+--===============3079927027429164976==--
