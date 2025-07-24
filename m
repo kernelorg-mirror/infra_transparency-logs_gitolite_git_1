@@ -1,52 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7392332792188288527=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 24 Jul 2025 10:01:51 -0000
-Message-Id: <175335131143.999087.4631562049771490883@gitolite.kernel.org>
-
---===============7392332792188288527==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Thu, 24 Jul 2025 10:19:57 -0000
+Message-Id: <175335239790.1013037.12557430906175838404@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: will
 changes:
-  - ref: refs/tags/wireless-next-2025-07-24
-    old: 0000000000000000000000000000000000000000
-    new: 7149defe5ac35158ca415ddc83545f6706e946e7
-
---===============7392332792188288527==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1753351330 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1753351287-7ec32a3822e482746e3c86c12f75101541d2c323
-
-0000000000000000000000000000000000000000 7149defe5ac35158ca415ddc83545f6706e946e7 refs/tags/wireless-next-2025-07-24
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmiCBKIACgkQ10qiO8sP
-aADPmQ/9Fd62MQRsfuUPKBGz2np5CzURr9kc1+sUpd4zcMspBLc6X6wTfImEbwHr
-rn1qXjJ7a/vM4Zv79HSnv7ZHC16Y7rcFvjcfOWIKYpoOcHNTm/GNKaHJujomqt3e
-bPjkQd+wD3mPyV9fF94kk5IB8baa0Fp7tNyNZGH/LKnaRGE5Q2r1fCwYLKgN8DX3
-ZgvZSXVl5q8jjYp4ZI3rMhOeAY3Ud6PSmFIIZawbYp0WZZYerj4+3OszMY3qm/Md
-TkiPhtoNENXdQIgX0N7q2BkeHzMUNsXmL1iyKLd0WzaZDsrSK2rZZYFX6UoGjsFn
-UNxYLhoFeaXpczh3WG3SoFEmkI/LQoCZFAdmkcKC8syqE0DENbZ/d65OKbIWU1Yh
-cQiUkRIqlSTpNhblingpR/TXq7BTNwqbKAvsyLE6djIJbK86ZrPENI12yZ6eitV4
-b0z/H8XZQDCWMcbgFsTtKRawq6DrzW0cUg+6pQXQI8udeR9JHpBVs394xhiktiOj
-oT2pPDlMK+1fNCCx97DuYPbEgTx3ScmqZmVahRIdLnPbqFO40dGp6vP4aMgsPel+
-yEdu6y/pMSQhGH6ssz40kRvN3QbZrVr2XI/g/u1ne0b2CdAbWUs/rCRb0Yv2WXbp
-7GrFQzgY6GbsgvXxII8m7qoOsqIQDldyDAJPo1QHazXVlVYeQ08=
-=kzDp
------END PGP SIGNATURE-----
-
---===============7392332792188288527==--
+  - ref: refs/heads/master
+    old: b33d42585ac807d6b60470b78cb3033bf3706258
+    new: d74337682b16439ac25833861f0be1353d323dd0
+    log: |
+         6ed3d08a2220b12a13018ca7ef9e255f264327e8 Merge branch 'core' into next
+         ab1de3f9c69d404dc499349bfc7293d19618eace Merge branch 'samsung/exynos' into next
+         9f341a2aeb1f53297fb1aec74fc069de43be3d00 Merge branch 'intel/vt-d' into next
+         6ae1477fd350fae7378c63d0c4dbcf4487df5769 Merge branch 'amd/amd-vi' into next
+         542c6b5e9da2c0d3cf1e242951a35e1a0fb98c28 Merge branch 'mediatek' into next
+         df61544f83cc8537c33c01b14d1dcdbd692b3897 Merge branch 'ti/omap' into next
+         c4e4c1fecc30cafddc3fc29c4faa2bf869df8a17 Merge branch 'apple/dart' into next
+         aaac6e2f9b647d1edf76e66d808af6c834fae877 Merge branch 'arm/smmu/bindings' into next
+         b9e6e8ae0a5f9edae7cc1b5972a1d3dea9223fe2 Merge branch 'arm/smmu/updates' into next
+         d74337682b16439ac25833861f0be1353d323dd0 Merge branch 'next'
+         
+  - ref: refs/heads/next
+    old: cfa767cfedad903dc8aa2680908d1afaf8d5f472
+    new: b9e6e8ae0a5f9edae7cc1b5972a1d3dea9223fe2
+    log: |
+         6ed3d08a2220b12a13018ca7ef9e255f264327e8 Merge branch 'core' into next
+         ab1de3f9c69d404dc499349bfc7293d19618eace Merge branch 'samsung/exynos' into next
+         9f341a2aeb1f53297fb1aec74fc069de43be3d00 Merge branch 'intel/vt-d' into next
+         6ae1477fd350fae7378c63d0c4dbcf4487df5769 Merge branch 'amd/amd-vi' into next
+         542c6b5e9da2c0d3cf1e242951a35e1a0fb98c28 Merge branch 'mediatek' into next
+         df61544f83cc8537c33c01b14d1dcdbd692b3897 Merge branch 'ti/omap' into next
+         c4e4c1fecc30cafddc3fc29c4faa2bf869df8a17 Merge branch 'apple/dart' into next
+         aaac6e2f9b647d1edf76e66d808af6c834fae877 Merge branch 'arm/smmu/bindings' into next
+         b9e6e8ae0a5f9edae7cc1b5972a1d3dea9223fe2 Merge branch 'arm/smmu/updates' into next
+         
