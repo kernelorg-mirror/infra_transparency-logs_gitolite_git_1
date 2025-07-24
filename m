@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2264829375877283892=="
+Content-Type: multipart/mixed; boundary="===============7165148163784736194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 24 Jul 2025 09:39:02 -0000
-Message-Id: <175334994287.977394.18022714667638381843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 24 Jul 2025 09:40:48 -0000
+Message-Id: <175335004810.980571.8818090337759046802@gitolite.kernel.org>
 
---===============2264829375877283892==
+--===============7165148163784736194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: fcb476990beb55c958db0b5aa2e9ca772d0fc982
-    new: 8d1b02e5d7e3a6d2acffb1f4c094678fda9e3456
+  - ref: refs/heads/tty-testing
+    old: b43cb4ff85da5cf29c4cd351ef1d7dd8210780f7
+    new: 57b4ca42359c63ad61548431c184a7d63efbd0b9
     log: |
-         8d1b02e5d7e3a6d2acffb1f4c094678fda9e3456 usb: atm: cxacru: Merge cxacru_upload_firmware() into cxacru_heavy_init()
+         9e32e4db965fd4e5e95e20b0b02ba03688d7e0de dt-bindings: serial: samsung: add samsung,exynos2200-uart compatible
+         7f8fdd4dbffc05982b96caf586f77a014b2a9353 serial: 8250: fix panic due to PSLVERR
+         57b4ca42359c63ad61548431c184a7d63efbd0b9 dt-bindings: serial: snps-dw-apb-uart: Allow use of a power-domain
          
 
---===============2264829375877283892==
+--===============7165148163784736194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753349983 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1753349939-a68c58ba2414d8f9a4654a16658765ceec8170fb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753350087 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1753350044-01cbae08dd2a53707c55b404e3d926f34e108d54
 
-fcb476990beb55c958db0b5aa2e9ca772d0fc982 8d1b02e5d7e3a6d2acffb1f4c094678fda9e3456 refs/heads/usb-testing
+b43cb4ff85da5cf29c4cd351ef1d7dd8210780f7 57b4ca42359c63ad61548431c184a7d63efbd0b9 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiB/18bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z54P/2RIpWYpFukDQ7mMRXAD
-JkBzNVEozKVcpwfnVHftvQGJjnOkQiP0GDPRC2rCK/DG2viz8BE7iyplV1jjUDh1
-DU6UJWU2/ytPau8Frz+vVkshM9UHPZuWZxKaJlIRBLRG37bxw4z/5Atk1IYCP2U0
-yu0brPwAUXTTmkgN5KSDX+10q304PhmVHu+AKTY4E/DHmzweTbYj8Nw6sLFh7c5l
-1SGmW141lTr4dnW3gV6MisS5PHc2nUaswzbqC1zqXJTsUUTojXAlD2sBCwZSFKe+
-QdtFnzXSF66TYPFEXTUqELXLdxMtvFNV0/GPzktExuOUyXxZS0WjInWxL9BOJ0V3
-h5r9T5oE1AxCHkv77tfo7DLJMKwUR71RXKoxEW5fQWFZRB2m6uDcUr99GA8y/iAg
-RuGZU9I7rwOC+NHGXTZKQnMjHGyOow7QNrUmqicUe1oPs+6RNop+C4WIca+SrbHb
-rhTZFzZFOyn7tY0kNSlmJBb2iQSStvesVnNrTWtKMpeqrEnqWd6R50MGmlwIo/9E
-j+IzOo94l4OvZv2l+LUxF0PFS8GnwJsx7bLNHZzcZrqhhkw2bvdv6aiXzXPgfk1/
-xfmbIBP6iZwyqC2Lat6JrhI5y7aa85EfZvclSIRXjOi3xpM1SwjcPObZ6YQmU3IH
-HTlJwEd+qDe+5T7TH2Qu9k0/
-=xx5C
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiB/8cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RhcQAIbKhpgnBsng0v+VQULq
+0f73EH/xk4Ao09nw77xn+CRbQX9YsoSXj9XnkvAJQPTjSczx3WJwxbo/UnVKebLi
+HICFm2l91KQ7IhBmhERy30RsXSUzjrFLTYHbi7fqs/n3hvsjVWucgqgsQaQtE4nn
+PgpV4Cf/uUwvDyEMTWINe7tk1u+p0C4WjFlXMOBLiIjYJdcpDtbte8+J9Qa0sx7m
+cZyMEuI7mGeL/vDYXlYGdybfHWgdP9zafLnXo1TITZl9x35BOWV77ZwTcoAhsxD/
+r1Wo4MAYlDPj5QWYW8Ay+xnEDPNfksceaAgcNDr4udFkNBr3yTK+lOEAoQELfkMo
+6gPcqVF8lksKpyxoYOCrdy0/3pqbsRWWiOHwFnEJfIvzY9UiFDNgEwN3kJJbcv0a
+nLyz4YIvj4y7bWi0/W37F2lNJ+o3Wa99N+xIMyko1Eta9IHHq0xO3r/Kav5shztD
+zm0Lo6iXhR/E2IvmB7OI6RwVam7VOXjwNYKwIyuV/R2nOWBcEelNd7l7QIlTIw0Y
+aeZplVS8KcGT06GgWyzt7uYEMtxqO7aHx+tLXP5ZIyTsyUp3ZIRJZK3TTgQQobpf
+bIJyAnb63XR7SHxwR7+VQr7cA/CgndhVJAOagui9l+5+P7SNVQNyX0afmgg2YeKg
+zlvm1JUYD89aNEYPNWxjr4PH
+=zzY1
 -----END PGP SIGNATURE-----
 
---===============2264829375877283892==--
+--===============7165148163784736194==--
