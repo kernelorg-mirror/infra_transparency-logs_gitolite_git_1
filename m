@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 24 Jul 2025 09:53:19 -0000
-Message-Id: <175335079988.990639.1980468721788983371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 24 Jul 2025 09:55:09 -0000
+Message-Id: <175335090922.993676.7950183016555804681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/usb-serial-6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 1a7c7d22bade5dfa690a1d1f86306fbc48801424
+  - ref: refs/heads/gpio/for-next
+    old: c32f66d17455970091bd97d7a9cac6f38dfcc423
+    new: cc2f156a33278d9b23b5cf8f738c55c842d0f225
+    log: |
+         cc2f156a33278d9b23b5cf8f738c55c842d0f225 dt-bindings: gpio: rockchip: Allow use of a power-domain
+         
