@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 24 Jul 2025 22:34:26 -0000
-Message-Id: <175339646636.1653028.4433292849282396485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 24 Jul 2025 22:39:05 -0000
+Message-Id: <175339674599.1658082.14816350143039905878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: d89120bb80fc9d4ae7c7485033306acc12e306e5
-    new: 25ea3ecfb5418e5674137a5442727128e23061fe
+  - ref: refs/heads/master
+    old: 33fff922f97da488f1d51be140d51e4f2f8231c8
+    new: 1094f06c9f72caed7b04510d81c01922fe8238a5
     log: |
-         dce0f1f8a3d20284d3e85ac5f8f2f1e8d901107b amdgpu: update dmcub fw for dcn314
-         25ea3ecfb5418e5674137a5442727128e23061fe Merge branch 'amd-staging' into 'main'
+         0dca68c5d6544b161c46184470add4f479beb703 test: Add CPUs count check in wq-aff
+         1094f06c9f72caed7b04510d81c01922fe8238a5 Merge branch 'master' of https://github.com/schlad/liburing
          
