@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 24 Jul 2025 07:21:20 -0000
-Message-Id: <175334168055.862673.15740249090761123944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Thu, 24 Jul 2025 07:29:15 -0000
+Message-Id: <175334215552.867926.6545197105980732807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/for-next
-    old: e1bed9a94da86a7c01b985c2e9a030207269cbc7
-    new: ee235923d205c6de73bf5035f3cdcaee22f3291c
+  - ref: refs/heads/pwm/for-next
+    old: a582469541a3f39bed452c50c5d2744620b6db02
+    new: a02b105fe9f2b82cbd13b13a98c2b9ffae4a7c27
     log: |
-         10d4de4189533840f296ce7e48eac05b985d96bc RDMA/mlx5: Refactor optional counters steering code
-         60c9a34df2d83dee2e6ec7e47c2310293c98f7e4 RDMA/mana_ib: add support of multiple ports
-         ee235923d205c6de73bf5035f3cdcaee22f3291c RDMA/siw: Change maintainer email address
+         28517c8b6275a9cd25a4974d0e4d58eaba465a67 pwm: mc33xs2410: add hwmon support
+         a02b105fe9f2b82cbd13b13a98c2b9ffae4a7c27 hwmon: add support for MC33XS2410 hardware monitoring
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: a582469541a3f39bed452c50c5d2744620b6db02
+    new: a02b105fe9f2b82cbd13b13a98c2b9ffae4a7c27
+    log: |
+         28517c8b6275a9cd25a4974d0e4d58eaba465a67 pwm: mc33xs2410: add hwmon support
+         a02b105fe9f2b82cbd13b13a98c2b9ffae4a7c27 hwmon: add support for MC33XS2410 hardware monitoring
          
