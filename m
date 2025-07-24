@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7604720281852113625=="
+Content-Type: multipart/mixed; boundary="===============0158151920869016029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 24 Jul 2025 05:20:33 -0000
-Message-Id: <175333443344.603832.3513204135571611902@gitolite.kernel.org>
+Date: Thu, 24 Jul 2025 05:23:09 -0000
+Message-Id: <175333458918.605132.10998146199414273670@gitolite.kernel.org>
 
---===============7604720281852113625==
+--===============0158151920869016029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 24947feb0ca7585a6d9ba6fefd33616ab79570b8
-    new: 266267a31f5ff5a3574bce5612de29f0789d6a23
-    log: revlist-24947feb0ca7-266267a31f5f.txt
+    old: 266267a31f5ff5a3574bce5612de29f0789d6a23
+    new: 7ec401d5b972171735754ba4c475bc674108f066
+    log: revlist-266267a31f5f-7ec401d5b972.txt
+  - ref: refs/heads/tip/urgent
+    old: 105e6d157c34642e81f282a458d507e7b91c7197
+    new: 81d1d9c76d06c033468f25cee7a0f0e72a151123
+    log: revlist-105e6d157c34-81d1d9c76d06.txt
 
---===============7604720281852113625==
+--===============0158151920869016029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24947feb0ca7-266267a31f5f.txt
+Content-Disposition: attachment; filename=revlist-266267a31f5f-7ec401d5b972.txt
+
+81d1d9c76d06c033468f25cee7a0f0e72a151123 Merge branch into tip/master: 'timers/urgent'
+c3efa6dc2a40214d41d169fa0f22f19a8d381391 Merge branch into tip/master: 'x86/merge'
+6b37b8cbfad407c95d8c3e0cfed703db6b0093a5 Merge branch into tip/master: 'core/merge'
+273328f3762ed83ccb7f80d64b3e73eb2961c9cf Merge branch into tip/master: 'core/bugs'
+92ef077ec8e5cb9de94e2a371c9cb4acaccc2dcb Merge branch into tip/master: 'irq/core'
+f62ae7574f3d689a69dd9cf2c174595c5ae38063 Merge branch into tip/master: 'irq/drivers'
+fccfbc0b231468cd23e2052a324da598259502b9 Merge branch into tip/master: 'irq/msi'
+ccbd5d5cd0fc193dcadc0eec2c28d344a7ef2d70 Merge branch into tip/master: 'locking/core'
+970f62fcf4889d73dec7d72207f3e1e21d215c4f Merge branch into tip/master: 'locking/futex'
+f8b2e4d928bff09d285a8627ddf72b6fe81f5f30 Merge branch into tip/master: 'perf/core'
+645c050505e95e4329aea9ff33b9ece51fd795fa Merge branch into tip/master: 'sched/core'
+1a7b1bf603feb81238951a09ef041abf7683ecd8 Merge branch into tip/master: 'smp/core'
+9be108276e0e29ae26cfae101fa5191096fae0d0 Merge branch into tip/master: 'timers/cleanups'
+d6c2c567835a83f6682bb9e87542e96702e731c7 Merge branch into tip/master: 'timers/core'
+bd9040535b2d3461bec5ede852cce99f4419f1c7 Merge branch into tip/master: 'timers/ptp'
+1d52e339d0070e2edb402182684b89baf96595ac Merge branch into tip/master: 'timers/vdso'
+fc9ab15f5364efe13897ec6621158d1dcdde2dcd Merge branch into tip/master: 'x86/boot'
+69e671581b65a8f204159e8b15f39736839f9b0a Merge branch into tip/master: 'x86/bugs'
+32025139f58d15ef8d6f3d874ab48103efd299b5 Merge branch into tip/master: 'x86/cleanups'
+ff55a9f0b50e8819b97205e51baf8d84bddf00be Merge branch into tip/master: 'x86/core'
+b638c84f4f0e2cd0add6e32939c90f18c945cb8c Merge branch into tip/master: 'x86/fpu'
+0f932cdc5fb593652fdedc4cf051f4e3a4137146 Merge branch into tip/master: 'x86/kconfig'
+e89c12ab65fd8b72234d16e812e5840bde8d6336 Merge branch into tip/master: 'x86/microcode'
+16c2b1ec6f3b59b5214e4bf52f7a8a86895b445a Merge branch into tip/master: 'x86/platform'
+7ec401d5b972171735754ba4c475bc674108f066 Merge branch into tip/master: 'x86/sev'
+
+--===============0158151920869016029==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-105e6d157c34-81d1d9c76d06.txt
 
 8346c6af27f1c1410eb314f4be5875fdf1579a10 platform/x86: alienware-wmi-wmax: Fix `dmi_system_id` array
 3ebed2fddf6fac5729ffc8c471c87d111b641678 power: supply: core: Add power_supply_get/set_property_direct()
@@ -60,6 +96,6 @@ e09a335a819133c0a9d6799adcf6d51837a7da2d fix the regression in ufs options parsi
 5a53249d149f48b558368c5338b9921b76a12f8c KVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls
 f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 25fae0b93d1d7ddb25958bcb90c3c0e5e0e202bd Merge tag 'drm-fixes-2025-07-24' of https://gitlab.freedesktop.org/drm/kernel
-266267a31f5ff5a3574bce5612de29f0789d6a23 Merge branch 'linus'
+81d1d9c76d06c033468f25cee7a0f0e72a151123 Merge branch into tip/master: 'timers/urgent'
 
---===============7604720281852113625==--
+--===============0158151920869016029==--
