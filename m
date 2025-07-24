@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8307101058322735521=="
+Content-Type: multipart/mixed; boundary="===============3800731042470182050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 24 Jul 2025 07:06:50 -0000
-Message-Id: <175334081033.799269.16132113187976656154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 24 Jul 2025 07:12:13 -0000
+Message-Id: <175334113314.853771.8183285230896948113@gitolite.kernel.org>
 
---===============8307101058322735521==
+--===============3800731042470182050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 895d0e6fbc29fa4d314362d1a5c73d3db774e7e3
-    new: 79ff789b051e57fd709a26e9cd75054b3ed6aeb6
+    old: d10113528d2c55707b5856f1c7a398fbb128ca52
+    new: 5534cf5793aa4142b9b3fc1d4c6605e4dba337ba
     log: |
-         819a49cf8273ee998e667bf0c6f8e83db3b94201 strip new mbox files.
-         79ff789b051e57fd709a26e9cd75054b3ed6aeb6 update entries based on new stable releases
+         5534cf5793aa4142b9b3fc1d4c6605e4dba337ba 5.4-stable patches
          
 
---===============8307101058322735521==
+--===============3800731042470182050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753340852 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1753340809-95be9bc4f4100ce48748093ab6173ffbdf779e90
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753341174 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1753341128-39ad2be31ef6c7768c5a078d322ba761ceda412d
 
-895d0e6fbc29fa4d314362d1a5c73d3db774e7e3 79ff789b051e57fd709a26e9cd75054b3ed6aeb6 refs/heads/master
+d10113528d2c55707b5856f1c7a398fbb128ca52 5534cf5793aa4142b9b3fc1d4c6605e4dba337ba refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiB27QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VrMP/iHzdJl/ftdNtggbJnwP
-b+DZ3/ssI/R08AweQLLfNIwQHG+1p1FioBOe3AP5s3ChTx+L7ZaPsOgN36bTjdWB
-Qvd+5MylmiEPG1IKKOcK58qy4fPgPcdrZTYEZ9h2BFVL8KwJ5jco9/brj2wozlb7
-jUFyFgXIy70QXOXWAWVu6AmvTp9O/UgMMGYwCqwGJh8hW86/rlhVpW+OdKNGB7bJ
-4H0scfUW16VOZDVLJrtYi0nRu7Z7NX4rqIxDr/3fsXFB1SxuZ7HsLoDKvMmKJRsk
-/0mf/8QKhy6knUjgspFDVY2yo3Ih4pKLi92hpIdcRoa58BflCgGO2dG+GT2RfElj
-SGb6UU5ny7tMhT+cQKuOn+2RgXZGtQFZUBFQGj/xUF96k5XpQPtDePQhbka3Kat2
-yNGU3w7fAMR7y7cWAUJwp0Jks9WcxHK0PvoGnnEv12zWWqikajsw9ZPdlOanPCH7
-g2RtmsCGhe0V3ZDY3iUIwcs9EAhDYe7NL2VOKBWONH9BlYS/hPx3soq+IAwhxCco
-ERUbfulOigrlmqLi6AJYQtbdO+BkYcQDH2RHkGFBk5GLjpyE6zSdzbpV+I54a/GB
-Ju98cKn662gW7UFLDOiZaAIIwWO2Jc+UP/VqXtB+vdo35ps8hS5MRo7eyzRcdKeT
-zRrYCL9WBnuypyGihO1fjAf9
-=48OY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiB3PYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UTEQAKANHhd2mVVZkscJ/UAU
+WT7WfkYMB//xvIzEMYOH/L/6mFowd19KSR51gkt/LinZVhZ7ZyLCjjcAEu42SCyN
+7BKVTBx5U1Hk1s9AdmC0dMnykEINukrDimJziWrpVs7N1tb5IqSyBQTmkU57bUz/
+7O+Ul23SG4Gt4Ezihp8LiQkb/LB+f+lNMC1+fWEGH4rXyaaYXKCB9LQstaHHSIk8
+YAqNaHXx0WD8ZTtiq8ieTO/ewf5PVNHRldpbJkQZZYx3ci7NCMvuhViKbxrgO0MU
+rNGT/+TVHwHd5x5KmEm6VlsB6XkK9B1CfaewJRQcYV/op8nU3j3fCA4e9v9WARdQ
+qLdlVwJ4X5+XMJkyIWPUOIsiOM5IXSsUl6RiMb26V/TGUbHbAcMJPa3Jco+hYa9T
+a8TC9+yXzdzBCyfaHnlVBlpH6LROPDPPS7pP/zk74q7hWkYey9Khgy6dLmLfpGgh
+P53l/boMVc/a5qFA1cQRla/tGJR+QM1BrG2VqvIDE0ySqA5+OizqU4wZuSuRV0dW
+Qd6k3lqOgW2BNRCrjnBfFfmu9CB2OZ+roI7jo35/X+sPMqWbSuAz2Vi80/6VAJvf
+pX30TDvdVjSvl05fIb6ot7PfK0ghPac4uhDKlhyUJlgxcUMakDm8Xo+MSc0ItHq7
+bCqqzmLCEYLpjMNQZBth8p8R
+=noVJ
 -----END PGP SIGNATURE-----
 
---===============8307101058322735521==--
+--===============3800731042470182050==--
