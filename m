@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 24 Jul 2025 12:32:03 -0000
-Message-Id: <175336032368.1131302.8307541660745636522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 24 Jul 2025 12:39:56 -0000
+Message-Id: <175336079673.1137131.2542756799941151002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: d7f88454f02fca5ea3ec3517ab4e57cdcd65cb3d
-    new: 9446bd8ae44a5a0e0744a8694ca5766f8233898e
+  - ref: refs/heads/testing
+    old: d6ba3834fcdf7d31e99d8297a8d01c02039033c1
+    new: 4cd9c7721354a762a928be8ccae1d01eaed921a6
     log: |
-         9446bd8ae44a5a0e0744a8694ca5766f8233898e Merge tag 'asoc-v6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-next
-         
-  - ref: refs/heads/master
-    old: 8991f063447b0e3d288979872037b06952915507
-    new: 491fdddc2ed0085cc4eaa20958fad2d9fcca9cb9
-    log: |
-         9446bd8ae44a5a0e0744a8694ca5766f8233898e Merge tag 'asoc-v6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-next
-         491fdddc2ed0085cc4eaa20958fad2d9fcca9cb9 Merge branch 'for-next'
+         4cd9c7721354a762a928be8ccae1d01eaed921a6 iio: light: vl6180: remove space before \n newline
          
