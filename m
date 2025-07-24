@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5730254900253544208=="
+Content-Type: multipart/mixed; boundary="===============1166903618136848962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 24 Jul 2025 15:41:03 -0000
-Message-Id: <175337166313.1296732.7573006308643416689@gitolite.kernel.org>
+Date: Thu, 24 Jul 2025 15:41:05 -0000
+Message-Id: <175337166552.1296867.11581690425453834349@gitolite.kernel.org>
 
---===============5730254900253544208==
+--===============1166903618136848962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 56613001dfc9b2e35e2d6ba857cbc2eb0bac4272
     new: 94619ea2d933a2efeea5af63ec909bf2f1519a0e
     log: revlist-56613001dfc9-94619ea2d933.txt
 
---===============5730254900253544208==
+--===============1166903618136848962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ d4de8bffbef4a7e4ad14b9fd2ff8e2d0e06b3fa5 sched: Dump configuration and statistic
 8aad37d16cffb6c0940d9b213456a2733a786f57 Merge branch 'dualpi2-patch'
 94619ea2d933a2efeea5af63ec909bf2f1519a0e Merge tag 'ipsec-next-2025-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 
---===============5730254900253544208==--
+--===============1166903618136848962==--
