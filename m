@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2601878827220191093=="
+Content-Type: multipart/mixed; boundary="===============0486353199627239034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 24 Jul 2025 16:07:33 -0000
-Message-Id: <175337325340.1319699.4440113503703172837@gitolite.kernel.org>
+Date: Thu, 24 Jul 2025 16:07:36 -0000
+Message-Id: <175337325624.1319837.1753264809152519486@gitolite.kernel.org>
 
---===============2601878827220191093==
+--===============0486353199627239034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: 1081565b004aac108c82bcdb7df163a8b961437b
-    new: 1d43984713b9f37dff6a11c2f044d658108ab881
-    log: revlist-1081565b004a-1d43984713b9.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 7d6502c5df597422592565e6bd797a0cf9787f18
+    new: 15acf6668fabf04794595c85b212a387cdc978c9
+    log: revlist-7d6502c5df59-15acf6668fab.txt
 
---===============2601878827220191093==
+--===============0486353199627239034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1081565b004a-1d43984713b9.txt
+Content-Disposition: attachment; filename=revlist-7d6502c5df59-15acf6668fab.txt
 
 eb5bb65ec44219e21be9bbae1155b75b0b0abe94 NFSD: issue READs using O_DIRECT even if IO is misaligned
 e8750bce2270ca6e04ea07d8b70f77e8ed8e3f62 filemap: Add a helper for filesystems implementing dropbehind
@@ -43,5 +43,25 @@ a796e4869c1ca0fc4053332a0a99e92be15cf3d5 nfs/localio: add nfsd_file_dio_alignmen
 75ea64d0d1673af85c7560bcf127e4cb38a746e1 nfs/localio: fallback to NFSD for misaligned O_DIRECT READs
 2412d8f5ac2d3009eabd4c6e40d645af0e694e2e nfs/direct: add misaligned READ handling
 1d43984713b9f37dff6a11c2f044d658108ab881 nfs/direct: add misaligned WRITE handling
+58f7bf13232b3270723c89a029e5b724743c882b Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+4e7a7b43c2a653c89a3261e41787a489918d93b5 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+1f2cdac3336930e42a114554a429d26131592cc4 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+fa8003029913607ba69ee1809ed0fd0434bc8ac7 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+e79ad95a00617ce49949b1af78d406edcc2815d5 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+76630a66edb0a0851b5e7c307f9156d467bb08b3 Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+e4e8ce17325c79ccb24cc0ccea8faeb6a1309aed Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+c486073fc172d0664b07747343e6f2b14e0f12ef Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
+6e5110d3613c1bc9399984dd101926849b68fd8e Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+93ff541dca3c734c30fa557d47d6d23885954206 kernel-6.12.24-1
+204b97abf7aee0aa85105483692178165010be25 kernel-6.12.24-2
+2fcec1cf63b7eb89ad98fde3a835b7601512aa03 kernel-6.12.24-3
+46d93edfb1b49f3088ecf60e9acadcde85f7543b kernel-6.12.24-4
+67c742c6cf6dc5082adb4b5de53b58e8fa5432e7 kernel-6.12.24-5
+2a5e7a803b386328291489b3f6972a2013ade79a kernel-6.12.24-6
+860b1256d08b242faeb116b04d0f2e964f887c96 kernel-6.12.24-7
+4fff3b004b140891da7f1fa1051a363afe932d11 kernel-6.12.24-8
+098879bfd4419e0125d64f0bcd15925b399f9a59 kernel-6.12.24-9
+0d825cf2b6bb8661e1a47f0e8ab5909346d5d992 kernel-6.12.24-10
+15acf6668fabf04794595c85b212a387cdc978c9 kernel-6.12.24-11
 
---===============2601878827220191093==--
+--===============0486353199627239034==--
