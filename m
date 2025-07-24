@@ -1,61 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0396704120666014026=="
+Content-Type: multipart/mixed; boundary="===============7973145716681424822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 24 Jul 2025 10:40:23 -0000
-Message-Id: <175335362376.1033509.4061990317248258788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 24 Jul 2025 10:43:00 -0000
+Message-Id: <175335378084.1034614.15682580028746823422@gitolite.kernel.org>
 
---===============0396704120666014026==
+--===============7973145716681424822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/usb-next
-    old: fcb476990beb55c958db0b5aa2e9ca772d0fc982
-    new: ea83bf05873fa6301267324803ad592365e6c0cb
-    log: |
-         83e927b50591cd8ae6f70c8e7401c9a64b3a8484 USB: serial: ftdi_sio: use new GPIO line value setter callbacks
-         bdf2ab177e2fca85394fce86629f5e35aa7fa33a USB: serial: cp210x: use new GPIO line value setter callbacks
-         ad1244e1ce18f8c1a5ebad8074bfcf10eacb0311 USB: serial: option: add Foxconn T99W709
-         8d1b02e5d7e3a6d2acffb1f4c094678fda9e3456 usb: atm: cxacru: Merge cxacru_upload_firmware() into cxacru_heavy_init()
-         acd4692a84246cb37a52051b830fdd2170717a55 Merge tag 'usb-serial-6.17-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-         ea83bf05873fa6301267324803ad592365e6c0cb Merge tag 'usb-serial-6.17-rc1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-         
+  - ref: refs/heads/main
+    old: 89fd905dab912a5712149ec5c06d251ceaedf743
+    new: 291d5dc80eca1fc67a0fa4c861d13c101345501a
+    log: revlist-89fd905dab91-291d5dc80eca.txt
 
---===============0396704120666014026==
+--===============7973145716681424822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-89fd905dab91-291d5dc80eca.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753353665 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1753353622-c97c980a2ac61834a428d56a056edb6a23f8f72d
+94d077c331730510d5611b438640a292097341f0 xfrm: state: initialize state_ptrs earlier in xfrm_state_find
+7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2 xfrm: state: use a consistent pcpu_id in xfrm_state_find
+766f6a784bdfd0747c66e40102e53c48bb89e135 Merge branch 'xfrm: fixes for xfrm_state_find under preemption'
+c0f21029f123d1b15f8eddc8e3976bf0c8781c43 xfrm: always initialize offload path
+3ac9e29211fa2df5539ba0d742c8fe9fe95fdc79 xfrm: Set transport header to fix UDP GRO handling
+2ca58d87ebae20906cf808ef813d747db0177a18 xfrm: ipcomp: adjust transport header after decompressing
+a90b2a1aaacbcf0f91d7e4868ad6c51c5dee814b xfrm: interface: fix use-after-free after changing collect_md xfrm interface
+b441cf3f8c4b8576639d20c8eb4aa32917602ecd xfrm: delete x->tunnel as we delete x
+2a198bbec6913ae1c90ec963750003c6213668c7 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+28712d6ed32028b0f2e0defe6681411496971ca3 Merge branch 'ipsec: fix splat due to ipcomp fallback tunnel'
+291d5dc80eca1fc67a0fa4c861d13c101345501a Merge tag 'ipsec-2025-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 
-fcb476990beb55c958db0b5aa2e9ca772d0fc982 ea83bf05873fa6301267324803ad592365e6c0cb refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiCDcEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S0gQALlYmV+9w3HlGaPPagf3
-2IR4UMBVj80uvl0Q8nzWGVTvWSAgJVbUYJQ1fMb7bEFKkDfAPsUUu+C3knFm1Sxp
-voisMxMqU8PIIEfQuSYWpcwD7a0YbRmkXlca9zMtpDiE1+IvG/UR2oQL8jkJSUOl
-GjV3gZLPkfJbXkWTHyU+BaYy/fY2rZ25YTJ4GZv28MKvT4MZMf7aMvM2qvUQ6Voq
-ZEbhLyFeWytrsa0EFEj0wOyv7fdMgLb6BHKX/8RgzI/t84ayntKAXS2h6MsAaRIl
-C3/7TvwtgiFLYHnZX7ctT77OB5bUMMaj8vKo3l4q7TRYk/nhcp8GEEbU6PDjEfSA
-QomySu+b/c43TM2owqgmwX/4t5JtdxC5nMe2jQfbDIW9SRpbS16Za3GDfgW7M8+i
-QtHNFukj3qhEpxa2e95Tbep62SAN5H1574z/m7qeyaPXgNNjG0njCQ6rIYF5uykh
-uZurkfLJ/s6ph0tJmowU8SnwfCFYJDqNp8m6Wr9I2ReqBAFVdOuSukMq6X6tBMCX
-At3YZlnpPAu4W+mNIsb7U4s2+SU5M9VWeNl3B7sCTA/MRes29ILbD7QInGu0scmN
-h1y9WClFIvC+UKPICewwz8AjorFpBDtB1+8vLwbeBAb6JJ61pnEtfETG/YualahK
-yO4Yx/xNdEXm7Fy7ZqHBWScR
-=zW10
------END PGP SIGNATURE-----
-
---===============0396704120666014026==--
+--===============7973145716681424822==--
