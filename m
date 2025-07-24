@@ -1,141 +1,124 @@
-Content-Type: multipart/mixed; boundary="===============4652108266364186542=="
+Content-Type: multipart/mixed; boundary="===============8625751057702483177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 24 Jul 2025 22:44:21 -0000
-Message-Id: <175339706171.1663559.5841612186058797647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 24 Jul 2025 22:49:22 -0000
+Message-Id: <175339736201.1668111.10704485962926620537@gitolite.kernel.org>
 
---===============4652108266364186542==
+--===============8625751057702483177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/seen
-    old: 56843d637b40564512c69acf17fae673a85af86e
-    new: 35da08ad3027608bc9e142750fe342abb592b324
-    log: revlist-56843d637b40-35da08ad3027.txt
-  - ref: refs/notes/amlog
-    old: 1919af5671702269113717935a46dbbe7ea351d6
-    new: 00e2ca4c374be50cc933da378a97356e197962fd
-    log: revlist-1919af567170-00e2ca4c374b.txt
+  - ref: refs/heads/master
+    old: 89be9a83ccf1f88522317ce02f854f30d6115c41
+    new: dd9c17322a6cc56d57b5d2b0b84393ab76a55c80
+    log: revlist-89be9a83ccf1-dd9c17322a6c.txt
+  - ref: refs/heads/io_uring-chan
+    old: 0000000000000000000000000000000000000000
+    new: 6973fd403812560978b8d9919848cd46b78fdc4d
 
---===============4652108266364186542==
+--===============8625751057702483177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56843d637b40-35da08ad3027.txt
+Content-Disposition: attachment; filename=revlist-89be9a83ccf1-dd9c17322a6c.txt
 
-9b2527caa4886dd9c7a1e4fb943f7c6484542c45 CodingGuidelines: document test balloons in flight
-bc235a68c87d92dc15e2d656a004e9b20042405f test-delta: handle errors with die()
-760dd804bb40b613396d25a0905db7fe4a52b00f test-delta: use strbufs to hold input files
-0f1b33815b553dd457f8e38e3768b73cf9227082 test-delta: close output descriptor after use
-5dd5c4e34561ccbc982512c27926a21ddca5e1e5 t/unit-tests: implement clar specific reftable test helper functions
-ed5dcbf2f06749ccc541f73c52ee23963781108b t/unit-tests: convert reftable basics test to use clar test framework
-a83bf04d8bb635d17888e4d502f0ce73a5d5f0a3 t/unit-tests: convert reftable block test to use clar
-c7784ba6002e020472bdff55995cc1f6f252f09b t/unit-tests: convert reftable merged test to use clar
-a0aaa85c0c70a0ace450351c525dcf3dcb2b0f20 t/unit-tests: convert reftable pq test to use clar
-18a992b7b7f213deeede5aa923f13f6aee4e206e t/unit-tests: convert reftable table test to use clar
-ee0a88dadb08320d88fab0e3ad2dd17ecfee8496 t/unit-tests: convert reftable readwrite test to use clar
-2596bef5841ffa6a1454e3e5e6249de2fb695072 t/unit-tests: convert reftable record test to use clar
-1cfd187fc12b1c82e4e0d0c86c580ee1e2d7e0ba t/unit-tests: convert reftable stack test to use clar
-9bbc981c6f27e00d050d4f70b0293f56e39b019a t/unit-tests: finalize migration of reftable-related tests
-1fa06ceddf1ea01bd85e277471ba79330666f037 submodule: prevent overwriting .gitmodules on path reuse
-bb10dcf5730356b9ef70d40eca2335e9d406954a submodule: skip redundant active entries when pattern covers path
-9305027adef9b8e8de8b2bee11dd442c7e579490 fixup! submodule: prevent overwriting .gitmodules on path reuse
-ba6865e30cc06363c7ebf91504289dee71f591a7 Documentation/git-reflog: convert to use synopsis type
-5521fba81a31b26e9800e4470265410fc67b26be builtin/reflog: improve grouping of subcommands
-93ec68b43edf98d18af292f9130845c39642089a refs: export `ref_transaction_update_reflog()`
-a431a70445c621ff589149938d6e5800fa3cfba1 builtin/reflog: implement subcommand to write new entries
-b0eb455093eccf968b4efcd9baf03cb4ba2d9234 ident: fix type of string length parameter
-dd4d76e1cce4e236648ff0d93a0abeedce067b00 refs: fix identity for migrated reflogs
-850a995996e457dd67c688be387ac641e0b994aa refs: stop unsetting REF_HAVE_OLD for log-only updates
-51790657d4c3d3875199edca6153373e27382da9 refs: fix invalid old object IDs when migrating reflogs
-5ed8c5b465aaeae967875d043187668bdc0dfe54 fixup! submodule: skip redundant active entries when pattern covers path
-9201261a70b5d325b344036de15901a4064d66c0 ref-cache: set prefix_state when seeking
-897165a98d65fc512a6a3dbb55d144ddb25bc424 ref-cache: use 'size_t' instead of int for length
-69ba63ce6d86db78e3176af0964ab16b62b3d237 for-each-ref: fix documentation argument ordering
-8dcacdf351a4dfc211059b22d8c49a88f0f9c3e9 for-each-ref: reword the documentation for '--start-after'
-d5dbb907ae2aa2d9671227ed4a8663dfbda4dbc8 t6302: add test combining '--start-after' with '--exclude'
-1085d0a0b3016a39dcb433cfbfb5b366cc87b989 ref-filter: use REF_ITERATOR_SEEK_SET_PREFIX instead of '1'
-5c8f9fb45d2d38c6dd6ae555eaa233a7c4832c83 Merge branch 'pw/adopt-c99-bool-officially' into jch
-647d775284818fca40d6b47fa105d2b6582f3015 Merge branch 'kl/test-installed-fix' into jch
-498abd999101a8c6084691bb51ce26afb6e41be6 Merge branch 'pw/config-kvi-remove-path' into jch
-fbd47ae506b8fa82a4b18ac8aded4dd6d9c561c5 Merge branch 'ss/compat-bswap-revamp' into jch
-254a68db240217baf99cf3a15a68c09931be7602 Merge branch 'rj/meson-libexecdir-fix' into jch
-7a37e6b8591583875bdd0d38af3deeac0a9d054f Merge branch 'bc/contribution-under-non-real-names' into jch
-57ca59a93122502e83c85bc6d1611930c2a8bebc ###
-79dd410c884404dc60321ddcd96977458bdb727d Merge branch 'kn/for-each-ref-skip' (early part) into jch
-fdba094e4d8d6ad3d3c013c24a44f93e0ef80e1d Merge branch 'rs/pop-recent-commit-with-prio-queue' into jch
-43cf2cbd25193e83d11a6e3b55ce655dc3074186 Merge branch 'ac/auto-comment-char-fix' into jch
-53d13b36903eb1ce237d542aa7d0ceff1888b322 Merge branch 'jc/rev-list-info-cleanup' into jch
-0d200614268d0c1a518fba5ef4eeaa16c5afe89e Merge branch 'jk/revision-no-early-output' into jch
-29af8e27d4b69b092d7d3e8801ace43422aa94af Merge branch 'jc/do-not-scan-argv-without-parsing' into jch
-3c2221755c17e8906f2b7cd1d4a9fc2211072577 Merge branch 'jk/unleak-reflog-expire-entry' into jch
-b429fbf61ae85e726f3db8379859f8a23ce86f0f ### match next
-28d0244fc2daca0cb30240d4051915275bdd8816 Merge branch 'ag/send-email-imap-sent' into jch
-558ba0212b02802163dad264449358877ca47290 Merge branch 'jc/ci-print-test-failures-fix' into jch
-7d8a9f20bc27772208b51ff74606c22d3655db78 Merge branch 'jb/t7510-gpg-program-path' into jch
-407191c6b2de73659538367d035b304ea5937a65 Merge branch 'kn/for-each-ref-skip' into jch
-dd43769765ac3f326dac15d14a0f67a8d411b0e0 Merge branch 'cb/meson-avoid-broken-macos-pcre2' into jch
-5acdf9d8150aa97bd704bf8dd02551c81db8cfce Merge branch 'ps/object-store-midx' into jch
-f511ca9b0f22f57e3306870204121cda7ac8be7c Merge branch 'ag/imap-send-list-folders-doc' into jch
-23c6493224f815baea2263bf0e949d3e54769076 Merge branch 'ow/rebase-verify-insn-fmt-before-initializing-state' into jch
-4e91ede35e5032d2604bc59bcb1ad746b58d8236 Merge branch 'ly/pull-autostash' into jch
-9e58a1961754eaf85d744becfa74a0fafac0b62b Merge branch 'ps/config-wo-the-repository' into jch
-9382d50655590fc28f5eebea8da94d867afea43e Merge branch 'jc/document-test-balloons-in-flight' into jch
-6c3d62c0e8d56abf726743364ef27303f3b1f31e Merge branch 'sk/reftable-clarify-tests' into jch
-548dee8f7eb2121e0a5624f7eeed7f9ba99423a9 Merge branch 'tb/prepare-midx-pack-cleanup' into jch
-2ef95cf584ca1159e203034b57f57d9af77875cc Merge branch 'lm/add-p-context' into jch
-14d03774685b311127435812a86eee2820278579 Merge branch 'hl/test-helper-fd-close' into jch
-1682a4663c08220d6e19f6a94639a2a660a80bc6 Merge branch 'ps/reflog-migrate-fixes' into seen
-996ae55235a71ae58c6a85eb45ce3742773af270 Merge branch 'en/ort-rename-fixes' into seen
-fb29e48228f9a008e6ff71370b489ebbafc3a40e Merge branch 'cc/promisor-remote-capability' into seen
-7a2573bef1361b59a3cc67352b9cb64f02ba150a Merge branch 'ps/object-file-wo-the-repository' into seen
-f01ef0b3c6e4af542b747676c77397862052be99 Merge branch 'pw/3.0-commentchar-auto-deprecation' into seen
-f7241c6677b92136bbeff25d9dbf369aed09200d Merge branch 'tc/last-modified' into seen
-b5af294af4def0417b884111660ec3d4d19d0f07 Merge branch 'kj/renamed-submodule' into seen
-1cfb24653561c30a9547af4e2dd18898863683ff Merge branch 'ac/deglobal-sparse-variables' into seen
-60437bc62f1acc5f85bbfd1de96b08c2cec159f6 Merge branch 'ds/sparse-checkout-clean' into seen
-aa20c1089ec46bbd79e7ce8231ed8b67988da3f7 Merge branch 'lo/repo-info' into seen
-35da08ad3027608bc9e142750fe342abb592b324 Merge branch 'jt/switch-restore-no-longer-experimental' into seen
+94d077c331730510d5611b438640a292097341f0 xfrm: state: initialize state_ptrs earlier in xfrm_state_find
+7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2 xfrm: state: use a consistent pcpu_id in xfrm_state_find
+766f6a784bdfd0747c66e40102e53c48bb89e135 Merge branch 'xfrm: fixes for xfrm_state_find under preemption'
+c0f21029f123d1b15f8eddc8e3976bf0c8781c43 xfrm: always initialize offload path
+3ac9e29211fa2df5539ba0d742c8fe9fe95fdc79 xfrm: Set transport header to fix UDP GRO handling
+2ca58d87ebae20906cf808ef813d747db0177a18 xfrm: ipcomp: adjust transport header after decompressing
+a90b2a1aaacbcf0f91d7e4868ad6c51c5dee814b xfrm: interface: fix use-after-free after changing collect_md xfrm interface
+8346c6af27f1c1410eb314f4be5875fdf1579a10 platform/x86: alienware-wmi-wmax: Fix `dmi_system_id` array
+3ebed2fddf6fac5729ffc8c471c87d111b641678 power: supply: core: Add power_supply_get/set_property_direct()
+a5f354232118751fe43be6ac896f8d6e7d7418b5 power: supply: test-power: Test access to extended power supply
+d4e83784b2a9be58b938d55efb232d2751c4cab4 platform/x86: dell-ddv: Fix taking the psy->extensions_sem lock twice
+44e6ca8faeeed12206f3e7189c5ac618b810bb9c platform/mellanox: mlxbf-pmc: Remove newline char from event name input
+f8c1311769d3b2c82688b294b4ae03e94f1c326d platform/mellanox: mlxbf-pmc: Validate event/enable input
+0e2cebd72321caeef84b6ba7084e85be0287fb4b platform/mellanox: mlxbf-pmc: Use kstrtobool() to check 0/1 input
+9533b789df7e8d273543a5991aec92447be043d7 platform/x86: ideapad-laptop: Fix FnLock not remembered among boots
+e10981075adce203eac0be866389309eeb8ef11e platform/x86: ideapad-laptop: Fix kbd backlight not remembered among boots
+b441cf3f8c4b8576639d20c8eb4aa32917602ecd xfrm: delete x->tunnel as we delete x
+2a198bbec6913ae1c90ec963750003c6213668c7 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+c86f7bb92f1ffbacb18634356bf0573047eab6a0 lenovo-wmi-hotkey: Avoid triggering error -5 due to missing mute LED
+bc48d79a1829ac5a79cc3d1eb8bf30c0ae9b3bcd platform: arm64: huawei-gaokun-ec: fix OF node leak
+2bfe3ae1aa45f8b61cb0dc462114fd0c9636ad32 platform/x86: Fix initialization order for firmware_attributes_class
+dbfb567f4ae86f4acc4644984ec5b59086060b99 platform/x86: alieneware-wmi-wmax: Add AWCC support to more laptops
+aef9da333823f70b074e36a94c6e85f5c55e5477 platform/x86: dell-lis3lv02d: Add Precision 3551
+28712d6ed32028b0f2e0defe6681411496971ca3 Merge branch 'ipsec: fix splat due to ipcomp fallback tunnel'
+95a16160ca1d75c66bf7a1c5e0bcaffb18e7c7fc drm/amdgpu: Reset the clear flag in buddy during resume
+15f77764e90a713ee3916ca424757688e4f565b9 drm/sched: Remove optimization that causes hang when killing dependent jobs
+0ecfb8ddb953605cadd806de5b62e632c8e0e49e Revert "drm/virtio: Use dma_buf from GEM object instance"
+1e9d2aed7c2248bc5ba7d0dfea4fcc0b2f80b4f7 Revert "drm/vmwgfx: Use dma_buf from GEM object instance"
+bb7f4972a6ff9a537b87e1b0ecf0e561f2761dd3 Revert "drm/etnaviv: Use dma_buf from GEM object instance"
+fb4ef4a52b79a22ad382bfe77332642d02aef773 Revert "drm/prime: Use dma_buf from GEM object instance"
+2712ca878b688682ac2ce02aefc413fc76019cd9 Revert "drm/gem-framebuffer: Use dma_buf from GEM object instance"
+6d496e9569983a0d7a05be6661126d0702cf94f7 Revert "drm/gem-shmem: Use dma_buf from GEM object instance"
+1918e79be908b8a2c8757640289bc196c14d928a Revert "drm/gem-dma: Use dma_buf from GEM object instance"
+6bea85979d05470e6416a2bb504a9bcd9178304c ASoC: mediatek: mt8365-dai-i2s: pass correct size to mt8365_dai_set_priv
+21c8ed9047b7f44c1c49b889d4ba2f555d9ee17e ALSA: hda/realtek - Add mute LED support for HP Victus 15-fa0xxx
+bddbe13d36a02d5097b99cf02354d5752ad1ac60 bus: fsl-mc: Fix potential double device reference in fsl_mc_get_endpoint()
+ee9f3a81ab08dfe0538dbd1746f81fd4d5147fdc dpaa2-eth: Fix device reference count leak in MAC endpoint handling
+96e056ffba912ef18a72177f71956a5b347b5177 dpaa2-switch: Fix device reference count leak in MAC endpoint handling
+6e86fb73de0fe3ec5cdcd5873ad1d6005f295b64 net: ti: icssg-prueth: Fix buffer allocation for ICSSG
+3afa3ae3db52e3c216d77bd5907a5a86833806cc net/mlx5: Fix memory leak in cmd_exec()
+5b4c56ad4da0aa00b258ab50b1f5775b7d3108c7 net/mlx5: E-Switch, Fix peer miss rules to use peer eswitch
+81e0db8e839822b8380ce4716cd564a593ccbfc5 Merge branch 'mlx5-misc-fixes-2025-07-17'
+9744ede7099e8a69c04aa23fbea44c15bc390c04 ALSA: hda/realtek - Add mute LED support for HP Pavilion 15-eg0xxx
+491254fff9a8dcb4af99bf2fb40f1e63a7257fd3 drm/nouveau/nvif: fix null ptr deref on pre-fermi boards
+e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and SBL drivers
+0503ac474a3d57b62ea40c7720058ae42668d948 ASoC: SOF: Intel: PTL: Add the sdw_process_wakeen op
+d312962188dd1f682b0351ccf9933334738ac462 ASoC: rt5650: Eliminate the high frequency glitch
+9e55f1192648a5b327f03c60e411126b3d19c5c5 ASoC: SDCA: correct the calculation of the maximum init table size
+964ebc07c546c76b78aea5b6dff0d02c602d4793 Merge tag 'platform-drivers-x86-v6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+ab16122115327b2a602595f539cae7e39a331d0e arm64: kvm, smccc: Fix vendor uuid
+50b2af451597ca6eefe9d4543f8bbf8de8aa00e7 i40e: report VF tx_dropped with tx_errors instead of tx_discards
+5a0df02999dbe838c3feed54b1d59e9445f68b89 i40e: When removing VF MAC filters, only check PF-set MAC
+4ff12d82dac119b4b99b5a78b5af3bf2474c0a36 ice: Fix a null pointer dereference in ice_copy_and_init_pkg()
+536fd741c7ac907d63166cdae1081b1febfab613 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
+61114910a5f6a71d0b6ea3b95082dfe031b19dfe e1000e: ignore uninitialized checksum word on tgp
+37848a456fc38c191aedfe41f662cc24db8c23d9 selftests: mptcp: connect: also cover alt modes
+fdf0f60a2bb02ba581d9e71d583e69dd0714a521 selftests: mptcp: connect: also cover checksum
+53b2fb6b05cd343aa22367857c0e97aef72e8087 Merge branch 'selftests-mptcp-connect-cover-alt-modes'
+18ff09c1b94fa1584b31d3f4e9eecdca29230ce5 net: bcmasp: Restore programming of TX map vector register
+6c4a92d07b0850342d3becf2e608f805e972467c net: appletalk: Fix use-after-free in AARP proxy probe
+b03f15c0192b184078206760c839054ae6eb4eaa gve: Fix stuck TX queue for DQ queue format
+48915162b5ad598bc6fbf8959683f43664b4f6f1 ALSA: usb-audio: qcom: Adjust mutex unlock order
+cf074eca0065bc5142e6004ae236bb35a2687fdf net/sched: sch_qfq: Avoid triggering might_sleep in atomic context in qfq_delete_class
+c1f3f9797c1f44a762e6f5f72520b2e520537b52 can: netlink: can_changelink(): fix NULL pointer deref of struct can_priv::do_set_mode
+270b329f7ec4e4e8dca6735bd1fe286a8e39b82d Revert "drm/nouveau: check ioctl command codes better"
+15a7ca747d9538c2ad8b0c81dd4c1261e0736c82 drm/bridge: ti-sn65dsi86: Remove extra semicolon in ti_sn_bridge_probe()
+d42e6c20de6192f8e4ab4cf10be8c694ef27e8cb arm64/entry: Mask DAIF in cpu_switch_to(), call_on_irq_stack()
+931837cd924048ab785eedb4cee5b276c90a2924 ALSA: hda/realtek: Fix mute LED mask on HP OMEN 16 laptop
+71c33df471a6ed40cc3ec7902cf889d813219b07 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+dca56cc8b5c3bee889d6cb0d2ee3e933b21cb4ec selftests: netfilter: tone-down conntrack clash test
+67e9d0b40bd7990d6eab63b5afedea3c17578993 Merge tag 'linux-can-fixes-for-6.16-20250722' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+696e123aa36bf0bc72bda98df96dd8f379a6e854 ASoC: mediatek: common: fix device and OF node leak
+e09a335a819133c0a9d6799adcf6d51837a7da2d fix the regression in ufs options parsing
+01a412d06bc5786eb4e44a6c8f0f4659bd4c9864 Merge tag 'pull-ufs-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+337666c522b9eca36deabf4133f7b2279155b69f Merge tag 'drm-misc-fixes-2025-07-23' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+5a53249d149f48b558368c5338b9921b76a12f8c KVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls
+f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+14822f782700a094baa9b5966cc047a9b1b31701 MAINTAINERS: Add in6.h to MAINTAINERS
+86941382508850d58c11bdafe0fec646dfd31b09 selftests: drv-net: wait for iperf client to stop sending
+25fae0b93d1d7ddb25958bcb90c3c0e5e0e202bd Merge tag 'drm-fixes-2025-07-24' of https://gitlab.freedesktop.org/drm/kernel
+0d57ed922b9a9b0d36c90a992e076d850b779be5 Merge tag 'asoc-fix-v6.16-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+897e8601b9cff1d054cdd53047f568b0e1995726 s390/ism: fix concurrency management in ism_cmd()
+4555f8f8b6aa46940f55feb6a07704c2935b6d6e net: hns3: fix concurrent setting vlan filter issue
+cde304655f25d94a996c45b0f9956e7dcc2bc4c0 net: hns3: disable interrupt when ptp init failed
+b3e75c0bcc53f647311960bc1b0970b9b480ca5a net: hns3: fixed vf get max channels bug
+49ade8630f36e9dca2395592cfb0b7deeb07e746 net: hns3: default enable tx bounce buffer when smmu enabled
+89fd905dab912a5712149ec5c06d251ceaedf743 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
+291d5dc80eca1fc67a0fa4c861d13c101345501a Merge tag 'ipsec-2025-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+407c114c983f6eb87161853f0fdbe4a08e394b92 Merge tag 'net-6.16-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+cef6c8c92fafa58fa04d8622e89ed4871d121fc3 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+dd9c17322a6cc56d57b5d2b0b84393ab76a55c80 Merge tag 'sound-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============4652108266364186542==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1919af567170-00e2ca4c374b.txt
-
-d3772670fadc16f0c85b08fd03b70288149ee1a0 Notes added by 'git commit --amend'
-393d7889c5df04aa9b460ddeec4295561c85a6a7 Notes added by 'git commit --amend'
-3372b1b587bf6742c07cc047b43579800c14d2a0 Notes added by 'git commit --amend'
-1d2c1fbf78b9eecbd5908bfd62b69cd589d680e3 Notes added by 'git notes add'
-fbb61942c1e3650913c6bb5411ea39dcae2b8f69 Notes added by 'git notes add'
-9ea3db860687e0f7baf6f1a88e7cef1c4bf04430 Notes added by 'git commit --amend'
-7dd7daad4976b6e57a0e72beb2721a3aadd5ad3d Notes added by 'git notes add'
-eb8624a78b0343d68b33f316643f7a8af4d338d7 Notes added by 'git notes add'
-8c94e8abb2b213794fe5464607e022536772566b Notes added by 'git notes add'
-ed5a7d46c4317c111abc613648416442acce90be Notes added by 'git notes add'
-77c2b9c101886d1bf2080b4f144e8a08c0bc215a Notes added by 'git notes add'
-40d9a0043ea45a0e49d0e782a89bba428f6429a8 Notes added by 'git notes add'
-085723d1191c5d84ef61092435c8fd1a759b2bf7 Notes added by 'git notes add'
-1abdf1dadef94a4ef267d7c1c044bf458c17804e Notes added by 'git notes add'
-dca6a383317f6a9f3d928e3c7cfd97f7a02b8d0d Notes added by 'git notes add'
-385b2df46dfe2c0fe532a97ce850038cbec19fb8 Notes added by 'git notes add'
-f002ce11764acf5c88e8d25f734792d01fda3c65 Notes added by 'git notes add'
-1ed948ab6bbdff22b01185dccb7edddcf6864ad6 Notes added by 'git notes add'
-e40e1f8c61a67b5e96ae48f6e8bd8023b8b8045f Notes added by 'git notes add'
-45e09983f3a5aa4192c005fa6252204828fb2699 Notes added by 'git notes add'
-d1dbd9101461321ad60a097b5f2f118d0d2481ae Notes added by 'git notes add'
-28960cdca6c8551dc214bf5b0de7f72b61c05c57 Notes added by 'git notes add'
-97539f8dce06337cb08b0d609e3824aacc9961c7 Notes added by 'git notes add'
-9202c5dfb74f9d7c6ed57f6cb11295b3d8cee3d8 Notes added by 'git notes add'
-2535cca7287bbfdf2954763913c8bfa00b9ae295 Notes added by 'git notes copy'
-c3d43467d7078e592193e79842d73de820f73d9e Notes added by 'git notes add'
-00e2ca4c374be50cc933da378a97356e197962fd Notes added by 'git notes copy'
-
---===============4652108266364186542==--
+--===============8625751057702483177==--
