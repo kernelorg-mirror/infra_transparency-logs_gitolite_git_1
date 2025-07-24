@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3686765237763003641=="
+Content-Type: multipart/mixed; boundary="===============0867087144092249399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 24 Jul 2025 21:19:58 -0000
-Message-Id: <175339199850.1584654.4357132550282448260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 24 Jul 2025 21:20:01 -0000
+Message-Id: <175339200183.1584836.16758379582158327503@gitolite.kernel.org>
 
---===============3686765237763003641==
+--===============0867087144092249399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 1f590fa4b93dd7c7daaa4e09d8381ac2aab3853c
     new: 317fb4c3871b27454f04d67bfd0f388fcc5783e7
     log: |
@@ -26,28 +26,28 @@ changes:
          317fb4c3871b27454f04d67bfd0f388fcc5783e7 support for amlogic the new SPI IP
          
 
---===============3686765237763003641==
+--===============0867087144092249399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1753392039 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1753391996-788bb56cfa5a6b87087d4a77a499b015f7ecdae8
+pusher C3F436CA30F5D8EB 1753392042 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1753391999-0eabb7bc667681ca77756e0e1910bf7e174a8f3d
 
-1f590fa4b93dd7c7daaa4e09d8381ac2aab3853c 317fb4c3871b27454f04d67bfd0f388fcc5783e7 refs/heads/for-6.17
+1f590fa4b93dd7c7daaa4e09d8381ac2aab3853c 317fb4c3871b27454f04d67bfd0f388fcc5783e7 refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiCo6cACgkQJNaLcl1U
-h9A13gf+Ii4LQfie/bHzHe73YeFoFcssILqmH4SvmQttR/aI9rrYIqjdS2P8uxOJ
-vIbuw82JlPHULjQKerqpo860aRs4wN1IHaLlAh649wxV2OyzlDGuadkZFmTXPBLQ
-qACPyG3xDyiOz9F+3LC15XdtIVSI9iOkxj4YUriua1b7ZmIvaD4cYJ06kTfgdRX9
-jRA7t31SN+IP260V/AsVii2HYtlNLoG/He3jv56BbCe28xWefKYDMg3QlkL6/xYn
-kQ7OmuLBnyDEBZDzzRjTpIC2qOpCklFsNiLDO54P9q4d8Ly3Vz84MvGj++VVtR12
-FEpUpMaqxfV/AzUaxW0CAz+yVjUVww==
-=DWTf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiCo6oACgkQJNaLcl1U
+h9C61Af/agb1MDCyy3U44A7Cu4OCQkRz8Yg3ZPXejHAndOAkeIsRma0KVgxfwu9L
+eGA76CQ4jS8P2J+FeoeeeIcSMWaa0kFqdZXUD7DJo8PiAHzg5y0v4XoHvEHSFdaA
+IsDonMztSQ7Nc/VSc3EdfuOqC9zIx80spE0LVXfTpBBbMS8SsvNNripOwyyd9xkN
+W3fg/azdijacavsbNpW/3m9OjoXmqmrutDq6Dft8RvV4yGB9sLYQmadvD5uGjkuU
+uAnYWwaDRjsm7+40ZmreypL2sn+R6z+4/SqI+wRLXV3Ayrlis9uUZo+nzWLc17/K
+2HXYPOaH9mlxS1QRntFeRbecDfORQw==
+=4b3l
 -----END PGP SIGNATURE-----
 
---===============3686765237763003641==--
+--===============0867087144092249399==--
