@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3786788849660078744=="
+Content-Type: multipart/mixed; boundary="===============1973205005412644641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 24 Jul 2025 15:21:36 -0000
-Message-Id: <175337049610.1278303.10373998182388954756@gitolite.kernel.org>
+Date: Thu, 24 Jul 2025 15:21:38 -0000
+Message-Id: <175337049840.1278549.10267298549119135904@gitolite.kernel.org>
 
---===============3786788849660078744==
+--===============1973205005412644641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 67e9d0b40bd7990d6eab63b5afedea3c17578993
     new: 291d5dc80eca1fc67a0fa4c861d13c101345501a
     log: revlist-67e9d0b40bd7-291d5dc80eca.txt
 
---===============3786788849660078744==
+--===============1973205005412644641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ b3e75c0bcc53f647311960bc1b0970b9b480ca5a net: hns3: fixed vf get max channels bu
 89fd905dab912a5712149ec5c06d251ceaedf743 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
 291d5dc80eca1fc67a0fa4c861d13c101345501a Merge tag 'ipsec-2025-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 
---===============3786788849660078744==--
+--===============1973205005412644641==--
