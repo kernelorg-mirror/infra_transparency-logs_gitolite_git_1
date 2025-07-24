@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0486353199627239034=="
+Content-Type: multipart/mixed; boundary="===============5993347080539591304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 24 Jul 2025 16:07:36 -0000
-Message-Id: <175337325624.1319837.1753264809152519486@gitolite.kernel.org>
+Date: Thu, 24 Jul 2025 16:07:38 -0000
+Message-Id: <175337325881.1320003.8723343846748304400@gitolite.kernel.org>
 
---===============0486353199627239034==
+--===============5993347080539591304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/main
+  - ref: refs/tags/v6.12.24-11
     old: 7d6502c5df597422592565e6bd797a0cf9787f18
     new: 15acf6668fabf04794595c85b212a387cdc978c9
     log: revlist-7d6502c5df59-15acf6668fab.txt
 
---===============0486353199627239034==
+--===============5993347080539591304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ c486073fc172d0664b07747343e6f2b14e0f12ef Merge branch 'kernel-6.12.24/nfs-testin
 0d825cf2b6bb8661e1a47f0e8ab5909346d5d992 kernel-6.12.24-10
 15acf6668fabf04794595c85b212a387cdc978c9 kernel-6.12.24-11
 
---===============0486353199627239034==--
+--===============5993347080539591304==--
