@@ -1,87 +1,141 @@
-Content-Type: multipart/mixed; boundary="===============0306702757232522306=="
+Content-Type: multipart/mixed; boundary="===============8188125110240976817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 24 Jul 2025 16:16:11 -0000
-Message-Id: <175337377125.1328169.4636495640270408280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 24 Jul 2025 16:54:41 -0000
+Message-Id: <175337608111.1358455.17028192303201396635@gitolite.kernel.org>
 
---===============0306702757232522306==
+--===============8188125110240976817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
+  - ref: refs/heads/main
+    old: 0e8243a355a69035dac269528b49dc8c9bc81f8a
+    new: 97e14d99f6def189b0f786ac6207b792ca3197b1
+    log: |
+         b5b3ddbe5c56c7ded95e7c47c985dc6d61f73ea0 fast-(import|export): improve on commit signature output format
+         9d3b33125f01c64003e0aa86056a6d68a428e0f0 sane-ctype: fix compiler error on Amazon Linux 2
+         4ca70179020b6a33bb5334302e7c79faf7eeaf52 bloom: add test helper to return murmur3 hash
+         b187353ed2b92745a903d321eaafac342a5df8d4 bloom: rename function operates on bloom_key
+         90d5518a7dd53ccc7d967a3a066d688da1d7e214 bloom: replace struct bloom_key * with struct bloom_keyvec
+         937153dece3c2b1e04b0e071298745abd57cd347 revision: make helper for pathspec to bloom keyvec
+         2a6ce090f27016d68ee6952809d98fe88ce53522 bloom: optimize multiple pathspec items in revision
+         f22d4ac4fd50b55c88142dfd15a361680cf3fb40 Merge branch 'ly/changed-paths-traversal'
+         98813265b360ebc59371d7d32efa47eb24adda15 Merge branch 'ps/sane-ctype-workaround'
+         5216bcbc845023fdea43b6d56f3634c490096838 Merge branch 'cc/fast-import-export-signature-names'
+         97e14d99f6def189b0f786ac6207b792ca3197b1 The thirteenth batch
+         
   - ref: refs/heads/master
-    old: 25fae0b93d1d7ddb25958bcb90c3c0e5e0e202bd
-    new: dd9c17322a6cc56d57b5d2b0b84393ab76a55c80
-    log: revlist-25fae0b93d1d-dd9c17322a6c.txt
+    old: 0e8243a355a69035dac269528b49dc8c9bc81f8a
+    new: 97e14d99f6def189b0f786ac6207b792ca3197b1
+    log: |
+         b5b3ddbe5c56c7ded95e7c47c985dc6d61f73ea0 fast-(import|export): improve on commit signature output format
+         9d3b33125f01c64003e0aa86056a6d68a428e0f0 sane-ctype: fix compiler error on Amazon Linux 2
+         4ca70179020b6a33bb5334302e7c79faf7eeaf52 bloom: add test helper to return murmur3 hash
+         b187353ed2b92745a903d321eaafac342a5df8d4 bloom: rename function operates on bloom_key
+         90d5518a7dd53ccc7d967a3a066d688da1d7e214 bloom: replace struct bloom_key * with struct bloom_keyvec
+         937153dece3c2b1e04b0e071298745abd57cd347 revision: make helper for pathspec to bloom keyvec
+         2a6ce090f27016d68ee6952809d98fe88ce53522 bloom: optimize multiple pathspec items in revision
+         f22d4ac4fd50b55c88142dfd15a361680cf3fb40 Merge branch 'ly/changed-paths-traversal'
+         98813265b360ebc59371d7d32efa47eb24adda15 Merge branch 'ps/sane-ctype-workaround'
+         5216bcbc845023fdea43b6d56f3634c490096838 Merge branch 'cc/fast-import-export-signature-names'
+         97e14d99f6def189b0f786ac6207b792ca3197b1 The thirteenth batch
+         
+  - ref: refs/heads/next
+    old: 942d659e1bbc2e578fba7d9b4087112004142e34
+    new: c32cd1483be90fa6182845f8d9c0c74dc287cc37
+    log: revlist-942d659e1bbc-c32cd1483be9.txt
+  - ref: refs/heads/seen
+    old: 6d883c5d1c5a46da607cca1353b4c2addb5d3090
+    new: 56843d637b40564512c69acf17fae673a85af86e
+    log: revlist-6d883c5d1c5a-56843d637b40.txt
+  - ref: refs/notes/amlog
+    old: af463031f8dc63eec0d098dc188c37f51eb31b71
+    new: 1919af5671702269113717935a46dbbe7ea351d6
+    log: |
+         29ccfdff311b00b37a4f22c1e84aeb981c77131c amlog
+         1919af5671702269113717935a46dbbe7ea351d6 Notes added by 'git commit --amend'
+         
 
---===============0306702757232522306==
+--===============8188125110240976817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25fae0b93d1d-dd9c17322a6c.txt
+Content-Disposition: attachment; filename=revlist-942d659e1bbc-c32cd1483be9.txt
 
-94d077c331730510d5611b438640a292097341f0 xfrm: state: initialize state_ptrs earlier in xfrm_state_find
-7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2 xfrm: state: use a consistent pcpu_id in xfrm_state_find
-766f6a784bdfd0747c66e40102e53c48bb89e135 Merge branch 'xfrm: fixes for xfrm_state_find under preemption'
-c0f21029f123d1b15f8eddc8e3976bf0c8781c43 xfrm: always initialize offload path
-3ac9e29211fa2df5539ba0d742c8fe9fe95fdc79 xfrm: Set transport header to fix UDP GRO handling
-2ca58d87ebae20906cf808ef813d747db0177a18 xfrm: ipcomp: adjust transport header after decompressing
-a90b2a1aaacbcf0f91d7e4868ad6c51c5dee814b xfrm: interface: fix use-after-free after changing collect_md xfrm interface
-b441cf3f8c4b8576639d20c8eb4aa32917602ecd xfrm: delete x->tunnel as we delete x
-2a198bbec6913ae1c90ec963750003c6213668c7 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-28712d6ed32028b0f2e0defe6681411496971ca3 Merge branch 'ipsec: fix splat due to ipcomp fallback tunnel'
-6bea85979d05470e6416a2bb504a9bcd9178304c ASoC: mediatek: mt8365-dai-i2s: pass correct size to mt8365_dai_set_priv
-21c8ed9047b7f44c1c49b889d4ba2f555d9ee17e ALSA: hda/realtek - Add mute LED support for HP Victus 15-fa0xxx
-bddbe13d36a02d5097b99cf02354d5752ad1ac60 bus: fsl-mc: Fix potential double device reference in fsl_mc_get_endpoint()
-ee9f3a81ab08dfe0538dbd1746f81fd4d5147fdc dpaa2-eth: Fix device reference count leak in MAC endpoint handling
-96e056ffba912ef18a72177f71956a5b347b5177 dpaa2-switch: Fix device reference count leak in MAC endpoint handling
-6e86fb73de0fe3ec5cdcd5873ad1d6005f295b64 net: ti: icssg-prueth: Fix buffer allocation for ICSSG
-3afa3ae3db52e3c216d77bd5907a5a86833806cc net/mlx5: Fix memory leak in cmd_exec()
-5b4c56ad4da0aa00b258ab50b1f5775b7d3108c7 net/mlx5: E-Switch, Fix peer miss rules to use peer eswitch
-81e0db8e839822b8380ce4716cd564a593ccbfc5 Merge branch 'mlx5-misc-fixes-2025-07-17'
-9744ede7099e8a69c04aa23fbea44c15bc390c04 ALSA: hda/realtek - Add mute LED support for HP Pavilion 15-eg0xxx
-0503ac474a3d57b62ea40c7720058ae42668d948 ASoC: SOF: Intel: PTL: Add the sdw_process_wakeen op
-d312962188dd1f682b0351ccf9933334738ac462 ASoC: rt5650: Eliminate the high frequency glitch
-9e55f1192648a5b327f03c60e411126b3d19c5c5 ASoC: SDCA: correct the calculation of the maximum init table size
-ab16122115327b2a602595f539cae7e39a331d0e arm64: kvm, smccc: Fix vendor uuid
-50b2af451597ca6eefe9d4543f8bbf8de8aa00e7 i40e: report VF tx_dropped with tx_errors instead of tx_discards
-5a0df02999dbe838c3feed54b1d59e9445f68b89 i40e: When removing VF MAC filters, only check PF-set MAC
-4ff12d82dac119b4b99b5a78b5af3bf2474c0a36 ice: Fix a null pointer dereference in ice_copy_and_init_pkg()
-536fd741c7ac907d63166cdae1081b1febfab613 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
-61114910a5f6a71d0b6ea3b95082dfe031b19dfe e1000e: ignore uninitialized checksum word on tgp
-37848a456fc38c191aedfe41f662cc24db8c23d9 selftests: mptcp: connect: also cover alt modes
-fdf0f60a2bb02ba581d9e71d583e69dd0714a521 selftests: mptcp: connect: also cover checksum
-53b2fb6b05cd343aa22367857c0e97aef72e8087 Merge branch 'selftests-mptcp-connect-cover-alt-modes'
-18ff09c1b94fa1584b31d3f4e9eecdca29230ce5 net: bcmasp: Restore programming of TX map vector register
-6c4a92d07b0850342d3becf2e608f805e972467c net: appletalk: Fix use-after-free in AARP proxy probe
-b03f15c0192b184078206760c839054ae6eb4eaa gve: Fix stuck TX queue for DQ queue format
-48915162b5ad598bc6fbf8959683f43664b4f6f1 ALSA: usb-audio: qcom: Adjust mutex unlock order
-cf074eca0065bc5142e6004ae236bb35a2687fdf net/sched: sch_qfq: Avoid triggering might_sleep in atomic context in qfq_delete_class
-c1f3f9797c1f44a762e6f5f72520b2e520537b52 can: netlink: can_changelink(): fix NULL pointer deref of struct can_priv::do_set_mode
-d42e6c20de6192f8e4ab4cf10be8c694ef27e8cb arm64/entry: Mask DAIF in cpu_switch_to(), call_on_irq_stack()
-931837cd924048ab785eedb4cee5b276c90a2924 ALSA: hda/realtek: Fix mute LED mask on HP OMEN 16 laptop
-71c33df471a6ed40cc3ec7902cf889d813219b07 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-dca56cc8b5c3bee889d6cb0d2ee3e933b21cb4ec selftests: netfilter: tone-down conntrack clash test
-67e9d0b40bd7990d6eab63b5afedea3c17578993 Merge tag 'linux-can-fixes-for-6.16-20250722' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-696e123aa36bf0bc72bda98df96dd8f379a6e854 ASoC: mediatek: common: fix device and OF node leak
-14822f782700a094baa9b5966cc047a9b1b31701 MAINTAINERS: Add in6.h to MAINTAINERS
-86941382508850d58c11bdafe0fec646dfd31b09 selftests: drv-net: wait for iperf client to stop sending
-0d57ed922b9a9b0d36c90a992e076d850b779be5 Merge tag 'asoc-fix-v6.16-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-897e8601b9cff1d054cdd53047f568b0e1995726 s390/ism: fix concurrency management in ism_cmd()
-4555f8f8b6aa46940f55feb6a07704c2935b6d6e net: hns3: fix concurrent setting vlan filter issue
-cde304655f25d94a996c45b0f9956e7dcc2bc4c0 net: hns3: disable interrupt when ptp init failed
-b3e75c0bcc53f647311960bc1b0970b9b480ca5a net: hns3: fixed vf get max channels bug
-49ade8630f36e9dca2395592cfb0b7deeb07e746 net: hns3: default enable tx bounce buffer when smmu enabled
-89fd905dab912a5712149ec5c06d251ceaedf743 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
-291d5dc80eca1fc67a0fa4c861d13c101345501a Merge tag 'ipsec-2025-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-407c114c983f6eb87161853f0fdbe4a08e394b92 Merge tag 'net-6.16-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-cef6c8c92fafa58fa04d8622e89ed4871d121fc3 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-dd9c17322a6cc56d57b5d2b0b84393ab76a55c80 Merge tag 'sound-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+54b18261eb0c0d23fa06a11196ccfaaa643da3fa revision: drop early output option
+9b5c002811e672fe994d72a4f0cc9325a0ecffa8 rev-list: make "struct rev_list_info" static to the only user
+f31abb421ddd37e9a13e5ffc2e5c5f10f0f0f9b9 rev-list: update a NEEDSWORK comment
+26552cb62a5b375d4df651184941edf84f88a485 reflog: close leak of reflog expire entry
+f22d4ac4fd50b55c88142dfd15a361680cf3fb40 Merge branch 'ly/changed-paths-traversal'
+98813265b360ebc59371d7d32efa47eb24adda15 Merge branch 'ps/sane-ctype-workaround'
+5216bcbc845023fdea43b6d56f3634c490096838 Merge branch 'cc/fast-import-export-signature-names'
+97e14d99f6def189b0f786ac6207b792ca3197b1 The thirteenth batch
+09282d051a69df971fdf3e8c181224f4fb1604f8 Merge branch 'jc/rev-list-info-cleanup' into next
+cfc20b3eb95ba6ee61a8b6e047a0a37366fd716e Merge branch 'jk/revision-no-early-output' into next
+8e3db5dcca620508be8e941858642d6c2d594b29 Merge branch 'jc/do-not-scan-argv-without-parsing' into next
+1663299f09bd66ed849d446908857f9941600d7a Merge branch 'jk/unleak-reflog-expire-entry' into next
+c32cd1483be90fa6182845f8d9c0c74dc287cc37 Sync with 'master'
 
---===============0306702757232522306==--
+--===============8188125110240976817==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6d883c5d1c5a-56843d637b40.txt
+
+c5bcff1be6888ee9f57f64d9678c5cae3ecc21f3 ref-iterator-seek: correctly initialize the prefix_state for a new level
+6c1f705cd0da0b693d429a0abdbe7239ff4c013f fixup! add-patch: add diff.context command line overrides
+f22d4ac4fd50b55c88142dfd15a361680cf3fb40 Merge branch 'ly/changed-paths-traversal'
+98813265b360ebc59371d7d32efa47eb24adda15 Merge branch 'ps/sane-ctype-workaround'
+5216bcbc845023fdea43b6d56f3634c490096838 Merge branch 'cc/fast-import-export-signature-names'
+97e14d99f6def189b0f786ac6207b792ca3197b1 The thirteenth batch
+b760ede51d77677bdb9ba0b68d3989b10412b884 Merge branch 'pw/adopt-c99-bool-officially' into jch
+b59f6f647513396846ccffd4c155154878018f2d Merge branch 'kl/test-installed-fix' into jch
+dcd0afc5d7e67ab87024a6da09f4cd9a9818dcf8 Merge branch 'pw/config-kvi-remove-path' into jch
+3d8107d987df07850a6f94a1d3bfe024a57a79e6 Merge branch 'ss/compat-bswap-revamp' into jch
+05354862b45cf0bd9978b19365bee060b9b28e45 Merge branch 'rj/meson-libexecdir-fix' into jch
+f32786c7456a358687038cb410bc2322a9696c71 Merge branch 'bc/contribution-under-non-real-names' into jch
+2c9e0596fc259280e6f7ee97cb477947385932bb ###
+f4fb444aad0d2ee20dc5abf5d66d0b66ce7aefc5 Merge branch 'kn/for-each-ref-skip' (early part) into jch
+d4a3d07db0000570b3666a245bb1af9844b9b2ce Merge branch 'rs/pop-recent-commit-with-prio-queue' into jch
+774443e24081e123ae7df5f8101fe80eeb30a317 Merge branch 'ac/auto-comment-char-fix' into jch
+0c0d2cc78a858361d6b5ffbcd5de7b8ad5f4653b Merge branch 'jc/rev-list-info-cleanup' into jch
+bbe05edcdca42ce2870249976aa25edc029bdb4b Merge branch 'jk/revision-no-early-output' into jch
+0a7ddb9155a31820f10c4a938ce69c114aceead8 Merge branch 'jc/do-not-scan-argv-without-parsing' into jch
+a9a392a18fd9a51471edb54ef2ae1823a69b4695 Merge branch 'jk/unleak-reflog-expire-entry' into jch
+466b1de3f06091d078d6352a3f5de00e54f8a174 ### match next
+ace46ff57d2e7b761ad98c7e61d619eb4a0fc245 Merge branch 'ag/send-email-imap-sent' into jch
+5e796b654a59edc9a7d1122303c1e4e501610465 Merge branch 'jc/ci-print-test-failures-fix' into jch
+40a022cef86ae365ecc95ff3c297835a9c378799 Merge branch 'jb/t7510-gpg-program-path' into jch
+298a47f2071c1286627bdd0c11e0a8349a3d8178 Merge branch 'kn/for-each-ref-skip' into jch
+022dd6c268d79ac555d4160106d815a420b592ec Merge branch 'cb/meson-avoid-broken-macos-pcre2' into jch
+655864867945bbbf3818bae4cf7e751dac3649c4 Merge branch 'ps/object-store-midx' into jch
+8938cf72db55f8148ac891f2d759c7ba02962c4f Merge branch 'ag/imap-send-list-folders-doc' into jch
+ca2d7ef269aeb09863950248b3c5b307e1914e58 Merge branch 'ow/rebase-verify-insn-fmt-before-initializing-state' into jch
+aa1ab50afbde2b070e7a382bd41b7dd819356c7f Merge branch 'ly/pull-autostash' into jch
+cd6f04aeaa4edd9ce97fae0a87a73ff7f38562fc Merge branch 'ps/config-wo-the-repository' into jch
+9380f118a191e059a99a627f867e2b36f7482236 Merge branch 'jc/document-test-balloons-in-flight' into jch
+0f357d4e97f1a4bf322ad32b69b9352e1cdabffa Merge branch 'sk/reftable-clarify-tests' into jch
+0099eeb423ce4d3fc18d15e3f2191f3c995bf97f Merge branch 'tb/prepare-midx-pack-cleanup' into jch
+80f8c8981caa1f170917682be0d9eba6db86dba3 Merge branch 'jc/tag-idempotent-no-op' into jch
+2e1db174d4ae737a55a6f3f9b3a5581110f769fd Merge branch 'lm/add-p-context' into jch
+23ccab48fe02f109851f0ba147e44702b9110566 Merge branch 'ps/reflog-migrate-fixes' into seen
+b0cd9b00361fd692a003fcee5b156b1d7a68d8b0 Merge branch 'en/ort-rename-fixes' into seen
+e90fa96031123b2ba1ee17d5ef6f97ddd40c7627 Merge branch 'cc/promisor-remote-capability' into seen
+672fa94bad927f154423692b493274293dfe5371 Merge branch 'ps/object-file-wo-the-repository' into seen
+94454132f44b3a0614618afd5de0befe8957f895 Merge branch 'pw/3.0-commentchar-auto-deprecation' into seen
+1467a15a2a73692f3b4aa83f5d13e678d20c0741 Merge branch 'tc/last-modified' into seen
+a0b5d007e8d733070f1eb8155ecac7b08de79faf Merge branch 'kj/renamed-submodule' into seen
+5dc03a91d01eda223201ac9e3cec9a92d901be83 Merge branch 'ac/deglobal-sparse-variables' into seen
+8ea1ca8a8c2a6b84dcb13995743261891430bb42 Merge branch 'ds/sparse-checkout-clean' into seen
+515f3587f72ab7f00c3c08b8a26efb494027b455 Merge branch 'lo/repo-info' into seen
+33fb395e810960c83eeb438acd32390082b7a47c Merge branch 'hl/test-helper-fd-close' into seen
+56843d637b40564512c69acf17fae673a85af86e Merge branch 'jt/switch-restore-no-longer-experimental' into seen
+
+--===============8188125110240976817==--
