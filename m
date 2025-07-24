@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 24 Jul 2025 07:51:19 -0000
-Message-Id: <175334347919.887721.6891771222590308244@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6847520682539910641=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Thu, 24 Jul 2025 07:57:07 -0000
+Message-Id: <175334382729.892310.1386674958402571751@gitolite.kernel.org>
+
+--===============6847520682539910641==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 71c1e1b510d5d06db179294817474c62d35cca92
-    new: 69f3464f51b70710ef6552181cc2399dcc6b0144
+  - ref: refs/heads/main
+    old: 3630f043302c065adb3d919992173b7dcb251b7b
+    new: 55c172c13718b93300d3808b65ec326b5287c766
     log: |
-         289eab7dd3d58f13c5cdbd151bd08bd7e2c0541c f2fs: fix to do sanity check on node footer in read_end_io
-         a2f334aa623b817190288df458f2c6b5c16609a9 f2fs: cover f2fs_update_inode_page() w/ node_change lock
-         6ad862aa22cf3e3c8cfa2611c0d00b7dda8f465d f2fs: fix to update upper_p in __get_secs_required() correctly
-         e8e49b2419855dcb5b9a205944bae3006a4138b6 f2fs: fix to calculate dirty data during has_not_enough_free_secs()
-         69f3464f51b70710ef6552181cc2399dcc6b0144 f2fs: fix to trigger foreground gc during f2fs_map_blocks() in lfs mode
+         41469ff94c052b4900af85f1c62a17aff6236f42 wifi: Fix typos
+         55c172c13718b93300d3808b65ec326b5287c766 ssb: use new GPIO line value setter callbacks for the second GPIO chip
          
+
+--===============6847520682539910641==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1753343843 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1753343800-2db0bb6fdead9ae9f03e6a07ce0733df0513ddb2
+
+3630f043302c065adb3d919992173b7dcb251b7b 55c172c13718b93300d3808b65ec326b5287c766 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmiB52MACgkQ10qiO8sP
+aABCyA/9HbahGbSXhk5o5slNcztoDH6rAc1m5GQEaXK/F7gs0mOscr/tY8GSKLzZ
+QbyPVybqBtOVrjWBbqQL9a4i7ju/tdtWrg0B1TpkAUPRghv4+9z8ASjSDvl27JzJ
+her7B9XPHY2rsFkyqv2zBQjQhalPNKqfGzzc6QCxsqC2yw9OV2/gvPpBJfyy21fK
+3z9EQj/tCSCOWw2cVuCbh5C/x3hw2y8Esz2MKljaGwzC/8/KgL7PTavF8Vu/oA5a
+ojkP+n8rZR7qJ8EHXB7QyootSEHGhiwkKbR0Z/KI84/MCWURwnIAog6A70LwTaA/
+6GKSDqm4pxiFjQgYnMp+bQp9vkBWzdATEhEnvWaZRucOuV1YEpPYzR7KOOHlXGIX
+VGZ+oOXPxyMS1HSfD/UwEpiOHYfHxCTtND+uxoTBVR6CjRcqyCkRS+YrJfykL1Xz
+6hrMFQnFqdSOcCZ+RKvVWFAIp9jAwkNlEMsQHRuVSSpL5K0DwbL7d+rupdFqf3hn
+sP0XLOtKAP+AclS/1g+c+PmC3xvigw+3OnX9qKHZRKLjASxMza57RNueYdgRMyFF
+q94izooOeDvcd14EnGRWK8SZYmRkHKe8Kc0Kr1MVh6jpMYO1xo6dpu3JkrOFwM0c
+cBjbOq+9J4sINg6CGDlDbgTDdBMl0hvUR1i8gHipfOSTSiLXVcg=
+=aaDY
+-----END PGP SIGNATURE-----
+
+--===============6847520682539910641==--
