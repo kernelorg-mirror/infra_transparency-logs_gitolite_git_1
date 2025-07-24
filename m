@@ -1,168 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1578103819048845554=="
+Content-Type: multipart/mixed; boundary="===============3195104924939430633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 24 Jul 2025 04:04:07 -0000
-Message-Id: <175332984725.539708.16272901733624814683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 24 Jul 2025 04:04:24 -0000
+Message-Id: <175332986407.540744.16704582184656965772@gitolite.kernel.org>
 
---===============1578103819048845554==
+--===============3195104924939430633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-current
-    old: 90dc4256a4d99d57402600405b05d6ed7dd6b431
-    new: 09a1d46e9d72ebda0ee9f8d05066cefd494317a1
-    log: revlist-90dc4256a4d9-09a1d46e9d72.txt
-  - ref: refs/heads/fs-next
-    old: 23a77b0c1dbc3f3eee8a28969649c1d5212db8d9
-    new: c0dabd21bb54cb994be298eb8d04a304132f2ec0
-    log: revlist-23a77b0c1dbc-c0dabd21bb54.txt
   - ref: refs/heads/master
     old: a933d3dc1968fcfb0ab72879ec304b1971ed1b9a
     new: 9ee814bd78e315e4551223ca7548dd3f6bdcf1ae
     log: revlist-a933d3dc1968-9ee814bd78e3.txt
-  - ref: refs/heads/pending-fixes
-    old: 503bee74dabdbeddb4332a6e70897e62ceebe624
-    new: 4bdb367d673ed9f8ca8c303f0ec8fca644ee7153
-    log: revlist-503bee74dabd-4bdb367d673e.txt
-  - ref: refs/heads/stable
-    old: 89be9a83ccf1f88522317ce02f854f30d6115c41
-    new: f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b
-    log: revlist-89be9a83ccf1-f9af7b5d9349.txt
-  - ref: refs/tags/next-20250424
-    old: 0273d02b2f84f645e8b8ab317722931eb96f6130
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250724
     old: 0000000000000000000000000000000000000000
     new: a7b9f591c07413a44dc17667dc900d01a4f12d97
 
---===============1578103819048845554==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90dc4256a4d9-09a1d46e9d72.txt
-
-8346c6af27f1c1410eb314f4be5875fdf1579a10 platform/x86: alienware-wmi-wmax: Fix `dmi_system_id` array
-3ebed2fddf6fac5729ffc8c471c87d111b641678 power: supply: core: Add power_supply_get/set_property_direct()
-a5f354232118751fe43be6ac896f8d6e7d7418b5 power: supply: test-power: Test access to extended power supply
-d4e83784b2a9be58b938d55efb232d2751c4cab4 platform/x86: dell-ddv: Fix taking the psy->extensions_sem lock twice
-44e6ca8faeeed12206f3e7189c5ac618b810bb9c platform/mellanox: mlxbf-pmc: Remove newline char from event name input
-f8c1311769d3b2c82688b294b4ae03e94f1c326d platform/mellanox: mlxbf-pmc: Validate event/enable input
-0e2cebd72321caeef84b6ba7084e85be0287fb4b platform/mellanox: mlxbf-pmc: Use kstrtobool() to check 0/1 input
-9533b789df7e8d273543a5991aec92447be043d7 platform/x86: ideapad-laptop: Fix FnLock not remembered among boots
-e10981075adce203eac0be866389309eeb8ef11e platform/x86: ideapad-laptop: Fix kbd backlight not remembered among boots
-c86f7bb92f1ffbacb18634356bf0573047eab6a0 lenovo-wmi-hotkey: Avoid triggering error -5 due to missing mute LED
-bc48d79a1829ac5a79cc3d1eb8bf30c0ae9b3bcd platform: arm64: huawei-gaokun-ec: fix OF node leak
-2bfe3ae1aa45f8b61cb0dc462114fd0c9636ad32 platform/x86: Fix initialization order for firmware_attributes_class
-dbfb567f4ae86f4acc4644984ec5b59086060b99 platform/x86: alieneware-wmi-wmax: Add AWCC support to more laptops
-aef9da333823f70b074e36a94c6e85f5c55e5477 platform/x86: dell-lis3lv02d: Add Precision 3551
-e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and SBL drivers
-964ebc07c546c76b78aea5b6dff0d02c602d4793 Merge tag 'platform-drivers-x86-v6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-9aa64182952db7d931201ab4fcdf767c11fb4ab0 afs: Fix check for NULL terminator
-8b3c655fa2406b9853138142746a39b7615c54a2 afs: Set vllist to NULL if addr parsing fails
-e09a335a819133c0a9d6799adcf6d51837a7da2d fix the regression in ufs options parsing
-01a412d06bc5786eb4e44a6c8f0f4659bd4c9864 Merge tag 'pull-ufs-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-5a53249d149f48b558368c5338b9921b76a12f8c KVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls
-f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-a2a1234e5ff7bd8df617ad19583c6b7d08d78081 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-1304de9162c6a04d9268cdd7f1ea6c6277afb91a Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-09a1d46e9d72ebda0ee9f8d05066cefd494317a1 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-
---===============1578103819048845554==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23a77b0c1dbc-c0dabd21bb54.txt
-
-8346c6af27f1c1410eb314f4be5875fdf1579a10 platform/x86: alienware-wmi-wmax: Fix `dmi_system_id` array
-3ebed2fddf6fac5729ffc8c471c87d111b641678 power: supply: core: Add power_supply_get/set_property_direct()
-a5f354232118751fe43be6ac896f8d6e7d7418b5 power: supply: test-power: Test access to extended power supply
-d4e83784b2a9be58b938d55efb232d2751c4cab4 platform/x86: dell-ddv: Fix taking the psy->extensions_sem lock twice
-44e6ca8faeeed12206f3e7189c5ac618b810bb9c platform/mellanox: mlxbf-pmc: Remove newline char from event name input
-f8c1311769d3b2c82688b294b4ae03e94f1c326d platform/mellanox: mlxbf-pmc: Validate event/enable input
-0e2cebd72321caeef84b6ba7084e85be0287fb4b platform/mellanox: mlxbf-pmc: Use kstrtobool() to check 0/1 input
-9533b789df7e8d273543a5991aec92447be043d7 platform/x86: ideapad-laptop: Fix FnLock not remembered among boots
-e10981075adce203eac0be866389309eeb8ef11e platform/x86: ideapad-laptop: Fix kbd backlight not remembered among boots
-c86f7bb92f1ffbacb18634356bf0573047eab6a0 lenovo-wmi-hotkey: Avoid triggering error -5 due to missing mute LED
-bc48d79a1829ac5a79cc3d1eb8bf30c0ae9b3bcd platform: arm64: huawei-gaokun-ec: fix OF node leak
-2bfe3ae1aa45f8b61cb0dc462114fd0c9636ad32 platform/x86: Fix initialization order for firmware_attributes_class
-dbfb567f4ae86f4acc4644984ec5b59086060b99 platform/x86: alieneware-wmi-wmax: Add AWCC support to more laptops
-aef9da333823f70b074e36a94c6e85f5c55e5477 platform/x86: dell-lis3lv02d: Add Precision 3551
-e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and SBL drivers
-964ebc07c546c76b78aea5b6dff0d02c602d4793 Merge tag 'platform-drivers-x86-v6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-b91c09d72979d9f1846dc065e2fab33b8c8c9bea bcachefs: remove extraneous ; after statements
-d8aba63d8c80a6d60eafd06adbcfc988e9952f4d bcachefs: Add missing ei_last_dirtied update
-9aa64182952db7d931201ab4fcdf767c11fb4ab0 afs: Fix check for NULL terminator
-8b3c655fa2406b9853138142746a39b7615c54a2 afs: Set vllist to NULL if addr parsing fails
-bc5b0c8febccbeabfefc9b59083b223ec7c7b53a block: fix lbmd_guard_tag_type assignment in FS_IOC_GETLBMD_CAP
-ecb6cc0fd8cd2d34b983e118aa61dd8c9b052d0d eventpoll: fix sphinx documentation build warning
-4e8fc4f7208b032674ef8a4977b96484c328515c netfs: Remove unused declaration netfs_queue_write_request()
-425c8bb39b032bfb338857476eff5bbee324343e doc: update porting, vfs documentation to describe mmap_prepare()
-1edc170bb24082785e5825c46a36af8ae12ac762 xfs: remove unused trace event xfs_dqreclaim_dirty
-55edb3326b4b07117d0c26cd67d86fb8518ee906 xfs: remove unused trace event xfs_log_cil_return
-c17f506f0abe67b6009c0d126da81a71fc1e00c1 xfs: remove unused trace event xfs_discard_rtrelax
-10a957e43f28105ceb7b8e31a918d1c47cd4df3e xfs: remove unused trace event xfs_reflink_cow_enospc
-41a35f69b6946e61847d8d3a1b5a0d70812b3111 Merge branch 'xfs-6.17-merge' into for-next
-a02b39cedd06b53d72d9a45b64dfe45b0d3c087e Merge branch 'vfs.fixes' into vfs.all
-4e160df343bcd2a17420ba812a20db4d297531a6 Merge branch 'vfs-6.17.misc' into vfs.all
-e75b3b5a274b56e2364483858b92a0b6529cd024 Merge branch 'vfs-6.17.coredump' into vfs.all
-e742dded9df6cf4f684ee353da2ea66899cfefd3 Merge branch 'vfs-6.17.ovl' into vfs.all
-6afdc77051aed791fc59ebb81f84fb94807a5b1c Merge branch 'vfs-6.17.nsfs' into vfs.all
-ef791c217916ed8092b580fcedb7697f4d81ce39 Merge branch 'vfs-6.17.async.dir' into vfs.all
-5b9e49c5566a0bc6824f24a22b71dbd548747e3c Merge branch 'vfs-6.17.fallocate' into vfs.all
-eb36c80958a216df6912dd16166deffc4cdba16d Merge branch 'vfs-6.17.mmap_prepare' into vfs.all
-f1ad930b56c342cbf9c7ca4900f2d0fdf97717a6 Merge branch 'vfs-6.17.pidfs' into vfs.all
-01fdf35fb944dfab84afb258b5ec106ec78b75ab Merge branch 'vfs-6.17.bpf' into vfs.all
-06d0e118db266f8f7bd60c97a1dae945d6530c2b Merge branch 'vfs-6.17.rust' into vfs.all
-3fa44a6c15fdc7999cb74f91d4485c989d059c7f Merge branch 'vfs-6.17.integrity' into vfs.all
-e1655bb8058cfc24061a6107cb9e2a464fff4f1e Merge branch 'vfs-6.17.fileattr' into vfs.all
-ee872e7b8cc92260a086be6953e7dbf69841d1ae Merge branch 'vfs-6.17.super' into vfs.all
-66639db858112bf6b0f76677f7517643d586e575 Merge branch 'vfs-6.17.iomap' into vfs.all
-e09a335a819133c0a9d6799adcf6d51837a7da2d fix the regression in ufs options parsing
-01a412d06bc5786eb4e44a6c8f0f4659bd4c9864 Merge tag 'pull-ufs-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-24bb651f8f60ac60e4b25703eaae296d92505bde Merge branches 'work.dcache', 'work.simple_recursive_removal', 'work.rpc_pipe', 'headers.param', 'work.securityfs', 'work.misc', 'work.ceph-d_name-fixes' and 'work.fd' into for-next
-dd589648208a4deab9049805e94b680a15149e61 Merge branch 'work.mount' into for-next
-e1de38f55c54febe81b1fe8ee42bf40c6b8211b3 xfs: don't pass the old lv to xfs_cil_prepare_item
-7b1e478faffc1fa6623d6a2ee92ac228f1c3c496 xfs: cleanup the ordered item logic in xlog_cil_insert_format_items
-99a59aa44d8fb7ec8dbe1337b5b7036c36bdcf74 xfs: use better names for size members in xfs_log_vec
-48aee97aed87289a21bb88b3121be986bcf345fc xfs: don't use a xfs_log_iovec for attr_item names and values
-9d3b538b1c3109fde87dd93b0001816d4f733c7b xfs: don't use a xfs_log_iovec for ri_buf in log recovery
-b0494366bd5bf3dbf2db861741f37a8575b0bd95 Merge branch 'xfs-6.17-merge' into for-next
-5a53249d149f48b558368c5338b9921b76a12f8c KVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls
-f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-a2a1234e5ff7bd8df617ad19583c6b7d08d78081 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-1304de9162c6a04d9268cdd7f1ea6c6277afb91a Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-09a1d46e9d72ebda0ee9f8d05066cefd494317a1 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-7c6b8246da1812f5aa707f10feba1c433dc740b9 Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
-d8efa658c89c07069393a91315e92f1f91dec8be Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/fscrypt/linux.git
-53755da281cbe1eadb1bc4a955ec7e869488472c Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-4fd94fa776537d56b9adc32a93b974dd75799952 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-a038e7a9018d19757186e4a23e3951604b2fee8e Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git
-5270d65a81034da0c82427ef624c348eaf302dd8 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-a366678801749ad9bd002a40726d7b9c05adebdc Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-2598d7211310e0ec5ddf78889cd3d3d6afc03ede Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-8ca664515ab7e8c37aa25e02c4aff8d1b9498cd9 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
-58df1e7f30b52ca61cad7fcb4bae23e45c52dd8f Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-e79d6c1833f86897c0bb4c669f3551b8f7e4df01 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse.git
-dbf8e2e01a06ea00d3f988301dbc2b7aa4d6033f Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-253eac637e6ca0de7a9c53c80c4c1f7425be3d29 Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-c02f0f51dd4c09ec671ba973c723265d609c9aa9 Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
-70367bcf3701cc6db54e6b97ba77ab30479d8594 Merge branch 'linux-next' of git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git
-fa0c6e11375f0195a943e0cdd1041c51f15fb300 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-7aef7ecd611c2e76d895bf4ea86c4f336f9fc52a Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-0ab7028004ac895e3f25f424371aaf157b29f2e2 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
-91cdfcacce36369080ca76873a497a56247f08a4 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-60b00f8e121baa4381e40ca90921627ee23d3742 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-631c2a46909e50e3dad1020c3a7a0aafd70ba57f Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-c0dabd21bb54cb994be298eb8d04a304132f2ec0 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-
---===============1578103819048845554==
+--===============3195104924939430633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -935,88 +796,4 @@ d25366b1e437e7e18a355af54fc7c686ef628a82 Merge branch 'next' of https://git.kern
 dc9b385a8a2e715c35d8e07c0776056da57f12e6 Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 9ee814bd78e315e4551223ca7548dd3f6bdcf1ae Add linux-next specific files for 20250724
 
---===============1578103819048845554==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-503bee74dabd-4bdb367d673e.txt
-
-964ebc07c546c76b78aea5b6dff0d02c602d4793 Merge tag 'platform-drivers-x86-v6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-50b2af451597ca6eefe9d4543f8bbf8de8aa00e7 i40e: report VF tx_dropped with tx_errors instead of tx_discards
-5a0df02999dbe838c3feed54b1d59e9445f68b89 i40e: When removing VF MAC filters, only check PF-set MAC
-4ff12d82dac119b4b99b5a78b5af3bf2474c0a36 ice: Fix a null pointer dereference in ice_copy_and_init_pkg()
-536fd741c7ac907d63166cdae1081b1febfab613 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
-61114910a5f6a71d0b6ea3b95082dfe031b19dfe e1000e: ignore uninitialized checksum word on tgp
-c1f3f9797c1f44a762e6f5f72520b2e520537b52 can: netlink: can_changelink(): fix NULL pointer deref of struct can_priv::do_set_mode
-67c632b4a7fbd6b76a08b86f4950f0f84de93439 timekeeping: Zero initialize system_counterval when querying time from phc drivers
-1345186c06dc3d69bdb0f0770b8faee31cf0a28d mm/memory_hotplug: fix hwpoisoned large folio handling in do_migrate_range
-d9a87a2d8a888f52f87dc4468f06d1bd89c03af9 mm/damon/core: commit damos_quota_goal->nid
-245a4ff3b22afec1a1a42af932c5508cab53f55b resource: fix false warning in __request_region()
-51e52097aa2057311a54cdcc019da562701177b6 sprintf.h requires stdarg.h
-71c33df471a6ed40cc3ec7902cf889d813219b07 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-dca56cc8b5c3bee889d6cb0d2ee3e933b21cb4ec selftests: netfilter: tone-down conntrack clash test
-67e9d0b40bd7990d6eab63b5afedea3c17578993 Merge tag 'linux-can-fixes-for-6.16-20250722' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-105e6d157c34642e81f282a458d507e7b91c7197 Merge branch into tip/master: 'timers/urgent'
-9aa64182952db7d931201ab4fcdf767c11fb4ab0 afs: Fix check for NULL terminator
-8b3c655fa2406b9853138142746a39b7615c54a2 afs: Set vllist to NULL if addr parsing fails
-696e123aa36bf0bc72bda98df96dd8f379a6e854 ASoC: mediatek: common: fix device and OF node leak
-f820034864dd463cdcd2bebe7940f2eca0eb4223 spi: spi-qpic-snand: don't hardcode ECC steps
-fd77b2c1b6eb7c7d2087e2c2b37c671d47fd2d4f drm/i915/display: Fix dma_fence_wait_timeout() return value handling
-e09a335a819133c0a9d6799adcf6d51837a7da2d fix the regression in ufs options parsing
-01a412d06bc5786eb4e44a6c8f0f4659bd4c9864 Merge tag 'pull-ufs-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-337666c522b9eca36deabf4133f7b2279155b69f Merge tag 'drm-misc-fixes-2025-07-23' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-5a53249d149f48b558368c5338b9921b76a12f8c KVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls
-f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-14822f782700a094baa9b5966cc047a9b1b31701 MAINTAINERS: Add in6.h to MAINTAINERS
-56344e241c543f17e8102fa13466ad5c3e7dc9ff i2c: tegra: Fix reset error handling with ACPI
-a663b3c47ab10f66130818cf94eb59c971541c3f i2c: virtio: Avoid hang by using interruptible completion wait
-a7982a14b3012527a9583d12525cd0dc9f8d8934 i2c: qup: jump out of the loop in case of timeout
-a2a1234e5ff7bd8df617ad19583c6b7d08d78081 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-1304de9162c6a04d9268cdd7f1ea6c6277afb91a Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-09a1d46e9d72ebda0ee9f8d05066cefd494317a1 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-9cdca038c7761018278c8157ad2ec9fd4ba03c42 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-5d0c750b06b3986f900a65edbdf3b70dcc4401fa Merge branch 'fs-current' of linux-next
-9778303b8d08a5f6fe4837017b4811c280249c8e Merge branch 'for-next/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-313415a0b59404d34a5ac082eed13e359e592530 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-13e467efbe39d0422ff28b9531ed05ae7f1e118e Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-b0117b4ef8c77d1569a2517772a4bab12ecc5833 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-8dac299881e984f25f206868449a7ce473aa2317 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-f3d15f8144370e30ab212ce03793e9dd47d5de9c Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-f24e83d3af02ccb71838698e9d3afb3c993432fd Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-0d5c3cedce6454fbf913453cc2ac4fb35500b7e2 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-6336a52d91d8724fdef0246070ed09a207ddb2b6 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
-d3ed96bda26f8e6732754c971f038388520e58e4 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-9f8d6dab99a2ca0374389d45be08239187a3c289 Merge branch 'drm-fixes' of https://gitlab.freedesktop.org/drm/kernel.git
-ff08bae1f5be762d203590658895e56f2ddb836a Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/i915/kernel
-ebebb935df4c4c8257a6a9d321c2d0d464985b43 Merge branch 'i2c/i2c-host-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git
-c37cfd55324628b3226d297e949f5307acb787f2 Merge branch 'clk-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-4bdb367d673ed9f8ca8c303f0ec8fca644ee7153 Merge branch 'tip/urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git
-
---===============1578103819048845554==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89be9a83ccf1-f9af7b5d9349.txt
-
-8346c6af27f1c1410eb314f4be5875fdf1579a10 platform/x86: alienware-wmi-wmax: Fix `dmi_system_id` array
-3ebed2fddf6fac5729ffc8c471c87d111b641678 power: supply: core: Add power_supply_get/set_property_direct()
-a5f354232118751fe43be6ac896f8d6e7d7418b5 power: supply: test-power: Test access to extended power supply
-d4e83784b2a9be58b938d55efb232d2751c4cab4 platform/x86: dell-ddv: Fix taking the psy->extensions_sem lock twice
-44e6ca8faeeed12206f3e7189c5ac618b810bb9c platform/mellanox: mlxbf-pmc: Remove newline char from event name input
-f8c1311769d3b2c82688b294b4ae03e94f1c326d platform/mellanox: mlxbf-pmc: Validate event/enable input
-0e2cebd72321caeef84b6ba7084e85be0287fb4b platform/mellanox: mlxbf-pmc: Use kstrtobool() to check 0/1 input
-9533b789df7e8d273543a5991aec92447be043d7 platform/x86: ideapad-laptop: Fix FnLock not remembered among boots
-e10981075adce203eac0be866389309eeb8ef11e platform/x86: ideapad-laptop: Fix kbd backlight not remembered among boots
-c86f7bb92f1ffbacb18634356bf0573047eab6a0 lenovo-wmi-hotkey: Avoid triggering error -5 due to missing mute LED
-bc48d79a1829ac5a79cc3d1eb8bf30c0ae9b3bcd platform: arm64: huawei-gaokun-ec: fix OF node leak
-2bfe3ae1aa45f8b61cb0dc462114fd0c9636ad32 platform/x86: Fix initialization order for firmware_attributes_class
-dbfb567f4ae86f4acc4644984ec5b59086060b99 platform/x86: alieneware-wmi-wmax: Add AWCC support to more laptops
-aef9da333823f70b074e36a94c6e85f5c55e5477 platform/x86: dell-lis3lv02d: Add Precision 3551
-e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and SBL drivers
-964ebc07c546c76b78aea5b6dff0d02c602d4793 Merge tag 'platform-drivers-x86-v6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-e09a335a819133c0a9d6799adcf6d51837a7da2d fix the regression in ufs options parsing
-01a412d06bc5786eb4e44a6c8f0f4659bd4c9864 Merge tag 'pull-ufs-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-5a53249d149f48b558368c5338b9921b76a12f8c KVM: x86/xen: Fix cleanup logic in emulation of Xen schedop poll hypercalls
-f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-
---===============1578103819048845554==--
+--===============3195104924939430633==--
