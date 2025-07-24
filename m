@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 24 Jul 2025 08:02:57 -0000
-Message-Id: <175334417779.897067.9117163736206566172@gitolite.kernel.org>
+Date: Thu, 24 Jul 2025 08:17:10 -0000
+Message-Id: <175334503090.908799.6946271312975500686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,11 @@ repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
   - ref: refs/heads/bugfix/common
-    old: 69f3464f51b70710ef6552181cc2399dcc6b0144
-    new: f2b9759a2a13a2c7d475190285e5b9148ce3e4de
+    old: f2b9759a2a13a2c7d475190285e5b9148ce3e4de
+    new: ccdd5c580deb5ee17cd4bd146637c98b6817df78
     log: |
-         60f7705f47054ef70e33fe3f62139d61447ae473 f2fs: fix to update upper_p in __get_secs_required() correctly
-         3097c0e2b60fc3ed1b58e7a1d55c4c6f6c30bb04 f2fs: fix to calculate dirty data during has_not_enough_free_secs()
-         c8db08c720fe0469a0ea431d8a75e91b20cc0fed f2fs: fix to trigger foreground gc during f2fs_map_blocks() in lfs mode
-         8b3a402dbcb4d7b7d08adba7fd25226a6f4057a8 f2fs: fix to do sanity check on node footer in read_end_io
-         f2b9759a2a13a2c7d475190285e5b9148ce3e4de f2fs: cover f2fs_update_inode_page() w/ node_change lock
+         71d2b5cc8a160e4d7db84800129d5c7825342ebb f2fs: avoid redundant clean nat entry move in lru list
+         b348212191df54990b738db11781794eb350a09a f2fs: directly add newly allocated pre-dirty nat entry to dirty set list
+         0da639fdb2a0ffd6d9e83db79ba840a3c77f6db4 f2fs: remove unnecessary tracepoint enabled check
+         ccdd5c580deb5ee17cd4bd146637c98b6817df78 f2fs: merge the two conditions to avoid code duplication
          
