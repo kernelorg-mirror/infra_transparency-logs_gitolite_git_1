@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4411573786880973155=="
+Content-Type: multipart/mixed; boundary="===============2382308949499044222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 24 Jul 2025 23:32:29 -0000
-Message-Id: <175339994966.1703724.4292427553455158255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 24 Jul 2025 23:32:33 -0000
+Message-Id: <175339995361.1703938.2247763164818161073@gitolite.kernel.org>
 
---===============4411573786880973155==
+--===============2382308949499044222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 317fb4c3871b27454f04d67bfd0f388fcc5783e7
     new: f54b69a57a77c301a1013a22257357d9294a1fdc
     log: |
@@ -29,28 +29,28 @@ changes:
          f54b69a57a77c301a1013a22257357d9294a1fdc spi: sophgo: Add SPI NOR controller for SG2042
          
 
---===============4411573786880973155==
+--===============2382308949499044222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1753399990 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1753399947-e02355d85c1b33ce4576d88d62952f082f88447b
+pusher C3F436CA30F5D8EB 1753399994 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1753399951-0c19f06ae16a0ee9c7989951638e761e14ff95fb
 
-317fb4c3871b27454f04d67bfd0f388fcc5783e7 f54b69a57a77c301a1013a22257357d9294a1fdc refs/heads/for-6.17
+317fb4c3871b27454f04d67bfd0f388fcc5783e7 f54b69a57a77c301a1013a22257357d9294a1fdc refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiCwrYACgkQJNaLcl1U
-h9AsTwf+KsAVmnV8heFaBrspZG6nVg87YfgCHZr99UtG8xvkC068zHywnGQu6Xq0
-WAlw3L2+sedhBs95LuQRrZ2EtgmNZlce/+6pbzChv4yf4ZjJg2xhcJPDJHTgwst4
-dxOO0byuSft+JcqFJo3WRN+bKVydE36x1JU2MRCsinXClMXKYHyuJzXhAbkVIlqY
-Y4l0l5rnfM+B4gGbQu9TOR2cB6Y1TUm9b9b6HBuipapmtZ3ERvGw4x/Uy2NTr27K
-+b1TPDpqUNTbc3YLNCuaDMW2yrtj2peMGPAI1fHCRf5YjfoTVnj1SZl9P/2R7E/A
-6O/9Jt8pK9yCqT6zmLHi+SQfakgv/A==
-=YxAZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiCwroACgkQJNaLcl1U
+h9DnMAf/fUCVJrTi7k9zkYVTr9DPNWfsSdFZAQnYWb1k8EfsPRj3tHPRDFuKFxP8
+rdDC11iFIu413ojh28lceHDQ7Gijv24AvQcSLFhbC1f/QXlRTlMtYDS5zu9PvMYP
+1A/vPD5G67vPHR4gbNAEZA7FJii1IxEmhE5Gb2XadWfEx01Fd3NyN8Nah+qJebv7
+oFSVomGo0N4CaDF/FcCGYCnH0Py4rOu5L98nAsO8kt3nnnJXGgfEwpkbDxLlrRcl
+4LOjTcTys381lHAwfVZNToUoFRqD/xZO4zpN5kFGKzy+vSBAGNrEiY0yvQTqRuAO
+ERC4SQXy8jOFm3bs7GoqeIyhzoPYkg==
+=D3JD
 -----END PGP SIGNATURE-----
 
---===============4411573786880973155==--
+--===============2382308949499044222==--
