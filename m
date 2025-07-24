@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 24 Jul 2025 20:30:03 -0000
-Message-Id: <175338900335.1541273.4364962518593217024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 24 Jul 2025 20:53:28 -0000
+Message-Id: <175339040825.1559602.4546286305038810604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: cd13141c95c6ec68ce3d72f06ff2a181911866d1
-    new: da772d62b295acbca12823c7e6e45534220f9c87
+    old: 33bb9b1ce6f612e7e71b835db3e1fc2533f6da55
+    new: 1f3837de85e7b3667a97d8e5a86d2fe95d038f81
     log: |
-         da772d62b295acbca12823c7e6e45534220f9c87 client/mgmt: Print UUID and flags when showing experimental features
+         e74375b59a51b75544b046a3a431f09f3ead32c6 Bluetooth: btintel: Add support for BlazarIW core
+         05f7f943371872ffbd7d224a8d2faed294fbeb34 Bluetooth: ISO: Fix getname not returning broadcast fields
+         1f3837de85e7b3667a97d8e5a86d2fe95d038f81 Bluetooth: hci_sync: Fix scan state after PA Sync has been established
          
