@@ -1,63 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============7163233213500210575=="
+Content-Type: multipart/mixed; boundary="===============1608848995978663529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 25 Jul 2025 08:55:06 -0000
-Message-Id: <175343370651.2196378.832761721534127499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Fri, 25 Jul 2025 09:05:32 -0000
+Message-Id: <175343433226.2205430.13055530841821379755@gitolite.kernel.org>
 
---===============7163233213500210575==
+--===============1608848995978663529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/usb-next
-    old: ea83bf05873fa6301267324803ad592365e6c0cb
-    new: 51d4b0a44c82e5eff056ef76acd2c3c605a8eb74
+  - ref: refs/heads/virtio/msg-rfc-v1
+    old: afb50a76e44031c2d769b8f0716429104a1b137c
+    new: 3563de17be2515b0931ad343ce94c537d784628c
     log: |
-         7919407eca2ef562fa6c98c41cfdf6f6cdd69d92 usb: xhci: print xhci->xhc_state when queue_command failed
-         7b4b5591d4551efe16fe4fed00f69db5d4e8a2b4 usb: gadget: udc: renesas_usb3: drop unused module alias
-         22fcf88b02e262d3b41215ebc70912b0482aef95 usb: musb: omap2430: enable compile testing
-         086a0e516f7b3844e6328a5c69e2708b66b0ce18 usb: dwc3: imx8mp: fix device leak at unbind
-         93b400f4951404d040197943a25d6fef9f8ccabb usb: dwc3: meson-g12a: fix device leaks at unbind
-         868837b0a94c6b1b1fdbc04d3ba218ca83432393 usb: gadget: udc: renesas_usb3: fix device leak at unbind
-         1473e9e7679bd4f5a62d1abccae894fb86de280f usb: musb: omap2430: fix device leak at unbind
-         51d4b0a44c82e5eff056ef76acd2c3c605a8eb74 usb: musb: omap2430: clean up probe error handling
+         3b5d495e7f4294489ba8b58b794c90829d60712a virtio: Add support for virtio-msg transport
+         3a005646601672d82409dd4e38c1f7ee6150ff8b virtio-msg: Add optional userspace interface for message I/O
+         c428d679edd9667f1928948c8ac7eb422612cfa9 virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
+         3563de17be2515b0931ad343ce94c537d784628c virtio-msg: Add support for loopback bus
          
+  - ref: refs/heads/virtio/msg-v2
+    old: 24569d823e6581a169bffb927f2c0e7c566f8a5c
+    new: 28b13ddcf022d3bb9fea037bc075a1c21553608d
+    log: |
+         3b5d495e7f4294489ba8b58b794c90829d60712a virtio: Add support for virtio-msg transport
+         3a005646601672d82409dd4e38c1f7ee6150ff8b virtio-msg: Add optional userspace interface for message I/O
+         c428d679edd9667f1928948c8ac7eb422612cfa9 virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
+         3563de17be2515b0931ad343ce94c537d784628c virtio-msg: Add support for loopback bus
+         f68a80a83b49f4ceba72170e2c163008b8498952 virtio-msg: ffa: Poll for events if indirect messages aren't supported
+         28b13ddcf022d3bb9fea037bc075a1c21553608d virtio-msg: ffa: Add support for DMA ops and memory sharing
+         
+  - ref: refs/heads/virtio/msg-v2-xen
+    old: 7de2e61d73c3a756ec1e05c75a960c30c30b112d
+    new: 234030b70c0494b5e5aca835c0e5e73ff6e4bf5e
+    log: revlist-7de2e61d73c3-234030b70c04.txt
 
---===============7163233213500210575==
+--===============1608848995978663529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7de2e61d73c3-234030b70c04.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753433748 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1753433705-e18e50cdea502d974579f7f44607085c12915f24
+3b5d495e7f4294489ba8b58b794c90829d60712a virtio: Add support for virtio-msg transport
+3a005646601672d82409dd4e38c1f7ee6150ff8b virtio-msg: Add optional userspace interface for message I/O
+c428d679edd9667f1928948c8ac7eb422612cfa9 virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
+3563de17be2515b0931ad343ce94c537d784628c virtio-msg: Add support for loopback bus
+f68a80a83b49f4ceba72170e2c163008b8498952 virtio-msg: ffa: Poll for events if indirect messages aren't supported
+28b13ddcf022d3bb9fea037bc075a1c21553608d virtio-msg: ffa: Add support for DMA ops and memory sharing
+09891e85040f41ba13a83a207f07c2d61ded77c3 virtio-msg: ffa: Add support for passive mode
+5b299c5731074983e4c4c976cb427dcf0ce2aca4 HACK: firmware: arm_ffa: Partitions can come online after the host
+78bcdde64a89ac0b29c9ad43d26069fa7efc532d HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
+912256c90d0992b15283d5fbbe228db0b9649113 TEMP: defconfig: Reset
+453ae24a0ace3959a9053ab0ca7bafec1f606fb2 TEMP: defconfig: Enable virtio-msg + qemu/xen options
+234030b70c0494b5e5aca835c0e5e73ff6e4bf5e TEMP: defconfig: Enable INITRAMFS for guest kernel
 
-ea83bf05873fa6301267324803ad592365e6c0cb 51d4b0a44c82e5eff056ef76acd2c3c605a8eb74 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiDRpQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yv8P/1aV/h63n21KpovebYoy
-l+6YxzkxvJTN2oxsHXzlcPPfZKsy+ZhQUtkaiToN6Njr9Phiu0GbrHVWarqT+l1P
-b2B1N+oXMs8HKn94DrmqMzSdLjOosqxXAg4uu7ho9/B3OrKY4iRae+bKTHE2w3I1
-WceWBb2YEekaEQ64gCUGoF1obIxmigF4csDI+gKWo/dmZPIYEcBOSr+EbePs6+Xa
-Yj8tcpq1IvnKY9fdYoZF9r0e01rFwbYPl8dDFYqD5xqZ8y6Baj8/QhzFbGwMmXGR
-sFEaA4wsHIFEHOAqUCF8N42t8gna8bi5nLk725HUuRY/hKWsEs9oPlqjJRSmZuak
-XAc6/MyvTFUokLKNnRrIQQui5EexTlcYtx+y72WYJEKkSBCxxh/9oA7LHP3bQ0P8
-xucZPxk8yua/tHr+iAQBj31htEiyOKfAv8582YeTGHWs6R4EAox2jK6Y6ftlIgfW
-vMMaiDmSBCdGYUO1VnsWZTD8MnLIG9UUS3IsbFPI1OTXVBHu/eWk75/pDklK8MwC
-kl6PvAP4vmKHbfjofZyJnumefEAXk1g4kwy4YuHGp1E6IedgJCjYqL4NleZhX8Bt
-Tsb2hunNJ3z1+enXuzKphv5c6kzB66xAzjeLFLcEk/3pGs7VC8B9k78i9uwDpkUA
-cIu9w1syXWUSODWYgXIjhX9v
-=qihC
------END PGP SIGNATURE-----
-
---===============7163233213500210575==--
+--===============1608848995978663529==--
