@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 25 Jul 2025 23:09:00 -0000
-Message-Id: <175348494045.2964117.2019787386506707595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Fri, 25 Jul 2025 23:21:58 -0000
+Message-Id: <175348571851.2975817.249232432762050356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/main
-    old: bf3c032bfe16489abe38986e2c05fb5f9073319f
-    new: e9e91870ac21ad7941774b62e2b9af2658dc503c
+  - ref: refs/heads/for-linus
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 736a0516a16268995f4898eded49bfef077af709
     log: |
-         fdb7f139864aa332ea8f161beb636dc0599c64f2 ice, libie: move generic adminq descriptors to lib
-         5b36bef444432b75e7285e33338eb8bad53fe152 ixgbe: use libie adminq descriptors
-         b46012a20006a689529b6b51e05a8ad5320f7e7c i40e: use libie adminq descriptors
-         0eb61b3569229c31b06c58fd3bb58a79721ba91a iavf: use libie adminq descriptors
-         5feaa7a07b85ebbef418ba4b80e4e0d23dc379f5 libie: add adminq helper for converting err to str
-         e99c1618f9dfc0ec87660f8df1dc83693f2724ff ice: use libie_aq_str
-         43a11306323402757101a3e97d7a5cc77352505c iavf: use libie_aq_str
-         026cea3c61c2d42f47665bf8b1e2357f4bfb812d i40e: use libie_aq_str
-         e9e91870ac21ad7941774b62e2b9af2658dc503c Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         d3ed6d6981f4756f145766753c872482bc3b28d3 hfs: fix not erasing deleted b-tree node issue
+         2eafb669da0bf71fac0838bff13594970674e2b4 hfsplus: make splice write available again
+         4c831f30475a222046ded25560c3810117a6cff6 hfs: make splice write available again
+         fcb96956c921f1aae7e7b477f2435c56f77a31b4 hfsplus: remove mutex_lock check in hfsplus_free_extents
+         4c6a567cb8e8e0eb7fc559e8cecbae7d83aaafbb hfsplus: don't set REQ_SYNC for hfsplus_submit_bio()
+         c7c6363ca186747ebc2df10c8a1a51e66e0e32d9 hfsplus: don't use BUG_ON() in hfsplus_create_attributes_file()
+         94458781aee6045bd3d0ad4b80b02886b9e2219b hfsplus: fix slab-out-of-bounds read in hfsplus_uni2asc()
+         c80aa2aaaa5e69d5219c6af8ef7e754114bd08d2 hfsplus: fix slab-out-of-bounds in hfsplus_bnode_read()
+         a431930c9bac518bf99d6b1da526a7f37ddee8d8 hfs: fix slab-out-of-bounds in hfs_bnode_read()
+         736a0516a16268995f4898eded49bfef077af709 hfs: fix general protection fault in hfs_find_init()
          
