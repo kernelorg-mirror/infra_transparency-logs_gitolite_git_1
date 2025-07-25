@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 25 Jul 2025 08:10:18 -0000
-Message-Id: <175343101878.2157109.3972672549997890031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 25 Jul 2025 08:38:47 -0000
+Message-Id: <175343272712.2178317.15771914066388232120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 678bae2eaa812662929a83b3de399645e9de93ad
-    new: 4740e1e2f320061c2f0dbadc0dd3dfb58df986d5
-    log: |
-         4740e1e2f320061c2f0dbadc0dd3dfb58df986d5 gpio: virtio: Fix config space reading.
-         
+  - ref: refs/tags/vfs-6.16-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: bbf8d188c1bac61d9d6abaa83c54aef04da6acca
