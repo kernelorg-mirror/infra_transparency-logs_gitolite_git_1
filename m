@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5746864462900874499=="
+Content-Type: multipart/mixed; boundary="===============6141321580064325882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 25 Jul 2025 23:33:55 -0000
-Message-Id: <175348643592.2985474.16059962944133079812@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 23:45:05 -0000
+Message-Id: <175348710560.2996366.14523910462930312728@gitolite.kernel.org>
 
---===============5746864462900874499==
+--===============6141321580064325882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,35 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e9e91870ac21ad7941774b62e2b9af2658dc503c
-    new: ecc383e5fe060f1aaad0e4e4ae36ad1c899e948d
-    log: revlist-e9e91870ac21-ecc383e5fe06.txt
+    old: ecc383e5fe060f1aaad0e4e4ae36ad1c899e948d
+    new: c6dc26df6b4883de63cb237b4070feba92b01a87
+    log: revlist-ecc383e5fe06-c6dc26df6b48.txt
 
---===============5746864462900874499==
+--===============6141321580064325882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9e91870ac21-ecc383e5fe06.txt
+Content-Disposition: attachment; filename=revlist-ecc383e5fe06-c6dc26df6b48.txt
 
-21e9b7d11218e7ba009e74bf51abacf0534f5626 can: janz-ican3: use sysfs_emit() in fwinfo_show()
-7cae4d04717b002cffe41169da3f239c845a0723 can: ti_hecc: fix -Woverflow compiler warning
-0e7896b95f2bd7deb0e66074f6acc1de4f69da1e can: ti_hecc: Kconfig: add COMPILE_TEST
-5323af351e7524497930b7793153ff68ee5c0ec1 can: tscan1: Kconfig: add COMPILE_TEST
-4be430b2659b6d25df1cae46ed5b86bed72755f7 Merge patch series "can: Kconfig: add missing COMPILE_TEST"
-b7d012e59627c1d1bb2ad5d71efc69a070ef767d can: tscan1: CAN_TSCAN1 can depend on PC104
-2db7a52ca9ed89cd0f762b21f79266f02d613fae docs: Fix kernel-doc error in CAN driver
-44f0b630f67eceb77b4f037e5db4020cc2795d65 can: kvaser_pciefd: Add support to control CAN LEDs on device
-e74249a00bf1afa27e3a77dcce770806d2bba7c4 can: kvaser_pciefd: Add support for ethtool set_phys_id()
-69a2cb633c27ae6d6355c7fe658535382221f480 can: kvaser_pciefd: Add intermediate variable for device struct in probe()
-5131f18ffa97b50953ab38f464fdaa179e4bcdf7 can: kvaser_pciefd: Store the different firmware version components in a struct
-d54b16b40ddadb7d0a77fff48af7b319a0cd6aae can: kvaser_pciefd: Store device channel index
-20bc87ae514938ce18619f653ef6b4cefa67880c can: kvaser_pciefd: Split driver into C-file and header-file.
-0d1b337b6d6c515555d6abba546e39138f36b111 can: kvaser_pciefd: Add devlink support
-3d68ecf4173cc42159d32ea0d6d35d4924089003 can: kvaser_pciefd: Expose device firmware version via devlink info_get()
-6271c8b8273009de2b004ace8208972aa6d93069 can: kvaser_pciefd: Add devlink port support
-fed552478e6fbefcf0416143ed054bdbfc50fb52 Documentation: devlink: add devlink documentation for the kvaser_pciefd driver
-46647a840538b1e019873d6097590e5b1b73e7a0 Merge patch series "can: kvaser_pciefd: Simplify identification of physical CAN interfaces"
-478248f1bc0c43b9488164fc8cccc54b07c7511f can: kvaser_usb: Add support to control CAN LEDs on device
-3d7a3de9eba406fb01690b27f880d9597301f0d0 can: kvaser_usb: Add support for ethtool set_phys_id()
-c151b06a087a61c7a1790b75ee2f1d6edb6a8a45 can: kvaser_usb: Assign netdev.dev_port based on device channel index
-827158a67c86ba26be220710e5f8bcbf709a6103 can: kvaser_usb: Add intermediate variables
-7506789c5335f21a57d9f7c1b4c5fe97c6688dfe can: kvaser_usb: Move comment regarding max_tx_urbs
-280eba332b3623f7a716de8b244c54c66fbb97f0 can: kvaser_usb: Store the different firmware version components in a struct
-0020f2ba40994d2ce30a2eaa7dcb950b7e132e11 can: kvaser_usb: Store additional device information
-9505a83fc4e126303238d069d15731f9d2345c74 can: kvaser_usb: Add devlink support
-8720aed90c874b1c21ca776591b3341f226f89dd can: kvaser_usb: Expose device information via devlink info_get()
-aa6a5c995e162469718de93c7ec0a2d2ac86271d can: kvaser_usb: Add devlink port support
-6304c4c8476d5a7339ba1839f6cded72208fce57 Documentation: devlink: add devlink documentation for the kvaser_usb driver
-ecd82dfb4ccdfab7ecafcdb02b3b388dbaff4396 Merge patch series "can: kvaser_usb: Simplify identification of physical CAN interfaces"
-ecc383e5fe060f1aaad0e4e4ae36ad1c899e948d Merge tag 'linux-can-next-for-6.17-20250725' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+aa5840167780a315f8a050b77f41acb852465e2d netfilter: conntrack: table full detailed log
+e89a68046687fe9913ce3bfad82f7ccbb65687e0 netfilter: load nf_log_syslog on enabling nf_conntrack_log_invalid
+031a712471943ce780a7fc56e35b68cf77243e1e netfilter: x_tables: Remove unused functions xt_{in|out}name()
+bf6788742b8d6c73de441e088a71de7154f0d4aa netfilter: nf_tables: Remove unused nft_reduce_is_readonly()
+29f0f4cefc28611f260fe5c305fcfa0568655135 netfilter: conntrack: Remove unused net in nf_conntrack_double_lock()
+9fce66583f06c212e95e4b76dd61d8432ffa56b6 netfilter: Exclude LEGACY TABLES on PREEMPT_RT.
+3c3ab65f00ebf7859d93e29980eb9a9c5bc64642 selftests: net: Enable legacy netfilter legacy options.
+ba71a6e58b38aa6f86865d4e18579cb014903692 selftests: netfilter: Enable CONFIG_INET_SCTP_DIAG
+bfabc4f70ee72809f1de662e971ac55648981a31 ipvs: Rename del_timer in comment in ip_vs_conn_expire_now()
+b65504e7cf0a99eb75bbed0d1ef22950c080d84a netfilter: nfnetlink: New NFNLA_HOOK_INFO_DESC helper
+bc8c43adfdc57c8253884fc1853cb6679cd5953d netfilter: nfnetlink_hook: Dump flowtable info
+7792c1e03054440c60d4bce0c06a31c134601997 netfilter: nft_set_pipapo: remove unused arguments
+17a20e09f086f2c574ac87f3cf6e14c4377f65f6 netfilter: nft_set: remove one argument from lookup and update functions
+531e61312104d991459af73c838396db26aa3550 netfilter: nft_set: remove indirection from update API call
+d8d871a35ca9ee4881d34995444ed1cb826d01db netfilter: nft_set_pipapo: merge pipapo_get/lookup
+897eefee2eb73ec6c119a0ca357d7b4a3e92c5ef netfilter: nft_set_pipapo: prefer kvmalloc for scratch maps
+bf58e667af7d96c8eb9411f926a0a0955f41ce21 netfilter: xt_nfacct: don't assume acct name is null-terminated
+8d1c91850d064944ab214b2fbfffb7fc08a11d65 selftests: netfilter: Ignore tainted kernels in interface stress test
+8b4a1a46e84a17f5d6fde5c506cc6bb141a24772 selftests: netfilter: ipvs.sh: Explicity disable rp_filter on interface tunl0
+c6dc26df6b4883de63cb237b4070feba92b01a87 Merge tag 'nf-next-25-07-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 
---===============5746864462900874499==--
+--===============6141321580064325882==--
