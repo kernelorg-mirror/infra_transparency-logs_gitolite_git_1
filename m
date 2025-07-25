@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Fri, 25 Jul 2025 19:31:18 -0000
-Message-Id: <175347187826.2774723.2610155745141235042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 25 Jul 2025 19:31:48 -0000
+Message-Id: <175347190813.2775222.15768994849580105555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/namhyung/linux-perf
-user: namhyung
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/perf/annotate-code-type-tui-v4
-    old: 0000000000000000000000000000000000000000
-    new: 07adba4510f7f8dcd07238e4e73acb36620c1642
+  - ref: refs/heads/ethos-v2
+    old: bff4262d3040954497b634029698e495b056d70a
+    new: a9040ad39ac14c0a3600fc39c5bec6c96ae2e77a
+    log: |
+         a9040ad39ac14c0a3600fc39c5bec6c96ae2e77a ethos: fix drm_mm splat on module unload
+         
