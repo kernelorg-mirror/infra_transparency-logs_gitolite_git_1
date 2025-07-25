@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7852950196663638999=="
+Content-Type: multipart/mixed; boundary="===============6970281220920132249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 25 Jul 2025 06:45:25 -0000
-Message-Id: <175342592503.2069419.14145281778156586312@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 06:46:20 -0000
+Message-Id: <175342598087.2070187.5740972767488360134@gitolite.kernel.org>
 
---===============7852950196663638999==
+--===============6970281220920132249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7ec401d5b972171735754ba4c475bc674108f066
-    new: 68b65ff2eb98613a746221f79bb61c0f33b38103
-    log: revlist-7ec401d5b972-68b65ff2eb98.txt
+    old: 68b65ff2eb98613a746221f79bb61c0f33b38103
+    new: 07974689a9f40100c87ae9d147101e13e653f120
+    log: revlist-68b65ff2eb98-07974689a9f4.txt
+  - ref: refs/heads/tip/urgent
+    old: 81d1d9c76d06c033468f25cee7a0f0e72a151123
+    new: dae20c68fd874295e64e2309ff1fbeae4a83210d
+    log: revlist-81d1d9c76d06-dae20c68fd87.txt
 
---===============7852950196663638999==
+--===============6970281220920132249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ec401d5b972-68b65ff2eb98.txt
+Content-Disposition: attachment; filename=revlist-68b65ff2eb98-07974689a9f4.txt
+
+dae20c68fd874295e64e2309ff1fbeae4a83210d Merge branch into tip/master: 'timers/urgent'
+bf7ab9735934bb78312f67c7864d6eb2f65e11e2 Merge branch into tip/master: 'x86/merge'
+ebe6d2db6b6630396a9c809cb17d34077e54dc1a Merge branch into tip/master: 'core/merge'
+09f92b649d841c4bceb3a79309733f5bb2bb22c6 Merge branch into tip/master: 'core/bugs'
+caaf7a24199e2b9c97d02506a8be53e6b2aa0fba Merge branch into tip/master: 'irq/core'
+3a7a3bb5898a70af13d40b910a34d0316cc53294 Merge branch into tip/master: 'irq/drivers'
+391a2ec6ca9e05d2b68cda5eb715079fbf107ec0 Merge branch into tip/master: 'irq/msi'
+8dc5015be25625f36f109a04d16e7d1c0f546590 Merge branch into tip/master: 'locking/core'
+99adf610a784ffc97b962b1a3ba15522783fb160 Merge branch into tip/master: 'locking/futex'
+a4ec9a60d0cf2efdade268f49f744e0b3f90788f Merge branch into tip/master: 'perf/core'
+ba8de82319ce69045b0052c819ec63e0c8ce2258 Merge branch into tip/master: 'sched/core'
+db7db1c5489104ba49149430e52d73ebae017efc Merge branch into tip/master: 'smp/core'
+e6e055c419ed3998c4da8e049508436a89380791 Merge branch into tip/master: 'timers/cleanups'
+b19371214dee4674a0b6d1b3b46d960cdf691dff Merge branch into tip/master: 'timers/core'
+99d6e20cb4e5ebabc0f56f61fefba6cd32bb558c Merge branch into tip/master: 'timers/ptp'
+91f9ec66feedc35c14c60f9303952afcc0562b92 Merge branch into tip/master: 'timers/vdso'
+18da987933947bdd44eda426e354fd0d1411cf74 Merge branch into tip/master: 'x86/boot'
+d8a697dd30282d3b6222151ca9cc7b3db7c4167d Merge branch into tip/master: 'x86/bugs'
+f9fb62f2d1675c9e5949a707d8408287424e1aa7 Merge branch into tip/master: 'x86/cleanups'
+4c0c7fb33f71ad637f6ef79b2c54fa80ede0368f Merge branch into tip/master: 'x86/core'
+260cd32baa987214afcc10a8003c7845b73d055d Merge branch into tip/master: 'x86/fpu'
+91019219eead39abc1597f3f818d8e9e6bd5e52b Merge branch into tip/master: 'x86/kconfig'
+ce9f8efa3004b32c7b473ed43c49916bbf8eebe1 Merge branch into tip/master: 'x86/microcode'
+1d9718c537c8b7ec25fbe7bedca1296d4e5f1d99 Merge branch into tip/master: 'x86/platform'
+07974689a9f40100c87ae9d147101e13e653f120 Merge branch into tip/master: 'x86/sev'
+
+--===============6970281220920132249==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-81d1d9c76d06-dae20c68fd87.txt
 
 94d077c331730510d5611b438640a292097341f0 xfrm: state: initialize state_ptrs earlier in xfrm_state_find
 7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2 xfrm: state: use a consistent pcpu_id in xfrm_state_find
@@ -97,6 +133,6 @@ dd9c17322a6cc56d57b5d2b0b84393ab76a55c80 Merge tag 'sound-6.16' of git://git.ker
 91a229bb7ba86b2592c3f18c54b7b2c5e6fe0f95 resource: fix false warning in __request_region()
 0dec7201788b9152f06321d0dab46eed93834cda sprintf.h requires stdarg.h
 2942242dde896ea8544f321617c86f941899c544 Merge tag 'mm-hotfixes-stable-2025-07-24-18-03' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-68b65ff2eb98613a746221f79bb61c0f33b38103 Merge branch 'linus'
+dae20c68fd874295e64e2309ff1fbeae4a83210d Merge branch into tip/master: 'timers/urgent'
 
---===============7852950196663638999==--
+--===============6970281220920132249==--
