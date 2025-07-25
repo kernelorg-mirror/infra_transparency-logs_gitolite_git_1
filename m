@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 25 Jul 2025 12:36:01 -0000
-Message-Id: <175344696108.2385285.6605435344655729087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 25 Jul 2025 12:42:00 -0000
+Message-Id: <175344732072.2389955.1778804422697722335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: b93016d9d8e069a6515a86db8fbc61b3fa93845b
-    new: ec856cecab2ed4bcbdba2b06a8c7cb5a52083c28
-    log: |
-         ec856cecab2ed4bcbdba2b06a8c7cb5a52083c28 Bump version to 2.12
-         
+  - ref: refs/heads/unused-tracepoints/for-next
+    old: 0000000000000000000000000000000000000000
+    new: 8c4e53a1a09374c232fe96232426226b2824f473
