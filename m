@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Fri, 25 Jul 2025 09:40:39 -0000
-Message-Id: <175343643918.2236248.6944417215587133270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 25 Jul 2025 09:45:29 -0000
+Message-Id: <175343672989.2240787.1976630119030900583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/landlock-6.17-rc1
+  - ref: refs/tags/sound-6.17-rc1
     old: 0000000000000000000000000000000000000000
-    new: d63417aec221929eaaaf7f0051b9d446e861d2ca
+    new: 4ae67a16bc763f62b43a76c48b85e38021ac36f9
