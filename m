@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0124590995174782222=="
+Content-Type: multipart/mixed; boundary="===============7401113013783415406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Jul 2025 16:34:02 -0000
-Message-Id: <175346124297.2616085.18108902842154211301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 25 Jul 2025 16:34:19 -0000
+Message-Id: <175346125989.2616543.11178613540374186443@gitolite.kernel.org>
 
---===============0124590995174782222==
+--===============7401113013783415406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.17
-    old: 9f711c9321cffe3e03709176873c277fa911c366
-    new: ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b
+  - ref: refs/heads/for-6.17
+    old: f54b69a57a77c301a1013a22257357d9294a1fdc
+    new: 87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5
     log: |
-         ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b regmap: Annotate that MMIO implies fast IO
+         87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5 spi: intel: Allow writeable MTD partition with module param
          
 
---===============0124590995174782222==
+--===============7401113013783415406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1753461284 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1753461240-c279a326918a7a212a2b6c60435761b297a95b73
+pusher Mark Brown <broonie@kernel.org> 1753461301 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1753461257-8e432697f6be90e4618f75d4495a3789e017385d
 
-9f711c9321cffe3e03709176873c277fa911c366 ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b refs/heads/regmap-6.17
+f54b69a57a77c301a1013a22257357d9294a1fdc 87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5 refs/heads/for-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiDsiQTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GCWB/40PlbM+UnpRHUGg3sLF/LtHzNFNBmn
-PG9aXmK+Y7ty08tpylXuleEOSI/jwtqzyH5wHL1wIBZre6Bq/L6R5vXliQfpAmI3
-z65BZ8DOSG3FnJKMnPezZiSLf/f03zbJDw3/FmTs2Jra8JYkVeBXi957us1PoWxi
-64AxOiasUKbuEdm1qJ8ZzzeCmFfBODdWkN6ixd87vQgxCDOUOUaq/R2OefIbPFFQ
-OH9H1DdUSxLdkrBHbUY6kNe3PfYgRHauJmbRtw8TkQIo/wZDF8P31qNZoUosGn++
-92+iBpYlX6XHcpPDRh+5Nqp1BXfarbnnuo/GBZxY3/1mIM/Xuz0DCLPF
-=uyMQ
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiDsjUTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0CbXB/wNXuxRH5pTuDgvNVRN6N74b/2k149U
+1SyVAhE8Wvo6AvC/4CXS70OTFXnvzzMMrYNEK/R1mMcU+aOjOPG3JheWWeHxdPYK
+QkNLVkPXePzneMaWupVxSdLOKvE5UncNFyuN/oK6D8y+nuk2MQrn+jvF9gX1jP2u
+KlslbGoHKgWde4Sfl0oJR3ubDJgRp4CgZc4inuJJkRhWKTQa94wGGf/3MoRc4YDB
++FsTlV3V5o1pHoqrRSIQ6dSXuWdROdcBXy8cUszDmt8ZUGGKPGADty0RU2KZtL3L
+YmqCRVHr1kPrYVnyN8QM3gqoSdRTNXlZNYSZb5inGGMZnw6yy/BwmbWL
+=T77F
 -----END PGP SIGNATURE-----
 
---===============0124590995174782222==--
+--===============7401113013783415406==--
