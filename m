@@ -1,43 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6074801676579230211=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
-Date: Fri, 25 Jul 2025 18:22:12 -0000
-Message-Id: <175346773247.2712944.7689542658590415820@gitolite.kernel.org>
-
---===============6074801676579230211==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 25 Jul 2025 18:30:44 -0000
+Message-Id: <175346824469.2720816.10754257764850096158@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sven/linux
-user: sven
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/b4/macsmc
-    old: 46988f29436ec007693fe3efb6ac9af66fec64e1
-    new: 0000000000000000000000000000000000000000
-
---===============6074801676579230211==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 44117D242A751EE9! 1753467770 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
-nonce 1753467727-6aaad79b6a5f5316d1920350e9a3971e2b7846c2
-
-46988f29436ec007693fe3efb6ac9af66fec64e1 0000000000000000000000000000000000000000 refs/heads/b4/macsmc
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaIPLegAKCRBEEX0kKnUe
-6Q2aAQCLu8xhE/ZKVD6R/uRd5x4HtOGgJG6JUQHZgjjJQj42rwD+Pg1bySIQqazl
-CTi0Un++d3UaMTpezNVZZjpGwTx9bAM=
-=xzFO
------END PGP SIGNATURE-----
-
---===============6074801676579230211==--
+  - ref: refs/heads/main
+    old: a75afcd188e1a7385c71f78d4e5e8d7b6bd9c2e4
+    new: 9312ee76490df61491fee19b5ce71f71b6de908c
+    log: |
+         5ec9b15d8dfa4992c6f9c26c1f96e69202d8fcb1 selftests: net: Skip test if IPv6 is not configured
+         c65c2e3bae6912b6baf8ea12eeace220e8e99b47 mptcp: track fallbacks accurately via mibs
+         829fec0244b4ca593ecfaf914e7245ce5b304ec3 mptcp: remove pr_fallback()
+         fada26496ede1d190f2843f4faa2d5f76e645ce6 Merge branch 'mptcp-track-more-fallback-cases'
+         9312ee76490df61491fee19b5ce71f71b6de908c octeontx2-af: use unsigned int as iterator for unsigned values
+         
