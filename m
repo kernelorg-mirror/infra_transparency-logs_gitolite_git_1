@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 25 Jul 2025 22:13:52 -0000
-Message-Id: <175348163278.2917778.1214989552326644366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 25 Jul 2025 22:29:07 -0000
+Message-Id: <175348254734.2930137.4145410921107425489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 460156c6cc40ade96f1c0e81c9974d1d67382333
-    new: 44bf798e6a3e7d34d8cd22d20094fa41be75b92b
+  - ref: refs/heads/main
+    old: cf51016ba8c343329f1495194fd1354d4c6e5cf1
+    new: 4020b7bafbb720c5ee5317ef395a7547aaddc67b
     log: |
-         2d442a0c781403702de27ccfbc4bb233721585f5 spi: SPISG: Fix less than zero comparison on a u32 variable
-         44bf798e6a3e7d34d8cd22d20094fa41be75b92b Merge remote-tracking branch 'spi/for-6.17' into spi-next
+         71670f766b8f4c1490e07ad4394e8e27c03b2e91 net/mlx5e: Support routed networks during IPsec MACs initialization
+         5474ca2118191abe27ba089737eace66a9b51d8f net/mlx5e: Expose TIS via devlink tx reporter diagnose
+         4020b7bafbb720c5ee5317ef395a7547aaddc67b Merge branch 'net-mlx5e-misc-changes-2025-07-22'
          
