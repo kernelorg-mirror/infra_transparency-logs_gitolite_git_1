@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5614231037870950177=="
+Content-Type: multipart/mixed; boundary="===============6927017031191865916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 25 Jul 2025 15:50:36 -0000
-Message-Id: <175345863625.2576730.3721863331242774990@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 15:50:39 -0000
+Message-Id: <175345863920.2576887.8626143384292577901@gitolite.kernel.org>
 
---===============5614231037870950177==
+--===============6927017031191865916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 94619ea2d933a2efeea5af63ec909bf2f1519a0e
     new: faa60990a5414e5a1957adc9434ca0e804ad700b
     log: revlist-94619ea2d933-faa60990a541.txt
 
---===============5614231037870950177==
+--===============6927017031191865916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -626,4 +626,4 @@ b4d52c698210ae1a3ceb487b189701bc70551a48 selftests: drv-net: Fix remote command 
 d74cd9a02f020a6263b12a4c9e0f846b679a2f13 selftests: drv-net: Make command requirements explicit
 faa60990a5414e5a1957adc9434ca0e804ad700b Merge branch 'selftests-drv-net-fix-and-improve-command-requirement-checking'
 
---===============5614231037870950177==--
+--===============6927017031191865916==--
