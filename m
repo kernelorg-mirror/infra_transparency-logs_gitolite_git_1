@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7401113013783415406=="
+Content-Type: multipart/mixed; boundary="===============3301868497642417458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 25 Jul 2025 16:34:19 -0000
-Message-Id: <175346125989.2616543.11178613540374186443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Jul 2025 16:34:26 -0000
+Message-Id: <175346126653.2617293.9340751388039310469@gitolite.kernel.org>
 
---===============7401113013783415406==
+--===============3301868497642417458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: f54b69a57a77c301a1013a22257357d9294a1fdc
     new: 87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5
     log: |
          87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5 spi: intel: Allow writeable MTD partition with module param
          
 
---===============7401113013783415406==
+--===============3301868497642417458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1753461301 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1753461257-8e432697f6be90e4618f75d4495a3789e017385d
+pusher Mark Brown <broonie@kernel.org> 1753461307 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1753461264-5f80e83c5747bae50505773e0fa06a904dbf4763
 
-f54b69a57a77c301a1013a22257357d9294a1fdc 87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5 refs/heads/for-6.17
+f54b69a57a77c301a1013a22257357d9294a1fdc 87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5 refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiDsjUTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0CbXB/wNXuxRH5pTuDgvNVRN6N74b/2k149U
-1SyVAhE8Wvo6AvC/4CXS70OTFXnvzzMMrYNEK/R1mMcU+aOjOPG3JheWWeHxdPYK
-QkNLVkPXePzneMaWupVxSdLOKvE5UncNFyuN/oK6D8y+nuk2MQrn+jvF9gX1jP2u
-KlslbGoHKgWde4Sfl0oJR3ubDJgRp4CgZc4inuJJkRhWKTQa94wGGf/3MoRc4YDB
-+FsTlV3V5o1pHoqrRSIQ6dSXuWdROdcBXy8cUszDmt8ZUGGKPGADty0RU2KZtL3L
-YmqCRVHr1kPrYVnyN8QM3gqoSdRTNXlZNYSZb5inGGMZnw6yy/BwmbWL
-=T77F
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiDsjsTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0PoWB/4/8IOf+9rmW2M8plrA+dD7T09b5wi7
+4xOwObeyxEG/vGo7tuXTeibfQRfq33hw3GSzi5C9qGtVlIzGfyZNkNjJOk9qDdUM
+f3F0Cp0iNeeEiKzOPYgaJB7Hh44iX7IapvzItCP/O/UOZikHuk8y4Sk/UmDvCYNc
+DqtBMhiiiqQhrgoq3fST1xkBqtbA+XMhWlcFaCdQeZh+CM8CqbjnU/2Qu2tcJyi3
+4Yqp8dJzzaA7d8fFNiYIwfL7U5lJxc7pkyhvXxfKSD8OS3N/V3LmhYERgrzA5CsF
+gBQ6Dx+KJVuBNhzC2zuMIev/AzOyOXhpENQegg2YCMWTuKFKn4Mmhklh
+=yYfN
 -----END PGP SIGNATURE-----
 
---===============7401113013783415406==--
+--===============3301868497642417458==--
