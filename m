@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 25 Jul 2025 07:41:47 -0000
-Message-Id: <175342930715.2116288.13280614116701552816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 25 Jul 2025 08:10:18 -0000
+Message-Id: <175343101878.2157109.3972672549997890031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 37c40a8b2bfd7fd1de481deb07c17c925d028135
-    new: 37a4ec3119c92a171794b1f4e96597119f7621a3
+  - ref: refs/heads/gpio/for-next
+    old: 678bae2eaa812662929a83b3de399645e9de93ad
+    new: 4740e1e2f320061c2f0dbadc0dd3dfb58df986d5
     log: |
-         37a4ec3119c92a171794b1f4e96597119f7621a3 Notes added by 'git notes add'
+         4740e1e2f320061c2f0dbadc0dd3dfb58df986d5 gpio: virtio: Fix config space reading.
          
