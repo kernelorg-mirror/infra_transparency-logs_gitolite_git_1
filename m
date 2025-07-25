@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4883813843742627551=="
+Content-Type: multipart/mixed; boundary="===============5677677995714812009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 25 Jul 2025 02:54:56 -0000
-Message-Id: <175341209677.1881502.14441823762006915349@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 02:55:19 -0000
+Message-Id: <175341211938.1883656.5395698462029927944@gitolite.kernel.org>
 
---===============4883813843742627551==
+--===============5677677995714812009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: d4bb28b1a50c1a10f588793364e78eefc71e51dc
-    new: 3ec167405ebbcfc620048ec870ab76e400099cdd
-    log: revlist-d4bb28b1a50c-3ec167405ebb.txt
+  - ref: refs/heads/6.17/scsi-staging
+    old: 3ea3a256ed81f95ab0f3281a0e234b01a9cae605
+    new: a28f98103890403717008a3a016744721f87b03e
+    log: revlist-3ea3a256ed81-a28f98103890.txt
 
---===============4883813843742627551==
+--===============5677677995714812009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1753412119 -0400
+pusher 75C5DE3D 1753412142 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1753412076-904afe3ffe0dee75165526559740fffba0c2d878
+nonce 1753412099-9a3b602f0864ef4675a1752950225499dde59a50
 
-d4bb28b1a50c1a10f588793364e78eefc71e51dc 3ec167405ebbcfc620048ec870ab76e400099cdd refs/tags/mkp-scsi-staging
+3ea3a256ed81f95ab0f3281a0e234b01a9cae605 a28f98103890403717008a3a016744721f87b03e refs/heads/6.17/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiC8hcACgkQ7ulgGnXF
-3j2tsA/9GE2ZpPToGzCNwWHOvFwubO4ViPoNVcnEcRKxKowhSeC4jaM/Kcny2UxL
-FwlVN1o6cIUFRLT6y9xrER3P0w0Dmsp3O9IpeomOxtSOq0EK43PLHqkYK/d2a7e7
-mhKaBScMsZVcBlEoH23ggv9k5/MzVSN+QyE0K7ER2zw1xyV84G2tqw1UPeKyEkFE
-KJRC8DaMafzKI+yGFY8RoURneT6wt3fzXi3fgX1tdPa8V2Vcn0qbFqLY8+MdGAG5
-kpdfsNuG9MxnkB94qrJbQxEHz93fkNVh4jLY0y11s6DyrcmILjULlvLNyB4ZfsiH
-oIrlc2MRNoMbQZfnC+/PEHxQLPgM/stFKBFjtyP5MrKoOaKQUOZ1E6k4SEoOTqhA
-jLAUNpYe4RpAFngJRDEwHeVwwg/6xglDSazHkVmvaegrCCaKciWEqgpqM5D4YTU2
-5G0FZJ8+tCokqtbT9pLWBxcWUbWxUINyue9EWdR1fPZbBy2KJj0WDlDDUrmfC7hT
-QuHEakGQ0thtdjsMxPZVMLsuwVkY8OvFQmTo/ioazBjuRywmFecgazpUJsXcX9Pg
-VYEjAZPY55+QYHQuoM7OVsZZZw30QGtIrVOCiKlJiNHJv5Pcy6FOock60qOUg7A7
-B6qscv8wcq88GIrPUy+UNyrQ5k4002PTnf1HpYznD7+2Q2dMjoA=
-=dH2U
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiC8i4ACgkQ7ulgGnXF
+3j1ELBAAqsWTbdsd7qV2/ihLept7rSx2t792VffCIisck19ml8UA0NpxIBnJnwzH
+Y8efkzOSyf1745+9gwYOjXyn46SFO1PcvgFTTT/xqwuW/Xpu72kcLkZaOkxueER2
+2ins05JX9+QicIFt7mXZmnlnYD033+8nlZJWHhPUrSu9FOYjM2On9dRKfl0nSJ9s
+UIAOwqNwO/thNJMoz2W7ST/LWbIRZJWMmSfmfatDDg1BFyzM315AAsZR/mkIWbsF
+Gr4PNeunpD4xRahIxwlT5Cr3xpsy7yQdM1Ue4NNX+grIWkyz2HkUrwHbFxgUB2sz
+rXP5Fxr9/2Gdr/uBKmBSxoblhIa5CORPKrYKiinoFVojZPeN4g8VJUyLuCeAKYcb
+btINfq9b/3mqxQNpHhDacrtJuZH6zCEcGFuPDA9HdVikAhP7EY4mZQWCq46p1lPP
+Zm3g1+H6Rr8sSpgqIsdJCVrxK2tiT17+1pw+Y98cLnVF0lW0Tyq1/+jWdH1rsidr
+btpY9qwj0JkZqe6C9OGd8RaLHFLwuTj7eEqfHQGPIDZQj6TO2H7frCLE+io4+GOB
+qu25826WTTa2Kb8WrfkRLBByJfBteZ1r6zrZhEIXoE2tOU9zZeKskbjRhJJrOd2Y
+S8FdGSgq5KXCrn04LKRL6AzrYyQaO4/Zo6ZgPPoLofQvM+PEzhA=
+=acPg
 -----END PGP SIGNATURE-----
 
---===============4883813843742627551==
+--===============5677677995714812009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4bb28b1a50c-3ec167405ebb.txt
+Content-Disposition: attachment; filename=revlist-3ea3a256ed81-a28f98103890.txt
 
 3e90b38781e3bdd651edaf789585687611638862 scsi: mpt3sas: Fix a fw_event memory leak
 33b3120cb20fde80bf601413b635f957c46ad631 scsi: ufs: qcom: Drop dead compile guard
@@ -90,4 +90,4 @@ aa8c53346e38bc3529f0773ee377efb8ea7b610a Merge patch series "scsi: ufs: ufs-pci:
 d01cfeac89e956b74e17dc9b1c8e10c0d3b4e403 scsi: dt-bindings: mediatek,ufs: add MT8195 compatible and update clock nodes
 a28f98103890403717008a3a016744721f87b03e scsi: arm64: dts: mediatek: mt8195: Add UFSHCI node
 
---===============4883813843742627551==--
+--===============5677677995714812009==--
