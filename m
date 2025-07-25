@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9060756713164936643=="
+Content-Type: multipart/mixed; boundary="===============3664552901550027883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 25 Jul 2025 15:40:04 -0000
-Message-Id: <175345800483.2566163.14226496673314071973@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 15:40:08 -0000
+Message-Id: <175345800802.2566287.2031694670007910704@gitolite.kernel.org>
 
---===============9060756713164936643==
+--===============3664552901550027883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 291d5dc80eca1fc67a0fa4c861d13c101345501a
     new: c8f13134349b4385ae739f1efe403d5d3949ef92
     log: revlist-291d5dc80eca-c8f13134349b.txt
 
---===============9060756713164936643==
+--===============3664552901550027883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -323,4 +323,4 @@ f9af7b5d9349bf92cc4d0a0baa8a151295f12f4b Merge tag 'for-linus' of git://git.kern
 b25b44cd178cc54277f2dc0ff3b3d5a37ae4b26b selftests: drv-net: tso: fix non-tunneled tso6 test case name
 c8f13134349b4385ae739f1efe403d5d3949ef92 Merge branch 'selftests-drv-net-tso-fix-issues-with-tso-selftest'
 
---===============9060756713164936643==--
+--===============3664552901550027883==--
