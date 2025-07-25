@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Jul 2025 16:34:49 -0000
-Message-Id: <175346128926.2617649.3670234755305357540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 25 Jul 2025 16:35:05 -0000
+Message-Id: <175346130536.2619625.16829872290558316052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 4563cd386e80b58d1939abdf5a1197fd2c66a050
-    new: 285ecbca355130869567b02d29bcbac981c43099
+    old: 5c3a02bdb0a8e1978ff92ef48e80dfc3dcba2c0c
+    new: 58e6b2cce564e372582d3ae5cae6efd30996b7d4
     log: |
-         e95122a32e777309412e30dc638dbc88b9036811 ASoC: codecs: Add acpi_match_table for aw88399 driver
-         285ecbca355130869567b02d29bcbac981c43099 Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
+         ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b regmap: Annotate that MMIO implies fast IO
+         58e6b2cce564e372582d3ae5cae6efd30996b7d4 Merge remote-tracking branch 'regmap/for-6.17' into regmap-next
          
