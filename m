@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 25 Jul 2025 11:29:27 -0000
-Message-Id: <175344296741.2326347.13052888570448847726@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 11:34:25 -0000
+Message-Id: <175344326560.2331939.11406774820036638814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 25ea3ecfb5418e5674137a5442727128e23061fe
-    new: 6f240314f78959b8d1ef713fd002fabee2935d77
+    old: 6f240314f78959b8d1ef713fd002fabee2935d77
+    new: 4bb152fb440528d7abb8a18c3879ea5b4be416c2
     log: |
-         530f283206034b20ed791ef379f4394ca21fe63d qcom: Add firmware binary for SM8750.
-         6f240314f78959b8d1ef713fd002fabee2935d77 Merge branch 'video-fw-sm8750' into 'main'
+         02ad2a17abc4d313f4892715c20656f0520862a2 qcom: Add QCS6490 symlink for QUPv3 firmware
+         4bb152fb440528d7abb8a18c3879ea5b4be416c2 Merge branch 'qupv3-fw-qcs6490' into 'main'
          
