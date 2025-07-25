@@ -1,61 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5244194484429515334=="
+Content-Type: multipart/mixed; boundary="===============0617420699338872160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 25 Jul 2025 08:48:25 -0000
-Message-Id: <175343330508.2188351.2692188119065070326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 25 Jul 2025 08:48:46 -0000
+Message-Id: <175343332643.2188708.7756881926056156176@gitolite.kernel.org>
 
---===============5244194484429515334==
+--===============0617420699338872160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: a6d283c526f96595e61a46c7901aecc92645f345
-    new: fa3f79e82dce7b04f7b8cf1791268a775b3d6f9f
+  - ref: refs/heads/tty-next
+    old: b43cb4ff85da5cf29c4cd351ef1d7dd8210780f7
+    new: 57b4ca42359c63ad61548431c184a7d63efbd0b9
     log: |
-         93b17c6afa83fda8eea4490aad9a3721eb6627bb drivers: virt: acrn: Don't use %pK through printk
-         61a789ad4326d931488f0b82316bc9ec8034556e pc104: move PC104 option to drivers/Kconfig
-         335fb3d29893a49fc3e68e8dee450314d65a60f6 bus: moxtet: Use dev_fwnode()
-         b13b41cc3dc1811189b9cbeb04d11d8bef474679 misc: ti_fpc202: Switch to of_fwnode_handle()
-         8a8d47e86cf537e6f6deb5c736bbf948a7bbc885 binder: Add copyright notice to new kunit files
-         fa3f79e82dce7b04f7b8cf1791268a775b3d6f9f binder: Use seq_buf in binder_alloc kunit tests
+         9e32e4db965fd4e5e95e20b0b02ba03688d7e0de dt-bindings: serial: samsung: add samsung,exynos2200-uart compatible
+         7f8fdd4dbffc05982b96caf586f77a014b2a9353 serial: 8250: fix panic due to PSLVERR
+         57b4ca42359c63ad61548431c184a7d63efbd0b9 dt-bindings: serial: snps-dw-apb-uart: Allow use of a power-domain
          
 
---===============5244194484429515334==
+--===============0617420699338872160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753433347 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1753433303-f99e9eff2b7a9b9dcee14b4f6a5801d2e8c3d227
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753433368 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1753433325-0db14fe63fe456ddeb0ddd18d3015953e6f1d48c
 
-a6d283c526f96595e61a46c7901aecc92645f345 fa3f79e82dce7b04f7b8cf1791268a775b3d6f9f refs/heads/char-misc-next
+b43cb4ff85da5cf29c4cd351ef1d7dd8210780f7 57b4ca42359c63ad61548431c184a7d63efbd0b9 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiDRQMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DZcP/0ggzPIpZVVxyLW7JBEO
-R7D1YRlww3UJRlo3F4oyAG/uoNp9cQigc/v3qiLnlNDN7LE7IWcCdG7/dMATqD4P
-ojofArUnXWASYnx2N/foYKrt+a/zPYuN3hXcOTPfSo5cvGXMiUcaISUcVLaVqYwe
-HRmmL8nClLXS2BxPbkkTuxmAuQlnZ1ycgG2pJgHZNWeaBSuamxsy6zWF6KW4NdXv
-VZJqOa8q9noDsQ9/PTRs7Ey+aAVpgZGh42RcaJWwKhg73S+3PT7NZtnqpznPBM5p
-VVhE6P8FXLwR7oO5+FloP4RK29tZiWvlBa5ji2Ci/qEMg6Z0BszXt2B8oD/WkMd+
-ec/bSx2Rp4OwASoOkf6aqy6LmX65OwuoP8dgtzq+x/We5pkWuKGzDQk/6T+z7TCa
-WuP6xE88JJFNmrbButNEz4dvEL2e7/wDucRQpBR/8OCOn6kWH+ll7BWeXYhw/SFP
-FaOKrBiU9QIZ05zPrbSVZV8NoAxnd9XR04bfRffWCcLgqRUI+ZBD14Yo7iRNtTS6
-hE70gBIHmPAM/PqQPkZhUkiSbwtcLRqS812cA+Tc4Ta3DASVtt3Y7GIZkdN3JVsF
-tw5R+4hWZDPEadpX5oViuEQRKrnC3gkrNkb7cZH9out9RHJIJsbAUas2KZ2ix8bH
-J4EgdWfzAjcjKFSefiWFzaLH
-=hZtw
+iQJOBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiDRRgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e3QP902XDnxgWvaGrk6OpQtW
++gFwxrg5xittk5GMG4pEFWlzUi6+21gnmAvgjAJtzRH8lwJZS27IIXo55wGFES8x
+QFgCbWOGCCB6KiwIa3B0vC05TKovg08835dara3W/0fETaurtICmTF2A+JwnmuU7
+DBXkZwf/KY3UzCZfEUR+JK/5qtRyDLN4B6BXlDvyeCXzLiOCsKxOKlsYducCRy8S
+IeAxh2ovetqnksXXfpQ8paj2ckX+BqQ/NEvDlRPeVxHolXuEbQW9WrVjfnpC6xE1
+55tT1UZe4SSFRn22vZDXdD3eUgGwIgTd4wFT6rF2ACXaYXcv3Pxf2hrYbDE/sBNN
+cQ59osyMsx2raHP+s1daCqfcQJfPe2L7l1qqKVtRZl3nk8L+8bosOI+EVS9QARGV
+QTQd3gOy7+nMkd07hgw/xUMVv5GX1XWFCrxSUxrF15ixYLtqVIC04m7rl7CQvbqD
+pErFHSyWZswOUkhjq70QB0Ghbu7Eq4ZTt9wuP4d6GcGA4FCEhF7ycSDy3ElW3OmD
+emOqi7Ya/F4WG7hNyzQmHyxSqxx4RyJgMOKYxhQ9etj+q39wLHAoW3kgv8uwJJ/S
+ImgU7Ln1ZDsLLrHraLwg4g4ZT0Rs2SLHBoM9HD2vqmxN2jt6YWzYu6T7rpQ9Wrww
+kPVR3XBNOsOZjm2USmvANY4=
+=KaXx
 -----END PGP SIGNATURE-----
 
---===============5244194484429515334==--
+--===============0617420699338872160==--
