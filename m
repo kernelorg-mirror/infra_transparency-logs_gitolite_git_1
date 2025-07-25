@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2078003055520692766=="
+Content-Type: multipart/mixed; boundary="===============0969508453397230681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 25 Jul 2025 10:12:27 -0000
-Message-Id: <175343834764.2262052.12427284818025668118@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 10:12:34 -0000
+Message-Id: <175343835438.2262246.9625220928337459975@gitolite.kernel.org>
 
---===============2078003055520692766==
+--===============0969508453397230681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,45 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: c1f3f9797c1f44a762e6f5f72520b2e520537b52
-    new: 788199b73b6efe4ee2ade4d7457b50bb45493488
-    log: revlist-c1f3f9797c1f-788199b73b6e.txt
+  - ref: refs/heads/main
+    old: b03f15c0192b184078206760c839054ae6eb4eaa
+    new: c8f13134349b4385ae739f1efe403d5d3949ef92
+    log: revlist-b03f15c0192b-c8f13134349b.txt
+  - ref: refs/heads/master
+    old: b03f15c0192b184078206760c839054ae6eb4eaa
+    new: c8f13134349b4385ae739f1efe403d5d3949ef92
+    log: revlist-b03f15c0192b-c8f13134349b.txt
 
---===============2078003055520692766==
+--===============0969508453397230681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1753438387 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1753438393 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1753438344-94221f3c930eee608716e9c68a6e7196901723f6
+nonce 1753438350-49371b464893c758fd870e4c2773254a28ca5695
 
-c1f3f9797c1f44a762e6f5f72520b2e520537b52 788199b73b6efe4ee2ade4d7457b50bb45493488 refs/heads/testing
+b03f15c0192b184078206760c839054ae6eb4eaa c8f13134349b4385ae739f1efe403d5d3949ef92 refs/heads/main
+b03f15c0192b184078206760c839054ae6eb4eaa c8f13134349b4385ae739f1efe403d5d3949ef92 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmiDWLMTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnJ5yB/4n3S9J/mK8ujdjmGghvURXdngQzYjT
-E/r7n6tdlA0kjF/A6yQLtVOq/XicYUcG2hLD+2B3pH96Q3g3FdLw974vfMIG8gd0
-kjXIGaF30jcaBvAnT1ZkuYYdxhywJy8Zj94FQ/EA5e0+G8wvvLKIIkVgfCB0JV4V
-DDi4ZaKgDTJ3rL19gv82dNV/Guu7rTiylqRnow00GaZ78d9rrR5rl1t4JOzWq89k
-R3HtXwx+KOPY7eazEIEY9bjrbuHuwA0G+LfvLbawG8VrPF2rXRZwnvT8kHB+SgE1
-tUMbaY8jNz9M5zjD3A+ftAuF5Kr+WYJwdtIaIFSY015o6WpuSyJfyf9h
-=WLKi
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmiDWLkTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnK++B/9enK29PaQcKaleWvpYsRS9xDfdTmBu
+FAAAZUXP91X/YSPjuTTlxZDpQlszfbSsiCQmxrzZmJtp5gDjxGvRvvFRn/EWxNKA
+mJkjqXgJaapnyNJr6VcL0RzeMaNho4RaWAbM6O+S0lmi/dAljC0I3fL8CwbvdIik
+ZoQtfFMhtC3l/E4pcdhYhjmGIn2tX5zXqOFuzyFvhlhoscS4O+5NyDrqCYTH8maH
+vMqw22dYTK0bmr93M1lMSp9ej3+6V5bxLZiakfO6RP9gsEIBG+98GqMb7WF7L0oa
+0adewjGIJLQo3RVDxEDdILgfTV81upE0vxsl1RjzGnwjkcqvOb3zLuJU
+=cj5V
 -----END PGP SIGNATURE-----
 
---===============2078003055520692766==
+--===============0969508453397230681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1f3f9797c1f-788199b73b6e.txt
+Content-Disposition: attachment; filename=revlist-b03f15c0192b-c8f13134349b.txt
 
 94d077c331730510d5611b438640a292097341f0 xfrm: state: initialize state_ptrs earlier in xfrm_state_find
 7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2 xfrm: state: use a consistent pcpu_id in xfrm_state_find
@@ -350,6 +355,7 @@ e2967b50b709970547b5cdfa1b42526835327f36 MAINTAINERS: Update entries for IFS and
 536fd741c7ac907d63166cdae1081b1febfab613 e1000e: disregard NVM checksum on tgp when valid checksum bit is not set
 61114910a5f6a71d0b6ea3b95082dfe031b19dfe e1000e: ignore uninitialized checksum word on tgp
 cf074eca0065bc5142e6004ae236bb35a2687fdf net/sched: sch_qfq: Avoid triggering might_sleep in atomic context in qfq_delete_class
+c1f3f9797c1f44a762e6f5f72520b2e520537b52 can: netlink: can_changelink(): fix NULL pointer deref of struct can_priv::do_set_mode
 270b329f7ec4e4e8dca6735bd1fe286a8e39b82d Revert "drm/nouveau: check ioctl command codes better"
 15a7ca747d9538c2ad8b0c81dd4c1261e0736c82 drm/bridge: ti-sn65dsi86: Remove extra semicolon in ti_sn_bridge_probe()
 71c33df471a6ed40cc3ec7902cf889d813219b07 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
@@ -375,6 +381,5 @@ b3e75c0bcc53f647311960bc1b0970b9b480ca5a net: hns3: fixed vf get max channels bu
 2cfbcc5d8af9199823151c21f740e476b223dd2e selftests: drv-net: tso: fix vxlan tunnel flags to get correct gso_type
 b25b44cd178cc54277f2dc0ff3b3d5a37ae4b26b selftests: drv-net: tso: fix non-tunneled tso6 test case name
 c8f13134349b4385ae739f1efe403d5d3949ef92 Merge branch 'selftests-drv-net-tso-fix-issues-with-tso-selftest'
-788199b73b6efe4ee2ade4d7457b50bb45493488 can: peak_usb: fix USB FD devices potential malfunction
 
---===============2078003055520692766==--
+--===============0969508453397230681==--
