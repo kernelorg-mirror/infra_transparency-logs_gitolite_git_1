@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5327970171410117730=="
+Content-Type: multipart/mixed; boundary="===============4452984997634569598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 25 Jul 2025 10:34:18 -0000
-Message-Id: <175343965830.2280199.11471149385622039972@gitolite.kernel.org>
+Date: Fri, 25 Jul 2025 10:34:58 -0000
+Message-Id: <175343969869.2281326.7298058190050697894@gitolite.kernel.org>
 
---===============5327970171410117730==
+--===============4452984997634569598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 07974689a9f40100c87ae9d147101e13e653f120
-    new: 02860e6e140e3696ca6b1c559fa966ac14f28dde
-    log: revlist-07974689a9f4-02860e6e140e.txt
+    old: 02860e6e140e3696ca6b1c559fa966ac14f28dde
+    new: ee90c3bb525e6ea0845e5b70f0beef0abc8f2373
+    log: revlist-02860e6e140e-ee90c3bb525e.txt
   - ref: refs/heads/tip/urgent
-    old: dae20c68fd874295e64e2309ff1fbeae4a83210d
-    new: 63e893082b643cfdd925f862c56786422079083e
+    old: 63e893082b643cfdd925f862c56786422079083e
+    new: 60a6bb873382a1b6152d52c897bbe74d0b92546b
     log: |
-         63e893082b643cfdd925f862c56786422079083e Merge branch into tip/master: 'timers/urgent'
+         60a6bb873382a1b6152d52c897bbe74d0b92546b Merge branch into tip/master: 'timers/urgent'
          
 
---===============5327970171410117730==
+--===============4452984997634569598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07974689a9f4-02860e6e140e.txt
+Content-Disposition: attachment; filename=revlist-02860e6e140e-ee90c3bb525e.txt
 
-32095e3f3c0affe59a1a465ed19ae9a24f5fb44a clocksource/drivers/scx200: Add module owner
-d3362af84d0c3aa02d3ebd0600c3a2640b2bd06a clocksource/drivers/stm32-lp: Add module owner
-d89048fedbe7a13056497a2bd93e28981e17c6fe clocksource/drivers/sun5i: Add module owner
-6d92fe9b423c19e6ec6dcbf71528a4bbbb7bf814 clocksource/drivers/tegra186: Add module owner
-7a449b9d1dfad2a0163d4d4b0d817e09e564648e clocksource/drivers/stm: Add module owner
-667b41e7364742120484ed5cca73d7cd77f3b10e clocksource/drivers/cs5535: Add module owner
-84deaa77d5dbecdca1f6a12107080a2a2870dd52 time/sched_clock: Export symbol for sched_clock_register() function
-7276dac8cd12b56c5120cf127380b7be15824047 dt-bindings: timer: Convert faraday,fttmr010 to DT schema
-21883cc23c11a675f61cbdd0771993017aa8a0ae dt-bindings: timer: mediatek: Add MT6572
-a06b35eac655563ac7f184f2be5b580bbe8ecc44 dt-bindings: timer: fsl,ftm-timer: Use 'items' for 'reg'
-1294b89e0d11966231ce237ed2ef0f24bf2cff84 dt-bindings: timer: Add Andes machine timer
-8de1de5a3a8d42975953382068fb5195e9d6e6c6 of/irq: Export of_irq_count() for modules
-57eac487dfd1d4342812a78138559f9f1d1d5c08 clocksource/drivers/exynos_mct: Don't register as a sched_clock on arm64
-f3cec54ee3bfd50b90b9f3b7110b9357be97babe clocksource/drivers/exynos_mct: Set local timer interrupts as percpu
-32abb4c011457219ee7cd5188efba65ea7030187 clocksource/drivers/exynos_mct: Fix uninitialized IRQ name warning
-338007c44c7f97a068c455fef5a49a49cc9389de clocksource/drivers/exynos_mct: Add module support
-2798e90b4e095940e3736312499a0fb562f3ee60 arm64: exynos: Drop select CLKSRC_EXYNOS_MCT
-ed1d4c331f9f161788903885ce9ddfd665bdbe18 clocksource/drivers/timer-tegra186: Avoid 64-bit divide operation
-12c1fe0711d3de30440911f2d3e0147f9831f3c7 clocksource/drivers/timer-tegra186: Simplify calculating timeleft
-836758dc1e43928aa1a357009f5c3164a00cbfb0 clocksource/drivers/tegra186: Avoid 64-bit division
-f74c5f0b940f2ff45e0099544ed3be88125eaebb dt-bindings: timer: Add fsl,timrot.yaml
-7a3174ef0ce3b507a4a22b25822f13f454eab9f4 clocksource/timer-econet-en751221: Convert comma to semicolon
-bc70fac7b4028f3fbaddb47fcf1ccfef4003c8fc dt-bindings: timer: mediatek,timer: Add MediaTek MT8196 compatible
-85198c87e4842f1239b4ad93586cf629583f480d clocksource/drivers/exynos_mct: Fix section mismatch from the module conversion
-02860e6e140e3696ca6b1c559fa966ac14f28dde Merge branch into tip/master: 'timers/clocksource'
+60a6bb873382a1b6152d52c897bbe74d0b92546b Merge branch into tip/master: 'timers/urgent'
+8ea6443e5f00c757d368314f3cdef986347fb06e Merge branch into tip/master: 'x86/merge'
+eaa5a930970430d65f88d0b3c1cc490e8cf93b82 Merge branch into tip/master: 'core/merge'
+a2c126567dcbbf0d45dfa6189596ec06501919e1 Merge branch into tip/master: 'core/bugs'
+c3760c2ef1add6ed4c0f62cf396ee2c91df771c9 Merge branch into tip/master: 'irq/core'
+aca70d3624855362ae102d0bda6fb153ce6cff84 Merge branch into tip/master: 'irq/drivers'
+8c03711863f9b21fae940e88eb78041f19859a20 Merge branch into tip/master: 'irq/msi'
+9786b6f9975e582820acb6c49eef181272fe6334 Merge branch into tip/master: 'locking/core'
+41e8909aeb527786f86865ea1cd4a941f9cdc911 Merge branch into tip/master: 'locking/futex'
+54ca0487348b62577f649c171cae6341d5315f16 Merge branch into tip/master: 'perf/core'
+b3c71eb9f9e941720cff74796e2f246f78442022 Merge branch into tip/master: 'sched/core'
+8f72bfa1598ea599524587e189c2070cb80a4e8e Merge branch into tip/master: 'smp/core'
+2aaf002319c15cbe0063d6d8bc18e13675d84a50 Merge branch into tip/master: 'timers/cleanups'
+95e51274c947000893c9bc27bd5d1bc32cd1e7ba Merge branch into tip/master: 'timers/clocksource'
+e81082780ac8d647cd6e5342bcc21757aae76dd6 Merge branch into tip/master: 'timers/core'
+60bc9220abfc34c78a569d074108e795a2efe4f0 Merge branch into tip/master: 'timers/ptp'
+d69913c6ae59bc133633ca2a6935ddc104d04483 Merge branch into tip/master: 'timers/vdso'
+12c44dead106b8ce0204326cdc3fc10274838a07 Merge branch into tip/master: 'x86/boot'
+5f605539a4c50b04cb043a7827e99bdc12bfe896 Merge branch into tip/master: 'x86/bugs'
+d55492b28b308c4b36b989cdd18e0b8c8526cb56 Merge branch into tip/master: 'x86/cleanups'
+bf37e9d7461adeab8aa92f751f11138fe393f548 Merge branch into tip/master: 'x86/core'
+1432c6d5d1a993344cc7c8a2a1c0a2737f0edeca Merge branch into tip/master: 'x86/fpu'
+fdc02cb39666e335501df24e06b8c95b00edf4db Merge branch into tip/master: 'x86/kconfig'
+22a64e2bc5cb28e7f4409d631e4b7cecc502cd7d Merge branch into tip/master: 'x86/microcode'
+12b0f1ae7bcd98b22bbb060a9f101de9612dd728 Merge branch into tip/master: 'x86/platform'
+ee90c3bb525e6ea0845e5b70f0beef0abc8f2373 Merge branch into tip/master: 'x86/sev'
 
---===============5327970171410117730==--
+--===============4452984997634569598==--
