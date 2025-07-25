@@ -1,58 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1977207872052394736=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 25 Jul 2025 15:35:11 -0000
-Message-Id: <175345771145.2561082.10684107158196467966@gitolite.kernel.org>
-
---===============1977207872052394736==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 25 Jul 2025 15:37:00 -0000
+Message-Id: <175345782002.2561939.10344075264503306108@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 47e1dde65892c44a3c6bee0a8730d211b01bf24a
-    new: 547a3989c03f50edeceb2541348f3233ed8f9703
+    old: 2942242dde896ea8544f321617c86f941899c544
+    new: 327579671a9becc43369f7c0637febe7e03d4003
     log: |
-         abe1411bbdb81d100e7dbf299070176e7cdd3f57 assign some 6.15.7 cve ids
-         3351df90b97e1d9a0e0604571499a92b0f5d84ba strip some mbox files
-         547a3989c03f50edeceb2541348f3233ed8f9703 update cvelistV5
+         eef91707009ad8d98e0d397d58df47caa6ff2330 bcachefs: btree_node_scan: don't re-read before initializing found_btree_node
+         1966554b2e82b89d4f6490f430ce76a379e23f1f block: fix module reference leak in mq-deadline I/O scheduler
+         9aa64182952db7d931201ab4fcdf767c11fb4ab0 afs: Fix check for NULL terminator
+         8b3c655fa2406b9853138142746a39b7615c54a2 afs: Set vllist to NULL if addr parsing fails
+         1831840c2bc502c98c21df2ea0fa419b2ed0a6ec bcachefs: Fix write buffer flushing from open journal entry
+         c37495fe3531647db4ae5787a80699ae1438d7cf bcachefs: Add missing snapshots_seen_add_inorder()
+         bef3012b2f6814af2b5c5abd6b5f85921dbb8a01 Merge tag 'bcachefs-2025-07-24' of git://evilpiepirate.org/bcachefs
+         4bb01220911d2dd6846573850937e89691f92e20 Merge tag 'vfs-6.16-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+         327579671a9becc43369f7c0637febe7e03d4003 Merge tag 'block-6.16-20250725' of git://git.kernel.dk/linux
          
-
---===============1977207872052394736==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753457752 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1753457709-38d1d084511246de994bfc1979256edf71792e49
-
-47e1dde65892c44a3c6bee0a8730d211b01bf24a 547a3989c03f50edeceb2541348f3233ed8f9703 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiDpFgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c1kQAJbByGDvqgaw3QOcKBzf
-YpHiiDBth92ivgLCXBuQ8Dqy5QOgvwjeWtZ9W/qsWJalRvL+DXqgPxbsbuxhUwIp
-9ZbZhK+qq4s3ccKpboe8J3mTJNo2ocvCkYdMdkqdjlUnAhq7CkigeTD2d0qErXN4
-EsjAxPBFh/9d0hJLmdbmfTqbad82PyBMIqwgvQP6EIVYDvWaq33RW4/b2+Hun8+B
-fdQvLHK1gl0WfryvAqU2xWBD+NSa8IDlNOa8+Y0GzXfytF5uf9QV+xiktoS+4SoL
-lUKL+0X40cHh8gkoDMro8vumq49DTAqtupD0Fp51EK7Ouz39k5xy9t92a036NGWi
-cwsnDGXCKmuggcEcXUvFwvSht9wEhdH8uPdMK63iz3EtLdN/oQzrVrOQSwsD2hO0
-8EXu8e6jvunt366QF1SsFmdLShRoS9qiV+Izuz1QbkyZTIs1pQiqTGsaF/TAFbgv
-1cnhoJX7Q27RhxY1vGDZGB2DaA1Au9Bz6v8lbGrWXbq3Pdw8v0f9J6YAspHcWbSo
-E3PkYvjEctzIx/gx+9uQXHijCJD7krJvQN/xYKzaeYSSCAu09L+qrx+QWy2BjRkA
-gB3ECvTfZGNQObB0/8tSAqJVRPzc64p+DQQmMTo7CJ75zaTuONwOhTWRd1AWKWMK
-SPV94PFtnetPwmIOmknko6r3
-=hh3E
------END PGP SIGNATURE-----
-
---===============1977207872052394736==--
