@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 26 Jul 2025 22:46:43 -0000
-Message-Id: <175357000319.4133028.16696511084358094463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Sat, 26 Jul 2025 22:48:57 -0000
+Message-Id: <175357013735.4134087.5339886607580059732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 513fc69f8fc7f85dfbdd35b6f59b6ef2da422e9c
-    new: ec2df4364666a96e7868b7257bc7235bae263dcb
+  - ref: refs/heads/devel
+    old: 0bbd90c2c6b2dc5b1211cc461a144c6c8808605d
+    new: a3fe1324c3c5c292ec79bd756497c1c44ff247d2
     log: |
-         f820034864dd463cdcd2bebe7940f2eca0eb4223 spi: spi-qpic-snand: don't hardcode ECC steps
-         ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         b1d4c90bffdeda6c0a304249358608e4ddb80377 pinctrl: aspeed-g6: Add PCIe RC PERST pin group
+         b225010185418d22cb508bd36adc607ac2c28968 dt-bindings: pinctrl: mediatek: Add support for mt8189
+         a3fe1324c3c5c292ec79bd756497c1c44ff247d2 pinctrl: mediatek: Add pinctrl driver for mt8189
+         
+  - ref: refs/heads/for-next
+    old: 0bbd90c2c6b2dc5b1211cc461a144c6c8808605d
+    new: a3fe1324c3c5c292ec79bd756497c1c44ff247d2
+    log: |
+         b1d4c90bffdeda6c0a304249358608e4ddb80377 pinctrl: aspeed-g6: Add PCIe RC PERST pin group
+         b225010185418d22cb508bd36adc607ac2c28968 dt-bindings: pinctrl: mediatek: Add support for mt8189
+         a3fe1324c3c5c292ec79bd756497c1c44ff247d2 pinctrl: mediatek: Add pinctrl driver for mt8189
          
