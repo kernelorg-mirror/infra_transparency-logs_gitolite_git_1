@@ -1,24 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 26 Jul 2025 21:27:21 -0000
-Message-Id: <175356524118.4065833.5413962714624916606@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1237155734728612415=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 26 Jul 2025 21:31:35 -0000
+Message-Id: <175356549507.4069977.4883363582296955244@gitolite.kernel.org>
+
+--===============1237155734728612415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: be2f32b202875192a26495b1ef172a04cb3ea5bf
-    new: 2afe13cec15f5ffb32b08ce9696b4234841f825f
+  - ref: refs/heads/for-next/hardening
+    old: 897627bc44d228f00cc8595c9b2fa747d3e8c64f
+    new: b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070
     log: |
-         975b31f9c9c75ee7ac0014aa5b3341a54316b8fa patches/next: cleanup paddr_fault hack
-         85232afd4dc6c296cd0d778ff46b02e00873c587 patches/next: fix nr_accesses_bp corruption from paddr_fault
-         b7fb95337268ff34e0ef7f2d2fa9f15262a4afc3 patches/next: cleanup
-         1eeb0773f162ec09fec1b9bd4166c534167476e3 patches/next: move paddr_fault patches to appropriate category
-         9ed67ed05a8babc63dd7099ebc44e6f8c6fc2383 patches/next: more paddr_fault cleanups
-         2afe13cec15f5ffb32b08ce9696b4234841f825f patches/next: reset the protection in do_damon_page()
+         52b802dd00bb605989f368ecbe63aafc2c6dbe23 kstack_erase: Disable kstack_erase for all of arm compressed boot code
+         b33e3f3b4c72cf44f9b1faf7ef5a5bdbff230c0b init.h: Disable sanitizer coverage for __init and __head
+         0149f5d9589319958ac731d8980fa480afd71524 kstack_erase: Add -mgeneral-regs-only to silence Clang warnings
+         4f9726f26f92565cfa19777c077dbf749af33b50 kstack_erase: Support Clang stack depth tracking
+         b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070 sched/task_stack: Add missing const qualifier to end_of_stack()
          
+
+--===============1237155734728612415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1753565536 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1753565486-4625f4fc0f9f331eed4af9e51d7c80c36410c5e5
+
+897627bc44d228f00cc8595c9b2fa747d3e8c64f b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070 refs/heads/for-next/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaIVJYAAKCRA2KwveOeQk
+u5ZWAP9mabmPZ7e18cKPkvwl3ceD/a19OUMWd18ujgube4gnIgEAvCCfoxFXQEyT
+oMj4UCI6otUYvveqbzwxXPG1UTfrUgE=
+=TyrK
+-----END PGP SIGNATURE-----
+
+--===============1237155734728612415==--
