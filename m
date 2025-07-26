@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sat, 26 Jul 2025 19:23:31 -0000
-Message-Id: <175355781195.3964100.8842965086550577873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 26 Jul 2025 19:27:44 -0000
+Message-Id: <175355806456.3968222.1465589724780193228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/clk-next
-    old: 668334341beb6cedc29fc98a84c79006cb89b6ae
-    new: af828448aba3b03184b868962743047b7724ae94
+  - ref: refs/heads/master
+    old: b114fcee766d5101eada1aca7bb5fd0a86c89b35
+    new: e9f545d0d336b37ece594a0bfd8d2d13ccbed6ab
     log: |
-         af828448aba3b03184b868962743047b7724ae94 Merge branch 'clk-spacemit' into clk-next
+         3ba58312e65665e5b9097c7969a51fa49914d85d bpf: Move bpf_jit_get_prog_name() to core.c
+         6c17a882d3804dce1c66e1fec25f96d39a184067 bpf, arm64: JIT support for private stack
+         e9f545d0d336b37ece594a0bfd8d2d13ccbed6ab selftests/bpf: Enable private stack tests for arm64
          
-  - ref: refs/heads/clk-spacemit
-    old: bf06842435054e187476e78173890614232847d1
-    new: c60b95389d0206a3a3c087c09113315e7084be3f
