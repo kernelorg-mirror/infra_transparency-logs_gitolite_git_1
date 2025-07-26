@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2153933934502011123=="
+Content-Type: multipart/mixed; boundary="===============1384736777774248320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 26 Jul 2025 06:48:02 -0000
-Message-Id: <175351248273.3346939.14985289663253757696@gitolite.kernel.org>
+Date: Sat, 26 Jul 2025 06:48:15 -0000
+Message-Id: <175351249588.3347261.3777073932752353933@gitolite.kernel.org>
 
---===============2153933934502011123==
+--===============1384736777774248320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: cce56902b9347bae2342a4e07777e2d45d57b6be
     new: b9f75396ec107628cc5f52fb6e055c1c9dc68401
     log: revlist-cce56902b934-b9f75396ec10.txt
 
---===============2153933934502011123==
+--===============1384736777774248320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ e06aa69de21b6de2ef83f559768a4005114f5661 gendwarfksyms: use preferred form of si
 d8f26717c901b7ec88c3151988fe70ecaed990b8 gendwarfksyms: order -T symtypes output by name
 b9f75396ec107628cc5f52fb6e055c1c9dc68401 scripts: add zboot support to extract-vmlinux
 
---===============2153933934502011123==--
+--===============1384736777774248320==--
