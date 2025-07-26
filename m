@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6521053102840790702=="
+Content-Type: multipart/mixed; boundary="===============7513083788423378322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 26 Jul 2025 02:38:29 -0000
-Message-Id: <175349750967.3137854.4663744418205148289@gitolite.kernel.org>
+Date: Sat, 26 Jul 2025 02:49:38 -0000
+Message-Id: <175349817807.3147206.15623994271040068518@gitolite.kernel.org>
 
---===============6521053102840790702==
+--===============7513083788423378322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/tags/pull-dcache
-    old: 9671ae3696caeb5bf315fc0c60c725d4b888bea0
-    new: 80adfc508008bc6b0c050a0c6f4ed684be4cf8ac
-    log: revlist-9671ae3696ca-80adfc508008.txt
+  - ref: refs/tags/pull-simple_recursive_removal
+    old: eedf4144412819b4048437078335e7f0bf5b90db
+    new: fcb6bbeb4f63e6dd164e507b53405ff94071e807
+    log: revlist-eedf41444128-fcb6bbeb4f63.txt
 
---===============6521053102840790702==
+--===============7513083788423378322==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9671ae3696ca-80adfc508008.txt
+Content-Disposition: attachment; filename=revlist-eedf41444128-fcb6bbeb4f63.txt
 
+fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
+d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
+8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
+0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
+c59783780c8ad66f6076a9a7c74df3e006e29519 net: airoha: Fix an error handling path in airoha_alloc_gdm_port()
+c6bb8a21cdad8c975a3a646b9e5c8df01ad29783 net/mlx5: Add error handling in mlx5_query_nic_vport_node_guid()
+126cd7852a62c6fab11a4a4cb6fa96421929ab69 net: mctp: start tx queue on netdev open
+09d7ff0694ea133c50ad905fd6e548c13f8af458 tools: ynl: parse extack for sub-messages
+c8ef20fe7274c5766a317f9193b70bed717b6b3d tipc: use kfree_sensitive() for aead cleanup
+a540ee75945a96f606c6ac955bfed5410d318f7d net/mlx5: HWS, Fix an error code in mlx5hws_bwc_rule_create_complex()
+82fb5a369b8de625660c8c7f82e5286ec195be5e mlxsw: core_thermal: Constify struct thermal_zone_device_ops
+08f8bad0255c7319f4ffe53d0f0eab50fa2cb5e9 cxgb4: Constify struct thermal_zone_device_ops
 d9d836bfa5e6e255c411733b4b1ce7a1f8346c54 selftests: net: move wait_local_port_listen to lib.sh
 cb575e5e9fd1cba99f1514c36375e74609f92e70 net: Kconfig NET_DEVMEM selects GENERIC_ALLOCATOR
 e9cb929670a1e98b592b30f03f06e9e20110f318 net: phy: fix up const issues in to_mdio_device() and to_phy_device()
@@ -1029,26 +1041,14 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-5e317d23f6c6c4b59d84e228a2271228e81cc797 d_set_mounted(): we don't need to bump seqcount component of rename_lock
-5943c611c47c9444e834555c867dec744158b7ad procfs: kill ->proc_dops
-790fa81b8c43cda9fe25c1b564d0afe3ddeeb370 new helper: d_splice_alias_ops()
-ec169ef86ba45389b353189cf1fc06461163f667 switch procfs from d_set_d_op() to d_splice_alias_ops()
-4bd9f3fd87e252303e8fef6105b704f05d3f2678 fuse: no need for special dentry_operations for root dentry
-05fb0e666495cda068c068a681ecbbf8e57324d0 new helper: set_default_d_op()
-fcb1e72060391bde188f243b9c3115c78cbffa73 split d_flags calculation out of d_set_d_op()
-a3e65fa2e31ec529febce0c9c4946d4fcbd416bf correct the set of flags forbidden at d_set_d_op() time
-2fa8bf42c50582c7302918474aae8c52b59e7910 set_default_d_op(): calculate the matching value for ->d_flags
-d9b13cdad80dc11d74408cf201939a946e9303a6 tracefs: Add d_delete to remove negative dentries
-a97dc087da06b69ae976765d59810ca705e8dae1 simple_lookup(): just set DCACHE_DONTCACHE
-691fb82ca6ccdcdb9e60e754b55659271d5280e7 make d_set_d_op() static
-e95db51c81f54dd12ea465b5127e4786f62a1095 d_alloc_parallel(): set DCACHE_PAR_LOOKUP earlier
-3542920b91831974e3b9b3ce4bc083657a4f43d6 shmem: no dentry retention past the refcount reaching zero
-fe3c5120d6e32f73b5a4be2d14cb4839ce4116e0 devpts, sunrpc, hostfs: don't bother with ->d_op
-0b136e7d18fa8bb1251ab06f4f30e883da780245 kill simple_dentry_operations
-3333ed35b83dc69aa678943da97b3dcc84d75aab ramfs, hugetlbfs, mqueue: set DCACHE_DONTCACHE
-61a4fa39a3326f37ce160dd2d77e1032f0caa8eb 9p: don't bother with always_delete_dentry
-38109b6554276a907ef8a047ff4d69eaadc31355 efivarfs: use DCACHE_DONTCACHE instead of always_delete_dentry()
-82a3c881cde5af76ad700e744dac9ab3ba942d18 debugfs: use DCACHE_DONTCACHE
-a509e7cf622bc7ce3f45b1c7047fc2a5e9bea869 configfs: use DCACHE_DONTCACHE
+61c5d53e815784708c45dac086c50a12ed1db694 simple_recursive_removal(): saner interaction with fsnotify
+2a8061ee5e41034eb14170ec4517b5583dbeff9f better lockdep annotations for simple_recursive_removal()
+9fd45235fdd2c2615a03c86ebe5a88b050dc5680 add locked_recursive_removal()
+8c0e092e3875fe834ca37a2953c91cb42cc0ceeb spufs: switch to locked_recursive_removal()
+eacb58fdcaefac63d32c3c095152e97dc9425ea8 binfmt_misc: switch to locked_recursive_removal()
+7b7a8ca43fcf027f8aabd7c0629c2d39bfd97300 pstore: switch to locked_recursive_removal()
+fcaac5b427686c9ba521c4e08a5f595fb89e669f fuse_ctl: use simple_recursive_removal()
+1664a91025f9a85c4592864a4001c28100a2fca5 kill binderfs_remove_file()
+bad356bb50e64170f8af14a00797a04313846aeb functionfs, gadgetfs: use simple_recursive_removal()
 
---===============6521053102840790702==--
+--===============7513083788423378322==--
