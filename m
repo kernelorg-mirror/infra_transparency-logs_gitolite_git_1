@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3173140089611887402=="
+Content-Type: multipart/mixed; boundary="===============2132366249731998133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 26 Jul 2025 21:50:09 -0000
-Message-Id: <175356660975.4087210.7236228222353808841@gitolite.kernel.org>
+Date: Sat, 26 Jul 2025 21:50:30 -0000
+Message-Id: <175356663034.4087608.4557578114008804202@gitolite.kernel.org>
 
---===============3173140089611887402==
+--===============2132366249731998133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070
     new: 4899a832de09c83ee8acabd407c067d2a38da688
     log: revlist-b8e5a2fd8ff1-4899a832de09.txt
 
---===============3173140089611887402==
+--===============2132366249731998133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1753566647 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1753566672 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1753566603-bf5e3c4f5ada6e4b4e759989ac0098ecaaa3f8d5
+nonce 1753566628-5da2a572d33986ddaa97e8b25c34be5947354cca
 
-b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070 4899a832de09c83ee8acabd407c067d2a38da688 refs/heads/for-next/hardening
+b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070 4899a832de09c83ee8acabd407c067d2a38da688 refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaIVNtwAKCRA2KwveOeQk
-u2B6AP9xdaoP4yZpbHorY+OnNRb75N/jmdByAi+iIWyiGpvF+gD/ddIJa26oMb4o
-JHFQsLQlkcKoNLkpIINA/r6J7eG5rAI=
-=lT74
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaIVN0AAKCRA2KwveOeQk
+u3Y/AP4looxUfGNqLaTITAZ4fnbrN+LFCona2y4EL30zW1of/AD/Vap97fTaA9m4
+mFUHeLfurSxUOT/ASZj2gbQQKqnPjAw=
+=jkcr
 -----END PGP SIGNATURE-----
 
---===============3173140089611887402==
+--===============2132366249731998133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ aff3dec740a27106fa0d302c7af107362e4080cc init.h: Disable sanitizer coverage for 
 2bd4fbfa916f70141ae726179c24833d57c47e80 kstack_erase: Support Clang stack depth tracking
 4899a832de09c83ee8acabd407c067d2a38da688 sched/task_stack: Add missing const qualifier to end_of_stack()
 
---===============3173140089611887402==--
+--===============2132366249731998133==--
