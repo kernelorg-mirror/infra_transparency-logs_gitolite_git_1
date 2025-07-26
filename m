@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 26 Jul 2025 19:23:17 -0000
-Message-Id: <175355779733.3963736.9357294027889504774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sat, 26 Jul 2025 19:23:31 -0000
+Message-Id: <175355781195.3964100.8842965086550577873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/master
-    old: b7b3500bd4eef2c3b5124ed195f26eb048407d9b
-    new: b114fcee766d5101eada1aca7bb5fd0a86c89b35
+  - ref: refs/heads/clk-next
+    old: 668334341beb6cedc29fc98a84c79006cb89b6ae
+    new: af828448aba3b03184b868962743047b7724ae94
     log: |
-         b114fcee766d5101eada1aca7bb5fd0a86c89b35 bpf, arm64: Fix fp initialization for exception boundary
+         af828448aba3b03184b868962743047b7724ae94 Merge branch 'clk-spacemit' into clk-next
          
+  - ref: refs/heads/clk-spacemit
+    old: bf06842435054e187476e78173890614232847d1
+    new: c60b95389d0206a3a3c087c09113315e7084be3f
