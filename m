@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1237155734728612415=="
+Content-Type: multipart/mixed; boundary="===============3935621623672425613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 26 Jul 2025 21:31:35 -0000
-Message-Id: <175356549507.4069977.4883363582296955244@gitolite.kernel.org>
+Date: Sat, 26 Jul 2025 21:32:05 -0000
+Message-Id: <175356552569.4070489.5116541388234917571@gitolite.kernel.org>
 
---===============1237155734728612415==
+--===============3935621623672425613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: 897627bc44d228f00cc8595c9b2fa747d3e8c64f
     new: b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070
     log: |
@@ -27,24 +27,24 @@ changes:
          b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070 sched/task_stack: Add missing const qualifier to end_of_stack()
          
 
---===============1237155734728612415==
+--===============3935621623672425613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1753565536 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1753565567 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1753565486-4625f4fc0f9f331eed4af9e51d7c80c36410c5e5
+nonce 1753565523-5da7adfed7a4663db096ec7c2d9f4bb1e08ec900
 
-897627bc44d228f00cc8595c9b2fa747d3e8c64f b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070 refs/heads/for-next/hardening
+897627bc44d228f00cc8595c9b2fa747d3e8c64f b8e5a2fd8ff12b8a558d4a8ba9b41cadcb5c2070 refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaIVJYAAKCRA2KwveOeQk
-u5ZWAP9mabmPZ7e18cKPkvwl3ceD/a19OUMWd18ujgube4gnIgEAvCCfoxFXQEyT
-oMj4UCI6otUYvveqbzwxXPG1UTfrUgE=
-=TyrK
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaIVJfwAKCRA2KwveOeQk
+u3tCAP9jLewJYAed3S9MQKg952kzxdy3DPadxYujDl4MMEb9qQD+PevK0X2gagBy
+YZ6artNNDnFc+H3/LxFhkDyOPZyaqw4=
+=7Yqx
 -----END PGP SIGNATURE-----
 
---===============1237155734728612415==--
+--===============3935621623672425613==--
