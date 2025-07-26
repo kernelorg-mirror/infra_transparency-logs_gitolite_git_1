@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 26 Jul 2025 22:35:30 -0000
-Message-Id: <175356933077.4124335.5482432686668407945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 26 Jul 2025 22:46:43 -0000
+Message-Id: <175357000319.4133028.16696511084358094463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 6e19839a80b8713b836722ba9d99a3ab12cfb651
-    new: d89c58068aa667295fa75d0613c869b612bd6249
+  - ref: refs/heads/master
+    old: 513fc69f8fc7f85dfbdd35b6f59b6ef2da422e9c
+    new: ec2df4364666a96e7868b7257bc7235bae263dcb
     log: |
-         d89c58068aa667295fa75d0613c869b612bd6249 perf test: Fix comment ordering
+         f820034864dd463cdcd2bebe7940f2eca0eb4223 spi: spi-qpic-snand: don't hardcode ECC steps
+         ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
          
