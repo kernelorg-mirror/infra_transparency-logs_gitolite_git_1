@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 26 Jul 2025 19:03:09 -0000
-Message-Id: <175355658930.3946737.2006989343647640072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 26 Jul 2025 19:05:36 -0000
+Message-Id: <175355673665.3950207.2638460758588231391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 9ea0691e47b8c43aea42480d1f536f0d3916ecfc
-    new: b7b3500bd4eef2c3b5124ed195f26eb048407d9b
+  - ref: refs/heads/main
+    old: c58c18be8850d58fd61b0480d2355df89ce7ee59
+    new: fa582ca7e187a15e772e6a72fe035f649b387a60
     log: |
-         2b03164eee20eac7ce0fe3aa4fbda7efc1e5427a bpf/preload: Don't select USERMODE_DRIVER
-         b7b3500bd4eef2c3b5124ed195f26eb048407d9b umd: Remove usermode driver framework
+         38b74b212a34c37c3157ba6c3af7025fb9447458 selftests: bpf: fix legacy netfilter options
+         fa582ca7e187a15e772e6a72fe035f649b387a60 dpll: zl3073x: Fix build failure
          
