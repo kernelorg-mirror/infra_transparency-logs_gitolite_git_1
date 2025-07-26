@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 26 Jul 2025 06:30:35 -0000
-Message-Id: <175351143548.3333534.12942832425888296535@gitolite.kernel.org>
+Date: Sat, 26 Jul 2025 06:31:47 -0000
+Message-Id: <175351150751.3334246.9957589022615834182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
   - ref: refs/tags/pull-mount
-    old: cd14eaafb5e41a9de312488543abf688a5491a27
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 6bf69a8ede567b567733746a6d6a07620f5fbdc3
