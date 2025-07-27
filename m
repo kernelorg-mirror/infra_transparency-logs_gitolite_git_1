@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sun, 27 Jul 2025 04:49:52 -0000
-Message-Id: <175359179285.230740.6200474906795024216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sun, 27 Jul 2025 06:43:31 -0000
+Message-Id: <175359861166.320339.17429198330515350549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: d89c58068aa667295fa75d0613c869b612bd6249
-    new: b91a9abbf4734d411d304661fbb7e2878281eb51
-    log: |
-         af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
-         9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
-         6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
-         d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
-         45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
-         55c09681cc67d175bd62b787c8b6eeafbe1b5851 perf list: Remove tracepoint printing code
-         b91a9abbf4734d411d304661fbb7e2878281eb51 perf list: Skip ABI PMUs when printing pmu values
-         
+  - ref: refs/heads/clk-qcom
+    old: 0000000000000000000000000000000000000000
+    new: be72da73e2e638f583014316a2195b0c5ff9ff3a
