@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sun, 27 Jul 2025 06:58:21 -0000
-Message-Id: <175359950190.333148.207718336743344754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Sun, 27 Jul 2025 07:53:57 -0000
+Message-Id: <175360283771.376965.717040228262320950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/clk-cleanup
-    old: 65df390bc2a7351c4bca123c62e853b35a215297
-    new: 7f5e9ca0a424af44a708bb4727624d56f83ecffa
+  - ref: refs/heads/for-linus-6.17
+    old: 70045cf6593cbf0740956ea9b7b4269142c6ee38
+    new: 114a2de6fa86d99ed9546cc9113a3cad58beef79
     log: |
-         264200cc3a87d5c53bfa817227624fa2bae6b2c3 clk: Fix typos
-         7f5e9ca0a424af44a708bb4727624d56f83ecffa clk: clocking-wizard: Fix the round rate handling for versal
-         
-  - ref: refs/heads/clk-next
-    old: 33aa137fb367f15ad7651a39f12fb060965d0e77
-    new: bc27a30feb4932493af841a14fe80d752e049f95
-    log: |
-         264200cc3a87d5c53bfa817227624fa2bae6b2c3 clk: Fix typos
-         7f5e9ca0a424af44a708bb4727624d56f83ecffa clk: clocking-wizard: Fix the round rate handling for versal
-         bc27a30feb4932493af841a14fe80d752e049f95 Merge branch 'clk-cleanup' into clk-next
+         114a2de6fa86d99ed9546cc9113a3cad58beef79 xen/netfront: Fix TX response spurious interrupts
          
