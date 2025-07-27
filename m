@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 27 Jul 2025 04:49:21 -0000
-Message-Id: <175359176105.230167.12486262640617546598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sun, 27 Jul 2025 04:49:52 -0000
+Message-Id: <175359179285.230740.6200474906795024216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/io_uring-chan
-    old: 2d931b8d85836c31cb1e54f0665fcca726784226
-    new: 2a5cc11d9adcadc5858cf66560d43d160a042d84
+  - ref: refs/heads/tmp.perf-tools-next
+    old: d89c58068aa667295fa75d0613c869b612bd6249
+    new: b91a9abbf4734d411d304661fbb7e2878281eb51
     log: |
-         c7b9b6477858184a22e4275bc0c05f0cc96b4301 io_uring: move io_has_work() with the other has_work functions
-         0440abdb09dec5110e50a81baccb0ca0b66d5699 io_uring: only call into llist_reverse_order() if necessary
-         3716ec861c0e5e2d96e03ad32009b1d2debb49d5 io_uring: add io_add_aux_cqe32() helper
-         f5f2e7456b712969ef09eb7389d1bcb6d2a17aba io_uring/register: add support for ring -> ring channels
-         199214735d797f4065fc6afcaa05387cb8f99543 io_uring/chan: grab reference to destination ring
-         c645e13c47d8028e3a05547f5a901a4a0a8b9916 io_uring/chan: add support for IORING_OP_CHAN_POST
-         2a5cc11d9adcadc5858cf66560d43d160a042d84 io_uring/chan: cache consumer head loads
+         af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
+         9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
+         6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
+         d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
+         45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
+         55c09681cc67d175bd62b787c8b6eeafbe1b5851 perf list: Remove tracepoint printing code
+         b91a9abbf4734d411d304661fbb7e2878281eb51 perf list: Skip ABI PMUs when printing pmu values
          
