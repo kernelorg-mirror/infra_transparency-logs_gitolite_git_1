@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 27 Jul 2025 17:24:24 -0000
-Message-Id: <175363706457.839402.17577598309788526073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 27 Jul 2025 17:31:46 -0000
+Message-Id: <175363750660.846395.6306223679370058702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: e9f545d0d336b37ece594a0bfd8d2d13ccbed6ab
-    new: 5345e64760d37524d38ddfa7471f42ec64b0f289
-    log: |
-         5345e64760d37524d38ddfa7471f42ec64b0f289 bpf: Simplify bounds refinement from s32
-         
+  - ref: refs/heads/for-next
+    old: 3bbaeb15b4a292bfa7b2bf8507eff37197c578bc
+    new: 0000000000000000000000000000000000000000
