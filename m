@@ -1,53 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3301394411959511105=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 28 Jul 2025 14:38:20 -0000
-Message-Id: <175371350064.2041723.10502220560558892009@gitolite.kernel.org>
-
---===============3301394411959511105==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Mon, 28 Jul 2025 14:46:23 -0000
+Message-Id: <175371398365.2049474.18341788671692012391@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/tags/staging-6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8284497ae5581a66c9b508b156affdc66ae4b865
-
---===============3301394411959511105==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753713542 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1753713498-002adfa646b1539fd0c667165e89cc91c7248aaa
-
-0000000000000000000000000000000000000000 8284497ae5581a66c9b508b156affdc66ae4b865 refs/tags/staging-6.17-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHi4YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ie8QALYPU5HRL4gSN6YFQ8AI
-dIiM0iIlf8Mxl1GdLUKdRcAzD2q0n+bES0LrtJP6JsB61n37E6iz1gDdiA4UEPTf
-1j1EQjruF4DoqkxZ07ZHwAv6pMbTuN/18D8YrT0vS3fB3qfF4dsuoZtwxBLJNxAz
-DIYfWypxo11K2BrHH+HbfX+V9iyNnNGsgym4jhZPxsWKJS9GNMWH9ahTOX1rpn1H
-EvZsJmhJHyIWOHO8r8bvr2Rf+8dWuXwEWkMjDLrYocEPP8qRK3bvAo/Gp2nVLiGp
-+H7PUFIfQ9ezy69ePruiexxJWzGdIW2UnY4AXolvpHpOKmE4x/e8L/L8Cn57Ra6b
-HrvtToc6JMrtdhokGm1I8IG/2cmVOHce/DalZrHjijhLF1KTNLBCifl8QhrXVovK
-bUndZ1z8KCWJAz8yrfLoGN3D1J+2giIAhXpYh3RIoIVEUNlWoYtYaUUCc32xGY2F
-BkfetjyKGBEhECvp4QpG64HvglPAID7oLpMKkfSPy4+tMgt+LKnLsvBGOoxswJ/Z
-MynWL0KAYeGd8QSEjOQteFQDfWwNguGUL2zCdl+OeICaHIMQi5cX6rLrGzpI6Ai4
-k0lLWzNLxGuqZOuo/gcJj/56xoC4Bhu1PBT3woLF6NKqFqK5+w421uTI379eFMVq
-U8HD/cXCescKXJYhsE6+65Yp
-=K6gF
------END PGP SIGNATURE-----
-
---===============3301394411959511105==--
+  - ref: refs/heads/master
+    old: 0f8e1a95c813d3652cf50da3da6c213e9e29bc13
+    new: cd28a73c637375436e3e1ac94131261e558f4ee2
+    log: |
+         9e82a797ac93a30a5d4a8b62a4ff2192f128faaa gobi: fix start_service_requests() return type
+         4eeededadedb7d314434253de35cd0e0d97d9603 gobi: request PDS service if supported
+         cd28a73c637375436e3e1ac94131261e558f4ee2 gobi: If WDA unsupported, skip data format logic
+         
