@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Mon, 28 Jul 2025 17:02:26 -0000
-Message-Id: <175372214670.2179342.2602153043269301201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 28 Jul 2025 17:02:37 -0000
+Message-Id: <175372215721.2179656.4860437761159878021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: d1b12f83e7aacaf89c1581e432ad7a9c60d7dc33
-    new: e041178ba6bc2af0a1148145ee303c9db79fb4cb
-    log: |
-         e041178ba6bc2af0a1148145ee303c9db79fb4cb bridge: fdb: Add support for FDB activity notification control
-         
   - ref: refs/heads/master
-    old: d1b12f83e7aacaf89c1581e432ad7a9c60d7dc33
-    new: e041178ba6bc2af0a1148145ee303c9db79fb4cb
+    old: a9f8d8adcb0905cff282804a0ef8bdc231da0ad2
+    new: 5b4c54ac49af7f486806d79e3233fc8a9363961c
     log: |
-         e041178ba6bc2af0a1148145ee303c9db79fb4cb bridge: fdb: Add support for FDB activity notification control
+         5b4c54ac49af7f486806d79e3233fc8a9363961c bpf: Fix various typos in verifier.c comments
          
