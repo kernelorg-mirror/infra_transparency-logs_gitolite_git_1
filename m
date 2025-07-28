@@ -1,62 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============9106991776056513803=="
+Content-Type: multipart/mixed; boundary="===============3381017720368504132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 28 Jul 2025 15:57:32 -0000
-Message-Id: <175371825230.2117024.8000272996895718943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 28 Jul 2025 16:02:11 -0000
+Message-Id: <175371853117.2121427.2882329084792207670@gitolite.kernel.org>
 
---===============9106991776056513803==
+--===============3381017720368504132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/readfile
-    old: 0c33b587865ef92f312d1b05336f394f46f80713
-    new: 68874d3927a5e83aa3c613f42c5963fa447b5d50
-    log: revlist-0c33b587865e-68874d3927a5.txt
+  - ref: refs/heads/master
+    old: 90b83efa6701656e02c86e7df2cb1765ea602d07
+    new: 038d61fd642278bab63ee8ef722c50d10ab01e8f
+    log: revlist-90b83efa6701-038d61fd6422.txt
 
---===============9106991776056513803==
+--===============3381017720368504132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-90b83efa6701-038d61fd6422.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753718264 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1753718217-ee1a22fad6e8ec98ab9a9390453cbc477608cfc2
-
-0c33b587865ef92f312d1b05336f394f46f80713 68874d3927a5e83aa3c613f42c5963fa447b5d50 refs/heads/readfile
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHnfgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fN4QANIUjhp7bSyOIs6Z6yDE
-xPu2jMxPa3FuwNZe0mc/V6iN9Yn/pINDwKAxzJhw9PHmWHSQhSifJmRUgLZYJEyT
-UxX7iQt3HVRAEDlKumNU+98v+lsjisAP1BP1OUGa6SAsiPZOgrTSkY/AF5+ahAdG
-tdo9JfXonJMM5ODE7fz/S+XB3vFpsN3KoQLpfM+EzjTMQxIc1IScUy5HCm2uqo3/
-jDg7/nvVoCqQETE9LVxGt6By/cSDwQBZsvHHXmWvcEMd5DKK5r/U2uAEF4xMjmhl
-HyQVvwoxgWl4ajRy56Akk0kdw90w77qyc/XKQZdlr7BnB/dAQR/ameJ9T4OOWJbU
-ZMKm2HM8UnAS7K3qrLFVulNfLA4iqOJRJnjIjVSYea6iAm4K1Ie0GQu0ekzSwc3k
-oLAXyn1KFgioGrjGmjNyFLdkXiPjQa5DtueL4jVnIwaqSRi1q3Kwtej6V3itvs+0
-HJW1P+bwbciJLPqfyt5ywqoowQRsfgfqNSI1WKK3nFKmZL11IyzEjB09OJcXDcmA
-Br2l6Px5MCjPQy15uJNVzAsDCwN7xFkfH5uqx7Y/Mlj+BwUXr3ViOIHJAzK+qlDU
-NkXGCqSEIYxRCrFXiQJq0EETVvgemh1uHNElo27GnBLPY5RkZ3+Mrp5QSmjVdEF4
-038rfh6k40o6U/qvZEb7ng5O
-=fjhN
------END PGP SIGNATURE-----
-
---===============9106991776056513803==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c33b587865e-68874d3927a5.txt
-
+b6211ab2ebc1e47c1ce8e42c5edbd75d8161c654 Merge tag 'drm-intel-fixes-2025-06-26' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+6daaa479ac557bc426a7fd2e913b618523fe41fd Merge tag 'drm-xe-fixes-2025-06-26' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+8a20830f2dd180064f25254d9c55beb243fe9223 Merge tag 'hid-for-linus-2025062701' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+6f2a71a99ebd5dfaa7948a2e9c59eae94b741bd8 Merge tag 'bcachefs-2025-06-26' of git://evilpiepirate.org/bcachefs
 67a993863163cb88b1b68974c31b0d84ece4293e Merge tag 'v6.16-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 62e062a29ad5133f67c20b333ba0a952a99161ae iommu/rockchip: prevent iommus dead loop when two masters share one IOMMU
 2d22b63f3a5aae2088708941d08cf0f01f430a58 drm/mipi-dsi: Add dev_is_mipi_dsi function
@@ -1077,9 +1050,5 @@ bef3012b2f6814af2b5c5abd6b5f85921dbb8a01 Merge tag 'bcachefs-2025-07-24' of git:
 ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
-1e1d35b15d74b66c2c25ad2f41df163a4d061ac0 readfile: implement readfile syscall
-d2cf77100ee0956716bd52f52fed8ade66a16936 arch: wire up the readfile syscall
-375d58cef34e983f356f971347999ca4901022a9 selftests: add readfile(2) selftests
-68874d3927a5e83aa3c613f42c5963fa447b5d50 readfile.2: new page describing readfile(2)
 
---===============9106991776056513803==--
+--===============3381017720368504132==--
