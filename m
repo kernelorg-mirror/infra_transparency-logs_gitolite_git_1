@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0453983399793272483=="
+Content-Type: multipart/mixed; boundary="===============2677346449568526272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 28 Jul 2025 15:31:47 -0000
-Message-Id: <175371670704.2091601.12805794919140723866@gitolite.kernel.org>
+Date: Mon, 28 Jul 2025 15:31:49 -0000
+Message-Id: <175371670929.2091688.11156830294579942006@gitolite.kernel.org>
 
---===============0453983399793272483==
+--===============2677346449568526272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c8f13134349b4385ae739f1efe403d5d3949ef92
     new: afd8c2c9e2e29c6c7705635bea2960593976dacc
     log: revlist-c8f13134349b-afd8c2c9e2e2.txt
 
---===============0453983399793272483==
+--===============2677346449568526272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f8d8ce1b515a0a6af72b30502670a406cfb75073 ipv6: fix possible infinite loop in fib
 31d7d67ba1274f42494256d52e86da80ed09f3cb ipv6: annotate data-races around rt->fib6_nsiblings
 afd8c2c9e2e29c6c7705635bea2960593976dacc Merge branch 'ipv6-f6i-fib6_siblings-and-rt-fib6_nsiblings-fixes'
 
---===============0453983399793272483==--
+--===============2677346449568526272==--
