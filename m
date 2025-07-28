@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2453923199819789043=="
+Content-Type: multipart/mixed; boundary="===============8561693870575135775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 28 Jul 2025 04:39:23 -0000
-Message-Id: <175367756331.1503669.6521709766501623054@gitolite.kernel.org>
+Date: Mon, 28 Jul 2025 04:39:55 -0000
+Message-Id: <175367759523.1504428.12927608235643492904@gitolite.kernel.org>
 
---===============2453923199819789043==
+--===============8561693870575135775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,54 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ee90c3bb525e6ea0845e5b70f0beef0abc8f2373
-    new: 529c1878067f25676a6cc240d20b7dca63b3b898
-    log: revlist-ee90c3bb525e-529c1878067f.txt
+    old: 529c1878067f25676a6cc240d20b7dca63b3b898
+    new: 7af6f4657446f3a42318d696813a20321bb17467
+    log: revlist-529c1878067f-7af6f4657446.txt
+  - ref: refs/heads/tip/urgent
+    old: 60a6bb873382a1b6152d52c897bbe74d0b92546b
+    new: 038d61fd642278bab63ee8ef722c50d10ab01e8f
+    log: revlist-60a6bb873382-038d61fd6422.txt
+  - ref: refs/tags/v6.16
+    old: 0000000000000000000000000000000000000000
+    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
 
---===============2453923199819789043==
+--===============8561693870575135775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee90c3bb525e-529c1878067f.txt
+Content-Disposition: attachment; filename=revlist-529c1878067f-7af6f4657446.txt
+
+8af21ec57da61959edc19536819a0671e559b370 Merge branch into tip/master: 'x86/merge'
+a4a62d2049e1faa0ebd8f9c6abf1ca355968632b Merge branch into tip/master: 'core/merge'
+332f75b1a572fbf5d30bb2285e698bb25d82d812 Merge branch into tip/master: 'core/bugs'
+7aa3fd9f81e737a7317c5554d3e85754f769d417 Merge branch into tip/master: 'irq/core'
+90c5a0299c9d2a8119c9bb5f53661a8b5aebdca1 Merge branch into tip/master: 'irq/drivers'
+021999ed1d3b7939009a5447c2bda9be69b57638 Merge branch into tip/master: 'irq/msi'
+2a77147a56315e456d2a9e10d831a9530506509d Merge branch into tip/master: 'locking/core'
+074717753eb8fea9229efbffa156892cd8c6ca37 Merge branch into tip/master: 'locking/futex'
+4e77eb34eb5009616b338b781ef60c4c12595051 Merge branch into tip/master: 'perf/core'
+6edf7e5345cc226dd575c4f742e0952d4eb872cb Merge branch into tip/master: 'sched/core'
+fc94d173dcecbf9a6d10693aa06f3ec76334e010 Merge branch into tip/master: 'smp/core'
+52af143f1aa3260e9dcf1da329554df103adb008 Merge branch into tip/master: 'timers/cleanups'
+6bfe6cb17f3dd1ebdbd30e4b9d59e0ca91f8af1c Merge branch into tip/master: 'timers/clocksource'
+f63f62d2780e99acc577cb10c07858b5ea0eb896 Merge branch into tip/master: 'timers/core'
+89b693b10db5c83ea963d9f1fa648bb0c44e8841 Merge branch into tip/master: 'timers/ptp'
+b4d5d7a547f3bf03fd026c55fbafd518a7f3264a Merge branch into tip/master: 'timers/vdso'
+a36b3b1628925df93c811fc9a60c750a129032cf Merge branch into tip/master: 'x86/boot'
+2f0fe77e58656565781ec2707d965e8205ae7fba Merge branch into tip/master: 'x86/bugs'
+08012289ebaf2606c319b2fdc36df3716502c1c9 Merge branch into tip/master: 'x86/cleanups'
+4064d6b0adc5d6e17be72490c1170ce64b09025a Merge branch into tip/master: 'x86/core'
+1271c4ecb2521376d13e3abc19b39c72aa4a4848 Merge branch into tip/master: 'x86/fpu'
+b773784ce27c4a85b9bcee83da9b668273ed4a3c Merge branch into tip/master: 'x86/kconfig'
+168be6a0855b215e326a4c5323685cee3b920927 Merge branch into tip/master: 'x86/microcode'
+2f068318b48e954c0d4d83ad433a6ba584a79c5f Merge branch into tip/master: 'x86/platform'
+7af6f4657446f3a42318d696813a20321bb17467 Merge branch into tip/master: 'x86/sev'
+
+--===============8561693870575135775==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-60a6bb873382-038d61fd6422.txt
 
 713d48878e8a5e4bcca6355324f943eb72cd2c84 clk: sunxi-ng: a523: Mark MBUS clock as critical
 f45b2949b1a235881255132a119b8cc8c3738bd5 clk: sunxi-ng: v3s: Fix CSI SCLK clock name
@@ -63,6 +102,5 @@ bef3012b2f6814af2b5c5abd6b5f85921dbb8a01 Merge tag 'bcachefs-2025-07-24' of git:
 ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
-529c1878067f25676a6cc240d20b7dca63b3b898 Merge branch 'linus'
 
---===============2453923199819789043==--
+--===============8561693870575135775==--
