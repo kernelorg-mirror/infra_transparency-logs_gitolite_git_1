@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 28 Jul 2025 13:18:20 -0000
-Message-Id: <175370870061.1968720.8395565991718244167@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1603214655194206927=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 28 Jul 2025 13:41:44 -0000
+Message-Id: <175371010466.1988303.4609700663663796629@gitolite.kernel.org>
+
+--===============1603214655194206927==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/delegts
-    old: 1a8f87874156ae546e5d24fe1b5dc6a08cb97e9e
-    new: 31e5b2585263a650492ad7c210446ce59b5a4ed8
+  - ref: refs/heads/master
+    old: 33b1eb2857eb9ff863b06b2e3d3aeee0f3b308ce
+    new: 33977ded26b9b6f3dba1dbb32de8bb5fb180f2ea
     log: |
-         a6f403f9f444e6d6bcbea52114d314c5dd058003 nfsd/vfs: fix handling of delegated timestamp updates
-         1c55f5cff8168d967ca16ce776b099078ff6b953 nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
-         6d71242f0d07997c1aae6c01be30fe54166788dd nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
-         1457fc3ba6894b3e02f1c10b2f954a8919b8bee2 vfs: add ATTR_CTIME_SET flag
-         4313982b96af072ffdf3603d1d54be2ffcb680b7 nfsd: use ATTR_CTIME_SET for delegated ctime updates
-         dcc5abada10421132708bfeefcd60d4011213f14 nfsd: track original timestamps in nfs4_delegation
-         baf58034077b9873132c53f58b0cf49ee37bbc00 nfsd: fix SETATTR updates for delegated timestamps
-         fa0cacb11e9f9a14eef514229980e8e1c51efe09 nfsd: fix timestamp updates in CB_GETATTR
-         31e5b2585263a650492ad7c210446ce59b5a4ed8 vfs: remove inode_set_ctime_deleg()
+         33977ded26b9b6f3dba1dbb32de8bb5fb180f2ea 6.6-stable patches
          
+
+--===============1603214655194206927==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753710147 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1753710095-ed7087bb9ccc0c662e217f42fa2449199f8cc5a9
+
+33b1eb2857eb9ff863b06b2e3d3aeee0f3b308ce 33977ded26b9b6f3dba1dbb32de8bb5fb180f2ea refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHfkMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UB4P/0pZ4BsFhef/6nfNVfX+
+dwAZl7zrqTb2m4/DgbdbjjDedNIm3ihyXnI5MDbgSphWQAztd2K6OM5bPidE5V2l
+k9eWaWu6TOQNTIUkXeW+zbTN3VuqACtU9JXQzNRZ1MADLKsal2BvCmWrcBM0mpNF
+CdQ6ASdKM96rCNBQEALAdQ/WIjzBk8bnwj5w02EHVAxiiOSx3+uZm6en03grcj67
+KrZE1fzTbdc/MNarIREXvTIPZcRHQJ2BpM1o8W0vGZpCq+aKij5jIFrwxwV8ptc8
+JuYzLKggoIeltXXAFRpp7aDgomNVhh96rn/kOd7I2vb6keWIfIUZ8roKwALm/lB6
+24JEzmFvZ2lCnTd1VyOZoh9ICV9gVxFYjXLHP9t3yEsNnjO9Neek2RldS/NKwB2U
+XSt8tovUdAnE3C+x4ld9och/eqyuRiEWz9KObw+xHdyxm87EvHVeqg5WYD4W2O56
+Hfaonnz6W4rBhEmSkTxbRA/lMhY9nYbOau1aS8rJz1RPZbfrzfW+zYMdWlPpNblO
+afm9OxqVQGTb8HYueIZu/XlXoTMoJMLfliM/QqNCoZkXIotJhjzLUgO/c4fB6ROk
+yubPH4H/4+0dmjgxVNemKe51hDMNvNnJEOOGBwPgdhRLwOa+zOPp2YuUmWkyYSaQ
+Sj8Hq+QysZxBbqwvUHb2R3OX
+=AJcv
+-----END PGP SIGNATURE-----
+
+--===============1603214655194206927==--
