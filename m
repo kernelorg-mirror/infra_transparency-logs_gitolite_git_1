@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 28 Jul 2025 16:43:33 -0000
-Message-Id: <175372101320.2161240.8303847742650026083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Mon, 28 Jul 2025 16:44:51 -0000
+Message-Id: <175372109123.2162650.6454554192674580153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: dfe5caeeba63d27c024be75540fae1a15cc3b613
-    new: 137af635d175fde47035ebddf4b061412620a27e
+  - ref: refs/heads/dev
+    old: d22f243eb8b3c9128e9d5847cc2476617bf09d4c
+    new: 2eb88a5fb42f07b7bc3d409de4511226be8bc917
     log: |
-         b990a04746ccaa206c902436fff44491e6f88c65 f2fs: add gc_boost_gc_multiple sysfs node
-         137af635d175fde47035ebddf4b061412620a27e f2fs: add gc_boost_gc_greedy sysfs node
+         974ff3667b4e141041dac4076b4287a72b6fa109 mkfs.f2fs: Fix zoned alignment check for multi-device setups
+         9aad901cfb155219ac002dc71c8b7b2bcef357c6 mkfs.f2fs: support -C [no]hashonly to control linear lookup fallback
+         2eb88a5fb42f07b7bc3d409de4511226be8bc917 fsck.f2fs: honor --linear-lookup=X for Android case
          
