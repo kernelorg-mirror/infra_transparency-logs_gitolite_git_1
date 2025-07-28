@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8077056719102231141=="
+Content-Type: multipart/mixed; boundary="===============6263479562254982499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 28 Jul 2025 16:06:03 -0000
-Message-Id: <175371876334.2126165.16298397559838494687@gitolite.kernel.org>
+Date: Mon, 28 Jul 2025 16:06:05 -0000
+Message-Id: <175371876591.2126306.16536595813341659679@gitolite.kernel.org>
 
---===============8077056719102231141==
+--===============6263479562254982499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: faa60990a5414e5a1957adc9434ca0e804ad700b
     new: fa582ca7e187a15e772e6a72fe035f649b387a60
     log: revlist-faa60990a541-fa582ca7e187.txt
 
---===============8077056719102231141==
+--===============6263479562254982499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -157,4 +157,4 @@ c58c18be8850d58fd61b0480d2355df89ce7ee59 Merge git://git.kernel.org/pub/scm/linu
 38b74b212a34c37c3157ba6c3af7025fb9447458 selftests: bpf: fix legacy netfilter options
 fa582ca7e187a15e772e6a72fe035f649b387a60 dpll: zl3073x: Fix build failure
 
---===============8077056719102231141==--
+--===============6263479562254982499==--
