@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5562728360471308484=="
+Content-Type: multipart/mixed; boundary="===============5560069086766219031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 28 Jul 2025 14:30:17 -0000
-Message-Id: <175371301707.2035058.2601681958572938673@gitolite.kernel.org>
+Date: Mon, 28 Jul 2025 14:30:22 -0000
+Message-Id: <175371302259.2035362.7087901323042671326@gitolite.kernel.org>
 
---===============5562728360471308484==
+--===============5560069086766219031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
+  - ref: refs/heads/staging-linus
+    old: f2b8ebfb867011ddbefbdf7b04ad62626cbc2afd
     new: 038d61fd642278bab63ee8ef722c50d10ab01e8f
-    log: revlist-d0b3b7b22dfa-038d61fd6422.txt
+    log: revlist-f2b8ebfb8670-038d61fd6422.txt
 
---===============5562728360471308484==
+--===============5560069086766219031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753713059 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753713065 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1753713015-bf283d91cd8c8be478adfbc7a4b22f012fa1d112
+nonce 1753713020-665dd03048833910a28625230fcdec39c5686a64
 
-d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af 038d61fd642278bab63ee8ef722c50d10ab01e8f refs/heads/main
+f2b8ebfb867011ddbefbdf7b04ad62626cbc2afd 038d61fd642278bab63ee8ef722c50d10ab01e8f refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHiaMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0+kQAMzoE+R3bJNJppcR4qMB
-+WEFPf5rUEg0MkrOcorr5of+Fw8uXc0etfStt16qhb1BjErhcYHDcEntun+tMAKV
-yT4cmr8u3fR0IQcoQyibfYYOEebVA8MY8+MRXus/OApE+vsymEmUJbYPxx0inQWS
-hNsnEMQxMGWdOpLpXBPxlObpfj24JkmKRpf9za8tSHUce/vl4DrdsY0MuM31Y/FH
-l102gOBtgC3D0taMyw8pAK3/Icx4GiFQX8iBTceK4QX64ndZ7UcXfiZBAFOqgrzk
-4hshX66NkufLtW09vwrqzMKFdmq0wqmU04l4vNuUhzU43zXYrVAXDqTDJzbdP8/r
-ZEbz1InTJgLjdKfcr/2jVBy4Yt5YQKCbN9aygpaDPyodBo6PPZoPEYylhnFmWIBK
-G95MM/fbbXbN9nGiVitUzMnBpvwhc8QfGQ4pQPK2X5LVMv1DCA0/xsntpCdFlUv0
-kgxoK0kfcs+6UKPq42Yn3D9wqZY9WFzOorMm4vjv4Uged32IvvIlewyKhjhMU53E
-cnVVtY0TtLnNuAJhDFEdMi0UWpfr798v47AZxIBbwVnc3wMEW1ofFgbrOwOZk0PX
-SF0OzvCGLact40la1SyRsccXjaX6FP8xJAmHVyPgpM1l+CeZlNt6fUTS/Ag+7FkH
-QtMTBesl0L9LprznAsK/IVrw
-=z1rA
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHiakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R6UP+wSLFzYEPSJXalueBlvY
+9QeMzXkWDNGXOEtVB2tABNMXL2CVAYI9m8nYJy3FQGMdGbEQQZ3KZgNos4fQAuXU
+0HO3tCI9C7NfOCHQGU1FG0DQYoP3heoASTfEVKQJmFOSe4NvMpgeYzEyZBZPN8c2
+YbNPygyD0tzPVd7ZdL4ODkuu8WImMT1jy9x/mZ7ri8gjrppMqXBpHddxybGV67T3
+r+5Gr9y01F1CMzNesOu64kbyHPZwYG9K/iSQbnPxKX38wPOazLhmhbCPZ4o5+FeX
+oJpymmcDv35E0N94n+irNU80wZWrkH4irG7pAQcEeMCmAwdfn/jPhZO3Y0/P4KmK
+f1K5C7piFyvfBGpXm5zdgmgaAUcLN6yftFsRsPMmzutHsRT/270Bd//SGqiTiQUi
+PU6JhHqELhi7dLwOhZbSdvb4YM/HIgZewZu2uEHwRNvYIC5J+wZNpNSm6BgorW7I
+07w9xLHLYL4DR0CA9MF+/CA+/LjdOY9jza/EXeKdsNBgJa0h04MMZlrJVq7GuCW+
+k12AhzbXdixfMknq0F1S3JsErMkjsyhvU7tOxOiMPsdExm8ChotVMyS3i6nBDnBF
+QVQpR5hN3DeaosHCxSl9voL5BGH/+DuHVjucBbEl0iN7H4MkLpG2pKQwvZKkwOQo
+CLEK+g3aKrN7z46nT94e1CDE
+=4V/C
 -----END PGP SIGNATURE-----
 
---===============5562728360471308484==
+--===============5560069086766219031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0b3b7b22dfa-038d61fd6422.txt
+Content-Disposition: attachment; filename=revlist-f2b8ebfb8670-038d61fd6422.txt
 
+48f15f624189762e7ff2d95bcbb68e21c2d56077 KVM: SVM: Initialize vmsa_pa in VMCB to INVALID_PAGE if VMSA page is NULL
+0b6f4a5f0878c410677a8201c48127fda0bfd843 KVM: x86/hyper-v: Use preallocated per-vCPU buffer for de-sparsified vCPU masks
+a7f4dff21fd744d08fa956c243d2b1795f23cbf7 KVM: x86/xen: Allow 'out of range' event channel ports in IRQ routing table.
 47bb584237cc285e3a860b70c01f7bda9dcfb05b KVM: Allow CPU to reschedule while setting per-page memory attributes
 0048ca5e9945f487fc055dad987ee4c7fdc1ed18 KVM: selftests: Add back the missing check of MONITOR/MWAIT availability
 8889676cd62161896f1d861ce294adc29c4f2cb5 scsi: sd: Fix VPD page 0xb7 length check
@@ -808,9 +811,6 @@ def5b7b2643ebba696fc60ddf675dca13f073486 mptcp: plug races between subflow fail 
 da9b2fc7b73d147d88abe1922de5ab72d72d7756 mptcp: reset fallback status gracefully at disconnect() time
 dae7f9cbd1909de2b0bccc30afef95c23f93e477 Merge branch 'mptcp-fix-fallback-related-races'
 1ed171a3afe81531b3ace96bd151a372dda3ee25 tracing/probes: Avoid using params uninitialized in parse_btf_arg()
-ebe0b2ecb7b8285852414a0f20044432e37d9b4c Revert "staging: vchiq_arm: Improve initial VCHIQ connect"
-228af5a58524fba09ec4b7d184694db4f7fe96f5 Revert "staging: vchiq_arm: Create keep-alive thread during probe"
-f2b8ebfb867011ddbefbdf7b04ad62626cbc2afd staging: vchiq_arm: Make vchiq_shutdown never fail
 2521106fc732b0b75fd3555c689b1ed1d29d273c usb: hub: Don't try to recover devices lost during warm reset.
 4c88cfcc6738466a33778c346061f7507403276a ovpn: propagate socket mark to skb in UDP
 af52020fc5995dd3bcbc91b897daded755564be7 ovpn: reject unexpected netlink attributes
@@ -1082,4 +1082,4 @@ ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://
 b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
 
---===============5562728360471308484==--
+--===============5560069086766219031==--
