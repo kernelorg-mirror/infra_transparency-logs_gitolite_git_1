@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1996553597367743159=="
+Content-Type: multipart/mixed; boundary="===============8077056719102231141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 28 Jul 2025 16:05:58 -0000
-Message-Id: <175371875830.2125856.669769722914589856@gitolite.kernel.org>
+Date: Mon, 28 Jul 2025 16:06:03 -0000
+Message-Id: <175371876334.2126165.16298397559838494687@gitolite.kernel.org>
 
---===============1996553597367743159==
+--===============8077056719102231141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 93da88376e11a85390f184a76c1f9bca77b216df
-    new: ae6651b41fc94321ef29eeaa988b906c27c44c01
-    log: revlist-93da88376e11-ae6651b41fc9.txt
+  - ref: refs/heads/1GbE
+    old: faa60990a5414e5a1957adc9434ca0e804ad700b
+    new: fa582ca7e187a15e772e6a72fe035f649b387a60
+    log: revlist-faa60990a541-fa582ca7e187.txt
 
---===============1996553597367743159==
+--===============8077056719102231141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93da88376e11-ae6651b41fc9.txt
+Content-Disposition: attachment; filename=revlist-faa60990a541-fa582ca7e187.txt
 
 21e9b7d11218e7ba009e74bf51abacf0534f5626 can: janz-ican3: use sysfs_emit() in fwinfo_show()
 7cae4d04717b002cffe41169da3f239c845a0723 can: ti_hecc: fix -Woverflow compiler warning
@@ -156,50 +156,5 @@ afd8c2c9e2e29c6c7705635bea2960593976dacc Merge branch 'ipv6-f6i-fib6_siblings-an
 c58c18be8850d58fd61b0480d2355df89ce7ee59 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 38b74b212a34c37c3157ba6c3af7025fb9447458 selftests: bpf: fix legacy netfilter options
 fa582ca7e187a15e772e6a72fe035f649b387a60 dpll: zl3073x: Fix build failure
-33ce7a75f7c024b1237aa7e1a5796a2b4a9b9c97 coccinelle: misc: secs_to_jiffies script: Create dummy report
-a559062ae47af2395795e72862915fd60d33baf3 ice: fix lane number calculation
-4d9513fe3bc0fe96331441d43ce710dc9a14b21e ice: Allow 100M speed for E825C SGMII device
-b98aaac291f6ad8a973f4d5ee7eb217da10177f9 ice: Remove casts on void pointers in LAG
-36646850c320a6a06a1e2915555a351dfe19a0f1 ice: replace u8 elements with bool where
-146223122da7a4802e5365bb7b8c456e1ca20e2e ice: Add driver specific prefix to LAG
-559af49115140f124c1ccccae85a4822bc41e39f ice: move LAG function in code to prepare for
-1f1e63248bb85f89598ee8ed903e8f7f9850ca1a ice: Cleanup variable initialization in LAG
-91305b231047f17b76be01fe9ab57a7b7e2d6592 ice: cleanup capabilities evaluation
-a4131c368ca4dcc25b38d3c62534ad123606443b ice: Implement support for SRIOV VFs across
-78b8190e0044b96f8c1a7814f4950fd5c4252406 idpf: fix Rx descriptor ready check barrier in splitq
-e7b5bca27bcecdc69a9602988b3be3653b0e34d4 idpf: use a saner limit for default number of queues to allocate
-39b7c82491f726161159348287f2585f396a4132 idpf: link NAPIs to queues
-169d24d8c00753858596651d5f85fabe7761c7d4 idpf: add 4-byte completion descriptor definition
-cfeb467c1bdd13711ec86691c4d1d2ec851c7d3d idpf: remove SW marker handling from NAPI
-6198e6a0c1261454f5b8820323c0a3655949d767 idpf: add support for nointerrupt queues
-82179b7afaa66964f5e9e433da72c630aab16d0f idpf: prepare structures to support XDP
-a3e99aeba22614a1a0875424656d2ff93cd0b45e idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
-ef4e8403e9d3d5cb460e9163df5b40ddfba083b2 idpf: use generic functions to build xdp_buff and skb
-221edbe3c2ba9fe76e94d98ae43a3373da17005d idpf: add support for XDP on Rx
-b43a96ba2c31eb67f518cde1949b5d2737757649 idpf: add support for .ndo_xdp_xmit()
-b07bf6656e9344428aa8964bc290ba69033db062 idpf: add XDP RSS hash hint
-fca4ba4471ad3fc423480e1cbd40e409c073255a devlink: add overwrite mask from factory settings
-a62ae788a60fb260b1798c78a0a2393f68a74c6f ice: add overwrite mask from factory settings
-bc5f427060dc0bd6688240e30e59ed70da061255 ixgbe: add overwrite mask from factory settings
-587611b93d1fe6d08268d489bf27186f74a909d4 ixgbe: initialize aci lock before it's used
-74b063ec28afdcd8b8f884864f1fbba1c9eda492 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
-8afd8d3bb7f7ae0213e557161e7ff41bf5be8828 ice: fix possible leak in ice_plug_aux_dev() error path
-5cbee05a37253f8d7fc398455901beddd0468d75 ixgbe: add the 2.5G and 5G speeds in auto-negotiation for E610
-16136de586a748d0335bc02a4f206d57ec151bd0 devlink: allow driver to freely name interfaces
-53bef2e8c7be1833ab4523fc2ef76d7b9fc6f04f ixgbe: prevent from unwanted interface name changes
-31ff757cb1a93973d140ff0f0347784d98280529 idpf: introduce local idpf structure to store virtchnl queue chunks
-c24ee0e269bdbb74d65f3f32142ff054ade38490 idpf: use existing queue chunk info instead of preparing it
-5b5bb097811c81d4579fc14fea069c772a51c58b idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
-bfa4dd6392b2d966dcd0cc2dfa17bf7fb0b5efd4 idpf: move queue resources to idpf_q_vec_rsrc structure
-12a27ca6e51e1ee93f3f322188c588b072107770 idpf: reshuffle idpf_vport struct members to avoid holes
-6cd60ec387cec4313f334cb0c4aa61892aa4dbd9 idpf: add rss_data field to RSS function parameters
-3072c74bcb657b04dcf5a42c3ee42fea1675bf61 idpf: generalize send virtchnl message API
-985f44e3aeec1e68b16ce5bded7b6ea0e0546d4e idpf: avoid calling get_rx_ptypes for each vport
-0cc005a07e419cb29734428463cfccd9b06e943f idpf: generalize mailbox API
-5e82689ef2ed851ffcedb51ae7300be6e00c18f1 ice: fix Rx page leak on multi-buffer frames
-a5a9fc8a6a739107db07a901aa89cc1e0e6bb7ba ice: fix double-call to ice_deinit_hw() during probe failure
-7ac5a79f30f7701dcc260e153c6285901ee70e4c ice: don't leave device non-functional if Tx scheduler config fails
-6dc9ca197acdbca03c264817eb669cd85f884b8a i40e: remove read access to debugfs files
-ae6651b41fc94321ef29eeaa988b906c27c44c01 ice: add E830 Earliest TxTime First Offload support
 
---===============1996553597367743159==--
+--===============8077056719102231141==--
