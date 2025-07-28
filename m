@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 28 Jul 2025 09:27:43 -0000
-Message-Id: <175369486319.1749514.6051435258162054952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 28 Jul 2025 09:28:01 -0000
+Message-Id: <175369488131.1749838.7673957700745902127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/pwm/for-6.17-rc1
+  - ref: refs/tags/gpio-updates-for-v6.17-rc1
     old: 0000000000000000000000000000000000000000
-    new: 40701a23720d69c2419fa2377a0cd26cc87f2bcf
+    new: b755fece5e9359c9861aa0e291b92f0893833080
