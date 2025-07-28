@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5201050930178350558=="
+Content-Type: multipart/mixed; boundary="===============3249951275416015172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 28 Jul 2025 14:29:52 -0000
-Message-Id: <175371299276.2033015.10619588762227212911@gitolite.kernel.org>
+Date: Mon, 28 Jul 2025 14:30:13 -0000
+Message-Id: <175371301392.2034914.1677697985756683385@gitolite.kernel.org>
 
---===============5201050930178350558==
+--===============3249951275416015172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/staging-6.16-rc6
-    old: 077774a161c5bef536a7bf4c7909c04bd0f567ee
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.16
+    old: 0000000000000000000000000000000000000000
+    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
+  - ref: refs/tags/v6.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 47633099a672fc7bfe604ef454e4f116e2c954b1
+  - ref: refs/tags/v6.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
+  - ref: refs/tags/v6.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 75083cd99c8261eec695596813cc261a523ab32b
 
---===============5201050930178350558==
+--===============3249951275416015172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753713035 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753713055 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1753712992-4e2230690b90defd707f273b31d1c1e319733020
+nonce 1753713011-f504c649dfcac3a37b3c93cc8f84c2973c676090
 
-077774a161c5bef536a7bf4c7909c04bd0f567ee 0000000000000000000000000000000000000000 refs/tags/staging-6.16-rc6
+0000000000000000000000000000000000000000 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c refs/tags/v6.16
+0000000000000000000000000000000000000000 47633099a672fc7bfe604ef454e4f116e2c954b1 refs/tags/v6.16-rc5
+0000000000000000000000000000000000000000 d2792fee7bfca1cf5e6738856fe2af4b56f26cdd refs/tags/v6.16-rc6
+0000000000000000000000000000000000000000 75083cd99c8261eec695596813cc261a523ab32b refs/tags/v6.16-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHiYsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0RQP/A3NKflwXJI2Us76MlWE
-PDSXl9XPZxUwv/6rjsOHNF9yDB+qqEdTXuN03+bfXHfzvh9k2rVA4uNmAPunv7YB
-F8PHrM5aPqHUG+iK4k71b94M50G85ZNl22rXYxXWJ5DR+1pzIu3WxX2AViAWz3rQ
-PIXkhSdYSwyq/3l9gSaDnBQwwo4rDIe7q3O6REPk0nXUiS33CnDvct2df8dQvgHK
-JzGjXY6Fbuoicxy4zmaxuReVvtH/nIPTSFa3HRGe0fm6aXHK1jQmMN8YGUH9f+QU
-6BzFbX4OCm9t6mbDVSbkJW43FSev4hsMiwFrW8tT2FSsoSzgBuXNgc0+9dYwJzcG
-jZ2Tppb7vx8dHz5ZHbaGa8Or58kmJw2dlNj9XC0h26YJJQmkV6fP8idc40AlNjvg
-MA2WtUhpFadhIsE8dreM09BZ/yk9dCMmTXYTAEKI6NZUHH2vs1ZUdlsQmXX0/ceg
-rBKaMdVo1Ek+BwsO2ZEwhrXLkK1DVPjkTIj5h5MUNA9fFg9jBwI9l6o0pCXrf2jc
-eJrvWvYzh5rumAF+huMjftT2y4LAPtcvUVZ7WwrupA8kHEA5rPcSR965uwyDSgs3
-Y9OTrw9vCLhA3jrquQUnhVOo1KDN+BQuoSiw4Ebw2M4Gmz/AQA0a6bw7LIktpbbz
-uqaaowtTbN61T3GdSRxegSYf
-=vmUR
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHiZ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BIQQAJVoriX920lGUi5Cb0cl
+2d5CJJZ2dubuFMDraWdEqgN/NTPU9wlKapzchqBxffa/YXdNuq7zbqVvF//TPLQo
+qPpdoszwxYTGLn4sN2Mmqrxh6gMVa35WmN92J0Q5GmnVL6Ir8lsxYX+K5ZoP5hqv
+KBtXGs8JDjZAVEypZ8VEBEPIFxmhdCFfD19kRW+xzrxsRh74E3kTnXG8wscSgbtv
+LEJ+doIsSDtk57pv4/l0mC7EQqvF3hT0So5dprXoSheHcmknxIejHWR6dNsP93tt
+4wraj+S0ZZ+MDhViZ8hCdtIgv7qkQHKQFfsDXD+ZhYiLwYjAFMopArjWoGXhBruQ
+Oce2K2TicZPaaB+/SJqO6G0nd9ilN0xku6nSPtN9TH9ZF68LPSkpnoKFRBEbKKx7
+JlWhlRlN3J+vEq4TkBB5WooA3YweiKitLGtWbUrGRaOxCYX/hqLqLH/wzAmk80hY
+s+XsQOjfzXDN0rwTTIjao9VfJXv+4gz2meQcL2mw2gMPcv0y9yZIrbqv/hie3t31
+krMur9FkDUU8QXqeqNtHdG+nWRJLybnnkJb/k+UXnNbXbf+SI+17gVabvqWHQ+9p
+obAG17oyZupgycZBlYCYdsY1Yo4jUhFKBRG5XoM3g0MR3iHSrCHJm2nKte22i1fE
+rI0OVssKIzQ6F2rs+2FEvbe+
+=1v8z
 -----END PGP SIGNATURE-----
 
---===============5201050930178350558==--
+--===============3249951275416015172==--
