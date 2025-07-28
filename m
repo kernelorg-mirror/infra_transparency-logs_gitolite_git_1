@@ -1,56 +1,125 @@
-Content-Type: multipart/mixed; boundary="===============1064647851532160391=="
+Content-Type: multipart/mixed; boundary="===============9106991776056513803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 28 Jul 2025 15:52:38 -0000
-Message-Id: <175371795880.2112560.18235872608329514858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Mon, 28 Jul 2025 15:57:32 -0000
+Message-Id: <175371825230.2117024.8000272996895718943@gitolite.kernel.org>
 
---===============1064647851532160391==
+--===============9106991776056513803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 79150772457f4d45e38b842d786240c36bb1f97f
-    new: 9ed76f870084b65f08334e8c8b53ab3a7a40b034
-    log: revlist-79150772457f-9ed76f870084.txt
+  - ref: refs/heads/readfile
+    old: 0c33b587865ef92f312d1b05336f394f46f80713
+    new: 68874d3927a5e83aa3c613f42c5963fa447b5d50
+    log: revlist-0c33b587865e-68874d3927a5.txt
 
---===============1064647851532160391==
+--===============9106991776056513803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1753717991 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1753717947-e74c39f9a5766a15dafe1a4f47047725a6f213ca
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753718264 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1753718217-ee1a22fad6e8ec98ab9a9390453cbc477608cfc2
 
-79150772457f4d45e38b842d786240c36bb1f97f 9ed76f870084b65f08334e8c8b53ab3a7a40b034 refs/heads/queue
+0c33b587865ef92f312d1b05336f394f46f80713 68874d3927a5e83aa3c613f42c5963fa447b5d50 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmiHnOcUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMZLgf/Y9XvC1MMTXbsNJNQNbtrU56WfcL7
-pm4DzTB5y3HV0LdKq82XRjs7QV/jHb7UHfzo649efHP7B/8sp4fhS55vdw09eiM3
-iEsdjQrqMyDe83ApmRRsrFW2Ou6WdeuLQMXtbFdTaB3GxdAypR+BOLH2QdKU+NL7
-ACEPWAkYSwov6VR1SbPl9scxaB7/SkGmctbVa1Q1B3YBINIDsdMEndDJnCTyswQq
-7hNO4L1EdbkXxY0mspXYLzcvTNKHDYY1GHVz326yKBcMbL2T4qh423CqdXincKTt
-ICWkMluR45EdKh0YwahmJjkhtajhRO+UD+3LPlBQ7zGY8VQgDKQ6WraIqg==
-=nMnU
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHnfgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fN4QANIUjhp7bSyOIs6Z6yDE
+xPu2jMxPa3FuwNZe0mc/V6iN9Yn/pINDwKAxzJhw9PHmWHSQhSifJmRUgLZYJEyT
+UxX7iQt3HVRAEDlKumNU+98v+lsjisAP1BP1OUGa6SAsiPZOgrTSkY/AF5+ahAdG
+tdo9JfXonJMM5ODE7fz/S+XB3vFpsN3KoQLpfM+EzjTMQxIc1IScUy5HCm2uqo3/
+jDg7/nvVoCqQETE9LVxGt6By/cSDwQBZsvHHXmWvcEMd5DKK5r/U2uAEF4xMjmhl
+HyQVvwoxgWl4ajRy56Akk0kdw90w77qyc/XKQZdlr7BnB/dAQR/ameJ9T4OOWJbU
+ZMKm2HM8UnAS7K3qrLFVulNfLA4iqOJRJnjIjVSYea6iAm4K1Ie0GQu0ekzSwc3k
+oLAXyn1KFgioGrjGmjNyFLdkXiPjQa5DtueL4jVnIwaqSRi1q3Kwtej6V3itvs+0
+HJW1P+bwbciJLPqfyt5ywqoowQRsfgfqNSI1WKK3nFKmZL11IyzEjB09OJcXDcmA
+Br2l6Px5MCjPQy15uJNVzAsDCwN7xFkfH5uqx7Y/Mlj+BwUXr3ViOIHJAzK+qlDU
+NkXGCqSEIYxRCrFXiQJq0EETVvgemh1uHNElo27GnBLPY5RkZ3+Mrp5QSmjVdEF4
+038rfh6k40o6U/qvZEb7ng5O
+=fjhN
 -----END PGP SIGNATURE-----
 
---===============1064647851532160391==
+--===============9106991776056513803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79150772457f-9ed76f870084.txt
+Content-Disposition: attachment; filename=revlist-0c33b587865e-68874d3927a5.txt
 
+67a993863163cb88b1b68974c31b0d84ece4293e Merge tag 'v6.16-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+62e062a29ad5133f67c20b333ba0a952a99161ae iommu/rockchip: prevent iommus dead loop when two masters share one IOMMU
+2d22b63f3a5aae2088708941d08cf0f01f430a58 drm/mipi-dsi: Add dev_is_mipi_dsi function
+073667fce1667eab31d6a62cdd7fb795933ec7e8 drm/panel: panel-simple: make panel_dpi_probe return a panel_desc
+921c41e509746aabecbbb2595ebf41a9d8fdc4e2 drm/panel: panel-simple: Make panel_simple_probe return its panel
+47c08262f34e1cd9c48364431e4d32529029b910 drm/panel: panel-simple: Add function to look panel data up
+f6faebc11a8a6d9521e5ab00481bd22ed9c7c67d drm/panel: panel-simple: get rid of panel_dpi hack
+48e29133ae880a8f30ff098a9843d22e012350e0 Merge tag 'i2c-host-fixes-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+9159c5e733cfa35ec863fa81960a3e7435f831fb LoongArch: KVM: Add address alignment check for IOCSR emulation
+c34bbc2c990700ba07b271fc7c8113b0bc3e4093 LoongArch: KVM: Fix interrupt route update with EIOINTC
+45515c643d0abb75c2cc760a6bc6b235eadafd66 LoongArch: KVM: Check interrupt route from physical CPU
+cc8d5b209e09d3b52bca1ffe00045876842d96ae LoongArch: KVM: Check validity of "num_cpu" from user space
+955853cf83657faa58572ef3f08b44f0f88885c1 LoongArch: KVM: Disable updating of "num_cpu" and "feature"
+f40213cd93e608ee78b5e25db042c42ec07139fe i2c: scx200_acb: depends on HAS_IOPORT
+00c092de6f28ebd32208aef83b02d61af2229b60 x86/mce: Ensure user polling settings are honored when restarting timer
+d66e1e90b16055d2f0ee76e5384e3f119c3c2773 x86/mce/amd: Add default names for MCA banks and blocks
+5f6e3b720694ad771911f637a51930f511427ce1 x86/mce/amd: Fix threshold limit reset
+09234a632be42573d9743ac5ff6773622d233ad0 xfs: xfs_ifree_cluster vs xfs_iflush_shutdown_abort deadlock
+db6a2274162de615ff74b927d38942fe3134d298 xfs: catch stale AGF/AGF metadata
+d62016b1a2df24c8608fe83cd3ae8090412881b3 xfs: avoid dquot buffer pin deadlock
+fc48627b9c22f4d18651ca72ba171952d7a26004 xfs: add tracepoints for stale pinned inode state debug
+d2fe5c4c8d25999862d615f616aea7befdd62799 xfs: rearrange code in xfs_buf_item.c
+816c330b605c3f4813c0dc0ab5af5cce17ff06b3 xfs: factor out stale buffer item completion
+7b5f775be14ac1532c049022feadcfe44769566d xfs: fix unmount hang with unflushable inodes stuck in the AIL
+615cc4223fcbe1e0e6f68b8494b26bb6c08d917a drm/vesadrm: Avoid NULL-ptr deref in vesadrm_pmi_cmap_write()
+9c2f970518c900821acdac47bbd681b99a325e3d Merge tag 'sound-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+51df97f90002cb055e966189bd46d831af69e155 Merge tag 's390-6.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+9c7331f150549d3c724051aa11c5dcb51bf3aa99 Merge tag 'ata-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+0a47e02d8a283a99592876556b9d42e087525828 Merge tag 'io_uring-6.16-20250626' of git://git.kernel.dk/linux
+e540341508ce2f6e27810106253d5de194b66750 Merge tag 'block-6.16-20250626' of git://git.kernel.dk/linux
+96de8f85203147e3d1e646da891307fa3e462c32 bcachefs: mark invalid_btree_id autofix
+1f029b4e30a602db33dedee5ac676e9236ad193c Bluetooth: Prevent unintended pause by checking if advertising is active
+1e6ed33cabba8f06f532f2e5851a102602823734 btrfs: fix failure to rebuild free space tree using multiple transactions
+6561a40ceced9082f50c374a22d5966cf9fc5f5c btrfs: fix missing error handling when searching for inode refs during log replay
+54a7081ed168b72a8a2d6ef4ba3a1259705a2926 btrfs: fix iteration of extrefs during log replay
+5f61b961599acbd2bed028d3089105a1f7d224b8 btrfs: fix inode lookup error handling during log replay
+bf5bcf9a6fa070ec8a725b08db63fb1318f77366 btrfs: record new subvolume in parent dir earlier to avoid dir logging races
+c466e33e729a0ee017d10d919cba18f503853c60 btrfs: propagate last_unlink_trans earlier when doing a rmdir
+157501b0469969fc1ba53add5049575aadd79d80 btrfs: use btrfs_record_snapshot_destroy() during rmdir
+46c0d947b64ac8efcf89dd754213dab5d1bd00aa Bluetooth: hci_sync: revert some mesh modifications
+e5af67a870f738bb8a4594b6c60c2caf4c87a3c9 Bluetooth: MGMT: set_mesh: update LE scan interval and window
+f3cb5676e5c11c896ba647ee309a993e73531588 Bluetooth: MGMT: mesh_send: check instances prior disabling advertising
+89fb8acc38852116d38d721ad394aad7f2871670 Bluetooth: HCI: Set extended advertising data synchronously
+c5b60592886f97b01503c1bb553f88d6a7df42ea interconnect: avoid memory allocation when 'icc_bw_lock' is held
+35e261cd95ddc741d8664f5ac897bbd0d384bbd0 Merge tag 'acpi-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+35ecea24b5ef7534b8c928bb9ddfa936bd2805ab Input: xpad - adjust error handling for disconnect
+77451cb102506a980cd299581e1c03a367af3c9a Input: xpad - return errors from xpad_try_sending_next_out_packet() up
+6921d1e07cb5eddec830801087b419194fde0803 tracing: Fix filter logic error
+9fbceb37c95939182e1409211447a1d3f3db9274 Merge tag 'drm-misc-fixes-2025-06-26' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+8550821a153558d49dffacbc1dc98ac9d3eed2fa MAINTAINERS: update smc section
+6e457732c8a4431952a5cc075215268ce021dc0f docs: netdev: correct the heading level for co-posting selftests
+ba2f83eecd2b36b12f92e5edd8bdc0509c7cd44e doc: tls: socket needs to be established to enable ulp
+22c69d786ef8fb789c61ca75492a272774221324 Input: xpad - support Acer NGR 200 Controller
+d72411d20905180cdc452c553be17481b24463d2 ethernet: atl1: Add missing DMA mapping error checks and count errors
+2def09ead4ad5907988b655d1e1454003aaf8297 dpaa2-eth: fix xdp_rxq_info leak
+5683cd63a33a5f0bf629a77f704ddd45cdb36cba Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+26fd9f7b7ff3794c5de0e6ae538cead53118b4c3 Merge tag 'cxl-fixes-6.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+7abdafd2343ab199367c8243d6a5f06a9aa6976b Merge tag 'drm-fixes-2025-06-28' of https://gitlab.freedesktop.org/drm/kernel
+fa33adcaf8af147f4238c84d76a316a47e43e091 Merge tag 'pci-v6.16-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+867b9987a30b7f68a6e9e89d3670730692222a4a Merge tag 'riscv-for-linus-5.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+0fd39af24e37a6866c479ca385301845f6029787 Merge tag 'mm-hotfixes-stable-2025-06-27-16-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+aaf724ed69264719550ec4f194d3ab17b886af9a Merge tag 'v6.16-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+30ad231a5029bfa16e46ce868497b1a5cdd3c24d x86/mce: Make sure CMCI banks are cleared during shutdown on Intel
 80e08394377559ed5a2ccadd861e62d24b826911 usb: dwc3: gadget: Fix TRB reclaim logic for short transfers and ZLPs
 cbc889ab0122366f6cdbe3c28d477c683ebcebc2 usb: xhci: quirk for data loss in ISOC transfers
 cd65ee81240e8bc3c3119b46db7f60c80864b90b xhci: Disable stream for xHC controller with XHCI_BROKEN_STREAMS
@@ -493,13 +562,6 @@ d563e7f95c933816efe531c3a48e22bc099c0f55 gpio: of: initialize local variable pas
 76303ee8d54bff6d9a6d55997acd88a6c2ba63cf x86/mm: Disable hugetlb page table sharing on 32-bit
 9adf143357bf5ea6400f276ca60bfbc7cd92c19a Merge tag 'pinctrl-v6.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 f69f5aab1fad379bbef9339f66bc8323daffe56e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-e1ef1c57ff70751a62b93d513e7009155ea0b0c1 KVM: VMX: Add a macro to track which DEBUGCTL bits are host-owned
-e88cfd50b60602c1084bf989c2503abac5b99fd6 KVM: x86: Advertise support for LKGS
-6fbef8615d3588450045f014c6015d0beeff6cf2 KVM: x86: Replace growing set of *_in_guest bools with a u64
-a7cec20845a67ff4f3c924255519341f37d993f9 KVM: x86: Provide a capability to disable APERF/MPERF read intercepts
-e83ee6f76c33de80d5fe4cec523e2b95bfc5e3ea KVM: selftests: Expand set of APIs for pinning tasks to a single CPU
-df98ce784aebdf4b1448ec2abfbbcd8f48b2e295 KVM: selftests: Test behavior of KVM_X86_DISABLE_EXITS_APERFMPERF
-95826e1ed3592cb81262c7e533ddea60751095c9 KVM: selftests: Convert arch_timer tests to common helpers to pin task
 8c2e52ebbe885c7eeaabd3b7ddcdc1246fc400d2 eventpoll: don't decrement ep refcount while still holding the ep mutex
 4578a747f3c7950be3feb93c2db32eb597a3e55b KVM: x86: avoid underflow when scaling TSC frequency
 ec3cae639482a8da11a3ae30d28ceceb9d6a3f56 PM: sleep: Call pm_restore_gfp_mask() after dpm_resume()
@@ -563,13 +625,8 @@ c870cbbd71fccda71d575f0acd4a8d2b7cd88861 i2c: stm32: fix the device used for the
 6aae87fe7f180cd93a74466cdb6cf2aa9bb28798 i2c: stm32f7: unmap DMA mapped buffer
 04f9196ba981c9f23fa0c3c30bb290fb81848cec Merge tag 'asoc-fix-v6.16-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 04515e08bca9b5a1f9729b8d99d8b322e56d7454 HID: debug: Remove duplicate entry (BTN_WHEEL)
-1d738dbb252f66dd909a662d85c67b93314d7ae7 drm/gpu: Remove dead checks on wbinvd_on_all_cpus()'s return value
-e638081751a292560a8aed36ec72e8f65b057892 x86/lib: Drop the unused return value from wbinvd_on_all_cpus()
-07f99c3fbe6e322bdb222fbfd59f708ced799cc5 x86/lib: Add WBNOINVD helper functions
 d7a54d02db41f72f0581a3c77c75b0993ed3f6e2 wifi: mac80211: always initialize sdata::key_list
 c07981af55d3ba3ec3be880cfe4a0cc10f1f7138 wifi: mac80211: add the virtual monitor after reconfig complete
-4fdc3431e03b9c11803f399f91837fca487029a1 x86/lib: Add WBINVD and WBNOINVD helpers to target multiple CPUs
-81bf24f1ac77029bf858c0da081088eb62b1b230 KVM: selftests: Add CONFIG_EVENTFD for irqfd selftest
 c980666b6958d9a841597331b38115a29a32250e USB: serial: ftdi_sio: add support for NDI EMGUIDE GEMINI
 252f4ac08cd2f16ecd20e4c5e41ac2a17dd86942 USB: serial: option: add Telit Cinterion FE910C04 (ECM) composition
 d9b99eb3d76a603442311926617654f0e35581d4 ALSA: hda/realtek - Fix mute LED for HP Victus 16-r0xxx
@@ -577,23 +634,6 @@ b1bf1a782fdf5c482215c0c661b5da98b8e75773 dm-bufio: fix sched in atomic context
 e778689390c71462a099b5d6e56d71c316486184 drm/i915/bios: Apply vlv_fixup_mipi_sequences() to v2 mipi-sequences too
 73d7cf07109e79b093d1a1fb57a88d4048cd9b4b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 bc9ff192a6c940d9a26e21a0a82f2667067aaf5f Merge tag 'net-6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-55aed8c2dbc4d95121c20a509d95e2ef3c1d7d09 KVM: x86: Use wbinvd_on_cpu() instead of an open-coded equivalent
-7e00013bd33995dddb604dc94f6c970d6603d5ec KVM: SVM: Remove wbinvd in sev_vm_destroy()
-a77896eea33db6fe393d1db1380e2e52f74546a2 KVM: SEV: Prefer WBNOINVD over WBINVD for cache maintenance efficiency
-ac48017020a5f97d7ef1a5cd90278587474dd593 KVM: x86: Open code setting/clearing of bits in the ISR
-3fb7b83e2a720dc96aa275f42380cf488e6f9737 KVM: x86: Remove redundant parentheses around 'bitmap'
-dc98e3bd494bef9c8933ee9ace254aac48efe506 x86/apic: KVM: Deduplicate APIC vector => register+bit math
-9cbb5fd156d777cc09f57af20505e5e17ad6263b KVM: x86: Rename VEC_POS/REG_POS macro usages
-e2fa7905b293750ee75573eeee3e54575ded8217 KVM: x86: Change lapic regs base address to void pointer
-bdaccfe4e5179fe503febcd459ffe202d8097f6e KVM: x86: Rename find_highest_vector()
-b9bd231913cf25bfaa6b5f10c2a629934697a189 KVM: x86: Rename lapic get/set_reg() helpers
-9c23bc4fec2b3b0324cac39ad7ec88206cc52da3 KVM: x86: Rename lapic get/set_reg64() helpers
-b5f8980f29ce20357c6ee364a83c55f2bdf2dfde KVM: x86: Rename lapic set/clear vector helpers
-39e81633f65eeb474215c95991c19f31b5a19a11 x86/apic: KVM: Move apic_find_highest_vector() to a common header
-3d3a9083da1e7f5f933455411c1e96b37ae37772 x86/apic: KVM: Move lapic get/set helpers to common code
-fe954bcd577e703acdef597903079c991740f6bf x86/apic: KVM: Move lapic set/clear_vector() helpers to common code
-17776e6c203bd3a9be795fb0a2fd72191a201ac9 x86/apic: KVM: Move apic_test)vector() to common code
-b95a9d313642c9f3abebb77a04b41bb7bdd0feef x86/apic: Rename 'reg_off' to 'reg'
 073b3eca08f915d9b92818ed8c30123c54058206 Documentation: KVM: Fix unexpected unindent warning
 68ea85df15d111d82fc474cbe104174791169355 PCI/MSI: Prevent recursive locking in pci_msix_write_tph_tag()
 a8b289f0f2dcbadd8c207ad8f33cf7ba2b4eb088 irqchip/irq-msi-lib: Fix build with PCI disabled
@@ -709,8 +749,6 @@ dd8e34afd6709cb2f9c0e63340f567e6c066ed8e nvme: fix endianness of command word pr
 cb345f954eacd162601e7d07ca2f0f0a17b54ee3 drm/panfrost: Fix scheduler workqueue bug
 aa7b65c2a29e8b07057b13624102c6810597c0d5 objtool/rust: add one more `noreturn` Rust function for Rust 1.89.0
 7498159226772d66f150dd406be462d75964a366 rust: use `#[used(compiler)]` to fix build and `modpost` with Rust >= 1.89.0
-6f38f8c574642a822f2e85f079fa29a49176c49c KVM: SVM: Flush cache only on CPUs running SEV guest
-dcbe5a466c123a475bb66492749549f09b5cab00 KVM: x86: Reject KVM_SET_TSC_KHZ VM ioctl when vCPUs have been created
 60ada4fe644edaa6c2da97364184b0425e8aeaf5 smc: Fix various oops due to inet_sock type confusion.
 e18f348632ec4ee25d9172cdff273f0e939241c7 selftests/tc-testing: Create test cases for adding qdiscs to invalid qdisc parents
 f0f2b992d8185a0366be951685e08643aae17d6d net: phy: Don't register LEDs for genphy
@@ -988,29 +1026,6 @@ d42e6c20de6192f8e4ab4cf10be8c694ef27e8cb arm64/entry: Mask DAIF in cpu_switch_to
 71c33df471a6ed40cc3ec7902cf889d813219b07 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 dca56cc8b5c3bee889d6cb0d2ee3e933b21cb4ec selftests: netfilter: tone-down conntrack clash test
 67e9d0b40bd7990d6eab63b5afedea3c17578993 Merge tag 'linux-can-fixes-for-6.16-20250722' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-cf648c400fd22c022da0b544ca5fb189c3596641 RISC-V: KVM: add SBI extension init()/deinit() functions
-c046de827c85a70548df8b86ce5f18820ebaaca7 RISC-V: KVM: add SBI extension reset callback
-59aca458b44062e6076891e6c4f158e9a4cf299b RISC-V: KVM: add support for FWFT SBI extension
-169fe70603a63462b154fee32646b0aa676d9b9e RISC-V: KVM: add support for SBI_FWFT_MISALIGNED_DELEG
-607832d8b468899c9ba304dcb5a785163f3aa285 RISC-V: KVM: Check kvm_riscv_vcpu_alloc_vector_context() return value
-cae76171afbdb52420295ed952deebc8567ee6c7 RISC-V: KVM: Drop the return value of kvm_riscv_vcpu_aia_init()
-73ba752dba0b421233b50d4552e061318d1ad3b0 RISC-V: KVM: Rename and move kvm_riscv_local_tlb_sanitize()
-a03345bd9f569122f77d9cc809bc0a5e791b9769 RISC-V: KVM: Replace KVM_REQ_HFENCE_GVMA_VMID_ALL with KVM_REQ_TLB_FLUSH
-47a0ce9cc166bb5406d04c875986ee223176e9ae RISC-V: KVM: Don't flush TLB when PTE is unchanged
-d3dc623e778c8450c56110d51d12a189e22ce670 RISC-V: KVM: Implement kvm_arch_flush_remote_tlbs_range()
-a456a501d44bd6e01cb2a01a0cee8c1d2b7afbf8 RISC-V: KVM: Use ncsr_xyz() in kvm_riscv_vcpu_trap_redirect()
-6f6279f9b86bcf110038dd8de35a1069e915c88d RISC-V: KVM: Factor-out MMU related declarations into separate headers
-176b11aadcb07f18d49b49e875f4a40eeb2ea378 RISC-V: KVM: Introduce struct kvm_gstage_mapping
-1449a76aa125afde6afbe56476a96397d679cda8 RISC-V: KVM: Add vmid field to struct kvm_riscv_hfence
-2c3313577c0c36ca0905fe785205dda45b46e9ff RISC-V: KVM: Factor-out g-stage page table management
-fa87c0b1d2bd3589b60db647f7123f86bd31c35f RISC-V: KVM: Pass VMID as parameter to kvm_riscv_hfence_xyz() APIs
-c9560da3ffef0c88cc3e0b8ccd1010f3d7595498 RISC-V: KVM: Delegate illegal instruction fault to VS mode
-094e04c59b755805cb4a3a928f65195e5a268d2c RISC-V: KVM: Fix inclusion of Smnpm in the guest ISA bitmap
-879e23c77297a16c96f784eefb614c001ccb79a9 RISC-V: KVM: Add support for SBI_FWFT_POINTER_MASKING_PMLEN
-56bcf3695218840b29b6c086543b18b476ced6b1 RISC-V: KVM: Enable ring-based dirty memory tracking
-18893a36117b74995b708e1d6a00b44d70a81379 RISC-V: perf/kvm: Add reporting of interrupt events
-da5bf5e5f95d752bdd19c7e6456ab027063f9535 RISC-V: KVM: Use find_vma_intersection() to search for intersecting VMAs
-583c7288feb43eb8cbb18d08376d328e9a48e72d RISC-V: KVM: Avoid re-acquiring memslot in kvm_riscv_gstage_map()
 9aa64182952db7d931201ab4fcdf767c11fb4ab0 afs: Fix check for NULL terminator
 8b3c655fa2406b9853138142746a39b7615c54a2 afs: Set vllist to NULL if addr parsing fails
 696e123aa36bf0bc72bda98df96dd8f379a6e854 ASoC: mediatek: common: fix device and OF node leak
@@ -1062,18 +1077,9 @@ bef3012b2f6814af2b5c5abd6b5f85921dbb8a01 Merge tag 'bcachefs-2025-07-24' of git:
 ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
-a9cbe73d0bb06f5d2dae75fb75694f6674f8779f Merge tag 'kvm-riscv-6.17-1' of https://github.com/kvm-riscv/linux into HEAD
-4e2dad1b6b78764c07e51cd06d8a257c794577bb Merge tag 'kvm-x86-irqs-6.17' of https://github.com/kvm-x86/linux into HEAD
-6362fb34544f94744ea67beda686279c5e45c14b Merge tag 'kvm-x86-mmio-6.17' of https://github.com/kvm-x86/linux into HEAD
-d909676eb1d20cb5a36ae5a28091b1bef8b57fe9 Merge tag 'kvm-x86-generic-6.17' of https://github.com/kvm-x86/linux into HEAD
-e35226d32ae4cb39e5a7fd52ede19836173ca26a Merge tag 'kvm-x86-dirty_ring-6.17' of https://github.com/kvm-x86/linux into HEAD
-8bd5ced1977846441e5e7e109e1dabeae2e1c361 Merge tag 'kvm-x86-no_assignment-6.17' of https://github.com/kvm-x86/linux into HEAD
-70c592013d8ab6837e43f7417272b63102e0a347 Merge tag 'kvm-x86-misc-6.17' of https://github.com/kvm-x86/linux into HEAD
-e67eff50811a1fe993944a2641a3ec6104168ae7 Merge tag 'kvm-x86-mmu-6.17' of https://github.com/kvm-x86/linux into HEAD
-4b9041e3864ddca58b355365454da143f92b30fa Merge tag 'kvm-x86-apic-6.17' of https://github.com/kvm-x86/linux into HEAD
-4f0f390e9336009c1798d41b82084782482777d8 Merge tag 'kvm-x86-selftests-6.17' of https://github.com/kvm-x86/linux into HEAD
-c8a7b1ba8cc16db13d37ccb50942b8bdafa6882a Merge tag 'kvm-x86-svm-6.17' of https://github.com/kvm-x86/linux into HEAD
-0055fa000740dcc9ba7f16712edb34dbf2977e63 Merge tag 'x86_core_for_kvm' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into HEAD
-9ed76f870084b65f08334e8c8b53ab3a7a40b034 Merge tag 'kvm-x86-sev-6.17' of https://github.com/kvm-x86/linux into HEAD
+1e1d35b15d74b66c2c25ad2f41df163a4d061ac0 readfile: implement readfile syscall
+d2cf77100ee0956716bd52f52fed8ade66a16936 arch: wire up the readfile syscall
+375d58cef34e983f356f971347999ca4901022a9 selftests: add readfile(2) selftests
+68874d3927a5e83aa3c613f42c5963fa447b5d50 readfile.2: new page describing readfile(2)
 
---===============1064647851532160391==--
+--===============9106991776056513803==--
