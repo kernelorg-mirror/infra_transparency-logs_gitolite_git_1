@@ -1,26 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4955264970314012367=="
+Content-Type: multipart/mixed; boundary="===============7276094703651886020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 27 Jul 2025 23:54:08 -0000
-Message-Id: <175366044891.1166110.9114076617209554480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 28 Jul 2025 02:24:26 -0000
+Message-Id: <175366946650.1292195.13834666801450297997@gitolite.kernel.org>
 
---===============4955264970314012367==
+--===============7276094703651886020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
   - ref: refs/heads/master
     old: 89be9a83ccf1f88522317ce02f854f30d6115c41
     new: 038d61fd642278bab63ee8ef722c50d10ab01e8f
     log: revlist-89be9a83ccf1-038d61fd6422.txt
+  - ref: refs/tags/v6.16
+    old: 0000000000000000000000000000000000000000
+    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
 
---===============4955264970314012367==
+--===============7276094703651886020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -170,4 +173,4 @@ ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://
 b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
 
---===============4955264970314012367==--
+--===============7276094703651886020==--
