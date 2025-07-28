@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3803529023139323689=="
+Content-Type: multipart/mixed; boundary="===============7832385252972018091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 28 Jul 2025 13:59:14 -0000
-Message-Id: <175371115470.2005074.8651439649813274589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 28 Jul 2025 14:11:20 -0000
+Message-Id: <175371188011.2016617.6211483683584167680@gitolite.kernel.org>
 
---===============3803529023139323689==
+--===============7832385252972018091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: c3de0b8674a455e3106581d17edc049cf7b88da7
-    new: be1de0271a169ab4304adf95f292b69e306b0ce8
-    log: |
-         be1de0271a169ab4304adf95f292b69e306b0ce8 6.12-stable patches
-         
+  - ref: refs/heads/nfsd-testing
+    old: 3ee3f9bb608307c01a9cdf89107dcc3fc4dfc5b5
+    new: 39cbd64b2f922fe28f4587e94c049634c4a88a7a
+    log: revlist-3ee3f9bb6083-39cbd64b2f92.txt
 
---===============3803529023139323689==
+--===============7832385252972018091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3ee3f9bb6083-39cbd64b2f92.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753711196 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1753711150-44f5a7634e20a9228020e83d84ea75a499d2cae3
+597be704c281babd4cca56d8b0c6ecb4b3272d96 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+91a20d38b21b8e7bee68df79d8158def159548b9 NFSD: pass nfsd_file to nfsd_iter_read()
+f58f8093260fd1bad6ef048883017d9172d9a918 NFSD: add io_cache_read controls to debugfs interface
+671f832bd9fdde694a230a4a9a2522dde63dc7d5 NFSD: add io_cache_write controls to debugfs interface
+75d4a1efcb164a28f71f83b9eca609ff0e97c50c NFSD: filecache: only get DIO alignment attrs if NFSD_IO_DIRECT enabled
+eb9e6bcf331ad50c0b33ec7cd23b00b809933a84 NFSD: issue READs using O_DIRECT even if IO is misaligned
+885fd8453d6be997604821968e20b1d597232b2e nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
+5224a6cc8110b5cb36c7bee9daf2a120b1419579 nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
+ac3dffb028d8eae4729c8beaf2ecb43dfc194ab8 vfs: add ATTR_CTIME_SET flag
+ef3fcdf8704e7a35a91974320383463cbfb6af13 nfsd: use ATTR_CTIME_SET for delegated ctime updates
+ad1227b3ee6ef6578e40ea869cfc33aa41ca1b75 nfsd: track original timestamps in nfs4_delegation
+69af78034de52d449dcad0ee1ee295482b2a3901 nfsd: fix SETATTR updates for delegated timestamps
+28598be7756c14464247b0d230efeec1219abf9a nfsd: fix timestamp updates in CB_GETATTR
+3756f46a715dfa73279b427361247f0185300409 vfs: remove inode_set_ctime_deleg()
+39cbd64b2f922fe28f4587e94c049634c4a88a7a siw: Enable try_gso
 
-c3de0b8674a455e3106581d17edc049cf7b88da7 be1de0271a169ab4304adf95f292b69e306b0ce8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiHglwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fb8P/3DLtDSoRhb6CSCmNVQs
-kX5GD8DhQzGPXO7M8fuDfirRtSwMwtGxE3Cv1q+MpRMa5rOr4iviHcsy2BidrRi4
-C2+nusqVWnImwS32SnJ5sxYXqri248muV6Z02mLLsgWeshh2Xtq84oH3VaFD2s2G
-GorKTIgPht96wy4AiRH1+v3FPWBylIIozbfV3NEtOy0KanZl2zfBj/30Yp+L9wfd
-3wy/BtxCPVxm8K9h6tBjF+2kMmT21Kq1BfTV5ceCgK1zQh6+/ZZPhgcCgheiZ+hQ
-6F3JMqQ2ITeHu8NGH1YeMA8oiEyZXsfWT9zstAO6rrR0dlqjX8ewGXLQfSa/PdVy
-9cXh/uo/d8kWQ8hGb4T8naargFjCBPyEkNbazxJ3lRq4NmcANIAtP2uFZfqX/H44
-eAaKjtR8vK8fyVtu2yhtWlgMto/IL5It3i2t6mC2EyJRg+y2H+YyZOY7mpZyYqyx
-9yj7DwZ2mLHUJRVJkKa0RHnnoo5u4jI3sgIE+jsVVMNmrf+VRKvvdUDln/o3xtAV
-kWIQB0Ef2B4U5qKQJZcdX1OQDqnR/YZTITKQx/Soj/I5BKrNt6MHaWiJsHu6otgB
-Vfo5gHtZDWksQuLqk5dPgObceovda468SdTqwSrhvAoqZl5HyQnhKTMxMRHVRcFv
-cv8SRiETZgvKcefQ3zfQysvV
-=hDEY
------END PGP SIGNATURE-----
-
---===============3803529023139323689==--
+--===============7832385252972018091==--
