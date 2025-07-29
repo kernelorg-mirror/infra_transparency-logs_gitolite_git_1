@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5519465269156367991=="
+Content-Type: multipart/mixed; boundary="===============3865609900376405090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Tue, 29 Jul 2025 02:28:52 -0000
-Message-Id: <175375613298.2657620.17380327595566378614@gitolite.kernel.org>
+Date: Tue, 29 Jul 2025 02:29:52 -0000
+Message-Id: <175375619215.2658901.14222347169880514318@gitolite.kernel.org>
 
---===============5519465269156367991==
+--===============3865609900376405090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,53 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: maddy
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/powerpc-6.17-1
+  - ref: refs/tags/v6.16
     old: 0000000000000000000000000000000000000000
-    new: 5a3dda332848fbe35932cfdc16d15c026330cb0c
+    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
+  - ref: refs/tags/v6.16-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
+  - ref: refs/tags/v6.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 47633099a672fc7bfe604ef454e4f116e2c954b1
+  - ref: refs/tags/v6.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
+  - ref: refs/tags/v6.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 75083cd99c8261eec695596813cc261a523ab32b
 
---===============5519465269156367991==
+--===============3865609900376405090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1753756166 +0530
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1753756232 +0530
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1753756121-9df8bb8a7457b3ed186408a14fac32cf07b5288a
+nonce 1753756188-e56e7086241bb6a4232b00ed89f1b6e98f07e92e
 
-0000000000000000000000000000000000000000 5a3dda332848fbe35932cfdc16d15c026330cb0c refs/tags/powerpc-6.17-1
+0000000000000000000000000000000000000000 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c refs/tags/v6.16
+0000000000000000000000000000000000000000 88bf743cabe5793d24f831ef8240a0bf90e5fd44 refs/tags/v6.16-rc4
+0000000000000000000000000000000000000000 47633099a672fc7bfe604ef454e4f116e2c954b1 refs/tags/v6.16-rc5
+0000000000000000000000000000000000000000 d2792fee7bfca1cf5e6738856fe2af4b56f26cdd refs/tags/v6.16-rc6
+0000000000000000000000000000000000000000 75083cd99c8261eec695596813cc261a523ab32b refs/tags/v6.16-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmiIMgYACgkQpnEsdPSH
-ZJTqGRAAr+eENjCbeX+NKvmMpfNQGn1Rz6MCJJmbeD20pSGemYEsn70IF3+ZlsuW
-VjJvtzyxePhB5D+xUhbgKclVNub40/SHUmBZ7u/wpPtF/FTZWGOQUsc5Yr6+KExH
-nWyxN/nxDEMasKx+zpdxaV9N0dQCcV2wUtQjwkNej5tkborLg3cwiiy9u26MW94G
-YygoI8s5qpuqw3+TUVkdJtAEJZarkMDKau8TONyCGXvC3SZcbVqiwcHXlA4JHyIa
-meLVuRpRgCiNu9NeF/s78AjoH+H7czGm3ivTRU9JcIqSi5J+DhzB65ay/RlDP+Su
-NZUDwv80qYU6/5fS00CRXkfAUnhXJyedOxJPfjtEnT2wBOqQVTStV3pHKuBzaS9V
-waRWBMkzjqEqUbnjCDgTmEvVN5STqHa4Woq7G+Vmic5/+CM8ql3Ra8NHk7IIv1+3
-Mhhq70ZNK7eh/khNg2v2k84Zok5AvQyhX6x246hB3Zh4waTqPQ9V1lVbgXpm9Lbs
-HIzc0hFW1/9Zr3Jc9ZuMUrBiAoRtxg3255hm7qHJ9VnFpwjSWu8vfjAb5J4qngu9
-n1TwhMp8E2PXYX74Z4BS6ZxuHKMkFnLqw/3genei+A+OQYIib9SSdc0C5Ptanfpb
-m01GNzpPh94fiHaSQTNvtXRZWtfnyBSwc7XnG3jTUmQ3DT2xM0M=
-=Bq0L
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmiIMkgACgkQpnEsdPSH
+ZJSe1hAAv0hjKTfSkz4dEO0b3jTxPXRsYDLcmdu81vIoOvFtiYfEPDRTw5vgZKr7
+2I4owH5/5ZStaQ6cPhVmLis26dNCHYiFhN/VP+UlbHH5NlY3bMd0F+wCrMhcJbCv
+K3MsbMMHpN+o/5jH60Iy/udFfW70Nec6uRdrxb4UB/NK9F4FJNxbaXgCyZSbzYuq
++N01AUqjMTXG6Y0bvCpKlKEWt6xPzeJNhC2JwMJvzeDcfdmntN5YRnZBrrnPRAkn
+nf6OBodcDoJRrQ1hdYpMzL0vnHZua+p087d6BtJ6VgvR9iPf4yoXAR300CjwiUcQ
+9ZscrZ8BzUCQqBKS91Gj6XsFrZVXewzRs379LA3JsVtiJ3Dh/L3gBUa0Jy5mh4JV
+W8kp/vbehqlnJYmdNR9K0B3CtqgXQcPuGom+MlEKhFrTMf63OsbWnAVpXNE0z1zI
+YQld3ORZScRcLlTZzG+7H1GLZh/vVOZJwgI9J5LsUCw48ggx1R9qwxe/RJa3BCjl
+PeszfZnG1/sSXWtkrnB9PhseNA70QByMp0PRLBN33TnFijvxKwxrypmcYXtH8nmr
+vvlSquo1nSm2t5Fh7S6fPL+otfydfmRbeSfENqAzO6p2k7j0/fEvzJHvyW0+uf4l
+U1W4k4y9VybCVb+ZL1XPKXpTAO2fMhfrKPbfQhyBnBzaJ104kc8=
+=oWtW
 -----END PGP SIGNATURE-----
 
---===============5519465269156367991==--
+--===============3865609900376405090==--
