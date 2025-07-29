@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 29 Jul 2025 08:00:14 -0000
-Message-Id: <175377601425.3020366.454080409781088618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 29 Jul 2025 08:17:09 -0000
+Message-Id: <175377702927.3033324.12542855389204976339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/bootconfig-v6.16-2
+  - ref: refs/tags/core-entry-2025-07-29
     old: 0000000000000000000000000000000000000000
-    new: bf716884a5d3afcc0be679239ae07a1ae7cee4a2
+    new: 052ef4a60385513b94306f46b57309ee6d9c13e4
