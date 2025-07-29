@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/libpwm
-Date: Tue, 29 Jul 2025 17:08:03 -0000
-Message-Id: <175380888361.3533444.1109891572753939097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 29 Jul 2025 17:14:18 -0000
+Message-Id: <175380925832.3538341.630565814528501819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/libpwm
-user: ukleinek
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 7e51859bcc90a61d4ba46a626c48d85c1e4c13ba
-    new: 18170600bd3f8255e147cd991996d0bcee240d95
-    log: |
-         18170600bd3f8255e147cd991996d0bcee240d95 Fix error messages to contain the correct chip and pwm ids
-         
+  - ref: refs/heads/driver-core-6.17-test-merge
+    old: 0000000000000000000000000000000000000000
+    new: 51a486feac0ca002bee6429f03da0a6c206d0dc5
