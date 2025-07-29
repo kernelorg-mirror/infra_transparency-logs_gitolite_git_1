@@ -1,52 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3637498781917516873=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
-Date: Tue, 29 Jul 2025 10:01:06 -0000
-Message-Id: <175378326697.3118830.15232990437228991996@gitolite.kernel.org>
-
---===============3637498781917516873==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 29 Jul 2025 10:08:35 -0000
+Message-Id: <175378371591.3124064.15276716987948755900@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/uml/linux
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/tags/uml-for-linux-6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 2d8f08fbf8ee41d5ee81d3e42b264153d30123d0
-
---===============3637498781917516873==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1753783286 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/uml/linux.git
-nonce 1753783242-14a22fd67fcedd0fe0091249c2a23a7a8d1927e0
-
-0000000000000000000000000000000000000000 2d8f08fbf8ee41d5ee81d3e42b264153d30123d0 refs/tags/uml-for-linux-6.17-rc1
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmiIm/YACgkQ10qiO8sP
-aACMNRAAnjiJSWLXOU4TMI/WIrgZU6FLHWVapOLc/qeQWnFASgAtCshSurh56/33
-2V2NGxiHcCmDzR6eK6Ydixq207fwTU3hF+rD4rZv/6CM+SdBf71vpSHl/P+KLKTf
-Lsg4D+b93OuyHR9N0eKmVfpfNgKeTDWhAWjNEirnu0AkSZ8Oq6Q271qJmbvP3hVI
-CbI+mTx1f+4ObdBMlTGEkzZzfnigF0+s7mSuEbo0ns0wov3zF28B2nW52gtPHdUv
-rRIAuliQOm5bCu6lOIm/cDfCOdLMoTn7QTF4Mp+Z4/ktMJKDnpuxKlUOYQmTX4md
-B7r6HRLZi0qWTtjeDWp51A+0QWG5AZKPgkyvnalJI3QqqENxLB+iDOQMZ4c7a+LY
-kG3E4KPiqQYPYaO1rD1QCtaWodrIGMrrRGtGxn7mf5jDDr1ILekvtdvdc3C8E+fE
-zoK6veLTW3UTwHPTtXwOcIlvfdgDEygUvrK92uHFeKvmXFdqR+/8FmeEkre5ynTm
-Zeh6n/ZvDTm8Lddvb1EbHuu0ir46YNfhMcMsYPQNVOM/tWzHSSBfbVGehlEbH16F
-gjcs+nRBzsDD3p8A8Mztm6nzTgUNsAC9Q8H3kUF3g8FmdxZNkDXpcPtG67xvQeWv
-kOXsThSIEK6SkAUC6znBIh8zOYaWluBpwsWGyTZELO7wpkVKvvI=
-=JPk/
------END PGP SIGNATURE-----
-
---===============3637498781917516873==--
+  - ref: refs/heads/nand/next
+    old: c115e7ed66f0dc6cf96f9bf3e3c46f6c44aa531b
+    new: db826a157bfaed60b960bd499f599e16f34998e7
+    log: |
+         8055cc30a596b0dda3e55db6e2b8a77bdb894469 mtd: spinand: gigadevice: Add support for GD5F1GM9 chips
+         e0cbacdbec02e375523a65b4f505e337e89ed37e mtd: rawnand: renesas: Add missing check after DMA map
+         a212d3dd33841324585a7bf433bca9963424a05a mtd: nand: brcmnand: fix mtd corrected bits stat
+         8b28de6a06bc8f9d90c5e32b69bf66347ff74eb1 mtd: rawnand: atmel: Fix dma_mapping_error() address
+         899fdca1eaf9ba868e3c2b9ec4e7cf2faaded9b9 mtd: rawnand: hynix: don't try read-retry on SLC NANDs
+         0b43160fcf5647cbb5a527ac33c838dd7c533d73 mtd: rawnand: rockchip: Add missing check after DMA map
+         852638891db56dd0743db0cc32738958f301112a mtd: rawnand: fsmc: Add missing check after DMA map
+         4ea6e28e0ecae442f8b7a6ade8ee028d9f2b3e23 mtd: spinand: propagate spinand_wait() errors from spinand_write_page()
+         db826a157bfaed60b960bd499f599e16f34998e7 mtd: rawnand: atmel: set pmecc data setup time
+         
