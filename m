@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 29 Jul 2025 19:17:38 -0000
-Message-Id: <175381665846.3645678.8668524169327030739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 29 Jul 2025 19:21:31 -0000
+Message-Id: <175381689144.3649662.1716800716191382310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/v6.17-merge
+  - ref: refs/tags/trace-ringbuffer-v6.17
     old: 0000000000000000000000000000000000000000
-    new: da85729b8e34d117f3fe8b01f34147165cf3e918
+    new: 9969b67120a3c22ea35c93dc8f2f81dce5143a38
