@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 29 Jul 2025 16:07:06 -0000
-Message-Id: <175380522637.3478873.10689440909134391683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Tue, 29 Jul 2025 16:26:54 -0000
+Message-Id: <175380641450.3495672.7868885297801148832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/tags/bootconfig-v6.17
+  - ref: refs/heads/driver-core-6.17-test-merge
     old: 0000000000000000000000000000000000000000
-    new: cf85f3b378433d53ead58f8502169cb989be2efd
+    new: 000db8fe6f54240c9362b79c4734286cf9652ca6
