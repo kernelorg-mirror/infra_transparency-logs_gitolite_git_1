@@ -1,24 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3430080376453631443=="
+Content-Type: multipart/mixed; boundary="===============9092778172774789541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 29 Jul 2025 21:15:32 -0000
-Message-Id: <175382373268.3748953.12351942842927885873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Tue, 29 Jul 2025 21:16:05 -0000
+Message-Id: <175382376597.3749480.2763955049611683754@gitolite.kernel.org>
 
---===============3430080376453631443==
+--===============9092778172774789541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 916098fc52ab8576779ecc09f24a6cd1b9995fd2
-    new: 64c26509a6b907c541094d29f66471f9d682e3d3
-    log: revlist-916098fc52ab-64c26509a6b9.txt
+    old: 16b2bd939a438644eb0d17a7205edc4e2523f938
+    new: 28ee02f214274bca61ca5b47e7e2faa227e82bc7
+    log: revlist-16b2bd939a43-28ee02f21427.txt
   - ref: refs/tags/v6.16
     old: 0000000000000000000000000000000000000000
     new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
@@ -38,11 +38,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 75083cd99c8261eec695596813cc261a523ab32b
 
---===============3430080376453631443==
+--===============9092778172774789541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-916098fc52ab-64c26509a6b9.txt
+Content-Disposition: attachment; filename=revlist-16b2bd939a43-28ee02f21427.txt
 
 6daaa479ac557bc426a7fd2e913b618523fe41fd Merge tag 'drm-xe-fixes-2025-06-26' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 8a20830f2dd180064f25254d9c55beb243fe9223 Merge tag 'hid-for-linus-2025062701' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
@@ -1067,6 +1067,6 @@ bef3012b2f6814af2b5c5abd6b5f85921dbb8a01 Merge tag 'bcachefs-2025-07-24' of git:
 ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
-64c26509a6b907c541094d29f66471f9d682e3d3 selinux: add a SELinux specific README.md and SECURITY.md
+28ee02f214274bca61ca5b47e7e2faa227e82bc7 lsm: add a LSM specific README.md and SECURITY.md
 
---===============3430080376453631443==--
+--===============9092778172774789541==--
