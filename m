@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3992128358008669693=="
+Content-Type: multipart/mixed; boundary="===============8131902301688264070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Jul 2025 22:02:41 -0000
-Message-Id: <175391296136.960473.12895371213829955493@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 22:02:43 -0000
+Message-Id: <175391296396.960560.8856908757692138081@gitolite.kernel.org>
 
---===============3992128358008669693==
+--===============8131902301688264070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: a4244ae6ff9a6ac7903908aff46d53340a88b98a
-    new: aac83b4bd43ca20c1c5837e91def4af647431e5c
-    log: revlist-a4244ae6ff9a-aac83b4bd43c.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: eb5bb65ec44219e21be9bbae1155b75b0b0abe94
+    new: 622e9fd25b6ee3fa36047e87dc1bc1333426c23b
+    log: revlist-eb5bb65ec442-622e9fd25b6e.txt
 
---===============3992128358008669693==
+--===============8131902301688264070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4244ae6ff9a-aac83b4bd43c.txt
+Content-Disposition: attachment; filename=revlist-eb5bb65ec442-622e9fd25b6e.txt
 
 b4fe13944804ac5c463747588c216f032aee6a3f nfsd: don't set the ctime on delegated atime updates
 9e79ddb740b335f9c1f02178eb3d7ec530f0e20e nfsd: avoid ref leak in nfsd_open_local_fh()
@@ -45,5 +45,9 @@ c0b83ff05253623274fc29a398257d571bbb6aa5 NFSD: pass nfsd_file to nfsd_iter_read(
 065851e9d73b65c37675ead97130c911cf61af12 NFSD: add io_cache_write controls to debugfs interface
 8b1bcc18155e2c86767da6a4bca1ccf42ac26e05 NFSD: filecache: only get DIO alignment attrs if NFSD_IO_DIRECT enabled
 aac83b4bd43ca20c1c5837e91def4af647431e5c NFSD: issue READs using O_DIRECT even if IO is misaligned
+440614d1927e1a629538698724b55672b2f5ee30 lib/iov_iter: remove piecewise bvec length checking in iov_iter_aligned_bvec
+ba352b3425b1b981cc09e7feb3edb4cb9104c97f NFSD: rename and update nfsd_read_vector_dio trace event to nfsd_analyze_dio
+221cbd422439681308dcf2fd9e48b5d8c72034c7 NFSD: prepare nfsd_vfs_write() to use O_DIRECT on misaligned WRITEs
+622e9fd25b6ee3fa36047e87dc1bc1333426c23b NFSD: issue WRITEs using O_DIRECT even if IO is misaligned
 
---===============3992128358008669693==--
+--===============8131902301688264070==--
