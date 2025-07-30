@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9216039305054129524=="
+Content-Type: multipart/mixed; boundary="===============1727083726143080508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 30 Jul 2025 05:00:49 -0000
-Message-Id: <175385164927.9080.9689581314097901563@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 05:00:52 -0000
+Message-Id: <175385165286.9369.3124487652429200403@gitolite.kernel.org>
 
---===============9216039305054129524==
+--===============1727083726143080508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,65 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 89be9a83ccf1f88522317ce02f854f30d6115c41
+  - ref: refs/heads/tty-next
+    old: 57b4ca42359c63ad61548431c184a7d63efbd0b9
     new: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
-    log: revlist-89be9a83ccf1-beb6c8326eb4.txt
+    log: revlist-57b4ca42359c-beb6c8326eb4.txt
 
---===============9216039305054129524==
+--===============1727083726143080508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753851692 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753851695 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1753851648-423b93a89c73a81457515d17e871aa37daf796a1
+nonce 1753851651-15f557c5643c64da7b25a72e8eb60ef8fc11a33e
 
-89be9a83ccf1f88522317ce02f854f30d6115c41 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/tty-linus
+57b4ca42359c63ad61548431c184a7d63efbd0b9 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJpywbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yeMP/jRvQ5X0KZLQMQTz3BWP
-GNopIng8UsCuN3gnT2jZtTl2IQdwyWZgia3cSCXlwVBHIdZwXIvOAfoQxNlmL9VH
-EHCKT0R80DecvlGAiZDRvA1DetC3M/GMWJPUjrHM8Nem9kID0fAS81tKIZPO2qoC
-ntExkkgdatT9SwPcklxdVGMBjjF8O1ziu/SmxRjzYx/4R38QEDZIIn+EWLvXCnJL
-3ach0CR3xT/meGS7XqhztqY3XiGJUp07ABeBzxWFfkj1wQ/lM7HyeFWi2k1zIqIQ
-xwKjg2uf/vJFpX8PVs/Wc4+1uqa/y67bXcjHMMU41wea3X2m70yFZO92KJxO5XoO
-QkOb4BLYzyONgWxPo9j3yH+ixzh95vXFusvVAVs1ro4w1lBqJ/OMfqpwptPbP89a
-zXx+ZoUMgiIbaVYDl9an2bbDxuZFgXzeG/0sum3KIARpFaDkQ5bLGj49kh1g5iC1
-338d+8HLiyXRXYQOKAcCktysiEvxcjdR6GpgNsiamVIIMGC6cbTm1jXCuzdi4Vmg
-j0+hGq/ljfXrTRgHzKHZmkTjJ+5i0w5F6kQbn1MxSvjXulU3hx7CuyVl8NEFB9wi
-Xc/uUlZw+R+ZKTFIntd3j0kuOXpZ+dWZOEaHIanyjg+p7ZXvN6aQ+SrhfmVcEj5A
-/osyfCePbZeEqRyBzHQHjSmq
-=NJv7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJpy8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GM4QAI7/m9yuk0MfpPV86YrG
+QwuovKlb+fvsAYCyD8JVqmUchjw9T5j61dDMtss5a1PF2Sifo4W5XpGeJeSQAj/Z
+qJ5BXbx6UxXR922uBOMMAbqyzkMogE1pQpNMF3J/O/BetQmsA7maXnPl55f47dOO
+ExBGro6bN5EAd/wQAJaXqRIInoutoSAbzASYYSweQaX6QEzN2pXKy8DKXNpQqP61
+k/Gysdo4QYKiqTY1LvsvJh7hHOh5LNFlNTk1OyUqV65fCCm2xn2k7a/0FhTr+0BU
+GEbABZO/V/8ZH0sL55LkPUWCDWZWMS5VTiJPit2cO5FtQcvUZdKSRg4QyVI41PES
+k+wN4Hcx9iepDKmGcnCw0C/dgRm2PZPA3u8zuqLjVq+8ilhtxI/PYvlgVCrg6m8G
+NN9AVDOa4h3PNx6u62vcqgShh/WONsvY+09+nauhRKONeSqU/OFBvtMGlkEyZTLL
+AvQBvqHh1xDZ20KIEy4C4897aMoop34fhoj8hi3uyxTSitR6Hg/TwZU/1RbGXROL
+/oXsMR8uMYrDxzRrygdAv/eddUD/xiigQrum6o73hLFWf42rrXALjzZyi82Kh+Ug
+smQbEIvLkHsd7Pr6RcxqQ7qeoNMdIFevClhoETp0TDR0rjJIZ2vurxBbNamZvREb
+ROiJhsoJpQPWtbWRkgs1M6Ge
+=7cFG
 -----END PGP SIGNATURE-----
 
---===============9216039305054129524==
+--===============1727083726143080508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89be9a83ccf1-beb6c8326eb4.txt
+Content-Disposition: attachment; filename=revlist-57b4ca42359c-beb6c8326eb4.txt
 
+5fb9d4341b782a80eefa0dc1664d131ac3c8885d dm-stripe: limit chunk_sectors to the stripe size
+63d092d1c1b1f773232c67c87debe557aab5aca0 block: use chunk_sectors when evaluating stacked atomic write limits
+675f940576351bb049f5677615140b9d0a7712d0 dm: split write BIOs on zone boundaries when zone append is not emulated
+828e50188de5fe898293dfb6e151f88b3d942407 dt-bindings: trivial-devices: Add undocumented hwmon devices
+5b2c214a95942f7997d1916a4c44017becbc3cac nvme-pci: try function level reset on init failure
+7c1f7c22e69fae209eaad58de2627b8b5acb3cb3 Merge back earlier material related to system sleep
+dbd4bccd96626563d1d811bc121484cd45f964a1 PM: sleep: Rearrange suspend/resume error handling in the core
+84bb8c1897ad6592b4c5f6f29c02d50c127c0114 Merge tag 'amd-pstate-v6.17-2025-07-16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+4f95b5bad62c95e840b41ba78ec1f382f2f8c381 Merge back earlier cpufreq material for 6.17-rc1
+f633c1a236df95ab927f1919b3be2619c8cc6733 PM: hibernate: Fix up white space that does not follow coding style
+fc6f89dc707838564abbb8e22dad8e4d75c7fa26 stop_machine: Improve kernel-doc function-header comments
+cf4fc66746e344181f41604066659073dbb8aaf0 smp: Document preemption and stop_machine() mutual exclusion
+8030790477e839b94a10032c490132e47926cb02 binfmt_elf: remove the 4k limitation of program header size
+7f71195c15dcf5f34c4c7f056603659374e3a525 fork: reorder function qualifiers for copy_clone_args_from_user
+2d8ae9a4f1bc04a118e3d438ac50dd49281b34fd string: Group str_has_prefix() and strstarts()
+816309d500ac34b9ae3ff88f130ca7dbbe467bfb Merge tag 'sunxi-fixes-for-6.16' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+b1136432c97241f0e5c40d58597da00d49cd9917 soc: hisilicon: kunpeng_hccs: Fix incorrect log information
+db7897ad60fd7d7bf471bc1c49e3d01fefadade3 misc: ti-fpc202: remove unneeded direction check
 74896eae7e040e1b2a381efc8df0c839023dbf16 misc: ti-fpc202: use new GPIO line value setter callbacks
 906b955c60770bfdfae141aa993ae5fdb3eab193 gpio: xilinx: convert set_multiple() to the new API as well
 2ae9b28947d486b7980b990cba205b1862b6d7a8 dt-bindings: gpio: Convert lacie,netxbig-gpio-ext to DT schema
@@ -240,7 +258,6 @@ ed82b8d6574fcde9d88059b3be84f27a1865c7ea Merge tag 'reset-for-v6.17' of https://
 9d462f56db7a0fdb0c814b34a6f9bdd01ebc23f5 riscv: dts: andes: add Voyager board device tree
 ad087c91eb87bebd79f05a4c9b5cfbe72d6186fa riscv: defconfig: enable Andes SoC
 bf40c1a5b9561bef0c0d1df47bcfc0ceb26a6c8a MAINTAINERS: Add entry for Andes SoC
-bcbef1e4a626e093d4ead56593fb169eed5033c7 Merge tag 'v6.16-rc7' into tty-next
 2b12a400dd94e1f73097d60e043b4e90b64ec9e1 Merge tag 'arm-soc/for-6.17/maintainers' of https://github.com/Broadcom/stblinux into soc/drivers
 aee4eeec7e5e598f0b7da65405d43f9941f965a5 Merge tag 'arm-soc/for-6.17/drivers' of https://github.com/Broadcom/stblinux into soc/drivers
 43af11e1923e3c37ef6a4cbeb4018e81ecc20aa2 Merge tag 'dt-vt8500-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt into soc/dt
@@ -274,9 +291,6 @@ f8c667edaf80a9ed91e730b9f106923119904c87 dt-bindings: gpu: Add Apple SoC GPU
 76f3ffeb41d8700c22005211521bf692f2551668 arm64: dts: apple: Add Apple SoC GPU
 964ebc07c546c76b78aea5b6dff0d02c602d4793 Merge tag 'platform-drivers-x86-v6.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 1e1bf8bf4e2043dfcb5b73afd4f6c21dd3db73e2 Merge tag 'samsung-defconfig-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/defconfig
-69c94feda519cb7615794123eac8981d7ac9f688 serial: 8250_ce4100: Fix CONFIG_SERIAL_8250=n build
-5eb2d4b3e9a19f08e0ccbb81e0fbfa61de229345 dt-bindings: serial: renesas: Document RZ/V2N SCIF
-48f9034e024a4c6e279b0d040e1f5589bb544806 dt-bindings: serial: 8250: spacemit: set clocks property as required
 fcb476990beb55c958db0b5aa2e9ca772d0fc982 usb: core: add urb->sgt parameter description
 83d92eae8d44e320a414b76fcba8186fa739f3e8 pinctrl: rp1: use new GPIO line value setter callbacks
 12702f0c38347f3825a61b7c84d1b1d7eb84dd74 soc: fsl: qe: convert set_multiple() to returning an integer
@@ -583,17 +597,6 @@ c4930d6dba025a5d6035b18350120a540c68dc25 Merge branch 'pm-sleep'
 63ce53724637e2e7ba51fe3a4f78351715049905 sunvdc: Balance device refcount in vdc_port_mpgroup_check
 40c28199550d5cdace4583bfe723a7636b170a90 Merge branches 'pm-misc' and 'pm-tools'
 35b6fc51c666fc96355be5cd633ed0fe4ccf68b2 comedi: fix race between polling and detaching
-a8d455db2621ff5223416ead264f346d8164c92f serial: 8250_dw: Fix typo "notifer"
-4c83146cfb466ef24fcb9cf110f3b8821d1d2d85 dt-bindings: serial: describe SA8255p
-3a0fdc6d934ded4756ae027d4272aeccb34de08a dt-bindings: qcom: geni-se: describe SA8255p
-f5b16f28fa8b8f7aa3e66d21b486aee2ffd68608 soc: qcom: geni-se: Enable QUPs on SA8255p Qualcomm platforms
-4b2601ae3066daba5674049e83376317f66d45e8 serial: qcom-geni: move resource initialization to separate function
-94d691417e6f1fe5ba28c092fe95de3dc66d5e3c serial: qcom-geni: move resource control logic to separate functions
-5893e62d46bce4ff2e0bc422c0957539d36e0f06 serial: qcom-geni: move clock-rate logic to separate function
-1afa70632c390488308d8e94e037df6895a3e1ac serial: qcom-geni: Enable PM runtime for serial driver
-86fa39dd6fb700c97606695b6ca40ff48ee323e9 serial: qcom-geni: Enable Serial on SA8255p Qualcomm platforms
-b1cc2092ea7a52e2c435aee6d2b1bcb773202663 vt: keyboard: Don't process Unicode characters in K_OFF mode
-b43cb4ff85da5cf29c4cd351ef1d7dd8210780f7 vt: defkeymap: Map keycodes above 127 to K_HOLE
 931837cd924048ab785eedb4cee5b276c90a2924 ALSA: hda/realtek: Fix mute LED mask on HP OMEN 16 laptop
 089a60acbd1bf77d01ec086d026a1e124dc003e8 Merge branch 'for-linus' into for-next
 8c493cc91f3a1102ad2f8c75ae0cf80f0a057488 PCI/pwrctrl: Create pwrctrl devices only when CONFIG_PCI_PWRCTRL is enabled
@@ -801,9 +804,6 @@ c5647e0e85c91a7e0532b416e3bf429062d67450 staging: rtl8723bs: DoIQK_8723B is empt
 f50d5e0c1f80d004510bf77cb0e1759103585c00 staging: gpib: Add init response codes for new ni-usb-hs+
 63533ba19d0f325f8e36cc5aae73281a93758618 staging: rtl8723bs: remove redundant semicolon in basic_types.h
 8d1b02e5d7e3a6d2acffb1f4c094678fda9e3456 usb: atm: cxacru: Merge cxacru_upload_firmware() into cxacru_heavy_init()
-9e32e4db965fd4e5e95e20b0b02ba03688d7e0de dt-bindings: serial: samsung: add samsung,exynos2200-uart compatible
-7f8fdd4dbffc05982b96caf586f77a014b2a9353 serial: 8250: fix panic due to PSLVERR
-57b4ca42359c63ad61548431c184a7d63efbd0b9 dt-bindings: serial: snps-dw-apb-uart: Allow use of a power-domain
 93b17c6afa83fda8eea4490aad9a3721eb6627bb drivers: virt: acrn: Don't use %pK through printk
 61a789ad4326d931488f0b82316bc9ec8034556e pc104: move PC104 option to drivers/Kconfig
 335fb3d29893a49fc3e68e8dee450314d65a60f6 bus: moxtet: Use dev_fwnode()
@@ -1082,4 +1082,4 @@ bc46b7cbc58c4cb562b6a45a1fbc7b8e7b23df58 Merge tag 's390-6.17-1' of git://git.ke
 5f5c9952b33cb4e8d25c70ef29f7a45cd26b6a9b Merge tag 'powerpc-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 Merge tag 'uml-for-linux-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 
---===============9216039305054129524==--
+--===============1727083726143080508==--
