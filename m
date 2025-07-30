@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3388292646604238769=="
+Content-Type: multipart/mixed; boundary="===============4086387448825961976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 30 Jul 2025 11:10:44 -0000
-Message-Id: <175387384405.376164.2239747678396028674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 30 Jul 2025 11:11:00 -0000
+Message-Id: <175387386007.376522.3574686558158719090@gitolite.kernel.org>
 
---===============3388292646604238769==
+--===============4086387448825961976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 038d61fd642278bab63ee8ef722c50d10ab01e8f
     log: revlist-89be9a83ccf1-038d61fd6422.txt
 
---===============3388292646604238769==
+--===============4086387448825961976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -170,4 +170,4 @@ ec2df4364666a96e7868b7257bc7235bae263dcb Merge tag 'spi-fix-v6.16-rc7' of git://
 b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
 
---===============3388292646604238769==--
+--===============4086387448825961976==--
