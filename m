@@ -1,48 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============9126471594892687157=="
+Content-Type: multipart/mixed; boundary="===============5967812234263543796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 30 Jul 2025 04:28:08 -0000
-Message-Id: <175384968801.4118136.7942307094992437283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 30 Jul 2025 04:35:01 -0000
+Message-Id: <175385010116.4124053.15877612813107652739@gitolite.kernel.org>
 
---===============9126471594892687157==
+--===============5967812234263543796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: ee4cf798202d285dcbe85e4467a094c44f5ed8e6
-    new: f627b51aaa041cba715b59026cf2d9cb1476c7ed
-    log: |
-         fc525d625a22c2179877955ee87e33f532b0674c kstack_erase: Fix missed export of renamed KSTACK_ERASE_CFLAGS
-         94fd44648dae2a5b6149a41faa0b07928c3e1963 fortify: Fix incorrect reporting of read buffer size
-         f627b51aaa041cba715b59026cf2d9cb1476c7ed compiler_types: Provide __no_kstack_erase to disable coverage only on Clang
-         
+  - ref: refs/tags/char-misc-6.17-rc1
+    old: 4462a02b577f64b2ccd0d1571225bdf203b4cc74
+    new: 0000000000000000000000000000000000000000
 
---===============9126471594892687157==
+--===============5967812234263543796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1753849730 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1753849672-bb6742db960a013c02eae33c5cce539352088160
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850144 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1753850100-fc97b3710138ae28a772886766239777a1f9eae4
 
-ee4cf798202d285dcbe85e4467a094c44f5ed8e6 f627b51aaa041cba715b59026cf2d9cb1476c7ed refs/heads/for-next/kspp
+4462a02b577f64b2ccd0d1571225bdf203b4cc74 0000000000000000000000000000000000000000 refs/tags/char-misc-6.17-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaImfggAKCRA2KwveOeQk
-u+bmAP9W+4J/6SNR1LbwmS0ZFA6SfjFd4yzKI2w9wcNLqp1A0QD+LcTayxijVAKT
-lsRRUccY02d2eGHNPQcrZaflG4CBFwE=
-=yX0B
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJoSAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AToP/iPvuI5ovVUVV6FNQwT8
+UJZotGbIlAoejw/nARCS9vITA413+YIHXSr/0Vukz6v0wV+fwmFOi7wlA20h+k4V
+XBQxHWaIf5iagSef7phZUhI78Q4duuY8SLMSXOJDO+44ZFDN34F6FzrkxQ6ja/j3
+hvvwmXdf3QCdu2C+RNNLdhfX918mD/RFQMHdr0CkG2ca5miq89TMWlZ0lNc0QkUg
+KKiq+TLWed2XVAqFdcf+86G0mE83i/3GSCkpy8nDin8hMIdmAqnXwoSJiBM3UmYL
+lVPW8YRF4RXFYfswuNCDnBFT1L9iCx8s/KQsYAffvNOlkdUAPoKynZbioVZU2eSy
+/n829gjj8N6sjmQ7z8MrtNASloG9EmKE7UImzx7XYC8XeAHpisXWTpaOURv6mO5I
+7+pkKVqsRQjLp/fMhPTQeT+I0jkWcHtrN4zdGSLKVvkQt/MfYXZC6axX4wOpjir7
+FcN/xNIg+d0dLZrihsJdIrozS/UaRs4RvGdiqvNxWY3OW767p9nSNwozKUoV2pTv
+DywJxCdpfyaSR9mxx63THD5h23R1HrSCsDO1d0521yKuspDEZWX3pe1lu6RmTQL5
+NUMRWZXvtANkdh/BD33r/fkfwEpyQpOGzLa7IO1rvyN4te2qb3z9trzi/oGN0yKT
+JW1iJmGYC4MzY7NTt5md6zWP
+=T/gN
 -----END PGP SIGNATURE-----
 
---===============9126471594892687157==--
+--===============5967812234263543796==--
