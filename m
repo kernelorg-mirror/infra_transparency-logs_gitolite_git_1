@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6315878477810884681=="
+Content-Type: multipart/mixed; boundary="===============5456793627040218703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Wed, 30 Jul 2025 22:54:21 -0000
-Message-Id: <175391606150.1005294.11207774003554560805@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 22:54:25 -0000
+Message-Id: <175391606594.1005399.8895112288321593494@gitolite.kernel.org>
 
---===============6315878477810884681==
+--===============5456793627040218703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: 35e261cd95ddc741d8664f5ac897bbd0d384bbd0
-    new: e8d780dcd957d80725ad5dd00bab53b856429bc0
-    log: revlist-35e261cd95dd-e8d780dcd957.txt
+  - ref: refs/heads/test-merge
+    old: 2458f4bad12a6c7bf990241ea5db80db43d8ebf1
+    new: 93c5a8db055f7456d2f4448d039223a1b3e4173f
+    log: revlist-2458f4bad12a-93c5a8db055f.txt
 
---===============6315878477810884681==
+--===============5456793627040218703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35e261cd95dd-e8d780dcd957.txt
+Content-Disposition: attachment; filename=revlist-2458f4bad12a-93c5a8db055f.txt
 
-8320febc6449f5bade61c8163fd472071e3752da btrfs: pass bool to indicate subvolume/snapshot creation type
 9950c31ad9047cfa2599f8c02a9bd74c711a5a9f btrfs: rename inode number parameter passed to btrfs_check_dir_item_collision()
 ea124ec327086325fc096abf42837dac471ac7ae btrfs: don't skip accounting in early ENOTTY return in btrfs_uring_encoded_read()
 ae818824a203958b326fd0a29e57aaeb166f1fbe btrfs: always open the device read-only in btrfs_scan_one_device()
@@ -1050,5 +1049,6 @@ d9104cec3e8fe4b458b74709853231385779001f Merge tag 'bpf-next-6.17' of git://git.
 7dff275c663178e9a12a0c0038e4b3be2f3edcba Merge tag 'kcsan-20250728-v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux
 2db4df0c09eeb209726261f43fc556360b38ec99 Merge tag 'rcu.release.v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 e8d780dcd957d80725ad5dd00bab53b856429bc0 Merge tag 'slab-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+93c5a8db055f7456d2f4448d039223a1b3e4173f Merge branch 'for-6.17' into test-merge
 
---===============6315878477810884681==--
+--===============5456793627040218703==--
