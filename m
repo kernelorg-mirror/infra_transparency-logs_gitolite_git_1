@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1456955758458993794=="
+Content-Type: multipart/mixed; boundary="===============5061241720915087935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 30 Jul 2025 16:01:55 -0000
-Message-Id: <175389131591.660636.16969547682561680523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 30 Jul 2025 16:01:59 -0000
+Message-Id: <175389131902.660739.13479070161821392248@gitolite.kernel.org>
 
---===============1456955758458993794==
+--===============5061241720915087935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 8d452accd1380e1cb0b15a9876bcd19b14c5fabb
     new: 11f74f48c14c1f4fe16541900ea5944c42e30ccf
     log: |
          11f74f48c14c1f4fe16541900ea5944c42e30ccf ASoC: Intel: avs: Fix uninitialized pointer error in probe()
          
 
---===============1456955758458993794==
+--===============5061241720915087935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1753891358 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1753891314-2835e47d97ed59bcfa95cf18d8f4820629cc4b0f
+pusher C3F436CA30F5D8EB 1753891361 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1753891317-502b79eb1a658af5eb83c377ed06e34de8a2902b
 
-8d452accd1380e1cb0b15a9876bcd19b14c5fabb 11f74f48c14c1f4fe16541900ea5944c42e30ccf refs/heads/for-6.17
+8d452accd1380e1cb0b15a9876bcd19b14c5fabb 11f74f48c14c1f4fe16541900ea5944c42e30ccf refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiKQh4ACgkQJNaLcl1U
-h9BMLQf8CVoo9aJJ/MsbibGWMq8ieu5RzQlDv19l5JeepwpX3MEZPX0n+3KOmebg
-NIygsTijruMfsk85g/B7uLdDNxlFUzoFPXJlLflwiQb7+BM2IM4jOKUBcayd8YQE
-812y7XbeswXxWfFcMIPWgwsZ6N2JycaUrcZAzHkZ400gtQ2myyDABLczODag4OsR
-EdSaEzZj4QtLKWug7QLr4iuG8n/RBZMDt1MGpOnSqmOrJj+Zv3lQACKjuezOyO6W
-SD6wwQlhca0WX9lJbqKISzH7lWzeJn/lv7B6Z2OgUP1Whi49qsWPmd/EKQDsZSjj
-pxdidc8Ylz9w69RxDbkTp9iXe/ycNQ==
-=4Uqv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiKQiEACgkQJNaLcl1U
+h9BXsAf/fbBcNII//Fl5BKvoBlzEHKI2XowaPdrIwyoefIhryWWz0DzsMBIqoZjn
+BOYNYmgC12IGqtLyX2KwSMj4VZhR/gPwbMDXIgVmorOybS8gtYNStVJvTWK8CgvF
+OQOJMJucWTNxLhECdkS59idPPsxYCigN3Sx0CvMzuhQx4U8/oJF1TL/3NMRrOWqE
+zROoUc7A2dIK+XiP/XgkV2S71BzI35pMoUM7BWLt3VlLpFjZemrYxXHcOye0/RN3
+3YO6qS/ty0wNsBiSx/hyxNVl+1b2q5vB9RQ5TK6bhG9/rHIrlwwqbPJqFqFyQini
+L+fp/4HWQOB2PgDYjh1SE2rVz6O3Lw==
+=QVCd
 -----END PGP SIGNATURE-----
 
---===============1456955758458993794==--
+--===============5061241720915087935==--
