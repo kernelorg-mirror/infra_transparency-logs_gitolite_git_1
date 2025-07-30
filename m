@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9085539289947780396=="
+Content-Type: multipart/mixed; boundary="===============0047537692895850500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
-Date: Wed, 30 Jul 2025 12:34:35 -0000
-Message-Id: <175387887545.482557.10634120445283698384@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 12:37:36 -0000
+Message-Id: <175387905690.485546.2027029929135551260@gitolite.kernel.org>
 
---===============9085539289947780396==
+--===============0047537692895850500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,32 @@ repo: pub/scm/linux/kernel/git/arnd/playground
 user: arnd
 changes:
   - ref: refs/heads/config-gpio-legacy
-    old: fac637a2acaf3133517ac4fe5774fd46200ebe6d
-    new: d57ca59d45a607ded97632472241bce9e61a6035
-    log: revlist-fac637a2acaf-d57ca59d45a6.txt
+    old: d57ca59d45a607ded97632472241bce9e61a6035
+    new: 4b5bae8417a4a0274adde7dc0f4f767cab26d9ff
+    log: revlist-d57ca59d45a6-4b5bae8417a4.txt
 
---===============9085539289947780396==
+--===============0047537692895850500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fac637a2acaf-d57ca59d45a6.txt
+Content-Disposition: attachment; filename=revlist-d57ca59d45a6-4b5bae8417a4.txt
 
-95fca203846fd3e2c3bf499854ff0cb42b789c33 ARM: select legacy gpiolib interfaces where used
-a68d4de6c8acd10729978ee48bae12ff4339ca07 m68k: coldfire: select legacy gpiolib interface for mcfqspi
-e533efe1f7b8fa74741299052bbfe4760ed79cb2 mips: select legacy gpiolib interfaces where used
-9122faffcd14f6861f008c9c24e39591692302dd sh: select legacy gpiolib interface
-ce1a2621dbf804874d9c1283c4f10fb8b29d59b2 x86/platform: select legacy gpiolib interfaces where used
-2e336bb43f51bc4d5e990f498464c528219e2d20 x86: olpc: add GPIOLIB_LEGACY dependency
-bd8c5d4185c0b6f85ccc0cf14373aea7b45166f0 mfd: wm8994: remove dead legacy-gpio code
-536d14110afb5a96532e003b2eae50e8b58f36be ASoC: add GPIOLIB_LEGACY dependency where needed
-f56fd262421a48742fb8201257c7173b0d8d72f4 input: gpio-keys: make legacy gpiolib optional
-22d713a13aaf1f09874e8534828f2e30abbf3562 leds: gpio: make legacy gpiolib interface optional
-931aaee78449bae7a391d454498700aefb702589 media: em28xx: add special case for legacy gpiolib interface
-69333d115d5e28d05601ee16f014e62830205c61 mfd: arizona: make legacy gpiolib interface optional
-b76fda28eaae5b0ea748df22507db0543d8c8977 mfd: si476x: add GPIOLIB_LEGACY dependency
-9f908d6f002763fe6988cceb9756434fdbe54937 mfd: aat2870: add GPIOLIB_LEGACY dependency
-72dd716fe950679b14cbc7d4faeb710d72f1972c dsa: b53: hide legacy gpiolib usage on non-mips
-5b153aaa25930b457305475f273c82d5804046d0 ath10k: remove gpio number assignment
-0a0f796068ce7d0a1fdf86d55f1af565b01c0cd3 nfc: marvell: convert to gpio descriptors
-78c5be1f45c80792e61e8f8f0e8997e7197a9e5e nfc: s3fwrn5: convert to gpio descriptors
-850dd4d1880cc0e9eb7355ddb9b9c850ff7edc46 usb: udc: pxa: remove unused platform_data
-20a46550e6a21f58f7b2e192ad81a91cc7c4eafb ASoC: pxa: add GPIOLIB_LEGACY dependency
-d57ca59d45a607ded97632472241bce9e61a6035 gpiolib: turn off legacy interface by default
+faec4465b75570a49232875cb0078489dd841a2b x86/platform: select legacy gpiolib interfaces where used
+6bd2c0252d5205bbe1ebd84ac59c6d10be349c8a x86/olpc: select GPIOLIB_LEGACY
+25b14109c41ad95dca75421e3b81ca6869f14c1b mfd: wm8994: remove dead legacy-gpio code
+97e4e20c82bb4cc0fd1060c798a93d81f44b43c6 ASoC: add GPIOLIB_LEGACY dependency where needed
+38093ceb48c2513770022b474254ec2da63a95a7 input: gpio-keys: make legacy gpiolib optional
+588546eeb4520c2c2d8961ef1fe65c9fe3067de2 leds: gpio: make legacy gpiolib interface optional
+36ceed6fa5fb1e837d6b372b4c5fbe048133114e media: em28xx: add special case for legacy gpiolib interface
+ea9f0aaa482b952a84ccab6b986d971d265f0a27 mfd: arizona: make legacy gpiolib interface optional
+08190a66f1ad88b90820b7fc47ab18e27446b829 mfd: si476x: add GPIOLIB_LEGACY dependency
+24bc1673220b2ac4a5eb5cb9a907adf0e2b473b8 mfd: aat2870: add GPIOLIB_LEGACY dependency
+4d809d69459dfbd5b8c6793f717e2f279e4202ad dsa: b53: hide legacy gpiolib usage on non-mips
+0c3d2ca260c2865aabc920123323b0ba5b796090 ath10k: remove gpio number assignment
+6014afde9bd09231d641d0fe033cf32d2964536b nfc: marvell: convert to gpio descriptors
+8345052cb83b9acbae2c56a6704d7896f44ee1bf nfc: s3fwrn5: convert to gpio descriptors
+465a2d531038d8a89a8f77124d68b5a3ef8207ad usb: udc: pxa: remove unused platform_data
+c890aee7f24b37f5be4e62c184a5d38da02517a4 ASoC: pxa: add GPIOLIB_LEGACY dependency
+4b5bae8417a4a0274adde7dc0f4f767cab26d9ff gpiolib: turn off legacy interface by default
 
---===============9085539289947780396==--
+--===============0047537692895850500==--
