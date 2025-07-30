@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 30 Jul 2025 15:07:55 -0000
-Message-Id: <175388807506.616012.9836420467754247640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 30 Jul 2025 16:01:38 -0000
+Message-Id: <175389129833.660032.7526291858306666328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/mfd-next-6.17
-    old: 0000000000000000000000000000000000000000
-    new: 27324971ac0a32c6bd2ea4df1b0dce2bf8a4fa8e
+  - ref: refs/heads/filexwhnG3
+    old: 11f74f48c14c1f4fe16541900ea5944c42e30ccf
+    new: 0000000000000000000000000000000000000000
