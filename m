@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Wed, 30 Jul 2025 07:16:12 -0000
-Message-Id: <175385977285.175824.10191157038669393813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Wed, 30 Jul 2025 07:51:36 -0000
+Message-Id: <175386189681.204363.10505418680850259895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: frankja
 changes:
-  - ref: refs/tags/v6.16-dts
+  - ref: refs/tags/kvm-s390-next-6.17-1
     old: 0000000000000000000000000000000000000000
-    new: d4c88935feb15fc071e5dc8e0cddbb3874a5d45b
+    new: ca65a498dbeae298fb2799af0fa8476ad258f552
