@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2827664744908136465=="
+Content-Type: multipart/mixed; boundary="===============0724094792522701376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 30 Jul 2025 04:48:10 -0000
-Message-Id: <175385089050.4140164.617488657344696235@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 04:48:15 -0000
+Message-Id: <175385089509.4140416.5173496872583787310@gitolite.kernel.org>
 
---===============2827664744908136465==
+--===============0724094792522701376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 51d4b0a44c82e5eff056ef76acd2c3c605a8eb74
     new: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
     log: revlist-51d4b0a44c82-beb6c8326eb4.txt
 
---===============2827664744908136465==
+--===============0724094792522701376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850933 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850937 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1753850888-22dc1d44577dff83f1c649831cbc0669189a63e0
+nonce 1753850893-b9390ff6c2dd4318f3edf16cc1e8e5e6015e4724
 
-51d4b0a44c82e5eff056ef76acd2c3c605a8eb74 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/usb-next
+51d4b0a44c82e5eff056ef76acd2c3c605a8eb74 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJpDUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4/QQAM9uiTi+Oinv7Pshdv0L
-MGvliKdPYeb7UxhLjpvUPy5bverrcieFMzm/3tt1EOii87nf61xtZOQWBIj4i+Qs
-h3QPbPw4bnKvFnhX237HSCY6F1uJvvj/GlKYYM0bghZ8ZOT77anoYKwKEzmP5fD7
-eh7k0L1JGX6nnGU8slGlLZelqVXuRTR+X5kgkGN7ki03VKpPzNHnalSuf50l+VRC
-AD6HM8phMnmm1e7zBjcvPwFcUGNYYRseebUomzokxkHsazQJtxAhh9mRIsWMlVjJ
-59RCa/lsBx0o/F72dMeiEbO24E2akXNURl2UPgWYd8dUBvKb+OzBdac+dsxaI1tu
-CxeTqHcUHEU4d9yuNdJHK0YlUkUFHnf7GIlNz7CD71sqpr3BlwIyxgFpnuaVS3/T
-FVvzz+DyG241NIApANN5t45H2dePsm/zcXwwX80EDml14Qlnm/jn2bTSwpgipzi2
-nbE235EdfdL4CnI9i/eDLaQ6nm7pKoUFoKJBxoIBjX9UiijzZId3UIT4zeoPtpXo
-JBlyECAHRAJ8gUbBk6FjEsqBVdKDuaJct8jGNwX+CUcmSo2CRQWF1ZKt0v3qM1nF
-YIE+At1fpWMaeMpvgI4kAeoJnqHhZ0/pYZp79aEuSwkB8sH2SifT4kpxr+oH6CAO
-XiaYXwyprjUXsaaq4DsKktIL
-=1F+L
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJpDkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mPMQAKUuXvK1Xi7L0Mjv2SVe
+MstsuCBOf3RmJSx9eTK1MZiSPJ01JQOnZVhS+zBcEBwC6QhwUGbEps10aL+M9hVW
+ffGp432a1pPaI4h8ala0Q0kNjut7OJx8q3VVmkA3VU0155d2O+2iY8IEGBP5u3R3
+ltCEq69Kd3+7om18HkCntNORSfNdT1MqaJEBaQ4joaGhLy+iV14btEEuAMGPTlxl
+3pXpE3YIYo0Vtc9Rnh/tygJ+vfJUEfXhQ55a43pjvB65qNcFhlHy6/8cma96nOJu
+lqWBt/rwivMbLlKxGYGRm528+w5FiDMQrH4+TQXFbdvQjfc7zrWP+cNKcthFozhR
+iIHNSzokqUd2tkoLQVNlcH3aDSDqmaX7h3VgBRphpcVJRSlhOK7EzNp03MCOi6zN
+xuQp+M4qs9qaPfsKwvcE5+p5iMxV/OsQFFs95PjXEjUliivu3gGy3jLsGj+A+mmY
+nv3e4Yzvz3lVsEHk2HPffWt+tb0uA2zRm8/epMJA6D8JUbC+Fjvn3TxWLI1N48F4
+B+W6mLhzCKA+S68ZZXs6z9vYHRjc+uNNia0wd+wDTeFW7zrCIdYkDdtVbjPjsTED
+PTOrgGA1FLVZ3q44ph81gJdVufO3h+C2sPaqsKYIRwyVpF/Vq1QwHGkOn2VTRiDI
+ux7YlUT1kH+SAPfZ2KVHG1fv
+=dl6z
 -----END PGP SIGNATURE-----
 
---===============2827664744908136465==
+--===============0724094792522701376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ bc46b7cbc58c4cb562b6a45a1fbc7b8e7b23df58 Merge tag 's390-6.17-1' of git://git.ke
 5f5c9952b33cb4e8d25c70ef29f7a45cd26b6a9b Merge tag 'powerpc-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 Merge tag 'uml-for-linux-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 
---===============2827664744908136465==--
+--===============0724094792522701376==--
