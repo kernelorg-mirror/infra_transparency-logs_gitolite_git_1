@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4675487723267340252=="
+Content-Type: multipart/mixed; boundary="===============0957365578285488902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 30 Jul 2025 04:37:15 -0000
-Message-Id: <175385023539.4127890.14087315426000869181@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 04:37:19 -0000
+Message-Id: <175385023986.4128047.13134584289893202896@gitolite.kernel.org>
 
---===============4675487723267340252==
+--===============0957365578285488902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,58 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 86731a2a651e58953fc949573895f2fa6d456841
+  - ref: refs/heads/driver-core-next
+    old: 51a486feac0ca002bee6429f03da0a6c206d0dc5
     new: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
-    log: revlist-86731a2a651e-beb6c8326eb4.txt
+    log: revlist-51a486feac0c-beb6c8326eb4.txt
 
---===============4675487723267340252==
+--===============0957365578285488902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850278 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850282 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1753850234-86b9fba4afb23b096935334262b38f2b9d3913c9
+nonce 1753850238-864f9e2e518e956d70f4466964e2e1aef2509354
 
-86731a2a651e58953fc949573895f2fa6d456841 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/driver-core-linus
+51a486feac0ca002bee6429f03da0a6c206d0dc5 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJoaYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PyUP/0gozPSfT+kTWZyZCTz5
-JdV1Ny9DMKEz4dOqrwTXGyOKkZ/4SgTJZPT9p3KtIdhKoF4U9OlaPX6IpzoTR4TE
-a10S+LKDNB8bNVCTdqHzgWnPewolEDA0OaD1wq9nhcNiDzMnhKYF4keqqPlph0GN
-QtO7Ol9aCqD1WEHYwIvLUHIeXfR44y1KhyLYp3Xy5MM5uWf6SGS6Zg2QPpe8Bn9O
-8Hw4txCk1fA57hEvC866Bp+31d/w8NhLzAGnkUdla3urcFJBQF1Rp4PEhlKnVHzH
-IsjDRTEXtx2lzTZRybRDEadZAxLVo2egn5UsOlEwhg++BEaJxPx4IrAJOPSNxGP3
-pFH4KkUILHWx/RA66jkQEfNBZSPc38MM9Q9vD/izRX6ce7stZGqk7fNEoTy4WWjM
-Rc8HRTKf2eqrTvi8/9Fm3vO9xA1PoMIkb99VOgKnmHqyWB3kaTIuZHNMkH4KL9aZ
-8UG2CB6dXZe/qN7kT+JQZa4J4jOhQuVD75je5ui8cHrCELfh/bAE16J3s89vVMA5
-0ZPJqROYCrWJZXyXfeqXbjABM30R+2IQlPGU2Sw9eZ0wwrF8y+cCLZyynYfq7A08
-+cie9VU6ZZx12FZTCHi3l/pSp0+3stUFPX7UdpwI4x3eod3UAPSN9wsMRxGS6faA
-1KPOkNa5dMoaf2Fxzj3LTVga
-=JWeC
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJoaobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iC8P/RaGnaOyLfQAF/0UhTYh
+OeuArXAc4ItVhyIO+M3HfWqslV1Fh0LhKO4YautoqlDpIGWbhr2o2uZeG0dh5FmH
+IsmvNRoq6LXYRmPUS8evq9jVoFxphLIWyjRWojJUPRZaNl/wej4ElK6IUJD7+uOh
+ksrEXSleGGmgkgwjFvRyQjdpOJzC+WWxo8xZ6vueKc348yd7p/SXcHyZXWqLT/tG
+fCVec2QfoJMz7vpmvYwpvFdf7G5WGH/DTwh4LFFdY9tvg7vuJnOykir6jd3IC6Aa
+frN7EICVPEsjG04dhVjr8AoATqySIjob+xTrLHgg6p9JcbpfjLHDjYwsnnXCjt5a
+gHjYHFvHUUIslZAIrS54yIiGBX87APru3y6TL/Dses7I5R2jNuoScvXNK2v2cGQ8
+QBSZLnx9Ih86qjmLMI+6xSu7doGP8dJe7zJX9659DQlaLF8geTnwh9xskYWCF4qP
+xqTCY3LLf7XKFFx3HTOaJWchVDkWQIPbmsSRxROdfe0bke6RqZyTBAF4GeKkGdD0
+ezz5kkM2h8+5+qLdembxUPZBP0+SVceiF5NhS1V7xwtBaKiNfNs6/IZfx9Fjh5s0
+C/K5ZpN6EujxsjNyY1foWw9JB2LfLEy2VN2ZrROLY3DNOsQG3onXQOVOcGizg3LO
+PjbHuRubaeW3ZYq4L5pV535F
+=0Wgi
 -----END PGP SIGNATURE-----
 
---===============4675487723267340252==
+--===============0957365578285488902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86731a2a651e-beb6c8326eb4.txt
+Content-Disposition: attachment; filename=revlist-51a486feac0c-beb6c8326eb4.txt
 
+d56c6feb69cb8f036855b4d12c84b46b10421278 ovl: narrow locking in ovl_indexdir_cleanup()
+a45ee87ded78876f8106a255f726b89aa69cd7a4 ovl: narrow locking in ovl_workdir_cleanup_recurse()
+241062ae5d8784158d0af5d7b9212c3b53d91ca5 ovl: change ovl_workdir_cleanup() to take dir lock as needed.
+c69566b1d11d781d6b586113126ce1a803bbf8fc ovl: narrow locking on ovl_remove_and_whiteout()
+2fa14cf2dca1913054e0225377d0a9999483d34d ovl: change ovl_cleanup_and_whiteout() to take rename lock as needed
+8afa0a736713898f04d52abad69c07caa2c2f227 ovl: narrow locking in ovl_whiteout()
+09d56cc88c247036da5756fd552f2cb2af8d8c5e ovl: narrow locking in ovl_check_rename_whiteout()
+ee37c3cfc5df9013dadf42919ca65510abc15632 ovl: change ovl_create_real() to receive dentry parent
+fe4d3360f9cbb513be6d74bdeb154728cad5c437 ovl: rename ovl_cleanup_unlocked() to ovl_cleanup()
+dc3977856443e336ed2ba82a2e2e5514244c82e7 Merge patch series "ovl: narrow regions protected by i_rw_sem"
+64e135f1eaba0bbb0cdee859af3328c68d5b9789 efivarfs: Fix memory leak of efivarfs_fs_info in fs_context error paths
 a876a3aacc434e93154540c7ffafa66da9d5af34 remoteproc: imx_rproc: detect and attach to pre-booted remote cores
 6bea85979d05470e6416a2bb504a9bcd9178304c ASoC: mediatek: mt8365-dai-i2s: pass correct size to mt8365_dai_set_priv
 fb61bdb27fd730c393a8bddbda2401c37a919667 vdso/gettimeofday: Return bool from clock_gettime() helpers
@@ -130,12 +141,7 @@ c7f37f8f3b89c5d12256ae0381f972ad2af9ee96 Merge tag 'fpga-for-6.17-rc1' of ssh://
 acc0bac1c625972f3622339080194061e28fa243 Merge tag 'rust-fixes-6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 bd4a1567b6e3454eda1113ed3a537119208e9c7a Merge tag 'hwmon-for-v6.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 c64004df8914cf5cf4455d9e78d8f371d0f7322f Merge tag 'cgroup-for-6.16-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-d06d5f66f5494e29c1520583eac8382f0ab5f8a7 rust: dma: implement `dma::Device` trait
 ba28549bad8ab2b09264ebc8c2ca24af3537ee52 Merge tag 'lockdep-for-tip.2025.07.16' of git://git.kernel.org/pub/scm/linux/kernel/git/boqun/linux into locking/core
-101d66828a4eefb89b72256155feb6ec9abc144a rust: dma: add DMA addressing capabilities
-8eb698f54736b44a398ca883d0a33f661c12da9d rust: pci: implement the `dma::Device` trait
-256de48f2cad85153b271b66320a9355773db64e rust: platform: implement the `dma::Device` trait
-931d9251e4855f79394357eb0071b5c4a189a8bd rust: samples: dma: set DMA mask
 bf61759db409ce21a8f2a5bb442b7c35905a713d Merge tag 'sched_ext-for-6.16-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 b5e8acc14dcb314a9b61ff19dcd9fdd0d88f70df tracing: Add down_write(trace_event_sem) when adding trace event
 f4a40a4282f467ec99745c6ba62cb84346e42139 Merge tag 'efi-fixes-for-v6.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
@@ -158,10 +164,6 @@ b933c72d650abfb833b6ef700c26271d0a252f37 Merge tag 'staging-6.16-rc6' of git://g
 4f066b189f91622f3a3a231736659f25eb6e30b0 Merge tag 'usb-6.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 5f054ef2e0f1ca7d32ac48e275d08e2ac29d84f3 Merge tag 'hyperv-fixes-signed-20250718' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 eef91707009ad8d98e0d397d58df47caa6ff2330 bcachefs: btree_node_scan: don't re-read before initializing found_btree_node
-493fc33ec25294cb2e444dfa77c105aa774c83f2 rust: io: add resource abstraction
-1d0d4b28513b5e0e9e87e09c8da289e1b8d88f84 rust: io: mem: add a generic iomem abstraction
-bc4f9045a59963abb142f6a648195ccd73ec39dd rust: platform: add resource accessors
-696b2a6ce9487ae278fd239658ca2714cd211e8e rust: io: mem: enable IoRequest doc-tests
 62347e279092ae704877467abdc8533e914f945e Merge tag 'sched-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 92329d578d60fe944e30da287ee28f5c154a5802 Merge tag 'locking-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 07fa9cad54609df3eea00cd5b167df6088ce01a6 Merge tag 'x86-urgent-2025-07-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -519,8 +521,6 @@ aa7d3c8bc27d32dec940c924d6d270fa312e731f kselftest/arm64: Fix SVE write data gen
 4bb69d5270df0f78874c93efade580d9550b34a9 powerpc: Don't use %pK through printk
 69bf2053608423cbe348f4c5d4f8d737e607d1ad powerpc: Drop GPL boilerplate text with obsolete FSF address
 da30705c4621fc82d68483f114f5a395a5f472d2 arch/powerpc: Remove .interp section in vmlinux
-83fb6160727874a588d70b727bc34f367362e6ed rust: io: fix broken intra-doc link to missing `flags` module
-51a486feac0ca002bee6429f03da0a6c206d0dc5 rust: io: fix broken intra-doc links to `platform::Device`
 1b5f1454091e9e9fb5c944b3161acf4ec0894d0d sched/idle: Remove play_idle()
 04850819c65c8242072818655d4341e70ae998b5 selftests/futex: Define SYS_futex on 32-bit architectures with 64-bit time_t
 e40892214b454c8734350d82374f46c2e495a4d2 selftests/futex: Fix spelling mistake "Succeffuly" -> "Successfully"
@@ -1082,4 +1082,4 @@ bc46b7cbc58c4cb562b6a45a1fbc7b8e7b23df58 Merge tag 's390-6.17-1' of git://git.ke
 5f5c9952b33cb4e8d25c70ef29f7a45cd26b6a9b Merge tag 'powerpc-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 Merge tag 'uml-for-linux-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 
---===============4675487723267340252==--
+--===============0957365578285488902==--
