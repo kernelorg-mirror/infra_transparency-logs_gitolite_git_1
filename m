@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2939463609098792611=="
+Content-Type: multipart/mixed; boundary="===============0069299823761062662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 30 Jul 2025 05:03:03 -0000
-Message-Id: <175385178360.11326.14092696869019566255@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 05:03:06 -0000
+Message-Id: <175385178676.11452.5192693593787245327@gitolite.kernel.org>
 
---===============2939463609098792611==
+--===============0069299823761062662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 038d61fd642278bab63ee8ef722c50d10ab01e8f
     new: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
     log: revlist-038d61fd6422-beb6c8326eb4.txt
 
---===============2939463609098792611==
+--===============0069299823761062662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753851821 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753851829 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1753851777-39cec49594d899a8e5553ddc9483cbd9fa102a68
+nonce 1753851785-1473d97588a55478526f9d3e7d1be9f1033e8098
 
-038d61fd642278bab63ee8ef722c50d10ab01e8f beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/main
+038d61fd642278bab63ee8ef722c50d10ab01e8f beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJp60bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a3wQALgDIpHFqLrSfrMiLEdP
-+t/Hrkhtu8vhBvhwMSEPzm2U0h181l6qsp07BgtcLfI5S/PbT1m7ETpJ9NjtA/jF
-lGQBZq++Jfl7N0bup5gZNMmR8LykeTPLcn06eHmfbDH6tScYOHHZi0Tz+1c86OI5
-f6N/Uii429oyVxBWXPK+qwM91d+CRmNE72DGoozcq0pyBLDbS9cFPGq5X4nLOhsT
-glBAyTxSzHM2QxsiWbSrnot+gUzbGehoLZ7oDfLE3ZPgCZkyVgZxXCKK8PSIw2kC
-le5jpJmElUbzm2JC7r1ULODCmYXOOwV5wrtIKGaJqO6jAjQ310lGcshSQIO3Aemd
-meErq15N8LxiI611MsMyxRJD6WvdHy0S1XDn41kEv9DyUd2ctvvX1uxb9sjZTXwH
-RELAKJ7qLO02MtMKLjgrmga86hkV/YPdG/Xe5RrennBwXcksYH030tOeQuhX2HcS
-eKhLCq9pRFBm54YB+yTQ2E8k27uVMroF7VKIJyB/UnUuouL17Bua+fIrxcJjxizY
-fDu6eeYZVNZr+yBvpLpn54IZFwUSNw1pfIKPh3PW+owfTe+8sr2WGw9vwmzx6RtA
-/RLeeNRRlhuejwQECHA8e/+UeY40mNoDI0Hq9ezmY0ShSmKXEXRxbJC66R8OOIsm
-50H2v8MVKH5ZTYnjEz/j85I+
-=mh5V
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJp7UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vHgQAMq4+aioXFVuHILImR2Q
+creVRNg4IFy9cvfS3nJmpNeoLKR5jxsMNmLk1AoBjdEKfT9pyQt/d1hfh+586e4a
+bss6CUf6lZyi7SMxNSTmlVD0zrz464Nj567/UBo0KuI29acvl5ZI93exfxNFgWfe
+CLCRoWwTAuH+TFeq0PA8fg3A4UAVnnUO3Slbl438nUyPsP+z6emYymRLr8+qhWMZ
+SC7438HVld2vEK7BKDutGlsLEFPZVoRHFZTiml7KIO1uqWIzo9BaNBhoZIFtQn9G
+WhXdieaRU3w4ooOwBa3WG8ts8Z2K//fjGkI0k8vOwrWUxLInJEJUTQb09fn9XgY0
+vW2BuA1ZywqwbBXDT9csnttigtqPhssIhf5oGpidpfDfEeNSjG/jt4ZG8OrCxwlw
+9FbD3YzDzYIx+Js3oGHrqjBP+IEAhNMHLi4oH0hkF2cbjdsaISWsq0/cvABXZTna
++gazVC3WdJIbUJIR8rv6X2F5rkLZ5AT/IT5ibBBjAR/CCmzVzbvDOrIVU0WJeNYY
+ruUa5bJ/GKgNCKKvgx1Mjj3yEDiivxzaLdPa2SQteZKfu1RpcWXC+Gn/XtYlBRo3
+sl3PqSRt4pNF5apIDfrcNgUIoKrvHhDuRZGXTBvwE7GUCnMPPhOamq3pIFrPWJfA
+dVIGbPg+XzeUlUI944iEKLsX
+=RZa6
 -----END PGP SIGNATURE-----
 
---===============2939463609098792611==
+--===============0069299823761062662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ bc46b7cbc58c4cb562b6a45a1fbc7b8e7b23df58 Merge tag 's390-6.17-1' of git://git.ke
 5f5c9952b33cb4e8d25c70ef29f7a45cd26b6a9b Merge tag 'powerpc-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 Merge tag 'uml-for-linux-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 
---===============2939463609098792611==--
+--===============0069299823761062662==--
