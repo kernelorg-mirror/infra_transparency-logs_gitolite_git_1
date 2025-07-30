@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-Date: Wed, 30 Jul 2025 12:37:40 -0000
-Message-Id: <175387906054.485695.9610956054575985529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 30 Jul 2025 12:41:20 -0000
+Message-Id: <175387928052.489874.14704824843353755797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/neeraj.upadhyay/linux-rcu
-user: neeraj.upadhyay
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/rcu.release.v6.17
-    old: 0000000000000000000000000000000000000000
-    new: 7458e29ae4f382b6ff7e1181485eb7548f72fc55
+  - ref: refs/heads/asoc-6.17
+    old: eb3bb145280b6c857a748731a229698e4a7cf37b
+    new: 8d452accd1380e1cb0b15a9876bcd19b14c5fabb
+    log: |
+         8d452accd1380e1cb0b15a9876bcd19b14c5fabb ASoC: wm8962: Clear master mode when enter runtime suspend
+         
