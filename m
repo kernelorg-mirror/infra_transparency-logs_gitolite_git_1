@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Wed, 30 Jul 2025 23:22:32 -0000
-Message-Id: <175391775271.1031804.8398018633875436682@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 23:23:46 -0000
+Message-Id: <175391782645.1032458.12619637262156023321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/i3c/linux
 user: abelloni
 changes:
   - ref: refs/heads/i3c/next
-    old: 6e055b1fb2fc72ad937fc75ac109fe904ce56003
-    new: ba12d5f11d52510e804480c14da850f8c3561b69
+    old: ba12d5f11d52510e804480c14da850f8c3561b69
+    new: da9b54708ddf0e76974365854cbec7fd9f1d4709
     log: |
-         ba12d5f11d52510e804480c14da850f8c3561b69 i3c: Fix i3c_device_do_priv_xfers() kernel-doc indentation
+         da9b54708ddf0e76974365854cbec7fd9f1d4709 i3c: master: cdns: Simplify handling clocks in probe()
          
