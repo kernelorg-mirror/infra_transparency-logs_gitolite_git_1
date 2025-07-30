@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4695618203668029134=="
+Content-Type: multipart/mixed; boundary="===============2827664744908136465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 30 Jul 2025 04:48:05 -0000
-Message-Id: <175385088596.4139904.11376502108081627526@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 04:48:10 -0000
+Message-Id: <175385089050.4140164.617488657344696235@gitolite.kernel.org>
 
---===============4695618203668029134==
+--===============2827664744908136465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,72 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 89be9a83ccf1f88522317ce02f854f30d6115c41
+  - ref: refs/heads/usb-next
+    old: 51d4b0a44c82e5eff056ef76acd2c3c605a8eb74
     new: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
-    log: revlist-89be9a83ccf1-beb6c8326eb4.txt
+    log: revlist-51d4b0a44c82-beb6c8326eb4.txt
 
---===============4695618203668029134==
+--===============2827664744908136465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850928 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850933 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1753850884-a92d26cf9546af08fd353f1d505a738acff27ace
+nonce 1753850888-22dc1d44577dff83f1c649831cbc0669189a63e0
 
-89be9a83ccf1f88522317ce02f854f30d6115c41 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/usb-linus
+51d4b0a44c82e5eff056ef76acd2c3c605a8eb74 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJpDAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d4IP/3MkQth4q5+exOTqR0R1
-ZNmOXNrYCr1aWbTr1INyzbeWcckujKq2mMvN8dfh5mFaXGUQsaFq8/vk3p3LO8zm
-+e0hAHtTl6Yhy2Cr1F86Afci8uLy0JGRIXz35L3ikLGSeB4ooQK9w1g+M0pqzqRJ
-0tYUvs8ze13QLL95bW19uRTcp+yT9XM8OqILBxyZsFoChfgzsE9yxRTY634P78LQ
-e2WW1x2GoyRge51SB5aCTK2A4GHC89KgARWkzPqrb0bv11EBIlw1xO53jgqsM+l+
-CayqYgF5pgIG9BWUZPzACdNleWF9CQEPxF2Yb2Blzyez4RlmCfNGkbl5k1OIqOnd
-fEzNvyx2MEDKCY6FPDXsQWnJc6q0a1eJ08mVZVG38waDxT0D3rB+FlXDaBqIXqd6
-bWTLG+KuK32YQZC4aGo5l1XYgOD5Iyx8/tWjW9Zv/dTB6PHfc982Zh9wlaDIwce7
-JpBXTF9CM+HWOhXBUviiJ9Wb1KOUkL45eEDVfJYNEAyCXw6SujBxpXlBciSvxOHs
-LhC+egS0J3MH4JYgdZyaaNoytYXwmoWS2NZ81oKp+NItW4QHPJEOGeNr/fvQGHsJ
-5rk6LWMUKIt6kfSejWR0M0eaSpNa0Wbw4DARdWzGLQtUALNmuV5QYNUIJY+bmOX4
-Pq//LWeiBsfvAO2SQgkhw22u
-=wLXD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJpDUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4/QQAM9uiTi+Oinv7Pshdv0L
+MGvliKdPYeb7UxhLjpvUPy5bverrcieFMzm/3tt1EOii87nf61xtZOQWBIj4i+Qs
+h3QPbPw4bnKvFnhX237HSCY6F1uJvvj/GlKYYM0bghZ8ZOT77anoYKwKEzmP5fD7
+eh7k0L1JGX6nnGU8slGlLZelqVXuRTR+X5kgkGN7ki03VKpPzNHnalSuf50l+VRC
+AD6HM8phMnmm1e7zBjcvPwFcUGNYYRseebUomzokxkHsazQJtxAhh9mRIsWMlVjJ
+59RCa/lsBx0o/F72dMeiEbO24E2akXNURl2UPgWYd8dUBvKb+OzBdac+dsxaI1tu
+CxeTqHcUHEU4d9yuNdJHK0YlUkUFHnf7GIlNz7CD71sqpr3BlwIyxgFpnuaVS3/T
+FVvzz+DyG241NIApANN5t45H2dePsm/zcXwwX80EDml14Qlnm/jn2bTSwpgipzi2
+nbE235EdfdL4CnI9i/eDLaQ6nm7pKoUFoKJBxoIBjX9UiijzZId3UIT4zeoPtpXo
+JBlyECAHRAJ8gUbBk6FjEsqBVdKDuaJct8jGNwX+CUcmSo2CRQWF1ZKt0v3qM1nF
+YIE+At1fpWMaeMpvgI4kAeoJnqHhZ0/pYZp79aEuSwkB8sH2SifT4kpxr+oH6CAO
+XiaYXwyprjUXsaaq4DsKktIL
+=1F+L
 -----END PGP SIGNATURE-----
 
---===============4695618203668029134==
+--===============2827664744908136465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89be9a83ccf1-beb6c8326eb4.txt
+Content-Disposition: attachment; filename=revlist-51d4b0a44c82-beb6c8326eb4.txt
 
+3be8ad8caa9bf87fe887174df15be9ab08f69676 docs: nvme: fix grammar in nvme-pci-endpoint-target.rst
+5a58ac9bfc412a58c3cf26c6a7e54d4308e9d109 nvme-tcp: log TLS handshake failures at error level
+746d0ac5a07d5da952ef258dd4d75f0b26c96476 nvmet: pci-epf: Do not complete commands twice if nvmet_req_init() fails
+6381061d82141909c382811978ccdd7566698bca ilog2: add max_pow_of_two_factor()
+1de67e8e28fc47d71ee06ffa0185da549b378ffb block: sanitize chunk_sectors for atomic write limits
+4b8beba60d324d259f5a1d1923aea2c205d17ebc md/raid0: set chunk_sectors limit
+7ef50c4c6a9c36fa3ea6f1681a80c0bf9a797345 md/raid10: set chunk_sectors limit
+5fb9d4341b782a80eefa0dc1664d131ac3c8885d dm-stripe: limit chunk_sectors to the stripe size
+63d092d1c1b1f773232c67c87debe557aab5aca0 block: use chunk_sectors when evaluating stacked atomic write limits
+675f940576351bb049f5677615140b9d0a7712d0 dm: split write BIOs on zone boundaries when zone append is not emulated
+828e50188de5fe898293dfb6e151f88b3d942407 dt-bindings: trivial-devices: Add undocumented hwmon devices
+5b2c214a95942f7997d1916a4c44017becbc3cac nvme-pci: try function level reset on init failure
+7c1f7c22e69fae209eaad58de2627b8b5acb3cb3 Merge back earlier material related to system sleep
+dbd4bccd96626563d1d811bc121484cd45f964a1 PM: sleep: Rearrange suspend/resume error handling in the core
+84bb8c1897ad6592b4c5f6f29c02d50c127c0114 Merge tag 'amd-pstate-v6.17-2025-07-16' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+4f95b5bad62c95e840b41ba78ec1f382f2f8c381 Merge back earlier cpufreq material for 6.17-rc1
+f633c1a236df95ab927f1919b3be2619c8cc6733 PM: hibernate: Fix up white space that does not follow coding style
+fc6f89dc707838564abbb8e22dad8e4d75c7fa26 stop_machine: Improve kernel-doc function-header comments
+cf4fc66746e344181f41604066659073dbb8aaf0 smp: Document preemption and stop_machine() mutual exclusion
+8030790477e839b94a10032c490132e47926cb02 binfmt_elf: remove the 4k limitation of program header size
+7f71195c15dcf5f34c4c7f056603659374e3a525 fork: reorder function qualifiers for copy_clone_args_from_user
+2d8ae9a4f1bc04a118e3d438ac50dd49281b34fd string: Group str_has_prefix() and strstarts()
+816309d500ac34b9ae3ff88f130ca7dbbe467bfb Merge tag 'sunxi-fixes-for-6.16' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+b1136432c97241f0e5c40d58597da00d49cd9917 soc: hisilicon: kunpeng_hccs: Fix incorrect log information
+db7897ad60fd7d7bf471bc1c49e3d01fefadade3 misc: ti-fpc202: remove unneeded direction check
 74896eae7e040e1b2a381efc8df0c839023dbf16 misc: ti-fpc202: use new GPIO line value setter callbacks
 906b955c60770bfdfae141aa993ae5fdb3eab193 gpio: xilinx: convert set_multiple() to the new API as well
 2ae9b28947d486b7980b990cba205b1862b6d7a8 dt-bindings: gpio: Convert lacie,netxbig-gpio-ext to DT schema
@@ -180,7 +205,6 @@ f88ed14aa0ef64ff5633605114efe313a0bed84b lib/crypto: x86/sha1-ni: Minor optimiza
 debc1e5a431779c027a5752f247a4de2e4f702b2 lib/crypto: arm64/sha512-ce: Drop compatibility macros for older binutils
 9744ede7099e8a69c04aa23fbea44c15bc390c04 ALSA: hda/realtek - Add mute LED support for HP Pavilion 15-eg0xxx
 7cd3c8cafbc050eeeeae89b9d6bd7dc4cb95ab8a Merge branch 'for-linus' into for-next
-a83c371c4b6c9e5cc11391ee6e56543a0fef59b9 Merge tag 'v6.16-rc7' into usb-next
 491254fff9a8dcb4af99bf2fb40f1e63a7257fd3 drm/nouveau/nvif: fix null ptr deref on pre-fermi boards
 ba0205042944b38a8b8ad462128072424b71c690 Merge tag 'cpufreq-arm-updates-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 1c61cf974917bc47930bdab4ec9a18ec8fe7ac77 Merge tag 'opp-updates-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
@@ -211,17 +235,6 @@ b5f20799f164053a0fbf7c61b3c99f8cf9cf0656 Merge branch 'fixes' into 'for-next'
 9e0c433d0c05fde284025264b89eaa4ad59f0a3e drm/i915/dp: Fix 2.7 Gbps DP_LINK_BW value on g4x
 5a9fffd8a533bfb2688ec69dd6d1b6e53ef1177a platform/x86/intel/pmt: fix build dependency for kunit test
 0156c22fb0ca869381fe0520731da79f70389652 ALSA: hda/realtek: Add support for ASUS Commercial laptops using CS35L41 HDA
-64690a90cd7c6db16d3af8616be1f4bf8d492850 cdc-acm: fix race between initial clearing halt and open
-323a80a1a5ace319a722909c006d5bdb2a35d273 usb: gadget: uvc: Initialize frame-based format color matching descriptor
-d8e1ecffb4a282791be1b3d81a05541749b0db64 usb: usblp: clean up assignment inside if conditions
-bb76f0d843a26d11bed5df2793b492ca414de0a4 usb: gadget: f_uac1: replace scnprintf() with sysfs_emit()
-82d8cc9542b8b6588a3c7c7e3db8936243163408 usb: chipidea: imx: Add a missing blank line
-151c0aa896c47a4459e07fee7d4843f44c1bb18e usb: gadget : fix use-after-free in composite_dev_cleanup()
-a33665facf792de619e451bdbf66e86b9c6763bc usb: typec: ucsi: yoga-c630: add DRM dependency
-1e61f6ab08786d66a11cfc51e13d6f08a6b06c56 usb: typec: fusb302: cache PD RX state
-af833e7f7db3cf4c82f063668e1b52297a30ec18 usb: typec: ucsi: psy: Set current max to 100mA for BC 1.2 and Default
-7616f006db07017ef5d4ae410fca99279aaca7aa usb: typec: ucsi: Update power_supply on power role change
-5cc1f66cb23cccc704e3def27ad31ed479e934a5 thunderbolt: Fix copy+paste error in match_service_id()
 69e536c93242425fc65580b02d3f781a96403660 spidev: introduce trivial abb sensor device
 7edf259b11270846c201cfd6ebe12e2418dca9f0 Merge tag 'smccc-updates-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into soc/drivers
 753355d6200753f4d8cb8db794339ad46d471d7d Merge tag 'scmi-updates-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into soc/drivers
@@ -277,7 +290,6 @@ f8c667edaf80a9ed91e730b9f106923119904c87 dt-bindings: gpu: Add Apple SoC GPU
 69c94feda519cb7615794123eac8981d7ac9f688 serial: 8250_ce4100: Fix CONFIG_SERIAL_8250=n build
 5eb2d4b3e9a19f08e0ccbb81e0fbfa61de229345 dt-bindings: serial: renesas: Document RZ/V2N SCIF
 48f9034e024a4c6e279b0d040e1f5589bb544806 dt-bindings: serial: 8250: spacemit: set clocks property as required
-fcb476990beb55c958db0b5aa2e9ca772d0fc982 usb: core: add urb->sgt parameter description
 83d92eae8d44e320a414b76fcba8186fa739f3e8 pinctrl: rp1: use new GPIO line value setter callbacks
 12702f0c38347f3825a61b7c84d1b1d7eb84dd74 soc: fsl: qe: convert set_multiple() to returning an integer
 985da98f294ae7bd83b58ca50374a07972d594bf Merge tag 'tegra-for-6.17-soc' of https://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/drivers
@@ -566,7 +578,6 @@ f57b32cb4adb28b62f61c4729f7b85f55518cb2b platform/x86/intel/pmt: add register ac
 66df9fa783aadc2a5ae8ca11ead0b13032d24e7e platform/x86/intel/pmt: refactor base parameter
 5623fa6859a6cd49366421317e3c5ab183583624 platform/x86/intel/pmt: use a version struct
 2c402a801c19568de97b86a77b25d13448dc080a platform/x86/intel/pmt: support BMG crashlog
-ad1244e1ce18f8c1a5ebad8074bfcf10eacb0311 USB: serial: option: add Foxconn T99W709
 232b41d3c2ce8cf4641a174416676458bf0de5b2 platform/x86: oxpec: Fix turbo register for G1 AMD
 1798561befd8be1e52feb54f850efcab5a595f43 platform/x86: oxpec: Add support for OneXPlayer X1 Mini Pro (Strix Point)
 15a7ca747d9538c2ad8b0c81dd4c1261e0736c82 drm/bridge: ti-sn65dsi86: Remove extra semicolon in ti_sn_bridge_probe()
@@ -800,7 +811,6 @@ ea1d8343a622eccfac9dd347da57c2958ea36717 staging: rtl8723bs: hw_var_port_switch 
 c5647e0e85c91a7e0532b416e3bf429062d67450 staging: rtl8723bs: DoIQK_8723B is empty
 f50d5e0c1f80d004510bf77cb0e1759103585c00 staging: gpib: Add init response codes for new ni-usb-hs+
 63533ba19d0f325f8e36cc5aae73281a93758618 staging: rtl8723bs: remove redundant semicolon in basic_types.h
-8d1b02e5d7e3a6d2acffb1f4c094678fda9e3456 usb: atm: cxacru: Merge cxacru_upload_firmware() into cxacru_heavy_init()
 9e32e4db965fd4e5e95e20b0b02ba03688d7e0de dt-bindings: serial: samsung: add samsung,exynos2200-uart compatible
 7f8fdd4dbffc05982b96caf586f77a014b2a9353 serial: 8250: fix panic due to PSLVERR
 57b4ca42359c63ad61548431c184a7d63efbd0b9 dt-bindings: serial: snps-dw-apb-uart: Allow use of a power-domain
@@ -813,8 +823,6 @@ fa3f79e82dce7b04f7b8cf1791268a775b3d6f9f binder: Use seq_buf in binder_alloc kun
 c32f66d17455970091bd97d7a9cac6f38dfcc423 gpiolib: of: add forward declaration for struct device_node
 cc2f156a33278d9b23b5cf8f738c55c842d0f225 dt-bindings: gpio: rockchip: Allow use of a power-domain
 291d5dc80eca1fc67a0fa4c861d13c101345501a Merge tag 'ipsec-2025-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-acd4692a84246cb37a52051b830fdd2170717a55 Merge tag 'usb-serial-6.17-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-ea83bf05873fa6301267324803ad592365e6c0cb Merge tag 'usb-serial-6.17-rc1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 8c7a86088a3eb6f874cc5c46a447787d3a193ff5 Merge tag 'ib-mfd-gpio-power-soc-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd into gpio/for-next
 71d141edbfa3e0a213c537e979790835550270d6 regulator: Kconfig: Fix spelling mistake "regualtor" -> "regulator"
 96debe8c27ee2494bbd78abf3744745a84a745f1 erofs: get rid of {get,put}_page() for ztailpacking data
@@ -913,14 +921,6 @@ ecd9d6bf88ddd64e3dc7beb9a065fd5fa4714f72 ksmbd: check return value of xa_store()
 4f8ff9486fd94b9d6a4932f2aefb9f2fc3bd0cf6 ksmbd: fix corrupted mtime and ctime in smb2_open
 4740e1e2f320061c2f0dbadc0dd3dfb58df986d5 gpio: virtio: Fix config space reading.
 672820a070ea5e6ae114f6109726a4e18313a527 ovl: properly print correct variable
-7919407eca2ef562fa6c98c41cfdf6f6cdd69d92 usb: xhci: print xhci->xhc_state when queue_command failed
-7b4b5591d4551efe16fe4fed00f69db5d4e8a2b4 usb: gadget: udc: renesas_usb3: drop unused module alias
-22fcf88b02e262d3b41215ebc70912b0482aef95 usb: musb: omap2430: enable compile testing
-086a0e516f7b3844e6328a5c69e2708b66b0ce18 usb: dwc3: imx8mp: fix device leak at unbind
-93b400f4951404d040197943a25d6fef9f8ccabb usb: dwc3: meson-g12a: fix device leaks at unbind
-868837b0a94c6b1b1fdbc04d3ba218ca83432393 usb: gadget: udc: renesas_usb3: fix device leak at unbind
-1473e9e7679bd4f5a62d1abccae894fb86de280f usb: musb: omap2430: fix device leak at unbind
-51d4b0a44c82e5eff056ef76acd2c3c605a8eb74 usb: musb: omap2430: clean up probe error handling
 5989bfe6ac6bf230c2c84e118c786be0ed4be3f4 block: restore two stage elevator switch while running nr_hw_queue update
 ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b regmap: Annotate that MMIO implies fast IO
 87aa3c8d8c4aa2e2567fe04126d14eb9fde815e5 spi: intel: Allow writeable MTD partition with module param
@@ -1082,4 +1082,4 @@ bc46b7cbc58c4cb562b6a45a1fbc7b8e7b23df58 Merge tag 's390-6.17-1' of git://git.ke
 5f5c9952b33cb4e8d25c70ef29f7a45cd26b6a9b Merge tag 'powerpc-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 Merge tag 'uml-for-linux-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 
---===============4695618203668029134==--
+--===============2827664744908136465==--
