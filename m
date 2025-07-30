@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5699971676384302539=="
+Content-Type: multipart/mixed; boundary="===============3997552622496437219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Wed, 30 Jul 2025 04:43:04 -0000
-Message-Id: <175385058474.4133610.13764180727152811244@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 04:43:07 -0000
+Message-Id: <175385058789.4133766.15406096164195239199@gitolite.kernel.org>
 
---===============5699971676384302539==
+--===============3997552622496437219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/spdx-linus
+    old: 06a9a4408697aaf0b4bd88936a3075a9a0b30124
     new: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
-    log: revlist-19272b37aa4f-beb6c8326eb4.txt
+    log: revlist-06a9a4408697-beb6c8326eb4.txt
 
---===============5699971676384302539==
+--===============3997552622496437219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850624 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753850630 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1753850580-1aa3d4b2a2ca19f8f70e83216a1cfb475a488831
+nonce 1753850586-06e7eca482096df0c012ed5b59230599143ce428
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/main
+06a9a4408697aaf0b4bd88936a3075a9a0b30124 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJowAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QgYQAMsbAROmvjqrZ3b8qlI/
-dz38VSe9AyAWCwJAdPHOmkEkCRlRiKqZhEdDc9bAD0DwPwk4LYcV6p4wnGNYh3am
-ZCdlQMac0U4xZXVz659HSADuClak+KoaSD+4W2oauGfaGgOPvRTO8s8uN72CErkT
-uN677eyaGRru0YMzGhPoQVZoLrsFtd3haujN4Kbg0s9eEo8tXQWE71hQgLXkBaS8
-467Jqaj8drvHfn4nl45sMJJjXgB78vvzg96zJKhBMXvRRvjb4Hx8WrJlUY/ixcnC
-nDQhnXPBzBbOLNCt4bsDH78CQESSY9Me1orxAmzikvqHmR7TsCzb2dZbC+Wb878l
-ep3ZV38yb6a++mXhVmcSPOoq5kViHLVwIc5iqu2jFK+embhlu8ikxi81q+Aocy8F
-6KdyJN58rx9b06acKb92P69HOK1E+J+/gw8xxxx7W/1WMrtYSod9UJgGixs2n03N
-LPA9d1VdYFYZExJbEdfNFwT5i5nnQy+QsDgLGkuPoshJCAKqIjSiRaAEHvSbtHM4
-ugfCzlKUvExuGa8xs9Mpf0V3oWB2jFEPQ3ji25BWOwZpQKvd55+4WTtn2bA1eEhK
-4ocjIr7XuKP8RTtJ+1unyCTnnPsnFsOwrL6K+XRo+xc/AwAcBiZZc4XJcx2901NW
-NNiUQiS0vWnamBq1lpHYD0E5
-=M8sL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiJowYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1EkQAIYZjgdK7mB9bQxBnZ/b
+Ho/F03iinwxqt2ivRq/OAaF2gTSo6zzSuVbtLAWc37vX3mpD3zPb34bQ+qFNRUx/
+ohXw6J3hp9mWci0vnoqyPoOEFZkRlMURZ2nui6v4oR2SUTaSnKvzArsBhuxfNGtg
+T7l0Da5cK73822jMEb69PnJOVHuBXkIQ4zOFfln/aWyqLtQ4sOO2R1rpzNoo0e3W
+2/rLohkbg+5/ow2pBE6dJUOMntD0r9rxQH0ETbc2kIbwQx/5whV9HK/O1r1UsTM4
+vOx3YH+JsKDYAm5+3hdX1HisdZ1Pqxpv1jUHAV66Mkyg/J34KWPxqNVkGTprtN/1
+q5PrFWCJeVGTwWcn04bIxPEFYQe9bZ29B4No2IQUAGuMwoZz2GR1/5TDU4t6UP3S
+uRbjjz9QLUMge63OD2DbqnDYKWPz73VA+tN2Mju49Gn4/KXqsmg4ghrKQKIW5yfs
+PTCCBNJxb+nXRCEV7woo2gP3O+DOO8BU4PR1ePX9mjSwq6lB5cpGuGUoNnnCuXfk
+X7sqBwR4s6wAhIETtj8zPbnFNrr4dhvbotUnKXbPZcyd0idkm6vzYwG3kFfP4/M7
+pFukyAHmWYgrmQRmTgBE8pyI64zlZ6Je9rg5dU+GRLluTDL0RWtiblcyvFDoWrVX
+qPQwfjmUVDftrwvMTSfmP3G+
+=mS9C
 -----END PGP SIGNATURE-----
 
---===============5699971676384302539==
+--===============3997552622496437219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-beb6c8326eb4.txt
+Content-Disposition: attachment; filename=revlist-06a9a4408697-beb6c8326eb4.txt
 
+8afa0a736713898f04d52abad69c07caa2c2f227 ovl: narrow locking in ovl_whiteout()
+09d56cc88c247036da5756fd552f2cb2af8d8c5e ovl: narrow locking in ovl_check_rename_whiteout()
+ee37c3cfc5df9013dadf42919ca65510abc15632 ovl: change ovl_create_real() to receive dentry parent
+fe4d3360f9cbb513be6d74bdeb154728cad5c437 ovl: rename ovl_cleanup_unlocked() to ovl_cleanup()
+dc3977856443e336ed2ba82a2e2e5514244c82e7 Merge patch series "ovl: narrow regions protected by i_rw_sem"
+64e135f1eaba0bbb0cdee859af3328c68d5b9789 efivarfs: Fix memory leak of efivarfs_fs_info in fs_context error paths
 a876a3aacc434e93154540c7ffafa66da9d5af34 remoteproc: imx_rproc: detect and attach to pre-booted remote cores
 6bea85979d05470e6416a2bb504a9bcd9178304c ASoC: mediatek: mt8365-dai-i2s: pass correct size to mt8365_dai_set_priv
 fb61bdb27fd730c393a8bddbda2401c37a919667 vdso/gettimeofday: Return bool from clock_gettime() helpers
@@ -769,12 +775,6 @@ e038d985c9823a12cd64fa077d0c5aca2c644b67 mfd: Add Apple Silicon System Managemen
 9b21051b0885912f5bb2cc9d4f95c6fca697da4d gpio: Add new gpio-macsmc driver for Apple Macs
 819687eb28e501d21dabd6a3f52454638a815071 power: reset: macsmc-reboot: Add driver for rebooting via Apple SMC
 897e8601b9cff1d054cdd53047f568b0e1995726 s390/ism: fix concurrency management in ism_cmd()
-b468f4ea13a8888ce76c5ea34333a0a98ef6db8e LICENSES: Replace the obsolete address of the FSF in the GPL-1.0
-660470dc58624242e39b7fdc6290c81a4f810b1e LICENSES: Replace the obsolete address of the FSF in the GPL-2.0
-694c24f81c29d784df143066b9d33758a91827fc LICENSES: Replace the obsolete address of the FSF in the LGPL-2.0
-7aa0a850b823a791c939e4d98e889596d166abe6 LICENSES: Replace the obsolete address of the FSF in the LGPL-2.1
-57f6815fd065eb9c0e9bba7a01de9793bf806f65 LICENSES: Replace the obsolete address of the FSF in the GFDL-1.1
-06a9a4408697aaf0b4bd88936a3075a9a0b30124 LICENSES: Replace the obsolete address of the FSF in the GFDL-1.2
 35b79fd9fbdce9b3b314f1a8ff57e2f314f7d8a6 staging: rtl8723bs: remove unnecessary comment separator lines
 290bd7277b36b572e3a133fc2bc520ab12b52500 staging: rtl8723bs: add missing blank line after declaration
 c6b3b6049bdfa14a70697ee6dce6bdf501653b37 staging: rtl8723bs: remove unnecessary commented code
@@ -1082,4 +1082,4 @@ bc46b7cbc58c4cb562b6a45a1fbc7b8e7b23df58 Merge tag 's390-6.17-1' of git://git.ke
 5f5c9952b33cb4e8d25c70ef29f7a45cd26b6a9b Merge tag 'powerpc-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 beb6c8326eb4e7006c4aa16b0fee3e303d42e685 Merge tag 'uml-for-linux-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 
---===============5699971676384302539==--
+--===============3997552622496437219==--
