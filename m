@@ -1,27 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 30 Jul 2025 22:39:00 -0000
-Message-Id: <175391514065.990986.2506379746031750306@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4085241614121090007=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 30 Jul 2025 22:39:29 -0000
+Message-Id: <175391516956.992073.16747014052994586548@gitolite.kernel.org>
+
+--===============4085241614121090007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev-queue
-    old: d117ce5d7ed7a95a19e09295999672014cbf90fc
-    new: d9ade64184b4d1e25fe7b929fa7c89cbbb4f41c3
-    log: |
-         d74d2a1f23e3feb9bd032ae786c859113b66d37e i40e: remove read access to debugfs files
-         4d8c837d34feaf974be661de0927750a26385f4d idpf: add support for Tx refillqs in flow scheduling mode
-         48cebac0a9d239da4334976ba8ae24e5359c37d4 idpf: improve when to set RE bit logic
-         f20ecba53e5539fc49d5671c346e0688c1c07032 idpf: simplify and fix splitq Tx packet rollback error path
-         e216326a42bf279fc20deed9a18c9d1808af0246 idpf: replace flow scheduling buffer ring with buffer pool
-         9beaca8a2ff028d2ec1f2380c607872b76945e93 idpf: stop Tx if there are insufficient buffer resources
-         a55247cf25ada07c1ec674a606e1343c79e1422d idpf: remove obsolete stashing code
-         b949018b71e0b9abb9a8c8630826938732be37c5 ixgbe: xsk: resolve the negative overflow of budget in ixgbe_xmit_zc
-         d9ade64184b4d1e25fe7b929fa7c89cbbb4f41c3 igc: fix disabling L1.2 PCI-E link substate on I226 on init
-         
+  - ref: refs/heads/dev/next-20250730/ffs-const
+    old: 0000000000000000000000000000000000000000
+    new: cf44933c28c7a6a8f4cdec2fe07133b4ae0b1279
+
+--===============4085241614121090007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1753915207 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1753915153-12b595b59a11be69c910a75d9ef99ede46e3d2dc
+
+0000000000000000000000000000000000000000 cf44933c28c7a6a8f4cdec2fe07133b4ae0b1279 refs/heads/dev/next-20250730/ffs-const
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaIqfRwAKCRA2KwveOeQk
+u+weAP0RHxPJ+P4cyPc4GjUME+GXYnrKOuQstpsFAGW3KCVhuQD/f5ZkP0CEnEiF
+/rxa/esx6NO1VrTNR3RGcDb+QE0/UgM=
+=6wxd
+-----END PGP SIGNATURE-----
+
+--===============4085241614121090007==--
