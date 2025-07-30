@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8131902301688264070=="
+Content-Type: multipart/mixed; boundary="===============1839722236310608737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Jul 2025 22:02:43 -0000
-Message-Id: <175391296396.960560.8856908757692138081@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 22:02:46 -0000
+Message-Id: <175391296659.960807.15778492902137150486@gitolite.kernel.org>
 
---===============8131902301688264070==
+--===============1839722236310608737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
-    old: eb5bb65ec44219e21be9bbae1155b75b0b0abe94
-    new: 622e9fd25b6ee3fa36047e87dc1bc1333426c23b
-    log: revlist-eb5bb65ec442-622e9fd25b6e.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
+    old: d1eac5c09b6b7189efb5607a647fbf901acdff94
+    new: 25463313e7e032a33a6e51d4804a6807fe4c0eda
+    log: revlist-d1eac5c09b6b-25463313e7e0.txt
 
---===============8131902301688264070==
+--===============1839722236310608737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb5bb65ec442-622e9fd25b6e.txt
+Content-Disposition: attachment; filename=revlist-d1eac5c09b6b-25463313e7e0.txt
 
 b4fe13944804ac5c463747588c216f032aee6a3f nfsd: don't set the ctime on delegated atime updates
 9e79ddb740b335f9c1f02178eb3d7ec530f0e20e nfsd: avoid ref leak in nfsd_open_local_fh()
@@ -49,5 +49,11 @@ aac83b4bd43ca20c1c5837e91def4af647431e5c NFSD: issue READs using O_DIRECT even i
 ba352b3425b1b981cc09e7feb3edb4cb9104c97f NFSD: rename and update nfsd_read_vector_dio trace event to nfsd_analyze_dio
 221cbd422439681308dcf2fd9e48b5d8c72034c7 NFSD: prepare nfsd_vfs_write() to use O_DIRECT on misaligned WRITEs
 622e9fd25b6ee3fa36047e87dc1bc1333426c23b NFSD: issue WRITEs using O_DIRECT even if IO is misaligned
+2d5ce705dfd727dbf94da82fdbe13b8c271a3bb3 filemap: Add a helper for filesystems implementing dropbehind
+5746293acd1201e08ea48a457dd8d06675e59d00 filemap: Mark folios as dropbehind in generic_perform_write()
+b6512d3c63bea5c71220b4c517c0ca61a00abd6f NFS: Enable the RWF_DONTCACHE flag for the NFS client
+695de3c981a6d15da680cd3a4d4d42de6b598e3a Expand the type of nfs_fattr->valid
+d63cd21fb203dec8800ab5605cd0d3a92fc9d823 nfs: Add timecreate to nfs inode
+25463313e7e032a33a6e51d4804a6807fe4c0eda NFS: Return the file btime in the statx results when appropriate
 
---===============8131902301688264070==--
+--===============1839722236310608737==--
