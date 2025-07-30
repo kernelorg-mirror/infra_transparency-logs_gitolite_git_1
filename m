@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1385287902522147236=="
+Content-Type: multipart/mixed; boundary="===============0635303786660275354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 30 Jul 2025 17:10:24 -0000
-Message-Id: <175389542475.718911.2211591613924361086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 30 Jul 2025 17:10:46 -0000
+Message-Id: <175389544624.719298.8843052253375988623@gitolite.kernel.org>
 
---===============1385287902522147236==
+--===============0635303786660275354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 75083cd99c8261eec695596813cc261a523ab32b
 
---===============1385287902522147236==
+--===============0635303786660275354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1057,4 @@ beb6c8326eb4e7006c4aa16b0fee3e303d42e685 Merge tag 'uml-for-linux-6.17-rc1' of g
 a26321ee4c935a63c29ed6518f27e38826b36e68 Merge tag 'hardening-v6.17-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 4b290aae788e06561754b28c6842e4080957d3f7 Merge tag 'sysctl-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 
---===============1385287902522147236==--
+--===============0635303786660275354==--
