@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Wed, 30 Jul 2025 17:53:19 -0000
-Message-Id: <175389799999.753976.1768017408655293131@gitolite.kernel.org>
+Date: Wed, 30 Jul 2025 17:53:34 -0000
+Message-Id: <175389801447.754315.4400785562445465243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: ca10cdb42e5e33694c49030a6501099d204f9b53
+  - ref: refs/heads/dev
+    old: 2eb88a5fb42f07b7bc3d409de4511226be8bc917
     new: 4cc9025c5da7386c7387e4b48f73fe99ad945d75
     log: |
          69d5e762d08e6e5a197aecfd8bfbb4c41c5747dd mkfs.f2fs: Fix zoned alignment check for multi-device setups
