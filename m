@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3279932577269565146=="
+Content-Type: multipart/mixed; boundary="===============7405676518367074293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 31 Jul 2025 15:55:00 -0000
-Message-Id: <175397730065.1954634.5956379835044720759@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 15:55:06 -0000
+Message-Id: <175397730631.1956442.9275697741887100446@gitolite.kernel.org>
 
---===============3279932577269565146==
+--===============7405676518367074293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: afd8c2c9e2e29c6c7705635bea2960593976dacc
     new: 759dfc7d04bab1b0b86113f1164dc1fec192b859
     log: revlist-afd8c2c9e2e2-759dfc7d04ba.txt
 
---===============3279932577269565146==
+--===============7405676518367074293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f2aa00e4f65efcf25ff6bc8198e21f031e7b9b1b net: ipa: add IPA v5.1 and v5.5 to ipa_
 de9c4861fb42f0cd72da844c3c34f692d5895b7b pptp: ensure minimal skb length in pptp_xmit()
 759dfc7d04bab1b0b86113f1164dc1fec192b859 netlink: avoid infinite retry looping in netlink_unicast()
 
---===============3279932577269565146==--
+--===============7405676518367074293==--
