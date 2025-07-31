@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Thu, 31 Jul 2025 00:41:46 -0000
-Message-Id: <175392250686.1099600.13424588578669776946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 31 Jul 2025 01:01:54 -0000
+Message-Id: <175392371476.1119576.2450823461328591443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/linus-next
-    old: 313239e095de220205aad3442eb66e1c80e1ba98
-    new: 69c446012d53f63f1fff6dd0727efd38faa096cf
+  - ref: refs/heads/main
+    old: d9104cec3e8fe4b458b74709853231385779001f
+    new: 9063de636cee235bd736ab3e4895e2826e606dea
     log: |
-         69c446012d53f63f1fff6dd0727efd38faa096cf mm/userfaultfd: fix kmap_local LIFO ordering for CONFIG_HIGHPTE
+         9063de636cee235bd736ab3e4895e2826e606dea kcm: Fix splice support
          
