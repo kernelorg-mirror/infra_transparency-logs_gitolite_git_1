@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 31 Jul 2025 21:21:41 -0000
-Message-Id: <175399690168.2238994.1972108712699941244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 31 Jul 2025 21:23:46 -0000
+Message-Id: <175399702673.2239941.11439854802040886830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-6.18/cxl-probe-order
-    old: 5e29cbd1077b79468339aca04b16e401252b5a24
-    new: ab70c6227ee6165a562c215d9dcb4a1c55620d5d
+  - ref: refs/heads/keys-pending
+    old: 8e39f33071eed6c5ad9135890ad1e561d8b0f1e4
+    new: da313e09fbbfa230f8cb407fad0ebb7311a755ea
     log: |
-         595f243eeac3a984fd59b34e5ccfdb492b0444db cxl/mem: Arrange for always-synchronous memdev attach
-         e23f37a4a8347d9bed9443620d7c8dc0d61edfaa cxl/port: Arrange for always synchronous endpoint attach
-         88aec5ea7a24da00dc92c7778df4851fe4fd3ec6 cxl/mem: Introduce a memdev creation ->probe() operation
-         ab70c6227ee6165a562c215d9dcb4a1c55620d5d dax/cxl: Defer Soft Reserved registration
+         a8d4e4a570374fc35cfced0de9253bc92d8683c4 KEYS: trusted_tpm1: Compare HMAC values in constant time
+         546edbdb3758590cfd430314c2b9a8f96d6601b3 KEYS: trusted_tpm1: Use SHA-1 library instead of crypto_shash
+         da313e09fbbfa230f8cb407fad0ebb7311a755ea KEYS: trusted_tpm1: Move private functionality out of public header
          
