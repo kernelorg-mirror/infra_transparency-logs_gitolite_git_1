@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5505048788777883460=="
+Content-Type: multipart/mixed; boundary="===============4401523588586197078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 31 Jul 2025 03:23:27 -0000
-Message-Id: <175393220740.1275997.15947766105917246314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Thu, 31 Jul 2025 03:30:10 -0000
+Message-Id: <175393261080.1283193.17832929935288703457@gitolite.kernel.org>
 
---===============5505048788777883460==
+--===============4401523588586197078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/experimental
-    old: 51faccf56c6fdd2eedc15d6b22d5219bd7625c19
-    new: 871121756e3d02ab0fd8a77902239690e38879e0
-    log: revlist-51faccf56c6f-871121756e3d.txt
+  - ref: refs/heads/aspeed/dt
+    old: 45454f706a6cec60ddfe58e681a586bb411143cd
+    new: 6e568f967cd4a1c611bccfce68689acaa2a2c78e
+    log: revlist-45454f706a6c-6e568f967cd4.txt
 
---===============5505048788777883460==
+--===============4401523588586197078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51faccf56c6f-871121756e3d.txt
+Content-Disposition: attachment; filename=revlist-45454f706a6c-6e568f967cd4.txt
 
-6b4163410ef1263351b090dc1f304b8b27809a93 erofs-utils: lib: get rid of erofs_init_empty_dir()
-e23f29ce0ff52d391b881e31c93ac3ce6df547fb erofs-utils: avoid `.` dirent insertion if dot_omitted is enabled
-b11d51ef56ff1b96f433654ac6e457299a2d4f97 erofs-utils: lib: implement 3-way merge sort
-2de24caa5f41f6fd465fa1b94699890c711610b8 erofs-utils: mkfs: don't generate encoded extents for ztailpacking
-2e25d3ec19f154e2b1cc20da35bbf6a49c74160f erofs-utils: lib: consolidate erofs_iflush()
-26041dd7423a063795d1c7e08383764d23f81470 erofs-utils: use virtual file interface for the buffer manager
-13a47d7eaa6d202f5a60804f21bd84bd9f171438 erofs-utils: lib: change argument order of erofs_io_pread()
-de204bcf4be343998b0c9dd0d1a6d25f30141d78 erofs-utils: lib: introduce meta buffer operations
-caacb1c942a983489755026b30abc2213b47e1d8 erofs-utils: lib: use meta buffers for inode operations
-16b63523c8c441a9806c7daecf372f260fc3aba8 erofs-utils: lib: use meta buffers for zmap operations
-b1b28b6fdcc5a5dd37020a921a03497a417dddae erofs-utils: lib: use meta buffers for xattr operations
-3371eed895e04b25de5703bc5c4355352e300a1b erofs-utils: formalize erofs_pread()
-d250e566212a64bb750f50b1d89af0e8ec7d89f6 erofs-utils: fsck, dump: support metadata compression
-871121756e3d02ab0fd8a77902239690e38879e0 erofs-utils: introduce metadata compression [metabox]
+2705efc8b1dd4afbaa7799fcf3b7d25d3cfd1f89 ARM: dts: aspeed: wedge400: Fix DTB warnings
+5e4ecb7b77166640156bd4ceab70fbbe9575868d ARM: dts: aspeed: fuji: Fix DTB warnings
+d2c0457fdbc9f6e5598b153f8fc66011dd59ec44 ARM: dts: aspeed: Fix DTB warnings in ast2600-facebook-netbmc-common.dtsi
+0028cf6a109a9391654e57171fc0a069ab6a1ab8 ARM: dts: aspeed: Move eMMC out of ast2600-facebook-netbmc-common.dtsi
+c6105eece394d255bdfd9d4511dd2edb58d53662 ARM: dts: aspeed: Add facebook-bmc-flash-layout-128-data64.dtsi
+f6b60337c9bd283738878405399f818ffeafd2ca dt-bindings: arm: aspeed: add Facebook Wedge400-data64 board
+79c99f81487b43090088462dabda4fab85984d84 ARM: dts: aspeed: Add Facebook Wedge400-data64 (AST2500) BMC
+34f708292d65037c38dc78289457eaf807c38927 ARM: dts: aspeed: wedge400: Include wedge400-data64.dts
+1e75be9afb84f270492466fffcc88dc2966a7557 dt-bindings: arm: aspeed: add Facebook Fuji-data64 board
+b4819a2cc6a7052adc00eacf08eb56e6dd23d304 ARM: dts: aspeed: Add Facebook Fuji-data64 (AST2600) Board
+34f837fb44527f7ba6752f5c859136bf5d612673 ARM: dts: aspeed: facebook-fuji: Include facebook-fuji-data64.dts
+aa7ca9ba50b735ca4e3ac4bd269be60be7ccb143 dt-bindings: arm: aspeed: add Facebook Darwin board
+6e568f967cd4a1c611bccfce68689acaa2a2c78e ARM: dts: aspeed: Add Facebook Darwin (AST2600) BMC
 
---===============5505048788777883460==--
+--===============4401523588586197078==--
