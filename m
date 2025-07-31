@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 31 Jul 2025 16:31:49 -0000
-Message-Id: <175397950949.1993259.1696751007471149684@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 16:31:55 -0000
+Message-Id: <175397951535.1993557.6642790806305201688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
-  - ref: refs/heads/clk-next
-    old: 3cf186ecc164e19aa47450d412b2aa2f19559f9a
-    new: 64c21f253a3737c15ab745e9276b2352d86aed26
+  - ref: refs/tags/clk-for-linus
+    old: e931d8b22de1eb175e1595917514aa267565cbdc
+    new: 6cd19a86e3750fe463ed9af2e857d37bbf49c299
     log: |
          713d48878e8a5e4bcca6355324f943eb72cd2c84 clk: sunxi-ng: a523: Mark MBUS clock as critical
          6306e0c5a0d28e9df2b5902f4a021204bee75173 clk: scmi: Handle case where child clocks are initialized before their parents
