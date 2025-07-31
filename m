@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 31 Jul 2025 05:27:15 -0000
-Message-Id: <175393963553.1383481.337697132572818813@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 05:32:15 -0000
+Message-Id: <175393993599.1387923.17118327670194515973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,27 +12,21 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: a9dec0963187d05725369156a5e0e14cd3487bfb
-    new: 81231ad173d840693f8d5f34ad9ada75aa8ad79f
+    old: 81231ad173d840693f8d5f34ad9ada75aa8ad79f
+    new: 3b7354fdc7981d3b56a10db1b118098cf5ed53f7
     log: |
-         1d8dd982c409d89b4ffabdbe10b569b3deb80a64 ALSA: hda/realtek: Enable drivers as default
-         fc2792a4000e9587080fa7f5b8a868cf393aa62e ALSA: hda/cirrus: Enable drivers as default
-         81231ad173d840693f8d5f34ad9ada75aa8ad79f ALSA: hda/hdmi: Enable drivers as default
+         3b7354fdc7981d3b56a10db1b118098cf5ed53f7 ALSA: hda: Fix arch defconfigs
          
   - ref: refs/heads/for-next
-    old: a9dec0963187d05725369156a5e0e14cd3487bfb
-    new: 81231ad173d840693f8d5f34ad9ada75aa8ad79f
+    old: 81231ad173d840693f8d5f34ad9ada75aa8ad79f
+    new: 3b7354fdc7981d3b56a10db1b118098cf5ed53f7
     log: |
-         1d8dd982c409d89b4ffabdbe10b569b3deb80a64 ALSA: hda/realtek: Enable drivers as default
-         fc2792a4000e9587080fa7f5b8a868cf393aa62e ALSA: hda/cirrus: Enable drivers as default
-         81231ad173d840693f8d5f34ad9ada75aa8ad79f ALSA: hda/hdmi: Enable drivers as default
+         3b7354fdc7981d3b56a10db1b118098cf5ed53f7 ALSA: hda: Fix arch defconfigs
          
   - ref: refs/heads/master
-    old: b16590b98de96f5358b8830d451adda9b59892d5
-    new: 8c653540e4daac3df88ce81af2d5725f6dba3571
+    old: 8c653540e4daac3df88ce81af2d5725f6dba3571
+    new: 1f88be8f7aa5fef88c51dff95ab5d578bc410257
     log: |
-         1d8dd982c409d89b4ffabdbe10b569b3deb80a64 ALSA: hda/realtek: Enable drivers as default
-         fc2792a4000e9587080fa7f5b8a868cf393aa62e ALSA: hda/cirrus: Enable drivers as default
-         81231ad173d840693f8d5f34ad9ada75aa8ad79f ALSA: hda/hdmi: Enable drivers as default
-         8c653540e4daac3df88ce81af2d5725f6dba3571 Merge branch 'for-linus'
+         3b7354fdc7981d3b56a10db1b118098cf5ed53f7 ALSA: hda: Fix arch defconfigs
+         1f88be8f7aa5fef88c51dff95ab5d578bc410257 Merge branch 'for-linus'
          
