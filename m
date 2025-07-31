@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2136730030945799437=="
+Content-Type: multipart/mixed; boundary="===============6189726397602450664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 31 Jul 2025 16:08:10 -0000
-Message-Id: <175397809008.1969151.970267731650133545@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 16:08:14 -0000
+Message-Id: <175397809462.1969428.10575041312175431549@gitolite.kernel.org>
 
---===============2136730030945799437==
+--===============6189726397602450664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fa582ca7e187a15e772e6a72fe035f649b387a60
     new: d9104cec3e8fe4b458b74709853231385779001f
     log: revlist-fa582ca7e187-d9104cec3e8f.txt
 
---===============2136730030945799437==
+--===============6189726397602450664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a26321ee4c935a63c29ed6518f27e38826b36e68 Merge tag 'hardening-v6.17-rc1-fix1' of
 8be4d31cb8aaeea27bde4b7ddb26e28a89062ebf Merge tag 'net-next-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 d9104cec3e8fe4b458b74709853231385779001f Merge tag 'bpf-next-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============2136730030945799437==--
+--===============6189726397602450664==--
