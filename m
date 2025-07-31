@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1125356242546507872=="
+Content-Type: multipart/mixed; boundary="===============5287276031010068907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 31 Jul 2025 20:03:23 -0000
-Message-Id: <175399220324.2170921.5309589103154386660@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 20:03:40 -0000
+Message-Id: <175399222081.2171426.2490319947463267334@gitolite.kernel.org>
 
---===============1125356242546507872==
+--===============5287276031010068907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 3ea3a256ed81f95ab0f3281a0e234b01a9cae605
-    new: 7038db703317617ef3691fbbb7259d4cdf208cf2
-    log: revlist-3ea3a256ed81-7038db703317.txt
+  - ref: refs/heads/for-next
+    old: f4777ae2ee39a5989ec45a043144643a1ff3c526
+    new: b3a40acce7b3d0a7e9d0b2042a33129a7e3d6e41
+    log: revlist-f4777ae2ee39-b3a40acce7b3.txt
 
---===============1125356242546507872==
+--===============5287276031010068907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ea3a256ed81-7038db703317.txt
+Content-Disposition: attachment; filename=revlist-f4777ae2ee39-b3a40acce7b3.txt
 
 3e90b38781e3bdd651edaf789585687611638862 scsi: mpt3sas: Fix a fw_event memory leak
 33b3120cb20fde80bf601413b635f957c46ad631 scsi: ufs: qcom: Drop dead compile guard
@@ -66,5 +66,6 @@ bd31394aabf36ee18781c6371e02d789484ffda3 scsi: libsas: Make sas_get_ata_info() s
 704ed03abf6b1c2752a8b16446a5ebf18694fefe scsi: libsas: Move declarations of internal functions to sas_internal.h
 75fe230b9bed364d7ddca482ff29979d873718fa scsi: libsas: Use a bool for sas_deform_port() second argument
 7038db703317617ef3691fbbb7259d4cdf208cf2 Merge patch series "libsas cleanups"
+b3a40acce7b3d0a7e9d0b2042a33129a7e3d6e41 Merge branch 'misc' into for-next
 
---===============1125356242546507872==--
+--===============5287276031010068907==--
