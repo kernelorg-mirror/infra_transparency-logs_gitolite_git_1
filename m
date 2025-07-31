@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3055033699360328852=="
+Content-Type: multipart/mixed; boundary="===============0720728060706375893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 31 Jul 2025 07:05:36 -0000
-Message-Id: <175394553660.1514867.2890783076503233216@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 07:05:40 -0000
+Message-Id: <175394554098.1515123.13458842004019293511@gitolite.kernel.org>
 
---===============3055033699360328852==
+--===============0720728060706375893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
     new: 260f6f4fda93c8485c8037865c941b42b9cba5d2
     log: revlist-beb6c8326eb4-260f6f4fda93.txt
 
---===============3055033699360328852==
+--===============0720728060706375893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753945566 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753945583 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1753945521-dc47471ba1d84497c05413b217ae44754de05b56
+nonce 1753945539-5ca3aba2dc560fd9ab845a6a1f683bc08b2e8e56
 
-beb6c8326eb4e7006c4aa16b0fee3e303d42e685 260f6f4fda93c8485c8037865c941b42b9cba5d2 refs/heads/main
+beb6c8326eb4e7006c4aa16b0fee3e303d42e685 260f6f4fda93c8485c8037865c941b42b9cba5d2 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiLFd4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cLoP/AkPIfl0yyzFv51UJq8v
-YIU0s8Y715BEQjDYwceklP0j/qAv9nyRh29xs/0MMUlPYB7l+pSoP05sqSmtd9yZ
-KRqq46cRZBSmlpTsg5eWIt7fb2QOcXPIB70uR1a6xBX4ZEE39R/KTZr4TFAtUdBd
-DZrH4emsEhKa1DTHadf2keIW9O2VOdkOE5746DpSd9gJ/mxFlXIz/+Q9xDQKgrr7
-UbQXmzXPSwnSYnCQ5RaRoR2x1qW4zmfOheh6cFPej8xYq+hyNwxUbxTiY069ft27
-UTwsmwmptDcKL7MjpuHGuxgZcYpAnDOM+3gMBq+Hp/DxP+/bt7NDUMCYqMxz08ou
-P6b3FnwhaKoKW6fmZrzoM81RXkCkaCFwh7hPLUH/G+sM/nNScrVK0vQkBDUfiqWd
-lus2Yg3YvHsCCf/dY4geRxYg+Wv+xRHoTeTPM3yGydPX6MymjeCms4Y9wVpJBXSe
-eev3fuokoGOE+xQMCNtgviYu9oSkrNxKrMVRN1ehgMB+6NaRb+x6gCbdpz02SG5z
-jcFCDtNeW+sbFFHYmBiNqAvr3SYcWdkl8YsRqCoLe387obWkPy7IjnOlGFme05JD
-XaXfb4HNUOv8z4mSOCYuoI9DarDyyt3tC9wVnVBlgpHzGoKjd1NLT0KFe/0AWoW2
-QDezknu59KEKpq/6/L7Igb0E
-=2i43
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiLFe8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1H8QALKRkb7WCuuH76boaB0J
+Udz7PZILf/3F4OZIamlUGKQMz16z819S8ZXwp7821X6PjI4dwPPUQbD+j6IrrAbr
+wylQeGRmg6g0day0/JQHcT4D8Zm/Za3C71vgmDoIugDz3bQq3D1CeeylEJrKLwjU
+YWPhYUad4cd9VHHnWkX3//JCM8vIzd0KdwzGEzKzDgstpRZ10hWdJlt775Hx3E7V
+yAkRvItBMzXAhyxsr/lwFs5TT754pPWaQLnxE3NG2q8mBvwveihQxvajUgdk0wFe
+bI4tTn3qIRwpDSFwiyLvXswMJHjNiKcYRoYzAZAJuJaW3s9xNhll15k7MrGLl/A4
+q0UiNykUnGVZaYSPaqEr0KL5IJvkCaf55lmvlUnPwIhXMJKDcgNcJvIHN0TWkH0Q
+kUo31RGqKN9N3gDPVJ+BLYYsj3fOBtp2h9g3/vFZ1m3CS1AmQ34bu5dPCtcrdDXm
+1SIZKDs57KhftPaXS4QT5uEH01JT+4zA/1jijJOYm9IuwNvmHD/vjfbif854UgaD
+Xhj9RpN5lzhfGKgoSRZgBvJt44MPGXXmVTXrSGwyVm8PFFQWyVFH5h7WyHCdT04h
+TUqAhaH8IhhNuW+V/t7qY43navBu74AWaTsXqvSPoHeIN96P/B8xA+/8AYGRrP8r
+5X7cjf6pGCwkzZ1wsGbnwRru
+=+dO+
 -----END PGP SIGNATURE-----
 
---===============3055033699360328852==
+--===============0720728060706375893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d50b07d05ca53fdb6c6d1581b9084c09d4e98f54 Merge tag 'trace-ringbuffer-v6.17' of g
 63eb28bb1402891b1ad2be02a530f29a9dd7f1cd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 260f6f4fda93c8485c8037865c941b42b9cba5d2 Merge tag 'drm-next-2025-07-30' of https://gitlab.freedesktop.org/drm/kernel
 
---===============3055033699360328852==--
+--===============0720728060706375893==--
