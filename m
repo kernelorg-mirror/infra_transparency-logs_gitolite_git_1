@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0335123817568102256=="
+Content-Type: multipart/mixed; boundary="===============1627228086561193437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Thu, 31 Jul 2025 23:33:05 -0000
-Message-Id: <175400478525.2346840.15452496041608229298@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 23:34:20 -0000
+Message-Id: <175400486041.2348134.12562629146702397913@gitolite.kernel.org>
 
---===============0335123817568102256==
+--===============1627228086561193437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 75f5f23f8787c5e184fcb2fbcd02d8e9317dc5e7
-    new: cbbf0a759ff96c80dfc32192a2cc427b79447f74
-    log: revlist-75f5f23f8787-cbbf0a759ff9.txt
+  - ref: refs/heads/dev
+    old: 1edbfabb796786f0f6f2829511b9ab5e76acb760
+    new: 99f9a97dce39ad413c39b92c90393bbd6778f3fd
+    log: revlist-1edbfabb7967-99f9a97dce39.txt
 
---===============0335123817568102256==
+--===============1627228086561193437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75f5f23f8787-cbbf0a759ff9.txt
+Content-Disposition: attachment; filename=revlist-1edbfabb7967-99f9a97dce39.txt
 
-02d548e553d161813b7d3702a311b9067806057d riscv: dts: sophgo: sg2044: Add missing riscv,cbop-block-size property
-610f943a66bee95101f329d8a8e9a4a82123a66c dt-bindings: soc: sophgo: Move SoCs/boards from riscv into soc, add SG2000
 f5742f67a47cc1bd44368706d41bb2657f8e487d riscv: dts: sophgo: add reset generator for Sophgo CV1800 series SoC
 817c89a6b5c0df6e018857e1e540d86d38779d24 riscv: dts: sophgo: add reset configuration for Sophgo CV1800 series SoC
 7cc925594c10e18a6d99688aa008a8bc8b1e25d7 riscv: dts: sophgo: sg2044: add MSI device support for SG2044
@@ -1050,5 +1048,7 @@ c93529ad4fa8d8d8cb21649e70a46991a1dda0f8 Merge tag 'for-linus-iommufd' of git://
 be413ec746afc951c79d5907cf62ab6757330bdb Merge tag 'hwmon-for-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 2d945dde7fa3f17f46349360a9f97614de9f47da Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 cbbf0a759ff96c80dfc32192a2cc427b79447f74 Merge tag 'mtd/for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+2f2d42a17b5a6711378d39df74f1f69a831c5d4e exfat: fdatasync flag should be same like generic_write_sync()
+99f9a97dce39ad413c39b92c90393bbd6778f3fd exfat: add cluster chain loop check for dir
 
---===============0335123817568102256==--
+--===============1627228086561193437==--
