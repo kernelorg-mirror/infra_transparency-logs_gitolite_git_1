@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 31 Jul 2025 14:48:25 -0000
-Message-Id: <175397330598.1897112.12762222535584707131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mchehab/linux-media
+Date: Thu, 31 Jul 2025 14:49:17 -0000
+Message-Id: <175397335732.1897645.14610900630222291827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mchehab/linux-media
+user: mchehab
 changes:
-  - ref: refs/heads/hack/ppi-2
+  - ref: refs/tags/media/v6.17-1
     old: 0000000000000000000000000000000000000000
-    new: eeaf247cf878c2f42bf90c8c462fe3fd6b6c5ebf
+    new: eae8d53bfc0376620d19d745d287519e57dddc0b
