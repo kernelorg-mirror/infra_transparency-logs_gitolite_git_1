@@ -1,91 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============2047632346524678228=="
+Content-Type: multipart/mixed; boundary="===============3055033699360328852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 31 Jul 2025 06:39:13 -0000
-Message-Id: <175394395353.1491901.230405095505161998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 31 Jul 2025 07:05:36 -0000
+Message-Id: <175394553660.1514867.2890783076503233216@gitolite.kernel.org>
 
---===============2047632346524678228==
+--===============3055033699360328852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 4b290aae788e06561754b28c6842e4080957d3f7
+  - ref: refs/heads/main
+    old: beb6c8326eb4e7006c4aa16b0fee3e303d42e685
     new: 260f6f4fda93c8485c8037865c941b42b9cba5d2
-    log: revlist-4b290aae788e-260f6f4fda93.txt
+    log: revlist-beb6c8326eb4-260f6f4fda93.txt
 
---===============2047632346524678228==
+--===============3055033699360328852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753943995 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1753943951-fa1980d33ff12acd02a7eeb95d1fe9c8f224d30c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753945566 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1753945521-dc47471ba1d84497c05413b217ae44754de05b56
 
-4b290aae788e06561754b28c6842e4080957d3f7 260f6f4fda93c8485c8037865c941b42b9cba5d2 refs/heads/char-misc-testing
+beb6c8326eb4e7006c4aa16b0fee3e303d42e685 260f6f4fda93c8485c8037865c941b42b9cba5d2 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiLD7sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mOsP/3iE4ObhKNxJk5+MxGF3
-RMD2Py233VkdFIcbectK2eE2PxpXRH/RR/aRgKeRkAwnFX6mLMDD1FH0EG035+Dz
-S8lNq+CAuHNHB7T1k9g7hiDsf7myAF32c50ynMFy3M5dZW8kREkJM/D28I/crXC1
-RI2Wkb7qnFrfWv5zgvGA/T/p4VbuDMVtBQH8gk/ebEB3VdsHO0AA0SXgo4cy5fPK
-gyR7NdGi4d36yJy4vbrvJE13tX3s6HhNaTEs1h9GdzCX9zZBAfCqAXBiNRA48miZ
-20W9LoLJhGuLbKoNK24Dxjrh07AjaY4rABiq3Ii2sZW5aoJOBsLY2MCkmWgMcXsy
-UpqnsdIlRR2smcec0ebBv0hFSMr40dMP7WX8rPbuH9uwGEAVl4Vvq92HrachVYy5
-OgncE41K66pb6X2PXrFCuWCB9tGwNO0+Ndi57yUl7VeByF9f5uK0gvpUm1yoQxE5
-QPSb6UsDrguEOcWAUG7cx/AAGGLlj379HcAasfoJZRc/1rBWLCFSC/38n8X1TZq7
-8Nlrf8QiynEvLL30rBSXnCjmFfWJTZElpYB5NcvyJesfeiGMbLVWjlugGVkSLve7
-53CQH81xO4VHuLyd82oNrnKJDBpNSvhTVCFgAVhdYXwt2BMWTTgIHlv6L8H2xEBx
-UcDU+EoBJwQkDZwBE1VWxXLP
-=uZkK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiLFd4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cLoP/AkPIfl0yyzFv51UJq8v
+YIU0s8Y715BEQjDYwceklP0j/qAv9nyRh29xs/0MMUlPYB7l+pSoP05sqSmtd9yZ
+KRqq46cRZBSmlpTsg5eWIt7fb2QOcXPIB70uR1a6xBX4ZEE39R/KTZr4TFAtUdBd
+DZrH4emsEhKa1DTHadf2keIW9O2VOdkOE5746DpSd9gJ/mxFlXIz/+Q9xDQKgrr7
+UbQXmzXPSwnSYnCQ5RaRoR2x1qW4zmfOheh6cFPej8xYq+hyNwxUbxTiY069ft27
+UTwsmwmptDcKL7MjpuHGuxgZcYpAnDOM+3gMBq+Hp/DxP+/bt7NDUMCYqMxz08ou
+P6b3FnwhaKoKW6fmZrzoM81RXkCkaCFwh7hPLUH/G+sM/nNScrVK0vQkBDUfiqWd
+lus2Yg3YvHsCCf/dY4geRxYg+Wv+xRHoTeTPM3yGydPX6MymjeCms4Y9wVpJBXSe
+eev3fuokoGOE+xQMCNtgviYu9oSkrNxKrMVRN1ehgMB+6NaRb+x6gCbdpz02SG5z
+jcFCDtNeW+sbFFHYmBiNqAvr3SYcWdkl8YsRqCoLe387obWkPy7IjnOlGFme05JD
+XaXfb4HNUOv8z4mSOCYuoI9DarDyyt3tC9wVnVBlgpHzGoKjd1NLT0KFe/0AWoW2
+QDezknu59KEKpq/6/L7Igb0E
+=2i43
 -----END PGP SIGNATURE-----
 
---===============2047632346524678228==
+--===============3055033699360328852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b290aae788e-260f6f4fda93.txt
+Content-Disposition: attachment; filename=revlist-beb6c8326eb4-260f6f4fda93.txt
 
-8bec2ec156903e12a8b45a57ae9bca409ead5646 wifi: iwlwifi: mld: remove support for iwl_geo_tx_power_profiles_cmd version 4
-3735526d3e1c852dd9a3c05d82896a456819adc9 wifi: iwlwifi: mld: support iwl_omi_send_status_notif version 2
-0ce92d548b44649a8de706f9bb9e74a4ed2f18a7 wifi: iwlwifi: mld: Revert "wifi: iwlwifi: mld: add kunit test for emlsr with bt on"
-7cc5f89bfbc309e8027eda255a1db0957c7fca86 wifi: iwlwifi: mld: Revert "wifi: iwlwifi: mld: allow EMLSR with 2.4 GHz when BT is ON"
-0356e509d373fb9e320f283a2da8f0c0ea9371e0 wifi: iwlwifi: mld: remove support for iwl_mcc_update_resp versions
-ee86cd90c91e8820c2509bbbba02f4e3c5e1e3c6 wifi: iwlwifi: remove support of versions 4 and 5 of iwl_alive_ntf
-493681d9f95bdf119af077ea05eeb42476e1f488 wifi: iwlwifi: remove support of version 4 of iwl_wowlan_rsc_tsc_params_cmd
-24bc49d158c7848b56faf7b9023c92f751a74921 wifi: iwlwifi: remove support of several iwl_ppag_table_cmd versions
-1a304a2f8f7dbe25f555721f502227f9197145ed drm/panel-edp: Add BOE NE14QDM panel for Dell Latitude 7455
-bfc5cc8b5aecc9b0249322e39d8d6f65bd7c91ac idpf: use reserved RDMA vectors from control plane
-f4312e6bfa2a98e94dacc75f96f916b76bdf4259 idpf: implement core RDMA auxiliary dev create, init, and destroy
-be91128c579c86d295da4325f6ac4710e4e6d2b4 idpf: implement RDMA vport auxiliary dev create, init, and destroy
-bf86a012e6762330cd78952330d4b7809976aa2f idpf: implement remaining IDC RDMA core callbacks and handlers
-ed6e1c8796a4fad45e61e3a0c4d9f90b62809052 idpf: implement IDC vport aux driver MTU change handler
-6aa53e861c1a0c042690c9b7c5c153088ae61079 idpf: implement get LAN MMIO memory regions
-8271bec9fc1cfe522b1a18cacbefd6712a3d41c2 bpf: tcp: Make mem flags configurable through bpf_iter_tcp_realloc_batch
-cdec67a489d4fdae3e83e04fca0419136a83c4c2 bpf: tcp: Make sure iter->batch always contains a full bucket snapshot
-e25ab9b874a4bd8c6e3e5ce66cbe8a1dd4096e2e bpf: tcp: Get rid of st_bucket_done
-efeb820951ebf3778830256496ff72d00d135310 bpf: tcp: Use bpf_tcp_iter_batch_item for bpf_tcp_iter_state batch items
-f5080f612a1c587bf636bb23d2a2f4de276d60e4 bpf: tcp: Avoid socket skips and repeats during iteration
-da1d987d3b39a91e53be888c29610f57fb67bbe0 selftests/bpf: Add tests for bucket resume logic in listening sockets
-346066c3278f3baa61b1abc8a03721ed2684efe7 selftests/bpf: Allow for iteration over multiple ports
-f00468124a08a7ecd6f2ed932c57d86a1fc249db selftests/bpf: Allow for iteration over multiple states
-76650bcf2ae49106a9164406c90feba4c3135763 drm/xe/lrc: Reduce scope of empty lrc data
-e4cb5823ba3e2668ef5c164898e2aa2c0ad73742 drm/xe: Count dwords before allocating
-fab2cc0c09fd4e6ebfa645af0914fd5917478e7f drm/xe/gt: Extract emit_job_sync()
-6d891d22c627adaf9c759bceab0fc44f5ed6b8ae drm/xe/lrc: Remove leftover TODO/FIXME
-f4b538245f6a52fbe196b44a95c02aae566e3fb5 drm/xe/gt: Drop third submission for default context
-aded26ccaaa87ec9d7665eb7be25be4c70672b28 drm/xe: Waste fewer instructions in emit_wa_job()
 f4d51b6ce51dfa9c0a238416f47dfe4726be4e70 drm/xe/lrc: Add table with LRC layout
 08327292e7093de9b68ef02fe975738799ceedf4 selftests/bpf: Make ehash buckets configurable in socket iterator tests
 07ebabbbfe9b4c95e8f1f144f21c07fe830fa501 selftests/bpf: Create established sockets in socket iterator tests
@@ -668,9 +639,32 @@ b115c7758802f8d14ba8797e0ba979c47d78f310 tcp: do not increment BeyondWindow MIB 
 9f9a14a88c62a02439893197b96553d629cc1ce8 Merge branch 'tcp-a-couple-of-fixes'
 56613001dfc9b2e35e2d6ba857cbc2eb0bac4272 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 9872916ad1a1a5e7d089e05166c85dbd65e5b0e8 kcsan: test: Initialize dummy variable
+d0d05f602c1504fb868ed4a560d1465d88a3c5e5 module: Move modprobe_path and modules_disabled ctl_tables into the module subsys
+f1b4f23a52c272f6c1e205e8ec243f563323c5aa locking/rtmutex: Move max_lock_depth into rtmutex.c
+fff6703fc843569d7a2f78ca08e7a69a9be22b0f rcu: Move rcu_stall related sysctls into rcu/tree_stall.h
+851911aa7210ca27f007bd79553172e2e3ba8723 mm: move randomize_va_space into memory.c
+9e2f403dd8c2b07aff012e72c1fe5455538d72d2 parisc/power: Move soft-power into power.c
+8e5f04b0d58c734c69a0b6e26317561919299638 fork: mv threads-max into kernel/fork.c
+79ac8df97408b97175c01b6bff5ce0a97f35b439 Input: sysrq: mv sysrq into drivers/tty/sysrq.c
+942b296a6c35da6593eeeb126dce71d4e506f314 sysctl: Move tainted ctl_table into kernel/panic.c
+e054bcbe7e7af2baad3752f1a4916a7fffc0457e sysctl: move cad_pid into kernel/pid.c
+5a477e934152d0b32201000444d7a5e8358c9480 sysctl: Move sysctl_panic_on_stackoverflow to kernel/panic.c
+ad0800b1d49ade38bd25409c9d66da0446977c87 sysctl: Remove (very) old file changelog
+6519dba9af439722b3fd938dec939792cc0ecf8e sysctl: Remove superfluous includes from kernel/sysctl.c
 97189f84a1b3c80dfbba22521df7098ed51fdb4f kfence: Remove mention of PG_slab
 7f770e94d7936e8e35d4b4d5fa4618301b03ea33 memcg_slabinfo: Fix use of PG_slab
 4d693c47a025ee3d3bb1de72c522cf2aa560ce7a slab: Update MAINTAINERS entry
+02b072fd9fe1c5e16b7ae8da2f4ae31c8ef6f6a3 sysctl: Nixify sysctl.sh
+39dac316f09ae5a0930878d2cae8aea113648b5a sysctl: Removed unused variable
+88eddb0502d45680efef870ea470a9e8955c5c8b uevent: mv uevent_helper into kobject_uevent.c
+25ebbce1f188aa2d3e83fcfcf24da8610362564b kernel/sys.c: Move overflow{uid,gid} sysctl into kernel/sys.c
+73184c8e4ff447b866dac13fc4f1a4079c78a69d sysctl: rename kern_table -> sysctl_subsys_table
+89b491bcf2d19516dd19b1f7a8872394a58b591b docs: nixify check-sysctl-docs
+be0aef10dca87a644affb087f01728386c19903a docs: Use skiplist when checking sysctl admin-guide
+e97a96baa527d8ce51db483d44599dff9ec62af0 docs: Add awk section for ucount sysctl entries
+30ec9fde45b553467982382e7cd00bcca94bdba5 docs: Remove colon from ctltable title in vm.rst
+999aab7f5645f8e5daf1a102a4c4e79275555cf8 docs: Replace spaces with tabs in check-sysctl-docs
+ffc137c5c195a7c2a0f3bdefd9bafa639ba5a430 docs: Downgrade arm64 & riscv from titles to comment
 8185696483dcb29688fc23c45c99d86b73754982 MAINTAINERS: add missing files to slab section
 204bb852863bf14f343a0801b15bc2173bc318f9 wifi: brcmfmac: cyw: Fix __counted_by to be LE variant
 c57e5b9819dfd16d709bcd6cb633301ed0829a66 wifi: mac80211: fix WARN_ON for monitor mode on some devices
@@ -1038,6 +1032,7 @@ d0096c2f9cfcb4ce385698491604610fcc1a53b3 rv: Replace tss and sncid monitors with
 e8440a88e56bb3aa24c384eec6de8bef1184bed2 rv: Add nrp and sssw per-task monitors
 614384533dfe99293a7ff1bce3d4389adadbb759 rv: Add opid per-cpu monitor
 133c302a0c60bca1f0a2f5f85ef11e7f5e8f1331 tracing: trace_fprobe: Fix typo of the semicolon
+ee4cf798202d285dcbe85e4467a094c44f5ed8e6 staging: media: atomisp: Fix stack buffer overflow in gmin_get_var_int()
 a5a6b29a700fda1dd766cc42dde2cbba9b19f470 bpf: Show precise rejected function when attaching fexit/fmod_ret to __noreturn functions
 863aab3d4dcdfffa5cf0e0795c526dadca65be7a bpf: Add log for attaching tracing programs to functions in deny list
 a32f6f17a74d0e897b48bd4c697cc9782a38bf4f selftests/bpf: Add selftest for attaching tracing programs to functions in deny list
@@ -1063,6 +1058,11 @@ a5e71638ddd7f1dc0b9f3a5ac8ab8bef48b9f0ee ktest.pl: Add new PATCHCHECK_SKIP optio
 03b11982faa0c9d0b47f1940ad953cc3ed9f5b64 Merge tag 'loongarch-kvm-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson into HEAD
 6836e1f30fe90e4c19f6a3749e97ba1e44a840ef Documentation: KVM: Use unordered list for pre-init VGIC registers
 6443cdf567a900e03afe1d66fb8bcc7dad0835d0 ring-buffer: Make the const read-only 'type' static
+fc525d625a22c2179877955ee87e33f532b0674c kstack_erase: Fix missed export of renamed KSTACK_ERASE_CFLAGS
+94fd44648dae2a5b6149a41faa0b07928c3e1963 fortify: Fix incorrect reporting of read buffer size
+f627b51aaa041cba715b59026cf2d9cb1476c7ed compiler_types: Provide __no_kstack_erase to disable coverage only on Clang
+a26321ee4c935a63c29ed6518f27e38826b36e68 Merge tag 'hardening-v6.17-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+4b290aae788e06561754b28c6842e4080957d3f7 Merge tag 'sysctl-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 8be4d31cb8aaeea27bde4b7ddb26e28a89062ebf Merge tag 'net-next-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 d9104cec3e8fe4b458b74709853231385779001f Merge tag 'bpf-next-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 53564f400572b1b8d9ee5bafb9c226eb1d38600a Merge tag 'iommu-updates-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
@@ -1082,4 +1082,4 @@ d50b07d05ca53fdb6c6d1581b9084c09d4e98f54 Merge tag 'trace-ringbuffer-v6.17' of g
 63eb28bb1402891b1ad2be02a530f29a9dd7f1cd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 260f6f4fda93c8485c8037865c941b42b9cba5d2 Merge tag 'drm-next-2025-07-30' of https://gitlab.freedesktop.org/drm/kernel
 
---===============2047632346524678228==--
+--===============3055033699360328852==--
