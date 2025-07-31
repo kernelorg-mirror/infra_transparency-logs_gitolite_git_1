@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3451552353933666941=="
+Content-Type: multipart/mixed; boundary="===============3154189004487657501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Thu, 31 Jul 2025 11:59:37 -0000
-Message-Id: <175396317737.1756478.14577446287135839848@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 11:59:51 -0000
+Message-Id: <175396319114.1756802.323729909075768900@gitolite.kernel.org>
 
---===============3451552353933666941==
+--===============3154189004487657501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: da.gomez
 changes:
-  - ref: refs/heads/modules-fixes
-    old: af1ccf546e5f2915fbbde26841db43a971d81cf3
-    new: 3c5066b6cc85c00b166d64f68ac566f0c940c470
-    log: revlist-af1ccf546e5f-3c5066b6cc85.txt
+  - ref: refs/heads/modules-next
+    old: 699657e8e50ae967ae26f704f6fbfa598fcb0cef
+    new: 40a826bd6c82ae45cfd3a19cd2a60a10f56b74c0
+    log: revlist-699657e8e50a-40a826bd6c82.txt
 
---===============3451552353933666941==
+--===============3154189004487657501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af1ccf546e5f-3c5066b6cc85.txt
+Content-Disposition: attachment; filename=revlist-699657e8e50a-40a826bd6c82.txt
 
-30a7806adab5f6b971cf07439ed6a3fac3fd80cf rcu: Document GP init vs hotplug-scan ordering requirements
-186779c036468038b0d077ec5333a51512f867e5 rcu: Document separation of rcu_state and rnp's gp_seq
-5d71c2b53f1790c2ca09d03848839c610653d278 rcu: Document concurrent quiescent state reporting for offline CPUs
 ca652cf0c2612add5d3c9283bbc742dabc704a77 Merge branch 'icc-milos' into icc-next
 270b329f7ec4e4e8dca6735bd1fe286a8e39b82d Revert "drm/nouveau: check ioctl command codes better"
 708243c62efde8241e2c66e9c3f377658855149d wifi: mac80211: fix unassigned variable access
@@ -1045,10 +1042,13 @@ d50b07d05ca53fdb6c6d1581b9084c09d4e98f54 Merge tag 'trace-ringbuffer-v6.17' of g
 7d767a9528f6d203bca5e83faf1b8f2f6af3fc07 Merge tag 'for-linus-6.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 63eb28bb1402891b1ad2be02a530f29a9dd7f1cd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 260f6f4fda93c8485c8037865c941b42b9cba5d2 Merge tag 'drm-next-2025-07-30' of https://gitlab.freedesktop.org/drm/kernel
-f07bba9907d0e1f28e826533199a77852907d0f2 module: Prevent silent truncation of module name in delete_module(2)
-67c7934571188398157ff65aeaf5de3bb729af83 module: Remove unnecessary +1 from last_unloaded_module::name size
-c0e87b2fcb87935d782f9b06d25ea5b7169dea47 module: Restore the moduleparam prefix length check
-83a204a5576f7fe9684dbcdd66ffeb2b760e69a7 tracing: Replace MAX_PARAM_PREFIX_LEN with MODULE_NAME_LEN
-3c5066b6cc85c00b166d64f68ac566f0c940c470 module: Rename MAX_PARAM_PREFIX_LEN to __MODULE_NAME_LEN
+199d9ffb31650f948dd342ade1c1b920e157630f module: move 'struct module_use' to internal.h
+818783c804bc051f7faf0ac226b5597f8259c6f8 module: make structure definitions always visible
+768da2eae8662ca51102794c32d37c17410acbf5 kunit: test: Drop CONFIG_MODULE ifdeffery
+a6323bd4e611567913e23df5b58f2d4e4da06789 module: Prevent silent truncation of module name in delete_module(2)
+6c171b2ccfe677ca97fc5334f853807959f26589 module: Remove unnecessary +1 from last_unloaded_module::name size
+bdc877ba6b7ff1b6d2ebeff11e63da4a50a54854 module: Restore the moduleparam prefix length check
+a7c54b2b41dd1f6ec780e7fbfb13f70c64c9731d tracing: Replace MAX_PARAM_PREFIX_LEN with MODULE_NAME_LEN
+40a826bd6c82ae45cfd3a19cd2a60a10f56b74c0 module: Rename MAX_PARAM_PREFIX_LEN to __MODULE_NAME_LEN
 
---===============3451552353933666941==--
+--===============3154189004487657501==--
