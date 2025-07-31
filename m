@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 31 Jul 2025 15:03:23 -0000
-Message-Id: <175397420342.1909968.2553896808403916271@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 15:04:07 -0000
+Message-Id: <175397424764.1910498.6674581832984007253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,27 +12,21 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: 6260da046819b7bda828bacae148fc8856fdebd7
-    new: 5e0753df9623559542404e167172ba97e412f45e
+    old: 5e0753df9623559542404e167172ba97e412f45e
+    new: df485a4b2b3ee5b35c80f990beb554e38a8a5fb1
     log: |
-         80d2a9eb9af399fe60a6d0dddab10d75364698b8 arm: Update HD-audio configs again
-         1e7e0a2df77d919a3c1a58b8a4efd818a1895bd2 LoongArch: Update HD-audio codec configs
-         5e0753df9623559542404e167172ba97e412f45e mips: Update HD-audio configs again
+         df485a4b2b3ee5b35c80f990beb554e38a8a5fb1 ALSA: usb: scarlett2: Fix missing NULL check
          
   - ref: refs/heads/for-next
-    old: 6260da046819b7bda828bacae148fc8856fdebd7
-    new: 5e0753df9623559542404e167172ba97e412f45e
+    old: 5e0753df9623559542404e167172ba97e412f45e
+    new: df485a4b2b3ee5b35c80f990beb554e38a8a5fb1
     log: |
-         80d2a9eb9af399fe60a6d0dddab10d75364698b8 arm: Update HD-audio configs again
-         1e7e0a2df77d919a3c1a58b8a4efd818a1895bd2 LoongArch: Update HD-audio codec configs
-         5e0753df9623559542404e167172ba97e412f45e mips: Update HD-audio configs again
+         df485a4b2b3ee5b35c80f990beb554e38a8a5fb1 ALSA: usb: scarlett2: Fix missing NULL check
          
   - ref: refs/heads/master
-    old: 8f3e51a1cc10c237981afa8544cf8846abbe9c0e
-    new: 0e8587602328c89763da72f92d38e04b1df0a171
+    old: 0e8587602328c89763da72f92d38e04b1df0a171
+    new: f63c6bf20771de6bbdfc707ba3cdb47dd100e975
     log: |
-         80d2a9eb9af399fe60a6d0dddab10d75364698b8 arm: Update HD-audio configs again
-         1e7e0a2df77d919a3c1a58b8a4efd818a1895bd2 LoongArch: Update HD-audio codec configs
-         5e0753df9623559542404e167172ba97e412f45e mips: Update HD-audio configs again
-         0e8587602328c89763da72f92d38e04b1df0a171 Merge branch 'for-linus'
+         df485a4b2b3ee5b35c80f990beb554e38a8a5fb1 ALSA: usb: scarlett2: Fix missing NULL check
+         f63c6bf20771de6bbdfc707ba3cdb47dd100e975 Merge branch 'for-linus'
          
