@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7479785617107214200=="
+Content-Type: multipart/mixed; boundary="===============0205140673321705791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 31 Jul 2025 04:45:18 -0000
-Message-Id: <175393711888.1347500.11854646412192350936@gitolite.kernel.org>
+Date: Thu, 31 Jul 2025 04:45:23 -0000
+Message-Id: <175393712384.1347898.12163973179093760798@gitolite.kernel.org>
 
---===============7479785617107214200==
+--===============0205140673321705791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 8b83268f78759d950c50727a05f282201959b0ac
-    new: 5f446b1f7ee3544f1d1c2e66b0fbe4ff3420a71b
-    log: revlist-8b83268f7875-5f446b1f7ee3.txt
+  - ref: refs/heads/6.17/scsi-queue
+    old: 3ea3a256ed81f95ab0f3281a0e234b01a9cae605
+    new: 7038db703317617ef3691fbbb7259d4cdf208cf2
+    log: revlist-3ea3a256ed81-7038db703317.txt
 
---===============7479785617107214200==
+--===============0205140673321705791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1753937096 -0400
+pusher 75C5DE3D 1753937166 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1753937052-0c0b836c7f4292c627ce41f3ae7b2a2bb257fe07
+nonce 1753937122-024328dca0141d01268195a894a2b0d75eeffe6c
 
-8b83268f78759d950c50727a05f282201959b0ac 5f446b1f7ee3544f1d1c2e66b0fbe4ff3420a71b refs/tags/mkp-scsi-queue
+3ea3a256ed81f95ab0f3281a0e234b01a9cae605 7038db703317617ef3691fbbb7259d4cdf208cf2 refs/heads/6.17/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiK9MgACgkQ7ulgGnXF
-3j3POA/+Og8x+9maOwkhLZFfwt1K4+vtn8ZepoTg7pmnrnrRKJq3nnBIBB4EseRW
-6Tco4FFvNG8ud8yD+E8KJU16zmjq/noVzT7q4ILWPrxHt82bH58ffNYtthqoLXGn
-EKcVLhrcTMiXtCzlV6tEo30K7+mFFY37WIv8VAES45dAE7n6Fhx3CgWIUFcPQFIJ
-EeZFCIXZH0WYGU95I72sW7uOyBzylXAHQv9RVOEaeZFWQ76FSa1d7S9UmEO9/fYq
-qpUA3QnXaJ7CwU4jm8JX66T/rpAwwmUTrXx50QBEyvY+9Er3mozp+b5OF9cWLJjN
-3x2HDN2zZo/QqymhQqtiK5ycg0vHP/3AvG1VkXZicVARi0FZEaWi9csKF0AU2i51
-AuefZW0A0RqQY+S3h6BU4s2HV4VOfjrvs/zQBqtc4eTVw71hPP8dPnRtxyOVigZG
-DjM6QtJzKRG+KnsQpX9THp+dKCNx/dTUiv45Pdgkc4Sb6yyQkgmWaw/GePklJ6H5
-r/iDByWUQ86+zPGOQDd3P3rhC42oyG5Cyp08ZQ6pq/MliNWEi+cxNroloXfzULiw
-7xsx1Hntk6R1Q7BKqbV/jcqttqJEckvLQK3aSTKbwzvoDc7zkLTYm4p0+KyvvEHG
-KoXjftpdBLYZt5fnavC+bTzQaQ+rsB4xDhmjsoCwFxcR4UREbEM=
-=ch5S
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiK9Q4ACgkQ7ulgGnXF
+3j3XSA//QefonBYJ/1P/5WtOjw2opoKuKN0GYAtFVUOCZa5q5bHxFwDl2Jn721bq
+wFiCwu5osCuweJbckCpgeiZPiCaqFiknKH1Z5HTlzfkCBnqktdAcVZmipnlf3wxz
+Hr9R5y0ngIUBOcpIsbQEelEysKmXIf5Lv64rWyTBA4EaUJl2iqDTu05LYMIlCLpL
+1DwENLns1cXWPDoKuzRpHQgrgKX1FrDAvUOyhx0YsN7cLLei4LF72qdZNM4HMbRf
+zGflCmXAK7laBza4Dun36/RtmhHKW1vS/QnYWqhFmxOlgCWgifpNWxTOnBemR9s6
+w4bdbo6bJreuJFa+wQcG5QiVemtVJo9mpV3Q7yeh5jjanozgNnInpnWzpKAd+zcB
+gnexJQucD4pn3tp1ly0C5a5VSA14I3MJiup4HtEwTgRQ6K1GYnKCKofIN3ZefI1s
+UDtlmu1tu+/OSTO6z7yYL4V28gwKgoWpQlOpNOdQI7KiLliHxJC/1mfZbwNWzd2K
+zpRPA/H2lHM0T3KemD40wIcFSudMhEZhLUc7SQWFmkvBf7odXQVd4pEf/2XTo9uH
+5Kwf9XsEkl7U3K0zVgUkowxYEtkMrAFeHrqW0iqm1rRCx0Feyd7gF+B1vZ/biW4r
+4LqWpw3ZDLMjaVwM299p2Rq+k95O8jK6XRnPtJGCVjfoF7OBoJU=
+=i/C+
 -----END PGP SIGNATURE-----
 
---===============7479785617107214200==
+--===============0205140673321705791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b83268f7875-5f446b1f7ee3.txt
+Content-Disposition: attachment; filename=revlist-3ea3a256ed81-7038db703317.txt
 
 3e90b38781e3bdd651edaf789585687611638862 scsi: mpt3sas: Fix a fw_event memory leak
 33b3120cb20fde80bf601413b635f957c46ad631 scsi: ufs: qcom: Drop dead compile guard
@@ -97,4 +97,4 @@ bd31394aabf36ee18781c6371e02d789484ffda3 scsi: libsas: Make sas_get_ata_info() s
 75fe230b9bed364d7ddca482ff29979d873718fa scsi: libsas: Use a bool for sas_deform_port() second argument
 7038db703317617ef3691fbbb7259d4cdf208cf2 Merge patch series "libsas cleanups"
 
---===============7479785617107214200==--
+--===============0205140673321705791==--
