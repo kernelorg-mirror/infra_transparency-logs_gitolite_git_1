@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 31 Jul 2025 13:36:01 -0000
-Message-Id: <175396896102.1836035.12010039759403848474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 31 Jul 2025 13:44:59 -0000
+Message-Id: <175396949924.1842608.6700982473944341336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/trace/for-next
-    old: 1a967e92bf47cf5170336b88d748117c700edc47
-    new: 623526ba8984cafdffa0eba7ee424f2e40c8a219
+  - ref: refs/heads/for-next
+    old: 035663ceb5da48e8c6fc1c7b49a89bc63b7d810f
+    new: 9576e1aecf627ac99c369fc8cd265b4847ed0c50
     log: |
-         0dd1274a053f9ede97e3f3269b5012372567e521 tracing: Have eprobes have their own config option
-         623526ba8984cafdffa0eba7ee424f2e40c8a219 Documentation: tracing: Add documentation about eprobes
+         bdf253d580d7d30e7620844c63a5013fe7ba3f87 dm-verity: remove support for asynchronous hashes
+         487767bff572d46f7c37ad846c4078f6d6c9cc55 md: dm-zoned-target: Initialize return variable r to avoid uninitialized use
+         225b2cb640d7ddbb2df38130f3f34f4a84497426 vdo: omit need_resched() before cond_resched()
+         8d05316d79d8afd20ba767efea8706d8238a9d46 dm-raid: do not include dm-core.h
+         9576e1aecf627ac99c369fc8cd265b4847ed0c50 dm-thin: update the documentation
          
