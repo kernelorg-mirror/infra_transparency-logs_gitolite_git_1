@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 31 Jul 2025 01:13:22 -0000
-Message-Id: <175392440230.1129987.12122869969368439132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 31 Jul 2025 01:41:18 -0000
+Message-Id: <175392607889.1154941.782796200847705007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/main
-    old: 830118b6390a1e4b3057c9e400da37f9408bd67d
-    new: f2aa00e4f65efcf25ff6bc8198e21f031e7b9b1b
+  - ref: refs/heads/nova-core-unstable-rm-broken
+    old: 6d0da37dde5b834b493274102832aca87aee4114
+    new: 192d6cbaafe93f78e34201858a140e8e28fa3c42
     log: |
-         2da4def0f487f24bbb0cece3bb2bcdcb918a0b72 netpoll: prevent hanging NAPI when netcons gets enabled
-         6fb5ff63b35b7e849cc8510957f25753f87f63d2 phy: mscc: Fix parsing of unicast frames
-         f2aa00e4f65efcf25ff6bc8198e21f031e7b9b1b net: ipa: add IPA v5.1 and v5.5 to ipa_version_string()
+         81118701f53dbd79fe72afbe27320449fcc0bec9 TMP: rm fixes - only builds does not work
+         192d6cbaafe93f78e34201858a140e8e28fa3c42 Partial fix
          
