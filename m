@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6479541445819232776=="
+Content-Type: multipart/mixed; boundary="===============9040116486240275009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 31 Jul 2025 04:28:13 -0000
-Message-Id: <175393609311.1331817.1968018715832930541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 31 Jul 2025 04:44:48 -0000
+Message-Id: <175393708836.1345412.6369090753267313396@gitolite.kernel.org>
 
---===============6479541445819232776==
+--===============9040116486240275009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/experimental
-    old: 871121756e3d02ab0fd8a77902239690e38879e0
-    new: 9309506cbcd828eda0c97275e81db1b411885df4
-    log: revlist-871121756e3d-9309506cbcd8.txt
+  - ref: refs/heads/master
+    old: ab4f62735a768028b3726bf0351c2260e8a69384
+    new: dd5919e9c3578bd2b77d7155b172519104768d19
+    log: |
+         dd5919e9c3578bd2b77d7155b172519104768d19 proposed: Add Allen's v6.15.[7/8] results
+         
 
---===============6479541445819232776==
+--===============9040116486240275009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-871121756e3d-9309506cbcd8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c461fee3107f8b65d833e7e39bbeda0f71bfa6cb erofs-utils: lib: get rid of erofs_init_empty_dir()
-894a6e5f01e0bbab7faf1b55e52401e45fa58d41 erofs-utils: avoid `.` dirent insertion if dot_omitted is enabled
-44b76299b14f94361118c3ac75825e1f4897e084 erofs-utils: lib: implement 3-way merge sort
-4c656b4b51dd1e82cc817f0d25dcada0df8a2438 erofs-utils: mkfs: don't generate encoded extents for ztailpacking
-b6ebabe3774fc12ab77df8ba1746cce271c18bda erofs-utils: lib: consolidate erofs_iflush()
-70f45ce3101523e19ed25fe569b1b8637f41035c erofs-utils: use virtual file interface for the buffer manager
-3f47558e82add8ba178a6145c316a7633e919938 erofs-utils: lib: change argument order of erofs_io_pread()
-1854e0e56f1d5775b4875eb256ff6f1cbd7eb576 erofs-utils: lib: introduce meta buffer operations
-219ef95e36facd510f30dd2f306dc026c99df5ad erofs-utils: lib: use meta buffers for inode operations
-63c3d378ec2f23ec7ed921e0c64e8bce275e528f erofs-utils: lib: use meta buffers for zmap operations
-94d1ec68a2786b3457d42a897b3147c9d6257e9c erofs-utils: lib: use meta buffers for xattr operations
-02b9ced9e3ccaaf7b203445a76a8145967da16a6 erofs-utils: formalize erofs_pread()
-3810707e8b4949371355946ce2d8d6fa3fbf4a38 erofs-utils: fsck, dump: support metadata compression
-9309506cbcd828eda0c97275e81db1b411885df4 erofs-utils: introduce metadata compression [metabox]
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1753937129 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1753937085-c88190a25d9838ca6bb1b5841fd724347c72822b
 
---===============6479541445819232776==--
+ab4f62735a768028b3726bf0351c2260e8a69384 dd5919e9c3578bd2b77d7155b172519104768d19 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiK9OkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dQwQAMUXwtoapurkyWj+1DGP
+IzcrBLYmtzdWYpMNcM6pRB0X8vxL8x/oCx824zSUCVJM57B6e8q2kcARytR1DNQY
+GNY3NYI2iAfJBSE+709bauBJ871Ww/LZWWRgoc/lH3buLn2VAaw8TSR5ct7L52ZU
+QODHHbwjjrZgvkG1QoFBnXWTRo3latgx3p8/VdLnzSKFxU6Ftp2y+k7pWHymtKeK
+ZQ2kk/RZKyKBh/DDvJwkYzw2TQxqW7zwzRmhML1vOxtCojZrIP5PVetO0Qi40Qm4
+kS6vQ+EqsSdO/0mxw8Srs5UTHol4D1swQxcrBQvdBQsYpoMhxa1fDuI4WOMLJU9x
+zYzudgvR6+eSGS3kyCo19Ycsf/PmT+WKQdrC43mVKP37sDGKnmn7bl5sIG//HBze
+MsM7XnJi3HUABfH9Lfd+wTo36qCWBlv+5iQEiAT++QGN4XrLeJA0KCTk1cuB4XX9
+0c++w1GGoSiTCxm6yWV3ZRP1YmXFhp0olTXkOHCX8lB7S2I2Ts8xLW6CgQqUP8OX
+5vfmumaB73JB0rzZ7+XMwu64hthxPjlaLX+1SRI4bjXTlSOi+D/VhkU09FvEGqYg
+ceTfx/G1GP4n/Lw6E1CbFTuZDXSR/roGVef+Sn8HW438ULmdmtYlW9xGTC8qp8K6
+xlTH5s2DzNXWGhDA0mZ4u339
+=bqy0
+-----END PGP SIGNATURE-----
+
+--===============9040116486240275009==--
