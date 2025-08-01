@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8486509274425772705=="
+Content-Type: multipart/mixed; boundary="===============3360154834518567092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Fri, 01 Aug 2025 17:40:50 -0000
-Message-Id: <175407005097.3409481.6971209631218436915@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 17:41:03 -0000
+Message-Id: <175407006300.3409738.18357667962309397076@gitolite.kernel.org>
 
---===============8486509274425772705==
+--===============3360154834518567092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: 86731a2a651e58953fc949573895f2fa6d456841
     new: 6235ce77749f45cac27f630337e2fdf04e8a6c73
     log: revlist-86731a2a651e-6235ce77749f.txt
 
---===============8486509274425772705==
+--===============3360154834518567092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -207,4 +207,4 @@ b91a9abbf4734d411d304661fbb7e2878281eb51 perf list: Skip ABI PMUs when printing 
 022245067f07ab913d27054ee9e1fab45256acd5 perf test: Ensure lock contention using pipe mode
 6235ce77749f45cac27f630337e2fdf04e8a6c73 perf record: Cache build-ID of hit DSOs only
 
---===============8486509274425772705==--
+--===============3360154834518567092==--
