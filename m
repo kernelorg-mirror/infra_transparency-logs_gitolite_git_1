@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1045297793522079610=="
+Content-Type: multipart/mixed; boundary="===============3822638743951242856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 01 Aug 2025 04:44:52 -0000
-Message-Id: <175402349282.2608620.12911735780604220999@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 04:44:55 -0000
+Message-Id: <175402349559.2608754.15901845411355865346@gitolite.kernel.org>
 
---===============1045297793522079610==
+--===============3822638743951242856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: 2918fc8e58b039a07a746a340506bc2ec83e5899
-    new: f145fcd7d710933ee25437fa1ac24c2ef65ead88
-    log: revlist-2918fc8e58b0-f145fcd7d710.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: d6355cc066992a747bd2c5da48e52a0188c8b594
+    new: 2193dff0e4a6f41ac794e8cccfe4623b5c28bbfa
+    log: revlist-d6355cc06699-2193dff0e4a6.txt
 
---===============1045297793522079610==
+--===============3822638743951242856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2918fc8e58b0-f145fcd7d710.txt
+Content-Disposition: attachment; filename=revlist-d6355cc06699-2193dff0e4a6.txt
 
 73ff9cba241aea19643592155d1220312e7e5595 NFSD: refactor nfsd_read_vector_dio to EVENT_CLASS useful for READ and WRITE
 399e0afb80612bc586f176325dff60fddfb49355 NFSD: prepare nfsd_vfs_write() to use O_DIRECT on misaligned WRITEs
@@ -78,5 +78,27 @@ a90dffae0155a7b9cddf146bf5ef0bc8f6001208 nfs/localio: fallback to NFSD for misal
 7a0c50a8b2369898131119a43ad6c0bb3ace7a47 nfs/direct: add misaligned READ handling
 38e86119037328dc4e6486d4374f90d2feb8e0d2 nfs/direct: add misaligned WRITE handling
 f145fcd7d710933ee25437fa1ac24c2ef65ead88 sunrpc: fix client side handling of tls alerts
+201ee7faf5f83997584750af830e7816388f7c22 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+953e8e4e173645a59f450fe2783400eb513e7e29 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+10105d42633bda9dd8d1174e17b1d9c307115400 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+3bc8371c4c22e4a01443d3064a86a78359f100ae Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+652a5cd145419ac8b6f21120562575f990b31e90 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+13dd0e48e0d162a01dab9ccfa42eb565d183f3cd Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+b529575798b8f3d9d9f601bd792c437e7e492c1b Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+267d6e19303292b926477dc53aba19dc302b2e44 Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+dec7e13de13f8ef93a3e76d17ded1ccedc496b17 Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+ea94f3544e2d8c7abff3542c8fe39f7c5fb0190d kernel-6.12.24-1
+ac37ad440839c43b12f7ce25e97bd24864ed2ace kernel-6.12.24-2
+9e7436a7c7201cb82c0df9dd925a7cefba63321c kernel-6.12.24-3
+1e3cf7258434d4b7b048cec34f35eb40f69b18bc kernel-6.12.24-4
+a25f2cf189acd48d2a3ceda0b50b03a912292441 kernel-6.12.24-5
+0d7871e3fbdecaf923e0c4d8164dbdce8f14cc3c kernel-6.12.24-6
+6ea4bac51c0b3597f4741781f7f94a573a989c86 kernel-6.12.24-7
+660f037dec6152651a5aab022af15f0928fe464b kernel-6.12.24-8
+b784bc4607d1ad3659023785df596cd2ead17f79 kernel-6.12.24-9
+695e99b539d35a4de61af539d7759d915e2df58c kernel-6.12.24-10
+80ba488aae8ff802feac5e377568a578570fe7f5 kernel-6.12.24-11
+6a55c59773eec5cbad271df4f8c304b4c77790b1 kernel-6.12.24-12
+2193dff0e4a6f41ac794e8cccfe4623b5c28bbfa kernel-6.12.24-13
 
---===============1045297793522079610==--
+--===============3822638743951242856==--
