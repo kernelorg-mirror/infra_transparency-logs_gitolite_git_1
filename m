@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 01 Aug 2025 21:47:12 -0000
-Message-Id: <175408483275.3622707.646974759945236531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 01 Aug 2025 21:47:16 -0000
+Message-Id: <175408483643.3622852.12033680097454577922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 77bf1c55b2acc7fa3734b14f4561e3d75aea1a90
-    new: a81649a4efd382497bf3d34a623360263adc6993
+  - ref: refs/heads/master
+    old: 3fea6d121b56a6f8b05d5c7147a00e2545fb2b6d
+    new: d8d2d9d12f141302aaec3ff9a3a8cbed4ac0546c
     log: |
-         a4f0866e3dbbf3fee4078bce0b78d65a0875c0bc dpll: Make ZL3073X invisible
-         7cbd49795d4ca86fba5830084e94fece3b343b79 selftests: avoid using ifconfig
-         d45cf1e7d7180256e17c9ce88e32e8061a7887fe ipv6: reject malicious packets in ipv6_gso_segment()
-         a81649a4efd382497bf3d34a623360263adc6993 net: mdio: mdio-bcm-unimac: Correct rate fallback logic
+         d8d2d9d12f141302aaec3ff9a3a8cbed4ac0546c selftests/bpf: Test for unaligned flow_dissector ctx access
          
