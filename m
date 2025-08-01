@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 01 Aug 2025 20:17:57 -0000
-Message-Id: <175407947771.3545828.5210768042982381100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 01 Aug 2025 20:21:33 -0000
+Message-Id: <175407969392.3549658.3508876326527737980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/asoc-6.17
-    old: 1b03391d073dad748636a1ad9668b837cce58265
-    new: 5bbb3913b7d691d3293fa7cde0a897d44d1e4522
+  - ref: refs/heads/nova-core-unstable
+    old: 5b011fdedb32e78101e22e192cadadeb42fa9155
+    new: 3889ad9776ad61659f36fdc8113c3bc7ece43103
     log: |
-         918b744af3d4d11a087814ebb6c390016e5242f2 ASoC: SOF: amd: Add sof audio support for acp7.2 platform
-         60e5b2441d7c035e732e4a1166779c6cc316c46b ASoC: amd: ps: Add SoundWire pci and dma driver support for acp7.2 platform
-         0df24f34794d2eea4bdc819fba0ba28f226286e6 ASoC: amd: acp: Add SoundWire legacy machine driver support for acp7.2 platform
-         1c4c768d068616fa8948826ab714a4ac1f3b9aa9 ASoC: amd: acp: Add SoundWire SOF machine driver support for acp7.2 platform
-         5bbb3913b7d691d3293fa7cde0a897d44d1e4522 Add audio support for acp7.2 platform
+         95f4a8c11a310ddbdb3c693843c5c1d4a7ba9cc9 Documentation: gpu: nova-core: Document the VFN interrupt architecture
+         ca33cd6c0758cde9b1ac6ee65b0b97e9fc321d0f nova-core: gsp: Retrieve usable VRAM regions
+         f070669f3115f8f8e820d24d6ba9fa1c9331cc20 nova-core: gsp: Add support to retrieve BAR PDB values
+         390d8c7aa7453314606ed3b628abcffeab3e4ac4 nova-core: mm: Add support to use PRAMIN windows to write to VRAM
+         cec04a77c24667a5482380267a75edfe9c256d7e nova-core: Blackwell: calculate reserved FB heap size
+         3889ad9776ad61659f36fdc8113c3bc7ece43103 FOR ALISTAIR: [gsp.rs changes for sbuffer - requires integration]
          
