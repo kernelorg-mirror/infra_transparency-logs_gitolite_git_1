@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 01 Aug 2025 12:34:00 -0000
-Message-Id: <175405164088.3147183.490110756300030010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 01 Aug 2025 12:37:55 -0000
+Message-Id: <175405187544.3151267.18304048985820739440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/sound-6.17-rc1-2
-    old: a57acf65fa8eede6a0eb8b935d47a47b26b2f3dc
-    new: 87fa097c270d5890e2a62eafe78e5e46853f644d
+  - ref: refs/heads/20250731_broonie_regmap_fix_lockdep_warnings_for_nested_regmap_irqs
+    old: 0000000000000000000000000000000000000000
+    new: 76b6e14aa7b081337d118a82397d919b5e072bb4
+  - ref: refs/heads/20250801_venkataprasad_potturu_add_audio_support_for_acp7_2_platform
+    old: 0000000000000000000000000000000000000000
+    new: 9563478595bc436024bd15f10587f5da176e6a81
+  - ref: refs/heads/filelLfifp
+    old: 0000000000000000000000000000000000000000
+    new: ce6fd989b681b64c27070643230bb43fd9ac3b3e
