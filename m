@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4144757315682866218=="
+Content-Type: multipart/mixed; boundary="===============1207156012314690045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
-Date: Fri, 01 Aug 2025 11:48:00 -0000
-Message-Id: <175404888030.3108136.14627343799156435041@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 11:48:13 -0000
+Message-Id: <175404889336.3108458.11604020431571305784@gitolite.kernel.org>
 
---===============4144757315682866218==
+--===============1207156012314690045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,29 @@ repo: pub/scm/linux/kernel/git/mripard/linux
 user: mripard
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/drm/tidss/field-api
+  - ref: refs/heads/drm/state-readout
     old: 0000000000000000000000000000000000000000
-    new: 8e7aa9647fd4168ea2115bb34ca99eade5b0c751
+    new: f8f58ab7e9eac7e5daa40ab3f03b67f54ee9e9a4
 
---===============4144757315682866218==
+--===============1207156012314690045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1754048912 +0200
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1754048936 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
-nonce 1754048868-de126d4b3c0ffb488482c79240e6e7729f55c643
+nonce 1754048891-8f2d284281e0f5222b28ce4174f9a861b2b48191
 
-0000000000000000000000000000000000000000 8e7aa9647fd4168ea2115bb34ca99eade5b0c751 refs/heads/drm/tidss/field-api
+0000000000000000000000000000000000000000 f8f58ab7e9eac7e5daa40ab3f03b67f54ee9e9a4 refs/heads/drm/state-readout
 -----BEGIN PGP SIGNATURE-----
 
-iJUEABMJAB0WIQTkHFbLp4ejekA/qfgnX84Zoj2+dgUCaIypkAAKCRAnX84Zoj2+
-djc9AYDFCN0opgCq+Q+EfzupH4OF8rnasWdqE15+EhPmyOMnf5y6vKw7jD3lIy8Z
-QTWQFHIBf0SBs7VOiGDYMeV13n1d9rI0n074lwmj1TomIEISVQPf+vfAKhkiV+7M
-Eia50gdYKQ==
-=pM3t
+iJUEABMJAB0WIQTkHFbLp4ejekA/qfgnX84Zoj2+dgUCaIypqAAKCRAnX84Zoj2+
+dgBGAYD7Jh9vrlera0cOMguAqpfKsZvfFV1qwbwtFcysgukhOiy/qbJH6nyyXRhE
+l3PeZLwBf1VR3hfnX0S5Xje8on+v0ZD0TFn+2GYrF384AMjsxJMYHqw7RahTNuI7
+oXy8jm65xQ==
+=8sv3
 -----END PGP SIGNATURE-----
 
---===============4144757315682866218==--
+--===============1207156012314690045==--
