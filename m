@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 01 Aug 2025 11:17:35 -0000
-Message-Id: <175404705576.3083318.8721473491528968058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 01 Aug 2025 11:40:45 -0000
+Message-Id: <175404844524.3102763.9470489241451228621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/tags/sound-6.17-rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: a57acf65fa8eede6a0eb8b935d47a47b26b2f3dc
+  - ref: refs/heads/master
+    old: bf24d64268544379d9a9b5b8efc2bb03967703b3
+    new: 9d9b193ed73a65ec47cf1fd39925b09da8216461
+    log: |
+         9d9b193ed73a65ec47cf1fd39925b09da8216461 crypto: hash - Increase HASH_MAX_DESCSIZE for hmac(sha3-224-s390)
+         
