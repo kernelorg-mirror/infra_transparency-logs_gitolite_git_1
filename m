@@ -1,17 +1,17 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 01 Aug 2025 21:24:26 -0000
-Message-Id: <175408346694.3601146.9780959306111481040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 01 Aug 2025 21:24:42 -0000
+Message-Id: <175408348228.3601540.8129008500375322613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: a735ee58c0d673d630a10ac2939dccb54df0622a
     new: 5bbb3913b7d691d3293fa7cde0a897d44d1e4522
     log: |
