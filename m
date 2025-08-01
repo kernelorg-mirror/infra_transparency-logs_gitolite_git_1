@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2710288424596252559=="
+Content-Type: multipart/mixed; boundary="===============1045297793522079610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 01 Aug 2025 04:44:49 -0000
-Message-Id: <175402348983.2608455.2033753265318967843@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 04:44:52 -0000
+Message-Id: <175402349282.2608620.12911735780604220999@gitolite.kernel.org>
 
---===============2710288424596252559==
+--===============1045297793522079610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: 25463313e7e032a33a6e51d4804a6807fe4c0eda
-    new: 8b83302aeac17509aa24b6648c6f42fd998b15f0
-    log: revlist-25463313e7e0-8b83302aeac1.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: 2918fc8e58b039a07a746a340506bc2ec83e5899
+    new: f145fcd7d710933ee25437fa1ac24c2ef65ead88
+    log: revlist-2918fc8e58b0-f145fcd7d710.txt
 
---===============2710288424596252559==
+--===============1045297793522079610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25463313e7e0-8b83302aeac1.txt
+Content-Disposition: attachment; filename=revlist-2918fc8e58b0-f145fcd7d710.txt
 
 73ff9cba241aea19643592155d1220312e7e5595 NFSD: refactor nfsd_read_vector_dio to EVENT_CLASS useful for READ and WRITE
 399e0afb80612bc586f176325dff60fddfb49355 NFSD: prepare nfsd_vfs_write() to use O_DIRECT on misaligned WRITEs
@@ -67,5 +67,16 @@ f8dd04ea49e8e71a1aeff10bd175f28e5d79e969 NFS: Fix wakeup of __nfs_lookup_revalid
 a38ad0ca68c120ae5663521edfd35cf331f8b958 NFS: Fix filehandle bounds checking in nfs_fh_to_dentry()
 4c3eaff5256ace5032e0b33eed18716a8aaca933 NFSv4.2: another fix for listxattr
 8b83302aeac17509aa24b6648c6f42fd998b15f0 NFS: Fixup allocation flags for nfsiod's __GFP_NORETRY
+c711e60f635ba93bd4689d2ef3e6a22a7c7e160d NFS/localio: nfs_close_local_fh() fix check for file closed
+b26707e9aff45adc6fa326a3a4fa94f34445bd7d NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
+3d569b805df77db92b1499bda855be5c976d7581 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+125d261b94c93af62a70967e91bf179c08388b9e nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+2a303727d9c9cfaba5059a015d4a92fbc424b044 nfs/localio: make trace_nfs_local_open_fh more useful
+174a3c6eb77794794ac9eb19445b0662d51b5d7f nfs/localio: add nfsd_file_dio_alignment
+07c65854dba36280f0f3d53fe7a8b14b57303951 nfs/localio: refactor iocb initialization
+a90dffae0155a7b9cddf146bf5ef0bc8f6001208 nfs/localio: fallback to NFSD for misaligned O_DIRECT READs
+7a0c50a8b2369898131119a43ad6c0bb3ace7a47 nfs/direct: add misaligned READ handling
+38e86119037328dc4e6486d4374f90d2feb8e0d2 nfs/direct: add misaligned WRITE handling
+f145fcd7d710933ee25437fa1ac24c2ef65ead88 sunrpc: fix client side handling of tls alerts
 
---===============2710288424596252559==--
+--===============1045297793522079610==--
