@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6605544571835952820=="
+Content-Type: multipart/mixed; boundary="===============6938878482688127884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 01 Aug 2025 23:08:25 -0000
-Message-Id: <175408970584.3688875.9795177415303964861@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 23:08:37 -0000
+Message-Id: <175408971762.3689170.6836229800659955693@gitolite.kernel.org>
 
---===============6605544571835952820==
+--===============6938878482688127884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e8d780dcd957d80725ad5dd00bab53b856429bc0
     new: 821c9e515db512904250e1d460109a1dc4c7ef6b
     log: revlist-e8d780dcd957-821c9e515db5.txt
 
---===============6605544571835952820==
+--===============6938878482688127884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d6f38c12396397e48092ad9e8a4d7be4de51b942 Merge tag 'trace-v6.17' of git://git.ke
 0bd0a41a5120f78685a132834865b0a631b9026a Merge tag 'pci-v6.17-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 821c9e515db512904250e1d460109a1dc4c7ef6b Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 
---===============6605544571835952820==--
+--===============6938878482688127884==--
