@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 01 Aug 2025 18:45:38 -0000
-Message-Id: <175407393811.3470221.8901990090167151442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 01 Aug 2025 18:49:18 -0000
+Message-Id: <175407415896.3472139.15056384310083993834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: 618393ea7752af48ae32191477e2cedf41713bbe
-    new: a49bfbecfde75fa95677d4dfe95de8b25f8de37f
+  - ref: refs/heads/io_uring-chan
+    old: bf7dc02721130cf070be8b7e41a99460788e9314
+    new: 4fca73eb16c3e8f7c5d907fdce30c0fb58bf8338
     log: |
-         ffcfd071eec7973e58c4ffff7da4cb0e9ca7b667 spi: cs42l43: Property entry should be a null-terminated array
-         a49bfbecfde75fa95677d4dfe95de8b25f8de37f Merge remote-tracking branch 'spi/for-6.16' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 618393ea7752af48ae32191477e2cedf41713bbe
-    new: a49bfbecfde75fa95677d4dfe95de8b25f8de37f
-    log: |
-         ffcfd071eec7973e58c4ffff7da4cb0e9ca7b667 spi: cs42l43: Property entry should be a null-terminated array
-         a49bfbecfde75fa95677d4dfe95de8b25f8de37f Merge remote-tracking branch 'spi/for-6.16' into spi-linus
+         f58739b781164ca37446c1352f23cf131eafbebd io_uring/register: add support for ring -> ring channels
+         42ea25bbb2ab6403dedde21c4b1b2b45d278547c io_uring/chan: grab reference to destination ring
+         d3040cad2488271aa2e90b98a072a3decb42a0ad io_uring/chan: add support for IORING_OP_CHAN_POST
+         4fca73eb16c3e8f7c5d907fdce30c0fb58bf8338 io_uring/chan: cache consumer head loads
          
