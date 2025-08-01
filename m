@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 01 Aug 2025 09:29:37 -0000
-Message-Id: <175404057710.2993937.4439136127541096673@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 09:58:34 -0000
+Message-Id: <175404231431.3017049.7333382447017303197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
   - ref: refs/heads/pwm/for-nexxt
-    old: f365b1d8ecc3a1a646171c697f56a91b3156dae6
-    new: 7ba8294a284c094e1cecf4d2d1d8291247d497bc
+    old: 7ba8294a284c094e1cecf4d2d1d8291247d497bc
+    new: 19e297e84551c17fe462eba6080dd47db6ab48f8
     log: |
-         765161b30639a024c856cba29f99c78772247248 pwm: Disable PWM_DEBUG check for disabled states
-         7ba8294a284c094e1cecf4d2d1d8291247d497bc pwm: Check actual period and duty_cycle for ignored polarity test
+         19e297e84551c17fe462eba6080dd47db6ab48f8 pwm: Provide a gpio device for waveform drivers
          
