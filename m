@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Fri, 01 Aug 2025 14:34:56 -0000
-Message-Id: <175405889627.3248641.6506017382876808229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 01 Aug 2025 14:34:59 -0000
+Message-Id: <175405889949.3248797.9433433179444995902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/kthread/core-v2
-    old: 36d3707f47c07834d9df7ac085c45f50af2186bd
-    new: cfa822a834b6308609d6c1ba4ea2752d682e6ba4
+  - ref: refs/heads/kdevops
+    old: 54d94b470636db1d90dd671d463ce8e7c057f8bc
+    new: d1de4bc4146116acbfc2d219d1733239d9d58c2f
     log: |
-         7a22e8708fa7bdc24d3a04f1b523b1d16c7599cc ipvs: Fix estimator kthreads preferred affinity
-         051a2f06167edb8a2b016b46c2374f8d5be19f1f tracing
-         cfa822a834b6308609d6c1ba4ea2752d682e6ba4 doc: Add CPU Isolation documentation
+         d1de4bc4146116acbfc2d219d1733239d9d58c2f nfs: throw a warning if we clear a request while the folio is still dirty
          
