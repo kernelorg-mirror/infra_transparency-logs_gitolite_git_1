@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Fri, 01 Aug 2025 11:40:45 -0000
-Message-Id: <175404844524.3102763.9470489241451228621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 01 Aug 2025 11:40:54 -0000
+Message-Id: <175404845425.3103074.14141421558315589011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
