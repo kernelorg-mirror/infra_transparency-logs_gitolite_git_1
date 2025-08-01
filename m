@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 01 Aug 2025 12:37:55 -0000
-Message-Id: <175405187544.3151267.18304048985820739440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 01 Aug 2025 12:49:06 -0000
+Message-Id: <175405254648.3160848.2046658702181242193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/20250731_broonie_regmap_fix_lockdep_warnings_for_nested_regmap_irqs
-    old: 0000000000000000000000000000000000000000
-    new: 76b6e14aa7b081337d118a82397d919b5e072bb4
-  - ref: refs/heads/20250801_venkataprasad_potturu_add_audio_support_for_acp7_2_platform
-    old: 0000000000000000000000000000000000000000
-    new: 9563478595bc436024bd15f10587f5da176e6a81
-  - ref: refs/heads/filelLfifp
-    old: 0000000000000000000000000000000000000000
-    new: ce6fd989b681b64c27070643230bb43fd9ac3b3e
+  - ref: refs/heads/kdevops
+    old: d6e609588a77800c804c5864553cc7f4881d2fc7
+    new: 54d94b470636db1d90dd671d463ce8e7c057f8bc
+    log: |
+         e86f3ece4e04b0f14ae8bd519af80146fb6d83af nfs: new tracepoints around write handling
+         8a7f6c165f62f6b45b889f0a89855a98a208ced1 nfs: more in-depth tracing of nfs_page events
+         54d94b470636db1d90dd671d463ce8e7c057f8bc nfs: add tracepoints to nfs_writepages()
+         
