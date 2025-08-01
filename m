@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 01 Aug 2025 21:18:00 -0000
-Message-Id: <175408308014.3595740.14661483002156049685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 01 Aug 2025 21:24:26 -0000
+Message-Id: <175408346694.3601146.9780959306111481040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: f8fded7536a9350ce849f21eee124d66056aa54c
-    new: 60bda1ba062a003efcb96c91c8541c3efb212d69
+  - ref: refs/heads/for-6.17
+    old: a735ee58c0d673d630a10ac2939dccb54df0622a
+    new: 5bbb3913b7d691d3293fa7cde0a897d44d1e4522
     log: |
-         38358fa3cc8e16c6862a3e5c5c233f9f652e3a6d net: airoha: Fix PPE table access in airoha_ppe_debugfs_foe_show()
-         60bda1ba062a003efcb96c91c8541c3efb212d69 sfc: unfix not-a-typo in comment
+         918b744af3d4d11a087814ebb6c390016e5242f2 ASoC: SOF: amd: Add sof audio support for acp7.2 platform
+         60e5b2441d7c035e732e4a1166779c6cc316c46b ASoC: amd: ps: Add SoundWire pci and dma driver support for acp7.2 platform
+         0df24f34794d2eea4bdc819fba0ba28f226286e6 ASoC: amd: acp: Add SoundWire legacy machine driver support for acp7.2 platform
+         1c4c768d068616fa8948826ab714a4ac1f3b9aa9 ASoC: amd: acp: Add SoundWire SOF machine driver support for acp7.2 platform
+         9843cf7b6fd6f938c16fde51e86dd0e3ddbefb12 ASoC: tas2781: Fix the wrong step for TLV on tas2781
+         1b03391d073dad748636a1ad9668b837cce58265 ASoC: Intel: sof_sdw: Add quirk for Alienware Area 51 (2025) 0CCC SKU
+         5bbb3913b7d691d3293fa7cde0a897d44d1e4522 Add audio support for acp7.2 platform
          
