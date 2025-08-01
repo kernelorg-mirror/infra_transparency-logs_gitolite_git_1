@@ -1,51 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============5683801479395817640=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 01 Aug 2025 18:12:37 -0000
-Message-Id: <175407195718.3439316.7880565691865519620@gitolite.kernel.org>
-
---===============5683801479395817640==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 01 Aug 2025 18:12:59 -0000
+Message-Id: <175407197969.3439806.3563536171278784646@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.17
-    old: ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b
-    new: 76b6e14aa7b081337d118a82397d919b5e072bb4
+  - ref: refs/heads/for-linus
+    old: c871c199accb39d0f4cb941ad0dccabfc21e9214
+    new: 067aa458a064cd860baef7503c3264bb3482d37e
+    log: |
+         c8c4694ede7ed42d8d4db0e8927dea9839a3e248 regmap: kunit: Constify regmap_range_cfg array
+         9f711c9321cffe3e03709176873c277fa911c366 regmap: get rid of redundant debugfs_file_{get,put}()
+         ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b regmap: Annotate that MMIO implies fast IO
+         1da33858af6250184d2ef907494d698af03283de regmap: irq: Free the regmap-irq mutex
+         76b6e14aa7b081337d118a82397d919b5e072bb4 regmap: irq: Avoid lockdep warnings with nested regmap-irq chips
+         067aa458a064cd860baef7503c3264bb3482d37e Merge remote-tracking branch 'regmap/for-6.16' into regmap-linus
+         
+  - ref: refs/heads/for-next
+    old: 58e6b2cce564e372582d3ae5cae6efd30996b7d4
+    new: 067aa458a064cd860baef7503c3264bb3482d37e
     log: |
          1da33858af6250184d2ef907494d698af03283de regmap: irq: Free the regmap-irq mutex
          76b6e14aa7b081337d118a82397d919b5e072bb4 regmap: irq: Avoid lockdep warnings with nested regmap-irq chips
+         067aa458a064cd860baef7503c3264bb3482d37e Merge remote-tracking branch 'regmap/for-6.16' into regmap-linus
          
-
---===============5683801479395817640==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1754071999 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1754071954-ee69c4bdf7e4607dfa45db31ce0b0d50b43973fa
-
-ffc72771ff6ec9f5b431a86c4b00d8ef0fea958b 76b6e14aa7b081337d118a82397d919b5e072bb4 refs/heads/regmap-6.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiNA78ACgkQJNaLcl1U
-h9Dluwf+MoFUzj4tDI1h76TqwveyvYe+d29YEHX+D54/kgv+cV5gwLdmTgRoFUZR
-U8CvRfe6/7hvPcfsbSo3lAmnDe+jxnQ7SzSEeJTO+18ebAYEhdmtMdXhl1aFJPUL
-fK2NI8FUgpTInWY424HIC11LbRysFp6+JJ5s+HXRMWzZOzWJAOnaD7g/PG7yI26C
-q80GH4E+Dd8e/9ubh8+v75T740D8kgR0nmd6uJq2s6hagjJhz7rx3Lu4Y8bku9uy
-eTUy2yJPlE813+91Wje6KymLYSmlIaAht//9lYKkk9OJLSDt3/jl1uUSrR0bqQHG
-O/VOvE0oj6Gv0OafjWYyJ5yrhGrNmg==
-=fX9Q
------END PGP SIGNATURE-----
-
---===============5683801479395817640==--
