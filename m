@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 01 Aug 2025 20:21:33 -0000
-Message-Id: <175407969392.3549658.3508876326527737980@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 20:30:35 -0000
+Message-Id: <175408023591.3557599.1411758885608937760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/nova-core-unstable
-    old: 5b011fdedb32e78101e22e192cadadeb42fa9155
-    new: 3889ad9776ad61659f36fdc8113c3bc7ece43103
+    old: 3889ad9776ad61659f36fdc8113c3bc7ece43103
+    new: 687cc65ed763e2e93280c112bd9d8eea7caf3644
     log: |
-         95f4a8c11a310ddbdb3c693843c5c1d4a7ba9cc9 Documentation: gpu: nova-core: Document the VFN interrupt architecture
-         ca33cd6c0758cde9b1ac6ee65b0b97e9fc321d0f nova-core: gsp: Retrieve usable VRAM regions
-         f070669f3115f8f8e820d24d6ba9fa1c9331cc20 nova-core: gsp: Add support to retrieve BAR PDB values
-         390d8c7aa7453314606ed3b628abcffeab3e4ac4 nova-core: mm: Add support to use PRAMIN windows to write to VRAM
-         cec04a77c24667a5482380267a75edfe9c256d7e nova-core: Blackwell: calculate reserved FB heap size
-         3889ad9776ad61659f36fdc8113c3bc7ece43103 FOR ALISTAIR: [gsp.rs changes for sbuffer - requires integration]
+         859670a0fb2f484b571431904224eb84dd7d70dc Documentation: gpu: nova-core: Document the VFN interrupt architecture
+         39404dffe3bcc0426ef329cba7282f2f633fc4ab nova-core: gsp: Retrieve usable VRAM regions
+         a30dfbd34adcd16214fa7c4715327d51d7ef44f8 nova-core: gsp: Add support to retrieve BAR PDB values
+         696921cbdc0ee0ebb5b5d0b3c7c6e7d81c6d418d nova-core: mm: Add support to use PRAMIN windows to write to VRAM
+         e03470d9bb8e637f0abbeaeca3f027f3867c3d3e nova-core: Blackwell: calculate reserved FB heap size
+         687cc65ed763e2e93280c112bd9d8eea7caf3644 FOR ALISTAIR: [gsp.rs changes for sbuffer - requires integration]
          
