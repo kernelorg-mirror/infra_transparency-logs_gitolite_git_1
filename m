@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 01 Aug 2025 13:34:59 -0000
-Message-Id: <175405529992.3199664.16278228623530080480@gitolite.kernel.org>
+Date: Fri, 01 Aug 2025 13:35:07 -0000
+Message-Id: <175405530744.3201464.17525059632431230557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filelLfifp
-    old: ce6fd989b681b64c27070643230bb43fd9ac3b3e
+  - ref: refs/heads/20250801_venkataprasad_potturu_add_audio_support_for_acp7_2_platform
+    old: 9563478595bc436024bd15f10587f5da176e6a81
     new: 0000000000000000000000000000000000000000
