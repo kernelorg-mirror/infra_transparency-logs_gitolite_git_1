@@ -1,47 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3198916027158550372=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
-Date: Sat, 02 Aug 2025 15:44:20 -0000
-Message-Id: <175414946067.321884.7691240491938343603@gitolite.kernel.org>
-
---===============3198916027158550372==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sat, 02 Aug 2025 15:49:19 -0000
+Message-Id: <175414975970.326568.4411958453749781888@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sven/linux
-user: sven
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/wip/smc-rtc
-    old: e73fad058ae21271a77bda882fc458b76c91c366
-    new: 09fcd7340e23106a92763c2d77c256132769e24a
+  - ref: refs/heads/master
+    old: 6e8c646c310219bf4026d74f02ce4652d27866ff
+    new: ef740f7cbe47d5552677fb018b15b4ab1f1de4f4
     log: |
-         d0da3329ad3b0ee3397728fadf7baf7b9bd05bb3 rtc: Add new rtc-macsmc driver for Apple Silicon Macs
-         09fcd7340e23106a92763c2d77c256132769e24a arm64: dts: apple: t8103,t600x,t8112: Add SMC RTC node
+         9897c064e8b1fda0e69a0bdf944f1c84654b8630 engines/io_uring: store ioengine id in ioengine data
+         49842d0736b127656c8106e2c7d69b1043b784c1 engines/nvme: move inline functions from .c to .h file
+         2fb6a2782ab1a21751fade28e11c0ed4fb528e19 engines/nvme: refactor filling protection information
+         f928d3ea49019f6afd26bb86ff3910afaaca1c31 engines/io_uring: simplify io_u_free
+         be06e55f7e3299ad68df6a4dff56b8c69c5e660c engines/io_uring: fill in guard generation options at init time
+         f97d9f38b27b2373fee63489975c3ef44ea58f78 engines/io_uring: support r/w with metadata
+         ef740f7cbe47d5552677fb018b15b4ab1f1de4f4 t/io_uring_pi: test script for io_uring PI
          
-
---===============3198916027158550372==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 44117D242A751EE9! 1754149502 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
-nonce 1754149457-e21a3d986c398f8e0330052d45a9e4aa9fe11800
-
-e73fad058ae21271a77bda882fc458b76c91c366 09fcd7340e23106a92763c2d77c256132769e24a refs/heads/wip/smc-rtc
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaI4yfgAKCRBEEX0kKnUe
-6fESAP0SiHso45n0DLVqp8D+slbMYN0WZNFFB/DkQMfEQjBV/QD8CKW4wE3Oy5pM
-fKVCTgZ24SdmkV66RdeyOoh1HfhPxwk=
-=DDwH
------END PGP SIGNATURE-----
-
---===============3198916027158550372==--
