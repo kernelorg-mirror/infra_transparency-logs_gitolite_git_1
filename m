@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5947950089332730761=="
+Content-Type: multipart/mixed; boundary="===============1383483688842318944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 02 Aug 2025 12:24:41 -0000
-Message-Id: <175413748144.158487.14670554111518680125@gitolite.kernel.org>
+Date: Sat, 02 Aug 2025 13:11:32 -0000
+Message-Id: <175414029287.196910.17553933412572252207@gitolite.kernel.org>
 
---===============5947950089332730761==
+--===============1383483688842318944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/smp/urgent
-    old: 6ef8eb5125722c241fd60d7b0c872d5c2e5dd4ca
-    new: 83e6384374bac8a9da3411fae7f24376a7dbd2a3
-    log: revlist-6ef8eb512572-83e6384374ba.txt
+  - ref: refs/heads/locking/urgent
+    old: d0a48dc4df5c986bf8c3caf4d8fc15c480273052
+    new: e703b7e247503b8bf87b62c02a4392749b09eca8
+    log: revlist-d0a48dc4df5c-e703b7e24750.txt
 
---===============5947950089332730761==
+--===============1383483688842318944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ef8eb512572-83e6384374ba.txt
+Content-Disposition: attachment; filename=revlist-d0a48dc4df5c-e703b7e24750.txt
 
 04060e7860cb2dad21898248f7e7f7575ce44a14 Merge patch series "backing_file accessors cleanup"
 083957f9614a8b2e284dbb3a85c5fec8e2fb26b8 ovl: support layers on case-folding capable filesystems
@@ -1049,6 +1049,6 @@ bcb48dd3b344592cc33732de640b99264c073df1 Merge tag 'perf-core-2025-07-28' of git
 0c23929f358c949f6254c46883afc2bba415d36e Merge tag 'x86-fpu-2025-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e12ac84acc722f06e8b1be66fbb138c5934aaf54 Merge tag 'x86-kconfig-2025-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 98e8f2c0e0930feee6a2538450c74d9d7de0a9cc Merge tag 'x86-platform-2025-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-83e6384374bac8a9da3411fae7f24376a7dbd2a3 smp: Fix spelling in on_each_cpu_cond_mask()'s doc-comment
+e703b7e247503b8bf87b62c02a4392749b09eca8 futex: Move futex cleanup to __mmdrop()
 
---===============5947950089332730761==--
+--===============1383483688842318944==--
