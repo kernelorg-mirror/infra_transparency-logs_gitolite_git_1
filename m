@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5032171903773281523=="
+Content-Type: multipart/mixed; boundary="===============5680652092767215268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 02 Aug 2025 21:23:51 -0000
-Message-Id: <175416983104.606561.14905927224661987757@gitolite.kernel.org>
+Date: Sat, 02 Aug 2025 21:23:52 -0000
+Message-Id: <175416983246.606738.2921744253508864025@gitolite.kernel.org>
 
---===============5032171903773281523==
+--===============5680652092767215268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
+  - ref: refs/heads/mm-stable
     old: af915c3c13b64d196d1c305016092f5da20942c4
     new: a2152fef29020e740ba0276930f3a24440012505
     log: revlist-af915c3c13b6-a2152fef2902.txt
 
---===============5032171903773281523==
+--===============5680652092767215268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ de55be42379cc0561aadfd9e1459239dea70be32 mm/shmem, swap: fix major fault countin
 f04fd85f15945f3ff189701050e3ce303c1a4d98 mm: correct type for vmalloc vm_flags fields
 a2152fef29020e740ba0276930f3a24440012505 mm: mempool: fix crash in mempool_free() for zero-minimum pools
 
---===============5032171903773281523==--
+--===============5680652092767215268==--
