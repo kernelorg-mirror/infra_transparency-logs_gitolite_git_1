@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 02 Aug 2025 01:00:31 -0000
-Message-Id: <175409643113.3793754.6965896670463522093@gitolite.kernel.org>
+Date: Sat, 02 Aug 2025 01:02:48 -0000
+Message-Id: <175409656858.3794954.12123569617785470150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,10 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: a6923c06a3b2e2c534ae28c53a7531e76cc95cfa
-    new: e56f416c8eb9e7a02610e687232dd8dee30e8060
+    old: e56f416c8eb9e7a02610e687232dd8dee30e8060
+    new: f3af62b6cee8af9f07012051874af2d2a451f0e5
     log: |
-         86de56487e5f0017ffd5930b0dbd9dda43048849 bpf: Allow syscall bpf programs to call non-recur helpers
-         31e838e1cdf4c4088fee8154ce8c12713ebfb2da selftests/bpf: Introduce task local data
-         120f1a950e495d9751fdb5c8b7852d94546dcd03 selftests/bpf: Test basic task local data operations
-         784181141782204f6dbbeadf01780e81da5fcb29 selftests/bpf: Test concurrent task local data key creation
-         e56f416c8eb9e7a02610e687232dd8dee30e8060 Merge branch 'task-local-data'
+         2d812311c2b28cc9096e29862a957aeb32bfdb76 bpftool: Add bpf_token show
+         b7f6400849162b918020c5d10d5b7f378afbf470 bpftool: Add bpftool-token manpage
+         f3af62b6cee8af9f07012051874af2d2a451f0e5 bpftool: Add bash completion for token argument
          
