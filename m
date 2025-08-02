@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7558085754442920719=="
+Content-Type: multipart/mixed; boundary="===============1452162337359509532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 02 Aug 2025 00:48:30 -0000
-Message-Id: <175409571016.3781967.8942327648360381318@gitolite.kernel.org>
+Date: Sat, 02 Aug 2025 00:49:13 -0000
+Message-Id: <175409575388.3782443.5381766097333332972@gitolite.kernel.org>
 
---===============7558085754442920719==
+--===============1452162337359509532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev/v6.15-rc3+/Wunterminated-string-initialization
-    old: cb6d31b643f1c9c3d0658f10e90694a51886a8cd
+  - ref: refs/heads/devel/arm/traps
+    old: fb797951f253e686d02d783531bddb72c4e73021
     new: 0000000000000000000000000000000000000000
 
---===============7558085754442920719==
+--===============1452162337359509532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1754095753 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1754095797 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1754095709-7b7ae4ecfdf45cd4aea1ab110b3896b41e27a209
+nonce 1754095752-05bee956c2d36d0be36a666421903af79ec1f2df
 
-cb6d31b643f1c9c3d0658f10e90694a51886a8cd 0000000000000000000000000000000000000000 refs/heads/dev/v6.15-rc3+/Wunterminated-string-initialization
+fb797951f253e686d02d783531bddb72c4e73021 0000000000000000000000000000000000000000 refs/heads/devel/arm/traps
 -----BEGIN PGP SIGNATURE-----
 
-iHQEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaI1giQAKCRA2KwveOeQk
-u2LdAQDYhrzM4rCS+tv0U4E6gNSHBhL3kswz54peipIewxM6mQD4ziX5G7A2Cjut
-TcojysSUBwh2S2vGDdPmh6dXSAZvCA==
-=J9OH
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaI1gtQAKCRA2KwveOeQk
+u1gdAP4qTqHKQKIsm3Gz9oa9Co6THdS6Ja/TjfVQ2f4QzTPKtgD+Mp+1wF+zaBlH
+1tlRVMAwP5NFAJSEDVGrD9uVczl8wwI=
+=kJsV
 -----END PGP SIGNATURE-----
 
---===============7558085754442920719==--
+--===============1452162337359509532==--
