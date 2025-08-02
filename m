@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1517286583275407754=="
+Content-Type: multipart/mixed; boundary="===============5032171903773281523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 02 Aug 2025 21:23:49 -0000
-Message-Id: <175416982961.606370.3664614344464830212@gitolite.kernel.org>
+Date: Sat, 02 Aug 2025 21:23:51 -0000
+Message-Id: <175416983104.606561.14905927224661987757@gitolite.kernel.org>
 
---===============1517286583275407754==
+--===============5032171903773281523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 03854667b9fd458f8c7486b88d47ccbb45316070
-    new: df01d1162a83194a036f0d648ae41e6ad8adbe1a
-    log: revlist-03854667b9fd-df01d1162a83.txt
+  - ref: refs/heads/mm-unstable
+    old: af915c3c13b64d196d1c305016092f5da20942c4
+    new: a2152fef29020e740ba0276930f3a24440012505
+    log: revlist-af915c3c13b6-a2152fef2902.txt
 
---===============1517286583275407754==
+--===============5032171903773281523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03854667b9fd-df01d1162a83.txt
+Content-Disposition: attachment; filename=revlist-af915c3c13b6-a2152fef2902.txt
 
 5c241ed8d031693dadf33dd98ed2e7cc363e9b66 mm/shmem, swap: improve cached mTHP handling and fix potential hang
 8d58d65621118fdca3ed6a0b3d658ba7e0e5153c mm: shmem: fix the shmem large folio allocation for the i915 driver
@@ -64,37 +64,5 @@ c262ffd72c8539d16ada8641a6348c5a88f0c542 mm/shmem, swap: tidy up THP swapin chec
 de55be42379cc0561aadfd9e1459239dea70be32 mm/shmem, swap: fix major fault counting
 f04fd85f15945f3ff189701050e3ce303c1a4d98 mm: correct type for vmalloc vm_flags fields
 a2152fef29020e740ba0276930f3a24440012505 mm: mempool: fix crash in mempool_free() for zero-minimum pools
-a8612cddea222257a26d535f66c02427c1b10302 kasan/test: fix protection against compiler elision
-c058f74ba23c30c896ce2e0f8698d71c3d1d2a06 mm/memory_hotplug: fix hwpoisoned large folio handling in do_migrate_range
-c2577e3253f32ced300b0075411e5755aad77836 kunit: kasan_test: disable fortify string checker on kasan_strings() test
-64413edd220976b7033bd5220913b17e84d59b4e mm/debug_vm_pgtable: clear page table entries at destroy_args()
-560b7f018eb6f5d9232c1488b37b3560479ffc43 mm/userfaultfd: fix kmap_local LIFO ordering for CONFIG_HIGHPTE
-33ae22556954033ecdf73968de03e96c44c6ec8e mm/kmemleak: avoid deadlock by moving pr_warn() outside kmemleak_lock
-5b2038468f29f41b43f05496c36c9b4f53faed71 MAINTAINERS: add Masami as a reviewer of hung task detector
-dd2006171f40569985ee3b1e1134fb2979044151 mm/kmemleak: avoid soft lockup in __kmemleak_do_cleanup()
-574a903798bc2bb88f5a31bedb6335e8c153acdd foo
-9716837ed5c646cdadb214213284220bf653de57 mm/filemap: align last_index to folio size
-4b0bdf8dccbec443fcc0f397ceaa917f86807a8d mm-filemap-align-last_index-to-folio-size-fix
-4fa007dd12dbdb74941c0f1af41b21193aacece5 kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-04996658aeae3aab9b66a2e6b6be3d245c712655 kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-3d6e7c986637e8455e7fbaa414022c843d8ee157 mm/smaps: fix race between smaps_hugetlb_range and migration
-2aa9ac5da5444887cd209876b8b51d1cf135bc5c fs/proc/task_mmu: hold PTL in pagemap_hugetlb_range and gather_hugetlb_stats
-fb7525f4ecfd2fe0f39e10eb16b3ea0fcfa5ff32 mm/mglru: update MG-LRU proactive reclaim statistics only to memcg
-b98cec07ceedca2dc130ee5450afb31832a9feed maple_tree: use kfree_rcu in ma_free_rcu
-2aa355699ac7b1ba63298de966eb084fa7d2f734 testing/radix-tree/maple: hack around kfree_rcu not existing
-1352020b887f55d820cd04bd621ab9bc3a58bd8d drivers/base/memory: add node id parameter to add_memory_block()
-35147b2081e88959d1e0c1859d9f926480f6d194 mm/memory_hotplug: activate node before adding new memory blocks
-17eafa4f03faa852fb2f430d0c440c251e0829f6 drivers/base: move memory_block_add_nid() into the caller
-08bb470e698d1bd04d6bb747349659483c31d4ef mm/selftests: fix incorrect pointer being passed to mark_range()
-4a5ca48ac3bccb0a7d456458799f3ded337934dc selftests/mm: add support to test 4PB VA on PPC64
-72a2b52c7aee94b4678413339faccf8b17d0f649 selftest/mm: fix ksm_funtional_test failures
-7b50748d053a4510ba5bda2e205ecdb4380999fc mm/selftests: fix split_huge_page_test failure on systems with 64KB page size
-edccaa87cec65c3d4c4a5b5e41c108f08375c3c5 selftests/mm: fix child process exit codes in ksm_functional_tests
-85d54f18d16045527dc3b5668ccecd279bb29f05 selftests/mm: skip thuge-gen test if system is not setup properly
-ee58b5b8de9653d098a71862ad228f2a70397713 selftests/mm: skip hugepage-mremap test if userfaultfd unavailable
-edeea895d1d1f391bd0058f2b07fb51cfef87978 mm: memory-tiering: fix PGPROMOTE_CANDIDATE counting
-f11075e1a263f7bad90d1b2835ed8a6f5ca18ee2 /dev/zero: try to align PMD_SIZE for private mapping
-915b8c877c9ed04d851a94ac27c3d79dd359982e selftests/mm: pass filename as input param to VM_PFNMAP tests
-df01d1162a83194a036f0d648ae41e6ad8adbe1a mm: replace (20 - PAGE_SHIFT) with common macros for pages<->MB conversion
 
---===============1517286583275407754==--
+--===============5032171903773281523==--
