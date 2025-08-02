@@ -1,20 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 02 Aug 2025 00:28:41 -0000
-Message-Id: <175409452195.3760845.1772718500028146615@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3649862739932739446=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 02 Aug 2025 00:29:21 -0000
+Message-Id: <175409456162.3761959.10282742040778619748@gitolite.kernel.org>
+
+--===============3649862739932739446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 66ae3923b666307c54a5723b2e1a3d218b09a939
-    new: 9e5bd05d76c753b3596a9a2e072f7a049dbb0ce9
-    log: |
-         14959e64f5c8dde4f67346d3def38ceb0c56359c scripts/push_branches: do not fetch akpm tree
-         9e5bd05d76c753b3596a9a2e072f7a049dbb0ce9 scripts/push_branches: add refs/heads/
-         
+  - ref: refs/heads/dev/next-20250730/ffs-const
+    old: cf44933c28c7a6a8f4cdec2fe07133b4ae0b1279
+    new: 0000000000000000000000000000000000000000
+
+--===============3649862739932739446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1754094605 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1754094538-59e6d4fff3d5b6312d7d432fbbe7ac334f8c6a42
+
+cf44933c28c7a6a8f4cdec2fe07133b4ae0b1279 0000000000000000000000000000000000000000 refs/heads/dev/next-20250730/ffs-const
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaI1cDQAKCRA2KwveOeQk
+u6WFAQDEe/JRT9qgvCdMp/a0+/DDgbDoAmHd7U0A9fJct1YpOgD+OuX0UO6OYQB3
+SjEwF2grWZqNlmbhLNmbW0yIGZs50QQ=
+=cyNR
+-----END PGP SIGNATURE-----
+
+--===============3649862739932739446==--
