@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6154921816348216723=="
+Content-Type: multipart/mixed; boundary="===============6202362742713904936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 02 Aug 2025 00:33:57 -0000
-Message-Id: <175409483795.3766800.8057070886966865548@gitolite.kernel.org>
+Date: Sat, 02 Aug 2025 00:34:32 -0000
+Message-Id: <175409487264.3767826.5013190301064491208@gitolite.kernel.org>
 
---===============6154921816348216723==
+--===============6202362742713904936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev/v6.9-rc2/static-pie-alignment
-    old: 51e42a3f7c43cc086e8f195aad4a5b4e339ca931
+  - ref: refs/heads/kspp/o_exec/v1
+    old: 1335373d8e64329ca8131d2932406168d60115b4
     new: 0000000000000000000000000000000000000000
 
---===============6154921816348216723==
+--===============6202362742713904936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1754094881 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1754094916 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1754094837-560edaef73c22e4ae4c6de8db9dfcfcca62e7a17
+nonce 1754094871-0a130bcf6676ae57ddbb9914e95a3eb7fe8a0894
 
-51e42a3f7c43cc086e8f195aad4a5b4e339ca931 0000000000000000000000000000000000000000 refs/heads/dev/v6.9-rc2/static-pie-alignment
+1335373d8e64329ca8131d2932406168d60115b4 0000000000000000000000000000000000000000 refs/heads/kspp/o_exec/v1
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaI1dIQAKCRA2KwveOeQk
-u9kPAQD/mXzNurNFO9SsWK136nPBWFdiO6d6mp92EiKjADaJVgD/VwQLiDmD89q1
-eHl1lSnqOg5wFQsowXMV4+k99Az7EA0=
-=sEw3
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaI1dRAAKCRA2KwveOeQk
+u6lzAP4i6t7GeFscWqlx/lOsOpUON7AkGODD9Wvv4kEtyx5zsQEAuxFfXz68l9MP
+0gLCsuQQFVHBNqC6xlhF+pjl6t7RMAw=
+=Wtmm
 -----END PGP SIGNATURE-----
 
---===============6154921816348216723==--
+--===============6202362742713904936==--
