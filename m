@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sat, 02 Aug 2025 18:29:32 -0000
-Message-Id: <175415937225.458764.5968904080595233594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Sat, 02 Aug 2025 18:46:54 -0000
+Message-Id: <175416041417.473467.9844705842725900588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/tags/rust-6.17
+  - ref: refs/tags/pinctrl-v6.17-1
     old: 0000000000000000000000000000000000000000
-    new: eba26c3d299885c3f62721062612e73d27a07195
+    new: f19b07db9f9658b21e8eb4e6269ca32c7ca18662
