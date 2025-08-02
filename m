@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8087054740664315079=="
+Content-Type: multipart/mixed; boundary="===============5949805525647201052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 02 Aug 2025 11:47:43 -0000
-Message-Id: <175413526355.127994.9801399262911811015@gitolite.kernel.org>
+Date: Sat, 02 Aug 2025 12:01:26 -0000
+Message-Id: <175413608685.140058.4630033004919158555@gitolite.kernel.org>
 
---===============8087054740664315079==
+--===============5949805525647201052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,41 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 93ef68672bb353838cdf8314be8765c05768916b
-    new: 6408dba154079656d069a6a25fb3a8954959474c
-    log: revlist-93ef68672bb3-6408dba15407.txt
+  - ref: refs/heads/fixes-togreg
+    old: ae68ad3d7a93ea1eedbce8e5813273163b971b36
+    new: 187d5553e33ea656c2a93d3e98309dfc166a0de5
+    log: revlist-ae68ad3d7a93-187d5553e33e.txt
 
---===============8087054740664315079==
+--===============5949805525647201052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93ef68672bb3-6408dba15407.txt
+Content-Disposition: attachment; filename=revlist-ae68ad3d7a93-187d5553e33e.txt
 
+30a7806adab5f6b971cf07439ed6a3fac3fd80cf rcu: Document GP init vs hotplug-scan ordering requirements
+186779c036468038b0d077ec5333a51512f867e5 rcu: Document separation of rcu_state and rnp's gp_seq
+5d71c2b53f1790c2ca09d03848839c610653d278 rcu: Document concurrent quiescent state reporting for offline CPUs
+ca652cf0c2612add5d3c9283bbc742dabc704a77 Merge branch 'icc-milos' into icc-next
+270b329f7ec4e4e8dca6735bd1fe286a8e39b82d Revert "drm/nouveau: check ioctl command codes better"
+708243c62efde8241e2c66e9c3f377658855149d wifi: mac80211: fix unassigned variable access
+67c632b4a7fbd6b76a08b86f4950f0f84de93439 timekeeping: Zero initialize system_counterval when querying time from phc drivers
+46958a7bac2d32fda43fd7cd1858aa414640fbd1 genirq: Remove pointless local variable
+4e879dedd571128ed5aa4d5989ec0a1938804d20 genirq: Move irq_wait_for_poll() to call site
+c609045abc778689ce42e8f5827a84179ace52c5 genirq: Split up irq_pm_check_wakeup()
+8d39d6ec4db5da9899993092227584a97c203fd3 genirq: Prevent migration live lock in handle_edge_irq()
+9bf3eb1a9eb56fc3466d3a442aed365e88e1dd21 Merge tag 'thermal-v6.17-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux
+1e94cb6c2ae1c2660ed406669f12b90c7052d2b9 Merge back earlier thermal control updates for 6.17
+cf685b3826e62a5e8bdc61135c0a60d128673e1b platform/x86: dell-uart-backlight: Use blacklight power constant
+4ff3aeb664f7dfe824ba91ffb0b203397a8d431e platform/x86/amd: pmc: Add Lenovo Yoga 6 13ALC6 to pmc quirk list
+2094200b5f77e6710f9594571889f64f31966de1 ibmveth: Add multi buffers rx replenishment hcall support
+dd47fc6769340536d0d451bfe0793440f630a73f Octeontx2-af: Add programmed macaddr to RVU pfvf
+83d17aba92ca11bfb745e4f068debc955d02d229 Octeontx2-af: Disable stale DMAC filters
+f5295b5a58492f94833bc0ed0a157c32ec973c8c Octeontx2-af: RPM: Update DMA mask
+49f02e6877d1bec848048dc6366859c30bbc0a04 Octeontx2-af: Debugfs support for firmware data
+391daec35b937a78c2628d08ddb0b7fb7419e950 Merge branch 'octeontx2-af-rpm-misc-feaures'
+114048179f24fd4eccd23d187eb6ae4b1732787b Merge branches 'acpica', 'acpi-proc', 'acpi-processor' and 'acpi-pm'
+6984f941f49b7de132004a88a21b2f629f0a7516 Merge branch 'acpi-apei'
+c58364ac072585abfa2a42d71bd00dd5eda1e01d Merge branches 'acpi-soc', 'acpi-fan', 'acpi-dptf', 'acpi-pfrut', 'acpi-prm' and 'acpi-tad'
 a78dfdb6e81efbe3ff92016f165abe7d5aa8d58f Merge branches 'acpi-debug' and 'acpi-docs'
 246570cd351299959822ac21e75e2975f80ce4b7 ASoC: SDCA: Fix implicit cast from le16
 de2884c6cdd3d133704ce37393590dd1c761500c platform/x86: samsung-laptop: Expose charge_types
@@ -1021,34 +1045,10 @@ d50b07d05ca53fdb6c6d1581b9084c09d4e98f54 Merge tag 'trace-ringbuffer-v6.17' of g
 7d767a9528f6d203bca5e83faf1b8f2f6af3fc07 Merge tag 'for-linus-6.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 63eb28bb1402891b1ad2be02a530f29a9dd7f1cd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 260f6f4fda93c8485c8037865c941b42b9cba5d2 Merge tag 'drm-next-2025-07-30' of https://gitlab.freedesktop.org/drm/kernel
-2613dcb7dcac642aa82a185cf0a0acc31ca84c58 iio: adc: spear_adc: mask SPEAR_ADC_STATUS channel and avg sample before setting register
-c0fb61134825ebd5a8908f700796c026e59744e0 dt-bindings: iio: adc: rockchip-saradc: Allow use of a power-domain
-f863a6dbc23f7b6cda9c1db8b5c58795c59a97ea iio: proximity: mb1232: use stack allocated scan struct
-bfd75c6879dbcff69dd75abce77a054c39c6dbcc iio: proximity: pulsedlight-lidar-lite-v2: use stack allocated scan struct
-685b20d702628e7d57e199455784b7f7fc23257b iio: proximity: vl53l0x-i2c: use stack allocated scan struct
-8d395e70cb18a0dad4f4e8ee9fe489fcd2e54021 iio: fix iio_push_to_buffers_with_ts() typo
-bbae69af9390c00e2e0411e6607668ef478ef2a9 iio: proximity: sx9500: use stack allocated struct for scan data
-b6964db6ba74794ffb0f8bbd81781412c452f88b iio: proximity: srf08: use stack allocated scan buffer
-03470b9d4e4b3dfdd20ed6df9ca9a29d88899505 iio: accel: bma180: use stack allocated buffer for scan
-75b2b6f0bc48385ee16551d7bbc1cb59e90650ed iio: adc: ti-adc081c: use individual model structures instead of array
-45d312c42ded997c83a6f73d60eed18b3b69c387 iio: magnetometer: Fix spelling mistake "Magenetometer" -> "Magnetometer"
-91dcf676e9b425e4c50dc4d8acb4574fb98c33c8 dt-bindings: iio: Drop unused header includes in examples
-11173ee38cc59cbf930d38c61f65b8bcc20253fe dt-bindings: iio: adc: Replace hard-coded GPIO/IRQ flag with a define
-2cb8e64aa57bd2ef338fd2e3a8dcf542e10d3f4c dt-bindings: iio: adc: samsung,exynos-adc: Use correct IRQ level in example
-a27dffa97762f0b10468d59e3a34d21d33928979 dt-bindings: iio: light: Simplify interrupts property in the example
-9fd76e70487065a14b471a847348ed738a5417d0 iio: light: vl6180: remove space before \n newline
-4f9e8977a80d1319bb5e1e9edff521eef4fabd8c iio: adc: ti-adc12138: Simplify with devm_clk_get_enabled()
-3104eaafa38efa8879b515390bc5c3af1a97416f iio: adc: ad7173: add SPI offload support
-c4cdd192e6d51a0984378e96438469764683f5d6 iio: buffer: buffer-cb: drop double initialization of demux list
-b801f977e430f078c60c53205125fb2ccec3a257 iio: ABI: alphabetize filter types
-7351bc74fed429daf269b3e7ca0ed50e795e9a3a iio: light: ltr390: Add debugfs register access support
-2042c827e39f176dd1c08089e909f384d1aba9d5 dt-bindings: iio: pressure: add invensense,icp10100
-1029f92256365323e7ddeb9db4eea9cd40e0afd4 iio: accel: adxl345: simplify tap suppress bit
-7319e751ade25491f04dcecb44614b66b10bfec8 iio: accel: adxl345: add activity event feature
-32303b4ced843236a8549161c41d0798a5d2bb00 iio: accel: adxl345: add inactivity feature
-1053115d87ffe1c7ed0ec600ca282d1ec467b502 iio: accel: adxl345: add coupling detection for activity/inactivity
-1c0c11f5fc13e297c6d5a3f425a0afbc3183b322 iio: accel: adxl345: extend inactivity time for less than 1s
-8019f0ae3974febb41de3e4fc3f7c26f89c97c17 docs: iio: add documentation for adxl345 driver
-6408dba154079656d069a6a25fb3a8954959474c docs: iio: describe inactivity and free-fall detection on the ADXL345
+32422b6e10363ed2f68bc661e12a7feffbe239d7 iio: accel: sca3300: fix uninitialized iio scan data
+88e13f52eda6fdb4c80c8a28ec4e3fd7b7a863cd iio: proximity: isl29501: fix buffered read on big-endian systems
+8d6da6906104db869d37b5356ee06015c57cf45c iio: adc: ad7173: prevent scan if too many setups requested
+10cc3a1911d187564863b7cd5a18ad4ba1ccc819 iio: temperature: maxim_thermocouple: use DMA-safe buffer for spi_read()
+187d5553e33ea656c2a93d3e98309dfc166a0de5 iio: adc: ad7124: fix channel lookup in syscalib functions
 
---===============8087054740664315079==--
+--===============5949805525647201052==--
