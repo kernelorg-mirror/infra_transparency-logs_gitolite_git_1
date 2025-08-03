@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 03 Aug 2025 06:28:50 -0000
-Message-Id: <175420253075.1045635.1105139184467146946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 03 Aug 2025 10:11:45 -0000
+Message-Id: <175421590594.1224224.15180644405684362786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/wip-libcrypto
-    old: d6f794c8d6572f1edcd1965c128b8e9ed34b306f
-    new: 7fbf88966943cc7f22f9dade58354f59b70be55d
+  - ref: refs/heads/irq/urgent
+    old: 6a6bc9b279e666a825ae2d1f60b545186d10be52
+    new: 8d260bf78488bd576e619fb53806290c2a195cba
     log: |
-         7fbf88966943cc7f22f9dade58354f59b70be55d sctp: Use HMAC-MD5 and HMAC-SHA1 library for cookie generation
+         8d260bf78488bd576e619fb53806290c2a195cba irqchip/riscv-imsic: Don't dereference before NULL pointer check
          
