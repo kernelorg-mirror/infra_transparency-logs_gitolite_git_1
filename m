@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 03 Aug 2025 01:28:16 -0000
-Message-Id: <175418449601.804051.7442592331160408336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Sun, 03 Aug 2025 01:37:40 -0000
+Message-Id: <175418506027.812245.14433050878554064815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/rtc-next
-    old: 35d6aae85b3653630b43913aee15d8b35b7190c6
-    new: bb5b0b4317c9516bdc5e9a4235e3b5f1a73b7e48
+  - ref: refs/heads/bugfix/common
+    old: e6abd370526ec70d6b3923e4764f552111ab74f3
+    new: aba695091cf34cd8bb00b4db64e9be1534868598
     log: |
-         bb5b0b4317c9516bdc5e9a4235e3b5f1a73b7e48 rtc: ds1685: Update Joshua Kinard's email address.
+         62f294c1e53a1d5687386460766fe7488e9281ca f2fs: fix to zero data after EOF for compressed file correctly
+         d4c9c30ccd3476b20e1006a57892c239d1c40f51 f2fs: fix to return -EOPNOTSUPP for uncached write
+         c5fa568548c3954bf5573190f57e048fc499e937 f2fs: fix to do sanity check on node footer in read_end_io
+         aba695091cf34cd8bb00b4db64e9be1534868598 f2fs: cover f2fs_update_inode_page() w/ node_change lock
          
