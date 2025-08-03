@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Sat, 02 Aug 2025 23:20:20 -0000
-Message-Id: <175417682039.701598.12235954989960257845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Sun, 03 Aug 2025 00:32:35 -0000
+Message-Id: <175418115522.758005.6915208798718987525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/tags/i3c/for-6.17
-    old: 0000000000000000000000000000000000000000
-    new: db857bef5108e46f346be9f22d8be560c40b68d9
+  - ref: refs/heads/bugfix/common
+    old: 0baf1568588c3b7774b87e666539baf8fd2b2965
+    new: e6abd370526ec70d6b3923e4764f552111ab74f3
+    log: |
+         6571c13be98e4ae2b20d470d13a447004bcc14dc f2fs: fix to zero data after EOF for compressed file correctly
+         ad6c893a4e5d79073a26ba452aca14ad8d3382d6 f2fs: fix to return -EOPNOTSUPP for uncached write
+         7e40ecd90d29363319b7b674617ed5205b8be450 f2fs: fix to do sanity check on node footer in read_end_io
+         e6abd370526ec70d6b3923e4764f552111ab74f3 f2fs: cover f2fs_update_inode_page() w/ node_change lock
+         
