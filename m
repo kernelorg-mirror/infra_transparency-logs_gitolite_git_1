@@ -1,62 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2371015939285462386=="
+Content-Type: multipart/mixed; boundary="===============6200200743930197816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 03 Aug 2025 14:01:09 -0000
-Message-Id: <175422966962.1410443.11099292780375492540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Sun, 03 Aug 2025 14:44:10 -0000
+Message-Id: <175423225002.1443500.11578596925234623469@gitolite.kernel.org>
 
---===============2371015939285462386==
+--===============6200200743930197816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dmabuf-vfio
-    old: a8e06634a7c8b746e03a02ef7368fa10ec3e37e0
-    new: f4212771ee1cf899f5ac8c9b6acd3bb7f49691fc
-    log: revlist-a8e06634a7c8-f4212771ee1c.txt
+  - ref: refs/heads/dir-deleg
+    old: d348896749c5f577a04db4023b2a9938c8c5755f
+    new: 2f82eb2efda91bd165a7ecd28e694b2847c4a1fe
+    log: revlist-d348896749c5-2f82eb2efda9.txt
 
---===============2371015939285462386==
+--===============6200200743930197816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8e06634a7c8-f4212771ee1c.txt
+Content-Disposition: attachment; filename=revlist-d348896749c5-2f82eb2efda9.txt
 
-0eb61b3569229c31b06c58fd3bb58a79721ba91a iavf: use libie adminq descriptors
-5feaa7a07b85ebbef418ba4b80e4e0d23dc379f5 libie: add adminq helper for converting err to str
-e99c1618f9dfc0ec87660f8df1dc83693f2724ff ice: use libie_aq_str
-43a11306323402757101a3e97d7a5cc77352505c iavf: use libie_aq_str
-026cea3c61c2d42f47665bf8b1e2357f4bfb812d i40e: use libie_aq_str
-d31eb217425591e100b475fad6360cd3da2073c6 PCI: imx6: Remove apps_reset toggling from imx_pcie_{assert/deassert}_core_reset
-0bd042ae771d61ef7ccd5882f7aeca59a25f71d9 regulator: mt6370: Fix spelling mistake in mt6370_regualtor_register
-2e6ea70690ddd1ffa422423fd0d4523e4dfe4b62 PCI: imx6: Delay link start until configfs 'start' written
-8b5a19b4ff6a2096225d88cf24cfeef03edc1bed Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f46c06a302603dcec488a6d07fec92c262edd861 Merge tag 'clk-imx-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/abelvesa/linux into clk-imx
-99e91521cef80d74e4fefed16a156848052b13df drm/xe: Fix build without debugfs
-e51c16f9ee90eb08b896bb1b86f117b1e4901ba9 dt-bindings: clock: qcom: Remove double colon from description
-1eef76f463042890fbcb8bac77baa32fa4f31d86 dt-bindings: clock: Convert qcom,krait-cc to DT schema
-ca7be9c0a148cbfe38df95a0285339c532ca6e17 mtd: ubi: Remove unused ubi_flush
-99dbb2a1bd661418be33b1ff1462c09b7d2221cf ubifs: stop using write_cache_pages
-317fb4c3871b27454f04d67bfd0f388fcc5783e7 support for amlogic the new SPI IP
-12d30725bf997ffd5baa849d4b20be86105fc070 perf pfm: Don't force loading of all PMUs
-62f4512238f5541d864a783cbcd8d95d067a17b3 perf parse-events: Warn if a cpu term is unsupported by a CPU
-848e7a06fea9be249c5b788b3f498196925e4d7e perf stat: Avoid buffer overflow to the aggregation map
-ced4c249569ab25c32b0d36e2ebdb19c74394bdf perf stat: Don't size aggregation ids from user_requested_cpus
-bd741d80dc65922c7d6e5fd855a934f5d2cf2309 perf parse-events: Allow the cpu term to be a PMU or CPU range
-175c852325a1f566426e2470e5d5d67efc7621dd perf tool_pmu: Allow num_cpus(_online) to be specific to a cpumask
-6d765f5f7ec669f2a16b44afd23cd877efa640de libperf evsel: Rename own_cpus to pmu_cpus
-9a711ef3bd57c124cb7255a4bb8a5166c6b0cef0 libperf evsel: Factor perf_evsel__exit out of perf_evsel__delete
-f958537f185216b2be028ed793508248503bef83 perf evsel: Use libperf perf_evsel__exit
-3cb614a261e43a82acfef437c3242820c1444e2d perf pmus: Factor perf_pmus__find_by_attr out of evsel__find_pmu
-cd63c22168257a0b0b59245394915e2488065f7d perf parse-events: Minor __add_event refactoring
-e9387ba56918eb3c16aab3e6f0155a7251e339ec perf evsel: Add evsel__open_per_cpu_and_thread
-811082e4b668db9689f8ce927a106036b4ed4e96 perf parse-events: Support user CPUs mixed with threads/processes
-5b546de9cc177936a3ed07d7d46ef072db4fdbab perf topdown: Use attribute to see an event is a topdown metic or slots
-8dcd27b1b8661f64e220bc26a499865261d5d0f1 perf parse-events: Fix missing slots for Intel topdown metric events
 fcc7cc31239d0fbf0ebf25e65f7f572caed40206 perf metricgroups: Add NO_THRESHOLD_AND_NMI constraint
 f3982385bc507991f1ed732c3c7907bff703f4d4 perf build-id: Reduce size of "size" variable
 5a2ceebd8175874ae0e91a304ad6600d82806973 perf build-id: Truncate to avoid overflowing the build_id data
@@ -834,6 +803,33 @@ fb2fae70e7e985c4acb1ad96110d8b98bb64a87c mtd: spinand: winbond: Add comment abou
 1d8dd982c409d89b4ffabdbe10b569b3deb80a64 ALSA: hda/realtek: Enable drivers as default
 fc2792a4000e9587080fa7f5b8a868cf393aa62e ALSA: hda/cirrus: Enable drivers as default
 81231ad173d840693f8d5f34ad9ada75aa8ad79f ALSA: hda/hdmi: Enable drivers as default
+3b6ee662d19cdf9f4efad20bb4aa79a1b503b680 sunrpc: fix handling of server side tls alerts
+e95a6e947a1c45db61b56df6624ec088de5a83bf NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+67d6740a7c57afedae2527337537d84d2bb9dffa NFSD: Move the fh_getattr() helper
+38ed2d0399c5f7d61cacae98e18cdeabdfaf2ce3 sunrpc: delay pc_release callback until after the reply is sent
+509a8dbfdb9116011c35d83ab79281b7e29c29fc nfsd: discard nfsd_file_get_local()
+8fbadb8f503c64e37990462e28807032e6ad3d0d sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+14372c94e43b5f2a69c6f4d155984ae2899ff5d4 NFSD: Rework encoding and decoding of nfsd4_deviceid
+719dcdb70238cd3a57f62e40b6e7745f8a38d50f NFSD: Minor cleanup in layoutcommit processing
+1bbc644a69c05f4f89dc33b8bd3e7fd1a8a3bb5c NFSD: Minor cleanup in layoutcommit decoding
+78d82321b839f3e220d21a47377d2404d60eeb5e NFSD: Implement large extent array support in pNFS
+ae83299cc048e74e135fe553e69ffc29b9f32666 NFSD: Fix last write offset handling in layoutcommit
+d71437be03cdea7c7e4cf9663031be75088d56e4 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+2282883e3554e8e6875881d4ee588190f9c52c8e NFSD: pass nfsd_file to nfsd_iter_read()
+829fea6230f7d6baaac55f1915238f1216ddf77d NFSD: add io_cache_read controls to debugfs interface
+f57e23789f1b300c79392067777b30d5ad2e01a5 NFSD: add io_cache_write controls to debugfs interface
+7b98079ef34ad6d65c16585338df77b8db52140b NFSD: filecache: only get DIO alignment attrs if NFSD_IO_DIRECT enabled
+5d78ac1e674b45f9c9e3769b48efb27c44f4e4d3 NFSD: issue READs using O_DIRECT even if IO is misaligned
+237f236e44701cffc5cd9e302d4fec172a954d2f nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
+30a594d856dc2fc89d3751b5d630cd55fceffd9a nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
+3076cf4693efc8596a1d1eee17a9bc9b5c4b197d vfs: add ATTR_CTIME_SET flag
+12b1b09ddb932c2be8148758ebb5d93265293d18 nfsd: use ATTR_CTIME_SET for delegated ctime updates
+2082ff203cad83a7d50478112b2089743f8fea43 nfsd: track original timestamps in nfs4_delegation
+90a615f4a2836bbaf91ac18c3157944655949368 nfsd: fix SETATTR updates for delegated timestamps
+ba17826b25e921ebca04fc54a59336dad68302ac nfsd: fix timestamp updates in CB_GETATTR
+278138d4f85df580edde73ad4d89b8aae75d0e77 nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
+fbdcd36f30cbf78f39c731a30337251d9f1e91a3 lockd: Remove space before newline
+e6856f6ac9f69df88abb2b12cd14ac1ba08fc7ec siw: Enable try_gso
 0dd1274a053f9ede97e3f3269b5012372567e521 tracing: Have eprobes have their own config option
 623526ba8984cafdffa0eba7ee424f2e40c8a219 Documentation: tracing: Add documentation about eprobes
 8be4d31cb8aaeea27bde4b7ddb26e28a89062ebf Merge tag 'net-next-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
@@ -1024,31 +1020,35 @@ a6923c06a3b2e2c534ae28c53a7531e76cc95cfa Merge tag 'bpf-fixes' of git://git.kern
 7061835997daba9e73c723c85bd70bc4c44aef77 Merge tag 'firewire-updates-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 eacf91b0c78a7113844830ed65ebf543eb9052c5 Merge tag 'fbdev-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 186f3edfdd41f2ae87fc40a9ccba52a3bf930994 Merge tag 'pinctrl-v6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-3d121f7762c0a9ff5900940cae73334fedf754e6 dma-mapping: introduce new DMA attribute to indicate MMIO memory
-0659585d9275f7812e44e326ebb182a9147cbd28 iommu/dma: handle MMIO path in dma_iova_link
-1812fc9326aeaa25d81038a8c26becbc44760128 dma-debug: refactor to use physical addresses for page mapping
-f396eedbd0a64a7561e4292ea4ebefa29d351e71 dma-mapping: rename trace_dma_*map_page to trace_dma_*map_phys
-eb3136f8a02a45b95ff79e49aa599b12599602f2 iommu/dma: rename iommu_dma_*map_page to iommu_dma_*map_phys
-67d35c3c892cc96dd4e72c083d9b08bc0959f6e5 iommu/dma: extend iommu_dma_*map_phys API to handle MMIO memory
-d8bd4b22af542145510abe1bc627378b5056265d dma-mapping: convert dma_direct_*map_page to be phys_addr_t based
-860f94b721982e509cf08504bd7ed4a8fd57dd07 kmsan: convert kmsan_handle_dma to use physical addresses
-813b3f622598fbaf4ebce96c4ba261f050ef7c06 dma-mapping: handle MMIO flow in dma_map|unmap_page
-f5d58ce2d114cc1e9cd1ff8a0e697168625ab468 xen: swiotlb: Open code map_resource callback
-697dfe4f4c1161713707900fbf32dbe1a82bd22f dma-mapping: export new dma_*map_phys() interface
-ff4788e7be334ddb4e73c52082adc83eee6ec76a mm/hmm: migrate to physical address-based DMA mapping API
-42f811f7b80c6b1794c78d133e85e8e868864142 mm/hmm: properly take MMIO path
-6ea180e2097df47833b874899cb2fd0432cd1447 block-dma: migrate to dma_map_phys instead of map_page
-f43dc80ce5d1d35c07fbabce888a76832b2f144b block-dma: properly take MMIO path
-b60b1ee5c25b892b011f91aa6246437ab6bed17a nvme-pci: unmap MMIO pages with appropriate interface
-87b762bb688f1558540b5477b891a1c6ea2c0030 PCI/P2PDMA: Remove redundant bus_offset from map state
-f3c373972cd38eb738dbbf883899c09726ecbcf2 PCI/P2PDMA: Separate the mmap() support from the core logic
-53fb80ae24f21fab8a36a754688dc45383a95398 PCI/P2PDMA: Simplify bus address mapping API
-906b14c15e3d67c3aa9031bc3fee805343fb75c6 PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
-2152a36fd27c4c851b818ca90211471ec41a7085 PCI/P2PDMA: Export pci_p2pdma_map_type() function
-a41e478006b809ae52ee2f08cbac44fdec294176 types: move phys_vec definition to common header
-2cbb6baad34c1b7b62a5af0e2d88a1dee66ddd33 vfio: Export vfio device get and put registration helpers
-a16994481ba246f4717ed026d12beef4775c15f9 vfio/pci: Enable peer-to-peer DMA transactions by default
-046cd968277185de2a666b7baa5534e93fb88f93 vfio/pci: Share the core device pointer while invoking feature functions
-f4212771ee1cf899f5ac8c9b6acd3bb7f49691fc vfio/pci: Add dma-buf export support for MMIO regions
+85cf71cf48a3103ac5f27dc4f1e2da93836804f9 Merge branch 'mrchuck/nfsd-testing'
+0325b0cee14d6f5c8e92286cb21eb8d5b3862db4 vfs, nfsd, nfs: implement directory delegations
+1d2ee671c512521cd01d475c13fc549e6b8282ca filelock: push the S_ISREG check down to ->setlease handlers
+4300b1b6f532d9ad805cb061f6bcaab2a15f605d filelock: add a lm_may_setlease lease_manager callback
+4f6147f4ba7371491f551eaa021e26c4b51089a7 vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
+39ba917489cb6fc53d2e28b53bb0713d320250a1 vfs: allow mkdir to wait for delegation break on parent
+feeb8fb195b09cf13284a31efc8af50d4a87c34b vfs: allow rmdir to wait for delegation break on parent
+7b96177ff132d50f9b8b89b6e2198c1f77c3f154 vfs: break parent dir delegations in open(..., O_CREAT) codepath
+2d12c5f82ad7299bb36a03bac9c5f9dc3c2bf7d6 vfs: make vfs_create break delegations on parent directory
+4ad6389b7ebf21055bac02aa565294282dd8c600 vfs: make vfs_mknod break delegations on parent directory
+160dfcc8f47e8bd2302dba0838f20e3a440c003b filelock: lift the ban on directory leases in generic_setlease
+ce8ebeb7c10afc43963a08aa92550e4a9164ef1e nfsd: allow filecache to hold S_IFDIR files
+d60d217822d533d41a7dcd65f3a59e9be0402774 nfsd: allow DELEGRETURN on directories
+48d206a1e536089b32336fd6f3a6b8ea3af54776 nfsd: check for delegation conflicts vs. the same client
+35966ad758ea81dabdfb8a0b60b68e3f3bb0adf8 nfsd: wire up GET_DIR_DELEGATION handling
+990673fd93c7e2031a06bc33c5415ec6976e7211 filelock: rework the __break_lease API to use flags
+80d65ee07b26599b17963c7ea9e095ef4d22ddda filelock: add struct delegated_inode
+9c146bf6619cd948ecc47212c372194f8e886407 filelock: add support for ignoring deleg breaks for dir change events
+4e9aaca16da7d7de363cb217b90960e815b0b8e0 filelock: add an inode_lease_ignore_mask helper
+64cda587e7d05c7abd458314c8a407de0a0083c2 nfsd: add protocol support for CB_NOTIFY
+a5457003b5caf3a33f74497cb575faf28d8ae977 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+a25692f4babe2f1f39114deadcf3c849252c4ba1 nfsd: add data structures for handling CB_NOTIFY to directory delegation
+e80f60f2d5a92eac90b8cafbbca7d472041e418a vfs: add fsnotify_modify_mark_mask()
+2e5c7e277f6b6b52d0c0142408eb1180240dddd7 nfsd: update the fsnotify mark when setting or removing a dir delegation
+532b4ff20f4cf8e3cc19e90ee5ca0e660312840d nfsd: make nfsd4_callback_ops->prepare operation bool return
+2a1bc3e8159a874a1979137f0685a62d67ddb708 nfsd: add notification handlers for dir events
+54d12d65508593cc88a72d442c004beef1de6692 nfsd: allow nfsd to get a dir lease with an ignore mask
+1989fa3659702ccb076881080ef3ccf595dba920 nfsd: add a tracepoint for nfsd_file_fsnotify_handle_dir_event()
+d70fe8e872e6051bdd04b5be1e9b156567f0cb89 nfsd: add support for NOTIFY4_ADD_ENTRY events
+2f82eb2efda91bd165a7ecd28e694b2847c4a1fe nfsd: add support for NOTIFY4_RENAME_ENTRY events
 
---===============2371015939285462386==--
+--===============6200200743930197816==--
