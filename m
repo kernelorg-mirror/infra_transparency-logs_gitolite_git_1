@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 03 Aug 2025 19:46:14 -0000
-Message-Id: <175425037481.1693165.16106846089232844496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Sun, 03 Aug 2025 19:47:05 -0000
+Message-Id: <175425042563.1693805.12067367678715363421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: 1b84e73899b27610f7f310741bbd52fc664d0f06
-    new: 78a6385d87fb0e59469e1c9004c9764ceb424493
-    log: |
-         78a6385d87fb0e59469e1c9004c9764ceb424493 patches/next: extend fault-based DAMON for per-cpus monitoring
-         
+  - ref: refs/tags/mm-nonmm-stable-2025-08-03-12-47
+    old: 0000000000000000000000000000000000000000
+    new: 79cf5de38a48147a5fbf9d48e24fdcb36b30d709
