@@ -1,20 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 04 Aug 2025 15:54:57 -0000
-Message-Id: <175432289701.2696310.4884440174822565569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Mon, 04 Aug 2025 15:56:23 -0000
+Message-Id: <175432298337.2699913.859382488054304441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/main
-    old: 218b24f7abbd432d57b8e5370870c15d6e50bd05
-    new: 37b63dc35d98e1fc5c2be95ab7468bf470c20dfd
+  - ref: refs/heads/linux-next
+    old: 5c316ca634beaf962797a9e1a0f160680a35ebab
+    new: 06a1fa9a0b79be71b7426ed792cf189b2b0ffac6
     log: |
-         b2acd913eb00e04ac94d14a87d49bdf806413893 qcom: Add QDU100 firmware image files required for booting.
-         37b63dc35d98e1fc5c2be95ab7468bf470c20dfd Merge branch 'qdu100' into 'main'
+         06a1fa9a0b79be71b7426ed792cf189b2b0ffac6 vhost: initialize vq->nheads properly
+         
+  - ref: refs/heads/test
+    old: 5c316ca634beaf962797a9e1a0f160680a35ebab
+    new: 06a1fa9a0b79be71b7426ed792cf189b2b0ffac6
+    log: |
+         06a1fa9a0b79be71b7426ed792cf189b2b0ffac6 vhost: initialize vq->nheads properly
+         
+  - ref: refs/heads/vhost
+    old: 5c316ca634beaf962797a9e1a0f160680a35ebab
+    new: 06a1fa9a0b79be71b7426ed792cf189b2b0ffac6
+    log: |
+         06a1fa9a0b79be71b7426ed792cf189b2b0ffac6 vhost: initialize vq->nheads properly
          
