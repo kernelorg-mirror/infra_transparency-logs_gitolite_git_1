@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7672957572568786358=="
+Content-Type: multipart/mixed; boundary="===============1191446164465951743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 04 Aug 2025 17:17:46 -0000
-Message-Id: <175432786685.2771515.9112752851977172823@gitolite.kernel.org>
+Date: Mon, 04 Aug 2025 17:17:50 -0000
+Message-Id: <175432787065.2771767.3982661798388729193@gitolite.kernel.org>
 
---===============7672957572568786358==
+--===============1191446164465951743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 260f6f4fda93c8485c8037865c941b42b9cba5d2
     new: d632ab86aff2cef21f794e337a8e7f2320ac3973
     log: revlist-260f6f4fda93-d632ab86aff2.txt
 
---===============7672957572568786358==
+--===============1191446164465951743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754327909 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754327913 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1754327865-fec90a45703c1386405a82d98fb463dd2d7d45b3
+nonce 1754327869-7854633dedb9a4a7fd446a6eee822d1ebc0da869
 
-260f6f4fda93c8485c8037865c941b42b9cba5d2 d632ab86aff2cef21f794e337a8e7f2320ac3973 refs/heads/staging-next
+260f6f4fda93c8485c8037865c941b42b9cba5d2 d632ab86aff2cef21f794e337a8e7f2320ac3973 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiQ62UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jw0QAMzhDIS7XZusVMsSNta+
-1/rJ5h0p4R3gZKBs/aZKEWaZuFkYRpPIqQlCqDGw6UaaM5Q96ScpX8V9O3vfgwgJ
-dJmOti3PEHGZGynJTnNJBCR5d7caUQE4chxPPLkIHtkqgfw07ZYVIYm+V/f05XkE
-kYsljhN+x6KR1aHnuDMweiCZ4Td5SwgWXeBSPCvM33Zd5Aw09DL6v6jRe63NctMW
-7L6tciN1JgsVJ7vHugbTIjJ3sHLZvu0dPSbNDxOsPRHkNUjfUhM9kEjK1AWjz3H1
-czn5CHTaokNNF5K55+zjd94a30lmHGzd7BnYFR18nM1oUtXGlYmKaKmwHKRxCw9y
-MdRvGl39PiOISDZrJe8dYwaSayP07aJoDQdbc27SLPwlKksAlP1mc4RYdi6qT50E
-c0X/Pbi2LzzCerSshY+IbYjldi9aUxBoafiWnP0dLXoK1gg6qvnjj29nrVcqnk3p
-edG3k7PrJMdiNdkbBUBAUrcfziloS5ep+LgimDiR6Iq0TmA/y80KVXm7VM6OxVFH
-Qx5TnxNemFMDgdWLxk0IVVDXX3AHDDiscDgF/7e9XtVzqDFBDz9DxvlnSD4di7AK
-iTcPGCOGJTzdpsjNWaiu69hGmIxoLTi08IzyJKfjEtkQ/G8fncJ/QoP23sB+jn2a
-hBG3xKEVgxqUi8agSHZWaWb6
-=Yq5r
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiQ62kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T8oQAJ9etxrHeiEzDxOK49mJ
+g9dBlSzv09YruqiLmWiLlp/B9XgwRhjYJFKRTgCRxIYuzlHY4iCWgMZKMDxuNyMx
+JmSqmK3DzWfiQJusCbjtKb7LJHym8ztsDaYlsZRlXOo4EPlrIOLtGts3s2fVTOdS
+JraAKXfswSN54s8bi8HzyYWVOUAFW/ASM78H6uR526EiqRH21Gf0WF1STj3phqS5
+xnNZvxPRL5fg7sL7PAPpPy/QZ/qtXsnbQEZFCJdhLY86Isbv33pwgNs9UfnU+vfG
+UMBgr56kxe7FN/wLiBo8hO7XaUb3UV3lbmlothhOZUM2UP5WDBcAeUwgENHFrZx/
+LyCLBIDbIJ2wkSBRPEjc2a0ZdFcC9IvnigSceQm4133qabLpioQrG2gsmDkSJasQ
+KQA49Bl+bXS/epuklmglcZUEwWuNjSV2kpozcRAxvhA4XyNE5DNt0UJRs2Q9qFkg
+CPjp81LCnTnSl1Bte7/W0kCtRuzCzZNH8/o6zK7rDSO2gm6s5bt1YQ1agFVrgX56
+bFMy2OVxBG76DUm0XcJGnB0BtOMDa4dx+o9ArnZJi+3WE47FNxMa/CUOyw8E76cE
+Pl66ZWsIzl93rCscXRICgM0rzI4wpdKOXYKgDOXdCM0LLHyaYIfPzHvxdMiaHxNf
+ZLzAhnph1RI5Y3sq1ve3m41k
+=sLQ7
 -----END PGP SIGNATURE-----
 
---===============7672957572568786358==
+--===============1191446164465951743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d2eedaa3909be9102d648a4a0a50ccf64f96c54f Merge tag 'rtc-6.17' of git://git.kerne
 69917dbfb67e5e7869b67425e2c799aea4d00874 Merge tag 'for-linus' of https://github.com/openrisc/linux
 d632ab86aff2cef21f794e337a8e7f2320ac3973 Merge tag 'for-6.17/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============7672957572568786358==--
+--===============1191446164465951743==--
