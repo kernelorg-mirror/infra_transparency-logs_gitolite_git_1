@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Mon, 04 Aug 2025 15:00:15 -0000
-Message-Id: <175431961553.2651145.11495679934985822374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 04 Aug 2025 15:11:08 -0000
+Message-Id: <175432026864.2659749.10504635732442068487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: denkenz
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: e410e40bc61e5573c2a592bfaebc0fb283ec0fab
-    new: 01c10f2ce9603d5b12db7d17c3d1431991e52500
+    old: 2c0c323d08357a4ff3065fcd49fee0c83b5835cd
+    new: af816afa7ed1f70377f02545ae2b297586194adb
     log: |
-         01c10f2ce9603d5b12db7d17c3d1431991e52500 agent: Cancel agent request on NoReply D-Bus error
+         af816afa7ed1f70377f02545ae2b297586194adb shared/asha: Do not start ASHA in case of CoC connection failure
          
