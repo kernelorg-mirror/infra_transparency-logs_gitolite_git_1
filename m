@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1920459741258808115=="
+Content-Type: multipart/mixed; boundary="===============1432847314421460020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 05 Aug 2025 15:58:05 -0000
-Message-Id: <175440948588.3944791.7687911616103279196@gitolite.kernel.org>
+Date: Tue, 05 Aug 2025 15:58:08 -0000
+Message-Id: <175440948807.3944897.7106820626835720800@gitolite.kernel.org>
 
---===============1920459741258808115==
+--===============1432847314421460020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 01051012887329ea78eaca19b1d2eac4c9f601b5
     new: 4eabe4cc0958e28ceaf592bbb62c234339642e41
     log: revlist-010510128873-4eabe4cc0958.txt
 
---===============1920459741258808115==
+--===============1432847314421460020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ fa516c0d8bf90da9d5b168757162205aafe5d0e1 net: devmem: fix DMA direction on unmap
 ffd2dc4c6c49ff4f1e5d34e454a6a55608104c17 net/sched: mqprio: fix stack out-of-bounds write in tc entry parsing
 4eabe4cc0958e28ceaf592bbb62c234339642e41 dpll: zl3073x: ZL3073X_I2C and ZL3073X_SPI should depend on NET
 
---===============1920459741258808115==--
+--===============1432847314421460020==--
