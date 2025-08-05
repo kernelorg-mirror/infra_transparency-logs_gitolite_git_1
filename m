@@ -1,25 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 05 Aug 2025 21:59:19 -0000
-Message-Id: <175443115965.52443.13100825828275498130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 05 Aug 2025 22:18:24 -0000
+Message-Id: <175443230403.68057.11917150039461755990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: ef740f7cbe47d5552677fb018b15b4ab1f1de4f4
-    new: b1b07c8dfbb562a949afd127d693e9c0cb009827
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: 6bf27395d83396ca3cdb2f59944485fd11980c85
+    new: 2f082827853bab3984c8ee9dc0facb8048ed9a81
     log: |
-         05fd3c4f7c40bf5bc2a566fa3bf8c2914c8ed185 verify: make numberio uint64_t
-         a9ba7cef70a7fc99d406addbdc6479f633d01ec7 verify: rework write tracking for use with verify_save_state()
-         935297d18d58023aabcfcd298b84e34a9197c9ad verify: plumb inflight write information through verify state
-         aa10c20e9881f0d25a870e9f8475f3ecb701134f verify: clear inflight log in between loops
-         e1a250c286d9b8ba3b8a966308c044d2a24f3805 verify: add versioning to verify_header
-         ab8b1413b0c40c6b9aa74cae17264cbd8331a3a1 Merge branch 'verify_inflight' of https://github.com/noclip-code/fio
-         b1b07c8dfbb562a949afd127d693e9c0cb009827 ioengines: bump version number
+         fd1a83fd55b5cd36b966af331117eac6155cf749 NFSD: avoid using iov_iter_is_aligned() in nfsd_iter_read()
+         63463c7e371bddb96442eee4f4726395cab8aceb block: check for valid bio while splitting
+         b8f42b48af01574cb8c685c8d20b1bc0be91a51f block: align the bio after building it
+         50178f8cfc2207942cd782c43892a1cc772468e7 block: simplify direct io validity check
+         18cee25c0d7b4d60c4774dc9d4abc9fea1efd339 iomap: simplify direct io validity check
+         8a3d19524d4628bf260d0dce66c094f165a1f91f block: remove bdev_iter_is_aligned
+         78aa7bb0e1d4a1077140b7ee26199ef00bdf48bb blk-integrity: use simpler alignment check
+         03db465cc0ca739a01d4822b8468c7499581073d iov_iter: remove iov_iter_is_aligned
+         8fc2a084ac1e6578fed745ad9ee219ae718f82f1 NFSD: refactor nfsd_read_vector_dio to EVENT_CLASS useful for READ and WRITE
+         927901813b9f4d8871404e362362b45b950902f8 NFSD: prepare nfsd_vfs_write() to use O_DIRECT on misaligned WRITEs
+         2f082827853bab3984c8ee9dc0facb8048ed9a81 NFSD: issue WRITEs using O_DIRECT even if IO is misaligned
          
