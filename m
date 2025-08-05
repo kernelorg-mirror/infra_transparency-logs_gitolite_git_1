@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2770602650162015555=="
+Content-Type: multipart/mixed; boundary="===============4123048620537035610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 05 Aug 2025 22:55:18 -0000
-Message-Id: <175443451838.101194.9428671592555217172@gitolite.kernel.org>
+Date: Tue, 05 Aug 2025 22:56:08 -0000
+Message-Id: <175443456859.101877.7388348589697582228@gitolite.kernel.org>
 
---===============2770602650162015555==
+--===============4123048620537035610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/wip-libcrypto-conversions
-    old: e34392e8cebe5f0e190ff1425650c593cd77b930
-    new: e6388b2f71e3585875add4dff5466469b1a933b1
-    log: revlist-e34392e8cebe-e6388b2f71e3.txt
+  - ref: refs/heads/nfs-pending
+    old: 53ee8fb3a588f302767cbc19436f267e6015a06a
+    new: 991dfe69a5f82a80a623276bb269cde15d7a12de
+    log: revlist-53ee8fb3a588-991dfe69a5f8.txt
 
---===============2770602650162015555==
+--===============4123048620537035610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e34392e8cebe-e6388b2f71e3.txt
+Content-Disposition: attachment; filename=revlist-53ee8fb3a588-991dfe69a5f8.txt
 
 c602537de3c137e55582d7fccfb18e50f1cd9c83 apparmor: Use str_yes_no() helper function
 71e6cff3e0dde6f6a3355d6c73ca3e176567995e apparmor: Improve debug print infrastructure
@@ -528,39 +528,8 @@ d632ab86aff2cef21f794e337a8e7f2320ac3973 Merge tag 'for-6.17/dm-changes' of git:
 da23ea194db94257123f1534d487f3cdc9b5626d Merge tag 'mm-stable-2025-08-03-12-35' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 5998f2bca43e071e9c5a26cc7e7e00f9a78791c4 Merge tag 'exfat-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-fac83d0e8da1c98ecad1664a78fedb721c2f5f4b lib/crypto: sha256: Use underlying functions instead of crypto_simd_usable()
-18cbd2a6eebd6065d165b3ce8682d71c2fabd5a8 lib/crypto: sha512: Use underlying functions instead of crypto_simd_usable()
-ff31451cd16250f098bf34ff65b47e785fd86d54 lib/crypto: sha: Update Kconfig help for SHA1 and SHA256
-203ea4be7fe87bb83aa7950447c6d47f10a35797 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
-295104a2f736f4af4031fb4c92e9a88fd870a92c lib/crypto: mips/md5: Migrate optimized code into library
-7171548c404e2998f80f2617c1cb3702fba17eb1 mips: cavium-octeon: Move octeon-crypto.c into parent dir
-cfe8041c8316ae557feb3a9308cd50f6afc2b640 lib/crypto: powerpc/md5: Migrate optimized code into library
-5430c4039113eb3ff47891be97aab340de76d9f2 lib/crypto: sparc/md5: Migrate optimized code into library
-f758bcbe78f2030da04cc8c107a14a21c92ac8cb crypto: md5 - Wrap library and add HMAC support
-9ef1e397bee9d2e2464c02117e95b05f6b84bf1f lib/crypto: tests: Add KUnit tests for MD5 and HMAC-MD5
-2c5309e498160529c30dd267edf00af0b223285c bpf: Use sha1() instead of sha1_transform() in bpf_prog_calc_tag()
-19ce63fa1259a2cc04501408546863658ea2e680 ipv6: sr: Use HMAC-SHA1 and HMAC-SHA256 library functions
-c92e27192055064a0704a2f6ec15f96ecc695ac0 integrity: Select CRYPTO from INTEGRITY_ASYMMETRIC_KEYS
-f0231e710c52d688581cda334c230002226af0a6 lib/digsig: Use SHA-1 library instead of crypto_shash
-3da6d8299b50ebc2ee0add4855506ad42ba993ae nfc: s3fwrn5: Use SHA-1 library instead of crypto_shash
-60d1e08df4ac9aa0f8026f5f2bcb02bebdf64bf7 ppp: mppe: Use SHA-1 library instead of crypto_shash
-583ec3bd47661af1f9170459f482b298839b8245 ipv6: Switch to higher-level SHA-1 functions
-de43f61e34bafb46af3e4f41c7bc368d3a63bd6a lib/crypto: sha1: Remove low-level functions from API
-1a118d1e46fb30a3fbaf297b70e493090ebc0a13 dm-crypt: Use MD5 library instead of crypto_shash
-5ac0a34ec58730a60150064d1d32bc55a9a6b26d nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
-7cfa24b6c5b2db51dd0ea5fa714f12ec0eb42fba nfsd: Replace open-coded conversion of bytes to hex
-6f50f3a866c76912d8779eb2ea9c7dc8593b3c3b nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
-05e208072c7e2613b75fb58605e2d29310098f76 SUNRPC: make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
-2b91d8b550f5adabfd4818f16b9e11e0eb5e814f nfsd: Use MD5 library instead of crypto_shash
-8d1485f9f7446200a9b557b12c4842c1656af0c5 ecryptfs: Use MD5 library instead of crypto_shash
-7ea64ced9ba5208ea0254689c1995077833f7aec smb: client: Use SHA-512 library instead of crypto_shash
-c683713466a292ddce1873c8517fad53042a570d smb: client: Use HMAC-SHA256 library instead of crypto_shash
-fd0bd03b030e62aa92ffc9b81c1855bc4ad58a79 smb: client: Use MD5 and HMAC-MD5 library instead of crypto_shash
-7b2da8f69366c6d4ddb290ede2f52fcdfad9da89 smb: server: Use SHA-512 library instead of crypto_shash
-1ed54be3033fce1e3f5a2b4f5f55b8097ff35b5c smb: server: Use HMAC-SHA256 library instead of crypto_shash
-068f259ce6be4b5faff60238553847c0423c5932 smb: server: Use HMAC-MD5 library instead of crypto_shash
-1cf6be5d73d2965970835d2251ea6706ab2dac2b net/tcp: Convert tcp-md5 to use MD5 library API
-bc7be74e72434d3c5c717666a0a105c171b46ab6 sctp: Use HMAC-SHA1 and HMAC-SHA256 library for chunk authentication
-e6388b2f71e3585875add4dff5466469b1a933b1 sctp: Use HMAC-MD5 and HMAC-SHA1 library for cookie generation
+8c08c84438e6465d26a06b75d6355df31a6b43e7 nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
+c314f31b3faaeab0034d3f2b0ac98f2437af4090 nfsd: Replace open-coded conversion of bytes to hex
+991dfe69a5f82a80a623276bb269cde15d7a12de nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
 
---===============2770602650162015555==--
+--===============4123048620537035610==--
