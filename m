@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 05 Aug 2025 16:04:04 -0000
-Message-Id: <175440984422.3949734.11876436675868377325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 05 Aug 2025 16:09:36 -0000
+Message-Id: <175441017675.3954911.4246789787107697580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/next-fixes
-    old: 61d18d91dd4aed6df52fac2bf0683eab6784ef85
-    new: 04924bc2e7244f4ecc19c163e327f5104c908e3d
+  - ref: refs/heads/dev
+    old: a43529e6c91267dfd6fc3e0a9c85aabf9d667df4
+    new: 774e42b7ce9a06074e20538d1fdb1ca76e13bf44
     log: |
-         0960d9700841eb5fcb4fb0b0a922c626afc6ca5f btrfs: fix subpage deadlock in try_release_subpage_extent_buffer()
-         5d5cf50105012780011446fa02985d5dddd5ac8e btrfs: make btrfs_cleanup_ordered_extents() support large folios
-         9c8c3251173e93c2111575309f0e399daf2f3635 btrfs: fix wrong length parameter for btrfs_cleanup_ordered_extents()
-         a958ae69ccf7c8d8b5ef88e97033d92fc2e046b3 btrfs: error on missing block group when unaccounting log tree extent buffers
-         8d7b7725649af6720672f7a4629bb3cb46eabcc3 btrfs: do not allow relocation of partially dropped subvolumes
-         d679adacbfb748636b41bd7217e00f2bb3ca5011 btrfs: zoned: do not select metadata BG as finish target
-         23e03815d25e80cc8306d23784e06ae9db99af81 btrfs: fix iteration bug in __qgroup_excl_accounting()
-         04924bc2e7244f4ecc19c163e327f5104c908e3d Merge branch 'misc-6.17' into next-fixes
+         795e709b009f2e3efb19ff19322b4bd7d24ed417 erofs-utils: fuse: fix compile error with older libfuse versions
+         774e42b7ce9a06074e20538d1fdb1ca76e13bf44 erofs-utils: fsck: skip erofs_verify_xattr() if xattr_isize is 0
          
