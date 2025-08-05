@@ -1,34 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 05 Aug 2025 10:05:43 -0000
-Message-Id: <175438834305.3652575.3091489689403191345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 05 Aug 2025 10:13:24 -0000
+Message-Id: <175438880492.3658297.18101496732967952431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/linux-next
-    old: e716f0576ddab9e5c7fc5b40d385b10f980f7665
-    new: e5d17d45663b6366f88658bb34723a59c349c8ee
+  - ref: refs/heads/experimental
+    old: e10c2465595f2a29fed149a38e791da44db18718
+    new: 8ef97c1a16ccafcc2564be854ed9336e4bdee3f5
     log: |
-         e5d17d45663b6366f88658bb34723a59c349c8ee virtio_pci: Fix misleading comment for queue vector
+         774e42b7ce9a06074e20538d1fdb1ca76e13bf44 erofs-utils: fsck: skip erofs_verify_xattr() if xattr_isize is 0
+         3a752dc16e24dfbf0a4839cebf04cd5c99d7aafa erofs-utils: dump,fsck,fuse: support metadata compression
+         8ef97c1a16ccafcc2564be854ed9336e4bdee3f5 erofs-utils: introduce metadata compression [metabox]
          
-  - ref: refs/heads/test
-    old: e716f0576ddab9e5c7fc5b40d385b10f980f7665
-    new: e5d17d45663b6366f88658bb34723a59c349c8ee
-    log: |
-         e5d17d45663b6366f88658bb34723a59c349c8ee virtio_pci: Fix misleading comment for queue vector
-         
-  - ref: refs/heads/vhost
-    old: e716f0576ddab9e5c7fc5b40d385b10f980f7665
-    new: e5d17d45663b6366f88658bb34723a59c349c8ee
-    log: |
-         e5d17d45663b6366f88658bb34723a59c349c8ee virtio_pci: Fix misleading comment for queue vector
-         
-  - ref: refs/tags/for_linus
-    old: 47ac4e3b2d534388c6c355042e5222ac49f9a901
-    new: 40007c4aaf97776267badd96dfe81628bc00b758
