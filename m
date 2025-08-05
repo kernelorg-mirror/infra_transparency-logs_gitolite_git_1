@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 05 Aug 2025 16:20:29 -0000
-Message-Id: <175441082908.3966668.14602627388347733546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Tue, 05 Aug 2025 16:59:28 -0000
+Message-Id: <175441316867.3996679.11047314838001021637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/tags/kbuild-v6.17
-    old: 0000000000000000000000000000000000000000
-    new: 46a793e5cc17ce34ba07896c0e38f1d60b1da18c
-  - ref: refs/tags/v6.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
-  - ref: refs/tags/v6.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
+  - ref: refs/heads/master
+    old: 4cc9025c5da7386c7387e4b48f73fe99ad945d75
+    new: 3bd49149dae7237b931b09d87d00b2aef8f7af93
+    log: |
+         3bd49149dae7237b931b09d87d00b2aef8f7af93 Fix build error in Android
+         
