@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7636754063477048317=="
+Content-Type: multipart/mixed; boundary="===============2444932679228052065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 05 Aug 2025 23:12:24 -0000
-Message-Id: <175443554403.116682.2399174215627838810@gitolite.kernel.org>
+Date: Tue, 05 Aug 2025 23:12:26 -0000
+Message-Id: <175443554664.116892.2271571468940594493@gitolite.kernel.org>
 
---===============7636754063477048317==
+--===============2444932679228052065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
     old: 1efe99f9c955ce9a19dc792d5c6615cf244ee680
     new: 704319bef3e7447bca96f680909b41377b2e9b17
     log: revlist-1efe99f9c955-704319bef3e7.txt
 
---===============7636754063477048317==
+--===============2444932679228052065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ e09d30fe76c7f9cce4cde961b17135797e76378d sunrpc: fix client side handling of tls
 c747199079827146da7c5d6bd9c9a1239c6f0a17 NFS: Fix the setting of capabilities when automounting a new filesystem
 704319bef3e7447bca96f680909b41377b2e9b17 NFSv4: Remove duplicate lookups, capability probes and fsinfo calls
 
---===============7636754063477048317==--
+--===============2444932679228052065==--
