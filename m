@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1696365712518783190=="
+Content-Type: multipart/mixed; boundary="===============6998154380471610814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 05 Aug 2025 22:57:37 -0000
-Message-Id: <175443465708.102937.5205877264964036213@gitolite.kernel.org>
+Date: Tue, 05 Aug 2025 22:57:39 -0000
+Message-Id: <175443465955.103226.16468572965179249184@gitolite.kernel.org>
 
---===============1696365712518783190==
+--===============6998154380471610814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
     old: 8ed6ce02ec4a04d37cf8c2d26c0e8b9c49ac0be8
     new: 1efe99f9c955ce9a19dc792d5c6615cf244ee680
     log: revlist-8ed6ce02ec4a-1efe99f9c955.txt
 
---===============1696365712518783190==
+--===============6998154380471610814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ cba8c715f9590106eb1ff7ea272216afd2004958 NFS: Fixup allocation flags for nfsiod'
 f467b61b1606665ff5406deda47bd366541c852c NFS: Fix the setting of capabilities when automounting a new filesystem
 1efe99f9c955ce9a19dc792d5c6615cf244ee680 NFSv4: Remove duplicate lookups, capability probes and fsinfo calls
 
---===============1696365712518783190==--
+--===============6998154380471610814==--
