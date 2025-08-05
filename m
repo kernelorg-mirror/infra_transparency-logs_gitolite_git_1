@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 05 Aug 2025 08:34:31 -0000
-Message-Id: <175438287188.3573061.10892969976074494111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rmk/linux
+Date: Tue, 05 Aug 2025 08:38:37 -0000
+Message-Id: <175438311764.3576775.7542171990771671243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/rmk/linux
+user: rmk
 changes:
-  - ref: refs/heads/irq/urgent
-    old: 02cbf8e0692bd30717b35a3ff5e46460d1d5d471
-    new: 3c3d7dbab2c70a4bca47634d564bf659351c05ca
+  - ref: refs/tags/for-linus
+    old: b5eedc822093b844c3a13b6943e79a5693353dd7
+    new: 671afa9f5d8aa0d49062dc520847ac7e391821a3
     log: |
-         3c3d7dbab2c70a4bca47634d564bf659351c05ca irqchip/mvebu-gicp: Clear pending interrupts on init
+         e60737dbfb92fc32511afa68ea70513df7548919 ARM: 9449/1: coresight: Finish removal of Coresight support in arch/arm/kernel
          
