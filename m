@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4431824756767674425=="
+Content-Type: multipart/mixed; boundary="===============6593844084636040676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 05 Aug 2025 22:57:42 -0000
-Message-Id: <175443466227.103349.12505221682199628504@gitolite.kernel.org>
+Date: Tue, 05 Aug 2025 22:57:44 -0000
+Message-Id: <175443466497.103500.4831095614317928563@gitolite.kernel.org>
 
---===============4431824756767674425==
+--===============6593844084636040676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: daade59fd02c941d0e2b261210cced159aa32d31
-    new: 8f4c47f8f4fe22e45fad5a0edb0cae7497ad2058
-    log: revlist-daade59fd02c-8f4c47f8f4fe.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: aa28c6c11c465735c7cf15c2ab6a2c6c501c078d
+    new: ec5c17b95163dda4fd7e0c5e31b71fb7bc9b0ed5
+    log: revlist-aa28c6c11c46-ec5c17b95163.txt
 
---===============4431824756767674425==
+--===============6593844084636040676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-daade59fd02c-8f4c47f8f4fe.txt
+Content-Disposition: attachment; filename=revlist-aa28c6c11c46-ec5c17b95163.txt
 
 56cddc5045493070e4f8fad2eaeba6105469554e blk-integrity: use simpler alignment check
 bf03d91e140a8a3e4c1eac953d2e68b8bbba56d5 iov_iter: remove iov_iter_is_aligned
@@ -83,5 +83,28 @@ efdc79db4c47a19d1d798656c8afefad9b78e573 nfs/localio: make trace_nfs_local_open_
 9799412c8ac7eb21993be9b2336ab5da2b7daa5f nfs/direct: add misaligned READ handling
 eaae57773b3d0474ffbe1dec26031c49a93158a8 nfs/direct: add misaligned WRITE handling
 8f4c47f8f4fe22e45fad5a0edb0cae7497ad2058 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+855d81cbd402ea7b9219764b63d3c9e17d9f2651 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+5a8105cccfd2ea95a2adc403c00eab5ba6783a5a Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+9f4062cc2e423b027c3457c689bede6a15a2c436 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+e33ca997b4cb388aa359d6a1ea7917d08d607136 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+178cc1b68e2bf8ec4a027e882ac4d2cc73610710 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+d4d1a841bf56be11742180cd4b4952f11bd31992 Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+a78dff7e2ad7055147d08f388d52ab659f819020 Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+ac70687aa0d75e2a03af66a67cce32d0bbd446d8 Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+8911b36c8df1f3089517d6bcf0cd54b6581ded4f Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+2ca86041ae55d313d177281955dc1a865c4d0df3 kernel-6.12.24-1
+838ffc33e05fb20316b434337bafa3e504d8e5f2 kernel-6.12.24-2
+65aaf7f57e940fb55890d534b55c1dcab3270f68 kernel-6.12.24-3
+ac28bb658b205d936c10621fbd18be313887c342 kernel-6.12.24-4
+c2d30416c6623c3c01068dd046a585b4808908c3 kernel-6.12.24-5
+38a9416f5fa7fbd10227e5dec156df26a5c22dbc kernel-6.12.24-6
+04e9dea5114ddb4fb8f9a08db2d66440baf68c3b kernel-6.12.24-7
+5ce4c78518b7e2eda55b7c3c0727673cb70cb1a4 kernel-6.12.24-8
+0ec81b390c64d02e7968bfc1197050cc171b43e5 kernel-6.12.24-9
+2f89b94313f64adc06ea2aa0e1d04a18f17b6fc6 kernel-6.12.24-10
+fbe645137e4952576ac96e1656ead55dfab0121c kernel-6.12.24-11
+97bdda33c98d2d65a0050a422ce5aeb65c612d59 kernel-6.12.24-12
+c6aefab29f579f61b6ebdd214cac036beb473655 kernel-6.12.24-13
+ec5c17b95163dda4fd7e0c5e31b71fb7bc9b0ed5 kernel-6.12.24-14
 
---===============4431824756767674425==--
+--===============6593844084636040676==--
