@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2948837691935898478=="
+Content-Type: multipart/mixed; boundary="===============1623316060637108761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 06 Aug 2025 07:24:26 -0000
-Message-Id: <175446506636.528707.1264263810792517813@gitolite.kernel.org>
+Date: Wed, 06 Aug 2025 07:24:53 -0000
+Message-Id: <175446509349.529373.6457593571512109804@gitolite.kernel.org>
 
---===============2948837691935898478==
+--===============1623316060637108761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 95cfe23285a6de17f11715378c93e6aee6d0ca75
     new: d9104cec3e8fe4b458b74709853231385779001f
     log: revlist-95cfe23285a6-d9104cec3e8f.txt
 
---===============2948837691935898478==
+--===============1623316060637108761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a26321ee4c935a63c29ed6518f27e38826b36e68 Merge tag 'hardening-v6.17-rc1-fix1' of
 8be4d31cb8aaeea27bde4b7ddb26e28a89062ebf Merge tag 'net-next-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 d9104cec3e8fe4b458b74709853231385779001f Merge tag 'bpf-next-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============2948837691935898478==--
+--===============1623316060637108761==--
