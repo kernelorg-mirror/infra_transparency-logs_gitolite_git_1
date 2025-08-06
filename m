@@ -1,25 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 06 Aug 2025 05:54:03 -0000
-Message-Id: <175445964337.454859.1813135026684941883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 06 Aug 2025 06:06:27 -0000
+Message-Id: <175446038721.466307.14767905898765170910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: a530a36bb548bbd441402b736f17339183ff53fd
-    new: 479058002c32b77acac43e883b92174e22c4be2d
+  - ref: refs/heads/for-linus
+    old: dbe05428c4e54068a86e7e02405f3b30b1d2b3dd
+    new: cac5f2af13459f6258c4857d2e61ea53d0dfd751
     log: |
-         cf3fc037623c54de48d2ec1a1ee686e2d1de2d45 ata: libata-scsi: Fix ata_to_sense_error() status handling
-         d2be9ea9a75550a35c5127a6c2633658bc38c76b ata: libata-scsi: Return aborted command when missing sense and result TF
-         0060beec0bfa647c4b510df188b1c4673a197839 ata: libata-sata: Add link_power_management_supported sysfs attribute
-         c9edbb6aecc532c7d0a9bee990beedb27be33851 ata: libata-core: Remove space before newline
-         64c7cac9d64eb3ed1062a59fa77b36bfa293fe4e ata: pata_macio: Remove space before newline
-         6cb43739b93c64c4a2148222bd606e6920257752 ata: pata_pdc2027x: Remove space before newline and abbreviations
-         479058002c32b77acac43e883b92174e22c4be2d Merge tag 'ata-6.17-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+         8cbe564974248ee980562be02f2b1912769562c7 ALSA: intel_hdmi: Fix off-by-one error in __hdmi_lpe_audio_probe()
+         cac5f2af13459f6258c4857d2e61ea53d0dfd751 ALSA: hda/tas2781: Support L"SmartAmpCalibrationData" to save calibrated data
+         
+  - ref: refs/heads/for-next
+    old: dbe05428c4e54068a86e7e02405f3b30b1d2b3dd
+    new: cac5f2af13459f6258c4857d2e61ea53d0dfd751
+    log: |
+         8cbe564974248ee980562be02f2b1912769562c7 ALSA: intel_hdmi: Fix off-by-one error in __hdmi_lpe_audio_probe()
+         cac5f2af13459f6258c4857d2e61ea53d0dfd751 ALSA: hda/tas2781: Support L"SmartAmpCalibrationData" to save calibrated data
+         
+  - ref: refs/heads/master
+    old: 1531498bdc79c97c70c44cb08b2da7d02ebde584
+    new: 46ad827d98f9649bedd8601e179c28692c0bef25
+    log: |
+         8cbe564974248ee980562be02f2b1912769562c7 ALSA: intel_hdmi: Fix off-by-one error in __hdmi_lpe_audio_probe()
+         4e6219fffab034e9f4860a1eecf8960281be6e43 Merge branch 'for-linus'
+         cac5f2af13459f6258c4857d2e61ea53d0dfd751 ALSA: hda/tas2781: Support L"SmartAmpCalibrationData" to save calibrated data
+         46ad827d98f9649bedd8601e179c28692c0bef25 Merge branch 'for-linus'
          
