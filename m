@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3235176618785106768=="
+Content-Type: multipart/mixed; boundary="===============5459504464218147176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 06 Aug 2025 09:06:20 -0000
-Message-Id: <175447118052.612423.3307445576787998084@gitolite.kernel.org>
+Date: Wed, 06 Aug 2025 09:06:37 -0000
+Message-Id: <175447119772.612845.2002988817008292415@gitolite.kernel.org>
 
---===============3235176618785106768==
+--===============5459504464218147176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,24 +16,27 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 71cf24469613172b9b7e0fc9c7f52c9f7b22d3b3
-    new: bd6d26acef7f152c560740c31f2c559929e9e323
-    log: revlist-71cf24469613-bd6d26acef7f.txt
+    old: bd6d26acef7f152c560740c31f2c559929e9e323
+    new: 8900d6da92ce3eab8d2e2160a20af5cccf1f5e09
+    log: |
+         ae907725b7699463e466c86ae548b610c502cb08 Merge branch into tip/master: 'irq/urgent'
+         0d5e7bec883ad87cc28101ed5e8258b4d4f9d721 Merge branch into tip/master: 'locking/urgent'
+         bb57ff58f1e1805d83ff3ee68df814848edee69d Merge branch into tip/master: 'smp/urgent'
+         3e3908a723563f20baba8990afb3543233d84b26 Merge branch into tip/master: 'x86/urgent'
+         48dd98777863fd65d9f331c459ba11ccfcd3f546 Merge branch into tip/master: 'core/bugs'
+         8900d6da92ce3eab8d2e2160a20af5cccf1f5e09 Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: a8feeaec97d9b64bf96bdb5c3030543df5406e82
+    new: 3e3908a723563f20baba8990afb3543233d84b26
+    log: revlist-a8feeaec97d9-3e3908a72356.txt
 
---===============3235176618785106768==
+--===============5459504464218147176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71cf24469613-bd6d26acef7f.txt
+Content-Disposition: attachment; filename=revlist-a8feeaec97d9-3e3908a72356.txt
 
-aec58b48517c911fbdf2beebba46a347e5910072 bugs/core: Extend __WARN_FLAGS() with the 'cond_str' parameter
-3bc3c9c3ab6df45a3a3389f74000f8bec1bc96e3 bugs/core: Pass down the condition string of WARN_ON_ONCE(cond) warnings to __WARN_FLAGS()
-687fac9d1b00fb10421fdd455d60543cc46e42d0 bugs/core: Introduce the CONFIG_DEBUG_BUGVERBOSE_DETAILED Kconfig switch
-407b9076c147669318a58bbd54185b03055dc9a6 bugs/x86: Extend _BUG_FLAGS() with the 'cond_str' parameter
-48ede5be5c07c8b9fe896bfcb18a78c0d72651de bugs/x86: Augment warnings output by concatenating 'cond_str' with the regular __FILE__ string in _BUG_FLAGS()
-1c59c2b284cbbae0a67b3e0d4ef8e5659055f085 bugs/powerpc: Pass in 'cond_str' to BUG_ENTRY()
-1284579a7f4949fee0b5bda13eff380de734928f bugs/powerpc: Concatenate 'cond_str' with '__FILE__' in BUG_ENTRY(), to extend WARN_ON/BUG_ON output
-66e94df0dd272b057899b8cdbca906ea1306d7a1 bugs/LoongArch: Pass in 'cond_str' to __BUG_ENTRY()
 0a1eab129fedb4281e65c845b04be02b53c99f9c kconfig: use memcmp instead of deprecated bcmp
 694174f94ebeeb5ec5cc0e9de9b40c82057e1d95 kconfig: lxdialog: fix 'space' to (de)select options
 626c54af35764b0b8a4ed5c446458ba6ddfe9cc8 kheaders: rebuild kheaders_data.tar.xz when a file is modified within a minute
@@ -122,15 +125,6 @@ b9f75396ec107628cc5f52fb6e055c1c9dc68401 scripts: add zboot support to extract-v
 e16f08062f91570aa225bc490e0a92d63ae13769 kconfig: gconf: use hyphens in signals
 5ceb15fdc629aa3030e8f8987c561d36678f9559 kconfig: gconf: remove unneeded variable in text_insert_msg
 eb549e194bf2d5c86b1b7a71fad54d610dd6c892 kconfig: gconf: refactor text_insert_help()
-d6b894cbfa4b91e2a7eaf5bc0a91cac48c5f4311 bugs/LoongArch: Concatenate 'cond_str' with '__FILE__' in __BUG_ENTRY(), to extend WARN_ON/BUG_ON output
-7ce0f693cb0e0a9f374a422d2e5696e377ebc300 bugs/s390: Pass in 'cond_str' to __EMIT_BUG()
-6584ff203aecff4bbda2f4e15f7579e57f1d5f40 bugs/s390: Use 'cond_str' in __EMIT_BUG()
-7e8c292692fd7bcaad09beb8501a55e9be833d50 bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
-bb39faa71d87cbf2eef89ebddec0bf22a3b1a157 bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
-f40484925b93001c2aee56d1f1704ef7a9a82fbe bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-be2ba2fef1676861b295053c2a567b057e9031b9 bugs/sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-28ea295f941e39965c562097d5de0e66a373f19d bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
-ed845c363d8c93eeaad4ce48bb7d5f81b6a75b61 bugs/s390: Remove private WARN_ON() implementation
 cf3fc037623c54de48d2ec1a1ee686e2d1de2d45 ata: libata-scsi: Fix ata_to_sense_error() status handling
 d2be9ea9a75550a35c5127a6c2633658bc38c76b ata: libata-scsi: Return aborted command when missing sense and result TF
 0060beec0bfa647c4b510df188b1c4673a197839 ata: libata-sata: Add link_power_management_supported sysfs attribute
@@ -177,8 +171,6 @@ c262ffd72c8539d16ada8641a6348c5a88f0c542 mm/shmem, swap: tidy up THP swapin chec
 de55be42379cc0561aadfd9e1459239dea70be32 mm/shmem, swap: fix major fault counting
 f04fd85f15945f3ff189701050e3ce303c1a4d98 mm: correct type for vmalloc vm_flags fields
 a2152fef29020e740ba0276930f3a24440012505 mm: mempool: fix crash in mempool_free() for zero-minimum pools
-a53d0cf7f1cb3182ad533ff5cacfa5fd29c419ad Merge commit 'linus' into core/bugs, to resolve conflicts
-5c0de02893c257deb40c77d6cbaf41b1bfef8188 Merge branch into tip/master: 'core/bugs'
 da23ea194db94257123f1534d487f3cdc9b5626d Merge tag 'mm-stable-2025-08-03-12-35' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 5998f2bca43e071e9c5a26cc7e7e00f9a78791c4 Merge tag 'exfat-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
@@ -200,7 +192,9 @@ a530a36bb548bbd441402b736f17339183ff53fd Merge tag 'kbuild-v6.17-2' of git://git
 479058002c32b77acac43e883b92174e22c4be2d Merge tag 'ata-6.17-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 5b65258229117995eb6c4bd74995e15fb5f2cfe3 genirq/test: Resolve irq lock inversion warnings
 3b6a18f0da8720d612d8a682ea5c55870da068e0 irqchip: Build IMX_MU_MSI only on ARM
-29030a058be8373e930c0c9caf3c4b06725210a4 Merge branch into tip/master: 'irq/urgent'
-bd6d26acef7f152c560740c31f2c559929e9e323 Merge branch 'linus'
+ae907725b7699463e466c86ae548b610c502cb08 Merge branch into tip/master: 'irq/urgent'
+0d5e7bec883ad87cc28101ed5e8258b4d4f9d721 Merge branch into tip/master: 'locking/urgent'
+bb57ff58f1e1805d83ff3ee68df814848edee69d Merge branch into tip/master: 'smp/urgent'
+3e3908a723563f20baba8990afb3543233d84b26 Merge branch into tip/master: 'x86/urgent'
 
---===============3235176618785106768==--
+--===============5459504464218147176==--
