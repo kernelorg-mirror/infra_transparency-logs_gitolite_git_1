@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Wed, 06 Aug 2025 13:26:18 -0000
-Message-Id: <175448677895.824564.7229073178479791521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 06 Aug 2025 13:36:07 -0000
+Message-Id: <175448736747.832891.621408523186638577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
   - ref: refs/heads/master
-    old: a37b30288380b7ca1e513611eb1c2a3ac5493cc5
-    new: da06dc98d29740f1a6d12d3a932263e8f63f99dd
+    old: 961b25bbb18ffef2aee47239e9bc731489f33b4c
+    new: d349d230620e62b002a5e08c31a63f86bfd6453e
     log: |
-         da06dc98d29740f1a6d12d3a932263e8f63f99dd Fix bug in IABGetPID
+         a2228e71edfddf7421f7c62dbaeb65a936e73fc2 proposed: Add Lee's v6.15.7 results
+         d349d230620e62b002a5e08c31a63f86bfd6453e proposed: Add Lee's v6.15.8 results
          
