@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3335976192520988957=="
+Content-Type: multipart/mixed; boundary="===============8000167804782579146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 06 Aug 2025 05:32:27 -0000
-Message-Id: <175445834710.436198.452458074233843168@gitolite.kernel.org>
+Date: Wed, 06 Aug 2025 05:32:28 -0000
+Message-Id: <175445834874.436312.7847435490296214796@gitolite.kernel.org>
 
---===============3335976192520988957==
+--===============8000167804782579146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
+  - ref: refs/heads/mm-stable
     old: a2152fef29020e740ba0276930f3a24440012505
     new: 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73
     log: revlist-a2152fef2902-6bcdbd62bd56.txt
 
---===============3335976192520988957==
+--===============8000167804782579146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ da23ea194db94257123f1534d487f3cdc9b5626d Merge tag 'mm-stable-2025-08-03-12-35' 
 5998f2bca43e071e9c5a26cc7e7e00f9a78791c4 Merge tag 'exfat-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 
---===============3335976192520988957==--
+--===============8000167804782579146==--
