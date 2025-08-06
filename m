@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3116326685624048677=="
+Content-Type: multipart/mixed; boundary="===============3335976192520988957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 06 Aug 2025 05:32:25 -0000
-Message-Id: <175445834544.436009.8051839975183932204@gitolite.kernel.org>
+Date: Wed, 06 Aug 2025 05:32:27 -0000
+Message-Id: <175445834710.436198.452458074233843168@gitolite.kernel.org>
 
---===============3116326685624048677==
+--===============3335976192520988957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,59 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e4f91e55fb3f93f6669ea60c154df6966b535f63
-    new: b2a4beca30ba51331a16d7bb84387a70b692a66d
-    log: revlist-e4f91e55fb3f-b2a4beca30ba.txt
+  - ref: refs/heads/mm-unstable
+    old: a2152fef29020e740ba0276930f3a24440012505
+    new: 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73
+    log: revlist-a2152fef2902-6bcdbd62bd56.txt
 
---===============3116326685624048677==
+--===============3335976192520988957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4f91e55fb3f-b2a4beca30ba.txt
+Content-Disposition: attachment; filename=revlist-a2152fef2902-6bcdbd62bd56.txt
 
+026cea3c61c2d42f47665bf8b1e2357f4bfb812d i40e: use libie_aq_str
+d31eb217425591e100b475fad6360cd3da2073c6 PCI: imx6: Remove apps_reset toggling from imx_pcie_{assert/deassert}_core_reset
+0bd042ae771d61ef7ccd5882f7aeca59a25f71d9 regulator: mt6370: Fix spelling mistake in mt6370_regualtor_register
+2e6ea70690ddd1ffa422423fd0d4523e4dfe4b62 PCI: imx6: Delay link start until configfs 'start' written
+8b5a19b4ff6a2096225d88cf24cfeef03edc1bed Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+f46c06a302603dcec488a6d07fec92c262edd861 Merge tag 'clk-imx-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/abelvesa/linux into clk-imx
+99e91521cef80d74e4fefed16a156848052b13df drm/xe: Fix build without debugfs
+e51c16f9ee90eb08b896bb1b86f117b1e4901ba9 dt-bindings: clock: qcom: Remove double colon from description
+1eef76f463042890fbcb8bac77baa32fa4f31d86 dt-bindings: clock: Convert qcom,krait-cc to DT schema
+08a7efc5b02a0620ae16aa9584060e980a69cb55 f2fs: vm_unmap_ram() may be called from an invalid context
+b93bf64e349b1952170f47a0e68fc52f666b9e25 f2fs: merge the two conditions to avoid code duplication
+95d7c508b21235144f6cef611ec5686bbdeeec25 f2fs: remove unnecessary tracepoint enabled check
+f0a7adfedcc8c7e0b13ffd11dd69bf0ac25b2cd3 f2fs: don't break allocation when crossing contiguous sections
+e6d5e789c3b2df219d6f6a6c7fa0539ce8b563c0 f2fs: ignore valid ratio when free section count is low
+ca7be9c0a148cbfe38df95a0285339c532ca6e17 mtd: ubi: Remove unused ubi_flush
+3bf1bab503a58ed7dcfcd399c30ad0b976eb2620 f2fs: zone: wait for inflight dio completion, excluding pinned files read using dio
+99dbb2a1bd661418be33b1ff1462c09b7d2221cf ubifs: stop using write_cache_pages
+317fb4c3871b27454f04d67bfd0f388fcc5783e7 support for amlogic the new SPI IP
+12d30725bf997ffd5baa849d4b20be86105fc070 perf pfm: Don't force loading of all PMUs
+62f4512238f5541d864a783cbcd8d95d067a17b3 perf parse-events: Warn if a cpu term is unsupported by a CPU
+848e7a06fea9be249c5b788b3f498196925e4d7e perf stat: Avoid buffer overflow to the aggregation map
+ced4c249569ab25c32b0d36e2ebdb19c74394bdf perf stat: Don't size aggregation ids from user_requested_cpus
+bd741d80dc65922c7d6e5fd855a934f5d2cf2309 perf parse-events: Allow the cpu term to be a PMU or CPU range
+175c852325a1f566426e2470e5d5d67efc7621dd perf tool_pmu: Allow num_cpus(_online) to be specific to a cpumask
+6d765f5f7ec669f2a16b44afd23cd877efa640de libperf evsel: Rename own_cpus to pmu_cpus
+9a711ef3bd57c124cb7255a4bb8a5166c6b0cef0 libperf evsel: Factor perf_evsel__exit out of perf_evsel__delete
+f958537f185216b2be028ed793508248503bef83 perf evsel: Use libperf perf_evsel__exit
+3cb614a261e43a82acfef437c3242820c1444e2d perf pmus: Factor perf_pmus__find_by_attr out of evsel__find_pmu
+cd63c22168257a0b0b59245394915e2488065f7d perf parse-events: Minor __add_event refactoring
+e9387ba56918eb3c16aab3e6f0155a7251e339ec perf evsel: Add evsel__open_per_cpu_and_thread
+811082e4b668db9689f8ce927a106036b4ed4e96 perf parse-events: Support user CPUs mixed with threads/processes
+5b546de9cc177936a3ed07d7d46ef072db4fdbab perf topdown: Use attribute to see an event is a topdown metic or slots
+8dcd27b1b8661f64e220bc26a499865261d5d0f1 perf parse-events: Fix missing slots for Intel topdown metric events
+fcc7cc31239d0fbf0ebf25e65f7f572caed40206 perf metricgroups: Add NO_THRESHOLD_AND_NMI constraint
+f3982385bc507991f1ed732c3c7907bff703f4d4 perf build-id: Reduce size of "size" variable
+5a2ceebd8175874ae0e91a304ad6600d82806973 perf build-id: Truncate to avoid overflowing the build_id data
+a103d2dede5683dabbac2c3374bc24b6a9434478 PCI: controller: Use dev_fwnode() instead of of_fwnode_handle()
+8e717112caf35998b198d3762b381de70711bdec PCI: dwc: Switch to msi_create_parent_irq_domain()
+68b9272ca7ac948b71aba482ef8244dee8032f46 pwm: raspberrypi-poe: Fix spelling mistake "Firwmware" -> "Firmware"
+1032fa556c37c500bf2b93d95fa18e7d1fd1b4de More minor SDCA changes
+1a25e13de69dafd4c1d1821df80f89dad036f9bb dt-bindings: clock: Convert maxim,max9485 to DT schema
+ce2930aefb398e004eb733897b4b5302582f6809 dt-bindings: clock: Convert microchip,pic32mzda-clk to DT schema
 f2cb67d73afdf8fd92bec54caf43a246719dd0e6 dt-bindings: clock: Convert moxa,moxart-clock to DT schema
 71b80a33653debf0374498e6f4141aae43038d0b dt-bindings: clock: Convert nuvoton,npcm750-clk to DT schema
 3849ceec49dfb8aee24c2c9c96e1bec1138577c1 dt-bindings: clock: Convert qca,ath79-pll to DT schema
@@ -87,6 +129,9 @@ cf5869977702b1d51e3b4d58b6c559a98a366114 tools: ynl-gen: move free printing to t
 f70d9819c779fd9eae04c38b1997b3224a5b0fe7 selftests: drv-net: devmem: use new mattr ynl helpers
 7dba0cc93c5a2cda7a96667e76ee45c84f952257 Merge branch 'tools-ynl-gen-print-setters-for-multi-val-attrs'
 e6b39e516c441faecee20f3f34734ffa5ed834de Merge tag 'drm-intel-fixes-2025-07-24' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+1aef9df0ee90650ac3879dc994bb1a4b0e6dd83f mm/damon/core: commit damos_quota_goal->nid
+91a229bb7ba86b2592c3f18c54b7b2c5e6fe0f95 resource: fix false warning in __request_region()
+0dec7201788b9152f06321d0dab46eed93834cda sprintf.h requires stdarg.h
 a4f5759b6f0a875d5b223c99233b2f5db8bec2b9 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 14e8f8e74dc137ff9f1dfb2781784ceb19497ee5 Merge tag 'drm-xe-fixes-2025-07-24' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 d2002ccb47dd3bf6102d06c8e5062ccfdd31ce28 Merge tag 'for-net-next-2025-07-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
@@ -1005,50 +1050,5 @@ d632ab86aff2cef21f794e337a8e7f2320ac3973 Merge tag 'for-6.17/dm-changes' of git:
 da23ea194db94257123f1534d487f3cdc9b5626d Merge tag 'mm-stable-2025-08-03-12-35' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 5998f2bca43e071e9c5a26cc7e7e00f9a78791c4 Merge tag 'exfat-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-475356fe2814f2f0b188da8bf0f1fcc579d81272 kasan/test: fix protection against compiler elision
-47b0f6d8f0d2be4d311a49e13d2fd5f152f492b2 mm/kmemleak: avoid deadlock by moving pr_warn() outside kmemleak_lock
-5a309dbf1f829de7f8dc84a518d0b6e7e9be9994 MAINTAINERS: add Masami as a reviewer of hung task detector
-d1534ae23c2b6be350c8ab060803fbf6e9682adc mm/kmemleak: avoid soft lockup in __kmemleak_do_cleanup()
-366a4532d96fc357998465133db34d34edb79e4c mm: fix the race between collapse and PT_RECLAIM under per-vma lock
-45d19b4b6c2d422771c29b83462d84afcbb33f01 mm/smaps: fix race between smaps_hugetlb_range and migration
-aa5a10b070690225317ed4d85413d144abfff750 fs/proc/task_mmu: hold PTL in pagemap_hugetlb_range and gather_hugetlb_stats
-a901ba30383085b44cbf64ce44acf9ed87394383 selftests/mm: fix FORCE_READ to read input value correctly.
-cc3d2d12ed9fbb5b442d45d9cccae371cdbd217e kexec: add KEXEC_FILE_NO_CMA as a legal flag
-98bb4ad9794bc94af41f12e52fdd002989df0b38 mm/memory-failure: fix infinite uncorrected error exception for VM_PFNMAP pfn
-2087aa458922be9abc495621896b12af09e6492f selftests/proc: fix string literal warning in proc-maps-race.c
-e356e455666cc22d21539ea48ea27220a040d425 mm/memory_hotplug: fix hwpoisoned large folio handling in do_migrate_range
-3d1281dd05475332fd3a1e3f5be08b77c7c3ba51 kunit: kasan_test: disable fortify string checker on kasan_strings() test
-b64187b0d3eb8799328c78cc8b79408baeb6ea01 mm/debug_vm_pgtable: clear page table entries at destroy_args()
-e016be5b15cecd927d19c83fe3d4496fe98eac19 mm/userfaultfd: fix kmap_local LIFO ordering for CONFIG_HIGHPTE
-27e3562dba89b455dd1013f02d079669ac724376 mempolicy: clarify what zone reclaim means
-a3cb61e1f3b46dca5cc9a8f7db656b3b20f0da06 mm/filemap: align last_index to folio size
-8e7e0c6d09502e44aa7a8fce0821e042a6ec03d1 mm-filemap-align-last_index-to-folio-size-fix
-3a077a58da52da65cad037dc39026992a579acc0 kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-0ec07915e29d3eef2404eee29be4d93d72df72aa kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-6fb71f4bbebf802e48d287421d0fd0df8e22654b mm/mglru: update MG-LRU proactive reclaim statistics only to memcg
-2ac0b8e9c3a49ef6c882df5e6512dcaafe7b1d1e mm/selftests: fix incorrect pointer being passed to mark_range()
-95f4434edd876011c342ad8f8558ca489e2d2f37 selftests/mm: add support to test 4PB VA on PPC64
-260373b753a02051fa66752ac7b9cdf27abe57dc selftest/mm: fix ksm_funtional_test failures
-eb0c7ac9b69034c43a8c44a3b1ddf7965e69c926 mm/selftests: fix split_huge_page_test failure on systems with 64KB page size
-e1aeaad41ee45a57bda5f5d06b4c9e8f28a81930 selftests/mm: fix child process exit codes in ksm_functional_tests
-2fe661808ccddc41957a81b276abbd02591afb7b selftests/mm: skip thuge-gen test if system is not setup properly
-c58f4de9657e071d3b19607777b34a3142e1b04c selftests/mm: skip hugepage-mremap test if userfaultfd unavailable
-e5bc8524c367a502a96496f4220ad19e9bd6f06a mm: memory-tiering: fix PGPROMOTE_CANDIDATE counting
-23ed4242f8ce7ede3a01069e57ee8435cec5aa00 /dev/zero: try to align PMD_SIZE for private mapping
-a1a60edebc4fde8a80b2912f82318290126c26ec mm: replace (20 - PAGE_SHIFT) with common macros for pages<->MB conversion
-736b1dbf83a31ad0e51f3ab247e731019c610737 maple_tree: use kfree_rcu in ma_free_rcu
-4ddd12161491c0c58990147e89204c461a6db988 testing/radix-tree/maple: hack around kfree_rcu not existing
-7aa51bb649328ec26feca17041bf087df3750c25 userfaultfd: opportunistic TLB-flush batching for present pages in MOVE
-f0c3f5204549fb8fd68be744780726aa9a661c98 zram: protect recomp_algorithm_show() with ->init_lock
-bc144ef0738aacee92f7130bae04acd3b8f079e3 mm/kasan: add conditional checks in functions to return directly if kasan is disabled
-cf20271f003a7e106d06254f86844b1a8df4ad39 mm/kasan: move kasan= code to common place
-f606223f83dd8067078004c678e31340a54ae25c mm/kasan: don't initialize kasan if it's disabled
-825af80daf827d439c7dd3e24ef5648cc338bc98 mm/kasan: make kasan=on|off take effect for all three modes
-449409d15674fafc6fe4ec6401dad16df936614e selftests/mm: pass filename as input param to VM_PFNMAP tests
-920cbbc9cd1170247403c891173c7b6755b336be mm: limit the scope of vma_start_read()
-607a455e2f3d528b71be200e1e18e578273a602e mm: change vma_start_read() to drop RCU lock on failure
-2ab47649fda8b63d16a8e52e5501dcd8e8352dce drivers/base/memory: add node id parameter to add_memory_block()
-357b54aad8c8345c36531bb432f86495e8d35523 mm/memory_hotplug: activate node before adding new memory blocks
-b2a4beca30ba51331a16d7bb84387a70b692a66d drivers/base: move memory_block_add_nid() into the caller
 
---===============3116326685624048677==--
+--===============3335976192520988957==--
