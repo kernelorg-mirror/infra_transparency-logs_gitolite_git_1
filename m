@@ -1,73 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============1570988611550800121=="
+Content-Type: multipart/mixed; boundary="===============1569427761261565912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 06 Aug 2025 12:54:41 -0000
-Message-Id: <175448488102.796400.13489084542433580152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Wed, 06 Aug 2025 12:55:58 -0000
+Message-Id: <175448495831.798858.3936698820841823633@gitolite.kernel.org>
 
---===============1570988611550800121==
+--===============1569427761261565912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/master
-    old: 479058002c32b77acac43e883b92174e22c4be2d
-    new: cca7a0aae8958c9b1cd14116cb8b2f22ace2205e
-    log: revlist-479058002c32-cca7a0aae895.txt
+  - ref: refs/heads/cap-analysis/dev
+    old: 84b025a0f61636d7599b175d0a8186de719087e4
+    new: 4402c229e926bc7daad98d65e55297b090302dac
+    log: revlist-84b025a0f616-4402c229e926.txt
 
---===============1570988611550800121==
+--===============1569427761261565912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-479058002c32-cca7a0aae895.txt
+Content-Disposition: attachment; filename=revlist-84b025a0f616-4402c229e926.txt
 
-3e90b38781e3bdd651edaf789585687611638862 scsi: mpt3sas: Fix a fw_event memory leak
-33b3120cb20fde80bf601413b635f957c46ad631 scsi: ufs: qcom: Drop dead compile guard
-dafeaf2c03e71255438ffe5a341d94d180e6c88e scsi: aacraid: Stop using PCI_IRQ_AFFINITY
-7bdc68921481c19cd8c85ddf805a834211c19e61 scsi: Revert "scsi: iscsi: Fix HW conn removal use after free"
-35dabf4503b94a697bababe94678a8bc989c3223 scsi: ufs: core: Use link recovery when h8 exit fails during runtime resume
-7ffbf335e325ed3f36ebcfed8149a8d0d7e20076 scsi: target: iblock: Allow iblock devices to be shared
-220e6083e8bdc11c414c2a44643f739d5c826d7b scsi: MAINTAINERS: Update hisi_sas entry
-6e0f6aa44b68335df404a2df955055f416b5f2aa scsi: target: core: Generate correct identifiers for PR OUT transport IDs
-37c4e72b0651e7697eb338cd1fb09feef472cc1a scsi: Fix sas_user_scan() to handle wildcard and multi-channel scans
-51b6f738ebfafba4e309e1cde3e8e1745782f128 scsi: ufs: core: Use str_true_false() helper in UFS_FLAG()
-262893939604204d14d7621b6d2658199d1672bb scsi: ufs: host: mediatek: Simplify boolean conversion
-a84a9ba7888fabc00c9585a0626343dfd5538d59 scsi: ufs: host: mediatek: Add DDR_EN setting
-16b30c7a4c564e80fefe7e6416320f4f5b776d60 scsi: ufs: host: mediatek: Change ref-clk timeout policy
-a44ff97f895bd8615ebb53e6e199b74152c18bba scsi: ufs: host: mediatek: Handle broken RTC based on DTS setting
-66e26a4b8a7793137551e77a7e9f6eb1263a49c2 scsi: ufs: host: mediatek: Set IRQ affinity policy for MCQ mode
-7996746394df569355113ce4643ab892442cfe1d scsi: ufs: host: mediatek: Add more UFSCHI hardware versions
-ff40f31216fffc1b7f7e5a9e27a317a29a798289 scsi: ufs: host: mediatek: Add clock scaling query function
-31a20e9f7c766896fbfea45897969bfd1490b466 scsi: ufs: host: mediatek: Support clock scaling with Vcore binding
-5e5976f5242de61b9c09c32795b3d7b90364af51 scsi: ufs: host: mediatek: Support FDE (AES) clock scaling
-60feab054bc0b45d40f80d81c2854aa2ef1e920c Merge patch series "ufs: host: mediatek: Provide features and fixes in MediaTek platforms"
-4428ddea832cfdb63e476eb2e5c8feb5d36057fe scsi: ufs: ufs-pci: Fix hibernate state transition for Intel MTL-like host controllers
-6de7435e6b81fe52c0ab4c7e181f6b5decd18eb1 scsi: ufs: ufs-pci: Fix default runtime and system PM levels
-28a60bbbe739c5c895d2d36d23c93045667b4566 scsi: ufs: ufs-pci: Remove UFS PCI driver's ->late_init() call back
-497027eade8c02afdb6c5d21a193ef5cf4a26d0f scsi: ufs: core: Move ufshcd_enable_intr() and ufshcd_disable_intr()
-c5977c4c0731b60c8c0b3f7cc4b0082a688a07f8 scsi: ufs: core: Remove duplicated code in ufshcd_send_bsg_uic_cmd()
-b4c0cab4eb8d79cf426ac7bca20864881c8b9b8b scsi: ufs: core: Set and clear UIC Completion interrupt as needed
-d402b20f9c31e477f3cf3512be22c7943dbb0ee4 scsi: ufs: core: Do not write interrupt enable register unnecessarily
-22b246e3fc5eb450fffad1eb322e08e3af0e6e3d scsi: ufs: ufs-pci: Remove control of UIC Completion interrupt for Intel MTL
-aa8c53346e38bc3529f0773ee377efb8ea7b610a Merge patch series "scsi: ufs: ufs-pci: Fix hibernate state transition for Intel MTL-like host controllers"
-6f1fd3e0279f0b06cd8d53133a25bd83ac0fcb8a scsi: ufs: ufs-mediatek: Add UFS host support for MT8195 SoC
-794ff7a0a6e76af93c5ec09a49b86fe73373ca59 scsi: dt-bindings: mediatek,ufs: Add ufs-disable-mcq flag for UFS host
-d01cfeac89e956b74e17dc9b1c8e10c0d3b4e403 scsi: dt-bindings: mediatek,ufs: add MT8195 compatible and update clock nodes
-a28f98103890403717008a3a016744721f87b03e scsi: arm64: dts: mediatek: mt8195: Add UFSHCI node
-8e48727c26c4d839ff9b4b73d1cae486bea7fe19 scsi: sd: Make sd shutdown issue START STOP UNIT appropriately
-54091eee08acebfb5e971611c3f189e7577a1058 scsi: libsas: Refactor dev_is_sata()
-0dd03570512a305bc44ac9c8326da95dd8fc3a1d scsi: libsas: Simplify sas_ata_wait_eh()
-bd31394aabf36ee18781c6371e02d789484ffda3 scsi: libsas: Make sas_get_ata_info() static
-704ed03abf6b1c2752a8b16446a5ebf18694fefe scsi: libsas: Move declarations of internal functions to sas_internal.h
-75fe230b9bed364d7ddca482ff29979d873718fa scsi: libsas: Use a bool for sas_deform_port() second argument
-7038db703317617ef3691fbbb7259d4cdf208cf2 Merge patch series "libsas cleanups"
-0a32e4f0025a74c70dcab4478e9b29c22f5ecf2f btrfs: fix log tree replay failure due to file with 0 links and extents
-d7edcc7c9109f165efcf5d767fed21578c37c46c Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-cca7a0aae8958c9b1cd14116cb8b2f22ace2205e Merge tag 'for-6.17-fix-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+8358d4eea8af74ef7ba36a3d5eef9e5cfab56800 compiler-capability-analysis: Add infrastructure for Clang's capability analysis
+aa52433ef4ea670271d68a7fb78146e04e7d46d4 compiler-capability-analysis: Add test stub
+9435b2ad36972314a92b16429c4ed01fe820744e Documentation: Add documentation for Compiler-Based Capability Analysis
+de2b09f2432e8c08d343c48870dd4441928ac1b4 checkpatch: Warn about capability_unsafe() without comment
+52e63711f087839b3a183cef3a03da4776b9f187 cleanup: Basic compatibility with capability analysis
+e4779e485c716143b8b13b1c8e543c173205137c lockdep: Annotate lockdep assertions for capability analysis
+eecd6a7d8bf80586d08c53459afaf7881b08c38e locking/rwlock, spinlock: Support Clang's capability analysis
+1c22a0c237e8f885d436720d166a5b5e77d77bcf compiler-capability-analysis: Change __cond_acquires to take return value
+2674cdf8065f2781f00ebf05fb155cb2bde4d66c locking/mutex: Support Clang's capability analysis
+c55385ce1362a2d00af1e126cda6e552bc786704 locking/seqlock: Support Clang's capability analysis
+7190f09c6541a88fb088572fb9853a30eb54b039 bit_spinlock: Include missing <asm/processor.h>
+b7bde9e296b555104447a6ce8bd227c56e592e4e bit_spinlock: Support Clang's capability analysis
+706499ce0fa57b3087c860c2595c9b7699dd4946 rcu: Support Clang's capability analysis
+0715442934d6b044eff8b0b0291380ddeed9c93b srcu: Support Clang's capability analysis
+169526d765bd71cae6227ba5785b5ca570ba8533 kref: Add capability-analysis annotations
+273a6c504e0b256e65e4b69ddb4e3a5d06d80d84 locking/rwsem: Support Clang's capability analysis
+9c141d81b36a0aaa62ae190563b34748dc027eff locking/local_lock: Include missing headers
+fc993212f3cac39614f19a01218e20161b7008c2 locking/local_lock: Support Clang's capability analysis
+01190845991d8895d577e74d5124c0c93dd65d15 locking/ww_mutex: Support Clang's capability analysis
+6a377507e560c3b0a31907753a3241f4364f4b3e debugfs: Make debugfs_cancellation a capability struct
+92dabd8077b6ec45e70cefdeab47ad950c8786bb compiler-capability-analysis: Remove Sparse support
+90b4bcaa42371dbea1578cde5ac0a12bd9f68d35 compiler-capability-analysis: Remove __cond_lock() function-like helper
+6036e0152d89ee593c458624727f1211df9b0206 compiler-capability-analysis: Introduce header suppressions
+36c55d630219a429736706dffc24d7493d022ee3 compiler: Let data_race() imply disabled capability analysis
+d2076bf98046d5dad6b85184b27551f913a38baf kfence: Enable capability analysis
+2cc044a1885b4d7416f26789012b824c5ad488f0 kcov: Enable capability analysis
+97ad9f40ca106f278923608cb8aa1b13ac48d3b1 stackdepot: Enable capability analysis
+bcd42197b7b9b82db9a4f373d0f40ea6a44e763b rhashtable: Enable capability analysis
+23b4d940d6156813d5d69437c0691da98a3a1f5d printk: Move locking annotation to printk.c
+3e97b1cc2c0b1674f2f2607b76eb227a8fd7ef8a security/tomoyo: Enable capability analysis
+571310ad71fd2b0d46b944add6adbc5f475658bb crypto: Enable capability analysis
+b589e6d236b7514c39616f6c80b1e7a22f73fd84 MAINTAINERS: Add entry for Capability Analysis
+4402c229e926bc7daad98d65e55297b090302dac sched: Enable capability analysis for core.c and fair.c
 
---===============1570988611550800121==--
+--===============1569427761261565912==--
