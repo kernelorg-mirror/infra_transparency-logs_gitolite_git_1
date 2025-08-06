@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0823236807091552115=="
+Content-Type: multipart/mixed; boundary="===============4513659806786261504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Aug 2025 02:40:21 -0000
-Message-Id: <175444802171.294467.1106009637574248241@gitolite.kernel.org>
+Date: Wed, 06 Aug 2025 02:40:44 -0000
+Message-Id: <175444804422.294879.455841631534066942@gitolite.kernel.org>
 
---===============0823236807091552115==
+--===============4513659806786261504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 0b4019135688a6b5ee7c949c206ebfaa31e2ed81
-    new: f2cc6f04437000b96a4ddd6c24aa0309ffdfeb42
+  - ref: refs/heads/6.17/scsi-staging
+    old: 383cd6d879a18acdaa84c29330b25c49cbc0b490
+    new: 72fc388d8bc0b49fd038477b74618cc15ce18b56
     log: |
          034d319c8899e8c5c0a35c6692c7fc7e8c12c374 scsi: ufs: core: Fix interrupt handling for MCQ Mode
          a59976116a01dad1c72460f9ed700bf4b3fdbebd scsi: lpfc: Fix wrong function reference in a comment
@@ -27,33 +27,33 @@ changes:
          72fc388d8bc0b49fd038477b74618cc15ce18b56 scsi: ufs: core: Remove error print for devm_add_action_or_reset()
          
 
---===============0823236807091552115==
+--===============4513659806786261504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1754448046 -0400
+pusher 75C5DE3D 1754448069 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1754448001-e42dbd5a481a0c4fa0588df3d869b2beb9f61def
+nonce 1754448024-ab9e72e52b50f43e950b0f12cd9c04a4da667ac0
 
-0b4019135688a6b5ee7c949c206ebfaa31e2ed81 f2cc6f04437000b96a4ddd6c24aa0309ffdfeb42 refs/tags/mkp-scsi-staging
+383cd6d879a18acdaa84c29330b25c49cbc0b490 72fc388d8bc0b49fd038477b74618cc15ce18b56 refs/heads/6.17/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiSwK4ACgkQ7ulgGnXF
-3j3hUQ//clibtSlUQLt9VItOb7/2ypiE27BE7NHno4PPOgTPr+jZSA8Kx7bIfKV6
-hSdUR6tC8tXmji3SbrfbopX6ZPx40/dqwc7tStkQJ/ABKeyGtv3gf6Fk8mhCrjzf
-HlnsidsZu9aWz7hwTicYOiSFqJcyYEI9Ijv2jTJpGlQ1sicWH+i8gvWtJxu0SvHi
-VSjnvlY0aZAijaCYQcp5WWilkq/yInh9XAFFfT6juW0C8RKxbg4/9osWYkcqhowM
-KP+IlQANxcWyre2NruR7hfD6lOHr9jp7NtqkgFaTbAQcXtM6N/26z7IO06zsFR/x
-TFxo8ECjxn7llE6BTEstguRQgKaZcHd2putNdLKCS2DQgInKQDwh0hTaBvBRBPUH
-64eL1KvxRjffj6yOiLhwL4mte1V5NNCK+GwLyqRGv9B8OiV0ayj7J0KoToAaS+8n
-bdpuml9p4j+oMbXnR/K+w9UY9TJdq5+riYS3Yv5ee2UJOFdgOVR3pPjPaXDc4CR4
-jR7KBffoHk7N+r6H7zFpaWE90Oht8HDD7LeoBiZyKCz1YsBQlpknwNcPlsezM9+N
-fpqhDBllrmA/dLtqcDuxzaS5R/dvoofxUFAsXRUiu+1QtQXnn1ouWSuqAqP2rjC8
-HQRtpPXZDpMJvqzb06SOTmJ0PTPR9zthBic3IQZjDEr9VEE0RhM=
-=hqs6
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiSwMUACgkQ7ulgGnXF
+3j11dRAAi+x/gNBaVM1Q65s2nzHwNXVNttSYi69Ix+LpVAtks9x8WiLta+WoYS2p
+HkYNDPuW75QrwyhDhDg2JXIkLb9qBSlDMtKfvdrbRYZXhHPMyVIH1GF2m6nc4hEW
+LB7t5rS6CQxtxwv8MTOnkf0GurtO9WAy1evtDrRyuoV9CiClzKfV1cQ4VJuKsss2
+pTnNj4yLMt+TAvGaqgbkBihEd1VFCDgrLEKcyGizYWqngIN3neQPYL58C+TN0dvQ
+CmYPXxleU4qGzh6zrPC2HxwXWZOqjDxktfgJRUAoqHOMEVCiGnG8BRPvcC7ZqqDB
+A+C2Pefto0j3Hf+vh85GrgNkyAqN8VUhBGXKhho0zWgke77+5uKupToPBx1woI/T
+UAZEMXE1jfLisVPAZi6PoQ6iqAv5zJrRu23iTO1iFC4wv/bCuViiibo8pW6v5lFq
+vlp2GVTW4KYLHbRtXe5MD+NJt8V3aQucs1QIaZcUePiFcFIF0rXkkquZKQ8Y10L+
+DVW9ug7+UjWlzO52EPxIbz2hap2hId9fLJZRgeFjmcTaK5+BSk8jH8oE1J2GSUfU
+ErJ0uAUrJjcgCwC33XSrsyTcEuQ23/K6nak+2+ELWz1+rv6i1HngFl41+jCzE2lV
+dK7fKVjcnAgfMwtkqHSwjfuVGz8z6lP5pF9iJfLSEHXtAVDQuuc=
+=jK/w
 -----END PGP SIGNATURE-----
 
---===============0823236807091552115==--
+--===============4513659806786261504==--
