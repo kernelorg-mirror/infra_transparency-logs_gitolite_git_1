@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2832073447975318289=="
+Content-Type: multipart/mixed; boundary="===============0823236807091552115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Aug 2025 02:39:57 -0000
-Message-Id: <175444799764.292470.12811160269057374675@gitolite.kernel.org>
+Date: Wed, 06 Aug 2025 02:40:21 -0000
+Message-Id: <175444802171.294467.1106009637574248241@gitolite.kernel.org>
 
---===============2832073447975318289==
+--===============0823236807091552115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,44 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 7038db703317617ef3691fbbb7259d4cdf208cf2
-    new: 383cd6d879a18acdaa84c29330b25c49cbc0b490
+  - ref: refs/tags/mkp-scsi-staging
+    old: 0b4019135688a6b5ee7c949c206ebfaa31e2ed81
+    new: f2cc6f04437000b96a4ddd6c24aa0309ffdfeb42
     log: |
-         a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
-         383cd6d879a18acdaa84c29330b25c49cbc0b490 scsi: scsi_debug: Make read-only arrays static const
+         034d319c8899e8c5c0a35c6692c7fc7e8c12c374 scsi: ufs: core: Fix interrupt handling for MCQ Mode
+         a59976116a01dad1c72460f9ed700bf4b3fdbebd scsi: lpfc: Fix wrong function reference in a comment
+         eea6cafb5890db488fce1c69d05464214616d800 scsi: lpfc: Remove redundant assignment to avoid memory leak
+         7ec2bd6cd2d0ce6d6224519f895cb932ed5af667 scsi: ufs: mediatek: Fix out-of-bounds access in MCQ IRQ mapping
+         72fc388d8bc0b49fd038477b74618cc15ce18b56 scsi: ufs: core: Remove error print for devm_add_action_or_reset()
          
 
---===============2832073447975318289==
+--===============0823236807091552115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1754448041 -0400
+pusher 75C5DE3D 1754448046 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1754447995-689f261eedc649a45ccbe97cf90f6c6c85670be9
+nonce 1754448001-e42dbd5a481a0c4fa0588df3d869b2beb9f61def
 
-7038db703317617ef3691fbbb7259d4cdf208cf2 383cd6d879a18acdaa84c29330b25c49cbc0b490 refs/heads/queue
+0b4019135688a6b5ee7c949c206ebfaa31e2ed81 f2cc6f04437000b96a4ddd6c24aa0309ffdfeb42 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiSwKkACgkQ7ulgGnXF
-3j074Q//Rs//nwO8zkpWjAcYbWah01MnYCDKUggduE9c658DUKivNASJDovWk4CL
-9iKdBDMt00VAwwx4PHkoGpzZvcd/s/VQIsGvTOC++y4lTWvoLayvJhPFDzWgsejq
-F0AAXJbXnWKJfjDdjsIPoG5DRCut5tjukv9/TvyBkduO8NktP1DGkB9p/6PaInx1
-3hoVkXwUwitHCm6L6k5YuNZIHtmVKn87xPoWlwqFJQnEQUWhFSAMcC/p/TOb+xXx
-AOZApdLbY5j6Qz2EEW+K27CO1UaDG89L5ijnAtisdNMavBrY2uTh4a8f9IE2n6JJ
-4zKA6cYWiY4eoS6MxXMQH00QUubRy3W+1XGZaDCTcTXsM5Za8fbFo7KWirVUJ0Wm
-MQshT+hbXY7mpqJlwOAAHGvHylF/PKQav4naJyI20cqi6obAe5b+xcO5jXM6DUHj
-x6vdjWdS7wUNnRKhMNFZrrqZ9icze6W0r6WE4fNqD+WUrqIw9a7yOWXyu4dmwyiT
-qPMFNWIdxyESd6EZiTVLAyC6ceTsye1EfmqSXaFGAc5eGTbgt2N884wdVRLwrC8Y
-ty+hMIrj2Pgsdjs8aHQeb8mhw7VX73IGz/TzMrrigqyaCxzGMNPlpzKe45G7R3Ho
-kZjzMrCe93Lh4Fp9sZDxBq3pvH6ogv3KX0PJuiUWZBbGpXWwSaA=
-=SpYl
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiSwK4ACgkQ7ulgGnXF
+3j3hUQ//clibtSlUQLt9VItOb7/2ypiE27BE7NHno4PPOgTPr+jZSA8Kx7bIfKV6
+hSdUR6tC8tXmji3SbrfbopX6ZPx40/dqwc7tStkQJ/ABKeyGtv3gf6Fk8mhCrjzf
+HlnsidsZu9aWz7hwTicYOiSFqJcyYEI9Ijv2jTJpGlQ1sicWH+i8gvWtJxu0SvHi
+VSjnvlY0aZAijaCYQcp5WWilkq/yInh9XAFFfT6juW0C8RKxbg4/9osWYkcqhowM
+KP+IlQANxcWyre2NruR7hfD6lOHr9jp7NtqkgFaTbAQcXtM6N/26z7IO06zsFR/x
+TFxo8ECjxn7llE6BTEstguRQgKaZcHd2putNdLKCS2DQgInKQDwh0hTaBvBRBPUH
+64eL1KvxRjffj6yOiLhwL4mte1V5NNCK+GwLyqRGv9B8OiV0ayj7J0KoToAaS+8n
+bdpuml9p4j+oMbXnR/K+w9UY9TJdq5+riYS3Yv5ee2UJOFdgOVR3pPjPaXDc4CR4
+jR7KBffoHk7N+r6H7zFpaWE90Oht8HDD7LeoBiZyKCz1YsBQlpknwNcPlsezM9+N
+fpqhDBllrmA/dLtqcDuxzaS5R/dvoofxUFAsXRUiu+1QtQXnn1ouWSuqAqP2rjC8
+HQRtpPXZDpMJvqzb06SOTmJ0PTPR9zthBic3IQZjDEr9VEE0RhM=
+=hqs6
 -----END PGP SIGNATURE-----
 
---===============2832073447975318289==--
+--===============0823236807091552115==--
