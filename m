@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3617464797667771128=="
+Content-Type: multipart/mixed; boundary="===============1972671136766819033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 06 Aug 2025 07:16:06 -0000
-Message-Id: <175446456670.522077.2955983067185862045@gitolite.kernel.org>
+Date: Wed, 06 Aug 2025 07:16:38 -0000
+Message-Id: <175446459828.522658.1478654118947379439@gitolite.kernel.org>
 
---===============3617464797667771128==
+--===============1972671136766819033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 28712d6ed32028b0f2e0defe6681411496971ca3
     new: d942fe13f72bec92f6c689fbd74c5ec38228c16a
     log: revlist-28712d6ed320-d942fe13f72b.txt
 
---===============3617464797667771128==
+--===============1972671136766819033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ad21f668e8d4c6e4028571aba566227b62fd8d89 Merge branch 'eth-fbnic-fix-drop-stats-
 e6d76268813dc64cc0b74ea9c274501f2de05344 net: Update threaded state in napi config in netif_set_threaded
 d942fe13f72bec92f6c689fbd74c5ec38228c16a net: ti: icssg-prueth: Fix skb handling for XDP_PASS
 
---===============3617464797667771128==--
+--===============1972671136766819033==--
