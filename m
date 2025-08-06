@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Wed, 06 Aug 2025 15:58:52 -0000
-Message-Id: <175449593271.954585.18095595253152705709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 06 Aug 2025 16:23:55 -0000
+Message-Id: <175449743567.975555.18346800288410061578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/renesas-clk-for-v6.18
+  - ref: refs/heads/hack/arch_timer_mmio
     old: 0000000000000000000000000000000000000000
-    new: a80e23d06b2ccd8fa3f387f7e3ca94d736c9c37f
-  - ref: refs/heads/renesas-pinctrl-for-v6.18
-    old: 0000000000000000000000000000000000000000
-    new: 4453c0e83fcbdb3ad1f3002d995dc482f33db596
+    new: 4b341bbc18d791b6c5a6bc373d303c4d3b35434a
