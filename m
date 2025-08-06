@@ -1,39 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 06 Aug 2025 12:29:42 -0000
-Message-Id: <175448338254.775106.13685145237572953687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 06 Aug 2025 12:30:13 -0000
+Message-Id: <175448341300.777191.15156294590813311053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 282528da82a0436f3bed0755338539ba5d7d730b
-    new: ee97e5b8c343c7d9ef37efee20d29a0461942de8
+    old: a49bfbecfde75fa95677d4dfe95de8b25f8de37f
+    new: 6412f6c6f35f8b84f3934f12281bd1c95e744583
     log: |
-         918b744af3d4d11a087814ebb6c390016e5242f2 ASoC: SOF: amd: Add sof audio support for acp7.2 platform
-         60e5b2441d7c035e732e4a1166779c6cc316c46b ASoC: amd: ps: Add SoundWire pci and dma driver support for acp7.2 platform
-         0df24f34794d2eea4bdc819fba0ba28f226286e6 ASoC: amd: acp: Add SoundWire legacy machine driver support for acp7.2 platform
-         1c4c768d068616fa8948826ab714a4ac1f3b9aa9 ASoC: amd: acp: Add SoundWire SOF machine driver support for acp7.2 platform
-         9843cf7b6fd6f938c16fde51e86dd0e3ddbefb12 ASoC: tas2781: Fix the wrong step for TLV on tas2781
-         1b03391d073dad748636a1ad9668b837cce58265 ASoC: Intel: sof_sdw: Add quirk for Alienware Area 51 (2025) 0CCC SKU
-         5bbb3913b7d691d3293fa7cde0a897d44d1e4522 Add audio support for acp7.2 platform
-         ee97e5b8c343c7d9ef37efee20d29a0461942de8 Merge remote-tracking branch 'asoc/for-6.16' into asoc-linus
+         6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
+         72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
+         6412f6c6f35f8b84f3934f12281bd1c95e744583 Merge remote-tracking branch 'spi/for-6.16' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 282528da82a0436f3bed0755338539ba5d7d730b
-    new: ee97e5b8c343c7d9ef37efee20d29a0461942de8
+    old: a49bfbecfde75fa95677d4dfe95de8b25f8de37f
+    new: 6412f6c6f35f8b84f3934f12281bd1c95e744583
     log: |
-         918b744af3d4d11a087814ebb6c390016e5242f2 ASoC: SOF: amd: Add sof audio support for acp7.2 platform
-         60e5b2441d7c035e732e4a1166779c6cc316c46b ASoC: amd: ps: Add SoundWire pci and dma driver support for acp7.2 platform
-         0df24f34794d2eea4bdc819fba0ba28f226286e6 ASoC: amd: acp: Add SoundWire legacy machine driver support for acp7.2 platform
-         1c4c768d068616fa8948826ab714a4ac1f3b9aa9 ASoC: amd: acp: Add SoundWire SOF machine driver support for acp7.2 platform
-         9843cf7b6fd6f938c16fde51e86dd0e3ddbefb12 ASoC: tas2781: Fix the wrong step for TLV on tas2781
-         1b03391d073dad748636a1ad9668b837cce58265 ASoC: Intel: sof_sdw: Add quirk for Alienware Area 51 (2025) 0CCC SKU
-         5bbb3913b7d691d3293fa7cde0a897d44d1e4522 Add audio support for acp7.2 platform
-         ee97e5b8c343c7d9ef37efee20d29a0461942de8 Merge remote-tracking branch 'asoc/for-6.16' into asoc-linus
+         6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
+         72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
+         6412f6c6f35f8b84f3934f12281bd1c95e744583 Merge remote-tracking branch 'spi/for-6.16' into spi-linus
          
