@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1198509687606046663=="
+Content-Type: multipart/mixed; boundary="===============8683090524664983729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 07 Aug 2025 05:39:42 -0000
-Message-Id: <175454518209.1636067.11129113538043233450@gitolite.kernel.org>
+Date: Thu, 07 Aug 2025 05:39:44 -0000
+Message-Id: <175454518498.1636212.13849353879470524741@gitolite.kernel.org>
 
---===============1198509687606046663==
+--===============8683090524664983729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: 704319bef3e7447bca96f680909b41377b2e9b17
-    new: f40c0eddedc1dde07335a222a7818225f7eb8a5b
-    log: revlist-704319bef3e7-f40c0eddedc1.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: 9ace97196f86cb9e089a09995db7605116d41c33
+    new: 04da52c155f023059d178d6c4b72814a0dbb384f
+    log: revlist-9ace97196f86-04da52c155f0.txt
 
---===============1198509687606046663==
+--===============8683090524664983729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-704319bef3e7-f40c0eddedc1.txt
+Content-Disposition: attachment; filename=revlist-9ace97196f86-04da52c155f0.txt
 
 4834b7f92a24f069cd66c199d0a7f957447ac6a0 block: check for valid bio while splitting
 cb10e4f5968afa6fbc0b230781311ba3ee90f0d7 block: align the bio after building it
@@ -84,5 +84,13 @@ b74e5044c3471aefa4b281c0c117d90809ed4bd6 NFSv4: Remove duplicate lookups, capabi
 00438997ccc6548b6605c550563210c3b514299a NFS/localio: nfs_close_local_fh() fix check for file closed
 073b304d3ccf25a2a03cb44d1682de10eca96bdd NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 f40c0eddedc1dde07335a222a7818225f7eb8a5b NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+cfcc076aa8a21c729e4119e3a8f80ced7f649623 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+ce604aa92a83156518df9763def8a37b82254fee nfs/localio: make trace_nfs_local_open_fh more useful
+97080b36e1fe47e452d958f401f6a0eaa013952f nfs/localio: add nfsd_file_dio_alignment
+620aa928bc20f618e61912d7100dcf9e3e4bae9e nfs/localio: refactor iocb initialization
+e261a782de741cb7588cd3a90c2e472df395ecc1 nfs/localio: fallback to NFSD for misaligned O_DIRECT READs
+b2eebdd2ea4dd9eb085af52c42bea72c74f49869 nfs/direct: add misaligned READ handling
+0f60644f6d9ee1d367e433b46826690d0f910f76 nfs/direct: add misaligned WRITE handling
+04da52c155f023059d178d6c4b72814a0dbb384f NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 
---===============1198509687606046663==--
+--===============8683090524664983729==--
