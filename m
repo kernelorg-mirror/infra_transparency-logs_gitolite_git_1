@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 07 Aug 2025 22:58:46 -0000
-Message-Id: <175460752675.2495641.1957727999178383834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 07 Aug 2025 22:59:22 -0000
+Message-Id: <175460756264.2496600.13267310274129482834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: fee0e5de33cee1a40890e3778e5242093463fb8d
-    new: df2c5cf7fa5a9424497a60f69f8bb0c0bc610eb7
+    old: 2aed26017f5a7d9fdc25a51211a7892d7f5589a6
+    new: b336bf97c0c096f22a69e1049b81d18746c6713e
     log: |
-         df2c5cf7fa5a9424497a60f69f8bb0c0bc610eb7 doc: add STA inactive and connected time duration info to diagnostics
+         cf799aa0c36795fbc89d447a7877706e43fbc30f foo
+         b336bf97c0c096f22a69e1049b81d18746c6713e foo
          
