@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 07 Aug 2025 10:15:56 -0000
-Message-Id: <175456175608.1865853.17586622306784037293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 07 Aug 2025 10:38:12 -0000
+Message-Id: <175456309221.1883026.12715924855540773055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/b4/add_err_uevents
-    old: 07d1dfea19e001e2c3dbd90c5e981c3e33294c0a
-    new: b62ffe5d2fda2cd6d3937f61c3ef3a102237d3c2
+  - ref: refs/heads/master
+    old: b67ac0da88ed90f767f89b8eadfae960b7c2230f
+    new: eb0f8239bc35c722c6daa9149bff42f088392f70
     log: |
-         5b822cc705e6b99a06319add93026d9f5dd1e4d6 PCI/ERR: s390/pci: Use pci_uevent_ers() in PCI recovery
-         b95216644b31cfda7ac8dc700b3a81152caa3dfc PCI/AER: Fix missing uevent on recovery when a reset is requested
-         0537b7adfa52e07944b5144bb155d641a2fb7984 powerpc/eeh: Use result of error_detected() in uevent
-         b62ffe5d2fda2cd6d3937f61c3ef3a102237d3c2 PCI/ERR: s390/pci: Use pci_uevent_ers() in PCI recovery
+         eb0f8239bc35c722c6daa9149bff42f088392f70 man/man2/mount_setattr.2: Document glibc >= 2.36 syscall wrappers
          
