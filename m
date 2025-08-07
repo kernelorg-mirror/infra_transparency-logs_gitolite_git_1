@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 07 Aug 2025 13:55:47 -0000
-Message-Id: <175457494704.2046329.3761882798456018497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 07 Aug 2025 14:40:31 -0000
+Message-Id: <175457763141.2082521.18137192422454713357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/sent/20250417-add_err_uevents-6f8d4d7ce09c-v5
+  - ref: refs/tags/net-6.17-rc1
     old: 0000000000000000000000000000000000000000
-    new: 578d168857be229921739ae82109f309cea1a2a0
+    new: c06b7704fb180493287b7ff0c625fc5480d0e7b8
