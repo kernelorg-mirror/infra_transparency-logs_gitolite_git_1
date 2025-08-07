@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6989414946521147346=="
+Content-Type: multipart/mixed; boundary="===============4646411496599814996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 07 Aug 2025 16:14:04 -0000
-Message-Id: <175458324481.2160940.8242469599861439267@gitolite.kernel.org>
+Date: Thu, 07 Aug 2025 16:14:07 -0000
+Message-Id: <175458324703.2161045.9454720516609033560@gitolite.kernel.org>
 
---===============6989414946521147346==
+--===============4646411496599814996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,172 +15,216 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 2eb431dde1d799d75877a641b5b96ee19cbfa147
-    new: 6fc1b7ebf03163464b53c59a4a89889471d54cdf
-    log: revlist-2eb431dde1d7-6fc1b7ebf031.txt
+  - ref: refs/heads/master
+    old: 7881cd6886a89eda848192d3f5759ce08672e084
+    new: 6e64f4580381e32c06ee146ca807c555b8f73e24
+    log: revlist-7881cd6886a8-6e64f4580381.txt
 
---===============6989414946521147346==
+--===============4646411496599814996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eb431dde1d7-6fc1b7ebf031.txt
+Content-Disposition: attachment; filename=revlist-7881cd6886a8-6e64f4580381.txt
 
-29c37b808c12f9a2783daa82cd108e09498c820c selftests/mm: fix FORCE_READ to read input value correctly
-718f4c83ede97e1603ea4549c29552b5573c2211 kexec: add KEXEC_FILE_NO_CMA as a legal flag
-16550aab02aea5d11ca6a2ca3cb922d83fceee24 mm/memory-failure: fix infinite uncorrected error exception for VM_PFNMAP pfn
-8326513a43c53e1c892ae7a7388f16ba346ca95f selftests/proc: fix string literal warning in proc-maps-race.c
-fe2220aa3efdef40999bbc83560b18e31d673ee7 mm: pass page directly instead of using folio_page
-9551e45863de1effb6a0b0da44a00cd56d720054 userfaultfd: fix a crash in UFFDIO_MOVE when PMD is a migration entry
-5c995bb51ee30c6ef24c8a53a8da2e2df8923d81 mm: fix accounting of memmap pages for early sections
-b3061e13f455a265bcbbf7f67359041c1e1b0124 mm/memory_hotplug: fix hwpoisoned large folio handling in do_migrate_range
-2cec048b86a36dc61e5e1274679ee103dbc1d253 kunit: kasan_test: disable fortify string checker on kasan_strings() test
-53c8a5a093f4cfd46551ec1a70c38d3dfae08545 mm/debug_vm_pgtable: clear page table entries at destroy_args()
-bebbba259241aae8967e2038608b5fb46f058338 mm/userfaultfd: fix kmap_local LIFO ordering for CONFIG_HIGHPTE
-401eb39f0feb979bd8979fda60b5ef1654ae4a0f mempolicy: clarify what zone reclaim means
-a7d807b5d32a09b90f29e2404fe87e276e053f86 mempolicy-clarify-what-zone-reclaim-means-fix
-6e7b3266125209131a8052bc5ddee733e055da5f mm/filemap: align last_index to folio size
-bbd7b37250697a1622af12fce69a3f2d1587a73d mm-filemap-align-last_index-to-folio-size-fix
-06195dcdaf60ae2c0808ad70067889b0e6cf34fb kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-8883c9cac675d2f1809f30dce9afac55e33dfb6d kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-953e83acdfdc5b7dbd300dc06b6e3052dde61338 mm/mglru: update MG-LRU proactive reclaim statistics only to memcg
-fba96396d0eee952cc717dc231f5323213380ae7 mm/selftests: fix incorrect pointer being passed to mark_range()
-52cc715944caaa6b67584a34e6e817b84a3b4b6b selftests/mm: add support to test 4PB VA on PPC64
-1ec98dafa2370cc9990df4dee1d831d5c1a95278 selftest/mm: fix ksm_funtional_test failures
-e175c8b516ab03a432f51dc14c0b0b7acb0c5aa3 mm/selftests: fix split_huge_page_test failure on systems with 64KB page size
-5bdf56470c58412b94a3422eb90259739b2d0c09 selftests/mm: fix child process exit codes in ksm_functional_tests
-44bc5c3e601be7a5752fe61eda65ccfab4e4ea64 selftests/mm: skip thuge-gen test if system is not setup properly
-b1b879fa7e639597c16020ec416edc6ce43baa04 selftests/mm: skip hugepage-mremap test if userfaultfd unavailable
-0daeb19d2081b674ff8d3a4f3ad762c1f6b9133d mm: memory-tiering: fix PGPROMOTE_CANDIDATE counting
-5d33f1928621ebba53f75adeed5493333bbd6be5 /dev/zero: try to align PMD_SIZE for private mapping
-3293b3d8a6557cb6cc6fabd2262be04797861a66 mm: replace (20 - PAGE_SHIFT) with common macros for pages<->MB conversion
-6d148c235e9428f6649b70a2afa8f0337fdbcc79 maple_tree: use kfree_rcu in ma_free_rcu
-a81e28d1599c7fb31da915e13a6118d82e83f600 testing/radix-tree/maple: hack around kfree_rcu not existing
-ea26f69f550ba63374cbf813ddfed3e213121b3e zram: protect recomp_algorithm_show() with ->init_lock
-56c628b507d0fcc200938b23a1461814866346de selftests/mm: pass filename as input param to VM_PFNMAP tests
-28f185f94b5fad6e6a9824a711119b6fa4d49463 mm: limit the scope of vma_start_read()
-7ace25f5bd64ce2409308ba6423bad62b44a02a4 mm: change vma_start_read() to drop RCU lock on failure
-13b8e93d200e0b02f493192095792a96e59bfe20 mm, swap: only scan one cluster in fragment list
-7b29df423b936a881420612a52612ec750701da8 mm, swap: remove fragment clusters counter
-105aac168125ccf20ae19e1c15a368ffd9277df8 mm, swap: prefer nonfull over free clusters
-ea89eddd63288bd90268f95cd2add981c9a1d4cf mm/swapfile.c: introduce function alloc_swap_scan_list()
-ca406e4849b3ec339b30b0530f01bd1d345325ca selftests/mm: use __auto_type in swap() macro
-e22726793e2405ea3019bd9b68a45607f5ab0afd mm: correct misleading comment on mmap_lock field in mm_struct
-e87060d91b880137c39f4b46448cdd3e26ff29e4 mm/vmalloc: allow to set node and align in vrealloc
-632884354d48f0ca69175e4c1712b40cb6343fc2 mm/slub: allow to set node and align in k[v]realloc
-cebda75cdbf09cd8c6ec652f25ac93fb9e973753 rust: add support for NUMA ids in allocations
-9a370a6cfc1cc4d90f4ddc291996ffc76db720ca rust: support large alignments in allocations
-98c3b25e46eb65038447e54ab199f7848cf25bce mm/nommu: convert kobjsize() to folios
-fece24177b6fb874e0e4830aa76fe4d184aff135 xarray: remove redundant __GFP_NOWARN
-6da31dfae94a9c69cf34966621065b64c5142453 maple_tree: remove redundant __GFP_NOWARN
-3fd2933ceec699ddacaad5f064967dccb6173b10 mm/rmap: do __folio_mod_stat() in __folio_add_rmap()
-33d86aac1840bf5e2808cc4515a5f286024fadc8 mm/damon/core: skip needless update of damon_attrs in damon_commit_ctx()
-d276dc5caa2f8f49bbf6a42a7eaac6b8d3dc086c mm-damon-core-skip-needless-update-of-damon_attrs-in-damon_commit_ctx-fix
-94d5825d8dc1c1d7c56f262842fd54d22820de30 mm/damon/paddr: move filters existence check function to ops-common
-0570989eaaf235481a2d1089e91f6cc02749d893 mm/damon/vaddr: support stat-purpose DAMOS filters
-701d62d29c59350330b632110fc7e2800809ea88 selftests/mm: add -Wunreachable-code and fix warnings
-f4ca049902e6913347ccae01ab99906339a56479 selftests/mm: protection_keys: fix dead code
-3200ef4a90dfbdc3c107e56b97b82620cd89a677 selftests: kselftest.h: add __unused macro
-072fc09dbf840d6735500dcacd129e9149c29ff3 selftests/mm: add -Wunused family of flags
-942b3a02e7efa39dc23fef839a8a9ed1068eb5d2 selftests/mm: remove unused parameters
-d78abd51542c4bd0af47bdbd74a8ddb6e53c91f0 selftests/mm: mark unused arguments with __unused
-51c1cad7176c40d500ce8fb0ec6fd77b6404c58d selftests/mm: mark more unused arguments with __unused
-f8f8b4cf4fcd6869ab76f2b8dbdce67b3b882888 selftests/mm: fix unused parameter warnings for different architectures
-b4c70ee72b5c4f5e343a6aea0d97460f5d70d679 drivers/base/memory: add node id parameter to add_memory_block()
-1edb26ebc97476b7e92f9c88b85f810bceab4164 mm/memory_hotplug: activate node before adding new memory blocks
-20405698c441d06231fd5fe5098984385a17dde5 drivers/base: move memory_block_add_nid() into the caller
-c2c4f9f6971719b36eb093a0380c1de593fbeeea === mark start of DAMON hack tree ===
-1d4465d158ef640d8bc1cbe7d3e08a8b5ee67b70 add -damon suffix to the version name
-78b7fe73f7b05eac85c684def01a6e7e1557f2eb === temporal fixes ===
-b9c6d93c8bbb30262f99486e47392ea5248a66ea Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-904da8e771074f4d64d2360e46ffa3ceba12630d === patches written or reviewed by SJ but not merged in -mm ===
-6a674424352db58aaeb9e3089c0a1a3c8077772e docs/mm/damon/design: fix typo
-77dc96b51afd88e979a3314887dff68fcbb0cf6c mm/damon: update expired description of damos_action
-54952b5b67ba760b4438609768425459f8219d34 ==== Pan's vaddr stat filters ====
-13a13318943e26cc04239c502ec4eb6e7b2cd7a8 === hacks in progress ===
-01abd09b6b94f66d2bde1d071eeae6f789d5820a ==== misc fixup second round ====
-c3a56e33b60f984704a708a1cc752b6228614643 mm/damon/lru_sort: use param_ctx correctly
-86458bc0f211689fb6e2ff949a9fac488bd8edb3 MAINTAINERS: rename DAMON section
-d7c1399a078c8a2749ebab8d0a8e0871cb8ee404 ==== damon_initialized() ====
-83ac6727cba956992d4b595b4207d1e4c5d519b0 mm/damon/core: implement damon_initialized() function
-c1fec24e7a67c7b655d7d8834abfb4848b02b973 mm/damon/stat: use damon_initialized()
-1609b1fa3400b9e321fb088693f3b20be5820adf mm/damon/reclaim: use damon_initialized()
-ceac110aba3b3a79617805c0229a8b87113f48f2 mm/damon/lru_sort: use damon_initialized()
-4045abc9b61055751e1e6f165e5c33391b5a0a81 samples/damon/mtier: use damon_initialized()
-5c8ef95b97f1c5b0c0bf3a9b7a083479ed47bccb ==== fault/report-based monitoring for per-cpu and write ====
-54c637f2fa074bfd52a7b409c41422ac190712ea mm/damon/core: introduce damon_report_access()
-494eda3fe2f5b391022f37880dcc3a14285bf7cb mm/damon/core: add eligible_report() ops callback
-33c0cecd8f0e4377ce052aa6ece1c8d7005c0875 mm/damon/vaddr: implement eligible_report()
-7306efdbfe413775fc19a9eb0044942875698b38 mm/damon/core: read received access reports
-8489f87f45653c8a8b9cc2bc244f530763aafad8 mm/memory: implement MM_CP_DAMON
-40db0fbfe9b99c8d808be6c1c7af7fd5ce0718b1 mm/damon: implement paddr_fault operations set
-9d965c996c1d87d83f3124ba3e34d1f92047805b mm/damon/sysfs: support paddr_fault
-24f97eb2f52d6d8510d104305d02d1f7b8b3807e mm/damon: introduce damon_operations_attrs for operations set control
-04f8e5793bc79b6336cf60a5e207c186dda5bd4a mm/damon/core: use reports based on ops_attrs.use_reports
-49d36a4cdb0afbd35390a230a3ca34038d70fa51 mm/damon/paddr: use ops_attrs.use_reports to determine what source to use
-d834e322137fffdbc4b9f20e5def01fb56ed45c0 mm/damon/paddr: remove paddr_fault
-366962832c8fac5d4ea6aa698dc37921145f5016 mm/damon/sysfs: implement ops_attrs directory and use_reports file
-ddbe9b306e12653199fa3da028688f12ec8bf00d mm/damon/sysfs: connect use_reports to core layer
-68538d99955d6d8dc18b7a89233275fd16101e5a mm/damon: add operations_attrs->write_only
-658b62a670f84dab08edacc49097591cc6dcd561 mm/damon: add damon_access_report->is_write
-1ffe34325f232a1f40f437887a0cedc5e6a2e7f3 mm/memory: set damon_access_report->is_write from do_damon_page()
-4b8bb27754c63998417263d57df1a7801cc9d1d0 mm/damon: pass opeartions_attrs to damon_operations->eligible_report
-2434b7f05f1000ee8fcae5a06495cb929d868ae6 mm/damon/paddr: implement write-only handling eligible_report()
-294dbcad02139c0d49852488d0fc402dfa4a5603 mm/damon/sysfs: implement write_only file under operations_attrs
-96182cd4a2e7d55f74407b41f937af307c67a182 mm/damon/sysfs: pass write_only to core
-8970318a449b891b44cecf37741345d117670308 mm/damon: add damon_access_report->cpuid
-efc8e8d3b01deb1856e1da4ece73fc4e9ad56270 mm/memory: set damon_access_report->cpu
-ccaf9db95d2df902e7d143aec869d43c3dce830c mm/damon: add ops_attrs->cpus
-978515dc177e3bbe17f24cd3e8ca7e996c38cc99 mm/damon/sysfs: support ops_attrs->cpus
-18509f95c65d6d277649c3e491e4516cf6035e69 mm/damon/paddr: filter reports based on cpus
-d766944d48ce6ec0f32aee806db0f2deb9daf080 ==== docs for DAMON and mm ====
-a765bd921f78085954b08d3dbea8879d93b44080 Docs/mm/damon/design: add table of contents for overall and DAMOS
-15aafecdc774118657ed45a3a1fd6dba4da275b6 Docs/process/2.Process: Update mm tree URL
-b9414cca5bef4b75c167b8a19028e47ede76652b Docs/mm/damon/design: add API link to damon_ctx
-70d8a6c8461e53c8c166cd02cf05dd62b06decd9 ==== ACMA ====
-7a2c3495a7c64cb003f9483c480b18022144f050 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-fca4987129e8a1151a37b835b72064b42f785cc3 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-93b5d4b00ec9da444be2358ad8faaa76e638ba20 mm/page_reporting: implement a function for reporting specific pfn range
-cb53374a23771cce2a85e97818c8daa127501078 mm/damon/acma: implement scale down feature
-283e1fadd7fdf91304daaa5ac7e5aab0fd1f500f mm/damon/acma: implement scale up feature
-da0096756611f8f0dc297ed8d45955a5281555a3 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-95c85241653243d70939543438fc7eda8dbc2cb4 === commits aiming not to be posted ===
-b958da08a64ba067a8838135c51ef7df2df380c6 mm/damon: Add debug code
-60b0a03f70c9b945f1eb12380a59d4d63dbbe18c mm/damon/core: add debugging log for intervals auto-tuning
-a3df5034b9f4e0510668e84422b6cc4e4ece328f mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-ef823c8acf0ea17833e77ed10949fd4d8f2db852 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-19c090e166e5e8584f1504ea2c36f6e735041607 mm/damon/core: add todo for DAMOS interval validation
-ac849a9d33d73220bab68f54220d12532470b13c mm/damon/core: add debugging-purpose log of tuned esz
-b249eb04ddb6e590728138be2ced93f3a2d649a9 Add debug log for PSI
-b5d98a5f5c227ecd454ab1365b3c1a46619fb9ce mm/damon/core: add debug log for reset_regions()
-75171bacbb93428e23dc4bd8f31de7c1994ea337 ==== lru_sort advancing ====
-fb1b649e7eb41ce1b7929d96c9beeac06f5ec8f2 mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-14f41369f2c913865cb6bf8100a338ad7e866eab mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-8b81de53448356ffccf1cd35a07ccd7418866ef9 Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-54c2f6406fdd61364c938bc71a6033899491f284 mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-d30f4336d726ffe2b217929e73f2b30ec151c836 mm/damon/lru_sort: consider age for quota prioritization
-a75ea50adbb2ce1e5568d398621bd7acc4e64224 mm/damon/lru_sort: support young page filters
-e160b7c2b87aa4f1900fbc4a40a1aa194e51845e Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-ccd1545fbfdea4f9a58a108e70991d5aef1b28e5 mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-5986f092b39a39c486c5ab87013daae2f0e61d2b Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-a3f81635375c78053292e2555555c4d7b3cca523 mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-8c59b18037888186ad37098067035169b38787ca Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-64f86df877b09191993d71ccec693a93e03cebcb ==== numa_memcg_used_bp DAMOS quota goal metric ====
-044e1ba8fb96e9c78772828c834f7d4fd317d9ce mm/damon: document damos_quota_goal->nid use case
-e1aed3d2a4e5fa6007a797db5c50019501588cef mm/damon: add a new DAMOS quota goal metric for cgroup on node memory usage
-987d0da8445ad059759a1d772651eda06d6abf39 mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_USED_BP
-64688242280d15cb01933e283819cd4dbc710cf0 mm/damon/sysfs-schemes: implement path file under quota goal directory
-d68344c3d263c38ec1447e005aaa174eccba779f mm/damon/sysfs-schemes: connect quota goal path file to DAMON core
-3ad79502e603a3c63c2c8f090b54f81e52e8e5c9 Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_USED_BP
-a35f0741d05139cef19defafe13ba36842c2c1f4 Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
-ebe13fcbf242c49fd71c7d15e8f18d3691ebae4b mm/damon: add DAMOS_QUOTA_NODE_MEMCG_FREE_BP quota tuning goal metric
-3034ddca12d9ce67ef50137d249f9df158603206 mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-edd96bdbdb8e50eb87967f821518aac6c5c72271 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-bd8342c29e60d5e93f22b83f7fafdf5060bd41fb Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-6032f665ff05f7f96dd02573f0b2288ac7beb699 ==== uncategorized ====
-7b850e7d12c88263cc53382e0a183c62e5ae9385 mm/damon/core: add an hacking idea concept interface prototype
-5b484419a29d0506a9d185c0547e72b852d82702 mm/damon/core: fix prototype warning of damon_search()
-000624d0335fdb0a86d2eefd2199b019e6c82156 mm/damon: add trace event for intervals score
-6fc1b7ebf03163464b53c59a4a89889471d54cdf tools/mm: add thp_swap_allocator_test to .gitignore
+8ffcb7560b4a15faf821df95e3ab532b2b020f8c ipmi: Fix strcpy source and destination the same
+0a1eab129fedb4281e65c845b04be02b53c99f9c kconfig: use memcmp instead of deprecated bcmp
+694174f94ebeeb5ec5cc0e9de9b40c82057e1d95 kconfig: lxdialog: fix 'space' to (de)select options
+626c54af35764b0b8a4ed5c446458ba6ddfe9cc8 kheaders: rebuild kheaders_data.tar.xz when a file is modified within a minute
+1a0faff2833b59a74c8389bcdc390af99dc9d2cf kheaders: rebuild kheaders_data.tar.xz when KBUILD_BUILD_TIMESTAMP is changed
+f4363dfc900a7ffda96587d38982a1f3ea3d10bd kheaders: double-quote variables to satisfy shellcheck
+7934a8dd8692b56714ce9b36421e316445d94a77 module: remove meaningless 'name' parameter from __MODULE_INFO()
+b04c7e88bcf5ddcd15e2c620b802c28848f437bb kconfig: set MENU_CHANGED to choice when the selected member is changed
+36b624b992ff692f8a3a1c4c078827c576d72efb dt-bindings: input: touchscreen: convert lpc32xx-tsc.txt to yaml format
+4aaadf94aab09ccc95f14f75e11e045a1530d364 Input: ad7879 - use new GPIO line value setter callbacks
+687f0d0ee5cf3f9efd69e58da8f22e10590cd76c Input: adp5588 - use new GPIO line value setter callbacks
+43a8440f396951eaae85db478b30a53aea8cda7d Input: adp5589 - use new GPIO line value setter callbacks
+409fe0cea366ee2e239631ab14337210a5e5f7e4 Input: goodix - add support for polling mode
+cd5f1534a37e0b05733a8714195ec90474c20e82 kconfig: qconf: do not show checkbox icon for choice
+604f5b2127fb76e15dcc6dabbd73b541817a2fba kconfig: qconf: show selected choice in the Value column
+3c292cd0047c8758a2db7a44e441314e78b4db00 kconfig: rename menu_get_parent_menu() to menu_get_menu_or_parent_menu()
+7d1bfaa457686b1e791de03450a3d49f28bdd022 kconfig: re-add menu_get_parent_menu() that returns parent menu
+2f2d60f489f0b2410f33103fa42296f7466673e0 kconfig: gconf: make columns resizable
+f72ed4c6a375e52a3f4b75615e4a89d29d8acea7 kconfig: gconf: fix potential memory leak in renderer_edited()
+fc75e51e6977f12f76cdcc6f9658a61b04cc4b3e Input: pcf50633-input - remove the driver
+54e626d097b05af9421534d211c9f96211d07d66 Input: max8997_haptic - optimize PWM configuration
+02bb13bd6c55bffb53de8da1eae87533d332235d kconfig: gconf: always destroy dialog in on_window1_delete_event()
+bff576a2a90954c6b242bf02d915c49f52b1e3cb kconfig: gconf: remove old #ifdef GTK_CHECK_VERSION
+ab2924ab5e75380b007fad1fded809b5ba650b76 kconfig: gconf: remove empty if-block
+5575df3d3a216860db720ed5d3d1dcef33ab4d6d kconfig: gconf: remove meaningless code in init_main_window()
+08726436886e05c46efcb0655018a74c534ddead kconfig: gconf: remove unneeded gtk_tree_view_set_headers_visible() calls
+ede0a43249d47660ca977c90a279b6cfc9da314a kconfig: gconf: remove gtk_tree_view_column_set_visible() calls
+dc1de6c03bc67ff918d904c7f239eaebea34b99b kconfig: gconf: remove gtk_widget_realize() calls
+ace8bee8369c209b647600c3dc28b529e4f44966 kconfig: gconf: remove gtk_tree_view_set_rules_hint() calls
+f931a5d37a17f941492392b13f0ad67b1bac8bef kconfig: gconf: remove unnecessary gtk_set_locale() call
+a54b0397d36706ce6f60e0e56709ad94791eda45 kconfig: gconf: remove internal-child="image" nodes from glade
+b3841b501c4a58ba20f190afd25aa4b93cd664f9 kconfig: gconf: remove parents[] array and indent variable
+9b8338fd45fc10961130bc2477aa72e4484e2732 kconfig: gconf: remove unnecessary NULL checks for tree1 and tree2
+8e3136eb27211eaf0560543dd0ee4698c6eb751f kconfig: gconf: remove unneeded variable in on_split_clicked()
+57b63d17f73e2d5576e57521fb10307b91439b72 kconfig: gconf: remove unneeded variables in on_treeview*_button_press_event()
+b4809e25e2bf05de6398830f0990abe5dff49ac5 kconfig: gconf: remove unused 'color' variable
+290fc035dfeb07fcec57b09d888f837531333af7 kconfig: gconf: add static qualifiers to variables
+7ef533938e6cd7d0e33e1c24389c34a21221979b kconfig: gconf: move init_*() functions below
+45601c66b5ddbe665937659b957e71bc8efedd46 dt-bindings: input: touchscreen: convert tsc2007.txt to yaml format
+6a71a6679fcbe96f894292d6cfc0d58eabf9ac8c Input: cs40l50 - remove redundant flush_workqueue() calls
+68743c500c6eafcd0b16dc6067fea5bca0795eef Input: edt-ft5x06 - use per-client debugfs directory
+06226bd497dd99780968600e498f95e8d049d1c2 dt-bindings: input: touchscreen: edt-ft5x06: Document FT8716 support
+c6f908f88a55be7641d78a99053818147bde93e9 Input: edt-ft5x06 - add support for FocalTech FT8716
+e65efc62ca352906c880796e9ea2f2d77299de97 Input: samsung-keypad - switch to using devm_clk_get_prepared()
+4d4d74c6c9931b3c16ec49f0fb26c547be90f998 Input: samsung-keypad - do not set input device's parent explicitly
+706a066328dbdd7a15ac4904905fa7f8bd29cdf0 Input: samsung-keypad - do not combine memory allocation checks
+647fc2bfe21e1114b06de8ee2bc1e479072e7509 Input: samsung-keypad - use struct_size() helper
+5658439a5fc71272be9457b5028bdcd68c559b7a Input: samsung-keypad - use devm to disable runtime PM
+f1e5f6827dd36dda9a3745ead9f142f66429f14a Input: samsung-keypad - use guard notation to acquire mutex
+42121e7828fde8559de76af301770ed2bf3e1527 Input: samsung-keypad - use per-chip parameters
+a8353b632eb0fa95fe89086e0ac83e550d3c2c42 Input: samsung-keypad - use BIT() and GENMASK() where appropriate
+8d6b5c14ab0bdca5b8a7583ccbec4a092e3458bf kconfig: gconf: refactor view setting code
+b22bbaea7f59ea1fa609462bed2eb075eea97586 kconfig: gconf: grey out button for current view
+3e0fb3ef01584bcace87c42a4f96abacad624386 kconfig: gconf: move the main window event handlers below
+f0049c937d2f38ae208c06aa5ef114dac226d01c kconfig: gconf: move button1 and save1 initialization code
+77e8ff988918de554e0176c4ce0064944935efb7 kconfig: gconf: add static qualifiers to event handlers
+e06b176bf1b4a779f76b686ab5230dce45a8360e kconfig: gconf: remove glade_xml_signal_autoconnect() call
+3beae8659513550b6b82a4ccdc4d25be9497f208 kconfig: gconf: make key_press_event work in left pane too
+cae9cdbcd9af044810bcceeb43a87accca47c71d kconfig: gconf: avoid hardcoding model2 in on_treeview2_cursor_changed()
+e6991e8004bf1ff8fc31b14833c4995672f18b04 kconfig: gconf: avoid hardcoding model2 in renderer_edited()
+59adbcd8051a222023f52cfac0143d927735b194 kconfig: gconf: avoid hardcoding model* in on_treeview*_button_press_event()
+4d89059a722d9a562bfe6ee1e3941ccc3c6c70b6 kconfig: gconf: add on_save_clicked() event handler
+30dda0fdf7a6655bf180b61063087aed28812007 kconfig: gconf: use GtkFileChooser in on_load1_activate()
+fd7fd8024c32ae2037f98d53198e42d5c597ca0b kconfig: gconf: use GtkFileChooser in on_save_as1_activate()
+9517f47dbf8ab7a7e554e7b34563982cfc63c366 kconfig: gconf: use GdkPixbuf in replace_button_icon()
+b8f660aabcf2dbbd7e8f84c6341e015124bbfc4e kconfig: gconf: refactor replace_button_icon()
+20f375cbfe4f7e3870226f68877c9285bd8401fe kconfig: gconf: make introduction, about, license dialogs modal
+1bd81df0b1cc8d17b7818889c4c1cdf53415e606 kconfig: gconf: remove global 'tree' variable
+ecaa87d4e9c2820a376270955cd166cd77f82891 kconfig: gconf: merge 'current' and 'browsed' global variables
+ab026457d3f8132b62f6855840817467ea92671e kconfig: gconf: preserve menu selection when switching view mode
+e3795479366833d576f8e096be8ef9f42f9d124e kconfig: gconf: use GtkTreeModelFilter to control row visibility
+b674af6ec8541151750b424520fc1acec32deae9 kconfig: gconf: remove global 'model1' and 'model2' variables
+ed332436f3ca8a130ee9fc49d0882af5fbc344ef kconfig: gconf: remove init_tree_model()
+64285dc5c41fc7a031695c2c286a2bfef9eaf2c6 kconfig: gconf: inline fill_row() into set_node()
+035c2f56f57432caa78378e3ab498a5fb9bd276b kconfig: gconf: do not reconstruct tree store when a symbol is changed
+063a274a5e297720e18b3a1d7bbfe2d039e12192 kconfig: gconf: inline display_list() into set_view_mode()
+bf5792da5ac14c5e95f1e8612df70096ee5a44d1 kconfig: gconf: remove dead code in display_tree_part()
+475c878f971661511fb3911af96c0ee0cb533527 kconfig: gconf: replace GDK_space with GDK_KEY_space
+7783290143b37c568538d8e699d81d1e6c8af72b kconfig: gconf: replace GTK_STOCK_{OK,NO,CANCEL}
+ad452c27aeb80d1c3ee449250c3f790e7bd8ffaa kconfig: gconf: remove "tooltips" property from glade
+9d0e47c4c879dfbaa1f407ecbd4176682f711871 kconfig: gconf: replace "tooltip" property with "tooltip-text"
+ea1438f720aa2fa287237fbeb7e76a1e83a10af8 kconfig: gconf: remove unnecessary default message in text view
+07944f94fc8c02344f283e461b1ea817a9108e17 kconfig: gconf: use gtk_check_menu_item_get_active() accessor
+c34d632370592cb503991728afdf5287b2d1f7ed kconfig: gconf: use gtk_dialog_get_content_area() accessor
+9e0bd6db622c7c19aec5a8b248bb34493c9998e6 kconfig: gconf: remove GtkHandleBox from glade
+84060ea3e0b6294abde57b85502ccf9fa65f94de Input: evdev - switch matching to EV_SYN
+bf4e6e3331effa91fdf7cac6b5dd7ff4ec18c227 Input: remove special handling of id->driver_info when matching
+bc25e6bf032e8fb17e6985c6393a6cdee6010a28 Input: mtk-pmic-keys - add support for MT6359 PMIC keys
+f6f9760320a93930e70ad6016afbabc475bcdd09 char: ipmi: remove redundant variable 'type' and check
+ec50ec378e3fd83bde9b3d622ceac3509a60b6b5 ipmi: Use dev_warn_ratelimited() for incorrect message warnings
+b25e271b377999191b12f0afbe1861edcf57e3fe vfio: Fix unbalanced vfio_df_close call in no-iommu mode
+982ddd59ed97dc7e63efd97ed50273ffb817bd41 vfio: Prevent open_count decrement to negative
+fe24d5bc635e103a517ec201c3cb571eeab8be2f vfio/pds: Fix missing detach_ioas op
+e908f58b6beb337cbe4481d52c3f5c78167b1aab vfio/pci: Separate SR-IOV VF dev_set
+b3060198483bac43ec113c62ae3837076f61f5de vfio/mlx5: fix possible overflow in tracking max message size
+3e90b38781e3bdd651edaf789585687611638862 scsi: mpt3sas: Fix a fw_event memory leak
+33b3120cb20fde80bf601413b635f957c46ad631 scsi: ufs: qcom: Drop dead compile guard
+dafeaf2c03e71255438ffe5a341d94d180e6c88e scsi: aacraid: Stop using PCI_IRQ_AFFINITY
+7bdc68921481c19cd8c85ddf805a834211c19e61 scsi: Revert "scsi: iscsi: Fix HW conn removal use after free"
+35dabf4503b94a697bababe94678a8bc989c3223 scsi: ufs: core: Use link recovery when h8 exit fails during runtime resume
+7ffbf335e325ed3f36ebcfed8149a8d0d7e20076 scsi: target: iblock: Allow iblock devices to be shared
+220e6083e8bdc11c414c2a44643f739d5c826d7b scsi: MAINTAINERS: Update hisi_sas entry
+6e0f6aa44b68335df404a2df955055f416b5f2aa scsi: target: core: Generate correct identifiers for PR OUT transport IDs
+37c4e72b0651e7697eb338cd1fb09feef472cc1a scsi: Fix sas_user_scan() to handle wildcard and multi-channel scans
+51b6f738ebfafba4e309e1cde3e8e1745782f128 scsi: ufs: core: Use str_true_false() helper in UFS_FLAG()
+262893939604204d14d7621b6d2658199d1672bb scsi: ufs: host: mediatek: Simplify boolean conversion
+a84a9ba7888fabc00c9585a0626343dfd5538d59 scsi: ufs: host: mediatek: Add DDR_EN setting
+16b30c7a4c564e80fefe7e6416320f4f5b776d60 scsi: ufs: host: mediatek: Change ref-clk timeout policy
+a44ff97f895bd8615ebb53e6e199b74152c18bba scsi: ufs: host: mediatek: Handle broken RTC based on DTS setting
+66e26a4b8a7793137551e77a7e9f6eb1263a49c2 scsi: ufs: host: mediatek: Set IRQ affinity policy for MCQ mode
+7996746394df569355113ce4643ab892442cfe1d scsi: ufs: host: mediatek: Add more UFSCHI hardware versions
+ff40f31216fffc1b7f7e5a9e27a317a29a798289 scsi: ufs: host: mediatek: Add clock scaling query function
+31a20e9f7c766896fbfea45897969bfd1490b466 scsi: ufs: host: mediatek: Support clock scaling with Vcore binding
+5e5976f5242de61b9c09c32795b3d7b90364af51 scsi: ufs: host: mediatek: Support FDE (AES) clock scaling
+60feab054bc0b45d40f80d81c2854aa2ef1e920c Merge patch series "ufs: host: mediatek: Provide features and fixes in MediaTek platforms"
+4428ddea832cfdb63e476eb2e5c8feb5d36057fe scsi: ufs: ufs-pci: Fix hibernate state transition for Intel MTL-like host controllers
+6de7435e6b81fe52c0ab4c7e181f6b5decd18eb1 scsi: ufs: ufs-pci: Fix default runtime and system PM levels
+28a60bbbe739c5c895d2d36d23c93045667b4566 scsi: ufs: ufs-pci: Remove UFS PCI driver's ->late_init() call back
+497027eade8c02afdb6c5d21a193ef5cf4a26d0f scsi: ufs: core: Move ufshcd_enable_intr() and ufshcd_disable_intr()
+c5977c4c0731b60c8c0b3f7cc4b0082a688a07f8 scsi: ufs: core: Remove duplicated code in ufshcd_send_bsg_uic_cmd()
+b4c0cab4eb8d79cf426ac7bca20864881c8b9b8b scsi: ufs: core: Set and clear UIC Completion interrupt as needed
+d402b20f9c31e477f3cf3512be22c7943dbb0ee4 scsi: ufs: core: Do not write interrupt enable register unnecessarily
+22b246e3fc5eb450fffad1eb322e08e3af0e6e3d scsi: ufs: ufs-pci: Remove control of UIC Completion interrupt for Intel MTL
+aa8c53346e38bc3529f0773ee377efb8ea7b610a Merge patch series "scsi: ufs: ufs-pci: Fix hibernate state transition for Intel MTL-like host controllers"
+6f1fd3e0279f0b06cd8d53133a25bd83ac0fcb8a scsi: ufs: ufs-mediatek: Add UFS host support for MT8195 SoC
+794ff7a0a6e76af93c5ec09a49b86fe73373ca59 scsi: dt-bindings: mediatek,ufs: Add ufs-disable-mcq flag for UFS host
+d01cfeac89e956b74e17dc9b1c8e10c0d3b4e403 scsi: dt-bindings: mediatek,ufs: add MT8195 compatible and update clock nodes
+a28f98103890403717008a3a016744721f87b03e scsi: arm64: dts: mediatek: mt8195: Add UFSHCI node
+8e48727c26c4d839ff9b4b73d1cae486bea7fe19 scsi: sd: Make sd shutdown issue START STOP UNIT appropriately
+54091eee08acebfb5e971611c3f189e7577a1058 scsi: libsas: Refactor dev_is_sata()
+0dd03570512a305bc44ac9c8326da95dd8fc3a1d scsi: libsas: Simplify sas_ata_wait_eh()
+bd31394aabf36ee18781c6371e02d789484ffda3 scsi: libsas: Make sas_get_ata_info() static
+704ed03abf6b1c2752a8b16446a5ebf18694fefe scsi: libsas: Move declarations of internal functions to sas_internal.h
+75fe230b9bed364d7ddca482ff29979d873718fa scsi: libsas: Use a bool for sas_deform_port() second argument
+7038db703317617ef3691fbbb7259d4cdf208cf2 Merge patch series "libsas cleanups"
+f468992936894c9ce3b1659cf38c230d33b77a16 kconfig: nconf: Ensure null termination where strncpy is used
+1f937cdf32689279297185be72751ae1c5566baf docs: kconfig: add alldefconfig to the all*configs
+0c82f50a06aa13e6fc29e17081094489d57745fd kconfig: gconf: fix behavior of a menu under a symbol in split view
+06ba76dc825703fa61cee72c2ae66508ef5f10ec kconfig: gconf: use configure-event handler to adjust pane separator
+894ad403439e54d3cdee77a538190dd08ae54789 kconfig: gconf: rename display_tree_part()
+e06030c1ae3299f71ae38ccbdd4ae0a2d0aa9189 kconfig: gconf: rename gconf.glade to gconf.ui
+9755d167bf51fad7091bd990f8d57006d6a60669 kconfig: gconf: migrate to GTK 3
+df889fdbb8d4243504eba94e1c3a809a4996a219 kconfig: gconf: replace GtkVbox with GtkBox
+d6f0b652d9b54af5a9cf3e926ecfba81c28e1fc4 kconfig: gconf: replace GdkColor with GdkRGBA
+bfa7375c10dfabf6b3289041c12d698861277d90 kconfig: gconf: replace GtkHPaned and GtkVPaned with GtkPaned
+65056488e8bfaf6626cd2bba9fa847b264d9fefc kconfig: gconf: show GTK version in About dialog
+263e70bc42862af18dce43393ef14277827a0c7f kconfig: add a function to dump all menu entries in a tree-like format
+721bfe583c52ba1ea74b3736a31a9dcfe6dd6d95 kconfig: qconf: fix ConfigList::updateListAllforAll()
+87433e3e06a6b6a78a541b6ac39000f41779a882 kconfig: qconf: confine {begin,end}Group to constructor and destructor
+e06aa69de21b6de2ef83f559768a4005114f5661 gendwarfksyms: use preferred form of sizeof for allocation
+d8f26717c901b7ec88c3151988fe70ecaed990b8 gendwarfksyms: order -T symtypes output by name
+b9f75396ec107628cc5f52fb6e055c1c9dc68401 scripts: add zboot support to extract-vmlinux
+6d4d44254e43157bb760aa16367a394c2ab299b8 kconfig: gconf: fix single view to display dependent symbols correctly
+15a5ae3b0976d1190728044920cf6337a218ae62 kconfig: gconf: Fix Back button behavior
+2bc0148f78193865065035fe19095c78c3d8129f kconfig: gconf: replace GtkImageMenuItem with GtkMenuItem
+e16f08062f91570aa225bc490e0a92d63ae13769 kconfig: gconf: use hyphens in signals
+5ceb15fdc629aa3030e8f8987c561d36678f9559 kconfig: gconf: remove unneeded variable in text_insert_msg
+eb549e194bf2d5c86b1b7a71fad54d610dd6c892 kconfig: gconf: refactor text_insert_help()
+a9c95d17dc13b8a4c5faa02a6b84ba83af058206 Input: synaptics-rmi4 - add support for Forcepads (F21)
+0da895952607c03cf0518960692cd1b3439c5d25 dt-bindings: input: syna,rmi4: Document F1A function
+4619b6b97553693be7faf21af0533c24240d1d4f Input: synaptics-rmi4 - add support for F1A
+3b19c9ed6f01060e9b58963b581ec41b03104c55 Documentation: Fix capitalization of XBox -> Xbox
+a43a503df996739ae34f179f6b73b0ae91000c5c Input: xpad - change buttons the D-Pad gets mapped as to BTN_DPAD_*
+97c01e65ef4c1878532be245b2899fc4363cc453 Input: Add and document BTN_GRIP*
+e7412ba919f625438c570d8b4fbf16c5f31b583d Input: xpad - use new BTN_GRIP* buttons
+17eabb792740cea3f24b236e150f9fee8cd344f3 Input: atkbd - correctly map F13 - F24
+19875ccec01653a897a53db91cd4434c52ef5465 dt-bindings: touchscreen: add touch-overlay property
+ea4d331050b4cd43e6a900937db88b01ef75e1f2 Input: touch-overlay - add touchscreen overlay handling
+88fb51ea6a38189bed42d302183fbbf6bb03accf dt-bindings: input: touchscreen: st1232: add touch-overlay example
+1c44b818b81bf6a111a702536a560f5bc830c6d5 Input: st1232 - add touch-overlay handling
+cf3fc037623c54de48d2ec1a1ee686e2d1de2d45 ata: libata-scsi: Fix ata_to_sense_error() status handling
+d2be9ea9a75550a35c5127a6c2633658bc38c76b ata: libata-scsi: Return aborted command when missing sense and result TF
+0060beec0bfa647c4b510df188b1c4673a197839 ata: libata-sata: Add link_power_management_supported sysfs attribute
+c9edbb6aecc532c7d0a9bee990beedb27be33851 ata: libata-core: Remove space before newline
+64c7cac9d64eb3ed1062a59fa77b36bfa293fe4e ata: pata_macio: Remove space before newline
+6cb43739b93c64c4a2148222bd606e6920257752 ata: pata_pdc2027x: Remove space before newline and abbreviations
+61c6fef7c4b06b4bdbf3142f4e5cace70597e0de Input: max77693 - convert to atomic pwm operation
+a7bee4e7f78089c101be2ad51f4b5ec64782053e Merge tag 'ib-mfd-gpio-input-pwm-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd into next
+c18646248fed07683d4cee8a8af933fc4fe83c0d RDMA/siw: Fix the sendmsg byte count in siw_tcp_sendpages
+89c52146392948f4cdda3853da9d82ec6d1dd1f4 Input: add keycode for performance mode key
+86624ba3b522b6512def25534341da93356c8da4 vfio/pci: Do vf_token checks for VFIO_DEVICE_BIND_IOMMUFD
+27a23faecd5f62c8fea86c5aa67479b559306406 vfio/qat: Remove myself from VFIO QAT PCI driver maintainers
+1e9c0f1da562651160456e45629f815673c2dd5e vfio/qat: add support for intel QAT 6xxx virtual functions
+b1779e4f209c7ff7e32f3c79d69bca4e3a3a68b6 vfio/type1: conditional rescheduling while pinning
+1918f983687aa73bf0e5bc73431898994fce35a8 kconfig: lxdialog: replace strcpy with snprintf in print_autowrap
+5ac726653a1029a2eccba93bbe59e01fc9725828 kconfig: lxdialog: replace strcpy() with strncpy() in inputbox.c
+936599ca514973d44a766b7376c6bbdc96b6a8cc kbuild: userprogs: use correct linker when mixing clang and GNU ld
+73d210e9faf85c36d5c9d2e38cb42c2d9837ee51 kheaders: make it possible to override TAR
+8d6841d5cb20dcee7bf9ba98cb6dbcbf5bccfea5 MAINTAINERS: hand over Kbuild maintenance
+a530a36bb548bbd441402b736f17339183ff53fd Merge tag 'kbuild-v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+479058002c32b77acac43e883b92174e22c4be2d Merge tag 'ata-6.17-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+0a32e4f0025a74c70dcab4478e9b29c22f5ecf2f btrfs: fix log tree replay failure due to file with 0 links and extents
+d7edcc7c9109f165efcf5d767fed21578c37c46c Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+cca7a0aae8958c9b1cd14116cb8b2f22ace2205e Merge tag 'for-6.17-fix-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+4f67c41894674d351a4b4e7dd3471380b71b5bb3 HID: hid-steam: Use new BTN_GRIP* buttons
+ab93e0dd72c37d378dd936f031ffb83ff2bd87ce Merge branch 'next' into for-linus
+e8214ed59b75fa794126686370a5e47cb7da5b12 Merge tag 'vfio-v6.17-rc1-v2' of https://github.com/awilliam/linux-vfio
+2095cf558f65d9aad9a945e4fd1077b97bf61383 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+d244f9bb591eb914901a84c79d51975c02f81ea5 Merge tag 'for-linus-6.17-1' of https://github.com/cminyard/linux-ipmi
+6e64f4580381e32c06ee146ca807c555b8f73e24 Merge tag 'input-for-v6.17-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 
---===============6989414946521147346==--
+--===============4646411496599814996==--
