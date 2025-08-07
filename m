@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 07 Aug 2025 10:38:12 -0000
-Message-Id: <175456309221.1883026.12715924855540773055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 07 Aug 2025 11:03:13 -0000
+Message-Id: <175456459356.1903357.15933036934783322713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: b67ac0da88ed90f767f89b8eadfae960b7c2230f
-    new: eb0f8239bc35c722c6daa9149bff42f088392f70
+  - ref: refs/heads/hack/arch_timer_mmio
+    old: 4b341bbc18d791b6c5a6bc373d303c4d3b35434a
+    new: 95c9141418d1885a34d5cc7369d8c6b3e7418dbf
     log: |
-         eb0f8239bc35c722c6daa9149bff42f088392f70 man/man2/mount_setattr.2: Document glibc >= 2.36 syscall wrappers
+         e9112a9b7d517fd291f844b0627ac838ca961e2a ACPI: GTDT: Expose 'always_on' flag through arch_timer_mem_frame
+         3b02f1a41221b6ebef5f76d69cea909813720a25 ACPI: GTDT: Generate platform devices for MMIO timers
+         bef46f3bceafc50ee6eb110cc88cdaebffb3e124 clocksource/drivers/arm_arch_timer: Add standalone MMIO driver
+         98b3912f7e8b0382da57ca1bf736f9630a6747df clocksource/drivers/arm_arch_timer_mmio: Switch over to standalone driver
+         95c9141418d1885a34d5cc7369d8c6b3e7418dbf clocksource/drivers/arm_arch_timer_mmio: Add MMIO clocksource
          
