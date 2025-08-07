@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 07 Aug 2025 16:50:57 -0000
-Message-Id: <175458545774.2196355.3656606638838814980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Thu, 07 Aug 2025 17:19:31 -0000
+Message-Id: <175458717193.2218242.11132677083153297038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/todo
-    old: 1754a8efba247a1efbfd50b8c81335ab2e0ad741
-    new: ceb0002e1c201485d3efba656229d1c04032fed5
+  - ref: refs/heads/dev-staging
+    old: b1fee446f89eeed5e322d5fa763917a8185e8ab2
+    new: bd92ebd7364580b6a570a71bde3028c4781a90d1
     log: |
-         ceb0002e1c201485d3efba656229d1c04032fed5 What's cooking (2025/08 #03)
+         bd92ebd7364580b6a570a71bde3028c4781a90d1 lsm,selinux: Add LSM blob support for BPF objects
          
