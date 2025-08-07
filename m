@@ -1,29 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 07 Aug 2025 19:08:03 -0000
-Message-Id: <175459368334.2307593.10037069308180031899@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4347810274391223500=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 07 Aug 2025 19:54:14 -0000
+Message-Id: <175459645486.2343882.5132815805917640558@gitolite.kernel.org>
+
+--===============4347810274391223500==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 2d41f9097b7975b93f42f46f66272242c1dd8307
-    new: afa03b83aa4d0401c1ed9051f55e6ef43d26a489
+  - ref: refs/heads/master
+    old: e92648c015a4d9f92cff07dce67648c11d4a7832
+    new: e809d388cac6c8df8571a8b051c9cf351f7ca632
     log: |
-         af357a6a3b7d685e7aa621c6fb1d4ed6c349ec9e spi: spi-fsl-lpspi: Clamp too high speed_hz
-         13d0fe84a214658254a7412b2b46ec1507dc51f0 spi: spi-qpic-snand: fix calculating of ECC OOB regions' properties
-         afa03b83aa4d0401c1ed9051f55e6ef43d26a489 Merge remote-tracking branch 'spi/for-6.16' into spi-linus
+         e809d388cac6c8df8571a8b051c9cf351f7ca632 Periodic updates from keyservers
          
-  - ref: refs/heads/for-next
-    old: 2d41f9097b7975b93f42f46f66272242c1dd8307
-    new: afa03b83aa4d0401c1ed9051f55e6ef43d26a489
-    log: |
-         af357a6a3b7d685e7aa621c6fb1d4ed6c349ec9e spi: spi-fsl-lpspi: Clamp too high speed_hz
-         13d0fe84a214658254a7412b2b46ec1507dc51f0 spi: spi-qpic-snand: fix calculating of ECC OOB regions' properties
-         afa03b83aa4d0401c1ed9051f55e6ef43d26a489 Merge remote-tracking branch 'spi/for-6.16' into spi-linus
-         
+
+--===============4347810274391223500==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1754596498 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1754596453-644ce37876d921329045968a43e7db9365bacf13
+
+e92648c015a4d9f92cff07dce67648c11d4a7832 e809d388cac6c8df8571a8b051c9cf351f7ca632 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaJUEkgAKCRC2xBzjVmSZ
+bOcrAQDpbiIhNKmsD3d8WenMH9jv01RvmW9jngXyASFu+LhjXwEAiyTtxXUvMfFU
+vz22PEDFj8D5IK2FnuTxqHwaE9qR/AM=
+=zqe4
+-----END PGP SIGNATURE-----
+
+--===============4347810274391223500==--
