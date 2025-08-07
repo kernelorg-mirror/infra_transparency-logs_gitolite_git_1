@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1941362153147365330=="
+Content-Type: multipart/mixed; boundary="===============1198509687606046663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 07 Aug 2025 05:39:39 -0000
-Message-Id: <175454517942.1635950.9958372568065748604@gitolite.kernel.org>
+Date: Thu, 07 Aug 2025 05:39:42 -0000
+Message-Id: <175454518209.1636067.11129113538043233450@gitolite.kernel.org>
 
---===============1941362153147365330==
+--===============1198509687606046663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
     old: 704319bef3e7447bca96f680909b41377b2e9b17
     new: f40c0eddedc1dde07335a222a7818225f7eb8a5b
     log: revlist-704319bef3e7-f40c0eddedc1.txt
 
---===============1941362153147365330==
+--===============1198509687606046663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -85,4 +85,4 @@ b74e5044c3471aefa4b281c0c117d90809ed4bd6 NFSv4: Remove duplicate lookups, capabi
 073b304d3ccf25a2a03cb44d1682de10eca96bdd NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 f40c0eddedc1dde07335a222a7818225f7eb8a5b NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
 
---===============1941362153147365330==--
+--===============1198509687606046663==--
