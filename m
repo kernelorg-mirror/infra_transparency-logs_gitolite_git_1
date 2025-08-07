@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 07 Aug 2025 14:48:02 -0000
-Message-Id: <175457808237.2088635.1628566646062326456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 07 Aug 2025 15:07:38 -0000
+Message-Id: <175457925816.2104815.12406579519813160673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/net-6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 7d4ed06d8818491ab266a4b63504bb50eae4d5cb
+  - ref: refs/heads/for-next-prev
+    old: 841778d9fd80e77c33fd46af40d0a894046f64dd
+    new: 0000000000000000000000000000000000000000
