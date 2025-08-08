@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3575001480715150435=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 08 Aug 2025 11:49:18 -0000
-Message-Id: <175465375886.3136063.6279108433916695845@gitolite.kernel.org>
-
---===============3575001480715150435==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 08 Aug 2025 11:49:23 -0000
+Message-Id: <175465376368.3136441.1483522670349903796@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/io_uring-chan
-    old: 9048881e8ad89460406af0c17a2364d3ea6d6e6b
-    new: 2b335bba800eb681a2495de4d5942d60cadccd76
-    log: revlist-9048881e8ad8-2b335bba800e.txt
-  - ref: refs/heads/io_uring-cqe-mix
-    old: ff0112fc6f064b012cc2f63d744e1103cea398fd
-    new: 8302c6bb056952184e7e4ee18017202c7350b04c
+  - ref: refs/heads/main
+    old: d30c7b425f6d9c9e9f54bcafa99b375342b3a774
+    new: 9b94bdeaca91a2500a94e327296aacff8aa1ed58
     log: |
-         2f69edb2039dbf165b856a8277fc972a9110c062 io_uring/fdinfo: handle mixed sized CQEs
-         e63d9b317f5b9dab3474281aa6c217094969a0fe io_uring/trace: support completion tracing of mixed 32b CQEs
-         32208e050b1e61bf9e8134950666c95ad5c05c55 io_uring: add support for IORING_SETUP_CQE_MIXED
-         a259282ca8a7a45f49df93c96810e9ad8ca7ba6f io_uring/nop: add support for IORING_SETUP_CQE_MIXED
-         175f65fc362231543402dfc0bd6af140d5365df7 io_uring/uring_cmd: add support for IORING_SETUP_CQE_MIXED
-         8302c6bb056952184e7e4ee18017202c7350b04c io_uring/zcrx: add support for IORING_SETUP_CQE_MIXED
+         d4fde9ca4ecb8ece322f326299858f15860dd19b ath11k: QCA2066 hw2.1: update board-2.bin
+         effe7d041975e43f088d70ee7c4a2e08adb5694d ath11k: QCA2066 hw2.1: update to WLAN.HSP.1.1-03926.13-QCAHSPSWPL_V2_SILICONZ_CE-2.52297.9
+         14794133088cdbe9c5d2543974bbc5262389d660 ath11k: QCA6698AQ hw2.1: update to WLAN.HSP.1.1-04650-QCAHSPSWPL_V1_V2_SILICONZ_IOE-2
+         db7327128eff6edaeaa52f42a428ad962c8c1877 ath11k: WCN6855 hw2.0: update board-2.bin
+         7aa2aba3a90ea5ee1ba2a4e37bcdb9e9d6ddde7d ath12k: QCN9274 hw2.0: update to WLAN.WBE.1.5-01651-QCAHKSWPL_SILICONZ-1
+         35abebaa15c1ff1a141b7c24d79220ef70f48548 ath12k: WCN7850 hw2.0: update to WLAN.HMT.1.1.c5-00302-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1.115823.3
+         9b94bdeaca91a2500a94e327296aacff8aa1ed58 Merge branch 'robot/pr-0-1754603224' into 'main'
          
-
---===============3575001480715150435==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9048881e8ad8-2b335bba800e.txt
-
-2f69edb2039dbf165b856a8277fc972a9110c062 io_uring/fdinfo: handle mixed sized CQEs
-e63d9b317f5b9dab3474281aa6c217094969a0fe io_uring/trace: support completion tracing of mixed 32b CQEs
-32208e050b1e61bf9e8134950666c95ad5c05c55 io_uring: add support for IORING_SETUP_CQE_MIXED
-a259282ca8a7a45f49df93c96810e9ad8ca7ba6f io_uring/nop: add support for IORING_SETUP_CQE_MIXED
-175f65fc362231543402dfc0bd6af140d5365df7 io_uring/uring_cmd: add support for IORING_SETUP_CQE_MIXED
-8302c6bb056952184e7e4ee18017202c7350b04c io_uring/zcrx: add support for IORING_SETUP_CQE_MIXED
-e19404e680fd0dcb52bc3279d2b2d6b74961f3d1 io_uring: use io_req_local_work_add() in io_req_task_work_add_remote()
-5ca86c395aa7cf25f455c0e965038c74ec16715e io_uring: add io_add_aux_cqe32() helper
-7d0bef30bc119c21e47a579faf3f5a99d5fe65df io_uring/register: add support for ring -> ring channels
-5084809e3341874bfeaf77821f235fc3aab49d13 io_uring/chan: grab reference to destination ring
-9d9102b94ccd1518f3267e11eb2f433354b96c7c io_uring/chan: add support for IORING_OP_CHAN_POST
-2b335bba800eb681a2495de4d5942d60cadccd76 io_uring/chan: cache consumer head loads
-
---===============3575001480715150435==--
