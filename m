@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/kvmtool
-Date: Fri, 08 Aug 2025 21:03:37 -0000
-Message-Id: <175468701724.3636134.15840154973981159336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Fri, 08 Aug 2025 22:23:21 -0000
+Message-Id: <175469180191.3700189.413866129838878483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/kvmtool
-user: oupton
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/hacks/apple-virt-tso
+  - ref: refs/heads/ch/git-2-51
     old: 0000000000000000000000000000000000000000
-    new: ce98a148e07b7c6c270cff980c13a32b47244bb5
+    new: c36ddd272720d4b99587453f47b682708d43510c
