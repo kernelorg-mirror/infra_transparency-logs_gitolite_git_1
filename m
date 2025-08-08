@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Fri, 08 Aug 2025 04:38:32 -0000
-Message-Id: <175462791231.2783019.4058921902279804511@gitolite.kernel.org>
+Date: Fri, 08 Aug 2025 04:49:26 -0000
+Message-Id: <175462856698.2792160.13964144399433039363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,8 @@ repo: pub/scm/linux/kernel/git/jassibrar/mailbox
 user: jassibrar
 changes:
   - ref: refs/heads/for-next
-    old: 6de4ae547d14f48149870b44bf801a01f5cc8aa9
-    new: 75f1fbc9fd409a0c232dc78871ee7df186da9d57
+    old: 75f1fbc9fd409a0c232dc78871ee7df186da9d57
+    new: 5378bdf6a611a32500fccf13d14156f219bb0c85
+    log: |
+         5378bdf6a611a32500fccf13d14156f219bb0c85 mailbox/pcc: support mailbox management of the shared buffer
+         
