@@ -1,58 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2864775828830453119=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Fri, 08 Aug 2025 18:16:14 -0000
-Message-Id: <175467697479.3496641.9632747940238786386@gitolite.kernel.org>
-
---===============2864775828830453119==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 08 Aug 2025 18:46:30 -0000
+Message-Id: <175467879047.3521309.6091243725707430446@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 559b35abb521668b8cb92b3b2f8224eb774ca618
-    new: 0ad8fef322365b7bafd052f416fc972bea49d362
+    old: 37816488247ddddbc3de113c78c83572274b1e2e
+    new: f6a2a31043f9e3446a322adf66af7a110e7670b9
     log: |
-         86527787f1fbc4567f44779950e78e41c97f7e8b Move get_float() from ip/iplink_can.c to lib/utils.c
-         3dfc7dad0a6a6470326d23e2175bee32f0dc9aac Add get_float_min_max() in lib/utils.c
-         0ad8fef322365b7bafd052f416fc972bea49d362 tc: add dualpi2 scheduler module
+         f752adfaf5f7d796007f9c1a867b9bdccc15cc2c MAINTAINERS: resurrect my netfilter maintainer entry
+         25a8b88f000c33a1d580c317e93e40b953dc2fa5 netfilter: add back NETFILTER_XTABLES dependencies
+         de788b2e6227462b6dcd0e07474e72c089008f74 netfilter: ctnetlink: fix refcount leak on table dump
+         1492e3dcb2be3aa46d1963da96aa9593e4e4db5a netfilter: ctnetlink: remove refcounting in expectation dumpers
+         c8a7c2c608180f3b4e51dc958b3861242dcdd76d netfilter: nft_set_pipapo: don't return bogus extension pointer
+         f54186df806fb1e9cb262d553f4ff942f9467cf1 netfilter: conntrack: clean up returns in nf_conntrack_log_invalid_sysctl()
+         1dee968d22eaeb3eede70df513ab3f8dd1712e3e netfilter: nft_socket: remove WARN_ON_ONCE with huge level value
+         f6a2a31043f9e3446a322adf66af7a110e7670b9 Merge tag 'nf-25-08-07' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
          
-
---===============2864775828830453119==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1754677019 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1754676973-63f03c32755463f900e68cb0293c21f4a59dc16d
-
-559b35abb521668b8cb92b3b2f8224eb774ca618 0ad8fef322365b7bafd052f416fc972bea49d362 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmiWPxsbHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+UpkP/jUs5X9KzL47jxMKMK76
-Pc/FwVJd4QmYRoTI7I9ZZy8iI2Fs7IxCmNVk6zvYILXV0yLcPrO7tmaUJYsh3l0+
-s7VxENTaPD/x5bAAeIy35bf+NhFgYbGA/8y6rdLu8SjC/hk/uClFOOppDfXE37B+
-iN/8SuZsujCuo5Pc7e0kAVl3k6zUjq6BfvExcGKGdIua7MR40ZNHkfcTZJiGIiYJ
-PlCEuMAa0XBO+Rx0y3VJCPvzIH+Z33WCB72ukNu8sGf7rIMIg1z8rSIfDp0b3i+O
-Y8jHFUTwyRH4qlHB69UDOMQSEZjnn04rY0koDoOifQ8YnH/6xu/2R6wYbXdAY8wV
-1rANDQ8rc1bZf97JYPC6g7Ga+z1NlKuzFkYnYJBEy1hcaZuP6apaaUaP1oaG0Dbc
-vOYAGUMyHQRimvxcb9PntN2k1jcNb0iOnmhHJvvmUuPYyMb395oX4uJXMOUQEKYk
-VuUNvvmLfu6vLrf3PEC82cnFKSc5YP2iqjB7y40QKDmqRfpomROpkW1Plln8bfpJ
-UpYp5aQFABnHGhbUqk8N2NtywTd1Z5AMUoIRFsqAD4tl/ME1DSXDrpbSpkKHEfGL
-pj/2GoM1C7AgrNlTTS9OFGeS7bCOi+scFzpetlj8BgYrO0cOEKrJj2rqC10bxsq+
-YfZHSV7wBcL8MTAYMbforymc
-=YSBv
------END PGP SIGNATURE-----
-
---===============2864775828830453119==--
