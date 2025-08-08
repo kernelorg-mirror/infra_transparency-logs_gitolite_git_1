@@ -1,31 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============1923275642302791795=="
+Content-Type: multipart/mixed; boundary="===============8710754836113936396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Aug 2025 16:39:07 -0000
-Message-Id: <175467114722.3409661.7797230550762461225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 08 Aug 2025 16:40:03 -0000
+Message-Id: <175467120399.3412578.13392011647461884981@gitolite.kernel.org>
 
---===============1923275642302791795==
+--===============8710754836113936396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: d9104cec3e8fe4b458b74709853231385779001f
-    new: 37816488247ddddbc3de113c78c83572274b1e2e
-    log: revlist-d9104cec3e8f-37816488247d.txt
+  - ref: refs/heads/dev-queue
+    old: 0af56426e9a59084bca60a0d4dc1dc995e2808ee
+    new: 3e7bfba85f747496aac7d60e79439d8fe2bf25cf
+    log: revlist-0af56426e9a5-3e7bfba85f74.txt
 
---===============1923275642302791795==
+--===============8710754836113936396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9104cec3e8f-37816488247d.txt
+Content-Disposition: attachment; filename=revlist-0af56426e9a5-3e7bfba85f74.txt
 
+ccb21fc879636f9197b29908895174218e11d8ef verification/rvgen: Restructure the templates files
+cce86e03a27fdce11684c85ee33c528124904d8d verification/rvgen: Restructure the classes to prepare for LTL inclusion
+97ffa4ce6ab329bf601f1362bb2e181636fcc3a0 verification/rvgen: Add support for linear temporal logic
+e93648e86273a5d74b4fb96b645950249668093c Documentation/rv: Add documentation for linear temporal logic monitors
+8cfcf9b0e92f917fd3eee19a46924ad3a2f31259 verification/rvgen: Support the 'next' operator
+6fb37c2a27ebdddddcc36dbdfb6b88cc9f932895 verification/rvgen: Generate each variable definition only once
+f3735df6281e3011f9d650824ef7cd40e5b6f15b verification/rvgen: Do not generate unused variables
+f60227f3448911b682c45041c3fbd94f6d3b15a2 tools/rv: Do not skip idle in trace
+1160ccaf772ffd8f9388da26d1832c7da845e7b4 tools/rv: Stop gracefully also on SIGTERM
+9efcf590827cd88cbb68b0f93b20c5f5add905f4 tools/dot2c: Fix generated files going over 100 column limit
+560473f2e2d77e153cb12ce1ef53c2abb6a5f0ca verification/rvgen: Organise Kconfig entries for nested monitors
+58d5f0d437a8e036a65eeddfb7df2b5d6107f1ef rv: Return init error when registering monitors
+d31eb217425591e100b475fad6360cd3da2073c6 PCI: imx6: Remove apps_reset toggling from imx_pcie_{assert/deassert}_core_reset
 2e6ea70690ddd1ffa422423fd0d4523e4dfe4b62 PCI: imx6: Delay link start until configfs 'start' written
 f46c06a302603dcec488a6d07fec92c262edd861 Merge tag 'clk-imx-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/abelvesa/linux into clk-imx
 e51c16f9ee90eb08b896bb1b86f117b1e4901ba9 dt-bindings: clock: qcom: Remove double colon from description
@@ -616,20 +629,6 @@ bc4a09d8e79cadccdd505f47b01903a80bc666e7 i3c: master: svc: Fix npcm845 FIFO_EMPT
 7d767a9528f6d203bca5e83faf1b8f2f6af3fc07 Merge tag 'for-linus-6.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 63eb28bb1402891b1ad2be02a530f29a9dd7f1cd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 3b661ca549b9e5bb11d0bc97ada6110aac3282d2 i3c: add missing include to internal header
-9063de636cee235bd736ab3e4895e2826e606dea kcm: Fix splice support
-3fa840230f534385b34a4f39c8dd313fbe723f05 net: dpaa: fix device leak when querying time stamp info
-70458f8a6b44daf3ad39f0d9b6d1097c8a7780ed net: enetc: fix device and OF node leak at probe
-da717540acd34e5056e3fa35791d50f6b3303f55 net: gianfar: fix device leak when querying time stamp info
-3e13274ca8750823e8b68181bdf185d238febe0d net: mtk_eth_soc: fix device leak at probe
-e05c54974a05ab19658433545d6ced88d9075cf0 net: ti: icss-iep: fix device and OF node leaks at probe
-830118b6390a1e4b3057c9e400da37f9408bd67d Merge branch 'net-ethernet-fix-device-leaks'
-2da4def0f487f24bbb0cece3bb2bcdcb918a0b72 netpoll: prevent hanging NAPI when netcons gets enabled
-6fb5ff63b35b7e849cc8510957f25753f87f63d2 phy: mscc: Fix parsing of unicast frames
-f2aa00e4f65efcf25ff6bc8198e21f031e7b9b1b net: ipa: add IPA v5.1 and v5.5 to ipa_version_string()
-57ec5a8735dc5dccd1ee68afdb1114956a3fce0d net: phy: smsc: add proper reset flags for LAN8710A
-3b98c9352511db627b606477fc7944b2fa53a165 net: mdio_bus: Use devm for getting reset GPIO
-de9c4861fb42f0cd72da844c3c34f692d5895b7b pptp: ensure minimal skb length in pptp_xmit()
-759dfc7d04bab1b0b86113f1164dc1fec192b859 netlink: avoid infinite retry looping in netlink_unicast()
 260f6f4fda93c8485c8037865c941b42b9cba5d2 Merge tag 'drm-next-2025-07-30' of https://gitlab.freedesktop.org/drm/kernel
 cf3fc037623c54de48d2ec1a1ee686e2d1de2d45 ata: libata-scsi: Fix ata_to_sense_error() status handling
 d2be9ea9a75550a35c5127a6c2633658bc38c76b ata: libata-scsi: Return aborted command when missing sense and result TF
@@ -686,7 +685,6 @@ ac46ff0f77f1298892a4a1eeac375ed3db495704 Merge tag 'for-linus-6.17-ofs1' of git:
 440e6d7e1435bb1e1948eeae34ca8bef6c7c5f82 Merge tag 'jfs-6.17' of github.com:kleikamp/linux-shaggy
 d6084bb815c453de27af8071a23163a711586a6c Merge tag 'fsnotify_for_v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 6235ce77749f45cac27f630337e2fdf04e8a6c73 perf record: Cache build-ID of hit DSOs only
-01051012887329ea78eaca19b1d2eac4c9f601b5 netlink: specs: ethtool: fix module EEPROM input/output arguments
 5ae8021583b4b49cd9a1fac635fbed2449b6c4d0 Merge tag 'sh-for-v6.17-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 f1aa129d80fddd2ae33080524bf84dea1c3528de Merge tag 'mips_6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 12ed593ee88170145fff25c7b3325b227731c2a1 Merge tag 'caps-pr-20250729' of git://git.kernel.org/pub/scm/linux/kernel/git/sergeh/linux
@@ -819,21 +817,10 @@ c89504a703fb779052213add0e8ed642f4a4f1c8 tracing: Remove unneeded goto out logic
 debe57fbe12cb16881b2db1f1787eb9673a8b8b0 tracing: Add guard() around locks and mutexes in trace.c
 12d5189615862a9eb06d4aa7c8a990bcde2ebb01 tracing: Use __free(kfree) in trace.c to remove gotos
 db5f0c3e3e60939bb2ecc2dbdea4e6f32252620b ring-buffer: Convert ring_buffer_write() to use guard(preempt_notrace)
-f8fded7536a9350ce849f21eee124d66056aa54c selftests: net: Fix flaky neighbor garbage collection test
-38358fa3cc8e16c6862a3e5c5c233f9f652e3a6d net: airoha: Fix PPE table access in airoha_ppe_debugfs_foe_show()
 0bd0a41a5120f78685a132834865b0a631b9026a Merge tag 'pci-v6.17-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-60bda1ba062a003efcb96c91c8541c3efb212d69 sfc: unfix not-a-typo in comment
 821c9e515db512904250e1d460109a1dc4c7ef6b Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-77bf1c55b2acc7fa3734b14f4561e3d75aea1a90 net/mlx5: Correctly set gso_segs when LRO is used
-a4f0866e3dbbf3fee4078bce0b78d65a0875c0bc dpll: Make ZL3073X invisible
-7cbd49795d4ca86fba5830084e94fece3b343b79 selftests: avoid using ifconfig
-d45cf1e7d7180256e17c9ce88e32e8061a7887fe ipv6: reject malicious packets in ipv6_gso_segment()
-a81649a4efd382497bf3d34a623360263adc6993 net: mdio: mdio-bcm-unimac: Correct rate fallback logic
 d8d2d9d12f141302aaec3ff9a3a8cbed4ac0546c selftests/bpf: Test for unaligned flow_dissector ctx access
 111857421c93fc88924106436741bd2f5b8bc220 Merge tag 'rproc-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-d46e51f1c78b9ab9323610feb14238d06d46d519 net: drop UFO packets in udp_rcv_segment()
-ae8508b25def57982493c48694ef135973bfabe0 net/sched: taprio: enforce minimum value for picos_per_byte
-1dbf1d590d10a6d1978e8184f8dfe20af22d680a net: Add locking to protect skb->dev access in ip_output
 d41e5839d80043beaa63973eab602579ebdb238f Merge tag 'cxl-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 3ca824369b71d4b441e1fdcdee8e66bcb05510a9 tracing: Have unsigned int function args displayed as hexadecimal
 0905809b38bda1fa0b206986c44d846e46f13c1d Merge tag 'parisc-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
@@ -968,16 +955,6 @@ c2fe914d50ab22defca14ac6fca33888bfb19843 drm/amdgpu: Add NULL check for asic_fun
 124ffa2970087f3b9033a00a4855748514225b9d drm/amdgpu: Update SDMA firmware version check for user queue support
 0974f486f3dde9df1ad979d4ff341dc9c2d545f5 Merge tag 'f2fs-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 7e161a991ea71e6ec526abc8f40c6852ebe3d946 Merge tag 'i2c-for-6.17-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-4b31bcb025cb497da2b01f87173108ff32d350d2 eth: fbnic: unlink NAPIs from queues on error to open
-2df158047d532d0e2a6b39953656c738872151a3 ipa: fix compile-testing with qcom-mdt=m
-fa516c0d8bf90da9d5b168757162205aafe5d0e1 net: devmem: fix DMA direction on unmapping
-4e7e471e2e3f9085fe1dbe821c4dd904a917c66a net: airoha: npu: Add missing MODULE_FIRMWARE macros
-5a40f8af2ba1b9bdf46e2db10e8c9710538fbc63 benet: fix BUG when creating VFs
-01d3c8417b9c1b884a8a981a3b886da556512f36 net/packet: fix a race in packet_set_ring() and packet_notifier()
-5ef7fdf52c0f2b792802aac3438e67e5ebe7e63d selftests: net: packetdrill: xfail all problems on slow machines
-175811b8f05f0da3e19b7d3124666649ddde3802 Revert "net: mdio_bus: Use devm for getting reset GPIO"
-ffd2dc4c6c49ff4f1e5d34e454a6a55608104c17 net/sched: mqprio: fix stack out-of-bounds write in tc entry parsing
-4eabe4cc0958e28ceaf592bbb62c234339642e41 dpll: zl3073x: ZL3073X_I2C and ZL3073X_SPI should depend on NET
 6a20f9fca30c4047488a616b5225acb82367ef6b vhost: initialize vq->nheads properly
 ed1a1fe6ec5e73b23b310b434ace07d1e5060657 LoongArch: BPF: Rename and refactor validate_code()
 9fbd18cf4c69f512f7de3ab73235078f3e32ecec LoongArch: BPF: Add dynamic code modification support
@@ -1050,5 +1027,28 @@ ffe8ac927d935d7d4a0bd9ac94afd705df79982b Merge tag 'drm-next-2025-08-08' of http
 b1e06c19abd2efbdd080047b2e70195c04ac2139 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 bec077162bd0017c21288919757809656094a157 Merge tag 's390-6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 37816488247ddddbc3de113c78c83572274b1e2e Merge tag 'net-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+d5d03abe5e983447c9388c056ee1d359d66312e2 ice: fix lane number calculation
+487547404abd34e1bf8e80a2478107ccfca935e1 ice: fix fwlog after driver reinit
+65aba57fd6b53f647585771eee83e5625aba8a71 ixgbe: initialize aci lock before it's used
+fe55e1ef26609bbd64e97071693015347c8f3c64 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
+348cabf7355d7078771150c4429622b268ae78dd ice: fix possible leak in ice_plug_aux_dev() error path
+90bb45faa1b85d444d84fc8ed9bc06c97f21724b devlink: allow driver to freely name interfaces
+6ad54c7ee424fd75185df02e040001d2ce16ae14 ixgbe: prevent from unwanted interface name changes
+8e8a21afee9ab92fe522513a5a290065354e6493 ice: fix Rx page leak on multi-buffer frames
+449cb1e65f6f9da070342ea2d7f5a2c04db08e9c ice: fix double-call to ice_deinit_hw() during probe failure
+2133ad8c0115649cb1adad4f4c7a8451a1ef3265 ice: don't leave device non-functional if Tx scheduler config fails
+7e21c8a9c9773ef00e6d4768dad892bbdf4e742f i40e: remove read access to debugfs files
+b24c7a7bb4fd6de0be8b7702f1620fb2f62f2563 idpf: add support for Tx refillqs in flow scheduling mode
+e821676fefe193f50b236eeb3c8524649e7f2583 idpf: improve when to set RE bit logic
+fdeccd24d13d048c234e18657bf05bbbc0e250d6 idpf: simplify and fix splitq Tx packet rollback error path
+1ab67627f6ba93e6cf518921522d2c4d1624c52a idpf: replace flow scheduling buffer ring with buffer pool
+ae92f303b025b2412455f7004b2ea63fb548a4fe idpf: stop Tx if there are insufficient buffer resources
+758428a5ee8e2881f7bd4f773301521aff56e97e idpf: remove obsolete stashing code
+4f3a448865472247e5d76096481bd28f18bfad22 ixgbe: xsk: resolve the negative overflow of budget in ixgbe_xmit_zc
+9951aaec80ecf860a41b5e47065ebb145b7d118a igc: fix disabling L1.2 PCI-E link substate on I226 on init
+44b2c8c29145af13d497991573f9bd227dbd2294 ice: use fixed adapter index for E825C embedded devices
+42db22d48e53e04fd40bbed98a63b255469b4346 ixgbe: fix ixgbe_orom_civd_info struct layout
+adec6501df7b91244e952503b52680637631e633 ixgbe: fix ndo_xdp_xmit() workloads
+3e7bfba85f747496aac7d60e79439d8fe2bf25cf idpf: set mac type when adding and removing MAC filters
 
---===============1923275642302791795==--
+--===============8710754836113936396==--
