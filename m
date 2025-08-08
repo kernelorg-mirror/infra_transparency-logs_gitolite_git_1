@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Aug 2025 02:18:40 -0000
-Message-Id: <175461952058.2663665.11775905375386346880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 08 Aug 2025 02:43:54 -0000
+Message-Id: <175462103437.2683707.7865473572879956106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 15a3b798a0264aa160072754a3847f7585694ff9
-    new: fa479132845e94b60068fad01c2a9979b3efe2dc
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: a38acac70e0145e2704903c75828240306b2c331
+    new: 548d6c59c0b767e837780d665a3f0dd6e3c0ee3c
     log: |
-         fa479132845e94b60068fad01c2a9979b3efe2dc bpf: Standardize function declaration style
+         548d6c59c0b767e837780d665a3f0dd6e3c0ee3c NFSD: issue WRITEs using O_DIRECT even if IO is misaligned
          
