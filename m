@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3129418342587214158=="
+Content-Type: multipart/mixed; boundary="===============5881505869657261659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Aug 2025 16:17:18 -0000
-Message-Id: <175466983882.3391112.15016589818455689698@gitolite.kernel.org>
+Date: Fri, 08 Aug 2025 16:38:48 -0000
+Message-Id: <175467112812.3408769.13728788945442367348@gitolite.kernel.org>
 
---===============3129418342587214158==
+--===============5881505869657261659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,57 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 85e090ca5c97d6f0bf9577f8ab29bfeda041c2db
-    new: 476af000096c8db58827d5e1414d59b6ce85d74d
-    log: revlist-85e090ca5c97-476af000096c.txt
+  - ref: refs/heads/1GbE
+    old: d9104cec3e8fe4b458b74709853231385779001f
+    new: 37816488247ddddbc3de113c78c83572274b1e2e
+    log: revlist-d9104cec3e8f-37816488247d.txt
 
---===============3129418342587214158==
+--===============5881505869657261659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85e090ca5c97-476af000096c.txt
+Content-Disposition: attachment; filename=revlist-d9104cec3e8f-37816488247d.txt
 
+2e6ea70690ddd1ffa422423fd0d4523e4dfe4b62 PCI: imx6: Delay link start until configfs 'start' written
+f46c06a302603dcec488a6d07fec92c262edd861 Merge tag 'clk-imx-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/abelvesa/linux into clk-imx
+e51c16f9ee90eb08b896bb1b86f117b1e4901ba9 dt-bindings: clock: qcom: Remove double colon from description
+1eef76f463042890fbcb8bac77baa32fa4f31d86 dt-bindings: clock: Convert qcom,krait-cc to DT schema
+08a7efc5b02a0620ae16aa9584060e980a69cb55 f2fs: vm_unmap_ram() may be called from an invalid context
+b93bf64e349b1952170f47a0e68fc52f666b9e25 f2fs: merge the two conditions to avoid code duplication
+95d7c508b21235144f6cef611ec5686bbdeeec25 f2fs: remove unnecessary tracepoint enabled check
+f0a7adfedcc8c7e0b13ffd11dd69bf0ac25b2cd3 f2fs: don't break allocation when crossing contiguous sections
+e6d5e789c3b2df219d6f6a6c7fa0539ce8b563c0 f2fs: ignore valid ratio when free section count is low
+ca7be9c0a148cbfe38df95a0285339c532ca6e17 mtd: ubi: Remove unused ubi_flush
+3bf1bab503a58ed7dcfcd399c30ad0b976eb2620 f2fs: zone: wait for inflight dio completion, excluding pinned files read using dio
+99dbb2a1bd661418be33b1ff1462c09b7d2221cf ubifs: stop using write_cache_pages
+12d30725bf997ffd5baa849d4b20be86105fc070 perf pfm: Don't force loading of all PMUs
+62f4512238f5541d864a783cbcd8d95d067a17b3 perf parse-events: Warn if a cpu term is unsupported by a CPU
+848e7a06fea9be249c5b788b3f498196925e4d7e perf stat: Avoid buffer overflow to the aggregation map
+ced4c249569ab25c32b0d36e2ebdb19c74394bdf perf stat: Don't size aggregation ids from user_requested_cpus
+bd741d80dc65922c7d6e5fd855a934f5d2cf2309 perf parse-events: Allow the cpu term to be a PMU or CPU range
+175c852325a1f566426e2470e5d5d67efc7621dd perf tool_pmu: Allow num_cpus(_online) to be specific to a cpumask
+6d765f5f7ec669f2a16b44afd23cd877efa640de libperf evsel: Rename own_cpus to pmu_cpus
+9a711ef3bd57c124cb7255a4bb8a5166c6b0cef0 libperf evsel: Factor perf_evsel__exit out of perf_evsel__delete
+f958537f185216b2be028ed793508248503bef83 perf evsel: Use libperf perf_evsel__exit
+3cb614a261e43a82acfef437c3242820c1444e2d perf pmus: Factor perf_pmus__find_by_attr out of evsel__find_pmu
+cd63c22168257a0b0b59245394915e2488065f7d perf parse-events: Minor __add_event refactoring
+e9387ba56918eb3c16aab3e6f0155a7251e339ec perf evsel: Add evsel__open_per_cpu_and_thread
+811082e4b668db9689f8ce927a106036b4ed4e96 perf parse-events: Support user CPUs mixed with threads/processes
+5b546de9cc177936a3ed07d7d46ef072db4fdbab perf topdown: Use attribute to see an event is a topdown metic or slots
+8dcd27b1b8661f64e220bc26a499865261d5d0f1 perf parse-events: Fix missing slots for Intel topdown metric events
+fcc7cc31239d0fbf0ebf25e65f7f572caed40206 perf metricgroups: Add NO_THRESHOLD_AND_NMI constraint
+f3982385bc507991f1ed732c3c7907bff703f4d4 perf build-id: Reduce size of "size" variable
+5a2ceebd8175874ae0e91a304ad6600d82806973 perf build-id: Truncate to avoid overflowing the build_id data
+a103d2dede5683dabbac2c3374bc24b6a9434478 PCI: controller: Use dev_fwnode() instead of of_fwnode_handle()
+8e717112caf35998b198d3762b381de70711bdec PCI: dwc: Switch to msi_create_parent_irq_domain()
+1032fa556c37c500bf2b93d95fa18e7d1fd1b4de More minor SDCA changes
+1a25e13de69dafd4c1d1821df80f89dad036f9bb dt-bindings: clock: Convert maxim,max9485 to DT schema
+ce2930aefb398e004eb733897b4b5302582f6809 dt-bindings: clock: Convert microchip,pic32mzda-clk to DT schema
+f2cb67d73afdf8fd92bec54caf43a246719dd0e6 dt-bindings: clock: Convert moxa,moxart-clock to DT schema
+71b80a33653debf0374498e6f4141aae43038d0b dt-bindings: clock: Convert nuvoton,npcm750-clk to DT schema
+3849ceec49dfb8aee24c2c9c96e1bec1138577c1 dt-bindings: clock: Convert qca,ath79-pll to DT schema
+0cb6d733983cb3be88a7c1e44400fdd231efd053 PCI: mobiveil: Switch to msi_create_parent_irq_domain()
+750277048afe7ce8ebfc0b120de7dfbc745058a7 PCI: aardvark: Switch to msi_create_parent_irq_domain()
 cf154cccd8c9b9be80e4f9e367975d8f3cf5a497 PCI: altera-msi: Switch to msi_create_parent_irq_domain()
 ebcc2fbd33985b0cb1aa05776ec0313444e96647 PCI: brcmstb: Switch to msi_create_parent_irq_domain()
 e275e38a61a10d1a85a6efc12b292daf0dd814e1 PCI: iproc: Switch to msi_create_parent_irq_domain()
@@ -1010,45 +1050,5 @@ ffe8ac927d935d7d4a0bd9ac94afd705df79982b Merge tag 'drm-next-2025-08-08' of http
 b1e06c19abd2efbdd080047b2e70195c04ac2139 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 bec077162bd0017c21288919757809656094a157 Merge tag 's390-6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 37816488247ddddbc3de113c78c83572274b1e2e Merge tag 'net-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-4820fe7a6c77c05c1df5c2470f8c834a1aec9e87 ice: fix lane number calculation
-451c1a782f3984bcd3a1cb060d7201a7270ad7fe ice: Allow 100M speed for E825C SGMII device
-47ae9d15d15c18ddc73878bf9251a26d417ef1ff ice: Remove casts on void pointers in LAG
-29ac43d60d44771ce79bfe0b4747e91769cdacea ice: replace u8 elements with bool where
-0375beeb06eae7ff4c48c09fc18a3ac8c5eba67e ice: Add driver specific prefix to LAG
-7dc0cbcd147c3bf29274a9aa4a0357fd6b6815ac ice: move LAG function in code to prepare for
-817407c2abda4391c4a5c38fff5f00b52e126f8e ice: Cleanup variable initialization in LAG
-28cc89b8ad499d02f6ce93497a296346bc26eefb ice: cleanup capabilities evaluation
-79e36dbda2c5fdf58e7bf9c91573d35829432a58 ice: Implement support for SRIOV VFs across
-75c64b3160ee23e9223301156d3a5e7a80911868 idpf: add support for Tx refillqs in flow scheduling mode
-294e8b64f6b1941ac06afcbaf239fd3e485c4593 idpf: improve when to set RE bit logic
-1e925d913d8d9d8f0d639ebedf2091ea6d1c83d5 idpf: simplify and fix splitq Tx packet rollback error path
-0ca3c29563f5ab6c8a75b0407c86cb238f6a569e idpf: replace flow scheduling buffer ring with buffer pool
-5cfe66f2d59b1c3ae79496690f64a88f183fff8c idpf: stop Tx if there are insufficient buffer resources
-4cc03d686565b957611b3d73ab43c7e921286ea9 idpf: remove obsolete stashing code
-d8a46820d9507f76f24eaab2d18cc9a68b786cd9 devlink: add overwrite mask from factory settings
-8062a728b62f3f831bfb0f5b32e765fca11c2024 ice: add overwrite mask from factory settings
-5c1019e247ba2f4c4fb9278b6d6101023b04a3e8 ixgbe: add overwrite mask from factory settings
-bf047164aeb848290e8b26c9a6d2d22eb1337fcd ixgbe: initialize aci lock before it's used
-eef4628fa5c7714c3ea10ca89476fe36d348bec1 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
-fe61e7f0b6ffb3a988019d6684343281c50432c4 ice: fix possible leak in ice_plug_aux_dev() error path
-2d9ca2194f2b35db4cbcf8c3f4ddf85f771e3941 ixgbe: add the 2.5G and 5G speeds in auto-negotiation for E610
-57cc27f63c11042bd988eb6469a34f71fce0add3 devlink: allow driver to freely name interfaces
-3ef49e5de4f0d4c099d40daf9cb6df6904fb22ea ixgbe: prevent from unwanted interface name changes
-a122ce24b5a100cbea3193c451ec179903b93421 ice: fix Rx page leak on multi-buffer frames
-cfad20ba8fce0c8132a61744a3c67a306c200c3c ice: fix double-call to ice_deinit_hw() during probe failure
-f7afccf288e0a518fe80037d7bf228a4c5616e6a ice: don't leave device non-functional if Tx scheduler config fails
-84ef80110d41de853ededa85fb8083dc30e510a0 i40e: remove read access to debugfs files
-81de55b10bd5aad9b1be2e3846f29f4ce36618f2 e1000: drop unnecessary constant casts to u16
-96e6a865a3380433c326f0e14cacdb6df95f9fb5 e1000e: drop unnecessary constant casts to u16
-4e3b101cbc93260e3a9292027c98742145981dfc igb: drop unnecessary constant casts to u16
-9249475e3243acee063944361674a332b966bb81 igc: drop unnecessary constant casts to u16
-09c3b533b16c2137353ed04d27873ec34d12c562 ixgbe: drop unnecessary casts to u16 / int
-3ec1176d578ea39ec0b89dcd4e11a85f4e6eb790 ixgbe: xsk: resolve the negative overflow of budget in ixgbe_xmit_zc
-6bbfcbd0337399f37775cf32a6bfc666d6cacd85 igc: fix disabling L1.2 PCI-E link substate on I226 on init
-4d47b5a14c756d7651c14ad93f6a9dd84bbdfca1 ice: use fixed adapter index for E825C embedded devices
-4afc12bc501668373848fb2a30114f53d12c221f ixgbe: fix ixgbe_orom_civd_info struct layout
-d0f732bfc2f6119782d1071e8dd5d4e98cf3ddbf ixgbe: reduce number of reads when getting OROM data
-5e400db052b1a4a5cef7814c34c87d7958bde695 ixgbe: fix ndo_xdp_xmit() workloads
-476af000096c8db58827d5e1414d59b6ce85d74d idpf: set mac type when adding and removing MAC filters
 
---===============3129418342587214158==--
+--===============5881505869657261659==--
