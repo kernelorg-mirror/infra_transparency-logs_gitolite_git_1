@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4779530870976981400=="
+Content-Type: multipart/mixed; boundary="===============3472181092678881799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 09 Aug 2025 17:43:25 -0000
-Message-Id: <175476140579.518295.15023188145401751614@gitolite.kernel.org>
+Date: Sat, 09 Aug 2025 17:44:14 -0000
+Message-Id: <175476145408.518856.364955978563327197@gitolite.kernel.org>
 
---===============4779530870976981400==
+--===============3472181092678881799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 187d5553e33ea656c2a93d3e98309dfc166a0de5
-    new: 80e8c3730645f6e097a79e99e658201530bc2881
-    log: revlist-187d5553e33e-80e8c3730645.txt
+  - ref: refs/heads/testing
+    old: 6408dba154079656d069a6a25fb3a8954959474c
+    new: 1b53e43b178ba5906e284f20b879bf68091b58c1
+    log: revlist-6408dba15407-1b53e43b178b.txt
 
---===============4779530870976981400==
+--===============3472181092678881799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-187d5553e33e-80e8c3730645.txt
+Content-Disposition: attachment; filename=revlist-6408dba15407-1b53e43b178b.txt
 
-eff0c286aa916221a69126a43eee7c218d6f4011 PCI: endpoint: pci-epf-test: Add doorbell test support
-eefb83790a0dda112d1755e4f5e213738d717e76 misc: pci_endpoint_test: Add doorbell test case
-b351e9c93a4fc0a1b789c0b89eeecb9d5bf564cd selftests: pci_endpoint: Add doorbell test case
-853a7a63f8e955f7409f76534d6b7e2a1ea9cbde Merge tag 'thead-clk-for-v6.17-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/fustini/linux into clk-thead
-a16f19d2e81367b8ab497c67d9dc3419e4b59fee clk: imx: composite-8m: remove round_rate() in favor of determine_rate()
-167483da96a489d15a0bf74a04664513342bfc88 clk: imx: composite-93: remove round_rate() in favor of determine_rate()
-62a88813c1501fdefd982604ef2f2fcacec09fb7 clk: imx: busy: convert from round_rate() to determine_rate()
-68a33129d7471619adf774be25356015827d173e clk: imx: cpu: convert from round_rate() to determine_rate()
-7379907e241d85803efc1d9eb27c28a6322e274f ASoC: fsl_xcvr: get channel status data in two cases
-eb7a49208c3d7d1596d4c25072875e144e84a3ef clk: imx: fixup-div: convert from round_rate() to determine_rate()
-6534f1a7c1e5a24c021ad1d3c0f95907105b0ff2 clk: imx: fracn-gppll: convert from round_rate() to determine_rate()
-6d50f953f75e76d81253647449570969e37a7bad clk: imx: frac-pll: convert from round_rate() to determine_rate()
-341bdb9cf509385a0992363dedcde775e9bc8173 clk: imx: pfd: convert from round_rate() to determine_rate()
-c677a5a0eeb1accb437e26279b288423cda09592 clk: imx: pll14xx: convert from round_rate() to determine_rate()
-bf7046620975d39ffb084fbad3c0c1f0dec25141 clk: imx: pllv2: convert from round_rate() to determine_rate()
-b2826d2252cee45b4ee8c067c91a919bdf553f26 clk: imx: pllv3: convert from round_rate() to determine_rate()
-62021be5fcb1bb85d0b35252c18d701ab16aed36 clk: imx: pllv4: convert from round_rate() to determine_rate()
-ba6651a768a1a1e1b3d75413f11e5354da7554c9 clk: imx: scu: convert from round_rate() to determine_rate()
-2dc2ca9000eea2eb749f658196204cb84d4306f7 clk: tegra: periph: Fix error handling and resolve unsigned compare warning
-65df390bc2a7351c4bca123c62e853b35a215297 clk: tegra: periph: Make tegra_clk_periph_ops static
-3e90b38781e3bdd651edaf789585687611638862 scsi: mpt3sas: Fix a fw_event memory leak
-33b3120cb20fde80bf601413b635f957c46ad631 scsi: ufs: qcom: Drop dead compile guard
-dafeaf2c03e71255438ffe5a341d94d180e6c88e scsi: aacraid: Stop using PCI_IRQ_AFFINITY
-7bdc68921481c19cd8c85ddf805a834211c19e61 scsi: Revert "scsi: iscsi: Fix HW conn removal use after free"
 35dabf4503b94a697bababe94678a8bc989c3223 scsi: ufs: core: Use link recovery when h8 exit fails during runtime resume
 7ffbf335e325ed3f36ebcfed8149a8d0d7e20076 scsi: target: iblock: Allow iblock devices to be shared
 220e6083e8bdc11c414c2a44643f739d5c826d7b scsi: MAINTAINERS: Update hisi_sas entry
@@ -1045,10 +1021,34 @@ c5bf33d778e8744d081c51061753a8a313d247d0 Merge tag 'regulator-fix-v6.17-merge-wi
 24bbfb8920d4179775a0255e97566ddb45c33328 Merge tag 'io_uring-6.17-20250808' of git://git.kernel.dk/linux
 2988dfed8a5dc752921a5790b81c06e781af51ce Merge tag 'block-6.17-20250808' of git://git.kernel.dk/linux
 c30a13538d9f8b2a60b2f6b26abe046dea10aa12 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-ca1d08f55f20dbdbe9ca9572ddd8262a25486580 iio: accel: sca3300: fix uninitialized iio scan data
-49dd4818bb1e509c74dd1eb3c36ce8fc3331b86a iio: proximity: isl29501: fix buffered read on big-endian systems
-e8d8f4a648172841c70c9f63349f2a7e9721a0a6 iio: adc: ad7173: prevent scan if too many setups requested
-87c8490e26427ce9b6705b4612f57fb27d5dc048 iio: temperature: maxim_thermocouple: use DMA-safe buffer for spi_read()
-80e8c3730645f6e097a79e99e658201530bc2881 iio: adc: ad7124: fix channel lookup in syscalib functions
+2dbb87bb977eeb61648e2c43daa335a57ea08f22 iio: adc: spear_adc: mask SPEAR_ADC_STATUS channel and avg sample before setting register
+63ec4b33ee1cb448cf3731a9a83ff4cd51b4b4dd dt-bindings: iio: adc: rockchip-saradc: Allow use of a power-domain
+05b823db8ad1413bb2e5e0959c1360ecc4b4eaff iio: proximity: mb1232: use stack allocated scan struct
+8c4e098e4297a338a9e4126c228cb43c9aedd38a iio: proximity: pulsedlight-lidar-lite-v2: use stack allocated scan struct
+c7d7181e9fa862e89d8c5ab26ba167f65f493f0d iio: proximity: vl53l0x-i2c: use stack allocated scan struct
+33945a999b0906264b44b5b2ef73bb9e7d1685f0 iio: fix iio_push_to_buffers_with_ts() typo
+b128bde1dd62b92aa8e08cef1010765167ad2d1e iio: proximity: sx9500: use stack allocated struct for scan data
+f50304ecb1edf19a9831e153d4d90b048492f839 iio: proximity: srf08: use stack allocated scan buffer
+78aed184745c75d5b71b168d5f41fffe6f065e5f iio: accel: bma180: use stack allocated buffer for scan
+02ce8420d0357c027fe49792bc2a5a34ff80138a iio: adc: ti-adc081c: use individual model structures instead of array
+c87b6185f9fffa6b08eab94de15b12df5aabfe23 iio: magnetometer: Fix spelling mistake "Magenetometer" -> "Magnetometer"
+a60bd5dbd89f52328cd5e9e67915377e8ff65232 dt-bindings: iio: Drop unused header includes in examples
+0ed4974bdb8f417dd359d0c7a0e787febe1a4029 dt-bindings: iio: adc: Replace hard-coded GPIO/IRQ flag with a define
+1789acdf7f060b006fa2b8ffd176838b1affd683 dt-bindings: iio: adc: samsung,exynos-adc: Use correct IRQ level in example
+b72cc6f497e839088ac3e307ca06207f5cb110bf dt-bindings: iio: light: Simplify interrupts property in the example
+52027f5ca04c0f022d26e239cc676f0f70b77344 iio: light: vl6180: remove space before \n newline
+6d7f69ad1bbb0031d52d0784e4d1290382303459 iio: adc: ti-adc12138: Simplify with devm_clk_get_enabled()
+e04b046cbc6692430f53f792304ac01e561f5160 iio: adc: ad7173: add SPI offload support
+d57fafa4a868983bb2e31f84de680dd73b28ef5e iio: buffer: buffer-cb: drop double initialization of demux list
+ef59c1a08563ed56057b830048ebd17ff6d5a930 iio: ABI: alphabetize filter types
+a613acf416169495c40ed3c91cfb69a2cc2e19e3 iio: light: ltr390: Add debugfs register access support
+fa97d489caf6fc8b383fd45a484dbe21363fa655 dt-bindings: iio: pressure: add invensense,icp10100
+66ca5f9eb81d764ea5509aab9b78d8de7e8ffccf iio: accel: adxl345: simplify tap suppress bit
+c2f39ecae75d6b8d558e892e3d0f6d3756a12029 iio: accel: adxl345: add activity event feature
+83b87ac82d2f77242faf2eefe76a56ddb4b15335 iio: accel: adxl345: add inactivity feature
+8a0c142501b4a6d6fa4fedbe8292e1146751c1f6 iio: accel: adxl345: add coupling detection for activity/inactivity
+648770c6a27eedb05ab968d61fa5d96f0c74fe22 iio: accel: adxl345: extend inactivity time for less than 1s
+fb5921c3b0b4ab77c8cb6b765e0d73cfcc0b2501 docs: iio: add documentation for adxl345 driver
+1b53e43b178ba5906e284f20b879bf68091b58c1 docs: iio: describe inactivity and free-fall detection on the ADXL345
 
---===============4779530870976981400==--
+--===============3472181092678881799==--
