@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8358175959262723673=="
+Content-Type: multipart/mixed; boundary="===============8635336847732976798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 09 Aug 2025 04:48:31 -0000
-Message-Id: <175471491196.4023291.17160058014864040400@gitolite.kernel.org>
+Date: Sat, 09 Aug 2025 04:48:36 -0000
+Message-Id: <175471491646.4023484.3944410285708396375@gitolite.kernel.org>
 
---===============8358175959262723673==
+--===============8635336847732976798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: de82a848ae3e3c101fa5ab0c7b24b614d7e3692e
-    new: c3e2781a939ce404bff0a100e69d9dff723730e7
-    log: revlist-de82a848ae3e-c3e2781a939c.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: d88660f079d27ce5d8cf8c6bd6904d9d79dd84ca
+    new: 8da114ecc3aae834ea08e9e114590a162d30185c
+    log: revlist-d88660f079d2-8da114ecc3aa.txt
 
---===============8358175959262723673==
+--===============8635336847732976798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de82a848ae3e-c3e2781a939c.txt
+Content-Disposition: attachment; filename=revlist-d88660f079d2-8da114ecc3aa.txt
 
 09ca181e23d471f6650a55e628e36f478d93e07a NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 1d8bcf511147678af4cd71c6d547d434c5edd42f NFSD: pass nfsd_file to nfsd_iter_read()
@@ -77,5 +77,14 @@ a2cb98f43424f1bbf859e0c4f2824e6ec12d13e2 nfs/localio: use read_seqbegin() rather
 9f60025bc3a2ac99bb7af2d5367335db7501f4b0 NFS/localio: nfs_close_local_fh() fix check for file closed
 f9dd6143c75ebe2c371e9904054f774c92c4c8ae NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 c3e2781a939ce404bff0a100e69d9dff723730e7 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+bfbb1fbfdbc614c64cb1f1208d63360dcc763718 nfs/localio: restore creds before releasing pageio data
+27b24daed6fce8ee914fef122a379ada7d3e0504 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+a9c0c175216d600402099f7a94fe73f47ef35702 nfs/localio: make trace_nfs_local_open_fh more useful
+5a1c7caee5e47795398a4fe1d68350feb2ddc10c nfs/localio: add nfsd_file_dio_alignment
+5537dabceecb6361ea854c3dc0b20b602718a017 nfs/localio: refactor iocb initialization
+3110eb3d85c82b44b1704899116f79d6b979ea96 nfs/localio: fallback to NFSD for misaligned O_DIRECT READs
+c7879cc92b071271168216b509db3949fc4b322a nfs/direct: add misaligned READ handling
+fa81e23316989acc6c9402657399436fb05c5e14 nfs/direct: add misaligned WRITE handling
+8da114ecc3aae834ea08e9e114590a162d30185c NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 
---===============8358175959262723673==--
+--===============8635336847732976798==--
