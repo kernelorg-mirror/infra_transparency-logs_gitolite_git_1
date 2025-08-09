@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6053037608415568176=="
+Content-Type: multipart/mixed; boundary="===============0774390437740502716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sat, 09 Aug 2025 14:45:26 -0000
-Message-Id: <175475072667.370929.12678670247219470500@gitolite.kernel.org>
+Date: Sat, 09 Aug 2025 14:45:31 -0000
+Message-Id: <175475073139.371204.13520845454173329729@gitolite.kernel.org>
 
---===============6053037608415568176==
+--===============0774390437740502716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: d632ab86aff2cef21f794e337a8e7f2320ac3973
     new: c30a13538d9f8b2a60b2f6b26abe046dea10aa12
     log: revlist-d632ab86aff2-c30a13538d9f.txt
 
---===============6053037608415568176==
+--===============0774390437740502716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754750766 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754750775 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1754750721-2c5c690c2b08280b52f88f8ce4a64294f8bb8e9b
+nonce 1754750730-36ffb0c6b45891ddd9e1f031450ff291d3bc08ab
 
-d632ab86aff2cef21f794e337a8e7f2320ac3973 c30a13538d9f8b2a60b2f6b26abe046dea10aa12 refs/heads/main
+d632ab86aff2cef21f794e337a8e7f2320ac3973 c30a13538d9f8b2a60b2f6b26abe046dea10aa12 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiXXy4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oqkQAKJR7cM9jncAByFkx9D9
-Hcv9EU/1f1kdkUzaOqe00j6R2aerrK8nQhkXmwDlFEwY15fwaQ4pUrm5nBWGg6k9
-NVyMG3p5mRKpjIk73BOJ2t7HFDxfPJ+MGXbBXl9OIXGVmbQmSpIWbIlSmj6Wh94P
-ef3y6s+ogs91lDYPUIIUZEt2izZvHcL/gdzrPqj1JomNJOZo1v+8HwJN4z0eYNFT
-cUjW818nD3ZFgypAC2XIqIjFl6otWQ90jKSvMUBLQYoEOUL4uYGFI3n37j+FYRTE
-93rx8wjrmEkNzjq/Ckpy3fFYuBdT/2QPfsMukO/ct21Mi8Xqxu2BR8aYOnWMJeF0
-5QZvI1DsPUzrsyp1wS/NLZRggbuExa8dLFXBmSPr92vL0ZgTlGV+kJY4vuWikeDu
-mxQaUJhVBADoauQ2ilq0t0YlxqYhOSQCGCwWB+lZfn+uGrFLsfmg9txtnFymKVLf
-njnNhZbbOMZ+UjagDRhKo2x1N1h/JHNNVH/ifndqcSb/yLAYo7IfqSfpIxQ6OTNS
-7fWeDic6Dx+bTk2caMR2SM981m99tYSaLqsKBJbqTmiMxLsKdmvxyA5OSrfcxis1
-yOwCZCeeG+XKA30WBXaAm58s1OcSBKaV42HZRPTNcGcpvOA28650XucrDDO6Ol0v
-N65b/obSxj8jJ+cFBE9ggZP0
-=PoRP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiXXzcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dukP/0MqFaFs+yeYrFJpO7W3
++Z7Lv2KX8kBZdCVUJxFUbu7ES5XsAH0eyGOKY4dV55rfHikjyZJK0QnuzNiokbY1
+NYw48a3NX+dBcWNGydFqBG+TSu9nFIcbGuNSv8At6TO6A5F5978MJm+r4l+TqFSN
+iRAMBRAjKL3C/UY3NorbigBIq7IUnrDZVI/Cki1oxg0P0ZZYxl6oQhiSgPqwdQ/H
+TkrSZj25/jGD7Q3fsmgjyXEaDa7dZC15BdD7Orht0UUv7HF73hT1ltuAUGusTbF+
+p5on/VxuTF7dDO5g1bux4Scld6GrLVfeM/StBS8nqA80QOzTtI8KV7Tov5XNFWmh
+IG5p5HH4lghln+7nXZcfZU885HS3qRKoHbwt0mH72UPowrmtFZxfUFFdt9mEN9LC
+DQInxouWarTf6dVq+uGBtnm2jDKXDJrj19oNu6ZelB27qCO6lRDhrAd05NXEjFuq
+wxRzjwM0gV9AiZgVVteFf2yGAbFlIn1s7a22NhrlsEiae8PCT85wl2i77aRB0oYc
++RnGC8E76W6NqfhUUyL6g81dXrUPgkKj07y2ZeyvVGdSUPmfyttGnricjQ26r0yi
+Gzv6JoVxBFYAyyY/GsPykoga93MDZcX2bg6Ud0zYCuJksw86NqPPUY1dz61r5pEZ
+Z4vX971QFNZQJbEi4JkTBWsI
+=T+Bl
 -----END PGP SIGNATURE-----
 
---===============6053037608415568176==
+--===============0774390437740502716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -740,4 +740,4 @@ c5bf33d778e8744d081c51061753a8a313d247d0 Merge tag 'regulator-fix-v6.17-merge-wi
 2988dfed8a5dc752921a5790b81c06e781af51ce Merge tag 'block-6.17-20250808' of git://git.kernel.dk/linux
 c30a13538d9f8b2a60b2f6b26abe046dea10aa12 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============6053037608415568176==--
+--===============0774390437740502716==--
