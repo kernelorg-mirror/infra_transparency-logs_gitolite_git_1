@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 09 Aug 2025 13:17:17 -0000
-Message-Id: <175474543735.243605.17376572347581408362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sat, 09 Aug 2025 13:31:43 -0000
+Message-Id: <175474630355.255766.17127534492610722451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: e473affca7b039fd018eedb839d6c80e4fd3df17
-    new: 1984b640b29a2d43ea9ecc8a37b87c8c1ab09e46
+  - ref: refs/heads/nova-core-unstable
+    old: cb795c6737bd0282759e4d3b925cb10e0320eed1
+    new: 2f55e7a539cad441a8bc43526ffa880d202a43cc
     log: |
-         1984b640b29a2d43ea9ecc8a37b87c8c1ab09e46 man/man2/mount_setattr.2: ffix
+         bdb5bed0e0ca1c0b47032cef40c71dcc3d96b13b [NEW] nova-core: mm: buddy: Add support to allocate from higher addresses
+         72521fad6ec427c05dc4d4389ee5a6d3e5c52fde [NEW] nova-core: mm: buddy: Sort all free lists
+         2f55e7a539cad441a8bc43526ffa880d202a43cc [NEW] nova-core: mm: buddy: Add range constrained allocation support
          
