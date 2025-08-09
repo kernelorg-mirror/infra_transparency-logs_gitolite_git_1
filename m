@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 09 Aug 2025 19:36:20 -0000
-Message-Id: <175476818094.615608.15759999373191778923@gitolite.kernel.org>
+Date: Sat, 09 Aug 2025 20:18:39 -0000
+Message-Id: <175477071955.648136.9204686047141205492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/sj/hkml
 user: sj
 changes:
   - ref: refs/heads/master
-    old: d2f9df8648ee7ecec468abd67f5b411a2eddb36e
-    new: 59601f1b9e16f176d20d10675bf390ded2e819d5
+    old: 59601f1b9e16f176d20d10675bf390ded2e819d5
+    new: 74b348dbbb84f7fde3490e7c1ab8d8ed065519b9
     log: |
-         ab45a4f113ca24f46486055256a48d029f5f2b0f USAGE: document 'b,w,g' keys
-         59601f1b9e16f176d20d10675bf390ded2e819d5 hkml_view: handle horizontal scroll and lines highlighting
+         e2f25ace4ea97bbd4a366dd19559ca058a6458c2 hkml_patch_format: warn if PATCH is not in --subject_prefix
+         74b348dbbb84f7fde3490e7c1ab8d8ed065519b9 TODO,release_note: update for non-PATCH subject_prefix
          
