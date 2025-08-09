@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4567003729238169701=="
+Content-Type: multipart/mixed; boundary="===============4445285575378554686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 09 Aug 2025 14:51:31 -0000
-Message-Id: <175475109186.377483.13768259580093457400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 09 Aug 2025 14:51:32 -0000
+Message-Id: <175475109264.377545.11232589018581741756@gitolite.kernel.org>
 
---===============4567003729238169701==
+--===============4445285575378554686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/usb-testing
     old: d632ab86aff2cef21f794e337a8e7f2320ac3973
     new: c30a13538d9f8b2a60b2f6b26abe046dea10aa12
     log: revlist-d632ab86aff2-c30a13538d9f.txt
 
---===============4567003729238169701==
+--===============4445285575378554686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754751135 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1754751090-42768fda372bb17a578028e4fcb1b0cd5129f23a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754751136 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1754751091-b2d38922abc5c44896955f54422e9d6cd3c3eff8
 
-d632ab86aff2cef21f794e337a8e7f2320ac3973 c30a13538d9f8b2a60b2f6b26abe046dea10aa12 refs/heads/staging-linus
+d632ab86aff2cef21f794e337a8e7f2320ac3973 c30a13538d9f8b2a60b2f6b26abe046dea10aa12 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiXYJ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4u8QAMxFCMnL9g6GAopMb+9q
-nyrIST+5mr+MLzwLkiQRhrNAdtTlPchxGlRcIy7suDNK6vteodJKWrax7RYLTGgT
-aUeJvL99/5yCGDvDrDMBa1S2XfmbDzUt8FZXHy4Fw7FsPhSFyj24hM/TmozCnH1S
-VE/tkDFBXAKQ5Wkb3yjDhbwVipC2Ww68p0QVTdSlyvTZeIoHMhW6wEyWBYDKaSv+
-L/JGnrVY+01Qd4sIf7KH/LwOTQGV/udajOSNduNHkgVBycEtI8rA/kAFtBomRyxV
-qyd+Rx5qFFN59VOcX0t5tWUaCjHJpgbgtfc2LwyOBNDKHFpGdG1/QAz+e0lgCpfw
-yaU0p1ROiLPKTbkq46FOmGS0EtGbK7nUfgCj1Avc+qSh1CoB4re2mTh77uuCQRzq
-buUVK8Gkf5L4VbNM6sgq1L5nz2yQwgc3allwKhTpEy5x7IIQuEBO+JMAMglV2w3a
-tZGy1poMd5yIYIxspY+NMomlm322qv6u2MUbWmbrP0BphrG4m1JxGgqt/eAV9p6s
-ydtHOJPnki9b89ehdJiAhhgC/OBPzBdUSydCdiVLODRdE1yCrn3xykE1i+BGD4o8
-WgSuo7IImeD5BFpCp2vEXTeRtFT0H40c9CKJtukbHR1NL3LVvKHjKfPKipBnghyH
-1YUr+a72PJTZtnxHWqLkNe2b
-=H6oF
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiXYKAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oKYQALkEzysjJk916CDxY2Tr
+aMxVm5R4RF+24UzK3bD4hTv9KEur0EIFfR36vImiuWtyXRLcZ9gcqzWExljkRquB
+u88Qo5ysie7kx3oV0tO8UMsgntwx3bYqMPzMhc3QxdXu19UJK8nCpyEJag4+XdJX
+udou+9TqzsYGB5rWG9Ul7U/YVSLZQlkOfVDrJhgwccsdaAdr7RHg1gldi5EIBL81
+bryIF3ny6OJbAHvXJ+NPz8aUZHn0W0rSjxpLkwghcL9h53IntItAhxg4NwVvaf6s
+dGasSIn9O3eZ8RQPdnQAHRcQ6d5JbZRsRqMQfX4fd7Ua9DvExzellBPN3rirdaiP
+j/ipHDIso4AZuHlmCn2JXYpBNFVYH7WhA4Noh139o1IUqM34Nwff6Zu4wo047YJU
+FYdAoe5UlCMZAh1439R3k2Y83MzpE0+OW5XODNTD7vZ0Lpxs+SHWyjXymS5ULz/o
+sOOw8BIU56nBGTOdFtXR5W2bW7c+Nge2xloeSgrAEtjoHNtES+dfWGCx1Fgjszmw
+wa439KFkTAJTn0QyBUG2WHvJGLacP3z3kkf04XvOB+8jTNIkEI+suvmm6jbV8MMh
+T2VecmHPDMkzkpYFTNjfWhElBK/v9pFpYD4tfkHM00S9yMMkJ+HQXPHz/+ZtIY65
+6q6JL6ECe50mDsRNJe+VBRtX
+=Yrzo
 -----END PGP SIGNATURE-----
 
---===============4567003729238169701==
+--===============4445285575378554686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -740,4 +740,4 @@ c5bf33d778e8744d081c51061753a8a313d247d0 Merge tag 'regulator-fix-v6.17-merge-wi
 2988dfed8a5dc752921a5790b81c06e781af51ce Merge tag 'block-6.17-20250808' of git://git.kernel.dk/linux
 c30a13538d9f8b2a60b2f6b26abe046dea10aa12 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============4567003729238169701==--
+--===============4445285575378554686==--
