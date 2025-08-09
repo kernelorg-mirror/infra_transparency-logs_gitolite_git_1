@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8635336847732976798=="
+Content-Type: multipart/mixed; boundary="===============0145978225703838724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 09 Aug 2025 04:48:36 -0000
-Message-Id: <175471491646.4023484.3944410285708396375@gitolite.kernel.org>
+Date: Sat, 09 Aug 2025 04:48:40 -0000
+Message-Id: <175471492021.4023585.2284412827213248546@gitolite.kernel.org>
 
---===============8635336847732976798==
+--===============0145978225703838724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: d88660f079d27ce5d8cf8c6bd6904d9d79dd84ca
-    new: 8da114ecc3aae834ea08e9e114590a162d30185c
-    log: revlist-d88660f079d2-8da114ecc3aa.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 2ec56403017fdb4c641f8b0223e772e43a27ef46
+    new: 824fdf69d6b5382964eb78bcc560e4d0c9626750
+    log: revlist-2ec56403017f-824fdf69d6b5.txt
 
---===============8635336847732976798==
+--===============0145978225703838724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d88660f079d2-8da114ecc3aa.txt
+Content-Disposition: attachment; filename=revlist-2ec56403017f-824fdf69d6b5.txt
 
 09ca181e23d471f6650a55e628e36f478d93e07a NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 1d8bcf511147678af4cd71c6d547d434c5edd42f NFSD: pass nfsd_file to nfsd_iter_read()
@@ -86,5 +86,30 @@ a9c0c175216d600402099f7a94fe73f47ef35702 nfs/localio: make trace_nfs_local_open_
 c7879cc92b071271168216b509db3949fc4b322a nfs/direct: add misaligned READ handling
 fa81e23316989acc6c9402657399436fb05c5e14 nfs/direct: add misaligned WRITE handling
 8da114ecc3aae834ea08e9e114590a162d30185c NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+9af34d76d492c466a28ce231d4a889e1876e4ac7 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+d4a310da961982ce43b92c623e07621ffac8c078 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+3272feaf22a902ea4570fb47f86eddfdde954b3c Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+ef937cf092dea8e1384437b6a3c904d17acfb1db Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+d4c452906c961669b8ce9bbaad9be6b584230571 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+1336cb53b67e5b8c902faf2f0b99e7bdeddb566b Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+b6f2baf80d600ffccaab87c9a2736e711e44830e Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+63c8b2854d22955aca6ef401b77d88d7d870f35f Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+ce5029167bd54e3c46449811dcd12b12d304f554 Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+82227e8b0723c30828cd96371281656ebb3a8ee4 kernel-6.12.24-1
+be2479fa34ff37834e6a74cbe0a7acc43c72e486 kernel-6.12.24-2
+85342b6d300e454afa4cd95262ae87877df12da0 kernel-6.12.24-3
+ddb91d3d67fabd54c1fa4dfe95d134b092599dd7 kernel-6.12.24-4
+d060f209f3d1dc6ebf23136c777b6be185b15313 kernel-6.12.24-5
+5aa55eaf4a01741240d2c0a93305af4795c57c44 kernel-6.12.24-6
+697e9a4c04fa15641d8dc3d192c6007c4ff91837 kernel-6.12.24-7
+96b48b06e3a6bf6394d23979a4cd9ca6f5f5c8a5 kernel-6.12.24-8
+6510045cfdb692af11d26afc0ace977d878ae994 kernel-6.12.24-9
+2dd2b79591811b56492435c4634a2a2e2584a4f9 kernel-6.12.24-10
+cf098feab7527222f0cc2207dbb32233cd15429e kernel-6.12.24-11
+2dc28f2a6260bd540ade4a53eb4bea32c512f8fc kernel-6.12.24-12
+aba24fa909c5e624e40d6016b53dadeda84799d3 kernel-6.12.24-13
+0c3f8ca04845dd3b86c7215348480d704fcb2a9f kernel-6.12.24-14
+af84182dbe77d5ee4876d8ce2ba44110d6460bbf kernel-6.12.24-15
+824fdf69d6b5382964eb78bcc560e4d0c9626750 kernel-6.12.24-16
 
---===============8635336847732976798==--
+--===============0145978225703838724==--
