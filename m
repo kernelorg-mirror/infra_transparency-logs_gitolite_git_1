@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 09 Aug 2025 19:33:28 -0000
-Message-Id: <175476800876.612015.11661907332070514754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 09 Aug 2025 19:36:20 -0000
+Message-Id: <175476818094.615608.15759999373191778923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/testing
-    old: 1b53e43b178ba5906e284f20b879bf68091b58c1
-    new: bbfae240db585c67b1159a6e7a9fcd71d956902e
+  - ref: refs/heads/master
+    old: d2f9df8648ee7ecec468abd67f5b411a2eddb36e
+    new: 59601f1b9e16f176d20d10675bf390ded2e819d5
     log: |
-         05c27be3cb7cedfc6db3c12ebf8c914904062d81 MAINTAINERS: Update max30208 maintainership
-         0bac4b05672c34ef2569b902e822ee4030998d37 iio: imu: adis16475: remove extra line
-         0666aead9ba4e379fdb52a85345e789ce564085d iio: adc: ad799x: add reference voltage capability to chip_info
-         bbfae240db585c67b1159a6e7a9fcd71d956902e iio: adc: ad799x: add reference voltage to ad7994
+         ab45a4f113ca24f46486055256a48d029f5f2b0f USAGE: document 'b,w,g' keys
+         59601f1b9e16f176d20d10675bf390ded2e819d5 hkml_view: handle horizontal scroll and lines highlighting
          
