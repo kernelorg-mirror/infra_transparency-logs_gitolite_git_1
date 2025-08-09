@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3219321644618388976=="
+Content-Type: multipart/mixed; boundary="===============8358175959262723673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 09 Aug 2025 04:48:29 -0000
-Message-Id: <175471490932.4023059.7553607729484064452@gitolite.kernel.org>
+Date: Sat, 09 Aug 2025 04:48:31 -0000
+Message-Id: <175471491196.4023291.17160058014864040400@gitolite.kernel.org>
 
---===============3219321644618388976==
+--===============8358175959262723673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
     old: de82a848ae3e3c101fa5ab0c7b24b614d7e3692e
     new: c3e2781a939ce404bff0a100e69d9dff723730e7
     log: revlist-de82a848ae3e-c3e2781a939c.txt
 
---===============3219321644618388976==
+--===============8358175959262723673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ a2cb98f43424f1bbf859e0c4f2824e6ec12d13e2 nfs/localio: use read_seqbegin() rather
 f9dd6143c75ebe2c371e9904054f774c92c4c8ae NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 c3e2781a939ce404bff0a100e69d9dff723730e7 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
 
---===============3219321644618388976==--
+--===============8358175959262723673==--
