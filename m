@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 09 Aug 2025 06:04:57 -0000
-Message-Id: <175471949786.4088726.14589587168135545145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Sat, 09 Aug 2025 06:11:16 -0000
+Message-Id: <175471987686.4095556.15124522539382227742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 2988dfed8a5dc752921a5790b81c06e781af51ce
-    new: c30a13538d9f8b2a60b2f6b26abe046dea10aa12
-    log: |
-         1b30d44417278196a90c79244bb43e8428586345 bpf: Fix memory leak of bpf_scc_info objects
-         9474e27a24a41e55d0ac2b77d8171fddec7dbb87 libbpf: Add the ability to suppress perf event enablement
-         5e2ac8e8571df54d0a9c9d08f287e006269a6674 perf bpf-filter: Enable events manually
-         0e260fc798bfef6b0dd24627afa01879f901e23e Merge branch 'perf-s390-regression-move-uid-filtering-to-bpf-filters'
-         c30a13538d9f8b2a60b2f6b26abe046dea10aa12 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-         
+  - ref: refs/tags/efi-next-for-v6.17
+    old: 0000000000000000000000000000000000000000
+    new: 3b898baad847225917709a0ddae1f1cadc3aa8a8
