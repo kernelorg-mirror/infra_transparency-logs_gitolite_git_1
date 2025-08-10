@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sun, 10 Aug 2025 20:32:51 -0000
-Message-Id: <175485797156.1887550.10624978056396443384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 10 Aug 2025 20:33:50 -0000
+Message-Id: <175485803016.1888158.659218158877836568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/nova-core-unstable
-    old: 1f078b3d855a3c6c1b904d38555e842fe545e6b0
-    new: 46f6c355bcfb427246df973db3e189296bafbd7f
-    log: |
-         46f6c355bcfb427246df973db3e189296bafbd7f [NEW] nova-core: mm: buddy: Add zoning support to the allocator
-         
+  - ref: refs/tags/v6.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
