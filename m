@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1648272393419276582=="
+Content-Type: multipart/mixed; boundary="===============2972644035851225438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 10 Aug 2025 13:44:03 -0000
-Message-Id: <175483344352.1489708.688329565371469993@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 13:44:06 -0000
+Message-Id: <175483344670.1489830.3417808610792262075@gitolite.kernel.org>
 
---===============1648272393419276582==
+--===============2972644035851225438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: c30a13538d9f8b2a60b2f6b26abe046dea10aa12
     new: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
     log: revlist-c30a13538d9f-2b38afce25c4.txt
 
---===============1648272393419276582==
+--===============2972644035851225438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833488 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833491 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1754833442-d49640011485f4acfc3d4b4564c835b73b024dbd
+nonce 1754833445-dc78eb3b94efe8d1c6faca7b0aca3fdfc6254cfd
 
-c30a13538d9f8b2a60b2f6b26abe046dea10aa12 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/usb-next
+c30a13538d9f8b2a60b2f6b26abe046dea10aa12 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYolAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MdoP/30KCvK1iUbZ0eb6/inZ
-ieWa/am3JnOXP9CICNbRTJZEE55Vtm57ZFfWd3jvEvxYjo5drUuetD/Sc9R3ah8x
-i80QEiimjhEqyHGMFQMOo9m2ftYTmYvKq5Gb0YT4rnl8JHDgZ0HUe0wIIT+AiTLO
-cT4oIKadlznZFq0KuEULjExv+mgCGoplsgz5LN6cqNU9MeMFSbKrCoE1KPj+GQuj
-Q+uVPL/RRsKY1H0MZq4SWXgvpQLiqENsn0clQeqLDkExWzn/PQ45nxFSsMJuUrjZ
-nSPE3OBwmJOfaMMa9HxnigITLMu7esPAsFjbadc3oLtqibRMKAmunYkmn7fewHAY
-UZ/bjm4rh9QBvMuewu6TvDCoorwuv1TyIdBvbP7nToEazPotuYZFPhzKUXqEKl/z
-sTh437oJU+m+aKux7NFyp8UU/8v8970Qut3vF381qOWMtWFyWJGNogdoxy0fswyG
-nVxMHm8/kyN+xZI5NouSzWx0jZqkALyLHiFWLyKK7AvjEuILBxivdd7EI8q5ZaUO
-sTgn3KCV98LEbbNB73MueOxpnjWBTQbldRGMsFpesLgodBlFMFp2qMwW0sUBab6r
-EZpcr8zq0N1VEctrZgtIvPkg6SUl/cCRDZ8M7AvytRX0qy6KDVpUSL9OD0Y8lHwo
-v3Sz4ClWOU6BXWIgmo8ptE3a
-=kWRp
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYolMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w5cQAJCc+qnEZjo2XTNa4zC2
+7FTIEN24nRUTkHQzwFSnPHH1gaSDr3aaBitaE0r40yjrMaXHDg/yzXH044GlO5eF
+JgBaIyOFbPXhvWh3t8vYn0P/OEEszjaxxbsby13+gBV9+8cHY3G/i+b7g2kN0ioK
+CDD996Ya3JPZgxA3xYa9prOYwv2r4x0NXP71AEj2oOdWDhkdHr+SiJRnhuL0AP53
+JqwG8zfHHy6zDXh9vsrcxEtGzM1gI0WbyOiw+m3zTGWss+/5tfQvhaCVCoGdQm0X
+ifSpsymhjWU+cfdyAouXfpKtJxVW1hljsygEH6G5ouDTYaym9xlbX1wsHncxJ/3J
+hr1xwe7Kw6Pa3C5Z1aK5Lt3/D/XhJQo9+ef7x/qUKrs+0a15SdTp6CGZU3FOXzql
+mCjeXd3Ti6PRDqrIZ1yRplTt8/YOV7mai+9VXXcBokq72ljuun2KDMb1/1ZvVbaN
+6Oy3D4R1U3haOsgoG1odLldtcUXvTwV5Ca7nLL9Nnz4CSF/xt+bQltXP7vp828yD
+q2l05Zb0eNQdL6szUcY3EeaWGU2TzcqXcgOsW/clzZ1la7CasLCUnLWzRCwga+Oy
+6YSdvigWZlG4xJ99MYl4CFOiWcDBjXJ4TYpKI+w3eheLlIJIjXYunDuD6otTdjN3
+43iyWz0unrQN2fB95xaNQ4cW
+=6ypO
 -----END PGP SIGNATURE-----
 
---===============1648272393419276582==
+--===============2972644035851225438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -96,4 +96,4 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============1648272393419276582==--
+--===============2972644035851225438==--
