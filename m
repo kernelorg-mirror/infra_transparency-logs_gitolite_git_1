@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8113365927456526909=="
+Content-Type: multipart/mixed; boundary="===============1357957594485383635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 10 Aug 2025 13:53:17 -0000
-Message-Id: <175483399759.1552789.11402751434471526949@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 13:57:00 -0000
+Message-Id: <175483422031.1556686.3148480437682104414@gitolite.kernel.org>
 
---===============8113365927456526909==
+--===============1357957594485383635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/container_of_const_mess
-    old: a2c07277226d6e7a4eebdd8adf79116fdf5c1326
-    new: 180e25f4e9d35184f72d3202081c5dcf2f254932
-    log: revlist-a2c07277226d-180e25f4e9d3.txt
+  - ref: refs/heads/bus_cleanup
+    old: 42b34ed623baac905a81cf14095ece4b6f158a17
+    new: 5362ed920e872b95e127fa1844e589991303a7af
+    log: revlist-42b34ed623ba-5362ed920e87.txt
 
---===============8113365927456526909==
+--===============1357957594485383635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754834040 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754834263 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1754833994-5a0af1fa10317fc7799ed60582892633ca7416bc
+nonce 1754834217-eee0196c70c8475e62c4cf2aeda6aec2573ddb1e
 
-a2c07277226d6e7a4eebdd8adf79116fdf5c1326 180e25f4e9d35184f72d3202081c5dcf2f254932 refs/heads/container_of_const_mess
+42b34ed623baac905a81cf14095ece4b6f158a17 5362ed920e872b95e127fa1844e589991303a7af refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYpHgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8aUQAIvf6oc5t6pGW21vKlgh
-wEkY0l0EZdi8LSvwberyZJGv7IjK4t0cNQLRpw3e7IzXpIWWFUL2WIQEsW9MD1wd
-sozHPmSr8gXkaM+EMo935gYTIsG5BE7SlWhl/iCMY8PhfdxpgU1HUwM7hKCZvyqA
-Jc5Wm1autq/7anFfVkLHC8HxIfO7/FPT+5J/MA+UudZ4woTP1K1QM69Je3WPT+6r
-6UIAoupjlCuVPkqzpK0taduDGXp5No3XKaHFsSzkxw26zbfvrpcdGQu37jUU7FwE
-QWxCzG73K0rTmjEjNGQR09nZe+J9Qc78SBZE6oqMZm8EaeW0Zd1pxiel/Cf2Sa3X
-cYOGPPFWeFJNVrYnA0Jxq2s+itiawWhHqMFaJaVOKPdMIcPBgFa48z7kAWUuENg+
-/cCdwX21Q/u0z/e41ubNb7M3coA55dO9dmcjxw87jyKiCIDMtudkjD+lV3lHiU94
-/Py2qWcHDr9pdREqu2uhNpIom3AlvOwamtSx3mrI6TNab494Tm46/G2V4tvPfbSg
-1aQycaraAKBNheIKSVxRC+OhTwNVsy7/9G9o69YQ+5CEP4TAyEuyACBzKQ0Sq21q
-31PGCWc4qEOJr6Z2U+jQqWwALHjP0HdspbfEIDkNH8ytnK57SiKpYl0RDr19J08y
-UVMi6RZhVeK2wMTdrirWR3eR
-=S7Rx
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYpVcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A/oP/3x98GQ+epv8Hqis7od/
+oF0FFFJ9OAnxTC1dclReky9W9ylfKRNzLJkOq8whbiuHzBxOG9cQrCrvp6rJxmd4
+UrCByLSNM83Y3iBUGKn8cxIVNwsZ63+L8BlroDtoskKUOXBq5sUmB+7RDHucMqnj
+YiL1YjVJOs6fTkiM08UhABfKXZ/Kc74PPFpGSxNwPV5GLiygWooWPBEQfxZ0T5kk
+cb30L5fyDbfdi4pA7DQFuiEGdeXTnxx4wlp7CiwNKz6MIKj4e6efJIJkfneE6qrs
+kVfhbC9rSWOp235e0yJc86PE/8ief9FistN43A3/X6gJEqzLZOCGj6mtJrbEFhrs
+GxNTGdLWeRZjQSYIsv4TcVERM48KUuKn8yrLX87qZvD5jawTaktLJS8wKOQViwwK
+NUn+ILPvR0Vwlchvj+gB64RJnDPdTE2hwf4D+pbTaS0Q3pBeqeMWJBSqSFvrszjj
+14MRg54F9kMm7OOkoWBecaBp95LoQDtAFsreprNPCapZZxNtfWDPPiUDRcXCrK3y
+TyEEJayXsa8EhzlLFPwE1tLTNBhrmKRfOsoG95QCeq8yzwyLx3nnI1ZMvnDykIbp
+3kIuUHwE3yA5rLbftL4ehfveJrlf0RdCBocvS+Ap7jL4bTr6xScOhZQFvopXmUxl
+cfiXbv5Q9+qd7c/QwqIR3U5+
+=5pZa
 -----END PGP SIGNATURE-----
 
---===============8113365927456526909==
+--===============1357957594485383635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2c07277226d-180e25f4e9d3.txt
+Content-Disposition: attachment; filename=revlist-42b34ed623ba-5362ed920e87.txt
 
-85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
 651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
 2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
 c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
@@ -1079,7 +1078,8 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 7d2fed1f3ce46f7b161e33626b2cffedfa21767f Merge tag 'irq_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-6eb4729d32c7a2f2e3954699fc6dde80354b38f2 container_of: switch to be a const call
-180e25f4e9d35184f72d3202081c5dcf2f254932 generic: fix up some const issues.
+f407f0d9be217f89b757767d6a43b08128c11fee cdx: make cdx_bus_type constant
+134586cee8ce08eb9704c016af6a1ede0628940a intel_th: make intel_th_bus_type constant
+5362ed920e872b95e127fa1844e589991303a7af make a bunch of struct bus_type const.
 
---===============8113365927456526909==--
+--===============1357957594485383635==--
