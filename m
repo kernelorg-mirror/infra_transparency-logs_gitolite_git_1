@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8205948166921071510=="
+Content-Type: multipart/mixed; boundary="===============0983724868596156022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 10 Aug 2025 06:50:36 -0000
-Message-Id: <175480863627.1160095.1830388767823574508@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 06:50:39 -0000
+Message-Id: <175480863997.1160185.7969614922901260272@gitolite.kernel.org>
 
---===============8205948166921071510==
+--===============0983724868596156022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 55a984928bfa30c7877e28f16910e6de1c170f1f
+  - ref: refs/heads/tty-next
+    old: 89748acdf226fd1a8775ff6fa2703f8412b286c8
     new: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
-    log: revlist-55a984928bfa-2b38afce25c4.txt
+    log: revlist-89748acdf226-2b38afce25c4.txt
 
---===============8205948166921071510==
+--===============0983724868596156022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754808679 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754808683 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1754808634-c5f8afd5a7b7fd0914e547e38bdd63a5ef4f1cc8
+nonce 1754808638-f0347c7cb07e57d982abe6c5d528551d34a01930
 
-55a984928bfa30c7877e28f16910e6de1c170f1f 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/tty-linus
+89748acdf226fd1a8775ff6fa2703f8412b286c8 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYQWcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UQsQAI+zckuDIcmQXM9j+H5X
-dskaSFRtl7tX9qJGBRLBMvlGvNS4X5d5y3DpRG0py68mxCurSwNfN3ypfR5qAVYg
-lVjiiqDbowm2/NtiR3KtElBwFWzaxOE3+lnCdvnFo7OX6OjzUYNudxmbUAeAp1Td
-3X96sKJw6s3hkNRwS8vs02Qdm8yVZLtGMN36RYEaKi+wGfH22SQGan0zzLEauzdr
-9VC7QM1+mZl8++HtpPxrlbcheDVmojtUYtJwRZG6dO17h6swKPmXNbbbpOL+Mh28
-bcntAKEE1R3w2DcbMwP4vhwwiHYk8/RyF5kAWGneYBavLgN7fACa9i4CrL/rpaoR
-ync0wP97geZ+qofXNWhBNaH3G0Hbz63xvOW1EGGuVxSej1mrOgSqnCqrokRjK8gl
-4MwjFNsd/gmt5c4j0SudJGjl9BIZSMdRe/vaQKAMs3Md1p/vBncJw1AlUPMJ+kvb
-JCUFpU9AdCG2+BzJjn99govAzheCYSasGqaCRAu8YKK5/ZKU58VN1yGczitd+o/x
-QIwzqUZkgjL4hllq1w4DBT1H/AsV/FgQIEfHzRTxfLwoGJVlG7+vVFQgTAIVEz3U
-tg8ucAMEw4dPqkyr3Zc0CIKAKOMSKaUG9Wlr9r5xSRCK6qc00zTo751CaCbNygea
-qt3gdq3HjJ92jO2Ms38Fu2KB
-=ZlO5
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYQWsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+twkP/iVb13Gqk5veo42DQmQI
+jJkWjH9IAs0FrMdmxDC/irgVhNEsRLG6YEWAN+4dH2KhKNQWvPgtlAyo4blw/LEv
+tsZkoVXh2scfpY9ey59RxKmhShjFtSP9zb4zI9Hdi1CFGz5LllB+heb6GeQb/Ou7
+w0FQbOMFHPaZN5Dr8OSbb2+SPOCIuUzttZfds9DZvs4JkSVqVc2/19ZchE9P9zTQ
+L05upjz1VnvmwVVXMdFgPXzpCTjv4OnqwpA+ESywMPmmuBcEaXAYB2M09iiO2bZ3
+KuuHLy3ChK5howycf4SQLWfSBeHcM/VRqUL1STdnwySjljKZmhAGRj3MdiQA9Ten
+QhiYm38WjBNBjejqrJ7H6MkD1q9AmQNWiGsxsI3fTs+pcecqZdyhhU2f7dVVIn+R
++d62LR6BP8qi5eOuEpeBPzlHxma9mIm2lvye71BDvXGXJ+1QSis8a0tDher2Uecx
+FkS43T6J0sh+n+9Emeb466MjgGjn/iuKBhKdZxL9eqZvth/3ynzTKI+gS4kmeNbO
+YqL7WlEl7YQ/G3SvEtPq8EvjX13y+3EE27bvYs5X0Xa3LkLqpdFGHQuivBOAWjt3
+hfyfxhZoIFTLu7NXLGpCjYYQmy9Zx6grpKO8YDZscvbqbjszgZ0Trr6mD73JGFl6
+He8UFpylsMiG/MdZn4ULCwHj
+=CrD3
 -----END PGP SIGNATURE-----
 
---===============8205948166921071510==
+--===============0983724868596156022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55a984928bfa-2b38afce25c4.txt
+Content-Disposition: attachment; filename=revlist-89748acdf226-2b38afce25c4.txt
 
-ce1bf19a34dfa1f418037cebe11f5d2c7adf9d1e kdump, documentation: describe craskernel CMA reservation
 e1280f3071f11abc1bacd84937ecf077dce449f3 kdump: wait for DMA to finish when using CMA
 bf8be1c3610829056e5445282ca92ca7b7a4ba7b x86: implement crashkernel cma reservation
 261743b0135d1d578cab407ba0cf226df30b43d8 panic: clean up code for console replay
@@ -654,6 +653,7 @@ f1befc82addda926c8301436123d041bf3249505 cfi: Move BPF CFI types and helpers to 
 710618c760c0a3267221517d78f4cfb65ca7b882 arm64/cfi,bpf: Support kCFI + BPF on arm64
 93acc0f43f58743737888985133809634e298753 Merge branch 'support-kcfi-bpf-on-arm64'
 a967e758f8e9d8ce5ef096743393df5e6e51644b smb: client: set symlink type as native for POSIX mounts
+55a984928bfa30c7877e28f16910e6de1c170f1f Revert "tty: vt: use _IO() to define ioctl numbers"
 9d9b193ed73a65ec47cf1fd39925b09da8216461 crypto: hash - Increase HASH_MAX_DESCSIZE for hmac(sha3-224-s390)
 1da33858af6250184d2ef907494d698af03283de regmap: irq: Free the regmap-irq mutex
 76b6e14aa7b081337d118a82397d919b5e072bb4 regmap: irq: Avoid lockdep warnings with nested regmap-irq chips
@@ -1082,4 +1082,4 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============8205948166921071510==--
+--===============0983724868596156022==--
