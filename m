@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4612887307025242233=="
+Content-Type: multipart/mixed; boundary="===============6071399261719726975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 10 Aug 2025 19:05:01 -0000
-Message-Id: <175485270112.1808276.1045425672105311050@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 19:05:11 -0000
+Message-Id: <175485271135.1810341.4791510725403941397@gitolite.kernel.org>
 
---===============4612887307025242233==
+--===============6071399261719726975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/tpm-pending
-    old: ea4689cf452b70b1f466467c40ed0d167c0670cd
-    new: 2d84e891e5316d889ce7a89abce217a655e9359a
-    log: revlist-ea4689cf452b-2d84e891e531.txt
+  - ref: refs/heads/usb-pending
+    old: d2ebf91279fb0d05ec3ada55b7c4d28434e88ba9
+    new: 4c5330b88cc3e881228e51987f466f761fa4aeab
+    log: revlist-d2ebf91279fb-4c5330b88cc3.txt
 
---===============4612887307025242233==
+--===============6071399261719726975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea4689cf452b-2d84e891e531.txt
+Content-Disposition: attachment; filename=revlist-d2ebf91279fb-4c5330b88cc3.txt
 
 467d9c0348d6fd37b3d3a82e46c113ee9228d84b PCI: dwc: Add Sophgo SG2044 PCIe controller driver in Root Complex mode
 77923f710352f03f9e13c29057fcc80c255180a2 clk: bcm: bcm2835: convert from round_rate() to determine_rate()
@@ -1048,7 +1048,7 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-29cb93ae17774ea47a00558c5724063afb51dbee tpm: Compare HMAC values in constant time
-2d84e891e5316d889ce7a89abce217a655e9359a tpm: Use HMAC-SHA256 library instead of open-coded HMAC
+77b55ec099817cda9cddd5a5c99100db7ee45df7 thunderbolt: Compare HMAC values in constant time
+4c5330b88cc3e881228e51987f466f761fa4aeab thunderbolt: Use HMAC-SHA256 library instead of crypto_shash
 
---===============4612887307025242233==--
+--===============6071399261719726975==--
