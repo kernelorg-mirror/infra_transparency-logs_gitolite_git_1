@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6787202216457506208=="
+Content-Type: multipart/mixed; boundary="===============4084831176604392695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 10 Aug 2025 15:44:53 -0000
-Message-Id: <175484069344.1643369.4203299142682213835@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 15:45:10 -0000
+Message-Id: <175484071064.1645348.4685710981517692483@gitolite.kernel.org>
 
---===============6787202216457506208==
+--===============4084831176604392695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b2fc521b40b9e94f6fe2cc9820b14ae67d8fe891
-    new: abda5b5127fa1dba284b38aefdbc34b02194032b
-    log: revlist-b2fc521b40b9-abda5b5127fa.txt
+    old: abda5b5127fa1dba284b38aefdbc34b02194032b
+    new: 2cc213b10c3ee9e8b0a358679b59eb9801487bbd
+    log: |
+         34b69b9b4a0399d6d1dc1fc421cb47bcc4940142 Merge branch into tip/master: 'core/bugs'
+         2cc213b10c3ee9e8b0a358679b59eb9801487bbd Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 54b0c49290f7a314730612b4b6376cb4e09405a8
+    new: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
+    log: revlist-54b0c49290f7-2b38afce25c4.txt
 
---===============6787202216457506208==
+--===============4084831176604392695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2fc521b40b9-abda5b5127fa.txt
+Content-Disposition: attachment; filename=revlist-54b0c49290f7-2b38afce25c4.txt
 
 da7870162f176ea38bff7380d67222e0430b0e35 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
 44a4ef59d5506c6dc7599d876a3a1014697ec480 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
@@ -238,6 +245,5 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 7d2fed1f3ce46f7b161e33626b2cffedfa21767f Merge tag 'irq_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-abda5b5127fa1dba284b38aefdbc34b02194032b Merge branch 'linus'
 
---===============6787202216457506208==--
+--===============4084831176604392695==--
