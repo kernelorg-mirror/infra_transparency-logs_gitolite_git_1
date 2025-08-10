@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 10 Aug 2025 18:29:03 -0000
-Message-Id: <175485054317.1778470.5239210268274251711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 10 Aug 2025 18:31:42 -0000
+Message-Id: <175485070284.1782067.17194017991384852907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/testing
-    old: bbfae240db585c67b1159a6e7a9fcd71d956902e
-    new: 856d7be7f3c459a6d646b1f8432c6f616ade0d10
+  - ref: refs/heads/next
+    old: a999ab5c7fd2e954c7f17e4b6cc5bfaee33dfd59
+    new: 6311f25c9dc651c3e08f0491988827ba7de337e7
     log: |
-         4aefed1ba2cdcec6b9ab7a73bf5a655a4ac17130 iio: Remove error prints for devm_add_action_or_reset()
-         b8035ce0791bc4f2c1f579ccc15ac815938a75d0 dt-bindings: iio: light: veml6046x00: add color sensor
-         1ce219097647f6347b972c5c231e3234fb4a007b iio: light: add support for veml6046x00 RGBIR color sensor
-         856d7be7f3c459a6d646b1f8432c6f616ade0d10 MAINTAINER: add maintainer for veml6046x00
+         a014d2505040cce4ae347d9a624242e4ff563947 report_access_exec_scripts: add README
+         ad1a2e1a4d226a7c32d9b17ea2f403862d788b6c report_access_exec_scripts: add a script for per idle time memory size
+         ef073a5379579d7f3f31df662bfa441944168b42 report_access_exec_scripts/mem_sz_per_idle_time: print idle time range and total memory size
+         56a9dc1c9ffa682de896fefbfaea4478d568e436 report_access_exec_scripts/mem_sz_per_idle_time: print idle time in seconds
+         c16aa8ac176bfe78a1073aade6aa8dd238ae1026 report_access_exec_scripts/mem_sz_per_idle_time: fixup bugs
+         68b7ccd80bacfbe6cb52512c660ed57cb3e343fb report_access_exec_scripts: rename mem_sz_per_idle_time to idle_time_mem_sz
+         6311f25c9dc651c3e08f0491988827ba7de337e7 report_access_exec_scripts/idle_time_mem_sz: add comment
          
