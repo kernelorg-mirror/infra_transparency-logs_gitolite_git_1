@@ -1,62 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0783472061380270919=="
+Content-Type: multipart/mixed; boundary="===============4741332193352336340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 10 Aug 2025 13:48:46 -0000
-Message-Id: <175483372672.1496853.4059250836142157010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 10 Aug 2025 13:50:38 -0000
+Message-Id: <175483383889.1536954.14092943731005125282@gitolite.kernel.org>
 
---===============0783472061380270919==
+--===============4741332193352336340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 469b0083b2af9666725819bfe1c6be209100e80f
-    new: 7cbc4257bd1e57a06f0890314eccd7e07d6adb06
-    log: revlist-469b0083b2af-7cbc4257bd1e.txt
+  - ref: refs/heads/main
+    old: d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af
+    new: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
+    log: revlist-d0b3b7b22dfa-2b38afce25c4.txt
 
---===============0783472061380270919==
+--===============4741332193352336340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833760 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1754833712-ff3fd6a3c1677f23504d1e0b8e61f0828e86d1fc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833875 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1754833828-b87cfd6ec55b2b439bb1225020c8b85dcd54571c
 
-469b0083b2af9666725819bfe1c6be209100e80f 7cbc4257bd1e57a06f0890314eccd7e07d6adb06 refs/heads/rndis
+d0b3b7b22dfa1f4b515fd3a295b3fd958f9e81af 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYo2AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s0YQAJrO4Cm0SQBrp1B8FcKH
-7JRQBMQhDVEQNxJOwYzVqu1uscf2hdujCu6GGycx1UGUn0VImx2zBY1ygw0eI62q
-KUQW+NVK/XRSWOarGOZbo90i6KlSuqs5Q6KNmB/+aSXcivUARbQZQSXWEoGjvx3l
-Ahb2JtN+32CpPlkZNdv60ADJslnhNElluzJimeC7kMo2qW4iz/+YbFa/oWg2/z0B
-WlLp9BNeBMTVrmtQOmofF5JOA/tAAv19yjJkPJ7RUoEfzZco5pfPc6gp7j0ckL77
-A63otVnAMqoHfjZggRqmlNGG+cI1UvHhyvkgyfsSGamYeM5Ize5fTj/Q8wzJ6Vwe
-mfDVHUZF+u+vX3SXJZJoAXaz/ZgxzYG/J2IaYx13rPArP0yV+DrJ17DLrqH+DIVm
-wYgygHsdpFBjYOT0w752fw0d6kOc2ljJ2ZTldB1zMELMF401VZwcukA0uJS7mowI
-nu5wQUyFAZeUAdNqGAaPdnKLXjrfzVGxIn3QJ3L7RnZR+YXImy51jDbk8bfh9qp6
-11TrcusAawVPgTKT+GDBCoHt7QYzhx0y9Hu8pfFunQ23EdMzWi0UWUIRBQQbzYkB
-PJbSd2a91Tdj4VV/IbXwcBQNYE4AAr5LjW/uFb/stRoFHGF0N2nHHtG9Z2ODDyQm
-o/GQBanLwNTID6pDnOQQWNbp
-=nHhc
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYo9MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UI0P/0FW5ZLspuJnKiG76lyF
+EkSEqcUQEVxOtUda0YKlvi8eX9b8N/CSsl0jORhHtZjjlo7RvMvmoAK0FVXLUDUz
+/51As0oseN2PZ636G5iCiTcVO2YDQwA/NmlceNKXAc/NBgKDHhdOUE+kmJmyfz7i
+bbcDEOVeApJrYMBSk2+ex5J41n3ZFR0suXNeHy4BNT/D0KeOWoIqjjzAEYYYJgKn
+L5YXf1bBfQKG2H9bFv7gK6o//gbXnFZsmKRDR00782p8uulLhawok6fCaeWb4fui
+SarCujJGvx/+EvXYxykeOxaT7u1eMv8hIDMpXwjMlQNRRDfHGfQp4MIE47lxXNlY
+SekXjsQkY4XsVMrL4tZt+ktoyCGD+O8ESUqIs7DcPjvG5D2iI2CGzZLf8UNXIfXU
+s8ZXljNT3zPNlqGk0+bHNSmUW6yKKxRwB9Tmk1N8AvPINEtLWnot5i/v4iDtEOnK
+LN5CdbeCUWVe7vozMHWUMUMsgA/TnkADKyZeDWTt4CH45HUKDV8Bhaht3E8uxFQs
+qZ9TMie6eKiiUeJfi2PQbSwsu6azQ3lYUgeiNR8NoCIKnH30F6yyBUnSA3pSQSLH
+x05i0qbWI6xQmFgeKwf9AowzvomM4a4Tyf12I8ET6dm4y0ktcdKd1rOCJ2HQTVqH
+xBv64snAsBeYql07IWOhp/E1
+=5+B+
 -----END PGP SIGNATURE-----
 
---===============0783472061380270919==
+--===============4741332193352336340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-469b0083b2af-7cbc4257bd1e.txt
+Content-Disposition: attachment; filename=revlist-d0b3b7b22dfa-2b38afce25c4.txt
 
+48e6561b667e7f0623da3ca34e2b93b7ae2a5d8d mm/page_alloc: remove trace_mm_alloc_contig_migrate_range_info()
+44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
 651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
 2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
@@ -1079,7 +1081,5 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 7d2fed1f3ce46f7b161e33626b2cffedfa21767f Merge tag 'irq_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-0135538dda204eead74fa87b47e59d11182f6dec USB: disable all RNDIS protocol drivers
-7cbc4257bd1e57a06f0890314eccd7e07d6adb06 USB: potential rndis host fix
 
---===============0783472061380270919==--
+--===============4741332193352336340==--
