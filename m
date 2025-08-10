@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0176363634207029711=="
+Content-Type: multipart/mixed; boundary="===============6008445296037284735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sun, 10 Aug 2025 21:16:14 -0000
-Message-Id: <175486057465.1926198.8258973766400859315@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 21:16:42 -0000
+Message-Id: <175486060218.1926684.17182407040269935252@gitolite.kernel.org>
 
---===============0176363634207029711==
+--===============6008445296037284735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes
+  - ref: refs/heads/kbuild-next
     old: 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-6bcdbd62bd56-8f5ae30d69d7.txt
 
---===============0176363634207029711==
+--===============6008445296037284735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -573,4 +573,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============0176363634207029711==--
+--===============6008445296037284735==--
