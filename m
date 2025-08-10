@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6528040736359290255=="
+Content-Type: multipart/mixed; boundary="===============3144716534953380588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 10 Aug 2025 13:46:32 -0000
-Message-Id: <175483359245.1495105.2010779013424934784@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 13:47:09 -0000
+Message-Id: <175483362907.1495717.5997754787095595207@gitolite.kernel.org>
 
---===============6528040736359290255==
+--===============3144716534953380588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 038d61fd642278bab63ee8ef722c50d10ab01e8f
-    new: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
-    log: revlist-038d61fd6422-2b38afce25c4.txt
+  - ref: refs/heads/faux_bus
+    old: 65e347a8091aeff1f357d9cdabba4ee15b32a438
+    new: 39d0e8bf1127dfe259d15fcf18d2d239a0cbed65
+    log: revlist-65e347a8091a-39d0e8bf1127.txt
 
---===============6528040736359290255==
+--===============3144716534953380588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833617 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833663 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1754833570-c02f847fcbbcc93e6746c60146854e51e31433ff
+nonce 1754833616-ee10e150aa27e59f17292ef5477e14a8f703301f
 
-038d61fd642278bab63ee8ef722c50d10ab01e8f 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/main
+65e347a8091aeff1f357d9cdabba4ee15b32a438 39d0e8bf1127dfe259d15fcf18d2d239a0cbed65 refs/heads/faux_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYotEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HeQP/2ga5ovgh52HqShvBABP
-9ahCha68e5Ul5CeRdbmYD+LB24z1f1lm89/yTQ9WtCHL0h3TbkhQpn3vCUEGZwBH
-LfwCdPmhwanxSYNp2ebuo0qfKUPvDXNYjecSyiGh+LMwcwP2MDx7X6gW/o9RLrXo
-Y9lgd1onBwqwat+p5PBs1wQ52ekFlOLMD3NJNPYDYv5GDGaSxc2e2HocPOYPwSaA
-EFxSo56N95memslYY+0RM3vJhc1zJMYExf1FsrYBnkiPaLL70DYXsC6N6xCWtCCQ
-Tr3ABCrOeiRPFC7CD+eSZLU72Lc3QthV9J3ZkN8oZKtEjU34Lb4xWf24OXBQMTPt
-eA15Rd88eBD3YzfJZP6wVZLCqDHjERp2u36BD5KhCS+kNkPmWSZZpOujEhe1i0QU
-/B5aH2zl45IqwICWHE9k6h9py1xBn9tkCM57IBgaSuqg7Jz4ieuE+U4BMAmr0L6M
-XCgrVnmn7Jmvlxmgl5tOuLQSMkHsbEUpAPnq1+Z3CPoVHxEaerwRl5kl70qjtWBo
-AZUMjdetrCcbcLgMENd/7r3mLzvH+g2PK+ZkjAZIiBIvze3giPD9+6xuSn6BEVRu
-JpIiYM0ZEnO+WdXNk47xZarpG/V0NYMHvpMs6qBSipyuJ2Y8dIHO1hl/JJj3IZ1k
-R1XkvkUCnq7T9h0z2V44m2uc
-=zxM/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYov8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CigP/3ZrmJmhbf8jNX5A+LSB
+Y0S+FDWRHA0CNKUpjJEYTUqQsEV21Le5Im8dnxBtSGxGNBuZVyt6dvMwGCi+Xo/L
+L303m4yb63/BePlFkxO+VG6VYZ9kC2/IKriffn59nIM0ceF/pFvaBxjKrwJ68NWK
+7s7s+E7diubgOdxPunXx/sdYdTvCrK+jqKJ1gv4fcFqjtpMrgxtddu2urTfE90yb
+kTBiq3N4D0F1Vp8bwhIpvqCvSyEvWNUWnAXq39tCZcyAnfBsgnvccK0J5xZo3Ot4
+SFs3LUjLTMGtdpoCDH7dhXBgZUAm6EO9+MbQXKP/qgbtY2dxOfspnjo8xGdDVI9w
+2sSkzCG5aeLoEGxrEl4gY5Y0Tdzoc2KrQSXF8X4x7eiKz/j+1LXQQw7FkamXnWLD
+GllgpkiLBCHvAV6WbU4gw7eP9oKwj7Vf8uoUZzor3sJrz2u59rLjo4tCqVzQjJpM
+s8nLCDoBzZCNTVMznbX1Urkq2aLWqk49WYhh1/aeRIU/axJevTZO56KKT0DhNfRi
+X3UFD5476qPnebwsRx8S/0Wn2nbvC1HUhjSw+XuTqUNxsWr2gCIVSOxv2k1f8x3S
+hFgzzglNPAGjldZYFNNNq/1I7hrhBVZMBSkeSESQc/jVsf6nICuNUhv66as9ltmJ
+QMOX46/ufx6yCy8woRG8nEyg
+=ki/n
 -----END PGP SIGNATURE-----
 
---===============6528040736359290255==
+--===============3144716534953380588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-038d61fd6422-2b38afce25c4.txt
+Content-Disposition: attachment; filename=revlist-65e347a8091a-39d0e8bf1127.txt
 
-da5973a0b8e0370f9e309c60e35a4d4d4dfe32fc selftests/damon/sysfs.py: test runtime reduction of DAMON parameters
-511914506d194be931de012a5f2ab55841b9b708 selftests/damon: introduce _common.sh to host shared function
-48e6561b667e7f0623da3ca34e2b93b7ae2a5d8d mm/page_alloc: remove trace_mm_alloc_contig_migrate_range_info()
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
 651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
@@ -102,6 +99,7 @@ a71475582ada92ba021852bf3c2b40ab3718549b crypto: ccp - reduce stack usage in ccp
 301eee1c52d4b8f4d4d995feb932dae742e92bda crypto: qat - make adf_dev_autoreset() static
 982fd1a74de63c388c060e4fa6f7fbd088d6d02e crypto: hisilicon/hpre - fix dma unmap sequence
 bf24d64268544379d9a9b5b8efc2bb03967703b3 crypto: keembay - Use min() to simplify ocs_create_linked_list_from_sg()
+b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5345e64760d37524d38ddfa7471f42ec64b0f289 bpf: Simplify bounds refinement from s32
 2662c7a9c3dcc9613a01c07a9118beb906aa455b fbdev: nvidiafb: fix build on 32-bit ARCH=um
 ecdd7df997fd992f0ec70b788e3b12258008a2bf fbdev: nvidiafb: add depends on HAS_IOPORT
@@ -117,6 +115,7 @@ a2a42f0c96d709d0cf5cc672acb352934ca95326 fbdev: Fix typo in Kconfig text for FB_
 ffc825a27f5503136196cb38f41641b58bf2df31 fbcon: fbcon_is_inactive() -> fbcon_is_active()
 311b07842fb0bb69b5b266b3dfd6037260a3ec2a fbcon: Introduce get_{fg,bg}_color()
 81b96e4aef9592493873507eec52eca68f0721ac fbcon: Use 'bool' where appopriate
+038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
 59b33fab4ca4d7dacc03367082777627e05d0323 smb: client: fix netns refcount leak after net_passive changes
 9d5eff7821f6d70f7d1b4d8a60680fba4de868a7 cifs: reset iface weights when we cannot find a candidate
 2aaf1784835f5f3063ae2392689053ebafd27e01 smb: change return type of cached_dir_lease_break() to bool
@@ -1081,5 +1080,6 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 7d2fed1f3ce46f7b161e33626b2cffedfa21767f Merge tag 'irq_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+39d0e8bf1127dfe259d15fcf18d2d239a0cbed65 faux_test: test module for faux driver api
 
---===============6528040736359290255==--
+--===============3144716534953380588==--
