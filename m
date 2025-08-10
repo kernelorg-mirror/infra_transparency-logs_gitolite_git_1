@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1534610209471495510=="
+Content-Type: multipart/mixed; boundary="===============6998800609589913534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 10 Aug 2025 13:44:55 -0000
-Message-Id: <175483349580.1491965.15550942608689389247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 10 Aug 2025 13:45:36 -0000
+Message-Id: <175483353642.1494483.13985528764432735120@gitolite.kernel.org>
 
---===============1534610209471495510==
+--===============6998800609589913534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/master
     old: c30a13538d9f8b2a60b2f6b26abe046dea10aa12
     new: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
     log: revlist-c30a13538d9f-2b38afce25c4.txt
 
---===============1534610209471495510==
+--===============6998800609589913534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833541 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1754833494-fb0c509819c1d46c13b2346359d007f8544e0dad
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833580 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1754833533-423b2b49703709b3f7308af81a549228bc903800
 
-c30a13538d9f8b2a60b2f6b26abe046dea10aa12 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/staging-testing
+c30a13538d9f8b2a60b2f6b26abe046dea10aa12 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYooUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1gUQAIAbdXDCI1oiXR2cyZ0v
-bxIxSAFKS9vs3A4sEXBOhgr4418XR64+YCsJldHn1Rja2MU0/nkzsUxVqtwYvUyJ
-xNrop1FE+ejj7Hp4VYVwA/dunOxv0eX58dgoJ/2eJ4kSi5NnbAeogHao6vZ2hyjK
-KK+JLcsdnZEXkoIID7dzEzhizQzBKPLH6w/lDlkLuMtsKQDnCHPi4YevPTxT2VpP
-O0iOGGxmEoiHN9Q7t81e4du1DgK38yA9Z2LtC0P4Xa5TdcVcNV3VB0Ca5qPEqT17
-4xTk6I1ItYM4h7X9LjGQKWqFOjU+pan7ljaUqHHYhZpwmE0G2xqtUDN2JN+BfPk9
-XMTiDkT3IbvWwWiTAKdpPFPVV3VZFM1EjGMO367J071++RgdedR47207NKAuO33L
-m9ro2EEy8XqJQQio0go+CcC23vDlBPtKC3kjFJL4R/OWE07DN/l+0QFG94uVau+N
-p0jFTJde8tZK6GrRPxLMnRFWcxpVLlD8dV9jDG5R5XeCd0Z9BkwuMJYEixj+hoZC
-pK2BimEF1aE32mWz0aglENmCsOeV/zxmxZBV9wOgTum7hgHeR/B3mk9uAyE4lGdD
-t2IyW74Dv5kkaazeusfJVK22bYXJa5j6AfJKYwRqi1IcpxI0jxRWhmgRY/ewYP2r
-VcOU7Tt4UKGo/HCe/+VkHqPW
-=2QJA
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYoqwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u0cP/3DN4TkFE0hXdmkjxlRl
+ZyjRrpFRdeqYfYlqX92+hpYWRuzqczQy0Jo8LeXKErrJ8BVGBaWN3D0fiQZKmHJZ
+QEH0ag40gqOrGwvZa0OqjCfD40kWKr/CbKfokaMVjXJoeCP1sWrxhAVR/hNblRKg
+2MNHUpjubVL1PsXxXSJS0N1DDd9GcY+4kjr3IdJvu63iyRGUuOQFeMmMHOLRJ0jx
+9XUFzPKYVozsKOZFoRvd4FI6r8KRvfmDXsTyd7OmNnUzB++jCKz7hINejpP+n7X9
+h1WJx7XeJaO8BBkFWw4wInarG9csCnEOhFHFF2U4O+3rwtbhxPcIm8o7Tz6egxsE
+xwjHQLyEiBFwydhEBGKd6yVUs0sXaBtit7RDA8EXbIyTPa5aYbC/b8ug7yHCSnO6
+aGksaBMq/H/HtgwurwoUrEySetDf+8WV7IqJu4xI1UO++P8SZMNl20G4YjhXy20P
+3zk+982nMsLeHjV8vB3K9DNH+OkqRd3kdp4tAWv1nxhkkkjV5x1z4C8/sxIKl77o
+8o4o8gdThVSS9QwTU85TnFnHBsoqRY23jKHtQgjFgHVZ20tMVE2n8dY6gyFUTs2+
+m2rno8w8N10+4yPhK4+/6Z9/15h0Rmlbt7Xu3rPrPWnGsa3h/ik83RbJdRhP7Nol
+y+q8kHRown5I8UB0CgDPnqaC
+=bRSa
 -----END PGP SIGNATURE-----
 
---===============1534610209471495510==
+--===============6998800609589913534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -96,4 +96,4 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============1534610209471495510==--
+--===============6998800609589913534==--
