@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 10 Aug 2025 20:16:56 -0000
-Message-Id: <175485701685.1871635.851338812024663516@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 20:18:38 -0000
+Message-Id: <175485711865.1872518.17739968825275728299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-fp-trace-macro
+  - ref: refs/heads/arm64-fp-ptrace-perror
     old: 0000000000000000000000000000000000000000
-    new: 27586fb05dec1a4a31715691e2dc82d56eb19807
+    new: 9a67019677888e18d4accf022dace9430b60e772
