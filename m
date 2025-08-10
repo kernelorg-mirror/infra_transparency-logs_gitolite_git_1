@@ -1,53 +1,99 @@
-Content-Type: multipart/mixed; boundary="===============4558887784591020390=="
+Content-Type: multipart/mixed; boundary="===============3579629351301386861=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 10 Aug 2025 13:43:24 -0000
-Message-Id: <175483340446.1488962.16197360609578135798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 10 Aug 2025 13:43:57 -0000
+Message-Id: <175483343707.1489367.13019917969638372052@gitolite.kernel.org>
 
---===============4558887784591020390==
+--===============3579629351301386861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/tty-6.16-rc1-2
-    old: af37d24c3539df7f60ff8d028e87b21f8a5e6c6b
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: c30a13538d9f8b2a60b2f6b26abe046dea10aa12
+    new: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
+    log: revlist-c30a13538d9f-2b38afce25c4.txt
 
---===============4558887784591020390==
+--===============3579629351301386861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833449 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1754833403-ca7f908d48682652b3d36607a54d6f0b0e1d4670
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1754833480 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1754833433-4314057ec14891f34513e9fc7a5a7721f19aea21
 
-af37d24c3539df7f60ff8d028e87b21f8a5e6c6b 0000000000000000000000000000000000000000 refs/tags/tty-6.16-rc1-2
+c30a13538d9f8b2a60b2f6b26abe046dea10aa12 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYoikbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cZIP/1+m8i64pVLBuoAw7k4l
-OZZafUYqaPkpIddwBUrmsqV5zMo8IGbqY3YxluBkfTjlN2jye7aygIw/CuffLxZx
-YwgLTd9Yly0tNc3s6lcOKqt2/pkX3U3hE3xWa+uHmmBxpIIo/qbC3iizpRnibPgY
-DLhfv1/1TdIPwifOd+1L2x0qj5odcs9VOUZWkd6L2DywDvRo0Qb4Q+cme3Coj2/J
-DCulaosg6+FyYO9ekmXL9prx0rDOIT8Nj9NtiXXU0DQC5iAjJKLKGu9Mv3Sjund0
-3E7l+J4AC3dZJJ4X4nK2hgIqSabEz93NCHTQsB1TEXdnxN+pn2OuiVJfXxiYZ1jm
-wfSNqAk6sKMgum6JHMxg9IxBjPVyak0XVeTOqMeCuX8WFkDcsrKUet38Tir0AJGP
-oSfejRaYv/ceB+fZZv5BHEh5wvCPYqEieart+DRt7HyCFlnsJM6mJze8PgfGgz1E
-v75WwPvVCMRyUDHVd69MOLuBLa3772SVqRyzs2DbYSRTYzClolO6/hxI/w1lAKl5
-WRHB0YeNdn+3xzv5eKjkF+lf0peLFmx2GScsqxde6l77pYyEkesHavq/SjOv6wGh
-taahKgJY9E6HwkVcGdrMIQ60hpqTt9+GgO/UCipdQhJ2H3LGVsTAyqBzenxpAFPX
-VGdzKzvgVzpJII4QuQpcXep2
-=mDY3
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiYokgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z1IQAJIP+I5aOzqX0zHWx895
+FyeivZ/LVD9LAK2xQrk6Q8ncn6vuRHJ/qL3m4NDqQ3EkzDHkbkcWKEjzmIh/tn3E
+TFdK0j5WQ9/+mHi/YItkhKPDhwEFXoP3av7R+qk0qQJZI9t291tj0npAdhFst3jL
+6z90KvQ0P/bV9txy7gKSAM32mI8n2YuUKDO7WTlcJqlRgJH5l0jgkCTdW2cpyE44
+E3lNzGORva4IXP2vSxdZRKhMeADyhQgW3SePpqzjBLv54pP7w9Xh5g5rbLgf3rfa
+H6WHBZJjW4/zK7Zv090kcnk/Lx2VuycjwlYTXTrSWOldqq97bdpnLqSo6qCP2sh1
+sUVg0Fp4qEPFGs+gcCCBGKc/B13nPonq8PfDfTPI0ktn4tNaq6sw7rScShJJmrB0
+V5DG5AF1J9RPen2Xu2k2Uo/HG0Ix+8BcmJictguSjYMBO4VbDBMsMXRYqh5NRiNl
+K9y2FwJQCCKSge5tsPeZpIWsPrWnMIzhyQTlS/GPVnrCTSsmnFpSxllqWjdKA7I0
+IC9uLQixeauTObwGTiCZD691cax1xKBAmNH0+252lbWqFKR6dRRoOJEspxfgWm5g
+tUuhRaLaqbbNBLrUDYklAFGuRZUHkj6LJoWGB88wX9uz69Xz1Atg9l60LayTWFze
+Ll21sQ/ESq67QRuQM1AINdev
+=PhVz
 -----END PGP SIGNATURE-----
 
---===============4558887784591020390==--
+--===============3579629351301386861==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c30a13538d9f-2b38afce25c4.txt
+
+5d939fbdd480cdf276eccc01eda3ed41e37d3f8a tools/power turbostat: regression fix: --show C1E%
+f393a761763c542761abcf978252d431269366d6 efi: add ovmf debug log driver
+86bc643afd72c28c25831c87df6e6d0b016c5004 efistub: Lower default log level
+02eb7a8eee20b9ec6aafd5e17c5c41b53e8b13ef efi: add API doc entry for ovmf_debug_log
+55a984928bfa30c7877e28f16910e6de1c170f1f Revert "tty: vt: use _IO() to define ioctl numbers"
+49f848788a4d157bb6648a57963cb060fed3d56e x86/cpu: Add new Intel CPU model numbers for Wildcatlake and Novalake
+83e6384374bac8a9da3411fae7f24376a7dbd2a3 smp: Fix spelling in on_each_cpu_cond_mask()'s doc-comment
+e703b7e247503b8bf87b62c02a4392749b09eca8 futex: Move futex cleanup to __mmdrop()
+ce0b5eedcb753697d43f61dd2e27d68eb5d3150f x86/irq: Plug vector setup race
+cb9f6a40382ca7b7a81d6f52285f897b09b5851b irqchip/riscv-imsic: Don't dereference before NULL pointer check
+02cbf8e0692bd30717b35a3ff5e46460d1d5d471 irqchip/msi-lib: Fix fwnode refcount in msi_lib_irq_domain_select()
+3c3d7dbab2c70a4bca47634d564bf659351c05ca irqchip/mvebu-gicp: Clear pending interrupts on init
+a8913d54ab1f9ed871b4e45a7c8a4f7a9949d071 irqchip/gic-v5: iwb: Fix iounmap probe failure path
+9ba0a63badc8e74ac0d490f9113300dda0ce2c19 irqchip/gic-v5: Remove IRQD_RESEND_WHEN_IN_PROGRESS for ITS IRQs
+5b65258229117995eb6c4bd74995e15fb5f2cfe3 genirq/test: Resolve irq lock inversion warnings
+3b6a18f0da8720d612d8a682ea5c55870da068e0 irqchip: Build IMX_MU_MSI only on ARM
+9f7488f24c7571d349d938061e0ede7a39b65d6b irqchip/mvebu-gicp: Use resource_size() for ioremap()
+da274853fe7dbc7124e2dd84dad802be52a09321 cpu: Remove obsolete comment from takedown_cpu()
+d44c40e4e30f6aa1ca8ed1c8b715d4c5829f0560 tools/power turbostat: verify arguments to params --show and --hide
+6ea0ec1b958a84aff9f03fb0ae4613a4d5bed3ea tools/power turbostat: Fix build with musl
+d34fe509f5f76d9dc36291242d67c6528027ebbd tools/power turbostat: Handle cap_get_proc() ENOSYS
+44207567fa64e995d4f2ec2d45af4c947cb1a465 tools/power turbostat: Fix bogus SysWatt for forked program
+402e262d77cd8b075a56809e30e6903ef648ad1a Merge tag 'efi-next-for-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+561c80369df0733ba0574882a1635287b20f9de2 Merge tag 'tty-6.16-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+d240b441b5cbb389f90fce37edb9ef76a3c9a42b tools/power turbostat.8: Document Totl%C0, Any%C0, GFX%C0, CPUGFX% columns
+8d14a098b47cc7e5cfa703b9e015d6ca1074489a tools/power turbostat: Support more than 64 built-in-counters
+5f961fb2a7d8f4d89d64a9e2cd584738de5f9c58 tools/power turbostat: probe and display L3 cache topology
+a5015d945de6003cf813af2bb11189982f5b3d54 tools/power turbostat: delete GET_PKG()
+dcd1c379b0f179763956e8596ad99912165a95ec tools/power turbostat: add format "average" for external attributes
+3a088b07c4f10bf577f4a2392111704195a794ba tools/power turbostat: Fix DMR support
+378e901160256d2ab66e45ffb97afaca51e65706 tools/power turbostat: standardize PER_THREAD_PARAMS
+e60a13bcef206795d3ddf82f130fe8f570176d06 tools/power turbostat: Handle non-root legacy-uncore sysfs permissions
+5e98a5e73edcc4114c5ad10596db87e24f50ee4d tools/power turbostat: version 2025.09.09
+8e8f6b635fae254252f7f52dd3e79fb68d06c332 Merge tag 'locking_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7d2fed1f3ce46f7b161e33626b2cffedfa21767f Merge tag 'irq_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+
+--===============3579629351301386861==--
