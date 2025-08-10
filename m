@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3378614542111961655=="
+Content-Type: multipart/mixed; boundary="===============3846804646110693967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 10 Aug 2025 22:31:09 -0000
-Message-Id: <175486506947.1988744.7743390298616237942@gitolite.kernel.org>
+Date: Sun, 10 Aug 2025 22:32:40 -0000
+Message-Id: <175486516032.1989693.7775801354622768651@gitolite.kernel.org>
 
---===============3378614542111961655==
+--===============3846804646110693967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/fixes
     old: e2d8ad009150b636482756d16ea542794cafa8cc
     new: 0b96d9bed324a1c1b7d02bfb9596351ef178428d
     log: revlist-e2d8ad009150-0b96d9bed324.txt
 
---===============3378614542111961655==
+--===============3846804646110693967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -621,4 +621,4 @@ c6993c4cb91803fceb82d6b5e0ec5e0aec2d0ad6 erofs: Fallback to normal access if DAX
 c99fab6e80b76422741d34aafc2f930a482afbdd erofs: fix atomic context detection when !CONFIG_DEBUG_LOCK_ALLOC
 0b96d9bed324a1c1b7d02bfb9596351ef178428d erofs: fix block count report when 48-bit layout is on
 
---===============3378614542111961655==--
+--===============3846804646110693967==--
