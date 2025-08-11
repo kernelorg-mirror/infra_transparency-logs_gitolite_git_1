@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5501014050976018955=="
+Content-Type: multipart/mixed; boundary="===============6287447040883643301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 11 Aug 2025 11:39:33 -0000
-Message-Id: <175491237373.2774249.18027560874659084145@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 11:39:46 -0000
+Message-Id: <175491238670.2774574.6158908904628999375@gitolite.kernel.org>
 
---===============5501014050976018955==
+--===============6287447040883643301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 3b4408038da935be7b1efb7589cc1badb6d10a67
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-3b4408038da9-8f5ae30d69d7.txt
 
---===============5501014050976018955==
+--===============6287447040883643301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============5501014050976018955==--
+--===============6287447040883643301==--
