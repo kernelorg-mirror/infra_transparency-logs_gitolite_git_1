@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2170025044773600036=="
+Content-Type: multipart/mixed; boundary="===============0281655041829028499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 11 Aug 2025 06:54:15 -0000
-Message-Id: <175489525590.2517287.2252222541578769229@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 06:54:20 -0000
+Message-Id: <175489526029.2518014.17523317024330248334@gitolite.kernel.org>
 
---===============2170025044773600036==
+--===============0281655041829028499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/clk
-    old: 2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15
+  - ref: refs/heads/next/defconfig
+    old: a7d7aebed4005b9c287f9bd9d22c273da63c9028
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-2d539f31ab0e-8f5ae30d69d7.txt
+    log: revlist-a7d7aebed400-8f5ae30d69d7.txt
 
---===============2170025044773600036==
+--===============0281655041829028499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1754895299 +0200
+pusher krzk@kernel.org 1754895303 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1754895253-ae35b6463565c0c36d22967c63da917e5fdfda6d
+nonce 1754895257-30a4ec685d86d3db78494d313f41d791b4842883
 
-2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/next/clk
+a7d7aebed4005b9c287f9bd9d22c273da63c9028 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/next/defconfig
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiZk8MQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zmmD/9WNrFZER9utLklhUS28GyG4ccvO12j4nTZ
-RFfJXlPLnskc5XmA8gmBodX2XDJZZrWGAKRcrkd+eCG6majRL9rLcRnPqVMvbiXI
-Y9Sti0H+sP2or0l3cPz5abr7+3v1x+S8LrAaJNZq5S8tSA9GB0iZT3UBZ+MQ2wey
-jMt7iaxIMsfNAUY98cbJqbVR2d+IZSzeOhLk9I3OCTDnLr6K3sSZrDMPgLJbd6BA
-Pxna5GSGo7g9oy/PF8+O5FKuqXq4CAf0GQGJeIIFSYsEp+674Y+2468Q0xBFKwr/
-NWHEW186/8GMDWKaibTX4tnBRGcN4/o+3mx9xB7wxh6UGo72GhLX8O1uxTHBKYaN
-krqMrMrz74JibnDShI9p02xiGPZwiQLyJbZKB+O4u60K48yL+eBDEyQ63lWh140k
-hUiDx06JY/KVnN+Wjm3yKL5PUc5pmfYGmCCsJ+8aJWHcBKtK991/Q27YyD1G0+XA
-QirJBYNSFimypN1PTOOKxJMP3ZxVOGspjDOElXV8qG/WwQitJ5EUCPu6IVlAGo6l
-k8B8CENQaOF/5i+L29uHkSAebbEsa++m+4cT5L6U5OSUB9FAHxfD//PeIa0CJVbW
-7vNTtoIk+SHbUAHd2kt9vv1NxrCNI5hVad9CY995u7i0ZHZLUrCdPSRBM93mNwej
-ZLiEEoO4+A==
-=svMB
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiZk8cQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18EMD/sFOojpEssEm+6/IIYr4OuS0TxkOydXvbcH
+LpDps8H4fEKWVEkx//27z/c/u67D9HvKPPNd6wukaU4J8pxvGVTmrX2P9J0L99o0
+V/eaJ/++nKcICN3uGSdYC15JZXr4o+b0LmzJPeXjJE73IY1fLK70khHfzrLR7r/d
+09O1Jcfs7cTVoKy4eipVo1Ir9qz6oJ4FJ+YioeQc3ctXlbOPWwsNxw6uJBIOCnpM
+JmcgzLHh1VQq9PATIijdDIAVN+sCmp21No+heV+g/0BEY8KBfcl2QAPqSs3Ex1Ej
+6To/hIJvaBgJY61zIQ5ubrn/z+xRUememC/A2X1uHmWpMiHXXoTe/DMK/fjA6TeL
+ufSQG2gDPoa3BQ5p6tRhR7nojrULAuBy4YXnUfRoCS4PiLiwVoWFxrR9+qfe9stq
+rI5/bfHEe6Pi0UQaN4Sp9v5d4kDmTECLZkbii7fplQdQFMAPyArXia+I1diAmApM
+XZWqphPrfmxvLQTfPWVfaqu493faBnTXGSTW9/2Ui208CuW4YRZZquYPZgxSzrsR
+Q2DpQalZVqps2LjQxkTCQF1hIsyGzRef79bM7N+vtJzaD0ch9YCW723vVUg0/Hpc
+tBwn2BPlqzIv/he3P30+2ED7p3Aa/Xbq+iBeJPnHyC+4AAwjSxN0uu16eLiCPgwL
+gUFogA/eaw==
+=wivc
 -----END PGP SIGNATURE-----
 
---===============2170025044773600036==
+--===============0281655041829028499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d539f31ab0e-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-a7d7aebed400-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1082,4 +1082,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============2170025044773600036==--
+--===============0281655041829028499==--
