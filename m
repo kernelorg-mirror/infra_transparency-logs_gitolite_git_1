@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8756248500545686658=="
+Content-Type: multipart/mixed; boundary="===============4681001967837756862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 11 Aug 2025 12:09:46 -0000
-Message-Id: <175491418692.2801059.8532724426894580775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 11 Aug 2025 12:20:23 -0000
+Message-Id: <175491482332.2811410.6193445364159158597@gitolite.kernel.org>
 
---===============8756248500545686658==
+--===============4681001967837756862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/xfs-6.17-fixes
-    old: ca0ff150b1ac5feef450a251ae5a7747a7ac8a98
-    new: f76823e3b284aae30797fded988a807eab2da246
-    log: revlist-ca0ff150b1ac-f76823e3b284.txt
+  - ref: refs/heads/nfsd-testing
+    old: 77e7a51af32172260c36ce8cc35ed4c0826879f4
+    new: 6735db76502ce12dcc3025a6379341a2328f3b07
+    log: revlist-77e7a51af321-6735db76502c.txt
 
---===============8756248500545686658==
+--===============4681001967837756862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca0ff150b1ac-f76823e3b284.txt
+Content-Disposition: attachment; filename=revlist-77e7a51af321-6735db76502c.txt
 
+2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
+c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
+2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
+a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
+e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
 1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
 af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
 95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
@@ -1042,13 +1047,8 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-647b3d59c768d7638dd17c78c8044178364383ca xfs: fix frozen file system assert in xfs_trans_alloc
-d2845519b0723c5d5a0266cbf410495f9b8fd65c xfs: fully decouple XFS_IBULK* flags from XFS_IWALK* flags
-82efde9cf2e4ce25eac96a20e36eae7c338df1e0 xfs: remove XFS_IBULK_SAME_AG
-e7fb9b71326f43bab25fb8f18c6bfebd7a628696 fs/dax: Reject IOCB_ATOMIC in dax_iomap_rw()
-68456d05eb57a5d16b4be2d3caf421bdcf2de72e xfs: disallow atomic writes on DAX
-8dc5e9b037138317c1d3151a7dabe41fa171cee1 xfs: reject max_atomic_write mount option for no reflink
-5d94b19f066480addfcdcb5efde66152ad5a7c0e xfs: fix scrub trace with null pointer in quotacheck
-f76823e3b284aae30797fded988a807eab2da246 xfs: split xfs_zone_record_blocks
+3d7cac3be80cd148e61656ed4c0b25afc83e139c vfs: add tracepoints in inode_set_ctime_deleg
+418e33e0b1d10bcb7ddf302497b8a2f505846dc7 sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+6735db76502ce12dcc3025a6379341a2328f3b07 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
 
---===============8756248500545686658==--
+--===============4681001967837756862==--
