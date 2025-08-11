@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7173015758476123086=="
+Content-Type: multipart/mixed; boundary="===============1444026672904807257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arj/bmc
-Date: Mon, 11 Aug 2025 00:42:58 -0000
-Message-Id: <175487297881.2094769.4989926307094084492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Mon, 11 Aug 2025 00:43:43 -0000
+Message-Id: <175487302328.2095333.11220688894878385160@gitolite.kernel.org>
 
---===============7173015758476123086==
+--===============1444026672904807257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arj/bmc
+repo: pub/scm/linux/kernel/git/bmc/linux
 user: arj
 changes:
   - ref: refs/heads/aspeed/drivers
-    old: cc9c0964e2738d5013cdc2b5e40671eddd7ad6bb
+    old: 607069dc56fee1739f50eb40c8052c78d63cccc7
     new: c30dcfd4b5a0f0e3fe7138bf287f6de6b1b00278
-    log: revlist-cc9c0964e273-c30dcfd4b5a0.txt
+    log: revlist-607069dc56fe-c30dcfd4b5a0.txt
   - ref: refs/heads/aspeed/dt
-    old: 5ecbe5ed12179f1402685025bc3e4316ccfecf5e
+    old: a8c2e7cfaeec302895c3a50bb1ecab8e0ade0053
     new: b785b5d88cc27a521ea22b3afd85804c4c321d4a
-    log: revlist-5ecbe5ed1217-b785b5d88cc2.txt
+    log: revlist-a8c2e7cfaeec-b785b5d88cc2.txt
   - ref: refs/heads/aspeed/fixes
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    old: 56448e78a6bb4e1a8528a0e2efe94eff0400c247
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-19272b37aa4f-8f5ae30d69d7.txt
+    log: revlist-56448e78a6bb-8f5ae30d69d7.txt
   - ref: refs/heads/for-next
-    old: e05bedc024d0b25bb8a988b54472cae9f84b326a
+    old: fa5c976bed15bcc060a0f6beb9fa4d9c4e2220b6
     new: f070580abddc064a7614fa1a3769fd01cde36679
-    log: revlist-e05bedc024d0-f070580abddc.txt
+    log: revlist-fa5c976bed15-f070580abddc.txt
   - ref: refs/heads/nuvoton/arm/dt
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    old: 3d673d90fc91b9fe551f54c2a69d353141fc8d36
     new: 7686b441c0ad921211b0a69977bad746d18e4b33
-    log: revlist-19272b37aa4f-7686b441c0ad.txt
+    log: revlist-3d673d90fc91-7686b441c0ad.txt
   - ref: refs/heads/nuvoton/arm64/dt
-    old: 532bdc65a79f23ce6bc3d4af3c19ec9f05343391
+    old: 15e87ef25e3414d440a3cb783b37c95876b5626f
     new: 13587befb34ffa5d605196494c243420e045f28e
-    log: revlist-532bdc65a79f-13587befb34f.txt
+    log: revlist-15e87ef25e34-13587befb34f.txt
 
---===============7173015758476123086==
+--===============1444026672904807257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc9c0964e273-c30dcfd4b5a0.txt
+Content-Disposition: attachment; filename=revlist-607069dc56fe-c30dcfd4b5a0.txt
 
 651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
 2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
@@ -1071,11 +1071,11 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 c5313eea3e623c81ecf7dd8fe09e6ccf904e4a36 soc: aspeed: Use of_reserved_mem_region_to_resource() for "memory-region"
 c30dcfd4b5a0f0e3fe7138bf287f6de6b1b00278 soc: aspeed: socinfo: Add AST27xx silicon IDs
 
---===============7173015758476123086==
+--===============1444026672904807257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ecbe5ed1217-b785b5d88cc2.txt
+Content-Disposition: attachment; filename=revlist-a8c2e7cfaeec-b785b5d88cc2.txt
 
 a86240a37d43fc22b4e4953242fca8d90df2c555 gpiolib: enable CONFIG_GPIOLIB_LEGACY even for !GPIOLIB
 4619b6b97553693be7faf21af0533c24240d1d4f Input: synaptics-rmi4 - add support for F1A
@@ -2102,11 +2102,11 @@ b1ccd095b8ac4c843cf6bf15d9f6aadd8ae1195d ARM: dts: aspeed: Drop "fsi-master" com
 1f5ab37b75afbfad686c56c010b2ba93a096ca87 ARM: dts: aspeed: romed8hm3: convert NVMEM content to layout syntax
 b785b5d88cc27a521ea22b3afd85804c4c321d4a ARM: dts: aspeed: x570d4u: convert NVMEM content to layout syntax
 
---===============7173015758476123086==
+--===============1444026672904807257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-56448e78a6bb-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -3133,11 +3133,11 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============7173015758476123086==
+--===============1444026672904807257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e05bedc024d0-f070580abddc.txt
+Content-Disposition: attachment; filename=revlist-fa5c976bed15-f070580abddc.txt
 
 19875ccec01653a897a53db91cd4434c52ef5465 dt-bindings: touchscreen: add touch-overlay property
 ea4d331050b4cd43e6a900937db88b01ef75e1f2 Input: touch-overlay - add touchscreen overlay handling
@@ -4164,11 +4164,11 @@ c30dcfd4b5a0f0e3fe7138bf287f6de6b1b00278 soc: aspeed: socinfo: Add AST27xx silic
 13587befb34ffa5d605196494c243420e045f28e arm64: dts: nuvoton: add refclk and update peripheral clocks for NPCM845
 f070580abddc064a7614fa1a3769fd01cde36679 Merge branches 'aspeed/dt', 'aspeed/drivers', 'nuvoton/arm/dt' and 'nuvoton/arm64/dt' into for-next
 
---===============7173015758476123086==
+--===============1444026672904807257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-7686b441c0ad.txt
+Content-Disposition: attachment; filename=revlist-3d673d90fc91-7686b441c0ad.txt
 
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
 651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
@@ -5195,11 +5195,11 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 7686b441c0ad921211b0a69977bad746d18e4b33 ARM: dts: nuvoton: Use generic "ethernet" as node name
 
---===============7173015758476123086==
+--===============1444026672904807257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-532bdc65a79f-13587befb34f.txt
+Content-Disposition: attachment; filename=revlist-15e87ef25e34-13587befb34f.txt
 
 2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
 c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
@@ -6226,4 +6226,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2e6028f8faf07e896ea4c2603adb4b06e8cb92fa arm64: dts: nuvoton: combine NPCM845 reset and clk nodes
 13587befb34ffa5d605196494c243420e045f28e arm64: dts: nuvoton: add refclk and update peripheral clocks for NPCM845
 
---===============7173015758476123086==--
+--===============1444026672904807257==--
