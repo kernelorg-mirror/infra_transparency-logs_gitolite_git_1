@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 Aug 2025 17:06:58 -0000
-Message-Id: <175493201856.3072019.9514599228071051653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
+Date: Mon, 11 Aug 2025 17:26:29 -0000
+Message-Id: <175493318965.3088181.7891906266620718105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/aegl/linux
+user: aegl
 changes:
-  - ref: refs/heads/arm64-gcs
+  - ref: refs/heads/rdt-aet-v8
     old: 0000000000000000000000000000000000000000
-    new: 3723cf592fd911ba863217f60ad5459c15fb02b8
+    new: c0f7bbd94a11e372f5ca493098f9f3e093204565
