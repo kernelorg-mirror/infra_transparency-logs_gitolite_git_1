@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8415760042566927728=="
+Content-Type: multipart/mixed; boundary="===============8165586913297951393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 11 Aug 2025 18:40:07 -0000
-Message-Id: <175493760718.3153256.14465755924124251574@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 18:40:09 -0000
+Message-Id: <175493760901.3153348.781669500593542177@gitolite.kernel.org>
 
---===============8415760042566927728==
+--===============8165586913297951393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,40 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.18
-    old: 99ea5a0d6bc820b15727cea006561ede7339bb79
-    new: 8def31f8c1e1f3d28e4ee3dcf6818a74c9a9a2f7
-    log: revlist-99ea5a0d6bc8-8def31f8c1e1.txt
-  - ref: refs/heads/arm32-for-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 9da3f7add96708103c4cf1817d4bda97ea12b1d4
-  - ref: refs/heads/clk-for-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 9af6151b00528b0a7298aa3addb122600e514b1b
-  - ref: refs/heads/drivers-for-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 3fa1095979393d5b178264cc1bdfb473e80ab774
+  - ref: refs/heads/for-next
+    old: d4a2574f8b2f96eb9a07d7c11b3ad6918ca91d81
+    new: 1dcfdcce62d3c3cf3e09592b446abd7e0517d213
+    log: revlist-d4a2574f8b2f-1dcfdcce62d3.txt
 
---===============8415760042566927728==
+--===============8165586913297951393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99ea5a0d6bc8-8def31f8c1e1.txt
+Content-Disposition: attachment; filename=revlist-d4a2574f8b2f-1dcfdcce62d3.txt
 
 33450878adfc9d6bfd9cd2da2135b7fd33f2a4fe arm64: dts: qcom: sm8550: Flatten the USB nodes
 77e1f16b930221b427ec24c634703388a64175af arm64: dts: qcom: sm8650: Flatten the USB nodes
+c17ccefb611fdb346eef9be6bfbd0bfd04afa204 dt-bindings: clock: ipq5424-apss-clk: Add ipq5424 apss clock controller
+fa5b839b178371ab0a68c32c239de2d9ff103d3c Merge branch '20250811090954.2854440-2-quic_varada@quicinc.com' into clk-for-6.18
+5bf83c54bab5eb15a2749c6c52b6f96d425490bc clk: qcom: apss-ipq5424: Add ipq5424 apss clock controller
+121fcf3c871181edce0708a49d2397cedd6ad21f firmware: qcom: scm: preserve assign_mem() error return value
+aaf5aae37aec74e2dd888d871e258c16f37df041 soc: qcom: mdt_loader: Remove unused parameter
+0daf35da397b083ea0ea5407196bb6bd210530ec soc: qcom: mdt_loader: Remove pas id parameter
+3bf7097bfdd4cf43874d7d41689957bc0d581d47 soc: qcom: mdt_loader: Remove unused parameter
+60a63913fd69bae76a3420c97ef40e865792a5b8 firmware: qcom: scm: Allow QSEECOM on HAMOA-IOT-EVK
+6ef38b0c16c20701fb8a06d2d2114080fbc785ad clk: qcom: Remove double-space after assignment operator
+2f7b168323c22faafb1fbf94ef93b7ce5efc15c6 clk: qcom: gcc-ipq6018: rework nss_port5 clock to multiple conf
+bcfe09571350d24843920aef60edf4e2bab62d67 arm64: dts: qcom: sc7280: Add q6usbdai node
+073f2c9b77065390e6c36c1c4fb29b409712808b arm64: dts: qcom: qcm6490-fairphone-fp5: Enable USB audio offload support
+9af6151b00528b0a7298aa3addb122600e514b1b arm64: dts: qcom: sm6350: Add rpmh-stats node
+b261da9e9ed8d7bfae7f34940a338750900e9b09 ARM: dts: qcom: msm8960: add sdcc3 pinctrl states
+12bf7cfb5ad4e278ac555f209f2b18d81fb4783f ARM: dts: qcom: msm8960: add gsbi8 and its serial configuration
+45f5d1dc6ff3b2b80e92071b507bee77c86f6ad6 ARM: dts: qcom: msm8960: disable gsbi1 and gsbi5 nodes in msm8960 dtsi
+8e1637507a8f8ddb48953f93df6f99483b64b687 dt-bindings: arm: qcom: add Sony Xperia SP
+f70e7f85a1df22b8bfe225deeee2add5edfb5a65 ARM: dts: qcom: add device tree for Sony Xperia SP
+c827c64973a6a75a485cee3ba1a1ab96658e62dd ARM: dts: qcom: pm8921: add vibrator device node
+3fa1095979393d5b178264cc1bdfb473e80ab774 dt-bindings: sram: qcom,imem: Document IPQ5424 compatible
+9da3f7add96708103c4cf1817d4bda97ea12b1d4 ARM: dts: qcom: msm8974-samsung-hlte: Add touchkey support
 450a80623e3b8bb5dae59e0d56046fc3d0a88f3b arm64: dts: qcom: ipq5018: Add tsens node
 e08d75e4834cb9a6224bfa090fce0e6259113d7a arm64: dts: qcom: sdm845: rename DisplayPort labels
 5bde57b9cd3c769f5f4c85c021c37e2d151ca228 arm64: dts: qcom: sar2130p: use TAG_ALWAYS for MDSS's mdp0-mem path
@@ -70,5 +82,6 @@ f07f492773b70efe01f9966703fef658b428f17b arm64: dts: qcom: qrb4210-rb2: fix GPIO
 8d2a8e8dc448f218b36b3b9f3790c9c0dfaa2b74 arm64: dts: qcom: ipq5018: Add SPI nand support
 1a67f85c690658a35cac41c070df33e3e5a72868 dt-bindings: arm: qcom: Add Dell Latitude 7455
 8def31f8c1e1f3d28e4ee3dcf6818a74c9a9a2f7 arm64: dts: qcom: sm8650: Sort nodes by unit address
+1dcfdcce62d3c3cf3e09592b446abd7e0517d213 Merge branches 'arm32-for-6.18', 'arm64-for-6.18', 'clk-fixes-for-6.17', 'clk-for-6.18', 'drivers-fixes-for-6.17' and 'drivers-for-6.18' into for-next
 
---===============8415760042566927728==--
+--===============8165586913297951393==--
