@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 11 Aug 2025 14:16:53 -0000
-Message-Id: <175492181389.2918692.12090215676678653136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 11 Aug 2025 14:17:36 -0000
+Message-Id: <175492185648.2919484.1438217276586949411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 0cac149a4bdfd96350e34bb8bcd9baff6df9f143
-    new: 5ccbff0898fa4b006cb4b26c9b82cae129aa368f
+    old: 6a964efd8b907e7f89353438a98dcf9cf23b10e1
+    new: 60457dad2e68e20841cb336fed5cc94d96bb3935
     log: |
-         5ab82029d22592f47af04a59b5b84f96e86d1af5 bap: fix multiple release of stream when closing setup
-         a98314919a85da6f02b0d9e5b6e69e6c40c082ac bap: send correct framing value to kernel
-         bb0122151d2f6b5c57f3e573e654f4685288ff49 shared/bap: use correct parser for Config Codec message
-         caa495332e4b0b2c209e2b28ab43640369f01601 media: fix pac_select(), pac_config() return values
-         84c336f2bd7aec174b516615c1bb521c57b1c5e0 media: clear transport if reconfiguring in pac_config()
-         aba67693b934a0e67e7ab11538d43d1c3c838a3b bap: clear server streams when ucast disconnects
-         5ccbff0898fa4b006cb4b26c9b82cae129aa368f shared/bap: check ASE state in find_ep_ucast
+         ef0bb839e88e333a267299481543386b1ee6aa64 Fixes for 6.16
+         29bff24c1f6310204a9d3651af03eea693e3f7b7 Fixes for 6.15
+         3ab860919db931aa22f52b4296f8d48ebdde0f2e Fixes for 6.12
+         df3c9baf92a6c41f99d1b4706b754eef16b0fffc Fixes for 6.6
+         2bc89d282c119afafe6fd7474eb9ff94463c049f Fixes for 6.1
+         474200e63c761805177e8244a8390bf3c5cf0501 Fixes for 5.15
+         0bc272dd16022e92c1ae19e1c9574a36b9a27da8 Fixes for 5.10
+         60457dad2e68e20841cb336fed5cc94d96bb3935 Fixes for 5.4
          
