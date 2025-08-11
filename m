@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0277511707196449824=="
+Content-Type: multipart/mixed; boundary="===============7116413995730353420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 11 Aug 2025 10:31:42 -0000
-Message-Id: <175490830286.2709427.17940597876162366632@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 10:32:17 -0000
+Message-Id: <175490833792.2709978.17180461948702116465@gitolite.kernel.org>
 
---===============0277511707196449824==
+--===============7116413995730353420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: e2967b50b709970547b5cdfa1b42526835327f36
+  - ref: refs/heads/for-next
+    old: 1798561befd8be1e52feb54f850efcab5a595f43
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-e2967b50b709-8f5ae30d69d7.txt
+    log: revlist-1798561befd8-8f5ae30d69d7.txt
 
---===============0277511707196449824==
+--===============7116413995730353420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1754908345 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1754908380 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1754908299-c0d435bf9520244ac8fa96af578a80e74d0d5d06
+nonce 1754908334-e90981ce7dbcc6528183acb5f8c665815b2d2c7d
 
-e2967b50b709970547b5cdfa1b42526835327f36 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/review-ilpo-fixes
+1798561befd8be1e52feb54f850efcab5a595f43 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaJnGuwAKCRBZrE9hU+XO
-MQuEAQCM7spEX5dIEkhnIs56G06fGT4T9QJYNIL7g8AUMa+L2AEAxeWabHTIurCC
-tzyr8jeEmBdYpp27bPOj+wyjco3jhwc=
-=dSQN
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaJnG3gAKCRBZrE9hU+XO
+MS9tAQCYZwJ9eVZYcnkNVOb0JPQv0+yxJE+4qlWohD/QA0otIQEAr2EaQNdXgwro
+ATnF2EIYkVxOOBR4IIN+cODNMSPYug8=
+=nM9v
 -----END PGP SIGNATURE-----
 
---===============0277511707196449824==
+--===============7116413995730353420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2967b50b709-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-1798561befd8-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1072,4 +1072,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============0277511707196449824==--
+--===============7116413995730353420==--
