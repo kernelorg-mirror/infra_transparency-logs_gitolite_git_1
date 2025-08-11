@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1999727764839116274=="
+Content-Type: multipart/mixed; boundary="===============1463140562271423245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 11 Aug 2025 20:01:46 -0000
-Message-Id: <175494250628.3222526.15943727422873795486@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 20:02:10 -0000
+Message-Id: <175494253047.3223040.12894792008916623317@gitolite.kernel.org>
 
---===============1999727764839116274==
+--===============1463140562271423245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/misc
-    old: 523c2c3706c52fc1e3e6bf7d0993527585250ce3
-    new: 642b44ee5a26822fc616bc41cabf209724814ae4
-    log: revlist-523c2c3706c5-642b44ee5a26.txt
+  - ref: refs/heads/msi
+    old: 69583ff3489c97689d577275ef2e7ffe63aec38a
+    new: ebc7086b39e5e4f3d3ca82caaea20538c9b62d42
+    log: revlist-69583ff3489c-ebc7086b39e5.txt
 
---===============1999727764839116274==
+--===============1463140562271423245==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-523c2c3706c5-642b44ee5a26.txt
+Content-Disposition: attachment; filename=revlist-69583ff3489c-ebc7086b39e5.txt
 
 a12a23720c135a299ed914adf623387c7404e014 perf list: Remove trailing A in PAI crypto event 4210
 e9705c61b1dbe7bac9dc189de434994d8a76b191 f2fs: use kfree() instead of kvfree() to free some memory
@@ -1049,6 +1049,6 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-642b44ee5a26822fc616bc41cabf209724814ae4 PCI: Fix whitespace issues
+ebc7086b39e5e4f3d3ca82caaea20538c9b62d42 PCI: Disable MSI on RDC PCI to PCIe bridges
 
---===============1999727764839116274==--
+--===============1463140562271423245==--
