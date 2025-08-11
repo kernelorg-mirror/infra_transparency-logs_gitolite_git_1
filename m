@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8505396207441992746=="
+Content-Type: multipart/mixed; boundary="===============4563216002580182138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 11 Aug 2025 06:43:01 -0000
-Message-Id: <175489458140.2506411.9751111235861127130@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 06:43:03 -0000
+Message-Id: <175489458376.2506516.9654129545713475966@gitolite.kernel.org>
 
---===============8505396207441992746==
+--===============4563216002580182138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/b4/vdso-absolute-reloc
-    old: b292b04eb0a5f6ed8dbc8ec2e649d62bca4c9119
-    new: a4fb009208470b52840335deaa7ed4d2a44df2f7
-    log: revlist-b292b04eb0a5-a4fb00920847.txt
+  - ref: refs/heads/b4/vdso-has-macros
+    old: 9a936a47effe3789cade26c8b92f9c7d6e6b44d1
+    new: 6f2fed05c5204246a56d08bb95faf682c678a8d4
+    log: revlist-9a936a47effe-6f2fed05c520.txt
 
---===============8505396207441992746==
+--===============4563216002580182138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b292b04eb0a5-a4fb00920847.txt
+Content-Disposition: attachment; filename=revlist-9a936a47effe-6f2fed05c520.txt
 
+6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
+d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
+45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
+55c09681cc67d175bd62b787c8b6eeafbe1b5851 perf list: Remove tracepoint printing code
+b91a9abbf4734d411d304661fbb7e2878281eb51 perf list: Skip ABI PMUs when printing pmu values
+be72da73e2e638f583014316a2195b0c5ff9ff3a Merge tag 'qcom-clk-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
+264200cc3a87d5c53bfa817227624fa2bae6b2c3 clk: Fix typos
+7f5e9ca0a424af44a708bb4727624d56f83ecffa clk: clocking-wizard: Fix the round rate handling for versal
+a9c95d17dc13b8a4c5faa02a6b84ba83af058206 Input: synaptics-rmi4 - add support for Forcepads (F21)
+0da895952607c03cf0518960692cd1b3439c5d25 dt-bindings: input: syna,rmi4: Document F1A function
+a86240a37d43fc22b4e4953242fca8d90df2c555 gpiolib: enable CONFIG_GPIOLIB_LEGACY even for !GPIOLIB
+4619b6b97553693be7faf21af0533c24240d1d4f Input: synaptics-rmi4 - add support for F1A
+3b19c9ed6f01060e9b58963b581ec41b03104c55 Documentation: Fix capitalization of XBox -> Xbox
+a43a503df996739ae34f179f6b73b0ae91000c5c Input: xpad - change buttons the D-Pad gets mapped as to BTN_DPAD_*
 97c01e65ef4c1878532be245b2899fc4363cc453 Input: Add and document BTN_GRIP*
 e7412ba919f625438c570d8b4fbf16c5f31b583d Input: xpad - use new BTN_GRIP* buttons
 17eabb792740cea3f24b236e150f9fee8cd344f3 Input: atkbd - correctly map F13 - F24
@@ -40,7 +54,6 @@ a71475582ada92ba021852bf3c2b40ab3718549b crypto: ccp - reduce stack usage in ccp
 301eee1c52d4b8f4d4d995feb932dae742e92bda crypto: qat - make adf_dev_autoreset() static
 982fd1a74de63c388c060e4fa6f7fbd088d6d02e crypto: hisilicon/hpre - fix dma unmap sequence
 bf24d64268544379d9a9b5b8efc2bb03967703b3 crypto: keembay - Use min() to simplify ocs_create_linked_list_from_sg()
-b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5345e64760d37524d38ddfa7471f42ec64b0f289 bpf: Simplify bounds refinement from s32
 2662c7a9c3dcc9613a01c07a9118beb906aa455b fbdev: nvidiafb: fix build on 32-bit ARCH=um
 ecdd7df997fd992f0ec70b788e3b12258008a2bf fbdev: nvidiafb: add depends on HAS_IOPORT
@@ -56,7 +69,6 @@ a2a42f0c96d709d0cf5cc672acb352934ca95326 fbdev: Fix typo in Kconfig text for FB_
 ffc825a27f5503136196cb38f41641b58bf2df31 fbcon: fbcon_is_inactive() -> fbcon_is_active()
 311b07842fb0bb69b5b266b3dfd6037260a3ec2a fbcon: Introduce get_{fg,bg}_color()
 81b96e4aef9592493873507eec52eca68f0721ac fbcon: Use 'bool' where appopriate
-038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
 59b33fab4ca4d7dacc03367082777627e05d0323 smb: client: fix netns refcount leak after net_passive changes
 9d5eff7821f6d70f7d1b4d8a60680fba4de868a7 cifs: reset iface weights when we cannot find a candidate
 2aaf1784835f5f3063ae2392689053ebafd27e01 smb: change return type of cached_dir_lease_break() to bool
@@ -1022,33 +1034,21 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-4b06c1517da6774ada287b2702c3586913d05dd4 diffconfig
-50bcacfa02f8d2628ccf4ae74dcc7f338d837867 vdso: development hacks
-5180c6526acc9f1cb58f8b11fba67583c22e0854 kbuild: rust: respect CONFIG_WERROR for Rust hostprogs
-1df00709be4f7e6bc9e41ee6881419009c8c5cad vdso: Reject absolute relocations during build
-a889d299b3fa4bf9565dfd89f43e2ddf8d3e1dd1 elf, uapi: Add a header for relocation constants
-0c6aaee995b098010a5c7d114121c49978a0417f x86/elf, um/x86/elf: Move relocation constants to UAPI
-7d56e447fcfc6e435896922a328e4eb20dc58a1d ARM: elf: Move relocation constants to UAPI
-4cd7158abcc91569cd78da421736b0cc71120d47 arm64: elf: Move relocation constants to UAPI
-294b626c328134739e4c2dee6a80c8d5fb8097b3 powerpc/elf: Move relocation constants to UAPI
-e1aebfc4686b4329c7305a8eb2d4c3b96eda5d0e riscv: elf: Move relocation constants to UAPI
-729eda09a6f12e4d3324d06d94fd9791f20c0d4e LoongArch: Move relocation constants to UAPI
-5f9bb7e08c1fa2414e2c12e3bc133b1279a06350 s390/elf: Move relocation constants to UAPI
-b2f56801541db0a8e20bee24f60dcc4ad27d7137 MIPS: ELF: Move relocation constants to UAPI
-b6081faadf21fccb0a49bc02ad81455f9d55a5d0 tools headers UAPI: Sync ELF headers with the kernel sources
-13a8201da82c3e341826a6638f35e99d417baede vdso: Add the vdsocheck tool
-a7c473247eeed56be5c5932172b662e5af76259a x86/vdso: Enable the vdsocheck tool
-7fb6e87a9a693fc7009327811caa2886c92a4888 ARM: vdso: Enable the vdsocheck tool
-85fe3531a2ddf297bcb57cd6d19f391face98abd arm64: vdso: Enable the vdsocheck tool
-55105ff364fca121c46dfa689a5a2fe83a1bdba9 powerpc/elf: Add 32-bit REL16 relocation definitions
-7e2b0780da01fab28830b7d275b1e4cf04900222 powerpc/vdso: Enable the vdsocheck tool
-a504b732526106944c0264deb2f2bfe9ab12e263 riscv: vdso: Deduplicate CFLAGS_REMOVE_* variables
-2104c1c22755d5c0a578e483c91aa76ca9667f66 riscv: vdso: Disable LTO for the vDSO
-901e39b2c897154bdb018d082d4c41d0ebf8c45c riscv: vdso: Enable the vdsocheck tool
-46b784eb0461f99256e623de2c23fb9f46c4ca9d LoongArch: vDSO: Enable the vdsocheck tool
-033725be133af30cc5d150897891955a72643ee6 s390/vdso: Enable the vdsocheck tool
-d920266717ff39c0488c540e6c9214a5c26679dc MIPS: ELF: Add more PC-relative relocation definitions
-882483ab8f758effedddc08cc616399b1f035c78 MIPS: vdso: Enable the vdsocheck tool
-a4fb009208470b52840335deaa7ed4d2a44df2f7 vdso/vdsocheck: Drop the transitional kconfig option
+5f5a5835e461d09bd1093fefc0bbbe9b956cf9cc diffconfig
+a95414ef5b40654519d8d6ec5f2e578f2a02c2df vdso: development hacks
+d412218f5068a7d7075666d820798d9622eb5756 debug
+2edc3ba9f1eac3b3633c878a41873a6220f108fd EDITME: cover title for vdso/has-macros
+29fdb6e39ded43b01dd9b67fe3f8b3fd994c3b97 hyperv vdso
+1efc68c458925bdeeb6e4e349313e6c5137ea5b9 arm64: uapi: bitsperlong
+228b0b639ff69d8684790d02adc9a78f4f4c18d0 mips
+e771e2edd6bbdcebfbe7e81bd143f8b7719c8385 vdso: Drop VDSO_HAS_ macros
+12887d5fe43acc027a4834436a5850ac3f82bf22 gettimeofday: ifdef
+a24fb0eba6ecc09f7e594e13764120e9cc696311 include: VDSO32_64
+63f7174cddd954c83becd2f50bd97cfbd41b4599 DELETEME
+3f1a5810d47304bbce218735f97ba252792252ac vdso: BITS_PER_LONG
+b2caf023bf4536c84fc700bc110c49132ab91296 BUILD_VDSO32_64
+dbd2e54f2fd8cf5ed15584f5ac3c2f0f033fb371 lib/vdso: __BITS_PER_LONG
+d4c76cfe3dd5c2cdd869777f9a8cc18b171cb723 BUILD_VDSO32
+6f2fed05c5204246a56d08bb95faf682c678a8d4 ENABLE_COMPAT_VDSO
 
---===============8505396207441992746==--
+--===============4563216002580182138==--
