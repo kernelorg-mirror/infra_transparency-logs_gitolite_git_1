@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6671732376414317028=="
+Content-Type: multipart/mixed; boundary="===============2170025044773600036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 11 Aug 2025 06:54:10 -0000
-Message-Id: <175489525040.2517018.3675019281733134973@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 06:54:15 -0000
+Message-Id: <175489525590.2517287.2252222541578769229@gitolite.kernel.org>
 
---===============6671732376414317028==
+--===============2170025044773600036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
-    old: 8d2c2fa2209e83d0eb10f7330d8a0bbdc1df32ff
+  - ref: refs/heads/next/clk
+    old: 2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-8d2c2fa2209e-8f5ae30d69d7.txt
+    log: revlist-2d539f31ab0e-8f5ae30d69d7.txt
 
---===============6671732376414317028==
+--===============2170025044773600036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1754895294 +0200
+pusher krzk@kernel.org 1754895299 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1754895247-4d82c0e6ba0a6cc4a2d924bf74274cd14f273d51
+nonce 1754895253-ae35b6463565c0c36d22967c63da917e5fdfda6d
 
-8d2c2fa2209e83d0eb10f7330d8a0bbdc1df32ff 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/fixes
+2d539f31ab0eb3eb3bd9491b7dcd52dec7967e15 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/next/clk
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiZk74QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13ZvEACZfjlm1VPQdHSi0aQto0XvbbwG2KA0g1K0
-QvuoMacBvU4Y4bHiuHfdavwIAmeY4IjNlqtAGZGoVY4UhGnjQ6G1HIvP86r4/K6i
-FMhpyvG3AGNXN3F6/tvoLmLeD+CwbliLSW43PfD1WCKenJcRfuoLPbVHYSPqqDDN
-R8urgLZBuxGdzPSi0Z1TRlrwS6DPAtqRywMyKDCT3P0YPvZR4hEEGkqzx+jfLzRr
-o/8P4DJ1RzCItY33DyizuaY6w/SdOz1r6bgIOXQXHG4KLWmMKSaNeZu/+pG9941z
-I6SrLQ21HKHl2L6eShxjiu82lp35mkZxP+arESkoJc7PokYGXFVCI272kyzzpIJX
-WsBCihHaJnNMZvM1tKLe5/DesZFd8our4nkXCUFsO1s4brzwXGc/k7KOQPYvRSLX
-EVoUKFyX2hiOSBtrDSJQPukfWljn2U+AZtAiend3JPkwAQmrKCpEedDLI3YJYnF/
-aWgJk+nPvpu7ZG2KCVVHkUagOwAAvRK2qVHd0UfOq7vBRDSGnGRZMzCpusS2prOH
-84nFJARHj5vmikhp1fYd8gxD9s6tpn8cCPsEfDSZEcxSQepA47n1/H+23g0t7S6J
-i1Ne/z/5eTX6gWoDkgrhAz4wpMn0OQkj4j1Hd85NjoRVe3eqnIGkmzzjMSxfd4El
-Ro99ojhl4g==
-=Kilk
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiZk8MQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zmmD/9WNrFZER9utLklhUS28GyG4ccvO12j4nTZ
+RFfJXlPLnskc5XmA8gmBodX2XDJZZrWGAKRcrkd+eCG6majRL9rLcRnPqVMvbiXI
+Y9Sti0H+sP2or0l3cPz5abr7+3v1x+S8LrAaJNZq5S8tSA9GB0iZT3UBZ+MQ2wey
+jMt7iaxIMsfNAUY98cbJqbVR2d+IZSzeOhLk9I3OCTDnLr6K3sSZrDMPgLJbd6BA
+Pxna5GSGo7g9oy/PF8+O5FKuqXq4CAf0GQGJeIIFSYsEp+674Y+2468Q0xBFKwr/
+NWHEW186/8GMDWKaibTX4tnBRGcN4/o+3mx9xB7wxh6UGo72GhLX8O1uxTHBKYaN
+krqMrMrz74JibnDShI9p02xiGPZwiQLyJbZKB+O4u60K48yL+eBDEyQ63lWh140k
+hUiDx06JY/KVnN+Wjm3yKL5PUc5pmfYGmCCsJ+8aJWHcBKtK991/Q27YyD1G0+XA
+QirJBYNSFimypN1PTOOKxJMP3ZxVOGspjDOElXV8qG/WwQitJ5EUCPu6IVlAGo6l
+k8B8CENQaOF/5i+L29uHkSAebbEsa++m+4cT5L6U5OSUB9FAHxfD//PeIa0CJVbW
+7vNTtoIk+SHbUAHd2kt9vv1NxrCNI5hVad9CY995u7i0ZHZLUrCdPSRBM93mNwej
+ZLiEEoO4+A==
+=svMB
 -----END PGP SIGNATURE-----
 
---===============6671732376414317028==
+--===============2170025044773600036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d2c2fa2209e-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-2d539f31ab0e-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1082,4 +1082,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============6671732376414317028==--
+--===============2170025044773600036==--
