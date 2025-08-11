@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 11 Aug 2025 20:21:52 -0000
-Message-Id: <175494371284.3240012.8381468045963158604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 11 Aug 2025 20:25:29 -0000
+Message-Id: <175494392966.3243760.8304468620274199809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/dm-6.18
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 6fde633b19345aae9fe98e8c8f2325382578b7f2
+  - ref: refs/heads/master
+    old: 3f9a516852b61706e819a2f85fb481481696848e
+    new: 159053f1b5310d85ca30d85b44093c4dea1ad128
     log: |
-         7b281b23dfa5aa7a4402ca638f0233674c8c2416 docs: device-mapper: fix typos in delay.rst and vdo-design.rst
-         5432055907dc8e7ff437d4de4d807907ff4f90d0 dm-ima: more strlen() drops
-         90024a6376ff372d56265b1177f451d04459198b dm: use vmalloc_array() to simplify code
-         4b37e21cbd231ef2afe5e435a9396c7889416075 dm-ima: drop a useless argument
-         6fde633b19345aae9fe98e8c8f2325382578b7f2 dm bufio: remove redundant __GFP_NOWARN
+         159053f1b5310d85ca30d85b44093c4dea1ad128 MAINTAINERS: add a sub-entry for the Qualcomm bluetooth driver
          
