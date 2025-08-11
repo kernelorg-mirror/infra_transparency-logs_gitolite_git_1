@@ -1,65 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3556982688042094760=="
+Content-Type: multipart/mixed; boundary="===============1817330036008294327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 11 Aug 2025 05:53:35 -0000
-Message-Id: <175489161556.2463095.10857602311438148493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 11 Aug 2025 05:53:43 -0000
+Message-Id: <175489162350.2463350.5894084725834038532@gitolite.kernel.org>
 
---===============3556982688042094760==
+--===============1817330036008294327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: westeri
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-19272b37aa4f-8f5ae30d69d7.txt
-  - ref: refs/tags/v6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
-  - ref: refs/tags/v6.16
-    old: 0000000000000000000000000000000000000000
-    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
 
---===============3556982688042094760==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1754891658 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1754891612-7a08c565d9e2ae8b58e85a2f8e30b1b55c7ef215
-
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/master
-0000000000000000000000000000000000000000 062b3e4a1f880f104a8d4b90b767788786aa7b78 refs/tags/v6.17-rc1
-0000000000000000000000000000000000000000 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c refs/tags/v6.16
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiZhYoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zscD/973Pcco/3EM3dswoQ/eLDMAywYyDpWygPp
-cA/dUi/TNJBTxWNxjPsrMPFTVn7RSWiyBoyop6ZuoQMr4mHasOjiUHzrUZqnWhNX
-umGNhSMTIbHlgZ6UZkPG+qi7nEknUZnDe3HXV3DMMx93uGmG+DeytTcRlgMtDmjh
-4B8ABMsD7Hn3Ilo3tdS2h9b/RMi7H/XJ1kqMruWEIPwaOTqs0KGpXIluifZPSulw
-1CQ1mIAAnqbyO1Mzl7DCFFVfW0g+N4fnoN7D6H81mNvVaNZwYktRe2ka0XeiW2Yk
-p0d3XJH9yhjAaaRqDtQqHqa07WpBrseJ6Kp0geF9mNSAR0LJwV1qeJCZOcABY6pn
-5zlYFGVaqVPViU3xnyzDUoIDReWjd8Pw/oCrM0lPUIMAN3q/wAZ7JkfTdazluFAd
-DiHO2SOpwzfJRbzwIFbqsawAwMHaP++ia5LoiHF5qvJ5UmrArGGyUxfs2zT0DGCV
-Rz8Rz9SXaAZHQsq6tbLuDZSluNiy4DZrhxPofGkoQFgbGMxer9/VTBNs7X80Pjto
-HyqfdH/9gY0Q0GaWNmMSoe5iGkus4W9ZcAVgOBuq8awY6zeNWajoGOeRLygzgoCA
-EPE1qqaZqCrqgCpCwIhD5NJDX0/OLU/dB6/IexE0uG+1oiGiPdexqChOp9xrDxTa
-YIfeW+N8eg==
-=PwDm
------END PGP SIGNATURE-----
-
---===============3556982688042094760==
+--===============1817330036008294327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1090,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============3556982688042094760==--
+--===============1817330036008294327==--
