@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6829154946274329973=="
+Content-Type: multipart/mixed; boundary="===============1491140254778385985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 11 Aug 2025 14:49:20 -0000
-Message-Id: <175492376072.2949898.12082949797302857117@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 14:49:26 -0000
+Message-Id: <175492376629.2950196.6656856901209098453@gitolite.kernel.org>
 
---===============6829154946274329973==
+--===============1491140254778385985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/drivers-fixes-for-6.17
-    old: 840376efb76e0bb51b97328ee5ad7fd4fd91d8d0
-    new: 25daf9af0ac1bf12490b723b5efaf8dcc85980bc
-    log: revlist-840376efb76e-25daf9af0ac1.txt
+  - ref: refs/heads/for-next
+    old: dd98924ac360bb801d640645649539ae0dd1985a
+    new: d4a2574f8b2f96eb9a07d7c11b3ad6918ca91d81
+    log: revlist-dd98924ac360-d4a2574f8b2f.txt
 
---===============6829154946274329973==
+--===============1491140254778385985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-840376efb76e-25daf9af0ac1.txt
+Content-Disposition: attachment; filename=revlist-dd98924ac360-d4a2574f8b2f.txt
 
-85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
-651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
-2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
-c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
-2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
-a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
-e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
-1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
-af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
-95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
-d89c58068aa667295fa75d0613c869b612bd6249 perf test: Fix comment ordering
-af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
-9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
-6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
 d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
 45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
 55c09681cc67d175bd62b787c8b6eeafbe1b5851 perf list: Remove tracepoint printing code
@@ -1049,6 +1035,20 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
+3ede313b5ec41bf1064fc35a168618eaee0d8e98 arm64: dts: qcom: sa8775p: fix RPMh power domain indices
+1d517444b21e49bb049dc1ca9df0281ba5203c86 arm64: dts: qcom: sm8150: use correct PD for DisplayPort controller
+c48aa92720dc1b883982b1b7e110429d2e316c22 arm64: dts: qcom: sm8250: stop using SoC-specific genpd indices
+633ffe23173d947e4075ecf419889a59e6851ea9 arm64: dts: qcom: sm8550: stop using SoC-specific genpd indices
+c7724332e0ac88168723f4140cef4c8ba92f87e0 arm64: dts: qcom: Rename sa8775p SoC to "lemans"
+24dc241bddcde97f4099b5b8ebb3b211d5e7122c arm64: dts: qcom: lemans: Update memory-map for IoT platforms
+4c0c97b95a9b05e3886c3453492a465507d5c09b arm64: dts: qcom: lemans: Separate out ethernet card for ride & ride-r3
+76326da895b889f7f0b20e5ba5cc47b836521f44 arm64: dts: qcom: lemans: Refactor ride/ride-r3 boards based on daughter cards
+d39e1d737bdb0242e1d70345bb1ecfc8382289ce arm64: dts: qcom: lemans: Rename sa8775p-pmics.dtsi to lemans-pmics.dtsi
+b4feac9e034fe1a609619cb7feb55217fd5d6583 arm64: dts: qcom: lemans: Fix dts inclusion for IoT boards and update memory map
+e9d84a1f8bfe85b6c406c4a088e537d4a5f83a87 dt-bindings: arm: qcom: lemans: Add bindings for Lemans Evaluation Kit (EVK)
+99ea5a0d6bc820b15727cea006561ede7339bb79 arm64: dts: qcom: Add lemans evaluation kit (EVK) initial board support
 25daf9af0ac1bf12490b723b5efaf8dcc85980bc soc: qcom: mdt_loader: Deal with zero e_shentsize
+039cfa2cee7e02f6d89772ac6104e5327d4619cb clk: qcom: tcsrcc-x1e80100: Set the bi_tcxo as parent to eDP refclk
+d4a2574f8b2f96eb9a07d7c11b3ad6918ca91d81 Merge branches 'arm64-for-6.18', 'clk-fixes-for-6.17' and 'drivers-fixes-for-6.17' into for-next
 
---===============6829154946274329973==--
+--===============1491140254778385985==--
