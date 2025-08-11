@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8058261972106105867=="
+Content-Type: multipart/mixed; boundary="===============4964203940815392516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 11 Aug 2025 06:43:05 -0000
-Message-Id: <175489458590.2506769.17421257994957173912@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 06:43:08 -0000
+Message-Id: <175489458823.2506906.12448079690170881193@gitolite.kernel.org>
 
---===============8058261972106105867==
+--===============4964203940815392516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/b4/vdso-mlockall
-    old: 41f1ec1c5351d75e4563eb3cc28157a79f5b1d5a
-    new: 29384709fbc90351630af3b77ac0cb04df632a30
-    log: revlist-41f1ec1c5351-29384709fbc9.txt
+  - ref: refs/heads/b4/vdso-sparc64-generic-2
+    old: 208f0c23b4f7408dd631508946283c66a08d7f81
+    new: e7bbb24cfce409c0a36721181e3096ce48b9201b
+    log: revlist-208f0c23b4f7-e7bbb24cfce4.txt
 
---===============8058261972106105867==
+--===============4964203940815392516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41f1ec1c5351-29384709fbc9.txt
+Content-Disposition: attachment; filename=revlist-208f0c23b4f7-e7bbb24cfce4.txt
 
-c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
-2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
-a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
-e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
-1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
-af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
-95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
-d89c58068aa667295fa75d0613c869b612bd6249 perf test: Fix comment ordering
-af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
-9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
-6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
 d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
 45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
 55c09681cc67d175bd62b787c8b6eeafbe1b5851 perf list: Remove tracepoint printing code
@@ -1046,9 +1035,20 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-f894c70be6294fd88ea6026ca0a62f7c70345ffc vdso/datastore: Allow prefaulting by mlockall()
-b229f5a63b10a91f524e368488784d466c994997 vdso/datastore: Explicitly prevent remote access to timens vvar page
-0ccaa14908726789547469b87524aacbdc5c20c6 vdso/datastore: Allow prefaulting by mlockall()
-29384709fbc90351630af3b77ac0cb04df632a30 vdso/datastore: Map zero page for unavailable data
+fe1b627cb8e654636127cf15750f040421381408 sparc64: vdso: Switch to generic vDSO library
+93289d56a25821cc1747138e1ee7ef03c9a114d7 vdso: add struct __kernel_old_timeval forward declaration to gettime.h
+4a6ca9d0da43fe962e04338b504fc5a359eb76bf sparc64: time: Remove architecture-specific clocksource data
+44937787e7009adc8e30439dfcfe089eeca52eed clocksource: remove ARCH_CLOCKSOURCE_DATA
+a6f7f16583458becad993c72d416f47229db9d24 sparc64: vdso: Link with -z noexecstack
+f217719de9d4a6c84920413f4efd3ed7738fe15d sparc64: vdso: Remove obsolete "fake section table" reservation
+d0d2491e478228d4fa896f62dc4dba8692064788 sparc64: vdso: Replace code patching with runtime conditional
+7cb7b654753de6daacc5f662c6251a8689a05d77 sparc64: vdso: Move hardware counter read into header
+cc15e8d1ae44951c65a00c1c74d573d510b374b5 sparc64: vdso: Move syscall fallbacks into header
+d9c80a25e2d7edc3563c5a9f274b193768019aa9 sparc64: vdso: Introduce vdso/processor.h
+f2e3f63df7dd794ec116a00694fab5746d1ea96c sparc64: vdso: Switch to the generic vDSO library
+605c47ca2f60256c85bb26e445525f810a04f195 sparc64: vdso2c: Drop sym_vvar_start handling
+4fff886467239f69d931bdd95627f3bd712e3e40 sparc64: vdso2c: Remove symbol handling
+f455a4c5e2d2e15a5b96502b5fd3f4c7181d5e72 sparc64: vdso: Implement clock_gettime64()
+e7bbb24cfce409c0a36721181e3096ce48b9201b sparc64: vdso: Implement clock_getres()
 
---===============8058261972106105867==--
+--===============4964203940815392516==--
