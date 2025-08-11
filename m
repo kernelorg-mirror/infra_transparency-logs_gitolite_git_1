@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3080647794588270306=="
+Content-Type: multipart/mixed; boundary="===============1606541781777735639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 11 Aug 2025 22:07:55 -0000
-Message-Id: <175495007500.3330213.8913771477719495332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 11 Aug 2025 22:08:03 -0000
+Message-Id: <175495008350.3330481.14083674592602381025@gitolite.kernel.org>
 
---===============3080647794588270306==
+--===============1606541781777735639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/stable-6.17
-    old: ee79ba39b3d6fdcfa53de6519d7e259e284e78f7
+    old: 5d8b97c946777118930e1cfb075cab59a139ca7c
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-ee79ba39b3d6-8f5ae30d69d7.txt
+    log: revlist-5d8b97c94677-8f5ae30d69d7.txt
 
---===============3080647794588270306==
+--===============1606541781777735639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee79ba39b3d6-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-5d8b97c94677-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============3080647794588270306==--
+--===============1606541781777735639==--
