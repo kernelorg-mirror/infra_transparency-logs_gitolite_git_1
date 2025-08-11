@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4563216002580182138=="
+Content-Type: multipart/mixed; boundary="===============8058261972106105867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 11 Aug 2025 06:43:03 -0000
-Message-Id: <175489458376.2506516.9654129545713475966@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 06:43:05 -0000
+Message-Id: <175489458590.2506769.17421257994957173912@gitolite.kernel.org>
 
---===============4563216002580182138==
+--===============8058261972106105867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/b4/vdso-has-macros
-    old: 9a936a47effe3789cade26c8b92f9c7d6e6b44d1
-    new: 6f2fed05c5204246a56d08bb95faf682c678a8d4
-    log: revlist-9a936a47effe-6f2fed05c520.txt
+  - ref: refs/heads/b4/vdso-mlockall
+    old: 41f1ec1c5351d75e4563eb3cc28157a79f5b1d5a
+    new: 29384709fbc90351630af3b77ac0cb04df632a30
+    log: revlist-41f1ec1c5351-29384709fbc9.txt
 
---===============4563216002580182138==
+--===============8058261972106105867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a936a47effe-6f2fed05c520.txt
+Content-Disposition: attachment; filename=revlist-41f1ec1c5351-29384709fbc9.txt
 
+c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
+2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
+a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
+e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
+1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
+af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
+95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
+d89c58068aa667295fa75d0613c869b612bd6249 perf test: Fix comment ordering
+af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
+9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
 6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
 d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
 45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
@@ -54,6 +64,7 @@ a71475582ada92ba021852bf3c2b40ab3718549b crypto: ccp - reduce stack usage in ccp
 301eee1c52d4b8f4d4d995feb932dae742e92bda crypto: qat - make adf_dev_autoreset() static
 982fd1a74de63c388c060e4fa6f7fbd088d6d02e crypto: hisilicon/hpre - fix dma unmap sequence
 bf24d64268544379d9a9b5b8efc2bb03967703b3 crypto: keembay - Use min() to simplify ocs_create_linked_list_from_sg()
+b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5345e64760d37524d38ddfa7471f42ec64b0f289 bpf: Simplify bounds refinement from s32
 2662c7a9c3dcc9613a01c07a9118beb906aa455b fbdev: nvidiafb: fix build on 32-bit ARCH=um
 ecdd7df997fd992f0ec70b788e3b12258008a2bf fbdev: nvidiafb: add depends on HAS_IOPORT
@@ -69,6 +80,7 @@ a2a42f0c96d709d0cf5cc672acb352934ca95326 fbdev: Fix typo in Kconfig text for FB_
 ffc825a27f5503136196cb38f41641b58bf2df31 fbcon: fbcon_is_inactive() -> fbcon_is_active()
 311b07842fb0bb69b5b266b3dfd6037260a3ec2a fbcon: Introduce get_{fg,bg}_color()
 81b96e4aef9592493873507eec52eca68f0721ac fbcon: Use 'bool' where appopriate
+038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
 59b33fab4ca4d7dacc03367082777627e05d0323 smb: client: fix netns refcount leak after net_passive changes
 9d5eff7821f6d70f7d1b4d8a60680fba4de868a7 cifs: reset iface weights when we cannot find a candidate
 2aaf1784835f5f3063ae2392689053ebafd27e01 smb: change return type of cached_dir_lease_break() to bool
@@ -1034,21 +1046,9 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-5f5a5835e461d09bd1093fefc0bbbe9b956cf9cc diffconfig
-a95414ef5b40654519d8d6ec5f2e578f2a02c2df vdso: development hacks
-d412218f5068a7d7075666d820798d9622eb5756 debug
-2edc3ba9f1eac3b3633c878a41873a6220f108fd EDITME: cover title for vdso/has-macros
-29fdb6e39ded43b01dd9b67fe3f8b3fd994c3b97 hyperv vdso
-1efc68c458925bdeeb6e4e349313e6c5137ea5b9 arm64: uapi: bitsperlong
-228b0b639ff69d8684790d02adc9a78f4f4c18d0 mips
-e771e2edd6bbdcebfbe7e81bd143f8b7719c8385 vdso: Drop VDSO_HAS_ macros
-12887d5fe43acc027a4834436a5850ac3f82bf22 gettimeofday: ifdef
-a24fb0eba6ecc09f7e594e13764120e9cc696311 include: VDSO32_64
-63f7174cddd954c83becd2f50bd97cfbd41b4599 DELETEME
-3f1a5810d47304bbce218735f97ba252792252ac vdso: BITS_PER_LONG
-b2caf023bf4536c84fc700bc110c49132ab91296 BUILD_VDSO32_64
-dbd2e54f2fd8cf5ed15584f5ac3c2f0f033fb371 lib/vdso: __BITS_PER_LONG
-d4c76cfe3dd5c2cdd869777f9a8cc18b171cb723 BUILD_VDSO32
-6f2fed05c5204246a56d08bb95faf682c678a8d4 ENABLE_COMPAT_VDSO
+f894c70be6294fd88ea6026ca0a62f7c70345ffc vdso/datastore: Allow prefaulting by mlockall()
+b229f5a63b10a91f524e368488784d466c994997 vdso/datastore: Explicitly prevent remote access to timens vvar page
+0ccaa14908726789547469b87524aacbdc5c20c6 vdso/datastore: Allow prefaulting by mlockall()
+29384709fbc90351630af3b77ac0cb04df632a30 vdso/datastore: Map zero page for unavailable data
 
---===============4563216002580182138==--
+--===============8058261972106105867==--
