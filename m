@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1842723557071824652=="
+Content-Type: multipart/mixed; boundary="===============8377459529035340302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 11 Aug 2025 03:30:23 -0000
-Message-Id: <175488302394.2240476.10163794035718501617@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 03:40:40 -0000
+Message-Id: <175488364030.2248886.8799854118856590949@gitolite.kernel.org>
 
---===============1842723557071824652==
+--===============8377459529035340302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 6113c5630b9e745b7533c8ebbca22d28c0502df4
-    new: 5344e5bb8255d27eb3e8615c6908bbca40beda7f
-    log: revlist-6113c5630b9e-5344e5bb8255.txt
+  - ref: refs/heads/wip
+    old: 79ef13c222569875babfa8a8b631927041a24c21
+    new: 7b3de68ece376fc0c4a7e69ce63f3a4c87fad07a
+    log: revlist-79ef13c22256-7b3de68ece37.txt
 
---===============1842723557071824652==
+--===============8377459529035340302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6113c5630b9e-5344e5bb8255.txt
+Content-Disposition: attachment; filename=revlist-79ef13c22256-7b3de68ece37.txt
 
 da7870162f176ea38bff7380d67222e0430b0e35 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
 44a4ef59d5506c6dc7599d876a3a1014697ec480 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
@@ -616,29 +616,10 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-b32b148c5a04c2ac38d33fa39d0ecaa94d87a188 f2fs: introduce flush_policy sysfs entry
-e87251b8782a99993e195b48551c87963e0d5680 f2fs: dump more information when checkpoint was blocked for long time
-99c3eac330cf6e198dad0225193ab3933b21b60c f2fs: add time stats of checkpoint for debug
-f4d17d22a933ab411ecf8a733cb9a5af9822b1ae f2fs: fix condition in __allow_reserved_blocks()
-bff561bcd2b64a8061bb08142c747a4e1b573c27 f2fs: add error checking in do_write_page()
-cd1bf34219eef531650c8327a98a5392e704894c f2fs: add lookup_mode mount option
-911ca45f4aa43073aceffa50d29d591d972173b1 f2fs: add sysfs entry for effective lookup mode
-0c56a537b6831db9c206ef22f3bfbd07651c1b64 f2fs: fix to avoid overflow while left shift operation
-5d38ecc8462d4084380b14db916f7f2618b73c5f f2fs: fix to zero data after EOF for compressed file correctly
-fd303015aac7a8bd14adb8584c49b0cf7f1ed687 f2fs: clean up f2fs_truncate_partial_cluster()
-23c9f3ae5624beeb6328b8554f2b3b1ab7c5b3b1 f2fs: end all corrupted fs writes with -EFSCORRUPTED
-d7d938621462875f09cc1d90e861c5cd127c5c4f f2fs: reclaim truncated space during the recovery process
-a779afed11076c39b850b77a85f97d6a95be0469 f2fs: Add bggc_block_io to adjust the priority of BG_GC when issuing IO
-61b6b3841167ef293e0e96d7ffe9c9e5c285d376 f2fs: fix CURSEG_HOT_DATA left space check
-1978422b6930314be0f7c7079e2adf0d1e28fa46 f2fs: fix to clear unusable_cap for checkpoint=enable
-f21308d1d5751fb35da3049c3d7caa7386a57594 f2fs: fix to detect potential corrupted nid in free_nid_list
-fb07d9be38b78d9ef6764f255994b999364f8254 f2fs: add timeout in f2fs_enable_checkpoint()
-151ddcb40145c9cac093fb258a38d6a76250ae9c f2fs: dump more information for f2fs_{enable,disable}_checkpoint()
-38dd9cf1313f04e0ec6567f68bde41f5d44f2ba0 f2fs: f2fs supports uncached buffered I/O read
-6a8516061072bd48330e9919994e260e7b8d8ddc f2fs: fix to return -EOPNOTSUPP for uncached write
-e73b4e174b6202b911cdd5d81374fc154bb00498 f2fs: add reserved nodes for privileged users
-714a090c0677c6f019ec21b4e90d2cec68b43d09 f2fs: clean up w/ get_left_section_blocks()
-1d168975c1e1c8489d42399d5afdaf340cae47ac f2fs: fix to do sanity check on node footer in read_end_io
-5344e5bb8255d27eb3e8615c6908bbca40beda7f f2fs: cover f2fs_update_inode_page() w/ node_change lock
+7127c5c2518b19456f9e3f946c82637e32348852 f2fs: zone: allow IPU for regular file in regular block device
+e985f63e56e9269bbd20587529fbcd9532766b6f f2fs: support NOCoW flag
+28e29a748d62129953cc79280bb42eeb53784066 f2fs: revalidate empty segment when checkpoint is disabled
+be9e5d942075c068547af3651cedd273abaf9b35 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
+7b3de68ece376fc0c4a7e69ce63f3a4c87fad07a f2fs: introduce written_map to indicate written datas
 
---===============1842723557071824652==--
+--===============8377459529035340302==--
