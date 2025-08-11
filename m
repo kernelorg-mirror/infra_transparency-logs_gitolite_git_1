@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Mon, 11 Aug 2025 15:02:23 -0000
-Message-Id: <175492454364.2962095.3635310846882802153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 11 Aug 2025 15:04:46 -0000
+Message-Id: <175492468638.2963908.6235220946928641450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/linus-next
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: f864f8029959a9e48dbc6fb0fc8f2eaae1a54f3b
+  - ref: refs/heads/nfsd-testing
+    old: bebcef5b015356eff7141b9296cdcae075e5c285
+    new: e77209196eff264c24650f43ca6a4ca0cebc93fa
     log: |
-         f9a348e0de19226fc3c7e81de7677d3fa2c4b2d8 nfsd: don't set the ctime on delegated atime updates
-         e5a73150776f18547ee685c9f6bfafe549714899 nfsd: avoid ref leak in nfsd_open_local_fh()
-         bee47cb026e762841f3faece47b51f985e215edb sunrpc: fix handling of server side tls alerts
-         f864f8029959a9e48dbc6fb0fc8f2eaae1a54f3b Merge tag 'nfsd-6.17-1' of https://git.kernel.org/pub/scm/linux/kernel/git/cel/linux into linus-next
+         0ce84089fb1ab484cafb219355bee967f9d12311 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
+         2a8e3cfc134a8e198c25a1680a83bbbbcdc1901d sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+         e77209196eff264c24650f43ca6a4ca0cebc93fa siw: Enable try_gso
          
