@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5379264955732566660=="
+Content-Type: multipart/mixed; boundary="===============7697621023130796353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 11 Aug 2025 09:32:22 -0000
-Message-Id: <175490474282.2657903.14762959234165558861@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 09:32:35 -0000
+Message-Id: <175490475543.2658299.3602019538919105877@gitolite.kernel.org>
 
---===============5379264955732566660==
+--===============7697621023130796353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 042639c54c6e94a7a02f8a7ff0ee10b809c0859e
-    new: 67ba21aae070af9f9be9f618585a38aa184f54d5
-    log: revlist-042639c54c6e-67ba21aae070.txt
+  - ref: refs/heads/m68k-queue
+    old: eb92c3f55a6c5f865507acfd8458e1315d423f04
+    new: 7f163e94bc08b101f2f3f2dc6b2bb60892863edc
+    log: revlist-eb92c3f55a6c-7f163e94bc08.txt
 
---===============5379264955732566660==
+--===============7697621023130796353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-042639c54c6e-67ba21aae070.txt
+Content-Disposition: attachment; filename=revlist-eb92c3f55a6c-7f163e94bc08.txt
 
-48e6561b667e7f0623da3ca34e2b93b7ae2a5d8d mm/page_alloc: remove trace_mm_alloc_contig_migrate_range_info()
-44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
 651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
 2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
@@ -1049,6 +1047,8 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-67ba21aae070af9f9be9f618585a38aa184f54d5 Merge tag 'v6.17-rc1'
+0ead2b9f2d5d128d3ddf580cee060ce2d2f95279 m68k: atari: usb: Add ISP1160 USB host controller support
+fa281a0edc7a4f1b971757ee687e948542ed8671 m68k: atari: Update Kconfig.bus help text
+7f163e94bc08b101f2f3f2dc6b2bb60892863edc m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5379264955732566660==--
+--===============7697621023130796353==--
