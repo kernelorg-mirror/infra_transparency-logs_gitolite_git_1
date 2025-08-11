@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4427237188336183873=="
+Content-Type: multipart/mixed; boundary="===============6766140036725352831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 11 Aug 2025 11:51:20 -0000
-Message-Id: <175491308022.2786434.912611819636756684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 11 Aug 2025 11:51:38 -0000
+Message-Id: <175491309831.2786785.1814933424012219496@gitolite.kernel.org>
 
---===============4427237188336183873==
+--===============6766140036725352831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
 
---===============4427237188336183873==
+--===============6766140036725352831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============4427237188336183873==--
+--===============6766140036725352831==--
