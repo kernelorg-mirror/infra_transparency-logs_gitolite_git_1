@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1943833514061729277=="
+Content-Type: multipart/mixed; boundary="===============1881884229887789880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 11 Aug 2025 05:25:48 -0000
-Message-Id: <175488994873.2430539.13702649942040471739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 11 Aug 2025 05:26:39 -0000
+Message-Id: <175488999969.2436779.9235721297258368190@gitolite.kernel.org>
 
---===============1943833514061729277==
+--===============1881884229887789880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -24,9 +24,9 @@ changes:
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-19272b37aa4f-8f5ae30d69d7.txt
   - ref: refs/heads/next
-    old: 4a3556b81b99f0c8c0358f7cc6801a62b4538fe2
+    old: 34b1cb4ec286603127aa8c4191ea527eb8dd3567
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-4a3556b81b99-8f5ae30d69d7.txt
+    log: revlist-34b1cb4ec286-8f5ae30d69d7.txt
   - ref: refs/tags/v6.17-rc1
     old: 0000000000000000000000000000000000000000
     new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
@@ -34,7 +34,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
 
---===============1943833514061729277==
+--===============1881884229887789880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1065,7 +1065,7 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============1943833514061729277==
+--===============1881884229887789880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2096,11 +2096,11 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============1943833514061729277==
+--===============1881884229887789880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a3556b81b99-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-34b1cb4ec286-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -3127,4 +3127,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============1943833514061729277==--
+--===============1881884229887789880==--
