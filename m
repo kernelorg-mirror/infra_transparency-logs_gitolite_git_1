@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6414753289402794388=="
+Content-Type: multipart/mixed; boundary="===============8606699298173793388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 11 Aug 2025 06:56:27 -0000
-Message-Id: <175489538768.2522031.15400278593564993599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 11 Aug 2025 06:56:28 -0000
+Message-Id: <175489538847.2522126.12884479769399527700@gitolite.kernel.org>
 
---===============6414753289402794388==
+--===============8606699298173793388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/for-next
+    old: 683d532dfc9657ab8aae25204f378352ed144646
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-19272b37aa4f-8f5ae30d69d7.txt
+    log: revlist-683d532dfc96-8f5ae30d69d7.txt
 
---===============6414753289402794388==
+--===============8606699298173793388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1754895430 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1754895384-ba10475bf09719da02040eb6a0588d8ec320f732
+pusher krzk@kernel.org 1754895431 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1754895384-251804d33efad7dff637ffa326bdb04f0eac1cac
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/fixes
+683d532dfc9657ab8aae25204f378352ed144646 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
 iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiZlEcQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14KFD/4mCKbgZPx9iUxAWdqV/nroQ8hgXJYkgr1q
-CAwvN0aEEVfvRj6cAJU2c1vwO2N901YcDlO0QczjGLoF1g2INEi4iu/4oep9eplZ
-mmezz15CnohzWntmtWIh6ojZINy1Q2NlxzXcDGjD25V3zJG/6KWLhmRJ1SaxSqvv
-roPXlhtnGrhQuBQQ4fAAaOo5mwriTf5SL0hf+lhRmsiDCL+BYXXibdQ1KMju32X1
-X2ZIYcxnG0+Vh7YkaIH6c/egSXInALUq1x6Cn/igsesbAkf1yDpxoKKMj5r2qPNp
-70RKg+4OT77w/a8VdJYbDLs3vBi7xtSvogNEtXWe04Maptnow9E6NC0evfRKdg74
-9ekIOI+Wq09HeoXHu32mHTEhF8Ls5PQqzypPIRPa0sPyGMlyRBGKppejyhwDyqKH
-21xHCreD00QKrbqhBE9zPB06aHOEg5VnulGxVCpyrGxPStlAxNS1uTI4Z9fzh22K
-9Po0qMfRCifi3cggjCx8ermNNIZAyIP+mnmVSprB2ET0WqlDsQ4aIybIXPJNue91
-mhZ576C5q5aKAo4cp9Xmr6BfCyL1Jrgz7GBlaQV1tnefDmOHX7lu2OKjyIryFqcr
-CJEb0lzUFDFo7Cgl7dBkNpJB6W91cVeV4Yu/PH0kRN+TI+vW9ZokUFw84zkftIJH
-+VhV4o/2VQ==
-=pDBe
+bmVsLm9yZwAKCRDBN2bmhouD1z/BD/0QPkfmlQS+J8ql/NiU/31p+n11VZBjWj0W
+Vgyl9D+Eo6Rd2aTd1V2PLoy/+mgO7QonOuv1u5xEVJIvsufCr+yEWh+8pHL8i71N
+L4d8TuVecG24XY/I4RkmiEhERNe/HSGS5JlClmUB2KV5RvAi6Llh6T1TAY9UuFyB
+cwqS8S25e7OR5Z7fpzf5XhOHW7h1iQY2vpfaVyhrEJB5XfXQzHXrkBIV2EkhAXB7
+17qD1ixnQQtiwloSnci9liMQyWSWYWx3/qaxBg3LBj39JfxpPFuWW8H0swBY6UE8
+vpj6COPtWGfBGs4zqRsyTCRgw8DKsBsYQe1wyonavOTYOgpjeEMeB0+FA4j1e1FK
+XQKHdqGHGvKnDTKofnUr3Ispt6KlLan+HOYpoSAH46tQ2loevTr0ZP+30epJOqRq
+3Ac4GjcVX9VpNAoyaLHiSraj4S3Jw+PplU3WD7SmB+0ASBvwectihGdu/8JW9FJo
+QVSyv7HuEBZeyZBliT89DQDJqu+H4t4QzyWT9F71PIbvNGLb4KLOGGsu+yj3os2n
+5w9V6aY9FIhWydGM3ZuCTtwPdz18N12QWtYJUP1VEcXtIABSMuooq574pwIRWho1
+ZUcVaql+huSnwH93kAKi62siYz+ys7pXAyYg6tvyfQTtM0ETbV13/uuzGlhtLjES
+TYQU4XwaPQ==
+=3QUW
 -----END PGP SIGNATURE-----
 
---===============6414753289402794388==
+--===============8606699298173793388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-683d532dfc96-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1082,4 +1082,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============6414753289402794388==--
+--===============8606699298173793388==--
