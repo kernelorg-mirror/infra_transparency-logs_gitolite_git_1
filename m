@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 11 Aug 2025 20:35:03 -0000
-Message-Id: <175494450324.3252641.11790800735859485948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Mon, 11 Aug 2025 20:50:23 -0000
+Message-Id: <175494542303.3265430.11145375259449616761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
   - ref: refs/heads/master
-    old: 5ccbff0898fa4b006cb4b26c9b82cae129aa368f
-    new: 013b3431c58d81e9e01dac7e8a5d088e357326a3
+    old: 8973072b927c5594c226e8ca38d420fc198dfd09
+    new: c8bf8493e5e19cdcb9aeff7e6c6f5a3145be12cf
     log: |
-         bf5ec167b66fc40f7c5f3abca58752fee0d4153b bap: remove bap_update_cigs callback properly whan data is freed
-         013b3431c58d81e9e01dac7e8a5d088e357326a3 Fix buffer overflow in sdp_xml_parse_uuid128
+         c8bf8493e5e19cdcb9aeff7e6c6f5a3145be12cf Patch calls to `dmesg` during tests
          
