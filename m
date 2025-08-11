@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3920291271916181051=="
+Content-Type: multipart/mixed; boundary="===============5726076998506388720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Mon, 11 Aug 2025 03:14:55 -0000
-Message-Id: <175488209525.2225748.12154892027581941232@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 03:18:33 -0000
+Message-Id: <175488231391.2229088.2557740502565840729@gitolite.kernel.org>
 
---===============3920291271916181051==
+--===============5726076998506388720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: neeraj.upadhyay
 changes:
-  - ref: refs/heads/next
-    old: cafd4112c16221328cff43bc6db87f49bd4c0a56
-    new: 61399e0c5410567ef60cb1cda34cca42903842e3
-    log: revlist-cafd4112c162-61399e0c5410.txt
+  - ref: refs/tags/rcu.fixes.6.17
+    old: 656abf8256fd62e2a983e794f44d546487dc8e75
+    new: 7944a7f50aa970b5c93457da338904d9976f21b6
+    log: revlist-656abf8256fd-7944a7f50aa9.txt
 
---===============3920291271916181051==
+--===============5726076998506388720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cafd4112c162-61399e0c5410.txt
+Content-Disposition: attachment; filename=revlist-656abf8256fd-7944a7f50aa9.txt
 
 da7870162f176ea38bff7380d67222e0430b0e35 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
 44a4ef59d5506c6dc7599d876a3a1014697ec480 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
@@ -254,4 +254,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 61399e0c5410567ef60cb1cda34cca42903842e3 rcu: Fix racy re-initialization of irq_work causing hangs
 
---===============3920291271916181051==--
+--===============5726076998506388720==--
