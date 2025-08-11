@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0071533999306323155=="
+Content-Type: multipart/mixed; boundary="===============5512655238338897405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 11 Aug 2025 17:02:14 -0000
-Message-Id: <175493173424.3067577.393710054902936067@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 17:02:25 -0000
+Message-Id: <175493174582.3067996.9370545436624204087@gitolite.kernel.org>
 
---===============0071533999306323155==
+--===============5512655238338897405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 7e161a991ea71e6ec526abc8f40c6852ebe3d946
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-7e161a991ea7-8f5ae30d69d7.txt
-  - ref: refs/tags/v6.16
-    old: 0000000000000000000000000000000000000000
-    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
-  - ref: refs/tags/v6.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
-  - ref: refs/tags/v6.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 47633099a672fc7bfe604ef454e4f116e2c954b1
-  - ref: refs/tags/v6.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
-  - ref: refs/tags/v6.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 75083cd99c8261eec695596813cc261a523ab32b
-  - ref: refs/tags/v6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
 
---===============0071533999306323155==
+--===============5512655238338897405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -635,4 +617,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============0071533999306323155==--
+--===============5512655238338897405==--
