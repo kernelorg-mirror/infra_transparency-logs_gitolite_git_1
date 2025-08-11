@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 11 Aug 2025 20:28:06 -0000
-Message-Id: <175494408602.3245404.13194182673740956563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 11 Aug 2025 20:30:45 -0000
+Message-Id: <175494424588.3248823.5406146060375861975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 4fa7d880aeb8cdbdaa4fb72be3e53ac1d6bcc088
-    new: 31cd31c9e17ece125aad27259501a2af69ccb020
+  - ref: refs/heads/dev
+    old: f6e7596dbca5d6a84eda3b904beb534c1416cdf6
+    new: e1b452c64787deb9a3859653f74ab1151678cce6
     log: |
-         31cd31c9e17ece125aad27259501a2af69ccb020 x86/fpu: Fix NULL dereference in avx512_status()
+         e1b452c64787deb9a3859653f74ab1151678cce6 svcrdma: Introduce Receive buffer arenas
          
