@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3922584784244577937=="
+Content-Type: multipart/mixed; boundary="===============8044689719407262812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 11 Aug 2025 15:07:50 -0000
-Message-Id: <175492487011.2967116.4627723008894597636@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 15:08:24 -0000
+Message-Id: <175492490455.2967534.3249108443647902094@gitolite.kernel.org>
 
---===============3922584784244577937==
+--===============8044689719407262812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arm64/linux
 user: cmarinas
 changes:
-  - ref: refs/heads/for-next/acpi
-    old: bad3fa2fb9206f4dcec6ddef094ec2fbf6e8dcb2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/debug-entry
-    old: a8b8cce9d96d65dfe3d89abf02033151f8b7d670
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/feat_mte_store_only
-    old: 1f488fb91378e923dd67870292dcc36df85a814e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/feat_mte_tagged_far
-    old: d09674f98cdbf5dc2288cd5e2d0e63b6e5f723b2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/fixes
-    old: d42e6c20de6192f8e4ab4cf10be8c694ef27e8cb
+  - ref: refs/heads/for-kernelci
+    old: 82af5ea7c611c80bc8811cd7ce2122cbdd3da134
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-d42e6c20de61-8f5ae30d69d7.txt
-  - ref: refs/heads/for-next/kselftest
-    old: 4752dcc156f2090143296ff45f8e35c8ec3e1730
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/livepatch
-    old: 8e7a67ca5a8013ac6055c776d7d1ef4c4047ee48
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/mdscr-cleanup
-    old: 30ff3c981e48b37a93249a96675b450469ac13a6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/misc
-    old: cbbcfb94c55c02a8c4ce52b5da0770b5591a314c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/user-contig-bbml2
-    old: 83bbd6be7d1712471001c421298fb525b7abf69e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/vmap-stack
-    old: 9d1869f0f537d26005a521a141dde759fc3303f5
-    new: 0000000000000000000000000000000000000000
+    log: revlist-82af5ea7c611-8f5ae30d69d7.txt
 
---===============3922584784244577937==
+--===============8044689719407262812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d42e6c20de61-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-82af5ea7c611-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1081,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============3922584784244577937==--
+--===============8044689719407262812==--
