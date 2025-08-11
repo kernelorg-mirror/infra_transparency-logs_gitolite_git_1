@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8993003150525934739=="
+Content-Type: multipart/mixed; boundary="===============4632058464401883629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 11 Aug 2025 20:00:30 -0000
-Message-Id: <175494243082.3221331.9178025120413033768@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 20:01:16 -0000
+Message-Id: <175494247655.3222006.3484943631794033919@gitolite.kernel.org>
 
---===============8993003150525934739==
+--===============4632058464401883629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/enumeration
-    old: 0cedb93d638eb0b05a545193db00b12cf51c3ba3
-    new: a22250fe933dbd1da9a9683506ae3f489ccc579d
-    log: revlist-0cedb93d638e-a22250fe933d.txt
+  - ref: refs/heads/hotplug
+    old: 6e1be0c6d0032a5815729c75c1e7ad7ea5542612
+    new: 1d33d9e46c08e952853e821ab8e0b46cb248bc1f
+    log: revlist-6e1be0c6d003-1d33d9e46c08.txt
 
---===============8993003150525934739==
+--===============4632058464401883629==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0cedb93d638e-a22250fe933d.txt
+Content-Disposition: attachment; filename=revlist-6e1be0c6d003-1d33d9e46c08.txt
 
+a12a23720c135a299ed914adf623387c7404e014 perf list: Remove trailing A in PAI crypto event 4210
+e9705c61b1dbe7bac9dc189de434994d8a76b191 f2fs: use kfree() instead of kvfree() to free some memory
+81b6ecca2f15922e8d653dc037df5871e754be6e f2fs: doc: fix wrong quota mount option description
 7c30d79930132466f5be7d0b57add14d1a016bda f2fs: fix to avoid UAF in f2fs_sync_inode_meta()
 a509a55f8eecc8970b3980c6f06886bbff0e2f68 f2fs: fix to avoid panic in f2fs_evict_inode
 c1cfc87e49525853ebe9dce2ffce6332eb811fa6 f2fs: introduce is_cur{seg,sec}()
@@ -1046,9 +1049,6 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-24b2d3c452e5f3facaf9c664aaaa9fc7fa4bc6bb PCI: Use header type defines in pci_setup_device()
-aa84931ba7f989c263a79a3a962524b5830d0e64 PCI: Clean up early_dump_pci_device()
-c763fae8c4231e426033f62c21be60db4b6659a9 PCI: Clean up pci_scan_child_bus_extend() loop
-a22250fe933dbd1da9a9683506ae3f489ccc579d PCI: Add Extended Tag + MRRS quirk for Xeon 6
+1d33d9e46c08e952853e821ab8e0b46cb248bc1f PCI: hotplug: Clean up spaces in messages
 
---===============8993003150525934739==--
+--===============4632058464401883629==--
