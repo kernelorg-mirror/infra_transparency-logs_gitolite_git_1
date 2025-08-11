@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Mon, 11 Aug 2025 08:12:00 -0000
-Message-Id: <175489992066.2590481.16929017652839934931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 11 Aug 2025 08:37:21 -0000
+Message-Id: <175490144102.2610660.7504877942607597903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexghiti/linux
-user: alexghiti
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/alex-fixes
-    old: 8de69eb99f3263bd6d0e7efb6b823830ae9ec99a
-    new: dd60a21540a72e1c707a7553869fc853ab23419f
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 17bd9599f07ff700b9fb7d15dfa1f1de42947a54
+    new: 2b5066a3a19a2870f353f8783f1ee63e61b8e371
     log: |
-         12834423e6aa6576a29361e23a456dbd3c569cb0 riscv: use lw when reading int cpu in new_vmalloc_check
-         cf2a164e952e3c97942ba55b39c8242f44cafba2 riscv: use lw when reading int cpu in asm_per_cpu
-         dd60a21540a72e1c707a7553869fc853ab23419f riscv: uaccess: fix __put_user_nocheck for unaligned accesses
+         16d39e2bf96075dc266fdcf0f2507fc075c33676 cpufreq: Remove unused parameter in cppc_perf_from_fbctrs()
+         2b5066a3a19a2870f353f8783f1ee63e61b8e371 cpufreq: qcom-nvmem: Enable cpufreq for ipq5424
          
