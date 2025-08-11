@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1714852445533205091=="
+Content-Type: multipart/mixed; boundary="===============8283073231633791546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 11 Aug 2025 11:38:31 -0000
-Message-Id: <175491231195.2771494.15503150545078749089@gitolite.kernel.org>
+Date: Mon, 11 Aug 2025 11:38:40 -0000
+Message-Id: <175491232071.2771927.10928156671193234058@gitolite.kernel.org>
 
---===============1714852445533205091==
+--===============8283073231633791546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/fixes
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-19272b37aa4f-8f5ae30d69d7.txt
 
---===============1714852445533205091==
+--===============8283073231633791546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============1714852445533205091==--
+--===============8283073231633791546==--
