@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1114143524941691018=="
+Content-Type: multipart/mixed; boundary="===============0803248412764893021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 11 Aug 2025 12:53:41 -0000
-Message-Id: <175491682156.2840506.6225037810810539050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 11 Aug 2025 12:54:48 -0000
+Message-Id: <175491688854.2841531.10846788963641124881@gitolite.kernel.org>
 
---===============1114143524941691018==
+--===============0803248412764893021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-ilpo-next
     old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: d140f3ba76ac98faad7f9b37ef5a3dcbd57f59e2
+    new: 3bffbe0497f9e3c7d80f22d9d0f60c984d42ab6d
     log: |
-         d140f3ba76ac98faad7f9b37ef5a3dcbd57f59e2 memory: stm32_omm: Fix req2ack update test
+         1ccc2e20fe1d3b91395de8ca9ce0efe070287534 platform/x86: dell_rbu: fix assignment in if condition warning
+         3bffbe0497f9e3c7d80f22d9d0f60c984d42ab6d platform/x86: wmi-capdata01: Remove unneeded semicolon
          
 
---===============1114143524941691018==
+--===============0803248412764893021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1754916865 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1754916819-ac6f60a596de591f6e2ac4ecfd8e7738e01cc7d1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1754916930 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1754916884-6cc15e2deb6577a7088c4bb8f50e7ceb1c29ff9f
 
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 d140f3ba76ac98faad7f9b37ef5a3dcbd57f59e2 refs/heads/for-next
+8f5ae30d69d7543eee0d70083daf4de8fe15d585 3bffbe0497f9e3c7d80f22d9d0f60c984d42ab6d refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiZ6AEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+FjD/9Azo8dwP4rxMgUirlreZyXjApojosCGEJW
-IsmSfVbHMdRW3qBZh4Abqqt3TaRdN59izkqxq9qsL5TFMdf18DpVR6mbDgxDHtHv
-WmL3mgTm1STeRfkapNDofiekAFEnKB+Ng7Ig+g6xVYIMseTSv4hlT2DVRe3/eiBQ
-BOLXKp57Pm8fjS5nmGg2v7yrllESM+Ykg4qRKREP6MwiOXC5/MqScXIPW6PRaOWj
-12gOZvT8T6h2CZ5xjSaK058ILAgxTfR6WwTGt1lzfPfMWzW5A0Zi/Tp+YNV3KB/8
-RG8CYS3GKWnUzKKrBg9efDmcU1nSd4vPwI9/8OFmpThQww2hCStsizE0aHbopcRN
-kQKGGDEE0L7t/app/M3DqXgEyfCAwINwjP5++vYpOCy23x+PrSTvi9nQtcEkD55g
-3egT245FHQep9KbFtez+yrTTeCJCigGg0OX9QsWecf28ug3hVDIkLlM4uzz/xeRP
-oTSSnVTcWLFCGunk/G6TKLOo+6kHdKtU9baZSOYyzrMMLsQhfWnn723U4C9zaIjM
-CBJjkqQVAfesCokFrb3mxC69R2JSUtCBOXRUWy8F0DZudtwE0fDiZ/NWdUhjRH/Z
-0KzQ/QVsYO6NH0JIljAT+MYOIbrmlQY1hPPR7yr/z073n2MmGZ3t1Trc+bNFaxMi
-m56QNBKUFQ==
-=Bggs
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaJnoRQAKCRBZrE9hU+XO
+MWTbAP0boxT2cL09CPsbq7bz9xFCPcJwu9bFF5ERebUaZEqx/gD+JaoE/8txuBu7
+Hzb+d1hVOm0tw+qrMb9lXzfpW+vg8Ak=
+=vCKa
 -----END PGP SIGNATURE-----
 
---===============1114143524941691018==--
+--===============0803248412764893021==--
