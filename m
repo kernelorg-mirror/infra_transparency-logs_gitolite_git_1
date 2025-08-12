@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 Aug 2025 10:29:27 -0000
-Message-Id: <175499456750.3945771.7096346248352998888@gitolite.kernel.org>
+Date: Tue, 12 Aug 2025 10:33:39 -0000
+Message-Id: <175499481923.3949460.3936380737288106558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 89886abd073489e26614e4d80fb8eb70d3938a0b
-    new: 8ee90742cf29427683294a6a80f1e2b7f4af1cff
+    old: 8ee90742cf29427683294a6a80f1e2b7f4af1cff
+    new: 8ea25274ebaf2f6be8be374633b2ed8348ec0e70
     log: |
-         8ee90742cf29427683294a6a80f1e2b7f4af1cff net: phy: nxp-c45-tja11xx: fix the PHY ID mismatch issue when using C45
+         8ea25274ebaf2f6be8be374633b2ed8348ec0e70 net: mdiobus: release reset_gpio in mdiobus_unregister_device()
          
