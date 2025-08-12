@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3827842415467513514=="
+Content-Type: multipart/mixed; boundary="===============5722004712533420079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 12 Aug 2025 17:26:01 -0000
-Message-Id: <175501956120.158358.13431962612020569089@gitolite.kernel.org>
+Date: Tue, 12 Aug 2025 17:26:15 -0000
+Message-Id: <175501957578.158717.17911974809894336459@gitolite.kernel.org>
 
---===============3827842415467513514==
+--===============5722004712533420079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: a4131a50d072b369bfed0b41e741c41fd8048641
+  - ref: refs/heads/hyperv-fixes-staging
+    old: 14ae3003e73e777c9b36385a7c86f754b50a1821
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-a4131a50d072-8f5ae30d69d7.txt
+    log: revlist-14ae3003e73e-8f5ae30d69d7.txt
 
---===============3827842415467513514==
+--===============5722004712533420079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4131a50d072-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-14ae3003e73e-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============3827842415467513514==--
+--===============5722004712533420079==--
