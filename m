@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7575741260339480243=="
+Content-Type: multipart/mixed; boundary="===============1737490395446866592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 12 Aug 2025 13:29:53 -0000
-Message-Id: <175500539375.4119550.6806648432201217511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Aug 2025 13:29:57 -0000
+Message-Id: <175500539744.4119712.10716414826987956602@gitolite.kernel.org>
 
---===============7575741260339480243==
+--===============1737490395446866592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: a1d0b0ae65ae3f32597edfbb547f16c75601cd87
     new: b832b19318534bb4f1673b24d78037fee339c679
     log: |
@@ -25,28 +25,28 @@ changes:
          b832b19318534bb4f1673b24d78037fee339c679 spi: loopback-test: Don't use %pK through printk
          
 
---===============7575741260339480243==
+--===============1737490395446866592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1755005438 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1755005391-f5d086b84c080836ebb60d736c344224d8f9f19e
+pusher C3F436CA30F5D8EB 1755005441 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1755005394-4e63989133b6938b780560f0502416376e14e10e
 
-a1d0b0ae65ae3f32597edfbb547f16c75601cd87 b832b19318534bb4f1673b24d78037fee339c679 refs/heads/for-6.18
+a1d0b0ae65ae3f32597edfbb547f16c75601cd87 b832b19318534bb4f1673b24d78037fee339c679 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibQf4ACgkQJNaLcl1U
-h9BXWQf/ROqvrL9g0iu/tZ6ZifYb2wxX3TmP+8fPj1CHJCd9Mjjyz07BekdEQJ36
-zNVlerkEyLDUuRCNUqgfClVPCAwLZ+EB8whlm3kXY2fZ5kUsZNR9/l+KTPLewQRg
-b7c3uEVaNTWyNtJdoWob/cY74uu6K9bor0Fe2QY3FyI/NWihHHVix7F/y/DmTpbE
-ppz9JrWlKlLBdaxvXqtzO6I4njtz7cCu4H4imrruq2aZnvoXqqvJzFqwgXxLBuoJ
-gnzCC4ebzOj93YGbgX3iVk8aZ0RmRUvGLdYZ3N///GqW+KyEfpW0ps6I+V6JT8N1
-3L9LEPaswvKZw+BX8nj2E9lL7HVtyQ==
-=4774
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibQgEACgkQJNaLcl1U
+h9Cedgf8CKQ0cjkrYE9+G/9IXlJMim1thC9e2/34lzOeuOjudCK9HZ6DbXqbTzi8
+q/WLUgojZ6r5YpRTXV1NSG9DzX+EcdYxFL/Mn2m7WbBnt1u5EvLxHz8Kg+jVybDM
+Shl0+dTsFZfk2Jy2pCbl+FRuH7Ll1CqYNUCWSwkrpz/09EJYgMn07Ru7kIlpi2Xh
+Ma1pAel+yU5zpKnud+fPTtVmzVBrdgmkfOX8N3NsRdilWteFPUntAu8+GoL18jrn
+0P0/hoVp+ARbCfl3kc/0gXQpjD8uf5/8M7jLlHM8YorOkFO2xGqcMbc1lPoS/92X
+xxhxFIwpv/7V4aDOSCOD04fSqq4Z1w==
+=fuaF
 -----END PGP SIGNATURE-----
 
---===============7575741260339480243==--
+--===============1737490395446866592==--
