@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6257258100611627809=="
+Content-Type: multipart/mixed; boundary="===============4179788039850022604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 12 Aug 2025 13:40:45 -0000
-Message-Id: <175500604511.4133421.1889237300180844003@gitolite.kernel.org>
+Date: Tue, 12 Aug 2025 13:41:15 -0000
+Message-Id: <175500607554.4133779.3030617016545336557@gitolite.kernel.org>
 
---===============6257258100611627809==
+--===============4179788039850022604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk-for-v6.18
-    old: a80e23d06b2ccd8fa3f387f7e3ca94d736c9c37f
+  - ref: refs/heads/renesas-clk
+    old: 0ab2d84f94dae48c3e7605cdc99dbb4e7c7b206a
     new: 09f025b1d9487f73de187fc91f1fce1ba9d18f62
-    log: revlist-a80e23d06b2c-09f025b1d948.txt
-  - ref: refs/heads/renesas-pinctrl-for-v6.18
-    old: 4453c0e83fcbdb3ad1f3002d995dc482f33db596
+    log: revlist-0ab2d84f94da-09f025b1d948.txt
+  - ref: refs/heads/renesas-pinctrl
+    old: 7000167796a00d64322dc3ed0c0970e31d481ed6
     new: 9eb40bb26aceab8a978403bf501af1f6b154276c
-    log: revlist-4453c0e83fcb-9eb40bb26ace.txt
+    log: revlist-7000167796a0-9eb40bb26ace.txt
 
---===============6257258100611627809==
+--===============4179788039850022604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a80e23d06b2c-09f025b1d948.txt
+Content-Disposition: attachment; filename=revlist-0ab2d84f94da-09f025b1d948.txt
 
 d89c58068aa667295fa75d0613c869b612bd6249 perf test: Fix comment ordering
 af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
@@ -1055,11 +1055,11 @@ f4b35fdf085bc3873d43eaeae43c855210728f56 clk: renesas: r9a07g044: Add MSTOP for 
 5e98cfe6221a0e6237148e4f276477023a9b24ba clk: renesas: r9a07g043: Add MSTOP for RZ/G2UL
 09f025b1d9487f73de187fc91f1fce1ba9d18f62 clk: renesas: r9a07g04[34]: Use tabs instead of spaces
 
---===============6257258100611627809==
+--===============4179788039850022604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4453c0e83fcb-9eb40bb26ace.txt
+Content-Disposition: attachment; filename=revlist-7000167796a0-9eb40bb26ace.txt
 
 af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
 9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
@@ -2086,4 +2086,4 @@ cd39805be85b8ff45b0ad2715d8de48dbe404cee pinctrl: renesas: rzg2l: Unify OEN hand
 90f2896d7dbb0553605c93afba00411201e7bcea pinctrl: renesas: Add support for RZ/T2H
 9eb40bb26aceab8a978403bf501af1f6b154276c pinctrl: renesas: rzt2h: Add support for RZ/N2H
 
---===============6257258100611627809==--
+--===============4179788039850022604==--
