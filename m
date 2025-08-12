@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Tue, 12 Aug 2025 20:52:16 -0000
-Message-Id: <175503193607.332412.16761731128810291163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 12 Aug 2025 21:10:56 -0000
+Message-Id: <175503305698.348374.16301363272923590885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.17-fixes
-    old: eea51c6e3f6675b795f6439eaa960eb2948d6905
-    new: 6563623e604e3e235b2cee71190a4972be8f986b
+  - ref: refs/heads/main
+    old: bc4c0a48bdad7f225740b8e750fdc1da6d85e1eb
+    new: 63fe077c21d323cbc8d56114e9139bbadab33ce5
     log: |
-         6563623e604e3e235b2cee71190a4972be8f986b docs: cgroup: fixed spelling mistakes in documentation
-         
-  - ref: refs/heads/for-next
-    old: 8a013ec9cb7af9921656c0e78c73510c9e4a0cc1
-    new: 3cf8929e0c8e826b27b66d82a5f5f0d1b3f9007f
-    log: |
-         6563623e604e3e235b2cee71190a4972be8f986b docs: cgroup: fixed spelling mistakes in documentation
-         3cf8929e0c8e826b27b66d82a5f5f0d1b3f9007f Merge branch 'for-6.17-fixes' into for-next
+         526c2530cbf84428a0a2b5ca7800986c0912ac35 tcp: cdg: remove redundant __GFP_NOWARN
+         7792232a4ea1a8b6fe34d0d99a1e02aac185e633 RDS: remove redundant __GFP_NOWARN
+         e0ab61faba808bbb00728b2e33e09e534732e80f Merge branch 'net-remove-redundant-__gfp_nowarn'
+         63fe077c21d323cbc8d56114e9139bbadab33ce5 caif: Replace memset(0) + strscpy() with strscpy_pad()
          
