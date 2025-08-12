@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0281731365966583245=="
+Content-Type: multipart/mixed; boundary="===============7734739612366281635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 12 Aug 2025 20:01:19 -0000
-Message-Id: <175502887946.289582.6841176400598076617@gitolite.kernel.org>
+Date: Tue, 12 Aug 2025 20:01:25 -0000
+Message-Id: <175502888581.289871.8399263242640379286@gitolite.kernel.org>
 
---===============0281731365966583245==
+--===============7734739612366281635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 37816488247ddddbc3de113c78c83572274b1e2e
     new: c04fdca8a98af5fc4eeb6569917f159cfa56b923
     log: revlist-37816488247d-c04fdca8a98a.txt
 
---===============0281731365966583245==
+--===============7734739612366281635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ b3fc08ab9a565efb42fe08be046a0d203b82cdb8 net: prevent deadlocks when enabling NA
 74078816f8b937afbcc7c2991977527b2c77463d Merge branch 'net-prevent-deadlocks-and-mis-configuration-with-per-napi-threaded-config'
 c04fdca8a98af5fc4eeb6569917f159cfa56b923 Merge tag 'ipsec-2025-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 
---===============0281731365966583245==--
+--===============7734739612366281635==--
