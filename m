@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8931564117932887495=="
+Content-Type: multipart/mixed; boundary="===============7362307249722137376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 12 Aug 2025 17:25:08 -0000
-Message-Id: <175501950830.157229.1727773205469012845@gitolite.kernel.org>
+Date: Tue, 12 Aug 2025 17:25:29 -0000
+Message-Id: <175501952925.157610.3016856744969634214@gitolite.kernel.org>
 
---===============8931564117932887495==
+--===============7362307249722137376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next
-    old: d9016a249be5316ec2476f9947356711e70a16ec
+  - ref: refs/heads/hyperv-next-staging
+    old: 96959283a58d91ae20d025546f00e16f0a555208
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-d9016a249be5-8f5ae30d69d7.txt
+    log: revlist-96959283a58d-8f5ae30d69d7.txt
 
---===============8931564117932887495==
+--===============7362307249722137376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9016a249be5-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-96959283a58d-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============8931564117932887495==--
+--===============7362307249722137376==--
