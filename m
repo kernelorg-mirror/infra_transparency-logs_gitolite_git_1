@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 12 Aug 2025 01:11:24 -0000
-Message-Id: <175496108434.3483572.11413043298240234858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Tue, 12 Aug 2025 02:03:56 -0000
+Message-Id: <175496423602.3526834.6140788269829873554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
   - ref: refs/heads/master
-    old: 013b3431c58d81e9e01dac7e8a5d088e357326a3
-    new: 8a304f7fd9607850052fc6ac9c13c63c9d36205a
+    old: c8bf8493e5e19cdcb9aeff7e6c6f5a3145be12cf
+    new: d9fbee42d57231c5858f6f5720cd87df7bdfea9f
     log: |
-         8a304f7fd9607850052fc6ac9c13c63c9d36205a shared/bap: reset local ep state on stream detach
+         d9fbee42d57231c5858f6f5720cd87df7bdfea9f Switch all commands to have --version
          
