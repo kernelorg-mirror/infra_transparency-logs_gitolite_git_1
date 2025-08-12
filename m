@@ -1,64 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2960768640035425596=="
+Content-Type: multipart/mixed; boundary="===============3877490175190204755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 12 Aug 2025 11:02:46 -0000
-Message-Id: <175499656636.3979942.3437543413332087153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Aug 2025 11:02:50 -0000
+Message-Id: <175499657098.3980169.1402215268764734192@gitolite.kernel.org>
 
---===============2960768640035425596==
+--===============3877490175190204755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 614d416dd8aee2675fb591c598308a901a660db8
     new: b11f2a9745401d9ccc51c91b5482044d2ea936e8
     log: revlist-614d416dd8ae-b11f2a974540.txt
-  - ref: refs/heads/for-6.18
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+  - ref: refs/heads/asoc-6.18
+    old: 0000000000000000000000000000000000000000
     new: 3059067fd3378a5454e7928c08d20bf3ef186760
-    log: |
-         605d902bb6b6f5b12a5baeaca0dc359ced7685cb ASoC: dt-bindings: Drop imx-audio-sgtl5000.txt
-         32dffd4c3e3129e3d9bb378af8d80bb57dc3038b ASoC: dmaengine_pcm: Add port_window_size to DAI dma data struct
-         e83dcd139e776ebb86d5e88e13282580407278e4 ASoC: tas2781: Add keyword "init" in profile section
-         8ed2dca4df2297177e0edcb7e0c72ef87f3fd81a ASoC: mediatek: Use SND_JACK_AVOUT for HDMI/DP jacks
-         9d6a51651faa577e5d2be9d67915b7621c5c589a ASoC: SOF: imx: Remove error print for devm_add_action_or_reset()
-         2399f3bd31595adfbc9bf38d6699b0a2ff36aee0 ASoC: rt721: add some vendor registers
-         3059067fd3378a5454e7928c08d20bf3ef186760 ASoC: cs48l32: Use PTR_ERR_OR_ZERO() to simplify code
-         
 
---===============2960768640035425596==
+--===============3877490175190204755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1754996609 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1754996563-ece8f7344041e8bc2555e712284d47a1f6cfb955
+pusher C3F436CA30F5D8EB 1754996614 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1754996567-dc24ec723ee7871e9033189bfbe158ded2ee8064
 
-614d416dd8aee2675fb591c598308a901a660db8 b11f2a9745401d9ccc51c91b5482044d2ea936e8 refs/heads/for-6.17
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 3059067fd3378a5454e7928c08d20bf3ef186760 refs/heads/for-6.18
+614d416dd8aee2675fb591c598308a901a660db8 b11f2a9745401d9ccc51c91b5482044d2ea936e8 refs/heads/asoc-6.17
+0000000000000000000000000000000000000000 3059067fd3378a5454e7928c08d20bf3ef186760 refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibH4EACgkQJNaLcl1U
-h9AwVgf/VyU2miJPyVrPY1Fy02Mz1Cx0JHG2xNI/Z6ywK/qWLbnLlVfuCmbZZk0S
-0RJFz/TRiRnAFXT9gQXQm/JPZbVzOolmzQRrNb+D6aL0AFsR0G3rPlmCewR1G/WI
-uckIL8mU/I3/nW69My+Ei2KAjEOZ1wNECkBeiNxcG4zeEXM3RYqA6Z8rBstc+2KQ
-uvdv7y3m5AZ5m3o7d7NnvzPuYb2B0fw1EnH1CveTRy0TU3uzdqTP6UYvcb6095wl
-2r0ewZ2vAIbM/SJJTEfJD8R9Tr1kOTvjb0BR+DZnkWZo1kS8Ohpd9UtvRilEpKkA
-DphWkE1pMGtzr8Bff01ia3hPsKGKSQ==
-=j6z+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibH4YACgkQJNaLcl1U
+h9DnXgf/TSW8pFvU0HCQSfmYQiREXx0FWG0OP8YqdYPLrLCBAKNIXSr8x2n0DrI7
+7rMP1kynJvHSBw3unK+Xanqcueh1YAMMJk/yqY4YTGwbN4oIhM2UT+eEaCSq1eA6
+5Fe2Cta5yjaN+MBLjPT+FE7izitiVW6ygd9OJ8kK8Q27g2g5rRabb5ozHbyv4K1l
+fPu6dBOIKoRTR0tDw1aNQcbY6YZpiyvO/AF1UYTSocw5bsgnLbUODe40LIDucb7R
+w6qZiwjWWjicv5rPOgmHCAe0f0/ZqZR5xcnmX0C082SnzXgNUt/5mwU/TYFmshc7
+wSDm7HwMk/Kbp3LZBGCTPQ58gNtw7Q==
+=ctMP
 -----END PGP SIGNATURE-----
 
---===============2960768640035425596==
+--===============3877490175190204755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1089,4 +1080,4 @@ f13ab498726bb6c636d6c5cd8c7df911444316dc ASoC: generic: tidyup standardized ASoC
 f48d7a1b0bf11d16d8c9f77a5b9c80a82272f625 ASoC: rt1320: fix random cycle mute issue
 b11f2a9745401d9ccc51c91b5482044d2ea936e8 ASoC: tas2781: Fix spelling mistake "dismatch" -> "mismatch"
 
---===============2960768640035425596==--
+--===============3877490175190204755==--
