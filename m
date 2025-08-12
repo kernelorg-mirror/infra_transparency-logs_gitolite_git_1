@@ -1,63 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============3877490175190204755=="
+Content-Type: multipart/mixed; boundary="===============4767016810132370476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 12 Aug 2025 11:02:50 -0000
-Message-Id: <175499657098.3980169.1402215268764734192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 12 Aug 2025 11:02:59 -0000
+Message-Id: <175499657903.3980490.1369498146656988019@gitolite.kernel.org>
 
---===============3877490175190204755==
+--===============4767016810132370476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.17
-    old: 614d416dd8aee2675fb591c598308a901a660db8
-    new: b11f2a9745401d9ccc51c91b5482044d2ea936e8
-    log: revlist-614d416dd8ae-b11f2a974540.txt
-  - ref: refs/heads/asoc-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 3059067fd3378a5454e7928c08d20bf3ef186760
+  - ref: refs/heads/for-6.17
+    old: 10dfd36f078423c51602a9a21ed85e8e6c947a00
+    new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    log: revlist-10dfd36f0784-8f5ae30d69d7.txt
+  - ref: refs/heads/for-6.18
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: a54ef14188519a0994d0264f701f5771815fa11e
+    log: |
+         c6871d56b52ec177b8b8bd891fa0cbbd004b646d regulator: tps6594-regulator: Remove unneeded semicolon
+         f6cc4140e161831e5796f099f5abc3af953ae2b8 regulator: tps6524x: Remove unnecessary memset
+         bb2441402392ef1f49563be68e8f0dcb127ac965 regulator: add s2dos05 regulator support
+         a54ef14188519a0994d0264f701f5771815fa11e regulator: dt-bindings: Clean-up active-semi,act8945a duplication
+         
 
---===============3877490175190204755==
+--===============4767016810132370476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1754996614 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1754996567-dc24ec723ee7871e9033189bfbe158ded2ee8064
+pusher C3F436CA30F5D8EB 1754996622 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1754996576-d8b597bdeed049b996ff0357f567983accd40a11
 
-614d416dd8aee2675fb591c598308a901a660db8 b11f2a9745401d9ccc51c91b5482044d2ea936e8 refs/heads/asoc-6.17
-0000000000000000000000000000000000000000 3059067fd3378a5454e7928c08d20bf3ef186760 refs/heads/asoc-6.18
+10dfd36f078423c51602a9a21ed85e8e6c947a00 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/for-6.17
+8f5ae30d69d7543eee0d70083daf4de8fe15d585 a54ef14188519a0994d0264f701f5771815fa11e refs/heads/for-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibH4YACgkQJNaLcl1U
-h9DnXgf/TSW8pFvU0HCQSfmYQiREXx0FWG0OP8YqdYPLrLCBAKNIXSr8x2n0DrI7
-7rMP1kynJvHSBw3unK+Xanqcueh1YAMMJk/yqY4YTGwbN4oIhM2UT+eEaCSq1eA6
-5Fe2Cta5yjaN+MBLjPT+FE7izitiVW6ygd9OJ8kK8Q27g2g5rRabb5ozHbyv4K1l
-fPu6dBOIKoRTR0tDw1aNQcbY6YZpiyvO/AF1UYTSocw5bsgnLbUODe40LIDucb7R
-w6qZiwjWWjicv5rPOgmHCAe0f0/ZqZR5xcnmX0C082SnzXgNUt/5mwU/TYFmshc7
-wSDm7HwMk/Kbp3LZBGCTPQ58gNtw7Q==
-=ctMP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibH44ACgkQJNaLcl1U
+h9AaeQf/blvPTQEuIbz+rlpPA46xtbDwWTHunrQXjRfChI6SVvBdb2tauF2gOz5L
+CecWJ0BsSgr5KVQopJ0BEKCa3ELiyJawy5bKw7gmTNA4Ss1KSlkFKb2DY0JVdRN4
+xyovv3/WbklOSvmT9N8BH8zwsSxxzpqbbw/iIaV7Ueq/IukYLAbFnwJXiz3XV/Tv
+7HrudCEPC3hTCuLYBO3mo8uQ5iywLXr3wDdJ7NthKY8eZMizuKQSJkTYP11vkW1N
+EhBn9M7PZcSUQwjGplTCoyTDhpior2SvmiGN9mmhrsumeWwlgr7jnotDJC2IKQWv
+ijGjJKsprmgjdgstaFUa3JPUg+N+zw==
+=94O8
 -----END PGP SIGNATURE-----
 
---===============3877490175190204755==
+--===============4767016810132370476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-614d416dd8ae-b11f2a974540.txt
+Content-Disposition: attachment; filename=revlist-10dfd36f0784-8f5ae30d69d7.txt
 
-62b7b1ffa2dd242253480ffcd12c96c4b7ef8fb6 selftests/damon/sysfs.py: test non-default parameters runtime commit
-da5973a0b8e0370f9e309c60e35a4d4d4dfe32fc selftests/damon/sysfs.py: test runtime reduction of DAMON parameters
-511914506d194be931de012a5f2ab55841b9b708 selftests/damon: introduce _common.sh to host shared function
 48e6561b667e7f0623da3ca34e2b93b7ae2a5d8d mm/page_alloc: remove trace_mm_alloc_contig_migrate_range_info()
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -219,6 +222,7 @@ a9f8d8adcb0905cff282804a0ef8bdc231da0ad2 Merge branch 'bpf-improve-64bits-bounds
 815d3c16280ce289c558255acc4296b36383d1a4 Merge tag 'pull-ceph-d_name-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 953e117bf4aad7e1d01419d4bcc03ab93420387c Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 794cbac9c053155754d04231b9365f91ea4ce7d2 Merge tag 'pull-mount' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+eb3bb145280b6c857a748731a229698e4a7cf37b ASoC: SOF: amd: acp-loader: Use GFP_KERNEL for DMA allocations in resume context
 7879d7aff0ffd969fcb1a59e3f87ebb353e47b7f Merge tag 'vfs-6.17-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 117eab5c6e31815649d952f6da03f67aa247d29b Merge tag 'vfs-6.17-rc1.coredump' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 934600daa7bcce8ad6d5efe05cce4811c8d2f464 Merge tag 'vfs-6.17-rc1.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -324,7 +328,6 @@ a10accaef40f1947cf8ad5ec01d306c37aa85897 Merge tag 'x86_core_for_kvm' of git://g
 beafd7ecf2255e8b62a42dc04f54843033db3d24 Merge tag 'kvm-x86-sev-6.17' of https://github.com/kvm-x86/linux into HEAD
 a5e71638ddd7f1dc0b9f3a5ac8ab8bef48b9f0ee ktest.pl: Add new PATCHCHECK_SKIP option to skip testing individual commits
 856db37592021e9155384094e331e2d4589f28b1 jfs: fix metapage reference count leak in dbAllocCtl
-10dfd36f078423c51602a9a21ed85e8e6c947a00 regulator: core: correct convergence check in regulator_set_voltage()
 926406a85ad895fbe6ee4577cdbc4f55245a0742 MAINTAINERS: Add entries for the RZ/V2H(P) RSPI
 1d4c5dbba1a53aeaf2c6cc84e7ba94c436d18852 f2fs: add gc_boost_gc_multiple sysfs node
 c8705cefce44fbe85ca3b180dee0e0b5f3d51dc5 f2fs: add gc_boost_gc_greedy sysfs node
@@ -430,12 +433,14 @@ da55809ebb45d1d80b7a388ffef841ed683e1a6f mtd: spinand: Add a ->configure_chip() 
 f1a91175faaab02a45d1ceb313a315a5bfeb5416 mtd: spinand: winbond: Enable high-speed modes on w25n0xjw
 535f30d997baa5e5c6a3a4024d49e1871232c72b mtd: spinand: winbond: Enable high-speed modes on w35n0xjw
 fb2fae70e7e985c4acb1ad96110d8b98bb64a87c mtd: spinand: winbond: Add comment about the maximum frequency
+8d452accd1380e1cb0b15a9876bcd19b14c5fabb ASoC: wm8962: Clear master mode when enter runtime suspend
 8936125e232803e64cb29e107326a942981188d6 apparmor: Remove the unused variable rules
 f3c0675bb9e0a3a472dd519ec7ccde23bdcf180b apparmor: fix test error: WARNING in apparmor_unix_stream_connect
 43584e993293326cfc508e664fe81f56a65f6240 apparmor: fix Regression on linux-next (next-20250721)
 49811586be373e26a3ab52f54e0dfa663c02fddd block: move elevator queue allocation logic into blk_mq_init_sched
 f5a6604f7a4405450e4a1f54e5430f47290c500f block: fix lockdep warning caused by lock dependency in elv_iosched_store
 04225d13aef11b2a539014def5e47d8c21fd74a5 block: fix potential deadlock while running nr_hw_queue update
+11f74f48c14c1f4fe16541900ea5944c42e30ccf ASoC: Intel: avs: Fix uninitialized pointer error in probe()
 1d8dd982c409d89b4ffabdbe10b569b3deb80a64 ALSA: hda/realtek: Enable drivers as default
 fc2792a4000e9587080fa7f5b8a868cf393aa62e ALSA: hda/cirrus: Enable drivers as default
 81231ad173d840693f8d5f34ad9ada75aa8ad79f ALSA: hda/hdmi: Enable drivers as default
@@ -685,6 +690,12 @@ fac6b82e0f3eaca33c8c67ec401681b21143ae17 vsock/virtio: Move SKB allocation lower
 ab9aa2f3afc2713c14f6c4c6b90c9a0933b837f1 vhost/vsock: Allocate nonlinear SKBs for handling large receive buffers
 8ca76151d2c8219edea82f1925a2a25907ff6a9d vsock/virtio: Rename virtio_vsock_skb_rx_put()
 6693731487a8145a9b039bc983d77edc47693855 vsock/virtio: Allocate nonlinear SKBs for handling large transmit buffers
+918b744af3d4d11a087814ebb6c390016e5242f2 ASoC: SOF: amd: Add sof audio support for acp7.2 platform
+60e5b2441d7c035e732e4a1166779c6cc316c46b ASoC: amd: ps: Add SoundWire pci and dma driver support for acp7.2 platform
+0df24f34794d2eea4bdc819fba0ba28f226286e6 ASoC: amd: acp: Add SoundWire legacy machine driver support for acp7.2 platform
+1c4c768d068616fa8948826ab714a4ac1f3b9aa9 ASoC: amd: acp: Add SoundWire SOF machine driver support for acp7.2 platform
+9843cf7b6fd6f938c16fde51e86dd0e3ddbefb12 ASoC: tas2781: Fix the wrong step for TLV on tas2781
+1b03391d073dad748636a1ad9668b837cce58265 ASoC: Intel: sof_sdw: Add quirk for Alienware Area 51 (2025) 0CCC SKU
 ffcfd071eec7973e58c4ffff7da4cb0e9ca7b667 spi: cs42l43: Property entry should be a null-terminated array
 49f848788a4d157bb6648a57963cb060fed3d56e x86/cpu: Add new Intel CPU model numbers for Wildcatlake and Novalake
 ead3d7b2b6afa5ee7958620c4329982a7d9c2b78 bpf: Check flow_dissector ctx accesses are aligned
@@ -697,6 +708,7 @@ d6f38c12396397e48092ad9e8a4d7be4de51b942 Merge tag 'trace-v6.17' of git://git.ke
 7a64bdfaf3e641862e8088a19205692b8b229753 Merge tag 'sound-6.17-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 8582976acc8504cec53a7b6fed493435eba8437f Merge tag 'phy-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 196dacf4541afcbccbef9c3697231af354bbab13 Merge tag 'dmaengine-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+5bbb3913b7d691d3293fa7cde0a897d44d1e4522 Add audio support for acp7.2 platform
 877d94c74e4c6665d2af55c0154363b43b947e60 Merge tag 'linux-watchdog-6.17-rc1' of git://www.linux-watchdog.org/linux-watchdog
 c89504a703fb779052213add0e8ed642f4a4f1c8 tracing: Remove unneeded goto out logic
 788fa4b47cdcd9b3d8c2d02ac0b3cd2540305f18 tracing: Add guard(ring_buffer_nest)
@@ -945,6 +957,7 @@ cac5f2af13459f6258c4857d2e61ea53d0dfd751 ALSA: hda/tas2781: Support L"SmartAmpCa
 5b65258229117995eb6c4bd74995e15fb5f2cfe3 genirq/test: Resolve irq lock inversion warnings
 3b6a18f0da8720d612d8a682ea5c55870da068e0 irqchip: Build IMX_MU_MSI only on ARM
 0a32e4f0025a74c70dcab4478e9b29c22f5ecf2f btrfs: fix log tree replay failure due to file with 0 links and extents
+614d416dd8aee2675fb591c598308a901a660db8 ASoC: SOF: Intel: hda-sdw-bpt: fix SND_SOF_SOF_HDA_SDW_BPT dependencies
 9f320dfb0ffc555aa2eac8331dee0c2c16f67633 ALSA: hda/ca0132: Fix missing error handling in ca0132_alt_select_out()
 d7edcc7c9109f165efcf5d767fed21578c37c46c Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 cca7a0aae8958c9b1cd14116cb8b2f22ace2205e Merge tag 'for-6.17-fix-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -1072,12 +1085,5 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-0e270f32975fd21874185ba53653630dd40bf560 ASoC: fsl_sai: replace regmap_write with regmap_update_bits
-43e0da37d5cfb23eec6aeee9422f84d86621ce2b ASoC: codecs: tx-macro: correct tx_macro_component_drv name
-7cdadac0d2b3614d04651be7104a89a1998efec0 ASoC: codec: sma1307: replace spelling mistake with new error message
-f13ab498726bb6c636d6c5cd8c7df911444316dc ASoC: generic: tidyup standardized ASoC menu for generic
-633e391d45bda3fc848d26bee6bbe57ef2935713 ASoC: rt721: fix FU33 Boost Volume control not working
-f48d7a1b0bf11d16d8c9f77a5b9c80a82272f625 ASoC: rt1320: fix random cycle mute issue
-b11f2a9745401d9ccc51c91b5482044d2ea936e8 ASoC: tas2781: Fix spelling mistake "dismatch" -> "mismatch"
 
---===============3877490175190204755==--
+--===============4767016810132370476==--
