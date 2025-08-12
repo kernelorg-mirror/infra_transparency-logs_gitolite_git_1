@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3585707237939993463=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 12 Aug 2025 14:03:36 -0000
-Message-Id: <175500741686.4151743.2526435809055413075@gitolite.kernel.org>
-
---===============3585707237939993463==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 12 Aug 2025 14:03:46 -0000
+Message-Id: <175500742672.4152089.15904520701237018398@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.17
+  - ref: refs/heads/for-linus
     old: b11f2a9745401d9ccc51c91b5482044d2ea936e8
     new: dcb82900b12f5809e66835918d4043284ce1d39c
     log: |
          dcb82900b12f5809e66835918d4043284ce1d39c ASoC: codecs: Call strscpy() with correct size argument
          
-
---===============3585707237939993463==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1755007461 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1755007414-3ea1214465005cbde327a9fd5bc0bd36e736e2fb
-
-b11f2a9745401d9ccc51c91b5482044d2ea936e8 dcb82900b12f5809e66835918d4043284ce1d39c refs/heads/asoc-6.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibSeUACgkQJNaLcl1U
-h9DksQf9GNwazaRYLU1/Z9h++0pUWmGk2iY6hdu9YjmrjpwFj/B1K6E8LmGnGXVO
-4ASS0JTJfUWCuST3Tikj3CBFy2dpSpYgKzvsiDgaJUVoMZI4g9/XVpC517BSYAOg
-C8DSLDMQssvYFwTw/tuBqeQTV7hm78JySHSk8NKQGhR+B0QCod1fXb2urR+Avjnm
-5uwl20KiXTX2iomp3e5vZhUs6XeBiLaqPgMTLZQ84kVZIv4NZRCcgyAdDBKYtqO+
-OS733Prxhhg3UqkIo8+m6As2/tflsMb75Sg95uiCCW1Hc+RijSPG7TpjieNg80wF
-oDvtJAC08wiUEosushUGrG1hQkDstg==
-=7pZK
------END PGP SIGNATURE-----
-
---===============3585707237939993463==--
+  - ref: refs/heads/for-next
+    old: aca26895addb86cf5eb14d8f3b7c0440a764b619
+    new: 59ca21ad3d5fb6062329b31b4dd2096bc160a288
+    log: |
+         dcb82900b12f5809e66835918d4043284ce1d39c ASoC: codecs: Call strscpy() with correct size argument
+         59ca21ad3d5fb6062329b31b4dd2096bc160a288 Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
+         
