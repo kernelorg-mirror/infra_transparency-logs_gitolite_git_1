@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 Aug 2025 12:44:58 -0000
-Message-Id: <175500269844.4075144.5597537617628424555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 12 Aug 2025 12:46:52 -0000
+Message-Id: <175500281220.4077660.6286622867214112766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/main
-    old: e93f7af148222303c4632318536c0f649b4ee5b1
-    new: 74078816f8b937afbcc7c2991977527b2c77463d
+  - ref: refs/heads/for-next
+    old: 0239373b578ee137a30bc4d41b7c7a8a9a02f97a
+    new: d1d317c096f72d7e1c2fa739910d72db44f0053e
     log: |
-         bda053d6445717f8a4cd76f88caea2e39299fe07 selftests: drv-net: don't assume device has only 2 queues
-         ccba9f6baa900e31ad1a4c36e6f3c176694f9eac net: update NAPI threaded config even for disabled NAPIs
-         b3fc08ab9a565efb42fe08be046a0d203b82cdb8 net: prevent deadlocks when enabling NAPIs with mixed kthread config
-         74078816f8b937afbcc7c2991977527b2c77463d Merge branch 'net-prevent-deadlocks-and-mis-configuration-with-per-napi-threaded-config'
+         f5013c67d914a4bd7ad403ac792056ae16d37e03 HID: input: map HID_GD_Z to ABS_DISTANCE for stylus/pen
+         eb5a60cc53d31f3f94537308147769363ad9fcb5 selftests/hid-tablet: add ABS_DISTANCE test to stylus/pen
+         a84eeacbf9325fd7f604b80f246aaba157730cd5 HID: steelseries: refactor probe() and remove()
+         d1d317c096f72d7e1c2fa739910d72db44f0053e Merge branches 'for-6.18/steelseries' and 'for-6.18/core' into for-next
          
+  - ref: refs/heads/for-6.18/core
+    old: 0000000000000000000000000000000000000000
+    new: eb5a60cc53d31f3f94537308147769363ad9fcb5
+  - ref: refs/heads/for-6.18/steelseries
+    old: 0000000000000000000000000000000000000000
+    new: a84eeacbf9325fd7f604b80f246aaba157730cd5
