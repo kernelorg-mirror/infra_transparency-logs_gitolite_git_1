@@ -1,32 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 12 Aug 2025 12:57:43 -0000
-Message-Id: <175500346379.4088661.5350399340898819183@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5086281871191353460=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 12 Aug 2025 13:00:28 -0000
+Message-Id: <175500362818.4092282.10748610156768511887@gitolite.kernel.org>
+
+--===============5086281871191353460==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 4b0ad968717eb1862b74c1f549e4225bf95c286f
+  - ref: refs/heads/master
+    old: b2850d6fcaf2177062376742e07458c740e135c9
+    new: bf0dba34dae0a776208bb515f8f0129f6e0bff93
     log: |
-         4b0ad968717eb1862b74c1f549e4225bf95c286f regulator: dt-bindings: infineon,ir38060: Add Guenter as maintainer from IBM
+         a1877034e50eb9bcc12de8990a89e49c9aca7613 Remove expired key of Kieran Bingham
+         2c9bc69118000cbf0debc42834f5e30930f25ae9 Remove expired key of Eric Dumazet
+         d6dd630660b3106b10aaaddf52f386f42f027f5c Remove expired key of Pravin B Shelar
+         bf0dba34dae0a776208bb515f8f0129f6e0bff93 Merge patch series "Remove expired keys, 2024 edition"
          
-  - ref: refs/heads/for-next
-    old: a54ef14188519a0994d0264f701f5771815fa11e
-    new: 4514042dea8acd8fea128259043e6d75d7ccf331
-    log: |
-         f7fbf3091f4cc4133574852f655593e1613d1af0 rust: regulator: remove needless &mut from member functions
-         9a200cbdb54349909a42b45379e792e4b39dd223 rust: regulator: implement Send and Sync for Regulator<T>
-         82f0907931f016c04bcb992f764bd65992c7008e dt-bindings: regulator: add PF0900 regulator yaml
-         162e23657e5379f07c6404dbfbf4367cb438ea7d regulator: pf0900: Add PMIC PF0900 support
-         4b0ad968717eb1862b74c1f549e4225bf95c286f regulator: dt-bindings: infineon,ir38060: Add Guenter as maintainer from IBM
-         eccd3d9753d48cc3e873eeda5b0e271454aa08ac regulator: add new PMIC PF0900 support
-         eb9bb4c5b521853d29b79197f412c5c533a6483c rust: regulator: relax a few constraints on
-         4514042dea8acd8fea128259043e6d75d7ccf331 Merge remote-tracking branch 'regulator/for-6.18' into regulator-next
-         
+
+--===============5086281871191353460==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1755003673 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1755003627-1f677fe06b9ef98590c311504e2660ebb07a84b1
+
+b2850d6fcaf2177062376742e07458c740e135c9 bf0dba34dae0a776208bb515f8f0129f6e0bff93 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaJs7GQAKCRC2xBzjVmSZ
+bHywAQC4YerDCKZU2+8tpCcvV0B60+ez1nf6Vw6is6zQ21lYeQD/ZGeKzRzXqu8g
+KS/PyzApBsv/iSDFd7JV+SoLytF/vAQ=
+=C4G5
+-----END PGP SIGNATURE-----
+
+--===============5086281871191353460==--
