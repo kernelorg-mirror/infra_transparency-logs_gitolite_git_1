@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4439453905690601757=="
+Content-Type: multipart/mixed; boundary="===============3867949838866121050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 12 Aug 2025 16:22:34 -0000
-Message-Id: <175501575416.87934.5571386116545293732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 12 Aug 2025 16:22:42 -0000
+Message-Id: <175501576280.88313.3739746456519305701@gitolite.kernel.org>
 
---===============4439453905690601757==
+--===============3867949838866121050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 8c02c8353460f8630313aef6810f34e134a3c1ee
-    new: d06f389c8519cc4438e38627ae3d63aa573fa49a
-    log: revlist-8c02c8353460-d06f389c8519.txt
+  - ref: refs/heads/for-next
+    old: 88cf7b33c099af088e643e9fdc94a239485b77e9
+    new: 8c57d02c54dc796a963825ed32c05d6c41ef2d76
+    log: revlist-88cf7b33c099-8c57d02c54dc.txt
 
---===============4439453905690601757==
+--===============3867949838866121050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1755015798 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1755015751-cede652d347c9995773d821a486f0fb83a892457
-
-8c02c8353460f8630313aef6810f34e134a3c1ee d06f389c8519cc4438e38627ae3d63aa573fa49a refs/heads/asoc-6.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibanYACgkQJNaLcl1U
-h9DaUgf/RcOlqoZ2QIOTXxz0Y0tz2mphAPfjrdvhPky7kJRR8afpnZJMyExS4Lg0
-fljdL1PTW/v+wQWpF1nriG4B2PpQ+w6XSDyakm0tMa3xOV6E2KHFCZK9MTVqllfC
-K1hyTYIo+dDIBq7KrDUsrruZ5XzUuFdt/hdw7XSSaC8DU461e9aw+PLZGkzoM3ga
-gb+/osM6o1uDcUIKSA4Uzb/QU4HeCH9GirdgvGruQNOsXmzIaagare+FA3AF+GHh
-rJo73IkcEgo5PzAw4cCcg+VfjnLYrBSZjGud0YvHL5ZXODjxVbDKgxYvMXQzAUSj
-81SyGoZ1HGWvUdYiy8y+huAlSw6YUw==
-=KTL1
------END PGP SIGNATURE-----
-
---===============4439453905690601757==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c02c8353460-d06f389c8519.txt
+Content-Disposition: attachment; filename=revlist-88cf7b33c099-8c57d02c54dc.txt
 
 8bcfcb3bd3e38b8f3bb7e5eb3acb4120500994a0 ASoC: Intel: avs: Parse conditional path tuples
 595b7f155b926460a00776cc581e4dcd01220006 ASoC: Intel: avs: Conditional-path support
@@ -69,5 +44,6 @@ e0bbbcaceba1cf47751f264d0dbe36206eab0ef0 ASoC: codecs: Add library for FourSemi 
 e896f262b3bd721b35263e4ee8f876f35a569369 ASoC: Intel: avs: Conditional path support
 54401b5d9fb7da010b91ee47d3d8eb70b685d182 ASoC: codecs: Add support for FourSemi FS2104/5S
 d06f389c8519cc4438e38627ae3d63aa573fa49a gpiolib: fence off legacy interfaces
+8c57d02c54dc796a963825ed32c05d6c41ef2d76 Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
 
---===============4439453905690601757==--
+--===============3867949838866121050==--
