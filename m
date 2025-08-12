@@ -1,49 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5499619826513898697=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 12 Aug 2025 03:03:58 -0000
-Message-Id: <175496783811.3575633.17772577379110464478@gitolite.kernel.org>
-
---===============5499619826513898697==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 12 Aug 2025 03:14:41 -0000
+Message-Id: <175496848130.3584546.11148090327709467422@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/arm64-for-6.18
-    old: 5433560caa5e7e677a8d4310bbec08312be765b4
-    new: f0370265b1d7fc169956927aa62c3abc375743b5
-    log: revlist-5433560caa5e-f0370265b1d7.txt
-  - ref: refs/heads/drivers-for-6.18
-    old: a6c4d92fcc74b4402d1ecdf6f4a7304a37a69ada
-    new: 19e7aa0e9e46d0ad111a4af55b3d681b6ad945e0
+  - ref: refs/heads/main
+    old: 33caa208dba6fa639e8a92fd0c8320b652e5550c
+    new: 89886abd073489e26614e4d80fb8eb70d3938a0b
     log: |
-         19e7aa0e9e46d0ad111a4af55b3d681b6ad945e0 soc: qcom: smem: Fix endian-unaware access of num_entries
+         7573980c7049450a0af22acd4f8e96f37ea30c48 MAINTAINERS: Mark Intel WWAN IOSM driver as orphaned
+         b56e9fb1c9669ce460dc899cecb09a54a6d71cf4 MAINTAINERS: Mark Intel PTP DFL ToD as orphaned
+         b132a3b0c228125dfda03ba7c7903ef133e1ee21 MAINTAINERS: Remove bouncing T7XX reviewer
+         61aaca8b89fb98be58b8df19f01181bb983cccff net: usb: qmi_wwan: add Telit Cinterion FN990A w/audio composition
+         52966bf71de98fef4ca7b3be1349adc7459d6d53 ref_tracker: use %p instead of %px in debugfs dentry name
+         de1e963ad064caf73ee2c7485b925f381a3aefbf net: stmmac: rk: put the PHY clock on remove
+         89886abd073489e26614e4d80fb8eb70d3938a0b net: stmmac: dwc-qos: fix clk prepare/enable leak on probe failure
          
-
---===============5499619826513898697==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5433560caa5e-f0370265b1d7.txt
-
-60fdba1dccd81420bbe8da0d7483b4f28c7fa833 arm64: dts: qcom: x1-crd: Enable HBR3 on external DPs
-93109afda01593c2ddadb4ec1c42b3bdf695ee2a arm64: dts: qcom: x1e78100-lenovo-thinkpad-t14s: Enable HBR3 on external DPs
-8839b8e6e849e209b52bf0ae4d0770d89c036b0e arm64: dts: qcom: sdm670-google-sargo: enable charger
-285fee8c65efd7969f9376ed9798afece9a0ccc9 arm64: dts: qcom: sdm845*: Use definition for msm-id
-f72f3aac4a9a990701455a4759a49393cd5802d6 arm64: dts: qcom: sdm845-oneplus: Deduplicate shared entries
-dc231840dca64793da7a80ff156fa1d99584f3ea arm64: dts: qcom: qcm2290: Add TCSR download mode address
-c2e07613b8d40f0ac60dd9b28c0dd15f9a298c11 arm64: dts: qcom: sm8650: Add ACD levels for GPU
-d15cb624a60ab0119ec1b92d0a94f1cc305019e5 arm64: dts: qcom: sm6150: Add ADSP and CDSP fastrpc nodes
-1d363a6cf8a2627f31bc3609a0fa9d85dfb0d9dc arm64: dts: qcom: qcm2290: Enable HS eMMC timing modes
-642af3f3d59003657483d60bb6b7229a43ff56e7 arm64: dts: qcom: sc7280-chrome-common: Remove duplicate node
-d72cb0551d113a0a42e12dcdfdad78ade2c63f50 arm64: dts: qcom: sc7280: Flatten usb controller nodes
-d41fb878adf64ef5dc4b4c25419e875483f62fe2 arm64: dts: qcom: sa8775p: remove aux clock from pcie phy
-f0370265b1d7fc169956927aa62c3abc375743b5 arm64: dts: qcom: sa8775p: add link_down reset for pcie
-
---===============5499619826513898697==--
