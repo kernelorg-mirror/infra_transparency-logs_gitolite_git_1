@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3287654393755995784=="
+Content-Type: multipart/mixed; boundary="===============5267350258258393677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 12 Aug 2025 11:37:12 -0000
-Message-Id: <175499863220.4016854.12734316970622332554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Aug 2025 11:37:16 -0000
+Message-Id: <175499863607.4017062.11312299815851668447@gitolite.kernel.org>
 
---===============3287654393755995784==
+--===============5267350258258393677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/regmap-6.17
     old: 76b6e14aa7b081337d118a82397d919b5e072bb4
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-76b6e14aa7b0-8f5ae30d69d7.txt
-  - ref: refs/heads/for-6.18
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+  - ref: refs/heads/regmap-6.18
+    old: 0000000000000000000000000000000000000000
     new: 886f42ce96e7ce80545704e7168a9c6b60cd6c03
-    log: |
-         886f42ce96e7ce80545704e7168a9c6b60cd6c03 regmap: mmio: Add missing MODULE_DESCRIPTION()
-         
 
---===============3287654393755995784==
+--===============5267350258258393677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1754998675 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1754998629-a31cecc9a218d58a176aea887ac41b047dc509a6
+pusher C3F436CA30F5D8EB 1754998679 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1754998633-ff1ccb9b4f83142aa377ae75c274378d851bb654
 
-76b6e14aa7b081337d118a82397d919b5e072bb4 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/for-6.17
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 886f42ce96e7ce80545704e7168a9c6b60cd6c03 refs/heads/for-6.18
+76b6e14aa7b081337d118a82397d919b5e072bb4 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/regmap-6.17
+0000000000000000000000000000000000000000 886f42ce96e7ce80545704e7168a9c6b60cd6c03 refs/heads/regmap-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibJ5MACgkQJNaLcl1U
-h9C3KAf+JNRlpsn87LNClWhNJg2SiPKMszFm6ZwJEMmZeBFteAS5Zc+FhhqjLs2a
-LSyCt4OMby8SIlmI099iXZDei1ZoGZk0lRNEOwfybzHic+bvslb0l5Pi1YaUsxHk
-7MN0+hbJ1Um2dbW3v1dZpNvpp+Cgk5S0c3fT+8wmoMqMIGy9k9iQOWPL0kxfTFpE
-boEND80DdIfM+Se4iPgAMbmrEmDUIoir9VznH/nt+JFnD0RL9T+ZJvbSiQemIDCF
-ooq1arDkpDwm4NzqLHYURqX3hC1+7l+DOTa0PSYk9lXkG+pjcKEnUIvRbbZg4cfQ
-TdcanXWtGLzrqLqJwOWTXmjbEGm1BQ==
-=BX4p
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmibJ5cACgkQJNaLcl1U
+h9B/Lwf/eJ2g2yMMc6aoc0vM5nY+DkHSTZlhw+EpbbPXMeol8Co6JnzmiM3Nbbp+
+pNIVM/MXEtQaHW5YkI1GoMkFO+iTw6q56m0axLlaw+cj7dooH2cPMkSnaHAADGuO
+iWlGyz7Dm4O2Nbg3Za3dfTvVCqwVsAama2e+s4iIqai0bYijbPeAhlYyAPNfZisS
+it2TmR4Y/9Ju9Kl1fXkORcpYc/5+6AozsCIQ+CUWwEM0wTZ5Go+3CkwLhWbt5EiX
+DoN89F1iKKSf3v7Dx0K0pkNwi0ACx0bZVhb/mJEKSGsJnj7kZo51uR66cVztR8rc
+DjAubgYJxFL1m0Jr1zMos+PvC3inTw==
+=pFQ6
 -----END PGP SIGNATURE-----
 
---===============3287654393755995784==
+--===============5267350258258393677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1080,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============3287654393755995784==--
+--===============5267350258258393677==--
