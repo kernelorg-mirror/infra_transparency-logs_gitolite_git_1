@@ -1,49 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5086281871191353460=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 12 Aug 2025 13:00:28 -0000
-Message-Id: <175500362818.4092282.10748610156768511887@gitolite.kernel.org>
-
---===============5086281871191353460==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 12 Aug 2025 13:00:41 -0000
+Message-Id: <175500364141.4092641.17181024282396497723@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: b2850d6fcaf2177062376742e07458c740e135c9
-    new: bf0dba34dae0a776208bb515f8f0129f6e0bff93
+  - ref: refs/heads/main
+    old: 74078816f8b937afbcc7c2991977527b2c77463d
+    new: c04fdca8a98af5fc4eeb6569917f159cfa56b923
     log: |
-         a1877034e50eb9bcc12de8990a89e49c9aca7613 Remove expired key of Kieran Bingham
-         2c9bc69118000cbf0debc42834f5e30930f25ae9 Remove expired key of Eric Dumazet
-         d6dd630660b3106b10aaaddf52f386f42f027f5c Remove expired key of Pravin B Shelar
-         bf0dba34dae0a776208bb515f8f0129f6e0bff93 Merge patch series "Remove expired keys, 2024 edition"
+         42e42562c9cfcdacf000f1b42284a4fad24f8546 xfrm: flush all states in xfrm_state_fini
+         234d1eff5d4987024be9d40ac07b918a5ae8db1a xfrm: restore GSO for SW crypto
+         65f079a6c446a939eefe71e6d5957d5d6365fcf9 xfrm: bring back device check in validate_xmit_xfrm
+         1118aaa3b35157777890fffab91d8c1da841b20b udp: also consider secpath when evaluating ipsec use for checksumming
+         d8369183a01a9f06f08c5d52e2667035e66b9957 Merge branch 'xfrm: some fixes for GSO with SW crypto'
+         c04fdca8a98af5fc4eeb6569917f159cfa56b923 Merge tag 'ipsec-2025-08-11' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
          
-
---===============5086281871191353460==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1755003673 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1755003627-1f677fe06b9ef98590c311504e2660ebb07a84b1
-
-b2850d6fcaf2177062376742e07458c740e135c9 bf0dba34dae0a776208bb515f8f0129f6e0bff93 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaJs7GQAKCRC2xBzjVmSZ
-bHywAQC4YerDCKZU2+8tpCcvV0B60+ez1nf6Vw6is6zQ21lYeQD/ZGeKzRzXqu8g
-KS/PyzApBsv/iSDFd7JV+SoLytF/vAQ=
-=C4G5
------END PGP SIGNATURE-----
-
---===============5086281871191353460==--
