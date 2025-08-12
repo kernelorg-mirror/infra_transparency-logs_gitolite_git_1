@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
-Date: Tue, 12 Aug 2025 08:29:35 -0000
-Message-Id: <175498737526.3841567.10136667472344453608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 12 Aug 2025 08:29:48 -0000
+Message-Id: <175498738807.3841843.6780587230080460164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hkrogeru/usb
-user: hkrogeru
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/v6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
+  - ref: refs/heads/dev
+    old: 6204bcb3527eb7de2a24dc22b9b552328b9b49ad
+    new: a5100c1c9e81af9f7b9b7dc55a1ebf56c40f4d80
+    log: |
+         a5100c1c9e81af9f7b9b7dc55a1ebf56c40f4d80 erofs-utils: mkfs: support full image generation from S3
+         
