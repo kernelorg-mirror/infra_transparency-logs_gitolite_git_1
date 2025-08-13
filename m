@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1444537529633155556=="
+Content-Type: multipart/mixed; boundary="===============1120392025265386694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 13 Aug 2025 20:46:51 -0000
-Message-Id: <175511801136.1619950.18335816818403153559@gitolite.kernel.org>
+Date: Wed, 13 Aug 2025 20:46:53 -0000
+Message-Id: <175511801300.1620079.11825157013366744621@gitolite.kernel.org>
 
---===============1444537529633155556==
+--===============1120392025265386694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
+  - ref: refs/heads/mm-stable
     old: 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73
     new: dfc0f6373094dd88e1eaf76c44f2ff01b65db851
     log: revlist-6bcdbd62bd56-dfc0f6373094.txt
 
---===============1444537529633155556==
+--===============1120392025265386694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -609,4 +609,4 @@ c0e1b774f68bdbea1618e356e30672c7f1e32509 proc: proc_maps_open allow proc_mem_ope
 3a4a0367c9f45b025ec57e1ba492512d5479d361 Merge tag 'rcu.fixes.6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 dfc0f6373094dd88e1eaf76c44f2ff01b65db851 Merge tag 'erofs-for-6.17-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============1444537529633155556==--
+--===============1120392025265386694==--
