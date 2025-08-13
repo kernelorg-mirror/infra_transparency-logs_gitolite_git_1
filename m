@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5292315515174440237=="
+Content-Type: multipart/mixed; boundary="===============1872167800397187445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 13 Aug 2025 06:18:14 -0000
-Message-Id: <175506589482.809458.2171744926221848647@gitolite.kernel.org>
+Date: Wed, 13 Aug 2025 06:34:46 -0000
+Message-Id: <175506688609.822805.16323153178147268073@gitolite.kernel.org>
 
---===============5292315515174440237==
+--===============1872167800397187445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 33caa208dba6fa639e8a92fd0c8320b652e5550c
-    new: d7e82594a45c5cb270940ac469846e8026c7db0f
-    log: revlist-33caa208dba6-d7e82594a45c.txt
+  - ref: refs/heads/testing
+    old: e44e0a880668fdc4ed11c8b06a75bb499ced6bb4
+    new: cf5fb87fcdaaaafec55dcc0dc5a9e15ead343973
+    log: revlist-e44e0a880668-cf5fb87fcdaa.txt
 
---===============5292315515174440237==
+--===============1872167800397187445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33caa208dba6-d7e82594a45c.txt
+Content-Disposition: attachment; filename=revlist-e44e0a880668-cf5fb87fcdaa.txt
 
 42e42562c9cfcdacf000f1b42284a4fad24f8546 xfrm: flush all states in xfrm_state_fini
 234d1eff5d4987024be9d40ac07b918a5ae8db1a xfrm: restore GSO for SW crypto
@@ -53,5 +53,8 @@ c04fdca8a98af5fc4eeb6569917f159cfa56b923 Merge tag 'ipsec-2025-08-11' of git://g
 2efe41234dbd0a83fdb7cd38226c2f70039a2cd3 ptp: prevent possible ABBA deadlock in ptp_clock_freerun()
 6db015fc4b5d5f63a64a193f65d98da3a7fc811d tls: handle data disappearing from under the TLS ULP
 d7e82594a45c5cb270940ac469846e8026c7db0f selftests: tls: test TCP stealing data from under the TLS socket
+30c1d25b9870d551be42535067d5481668b5e6f3 netfilter: nft_set_pipapo: fix null deref for empty set
+c0a23bbc98e93704a1f4fb5e7e7bb2d7c0fb6eb3 ipvs: Fix estimator kthreads preferred affinity
+cf5fb87fcdaaaafec55dcc0dc5a9e15ead343973 netfilter: nf_tables: reject duplicate device on updates
 
---===============5292315515174440237==--
+--===============1872167800397187445==--
