@@ -1,45 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2209847102972586774=="
+Content-Type: multipart/mixed; boundary="===============4738444890353393209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 13 Aug 2025 08:34:26 -0000
-Message-Id: <175507406626.978519.7355800049766334046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 13 Aug 2025 08:45:06 -0000
+Message-Id: <175507470640.988986.6664591630346129597@gitolite.kernel.org>
 
---===============2209847102972586774==
+--===============4738444890353393209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/perf/core
-    old: 04a45b71e3d4ff773cf4c89d9464edf5a94748e2
-    new: 1cf0d9788c94fea9188ca13f0541a5a68d1aed82
-    log: revlist-04a45b71e3d4-1cf0d9788c94.txt
+  - ref: refs/heads/master
+    old: 53e760d8949895390e256e723e7ee46618310361
+    new: 8742b2d8935f476449ef37e263bc4da3295c7b58
+    log: revlist-53e760d89498-8742b2d8935f.txt
 
---===============2209847102972586774==
+--===============4738444890353393209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04a45b71e3d4-1cf0d9788c94.txt
+Content-Disposition: attachment; filename=revlist-53e760d89498-8742b2d8935f.txt
 
-7743920c7bb4e87e47b250d7c3e956ce1058157c perf: Remove redundant condition for AUX buffer size
-1e699f2880418f9ffc6e485eb5a93f599b8c1b4d perf: Split out mlock limit handling
-61f60ab41899b28da1625bc1f25060a48f9fca4b perf: Split out VM accounting
-29b911893d1a14b6ecba06001e5491194ccf34dd perf: Move perf_mmap_calc_limits() into both rb and aux branches
-fbee6fe70665a3a7529089410724860fde39a123 perf: Merge consecutive conditionals in perf_mmap()
-8f7d5c59b20b1c726ebe54033414d77c344d44e7 perf: Move common code into both rb and aux branches
-426d5f6c8ab9b04f1583de0b5362f2c3b4df8555 perf: Remove redundant aux_unlock label
-77a6ad60bf35058a2e02e0dfc0fd6c7d16aa0018 perf: Use guard() for aux_mutex in perf_mmap()
-203eb3b3574a161981c9c8d8c5da42aa6cd3f9ae perf: Reflow to get rid of aux_success label
-92fcd690f108dfe72452af100f2142b82c2beac0 perf: Split out the AUX buffer allocation
-fba6b91be6b8d3c0d45d17b7c296b02aa2b3cc5b perf: Make RB allocation branch self sufficient
-55c65e19c02ff5f4ceec221f17ccf535dbb8059c perf: Split out the RB allocation
-00ccddff97dceecff26cc6af0e95a422fc1e1f74 perf: Use scoped_guard() for mmap_mutex in perf_mmap()
-53dcf3197ce36bfe841a1b99e83e3c442ae7640b perf: Identify the 0->1 transition for event::mmap_count
-1cf0d9788c94fea9188ca13f0541a5a68d1aed82 perf: Convert mmap() refcounts to refcount_t
+33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
+7b306dfa326f70114312b320d083b21fa9481e1e x86/sev: Evict cache lines during SNP memory validation
+ad580dfa388fabb52af033e3f8cc5d04be985e54 btrfs: fix subpage deadlock in try_release_subpage_extent_buffer()
+15fc0bec883c95007a4901fe75f247bd0ca21651 btrfs: make btrfs_cleanup_ordered_extents() support large folios
+deaf895212da74635a7f0a420e1ecf8f5eca1fe5 btrfs: fix wrong length parameter for btrfs_cleanup_ordered_extents()
+fc5799986fbca957e2e3c0480027f249951b7bcf btrfs: error on missing block group when unaccounting log tree extent buffers
+4289b494ac553e74e86fed1c66b2bf9530bc1082 btrfs: do not allow relocation of partially dropped subvolumes
+3a931e9b39c7ff8066657042f5f00d3b7e6ad315 btrfs: zoned: do not select metadata BG as finish target
+7b632596188e1973c6b3ac1c9f8252f735e1039f btrfs: fix iteration bug in __qgroup_excl_accounting()
+20e0d8576484c60c8c0c9d5d6665541c37dee327 Merge tag 'snp_cache_coherency' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0e39a731820ad26533eb988cef27ad2506063b5b Merge tag 'for-6.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+8742b2d8935f476449ef37e263bc4da3295c7b58 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 
---===============2209847102972586774==--
+--===============4738444890353393209==--
