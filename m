@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6160562586501930916=="
+Content-Type: multipart/mixed; boundary="===============6885766904149953889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 13 Aug 2025 04:31:04 -0000
-Message-Id: <175505946496.724240.17552696624097451520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 13 Aug 2025 04:31:14 -0000
+Message-Id: <175505947486.724603.7223522843221118106@gitolite.kernel.org>
 
---===============6160562586501930916==
+--===============6885766904149953889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 2674d1eadaa2fd3a918dfcdb6d0bb49efe8a8bb9
     new: 43c3c17f0c805882d1b48818b1085747a68c80ec
     log: revlist-2674d1eadaa2-43c3c17f0c80.txt
-  - ref: refs/heads/stable
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 8742b2d8935f476449ef37e263bc4da3295c7b58
-    log: revlist-8f5ae30d69d7-8742b2d8935f.txt
-  - ref: refs/tags/next-20250513
-    old: e0bf3d3816b7d36ca928659d8bb8a6d22bb952d1
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250813
     old: 0000000000000000000000000000000000000000
     new: b07a7e2e073bce5df5974fb07be06d869149948e
 
---===============6160562586501930916==
+--===============6885766904149953889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -758,27 +751,4 @@ fc2a636f9d491f3f8becad68747ffe40e17cc61f Merge branch 'main' of git://git.infrad
 d5ab6b7356b029440c6251f0411752debe5766db Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux.git
 43c3c17f0c805882d1b48818b1085747a68c80ec Add linux-next specific files for 20250813
 
---===============6160562586501930916==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-8742b2d8935f.txt
-
-33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
-f9a348e0de19226fc3c7e81de7677d3fa2c4b2d8 nfsd: don't set the ctime on delegated atime updates
-e5a73150776f18547ee685c9f6bfafe549714899 nfsd: avoid ref leak in nfsd_open_local_fh()
-bee47cb026e762841f3faece47b51f985e215edb sunrpc: fix handling of server side tls alerts
-7b306dfa326f70114312b320d083b21fa9481e1e x86/sev: Evict cache lines during SNP memory validation
-ad580dfa388fabb52af033e3f8cc5d04be985e54 btrfs: fix subpage deadlock in try_release_subpage_extent_buffer()
-15fc0bec883c95007a4901fe75f247bd0ca21651 btrfs: make btrfs_cleanup_ordered_extents() support large folios
-deaf895212da74635a7f0a420e1ecf8f5eca1fe5 btrfs: fix wrong length parameter for btrfs_cleanup_ordered_extents()
-fc5799986fbca957e2e3c0480027f249951b7bcf btrfs: error on missing block group when unaccounting log tree extent buffers
-4289b494ac553e74e86fed1c66b2bf9530bc1082 btrfs: do not allow relocation of partially dropped subvolumes
-3a931e9b39c7ff8066657042f5f00d3b7e6ad315 btrfs: zoned: do not select metadata BG as finish target
-7b632596188e1973c6b3ac1c9f8252f735e1039f btrfs: fix iteration bug in __qgroup_excl_accounting()
-53e760d8949895390e256e723e7ee46618310361 Merge tag 'nfsd-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-20e0d8576484c60c8c0c9d5d6665541c37dee327 Merge tag 'snp_cache_coherency' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0e39a731820ad26533eb988cef27ad2506063b5b Merge tag 'for-6.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-8742b2d8935f476449ef37e263bc4da3295c7b58 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-
---===============6160562586501930916==--
+--===============6885766904149953889==--
