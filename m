@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4470248147081043086=="
+Content-Type: multipart/mixed; boundary="===============8697297718874793041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 13 Aug 2025 15:40:26 -0000
-Message-Id: <175509962613.1358750.10260388255260669781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 13 Aug 2025 15:43:38 -0000
+Message-Id: <175509981852.1360344.1990742831600975748@gitolite.kernel.org>
 
---===============4470248147081043086==
+--===============8697297718874793041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 970a7c68788e3fec237713eef22ace46507bcf9c
-    new: a5ba9ad417254c49ecf06ac5ab36ec4b12ee133f
+  - ref: refs/heads/tty-testing
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: 96c08ff80b8fce45e49fee5eba4b40b1654eb5aa
     log: |
-         a5ba9ad417254c49ecf06ac5ab36ec4b12ee133f rust: faux: fix C header link
+         96c08ff80b8fce45e49fee5eba4b40b1654eb5aa tty: sysrq: delete unnecessary check
          
 
---===============4470248147081043086==
+--===============8697297718874793041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755099669 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1755099622-f070bcc7a012182712121375ff91ae5ae33f6fff
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755099861 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1755099814-0481cc0d9d2e56902acff470977aad86ea25fb17
 
-970a7c68788e3fec237713eef22ace46507bcf9c a5ba9ad417254c49ecf06ac5ab36ec4b12ee133f refs/heads/driver-core-linus
+8f5ae30d69d7543eee0d70083daf4de8fe15d585 96c08ff80b8fce45e49fee5eba4b40b1654eb5aa refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmicshUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FZgQAJ1XwJHkhiW4f6+ufxk8
-1H3k3Zt6H+DpARh/vg+7xRc5l1K8lEDgLlWL1P7GJGdDh266ISWqCSFH9ih/kJFI
-c6nmFAhH6k1++yzj9HzQIPoQqYuMdbCK9yqtW4Ws9jv7+RGi6p+gYSJLgSKtCJ5U
-iEQovtK5TypjQpInC93c/EZl0SxtI+bFjOJ/NBRUNBwE4BTxH3+0JBea2wL2GHlY
-MWj5EXolgONSd5JGZn1y/cDUz907986Pr0cWGwQgbs1q5gFE+YKF9Tqbprt4voSm
-QCWbsgyHptegS4J2kM/Wxhg/Zm9r2tqrCIDPEBE8sSy3q/URFQu0UybbkIMb2yx8
-uodzXYj7D42tCzme06qpZd4RsfetnC9M+1NJrbJD25wIdBUuUmgfxw3kL3/xUBMg
-fQV/DnpC+uIyt3hghtpXBNLcOLhrkvpBZ3DKd9NrRluIDyIOkEmII0qt7MjlPs9e
-6GmgAvpBbwuXNZuMyKWQ16I2JAszMllgHG9wDqqLNWtuDhYbQsvj9EVlL9gijstN
-Ez8Ko6RvReORSuM/CbS6Mgkv2Z4f7dEo/iXFdvpMzLo9akyy6hNQvd9E0dJJojNE
-U0rCEaKhlo43bytSAavzD/o5qI+fFE8uhFkbp4ClNCoEo/H7jKW18WiIyfrQs4YH
-0sOtBj5oYmBcd+XRsaCbPy/G
-=y2cq
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmicstUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Nq8P/16dDoqCGW43OGhK/+om
+189SAmJ6adBeOyD1Uh8yRIi1FvLjz4TCSeCKjCtvVD2tjv7Gh7PzkCowEZfKkD4p
+Zi4Q/6domhBk5zIcM1l4c+IzZoXEC9/XB1YrM8UdO5e/rBqU6e5ShyRK/j4X9h9Z
+8u8lmDlQGDtVEFixbz0/yOQR6RdvLMSNUKSOJMtMd52sM1wdz9E33htPk/9+LRBM
+HNFn/IILEsAhy0PWGTsgxawhuBvDyGVHh19v6zc+HccEiKFSKGhUJ+KGFgs1qDJM
+tIGXoaO2ABnCPZOiYJTsLnGiZLqA9KCxUe+KFkXQAU3YWGKxVXz5nggZ1Befa5d2
+NTAOT7awkbQch2FMLcftBdOOE8CU/AfXlM7imxGczl2qpfBq0FMCBgYbpL+7vfNG
+ZPFJF//WIh6mz6GJGGlaxbEqRIv5XZ3xOPw2jDkpx3+sLQtVrAh2FoGvx8S62SJK
+4kc7ktaxVuo/eS0FPZWGrOhxbFHn/7d3ZUav3FemKcTR/uM4lmy3WnCy8kbzdTqg
+gMwCYImPHIuzFPYF73UZiRRnQ0wV1eN6EuZ5PuNHVR2OlNWQXoHpSIv6a6QWZEWa
+vafbUsHy2uEAD/YUxExBV7XClnjXYmoAfhH9/Xu7kAK86rRI+18yQpSJxJjEQocL
+Q2fVrnt43n/xKj8LEv5MDm5w
+=E710
 -----END PGP SIGNATURE-----
 
---===============4470248147081043086==--
+--===============8697297718874793041==--
