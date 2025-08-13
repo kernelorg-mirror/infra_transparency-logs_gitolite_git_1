@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 13 Aug 2025 13:04:14 -0000
-Message-Id: <175509025421.1212537.8543629589383694174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 13 Aug 2025 13:18:53 -0000
+Message-Id: <175509113392.1224710.14432195980324632995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/locking/urgent
-    old: dfb36e4a8db0cd56f92d4cb445f54e85a9b40897
-    new: 21924af67d69d7c9fdaf845be69043cfe75196a1
-    log: |
-         21924af67d69d7c9fdaf845be69043cfe75196a1 locking: Fix __clear_task_blocked_on() warning from __ww_mutex_wound() path
-         
+  - ref: refs/heads/fileZxd9gd
+    old: 0000000000000000000000000000000000000000
+    new: 5c36b86d2bf68fbcad16169983ef7ee8c537db59
