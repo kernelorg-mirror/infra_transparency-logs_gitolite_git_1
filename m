@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7591026816420131377=="
+Content-Type: multipart/mixed; boundary="===============1444537529633155556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 13 Aug 2025 20:46:49 -0000
-Message-Id: <175511800975.1619676.8375828580487239644@gitolite.kernel.org>
+Date: Wed, 13 Aug 2025 20:46:51 -0000
+Message-Id: <175511801136.1619950.18335816818403153559@gitolite.kernel.org>
 
---===============7591026816420131377==
+--===============1444537529633155556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 694c8e78f486b09137ee3efadae044d01aba971b
-    new: 9714218743bd5cce93670aa563517573ea69fc9c
-    log: revlist-694c8e78f486-9714218743bd.txt
+  - ref: refs/heads/mm-unstable
+    old: 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73
+    new: dfc0f6373094dd88e1eaf76c44f2ff01b65db851
+    log: revlist-6bcdbd62bd56-dfc0f6373094.txt
 
---===============7591026816420131377==
+--===============1444537529633155556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-694c8e78f486-9714218743bd.txt
+Content-Disposition: attachment; filename=revlist-6bcdbd62bd56-dfc0f6373094.txt
 
 da7870162f176ea38bff7380d67222e0430b0e35 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
 44a4ef59d5506c6dc7599d876a3a1014697ec480 xtensa: Replace __ASSEMBLY__ with __ASSEMBLER__ in non-uapi headers
@@ -415,6 +415,13 @@ f74b9f4ba63ffdf597aaaa6cad7e284cb8e04820 perf/core: Handle buffer mapping fail c
 b024d7b56c77191cde544f838debb7f8451cd0d6 perf/core: Prevent VMA split of buffer mappings
 084d2ac4030c5919e85bba1f4af26e33491469cb selftests/perf_events: Add a mmap() correctness test
 48bb97cff95ead07c123896e327f2498050e7a0e Merge tag 'drm-intel-next-fixes-2025-08-05' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
+475356fe2814f2f0b188da8bf0f1fcc579d81272 kasan/test: fix protection against compiler elision
+47b0f6d8f0d2be4d311a49e13d2fd5f152f492b2 mm/kmemleak: avoid deadlock by moving pr_warn() outside kmemleak_lock
+5a309dbf1f829de7f8dc84a518d0b6e7e9be9994 MAINTAINERS: add Masami as a reviewer of hung task detector
+d1534ae23c2b6be350c8ab060803fbf6e9682adc mm/kmemleak: avoid soft lockup in __kmemleak_do_cleanup()
+366a4532d96fc357998465133db34d34edb79e4c mm: fix the race between collapse and PT_RECLAIM under per-vma lock
+45d19b4b6c2d422771c29b83462d84afcbb33f01 mm/smaps: fix race between smaps_hugetlb_range and migration
+aa5a10b070690225317ed4d85413d144abfff750 fs/proc/task_mmu: hold PTL in pagemap_hugetlb_range and gather_hugetlb_stats
 89c52146392948f4cdda3853da9d82ec6d1dd1f4 Input: add keycode for performance mode key
 86624ba3b522b6512def25534341da93356c8da4 vfio/pci: Do vf_token checks for VFIO_DEVICE_BIND_IOMMUFD
 27a23faecd5f62c8fea86c5aa67479b559306406 vfio/qat: Remove myself from VFIO QAT PCI driver maintainers
@@ -590,136 +597,16 @@ c99fab6e80b76422741d34aafc2f930a482afbdd erofs: fix atomic context detection whe
 0b96d9bed324a1c1b7d02bfb9596351ef178428d erofs: fix block count report when 48-bit layout is on
 61399e0c5410567ef60cb1cda34cca42903842e3 rcu: Fix racy re-initialization of irq_work causing hangs
 53e760d8949895390e256e723e7ee46618310361 Merge tag 'nfsd-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+ab5ac789efa985e42bdb5b5e8a7a4ad84935d44e selftests/proc: fix string literal warning in proc-maps-race.c
+cf1b80dc31a1137b8b4568c138b453bf7453204a mm: pass page directly instead of using folio_page
+aba6faec0103ed8f169be8dce2ead41fcb689446 userfaultfd: fix a crash in UFFDIO_MOVE when PMD is a migration entry
+0b5be138ce00f421bd7cc5a226061bd62c4ab850 mm/mremap: avoid expensive folio lookup on mremap folio pte batch
+c0e1b774f68bdbea1618e356e30672c7f1e32509 proc: proc_maps_open allow proc_mem_open to return NULL
 20e0d8576484c60c8c0c9d5d6665541c37dee327 Merge tag 'snp_cache_coherency' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0e39a731820ad26533eb988cef27ad2506063b5b Merge tag 'for-6.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 8742b2d8935f476449ef37e263bc4da3295c7b58 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 91325f31afc1026de28665cf1a7b6e157fa4d39d Merge tag 'mm-hotfixes-stable-2025-08-12-20-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 3a4a0367c9f45b025ec57e1ba492512d5479d361 Merge tag 'rcu.fixes.6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 dfc0f6373094dd88e1eaf76c44f2ff01b65db851 Merge tag 'erofs-for-6.17-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-f60b77ff54af78bc36d95c2db31654daebf13c49 kho: init new_physxa->phys_bits to fix lockdep
-4a0be0d142fb22b9cbe6bf02f42c13642aeb22f2 kho: mm: don't allow deferred struct page with KHO
-6e35bae5eb5fc14713775cece8f7c7454602e1a1 kho: warn if KHO is disabled due to an error
-bdad121d60e16b38e1a8dbd390da3ba4b71f967e selftests/mm: fix FORCE_READ to read input value correctly
-e18f5367fc830d5a14a49c76f544a40f2024236c kexec: add KEXEC_FILE_NO_CMA as a legal flag
-ab18e50e4e5c5982c291c798e3587bd703589b45 mm/memory-failure: fix infinite UCE for VM_PFNMAP'ed page
-b2bc902b915a9863a6f7d62edf495917e913a269 mm: fix accounting of memmap pages
-434641ac952d95b3e80a23d0664959bfa1da1c29 squashfs: fix memory leak in squashfs_fill_super
-949658be21faccf9cb7498897600fffdd0d4f3a2 iov_iter: iterate_folioq: fix handling of offset >= folio size
-62c489fdbd30be9b665bc441a16fd57c24577262 tools/testing: add linux/args.h header and fix radix, VMA tests
-c613b665e15b41e37810703241861e511184da60 mm/damon/core: fix commit_ops_filters by using correct nth function
-36ce755eb092edaa968039f3b0e1ba717a739d1e mm/mremap: allow multi-VMA move when filesystem uses thp_get_unmapped_area
-d50dabff4d1f2c815b2faf184f5d6db40596e2cc mm/mremap: catch invalid multi VMA moves earlier
-7b183cfe2459033e527dd0ff9f0470d60744c4bf selftests/mm: add test for invalid multi VMA operations
-e689cc4192dbbcfd568da9756821fae9b97388fe .mailmap: add entry for Easwar Hariharan
-c4db92bc98522f9ad220b26bfff0458b29659dda selftests/damon: fix selftests by installing drgn related script
-aafcef8a2eee8e795a8ad25531d1ad7a49f9b9e3 mm/memory_hotplug: fix hwpoisoned large folio handling in do_migrate_range
-647850516348da9252cb3f14a24211e04891b5aa kunit: kasan_test: disable fortify string checker on kasan_strings() test
-3c4bb66f4dee205011a2657b6990c8ffc410f65b mm/debug_vm_pgtable: clear page table entries at destroy_args()
-c6532b661bce4cc1cdac9503bc77c6197f9f5307 mm/userfaultfd: fix kmap_local LIFO ordering for CONFIG_HIGHPTE
-3b923933ce86231c01f565992bcafd8f5bdfbb93 mempolicy: clarify what zone reclaim means
-1f65b00ccaf9497ec548f5fabe5a1480e4e1d471 mempolicy-clarify-what-zone-reclaim-means-fix
-f29b7cd8c59bca9e4004b9663f2ad459faf43707 kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-6f30e9cf826a17951d4c5a846c324454dda98d4c kasan: add test for SLAB_TYPESAFE_BY_RCU quarantine skipping
-7b4619d6c851978698ea40a4ded7592774e33053 mm/mglru: update MG-LRU proactive reclaim statistics only to memcg
-fa88e7158586d913de64b373873f6ff49c9423ce mm/selftests: fix incorrect pointer being passed to mark_range()
-3b6cfbf9398430970694ae1d3096c0603b9affba selftests/mm: add support to test 4PB VA on PPC64
-8c33b3bfd95ee36ca78a0d0f83456b8857e98c15 selftest/mm: fix ksm_funtional_test failures
-78dfcda1bea882d4daac3815a4bb26c7037bac24 mm/selftests: fix split_huge_page_test failure on systems with 64KB page size
-058016653ea4d588d9a607196f6ff8087264eed8 selftests/mm: fix child process exit codes in ksm_functional_tests
-23c3918514c3da3872b66e4b2fa82334ce0e6f22 selftests/mm: skip thuge-gen test if system is not setup properly
-daa0f90c4d13bd39418eed6e3e1762fa703366ef selftests/mm: skip hugepage-mremap test if userfaultfd unavailable
-50d38024c661b56184504dc597166674b870247d mm: memory-tiering: fix PGPROMOTE_CANDIDATE counting
-fbee32091150ead4ffec14d948eafa1d2443042c /dev/zero: try to align PMD_SIZE for private mapping
-cc9a6aee3c7d612858e9c7491de1a84275cfff06 mm: replace (20 - PAGE_SHIFT) with common macros for pages<->MB conversion
-71d1340f537e81a37c91d417837ff5621cbdde3e maple_tree: use kfree_rcu in ma_free_rcu
-2658bc00a034100167c1042111599a8b6c559a9a testing/radix-tree/maple: hack around kfree_rcu not existing
-11d8ee2be027e8c64d4daaf21f03de584c6b3897 zram: protect recomp_algorithm_show() with ->init_lock
-83a54c47c7b1d48e7319f5c844430db9fa6802b1 selftests/mm: pass filename as input param to VM_PFNMAP tests
-4111e643ed28dfe59322187652e298c02fa6409e mm: limit the scope of vma_start_read()
-ebe7df19484bdfb6fee4a0625bdcd5e16d1263b3 mm: change vma_start_read() to drop RCU lock on failure
-e979cfe1d710475230af76fa5a6cd65861d59249 mm, swap: only scan one cluster in fragment list
-a03450f544c06f4c5396e79ef042a06999bb58e0 mm, swap: remove fragment clusters counter
-8dcfc2521e0a4fa070525d7b9b90f48b38e755bd mm, swap: prefer nonfull over free clusters
-b2ee38c64234617a6efe2b53414ca783075d35ae selftests/mm: use __auto_type in swap() macro
-2d264764dd05310d5f73d8af2477b3e5b0423d7a mm: correct misleading comment on mmap_lock field in mm_struct
-598b014c138857e7a06fb768fa5ee4c396fbe170 mm/vmalloc: allow to set node and align in vrealloc
-e3d830c94e163f4aec56f8e22d39bd37cf1ae74d mm/slub: allow to set node and align in k[v]realloc
-f3281cad4d114cd486402cbc01e02edd1d70147d rust: add support for NUMA ids in allocations
-7525c92e2e14db65ba169068d0255180fe5f36bb rust: support large alignments in allocations
-9c6c319d55ce95646e0546cc9f490a51682e9b72 mm/nommu: convert kobjsize() to folios
-31ee64e0db103cfa1c1b607699a33702d48a8306 xarray: remove redundant __GFP_NOWARN
-7020f0a36d47f6df772f763e60a7cef981858777 maple_tree: remove redundant __GFP_NOWARN
-af2b755d5b4cbd82b08d6cf136793c4122b11b63 mm/rmap: do __folio_mod_stat() in __folio_add_rmap()
-a4f656533e22d5abf8ca36fc22666f3f409ffcea mm/damon/core: skip needless update of damon_attrs in damon_commit_ctx()
-5dafd5e270f78a8cddfaf9de86889cf6dc1bd789 mm-damon-core-skip-needless-update-of-damon_attrs-in-damon_commit_ctx-fix
-fbdb776934503f3943493048c6be53e6bdc43bfd mm/damon/paddr: move filters existence check function to ops-common
-06f18c52a0f9b2a29f644aee51a9a200e391ae68 mm/damon/vaddr: support stat-purpose DAMOS filters
-4420b64e17f9831c92d58c7fbda51f04bfbfe85b selftests/mm: add -Wunreachable-code and fix warnings
-85337b9cbc035627cc73df7d9dc385e03e6bb09a selftests/mm: protection_keys: fix dead code
-907db0d1e86cbafe2293dfed92ea05951756b108 selftests: kselftest.h: add __unused macro
-8e4e3d7a536dccc1e3b007524b97147344cd937a selftests/mm: add -Wunused family of flags
-fe2c606dbbf3b993b3b1afb5a66e9395c8066524 selftests/mm: remove unused parameters
-b397db45e76322965160c3fe5dcd70615fbf595c selftests/mm: mark unused arguments with __unused
-646b81990d844a566c4960ac057b97db896869f0 selftests/mm: mark more unused arguments with __unused
-de8fccda0a5beb5c4eac2c052959af49b8581330 selftests/mm: fix unused parameter warnings for different architectures
-fc27257e02fb520d491e5f59b0ce46a15c560ae1 mm/zswap: store <PAGE_SIZE compression failed page as-is
-a44fc2f1422eed45336b9305278019a2480c6fb5 selftests/proc: test PROCMAP_QUERY ioctl while vma is concurrently modified
-541c033a6edffb06ad2e0418c778db704c053d22 fs/proc/task_mmu: factor out proc_maps_private fields used by PROCMAP_QUERY
-8f9ad66970246c74d20ba439090c31a6beaf1471 fs/proc/task_mmu: execute PROCMAP_QUERY ioctl under per-vma locks
-4ffbe931f9ce5c0f53fa70ac665514b41c26c939 mm/kasan/init.c: remove unnecessary pointer variables
-3f37dd1badd8e77b6d8d5b9514476814bb1b0d69 mm/damon: update expired description of damos_action
-2ec70f707d8c090218cd5b4e698a282309a43fe1 docs/mm/damon/design: fix typo: s/sz_trtied/sz_tried/
-e69cfbf1a341b10a91947e79beb0b179e6d4c233 kasan: introduce ARCH_DEFER_KASAN and unify static key across modes
-5045ad357a95389184f9f61923fd23446ff1e72b kasan: call kasan_init_generic in kasan_init
-afffa9c64d6633fe3b84575be4f1ea69c6ce197c mm/mincore, swap: consolidate swap cache checking for mincore
-0a3335b5c1069c676ddfa4c0f1d56abbebfe3b6f mm/mincore: use a helper for checking the swap cache
-7d24a56f513cc2b4289910c7226671d311e5b931 mm/migrate: remove MIGRATEPAGE_UNMAP
-8305655ce105124343288ced1feeac11d0f1b245 treewide: remove MIGRATEPAGE_SUCCESS
-f278c318fc1fde3ba092b1e1bccf8260d7f6b713 mm/huge_memory: move more common code into insert_pmd()
-557e25cad243ef7b447558b60503964ff19f1f83 mm/huge_memory: move more common code into insert_pud()
-77a91619baf41db58f772a5eca9993ecd94be1af mm/huge_memory: support huge zero folio in vmf_insert_folio_pmd()
-3d88bf970827a1661b0fe3ca922b929caec72b41 fs/dax: use vmf_insert_folio_pmd() to insert the huge zero folio
-cbe09d9471e9ad991b5c513cbbbc689d28a7dd57 mm/huge_memory: mark PMD mappings of the huge zero folio special
-fb506d16433b870e3cfa0b3a1d180ebec6af3312 powerpc/ptdump: rename "struct pgtable_level" to "struct ptdump_pglevel"
-c1077c66b860e56ea7f80d3540a58610619c4d82 mm/rmap: convert "enum rmap_level" to "enum pgtable_level"
-6a6e1f93ed9ddf56301a4b40d9a5faeccce5ed5d mm/memory: convert print_bad_pte() to print_bad_page_map()
-572bd5caceabe41b6ade3a989481f4454ea2430d mm/memory: factor out common code from vm_normal_page_*()
-b041341ee33f6d90e1345fe7ff0c2e51552a43e3 mm: introduce and use vm_normal_page_pud()
-a0de54ccdc1a47841d8ecb7c647af5edecdc285b mm: rename vm_ops->find_special_page() to vm_ops->find_normal_page()
-118ade21b25961e6fac2373666c48d6617b443cd mm: rename huge_zero_page to huge_zero_folio
-b23281e7d3d3b588f764f9f3b9f0ad784d09fac2 mm: rename MMF_HUGE_ZERO_PAGE to MMF_HUGE_ZERO_FOLIO
-cc27995c74e0485d34e27e7200dc7663b9e1c6e8 mm: add persistent huge zero folio
-e0827e03e2a96812b83063232c0ed4a1f6b6ffc8 mm: add largest_zero_folio() routine
-aab0a209b50f2bc332ad24ccf6cf04340a319d2f block: use largest_zero_folio in __blkdev_issue_zero_pages()
-812711e31b741adb4eb9a009ced924055e38e51d mm/filemap: align last_index to folio size
-c79ca1212ac5210e3bdfe14ccc60e1fd518333cf mm-filemap-align-last_index-to-folio-size-fix
-c138635a1cbbd30375e2108d85ac7c77cbb991a6 kho: allow scratch areas with zero size
-73a3d9ac35f0c44c486949d78feb20f7527c34ac lib/test_kho: fixes for error handling
-0924634d6e3c2f5b97871534ad318d8eeee61033 selftest/kho: update generation of initrd
-dc21550db2d574e26036c3ae4f50dd0a3ba98e02 selftests/damon: test no-op commit broke DAMON status
-5389bd0c959795d1c5c631d05ea41383f23e911b selftests/mm: do check_huge_anon() with a number been passed in
-500947989843147306d7418eebe6008a529d6e16 mm/huge_memory: add new_order and offset to split_huge_pages*() pr_debug
-6fa22d1a307cfdc6333b6a42e4ce42905571fd5b selftests/mm: add check_folio_orders() helper
-b3e12992efede3b75100434dd1dac867ed505efe selftests/mm: reimplement is_backed_by_thp() with more precise check
-40f6f0aefcc6777b68dad9c0af3d0f2acfa19015 selftests/mm: check after-split folio orders in split_huge_page_test
-f04e18cf00103f45f19f83055d7be0886971a4f9 mm: add bitmap mm->flags field
-5c89d6838f6a9b6595480a32bde15fac70a258a5 mm: convert core mm to mm_flags_*() accessors
-ddb5ecb13bda3efa4409e417490532458fecd611 mm-convert-core-mm-to-mm_flags_-accessors-fix
-42c5f3444516d0fa57425bd542ffbea4d1c1c70e mm: convert prctl to mm_flags_*() accessors
-849ad18b780c95cbff2941e753120396444a110e mm: convert arch-specific code to mm_flags_*() accessors
-0db9abc3da46abb3bf076f3795457147ba3d8d49 mm: convert uprobes to mm_flags_*() accessors
-672b39bf1e1a9f565641a903f524ac4f7d033a78 mm: update coredump logic to correctly use bitmap mm flags
-87c2208e532dd8c35ad48adaa91c4d8b0b478a3a mm: correct sign-extension issue in MMF_* flag masks
-9064bcfcfd73a0b6489d0a557aad41bb5995a670 mm: update fork mm->flags initialisation to use bitmap
-60cd1747b57761c205219bec8c1a3231c57b9739 mm: convert remaining users to mm_flags_*() accessors
-f37215ce45d206afb05c7c4b6b871d9c395c6763 mm: replace mm->flags with bitmap entirely and set to 64 bits
-f8ded487f9881b5ed9b16fb631438dae2497f5b8 mm: remove redundant __GFP_NOWARN
-6bd1ff4752eee5e350bbaf0c3f636fdff6370815 mempool: rename struct mempool_s to struct mempool
-cad91eb02be10f870fa9bd0d2bf9be8d266c8abe selftests/damon: fix damon selftests by installing _common.sh
-50e54b9a73651443b2135bd7513ed6917b542765 mm/swapfile.c: introduce function alloc_swap_scan_list()
-f8b8994f467289ff0b0b12de077a453c8940ebc6 mm: swap.h: Remove deleted field from comments
-c99126c9fefbf50b575d0924bf094c190c30dc88 drivers/base/memory: add node id parameter to add_memory_block()
-1c0b56a6ca6abcb90e4b5f3e1d90cd9afc5714b5 mm/memory_hotplug: activate node before adding new memory blocks
-9714218743bd5cce93670aa563517573ea69fc9c drivers/base: move memory_block_add_nid() into the caller
 
---===============7591026816420131377==--
+--===============1444537529633155556==--
