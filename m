@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 13 Aug 2025 18:41:31 -0000
-Message-Id: <175511049164.1513439.7231235577258804663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 13 Aug 2025 18:53:22 -0000
+Message-Id: <175511120272.1522725.842008569415155337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/clk-next
-    old: 747923821a2b9acff925c47ece0c4652f113eff9
-    new: 819d036e040a85e94049753f718c35bf3f67610d
+  - ref: refs/heads/master
+    old: 3a4a0367c9f45b025ec57e1ba492512d5479d361
+    new: dfc0f6373094dd88e1eaf76c44f2ff01b65db851
     log: |
-         6793ca9a43c8c9262802af3e6096df0fa2dcaa6c dt-bindings: clock: adi,axi-clkgen: add clock-output-names property
-         819d036e040a85e94049753f718c35bf3f67610d Merge branch 'clk-bindings' into clk-next
+         c6993c4cb91803fceb82d6b5e0ec5e0aec2d0ad6 erofs: Fallback to normal access if DAX is not supported on extra device
+         74da24f0ac9b8aabfb8d7feeba6c32ddff3065e0 erofs: Do not select tristate symbols from bool symbols
+         c99fab6e80b76422741d34aafc2f930a482afbdd erofs: fix atomic context detection when !CONFIG_DEBUG_LOCK_ALLOC
+         0b96d9bed324a1c1b7d02bfb9596351ef178428d erofs: fix block count report when 48-bit layout is on
+         dfc0f6373094dd88e1eaf76c44f2ff01b65db851 Merge tag 'erofs-for-6.17-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
          
