@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5520983438916739710=="
+Content-Type: multipart/mixed; boundary="===============2868129108919787093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 13 Aug 2025 01:49:15 -0000
-Message-Id: <175504975510.586388.6972610253016015327@gitolite.kernel.org>
+Date: Wed, 13 Aug 2025 01:49:42 -0000
+Message-Id: <175504978263.587501.3870966697252854209@gitolite.kernel.org>
 
---===============5520983438916739710==
+--===============2868129108919787093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: f30e74d1a85040df9990b1709f767f85d2e40a47
-    new: 469b5a27ef43d973f5a5cde4a7ed8fc18306c9ae
-    log: revlist-f30e74d1a850-469b5a27ef43.txt
+  - ref: refs/heads/fixes
+    old: 021f243627ead17eb6500170256d3d9be787dad8
+    new: c6b819e0058e5f34cb274018e1f5cd5b671cec7e
+    log: revlist-021f243627ea-c6b819e0058e.txt
 
---===============5520983438916739710==
+--===============2868129108919787093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1755049737 -0400
+pusher 75C5DE3D 1755049808 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1755049691-8e02e23ecdd6e07e256561cb204d343086057648
+nonce 1755049758-fa95618386f0104a41a19aa2acf2bf046d443a17
 
-f30e74d1a85040df9990b1709f767f85d2e40a47 469b5a27ef43d973f5a5cde4a7ed8fc18306c9ae refs/tags/mkp-scsi-fixes
+021f243627ead17eb6500170256d3d9be787dad8 c6b819e0058e5f34cb274018e1f5cd5b671cec7e refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmib7wkACgkQ7ulgGnXF
-3j14yBAAhaF/D1Gg2zIj2LdW/UbWk7iSZrJ5co3ru0SqwGB293hX5fpCRX94y8k2
-lplgRXkb/EU9rdLj/LFUbFqasKouVmCY9A1N5pGBThN5kFcJjhXyaFs0JWlD75f2
-o044UnLvjxYD/DYkkSOhfx4AF+2iylSZ4JBiqBrDWsg+0C0pi7c+42f6tTDELbcE
-B0Jm97G9b3TlbEaS3vf1gpdIFGs90LPrAF+TJcB13VSntPgr8RJ7PMInBiETkA9b
-Gl9lP6dths97x9x5W9Ii0IXLpIGN6jXjBRjdCD6AfyovTdfw8CS93O+ZJK1TAEpP
-mXCG+BPnwX0nKJLTLVRxvbvSgABPgXzD33T/3eligaZyfmsOZfrM9CG9fw0RS52J
-RD/bfW0TAJpbRPIgvVIkJW9/1qiH0WXtzLZyzxN2hkbB23Q0gecdhv7pX0bGWsfp
-g5Dd965n7ALRMo56GbHMlXG68zUUQPzIvYp9jHBNYU247x9Yv00G4Dc8BXsCcqU1
-IpssbuvZgviFPQUQ7/0CqQiHmzF9dK8VwItdKaER9xi2vRWGJcvaHN7DQMYqkH2x
-DDnbXxAaKuQg/eEWMCFJeTC8K8OxGWu2RNB/TUcmBdOTM6UtwGGuSj/vv9IaKxhQ
-uq613Rq2DAK+1DQ3v8YqcAre/mM8wsW0r2I6I2CbFAg6iilUvlk=
-=JFHB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmib71AACgkQ7ulgGnXF
+3j3f6g/+LkGXFraQgizV1nimJDUY9GmTHnz6csGv3ClF82Y5V0tkwWFnFqzN4Ie1
+RPsc9i9KjragCfK4y7I7UQgKlPaZ5ikSurQqQu1ez2dOxdN1f/Zq4lR6krulmKkj
+byzlpuh/s3LQlSRuddIUn/UqmGlUkxpyESztPyKlmoiNYDnSDnLTYUnE5U/ckf+P
+IhhE4cJyC5sj5LNBrxKd8lGlfwVd9Ek7pPFHhrbBmPQVGby57J/oe1Scc87sAWeb
+SPpFfuMJAkmyhtZWGQbRzJ1nNL+CCUz5HQrDBeaenYqsE0QwotBk4Gre1g1AXLJG
+G67eFjuMOlHHjkW2KDzcJrgUX06QM0u11aCHunpI3zkr0dvTc6zzcqojf7WtGpLE
+5/coPoLGwbMPFVJeP3UN0L5qV+siCEP3amGXNNLcntFYKtBhzUUV4gAh5fLpky9D
+f5+iNACKu6BzjH3WXsOqtW/vW4o+Irn+DQ+iRLROqUrY5tNu32wYYEFlSIlwT3Yv
+ErUrgA6qICd5qOHUjZNTMnvgQ7yT1nuHPOWnvx1i8oktOHV7UCMl4i9jKcnACNZN
+1zLL2o5dhwfU/Pg+tjVi6xVbHcBSBV9oD9Tu20h/6gsN2eicEi//7uJzG6kyUbkT
+p/Wrp5Cbomzv15RCT+x6WaDpUDRYE3HIGEn2STye/9ZwpJwlEL0=
+=bmf1
 -----END PGP SIGNATURE-----
 
---===============5520983438916739710==
+--===============2868129108919787093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f30e74d1a850-469b5a27ef43.txt
+Content-Disposition: attachment; filename=revlist-021f243627ea-c6b819e0058e.txt
 
 1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
 af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
@@ -1081,4 +1081,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 c6b819e0058e5f34cb274018e1f5cd5b671cec7e Merge branch '6.17/scsi-queue' into 6.17/scsi-fixes
 
---===============5520983438916739710==--
+--===============2868129108919787093==--
