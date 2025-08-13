@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7062087914953038198=="
+Content-Type: multipart/mixed; boundary="===============4076904534553500198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 13 Aug 2025 15:29:22 -0000
-Message-Id: <175509896290.1347273.10101495527572221899@gitolite.kernel.org>
+Date: Wed, 13 Aug 2025 15:29:25 -0000
+Message-Id: <175509896527.1347504.4289044088953963565@gitolite.kernel.org>
 
---===============7062087914953038198==
+--===============4076904534553500198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 37816488247ddddbc3de113c78c83572274b1e2e
     new: fdbe93b7f0f86c943351ceab26c8fad548869f91
     log: revlist-37816488247d-fdbe93b7f0f8.txt
 
---===============7062087914953038198==
+--===============4076904534553500198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ a1740b16c83729d908c760eaa821f27b51e58a13 net: airoha: npu: Read NPU wlan interru
 b3ef7bdec66fb1813e865fd39d179a93cefd2015 net: airoha: Add airoha_offload.h header
 fdbe93b7f0f86c943351ceab26c8fad548869f91 Merge branch 'net-airoha-introduce-npu-callbacks-for-wlan-offloading'
 
---===============7062087914953038198==--
+--===============4076904534553500198==--
