@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 13 Aug 2025 17:55:52 -0000
-Message-Id: <175510775275.1471767.2542537897853813212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Wed, 13 Aug 2025 18:02:24 -0000
+Message-Id: <175510814489.1476758.10887435906438093381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/tags/erofs-for-6.17-rc2-fixes
+  - ref: refs/tags/v6.16
     old: 0000000000000000000000000000000000000000
-    new: 75ecf310b8331dd04a13b8d3f956eec26d51a90c
+    new: bfd7d2bc9e079ee602509adc5f74779d1cab1cf9
