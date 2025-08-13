@@ -1,56 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============8697297718874793041=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 13 Aug 2025 15:43:38 -0000
-Message-Id: <175509981852.1360344.1990742831600975748@gitolite.kernel.org>
-
---===============8697297718874793041==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 13 Aug 2025 15:44:27 -0000
+Message-Id: <175509986710.1361310.14638011895302576549@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/tty-testing
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 96c08ff80b8fce45e49fee5eba4b40b1654eb5aa
+  - ref: refs/heads/for-linus
+    old: b26e2afb3834d4a61ce54c8484ff6014bef0b4b7
+    new: ee8f1613596ad44c7cff4805d65a8a705998db11
     log: |
-         96c08ff80b8fce45e49fee5eba4b40b1654eb5aa tty: sysrq: delete unnecessary check
+         23cbfd6fed78715459a4395c034c4e76b8c85320 ALSA: azt3328: Put __maybe_unused for inline functions for gameport
+         ee8f1613596ad44c7cff4805d65a8a705998db11 Revert "ALSA: hda: Add ASRock X670E Taichi to denylist"
          
-
---===============8697297718874793041==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755099861 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1755099814-0481cc0d9d2e56902acff470977aad86ea25fb17
-
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 96c08ff80b8fce45e49fee5eba4b40b1654eb5aa refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmicstUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Nq8P/16dDoqCGW43OGhK/+om
-189SAmJ6adBeOyD1Uh8yRIi1FvLjz4TCSeCKjCtvVD2tjv7Gh7PzkCowEZfKkD4p
-Zi4Q/6domhBk5zIcM1l4c+IzZoXEC9/XB1YrM8UdO5e/rBqU6e5ShyRK/j4X9h9Z
-8u8lmDlQGDtVEFixbz0/yOQR6RdvLMSNUKSOJMtMd52sM1wdz9E33htPk/9+LRBM
-HNFn/IILEsAhy0PWGTsgxawhuBvDyGVHh19v6zc+HccEiKFSKGhUJ+KGFgs1qDJM
-tIGXoaO2ABnCPZOiYJTsLnGiZLqA9KCxUe+KFkXQAU3YWGKxVXz5nggZ1Befa5d2
-NTAOT7awkbQch2FMLcftBdOOE8CU/AfXlM7imxGczl2qpfBq0FMCBgYbpL+7vfNG
-ZPFJF//WIh6mz6GJGGlaxbEqRIv5XZ3xOPw2jDkpx3+sLQtVrAh2FoGvx8S62SJK
-4kc7ktaxVuo/eS0FPZWGrOhxbFHn/7d3ZUav3FemKcTR/uM4lmy3WnCy8kbzdTqg
-gMwCYImPHIuzFPYF73UZiRRnQ0wV1eN6EuZ5PuNHVR2OlNWQXoHpSIv6a6QWZEWa
-vafbUsHy2uEAD/YUxExBV7XClnjXYmoAfhH9/Xu7kAK86rRI+18yQpSJxJjEQocL
-Q2fVrnt43n/xKj8LEv5MDm5w
-=E710
------END PGP SIGNATURE-----
-
---===============8697297718874793041==--
+  - ref: refs/heads/for-next
+    old: efea7a57370b956ef612dc603faa2df9126cc3ed
+    new: 113e9a284d4372322da90c05f1dc36e0a52e5fca
+    log: |
+         aff8436ed97b99cd27f192d9a71ac2b1aa7b9d03 ALSA: usb-audio: Use auto-cleanup for shutdown locks
+         113e9a284d4372322da90c05f1dc36e0a52e5fca ALSA: hda: Improve local variable data type in snd_hda_get_num_devices()
+         
+  - ref: refs/heads/master
+    old: 0289f85061a5b88a2b30b9c7d6f29d790666a004
+    new: 14af1719dab9ac02c5eb3d8c31f4dab5fcbdd572
+    log: |
+         aff8436ed97b99cd27f192d9a71ac2b1aa7b9d03 ALSA: usb-audio: Use auto-cleanup for shutdown locks
+         23cbfd6fed78715459a4395c034c4e76b8c85320 ALSA: azt3328: Put __maybe_unused for inline functions for gameport
+         ee8f1613596ad44c7cff4805d65a8a705998db11 Revert "ALSA: hda: Add ASRock X670E Taichi to denylist"
+         0d83384ad1b270821f87df1cd4402bb1d41d6600 Merge branch 'for-linus'
+         c44976c4487c2321bfe72a09b64a4c462a039d5c Merge branch 'for-next'
+         113e9a284d4372322da90c05f1dc36e0a52e5fca ALSA: hda: Improve local variable data type in snd_hda_get_num_devices()
+         14af1719dab9ac02c5eb3d8c31f4dab5fcbdd572 Merge branch 'for-next'
+         
