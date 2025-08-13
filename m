@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 13 Aug 2025 09:57:27 -0000
-Message-Id: <175507904797.1049863.4284530950327506466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Wed, 13 Aug 2025 10:04:06 -0000
+Message-Id: <175507944649.1054882.16797794518641816751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/for-next
-    old: 8abbbbb588f1f1bf95ae56c1531a17520ce487e2
-    new: f7439a723e5aa5b35c76355e1b9b2cd1108f656e
-    log: |
-         f7439a723e5aa5b35c76355e1b9b2cd1108f656e platform/chrome: wilco_ec: Remove redundant semicolons
-         
+  - ref: refs/heads/dev-gicv5-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 45ad33df30ead714d1ba45336614784f47101936
