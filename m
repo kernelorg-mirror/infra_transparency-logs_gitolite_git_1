@@ -1,106 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============9116108650616537558=="
+Content-Type: multipart/mixed; boundary="===============7324742732589312447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daniel.lezcano/linux
-Date: Wed, 13 Aug 2025 12:03:16 -0000
-Message-Id: <175508659690.1160412.8542789039937063379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 13 Aug 2025 12:09:14 -0000
+Message-Id: <175508695430.1165113.12763508804559917598@gitolite.kernel.org>
 
---===============9116108650616537558==
+--===============7324742732589312447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daniel.lezcano/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/timers/drivers/next
-    old: d7b8f8e20813f0179d8ef519541a3527e7661d3a
-    new: 4e745ae1b4354058c85468125a309169080905df
-    log: revlist-d7b8f8e20813-4e745ae1b435.txt
+  - ref: refs/heads/for-next
+    old: 442ee950ea05968ab5bfaeeb0c6660c567c61bfa
+    new: 42b4f71ac6773333ec998ea712ccd8584d20f1de
+    log: revlist-442ee950ea05-42b4f71ac677.txt
 
---===============9116108650616537558==
+--===============7324742732589312447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7b8f8e20813-4e745ae1b435.txt
+Content-Disposition: attachment; filename=revlist-442ee950ea05-42b4f71ac677.txt
 
-c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
-2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
-a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
-e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
-1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
-af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
-95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
-d89c58068aa667295fa75d0613c869b612bd6249 perf test: Fix comment ordering
-af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
-9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
-6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
-d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
-45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
-55c09681cc67d175bd62b787c8b6eeafbe1b5851 perf list: Remove tracepoint printing code
-b91a9abbf4734d411d304661fbb7e2878281eb51 perf list: Skip ABI PMUs when printing pmu values
-be72da73e2e638f583014316a2195b0c5ff9ff3a Merge tag 'qcom-clk-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
-264200cc3a87d5c53bfa817227624fa2bae6b2c3 clk: Fix typos
-7f5e9ca0a424af44a708bb4727624d56f83ecffa clk: clocking-wizard: Fix the round rate handling for versal
-a9c95d17dc13b8a4c5faa02a6b84ba83af058206 Input: synaptics-rmi4 - add support for Forcepads (F21)
-0da895952607c03cf0518960692cd1b3439c5d25 dt-bindings: input: syna,rmi4: Document F1A function
-a86240a37d43fc22b4e4953242fca8d90df2c555 gpiolib: enable CONFIG_GPIOLIB_LEGACY even for !GPIOLIB
-4619b6b97553693be7faf21af0533c24240d1d4f Input: synaptics-rmi4 - add support for F1A
-3b19c9ed6f01060e9b58963b581ec41b03104c55 Documentation: Fix capitalization of XBox -> Xbox
-a43a503df996739ae34f179f6b73b0ae91000c5c Input: xpad - change buttons the D-Pad gets mapped as to BTN_DPAD_*
-97c01e65ef4c1878532be245b2899fc4363cc453 Input: Add and document BTN_GRIP*
-e7412ba919f625438c570d8b4fbf16c5f31b583d Input: xpad - use new BTN_GRIP* buttons
-17eabb792740cea3f24b236e150f9fee8cd344f3 Input: atkbd - correctly map F13 - F24
-19875ccec01653a897a53db91cd4434c52ef5465 dt-bindings: touchscreen: add touch-overlay property
-ea4d331050b4cd43e6a900937db88b01ef75e1f2 Input: touch-overlay - add touchscreen overlay handling
-88fb51ea6a38189bed42d302183fbbf6bb03accf dt-bindings: input: touchscreen: st1232: add touch-overlay example
-1c44b818b81bf6a111a702536a560f5bc830c6d5 Input: st1232 - add touch-overlay handling
-d41d75fe1b751ee6b347bf1cb1cfe9accc4fcb12 crypto: qat - fix DMA direction for compression on GEN2 devices
-6908c5f4f066a0412c3d9a6f543a09fa7d87824b crypto: qat - fix seq_file position update in adf_ring_next()
-0fab5ee0d477b3bfe0ff72a78d151a49f72558fa crypto: qat - refactor ring-related debug functions
-a71475582ada92ba021852bf3c2b40ab3718549b crypto: ccp - reduce stack usage in ccp_run_aes_gcm_cmd
-301eee1c52d4b8f4d4d995feb932dae742e92bda crypto: qat - make adf_dev_autoreset() static
-982fd1a74de63c388c060e4fa6f7fbd088d6d02e crypto: hisilicon/hpre - fix dma unmap sequence
-bf24d64268544379d9a9b5b8efc2bb03967703b3 crypto: keembay - Use min() to simplify ocs_create_linked_list_from_sg()
-b711733e89a3f84c8e1e56e2328f9a0fa5facc7c Merge tag 'timers-urgent-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5345e64760d37524d38ddfa7471f42ec64b0f289 bpf: Simplify bounds refinement from s32
-2662c7a9c3dcc9613a01c07a9118beb906aa455b fbdev: nvidiafb: fix build on 32-bit ARCH=um
-ecdd7df997fd992f0ec70b788e3b12258008a2bf fbdev: nvidiafb: add depends on HAS_IOPORT
-523b84dc7ccea9c4d79126d6ed1cf9033cf83b05 fbdev: fix potential buffer overflow in do_register_framebuffer()
-c80de50c192f135a78f6c924818b2f5cd6ca7524 fbdev: simplefb: Use of_reserved_mem_region_to_resource() for "memory-region"
-b56f93f568dc0214963d9d9d2fd2c992cf241c76 fbdev: kyro: Add missing PCI memory region request
-e0bf12a43243e6afc5a03fc55c58ec48aba48088 fbdev: kyro: Use devm_ioremap() for mmio registers
-32dfb6112ea3ca143636832cd34234f2be4830bb fbdev: kyro: Use devm_ioremap_wc() for screen mem
-57ba4d5338a6b455d6b0bb9aa4ce9826897b9007 fbdev: svgalib: Clean up coding style
-da11e6a30e0bb8e911288bdc443b3dc8f6a7cac7 fbdev: imxfb: Check fb_add_videomode to prevent null-ptr-deref
-a2a42f0c96d709d0cf5cc672acb352934ca95326 fbdev: Fix typo in Kconfig text for FB_DEVICE
-91a256467eed9e4449969163e3c93bc4bd990145 fbcon: fbcon_cursor_noblink -> fbcon_cursor_blink
-ffc825a27f5503136196cb38f41641b58bf2df31 fbcon: fbcon_is_inactive() -> fbcon_is_active()
-311b07842fb0bb69b5b266b3dfd6037260a3ec2a fbcon: Introduce get_{fg,bg}_color()
-81b96e4aef9592493873507eec52eca68f0721ac fbcon: Use 'bool' where appopriate
-038d61fd642278bab63ee8ef722c50d10ab01e8f Linux 6.16
-59b33fab4ca4d7dacc03367082777627e05d0323 smb: client: fix netns refcount leak after net_passive changes
-9d5eff7821f6d70f7d1b4d8a60680fba4de868a7 cifs: reset iface weights when we cannot find a candidate
-2aaf1784835f5f3063ae2392689053ebafd27e01 smb: change return type of cached_dir_lease_break() to bool
-3edc68de5629efa39911e7c9687b19ad04051cab cifs: add new field to track the last access time of cfid
-be77ab6b9fbe348daf3c2d3ee40f23ca5110a339 smb: client: allow parsing zero-length AV pairs
-33cfdd726381828b9907a61c038a9f48b6690a31 smb: client: fix session setup against servers that require SPN
-b460249b9a1dab7a9f58483e5349d045ad6d585c cifs: Fix calling CIFSFindFirst() for root path without msearch
-b62a206bfbf3e9c52abc28253bf3baedc8d99880 cifs: Optimize CIFSFindFirst() response when not searching
-75d519b0b52a4ffccfc335be7e5d5eb303d330e6 cifs: Do not query WSL EAs for native SMB symlink
-309c2b776c8716d4e3b98506bde3ccd131f2fae6 cifs: Add support for creating reparse points over SMB1
-cde1cc6b6079fa24c236bff3d58f7f8b4b1fc1bb hwmon: (ina238) Fix inconsistent whitespace
-8aee29f743954d8fc91ecc83fbfd283a0d8f7cfd dt-bindings: Add INA228 to ina2xx devicetree bindings
-fd470f4ed80ce0807943b8d6802ca41044c73521 hwmon: (ina238) Add support for INA228
-de1fffd88600c5ee1c095c84b86484cd0329a9e8 dt-bindings: hwmon: Replace bouncing Alexandru Tachici emails
-19122a7c28ed119c6ec9adca710acecf633af16a docs: powerpc: add htm.rst to toctree
-cf2a6de32cabbf84a889e24a9ee7c51dee4a1f70 powerpc64/bpf: Add jit support for load_acquire and store_release
-5bf2f5119b9e957f773a22f226974166b58cff32 Merge tag 'v6.16' into x86/cpu, to resolve conflict
-6b94bf976f9f9e6d4a6bf3218968a506c049702e MIPS: alchemy: gpio: use new GPIO line value setter callbacks for the remaining chips
-707b74c6c2caf89692bcd746f928fdcd564e151b MIPS: mobileye: dts: eyeq5,eyeq6h: rename the emmc controller
-748f8b27b0076379f71848259718cf9360e3a0c0 MIPS: Update Joshua Kinard's e-mail address
 3ebcbf079c26ab6e82faa7f896b66def55547eee MIPS: Don't use %pK through printk
 f61389a9cd26b424485acade726ccfff96c749de Merge tag 'i2c-host-6.17-pt1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 1c24e5fc0c7096e00c202a6a3e0c342c1afb47c2 i2c: core: Fix double-free of fwnode in i2c_unregister_device()
@@ -875,6 +800,8 @@ daa8af80d283ee9a7d42dd6f164a65036665b9d4 s390/mm: Allocate page table with PAGE_
 da23ea194db94257123f1534d487f3cdc9b5626d Merge tag 'mm-stable-2025-08-03-12-35' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 5998f2bca43e071e9c5a26cc7e7e00f9a78791c4 Merge tag 'exfat-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bcdbd62bd56e6d7383f9e06d9d148935b3c9b73 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
+f9a348e0de19226fc3c7e81de7677d3fa2c4b2d8 nfsd: don't set the ctime on delegated atime updates
+e5a73150776f18547ee685c9f6bfafe549714899 nfsd: avoid ref leak in nfsd_open_local_fh()
 c18646248fed07683d4cee8a8af933fc4fe83c0d RDMA/siw: Fix the sendmsg byte count in siw_tcp_sendpages
 f3ba7c9b0421e3935998334a860bd88f2ffdb18e smb: client: rename server mid_lock to mid_queue_lock
 9bd42798d5bf87f56d229a27e40140df95ef743d smb: client: add mid_counter_lock to protect the mid counter counter
@@ -922,12 +849,14 @@ cac5f2af13459f6258c4857d2e61ea53d0dfd751 ALSA: hda/tas2781: Support L"SmartAmpCa
 9f320dfb0ffc555aa2eac8331dee0c2c16f67633 ALSA: hda/ca0132: Fix missing error handling in ca0132_alt_select_out()
 d7edcc7c9109f165efcf5d767fed21578c37c46c Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 cca7a0aae8958c9b1cd14116cb8b2f22ace2205e Merge tag 'for-6.17-fix-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+bee47cb026e762841f3faece47b51f985e215edb sunrpc: fix handling of server side tls alerts
 9f7488f24c7571d349d938061e0ede7a39b65d6b irqchip/mvebu-gicp: Use resource_size() for ioremap()
 e29409faec87ffd2de2ed20b6109f303f129281b s390/boot: Fix startup debugging log
 2baf16f381decee303da406ca5a0991134260270 s390/debug: Fix typo in debug_sprintf_format_fn() comment
 1cdd5a2626d8c9eb059c6b93a628413da833df95 cifs: Move the SMB1 transport code out of transport.c
 4f67c41894674d351a4b4e7dd3471380b71b5bb3 HID: hid-steam: Use new BTN_GRIP* buttons
 ab93e0dd72c37d378dd936f031ffb83ff2bd87ce Merge branch 'next' into for-linus
+7b306dfa326f70114312b320d083b21fa9481e1e x86/sev: Evict cache lines during SNP memory validation
 472f8a3fccbb579cb98c1821da4cb9cbd51ee3e4 mailbox: mtk-cmdq: Switch to pm_runtime_put_autosuspend()
 fd3a4decb4f8ff1362db16fe42fc1af77d0259c3 mailbox: Use dev_fwnode()
 dfa477b6e674d51f87b342f1d31d9316e44d67d3 dt-bindings: mailbox: Add support for bcm74110
@@ -988,6 +917,13 @@ d9d87d90cc0b10cd56ae353f50b11417e7d21712 treewide: rename GPIO set callbacks bac
 42e6c6ce03fd3e41e39a0f93f9b1a1d9fa664338 lib/sbitmap: convert shallow_depth from one word to the whole sbitmap
 45fa9f97e65231a9fd4f9429489cb74c10ccd0fd lib/sbitmap: make sbitmap_get_shallow() internal
 ae633388cae349886f1a3cfb27aa092854b24c1b pptp: fix pptp_xmit() error path
+ad580dfa388fabb52af033e3f8cc5d04be985e54 btrfs: fix subpage deadlock in try_release_subpage_extent_buffer()
+15fc0bec883c95007a4901fe75f247bd0ca21651 btrfs: make btrfs_cleanup_ordered_extents() support large folios
+deaf895212da74635a7f0a420e1ecf8f5eca1fe5 btrfs: fix wrong length parameter for btrfs_cleanup_ordered_extents()
+fc5799986fbca957e2e3c0480027f249951b7bcf btrfs: error on missing block group when unaccounting log tree extent buffers
+4289b494ac553e74e86fed1c66b2bf9530bc1082 btrfs: do not allow relocation of partially dropped subvolumes
+3a931e9b39c7ff8066657042f5f00d3b7e6ad315 btrfs: zoned: do not select metadata BG as finish target
+7b632596188e1973c6b3ac1c9f8252f735e1039f btrfs: fix iteration bug in __qgroup_excl_accounting()
 9474e27a24a41e55d0ac2b77d8171fddec7dbb87 libbpf: Add the ability to suppress perf event enablement
 5e2ac8e8571df54d0a9c9d08f287e006269a6674 perf bpf-filter: Enable events manually
 0e260fc798bfef6b0dd24627afa01879f901e23e Merge branch 'perf-s390-regression-move-uid-filtering-to-bpf-filters'
@@ -1046,9 +982,73 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-33231a7f772cb4b4902ad1aa0bb60a52f832904f ACPI: GTDT: Generate platform devices for MMIO timers
-fbdd82d7f782817b1566415fc410ce9517081757 clocksource/drivers/arm_arch_timer: Add standalone MMIO driver
-7958b3d8182f7f3215e058349f45ffa8ee7d0f1a clocksource/drivers/arm_arch_timer_mmio: Switch over to standalone driver
-4e745ae1b4354058c85468125a309169080905df clocksource/drivers/arm_arch_timer_mmio: Add MMIO clocksource
+53e760d8949895390e256e723e7ee46618310361 Merge tag 'nfsd-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+20e0d8576484c60c8c0c9d5d6665541c37dee327 Merge tag 'snp_cache_coherency' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0e39a731820ad26533eb988cef27ad2506063b5b Merge tag 'for-6.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+8742b2d8935f476449ef37e263bc4da3295c7b58 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+1ae579784065389f570ca0e869d2030efd0e125d btrfs: replace double boolean parameters of cow_file_range()
+51f9d39f19b32cb932768a405e758ed560c04e45 btrfs: abort transaction on specific error places when walking log tree
+f6f79221b1287334866b78152c5277c6b116977e btrfs: abort transaction in the process_one_buffer() log tree walk callback
+ab85be59a41e1895e896c3a7016e7aa103f38675 btrfs: use local variable for the transaction handle in replay_one_buffer()
+c2870a8a7bbc4d79727d344a7472306ef7283300 btrfs: return real error from read_alloc_one_name() in drop_one_dir_item()
+00cb170718db5271109f75ff15d603418054ec86 btrfs: abort transaction where errors happen during log tree replay
+ffa2cfa8a3ac90f8cd1c5a32e2939fc5711bee2b btrfs: exit early when replaying hole file extent item from a log tree
+e19cc4b9e54c993d809f77fa4a5f5caf865a70cb btrfs: process inline extent earlier in replay_one_extent()
+b6dbae3e3d8049286e6f3cf31a7bab70fd4faee7 btrfs: use local key variable to pass arguments in replay_one_extent()
+dfbd52bbb3510ca544155937e3f376bde34c1828 btrfs: collapse unaccount_log_buffer() into clean_log_buffer()
+a9c72d3504996190b6f686bd6fedb2aca6974bcb btrfs: zoned: directly call do_zone_finish() from btrfs_zone_finish_endio_workfn()
+6a7d34bdc639b652c169459f669544b999e93a20 btrfs: zoned: return error from btrfs_zone_finish_endio()
+2be2aa1eb24856526797c3ad61001d69b3078e76 btrfs: remove duplicate inclusion of linux/types.h
+8a2e57347c5cee1e098f2f62c84b65117a3825df btrfs: zoned: skip ZONE FINISH of conventional zones
+267da170135438e7510154ba654ad51200130c34 btrfs: zoned: fix data relocation block group reservation
+d5789e150e405dd897e9291ef2b671450493e9ca btrfs: zoned: fix write time activation failure for metadata block group
+9e0023aac75cb99815c574ce30a9016eff3395db btrfs: zoned: limit active zones to max_open_zones
+040dec07b70696ef5a26078249893e662f908734 btrfs: try to search for data csums in commit root
+9b333eb49491ba4da06a6c52ddceb41131684c46 btrfs: zoned: refine extent allocator hint selection
+94866c76e660288a0d4d319c4d4e162f77f474a7 btrfs: abort transaction on failure to add link to inode
+df7dfcabde345ee18831b4c934cdb5bbfc7c433e btrfs: fix inode leak on failure to add link to inode
+167398f872e8e717052dfc1a99838f5204bf5b2e btrfs: simplify error handling logic for btrfs_link()
+b765aab5a974dfc9410748a4ab11de85bb4e498e btrfs: clear block dirty if submit_one_sector() failed
+697932658693bd31e423d188c84f52bc38d684e1 btrfs: clear block dirty if btrfs_writepage_cow_fixup() failed
+af6e5d239c4a2b1cb9f1f14dc8920f1ddefa4424 btrfs: do not set mtime/ctime to current time when unlinking for log replay
+f8fc88732ce5d69522e3ceb12da00306c64db180 btrfs: clear TAG_TOWRITE from buffer tree when submitting a tree block
+5fd4820be6956eb62579de3d2d6a60780fc12380 btrfs: subpage: keep TOWRITE tag until folio is cleaned
+1b4ef5730eb10966801d73c1e4515d2da2e8aa59 btrfs: fix incorrect log message for nobarrier mount option
+0f0f0ba1d87c0f20f8617b66c686ec2a5dd2dd99 btrfs: pass btrfs_inode pointer directly into btrfs_compress_folios()
+b10d8c89ca0af234147333f003ac547d802d52b6 btrfs: use blocksize to check if compression is making things larger
+e8817ecb570af23f2fcfaadb7792a8f82ef9edd6 btrfs: simplify support block size check
+3a57190c3a8743a18d04f834a3a4caa22323cbb0 btrfs: fix buffer index in wait_eb_writebacks()
+08aed6e42397ca24340cee73b03645d1b07b1144 btrfs: use PTR_ERR_OR_ZERO() to simplify code inbtrfs_control_ioctl()
+acd21e0be0f060740ab7b5ecd036694e3f54a44b btrfs: restore mount option info messages during mount
+e0d0d8a845989c3decde930a52cf0777767d8be5 btrfs: fix printing of mount info messages for NODATACOW/NODATASUM
+f27c0353baf030929d5b80db4857f9e7250f0067 btrfs: === misc-next on b-for-next ===
+bafe2ef6d359e2a6279628d85281eb2c6c3243f8 btrfs: implement ref_tracker for delayed_nodes
+98c16fe1b47a6a4cf43da217f4ed9ad23ec3503c btrfs: print leaked references in kill_all_delayed_nodes
+aef998ae187abf89682359f001d2aa9da9ef803b btrfs: add mount option for ref_tracker
+2d55efc5b2aef7c04d938a333eda186e629ef646 fixup, move ref_verify under CONFIG_BTRFS_DEBUG
+b27f2fcb485323c3ea1bfda3848052df5b269613 btrfs: fix race between logging inode and checking if it was logged before
+040a74b8e702032c616e3f665a44a3041871f53f btrfs: fix race between setting last_dir_index_offset and inode logging
+e963f6ff75b95ee31a9a63ffcf4c612bad69c440 btrfs: rework the error handling of run_delalloc_nocow()
+d00d2c7522edf3491fb596b11b1a05efc5a6ce80 btrfs: enhance error messages for delalloc range failure
+3ffc7e951d1d0f35d0842ec8d33e228c294753d6 btrfs: make nocow_one_range() to do cleanup on error
+dbf9e0f7ef65ef6bd29f98da2a509f41197374c2 btrfs: keep folios locked inside run_delalloc_nocow()
+f0ba0e7172a222ea6043b61ecd86723c46d7bcf2 btrfs: zoned: skip ZONE FINISH of conventional zones
+daa0fde322350b467bc62bc1b141bf62df6123f8 btrfs: zoned: fix data relocation block group reservation
+5c4b93f4c8e5c53574c1a48d66a27a2c68b414af btrfs: zoned: fix write time activation failure for metadata block group
+04147d8394e80acaaebf0365f112339e8b606c05 btrfs: zoned: limit active zones to max_open_zones
+4bcd3061e8154606af7f721cb75ca04ffe191a12 btrfs: clear block dirty if submit_one_sector() failed
+05b372862600e551bbf86e7f24a1caeed5e06150 btrfs: clear block dirty if btrfs_writepage_cow_fixup() failed
+f022499f24e520706b9a8238746e1cacc37eb4e0 btrfs: do not set mtime/ctime to current time when unlinking for log replay
+1f3d56db694cce6dfbffba0f398a06a222204487 btrfs: clear TAG_TOWRITE from buffer tree when submitting a tree block
+b1511360c8ac882b0c52caa263620538e8d73220 btrfs: subpage: keep TOWRITE tag until folio is cleaned
+dc61d97b0ba064fb21b01fbfa7436873948277bd btrfs: fix buffer index in wait_eb_writebacks()
+edf842abe4368ce3c423343cf4b23b210fcf1622 btrfs: fix incorrect log message for nobarrier mount option
+b435ab556bea875c088485f271ef2709ca1d75f5 btrfs: restore mount option info messages during mount
+74857fdc5dd2cdcdeb6e99bdf26976fd9299d2bb btrfs: fix printing of mount info messages for NODATACOW/NODATASUM
+9183ab68a8de6f568ad727a3757813ee68927cca Merge branch 'misc-6.17' into for-next-current-v6.16-20250813
+121e4935db3f5a29bf5f424b4415e47a01f83169 Merge branch 'b-for-next' into for-next-next-v6.17-20250813
+e00731b606b961812b2ccefbfda8ffd0ca3e8056 Merge branch 'misc-next' into for-next-next-v6.17-20250813
+c537404c73f501619c1d6e11c6c1edda1afeeff3 Merge branch 'for-next-current-v6.16-20250813' into for-next-20250813
+42b4f71ac6773333ec998ea712ccd8584d20f1de Merge branch 'for-next-next-v6.17-20250813' into for-next-20250813
 
---===============9116108650616537558==--
+--===============7324742732589312447==--
