@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 13 Aug 2025 03:50:33 -0000
-Message-Id: <175505703329.691474.18168972134325514896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 13 Aug 2025 04:13:28 -0000
+Message-Id: <175505840850.708851.12312652067126679767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2025-08-12-20-50
-    old: 0000000000000000000000000000000000000000
-    new: 728578bd0eca78365ed9d059f8c96b1cb1f79239
-  - ref: refs/tags/v6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
+  - ref: refs/heads/net-pending
+    old: a78ade6b430e94e18767fbb984e07658122544cd
+    new: 5cb3700205967706c7f4e2e2ee2591c37149f2b9
+    log: |
+         755ec416a1e165df932024a0876597e8496a504c selftests: net: Explicitly enable CONFIG_CRYPTO_SHA1 for IPsec
+         29a4d54d5ebc2f2a0c368b77e78a94ecd3fca67d sctp: Use HMAC-SHA1 and HMAC-SHA256 library for chunk authentication
+         5cb3700205967706c7f4e2e2ee2591c37149f2b9 sctp: Convert cookie authentication to use HMAC-SHA256
+         
