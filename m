@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============2457179453294587285=="
+Content-Type: multipart/mixed; boundary="===============8879384142191685837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 12 Aug 2025 23:37:04 -0000
-Message-Id: <175504182435.470966.15056707491871380202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 13 Aug 2025 00:04:33 -0000
+Message-Id: <175504347359.492917.13112889740933748999@gitolite.kernel.org>
 
---===============2457179453294587285==
+--===============8879384142191685837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/next
-    old: f11a5f89910a7ae970fbce4fdc02d86a8ba8570f
-    new: d9412f08e25a5b66f9021739c090cc9b8f1089b1
-    log: revlist-f11a5f89910a-d9412f08e25a.txt
+  - ref: refs/heads/for-next
+    old: dd589648208a4deab9049805e94b680a15149e61
+    new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    log: revlist-dd589648208a-8f5ae30d69d7.txt
 
---===============2457179453294587285==
+--===============8879384142191685837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f11a5f89910a-d9412f08e25a.txt
+Content-Disposition: attachment; filename=revlist-dd589648208a-8f5ae30d69d7.txt
 
+44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
+85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
+651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
+2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
+c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
+2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
+a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
+e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
 1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
 af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
 95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
@@ -1042,13 +1050,5 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-22fb4ad898853323f4943de3e0dc555915547ccc cxl/hdm: Use str_plural() to simplify the code
-733c4e9bcec9c481afee3891218277d9ecd06599 cxl/region: use str_enabled_disabled() instead of ternary operator
-524b2b76f365fb90a7f894ac17261ea760464e2c cxl: Move hpa_to_spa callback to a new root decoder ops structure
-b83ee9614a3ec196111f0ae54335b99700f78b45 cxl: Define a SPA->CXL HPA root decoder callback for XOR Math
-dc181170491bda9944f95ca39017667fe7fd767d cxl/region: Introduce SPA to DPA address translation
-25a0207828bc52f1ebb6588f9417eb43ca4960a3 cxl/core: Add locked variants of the poison inject and clear funcs
-c3dd67681c70cc95cc2c889b1b58a1667bb1c48b cxl/region: Add inject and clear poison by region offset
-d9412f08e25a5b66f9021739c090cc9b8f1089b1 Merge branch 'for-6.18/cxl-poison-inject' into cxl-for-next
 
---===============2457179453294587285==--
+--===============8879384142191685837==--
