@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 13 Aug 2025 22:34:27 -0000
-Message-Id: <175512446752.1715010.11933483616115736744@gitolite.kernel.org>
+Date: Wed, 13 Aug 2025 22:58:14 -0000
+Message-Id: <175512589416.1734285.6377222804942213153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: bf0c2a84df9fb0f7779eb24c30198ef93f292e66
-    new: 2caa6b88e0ba0231fb4ff0ba8e73cedd5fb81fc8
+    old: 2caa6b88e0ba0231fb4ff0ba8e73cedd5fb81fc8
+    new: 07866544e410e4c895a729971e4164861b41fad5
     log: |
-         2caa6b88e0ba0231fb4ff0ba8e73cedd5fb81fc8 bpf: Don't use %pK through printk
+         07866544e410e4c895a729971e4164861b41fad5 selftests/bpf: Copy test_kmods when installing selftest
          
