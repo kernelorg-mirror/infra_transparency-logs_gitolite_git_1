@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 13 Aug 2025 21:59:07 -0000
-Message-Id: <175512234736.1683334.4223841400120186644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 13 Aug 2025 22:00:55 -0000
+Message-Id: <175512245568.1686438.8736905849519664834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/dev
-    old: 523e71ba3007f8f7c260b9c2baf69c9461a84f55
-    new: a241c9688ac4ee043034c7d8f20dab064ca6d270
+  - ref: refs/heads/x86/entry
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: a16e1b753117b7234e53a7fa8a97cfa90da6ab5d
     log: |
-         6ebf239c797531dd5bf1cc7171daa7c2242b6ff0 rculist: move list_for_each_rcu() to where it belongs
-         a241c9688ac4ee043034c7d8f20dab064ca6d270 rcu: docs: Requirements.rst: Abide by conventions of kernel documentation
+         a16e1b753117b7234e53a7fa8a97cfa90da6ab5d x86/vsyscall: Do not require X86_PF_INSTR to emulate vsyscall
          
