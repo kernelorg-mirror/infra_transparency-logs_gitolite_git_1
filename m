@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1415349095568654086=="
+Content-Type: multipart/mixed; boundary="===============5120694167662587480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 13 Aug 2025 14:06:59 -0000
-Message-Id: <175509401960.1267747.14614135882206209302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Wed, 13 Aug 2025 14:13:47 -0000
+Message-Id: <175509442757.1273179.6087566423727286703@gitolite.kernel.org>
 
---===============1415349095568654086==
+--===============5120694167662587480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
+  - ref: refs/heads/main
     old: 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: |
          8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
          
 
---===============1415349095568654086==
+--===============5120694167662587480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755094065 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1755094018-778137dfdea650695680aa64b9cb2a85182446ae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755094472 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1755094426-b5bf02328c33e9fd8d9f4550f33cb0a2cc316f89
 
-2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/tty-testing
+2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 8f5ae30d69d7543eee0d70083daf4de8fe15d585 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmicnDEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V1cQAIFYV7p96J+eo4p86OqP
-ileFE7G1WcCfxeRvThzcXB9Hh4DbhIgGvyR6HPedEq95PIzfEZPWSnoG4YqXZ7si
-dnQHK7IJ677DT/76ji9JrOLzvIvv+7dVO7IzP6fJYm8pRlr5nuy7nVvJPOw/pXTN
-DL/DZlO9SFpofI8lDGE/3KCr9HJP5UyHkD1+WvMis03IwTf5zkNb3uzLmfh9lWeZ
-KiQXObXxTB6ufA5OU4F4NeYRc+Jj7HVrFQwhou16fwFXYlh21l96OiT/qW65cHVb
-dvxtMwKLw42lolT2J0wTLEicE+e4RBzqhv9vQzs2jFCMi963DgcCmEINBJEYpUes
-Rimn8hyQa9V0/Zb5E613FajtvcJlC+6W6vaubLOcOOvKQbEic+xLSGj4z7Gyjcam
-aR+A6TmzfE11DE0neQFmdAoks9iZ+iT+aApHhHjo1tnjaZmvJYqC8Q3/OnJLc59i
-swsxMUBGNgcuUV97yH6PYJ0DJkYgc17vzOGDtf6q3NdIGWl8AHOJEeaBnEwA7krP
-GCEqRq1vQp86s9WEmOKx1ZBjB2TlUNt9Z45aZujHTvg4vjKXw1CFXbH2gWX4ZP5I
-97/YWtNAW3hzReE6WGlxA+tyThus9M+lynCK8lZU+bN7iVZZpvN/2GPxkFtmqhSd
-wuLgusiUtpDO9G72UTIXtIrf
-=hi9V
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmicnckbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cpQQAMd9K2C+WP0300CLDfyG
+mwutWkA4o1Wo9eiYAtM+bIgWZ1gKTaH5L/pr4ydR8HT4KcI/JAsB6+SIlUsIvwJb
+7aRhwXiRBFWa5hM1b/qmZ3aRL2FYdwPe3UGMlB0U6wlaMols3ca6Wy5is8w0m2n4
+/RpqJH8eBKF5wh093O/DUl4P0N3jEvvI0CVXdLt4dQZcda0kdSlwE2g9oPfTxX7b
+t87WiLZDYth5ky+tETZP+e8KKMkvAw1r8Y6yqdRzsamw1H7RaGS8PBX4ViUAJdsu
+cbFNrDBpzUUfnSOdwMgCNmfJ5JjB0Z93CyYXhamUqM31be/In51hv78gMaKE9ATX
+hzNPp4iuIFqOL0Tt4G4RukhqIcrrQzGXqVY3xwwwZDQuSh578R3wSqNibogmEiMN
+cS671zoo3w1+yulKPvrZJxRk/OtK0rOfm9mq4UPQiu6cvCTFlznsS5jT6OOE+fao
+Fk4xP+DLTibba83ktE8y92v0pI/+FOuXvA8gPEOzljp1OWg9PHr6oHRn4FuYwumy
+ZqFFQ3LF+Qkodef2Zq6ZQUaKedWFxqaCBkDF5tlkhEUtX82XhsEQrOQSYWyP4WWB
+Vb5F84/lkPuEMcOZZjW5UtFzhoUgs1USHEplvZhUuyDVb1YnqWDX4pFQdXTuXIAv
+g1wxDQbZ0WUHikpGjEeIdhVN
+=ahGg
 -----END PGP SIGNATURE-----
 
---===============1415349095568654086==--
+--===============5120694167662587480==--
