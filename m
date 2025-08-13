@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 13 Aug 2025 15:23:57 -0000
-Message-Id: <175509863789.1340520.9004297966433694132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 13 Aug 2025 15:26:22 -0000
+Message-Id: <175509878274.1344064.460853420013991620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 4514042dea8acd8fea128259043e6d75d7ccf331
-    new: e703ab71396262f47d90695d1da920f5521f5468
+  - ref: refs/heads/1GbE
+    old: c04fdca8a98af5fc4eeb6569917f159cfa56b923
+    new: d7e82594a45c5cb270940ac469846e8026c7db0f
     log: |
-         d0de6895095356f1cc2d5f9825df220f10d34cee regulator: dt-bindings: Add Richtek RT5133 Support
-         714165e1c4b0d5b8c6d095fe07f65e6e7047aaeb regulator: rt5133: Add RT5133 PMIC regulator Support
-         e703ab71396262f47d90695d1da920f5521f5468 Merge remote-tracking branch 'regulator/for-6.18' into regulator-next
+         2efe41234dbd0a83fdb7cd38226c2f70039a2cd3 ptp: prevent possible ABBA deadlock in ptp_clock_freerun()
+         6db015fc4b5d5f63a64a193f65d98da3a7fc811d tls: handle data disappearing from under the TLS ULP
+         d7e82594a45c5cb270940ac469846e8026c7db0f selftests: tls: test TCP stealing data from under the TLS socket
          
