@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7887860988589794145=="
+Content-Type: multipart/mixed; boundary="===============0657977710892791848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 13 Aug 2025 11:37:36 -0000
-Message-Id: <175508505633.1136658.6338918931261142682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 13 Aug 2025 11:38:40 -0000
+Message-Id: <175508512053.1137440.5629652714511215262@gitolite.kernel.org>
 
---===============7887860988589794145==
+--===============0657977710892791848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-038d61fd6422-8f5ae30d69d7.txt
 
---===============7887860988589794145==
+--===============0657977710892791848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============7887860988589794145==--
+--===============0657977710892791848==--
