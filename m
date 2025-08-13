@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 13 Aug 2025 21:03:48 -0000
-Message-Id: <175511902844.1633739.16246609716632787693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 13 Aug 2025 21:13:34 -0000
+Message-Id: <175511961460.1641976.14996395672203162679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/wdt/no-register-err
-    old: 3a429f65db56d051fc0c0a24bd0b607c6ef0189c
-    new: 03bf74b43605477586a039cba981fc784942e150
+  - ref: refs/heads/dev
+    old: 9036879827bd069ef02b264d88e517168ff7258a
+    new: 523e71ba3007f8f7c260b9c2baf69c9461a84f55
     log: |
-         d657adaf097cef05a88a6505898bd6c59c3d2679 platform/x86: portwell-ec: don't print superfluous errors
-         4a7cd9a5d24f7866248deb856e6f855940793a88 watchdog: rzg2l_wdt: don't print superfluous errors
-         b917158e165fe8911645d1f7cccf1ef825f73761 watchdog: rzv2h_wdt: don't print superfluous errors
-         03bf74b43605477586a039cba981fc784942e150 watchdog: visconti: don't print superfluous errors
+         523e71ba3007f8f7c260b9c2baf69c9461a84f55 rcu: Remove local_irq_save/restore() in rcu_preempt_deferred_qs_handler()
          
