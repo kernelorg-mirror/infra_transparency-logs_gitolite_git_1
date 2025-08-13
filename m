@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6184543587369093050=="
+Content-Type: multipart/mixed; boundary="===============3079940950908466073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 13 Aug 2025 01:50:14 -0000
-Message-Id: <175504981424.589977.18433658523295555951@gitolite.kernel.org>
+Date: Wed, 13 Aug 2025 01:52:40 -0000
+Message-Id: <175504996069.591183.8356877565903959532@gitolite.kernel.org>
 
---===============6184543587369093050==
+--===============3079940950908466073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,37 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 383cd6d879a18acdaa84c29330b25c49cbc0b490
-    new: 72fc388d8bc0b49fd038477b74618cc15ce18b56
-    log: |
-         034d319c8899e8c5c0a35c6692c7fc7e8c12c374 scsi: ufs: core: Fix interrupt handling for MCQ Mode
-         a59976116a01dad1c72460f9ed700bf4b3fdbebd scsi: lpfc: Fix wrong function reference in a comment
-         eea6cafb5890db488fce1c69d05464214616d800 scsi: lpfc: Remove redundant assignment to avoid memory leak
-         7ec2bd6cd2d0ce6d6224519f895cb932ed5af667 scsi: ufs: mediatek: Fix out-of-bounds access in MCQ IRQ mapping
-         72fc388d8bc0b49fd038477b74618cc15ce18b56 scsi: ufs: core: Remove error print for devm_add_action_or_reset()
-         
+  - ref: refs/heads/6.17/scsi-fixes
+    old: 0000000000000000000000000000000000000000
+    new: c6b819e0058e5f34cb274018e1f5cd5b671cec7e
 
---===============6184543587369093050==
+--===============3079940950908466073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1755049858 -0400
+pusher 75C5DE3D 1755050005 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1755049812-60b810b9a885add80167a35158d26e952bc61259
+nonce 1755049959-a68d92c3f55e5f3c2a8683a602338eb68e6234d9
 
-383cd6d879a18acdaa84c29330b25c49cbc0b490 72fc388d8bc0b49fd038477b74618cc15ce18b56 refs/heads/queue
+0000000000000000000000000000000000000000 c6b819e0058e5f34cb274018e1f5cd5b671cec7e refs/heads/6.17/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmib74IACgkQ7ulgGnXF
-3j1Npw/9F3Ve74BEXmHmx2/CT+zw5SA5V2aQDRco5899kg/WLsxfgc3qi7R9d+aV
-xml5FC5gr0QWYRuWMKCidbWyRxrCcO6zIYjC0+dzMgGOAS5XvuufuUlPYJKf9oyF
-zo5mTbD+Wjdx7LK1MDskXfyMw7H96Z3sVx3QaxSNf9RxDwfVv3uknj9xxurKpRtD
-GkbhvBSOxY29U85alrh2/Jbs14uAydVZVef1FEN7N4Q0VFvZ/O7w4jki1/GlEDoZ
-4XeQiPJXDEir6k7WUt+i4cAvsbrCvZA0tQkaVkvgv4+Cbd7xa3tgr5U3TG8zUb4I
-RH8scBMp8ZTGMAietpGcTAEX9ltUd+Jrs82oJF9noXQQUO9jxA4y8bS3Pe3g5XOk
-hZCfvXBs2QUtDjx0NYoND42cOV0Utg9VxmSrMH51ZPeYhwVrUp3PCUI0cC8TYWio
-zXw/Q1JrqpamADGFKqazTt0eTETu0JrXcYkr3yg92rYRFg7R0t+I3VNf/IJnBtFM
-pUN9TjRhRe4GdbhvHoXZce2s4Kj2xT9psWNYcB0lXWL7s+PO9lUoU464fWWD0HoE
-kP4kN9YJ9XqcxFY1dyofaWNCCSmjkC+MF+rYlu5f8KFTCgJ7UwnU845MW+/vjmOZ
-oJLGu0tZ8nkR4S6DPELRE6PY/lo7P5X9x9vo8kN4B4/owpyI8p0=
-=7Zqg
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmib8BUACgkQ7ulgGnXF
+3j21Qg//d4jrnu3xqw2SWEVGBStE9910yPD30bnPTiwps+7Y+Ri9a1t/YhNznW8D
+YQY8Wdc+LOMh/Z0zbRo7nbpgHdJxSvR0R88bQzmznT+zLs4wuUq4kBNMJ6fjwoxy
+Jk6P+Dqi00F8uyYl8YCCJZ0XqD8H8oml9yA9stw9Z1Pi/1PjAcz/aICxk4R+hfZg
+ez4rW2a8DPHVEAyIGPi6sJRIPuy/CM/XajQ9maH0JXzI52AIz7JlMW9P3hnUmdXq
+Eu4hrukwMJepMpySzx7QqSguQ4iYBS5fWeOLRPW+X+KHG86zAU1dARHMdF9vt0Lv
+bj54GVXZPFmLcIwA6V092rHwbrPVT56fOhZ9UNtmY5UAFx/duTjjQPFn2JwJ8ShZ
+BHWbeGgaOH8Yvj+fg3TQdKsOQ4nwSHBfc70CWiUBYhFiK6eicecosfoh1/19lKNE
+eCJT4WOj6B/SvAvbFF4eLgCh/JEHbXWPZhFVsuQtmA4QlNKcfPaWgNbfkeljq5sX
+8qabY4AQBG77NcFdCIPWx52tXdXSY2shz9HOwwQSJuTHbwHV2uWHosYGNybxtuvq
+p1ZgXszX4XyXrI57oScAPYOC+kCYZIWpZqoiQ2LzUn/DvVsMAZ2wC+6V1ZlUD7ez
+Q3mAffmUnFCBVjfIaqrvn5cASK7VxLmN4L/2Kl1tabXtgkR+ppk=
+=Xr0G
 -----END PGP SIGNATURE-----
 
---===============6184543587369093050==--
+--===============3079940950908466073==--
