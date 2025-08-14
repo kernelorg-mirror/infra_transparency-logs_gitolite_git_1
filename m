@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 14 Aug 2025 14:17:10 -0000
-Message-Id: <175518103068.2514315.13930928893217578910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 14 Aug 2025 14:17:19 -0000
+Message-Id: <175518103976.2514786.124886416646651653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 4c1890e89dcc56361b436f90d274413fd7142e7d
-    new: 15f99843c3c7150d2f52fe85aadf9672edab1e4c
+    old: 18701c390678c117fda9ec8ce5d3c1565b29b4ed
+    new: bbaac808236f065edb63633fe069101cf3f2c0a4
     log: |
-         7bf9e646af9a0ceac57b27e62b71f750af096c2c ASoC: rt1321: Add RT1321 amplifier support
-         d578faf7096affc036fd16333f1bfbe4991a22f7 ASoC: remove unneeded 'fast_io' parameter in regmap_config
-         258384d8ce365dddd6c5c15204de8ccd53a7ab0a ASoC: es8323: enable DAPM power widgets for playback DAC and output
-         15f99843c3c7150d2f52fe85aadf9672edab1e4c Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
+         6d068f1ae2a2f713d7f21a9a602e65b3d6b6fc6d regulator: rt5133: Fix spelling mistake "regualtor" -> "regulator"
+         bbaac808236f065edb63633fe069101cf3f2c0a4 Merge remote-tracking branch 'regulator/for-6.18' into regulator-next
          
