@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1423631789514294575=="
+Content-Type: multipart/mixed; boundary="===============0580620577749144808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 14 Aug 2025 08:04:44 -0000
-Message-Id: <175515868482.2190855.12057079834368446555@gitolite.kernel.org>
+Date: Thu, 14 Aug 2025 08:05:13 -0000
+Message-Id: <175515871370.2193027.6008749919314836652@gitolite.kernel.org>
 
---===============1423631789514294575==
+--===============0580620577749144808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: d9104cec3e8fe4b458b74709853231385779001f
     new: 3b5ca25ecfa85098c7015251a0e7c78a8ff392e5
     log: revlist-d9104cec3e8f-3b5ca25ecfa8.txt
 
---===============1423631789514294575==
+--===============0580620577749144808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ acfea9361073134e828fddbd5f8201d428d7a7b1 selftests: netconsole: Validate interfa
 e2068f74b97653356ad7d6ce456db1f5b7fb575e net/mlx5: Don't use %pK through tracepoints
 3b5ca25ecfa85098c7015251a0e7c78a8ff392e5 Merge branch 'net-don-t-use-pk-through-printk-or-tracepoints'
 
---===============1423631789514294575==--
+--===============0580620577749144808==--
