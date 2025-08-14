@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 14 Aug 2025 00:46:37 -0000
-Message-Id: <175513239771.1827615.6459139606488180103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Thu, 14 Aug 2025 01:15:59 -0000
+Message-Id: <175513415905.1856720.13463672835126944297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/main
-    old: 39f8fcda2088382a4aa70b258d6f7225aa386f11
-    new: 212122775ea78ffe0508ee7ed08a9c2b980f09e2
+  - ref: refs/heads/for-6.17-fixes
+    old: 2c6754b4aab68264a5d7dac0c9f46aeb2ea3c917
+    new: 19769b1d0e82e66f9969b93a9b051665cae16c4f
     log: |
-         c5ec7f49b480db0dfc83f395755b1c2a7c979920 devlink: let driver opt out of automatic phys_port_name generation
-         e67a0bc3ed4fd8ee1697cb6d937e2b294ec13b5e ixgbe: prevent from unwanted interface name changes
-         212122775ea78ffe0508ee7ed08a9c2b980f09e2 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         19769b1d0e82e66f9969b93a9b051665cae16c4f ata: libata-eh: Fix link state check for IDE/PATA ports
          
