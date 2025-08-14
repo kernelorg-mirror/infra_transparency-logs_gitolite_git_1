@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Thu, 14 Aug 2025 10:36:21 -0000
-Message-Id: <175516778107.2324613.17153054717231103663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 14 Aug 2025 10:39:31 -0000
+Message-Id: <175516797195.2326769.9602443299378019841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/for-linus
-    old: 2041b31cf28fe61f1606bfaa7ccdeafb79ba9d97
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/master
-    old: 0000000000000000000000000000000000000000
-    new: 9b2a6e34b876d9c71fd0feec0e7ee07031bc1902
+  - ref: refs/heads/master
+    old: c88a7529fb666963552481bf01175064a64a7cb6
+    new: d3c49ee062f761cb4ad272c1300ebb5dfd932c9a
+    log: |
+         ff89d9c4a0c1a5198eb4fc34da895c2598516bdc lsclocks: add auxiliary clocks
+         31a8d6b7dfcf7c27143385cb2706cb1ac048e934 Merge branch 'lsclocks/auxclocks' of https://github.com/t-8ch/util-linux
+         d3c49ee062f761cb4ad272c1300ebb5dfd932c9a lsclocks: use MAX_CLOCKS, improve indention
+         
