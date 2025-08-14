@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8563147504388511139=="
+Content-Type: multipart/mixed; boundary="===============5597818098915229793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 14 Aug 2025 05:39:54 -0000
-Message-Id: <175514999420.2071867.2819279611268682454@gitolite.kernel.org>
+Date: Thu, 14 Aug 2025 05:40:09 -0000
+Message-Id: <175515000991.2073817.2924268822485389389@gitolite.kernel.org>
 
---===============8563147504388511139==
+--===============5597818098915229793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4c699535a3d483562354432a945a035f15dfceeb
-    new: 44cb47d542621ec7767e38d612f4e608e8d21752
-    log: revlist-4c699535a3d4-44cb47d54262.txt
+    old: 44cb47d542621ec7767e38d612f4e608e8d21752
+    new: 881b3e9efa7e9ce342ee94d4f4f603747c1aa2f4
+    log: |
+         611d98409fdd320313ae462784d8e0c0a52d4c7a Merge branch into tip/master: 'locking/urgent'
+         7cbdb8a9d7afeed921cf623bd2b65e17e461d4cd Merge branch into tip/master: 'x86/urgent'
+         84477af03966a53332d30197347ef95ddd69bf08 Merge branch into tip/master: 'core/bugs'
+         03f462fb80b13f7a1fd534ac0b7a444d9df033f5 Merge branch into tip/master: 'timers/clocksource'
+         881b3e9efa7e9ce342ee94d4f4f603747c1aa2f4 Merge branch into tip/master: 'x86/entry'
+         
+  - ref: refs/heads/tip/urgent
+    old: 9f32b58839fd4de3ec760eacf26e22d1ebc64770
+    new: 7cbdb8a9d7afeed921cf623bd2b65e17e461d4cd
+    log: revlist-9f32b58839fd-7cbdb8a9d7af.txt
 
---===============8563147504388511139==
+--===============5597818098915229793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c699535a3d4-44cb47d54262.txt
+Content-Disposition: attachment; filename=revlist-9f32b58839fd-7cbdb8a9d7af.txt
 
 475356fe2814f2f0b188da8bf0f1fcc579d81272 kasan/test: fix protection against compiler elision
 47b0f6d8f0d2be4d311a49e13d2fd5f152f492b2 mm/kmemleak: avoid deadlock by moving pr_warn() outside kmemleak_lock
@@ -47,12 +57,9 @@ c0e1b774f68bdbea1618e356e30672c7f1e32509 proc: proc_maps_open allow proc_mem_ope
 91325f31afc1026de28665cf1a7b6e157fa4d39d Merge tag 'mm-hotfixes-stable-2025-08-12-20-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 3a4a0367c9f45b025ec57e1ba492512d5479d361 Merge tag 'rcu.fixes.6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 dfc0f6373094dd88e1eaf76c44f2ff01b65db851 Merge tag 'erofs-for-6.17-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-8ba38a7a9a699905b84fa97578a8291010dec273 x86/vsyscall: Do not require X86_PF_INSTR to emulate vsyscall
-3da01ffe1aeaa0d427ab5235ba735226670a80d9 x86/fred: Remove ENDBR64 from FRED entry points
 e2f9ae91619add9884428d095c3c630b6b120a61 MAINTAINERS: Remove bouncing kprobes maintainer
 0cc53520e68bea7fb80fdc6bdf8d226d1b6a98d9 Merge tag 'probes-fixes-v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-e731d3b268274ae4ff763ecec92b2337f0c3ebd3 Merge branch into tip/master: 'locking/urgent'
-2f35b778a0570acd89e573e312a389aea452333e Merge branch into tip/master: 'x86/entry'
-44cb47d542621ec7767e38d612f4e608e8d21752 Merge branch 'linus'
+611d98409fdd320313ae462784d8e0c0a52d4c7a Merge branch into tip/master: 'locking/urgent'
+7cbdb8a9d7afeed921cf623bd2b65e17e461d4cd Merge branch into tip/master: 'x86/urgent'
 
---===============8563147504388511139==--
+--===============5597818098915229793==--
