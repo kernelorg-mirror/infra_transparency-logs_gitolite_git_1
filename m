@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Thu, 14 Aug 2025 21:24:21 -0000
-Message-Id: <175520666154.2878521.2542401496411312568@gitolite.kernel.org>
+Date: Thu, 14 Aug 2025 21:32:45 -0000
+Message-Id: <175520716589.2885983.16512144249304883210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next-staging
-    old: 6e7da162029740700adf8e53c2245966a131b6d0
+  - ref: refs/heads/hyperv-next
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: 2f89f4a42b16e80551e393d1ba05e78b10c198b5
     log: |
          a34c08f465ffd955b16c31f63eeb60bd90039b5b hyperv: Add missing field to hv_output_map_device_interrupt
