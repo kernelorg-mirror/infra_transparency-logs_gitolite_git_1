@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 14 Aug 2025 09:44:33 -0000
-Message-Id: <175516467395.2274964.4618186464091807259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 14 Aug 2025 09:47:23 -0000
+Message-Id: <175516484383.2277871.10252762328442353169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-6.17-fixes
-    old: ade67f22f1200b0fac15b74e43e77971dd27f906
-    new: 35f6bedccf4c4280f02d48e4f7d194e64e9a62d8
+  - ref: refs/heads/main
+    old: 52565a935213cd6a8662ddb8efe5b4219343a25d
+    new: 4faff70959d51078f9ee8372f8cff0d7045e4114
     log: |
-         35f6bedccf4c4280f02d48e4f7d194e64e9a62d8 ata: libata-eh: Fix link state check for IDE/PATA ports
+         4faff70959d51078f9ee8372f8cff0d7045e4114 net: usb: asix_devices: add phy_mask for ax88772 mdio bus
          
