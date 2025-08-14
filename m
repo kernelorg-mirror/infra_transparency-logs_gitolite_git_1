@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 14 Aug 2025 00:05:08 -0000
-Message-Id: <175512990855.1789962.17280245991767165700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 14 Aug 2025 00:08:20 -0000
+Message-Id: <175513010011.1791520.14626656790637781458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b9970c4d2a34dee5ffd7c2937a631ade8c0a809d
-    new: 4d18083d6b2c02e89d833c92c3fb79e2fe1e6795
+    old: 3bfc778297ecf9348056cec65e2ac6c26a1419d1
+    new: a58893aa173923fdc49c2d35d638d8133065e952
     log: |
-         4d18083d6b2c02e89d833c92c3fb79e2fe1e6795 vsock: use sizeof(struct sockaddr_storage) instead of magic value
+         a58893aa173923fdc49c2d35d638d8133065e952 net: mctp: Fix bad kfree_skb in bind lookup test
          
