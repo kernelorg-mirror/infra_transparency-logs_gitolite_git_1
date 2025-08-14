@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 14 Aug 2025 01:15:59 -0000
-Message-Id: <175513415905.1856720.13463672835126944297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 14 Aug 2025 01:16:31 -0000
+Message-Id: <175513419193.1857205.16727643054116932396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-6.17-fixes
-    old: 2c6754b4aab68264a5d7dac0c9f46aeb2ea3c917
-    new: 19769b1d0e82e66f9969b93a9b051665cae16c4f
+  - ref: refs/heads/main
+    old: 212122775ea78ffe0508ee7ed08a9c2b980f09e2
+    new: 1c756093cdc1fd9973e156f527a08731795d41a2
     log: |
-         19769b1d0e82e66f9969b93a9b051665cae16c4f ata: libata-eh: Fix link state check for IDE/PATA ports
+         87c6efc5ce9c126ae4a781bc04504b83780e3650 net/sched: ets: use old 'nbands' while purging unused classes
+         774a2ae6617b30a4dcc7ebaf178ef05da05b2a47 selftests: net/forwarding: test purge of active DWRR classes
+         1c756093cdc1fd9973e156f527a08731795d41a2 Merge branch 'ets-use-old-nbands-while-purging-unused-classes'
          
