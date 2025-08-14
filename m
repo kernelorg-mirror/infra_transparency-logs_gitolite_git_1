@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2141747825030145294=="
+Content-Type: multipart/mixed; boundary="===============4280150966210890278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 14 Aug 2025 15:25:48 -0000
-Message-Id: <175518514877.2571990.8270229742252919952@gitolite.kernel.org>
+Date: Thu, 14 Aug 2025 15:25:51 -0000
+Message-Id: <175518515137.2572117.6023256143181279825@gitolite.kernel.org>
 
---===============2141747825030145294==
+--===============4280150966210890278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: d7e82594a45c5cb270940ac469846e8026c7db0f
+  - ref: refs/heads/10GbE
+    old: e67a0bc3ed4fd8ee1697cb6d937e2b294ec13b5e
     new: 4faff70959d51078f9ee8372f8cff0d7045e4114
-    log: revlist-d7e82594a45c-4faff70959d5.txt
+    log: revlist-e67a0bc3ed4f-4faff70959d5.txt
 
---===============2141747825030145294==
+--===============4280150966210890278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7e82594a45c-4faff70959d5.txt
+Content-Disposition: attachment; filename=revlist-e67a0bc3ed4f-4faff70959d5.txt
 
-c5ec7f49b480db0dfc83f395755b1c2a7c979920 devlink: let driver opt out of automatic phys_port_name generation
-e67a0bc3ed4fd8ee1697cb6d937e2b294ec13b5e ixgbe: prevent from unwanted interface name changes
+2efe41234dbd0a83fdb7cd38226c2f70039a2cd3 ptp: prevent possible ABBA deadlock in ptp_clock_freerun()
+6db015fc4b5d5f63a64a193f65d98da3a7fc811d tls: handle data disappearing from under the TLS ULP
+d7e82594a45c5cb270940ac469846e8026c7db0f selftests: tls: test TCP stealing data from under the TLS socket
 30c1d25b9870d551be42535067d5481668b5e6f3 netfilter: nft_set_pipapo: fix null deref for empty set
 c0a23bbc98e93704a1f4fb5e7e7bb2d7c0fb6eb3 ipvs: Fix estimator kthreads preferred affinity
 cf5fb87fcdaaaafec55dcc0dc5a9e15ead343973 netfilter: nf_tables: reject duplicate device on updates
@@ -42,4 +43,4 @@ b2cafefaf0473bafb0c3502a8530167d35e06113 netdevsim: Fix wild pointer access in n
 52565a935213cd6a8662ddb8efe5b4219343a25d net: kcm: Fix race condition in kcm_unattach()
 4faff70959d51078f9ee8372f8cff0d7045e4114 net: usb: asix_devices: add phy_mask for ax88772 mdio bus
 
---===============2141747825030145294==--
+--===============4280150966210890278==--
