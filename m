@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7544288449376268823=="
+Content-Type: multipart/mixed; boundary="===============3595633538208963186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 14 Aug 2025 08:05:53 -0000
-Message-Id: <175515875331.2193483.18148780411756821604@gitolite.kernel.org>
+Date: Thu, 14 Aug 2025 08:06:23 -0000
+Message-Id: <175515878324.2193930.18140316059783679628@gitolite.kernel.org>
 
---===============7544288449376268823==
+--===============3595633538208963186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: d8369183a01a9f06f08c5d52e2667035e66b9957
     new: 52565a935213cd6a8662ddb8efe5b4219343a25d
     log: revlist-d8369183a01a-52565a935213.txt
 
---===============7544288449376268823==
+--===============3595633538208963186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b2cafefaf0473bafb0c3502a8530167d35e06113 netdevsim: Fix wild pointer access in n
 1c756093cdc1fd9973e156f527a08731795d41a2 Merge branch 'ets-use-old-nbands-while-purging-unused-classes'
 52565a935213cd6a8662ddb8efe5b4219343a25d net: kcm: Fix race condition in kcm_unattach()
 
---===============7544288449376268823==--
+--===============3595633538208963186==--
