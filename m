@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3152426720453300856=="
+Content-Type: multipart/mixed; boundary="===============2746872515416501621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 14 Aug 2025 15:38:32 -0000
-Message-Id: <175518591239.2583467.15652630626211633877@gitolite.kernel.org>
+Date: Thu, 14 Aug 2025 15:38:34 -0000
+Message-Id: <175518591467.2583716.783296060262548384@gitolite.kernel.org>
 
---===============3152426720453300856==
+--===============2746872515416501621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: fdbe93b7f0f86c943351ceab26c8fad548869f91
     new: 875c541ea680d0df2de3e666d8125bee08c1bc1b
     log: revlist-fdbe93b7f0f8-875c541ea680.txt
 
---===============3152426720453300856==
+--===============2746872515416501621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ f22cc6f766f84496b260347d4f0d92cf95f30699 net: ethtool: support including Flow La
 26dbe030ff08930bb243af3c66dd3b7e7bb8406d selftests: drv-net: add test for RSS on flow label
 875c541ea680d0df2de3e666d8125bee08c1bc1b Merge branch 'net-ethtool-support-including-flow-label-in-the-flow-hash-for-rss'
 
---===============3152426720453300856==--
+--===============2746872515416501621==--
