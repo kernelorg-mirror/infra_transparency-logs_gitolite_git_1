@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 14 Aug 2025 13:36:18 -0000
-Message-Id: <175517857834.2478329.758363009799192993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 14 Aug 2025 13:56:53 -0000
+Message-Id: <175517981377.2494947.6359094052959652751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
   - ref: refs/heads/for-next
-    old: c2a1a5ede4717e6f12d49fe5177a66d40cbf4847
-    new: f56fbb6a1b36da1d481d7ce8245f7bedad3aa863
+    old: 6fde633b19345aae9fe98e8c8f2325382578b7f2
+    new: fe66b18fd60578fa809cc7ca4bf8c06cd6d6e60d
     log: |
-         f93dd842719b123cfad6385a32acf6386a3c7659 dt-bindings: display: Drop duplicate ti,opa362 binding
-         6b8c52b41be4b3940f38b037cc953505aeb5768c dt-bindings: arm: Convert cavium,thunder-88xx to DT schema
-         f56fbb6a1b36da1d481d7ce8245f7bedad3aa863 dt-bindings: arm: Drop obsolete cavium-thunder2.txt
+         fe66b18fd60578fa809cc7ca4bf8c06cd6d6e60d docs: device-mapper: fixed spelling mistakes in documentation
          
