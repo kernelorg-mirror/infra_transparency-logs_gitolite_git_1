@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7661832110893709140=="
+Content-Type: multipart/mixed; boundary="===============3656253346834506898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 15 Aug 2025 15:57:43 -0000
-Message-Id: <175527346322.4126207.7395686940539508180@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 15:57:46 -0000
+Message-Id: <175527346612.4126294.7005404333012042@gitolite.kernel.org>
 
---===============7661832110893709140==
+--===============3656253346834506898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 875c541ea680d0df2de3e666d8125bee08c1bc1b
     new: 88250d40ed59d2b3c2dff788e9065caa7eb4dba0
     log: revlist-875c541ea680-88250d40ed59.txt
 
---===============7661832110893709140==
+--===============3656253346834506898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -389,4 +389,4 @@ f09fc24dd9a5ec989dfdde7090624924ede6ddc7 selftests: drv-net: wait for carrier
 61730ac10ba90c52563861a0119504f6a9be9868 net: dsa: b53: mmap: Implement bcm63268 gphy power control
 88250d40ed59d2b3c2dff788e9065caa7eb4dba0 Merge branch 'net-dsa-b53-mmap-add-bcm63268-gphy-power-control'
 
---===============7661832110893709140==--
+--===============3656253346834506898==--
