@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4284211875727596323=="
+Content-Type: multipart/mixed; boundary="===============3701559941841929805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 15 Aug 2025 15:23:29 -0000
-Message-Id: <175527140932.4091255.2354005874687246424@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 15:23:32 -0000
+Message-Id: <175527141260.4091486.10689471148774104448@gitolite.kernel.org>
 
---===============4284211875727596323==
+--===============3701559941841929805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 4faff70959d51078f9ee8372f8cff0d7045e4114
     new: 065c31f2c6915b38f45b1c817b31f41f62eaa774
     log: revlist-4faff70959d5-065c31f2c691.txt
 
---===============4284211875727596323==
+--===============3701559941841929805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -298,4 +298,4 @@ d1547bf460baec718b3398365f8de33d25c5f36f net: bridge: fix soft lockup in br_mult
 8c06cbdcbaea34d7b96d76df4d6669275c1d291a selftests/tc-testing: Check backlog stats in gso_skb case
 065c31f2c6915b38f45b1c817b31f41f62eaa774 rtase: Fix Rx descriptor CRC error bit definition
 
---===============4284211875727596323==--
+--===============3701559941841929805==--
