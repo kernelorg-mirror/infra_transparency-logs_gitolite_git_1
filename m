@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6395605965083601293=="
+Content-Type: multipart/mixed; boundary="===============5274978654776030003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 15 Aug 2025 21:28:18 -0000
-Message-Id: <175529329828.231612.17946373453535058721@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 21:28:21 -0000
+Message-Id: <175529330139.231770.12542282294760033677@gitolite.kernel.org>
 
---===============6395605965083601293==
+--===============5274978654776030003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: 8da114ecc3aae834ea08e9e114590a162d30185c
-    new: c7556dc164ffc0a20d60c1e67b31de798e8294ef
-    log: revlist-8da114ecc3aa-c7556dc164ff.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 824fdf69d6b5382964eb78bcc560e4d0c9626750
+    new: 8cda333b0038527f70a564029412392d84bb5e3e
+    log: revlist-824fdf69d6b5-8cda333b0038.txt
 
---===============6395605965083601293==
+--===============5274978654776030003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8da114ecc3aa-c7556dc164ff.txt
+Content-Disposition: attachment; filename=revlist-824fdf69d6b5-8cda333b0038.txt
 
 a9042a7ce3eb7843efd39c4a0f6cfc600dfd6c72 nfsd: don't set the ctime on delegated atime updates
 e05768f3661a1f4eab95bae0f5503dc81f4fd3bd nfsd: avoid ref leak in nfsd_open_local_fh()
@@ -109,5 +109,32 @@ f2aa039136d6a860654b358df70d874e303eb26e nfs/localio: avoid issuing misaligned I
 1550afa1c2da142c5a4989797dabd68a7b418621 nfs/direct: add misaligned WRITE handling
 bc841a39518a23a93806494d97d777d740d044eb nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
 c7556dc164ffc0a20d60c1e67b31de798e8294ef NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+a416b45499d94f121b43923a9c46440166b61f00 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+6f457b9fed0d9074837c725d1fa4bcf95e08d532 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+aecc7ca4b583cf62f699bdbdf06dcc1fb9112899 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+7cdba7db542f840dac1f1ecd23b8bdb17ebe520d Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+d90b54706c704035edc600dbcf66a7ad3a6fdfa0 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+6d6daaae1875dfa3919e07e0e16a82eb9e1af073 Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+be05d0a96b700d2743502650bc3a2ad38fe98ad9 Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+926a7645d41d85c77b86c04ebf6d48b1d343208a Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+ed3b29d2a6ea8d7cb7c0cada19e7528fe14d9177 Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
+caa22086884da5926af964b37857dccf8e9152d9 Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+f1c57087b9f4e9eae7f73746197a23539cc23951 kernel-6.12.24-1
+6f6929df2fcba6490c10c83da36d77cd697ce4c3 kernel-6.12.24-2
+0f12b4715aa94b48efaef81b6981e0d86771e441 kernel-6.12.24-3
+b0990efa24c5707eb77eb9e3a1e4f37582105611 kernel-6.12.24-4
+a02a89815cea928af08f07add3e40820b6ec130c kernel-6.12.24-5
+2ef953a4c94737bbd1823280a7729880e61d26d6 kernel-6.12.24-6
+33768dfe19aa6df95f67b8e3d15ff013aef96713 kernel-6.12.24-7
+93669352075044b28fe606d56a33efda26ce125a kernel-6.12.24-8
+ee0dfa59f6e3b40b9e7c3de7fad41d5f9720a77f kernel-6.12.24-9
+15a0af2eac917b771ca93060e1397c7a020c871e kernel-6.12.24-10
+783773035a35a994ad6e61612657c4ceb20a1ee7 kernel-6.12.24-11
+91049c48bf458877c27f9982104f939d2a589446 kernel-6.12.24-12
+4bfda6457889aa7c8f4bdc6a546d36ca0b23d202 kernel-6.12.24-13
+69287f71e8f795d2a6ae69fa68c0ab8ace74855a kernel-6.12.24-14
+00e973420b2bf2220abe08119287a3f3f701c0bd kernel-6.12.24-15
+645706f6b456642793e3188b355a6b2a4a1dcb81 kernel-6.12.24-16
+8cda333b0038527f70a564029412392d84bb5e3e kernel-6.12.24-17
 
---===============6395605965083601293==--
+--===============5274978654776030003==--
