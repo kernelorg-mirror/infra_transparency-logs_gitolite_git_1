@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8910126401373981897=="
+Content-Type: multipart/mixed; boundary="===============9125928036897287760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 15 Aug 2025 03:34:30 -0000
-Message-Id: <175522887065.3192302.694053150043184728@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 03:34:53 -0000
+Message-Id: <175522889380.3192690.7423557126605429787@gitolite.kernel.org>
 
---===============8910126401373981897==
+--===============9125928036897287760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 469b5a27ef43d973f5a5cde4a7ed8fc18306c9ae
-    new: 6191582a00788518056f430e8e033040db92137c
+  - ref: refs/heads/6.17/scsi-fixes
+    old: c6b819e0058e5f34cb274018e1f5cd5b671cec7e
+    new: 9dcf111dd3e7ed5fce82bb108e3a3fc001c07225
     log: |
          fad2cf04e91fd3c4310731537bf98d1f8a0b4137 scsi: fnic: Remove a useless struct mempool forward declaration
          823f95575d85454ccad7d5b684aec42e57b962f6 scsi: ufs: ufs-pci: Add support for Intel Wildcat Lake
          9dcf111dd3e7ed5fce82bb108e3a3fc001c07225 scsi: qla4xxx: Prevent a potential error pointer dereference
          
 
---===============8910126401373981897==
+--===============9125928036897287760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1755228896 -0400
+pusher 75C5DE3D 1755228920 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1755228849-f58642d1bb160b28320aa2832e883b568462c259
+nonce 1755228873-e9ea8bbbea0feff6ea8b8018a124de983fcc15a5
 
-469b5a27ef43d973f5a5cde4a7ed8fc18306c9ae 6191582a00788518056f430e8e033040db92137c refs/tags/mkp-scsi-fixes
+c6b819e0058e5f34cb274018e1f5cd5b671cec7e 9dcf111dd3e7ed5fce82bb108e3a3fc001c07225 refs/heads/6.17/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmiequAACgkQ7ulgGnXF
-3j3GFQ/+IqCl+LKhXr4l3fZB5aRPA0oi5lA8gqf7Y1P7SoY9Qbf41WDGsPhtVi/p
-A1IGzwfLGBoTBl3dG08VTiwNdYjYm3KJf1wRTv19R9ZBPNw6X9O8CiPtcG5ex526
-1v042uEOxTFNnzNXuO7vM0qoAehhJt0tMetWuTBJV7C/ultZfDqI/D0ftQRHzoL+
-XTIsBLOaRf0SPzho7DCI8V52awgNppn80V31Yqhjs37x+PWfzqUr6Hj3FOw4Ifpc
-cOWhROCHaBY1U+S9nUJlrtr+xlklIwHMnzwIdl4PLzBgY/OoQNnAHdHw8SzhQwfa
-CDKGxGVHXYvHUUXAJD/MU0NYHpxcZGvHMExH0lL9hq4tyc3jQiIszEyaGGfdHzqh
-ML3Z8ZM+vBNcZetYJQ/ZPPTbEj8xcVvaKA66NxQz1fRcvpCPEIcbdS9vSIiIWUyt
-4venWL9nx3X34lN0wATudJWqpDiGQxSZDEF7IJnCp02ja/9fGk9Syrt2+eQn2ktn
-b9SW/1FHYVXLSL3GhUiLfsiJLKUOHN7OOBnC9paGr9sYsAqXxCCgbGT7FA+VMe2L
-AptUVKpcAE7ttq/9OPPHdNgL2bJ40yfdShy3whTdgy4cnE5fs+h8G4/93wKL4RR1
-DOM6hPV4+U0OsX1l/E9iaLkixpUiS0kd3OpSz2U3DUQB3RPJI64=
-=yuZ6
+iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmieqvgACgkQ7ulgGnXF
+3j3xiQ/3flHcazFu/x22b1dCKQNBEsCKGiqwgzSQ36OEhLc7UTjYsgcJRh51pBPx
+rGjOqV9DxXhotAjQmr+FO2NfjxN+Bm+KEgowEOYPXt/jfCBGMOIXrmNhXMQffRHn
+9oT2Cm387wLd3s6790tau/VUXZXnHsjKtgFH8o/Xevv6Vtu2fZlMqpiQiLfwp1PV
+ir61Zh1NUQcEDpOCXKX97WV9yubI6Hlw24P1M3YaoL4pdsB4vBFXr1PgztqX3Vj4
+9SaIX2n+6WXy+UNMcidp7SdFRmvfXsYwa8CVhPBpmpTf+YEAxy1kigcC62vCnlNJ
+F8mDj1BVLTDo4UAiF1vQgNYc69uKLxRGNVf0J/gQfeQK8raxSHeN0We1lvQrSEMs
+3DMGk7CPJ+5trP8+H4HYAVFs8/QSAXVpkyZwPGSsup27iUIGj0D6J4ro3sysXkDQ
+VZPFkSwccFfNbGQhfimJmpQaABMTaYYm4gsht5iZyJkkz2CV+zyO6+wTZd1U48cs
+/9swISIdMtXyY89ZqD+Tx+RhdOpgGpIGuPceoiiJ4O68Hhal3NJTq7Wv6BpyamdN
+qPhLfHhVtmwfopidersUbG0CstZC+yxeJMvLYu6m5ZY8lWltFrSMkLi4+SVRAImC
+TaomJXqvaveZp3nFy2wTkVPAde2v7DRWAdHakF4lDCiIpO6ohA==
+=MIhn
 -----END PGP SIGNATURE-----
 
---===============8910126401373981897==--
+--===============9125928036897287760==--
