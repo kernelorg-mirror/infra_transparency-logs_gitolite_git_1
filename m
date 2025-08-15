@@ -1,66 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5135778632085192895=="
+Content-Type: multipart/mixed; boundary="===============6348750374760780440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 15 Aug 2025 21:56:29 -0000
-Message-Id: <175529498934.259850.7460723614886526330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 15 Aug 2025 22:16:41 -0000
+Message-Id: <175529620183.276317.3955920188560001553@gitolite.kernel.org>
 
---===============5135778632085192895==
+--===============6348750374760780440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/tags/v6.12.24-17
-    old: a431b1dde82b2e0c54fb5b6b9f5d7bec07e78508
-    new: 7474c39dd880ef578260d3428ffcf61bf6e2e0c3
-    log: revlist-a431b1dde82b-7474c39dd880.txt
+  - ref: refs/heads/dev-queue
+    old: dfda01272d6a3c0e1afcc3ff83b613fa9cf65ccf
+    new: 2e4bbc386df0838befc6e0c5ef8e2b24c174f173
+    log: revlist-dfda01272d6a-2e4bbc386df0.txt
 
---===============5135778632085192895==
+--===============6348750374760780440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a431b1dde82b-7474c39dd880.txt
+Content-Disposition: attachment; filename=revlist-dfda01272d6a-2e4bbc386df0.txt
 
-7f914a0fdfd6423eee478a26f7c1e284c25cfe63 nfs/localio: restore creds before releasing pageio data
-2c87e21f74137516018fba4aa5885a7cf0b7991d nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
-c0894c19961c7c8630d6af017b943f491a33a7e6 nfs/localio: make trace_nfs_local_open_fh more useful
-65408044e478281c29f4767a4cb4a5f34989eab8 nfs/localio: avoid issuing misaligned IO using O_DIRECT
-6918f28468071b495eb89918402fde83619c0b79 nfs/localio: refactor iocb and iov_iter_bvec initialization
-ca52e7fcd60815824019d340471ab098bb060328 nfs/localio: refactor iocb initialization
-e14feb856634e4407a4ec2b38b9054f9a9a2360e nfs/direct: add misaligned READ handling
-6083056b58d66b59704399d5958d003c456ab328 nfs/direct: add misaligned WRITE handling
-9b471ea292ded4ab92771c5417814c0771389f85 nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
-3894e033d11a82a3cf51b70dcf83673961ae4242 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
-98d0f3495e21dc9ca6a473cb7c1a603ad93a3bfb Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
-b3efbc498aa71dc8c8303726bbaa8396e8d6e88a Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
-d983b5da9bcfd9689808de61155ba9cd7ca4915b Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
-61fbc434382476e35c7bae461e6bf54daef37008 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
-a64e3e4f032d66581057e17665eb26d65346e37c Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
-789db566da37d34bb9ac7de732633f28933b0814 Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
-d6540fefa7725f8ec4e463295bb87147c036431c Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
-4dddc3b887d0dfc2858afe2818ea26721a6fcbf0 Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
-346122325080eb2d0a43a33c42158262674e0a11 Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
-ce5800a6727527bdcca91f97aa1846ee879658e0 kernel-6.12.24-1
-9dc4437ab8b0139d52891a40845f576f8524a2f5 kernel-6.12.24-2
-00c27ea6247ffb264ccea0947d5ee6e8f7bf14a8 kernel-6.12.24-3
-84fa4378ef8a2fd5bf17f396d18b2f6bc2da783e kernel-6.12.24-4
-2406c1dfba595927a435b00353bbac9b44262414 kernel-6.12.24-5
-e329c9f898f1ffc150aa2ab4d10a2d77a22975fa kernel-6.12.24-6
-8cf2d1f53842d56b89737a0fffa4baa965fa98df kernel-6.12.24-7
-ce9cd6acc0ef807ac789757f4535e41feb7d3630 kernel-6.12.24-8
-08bbe22a8c96bdd65c3ad4de9d38e779fd1af455 kernel-6.12.24-9
-56f7971003083c5d65a6b7fab3396f9819ab54e9 kernel-6.12.24-10
-e925094c1b31a1c0dc259d5601f223d36f1f2ce2 kernel-6.12.24-11
-833aed74093513353dd54058b9c26ccd3defdcc0 kernel-6.12.24-12
-18c98bb990f72f14f074942e31a62a3275bf7639 kernel-6.12.24-13
-235ed30e06f4fad6cb626a5ebfc2a84df60be838 kernel-6.12.24-14
-2f452f6438ee07731046843f1bd60ff22494ad27 kernel-6.12.24-15
-bb0c60932e56662dc3eb6c52fac40663f73a52b3 kernel-6.12.24-16
-7474c39dd880ef578260d3428ffcf61bf6e2e0c3 kernel-6.12.24-17
+cbecf390d69490a0f26a64493f0b43525abef2a7 ice: make fwlog functions static
+4faff0628c65bab4f950d8f3361485b68e771c17 ice: move get_fwlog_data() to fwlog file
+08cbc6a06e8ee4272f33190a2ca80745765dd463 ice: drop ice_pf_fwlog_update_module()
+82dd6c4113a8a1cf512023e5b94a8ab35a6ea678 ice: introduce ice_fwlog structure
+a0976d8dddd6d0388746ca46aad94e8fb64365d3 ice: add pdev into fwlog structure and use it for logging
+c91913bb7e9ef6a76c04563ed59b092292c02589 ice: allow calling custom send function in fwlog
+7fb7b23f703113ef7e4dc37aa32e996ec815c8ab ice: move out debugfs init from fwlog
+e0844171c2ae33e854feb4851763e1858f2d7f24 ice: check for PF number outside the fwlog code
+c2fbd94109ad5b21a9e7506f6d95f6bd12103f90 ice: drop driver specific structure from fwlog code
+acf88cea015960cac5e1cb5cbadd93784c5520ed libie, ice: move fwlog admin queue to libie
+764e0ef18bd13719075d4d820cf5aa8951806b14 ice: move debugfs code to fwlog
+54c9b9da3b687b8da19e790884578ba295ea4085 ice: prepare for moving file to libie
+05cbf5aed1fc08bf95bc99843ba4c7c4c32d9f1d ice: reregister fwlog after driver reinit
+ccc7fe153d36b2054e1e867a0f2d9172dbcb4873 ice, libie: move fwlog code to libie
+2e4bbc386df0838befc6e0c5ef8e2b24c174f173 ixgbe: fwlog support for e610
 
---===============5135778632085192895==--
+--===============6348750374760780440==--
