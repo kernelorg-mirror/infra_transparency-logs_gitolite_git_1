@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 15 Aug 2025 20:50:42 -0000
-Message-Id: <175529104294.199658.7698475139153001322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 15 Aug 2025 20:59:21 -0000
+Message-Id: <175529156103.205974.10801725799264006200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: b6a37d1d4694111895248b771513153ccace606a
-    new: 1e180614b3608e1cb0f81753b2172af253d58a52
+  - ref: refs/heads/main
+    old: a312f85c8033086f0cdc96822453089da624c328
+    new: 07ed893df57c8b1fb30e497d617548254bbf1123
     log: |
-         1e180614b3608e1cb0f81753b2172af253d58a52 rust: driver-core: Update ARef and AlwaysRefCounted imports from sync::aref
+         2bf6ab128f0bf9e3fe88c881614b8fa51efbaaac amdgpu: DMCUB updates for various ASICs
+         07ed893df57c8b1fb30e497d617548254bbf1123 Merge branch 'amd-staging' into 'main'
          
