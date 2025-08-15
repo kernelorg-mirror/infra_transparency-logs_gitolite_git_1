@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 Aug 2025 17:57:18 -0000
-Message-Id: <175528063840.51017.3343050998281664301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 15 Aug 2025 18:06:32 -0000
+Message-Id: <175528119237.59492.867092070546574373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 88250d40ed59d2b3c2dff788e9065caa7eb4dba0
-    new: 7de0eebbb4c3bb44c296f66679ad37480139dc6e
+  - ref: refs/heads/driver-core-testing
+    old: 377c2b3c46c6ff33cb6559b98c44e22f1ff9fefc
+    new: b0d73ad126957df989c26d78bd4747a270244dd0
     log: |
-         7de0eebbb4c3bb44c296f66679ad37480139dc6e net: bridge: remove unused argument of br_multicast_query_expired()
+         4005dac6573128d6e7b46c4ed43df1b23dab7765 rust: auxiliary: Use `c_` types from prelude instead of
+         b0d73ad126957df989c26d78bd4747a270244dd0 rust: pci: use c_* types via kernel prelude
          
