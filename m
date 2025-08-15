@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0387328165928393623=="
+Content-Type: multipart/mixed; boundary="===============5522117995716834869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 15 Aug 2025 16:45:58 -0000
-Message-Id: <175527635884.4171105.8425886918440632595@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 16:47:07 -0000
+Message-Id: <175527642728.4171752.4253308456229388504@gitolite.kernel.org>
 
---===============0387328165928393623==
+--===============5522117995716834869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/nolibc
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-19272b37aa4f-8f5ae30d69d7.txt
 
---===============0387328165928393623==
+--===============5522117995716834869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============0387328165928393623==--
+--===============5522117995716834869==--
