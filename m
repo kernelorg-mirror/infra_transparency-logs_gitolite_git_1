@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2121077183425466159=="
+Content-Type: multipart/mixed; boundary="===============7940055575970230433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 15 Aug 2025 06:52:10 -0000
-Message-Id: <175524073026.3355822.8031592104129538949@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 06:52:27 -0000
+Message-Id: <175524074776.3356441.3957313049372176069@gitolite.kernel.org>
 
---===============2121077183425466159==
+--===============7940055575970230433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 881b3e9efa7e9ce342ee94d4f4f603747c1aa2f4
-    new: 40066abe8e4e49ba80fae2344e0e0b716e6bd7b1
-    log: revlist-881b3e9efa7e-40066abe8e4e.txt
+    old: 40066abe8e4e49ba80fae2344e0e0b716e6bd7b1
+    new: a1586c248c973b493ca682ae5d48e5d0acbce596
+    log: |
+         56b1cfd78cbef003982d276fab07f07b3905c2e4 Merge branch into tip/master: 'locking/urgent'
+         c5387917e496cb7991f11d1c88189630c17b16e6 Merge branch into tip/master: 'x86/urgent'
+         6da0ccd765c7b281ec816b4ab258b03b73b60edf Merge branch into tip/master: 'core/bugs'
+         c55517a6e5c05a6bfffe4c471e69775b6e450505 Merge branch into tip/master: 'timers/clocksource'
+         a1586c248c973b493ca682ae5d48e5d0acbce596 Merge branch into tip/master: 'x86/entry'
+         
+  - ref: refs/heads/tip/urgent
+    old: 7cbdb8a9d7afeed921cf623bd2b65e17e461d4cd
+    new: c5387917e496cb7991f11d1c88189630c17b16e6
+    log: revlist-7cbdb8a9d7af-c5387917e496.txt
 
---===============2121077183425466159==
+--===============7940055575970230433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-881b3e9efa7e-40066abe8e4e.txt
+Content-Disposition: attachment; filename=revlist-7cbdb8a9d7af-c5387917e496.txt
 
 7c527c15cdda2e0a26a05ac15a44d3e14738fc55 firewire: core: use reference counting to invoke address handlers safely
 e8cf6875005b017c293bf1b9be707c43f3eff9f4 firewire: core: call handler for exclusive regions outside RCU read-side critical section
@@ -104,6 +114,7 @@ b2cafefaf0473bafb0c3502a8530167d35e06113 netdevsim: Fix wild pointer access in n
 c28d28a7b005dd6459a6059dc7eff684bf0b7464 Merge tag 'pm-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 24ea63ea387714634813359e2c8e0e6c36952f73 Merge tag 'acpi-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d7ee5bdce7892643409dea7266c34977e651b479 Merge tag 'firewire-fixes-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-40066abe8e4e49ba80fae2344e0e0b716e6bd7b1 Merge branch 'linus'
+56b1cfd78cbef003982d276fab07f07b3905c2e4 Merge branch into tip/master: 'locking/urgent'
+c5387917e496cb7991f11d1c88189630c17b16e6 Merge branch into tip/master: 'x86/urgent'
 
---===============2121077183425466159==--
+--===============7940055575970230433==--
