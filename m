@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6453252000142384800=="
+Content-Type: multipart/mixed; boundary="===============8216036715060386492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 15 Aug 2025 21:28:12 -0000
-Message-Id: <175529329229.231359.17508667576387698001@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 21:28:15 -0000
+Message-Id: <175529329530.231449.3497312320507096711@gitolite.kernel.org>
 
---===============6453252000142384800==
+--===============8216036715060386492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
     old: c3e2781a939ce404bff0a100e69d9dff723730e7
-    new: 16f48f57b243111ca6b77e89b08f4e0ab7eaed22
-    log: revlist-c3e2781a939c-16f48f57b243.txt
+    new: 550ee08b33a3f046711de0c7fc4b1852c2742f92
+    log: revlist-c3e2781a939c-550ee08b33a3.txt
 
---===============6453252000142384800==
+--===============8216036715060386492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3e2781a939c-16f48f57b243.txt
+Content-Disposition: attachment; filename=revlist-c3e2781a939c-550ee08b33a3.txt
 
 a9042a7ce3eb7843efd39c4a0f6cfc600dfd6c72 nfsd: don't set the ctime on delegated atime updates
 e05768f3661a1f4eab95bae0f5503dc81f4fd3bd nfsd: avoid ref leak in nfsd_open_local_fh()
@@ -97,5 +97,7 @@ e5b5f12f9a8ebee94785b9aea4756898263f39f6 NFS: Fixup allocation flags for nfsiod'
 1600f5e0f05c1362d558cb555f6b2bf6d342d5f4 NFS/localio: nfs_close_local_fh() fix check for file closed
 82ec7c3882a934808f33914a379225d2ace39bc7 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 16f48f57b243111ca6b77e89b08f4e0ab7eaed22 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+de2b16aecec352dd06bd8ab698b73e90551c3464 filemap: Add a helper for filesystems implementing dropbehind
+550ee08b33a3f046711de0c7fc4b1852c2742f92 NFS: Enable the RWF_DONTCACHE flag for the NFS client
 
---===============6453252000142384800==--
+--===============8216036715060386492==--
