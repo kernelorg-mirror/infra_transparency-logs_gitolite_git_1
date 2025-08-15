@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 15 Aug 2025 20:59:21 -0000
-Message-Id: <175529156103.205974.10801725799264006200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Fri, 15 Aug 2025 21:14:28 -0000
+Message-Id: <175529246842.219497.887605598226391917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/main
-    old: a312f85c8033086f0cdc96822453089da624c328
-    new: 07ed893df57c8b1fb30e497d617548254bbf1123
+  - ref: refs/heads/kbuild-next
+    old: a646e96080cd5f4dc8c082accc85f0410d0d9362
+    new: 478494044bb421bfa3eddfdca61874ba68f76b4e
     log: |
-         2bf6ab128f0bf9e3fe88c881614b8fa51efbaaac amdgpu: DMCUB updates for various ASICs
-         07ed893df57c8b1fb30e497d617548254bbf1123 Merge branch 'amd-staging' into 'main'
+         c5afee88548e4742c9d62906cd74d6a7b9f4d7dd kbuild: userprogs: avoid duplication of flags inherited from kernel
+         478494044bb421bfa3eddfdca61874ba68f76b4e kbuild: userprogs: also inherit byte order and ABI from kernel
          
