@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Fri, 15 Aug 2025 09:37:54 -0000
-Message-Id: <175525067483.3491927.15587615461156273633@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 09:38:07 -0000
+Message-Id: <175525068796.3492266.2567412338913815166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/legion/linux
 user: legion
 changes:
-  - ref: refs/heads/for-linus
+  - ref: refs/heads/fix-modules-builtin-modinfo
     old: 919570dc048786c4d07affaec4b761811c6c21c5
     new: 216def8985f1847f62ece99a4375fcbc150afb98
     log: |
@@ -24,6 +24,3 @@ changes:
          2a6bfef52177bc9971ea95d77148c5128706083b modpost: Create modalias for builtin modules
          216def8985f1847f62ece99a4375fcbc150afb98 kbuild: vmlinux.unstripped should always depend on .vmlinux.export.o
          
-  - ref: refs/tags/for-linus
-    old: 0000000000000000000000000000000000000000
-    new: 2041b31cf28fe61f1606bfaa7ccdeafb79ba9d97
