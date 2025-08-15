@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5692387820126113980=="
+Content-Type: multipart/mixed; boundary="===============3502706720775741114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 15 Aug 2025 03:35:23 -0000
-Message-Id: <175522892383.3195179.10620172483201792551@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 03:35:47 -0000
+Message-Id: <175522894715.3195534.10798172104470104778@gitolite.kernel.org>
 
---===============5692387820126113980==
+--===============3502706720775741114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 70e3569c747b864234af26586de06e23235e0122
-    new: 1848ac02a0e13a0fc521b50590352e775810c4c5
-    log: revlist-70e3569c747b-1848ac02a0e1.txt
+  - ref: refs/heads/6.18/scsi-staging
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: da810279506c6b5748b9533a5547f8abc1044c16
+    log: revlist-8f5ae30d69d7-da810279506c.txt
 
---===============5692387820126113980==
+--===============3502706720775741114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1755228949 -0400
+pusher 75C5DE3D 1755228973 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1755228903-c95205735f4da6fa5d21b3b5537d9d16fd0a9f12
+nonce 1755228926-5ff9ac859beccad11954e7d9455ab9ac852c8e10
 
-70e3569c747b864234af26586de06e23235e0122 1848ac02a0e13a0fc521b50590352e775810c4c5 refs/tags/mkp-scsi-staging
+8f5ae30d69d7543eee0d70083daf4de8fe15d585 da810279506c6b5748b9533a5547f8abc1044c16 refs/heads/6.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmieqxYACgkQ7ulgGnXF
-3j0zWQ/+MnjljgZQk6pwaocnrK3z6sR80lDlCz07tTWcUkCDMSkOwZqxskq2e+9W
-nLtI1Yb2+s8hdtqL3sy6BxDpRKjtHxaDooTDD/2K4NlrvzARn6iHJh1DTTMP3x+U
-tCuWUhYCjM9j+f4aBfKf2tizzoyKrELcc3sWxP7ujQiRejX+WCQBkl/a8tcRJfv/
-xVdpTbmuim8gHrS7QREIT59BpTE0j0YuR4H1OcqxHUdKH4krGPEmYgDzlBGhg+lF
-2nf+6gfEu420WNZ3AxZ2BDYTFVfSFIxvBtkapIfnx5fizHzgEP6LAO8W4bxaBk5F
-7BWPNsBK06ZGUuyD9H+lCMUA1j1or4PwlGTR0+pnSBxUUaVjzjZR+DDkX3fOrGqV
-6LN9WxAQhuBGsP1u/DNzB7TPb9/TcD4Nm0oOwk0MoOWJOYv6s/xgZkTXzOwBBbS3
-5UEKg3ojzgvMuLZjmO1WX1mhzR3lySyu5/xQI2d8H9w6Wn8iwX8lcCxR6GedLcMU
-xLgmVHEmVxzlTick8GWizlA3yavzOfe9xJTev7/PcbR5iiZeY8/AAoUunWOhPWqp
-Nc3NTBxIAl4efsbZCV3GwkCtdiRDDVZqOhBOlGkWi1LGW8MsrWmJ19z/dTAdwzTm
-+RhRNUnF2riZ1xC+c6Uc4nwaYDVpMAQX4qE60hnQM+Sdt4KIA6I=
-=GcyU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmieqy0ACgkQ7ulgGnXF
+3j0b2A/+KzBm3C+b1bOQHp0igNgYu4Mjeb+FYYHpzqy0sQEpNR1tzcG+++0I2Ndf
+LLZckbnLZfieWGjgAhwCuzsBUVYHs2Mnvu7T/G35j6Li+Y6vCPXJGwYEldrJdmsw
+KLOAN7FXoV9iRJFRy6BMUcI1C4SDykTA6DOfpFl8gWACJkB8Zxai2O/StvMRl23O
+rZglfvkcWxKLtd86q1Ystlv0jDrF/3OKoewHNz+VLRBeTpMOCN1G9JN8YgcJB6lR
+IgABELuCi/WwLWoWyGXsSvLIN+qalM/7RXbQvxa2hSJnjKkBviulH6xcBakJGDnW
+Q2cdGx3kpdoJI4Jxw0sRQkrBY4BkBUQDOrVMajGw/JB+XvDBL3+4R+wt/+hOr9Hf
+WP7v5O5Q7dy6g04mDtmaF5DLQZUMaRwiC5g+zhGEFXGbQtws1YRRcny6t3gTNctQ
+P7EHcbgXGQKpTH4cK6UNjjX7141Pq+yXEC9flH1u7PKc10tNqiOPkfxS5vOpUQBe
+Nf5u73pKqU+i20rX+f5nFXNdBW7GF3Q36b/oq8KoW21tq4AKVx8tFYHghclTwsxd
+4eVIbwWtuzrQ0AzRkX97ozFXmwzXhxzPHMkFgF+gMXy4ikeOnhmB648MlfCZ0HgO
+o8+OdTBdHzr7kCuWuq8XJu3I4KLARecmLD95AaH1AQDHT2/6yRo=
+=ad2P
 -----END PGP SIGNATURE-----
 
---===============5692387820126113980==
+--===============3502706720775741114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70e3569c747b-1848ac02a0e1.txt
+Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-da810279506c.txt
 
 7f224967aee7d5ad88b6db76ca161be622ae7b34 scsi: ufs: qcom: dt-bindings: Split common part to qcom,ufs-common.yaml
 655c8f511926250e0da9e8b1a9b8f1cf2c173b41 scsi: ufs: qcom: dt-bindings: Split SC7180 and similar
@@ -72,4 +72,4 @@ bacb96ce06c05804fae4bfd38c4058b6d4c423b3 scsi: ufs: host: mediatek: Fix UniPro s
 c393614e081f7c20921e76f73e87cba73dbca6a4 Merge patch series "dt-bindings: ufs: qcom: Split SC7180, SM8650 and similar into separate file"
 da810279506c6b5748b9533a5547f8abc1044c16 Merge patch series "ufs: host: mediatek: Provide features and fixes in MediaTek platforms"
 
---===============5692387820126113980==--
+--===============3502706720775741114==--
