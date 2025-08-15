@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 Aug 2025 01:19:21 -0000
-Message-Id: <175522076158.3078029.2878978959919839192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 15 Aug 2025 01:19:35 -0000
+Message-Id: <175522077595.3078352.8529751808004528813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 6398d8a856fb8be01f53cf84b481b3cdac978607
-    new: 88250d40ed59d2b3c2dff788e9065caa7eb4dba0
+    old: d1547bf460baec718b3398365f8de33d25c5f36f
+    new: 065c31f2c6915b38f45b1c817b31f41f62eaa774
     log: |
-         7f95f04fe1903a31b61085e3ab1b4730f9d72941 net: dsa: b53: mmap: Add gphy port to phy info for bcm63268
-         61730ac10ba90c52563861a0119504f6a9be9868 net: dsa: b53: mmap: Implement bcm63268 gphy power control
-         88250d40ed59d2b3c2dff788e9065caa7eb4dba0 Merge branch 'net-dsa-b53-mmap-add-bcm63268-gphy-power-control'
+         52bf272636bda69587952b35ae97690b8dc89941 net/sched: Fix backlog accounting in qdisc_dequeue_internal
+         8c06cbdcbaea34d7b96d76df4d6669275c1d291a selftests/tc-testing: Check backlog stats in gso_skb case
+         065c31f2c6915b38f45b1c817b31f41f62eaa774 rtase: Fix Rx descriptor CRC error bit definition
          
