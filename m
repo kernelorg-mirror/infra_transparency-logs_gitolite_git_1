@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Fri, 15 Aug 2025 08:04:35 -0000
-Message-Id: <175524507514.3413139.4785069774591397775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 15 Aug 2025 08:44:28 -0000
+Message-Id: <175524746894.3444774.12760312562845331518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/pmdomain-v6.17-rc1
+  - ref: refs/tags/gpio-fixes-for-v6.17-rc2
     old: 0000000000000000000000000000000000000000
-    new: f41bb838f7c053c937439eeb6b9a2a099ee74623
+    new: ced1ad5fe7cd40b061a990a2f764b4de5b0cc95c
