@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 15 Aug 2025 09:08:18 -0000
-Message-Id: <175524889824.3466986.5913991466645621098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 15 Aug 2025 09:08:44 -0000
+Message-Id: <175524892492.3467536.2609744482671479429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: b87662f1dcc76a2877a9ae02f816b078b46327ec
+  - ref: refs/heads/master
+    old: 7572a47ebcdfb6f598416fb83ae534447dcd427c
+    new: 2b986b9e917bc88f81aa1ed386af63b26c983f1d
+    log: |
+         2b986b9e917bc88f81aa1ed386af63b26c983f1d bpf, cpumap: Disable page_pool direct xdp_return need larger scope
+         
