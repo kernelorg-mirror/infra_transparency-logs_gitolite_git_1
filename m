@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8216036715060386492=="
+Content-Type: multipart/mixed; boundary="===============6395605965083601293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 15 Aug 2025 21:28:15 -0000
-Message-Id: <175529329530.231449.3497312320507096711@gitolite.kernel.org>
+Date: Fri, 15 Aug 2025 21:28:18 -0000
+Message-Id: <175529329828.231612.17946373453535058721@gitolite.kernel.org>
 
---===============8216036715060386492==
+--===============6395605965083601293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: c3e2781a939ce404bff0a100e69d9dff723730e7
-    new: 550ee08b33a3f046711de0c7fc4b1852c2742f92
-    log: revlist-c3e2781a939c-550ee08b33a3.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: 8da114ecc3aae834ea08e9e114590a162d30185c
+    new: c7556dc164ffc0a20d60c1e67b31de798e8294ef
+    log: revlist-8da114ecc3aa-c7556dc164ff.txt
 
---===============8216036715060386492==
+--===============6395605965083601293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3e2781a939c-550ee08b33a3.txt
+Content-Disposition: attachment; filename=revlist-8da114ecc3aa-c7556dc164ff.txt
 
 a9042a7ce3eb7843efd39c4a0f6cfc600dfd6c72 nfsd: don't set the ctime on delegated atime updates
 e05768f3661a1f4eab95bae0f5503dc81f4fd3bd nfsd: avoid ref leak in nfsd_open_local_fh()
@@ -99,5 +99,15 @@ e5b5f12f9a8ebee94785b9aea4756898263f39f6 NFS: Fixup allocation flags for nfsiod'
 16f48f57b243111ca6b77e89b08f4e0ab7eaed22 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
 de2b16aecec352dd06bd8ab698b73e90551c3464 filemap: Add a helper for filesystems implementing dropbehind
 550ee08b33a3f046711de0c7fc4b1852c2742f92 NFS: Enable the RWF_DONTCACHE flag for the NFS client
+9f26a30b2d36372133fbac2979863d4e98fbf008 nfs/localio: restore creds before releasing pageio data
+643b6a2d3e63f6e0e2f344a8b0f137c9a68daa6d nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+9a51504374c7b02775119e7aa06fa6b5fb25c718 nfs/localio: make trace_nfs_local_open_fh more useful
+f2aa039136d6a860654b358df70d874e303eb26e nfs/localio: avoid issuing misaligned IO using O_DIRECT
+247188631cc8984d8952177aca9d6919c254061b nfs/localio: refactor iocb and iov_iter_bvec initialization
+1574ba958c37ba3c9a69094410c9d64f41b25be0 nfs/localio: refactor iocb initialization
+0c80762a04fb4109b088a7147ce3f1300a6ceb99 nfs/direct: add misaligned READ handling
+1550afa1c2da142c5a4989797dabd68a7b418621 nfs/direct: add misaligned WRITE handling
+bc841a39518a23a93806494d97d777d740d044eb nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
+c7556dc164ffc0a20d60c1e67b31de798e8294ef NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 
---===============8216036715060386492==--
+--===============6395605965083601293==--
