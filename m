@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 15 Aug 2025 15:24:19 -0000
-Message-Id: <175527145947.4093031.13580365382700205041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 15 Aug 2025 15:24:47 -0000
+Message-Id: <175527148761.4093664.8140887855779749911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/tags/v6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
+  - ref: refs/heads/for-next
+    old: eb0a3d94697ddaf514505aab6dbff0cef299d697
+    new: ab24b20c2b92407535ff362e031010694e879ad5
+    log: |
+         ab24b20c2b92407535ff362e031010694e879ad5 dm-vdo: Promote dm-vdo title to title heading
+         
