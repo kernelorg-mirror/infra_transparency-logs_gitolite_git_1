@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Fri, 15 Aug 2025 08:03:57 -0000
-Message-Id: <175524503749.3412179.15436256041888503005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Fri, 15 Aug 2025 08:04:35 -0000
+Message-Id: <175524507514.3413139.4785069774591397775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/revocable
+  - ref: refs/tags/pmdomain-v6.17-rc1
     old: 0000000000000000000000000000000000000000
-    new: 76413be72ac6ad04fde8a05278cc11d95460292e
+    new: f41bb838f7c053c937439eeb6b9a2a099ee74623
