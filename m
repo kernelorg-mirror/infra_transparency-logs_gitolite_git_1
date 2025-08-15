@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 15 Aug 2025 08:51:58 -0000
-Message-Id: <175524791866.3453001.10520876454221606395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Fri, 15 Aug 2025 09:03:31 -0000
+Message-Id: <175524861112.3462177.8085616495660617643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/x86/urgent
-    old: fa6e050a27e148227049ce444d52e8ea5d484e66
-    new: d3be079da81f08d8d7f3416119b03e173d4285d2
+  - ref: refs/heads/revocable
+    old: 76413be72ac6ad04fde8a05278cc11d95460292e
+    new: 8c0d5fb780dc1c4d6fa513f774f5a39b3c3e985a
     log: |
-         d3be079da81f08d8d7f3416119b03e173d4285d2 x86/sev: Ensure SVSM reserved fields in a page validation entry are initialized to zero
+         619db89135f7a6103a51d577ee72290a010b2f7a revocable: Add Kunit test cases
+         ed400402f6c0db1969724a980896da039db42528 platform/chrome: Protect cros_ec_device lifecycle with revocable
+         8c0d5fb780dc1c4d6fa513f774f5a39b3c3e985a platform/chrome: cros_ec_chardev: Consume cros_ec_device via revocable
          
