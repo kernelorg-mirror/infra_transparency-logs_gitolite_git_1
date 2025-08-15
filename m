@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Fri, 15 Aug 2025 12:27:54 -0000
-Message-Id: <175526087426.3785188.12609506506849572955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Fri, 15 Aug 2025 12:32:52 -0000
+Message-Id: <175526117238.3789676.17501075855312983228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/for-linus
-    old: 216def8985f1847f62ece99a4375fcbc150afb98
-    new: 17fafffacdb8e682510cd251405bf4e5f2e9cb7d
-    log: |
-         3fe4e8118fd88db72c97af1f71eb5d11f261e7f0 modpost: Add modname to mod_device_table alias
-         bfc97df2cac40572a9322d7ec55e7289fe49ef5c modpost: Create modalias for builtin modules
-         17fafffacdb8e682510cd251405bf4e5f2e9cb7d kbuild: vmlinux.unstripped should always depend on .vmlinux.export.o
-         
+  - ref: refs/heads/usdt_hack
+    old: 0000000000000000000000000000000000000000
+    new: 9b5bfc8436c9decd2e6534c27b13013b3436ad97
