@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Fri, 15 Aug 2025 14:19:57 -0000
-Message-Id: <175526759720.3880531.16645897324165030861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 15 Aug 2025 14:29:39 -0000
+Message-Id: <175526817989.3888644.14925416154809857653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/master
-    old: 42dd3c9451b553208b52514612b083f17641a5c7
-    new: 9d4b01a0bf8d2163ae129c9c537cb0753ad5a2aa
+  - ref: refs/heads/for-next
+    old: 6fb8fbbaf147fe4153177320ee354c457605800a
+    new: 9cc0750ec818f2d826590997777994d23274d6fb
     log: |
-         0eaf7c7e85da7495c0e03a99375707fc954f5e7b Bluetooth: hci_conn: do return error from hci_enhanced_setup_sync()
-         e489317d2fd9a51a81bdcbe15a73ddde8246e6d6 Bluetooth: btnxpuart: Uses threaded IRQ for host wakeup handling
-         9d4b01a0bf8d2163ae129c9c537cb0753ad5a2aa Bluetooth: hci_core: Fix not accounting for BIS/CIS/PA links separately
+         9cc0750ec818f2d826590997777994d23274d6fb dm-pcache: add persistent cache target in device-mapper
          
