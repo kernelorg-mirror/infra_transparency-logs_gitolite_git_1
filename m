@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6783194693716218816=="
+Content-Type: multipart/mixed; boundary="===============5956486974101987760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Sat, 16 Aug 2025 06:01:27 -0000
-Message-Id: <175532408759.666743.5934712754655035960@gitolite.kernel.org>
+Date: Sat, 16 Aug 2025 06:01:39 -0000
+Message-Id: <175532409960.667052.5945983660467795705@gitolite.kernel.org>
 
---===============6783194693716218816==
+--===============5956486974101987760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/slim-fixes
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-0af2f6be1b42-8f5ae30d69d7.txt
 
---===============6783194693716218816==
+--===============5956486974101987760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============6783194693716218816==--
+--===============5956486974101987760==--
