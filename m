@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
-Date: Sat, 16 Aug 2025 00:52:14 -0000
-Message-Id: <175530553423.405524.5642282950266021592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 16 Aug 2025 01:12:55 -0000
+Message-Id: <175530677547.422027.12546279353710903929@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdraid/linux
-user: yukuai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/md-6.17
-    old: c27973211ffcdf0a092eec265d5993e64b89adaf
-    new: b7ee30f0efd12f42735ae233071015389407966c
+  - ref: refs/heads/main
+    old: 12da2b92ad50e6602b4c5e9073d71f2368b70b63
+    new: 715c7a36d59f54162a26fac1d1ed8dc087a24cf1
     log: |
-         cb0780ad4333040a98e10f014b593ef738a3f31e md: add helper rdev_needs_recovery()
-         b7ee30f0efd12f42735ae233071015389407966c md: fix sync_action incorrect display during resync
+         715c7a36d59f54162a26fac1d1ed8dc087a24cf1 selftests: tls: make the new data_steal test less flaky
          
