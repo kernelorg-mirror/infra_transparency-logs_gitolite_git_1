@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 16 Aug 2025 21:41:00 -0000
-Message-Id: <175538046041.2536743.2909731159267271291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 16 Aug 2025 21:47:34 -0000
+Message-Id: <175538085468.2552778.10165615675962665661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/kvm-arm64/at-fixes-6.17
-    old: 5b3d7fda2e3befe920cb3b5e17ef089a1004ef5a
-    new: 7215f854e7e90e4610d59835a35b9021705d3ebc
+  - ref: refs/heads/x86/build
+    old: 5d6d30eca4dd1c9e8515a8d4b13106205d5c0ec4
+    new: d87208128a3330c0eab18301ab39bdb419647730
     log: |
-         cc54da98a1967644506a943e14da479d92392ac0 KVM: arm64: Simplify sysreg access on exception delivery
-         6d6c2a66e764c92086b217e3d47ccbaed4a999be KVM: arm64: Fix vcpu_{read,write}_sys_reg() accessors
-         7215f854e7e90e4610d59835a35b9021705d3ebc KVM: arm64: Remove __vcpu_{read,write}_sys_reg_{from,to}_cpu()
+         d87208128a3330c0eab18301ab39bdb419647730 x86/build: Remove cc-option from stack alignment flags
          
