@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1421775080486176800=="
+Content-Type: multipart/mixed; boundary="===============0011725583068772674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
-Date: Sat, 16 Aug 2025 17:09:28 -0000
-Message-Id: <175536416812.1883325.13783410185772267114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sat, 16 Aug 2025 17:33:06 -0000
+Message-Id: <175536558674.1938585.15910998438301343798@gitolite.kernel.org>
 
---===============1421775080486176800==
+--===============0011725583068772674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sven/linux
-user: sven
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/apple-soc-dt-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 2d6e48ce1f874cab05cfd6b2d288911b9c05fa3a
+  - ref: refs/heads/master
+    old: dfd4b508c8c6106083698a0dd5e35aecc7c48725
+    new: 90d970cade8e67e20b09bbfdc2f0b52064322921
+    log: revlist-dfd4b508c8c6-90d970cade8e.txt
 
---===============1421775080486176800==
+--===============0011725583068772674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-dfd4b508c8c6-90d970cade8e.txt
 
-certificate version 0.1
-pusher 44117D242A751EE9! 1755364213 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
-nonce 1755364165-4b7617069bc0c810ed1d974ab0d1d3dcff3603bd
+a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
+383cd6d879a18acdaa84c29330b25c49cbc0b490 scsi: scsi_debug: Make read-only arrays static const
+034d319c8899e8c5c0a35c6692c7fc7e8c12c374 scsi: ufs: core: Fix interrupt handling for MCQ Mode
+a59976116a01dad1c72460f9ed700bf4b3fdbebd scsi: lpfc: Fix wrong function reference in a comment
+eea6cafb5890db488fce1c69d05464214616d800 scsi: lpfc: Remove redundant assignment to avoid memory leak
+7ec2bd6cd2d0ce6d6224519f895cb932ed5af667 scsi: ufs: mediatek: Fix out-of-bounds access in MCQ IRQ mapping
+72fc388d8bc0b49fd038477b74618cc15ce18b56 scsi: ufs: core: Remove error print for devm_add_action_or_reset()
+c6b819e0058e5f34cb274018e1f5cd5b671cec7e Merge branch '6.17/scsi-queue' into 6.17/scsi-fixes
+35f6bedccf4c4280f02d48e4f7d194e64e9a62d8 ata: libata-eh: Fix link state check for IDE/PATA ports
+58768b0563916ddcb73d8ed26ede664915f8df31 ata: libata-scsi: Fix CDL control
+c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+90d970cade8e67e20b09bbfdc2f0b52064322921 Merge tag 'ata-ata-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 
-0000000000000000000000000000000000000000 2d6e48ce1f874cab05cfd6b2d288911b9c05fa3a refs/tags/apple-soc-dt-6.18
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaKC7dQAKCRBEEX0kKnUe
-6WzUAQDqDypfSoVcXA0Q19fXt4I3IFdAK95KNvSzNh1u/S2l/wD/Tpdg0DRmFin9
-oZHsBw5Kok5tUi8v62w/a4BAWZOEKgc=
-=kDxL
------END PGP SIGNATURE-----
-
---===============1421775080486176800==--
+--===============0011725583068772674==--
