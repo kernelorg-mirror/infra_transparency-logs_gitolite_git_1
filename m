@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 17 Aug 2025 14:52:36 -0000
-Message-Id: <175544235650.1488868.7161074446553642117@gitolite.kernel.org>
+Date: Sun, 17 Aug 2025 14:55:25 -0000
+Message-Id: <175544252573.1499891.16362835231151793371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/tags/v2025.08.17
-    old: 0000000000000000000000000000000000000000
-    new: 69a609f6fc6ef08381dc13c24a576e575c4441fe
+  - ref: refs/heads/patches-in-queue
+    old: 97faf40fc28dd3f14a298dbeb540c2ae3811cdfb
+    new: 5a9cd3ef1b330a920d288bc3bac1342c9e9e3aa6
+    log: |
+         5a9cd3ef1b330a920d288bc3bac1342c9e9e3aa6 f2fs/012: adapt lookup_mode=x mount option
+         
