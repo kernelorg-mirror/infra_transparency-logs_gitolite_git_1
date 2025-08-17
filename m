@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Sun, 17 Aug 2025 04:55:49 -0000
-Message-Id: <175540654977.3726740.741555269363421553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 17 Aug 2025 05:08:15 -0000
+Message-Id: <175540729588.3765460.11552391002067991693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/nova-core-unstable
-    old: f6b487167c3c5aaa5c641ef86000061e900fca07
-    new: c95d911465140ebb0de1c43802ee4d014c467d7a
+  - ref: refs/heads/master
+    old: 289922d3f97646a302df2a405ef7906d186b6304
+    new: c5bd42052d7e0abd57072ab7546ed21f026dda11
     log: |
-         6a6bcc48ea79536311a8dbcc14b6810ed4f332e9 [NEW] nova-core: mm: buddy: Add zoning support to the allocator
-         95160a5d305eda0297669105f42ca13ff73e35a2 [NEW] nova-core: mm: buddy: Add basic K-Unit tests
-         a0b95de9fb1ca6a362dd8415383ed5447ef57971 [NEW] nova-core: mm: buddy: Populate free list with the entire VRAM
-         c95d911465140ebb0de1c43802ee4d014c467d7a [NEW] nova-core: mm: buddy: Initialize buddy allocator with VRAM info
+         d87208128a3330c0eab18301ab39bdb419647730 x86/build: Remove cc-option from stack alignment flags
+         487fe3a936b0b84ef09fa324b4c01d059886f951 x86/build: Clean up stack alignment flags in CC_FLAGS_FPU
+         c5bd42052d7e0abd57072ab7546ed21f026dda11 Merge branch into tip/master: 'x86/build'
          
