@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 17 Aug 2025 19:49:14 -0000
-Message-Id: <175546015467.2497520.17070078036839648538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 17 Aug 2025 20:00:06 -0000
+Message-Id: <175546080681.2536739.6775702744264031119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/kvm-arm64/rasv1p1
-    old: 0ddbb2f795e8518ddef5124e06ac70dbf699b6bc
-    new: 705681bf4453ab9e46b02e283578c6452346faea
+  - ref: refs/heads/master
+    old: 2030a26c0bf2ca42669b2893e75cecd0465498de
+    new: 35f76b500204a5770c3ec3e1af02770987af5e8a
     log: |
-         d5e9abecd363e98b00bdcb45bd16e5e6d4c22d26 KVM: arm64: Make ID_AA64PFR1_EL1.RAS_frac writable
-         705681bf4453ab9e46b02e283578c6452346faea KVM: arm64: Get rid of ARM64_FEATURE_MASK()
+         35f76b500204a5770c3ec3e1af02770987af5e8a Drop vfio-type1-conditional-rescheduling-while-pinning.patch from 5.15
          
