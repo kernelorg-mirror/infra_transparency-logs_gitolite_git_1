@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2306505484735387447=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 17 Aug 2025 07:46:46 -0000
-Message-Id: <175541680690.83373.9151116761324078274@gitolite.kernel.org>
-
---===============2306505484735387447==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sun, 17 Aug 2025 08:06:00 -0000
+Message-Id: <175541796080.146433.15656270798929660482@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 5a9ad51c136f030d18c2b9ddc30705934a5373ec
-    new: aaa94d9c3ad7d1dd8a4108c3a90c4ba815ce7978
+  - ref: refs/heads/fixes-base
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: c6b819e0058e5f34cb274018e1f5cd5b671cec7e
     log: |
-         aaa94d9c3ad7d1dd8a4108c3a90c4ba815ce7978 update cvelistV5
+         a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
+         383cd6d879a18acdaa84c29330b25c49cbc0b490 scsi: scsi_debug: Make read-only arrays static const
+         034d319c8899e8c5c0a35c6692c7fc7e8c12c374 scsi: ufs: core: Fix interrupt handling for MCQ Mode
+         a59976116a01dad1c72460f9ed700bf4b3fdbebd scsi: lpfc: Fix wrong function reference in a comment
+         eea6cafb5890db488fce1c69d05464214616d800 scsi: lpfc: Remove redundant assignment to avoid memory leak
+         7ec2bd6cd2d0ce6d6224519f895cb932ed5af667 scsi: ufs: mediatek: Fix out-of-bounds access in MCQ IRQ mapping
+         72fc388d8bc0b49fd038477b74618cc15ce18b56 scsi: ufs: core: Remove error print for devm_add_action_or_reset()
+         c6b819e0058e5f34cb274018e1f5cd5b671cec7e Merge branch '6.17/scsi-queue' into 6.17/scsi-fixes
          
-
---===============2306505484735387447==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755416853 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1755416806-3b3417076d919025acdbd545e83c5335f3f39b70
-
-5a9ad51c136f030d18c2b9ddc30705934a5373ec aaa94d9c3ad7d1dd8a4108c3a90c4ba815ce7978 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmihiRUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lGEQAJkhP22Ff8WUkVGphAJz
-wJrl11T3Xw3/o9fEHflL+r0bPzepWaRuYvKYIUNb3xi7b7CIqSRDXLGyBPqPsJu1
-AipXQK4A9IGAJn4q22ZehfrCr34/l5hgB2zTrqEoZu/spw2tdtXVdHEDBLqlxcyE
-gf4sWmmcAqkbbLxL9Dlox4pLFFjy4KMy9W1EmdSfjFAs/E3Z5KFI+J6NJyvpaAX0
-1NEdeGjLRgXz8USX79TB6pzxoiecTkszntR5RshebUDtWoOWDsDsoQi+jT6cwyzS
-46ZivJ47WEZHowOzDG7eJjo02r1tdTRG6UrlPknCLib/PMdt29E0ugHtYvsP0WtA
-PneWS22TetXLSQtMl0giAsFEiwzYeNG4ilXLM81EmL+D63rccuF/w2bYGB6uVNmQ
-S36tEw/bbNmk3ZIb3mJw3DXcPa7DUGZtZrKWGlyieVfsPS06PUuGlzMX4oY/oQuC
-FXZdaieybXDKdIXN9o2KOnmnz04P77Rg+2LIymC6VA3y9u6ba0WTUdSYUHb6s9k2
-HxmJnzUGVJWVaUJqFkzZwgJXA0SUwQZbJiDpjDmFl0Vtw/3HP88BKpMIxiQos0H2
-BR0qRVu+cvVLsk7ObQYh1gCpfIP4IO6pbmXAXWl1j+C+ZNx1YWLu4xH5igIyENYZ
-9/DVZmZHV79ykhnKNAOiLycc
-=YKXV
------END PGP SIGNATURE-----
-
---===============2306505484735387447==--
