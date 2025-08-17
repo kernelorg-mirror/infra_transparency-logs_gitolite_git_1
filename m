@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5562638877652893714=="
+Content-Type: multipart/mixed; boundary="===============2630291584240753316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 17 Aug 2025 05:08:28 -0000
-Message-Id: <175540730871.3766625.16961871141662152823@gitolite.kernel.org>
+Date: Sun, 17 Aug 2025 05:08:45 -0000
+Message-Id: <175540732538.3767682.15620519340918823340@gitolite.kernel.org>
 
---===============5562638877652893714==
+--===============2630291584240753316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c5bd42052d7e0abd57072ab7546ed21f026dda11
-    new: d1c9abafacfae6eb4cb771e88f8acce58d425ee7
-    log: revlist-c5bd42052d7e-d1c9abafacfa.txt
+    old: d1c9abafacfae6eb4cb771e88f8acce58d425ee7
+    new: 3566780bc1d0ab71bac201ff871c5c9bb3588b8d
+    log: |
+         a44927930bb87ad16140335d577e994e7072c060 Merge branch into tip/master: 'locking/urgent'
+         366048142354ccd9618b52f9344c34b2970b51a9 Merge branch into tip/master: 'x86/urgent'
+         932bfd8a636f3855876e923545fb1260a9e45c90 Merge branch into tip/master: 'core/bugs'
+         1eb9410b8e152a90faa840b1bf57d838231a6daf Merge branch into tip/master: 'timers/clocksource'
+         2240122cb61bc5cb3512d153c60cb8472d14d2b9 Merge branch into tip/master: 'x86/build'
+         3566780bc1d0ab71bac201ff871c5c9bb3588b8d Merge branch into tip/master: 'x86/entry'
+         
+  - ref: refs/heads/tip/urgent
+    old: bfc22e5ae0a8375d2b9cb83f0194e7aca1283eb2
+    new: 366048142354ccd9618b52f9344c34b2970b51a9
+    log: revlist-bfc22e5ae0a8-366048142354.txt
 
---===============5562638877652893714==
+--===============2630291584240753316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5bd42052d7e-d1c9abafacfa.txt
+Content-Disposition: attachment; filename=revlist-bfc22e5ae0a8-366048142354.txt
 
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
 383cd6d879a18acdaa84c29330b25c49cbc0b490 scsi: scsi_debug: Make read-only arrays static const
@@ -124,6 +135,7 @@ dfd4b508c8c6106083698a0dd5e35aecc7c48725 Merge tag 'drm-fixes-2025-08-16' of htt
 c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 90d970cade8e67e20b09bbfdc2f0b52064322921 Merge tag 'ata-ata-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 99bade344cfa1577c6dd658e10a3d64b119bddf4 Merge tag 'rust-fixes-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-d1c9abafacfae6eb4cb771e88f8acce58d425ee7 Merge branch 'linus'
+a44927930bb87ad16140335d577e994e7072c060 Merge branch into tip/master: 'locking/urgent'
+366048142354ccd9618b52f9344c34b2970b51a9 Merge branch into tip/master: 'x86/urgent'
 
---===============5562638877652893714==--
+--===============2630291584240753316==--
