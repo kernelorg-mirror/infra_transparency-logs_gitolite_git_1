@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sun, 17 Aug 2025 08:06:06 -0000
-Message-Id: <175541796602.146702.2156674422291997287@gitolite.kernel.org>
+Date: Sun, 17 Aug 2025 08:06:30 -0000
+Message-Id: <175541799088.148279.7001582134708553520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: c6b819e0058e5f34cb274018e1f5cd5b671cec7e
     new: 9dcf111dd3e7ed5fce82bb108e3a3fc001c07225
     log: |
