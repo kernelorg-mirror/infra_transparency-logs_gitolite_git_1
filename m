@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5196121551134339058=="
+Content-Type: multipart/mixed; boundary="===============5593535164452282006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 17 Aug 2025 10:18:23 -0000
-Message-Id: <175542590311.576086.6851970708865340503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 17 Aug 2025 10:22:16 -0000
+Message-Id: <175542613664.589985.17122062847561428714@gitolite.kernel.org>
 
---===============5196121551134339058==
+--===============5593535164452282006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: c0485e864a2eaa1d5a84c71e573dd236d0e885ae
-    new: 956606bafb5fc6e5968aadcda86fc0037e1d7548
+  - ref: refs/heads/driver-core-linus
+    old: 75a7b151e808355a1fdf972e85da137612b8f2ae
+    new: ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46
     log: |
-         c851b71fd6cdbf3000bf0a2354592a0f09db3ba3 usb: typec: ucsi: Add support for READ_POWER_LEVEL command
-         23cd838a178a81183da9db6cb3390bb540b000a5 USB: Check no positive return values from pm_runtime_resume_and_get()
-         956606bafb5fc6e5968aadcda86fc0037e1d7548 usb: gadget: f_ncm: Fix MAC assignment NCM ethernet
+         ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46 debugfs: fix mount options not being applied
          
 
---===============5196121551134339058==
+--===============5593535164452282006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755425945 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1755425897-72981cc82b5ae1006e507f9105fd41be1748e482
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755426180 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1755426133-453a8b08fa121d2a4c70b6eed044b1a4507b18fc
 
-c0485e864a2eaa1d5a84c71e573dd236d0e885ae 956606bafb5fc6e5968aadcda86fc0037e1d7548 refs/heads/usb-testing
+75a7b151e808355a1fdf972e85da137612b8f2ae ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmihrJkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZqgQAILkppOEgQDo4ACRaWY+
-a/hRWdhWQHlrIwyBXGfCIH2r39H1Qy7NpLf55Mi4wopPgfgpQZ2nVEojCG+FEHfN
-v3SLxA6tZRLySEI65bkxNLtyJ6+cl+wrjLFCkyGCfN3VntVgJAp5q68O1bHadYXG
-NCwDUZSsVaA7bW3AX2Rms4qRsRmaiCFwX/39jcErMoRf45ys3A573T6mbuQmMtgQ
-DJvLS51ycce/5MKxpf7///rXDC4S4S6P5SrlNkE8lJ9B7Pwl66+U4GYeAW7Wwj3K
-0KZzYBzAnRlppLHF7ETeWosKhzdf+egz3lwkwn5QOhIaDKkvfV8EUqHDr0RuXneI
-1atei3uQqs52AJNXwyl/YFnMR8vpBKJBd7ZHmhPu4T8vLx8sTgRSO5TiJzwNF/Fb
-z3geQOtoYskELelAWsDz82dd6FfI4TXTSP08kXtRJvUccXdh8kD45II0jXt/Sgma
-UDx0jM6dnjN2lA9vFakiU6wmrBcWZzJb9STm5uvEXZX3HQ8BAdRgmJcFezse9ZDh
-zzX9mvABa6rUhLzAwVk95iOWtBOTCFcjSGeS2kllu8rVe/VQSr1arv9zqaKcavl9
-TnG1JdyvUsWhBJyvLUEnK67UL3sNVzCGQoDskqz/eHICqtgylPqUcJkv8MPots1T
-iBrmgpVmXjhPJFzwiTfGG35R
-=XO+y
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmihrYQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pZwQAI/eoRchL3vS6yJV2bY4
+ZaKuv5QfVdzqwsuuU9tRcZI/dc86Yhrzi9bOr65sEMa9d7ZnMlIPNZjGmBAv2vew
+ATZRwlvJMbS6EnsL+LSVnCOKnRrEEH4nKgsOugXIWlZzEWku2NsNn90Hj2EVGPyt
+OFWOZEkApncn6Cw9+wJfPCPkuDipMf/ITnHPgCMgFcrN2xP3FF7XciUrIUoUNEuS
+93FduVUYYPSlCOLWczJLNk5ldodxx9eTuug+SQkkcWlarI3DOI+1uVkncPD/ObV7
+qLcw1/RhFx7RCQPJG4cEaxE96UcXi90jjflzAdkwWa5y5K+8ztXkGM+Y0vde8xWt
+tO3I1O7jLXuii9Yy014v3wYAmJdN/I0m7OiK2zv7KXdiWlH1ZKwAFCJ/jCVwx6Bq
+hJQGROaFeAd0wcGFztZaUW547VWlHzPh8Zfp6s5MhIm0mlyhZXFPuHnMRzo4dXcm
+lXkunJO7Fg4hUsu+8RBrfdaanMVK2uT8rQeRPNtGMOpJNOmBrJxaxULvgPvuvpYR
+u1JouFC8Ea0NnzAGfju5xvmwHMPvO0cQN8S0qgHSiBX6p0EQypizfNjb8fI2jyQY
+jlP5/LZwJpaV5yNNwKrGHkvZ211akAFXQaEmC6ZzvEN/4Nl2yBs8C7HqjQB+ev+j
+Q3idwOD26GjMAPbf1/j0KgYU
+=mdos
 -----END PGP SIGNATURE-----
 
---===============5196121551134339058==--
+--===============5593535164452282006==--
