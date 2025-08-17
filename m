@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 17 Aug 2025 20:13:11 -0000
-Message-Id: <175546159170.2581767.1334279564108748502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 17 Aug 2025 20:22:33 -0000
+Message-Id: <175546215310.2614134.17007184436848946975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/next
-    old: aa91196bb6651f4e0d53d8be80f734741097dbd2
-    new: 3fb3d731136ba86b1da391305080f0e4ea2427e2
+  - ref: refs/heads/kvm-arm64/rasv1p1
+    old: 705681bf4453ab9e46b02e283578c6452346faea
+    new: db377be94c975c90e50956e9caa2947ab65b6b4f
     log: |
-         a06b924ef570b501f91d047a9bf75fbfda88af69 damo_module_general: split out main code
-         76c5a83198a95a911925958f1154701ff52e5ef5 damo_module: use dedicated module for DAMON_STAT
-         bd8a4f7d0c381d9654f3d4881dbb1f7569ccee29 damo_module_stat: implement idle time to memory size visualization
-         5aaf237b386bd0b799a52ba322316eca26419abc damo_module_stat: add an option for idle time to mem size output length
-         23814db25f52eb9824bf4ecf5b2bf5ad4c35c869 damo_module_stat: add spacing on idle time to memory size for cleaner output
-         7d586c10a7a213e500ce3f97b3ae62257ba70ea5 damo_module_stat: fix first range of idle time to memory size counting
-         73607d23e6871041eaca6f4f0dc093fc90dd6bc7 release_note: update for next release
-         61c2da52a3a7845cf0a58003eb0889eb048319cb damo_module_stat: rename idle_time_mem_sz_lines to output_nr_lines
-         3fb3d731136ba86b1da391305080f0e4ea2427e2 damo_module_stat: add idle time percentiles handling
+         5e6fcabb1a25d87d1552eb5c62ee57d6ea802bcb KVM: arm64: Handle RASv1p1 registers
+         fba20aa677edcf7094fea7e787f7ba1acb83fe68 KVM: arm64: Ignore HCR_EL2.FIEN set by L1 guest's EL2
+         08cbb7055309af3b2e525f3313e4dc215644ff30 KVM: arm64: Make ID_AA64PFR0_EL1.RAS writable
+         4e2d063ee5cf70e6a7c8cae0b507ba362b13f682 KVM: arm64: Make ID_AA64PFR1_EL1.RAS_frac writable
+         db377be94c975c90e50956e9caa2947ab65b6b4f KVM: arm64: Get rid of ARM64_FEATURE_MASK()
          
