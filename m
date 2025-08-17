@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5593535164452282006=="
+Content-Type: multipart/mixed; boundary="===============8300840418684134148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 17 Aug 2025 10:22:16 -0000
-Message-Id: <175542613664.589985.17122062847561428714@gitolite.kernel.org>
+Date: Sun, 17 Aug 2025 10:38:32 -0000
+Message-Id: <175542711204.643168.16293975920282100673@gitolite.kernel.org>
 
---===============5593535164452282006==
+--===============8300840418684134148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-linus
-    old: 75a7b151e808355a1fdf972e85da137612b8f2ae
-    new: ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46
+    old: ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46
+    new: 3a68841d1d9b6eb32b2652bbb83acd17d5eb9135
     log: |
-         ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46 debugfs: fix mount options not being applied
+         d49172bbd7eb07e4ba5e52238eaa9caf692c1cea Documentation: clarify the expected collaboration with security bugs reporters
+         3a68841d1d9b6eb32b2652bbb83acd17d5eb9135 Documentation: smooth the text flow in the security bug reporting process
          
 
---===============5593535164452282006==
+--===============8300840418684134148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755426180 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755427156 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1755426133-453a8b08fa121d2a4c70b6eed044b1a4507b18fc
+nonce 1755427108-97eb67a1885054015d744807f4b7422d116e307b
 
-75a7b151e808355a1fdf972e85da137612b8f2ae ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46 refs/heads/driver-core-linus
+ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46 3a68841d1d9b6eb32b2652bbb83acd17d5eb9135 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmihrYQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pZwQAI/eoRchL3vS6yJV2bY4
-ZaKuv5QfVdzqwsuuU9tRcZI/dc86Yhrzi9bOr65sEMa9d7ZnMlIPNZjGmBAv2vew
-ATZRwlvJMbS6EnsL+LSVnCOKnRrEEH4nKgsOugXIWlZzEWku2NsNn90Hj2EVGPyt
-OFWOZEkApncn6Cw9+wJfPCPkuDipMf/ITnHPgCMgFcrN2xP3FF7XciUrIUoUNEuS
-93FduVUYYPSlCOLWczJLNk5ldodxx9eTuug+SQkkcWlarI3DOI+1uVkncPD/ObV7
-qLcw1/RhFx7RCQPJG4cEaxE96UcXi90jjflzAdkwWa5y5K+8ztXkGM+Y0vde8xWt
-tO3I1O7jLXuii9Yy014v3wYAmJdN/I0m7OiK2zv7KXdiWlH1ZKwAFCJ/jCVwx6Bq
-hJQGROaFeAd0wcGFztZaUW547VWlHzPh8Zfp6s5MhIm0mlyhZXFPuHnMRzo4dXcm
-lXkunJO7Fg4hUsu+8RBrfdaanMVK2uT8rQeRPNtGMOpJNOmBrJxaxULvgPvuvpYR
-u1JouFC8Ea0NnzAGfju5xvmwHMPvO0cQN8S0qgHSiBX6p0EQypizfNjb8fI2jyQY
-jlP5/LZwJpaV5yNNwKrGHkvZ211akAFXQaEmC6ZzvEN/4Nl2yBs8C7HqjQB+ev+j
-Q3idwOD26GjMAPbf1/j0KgYU
-=mdos
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmihsVQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uAYQAJeNG97JKcYOFyjF8JXq
+a6v8K2aR75AObFoWeRXYg+7AFmXOXR07u5qf5xwVYIKiucgqalU7h/2Dja65KvtU
+PArfBgHJ5F9eHNPDFKBp8IU1YuSaY+TvjRv4bwpuaG0gLFsg61vtVuRBnD7KfHgo
++ol260tm3XfK4pVcz9eKzGNQSuHIVVc1L2Z6ix4kxdKuNtqPoGq1M9lxtcuJlMkj
+PdBHIeq1XlWm2qr+kKheIarjjwK7eIs9uQd2K9k1Ng48FZhyasN1lBUndJLsCdw9
+r2GPwVsYKnoXx0lbeGm1WB+FG5Vhd2RTi11Bq9ZfqP86hFCOr25MG2PFSaB+1boA
+YqHHOpgW4ABcV4AFEyIXJC7x3EX7BINE3bxfeoqov84aQOSa2lgxrhNhUcV2+ZFR
+2cOYnkLGpJCyI1Buc+EmSINoKbte53EmEdhzXeS4V0IZqItIkfMxxe+mK53WhGKL
+bCURGNWx27YXDIAK3OF+noZ69vVpSDDgvFcokm0jtS3TaY3uenwpiAEib120CnH5
+DjvVuTwMUQuMDRyTgo/GX7lRj3zP1bYM0reYr7FKGtIcnxlbkfreuYPvVrUPPPS6
+mfFinShG63ubH0y0fEHK3sRbPDRuRO2MnDijQJ3VgdvDe7w2ehEgBp9Py85/29Hf
+1Dsq86DvpYbRFc31RtQx8dGN
+=uVOY
 -----END PGP SIGNATURE-----
 
---===============5593535164452282006==--
+--===============8300840418684134148==--
