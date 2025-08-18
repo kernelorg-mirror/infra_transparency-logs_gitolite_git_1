@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0548128232359412652=="
+Content-Type: multipart/mixed; boundary="===============8740631855996852851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 18 Aug 2025 14:59:05 -0000
-Message-Id: <175552914550.1215013.4707501603150405627@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 14:59:27 -0000
+Message-Id: <175552916784.1215955.18321034272602982089@gitolite.kernel.org>
 
---===============0548128232359412652==
+--===============8740631855996852851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+  - ref: refs/heads/fixes
+    old: b6bcbce3359619d05bf387d4f5cc3af63668dbaa
     new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    log: revlist-8f5ae30d69d7-c17b750b3ad9.txt
+    log: revlist-b6bcbce33596-c17b750b3ad9.txt
+  - ref: refs/tags/v6.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f3c5631f70e434e318c44001e2417d4770f06cd0
 
---===============0548128232359412652==
+--===============8740631855996852851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-c17b750b3ad9.txt
+Content-Disposition: attachment; filename=revlist-b6bcbce33596-c17b750b3ad9.txt
 
 33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
@@ -104,7 +107,6 @@ c99fab6e80b76422741d34aafc2f930a482afbdd erofs: fix atomic context detection whe
 0b96d9bed324a1c1b7d02bfb9596351ef178428d erofs: fix block count report when 48-bit layout is on
 61399e0c5410567ef60cb1cda34cca42903842e3 rcu: Fix racy re-initialization of irq_work causing hangs
 0db77eccd964b11ab2b757031d1354fcc5a025ea ALSA: hda/realtek: Add Framework Laptop 13 (AMD Ryzen AI 300) to quirks
-b6bcbce3359619d05bf387d4f5cc3af63668dbaa soc/tegra: pmc: Ensure power-domains are in a known state
 647b3d59c768d7638dd17c78c8044178364383ca xfs: fix frozen file system assert in xfs_trans_alloc
 d2845519b0723c5d5a0266cbf410495f9b8fd65c xfs: fully decouple XFS_IBULK* flags from XFS_IWALK* flags
 82efde9cf2e4ce25eac96a20e36eae7c338df1e0 xfs: remove XFS_IBULK_SAME_AG
@@ -252,4 +254,4 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============0548128232359412652==--
+--===============8740631855996852851==--
