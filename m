@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0666008666364309244=="
+Content-Type: multipart/mixed; boundary="===============1031937227213302987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 18 Aug 2025 02:20:45 -0000
-Message-Id: <175548364524.3864832.5565076630988023309@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 02:54:49 -0000
+Message-Id: <175548568937.3975509.1475581939571329034@gitolite.kernel.org>
 
---===============0666008666364309244==
+--===============1031937227213302987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
+  - ref: refs/heads/dev
     old: a5100c1c9e81af9f7b9b7dc55a1ebf56c40f4d80
     new: 355ed1397405feb85bd04696972e8da58c805e0b
     log: revlist-a5100c1c9e81-355ed1397405.txt
 
---===============0666008666364309244==
+--===============1031937227213302987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ cb8602f20481711ac630dcacff5a798a7305f253 erofs-utils: introduce extra build depe
 77585838e07342388cda78f032f7a72878681599 erofs-utils: mkfs: support AWS_{ACCESS_KEY_ID,SECRET_ACCESS_KEY}
 355ed1397405feb85bd04696972e8da58c805e0b erofs-utils: mkfs: support full image generation from S3
 
---===============0666008666364309244==--
+--===============1031937227213302987==--
