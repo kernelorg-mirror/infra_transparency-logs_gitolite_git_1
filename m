@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1164967355208436567=="
+Content-Type: multipart/mixed; boundary="===============7060473569008458054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 18 Aug 2025 20:34:13 -0000
-Message-Id: <175554925302.1994954.7919806824235990902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 18 Aug 2025 20:34:41 -0000
+Message-Id: <175554928153.1996284.16461356572893647274@gitolite.kernel.org>
 
---===============1164967355208436567==
+--===============7060473569008458054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.18
-    old: 48124569bbc6bfda1df3e9ee17b19d559f4b1aa3
-    new: f5accfde5d02a7c485c38c04e2204f3b4a7b847d
-    log: revlist-48124569bbc6-f5accfde5d02.txt
+  - ref: refs/heads/for-linus
+    old: a3cb869bb6f56be9efdbc72910445ee1843ef5c1
+    new: a3a29462c013225794e2dcfb6aaa8359c0315a19
+    log: |
+         a3a29462c013225794e2dcfb6aaa8359c0315a19 Merge remote-tracking branch 'spi/for-6.16' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: bbe4656eae2729b8ca87116defa19c568898d08f
+    new: cd8cdbc25bec07f00d3b65a90b2d3b2f0c03eb03
+    log: revlist-bbe4656eae27-cd8cdbc25bec.txt
 
---===============1164967355208436567==
+--===============7060473569008458054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1755549298 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1755549250-82563eefbddc5d0775dfdfcef9d44e2e7e29124a
-
-48124569bbc6bfda1df3e9ee17b19d559f4b1aa3 f5accfde5d02a7c485c38c04e2204f3b4a7b847d refs/heads/spi-6.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmijjnIACgkQJNaLcl1U
-h9BDNQf/X1MJN6doHhOOMPWC6sJQ83+txnvYMAbr/hT0m+SUL2wtqzq+lvSmNL6J
-9UlaTnhCP9087sNDKm6CuXpry1W4FSjkicuZxOaxa3bcfhuhH24RFK6Iwi7sIAJL
-wC/pxw3yzOrWa8q5gzJlynNOqhtqVxtAiBFhRZ/bHJILK6vR6VUraBZRYpfVvZxV
-vI3Ebzh1VbnrHgXAsHCCq9aqDg8jBdKXfWx2IFWjBYvVPQf42UraDuzA4KejcCtA
-DVtSbiH/gp5A2jKX/dE1HPwnFKIPpmv4QbEDWty8PRGgAmUcHsSKzx7xm7NmjMOm
-G7qtpiWwARFZkSJ64DtAtmcrOJl3Xg==
-=jF8L
------END PGP SIGNATURE-----
-
---===============1164967355208436567==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48124569bbc6-f5accfde5d02.txt
+Content-Disposition: attachment; filename=revlist-bbe4656eae27-cd8cdbc25bec.txt
 
 33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
@@ -283,5 +264,8 @@ a750050349ea138e3e86c66a8a41de736619b9de spi: spi-fsl-lpspi: use min_t() to impr
 90179609efa421b1ccc7d8eafbc078bafb25777c spi: spl022: use min_t() to improve code
 9fd5f18c0b38378f83a425b874bd76bf7ad40cf9 spi: offload-trigger: followup
 f5accfde5d02a7c485c38c04e2204f3b4a7b847d spi: use min_t() to improve code
+a3a29462c013225794e2dcfb6aaa8359c0315a19 Merge remote-tracking branch 'spi/for-6.16' into spi-linus
+1bf5d00144877b1e5eb1690fab717031c14ff6fd Merge branch 'spi-linus' into spi-next
+cd8cdbc25bec07f00d3b65a90b2d3b2f0c03eb03 Merge remote-tracking branch 'spi/for-6.18' into spi-next
 
---===============1164967355208436567==--
+--===============7060473569008458054==--
