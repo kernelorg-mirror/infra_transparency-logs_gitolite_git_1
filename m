@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6831689781616788050=="
+Content-Type: multipart/mixed; boundary="===============8863686692478743875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 18 Aug 2025 10:52:19 -0000
-Message-Id: <175551433984.708392.8735604256793235131@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 10:52:41 -0000
+Message-Id: <175551436132.708846.687737381460117653@gitolite.kernel.org>
 
---===============6831689781616788050==
+--===============8863686692478743875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,37 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/fixes
     old: 4b290aae788e06561754b28c6842e4080957d3f7
-    new: 8936497143de1da7958178d57db6011eceeb14a8
-    log: revlist-4b290aae788e-8936497143de.txt
+    new: 99d7ab8db9d8230b243f5ed20ba0229e54cc0dfa
+    log: revlist-4b290aae788e-99d7ab8db9d8.txt
+  - ref: refs/tags/v6.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
+  - ref: refs/tags/v6.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f3c5631f70e434e318c44001e2417d4770f06cd0
 
---===============6831689781616788050==
+--===============8863686692478743875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b290aae788e-8936497143de.txt
+Content-Disposition: attachment; filename=revlist-4b290aae788e-99d7ab8db9d8.txt
 
+9acb237deff7667b0f6b10fe6b1b70c4429ea049 NFSv4.2: another fix for listxattr
+99765233ab42bf7a4950377ad7894dce8a5c0e60 NFS: Fixup allocation flags for nfsiod's __GFP_NORETRY
+3193e8942fc7f70ba3c872a988a0c15f98818bd2 samples: fix building fs-monitor on musl systems
+08da98e1b2f76cdbacf84b9affaa75960dbce515 fsnotify: merge file_set_fsnotify_mode_from_watchers() with open perm hook
+0d4c4d4ea443babab6ec1a79f481260963fc969a fsnotify: optimize FMODE_NONOTIFY_PERM for the common cases
+0349b7f95c806ea30d558c7fec9502f4470fb1b6 f2fs: avoid redundant clean nat entry move in lru list
+40aa9e1223fd38e65ac72373e642c7638a3b4752 f2fs: directly add newly allocated pre-dirty nat entry to dirty set list
+6840faddb65683b4e7bd8196f177b038a1e19faf f2fs: fix to update upper_p in __get_secs_required() correctly
+e194e140ab7de2ce2782e64b9e086a43ca6ff4f2 f2fs: fix to calculate dirty data during has_not_enough_free_secs()
+1005a3ca28e90c7a64fa43023f866b960a60f791 f2fs: fix to trigger foreground gc during f2fs_map_blocks() in lfs mode
+4a50578a5868f94bb9a8f7bab2ff6ed9122aa1d7 RISC-V: KVM: Check kvm_riscv_vcpu_alloc_vector_context() return value
+7c67de21ee74f007053dfe018afb5c0f5607dd1a RISC-V: KVM: Drop the return value of kvm_riscv_vcpu_aia_init()
+b79bf2025dbc53e0cf834690fc90f11cf801657b RISC-V: KVM: Rename and move kvm_riscv_local_tlb_sanitize()
+7584eb611e8ef22aca3b801f7fd8529892b70901 RISC-V: KVM: Replace KVM_REQ_HFENCE_GVMA_VMID_ALL with KVM_REQ_TLB_FLUSH
 eaa98ba20be088eeb252061f216c299442ba5a69 RISC-V: KVM: Don't flush TLB when PTE is unchanged
 ca539ba4bc980610b68dba345b18208c0279b2b1 RISC-V: KVM: Implement kvm_arch_flush_remote_tlbs_range()
 77ba6469fe1ed37a1f62bc76fb5a7b159f698aed RISC-V: KVM: Use ncsr_xyz() in kvm_riscv_vcpu_trap_redirect()
@@ -1031,24 +1051,10 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 0a9ee9ce49a66bfdf12e34130b45fafe170dfc84 Merge tag 'locking_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
-5f755ba95ae10fd4fa28d64345056ffc18d12c5a mmc: sdhci: Disable SD card clock before changing parameters
-d76ae3c79ca9044191f2e2a8c85326869a72fa39 mmc: Kconfig: Fix spelling mistake "referrered" -> "referred"
-4591511daba4e7e9a8452b116c3f7ea5718c60ce mmc: davinci: Remove space before newline
-0caebd1658bbb3796bec4e3449876742d29701ab dt-bindings: mmc: fsl,esdhc: Add explicit reference to mmc-controller-common
-a8977a3ced0ce0e472157c185403e0140f0ad913 mmc: core: SPI mode remove cmd7
-a074d857da3dfb268ec4c55dfe763fa97545a43b mmc: mmc_spi: multiple block read remove read crc ack
 dec8b38be4b35cae5f7fa086daf2631e2cfa09c1 mmc: sdhci-pci-gli: Add a new function to simplify the code
 293ed0f5f34e1e9df888456af4b0a021f57b5f54 mmc: sdhci-pci-gli: GL9763e: Rename the gli_set_gl9763e() for consistency
 340be332e420ed37d15d4169a1b4174e912ad6cb mmc: sdhci-pci-gli: GL9763e: Mask the replay timer timeout of AER
 e251709aaddb3ee1e8ac1ed5e361a608a1cc92de mmc: sdhci-of-arasan: Ensure CD logic stabilization before power-up
-1975562b29a81cd029b1709b98fa051acbe1c2a9 mmc: host: renesas_sdhi: Fix the actual clock
-cb9794ca410663394ba8a2c090759353651b4b55 mmc: tmio: Add 64-bit read/write support for SD_BUF0 in polling mode
-d5561462138fbf1fc3ee0e072fdc9e49abd9b20e mmc: renesas_sdhi: Enable 64-bit polling mode
 99d7ab8db9d8230b243f5ed20ba0229e54cc0dfa memstick: Fix deadlock by moving removing flag earlier
-7e4d9d69fda1a4404b44b1b7159b8fc2eb2be3b6 memstick: Add timeout to prevent indefinite waiting
-3b824993dc8b409ba8211a1fad10746601cc8dd9 misc: rtsx: usb card reader: add OCP support
-6e738bf60ac6f2f34f93824b0f24e28995cdf228 mmc: meson-mx-sdhc: use PTR_ERR_OR_ZERO() to simplify code
-45fd371d83f1e0b27b010a110012b58ac585e3ee mmc: remove unneeded 'fast_io' parameter in regmap_config
-8936497143de1da7958178d57db6011eceeb14a8 mmc: Merge branch fixes into next
 
---===============6831689781616788050==--
+--===============8863686692478743875==--
