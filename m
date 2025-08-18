@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 18 Aug 2025 19:20:07 -0000
-Message-Id: <175554480719.1823155.14527500458238884093@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 19:26:23 -0000
+Message-Id: <175554518352.1836521.17051306863678843036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/selftest-filelock-ktap
+  - ref: refs/tags/sent/20250625-arm64-lsfe-0810cf98adc2-v3
     old: 0000000000000000000000000000000000000000
-    new: a478c625f12b09e64470605edc350cf3dd7d7b47
+    new: 769a453ad244afefc914022d6a74c3ff72a18f85
