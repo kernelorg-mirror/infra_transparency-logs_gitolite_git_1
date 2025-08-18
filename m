@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
-Date: Mon, 18 Aug 2025 13:06:07 -0000
-Message-Id: <175552236731.982037.12976494999663881030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 18 Aug 2025 13:08:15 -0000
+Message-Id: <175552249520.987485.7122351685609344127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jenswi/linux-tee
-user: jenswi
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/next
-    old: 0bf5d8254a00d4b25cfe1d3096887d1b2b30d258
-    new: 0518f0b44b9a0bf3e3a4340ea618b30a50f4e2e7
+  - ref: refs/heads/master
+    old: 3ec85602f86c694b605ffc1977cad1f56fe1749e
+    new: 12741630350c6ba250ffd480dbb0bbab7e8ac80a
     log: |
-         75dbd4304afe574fcfc4118a5b78776a9f48fdc4 tee: optee: ffa: fix a typo of "optee_ffa_api_is_compatible"
-         0518f0b44b9a0bf3e3a4340ea618b30a50f4e2e7 Merge branch 'optee_typo_fix_for_v6.17' into next
+         eada40e057fc1842358d9daca3abe5cacb21e8a1 s390/bpf: Do not write tail call counter into helper and kfunc frames
+         c861a6b147137d10b5ff88a2c492ba376cd1b8b0 s390/bpf: Write back tail call counter for BPF_PSEUDO_CALL
+         bc3905a71f02511607d3ccf732360580209cac4c s390/bpf: Write back tail call counter for BPF_TRAMP_F_CALL_ORIG
+         12741630350c6ba250ffd480dbb0bbab7e8ac80a selftests/bpf: Clobber a lot of registers in tailcall_bpf2bpf_hierarchy tests
          
