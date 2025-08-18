@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8736191943149437300=="
+Content-Type: multipart/mixed; boundary="===============6952291779240957203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 18 Aug 2025 02:11:06 -0000
-Message-Id: <175548306694.3831721.14529250545925100143@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 02:11:46 -0000
+Message-Id: <175548310635.3833762.5286558929950656079@gitolite.kernel.org>
 
---===============8736191943149437300==
+--===============6952291779240957203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+  - ref: refs/heads/dev-test
+    old: 0b96d9bed324a1c1b7d02bfb9596351ef178428d
     new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    log: revlist-8f5ae30d69d7-c17b750b3ad9.txt
+    log: revlist-0b96d9bed324-c17b750b3ad9.txt
+  - ref: refs/heads/fixes
+    old: 0b96d9bed324a1c1b7d02bfb9596351ef178428d
+    new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
+    log: revlist-0b96d9bed324-c17b750b3ad9.txt
 
---===============8736191943149437300==
+--===============6952291779240957203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-c17b750b3ad9.txt
+Content-Disposition: attachment; filename=revlist-0b96d9bed324-c17b750b3ad9.txt
 
 33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
@@ -98,10 +102,6 @@ f13ab498726bb6c636d6c5cd8c7df911444316dc ASoC: generic: tidyup standardized ASoC
 633e391d45bda3fc848d26bee6bbe57ef2935713 ASoC: rt721: fix FU33 Boost Volume control not working
 f48d7a1b0bf11d16d8c9f77a5b9c80a82272f625 ASoC: rt1320: fix random cycle mute issue
 b11f2a9745401d9ccc51c91b5482044d2ea936e8 ASoC: tas2781: Fix spelling mistake "dismatch" -> "mismatch"
-c6993c4cb91803fceb82d6b5e0ec5e0aec2d0ad6 erofs: Fallback to normal access if DAX is not supported on extra device
-74da24f0ac9b8aabfb8d7feeba6c32ddff3065e0 erofs: Do not select tristate symbols from bool symbols
-c99fab6e80b76422741d34aafc2f930a482afbdd erofs: fix atomic context detection when !CONFIG_DEBUG_LOCK_ALLOC
-0b96d9bed324a1c1b7d02bfb9596351ef178428d erofs: fix block count report when 48-bit layout is on
 61399e0c5410567ef60cb1cda34cca42903842e3 rcu: Fix racy re-initialization of irq_work causing hangs
 0db77eccd964b11ab2b757031d1354fcc5a025ea ALSA: hda/realtek: Add Framework Laptop 13 (AMD Ryzen AI 300) to quirks
 b6bcbce3359619d05bf387d4f5cc3af63668dbaa soc/tegra: pmc: Ensure power-domains are in a known state
@@ -252,4 +252,4 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============8736191943149437300==--
+--===============6952291779240957203==--
