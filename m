@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8762224740739250105=="
+Content-Type: multipart/mixed; boundary="===============2110361663333292004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 18 Aug 2025 10:13:02 -0000
-Message-Id: <175551198218.636057.7537307965518795998@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 10:13:45 -0000
+Message-Id: <175551202510.636734.5866311279997352888@gitolite.kernel.org>
 
---===============8762224740739250105==
+--===============2110361663333292004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 3da6bb419750f3ad834786d6ba7c9d5d062c770b
-    new: b64fdd422a85025b5e91ead794db9d3ef970e369
-    log: revlist-3da6bb419750-b64fdd422a85.txt
+  - ref: refs/heads/perf/core
+    old: 829f5a6308ce11c3edaa31498a825f8c41b9e9aa
+    new: 448f97fba9013ffa13f5dd82febd18836b189499
+    log: revlist-829f5a6308ce-448f97fba901.txt
 
---===============8762224740739250105==
+--===============2110361663333292004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3da6bb419750-b64fdd422a85.txt
+Content-Disposition: attachment; filename=revlist-829f5a6308ce-448f97fba901.txt
 
-85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
-651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
-2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
-c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
-2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
-a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
-e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
-1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
-af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
-95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
-d89c58068aa667295fa75d0613c869b612bd6249 perf test: Fix comment ordering
-af470fb532fc803c4c582d15b4bd394682a77a15 perf tools: Remove libtraceevent in .gitignore
-9957d8c801fe0cb905a9443d7a88e6a051f81105 perf jevents: Add common software event json
-6e9fa4131abb0129b1153ba6d194bd294b9f9986 perf parse-events: Remove non-json software events
 d002aab87de84b26c6f0a2b9549a589105d00d35 perf tp_pmu: Factor existing tracepoint logic to new file
 45b6e281cb0648acd04f896375de69481d29daa7 perf tp_pmu: Add event APIs
 55c09681cc67d175bd62b787c8b6eeafbe1b5851 perf list: Remove tracepoint printing code
@@ -1049,6 +1035,20 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-b64fdd422a85025b5e91ead794db9d3ef970e369 perf: Avoid undefined behavior from stopping/starting inactive events
+e8c4f6ee8eeed8e02800bed6afb9aa22fc3476a1 perf: Remove redundant condition for AUX buffer size
+81e026ca47b386e4213c1beff069038a3ba8bb76 perf: Split out mlock limit handling
+1ea3e3b0dadc06c5e6c1bdf5312e70ee861b1ba0 perf: Split out VM accounting
+86a0a7c59845e7093c9c73a7115c9d86349499d1 perf: Move perf_mmap_calc_limits() into both rb and aux branches
+3821f258686691cf12bbfc636ab22fa2b049dc86 perf: Merge consecutive conditionals in perf_mmap()
+4118994b33bb628dd9aeb941c5af6f950f1dea90 perf: Move common code into both rb and aux branches
+41b80e1d74bdef5e48ea63d186244b9f6f82a4da perf: Remove redundant aux_unlock label
+b33a51564e3eb6c468979f9f08d9b4ad8451bed7 perf: Use guard() for aux_mutex in perf_mmap()
+8558dca9fbdf825edf30b5fb74fbbbf3e6ba5dce perf: Reflow to get rid of aux_success label
+2aee37682391332d26c01e703170e0d9358c7252 perf: Split out the AUX buffer allocation
+191759e5ea9f6995171ed2ffcc41a2377f946a3a perf: Make RB allocation branch self sufficient
+5d299897f1e36025400ca84fd36c15925a383b03 perf: Split out the RB allocation
+d23a6dbc0a71741eb7b141fdc04e31360fba46ef perf: Use scoped_guard() for mmap_mutex in perf_mmap()
+59741451b49ce9964a9758c19d6f7df2a1255c75 perf: Identify the 0->1 transition for event::mmap_count
+448f97fba9013ffa13f5dd82febd18836b189499 perf: Convert mmap() refcounts to refcount_t
 
---===============8762224740739250105==--
+--===============2110361663333292004==--
