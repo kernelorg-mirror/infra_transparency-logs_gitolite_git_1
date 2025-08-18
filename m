@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Mon, 18 Aug 2025 06:41:12 -0000
-Message-Id: <175549927256.275641.2513337910128373820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Mon, 18 Aug 2025 06:45:24 -0000
+Message-Id: <175549952412.281120.856685211556057633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/tags/nova-core-unstable-dma-prints
+  - ref: refs/heads/for-6.18
     old: 0000000000000000000000000000000000000000
-    new: 947ed756bbfa8e4fa017cf3b249e8fcf4f328685
+    new: 117c3f3014a929464c01622cb95b566bd27244f8
