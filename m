@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6861148093032660335=="
+Content-Type: multipart/mixed; boundary="===============8530689814760155142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 18 Aug 2025 13:56:17 -0000
-Message-Id: <175552537724.1085504.13426533157732892043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 18 Aug 2025 13:56:36 -0000
+Message-Id: <175552539682.1086884.1258219107070301833@gitolite.kernel.org>
 
---===============6861148093032660335==
+--===============8530689814760155142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f3c5631f70e434e318c44001e2417d4770f06cd0
 
---===============6861148093032660335==
+--===============8530689814760155142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -255,4 +255,4 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============6861148093032660335==--
+--===============8530689814760155142==--
