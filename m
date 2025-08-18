@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 18 Aug 2025 12:14:51 -0000
-Message-Id: <175551929188.876929.8105669728385895306@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5731677514053287260=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 18 Aug 2025 12:14:52 -0000
+Message-Id: <175551929242.876972.1745406941359206362@gitolite.kernel.org>
+
+--===============5731677514053287260==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/20250814_shimrrashai_asoc_es8323_power_and_mixer_controls_cleanup_and_revision
-    old: 0000000000000000000000000000000000000000
-    new: daf855f76a1210ceed9541f71ac5dd9be02018a6
-  - ref: refs/heads/20250815_dlechner_spi_offload_trigger_followup
-    old: 0000000000000000000000000000000000000000
-    new: 0056b410355713556d8a10306f82e55b28d33ba8
-  - ref: refs/heads/20250815_rongqianfeng_spi_use_min_t_to_improve_code
-    old: 0000000000000000000000000000000000000000
-    new: 90179609efa421b1ccc7d8eafbc078bafb25777c
-  - ref: refs/heads/20250818_cezary_rojewski_asoc_intel_avs_code_cleanups_and_separation
-    old: 0000000000000000000000000000000000000000
-    new: 2a55135201d5e24b80b7624880ff42eafd8e320c
-  - ref: refs/heads/file14x9UU
-    old: 0000000000000000000000000000000000000000
-    new: 550bc517e59347b3b1af7d290eac4fb1411a3d4e
-  - ref: refs/heads/file4oA3mj
-    old: 0000000000000000000000000000000000000000
-    new: 447be50598c05499f7ccc2b1f6ddb3da30f8099a
+  - ref: refs/heads/master
+    old: f2ca7b92146e7a4aaba0809adc7522ddd64bee2c
+    new: f91418d002a1eb2c607dd90dda9392273278fc62
+    log: |
+         f91418d002a1eb2c607dd90dda9392273278fc62 6.6-stable patches
+         
+
+--===============5731677514053287260==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755519338 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1755519290-341d98d1e0e1b33a7163cd1b13aec0644678a510
+
+f2ca7b92146e7a4aaba0809adc7522ddd64bee2c f91418d002a1eb2c607dd90dda9392273278fc62 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmijGWobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AP0P/2L7xwXJABPCouQakNaZ
+0ZHKNI1eo0vTBRSJ27BMUtWSQTOx9Rp17we4KBxxN23P4D7pAmUe6r0gI+ZWify8
+K/OfoplBiM6acDqep9xLVECumOxdtJPOiwnyBsjHFGhJz+qr2Zs3K1PnLgp/dM1a
+PNQkktSdojGW+sYea6o9fB50RYNHoGUxPGPc3s5PxmVgvAXBkzO4LDZzZ116r3ij
+BhUtlNZbV3+Ak+KgnLdX8ieHU0YqvSM+oi47cJmIKfJoiOkxG844/v//OTDsvB5e
+SX9g9bEtn/YEg/9izWWqbEjEj/a3nUZJxtRxL3K7sdC3R40KAzFqxX+z4Juf5jg1
+t35f8HdNe/rYZxwCe8/K4rU738hUM8aZLO7UAeItexq96DN9tt7aal0NPo/suLEO
+t/UigY7j4K00PU4ipkUiumxO7e/F02d/epvzwIcDOYOZZqjzY+CO+50s2NZ6eQ81
+XcSgeqyUoAHc5rYfpc8NNgx2dqzU33bCUOFZEQkts+EfBCv5Er05MLChrTlelPTW
+pP+7SDwq4Pa1zTq1iVChzqtuj4bSD5f/6WDLh77VrSo/VMQ5GsfF6wy0DjkoXWRn
+WZ++s1EZ6BJScq8QmdR/VJUJ9nYc0bekPNNCs9PLIj6sWSurRU2j4mJt4vUYvrjt
+8ud+GBpxwYD9aH8CJ9dXHzkW
+=/Y+F
+-----END PGP SIGNATURE-----
+
+--===============5731677514053287260==--
