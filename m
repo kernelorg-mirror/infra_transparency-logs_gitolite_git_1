@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6591659217507250750=="
+Content-Type: multipart/mixed; boundary="===============2367763249029448494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Mon, 18 Aug 2025 08:47:06 -0000
-Message-Id: <175550682607.480022.15479857523415071792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Mon, 18 Aug 2025 08:48:43 -0000
+Message-Id: <175550692337.481056.1853186133742390526@gitolite.kernel.org>
 
---===============6591659217507250750==
+--===============2367763249029448494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 006aa8f57f55dd5bf68c4ada1e0d3f4e59027d71
-    new: c0eb742dd61cd6809c480d2c9687d78fce941225
-    log: revlist-006aa8f57f55-c0eb742dd61c.txt
+  - ref: refs/heads/for-leds-next
+    old: 4903924ac7ef31fbbe48b3261b1bc86ce6cd7e97
+    new: 7d5c3cac1f395324673e9ec32b65e4f6ff23fcb9
+    log: revlist-4903924ac7ef-7d5c3cac1f39.txt
 
---===============6591659217507250750==
+--===============2367763249029448494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-006aa8f57f55-c0eb742dd61c.txt
+Content-Disposition: attachment; filename=revlist-4903924ac7ef-7d5c3cac1f39.txt
 
+2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
+a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
+e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
 1729003f284d5f8f1bdd0c7e591b94003ebfb1dd MAINTAINERS: add missing file to cgroup section
 af915c3c13b64d196d1c305016092f5da20942c4 MAINTAINERS: add missing headers to mempory policy & migration section
 95f610e36adc74f3972e31c28567d66777ce37f3 rtc: pcf85063: scope pcf85063_config structures
@@ -369,6 +372,9 @@ a26321ee4c935a63c29ed6518f27e38826b36e68 Merge tag 'hardening-v6.17-rc1-fix1' of
 4b290aae788e06561754b28c6842e4080957d3f7 Merge tag 'sysctl-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 956048a3cd9d2575032e2c7ca62803677357ae18 ALSA: hda/realtek - Fix mute LED for HP Victus 16-s0xxx
 a9dec0963187d05725369156a5e0e14cd3487bfb ALSA: hda/realtek - Fix mute LED for HP Victus 16-d1xxx (MB 8A26)
+8b96324c75d8b09ae8d11ab411adc74528a54bc8 mfd: Remove redundant pm_runtime_mark_last_busy() calls
+73e52f871fc098368c57bfc1756f6281c44e9f55 mfd: Minor Cirrus/Maxim Kconfig order fixes
+006aa8f57f55dd5bf68c4ada1e0d3f4e59027d71 mfd: dt-bindings: Convert TPS65910 to DT schema
 258ef75cf2e219350574c8a8d3695451c093ed38 mtd: nand: brcmnand: replace manual string choices with standard helpers
 fdfb040d0bc5963b7f107cc0711a62cd6ed1682c mtd: spinand: gigadevice: Add support for GD5F1GM9 chips
 79e441ee47949376e3bc20f085cf017b70523d0f mtd: rawnand: renesas: Add missing check after DMA map
@@ -1039,16 +1045,10 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-6aa6f19e767016540d01508ab127213be8fd3f7d mfd: simple-mfd-i2c: Add compatible strings for Layerscape QIXIS FPGA
-3f1e7bbf54516294ec0fc1dd065eb06b83ef4129 mfd: adp5585: Drop useless return statement
-e64d39b7b0c68ccd60818508be270fcdb788ee08 mfd: Kconfig: Fix spelling mistake "infontainment" -> "infotainment"
-4eaacb4c7d4daab63a8f37586eeec301ea035216 mfd: stmpe: Remove IRQ domain upon removal
-e7c3751b7210ec5e35d0a16081b08fa116165d85 mfd: stmpe-spi: Use module_spi_driver to remove boilerplate
-bd8fcd170820eea443de25abe6239f2baf642597 mfd: stmpe-i2c: Use module_i2c_driver to remove boilerplate
-fad578cc0d6d9d617a3c04892daad8b4b552470b mfd: stmpe-spi: Add missing MODULE_LICENSE
-1eefa294345647cd2443c4db0c96a3b698d2eebe mfd: stmpe-i2c: Add missing MODULE_LICENSE
-2485a93a453ac100eae9eb9f6066179e863d1625 dt-bindings: mfd: qnap,ts433-mcu: Add qnap,ts233-mcu compatible
-25ccf3e4883234de2623e5cae973c0e90e71524e mfd: qnap-mcu: Add driver data for TS233 variant
-c0eb742dd61cd6809c480d2c9687d78fce941225 dt-bindings: mfd: qnap,ts433-mcu: Allow nvmem-layout child node
+758e743362cdc0cc45d8717431b2eabf29084ef1 leds: leds-is31fl32xx: Add support for is31fl3236a
+f4fc2d87aa167e3da5333c3db6cf702db1f98c05 leds: Kconfig: Fix spelling mistake "limitiation" -> "limitation"
+6e3779e3c6f9dcc9267bf98bef70773a0b13dcbb leds: max77705: Function return instead of variable assignment
+5974e8f6c3e47ab097c3dd8ece7324d1f88fe739 leds: flash: leds-qcom-flash: Update torch current clamp setting
+7d5c3cac1f395324673e9ec32b65e4f6ff23fcb9 leds: flash: leds-qcom-flash: Add a separate register map for PMI8998
 
---===============6591659217507250750==--
+--===============2367763249029448494==--
