@@ -1,28 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 18 Aug 2025 20:05:57 -0000
-Message-Id: <175554755764.1926929.11273664104744379170@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5252879617189034931=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 18 Aug 2025 20:11:14 -0000
+Message-Id: <175554787463.1939312.6530253822055829528@gitolite.kernel.org>
+
+--===============5252879617189034931==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/net
-    old: bab3ce404553de56242d7b09ad7ea5b70441ea41
-    new: caf009af62b2301efcb95eb93b5de6318afa8e8e
-    log: |
-         89d912e494f786e79f69ed9d567a8842c71dbb03 bpf: Add dynptr type for skb metadata
-         6877cd392baecf816c2ba896a9d42874628004a5 bpf: Enable read/write access to skb metadata through a dynptr
-         0e74eb4d57f00e6103ac23ce2312766c25ad88f6 selftests/bpf: Cover verifier checks for skb_meta dynptr type
-         6dfd5e01e1a7728e162f721cd8adf5ecd24fbc80 selftests/bpf: Pass just bpf_map to xdp_context_test helper
-         dd9f6cfb4ef4394c2afd1e2b564af25aff151bc8 selftests/bpf: Parametrize test_xdp_context_tuntap
-         153f6bfd489076309227413e9221960712336369 selftests/bpf: Cover read access to skb metadata via dynptr
-         ed93360807801e7f69b74efec98a1bd674ba035e selftests/bpf: Cover write access to skb metadata via dynptr
-         bd1b51b319788cbc5769a44f0081a1cb012f8ae4 selftests/bpf: Cover read/write to skb metadata at an offset
-         403fae59781fddc699af761f38ed024d3245096b selftests/bpf: Cover metadata access from a modified skb clone
-         caf009af62b2301efcb95eb93b5de6318afa8e8e Merge branch 'add-a-dynptr-type-for-skb-metadata-for-tc-bpf'
-         
+  - ref: refs/heads/dev
+    old: 2ad3ef4260e9bd8628025b35fa2613c7e4e7720f
+    new: 42d85d840c15b5126c4bd3eed4bae8e8221bd53e
+    log: revlist-2ad3ef4260e9-42d85d840c15.txt
+
+--===============5252879617189034931==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2ad3ef4260e9-42d85d840c15.txt
+
+e89ce78e8fdb65ffe97ca7dfef28bd0abe3e965b rcu: Remove unused ->trc_ipi_to_cpu and ->trc_blkd_cpu from task_struct
+fa97f4efbfd5b005ab726ee9f5de9dd5ec24df48 rcu: Remove ->trc_blkd_node from task_struct
+51007c554967c90478b15eed3d98b506b30de948 rcu: Remove ->trc_holdout_list from task_struct
+859ea3e3d5067ca0f4948a01838c54d9fe383ab0 rcu: Remove rcu_tasks_trace_qs() and the functions that it calls
+e393f895d82ab1d826be010aae81515e17177e92 context_tracking: Remove rcu_task_trace_heavyweight_{enter,exit}()
+be2c0edb32b553cf54257fe8f9f21725afa734ef rcu: Remove ->trc_reader_special from task_struct
+ecafdbc4693fd6a6295b98c1cc2921976b761d58 rcu: Remove now-empty RCU Tasks Trace functions and calls to them
+0ad3b7aec6ec6ba5db010276def9456a5e594d4a rcu: Remove unused rcu_tasks_trace_lazy_ms and trc_stall_chk_rdr struct
+e575345a5c97ff4933ce5de32be9d8b0711a4649 fixup! rcu: Re-implement RCU Tasks Trace in terms of SRCU-fast
+e5f4a869e5927978c56dc6922c3ec7155758e97c rcu: Remove now-empty show_rcu_tasks_trace_gp_kthread() function
+58ca49263e448186565e9e41e7cf602dbfcc922a rcu: Remove now-empty rcu_tasks_trace_get_gp_data() function
+11ecb843191076752361f1d71069feaeaa058730 rcu: Remove now-empty rcu_tasks_trace_torture_stats_print() function
+f69137391d2200ca8cd95657a83a4267b3f3a3dc rcu: Move rcu_tasks_trace_srcu_struct out of #ifdef CONFIG_TASKS_RCU_GENERIC
+42d85d840c15b5126c4bd3eed4bae8e8221bd53e net: stmmac: Make DWMAC_ROCKCHIP and DWMAC_STM32 depend on PM_SLEEP
+
+--===============5252879617189034931==--
