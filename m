@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 18 Aug 2025 15:16:11 -0000
-Message-Id: <175553017154.1268050.14252557972070583126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 18 Aug 2025 15:30:00 -0000
+Message-Id: <175553100090.1297811.8351330632580179047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 6a9e4dc6fb628125fb00329aeb07e2b5768145f3
-    new: 59cc5d656ca4126110c968dd1a97c0c079efbfbf
+  - ref: refs/heads/master
+    old: d87fdb1f27d7b1f3309bba00955f0aa1cd19b33e
+    new: dbe99ea541f023d73abf5730c1477ba96111ef83
     log: |
-         59cc5d656ca4126110c968dd1a97c0c079efbfbf drivers/thermal/qcom/lmh: Fix incorrect error message
+         dbe99ea541f023d73abf5730c1477ba96111ef83 bpf: Add a verbose message when the BTF limit is reached
          
