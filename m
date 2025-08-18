@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Mon, 18 Aug 2025 13:50:38 -0000
-Message-Id: <175552503878.1072401.16435112008724399845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 18 Aug 2025 13:53:00 -0000
+Message-Id: <175552518061.1079025.8907498231302572212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/icc-glymur
+  - ref: refs/tags/v6.17-rc2
     old: 0000000000000000000000000000000000000000
-    new: 7fdc1d1b02e471c2ad4292705265706e003430a0
+    new: f3c5631f70e434e318c44001e2417d4770f06cd0
