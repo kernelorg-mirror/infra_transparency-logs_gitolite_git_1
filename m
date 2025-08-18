@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6721129064338432151=="
+Content-Type: multipart/mixed; boundary="===============0104779476717451065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 18 Aug 2025 17:20:35 -0000
-Message-Id: <175553763537.1548704.4743580633815181195@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 17:21:18 -0000
+Message-Id: <175553767877.1550640.10123058534453111050@gitolite.kernel.org>
 
---===============6721129064338432151==
+--===============0104779476717451065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 06a284239ddcfb576e65b282f91d4de8f3351550
-    new: 75e30744b86bbc7dce47b23318ea10c58489a984
-    log: revlist-06a284239ddc-75e30744b86b.txt
+  - ref: refs/heads/next
+    old: 7f0c6675b3194461ad7bb8db1d822445121fb029
+    new: be48bcf004f9d0c9207ff21d0edb3b42f253829e
+    log: revlist-7f0c6675b319-be48bcf004f9.txt
 
---===============6721129064338432151==
+--===============0104779476717451065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06a284239ddc-75e30744b86b.txt
+Content-Disposition: attachment; filename=revlist-7f0c6675b319-be48bcf004f9.txt
 
+65164fd0f6b50781fe27736be54e55535c9ad82d Merge tag 'kvm-riscv-6.17-2' of https://github.com/kvm-riscv/linux into HEAD
+f02b1bcc73a17602903480562571069f0dff9f24 Merge tag 'kvm-x86-irqs-6.17' of https://github.com/kvm-x86/linux into HEAD
+f05efcfe07d8af26703b75cb91c8f58924661275 Merge tag 'kvm-x86-mmio-6.17' of https://github.com/kvm-x86/linux into HEAD
+d284562862959a7a5057bd0fcb1f0bd41df72332 Merge tag 'kvm-x86-generic-6.17' of https://github.com/kvm-x86/linux into HEAD
 cc5a1021aa50b0b63d8a71f3ccfc51ed876ee92d Merge tag 'kvm-x86-dirty_ring-6.17' of https://github.com/kvm-x86/linux into HEAD
 9de13951d5c3b424a1ad3767e7bc013831e7ad5d Merge tag 'kvm-x86-no_assignment-6.17' of https://github.com/kvm-x86/linux into HEAD
 1a14928e2e91a098c6117ba52b06327e3fc5072c Merge tag 'kvm-x86-misc-6.17' of https://github.com/kvm-x86/linux into HEAD
@@ -1046,9 +1050,5 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 074e461d9ed5bbd393a76ae42caa2a5a55add23b Merge tag 'ext4_for_linus-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 be48bcf004f9d0c9207ff21d0edb3b42f253829e Merge tag 'for-6.17-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-cd5f91f01b2fd268829e41cc52c74fafc36cbe02 tpm: prevents local DOS via tpm/tpm0/ppi/*operations
-c61204ee19ce94a1ab89b23085e5453599e87e3e KEYS: trusted_tpm1: Compare HMAC values in constant time
-94ab8d209126cc2301fa906a29f95be521c46f3e KEYS: trusted_tpm1: Use SHA-1 library instead of crypto_shash
-75e30744b86bbc7dce47b23318ea10c58489a984 KEYS: trusted_tpm1: Move private functionality out of public header
 
---===============6721129064338432151==--
+--===============0104779476717451065==--
