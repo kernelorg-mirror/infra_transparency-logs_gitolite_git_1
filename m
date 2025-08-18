@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cohuck/linux
-Date: Mon, 18 Aug 2025 15:55:29 -0000
-Message-Id: <175553252924.1353928.15154529676577285987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 18 Aug 2025 15:56:06 -0000
+Message-Id: <175553256625.1355508.5755343414115673396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cohuck/linux
-user: cohuck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/do_dump_regs
+  - ref: refs/tags/for-6.17-rc2-tag
     old: 0000000000000000000000000000000000000000
-    new: 96b988a0fdbaff2394477c7f8446851ceb6d8630
+    new: 6368589afb30820d196738282fe5c8f56a6f2214
