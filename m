@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============2367763249029448494=="
+Content-Type: multipart/mixed; boundary="===============4174379678369028980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Mon, 18 Aug 2025 08:48:43 -0000
-Message-Id: <175550692337.481056.1853186133742390526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Mon, 18 Aug 2025 08:48:57 -0000
+Message-Id: <175550693775.481521.7062397511887566957@gitolite.kernel.org>
 
---===============2367763249029448494==
+--===============4174379678369028980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 4903924ac7ef31fbbe48b3261b1bc86ce6cd7e97
-    new: 7d5c3cac1f395324673e9ec32b65e4f6ff23fcb9
-    log: revlist-4903924ac7ef-7d5c3cac1f39.txt
+  - ref: refs/heads/for-backlight-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    log: revlist-19272b37aa4f-8f5ae30d69d7.txt
 
---===============2367763249029448494==
+--===============4174379678369028980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4903924ac7ef-7d5c3cac1f39.txt
+Content-Disposition: attachment; filename=revlist-19272b37aa4f-8f5ae30d69d7.txt
 
+44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
+85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
+651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
+2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
+c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
 2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
 a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
 e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
@@ -1045,10 +1050,5 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-758e743362cdc0cc45d8717431b2eabf29084ef1 leds: leds-is31fl32xx: Add support for is31fl3236a
-f4fc2d87aa167e3da5333c3db6cf702db1f98c05 leds: Kconfig: Fix spelling mistake "limitiation" -> "limitation"
-6e3779e3c6f9dcc9267bf98bef70773a0b13dcbb leds: max77705: Function return instead of variable assignment
-5974e8f6c3e47ab097c3dd8ece7324d1f88fe739 leds: flash: leds-qcom-flash: Update torch current clamp setting
-7d5c3cac1f395324673e9ec32b65e4f6ff23fcb9 leds: flash: leds-qcom-flash: Add a separate register map for PMI8998
 
---===============2367763249029448494==--
+--===============4174379678369028980==--
