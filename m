@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 18 Aug 2025 08:56:18 -0000
-Message-Id: <175550737878.495456.6072971032492688095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Mon, 18 Aug 2025 09:09:41 -0000
+Message-Id: <175550818166.516580.2819647309493786998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/experimental
-    old: d48272e4e2c1ce87a2333e2b6a18824592d597c4
-    new: a7ab4d7a5b5e1fbf9410521302c1b388a8999cbc
-    log: |
-         a7ab4d7a5b5e1fbf9410521302c1b388a8999cbc erofs-utils: prefer using OpenSSL for SHA256
-         
+  - ref: refs/heads/dev/of-pci-bridge-fix
+    old: 0000000000000000000000000000000000000000
+    new: 5b09bf233de46a0d21c2cf645eed7193b2f4239c
