@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3786993067289781561=="
+Content-Type: multipart/mixed; boundary="===============0796435104548366243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 18 Aug 2025 21:21:56 -0000
-Message-Id: <175555211696.2105011.10223456132631319375@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 21:22:00 -0000
+Message-Id: <175555212006.2105255.4512181155013084831@gitolite.kernel.org>
 
---===============3786993067289781561==
+--===============0796435104548366243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-fixes
     old: 7e161a991ea71e6ec526abc8f40c6852ebe3d946
     new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
     log: revlist-7e161a991ea7-c17b750b3ad9.txt
 
---===============3786993067289781561==
+--===============0796435104548366243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -842,4 +842,4 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============3786993067289781561==--
+--===============0796435104548366243==--
