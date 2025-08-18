@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5168638249326866054=="
+Content-Type: multipart/mixed; boundary="===============4844731620086472843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 18 Aug 2025 16:30:24 -0000
-Message-Id: <175553462498.1433729.3540269130868125522@gitolite.kernel.org>
+Date: Mon, 18 Aug 2025 16:30:27 -0000
+Message-Id: <175553462728.1433820.4256876930339794768@gitolite.kernel.org>
 
---===============5168638249326866054==
+--===============4844731620086472843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 88250d40ed59d2b3c2dff788e9065caa7eb4dba0
     new: bab3ce404553de56242d7b09ad7ea5b70441ea41
     log: revlist-88250d40ed59-bab3ce404553.txt
 
---===============5168638249326866054==
+--===============4844731620086472843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e63b162ef43eeb774edcb688bbf141bb468af485 Merge branch 'net-mlx5-support-disablin
 8159572936392b514e404bab2d60e47cebd5acfe net: Space: Replace memset(0) + strscpy() with strscpy_pad()
 bab3ce404553de56242d7b09ad7ea5b70441ea41 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============5168638249326866054==--
+--===============4844731620086472843==--
