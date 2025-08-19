@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8883254302629196810=="
+Content-Type: multipart/mixed; boundary="===============6643087447688715854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 19 Aug 2025 09:15:58 -0000
-Message-Id: <175559495870.3840798.50977112942941051@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 09:16:04 -0000
+Message-Id: <175559496423.3841055.6464160035780962511@gitolite.kernel.org>
 
---===============8883254302629196810==
+--===============6643087447688715854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.18
     old: c8f1632ee754020c81d02c54a7486503fae49924
     new: fd5cc4922bef4b3c3cd0452f38dcfd066322e9a9
     log: revlist-c8f1632ee754-fd5cc4922bef.txt
 
---===============8883254302629196810==
+--===============6643087447688715854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -261,4 +261,4 @@ c7c61bc417b0334c4feb2bac455c17bf36c5891b dm-vdo: Promote dm-vdo title to title h
 499cbe0f2fb0641cf07a1a8ac9f7317674295fea dm error: mark as DM_TARGET_PASSES_INTEGRITY
 fd5cc4922bef4b3c3cd0452f38dcfd066322e9a9 dm-pcache: add persistent cache target in device-mapper
 
---===============8883254302629196810==--
+--===============6643087447688715854==--
