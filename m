@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 19 Aug 2025 15:09:18 -0000
-Message-Id: <175561615828.544521.10616248973274401910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 19 Aug 2025 15:25:07 -0000
+Message-Id: <175561710788.587229.8358989243325611519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 7664dccc0b2e3de04a0fd6f0be63402716c5f6b7
-    new: efaeeea4a8b04e1c315943684aabd84f3198256b
+    old: ae883a5c61eb6158b065d9b8a42a70507a28971f
+    new: 0dc8a5579b39885631b439bcae85bbe372f2fd3e
     log: |
-         2fade200349376fb1b3c022b93cc4cadb5805555 Makefile: fix man and share install paths on macOS
-         efaeeea4a8b04e1c315943684aabd84f3198256b Merge branch 'fix-install-paths' of https://github.com/kubo326/fio
+         db62ad7c5d875514775f18c2774e2eb8dcb46ed6 sasha: review v6.15.9
+         0dc8a5579b39885631b439bcae85bbe372f2fd3e sasha: review v6.16.1
          
