@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0484571754793640347=="
+Content-Type: multipart/mixed; boundary="===============5904620204005817513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 19 Aug 2025 18:02:59 -0000
-Message-Id: <175562657962.1005385.18013835764121634886@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 18:03:18 -0000
+Message-Id: <175562659882.1006041.3001709765798714259@gitolite.kernel.org>
 
---===============0484571754793640347==
+--===============5904620204005817513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
+  - ref: refs/heads/next-integrity
     old: aa9bb1b32594cd67cafd29b330b158128b503882
     new: a4cc916bf57267818385afcde50c6889b848be4d
     log: revlist-aa9bb1b32594-a4cc916bf572.txt
 
---===============0484571754793640347==
+--===============5904620204005817513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ be48bcf004f9d0c9207ff21d0edb3b42f253829e Merge tag 'for-6.17-rc2-tag' of git://g
 57cbd70ff31d7c2286505bcaaf4383f9e6a6a611 integrity: Select CRYPTO from INTEGRITY_ASYMMETRIC_KEYS
 a4cc916bf57267818385afcde50c6889b848be4d lib/digsig: Use SHA-1 library instead of crypto_shash
 
---===============0484571754793640347==--
+--===============5904620204005817513==--
