@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 19 Aug 2025 15:44:19 -0000
-Message-Id: <175561825908.636836.14907748367802359088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 19 Aug 2025 15:49:00 -0000
+Message-Id: <175561854036.648985.6293330423367061323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/withdraw
-    old: 802303d527a0ea007b50ec4b807c3043e6f1ae5e
-    new: f1ebf9068a71d9b47ef9646d79095bfb4863fabc
-    log: |
-         f1ebf9068a71d9b47ef9646d79095bfb4863fabc gfs2: New gfs2_withdraw_helper
-         
+  - ref: refs/heads/file4oA3mj
+    old: 447be50598c05499f7ccc2b1f6ddb3da30f8099a
+    new: 0000000000000000000000000000000000000000
