@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8703222166815807951=="
+Content-Type: multipart/mixed; boundary="===============7898676306983475842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 19 Aug 2025 19:45:26 -0000
-Message-Id: <175563272672.1277482.7299620621571463812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 19 Aug 2025 19:45:30 -0000
+Message-Id: <175563273066.1277925.6592461478676159626@gitolite.kernel.org>
 
---===============8703222166815807951==
+--===============7898676306983475842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 47ed64db8c17eb16541098add865178fb7e68744
     new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
     log: revlist-47ed64db8c17-c17b750b3ad9.txt
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: a46e95c81e3a28926ab1904d9f754fef8318074d
     new: 132e098ef9b60760ef9ef0c0eefc80c52cb498fb
     log: revlist-a46e95c81e3a-132e098ef9b6.txt
 
---===============8703222166815807951==
+--===============7898676306983475842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1755632771 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1755632723-262a1fdcc961ebf32ad93f17850bc88e2944fa5c
+pusher C3F436CA30F5D8EB 1755632775 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1755632727-0a79c90a095643bee743b585fe4f54f5df3e4beb
 
-47ed64db8c17eb16541098add865178fb7e68744 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 refs/heads/for-6.17
-a46e95c81e3a28926ab1904d9f754fef8318074d 132e098ef9b60760ef9ef0c0eefc80c52cb498fb refs/heads/for-6.18
+47ed64db8c17eb16541098add865178fb7e68744 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 refs/heads/asoc-6.17
+a46e95c81e3a28926ab1904d9f754fef8318074d 132e098ef9b60760ef9ef0c0eefc80c52cb498fb refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmik1IMACgkQJNaLcl1U
-h9AUNQf9Hp1a+5g0QJSt2JJc6EwbGUuOGp6oIHPNag6JnoiSL43tTNUcgtHqpUis
-oFY8kmm2ctK7dpihbiYJs3Gr3BV0VNtrBT7HNzMSQcQVlbTOQLS0q1Q4/MDf03WH
-VnJ4/6WdpIZFPmoLBxATWQJwaaDU3C9H5yMl8oUcnFoApbVhSdyIVSPtk5jNIv2/
-A3W7Q91todKcqeWBxFXsF9ZRqb79A1VAZDOj/H3UbfuJLemzkprInsUWxpMSy2+k
-b7YWX/FBwkoMNhMnyPSQbhGpSgg/44FezSWXytFHU/RoyCbOyhbs+c1BxabKLSEr
-VmRLB2m6ojGCGbaf/bO+rmtBOqyRcg==
-=wRpR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmik1IcACgkQJNaLcl1U
+h9BaFgf9Ff3DR3I+JCCUNM+i76Kl0A6Y7FY9bASvy9Dzdf3pC6w90Tub1txS9KBA
+aTGar2TcMC8k0d2dQKfiMKPYsZQa/C/fSu7fHC7mKyC3eqnahL8PPzxQtyvh1uqx
+NeJNqmUPiLxM5OxRlX4zeFlZQAu+wVFYlJq5OCJuZ1PaXPUsBV078paqHNp60hTF
+bU9iqpWh3BByJwduQi3ezPsAqsoaTuVj7d6vuHgftA6tapd+dyegiA7VIWR5QwXO
+ztmtJiiH5J8JN3C3LxQg9SCyiCdatCE9w+qYwRcR/SPrnQAgAKASIdtzYVsmCY2X
+oh+AvaL+q4x05gnuRhBZgmGygBU2Jw==
+=tFnd
 -----END PGP SIGNATURE-----
 
---===============8703222166815807951==
+--===============7898676306983475842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -272,7 +272,7 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============8703222166815807951==
+--===============7898676306983475842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -523,4 +523,4 @@ d5020c1ce3764e73dd6634f462cf6723d185bac2 Handle shared reset GPIO for WSA883x sp
 9963b1fde2b6a9a2cb488f2b96427f73f566550d ASoC: Intel: avs: Code cleanups and separation
 132e098ef9b60760ef9ef0c0eefc80c52cb498fb ASoC: qcom: audioreach: cleanup and calibration
 
---===============8703222166815807951==--
+--===============7898676306983475842==--
