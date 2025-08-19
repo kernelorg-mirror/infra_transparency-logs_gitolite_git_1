@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 19 Aug 2025 23:30:04 -0000
-Message-Id: <175564620404.1880701.13476095606916593741@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 23:31:53 -0000
+Message-Id: <175564631385.1885211.15231515551812834336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-drivers
-    old: 71b69f817e91b588030d7d47ddbdc4857a92eb4e
-    new: a95dcf3d67430493554a9fe3a3a8717c21554508
+  - ref: refs/heads/edac-for-next
+    old: 4ded1ae133b54932ac77e880bd82ec6bd54f4eeb
+    new: 2408a0359b6ff3edaa8af4e010a2b1109fef44d9
     log: |
          2e6fe1bbefd9c059c3787d1c620fe67343a94dff EDAC/i10nm: Skip DIMM enumeration on a disabled memory controller
          219af5dfce98fe254335ea79c2bf98428c38370c EDAC/{skx_common,skx}: Use configuration data, not global macros
@@ -23,4 +23,5 @@ changes:
          91ded20fa2fefe2620b0abb998838312ea8bbfd2 EDAC/skx_common: Remove redundant upper bound check for res->imc
          f7a29a37373baa0bd0823a5d55e97dc7f75a4dab EDAC/i10nm: Reallocate skx_dev list if preconfigured cnt != runtime cnt
          a95dcf3d67430493554a9fe3a3a8717c21554508 EDAC/skx_common: Remove unused *NUM*_IMC macros
+         2408a0359b6ff3edaa8af4e010a2b1109fef44d9 Merge branch 'edac-drivers' into edac-for-next
          
