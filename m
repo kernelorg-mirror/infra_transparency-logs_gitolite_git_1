@@ -1,61 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7249136370435023686=="
+Content-Type: multipart/mixed; boundary="===============8589587523048669453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 19 Aug 2025 10:57:18 -0000
-Message-Id: <175560103860.4087137.5613337465245991234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 19 Aug 2025 10:58:05 -0000
+Message-Id: <175560108597.4089280.7046434168008210827@gitolite.kernel.org>
 
---===============7249136370435023686==
+--===============8589587523048669453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    new: b47b493d6387ae437098112936f32be27f73516c
+  - ref: refs/heads/staging-testing
+    old: 260221b2a053a30e30575fa90c326590e8fb0c76
+    new: 5141ae32d4b8971d7b689854fd47a200e695bda3
     log: |
-         1ca61060de92a4320d73adfe5dc8d335653907ac fpga: zynq_fpga: Fix the wrong usage of dma_map_sgtable()
-         300a0cfe9f375b2843bcb331bcfa7503475ef5dd cdx: Fix off-by-one error in cdx_rpmsg_probe()
-         96cb948408b3adb69df7e451ba7da9d21f814d00 comedi: pcl726: Prevent invalid irq number
-         3cd212e895ca2d58963fdc6422502b10dd3966bb comedi: Fix use of uninitialized memory in do_insn_ioctl() and do_insnlist_ioctl()
-         7afba9221f70d4cbce0f417c558879cba0eb5e66 comedi: Make insn_rw_emulate_bits() do insn->n samples
-         b47b493d6387ae437098112936f32be27f73516c most: core: Drop device reference after usage in get_channel()
+         834a2d0155d15832cd13a688b4f2f1d0b7c1b855 staging: gpib: tidy-up comments
+         5141ae32d4b8971d7b689854fd47a200e695bda3 staging: rtl8723bs: fix coding style issues in core/rtw_mlme.c
          
 
---===============7249136370435023686==
+--===============8589587523048669453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755601081 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1755601033-9ee4b36aaf85e96dea36b3954731d0c35f0885b6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755601124 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1755601076-ed08be82ea4086d09dbf461434b6dfbb3e63d12b
 
-c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 b47b493d6387ae437098112936f32be27f73516c refs/heads/char-misc-linus
+260221b2a053a30e30575fa90c326590e8fb0c76 5141ae32d4b8971d7b689854fd47a200e695bda3 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmikWLkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+05QQANgg2DLYRyhk+bReKu0D
-/M0iuxPkhAA8jn12A/MwrIXd9TyH+UL/ozJ4+NOotlz29/dpX38nbG/T/K9LSm7u
-H+euyM49GawovisF2Hu0zhdqX+aX5P6AvaNLWsYXzj3Wy8Td171kNT8WHm7MygnX
-OjKYVTOppl8T7xCbtvxNKX42l/FDSOqL9cagf0bmHIOzDmR+Ixn0/YrcNdQmOs04
-dmQsbR78vuZKgKRfYJ1n9/MVJJGa1TC5wAwr6EC++KXa2exLPAVD5Ql7kokfpQ6H
-Bf1HcIJot7rkR2IKvubW+lLsv8US7oeZm/d0Xf8qBTFIp0IwiJIMO1Tze2lr+6rc
-8Y0JYlAwEiDtXSLAMH2n81T2MK7VzdvDtusSGa9sSLpxSPFatoMp5/XU6p2dolKb
-KvbWt8aVKMADIK8DraLqEFN/WY7KIEIvYDqs3Ns92NLVttSunvUUOw/caQ3rWYg5
-x43ZeneL34ckzESewTTuXtn68IyjRzUbuk8aNbODh7kyBFz9XAEKlPMYixPdJcG1
-c1yHYl7wXJCOYdKkmJkNmJVXK4uh2wjQ1ucIWyDlcXLN1D7RlukeIC6mA7lR12ma
-XfZ+glsgvXX8xD+fvaS/JHY44AAJNkfmlOIK9ATM0CTeaOl/s0KFhgBZIqyJ/lvb
-MSCKS8ACljE7q6jN/JcPvCrP
-=VBrS
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmikWOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rh8P+gJP13mli4fAQ8rSNcFG
+1FtiHSrWavToMhNFUlbEGDPKv87x3nU50Eppuk3EBQKzOwfZ8xzEMR6SjCpKJvoE
+FpYQh4XJofBzCBu9SsGKivWWmNvp67GNK6VCN2qM6klDPIO3pwjEVNRz3mi4SI2N
+3sg5eBo6//jsG5/ySCDR5YTiFMtd0bTqNa+RXnXRrQ5JVlWuGYtlsZZueWpkFWW2
+yiJHXOTUuapyRaAcMmYmgBgo/tHOMzPGjoXI1+18pGYHyIIK+4xUV751p3BMzBSM
+t/cgYdxqJZ8DOW83jZWq1tYjDE5941gJyoYt1It5OlgpGTo3lLHktPYoS4RUBU+A
+yvOjljamcLpYNx8fhx9lo3Y9aButTWgBa4OSi97cNk0DJns4xKf0s1IcrrxEpMZZ
+kEqz4ZplixmjljvVWfzgJnZahvszJUih9i5SGJcNW6ljo0vKuw6p+ZdG1JRenSin
+j+3oSoU6ugNRJUUA6/wAbRc0hgpR0r7ltIVUM5W9Kg2OemRl6UI/br5G1lyTZGjJ
+H039KZzvKDpuGGHp/ot6a1//3Nf7+h/09wxtEpgks3c4qG4973tYe9TEK75LRZdF
+S+p/w8D069mexcGPZl23BoKKAq8rOX9+xtGzcbPhgaYKnJ/C2kWgsSz71L5IzDBZ
+ZanlIdO+QpCKMT93QGyu6qOS
+=s11h
 -----END PGP SIGNATURE-----
 
---===============7249136370435023686==--
+--===============8589587523048669453==--
