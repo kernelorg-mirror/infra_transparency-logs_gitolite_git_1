@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0246077191500695373=="
+Content-Type: multipart/mixed; boundary="===============5225117422083082436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 19 Aug 2025 16:44:02 -0000
-Message-Id: <175562184273.794503.10588596927047141834@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 16:44:05 -0000
+Message-Id: <175562184515.794763.9464355814527762479@gitolite.kernel.org>
 
---===============0246077191500695373==
+--===============5225117422083082436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 715c7a36d59f54162a26fac1d1ed8dc087a24cf1
     new: 01792bc3e5bdafa171dd83c7073f00e7de93a653
     log: revlist-715c7a36d59f-01792bc3e5bd.txt
 
---===============0246077191500695373==
+--===============5225117422083082436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ f92199f551e617fae028c5c5905ddd63e3616e18 selftests: mptcp: disable add_addr retr
 0417adf367a0af11adf7ace849af4638cfb573f7 ppp: fix race conditions in ppp_fill_forward_path
 01792bc3e5bdafa171dd83c7073f00e7de93a653 net: ti: icssg-prueth: Fix HSR and switch offload Enablement during firwmare reload.
 
---===============0246077191500695373==--
+--===============5225117422083082436==--
