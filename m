@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7869642371303415460=="
+Content-Type: multipart/mixed; boundary="===============7711906999519072212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 19 Aug 2025 10:43:22 -0000
-Message-Id: <175560020271.4052410.18104332040636326855@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 10:51:42 -0000
+Message-Id: <175560070280.4073154.5159893652236925470@gitolite.kernel.org>
 
---===============7869642371303415460==
+--===============7711906999519072212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 9e57dbcbde250acab44205ee4cc897c4a87c56d9
-    new: 51ad6d97151c88976a93cdc023d6cd27dce48c38
+    old: 51ad6d97151c88976a93cdc023d6cd27dce48c38
+    new: bb7aa579efd68c905159b03b255d1437f9f4201b
     log: |
-         8ac646d6dfbf8e42bdb31b71e03a7984557ab1b1 char: misc: Move drivers/misc/misc_minor_kunit.c to drivers/char/
-         f4e47affdb2edb99834dfd03f5ea8a899bbb98f0 char: misc: Adapt and add test cases for simple minor space division
-         f5597840ac907858ad2a462b00e4a68fd199121e char: misc: Disallow registering miscdevice whose minor > MISC_DYNAMIC_MINOR
-         2334668aaf410382412b8c81f7014283f3e80354 char: misc: Add a case to test registering miscdevice again without reinitialization
-         52e2bb5ff089d65e2c7d982fe2826dc88e473d50 char: misc: Make misc_register() reentry for miscdevice who wants dynamic minor
-         1ba0fb42aa6a5f072b1b8c0b0520b32ad4ef4b45 char: misc: Does not request module for miscdevice with dynamic minor
-         d7f8d0758b975db8406c91cf242d46cd9611ba3e char: misc: Register fixed minor EISA_EEPROM_MINOR in linux/miscdevice.h
-         51ad6d97151c88976a93cdc023d6cd27dce48c38 sparc: kernel: apc: Remove macro APC_MINOR definition
+         0e805e8b007d42502dbb7b883cae4794890a40ff greybus: svc: use string choice helpers instead of ternary operator
+         c585a4ad322c9aa64263aeb8004a523d0151b1c3 hpet: Use str_plural() to simplify the code
+         46b4ddd2c4951c073a16bbf271221240fe2584e5 dt-bindings: eeprom: Add ST M24LR support
+         cd5c5e0231c538a5d2d4a73f3b3ffc77ff08449c eeprom: add driver for ST M24LR series RFID/NFC EEPROM chips
+         bb7aa579efd68c905159b03b255d1437f9f4201b ABI: sysfs: add documentation for ST M24LR EEPROM and control interface
          
 
---===============7869642371303415460==
+--===============7711906999519072212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755600245 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755600745 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1755600197-dfae56165ead30f334cdc95ef7a6ece4d1e71ab9
+nonce 1755600697-d250b9f21c8c3974d52c6f865bdbfed7248de033
 
-9e57dbcbde250acab44205ee4cc897c4a87c56d9 51ad6d97151c88976a93cdc023d6cd27dce48c38 refs/heads/char-misc-testing
+51ad6d97151c88976a93cdc023d6cd27dce48c38 bb7aa579efd68c905159b03b255d1437f9f4201b refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmikVXUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ln8P+gLN9oMlYTBF6DuhzMGJ
-eHVTq2UnvyXQUlQ21hfy4sEFlNWqdd7wbqKnjNIQGhMBTFum6dW9N28Qlk9sH4rh
-dhJYYtC/0Kiy6UafnsI5owUEItfpYiQjbcqBMVRWfb3TfVhV3PmrHmP36ed50Fx+
-+I7Dvr8WTHoWE4I+P2V2siSARaeBV/cyN7bQRr0HEEiNlSkcTjEijdxwR/FOoK+c
-5hxMzb/YPrfWjUiQCDQ3L6FAJcTdcUqEDlJ+/t/vSPiCH2QAL1GG2B32vXSzpgf2
-cSUJNNTLolSpJL99QdS59R8eltQgHcqHtiUpfzR09azk4HY+txVzrKlumabxhw/P
-H6uKJ/P0XSRXs96YNW73gq6gsYDb5Sus4N1hTtSf4WwGDCRHDInYnfT0cW5cRDif
-cw30e/4YzlDnjo6VFM7AFxLPEJDUm2/6g7p6MWREDyiVYuuvjtvkuHnWmUeWNukJ
-8MxpREkxLJgDAmuenNp+HLy6VFkoKYjSNqaTp/IG4lWB1KPE7WoMK8fxTNHkiYNv
-qsw6/j+u2Iwidp5DfXDN2cY0FMhN+hv/wXGal7Bf/zPfK0AEO1lQnCmhO37IYS0p
-oxl0Q8UuIwlLQwl7aAQv/dCy9+fzHyAI+SlUtvFkefpdVRYdDHxi+mEXAgzGJ3gA
-66KHPxBu4oW1bWE+IemgyF77
-=3Vip
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmikV2kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RigP/2SYQoNJfhq/gs+AH7gC
+BYLFP/TQVeZDWRHW0mBeSdU2Sk/jBD+4JRFwoOG8JkXhFOqFEvYKepUAkZX+EeFO
+re1Z/Ywb5HjuZI9SPEm+gsg4KBnNNUj6SndG/ozuMuF1wS7I/ORZUU0ZwZfncJhO
+6zH8KO/j6ksiZn08eyFOpW5T1Ch6zb3BtIWliSw1KNef8j8eJh/ePmKW+A1r1lzg
+vCRjoNEbWDAxUh+7X7xaoma2XbcMgeK6STYxWUMipTOjH+LrQw5ZayztQFX6Z2jJ
+0Ju6LKnbUKTXXVrkn507agUBh+lhew6hTLOvUHM0ZuBIlEZ6WsHd0l9RPtWekilk
+4mAG0x5NXDDtGIA0TetsI+0hTl6f9Qj95pPoI9Z/PiTWT5M7aoAIHJPxUlk+owbQ
+aq95aINlV1vKVsKb88+LPO3EvP5Jwl+h2gmXa1SfAwvCsFL5/pFotnG9pd3T8uUF
+rdvKaDsLMmmkA/p5cTIAqYp/LB8EjAeNfunXnpSYnA6pvgXTLtc8c+hJS6jU5ERW
+Jug8DoeAuVOsr3LPCvLFIHm8b2IjtiZn2Igfz1KcQJIwJuFUmvak3g1jX25Gcgil
+t9h09nhHFQUWoW7j+sUASx1EfazcyvOT8GLfv9fu/42DJ25U0xuJMJp1oCFgqLUr
+PD1wN0h+Akqv0G3FbCIjsSw2
+=HVbE
 -----END PGP SIGNATURE-----
 
---===============7869642371303415460==--
+--===============7711906999519072212==--
