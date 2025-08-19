@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 19 Aug 2025 18:13:14 -0000
-Message-Id: <175562719461.1032255.43608616734175048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 19 Aug 2025 18:36:49 -0000
+Message-Id: <175562860959.1094620.17618471110090346500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: cb69daf085b5974fef2df9789f8c1b35e78e7913
-    new: 481ee0fcbb9a0f0706d6d29de9570d1048aff631
+  - ref: refs/heads/nfsd-testing
+    old: 2a17295f85c8c6e1bcfad8a7f38e3d72b6e8f640
+    new: 597c5eafc0edd59675210d14ce9eab3fbe954c55
     log: |
-         cec6e40a02ef66e28208dc808cd28cce418efc1d riscv: dts: microchip: Minor whitespace cleanup
-         481ee0fcbb9a0f0706d6d29de9570d1048aff631 riscv: dts: starfive: jh7110-common: drop no-sdio property from mmc1
+         deda4eb2c069843658eb8a102882984f54e80f27 nfsd: unregister with rpcbind when deleting a transport
+         597c5eafc0edd59675210d14ce9eab3fbe954c55 siw: Enable try_gso
          
