@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7711906999519072212=="
+Content-Type: multipart/mixed; boundary="===============4760930458514231503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 19 Aug 2025 10:51:42 -0000
-Message-Id: <175560070280.4073154.5159893652236925470@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 10:53:00 -0000
+Message-Id: <175560078025.4076197.7371608822155411754@gitolite.kernel.org>
 
---===============7711906999519072212==
+--===============4760930458514231503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 51ad6d97151c88976a93cdc023d6cd27dce48c38
-    new: bb7aa579efd68c905159b03b255d1437f9f4201b
+    old: bb7aa579efd68c905159b03b255d1437f9f4201b
+    new: 8a61a53b07f23ff12330086b293b6b492d35b8a0
     log: |
-         0e805e8b007d42502dbb7b883cae4794890a40ff greybus: svc: use string choice helpers instead of ternary operator
-         c585a4ad322c9aa64263aeb8004a523d0151b1c3 hpet: Use str_plural() to simplify the code
-         46b4ddd2c4951c073a16bbf271221240fe2584e5 dt-bindings: eeprom: Add ST M24LR support
-         cd5c5e0231c538a5d2d4a73f3b3ffc77ff08449c eeprom: add driver for ST M24LR series RFID/NFC EEPROM chips
-         bb7aa579efd68c905159b03b255d1437f9f4201b ABI: sysfs: add documentation for ST M24LR EEPROM and control interface
+         4afc5bf0a1849f0ed3ea1d9fd9d0e79b23a67f96 binder: pre-allocate binder_transaction
+         5cd0645b43c7edf55518272a6c69230a5c631729 binder: add t->is_async and t->is_reply
+         63740349eba78f242bcbf60d5244d7f2b2600853 binder: introduce transaction reports via netlink
+         f37b55ded8ed35424ebb91a4d012527071e1f601 binder: add transaction_report feature entry
+         8a61a53b07f23ff12330086b293b6b492d35b8a0 binder: add tracepoint for netlink reports
          
 
---===============7711906999519072212==
+--===============4760930458514231503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755600745 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755600819 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1755600697-d250b9f21c8c3974d52c6f865bdbfed7248de033
+nonce 1755600772-258c3e72c21af065fc90d2e362d5b2947f83e61d
 
-51ad6d97151c88976a93cdc023d6cd27dce48c38 bb7aa579efd68c905159b03b255d1437f9f4201b refs/heads/char-misc-testing
+bb7aa579efd68c905159b03b255d1437f9f4201b 8a61a53b07f23ff12330086b293b6b492d35b8a0 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmikV2kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RigP/2SYQoNJfhq/gs+AH7gC
-BYLFP/TQVeZDWRHW0mBeSdU2Sk/jBD+4JRFwoOG8JkXhFOqFEvYKepUAkZX+EeFO
-re1Z/Ywb5HjuZI9SPEm+gsg4KBnNNUj6SndG/ozuMuF1wS7I/ORZUU0ZwZfncJhO
-6zH8KO/j6ksiZn08eyFOpW5T1Ch6zb3BtIWliSw1KNef8j8eJh/ePmKW+A1r1lzg
-vCRjoNEbWDAxUh+7X7xaoma2XbcMgeK6STYxWUMipTOjH+LrQw5ZayztQFX6Z2jJ
-0Ju6LKnbUKTXXVrkn507agUBh+lhew6hTLOvUHM0ZuBIlEZ6WsHd0l9RPtWekilk
-4mAG0x5NXDDtGIA0TetsI+0hTl6f9Qj95pPoI9Z/PiTWT5M7aoAIHJPxUlk+owbQ
-aq95aINlV1vKVsKb88+LPO3EvP5Jwl+h2gmXa1SfAwvCsFL5/pFotnG9pd3T8uUF
-rdvKaDsLMmmkA/p5cTIAqYp/LB8EjAeNfunXnpSYnA6pvgXTLtc8c+hJS6jU5ERW
-Jug8DoeAuVOsr3LPCvLFIHm8b2IjtiZn2Igfz1KcQJIwJuFUmvak3g1jX25Gcgil
-t9h09nhHFQUWoW7j+sUASx1EfazcyvOT8GLfv9fu/42DJ25U0xuJMJp1oCFgqLUr
-PD1wN0h+Akqv0G3FbCIjsSw2
-=HVbE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmikV7QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZJ4QALvgu95+JkzF00eckWVd
+HllnCI+Z2+CoPs13MssqYmqdzq7AM82Yta3khVjRve+rWhGLJps4eq9g1kgt85z/
+2ENwEDEncdxAKJlk7a/n9VvmfNI9ZQqLrT7/A6XN+TcW7Uc/bEys3Q+BsLXdhydU
+PBAhXXKckeNesGGKuSUbzOBGsbG8mrvp+RImCz1yjyFMt8Z9ajRBI/dslBvgFize
+xuhzzqs/xibu6Q4MWJ4JQB7JBVi1wadxql0HxXC688i2RAT64EIFXwt3yfUMTjP7
+RJl1ye8h4O2UlEFDkElYyD2O+fCDp9YTCoe9MYJXreiXzLvcGOHd3RWAfF6rUvFf
+brP+vhUnA//XHkOeifDkdFX1Vkdo24GEmAggkLO1m6q1M2FpO2+S5Gg8qstpm6Xr
+k/KcefTkXlxer9mr9HkklTL/WGTMJRqekHu7qXqiuTB4mR7RwuHeAtGXKcf6v3/m
+0AQPWwtkEjsubNZSZTpYxU0UeqiSOoLby80MDMMnZtA6bgHnIlOo0KRwbr2kQYgB
+chy3Q6CjWABZ0BNDX2v1BXjtwy785vtSHPilmydlzMdlcR+I9O04TqLrbhII8itN
+TEpAM6kwqDp8dBHhfhlNgAI3idXDJjChqanjvBbFJoy/9SV6k/yjfVVtFp6oYRzU
+GeTIhOnqposd170DTm5xs6Bf
+=kfGr
 -----END PGP SIGNATURE-----
 
---===============7711906999519072212==--
+--===============4760930458514231503==--
