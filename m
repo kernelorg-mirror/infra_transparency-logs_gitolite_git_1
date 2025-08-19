@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8043938470387710235=="
+Content-Type: multipart/mixed; boundary="===============8245978608158851906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 19 Aug 2025 17:01:53 -0000
-Message-Id: <175562291328.843658.10519819075945621579@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 17:01:55 -0000
+Message-Id: <175562291586.843749.1018299956830869913@gitolite.kernel.org>
 
---===============8043938470387710235==
+--===============8245978608158851906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bab3ce404553de56242d7b09ad7ea5b70441ea41
     new: da114122b83149d1f1db0586b1d67947b651aa20
     log: revlist-bab3ce404553-da114122b831.txt
 
---===============8043938470387710235==
+--===============8245978608158851906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ a8bdd935d1ddb7186358fb60ffe84253e85340c8 net: airoha: Add wlan flowtable TX offl
 0283b8f134e499a51bb972403eb47cda6b960f7c selftests: drv-net: test the napi init state
 da114122b83149d1f1db0586b1d67947b651aa20 net: ethernet: stmmac: dwmac-rk: Make the clk_phy could be used for external phy
 
---===============8043938470387710235==--
+--===============8245978608158851906==--
