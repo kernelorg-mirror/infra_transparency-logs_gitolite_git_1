@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 19 Aug 2025 19:14:16 -0000
-Message-Id: <175563085661.1193126.12045417132904309665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 19 Aug 2025 19:23:53 -0000
+Message-Id: <175563143379.1218701.10511426185033414611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev-test
-    old: 8016764ceeaad1196a9001b2bf450dd4bedeb2c5
-    new: 99c6ab684f2ba150b4c626d10dea5ec128693043
+  - ref: refs/heads/arm64-gcs
+    old: ffddf63080a7e786c9fd006d35d0d6083a44706b
+    new: 3e218cea160b3775409a7690ca1fbdd71f9a6782
     log: |
-         dc83dc14577ecc56f6ea939b84415747e704cc3c f2fs: show the list of donation files
-         08b3c0145e3ab4094e91b2540fafca910347b3d6 f2fs: fix to avoid NULL pointer dereference in f2fs_check_quota_consistency()
-         99c6ab684f2ba150b4c626d10dea5ec128693043 f2fs: fix to allow removing qf_name
+         fb33c8eb96cf663aab0cc10886e5471fd739260a KVM: arm64: Allow GCS to be enabled for guests
+         3e218cea160b3775409a7690ca1fbdd71f9a6782 KVM: selftests: arm64: Add GCS registers to get-reg-list
          
