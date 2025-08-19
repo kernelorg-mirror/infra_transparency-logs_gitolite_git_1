@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1703896509657245852=="
+Content-Type: multipart/mixed; boundary="===============5983860520426764654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 19 Aug 2025 08:59:31 -0000
-Message-Id: <175559397112.3798641.18414824317311809074@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 08:59:48 -0000
+Message-Id: <175559398886.3799661.14679938435831685379@gitolite.kernel.org>
 
---===============1703896509657245852==
+--===============5983860520426764654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,30 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7386dda6936321d9118b8fe726aebdef2f339cd4
-    new: c69f2f3c72a5e6e6bce53a5fa2b15ce0e7e56d3d
-    log: revlist-7386dda69363-c69f2f3c72a5.txt
+    old: c69f2f3c72a5e6e6bce53a5fa2b15ce0e7e56d3d
+    new: e6f83659dac18cb47da67f55d16fce60d67f376b
+    log: |
+         846d7b5c05b7e3ea1125ce545eccca6cd294dbff Merge branch into tip/master: 'perf/urgent'
+         201e7384244ff2ca8b755a25b13f1ecd1fa8d304 Merge branch into tip/master: 'x86/urgent'
+         4704726fd13821cc821f4854f183102590842361 Merge branch into tip/master: 'core/bugs'
+         32b9efdf6a06624918fb5c4c20ca166af80fa16b Merge branch into tip/master: 'perf/core'
+         49b2c8b57184688d20836a7fe5f57dff70d02e19 Merge branch into tip/master: 'timers/clocksource'
+         3ebfd3427434815dd1c39fdf677b40dda5d300d6 Merge branch into tip/master: 'x86/build'
+         6c1ff7a390a54796c5296de245ba5d3ac4001f83 Merge branch into tip/master: 'x86/cache'
+         273c01590131623f7290c180fb684825c65faaec Merge branch into tip/master: 'x86/cpu'
+         58f07bbebdf401d341a3327812598ffe7669ca46 Merge branch into tip/master: 'x86/entry'
+         e6f83659dac18cb47da67f55d16fce60d67f376b Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
+    new: 201e7384244ff2ca8b755a25b13f1ecd1fa8d304
+    log: revlist-c17b750b3ad9-201e7384244f.txt
 
---===============1703896509657245852==
+--===============5983860520426764654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7386dda69363-c69f2f3c72a5.txt
+Content-Disposition: attachment; filename=revlist-c17b750b3ad9-201e7384244f.txt
 
 6a912e8aa2b2fba2519e93a2eac197d16f137c9a ext4: show the default enabled i_version option
 f2326fd14a224e4cccbab89e14c52279ff79b7ec ext4: preserve SB_I_VERSION on remount
@@ -53,34 +68,11 @@ b435ab556bea875c088485f271ef2709ca1d75f5 btrfs: restore mount option info messag
 757fc66da91b54d4fbc414bee5c440b52560d3b7 ext4: fix incorrect function name in comment
 9d98cf4632258720f18265a058e62fde120c0151 jbd2: prevent softlockup in jbd2_log_do_checkpoint()
 b64fdd422a85025b5e91ead794db9d3ef970e369 perf: Avoid undefined behavior from stopping/starting inactive events
-e8c4f6ee8eeed8e02800bed6afb9aa22fc3476a1 perf: Remove redundant condition for AUX buffer size
-81e026ca47b386e4213c1beff069038a3ba8bb76 perf: Split out mlock limit handling
-1ea3e3b0dadc06c5e6c1bdf5312e70ee861b1ba0 perf: Split out VM accounting
-86a0a7c59845e7093c9c73a7115c9d86349499d1 perf: Move perf_mmap_calc_limits() into both rb and aux branches
-3821f258686691cf12bbfc636ab22fa2b049dc86 perf: Merge consecutive conditionals in perf_mmap()
-4118994b33bb628dd9aeb941c5af6f950f1dea90 perf: Move common code into both rb and aux branches
-41b80e1d74bdef5e48ea63d186244b9f6f82a4da perf: Remove redundant aux_unlock label
-b33a51564e3eb6c468979f9f08d9b4ad8451bed7 perf: Use guard() for aux_mutex in perf_mmap()
-8558dca9fbdf825edf30b5fb74fbbbf3e6ba5dce perf: Reflow to get rid of aux_success label
-2aee37682391332d26c01e703170e0d9358c7252 perf: Split out the AUX buffer allocation
-191759e5ea9f6995171ed2ffcc41a2377f946a3a perf: Make RB allocation branch self sufficient
-5d299897f1e36025400ca84fd36c15925a383b03 perf: Split out the RB allocation
-d23a6dbc0a71741eb7b141fdc04e31360fba46ef perf: Use scoped_guard() for mmap_mutex in perf_mmap()
-59741451b49ce9964a9758c19d6f7df2a1255c75 perf: Identify the 0->1 transition for event::mmap_count
-448f97fba9013ffa13f5dd82febd18836b189499 perf: Convert mmap() refcounts to refcount_t
-b470929e21393f37cae51a922ef319a753273719 fs/resctrl: Optimize code in rdt_get_tree()
 d8df126349dad855cdfedd6bbf315bad2e901c2f x86/cpu/hygon: Add missing resctrl_cpu_detect() in bsp_init helper
-215596ddc33f20945e8d1188a7e682831f0ef050 x86/cpu: Detect FreeBSD Bhyve hypervisor
 e9576e078220c50ace9e9087355423de23e25fa5 x86/CPU/AMD: Ignore invalid reset reason value
-26178b713f2b3f5bc411ed8316d1635615896111 x86/insn: Add XOP prefix instructions decoder support
 074e461d9ed5bbd393a76ae42caa2a5a55add23b Merge tag 'ext4_for_linus-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 be48bcf004f9d0c9207ff21d0edb3b42f253829e Merge tag 'for-6.17-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-545f0e57ab2db133a01605de45674680278e0b87 Merge branch 'linus'
-fd4f0820e15358502e94960a9fa6286eed9ad40b Merge branch into tip/master: 'perf/urgent'
-3d85cc55b8be6a137e835d984a25581da167cae7 Merge branch into tip/master: 'x86/urgent'
-90d00f781919949f1bba300b85fbf1570f0f8402 Merge branch into tip/master: 'perf/core'
-d05e92bfce67d5c1843080f7c8de740b1a6f03f8 Merge branch into tip/master: 'x86/cache'
-fe33eff14920aa254779c32921f67581a101ea0a Merge branch into tip/master: 'x86/cpu'
-c69f2f3c72a5e6e6bce53a5fa2b15ce0e7e56d3d Merge branch into tip/master: 'x86/misc'
+846d7b5c05b7e3ea1125ce545eccca6cd294dbff Merge branch into tip/master: 'perf/urgent'
+201e7384244ff2ca8b755a25b13f1ecd1fa8d304 Merge branch into tip/master: 'x86/urgent'
 
---===============1703896509657245852==--
+--===============5983860520426764654==--
