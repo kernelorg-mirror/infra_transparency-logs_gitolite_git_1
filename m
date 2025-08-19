@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6759303740286863725=="
+Content-Type: multipart/mixed; boundary="===============3186280704358843020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 19 Aug 2025 02:36:32 -0000
-Message-Id: <175557099272.2897193.2842674354511336282@gitolite.kernel.org>
+Date: Tue, 19 Aug 2025 02:36:58 -0000
+Message-Id: <175557101867.2898740.11994954296156989496@gitolite.kernel.org>
 
---===============6759303740286863725==
+--===============3186280704358843020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,58 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: da810279506c6b5748b9533a5547f8abc1044c16
-    log: revlist-8f5ae30d69d7-da810279506c.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 1848ac02a0e13a0fc521b50590352e775810c4c5
+    new: dc999241b15ddbaaf5a062d33459e3cacf9a06d0
+    log: revlist-1848ac02a0e1-dc999241b15d.txt
 
---===============6759303740286863725==
+--===============3186280704358843020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1755571038 -0400
+pusher 75C5DE3D 1755571045 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1755570991-9aa2d23c4d18b3af242ab105cdd6a31ea2632ee9
+nonce 1755570997-64cf8a19655c00a852deea78c17581d1a02cae63
 
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 da810279506c6b5748b9533a5547f8abc1044c16 refs/heads/queue
+1848ac02a0e13a0fc521b50590352e775810c4c5 dc999241b15ddbaaf5a062d33459e3cacf9a06d0 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmij414ACgkQ7ulgGnXF
-3j37xg//a1zgxtxjT1f3BPoiFOc2U1d6fdmhBJeEk4dZmDGTCQG1CXn42TNfCnDE
-CKoI3M8pXyV1yvD+xQNj9lkx4H8v7nhCe5tC457tF2ekcpM8T8KTow5jZfZf2IV7
-CmsjYnFqoeoq8wIWGD1UmDKVU17mt/BCnptkp7fxZ2yiaSSSmzod11m0tuAiIREi
-xFsmtA30/Y2fpxIjc+Cxd2R28ZSk0+mEle1C9KQnTusca+pGLR1P7Zy+YF9AbSPi
-ddY92E17B8uJVWboXbxFNUUP5WiVbbwD/iC58iGJn5VtSbNSRXleWYlAqzTbNYU6
-xIStCnSLmCtgP/Yu/MIbrk/v01brYF63pFYEY2HJJzVdcfyv1WN8gweiQtJ59YdD
-u8K+YLA6tAcX07Oo6uoJcBqa3AN9UuUUwx/q//Fl8AWC+/XJvEhi+Rmk1raNrg+Y
-Y2FBxyAwqvBW9Xr74i4bFKHy7JSOhPzsQr6VvaM5GHR1NEuqrCGuqmWcvwtWEyxV
-F2c38sAzAZ/OTDgOsmqh95LdkBqt8Pju5+89uun2o07An9D3wZlxIVD6ocaiFMgr
-GFvrdJgFrtb9ntmsEM3R/xxjPfjSLDU+y38fwVL3TvHzHCVKNiixu6x1T7x5o1V4
-n1mVGmlSS8bR34XfNq+WerEixneTsBE9NJf8DgJUdp7bfXa0cOw=
-=Mso+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmij42UACgkQ7ulgGnXF
+3j1Jbg//Vd+cZ+9AxAOAp3r8EhGuKeJlyeUjy/EW7p7DZzpXoMrig2WJF3+oKM/R
+iOYTJmcQJTyQWU9CO5/T5JJyVNThs1qh7Wkge0wz8tIrtRugW9hBW4gckvB7ujem
+ks2WlrSbioKU9wdouMutlebfBwGePANDL9EMyJgrqNULJ6oRxUVAF7fec3ElwJUc
+QQGdyBG8eCDsyl8X3e7idDFOxdaKiFnEeVxcYiFekcRJDT4wJ2vPbmNhF0hvB+Gg
+2opwKPPeGrqtFMg8C9TfmFaeMOsWvryLgVdei0ruYVWZqJAWdJfowofAWd5FJw4o
+Ul13Iq80fjzQ58pOmaelvH7iPJe22va7dQW/pbNYTU8uCGnJPr2vXg+MC8AI04xM
+OdMpm5twfjYfZ6JwAVIh5mpiJku2eLybSpwRTLJEYgRCRxdcR+y82Eq333l8lmuC
+TnsHbaKHJUfVbQUWrwwKOQzwxcN5rlRbosJLHxWli2c271dXBFCHsb7f45SwQ48d
+8vIvaj9GZ58o89ZzpTJbDH23gtgHKhxdxz0L3PRWjI0r2N3ftr47NFzZYi5IcyiM
+XpxNPVvNJq9F0GJa+Z9IzVZwDn1tijjVsJ8a7j6ScyViVoGNFXuRrfEOoUptzSkJ
+OYgYO+o5a1nIxJc1jrMls2csPsbVxYe0QLMMTm+1zK8Sz+6/tnE=
+=z3me
 -----END PGP SIGNATURE-----
 
---===============6759303740286863725==
+--===============3186280704358843020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-da810279506c.txt
+Content-Disposition: attachment; filename=revlist-1848ac02a0e1-dc999241b15d.txt
 
-7f224967aee7d5ad88b6db76ca161be622ae7b34 scsi: ufs: qcom: dt-bindings: Split common part to qcom,ufs-common.yaml
-655c8f511926250e0da9e8b1a9b8f1cf2c173b41 scsi: ufs: qcom: dt-bindings: Split SC7180 and similar
-149009f2dc6f781f490a13264eaa565281e4d490 scsi: ufs: qcom: dt-bindings: Split SM8650 and similar
-6c00c493a344b65fb0a356cb3f328a647085687b scsi: ufs: host: mediatek: Simplify variable usage
-aa86602a483ba48f51044fbaefa1ebbf6da194a4 scsi: ufs: host: mediatek: Fix auto-hibern8 timer configuration
-f91c6c70d103a619c58aa02bddf3c27c6433556a scsi: ufs: host: mediatek: Add debug information for Auto-Hibern8
-86a678a25108705657e2f3bb00c42f9e5e5d692b scsi: ufs: host: mediatek: Fine-tune clock scaling
-7212d624f8638f8ea8ad1ecbb80622c7987bc7a1 scsi: ufs: host: mediatek: Fix PWM mode switch issue
-979feee0cf43b32d288931649d7c6d9a5524ea55 scsi: ufs: host: mediatek: Assign power mode userdata before FASTAUTO mode change
-f1617ecf18aaf222482f683f44ab4b155976539d scsi: ufs: host: mediatek: Optimize power mode change handling
-bacb96ce06c05804fae4bfd38c4058b6d4c423b3 scsi: ufs: host: mediatek: Fix UniPro setting for MT6989
-878ed88c50bfb14d972dd3b86a1c8188c58de4e5 scsi: ufs: host: mediatek: Change reset sequence for improved stability
-5863638598f5e4f64d2f85b03f376383ca1f2ab7 scsi: ufs: host: mediatek: Fix invalid access in vccqx handling
-c393614e081f7c20921e76f73e87cba73dbca6a4 Merge patch series "dt-bindings: ufs: qcom: Split SC7180, SM8650 and similar into separate file"
-da810279506c6b5748b9533a5547f8abc1044c16 Merge patch series "ufs: host: mediatek: Provide features and fixes in MediaTek platforms"
+dc60a408a1dc29974bc82239b07b70c5f7fcfd31 scsi: ufs: core: Improve IOPS
+429e297cd249bac64a6dc3f133ff914dd1a1614b scsi: BusLogic: Always define blogic_pci_tbl structure
+eeee1086073e0058243c8554738271561bde81f1 scsi: pm80xx: Restore support for expanders
+251be2f6037fb7ab399f68cd7428ff274133d693 scsi: pm80xx: Fix array-index-out-of-of-bounds on rmmod
+e5eb72c92eb724aa14c50c7d92d1a576dd50d7e6 scsi: libsas: Add dev_parent_is_expander() helper
+0c0188dd200e4709da72cc3d65c012f34030b950 scsi: hisi_sas: Use dev_parent_is_expander() helper
+ad6ae22927a7ed411d892d80934610c49882a378 scsi: isci: Use dev_parent_is_expander() helper
+3adf779489839516d61c3ead08cc148a7374b581 scsi: mvsas: Use dev_parent_is_expander() helper
+35e388696c3f3b6bf70e2010873c5e0c1d37d579 scsi: pm80xx: Use dev_parent_is_expander() helper
+b4ec98303f9fc9b1da0053106716db6a7e002d8b scsi: pm80xx: Add helper function to get the local phy id
+ad70c6bc776b53e61c8db6533c833aff0ff5da8b scsi: pm80xx: Fix pm8001_abort_task() for chip_8006 when using an expander
+03f69351b63ea9583bd91c60a83d0a8573ea29fb scsi: pm80xx: Use pm80xx_get_local_phy_id() to access phy array
+2cb5168f1e74a2518db92728aa14c64744314b1c Merge patch series "scsi: pm80xx: Fix expander support"
 
---===============6759303740286863725==--
+--===============3186280704358843020==--
