@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Aug 2025 00:21:05 -0000
-Message-Id: <175556286565.2560647.8033058476307963628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 19 Aug 2025 00:21:20 -0000
+Message-Id: <175556288038.2561666.9668895513443024225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 715c7a36d59f54162a26fac1d1ed8dc087a24cf1
-    new: 864e3396976ef41de6cc7bc366276bf4e084fff2
+  - ref: refs/heads/master
+    old: bac80aa5b5352a998256c9e47aca8ead4bf5c19b
+    new: 35c17074aee83a5e4d88faa26f9fbccc3e6c4e29
     log: |
-         864e3396976ef41de6cc7bc366276bf4e084fff2 net: gso: Forbid IPv6 TSO with extensions on devices with only IPV6_CSUM
+         35c17074aee83a5e4d88faa26f9fbccc3e6c4e29 foo
          
