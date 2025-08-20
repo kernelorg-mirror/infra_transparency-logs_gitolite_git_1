@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6583052162856383202=="
+Content-Type: multipart/mixed; boundary="===============1440469475171631048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 20 Aug 2025 16:42:55 -0000
-Message-Id: <175570817506.597602.17834665654565010094@gitolite.kernel.org>
+Date: Wed, 20 Aug 2025 16:43:14 -0000
+Message-Id: <175570819430.598776.6123381105829928534@gitolite.kernel.org>
 
---===============6583052162856383202==
+--===============1440469475171631048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1619142b76149409d63b44d898c8884ededfbf70
-    new: 351577bda32c1a88445a0663022d801c1c8b8048
-    log: revlist-1619142b7614-351577bda32c.txt
+    old: 351577bda32c1a88445a0663022d801c1c8b8048
+    new: 9701743e87bf3f73d05334cd3163cb832b9f1de8
+    log: |
+         38e1bbb8f474284a152b3d13e91866c331a422cf Merge branch into tip/master: 'perf/urgent'
+         64724f77b88c14da922d70d94beb604f80a15b17 Merge branch into tip/master: 'x86/urgent'
+         7f5a5c982c44616a811bd3b2e60be50cfe95caa6 Merge branch into tip/master: 'core/bugs'
+         aa0add34069be0d81cc925d4c7488017c9100304 Merge branch into tip/master: 'perf/core'
+         e7e0392ca372daec5fc7db3c9eb7d9b1d20714ae Merge branch into tip/master: 'timers/clocksource'
+         a5e48ade6ac2940a9338253001ccc1d478ff68a7 Merge branch into tip/master: 'x86/build'
+         fc5a7ddf656b1a1d930945e5b001328cf8be5b0a Merge branch into tip/master: 'x86/cache'
+         6667cf2fe9fdbc60ec44e87d04fbc332ff80cf15 Merge branch into tip/master: 'x86/core'
+         bec78a3d25c9d3d03dc5cc24d04eb0bf47dcaf7c Merge branch into tip/master: 'x86/cpu'
+         c8b25e9c11efaa1f155116a1fe23e1fc38001db0 Merge branch into tip/master: 'x86/entry'
+         9701743e87bf3f73d05334cd3163cb832b9f1de8 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: 704e427ebc4dc71597e337d5c646c080800ee9cf
+    new: 64724f77b88c14da922d70d94beb604f80a15b17
+    log: revlist-704e427ebc4d-64724f77b88c.txt
 
---===============6583052162856383202==
+--===============1440469475171631048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1619142b7614-351577bda32c.txt
+Content-Disposition: attachment; filename=revlist-704e427ebc4d-64724f77b88c.txt
 
 d02d2c98d25793902f65803ab853b592c7a96b29 fs: writeback: fix use-after-free in __mark_inode_dirty()
 9308366f062129d52e0ee3f7a019f7dd41db33df open_tree_attr: do not allow id-mapping changes without OPEN_TREE_CLONE
@@ -51,6 +67,7 @@ fb924b7b8669503582e003dd7b7340ee49029801 change_mnt_propagation(): calculate pro
 055f213075fbfa8e950bed8f2c50d01ac71bbf37 Merge tag 'vfs-6.17-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7cca555b94a2191d012837a37c891eca4e876c6b Merge tag 'ovl-fixes-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 b19a97d57c15643494ac8bfaaa35e3ee472d41da Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-351577bda32c1a88445a0663022d801c1c8b8048 Merge branch 'linus'
+38e1bbb8f474284a152b3d13e91866c331a422cf Merge branch into tip/master: 'perf/urgent'
+64724f77b88c14da922d70d94beb604f80a15b17 Merge branch into tip/master: 'x86/urgent'
 
---===============6583052162856383202==--
+--===============1440469475171631048==--
