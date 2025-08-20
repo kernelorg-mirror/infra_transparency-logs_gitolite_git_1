@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 20 Aug 2025 14:38:26 -0000
-Message-Id: <175570070610.141201.15772767663744737288@gitolite.kernel.org>
+Date: Wed, 20 Aug 2025 14:38:31 -0000
+Message-Id: <175570071130.141576.15600031249972902421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/fixes
     old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    new: 669bc57e7016cf9d1a9eedb2a984c4fb4fd67f3d
+    new: 93f616ff870a1fb7e84d472cad0af651b18f9f87
     log: |
-         efe89a30f70753d861340a20365812e93d34a0de s390/sclp: Refactor sclp_cmd.c
-         f9de6cdf4cf8c932ee94f6e25cd7434a97c78bf3 s390/sclp: Move memory hotplug code for better modularity
-         de88e74889a30bd9ff4047726021cde857348b4b s390/bitops: Slightly optimize ffs() and fls64()
-         669bc57e7016cf9d1a9eedb2a984c4fb4fd67f3d s390/bitops: Optimize inlining
+         eb173ce0e23502e397eae75453936b3ecfb1fd84 s390/configs: Update defconfigs
+         fcc43a7e294f877021c4fa71276920f543e8e298 s390/configs: Set HZ=1000
+         430fa71027b6ac9bb0ce5532b8d0676777d4219a s390/sclp: Fix SCCB present check
+         93f616ff870a1fb7e84d472cad0af651b18f9f87 s390/mm: Do not map lowcore with identity mapping
          
