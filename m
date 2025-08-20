@@ -1,89 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4514924594504092010=="
+Content-Type: multipart/mixed; boundary="===============5957527603109467400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 20 Aug 2025 17:45:38 -0000
-Message-Id: <175571193823.807955.17634743030130702113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 20 Aug 2025 17:47:37 -0000
+Message-Id: <175571205728.831899.1670013178120634198@gitolite.kernel.org>
 
---===============4514924594504092010==
+--===============5957527603109467400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.1.148
-    old: 0000000000000000000000000000000000000000
-    new: 6008dc18dca04ca94a896eac8d27f807705e4af6
-  - ref: refs/tags/v6.12.42
-    old: 0000000000000000000000000000000000000000
-    new: b80b06d193d833c5ccacd16bee0bf44712516774
-  - ref: refs/tags/v6.12.43
-    old: 0000000000000000000000000000000000000000
-    new: 16015fed401a9bc954b402f26a5eadae42889009
-  - ref: refs/tags/v6.15.10
-    old: 0000000000000000000000000000000000000000
-    new: a5d6a6711f488b72144e75f34166d665c80c89ac
-  - ref: refs/tags/v6.15.11
-    old: 0000000000000000000000000000000000000000
-    new: 7c99a47df18359e50358c2e3586e499c9035275d
-  - ref: refs/tags/v6.16.1
-    old: 0000000000000000000000000000000000000000
-    new: 42a36bc8f04a362e66883b8a10fe6ec0d274fe78
-  - ref: refs/tags/v6.16.2
-    old: 0000000000000000000000000000000000000000
-    new: e302e4b82560df870cb3c1ca028a172aae3385bf
-  - ref: refs/tags/v6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
-  - ref: refs/tags/v6.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: f3c5631f70e434e318c44001e2417d4770f06cd0
-  - ref: refs/tags/v6.6.102
-    old: 0000000000000000000000000000000000000000
-    new: 323b204b790fa96ba2b45898584d087982374197
+  - ref: refs/heads/master
+    old: 7bee85a8e99c1dd07039960056ff6be78bb35d87
+    new: 7b1e260a22a1ae5d6434d5fced40d7eed7dd230e
+    log: |
+         2e7ada6de20803a83ae60ff8658e689901e9b560 updates based on new stable releases
+         7b1e260a22a1ae5d6434d5fced40d7eed7dd230e update cvelistV5
+         
 
---===============4514924594504092010==
+--===============5957527603109467400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755711948 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1755711874-77b75d5dac18a64dfbc506255c188c7fe59d2dcc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755712104 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1755712056-e8f3eaf56562f13b585e5d1be378f1b147d7334b
 
-0000000000000000000000000000000000000000 6008dc18dca04ca94a896eac8d27f807705e4af6 refs/tags/v6.1.148
-0000000000000000000000000000000000000000 b80b06d193d833c5ccacd16bee0bf44712516774 refs/tags/v6.12.42
-0000000000000000000000000000000000000000 16015fed401a9bc954b402f26a5eadae42889009 refs/tags/v6.12.43
-0000000000000000000000000000000000000000 a5d6a6711f488b72144e75f34166d665c80c89ac refs/tags/v6.15.10
-0000000000000000000000000000000000000000 7c99a47df18359e50358c2e3586e499c9035275d refs/tags/v6.15.11
-0000000000000000000000000000000000000000 42a36bc8f04a362e66883b8a10fe6ec0d274fe78 refs/tags/v6.16.1
-0000000000000000000000000000000000000000 e302e4b82560df870cb3c1ca028a172aae3385bf refs/tags/v6.16.2
-0000000000000000000000000000000000000000 062b3e4a1f880f104a8d4b90b767788786aa7b78 refs/tags/v6.17-rc1
-0000000000000000000000000000000000000000 f3c5631f70e434e318c44001e2417d4770f06cd0 refs/tags/v6.17-rc2
-0000000000000000000000000000000000000000 323b204b790fa96ba2b45898584d087982374197 refs/tags/v6.6.102
+7bee85a8e99c1dd07039960056ff6be78bb35d87 7b1e260a22a1ae5d6434d5fced40d7eed7dd230e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmimCcwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E9gQAM8HJRbVfLJraqcupuvt
-nn75oTHCTZX/5XGn/FC4hyXn+F07+4/2jQHsU5bjogYFuP4I+n1GJB+RyNGTKNL1
-EA0a4H/xcCdmjV4a0VfFJgEVuNo013vJYcMDG+9BS4jhy1htWCIJvGJm2sLvtKNP
-majBYaEgZ2uGA6OdPbqiez48WwOswLWUauYelhJnZOjWRXQVD6THeENcVC0CGJqP
-97zU5j49Lzu7ntnuJmOitKx+SGU+UUv6zMceSvjvgWFE4wVsLus82E0o/qd/NRhB
-Gcogt+IqbOnEoADMcBavJcEqsAH+QNAf1mvjdwmUUXSrpZtFcrADY1KoNKCGwkj+
-z+xRaW7nubKZln3ng5y/ogZ9EYughBhYtfxOtfiPWvXZyCmsVXdXo4RYMYp7OE9N
-YnuTa+33i7tpVr/eFr8VboTGDpJYkGgGkB9bNhGwHVE98fiSOOZlwNG/WKJmKNid
-+hJ0IwWBeOVOdvOmMZl45D0WV44k7FxjFjL/grCfYji4ihu4jGpYzN3Prt7RFqKb
-7+rBnhRtbBUaiUzBApXf6RVh0x44syGuhoRU+UtgWJDW4A9hwTE7An5TtepRrcCc
-jYxQV06O0u4P8wpf+847RYdJg/5Oygml43mp/SEv7ngF7gDtGlt4zVJZTeKXTbjX
-eEJtCZZZs7x60F4IztZsSszB
-=4sYN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmimCmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R/8QAJND/wZ8yLfiFQYpGLMv
+eP5ZbP5H/UDXZsYiqC17CmF2TSUHs+dlv7tEZr0Hx9etF99r3G+QPR2OS4LspWRR
+Ai4fspsNmPGEkGN2rVKRVIJKNJ1afSDIBbtj4WPRtDdW4JOy3RYhGJQtk6cNQ4Zl
+kma45TZ9KVlTMXj5N4DivuDdQKht1LM51z8Pr924odX4NUQdk0SWc084WevZtyuN
+qUMzdZWivr9QnwkGohj9ieCDknfDwVHMknlbBnC5I/xz51TOUP/I/BkAeu+PCg4Y
+0qgljfQRz1XK/uXg6zFQf9z4S0WXiEL6nkaME7+YLuaarPA3FSZnNXB+EZeVi6SM
+d5bB0SSa8wrmVtYFPmOE0I+kPUgYs4SddHJQnqlKG0IQ2U0vTOZha96zrnjfi1gr
+hrS4TVaRwYUaDYTYyZ2XevmDGMOSfNk/kXAfl9gvrvLYBBWP24E92v2qME0tSJ73
+f3YCSqpG5vmZ6uepKIGW8lDnlqU0xbY0AmXFvznI8MWEgCFxfTd3laJ3/KJQMmvD
+z7lLjPgl6RLrFRPgZauCN+mnPdar3GiHoUfwLXKgor1rn92qBsZ6y5Laech+sPsR
+0lStMmiP7MHuIwC36xXVsyKr8esETcmA1lj37DQTq8b57kmybFkhr+7re38r9HQt
+/03L0iRv4eoxBTUzc36KF0W/
+=MEJE
 -----END PGP SIGNATURE-----
 
---===============4514924594504092010==--
+--===============5957527603109467400==--
