@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 20 Aug 2025 15:29:50 -0000
-Message-Id: <175570379099.290681.4401111223687396158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Wed, 20 Aug 2025 15:42:46 -0000
+Message-Id: <175570456696.326603.17050055791594713368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: b72586df02510012213890b030792bc195b3bf62
-    new: 7594a74b8d2bc52adb754a0a99290acb2a220f2a
+  - ref: refs/heads/next
+    old: e6a9530b3ee7407b70b60e4df70688db0d239e1a
+    new: c7ad33d50282168fbfed1c6662503b0d979a67c8
     log: |
-         eeceb17ba87a773a1bec15ba27aaacfd6a6ffb0d patches/next: add charged_from initialization fix from Sang-Heon
-         7594a74b8d2bc52adb754a0a99290acb2a220f2a patches/next: rebase to latest mm-new
+         c7ad33d50282168fbfed1c6662503b0d979a67c8 cxl/acpi: Limit XOR map application based on host bridge ways
          
