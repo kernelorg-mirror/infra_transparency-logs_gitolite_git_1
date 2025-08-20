@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Wed, 20 Aug 2025 07:13:35 -0000
-Message-Id: <175567401503.3112961.2971203571872615541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 20 Aug 2025 07:14:23 -0000
+Message-Id: <175567406375.3115977.13864486684961844902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/devel
-    old: 90dc2caba916909236f729401383e47021746f11
-    new: b8dc2302544b66367bedec19ee16477ff5a25a92
+  - ref: refs/heads/master
+    old: d3c49ee062f761cb4ad272c1300ebb5dfd932c9a
+    new: 643bdae8e38055e36acf2963c3416de206081507
     log: |
-         b8dc2302544b66367bedec19ee16477ff5a25a92 pinctrl: stm32: Constify static 'pinctrl_desc'
-         
-  - ref: refs/heads/for-next
-    old: c5998be4099bd35f2959e7a22072f33cc7791262
-    new: 0ae621d78880a406f164a719150dfc66a69b7148
-    log: |
-         b8dc2302544b66367bedec19ee16477ff5a25a92 pinctrl: stm32: Constify static 'pinctrl_desc'
-         0ae621d78880a406f164a719150dfc66a69b7148 Merge branch 'devel' into for-next
+         f27b33b45f9d7daf745dba8b71996efd1120407a fallocate: add FALLOC_FL_WRITE_ZEROES support
+         6ab940b1b7743ae6bf032f37389f8c3390f048eb lsclocks: stop using MAX_CLOCKS
+         643bdae8e38055e36acf2963c3416de206081507 Merge branch 'PR/fallocate-write-zeroes' of https://github.com/karelzak/util-linux-work
          
