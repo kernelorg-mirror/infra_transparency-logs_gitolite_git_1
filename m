@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2236043007847805549=="
+Content-Type: multipart/mixed; boundary="===============5571203291143706217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 20 Aug 2025 20:13:51 -0000
-Message-Id: <175572083179.957795.2310756613506387237@gitolite.kernel.org>
+Date: Wed, 20 Aug 2025 20:14:35 -0000
+Message-Id: <175572087527.958974.2161329103463215037@gitolite.kernel.org>
 
---===============2236043007847805549==
+--===============5571203291143706217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: edf29a3fcd9a4da3bcd64d04b578dfb773493b84
-    new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    log: revlist-edf29a3fcd9a-c17b750b3ad9.txt
+  - ref: refs/heads/rproc-next
+    old: 1c20224123f41e4f7da44ae020832bdac3f30ec1
+    new: f9a4c582e508c210d1e8e70493a69c6e5708476c
+    log: revlist-1c20224123f4-f9a4c582e508.txt
 
---===============2236043007847805549==
+--===============5571203291143706217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edf29a3fcd9a-c17b750b3ad9.txt
+Content-Disposition: attachment; filename=revlist-1c20224123f4-f9a4c582e508.txt
 
-a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
-a5a6b29a700fda1dd766cc42dde2cbba9b19f470 bpf: Show precise rejected function when attaching fexit/fmod_ret to __noreturn functions
 863aab3d4dcdfffa5cf0e0795c526dadca65be7a bpf: Add log for attaching tracing programs to functions in deny list
 a32f6f17a74d0e897b48bd4c697cc9782a38bf4f selftests/bpf: Add selftest for attaching tracing programs to functions in deny list
 51d3750aba798335568970f3157629c6ca5dc91a selftests/bpf: Migrate fexit_noreturns case into tracing_failure test suite
@@ -1050,5 +1048,7 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 0a9ee9ce49a66bfdf12e34130b45fafe170dfc84 Merge tag 'locking_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
+c4c432dfb00fcb69d56cc9778f527cce71cec9bb remoteproc: imx_dsp_rproc: Add support of recovery and coredump process
+f9a4c582e508c210d1e8e70493a69c6e5708476c remoteproc: k3: Remove remote processor mailbox ping
 
---===============2236043007847805549==--
+--===============5571203291143706217==--
