@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5446406980270736347=="
+Content-Type: multipart/mixed; boundary="===============0971521673643634553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 20 Aug 2025 03:25:29 -0000
-Message-Id: <175566032980.2509257.9658742370823991012@gitolite.kernel.org>
+Date: Wed, 20 Aug 2025 03:25:55 -0000
+Message-Id: <175566035573.2510681.10761324293469511375@gitolite.kernel.org>
 
---===============5446406980270736347==
+--===============0971521673643634553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: dc999241b15ddbaaf5a062d33459e3cacf9a06d0
-    new: ba598d7592c42f244cb5fc8d38eb9a865ad2c40a
+  - ref: refs/heads/6.18/scsi-staging
+    old: 2cb5168f1e74a2518db92728aa14c64744314b1c
+    new: edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b
     log: |
          f9f20d02639f93f7edde64e045605726fad3a303 Merge patch series "scsi: pm80xx: Fix expander support"
          e115d3d70ecc674df2e716e7030893424fa110fb scsi: hpsa: Fix incorrect comment format
@@ -32,33 +32,33 @@ changes:
          edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b scsi: myrs: Fix dma_alloc_coherent() error check
          
 
---===============5446406980270736347==
+--===============0971521673643634553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1755660355 -0400
+pusher 75C5DE3D 1755660383 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1755660308-5aec5007da82480d5126da2e02bcd45956ac125e
+nonce 1755660332-3524ae842ead7a1e7dfc7fe8debd7ae899fd7cf9
 
-dc999241b15ddbaaf5a062d33459e3cacf9a06d0 ba598d7592c42f244cb5fc8d38eb9a865ad2c40a refs/tags/mkp-scsi-staging
+2cb5168f1e74a2518db92728aa14c64744314b1c edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b refs/heads/6.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmilQEMACgkQ7ulgGnXF
-3j0RmA//byHk0B5pE4RETvfI6uCgplzuaG35xcbRbqOOZ86yukhk1AXumRPGkR0Z
-CiC+yRh9uJOsBJbQ6GZhmdbUc/vy3HsKWOXKLnAm5qjypJutcciesuelhWSrhLLB
-PokmD6OJI87Dv6+Q5yMtPqTJMLrt8w8wy+JHuQIX4RevhxoFCKjpyCMNAKouL9Nq
-058PshebLHXvXHQQ2Poumz1WU7wtzLS6RgRyGA/iMgCJO2+NsDkbgkYFuFCiEQ2y
-MnOq04q0I8/jobDoD6Cp8w1NbpMLhrwYbfF/5eXp3pGgHAlk/pMED+ZFEPJxyf2X
-VtzaxIe17bpbwWZwBtBCHjw/wkuTnUrF0AVOMxzmc/saUGqbnPb+Y+dpYD7LylGh
-dVFTNfTi09akMpsax7rb3CJDTkMYBtTAbAXdibmms/fPMbS++GkmcK6KaVyiWQE6
-2zmnE5wdL3+Z+npBBCnUH4umstU9XlvuMsuKGUkWBTt26PgHcgDHSjSCCQijnMFb
-yYogBmGCY46BRq+P0K5Odndo3FmoMtondT0zSLJNf+v3VN+IN4aALKEGlwaDP083
-YFAoSP7WG1eABpcBspxFKJ/2NOcd4jXWWF/kuL8VNXZJB+gEqDpWk13jpgbH2xh1
-8qTKcoq0lZR2dypQokq+jItmM/9HV0BXaaJzu+dHBLv8EsTIXgo=
-=XuoI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmilQF8ACgkQ7ulgGnXF
+3j2Lsw/5ASGiQfdFve4Tn+fKwDYS+uZCvwp3t615VX7ftXUjdQep/+RsF4mGIVBC
+PEli2m7zXp0RwQN2gXqsEOwsuyWRsDt1klBTArZDRvvRX0bzxCTPFGQxEtUY7S0v
+E6v3yUH8Umuprm5R1DN1WhGnpswE4rKY8ZwqcReHPU+43xqsyb30SCcMjGu21Smu
+tKXnS+fDI9kx6/RBqqMQLUI9ICrU6A0DJGx6gSLd7iWD5zod55Y0+LYyJ3SbQv1M
+BG9A8BIyBKhwIqsl8hYjIs20uD3JFaHKBpPfbFUpTXYNJGYYou+ArsMuiJ1eOadt
+dXWMv1lVvvnYhubWi2QuKhhGi/TFxIglVwGdiRDYhgdYX7XgRlyr/YneZZC6WKLb
+h1xoOA3HfZrwFgjIbCK+mszWxziVoB6owPmEw2Y4Lk2KHeY9fLKgGngmW7PPe1Wi
+QcyUKp1DdQX9vp2LrUzzhnRQg+8slxE+GUoyISCTYEIXHhBQY4K3OTavQztG3sHE
+QcCjKNmLVE5mRdg45WOGJOYg9CFiBxuTAcAHpHA2/UqOwmfGg495xBmO9Z9mvtnb
+btHIPCHbmgPGasXo2BMRlLBcxoszyUE6knNfzRLhH2DieEbQr3mnXZUUCFhN4vIm
+l/GsBLWERnWC8lRrgem7VK1Unt+rQoOyU4l3plaIlI8n7amMQdw=
+=XkUr
 -----END PGP SIGNATURE-----
 
---===============5446406980270736347==--
+--===============0971521673643634553==--
