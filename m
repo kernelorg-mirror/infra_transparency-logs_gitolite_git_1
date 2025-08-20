@@ -1,41 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1187023600972939803=="
+Content-Type: multipart/mixed; boundary="===============4757318053786249530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 20 Aug 2025 14:16:44 -0000
-Message-Id: <175569940439.81164.11309774406958334524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Wed, 20 Aug 2025 14:24:30 -0000
+Message-Id: <175569987089.101874.14808434008710451600@gitolite.kernel.org>
 
---===============1187023600972939803==
+--===============4757318053786249530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/arm64-sme-mode-switch-doc
-    old: 68f7982bbc6c640a30fc18ff90411bea6585e6c6
-    new: ddfaf732f16cb6cc26f5d7d0fb75221f2ea582d8
-    log: revlist-68f7982bbc6c-ddfaf732f16c.txt
+  - ref: refs/heads/loongarch-fixes
+    old: 955853cf83657faa58572ef3f08b44f0f88885c1
+    new: bb41f5beb75a2c7d297268c0684165c4aa854505
+    log: revlist-955853cf8365-bb41f5beb75a.txt
 
---===============1187023600972939803==
+--===============4757318053786249530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68f7982bbc6c-ddfaf732f16c.txt
+Content-Disposition: attachment; filename=revlist-955853cf8365-bb41f5beb75a.txt
 
-863aab3d4dcdfffa5cf0e0795c526dadca65be7a bpf: Add log for attaching tracing programs to functions in deny list
-a32f6f17a74d0e897b48bd4c697cc9782a38bf4f selftests/bpf: Add selftest for attaching tracing programs to functions in deny list
-51d3750aba798335568970f3157629c6ca5dc91a selftests/bpf: Migrate fexit_noreturns case into tracing_failure test suite
-cd7c97f4584a93578f87ea6ff427f74e9a943cdf Merge branch 'bpf-show-precise-rejected-function-when-attaching-to-__noreturn-and-deny-list-functions'
-53edfecef66bfa65882ae065ed1a52f466c88979 Merge tag 'pm-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-9bbf8e17d8521211c5c5516ed5ec78d7581aacff Merge tag 'acpi-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e30fc090828e5761defe345b7bfb61bfc46be5bd Merge tag 'thermal-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-177bf8620cf4ed290ee170a6c5966adc0924b336 Merge tag 'sound-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-fcb117e0758d1462128a50c5788555e03b48833b Merge tag 'gpio-updates-for-v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-ffec878fa5fba8c527cbbb006b0522ae0d6599ce Merge tag 'pwrseq-updates-for-v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 5339a2aefc35c81526dc9a26419d34e8b041f0e6 Merge tag 'regmap-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 bf977a9ad33d204c8ca646cef83184eb364820ff Merge tag 'regulator-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 0262163136de813894cb172aa8ccf762b92e5fd7 Merge tag 'spi-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
@@ -1048,7 +1038,17 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 0a9ee9ce49a66bfdf12e34130b45fafe170dfc84 Merge tag 'locking_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
-93a7fa0a544a235c13d907fa4142fbacba5d0217 EDITME: cover title for arm64-sme-mode-switch-doc
-ddfaf732f16cb6cc26f5d7d0fb75221f2ea582d8 arm64/sme: Drop inaccurate documentation of streaming mode switches
+a47bc954cf0eb51f2828e1607d169d487df7f11f objtool/LoongArch: Get table size correctly if LTO is enabled
+5dfea6644d201bfeffaa7e0d79d62309856613b7 LoongArch: Pass annotate-tablejump option if LTO is enabled
+f7794a4d92ade518c813de69a01b27ca6d8d86f3 LoongArch: Increase COMMAND_LINE_SIZE up to 4096
+8ef7f3132e4005a103b382e71abea7ad01fbeb86 LoongArch: Add cpuhotplug hooks to fix high cpu usage of vCPU threads
+63dbd8fb2af3a89466538599a9acb2d11ef65c06 LoongArch: Optimize module load time by optimizing PLT/GOT counting
+112ca94f6c3b3e0b2002a240de43c487a33e0234 LoongArch: Save LBT before FPU in setup_sigcontext()
+0078e94a4733454d1ffa3888afe88bf19c81b91c LoongArch: Rename GCC_PLUGIN_STACKLEAK to KSTACK_ERASE
+2b64d978944fe4652d9b5766b7574e9aa505430e LoongArch: BPF: Fix uninitialized symbol 'retval_off'
+4c92701b66c717df0cc2d328ac5f8701dbf07e77 LoongArch: KVM: Make function kvm_own_lbt() robust
+53c8086d6bb0a30b3026923916f025cbf1e0c784 LoongArch: KVM: Fix stack protector issue in send_ipi_data()
+3cd6550fcf3e28f7237d571ec9d767d28415090b LoongArch: KVM: Use kvm_get_vcpu_by_id() instead of kvm_get_vcpu()
+bb41f5beb75a2c7d297268c0684165c4aa854505 LoongArch: KVM: Add address alignment check in pch_pic register access
 
---===============1187023600972939803==--
+--===============4757318053786249530==--
