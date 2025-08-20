@@ -1,37 +1,89 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 20 Aug 2025 17:45:17 -0000
-Message-Id: <175571191764.789055.7247588182744859199@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4514924594504092010=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 20 Aug 2025 17:45:38 -0000
+Message-Id: <175571193823.807955.17634743030130702113@gitolite.kernel.org>
+
+--===============4514924594504092010==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fbf7403985b4cd7b93f19d7cd7c4ac89e416040b
-    new: 94f490ea3109026582da4a8a12aa93eca4095483
-    log: |
-         9ae99ff5d7a130ea899132ecdcb86a30a789bc32 Merge branch into tip/master: 'perf/urgent'
-         7c30b8a3cee2b74c7dfddb46ab35ea6c455862fa Merge branch into tip/master: 'x86/urgent'
-         c0cb3aa7c764ff9288dde22d42b955298a7a910d Merge branch into tip/master: 'core/bugs'
-         47e1d3d6228928d6c72dbe2fb1c3a7a16b50ad92 Merge branch into tip/master: 'perf/core'
-         30369779e6629dd344b25de11d8f834ad23b1147 Merge branch into tip/master: 'timers/clocksource'
-         8416d0338188bb9c622db83ff07465f554c86158 Merge branch into tip/master: 'x86/build'
-         1b1bffd276fb98bddb4a84cc7e76b73a8c094173 Merge branch into tip/master: 'x86/cache'
-         1fbc12bd51fed111b8e691f342997a8d258b1699 Merge branch into tip/master: 'x86/cleanups'
-         939d99e85d0347a26d8a6fa5a4e4758283f5bc17 Merge branch into tip/master: 'x86/core'
-         f618012a0192e8e3925c3784f3eea39f10a35844 Merge branch into tip/master: 'x86/cpu'
-         7cf4c2f19926ea59c185f6acb65172d9511d6b42 Merge branch into tip/master: 'x86/entry'
-         94f490ea3109026582da4a8a12aa93eca4095483 Merge branch into tip/master: 'x86/misc'
-         
-  - ref: refs/heads/tip/urgent
-    old: 64724f77b88c14da922d70d94beb604f80a15b17
-    new: 7c30b8a3cee2b74c7dfddb46ab35ea6c455862fa
-    log: |
-         9ae99ff5d7a130ea899132ecdcb86a30a789bc32 Merge branch into tip/master: 'perf/urgent'
-         7c30b8a3cee2b74c7dfddb46ab35ea6c455862fa Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/tags/v6.1.148
+    old: 0000000000000000000000000000000000000000
+    new: 6008dc18dca04ca94a896eac8d27f807705e4af6
+  - ref: refs/tags/v6.12.42
+    old: 0000000000000000000000000000000000000000
+    new: b80b06d193d833c5ccacd16bee0bf44712516774
+  - ref: refs/tags/v6.12.43
+    old: 0000000000000000000000000000000000000000
+    new: 16015fed401a9bc954b402f26a5eadae42889009
+  - ref: refs/tags/v6.15.10
+    old: 0000000000000000000000000000000000000000
+    new: a5d6a6711f488b72144e75f34166d665c80c89ac
+  - ref: refs/tags/v6.15.11
+    old: 0000000000000000000000000000000000000000
+    new: 7c99a47df18359e50358c2e3586e499c9035275d
+  - ref: refs/tags/v6.16.1
+    old: 0000000000000000000000000000000000000000
+    new: 42a36bc8f04a362e66883b8a10fe6ec0d274fe78
+  - ref: refs/tags/v6.16.2
+    old: 0000000000000000000000000000000000000000
+    new: e302e4b82560df870cb3c1ca028a172aae3385bf
+  - ref: refs/tags/v6.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
+  - ref: refs/tags/v6.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f3c5631f70e434e318c44001e2417d4770f06cd0
+  - ref: refs/tags/v6.6.102
+    old: 0000000000000000000000000000000000000000
+    new: 323b204b790fa96ba2b45898584d087982374197
+
+--===============4514924594504092010==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755711948 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1755711874-77b75d5dac18a64dfbc506255c188c7fe59d2dcc
+
+0000000000000000000000000000000000000000 6008dc18dca04ca94a896eac8d27f807705e4af6 refs/tags/v6.1.148
+0000000000000000000000000000000000000000 b80b06d193d833c5ccacd16bee0bf44712516774 refs/tags/v6.12.42
+0000000000000000000000000000000000000000 16015fed401a9bc954b402f26a5eadae42889009 refs/tags/v6.12.43
+0000000000000000000000000000000000000000 a5d6a6711f488b72144e75f34166d665c80c89ac refs/tags/v6.15.10
+0000000000000000000000000000000000000000 7c99a47df18359e50358c2e3586e499c9035275d refs/tags/v6.15.11
+0000000000000000000000000000000000000000 42a36bc8f04a362e66883b8a10fe6ec0d274fe78 refs/tags/v6.16.1
+0000000000000000000000000000000000000000 e302e4b82560df870cb3c1ca028a172aae3385bf refs/tags/v6.16.2
+0000000000000000000000000000000000000000 062b3e4a1f880f104a8d4b90b767788786aa7b78 refs/tags/v6.17-rc1
+0000000000000000000000000000000000000000 f3c5631f70e434e318c44001e2417d4770f06cd0 refs/tags/v6.17-rc2
+0000000000000000000000000000000000000000 323b204b790fa96ba2b45898584d087982374197 refs/tags/v6.6.102
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmimCcwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E9gQAM8HJRbVfLJraqcupuvt
+nn75oTHCTZX/5XGn/FC4hyXn+F07+4/2jQHsU5bjogYFuP4I+n1GJB+RyNGTKNL1
+EA0a4H/xcCdmjV4a0VfFJgEVuNo013vJYcMDG+9BS4jhy1htWCIJvGJm2sLvtKNP
+majBYaEgZ2uGA6OdPbqiez48WwOswLWUauYelhJnZOjWRXQVD6THeENcVC0CGJqP
+97zU5j49Lzu7ntnuJmOitKx+SGU+UUv6zMceSvjvgWFE4wVsLus82E0o/qd/NRhB
+Gcogt+IqbOnEoADMcBavJcEqsAH+QNAf1mvjdwmUUXSrpZtFcrADY1KoNKCGwkj+
+z+xRaW7nubKZln3ng5y/ogZ9EYughBhYtfxOtfiPWvXZyCmsVXdXo4RYMYp7OE9N
+YnuTa+33i7tpVr/eFr8VboTGDpJYkGgGkB9bNhGwHVE98fiSOOZlwNG/WKJmKNid
++hJ0IwWBeOVOdvOmMZl45D0WV44k7FxjFjL/grCfYji4ihu4jGpYzN3Prt7RFqKb
+7+rBnhRtbBUaiUzBApXf6RVh0x44syGuhoRU+UtgWJDW4A9hwTE7An5TtepRrcCc
+jYxQV06O0u4P8wpf+847RYdJg/5Oygml43mp/SEv7ngF7gDtGlt4zVJZTeKXTbjX
+eEJtCZZZs7x60F4IztZsSszB
+=4sYN
+-----END PGP SIGNATURE-----
+
+--===============4514924594504092010==--
