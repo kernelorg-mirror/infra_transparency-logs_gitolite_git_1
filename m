@@ -1,43 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1607966365147798355=="
+Content-Type: multipart/mixed; boundary="===============7074251825608858279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 20 Aug 2025 20:55:33 -0000
-Message-Id: <175572333349.997076.12961926285904106518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 20 Aug 2025 21:01:36 -0000
+Message-Id: <175572369680.1001982.12312717372567457823@gitolite.kernel.org>
 
---===============1607966365147798355==
+--===============7074251825608858279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/pending
-    old: 0206eaa372e78752fd3387e300fffb37639c191c
-    new: 4f54fa4ed62705bfbceb4630f2cb35b4b3697b72
-    log: revlist-0206eaa372e7-4f54fa4ed627.txt
+  - ref: refs/heads/dev
+    old: 2140d85485ecebb7d8e6ca82eedfc8145e965b78
+    new: 1960b49f7ccec9c4848bd1b46c9d483074a6a5a9
+    log: revlist-2140d85485ec-1960b49f7cce.txt
+  - ref: refs/heads/dev.2025.08.14a
+    old: 0000000000000000000000000000000000000000
+    new: 7883e34cfbaf0df34e61bb31ebd8af788e3f1683
+  - ref: refs/heads/dev.2025.08.19a
+    old: 0000000000000000000000000000000000000000
+    new: f03bfdcce76c31af5876f53097f3d627fa58d4b7
 
---===============1607966365147798355==
+--===============7074251825608858279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0206eaa372e7-4f54fa4ed627.txt
+Content-Disposition: attachment; filename=revlist-2140d85485ec-1960b49f7cce.txt
 
-61625b458c7e7b3c9a5e2bdad085a8a59911bfba wifi: ath12k: Restructure PCI code to common and Wi-Fi 7 specific logic
-5a2221475d0b5bc187a72e08223fe88a6a78011d wifi: ath12k: Move Copy Engine configuration to Wi-Fi 7 specific file
-f48bee3ddf9665b8640b29f8a9e266cb82b9593c wifi: ath12k: Move Wi-Fi 7 WMI configuration to dedicated file
-fbdebfdbea6a67b0094bf2f191a8468a752469c8 wifi: ath12k: Move Wi-Fi 7 MHI configuration to dedicated file
-a1c89feda6ba146be1089960b619c8b935719d93 wifi: ath12k: Rename hw.c to Wi-Fi 7 specific implementation file
-1b69591c6a770d316c8ff117ddf005fe5d468f06 wifi: ath12k: Rename ahb_hif_ops to reflect generic usage
-7fa34b3f6fd273305eefd48b197d1301269bfcba wifi: ath12k: Restructure ahb.c into common and Wi-Fi 7 specific modules
-3aff25a2c4093a9cf61d7eac11d0e39c1a1cb048 wifi: ath12k: Move Wi-Fi 7 specific init routines to dedicated file
-3aceca2505cbae3ef3d126a4bc1fe9ac7e894151 wifi: ath12k: Move hw_init invocation to target-specific probe
-0cc42278e14c6edcd1293403b2396aa9f7387890 wifi: ath12k: Modularize driver into common and Wi-Fi 7 specific components
-d28917fc61852c0de596f22cd5f206cd6afc9873 wifi: ath12k: Rename ath12k_* symbols to ath12k_wifi7_* for clarity
-55efbc84bc5d12906945669824d09e7c43f40a19 wifi: ath12k: Remove HAL defines from shared PCI code
-4f54fa4ed62705bfbceb4630f2cb35b4b3697b72 wifi: ath12k: Remove HAL define dependencies from shared AHB code
+c0e0a8ca750c2ef36834e6a54483f6cfde5470df EXP net: stmmac: Make DWMAC_ROCKCHIP and DWMAC_STM32 depend on PM_SLEEP
+0d23bce759d8eee5b2a3a83ed4d21f859a0b621a Documentation: RCU: Wrap kvm-remote.sh rerun snippet in literal code block
+fdff7a4e6ebbaf160a051522b75232d959d2c74f Documentation: RCU: Reduce toctree depth
+3221c10c028d934ee9b8dde416613da38c0ccb0b Documentation: RCU: Retitle toctree index
+28abbac2637023ae8550a1bd781891c775541511 doc: Fix typo in RCU's torture.rst documentation
+4fbdf928e6f0faa2bbc90fbbedbc6dc5d443fe88 rcu: Re-implement RCU Tasks Trace in terms of SRCU-fast
+146ae6a13db72f0afeb2964303341801399ef3fb rcu: Remove unused ->trc_ipi_to_cpu and ->trc_blkd_cpu from task_struct
+3530b5c4652f64dbb3809b693a66383f1cff04ed rcu: Remove ->trc_blkd_node from task_struct
+cfa0688c8c1c1be395fc6d1460f7f1ebdd8d85c8 rcu: Remove ->trc_holdout_list from task_struct
+31b171e46d1812004e49c6f28606069f566cbafc rcu: Remove rcu_tasks_trace_qs() and the functions that it calls
+7771e38404dbf1e1302dc655ff964a1fbc4c0e5c context_tracking: Remove rcu_task_trace_heavyweight_{enter,exit}()
+72949fd9289e5a3aa9d916fc5c22b14d1d9d2234 rcu: Remove ->trc_reader_special from task_struct
+92efdce1863809bb21758e9aa0d31de6c2f34ba4 rcu: Remove now-empty RCU Tasks Trace functions and calls to them
+6a5233e7db1ca99eb75b0bdf76718183333cb73c rcu: Remove unused rcu_tasks_trace_lazy_ms and trc_stall_chk_rdr struct
+623d23a97e9441d03f93db653c569bcd9c051c66 rcu: Remove now-empty show_rcu_tasks_trace_gp_kthread() function
+8e765290cdd0de935af88b05fe6c3e2f7cf45dca rcu: Remove now-empty rcu_tasks_trace_get_gp_data() function
+03247d2a4b3e5267112c33434473dc73c7ece819 rcu: Remove now-empty rcu_tasks_trace_torture_stats_print() function
+21384240c741a5573fd4dc765f17219547a5b031 rcu: Remove now-empty get_rcu_tasks_trace_gp_kthread() function
+0693f2ac1eab6938f9f098057e9bff49ca60a0b8 rcu: Move rcu_tasks_trace_srcu_struct out of #ifdef CONFIG_TASKS_RCU_GENERIC
+761552ed42e4ba4c3b3d02fc3f486194d198aec1 rcu: Add noinstr-fast rcu_read_{,un}lock_tasks_trace() APIs
+ddeaf6ae34ec036ab219dbdfb0db46a1332d8fb2 rcu: Remove now-unused rcu_task_ipi_delay and TASKS_TRACE_RCU_READ_MB
+750d30d752df8517c8131b02e900d8b0a8498f85 rcu: Use smp_mb() only when necessary in RCU Tasks Trace readers
+949bbda673f9b760035d81db17787f205142f4f0 rcu: Update Requirements.rst for RCU Tasks Trace
+d5f55790a37b837786dd5e182d764eb7525052b3 checkpatch: Deprecate rcu_read_{,un}lock_trace()
+1960b49f7ccec9c4848bd1b46c9d483074a6a5a9 fixup! rcu: Use smp_mb() only when necessary in RCU Tasks Trace readers
 
---===============1607966365147798355==--
+--===============7074251825608858279==--
