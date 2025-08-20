@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5111790284314798950=="
+Content-Type: multipart/mixed; boundary="===============5038593384963892948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 20 Aug 2025 15:29:17 -0000
-Message-Id: <175570375766.288814.1116455645100154690@gitolite.kernel.org>
+Date: Wed, 20 Aug 2025 15:29:19 -0000
+Message-Id: <175570375975.288964.12018383699202626942@gitolite.kernel.org>
 
---===============5111790284314798950==
+--===============5038593384963892948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
+  - ref: refs/heads/mm-stable
     old: dfc0f6373094dd88e1eaf76c44f2ff01b65db851
     new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
     log: revlist-dfc0f6373094-c17b750b3ad9.txt
 
---===============5111790284314798950==
+--===============5038593384963892948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -216,4 +216,4 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============5111790284314798950==--
+--===============5038593384963892948==--
