@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 20 Aug 2025 15:28:16 -0000
-Message-Id: <175570369608.285253.15202367007625766745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 20 Aug 2025 15:28:46 -0000
+Message-Id: <175570372697.286616.17794712953942622103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/drm-misc/drm-misc-next
-    old: 2c39d24ebc5da0d3861ea69218c4577ddcd0fe05
-    new: 2f44bb65f28f5f058fe4ab9bc81e5fde5575c473
+  - ref: refs/heads/scx
+    old: c551aeb6a0208898e129e2060a6b2f8f5891df04
+    new: 49a641ac4d7cf1884850ee8c2c8a3b68c2879c27
+    log: |
+         49a641ac4d7cf1884850ee8c2c8a3b68c2879c27 sched/deadline: De-couple balance and pick_task
+         
