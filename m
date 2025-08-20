@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 20 Aug 2025 01:33:15 -0000
-Message-Id: <175565359596.2218431.11860563175014782369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 20 Aug 2025 01:35:59 -0000
+Message-Id: <175565375919.2227248.17086084352944660116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: bd1ca1dd2070133509345159e86ea7466a45835b
-    new: 6fa6583d67a07a4414106e1b8dfa2bb00da38b24
+  - ref: refs/heads/main
+    old: 8beead2d155077e78a671c2986df88eb2696b159
+    new: 5c69e0b395c1ffb37fd6fbdbd428353fc0894005
     log: |
-         09f64c3c238452b4550e1ca20d876fb966a2d935 foo
-         70b777fa82f8b84d39efab9e9ceacc57ea72e289 foo
-         2bc7f11a75c32ae0057d72b81fe1b0b10f3b9ac5 foo
-         235a1cdb4cf59c61edb39a12719b3c30586690ab foo
-         09e49acdbc5b126ed363b5042fc81e595941bc0d foo
-         087ce41db1c3b0cefbab24a6e4b3360027cb3cfd foo
-         5e6594a8f4459316223ce7fc5c6632a677f31ee2 foo
-         6fa6583d67a07a4414106e1b8dfa2bb00da38b24 foo
+         ee0aace5f844ef59335148875d05bec8764e71e8 net: stmmac: Correctly handle Rx checksum offload errors
+         644b8437ccef9e7444164d8c4409933565928371 net: stmmac: dwmac4: report Rx checksum errors in status
+         fe4042797651215ca9acd83035122b5e940acf2e net: stmmac: dwmac4: stop hardware from dropping checksum-error packets
+         5c69e0b395c1ffb37fd6fbdbd428353fc0894005 Merge branch 'stmmac-stop-silently-dropping-bad-checksum-packets'
          
