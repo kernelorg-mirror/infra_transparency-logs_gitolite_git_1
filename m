@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 20 Aug 2025 12:59:23 -0000
-Message-Id: <175569476369.4057041.370235371631878640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Wed, 20 Aug 2025 13:01:33 -0000
+Message-Id: <175569489334.4064083.1894016014384770995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
   - ref: refs/heads/master
-    old: 73e81c2f18fedf2209f65748addce7a6883141dc
-    new: 2693227c1150d58bf82ef45a394a554373be5286
+    old: 5393faa215d0f1b7ebe523303c9393498b711f48
+    new: cbdabc45a16337f05139966a8c0384c36823e5e4
     log: |
-         2693227c1150d58bf82ef45a394a554373be5286 libbpf: Export bpf_object__prepare symbol
+         8523d3d1abb66cbe92d5c5ef4e3173b0b65e04ee tests: Merge 'unit' tests in the base test suite
+         cbdabc45a16337f05139966a8c0384c36823e5e4 README: Add basics on running the test suite
          
