@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3171497576665266363=="
+Content-Type: multipart/mixed; boundary="===============8453081303845781317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 20 Aug 2025 08:55:45 -0000
-Message-Id: <175568014555.3391655.1339708509921082188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 20 Aug 2025 09:03:04 -0000
+Message-Id: <175568058438.3411247.12972040527937074501@gitolite.kernel.org>
 
---===============3171497576665266363==
+--===============8453081303845781317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes-test
-    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    new: 8763d2257f5231cfdfd8a53594647927dbf8bb06
+  - ref: refs/heads/master
+    old: 31d18a185ce246f19f1618cae58567b1f79817bc
+    new: b433ec2bd45f4d7bc69c0bca9969faf0029f15f4
     log: |
-         02c1b0824eb1873b15676257cf1dc80070927e1e KVM: PPC: Fix misleading interrupts comment in kvmppc_prepare_to_enter()
-         b018bb26c42049e05d3d65b057cc1250d17d9b0a powerpc: Use dev_fwnode()
-         8b5d86a63bc9510e094a15d7268c60bd4347b95c powerpc/64: Drop unnecessary 'rc' variable
-         eb59d4c5948d93e940b5dde9d1bf3b33367fbcb8 powerpc: use always-y instead of extra-y in Makefiles
-         6a859f1a19d1f8756ffb097f5973dfebbca4811a powerpc: unify two CONFIG_POWERPC64_CPU entries in the same choice block
-         88688a2c8ac6c8036d983ad8b34ce191c46a10aa powerpc/kvm: Fix ifdef to remove build warning
-         d40ae9033418095642f65f4fd54dc5a7d292ee39 powerpc/prom_init: Fix shellcheck warnings
-         8763d2257f5231cfdfd8a53594647927dbf8bb06 powerpc/boot/install.sh: Fix shellcheck warnings
+         b433ec2bd45f4d7bc69c0bca9969faf0029f15f4 proposed: Add Allen's v6.15.9 & v6.16.1 results
          
 
---===============3171497576665266363==
+--===============8453081303845781317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1755680186 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1755680138-1ebd6f8d7ac7f5ac663d131e98d8b3fa8fdbaca2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755680628 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1755680581-40a1a6f93996af9d60bbe6138d82927f43c56d4d
 
-c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 8763d2257f5231cfdfd8a53594647927dbf8bb06 refs/heads/fixes-test
+31d18a185ce246f19f1618cae58567b1f79817bc b433ec2bd45f4d7bc69c0bca9969faf0029f15f4 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmiljboACgkQpnEsdPSH
-ZJQERQ//WSa0ka34EogAu+p99u2HpSm8IGa7JAJFLyYGs6ysVNDFgW3ztf64bOAt
-1TXCkEU5FSF4cQ3/3s+5YvbXt9Y6BwgXlWkNmJDvtJtbUbIeacdzAIK3aNujWViT
-Wu5Rzk9xsQbRBG/ugGKqeVsZw7e+e3+RXx05e5tWai5Lu36Eq5SGreDkvNenJ0/b
-YslEoVZxpyirXaC8O58rxVKq0JlqrQcdv652t0w4j/5ZFxxZndWfQC7GpgtpBA+a
-YvirO2fPyfFfcF9tvGr+4mBIfobEwii27vcEhjAvr9HflsBvhmzx4RkDk3bP2kJO
-ZHI9vvvhlmyjLUvBxlrqyqFjlXUUgRJKLBNmrW8B7DLp40fMs7KlmR04P6Pn4teh
-dKVxBm5XXRevZk/l4nI3cMUdTkmY6HazEGvUUa6lZBdIcKFnjdFcSRED7T/dnBFW
-hzZCX6dB1Pptk3GyQqAE6cfHU2eDKvPqiH10G/32eW33KZyJ9tT6BgcuH9OzQOus
-pig4hFRR+pbCw8dkfyKBVmlKD0bXsyzRs/aieZ9clKg2RznHSxWdHwsSuxaRleBu
-KI2sZFdhk7VrNXtZ9ClGoStohPCqcaQDblgXO1zJyNdHYTPRKIGinFJ4/guX2Bdr
-oIVNOfP9bEMg036ceVzjNdIB/LtSZB5RNKrp0iG5eMf49+spPjI=
-=1Fvf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmilj3QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nFMP/2L7aZfVTP7eUNBMsohq
+DqHQ64iXCOhZU8OhI/MkYo8NvcjUxVp0r4B4dmz5+azkB4i1TM2xl/7LL0zfi3MU
+iC8kMYP7y9LpwqIBSrZVC/ZZyJAEmCKJVWdvm20Va0XSdxSKPq+dAD0+QSBZumvm
+/Yr0+9ujLpMIvQehGUT3PmL9RBhnf7VrjPit85760KQCr1oMOqHZU7c9R7KGQ2eh
+slYy5VaZUJdlp6X2JBsDy5scBXP42WpC1AxS7dQt7NGrep0HRjhVYJ54+tf+7HrP
+Nhq2zFKC2w9MlT4iQwk8ltBGufVeCvSLlNVQftLOu0LZkBPmznFImgeM/QlG/KDO
+4nYmlr+Rp/Hd2G1wI7MCjhFfYrs00PqTPt3se71jvsntOjJnMORMnQxOvv8knIDh
+SpoLAk5WnWNX8s588ZJMCc38TEutWbgUHUn6WyN5atjJbxOrRz0KoDj2my6lQ3Et
+SgJuI7ICi4zBuLATx1COC+BM1UPwyGKYas2a/2G1mWKdbRCDl4hzXELfliiuIw2W
+73wQtdC22mEI8/TDowYZoOktyPAsddQFkIkHX0240kjLyup50YGJr9Tko5zSPqvx
+hJfunKl9YX4Ul/q7ct8C/3gbgIcObm1GbIv0lGM4N2rp9twqGYT3A48vhl2PqTkg
+yvdHO7bUzTDl6x2A7jPoRXkH
+=Vcfe
 -----END PGP SIGNATURE-----
 
---===============3171497576665266363==--
+--===============8453081303845781317==--
