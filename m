@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Wed, 20 Aug 2025 16:11:15 -0000
-Message-Id: <175570627517.406021.7302675259377558121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 20 Aug 2025 16:13:35 -0000
+Message-Id: <175570641570.411661.3567914452245657478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 3767c404af67104179677afdde5365fbbe19cbac
-    new: d3a70b22ee370fc80de81d5f66be6084cf734036
+    old: 1cfeba42119e76005a6482861975d44e46780ada
+    new: 326f125912c0af5154b15fc26b133615023a1a62
     log: |
-         d3a70b22ee370fc80de81d5f66be6084cf734036 sim7100: enable ppp-reset workaround
+         326f125912c0af5154b15fc26b133615023a1a62 tls: Fix possible memory leak
          
