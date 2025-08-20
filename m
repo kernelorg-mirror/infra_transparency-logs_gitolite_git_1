@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5879570730956882797=="
+Content-Type: multipart/mixed; boundary="===============1887828977802547511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 20 Aug 2025 15:24:42 -0000
-Message-Id: <175570348288.274513.8023969985441885386@gitolite.kernel.org>
+Date: Wed, 20 Aug 2025 15:27:15 -0000
+Message-Id: <175570363545.282779.9439845781633372921@gitolite.kernel.org>
 
---===============5879570730956882797==
+--===============1887828977802547511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: d07e4c00696f53510ec8a23dcba0c4ac87840874
-    log: revlist-19272b37aa4f-d07e4c00696f.txt
+  - ref: refs/heads/exynos-drm-misc-next
+    old: 01ac6e4e53b6351df42c97d217b0d2dbeef5c917
+    new: bcd0d93e902e54e6b404b574b3a6b23315bcea8d
+    log: revlist-01ac6e4e53b6-bcd0d93e902e.txt
 
---===============5879570730956882797==
+--===============1887828977802547511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-d07e4c00696f.txt
+Content-Disposition: attachment; filename=revlist-01ac6e4e53b6-bcd0d93e902e.txt
 
-6836e1f30fe90e4c19f6a3749e97ba1e44a840ef Documentation: KVM: Use unordered list for pre-init VGIC registers
-137177af71cf24a71a9854a5a5efbad6e0c5c5ac Merge tag 'spdx-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
-69f2970aad93758bea863432e49b564e0ba649ca Merge tag 'devicetree-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-115e74a29b530d121891238e9551c4bcdf7b04b5 Merge tag 'soc-dt-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-0f46f50845ce75bfaba62df0421084d23bb6a72f Merge tag 'soc-drivers-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-4df9c0a2465a523e399e46a8d3b5866c769b381b Merge tag 'soc-newsoc-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-4c10d2221122a62f7c181f0c433bc43bfd6f5d3d Merge tag 'soc-defconfig-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-0919a5b3b11c699d23bc528df5709f2e3213f6a9 Merge tag 'soc-arm-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-0ae982df67760cd08affa935c0fe86c8a9311797 Merge tag 'i2c-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-fc8f5028eb0cc5aee0501a99f59a04f748fbff1c Merge tag 'pmdomain-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-71753c6ed2bf2aee5be26c1bc06a94c9e3713ade unwind_user: Add user space unwinding API with frame pointer support
-5e32d0f15cc5c843a4115c4644d984d42524c794 unwind_user/deferred: Add unwind_user_faultable()
-854ff7923753009189a9e1f80d23ae9d407c2fb2 Merge tag 'mmc-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-6443cdf567a900e03afe1d66fb8bcc7dad0835d0 ring-buffer: Make the const read-only 'type' static
-22c5696e3fe029f4fc2decbe7cc6663b5d281223 Merge tag 'driver-core-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
-6f46e6fb4e267acf8741cb2c29d368b4de7b6c15 Merge tag 'linux_kselftest-kunit-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-0db240bc077fd16cc16bcecfd7f4645bc474aa7e Merge tag 'linux_kselftest-next-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-5623870d9b4f1b9bd4a8b75544f2f9ed2a49afff Merge tag 'irq-msi-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-dba3ec9f2ad085f05528ccd36d6835b06b5370cd Merge tag 'irq-core-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b34111a89f3c78baf12546bd4bc77a15dccc19c7 Merge tag 'smp-core-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0b29600a304c0c5da17ce1a7fab7cafb0eaf71f5 Merge tag 'irq-drivers-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-99e731bcb8e6dd197aa4ab587887a3f670d12b72 Merge tag 'timers-cleanups-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d614399b281abf3980cc9b340a5066e9f4020b5d Merge tag 'timers-core-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-02dc9d15d7784afb42ffde0ae3d8156dd09c2ff7 Merge tag 'timers-ptp-2025-07-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f38b1f243ec3babea9d8d9c6240249589853aca2 Merge tag 'locking-futex-2025-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a0482e3446cea426bf16571e0000423ed5b25af0 Merge tag 'timers-vdso-2025-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-78bb43e51b94828b333ab296eabf893d5b439fc2 Merge tag 'core-entry-2025-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f7887ee4ee2b1fa2a538db4dbf3cec26538f317a Merge branches 'clk-bindings', 'clk-cleanup', 'clk-pwm', 'clk-hw-device', 'clk-xilinx' and 'clk-adi' into clk-next
-e3abdd1870b7dcccf3447a78037217b95929587d Merge branches 'clk-renesas', 'clk-samsung', 'clk-spacemit', 'clk-allwinner' and 'clk-amlogic' into clk-next
 c30cc9ffc1491f049f1bffb8bac4ef3f553767d2 Merge branches 'clk-rockchip', 'clk-thead', 'clk-microchip', 'clk-imx' and 'clk-qcom' into clk-next
 3cf186ecc164e19aa47450d412b2aa2f19559f9a Merge branch 'clk-pm' into clk-next
 ffdd20555cc6fcb15e8a57d442c458034d169c7b i2c: stm32f7: support i2c_*_dma_safe_msg_buf APIs
@@ -1026,18 +997,29 @@ c345102d1feed3de8aa9b9ec7d18b3fbba62deb7 ALSA: hda/tas2781: Normalize the volume
 94eae6ee4c2df2031bca586405e9ec36e0b9ccf8 drm/xe/pf: Set VF LMEM BAR size
 c28d28a7b005dd6459a6059dc7eff684bf0b7464 Merge tag 'pm-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 24ea63ea387714634813359e2c8e0e6c36952f73 Merge tag 'acpi-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+ffc23a204a5f2e763a8cc8a8cfefe0027a6f0ec3 drm: Add MIPI read_multi func and two write macros
+5fbc0dbb92d639d10a5386ad0ae87a54680a04be drm/panel: novatek-nt35560: Clean up driver
 4699c04b68ed5c30ca3b4439458dae9f1acf6cfb Merge tag 'drm-intel-fixes-2025-08-13' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 00062ea01d35eaca34d561e5c76cd988dc8c3b83 Merge tag 'drm-xe-fixes-2025-08-14' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 d7ee5bdce7892643409dea7266c34977e651b479 Merge tag 'firewire-fixes-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+94332524b5ccf9cfcb3c6184f1b9d6be65c6aad6 drm/panthor: Add panthor_hw and move gpu_info initialization into it
+c012663b178c4e6fb0179c2816fb0a270f080b59 drm/panthor: Simplify getting the GPU model name
+2c0d0a81c0ad5a7271177b016014360c331ad62c drm/panthor: Add support for Mali-G710, Mali-G510 and Mali-G310
+3b1dc21d6d800cb86c1ef0c97968f5c783343f2b drm/panthor: Add support for Mali-Gx15 family of GPUs
+e322a4844811b54477b7072eb40dc9e402a1725d drm/panthor: Serialize GPU cache flush operations
+dd11c7dec74b0e125b75def169a53f3c86f35d6d drm/panthor: Make MMU cache maintenance use FLUSH_CACHES command
+f9c67b019bc3c0324ee42c0dbfbb2d55726d751e drm/panthor: Add support for Mali-Gx20 and Mali-Gx25 GPUs
 55ddcff7358aa7cb20ff71fd2ec3131133b1fc3d Merge tag '6.17-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 66ba63d4d87bb3b1c3b5f0f09610c4c16748bbf0 Merge tag 'pmdomain-v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 7bb7780e3c845009d37f61e3a8a29c0f962a4806 Merge tag 'gpio-fixes-for-v6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 8d084337a32fde0ffa59d5f70d07a54987911ba1 Merge tag 'sound-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+646dc268ec25810e7d6aebef1a58ad837b4378d5 drm/panfrost: Remove redundant pm_runtime_mark_last_busy() calls
 4ad976b0e8ea3247c607cd37abb09440806f898d Merge tag 'io_uring-6.17-20250815' of git://git.kernel.dk/linux
 c08ba63078dd6046c279df37795cb77e784e1ec9 virt: sev-guest: Satisfy linear mapping requirement in get_derived_key()
 3ee9cebd0a5e7ea47eb35cec95eaa1a866af982d x86/sev: Ensure SVSM reserved fields in a page validation entry are initialized to zero
 ed6c4b657bca3b39f7b11cba1405931aeb490f3d x86/cpuid: Remove transitional <asm/cpuid.h> header
 ee94b00c1a648530333d9734200be7a45e6e00cd Merge tag 'block-6.17-20250815' of git://git.kernel.dk/linux
+cb640b2ca54617f4a9d4d6efd5ff2afd6be11f19 drm/bridge: display-connector: don't set OP_DETECT for DisplayPorts
 d0efc9e4276cda07c2f76652d240b165c30b05b8 Merge tag 'xfs-fixes-6.17-rc2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dfd4b508c8c6106083698a0dd5e35aecc7c48725 Merge tag 'drm-fixes-2025-08-16' of https://gitlab.freedesktop.org/drm/kernel
 c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -1046,9 +1028,27 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 0a9ee9ce49a66bfdf12e34130b45fafe170dfc84 Merge tag 'locking_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
+c8cea4371e5eca30cda8660aabb337747dabc51d accel/amdxdna: Add a function to walk hardware contexts
 dd489c01c3971778c417630f328460021fc8fc61 Merge tag 'drm-misc-next-2025-08-14' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
-c5312e13d4abd9e22a1bf7d59be118c476958bd9 dt-bindings: display: samsung,exynos7-decon: document iommus, memory-region, and ports
-5d2c70dcb3cbe70939bde8c61b806e1aaff74383 drm/exynos: exynos7_drm_decon: remove ctx->suspended
-d07e4c00696f53510ec8a23dcba0c4ac87840874 drm/exynos: dsi: add support for exynos7870
+f1f2a22b8683d7ac38821d4508d4549a2f0c0a0a rust: drm: update ARef and AlwaysRefCounted imports from sync::aref
+000a45dce7adc13e45b2925b383e39f32e5f3004 drm/gpuvm: Pass map arguments through a struct
+3309323241fbb3c1da885e6b84bdf95e9708e4bb drm/gpuvm: Kill drm_gpuva_init()
+baf1638c095686ad970aecee4ca9446c1de18dad drm/gpuvm: Introduce drm_gpuvm_madvise_ops_create
+dab74906423c5a0e41dfd4cefc3758d351ccc51e drm/gpusvm: Make drm_gpusvm_for_each_* macros public
+1e17ed83261ee7aa80c488461ed0f4e7a4f82660 Merge drm/drm-next into drm-misc-next
+38580d1e7f18230b10e8ba6d9a44a9fcc532f47f drm/virtio: clean up minor codestyle issues
+2f44bb65f28f5f058fe4ab9bc81e5fde5575c473 drm/panel: panel-samsung-s6e88a0-ams427ap24: Fix includes
+1456e8cb6bbfb02071693267c908a50a8640edf4 drm/bridge: samsung-dsim: support separate LINK and DPHY status registers
+4f2ea8ae74e4624aca276a377c7bf77f65230075 drm/bridge: samsung-dsim: add SFRCTRL register
+06721bd690521e9a179db6b65dbc9f777419ebcc drm/bridge: samsung-dsim: add flag to control header FIFO wait
+62ebfbcd4cab584348efa0c80301c0b4649e2ae7 drm/bridge: samsung-dsim: allow configuring bits and offsets of CLKCTRL register
+f4d73d3d3285e20a7a23eef6b203013a29c3e454 drm/bridge: samsung-dsim: allow configuring the MAIN_VSA offset
+49bbfa3922147ad7d625257f1c58b8fd88264a47 drm/bridge: samsung-dsim: allow configuring the VIDEO_MODE bit
+d27502870e5296aae9beeda9649aaaf092c5969d drm/bridge: samsung-dsim: allow configuring PLL_M and PLL_S offsets
+0ec14f153108291875baebe4317c5ccb14ae17d2 drm/bridge: samsung-dsim: allow configuring the PLL_STABLE bit
+40bca91a35b546eca926a86374b7341a2e74b2db drm/bridge: samsung-dsim: increase timeout value for PLL_STABLE
+090a365e927ea943cd473cb0e7f263d1c4c9ea7a drm/bridge: samsung-dsim: add ability to define clock names for every variant
+26ed8eec685cc4f020191cc5e5b3306ab4559d38 dt-bindings: samsung,mipi-dsim: document exynos7870 DSIM compatible
+bcd0d93e902e54e6b404b574b3a6b23315bcea8d drm/bridge: samsung-dsim: add driver support for exynos7870 DSIM bridge
 
---===============5879570730956882797==--
+--===============1887828977802547511==--
