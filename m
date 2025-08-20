@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 20 Aug 2025 08:35:49 -0000
-Message-Id: <175567894984.3336548.14244052097878809487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 20 Aug 2025 08:37:24 -0000
+Message-Id: <175567904439.3340793.7968747047150876522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: e88ef677623eaf7a4c30b5fe905e7138838d13d2
-    new: b5af45302ebc141662b2b60c713c9202e88c943c
+  - ref: refs/heads/next
+    old: 053d514e0110661b21988c8c9dc5cb64a51db820
+    new: fe6738f4b46b63dcdc5b15b252a014b3eaba16a4
     log: |
-         fa40cbe1c86b6626d548cf2eb555bee4eea7566c cpufreq: dt-platdev: Blacklist ti,am62d2 SoC
-         b5af45302ebc141662b2b60c713c9202e88c943c cpufreq: ti: Add support for AM62D2
+         fe6738f4b46b63dcdc5b15b252a014b3eaba16a4 btf_encoder: Fix elf_functions cleanup on error
          
