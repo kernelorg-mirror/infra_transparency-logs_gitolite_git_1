@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7424901660124973102=="
+Content-Type: multipart/mixed; boundary="===============7643684095327754191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 20 Aug 2025 09:09:56 -0000
-Message-Id: <175568099633.3430339.16724040220573815794@gitolite.kernel.org>
+Date: Wed, 20 Aug 2025 09:11:59 -0000
+Message-Id: <175568111912.3437241.18070860958879422594@gitolite.kernel.org>
 
---===============7424901660124973102==
+--===============7643684095327754191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: af54a3a151691a969b04396cff15afe70d4da824
-    new: 35a813e010b99894bb4706c56c16a580bf7959c2
-    log: revlist-af54a3a15169-35a813e010b9.txt
-  - ref: refs/tags/v6.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e76fe965a0365e346cdaaf462847bac748354ab2
+  - ref: refs/heads/for-next
+    old: dcc3191a3dde4027ac3a995d852b957e398cf6cc
+    new: 8990f1983843bd559f6da939107c18d355d0edba
+    log: revlist-dcc3191a3dde-8990f1983843.txt
 
---===============7424901660124973102==
+--===============7643684095327754191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af54a3a15169-35a813e010b9.txt
+Content-Disposition: attachment; filename=revlist-dcc3191a3dde-8990f1983843.txt
 
-853a7a63f8e955f7409f76534d6b7e2a1ea9cbde Merge tag 'thead-clk-for-v6.17-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/fustini/linux into clk-thead
 f54b69a57a77c301a1013a22257357d9294a1fdc spi: sophgo: Add SPI NOR controller for SG2042
 30fb5e134f05800dc424f8aa1d69841a6bdd9a54 selftests/pidfd: Fix duplicate-symbol warnings for SCHED_ CPP symbols
 a16f19d2e81367b8ab497c67d9dc3419e4b59fee clk: imx: composite-8m: remove round_rate() in favor of determine_rate()
@@ -1053,5 +1049,6 @@ d2eedaa3909be9102d648a4a0a50ccf64f96c54f Merge tag 'rtc-6.17' of git://git.kerne
 d632ab86aff2cef21f794e337a8e7f2320ac3973 Merge tag 'for-6.17/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 99b773d720aeea1ef2170dce5fcfa80649e26b78 sched/psi: Fix psi_seq initialization
 35a813e010b99894bb4706c56c16a580bf7959c2 Merge tag 'printk-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+8990f1983843bd559f6da939107c18d355d0edba Merge branch 'rework/ringbuffer-kunit-test' into for-next
 
---===============7424901660124973102==--
+--===============7643684095327754191==--
