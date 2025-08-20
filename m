@@ -1,84 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============5715608843947378719=="
+Content-Type: multipart/mixed; boundary="===============3171497576665266363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 20 Aug 2025 08:48:37 -0000
-Message-Id: <175567971730.3370430.5937309275651158290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 20 Aug 2025 08:55:45 -0000
+Message-Id: <175568014555.3391655.1339708509921082188@gitolite.kernel.org>
 
---===============5715608843947378719==
+--===============3171497576665266363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 4d2604833e8ea79e77de98aa97a94b94a9733962
-    new: 8a61a53b07f23ff12330086b293b6b492d35b8a0
-    log: revlist-4d2604833e8e-8a61a53b07f2.txt
+  - ref: refs/heads/fixes-test
+    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
+    new: 8763d2257f5231cfdfd8a53594647927dbf8bb06
+    log: |
+         02c1b0824eb1873b15676257cf1dc80070927e1e KVM: PPC: Fix misleading interrupts comment in kvmppc_prepare_to_enter()
+         b018bb26c42049e05d3d65b057cc1250d17d9b0a powerpc: Use dev_fwnode()
+         8b5d86a63bc9510e094a15d7268c60bd4347b95c powerpc/64: Drop unnecessary 'rc' variable
+         eb59d4c5948d93e940b5dde9d1bf3b33367fbcb8 powerpc: use always-y instead of extra-y in Makefiles
+         6a859f1a19d1f8756ffb097f5973dfebbca4811a powerpc: unify two CONFIG_POWERPC64_CPU entries in the same choice block
+         88688a2c8ac6c8036d983ad8b34ce191c46a10aa powerpc/kvm: Fix ifdef to remove build warning
+         d40ae9033418095642f65f4fd54dc5a7d292ee39 powerpc/prom_init: Fix shellcheck warnings
+         8763d2257f5231cfdfd8a53594647927dbf8bb06 powerpc/boot/install.sh: Fix shellcheck warnings
+         
 
---===============5715608843947378719==
+--===============3171497576665266363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755679763 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1755679716-687572ecde1ee7b2b589b7cba93abda8fb336aec
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1755680186 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1755680138-1ebd6f8d7ac7f5ac663d131e98d8b3fa8fdbaca2
 
-4d2604833e8ea79e77de98aa97a94b94a9733962 8a61a53b07f23ff12330086b293b6b492d35b8a0 refs/heads/char-misc-next
+c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 8763d2257f5231cfdfd8a53594647927dbf8bb06 refs/heads/fixes-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiljBQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++XAQAMX5wS5tEW59iZ5XUxix
-mwR6QUONJRCeKMxozv1ik9lJLukuxmwbdhUAiM+29U1nENfFOdRA9qWo6JPbYTLL
-GPYFtK2SP0nTsQ5H6bsgPhp9vrUs4iT4VgJtWe8pq6ms0tJWGYxlgARtTbI2P6GJ
-TkKU9uhaxmDeYrBrl9pbsuMRzbrQI27u3biM3rmPeZLZpsDZn41/KFhQNOS5xxx9
-+q9xzPNSUg2ZeFG5LgdhfaEErNHuk8ClK6JwMYIfSycH7Y7wRyVV3SD7XKr0K7x9
-uMYwOfIyfEPsUBwMr4vVVEzfGNR+o1Cw2jkZob1oz3dpwp5WTrN+ia48/aHVzsMY
-ETgVyZw2qUa7Bg2axJXgpYylBrP8g6qvjzJpeU+czONbYDeVFxHpPeNBCuJ0hiG+
-Z0lWWcFw4qR6rle6gBj/yECbr70noxT2dF4IycFEehOUPLhAlwUycVEymm3S6p6D
-TkRdIJc3tNpZE3ZJ2Dh2Nhv+yVbgsAKfJM6B5ym1Oe2Ohj4zAr3DWki3xt8bIDhu
-U9IBdmrR5tQGsdE4oelV3Ult6aC/tukQs3RHDNT4qoHDHfwC1r01coLjzdgZYxAS
-Nkvm74O/UJRm8xGE/QfjptVBdRXPLHCCf25xZvw7QhHTH185JYZK1L7m+lQqdFqF
-a6VEPfH8qUYCUH/i65o1iX+4
-=ZMut
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmiljboACgkQpnEsdPSH
+ZJQERQ//WSa0ka34EogAu+p99u2HpSm8IGa7JAJFLyYGs6ysVNDFgW3ztf64bOAt
+1TXCkEU5FSF4cQ3/3s+5YvbXt9Y6BwgXlWkNmJDvtJtbUbIeacdzAIK3aNujWViT
+Wu5Rzk9xsQbRBG/ugGKqeVsZw7e+e3+RXx05e5tWai5Lu36Eq5SGreDkvNenJ0/b
+YslEoVZxpyirXaC8O58rxVKq0JlqrQcdv652t0w4j/5ZFxxZndWfQC7GpgtpBA+a
+YvirO2fPyfFfcF9tvGr+4mBIfobEwii27vcEhjAvr9HflsBvhmzx4RkDk3bP2kJO
+ZHI9vvvhlmyjLUvBxlrqyqFjlXUUgRJKLBNmrW8B7DLp40fMs7KlmR04P6Pn4teh
+dKVxBm5XXRevZk/l4nI3cMUdTkmY6HazEGvUUa6lZBdIcKFnjdFcSRED7T/dnBFW
+hzZCX6dB1Pptk3GyQqAE6cfHU2eDKvPqiH10G/32eW33KZyJ9tT6BgcuH9OzQOus
+pig4hFRR+pbCw8dkfyKBVmlKD0bXsyzRs/aieZ9clKg2RznHSxWdHwsSuxaRleBu
+KI2sZFdhk7VrNXtZ9ClGoStohPCqcaQDblgXO1zJyNdHYTPRKIGinFJ4/guX2Bdr
+oIVNOfP9bEMg036ceVzjNdIB/LtSZB5RNKrp0iG5eMf49+spPjI=
+=1Fvf
 -----END PGP SIGNATURE-----
 
---===============5715608843947378719==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d2604833e8e-8a61a53b07f2.txt
-
-6e6fe5a99048c020594d815a1c0f8ad183073e66 misc: Fix spelling mistake "STMicroeletronics" -> "STMicroelectronics"
-807221d3c5ff6e3c91ff57bc82a0b7a541462e20 misc: rtsx_pci: Add separate CD/WP pin polarity reversal support
-82bfe76853762a7d2b7d699da0e5dbd094f8f998 misc: apds990x: Drop superfluous return statement
-89fb7d737f9a3467406c9729609319a8d633e97a misc: hisi_hikey_usb: Use str_enabled_disabled() in hub_power_ctrl()
-9e57dbcbde250acab44205ee4cc897c4a87c56d9 rust: miscdevice: update ARef import to sync::aref
-8ac646d6dfbf8e42bdb31b71e03a7984557ab1b1 char: misc: Move drivers/misc/misc_minor_kunit.c to drivers/char/
-f4e47affdb2edb99834dfd03f5ea8a899bbb98f0 char: misc: Adapt and add test cases for simple minor space division
-f5597840ac907858ad2a462b00e4a68fd199121e char: misc: Disallow registering miscdevice whose minor > MISC_DYNAMIC_MINOR
-2334668aaf410382412b8c81f7014283f3e80354 char: misc: Add a case to test registering miscdevice again without reinitialization
-52e2bb5ff089d65e2c7d982fe2826dc88e473d50 char: misc: Make misc_register() reentry for miscdevice who wants dynamic minor
-1ba0fb42aa6a5f072b1b8c0b0520b32ad4ef4b45 char: misc: Does not request module for miscdevice with dynamic minor
-d7f8d0758b975db8406c91cf242d46cd9611ba3e char: misc: Register fixed minor EISA_EEPROM_MINOR in linux/miscdevice.h
-51ad6d97151c88976a93cdc023d6cd27dce48c38 sparc: kernel: apc: Remove macro APC_MINOR definition
-0e805e8b007d42502dbb7b883cae4794890a40ff greybus: svc: use string choice helpers instead of ternary operator
-c585a4ad322c9aa64263aeb8004a523d0151b1c3 hpet: Use str_plural() to simplify the code
-46b4ddd2c4951c073a16bbf271221240fe2584e5 dt-bindings: eeprom: Add ST M24LR support
-cd5c5e0231c538a5d2d4a73f3b3ffc77ff08449c eeprom: add driver for ST M24LR series RFID/NFC EEPROM chips
-bb7aa579efd68c905159b03b255d1437f9f4201b ABI: sysfs: add documentation for ST M24LR EEPROM and control interface
-4afc5bf0a1849f0ed3ea1d9fd9d0e79b23a67f96 binder: pre-allocate binder_transaction
-5cd0645b43c7edf55518272a6c69230a5c631729 binder: add t->is_async and t->is_reply
-63740349eba78f242bcbf60d5244d7f2b2600853 binder: introduce transaction reports via netlink
-f37b55ded8ed35424ebb91a4d012527071e1f601 binder: add transaction_report feature entry
-8a61a53b07f23ff12330086b293b6b492d35b8a0 binder: add tracepoint for netlink reports
-
---===============5715608843947378719==--
+--===============3171497576665266363==--
