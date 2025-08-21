@@ -1,169 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============3597157637463888876=="
+Content-Type: multipart/mixed; boundary="===============6498109504850333657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/libfuse
-Date: Thu, 21 Aug 2025 00:43:49 -0000
-Message-Id: <175573702944.1192257.5417535813947198763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 21 Aug 2025 00:49:16 -0000
+Message-Id: <175573735655.1197531.3519014280902340824@gitolite.kernel.org>
 
---===============3597157637463888876==
+--===============6498109504850333657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/libfuse
-user: djwong
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/fuse-iomap
-    old: 0c268a2839bb1bce19a0b93f7da8775e352e8bce
-    new: 31a3192e727972c70258a67b58ca733e6b6f403c
-    log: revlist-0c268a2839bb-31a3192e7279.txt
-  - ref: refs/heads/fuse-iomap-attrs
-    old: c01ab84cd5c0137ee62b0539babc34a9feba4207
-    new: 2fce88bf3674cf1df9c7bc938a4f6bb7da91f41e
-    log: revlist-c01ab84cd5c0-2fce88bf3674.txt
-  - ref: refs/heads/fuse-iomap-cache
-    old: 4860072601f6ab4208ae8fe88abc8fcabb3b0768
-    new: 5b52f1e011b83e432bad48b83424b3c5644f586c
-    log: revlist-4860072601f6-5b52f1e011b8.txt
-  - ref: refs/tags/fuse-fixes_2025-08-20
-    old: 9b1b28edc825198cd8efb0529925fe4f53c6beff
-    new: 5bf074bae56f9d0281f79109c45fce742de8406a
-  - ref: refs/tags/fuse-iomap-attrs_2025-08-20
-    old: faabb6628870633a962fe3022ed6594c83423c3d
-    new: 0f922461d5d97e08b3c642be0aeeb5ea0edbd056
-    log: revlist-faabb6628870-0f922461d5d9.txt
-  - ref: refs/tags/fuse-iomap-cache_2025-08-20
-    old: 0a46e4a843ab00e949509e6c31962ede33c9d913
-    new: d27e8a008b1b12a2072afd9637365933714528a1
-    log: revlist-0a46e4a843ab-d27e8a008b1b.txt
-  - ref: refs/tags/fuse-iomap_2025-08-20
-    old: 3453a21744ca4734a1c36058ec99e9d166f13438
-    new: 9b85b8a56d106b66437c2f3fda379f0692b8f22a
-    log: revlist-3453a21744ca-9b85b8a56d10.txt
-  - ref: refs/tags/origin/master_2025-08-20
-    old: 8783f46eb7cfc7ed927a5a51610c9b28169570f5
-    new: 70afcf5b51f327b0fe109fa2e7f57bdffbe51abf
+  - ref: refs/heads/for-next
+    old: 759be0b151f4c575218ef1e174066054887aae9c
+    new: 8f550a001154d891ffab5a476c8b61033b3167bd
+    log: revlist-759be0b151f4-8f550a001154.txt
+  - ref: refs/heads/io_uring-6.17
+    old: 74ab9a77cddd3cd6f13a698e755c07330822dbb2
+    new: 9d83e1f05c98bab5de350bef89177e2be8b34db0
+  - ref: refs/heads/io_uring-buf-list
+    old: 74c6fb2ccf253e100c06d70e76c27487dc283d08
+    new: bdca16834c2de50697235af7cc428f2a88e63779
+    log: revlist-74c6fb2ccf25-bdca16834c2d.txt
 
---===============3597157637463888876==
+--===============6498109504850333657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c268a2839bb-31a3192e7279.txt
+Content-Disposition: attachment; filename=revlist-759be0b151f4-8f550a001154.txt
 
-1002e9a208a07948e03ee51427de7d47d874da9a libfuse: support direct I/O through iomap
-86c1312b7d95ced57a260d745d30d70a4cb910f6 libfuse: support buffered I/O through iomap
-be63dd49e47b7ff372e3d1ffeb0d09e5764e9f4a libfuse: don't allow hardlinking of iomap files in the upper level fuse library
-fa1c539e98a155fa159ff59291d95d00c18b20ae libfuse: allow discovery of the kernel's iomap capabilities
-4cb74a10c51895dc18107c0893163efb921286fb libfuse: add lower level iomap_config implementation
-b1780721f4ccb55d4143b7e1912554a502a1f2d8 libfuse: add upper level iomap_config implementation
-f61a2fcc2502292e43e4666acb65cef1f608b1fa libfuse: allow root_nodeid mount option
-4104c2ec358aeefe81414cdae236d40cccb1544a libfuse: add low level code to invalidate iomap block device ranges
-0318d5deaa928a67db2fa7082000c7d270576cab libfuse: add upper-level API to invalidate parts of an iomap block device
-c3beab21c69b80248d452b79d3487d5a75050341 libfuse: add strictatime/lazytime mount options
-31a3192e727972c70258a67b58ca733e6b6f403c libfuse: add atomic write support
+3592de539378eef0120e0720a8ecd8dfc96a5d9f Merge branch 'for-6.18/io_uring' into io_uring-buf-list
+23c9bc76bf121c9de0c5679db9bab9cc3db20295 io_uring/kbuf: drop 'issue_flags' from io_put_kbuf(s)() arguments
+19abc8f8f36e9ac0f7c084028231f6cf4cfeb631 io_uring/net: don't use io_net_kbuf_recyle() for non-provided cases
+eacfd8f5479b7b96cea2eaa23be0cb0114be4168 io_uring/net: clarify io_recv_buf_select() return value
+415f0fc31fb7492cff887596d26bf6a6b93dcc9a io_uring/kbuf: pass in struct io_buffer_list to commit/recycle helpers
+49339e82bf7faa8b5e3d12e5cfaf70de2ec5fc88 io_uring/kbuf: introduce struct io_br_sel
+beb02ab2ee352ed0bb65c8eedc6eee72d90f0139 io_uring/rw: recycle buffers manually for non-mshot reads
+5f97a4411289a6a9ed0de7ac1cabe55ea4c9b48a io_uring/kbuf: use struct io_br_sel for multiple buffers picking
+1a177afe9339d8d2204b635cd650a46a77bcccd0 io_uring/net: use struct io_br_sel->val as the recv finish value
+cb95450b2927365ad6ed4f0fee54f870ed72be6c io_uring/net: use struct io_br_sel->val as the send finish value
+31771f6ca8f69c23a2e5ccfc6f61cea24deef842 io_uring/kbuf: switch to storing struct io_buffer_list locally
+bdca16834c2de50697235af7cc428f2a88e63779 io_uring: remove async/poll related provided buffer recycles
+71b7e580a3876a1967dedee94ade1cef6a2a9a25 Merge branch 'block-6.17' into for-next
+f4eaf2c3651c2bb05499455ace2aa0d5b2618cd6 Merge branch 'for-6.18/io_uring' into for-next
+8f550a001154d891ffab5a476c8b61033b3167bd Merge branch 'io_uring-buf-list' into for-next
 
---===============3597157637463888876==
+--===============6498109504850333657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c01ab84cd5c0-2fce88bf3674.txt
+Content-Disposition: attachment; filename=revlist-74c6fb2ccf25-bdca16834c2d.txt
 
-1002e9a208a07948e03ee51427de7d47d874da9a libfuse: support direct I/O through iomap
-86c1312b7d95ced57a260d745d30d70a4cb910f6 libfuse: support buffered I/O through iomap
-be63dd49e47b7ff372e3d1ffeb0d09e5764e9f4a libfuse: don't allow hardlinking of iomap files in the upper level fuse library
-fa1c539e98a155fa159ff59291d95d00c18b20ae libfuse: allow discovery of the kernel's iomap capabilities
-4cb74a10c51895dc18107c0893163efb921286fb libfuse: add lower level iomap_config implementation
-b1780721f4ccb55d4143b7e1912554a502a1f2d8 libfuse: add upper level iomap_config implementation
-f61a2fcc2502292e43e4666acb65cef1f608b1fa libfuse: allow root_nodeid mount option
-4104c2ec358aeefe81414cdae236d40cccb1544a libfuse: add low level code to invalidate iomap block device ranges
-0318d5deaa928a67db2fa7082000c7d270576cab libfuse: add upper-level API to invalidate parts of an iomap block device
-c3beab21c69b80248d452b79d3487d5a75050341 libfuse: add strictatime/lazytime mount options
-31a3192e727972c70258a67b58ca733e6b6f403c libfuse: add atomic write support
-9b5c8472c01e7f7fd775dba574edabf91b6bef52 libfuse: enable iomap cache management for lowlevel fuse
-5b52f1e011b83e432bad48b83424b3c5644f586c libfuse: add upper-level iomap cache management
-04619ef9444012eb44c72a82f1c34c485e042890 libfuse: wire up FUSE_SYNCFS to the low level library
-2fce88bf3674cf1df9c7bc938a4f6bb7da91f41e libfuse: add syncfs support to the upper library
+3592de539378eef0120e0720a8ecd8dfc96a5d9f Merge branch 'for-6.18/io_uring' into io_uring-buf-list
+23c9bc76bf121c9de0c5679db9bab9cc3db20295 io_uring/kbuf: drop 'issue_flags' from io_put_kbuf(s)() arguments
+19abc8f8f36e9ac0f7c084028231f6cf4cfeb631 io_uring/net: don't use io_net_kbuf_recyle() for non-provided cases
+eacfd8f5479b7b96cea2eaa23be0cb0114be4168 io_uring/net: clarify io_recv_buf_select() return value
+415f0fc31fb7492cff887596d26bf6a6b93dcc9a io_uring/kbuf: pass in struct io_buffer_list to commit/recycle helpers
+49339e82bf7faa8b5e3d12e5cfaf70de2ec5fc88 io_uring/kbuf: introduce struct io_br_sel
+beb02ab2ee352ed0bb65c8eedc6eee72d90f0139 io_uring/rw: recycle buffers manually for non-mshot reads
+5f97a4411289a6a9ed0de7ac1cabe55ea4c9b48a io_uring/kbuf: use struct io_br_sel for multiple buffers picking
+1a177afe9339d8d2204b635cd650a46a77bcccd0 io_uring/net: use struct io_br_sel->val as the recv finish value
+cb95450b2927365ad6ed4f0fee54f870ed72be6c io_uring/net: use struct io_br_sel->val as the send finish value
+31771f6ca8f69c23a2e5ccfc6f61cea24deef842 io_uring/kbuf: switch to storing struct io_buffer_list locally
+bdca16834c2de50697235af7cc428f2a88e63779 io_uring: remove async/poll related provided buffer recycles
 
---===============3597157637463888876==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4860072601f6-5b52f1e011b8.txt
-
-1002e9a208a07948e03ee51427de7d47d874da9a libfuse: support direct I/O through iomap
-86c1312b7d95ced57a260d745d30d70a4cb910f6 libfuse: support buffered I/O through iomap
-be63dd49e47b7ff372e3d1ffeb0d09e5764e9f4a libfuse: don't allow hardlinking of iomap files in the upper level fuse library
-fa1c539e98a155fa159ff59291d95d00c18b20ae libfuse: allow discovery of the kernel's iomap capabilities
-4cb74a10c51895dc18107c0893163efb921286fb libfuse: add lower level iomap_config implementation
-b1780721f4ccb55d4143b7e1912554a502a1f2d8 libfuse: add upper level iomap_config implementation
-f61a2fcc2502292e43e4666acb65cef1f608b1fa libfuse: allow root_nodeid mount option
-4104c2ec358aeefe81414cdae236d40cccb1544a libfuse: add low level code to invalidate iomap block device ranges
-0318d5deaa928a67db2fa7082000c7d270576cab libfuse: add upper-level API to invalidate parts of an iomap block device
-c3beab21c69b80248d452b79d3487d5a75050341 libfuse: add strictatime/lazytime mount options
-31a3192e727972c70258a67b58ca733e6b6f403c libfuse: add atomic write support
-9b5c8472c01e7f7fd775dba574edabf91b6bef52 libfuse: enable iomap cache management for lowlevel fuse
-5b52f1e011b83e432bad48b83424b3c5644f586c libfuse: add upper-level iomap cache management
-
---===============3597157637463888876==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-faabb6628870-0f922461d5d9.txt
-
-1002e9a208a07948e03ee51427de7d47d874da9a libfuse: support direct I/O through iomap
-86c1312b7d95ced57a260d745d30d70a4cb910f6 libfuse: support buffered I/O through iomap
-be63dd49e47b7ff372e3d1ffeb0d09e5764e9f4a libfuse: don't allow hardlinking of iomap files in the upper level fuse library
-fa1c539e98a155fa159ff59291d95d00c18b20ae libfuse: allow discovery of the kernel's iomap capabilities
-4cb74a10c51895dc18107c0893163efb921286fb libfuse: add lower level iomap_config implementation
-b1780721f4ccb55d4143b7e1912554a502a1f2d8 libfuse: add upper level iomap_config implementation
-f61a2fcc2502292e43e4666acb65cef1f608b1fa libfuse: allow root_nodeid mount option
-4104c2ec358aeefe81414cdae236d40cccb1544a libfuse: add low level code to invalidate iomap block device ranges
-0318d5deaa928a67db2fa7082000c7d270576cab libfuse: add upper-level API to invalidate parts of an iomap block device
-c3beab21c69b80248d452b79d3487d5a75050341 libfuse: add strictatime/lazytime mount options
-31a3192e727972c70258a67b58ca733e6b6f403c libfuse: add atomic write support
-9b5c8472c01e7f7fd775dba574edabf91b6bef52 libfuse: enable iomap cache management for lowlevel fuse
-5b52f1e011b83e432bad48b83424b3c5644f586c libfuse: add upper-level iomap cache management
-04619ef9444012eb44c72a82f1c34c485e042890 libfuse: wire up FUSE_SYNCFS to the low level library
-2fce88bf3674cf1df9c7bc938a4f6bb7da91f41e libfuse: add syncfs support to the upper library
-
---===============3597157637463888876==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a46e4a843ab-d27e8a008b1b.txt
-
-1002e9a208a07948e03ee51427de7d47d874da9a libfuse: support direct I/O through iomap
-86c1312b7d95ced57a260d745d30d70a4cb910f6 libfuse: support buffered I/O through iomap
-be63dd49e47b7ff372e3d1ffeb0d09e5764e9f4a libfuse: don't allow hardlinking of iomap files in the upper level fuse library
-fa1c539e98a155fa159ff59291d95d00c18b20ae libfuse: allow discovery of the kernel's iomap capabilities
-4cb74a10c51895dc18107c0893163efb921286fb libfuse: add lower level iomap_config implementation
-b1780721f4ccb55d4143b7e1912554a502a1f2d8 libfuse: add upper level iomap_config implementation
-f61a2fcc2502292e43e4666acb65cef1f608b1fa libfuse: allow root_nodeid mount option
-4104c2ec358aeefe81414cdae236d40cccb1544a libfuse: add low level code to invalidate iomap block device ranges
-0318d5deaa928a67db2fa7082000c7d270576cab libfuse: add upper-level API to invalidate parts of an iomap block device
-c3beab21c69b80248d452b79d3487d5a75050341 libfuse: add strictatime/lazytime mount options
-31a3192e727972c70258a67b58ca733e6b6f403c libfuse: add atomic write support
-9b5c8472c01e7f7fd775dba574edabf91b6bef52 libfuse: enable iomap cache management for lowlevel fuse
-5b52f1e011b83e432bad48b83424b3c5644f586c libfuse: add upper-level iomap cache management
-
---===============3597157637463888876==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3453a21744ca-9b85b8a56d10.txt
-
-1002e9a208a07948e03ee51427de7d47d874da9a libfuse: support direct I/O through iomap
-86c1312b7d95ced57a260d745d30d70a4cb910f6 libfuse: support buffered I/O through iomap
-be63dd49e47b7ff372e3d1ffeb0d09e5764e9f4a libfuse: don't allow hardlinking of iomap files in the upper level fuse library
-fa1c539e98a155fa159ff59291d95d00c18b20ae libfuse: allow discovery of the kernel's iomap capabilities
-4cb74a10c51895dc18107c0893163efb921286fb libfuse: add lower level iomap_config implementation
-b1780721f4ccb55d4143b7e1912554a502a1f2d8 libfuse: add upper level iomap_config implementation
-f61a2fcc2502292e43e4666acb65cef1f608b1fa libfuse: allow root_nodeid mount option
-4104c2ec358aeefe81414cdae236d40cccb1544a libfuse: add low level code to invalidate iomap block device ranges
-0318d5deaa928a67db2fa7082000c7d270576cab libfuse: add upper-level API to invalidate parts of an iomap block device
-c3beab21c69b80248d452b79d3487d5a75050341 libfuse: add strictatime/lazytime mount options
-31a3192e727972c70258a67b58ca733e6b6f403c libfuse: add atomic write support
-
---===============3597157637463888876==--
+--===============6498109504850333657==--
