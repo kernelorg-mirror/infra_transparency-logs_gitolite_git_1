@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2666294760309980656=="
+Content-Type: multipart/mixed; boundary="===============4938334661633326050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 21 Aug 2025 18:23:37 -0000
-Message-Id: <175580061721.2168014.10554330961358749142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Aug 2025 18:23:40 -0000
+Message-Id: <175580062035.2168138.5286262266926755423@gitolite.kernel.org>
 
---===============2666294760309980656==
+--===============4938334661633326050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 13d0fe84a214658254a7412b2b46ec1507dc51f0
     new: 7c7cda81159b1abe7d50bcef2ccc6f662e225c8b
     log: |
          7c7cda81159b1abe7d50bcef2ccc6f662e225c8b spi: st: fix PM macros to use CONFIG_PM instead of CONFIG_PM_SLEEP
          
 
---===============2666294760309980656==
+--===============4938334661633326050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1755800663 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1755800615-99d63a73a4703c4ac65dfc3bb9bfb401d1b38366
+pusher C3F436CA30F5D8EB 1755800666 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1755800618-4e02c31dfeac3f6d626d053be7c6bd73108e59a0
 
-13d0fe84a214658254a7412b2b46ec1507dc51f0 7c7cda81159b1abe7d50bcef2ccc6f662e225c8b refs/heads/for-6.17
+13d0fe84a214658254a7412b2b46ec1507dc51f0 7c7cda81159b1abe7d50bcef2ccc6f662e225c8b refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAminZFcACgkQJNaLcl1U
-h9DBagf8CVpJ8ZZFRU9VFTFIeuHNMgu33EdBPxvAZOKsdoBi9xFRtxftlMgPzdXb
-cNd3W9bIw6bvH1OtJSBS7DKXmEvN+Sqa2gx0ZTC62XbPZ6BLb06e/LOLNohQbmv7
-twYqu+Uk7ffB4rN/I+Bmc2jcM/of77XhOg8dRt+DBT88UxjNhzSOrJNxJllxt4HV
-8s0nbfmtSU0Fw6S5oCrR/2yf5xs974OTWgALgl5oMkO55arPXN/7uS/xduxVo0Xo
-Tn4KwrsAqHngQ6dYZ/Dspku10MbwiGKRv1/J5KYhd0M+iR5zlvDEeqEe8YGpO1Y0
-Z2KXygpEkNP5R0o10nXveRB6u7jhtA==
-=odDK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAminZFoACgkQJNaLcl1U
+h9DBdgf/TE6LGJX2IBXPk2dc4qOJsSFNX0h3VP7PHuhqSSakhdoO9EtaFdXJaONs
+1YFue+pALGu+26bnHFqmShUETSR3BwS7rQSUIPbdBLGxHVM152V7m2u3uoYheG9I
+xCnlkVIPOAoj2xuEvveVrzTZAT1WdB58JsmD67OP3Ceu8VRMWm7Bev0CORp/m9J0
+x1qFPG0Z4KZD2SoxY+yVRYvjfIyy1Mxjszw20qjmmFzFFEr1YSrmb7VHDqpmIsTB
+1LwUQ9+w4iYEs+N14i0h1xHbWf+8YhZXcmUJvdaUDJuhlItGsG4iUAjoektH9jHA
+Kf8jmJcMqq4yuGwAaciy594Qp6kN6w==
+=3wj1
 -----END PGP SIGNATURE-----
 
---===============2666294760309980656==--
+--===============4938334661633326050==--
