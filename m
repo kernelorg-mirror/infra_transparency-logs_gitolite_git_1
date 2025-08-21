@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4234498152993711907=="
+Content-Type: multipart/mixed; boundary="===============3799138828981234057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 21 Aug 2025 22:49:52 -0000
-Message-Id: <175581659292.2402322.3729426831651172794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 21 Aug 2025 22:50:13 -0000
+Message-Id: <175581661354.2404151.61456016393520172@gitolite.kernel.org>
 
---===============4234498152993711907==
+--===============3799138828981234057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 3957a5720157264dcc41415fbec7c51c4000fc2d
     log: revlist-c17b750b3ad9-3957a5720157.txt
 
---===============4234498152993711907==
+--===============3799138828981234057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -228,4 +228,4 @@ f43e6ba0b45fb486cc7d51be70972395dd3ebea4 Merge tag 'regulator-fix-v6.17-rc2' of 
 9a36b58a88f62398dbd005e5f3648f257ae2b9b4 Merge tag 'spi-fix-v6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 3957a5720157264dcc41415fbec7c51c4000fc2d Merge tag 'cgroup-for-6.17-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 
---===============4234498152993711907==--
+--===============3799138828981234057==--
