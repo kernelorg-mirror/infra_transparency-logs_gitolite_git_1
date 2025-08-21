@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1231974524182935542=="
+Content-Type: multipart/mixed; boundary="===============3038825580409006848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 21 Aug 2025 17:45:34 -0000
-Message-Id: <175579833427.2133181.10888953366261932124@gitolite.kernel.org>
+Date: Thu, 21 Aug 2025 17:47:29 -0000
+Message-Id: <175579844974.2134337.16307486761167663683@gitolite.kernel.org>
 
---===============1231974524182935542==
+--===============3038825580409006848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-next
-    old: db9b06ae94d4091d0da15b36a67856eb9138010c
-    new: 07e1551bc8eb2e54ac1086492f1b475a6277c6b3
-    log: revlist-db9b06ae94d4-07e1551bc8eb.txt
+  - ref: refs/heads/libcrypto-pending
+    old: 26970046026c51dcd781aac0f802bea261e01620
+    new: f3593f87559253ef423e9c872daf64a942196cf3
+    log: revlist-26970046026c-f3593f875592.txt
 
---===============1231974524182935542==
+--===============3038825580409006848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db9b06ae94d4-07e1551bc8eb.txt
+Content-Disposition: attachment; filename=revlist-26970046026c-f3593f875592.txt
 
 33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
@@ -340,5 +340,8 @@ ca8e489b07a2da4f757cdb807a120ae261ba8d24 mips: cavium-octeon: Move octeon-crypto
 084fe5b46d2972fa2286ad59218ce4392e6f2b12 crypto: md5 - Wrap library and add HMAC support
 cf3d22518c2ce7c8e14fb45cd4a38c86273c2e85 lib/crypto: tests: Add KUnit tests for MD5 and HMAC-MD5
 07e1551bc8eb2e54ac1086492f1b475a6277c6b3 lib/crypto: Drop inline from all *_mod_init_arch() functions
+79f0483b311aee417363426b23e9384a5a79eb2f lib/crypto: poly1305: Remove unused function poly1305_is_arch_optimized()
+13ad0768e1496ef5ff96f995cc839db4e4a3c942 lib/crypto: poly1305: Consolidate into single module
+f3593f87559253ef423e9c872daf64a942196cf3 lib/crypto: riscv/poly1305: Import OpenSSL/CRYPTOGAMS implementation
 
---===============1231974524182935542==--
+--===============3038825580409006848==--
