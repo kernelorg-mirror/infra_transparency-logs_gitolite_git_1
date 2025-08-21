@@ -1,67 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5229837854956467757=="
+Content-Type: multipart/mixed; boundary="===============6371196347034313644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 21 Aug 2025 20:14:22 -0000
-Message-Id: <175580726257.2267246.17528594269788202574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 21 Aug 2025 20:25:15 -0000
+Message-Id: <175580791559.2277679.11695767120293994385@gitolite.kernel.org>
 
---===============5229837854956467757==
+--===============6371196347034313644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/seen
-    old: d3245bb8fdac5ceb771e9cdebd642b354382b079
-    new: ba8b1cd7c741a00fec40115940c6f1bab5937f70
-    log: |
-         596732d87512b5fb60dbe4abf172652bbb593fa7 stash: pass --no-color to diff-tree child processes
-         087cf1adba2b979c530eea7439c278d7620af642 add-interactive: respect color.diff for diff coloring
-         da4e66d08f5ca06447bd2419d770f9a413eb66b9 add-interactive: manually fall back color config to color.ui
-         b96138f8be8612a989374511004a915b5d24e012 contrib/diff-highlight: mention interactive.diffFilter
-         ac7096723b6a42c177ffb2fbe1c4f4c5dc59e752 config: document includeIf conditions consistently
-         9fc901eb219ac87cc60e68775174e06747b1db18 Merge branch 'jk/add-i-color' into seen
-         ba8b1cd7c741a00fec40115940c6f1bab5937f70 Merge branch 'jc/doc-includeif-hasconfig-remote-url-fix' into seen
-         
-  - ref: refs/notes/amlog
-    old: 605670350a6c34dd0f1cffbf7bba642729b35292
-    new: 9740dd9edb5eabb3fcd0447488d93ce022e80689
-    log: revlist-605670350a6c-9740dd9edb5e.txt
+  - ref: refs/heads/master
+    old: 6439a0e64c355d2e375bd094f365d56ce81faba3
+    new: f70e1e7980f3611039d7b9a1b34beaaba1054af7
+    log: revlist-6439a0e64c35-f70e1e7980f3.txt
 
---===============5229837854956467757==
+--===============6371196347034313644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-605670350a6c-9740dd9edb5e.txt
+Content-Disposition: attachment; filename=revlist-6439a0e64c35-f70e1e7980f3.txt
 
-bbe9d4b60b4aa0744968548308c6506fa9ff8f6b amlog
-90797c77a746e939084e54cab90646919f9737a0 Notes added by 'git notes add'
-f9a4dfcf6d0da3a292c4cc6318debdd6dcf788fd Notes added by 'git notes add'
-f910386493cc4354082e902cb401de8b4c658362 Notes added by 'git notes add'
-2f0ab8d59222d1fe60b0f6f588ff19a781cf9bf3 Notes added by 'git notes add'
-381a4e3501c2454ba3f51538cfd45e3d15cd2956 Notes added by 'git notes add'
-84830a849d8da03b002bd8436d6fe9577d732df5 Notes added by 'git notes add'
-ebb6139de15ab3477ab2556f4160ac4b3f4e56dc Notes added by 'git notes add'
-54c83ac4c74467127fc916b3b7952084c07ad4e3 Notes added by 'git notes add'
-5b2537e61f6480832a1d538a7a267ccd4cc44e4c Notes added by 'git notes add'
-c988c90bc87d0ce6643506b98444ca9666a889db Notes added by 'git notes add'
-ec36d623bf2be504f496b9dcc78f020abb489833 Notes added by 'git notes add'
-9df173afe20c4fa8f9aeb95c00c861ba454e0a3e Notes added by 'git notes add'
-c8244b80a6b4b5c932a22fc25acd16172697889d Notes added by 'git notes add'
-5d57760fc1812cc6215ef406c49b448e50b66d75 Notes added by 'git notes add'
-f69decdb06d24372775d4e2d30b15dd62dc38894 Notes added by 'git notes add'
-f8e6e16b8c610e7383dc15f04422dad8af402e66 Notes added by 'git notes add'
-9453f8984741041cafd0701611d1bae61ebcdd7b Notes added by 'git notes add'
-f234409220e10c09b3da3b48fd78a2d3f29f1ced Notes added by 'git notes add'
-9dc2fbb1499eb8e83da52fe7316dbca8ab81dfd3 Notes added by 'git notes add'
-00ad8d88c892611dc05e49733de0a9270b9be2dd Notes added by 'git notes add'
-35b413fc10a2396e5022ebbf9f6ca3a96194ad9e Notes added by 'git notes add'
-895ef187e22022a004e194f487cdb365e412e45f Notes added by 'git notes add'
-4e75211d114c3bb83d6538d7d1894eab28a1b72e Notes added by 'git notes add'
-9740dd9edb5eabb3fcd0447488d93ce022e80689 Notes added by 'git notes add'
+ddf7233fcab6c247379d0928d46cc316ee122229 sched/ext: Fix invalid task state transitions on class switch
+e69980bd16f264581c3f606bae987e54f0ba8c4a selftests/sched_ext: Remove duplicate sched.h header
+b3eaf14f4c63fd6abc7b68c6d7a07c5680a6d8e5 cpupower: Fix a bug where the -t option of the set subcommand was not working.
+357d1fc38aad2cf4ea6626138cbf68299d20170c cpupower: Allow control of boost feature on non-x86 based systems with boost support.
+6c705851499172c0ce863e816946fb5a564ff69f ACPI: APEI: EINJ: Check if user asked for EINJV2 injection
+7459e87ae1d78ba27b728172fa2aa912a5b8640d ACPI: APEI: EINJ: fix potential NULL dereference in __einj_error_inject()
+b21d1fbb97c814c76ffa392cd603f8cd3ecc0355 ACPI: APEI: EINJ: Fix resource leak by remove callback in .exit.text
+2bc1adb05e360fe0b78065d0ae43c47e336940c3 Merge tag 'linux-cpupower-6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+779b1a1cb13ae17028aeddb2fbbdba97357a1e15 cpuidle: governors: menu: Avoid selecting states with too much latency
+8151320c747efb22d30b035af989fed0d502176e ACPI: pfr_update: Fix the driver update version check
+094a7c318b29ca792fcee28e448da1ab6627ccea Merge branch 'pm-cpuidle'
+670b51121ed09ff3a41539243407e4bd52eea9f4 Merge branches 'acpi-apei' and 'acpi-pfrut'
+d72052ac09ceba6e49230ea9d7e37675d5bab789 Merge tag 'sched_ext-for-6.17-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+26d6ed49cd008a326063d82bd731c2a82f2f4378 Merge tag 'pm-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+f70e1e7980f3611039d7b9a1b34beaaba1054af7 Merge tag 'acpi-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============5229837854956467757==--
+--===============6371196347034313644==--
