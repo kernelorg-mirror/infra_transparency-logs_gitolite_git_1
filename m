@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2651336540689367275=="
+Content-Type: multipart/mixed; boundary="===============0556625953572200668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 21 Aug 2025 14:48:59 -0000
-Message-Id: <175578773943.1963132.6218710665349969445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 21 Aug 2025 14:49:10 -0000
+Message-Id: <175578775000.1963474.1892292350205948128@gitolite.kernel.org>
 
---===============2651336540689367275==
+--===============0556625953572200668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 32b7144f806e231a3fb619d4ddc5a6bffb731715
-    new: 1c656b1efde6ce86a6c810d27a5f925e938d568d
-    log: revlist-32b7144f806e-1c656b1efde6.txt
+  - ref: refs/heads/char-misc-testing
+    old: 8a61a53b07f23ff12330086b293b6b492d35b8a0
+    new: 73c94172e278197fbed9f6a7b7550edc5bc1fbad
+    log: |
+         73c94172e278197fbed9f6a7b7550edc5bc1fbad netlink: specs: binder: replace underscores with dashes in names
+         
 
---===============2651336540689367275==
+--===============0556625953572200668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32b7144f806e-1c656b1efde6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a47bc954cf0eb51f2828e1607d169d487df7f11f objtool/LoongArch: Get table size correctly if LTO is enabled
-5dfea6644d201bfeffaa7e0d79d62309856613b7 LoongArch: Pass annotate-tablejump option if LTO is enabled
-f7794a4d92ade518c813de69a01b27ca6d8d86f3 LoongArch: Increase COMMAND_LINE_SIZE up to 4096
-8ef7f3132e4005a103b382e71abea7ad01fbeb86 LoongArch: Add cpuhotplug hooks to fix high cpu usage of vCPU threads
-63dbd8fb2af3a89466538599a9acb2d11ef65c06 LoongArch: Optimize module load time by optimizing PLT/GOT counting
-112ca94f6c3b3e0b2002a240de43c487a33e0234 LoongArch: Save LBT before FPU in setup_sigcontext()
-0078e94a4733454d1ffa3888afe88bf19c81b91c LoongArch: Rename GCC_PLUGIN_STACKLEAK to KSTACK_ERASE
-4be8cefc132606b4a6e851f37f8e8c40c406c910 LoongArch: KVM: Make function kvm_own_lbt() robust
-5c68549c81bcca70fc464e305ffeefd9af968287 LoongArch: KVM: Fix stack protector issue in send_ipi_data()
-0dfd9ea7bf80fabe11f5b775d762a5cd168cdf41 LoongArch: KVM: Use kvm_get_vcpu_by_id() instead of kvm_get_vcpu()
-538c06e3964a8e94b645686cc58ccc4a06fa6330 LoongArch: KVM: Add address alignment check in pch_pic register access
-1c656b1efde6ce86a6c810d27a5f925e938d568d Merge tag 'loongarch-fixes-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755787794 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1755787746-65e8ddad11672197268ec592852d844ab6e84164
 
---===============2651336540689367275==--
+8a61a53b07f23ff12330086b293b6b492d35b8a0 73c94172e278197fbed9f6a7b7550edc5bc1fbad refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAminMhIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FDkP/1TaL1OeXHp+B18rhIKT
+Nw1CRF3fMB9eYXjB070ASqoc9NbGMdDeieC2Dp8QPiBw+4P4RHss1+HF/RPrws7G
+khHR39NAwpg02NtFn6zWGpvNjWO8xmVrVmsTYxkUP0fuJRFPdX8u0kjNjzGKpEFF
+zUhW95WVqdm5P2heAJAYBpIqjxXStQl2wEV2LKcx7iyIB6F7Hx8EDlaUxmdI8SUX
+fQz2Z76m7qmr37cFJRF/7AfnPJMj9bUSruqIv/waDf55EvqjXpmyASpZAbtnjg8b
+ILa1mDiKcrONTV2ZpqD+dgdB7exmNPdicLCFg9/mTk9THU1NRN8tmqPKSCZcxNgz
+YxunEYn1xaCJxjRFDNZPJRP8WPO02mO3bP+DcU3FQZl8ERSSfjZ84AaBw5LlWze2
+2P1jNOMR1eR/fNeGgY/gY5JHLMhq0rXIUaO2KBpzxzLgcTYdi6x7I5QZWVFxJSPk
+qMiBrNsChiBKw2JBpZtult+bZJ5CRe9N+vZA71khctzyAVCtxe3APq4p/8RyysuR
+MRIE3uf0UoKjpgr81NGYrBKgyZPaLLrdTSJ0UXN7rV6tfRZkxqFdJ1gkclvDa7Y3
+2zcBLdm/i42G11/GLDAMh1zzN+hyO5TjF3YuMkVK4FhWIucdbHaDBlLaNQUOgdnZ
+glWzK1U9rVbLKefyIkgJF7PE
+=G0Gk
+-----END PGP SIGNATURE-----
+
+--===============0556625953572200668==--
