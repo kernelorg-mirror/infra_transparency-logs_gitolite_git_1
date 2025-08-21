@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4985603263270057741=="
+Content-Type: multipart/mixed; boundary="===============1155855275559713612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 21 Aug 2025 15:52:30 -0000
-Message-Id: <175579155041.2026744.14363779281177337208@gitolite.kernel.org>
+Date: Thu, 21 Aug 2025 15:54:48 -0000
+Message-Id: <175579168849.2028418.7918350734136254697@gitolite.kernel.org>
 
---===============4985603263270057741==
+--===============1155855275559713612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: e6149453952f912d8744b9a6965352006c02362c
-    new: b0088c9e114de2adf94e41f36cd2674d3ea3cb74
-    log: revlist-e6149453952f-b0088c9e114d.txt
+  - ref: refs/heads/1GbE
+    old: 01792bc3e5bdafa171dd83c7073f00e7de93a653
+    new: 1b78236a059310db58c22fe92ddd11dbf0552266
+    log: revlist-01792bc3e5bd-1b78236a0593.txt
 
---===============4985603263270057741==
+--===============1155855275559713612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6149453952f-b0088c9e114d.txt
+Content-Disposition: attachment; filename=revlist-01792bc3e5bd-1b78236a0593.txt
 
 4a73a36cb704813f588af13d9842d0ba5a185758 cdc_ncm: Flag Intel OEM version of Fibocom L850-GL as WWAN
 f179f5bc158f07693b74c264f8933c8b0f07503f net/sched: sch_dualpi2: Run prob update timer in softirq to avoid deadlock
@@ -73,41 +73,5 @@ b697ef4d1d136948d282384e6cc3d1af469ea123 net/mlx5: Destroy vport QoS element whe
 451d2849ea66659040b59ae3cb7e50cc97404733 net/mlx5e: Query FW for buffer ownership
 8b0587a885fdb34fd6090a3f8625cb7ac1444826 net/mlx5e: Preserve shared buffer capacity during headroom updates
 1b78236a059310db58c22fe92ddd11dbf0552266 Merge branch 'mlx5-misx-fixes-2025-08-20'
-5e8472c684af5d75bdd382694aa1f8b2fee6d4d4 ice: fix lane number calculation
-c18b82ca57f7b7e5a581d9c335007548e04abcb5 ice: fix fwlog after driver reinit
-f4ad561d81c1a724e55f446123d06e09920b9d20 ixgbe: initialize aci lock before it's used
-5afd73d0b80e74bcdf8918b7a325c194005f09b8 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
-caeeabe35532b3165dacef4da994c2c9fa6927bb ice: fix double-call to ice_deinit_hw() during probe failure
-448dcf68ca5110952ede278f7743c7a5458414cd ice: don't leave device non-functional if Tx scheduler config fails
-e24368b8d289debec18dbe0ca82bb9c4df29818a i40e: remove read access to debugfs files
-fc0305fb5110090d78a9ab6aac072f9f5d0f53dc idpf: add support for Tx refillqs in flow scheduling mode
-64957fddedc3e90fa9ded68df701e1460af8d4b9 idpf: improve when to set RE bit logic
-14031e93c16768316ca574e45e75eeaccebb2695 idpf: simplify and fix splitq Tx packet rollback error path
-52cf0f605c163eff7fc4263217a8d9eb0bf754f3 idpf: replace flow scheduling buffer ring with buffer pool
-f72f9b8bc4e957cc01818ecc3237a7456dce7cc6 idpf: stop Tx if there are insufficient buffer resources
-d9a28a711371bbaed692170466da2ee407e15863 idpf: remove obsolete stashing code
-177e74bd1ff8ae43f17e310ce266b45abe0696d1 ice: use fixed adapter index for E825C embedded devices
-a09f2ad2bd19b771e5784b8ce531b773d2be4262 ixgbe: fix ixgbe_orom_civd_info struct layout
-413e306a574494511950ffaabc2a6cc700ad754a ice: fix NULL access of tx->in_use in ice_ptp_ts_irq
-9a67b98dce5fa81659b83113fc376bdd9b83f6d7 ice: fix NULL access of tx->in_use in ice_ll_ts_intr
-1a14ba29b1205bf19f07c20cd8825d3d081bf3ad ice: fix incorrect counter for buffer allocation failures
-527f4f3ad058643406715a75563a8b97d12f58df ixgbe: fix incorrect map used in eee linkmode
-be86c8ddbec65980ee9efb07d646700a09f8bf79 idpf: fix UAF in RDMA core aux dev deinitialization
-502cf56e725733f6074aa2fa7d1e307cb1ce806c i40e: add validation for ring_len param
-2bb84fd342e7e4c0996ba1e05f6ed597e37c6d03 i40e: fix idx validation in i40e_validate_queue_map
-6647a876f5b88ad259214143af2152160ee18afe i40e: fix idx validation in config queues msg
-72e8ca149996121e178bfdcfcd9f9e7dcf38fac9 i40e: fix input validation logic for action_meta
-1aa9ba18fd9abfcb1df6492bed7a9d109e3be4d7 i40e: fix validation of VF state in get resources
-7d02e186f1c682be2db4813778f38c752296d55a i40e: add max boundary check for VF filters
-2aa1694d9cef87d00581a53d700d0b4238190164 i40e: add mask to apply valid bits for itr_idx
-31d7c557f70c0b4d931b42f5ee0dc9711365420d i40e: improve VF MAC filters accounting
-76f91dead65bef24742d2f10be7785c75acedf4b igb: Fix NULL pointer dereference in ethtool loopback test
-9eb2e56de2b73c95bf572b5d07dfdb3afae9118c idpf: cleanup remaining SKBs in PTP flows
-810edfa55ba862b70e0c2d75b47b2d2f364a0ea6 idpf: set mac type when adding and removing MAC filters
-53121c7101c7aae9af5605194d1d0e63b1c58431 igb: fix link test skipping when interface is admin down
-0fc2586c48d7c3368da52174829cf167c7b3de69 i40e: fix Jumbo Frame support after iPXE boot
-011520ed139374fca5ef37a7fbcec22eb0244e59 ice: Fix enable_cnt imbalance on resume
-b49a59db2d59a377228dd21323ac829cdd76265b ice: Fix enable_cnt imbalance on PCIe error recovery
-b0088c9e114de2adf94e41f36cd2674d3ea3cb74 i40e: Fix enable_cnt imbalance on PCIe error recovery
 
---===============4985603263270057741==--
+--===============1155855275559713612==--
