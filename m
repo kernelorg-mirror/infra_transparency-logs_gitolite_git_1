@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 21 Aug 2025 07:14:06 -0000
-Message-Id: <175576044684.1553104.15985888028197242827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 21 Aug 2025 07:28:03 -0000
+Message-Id: <175576128335.1565322.6896316821724250487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-linus
-    old: 279eb50aa8b6b6b69a57a2a7f0bba24dda44f102
-    new: 5003a65790ed66be882d1987cc2ca86af0de3db1
+  - ref: refs/heads/experimental
+    old: 288a39a4c1fa96d10334c42db3a3f9dc96b997bc
+    new: 6f795a2d7e5732bce1e036cce63afa16f613e211
     log: |
-         5003a65790ed66be882d1987cc2ca86af0de3db1 ALSA: timer: fix ida_free call while not allocated
-         
-  - ref: refs/heads/master
-    old: 2bd5b79169fd31e3b5d270d886ecfe9224d44025
-    new: 13a1ec37a4c6387747b04ee866e74f37d2d68d95
-    log: |
-         5003a65790ed66be882d1987cc2ca86af0de3db1 ALSA: timer: fix ida_free call while not allocated
-         13a1ec37a4c6387747b04ee866e74f37d2d68d95 Merge branch 'for-linus'
+         6f795a2d7e5732bce1e036cce63afa16f613e211 erofs-utils: add a dedicated mount helper
          
