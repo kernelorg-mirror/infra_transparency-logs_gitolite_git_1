@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6258411309781551274=="
+Content-Type: multipart/mixed; boundary="===============4959154568224912294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 21 Aug 2025 06:16:58 -0000
-Message-Id: <175575701805.1505423.3591185200435520192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 21 Aug 2025 06:17:08 -0000
+Message-Id: <175575702858.1505803.16085798451108783332@gitolite.kernel.org>
 
---===============6258411309781551274==
+--===============4959154568224912294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 5303936d609e09665deda94eaedf26a0e5c3a087
     new: 7fa4d8dc380fbd81a9d702a855c50690c9c6442c
     log: revlist-5303936d609e-7fa4d8dc380f.txt
-  - ref: refs/heads/stable
-    old: b19a97d57c15643494ac8bfaaa35e3ee472d41da
-    new: 41cd3fd152634250fdd09a52a35352b3f323800d
-    log: |
-         3f69f2e78799bf76e5dfe74f2eda4d67812d4edc PCI: xilinx: Fix NULL pointer dereference in xilinx_pcie_intr_handler()
-         5149bbb56bdcf5c5f72904025fbb502217580b63 PCI: vmd: Remove MSI-X check on child devices
-         41cd3fd152634250fdd09a52a35352b3f323800d Merge tag 'pci-v6.17-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-         
-  - ref: refs/tags/next-20250521
-    old: 7eeab21a2e5b77ca81bbc414b86c1b1aeb447435
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250821
     old: 0000000000000000000000000000000000000000
     new: a6d3da9a268e3d0a20b76fb40fd3484fe219ff17
 
---===============6258411309781551274==
+--===============4959154568224912294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -877,4 +866,4 @@ fea7985bc5320c637a7c0dad06a68bb009d67b2a Merge branch 'main' of git://git.infrad
 61ddaf1e5a2045dd0b11de1b1ddea5a3cf89b49c Revert "mm: introduce and use {pgd,p4d}_populate_kernel()"
 7fa4d8dc380fbd81a9d702a855c50690c9c6442c Add linux-next specific files for 20250821
 
---===============6258411309781551274==--
+--===============4959154568224912294==--
