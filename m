@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1178709813903338091=="
+Content-Type: multipart/mixed; boundary="===============0208862467354587873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 21 Aug 2025 16:03:36 -0000
-Message-Id: <175579221611.2037811.5749205023423195113@gitolite.kernel.org>
+Date: Thu, 21 Aug 2025 16:03:38 -0000
+Message-Id: <175579221882.2038064.2627095812458060312@gitolite.kernel.org>
 
---===============1178709813903338091==
+--===============0208862467354587873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: da114122b83149d1f1db0586b1d67947b651aa20
     new: 07cf71bf25cd4e5735ff13468e7b86f02c3665cb
     log: revlist-da114122b831-07cf71bf25cd.txt
 
---===============1178709813903338091==
+--===============0208862467354587873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -106,4 +106,4 @@ ad5cef7ef01c23346ffb1bcd7d9163b1f1e60097 MAINTAINERS: Add maintainer for Qualcom
 ae76e8d2c27e714b1258f803de8b03e003a04df2 Merge branch 'add-ppe-driver-for-qualcomm-ipq9574-soc'
 07cf71bf25cd4e5735ff13468e7b86f02c3665cb net: page_pool: add page_pool_get()
 
---===============1178709813903338091==--
+--===============0208862467354587873==--
