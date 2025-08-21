@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5106943266925393989=="
+Content-Type: multipart/mixed; boundary="===============2282091493835577935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 21 Aug 2025 06:10:13 -0000
-Message-Id: <175575661326.1499967.8130149379488686113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 21 Aug 2025 06:10:18 -0000
+Message-Id: <175575661873.1500256.15145721757803395879@gitolite.kernel.org>
 
---===============5106943266925393989==
+--===============2282091493835577935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 956606bafb5fc6e5968aadcda86fc0037e1d7548
-    new: d15fbd3ea75bc893b46e9f4df6f9469db0f93897
+  - ref: refs/heads/tty-testing
+    old: 7cd9f5d6c5a3f31d2b282d31ddc4d78ff83a5c08
+    new: a84f5bfb715a187e31720530c151a3f05190df5a
     log: |
-         1f43a3401debb9d06aa434ec6fecae676963d6f3 usb: typec: qcom-pmic-typec: use kcalloc() instead of kzalloc()
-         d15fbd3ea75bc893b46e9f4df6f9469db0f93897 usb: typec: mux: Remove the use of dev_err_probe()
+         706c3c02eecd41dc675e9102b3719661cd3e30e2 tty: serial: Modify the use of dev_err_probe()
+         a84f5bfb715a187e31720530c151a3f05190df5a serial: xilinx_uartps: read reg size from DTS
          
 
---===============5106943266925393989==
+--===============2282091493835577935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755756657 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1755756609-99eef9c1fadd62d163eff4ec0266d4a1878e82d1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755756661 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1755756614-82dffb1220cf5c2c593cfc5af5f4a772169bfb5a
 
-956606bafb5fc6e5968aadcda86fc0037e1d7548 d15fbd3ea75bc893b46e9f4df6f9469db0f93897 refs/heads/usb-testing
+7cd9f5d6c5a3f31d2b282d31ddc4d78ff83a5c08 a84f5bfb715a187e31720530c151a3f05190df5a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmimuHEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yUEP/3PtOJBPDNM51Get+Ax4
-MD3L0Yah4vBVQahQYEJx6JN7QlrDbXhPrfTGJUrK2FoBT6bpo09Te2SQjpjZjzl3
-fCp/6Dsk+92cOARhUE6t4Tq1XFPNWQ+8Ud2A1vppw4F7o1fRzzhZfoZ/ptHqV7SS
-PM93KZ0WISYEL+uj9rdIvYfLC00qvqbDc9oA7u0LJV1u4Tyfs1QUx8rrfseLJmSH
-Q1ZAy0vHh2zZQd6tbIOBtWk2Bb1Vurir5xsY/c5+Ag8JpFhsihEBzm4MiRLnJyqu
-321ll2g5HXTtIFn8ck3RelRUr2LceX8tfkF73zH/v+Jqs7evvgakS7/btT/z4FF/
-z7sTAO4ObL0seqxuTsC6Z/gfB7SlpDWMW9+NRlTa/N3lRs4aMdhqF4MKoffqnSYe
-id6LYelkxnh+Sj6hiLRfde3PplLhJGCIOn1Qkgs1lbQxoUxrm9SupXwaAPYWP1//
-UQlAw4KA33Ghre+qnbCD5iDc01y9UwS1E4r/L4EDTuHJH8d+Cp74W2daffnD6635
-gNPsR39udpi7VeIZX2d+om38ASJuuq7QIqjLbqqE07A4IPNxonY8QC7bY70x2fik
-LA6Y/NGb2cUN9owMCLO6M7X4gdp+xjn74Gz23iDHPbbJQU+sxZ+tZqX1+Kfnlyrh
-DuHpbddk0UnOf4YahS1gx5lw
-=a4FZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmimuHYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+75kP/24lcW+APhsOjexBb/AI
+iIcjxX4Mgd+/3MQ8iF3HjZekBHx4DLAnDhSe+j20iW9wYQRKMCcJm1sZPU/XXrhf
+L/TQ3MItT8RuCRcFv2N1mFAMZ5E2BgV5Xadih1lEsUSre4kNGCk6Umb/P1/mpy+z
+OAjRFGHEQYUuGNvhw390BCnF25fq/9igQpc0f2u7IG7DgxPc67+PHYJ1lTQ7q+MB
+LRZwP5QGar/cKxZZGLzeD4vkmm8nWdVCdW12c6CvWhEn4iMQ2l4y0u5ovQNOjtVh
+eT1W/IraVlJSP4CG8DZlJiHZIpjr0DY7vJu24bB6JMWfyCN1ORYajN61sm03iJdv
++HrOeTX+wY2pDNkaBDsFaws2e46YGXVewLxprOAHm6QiDP9kYYAu6+9q6T6BHXml
+M2uvIxouceCtKGKcemiLuHoAKU0GBBlrADjXYhCsQ/2AZP0JB77lNHcDLTLPAIPH
+5M+ortArja8kbrUy84jRVCzKYCYM/ZgyzgmFfwBLfk26aYhutZzpOzZY6vOuR5uJ
+nI0nwcL1jwjdnGuk5kyxmnKj7YSRZIXKXoUBI981HuAU7RaTKrdZiKzOya0axl6d
+aVcLx1dTGkf4uZK4LNKPEvsDKmOBPZJ6Hvs+BIcRE1VDuApOCIVzslGEBYjL0m3Y
+UX2UB06bN4adXdvbec1qbCXI
+=/Wvc
 -----END PGP SIGNATURE-----
 
---===============5106943266925393989==--
+--===============2282091493835577935==--
