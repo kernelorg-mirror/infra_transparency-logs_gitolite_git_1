@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============9123338730153711068=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Thu, 21 Aug 2025 15:04:02 -0000
-Message-Id: <175578864274.1977483.12553807076657190113@gitolite.kernel.org>
-
---===============9123338730153711068==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 21 Aug 2025 15:05:19 -0000
+Message-Id: <175578871904.1980516.2603748751434904828@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: a5da316e5b54e12da000c60191c6220692c00f0f
-    new: 4b02eb164221c079b428566499343af2766c2ec3
-    log: revlist-a5da316e5b54-4b02eb164221.txt
-  - ref: refs/heads/next
-    old: a5da316e5b54e12da000c60191c6220692c00f0f
-    new: 4b02eb164221c079b428566499343af2766c2ec3
-    log: revlist-a5da316e5b54-4b02eb164221.txt
-
---===============9123338730153711068==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5da316e5b54-4b02eb164221.txt
-
-53136b205486590aa035a02d7aaab63f12cfbc22 mke2fs: don't print warnings about dax to stderr
-bc1279f60fde251991030d3aaec7711d2c6eb4b0 fuse2fs: fix readlink failure
-6d6f7b7a1fba4cda551ab8851bc5172457bd3f13 fuse2fs: fix various problems in get_req_groups
-6c6ce2d0c3cb7365c7ebe3457bcbc0e3874fe600 fuse2fs: allow O_APPEND and O_TRUNC opens
-10684aec06a156122da67a7c58332dd00aacac8c fuse2fs: don't let ENOENT escape from ioctl_fitrim
-a78c7ad99ee036218762a69e7736e2e5163cf8ac fuse2fs: don't run fallible operations in op_init
-5aba0ce6aa6f586e8bbd698a8e9fbe1644bebb48 fuse2fs: check for recorded fs errors before touching things
-a441dd7b5e0a644d6bc51ac6f9d281d22162e5de fuse2fs: interpret error codes in remove_ea_inodes correctly
-23a04c82973bb94c20a02e565699ae47ce333038 fuse2fs: don't write inode when inactivation fails
-33f8c42e0c3b3fb3d6f6654bdd616865d9832dae fuse2fs: set EXT2_ERROR_FS when recording errors
-b646a80722c0a1412377f854d75538f9a022f949 fuse2fs: disable fallocate/zero range on indirect files
-4b02eb164221c079b428566499343af2766c2ec3 libext2fs: relock CACHE_MTX after calling ->write_error
-
---===============9123338730153711068==--
+  - ref: refs/heads/nfsd-testing
+    old: ef3b1b070706e228c2cb6ce218bfd7f426e26fbb
+    new: 6dc485274616565dd515e785afb990b3395368f9
+    log: |
+         75709550db7a4e84895a3036854c83880d45362a NFSD: Drop redundant conversion to bool
+         1cceb8fd719a8dd14f89a7e96fd48113be7e91a0 nfsd: unregister with rpcbind when deleting a transport
+         e08e65b74ee35e8b4bfd8765d0e9ca8bc7df3938 NFS: Remove rpcbind cleanup for NFSv4.0 callback
+         2a1cfaadd4bd264839a9a29c462003e498071010 SUNRPC: Move the svc_rpcb_cleanup() call sites
+         cefea648ea22cecc5311f10a322fb6e19c8bb257 nfsd: discard nfserr_dropit
+         b0382d1df5a878b9a22d21c79f20c86824ecffc7 NFSD: Delay adding new entries to LRU
+         dc4ab006ce48cd9bd49e306ca6b9a8dbea72ec8b NFSD: Reduce DRC bucket size
+         6dc485274616565dd515e785afb990b3395368f9 siw: Enable try_gso
+         
