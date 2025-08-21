@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7806984027915857678=="
+Content-Type: multipart/mixed; boundary="===============1450599545419304319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 21 Aug 2025 04:08:15 -0000
-Message-Id: <175574929506.1395449.2684691436967017474@gitolite.kernel.org>
+Date: Thu, 21 Aug 2025 04:17:19 -0000
+Message-Id: <175574983957.1403692.12319166901380300995@gitolite.kernel.org>
 
---===============7806984027915857678==
+--===============1450599545419304319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 6f1509778c2f2a7e199f94b68e0721748d7949fd
+  - ref: refs/heads/dev
+    old: 355ed1397405feb85bd04696972e8da58c805e0b
     new: 585782e68543fdaa837637049c51e341d353b235
-    log: revlist-6f1509778c2f-585782e68543.txt
+    log: revlist-355ed1397405-585782e68543.txt
 
---===============7806984027915857678==
+--===============1450599545419304319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f1509778c2f-585782e68543.txt
+Content-Disposition: attachment; filename=revlist-355ed1397405-585782e68543.txt
 
 fd8ce9f087b72c0ed63a9b21e7284ef70e04bfb7 erofs-utils: dump: display minimum kernel version for ondisk features
 4c40c52ad7bd709c0c59616409d34856c6964355 erofs-utils: mkfs: introduce source_mode enumeration
@@ -46,4 +46,4 @@ ae18b79b1f688c67c844cd7c8b538b846bae143c erofs-utils: lib: migrate `c_{ovlfs_str
 4f7aa6b8fb7f8435b3b6d430d4465bfd8348059a erofs-utils: lib: introduce API helpers to prepare mkfs context
 585782e68543fdaa837637049c51e341d353b235 erofs-utils: lib: unexport `erofs/cache.h`
 
---===============7806984027915857678==--
+--===============1450599545419304319==--
