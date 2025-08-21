@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5865316125414874235=="
+Content-Type: multipart/mixed; boundary="===============5789494308254166614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 21 Aug 2025 15:54:53 -0000
-Message-Id: <175579169340.2028793.2070401037893464502@gitolite.kernel.org>
+Date: Thu, 21 Aug 2025 15:55:22 -0000
+Message-Id: <175579172216.2030967.802262719556442791@gitolite.kernel.org>
 
---===============5865316125414874235==
+--===============5789494308254166614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 01792bc3e5bdafa171dd83c7073f00e7de93a653
+  - ref: refs/heads/100GbE
+    old: 823aaa10d37aac273eeb91f357ba763ada23ff82
     new: 1b78236a059310db58c22fe92ddd11dbf0552266
-    log: revlist-01792bc3e5bd-1b78236a0593.txt
+    log: revlist-823aaa10d37a-1b78236a0593.txt
 
---===============5865316125414874235==
+--===============5789494308254166614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01792bc3e5bd-1b78236a0593.txt
+Content-Disposition: attachment; filename=revlist-823aaa10d37a-1b78236a0593.txt
 
 4a73a36cb704813f588af13d9842d0ba5a185758 cdc_ncm: Flag Intel OEM version of Fibocom L850-GL as WWAN
 f179f5bc158f07693b74c264f8933c8b0f07503f net/sched: sch_dualpi2: Run prob update timer in softirq to avoid deadlock
@@ -74,4 +74,4 @@ b697ef4d1d136948d282384e6cc3d1af469ea123 net/mlx5: Destroy vport QoS element whe
 8b0587a885fdb34fd6090a3f8625cb7ac1444826 net/mlx5e: Preserve shared buffer capacity during headroom updates
 1b78236a059310db58c22fe92ddd11dbf0552266 Merge branch 'mlx5-misx-fixes-2025-08-20'
 
---===============5865316125414874235==--
+--===============5789494308254166614==--
