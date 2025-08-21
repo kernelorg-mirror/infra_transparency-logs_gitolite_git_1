@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 21 Aug 2025 13:46:25 -0000
-Message-Id: <175578398581.1903305.16775071803556694063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 21 Aug 2025 13:47:50 -0000
+Message-Id: <175578407033.1904233.8081843709865909321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/arm64/fpsimd/kernel-neon-test
-    old: 0000000000000000000000000000000000000000
-    new: bc7567ad2587bd4e1ffb4f64bc60e723c4fc6abf
+  - ref: refs/heads/master
+    old: ed2da1a3786d02a4ffca601228f318a276a457f5
+    new: 5f38ea159ea8d1ef2967ef1e545a3a0bd5ac92b3
+    log: |
+         5f38ea159ea8d1ef2967ef1e545a3a0bd5ac92b3 adapter: Fix setting index in MGMT_OP_SET_EXP_FEATURE with debug_uuid
+         
