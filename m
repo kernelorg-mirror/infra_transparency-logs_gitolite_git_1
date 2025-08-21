@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 21 Aug 2025 19:20:03 -0000
-Message-Id: <175580400331.2219138.8384508728797613455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Thu, 21 Aug 2025 19:20:07 -0000
+Message-Id: <175580400800.2219600.17656491385180218784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: wagi
 changes:
-  - ref: refs/heads/dt/linus
-    old: aea70964b5a7ca491a3701f2dde6c9d05d51878d
-    new: ac29e4487aa20a21b7c3facbd1f14f5093835dc9
-    log: |
-         ac29e4487aa20a21b7c3facbd1f14f5093835dc9 dt-bindings: vendor-prefixes: add eswin
-         
+  - ref: refs/tags/v6.12.43-rt12-patches
+    old: 0000000000000000000000000000000000000000
+    new: 9bce4fad2eb607cc066e367f6c1b2380e588e47e
