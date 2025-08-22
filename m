@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8118396092274432044=="
+Content-Type: multipart/mixed; boundary="===============7911556362551449379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 22 Aug 2025 14:59:24 -0000
-Message-Id: <175587476403.3314372.6039263368890633489@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 14:59:26 -0000
+Message-Id: <175587476658.3314476.9968076823064025534@gitolite.kernel.org>
 
---===============8118396092274432044==
+--===============7911556362551449379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/microchip-defconfig
+  - ref: refs/heads/microchip-dt64-fixes
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     log: revlist-19272b37aa4f-8f5ae30d69d7.txt
 
---===============8118396092274432044==
+--===============7911556362551449379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============8118396092274432044==--
+--===============7911556362551449379==--
