@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 22 Aug 2025 19:14:48 -0000
-Message-Id: <175589008825.3553105.3784756717623395283@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 19:33:22 -0000
+Message-Id: <175589120224.3568634.17980619891333958159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,26 +12,12 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: e085b9d05ebf0a4c064b03a64661656507bf7a09
-    new: 58ba4686cfe2e474b1f5680fb48b9ba946c158a5
+    old: 58ba4686cfe2e474b1f5680fb48b9ba946c158a5
+    new: 0b39c4f11c0bccd9d7043e52151b4fc11c48f984
     log: |
-         58ba4686cfe2e474b1f5680fb48b9ba946c158a5 Merge branches 'pm-cpuidle' and 'pm-powercap' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: f0f47deb2a09709a26ad0e6ab40e9b5cfdcbe679
-    new: 58ba4686cfe2e474b1f5680fb48b9ba946c158a5
-    log: |
-         03cf825911c95f39d77d2a60b35fe5b4a33115b1 powercap: idle_inject: use us_to_ktime() where appropriate
-         17224c1d2574d29668c4879e1fbf36d6f68cd22b cpuidle: governors: menu: Rearrange main loop in menu_select()
-         7bcc8bbeca357efd982b0cc0bf720293d28b6f63 cpuidle: governors: menu: Special-case nohz_full CPUs
-         58ba4686cfe2e474b1f5680fb48b9ba946c158a5 Merge branches 'pm-cpuidle' and 'pm-powercap' into linux-next
-         
-  - ref: refs/heads/testing
-    old: f0f47deb2a09709a26ad0e6ab40e9b5cfdcbe679
-    new: 58ba4686cfe2e474b1f5680fb48b9ba946c158a5
-    log: |
-         03cf825911c95f39d77d2a60b35fe5b4a33115b1 powercap: idle_inject: use us_to_ktime() where appropriate
-         17224c1d2574d29668c4879e1fbf36d6f68cd22b cpuidle: governors: menu: Rearrange main loop in menu_select()
-         7bcc8bbeca357efd982b0cc0bf720293d28b6f63 cpuidle: governors: menu: Special-case nohz_full CPUs
-         58ba4686cfe2e474b1f5680fb48b9ba946c158a5 Merge branches 'pm-cpuidle' and 'pm-powercap' into linux-next
+         11b3de1c03fa9f3b5d17e6d48050bc98b3704420 ACPI: processor: idle: Fix memory leak when register cpuidle device failed
+         e9e124501f0d7ea2caea94711efe50fe081a11ea cpufreq: use strlen() for governor name comparison
+         1647830388ffea4d7a39c1a5f7692925e9d8351d cpufreq: simplify setpolicy/target check in driver verification
+         993bbc3345816468b6928031c28640fe5e9fbca2 Merge branch 'pm-cpufreq' into bleeding-edge
+         0b39c4f11c0bccd9d7043e52151b4fc11c48f984 Merge branch 'acpi-processor' into bleeding-edge
          
