@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8604636262563416927=="
+Content-Type: multipart/mixed; boundary="===============7041456575714703549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 22 Aug 2025 19:59:54 -0000
-Message-Id: <175589279416.3592664.7225324212536379735@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 20:00:14 -0000
+Message-Id: <175589281401.3594512.793457894424225419@gitolite.kernel.org>
 
---===============8604636262563416927==
+--===============7041456575714703549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 3ebcbf079c26ab6e82faa7f896b66def55547eee
+  - ref: refs/heads/master
+    old: 86731a2a651e58953fc949573895f2fa6d456841
     new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    log: revlist-3ebcbf079c26-c17b750b3ad9.txt
+    log: revlist-86731a2a651e-c17b750b3ad9.txt
 
---===============8604636262563416927==
+--===============7041456575714703549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ebcbf079c26-c17b750b3ad9.txt
+Content-Disposition: attachment; filename=revlist-86731a2a651e-c17b750b3ad9.txt
 
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
 a5a6b29a700fda1dd766cc42dde2cbba9b19f470 bpf: Show precise rejected function when attaching fexit/fmod_ret to __noreturn functions
@@ -1051,4 +1051,4 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============8604636262563416927==--
+--===============7041456575714703549==--
