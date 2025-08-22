@@ -1,34 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4449224061709404647=="
+Content-Type: multipart/mixed; boundary="===============1519539516835780219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 22 Aug 2025 18:55:22 -0000
-Message-Id: <175588892226.3537533.16193229444133328056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Fri, 22 Aug 2025 18:56:33 -0000
+Message-Id: <175588899325.3538210.3186632792934083624@gitolite.kernel.org>
 
---===============4449224061709404647==
+--===============1519539516835780219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: paulmck
 changes:
-  - ref: refs/heads/dev
-    old: e64961a5439c79daa0c7075b40fa5b0ba48ed819
-    new: 4ad27d197503cbfd18e24a4c8fa8c3c933f200f0
-    log: revlist-e64961a5439c-4ad27d197503.txt
-  - ref: refs/heads/dev.2025.08.21a
+  - ref: refs/heads/next
+    old: 61399e0c5410567ef60cb1cda34cca42903842e3
+    new: d6b872674894d679587665c7e61b85cf72ff21f7
+    log: revlist-61399e0c5410-d6b872674894.txt
+  - ref: refs/heads/next.2025.08.22a
     old: 0000000000000000000000000000000000000000
-    new: ac5d5e956cf3e06a8c4597e42a9cca8e7c673eb5
+    new: d6b872674894d679587665c7e61b85cf72ff21f7
 
---===============4449224061709404647==
+--===============1519539516835780219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e64961a5439c-4ad27d197503.txt
+Content-Disposition: attachment; filename=revlist-61399e0c5410-d6b872674894.txt
 
+faab3ae329a6efb96995aeb72a68a99f664fed38 rcu: Document that rcu_barrier() hurries lazy callbacks
+42d590d100f2e47e47d974a902b9ed610e464824 rcu: Remove local_irq_save/restore() in rcu_preempt_deferred_qs_handler()
+e5ae44cfd65ef41af5ff7aacb03400b799baba18 rculist: move list_for_each_rcu() to where it belongs
+f39494089aaa1022008eee245fb83ef1ae911b6d srcu: Move rcu_is_watching() checks to srcu_read_{,un}lock_fast()
+7e2a2d060da4860af37e1000dc62a30a1551d9e8 srcu: Add srcu_read_lock_fast_notrace() and srcu_read_unlock_fast_notrace()
+cacadb630375b8c30ca4d0300812178bb884c0b0 srcu: Add guards for notrace variants of SRCU-fast readers
+e95f6ccdbc71663b9f4b24a166e85bd8e6720318 rcutorture: Fix jitter.sh spin time
+bd89367e05e8cf55eacf8627b0b3ed55b938d6fd torture: Add --do-normal parameter to torture.sh help text
+b930ff84f3072df7ab3b0f1cd3a8bb5d02ec4dec torture: Announce kernel boot status at torture-test startup
+1b0f583843287275298a559c14e10769fd771cec rcutorture: Suppress "Writer stall state" reports during boot
+9a316fe3adcac5655303958faef0e2cb1fedca1d rcutorture: Delay rcutorture readers and writers until boot completes
+6e9c48b3e34b8ade2e6881c8b1f3838f5c2ab804 torture: Delay CPU-hotplug operations until boot completes
+51c285baa3fa04b95843da8e2f9895138ea64dd4 rcutorture: Delay forward-progress testing until boot completes
+46e2c5d604c7de1083ddf7a5f53edcf2eb3f4d12 doc: Update whatisRCU.rst for recent RCU API additions
+820f8da73dfeccf32e7b6580b4c41d0d3e2c2e02 doc: Add RCU guards to checklist.rst
+d33b01d793d91e0c9db5a7360bab35da0cb8a453 rcu: docs: Requirements.rst: Abide by conventions of kernel documentation
 8495e00fe654962bdd83dd6ca8f32918c50f3454 Documentation: RCU: Wrap kvm-remote.sh rerun snippet in literal code block
 326b16baed677edcc706ee44791716a610a8edf0 Documentation: RCU: Reduce toctree depth
 9832258da7f1bc2051c536a2068e880d49570de2 Documentation: RCU: Retitle toctree index
@@ -40,31 +56,5 @@ de117fe3f50f962d927b17b8de6632ee197b70ae docs: rcu: Replace multiple dead OLS li
 c815b1671ce6a788feb3fc2c4f670a4be7149718 Merge branch 'rcu.2025.08.14a' into HEAD
 522c5b4331217338ac075759e05b27d39bc2129a Merge branch 'srcu-next.2025.08.21a' into HEAD
 d6b872674894d679587665c7e61b85cf72ff21f7 Merge branch 'torture.2025.08.14a' into HEAD
-796f9adc60f7100ba2937fed0a9e0af3de8369a2 Merge branch 'srcu.2025.08.21a' into HEAD
-a703f7797c8982890e968f9060879d37c2f3cd45 EXP srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
-688300d81e532796f0f1185e5d46ca2a50a4a750 EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
-54310fa581c97e95f318dd031cc187dec69306d6 EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
-a70581af1e29fad3ce0fa64a0dde0980429ffeae EXP locking/mutex: Add down_read_idle()
-4413ae3c8cd5353633cd2e6e2d91883f606d8f34 EXP arm64: enable PREEMPT_LAZY
-39977344ea2a6f8acff93e79e267e4bfe9c7cc6c EXP net: stmmac: Make DWMAC_ROCKCHIP and DWMAC_STM32 depend on PM_SLEEP
-e3b3827bda6b4db52cc319de3f72bc0d9449fc0e rcu: Re-implement RCU Tasks Trace in terms of SRCU-fast
-16e7a4161a0215cb07e2332fffdf12a917f1fc7f rcu: Remove unused ->trc_ipi_to_cpu and ->trc_blkd_cpu from task_struct
-3838d4ff371c36703bddecd9cf14eb9d72217d3f rcu: Remove ->trc_blkd_node from task_struct
-ab3799d5e926742404a5ecf1733ed5eba9848b01 rcu: Remove ->trc_holdout_list from task_struct
-c82d192432969539b8e5af0f28ae0d1786e624e6 rcu: Remove rcu_tasks_trace_qs() and the functions that it calls
-d9f613108e5ba8201afaa713bc08baa2bedddff2 context_tracking: Remove rcu_task_trace_heavyweight_{enter,exit}()
-f7615cc6725f56fd11927fb2f0b55f7def300802 rcu: Remove ->trc_reader_special from task_struct
-905c73885926b740942be3b3cc001bec8023c04f rcu: Remove now-empty RCU Tasks Trace functions and calls to them
-70f717daa64b57b8b0ecb2a2e5b5e04ab02c4c02 rcu: Remove unused rcu_tasks_trace_lazy_ms and trc_stall_chk_rdr struct
-612d697e8a94fe5f31e330c05136862c60b6addd rcu: Remove now-empty show_rcu_tasks_trace_gp_kthread() function
-dd04b87e81d29f45249fd3d6ec523627ddf3fe33 rcu: Remove now-empty rcu_tasks_trace_get_gp_data() function
-ba05da0eaef0075fe5f77656fbcbaa65464de772 rcu: Remove now-empty rcu_tasks_trace_torture_stats_print() function
-f809f1275052d40da3f1c639c072711760c64f2b rcu: Remove now-empty get_rcu_tasks_trace_gp_kthread() function
-3957906781ec92c37a30ff35c34bfb82d345aa3e rcu: Move rcu_tasks_trace_srcu_struct out of #ifdef CONFIG_TASKS_RCU_GENERIC
-720ba9726c4c41237d2c092e20f48f181a4d2ae8 rcu: Add noinstr-fast rcu_read_{,un}lock_tasks_trace() APIs
-cb1d28b19ee608994a37964a436f4f0ec6776a6a rcu: Remove now-unused rcu_task_ipi_delay and TASKS_TRACE_RCU_READ_MB
-954d97a6cd866587c7b0dff832ad7e57ec83b5a0 rcu: Use smp_mb() only when necessary in RCU Tasks Trace readers
-d52b6e7110251c8d59aff6c9402a65db98510eb4 rcu: Update Requirements.rst for RCU Tasks Trace
-4ad27d197503cbfd18e24a4c8fa8c3c933f200f0 checkpatch: Deprecate rcu_read_{,un}lock_trace()
 
---===============4449224061709404647==--
+--===============1519539516835780219==--
