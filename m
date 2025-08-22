@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6743003339966678303=="
+Content-Type: multipart/mixed; boundary="===============0465110442316095033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 22 Aug 2025 14:59:10 -0000
-Message-Id: <175587475061.3313005.5070811979760945044@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 14:59:13 -0000
+Message-Id: <175587475328.3313088.3980029134092172634@gitolite.kernel.org>
 
---===============6743003339966678303==
+--===============0465110442316095033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-fixes
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/at91-next
+    old: e99113d11171a03c865ca5b10e0ae9b587034ae2
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-19272b37aa4f-8f5ae30d69d7.txt
+    log: revlist-e99113d11171-8f5ae30d69d7.txt
 
---===============6743003339966678303==
+--===============0465110442316095033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-e99113d11171-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============6743003339966678303==--
+--===============0465110442316095033==--
