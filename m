@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 22 Aug 2025 16:12:36 -0000
-Message-Id: <175587915687.3391530.11498017021504326286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 22 Aug 2025 16:17:51 -0000
+Message-Id: <175587947109.3396115.7278941333992918547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 21aeabb68258ce17b91af113a768760b3a491d93
-    new: 0780f54ab129b28e2b29689c95ad579a9db04fab
+    old: 27861fc720be2c39b861d8bdfb68287f54de6855
+    new: dd9de524183a1ca0a3c0317a083e8892e0f0eaea
     log: |
-         f41345f47fb267a9c95ca710c33448f8d0d81d83 bpf: Use tnums for JEQ/JNE is_branch_taken logic
-         0780f54ab129b28e2b29689c95ad579a9db04fab selftests/bpf: Tests for is_scalar_branch_taken tnum logic
+         dd9de524183a1ca0a3c0317a083e8892e0f0eaea xsk: Fix immature cq descriptor production
          
