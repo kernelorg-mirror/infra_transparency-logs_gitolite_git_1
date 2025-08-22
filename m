@@ -1,32 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Fri, 22 Aug 2025 21:21:05 -0000
-Message-Id: <175589766590.3662922.16334159163688324508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 22 Aug 2025 21:26:48 -0000
+Message-Id: <175589800805.3667944.8675559849114865670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 8780081e03ed778f326c741275edf978881fea2f
-    new: bc3d721ffdacdf90dbd9b0578a49ee2480d662ea
+  - ref: refs/heads/master
+    old: cf6fc5eefc5bbbbff92a085039ff74cdbd065c29
+    new: 471b25a2fcbb25dccd7c9bece30313f2440a554e
     log: |
-         0e3f3d7c7ae3dec5ff52325915e3efcbce652a82 dt-bindings: soc: rockchip: add rk3576 mipi dcphy syscon
-         21bc1a7fcea4635a49f6b2eff3e4c661e80e8f43 arm64: dts: rockchip: add mipi-dcphy to rk3576
-         e51828f80df99a2899e263b750cada6426f14c92 arm64: dts: rockchip: add the dsi controller to rk3576
-         3d5c0c21d86fed05caeae43549e0c13ddd203c31 arm64: dts: rockchip: add vcc3v3-lcd-s0 regulator to roc-rk3576-pc
-         bc3d721ffdacdf90dbd9b0578a49ee2480d662ea Merge branch 'v6.18-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.18-armsoc/dts64
-    old: 70bb21cbc8c704c664b5d3ea417f3e35376fc229
-    new: 3d5c0c21d86fed05caeae43549e0c13ddd203c31
-    log: |
-         0e3f3d7c7ae3dec5ff52325915e3efcbce652a82 dt-bindings: soc: rockchip: add rk3576 mipi dcphy syscon
-         21bc1a7fcea4635a49f6b2eff3e4c661e80e8f43 arm64: dts: rockchip: add mipi-dcphy to rk3576
-         e51828f80df99a2899e263b750cada6426f14c92 arm64: dts: rockchip: add the dsi controller to rk3576
-         3d5c0c21d86fed05caeae43549e0c13ddd203c31 arm64: dts: rockchip: add vcc3v3-lcd-s0 regulator to roc-rk3576-pc
+         8fe8a092043f28d3c8e467cb2bbfe1e1ccf7f996 iommufd: viommu: free memory allocated by kvcalloc() using kvfree()
+         447c6141e8ea68ef4e56c55144fd18f43e6c8dca iommufd: Fix spelling errors in iommufd.rst
+         471b25a2fcbb25dccd7c9bece30313f2440a554e Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
          
