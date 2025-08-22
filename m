@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1052142337130105192=="
+Content-Type: multipart/mixed; boundary="===============7596184569226457883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 Aug 2025 07:46:29 -0000
-Message-Id: <175584878969.2870805.16167948028576087133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 22 Aug 2025 07:59:08 -0000
+Message-Id: <175584954874.2880334.12868327872796601290@gitolite.kernel.org>
 
---===============1052142337130105192==
+--===============7596184569226457883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 7cd9f5d6c5a3f31d2b282d31ddc4d78ff83a5c08
-    new: 706c3c02eecd41dc675e9102b3719661cd3e30e2
+  - ref: refs/heads/master
+    old: 4784f66ec1eff7db1f010b63f0eddaf75bc9c99e
+    new: 558a7f754a6299a2b27b1e434fc4dc3aa6b590a9
     log: |
-         706c3c02eecd41dc675e9102b3719661cd3e30e2 tty: serial: Modify the use of dev_err_probe()
+         558a7f754a6299a2b27b1e434fc4dc3aa6b590a9 drop some crypto 6.16 patches
          
 
---===============1052142337130105192==
+--===============7596184569226457883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755848836 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1755848788-0a4fc27fd682e466f8a99ad95b9d7c42c634c70b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755849593 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1755849544-efa0bf5fd45d0cbb6571974d0fcf71eecc359e4f
 
-7cd9f5d6c5a3f31d2b282d31ddc4d78ff83a5c08 706c3c02eecd41dc675e9102b3719661cd3e30e2 refs/heads/tty-next
+4784f66ec1eff7db1f010b63f0eddaf75bc9c99e 558a7f754a6299a2b27b1e434fc4dc3aa6b590a9 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmioIIQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2D4P/iGYXC9YIo7TjiLxIsXs
-LujY6xlDsrw/17UMxcsI5gK4Eg+Z3I1pvf93HZtmPnArPNGGp4I212XSZRCsAaoI
-QGDxkEC/l+wvYKrCDlo7jONye0FrBLSQAIjKOy4QxAtk8Paj20Mh4W10k3bPR4HZ
-Jm9Xo2efrqfZ4kiAM/puQHrcQ5Voy4IW0bk6jV0T0QYIdutw0YF642/UN4+T5i7O
-aGymuQ3LsuoMJBWlOh8+6d3A4zbYMFzCX8CgUR0zygURPbnbFVqgHwp9jk9vhrMW
-qquteOCMInC4knoA0QQoHkOBj9UVHZECLnFdxo3zqgqEHAgQFMZBBMIymej5ellg
-V6sRBPg5c/wQpT0CSz+j7GDsZ03wQVKrD2Cmx4t8SRwKt9N3+eNIALk6cBHlh6Bj
-A42+QLdJSpJoaNnhRtAvfq4y5+2BHtOX4xwsrdUzeGUVDmB5GXi7ZGJ1SViDMfVU
-/UXNjxsxJ1PPzjLRiFx/5yFjvcwlDMTULN9W6jK5KlZEAQmC768jEhgyX1YG0BcJ
-LtAxirWJPnildxYinLyC/g3fcoBK/MCvurAb63NzHq3e7VgRQVQwTmIP7IjduS+c
-iS3PqRN+jR6GbsZt60uD5Fsp697p5wPUY78j94G3EgX+Yy2vCeeUYqnEG1ACkTPL
-weT7Q/Jtq77chBAwhVy6Uese
-=xC7C
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmioI3kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4R4QAKhCe01PXWUni4ZKynMZ
+dduqHcfZLcERbX+wsGqcMLQLYmh3aq/PtnUZjh6aHybFbkE+Ggwmw8jepGLTGvKO
++Py4TtNx+Yv0w4bYZeHxErsY8sn9Lm6H+B8PK0w47oRwV4v3xyy9uy3IIvFY16y3
+q6p4RgedWeCRghT7NeTnp+s2rIzL/ky2bo5ijG8A08oSFpzF2+osvAcAak81rnl/
+d+HnJF2vpkqLzjmUEv7MwpLJFNkb69yXpPCnHSyxTZ0JOP7O5DiKNb7KivuoJMdM
+zwzRE6Pa1PnqnArAFqA0VdhNZXCGckacvcDlEGg4tFku2DL1QlGoxoHnGUdFPx5i
++I56DjKC4lzTZDBln5MAg+XzerRVMBJ4L8G1UVWuuf2OsFUHi4w4zJO89xvmGPKe
+TFkiz9Vc6PjOE0fNIr/mA7yZv0mYaxziqlebpMNDO1DG8G5vl1Rlukh7zoxrQmWo
+i0WZPhXE4y3v++1MaDGNngxzJX/B2C8hkMPwl2EKSp59//SphLqSuob1nW4Vhg9F
+MKXba9dzqabMod2KGuFfPDWDTg++Hw8E7wM9oxotCKmvHRAMw1hq3VBVS6K4i15F
+dddVz9X8ZQavlpqlMZYYgFD22z931U07A21Kc27tBhC+ocwxe0VfsbM10YWdJmZM
+CIBT2fdj+OIDK+OCURezcUt1
+=iKfr
 -----END PGP SIGNATURE-----
 
---===============1052142337130105192==--
+--===============7596184569226457883==--
