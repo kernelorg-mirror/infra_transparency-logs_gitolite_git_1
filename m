@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4202246831369908162=="
+Content-Type: multipart/mixed; boundary="===============8962123600872488871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 22 Aug 2025 16:03:43 -0000
-Message-Id: <175587862390.3379928.5153189702162993822@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 16:03:46 -0000
+Message-Id: <175587862671.3380043.14060201120530294451@gitolite.kernel.org>
 
---===============4202246831369908162==
+--===============8962123600872488871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 1b78236a059310db58c22fe92ddd11dbf0552266
     new: 01b9128c5db1b470575d07b05b67ffa3cb02ebf1
     log: revlist-1b78236a0593-01b9128c5db1.txt
 
---===============4202246831369908162==
+--===============8962123600872488871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -235,4 +235,4 @@ b08a784a5d1495c42ff9b0c70887d49211cddfe0 net: Introduce skb_copy_datagram_from_i
 e959fe7863ec4faa10d3b48f4a4e0ff16c85bfb4 Merge branch 'fix-vsock-error-handling-regression-introduced-in-v6-17-rc1'
 01b9128c5db1b470575d07b05b67ffa3cb02ebf1 net: macb: fix unregister_netdev call order in macb_remove()
 
---===============4202246831369908162==--
+--===============8962123600872488871==--
