@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0052231969769448282=="
+Content-Type: multipart/mixed; boundary="===============2584100505511141569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 22 Aug 2025 03:54:02 -0000
-Message-Id: <175583484213.2667777.17069500234246819789@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 03:54:22 -0000
+Message-Id: <175583486251.2668840.5485050899195630833@gitolite.kernel.org>
 
---===============0052231969769448282==
+--===============2584100505511141569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 14eb6608b216129261263f6e2f969472c7c8e335
-    new: 63270d97a8d90714cd2a970e10c8758fad87ec10
-    log: revlist-14eb6608b216-63270d97a8d9.txt
+    old: 63270d97a8d90714cd2a970e10c8758fad87ec10
+    new: 9d9ace93079af7fae60816c8d677dab962713904
+    log: revlist-63270d97a8d9-9d9ace93079a.txt
+  - ref: refs/heads/tip/urgent
+    old: c6c3ead900d2ef51b283132f63cf367180110e1a
+    new: e205b86f722a8bb7c6512bc3b9e7b146cf2925ae
+    log: revlist-c6c3ead900d2-e205b86f722a.txt
 
---===============0052231969769448282==
+--===============2584100505511141569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14eb6608b216-63270d97a8d9.txt
+Content-Disposition: attachment; filename=revlist-63270d97a8d9-9d9ace93079a.txt
+
+ee69c404b5aaa6e3dcb3037fc0712f45647ce399 Merge branch into tip/master: 'perf/urgent'
+e205b86f722a8bb7c6512bc3b9e7b146cf2925ae Merge branch into tip/master: 'x86/urgent'
+e73e2385fc8e9ad4e7bf8804747738701c7d0205 Merge branch into tip/master: 'core/bugs'
+52c6899db400a68dd03e80340c550dbad98bc2f8 Merge branch into tip/master: 'perf/core'
+660587ad77e1c4a04d898c5408396d2de29bf735 Merge branch into tip/master: 'timers/clocksource'
+5a59fd85678232b017a64a448c6f942247380ddf Merge branch into tip/master: 'x86/build'
+fb037d7b713f002d2629d2ec33f591c075b8db85 Merge branch into tip/master: 'x86/cache'
+9ea0b68a6d7089ce38810808ed4f5d22df556f35 Merge branch into tip/master: 'x86/cleanups'
+2fd4bad9e0a41f8c9078164b18ca81fc1d8fb42d Merge branch into tip/master: 'x86/core'
+409ef1dd49e48dd034864d93e38c32638ae77437 Merge branch into tip/master: 'x86/cpu'
+f6bec1bdcbf400fd8c6ba1b668c4e8c10d26550d Merge branch into tip/master: 'x86/entry'
+c36bf7ca585b27d364d55491cce17bedc197c78e Merge branch into tip/master: 'x86/microcode'
+9d9ace93079af7fae60816c8d677dab962713904 Merge branch into tip/master: 'x86/misc'
+
+--===============2584100505511141569==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c6c3ead900d2-e205b86f722a.txt
 
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
 72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
@@ -139,12 +163,9 @@ b64d035f77b1f02ab449393342264b44950a75ae bonding: update LACP activity flag afte
 87951b566446da04eed1fe8100f99a512ef02756 selftests: bonding: add test for passive LACP mode
 184fa9d704bd6b96979ff57eed9e8c51203bec57 Merge branch 'bonding-fix-negotiation-flapping-in-802-3ad-passive-mode'
 9f6b606b6b37e61427412708411e8e04b1a858e8 net: airoha: ppe: Do not invalid PPE entries in case of SW hash collision
-4593311290006793a38a9cbd91d4a65b63cd7b76 crypto: X86 - Remove CONFIG_AS_VAES
 eb4a0992ddae04ad5b402029a430b2fa06c81647 Merge tag '6.17-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 32b7144f806e231a3fb619d4ddc5a6bffb731715 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 7c7cda81159b1abe7d50bcef2ccc6f662e225c8b spi: st: fix PM macros to use CONFIG_PM instead of CONFIG_PM_SLEEP
-e084e9f8151f1d37b085317752d36b4fa2fec9b9 crypto: x86 - Remove CONFIG_AS_VPCLMULQDQ
-ae7c0996c0e0f7d3bd3665020e1fbb4d99b7373e x86/kconfig: Remove CONFIG_AS_AVX512
 1c656b1efde6ce86a6c810d27a5f925e938d568d Merge tag 'loongarch-fixes-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 62708b9452f8eb77513115b17c4f8d1a22ebf843 tls: fix handling of zero-length records on the rx_list
 a61a3e961baff65b0a49f862fe21ce304f279b24 selftests: tls: add tests for zero-length records
@@ -170,7 +191,7 @@ f70e1e7980f3611039d7b9a1b34beaaba1054af7 Merge tag 'acpi-6.17-rc3' of git://git.
 f43e6ba0b45fb486cc7d51be70972395dd3ebea4 Merge tag 'regulator-fix-v6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 9a36b58a88f62398dbd005e5f3648f257ae2b9b4 Merge tag 'spi-fix-v6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 3957a5720157264dcc41415fbec7c51c4000fc2d Merge tag 'cgroup-for-6.17-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-bdadd907f485f81fc93f6667efe5167496e31108 Merge branch into tip/master: 'x86/cleanups'
-63270d97a8d90714cd2a970e10c8758fad87ec10 Merge branch 'linus'
+ee69c404b5aaa6e3dcb3037fc0712f45647ce399 Merge branch into tip/master: 'perf/urgent'
+e205b86f722a8bb7c6512bc3b9e7b146cf2925ae Merge branch into tip/master: 'x86/urgent'
 
---===============0052231969769448282==--
+--===============2584100505511141569==--
