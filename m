@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 22 Aug 2025 14:49:47 -0000
-Message-Id: <175587418711.3253600.1454007968647603903@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3388166435702612634=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 22 Aug 2025 14:49:52 -0000
+Message-Id: <175587419275.3253892.5292054177824030435@gitolite.kernel.org>
+
+--===============3388166435702612634==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/x86/tdx
-    old: d8b483ba4336470805cc04c3a263ddc126c90175
-    new: 01fb93a363e0583a3ce48098aca5ab9825a5b790
+  - ref: refs/heads/master
+    old: 2e5aec1cd7ec324580cde475c3ff6a04a9bf8a50
+    new: 50721cdd62ee283ac573e596a499f24aafee5b16
     log: |
-         94272b084a745940e076a170d8193ac3427292e6 x86/tdx: Eliminate duplicate code in tdx_clear_page()
-         a27b008a5d7e8c49740dfd4b560cd2d1abe722e4 x86/tdx: Tidy reset_pamt functions
-         01fb93a363e0583a3ce48098aca5ab9825a5b790 x86/tdx: Skip clearing reclaimed pages unless X86_BUG_TDX_PW_MCE is present
+         50721cdd62ee283ac573e596a499f24aafee5b16 use username without empty comments from gecos field
          
+
+--===============3388166435702612634==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1755874239 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1755874191-4be25058117099dfe3311bc205a2fdc592621a6e
+
+2e5aec1cd7ec324580cde475c3ff6a04a9bf8a50 50721cdd62ee283ac573e596a499f24aafee5b16 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaKiDvwAKCRC2xBzjVmSZ
+bKqWAP9+jzFlm3VaDwjVUelnLyVZv4qEev1R1qavHd7us1mwbwEAsjO0a2wA0Mrr
+fHpXe86Rac3ib0scXZhIFE/LwDB8DgE=
+=OwMf
+-----END PGP SIGNATURE-----
+
+--===============3388166435702612634==--
