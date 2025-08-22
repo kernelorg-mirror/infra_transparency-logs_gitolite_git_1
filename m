@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4597205449590500288=="
+Content-Type: multipart/mixed; boundary="===============1052142337130105192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 22 Aug 2025 07:46:13 -0000
-Message-Id: <175584877353.2870398.13109351575565491026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 22 Aug 2025 07:46:29 -0000
+Message-Id: <175584878969.2870805.16167948028576087133@gitolite.kernel.org>
 
---===============4597205449590500288==
+--===============1052142337130105192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 956606bafb5fc6e5968aadcda86fc0037e1d7548
-    new: d15fbd3ea75bc893b46e9f4df6f9469db0f93897
+  - ref: refs/heads/tty-next
+    old: 7cd9f5d6c5a3f31d2b282d31ddc4d78ff83a5c08
+    new: 706c3c02eecd41dc675e9102b3719661cd3e30e2
     log: |
-         1f43a3401debb9d06aa434ec6fecae676963d6f3 usb: typec: qcom-pmic-typec: use kcalloc() instead of kzalloc()
-         d15fbd3ea75bc893b46e9f4df6f9469db0f93897 usb: typec: mux: Remove the use of dev_err_probe()
+         706c3c02eecd41dc675e9102b3719661cd3e30e2 tty: serial: Modify the use of dev_err_probe()
          
 
---===============4597205449590500288==
+--===============1052142337130105192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755848820 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1755848772-9438fc78e68142d881ed9cb55d4dfb2d21ee7bd3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755848836 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1755848788-0a4fc27fd682e466f8a99ad95b9d7c42c634c70b
 
-956606bafb5fc6e5968aadcda86fc0037e1d7548 d15fbd3ea75bc893b46e9f4df6f9469db0f93897 refs/heads/usb-next
+7cd9f5d6c5a3f31d2b282d31ddc4d78ff83a5c08 706c3c02eecd41dc675e9102b3719661cd3e30e2 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmioIHQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7RgP+gKqlGLZILaA/+EIIMLq
-P0PcDxFzmHYvnWgpC0A8pbJ5yYQirigQ0J/RHrho5qyX9ada8i+kg0YdpI/AhlYz
-kGnkvfwkf+6NZb3MDafkxFoDEloqh9h59dkjD5EhmUfOPs087mZBsa04hUJAs+9v
-mOumNqRkNKqqVOgAtFxjRg4mIw0GzXkNmgjdWMGd/mxrgHNy4eb59iNSaEfsRQZr
-wOBDejgXGRNmg0yYa3S6Sgk96s5ZNJVe86pKnrjuC0MaeJtyz2jOF+AF11aaCwhh
-oxGAuCkOC3Z4MxrserqidQ9zcxfudoUGPO4unLWAF6TJesnllWvIcgEJlzEgaidw
-ADh/Fh/6Ei6nv1F5cAYJJDyy34lRKfbURd5UrbBoPBxDH2pl5vPBWHoZoHq7DOw/
-49UdbOHy3Vm17SjpeG45BoBMXh1vc2sQN+sDonXWGbI50AlO9yzmN4R5T71Oldm9
-9NAJiwV55HCTTLzAEJSohFvlcLFwuIsvL3E02GiA/jMHfx78lw+0muuJMUg1e5uT
-CexGNkMDIFvDHeN1gVnWPi3Yhda39StRrKCM7fCjZJdqv1l51x3TPPtjyuMImd2c
-4sW6gqT8Os2TnnnKx1RaHDERxipAhbERDScZwAWAA1ST49M0V60kvhrS/XNsJglQ
-hk0qWmdIWIhl71vlkAKUbsp3
-=9F2k
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmioIIQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2D4P/iGYXC9YIo7TjiLxIsXs
+LujY6xlDsrw/17UMxcsI5gK4Eg+Z3I1pvf93HZtmPnArPNGGp4I212XSZRCsAaoI
+QGDxkEC/l+wvYKrCDlo7jONye0FrBLSQAIjKOy4QxAtk8Paj20Mh4W10k3bPR4HZ
+Jm9Xo2efrqfZ4kiAM/puQHrcQ5Voy4IW0bk6jV0T0QYIdutw0YF642/UN4+T5i7O
+aGymuQ3LsuoMJBWlOh8+6d3A4zbYMFzCX8CgUR0zygURPbnbFVqgHwp9jk9vhrMW
+qquteOCMInC4knoA0QQoHkOBj9UVHZECLnFdxo3zqgqEHAgQFMZBBMIymej5ellg
+V6sRBPg5c/wQpT0CSz+j7GDsZ03wQVKrD2Cmx4t8SRwKt9N3+eNIALk6cBHlh6Bj
+A42+QLdJSpJoaNnhRtAvfq4y5+2BHtOX4xwsrdUzeGUVDmB5GXi7ZGJ1SViDMfVU
+/UXNjxsxJ1PPzjLRiFx/5yFjvcwlDMTULN9W6jK5KlZEAQmC768jEhgyX1YG0BcJ
+LtAxirWJPnildxYinLyC/g3fcoBK/MCvurAb63NzHq3e7VgRQVQwTmIP7IjduS+c
+iS3PqRN+jR6GbsZt60uD5Fsp697p5wPUY78j94G3EgX+Yy2vCeeUYqnEG1ACkTPL
+weT7Q/Jtq77chBAwhVy6Uese
+=xC7C
 -----END PGP SIGNATURE-----
 
---===============4597205449590500288==--
+--===============1052142337130105192==--
