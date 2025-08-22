@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7378462223287718033=="
+Content-Type: multipart/mixed; boundary="===============1139501241234782389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Fri, 22 Aug 2025 08:46:02 -0000
-Message-Id: <175585236202.2922769.11709595131299485062@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 08:46:30 -0000
+Message-Id: <175585239075.2923274.12986154316824366539@gitolite.kernel.org>
 
---===============7378462223287718033==
+--===============1139501241234782389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: 9872916ad1a1a5e7d089e05166c85dbd65e5b0e8
-    new: 800348aa34b2bc40d558bb17b6719c51fac0b6de
-    log: revlist-9872916ad1a1-800348aa34b2.txt
+  - ref: refs/heads/kasan/dev
+    old: eb0d7fad4106817f460c91dcc0f61742be9228d3
+    new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
+    log: revlist-eb0d7fad4106-c17b750b3ad9.txt
 
---===============7378462223287718033==
+--===============1139501241234782389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9872916ad1a1-800348aa34b2.txt
+Content-Disposition: attachment; filename=revlist-eb0d7fad4106-c17b750b3ad9.txt
 
+a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
 a5a6b29a700fda1dd766cc42dde2cbba9b19f470 bpf: Show precise rejected function when attaching fexit/fmod_ret to __noreturn functions
 863aab3d4dcdfffa5cf0e0795c526dadca65be7a bpf: Add log for attaching tracing programs to functions in deny list
 a32f6f17a74d0e897b48bd4c697cc9782a38bf4f selftests/bpf: Add selftest for attaching tracing programs to functions in deny list
@@ -1049,6 +1050,5 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 0a9ee9ce49a66bfdf12e34130b45fafe170dfc84 Merge tag 'locking_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
-800348aa34b2bc40d558bb17b6719c51fac0b6de kcsan: test: Replace deprecated strcpy() with strscpy()
 
---===============7378462223287718033==--
+--===============1139501241234782389==--
