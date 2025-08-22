@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7041456575714703549=="
+Content-Type: multipart/mixed; boundary="===============0353880998686276083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 22 Aug 2025 20:00:14 -0000
-Message-Id: <175589281401.3594512.793457894424225419@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 20:00:34 -0000
+Message-Id: <175589283454.3594936.712846188312999580@gitolite.kernel.org>
 
---===============7041456575714703549==
+--===============0353880998686276083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-fixes
     old: 86731a2a651e58953fc949573895f2fa6d456841
     new: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
     log: revlist-86731a2a651e-c17b750b3ad9.txt
 
---===============7041456575714703549==
+--===============0353880998686276083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
 
---===============7041456575714703549==--
+--===============0353880998686276083==--
