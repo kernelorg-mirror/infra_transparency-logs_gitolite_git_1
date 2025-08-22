@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9207923794384147845=="
+Content-Type: multipart/mixed; boundary="===============6944265894861763253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 22 Aug 2025 16:25:25 -0000
-Message-Id: <175587992561.3404997.17000815111921302562@gitolite.kernel.org>
+Date: Fri, 22 Aug 2025 16:25:28 -0000
+Message-Id: <175587992831.3405088.2274490608748591050@gitolite.kernel.org>
 
---===============9207923794384147845==
+--===============6944265894861763253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 07cf71bf25cd4e5735ff13468e7b86f02c3665cb
     new: cd31182c80e8ec02dacd1d56b91c31e5c7d2c580
     log: revlist-07cf71bf25cd-cd31182c80e8.txt
 
---===============9207923794384147845==
+--===============6944265894861763253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -350,4 +350,4 @@ d06d70eb6af441c59ec8fc71df0c47427321318b selftests: drv-net: xdp: Add a single-b
 bbd885b193cc8a651e18eef74f0e094acbc802b8 selftests: drv-net: xdp: Validate single-buff XDP_TX in multi-buff mode
 cd31182c80e8ec02dacd1d56b91c31e5c7d2c580 Merge branch 'selftests-test-xdp_tx-for-single-buffer'
 
---===============9207923794384147845==--
+--===============6944265894861763253==--
