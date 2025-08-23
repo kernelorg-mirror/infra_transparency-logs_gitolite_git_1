@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Sat, 23 Aug 2025 10:35:09 -0000
-Message-Id: <175594530911.198529.13182745135782813701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Sat, 23 Aug 2025 11:10:52 -0000
+Message-Id: <175594745211.227187.7402621813723964752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/rseq/perf
-    old: c3f9d97d82881880460dacf48da60a280f4797cd
-    new: 455fd1908fbe09a1924e3faf2203473fc9e97f03
+  - ref: refs/heads/main
+    old: e81e84078cec4f7de0399a6111ed07b371105fc9
+    new: 75f5e16c61ce1c3261fdbfd1b67b2834d2f5884c
     log: |
-         180447431aea3dafdb5cf2974a2a9ccb65c39dde uaccess: Provide user_rw_masked_begin()
-         455fd1908fbe09a1924e3faf2203473fc9e97f03 selftests/rseq: Fix the broken library constructor
+         75f5e16c61ce1c3261fdbfd1b67b2834d2f5884c chore: add helper scripts
          
