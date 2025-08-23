@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 23 Aug 2025 17:07:41 -0000
-Message-Id: <175596886191.771876.3786484816258939692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 23 Aug 2025 17:08:22 -0000
+Message-Id: <175596890201.772671.7458355614734072551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/fixes
-    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    new: b3065ccf5284a25678ce4a32d9cfb9ece91d379e
+  - ref: refs/heads/master
+    old: 1e1cc2d32bb40b7dc60a8ae9ec16eba0e8dd4fe8
+    new: a0c0806e9cadde662ed924102b8e0e4c7fb1a405
     log: |
-         b3065ccf5284a25678ce4a32d9cfb9ece91d379e erofs: fix invalid algorithm for encoded extents
+         a0c0806e9cadde662ed924102b8e0e4c7fb1a405 foo
          
