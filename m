@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1300741374199048864=="
+Content-Type: multipart/mixed; boundary="===============2638082097991767918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 23 Aug 2025 14:52:04 -0000
-Message-Id: <175596072493.539496.8880569926444301278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Sat, 23 Aug 2025 14:52:24 -0000
+Message-Id: <175596074499.539896.7229179576443578412@gitolite.kernel.org>
 
---===============1300741374199048864==
+--===============2638082097991767918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: e1d8f9ccb24ecd969fb1062886b20200acc60009
     log: revlist-3957a5720157-e1d8f9ccb24e.txt
 
---===============1300741374199048864==
+--===============2638082097991767918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -215,4 +215,4 @@ bfb336cf97df7b37b2b2edec0f69773e06d11955 ftrace: Also allocate and copy hash for
 52025b8fc992972168128be40bffee7eafa532b5 Merge tag 'driver-core-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e1d8f9ccb24ecd969fb1062886b20200acc60009 Merge tag 'trace-v6.17-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============1300741374199048864==--
+--===============2638082097991767918==--
