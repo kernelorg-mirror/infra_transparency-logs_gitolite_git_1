@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 23 Aug 2025 08:11:32 -0000
-Message-Id: <175593669275.76273.7776152329648502439@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2600148254096465957=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 23 Aug 2025 08:11:47 -0000
+Message-Id: <175593670792.76754.16241315861324688412@gitolite.kernel.org>
+
+--===============2600148254096465957==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 95b296983e218ffe57baa69205de1f5dafc45936
-    new: 1e1cc2d32bb40b7dc60a8ae9ec16eba0e8dd4fe8
+    old: 15944b9f951b6cbec8554e960cc62846a31e52a1
+    new: 769e686747819b1b0dbd5921952730e157ed83e8
     log: |
-         53b0cf91fe970cfb7cbf42940712ecdb19dc3a80 foo
-         5fedb57dd29954a106ccef92143e97c3baea56b2 foo
-         31e30750a2cd8814748da079d0aba945385be18a foo
-         82db6f0851351fd89d11e43f7d910a62ebef14ea foo
-         5c0a30ef885b99653456aacb5ea0a267612dfb97 foo
-         8c09f268dcee582691328d6e31df5fa80929f9c7 foo
-         595abbb3a398ce607e629e9aa078b862db2c0c69 foo
-         1e1cc2d32bb40b7dc60a8ae9ec16eba0e8dd4fe8 foo
+         769e686747819b1b0dbd5921952730e157ed83e8 5.10-stable patches
          
+
+--===============2600148254096465957==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755936755 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1755936706-aca3606e54c261a706a53720d965472ab0f96fe2
+
+15944b9f951b6cbec8554e960cc62846a31e52a1 769e686747819b1b0dbd5921952730e157ed83e8 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmipd/MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6s0P/jjJ0Z+xxsF+/mrZkcYZ
+svJ7x4mq/VoWPseTsnBuAWigIxLtSR+v4jfcpRPdR9vaPbdVRNBlzcqTVmAS/2Fq
+j1tT6+FuvIcOc2mWirUaBDX5ZGEJmwG58GJSlISIFyuPIe3OBft+nK/Gym+U8Wjw
+hLu5xEsvp8rl/fkdZwuypVQ/VtaMs636+Wcpo61g2ZLM7X+j7lOvoh0ZgmOTRGUf
+zKIguStctAST1VG3YO9+4jBrVUQFc7rz4vjV6/5KrvD3vCOU6gPBZKqSWBQRwXRA
+6niY4k5aNWwaBrgRwD98MIQlM/p4J+aYDhYtAyGTS0wZXoZicvIcWGcHcEUgwajd
+oVzR0YXEFKk+IixWmvFNGWVrftkxC0G7dUdnojpE2a5dxZDWZFHDTsXDudI19Etd
+Evhwuq27uY6vbJPMW8vHYvXEBeZHP2PFzWiPy3W+EdEe5gdneGi2ip28xE2+2icb
+pR/BKD6qlZ2jbX3jA3985j+hUxnb4D4CGPRszjh2YF45ZhGjN5K5iuynMKZLteR3
++abckz2Fp5MtJTaimWjzasYP9W6L9FuZZ4vu8jUHOeMzKL/ZTVwA3zvHn5Qq9hLv
+fl1wjD9PYMPPN0RqrQVEEJUNfDwaWm6je4yu19grTafyfxNowV1EfVpjc75j//ba
+KJp2wSB285y2h9rZVyJQRl4G
+=2eB6
+-----END PGP SIGNATURE-----
+
+--===============2600148254096465957==--
