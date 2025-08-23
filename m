@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sat, 23 Aug 2025 18:58:43 -0000
-Message-Id: <175597552364.862816.16583439337514557844@gitolite.kernel.org>
+Date: Sat, 23 Aug 2025 18:59:50 -0000
+Message-Id: <175597559041.864063.17813921467375651783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 3f87d4025ecc8f770fb4a06e7474a4f30bc461e9
-    new: d33a4aaee9eaed8da480e42d89e6a27f45c5fc6e
+    old: d33a4aaee9eaed8da480e42d89e6a27f45c5fc6e
+    new: 67fbc49525b165aed0287b2149a160ea6cc84c4e
     log: |
-         d33a4aaee9eaed8da480e42d89e6a27f45c5fc6e fix(data): correct TpmuSensitiveComposite::Rsa variant type
+         67fbc49525b165aed0287b2149a160ea6cc84c4e fix(data): correct TpmuSensitiveComposite::Rsa variant type
          
