@@ -1,65 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5562859184169845493=="
+Content-Type: multipart/mixed; boundary="===============0153155809678911936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 23 Aug 2025 14:04:22 -0000
-Message-Id: <175595786265.393786.7128980046246175671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 23 Aug 2025 14:06:52 -0000
+Message-Id: <175595801251.447161.1435728014283246205@gitolite.kernel.org>
 
---===============5562859184169845493==
+--===============0153155809678911936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6debb69041724bae8a8a4d0ac60502754c1cd945
-    new: 52025b8fc992972168128be40bffee7eafa532b5
+    old: 7627e30cc2cc920677dfcd5c8966146de3f23101
+    new: d960d22f893eb27755dd2b667d86ec11c9b004d5
     log: |
-         eb5ca9094a18fb98777bf4814ea84c93bf7c271d mm/vmscan: fix inverted polarity in lru_gen_seq_show()
-         82b3644d3deab496cc09f29f3449ede6824b3e8e device: rust: expand documentation for DeviceContext
-         d6e26c1ae4a602d8b7eeb39e23514f6f98d91eb5 device: rust: expand documentation for Device
-         970a7c68788e3fec237713eef22ace46507bcf9c driver: rust: expand documentation for driver infrastructure
-         a5ba9ad417254c49ecf06ac5ab36ec4b12ee133f rust: faux: fix C header link
-         75a7b151e808355a1fdf972e85da137612b8f2ae rust: devres: fix leaking call to devm_add_action()
-         ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46 debugfs: fix mount options not being applied
-         d49172bbd7eb07e4ba5e52238eaa9caf692c1cea Documentation: clarify the expected collaboration with security bugs reporters
-         3a68841d1d9b6eb32b2652bbb83acd17d5eb9135 Documentation: smooth the text flow in the security bug reporting process
-         52025b8fc992972168128be40bffee7eafa532b5 Merge tag 'driver-core-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+         20a7758a351bd7ad6e897bec91c3e7d6cd59fb4c 6.12-stable patches
+         6077b3fed3774642c2eef95034d0fc9c30e670ec 6.16-stable patches
+         d960d22f893eb27755dd2b667d86ec11c9b004d5 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
          
 
---===============5562859184169845493==
+--===============0153155809678911936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755957909 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1755957860-71ed072baf2ab10326f123d550d371c11c2e5b5c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755958059 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1755958010-2aea41a9cb0da754d14a6c9a7c52ff55a1cf32ba
 
-6debb69041724bae8a8a4d0ac60502754c1cd945 52025b8fc992972168128be40bffee7eafa532b5 refs/heads/master
+7627e30cc2cc920677dfcd5c8966146de3f23101 d960d22f893eb27755dd2b667d86ec11c9b004d5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmipypUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h3UQAKctbZWzIOHl9VAHQA9A
-snvvDZFlL3vos2gob9TaMFWmlX9GuC5lnqqqKw3tawfSI6nJW3dnfyjv+Psqutu2
-2w1Q06GD5fbAtdpmrQ6ASSgsyr14sFTuJpoGy7m6wxS9ondFSsfxGJsUaPd5Pk67
-k59nk7J8TisGkpgGmWh+6504YNc3BYhRZ7EV+658mT/eYXNlmZCvnttRvbjmapMA
-ppTjLfyCRrrTiigE8mgvXhyaKOId/0Kneo44D8YX2T/JVHG5tiHdfqWne8EeRaob
-VKchbi41IoyivSTyWlkUgfBvET/D/Gfv2al10M8OuzOzSyE4/wbFxmIMequzLIFN
-j45hYSNmri6wYaFp03GO1L8kzHjoiqkujFfiD8/eoOkpiS7MIa2r5zKvjRRT4EaN
-cugTAbqmFKVcjvT6fjs6wnVozi1Oin2q9+Znv0RSWiuhHhxn824UkSi0tczmCL2H
-zHbbkFBTf0Q9TNTk1onrmmsRGA+8Q2SMNuI5U6ZIICe2KCMBTtrro/zVbYdJP+N2
-Jeqp4vX5YqGBdD/uU43FGKcCZ37g3zGz/BSSaeRNj1nqWxg56NMaO2ncGI7wJzYX
-LA1gEf5P6G4bv4Tyb9utjjT+Ah0orIFHa11HM00VUawdPYYlrVo5W+lklSHh5q4R
-LO9Pq3AIvL9o/U5DIogOC0Xc
-=muRt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmipyysbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SncP/3ARCKxtFqKi5oa3g6F1
+32s0jqpgOpLhWjyBJxH2RkbgzA76iIPekrSaSP4Fqwl2X3ew7ds+jYx/Jgh1RkDD
++LOSnmMSJZbq/jgvHGS4qD/rrrG1hP01/XlHIEPwuhc4vTYXSVP7lSMkbkgTIwf0
+orDqpQhaXx1MGVS3xaR9jTK3fLpgj5Xwd5h1szILESK7AunIp3/81rz82lhy/42/
+PF6PT7tlUPCiNyWPiL2gMv2Ypy+ecBKVFRvIV7gvxusKHnmdYnIEtJDaiSEe0W4v
+IMudNkkkwyF5ZHmklOOcRsqWcxTKWfhWGgoP+Fu34vooLDySeXXXTR3RdG6Tf6Su
+QhEhDG9ZPbrc9+AboYlaZdu/hancbg3CYepEw7abI+R8ee0GA9rincawxIjGBo6x
+Vm7qsL6xBlBtZaZgYKUJrc5UlydGaNFRx++CNOECDBYezejyOTw8lr9Oiw7KYAql
+qiBN2WM1VuOS41uerPOUMvN4URvd7wRL5RUdJBjuuj6Sb/A7RKyhW2J1I71yJHmL
+GvijfgVRqew7MdPtB8cG/HqMiJHlKifEbCLPEg1gBZay6c5ACp0Yr/hx8pjxYXy0
+gUxeWqOH1eUHPVxqBhOafC5WnEl2IGtZ4irMRQABWXHoUSwlFHEeTA1HNCWJdlRP
+axHqFi1ryMJCS7bLfKtPR3NV
+=ROr0
 -----END PGP SIGNATURE-----
 
---===============5562859184169845493==--
+--===============0153155809678911936==--
