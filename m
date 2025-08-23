@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1898416326039092306=="
+Content-Type: multipart/mixed; boundary="===============4077375586132992053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 23 Aug 2025 06:47:44 -0000
-Message-Id: <175593166427.4148277.11804070816257339763@gitolite.kernel.org>
+Date: Sat, 23 Aug 2025 06:50:37 -0000
+Message-Id: <175593183758.4152117.3921906023397954157@gitolite.kernel.org>
 
---===============1898416326039092306==
+--===============4077375586132992053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9d9ace93079af7fae60816c8d677dab962713904
-    new: 9b537c3245f8ff4a29d5d79a842a18ef2e06873f
-    log: revlist-9d9ace93079a-9b537c3245f8.txt
+    old: 9b537c3245f8ff4a29d5d79a842a18ef2e06873f
+    new: 7182bf4176f93be42225d2ef983894febfa4a1b1
+    log: revlist-9b537c3245f8-7182bf4176f9.txt
+  - ref: refs/heads/tip/urgent
+    old: e205b86f722a8bb7c6512bc3b9e7b146cf2925ae
+    new: 6999d79d0d4dfd60fbf4b988eb7dfff8c3023efd
+    log: revlist-e205b86f722a-6999d79d0d4d.txt
 
---===============1898416326039092306==
+--===============4077375586132992053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d9ace93079a-9b537c3245f8.txt
+Content-Disposition: attachment; filename=revlist-9b537c3245f8-7182bf4176f9.txt
+
+24ae59503ef35b5f19a43b50cc901e818a309fe4 Merge branch into tip/master: 'perf/urgent'
+6999d79d0d4dfd60fbf4b988eb7dfff8c3023efd Merge branch into tip/master: 'x86/urgent'
+19bc0937eac297d9d05efad2ea8f5b206130463f Merge branch into tip/master: 'core/bugs'
+1be80fea6540665e323c73a5009e9e4e7f940b6a Merge branch into tip/master: 'perf/core'
+bbc2f7a1defd87eec79b6c19f0edbba369f968ec Merge branch into tip/master: 'timers/clocksource'
+8fd59e62b6788e129d4ef7e72eb9f39feabdf0d1 Merge branch into tip/master: 'x86/bugs'
+2a732d69943cac7ab205d77c06728319280e5947 Merge branch into tip/master: 'x86/build'
+c03efbfa192c59d1b9a7aa0e34dc6108da0ca858 Merge branch into tip/master: 'x86/cache'
+8545e09c53344f7112fcdc51c6f315b36cd2ac38 Merge branch into tip/master: 'x86/cleanups'
+657fa859c9d020245f3b1f03196be783cdae7584 Merge branch into tip/master: 'x86/core'
+98d8e6e4fc534f66b298fca939280a7872a9788c Merge branch into tip/master: 'x86/cpu'
+0b58dd9af074a9f6af19510931ba2b4fcabf2723 Merge branch into tip/master: 'x86/entry'
+e2b02e72b3d1cf0d80284654864c9b416532fc40 Merge branch into tip/master: 'x86/microcode'
+08b504cd35aad6b725f8b452c7bed61f91e28757 Merge branch into tip/master: 'x86/misc'
+418168c84048587956a909a40fe2c1d83b01db25 Merge branch into tip/master: 'x86/mm'
+7182bf4176f93be42225d2ef983894febfa4a1b1 Merge branch into tip/master: 'x86/tdx'
+
+--===============4077375586132992053==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e205b86f722a-6999d79d0d4d.txt
 
 bb8aeaa3191b617c6faf8ae937252e059673b7ea drm/nouveau/nvif: Fix potential memory leak in nvif_vmm_ctor().
 01c2afe7358385a5381835293dfb6901f11b1691 drm/nouveau: fix typos in comments
@@ -164,7 +191,6 @@ dbb2c3adc4a641d9f136005285bcbba15227249c Merge tag 'amd-drm-fixes-6.17-2025-08-2
 279eb50aa8b6b6b69a57a2a7f0bba24dda44f102 Merge tag 'asoc-fix-v6.17-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 5003a65790ed66be882d1987cc2ca86af0de3db1 ALSA: timer: fix ida_free call while not allocated
 d2d7a96b29ea6ab093973a1a37d26126db70c79f mmc: sdhci_am654: Disable HS400 for AM62P SR1.0 and SR1.1
-f3285344a5a370ee72ff6db2759b0f11d1495c70 x86/cpu/cacheinfo: Simplify cacheinfo_amd_init_llc_id() using _cpuid4_info
 2d82f3bd8910eb65e30bb2a3c9b945bfb3b6d661 blk-mq: fix lockdep warning in __blk_mq_update_nr_hw_queues
 275332877e2fa9d6efa7402b1e897f6c6ee695bb block: skip q->rq_qos check in rq_qos_done_bio()
 ade1beea1c27657712aa8f594226d461639382ff block: decrement block_rq_qos static key in rq_qos_del()
@@ -179,8 +205,6 @@ e4e6aaea46b7be818eba0510ba68d30df8689ea3 io_uring: clear ->async_data as part of
 685ca577b408ffd9c5a4057a2acc0cd3e6978b36 iommu/arm-smmu-v3: Fix smmu_domain->nr_ats_masters decrement
 72b6f7cd89cea8251979b65528d302f9c0ed37bf iommu/virtio: Make instance lookup robust
 99d4d1a070870aa08163af8ce0522992b7f35d8c iommu/riscv: prevent NULL deref in iova_to_phys
-5be502174bf0f5d0aafaab57fa4512723d6d2973 x86/entry/fred: Push __KERNEL_CS directly
-d20a5d96eddb95b4faa33247ec653a580c48fdfa x86/idle: Use MONITORX and MWAITX mnemonics in <asm/mwait.h>
 6eba757ce90483b76da4e7eda962d8b8b8930f2c Merge tag 'mm-hotfixes-stable-2025-08-21-18-17' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e86ba12cf84ab9cf42fbc2382235fa7ba616e18b Merge tag 'nfs-for-6.17-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 3cfcd57def3395d8e767698f3fb20146cb0c4ba0 Merge tag '6.17-rc2-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
@@ -192,27 +216,13 @@ edeee68c42747c9d9b237f06fbc4cd1a2348fefb Merge tag 'scsi-fixes' of git://git.ker
 d28de4fc0aaa8db6c0163e37c6d4d07f062a08db Merge tag 'io_uring-6.17-20250822' of git://git.kernel.dk/linux
 a2e94e80790bb103ca72f8a2991f43c80474a4b6 Merge tag 'block-6.17-20250822' of git://git.kernel.dk/linux
 272aa18fea29f3299960b62e2c24efb049b540ea Merge tag 'platform-drivers-x86-v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-6bca6b9d414c8127350341f193caa11944ce6fa9 x86/its: Move ITS indirect branch thunks to .text..__x86.indirect_thunk
 b3d80535e213ad6584577b0f20d9d49ccf233206 Merge tag 'for-linus-6.17-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 cf6fc5eefc5bbbbff92a085039ff74cdbd065c29 Merge tag 's390-6.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-81e39b6d89b5148480f607f93a88cd16f7df6f4a MAINTAINERS: Update the file list in the TDX entry.
-957e3855407d943577695531931e8aec938733d2 MAINTAINERS: Add Rick Edgecombe as a TDX reviewer
-d8b483ba4336470805cc04c3a263ddc126c90175 MAINTAINERS: Add KVM mail list to the TDX entry
-94272b084a745940e076a170d8193ac3427292e6 x86/tdx: Eliminate duplicate code in tdx_clear_page()
-a27b008a5d7e8c49740dfd4b560cd2d1abe722e4 x86/tdx: Tidy reset_pamt functions
-01fb93a363e0583a3ce48098aca5ab9825a5b790 x86/tdx: Skip clearing reclaimed pages unless X86_BUG_TDX_PW_MCE is present
-86e6815b316ec0ea8c4bb3c16a033219a52b6060 x86/mm: Change cpa_flush() to call flush_kernel_range() directly
-966f504977e3a04fcadbaf199e3302e95e8958b7 x86/asm: Use RDPKRU and WRPKRU mnemonics in <asm/special_insns.h>
-045f6a6e4dbaa0ecdee43bc2362676ff62ba5456 x86/mtrr: Remove license boilerplate text with bad FSF address
 f9915c391cf72789ec5b6d5966ba82c2bca5daa7 Merge tag 'drm-misc-fixes-2025-08-21' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 471b25a2fcbb25dccd7c9bece30313f2440a554e Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 a60f5ee68efd91b4507eacbb40d4024ecf363304 Merge tag 'drm-xe-fixes-2025-08-21-1' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 6debb69041724bae8a8a4d0ac60502754c1cd945 Merge tag 'drm-fixes-2025-08-23-1' of https://gitlab.freedesktop.org/drm/kernel
-401f25dd234045dbcdf0d8ca6196d9066ea8f2fa Merge branch 'linus'
-a61555e213c608e6866f10d59cff453c24d01650 Merge branch into tip/master: 'x86/bugs'
-b76358cb144142529374cf14ffdc806c26600d32 Merge branch into tip/master: 'x86/cleanups'
-d7c33a248275cb6aeab7a6081b15ad020ea844db Merge branch into tip/master: 'x86/cpu'
-52244bf065ec050897fc4f157124bcae2d272375 Merge branch into tip/master: 'x86/mm'
-9b537c3245f8ff4a29d5d79a842a18ef2e06873f Merge branch into tip/master: 'x86/tdx'
+24ae59503ef35b5f19a43b50cc901e818a309fe4 Merge branch into tip/master: 'perf/urgent'
+6999d79d0d4dfd60fbf4b988eb7dfff8c3023efd Merge branch into tip/master: 'x86/urgent'
 
---===============1898416326039092306==--
+--===============4077375586132992053==--
