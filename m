@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 23 Aug 2025 19:23:13 -0000
-Message-Id: <175597699374.884452.1320760845700053979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Sat, 23 Aug 2025 19:30:48 -0000
+Message-Id: <175597744826.891970.18354546108030582842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: e907d6a342e80b70874f93abd440b92b8a40b7bc
-    new: c8e172255778537e0ce88ee350f46e976e57d4d8
+  - ref: refs/heads/b4/aarch64-dynamic-kernel-stacks-v6.17-rc1
+    old: 70a9e57f826256b02474b9c2dba3acffd167b824
+    new: 8d4ba86e21dc6c56dc9dcbda28049d8f887af44b
     log: |
-         c8e172255778537e0ce88ee350f46e976e57d4d8 Bump liburing version to 2.13
+         2e67d019c6eef3b57752b793680e482cec9fe25a arm64: Support dynamic kernel stacks
+         8d4ba86e21dc6c56dc9dcbda28049d8f887af44b current hack
          
