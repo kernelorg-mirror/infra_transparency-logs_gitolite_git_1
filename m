@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6341431639360302011=="
+Content-Type: multipart/mixed; boundary="===============5821291019045959160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 23 Aug 2025 16:38:44 -0000
-Message-Id: <175596712438.747203.13673736413490773649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 23 Aug 2025 16:49:46 -0000
+Message-Id: <175596778678.756897.7489382703629643106@gitolite.kernel.org>
 
---===============6341431639360302011==
+--===============5821291019045959160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: eb9737e824552f024bc533ec476a533a259ee3c2
-    new: da741bca4a538303e0f4c97f6adafe2eed1b7476
+  - ref: refs/heads/next/clk
+    old: 1a713bd3b0c60d826bdde633919bedc1fd38df4d
+    new: e278e39b014d789fb670695d422ff33c3ef56040
     log: |
-         da741bca4a538303e0f4c97f6adafe2eed1b7476 scripts/cve_stats: fix bug with bash and octal values
+         05c58c9415d1369387aedd28518fd0fdaeabd178 clk: samsung: cpu: convert from round_rate() to determine_rate()
+         e278e39b014d789fb670695d422ff33c3ef56040 clk: samsung: pll: convert from round_rate() to determine_rate()
          
 
---===============6341431639360302011==
+--===============5821291019045959160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755967169 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1755967121-895191f3c6b5d166a3841ca07858bb92c25faaf1
+pusher krzk@kernel.org 1755967833 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1755967784-7f82c5a0cbfb7016a9db9ab73d45aa3bf2ab78d2
 
-eb9737e824552f024bc533ec476a533a259ee3c2 da741bca4a538303e0f4c97f6adafe2eed1b7476 refs/heads/master
+1a713bd3b0c60d826bdde633919bedc1fd38df4d e278e39b014d789fb670695d422ff33c3ef56040 refs/heads/next/clk
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmip7sEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1dAP/ivilxjKaKtr9ErP6aiB
-h865OoQGNGhr0d/8V7scBlnQnrDvNwtKDfWlpm2ZMiMLtvc9GqtVlG395E78MEOX
-BGgPTS0gVxxqj17TN50yv2X51gdeVPN799KxOYpcy5BOVOlo9oYaXvo0+KXdowx/
-x9714cy7U5sQpFXRH7ENeYVBFRSlW6GPpVPEGN2OuDrD9ZmnLrRzc+0wHHaz6fXT
-HePnVyh9gIbwJ6vGWtvgyPQZAFnEY0R5Rlq1LxIuod916YO8ZMS6MYJJO/LJu7ZL
-6KPQr5bXRjuVw/FsBfXplYO9+fV0DXlBk5CfCmtk2vGPgAJoroSEu9r6CKrw+h02
-ozT7IH47OhIdpbIxin46aHycBWHmil1jY7VyvvswkA+qpRZGt9mYPKUym+JHHG/q
-b6eAFmzoYFrZs9OxwaYwdfrk3yRMNceRzcLke6yEpbLz1xPH7HhSix+97v98L8yV
-SXdp7rievi7UqJD4Decww8DkfksPiL4w2F5XHOPGby9bX9/YevQiw0pIvNQYCWms
-zsKMHUCi2oJloVLM2W06MZE0itqK98GGLe384LSU56Ptte5tJXvPV6fu2LETvAHu
-8gf/+0YP7apAR26rLcKu+0CbrJALugZHejrjGrfvR2z65qmiWg5Jf2elhr2m9x9H
-ldN2y/+0+abQUg51FWg0n2ef
-=a7Lh
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmip8VkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD135vD/9JNERzxY+hLWkAZnSDhrlTncrVQkifWQS5
+DhWgRkhIOD8QNRw1V+At1ftuzzfjOkSxCrhc+qIQ/OkjHRQ5J2JwjlE5QXsaxpF1
+jEBbRPQC29kqWNSuWfpSNlFHNQ8zx9ztFQw64YWaRpxYx3eCZtzFbcacqG/b2gza
+wItjtCcovxbdh6G8EItNIyLnNeA61BjcqszEbXonoFRw7vjg0TpP2jvrtWmVWhLZ
+C+NTjxKCaY+wBFVSnYGvuHueF0CXp8hOUyq3ug7qnlh9piL6B56XMcrwwW0kvbO4
+t1oDIqvYHBy3hpmv8kOClacvlDj2/P7Yl/7qjHIVRpkEtkS+lpdq0i6Aegdp3O3E
+3Fx3xnQuUtn1hLL1yL8cvJMDrnE4kBIruA5J47Oa2P1hY6H4YH12el+eAgIOLejC
+Ut3nzGqqxts/m83kQHYg9+pLMF1Nb/C+eMDRAR0zs+PUEu1vX/PrlV6Eua3OkJDA
+IF0bBz/Tf7HoquCRi++Sd3Uj9bEEP/laboau4Bwh30Waasy5I5Yo8hD7XqG+mNiq
+WtRxK9KpsnpGy+CE0H5xprdJNkqZmzNA64M2uf/eZNNO1bBNUvTmBtlc9/PGJ1NF
+oVoFswjXrroHva9W57HJ3Pnpz7LJeAXBy6U1nQ09ax+6mHC3yxuZD6V63b9YM+VG
+9OJHwuG1RA==
+=NFCV
 -----END PGP SIGNATURE-----
 
---===============6341431639360302011==--
+--===============5821291019045959160==--
