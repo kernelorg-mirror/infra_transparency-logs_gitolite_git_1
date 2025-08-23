@@ -1,120 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7529750188514124352=="
+Content-Type: multipart/mixed; boundary="===============1244321531552562654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 23 Aug 2025 08:04:20 -0000
-Message-Id: <175593626026.17480.7471583781465114539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 23 Aug 2025 08:06:45 -0000
+Message-Id: <175593640555.70848.17108498496259061520@gitolite.kernel.org>
 
---===============7529750188514124352==
+--===============1244321531552562654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cf6fc5eefc5bbbbff92a085039ff74cdbd065c29
-    new: 6debb69041724bae8a8a4d0ac60502754c1cd945
-    log: revlist-cf6fc5eefc5b-6debb6904172.txt
+    old: ba6be28c65f0b039627bd7ee889631c36ba96d78
+    new: 80835abf7b908d1fc4b89e726ffac3d1312ca1ac
+    log: |
+         80835abf7b908d1fc4b89e726ffac3d1312ca1ac 5.4-stable patches
+         
 
---===============7529750188514124352==
+--===============1244321531552562654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755936304 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1755936255-c378a1e15d48af1eee59af5644fed92fe458088d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755936452 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1755936403-436d5d442373dd2ef3890c48b9cbdca340895e2f
 
-cf6fc5eefc5bbbbff92a085039ff74cdbd065c29 6debb69041724bae8a8a4d0ac60502754c1cd945 refs/heads/master
+ba6be28c65f0b039627bd7ee889631c36ba96d78 80835abf7b908d1fc4b89e726ffac3d1312ca1ac refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmipdjAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RoMQAI0CE14JQSjQwnAHi/Qq
-2GBuW2o+VZSksD1zujdiE0NUbXv7E07UKYc2DZ+PR5sqF6bqZep7/Pz/ciK67Y3S
-tw8L5Snq22jLjx/DUTKCk20t9Q1XgXjHeKVbTr20By58LeXvSf8JGqqWji670yhr
-iKSlMxjrLx3AFIGIFDTsPL4mb4NmS7dTcoOqmYwvZdtob0Gwr00ASQrCBgZKdoMC
-kD9y5ELPSOn9Rsnu+KfkZ8sIFpNWrZepjmhgd3lNSM1rXfyyNhc+vaXwwSoS+VQD
-En2faXVR2rAgC1H/Xx/ekCklWA/APSuLOXstNp+BmBLkHl9m5NDhmnG8SdPgDhhn
-5KeEs4685rZ4RFesECnWiPcymLJKaP1pqgwZnML5Pjo5MqVmPB9KLkpUvwhioQyS
-N5bMxJPwRSFCq9zBUH5/xPGMj9nmgQgm0qpekykl/fLhgxfZb58qRGA2EluKwVBM
-K8hxThEDEqnG+7eeMlKl/NVYCa+ecrDS3yA3JAJO/KDSwxMYmwAYHfiY8BOQiRzt
-IZa02d/MuH71Ak9bHdZ+E6Tp40J0KsjvIImOBHZCMl4hKEID/8TNZbnL3IuwlZ9Q
-yy0t9ir5X03uhybvY7XxamKlGHXYi/czdpMp3eKnE7sN7TlfEcbwIprfmeG++JN0
-RbZj1cl4tZ/xJ3ZrNYa8ERV4
-=hsWm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmipdsQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YC4P/34Fy8FrptEfcvDwlP5d
+/84Xs8rcnARfXNcU/8C3KB0T33SFj0Lv33FHHVWN0chYXRMaa2LTqWkl70Eg4t65
+cqRAqzAEy7WZ5vYta1vNj8Kazu4Zc65M6k8sCKXoqLGGtmpLnrSR1HhXm38xodHS
+8QveHT+VClC1TQ6h1EN+taId23blOZjj4wbdxhlQNqT6FhdEqoqVCmNGEB2wvoSB
+g/HRLRAd+HXUv8znJxErA/YdZPdhQ/FG6oAYDAUswVDnZ1W5LyicpA7nUiC0P0YM
+XvyLgap+Y4BKFyPBa5Wfomvo2aIFUJob+pQSrbWUR/c7jC/16zKiZRbyxWy0v7Jl
+iFtpi/vGEgaUUSSL2rT3bz6qMOftHTf1UwYDRM8y40fxU4nv7ezVQyhYM6XWdSrM
+GhCC3lSCRHXUE0Nj2JYJqNyGGwnRpbKDsjy0rMT38eV0owx7n5Yc7S/Vk5/7dliu
+DynatWVJumk/BJh4tZCQU6I0o9K7KTtxTMrd1DN+haCj+pT7Kcx+h68YZFDwAEq3
+IeG6wHZfIopGlk9V7E/Pw1ij4v/D509ZDrMNft5ehLLL/i+HLVtZ0Q06n6dTlcix
+53zkoW6naIaF/M9OH9o5sNcV4w106sWZJ4E48pCp7bL7XRhGJnQSbNfSQlIM6D2q
+9/aqvLpnmzIO1oVoW5d6EVHb
+=EqCl
 -----END PGP SIGNATURE-----
 
---===============7529750188514124352==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf6fc5eefc5b-6debb6904172.txt
-
-bb8aeaa3191b617c6faf8ae937252e059673b7ea drm/nouveau/nvif: Fix potential memory leak in nvif_vmm_ctor().
-01c2afe7358385a5381835293dfb6901f11b1691 drm/nouveau: fix typos in comments
-8d2b0853add1d7534dc0794e3c8e0b9e8c4ec640 Merge drm/drm-fixes into drm-misc-fixes
-d28b9d2925b4f773adb21b1fc20260ddc370fb13 drm/tests: Fix endian warning
-05663d88fd0b8ee1c54ab2d5fb36f9b6a3ed37f7 drm/tests: Fix drm_test_fb_xrgb8888_to_xrgb2101010() on big-endian
-5634c8cb298a7146b4e38873473e280b50e27a2c iosys-map: Fix undefined behavior in iosys_map_clear()
-f87d597e8393f7038de046ed7f13bb176a4ead55 MAINTAINERS: entry for DRM GPUVM
-fde578c86281f27b182680c7642836a0dbbd0be7 rust: alloc: replace aligned_size() with Kmalloc::aligned_layout()
-22ab0641b939967f630d108e33a3582841ad6846 rust: drm: ensure kmalloc() compatible Layout
-0c04a81c1d0214d5b2025f805ccec1ac37c96b08 rust: drm: remove pin annotations from drm::Device
-360077278ba62e81310080f075a1a3028e778ef9 rust: drm: don't pass the address of drm::Device to drm_dev_put()
-9af8f2b469c0438620832f3729a3c5c03853b56b drm/panic: Add a u64 divide by 10 for arm32
-3eb61d7cb74cea2ea697363669fa256937164758 Revert "drm/amdgpu: Use dma_buf from GEM object instance"
-ea177a1b1efc6e42e73ee4a17581842cd254e006 drm/rockchip: cdn-dp: select bridge for cdp-dp
-a52dffaa46c2c5ff0b311c4dc1288581f7b9109e drm/rockchip: vop2: make vp registers nonvolatile
-50a8c08b8b69399a09c2dbcad8ef3fef9d9349d2 drm/bridge: analogix_dp: Fix bailout for devm_drm_bridge_alloc()
-989fe6771266bdb82a815d78802c5aa7c918fdfd drm/nouveau/gsp: fix mismatched alloc/free for kvmalloc()
-6cc44e9618f03f1deb9a092698c0b0ce20990221 drm: Add directive to format code in comment
-db2e7bcee11cd57f95fef3c6cbb562d0577eb84a drm: nova-drm: fix 32-bit arm build
-39ca24675b7e351b8e681d924f417e455d4a7fc1 MAINTAINERS: Change habanalabs maintainers
-a44458dfd5bc0c79c6739c3f4c658361d3a5126b accel/habanalabs/gaudi2: Use kvfree() for memory allocated with kvcalloc()
-0f580d5d3d9d9cd0953695cd32e43aac3a946338 rust: alloc: fix `rusttest` by providing `Cmalloc::aligned_layout` too
-e5f48bfa2ae0806d5f51fb8061afc619a73599a7 drm/hisilicon/hibmc: fix the i2c device resource leak when vdac init failed
-8bed4ec42a4e0dc8113172696ff076d1eb6d8bcb drm/hisilicon/hibmc: fix irq_request()'s irq name variable is local
-93a08f856fcc5aaeeecad01f71bef3088588216a drm/hisilicon/hibmc: fix the hibmc loaded failed bug
-9f98b429ba67d430b873e06bcfb90afa22888978 drm/hisilicon/hibmc: fix rare monitors cannot display problem
-3271faf42d135bcf569c3ff6af55c21858eec212 drm/hisilicon/hibmc: fix dp and vga cannot show together
-f52d6aa98379842fc255d93282655566f2114e0c drm/i915/lnl+/tc: Fix handling of an enabled/disconnected dp-alt sink
-5fd35236546abe780eaadb7561e09953719d4fc3 drm/i915/icl+/tc: Cache the max lane count value
-c87514a0bb0a64507412a2d98264060dc0c1562a drm/i915/lnl+/tc: Fix max lane count HW readout
-c5c2b4b3841666be3a45346d0ffa96b4b143504e drm/i915/lnl+/tc: Use the cached max lane count value
-d7fa5754e83cd36c4327eb2d806064e598a72ff6 drm/i915/icl+/tc: Convert AUX powered WARN to a debug message
-8fe8a092043f28d3c8e467cb2bbfe1e1ccf7f996 iommufd: viommu: free memory allocated by kvcalloc() using kvfree()
-447c6141e8ea68ef4e56c55144fd18f43e6c8dca iommufd: Fix spelling errors in iommufd.rst
-0aa86640ebd98d77fb64acef5684e42fba517d2d drm/amd/display: Revert Add HPO encoder support to Replay
-79e25cd06e85105c75701ef1773c6c64bb304091 drm/amdgpu/swm14: Update power limit logic
-07b93a5704b0b72002f0c4bd1076214af67dc661 drm/amd/display: Avoid a NULL pointer dereference
-66af73a1c319336694a8610fe4c2943f7b33066c drm/amd/display: Fix Xorg desktop unresponsive on Replay panel
-7a2ca2ea64b1b63c8baa94a8f5deb70b2248d119 drm/amd/display: Add null pointer check in mod_hdcp_hdcp1_create_session()
-cb7b7ae53b557d168b4af5cd8549f3eff920bfb5 drm/amd/display: Don't overclock DCE 6 by 15%
-1fc931be2f47fde23ca5aff6f19421375c312fb2 drm/amd/display: Adjust DCE 8-10 clock, don't overclock by 15%
-669f73a26f6112eedbadac53a2f2707ac6d0b9c8 drm/amd/display: Find first CRTC and its line time in dce110_fill_display_configs
-7d07140d37f792f01cfdb8ca9a6a792ab1d29126 drm/amd/display: Fill display clock and vblank time in dce110_fill_display_configs
-8246147f1fbaed522b8bcc02ca34e4260747dcfb drm/amd/display: Don't warn when missing DCE encoder caps
-f14ee2e7a86c5e57295b48b8e198cae7189b3b93 drm/amd/display: Don't print errors for nonexistent connectors
-10507478468f165ea681605d133991ed05cdff62 drm/amd/display: Fix fractional fb divider in set_pixel_clock_v3
-297a4833a68aac3316eb808b4123eb016ef242d7 drm/amd/display: Fix DP audio DTO1 clock source on DCE 6.
-ff646d033783068cc5b38924873cab4a536b17c1 drm/i915: silence rpm wakeref asserts on GEN11_GU_MISC_IIR access
-8236820fd767f400d1baefb71bc7e36e37730a1e drm/i915/gt: Relocate compression repacking WA for JSL/EHL
-658a1c8e0a66d0777e0e37a11ba19f27a81e77f4 drm/xe: Assign ioctl xe file handler to vm in xe_vm_create
-1a2cf179e2973f6801c67397ecc987391b084bcf Merge drm/drm-fixes into drm-misc-fixes
-98c4a3f4ae01c9f67a231bacf58924744feaa0b3 Merge tag 'drm-intel-fixes-2025-08-20' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-dbb2c3adc4a641d9f136005285bcbba15227249c Merge tag 'amd-drm-fixes-6.17-2025-08-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-8a30114073639fd97f2c7390abbc34fb8711327a drm/xe: Move ASID allocation and user PT BO tracking into xe_vm_create
-111fb43a557726079a67ce3ab51f602ddbf7097e drm/xe: Fix vm_bind_ioctl double free bug
-f9915c391cf72789ec5b6d5966ba82c2bca5daa7 Merge tag 'drm-misc-fixes-2025-08-21' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-471b25a2fcbb25dccd7c9bece30313f2440a554e Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-a60f5ee68efd91b4507eacbb40d4024ecf363304 Merge tag 'drm-xe-fixes-2025-08-21-1' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-6debb69041724bae8a8a4d0ac60502754c1cd945 Merge tag 'drm-fixes-2025-08-23-1' of https://gitlab.freedesktop.org/drm/kernel
-
---===============7529750188514124352==--
+--===============1244321531552562654==--
