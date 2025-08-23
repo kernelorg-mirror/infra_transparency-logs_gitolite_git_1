@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7933175751059901833=="
+Content-Type: multipart/mixed; boundary="===============8961960107425017497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sat, 23 Aug 2025 06:43:20 -0000
-Message-Id: <175593140064.4126106.10348267974144471490@gitolite.kernel.org>
+Date: Sat, 23 Aug 2025 06:44:55 -0000
+Message-Id: <175593149545.4127544.1527583000789836572@gitolite.kernel.org>
 
---===============7933175751059901833==
+--===============8961960107425017497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: 90d753ffff95206265b517c1e36880510c03c2cb
-    new: bbae149dc68bb69d7ae86fb5cffb55b6074f8154
-    log: revlist-90d753ffff95-bbae149dc68b.txt
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 4d0a8db08c739a7353c078fbdcce2a2e7e5b7363
+    new: c95542923569777dc54eed9130e71e9c2c4df2e5
+    log: revlist-4d0a8db08c73-c95542923569.txt
 
---===============7933175751059901833==
+--===============8961960107425017497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90d753ffff95-bbae149dc68b.txt
+Content-Disposition: attachment; filename=revlist-4d0a8db08c73-c95542923569.txt
 
-ea507bc4f505a742c4b3d27332ce948d817b5ece clk: renesas: Use str_on_off() helper
-b8a26591fcf4f2b7c76fd10c674190cb34b5f0ae dt-bindings: clock: renesas,r9a09g047-cpg: Add XSPI and GBETH PTP core clocks
-a982f9197b81e99a754a17b50be6b68ebe151cc1 clk: renesas: r9a09g047: Add support for xspi mux and divider
-30f7b6597c2f4d1c662a8923ff2cca67d4da3c33 clk: renesas: r9a09g047: Add XSPI clock/reset
-217a621236efdd6b702a33b27abe4369c7b6ec01 clk: renesas: rzv2h: Skip monitor checks for external clocks
-bb847b3d7cc51cc6dd39ae0a99720b7808b0c07d clk: renesas: rzv2h: Fix missing CLK_SET_RATE_PARENT flag for ddiv clocks
-17a65c874490830d7a6981963477dd7eaf4df177 clk: renesas: rzv2h: Use devm_kmemdup_array()
-1d3fdfaf81b0b1ddf5978460c597aae8588f4d4a clk: renesas: rzv2h: Add missing include file
-7950fc45bc2fade58bbb0abd3bc2f2f352679514 clk: renesas: rzv2h: Drop redundant base pointer from pll_clk
-723aff997f9d51819f0e17bc343679d3230d4f75 clk: renesas: rzv2h: Add fixed-factor module clocks with status reporting
-8aa29a65adf9b3dcb8a597d9f544827cd9af0dc6 memory: renesas-rpc-if: Fix RPCIF_DRENR_CDB macro error
-5c6a0451867359e1b01afe497c25a5689922013f memory: renesas-rpc-if: Move rpcif_info definitions near to the user
-5360db880f4179f0407d3b42a63e503ea11e891c dt-bindings: memory: Document RZ/G3E support
-45c262e7ffe14b65f76d215a31877a1b56fe114b memory: renesas-rpc-if: Move rpc-if reg definitions
-3c988d84683ab8babbc1dcebc62efd00a3775da3 memory: renesas-rpc-if: Use devm_reset_control_array_get_exclusive()
-19d09c1755ac39ba1e1d27c925254886a631b19f memory: renesas-rpc-if: Add regmap to struct rpcif_info
-9d2752eff0f258be502ce19b4769742b6e754a14 memory: renesas-rpc-if: Add wrapper functions
-d4780b97ab1eeeffe8032ad86f8cb0b6b06ca3ca memory: renesas-rpc-if: Add RZ/G3E xSPI support
-6f6558c96824ae99e6bdd7255e4355be0c14708c spi: rpc-if: Add write support for memory-mapped area
-13637530ce8a823d3699a437d146603f11f78685 irqchip/renesas-rzv2h: Enable SKIP_SET_WAKE and MASK_ON_SUSPEND
-6bf7948b1c9da1c49b8a97b84a04575b67f3a33d arm64: dts: renesas: r9a09g047: Add SYS node
-5837d1746b47df77d6347ef5e6a828595341a1e5 arm64: dts: renesas: r9a09g047: Add XSPI node
-bbae149dc68bb69d7ae86fb5cffb55b6074f8154 arm64: dts: renesas: rzg3e-smarc-som: Enable serial NOR FLASH
+95513722b321d868a04b582039ddb206922d2258 clk: renesas: Use str_on_off() helper
+8a89645f17608d0987a62b475042d4dd629adfe1 dt-bindings: clock: renesas,r9a09g047-cpg: Add XSPI and GBETH PTP core clocks
+6d57f0ec8402d800e5a89b87d745997768c0e0b6 clk: renesas: r9a09g047: Add support for xspi mux and divider
+9528c17f17abed9370cd3838d7ef71a933a9fd6b clk: renesas: r9a09g047: Add XSPI clock/reset
+f1171debd543bedc4fc9379f212bcf875e30b4a5 clk: renesas: rzv2h: Skip monitor checks for external clocks
+2ce511b6d89cf8b264836188ef5e66bbf55fe95b clk: renesas: rzv2h: Fix missing CLK_SET_RATE_PARENT flag for ddiv clocks
+01505291ff140a679dd5e49a3079fe9f5a80afce clk: renesas: rzv2h: Add missing include file
+2a16df8ddca719a9d9ae252d2b320e90b60d7206 clk: renesas: rzv2h: Drop redundant base pointer from pll_clk
+095e38f61af6e90abd93f3a5fb0d6c94a753f5bf clk: renesas: rzv2h: Add fixed-factor module clocks with status reporting
+4629b1da2765c5e97c6df45414ecb83ba26c7c0c memory: renesas-rpc-if: Fix RPCIF_DRENR_CDB macro error
+d4395bd51e11ed92d02074b594549767c2839fe7 memory: renesas-rpc-if: Move rpcif_info definitions near to the user
+cf63cd500e451e8f10993baf0cab43f5d54adf11 dt-bindings: memory: Document RZ/G3E support
+70f852963b87ce23856796cce0bab6a1e0951e97 memory: renesas-rpc-if: Move rpc-if reg definitions
+ea45303856a3c3228f8fc822dc455cbefca676bb memory: renesas-rpc-if: Use devm_reset_control_array_get_exclusive()
+f0043b5097595849693ef47b07cfe546aa0ad85f memory: renesas-rpc-if: Add regmap to struct rpcif_info
+1ce761194875a3a073f43245c427f04ab734507a memory: renesas-rpc-if: Add wrapper functions
+1707c4b0e2cc0c1c2ab01e7bb65e7eb713968162 memory: renesas-rpc-if: Add RZ/G3E xSPI support
+0712fc130a06507ff16f16fea511027c713252ef spi: rpc-if: Add write support for memory-mapped area
+3418207408793156fc27ab15e50d4a7b4f27d2cc irqchip/renesas-rzv2h: Enable SKIP_SET_WAKE and MASK_ON_SUSPEND
+61ec5ff19f584ccd587fe414bcbe378dc7753d84 arm64: dts: renesas: r9a09g047: Add SYS node
+30d5a8a806e81841b31efc2c0c2c2c91e9613fa2 arm64: dts: renesas: r9a09g047: Add XSPI node
+c95542923569777dc54eed9130e71e9c2c4df2e5 arm64: dts: renesas: rzg3e-smarc-som: Enable serial NOR FLASH
 
---===============7933175751059901833==--
+--===============8961960107425017497==--
