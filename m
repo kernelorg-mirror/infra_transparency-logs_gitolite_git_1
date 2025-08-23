@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7959363190193469775=="
+Content-Type: multipart/mixed; boundary="===============0482866833360638180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 23 Aug 2025 14:49:29 -0000
-Message-Id: <175596056942.485892.9270297534939790090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 23 Aug 2025 14:51:58 -0000
+Message-Id: <175596071894.539211.17598878257046138750@gitolite.kernel.org>
 
---===============7959363190193469775==
+--===============0482866833360638180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 216721ff7e46948a2d21f3ae504ed684e9b34a9c
-    new: 548e1e2eca28d76b5daf199a4243fe84295750ed
+  - ref: refs/heads/master
+    old: 67c819c8e5041ecaca8974896ffe1c63eca75191
+    new: 20ec03f87f7b4de7f1822651971747612ca1df27
     log: |
-         548e1e2eca28d76b5daf199a4243fe84295750ed Notes added by 'git notes add'
+         20ec03f87f7b4de7f1822651971747612ca1df27 move 6.16 queue back in place
          
 
---===============7959363190193469775==
+--===============0482866833360638180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755960616 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1755960567-908095063584a9f8fe63d60cf5d30015cb7a2f1c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1755960765 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1755960716-e61fba3a366109a63e819137e5eea875b5ae14c8
 
-216721ff7e46948a2d21f3ae504ed684e9b34a9c 548e1e2eca28d76b5daf199a4243fe84295750ed refs/notes/signatures/tar
+67c819c8e5041ecaca8974896ffe1c63eca75191 20ec03f87f7b4de7f1822651971747612ca1df27 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmip1SgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BO0P/1LRb9pTtTha9EUAx/r2
-3n2q/J+ctRKOcQ5QiHi8X3Uk+MDSu9r8Wa63dIAuwUexSqu+RF0buwUW2iawECw4
-6LbcSB/v20aQCOd+s5H0ykL3nACcZKa285tOdpusJ1y+OlDDn01SG06TJSxCfzGS
-oCqEiLEwYDem159DIBPUw+Um+WbJdmEWpmVBypjYbyZho/jQPeSR8U921+cJw46X
-pORLmjgWYxvXmzYbEt3984Ya9XeTpKvo+jYn5QItejonZaxQWd4YI5wTDthy3rW/
-c1/NrG6INzVVwPyk3pUeHnVNu+B6KsqseYXKkRYSk+Qxci2/U0UNUZjI0FVRa1l6
-ADJOzUt+i3S8bG9W1Q6Qe/5YV44wPK/i7T7GdlLgy34ouG1GOvUMhZgRxFDR1Il0
-mDUdVyQh6Yx91IeV+tVlRlgIVqRbJDe29lT0B4aWqX/wA/2iS+3dhEErGShf4dR1
-mpYFGjKvZWV8vMM3WzmKDJygYyieG17dmfp0OESbSqPn7n/tyjMNSB0ciSALKSIQ
-mHgYT2SoljBRgLdFbZkNxtcc4ei2apfF+FL3RNZlwy1kuGJ1bPM7wv3ey1jh+YLO
-OnhqXIdLV+kaZMOJLHZUhRYAC0TRF3yLgIGeEgmu6FqNRdSDIo/hAgwyN7iifBuo
-xAr6UL5ld91FE4pyKDH+l8Be
-=aZ4M
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmip1b0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+POsP/A3KrncNPUedrnVphcFa
+WjEW5FR/IrOgYHe2DIKT93OjPb+cxRlMgiK21GDsa0QrJgkIDUIecfGxVyKzvn7G
+KsJUeeIatJdGO37SQlvT6XZUhsRcVVZcLUMsleLk36oRfA+O2MDtxRJrxaqXk6hu
+XLPAwyk3suOHIi1ZzcdTBngqA1RMdc0rnc0x0J4TOBTFKngHIMg9KQa1IIdSq5AV
+Q37p41cdjFV95jTUMfkO5JKEnqi/n6iepQoesHp5x0hqo6M4vpYDSl+lNefhtB4s
+cTCyCQ74pG8JLlF9dxSAq5/3F+66ADObu43Dp0gJqNdIbXWyc21c/kE0MMwmvM0u
+QKxWI+QQeNa1Z8o1sEpGadKkdQkhAaFzUGJx+8Hh4UjajwoVZMAhblqbo2XZYgMA
+dbmpfC9sGGZJCIildQhWjjIL1gVFyq1cXKcbIlN4pC1ff7gUGM54qG1wYIi+ZtnC
+Ij4sSEG9fuY+xtCAxxLa/phKOfexqmIVx+NH2XdWGZxM2SNoQvgOe2JXzk2yCig8
+W2W7i6VJbOm7Z//hpXvjVomeVP8/khjwC+6aC1eFwzsKy3Ylj0aBgT9RIhGlos2D
+E7fvtVAUZAX/To+4ts8gi0AvUMuLrsA5ox8ags3AzxbkzRSkSBKAXt379i7kYV9t
+t79CX2TuRtKSficASITcX/0E
+=yl86
 -----END PGP SIGNATURE-----
 
---===============7959363190193469775==--
+--===============0482866833360638180==--
