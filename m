@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7314890952976400171=="
+Content-Type: multipart/mixed; boundary="===============6225237746679636232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 24 Aug 2025 07:05:41 -0000
-Message-Id: <175601914115.1454645.14268075623994382786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 24 Aug 2025 07:11:10 -0000
+Message-Id: <175601947066.1459441.12162996742683012894@gitolite.kernel.org>
 
---===============7314890952976400171==
+--===============6225237746679636232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: bc3d721ffdacdf90dbd9b0578a49ee2480d662ea
-    new: 68d834acd773b0606a487a503078c3f16ca6fc49
-    log: revlist-bc3d721ffdac-68d834acd773.txt
-  - ref: refs/heads/v6.17-armsoc/dtsfixes
-    old: d1f9c497618dece06a00e0b2995ed6b38fafe6b5
-    new: 521b36e5a243d94e843c0f03285fc49ee88c37b6
+  - ref: refs/heads/master
+    old: 2451668d6d20fbfb8534f4301cee7fcb71187379
+    new: 23fcb00a69e7f44d20b04bcffa7e6d64e21b1878
     log: |
-         8976583832579fe7e450034d6143d74d9f8c8608 arm64: dts: rockchip: Fix the headphone detection on the orangepi 5 plus
-         2dea24df234940b27d378f786933dc10f33de6b8 arm64: dts: rockchip: Add supplies for eMMC on rk3588-orangepi-5
-         106bdca970c1f66e2d4ee53675df1575b01c65ce ARM: dts: rockchip: Minor whitespace cleanup
-         521b36e5a243d94e843c0f03285fc49ee88c37b6 arm64: dts: rockchip: Minor whitespace cleanup
-         
-  - ref: refs/heads/v6.18-armsoc/dts64
-    old: 3d5c0c21d86fed05caeae43549e0c13ddd203c31
-    new: 67b2c15d8fb3c1447a23358075e4f336d40d9797
-    log: |
-         ccc7f16ea2e33366f7b7005daad81e316f8cb6e4 arm64: dts: rockchip: Enable HDMI receiver on orangepi 5 plus
-         3dc7ba3548acbfb657614db4ca70d9878bdfca23 arm64: dts: rockchip: Enable the NPU on the orangepi 5 boards
-         178879625f0f10ff708728087d91a5fe79990ce2 arm64: dts: rockchip: Enable more power domains for RK3528
-         5487086c4dad869af0eeca0ee24d1ba5fe382b3c arm64: dts: rockchip: Add green power LED to rk3588s-rock-5a
-         67b2c15d8fb3c1447a23358075e4f336d40d9797 arm64: dts: rockchip: add USB-C support for ROCK 5B/5B+/5T
+         23fcb00a69e7f44d20b04bcffa7e6d64e21b1878 6.1-stable patches
          
 
---===============7314890952976400171==
+--===============6225237746679636232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc3d721ffdac-68d834acd773.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8976583832579fe7e450034d6143d74d9f8c8608 arm64: dts: rockchip: Fix the headphone detection on the orangepi 5 plus
-ccc7f16ea2e33366f7b7005daad81e316f8cb6e4 arm64: dts: rockchip: Enable HDMI receiver on orangepi 5 plus
-3dc7ba3548acbfb657614db4ca70d9878bdfca23 arm64: dts: rockchip: Enable the NPU on the orangepi 5 boards
-178879625f0f10ff708728087d91a5fe79990ce2 arm64: dts: rockchip: Enable more power domains for RK3528
-2dea24df234940b27d378f786933dc10f33de6b8 arm64: dts: rockchip: Add supplies for eMMC on rk3588-orangepi-5
-106bdca970c1f66e2d4ee53675df1575b01c65ce ARM: dts: rockchip: Minor whitespace cleanup
-521b36e5a243d94e843c0f03285fc49ee88c37b6 arm64: dts: rockchip: Minor whitespace cleanup
-5487086c4dad869af0eeca0ee24d1ba5fe382b3c arm64: dts: rockchip: Add green power LED to rk3588s-rock-5a
-67b2c15d8fb3c1447a23358075e4f336d40d9797 arm64: dts: rockchip: add USB-C support for ROCK 5B/5B+/5T
-6dcce174b06b85ac0abbbd26ab0aa2acdd39e200 Merge branch 'v6.17-armsoc/dtsfixes' into for-next
-68d834acd773b0606a487a503078c3f16ca6fc49 Merge branch 'v6.18-armsoc/dts64' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756019517 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1756019468-d94f73d69b528e95481ffb8bf41072cc188b5658
 
---===============7314890952976400171==--
+2451668d6d20fbfb8534f4301cee7fcb71187379 23fcb00a69e7f44d20b04bcffa7e6d64e21b1878 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiquz0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+30wQALUIZxF9wuLeNsC8dXdS
+bo+HJhr3h8RrCzgLIxL9HkD6scYMBg3j1zOSpLPyxTIiyzyIBPu3R98+AT1ywK7Q
+hCaQ2fARi3mARb7ZuV3dcc1nSthc9z/pxgwnfWGbAaQRQiLbrf3O2UhiRWoAe5VY
+1TJWmWrVP9RdqKrmeFpsvNG1IAV8lbgAEb3CyBmhY/AGDzbH+dM6770A9Z2S0eM/
+PolD0pPdkUI7Z0BUYUjU10TSUogDd2sqBqYDVEDJMc4IJZ7UE2rv94Dar3krlY1Z
+2WHdwiAaMIxcu3vMB12y8VHKx9Y4TqbYXfL0AV2ss+ae2mKZX3edz3goQlvjVCwT
+WFGHI0ADOURH6J4HihQrwinpvS6Z0RXgh3g2TxwS5AhTzbm+WV5rLl8iCM9c3+8m
+DbVUR5TazYYiTEtX4RM+03gvig1zFUDtAqgS/+N9qGqfZtQHgkMP3PwzNQJkND64
+CBW6lo15k/4ITRDom+UyN+wESkkAGgAyKwoYmqznSufsrM+DCYlkeYD+8DwsfaSy
+jfmUgJAAWem57zGotHgDc7HphwvDUM8BTbIqFX+fly46KfaiiDb0/ae/QI0IfCkI
+RTrKqaQqaL72v5hsOSlXd8UFjnJxA1iFHvdi+XjQqc07f/UbuYM69ewDt9ROS/pc
+G/ALtiN4/jbR3b4HOifiXNx2
+=cS5+
+-----END PGP SIGNATURE-----
+
+--===============6225237746679636232==--
