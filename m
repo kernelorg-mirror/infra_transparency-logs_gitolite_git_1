@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sun, 24 Aug 2025 15:36:35 -0000
-Message-Id: <175604979545.2300147.18043239980353407586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 24 Aug 2025 16:06:34 -0000
+Message-Id: <175605159467.2356912.4381885622880759520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: b87662f1dcc76a2877a9ae02f816b078b46327ec
-    new: 6d85b579a9cab152e19282a4c26b55b929cdd2e0
+  - ref: refs/heads/master
+    old: c330cb607721bae34c404604e2867be53e6c6949
+    new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
     log: |
-         f8868888f535d26e2717c079b2dfe8013b4330bb fbdev: s3fb: Implement 1 and 2 BPP modes, improve 4 BPP
-         9c907491120b7b3a0984a901c897769423fbe110 fbdev: core: fix ubsan warning in pixel_to_pat
-         6d85b579a9cab152e19282a4c26b55b929cdd2e0 fbdev: Use string choices helpers
+         1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
          
+  - ref: refs/tags/v6.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89d926fa53d0a6c257c4e8ac1c00c3d9a194ef31
