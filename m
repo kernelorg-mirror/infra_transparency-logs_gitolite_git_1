@@ -1,77 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============5748522389372910518=="
+Content-Type: multipart/mixed; boundary="===============2185805290219377394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sun, 24 Aug 2025 13:01:36 -0000
-Message-Id: <175604049637.2014269.1295124648883677847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
+Date: Sun, 24 Aug 2025 13:59:17 -0000
+Message-Id: <175604395752.2117987.10381217007508975456@gitolite.kernel.org>
 
---===============5748522389372910518==
+--===============2185805290219377394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
+repo: pub/scm/linux/kernel/git/sven/linux
+user: sven
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    new: 8763d2257f5231cfdfd8a53594647927dbf8bb06
-    log: |
-         02c1b0824eb1873b15676257cf1dc80070927e1e KVM: PPC: Fix misleading interrupts comment in kvmppc_prepare_to_enter()
-         b018bb26c42049e05d3d65b057cc1250d17d9b0a powerpc: Use dev_fwnode()
-         8b5d86a63bc9510e094a15d7268c60bd4347b95c powerpc/64: Drop unnecessary 'rc' variable
-         eb59d4c5948d93e940b5dde9d1bf3b33367fbcb8 powerpc: use always-y instead of extra-y in Makefiles
-         6a859f1a19d1f8756ffb097f5973dfebbca4811a powerpc: unify two CONFIG_POWERPC64_CPU entries in the same choice block
-         88688a2c8ac6c8036d983ad8b34ce191c46a10aa powerpc/kvm: Fix ifdef to remove build warning
-         d40ae9033418095642f65f4fd54dc5a7d292ee39 powerpc/prom_init: Fix shellcheck warnings
-         8763d2257f5231cfdfd8a53594647927dbf8bb06 powerpc/boot/install.sh: Fix shellcheck warnings
-         
-  - ref: refs/heads/merge
-    old: ff75f6055d715177e4b8dd3d10091d3a5450ba73
-    new: 0bc42b06664d82d3d9c4f5f54a5960b3760c7cd6
-    log: |
-         02c1b0824eb1873b15676257cf1dc80070927e1e KVM: PPC: Fix misleading interrupts comment in kvmppc_prepare_to_enter()
-         b018bb26c42049e05d3d65b057cc1250d17d9b0a powerpc: Use dev_fwnode()
-         8b5d86a63bc9510e094a15d7268c60bd4347b95c powerpc/64: Drop unnecessary 'rc' variable
-         eb59d4c5948d93e940b5dde9d1bf3b33367fbcb8 powerpc: use always-y instead of extra-y in Makefiles
-         6a859f1a19d1f8756ffb097f5973dfebbca4811a powerpc: unify two CONFIG_POWERPC64_CPU entries in the same choice block
-         88688a2c8ac6c8036d983ad8b34ce191c46a10aa powerpc/kvm: Fix ifdef to remove build warning
-         d40ae9033418095642f65f4fd54dc5a7d292ee39 powerpc/prom_init: Fix shellcheck warnings
-         8763d2257f5231cfdfd8a53594647927dbf8bb06 powerpc/boot/install.sh: Fix shellcheck warnings
-         0bc42b06664d82d3d9c4f5f54a5960b3760c7cd6 Automatic merge of 'fixes' into merge (2025-08-24 18:30)
-         
+  - ref: refs/heads/wip/atcphy
+    old: 775cf79ad68f8662890ae7f18b28e8c97bf11e74
+    new: 7e47e5f3fc453bfe9067a6835450d6b668215d27
+    log: revlist-775cf79ad68f-7e47e5f3fc45.txt
 
---===============5748522389372910518==
+--===============2185805290219377394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1756040538 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1756040489-1f6965cc048429e8884e29564409337dc65d667b
+pusher 44117D242A751EE9! 1756044000 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
+nonce 1756043951-66c60c9e014397869d3066718af03e5c43967562
 
-c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 8763d2257f5231cfdfd8a53594647927dbf8bb06 refs/heads/fixes
-ff75f6055d715177e4b8dd3d10091d3a5450ba73 0bc42b06664d82d3d9c4f5f54a5960b3760c7cd6 refs/heads/merge
+775cf79ad68f8662890ae7f18b28e8c97bf11e74 7e47e5f3fc453bfe9067a6835450d6b668215d27 refs/heads/wip/atcphy
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmirDVoACgkQpnEsdPSH
-ZJTEOQ/9FiKi0boThweQM6Ek6p+SQwlba4EOVBKtDa9LStpuQLvFFAqQ9G5f0ZNq
-nzlT4nRXJqEm1V1doxMo/8iGBPO3ZZNTY/8+VRjzL0b6UG9g+sOnk6IeuDrWw4bd
-RhKDtFnlKjocq77oOtZwkycNbXD+UnCQedSa6sA5b1ReV6qJrvpp5v/1KFTxNlTL
-HJgkn9SW0naTLaos+KBnB0rY3N9wq8HNG7vhWyzMu2bHpIHjNDo6C+0Bfv8LvFTt
-XLiHGnsvd1ZIerU8NikhTp273bv/i2wO3RxjUvQq5gxOaJ1e56pyU5MS9A3i0Y57
-x6kkOG+zEELyLJ3FuDfSlsoLSzg+BUz7YHRuy98TGzldf9dY7UcTEYfo9oRIq6MV
-qxAeCS3543aiK/quTbNnlCh6nK1JoBwep9BReSVIhTcjXNpZAJaKotBHN8IHMH+M
-0XVYZDtO9aqKMnw/qoCPbM5jDjPsVtwFBfdBVJTIrDUVaYmB2Z9o/Y6j/p4qLxBr
-0u1aXZDL/72cIIGxr4QoK2R+/NQqkVVGW7Nit+RcSAuxxL3Rc7utlAWyuSJd5rci
-Nfxs7Oo7Y2wiDEZN7umkqNZPpDFgtTvocYzM+xbO3czzMQxUp/YJ6/lDqWnOmnlr
-5ffVtNzwqYIibFT006b2RZJLptN6jyEmpZcmjXgc0LOnXKkTuWg=
-=juM5
+iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaKsa4AAKCRBEEX0kKnUe
+6Tv1AP40BaaazNJNU2+ZTqAzKNehfeAhwC6LfgEEHDx6OuNGFwEAhGCdRO++sHvT
+Jyfo1Ou99ZCap2Nj9x6Fbn+7nux8xwU=
+=x095
 -----END PGP SIGNATURE-----
 
---===============5748522389372910518==--
+--===============2185805290219377394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-775cf79ad68f-7e47e5f3fc45.txt
+
+02a37e1a8c23b735def7551256d1c4593bded116 dt-bindings: usb: Add Apple dwc3
+5c8767f37868e34599169fac5199307a3afc8823 dt-bindings: phy: Add Apple Type-C PHY
+adbc54a676f59ba628fe8a5ca7d79c8061219498 usb: dwc3: Use ioremap_np when required in dwc3_power_off_all_roothub_ports()
+7a16776d6d421b42a09ca9357b897e26b06d76d7 usb: dwc3: glue: Allow more fine grained control over mode switches
+11e4b373d299d5bc9416d5ac31940f24c4aceb75 usb: dwc3: Add Apple Silicon DWC3 glue layer driver
+e8f552c52c96582f5aa2eedfe71c6940e91dac06 usb: typec: tipd: Clear interrupts first
+9bba7f17211549251669b0c3086ca4c3e0fbefd0 usb: typec: tipd: Move initial irq mask to tipd_data
+3016132f76e48bc6492771a4a0ad36d38cbbc1fa usb: typec: tipd: Move switch_power_state to tipd_data
+9ac5cd6f21e3377b2adf6cbaf7c0aff6758d2b02 usb: typec: tipd: Trace data status for CD321x correctly
+17c3c1d7fd2cec4efa5b01d37deeede597c6a044 usb: typec: tipd: Add cd321x struct with separate size
+39766e28f11138dd78da05d56b19ada12665ee31 usb: typec: tipd: Read USB4, Thunderbolt and DisplayPort status for cd321x
+2741a6fdcbc1667ede735ef70ededd7d1e7d1d7d usb: typec: tipd: Register DisplayPort and Thunderbolt altmodes for cd321x
+8ce1685b59f735ed5b89d7390520c0fa23567336 usb: typec: tipd: Update partner identity when power status was updated
+bc6671f456bd8cf16a2d3ffa344fff06b813a33e usb: typec: tipd: Use read_power_status function in probe
+6c1e0f1a52a033dfc9979c500156d3076a644420 usb: typec: tipd: Read data status in probe and cache its value
+aa826dd74dd0e294b48c093d5daab86b26ad43f4 usb: typec: mux: Introduce data_role to mux state
+7496fa27f1c8792efdb0c153a5af0841745f6566 usb: typec: tipd: Handle mode transitions for CD321x
+1bca5ff426d76f2812d2d6478752802bd107c198 soc: apple: Add hardware tunable support
+f1fc04fd1dffe0058289370c113cbb69d9272c76 phy: apple: Add Apple Type-C PHY
+7e47e5f3fc453bfe9067a6835450d6b668215d27 arm64: dts: apple: t8103: Add Apple Type-C PHY and dwc3 nodes
+
+--===============2185805290219377394==--
