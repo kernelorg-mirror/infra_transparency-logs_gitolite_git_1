@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 24 Aug 2025 10:10:21 -0000
-Message-Id: <175603022163.1702090.8223686895637375169@gitolite.kernel.org>
+Date: Sun, 24 Aug 2025 10:12:23 -0000
+Message-Id: <175603034395.1704487.12695316274117666792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/irq/drivers
-    old: 7ee4a5a2ec3748facfb4ca96e4cce6cabbdecab2
-    new: b92ff23b12046f70f7f41f1e57e77c498dec35d7
+  - ref: refs/heads/irq/urgent
+    old: c8bb0f00a4886b24d933ffaabcdc09bf9a370dca
+    new: 1a2cce5b91eeeac24104cbccd8cd3a4dfbdbaa7a
     log: |
-         b92ff23b12046f70f7f41f1e57e77c498dec35d7 irqchip/sifive-plic: Use for_each_present_cpu() instead of for_each_cpu()
+         1a2cce5b91eeeac24104cbccd8cd3a4dfbdbaa7a irqchip/gic-v5: Fix kmemleak L2 IST table entries false positives
          
