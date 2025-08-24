@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 24 Aug 2025 10:00:36 -0000
-Message-Id: <175602963677.1685102.2400000072596216953@gitolite.kernel.org>
+Date: Sun, 24 Aug 2025 10:05:53 -0000
+Message-Id: <175602995304.1694035.9787843947163569136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+user: tglx
 changes:
-  - ref: refs/tags/perf_urgent_for_v6.17_rc3
-    old: 0000000000000000000000000000000000000000
-    new: 96e710c623ca152893fc86a891364b752696cea7
+  - ref: refs/heads/irq/urgent
+    old: c2bac68067bba5edda09112c09f2f670792dcdc8
+    new: c8bb0f00a4886b24d933ffaabcdc09bf9a370dca
+    log: |
+         c8bb0f00a4886b24d933ffaabcdc09bf9a370dca irqchip/mvebu-gicp: Fix an IS_ERR() vs NULL check in probe()
+         
