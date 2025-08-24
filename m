@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 24 Aug 2025 10:12:23 -0000
-Message-Id: <175603034395.1704487.12695316274117666792@gitolite.kernel.org>
+Date: Sun, 24 Aug 2025 10:18:09 -0000
+Message-Id: <175603068924.1713978.12419811155548486003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,11 +9,8 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+user: bp
 changes:
-  - ref: refs/heads/irq/urgent
-    old: c8bb0f00a4886b24d933ffaabcdc09bf9a370dca
-    new: 1a2cce5b91eeeac24104cbccd8cd3a4dfbdbaa7a
-    log: |
-         1a2cce5b91eeeac24104cbccd8cd3a4dfbdbaa7a irqchip/gic-v5: Fix kmemleak L2 IST table entries false positives
-         
+  - ref: refs/tags/x86_urgent_for_v6.17_rc3
+    old: 0000000000000000000000000000000000000000
+    new: 6a2bb8def97690a6ca872662b97c75434c41e11b
