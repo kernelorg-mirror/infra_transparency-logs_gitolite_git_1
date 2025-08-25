@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 25 Aug 2025 21:42:23 -0000
-Message-Id: <175615814331.1663524.6994706111065736916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 25 Aug 2025 21:56:34 -0000
+Message-Id: <175615899429.1675455.8011959608103836124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-linus
-    old: b1c99d5bd24ce0a1193d8476d83bf8c8bc633266
-    new: ebba78e34d47d7866bf62c3970487651797ae20d
-    log: |
-         168873ca1799d3f23442b9e79eae55f907b9b126 ASoC: soc-core: care NULL dirver name on snd_soc_lookup_component_nolocked()
-         b833b412a522e58b790abe79b6ec46e8ba1f312a ASoC: soc-core: tidyup snd_soc_lookup_component_nolocked()
-         ebba78e34d47d7866bf62c3970487651797ae20d ASoC: fixup snd_soc_lookup_component_nolocked()
-         
   - ref: refs/heads/for-next
-    old: b939cccb8f93ad845e0e88d3521009022e43e9b8
-    new: 22f697e60e00791bd218071e821512c50b3cd0c4
+    old: 6c779409b9d91792211c22782862779aba02bbc8
+    new: 3cbdbca6e8dc63792ddabbbb20fa0c7a54d1207c
     log: |
-         168873ca1799d3f23442b9e79eae55f907b9b126 ASoC: soc-core: care NULL dirver name on snd_soc_lookup_component_nolocked()
-         b833b412a522e58b790abe79b6ec46e8ba1f312a ASoC: soc-core: tidyup snd_soc_lookup_component_nolocked()
-         ebba78e34d47d7866bf62c3970487651797ae20d ASoC: fixup snd_soc_lookup_component_nolocked()
-         22f697e60e00791bd218071e821512c50b3cd0c4 Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
+         ebae7da67f9cacf3f028f51c289f2ea549149969 docs: devicetree: fix typo in writing-schema.rst
+         d8c2eb75ec4869b310db9f4758c3fb74b846932d yamllint: Drop excluding quoted values with ',' from checks
+         1ea0f346849d7b9dc0850773043503f4cb83fafd dt-bindings: display: ingenic,jz4780-hdmi: Add missing clock-names
+         09f6203315eb16d761c883b01354232bf48b929d dt-bindings: display: ti,tdp158: Add missing reg constraint
+         3cbdbca6e8dc63792ddabbbb20fa0c7a54d1207c dt-bindings: display: rockchip,dw-mipi-dsi: Narrow clocks for rockchip,rk3288-mipi-dsi
          
