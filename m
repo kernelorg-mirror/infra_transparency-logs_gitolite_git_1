@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 25 Aug 2025 15:45:17 -0000
-Message-Id: <175613671707.1029276.11254322051617947273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Mon, 25 Aug 2025 15:45:37 -0000
+Message-Id: <175613673785.1030171.10972095299291520534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    new: b6add54ba61890450fa54fd9327d10fdfd653439
+    old: 853b95b3cf5efaf7c97cf181436796ab3d7c763b
+    new: cd18213cd240c2bc999bc1343da802c3c4c7f21e
     log: |
-         bd7c2312128e31d056d30d34d60503de056e15f0 pinctrl: meson: Fix typo in device table macro
-         23800ad1265f10c2bc6f42154ce4d20e59f2900e gpiolib: acpi: Add quirk for ASUS ProArt PX13
-         a12946bef0407cf2db0899c83d42c47c00af3fbc pinctrl: STMFX: add missing HAS_IOMEM dependency
-         563fcd6475931c5c8c652a4dd548256314cc87ed pinctrl: airoha: Fix return value in pinconf callbacks
-         b6add54ba61890450fa54fd9327d10fdfd653439 Merge tag 'pinctrl-v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+         b0b335c6cc35c40f3f287c5123d89a2e84b1e7f7 todo: add an item for udivdi3 test
+         375bc6d00b86b1844b83cce1ac2d2da89bcaa847 patches/posted: add __udivdi3 linking error fix
+         cd18213cd240c2bc999bc1343da802c3c4c7f21e patches/next: add __udivdi3 linking fix
          
