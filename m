@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6670043275381905419=="
+Content-Type: multipart/mixed; boundary="===============3837750673949391030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 25 Aug 2025 07:21:04 -0000
-Message-Id: <175610646496.4142379.6838331837129380328@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 07:21:07 -0000
+Message-Id: <175610646781.4142492.16144137251716561132@gitolite.kernel.org>
 
---===============6670043275381905419==
+--===============3837750673949391030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 73c94172e278197fbed9f6a7b7550edc5bc1fbad
     new: 5b9057cfafaaabc3c91a4e3e3bec024651737e66
     log: revlist-73c94172e278-5b9057cfafaa.txt
 
---===============6670043275381905419==
+--===============3837750673949391030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106508 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106513 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1756106462-71d78ca0b5db2dbea5a4fa48f8962af6ce86c501
+nonce 1756106466-ca109c3c771d183f67106690d5cb710e50759ed0
 
-73c94172e278197fbed9f6a7b7550edc5bc1fbad 5b9057cfafaaabc3c91a4e3e3bec024651737e66 refs/heads/char-misc-next
+73c94172e278197fbed9f6a7b7550edc5bc1fbad 5b9057cfafaaabc3c91a4e3e3bec024651737e66 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDwwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lFcP/1yYJc6ZtS7Wvavi6Zu2
-KtMCydC10J2LW2+V/+Bq0pFC2fgXQreWvTWUfagVR1w32DKiIlnqfOnjMfIr3IVu
-8oBtpveVfXSRqSNEYDPJmECMnXV3zDE52VqxMJGKTTTVvidaJbA1ZVC+LWFlBLHG
-x75lh3YhTvIYJZCFhdARvINCKMAzhk8jtysR69UbO1J+DX3sXka+XSfzrYaum/bd
-MPXFWfwop2WGAskyhNZt2eerw3u+myZvBpysaBq+nCIC0rK5pUgbChibHpDKgweo
-nkp2tUOh4YErk1IgOQt9uDot9olv1L2okVxeoDL8TtWBF1riE3kmQqfxGl+UjbB1
-tctJv6yKHrUy1oVdG2J7ZBWcimI0ntaGFVwJfCO7NvnY1l4g6bULnph1fXwXkXOm
-84wmLhWNT1U+wPHXF8vPmlC5I8gSBQe6XFlT2aXxsCan1kL9aNJ8QhszXxY3oNaT
-pPOXDOekBmc8YnYIR6fS+PF4uP3N+GRG9pC6lMrsEBWs4DRC04fW0ughY23blHN0
-Pw/sUqSv3DUbP8h/wWphFvbzgcqDsNlDAWN6W8/QfDdTxmGuFvYfwm7u9TZhAacF
-e3aD2K5hjemygMdc/HSeRCsaIZ2phsOhNF2zWh4j4ySdOVitYICD7EwOHibjuzWw
-JqhLAfHf8e0NiFVtnqONhkkK
-=24Xf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDxEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UV4P/RDLpFEEte/JugwIOfTL
++qMqFElg0mfsdXq6A1L9E5ZGMJpsMrKFmjgYRJekem6EHf68kCRzywuc1B5DFVFa
+qoVrF4VLehourXsJw55Yqu9UpP+lrYQ5kEfUYn4vIlsWgfCsPNTtb7krC/eKZnja
+mPODdSzbMKM0IPEoCKy6JUNGA5e2fnQTKizQ7KJfxsJpgsODwYhuF1E2a8rHsKc2
+InANG6NpD3lSMrNAxtIojmp6PH2zkK7f2QEEwvKdA4rWpDCgcwciICGIPxjOIZ2+
+AldQlOZtZYcBqb+j+dQkAjVautmvXUCEyYfzmqLOOidyNd+fDsStgDBRsvz+2yZS
+gTLNasmAMEV8tTvTRq07L8PsuAak4QMND6HDzKR37CWhBTmCI+jOKbsDcT2ttg7w
+bnKp02ed1kxRy8Flr+0Qm+2xlELQ2BToBZpvFsOm3RE3AKnHmbauqCFqh7vPiE6c
+tAbwnuhJut5ZGsI3n6zsalFbqwKCmNJkf8psDItXNDiQkLLoEycSaG9la5xensff
+JMlREXEnGqbIX1X1mgoCczpNcd9ykf3/KbESqe16hMIL0pP3JqebG0rZtszs8GHA
+xuvQt7GazzTtT8Wlwg0FsyeUdEMXvtRCg4vJv/LCKAPvu14NEA2w7SCWk8sC1CHo
+wEsbVrRKDy2n/Y2ePlxKjlXH
+=JMTQ
 -----END PGP SIGNATURE-----
 
---===============6670043275381905419==
+--===============3837750673949391030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -506,4 +506,4 @@ c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://g
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 5b9057cfafaaabc3c91a4e3e3bec024651737e66 Merge 6.17-rc3 into char-misc-next
 
---===============6670043275381905419==--
+--===============3837750673949391030==--
