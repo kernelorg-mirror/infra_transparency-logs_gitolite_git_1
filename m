@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Mon, 25 Aug 2025 01:30:57 -0000
-Message-Id: <175608545754.3359855.12117931859467918687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 25 Aug 2025 01:41:13 -0000
+Message-Id: <175608607316.3379593.5273814676154225470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/tags/aspeed-6.18-drivers-0
+  - ref: refs/heads/XX2
     old: 0000000000000000000000000000000000000000
-    new: 4a2ab91067a7119bf456438f379ae3fe1643a971
+    new: 8c371c607cea3ffbfcd655e6fc1b36343e03009e
