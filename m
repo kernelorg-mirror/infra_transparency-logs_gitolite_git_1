@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5512140803406991438=="
+Content-Type: multipart/mixed; boundary="===============8267902986716477277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 25 Aug 2025 16:05:16 -0000
-Message-Id: <175613791667.1071071.12845268253312201954@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 16:05:19 -0000
+Message-Id: <175613791922.1071246.11793962050949936057@gitolite.kernel.org>
 
---===============5512140803406991438==
+--===============8267902986716477277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 01b9128c5db1b470575d07b05b67ffa3cb02ebf1
     new: ec79003c5f9d2c7f9576fc69b8dbda80305cbe3a
     log: revlist-01b9128c5db1-ec79003c5f9d.txt
 
---===============5512140803406991438==
+--===============8267902986716477277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ c61ac2ec102bb659e7d2e7c0f3553f9356341682 Merge branch '200GbE' of git://git.kern
 1559c9c231105e272db7033a406d7c457d45f8f0 Merge tag 'for-net-2025-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 ec79003c5f9d2c7f9576fc69b8dbda80305cbe3a atm: atmtcp: Prevent arbitrary write in atmtcp_recv_control().
 
---===============5512140803406991438==--
+--===============8267902986716477277==--
