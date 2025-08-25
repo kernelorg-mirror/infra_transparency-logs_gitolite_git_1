@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7990996680179884636=="
+Content-Type: multipart/mixed; boundary="===============2116033508178985597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 25 Aug 2025 20:18:57 -0000
-Message-Id: <175615313738.1591765.15568135849717388418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 Aug 2025 20:19:10 -0000
+Message-Id: <175615315098.1592062.4442917052838715276@gitolite.kernel.org>
 
---===============7990996680179884636==
+--===============2116033508178985597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/regulator-6.17
     old: 11cd7a5c21db020b8001aedcae27bd3fa9e1e901
     new: ef3e9c91ed87f13dba877a20569f4a0accf0612c
     log: revlist-11cd7a5c21db-ef3e9c91ed87.txt
 
---===============7990996680179884636==
+--===============2116033508178985597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1756153182 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1756153133-bd757b3492a6912814cc4aa08ec288f0093203cf
+pusher Mark Brown <broonie@kernel.org> 1756153196 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1756153145-60fb7aa43d2901e619128668428b8f98d39539b5
 
-11cd7a5c21db020b8001aedcae27bd3fa9e1e901 ef3e9c91ed87f13dba877a20569f4a0accf0612c refs/heads/for-6.17
+11cd7a5c21db020b8001aedcae27bd3fa9e1e901 ef3e9c91ed87f13dba877a20569f4a0accf0612c refs/heads/regulator-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmisxV4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0NRdB/90Nls7fb33q4nojbhv1e/22bW1w+V0
-2+yq8oClC5GPYnNpt6hXK3M60UHmwklMq7DQG69Xwcyt7OjjgPt1wOrM84WFE8Kp
-4wDrvAPlOCBcX3TnjPVxAjPvbI7nb26w7xfO5KxyqbWVqahqBmgP86MeC9ZK7BnU
-vHD/lTIdKsL26axax8n54ZlpNWVYvF9RgdklEcRnWhsXGECP8bGS1UbxQiiQedm6
-IRH0NhryD7ViK0vUtA2XVN+pteEv+JcLFYoxTqxr1qe/ZF1PhfEkW38NMSxFRWA1
-ZghtFtmIKPQA63LpabCneQGx/HuW1k/eTM8J9ROVoQn9G36zSgs+ij+p
-=+3JM
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmisxWwTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0LifB/9OXy1G0EuBjQ7nxASh6dTuFUWLpYmg
+1PW4+5kuqBsj9jdJThZvSyc/mHG0PICTjVBZXVB3jzFqCuGVlag4I5dt3rL8N0PX
+CDv8lYyADAfxBCW2YWPt3hLN2hNjRdUrs68cMc8sLtiA7FQHzlawqIGxcVz2nPXu
+gkCfFAv/8tX5exBrWUJIm3pg6R+gpg2GuX2AgqjqzBQZ/UZuvKUNjmsQdWzWRQ24
+NloWMYtP5yJjt/TApgOme2KBa7amsdvrDhdPya9pP/GB4KdxZZ5xBqA1oNezmFoY
+8p8TFAeIXwskSN9J+4A8Trr3V53GJEXwpcCVwyKRwdThmiwx9EIKcWML
+=gzRW
 -----END PGP SIGNATURE-----
 
---===============7990996680179884636==
+--===============2116033508178985597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -722,4 +722,4 @@ c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://g
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 ef3e9c91ed87f13dba877a20569f4a0accf0612c regulator: pm8008: fix probe failure due to negative voltage selector
 
---===============7990996680179884636==--
+--===============2116033508178985597==--
