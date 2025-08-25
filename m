@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 25 Aug 2025 18:19:50 -0000
-Message-Id: <175614599074.1355712.16985532049066180619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 25 Aug 2025 18:20:20 -0000
+Message-Id: <175614602024.1358655.14715014036132675549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 08aae7860450c89eebbc6fd4d38416e53c7a33d2
-    new: 2aa35b24ad12fb960d30e9e282f768e1a0af9291
+  - ref: refs/heads/100GbE
+    old: ec79003c5f9d2c7f9576fc69b8dbda80305cbe3a
+    new: ed913b343dcf9f623e7436fa1a153c89b22d109b
     log: |
-         2aa35b24ad12fb960d30e9e282f768e1a0af9291 RDMA/erdma: Use vcalloc() instead of vzalloc()
+         60dfe2434eed13082f26eb7409665dfafb38fa51 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
+         86aae43f21cf784c1d7f6a9af93e5116b0f232ab ice: don't leave device non-functional if Tx scheduler config fails
+         5c5e5b52bf05c7fe88768318c041052c5fac36b8 ice: use fixed adapter index for E825C embedded devices
+         b1a0c977c6f1130f7dd125ee3db8c2435d7e3d41 ice: fix incorrect counter for buffer allocation failures
+         ed913b343dcf9f623e7436fa1a153c89b22d109b ixgbe: fix ixgbe_orom_civd_info struct layout
          
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 0000000000000000000000000000000000000000
-    new: 85fe9f565d2d5af95ac2bbaa5082b8ce62b039f5
