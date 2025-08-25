@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5021277713629476822=="
+Content-Type: multipart/mixed; boundary="===============6418533005336023447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 25 Aug 2025 02:49:12 -0000
-Message-Id: <175609015261.3514189.1446048565615891754@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 02:52:45 -0000
+Message-Id: <175609036594.3522426.18174783989055642748@gitolite.kernel.org>
 
---===============5021277713629476822==
+--===============6418533005336023447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
-    new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-c17b750b3ad9-1b237f190eb3.txt
+  - ref: refs/heads/nfsd-next
+    old: 497bb5ee80fa7405b3cbfc14891dcfeea7ba2ce2
+    new: d3a94fd82de33c1d6ca5df35e73f7e869c2f250c
+    log: revlist-497bb5ee80fa-d3a94fd82de3.txt
 
---===============5021277713629476822==
+--===============6418533005336023447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c17b750b3ad9-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-497bb5ee80fa-d3a94fd82de3.txt
 
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
 72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
@@ -473,5 +473,25 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 69fd6b99b8f85eaa5d784e4840e982ca59c04250 Merge tag 'perf_urgent_for_v6.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
+3cabf3dffb0a83cdb2123b105cd6e1c27fc12be4 sunrpc: fix null pointer dereference on zero-length checksum
+8247c4dd1d92c351d5ad5610242474f4a073b8bd NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+5bd4fc4382eff7419e31d9bb6f911bac2477289c NFSD: Move the fh_getattr() helper
+cc34b64b3cf0261758357192503128712e94bac2 sunrpc: delay pc_release callback until after the reply is sent
+5893416dc13e3b97e84857a67c45cc335c84d3b7 nfsd: discard nfsd_file_get_local()
+999caef57ce8b8884e1f2570ee48de2a8f851c6c sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+38edf56013d23e5ddf963187d9ecd3f1e04c3c30 NFSD: Rework encoding and decoding of nfsd4_deviceid
+3de121bcc477147e2718e44d09a8959904accad6 NFSD: Minor cleanup in layoutcommit processing
+5a0fd501e3f95693ef6c8346229b315bc8787f64 NFSD: Minor cleanup in layoutcommit decoding
+127a9776f47e8d408da79291af0d19358c5841c2 NFSD: Implement large extent array support in pNFS
+3be1f900bf817fe9f78764e184f0a4d3e8dde0fe NFSD: Fix last write offset handling in layoutcommit
+071767c3f8cb4231304431c7c7a5cf14d582b035 nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
+5f4c1b0fe4cdb2e7b4d1ad9d1d35d5dd0f4dc6de nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
+4c77e1967b7d265d65515ae467f0073693684359 vfs: add ATTR_CTIME_SET flag
+7b5c439af6768cc235bfb448ac4c8872f7b358a9 nfsd: use ATTR_CTIME_SET for delegated ctime updates
+fb6622a4af3d7851b005323528422c858bd0d1b3 nfsd: track original timestamps in nfs4_delegation
+805e884db46fd11770badfe58915514f6870d436 nfsd: fix SETATTR updates for delegated timestamps
+1aab1014b6044d71a6959de3074947e65d20f155 nfsd: fix timestamp updates in CB_GETATTR
+690bacd7db622555dc83e26611ae994092664dcd nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
+d3a94fd82de33c1d6ca5df35e73f7e869c2f250c lockd: Remove space before newline
 
---===============5021277713629476822==--
+--===============6418533005336023447==--
