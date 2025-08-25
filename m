@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8199467690902356688=="
+Content-Type: multipart/mixed; boundary="===============6073727499766363396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 25 Aug 2025 07:18:20 -0000
-Message-Id: <175610630014.4133893.2385340318115656672@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 07:18:30 -0000
+Message-Id: <175610631046.4134497.5025369934041461081@gitolite.kernel.org>
 
---===============8199467690902356688==
+--===============6073727499766363396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-8f5ae30d69d7-1b237f190eb3.txt
+  - ref: refs/heads/driver-core-next
+    old: 349a64256534aa2c73787b22f7bc0517a211cdab
+    new: b71763a0a3305b685e0378b7f7a4c4c16d4c66ba
+    log: revlist-349a64256534-b71763a0a330.txt
 
---===============8199467690902356688==
+--===============6073727499766363396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106345 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106353 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1756106299-7980f5afaf5da9bfddfe28872ab8fe28a43a1520
+nonce 1756106307-37b209556ccc1616d7189d088d6ef564cf8e004b
 
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 1b237f190eb3d36f52dffe07a40b5eb210280e00 refs/heads/main
+349a64256534aa2c73787b22f7bc0517a211cdab b71763a0a3305b685e0378b7f7a4c4c16d4c66ba refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8jsP/0lrDkEyQ0+4VLiOzkjb
-gj2Z78wa7QE9Da0MJRZr0OHCjOoYTalgaXypkGXnUFFVnanqRR1CW3hXR/TNqOsg
-l7MCi0szWEVFATVBnnJsxgGM5BrrXVFDFmA/gULOjORXqVP6Ti+s9GilIxFIHaFT
-ubD0xC3czeTSAWqyhbA098gkakJuS2Wc01gvISbUg1H9zSWUhqv8Ldvr7xR98ITa
-C+Pjdm+DIAUVWck2XY4eo6rDUhFQLrmcW4sEIhyQQvyTVUTUtv0MYNphSDVBmxcz
-LqVLv8ByZUvaORj7YizjjNeFApDZPMH7kNijnf3zyTxCuUBTBq4rNcGU2Rm5KFRD
-4zYijmqdXcTjwcECrkDhSKnoU6DD7VLEmHYSz1zFz++ZdSesatXS7eNfC3TQXqtr
-z+3UDU265pTTpy4w3jB5Fstn2T8jfB4NHivUGH2V6nsrYIxGJhEpuND3RcTLeXcS
-sJPTxgmn7hOrM7dB76H9Y8IoXh7qhrQN8v50GnVr1jSXqMjRmctWR9Hzu91AUeTG
-4BQ2cWebJ/utgPnRmfqQCibRsINliqfRhlzg0qeCO6TKX307vUVtrzgPcpAP3oNQ
-1d0h8DoS3WV4h1dQG5jK7hkSHJHv3YUa8/EzfuIairdakcBE2bKWL7YKYAbO/JIJ
-04bfIjoAAATcPktXV06gGTyC
-=5PKc
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDnEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LQ4QAJhHgXHTMpaZaHyjx5Zy
+Vf84REmYST3+Pq6UgLlYo8Rg4LYJgaA+5QjKW/yAYcrhXYnk1A4kpOmssv0mcYZq
+EqQpBNseiMxYIL0blqlItUUBmIPaY0U1iek/pc3xIrjy8epFD49UK1AzP/Jah5WE
+BWyPLZqLImH8JNWsoaQrSLRqhJexp61M5knZdfmD/qQ3kMk1jbF4w7BFFRYroKkd
+9wja/b7/i61scgGqgJl+lbl5g5SCPzXkhpgWYwR6FRmyv2+W1y/zyWuB4hZ/XILo
+ARSSQekCbOldaNM63vHBRxSVoz4zVf9/WJuok2jvtONLKrsDgeeYyhm2Glc/URrx
+DcBzb2qVuM+yE0c9v+1fcogFFn/6tdqZpQf3kmAYLIvpBudDqtjAh91/bEmkbmWI
+8U+9h7nw2a/LG14717f6wUbgyGWsVF27t4v7QuUhnhGNd80ZEnkEa+iW1sTGWFIT
+Mqv6MExvlfFfNQnou+RXV6swyKh9nUARpOzOUQklgPb3E0JsGb3lUU9AndNZvuc2
+pJhf6IpfAiVlcsE8WDYzHE1fmgfgK2+sfgKaslxynuzo7ml2aj38dgUujRyqPi4W
+jNjMfy4LzIi9JiaUJJB/MHP8NY+AiJ2mC1Z7ml/LhejeeCjBQRp5/a8N9jM5dCM8
+JGr+7tmTHGHcDc2mW4rWbpje
+=MV+f
 -----END PGP SIGNATURE-----
 
---===============8199467690902356688==
+--===============6073727499766363396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-349a64256534-b71763a0a330.txt
 
 33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
@@ -729,5 +729,6 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 69fd6b99b8f85eaa5d784e4840e982ca59c04250 Merge tag 'perf_urgent_for_v6.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
+b71763a0a3305b685e0378b7f7a4c4c16d4c66ba Merge 6.17-rc3 into driver-core-next
 
---===============8199467690902356688==--
+--===============6073727499766363396==--
