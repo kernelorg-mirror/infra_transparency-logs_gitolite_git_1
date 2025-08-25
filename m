@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3496561023712463414=="
+Content-Type: multipart/mixed; boundary="===============4070070252939622587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 25 Aug 2025 16:33:16 -0000
-Message-Id: <175613959696.1131029.582791393223217042@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 16:34:16 -0000
+Message-Id: <175613965614.1133227.4404731742480138750@gitolite.kernel.org>
 
---===============3496561023712463414==
+--===============4070070252939622587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,37 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/execve
-    old: 7f71195c15dcf5f34c4c7f056603659374e3a525
-    new: 5e088248375d171b80c643051e77ade6b97bc386
-    log: revlist-7f71195c15dc-5e088248375d.txt
+  - ref: refs/heads/for-next/kspp
+    old: f627b51aaa041cba715b59026cf2d9cb1476c7ed
+    new: 581200450bbf313096f6ca06e3b1407919bca50a
+    log: revlist-f627b51aaa04-581200450bbf.txt
 
---===============3496561023712463414==
+--===============4070070252939622587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1756139644 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1756139702 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1756139580-07257c53e146b5e76f7973c630e67b63590702f7
+nonce 1756139651-0abe37bd486d6034efe232137986b4f37dfeb60a
 
-7f71195c15dcf5f34c4c7f056603659374e3a525 5e088248375d171b80c643051e77ade6b97bc386 refs/heads/for-next/execve
+f627b51aaa041cba715b59026cf2d9cb1476c7ed 581200450bbf313096f6ca06e3b1407919bca50a refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaKyQfAAKCRA2KwveOeQk
-u9UxAP49pj0yeiWy8WvDjbJZhJDTjWuNUg/lejM1F2qZCEfJ9wEAprJhWbGlDkRY
-r+sVuby/YYnl7Y16PcElTvtjN+m+SAk=
-=gKfH
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaKyQtgAKCRA2KwveOeQk
+u802AQDEXnY+jyp+G1Pz+E7gJnvWbf1Ap5olgth3zdFp2qbFHAD/R9Sr/9znV3Y3
+yOR3V5KrM8iBtjEggxf/n3yLEE+LnQw=
+=h0OJ
 -----END PGP SIGNATURE-----
 
---===============3496561023712463414==
+--===============4070070252939622587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f71195c15dc-5e088248375d.txt
+Content-Disposition: attachment; filename=revlist-f627b51aaa04-581200450bbf.txt
 
-a5a6b29a700fda1dd766cc42dde2cbba9b19f470 bpf: Show precise rejected function when attaching fexit/fmod_ret to __noreturn functions
-863aab3d4dcdfffa5cf0e0795c526dadca65be7a bpf: Add log for attaching tracing programs to functions in deny list
-a32f6f17a74d0e897b48bd4c697cc9782a38bf4f selftests/bpf: Add selftest for attaching tracing programs to functions in deny list
-51d3750aba798335568970f3157629c6ca5dc91a selftests/bpf: Migrate fexit_noreturns case into tracing_failure test suite
-cd7c97f4584a93578f87ea6ff427f74e9a943cdf Merge branch 'bpf-show-precise-rejected-function-when-attaching-to-__noreturn-and-deny-list-functions'
-53edfecef66bfa65882ae065ed1a52f466c88979 Merge tag 'pm-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-9bbf8e17d8521211c5c5516ed5ec78d7581aacff Merge tag 'acpi-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e30fc090828e5761defe345b7bfb61bfc46be5bd Merge tag 'thermal-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-177bf8620cf4ed290ee170a6c5966adc0924b336 Merge tag 'sound-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-fcb117e0758d1462128a50c5788555e03b48833b Merge tag 'gpio-updates-for-v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-ffec878fa5fba8c527cbbb006b0522ae0d6599ce Merge tag 'pwrseq-updates-for-v6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-5339a2aefc35c81526dc9a26419d34e8b041f0e6 Merge tag 'regmap-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-bf977a9ad33d204c8ca646cef83184eb364820ff Merge tag 'regulator-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-0262163136de813894cb172aa8ccf762b92e5fd7 Merge tag 'spi-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-f38b7512903a50eaeb300e9c8d9448187dd3959c Merge tag 'pwm/for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-9669b2499ea377764f8320dd562dd6cd4ea80a5d Merge tag 'platform-drivers-x86-v6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-86aa721820952b793a12fc6e5a01734186c0c238 Merge tag 'chrome-platform-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-711fa2667d8b230ff31f1855d0f25e3263268d8a Merge tag 'drm-misc-next-fixes-2025-07-24' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
-a3e892ab0fc287389176eabdcd74234508f6e52d tracing: fprobe: Fix infinite recursion using preempt_*_notrace()
 a045246b684badf0545f252651bdc008b2e80835 drm/i915/display: Write PHY_CMN1_CONTROL only when using AUXLess ALPM
 c338923c4c8a89bb81f585732b9b49fcf9465cdd drm/i915/display: Avoid unnecessarily calling intel_cx0_get_owned_lane_mask
 3eb63578d8d9bbaffc204a911cfae6763e895dfe drm/i915/display: Ensure phy is accessible on lfps configuration
@@ -152,10 +133,7 @@ d7223aed30cd77be31dabd635e709828f3255366 Merge tag 'edac_updates_for_v6.17_rc1' 
 04d29e3609b62896b94b60250d475f8f7c15db98 Merge tag 'x86_bugs_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bb78c145f7f08fda40bcec397939b01be4366c51 Merge tag 'x86_core_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 01fce21e1a890462ba1f37b577fc96c10753c608 Merge tag 'x86_microcode_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fc525d625a22c2179877955ee87e33f532b0674c kstack_erase: Fix missed export of renamed KSTACK_ERASE_CFLAGS
 14bed9bc81bae64db98349319f367bfc7dab0afd Merge tag 'x86_sev_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-94fd44648dae2a5b6149a41faa0b07928c3e1963 fortify: Fix incorrect reporting of read buffer size
-f627b51aaa041cba715b59026cf2d9cb1476c7ed compiler_types: Provide __no_kstack_erase to disable coverage only on Clang
 bf76f23aa1c178e9115eba17f699fa726aed669b Merge tag 'sched-core-2025-07-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bcb48dd3b344592cc33732de640b99264c073df1 Merge tag 'perf-core-2025-07-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 72b8944f147e151e845d976e7f48beff38967499 Merge tag 'locking-core-2025-07-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1070,6 +1048,28 @@ c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.ker
 0a9ee9ce49a66bfdf12e34130b45fafe170dfc84 Merge tag 'locking_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d561baae505bab6b3f133e10dc48e27e4505cbe Merge tag 'x86_urgent_for_v6.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9 Linux 6.17-rc2
-5e088248375d171b80c643051e77ade6b97bc386 exec: Fix incorrect type for ret
+747a24f46ccff425957cbe73b2004088cd1c82e4 KUnit: Introduce ffs()-family tests
+cbc654d18d3743cff70b2dafb64c903b8cd01f2b bitops: Add __attribute_const__ to generic ffs()-family implementations
+61acdfbe442a5f73202786ce9b16174129a4ddaf csky: Add __attribute_const__ to ffs()-family implementations
+61241e74f4790587c975ceee4f43c9fbac5d6e2a x86: Add __attribute_const__ to ffs()-family implementations
+3331640b1373c6d57fdd31d48ee7c4691098ba8b powerpc: Add __attribute_const__ to ffs()-family implementations
+585e9219a28a882eda8c9671e1bbdad575a51060 sh: Add __attribute_const__ to ffs()-family implementations
+3539ec54ff8afb979cae1399752fdacdcd1a3ed6 alpha: Add __attribute_const__ to ffs()-family implementations
+4454499188ac7bd56a717611893622e1bb23f632 hexagon: Add __attribute_const__ to ffs()-family implementations
+bc87dbd8e9b2674cd92690d1ca24c348b4b15c77 riscv: Add __attribute_const__ to ffs()-family implementations
+4062d21c1c840b78f5da4d7c9f998ffbd487db68 openrisc: Add __attribute_const__ to ffs()-family implementations
+6f2fbd22128304eaa26a3d200a6b3b9cc15dec39 m68k: Add __attribute_const__ to ffs()-family implementations
+5b7d3ae47a5b24c4d30fb2b2031f501f0005cd0b mips: Add __attribute_const__ to ffs()-family implementations
+76b005058e8a4bcbd213e23fee70c5757140568a parisc: Add __attribute_const__ to ffs()-family implementations
+5f8ee21b8fb2e5150a5a7f73eafa3e4d6b61fb3e s390: Add __attribute_const__ to ffs()-family implementations
+43533b6138adf86e2d60c058fe7bc87d9164f5ea xtensa: Add __attribute_const__ to ffs()-family implementations
+8c865ea1034df5836935ee6803a6b9eb9851170d sparc: Add __attribute_const__ to ffs()-family implementations
+159746fccb2e000bbac46fe24034d38e7df6c6e2 KUnit: ffs: Validate all the __attribute_const__ annotations
+ae91aea2d2265c88dbed65a07bbaf3c133fe970c ubsan: Fix incorrect hand-side used in handle
+f05995cc6d3bb742a10996036043ade8d1c65ab7 ARM: stacktrace: include asm/sections.h in asm/stacktrace.h
+1a809b6efcb118fa54d04857e6e544c3e9edb5ca .gitignore: Add Coding Assistants section
+871fcff457f9b7c8a87695a614c8748ebc8683e9 hardening: Require clang 20.1.0 for __counted_by
+a3db14be3e90ebf392de3781034452c84de1a7aa lkdtm: fortify: Fix potential NULL dereference on kmalloc failure
+581200450bbf313096f6ca06e3b1407919bca50a Merge branches 'for-linus/hardening', 'for-next/hardening' and 'for-next/v6.18-rc1/ffs-const' into for-next/kspp
 
---===============3496561023712463414==--
+--===============4070070252939622587==--
