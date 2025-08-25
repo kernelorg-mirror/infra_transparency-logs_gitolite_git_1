@@ -1,23 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 25 Aug 2025 15:16:15 -0000
-Message-Id: <175613497567.964120.2958805848107062847@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2600829008494462265=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 25 Aug 2025 15:21:55 -0000
+Message-Id: <175613531579.976377.1809976770978698730@gitolite.kernel.org>
+
+--===============2600829008494462265==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    new: b6add54ba61890450fa54fd9327d10fdfd653439
-    log: |
-         bd7c2312128e31d056d30d34d60503de056e15f0 pinctrl: meson: Fix typo in device table macro
-         23800ad1265f10c2bc6f42154ce4d20e59f2900e gpiolib: acpi: Add quirk for ASUS ProArt PX13
-         a12946bef0407cf2db0899c83d42c47c00af3fbc pinctrl: STMFX: add missing HAS_IOMEM dependency
-         563fcd6475931c5c8c652a4dd548256314cc87ed pinctrl: airoha: Fix return value in pinconf callbacks
-         b6add54ba61890450fa54fd9327d10fdfd653439 Merge tag 'pinctrl-v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-         
+  - ref: refs/heads/slab/for-6.17-rc4/fixes
+    old: 0000000000000000000000000000000000000000
+    new: b4efccec8d06ceb10a7d34d7b1c449c569d53770
+
+--===============2600829008494462265==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1756135359 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1756135311-405e1f22fb357c877979526c4a828e6182bf2a5a
+
+0000000000000000000000000000000000000000 b4efccec8d06ceb10a7d34d7b1c449c569d53770 refs/heads/slab/for-6.17-rc4/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmisf78bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiafIMIAIuc+x/JTaE/z6ibruIq
+tthqava5jRGzuTViSuIXONMirVxlPYK2IOJGpLacIeQITLogI9M5XFVwQVz7NK9S
+SVZRmxBEsMP9K8eyDJa4ch1RqxIzX9S1RmUzgR9jd4HzET1Jp1NrlbHMmRwMZNjV
+vSjbdQ7iMqFRgCZhcqDh62gGV8iCQHf5s0bXEvCpEay0V0jPAa2W4TXSAhXGRAcs
+f/zaXr8TJ88T6dJ7YEjBgxTiQrAuNVvD6CX+nMXRxHqOeKYWMUJhQXJGREPDm9Au
+PC9MIrQgMX0MEHAddaGJwiwNG05H65ly3Tg1m1OTFkv1Y63PGoPtzTaCPo/PmTrI
+ZE8=
+=pWgk
+-----END PGP SIGNATURE-----
+
+--===============2600829008494462265==--
