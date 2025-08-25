@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Mon, 25 Aug 2025 19:34:11 -0000
-Message-Id: <175615045152.1513658.6698877678087471227@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 19:34:27 -0000
+Message-Id: <175615046715.1514929.4662914453239391888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next
+  - ref: refs/heads/hyperv-next-staging
     old: 15b07d3e2be2f15e12bbc829417e17e6851542c0
     new: 03ac62a578566730ab3c320f289f7320798ee2e1
     log: |
