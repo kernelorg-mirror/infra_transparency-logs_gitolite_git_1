@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3055404049124351338=="
+Content-Type: multipart/mixed; boundary="===============1936447938335810890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 25 Aug 2025 14:07:27 -0000
-Message-Id: <175613084786.817952.1214054881787239631@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 14:07:32 -0000
+Message-Id: <175613085203.818226.15798518254197300266@gitolite.kernel.org>
 
---===============3055404049124351338==
+--===============1936447938335810890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 67bd9b55f41ea6a9600205c905718299f117520e
-    new: 935846450801c685f73e5b5ee9cfd757b0bc1f9f
-    log: revlist-67bd9b55f41e-935846450801.txt
+  - ref: refs/heads/m68k-queue
+    old: 6071869502226a2a62e9e01a2adfd88c9ecd5b90
+    new: 32d3521ee2ff296a9e69c22dae2f89d835c945de
+    log: revlist-607186950222-32d3521ee2ff.txt
 
---===============3055404049124351338==
+--===============1936447938335810890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67bd9b55f41e-935846450801.txt
+Content-Disposition: attachment; filename=revlist-607186950222-32d3521ee2ff.txt
 
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
 72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
@@ -473,6 +473,8 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 69fd6b99b8f85eaa5d784e4840e982ca59c04250 Merge tag 'perf_urgent_for_v6.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
-935846450801c685f73e5b5ee9cfd757b0bc1f9f Merge tag 'v6.17-rc3'
+890312cf39169ca1c251300bf721f645615537b7 m68k: atari: usb: Add ISP1160 USB host controller support
+4f59f348f49d82c6dfbb6c866f58f84c04cbf1fb m68k: atari: Update Kconfig.bus help text
+32d3521ee2ff296a9e69c22dae2f89d835c945de m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3055404049124351338==--
+--===============1936447938335810890==--
