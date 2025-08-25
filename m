@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5138582504769131965=="
+Content-Type: multipart/mixed; boundary="===============1748878039857205546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 25 Aug 2025 07:59:41 -0000
-Message-Id: <175610878117.33832.10500336455955915658@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 07:59:52 -0000
+Message-Id: <175610879206.34556.2122838790620941349@gitolite.kernel.org>
 
---===============5138582504769131965==
+--===============1748878039857205546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 8c431ea8f3f795c4b9cfa57a85bc4166b9cce0ac
+  - ref: refs/heads/master
+    old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
     new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-8c431ea8f3f7-1b237f190eb3.txt
+    log: revlist-c17b750b3ad9-1b237f190eb3.txt
 
---===============5138582504769131965==
+--===============1748878039857205546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c431ea8f3f7-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-c17b750b3ad9-1b237f190eb3.txt
 
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
 72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
@@ -453,6 +453,8 @@ a2e94e80790bb103ca72f8a2991f43c80474a4b6 Merge tag 'block-6.17-20250822' of git:
 272aa18fea29f3299960b62e2c24efb049b540ea Merge tag 'platform-drivers-x86-v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b3d80535e213ad6584577b0f20d9d49ccf233206 Merge tag 'for-linus-6.17-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 cf6fc5eefc5bbbbff92a085039ff74cdbd065c29 Merge tag 's390-6.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+7b28232921782aa38048249132899c337405eaa8 mips: dts: lantiq: danube: add missing burst length property
+8c431ea8f3f795c4b9cfa57a85bc4166b9cce0ac mips: lantiq: xway: sysctrl: rename the etop node
 f9915c391cf72789ec5b6d5966ba82c2bca5daa7 Merge tag 'drm-misc-fixes-2025-08-21' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 471b25a2fcbb25dccd7c9bece30313f2440a554e Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 a60f5ee68efd91b4507eacbb40d4024ecf363304 Merge tag 'drm-xe-fixes-2025-08-21-1' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
@@ -472,4 +474,4 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 
---===============5138582504769131965==--
+--===============1748878039857205546==--
