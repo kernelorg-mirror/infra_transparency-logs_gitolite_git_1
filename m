@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1704016756423181049=="
+Content-Type: multipart/mixed; boundary="===============6771823945028050212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 25 Aug 2025 13:51:32 -0000
-Message-Id: <175612989230.782272.1423559469718959736@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 13:53:15 -0000
+Message-Id: <175612999537.785475.13059080760250581289@gitolite.kernel.org>
 
---===============1704016756423181049==
+--===============6771823945028050212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 1e1739d69aed867351c486ad3507939aa2fb1d13
-    new: eac2730cd49181790ffbbdc7059d47bd721174b1
-    log: revlist-1e1739d69aed-eac2730cd491.txt
+  - ref: refs/heads/sched/core
+    old: 8671bad873ebeb082afcf7b4501395c374da6023
+    new: 6aa2edf8f340935f35e7be32f223792b028b574d
+    log: revlist-8671bad873eb-6aa2edf8f340.txt
 
---===============1704016756423181049==
+--===============6771823945028050212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e1739d69aed-eac2730cd491.txt
+Content-Disposition: attachment; filename=revlist-8671bad873eb-6aa2edf8f340.txt
 
+3ca824369b71d4b441e1fdcdee8e66bcb05510a9 tracing: Have unsigned int function args displayed as hexadecimal
+0905809b38bda1fa0b206986c44d846e46f13c1d Merge tag 'parisc-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+f4f346c3465949ebba80c6cc52cd8d2eeaa545fd Merge tag 'perf-tools-for-v6.17-2025-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+a6923c06a3b2e2c534ae28c53a7531e76cc95cfa Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 0a91336e287ca2557fead5221d2c79e0effd034e Merge tag 'bpf-next-6.17' into loongarch-next
 83e6384374bac8a9da3411fae7f24376a7dbd2a3 smp: Fix spelling in on_each_cpu_cond_mask()'s doc-comment
 e703b7e247503b8bf87b62c02a4392749b09eca8 futex: Move futex cleanup to __mmdrop()
@@ -1045,10 +1049,6 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 69fd6b99b8f85eaa5d784e4840e982ca59c04250 Merge tag 'perf_urgent_for_v6.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
-c904b4f5b63412994658d10db2bea9099aabed35 sched/deadline: Fix dl_server_stopped()
-8a9229f0e3442c9c63b9a13c213697417e2a16f5 sched/deadline: Always stop dl-server before changing parameters
-45fd76505e0a821bb4cd82631d8960733177182b sched/deadline: Fix RT task potential starvation when expiry time passed
-f0d4f4e6f9e4e0d9b88a651e5d3dc296024d2982 sched/deadline: Don't count nr_running twice for dl_server proxy tasks
-eac2730cd49181790ffbbdc7059d47bd721174b1 sched/deadline: Fix race in push_dl_task()
+6aa2edf8f340935f35e7be32f223792b028b574d sched/fair: Get rid of sched_domains_curr_level hack for tl->cpumask()
 
---===============1704016756423181049==--
+--===============6771823945028050212==--
