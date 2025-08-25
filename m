@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6418533005336023447=="
+Content-Type: multipart/mixed; boundary="===============0876453795847200412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 25 Aug 2025 02:52:45 -0000
-Message-Id: <175609036594.3522426.18174783989055642748@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 02:53:39 -0000
+Message-Id: <175609041992.3524050.749191545322279005@gitolite.kernel.org>
 
---===============6418533005336023447==
+--===============0876453795847200412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 497bb5ee80fa7405b3cbfc14891dcfeea7ba2ce2
-    new: d3a94fd82de33c1d6ca5df35e73f7e869c2f250c
-    log: revlist-497bb5ee80fa-d3a94fd82de3.txt
+  - ref: refs/heads/nfsd-testing
+    old: 623a9dcb5c10e0c3d5e94668de9f6a9c6f540964
+    new: cc528e91fe7acd0636aa7b05c63fae686100f66a
+    log: revlist-623a9dcb5c10-cc528e91fe7a.txt
 
---===============6418533005336023447==
+--===============0876453795847200412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-497bb5ee80fa-d3a94fd82de3.txt
+Content-Disposition: attachment; filename=revlist-623a9dcb5c10-cc528e91fe7a.txt
 
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
 72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
@@ -493,5 +493,19 @@ fb6622a4af3d7851b005323528422c858bd0d1b3 nfsd: track original timestamps in nfs4
 1aab1014b6044d71a6959de3074947e65d20f155 nfsd: fix timestamp updates in CB_GETATTR
 690bacd7db622555dc83e26611ae994092664dcd nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
 d3a94fd82de33c1d6ca5df35e73f7e869c2f250c lockd: Remove space before newline
+d300c24b3d84418139fa12b65732950e77a919c9 nfsd: Replace open-coded conversion of bytes to hex
+435aed6b469561651be2f81169cd51b96bb76444 nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
+2e320c9b7e59252ca390385370a28685b39bfef7 NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
+76dac3cac4a13d5920367fec2e0685c61a0a6610 nfsd: decouple the xprtsec policy check from check_nfsd_access()
+ccac868291d7b9530562575b0fad0b6715aea1e8 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
+193fac8e6f1517722641dbad45b2e8c6fabd9d37 sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+71fecc23cec50acbb643db5d490f3f3a2aae0925 NFSD: Drop redundant conversion to bool
+170afecada3d953b377ff417c0a91f12bc941481 nfsd: unregister with rpcbind when deleting a transport
+79a926fc31e888109fa766a6e89d17a7417ced9d NFS: Remove rpcbind cleanup for NFSv4.0 callback
+a9f27dc5b7af63a5b05d59d0e4dfa8c8ba7bd902 SUNRPC: Move the svc_rpcb_cleanup() call sites
+a552067a9d8043885f7a6e14a5c725a98832f493 NFSD: Delay adding new entries to LRU
+ce1fcaf6514ec45fd4b962a37bb77792d7543780 NFSD: Reduce DRC bucket size
+5320c43b3fcc59e2687eb5d8053f5be797183503 nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
+cc528e91fe7acd0636aa7b05c63fae686100f66a siw: Enable try_gso
 
---===============6418533005336023447==--
+--===============0876453795847200412==--
