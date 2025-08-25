@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7140883403871323329=="
+Content-Type: multipart/mixed; boundary="===============6093711588383928472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 25 Aug 2025 20:02:35 -0000
-Message-Id: <175615215505.1576125.13284019808527221896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 Aug 2025 20:02:44 -0000
+Message-Id: <175615216447.1576474.10342439304396800379@gitolite.kernel.org>
 
---===============7140883403871323329==
+--===============6093711588383928472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 7c15e4cabfa96ed3cd717a2ed7a9961268ab21f7
     new: b1c99d5bd24ce0a1193d8476d83bf8c8bc633266
     log: revlist-7c15e4cabfa9-b1c99d5bd24c.txt
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: d78e48ebe04e9566f8ecbf51471e80da3adbceeb
     new: f840737d1746398c2993be34bfdc80bdc19ecae2
     log: |
@@ -28,32 +28,32 @@ changes:
          f840737d1746398c2993be34bfdc80bdc19ecae2 ASoC: SOF: imx: Remove the use of dev_err_probe()
          
 
---===============7140883403871323329==
+--===============6093711588383928472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1756152200 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1756152150-940fdd1123aff9bde5b94736900ce5d35c51907e
+pusher Mark Brown <broonie@kernel.org> 1756152209 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1756152159-865634b7b27f7e3f924cc4ea487b90c3c082f5a0
 
-7c15e4cabfa96ed3cd717a2ed7a9961268ab21f7 b1c99d5bd24ce0a1193d8476d83bf8c8bc633266 refs/heads/for-6.17
-d78e48ebe04e9566f8ecbf51471e80da3adbceeb f840737d1746398c2993be34bfdc80bdc19ecae2 refs/heads/for-6.18
+7c15e4cabfa96ed3cd717a2ed7a9961268ab21f7 b1c99d5bd24ce0a1193d8476d83bf8c8bc633266 refs/heads/asoc-6.17
+d78e48ebe04e9566f8ecbf51471e80da3adbceeb f840737d1746398c2993be34bfdc80bdc19ecae2 refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiswYgTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0Kh2B/oCsjab8GY2bUG+zd7QUe32+r0ceh1q
-iVT3pJPWtCpPlsAvUsQ7TKAKlKsxUv8L1V+sPLuJ+KFQq18juGUzOl9rm0unypX9
-H5YLSTzPPumLIXcDW64l25vW2GcdyrrrjOqMAiyytwy5s11PmVHBx3bqJsxSYheS
-gy7O0ra8BnhtsXzxC/4CqX3JpmUze+DTDw34aq5hA8DkiNFEfOdDg0PmRp6aELuu
-IRVEe7cgJEU0skXV1OR7FefFQRTeOwZN0hbN2NUejf6vHelg6nsK+uG2KzZk2QZV
-xI9l8dwMFaPkwLuSBG4WUQfHqVGNCFI/c/lAryhJxK6xGtITicPO4IaT
-=93qv
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiswZETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0CyHB/9NonjQfeTY4BpX1Fp0RIkvFgPCJlse
+K0Z/rcw9okdR7JTLb+CDXm6JBbtC7uDXY7vOogk+1XiGVNlYirbgAgleSvixvhR0
+5jG7Y1FO3LQzYyRWo1Mh2wOHjvhAV2oHbm2ln+Dq3FimRH+GL7pvA9lGABp+iFwf
+2zLXDQcQjTQ0ElV28d2qkB8lVs6NzoyajVxbFVOzK2l5n9/Fu2pJ1JIRJ3YQPnPF
+gg/MvTwgggYnTHDfRhU/jXBKiRthwOhbG/+9k7405gS12wNzNY//iLe9hPIBKYF9
+zKZNpW4xkYLkMCU0MwRQCZJMP2YP3eK9h4Am432phs0CgTOwY974HECk
+=v36Q
 -----END PGP SIGNATURE-----
 
---===============7140883403871323329==
+--===============6093711588383928472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -503,4 +503,4 @@ c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://g
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 b1c99d5bd24ce0a1193d8476d83bf8c8bc633266 ASoC: codecs: idt821034: fix wrong log in idt821034_chip_direction_output()
 
---===============7140883403871323329==--
+--===============6093711588383928472==--
