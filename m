@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 25 Aug 2025 12:17:55 -0000
-Message-Id: <175612427570.584590.13954556831181863429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Mon, 25 Aug 2025 12:37:01 -0000
+Message-Id: <175612542166.623584.8823021994869244066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/b4/vdso-auxclock-division
-    old: 0000000000000000000000000000000000000000
-    new: 1baeba2bee338b2d4387e9abf4950e9a0033b409
+  - ref: refs/heads/alloc-token
+    old: 476c0aa35caf407d1b4dd733118657a307d06ff1
+    new: b833d07782ac297bf1604c535b61438c6592103e
+    log: |
+         b833d07782ac297bf1604c535b61438c6592103e slab: add support for type-based slab cache partitioning
+         
