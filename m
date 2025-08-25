@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 25 Aug 2025 10:59:32 -0000
-Message-Id: <175611957259.417159.124747930131243941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 25 Aug 2025 11:10:06 -0000
+Message-Id: <175612020649.440730.3649682401918271187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: ccef0530e60dc59b36cac1cae2d9a7d7f86ca99f
-    new: 5c2bf13c9ae951d63c97b367f4e7989d4913dcf3
+  - ref: refs/heads/master
+    old: dd08a27cbeb85b73c9575214c3b53fe98540f4c4
+    new: 12b8ff77fa136c51f4e6a754b8978d0d208474ca
     log: |
-         dc757dc1572d579c2634c05d0a03c5676227c571 iio: imu: bmi270: Match PNP ID found on newer GPD firmware
-         21feb435be9b19a0be8b2c44a9efb7a5296c9a66 dt-bindings: iio: adc: max1238: Add #io-channel-cells property
-         60ad9a07319283e6e1094cef3e972e754315c024 iio: core: switch info_mask fields to unsigned long to match find_bit helpers
-         5c2bf13c9ae951d63c97b367f4e7989d4913dcf3 dt-bindings: iio: adi,ltc2664: Minor whitespace cleanup in example
+         12b8ff77fa136c51f4e6a754b8978d0d208474ca Fixes for all trees
          
