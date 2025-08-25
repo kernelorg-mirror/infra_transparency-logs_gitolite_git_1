@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 25 Aug 2025 12:49:22 -0000
-Message-Id: <175612616267.649028.8614011075972058963@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 12:49:30 -0000
+Message-Id: <175612617097.649501.18433227555657263475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
 user: linusw
 changes:
-  - ref: refs/heads/devel
-    old: 7a399ce67e981f5f28afc1ff50772acd1f4e7bbf
-    new: 894751730a0d1674e43167b187e6605371667c8b
-    log: |
-         894751730a0d1674e43167b187e6605371667c8b dt-bindings: pinctrl: qcom,sc7280-lpass-lpi-pinctrl: Document the clock property
-         
+  - ref: refs/tags/pinctrl-v6.17-2
+    old: 0000000000000000000000000000000000000000
+    new: ed8257329b2fb14b807f566038215ba4a3bbf5c6
