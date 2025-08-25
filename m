@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3229307347645757159=="
+Content-Type: multipart/mixed; boundary="===============0825861016722981582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 25 Aug 2025 07:16:39 -0000
-Message-Id: <175610619918.4128865.6909955097018882934@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 07:16:45 -0000
+Message-Id: <175610620508.4129125.13741093561213638240@gitolite.kernel.org>
 
---===============3229307347645757159==
+--===============0825861016722981582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+  - ref: refs/heads/usb-linus
+    old: ff9a09b3e09c7b794b56f2f5858f5ce42ba46cb3
     new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-8f5ae30d69d7-1b237f190eb3.txt
+    log: revlist-ff9a09b3e09c-1b237f190eb3.txt
 
---===============3229307347645757159==
+--===============0825861016722981582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106244 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106250 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1756106198-ba097acadc49010639ddfe32199ceb9a1cd10084
+nonce 1756106202-2fbddc0ad851771da5031c97d1e8e9afdf5ebf36
 
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 1b237f190eb3d36f52dffe07a40b5eb210280e00 refs/heads/main
+ff9a09b3e09c7b794b56f2f5858f5ce42ba46cb3 1b237f190eb3d36f52dffe07a40b5eb210280e00 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDgQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x5EP/ijdM8PedigzWkI8DFhd
-aFDRa/5L/gCWVbBlsB3IYG+Dssodc2dwgkjjtCDUdpb+Lp+MPjG1xDr4/B2aV83N
-qm0X7Kl8Fxo5sahSURie8a2wQIAi2lazyrckUyOOQ5Q1JhsZywGV0GLkBFnNeqvW
-TuVuZFFDEAZAzQjwqxF8M+IXAKDdpXSEnQLCI7p1sYjQUoyrO3l01WYd8snkeRdy
-ZA0/jNDn0q2PVjBaW58h97m+Jdo/Z3mZbfsu4nrrMT4SsBTDKI8EQJBl1Uz8ni7D
-E00+aDhj9fFJDPF0Rg+xWEz5K7NOUaJduSe7DsvWhzdqu9kuXodQDokC3R8zDIG2
-CdJZO6QLvDCuPy2QisGYRq415mhwu6iWFQ+nahQT2h7e2+fGHHgtNzLbJGHr2MT5
-X1IunEa8UafD1PM8hoN5apD+cv6PKTQEq0uwPLvwvSQ2Rzo/cTzPJAwhPekB2kBs
-HoUe9kDieBepL+2ncHZntSDhL1h/PxpawaSsHvcb7GYeDFLHjeJF5cPLP11UjUd4
-T9UDqAU4DAptsdizXLcJsYMm/06yWzgT87XWmTDQ3BCd5TNdqwHQ91BruwlhWZ9s
-DREoKoiy17iKeTZxM8BZ4zSx7ATX1wOn2q4DcX91YdSs4xw4ZCXgjwS6IDanQYl5
-F+bRNLkKRsiK3LX4s8UPgEBS
-=PGDt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDgobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+StAP/AyVuFbjIe87S8ow1Uwa
+S4Mk8IPcL8oWLWKNBwnXZvDN48ZlZHVr/kgS12++SgPKCEPR7YITbgz1LhmiGgQw
+5ub+R6E+0tOqWCLZfIH9kExVnDPptww/qYLXSIc/vt8u+WPuDKfk1R+Nh9QKsdKs
+M59N/+Ak5kVvehX5Ok7ioDXNjWBjEln5vd49eeABLJ6g0N61se1y2UNKjzu9Xnfa
+kt+mDLI3+kCaPbjTeEHRKvJ7VYMz7C1qyGSPTnM5mLTL7DIyhxp6nWJilXdz8VmM
+hMU1YFUmmFOvqBxCufvkmIsUagIPuLUtYrAp7/J9f8gF/8bFz44zNWTyHT4Y8Zkk
+zMQrDQ0ObrCuYUNYcgvLklUme1gw48dNhbiPuQV7lCKbt66UyWE0NWEa/ha5rfAf
+T1ce6dyvjoi7X461pjDjpgjjmVEmNzsr4c4AFgNtH0VMHwrqiJU+lugdis5kNkWX
+zeRV0/8obJ3CvG+0wkgKO+l4ZCzzYcfUwoYL7TyMysYYTbuRyY8MJuKotzJpsZKc
+/Z/MvFHGDTtb5yEmTX8a8lWssW7yTHKjAEDjudJCxO4ylCZpohur++lXvPaGdHbf
+kTt2xc4ZVKdjs3GfLwjLOgLuiiNtinGQlukMAcszK3lE4Sk35DRU63e+08ACe31y
+39V2YKivs/7HPlGVrRO6211K
+=jsn1
 -----END PGP SIGNATURE-----
 
---===============3229307347645757159==
+--===============0825861016722981582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-ff9a09b3e09c-1b237f190eb3.txt
 
 33927f3d0ecdcff06326d6e4edb6166aed42811c habanalabs: fix UAF in export_dmabuf()
 a2f54ff15c3bdc0132e20aae041607e2320dbd73 scsi: core: sysfs: Correct sysfs attributes access rights
@@ -315,16 +315,6 @@ b435ab556bea875c088485f271ef2709ca1d75f5 btrfs: restore mount option info messag
 74857fdc5dd2cdcdeb6e99bdf26976fd9299d2bb btrfs: fix printing of mount info messages for NODATACOW/NODATASUM
 9d83e1f05c98bab5de350bef89177e2be8b34db0 io_uring/io-wq: add check free worker before create new worker
 47ed64db8c17eb16541098add865178fb7e68744 ASoC: tas2781: Normalize the volume kcontrol name
-e664036cf36480414936cd91f4cfa2179a3d8367 usb: quirks: Add DELAY_INIT quick for another SanDisk 3.2Gen1 Flash Drive
-202ad1aaca777dc7fd24f459f5f808f5abd2bfda usb: gadget: tegra-xudc: fix PM use count underflow
-f9420f4757752f056144896024d5ea89e5a611f1 usb: renesas-xhci: Fix External ROM access timeouts
-8fe06185e11ae753414aa6117f0e798aa77567ff usb: core: hcd: fix accessing unmapped memory in SINGLE_STEP_SET_FEATURE test
-6ca8af3c8fb584f3424a827f554ff74f898c27cd USB: storage: Add unusual-devs entry for Novatek NTK96550-based camera
-58577118cc7cec9eb7c1836bf88f865ff2c5e3a3 usb: dwc3: Ignore late xferNotReady event to prevent halt timeout
-86f390ba59cd8d5755bafe2b163c3e6b89d6bbd9 usb: dwc3: pci: add support for the Intel Wildcat Lake
-9528d32873b38281ae105f2f5799e79ae9d086c2 kcov, usb: Don't disable interrupts in kcov_remote_start_usb_softirq()
-421255afa2a58eee2109dda56c137a7b61c4b05f usb: chipidea: imx: improve usbmisc_imx7d_pullup()
-98da66a70ad2396e5a508c4245367797ebc052ce usb: storage: realtek_cr: Use correct byte order for bcs->Residue
 91325f31afc1026de28665cf1a7b6e157fa4d39d Merge tag 'mm-hotfixes-stable-2025-08-12-20-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 a5ba9ad417254c49ecf06ac5ab36ec4b12ee133f rust: faux: fix C header link
 23cbfd6fed78715459a4395c034c4e76b8c85320 ALSA: azt3328: Put __maybe_unused for inline functions for gameport
@@ -439,10 +429,6 @@ c69e13965f26b8058f538ea8bdbd2d7718cf1fbe iio: adc: rzg2l_adc: Set driver data be
 5eb4b9a4cdbb70d70377fe8fb2920b75910e5024 params: Replace deprecated strcpy() with strscpy() and memcpy()
 99bade344cfa1577c6dd658e10a3d64b119bddf4 Merge tag 'rust-fixes-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 0f580d5d3d9d9cd0953695cd32e43aac3a946338 rust: alloc: fix `rusttest` by providing `Cmalloc::aligned_layout` too
-a3dc32c635bae0ae569f489e00de0e8f015bfc25 USB: storage: Ignore driver CD mode for Realtek multi-mode Wi-Fi dongles
-45eae113dccaf8e502090ecf5b3d9e9b805add6f usb: dwc3: Remove WARN_ON for device endpoint command timeouts
-cabb6c5f4d9e7f49bdf8c0a13c74bd93ee35f45a usb: typec: maxim_contaminant: disable low power mode when reading comparator values
-a381c6d6f646226924809d0ad01a9465786da463 usb: typec: maxim_contaminant: re-enable cc toggle if cc is open and port is clean
 ba6cc29351b1fa0cb9adce91b88b9f3c3cbe9c46 debugfs: fix mount options not being applied
 d49172bbd7eb07e4ba5e52238eaa9caf692c1cea Documentation: clarify the expected collaboration with security bugs reporters
 3a68841d1d9b6eb32b2652bbb83acd17d5eb9135 Documentation: smooth the text flow in the security bug reporting process
@@ -532,8 +518,6 @@ d4932a1b148bb6121121e56bad312c4339042d70 x86/bugs: Fix GDS mitigation selecting 
 62c30c544359aa18b8fb2734166467a07d435c2d net: ethernet: mtk_ppe: add RCU lock around dev_fill_forward_path
 0417adf367a0af11adf7ace849af4638cfb573f7 ppp: fix race conditions in ppp_fill_forward_path
 01792bc3e5bdafa171dd83c7073f00e7de93a653 net: ti: icssg-prueth: Fix HSR and switch offload Enablement during firwmare reload.
-70fb252a84a47430240d924528a40e84c2b027e4 USB: core: Update kerneldoc for usb_hcd_giveback_urb()
-309b6341d5570fb2b41b923de2fc9bb147106b80 usb: typec: fusb302: Revert incorrect threaded irq fix
 1ca61060de92a4320d73adfe5dc8d335653907ac fpga: zynq_fpga: Fix the wrong usage of dma_map_sgtable()
 300a0cfe9f375b2843bcb331bcfa7503475ef5dd cdx: Fix off-by-one error in cdx_rpmsg_probe()
 96cb948408b3adb69df7e451ba7da9d21f814d00 comedi: pcl726: Prevent invalid irq number
@@ -544,8 +528,6 @@ b47b493d6387ae437098112936f32be27f73516c most: core: Drop device reference after
 589c12edcd8a7b3b24f407b58443bab3560125e4 coredump: Fix return value in coredump_parse()
 c237aa9884f238e1480897463ca034877ca7530b kernfs: don't fail listing extended attributes
 a2c1f82618b0b65f1ef615aa9cfdac8122537d69 signal: Fix memory leak for PIDFD_SELF* sentinels
-2eb03376151bb8585caa23ed2673583107bb5193 usb: xhci: Fix slot_id resource race conflict
-ff9a09b3e09c7b794b56f2f5858f5ce42ba46cb3 usb: xhci: fix host not responding after suspend and resume
 658a1c8e0a66d0777e0e37a11ba19f27a81e77f4 drm/xe: Assign ioctl xe file handler to vm in xe_vm_create
 11cd7a5c21db020b8001aedcae27bd3fa9e1e901 regulator: tps65219: regulator: tps65219: Fix error codes in probe()
 0ddfb62f5d018edcb571a3d8ea30ad5332cf2a69 fix the softlockups in attach_recursive_mnt()
@@ -730,4 +712,4 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 
---===============3229307347645757159==--
+--===============0825861016722981582==--
