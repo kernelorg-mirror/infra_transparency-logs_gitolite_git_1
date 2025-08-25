@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1748878039857205546=="
+Content-Type: multipart/mixed; boundary="===============1043410984305198551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 25 Aug 2025 07:59:52 -0000
-Message-Id: <175610879206.34556.2122838790620941349@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 08:00:04 -0000
+Message-Id: <175610880411.36670.12988645824957918332@gitolite.kernel.org>
 
---===============1748878039857205546==
+--===============1043410984305198551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-next
     old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
     new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
     log: revlist-c17b750b3ad9-1b237f190eb3.txt
 
---===============1748878039857205546==
+--===============1043410984305198551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -474,4 +474,4 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 
---===============1748878039857205546==--
+--===============1043410984305198551==--
