@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8547044916933919944=="
+Content-Type: multipart/mixed; boundary="===============2070599520683441973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 25 Aug 2025 16:08:50 -0000
-Message-Id: <175613813032.1078407.8128309065898686308@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 16:08:55 -0000
+Message-Id: <175613813510.1078721.13036529803138171561@gitolite.kernel.org>
 
---===============8547044916933919944==
+--===============2070599520683441973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: cd31182c80e8ec02dacd1d56b91c31e5c7d2c580
     new: b1c92cdf5af3198e8fbc1345a80e2a1dff386c02
     log: revlist-cd31182c80e8-b1c92cdf5af3.txt
 
---===============8547044916933919944==
+--===============2070599520683441973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ fd4aa243f154a80bbeb3dd311d2114eeb538f479 net: wangxun: limit tx_max_coalesced_fr
 40477b8bb04876940b2045a47a48b31e8c69c553 net: wangxun: support to use adaptive RX/TX coalescing
 b1c92cdf5af3198e8fbc1345a80e2a1dff386c02 Merge branch 'net-wangxun-complete-ethtool-coalesce-options'
 
---===============8547044916933919944==--
+--===============2070599520683441973==--
