@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4838855950897457118=="
+Content-Type: multipart/mixed; boundary="===============6670043275381905419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 25 Aug 2025 07:20:58 -0000
-Message-Id: <175610645865.4142110.9556052060920054046@gitolite.kernel.org>
+Date: Mon, 25 Aug 2025 07:21:04 -0000
+Message-Id: <175610646496.4142379.6838331837129380328@gitolite.kernel.org>
 
---===============4838855950897457118==
+--===============6670043275381905419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: fe85261d7d554f54693f205898260ef1d44cbd8b
-    new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-fe85261d7d55-1b237f190eb3.txt
+  - ref: refs/heads/char-misc-next
+    old: 73c94172e278197fbed9f6a7b7550edc5bc1fbad
+    new: 5b9057cfafaaabc3c91a4e3e3bec024651737e66
+    log: revlist-73c94172e278-5b9057cfafaa.txt
 
---===============4838855950897457118==
+--===============6670043275381905419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106503 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756106508 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1756106456-70515a2a5c7388bed105e388480fdf30539ebb07
+nonce 1756106462-71d78ca0b5db2dbea5a4fa48f8962af6ce86c501
 
-fe85261d7d554f54693f205898260ef1d44cbd8b 1b237f190eb3d36f52dffe07a40b5eb210280e00 refs/heads/char-misc-linus
+73c94172e278197fbed9f6a7b7550edc5bc1fbad 5b9057cfafaaabc3c91a4e3e3bec024651737e66 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDwcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6u4P/2KV7m0rKsl7+xRBlnjX
-6jBeYY2gvWoci3BSIhAK2W77/U2Kn/RjvzgaP9m0r5U3tktRm/9nkTX3zwvulfW9
-kVY2aoRG5HiRvLdkhtJ4KWO9Cv1VcifLYxD2iAPEQ0wzctnugwtSECW+A7hr7dx3
-UC0HFgoLQMZttKkkhKN/2e5lQjz36X0+U287kOVytPl383Tb0JrVgmBJHzjKsjCv
-AulWTBcQ6+G0+YI/8e56MGvpF8OJp1YYeTVqn+CrejJCjYSkUfDMSUiuYcPbNtp0
-FRJks5QxsIB9BkCbFvMoPqw7EGhWzqF44/8x50OJU99UWXUqOcHXlOwr92498PIG
-8MjxeFc8HnpyS6NdaZJaPYYlzIaLN7P4P6S2qF8sU1igK+kB3gkrIge9MfLW4sVX
-U4q0Ihj7Pi6IdrE+3xTAXasOawbF9CPVoiQ4ZOQznblHKiM4y2sWC6HODZzTWzJ+
-B5ugCRDB8lP+MWNlkHjkHitdBHtWMreh6kK+DIfjkjzwyDTXNt8m5LLEt0awjHoE
-QFDoSInvbo+1mjYLiXLHvwFq2PHi2HtZGZlz1beVK0vA2YQbUkP2sv9bqj/vgovW
-ytXCj/oOrmqI+ON7HOWckSo4xaEgrmvd7zWagyIxySKRkWgZPa6zQ+CtwDk4Fd78
-kzMDAyUP2KircNnuMNwcVDP8
-=9M8Z
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmisDwwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lFcP/1yYJc6ZtS7Wvavi6Zu2
+KtMCydC10J2LW2+V/+Bq0pFC2fgXQreWvTWUfagVR1w32DKiIlnqfOnjMfIr3IVu
+8oBtpveVfXSRqSNEYDPJmECMnXV3zDE52VqxMJGKTTTVvidaJbA1ZVC+LWFlBLHG
+x75lh3YhTvIYJZCFhdARvINCKMAzhk8jtysR69UbO1J+DX3sXka+XSfzrYaum/bd
+MPXFWfwop2WGAskyhNZt2eerw3u+myZvBpysaBq+nCIC0rK5pUgbChibHpDKgweo
+nkp2tUOh4YErk1IgOQt9uDot9olv1L2okVxeoDL8TtWBF1riE3kmQqfxGl+UjbB1
+tctJv6yKHrUy1oVdG2J7ZBWcimI0ntaGFVwJfCO7NvnY1l4g6bULnph1fXwXkXOm
+84wmLhWNT1U+wPHXF8vPmlC5I8gSBQe6XFlT2aXxsCan1kL9aNJ8QhszXxY3oNaT
+pPOXDOekBmc8YnYIR6fS+PF4uP3N+GRG9pC6lMrsEBWs4DRC04fW0ughY23blHN0
+Pw/sUqSv3DUbP8h/wWphFvbzgcqDsNlDAWN6W8/QfDdTxmGuFvYfwm7u9TZhAacF
+e3aD2K5hjemygMdc/HSeRCsaIZ2phsOhNF2zWh4j4ySdOVitYICD7EwOHibjuzWw
+JqhLAfHf8e0NiFVtnqONhkkK
+=24Xf
 -----END PGP SIGNATURE-----
 
---===============4838855950897457118==
+--===============6670043275381905419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe85261d7d55-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-73c94172e278-5b9057cfafaa.txt
 
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
 72332439e6b0a39e763d4604e71774ab83423275 spi: spi-mem: Add missing kdoc argument
@@ -86,6 +86,12 @@ f87d597e8393f7038de046ed7f13bb176a4ead55 MAINTAINERS: entry for DRM GPUVM
 4b0ad968717eb1862b74c1f549e4225bf95c286f regulator: dt-bindings: infineon,ir38060: Add Guenter as maintainer from IBM
 ddf7233fcab6c247379d0928d46cc316ee122229 sched/ext: Fix invalid task state transitions on class switch
 e69980bd16f264581c3f606bae987e54f0ba8c4a selftests/sched_ext: Remove duplicate sched.h header
+4e5b705cc6147f0b9173c6219079f41416bdd3c0 iio: accel: sca3300: fix uninitialized iio scan data
+de18e978d0cda23e4c102e18092b63a5b0b3a800 iio: proximity: isl29501: fix buffered read on big-endian systems
+1cfb22c277c7274f54babaa5b416dfbc00181e16 iio: adc: ad7173: prevent scan if too many setups requested
+ae5bc07ec9f73a41734270ef3f800c5c8a7e0ad3 iio: temperature: maxim_thermocouple: use DMA-safe buffer for spi_read()
+197e299aae42ffa19028eaea92b2f30dd9fb8445 iio: adc: ad7124: fix channel lookup in syscalib functions
+dfdc31e7ccf3ac1d5ec01d5120c71e14745e3dd8 iio: imu: inv_icm42600: change invalid data error to -EBUSY
 fde578c86281f27b182680c7642836a0dbbd0be7 rust: alloc: replace aligned_size() with Kmalloc::aligned_layout()
 22ab0641b939967f630d108e33a3582841ad6846 rust: drm: ensure kmalloc() compatible Layout
 0c04a81c1d0214d5b2025f805ccec1ac37c96b08 rust: drm: remove pin annotations from drm::Device
@@ -204,6 +210,11 @@ b7ee30f0efd12f42735ae233071015389407966c md: fix sync_action incorrect display d
 715c7a36d59f54162a26fac1d1ed8dc087a24cf1 selftests: tls: make the new data_steal test less flaky
 39ca24675b7e351b8e681d924f417e455d4a7fc1 MAINTAINERS: Change habanalabs maintainers
 a44458dfd5bc0c79c6739c3f4c658361d3a5126b accel/habanalabs/gaudi2: Use kvfree() for memory allocated with kvcalloc()
+8a6ededaad2d2dcaac8e545bffee1073dca9db95 iio: adc: bd79124: Add GPIOLIB dependency
+b04e4551893fb8a06106a175ed7055d41a9279c4 iio: adc: ad7380: fix missing max_conversion_rate_hz on adaq4381-4
+a3c6eabe3bbd6b0e7124d68b2d3bc32fed17362e iio: adc: rzg2l: Cleanup suspend/resume path
+c69e13965f26b8058f538ea8bdbd2d7718cf1fbe iio: adc: rzg2l_adc: Set driver data before enabling runtime PM
+433b99e922943efdfd62b9a8e3ad1604838181f2 iio: light: as73211: Ensure buffer holes are zeroed
 5eb4b9a4cdbb70d70377fe8fb2920b75910e5024 params: Replace deprecated strcpy() with strscpy() and memcpy()
 0f580d5d3d9d9cd0953695cd32e43aac3a946338 rust: alloc: fix `rusttest` by providing `Cmalloc::aligned_layout` too
 a3dc32c635bae0ae569f489e00de0e8f015bfc25 USB: storage: Ignore driver CD mode for Realtek multi-mode Wi-Fi dongles
@@ -253,6 +264,7 @@ b21d1fbb97c814c76ffa392cd603f8cd3ecc0355 ACPI: APEI: EINJ: Fix resource leak by 
 779b1a1cb13ae17028aeddb2fbbdba97357a1e15 cpuidle: governors: menu: Avoid selecting states with too much latency
 af24c20c4633a667ac5b5e20cf9d96f6176a0ca3 ASoC: codecs: ES9389: Modify the standby configuration
 724216903700c7bee56464ab4634310fd4ede46b Merge tag 'md-6.17-20250819' of gitolite.kernel.org:pub/scm/linux/kernel/git/mdraid/linux into block-6.17
+43c0f6456f801181a80b73d95def0e0fd134e1cc iio: pressure: bmp280: Use IS_ERR() in bmp280_common_probe()
 8aa5a3b68ad144da49a3d17f165e6561255e3529 loop: Consolidate size calculation logic into lo_calculate_size()
 47b71abd58461a67cae71d2f2a9d44379e4e2fcf loop: use vfs_getattr_nosec for accurate file size
 d0a2b527d8c32e46ccb8a34053468d4ff0c27e5c block: tone down bio_check_eod
@@ -297,6 +309,12 @@ d4932a1b148bb6121121e56bad312c4339042d70 x86/bugs: Fix GDS mitigation selecting 
 01792bc3e5bdafa171dd83c7073f00e7de93a653 net: ti: icssg-prueth: Fix HSR and switch offload Enablement during firwmare reload.
 70fb252a84a47430240d924528a40e84c2b027e4 USB: core: Update kerneldoc for usb_hcd_giveback_urb()
 309b6341d5570fb2b41b923de2fc9bb147106b80 usb: typec: fusb302: Revert incorrect threaded irq fix
+1ca61060de92a4320d73adfe5dc8d335653907ac fpga: zynq_fpga: Fix the wrong usage of dma_map_sgtable()
+300a0cfe9f375b2843bcb331bcfa7503475ef5dd cdx: Fix off-by-one error in cdx_rpmsg_probe()
+96cb948408b3adb69df7e451ba7da9d21f814d00 comedi: pcl726: Prevent invalid irq number
+3cd212e895ca2d58963fdc6422502b10dd3966bb comedi: Fix use of uninitialized memory in do_insn_ioctl() and do_insnlist_ioctl()
+7afba9221f70d4cbce0f417c558879cba0eb5e66 comedi: Make insn_rw_emulate_bits() do insn->n samples
+b47b493d6387ae437098112936f32be27f73516c most: core: Drop device reference after usage in get_channel()
 7375f22495e7cd1c5b3b5af9dcc4f6dffe34ce49 fs/buffer: fix use-after-free when call bh_read() helper
 589c12edcd8a7b3b24f407b58443bab3560125e4 coredump: Fix return value in coredump_parse()
 c237aa9884f238e1480897463ca034877ca7530b kernfs: don't fail listing extended attributes
@@ -360,6 +378,7 @@ d2d6f950cb43be6845a41cac5956cb2a10e657e5 net/mlx5: CT: Use the correct counter o
 2cd58fec912acec273cb155911ab8f06ddbb131a microchip: lan865x: fix missing Timer Increment config for Rev.B0/B1
 51f27beeb79f9f92682158999bab489ff4fa16f6 Merge branch 'fixes-on-the-microchip-s-lan865x-driver'
 3f4422e7c9436abf81a00270be7e4d6d3760ec0e ALSA: hda: tas2781: Fix wrong reference of tasdevice_priv
+fe85261d7d554f54693f205898260ef1d44cbd8b Merge tag 'iio-fixes-for-6.17a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 6a909ea83f226803ea0e718f6e88613df9234d58 tracing: Limit access to parser->buffer when trace_get_user failed
 cd6e4faba96fe41d6b686e144b96dad5e6f2e771 ring-buffer: Remove redundant semicolons
 edede7a6dcd7435395cf757d053974aaab6ab1c2 trace/fgraph: Fix the warning caused by missing unregister notifier
@@ -485,5 +504,6 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 69fd6b99b8f85eaa5d784e4840e982ca59c04250 Merge tag 'perf_urgent_for_v6.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
+5b9057cfafaaabc3c91a4e3e3bec024651737e66 Merge 6.17-rc3 into char-misc-next
 
---===============4838855950897457118==--
+--===============6670043275381905419==--
