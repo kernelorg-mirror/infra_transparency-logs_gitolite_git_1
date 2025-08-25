@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Mon, 25 Aug 2025 20:00:15 -0000
-Message-Id: <175615201597.1571092.16168940296582266178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 25 Aug 2025 20:00:28 -0000
+Message-Id: <175615202815.1571602.9942368126994420862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 264762bb42b9d32793161c0d64c5a34e1f741fd3
-    new: 9ec44397ea2afd001278c33733433f67394b6c87
-    log: |
-         ea5d15f34e815f196cfafe2effd7679b8446818d move xfs_log_recover.h to libxfs/
-         0c5c99ee8669294cc25aaf6566dcd72f4f7b09da libxfs: update xfs_log_recover.h to kernel version as of Linux 6.16
-         9ec44397ea2afd001278c33733433f67394b6c87 Document current limitation of shrinking fs
-         
+  - ref: refs/heads/fileuVmRZf
+    old: f840737d1746398c2993be34bfdc80bdc19ecae2
+    new: 0000000000000000000000000000000000000000
