@@ -1,49 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5236771518271809834=="
+Content-Type: multipart/mixed; boundary="===============8817273342608260982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 25 Aug 2025 17:49:16 -0000
-Message-Id: <175614415601.1290211.1828458162015036773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 25 Aug 2025 17:55:01 -0000
+Message-Id: <175614450158.1302518.8453939284854514857@gitolite.kernel.org>
 
---===============5236771518271809834==
+--===============8817273342608260982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.18/io_uring
-    old: 05b865d3b2dcfdde37b570b6b437287d77998101
-    new: abb2d317ad0fe97f215d5cba69bf89e6321d69a4
-    log: |
-         abb2d317ad0fe97f215d5cba69bf89e6321d69a4 io_uring: add async data clear/free helpers
-         
-  - ref: refs/heads/for-next
-    old: 6763582c1263fe1bcf720b933b49936b440b1396
-    new: 4e478d92d43951001b7c8109f471f2a8685e20b0
-    log: revlist-6763582c1263-4e478d92d439.txt
+  - ref: refs/heads/main
+    old: b1c92cdf5af3198e8fbc1345a80e2a1dff386c02
+    new: 444b02ce3f5cd4ba4cc06f3f0166a1b1ed73aadf
+    log: revlist-b1c92cdf5af3-444b02ce3f5c.txt
 
---===============5236771518271809834==
+--===============8817273342608260982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6763582c1263-4e478d92d439.txt
+Content-Disposition: attachment; filename=revlist-b1c92cdf5af3-444b02ce3f5c.txt
 
-7a6fc1634cea6f220228a69b1c0210e6b8b1aaf0 blk-mq-dma: create blk_map_iter type
-dae75dead2359edd7c55e1964e0edf7d03535b31 blk-mq-dma: provide the bio_vec array being iterated
-92fb75fd14b041038e30bc725ab4c1e625243573 blk-mq-dma: require unmap caller provide p2p map type
-7092639031a1bd5320ab827e8f665350f332b7ce blk-mq: remove REQ_P2PDMA flag
-e2be2ba6d27d5c74f3bd458b64d1ad34a8a75bd8 blk-mq-dma: move common dma start code to a helper
-fec9b16dc5550191fd85af118271ea00e8dcc5f8 blk-mq-dma: add scatter-less integrity data DMA mapping
-c16b52a0a095888efdd5d76f7194caf2a4752256 blk-integrity: use iterator for mapping sg
-f0887e2a52d4ef3f246e508bd1d947dc13988643 nvme-pci: create common sgl unmapping helper
-94ce55046c3625380afd2a612237619c11dae6ad nvme-pci: convert metadata mapping to dma iter
-abb2d317ad0fe97f215d5cba69bf89e6321d69a4 io_uring: add async data clear/free helpers
-655587e8fd9d0ee712617a8917ea37d9b59a7c8b Merge branch 'block-6.17' into for-next
-65f098424ff492a6b9406d4491f6a0513e28bd63 Merge branch 'for-6.18/io_uring' into for-next
-4e478d92d43951001b7c8109f471f2a8685e20b0 Merge branch 'for-6.18/block' into for-next
+7cd3597b8f6fcad8c62d04a20f9da46d3f37b36e net: phy: aquantia: rename AQR412 to AQR412C and add real AQR412
+a31b1c1591e8296060a0a2ad69b1f936f953cd96 net: phy: aquantia: merge aqr113c_fill_interface_modes() into aqr107_fill_interface_modes()
+5433fbc3adcd2b27aadbf76dd35520ff22cdc356 net: phy: aquantia: reorder AQR113C PMD Global Transmit Disable bit clearing with supported_interfaces
+9731bcf202e653e63a4bcae2a6e82d3c3528e438 net: phy: aquantia: rename some aqr107 functions according to generation
+ab1dfcb5bce1f32807eb7110ca7e98c2afb72041 net: phy: aquantia: fill supported_interfaces for all aqr_gen2_config_init() callers
+08048ba4285eef925cf0dc9dbcef150d31b32ce6 net: phy: aquantia: save a local shadow of GLOBAL_CFG register values
+6fa022088b60338cf995c9238fe16bcea5c27484 net: phy: aquantia: remove handling for get_rate_matching(PHY_INTERFACE_MODE_NA)
+832b63c70ef0fa40747627c78c5b849dbe6e6615 net: phy: aquantia: use cached GLOBAL_CFG registers in aqr107_read_rate()
+c03c97e55f6291b05a9b8cf7e5eafe2432182606 net: phy: aquantia: merge and rename aqr105_read_status() and aqr107_read_status()
+02a7f5a92545ef99fc503fd8a86a686d29ce0974 net: phy: aquantia: call aqr_gen2_fill_interface_modes() for AQCS109
+2d9503217520880c80c58ee380d2a8bf7311dd49 net: phy: aquantia: call aqr_gen3_config_init() for AQR112 and AQR412(C)
+ed1106f7f9269f583137cce5917621b2781e5c95 net: phy: aquantia: reimplement aqcs109_config_init() as aqr_gen2_config_init()
+3c904dd67f50c5aed78d38dc72d8631ff3976217 net: phy: aquantia: rename aqr113c_config_init() to aqr_gen4_config_init()
+9dfe80a8157ba5bb403b46f8cdfed2affe716c6b net: phy: aquantia: promote AQR813 and AQR114C to aqr_gen4_config_init()
+fb4b9f13718c60aa76c702cc25bfbe24b4b1d0b8 net: phy: aquantia: add support for AQR115
+444b02ce3f5cd4ba4cc06f3f0166a1b1ed73aadf Merge branch 'aquantia-phy-driver-consolidation-part-1'
 
---===============5236771518271809834==--
+--===============8817273342608260982==--
