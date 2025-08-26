@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Tue, 26 Aug 2025 08:41:04 -0000
-Message-Id: <175619766484.2338701.12432870088301707245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 26 Aug 2025 08:44:33 -0000
+Message-Id: <175619787310.2340970.4112486261660538633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/b4/pci_fix_sriov_lock
-    old: 34f81343ddedb20db6f3df17022dd171f719021b
-    new: 0dfa8b26094d04b69f60b9d5c611960cd57c38eb
+  - ref: refs/heads/perf/core
+    old: f49e1be19542487921e82b29004908966cb99d7c
+    new: 16ed389227651330879e17bd83d43bd234006722
     log: |
-         c2a3497338b64319938b50f87cb815871b9582ef PCI/IOV: Add missing PCI rescan-remove locking when enabling/disabling SR-IOV
-         837d80fcb6361f9c483f0d5e5c54e76f6f1f1d04 PCI/IOV: Add missing PCI rescan-remove locking when enabling/disabling SR-IOV
-         0dfa8b26094d04b69f60b9d5c611960cd57c38eb PCI: Add lockdep assertion in pci_stop_and_remove_bus_device()
+         e649bcda25b5ae1a30a182cc450f928a0b282c93 perf: Remove get_perf_callchain() init_nr argument
+         153f9e74dec230f2e070e16fa061bc7adfd2c450 perf: Have get_perf_callchain() return NULL if crosstask and user are set
+         90942f9fac05702065ff82ed0bade0d08168d4ea perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
+         d77e3319e31098a6cb97b7ce4e71ba676e327fd7 perf: Simplify get_perf_callchain() user logic
+         16ed389227651330879e17bd83d43bd234006722 perf: Skip user unwind if the task is a kernel thread
          
