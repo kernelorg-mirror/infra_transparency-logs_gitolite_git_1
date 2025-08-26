@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 26 Aug 2025 08:06:18 -0000
-Message-Id: <175619557856.2310053.4371893935402815603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 26 Aug 2025 08:35:00 -0000
+Message-Id: <175619730021.2331961.17704446855198622731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/dev
-    old: dda3bfa2d8ddb8007481caf050312972d20e66d0
-    new: 4c4fede71c66cd7c5d2c6bd4b3e87e7fa8742887
+  - ref: refs/heads/for-linus
+    old: dc88b77113d75a8fd5818355f8e313bec144ea5d
+    new: 1148bb0c5827e4b6fcc50358783608b0f2080302
     log: |
-         d1f2e57caaa780a6ba35dc6bbabc2178adbf08b2 erofs-utils: mkfs: Implement 'dsunit' alignment on blobdev
-         4c4fede71c66cd7c5d2c6bd4b3e87e7fa8742887 erofs-utils: add my email address to .mailmap
+         1148bb0c5827e4b6fcc50358783608b0f2080302 ALSA: hda/hdmi: Restore missing HDMI codec entries
+         
+  - ref: refs/heads/master
+    old: 161665087938b56e8d0d7231afd4ccb83aac8412
+    new: 6c3d471c5489019d2c276f4716302b2b89f1199e
+    log: |
+         1148bb0c5827e4b6fcc50358783608b0f2080302 ALSA: hda/hdmi: Restore missing HDMI codec entries
+         6c3d471c5489019d2c276f4716302b2b89f1199e Merge branch 'for-linus'
          
