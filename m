@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Tue, 26 Aug 2025 14:45:00 -0000
-Message-Id: <175621950015.2657279.15619460940163321572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 26 Aug 2025 14:47:54 -0000
+Message-Id: <175621967448.2660234.4806386203636326630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/next
-    old: f8c529a1e8fcce31c64c37b72cc1e5b35620b153
-    new: 15809f4363866d5820c9148e14282bbcd2063236
+  - ref: refs/heads/for-next
+    old: 1d57628ff95b32d5cfa8d8f50e07690c161e9cf0
+    new: 8d33a030c566e1f105cd5bf27f37940b6367f3be
     log: |
-         15809f4363866d5820c9148e14282bbcd2063236 _damo_records: Recursively add child tasks in add_childs_target
+         7f597c2cdb9d3263a6fce07c4fc0a9eaa8e8fc43 dm: fix queue start/stop imbalance under suspend/load/resume races
+         8d33a030c566e1f105cd5bf27f37940b6367f3be dm: fix NULL pointer dereference in __dm_suspend()
          
