@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2935580785023749216=="
+Content-Type: multipart/mixed; boundary="===============2775095928993188677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 26 Aug 2025 02:33:39 -0000
-Message-Id: <175617561921.2011717.7970727566112271050@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 02:33:45 -0000
+Message-Id: <175617562553.2011956.5000888296480993137@gitolite.kernel.org>
 
---===============2935580785023749216==
+--===============2775095928993188677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: cb9f100ba28d4fbbdcedac96342bb3f074e0021c
-    new: 7fbb5969f3122f303a2c1ba0c8b2f8486666b04d
-    log: revlist-cb9f100ba28d-7fbb5969f312.txt
+  - ref: refs/heads/6.18/scsi-queue
+    old: da810279506c6b5748b9533a5547f8abc1044c16
+    new: edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b
+    log: revlist-da810279506c-edb35b1ffc68.txt
 
---===============2935580785023749216==
+--===============2775095928993188677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1756175598 -0400
+pusher 75C5DE3D 1756175671 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1756175549-9000766c997e641630c9764765209d5e97857b94
+nonce 1756175622-ffae227dc8df9df2b46e53af8613c70abb98a393
 
-cb9f100ba28d4fbbdcedac96342bb3f074e0021c 7fbb5969f3122f303a2c1ba0c8b2f8486666b04d refs/tags/mkp-scsi-queue
+da810279506c6b5748b9533a5547f8abc1044c16 edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b refs/heads/6.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmitHO4ACgkQ7ulgGnXF
-3j26dg//WgntbRtin7QbNMgJwS60miuOc+HF8hRXisKKk6KBJTmpYrMhF4hyZehr
-TYzVQzGZETSSpK52mbByef7qM6HOuNNHIkfO+ZGxhKvEz/lnkgYUsTNoSJIsh2VP
-PkqekP4owcSsImpiU12B7sQeP4y1uHESm4JsFKnNwF0yVZm5g1v1x1Y8VKD8KNPX
-M7FCqlVNMHjC8wjVdLnzfkS+K6P+kxtP17KcLFZ+2NCYWgrtE/+KcKdFOPW5vcsA
-CJWLEnims08faPtUOiVFgWu49ToOFzl9SQ1AYwpCibb3atDNvo72UDKFzsoxxLSo
-YtEyhg4nCGJpKSAwhM8wVoQh5RSA4anVYcifl0bVRq9NOWt8SKgfyaP/oKv03K/f
-GiSxQkBb4wUIZcVPN6FB+5qaFjGndArSDL/gY8H5eKZ7uux9nJhAtAH80pc+74+x
-2wbsfNZthFnPJlbwyTh9haB6xVLugQZHli6s2ahlSIoG9vOoyJYTNhc8A5WH492V
-2lCijIf+VprKUOrjOMD6ZAk6QBzToOvQjbWthnFiEzY8axMnD8JpKuO1fWR+gKx5
-CHbY88DFw9TTzly6oJcVXSY7gzzrSvA+qBlrp/2ln1JOgiUhsLmz7NVDuTGrcnXR
-uif6cNzAeMVXsZ+OhRrmWoShe3UVL7ju46lgFYJDJn42/+JIwY8=
-=XFeL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmitHTcACgkQ7ulgGnXF
+3j0HtxAAg5vx8egIROky0eiyQsxeBUfkWBgnXhZwCCw+vi5Sreg1pt7fjfBlCHVT
+v3uxVLc7oUGuggYikjEmTdY/OwQe5yBEfLtEY0R400QTOqxFBoWwaV/zotRgepfH
+GL2gHd4BrPEqfmqdlWaSSLVIeHC3QdFrmyz8DwmUsmrLqN//vjuCQ8QxIlGWXEuq
+WJxsWv8lyAHnltsTlbgS0Zaj7QQIIKTWbRFgQO1luF7tyYYsTspSAZf1AEKh36zE
+gg9thxkBp2YiU0Hy5J2cY8wM5nzfc8L37G9fII+7UdZG7cKOrwzpbIG14Nv6jXSA
+EJrX+qhF/DfMrChSyAHk53/9JayheiCN70KuDAaONH+v1CV10r8TcWyW6AjBuC2Z
+tBYiSmpmCZySPSk62wS5bXrF36iogLiwLFz/C2T+8vn97qcCOH9AzUV1VudKXwsP
+kqegkiyO1mJbR9IDYXcFADrRAV/4cPcUVRH2tnv2RnHWVY2D+f1O5GALf4k1Cz2q
+lVGlaq1m9ZuejS76iRJoC/YPxwlDnbNOW5D47rdMbS/8SOcRccYlJRmutP2pYUfO
+B4pouyAmIs4WsrDavUqCcYmz0aIOhNRi30VVnyFFOhdCmL4u629UV5ePlDPtZmdN
+VZpMb+UYuhLaAlVwBR8+pl4Q51+EmOIA8oQUvhPK2s0OnbSf0NU=
+=EXo6
 -----END PGP SIGNATURE-----
 
---===============2935580785023749216==
+--===============2775095928993188677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb9f100ba28d-7fbb5969f312.txt
+Content-Disposition: attachment; filename=revlist-da810279506c-edb35b1ffc68.txt
 
 dc60a408a1dc29974bc82239b07b70c5f7fcfd31 scsi: ufs: core: Improve IOPS
 eeee1086073e0058243c8554738271561bde81f1 scsi: pm80xx: Restore support for expanders
@@ -78,4 +78,4 @@ b5940feda3dc7a12133c6589e463d2b3b6c7fe96 scsi: ufs: core: Reduce the size of str
 e79aa10e288c617c12ac4eb3fe7962f5c644b8fe scsi: lpfc: use min() to improve code
 edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b scsi: myrs: Fix dma_alloc_coherent() error check
 
---===============2935580785023749216==--
+--===============2775095928993188677==--
