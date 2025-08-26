@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 26 Aug 2025 08:45:34 -0000
-Message-Id: <175619793449.2343540.1344568803087755935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Tue, 26 Aug 2025 08:45:41 -0000
+Message-Id: <175619794194.2343902.18151441351398361044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/sched/core
-    old: 925f272051bd1bfeba9a20738ddd0c1ae4831a5d
-    new: b7842ef4bc5eaf7fe4d72ce4b51f5ce2dce4cbf9
+  - ref: refs/heads/b4/pci_fix_sriov_lock
+    old: 0dfa8b26094d04b69f60b9d5c611960cd57c38eb
+    new: cfed5dc915e36e4d9ce65eb61138a63e3ab617a0
     log: |
-         7cbb7d6bae3e6ab730186be722bb6c5d1b1fcb44 sched/deadline: Fix race in push_dl_task()
-         b7842ef4bc5eaf7fe4d72ce4b51f5ce2dce4cbf9 sched/fair: Get rid of sched_domains_curr_level hack for tl->cpumask()
+         88facd2d00ba4d754d425cf22fbf875f8dd5f1da PCI/IOV: Add missing PCI rescan-remove locking when enabling/disabling SR-IOV
+         5bc731eef0f501aac47d5aca15d99275acc6be2d PCI/IOV: Add missing PCI rescan-remove locking when enabling/disabling SR-IOV
+         cfed5dc915e36e4d9ce65eb61138a63e3ab617a0 PCI: Add lockdep assertion in pci_stop_and_remove_bus_device()
          
