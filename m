@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4529914232569033555=="
+Content-Type: multipart/mixed; boundary="===============0152178149099783346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 26 Aug 2025 15:34:49 -0000
-Message-Id: <175622248949.2703145.8392641091934573294@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 15:34:51 -0000
+Message-Id: <175622249183.2703285.3890852178616370726@gitolite.kernel.org>
 
---===============4529914232569033555==
+--===============0152178149099783346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: b1c92cdf5af3198e8fbc1345a80e2a1dff386c02
     new: 3c14917953a51a22f4fa7e13dfc13a4ec09bf348
     log: revlist-b1c92cdf5af3-3c14917953a5.txt
 
---===============4529914232569033555==
+--===============0152178149099783346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ df534e757321ae6efe848a6a787098c22a390ac6 net: phylink: remove stale an_enabled f
 07ca488d688c9736778467b5fd78ed89f5311a03 octeontx2-af: Remove unused declarations
 3c14917953a51a22f4fa7e13dfc13a4ec09bf348 ibmvnic: Increase max subcrq indirect entries with fallback
 
---===============4529914232569033555==--
+--===============0152178149099783346==--
