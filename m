@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3120936290367875523=="
+Content-Type: multipart/mixed; boundary="===============8103441135929133724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 26 Aug 2025 07:31:08 -0000
-Message-Id: <175619346833.2277912.3309444512419972775@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 07:31:29 -0000
+Message-Id: <175619348901.2278316.1176171000298934976@gitolite.kernel.org>
 
---===============3120936290367875523==
+--===============8103441135929133724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: da810279506c6b5748b9533a5547f8abc1044c16
-    new: edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b
-    log: revlist-da810279506c-edb35b1ffc68.txt
+  - ref: refs/heads/for-next
+    old: 8d7ec03a6727b43a98660028cd271c5df06c20b0
+    new: e14a67a7a7cf8f69804060927e127d6a376abaf2
+    log: revlist-8d7ec03a6727-e14a67a7a7cf.txt
 
---===============3120936290367875523==
+--===============8103441135929133724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da810279506c-edb35b1ffc68.txt
+Content-Disposition: attachment; filename=revlist-8d7ec03a6727-e14a67a7a7cf.txt
 
 dc60a408a1dc29974bc82239b07b70c5f7fcfd31 scsi: ufs: core: Improve IOPS
 eeee1086073e0058243c8554738271561bde81f1 scsi: pm80xx: Restore support for expanders
@@ -47,5 +47,6 @@ b5940feda3dc7a12133c6589e463d2b3b6c7fe96 scsi: ufs: core: Reduce the size of str
 0138c16872bdda6b5113dec1cde5f93815c9f75c scsi: hpsa: use min()/min_t() to improve code
 e79aa10e288c617c12ac4eb3fe7962f5c644b8fe scsi: lpfc: use min() to improve code
 edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b scsi: myrs: Fix dma_alloc_coherent() error check
+e14a67a7a7cf8f69804060927e127d6a376abaf2 Merge branch 'misc' into for-next
 
---===============3120936290367875523==--
+--===============8103441135929133724==--
