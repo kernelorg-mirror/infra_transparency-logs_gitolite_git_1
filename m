@@ -1,30 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============1438523431720699748=="
+Content-Type: multipart/mixed; boundary="===============1151315960988303634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Tue, 26 Aug 2025 18:34:46 -0000
-Message-Id: <175623328632.2851032.8538751760983396338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Tue, 26 Aug 2025 18:36:34 -0000
+Message-Id: <175623339488.2853652.11120358286571299085@gitolite.kernel.org>
 
---===============1438523431720699748==
+--===============1151315960988303634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
-    old: d0884c436c82dddbf5f5ef57acfbf784ff7f7832
+    old: 9ec44397ea2afd001278c33733433f67394b6c87
     new: 1d287f3d958ebc425275d6a08ad6977e13e52fac
-    log: revlist-d0884c436c82-1d287f3d958e.txt
+    log: |
+         1d287f3d958ebc425275d6a08ad6977e13e52fac xfsprogs: Release v6.16.0
+         
   - ref: refs/heads/master
     old: d0884c436c82dddbf5f5ef57acfbf784ff7f7832
     new: 1d287f3d958ebc425275d6a08ad6977e13e52fac
     log: revlist-d0884c436c82-1d287f3d958e.txt
+  - ref: refs/tags/v6.16.0
+    old: 0000000000000000000000000000000000000000
+    new: 239fa760fac02281bd3e16eed52b5a30fbb86cb6
 
---===============1438523431720699748==
+--===============1151315960988303634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +58,4 @@ ea5d15f34e815f196cfafe2effd7679b8446818d move xfs_log_recover.h to libxfs/
 9ec44397ea2afd001278c33733433f67394b6c87 Document current limitation of shrinking fs
 1d287f3d958ebc425275d6a08ad6977e13e52fac xfsprogs: Release v6.16.0
 
---===============1438523431720699748==--
+--===============1151315960988303634==--
