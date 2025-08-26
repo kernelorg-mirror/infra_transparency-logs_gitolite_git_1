@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 26 Aug 2025 14:49:15 -0000
-Message-Id: <175621975553.2661743.9096210387343549921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 26 Aug 2025 14:59:51 -0000
+Message-Id: <175622039129.2670598.16306636702793741180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/block-6.17
-    old: d14469ed7c00314fe8957b2841bda329e4eaf4ab
-    new: 198f36f902ec7e99b645382505f74b87a4523ed9
+  - ref: refs/heads/master
+    old: 57dc5d843c64e5e8e3a889844556b2b1aa22c569
+    new: 088bb2e308555c8630e095f3e688ebdd9a7a6a2d
     log: |
-         198f36f902ec7e99b645382505f74b87a4523ed9 blk-zoned: Fix a lockdep complaint about recursive locking
+         088bb2e308555c8630e095f3e688ebdd9a7a6a2d station: clear roam_freqs on delayed roam
          
