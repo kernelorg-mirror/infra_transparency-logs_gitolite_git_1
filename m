@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1612895319660897971=="
+Content-Type: multipart/mixed; boundary="===============8508355662582967995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 26 Aug 2025 09:25:54 -0000
-Message-Id: <175620035419.2382142.4098437140373568932@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 09:26:03 -0000
+Message-Id: <175620036330.2382439.7555458408409364825@gitolite.kernel.org>
 
---===============1612895319660897971==
+--===============8508355662582967995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
-    old: e326371f3002dbf54befd8ada9570fa489a46991
+  - ref: refs/heads/master
+    old: 86731a2a651e58953fc949573895f2fa6d456841
     new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-e326371f3002-1b237f190eb3.txt
+    log: revlist-86731a2a651e-1b237f190eb3.txt
 
---===============1612895319660897971==
+--===============8508355662582967995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e326371f3002-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-86731a2a651e-1b237f190eb3.txt
 
 d41e5839d80043beaa63973eab602579ebdb238f Merge tag 'cxl-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 3ca824369b71d4b441e1fdcdee8e66bcb05510a9 tracing: Have unsigned int function args displayed as hexadecimal
@@ -1051,4 +1051,4 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 
---===============1612895319660897971==--
+--===============8508355662582967995==--
