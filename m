@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 26 Aug 2025 23:49:15 -0000
-Message-Id: <175625215539.3108694.15989550331082390425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 26 Aug 2025 23:51:34 -0000
+Message-Id: <175625229459.3111526.4404602250445087506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/io_uring-features
-    old: 88afd5b6d900070a7ee1cfae29781c10b9fe959f
-    new: 353dfa1c89a3938b9b90a6c7f0a4503ba17d1093
+  - ref: refs/heads/master
+    old: d0f27ff27c048a3bdc49877255a7e7f8b49f5603
+    new: 2465bb83e0b44e19ae7e3ad07148db61fbe0e2bf
     log: |
-         b6ab36152a596fa7cc64837b3e2f186cb5a793a9 io_uring: move setup and feature flags into defines
-         e7da79f4b576abd003840f7dcc62916af9f20331 io_uring/rsrc: move user limits into features.h
-         353dfa1c89a3938b9b90a6c7f0a4503ba17d1093 io_uring/register: add support for IORING_REGISTER_FEATURES
+         b8efa810c1db201dece99e4113229e5ecc00db5c s390/bpf: Add s390 JIT support for timed may_goto
+         b68dfcc12a320b85cd33d0d673ea620da08d0aec selftests/bpf: Add a missing newline to the "bad arch spec" message
+         1e4e6b9e260dffc82fa49c2caa4828540082cb58 selftests/bpf: Add __arch_s390x macro
+         7197dbcba230c8a869e7f5bd250b8b7c9b3c0fa8 selftests/bpf: Enable timed may_goto verifier tests on s390x
+         21bce56940549a2473134b44cd1d8e21da268e1e selftests/bpf: Remove may_goto tests from DENYLIST.s390x
+         2465bb83e0b44e19ae7e3ad07148db61fbe0e2bf Merge branch 's390-bpf-add-s390-jit-support-for-timed-may_goto'
          
