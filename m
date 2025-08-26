@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0938155125137315330=="
+Content-Type: multipart/mixed; boundary="===============2058255487698379079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 26 Aug 2025 08:56:50 -0000
-Message-Id: <175619861017.2353607.10409205158221215609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 26 Aug 2025 08:57:00 -0000
+Message-Id: <175619862084.2353905.15089812741945356535@gitolite.kernel.org>
 
---===============0938155125137315330==
+--===============2058255487698379079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6c68f4c0a147c025ae0b25fab688c7c47964a02f
     new: d0630b758e593506126e8eda6c3d56097d1847c5
     log: revlist-6c68f4c0a147-d0630b758e59.txt
-  - ref: refs/heads/stable
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    new: b6add54ba61890450fa54fd9327d10fdfd653439
-    log: |
-         bd7c2312128e31d056d30d34d60503de056e15f0 pinctrl: meson: Fix typo in device table macro
-         23800ad1265f10c2bc6f42154ce4d20e59f2900e gpiolib: acpi: Add quirk for ASUS ProArt PX13
-         a12946bef0407cf2db0899c83d42c47c00af3fbc pinctrl: STMFX: add missing HAS_IOMEM dependency
-         563fcd6475931c5c8c652a4dd548256314cc87ed pinctrl: airoha: Fix return value in pinconf callbacks
-         b6add54ba61890450fa54fd9327d10fdfd653439 Merge tag 'pinctrl-v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-         
-  - ref: refs/tags/next-20250526
-    old: 22d449bcd69e66f25fe847b678738950dcf9301e
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250826
     old: 0000000000000000000000000000000000000000
     new: b6347279a8db405a1aa29193766dbb7842f048fe
 
---===============0938155125137315330==
+--===============2058255487698379079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -897,4 +884,4 @@ dce670487cdf9562c6e7a824881279cac16429f1 Merge branch 'next' of https://git.kern
 24f0859814e6c61abf19c376f9746b999d1548b1 Merge branch 'crc-next' of https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 d0630b758e593506126e8eda6c3d56097d1847c5 Add linux-next specific files for 20250826
 
---===============0938155125137315330==--
+--===============2058255487698379079==--
