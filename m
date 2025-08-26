@@ -1,42 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8228152601209491164=="
+Content-Type: multipart/mixed; boundary="===============4526970612215023395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 26 Aug 2025 18:44:11 -0000
-Message-Id: <175623385112.2858942.12849331927628214483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 26 Aug 2025 19:04:13 -0000
+Message-Id: <175623505367.2875709.16903055510413682169@gitolite.kernel.org>
 
---===============8228152601209491164==
+--===============4526970612215023395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/rproc-next
-    old: f9a4c582e508c210d1e8e70493a69c6e5708476c
-    new: 3df0bee9c5b94ca9e3e2ff0f4c4e9886eac86055
-    log: revlist-f9a4c582e508-3df0bee9c5b9.txt
+  - ref: refs/heads/uek-localio
+    old: 4b9dea34a1db89f3a32ad81ed20421fd7f836906
+    new: 8ad98f165b62387cc3190aad07dec232647c3d47
+    log: revlist-4b9dea34a1db-8ad98f165b62.txt
 
---===============8228152601209491164==
+--===============4526970612215023395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9a4c582e508-3df0bee9c5b9.txt
+Content-Disposition: attachment; filename=revlist-4b9dea34a1db-8ad98f165b62.txt
 
-127d874a7df05b30e937951864b18fb11babff95 remoteproc: da8xx: Use devm_rproc_alloc() helper
-16689f33e5addec4a61cd4c102900a154349dc2a remoteproc: da8xx: Use devm action to release reserved memory
-7183e39ac915ec047586a755746cae5b79f5f93c remoteproc: da8xx: Use devm_rproc_add() helper
-01e4ed11c5d4120a47ffc3b15dd9050e922cde53 remoteproc: keystone: Use devm action to release reserved memory
-db0427a8a595d0e4880043f9dff8e99c061e5d55 remoteproc: keystone: Use devm_pm_runtime_enable() helper
-a2ab9cd283ce7daf1b634260a73618733af9d99f remoteproc: keystone: Use devm action to call PM runtime put sync
-49493852bd80109db5bdc02c2eb86751ec0d4906 remoteproc: keystone: Use devm_gpiod_get() helper
-ac4393af3cb66c371fafc894a14e795f70a7c5e0 remoteproc: keystone: Use devm_rproc_add() helper
-461edcf73eec57bc0006fbb5209f5012c514c58b remoteproc: wkup_m3: Use devm_pm_runtime_enable() helper
-642f8c01e31dd2918e9e655f29846326bf7fad4c remoteproc: wkup_m3: Use devm action to call PM runtime put sync
-9b84eec6f3b78795ab57f9c2c808948e12d18bad remoteproc: wkup_m3: Use devm_rproc_alloc() helper
-3df0bee9c5b94ca9e3e2ff0f4c4e9886eac86055 remoteproc: wkup_m3: Use devm_rproc_add() helper
+bde1cae4029d68cd7d92fc4ed5e3ed9507540eaa NFSD: Use sockaddr instead of a generic array
+97637ba6f774241e3e0f9a39af35bf4357434ec5 NFSD: Add a Call equivalent to the NFSD_TRACE_PROC_RES macros
+687cd64e9092b0ce997b7b2242dfa809144ee94c nfsd: add a tracepoint for nfsd_setattr
+a3e6b5ec94d9b28ac1f075f303891235576ce98c nfsd: add a tracepoint to nfsd_lookup_dentry
+fd9ad054c6879586136a20062345c135d3e9541a nfsd: add nfsd_vfs_create tracepoints
+58a0c2ecc39b0c25c3069e1827a72c2926c35a0c nfsd: add tracepoint to nfsd_symlink
+f315110755506bfddcb74b83762b71f7f8f0214c nfsd: add tracepoint to nfsd_link()
+60a9c632b607ba71971fca6cdd72295322c7567c nfsd: add tracepoints for unlink events
+c5fab90287b8cc25e6e8791117ccf062bd4e29fd nfsd: add tracepoint to nfsd_rename
+0e631541bcccd4ef7031c2284fb0dee3adddf02e nfsd: add tracepoint to nfsd_readdir
+f3395c52c34738ac88358cbeb821d5d8dbb26df9 nfsd: add tracepoint for getattr and statfs events
+63098a7105ff32c41baea4496a4bdd6ec95b9270 nfsd: remove old v2/3 create path dprintks
+77c436697f97f31358788afbc8e139932037ae29 nfsd: remove old v2/3 SYMLINK dprintks
+ce8984a37c894b8ca01be6fa7d5d557ac3e1f9f4 nfsd: remove old LINK dprintks
+f4b2a9c418611af2a7ea943281e0f1ae0fa1928e nfsd: remove REMOVE/RMDIR dprintks
+1417eb8a64838660ff5207c7596a140fe8d929c0 nfsd: remove dprintks for v2/3 RENAME events
+0e2f76178d3e7511b2c299b47c0fe93335e955b4 nfsd: remove legacy READDIR dprintks
+8ad98f165b62387cc3190aad07dec232647c3d47 nfsd: remove legacy dprintks from GETATTR and STATFS codepaths
 
---===============8228152601209491164==--
+--===============4526970612215023395==--
