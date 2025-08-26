@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 26 Aug 2025 00:10:14 -0000
-Message-Id: <175616701485.1793049.11527784510560824052@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 00:15:51 -0000
+Message-Id: <175616735160.1797825.3914449684599266048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ec79003c5f9d2c7f9576fc69b8dbda80305cbe3a
-    new: d280233fc86692f495d5e08092e5422bc2f583a8
+    old: d280233fc86692f495d5e08092e5422bc2f583a8
+    new: 97766512a9951b9fd6fc97f1b93211642bb0b220
     log: |
-         d280233fc86692f495d5e08092e5422bc2f583a8 Octeontx2-af: Fix NIX X2P calibration failures
+         97766512a9951b9fd6fc97f1b93211642bb0b220 mISDN: hfcpci: Fix warning when deleting uninitialized timer
          
