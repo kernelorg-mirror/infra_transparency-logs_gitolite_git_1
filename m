@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5098102597847972767=="
+Content-Type: multipart/mixed; boundary="===============7719260175019188530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 26 Aug 2025 02:34:25 -0000
-Message-Id: <175617566530.2012838.17570256991749189849@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 02:34:51 -0000
+Message-Id: <175617569190.2013485.11053422939286249529@gitolite.kernel.org>
 
---===============5098102597847972767==
+--===============7719260175019188530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: ba598d7592c42f244cb5fc8d38eb9a865ad2c40a
-    new: 0e89a94429bd5422b734e59a93d67e17abf44551
+  - ref: refs/heads/6.18/scsi-staging
+    old: edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b
+    new: d6477ee38ccfbeaed885733c13f41d9076e2f94a
     log: |
          00f4699872d0e2f5d4c5593fcf0a6814472c302b scsi: aic94xx: Remove redundant code
          d6c8e8b7c98c3cb326515ef4bc5c57e16ac5ae4e scsi: mpi3mr: Fix device loss during enclosure reboot due to zero link speed
@@ -31,33 +31,33 @@ changes:
          d6477ee38ccfbeaed885733c13f41d9076e2f94a scsi: pm80xx: Fix race condition caused by static variables
          
 
---===============5098102597847972767==
+--===============7719260175019188530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1756175691 -0400
+pusher 75C5DE3D 1756175717 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1756175643-d417fb8ceadb697790c7b248da752ad481f341da
+nonce 1756175668-53cfd6c213f7cd14332b93762f7e095e889c1e27
 
-ba598d7592c42f244cb5fc8d38eb9a865ad2c40a 0e89a94429bd5422b734e59a93d67e17abf44551 refs/tags/mkp-scsi-staging
+edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b d6477ee38ccfbeaed885733c13f41d9076e2f94a refs/heads/6.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmitHUwACgkQ7ulgGnXF
-3j32oBAAm4eYk+SNn52swEJkNb9pKcPd1BFOJUX2gG5Ns4jXpQWcasyi08G36Ayj
-/E8lZ8c6nogAqjBUT/DUYla+D2nIqYNCkk/kBMkJYchecMrGqSNEUhKsw5rVqbZg
-GfvewbYAL0iog3Rt7NVNTn7ANkWDDAVAn2AYIE9Zg+CCyOhiuM8cY1uK52NIl94c
-y7/5zyTXivbYCp85kAXRas6ppKx4+gX3jnStLBK+hFtznwyU+23bf1BTX7sPCd1c
-cFw+6QdeTh7Dj2xYPDmtagHGqGqB88GOlobJYf3AwHC1T97xgFWt1xV3R02EVTBG
-3s4bP/Llvgc+sJqukn7HoIcGYgXhP2FnZgwNspkQ7i06/MGFH/8VHNJwyW72wrqE
-sCVAacK3Vpo/56RhP7qojhzsqKPO4gF4RJsgSuFpQwL+lBRjlESHlYEpPpuTvj/Z
-jFrI+cwyCNK7s/9X3UNWo1MZBsSP87eLK1stzIq+QqmZIzU8MgOpq7dJfvtHlogr
-DAtbKWiShuwxkRZ5aGytYlIPKJO+P3c1k/tIa5qo0J3p4jNgTz7pR9tlyKPJgIyh
-C5KsXMVgV4NN85dcdYgTOxaTGyAiQxbjV/WVKPOmhBY5lihq/sU2L9cEzoOOxe8K
-NkTpvyPqeyrHl2wx1AfX1yixb0LMhKj2PkjYxHk9ZKT6GTpdQYg=
-=QPrN
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmitHWUACgkQ7ulgGnXF
+3j2fcQ//cv9/eZ/UlKZm3CU0CNsFN2TSPUyZSpInkxlUM3wy+6L2eu6jB0Tozwqt
+pCwoFDZ16IK6NjBdf+itYBAIolEPPt8kLz6C9yqbS+PxQq4TjRIH/RGJLkN9KsVw
+0TZfCOhr/N/wTz/SMUZla0RRBBGt/55sSRlibzf/4AYZEx5LAOnsCSyIntbMeyFM
++WQHrtln0BBGJo3Z64PcAuIM2/H47UodmwNZX0lY7FxJFPd3dajLqNEhqQ9ny7Zr
+CAqK8Tg1EE33Ctmv6uFy2Me6wxo9v4FOGtY4d60C84f7gJ3zlZDBmtplDC2PUdqu
+tIp4XRyGC93iuY5SnsElBGTiANb+RIdxTrxs2o0390pmFTpvX88uFduPjV2aSGu6
+ZQu7dCERUgZjarJv/5g17t2bZfaz9KNL02fycc8QnRQj2V8QeMxA0g5m0POufwJ2
+CZn0Zwenz/Ywz8P9UYK1iWmcGjcpMB/BJCm9t4NFr5NmkZar5ZaA56aUVznd3ewE
+9QvlXCiZRMngwtCsmS6gcVBuvvGOF5a/Gt/gXoUz998guXd8td2mmtdm43BzptRX
+FHefbUIOP69UliKYr3gChiVNEXu47pqaORjCHWbdW23S+2aWzYN4ayGV6z6bv1cS
+oShuYQvJyIbGCUvWEyl/L4UONXLAOYQs+Rvu8MOTV3ArYgZ2Neo=
+=fcnk
 -----END PGP SIGNATURE-----
 
---===============5098102597847972767==--
+--===============7719260175019188530==--
