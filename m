@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2764498638944662124=="
+Content-Type: multipart/mixed; boundary="===============5545178326445054019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 26 Aug 2025 10:51:05 -0000
-Message-Id: <175620546569.2458521.15444001534260984107@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 10:51:22 -0000
+Message-Id: <175620548251.2458833.13925743307300465523@gitolite.kernel.org>
 
---===============2764498638944662124==
+--===============5545178326445054019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: 92a09c47464d040866cf2b4cd052bc60555185fb
-    new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-92a09c47464d-1b237f190eb3.txt
+  - ref: refs/heads/extcon-next
+    old: 5f09caafc652bcee7a5247e40dd34d1de1ad7d7f
+    new: a373ef789d659fee12710429e067a37f9d78dec9
+    log: revlist-5f09caafc652-a373ef789d65.txt
 
---===============2764498638944662124==
+--===============5545178326445054019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92a09c47464d-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-5f09caafc652-a373ef789d65.txt
 
-d41e5839d80043beaa63973eab602579ebdb238f Merge tag 'cxl-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-3ca824369b71d4b441e1fdcdee8e66bcb05510a9 tracing: Have unsigned int function args displayed as hexadecimal
-0905809b38bda1fa0b206986c44d846e46f13c1d Merge tag 'parisc-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-f4f346c3465949ebba80c6cc52cd8d2eeaa545fd Merge tag 'perf-tools-for-v6.17-2025-08-01' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-a6923c06a3b2e2c534ae28c53a7531e76cc95cfa Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-0a91336e287ca2557fead5221d2c79e0effd034e Merge tag 'bpf-next-6.17' into loongarch-next
-83e6384374bac8a9da3411fae7f24376a7dbd2a3 smp: Fix spelling in on_each_cpu_cond_mask()'s doc-comment
-e703b7e247503b8bf87b62c02a4392749b09eca8 futex: Move futex cleanup to __mmdrop()
-0808da36b982442afc4a34555e492a16f2e5973e ALSA: usb-audio: Don't use printk_ratelimit for debug prints
-1b30d44417278196a90c79244bb43e8428586345 bpf: Fix memory leak of bpf_scc_info objects
 7061835997daba9e73c723c85bd70bc4c44aef77 Merge tag 'firewire-updates-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 eacf91b0c78a7113844830ed65ebf543eb9052c5 Merge tag 'fbdev-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 be71ce9796c36517c677ab1d3c6691423dd0bdec drm/bridge: fix OF node leak
@@ -1050,5 +1040,15 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 69fd6b99b8f85eaa5d784e4840e982ca59c04250 Merge tag 'perf_urgent_for_v6.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
+78b6a991eb6c6f19ed7d0ac91cda3b3b117fda8f extcon: adc-jack: Fix wakeup source leaks on device unbind
+93ccf3f2f22ceaa975b462156f98527febee4fe5 extcon: axp288: Fix wakeup source leaks on device unbind
+6f982d55f8c5d1e9189906a2a352dba8de421f5f extcon: fsa9480: Fix wakeup source leaks on device unbind
+369259d5104d613164a8da64848aafe9dc9fa976 extcon: qcom-spmi-misc: Fix wakeup source leaks on device unbind
+8d96b063062548e513bca9c38876a5ade677fff0 extcon: adc-jack: Cleanup wakeup source only if it was enabled
+9d8852b76a7afc6f7dabe49be87d3e2c004becd8 dt-bindings: extcon: Document Maxim MAX14526 MUIC
+02983ad16f8f8b14f750721110df852f505ea7cb extcon: Add basic support for Maxim MAX14526 MUIC
+657a54fd46082584cd65b8acc5d0630b1770576e extcon: max14526: avoid defined but not used warning
+ed1db66c8b818a485c2ad99db28f9410b1e5e3ea extcon: max14526: depends on I2C to prevent build warning/errors
+a373ef789d659fee12710429e067a37f9d78dec9 extcon: fsa9480: Avoid buffer overflow in fsa9480_handle_change()
 
---===============2764498638944662124==--
+--===============5545178326445054019==--
