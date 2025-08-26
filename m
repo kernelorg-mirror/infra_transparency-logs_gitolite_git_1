@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2412428418313794239=="
+Content-Type: multipart/mixed; boundary="===============3017768122801819502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 26 Aug 2025 09:27:13 -0000
-Message-Id: <175620043370.2383566.14615881967587829034@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 09:27:27 -0000
+Message-Id: <175620044716.2383878.15978141939135800026@gitolite.kernel.org>
 
---===============2412428418313794239==
+--===============3017768122801819502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: ad1244e1ce18f8c1a5ebad8074bfcf10eacb0311
+  - ref: refs/heads/master
+    old: e04c78d86a9699d136910cfc0bdcf01087e3267e
     new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-ad1244e1ce18-1b237f190eb3.txt
+    log: revlist-e04c78d86a96-1b237f190eb3.txt
 
---===============2412428418313794239==
+--===============3017768122801819502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad1244e1ce18-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-e04c78d86a96-1b237f190eb3.txt
 
 d41e5839d80043beaa63973eab602579ebdb238f Merge tag 'cxl-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 3ca824369b71d4b441e1fdcdee8e66bcb05510a9 tracing: Have unsigned int function args displayed as hexadecimal
@@ -1051,4 +1051,4 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 
---===============2412428418313794239==--
+--===============3017768122801819502==--
