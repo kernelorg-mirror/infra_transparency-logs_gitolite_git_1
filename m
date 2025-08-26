@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1300457278808938614=="
+Content-Type: multipart/mixed; boundary="===============5780997260963456526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 26 Aug 2025 10:49:29 -0000
-Message-Id: <175620536950.2455702.13923519048241420879@gitolite.kernel.org>
+Date: Tue, 26 Aug 2025 10:49:42 -0000
+Message-Id: <175620538273.2455977.7232408162668380450@gitolite.kernel.org>
 
---===============1300457278808938614==
+--===============5780997260963456526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 7da2fdaaa1e6062686ac96a9f096c2d7847533e4
+  - ref: refs/heads/devfreq-fixes
+    old: 347e9f5043c89695b01e66b3ed111755afcf1911
     new: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    log: revlist-7da2fdaaa1e6-1b237f190eb3.txt
+    log: revlist-347e9f5043c8-1b237f190eb3.txt
 
---===============1300457278808938614==
+--===============5780997260963456526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7da2fdaaa1e6-1b237f190eb3.txt
+Content-Disposition: attachment; filename=revlist-347e9f5043c8-1b237f190eb3.txt
 
 d41e5839d80043beaa63973eab602579ebdb238f Merge tag 'cxl-for-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 3ca824369b71d4b441e1fdcdee8e66bcb05510a9 tracing: Have unsigned int function args displayed as hexadecimal
@@ -1051,4 +1051,4 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
 
---===============1300457278808938614==--
+--===============5780997260963456526==--
