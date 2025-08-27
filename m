@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 27 Aug 2025 15:49:42 -0000
-Message-Id: <175630978260.3916256.3558592179113681879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 27 Aug 2025 15:59:43 -0000
+Message-Id: <175631038321.3924472.8918930028420656183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/kvm-arm64/52bit-at
-    old: f5230e4ca44b176d1dbe39569e2f396987f954ff
-    new: 9732a5b2976bc97fb32e524200a3a2cd800eba0c
+  - ref: refs/heads/for-6.18
+    old: 2c98144fc832b35c4e9293a3bfc518608d6f5145
+    new: 3b0dec689a6301845761681b852f9538cb75a1d2
     log: |
-         9732a5b2976bc97fb32e524200a3a2cd800eba0c KVM: arm64: selftest: Expand external_aborts test to look for TTW levels
+         3b0dec689a6301845761681b852f9538cb75a1d2 selftests: cgroup: Make test_pids backwards compatible
+         
+  - ref: refs/heads/for-next
+    old: 04a4d6c24eef8a1fc89d8b6129ac00ca2f638aff
+    new: 1d2e0155ecc622130754bb7f917c3679ab38d769
+    log: |
+         3b0dec689a6301845761681b852f9538cb75a1d2 selftests: cgroup: Make test_pids backwards compatible
+         1d2e0155ecc622130754bb7f917c3679ab38d769 Merge branch 'for-6.18' into for-next
          
