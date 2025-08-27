@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Wed, 27 Aug 2025 22:24:47 -0000
-Message-Id: <175633348714.49844.12266660738216346545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 27 Aug 2025 22:27:26 -0000
+Message-Id: <175633364606.52698.1915249303096858641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 9997c4609c7e2c66e8500886414f16b6b2c908e8
-    new: 0a02073f5ff7502644978f056e9f0f92d15d0fbf
+  - ref: refs/heads/misc
+    old: dab2c5f9399591a50f9e9746fca6bb47f6ac04ae
+    new: fac679df7580979174c90303f004b09cdc6f086f
     log: |
-         2c2e55128a1ff2cde55c397ac341421d87d74d4c libtracecmd: Support querying position within a new compressed block
-         0a02073f5ff7502644978f056e9f0f92d15d0fbf libtracecmd: Support changing /proc/kallsyms
+         fac679df7580979174c90303f004b09cdc6f086f PCI/ACPI: Fix pci_acpi_preserve_config() memory leak
          
