@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8926763203555235221=="
+Content-Type: multipart/mixed; boundary="===============5226780774205403871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 27 Aug 2025 15:30:03 -0000
-Message-Id: <175630860357.3899147.11047307701389318854@gitolite.kernel.org>
+Date: Wed, 27 Aug 2025 15:30:17 -0000
+Message-Id: <175630861777.3899974.5198236855074436000@gitolite.kernel.org>
 
---===============8926763203555235221==
+--===============5226780774205403871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 007a5ffadc4fd51739527f1503b7cf048f31c413
-    new: ceb9515524046252c522b16f38881e8837ec0d91
-    log: revlist-007a5ffadc4f-ceb951552404.txt
+  - ref: refs/heads/dev-queue
+    old: d6764dc42dd29900513b5475f0f2ed03c9c556ef
+    new: e7cecc27afc30437b44e6f9c3ddb84002b9debd6
+    log: revlist-d6764dc42dd2-e7cecc27afc3.txt
 
---===============8926763203555235221==
+--===============5226780774205403871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-007a5ffadc4f-ceb951552404.txt
+Content-Disposition: attachment; filename=revlist-d6764dc42dd2-e7cecc27afc3.txt
 
 60dfe2434eed13082f26eb7409665dfafb38fa51 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
 86aae43f21cf784c1d7f6a9af93e5116b0f232ab ice: don't leave device non-functional if Tx scheduler config fails
@@ -62,5 +62,34 @@ dcb34659028f856c423a29ef9b4e2571d203444d net: rose: split remove and free operat
 d860d1faa6b2ce3becfdb8b0c2b048ad31800061 net: rose: convert 'use' field to refcount_t
 da9c9c877597170b929a6121a68dcd3dd9a80f45 net: rose: include node references in rose_neigh refcount
 ceb9515524046252c522b16f38881e8837ec0d91 Merge branch 'introduce-refcount_t-for-reference-counting-of-rose_neigh'
+3bbdc8e92da3a69139ae9a8ab5f314337f67a921 ice: fix lane number calculation
+629714346cd721f1d06da604a1f472bfdcd06162 ice: fix fwlog after driver reinit
+e1ce7f9f971049fd287d6aa605f17aef90d3937d ixgbe: initialize aci lock before it's used
+43ad656d0b53e2963e6a8eeee453c1fc178a3c3c ice: fix double-call to ice_deinit_hw() during probe failure
+826c249e8b98020c1186ef859fa5b6a98184e622 i40e: remove read access to debugfs files
+cc59694cd9091ed17905c1ae1b852e4b8d6c0c25 ice: fix NULL access of tx->in_use in ice_ptp_ts_irq
+e89511014e0d18046415f630fda5312ad88f5f15 ice: fix NULL access of tx->in_use in ice_ll_ts_intr
+93496c37802f8761f1c341f9dd62ff4d20e2562e ixgbe: fix incorrect map used in eee linkmode
+f8dd6e611d4b905f4156d0d274cd2acf58400010 idpf: fix UAF in RDMA core aux dev deinitialization
+06cb16e61cd12b67446973f0ae11857b4449fe45 i40e: add validation for ring_len param
+4eca85a9c558f7d3fb11dee0a795ef4bd1c66763 i40e: fix idx validation in i40e_validate_queue_map
+41430451427738b110e62ab959a1419ab442d583 i40e: fix idx validation in config queues msg
+3d93d2a7c7d7a8e695cf21f9a812a3f52218f0d0 i40e: fix input validation logic for action_meta
+32ad04feedc11309b45556a4fb4fe38b82d5a782 i40e: fix validation of VF state in get resources
+2bff8ed9e4948142fe2860cdb86566407978dcc1 i40e: add max boundary check for VF filters
+c0eab97a21d49682afab674f8257d3137e2ff1aa i40e: add mask to apply valid bits for itr_idx
+d6e0558b334922dc4e86a79b8f3acf0b4f53b175 i40e: improve VF MAC filters accounting
+4677decd2942b71e6602ddc3aff5c5696db267b1 igb: Fix NULL pointer dereference in ethtool loopback test
+c884c4b1b5e4dd9f0cb7f455d4dd2027aed0d061 idpf: cleanup remaining SKBs in PTP flows
+85a1afe714d9cd3fb91b656b43fae23276947907 idpf: set mac type when adding and removing MAC filters
+b10f5641067c4a9a94f1651fc6b211fc04a2165b igb: fix link test skipping when interface is admin down
+a85bcf61f8b16615fdf486057f82996b4d64cfde ice: Fix enable_cnt imbalance on resume
+28ac8f021faa564cbfbe589bc6924c351e87188f ice: Fix enable_cnt imbalance on PCIe error recovery
+717af8e1e2c9d07a38e8b05e9bb83459fa3228ed i40e: Fix enable_cnt imbalance on PCIe error recovery
+f8f9614819dc41eda9c76bc040ca03abfdd79cee e1000e: fix heap overflow in e1000_set_eeprom
+122f27322c07a1cb1a3ec20fd86041d3ce633318 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
+29ac326762a0db509d130a47a5559dfa79686b7c idpf: convert vport state to bitmap
+7861d676c4cf9f0473d6393033de372ed6404862 idpf: fix possible race in idpf_vport_stop()
+e7cecc27afc30437b44e6f9c3ddb84002b9debd6 i40e: remove redundant memory barrier when cleaning Tx descs
 
---===============8926763203555235221==--
+--===============5226780774205403871==--
