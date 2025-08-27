@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0286039441144711994=="
+Content-Type: multipart/mixed; boundary="===============1902054795266391701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 27 Aug 2025 04:27:32 -0000
-Message-Id: <175626885279.3349262.2883641467542944303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 27 Aug 2025 04:27:44 -0000
+Message-Id: <175626886466.3349553.6251497847084403328@gitolite.kernel.org>
 
---===============0286039441144711994==
+--===============1902054795266391701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: d0630b758e593506126e8eda6c3d56097d1847c5
     new: 3c642997252eef4449cb6b6e02af3dc22515d817
     log: revlist-d0630b758e59-3c642997252e.txt
-  - ref: refs/heads/stable
-    old: b6add54ba61890450fa54fd9327d10fdfd653439
-    new: fab1beda7597fac1cecc01707d55eadb6bbe773c
-    log: |
-         79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
-         c81f6ce16785cc07ae81f53deb07b662ed0bb3a5 of: dynamic: Fix memleak when of_pci_add_properties() failed
-         aea70964b5a7ca491a3701f2dde6c9d05d51878d of: reserved_mem: Add missing IORESOURCE_MEM flag on resources
-         ac29e4487aa20a21b7c3facbd1f14f5093835dc9 dt-bindings: vendor-prefixes: add eswin
-         80af3745ca465c6c47e833c1902004a7fa944f37 of: dynamic: Fix use after free in of_changeset_add_prop_helper()
-         fab1beda7597fac1cecc01707d55eadb6bbe773c Merge tag 'devicetree-fixes-for-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
-  - ref: refs/tags/next-20250527
-    old: 502d44c1a440c5f428f50f02e58cd5633454ea8d
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250827
     old: 0000000000000000000000000000000000000000
     new: 07210987ebe6edb109abd2c5072dfdd3b0fc8fad
 
---===============0286039441144711994==
+--===============1902054795266391701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -784,4 +770,4 @@ b67eb5a7191dd7f0369c5aa3679e506111bf3482 Merge branch 'next' of https://git.kern
 57a94c1531df7f66bcb70fc422505f525b0272e6 Merge branch 'crc-next' of https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 3c642997252eef4449cb6b6e02af3dc22515d817 Add linux-next specific files for 20250827
 
---===============0286039441144711994==--
+--===============1902054795266391701==--
