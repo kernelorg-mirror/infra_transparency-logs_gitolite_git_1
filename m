@@ -1,23 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 27 Aug 2025 17:36:19 -0000
-Message-Id: <175631617903.4006061.4030947780195725958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 27 Aug 2025 17:41:24 -0000
+Message-Id: <175631648449.4010413.6741656339195779756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 481ee0fcbb9a0f0706d6d29de9570d1048aff631
-    new: f66eb149b87677da3171a0ed51c77c3599ad55d6
+  - ref: refs/heads/master
+    old: 088bb2e308555c8630e095f3e688ebdd9a7a6a2d
+    new: 3760a49650b39edd623a85a2b9d51645b52d004a
     log: |
-         2a95aaa34dfedff3d0865d0764a9ed33f17d4ba5 riscv: dts: microchip: add common board dtsi for icicle kit variants
-         4b9e63bb64915dc1b6a52b803678101a23334fe3 dt-bindings: riscv: microchip: document icicle kit with production device
-         1ba401aae7a13bd117eb139d29d70de25db3512a riscv: dts: microchip: add icicle kit with production device
-         0d880b095a19a97697f967adb434b2089d661dde dt-bindings: riscv: microchip: document Discovery Kit
-         f66eb149b87677da3171a0ed51c77c3599ad55d6 riscv: dts: microchip: add a device tree for Discovery Kit
+         a1247fe46e97d0379ae8e141758cf3bb2e824b5c vendor_quirks: initial skeleton
+         6e9e0928b0663f31f5b35949015313d8afbd28e9 vendor_quirks: implement two vendor quirks
+         54c0dbb3c8d1d7935a7fd6bd5fcdbb974117974c handshake: pass object to handshake_util_ap_ie_matches
+         84666b97030400728c7ba16b8c1423ead9de0e8d handshake: add vendor quirks into handshake object
+         2fe8c130167cfe25a6ef1922a4d902dacf4263b4 scan: store vendor quirks in scan_bss
+         df30309aacdeb1060c1995b2e32a0bd24b3f1e37 station: set vendor quirks into handshake object
+         cee079da5b56d85e923e1c2bf312b8dcc83b126c handshake: use vendor quirk to disable check of replay counters
+         c0efaf21ad3d19ac503983b1aadffb5b3b6279ff station: get neighbor report on BSS TM request
+         ffe79bfada3339b482c2a87da9f51636fb73a6ac station: check vendor quirk for BSS TM request candidate list
+         c4d114d8049af38b9fd55b5b07c9770217f04daf auto-t: add AP roam test for bad neighbor reports/candidate lists
+         3760a49650b39edd623a85a2b9d51645b52d004a station: print vendor quirks (if any) when connecting/roaming
          
