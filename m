@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 27 Aug 2025 14:49:14 -0000
-Message-Id: <175630615486.3862885.5326628347697566072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 27 Aug 2025 14:52:35 -0000
+Message-Id: <175630635500.3866263.12824344347710581332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/for-next
-    old: 96d3396f22aedceb085aa8709505bab4e97f3eb1
-    new: 7c96586a17086d0fabcaeea50dd5aa8b411912bb
+  - ref: refs/heads/controller/qcom
+    old: add7b05aeeb417c86239e6731a168e6c46b83279
+    new: 45df22935bdc6bbddf87f38a57ae7257244cf3cf
     log: |
-         c64eff368ac676e8540344d27a3de47e0ad90d21 io_uring/kbuf: fix signedness in this_len calculation
-         7c96586a17086d0fabcaeea50dd5aa8b411912bb Merge branch 'io_uring-6.17' into for-next
-         
-  - ref: refs/heads/io_uring-6.17
-    old: e4e6aaea46b7be818eba0510ba68d30df8689ea3
-    new: c64eff368ac676e8540344d27a3de47e0ad90d21
-    log: |
-         c64eff368ac676e8540344d27a3de47e0ad90d21 io_uring/kbuf: fix signedness in this_len calculation
+         45df22935bdc6bbddf87f38a57ae7257244cf3cf PCI: qcom: Restrict port parsing only to PCIe bridge child nodes
          
