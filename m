@@ -1,43 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============5473688538347707449=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 27 Aug 2025 17:22:47 -0000
-Message-Id: <175631536770.3993402.6744619626411760593@gitolite.kernel.org>
-
---===============5473688538347707449==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Wed, 27 Aug 2025 17:24:34 -0000
+Message-Id: <175631547426.3994838.9053129530964725586@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: fab1beda7597fac1cecc01707d55eadb6bbe773c
-    new: 39f90c1967215375f7d87b81d14b0f3ed6b40c29
-    log: revlist-fab1beda7597-39f90c196721.txt
-
---===============5473688538347707449==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fab1beda7597-39f90c196721.txt
-
-6347dc7fb967521a77f9ff0774d25ef0cca4c6cd media: rkvdec: Fix a NULL vs IS_ERR() bug in probe()
-0d58a72b66ec4c24128395e408348c2c84221605 media: rkvdec: Fix an error handling path in rkvdec_probe()
-da3fa08a89dc1cb33ed57d097239b9c7cd9e7a60 media: rkvdec: Remove redundant pm_runtime_mark_last_busy() calls
-a032fe30cf09b6723ab61a05aee057311b00f9e1 platform/x86: int3472: add hpd pin support
-6f6fbd9a0c5a75eee0618c1499cf73cc770b3f52 media: Remove redundant pm_runtime_mark_last_busy() calls
-a39d13e291c2681e475d9fd41655764dab09be7b virtio_pci: Fix misleading comment for queue vector
-dd54bcf86c91a4455b1f95cbc8e9ac91205f3193 vhost/net: Protect ubufs with rcu read lock in vhost_net_ubuf_put()
-ced17ee32a9988b8a260628e7c31a100d7dc082e Revert "virtio: reject shm region if length is zero"
-24fc631539cc78225f5c61f99c7666fcff48024d vhost: Fix ioctl # for VHOST_[GS]ET_FORK_FROM_OWNER
-528d92bfc0937a6a1ec837dbbcb3612a8545cd37 virtio_input: Improve freeze handling
-45d8ef6322b8a828d3b1e2cfb8893e2ff882cb23 virtio_net: adjust the execution order of function `virtnet_close` during freeze
-518b21ba139cefa2ee7f9fcf516fdc6743e8db68 Merge tag 'media/v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-39f90c1967215375f7d87b81d14b0f3ed6b40c29 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-
---===============5473688538347707449==--
+    old: d3a70b22ee370fc80de81d5f66be6084cf734036
+    new: 526e9a9465d80462d9c7963181fdec1b01b3983b
+    log: |
+         d81d5ff236c2ce003b93eead9c30218825319d22 sim7100: Update to handle broader A76XX modem series
+         5172cc6b39c5feb7736c58c8a4d91289e15e6d2f atmodem: add explicit handling for netreg status in creg_notify()
+         0075ab3f8832ccb6e8529c456d65d520aedbc90b atmodem: also handle EUTRAN networks in creg_notify()
+         f32a8ea3b4bfb196aec91de73924d4837abeba24 atmodem: report cell technology capability for SIMCom A76XX
+         526e9a9465d80462d9c7963181fdec1b01b3983b Revert "atmodem: let +COPS: report access technology for SIMCom"
+         
