@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Tue, 26 Aug 2025 23:56:18 -0000
-Message-Id: <175625257853.3116239.11985674979803509953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Wed, 27 Aug 2025 00:00:54 -0000
+Message-Id: <175625285485.3120541.9822457893228479704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 6da752f55bc48fe2cf12ed208ab10295d796c2dd
-    new: 0354e81b7bd629f9c3379c9524e988ebc504fa25
+  - ref: refs/heads/scatterlist
+    old: 1bd314053927aee19d0fab74ee2367d13e58a2d1
+    new: b64e0f3c663a64fb523f04ff536548960276c543
     log: |
-         0354e81b7bd629f9c3379c9524e988ebc504fa25 scripts/misc-check: update export checks for EXPORT_SYMBOL_FOR_MODULES()
+         50b36724a317dca902b0f022bb565d643bf0f4bd rust: dma: implement DataDirection
+         e0098ef60d28147498846ac508c7f2d9c234c40f rust: dma: add type alias for bindings::dma_addr_t
+         59794ffef14c800e3eaac8574286053f1272ce95 rust: scatterlist: Add abstraction for sg_table
+         b1dde98bae63aa590dca05d4210a1c2dbb95c46c samples: rust: dma: add sample code for SGTable
+         b64e0f3c663a64fb523f04ff536548960276c543 MAINTAINERS: rust: dma: add scatterlist files
          
