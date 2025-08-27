@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 27 Aug 2025 06:25:07 -0000
-Message-Id: <175627590729.3447094.9816749710243709751@gitolite.kernel.org>
+Date: Wed, 27 Aug 2025 06:29:43 -0000
+Message-Id: <175627618359.3449713.15102879811220640942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 4c4fede71c66cd7c5d2c6bd4b3e87e7fa8742887
-    new: a496ec594d7287a28f0165984bad6bc642449e8d
+    old: a496ec594d7287a28f0165984bad6bc642449e8d
+    new: b0eef54273fa90706e7ef5d48a589664501242c4
     log: |
-         a496ec594d7287a28f0165984bad6bc642449e8d erofs-utils: lib: rename `fallthrough` to `__erofs_fallthrough`
+         b0eef54273fa90706e7ef5d48a589664501242c4 erofs-utils: mount: add NBD backend support
          
