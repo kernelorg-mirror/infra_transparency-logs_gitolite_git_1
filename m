@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 27 Aug 2025 01:59:15 -0000
-Message-Id: <175625995575.3227990.10375626611055373438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 27 Aug 2025 03:28:10 -0000
+Message-Id: <175626529070.3298470.6960059257477794433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 2a85ed69d8ef0525b50691aede23f1e10d264634
-    new: d6acda3d2e3992dbbb51e6ce2ba5d69e5ef85570
+    old: fba85a2b1da9566ab2187d7b71ca2268326b2114
+    new: 6c13d1c93c4aa470da288b0acf5668aad219a8ac
     log: |
-         341ed02e0d632a0409cc9b1c5eb426564f1b0ae7 fio: fix formats under MIPS64/PPC
-         d6acda3d2e3992dbbb51e6ce2ba5d69e5ef85570 Merge branch 'patch-1' of https://github.com/neheb/fio
+         6c13d1c93c4aa470da288b0acf5668aad219a8ac Fixes for all trees
          
