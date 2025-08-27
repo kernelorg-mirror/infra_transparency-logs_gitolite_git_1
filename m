@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Wed, 27 Aug 2025 22:23:16 -0000
-Message-Id: <175633339636.48127.10294118853343090794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Wed, 27 Aug 2025 22:24:42 -0000
+Message-Id: <175633348210.49444.11141938529053965828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
+repo: pub/scm/utils/trace-cmd/trace-cmd
 user: rostedt
 changes:
-  - ref: refs/heads/libtracefs
-    old: 01a3fd39368e464999d9c802c2b72c24e2517318
-    new: fe6220645fb80474ca2798706383b398ba18b48d
+  - ref: refs/heads/master
+    old: 9997c4609c7e2c66e8500886414f16b6b2c908e8
+    new: 0a02073f5ff7502644978f056e9f0f92d15d0fbf
     log: |
-         ae03455a38ee66643e0b486b08abc4c73955d42c libtracefs: Fix tracefs_event_is_enabled() for all events
-         e4818e08173d045e3a718fd9c2c50f12e0ecb937 libtracefs: utest: Return non-zero exit code when something fails
-         fe6220645fb80474ca2798706383b398ba18b48d libtracefs/Documentation: Fix markup in the man page
+         2c2e55128a1ff2cde55c397ac341421d87d74d4c libtracecmd: Support querying position within a new compressed block
+         0a02073f5ff7502644978f056e9f0f92d15d0fbf libtracecmd: Support changing /proc/kallsyms
          
