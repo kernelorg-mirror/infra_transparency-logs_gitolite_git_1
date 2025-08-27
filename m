@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 27 Aug 2025 14:52:35 -0000
-Message-Id: <175630635500.3866263.12824344347710581332@gitolite.kernel.org>
+Date: Wed, 27 Aug 2025 14:52:48 -0000
+Message-Id: <175630636873.3866514.4324636260494188794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: mani
 changes:
-  - ref: refs/heads/controller/qcom
-    old: add7b05aeeb417c86239e6731a168e6c46b83279
-    new: 45df22935bdc6bbddf87f38a57ae7257244cf3cf
+  - ref: refs/heads/dt-binding
+    old: 4edc575c5582550d0905f39c5e27f1f1f925fffa
+    new: 6dd0ca9f2dfaab1bd15895bab16e5496632e53b6
     log: |
-         45df22935bdc6bbddf87f38a57ae7257244cf3cf PCI: qcom: Restrict port parsing only to PCIe bridge child nodes
+         6dd0ca9f2dfaab1bd15895bab16e5496632e53b6 dt-bindings: PCI: qcom,pcie-sm8550: Add SM8750 compatible
          
