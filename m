@@ -1,76 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2814234335863341876=="
+Content-Type: multipart/mixed; boundary="===============3264645252255847345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 27 Aug 2025 08:34:13 -0000
-Message-Id: <175628365319.3554679.15751115532327953705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Wed, 27 Aug 2025 08:41:48 -0000
+Message-Id: <175628410842.3562132.14390821337714156662@gitolite.kernel.org>
 
---===============2814234335863341876==
+--===============3264645252255847345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 8185696483dcb29688fc23c45c99d86b73754982
-    new: dd55c1837187d2de07a3d6acba6382ea86dab52e
-    log: revlist-8185696483dc-dd55c1837187.txt
+  - ref: refs/heads/next
+    old: 196d9e72c4b0bd68b74a4ec7f52d248f37d0f030
+    new: a6ad54137af92535cfe32e19e5f3bc1bb7dbd383
+    log: revlist-196d9e72c4b0-a6ad54137af9.txt
+  - ref: refs/heads/queue
+    old: 196d9e72c4b0bd68b74a4ec7f52d248f37d0f030
+    new: a6ad54137af92535cfe32e19e5f3bc1bb7dbd383
+    log: revlist-196d9e72c4b0-a6ad54137af9.txt
 
---===============2814234335863341876==
+--===============3264645252255847345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1756283697 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1756283648-17b5699afadfa6955d2300303c86e1d1d4814dde
+pusher Paolo Bonzini <pbonzini@redhat.com> 1756284146 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1756284097-a5b3c7e9f2e74afeadc782cb3cf5d317c29acf01
 
-8185696483dcb29688fc23c45c99d86b73754982 dd55c1837187d2de07a3d6acba6382ea86dab52e refs/heads/slab/for-next
+196d9e72c4b0bd68b74a4ec7f52d248f37d0f030 a6ad54137af92535cfe32e19e5f3bc1bb7dbd383 refs/heads/next
+196d9e72c4b0bd68b74a4ec7f52d248f37d0f030 a6ad54137af92535cfe32e19e5f3bc1bb7dbd383 refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmiuwzEbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia07wH/3+BVAVrhyzba2eG1OW/
-ElM8run1GvH3+jupcU6Ddv+FprNLaUEBk5owhRXsB+8O2Hs8L2yxFnnUJITvqHLP
-r9L9AhgjJTt2J6WNDZ8wSq9uf5oMWAnSWq01Vp/6FHJb0jCjq+dBEqKZ4jmMrKk3
-xE7orCRoczJw+lJO6nvyXYJMGkVeACUtyhafYZ1KUxHF/5TQTgCy2+D8EZwy1r9H
-DfYKY5Md7I1IC1TbbICzAYW3MOIodn8iey6QpubzBECyB2t/SmskmK76pJcsuu0M
-zTRIx3E00tTT21VLQrXd2vUNx5/bmJJAnyq+AyT/b9E09VX6inA1qB2kDtAC951R
-EYg=
-=O/11
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmiuxPMUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNftQgAo3zygK5A5A6mSO+0rY711fubc1ku
+Q7bGBT5c7YxP7aqnzWlJpF17X4FjH4TfgHLjMqL49rm5/b9FKovDcmn5R7chYIoS
+Nf9ruyppNi/B3LKXL8Zy14ZWmRcA7X+GETNYwI+bw3XkwmALQw7Q7luzZOpRXnE+
+6f10goGgdbXfkuoIZQsL8GCzDHKrOznrzpMtpS2t9smLmyGoDgUIKCXEBtuT4PtW
+09WtZPA3fSJFMjS1WLQBgbYrmMIg7/IE3kthi/kpKR+uIbZCddzUnHk7pXA7JQfE
+UdAWh5b4UeJUrvkqJTfvD3b59TXaGR52KB2XMcJSV5xOEZKYpfUHUJ+77A==
+=N0Aj
 -----END PGP SIGNATURE-----
 
---===============2814234335863341876==
+--===============3264645252255847345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8185696483dc-dd55c1837187.txt
+Content-Disposition: attachment; filename=revlist-196d9e72c4b0-a6ad54137af9.txt
 
-7061835997daba9e73c723c85bd70bc4c44aef77 Merge tag 'firewire-updates-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-eacf91b0c78a7113844830ed65ebf543eb9052c5 Merge tag 'fbdev-for-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-be71ce9796c36517c677ab1d3c6691423dd0bdec drm/bridge: fix OF node leak
-5c241ed8d031693dadf33dd98ed2e7cc363e9b66 mm/shmem, swap: improve cached mTHP handling and fix potential hang
-fefbeed8c6f62dc10f80a6b1787e75de2c64ad0d init/Kconfig: restore CONFIG_BROKEN help text
-6c6d8f8ba7789c221a2e4c43a0ed982c7a41f428 lib/xxhash: remove unused functions
-ed4f142f72a9191b8236778093074c277435bf8a stackdepot: make max number of pools boot-time configurable
-07d24902977e4704fab8472981e73a0ad6dfa1fd kexec: enable CMA based contiguous allocation
-f8cd9193b62e92ad25def5370ca8ea2bc7585381 ucount: fix atomic_long_inc_below() argument type
-58b4fba81a2e400a47ddbe7c1dc0a2bc038313b7 ucount: use atomic_long_try_cmpxchg() in atomic_long_inc_below()
-1f03d55e5ef0b041bd66fbf7803952c901a93fcb MAINTAINERS: add maintainers for delaytop
-a30469cac8ce6555284948dab30066ce1ea43548 KVM: x86: fix typo "notifer"
-fbedfb051a4c74854c23f9c898fc6b29fab7be60 cxl: mce: fix typo "notifer"
-26197b0fd220ceb2b26f2ea2948c00fdd9855fae drm/xe: fix typo "notifer"
-545040384e78d6eaabb20e1f4baa85ace864dcfc net: mvneta: fix typo "notifer"
-004f42dd90b7ef542a51983bdaa5b2ef621ed41d xen/xenbus: fix typo "notifer"
-53f433891e698e76aaf01b84b30a17a79a53535c scripts/spelling.txt: add notifer||notifier to spelling.txt
-fb0e9db99eefc17cb8693ce93afe5c5dbc5148a5 fat: fix too many log in fat_chain_add()
-8c54f7e3e0eab0174683a562051417317c4ea297 samples: Kconfig: fix spelling mistake "instancess" -> "instances"
 d92dccd05a20b7a9c2836d4e46e22128f5b73367 delaytop: enhance error logging and add PSI feature description
 b753522bed0b7e388a643f58d91bd81d8849ba43 kho: add test for kexec handover
 085dece6cc88b5c6fc6f2eca0403bfd2c5fbc7cb tools/getdelays: add backward compatibility for taskstats version
@@ -754,6 +739,7 @@ f604d3aaf64ff0d90cc875295474d3abf4155629 mlxsw: spectrum: Forward packets with a
 5e0b2177bdba99c2487480e9864825f742b684ee selftest: forwarding: router: Add a test case for IPv4 link-local source IP
 08947318871cf3fcfea194f427db0b5797545281 Merge branch 'mlxsw-spectrum-forward-packets-with-an-ipv4-link-local-source-ip'
 79116acb75e11f7781fde8171e6d4a0e52de3e5d Merge tag 'for-net-2025-08-15' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+c87bd4dd43a624109c3cc42d843138378a7f4548 KVM: x86: use array_index_nospec with indices that come from guest
 989fe6771266bdb82a815d78802c5aa7c918fdfd drm/nouveau/gsp: fix mismatched alloc/free for kvmalloc()
 6cc44e9618f03f1deb9a092698c0b0ce20990221 drm: Add directive to format code in comment
 12da2b92ad50e6602b4c5e9073d71f2368b70b63 net: libwx: Fix the size in RSS hash key population
@@ -830,6 +816,7 @@ af24c20c4633a667ac5b5e20cf9d96f6176a0ca3 ASoC: codecs: ES9389: Modify the standb
 8aa5a3b68ad144da49a3d17f165e6561255e3529 loop: Consolidate size calculation logic into lo_calculate_size()
 47b71abd58461a67cae71d2f2a9d44379e4e2fcf loop: use vfs_getattr_nosec for accurate file size
 d0a2b527d8c32e46ccb8a34053468d4ff0c27e5c block: tone down bio_check_eod
+923fcb3dbc0246fc5207093c0049af4c56f20e41 KVM: SEV: don't check have_run_cpus in sev_writeback_caches()
 0aa86640ebd98d77fb64acef5684e42fba517d2d drm/amd/display: Revert Add HPO encoder support to Replay
 79e25cd06e85105c75701ef1773c6c64bb304091 drm/amdgpu/swm14: Update power limit logic
 07b93a5704b0b72002f0c4bd1076214af67dc661 drm/amd/display: Avoid a NULL pointer dereference
@@ -966,6 +953,7 @@ ec879e1a0be8007aa232ffedcf6a6445dfc1a3d7 tracing: fprobe-event: Sanitize wildcar
 5c68549c81bcca70fc464e305ffeefd9af968287 LoongArch: KVM: Fix stack protector issue in send_ipi_data()
 0dfd9ea7bf80fabe11f5b775d762a5cd168cdf41 LoongArch: KVM: Use kvm_get_vcpu_by_id() instead of kvm_get_vcpu()
 538c06e3964a8e94b645686cc58ccc4a06fa6330 LoongArch: KVM: Add address alignment check in pch_pic register access
+dce1b33ed7430c7189b8cc1567498f9e6bf12731 selftests: harness: Rename is_signed_type() to avoid collision with overflow.h
 7c15e4cabfa96ed3cd717a2ed7a9961268ab21f7 ASoC: cs35l56: Fixes for CS35L63 for production
 41cd3fd152634250fdd09a52a35352b3f323800d Merge tag 'pci-v6.17-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 729dc340a4ed1267774fc8518284e976e2210bdc bootconfig: Fix negative seeks on 32-bit with LFS enabled
@@ -1066,15 +1054,31 @@ a69dfb4e0acb22fb6347656626520157948b3aa8 Merge tag 'mips-fixes_6.17_1' of git://
 69fd6b99b8f85eaa5d784e4840e982ca59c04250 Merge tag 'perf_urgent_for_v6.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 1b237f190eb3d36f52dffe07a40b5eb210280e00 Linux 6.17-rc3
-17b0bedb03a12dc5e5b0de6dca7fe4b5eaa32cd5 slab: simplify init_kmem_cache_nodes() error handling
-4ca04daa23305142d9621a2f6d8bdd4cf0942662 slab: add opt-in caching layer of percpu sheaves
-b004e072733811f6d402f277ae6ba5dfd18cc874 slab: add sheaf support for batching kfree_rcu() operations
-847cb575311694dad1c3b48789e31d55968bb662 slab: sheaf prefilling for guaranteed allocations
-38014ee727cecfb64e9cb9ea01661a3602a07cfe slab: determine barn status racily outside of lock
-b5ee0bcc70c9e739196213e82f164063c3bcdcd6 slab: skip percpu sheaves for remote object freeing
-4a12480c3cdcdefe766342dc03239095bed4732d slab: allow NUMA restricted allocations to use percpu sheaves
-094c5091a6313b1dd91380da7742e3783d025efa mm, vma: use percpu sheaves for vm_area_struct cache
-52dede6242af10148b172614dc1c358a611a8daa tools/testing: Add testing support for slab caches with sheaves
-dd55c1837187d2de07a3d6acba6382ea86dab52e maple_tree: use percpu sheaves for maple_node_cache
+0dc4a751507177af24a2529d57dbe4a37e45b30c Merge tag 'kvm-x86-fixes-6.17-rc7' of https://github.com/kvm-x86/linux into HEAD
+19a9a1ab5c3dce65fff4ac50700117039c23d525 KVM: Rename CONFIG_KVM_PRIVATE_MEM to CONFIG_KVM_GUEST_MEMFD
+1d95f2d307ec384fd8851c5f189c904dd2ea831a KVM: x86: Have all vendor neutral sub-configs depend on KVM_X86, not just KVM
+b4ff2efb7e780094cf02bff1735b44410d383388 KVM: x86: Select KVM_GENERIC_PRIVATE_MEM directly from KVM_SW_PROTECTED_VM
+924121eebddcc6f062d1d2d20aafebe95f6fc290 KVM: x86: Select TDX's KVM_GENERIC_xxx dependencies iff CONFIG_KVM_INTEL_TDX=y
+36cf63bb5df68836e55e2839f8174b404d47670b KVM: Rename CONFIG_KVM_GENERIC_PRIVATE_MEM to CONFIG_HAVE_KVM_ARCH_GMEM_POPULATE
+923310be23b275f730e8869abc783db6296fc043 KVM: Rename kvm_slot_can_be_private() to kvm_slot_has_gmem()
+69116e01f6fee030db45d269f28f9c300b8dc9d6 KVM: Fix comments that refer to slots_lock
+68d189938709a5918d7308eb922c30bcbf16ebb9 KVM: Fix comment that refers to kvm uapi header path
+d1e54dd08f163a9021433020d16a8f8f70ddc41c KVM: x86: Enable KVM_GUEST_MEMFD for all 64-bit builds
+a12578e1477cbfb547256ed8dee6d5142a59cdcd KVM: guest_memfd: Add plumbing to host to map guest_memfd pages
+576d035e2aef52f8d8d3ce29af556d4c6bd2e0fe KVM: guest_memfd: Track guest_memfd mmap support in memslot
+d6c840adfebca55d4520244c77467bd16b4ea41e KVM: x86/mmu: Rename .private_max_mapping_level() to .gmem_max_mapping_level()
+1c3fdf13703ba6bb006671db72b7a02d2bd58b8b KVM: x86/mmu: Hoist guest_memfd max level/order helpers "up" in mmu.c
+a3522ac71f5e1c1a9bacee46663d6e83efb9c325 KVM: x86/mmu: Enforce guest_memfd's max order when recovering hugepages
+b7d97f69edd488b9755ba2858fe7f33e24566500 KVM: x86/mmu: Extend guest_memfd's max mapping level to shared mappings
+f029f04ddbec650d9830dbd5dc8c8998d1eef81e KVM: x86/mmu: Handle guest page faults for guest_memfd with shared memory
+638ea79669f8a231c248cf9a13ea12e5dce745bf KVM: arm64: Refactor user_mem_abort()
+a7b57e0995927cc5fb8629594e2abf2a6f1000e9 KVM: arm64: Handle guest_memfd-backed guest page faults
+f4e740309ee255a52a60bbc044647a11429250fc KVM: arm64: nv: Handle VNCR_EL2-triggered faults backed by guest_memfd
+32e200bd6e4407c31aef0392be041274bfa3f20e KVM: arm64: Enable support for guest_memfd backed memory
+3d3a04fad25a6621828518a2abe536142d2c1a7d KVM: Allow and advertise support for host mmap() on guest_memfd files
+692f6ecf387aff1596ea1d86be7d333a474b7d56 KVM: selftests: Do not use hardcoded page sizes in guest_memfd test
+a11d7124b4dd4d78bb7f7257abdb33cb5dd924b8 KVM: selftests: guest_memfd mmap() test when mmap is supported
+42188667be387867d2bf763d028654cbad046f7b KVM: selftests: Add guest_memfd testcase to fault-in on !mmap()'d memory
+a6ad54137af92535cfe32e19e5f3bc1bb7dbd383 Merge branch 'guest-memfd-mmap' into HEAD
 
---===============2814234335863341876==--
+--===============3264645252255847345==--
