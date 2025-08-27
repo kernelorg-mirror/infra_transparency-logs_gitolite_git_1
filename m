@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 27 Aug 2025 19:33:59 -0000
-Message-Id: <175632323951.4103663.2035967089103050117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Wed, 27 Aug 2025 19:46:02 -0000
+Message-Id: <175632396205.4114658.3726747574502287333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/pwrctrl
-    old: ab81f2f79c683c94bac622aafafbe8232e547159
-    new: dc32e9346b26ba33e84ec3034a1e53a9733700f9
-    log: |
-         39f9be6aba3ae4d6fdd4b8554f1184d054d7a713 PCI/pwrctrl: Fix device leak at registration
-         e24bbbe0780262a21fc8619fe99078a5b8d64b18 PCI/pwrctrl: Fix device and OF node leak at bus scan
-         dc32e9346b26ba33e84ec3034a1e53a9733700f9 PCI/pwrctrl: Fix device leak at device stop
-         
+  - ref: refs/tags/0.2.8
+    old: 0000000000000000000000000000000000000000
+    new: 7b13a6ad892b01249d7fd8cf2daf48d39f237d96
