@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9125535816644490861=="
+Content-Type: multipart/mixed; boundary="===============3791576504210797195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 27 Aug 2025 15:32:15 -0000
-Message-Id: <175630873547.3901554.8775020481696933860@gitolite.kernel.org>
+Date: Wed, 27 Aug 2025 15:33:16 -0000
+Message-Id: <175630879602.3902182.16568508629618529361@gitolite.kernel.org>
 
---===============9125535816644490861==
+--===============3791576504210797195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,52 +15,41 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 007a5ffadc4fd51739527f1503b7cf048f31c413
-    new: ceb9515524046252c522b16f38881e8837ec0d91
-    log: revlist-007a5ffadc4f-ceb951552404.txt
+  - ref: refs/heads/dev-queue
+    old: e7cecc27afc30437b44e6f9c3ddb84002b9debd6
+    new: f5c17962a1ed273f47e5cbc8fe8d044cda031078
+    log: revlist-e7cecc27afc3-f5c17962a1ed.txt
 
---===============9125535816644490861==
+--===============3791576504210797195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-007a5ffadc4f-ceb951552404.txt
+Content-Disposition: attachment; filename=revlist-e7cecc27afc3-f5c17962a1ed.txt
 
-60dfe2434eed13082f26eb7409665dfafb38fa51 ice: fix NULL pointer dereference in ice_unplug_aux_dev() on reset
-86aae43f21cf784c1d7f6a9af93e5116b0f232ab ice: don't leave device non-functional if Tx scheduler config fails
-5c5e5b52bf05c7fe88768318c041052c5fac36b8 ice: use fixed adapter index for E825C embedded devices
-b1a0c977c6f1130f7dd125ee3db8c2435d7e3d41 ice: fix incorrect counter for buffer allocation failures
-ed913b343dcf9f623e7436fa1a153c89b22d109b ixgbe: fix ixgbe_orom_civd_info struct layout
-e81a7f65288c7e2cfb7e7890f648e099fd885ab3 net: usb: qmi_wwan: add Telit Cinterion LE910C4-WWX new compositions
-882e57cbc7204662f6c5672d5b04336c1d790b03 phy: mscc: Fix when PTP clock is register and unregister
-26c1f55f7ec8d1a4bde8c50e4ee04e3c8c6b27e8 MAINTAINERS: retire Boris from TLS maintainers
-16c8a3a67ec799fc731919e3e51be9af6cdf541d net: macb: Fix offset error in gem_update_stats
-d9b0ca1334d8a9a03bef45e95825564c56ca3367 MAINTAINERS: Update maintainer information for Altera Triple Speed Ethernet Driver
-2747328ba2714f1a7454208dbbc1dc0631990b4a bnxt_en: Fix memory corruption when FW resources change during ifdown
-1ee581c24dfdcbc6de25aac95a48c1f08e9a542c bnxt_en: Adjust TX rings if reservation is less than requested
-b4fc8faacfea2538184a1dbd616ae9447a361f3d bnxt_en: Fix stats context reservation logic
-e69880cbf623dc6283ae798aa5b8fb930063591c Merge branch 'bnxt_en-3-bug-fixes'
-aa125f08cb8e9bc7f08aa7094b78beaeab9bea71 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-2c0a959bebdc1ada13cf9a8242f177c5400299e6 net/mlx5: HWS, Fix memory leak in hws_pool_buddy_init error path
-a630f83592cdad1253523a1b760cfe78fef6cd9c net/mlx5: HWS, Fix memory leak in hws_action_get_shared_stc_nic error flow
-24b6e53140475b56cadcccd4e82a93aa5bacf1eb net/mlx5: HWS, Fix uninitialized variables in mlx5hws_pat_calc_nop error flow
-00a50e4e8974cbf5d6a1dc91cfa5cce4aa7af05a net/mlx5: HWS, Fix pattern destruction in mlx5hws_pat_get_pattern error path
-34cc6a54914f478c93e176450fae6313404f9f74 net/mlx5: Reload auxiliary drivers on fw_activate
-902a8bc23a24882200f57cadc270e15a2cfaf2bb net/mlx5: Fix lockdep assertion on sync reset unload event
-26e42ec7712d392d561964514b1f253b1a96f42d net/mlx5: Nack sync reset when SFs are present
-cf9a8627b9a369ba01d37be6f71b297beb688faa net/mlx5: Prevent flow steering mode changes in switchdev mode
-ceddedc969f0532b7c62ca971ee50d519d2bc0cb net/mlx5e: Update and set Xon/Xoff upon MTU set
-d24341740fe48add8a227a753e68b6eedf4b385a net/mlx5e: Update and set Xon/Xoff upon port speed set
-aca0c31af61e0d5cf1675a0cbd29460b95ae693c net/mlx5e: Set local Xoff after FW update
-24be0900478dd87b945c7809e343fa07888a24b4 Merge branch 'mlx5-misc-fixes-2025-08-25'
-4f23382841e67174211271a454811dd17c0ef3c5 net: stmmac: xgmac: Do not enable RX FIFO Overflow interrupts
-42ef11b2bff5b6a2910c28d2ea47cc00e0fbcaec net: stmmac: xgmac: Correct supported speed modes
-b1eded580ab28119de0b0f21efe37ee2b4419144 net: stmmac: Set CIC bit only for TX queues with COE
-4b4a8ec21ab8581f57d747b8e7eac65d3c295cd4 Merge branch 'net-stmmac-xgmac-minor-fixes'
-9448ccd853368582efa9db05db344f8bb9dffe0f net: hv_netvsc: fix loss of early receive events from host during channel open.
-dcb34659028f856c423a29ef9b4e2571d203444d net: rose: split remove and free operations in rose_remove_neigh()
-d860d1faa6b2ce3becfdb8b0c2b048ad31800061 net: rose: convert 'use' field to refcount_t
-da9c9c877597170b929a6121a68dcd3dd9a80f45 net: rose: include node references in rose_neigh refcount
-ceb9515524046252c522b16f38881e8837ec0d91 Merge branch 'introduce-refcount_t-for-reference-counting-of-rose_neigh'
+15b289896f4db795b5422ab908f1e2438bf9c750 i40e: remove read access to debugfs files
+fc1f498fb72e359b726f8e17d22e0b4baf472e96 ice: fix NULL access of tx->in_use in ice_ptp_ts_irq
+4fd1ea54fc420ddc28c512d3724b921ff3ba79da ice: fix NULL access of tx->in_use in ice_ll_ts_intr
+5b741cd57d76c1e3b5516537aaf7313456407eff ixgbe: fix incorrect map used in eee linkmode
+31ff12ba43d23dcb7a36d5e5c73eea15eea67a67 idpf: fix UAF in RDMA core aux dev deinitialization
+8f96d9e0ce7aff25589350b83103a0cc9327194a i40e: add validation for ring_len param
+2d56fec523622bdfbfabfe47e091c7150c43e676 i40e: fix idx validation in i40e_validate_queue_map
+9c3cb199f0952a71cc1177e24615310a5f23f038 i40e: fix idx validation in config queues msg
+63a202c2086139b856263ae197df190c5286c936 i40e: fix input validation logic for action_meta
+c68bbb6bb2180d9bff915d7e6f25461adbfe5b94 i40e: fix validation of VF state in get resources
+b3ec945b8072e2dab7165e7406a1d9116cadd49d i40e: add max boundary check for VF filters
+cd1132530e75187b719ec639e58fbd76b10dc95c i40e: add mask to apply valid bits for itr_idx
+6b37d368d3fecb49fa97ab93091b428ba1d38f9d i40e: improve VF MAC filters accounting
+9e0597ad80d98dccad98217d34d57a8967a57a3b igb: Fix NULL pointer dereference in ethtool loopback test
+7074f3c680430446672c6c5899d4ec7dad7cabd2 idpf: cleanup remaining SKBs in PTP flows
+9ce0f3f60f8ca64c9442669ab39889c7d4eaf6fe idpf: set mac type when adding and removing MAC filters
+3a748f41d31b697da3ad8801af587ad460845062 igb: fix link test skipping when interface is admin down
+61f0a82264f417035251869abbad1b0b8cf898f5 ice: Fix enable_cnt imbalance on resume
+c78a026552150eb314cebf517bc9831863e2f27f ice: Fix enable_cnt imbalance on PCIe error recovery
+1404d6d3799ab57446027b561de0b0cbe178fc28 i40e: Fix enable_cnt imbalance on PCIe error recovery
+312eaaca5c41903ec60efee9e4df6131270b1255 e1000e: fix heap overflow in e1000_set_eeprom
+f0559ab4b19a9470278e0de94005b52f83e39c8c i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
+27a251e26d4b59c9175d6134efa15717b986d02b idpf: convert vport state to bitmap
+e482dfa2ec6c9e14290293cd843d4e3d5ebb671d idpf: fix possible race in idpf_vport_stop()
+f5c17962a1ed273f47e5cbc8fe8d044cda031078 i40e: remove redundant memory barrier when cleaning Tx descs
 
---===============9125535816644490861==--
+--===============3791576504210797195==--
