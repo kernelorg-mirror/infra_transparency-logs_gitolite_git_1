@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 27 Aug 2025 20:42:22 -0000
-Message-Id: <175632734248.4160166.7455131969819357987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 27 Aug 2025 21:14:51 -0000
+Message-Id: <175632929133.4185722.822903352865054561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/tags/nova/upstream-submit-candidate2-8.27.2025
-    old: 0000000000000000000000000000000000000000
-    new: 369b98e4f1a587f9622e79a096cdce5e8323a37c
+  - ref: refs/heads/aer
+    old: fbf86cb7c5c94e45e13c869b50bbf217b6b42576
+    new: 6633875250b38b18b8638cf01e695de031c71f02
+    log: |
+         6633875250b38b18b8638cf01e695de031c71f02 PCI/AER: Support errors introduced by PCIe r6.0
+         
