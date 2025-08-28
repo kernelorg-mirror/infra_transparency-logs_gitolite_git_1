@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 28 Aug 2025 19:17:20 -0000
-Message-Id: <175640864053.1280403.2523681068502910157@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5269802193941145188=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/patchwork/lei-queries
+Date: Thu, 28 Aug 2025 19:20:06 -0000
+Message-Id: <175640880646.1284103.14036543271581989788@gitolite.kernel.org>
+
+--===============5269802193941145188==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/infra/patchwork/lei-queries
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.18
-    old: c42e36a488c7e01f833fc9f4814f735b66b2d494
-    new: 793681dc7cc6482484fdeb658f5ac20bf0a570b9
+  - ref: refs/heads/master
+    old: 66569b5fec4a5b0b24ecf88b1e07f182324aef20
+    new: 0d46678905c59dfef9c88961f2084a0b89c5a4ea
     log: |
-         c73c378dc05ba8060558b9b50e37f3afa4763ea1 spi: rb4xx: depend on OF
-         f18f0ac5331f8f13737e87cc1416837fb5b27b0a spi: rb4xx: add COMPILE_TEST support
-         ff9a7857b7848227788f113d6dc6a72e989084e0 spi: rb4xx: use devm for clk_prepare_enable
-         793681dc7cc6482484fdeb658f5ac20bf0a570b9 add COMPILE_TEST support
+         0d46678905c59dfef9c88961f2084a0b89c5a4ea Add riscv-thead
          
+
+--===============5269802193941145188==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1756408854 -0400
+pushee gitolite.kernel.org:pub/scm/infra/patchwork/lei-queries
+nonce 1756408805-8a1c66bf8e81a4354b926128f51b6fc6b8ec8d2c
+
+66569b5fec4a5b0b24ecf88b1e07f182324aef20 0d46678905c59dfef9c88961f2084a0b89c5a4ea refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaLCsFgAKCRC2xBzjVmSZ
+bOOFAQD1Jpru2OlQ/zjFnYupqRmJTrSNv2zHP1RtDSHEZ1eTagD/f7wUBpscKYlN
+oHsYlzzpzQ2UEk0aYd0UZo3O0henJwE=
+=SvCh
+-----END PGP SIGNATURE-----
+
+--===============5269802193941145188==--
