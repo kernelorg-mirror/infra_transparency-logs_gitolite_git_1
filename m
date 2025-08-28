@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 28 Aug 2025 03:46:44 -0000
-Message-Id: <175635280439.328624.2166241790980202434@gitolite.kernel.org>
+Date: Thu, 28 Aug 2025 03:50:46 -0000
+Message-Id: <175635304636.332833.8423479619307032303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
   - ref: refs/heads/dev-test
-    old: 4516b353aa591b12dc002358e2ff2c502b9e987e
-    new: e493263b65e19cc6915c3392533f1b133ce5ff32
+    old: e493263b65e19cc6915c3392533f1b133ce5ff32
+    new: 131897c65e2b86cf14bec7379f44aa8fbb407526
     log: |
-         e493263b65e19cc6915c3392533f1b133ce5ff32 erofs: fix invalid algorithm for encoded extents
+         131897c65e2b86cf14bec7379f44aa8fbb407526 erofs: fix invalid algorithm for encoded extents
          
