@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 28 Aug 2025 12:20:16 -0000
-Message-Id: <175638361645.810958.17855958752733982635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 28 Aug 2025 12:21:22 -0000
+Message-Id: <175638368213.811651.3619822407931243398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: ae668cd567a6a7622bc813ee0bb61c42bed61ba7
-    new: 851c4c96db001f51bdad1432aa54549c7fe2c63e
+  - ref: refs/heads/master
+    old: c42f264120d9c12bdf4df0b31481b49b33540f68
+    new: 82ab7a2b175874c8af845fcbd376ac33b78e30be
     log: |
-         8d2f9f5c64f16e0717854fb66d795ebe8c30103b xfs: allow renames of project-less inodes
-         8a221004fe5288b66503699a329a6b623be13f91 xfs: add .fileattr_set and fileattr_get callbacks for symlinks
-         0239bd9fa445a21def88f7e76fe6e0414b2a4da0 xfs: allow setting file attributes on special files
-         851c4c96db001f51bdad1432aa54549c7fe2c63e xfs: implement XFS_IOC_DIOINFO in terms of vfs_getattr
+         1c6e01da7950494d265a05c705685e7c7f7cbdb5 getopt: add feature to ignore unknown options
+         4f853fa26cceae3e6ae2a38f3b3328f91340a6a4 getopt: add member posixly_correct to struct getopt_control
+         58cf2752fb74751828f56f4d3f289e02f052aaf0 Add reflink support for ZFS.
+         82ab7a2b175874c8af845fcbd376ac33b78e30be Merge branch 'zfs-reflinks' of https://github.com/lordcheeto/util-linux
          
