@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8173956846532181366=="
+Content-Type: multipart/mixed; boundary="===============5597288792736853065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 28 Aug 2025 17:15:03 -0000
-Message-Id: <175640130317.1174334.14101966932704001370@gitolite.kernel.org>
+Date: Thu, 28 Aug 2025 17:15:05 -0000
+Message-Id: <175640130526.1175350.6299987421956727355@gitolite.kernel.org>
 
---===============8173956846532181366==
+--===============5597288792736853065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 7e4e3216e857319580a0393dd98b59b6a3a706e6
-    new: 505b0ea925bb725d27c5c5ffdfe70db348cebc40
-    log: revlist-7e4e3216e857-505b0ea925bb.txt
+  - ref: refs/heads/mm-new
+    old: a522b448d8087eb7dcfbb2a5b0c9b542d9e60993
+    new: c8f812ba33de74e33dadfbafb8afe3275b4f5e97
+    log: revlist-a522b448d808-c8f812ba33de.txt
 
---===============8173956846532181366==
+--===============5597288792736853065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e4e3216e857-505b0ea925bb.txt
+Content-Disposition: attachment; filename=revlist-a522b448d808-c8f812ba33de.txt
 
 ee4d098cbc9160f573b5c1b5a51d6158efdb2896 of_numa: fix uninitialized memory nodes causing kernel panic
 5cc5e030bce2ec97ae5cdb2c1b94a98b1047b3fa rust: mm: mark VmaNew as transparent
@@ -269,119 +269,5 @@ aa29b8c29b1828734211b41c1399379303c78017 mm: shmem: drop the unnecessary folio_n
 70ea1fcf49479448c5d8606c0936d747d159ece1 drivers/base/memory: add node id parameter to add_memory_block()
 ea3028b130ab91a65dfbaa1fb0eebca97855b4d6 mm/memory_hotplug: activate node before adding new memory blocks
 c8f812ba33de74e33dadfbafb8afe3275b4f5e97 drivers/base: move memory_block_add_nid() into the caller
-1cde5593a924ae6b7039a54bc3050c011f468a8a === mark start of DAMON hack tree ===
-312ca58de8724c595c8d45813b86339a1f2ed475 add -damon suffix to the version name
-49a33280d68c27904cb37e95d062fd90124b740e === temporal fixes ===
-be53d4e219e0d9340c124bbd792cb82e9cfd15dd Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-b5e207e0f1814447be0cd28ff63b2bb7f49cacec === patches written or reviewed by SJ but not merged in -mm ===
-4a337b5ac308840dcc0d397e3fb4a63c0c88bb38 ==== [PATCH v3 00/11] mm/damon: support ARM32 with LPAE ====
-8e0762b78b53483ee89d70721b8ee3f267fdb380 mm/damon/core: add damon_ctx->addr_unit
-2c3548ed1296ae1fa3166c336e4b00dc3072ce44 mm/damon/paddr: support addr_unit for access monitoring
-888e7abd77a4126901cb5edaa487ade9175da9c3 mm/damon/paddr: support addr_unit for DAMOS_PAGEOUT
-9e28af1142d1c4ce6b736c3d14dee5f499ce8248 mm/damon/paddr: support addr_unit for DAMOS_LRU_[DE]PRIO
-a41fad0a38b5b962c85015c016ea58258364a554 mm/damon/paddr: support addr_unit for MIGRATE_{HOT,COLD}
-6019ef793077e0437d8888b252aa810000379869 mm/damon/paddr: support addr_unit for DAMOS_STAT
-c3a61144ef1a0eb92c3b5835439c5e8250837d89 mm/damon/sysfs: implement addr_unit file under context dir
-fb02caa3fb9406f1106d931b635d15a82df73ea0 Docs/mm/damon/design: document 'address unit' parameter
-9c8954009380227606007bac700156eb32f058b1 Docs/admin-guide/mm/damon/usage: document addr_unit file
-6b3f0575a9141e576e2ac15c48998d5d73e8fa33 Docs/ABI/damon: document addr_unit file
-562dc40bd58af2cc78fe475372b18dda5ec0aa3d mm/damon: add damon_ctx->min_sz_region
-c66754213c5c76aad7d3874035abd36133692a4f === hacks in progress ===
-fbc9ae3cb48f3e6ab4ddbe798020a3e1e5d04bed ==== misc fixup second round ====
-595a06e6fc6d98f95c0348a879435a5abc1f22a2 mm/damon/lru_sort: use param_ctx correctly
-9efaa5b8a8e5a95ffe473b57821d5993666b9535 MAINTAINERS: rename DAMON section
-d498103c73ea8fc5676711e3d363cfa4082b34fb ==== damon_initialized() ====
-096ab9ab1e4cc985e5ecca70b6021eac0caf6693 mm/damon/core: implement damon_initialized() function
-2c3487701aaca57a1e25f5d4542c222e8460184e mm/damon/stat: use damon_initialized()
-5935624d27867f2afc1db788c86d9512576cc70e mm/damon/reclaim: use damon_initialized()
-a36c2485c528b1db31fdd98ed9aa195befa8f9a6 mm/damon/lru_sort: use damon_initialized()
-dd70e25906e07cb8c87f8a5619b9c43960a4e894 samples/damon/mtier: use damon_initialized()
-b2ec2bc0c42ad7308e8c1ea2fb1377cb0dffa803 ==== fault/report-based monitoring for per-cpu and write ====
-ab549f6317f963eb9358fdee63a28b252b3c8430 mm/damon/core: introduce damon_report_access()
-b4056681195ef5d7c7032758b93dc4fc7e169f3f mm/damon/core: add eligible_report() ops callback
-ffb62b2f8de391fff9a5d6bd454971e7ceaa0339 mm/damon/vaddr: implement eligible_report()
-346ad1a260ee5c309c683985fbc9f0ce528999b9 mm/damon/core: read received access reports
-b81dd8bc57a7d2bb3047f00e015728b320d09f66 mm/memory: implement MM_CP_DAMON
-330dedac5008acce743f1c69866b3d60f17c8b27 mm/damon: implement paddr_fault operations set
-d5bf86640cb40b152082cd241c83ee64d073619d mm/damon/sysfs: support paddr_fault
-60d564be0d76fec7ae8001febec437c79d05cbce mm/damon: introduce damon_operations_attrs for operations set control
-9ef51ced1e7e7f2d23561a0a41621eb9a0bab342 mm/damon/core: use reports based on ops_attrs.use_reports
-9e7365213c54fe355d30db683d9e8b3c02c4eb2e mm/damon/paddr: use ops_attrs.use_reports to determine what source to use
-25aebf9f5278c6af35b160cee451051fbe17d84a mm/damon/paddr: remove paddr_fault
-a4b5855ad313a3a3aca234470beae1cf5d683f0e mm/damon/sysfs: implement ops_attrs directory and use_reports file
-d25c513b832cfcfda87cb2a8aba5b2aa0ebe2320 mm/damon/sysfs: connect use_reports to core layer
-484e5a2b0328ff8326ff5f613b237217ab7e08e2 mm/damon: add operations_attrs->write_only
-cbb3ef27cab1fb288d9f5040eef802b7415e562b mm/damon: add damon_access_report->is_write
-1c0720fc327ce07b4ea5e88fb76f6380c3f5a369 mm/memory: set damon_access_report->is_write from do_damon_page()
-05b89c150bf968889f7f0e1317547dc2ee08e337 mm/damon: pass opeartions_attrs to damon_operations->eligible_report
-3046c0cbff78a2b5e0bfc1741f627a0146175c5e mm/damon/paddr: implement write-only handling eligible_report()
-6b20b40b60b09bf4b3b909b82fc92bde0658b686 mm/damon/sysfs: implement write_only file under operations_attrs
-3e30d40ca706329cfeff8bbaa43ad87f90379b71 mm/damon/sysfs: pass write_only to core
-453df833136bc0435acda2dfaa2c7eac79e3610d mm/damon: add damon_access_report->cpuid
-5a018ac713b5e5609f2fc176f4f7686d9df0117f mm/memory: set damon_access_report->cpu
-8e1245550078b4193699b1bfe9f9f0eb57112644 mm/damon: add ops_attrs->cpus
-09d564de1702b57490e22b6a67640c6ffe3043d6 mm/damon/sysfs: support ops_attrs->cpus
-34259132b0ccc79909b4a73c3385db30585e2aa9 mm/damon/paddr: filter reports based on cpus
-4e61fae0915d60bdfd8640ded94ecf99b30f66be mm/damon: add damon_access_report->tid
-221cdd259ad3a039486f4a5dd9055b8a5d1b54e9 mm/memory: report tid of the fault-caused access to DAMON
-c424fa4d7b59cff6a62aa30de41a555f97ca371e mm/damon: extend damon_operations_attrs for per-threads monitoring
-850cc72ca51513a978bd1186138af0cf1c663bc2 mm/damon/paddr: support damon_operations_attrs->tids
-058b595afe9df0feeaa3b5430d9cd96eaea0d291 mm/damon/sysfs: implement ops_attrs->tids file for thread ids
-f13423d557c5f7b26f113229a2eb6280c2f44a6f mm/damon/sysfs: setup ops_attrs->tids
-bec1eb9855a2b6afc971fd460ff0d910d0b1f316 mm/damon/core: deallocate ops_attrs->tids from destroy_ctx()
-cb2f195bc3907448b8a7bcd9092c5dede10cc4ad mm/damon/sysfs: implement tids reading
-cc480ee3fe52f8077b42a49ab376cd9c2d55e527 ==== docs for DAMON and mm ====
-e9ad7b8c0dd9cd3b7032d304e8ce7b945456316a Docs/mm/damon/design: add table of contents for overall and DAMOS
-925032cb0d9c9592467dae951e551e26c2d0f72b Docs/process/2.Process: Update mm tree URL
-f95af1acf1950e7e3bcda9a86b6b08ff84dc5bd7 Docs/mm/damon/design: add API link to damon_ctx
-6f3623cb474b17c1abb3df4530c814187e613a7a ==== ACMA ====
-31faf93f763a000098eb707ce566a09dc9f39db5 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-e5da13033516096482fa1202955b8b9fcfb50dfb mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-1c290b7ff978ca2228cbf7b4bfb152eba57e2fa3 mm/page_reporting: implement a function for reporting specific pfn range
-d1372035eea69c981fbec1036077ecb3076b4795 mm/damon/acma: implement scale down feature
-b93af422835c3238e2cf744839948917739c7787 mm/damon/acma: implement scale up feature
-472adfbfb47071d22b79395c77202ea90cfcb9b4 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-9393cf70f3464c43a9af2955fd156af69e8d7d5d === commits aiming not to be posted ===
-9a6148530596aae32971a796fa350b939e2804fa mm/damon: Add debug code
-da1640ffa1d8d4039fcb579d00eade505bcaf562 mm/damon/core: add debugging log for intervals auto-tuning
-2a253775e0f3b59ce6626249e990899b7ec56be2 mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-eed23a1e4a772ea4f48f066235910e3e8375e263 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-f18940e1584d08c77d4044cb6c69f59e3f313d34 mm/damon/core: add todo for DAMOS interval validation
-2c84119522df4b2d2e70044899c0d6a5b795fb5e mm/damon/core: add debugging-purpose log of tuned esz
-63e48628f52337e5977f1b7654fa6fbad15f24c6 Add debug log for PSI
-25d5dc6fc13655c590e512edf6480e9f86b85e85 mm/damon/core: add debug log for reset_regions()
-8f2b5ff12e070f9adb87b4f9f6f73605d113fc1f ==== lru_sort advancing ====
-c91897c4a751ae9d521ced515726c76f35972172 mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-440ecbc60d8caf14afce16d0ba47d0f23e3958bd mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-1ba9645b545a03911a904fe958d6cb20807c21b1 Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-1835a66095f03d57548feac04c53c93da0b1967f mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-8ed48aa5730808e4f134bff0de97c6085424944d mm/damon/lru_sort: consider age for quota prioritization
-7f602b882ae0cb154d3233005a7410926740115a mm/damon/lru_sort: support young page filters
-9754ef85fef6c7d1e517df6eb4cc0a003a1ad928 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-30a76bf4fdafa76650c3917035d400581ce724aa mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-7a7ffefd0ba46649d50d4356dd087e69c871473f Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-2faab52dff57b468b515d3239cdc7bbf2e2e9f7e mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-1a74d4e578d34cc7d5946f38376b1d045dee1d69 Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-b8e16d7dac6255998d85af5bf15c942fa3d1c4b5 ==== numa_memcg_used_bp DAMOS quota goal metric ====
-5d423dfd6fdca3f971ea95c720a29bd3bca761c5 mm/damon: document damos_quota_goal->nid use case
-f6ebe817141eb1bacd357584c543f5a64bdbdf7d mm/damon: add a new DAMOS quota goal metric for cgroup on node memory usage
-c2a88b14681a0eeffdff287a30e385c70ab82303 mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_USED_BP
-bf10934b95c3390e105926ed3e9f9ad0ea798e35 mm/damon/sysfs-schemes: implement path file under quota goal directory
-1070957e38483d8341ed66480994a15f139d4cc8 mm/damon/sysfs-schemes: connect quota goal path file to DAMON core
-c0f839dffc241e7caad7a11f2967802308ef6cda Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_USED_BP
-7c3e00d8969908f351c283121fad689f2c76c250 Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
-189121d37ee62c6b31a7e09384a893a2c3eb18bf mm/damon: add DAMOS_QUOTA_NODE_MEMCG_FREE_BP quota tuning goal metric
-67130f960ab3f23b82ca0732523e711746625c21 mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-f2165e0df23c05f025914110229b5ec879b84239 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-4ffd67b45a061384535a6c18c19b454fd2d07cbe Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-1230874d1f22e39778ba4369d3bf2ae835aebfac ==== uncategorized ====
-2523879dc77c1531a78ec09c618d5a133d7ff14f mm/damon/core: add an hacking idea concept interface prototype
-750016a4bdd20cf92a033ff32f038f1dbafeca95 mm/damon/core: fix prototype warning of damon_search()
-19821479a724437082464b2eaf732612cdabd8f4 mm/damon: add trace event for intervals score
-ab0665dd36130188bfed00485eddb48bf318dc18 tools/mm: add thp_swap_allocator_test to .gitignore
-dfe4d8e052155ce49bb9c74d7e71b8f1b9e8b782 mm/damon/stat: expose the current tuned aggregation interval
-cb1d6f8e565c1a6ef831e7ff37b4369d5e0e4fe2 mm/damon/stat: expose negative idle time
-9bce5d0cbe65f8d67c4fa2b76a4382d9ddee5408 Docs/mm/damon/maintainer-profile: update community meetup section
-505b0ea925bb725d27c5c5ffdfe70db348cebc40 mm/damon/stat: keep sign for negative idle time
 
---===============8173956846532181366==--
+--===============5597288792736853065==--
