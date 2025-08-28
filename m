@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Thu, 28 Aug 2025 18:41:31 -0000
-Message-Id: <175640649185.1246815.5967579914867114413@gitolite.kernel.org>
+Date: Thu, 28 Aug 2025 18:41:38 -0000
+Message-Id: <175640649806.1247020.17383854644468258787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
 user: linusw
 changes:
-  - ref: refs/heads/b4/ux500-dts-updates
-    old: 873fe24d2cc2ca8aeacc81250607097b9855dd89
+  - ref: refs/heads/ixp4xx-wg302-nfsroot
+    old: 3c96032eb5e673634595b4a62350bcf645f9f386
     new: 0000000000000000000000000000000000000000
