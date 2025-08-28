@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8468918318953277839=="
+Content-Type: multipart/mixed; boundary="===============1615542845399770758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 28 Aug 2025 14:24:36 -0000
-Message-Id: <175639107681.923338.3795468937896442699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 28 Aug 2025 14:24:47 -0000
+Message-Id: <175639108745.923829.5855033036241520730@gitolite.kernel.org>
 
---===============8468918318953277839==
+--===============1615542845399770758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 3ac5653ccd4811555134951ddc11e1d7ec64f35d
-    new: b2bf0d2513a3ae234de8329bbbb5f53d65f3791f
+  - ref: refs/heads/for-6.18
+    old: a12b74d2bd4724ee1883bc97ec93eac8fafc8d3c
+    new: b088b6189a4066b97cef459afd312fd168a76dea
     log: |
-         b2bf0d2513a3ae234de8329bbbb5f53d65f3791f Notes added by 'git notes add'
+         b088b6189a4066b97cef459afd312fd168a76dea ASoC: mediatek: common: Switch to for_each_available_child_of_node_scoped()
          
 
---===============8468918318953277839==
+--===============1615542845399770758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756391125 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1756391075-5ad3538d75aa4b4479c5084d20d9ebe52d18ce61
+pusher Mark Brown <broonie@kernel.org> 1756391134 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1756391085-93ea4cb08437e6bcb135ef3b5a3a2e21705535e8
 
-3ac5653ccd4811555134951ddc11e1d7ec64f35d b2bf0d2513a3ae234de8329bbbb5f53d65f3791f refs/notes/signatures/tar
+a12b74d2bd4724ee1883bc97ec93eac8fafc8d3c b088b6189a4066b97cef459afd312fd168a76dea refs/heads/for-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiwZtUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7VwQAKjwbQ/7QcoQfnf8mG3l
-brIKuZU5YbWfs6XObC6da/LBHcBOtz4Bk02fXjcEQG6hchyv7MpY3EN4iShBEWJL
-EoYN7q18Mo7ZJsVvuQH23r1ErD256p/T+akHzF8+Sov/3gMkMB4PY2dtyFkYGpk0
-E6xsIv5S8EsL+oDPyS/Q2YT0ZNppfIEn+C5lr/g9fg9GnWgHZmDdWBHeYQ/9xDz6
-AJHoYknzoRS4Hu92dBaTuf31QRmO2ZvillhDA9zQ2nzKGwOEpVQeqWSH4TdSKm7Z
-b7ihNGpuyCIpfg1ewZcmYMTG77tGtbFWaaKH2ayXMxnST8MWgBv18hrpQNme2Q/W
-Kb5bgXrCPPHQq+TJeCZ/3acy+SFeXm9gvTvbhV+ytUl6oZNAfv+cuoGZrB0NPN2c
-8PPsW/x0o+qcy+zvs7dMW6RlkIFtM6s3LTBNKhWemoYzvp8VUC/CTmSSKmeKORTe
-zILkc8X1zXJ+gNgQX+qX6/BIQQo1kPEIl9R3LLRbbQAGVG6U0Q2DmelzlItbhWpf
-AtQLPpDV2gpezfzwIkr47pCZqZU1q8IADVaDx5/za1s3m+CjaASeWsfClAlq43tA
-IsfojCGlnBPpFnm41HQakxe+oD2x2fSws17noZeOvUASs/7f0cxZ+++yRAV/SRf/
-c6qmWugkMOzJjn9NqlepBc6a
-=j2xY
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiwZt4THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Dj8CACFO0EGTlkdS/vVOWA7QCid7bzvZNAt
++4bdNPT5jTdYibeUU8sxjRr3YY7DVjaJ8xbY08N000+1xgBm03o2RJYlf3DuMHQm
+NMGrcwa/k+rgwvW13aBHCEdJTKMruh73QseHgMQkrUhoMq4I16Y6O8svzgr3v9Ju
+8qdiHrzAa9/TBRZYORf2BF1H65XF9Dql1xSkMksd+MyaDgc2SnrniYAFRaSe9g/Y
+BgXvxYBSRipcgkkxb1LCkGx3i3xpWKioH4zLwyRjL9vIemUj57aSx88a1wJwot9b
+2fGtdYlsFyX68gS8NrGxrsMcO+V4QZxOfgBJ0IAzEf9X6Ml4YdM82qP8
+=s9+c
 -----END PGP SIGNATURE-----
 
---===============8468918318953277839==--
+--===============1615542845399770758==--
