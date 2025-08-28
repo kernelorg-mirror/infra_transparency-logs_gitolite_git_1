@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 28 Aug 2025 00:17:03 -0000
-Message-Id: <175634022396.147726.17195869798880696919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Thu, 28 Aug 2025 00:18:48 -0000
+Message-Id: <175634032808.148676.12370079810864213879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/main
-    old: 242041164339594ca019481d54b4f68a7aaff64e
-    new: 705609dedea1f61f0a199150994226c83f54c2db
+  - ref: refs/heads/dev-test
+    old: 2174461cdd0a22edc5e7d172605bff4740582438
+    new: e62d3f82993f0c9ac48bd854e1c572ea5daadca6
     log: |
-         f63f21e82ecafd288b100ea161247820bf1e92c4 net: phy: realtek: support for TRIGGER_NETDEV_LINK on RTL8211E and RTL8211F
-         705609dedea1f61f0a199150994226c83f54c2db net: stmmac: rk: remove incorrect _DLY_DISABLE bit definition
+         e62d3f82993f0c9ac48bd854e1c572ea5daadca6 resize.f2fs: print resize size
          
