@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3129764448076638257=="
+Content-Type: multipart/mixed; boundary="===============5334441971178669787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 28 Aug 2025 04:37:31 -0000
-Message-Id: <175635585110.371581.5034783578232504235@gitolite.kernel.org>
+Date: Thu, 28 Aug 2025 04:37:46 -0000
+Message-Id: <175635586667.371828.12799859884228044851@gitolite.kernel.org>
 
---===============3129764448076638257==
+--===============5334441971178669787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/for-next
     old: a5a6378740f805c6ffd790b5279c5082295aa220
     new: 692173de3032b22792d21070238a986163fc29ec
     log: revlist-a5a6378740f8-692173de3032.txt
 
---===============3129764448076638257==
+--===============5334441971178669787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -275,4 +275,4 @@ c330cb607721bae34c404604e2867be53e6c6949 Merge tag 'i2c-for-6.17-rc3' of git://g
 1e50201d3911507744adf5dafd6e25dbffee3692 dt-bindings: ata: highbank: Minor whitespace cleanup in example
 692173de3032b22792d21070238a986163fc29ec dt-bindings: ata: imx: Document 'target-supply'
 
---===============3129764448076638257==--
+--===============5334441971178669787==--
