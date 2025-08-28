@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Thu, 28 Aug 2025 07:51:53 -0000
-Message-Id: <175636751349.533530.9142383137274242946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Thu, 28 Aug 2025 08:10:09 -0000
+Message-Id: <175636860936.549115.7991691486396333972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/tags/0.10.12
+  - ref: refs/tags/dma-mapping-6.17-2025-08-28
     old: 0000000000000000000000000000000000000000
-    new: 5449abb1e3b38fc3f094cdbc05ad71431e6be4cf
+    new: 9151b0dacd75b2720b7eb5ac064338768ba76cf2
