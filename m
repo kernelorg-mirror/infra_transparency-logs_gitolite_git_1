@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 28 Aug 2025 06:16:34 -0000
-Message-Id: <175636179414.454745.15449909502037039202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 28 Aug 2025 06:39:37 -0000
+Message-Id: <175636317767.472856.7947531068104101950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/experimental
-    old: f621b081a3665042ef0950073a504fbc589cac99
-    new: ad91092b66e7fe06b8eb678634cb4c5fabb8b8f5
+  - ref: refs/heads/urgent
+    old: 134ed1093907a79e5d98087513f13fd7652c4df9
+    new: a6358f8cf64850f3f27857b8ed8c1b08cfc4685c
     log: |
-         38eb8b3028b29e7b83217ba5b507343320523100 erofs-utils: mount: add NBD backend support
-         ad91092b66e7fe06b8eb678634cb4c5fabb8b8f5 erofs-utils: add OCI registry support
+         a6358f8cf64850f3f27857b8ed8c1b08cfc4685c efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare
          
