@@ -1,46 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5269802193941145188=="
+Content-Type: multipart/mixed; boundary="===============5329994559389864970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/patchwork/lei-queries
-Date: Thu, 28 Aug 2025 19:20:06 -0000
-Message-Id: <175640880646.1284103.14036543271581989788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/infra/patchwork/procmail
+Date: Thu, 28 Aug 2025 19:21:40 -0000
+Message-Id: <175640890042.1285006.8046520165520300983@gitolite.kernel.org>
 
---===============5269802193941145188==
+--===============5329994559389864970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/patchwork/lei-queries
+repo: pub/scm/infra/patchwork/procmail
 user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 66569b5fec4a5b0b24ecf88b1e07f182324aef20
-    new: 0d46678905c59dfef9c88961f2084a0b89c5a4ea
-    log: |
-         0d46678905c59dfef9c88961f2084a0b89c5a4ea Add riscv-thead
-         
+    old: 0000000000000000000000000000000000000000
+    new: bf3d8d794b8a70fb08b3a039989a45fd28250630
 
---===============5269802193941145188==
+--===============5329994559389864970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1756408854 -0400
-pushee gitolite.kernel.org:pub/scm/infra/patchwork/lei-queries
-nonce 1756408805-8a1c66bf8e81a4354b926128f51b6fc6b8ec8d2c
+pusher B6C41CE35664996C! 1756408948 -0400
+pushee gitolite.kernel.org:pub/scm/infra/patchwork/procmail
+nonce 1756408899-33972547fb1a1a4559e4f576c4f2536d0ec74401
 
-66569b5fec4a5b0b24ecf88b1e07f182324aef20 0d46678905c59dfef9c88961f2084a0b89c5a4ea refs/heads/master
+0000000000000000000000000000000000000000 bf3d8d794b8a70fb08b3a039989a45fd28250630 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaLCsFgAKCRC2xBzjVmSZ
-bOOFAQD1Jpru2OlQ/zjFnYupqRmJTrSNv2zHP1RtDSHEZ1eTagD/f7wUBpscKYlN
-oHsYlzzpzQ2UEk0aYd0UZo3O0henJwE=
-=SvCh
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaLCsdAAKCRC2xBzjVmSZ
+bKOLAQDGePxQXVgTOyhT8K2L3gqO3qBMn9kc9yR3dWqTcZJoVQD+KwsXDQKI3uQ8
+0CXD334f9BgxKw/CZV0cAu1ihC7sygQ=
+=Zpjx
 -----END PGP SIGNATURE-----
 
---===============5269802193941145188==--
+--===============5329994559389864970==--
