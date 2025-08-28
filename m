@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 28 Aug 2025 19:42:23 -0000
-Message-Id: <175641014367.1302084.14528917960448195273@gitolite.kernel.org>
+Date: Thu, 28 Aug 2025 19:42:36 -0000
+Message-Id: <175641015626.1302379.5195552585623620150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: b088b6189a4066b97cef459afd312fd168a76dea
-    new: 5b4dcaf851df8c414bfc2ac3bf9c65fc942f3be4
+  - ref: refs/heads/regmap-6.18
+    old: 5c36b86d2bf68fbcad16169983ef7ee8c537db59
+    new: f4672dc6e9c07643c8c755856ba8e9eb9ca95d0c
     log: |
-         5b4dcaf851df8c414bfc2ac3bf9c65fc942f3be4 ASoC: amd: acp: Remove (explicitly) unused header
+         f4672dc6e9c07643c8c755856ba8e9eb9ca95d0c regmap: use int type to store negative error codes
          
