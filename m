@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 28 Aug 2025 05:49:43 -0000
-Message-Id: <175636018390.432226.4275570337867672331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 28 Aug 2025 06:16:34 -0000
+Message-Id: <175636179414.454745.15449909502037039202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 4fdbde2d3ca2434b551610747f1e48f1b7fc84e0
-    new: 112c3add2506563824c7fb7cd8807e4df5e138d5
+  - ref: refs/heads/experimental
+    old: f621b081a3665042ef0950073a504fbc589cac99
+    new: ad91092b66e7fe06b8eb678634cb4c5fabb8b8f5
     log: |
-         b722bc235d3c975626ff50f29f8ea7c1407ddf94 foo
-         6ac9c19bde5d0c47fb4136c6d6b746010615ea06 foo
-         677b16d38b8493eea34f56b410ef58019db8dc49 foo
-         da0cac38ea4e122c89d778091d8a30e5d437f207 foo
-         112c3add2506563824c7fb7cd8807e4df5e138d5 foo
+         38eb8b3028b29e7b83217ba5b507343320523100 erofs-utils: mount: add NBD backend support
+         ad91092b66e7fe06b8eb678634cb4c5fabb8b8f5 erofs-utils: add OCI registry support
          
