@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 28 Aug 2025 17:15:29 -0000
-Message-Id: <175640132996.1175776.5027576797548204431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 28 Aug 2025 17:27:53 -0000
+Message-Id: <175640207339.1185033.13166565359579091480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 232dd7bf914199bf6f16be12a0ca44821a8c380d
-    new: d16835fca786484f748cc3e45645e8fda5b3ca09
+  - ref: refs/heads/controller/stm32
+    old: 3cf6b1bf4d250c15ebe537d55b5e09a902c41971
+    new: dc4946029c1ca752aa2262c0aab07e1c59cd4d0d
     log: |
-         89e92bc3f1ed1d1af158453737d064b35b18781f patches/posted: add lpae support v3
-         ecbaabe6d50d7b9386643350af929634e11d96d5 patches/posted: update msgids for lpae support v3
-         d16835fca786484f748cc3e45645e8fda5b3ca09 patches/next: update lpae support v3 to posted version
+         c04b97b4a2f520c92344ad7744447cfa1b3a486c PCI: stm32: Add PCIe Endpoint support for STM32MP25
+         dc4946029c1ca752aa2262c0aab07e1c59cd4d0d MAINTAINERS: Add entry for ST STM32MP25 PCIe drivers
          
