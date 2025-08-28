@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7010832261647222698=="
+Content-Type: multipart/mixed; boundary="===============2670079235548845009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 28 Aug 2025 20:58:56 -0000
-Message-Id: <175641473676.1370476.14952770788579364925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 28 Aug 2025 20:59:03 -0000
+Message-Id: <175641474391.1370675.14402921481565696168@gitolite.kernel.org>
 
---===============7010832261647222698==
+--===============2670079235548845009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 8022629548949eb4d2e2207b893bfb6d486700cb
     new: 3e7fd1febc3156d3d98fba229399a13b12d69707
     log: |
          3e7fd1febc3156d3d98fba229399a13b12d69707 ASoC: SOF: Intel: WCL: Add the sdw_process_wakeen op
          
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 5b4dcaf851df8c414bfc2ac3bf9c65fc942f3be4
     new: 59f5c92140de48a9ae68db4990c8a53a9ac2492c
     log: revlist-5b4dcaf851df-59f5c92140de.txt
 
---===============7010832261647222698==
+--===============2670079235548845009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1756414783 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1756414734-07bad9f7ebb33908979975a6dbe5b17e5858edec
+pusher Mark Brown <broonie@kernel.org> 1756414790 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1756414740-121b7e091c60890cb6984bbbc4a1c6cb3b1d3bda
 
-8022629548949eb4d2e2207b893bfb6d486700cb 3e7fd1febc3156d3d98fba229399a13b12d69707 refs/heads/for-6.17
-5b4dcaf851df8c414bfc2ac3bf9c65fc942f3be4 59f5c92140de48a9ae68db4990c8a53a9ac2492c refs/heads/for-6.18
+8022629548949eb4d2e2207b893bfb6d486700cb 3e7fd1febc3156d3d98fba229399a13b12d69707 refs/heads/asoc-6.17
+5b4dcaf851df8c414bfc2ac3bf9c65fc942f3be4 59f5c92140de48a9ae68db4990c8a53a9ac2492c refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiwwz8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0BEZB/9wH9NPRSXz8EJ+Co24bvLDp/iJYFiY
-2gS5l3mrvv5G2LiExbmoVj8w5ziEczIaDVwV2WbZ4ydjU5x00ReRU3Bzxjybo5Ld
-y6RvGrIPhpnE6wL8yT2QHL0vrUROU10pLkSEUuBfNMG6Ob9suaMJk45A5SvgMxVz
-jvxmu/n/iOx+euaukdrmQirvTvo0MfCdncPFv293UsWHSPRl+fLVNjKFuzk6woNt
-KVw89N7EmoGF8A4aIvC6riIC+pAJrJxV4PerJPGKNajYZQBw1+H6Hzoqh0bUmrrn
-jF/nyzRMLBMRm29AyklpynJgCjQpivoCvdfZ7QKLOnpJjF6REc/2dDSe
-=bh+j
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiww0cTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0AcvB/9AKZJFRKAiZDbIhWlu2qyu+8LSJRiA
+MQpsYJd1BUjwSAhJuCtV80YgBnelVO6TqWyT79EkbXySTVyy1BSnxnWWqYDYngQc
+n+B+NZ0rzV8b8Zv7Al8Ca5MpVlk4a1HgNKFNVvm1RuDhMxqzHDneqsN2Z7mMwybh
+eR5O93+Zg+YDuQtD0Gihl4DhMyaEf6qWVj/CNq+XKD8M/2+11M+o/xxK9h+GPYot
+71lYwE3QCGl18n3r+paoVz2tKLZfLJbNDx+RUc8zFAmBZF6g0bPkqLtVTEOssn5a
+YzSQADOm26XjgptRJMNQ+/apzdI9z0j138c+nAMoZsr8+NKgntO6Pomv
+=bKYT
 -----END PGP SIGNATURE-----
 
---===============7010832261647222698==
+--===============2670079235548845009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -521,4 +521,4 @@ f43095de82b04a11f7239fdf9e724d907ea3dc3b ASoC: renesas: msiof: Make small adjust
 44e51457861edd47bea0f43fab4ed952fdd901f1 ASoC: use int type to store negative error codes
 59f5c92140de48a9ae68db4990c8a53a9ac2492c ASoC: Intel: avs: Refactor machine-board registration
 
---===============7010832261647222698==--
+--===============2670079235548845009==--
