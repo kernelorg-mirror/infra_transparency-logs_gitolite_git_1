@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0968169114115509827=="
+Content-Type: multipart/mixed; boundary="===============3965033396954055277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 28 Aug 2025 21:55:48 -0000
-Message-Id: <175641814887.1424585.5993807568958792444@gitolite.kernel.org>
+Date: Thu, 28 Aug 2025 21:55:51 -0000
+Message-Id: <175641815135.1424761.18056140580826482737@gitolite.kernel.org>
 
---===============0968169114115509827==
+--===============3965033396954055277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 3c14917953a51a22f4fa7e13dfc13a4ec09bf348
     new: 14cd01c28fb1e77d9bb55bd43fd8df6d584e284a
     log: revlist-3c14917953a5-14cd01c28fb1.txt
 
---===============0968169114115509827==
+--===============3965033396954055277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -95,4 +95,4 @@ cf79bd4495112d93474ce9fda4564011b982dfe8 fbnic: Move promisc_sync out of netdev 
 cee8d21d8091efb83760b7ad8208b4750800c521 fbnic: Push local unicast MAC addresses to FW to populate TCAMs
 14cd01c28fb1e77d9bb55bd43fd8df6d584e284a Merge branch 'fbnic-synchronize-address-handling-with-bmc'
 
---===============0968169114115509827==--
+--===============3965033396954055277==--
