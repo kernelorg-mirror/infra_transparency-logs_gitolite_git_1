@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/david/linux
-Date: Thu, 28 Aug 2025 20:05:36 -0000
-Message-Id: <175641153648.1325957.9020196039552876044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 28 Aug 2025 20:17:11 -0000
+Message-Id: <175641223171.1334666.11148851373242085021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/david/linux
-user: david
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/guestmemfd-preview
-    old: f4058b84915aa41cca0cf3cfeb5a948000bbcce9
-    new: 3d23d4a2704e170f8a01776c9dacdb3f7c766442
+  - ref: refs/heads/fixes
+    old: 57834ce5a6a47df282c8419019ba5495eac58fb9
+    new: ce971233242b5391d99442271f3ca096fb49818d
     log: |
-         9c7701872f36c127492dde19b90931cdfa5b6e06 KVM: guest_memfd: add generic population via write
-         3d23d4a2704e170f8a01776c9dacdb3f7c766442 KVM: selftests: update guest_memfd write tests
+         85941afd2c404247e583c827fae0a45da1c1d92c s390/pai: Deny all events not handled by this PMU
+         ce971233242b5391d99442271f3ca096fb49818d s390/cpum_cf: Deny all sampling events by counter PMU
          
