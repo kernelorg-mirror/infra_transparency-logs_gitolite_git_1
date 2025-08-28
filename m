@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9093637279443676856=="
+Content-Type: multipart/mixed; boundary="===============6267526122471244958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Thu, 28 Aug 2025 15:53:13 -0000
-Message-Id: <175639639315.1103131.131849923456744450@gitolite.kernel.org>
+Date: Thu, 28 Aug 2025 15:54:16 -0000
+Message-Id: <175639645600.1104360.2543651739860013110@gitolite.kernel.org>
 
---===============9093637279443676856==
+--===============6267526122471244958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 155a3c003e555a7300d156a5252c004c392ec6b0
+  - ref: refs/heads/for-next
+    old: 2654c90ce176d89d45bfefb5268fd35aeb271dd7
     new: 07d9df80082b8d1f37e05658371b087cb6738770
-    log: revlist-155a3c003e55-07d9df80082b.txt
+    log: revlist-2654c90ce176-07d9df80082b.txt
 
---===============9093637279443676856==
+--===============6267526122471244958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-155a3c003e55-07d9df80082b.txt
+Content-Disposition: attachment; filename=revlist-2654c90ce176-07d9df80082b.txt
 
 dee3ab621f2bab8e58e343bee0302d66c9b035ef mm/damon/vaddr: skip isolating folios already in destination nid
 f225b34f1e6c81c50e48f6207ddb6d290be1b932 mm/mseal: always define VM_SEALED
@@ -1051,4 +1051,4 @@ ced17ee32a9988b8a260628e7c31a100d7dc082e Revert "virtio: reject shm region if le
 39f90c1967215375f7d87b81d14b0f3ed6b40c29 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 07d9df80082b8d1f37e05658371b087cb6738770 Merge tag 'perf-tools-fixes-for-v6.17-2025-08-27' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============9093637279443676856==--
+--===============6267526122471244958==--
