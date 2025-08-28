@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5002873763908988896=="
+Content-Type: multipart/mixed; boundary="===============5262425974314908976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Thu, 28 Aug 2025 05:05:24 -0000
-Message-Id: <175635752471.395567.17660393752632675113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Thu, 28 Aug 2025 05:21:17 -0000
+Message-Id: <175635847723.408654.17800400664628388150@gitolite.kernel.org>
 
---===============5002873763908988896==
+--===============5262425974314908976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: egrumbach
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: eb887bdf18f674dca4273ea7c9cefdf17e42b404
-    new: 2b21a2ffd5d5ef15e13898c92800c1d2720f062b
-    log: revlist-eb887bdf18f6-2b21a2ffd5d5.txt
+  - ref: refs/tags/powerpc-6.17-3
+    old: 0000000000000000000000000000000000000000
+    new: 5c0f0812064cf6510dd0d8303bee4cfa3af263c9
 
---===============5002873763908988896==
+--===============5262425974314908976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb887bdf18f6-2b21a2ffd5d5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-14c2d15970304da94aa68742e0dda4a92b5ef49d wifi: iwlwifi: add kunit tests for nvm parse
-e8049468507affdf1e2b80c77501d62872c14341 wifi: iwlwifi: fw: Add ASUS to PPAG and TAS list
-02b3a6fd31045d43cc11e54dbca65743bfd1af22 wifi: iwlwifi: mld: don't check the version of RX_NO_DATA_NOTIF
-8b028a444c682bf9b1c9a11c8a992e1027e3aeba wifi: iwlwifi: implement wowlan status notification API update
-2a84778f72568026e18812b2a96b4ef5b035073b wifi: iwlwifi: mld: don't consider phy cmd version 5
-b913f75bc047694e01fc49b261d7e43c4159386e wifi: iwlwifi: mld: remove support of mac cmd ver 2
-377e17906870ab4365c930e898d32df0db5d0949 wifi: iwlwifi: mld: remove support of roc cmd version 5
-266c64bae19331d64b4dec005db2a0d31e431579 wifi: iwlwifi: mld: remove support from of sta cmd version 1
-8a6bccfe0f78ca90f081978af072519cf5891680 wifi: iwlwifi: mld: remove support of iwl_esr_mode_notif version 1
-844ccd3c73931ac84faa2ad890cd4fd092bfa567 wifi: iwlwifi: mld: CHANNEL_SURVEY_NOTIF is always supported
-72e3dcb8c28ea07e66c110b24bb743547b795cc8 wifi: iwlwifi: align the name of iwl_alive_ntf_v6 to the converntion
-895bfdcbc9595ff6b4cbbb7837b28285079d3ce9 wifi: iwlwifi: mld: remove support from of alive notif version 6
-13be09f21f2d60f185d10c68b72c182a23f1c741 [BUGFIX] wifi: iwlwifi: mld: add back monitor PTP adjustment
-7dc616a443076f3f0250b1157ae3d4a729f2bd81 backports: update cleanup.h
-9232dd922218888749ad8c113508f575981f9eb6 [BUGFIX] wifi: iwlwifi: mld: reschedule check_tpt_wk also not in EMLSR
-8a02592f63e6421805dc35ccd901abf493ba70a3 wifi: iwlwifi: mvm: move rate conversions to utils.c
-d22f08e38fb1ea1179d5a0a79ea8d106471be936 wifi: iwlwifi: iwlmld is always used for wifi7 devices
-8e63f528ea112e18d6a0f5942e4d0fcd07ef7837 [NOUPSTREAM] wifi: iwlwifi: define the new command for xVT
-6ce4f78f215647e433eb1d16fabbc2b3a602daba wifi: iwlwifi: cfg: add new device names
-2b21a2ffd5d5ef15e13898c92800c1d2720f062b [BUGFIX] wifi: iwlwifi: fix byte count table for old devices
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1756358524 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1756358474-d6c08006f74dbc0ea6c84bd1f34043c1cc5aa831
 
---===============5002873763908988896==--
+0000000000000000000000000000000000000000 5c0f0812064cf6510dd0d8303bee4cfa3af263c9 refs/tags/powerpc-6.17-3
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmiv53wACgkQpnEsdPSH
+ZJTReRAArIqPrch0WahCT4ojkr7aEcE5hm/SBo+kJVhdG+6/cHjsKaKH8EjSmsKH
+oqoFeB3vpOmQaVeHIPKtQkSU50YEgAqY+QQgXcb+zdnbOcwRJysjZo/y6eURd5Pt
+P7ZHINpgI6CIexupgP8jkLBiFKd18ddVgIdP7pXrCS44O9sKL5okJSksI4dh8DJe
+OQGlO/THuNinQZynKUPpiHAojsH/xj9f0gEFLiFwpSx/3zMG84VSVW648o7sLI7T
+Jo1VrnBdrh7h84ydJ0UnDDNMZtfMhcNa7reZJQzrWG5JbcTqrLpB8Z+7pFe8mlS0
+v06F8BSdnaF61b1MVgfcHkiEpeEfnRnO7hIqPv0Q5yAoybRys+0SyNCQGfdnnM06
+wo25cNsEXgnQgF0LxZlnQevZR3voNSPshpAseYHK/IXQuBPAtAAQu/Aq7KxZeUbk
+ilGVJ5TYnXoTmDCXj6d00UFzTb+k3LFxpueA3DlxFtYTv0xsv9xWqISwRBHcAmbp
+i8IB3nS5qWL03s6o2+5K8LEbs6WlTOuxxBuyhwP9jIlakOkZGZ3PE01fsZipcpYM
+BLRpoVcOF/YoPwqDei3XCQth5ie9eqMDyHIGrbzNS2G6hrx6HeKE91xHYI8sX0Gn
+f4HElvIQX2uH4H80NooQgWQBwnxnkg/OGnuFR7zczZ8e8tpqews=
+=URQv
+-----END PGP SIGNATURE-----
+
+--===============5262425974314908976==--
