@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 28 Aug 2025 10:01:23 -0000
-Message-Id: <175637528318.693250.14143381034645261064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/david/linux
+Date: Thu, 28 Aug 2025 10:23:48 -0000
+Message-Id: <175637662801.710454.9935580588019961673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/david/linux
+user: david
 changes:
-  - ref: refs/heads/experimental
-    old: 49e7d9d31861ed3f2d12fb58cbea828cf70b07e1
-    new: 5b25a874317d7e61ac8e1efcb26fdcb078fe7314
-    log: |
-         5b25a874317d7e61ac8e1efcb26fdcb078fe7314 erofs-utils: add OCI registry support
-         
+  - ref: refs/heads/guestmemfd-preview
+    old: 0000000000000000000000000000000000000000
+    new: 5d3585ed7f457d9ea50bbf9fef809ff4828bfff9
