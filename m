@@ -1,56 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============6689958527219931495=="
+Content-Type: multipart/mixed; boundary="===============2570413475014399590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 28 Aug 2025 14:44:42 -0000
-Message-Id: <175639228207.1044821.10060403917169181631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 28 Aug 2025 14:49:18 -0000
+Message-Id: <175639255849.1048098.6966629173825778644@gitolite.kernel.org>
 
---===============6689958527219931495==
+--===============2570413475014399590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 465dd7e4bdc6636bc1d159d9f0d1103b913bc85c
-    new: 7551c2cc18222ada29e4dc895496bde04a950a83
+  - ref: refs/heads/block-6.17
+    old: e3ef9445cd9d90e43de0bd3cd55d437773dfd139
+    new: 9b2785ea8592f239836405de023c75c4f3f5ce00
     log: |
-         7551c2cc18222ada29e4dc895496bde04a950a83 updates based on new stable releases.
+         c5c5eb24ed6177fc0ef4bb75fc18d07a99c1d3f0 ublk: avoid ublk_io_release() called after ublk char dev is closed
+         9b2785ea8592f239836405de023c75c4f3f5ce00 ublk selftests: add --no_ublk_fixed_fd for not using registered ublk char device
          
+  - ref: refs/heads/for-next
+    old: 5b8ba15fe37dd0737219b520056576b1888961c9
+    new: 4c17b776665c00a399d6a203c17c72dad30e6ce1
+    log: revlist-5b8ba15fe37d-4c17b776665c.txt
+  - ref: refs/heads/io_uring-6.17
+    old: 101af2d840db22239d6b7ac624f388661d09539a
+    new: 98b6fa62c84f2e129161e976a5b9b3cb4ccd117b
+    log: |
+         98b6fa62c84f2e129161e976a5b9b3cb4ccd117b io_uring/kbuf: always use READ_ONCE() to read ring provided buffer lengths
+         
+  - ref: refs/heads/master
+    old: 39f90c1967215375f7d87b81d14b0f3ed6b40c29
+    new: 07d9df80082b8d1f37e05658371b087cb6738770
+    log: revlist-39f90c196721-07d9df80082b.txt
 
---===============6689958527219931495==
+--===============2570413475014399590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5b8ba15fe37d-4c17b776665c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756392328 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1756392279-eec2364cc38a8aebb16670f1cd84ff16b0303003
+22ec0faa0eda30acdd6dcb3c29c872629da677bb perf test: Fix a build error in x86 topdown test
+bd842ff41543af424c2473dc16c678ac8ba2b43f tools headers: Sync KVM headers with the kernel source
+6cb8607934d937f4ad24ec9ad26aeb669e266937 tools headers: Sync linux/bits.h with the kernel source
+aa34642f6fc36a436de5ae5b30d414578b3622f5 tools headers: Sync linux/cfi_types.h with the kernel source
+619f55c859014e2235f83ba6cde8c59edc492f39 tools headers: Sync x86 headers with the kernel source
+14ec8ce45611c767656e4fa575f17b05344aa80a tools headers: Sync arm64 headers with the kernel source
+c85538c4e3c7111958057d15ea8ee444116891c3 tools headers: Sync powerpc headers with the kernel source
+52174e0eb13876654f56701c26a672890aa5e7e3 tools headers: Sync syscall tables with the kernel source
+b18aabe283a10774977d698c075d2296a2336aef tools headers: Sync uapi/linux/fcntl.h with the kernel source
+4a4083af03a7a75a86c392fd60cb37ce23ed87b6 tools headers: Sync uapi/linux/fs.h with the kernel source
+e7e79e99726190a5a83d158576cd448896d68102 tools headers: Sync uapi/linux/prctl.h with the kernel source
+f79a62f4b3c750759e60a402e8fe5180fc5771f0 tools headers: Sync uapi/linux/vhost.h with the kernel source
+ba0b7081f7a521d7c28b527a4f18666a148471e7 perf symbol-minimal: Fix ehdr reading in filename__read_build_id
+2c369d91d0933aaff96b6b807b22363e6a38a625 perf symbol: Add blocking argument to filename__read_build_id
+07d9df80082b8d1f37e05658371b087cb6738770 Merge tag 'perf-tools-fixes-for-v6.17-2025-08-27' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+98b6fa62c84f2e129161e976a5b9b3cb4ccd117b io_uring/kbuf: always use READ_ONCE() to read ring provided buffer lengths
+db86b364fc7c728a223520833a6b15035780f110 Merge branch 'block-6.17' into for-next
+c399f048ca4e45298b2f36bfe3883bedd4935929 Merge branch 'io_uring-6.17' into for-next
+587bbb986b630533e6ad8672c38525ea1186a2f0 Merge branch 'for-6.18/io_uring' into for-next
+c52873bd5a6b4a974d3e67d177cfaad5d4108606 Merge branch 'for-6.18/block' into for-next
+c5c5eb24ed6177fc0ef4bb75fc18d07a99c1d3f0 ublk: avoid ublk_io_release() called after ublk char dev is closed
+9b2785ea8592f239836405de023c75c4f3f5ce00 ublk selftests: add --no_ublk_fixed_fd for not using registered ublk char device
+4c17b776665c00a399d6a203c17c72dad30e6ce1 Merge branch 'block-6.17' into for-next
 
-465dd7e4bdc6636bc1d159d9f0d1103b913bc85c 7551c2cc18222ada29e4dc895496bde04a950a83 refs/heads/master
------BEGIN PGP SIGNATURE-----
+--===============2570413475014399590==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-39f90c196721-07d9df80082b.txt
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiwa4gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vKsP/3CyHvECK1T6SplRqEc8
-lW6Guu46f688hqhovbJN/mAU8pQmDN4E4UH7uc2WcoYTwLO4znTRxwSFXeKt2+6p
-8aOOIhXy3mGA01xafOB/PSHW6yUAVBtPG5ph3rqpcpX6xTzlnzqvtXxrAboSsV0l
-TQQmM0XR+QQftKEZ8W6mJps5FD1OKYcULpIXAHNyud9s+OJJMS1pRPTLYOShCk9i
-SCnV0S52iNMNa3/YH1c0ucTnZDa0AEMItBmzWSCsrDEpDhS+fpKTdfkFS0TwLyC9
-HYmksKGlVaPX02ds9VniMg0fxi4mwizGTp3+/g3L5AVq2RSzvFiMj4hRxEic0Xx8
-tP+RVNLye+c5Unq+Fz2zRraFml00pYxLPpuKHctYpdVg2eqX54VgJ9X2nuER041/
-2whnmR/G78srPG0C+ffpAwiAYIeki0I9Ux8Anl7d5gVzF9lavBAxMqcVWT/aZ47D
-Z08q6OJmMxl03ytpCntER6uhrjZ47B8cIZYHmS816uJstyoMAywHZKSfPRfIxiL5
-g+OhFA9aL9iIQRW6UgprlSufQ+YomBmebkyMd10jQhfhSOhRsv6TeohBDv7CkDR4
-ZBHutVZ9MREaSklNl5ktcdzQTnTv/amiWdQ5X2xPXAqtdnLk4rlYvDFofaQUWg5B
-nXTMvp6U4P2epslRrO1jIYRL
-=9Vay
------END PGP SIGNATURE-----
+22ec0faa0eda30acdd6dcb3c29c872629da677bb perf test: Fix a build error in x86 topdown test
+bd842ff41543af424c2473dc16c678ac8ba2b43f tools headers: Sync KVM headers with the kernel source
+6cb8607934d937f4ad24ec9ad26aeb669e266937 tools headers: Sync linux/bits.h with the kernel source
+aa34642f6fc36a436de5ae5b30d414578b3622f5 tools headers: Sync linux/cfi_types.h with the kernel source
+619f55c859014e2235f83ba6cde8c59edc492f39 tools headers: Sync x86 headers with the kernel source
+14ec8ce45611c767656e4fa575f17b05344aa80a tools headers: Sync arm64 headers with the kernel source
+c85538c4e3c7111958057d15ea8ee444116891c3 tools headers: Sync powerpc headers with the kernel source
+52174e0eb13876654f56701c26a672890aa5e7e3 tools headers: Sync syscall tables with the kernel source
+b18aabe283a10774977d698c075d2296a2336aef tools headers: Sync uapi/linux/fcntl.h with the kernel source
+4a4083af03a7a75a86c392fd60cb37ce23ed87b6 tools headers: Sync uapi/linux/fs.h with the kernel source
+e7e79e99726190a5a83d158576cd448896d68102 tools headers: Sync uapi/linux/prctl.h with the kernel source
+f79a62f4b3c750759e60a402e8fe5180fc5771f0 tools headers: Sync uapi/linux/vhost.h with the kernel source
+ba0b7081f7a521d7c28b527a4f18666a148471e7 perf symbol-minimal: Fix ehdr reading in filename__read_build_id
+2c369d91d0933aaff96b6b807b22363e6a38a625 perf symbol: Add blocking argument to filename__read_build_id
+07d9df80082b8d1f37e05658371b087cb6738770 Merge tag 'perf-tools-fixes-for-v6.17-2025-08-27' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============6689958527219931495==--
+--===============2570413475014399590==--
