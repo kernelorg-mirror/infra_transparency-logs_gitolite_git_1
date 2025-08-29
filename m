@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8570210311787247647=="
+Content-Type: multipart/mixed; boundary="===============6714237873320361756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 29 Aug 2025 16:30:26 -0000
-Message-Id: <175648502621.2414184.45619651617653034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 29 Aug 2025 16:37:15 -0000
+Message-Id: <175648543546.2419096.2427616438294070050@gitolite.kernel.org>
 
---===============8570210311787247647==
+--===============6714237873320361756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: 07d9df80082b8d1f37e05658371b087cb6738770
     new: fb679c832b6497f19fffb8274c419783909c0912
     log: revlist-07d9df80082b-fb679c832b64.txt
 
---===============8570210311787247647==
+--===============6714237873320361756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -224,4 +224,4 @@ ec1abfc8333110b9e645cd59eb3bc0541fd5bd2c Merge tag 'regulator-fix-v6.17-rc3' of 
 2575e638e2d9c70971e5232398ca22afa6f06293 Merge tag 'v6.17-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 fb679c832b6497f19fffb8274c419783909c0912 Merge tag 'efi-fixes-for-v6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 
---===============8570210311787247647==--
+--===============6714237873320361756==--
