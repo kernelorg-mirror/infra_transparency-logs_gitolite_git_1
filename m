@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 29 Aug 2025 00:51:03 -0000
-Message-Id: <175642866349.1571103.2264885976079450249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 29 Aug 2025 01:49:14 -0000
+Message-Id: <175643215441.1622840.10443642226910527860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 96e4dce4d385389148f257f7e1b0bf1c8d7275f9
-    new: 652e41573e5b3da72b8dae247da6aa363af87227
+  - ref: refs/heads/for-6.18/block
+    old: d4399e6eb27a803b73d17fe984448a823b4d3a30
+    new: 4c7ef92f6d4d08a27d676e4c348f4e2922cab3ed
     log: |
-         c6e474fe93a4a27e6d4fa3c2aad23147181f566f foo
-         4db11b14f32b5c11626317fba77f690ccd87704e foo
-         652e41573e5b3da72b8dae247da6aa363af87227 foo
+         4c7ef92f6d4d08a27d676e4c348f4e2922cab3ed blk-mq: check kobject state_in_sysfs before deleting in blk_mq_unregister_hctx
+         
+  - ref: refs/heads/for-next
+    old: fb2e20e4d7d4901faa89eb5aae0a76b905d2ea99
+    new: 6385ff29ea48e49f4f34c908bf042984af4ec820
+    log: |
+         4c7ef92f6d4d08a27d676e4c348f4e2922cab3ed blk-mq: check kobject state_in_sysfs before deleting in blk_mq_unregister_hctx
+         6385ff29ea48e49f4f34c908bf042984af4ec820 Merge branch 'for-6.18/block' into for-next
          
