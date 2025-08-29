@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 29 Aug 2025 17:14:17 -0000
-Message-Id: <175648765707.2452097.847068591381750425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 29 Aug 2025 17:15:22 -0000
+Message-Id: <175648772290.2455738.14787278436525590468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 64596902d2db6f99eabdfea7b18c36125e343bb1
-    new: 993ff19b553cd4d252fdf99f07c28825ef57b862
+  - ref: refs/heads/master
+    old: 27861fc720be2c39b861d8bdfb68287f54de6855
+    new: 5aa00f0e9589b20b7306961cc0e4185497704683
     log: |
-         dbe75f7ca712f8e938bb782bd1dcf67bd71750d8 Fix link entry for qat_895xcc.bin
-         993ff19b553cd4d252fdf99f07c28825ef57b862 Merge branch 'main' into 'main'
+         51ae4ca30f11637620fecfc5b2d27bd67f83d9dd bpf: Fix out-of-bounds dynptr write in bpf_crypto_crypt
+         5aa00f0e9589b20b7306961cc0e4185497704683 selftests/bpf: Extend crypto_sanity selftest with invalid dst buffer
          
