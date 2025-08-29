@@ -1,46 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============9007142942468296634=="
+Content-Type: multipart/mixed; boundary="===============0087104560062285098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 29 Aug 2025 22:19:22 -0000
-Message-Id: <175650596267.2706582.11263159431974019438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Fri, 29 Aug 2025 22:32:43 -0000
+Message-Id: <175650676308.2717707.16110199855742061682@gitolite.kernel.org>
 
---===============9007142942468296634==
+--===============0087104560062285098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 3d439e1ec3368fae17db379354bd7a9e568ca0ab
-    new: e49c93e151803992ed5b0d888d9dd47aa21bc7a0
-    log: revlist-3d439e1ec336-e49c93e15180.txt
+  - ref: refs/heads/kbuild-next
+    old: 1e150869caf2fe540dd9c3367e124b59c23228c7
+    new: aa943a280e88e3585ed5a06d55e78c4123fcead3
+    log: revlist-1e150869caf2-aa943a280e88.txt
 
---===============9007142942468296634==
+--===============0087104560062285098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d439e1ec336-e49c93e15180.txt
+Content-Disposition: attachment; filename=revlist-1e150869caf2-aa943a280e88.txt
 
-6158a321c051095024e8306c8996b79e5f7f79b6 ASoC: SOF: Intel: split codec mask detect and programming UNSOL
-5c39bc498f5ff7ef016abf3f16698f3e8db79677 ASoC: SOF: Intel: only detect codecs when HDA DSP probe
-6ad299a9b968e1c63988e2a327295e522cf6bbf5 ASoC: SOF: ipc4-pcm: Add fixup for channels
-c04c2e829649ab8fe5f1cfe5d7cbb34ab0463231 ASoC: SOF: ipc4-topology: Add support for 8-bit formats
-f7c41911ad744177d8289820f01009dc93d8f91c ASoC: SOF: ipc4-topology: Add support for float sample type
-4f17845526626deda2cab181db7e19cf9265a0b3 ASoC: SOF: sof-client-probes-ipc4: Implement ipc4_probes_points_info
-782d4613171e271b1e28ee1db9616beb8e6ad8a1 ASoC: SOF: IPC4: Add GET macros for module id and module instance id
-e6cf5e44ce1eed7aa72e7fb0cbff054e3f1dec0d ASoC: SOF: sof-client: Add sof_client_ipc4_find_swidget_by_id()
-b6082647f7222c05d34db94455a4e81981c51da1 ASoC: SOF: sof-client-probes-ipc4: Human readable debugfs "probe_points"
-d57d27171c92e9049d5301785fb38de127b28fbf ASoC: SOF: sof-client-probes: Add available points_info(), IPC4 only
-850c5dfb17b381f30c4052a68c43da5abc678e74 ASoC: SOF: sof-client: Convert sof_client_dev_to_sof_dev into function
-07752abfa5dbf7cb4d9ce69fa94dc3b12bc597d9 ASoC: SOF: sof-client: Introduce sof_client_dev_entry structure
-4c14b076e81181ad05531f8cdce609e6c308f720 ASoC: SOF: Intel: only detect codecs when HDA DSP
-0b1d93750f1c771c92b26832d5a6bdd6641dee03 ASoC: SOF: sof-client: Enforce client access scope
-0e58316d6a877231b3ece367ab9b445cb429b8ba ASoC: SOF: sof-client-probes-ipc4: Query available
-e49c93e151803992ed5b0d888d9dd47aa21bc7a0 ASoC: SOF: ipc4: Add support for 8-bit and float
+20c0989283564d662dcc4c77252a60b1812b32ca kbuild: Bump minimum version of LLVM for building the kernel to 15.0.0
+65aebf6f5880e7ab692d814ca19f8936d0120364 arch/Kconfig: Drop always true condition from RANDOMIZE_KSTACK_OFFSET
+02aba266e391fa90a4dae8822bde72ebdb88c360 ARM: Clean up definition of ARM_HAS_GROUP_RELOCS
+23cb0514208da70c07b3582ecbbe6b3c633a481f arm64: Remove tautological LLVM Kconfig conditions
+e633c2e78fd1cc9c4b89518b8d12578a7aa529c1 mips: Unconditionally select ARCH_HAS_CURRENT_STACK_POINTER
+488954ca195d03f651208355ed5cac428846ee97 powerpc: Drop unnecessary initializations in __copy_inst_from_kernel_nofault()
+6578a1ff6aa49034489c2701502d1969e6bf12a7 riscv: Remove version check for LTO_CLANG selects
+7ccbe91796d7bb584a00833cb59ef7d4575ba784 riscv: Unconditionally use linker relaxation
+87b28d71396bf17e424ea82d17c537c391c35900 riscv: Remove ld.lld version checks from many TOOLCHAIN_HAS configs
+a817de20091c3cf6de19d7ddf099b0e35003b7d0 lib/Kconfig.debug: Drop CLANG_VERSION check from DEBUG_INFO_DWARF_TOOLCHAIN_DEFAULT
+573ad421cc551eb45d9ac9008395f93c070789b8 objtool: Drop noinstr hack for KCSAN_WEAK_MEMORY
+5ff8c11775c744dc5076ce126eb1b3adce0a70ae KMSAN: Remove tautological checks
+aa943a280e88e3585ed5a06d55e78c4123fcead3 Merge patch series "Bump minimum supported version of LLVM for building the kernel to 15.0.0"
 
---===============9007142942468296634==--
+--===============0087104560062285098==--
