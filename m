@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 29 Aug 2025 11:34:51 -0000
-Message-Id: <175646729156.2154878.2117132881514570016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 29 Aug 2025 11:38:59 -0000
+Message-Id: <175646753932.2158185.9022169929656806279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 3e735d8034302fe34befec46a1a17fa242ca0be1
-    new: fde3ddb415368378ad3095a9103ae4378cfc820f
-    log: |
-         f522da9ab56c96db8703b2ea0f09be7cdc3bffeb ASoC: doc: Internally link to Writing an ALSA Driver docs
-         fde3ddb415368378ad3095a9103ae4378cfc820f Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
-         
+  - ref: refs/heads/20250829_peter_ujfalusi_asoc_sof_ipc4_add_support_for_8_bit_and_float_formats
+    old: 0000000000000000000000000000000000000000
+    new: f7c41911ad744177d8289820f01009dc93d8f91c
+  - ref: refs/heads/20250829_peter_ujfalusi_asoc_sof_sof_client_enforce_client_access_scope
+    old: 0000000000000000000000000000000000000000
+    new: 07752abfa5dbf7cb4d9ce69fa94dc3b12bc597d9
+  - ref: refs/heads/20250829_peter_ujfalusi_asoc_sof_sof_client_probes_ipc4_query_available_probes
+    old: 0000000000000000000000000000000000000000
+    new: d57d27171c92e9049d5301785fb38de127b28fbf
+  - ref: refs/heads/file98URBz
+    old: 0000000000000000000000000000000000000000
+    new: 89e7353f522f5cf70cb48c01ce2dcdcb275b8022
