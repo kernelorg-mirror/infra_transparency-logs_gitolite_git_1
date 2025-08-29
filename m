@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5778036835376738282=="
+Content-Type: multipart/mixed; boundary="===============3042609040113480413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 29 Aug 2025 15:54:08 -0000
-Message-Id: <175648284836.2379486.6461048249085342269@gitolite.kernel.org>
+Date: Fri, 29 Aug 2025 15:54:10 -0000
+Message-Id: <175648285092.2379622.17684530090969016134@gitolite.kernel.org>
 
---===============5778036835376738282==
+--===============3042609040113480413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 14cd01c28fb1e77d9bb55bd43fd8df6d584e284a
     new: 29828b81a46a3ae55ebc053fce512219172560ba
     log: revlist-14cd01c28fb1-29828b81a46a.txt
 
---===============5778036835376738282==
+--===============3042609040113480413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ e97ae742972f6cb57986a5ebb846048f80b90003 net_sched: act_tunnel_key: use RCU in t
 15d157c3ad018a7b9d99d0cf35d6b163e570728e eth: mlx5: remove Kconfig co-dependency with VXLAN
 29828b81a46a3ae55ebc053fce512219172560ba Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============5778036835376738282==--
+--===============3042609040113480413==--
