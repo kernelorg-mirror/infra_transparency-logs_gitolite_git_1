@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mailhol/iproute2-next
-Date: Fri, 29 Aug 2025 02:04:28 -0000
-Message-Id: <175643306836.1635954.12943354183502168016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
+Date: Fri, 29 Aug 2025 02:23:52 -0000
+Message-Id: <175643423269.1651259.6988958709859097760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mailhol/iproute2-next
-user: mailhol
+repo: pub/scm/linux/kernel/git/colyli/linux-bcache
+user: colyli
 changes:
-  - ref: refs/heads/canxl-netlink
-    old: d21fc902dc2da0df05c0b93366cf1dbcb2718275
-    new: 56cf6e3b3f65a971a1487d09f5c91565102917a2
+  - ref: refs/heads/for-next
+    old: b16c25489ecac01cf42482f2e13224db68a85042
+    new: 64a24f5938c1f3608091098fbf6c24b52dbe2073
     log: |
-         1351cdd21b38d41fe7aef9529860e2d110e3cd52 !!! DO NOT MERGE !!! can: netlink: update headers
-         8e4604d163adb9eb8b8795888bb5953ec0fe1754 iplink_can: add CAN XL
-         8725540b218e6c2a4bd255b2f66fd0feee44b83d iplink_can: add CAN XL's PWM interface
-         56cf6e3b3f65a971a1487d09f5c91565102917a2 iplink_can: add CAN_CTRLMODE_XL_TMS
+         64a24f5938c1f3608091098fbf6c24b52dbe2073 bcache: fixed the issue of low rate at the tail end of dirty data writeback
          
