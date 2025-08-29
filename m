@@ -1,72 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7838524327489442711=="
+Content-Type: multipart/mixed; boundary="===============1408990209742523788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Fri, 29 Aug 2025 22:37:26 -0000
-Message-Id: <175650704656.2722135.3395728546836727714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 29 Aug 2025 22:39:37 -0000
+Message-Id: <175650717778.2723714.8858046635405110891@gitolite.kernel.org>
 
---===============7838524327489442711==
+--===============1408990209742523788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/devel
-    old: d8c2a9edd181f0cc4a66eec954b3d8f6a1d954a7
-    new: 050e711a48f18a6ce661ecf1b736dc07534f384a
-    log: revlist-d8c2a9edd181-050e711a48f1.txt
-  - ref: refs/heads/for-next
-    old: c0392d7bff8b5a04e05d3d85c5df8e880ece2537
-    new: 9a1d01fbf43f56a02026eee44181f70108a0dec8
-    log: revlist-c0392d7bff8b-9a1d01fbf43f.txt
+  - ref: refs/heads/master
+    old: fb679c832b6497f19fffb8274c419783909c0912
+    new: 11e7861d680c3757eab18ec0a474ff680e007dc4
+    log: revlist-fb679c832b64-11e7861d680c.txt
 
---===============7838524327489442711==
+--===============1408990209742523788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8c2a9edd181-050e711a48f1.txt
+Content-Disposition: attachment; filename=revlist-fb679c832b64-11e7861d680c.txt
 
-8912b2862b9b74a0dc4e3ea1aacdec2f8abd7e1d pinctrl: renesas: rzg2l: Fix invalid unsigned return in rzg3s_oen_read()
-27c76cc93c6c2ee6c0d7fec6dedc1214a977e66f pinctrl: renesas: rzg2l: Parameterize OEN register offset
-a3455a0c24834eaa20f032b214d53b1607d60073 pinctrl: renesas: rzg2l: Unify OEN access by making pin-to-bit mapping configurable
-dd0d40d8f4ac8c2cb5967fdb2e1efa70cfc0c9ee pinctrl: renesas: rzg2l: Remove OEN ops for RZ/G3E
-cd39805be85b8ff45b0ad2715d8de48dbe404cee pinctrl: renesas: rzg2l: Unify OEN handling across RZ/{G2L,V2H,V2N}
-54ac76e13ace31cf732bf5261811ef5af67022b7 pinctrl: renesas: rzg2l: Add PFC_OEN support for RZ/G3E SoC
-560c633d378a0cf34afcd66c99321d6306a7e937 pinctrl: renesas: rzg2l: Drop oen_read and oen_write callbacks
-8a5a0294f40a50e5be83e9b7ebbc15b546f64e41 dt-bindings: clock: renesas,r9a09g077/87: Add USB_CLK clock ID
-5293e8f2a854344ef9aba2391b44c7a437889ebb dt-bindings: pinctrl: renesas: Document RZ/T2H and RZ/N2H SoCs
-8a1d9e20c73dd5d003c9957c9c151dd657e64183 Merge tag 'renesas-r9a09g077-dt-binding-defs-tag3' into renesas-pinctrl-for-v6.18
-34d4d093077a5c60d452a2f42d0c1a08e55b8614 pinctrl: renesas: Add support for RZ/T2H
-d1d31e2739ff063da1e85cd9b44316ca5cccdba8 pinctrl: renesas: rzt2h: Add support for RZ/N2H
-2b31c1c7134a316a0c97da5d7bdbe15552101db3 dt-bindings: pinctrl: Convert brcm,bcm2835-gpio to DT schema
-8898cf86f043468d285a474d1614e5cf1a170b16 dt-bindings: pinctrl: Convert brcm,iproc-gpio to DT schema
-050e711a48f18a6ce661ecf1b736dc07534f384a Merge tag 'renesas-pinctrl-for-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
+7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
+07f557f60a9a4e15288c29a2924e19e44200db51 KVM: arm64: nv: Properly check ESR_EL2.VNCR on taking a VNCR_EL2 related fault
+69f8fe955d0b4a951c3726669ab58360ed562484 KVM: arm64: nv: Handle SEAs due to VNCR redirection
+700d6868fee2d384cbd821d31db3a245d218223c kvm: arm64: use BUG() instead of BUG_ON(1)
+eaa43934b412f0381598e308b6a25d6c9a5dce2d KVM: arm64: Handle AIDR_EL1 and REVIDR_EL1 in host for protected VMs
+798eb597870064bff28d8a41cb5197725f7dc6f2 KVM: arm64: Sync protected guest VBAR_EL1 on injecting an undef exception
+f1edb159200ad1ef2fc518c7673cb9559a6f8edd arm64: vgic-v2: Fix guest endianness check in hVHE mode
+85acc29f90e0183997dea27277057c9aec2769aa KVM: arm64: selftest: Add standalone test checking for KVM's own UUID
+c87bd4dd43a624109c3cc42d843138378a7f4548 KVM: x86: use array_index_nospec with indices that come from guest
+d19c541d269eddd9702b687fd4ba587c7da497a2 KVM: arm64: Correctly populate FAR_EL2 on nested SEA injection
+923fcb3dbc0246fc5207093c0049af4c56f20e41 KVM: SEV: don't check have_run_cpus in sev_writeback_caches()
+dce1b33ed7430c7189b8cc1567498f9e6bf12731 selftests: harness: Rename is_signed_type() to avoid collision with overflow.h
+0e89ca13ee5ff41b437bb2a003c0eaf34ea43555 KVM: arm64: Split kvm_pgtable_stage2_destroy()
+e9abe311f35631a999fe38c86f26f0e48ffe46d5 KVM: arm64: Reschedule as needed when destroying the stage-2 page-tables
+8049164653c6e6e7b347da773098d8660a26a6f6 arm64: Add capability denoting FEAT_RASv1p1
+d7b3e23f945b36aec3938e5ea954bc125f38562e KVM: arm64: Handle RASv1p1 registers
+9049fb1227a2d1ab8515788c8553232966380248 KVM: arm64: Ignore HCR_EL2.FIEN set by L1 guest's EL2
+1fab657cb2a07889c343302fbebca035e702683e KVM: arm64: Make ID_AA64PFR0_EL1.RAS writable
+7a765aa88e345782d3e4ed4c82e49f1ea82fd29c KVM: arm64: Make ID_AA64PFR1_EL1.RAS_frac writable
+0843e0ced338d07c8bcec5675c560a94d05a4d41 KVM: arm64: Get rid of ARM64_FEATURE_MASK()
+01860bcc53432d8b9b92a72939b35679ac24059f KVM: arm64: selftests: Sync ID_AA64MMFR3_EL1 in set_id_regs
+9bca8be646e043d1fc6cd426fef05558c02de3df RISC-V: KVM: Fix pte settings within kvm_riscv_gstage_ioremap()
+e61a12a4baf06a4c71e15f522bb5c4345c2ba198 RISC-V: KVM: Correct kvm_riscv_check_vcpu_requests() comment
+799766208f09f95677a9ab111b93872d414fbad7 RISC-V: KVM: fix stack overrun when loading vlenb
+22b2ca023fc41e95afb3c58c16c2418b1ca85d75 Merge tag 'kvm-x86-fixes-6.17-rc7' of https://github.com/kvm-x86/linux into HEAD
+b720269334f55f2e683fbb8f1f065a12f2c72eb6 KVM: arm64: Check for SYSREGS_ON_CPU before accessing the 32bit state
+e3f6836a632e6d68201b6bc6e02bda92b00f3f57 KVM: arm64: Simplify sysreg access on exception delivery
+ec0ab059d4359b2dad69f4ef90fa58a0bcdef525 KVM: arm64: Fix vcpu_{read,write}_sys_reg() accessors
+3328d17e70545f83515b07851302d48c85c466b0 KVM: arm64: Remove __vcpu_{read,write}_sys_reg_{from,to}_cpu()
+ee372e645178802be7cb35263de941db7b2c5354 KVM: arm64: nv: Fix ATS12 handling of single-stage translation
+085e899aa19be2ca512302077346d22736174e6d Merge tag 'kvm-riscv-fixes-6.17-1' of https://github.com/kvm-riscv/linux into HEAD
+42a0305ab114975dbad3fe9efea06976dd62d381 Merge tag 'kvmarm-fixes-6.17-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+11e7861d680c3757eab18ec0a474ff680e007dc4 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 
---===============7838524327489442711==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c0392d7bff8b-9a1d01fbf43f.txt
-
-8912b2862b9b74a0dc4e3ea1aacdec2f8abd7e1d pinctrl: renesas: rzg2l: Fix invalid unsigned return in rzg3s_oen_read()
-27c76cc93c6c2ee6c0d7fec6dedc1214a977e66f pinctrl: renesas: rzg2l: Parameterize OEN register offset
-a3455a0c24834eaa20f032b214d53b1607d60073 pinctrl: renesas: rzg2l: Unify OEN access by making pin-to-bit mapping configurable
-dd0d40d8f4ac8c2cb5967fdb2e1efa70cfc0c9ee pinctrl: renesas: rzg2l: Remove OEN ops for RZ/G3E
-cd39805be85b8ff45b0ad2715d8de48dbe404cee pinctrl: renesas: rzg2l: Unify OEN handling across RZ/{G2L,V2H,V2N}
-54ac76e13ace31cf732bf5261811ef5af67022b7 pinctrl: renesas: rzg2l: Add PFC_OEN support for RZ/G3E SoC
-560c633d378a0cf34afcd66c99321d6306a7e937 pinctrl: renesas: rzg2l: Drop oen_read and oen_write callbacks
-8a5a0294f40a50e5be83e9b7ebbc15b546f64e41 dt-bindings: clock: renesas,r9a09g077/87: Add USB_CLK clock ID
-5293e8f2a854344ef9aba2391b44c7a437889ebb dt-bindings: pinctrl: renesas: Document RZ/T2H and RZ/N2H SoCs
-8a1d9e20c73dd5d003c9957c9c151dd657e64183 Merge tag 'renesas-r9a09g077-dt-binding-defs-tag3' into renesas-pinctrl-for-v6.18
-34d4d093077a5c60d452a2f42d0c1a08e55b8614 pinctrl: renesas: Add support for RZ/T2H
-d1d31e2739ff063da1e85cd9b44316ca5cccdba8 pinctrl: renesas: rzt2h: Add support for RZ/N2H
-2b31c1c7134a316a0c97da5d7bdbe15552101db3 dt-bindings: pinctrl: Convert brcm,bcm2835-gpio to DT schema
-8898cf86f043468d285a474d1614e5cf1a170b16 dt-bindings: pinctrl: Convert brcm,iproc-gpio to DT schema
-050e711a48f18a6ce661ecf1b736dc07534f384a Merge tag 'renesas-pinctrl-for-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
-9a1d01fbf43f56a02026eee44181f70108a0dec8 Merge branch 'devel' into for-next
-
---===============7838524327489442711==--
+--===============1408990209742523788==--
