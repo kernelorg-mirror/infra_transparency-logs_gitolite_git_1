@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 29 Aug 2025 17:15:22 -0000
-Message-Id: <175648772290.2455738.14787278436525590468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 29 Aug 2025 17:27:34 -0000
+Message-Id: <175648845461.2464617.7585798246488041841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 27861fc720be2c39b861d8bdfb68287f54de6855
-    new: 5aa00f0e9589b20b7306961cc0e4185497704683
-    log: |
-         51ae4ca30f11637620fecfc5b2d27bd67f83d9dd bpf: Fix out-of-bounds dynptr write in bpf_crypto_crypt
-         5aa00f0e9589b20b7306961cc0e4185497704683 selftests/bpf: Extend crypto_sanity selftest with invalid dst buffer
-         
+  - ref: refs/tags/nova/upstream-submit-8.29.2025-v4
+    old: 0000000000000000000000000000000000000000
+    new: 89c9cf90d2e1c1392332c9293fe2367439826bde
