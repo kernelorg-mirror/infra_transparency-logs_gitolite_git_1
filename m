@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 29 Aug 2025 14:15:27 -0000
-Message-Id: <175647692713.2293917.17325276360907360445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 29 Aug 2025 14:16:41 -0000
+Message-Id: <175647700114.2294661.10122442948496565906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/tags/hid-for-linus-2025082901
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm.18-testing
     old: 0000000000000000000000000000000000000000
-    new: bd3621893c95c9d4d549db98f149c51f80018e2c
+    new: 3942da411fc1c8cce651f9ecd503b152078ab8a1
