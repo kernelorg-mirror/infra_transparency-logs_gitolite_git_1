@@ -1,45 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============5408701664035451329=="
+Content-Type: multipart/mixed; boundary="===============8877630054805005222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Sat, 30 Aug 2025 08:43:45 -0000
-Message-Id: <175654342593.3216129.10522071256405036814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 30 Aug 2025 09:18:58 -0000
+Message-Id: <175654553875.3244427.18113043271747622695@gitolite.kernel.org>
 
---===============5408701664035451329==
+--===============8877630054805005222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 501302d5cee0d8e8ec2c4a5919c37e0df9abc99b
-    new: 41eab2a95950682cdc9c5e60cb3457e29f186540
-    log: revlist-501302d5cee0-41eab2a95950.txt
+  - ref: refs/heads/next/dt64
+    old: e28c1117deda5a80df14b579170c1a90fc82bf5f
+    new: a874b387213bd80b1288884aeb427cb7599eb5ea
+    log: |
+         1219992e16689f4937a333c98d90cf80ba91860a arm64: dts: exynos2200: fix typo in hsi2c23 bus pins label
+         ad8ea30db80f825215d071370989b8ac45298a1a arm64: dts: exynos2200: use 32-bit address space for /soc
+         0dff00633bbc8566fed6483daddddfa0dfdcf83a arm64: dts: exynos2200: increase the size of all syscons
+         1bc8f09ce98ca8a56f2059c9a8fe26cc351318f0 arm64: dts: exynos2200: define all usi nodes
+         b3a62f6c3573e448e8b0697a622e7bba0ddf9945 arm64: dts: exynos5433: Add default GIC address cells
+         a75d45adb261cbced86701d2512098044a6d310f arm64: dts: google: gs101: Add default GIC address cells
+         a874b387213bd80b1288884aeb427cb7599eb5ea arm64: dts: fsd: Add default GIC address cells
+         
 
---===============5408701664035451329==
+--===============8877630054805005222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-501302d5cee0-41eab2a95950.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9aa7e045f4af7d33684f00214a6f74e506426546 crypto: jitter - Mark intermediary memory as clean
-01834444d972163b305a7f81e6bfba6315dced09 crypto: arm64/aes - use SHA-256 library instead of crypto_shash
-97d37c0a4477c857f2ddf42b5fe9e4a78ab9db85 dt-bindings: crypto: Add binding for TI DTHE V2
-52f641bc63a46657b1d72d902fcee30ab1233c7b crypto: ti - Add driver for DTHE V2 AES Engine (ECB, CBC)
-ce136503bd9fed595fe0ba6dcae0f5f0f8cec7e3 crypto: jh7110 - Remove the use of dev_err_probe()
-8595bcb09b05a6c712c35f03ef701e7785895b51 crypto: tegra - Remove the use of dev_err_probe()
-5cd459ebaae05651eccf04e5969953d1180d9dd2 hwrng: cn10k - Remove the use of dev_err_probe()
-d4e081510471e79171c4e0a11f6cb608e49bc082 crypto: hisilicon/zip - remove unnecessary validation for high-performance mode configurations
-0dcd21443d9308ed88909d35aa0490c3fc680a47 crypto: hisilicon - re-enable address prefetch after device resuming
-1f9128f121a872f27251be60ccccfd98c136d72e crypto: hisilicon - check the sva module status while enabling or disabling address prefetch
-6a2c9164b52e6bc134127fd543461fdef95cc8ec crypto: hisilicon/qm - check whether the input function and PF are on the same device
-9228facb308157ac0bdd264b873187896f7a9c7a crypto: hisilicon/qm - request reserved interrupt for virtual function
-dcd2d5fda2bb3898eca9380c13da1f346de1df6f crypto: hisilicon/zip - enable literal length in stream mode compression
-4c634b6b3c77bba237ee64bca172e73f9cee0cb2 crypto: qat - use kcalloc() in qat_uclo_map_objs_from_mof()
-41eab2a95950682cdc9c5e60cb3457e29f186540 crypto: hisilicon - use kcalloc() instead of kzalloc()
+certificate version 0.1
+pusher krzk@kernel.org 1756545586 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1756545536-40b009a6a3934075d447b839be4426f86dd835d3
 
---===============5408701664035451329==--
+e28c1117deda5a80df14b579170c1a90fc82bf5f a874b387213bd80b1288884aeb427cb7599eb5ea refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiywjIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wY/EACVX77Y9cwGLpqNQZmoPyuFdlWRURLN9t5D
+Bk3pVIvA1nEl739eQ+G5zzvYNBGqfrZybRngaJam/7mmJl5FAsZlr+HDHhp1DCYG
+zuje3lJA8YDwrcrmyYqkSMQhUTdSoDcHpD3t9VG56ueOdv2eY4i65n/YRqptOoLE
+dBLycUUUaF/FfSzPC1+3cGybyqjtNktB4vOnfW3bhMejN+oTH2yFL5N5R4wVXFre
+rvqsIbz+n2CIe2HRBlc1olpLJHWcNYgNwWLy+88TxG5jcdpHgvvGeMBFrffy1X9G
+0ZmCRdFCpj5+79uZaEUyMWdt6UvWgNFoTD/jjvG+j7nhs8UgUCMb/QtglKE9OysE
+xh4fjAcLkJXsnS5xkZN18UQheu1dpNSjS+zX2GnLpfI1D2wjFhnm2M8ISN4h2WU5
+adWiUo/LIm5DAUp08gOQrPprS6JK4vfj/CX2tB+vZ3L7YOMi06MuOH4N5h6KEN3L
+4zbqethIvpmvOv5ZCRnoAgLGdvU0fxafZ69h0lCu5TpC+93o3Ug4MSVnro/8Unbb
+9PqPM/4nCLsClmsICgg9lqH1yTyfH3eSAn4agciSdBvuMc3fRNDxMuwB+dVYdpb7
+/oMQkrtTTIg4aLVq0WhdY+i/kyoriqfn9FkfWSi50abSUtfv9duPCH5FIxGst7CJ
+o5AVSzehsw==
+=GN7Y
+-----END PGP SIGNATURE-----
+
+--===============8877630054805005222==--
