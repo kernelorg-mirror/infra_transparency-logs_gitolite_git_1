@@ -1,46 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sat, 30 Aug 2025 12:56:36 -0000
-Message-Id: <175655859633.3425644.4914882158982358873@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2844478174091543032=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mailhol/linux
+Date: Sat, 30 Aug 2025 14:10:58 -0000
+Message-Id: <175656305841.3484953.13735559182657842286@gitolite.kernel.org>
+
+--===============2844478174091543032==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/mailhol/linux
+user: mailhol
 changes:
-  - ref: refs/heads/for-next
-    old: 204bf1f5adf6ea57199925df581bd2fa608af0da
-    new: 0aeba992be87066c01ea73d9da8ae8051343fcfd
-    log: |
-         096bd8c679185f898cae9933c6a68650fa26ea4f arm64: dts: rockchip: Further describe the WiFi for the Pinephone Pro
-         7c50e0cea2549a8d673bad62abf9be82b71e5477 arm64: dts: rockchip: add IR receiver to rk3328-roc
-         5567a036d1b00fb3c6c77bbbd2944291afe1938e arm64: dts: rockchip: fix second M.2 slot on ROCK 5T
-         8a449a728cce86183f93a3d1812c94509359719c arm64: dts: rockchip: add SPDIF audio to Beelink A1
-         cd20b50f4ea926aed3586f7200d95727368b021a arm64: dts: rockchip: add USB3 on Beelink A1
-         941b9a558f34c8cab0a28f3387d5f4063a0ef5f2 dt-bindings: soc: rockchip: add missing clock reference for rk3576-dcphy syscon
-         2850f6f1ecf2a42c6ae7a6d55874c9eb17eeb622 ARM: dts: rockchip: add CEC pinctrl to rk3288-miqi
-         2a91dcd5be9dde3239c87e4309f5878d3e4fb9d2 ARM: dts: rockchip: add HDMI audio to rk3288-miqi
-         50b635878ea3b9112bee08eb01b7c3371c83e1bc Merge branch 'v6.18-armsoc/dts32' into for-next
-         0aeba992be87066c01ea73d9da8ae8051343fcfd Merge branch 'v6.18-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.18-armsoc/dts32
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 2a91dcd5be9dde3239c87e4309f5878d3e4fb9d2
-    log: |
-         2850f6f1ecf2a42c6ae7a6d55874c9eb17eeb622 ARM: dts: rockchip: add CEC pinctrl to rk3288-miqi
-         2a91dcd5be9dde3239c87e4309f5878d3e4fb9d2 ARM: dts: rockchip: add HDMI audio to rk3288-miqi
-         
-  - ref: refs/heads/v6.18-armsoc/dts64
-    old: 6d54d935062e2d4a7d3f779ceb9eeff108d0535d
-    new: 941b9a558f34c8cab0a28f3387d5f4063a0ef5f2
-    log: |
-         096bd8c679185f898cae9933c6a68650fa26ea4f arm64: dts: rockchip: Further describe the WiFi for the Pinephone Pro
-         7c50e0cea2549a8d673bad62abf9be82b71e5477 arm64: dts: rockchip: add IR receiver to rk3328-roc
-         5567a036d1b00fb3c6c77bbbd2944291afe1938e arm64: dts: rockchip: fix second M.2 slot on ROCK 5T
-         8a449a728cce86183f93a3d1812c94509359719c arm64: dts: rockchip: add SPDIF audio to Beelink A1
-         cd20b50f4ea926aed3586f7200d95727368b021a arm64: dts: rockchip: add USB3 on Beelink A1
-         941b9a558f34c8cab0a28f3387d5f4063a0ef5f2 dt-bindings: soc: rockchip: add missing clock reference for rk3576-dcphy syscon
-         
+  - ref: refs/heads/b4/canxl-netlink
+    old: 1a077e883f1deeb1c7e74a76feff0df8feb985cf
+    new: 5b1e109ac95f345cec1297b8310c9461cd773761
+    log: revlist-1a077e883f1d-5b1e109ac95f.txt
+
+--===============2844478174091543032==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1a077e883f1d-5b1e109ac95f.txt
+
+a2a559adb495d70930935e5879256ab8d69c1a10 can: netlink: refactor CAN_CTRLMODE_TDC_{AUTO,MANUAL} flag reset logic
+d0c9d08c5d40fca8355b037cb0b33bbf26236fb1 can: netlink: make can_tdc_changelink() FD agnostic
+9aa76808d85c59e418c321221fd6779561da9a56 can: netlink: add can_dtb_changelink()
+9401d6dde17b4106837c78edcd872d6149321d58 can: netlink: refactor can_validate_bittiming()
+64b8b25c58b3eefc158ed80373d3cf09893b9267 can: netlink: add can_validate_tdc()
+65a564380c9708604bcc9447cc1f483625e5deed can: netlink: add can_validate_databittiming()
+b6957afe0e37440ec5d9df66b432392eb2846b0a can: netlink: make can_tdc_get_size() FD agnostic
+2be29b2ef5d641d1a4c5a8e390a10053dbd6a03b can: netlink: make can_tdc_fill_info() FD agnostic
+483796b0ebaca84f52bcf72ff6bfe8acf138a553 can: calc_bittiming: make can_calc_tdco() FD agnostic
+67ed6ffa15c8a1cf9107d832a574ce33be7794f3 can: netlink: document which symbols are FD specific
+b33893f9dcbcf13551be85fc715fa23286e884e0 can: dev: sort include by alphabetical order
+8238bac03e3cc82b127493a5cb14341bca85e644 can: dev: add can_get_ctrlmode_str()
+127706318b30683949a8a4ad72a2494479c05bb5 can: netlink: add userland error messages
+b462d817b7cc0494e3752bcb4eb4b8d6e921f21a can: netlink: add CAN_CTRLMODE_RESTRICTED
+36cfd45a5fd0500b4e70f432754142b63781386b can: netlink: add initial CAN XL support
+d8b30cf00cec2873e0898738e179260abbd10062 can: netlink: add CAN_CTRLMODE_XL_TMS flag
+e8c5a643720088d5d9a617e33f02f7802335ddc7 can: netlink: support CAN XL error signalling switching
+a7f2c8347f901f5a31faccf04c6bd55758467487 can: bittiming: add PWM parameters
+a903ece756b30d5e27af802460dfa9d89ab13ae3 can: netlink: add PWM netlink interface
+761406859dcb40fa81dcc2ae853adefe8eb864df can: bittiming: add PWM validation
+79176d7e03d23d67583857125a4bafd7989cbe42 can: calc_bittiming: add PWM calculation
+0e364a72f304eb1e201a7f68dfa5337c0345d5a0 can: netlink: support Remote Request Substitution bit access
+5b1e109ac95f345cec1297b8310c9461cd773761 !!! DO NOT MERGE !!! can: add dummyxl driver
+
+--===============2844478174091543032==--
