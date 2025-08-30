@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3014231453216499341=="
+Content-Type: multipart/mixed; boundary="===============3948858374499638526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 30 Aug 2025 10:30:48 -0000
-Message-Id: <175654984875.3305888.10529271620415690076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sat, 30 Aug 2025 10:31:02 -0000
+Message-Id: <175654986209.3306274.3171399414322913590@gitolite.kernel.org>
 
---===============3014231453216499341==
+--===============3948858374499638526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 3d439e1ec3368fae17db379354bd7a9e568ca0ab
-    new: e49c93e151803992ed5b0d888d9dd47aa21bc7a0
-    log: revlist-3d439e1ec336-e49c93e15180.txt
+  - ref: refs/heads/for-next
+    old: e26c9bd63fb350c63af128f109ce26e6f3b5696d
+    new: 19f6c08472e7d80b519afb083a8e45575f77f58b
+    log: revlist-e26c9bd63fb3-19f6c08472e7.txt
 
---===============3014231453216499341==
+--===============3948858374499638526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1756549894 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1756549846-9af771c7c20d9d2c1c88ce73e4c927d1311e6329
-
-3d439e1ec3368fae17db379354bd7a9e568ca0ab e49c93e151803992ed5b0d888d9dd47aa21bc7a0 refs/heads/asoc-6.18
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmiy0wYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0L5oB/0cI3b+Suq97TXDrqXiWnZ8jt5pjfKj
-9ITrkSrqCa9Yxg+j0r9hGerEZ126fTsxXJGO0e0d31yRvNvIb2fhpkL276IbgV6a
-n2DbCTzDuBj9vAZ2p2RoqhP53EOwarcDw6OZlV4JqBzeayg6FcYnKxplcTGgUW26
-AqVw8UbqYWDF8XqGvjz61eJFHSu8bAq1g1o1UpzJeoBAoSs6yLvvYA0QQfALZe0B
-122r6Z37o/480E3iBxbhGNs7H7mB910tIaXcmdL+7f8XL3nK9vobfYtBSDfLIPD6
-CSy33Jrd37/4ZM9/BJ7Xln+QD2JrrnU8K0BRb5ihWBa28AhdQ/YYvgT7
-=A/Ul
------END PGP SIGNATURE-----
-
---===============3014231453216499341==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d439e1ec336-e49c93e15180.txt
+Content-Disposition: attachment; filename=revlist-e26c9bd63fb3-19f6c08472e7.txt
 
 6158a321c051095024e8306c8996b79e5f7f79b6 ASoC: SOF: Intel: split codec mask detect and programming UNSOL
 5c39bc498f5ff7ef016abf3f16698f3e8db79677 ASoC: SOF: Intel: only detect codecs when HDA DSP probe
@@ -67,5 +42,6 @@ d57d27171c92e9049d5301785fb38de127b28fbf ASoC: SOF: sof-client-probes: Add avail
 0b1d93750f1c771c92b26832d5a6bdd6641dee03 ASoC: SOF: sof-client: Enforce client access scope
 0e58316d6a877231b3ece367ab9b445cb429b8ba ASoC: SOF: sof-client-probes-ipc4: Query available
 e49c93e151803992ed5b0d888d9dd47aa21bc7a0 ASoC: SOF: ipc4: Add support for 8-bit and float
+19f6c08472e7d80b519afb083a8e45575f77f58b Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
 
---===============3014231453216499341==--
+--===============3948858374499638526==--
