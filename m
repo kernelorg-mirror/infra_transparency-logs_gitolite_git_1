@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 30 Aug 2025 17:53:33 -0000
-Message-Id: <175657641394.3669151.11929039347312382743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Sat, 30 Aug 2025 18:24:07 -0000
+Message-Id: <175657824708.3693609.10884288985176879661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
   - ref: refs/heads/master
-    old: 11e7861d680c3757eab18ec0a474ff680e007dc4
-    new: c8bc81a52d5a2ac2e4b257ae123677cf94112755
+    old: 2b21a2ffd5d5ef15e13898c92800c1d2720f062b
+    new: 041b58c08efca57bca7377a54dc94ad6a6a24d74
     log: |
-         ceca927c86e6f72f72d45487a34368bc9509431d arm64: mm: Fix CFI failure due to kpti_ng_pgd_alloc function signature
-         d82aa5d3501b25bfb7bc2a24a68ad0a83b2ad10b kselftest/arm64: Don't open code SVE_PT_SIZE() in fp-ptrace
-         c8bc81a52d5a2ac2e4b257ae123677cf94112755 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+         c712f76b5ac1b790a3c9996ef490346a0bbffca1 [BUGFIX] wifi: iwlwifi: cfg: add back more lost PCI IDs
+         120cb8c8c98d73769ef333491e7072d2cdde3ea9 wifi: iwlwifi: tests: check listed PCI IDs have configs
+         041b58c08efca57bca7377a54dc94ad6a6a24d74 [BUGFIX][NOUPSTREAM] wifi: iwlwifi: mld: support testmode
          
