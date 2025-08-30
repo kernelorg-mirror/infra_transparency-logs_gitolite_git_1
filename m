@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Sat, 30 Aug 2025 18:24:07 -0000
-Message-Id: <175657824708.3693609.10884288985176879661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sat, 30 Aug 2025 18:40:04 -0000
+Message-Id: <175657920401.3708289.7805465743876094724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: egrumbach
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 2b21a2ffd5d5ef15e13898c92800c1d2720f062b
-    new: 041b58c08efca57bca7377a54dc94ad6a6a24d74
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm.18-testing
+    old: 3942da411fc1c8cce651f9ecd503b152078ab8a1
+    new: 222f2b6f07b4fd4e3456580b9caa8dc8963cfb10
     log: |
-         c712f76b5ac1b790a3c9996ef490346a0bbffca1 [BUGFIX] wifi: iwlwifi: cfg: add back more lost PCI IDs
-         120cb8c8c98d73769ef333491e7072d2cdde3ea9 wifi: iwlwifi: tests: check listed PCI IDs have configs
-         041b58c08efca57bca7377a54dc94ad6a6a24d74 [BUGFIX][NOUPSTREAM] wifi: iwlwifi: mld: support testmode
+         44d9333fbe6004fdb6093ba0c9ab4fe636c69fc1 NFSD: fix misaligned DIO READ to not use a start_extra_page, exposes rpcrdma bug?
+         222f2b6f07b4fd4e3456580b9caa8dc8963cfb10 NFSD: use /end/ of rq_pages for front_pad page, simpler workaround for rpcrdma bug
          
