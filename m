@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8877630054805005222=="
+Content-Type: multipart/mixed; boundary="===============0352985353730416949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 30 Aug 2025 09:18:58 -0000
-Message-Id: <175654553875.3244427.18113043271747622695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 30 Aug 2025 09:19:03 -0000
+Message-Id: <175654554302.3244594.17293367474956011489@gitolite.kernel.org>
 
---===============8877630054805005222==
+--===============0352985353730416949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next/dt64
-    old: e28c1117deda5a80df14b579170c1a90fc82bf5f
-    new: a874b387213bd80b1288884aeb427cb7599eb5ea
+  - ref: refs/heads/master
+    old: 7551c2cc18222ada29e4dc895496bde04a950a83
+    new: 8cf3401ff53765acf9e1909bc113f7246fb26438
     log: |
-         1219992e16689f4937a333c98d90cf80ba91860a arm64: dts: exynos2200: fix typo in hsi2c23 bus pins label
-         ad8ea30db80f825215d071370989b8ac45298a1a arm64: dts: exynos2200: use 32-bit address space for /soc
-         0dff00633bbc8566fed6483daddddfa0dfdcf83a arm64: dts: exynos2200: increase the size of all syscons
-         1bc8f09ce98ca8a56f2059c9a8fe26cc351318f0 arm64: dts: exynos2200: define all usi nodes
-         b3a62f6c3573e448e8b0697a622e7bba0ddf9945 arm64: dts: exynos5433: Add default GIC address cells
-         a75d45adb261cbced86701d2512098044a6d310f arm64: dts: google: gs101: Add default GIC address cells
-         a874b387213bd80b1288884aeb427cb7599eb5ea arm64: dts: fsd: Add default GIC address cells
+         8cf3401ff53765acf9e1909bc113f7246fb26438 assign CVE-2025-38677 on request
          
 
---===============8877630054805005222==
+--===============0352985353730416949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1756545586 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1756545536-40b009a6a3934075d447b839be4426f86dd835d3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756545588 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1756545539-dcdc79658364691e7b3a8efdd4325c18024c65c6
 
-e28c1117deda5a80df14b579170c1a90fc82bf5f a874b387213bd80b1288884aeb427cb7599eb5ea refs/heads/next/dt64
+7551c2cc18222ada29e4dc895496bde04a950a83 8cf3401ff53765acf9e1909bc113f7246fb26438 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmiywjIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wY/EACVX77Y9cwGLpqNQZmoPyuFdlWRURLN9t5D
-Bk3pVIvA1nEl739eQ+G5zzvYNBGqfrZybRngaJam/7mmJl5FAsZlr+HDHhp1DCYG
-zuje3lJA8YDwrcrmyYqkSMQhUTdSoDcHpD3t9VG56ueOdv2eY4i65n/YRqptOoLE
-dBLycUUUaF/FfSzPC1+3cGybyqjtNktB4vOnfW3bhMejN+oTH2yFL5N5R4wVXFre
-rvqsIbz+n2CIe2HRBlc1olpLJHWcNYgNwWLy+88TxG5jcdpHgvvGeMBFrffy1X9G
-0ZmCRdFCpj5+79uZaEUyMWdt6UvWgNFoTD/jjvG+j7nhs8UgUCMb/QtglKE9OysE
-xh4fjAcLkJXsnS5xkZN18UQheu1dpNSjS+zX2GnLpfI1D2wjFhnm2M8ISN4h2WU5
-adWiUo/LIm5DAUp08gOQrPprS6JK4vfj/CX2tB+vZ3L7YOMi06MuOH4N5h6KEN3L
-4zbqethIvpmvOv5ZCRnoAgLGdvU0fxafZ69h0lCu5TpC+93o3Ug4MSVnro/8Unbb
-9PqPM/4nCLsClmsICgg9lqH1yTyfH3eSAn4agciSdBvuMc3fRNDxMuwB+dVYdpb7
-/oMQkrtTTIg4aLVq0WhdY+i/kyoriqfn9FkfWSi50abSUtfv9duPCH5FIxGst7CJ
-o5AVSzehsw==
-=GN7Y
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiywjQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eK8QAL4cFn++z0daaXe4eU5o
+HeSCOccq9CA2UXPtKQQM6ObRd1XpVZQbMz6TvA0iHV0zVpGc64pQczKegL1TgtJv
+Bg7JtY6htHWajCxjLEiWrhJuhTeJmQwASMTytohkToJffkj0EjiMbRtD0SNaEUxe
+ui2+d0G21NyRennKP5pAL65W219GK8wMB0jEDW9uiFE4OMtxclu6PWSeoIkbqZso
++RgGlsE8W4LEnaOpkZ34UVY8V38Hc9pUHfRvIoOpubydRVi400FTwCRDjsQUJwi8
+MWMo68as8/FUMNX9j14wbYtdT6a6sJFI/Uu3xj3/0s2bEeaz0m4yT1d0gwgRTL0c
+Q8ikU9MWwZ6+00UAE/HYy0yw0bwsmQ/XfUXFQe/NCD1sdHpgf0kQZFED78iNbCOc
+sLZQsEyr2fCnOIG7fkQxz0G9Nm26CtpDtSfQ2243FFDWk0riUNzyBkBrBp7KHGGT
+xp2kbODs/Y9+WjNr+TBsy9vBic8t2GofS1+QFjE+OAuVudY55n9+AWq/P20+S2lR
+2VDHsQ7yyHkFkT22UHbv+lGrlyIUZmAv/HsS71pDRqaONuNhG++c+pCfaRVh2REU
+p75c2OWuV2zlmcNBzxs7lWIAwWKIzebMjG87R445YcJL6JeqD3uJrzQuV9JeAugz
+lts2aFsvQMP8L3uvbi8RB4Kj
+=XVZd
 -----END PGP SIGNATURE-----
 
---===============8877630054805005222==--
+--===============0352985353730416949==--
