@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0819978473062132990=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 31 Aug 2025 05:13:24 -0000
-Message-Id: <175661720458.78206.354852255162800047@gitolite.kernel.org>
-
---===============0819978473062132990==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sun, 31 Aug 2025 07:20:32 -0000
+Message-Id: <175662483216.179661.18124671881371993338@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 5b9057cfafaaabc3c91a4e3e3bec024651737e66
-    new: 2d2664fdd7c705a64284b0c6e2745bbe1c859ce2
+  - ref: refs/heads/fixes-base
+    old: c6b819e0058e5f34cb274018e1f5cd5b671cec7e
+    new: 6300d5c5438724c0876828da2f6e2c1a661871fc
     log: |
-         e27f158cf1e98d9a541282ef4b36dfa4427bf361 peci: remove unneeded 'fast_io' parameter in regmap_config
-         2d2664fdd7c705a64284b0c6e2745bbe1c859ce2 Merge tag 'peci-next-6.18-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/iwi/linux into char-misc-next
+         fad2cf04e91fd3c4310731537bf98d1f8a0b4137 scsi: fnic: Remove a useless struct mempool forward declaration
+         823f95575d85454ccad7d5b684aec42e57b962f6 scsi: ufs: ufs-pci: Add support for Intel Wildcat Lake
+         9dcf111dd3e7ed5fce82bb108e3a3fc001c07225 scsi: qla4xxx: Prevent a potential error pointer dereference
+         eabcac808ca3ee9878223d4b49b750979029016b scsi: ufs: core: Fix IRQ lock inversion for the SCSI host lock
+         e5203d89d59bfcbe1f348aa0d2dc4449a8ba644c scsi: ufs: core: Remove WARN_ON_ONCE() call from ufshcd_uic_cmd_compl()
+         9ee35fd43f94bf19dbd27cffc213a31314b623d2 scsi: ufs: core: Fix the return value documentation
+         09d57d68ba9a36117eadb75d3ecf817a3c091acc scsi: ufs: core: Rename ufshcd_wait_for_doorbell_clr()
+         6300d5c5438724c0876828da2f6e2c1a661871fc scsi: ufs: ufs-qcom: Fix ESI null pointer dereference
          
-
---===============0819978473062132990==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756617253 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1756617203-8972d6f319b6915bfd496da634deb33c57c0fc2d
-
-5b9057cfafaaabc3c91a4e3e3bec024651737e66 2d2664fdd7c705a64284b0c6e2745bbe1c859ce2 refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmiz2iUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BKgP/0arpAnAXXYiGpz//btH
-2ZbFf9g1miLbhLjLTaLDUW3dW7mGoucw/mn3wbWQsL/xIuF5TEZpMi+cmusbpbZ5
-yKp0VVqKGEbOKBmVZ2m+jigbYVW70qUycwzkM644/HJGQEIljgvXTvJMa8bpc3ue
-eZ+fsr1Pe9/bfb0TqX7uturxgPXF3sRqweLlqqzX/ErUxiw0SlxXZ20Qj3jXwnb7
-+bC7RsoOdo19fVQqTvtvsBoWDGT7P0k2MbGBJMF7DpNDGOPcK64m7jXVF7RyeXeq
-69RqFp0b6pnwfWOicXwsafzuc1Lof9Zj3k9XeQseWEV71OmKx7hZ1ob4YQf9OWP5
-M49UHPT0wZlHxlc4OGpQT1jOuRApIRhjzx/vRFrYkh5a6fgwMahTfBmPeDA1skZM
-8IBPaJtHVy+ikMg0DyPaczFeflm71+ipj6e+j9PBSxnGY4toljfXzC1q88BrnEOo
-Kgoc7GasnSSG/toHNZ47OwfpfVx0RMSv4vLdhsIHi3AoTCzd+5RnlrPTo5gdy6m2
-cMdYoJ4ky9NSOR9HCAdQyKCkw1baEH8FTHtieAuFkP8rxZfCdBNoV8k8KbbexJJx
-5qGyQLHbb8Cand61bkWGHFM/SfRf6UK2iV/+3Q1f9jUg+q9hRkvO8GiLrT5IkVRW
-3veg/NZ/kiHCIdHwi46moH4I
-=6Vc7
------END PGP SIGNATURE-----
-
---===============0819978473062132990==--
