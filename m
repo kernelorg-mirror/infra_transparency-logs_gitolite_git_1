@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1544902131188704605=="
+Content-Type: multipart/mixed; boundary="===============4511364367043662380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 31 Aug 2025 23:33:31 -0000
-Message-Id: <175668321183.971743.3101450555903826629@gitolite.kernel.org>
+Date: Sun, 31 Aug 2025 23:37:01 -0000
+Message-Id: <175668342189.975508.5716293234325153625@gitolite.kernel.org>
 
---===============1544902131188704605==
+--===============4511364367043662380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    new: b320789d6883cc00ac78ce83bccbfe7ed58afcf0
-    log: revlist-1b237f190eb3-b320789d6883.txt
+  - ref: refs/heads/nfsd-next
+    old: d3a94fd82de33c1d6ca5df35e73f7e869c2f250c
+    new: 4a0de50a44bb11ea67bb3ca961844b55ac57cf05
+    log: revlist-d3a94fd82de3-4a0de50a44bb.txt
 
---===============1544902131188704605==
+--===============4511364367043662380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b237f190eb3-b320789d6883.txt
+Content-Disposition: attachment; filename=revlist-d3a94fd82de3-4a0de50a44bb.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -321,5 +321,29 @@ c9e4e96185f45f410b3d0b09c9273c7da5a5c660 Merge tag 'irq_urgent_for_v6.17_rc4' of
 fe3ad7a58b581859a1a7c237b670f8bcbf5b253c Merge tag 'sched_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5c3b3264e5858813632031ba58bcd6e1eeb3b214 Merge tag 'x86_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b320789d6883cc00ac78ce83bccbfe7ed58afcf0 Linux 6.17-rc4
+da2742ee31676514a891733ea295c89d1e6eb29e sunrpc: fix null pointer dereference on zero-length checksum
+dce7ed8713102f3bec01e44f0f78c234ad004c93 NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+5cab6aa4fcfa0776a2c931a1f506dae1f22efec7 NFSD: Move the fh_getattr() helper
+4af12e3b6960cd9d24012846dcd052a109a601d1 sunrpc: delay pc_release callback until after the reply is sent
+df8e96311d3bbc49e5a64fc3274ed5e1dd8e7ec7 nfsd: discard nfsd_file_get_local()
+421f864330e6c1d12418b904d43b47fadb4a65f5 sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+25a0b1355507b7e4c528f1137070d870aa404a67 NFSD: Rework encoding and decoding of nfsd4_deviceid
+ccc3afbab8fb32e073f9258805d94f51228f1642 NFSD: Minor cleanup in layoutcommit processing
+96103d87e6ee31631c2997763dbb90e619899a37 NFSD: Minor cleanup in layoutcommit decoding
+6505fdc9e064e6072818d87b4e4031bc02812fcf NFSD: Implement large extent array support in pNFS
+e67706ed66937b7f25a4c1211c10009d975d04d8 NFSD: Fix last write offset handling in layoutcommit
+77fe515a9e8e9b84f4865b733e2d7bc9b5ccc70e nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
+e9fb7c0eaca0952d3775d1c9582d70b2d3e4c189 nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
+37de4a021bfcaa748693088c84a374a683782f5e vfs: add ATTR_CTIME_SET flag
+5d0bba8bc6d244803d4745d873dd6cf41fbb1000 nfsd: use ATTR_CTIME_SET for delegated ctime updates
+1d75bf5130c3b2f6b58472bb82372a9779c9af57 nfsd: track original timestamps in nfs4_delegation
+478bd0dee0df6a0b26c5fd2a5ae29536e6c5f32c nfsd: fix SETATTR updates for delegated timestamps
+214f92ea693e168d3a5c553ab54132a6862af422 nfsd: fix timestamp updates in CB_GETATTR
+b9e0414ec07a10f3fd724c80316d41d07d115195 nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
+a9037af5442b599c6ae4581fe6b20dd3ff5604df lockd: Remove space before newline
+e534e9a25e02cefab9a8b379d0218d1730feb6e7 nfsd: Replace open-coded conversion of bytes to hex
+f67596051f7433e90698a92184dcf2c2af81c27a nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
+657a525ad243aa9134d0432f2162b81c3ee3652b NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
+4a0de50a44bb11ea67bb3ca961844b55ac57cf05 nfsd: decouple the xprtsec policy check from check_nfsd_access()
 
---===============1544902131188704605==--
+--===============4511364367043662380==--
