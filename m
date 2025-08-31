@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8101969576254942318=="
+Content-Type: multipart/mixed; boundary="===============3719914046070574784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 31 Aug 2025 02:11:29 -0000
-Message-Id: <175660628960.4074301.10510950417863219235@gitolite.kernel.org>
+Date: Sun, 31 Aug 2025 02:11:53 -0000
+Message-Id: <175660631380.4074623.5776478234575245324@gitolite.kernel.org>
 
---===============8101969576254942318==
+--===============3719914046070574784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,48 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b
-    new: d6477ee38ccfbeaed885733c13f41d9076e2f94a
+  - ref: refs/tags/mkp-scsi-staging
+    old: 0e89a94429bd5422b734e59a93d67e17abf44551
+    new: 4474df3e219e7f1d1e560763ef971f502f60f8fb
     log: |
-         00f4699872d0e2f5d4c5593fcf0a6814472c302b scsi: aic94xx: Remove redundant code
-         d6c8e8b7c98c3cb326515ef4bc5c57e16ac5ae4e scsi: mpi3mr: Fix device loss during enclosure reboot due to zero link speed
-         829fa1582b6ff607b0e2fe41ba1c45c77f686618 scsi: mpi3mr: Fix controller init failure on fault during queue creation
-         b7b2176e30fc8e57664e5a8a23387af66eb7f72b scsi: mpi3mr: Fix I/O failures during controller reset
-         a4ca63001e1a8ac0b3e4a3333c6a49c8425be476 scsi: mpi3mr: Update MPI headers to revision 37
-         4af864784d8000b67b4279e68283d9f3bf420c05 scsi: mpi3mr: Fix premature TM timeouts on virtual drives
-         80a403427d35f6c7d3706d1006f1115672199465 scsi: mpi3mr: Update driver version to 8.15.0.5.50
-         e5e11f666d5c35086b89544bf1c512ccc80f1b9c Merge patch series "mpi3mr: bug fixes and minor updates"
-         d6477ee38ccfbeaed885733c13f41d9076e2f94a scsi: pm80xx: Fix race condition caused by static variables
+         6d55af0f0740bf3d77943425fdafb77dc0fa6bb9 scsi: ufs: exynos: fsd: Gate ref_clk and put UFS device in reset on suspend
+         b5f717b31b5e478398740db8aee2ecbc4dd72bf3 scsi: sd: Fix build warning in sd_revalidate_disk()
+         d842da6924a9518346a2042db0d24bc77500efae scsi: sd: Remove redundant printk() after kmalloc() failure
+         11e6fb38bde51cba411163f95a32db84d5d220a2 scsi: sd: Make sd_revalidate_disk() return void
+         bee3554d1a4efbce91d6eca732f41b97272213a5 scsi: pm8001: Use int instead of u32 to store error codes
+         44b6169ada7fe3cf4cb91e6b06019eaa22719f28 scsi: fc: Avoid -Wflex-array-member-not-at-end warnings
+         80093afdcc484ed7f96d743283932fb40739fe11 scsi: csiostor: Fix some spelling errors
+         e02436d37a47346fdeebe0f65e5d19c0b9f87eec scsi: qla2xxx: Use secs_to_jiffies() instead of msecs_to_jiffies()
+         b620462bba6655b47d127db70d18123c7af522d4 scsi: ufs: core: Move the tracing enumeration types into a new file
          
 
---===============8101969576254942318==
+--===============3719914046070574784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1756606337 -0400
+pusher 75C5DE3D 1756606342 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1756606287-5884c65e0a7762bfaf7ba49541a3b9cb8f692add
+nonce 1756606293-576125a04f94d977d6053aa06109bac1adecf4ec
 
-edb35b1ffc686fd9b5a91902f034eb9f4d2c9f6b d6477ee38ccfbeaed885733c13f41d9076e2f94a refs/heads/queue
+0e89a94429bd5422b734e59a93d67e17abf44551 4474df3e219e7f1d1e560763ef971f502f60f8fb refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmizr4EACgkQ7ulgGnXF
-3j0h0Q//T9DHJ5pcLVSMeAxbA/y3tjr+K1iuT76cPLf7wMk82WJwir1pC2cnxolH
-Ixg/SOhukLSceO7sz6blHNib352djOTsyCc3pDEU18MR7dBMMOIPL2G638vshu1j
-Aw7rQ/D+kGXYtigfQDqUrF0gnU6dDdNkZ3rMMMunBQcRpZSVNCeiXsPNVsIIIPS/
-Fncz291yhpM0l1+4e3bLa//BCuynuJHWlYjsdeaLh6DR0NmQ3EJoAGPfEIPqa/S8
-F9TwoEaN+Py4JFlsPzL5IQo5zR0XkZSeKZSmVJYUeyrVqiD7QksfxOeWQMZ2F2ig
-Wzmhk/Vw5ssrXcImt6tX/zdHG1lUiBNP++0EwcxuZqUN0KxESPd+CPeucF20rc/B
-SGpRh4bNScmdXLnw1fxaioCA/O/JGeVJPock/5SErmxZXryRp8NHq/AhhvSFwL1f
-lkF02xpsZpWQ+tHmf4ILHw0pkujeo9AGVRzGZrleI3jxlvkB/IGYvLte2ESjXo34
-k5vOpH/fbNU1kDHDRvcqVSUavUYyY3IHb5LVyYc8gg5RZOGmasTUd/DrwmOa9rGz
-mnJ19xN2Ifzi0n8Js+1fLX0z8/qt0mF9wMrJ/4DdIu2PqcO7mB+7aWsEjA8Jh5oQ
-tDtlQn97VFBj+I1Gn+goxdoI/FEZ6gfkSifUfMF0ouszWGVw9Eg=
-=cphX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmizr4cACgkQ7ulgGnXF
+3j0o5g//UGjjfNYtBXKI7q4lGqZznb3PcNZ7cm7AAVHEEsSdfnH/S0yI66OFaLwu
+we3O3qxHsdr19hTjODdoptLgo+qN1wSobhJW9eC70p3/74uZuNZNCeaL8pqmLOmV
+dvNIlObp15U4aW+n48w92TNoT8rTdIJ1W6cDDv/jqCj8Py8rxcOK7j+ss9vKEL5p
+hPogqbQ4f1mmKyjQ8ogi0I8T4q5Hv5Zlp9kwbVTfVz9XTZx51Kt95i/ns2R7N3FU
+knpif+Q5JQMkgDaF0OAxnQgsE8VWvQUNn/c5Ji5fSxwXdiGINvnG+luNvW/niFso
+Yg+KkyYYBC3ssrVzhDBECAH8eIsl/cIt/vUhxjc/U5paaR/8fOd5Wkcpcaz1YHVN
+xNaLjbcbIlEjk90UpKNaPyUE/s4LgITSTDTOAvjLvjRSDO9Sn1eE84UUKnTDLV4e
+0gUffZUyiEhx8vd8WNr/Oh1/lFotqU5ynhyhlpbakqzuX+Gf8Szh1WWWaE4i7Q7g
+HjVNqXD2gtVcR1rXeKHLZKBfjZe6ZLdJI79S06XIAOt290kMVUTWwmIm8mvVE/bA
+NfQM6KtniwSp2f1I6EtIiQCa6cwiCJ1r50g2wZdotBiXPeEyizWxPhnPiiMk3C/4
+Ykcc4UecEBle2ozSG1wFpvfQfJM6oxmyOst2SW2t8cqygT2meEs=
+=mj7B
 -----END PGP SIGNATURE-----
 
---===============8101969576254942318==--
+--===============3719914046070574784==--
