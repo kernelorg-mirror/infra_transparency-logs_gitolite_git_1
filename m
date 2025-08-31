@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4811286042637196563=="
+Content-Type: multipart/mixed; boundary="===============0332594609095574117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Sun, 31 Aug 2025 10:58:42 -0000
-Message-Id: <175663792236.354982.18100887241749605161@gitolite.kernel.org>
+Date: Sun, 31 Aug 2025 10:59:38 -0000
+Message-Id: <175663797868.356127.6995575088192840831@gitolite.kernel.org>
 
---===============4811286042637196563==
+--===============0332594609095574117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
+  - ref: refs/heads/for-next
     old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: a29bf0b10a1a7f51afb91c1ff9edd73b0ca1fd18
     log: |
@@ -24,34 +24,34 @@ changes:
          a29bf0b10a1a7f51afb91c1ff9edd73b0ca1fd18 arm64: dts: socionext: uniphier-pxs3: Add default PCI interrup controller address cells
          
 
---===============4811286042637196563==
+--===============0332594609095574117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1756637970 +0200
+pusher krzk@kernel.org 1756638026 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1756637920-cca757902b3d955065d1885d785af92d60c1e7d6
+nonce 1756637976-dbc56b357c1b9fbde727d2e7e256025b6ebc0ec4
 
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 a29bf0b10a1a7f51afb91c1ff9edd73b0ca1fd18 refs/heads/next/dt64
+8f5ae30d69d7543eee0d70083daf4de8fe15d585 a29bf0b10a1a7f51afb91c1ff9edd73b0ca1fd18 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmi0KxIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16Z9D/9hjRqg9Byavy7R8DEM3eZ8HPzD8l39bqjH
-ooxbwTNNENlfnsp2yWtKwD1OJK0ewtEfxRSRMyINYA5JuyyBYjE8P3dueOz11iI+
-OwjS+S8f4pQ0ipDIdHIq3A8USHyt/awWtNb0m2lmAWX95FjimDGxCrGuERla7J72
-AlXG7T+ASw4sYX1R2Pf7A5mrAhBSvWQmxaQB4QGG42Bv9Pg2OzZDzdtCMgonRvA5
-sA6CR68Rn9t+QSvMakglgbuzHYsx+mRAcWvyZT6u7JrrQInyn2QzT7GyJ56WeGmk
-d9hXaZRMMapjpBzWg+KwTMI+06Jm3xrIkeVy2OnppESP2iBpj+KeLzATxgvgPVVj
-eja8Qwj9cyS1rfMpRG0W8lpALgVoxmjqopCQUScW+1Smjqmsqt/Jr7wCdODIdBEH
-klzeA1qy6HYpOSyzbVh16ShV+ZTFiVmJPQx5WNlBXtUJyz7hDP7MPnmadTDkYHKX
-q5V2zrcE6Aix4gVyVMvG/4l4rv4RgtqVxA3i6IAA/hNIoJ+hYxLnBWh0rQT9RCki
-ZjF9YaXCQ///gWlmgmd78HxQbu46oqMFBXvoJ/gRFgfG0rVucS0wpl5/f7U11E7O
-Jm9P7hvPLPJ8v7A2YizWSbnao54WLApmk4T9nISIahAtpGNvm19gjRaFg2o2ZHEl
-Md8+naH5Pg==
-=4qYS
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmi0K0oQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16/wD/9B4h3iw9eqwjSXDz9F54vN92DJ5713xtvS
+0Gye+Pw5GiMXJBrIDKbYbJ7y2c97Vu4fGu02ABsBsztwzVAJ6AKSbJ6rQIdcHSDy
+qnNb0v/L0anxrSbRTSvQx+/Tnzy88Nkxtjj0vRuV7Kjxr4Eb83n+AaPjm5FWJxV9
+7m7I4MZrm/eMyr933KeNWMKVf5x2WxJWNZIQ9MpBbpxmhTsIG9GHO/sBMA11QByZ
+v1ae4krV4DM10KITWT3bKlc1LERPFpYobHnfvWbH1WIt7z0i0PwqjePKSaroN7iQ
+qMcOr7ka5EwHKLHT2oXkFHagEkU4q4wP4FKH3T2QJPC7CwMZztKguztlc44DhZDZ
++gbAkxFNv5QWGxvznToPBAULfYspDMqAszPd8Ng0sK1abKPJUhuT2nWx3pW3IlGm
+ZgrVGB5dkidx8Tcu0e+MKkJwex52nPjdO8mGjcJqOnH/p2IQk6XPgi0ywTKDPum+
+lx/LM7bzQVk/JT3R/H8Y2Kub3YmA+lq+K6dwI0IW+D1VTww1S0kjl+Vxltaas48b
+3Hl3XLrdWJsEjFtiiVCsSE71c+TVyvEjm38ceDa939sf5L8ZFnrqikbOzHqH1nOt
+BZWSvtQdJBRLh0SydGNvnnqqxtFPEwoFc3oYy4jeuo7FzOlNrER5II89zy9HhqrB
+gW106IBWFw==
+=1A+8
 -----END PGP SIGNATURE-----
 
---===============4811286042637196563==--
+--===============0332594609095574117==--
