@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 31 Aug 2025 22:34:46 -0000
-Message-Id: <175667968698.924199.1550263237686292433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 31 Aug 2025 22:41:48 -0000
+Message-Id: <175668010803.930881.230962529309362689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/hwmon-next
-    old: b87f24cc95927000576ffc84b03e6d1550c617e0
-    new: 82f80a912c7fb5ca115d3009373798c13777d111
+  - ref: refs/heads/master
+    old: 5c3b3264e5858813632031ba58bcd6e1eeb3b214
+    new: b320789d6883cc00ac78ce83bccbfe7ed58afcf0
     log: |
-         82f80a912c7fb5ca115d3009373798c13777d111 dt-bindings: hwmon: ti,ina2xx: Add INA780 device
+         b320789d6883cc00ac78ce83bccbfe7ed58afcf0 Linux 6.17-rc4
          
+  - ref: refs/tags/v6.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
