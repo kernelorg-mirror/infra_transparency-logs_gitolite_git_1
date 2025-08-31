@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4511364367043662380=="
+Content-Type: multipart/mixed; boundary="===============1592138663785284363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 31 Aug 2025 23:37:01 -0000
-Message-Id: <175668342189.975508.5716293234325153625@gitolite.kernel.org>
+Date: Sun, 31 Aug 2025 23:37:18 -0000
+Message-Id: <175668343836.975831.13015376327042370191@gitolite.kernel.org>
 
---===============4511364367043662380==
+--===============1592138663785284363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: d3a94fd82de33c1d6ca5df35e73f7e869c2f250c
-    new: 4a0de50a44bb11ea67bb3ca961844b55ac57cf05
-    log: revlist-d3a94fd82de3-4a0de50a44bb.txt
+  - ref: refs/heads/nfsd-testing
+    old: cc528e91fe7acd0636aa7b05c63fae686100f66a
+    new: dfda9db9514bc1f0ae3f9ca1f693eb25d1042732
+    log: revlist-cc528e91fe7a-dfda9db9514b.txt
 
---===============4511364367043662380==
+--===============1592138663785284363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3a94fd82de3-4a0de50a44bb.txt
+Content-Disposition: attachment; filename=revlist-cc528e91fe7a-dfda9db9514b.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -345,5 +345,15 @@ e534e9a25e02cefab9a8b379d0218d1730feb6e7 nfsd: Replace open-coded conversion of 
 f67596051f7433e90698a92184dcf2c2af81c27a nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
 657a525ad243aa9134d0432f2162b81c3ee3652b NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
 4a0de50a44bb11ea67bb3ca961844b55ac57cf05 nfsd: decouple the xprtsec policy check from check_nfsd_access()
+df03f5558ba979ad05d1548d0ca9b5eb777bb809 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
+5bbf32481b19d3b9954020654e4f1ffeeab9a0b1 sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+639e64431b8a920ec4f2864d68ba40b2c7adc180 NFSD: Drop redundant conversion to bool
+1c20cc0b6f86e2f383bc28ca563f0bbd5194cdc7 nfsd: unregister with rpcbind when deleting a transport
+bdd536968c88da993c227ae4b13502caea4030ff NFS: Remove rpcbind cleanup for NFSv4.0 callback
+774d8c5099f7cf918d17c451fb55c38b1360d58c SUNRPC: Move the svc_rpcb_cleanup() call sites
+9ecbb3ca150e555f1f699e1d35f398f52e83c546 NFSD: Delay adding new entries to LRU
+16b655d64cf72c3c548cb15c3000ceef0b731769 NFSD: Reduce DRC bucket size
+895aaccf36cf42d0f968b482c00189ee3177f474 nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
+dfda9db9514bc1f0ae3f9ca1f693eb25d1042732 siw: Enable try_gso
 
---===============4511364367043662380==--
+--===============1592138663785284363==--
