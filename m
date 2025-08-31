@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9208774533397697369=="
+Content-Type: multipart/mixed; boundary="===============2173417684686189889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 31 Aug 2025 02:10:57 -0000
-Message-Id: <175660625733.4073400.7342710783696800829@gitolite.kernel.org>
+Date: Sun, 31 Aug 2025 02:11:20 -0000
+Message-Id: <175660628079.4073869.2139481582615002904@gitolite.kernel.org>
 
---===============9208774533397697369==
+--===============2173417684686189889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,48 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 6300d5c5438724c0876828da2f6e2c1a661871fc
-    new: 708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe
+  - ref: refs/tags/mkp-scsi-queue
+    old: 7fbb5969f3122f303a2c1ba0c8b2f8486666b04d
+    new: 623eaede4890f1ae29c2ed8b06a92d222d87a804
     log: |
-         9dba9a45c348e8460da97c450cddf70b2056deb3 scsi: lpfc: Fix buffer free/clear order in deferred receive path
-         708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe scsi: sr: Reinstate rotational media flag
+         00f4699872d0e2f5d4c5593fcf0a6814472c302b scsi: aic94xx: Remove redundant code
+         d6c8e8b7c98c3cb326515ef4bc5c57e16ac5ae4e scsi: mpi3mr: Fix device loss during enclosure reboot due to zero link speed
+         829fa1582b6ff607b0e2fe41ba1c45c77f686618 scsi: mpi3mr: Fix controller init failure on fault during queue creation
+         b7b2176e30fc8e57664e5a8a23387af66eb7f72b scsi: mpi3mr: Fix I/O failures during controller reset
+         a4ca63001e1a8ac0b3e4a3333c6a49c8425be476 scsi: mpi3mr: Update MPI headers to revision 37
+         4af864784d8000b67b4279e68283d9f3bf420c05 scsi: mpi3mr: Fix premature TM timeouts on virtual drives
+         80a403427d35f6c7d3706d1006f1115672199465 scsi: mpi3mr: Update driver version to 8.15.0.5.50
+         e5e11f666d5c35086b89544bf1c512ccc80f1b9c Merge patch series "mpi3mr: bug fixes and minor updates"
+         d6477ee38ccfbeaed885733c13f41d9076e2f94a scsi: pm80xx: Fix race condition caused by static variables
          
 
---===============9208774533397697369==
+--===============2173417684686189889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1756606305 -0400
+pusher 75C5DE3D 1756606310 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1756606255-8fa59694b9592be498cd68eeeca6e07693b6e8e6
+nonce 1756606260-af5797dddb885f35a04b1bcf465dbba9487299e0
 
-6300d5c5438724c0876828da2f6e2c1a661871fc 708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe refs/heads/fixes
+7fbb5969f3122f303a2c1ba0c8b2f8486666b04d 623eaede4890f1ae29c2ed8b06a92d222d87a804 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmizr2EACgkQ7ulgGnXF
-3j0qJw//UroxI8W7OkjZzb2cyhFDoILQ2pZrrE5S+uexqs7e74bB/AdMstnB386t
-2LLn1lGkRKSGJjeIzm03b6II66DYCaHaJBG0m0aEopqOMvYGIyv4BLegfzRX81K1
-PCPA3b+JKAGLUmmjs1UTKl+xAMtPtrZXauft7BxAyxpGKoE+C5QMcSotmZVzBYt2
-Z9dd3i6Wkq2ZmVHDU7j7kxudqizr625S7/TGuaKRVkaQLPUJo+tnMeV1Xm3Vdtew
-wUqAXbhFkpl1HOm0sqoTJipCPanOBSatNmY3ILMbsLyV7tWD1UJsvX3AS+rp4HfY
-+L+EE6RuhUOOytUS0UP3+MXnHuOKP2M7LjL3jZsLV/GQ74N/sLTVUBOSvdvedgCu
-I5TsfdOfIMQ9ZkhW56Eg5bdalo4Hhn/dYZ6ygGRCNTbnFa5InRHxeFoC1v+krI+R
-Vf7EbVBITXUWNSsN4U1TMZzCTH4Kjg4Q/EOw9NMttB3BXTo2C0necBJhMcNEip4+
-QLEkDbsIJdAUBiJXBa27EVCectalHMlA/TOK+S7bOwp6NAWEAqrYVqoRbiQOSTT5
-abMBDtb9FxMERFX/iECfgxg1ybWISX0L4/tOd/liJHvfOaZlR5ZUAk8ezeCucfPE
-B0AzmF343BDBTHLB5Tq1WSkv/ciGKRO0BJC4exRGoewj3rMLpJg=
-=f1Rq
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmizr2YACgkQ7ulgGnXF
+3j3wZg//btLTiMH6p8/oyW5HskKCBgMe8ij2TJ/z3LqVjQ2PJ9sPyuuUeCauE1T6
+LbqTux4BF4UNhkucjHXdxgKtx+g/mFX1n+AUjpk+I1FmAmFUHVwncPUH7Gp7P5Tw
+dosMP4Zxij9gZlD4I08Ai+YU82k/rpxTHkrFTGLUcQ4i1ABvHYH13xNce3wxyALF
+IS5jPO0HnKnrlDPElWvkPEBCieLL7a5Bx9bA0BZuAurYsayKgRiIxd1pW9fQSvCh
+ZMxrQJYn7DjZYMWaJSZ0UoL21HKNM3RSyD1WKyKQlYp/PRnWD1xU1AUNVCWtzW33
+BorOe15YwbBkMrgtwnlxdbcC/MTN9Fa3gCHJy9Mi3XAfn1lzy3DWxpaZlihNMQY7
+4SBB/F9FJwSqUIYtQEP9497ijAFTceCbdZ1CT9CDD2TF3N3t9UdMLRloiqrq4Oj2
+2RLFYwnohpzPDG4AEXlkKsfgsgOk64vptqe8oanIh5+sOvPHpr79fcMA2732r7JD
+GUN2on9hfW4kz6LeSBF91w++WekaGBwZk/vl9owEgWk+TwvoT3c3414hp9qnLjt9
+npa2/BpcCQew1MaIZcHLJv6XtNnZ+d/gxBdtXJwpegkWYiG9vWxrYGcPVyXjBb+X
+2crHjHGjUCkHLPIRugQF5qKFD1Zx1DAAQyjWeSDMvAUiF4JeABw=
+=rsep
 -----END PGP SIGNATURE-----
 
---===============9208774533397697369==--
+--===============2173417684686189889==--
