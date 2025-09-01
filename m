@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Mon, 01 Sep 2025 00:05:24 -0000
-Message-Id: <175668512419.1000840.14158027365626204524@gitolite.kernel.org>
+Date: Mon, 01 Sep 2025 00:08:59 -0000
+Message-Id: <175668533933.1002502.9379017218481999963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
-  - ref: refs/heads/zerocopy
-    old: 237ad19270d9bb378f0e77ffd12dbcdf4843ec8c
-    new: 139d1c7a2b617d1fe790da97c4880ec555e2a812
+  - ref: refs/heads/main
+    old: f5f6331c1b48ef4ad302fc8b63040b17e3792527
+    new: 4e2148b85a233ab8218bf55d0f806de76ddc4f7a
     log: |
-         139d1c7a2b617d1fe790da97c4880ec555e2a812 feat: kick off zerocopy with TpmView trait
+         4e2148b85a233ab8218bf55d0f806de76ddc4f7a refactor(integer): use tpm_integer! for u8
          
