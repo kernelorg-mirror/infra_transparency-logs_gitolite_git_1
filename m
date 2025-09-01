@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 01 Sep 2025 01:47:32 -0000
-Message-Id: <175669125285.1089715.15810800557993839224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Mon, 01 Sep 2025 02:13:52 -0000
+Message-Id: <175669283211.1110009.16490436529637473199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: bbac36b520bfd0f273f45cb9d64c8dad722999ff
-    new: 71f89ba56bf63e8a870871ca019e55cf38cd57c1
+  - ref: refs/heads/0.10.x
+    old: 12ce9a76f7dc46400735a2e45a766500103bc9e3
+    new: fb1e3cbc51c534109f9e2683a382765fda3597a6
     log: |
-         71f89ba56bf63e8a870871ca019e55cf38cd57c1 patches/next: rebase to latest mm-new
+         2ebbedcfd5094bc884f90eaaf3d3290febc48f73 fix(message): correct wrong field type in StartAuthSession
+         79477857b210ac66f350317ceb29cf55b81ed468 chore: bump version to 0.10.16
+         52c3673afc75749763876d220708becc76783608 refactor(integer): use tpm_integer! for u8
+         e4512a6a8054d7ebfc7a0870e2170e541c572806 chore: bump version to 0.10.17
+         fb1e3cbc51c534109f9e2683a382765fda3597a6 tests: create StartAuthSession tests
          
