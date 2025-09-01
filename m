@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 01 Sep 2025 20:38:00 -0000
-Message-Id: <175675908045.2100406.4661717370021703508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 01 Sep 2025 20:47:21 -0000
+Message-Id: <175675964108.2108610.8623108586719659933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/main
-    old: 030e1c45666629f72d0fc1d040f9d2915680de8e
-    new: aca701c61822d996f38b328d38d3b5d62a9f49b5
+  - ref: refs/heads/for-next
+    old: 8d33a030c566e1f105cd5bf27f37940b6367f3be
+    new: 9f5c33bdddcdb1d83a38cb3ff405dba8c9fde9b8
     log: |
-         d77b6ff0ce35a6d0b0b7b9581bc3f76d041d4087 batman-adv: fix OOB read/write in network-coding decode
-         aca701c61822d996f38b328d38d3b5d62a9f49b5 Merge tag 'batadv-net-pullrequest-20250901' of https://git.open-mesh.org/linux-merge
+         1f9ad14aef064ced0f60caae60c62b989de25676 dm-pcache: remove ctrl_lock for pcache_cache_segment
+         24735771774954fa0ebbe0dfa285752647d327f0 dm-pcache: cleanup: fix coding style report by checkpatch.pl
+         9f5c33bdddcdb1d83a38cb3ff405dba8c9fde9b8 dm: fix "writen"->"written"
          
