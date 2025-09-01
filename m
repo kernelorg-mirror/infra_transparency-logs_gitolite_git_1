@@ -1,78 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7615958644745574804=="
+Content-Type: multipart/mixed; boundary="===============2108783830320488199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 01 Sep 2025 19:48:16 -0000
-Message-Id: <175675609661.2054153.1557913318785016749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 01 Sep 2025 19:48:49 -0000
+Message-Id: <175675612956.2054548.14193258950113020445@gitolite.kernel.org>
 
---===============7615958644745574804==
+--===============2108783830320488199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: e995f10c19acc661d855db0befb7ce7b4bcf011d
-    new: d77fc758a43d64eeeab5134a98c37bd5721f9e3a
-    log: revlist-e995f10c19ac-d77fc758a43d.txt
+  - ref: refs/heads/testing
+    old: dfbbee0907fb30a1dd31ff1a84e1bd34bd824369
+    new: d1487b0b78720b86ec2a2ac7acc683ec90627e5b
+    log: revlist-dfbbee0907fb-d1487b0b7872.txt
 
---===============7615958644745574804==
+--===============2108783830320488199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e995f10c19ac-d77fc758a43d.txt
+Content-Disposition: attachment; filename=revlist-dfbbee0907fb-d1487b0b7872.txt
 
-235399565582d092ff8fb5757eee63b1367ea6b9 arm64: dts: qcom: sm8450: Additionally manage MXC power domain in videocc
-d49e683574537d416aa0fb022d800430e7c045b6 arm64: dts: qcom: sm8550: Additionally manage MXC power domain in videocc
-086079090571910ead0510e756cea14ff3759d4e arm64: dts: qcom: sm8650: Additionally manage MXC power domain in videocc
-ad43a5317a8bda7fd9d6ad5f0b6248ba11900b44 arm64: dts: qcom: sm8450: Additionally manage MXC power domain in camcc
-169ccd7cec9b702778ffb58a436f757db23154f2 arm64: dts: qcom: sm8550: Additionally manage MXC power domain in camcc
-673fa9a42606a755068e7ab6ab92cf61db243149 arm64: dts: qcom: sm8650: Additionally manage MXC power domain in camcc
-38c0af1f3fe437ac2f7a5ddce4f35e0fb8a49aea arm64: dts: qcom: sdm845-shift-axolotl: set chassis type
-4faee358fea854fddba95843c55d9eb9013a4f00 arm64: dts: qcom: msm8953: fix SPI clocks
-690bc19286407cf1c0fc189910a936261ae1344c arm64: dts: qcom: msm8953: correct SPI pinctrls
-73f7dc09f8e363736a3d3509820666e2006ab277 arm64: dts: qcom: msm8953: add spi_7
-6e71c5812856d67881572159098f701184c9356a arm64: dts: qcom: starqltechn: remove extra empty line
-6605a07f441cf1e056ec8ea6e553c893151d5527 arm64: dts: qcom: msm8976-longcheer-l9360: Add touch keys
-19f1395333f80479a3a5fce29e4c7a8255322a9c arm64: dts: qcom: sm8750: Add PCIe PHY and controller node
-99d741245e7a6d8b533511f96fc110a7d89aee1b arm64: dts: qcom: sm8550: allow mode-switch events to reach the QMP Combo PHY
-6cc36611ac7925a6a6bc64c625b85f80d36fa1a6 arm64: dts: qcom: sm8650: allow mode-switch events to reach the QMP Combo PHY
-7b8849178ecf183880dbdf19d853c92d0877a280 arm64: dts: qcom: x1e80100: allow mode-switch events to reach the QMP Combo PHYs
-bdd235f2df6d5d6cf00cdf474970b1e6d177f2bd arm64: dts: qcom: sm8550: move dp0 data-lanes to SoC dtsi
-35f549fcf5f1d99997cd865170fd7cb1bb66c1d7 arm64: dts: qcom: sm8650: move dp0 data-lanes to SoC dtsi
-458de584248a5630878ed11ea23188f6007036b2 arm64: dts: qcom: x1e80100: move dp0/1/2 data-lanes to SoC dtsi
-b942e087564b0c1b0bf1c31c1058a59dfd5df841 arm64: dts: qcom: sm8550: Set up 4-lane DP
-630c05a1dd350822e9166857ab120c0a7269b57a arm64: dts: qcom: sm8650: Set up 4-lane DP
-2e66c88bb2649133da470d2685646f6536d1e0d5 arm64: dts: qcom: x1e80100: Set up 4-lane DP
-6dfa62182c3b2b31b3da5e7e5b87c294dc3ddb5c arm64: dts: qcom: x1e80100: Add pinctrl template for eDP0 HPD
-35fab4bedcf1fb4a7b2e2f6a5e35b43e9447ad70 arm64: dts: qcom: x1-asus-zenbook-a14: Add missing pinctrl for eDP HPD
-540020f93b22219690d591fcfd5081ab3d34ad66 arm64: dts: qcom: x1-crd: Add missing pinctrl for eDP HPD
-d1126668533eedebd6130515c7626af1ef808abb arm64: dts: qcom: x1e78100-lenovo-thinkpad-t14s: Add missing pinctrl for eDP HPD
-c95c1ba079f604c504feb8cf7bb038341e2d7805 arm64: dts: qcom: x1e80100-asus-vivobook-s15: Add missing pinctrl for eDP HPD
-a41d23142d8773614cb2745d7b224e5784cc71ab arm64: dts: qcom: x1e80100-dell-xps13-9345: Add missing pinctrl for eDP HPD
-0e94604702eb9f141ef862b10757d67e3880235c arm64: dts: qcom: x1e80100-hp-omnibook-x14: Add missing pinctrl for eDP HPD
-f6470367bdb2cde247cd88864208db998fed03ac arm64: dts: qcom: x1e80100-lenovo-yoga-slim7x: Add missing pinctrl for eDP HPD
-4b9165960bf2d25817de6f5fda3d2cd07f787927 arm64: dts: qcom: x1e80100-microsoft-romulus: Add missing pinctrl for eDP HPD
-1616877626228a6ef05ddae4017c9b0f65803a8b arm64: dts: qcom: x1e80100-qcp: Add missing pinctrl for eDP HPD
-63727c59a917b6ffdb13d51c251727a3e21d38d9 dt-bindings: arm: qcom: Add Lenovo TB16 support
-d3f600dc452df45f0f404eba65a88f4aecc48b43 arm64: dts: qcom: Add Lenovo ThinkBook 16 G7 QOY device tree
-5fa902fb5716f419915fdb11c6b7e62f5ba7d14f dt-bindings: arm: qcom: document r8q board binding
-6657fe9e9f23b1c61d0bcc14a3af732f92fdc19b arm64: dts: qcom: add initial support for Samsung Galaxy S20 FE
-036505842076eb8d2d39575628d6e7f7982e8c87 arm64: dts: qcom: sm8450: Fix address for usb controller node
-efc28845524843f199e420695eab3841299b05d2 arm64: dts: qcom: lemans: add GDSP fastrpc-compute-cb nodes
-3d7f446472cb0d9e0dbae0aa09f3647d5649c758 arm64: dts: qcom: sc7180: Describe on-SoC USB-adjacent data paths
-8517204c982b1b36db766099a38cf752258dcd06 arm64: dts: qcom: ipq5424: Add reserved memory for TF-A
-922e16d1770624e25e2c751a257c88690f121b1c dt-bindings: vendor-prefixes: Add Flipkart
-ba4857cc649a7a113252e849fbf12bc282399480 dt-bindings: arm: qcom: Add Billion Capture+
-a2dd7cf8477e825b8028b4e36c787cee0f00a033 arm64: dts: qcom: msm8953: Add device tree for Billion Capture+
-7a6ad5dd551a20672edceed087408ea6bcbfe8f2 arm64: dts: qcom: sc8280xp-lenovo-thinkpad-x13: Set up 4-lane DP
-f116ec4e149e2b8a36579284af7b0630d7f57723 dt-bindings: arm: qcom: Add Dell Inspiron 14 Plus 7441
-e7733b42111ca83a60745b9b9db411ae74811ce9 arm64: dts: qcom: Add support for Dell Inspiron 7441 / Latitude 7455
-03253befa1d1f36b297889c7ce2805c9319814ff arm64: dts: qcom: sc8180x: Add video clock controller node
-d77fc758a43d64eeeab5134a98c37bd5721f9e3a Merge branches 'arm32-defconfig-for-v6.18', 'arm32-for-6.18', 'arm64-defconfig-for-6.18', 'arm64-for-6.18', 'clk-fixes-for-6.17', 'clk-for-6.18', 'drivers-fixes-for-6.17' and 'drivers-for-6.18' into for-next
+7c873e3f04fd3e245890ddfde261f83d6aaa9ddb iio: dac: Remove redundant pm_runtime_mark_last_busy() calls
+d54d99d034093fd3a357593d9757584868537748 iio: adc: adi-axi-adc: add axi_adc_num_lanes_set
+a9ee71011a5347dd77887e2c5c2f87f01acd3efb dt-bindings: iio: adc: add IIO backend support
+2ca33c502b630a748f91a59b5ebb5cda6d9fc8b9 iio: adc: extract setup function without backend
+711fb4e410288eaef896ef2ba91e63b8ffdf25f1 iio: adc: update ad7779 to use IIO backend
+2f51dc9f2568ff9bcd08783a930513ac2a2a0dec iio: adc: exynos_adc: Drop S3C2410 support
+f6db201dd25ebb700730f98b53da5aef74d620e5 iio: adc: exynos_adc: Drop touchscreen support
+573465da194dbddfda0eac787f04d3a7d19c57cf iio: adc: exynos_adc: Drop platform data support
+98f306e7987101ae0832e92b8afc1e79dc150dee dt-bindings: iio: adc: samsung,exynos: Drop S3C2410
+19cae65b06c42c1b86d372dedca78ddb73a824d7 dt-bindings: iio: adc: samsung,exynos: Drop touchscreen support
+136fe29a5b0ca0c1c01e3fcc383bec2a66d1fdda iio: consumers: Fix handling of negative channel scale in iio_convert_raw_to_processed()
+5f401cfb9df2c3533bd69bee36e24c99342381fb iio: consumers: Fix offset handling in iio_convert_raw_to_processed()
+a7c40c5b49b3041819f1daf416e576fece3a8418 iio: consumers: Add an iio_multiply_value() helper function
+17a74228a4c762729bbd2e326eaa7070e183a23e iio: Improve iio_read_channel_processed_scale() precision
+72b1d19663a21bf9b2fe4dba2d9f24b873ab8456 iio: test: Add KUnit tests for iio_multiply_value()
+d1487b0b78720b86ec2a2ac7acc683ec90627e5b iio: adc: Add Intel Dollar Cove TI PMIC ADC driver
 
---===============7615958644745574804==--
+--===============2108783830320488199==--
