@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pratyush/linux
-Date: Mon, 01 Sep 2025 15:57:08 -0000
-Message-Id: <175674222883.1861921.6117658738378177956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Mon, 01 Sep 2025 16:20:13 -0000
+Message-Id: <175674361304.1882045.12157768865599814173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pratyush/linux
-user: pratyush
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/kho-array
-    old: 9d94c98a3316ac0b345ca6f56afd737f8b10a972
-    new: 20532c65c18ec436b1f99347263118d508991a2d
-    log: |
-         c4bf36422de0080dec59b8027db92b35ebdf7804 wip
-         20532c65c18ec436b1f99347263118d508991a2d fixup code and remove prints
-         
+  - ref: refs/heads/kho/vmalloc/v1
+    old: 0000000000000000000000000000000000000000
+    new: 5a7f4dfcf72f692a839601e1479c632097448a02
