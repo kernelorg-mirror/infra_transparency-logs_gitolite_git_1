@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 01 Sep 2025 20:09:30 -0000
-Message-Id: <175675737044.2073726.17879833009525280841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 01 Sep 2025 20:11:58 -0000
+Message-Id: <175675751818.2076719.6327003350307319296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/curve25519-v1
-    old: 0000000000000000000000000000000000000000
-    new: 8d7cb20a66caf2ab3104bf2e9c09a236a0d74255
+  - ref: refs/heads/main
+    old: b434a3772dca1c90a40e8ec69230caa55c18ef84
+    new: 6bc8a5098bf4a365c4086a4a4130bfab10a58260
+    log: |
+         6bc8a5098bf4a365c4086a4a4130bfab10a58260 net: macb: Fix tx_ptr_lock locking
+         
