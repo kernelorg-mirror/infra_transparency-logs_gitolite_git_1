@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 01 Sep 2025 09:48:46 -0000
-Message-Id: <175672012680.1541082.16935382361748445957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Mon, 01 Sep 2025 09:49:35 -0000
+Message-Id: <175672017522.1542296.5531110428941053411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 0b3ffc27f604edeb558d62b47a763d13098850d8
-    new: 33b996fe3933d9640185fa80267e4295a483d9bc
+  - ref: refs/heads/for-next
+    old: e4af5e6121de9411bcb59c464073155840717cd0
+    new: c50b558702a32d5b7a73e81cd43930bb6daaaae2
     log: |
-         c8b3c38b777af93a07ca1e2aad284e41af6c24b2 firmware: arm_scmi: quirk: Prevent writes to string constants
-         33b996fe3933d9640185fa80267e4295a483d9bc firmware: arm_scmi: Fix function name typo in scmi_perf_proto_ops struct
+         8a5effdcdacf95b936702828986dff6d7880512b fuse: allow synchronous FUSE_INIT
+         c50b558702a32d5b7a73e81cd43930bb6daaaae2 fuse: fix references to fuse.rst -> fuse/fuse.rst
          
