@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 01 Sep 2025 06:46:37 -0000
-Message-Id: <175670919706.1333832.5415004944336655400@gitolite.kernel.org>
+Date: Mon, 01 Sep 2025 06:47:18 -0000
+Message-Id: <175670923842.1334254.6942850069395007851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/wip
-    old: 8c0c582213fccd27aa7a6f53a0f0aae46faca1b2
-    new: 110ebe573dd78aed5393afc2e7f8d1aba0c663a6
+  - ref: refs/heads/bugfix/syzbot
+    old: a99fb916d653489110974c746275634ebf3ae250
+    new: e78352f91a47b493a1627cfb57e13c845a5da6ef
     log: |
-         7127c5c2518b19456f9e3f946c82637e32348852 f2fs: zone: allow IPU for regular file in regular block device
-         e985f63e56e9269bbd20587529fbcd9532766b6f f2fs: support NOCoW flag
-         28e29a748d62129953cc79280bb42eeb53784066 f2fs: revalidate empty segment when checkpoint is disabled
-         be9e5d942075c068547af3651cedd273abaf9b35 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
-         7b3de68ece376fc0c4a7e69ce63f3a4c87fad07a f2fs: introduce written_map to indicate written datas
-         110ebe573dd78aed5393afc2e7f8d1aba0c663a6 f2fs: compress: support recovery
+         60b080e337fa79d3b63ba7a20c5771c5d0f59020 f2fs: fix to avoid migrating empty section
+         55c4622c9b2238d6a793200235bdec0f45003e35 f2fs: fix to do sanity check on node footer before node folio writeback
+         e78352f91a47b493a1627cfb57e13c845a5da6ef f2fs: fix to do sanity check on node footer in read_end_io
          
