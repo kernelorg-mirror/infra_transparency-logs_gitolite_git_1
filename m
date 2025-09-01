@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6015605531462481264=="
+Content-Type: multipart/mixed; boundary="===============0415887115418453400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Sep 2025 05:38:46 -0000
-Message-Id: <175670512664.1276875.16723077442082068721@gitolite.kernel.org>
+Date: Mon, 01 Sep 2025 05:39:26 -0000
+Message-Id: <175670516693.1278039.7938493419251935978@gitolite.kernel.org>
 
---===============6015605531462481264==
+--===============0415887115418453400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4f0d2af9e56558e125b321b176b25cd6ad5fdac7
-    new: 581cfd820e2d3560804f22099b9ca874db397d35
-    log: revlist-4f0d2af9e565-581cfd820e2d.txt
+    old: 581cfd820e2d3560804f22099b9ca874db397d35
+    new: c0215f45dd41d451415d6842866026edd7eae923
+    log: revlist-581cfd820e2d-c0215f45dd41.txt
+  - ref: refs/heads/tip/urgent
+    old: 94af495b370286c71f2ff647a0f556ad95a06f8a
+    new: e76673374c75e01f250f99e279fdd3c6b4d69d42
+    log: revlist-94af495b3702-e76673374c75.txt
+  - ref: refs/tags/v6.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
 
---===============6015605531462481264==
+--===============0415887115418453400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f0d2af9e565-581cfd820e2d.txt
+Content-Disposition: attachment; filename=revlist-581cfd820e2d-c0215f45dd41.txt
+
+d9b05321e21e4b218de4ce8a590bf375f58b6346 futex: Move futex_hash_free() back to __mmput()
+e76673374c75e01f250f99e279fdd3c6b4d69d42 Merge branch into tip/master: 'locking/urgent'
+46df3e3c562e5c81d28a1c3c8b868efd90929fdb Merge branch into tip/master: 'core/bugs'
+7ff698c9c87d1bc0e90f8249324caee3d537d1a4 Merge branch into tip/master: 'irq/core'
+011e2c7541431368210eb0a3ad6aaf96c7bb3d80 Merge branch into tip/master: 'irq/drivers'
+fe9b4a713a882f2c87e46128a720f2808ca4a382 Merge branch into tip/master: 'perf/core'
+eb42e65d67a2077e991a451a4fb3e47ff2df4085 Merge branch into tip/master: 'timers/clocksource'
+cc22ac41fb6c16638f64ff01b35b4d1b1ca7154e Merge branch into tip/master: 'x86/apic'
+99d21c5bbf87a6f66e1c7d2076b10f9f63257488 Merge branch into tip/master: 'x86/asm'
+27e2f44a3dacf680f3a1aded2efe9d422f864d5c Merge branch into tip/master: 'x86/bugs'
+c21a7c8c22817e86047896f9e7b92c3323ac7d54 Merge branch into tip/master: 'x86/build'
+77aa42bb7a4503186f9c22e22960eb7412bc64d3 Merge branch into tip/master: 'x86/cache'
+979842c4ee7752f455c87829ba6efe0b3d62f4de Merge branch into tip/master: 'x86/cleanups'
+58826f93e84c4c92c6c282e29bee6b538d3d29c6 Merge branch into tip/master: 'x86/core'
+b4ce70322316d65146e74dfc3ca5ba97e7253cda Merge branch into tip/master: 'x86/cpu'
+86661bbfe816a5f175fb51b520e56284503dfbd3 Merge branch into tip/master: 'x86/entry'
+4adab918115cfab404b42995a778258410b397a9 Merge branch into tip/master: 'x86/microcode'
+a6b5716631d67f60bf80c5441cba7c78618519ed Merge branch into tip/master: 'x86/misc'
+b4691f21b88a85756fc1da78a7a80e414ab97d2f Merge branch into tip/master: 'x86/mm'
+c0215f45dd41d451415d6842866026edd7eae923 Merge branch into tip/master: 'x86/tdx'
+
+--===============0415887115418453400==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-94af495b3702-e76673374c75.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 bb324f85f722848f5e5e53325bc00f13302e01d0 drm/gpuvm: Wrap drm_gpuvm_sm_map_exec_lock() expected usage in literal code block
@@ -264,12 +298,13 @@ fb679c832b6497f19fffb8274c419783909c0912 Merge tag 'efi-fixes-for-v6.17-1' of gi
 ceca927c86e6f72f72d45487a34368bc9509431d arm64: mm: Fix CFI failure due to kpti_ng_pgd_alloc function signature
 d82aa5d3501b25bfb7bc2a24a68ad0a83b2ad10b kselftest/arm64: Don't open code SVE_PT_SIZE() in fp-ptrace
 c8bc81a52d5a2ac2e4b257ae123677cf94112755 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+d9b05321e21e4b218de4ce8a590bf375f58b6346 futex: Move futex_hash_free() back to __mmput()
 1c99e3e9f33add5e193591e051735b1179a4382a Merge tag 'gpio-fixes-for-v6.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 9acd5b8bebea619d414cc6cccc7d13a4e6f02ec2 Merge tag 'hardening-v6.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 c9e4e96185f45f410b3d0b09c9273c7da5a5c660 Merge tag 'irq_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fe3ad7a58b581859a1a7c237b670f8bcbf5b253c Merge tag 'sched_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5c3b3264e5858813632031ba58bcd6e1eeb3b214 Merge tag 'x86_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b320789d6883cc00ac78ce83bccbfe7ed58afcf0 Linux 6.17-rc4
-581cfd820e2d3560804f22099b9ca874db397d35 Merge branch 'linus'
+e76673374c75e01f250f99e279fdd3c6b4d69d42 Merge branch into tip/master: 'locking/urgent'
 
---===============6015605531462481264==--
+--===============0415887115418453400==--
