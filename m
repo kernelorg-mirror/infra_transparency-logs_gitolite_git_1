@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2750032666119259853=="
+Content-Type: multipart/mixed; boundary="===============4417774721027651721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 01 Sep 2025 21:47:37 -0000
-Message-Id: <175676325738.2158478.3364982750929724411@gitolite.kernel.org>
+Date: Mon, 01 Sep 2025 21:47:39 -0000
+Message-Id: <175676325945.2158556.8987987687999041087@gitolite.kernel.org>
 
---===============2750032666119259853==
+--===============4417774721027651721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 5b4488c9ec0029da6674fbc5c290a040ad056521
-    new: 5090e2b3808e8a00c56aa1f4694c6fb0233bb093
-    log: revlist-5b4488c9ec00-5090e2b3808e.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 82b350dd8185ce790e61555c436f90b6501af23c
+    new: b320789d6883cc00ac78ce83bccbfe7ed58afcf0
+    log: revlist-82b350dd8185-b320789d6883.txt
 
---===============2750032666119259853==
+--===============4417774721027651721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b4488c9ec00-5090e2b3808e.txt
+Content-Disposition: attachment; filename=revlist-82b350dd8185-b320789d6883.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -380,11 +380,6 @@ fb924b7b8669503582e003dd7b7340ee49029801 change_mnt_propagation(): calculate pro
 7cca555b94a2191d012837a37c891eca4e876c6b Merge tag 'ovl-fixes-6.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 b19a97d57c15643494ac8bfaaa35e3ee472d41da Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 76d2e3890fb169168c73f2e4f8375c7cc24a765e NFS: Fix a race when updating an existing write
-d41e327582e172f30e4e15f9124796a10fd1b0f9 MAINTAINERS: i2c: Update i2c_hisi entry
-57f312b955938fc4663f430cb57a71f2414f601b i2c: rtl9300: Fix out-of-bounds bug in rtl9300_i2c_smbus_xfer
-d67b740b9edfa46310355e2b68050f79ebf05a4c i2c: rtl9300: Fix multi-byte I2C write
-ceee7776c010c5f09d30985c9e5223b363a6172a i2c: rtl9300: Increase timeout for transfer polling
-82b350dd8185ce790e61555c436f90b6501af23c i2c: rtl9300: Add missing count byte for SMBus Block Ops
 63b17b653df30e90f95338083cb44c35d64bcae4 kho: init new_physxa->phys_bits to fix lockdep
 8b66ed2c3f42cc462e05704af6b94e6a7bad2f5e kho: mm: don't allow deferred struct page with KHO
 44958f2025ed3f29fc3e93bb1f6c16121d7847ad kho: warn if KHO is disabled due to an error
@@ -768,6 +763,5 @@ c9e4e96185f45f410b3d0b09c9273c7da5a5c660 Merge tag 'irq_urgent_for_v6.17_rc4' of
 fe3ad7a58b581859a1a7c237b670f8bcbf5b253c Merge tag 'sched_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5c3b3264e5858813632031ba58bcd6e1eeb3b214 Merge tag 'x86_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b320789d6883cc00ac78ce83bccbfe7ed58afcf0 Linux 6.17-rc4
-5090e2b3808e8a00c56aa1f4694c6fb0233bb093 i2c: rtl9300: Implement I2C block read and write
 
---===============2750032666119259853==--
+--===============4417774721027651721==--
