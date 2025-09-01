@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 01 Sep 2025 06:47:18 -0000
-Message-Id: <175670923842.1334254.6942850069395007851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 01 Sep 2025 06:55:52 -0000
+Message-Id: <175670975284.1342270.14166131686209559946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/bugfix/syzbot
-    old: a99fb916d653489110974c746275634ebf3ae250
-    new: e78352f91a47b493a1627cfb57e13c845a5da6ef
+  - ref: refs/heads/testing
+    old: 52565a935213cd6a8662ddb8efe5b4219343a25d
+    new: cd8ae32e4e4652db55bce6b9c79267d8946765a9
     log: |
-         60b080e337fa79d3b63ba7a20c5771c5d0f59020 f2fs: fix to avoid migrating empty section
-         55c4622c9b2238d6a793200235bdec0f45003e35 f2fs: fix to do sanity check on node footer before node folio writeback
-         e78352f91a47b493a1627cfb57e13c845a5da6ef f2fs: fix to do sanity check on node footer in read_end_io
+         cd8ae32e4e4652db55bce6b9c79267d8946765a9 xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
          
