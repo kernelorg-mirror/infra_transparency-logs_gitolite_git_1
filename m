@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4417774721027651721=="
+Content-Type: multipart/mixed; boundary="===============3882190509919325301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 01 Sep 2025 21:47:39 -0000
-Message-Id: <175676325945.2158556.8987987687999041087@gitolite.kernel.org>
+Date: Mon, 01 Sep 2025 21:47:41 -0000
+Message-Id: <175676326177.2158729.4820317931803645386@gitolite.kernel.org>
 
---===============4417774721027651721==
+--===============3882190509919325301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 82b350dd8185ce790e61555c436f90b6501af23c
-    new: b320789d6883cc00ac78ce83bccbfe7ed58afcf0
-    log: revlist-82b350dd8185-b320789d6883.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 57774430864b721082b9bafd17fc839f31251c7b
+    new: 5090e2b3808e8a00c56aa1f4694c6fb0233bb093
+    log: revlist-57774430864b-5090e2b3808e.txt
 
---===============4417774721027651721==
+--===============3882190509919325301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82b350dd8185-b320789d6883.txt
+Content-Disposition: attachment; filename=revlist-57774430864b-5090e2b3808e.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -763,5 +763,6 @@ c9e4e96185f45f410b3d0b09c9273c7da5a5c660 Merge tag 'irq_urgent_for_v6.17_rc4' of
 fe3ad7a58b581859a1a7c237b670f8bcbf5b253c Merge tag 'sched_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5c3b3264e5858813632031ba58bcd6e1eeb3b214 Merge tag 'x86_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b320789d6883cc00ac78ce83bccbfe7ed58afcf0 Linux 6.17-rc4
+5090e2b3808e8a00c56aa1f4694c6fb0233bb093 i2c: rtl9300: Implement I2C block read and write
 
---===============4417774721027651721==--
+--===============3882190509919325301==--
