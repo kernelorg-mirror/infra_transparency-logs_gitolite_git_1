@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8624257457301935851=="
+Content-Type: multipart/mixed; boundary="===============0401131476030859375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 01 Sep 2025 08:31:24 -0000
-Message-Id: <175671548427.1422866.2260640555042961034@gitolite.kernel.org>
+Date: Mon, 01 Sep 2025 08:31:36 -0000
+Message-Id: <175671549650.1423177.3707489177370698164@gitolite.kernel.org>
 
---===============8624257457301935851==
+--===============0401131476030859375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 935846450801c685f73e5b5ee9cfd757b0bc1f9f
-    new: 111b17d08c7ce82924dd46ce551c2af7eb056b1d
-    log: revlist-935846450801-111b17d08c7c.txt
+  - ref: refs/heads/m68k-queue
+    old: 32d3521ee2ff296a9e69c22dae2f89d835c945de
+    new: ffe9b3cd5475ca0b1490fd25714a96dc552c0232
+    log: revlist-32d3521ee2ff-ffe9b3cd5475.txt
 
---===============8624257457301935851==
+--===============0401131476030859375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-935846450801-111b17d08c7c.txt
+Content-Disposition: attachment; filename=revlist-32d3521ee2ff-ffe9b3cd5475.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -321,6 +321,8 @@ c9e4e96185f45f410b3d0b09c9273c7da5a5c660 Merge tag 'irq_urgent_for_v6.17_rc4' of
 fe3ad7a58b581859a1a7c237b670f8bcbf5b253c Merge tag 'sched_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5c3b3264e5858813632031ba58bcd6e1eeb3b214 Merge tag 'x86_urgent_for_v6.17_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b320789d6883cc00ac78ce83bccbfe7ed58afcf0 Linux 6.17-rc4
-111b17d08c7ce82924dd46ce551c2af7eb056b1d Merge tag 'v6.17-rc4'
+f573bd41d9a0a892fab59d4aca96d30ff17c2bbc m68k: atari: usb: Add ISP1160 USB host controller support
+472a15b644f2333e29cda098ed09246535260eac m68k: atari: Update Kconfig.bus help text
+ffe9b3cd5475ca0b1490fd25714a96dc552c0232 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8624257457301935851==--
+--===============0401131476030859375==--
