@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 01 Sep 2025 15:14:54 -0000
-Message-Id: <175673969439.1824943.8290338068674875369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 01 Sep 2025 15:19:34 -0000
+Message-Id: <175673997431.1829514.2699239169401014940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/review-andy
-    old: 16c07342b5425b86547146a6e51d9e32cee8d300
-    new: 3712ce9fa501617cdc4466d30ae3894d50887743
+  - ref: refs/heads/aer
+    old: 6633875250b38b18b8638cf01e695de031c71f02
+    new: dab104c81cbaf9677d367ca1ae8cd3ec8cc3d5bf
     log: |
-         3712ce9fa501617cdc4466d30ae3894d50887743 gpiolib: acpi: Ignore touchpad wakeup on GPD G1619-05
+         dab104c81cbaf9677d367ca1ae8cd3ec8cc3d5bf PCI/AER: Print TLP Log for errors introduced since PCIe r1.1
          
