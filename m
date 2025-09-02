@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7566457933583728215=="
+Content-Type: multipart/mixed; boundary="===============8794597672948350725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 02 Sep 2025 17:56:42 -0000
-Message-Id: <175683580273.3227161.12780358226112359640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 02 Sep 2025 17:56:46 -0000
+Message-Id: <175683580609.3227279.3099412133038961999@gitolite.kernel.org>
 
---===============7566457933583728215==
+--===============8794597672948350725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 35fc531a59694f24a2456569cf7d1a9c6436841c
     new: 85a71323753cbb16f4dcb5b3e2b3fd0acc05f130
     log: revlist-35fc531a5969-85a71323753c.txt
 
---===============7566457933583728215==
+--===============8794597672948350725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1756835851 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1756835800-3a61572c31a2e3b280fe7bb6f4c4697d38a537ba
+pusher C3F436CA30F5D8EB 1756835854 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1756835803-6bb53320f263a2f141e72602c70e1fc2f9ee3547
 
-35fc531a59694f24a2456569cf7d1a9c6436841c 85a71323753cbb16f4dcb5b3e2b3fd0acc05f130 refs/heads/for-6.17
+35fc531a59694f24a2456569cf7d1a9c6436841c 85a71323753cbb16f4dcb5b3e2b3fd0acc05f130 refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi3MAsACgkQJNaLcl1U
-h9CeCwf8CSlV+K37VsCCW0iLPwOSAuvJYvQ4EXbqAM1Jbh95jWB0WcclamT6Utji
-wN80Ym9/AVaZoCKy4eze9tT8YduS3J0lWi+F36v2geWvoP7MM3Fd4HZht0u3+nxK
-vcrkArXsVQ32qUpA7quEJCMyfSNw5BRm480dK3Y39CYiYRzGz4eevOdTGS7zBMAj
-IVovGURoik3Cni+ryWz3jvCBY3t/SMrtFoNuWmt0loIONEgBUVgaNEf4TwXczs/7
-RmhbJGhgTJopEoVBI2nXlJqheDnkhIqj+fYksAALVEIW6T7UFdO0FoRl4b2TbmPM
-TZKotKtI/vYeVtgmIKIcHZCzoOdTZg==
-=eC7t
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi3MA4ACgkQJNaLcl1U
+h9CIwAf/ez2t26pkbIGryCq3eS7grlW+1DZRdfOZBv+5u8VZs38aBPOZ3KVWTatx
+1x2/6+W8g6B8ofBa/h61E9I1YcabzP8rXlp6QGwd35jBwHmvbuOZPDgppJRqRP7k
+HeexwRt2LpZ0eNUNRf57aKeZGkByd7Scq46k3TEUdXGw9TyZHvJYTI4il1VW4AB4
+2NHtGfOw97D5QKVYC4JzKpif56dfRWz1VJslUTCBQlFLM7ymYuAXM3AmOEn2mWq4
+qcBd2mP2M3P0qaSgh4O7w/gE9VMFyn+X68Mttwfq7tvUIiqdyyqvyQiAUjr1gNZI
+pPUmNtX3zQKkRaCy7BNoWIsi7mmKEA==
+=KZWe
 -----END PGP SIGNATURE-----
 
---===============7566457933583728215==
+--===============8794597672948350725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -351,4 +351,4 @@ b4799520dcd6fe1e14495cecbbe9975d847cd482 ASoC: wm8940: Correct typo in control n
 9b17d3724df55ecc2bc67978822585f2b023be48 ASoC: wm8974: Correct PLL rate rounding
 85a71323753cbb16f4dcb5b3e2b3fd0acc05f130 Minor bug fixes for some older Wolfson devices
 
---===============7566457933583728215==--
+--===============8794597672948350725==--
