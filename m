@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 01 Sep 2025 23:07:06 -0000
-Message-Id: <175676802616.2226680.12804553672347520392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Tue, 02 Sep 2025 00:20:02 -0000
+Message-Id: <175677240281.2284007.6832405250127277716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/hwmon
-    old: 98fd069dd87386d87eaf439e3c7b5767618926d2
-    new: c2623573178bab32990695fb729e9b69710ed66d
-    log: |
-         bd7e7bc2cc2024035dfbc8239c9f4d8675793445 hwmon: (ina238) Correctly clamp shunt voltage limit
-         c2623573178bab32990695fb729e9b69710ed66d hwmon: (ina238) Correctly clamp power limits
-         
+  - ref: refs/tags/mm-hotfixes-stable-2025-09-01-17-20
+    old: 0000000000000000000000000000000000000000
+    new: 2c910c128d16fb1f14db4e8befa2ce760cda8988
+  - ref: refs/tags/v6.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
