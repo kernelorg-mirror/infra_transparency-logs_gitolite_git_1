@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3070846942648428001=="
+Content-Type: multipart/mixed; boundary="===============8726021102917565090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 02 Sep 2025 15:24:25 -0000
-Message-Id: <175682666550.3091156.3638696242692412810@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 15:24:26 -0000
+Message-Id: <175682666669.3091251.12718073101922053734@gitolite.kernel.org>
 
---===============3070846942648428001==
+--===============8726021102917565090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: f204723c0dd884435c8f322dd072156d610bead7
-    new: ef2409da01e7fe7b83ce3fd63432644b50d76329
-    log: revlist-f204723c0dd8-ef2409da01e7.txt
-  - ref: refs/tags/ath-202509021457
-    old: 0000000000000000000000000000000000000000
-    new: ef2409da01e7fe7b83ce3fd63432644b50d76329
+  - ref: refs/heads/ath-current
+    old: 7e2f3213e85eba00acb4cfe6d71647892d63c3a1
+    new: 2c72c8d356db40178be558bbbd43a1d0b5bd0c27
+    log: revlist-7e2f3213e85e-2c72c8d356db.txt
 
---===============3070846942648428001==
+--===============8726021102917565090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f204723c0dd8-ef2409da01e7.txt
+Content-Disposition: attachment; filename=revlist-7e2f3213e85e-2c72c8d356db.txt
 
 87b07a1fbc6b5c23d3b3584ab4288bc9106d3274 wifi: mt76: mt7996: Initialize hdr before passing to skb_put_data()
 87f38519d27a514c9909f84b8f1334125df9778e wifi: mt76: mt7921: don't disconnect when CSA to DFS chan
@@ -54,8 +51,5 @@ b3bf3dcb24ce3995ded2ad1656dc4fd4a7b002cd Merge tag 'mt76-fixes-2025-08-27' of ht
 586e3cb33ba6890054b95aa0ade0a165890efabd wifi: iwlwifi: fix byte count table for old devices
 019f71a6760a6f89d388c3cd45622d1aae7d3641 wifi: iwlwifi: cfg: add back more lost PCI IDs
 2c72c8d356db40178be558bbbd43a1d0b5bd0c27 Merge tag 'iwlwifi-fixes-2025-08-28' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-b87d8c49214d04e30d726b71d7a8b1daa13a1977 Merge branch 'ath-next'
-49cc2bc52d75f087eae705061a0183bfe71d49ca Merge branch 'ath-current'
-ef2409da01e7fe7b83ce3fd63432644b50d76329 Add localversion-wireless-testing-ath
 
---===============3070846942648428001==--
+--===============8726021102917565090==--
