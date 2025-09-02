@@ -1,60 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============5295835604919964216=="
+Content-Type: multipart/mixed; boundary="===============7883001714446175609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 02 Sep 2025 11:46:51 -0000
-Message-Id: <175681361182.2886562.4337614364796564202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 02 Sep 2025 11:49:13 -0000
+Message-Id: <175681375398.2888250.16715062796621278444@gitolite.kernel.org>
 
---===============5295835604919964216==
+--===============7883001714446175609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/kvm-arm64-sme
-    old: 3912d1b1ff01e21b9267aff018607113dcfed0df
-    new: 2f8502e2b4f0aea0813cb232a1f6d3532ca0000b
-    log: revlist-3912d1b1ff01-2f8502e2b4f0.txt
+  - ref: refs/heads/for-6.18/block
+    old: 2a0614522885b136e9e650791c794dd49abb5b31
+    new: 34585dc649fb255b40075dab56af063c1bfc9933
+    log: revlist-2a0614522885-34585dc649fb.txt
+  - ref: refs/heads/for-next
+    old: 5c5c3ab82276a6370ec81afec2e51e7123a0ea8c
+    new: e1d7418e7faf0622812a8a4de08d2d8245dd76d2
+    log: revlist-5c5c3ab82276-e1d7418e7faf.txt
 
---===============5295835604919964216==
+--===============7883001714446175609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3912d1b1ff01-2f8502e2b4f0.txt
+Content-Disposition: attachment; filename=revlist-2a0614522885-34585dc649fb.txt
 
-3ecca5a9c60af14a2c06d1cf1a1230c50fd48f02 KVM: arm64: Implement support for SME
-e1281a634878def9a349463fc9c43e4b30b1433f arm64/sysreg: Update SMIDR_EL1 to DDI0601 2025-06
-04957cf867099d9c21fcb10750e0bbbc23f1a2fe arm64/fpsimd: Update FA64 and ZT0 enables when loading SME state
-f255bcd2612ead1c9552285960794b0ca06bf4b8 arm64/fpsimd: Decide to save ZT0 and streaming mode FFR at bind time
-f6f110fc3974e8cbd055442b70d59a72264f19f6 arm64/fpsimd: Check enable bit for FA64 when saving EFI state
-5ceac97572142225331b5ead3e28d10c3932dccc arm64/fpsimd: Determine maximum virtualisable SME vector length
-61912fdd2d40d69cbc5816291689ebeee89f48cf KVM: arm64: Introduce non-UNDEF FGT control
-e48d20d29f186bf8422611157ed8c037b204f56b KVM: arm64: Pay attention to FFR parameter in SVE save and load
-ba8f81bdf052b714065f7190eaad7974aac6f453 KVM: arm64: Pull ctxt_has_ helpers to start of sysreg-sr.h
-6578c86c7c0008769cb81bf2d848d1ce3b2348f8 KVM: arm64: Move SVE state access macros after feature test macros
-ae8885c20957864d1acb572e243d6c791e6fd262 KVM: arm64: Rename SVE finalization constants to be more general
-55fd3ea9d80ad50fbe812895063827517df83143 KVM: arm64: Document the KVM ABI for SME
-9ce866718dec33a12ef279dc665c3da7466547e3 KVM: arm64: Define internal features for SME
-2679507e0dd480d26ae314420d1b0984b5bf5122 KVM: arm64: Rename sve_state_reg_region
-363c01f18b13613a190475ba6a4e1890dc27f0de KVM: arm64: Store vector lengths in an array
-da7a496354ee22bb17247b333badb582774d1dd8 KVM: arm64: Implement SME vector length configuration
-04a098d1a8fe59c1b12c87a3b9277d04a354ec60 KVM: arm64: Support SME control registers
-b5bb2a90ada21681d502811c7218d54d359a46a2 KVM: arm64: Support TPIDR2_EL0
-71aae1806100187f9be4ebdb15bfdcab45676226 KVM: arm64: Support SME identification registers for guests
-79ca42bd38ffd6b127b465146cf99cfff14654e1 KVM: arm64: Support SME priority registers
-890027d1b714feac8fe512eb1958c2c9ef57fb8e KVM: arm64: Provide assembly for SME register access
-90b0ca1ec7deeb978f0dba85fec3d4582e54ee5a KVM: arm64: Support userspace access to streaming mode Z and P registers
-f1332666b103394ba5ca49852fea8fc29e693e6a KVM: arm64: Flush register state on writes to SVCR.SM and SVCR.ZA
-1a594d3e789ad4e5696af196a928757abe82f4ed KVM: arm64: Expose SME specific state to userspace
-24be77f7ff02d9d0d3fee8bb2d98f3b5f45bd111 KVM: arm64: Context switch SME state for guests
-580574bb899fe61c449d012bf404559dcf47ac6a KVM: arm64: Handle SME exceptions
-e2e2720f0d9dc394198c92c472e6656998a44cc4 KVM: arm64: Expose SME to nested guests
-cddf267bd0bcafb6bb88a9af94155d48b947e749 KVM: arm64: Provide interface for configuring and enabling SME for guests
-de3ea697646d4ecd813bd179cfe9f35bb093b234 KVM: arm64: selftests: Add SME system registers to get-reg-list
-2f8502e2b4f0aea0813cb232a1f6d3532ca0000b KVM: arm64: selftests: Add SME to set_id_regs test
+d5d060d624e34c6ce1748a157cf2391e49af2a54 rust: str: normalize imports in `str.rs`
+87482d6d9104d087935592ebbf52b70f8a777c47 rust: str: allow `str::Formatter` to format into `&mut [u8]`.
+8c5ac71cf19bc8a2ad5bc905d1fd3191d887d469 rust: str: expose `str::{Formatter, RawFormatter}` publicly.
+cdde7a1951ff0600adc45718ba251559e4d3fd7c rust: str: introduce `NullTerminatedFormatter`
+b1dae0be89278348e2c99ddca820d91292856b10 rust: str: introduce `kstrtobool` function
+60e1eeed8b53f65ef7919fd3f79cc9b7f20795c5 rust: configfs: re-export `configfs_attrs` from `configfs` module
+f4b72f1558be1e2b173b6b1f93c09dc668592a26 rust: block: normalize imports for `gen_disk.rs`
+c3a54220b54a1bda0662f0e7ab90ffabf5036d50 rust: block: use `NullTerminatedFormatter`
+f52689fcd8a2f78436b57d10ba742455431885a0 rust: block: remove `RawWriter`
+8c32697c4edd4180bc90d367e54fb64490c230c6 rust: block: remove trait bound from `mq::Request` definition
+19c37c91b4a0ff7abfc3dcfe165d1377939469ac rust: block: add block related constants
+edd8650691c374bdce133af1b25ff4f3496f489f rnull: move driver to separate directory
+d969d504bc13b2f0c1f208e009e73f2625b421c0 rnull: enable configuration via `configfs`
+90d952fac8ac1aa6cb21aad7010d33af4d309f4a rust: block: add `GenDisk` private data support
+bde50e28f7c5fe874112fe9d98e84873548fa8de rust: block: mq: fix spelling in a safety comment
+4ec052841a545297a276e833817990f0e13b1b32 rust: block: add remote completion to `Request`
+34585dc649fb255b40075dab56af063c1bfc9933 rnull: add soft-irq completion support
 
---===============5295835604919964216==--
+--===============7883001714446175609==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5c5c3ab82276-e1d7418e7faf.txt
+
+37500634d0a8f931e15879760fb70f9b6f5d5370 io_uring/net: correct type for min_not_zero() cast
+09e3f3470f941b28178decf8c06a3d1440b34e66 Merge branch 'for-6.18/io_uring' into for-next
+d5d060d624e34c6ce1748a157cf2391e49af2a54 rust: str: normalize imports in `str.rs`
+87482d6d9104d087935592ebbf52b70f8a777c47 rust: str: allow `str::Formatter` to format into `&mut [u8]`.
+8c5ac71cf19bc8a2ad5bc905d1fd3191d887d469 rust: str: expose `str::{Formatter, RawFormatter}` publicly.
+cdde7a1951ff0600adc45718ba251559e4d3fd7c rust: str: introduce `NullTerminatedFormatter`
+b1dae0be89278348e2c99ddca820d91292856b10 rust: str: introduce `kstrtobool` function
+60e1eeed8b53f65ef7919fd3f79cc9b7f20795c5 rust: configfs: re-export `configfs_attrs` from `configfs` module
+f4b72f1558be1e2b173b6b1f93c09dc668592a26 rust: block: normalize imports for `gen_disk.rs`
+c3a54220b54a1bda0662f0e7ab90ffabf5036d50 rust: block: use `NullTerminatedFormatter`
+f52689fcd8a2f78436b57d10ba742455431885a0 rust: block: remove `RawWriter`
+8c32697c4edd4180bc90d367e54fb64490c230c6 rust: block: remove trait bound from `mq::Request` definition
+19c37c91b4a0ff7abfc3dcfe165d1377939469ac rust: block: add block related constants
+edd8650691c374bdce133af1b25ff4f3496f489f rnull: move driver to separate directory
+d969d504bc13b2f0c1f208e009e73f2625b421c0 rnull: enable configuration via `configfs`
+90d952fac8ac1aa6cb21aad7010d33af4d309f4a rust: block: add `GenDisk` private data support
+bde50e28f7c5fe874112fe9d98e84873548fa8de rust: block: mq: fix spelling in a safety comment
+4ec052841a545297a276e833817990f0e13b1b32 rust: block: add remote completion to `Request`
+34585dc649fb255b40075dab56af063c1bfc9933 rnull: add soft-irq completion support
+e1d7418e7faf0622812a8a4de08d2d8245dd76d2 Merge branch 'for-6.18/block' into for-next
+
+--===============7883001714446175609==--
