@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 02 Sep 2025 22:59:45 -0000
-Message-Id: <175685398541.3488034.5870605766823772432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Tue, 02 Sep 2025 23:04:07 -0000
+Message-Id: <175685424746.3491770.6417540577628708391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: d2644cbc736f737142a7595fa9346f63e6fc9b33
-    new: fa390321aba0a54d0f7ae95ee4ecde1358bb9234
+  - ref: refs/heads/0.10.x
+    old: 27d0235e8df1233eae7c967687e3075d63755a97
+    new: 0d530542f46ebce4d2c03fe92f17946591e70417
     log: |
-         fa390321aba0a54d0f7ae95ee4ecde1358bb9234 net/tcp: Fix socket memory leak in TCP-AO failure handling for IPv6
+         0d530542f46ebce4d2c03fe92f17946591e70417 feat(data): `TpmCap::EccCurves`
          
