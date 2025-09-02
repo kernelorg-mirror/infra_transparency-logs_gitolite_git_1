@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 02 Sep 2025 15:44:19 -0000
-Message-Id: <175682785922.3108050.583313485662430269@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 15:59:21 -0000
+Message-Id: <175682876178.3121711.17627772087362482725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 1188b8e2e2cb04b5e336d05d145012fca2621c10
-    new: e08b11609758ad08859727fa817e3b8a1a2bd9fc
+    old: e08b11609758ad08859727fa817e3b8a1a2bd9fc
+    new: 7fc10a6b2b5fffad48bffaff6305f568ba322cc3
     log: |
-         20cf22e50252d63cfd0d06b5026c21b7a77ad821 i915: Update GUC to v70.49.4 for ADL-P, DG1, DG2, MTL, TGL
-         d2f41cc246badb58bdef64dd5e9fe573653da295 xe: Update GUC to v70.49.4 for BMG, LNL, PTL
-         e08b11609758ad08859727fa817e3b8a1a2bd9fc Merge branch 'intel/release-guc-v70494' into 'main'
+         bd28704ab16eb880acbd38c597c54314e7745814 cs35l56: Rename firmware for Thinkbook 16P Gen6 (17AA3921) without multiple speakers
+         7fc10a6b2b5fffad48bffaff6305f568ba322cc3 Merge branch 'robot/patch-0-1756739033' into 'main'
          
