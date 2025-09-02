@@ -1,54 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 02 Sep 2025 14:13:47 -0000
-Message-Id: <175682242747.3031043.10193821843294618669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 02 Sep 2025 14:33:58 -0000
+Message-Id: <175682363876.3047293.9175341123662150057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: ebdeff1ab148b9e65ee63a7aab77dfff01cc3d7a
-    new: 3d5824dd2c7fa85bb34082dcfd16ce9b72a944c3
+  - ref: refs/heads/for-next
+    old: b0e6cd7d1c90586d8d11db75cc447096e698a13c
+    new: 9a2e88b1f8abaebea46cd4f766a1fa89e7be3de9
     log: |
-         7a8c994cbb2db3c5335cee35fd486557f5aaf7e1 ACPI: processor: idle: Optimize ACPI idle driver registration
-         eb58738d1546bababc77392968ece9c595b4f737 ACPI: processor: idle: Add module import namespace
-         e4c628e91c6ab12f89500a023adfb030f737f3fd ACPI: processor: idle: Eliminate static variable flat_state_cnt
-         3f3d5d901ddc36eeb8eac2e5f1d32e5be5670a44 Merge branches 'acpica', 'acpi-processor', 'acpi-pm' and 'acpi-sysfs' into linux-next
-         d590c0b4300ce22afa2c6d9c1525c41225bb3b33 Merge branches 'acpi-video', 'acpi-misc' and 'pnp' into linux-next
-         1af6c9d31029ee69354cc94f94d068270377d699 Merge branches 'pm-cpufreq', 'pm-cpuidle', 'pm-powercap' and 'pm-sleep' into linux-next
-         31b5ce8052297296bfa0f8774a4186710b42ba0c Merge branch 'thermal-intel' into linux-next
-         3d5824dd2c7fa85bb34082dcfd16ce9b72a944c3 Merge branch 'pm-em' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: 373279d283476f7ee43cb595a1a6e1057ee48653
-    new: 3d5824dd2c7fa85bb34082dcfd16ce9b72a944c3
-    log: |
-         a334ec77f2666b3c09e3af095efc3b4b6c5c266f PM: EM: Fix late boot with holes in CPU topology
-         7a8c994cbb2db3c5335cee35fd486557f5aaf7e1 ACPI: processor: idle: Optimize ACPI idle driver registration
-         eb58738d1546bababc77392968ece9c595b4f737 ACPI: processor: idle: Add module import namespace
-         e4c628e91c6ab12f89500a023adfb030f737f3fd ACPI: processor: idle: Eliminate static variable flat_state_cnt
-         3f3d5d901ddc36eeb8eac2e5f1d32e5be5670a44 Merge branches 'acpica', 'acpi-processor', 'acpi-pm' and 'acpi-sysfs' into linux-next
-         d590c0b4300ce22afa2c6d9c1525c41225bb3b33 Merge branches 'acpi-video', 'acpi-misc' and 'pnp' into linux-next
-         1af6c9d31029ee69354cc94f94d068270377d699 Merge branches 'pm-cpufreq', 'pm-cpuidle', 'pm-powercap' and 'pm-sleep' into linux-next
-         31b5ce8052297296bfa0f8774a4186710b42ba0c Merge branch 'thermal-intel' into linux-next
-         3d5824dd2c7fa85bb34082dcfd16ce9b72a944c3 Merge branch 'pm-em' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 373279d283476f7ee43cb595a1a6e1057ee48653
-    new: 3d5824dd2c7fa85bb34082dcfd16ce9b72a944c3
-    log: |
-         a334ec77f2666b3c09e3af095efc3b4b6c5c266f PM: EM: Fix late boot with holes in CPU topology
-         7a8c994cbb2db3c5335cee35fd486557f5aaf7e1 ACPI: processor: idle: Optimize ACPI idle driver registration
-         eb58738d1546bababc77392968ece9c595b4f737 ACPI: processor: idle: Add module import namespace
-         e4c628e91c6ab12f89500a023adfb030f737f3fd ACPI: processor: idle: Eliminate static variable flat_state_cnt
-         3f3d5d901ddc36eeb8eac2e5f1d32e5be5670a44 Merge branches 'acpica', 'acpi-processor', 'acpi-pm' and 'acpi-sysfs' into linux-next
-         d590c0b4300ce22afa2c6d9c1525c41225bb3b33 Merge branches 'acpi-video', 'acpi-misc' and 'pnp' into linux-next
-         1af6c9d31029ee69354cc94f94d068270377d699 Merge branches 'pm-cpufreq', 'pm-cpuidle', 'pm-powercap' and 'pm-sleep' into linux-next
-         31b5ce8052297296bfa0f8774a4186710b42ba0c Merge branch 'thermal-intel' into linux-next
-         3d5824dd2c7fa85bb34082dcfd16ce9b72a944c3 Merge branch 'pm-em' into linux-next
+         56f79df6be21539a7a1ec0df1b8d9bc34d287e9c tracing: fprobe: fix suspicious rcu usage in fprobe_entry
+         c6e97a2c447ac2bf55dcdf5e9d070f5ee226c14c tracing: probes: Use __free() for trace_probe_log
+         19b57b4f65d1f3ba06b6af9cbca81fd0f0a668a9 tracing: eprobe: Cleanup eprobe event using __free()
+         2d668922a606d88cbedbd50e4afda2ddaf393dc4 tracing: uprobes: Cleanup __trace_uprobe_create() with __free()
+         c3197a382d0c2f14767eb9a00c9b57c2e4a48a0b tracing: uprobe: eprobes: Allocate traceprobe_parse_context per probe
+         f66c644568f1e3262b68340bea353c77b4ae2645 Merge bootconfig/for-next
+         8ae18ae8e1f27a734cfd14fd773e8c0f9684d4e3 Merge ftrace/for-next
+         9a2e88b1f8abaebea46cd4f766a1fa89e7be3de9 Merge probes/for-next
          
