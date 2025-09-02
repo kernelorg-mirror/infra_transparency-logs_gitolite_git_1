@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0673781112343134528=="
+Content-Type: multipart/mixed; boundary="===============8651087085274832361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 02 Sep 2025 17:42:39 -0000
-Message-Id: <175683495915.3212811.12787463210948850396@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 17:42:42 -0000
+Message-Id: <175683496234.3212910.4518607072466522@gitolite.kernel.org>
 
---===============0673781112343134528==
+--===============8651087085274832361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5189446ba995556eaa3755a6e875bc06675b88bd
     new: a6099f263e1f408bcc7913c9df24b0677164fc5d
     log: revlist-5189446ba995-a6099f263e1f.txt
 
---===============0673781112343134528==
+--===============8651087085274832361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -424,4 +424,4 @@ ba1e9421cf1a8369d25c3832439702a015d6b5f9 net/smc: fix one NULL pointer dereferen
 e27e34bc99413a29cafae02ad572ea3c9beba2ce net: mctp: usb: initialise mac header in RX path
 a6099f263e1f408bcc7913c9df24b0677164fc5d net: ethernet: ti: am65-cpsw-nuss: Fix null pointer dereference for ndev
 
---===============0673781112343134528==--
+--===============8651087085274832361==--
