@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 02 Sep 2025 23:26:35 -0000
-Message-Id: <175685559505.3514037.11823225193281273230@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 23:37:51 -0000
+Message-Id: <175685627121.3522712.8376024360584478926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: fa390321aba0a54d0f7ae95ee4ecde1358bb9234
-    new: c06ca8ce90bae91744ac93c7e09ebeec6ac3df90
+    old: c06ca8ce90bae91744ac93c7e09ebeec6ac3df90
+    new: a7195a3d67dace056af7ca65144a11874df79562
     log: |
-         4beb44a2d62dddfe450f310aa1a950901731cb3a net: phy: add phy_interface_weight()
-         1bd905dfea9897eafef532000702e63a66849f54 net: phylink: provide phylink_get_inband_type()
-         a21202743f9ce4063e86b99cccaef48ef9813379 net: phylink: disable autoneg for interfaces that have no inband
-         c06ca8ce90bae91744ac93c7e09ebeec6ac3df90 Merge branch 'net-fix-optical-sfp-failures'
+         d4736737110ffa83d29f1c5d17b26113864205f6 net: ethernet: mtk_eth_soc: fix tx vlan tag for llc packets
+         a7195a3d67dace056af7ca65144a11874df79562 net: pcs: rzn1-miic: Correct MODCTRL register offset
          
