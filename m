@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 02 Sep 2025 23:38:36 -0000
-Message-Id: <175685631619.3523197.1325236836690172447@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 23:40:02 -0000
+Message-Id: <175685640212.3524792.7114764498568608309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bc1a767f695d597de529f4f0c6fff1d55f1b5395
-    new: e2cf2d5baa09248d3d50b73522594b778388e3bc
+    old: e2cf2d5baa09248d3d50b73522594b778388e3bc
+    new: 3586018d5c3da14addcd033b6da5a1a209a0992d
     log: |
-         4022f92a2e4e9e7d5da06b9389a8dd43950ce1ea selftests: drv-net: rss_ctx: use Netlink for timed reconfig
-         e2cf2d5baa09248d3d50b73522594b778388e3bc selftests: drv-net: rss_ctx: make the test pass with few queues
+         3586018d5c3da14addcd033b6da5a1a209a0992d net: macb: Validate the value of base_time properly
          
