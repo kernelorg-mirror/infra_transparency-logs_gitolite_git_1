@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6068620316715931254=="
+Content-Type: multipart/mixed; boundary="===============3619409702913174944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 02 Sep 2025 20:49:23 -0000
-Message-Id: <175684616387.3376650.13638690602166361783@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 20:49:26 -0000
+Message-Id: <175684616666.3376757.14262931088828487690@gitolite.kernel.org>
 
---===============6068620316715931254==
+--===============3619409702913174944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: 3894e033d11a82a3cf51b70dcf83673961ae4242
-    new: a444096e25770170b6fcde828c3cb1a78f3aeffe
-    log: revlist-3894e033d11a-a444096e2577.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 7474c39dd880ef578260d3428ffcf61bf6e2e0c3
+    new: 2221c8174ad570378ae6ff38d0bf0b43048ce88d
+    log: revlist-7474c39dd880-2221c8174ad5.txt
 
---===============6068620316715931254==
+--===============3619409702913174944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3894e033d11a-a444096e2577.txt
+Content-Disposition: attachment; filename=revlist-7474c39dd880-2221c8174ad5.txt
 
 64040f8c72fc79b901cce9abcce16ba1539f9371 NFSD: add io_cache_read controls to debugfs interface
 52a87527974760b8195c37d0fc86a01f48d6c4b2 NFSD: add io_cache_write controls to debugfs interface
@@ -76,10 +76,10 @@ e48fd55f85f590ddef3fae44cef9835d1aac0648 NFS: Fix the setting of capabilities wh
 e911bc5e183770e48ce67f1c480351b4947a09a3 NFS/localio: nfs_close_local_fh() fix check for file closed
 e77852e1cab2efc8e47f162d75f7380737c005fa NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 4dc75a4c71f2bd050f5f234e05d64995cf6d7817 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
-55d29eb5b4f3f091a8cf002e1c5a2b93836ae3dd NFS: Fix a race when updating an existing write
 af5af6d183a94198fabdbb21716597457e8ed54c NFSv4: Don't clear capabilities that won't be reset
 e2aefefe439e86760b448054272abf9fb04eaee7 NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
 081ac4eddbca8774caa7520c9b004f59efb305ec NFSv4: Clear NFS_CAP_OPEN_XOR and NFS_CAP_DELEGTIME if not supported
+55d29eb5b4f3f091a8cf002e1c5a2b93836ae3dd NFS: Fix a race when updating an existing write
 87d24ef1a95077f61db8b1ff9669df9e0fc8b8af NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
 c17729e2ceee62f3318b0bd1560a801dec22f39d nfs/localio: restore creds before releasing pageio data
 5ab76d6b1e56c8dde13538a387ef90a38bdd7f47 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
@@ -91,5 +91,33 @@ cc68574285aa4f9d59b4ce26d896cf645f461a22 nfs/direct: add misaligned READ handlin
 39bafb6a7c4be10b7a7d898fb1e1c594582423ca nfs/direct: add misaligned WRITE handling
 66ce35301b26e752be67603f9eced3b0cc63c636 nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
 a444096e25770170b6fcde828c3cb1a78f3aeffe NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+94bebc3fcb44ffd750371d8bb2956d544bda6859 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+3ee616a2096a178c53983318daaf46d22b849ef9 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+5511aea0ae4a8ac589425e9dabdc97f8f36f56f5 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+c7be4d18bb55da3c564bbf4e08ffa83cc2e9869e Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+3b99a08812af5cc0b7e570256ee21b70203eee24 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+09965546b9da8eb746407614839b822b32a3e72e Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+433def6c8c838da5d659d008775507e761b00303 Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+d765398acc13933262d8c48e26c77a6f71522848 Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+2377ec39ab948aefb528e0f8b85424425cab3954 Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
+c411c310c781da6be8f32694df79e09e002d5ca5 Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+d8c1e6ca1a96a1ddab1c7571fe593c272d5f00a5 kernel-6.12.24-1
+845355b1bd98d5a82994d9feb2ec5db19a745f28 kernel-6.12.24-2
+455c90db70fad392443dcd4ca5b02661a37b02d7 kernel-6.12.24-3
+3073fa36eee81085e223a461670071e6cdef0dad kernel-6.12.24-4
+15d2454f90542cd548ed058b62e257b68aafb56a kernel-6.12.24-5
+b786b3d9397a696323dc1bd1fcb632f3ef52abc8 kernel-6.12.24-6
+3f9cc4819b8d4d2582a5a8a076db30bbb38ec83c kernel-6.12.24-7
+1ca353ad4decf52808d301bc0c25622084086a06 kernel-6.12.24-8
+2b260595f0c90fd6564866de55394775fae5d8d6 kernel-6.12.24-9
+6d32deb461e1ae04883d4058c86dadff4bee12d1 kernel-6.12.24-10
+59a361bdda73308727768c825ce98dbd65575741 kernel-6.12.24-11
+541bf08e5596f63b5418344572315cc4f35ad7d7 kernel-6.12.24-12
+591a6caed3e2e687bbc132ee1a1920cd8a9f480b kernel-6.12.24-13
+3f0ca948aa38161541bf797b1afcf9bb85f3e5f5 kernel-6.12.24-14
+9690afbdfe6f83b2c515ad852103fdf9b42e3f8d kernel-6.12.24-15
+50775bea884cd5953cbf9f9352128b61325f6621 kernel-6.12.24-16
+46c3d6bc1ec59301079a9af9b4eddd02d8464382 kernel-6.12.24-17
+2221c8174ad570378ae6ff38d0bf0b43048ce88d kernel-6.12.24-18
 
---===============6068620316715931254==--
+--===============3619409702913174944==--
