@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8390236876389028945=="
+Content-Type: multipart/mixed; boundary="===============0673781112343134528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 02 Sep 2025 17:31:02 -0000
-Message-Id: <175683426216.3203618.12210607148118718037@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 17:42:39 -0000
+Message-Id: <175683495915.3212811.12787463210948850396@gitolite.kernel.org>
 
---===============8390236876389028945==
+--===============0673781112343134528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8d499394c4ccad6feb195c3b9e78a685c283ae8a
-    new: 071947e6bcf5ff22ad2558726758aa8d99c785ed
-    log: revlist-8d499394c4cc-071947e6bcf5.txt
+  - ref: refs/heads/1GbE
+    old: 5189446ba995556eaa3755a6e875bc06675b88bd
+    new: a6099f263e1f408bcc7913c9df24b0677164fc5d
+    log: revlist-5189446ba995-a6099f263e1f.txt
 
---===============8390236876389028945==
+--===============0673781112343134528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d499394c4cc-071947e6bcf5.txt
+Content-Disposition: attachment; filename=revlist-5189446ba995-a6099f263e1f.txt
 
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
@@ -423,35 +423,5 @@ ba1e9421cf1a8369d25c3832439702a015d6b5f9 net/smc: fix one NULL pointer dereferen
 773b27a8a2f00ce3134e92e50ea4794a98ba2b76 net: mctp: mctp_fraq_queue should take ownership of passed skb
 e27e34bc99413a29cafae02ad572ea3c9beba2ce net: mctp: usb: initialise mac header in RX path
 a6099f263e1f408bcc7913c9df24b0677164fc5d net: ethernet: ti: am65-cpsw-nuss: Fix null pointer dereference for ndev
-695b4c9b8087e77949395468b7289e7a23d96b7d ice: fix lane number calculation
-b73bd818130d19388db6006c566f89389ecea5cb ice: fix fwlog after driver reinit
-1cad505f745f1f36056ba1bdeeeb774e950aaeef ixgbe: initialize aci lock before it's used
-a811304f903a8a86dd64b8ac55f8a70c404ee4cd i40e: remove read access to debugfs files
-a642e0202c07b943967d41539ea723a0b479c345 ice: fix NULL access of tx->in_use in ice_ptp_ts_irq
-1817b3697e978589fc63a3a51bc29d3ce19eb0f3 ice: fix NULL access of tx->in_use in ice_ll_ts_intr
-9afedf0b52a2f755c13b049347c2835d080e3ea5 ixgbe: fix incorrect map used in eee linkmode
-6ec6775a7768e93081d826cbb61165215be32c5c idpf: fix UAF in RDMA core aux dev deinitialization
-3f45d58bd85c390ff81e9e70eb4d26bb2e2646f9 i40e: add validation for ring_len param
-0cb715e4ac43cef273c2c7112719f5d15ae3d87c i40e: fix idx validation in i40e_validate_queue_map
-9405e5b443562da81c30cc3e8ead9b069a3cbbba i40e: fix idx validation in config queues msg
-2553d747effdcd1f401548abff5b516df396fe66 i40e: fix input validation logic for action_meta
-c173c7e1747e757a33bff93d0a16a0bb8710d857 i40e: fix validation of VF state in get resources
-bac2fa5876d1b1ae7ad171a0e796a7fad6246195 i40e: add max boundary check for VF filters
-a31cd42712025a5db297d04eec5564c41af2722d i40e: add mask to apply valid bits for itr_idx
-e08bca25bd7f22d067297b0daf8effd90fd73083 i40e: improve VF MAC filters accounting
-def628bcea9db1df36da0b29b8e0cf8d172d3448 igb: Fix NULL pointer dereference in ethtool loopback test
-aed08fbfe5b4a630db8efe5c29b92600190b1004 idpf: cleanup remaining SKBs in PTP flows
-7c682e477d5c1194db6a67a186c94dbd6b4b3038 idpf: set mac type when adding and removing MAC filters
-7d0d757ac31f37adfd44a84d9c0d2d3153e3d40b igb: fix link test skipping when interface is admin down
-a5a8d266172b2d1f914b56464e4935106b0757a4 ice: Fix enable_cnt imbalance on resume
-803cb441a312a27192022fabc3966ad7e54e16c9 ice: Fix enable_cnt imbalance on PCIe error recovery
-3c1a40b19b59cebd6375a9eda40c3173be6b5671 i40e: Fix enable_cnt imbalance on PCIe error recovery
-871320e1189aa92b273d51eceec90896a5624086 e1000e: fix heap overflow in e1000_set_eeprom
-aaf71b16c7f5bdf6d698cf8fe1997b45d9a4c7f9 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
-5a13c5a495d928a8e601c899bb8f74421442b14a idpf: convert vport state to bitmap
-8ca96038cf10ffe7e2c58a573c4191ae653f34d3 idpf: fix possible race in idpf_vport_stop()
-1675605fc4b7a511c64ad8a49bba41f6766e616a i40e: remove redundant memory barrier when cleaning Tx descs
-1988d9231f9381851266f4dfa77cf1e44953d58f ice: fix Rx page leak on multi-buffer frames
-071947e6bcf5ff22ad2558726758aa8d99c785ed i40e: Fix potential invalid access when MAC list is empty
 
---===============8390236876389028945==--
+--===============0673781112343134528==--
