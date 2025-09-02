@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2656137053386083926=="
+Content-Type: multipart/mixed; boundary="===============6716497548982245174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 02 Sep 2025 12:03:06 -0000
-Message-Id: <175681458620.2901913.7121286078629023398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Tue, 02 Sep 2025 12:04:05 -0000
+Message-Id: <175681464552.2902601.992342721097884772@gitolite.kernel.org>
 
---===============2656137053386083926==
+--===============6716497548982245174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/heads/master
-    old: 4add5d51aadff35917b0bc5a89f7bbef89a1327f
-    new: c23c9b1886ebf12834b1b13ffdb7227e7bcb41d6
-    log: |
-         c23c9b1886ebf12834b1b13ffdb7227e7bcb41d6 6.16-stable patches
-         
+  - ref: refs/heads/next
+    old: 5272d45914fff0e68ecb7ee9887f174770236ae3
+    new: 547b29c54675c623ba39ea396b9b426ec39200b6
+    log: revlist-5272d45914ff-547b29c54675.txt
 
---===============2656137053386083926==
+--===============6716497548982245174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5272d45914ff-547b29c54675.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756814635 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1756814584-f5ff76e3e346c2a729f1231b05ddab31ee9ab522
+f53f2bd8fc5f7d986b676a3f80505ba4d6b0b311 wifi: iwlwifi: uefi: remove runtime check of constant values
+1160c99ed93188a2b47636db0fd5093d189588f1 wifi: iwlwifi: acpi: make iwl_guid static
+c8166b218540359146cd2b0ad150fa7e652cb304 wifi: iwlwifi: remove .pnvm files from module info
+35adaa67354ad7aa588acff9594d261dd3304346 wifi: iwlwifi: trans: move dev_cmd_pool to trans specific
+815cc0c75950d26347d3c7fbeb856251a5bcd0c0 wifi: iwlwifi: don't publish TWT capabilities
+c40e28c47fc4e55e5f523f295f7096e5d9428608 wifi: iwlwifi: remove unneeded jacket indication
+aa9b9865a5534c08ae913fe6621bded5af3c65a6 wifi: iwlwifi: really remove hw_wfpm_id
+6f2d548e0da60bc414d115f459c0fb2145462f62 wifi: iwlwifi: gen1_2: rename iwl_trans_pcie_op_mode_enter
+df70a9a86eee0d10fdb3fe02099176b5c75e4559 wifi: iwlwifi: gen1_2: move gen specific code to a function
+40f6e94d873fe29bd5d987f53772eb8d968b8103 wifi: iwlwifi: mld: support TLC command version 5
+1a33efe4fc64b8135fe94e22299761cc69333404 wifi: iwlwifi: pcie: remember when interrupts are disabled
+0755db9f2605e8dfc24857cf5ac1d9a8d4e91fc5 wifi: iwlwifi: mld: make iwl_mld_rm_vif void
+187b114a2ab3d6d83792c659ca3998454446f44e wifi: iwlwifi: carefully select the PNVM source
+8cab67474b97e613767618a081982da4bab2434d wifi: iwlwifi: mld: remove a TODO
+9b273ee9c084a7db2978e2101bbb6fc163701c85 wifi: iwlwifi: don't support WH a step
+17f4c72590a6a702d65fe4e9496d06ac93c2f964 wifi: iwlwifi: add STATUS_FW_ERROR API
+547b29c54675c623ba39ea396b9b426ec39200b6 wifi: iwlwifi: replace SUPPRESS_CMD_ERROR_ONCE status bit with a boolean
 
-4add5d51aadff35917b0bc5a89f7bbef89a1327f c23c9b1886ebf12834b1b13ffdb7227e7bcb41d6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi23SsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rIkP/RCfdg5PwyjMJ0SfCP5/
-uWeEKdEMA+8+BF2Tp2XBISybMr0BRJ3agds/796l3L3/jzDZJqGbuIrVfgbPXnL2
-r4+NjI/80+Dr+23XmwmZeqZS2NjJhGNIAwn/6+oq4MMnr467CqU2/ZVP5Pk5ctEP
-UrTeje4CeJpzIumdX774BWIMfkwrBr8BtTpEEpXlAou3817MqOLLZv8/+KI9Xm0k
-K18P7HCu3I+EzSRWQPV8cMkB9D9NzBq55ETlJjZ+tkZhE9PLtJhSSPvC86nTIesC
-zlPdK2qLZVF8xZeziPeGE9Te3abCb+1aENyxnHXXjgVhS202cJs3qqP59ksqptDz
-R25VBFQQVzTYOgN/wZFD+L6Q2PNmsRIYZgEDzyO7dHF6jrr7u5bqlg7RG+88AS/+
-DKZe7L7i5lxRZbcCMtFQb22IbLMZf2MPdI03U1Nd/BNUbr+otA5vIC849zWlItMp
-Q9YB6pk12JeZja9Wb19c1lcqSQPZ9ZT3h5CV/jHLCdkgzRn78pOpx38IwV/zjkr9
-EoDJBKnSpy0zdOPE9pfJZRss2Y2NdjXApZGiKGVSRM0q4g17MsKp0xFpaAUjZfI8
-0F9WfpR7H9V+/qG0HhPEv39IHrACfMUIcFJKiPAMpYjD3UEseoXaAcSAB8j/LpQ0
-+Dee0Dbl9D52z1dP/VzmvF7L
-=oH5K
------END PGP SIGNATURE-----
-
---===============2656137053386083926==--
+--===============6716497548982245174==--
