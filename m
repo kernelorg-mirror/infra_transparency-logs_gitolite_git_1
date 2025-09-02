@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 02 Sep 2025 08:54:14 -0000
-Message-Id: <175680325449.2713953.5437500876169596252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Tue, 02 Sep 2025 09:03:36 -0000
+Message-Id: <175680381605.2739239.6310484877642289758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 3669490d6c7500583319c1a4667deb7d4a0ae1d6
-    new: 3ade12dcc32e0d429dfab7dcd784b13caf3424ed
+  - ref: refs/heads/next
+    old: fb6bdb762f5da6fd8d1ff8901f5192bcda94faf1
+    new: fa71e9cb4cfa59abb196229667ec84929bdc18fe
     log: |
-         3ade12dcc32e0d429dfab7dcd784b13caf3424ed Notes added by 'git notes add'
+         fa71e9cb4cfa59abb196229667ec84929bdc18fe coresight-etm4x: Conditionally access register TRCEXTINSELR
          
