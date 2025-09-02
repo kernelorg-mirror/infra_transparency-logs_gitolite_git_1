@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4906662246204022802=="
+Content-Type: multipart/mixed; boundary="===============8808976736185850344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 02 Sep 2025 20:27:35 -0000
-Message-Id: <175684485507.3355897.12726730038769616954@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 20:27:37 -0000
+Message-Id: <175684485787.3356067.15888425256212005858@gitolite.kernel.org>
 
---===============4906662246204022802==
+--===============8808976736185850344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 29828b81a46a3ae55ebc053fce512219172560ba
     new: cd8a4cfa6bb43a441901e82f5c222dddc75a18a3
     log: revlist-29828b81a46a-cd8a4cfa6bb4.txt
 
---===============4906662246204022802==
+--===============8808976736185850344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -486,4 +486,4 @@ a0a7002b943997f5a4a9103ab92db388965f7aff net/mlx5: E-Switch, Register represento
 0c2a02f3c066d4b50ebb66178843df83f33e4f1b net/mlx5: {DR,HWS}, Use the cached vhca_id for this device
 cd8a4cfa6bb43a441901e82f5c222dddc75a18a3 Merge branch 'e-switch-vport-sharing-delegation'
 
---===============4906662246204022802==--
+--===============8808976736185850344==--
