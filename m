@@ -1,45 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============2560835827622508015=="
+Content-Type: multipart/mixed; boundary="===============0081041324578634252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 02 Sep 2025 12:41:11 -0000
-Message-Id: <175681687143.2937993.397069276274249183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 02 Sep 2025 12:42:43 -0000
+Message-Id: <175681696317.2938735.7517997267814411595@gitolite.kernel.org>
 
---===============2560835827622508015==
+--===============0081041324578634252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2fd4161d0d2547650d9559d57fc67b4e0a26a9e3
-    new: 48195dd18f0eb10879960196925f914ca2600806
-    log: revlist-2fd4161d0d25-48195dd18f0e.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 193049c8d80e978ab986357be262445af5cfae04
+    new: 2df0f1ae37b74e09ca3d66b8a336f4bd6abaedc8
+    log: revlist-193049c8d80e-2df0f1ae37b7.txt
 
---===============2560835827622508015==
+--===============0081041324578634252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fd4161d0d25-48195dd18f0e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d6900b8bd362b68c66312ea8200bc0c61c4ef542 dt-bindings: ptp: add NETC Timer PTP clock
-db2d2de1c2a80ba2617246ca1a7b0ffd117e0783 dt-bindings: net: move ptp-timer property to ethernet-controller.yaml
-61f132ca8c46ffee368a951e516d19d4ae767ea8 ptp: add helpers to get the phc_index by of_node or dev
-87a201d59963ebf7185dd3c8b59907f329caa28f ptp: netc: add NETC V4 Timer PTP driver support
-91596332ff5de572576f0f93d5079b2bfc5aeae0 ptp: netc: add PTP_CLK_REQ_PPS support
-671e266835b8a87d6cc2c6db962de23783405dd8 ptp: netc: add periodic pulse output support
-b1d37b27036a3a547088ba985010eb88cbf16fe2 ptp: netc: add external trigger stamp support
-dc331726469d4ac145478c5891ac7117d7a88440 MAINTAINERS: add NETC Timer PTP clock driver section
-19669a57d7a04d2581dc75f6b452ee2a59936942 net: enetc: save the parsed information of PTP packet to skb->cb
-27dd0eca934763cb8b813cc13a86900302470cc7 net: enetc: extract enetc_update_ptp_sync_msg() to handle PTP Sync packets
-d889abaac29975e1a19d92d33395edb81723c33e net: enetc: remove unnecessary CONFIG_FSL_ENETC_PTP_CLOCK check
-7776d5e6e349654e4f0ddaef8de8734ad44ab23b net: enetc: move sync packet modification before dma_map_single()
-f5b9a1cde0a26c17a50402f9c631d86b579aff3c net: enetc: add PTP synchronization support for ENETC v4
-93081d4ed54e72c8e7f99fc69f90edb41bd0e660 net: enetc: don't update sync packet checksum if checksum offload is used
-48195dd18f0eb10879960196925f914ca2600806 Merge branch 'add-netc-timer-ptp-driver-and-add-ptp-support-for-i-mx95'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756817011 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1756816960-1d9ab8abe7536adeff0459ac9c56ad57350c82a9
 
---===============2560835827622508015==--
+193049c8d80e978ab986357be262445af5cfae04 2df0f1ae37b74e09ca3d66b8a336f4bd6abaedc8 refs/heads/linux-5.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi25nMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0VUQAMqavGe+ujUcy6CcBZmD
+2wjOYxVDx098tpscY2rufn61OamAU/bvFsY9F0y5UexRObBsVirK4NNkE89JwzV5
+CHJHqlDwg7TyABw7Ty8YQgqJEjO9FN64bAsMk9oUGJ3pc0RTiAQKvlg2nTGTOOqY
+cLFxCeFjM2VS18uiQSpOZwHCaszO186kBm5d4Z+xArnNY27qPfW0kmr9iyQvNhUZ
+ZqOU9azittceGGXZq3+PBvRmw1QDK1LkReUDHSto1TYGJ1SQcYVVO2OVa8AU50f4
+stS67QQAaCH1+bMpfKw9cu+k3xL6Ib1397ziCuAdIVOJfxBMw0tL9mUwIi+fvjIR
+1XyW/kxcrqLQwesSXicwhpoQm6mC69C3wWdHBLpvj3LAJACtZolnBBnKtaj2xt8s
+s2kFjnU3RkUcHex0JqcvUFwE0fSLk0/118dXtfIyG0NvEyZAB8Y8qWNhhI58TVnt
+3BViRbgUtQ7+5fRBkdop0wnfWs4Z7VfICT9lPfXW95d6hA2N40QX6o6IPoa5XXrg
+wD7hpSxJkcGhIWV2ZrLg+LoS9UY4v+McYtlVLaxR3pCXFfF8iXAvebCjppfYGTMn
+r8HVvD+q3AFqisAYi6LWtU1EIjLdZ7yxRgDyY24FipojbsY7xreWh+G8102Yiz54
+riKsG7NyMmaFfxWOQ8L2T5Py
+=+pY9
+-----END PGP SIGNATURE-----
+
+--===============0081041324578634252==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-193049c8d80e-2df0f1ae37b7.txt
+
+8a31da8c84ab737419d9f93ec844e2332d9e0e13 pinctrl: STMFX: add missing HAS_IOMEM dependency
+a5111dacbd050c09ae9d2f1e6c320d225e8a392c ftrace: Fix potential warning in trace_printk_seq during ftrace_dump
+64c21bc2c7710962458236bb6890fe17ecc11c56 scsi: core: sysfs: Correct sysfs attributes access rights
+a33aef6b8e1c07976c19b57777664f5af3a9cd52 vhost/net: Protect ubufs with rcu read lock in vhost_net_ubuf_put()
+d0374c3cf9c310d08c21f0a522a022243f783665 net: ipv4: fix regression in local-broadcast routes
+82956ad2ae9a7f7383b2168e783b7664f0ea1e7f powerpc/kvm: Fix ifdef to remove build warning
+8879fad138f83d80ce3a785c60da89c79be48cf4 Bluetooth: hci_event: Detect if HCI_EV_NUM_COMP_PKTS is unbalanced
+bf8923668667fbda2d4bf491ac22ffdadf1b42bc net/atm: remove the atmdev_ops {get, set}sockopt methods
+fafa5e82329688e83682b7f873477cc9e1110354 atm: atmtcp: Prevent arbitrary write in atmtcp_recv_control().
+037db805f9f37f3b0a40bed001c6d2460392667f net: dlink: fix multicast stats being counted incorrectly
+2398070c8b6af9e11ccf89c34ff70772a309924f net/mlx5e: Update and set Xon/Xoff upon MTU set
+660d8de87f94d522d6d42d73069cce45b0a92ba6 net/mlx5e: Update and set Xon/Xoff upon port speed set
+97bc9cdfe042ce255d6490a75d41c9f368036b88 net/mlx5e: Set local Xoff after FW update
+b179a5a7c92c6c34f7fbfa6aea0557544385f55b net: stmmac: xgmac: Do not enable RX FIFO Overflow interrupts
+8a25386b202dc16caa572f975d2cb4a10bf392a6 sctp: initialize more fields in sctp_v6_from_sk()
+38bdef8edfdb14f7a1ebb1cbd7833a3ba1296201 efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare
+482490ae8158ed183aee473ac4e786c77722c32e KVM: x86: use array_index_nospec with indices that come from guest
+906bc38ec43ba04c94001d37d03e433aed810598 HID: asus: fix UAF via HID_CLAIMED_INPUT validation
+b357c0233090268ecc445dccdb6242a8bb893c5a HID: wacom: Add a new Art Pen 2
+352290c050cb2d0e20e87c87f5d1639d6e5902a5 HID: hid-ntrig: fix unable to handle page fault in ntrig_report_version()
+0d039c5ebc537cf6fd67413d0dce8410ff1a19b2 Revert "drm/amdgpu: fix incorrect vm flags to map bo"
+bdde279c063ded284cbe559e6b3406c43d8ef703 net: usb: qmi_wwan: add Telit Cinterion LE910C4-WWX new compositions
+bd670e92bc23b8464f03b2d06340553dceddd9fd Revert "drm/dp: Change AUX DPCD probe address from DPCD_REV to LANE0_1_STATUS"
+2df0f1ae37b74e09ca3d66b8a336f4bd6abaedc8 Linux 5.4.298-rc1
+
+--===============0081041324578634252==--
