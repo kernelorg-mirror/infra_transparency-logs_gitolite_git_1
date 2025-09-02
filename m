@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 02 Sep 2025 21:58:48 -0000
-Message-Id: <175685032857.3435434.13597476699648314761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 02 Sep 2025 22:21:13 -0000
+Message-Id: <175685167394.3455021.16795755073082243094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 80b1d57327d21d4510a0598dec2e17fcb111aa19
-    new: 982cb27ab0f6b7b6df95bcbdce0812494ff15cac
+  - ref: refs/heads/dt/next
+    old: ee2dcdbebfb2bd2f81b889d1a912852912f8dc97
+    new: bc58402182fcce017c9fd98f3e22609dfb7d0886
     log: |
-         38519431204cf43a1f85b64736df1eb032df9be4 foo
-         31016f5ba3edab50bbf10b60e374b1459ddf8f70 foo
-         982cb27ab0f6b7b6df95bcbdce0812494ff15cac foo
+         d65cf42a95874a3d3caf2db790aa3ec4348520fa dt-bindings: arm: Add Cortex-A320/A520AE/A720AE cores and PMU
+         0d00cb4342f44c30bd7ca7c3188933d47a6abccd dt-bindings: display: samsung: Drop S3C2410
+         bc58402182fcce017c9fd98f3e22609dfb7d0886 Documentation: fix typo 'Andorid' -> 'Android' in goldfish pipe binding
          
