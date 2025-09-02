@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Tue, 02 Sep 2025 16:25:48 -0000
-Message-Id: <175683034856.3147987.3218245711953247197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 02 Sep 2025 16:53:01 -0000
+Message-Id: <175683198100.3169017.10865042311207846149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/queue
-    old: 4efa57b484039b8fa9fb41b647b11b623e60fcde
-    new: c3487cc14fd14a9880138d3cc769b83c6b23be0d
-    log: |
-         c3487cc14fd14a9880138d3cc769b83c6b23be0d fix(macro): interpret responses dynamically
-         
+  - ref: refs/heads/filenJguI5
+    old: 35fc531a59694f24a2456569cf7d1a9c6436841c
+    new: 0000000000000000000000000000000000000000
