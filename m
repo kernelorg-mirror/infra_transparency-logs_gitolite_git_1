@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2158079234031646442=="
+Content-Type: multipart/mixed; boundary="===============1261304424145187541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 02 Sep 2025 13:12:37 -0000
-Message-Id: <175681875725.2971237.15789483134910854651@gitolite.kernel.org>
+Message-Id: <175681875779.2971301.12286320005621160825@gitolite.kernel.org>
 
---===============2158079234031646442==
+--===============1261304424145187541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 9ca082874fb01b3d3037af560d6d4096ba02d204
-    new: 74fb5423b21ec1fd05ae8a44ad09969ee638c970
-    log: revlist-9ca082874fb0-74fb5423b21e.txt
+  - ref: refs/heads/linux-5.15.y
+    old: cf539eb19305375640bab469c6677991c227a07c
+    new: 33523102fc7f424e6f5007236e1e745735d663a3
+    log: revlist-cf539eb19305-33523102fc7f.txt
 
---===============2158079234031646442==
+--===============1261304424145187541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,65 +32,64 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756818805 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1756818753-57753b7db4c0b5cbf03340a96f925bd5b7828f15
 
-9ca082874fb01b3d3037af560d6d4096ba02d204 74fb5423b21ec1fd05ae8a44ad09969ee638c970 refs/heads/linux-5.10.y
+cf539eb19305375640bab469c6677991c227a07c 33523102fc7f424e6f5007236e1e745735d663a3 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi27XUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kTIP/0Ojx51gi5wtzrqkmbnt
-MIVcAnKGg4ltZ59X+7cLF8yx1MUUuNIHlOKsMDl9Q5cAG23Au1PNlKeoIVEcXAMw
-yn0f8+UOp/GrnfBty6WuP+zk+pNH2e0NjH5Smd89sX/D8Te8GOxdbvwym/bPECF2
-lmR/wDHnzTEvo7Ec/z7o8JghrCyOZxQLhe49jhh34U/GsTXxKybJqeMlT3ZW4llK
-ha8WJ77+OnxUADSpE6lbKqOd3bYzM1sWejTgsBIlJ34eMAhSe5scWCxyvlO+Lkeu
-z7VBzoH+auAlmI99JAD8Wlk/khxvS8rshOMpyVXOR72UC16CHn5gEZoHQ9Et/Wyg
-wBDWMpKCRD9hzW1fOMzgO8ooWODF+9Kj9PpG7OhtfmGljy05fmdW0Qhagb7dKwkx
-zjOXQhsZ2nqF5kSq44ZhH03TNjXPgBA9jpC9S5Dw3P0huXwGeVWwSHgfdHi8oDXg
-hW9mvRwRES/HxSDaloEvvasHWFRRCH79EtTksh5OgpltjdHpxjJucrtzk0o1qUa4
-lhCpbpgEh5CC9rTEmUcVnu74IlRFDA2i951JdEkSTSgD8UZjce/E9MptZ58N+ohp
-5IR1kkkFDcEt99q+gY66cs6cYO/VGxY6TshqW/KycIWs9EY7ymSOAmNbXVOmSRt9
-QCPZaaMlPNWlQFG85rRUZ/P/
-=dA2w
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sIwQAIRag2dibs0yQkAxmu9H
+OMhdH8EthW59wTI68z7SCsFKuw6Dgy3843zHmPeheuzw2s/pZIs/VbVfA5W5y0Fv
+eS8zWUCQ0utYdPV7Zv4lFcNjvAcMOuFRrw6jgNB5wzc9tcxmNRf5CIc75xTX+xvD
+k1+N4Sp/Wm64bfonQNoH6v1D0m1eWhPSi1FtFQ5RJrY32EL/+Ebd/V1FnfYkfWWJ
+8WrvlMjIQT2pDwBJHebopQJkZfuWyyk+fOWzkoUv80pGdqbk6oQghJDZ0sbTy2V7
+tiyuWHgYxxFjzC/txs2RGOskJeeuO9KjH9v7xIUiRTUUeq8AEvvwiVs3Xmi+YXcJ
+5fpYKpisb06xcWsudgDwZhGJEGi8JLmlhI2vNqgJKJ7TIOWEVGH6HSH1lIlu0Db/
+iXuwJuTXqfYb0BDK6Z4hHJDQUTAJvb+oolQxGl89GIQPQdlp/JVvb2hImioyyIBW
+w80gt9wmqrhw/+18MMOlWaKAkjcYwM/ZVPzXBR0+gvPnvrHVG5CDJqpwXNmg1LIg
+5mAzHwyWRXsZeNr6FvxzjSHgWTOElji5HwfmqwmDeScnZxWr2bjN5Wx9d4q/MyX6
+l950FVQW2Rfu+/0ww9O06s926ryXsiUxWxJlfPGmNzO4gs+FdUcd/hfb60zJ80TJ
+0s32OF1XbugaJ/IS5lYT7mJP
+=eXpA
 -----END PGP SIGNATURE-----
 
---===============2158079234031646442==
+--===============1261304424145187541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ca082874fb0-74fb5423b21e.txt
+Content-Disposition: attachment; filename=revlist-cf539eb19305-33523102fc7f.txt
 
-f51bcea346a30f7d88387c3cc682ee03654e35b9 pinctrl: STMFX: add missing HAS_IOMEM dependency
-7d447b464c77ac3bb72708e24ad5b6e4b7e4feed ftrace: Fix potential warning in trace_printk_seq during ftrace_dump
-2e5a7079e21e83f202b6193cf8833ddbfe27f8aa scsi: core: sysfs: Correct sysfs attributes access rights
-5f610a5df352c7b1802d0e8784afbc6aec7bd5c0 x86/cpu/hygon: Add missing resctrl_cpu_detect() in bsp_init helper
-2e2a48cbe6b247aa49075c99aa3339fcac652fa1 nfs: fold nfs_page_group_lock_subrequests into nfs_lock_and_join_requests
-6f4d2f0c507a3f05b511911d2f46d6ad2b00e5f4 NFS: Fix a race when updating an existing write
-15a6a0c769d6ce08ac009a8b167e1404268047bc vhost/net: Protect ubufs with rcu read lock in vhost_net_ubuf_put()
-34d178dcfb4d655c9596d5072e698f6d902f9270 net: ipv4: fix regression in local-broadcast routes
-3dd1216bfa12bcf7a60b488cadf20d164c1228e0 powerpc/kvm: Fix ifdef to remove build warning
-d3a2490a2d0a60b80218c138abab1f894df6d412 Bluetooth: hci_event: Detect if HCI_EV_NUM_COMP_PKTS is unbalanced
-3d0079447108c4ad1d02fea2d9887abc3bd69c28 atm: atmtcp: Prevent arbitrary write in atmtcp_recv_control().
-cc51434a9f114881770fd71887baa00a4885e778 net: dlink: fix multicast stats being counted incorrectly
-1acbaf27ded1cf8968ea5ae4300c125e6ffb8274 net/mlx5e: Update and set Xon/Xoff upon MTU set
-a8124c7a4b3561b50b3d48123928128d9681421f net/mlx5e: Update and set Xon/Xoff upon port speed set
-7a7b312719d514668239c8508a7b8eb31318a2e8 net/mlx5e: Set local Xoff after FW update
-54ece739e890c7c3c14e9ecdb907cd7926617c6b net: stmmac: xgmac: Do not enable RX FIFO Overflow interrupts
-803a0a31a47f02786319ed1bc4fad5df42690aa4 sctp: initialize more fields in sctp_v6_from_sk()
-38aa86137d486ba984e9760b977936981b4df3b0 efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare
-0fcef7dd6388140017dc0fa0ae679ea05b464d53 KVM: x86: use array_index_nospec with indices that come from guest
-48470d81106a26d731648bb764f63a2be6381808 HID: asus: fix UAF via HID_CLAIMED_INPUT validation
-525695d195e65852415934497fb70b423960ca3e HID: wacom: Add a new Art Pen 2
-1fa1b11b607bf52d9c46d6725296ef3d7ab7686e HID: hid-ntrig: fix unable to handle page fault in ntrig_report_version()
-372a86275a05dff569b8e454a21a7f3f164c71af Revert "drm/amdgpu: fix incorrect vm flags to map bo"
-416fc2374c7af60e936037be9c6ef04a5b5d34cb dma/pool: Ensure DMA_DIRECT_REMAP allocations are decrypted
-632e0f7c3daee057c0668f984068eae828b0411b net: usb: qmi_wwan: add Telit Cinterion LE910C4-WWX new compositions
-65dca8e3a48a80c2f001b4e9dd8a57de882aad13 drm/nouveau/disp: Always accept linear modifier
-abaa48961cb7c17652300c2151a15314c515ed23 HID: mcp2221: Don't set bus speed on every transfer
-7ff0683c16233ec9cb2d8820341d899bb795adea HID: mcp2221: Handle reads greater than 60 bytes
-601ee9b1b90a425244f360fd9151f0a365daa12b Revert "drm/dp: Change AUX DPCD probe address from DPCD_REV to LANE0_1_STATUS"
-2319612d7d497f3146d611978ab5b136c159be57 ASoC: Intel: bxt_da7219_max98357a: shrink platform_id below 20 characters
-169ad34cc5ca513a5c504431100b1e83c9c97b38 ASoC: Intel: sof_rt5682: shrink platform_id names below 20 characters
-de349fa51841e031a5c470f1d677b1c64fd1c6c7 ASoC: Intel: glk_rt5682_max98357a: shrink platform_id below 20 characters
-fb61ad452de62e954b799b6c85a09c6473f277d1 ASoC: Intel: sof_da7219_mx98360a: fail to initialize soundcard
-f266b33ce363d8015a5bc97b8451bf574be166ec xfs: do not propagate ENODATA disk errors into xattr code
-74fb5423b21ec1fd05ae8a44ad09969ee638c970 Linux 5.10.242-rc1
+615103d510f482894da3df9eca1e406690ec1c6f pinctrl: STMFX: add missing HAS_IOMEM dependency
+93d1ec8ca82fc6bc81b788ce28f6da9d4e67802e ftrace: Fix potential warning in trace_printk_seq during ftrace_dump
+e662f42a4e3e421b835d795b2e17238310ee144a scsi: core: sysfs: Correct sysfs attributes access rights
+455941bd96ace0607085caded93b20abda19ad78 ASoC: codecs: tx-macro: correct tx_macro_component_drv name
+bd98f4bef8aad69b9a67bf1824f43f055b5cf3dc nfs: fold nfs_page_group_lock_subrequests into nfs_lock_and_join_requests
+fd12c7d95b06486a8a3bfbb6586fc1e0cdf94915 NFS: Fix a race when updating an existing write
+455618c2ee715266581e49a6b134409679178a8b vhost/net: Protect ubufs with rcu read lock in vhost_net_ubuf_put()
+db4d4d227bd2aec77be5adafbe6e2003d6e09078 udf: Fix directory iteration for longer tail extents
+30f0639165947b4a9ccf1bb73454fc4bb5a21afc net: ipv4: fix regression in local-broadcast routes
+f242ce28bf87c4bec1242da198426adf3b0e09a1 powerpc/kvm: Fix ifdef to remove build warning
+4eb6bed58684d956b77edb4cf4a19bbdfecedab1 Bluetooth: hci_event: Detect if HCI_EV_NUM_COMP_PKTS is unbalanced
+0a3aae78048f40f0b4df905643d119a5a24dad1a atm: atmtcp: Prevent arbitrary write in atmtcp_recv_control().
+eba39867689644a756bb564dc1aac4302d87f0f1 net: dlink: fix multicast stats being counted incorrectly
+b7e1ee2cda363849dd985aaaf06d0b561e52ad0d phy: mscc: Fix when PTP clock is register and unregister
+8e19faf5921caaf94298817f57c5efe50fc51477 net/mlx5e: Update and set Xon/Xoff upon MTU set
+2a3cd8c88ce5c16e176f95957181b8267f80bdfc net/mlx5e: Update and set Xon/Xoff upon port speed set
+6060a5be7ce1d2264a95f00e60981a119ca23459 net/mlx5e: Set local Xoff after FW update
+086e2836077e86ca8ca529ba4a84902a64bfb149 net: stmmac: xgmac: Do not enable RX FIFO Overflow interrupts
+72536fb835c1360e714d4e0ad4496a8fd81b093e sctp: initialize more fields in sctp_v6_from_sk()
+996ae795005d2b4d5184aa9f7b983c9926bf7cac efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare
+af9647e958214d30c13e7c16f343b3514b281d27 KVM: x86: use array_index_nospec with indices that come from guest
+50b27ffb775130cb719b4fb20d636b601d186b96 HID: asus: fix UAF via HID_CLAIMED_INPUT validation
+148ac38a8f6e6ee56f5d506b36b927b91782af7c HID: multitouch: fix slab out-of-bounds access in mt_report_fixup()
+faa4e10ad48bfc6a984fcb98034a99751461fa4f HID: wacom: Add a new Art Pen 2
+ae3dbddd1609678724c9c922e979fb79d4e175a6 HID: hid-ntrig: fix unable to handle page fault in ntrig_report_version()
+f3d56022ef589ef786890c18ae7ed8026f0e2d82 Revert "drm/amdgpu: fix incorrect vm flags to map bo"
+4f0a66e33c9b1f6a537d2fc4f9fbecf3ebafec5b dma/pool: Ensure DMA_DIRECT_REMAP allocations are decrypted
+d026648595ad2ceba98c603741a93452188e7ea5 net: usb: qmi_wwan: add Telit Cinterion LE910C4-WWX new compositions
+2a6a11af1cceb53222d3510f9d871e6fb1bb981c drm/nouveau/disp: Always accept linear modifier
+904eb4956c243d9d0c45808b8c47d6450e5bfdc6 HID: mcp2221: Don't set bus speed on every transfer
+6fde449207dcfec97f1b3014bc7d43cd7bf783e4 HID: mcp2221: Handle reads greater than 60 bytes
+1efbf459d46212d112ed8f79391d6d01a532c828 Revert "drm/dp: Change AUX DPCD probe address from DPCD_REV to LANE0_1_STATUS"
+e4229e190fca3eb11df00ecc9a49db9d12ef6aa4 xfs: do not propagate ENODATA disk errors into xattr code
+33523102fc7f424e6f5007236e1e745735d663a3 Linux 5.15.191-rc1
 
---===============2158079234031646442==--
+--===============1261304424145187541==--
