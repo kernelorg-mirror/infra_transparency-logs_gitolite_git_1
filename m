@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0576679810614585592=="
+Content-Type: multipart/mixed; boundary="===============4771918415549847329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 02 Sep 2025 20:27:21 -0000
-Message-Id: <175684484133.3355506.17538063980252264309@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 20:27:32 -0000
+Message-Id: <175684485200.3355776.3121591695029564829@gitolite.kernel.org>
 
---===============0576679810614585592==
+--===============4771918415549847329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: a1d12118747abf974171295e1a17444739f1948e
-    new: f0213e45c3d951559e6e3974b83dac8dbacdfec1
-    log: revlist-a1d12118747a-f0213e45c3d9.txt
+  - ref: refs/heads/10GbE
+    old: 29828b81a46a3ae55ebc053fce512219172560ba
+    new: cd8a4cfa6bb43a441901e82f5c222dddc75a18a3
+    log: revlist-29828b81a46a-cd8a4cfa6bb4.txt
 
---===============0576679810614585592==
+--===============4771918415549847329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1d12118747a-f0213e45c3d9.txt
+Content-Disposition: attachment; filename=revlist-29828b81a46a-cd8a4cfa6bb4.txt
 
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
 6bc829220b33da8522572cc50fdf5067c51d3bf3 spi: spi-qpic-snand: use correct CW_PER_PAGE value for OOB write
@@ -485,89 +485,5 @@ a0a7002b943997f5a4a9103ab92db388965f7aff net/mlx5: E-Switch, Register represento
 5d8ae2c2cfe88a2c7458e18f30df4c655dfa983e net/mlx5: E-switch, Set representor attributes for adjacent VFs
 0c2a02f3c066d4b50ebb66178843df83f33e4f1b net/mlx5: {DR,HWS}, Use the cached vhca_id for this device
 cd8a4cfa6bb43a441901e82f5c222dddc75a18a3 Merge branch 'e-switch-vport-sharing-delegation'
-990788c9d062d45f9680fe46fc57f37480f398de ice: fix lane number calculation
-beff334f3b74c0c5042bfe54da0ee8c4739406d3 ice: Allow 100M speed for E825C SGMII device
-8b3a8373006bc45d19394e9e484a4bc4bd8c0374 ixgbe: initialize aci lock before it's used
-9b0a0724713197e58450b2ed0099e0426d1970a5 ixgbe: add the 2.5G and 5G speeds in auto-negotiation for E610
-186980c743a8fa048a9907bd9af834f4c9d275ee ice: fix Rx page leak on multi-buffer frames
-3b019c09ce50f4b7bc54eb0d1efa47545a6112aa i40e: remove read access to debugfs files
-212df31072e5ceecc1158cc9dda8cf2ea1b01813 e1000: drop unnecessary constant casts to u16
-21c7cde0f76cc8a4d35b04a1517d89cd28a95762 e1000e: drop unnecessary constant casts to u16
-a57453cfbf8a9059148983f9d3029d1cd3948197 igb: drop unnecessary constant casts to u16
-4a40b78dbf26b7568a4a0b7a0a6498536e886b6d igc: drop unnecessary constant casts to u16
-d9e9c1bed12811b7345e185f7a57ccc7c8007c6f ixgbe: drop unnecessary casts to u16 / int
-528c45f47a07de1b12854b1316df532efa30a0b0 ixgbe: reduce number of reads when getting OROM data
-218b50d77f2b2606ef264bdff631883bec673408 ice: fix NULL access of tx->in_use in ice_ptp_ts_irq
-601c57924e65b77da4911f4fd8bfd7dcb792ff75 ice: fix NULL access of tx->in_use in ice_ll_ts_intr
-9393359b288bf1d8e211a03032bb86b460259ff7 ixgbe: fix incorrect map used in eee linkmode
-e5078f324b7e4aae43a720b4a4313c4e4200d016 idpf: fix UAF in RDMA core aux dev deinitialization
-0ee451e48aba0efe5cfde19b8768c58b84470456 ice: remove legacy Rx and construct SKB
-bd5b3e6283a6e57a33f17bc7522e53fb8aa62d71 ice: drop page splitting and recycling
-3ed7fe12809f8c3c8465da65d6f7e6f800df2453 ice: switch to Page Pool
-1036195bc63c0fab6593ab4da896fb59d7842a86 xdp, libeth: make the xdp_init_buff() micro-optimization generic
-9d7c0a2592090b05dc896efc8bb502190dc2994b idpf: fix Rx descriptor ready check barrier in splitq
-982ca8567c0622565e787ab067e22ef91d3bb4a7 idpf: use a saner limit for default number of queues to allocate
-ce078aa9f4491efd1ec35d129af707ee1c7c906c idpf: link NAPIs to queues
-d0de0500eba46999757243bf58cd5b7e662b695f idpf: add 4-byte completion descriptor definition
-72bc2c1366bf15db9a48d52e161adf5b5f71291a idpf: remove SW marker handling from NAPI
-49f7834d28ca40e9f193ffd6dd124919903ec5f2 idpf: add support for nointerrupt queues
-2fbd2b13f0e656e967504795ad9f2c2858c5e794 idpf: prepare structures to support XDP
-ff520723e48f9367052b0211ac62d2478bf7a43a idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
-39b24f8603f578113de1c06cdba1e6bce217b0dd idpf: use generic functions to build xdp_buff and skb
-9c3f48b5bd7deac8e729c9d3f7da08ad90803eb9 idpf: add support for XDP on Rx
-f19f51d939f15647a299123ddfb04896894d45f1 idpf: add support for .ndo_xdp_xmit()
-c2bc3115f3c0199dfde1a4c602434ed1718b4f13 idpf: add XDP RSS hash hint
-1499137eace1e4f7aead0532b89e8c897154c8c3 i40e: add validation for ring_len param
-930f1f9965779f4499103a7564614b0bc36bf3d8 i40e: fix idx validation in i40e_validate_queue_map
-6d314eb4ccd408b0125116c71adfe7ebe4279925 i40e: fix idx validation in config queues msg
-cd30bb92638b470025da7a3df4f90f49ab234ef8 i40e: fix input validation logic for action_meta
-a4b3227dac1c04d5069af68b190ac69a9017d510 i40e: fix validation of VF state in get resources
-b3a339d658ebbe3d1a3a4e33565aae59dc37fc30 i40e: add max boundary check for VF filters
-8bc7afebba016aa77dcf046b800f8ff39c975f53 i40e: add mask to apply valid bits for itr_idx
-6e295dbc2f6b6901677a49f9fc22ffe1149d4028 i40e: improve VF MAC filters accounting
-c0d53fc2acf23e3d5cf3e71ecd33492fbec01a7f igb: Fix NULL pointer dereference in ethtool loopback test
-0ccf186e44743b5e15de792f6893d79d873fc7ca ice: make fwlog functions static
-cbcb444e7df1d669ca36fb4622f1eb3f47f37660 ice: move get_fwlog_data() to fwlog file
-15e1a7b935f78bc826c83d5ae302f9b3e5f7f955 ice: drop ice_pf_fwlog_update_module()
-34bc6075dea2fe101a32fdaefcc8928f8ac121cc ice: introduce ice_fwlog structure
-d31df4ea04965bd754bb538a62814b5c9677e480 ice: add pdev into fwlog structure and use it for logging
-5d4fe0dd7d929949e839a60a4ed7653fccffa3f9 ice: allow calling custom send function in fwlog
-278beb50f63bf5136c86129b62f5855f16c59faf ice: move out debugfs init from fwlog
-bb20f56ebb477ef31e163782b99da8ed0deaf3ed ice: check for PF number outside the fwlog code
-f24d9857a74e5d21a4a6e119e2fb6b7a2d72f731 ice: drop driver specific structure from fwlog code
-e23677305238c6aa35ab7b95edfe1d3d2b5b854f libie, ice: move fwlog admin queue to libie
-c6414c0aa4befb965f1c337e03f921ff014cc955 ice: move debugfs code to fwlog
-e67c3412d6265f0579bfaafdeed34b881d55158c ice: prepare for moving file to libie
-71b39f624c95b4a9410f1bda7f76cc44dd96d155 ice: reregister fwlog after driver reinit
-ea87d4a5e50d8c9ccee98d1515c46b3091ca853a ice, libie: move fwlog code to libie
-f35da6362562bd9cb13912eab4a327dee7a02f91 ixgbe: fwlog support for e610
-0e1cddbc5e910b726b095b180f7637fc38eec5b9 idpf: cleanup remaining SKBs in PTP flows
-fb90f1a0219f61e9c05e7240bd39c8c2b62b04dd idpf: set mac type when adding and removing MAC filters
-65ec5da8541369e57a897b8ccb9e8dde5703c1de igb: fix link test skipping when interface is admin down
-49007288b5e8fe6623f1d65d3ef9c4946bdaee52 ice: Fix enable_cnt imbalance on resume
-8173a1e223be7bba02ddde2b71cb5871867c00ef ice: Fix enable_cnt imbalance on PCIe error recovery
-cf8428458177d55449ce9cf1da5284ed98715d50 i40e: Fix enable_cnt imbalance on PCIe error recovery
-f19c95d67627d0722a3ad536ba73db2a466e6236 e1000e: fix heap overflow in e1000_set_eeprom
-4f3249b1946083b1cc3a0946255247ccc7f34957 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
-abba635bc6754de15ec4cbb1247c900bf2caa628 ice: move ice_qp_[ena|dis] for reuse
-b1edd32c1d885bbba81c990dc3b343bf89543207 ice: add E830 Earliest TxTime First Offload support
-249af516c65c81be2192aba36368ee7fc86aa54e igbvf: add lbtx_packets and lbtx_bytes to ethtool statistics
-82f4fe7823a9a1481b16e175ed035d36ae3abbde igbvf: remove redundant counter rx_long_byte_count from ethtool statistics
-2b435823b08f68b070696f3ae1f8bf6044cf2499 idpf: add HW timestamping statistics
-996b9298357ffd56d9539eddd677111165464b31 idpf: introduce local idpf structure to store virtchnl queue chunks
-7a7f6dd7f97ec42338ba9b02d9bc4bfa9df4d358 idpf: use existing queue chunk info instead of preparing it
-4970ef55953202fa80da7b939ddbe62c1769a1eb idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
-7939c49480fbb8bf982afa35e3456326f412d3cf idpf: move queue resources to idpf_q_vec_rsrc structure
-c0cd06dc40b4eb1d0f78b860fa018122dfe2e146 idpf: reshuffle idpf_vport struct members to avoid holes
-873b44d140693f6d0c034b71039cfe7830a6ebbc idpf: add rss_data field to RSS function parameters
-0f97d0c6caaaeb922acd7f170bea7737677da31f idpf: generalize send virtchnl message API
-7b555474b1642af48c7ec326792d805b81bf575e idpf: avoid calling get_rx_ptypes for each vport
-5b5fe762fb4e5f05197a4dfb4b7485f68ef1c6f6 idpf: generalize mailbox API
-4de295ff14d5b98edf7053399d2b346b71d958db idpf: convert vport state to bitmap
-36f3596ad7de52a3aa80cd1e9487e40aa745f494 idpf: fix possible race in idpf_vport_stop()
-cd251506b35a2161478da04f1def72eec32a0e24 i40e: remove redundant memory barrier when cleaning Tx descs
-f12f54225e1df5eae4935a1a54430563d67189d9 ice: add recovery clock and clock 1588 control for E825c
-276516e0c2dac4255c8f3789b0745fabb5c9d72b i40e: Fix potential invalid access when MAC list is empty
-f0213e45c3d951559e6e3974b83dac8dbacdfec1 ice: Remove deprecated ice_lag_move_new_vf_nodes() call
 
---===============0576679810614585592==--
+--===============4771918415549847329==--
