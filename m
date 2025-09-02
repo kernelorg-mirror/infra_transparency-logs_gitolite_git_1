@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3361562178472587487=="
+Content-Type: multipart/mixed; boundary="===============0114919379171568081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 02 Sep 2025 12:52:04 -0000
-Message-Id: <175681752462.2952235.13853483056500285692@gitolite.kernel.org>
+Date: Tue, 02 Sep 2025 12:52:12 -0000
+Message-Id: <175681753205.2952495.7674191719287948353@gitolite.kernel.org>
 
---===============3361562178472587487==
+--===============0114919379171568081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,122 +16,142 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: fd8ef71b5842e3fd06143b262166b7cea43061df
-    new: e440a38a0357eef319831cd33505fd6e52973bd8
-    log: revlist-fd8ef71b5842-e440a38a0357.txt
+  - ref: refs/heads/linux-6.12.y
+    old: d85be9035b032ec8ed05db1509eea92a2248d31d
+    new: c45757a57ebcf29c5a469cc9c2c871693862df32
+    log: revlist-d85be9035b03-c45757a57ebc.txt
 
---===============3361562178472587487==
+--===============0114919379171568081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756817570 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756817576 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1756817520-13dd9916c4e2aa6b3a94a08b1bcdd367e4402097
+nonce 1756817525-12c36255f6fd6c3765e8bd8fb39fdce3f5d296be
 
-fd8ef71b5842e3fd06143b262166b7cea43061df e440a38a0357eef319831cd33505fd6e52973bd8 refs/heads/linux-6.6.y
+d85be9035b032ec8ed05db1509eea92a2248d31d c45757a57ebcf29c5a469cc9c2c871693862df32 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi26KMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GEMP/i3eWvGROj2/4Y2abgd9
-oWXjAirQKNPQetLxbnAglAsyMf0qTw5DWEf2ybj2eNz+sww/ppBXqrLx2GS8Sylk
-sAh7O+IbBSi7ZSWf/qeOBKvNIDq2k5QwYzgr55J0kDwMHBSpUeehwyvcUbrDYr+H
-0KY4IFB1NcZrfddoZOu9zoMDgi4fauUsvBzxMZ3/AkCXUVxYpIQrzyXjx2Iau40s
-wNHqUQDTWGNpzRvnN3OgkoIdI3sKsU3HK3wBYU3efc1cr58UgSBcS3u9hDEt9vlD
-tL8tjD26oIjxyOGDNYGK39ZhsNtREN9ExAdX87D8wikI//3m0q4IXqGEkPG08mov
-NjtS8KBOpCH+thCpnQtE3cnnrQlEXnKO+1+Bw0yHl8vw5Ln7mNBZsz02nQd7owKC
-46g0bEH4sbJqrjjjgXpFHdnl6/UXQkS9xWgRwyZRagLT5LoZSvHMjjyzhp4+RAex
-uXNP/E/tNo13c9cFR1OVgeIZztWbyWt9bVUuLl/gJQs4/yyDIhXmFpeUuYHnO8ig
-YH9HY6oatSfZtn6OGVHouwTAzM+SlDVcdmDfGGD+yhv6MTql0QUfXcmeFpFTv7Ev
-oFy7NnzHCd+xCoHGbG9rnHxG5l+ZhzLEZO1A3GusLjA0oYZCFCSIgJcPwBngkCzZ
-hbXm+JF0JKZoFe68Uc4DZT03
-=DTM0
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi26KgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8VUP/A+5fAS7hnc16KqD1CZO
+fwO8FJwYkmv44UmrLZA9u2jEy2l9YWz41uK/15P2CIforvMGPJNOBuqZ87tzEQGw
+wWDb4W2f3O37ce9fAt0KWEjMNfBaKQSeLgZ3V+WHBZqOy7ZmWy0fB9/U6w1c3Ij+
+fJy/fdKUlv4jl9M/npif8GZvt3OgnZKAM8fqbVn3Fdc79KvPPauCq+MiVD2Tvd+N
+/BTNXRBHdzr409q85Lk2MzWv9UwEVt9r/JCul2AB/yqDS676wtIrN6bUyLVxW/z2
+p87hlqfJcbJV2mGQA3NyVJjF6LIjABQaX1uPWx0ZJaCmANN65ZJ9vFMfRcffcDBB
+YN0JDDp1yMoqerWd8UFfrGP37kuE3OALW3huRcU1M+x2f47DKtZRLyUZH1WzsEoz
+xV+Smz1i5v3anCwduRK9fCyq2xjzzsKtsQb6SAvJUgfRQ6U9n0SxfdIPFFkv+ugu
++sHs6Ln+YT2T+Uu+paixbW5xsrCBhy5mrr5zYIhrk3wzlf3TF61X7u+1dfATMBqn
+qAV/95XthaUaFdO8QUmXx6g+LantKsygY9rceRNB44vCxiXXFcDYyZq7Vfyt4AJU
+xuM4ZdXD9k9D/lKVedGBWPubXO9zMa+DT1PgpM2C4PCrhgL0UTg0vqeWQUGC4Gas
+F2VovrMjQd+LmznCT0BuNgeY
+=iwQe
 -----END PGP SIGNATURE-----
 
---===============3361562178472587487==
+--===============0114919379171568081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd8ef71b5842-e440a38a0357.txt
+Content-Disposition: attachment; filename=revlist-d85be9035b03-c45757a57ebc.txt
 
-071a68625be46fbff8c0cc71e9cfa926fe16a5c2 of: dynamic: Fix memleak when of_pci_add_properties() failed
-1c03d18e5bf3617e44d79ca5eeec9a3f749f70b8 pinctrl: STMFX: add missing HAS_IOMEM dependency
-387cc8f76777df0ddff8a3fd432f27b496eb39df mips: dts: lantiq: danube: add missing burst length property
-0b13120f5b1d983b5fec2c37ebcb3ea5788d9c8f mips: lantiq: xway: sysctrl: rename the etop node
-b3ef0512b8adc6caa81b01aad5453348d866bb58 of: Add a helper to free property struct
-ee890df8fade5beafb74ba5ef1c1ce50e59784c6 of: dynamic: Fix use after free in of_changeset_add_prop_helper()
-2aac274bc07995002d751df460b063fae97d9444 ftrace: Fix potential warning in trace_printk_seq during ftrace_dump
-0f8a5f1844a0fc75d204e7792bfbfbab51e48a4b scsi: core: sysfs: Correct sysfs attributes access rights
-253acf54cc2c2d352930993251cd9ba01dadad80 smb: client: fix race with concurrent opens in unlink(2)
-c2adcd287a77f1959b8fe22b38872d5986243c12 smb: client: fix race with concurrent opens in rename(2)
-44ce48f3518838dd9ed7e16a13fcd96d394f304f ASoC: codecs: tx-macro: correct tx_macro_component_drv name
-8426c7f95afcac37866d1f93ce45b200ff8c447b erofs: fix atomic context detection when !CONFIG_DEBUG_LOCK_ALLOC
-2efb34988c5db4ab26018d34bc715b6b70853a31 ACPI: EC: Add device to acpi_ec_no_wakeup[] qurik list
-f54eaa79abf7b1430032abd81342a17847c57604 nfs: fold nfs_page_group_lock_subrequests into nfs_lock_and_join_requests
-0b4ddd56359907a694ee4359000e7c8696683e1b NFS: Fix a race when updating an existing write
-f86a3f6b3d11e22c4c49636d52ebaf8495a57d09 vhost/net: Protect ubufs with rcu read lock in vhost_net_ubuf_put()
-b59d52807bddb9104f4f0766706526b71b435ddc net: ipv4: fix regression in local-broadcast routes
-07155543f7ed6974b5a858b91c680f88f7049562 drm/msm: Defer fd_install in SUBMIT ioctl
-7bd6fb5b996dd151284b6f24d730122728f63e43 powerpc/kvm: Fix ifdef to remove build warning
-bceed3178f8334edad059d7601a46db62599330d HID: input: rename hidinput_set_battery_charge_status()
-f8df3b037df444c6e3db94a4f7d60ada59661c99 HID: input: report battery status changes immediately
-94d6c13bbc3ac431f8931ed1c438f72eaeb0cd3e Bluetooth: hci_event: Treat UNKNOWN_CONN_ID on disconnect as success
-ab36013d81edf9c1e371998d779f0a48b224e22c Bluetooth: hci_event: Mark connection as closed during suspend disconnect
-7e32cc5362a2168f79d9c04b0c0564bef5d7119d Bluetooth: hci_event: Detect if HCI_EV_NUM_COMP_PKTS is unbalanced
-b9293a1489ae0198b817f623c1e53a7b052a96e2 Bluetooth: hci_sync: fix set_local_name race condition
-e3a60f1460b84c4dafe7179227a690a264022732 atm: atmtcp: Prevent arbitrary write in atmtcp_recv_control().
-d8346a8980c359c39437fc7a28db423fd5eda38c drm/nouveau: remove unused increment in gm200_flcn_pio_imem_wr
-de4fa070f775a18c74b0ff088e567d179c41199a drm/nouveau: remove unused memory target test
-4c3dc542ef964bf0740f9cb96f088c5c4f8b890e ice: Introduce ice_xdp_buff
-608b16d801c3f0577982f0a1c1e157a855dccf3a ice: gather page_count()'s of each frag right before XDP prog call
-d2891245e19e9f6596dcfd0dde73e76e5f518d14 ice: stop storing XDP verdict within ice_rx_buf
-240d6d4ab94adfd5ee8ed16a4554b0153cdeeb8a ice: fix incorrect counter for buffer allocation failures
-8b397a62765cb7d1ea5218e0226551d7384b90b0 dt-bindings: display/msm: qcom,mdp5: drop lut clock
-9edb2cc41d6c8094f7d1038e68a178e99b177bcc net: dlink: fix multicast stats being counted incorrectly
-05b35bbd571b79258b1557567947563e21947e9f phy: mscc: Fix when PTP clock is register and unregister
-37f1ea3cdebe08d61bad4608464d5d34e47b6b83 net/mlx5: Reload auxiliary drivers on fw_activate
-f2734390cade880a0ec234dd0c7fffaeb7bfdcca net/mlx5: Add device cap for supporting hot reset in sync reset flow
-ad5a32fe1029b3a3ce8eecc2adcb5ed8393530e1 net/mlx5: Add support for sync reset using hot reset
-7ee5fc21267af2771a651a1ae7ea9b2b923286b3 net/mlx5: Fix lockdep assertion on sync reset unload event
-d3e518717763a04b593c746f012c397c2c844e5b net/mlx5: Call mlx5_sf_id_erase() once in mlx5_sf_dealloc()
-0880dfed46c3509f45f20b36566775e877d0d317 net/mlx5: Use devlink port pointer to get the pointer of container SF struct
-3dad9de35b44e2916af74771f57ebcc637dfec59 net/mlx5: Convert SF port_indices xarray to function_ids xarray
-85707ee26f39cd50a1987a7b180c37570386e475 net/mlx5: Nack sync reset when SFs are present
-bc4bb10f17f6a82ae34a0d629bdc963673921f1c net/mlx5e: Update and set Xon/Xoff upon MTU set
-a6004f19b20e66e0280642e1916f0e260c3701f1 net/mlx5e: Update and set Xon/Xoff upon port speed set
-9fe5e91d1ba136937261c6d9eed7c3280b09069a net/mlx5e: Set local Xoff after FW update
-d4326d04ec36fedab09d4a677ef962f80dcda07f net: stmmac: xgmac: Do not enable RX FIFO Overflow interrupts
-c0b83bda5f5052c7d264bad07965952439d4de97 net: stmmac: Rename phylink_get_caps() callback to update_caps()
-af787c9e7a1a2140b00ef522da8985169d4ef72b net: stmmac: xgmac: Correct supported speed modes
-c47712612f734a06cbb10846f4c55b9b1c161ccf net: stmmac: Set CIC bit only for TX queues with COE
-e73a0a0892e89fee0599c6d40043cb63ff40fc02 net: rose: split remove and free operations in rose_remove_neigh()
-f5644701392dc3638be3ab454f3df4eae7eedf7f net: rose: convert 'use' field to refcount_t
-6b387af2a066a4338aa723afcdde6831f41fa6cd net: rose: include node references in rose_neigh refcount
-e373c76844b58c7384443c775e66c15b57d11cb6 sctp: initialize more fields in sctp_v6_from_sk()
-7fe066f578129579a5efd334234e9ab31f8fe263 efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare
-a14531bea3d3d8dcf68134d91bb1a91303fc6981 KVM: x86: use array_index_nospec with indices that come from guest
-489572466825594d20b56bb4e1d9ba9407015fd1 x86/microcode/AMD: Handle the case of no BIOS microcode
-26a85c71164949070ee7d33f6a51126aa44b9e02 HID: asus: fix UAF via HID_CLAIMED_INPUT validation
-9ad3676616fec07afcd8bb65c2fc3d7a742bee36 HID: multitouch: fix slab out-of-bounds access in mt_report_fixup()
-1ba64efc30030d19a99164968021a177ee3e5935 HID: quirks: add support for Legion Go dual dinput modes
-e01c300a138fc5b139ee6b62057fbfed37f0cc50 HID: logitech: Add ids for G PRO 2 LIGHTSPEED
-cb180c2f210a0294d4e7a3b656a6214b9406c233 HID: wacom: Add a new Art Pen 2
-21be5a5670d1fec77c52fc6c7e5e579dd66d116f HID: hid-ntrig: fix unable to handle page fault in ntrig_report_version()
-db31d2713bf676b53000f26f5886e53df406835a Revert "drm/amdgpu: fix incorrect vm flags to map bo"
-f98bf39fee09d3d14c94b34f1b75b3c2b6eddd53 dma/pool: Ensure DMA_DIRECT_REMAP allocations are decrypted
-05513455944bbb32a5745960a9b646b0cb1dd170 fs/smb: Fix inconsistent refcnt update
-3b985c2bd06ac12ba0c398ff01e2019305628ac9 net: usb: qmi_wwan: add Telit Cinterion LE910C4-WWX new compositions
-f39424424ecc2e2750e12474d575e937a6acf559 smb3 client: fix return code mapping of remap_file_range
-2ba4d371dd444996afeea051fada865d3a193ad2 drm/nouveau/disp: Always accept linear modifier
-98d736b49db8fe7c8f232767e0706a7d3ddf2050 net: rose: fix a typo in rose_clear_routes()
-b13b36be2e1ca9a5472640aa4bf6d7fa1d413ed6 net/mlx5: SF, Fix add port error handling
-6dbc5d99dce2c8d49706b3d25308861443cfcfd4 HID: mcp2221: Don't set bus speed on every transfer
-e538db324049e75b58288b036bc25c078013fc0a HID: mcp2221: Handle reads greater than 60 bytes
-fd7e3fb12d080f15ac6fad09030c1b1fca66322b Revert "drm/dp: Change AUX DPCD probe address from DPCD_REV to LANE0_1_STATUS"
-09ed8493a8f7f43f21d16736f1f1a5f46fed2ea3 xfs: do not propagate ENODATA disk errors into xattr code
-e440a38a0357eef319831cd33505fd6e52973bd8 Linux 6.6.104-rc1
+3253ebe58516ab331649826f71cd278b5893a051 tools/latency-collector: Check pkg-config install
+dc13ec80ded83a1fa9c11cd82a018c6ca9510c7c rtla: Check pkg-config install
+addb6f8e86bc88df9ca314af8e900db5024b4a0f trace/fgraph: Fix the warning caused by missing unregister notifier
+886a822ec13df7a2de15d2fd699a6d4260c57993 of: dynamic: Fix memleak when of_pci_add_properties() failed
+f4d217ab22eac94cfb40aad4eaadb8f49d27b866 pinctrl: STMFX: add missing HAS_IOMEM dependency
+c465a6d3260c98337029793678e225c254a2106e mips: dts: lantiq: danube: add missing burst length property
+34b50e29fe11bb4d963f2a32457c1d36da286bd2 mips: lantiq: xway: sysctrl: rename the etop node
+3c30e4a2cd1c00276d50edcfd69685759cece2a3 of: dynamic: Fix use after free in of_changeset_add_prop_helper()
+1f0c20fca68c7072a283e7b9e489b0b89ac7c29c ftrace: Fix potential warning in trace_printk_seq during ftrace_dump
+be1e0ec52f27c3a64d8169f7152d7423770ae59d perf symbol-minimal: Fix ehdr reading in filename__read_build_id
+62cab136a7153f14d9dbfe3f40a066b94ed035f6 vhost: Fix ioctl # for VHOST_[GS]ET_FORK_FROM_OWNER
+1db34d4d51b3569345649031d3828f6646abc244 scsi: core: sysfs: Correct sysfs attributes access rights
+5ba91dfe34eefce09116272b3fb8696eb4d1631e smb: client: fix race with concurrent opens in unlink(2)
+502d116d6b0af1c04d4dfac78d14be6e1c8babcf smb: client: fix race with concurrent opens in rename(2)
+04bf73417482c39a560454c01138263e10e68350 ASoC: codecs: tx-macro: correct tx_macro_component_drv name
+d282a74b9f26a89faaa6e6b767277f8b858c6987 erofs: fix atomic context detection when !CONFIG_DEBUG_LOCK_ALLOC
+fb4cf5149b4711b46dd54402ea762efa10d57b9a ACPI: EC: Add device to acpi_ec_no_wakeup[] qurik list
+0e0e4e897c0772887c67dd90087504bf90945ef3 vhost/net: Protect ubufs with rcu read lock in vhost_net_ubuf_put()
+b9eebe42581dc6defccf0dd5d1ca91e2eef0f967 net: ipv4: fix regression in local-broadcast routes
+bb69a9024d3e958b053db2f886d595dd101e7bea drm/msm: Defer fd_install in SUBMIT ioctl
+0322a1ab878d7a79baa9b5e33f752d3d078940c2 of: reserved_mem: Restructure call site for dma_contiguous_early_fixup()
+fae3dac5eb5dab8d61de3c1dce010573ffc20ac9 drm/msm/kms: move snapshot init earlier in KMS init
+e1bcfa41778c1f858901d9da4ce7cbcc8aa74159 drm/msm: update the high bitfield of certain DSI registers
+eeca1e5071f5c52ae80669001950e00712b8e93f drm/mediatek: Add error handling for old state CRTC in atomic_disable
+03eb3e74739c16434a355d1e0535340d8818a379 powerpc/kvm: Fix ifdef to remove build warning
+123ad6577f298a747672a855caa066eaac36b8b7 HID: input: rename hidinput_set_battery_charge_status()
+2911b93028ccd69b5f7a0271d8db2b2fea11cfb6 HID: input: report battery status changes immediately
+9986a16652897e922fb4868ef9d02863167af8f4 net: macb: fix unregister_netdev call order in macb_remove()
+1acbfd81851a98ef256e99a6b8d4089f7104dde7 Bluetooth: hci_event: Treat UNKNOWN_CONN_ID on disconnect as success
+384748d4602805ac8ea0407a3bd97838f1e52f0e Bluetooth: hci_event: Mark connection as closed during suspend disconnect
+6e5867b668ecd00fabaa1a15e406e3e2b2cee4b7 Bluetooth: hci_event: Detect if HCI_EV_NUM_COMP_PKTS is unbalanced
+6325130d14e3a2fe1148c83cc85b39d78c0d3faf Bluetooth: hci_sync: fix set_local_name race condition
+ff39edde745c6acd046004d74353b4d1bc385856 atm: atmtcp: Prevent arbitrary write in atmtcp_recv_control().
+ef34721e6fc079ac332b3069c26ed330edb74922 drm/nouveau: remove unused increment in gm200_flcn_pio_imem_wr
+e68105654dda929cc7cc2c85ab44c8e57dbdc4b9 drm/nouveau: remove unused memory target test
+d445cb46d7a5ee22999bb7a30689ae0ee782221f ice: don't leave device non-functional if Tx scheduler config fails
+5fd7b4e5140af37a1d0e72591c81eea59e630f48 ice: use fixed adapter index for E825C embedded devices
+b5cfcd080c772ca26770d2ab187385f7b9957411 ice: fix incorrect counter for buffer allocation failures
+5b8a45ebbff3a30414317c3cb4d8cbe13f4277ae dt-bindings: display/msm: qcom,mdp5: drop lut clock
+a609c16a9da936bc7a737bc084a67ad98329e155 net: dlink: fix multicast stats being counted incorrectly
+102a81b737383635f384ee5b3edef51821e84a6e efi: stmm: Fix incorrect buffer allocation method
+303558d4b65e8d12ae167b11814d3530b5f42401 drm/xe/xe_sync: avoid race during ufence signaling
+a6e3529f52eddd3ecb5f6cf55fb223afd78b122b drm/xe: Don't trigger rebind on initial dma-buf validation
+0218293384be2b5112a7af1fa415e2c2b9cd9f71 phy: mscc: Fix when PTP clock is register and unregister
+dd65c9ebeeb7a19e2ae9ac99f4e822a0913be3dd bnxt_en: Fix memory corruption when FW resources change during ifdown
+2b52be4e4277514743cdda53a041b948b616166d bnxt_en: Adjust TX rings if reservation is less than requested
+278f82403124a7340706eef1c249e7d19447ed6b bnxt_en: Fix stats context reservation logic
+d470cc1ec80a2daae888696005e948c9cd4db27a net/mlx5: Reload auxiliary drivers on fw_activate
+0c2834bec62e1ea4db48991d5d7ead1a29224fb3 net/mlx5: Fix lockdep assertion on sync reset unload event
+4ea8a166defdc4aa395edeece37224ccdc94dfff net/mlx5: Nack sync reset when SFs are present
+91a91e3933025a5d9daf650217ce7f7a5bff0192 net/mlx5e: Update and set Xon/Xoff upon MTU set
+a51320290b7feb910c1a8f82ba84728a0c7552f5 net/mlx5e: Update and set Xon/Xoff upon port speed set
+8cbab033c583bb5d8d0227ca556085543cb0256e net/mlx5e: Set local Xoff after FW update
+d8e0604622a69a7324e1b935b671e023c641741a net: stmmac: xgmac: Do not enable RX FIFO Overflow interrupts
+342a1a9655da6d71ea491a2615d147e3519b9324 net: stmmac: xgmac: Correct supported speed modes
+858c8d7e294f7b54bd5e2f6da508b5b6afed116a net: stmmac: Set CIC bit only for TX queues with COE
+5c1bab58c6b8a31c39fd58d4a41e64d1008b116d hv_netvsc: Link queues to NAPIs
+073268943f5fc638e7811d6b3740cbd43688806f net: hv_netvsc: fix loss of early receive events from host during channel open.
+52347e23723f13ee33c0691bc2d58764f2e77891 net: rose: split remove and free operations in rose_remove_neigh()
+4fed0425ab3364b1ac1a72eb3b7d231ee101a0e8 net: rose: convert 'use' field to refcount_t
+aed0d62a6b06be923b0934f20a8ac714880ba869 net: rose: include node references in rose_neigh refcount
+88c4d57f08ae0e7c7763e89bf0a5e078480be5b2 sctp: initialize more fields in sctp_v6_from_sk()
+813440bc5ff7dca34a3994402d6ef0e54a15bdb0 l2tp: do not use sock_hold() in pppol2tp_session_get_sock()
+895fee9e32d204dfce51a527a998017c8fb17f88 fbnic: Move phylink resume out of service_task and into open/close
+bca190572b723028a1041c10475cd8b749a86a06 efivarfs: Fix slab-out-of-bounds in efivarfs_d_compare
+593526496c9c93c3793068c55848289e992b70de net: macb: Disable clocks once
+745547f70f7ead80ff63e766a592cc0843d245fa KVM: x86: use array_index_nospec with indices that come from guest
+772a1ce6ce95f0273470afd2fdb0a170ca41a12f RISC-V: KVM: fix stack overrun when loading vlenb
+86eac17e2d8ca87015ce3f0894072448a4fb89ad x86/microcode/AMD: Handle the case of no BIOS microcode
+9db08d0476fa04c62571af1e0c07308630a0eeab x86/cpu/topology: Use initial APIC ID from XTOPOLOGY leaf on AMD/HYGON
+e8e39d7e228f705ecfbbfaf87d57712589252f71 HID: asus: fix UAF via HID_CLAIMED_INPUT validation
+7de3bc9468d21e10172a629cccd6ea1ab7d2151b HID: multitouch: fix slab out-of-bounds access in mt_report_fixup()
+ed58f0d9508bdc8b2ce9700e5ae459c2c487a553 HID: quirks: add support for Legion Go dual dinput modes
+6605f717f4d525c1027a0bbf8231b0ed6c2b5246 HID: logitech: Add ids for G PRO 2 LIGHTSPEED
+f9b3c65147d150c774dbb9dd971ca69f5069da3f HID: wacom: Add a new Art Pen 2
+400d07f6d7c5197e7fd688b4e47c4fde5191564a HID: hid-ntrig: fix unable to handle page fault in ntrig_report_version()
+1afd297b6c5df78ff43d141c621cfde0ccd2ceb9 Revert "drm/amdgpu: fix incorrect vm flags to map bo"
+a5ab4f69a8c1fd3c9a569cebf3166dc969d956d5 blk-zoned: Fix a lockdep complaint about recursive locking
+c7bd74529f33062e793adf8cc76768c34508a64b dma/pool: Ensure DMA_DIRECT_REMAP allocations are decrypted
+96f527f40bb1e74c3ed08147805ecedec1a37a57 fs/smb: Fix inconsistent refcnt update
+e7f16d22e31d9cef4bec4068d81a34ce7d308893 net: usb: qmi_wwan: add Telit Cinterion LE910C4-WWX new compositions
+2f7267924a06cc1c94fff781cd04dd828abe7aa1 smb3 client: fix return code mapping of remap_file_range
+27bad25217391cea219fa49d77d19eb5d586c591 xfs: do not propagate ENODATA disk errors into xattr code
+ed42b7fa2b83fb2f49940700b1db7f49bda93db0 drm/xe/vm: Clear the scratch_pt pointer on error
+c4e253c0d9462961f90a31dce5ef18850e526f19 drm/nouveau/disp: Always accept linear modifier
+117111eba4794ae81e2e2913ab0b632cd7da68f4 drm/nouveau: fix error path in nvkm_gsp_fwsec_v2
+fe1e58a66d94f15f8644aa02ce2188a99759544b drm/mediatek: Fix device/node reference count leaks in mtk_drm_get_all_drm_priv
+c4a5a2a8bcfc8f5420e0f26d7bfd9e059054cc5b drm/amd/amdgpu: disable hwmon power1_cap* for gfx 11.0.3 on vf mode
+7c4b862ab593e4c64d23606809127ecef393b6c1 net: rose: fix a typo in rose_clear_routes()
+037cb68a0a772d2f2468f766db12c1a536ae6f60 PCI: Rename PCIE_RESET_CONFIG_DEVICE_WAIT_MS to PCIE_RESET_CONFIG_WAIT_MS
+171bb4933b2ee5415157fd52f01a1b64430e224c PCI: dwc: Ensure that dw_pcie_wait_for_link() waits 100 ms after link up
+b7ed2c072c2a321bebac1b174681c0deda69bf62 Revert "drm/dp: Change AUX DPCD probe address from DPCD_REV to LANE0_1_STATUS"
+aded09b39bb3e0572ada4a31051fa1e7083e3863 thermal/drivers/mediatek/lvts_thermal: Change lvts commands array to static const
+95cd56133ff6cb891400fa68dfc2729cb3e05ee6 thermal/drivers/mediatek/lvts_thermal: Add lvts commands and their sizes to driver data
+8249e0a4c03acb31090ad8e71649bcfd2554d087 thermal/drivers/mediatek/lvts_thermal: Add mt7988 lvts commands
+c45757a57ebcf29c5a469cc9c2c871693862df32 Linux 6.12.45-rc1
 
---===============3361562178472587487==--
+--===============0114919379171568081==--
