@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Wed, 03 Sep 2025 17:57:40 -0000
-Message-Id: <175692226077.325244.6783672854225324319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 03 Sep 2025 17:58:08 -0000
+Message-Id: <175692228874.325570.17373653688116507892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: 01be43f2a0eaeed83e94dee054742f37625c86d9
-    new: 77adb9e1fd52ff9e16382327544e4cb52038c33a
-    log: |
-         666d2206f1ee8a4f21ffbec438381a524a62815b perf tests: Fix "PE file support" test build
-         cf753d35934754b0d8cbed22f017047ad5fe1f94 perf symbols: Fix HAVE_LIBBFD_BUILDID_SUPPORT build
-         77adb9e1fd52ff9e16382327544e4cb52038c33a perf test: Checking BPF metadata collection fails on version string
-         
+  - ref: refs/heads/20250902_cezary_rojewski_asoc_intel_avs_adjust_platform_names
+    old: ce57b718006a069226b5e5d3afe7969acd59154e
+    new: 0000000000000000000000000000000000000000
