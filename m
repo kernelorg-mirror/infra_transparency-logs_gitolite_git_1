@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4322960494001192307=="
+Content-Type: multipart/mixed; boundary="===============0822605207075065733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 03 Sep 2025 22:54:02 -0000
-Message-Id: <175694004275.587620.13264663756576200712@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 22:54:07 -0000
+Message-Id: <175694004790.587834.11970288393530479948@gitolite.kernel.org>
 
---===============4322960494001192307==
+--===============0822605207075065733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/testing
-    old: 8d55f3737f37d0c359d321b4da17a9441a25f04d
-    new: 8a81d839e12962a9e5b4cf777afd19a3d72c05d8
-    log: revlist-8d55f3737f37-8a81d839e129.txt
+  - ref: refs/heads/main
+    old: aca701c61822d996f38b328d38d3b5d62a9f49b5
+    new: b4ada0618eed0fbd1b1630f73deb048c592b06a1
+    log: revlist-aca701c61822-b4ada0618eed.txt
 
---===============4322960494001192307==
+--===============0822605207075065733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d55f3737f37-8a81d839e129.txt
+Content-Disposition: attachment; filename=revlist-aca701c61822-b4ada0618eed.txt
 
 ba1e9421cf1a8369d25c3832439702a015d6b5f9 net/smc: fix one NULL pointer dereference in smc_ib_is_sg_need_sync()
 773b27a8a2f00ce3134e92e50ea4794a98ba2b76 net: mctp: mctp_fraq_queue should take ownership of passed skb
@@ -55,7 +55,5 @@ fe9e4d0c39311d0f97b024147a0d155333f388b5 wifi: wilc1000: avoid buffer overflow i
 27893dd6341b929f87d45fc4d65c5778179319dd Merge tag 'ath-current-20250902' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
 c5142df58d5a19a0615414037f256cd5ca39f7c5 Merge tag 'wireless-2025-09-03' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 b4ada0618eed0fbd1b1630f73deb048c592b06a1 tools: ynl-gen: fix nested array counting
-f64df9bfcdcedd0acc50e0f2a605713eb45d8cf3 selftests: netfilter: fix udpclash tool hang
-8a81d839e12962a9e5b4cf777afd19a3d72c05d8 netfilter: nf_tables: Introduce NFTA_DEVICE_PREFIX
 
---===============4322960494001192307==--
+--===============0822605207075065733==--
