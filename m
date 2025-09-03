@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 03 Sep 2025 22:51:50 -0000
-Message-Id: <175693991093.586194.11336429731174747278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 03 Sep 2025 22:53:10 -0000
+Message-Id: <175693999054.586785.7570081783181418904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: 0bb5f46edd9712f7af0361def1bfc264f6b3beee
-    new: 75e13136ed362b046dda80ba8c89766508efe235
+  - ref: refs/heads/i2c/i2c-host
+    old: a76acb6bc74d170cbba751dfeaf64389df338c71
+    new: 8cbfa19726190ea426f3080b6326b381910bc7ef
     log: |
-         75e13136ed362b046dda80ba8c89766508efe235 foo
+         d80584a656767af3b92edf50c780b76d44fb37b4 i2c: s3c2410: Drop S3C2410 OF support
+         8cbfa19726190ea426f3080b6326b381910bc7ef dt-bindings: i2c: samsung,s3c2410-i2c: Drop S3C2410
          
