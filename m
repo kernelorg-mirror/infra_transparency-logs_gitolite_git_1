@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3513107988192182736=="
+Content-Type: multipart/mixed; boundary="===============6980303939122297922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 03 Sep 2025 12:27:34 -0000
-Message-Id: <175690245446.4186682.635663191360820306@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 12:31:19 -0000
+Message-Id: <175690267910.4190890.1145321854202817353@gitolite.kernel.org>
 
---===============3513107988192182736==
+--===============6980303939122297922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0e7fa23278f1d9a5437dca1beeef3c9489d1b763
-    new: 6a06c1bfbb51022f8318fa2c65d4223248e08a44
+    old: 6a06c1bfbb51022f8318fa2c65d4223248e08a44
+    new: ddc7d6a701b854cc36f19c16fc91c10f83372750
     log: |
-         6a06c1bfbb51022f8318fa2c65d4223248e08a44 update cvelistV5
+         bb7678e4968193d5c1d13e94815257a7eeb44df9 proposed: Add Ruiqi's results for v6.15.10 & v6.16.1
+         42aa322fbee2b972d3715d5707dc358a582c3703 add .vulnerable id for CVE-2023-32246 and CVE-2023-32249
+         352c2824b3431288b763b24d889c7c97f6a1f434 add .vulnerable id for CVE-2025-38561 and CVE-2025-38562
+         ddc7d6a701b854cc36f19c16fc91c10f83372750 updates based on new .vulnerable files
          
 
---===============3513107988192182736==
+--===============6980303939122297922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756902501 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756902728 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1756902451-8f3136021bebd6618b51835cbac43b85f6d6612b
+nonce 1756902678-592c765f12575dffa56d58fa4330d338c7202eae
 
-0e7fa23278f1d9a5437dca1beeef3c9489d1b763 6a06c1bfbb51022f8318fa2c65d4223248e08a44 refs/heads/master
+6a06c1bfbb51022f8318fa2c65d4223248e08a44 ddc7d6a701b854cc36f19c16fc91c10f83372750 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi4NGUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FSMP/jrCWZQ+2AG+n6zx2axY
-ZYFFwA69TlK0KFb5GoIFcfs8B+i1Bd3CMUacPFuGnFLE+LKJkthQG3panY7s4mHB
-M0n0ku/lPckiYqRtWGJIWg396BegbulOAVOVocQTJ+1nJ2rV4uN+Tl0PJpTU7i6U
-5LnFtl+5p5gz9lxM9MRUWDSLuY275CB/LRcqJujV3EQEUNHrh0DWjH/9asYj9g8w
-zcxwwmYzFoTDGKr20HNO/Ls4R1FeYs4PPWGnIFL9m5zcP3hsJlhUfK6a8W8KxyVW
-RfJsWhRvf5UJyjXVX8m9cDujSoNkmZFxeehzYGRzgPORqVYex0r1rpGcRCCSiOmq
-EIHmINucmnmOcDjH76eTZtYiH9fLN7a0n2y/4VRkZm+uhfCpWNUb9Le0lj8FYWoN
-dy2nzvBSUZifpxwceFXFjp9d+o4vzGj1i4VMBEDv2OtByHnByO0NO3Ch5U0vMS78
-sI7FhgYbeynXpDGsLSy8SQX8oAKmotr8CW262lbZ3bmq9QKYBKzPlZUJ5ixXsi/U
-H463WLUvVvJqP09vuavPQ5J3udEfigGq7u8OMNDroY1uXnbxrbB1aIqYHsX+Q15m
-tJ3Hp4rkmwo+twG0g36aw0IbehwT1OExcobgDes+XpyN4ktL14ucQM14FTe7V7Gq
-KbfftWmVWRCCC2v7/oGMMxfJ
-=o3Ae
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi4NUgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ly0P/1Pfnj4GWUbzAOqcX0u2
+WM960cnCAZf5/p5aX1hFTI9ngnPFtICXnCxJbcmCk9+dbd6BT1c9slVVyrBPJcDC
+Q0LTm9IW6joMqU/NVyFTfHYHjfxPofK3CGSpghD9uZM8/39yrSvYvb3yinO5pafj
+JAoscYMUCPAg5aNidhgqMS3oH4tkcoVJikGNgOw+lmyVQmHlHBB3s1W8F7PBZKd1
+5iIs8IPlYgizssfVD0C4TVyABlpkcA0ttZDa6+kXzWnlLK3N4L3dMLKR4A8OQvkb
+oWYqHHxtBv6oyF6GLdeqzUfHD+HM71LVMEY52On6GD5p4tapj5jeK1o1J1yJXmJT
+ZozUc6/1w6x70U+0IB1CfKPyYkz7inIxA+K1WmH+ziOrYeXF5AqlPPKNIsWLH+ry
+3d1PZ5uQq/ZJQ6k+0yC4fF3X2u6mZkV1i67d0H7bJKipef/z2EGtqq/uK6XD4G+V
+vQYWokr9DuRXSgwkoP4eVVNeBfaFu6DyGTk04hJTckV8hUQJHzTJs1K8sv2oTYH0
+zeB/iEd2HyjdA606R1cN9vkw9K8ejPg8Yrl3e3EnIcqi6OV70ioFmrDVy8fjBZnh
+uQJ4bilJxSER2ve1JnUHgHAonLUwBiV96Szb4ZfwSGM9xT+yKLToU0boG/a+6EGE
+/Dv2UNhF7DFSS5FDwZlicG9W
+=LO0r
 -----END PGP SIGNATURE-----
 
---===============3513107988192182736==--
+--===============6980303939122297922==--
