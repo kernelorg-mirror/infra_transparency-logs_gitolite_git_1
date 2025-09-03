@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Wed, 03 Sep 2025 20:38:16 -0000
-Message-Id: <175693189677.464405.8076705595075872439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 03 Sep 2025 20:44:18 -0000
+Message-Id: <175693225848.469662.18368051094154874940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/perf-tools
-    old: 01be43f2a0eaeed83e94dee054742f37625c86d9
-    new: 77adb9e1fd52ff9e16382327544e4cb52038c33a
+  - ref: refs/heads/main
+    old: 7d59b255fba6e1c3a4b7814c028cb9f8e83e14e8
+    new: 577ee67ffca254fe7ee3a7dc5bcf0b8f749f2902
     log: |
-         666d2206f1ee8a4f21ffbec438381a524a62815b perf tests: Fix "PE file support" test build
-         cf753d35934754b0d8cbed22f017047ad5fe1f94 perf symbols: Fix HAVE_LIBBFD_BUILDID_SUPPORT build
-         77adb9e1fd52ff9e16382327544e4cb52038c33a perf test: Checking BPF metadata collection fails on version string
+         1c44d84a08bf0dfec147db6637aff593d7195b0c ath12k: WCN7850 hw2.0@ncm865: add to WLAN.IOE_HMT.1.1-00018-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1
+         577ee67ffca254fe7ee3a7dc5bcf0b8f749f2902 Merge branch 'robot/pr-0-1756931524' into 'main'
          
