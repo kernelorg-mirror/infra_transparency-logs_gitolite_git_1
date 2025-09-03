@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 03 Sep 2025 17:34:48 -0000
-Message-Id: <175692088864.303896.13815145413373274867@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 17:35:57 -0000
+Message-Id: <175692095704.306236.13603562121422613871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filemGhV5G
-    old: 0000000000000000000000000000000000000000
-    new: 3254959b4dd065eae396cf78ccc1361460b2f53e
+  - ref: refs/heads/20250902_srinivas_kandagatla_asoc_qcom_add_support_for_glymur
+    old: ce1a46b2d6a8465a86f7a6f71beb4c6de83bce5c
+    new: 0000000000000000000000000000000000000000
