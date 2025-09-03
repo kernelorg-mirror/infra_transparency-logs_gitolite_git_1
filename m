@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 03 Sep 2025 00:03:56 -0000
-Message-Id: <175685783665.3544376.17582218669486623813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 03 Sep 2025 00:03:59 -0000
+Message-Id: <175685783978.3544531.3680452440758461287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 3586018d5c3da14addcd033b6da5a1a209a0992d
-    new: 3d95261eeb74958cd496e1875684827dc5d028cc
+    old: 41ec374bdece1f59f2511e8a3046bb6efa1ed48d
+    new: f63e7c8a83892781f6ceb55566f9497639c44555
     log: |
-         b0bc64512295f6a613fab42452bd7e2cf72c6b61 selftests: net: avoid memory leak
-         3d95261eeb74958cd496e1875684827dc5d028cc ipv6: Add sanity checks on ipv6_devconf.rpl_seg_enabled
+         3a5f55500f3e93cf4d62351c753452279b088b4b ipv6: annotate data-races around devconf->rpl_seg_enabled
+         f63e7c8a83892781f6ceb55566f9497639c44555 net: dsa: mv88e6xxx: Fix fwnode reference leaks in mv88e6xxx_port_setup_leds
          
