@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 03 Sep 2025 23:55:37 -0000
-Message-Id: <175694373758.644177.5495360256696404022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 03 Sep 2025 23:57:49 -0000
+Message-Id: <175694386929.645341.7014656810029247759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 75e13136ed362b046dda80ba8c89766508efe235
-    new: 93f8778196b423cde6b5ba9c8872d26342d3de0e
+  - ref: refs/heads/main
+    old: 1de95db1242632e121a07f8034273782a5a39656
+    new: 9e3d71a92e561ccc77025689dab25d201fee7a3e
     log: |
-         93f8778196b423cde6b5ba9c8872d26342d3de0e foo
+         3bc32fd9db47a20f38b0783364fdb2f2f1c97220 net: phylink: move PHY interrupt request to non-fail path
+         9d28f94912589f04ab51fbccaef287d4f40e0d1f net: thunder_bgx: add a missing of_node_put
+         9e3d71a92e561ccc77025689dab25d201fee7a3e net: thunder_bgx: decrement cleanup index before use
          
