@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 03 Sep 2025 21:33:47 -0000
-Message-Id: <175693522743.514374.9853133338551061668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 03 Sep 2025 21:35:31 -0000
+Message-Id: <175693533192.517649.5615173604802021769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/tags/bitstruct-v2-submit
-    old: 220f6b7aa21efc7cf948ede9223a7eab68ceead9
-    new: 7bf58a9aef3247af26859bed772161acf4754052
+  - ref: refs/heads/for-6.18
+    old: bcb7c2305682c77a8bfdbfe37106b314ac10110f
+    new: a5bd6ba30b3364354269b81ac55c2edca9a96d6d
     log: |
-         a55a2312e35332636cd2489f175f52f38bfe0f13 nova-core: bitstruct: Add support for different storage widths
-         81059012a185a48edcf47fd24ed63f56ff5216a3 nova-core: bitstruct: Add support for custom visiblity
-         7bf58a9aef3247af26859bed772161acf4754052 rust: Move register and bitstruct macros out of Nova
+         a5bd6ba30b3364354269b81ac55c2edca9a96d6d sched_ext: Use cgroup_lock/unlock() to synchronize against cgroup operations
+         
+  - ref: refs/heads/for-next
+    old: 2530289b7871476c842af7b39fe7a8194eda0bfd
+    new: 755fa2a474072df3c86fe8cc39224c204dbc32fa
+    log: |
+         a5bd6ba30b3364354269b81ac55c2edca9a96d6d sched_ext: Use cgroup_lock/unlock() to synchronize against cgroup operations
+         755fa2a474072df3c86fe8cc39224c204dbc32fa Merge branch 'for-6.18' into for-next
          
