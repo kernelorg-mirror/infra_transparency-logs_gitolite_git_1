@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 03 Sep 2025 09:55:48 -0000
-Message-Id: <175689334800.4058801.16504789288018840168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 03 Sep 2025 09:57:50 -0000
+Message-Id: <175689347097.4059709.17235511669089413324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/experimental
-    old: db4f894d920c7b95413174a79ccaf0cee7561f68
-    new: 5d3efc9babf3ad33c9b7368486eb6577b595da6e
+  - ref: refs/heads/master
+    old: 90c0b7658c08ba01abfd12a189b17535ceb067bd
+    new: d073aab9d34eea205545c77222947691f4abf5aa
     log: |
-         5d3efc9babf3ad33c9b7368486eb6577b595da6e erofs-utils: mount: enable autoclear for NBD devices
+         d073aab9d34eea205545c77222947691f4abf5aa hardlink: (man) add note note about ULFILEEQ_DEBUG=
          
