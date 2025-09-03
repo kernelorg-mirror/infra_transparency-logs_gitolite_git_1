@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============3718663018696834342=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 03 Sep 2025 18:55:10 -0000
-Message-Id: <175692571031.375858.6979484131816454175@gitolite.kernel.org>
-
---===============3718663018696834342==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 03 Sep 2025 19:10:30 -0000
+Message-Id: <175692663050.389127.13834074825221897112@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/stable-0.14.y
-    old: 385fafe84ebb34ae2bc8fd0a36cc30a8ae2b85a2
-    new: e5369681808b1a95d5715bbe99720615ff9da47e
+  - ref: refs/heads/master
+    old: e6b9dce0aeeb91dfc0974ab87f02454e24566182
+    new: ec299e4dc21e8cc476c2c848813919db79492dda
     log: |
-         e5369681808b1a95d5715bbe99720615ff9da47e ez: clean up after git-filter-repo runs
+         5ebf512f335053a42482ebff91e46c6dc156bf8c sched: Fix sched_numa_find_nth_cpu() if mask offline
+         ec299e4dc21e8cc476c2c848813919db79492dda Merge tag 'bitmap-for-6.17-rc5' of https://github.com/norov/linux
          
-
---===============3718663018696834342==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1756925759 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1756925709-b2cc183b0c859fbcca8896bede890c0c8d44e655
-
-385fafe84ebb34ae2bc8fd0a36cc30a8ae2b85a2 e5369681808b1a95d5715bbe99720615ff9da47e refs/heads/stable-0.14.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaLiPPwAKCRC2xBzjVmSZ
-bCO+AQC73sE+ITeoogWak0ZkXMmML904u5jodxjklHp21F+yfgEA6M+aI8J5MxK+
-DCjKUut/yqAxkPCt4cEXt8rakEPXSQ0=
-=Fu4h
------END PGP SIGNATURE-----
-
---===============3718663018696834342==--
