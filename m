@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 03 Sep 2025 20:32:02 -0000
-Message-Id: <175693152263.459458.15213580859587827349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Wed, 03 Sep 2025 20:38:16 -0000
+Message-Id: <175693189677.464405.8076705595075872439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/controller/dwc-ecam
-    old: 6816b29d21a82944c5f67981bc572e7539a33325
-    new: 7ac4620459ef0cc28142dcaa69d799e20465124e
+  - ref: refs/heads/perf-tools
+    old: 01be43f2a0eaeed83e94dee054742f37625c86d9
+    new: 77adb9e1fd52ff9e16382327544e4cb52038c33a
     log: |
-         6ff53f7cc2e790898f8a3589bad2de7d5ed13bc5 PCI: qcom: Rely on DWC core for ELBI resource mapping
-         8de91c2bfd0d9daee39bd4ee72f9cbf90a408170 PCI: dwc: Add support for ECAM mechanism using iATU 'CFG Shift Feature'
-         7ac4620459ef0cc28142dcaa69d799e20465124e PCI: qcom: Configure ELBI base and iATU if ECAM is enabled by DWC core
+         666d2206f1ee8a4f21ffbec438381a524a62815b perf tests: Fix "PE file support" test build
+         cf753d35934754b0d8cbed22f017047ad5fe1f94 perf symbols: Fix HAVE_LIBBFD_BUILDID_SUPPORT build
+         77adb9e1fd52ff9e16382327544e4cb52038c33a perf test: Checking BPF metadata collection fails on version string
          
