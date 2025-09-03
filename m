@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9186738024282243554=="
+Content-Type: multipart/mixed; boundary="===============0331730998382084221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 03 Sep 2025 16:05:39 -0000
-Message-Id: <175691553917.226157.15373555032704051966@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 16:05:41 -0000
+Message-Id: <175691554145.226236.8153374391060890865@gitolite.kernel.org>
 
---===============9186738024282243554==
+--===============0331730998382084221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a6099f263e1f408bcc7913c9df24b0677164fc5d
     new: f63e7c8a83892781f6ceb55566f9497639c44555
     log: revlist-a6099f263e1f-f63e7c8a8389.txt
 
---===============9186738024282243554==
+--===============0331730998382084221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ a7195a3d67dace056af7ca65144a11874df79562 net: pcs: rzn1-miic: Correct MODCTRL re
 3a5f55500f3e93cf4d62351c753452279b088b4b ipv6: annotate data-races around devconf->rpl_seg_enabled
 f63e7c8a83892781f6ceb55566f9497639c44555 net: dsa: mv88e6xxx: Fix fwnode reference leaks in mv88e6xxx_port_setup_leds
 
---===============9186738024282243554==--
+--===============0331730998382084221==--
