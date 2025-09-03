@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 03 Sep 2025 17:57:29 -0000
-Message-Id: <175692224965.325002.13701445488272763003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Wed, 03 Sep 2025 17:57:40 -0000
+Message-Id: <175692226077.325244.6783672854225324319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/0.10.x
-    old: cbb8fac29c91663b4a77ec1917962f045ea590f8
-    new: 459acef64b46ec3ad5a02684366a5e5cc92a1183
+  - ref: refs/heads/tmp.perf-tools
+    old: 01be43f2a0eaeed83e94dee054742f37625c86d9
+    new: 77adb9e1fd52ff9e16382327544e4cb52038c33a
     log: |
-         a5882a0b3f720c00da133cebd02af78e37ede04d chore: bump version to 0.10.24
-         459acef64b46ec3ad5a02684366a5e5cc92a1183 tests: data-driven tests
+         666d2206f1ee8a4f21ffbec438381a524a62815b perf tests: Fix "PE file support" test build
+         cf753d35934754b0d8cbed22f017047ad5fe1f94 perf symbols: Fix HAVE_LIBBFD_BUILDID_SUPPORT build
+         77adb9e1fd52ff9e16382327544e4cb52038c33a perf test: Checking BPF metadata collection fails on version string
          
