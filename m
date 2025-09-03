@@ -1,67 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============7833481319918866256=="
+Content-Type: multipart/mixed; boundary="===============2867584366210099587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 03 Sep 2025 10:38:39 -0000
-Message-Id: <175689591953.4092843.1663733050297995474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Wed, 03 Sep 2025 10:50:04 -0000
+Message-Id: <175689660472.4103960.13327387000041980031@gitolite.kernel.org>
 
---===============7833481319918866256==
+--===============2867584366210099587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev
-    old: 28eed442f2bc94073f468e2152d38a5c75dd61d8
-    new: f334029d32aadc0d9e5a0b8a915a706760c45ed0
-    log: revlist-28eed442f2bc-f334029d32aa.txt
-  - ref: refs/heads/dev.2025.08.25a
-    old: 0000000000000000000000000000000000000000
-    new: a543d73eeaa491021040a02bdf0e8a9148b5c186
-  - ref: refs/heads/dev.2025.09.02a
-    old: 0000000000000000000000000000000000000000
-    new: d53cdb008002a2d508bb9c8947ed7b48ec4f2d00
+  - ref: refs/heads/b4/slub-percpu-sheaves
+    old: 419e8dbfdf4af8b8e826fc636c813ddc013f7aea
+    new: be7d2f4d6a8c7ac38ae71406528e7dac253ce137
+    log: revlist-419e8dbfdf4a-be7d2f4d6a8c.txt
 
---===============7833481319918866256==
+--===============2867584366210099587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28eed442f2bc-f334029d32aa.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-935147775c977c1f007f0ca4241664cf5f3ae76c EXP srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
-476800ca0260461cab8dd5c1d624d4c975ac4234 EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
-6ddc7fe95efe5f577fa3b4995001b963ffeedce4 EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
-3cde54ad650e1ac4069f46a0139fe6b7c72cb807 EXP locking/mutex: Add down_read_idle()
-0f4507e946632bbef3a2418c3ec2d7c6b7ebea94 EXP arm64: enable PREEMPT_LAZY
-d01b885f22ec517d85b5cfe07459c5e75f33c6cf EXP net: stmmac: Make DWMAC_ROCKCHIP and DWMAC_STM32 depend on PM_SLEEP
-64b6cf4563415fa36df411b7b7ab4e2f8b5998ae srcu: Document __srcu_read_{,un}lock_fast() implicit RCU readers
-a1c2054dbc973957754555db75eb4820645f287e srcu: Document srcu_flip() memory-barrier D relation to SRCU-fast
-a9e63382cbfa5c100481e3b97096bc4f22b85bae rcu: Re-implement RCU Tasks Trace in terms of SRCU-fast
-c28c6f02aee6e12ae3cecf20686fce29e94e7579 rcu: Remove unused ->trc_ipi_to_cpu and ->trc_blkd_cpu from task_struct
-868d9bb35ac6df205fd13727b603197e033a9f96 rcu: Remove ->trc_blkd_node from task_struct
-81419fe89c749ad0cabfd2e6a89dd4b7f74cf9c3 rcu: Remove ->trc_holdout_list from task_struct
-ff7081b1e1dcf1119655e34575621ac434bbffa4 rcu: Remove rcu_tasks_trace_qs() and the functions that it calls
-e12da2d125a07aae0c9a8203ff43ac7085cd04f9 context_tracking: Remove rcu_task_trace_heavyweight_{enter,exit}()
-8a4477062a7598ba413adedfdc1ea29a44863b11 rcu: Remove ->trc_reader_special from task_struct
-35c3d9062faa4d7d7f02673501f21f1066bf3286 rcu: Remove now-empty RCU Tasks Trace functions and calls to them
-c5e140527379abc0388d384c1a8bb41d81e4292f rcu: Remove unused rcu_tasks_trace_lazy_ms and trc_stall_chk_rdr struct
-5fc82b47e18d72298d8aaec46214328d98b0a554 rcu: Remove now-empty show_rcu_tasks_trace_gp_kthread() function
-5dc62245fd0e14b6e14799163f275e34ceff7874 rcu: Remove now-empty rcu_tasks_trace_get_gp_data() function
-2423eab6c340ab071a95f8273d74f1e533d5fe29 rcu: Remove now-empty rcu_tasks_trace_torture_stats_print() function
-904e64d2d6fcf1ee23accd88e0bdbc3dc8452d32 rcu: Remove now-empty get_rcu_tasks_trace_gp_kthread() function
-8bc1c359b94f064b153742c7a3689a124bd93738 rcu: Move rcu_tasks_trace_srcu_struct out of #ifdef CONFIG_TASKS_RCU_GENERIC
-843d3d17a560e8b638cb73cffbdd9892e88b9763 rcu: Add noinstr-fast rcu_read_{,un}lock_tasks_trace() APIs
-d7f7480d7d8fa72055ca1d91357a6843b615f117 rcu: Remove now-unused rcu_task_ipi_delay and TASKS_TRACE_RCU_READ_MB
-7280abd68ee5f3a544606b4b06f5d47813e456ef srcu: Create a DEFINE_SRCU_FAST()
-7f4b949a1b734ae3e77f56290b2e698b965efab2 rcu: Use smp_mb() only when necessary in RCU Tasks Trace readers
-221db7a074dff20bc62a4114fd3f9bd68d53ea8f rcu: Update Requirements.rst for RCU Tasks Trace
-883e77a6542becb81f24398f293d545b65ed68af checkpatch: Deprecate rcu_read_{,un}lock_trace()
-5f7a5b38df8dacb713e1a5546dd891275010de2c rcu: Mark diagnostic functions as notrace
-171192934b9cceb6359f0d3b28caaa7174d0ceb1 tracing: Guard __DECLARE_TRACE() use of __DO_TRACE_CALL() with SRCU-fast
-f334029d32aadc0d9e5a0b8a915a706760c45ed0 EXP tracing: Diagnostic for __DECLARE_TRACE() use of SRCU-fast
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1756896649 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1756896599-14d2f9bb1f732d9e807035c00aa2d304f2fa1f72
 
---===============7833481319918866256==--
+419e8dbfdf4af8b8e826fc636c813ddc013f7aea be7d2f4d6a8c7ac38ae71406528e7dac253ce137 refs/heads/b4/slub-percpu-sheaves
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmi4HYkbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiadqUIAI0vySBIywnkjZ8rQOXo
+NmLNtuHn9Qv8s1FhQKSjrzjetucX+LwqBSVTNd6VEKTj5WcApQR6WfwVaXETMTfR
+e+8i/RUVOyOlsyq72Xs47z4Ll8RCVLQuJxMu+EK86Bhw3Lc0AbLJIqDS7H8hGAyY
+p5yxxAXZrMQo+ZFLn97+uY4X3/sQQ26JYg3z5HnrZPvMX4CFXW53lSEq+TOAkf/J
+KTQVbyS5Dp3xlf+GCHx+YnCETniBmYD6XfaaoOlvxyishH0Y3KZPMsI6fc1ZF0qt
+S+fV8yN76f97DOovUTjRlH5EL1PbwhpwkHCz/8X4I8GLxA7m5weTgdAgh5cvnq84
+YO0=
+=UY5H
+-----END PGP SIGNATURE-----
+
+--===============2867584366210099587==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-419e8dbfdf4a-be7d2f4d6a8c.txt
+
+77c5812ed49ae0a17ad97c47c7a30f7e1b9dd701 tools/testing/maple_tree: Fix check_bulk_rebalance() locks
+a9c018abe669853a7ee0328798e4d446f3e53b47 tools/testing/vma: Implement vm_refcnt reset
+b50936eb4942da5a1cb94ce6148a4d06bac29043 tools/testing: Add support for changes to slab for sheaves
+2a69e358dbe5db4a6bab7d149f09f8dcaa30ecb0 mm, vma: use percpu sheaves for vm_area_struct cache
+533370927792e725c8e3fdf7a5e3973bc4618067 maple_tree: use percpu sheaves for maple_node_cache
+dd54b4fbb888e14dc796beaf769e5b772718f2f6 tools/testing: include maple-shim.c in maple.c
+05d6369653832e1f1f89c452498867089ed31cd1 testing/radix-tree/maple: Hack around kfree_rcu not existing
+e02fe95b9e1f0fdd3523f811ff37eb36b30a230a maple_tree: Use kfree_rcu in ma_free_rcu
+9d8db658f3342417f3a6f52aaabe322a3239dd2c maple_tree: Replace mt_free_one() with kfree()
+a61cdfc581866f8f13a0922137b099bb87d83051 tools/testing: Add support for prefilled slab sheafs
+9d481d24a780bd5a23b4e4a6e04979e4dd797483 maple_tree: Prefilled sheaf conversion and testing
+58a8c8ab4287bbe82c3f4c7770b88a5ecb4afdf0 maple_tree: Add single node allocation support to maple state
+be7d2f4d6a8c7ac38ae71406528e7dac253ce137 maple_tree: Convert forking to use the sheaf interface
+
+--===============2867584366210099587==--
