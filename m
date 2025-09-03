@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3499402010362245724=="
+Content-Type: multipart/mixed; boundary="===============1874860143194218304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Sep 2025 07:00:51 -0000
-Message-Id: <175688285176.3902796.15397128849595717339@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 07:01:22 -0000
+Message-Id: <175688288268.3903261.8216233985157499818@gitolite.kernel.org>
 
---===============3499402010362245724==
+--===============1874860143194218304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a1d91c7924864e2a535f09a92847b1b649f7e302
-    new: 67d9adae4041483fcb2263e4139c546a5420a81c
-    log: revlist-a1d91c792486-67d9adae4041.txt
+    old: 67d9adae4041483fcb2263e4139c546a5420a81c
+    new: 7005ad1c5fa6e0f40b9d0a133bb367d011bafa46
+    log: revlist-67d9adae4041-7005ad1c5fa6.txt
+  - ref: refs/heads/tip/urgent
+    old: 22a38c5eba82f945a99ba1c61bb1866e6ed58c3e
+    new: 1ed628f80ef58fb609e632679e69b87c5c3bdcf5
+    log: revlist-22a38c5eba82-1ed628f80ef5.txt
 
---===============3499402010362245724==
+--===============1874860143194218304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1d91c792486-67d9adae4041.txt
+Content-Disposition: attachment; filename=revlist-67d9adae4041-7005ad1c5fa6.txt
+
+1ed628f80ef58fb609e632679e69b87c5c3bdcf5 Merge branch into tip/master: 'locking/urgent'
+aa691814ebdc0d5c489233ab9525c486ad69eac6 Merge branch into tip/master: 'core/bugs'
+bce05a9d3fa8c98c3b3659b5d1d1373638cf8c3c Merge branch into tip/master: 'irq/core'
+a0dc1071109342a7496d9f38b1094fd238963798 Merge branch into tip/master: 'irq/drivers'
+2ab2805c38a75196a41746c54719aba2e7ddc4d3 Merge branch into tip/master: 'locking/futex'
+004799cb3f77a1a00e5d82f8bbb2493754733590 Merge branch into tip/master: 'perf/core'
+903aea759e5492fc1d3c1af9623a508409472bb5 Merge branch into tip/master: 'timers/clocksource'
+6936cb2160bf5c2e69c8b55a346ee308f7b7b9f2 Merge branch into tip/master: 'x86/apic'
+adbe5b59af4b95f9fa1ed2cfbd4a9ef762fecc9f Merge branch into tip/master: 'x86/asm'
+d1ca87093b977b9212e7bdfac6b3d26eec8a8682 Merge branch into tip/master: 'x86/bugs'
+ee02a58c81306552f22dcc374d6e326a950ffaeb Merge branch into tip/master: 'x86/build'
+55f64dcbc65846f95a24a70c4da887d51ef92239 Merge branch into tip/master: 'x86/cache'
+d42992335ec7f28c2602fa9ca333db8036c69533 Merge branch into tip/master: 'x86/cleanups'
+7b2a7ec4ff6112f7d7528a5c030c0c09c0e37a98 Merge branch into tip/master: 'x86/core'
+9d767b8396537a7c1f68458a3bc5b4cdf670aa63 Merge branch into tip/master: 'x86/cpu'
+8b3061cd073aaeda173008f52c3039b15d6f54a4 Merge branch into tip/master: 'x86/entry'
+a1029bca4fa441737f23405e7b31244e4a9f2601 Merge branch into tip/master: 'x86/microcode'
+61e43728b87e3bb5ef752d8ef8b4c8fa439f6ed9 Merge branch into tip/master: 'x86/misc'
+e5d541b58821e51eb529351a07ebdb542b76edc7 Merge branch into tip/master: 'x86/mm'
+7005ad1c5fa6e0f40b9d0a133bb367d011bafa46 Merge branch into tip/master: 'x86/tdx'
+
+--===============1874860143194218304==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-22a38c5eba82-1ed628f80ef5.txt
 
 2b3979624c3e34dcdd77d910c6490939727d91b2 btrfs: abort transaction on failure to add link to inode
 e87e953bb20629ca1f008f8146c38e313e5ed319 btrfs: fix inode leak on failure to add link to inode
@@ -59,7 +90,6 @@ c3576889d87b603cb66b417e08844a53c1077a37 mm: fix accounting of memmap pages
 f2d2f9598ebb0158a3fe17cda0106d7752e654a2 mm: introduce and use {pgd,p4d}_populate_kernel()
 6659d027998083fbb6d42a165b0c90dc2e8ba989 x86/mm/64: define ARCH_PAGE_TABLE_SYNC_MASK and arch_sync_kernel_mappings()
 8022629548949eb4d2e2207b893bfb6d486700cb ASoC: rsnd: tidyup direction name on rsnd_dai_connect()
-30c2b98aa84c76f2ae60e66dd4ec2d9497713359 x86/apic: Add new driver for Secure AVIC
 112f7d3cff02e357c2f7a116fd7ab6a366ed27f4 ALSA: hda: Avoid binding with SOF for SKL/KBL platforms
 3e7fd1febc3156d3d98fba229399a13b12d69707 ASoC: SOF: Intel: WCL: Add the sdw_process_wakeen op
 2cbe4ac193ed7172cfd825c0cc46ce4a41be4ba1 ALSA: usb-audio: Add mute TLV for playback volumes on more devices
@@ -68,32 +98,12 @@ f2d2f9598ebb0158a3fe17cda0106d7752e654a2 mm: introduce and use {pgd,p4d}_populat
 aea3493246c474bc917d124d6fb627663ab6bef0 ALSA: firewire-motu: drop EPOLLOUT from poll return values as write is not supported
 e5a00dafc7e06ab1b20fd4c1535cfa9b9940061e ALSA: hda: tas2781: fix tas2563 EFI data endianness
 d5f8458e34a331e5b228de142145e62ac5bfda34 ALSA: hda: tas2781: reorder tas2563 calibration variables
-b8c3c9f5d0505905e21c03731d1665c67053b47e x86/apic: Initialize Secure AVIC APIC backing page
-c822f58a4fab25944ba66768c1d6c563aa6ac077 x86/apic: Populate .read()/.write() callbacks of Secure AVIC driver
-45e2cef568cdf87cb06c9783b45c8f08d1ab1cec x86/apic: Initialize APIC ID for Secure AVIC
-60791ef3751cb0ceccd6f5ac98276153745c7980 x86/apic: Add update_vector() callback for APIC drivers
-8c79a68de1d2d63537f2a318e5a3b27744c835ad x86/apic: Add an update_vector() callback for Secure AVIC
-2c6978ea1a85603fe7d401f7bb3a1fbcab21fde2 x86/apic: Add support to send IPI for Secure AVIC
-ea7d792e11e10f502933c39f3836cb73d35dac36 x86/apic: Support LAPIC timer for Secure AVIC
-c77683eccf53428a6934df76702e33c0faf46fe5 x86/sev: Initialize VGIF for secondary vCPUs for Secure AVIC
-9de196f519a505cf104216d6f1d8688570dacca4 x86/apic: Add support to send NMI IPI for Secure AVIC
-869e36b9660dd72ab960b74c55d7a200c22588d0 x86/apic: Allow NMI to be injected from hypervisor for Secure AVIC
-28bbfad229e4addf9990279c73c07b762b4a04e4 x86/sev: Enable NMI support for Secure AVIC
-8e3714305ad29866d27aa354f09fd03036f44375 x86/apic: Read and write LVT* APIC registers from HV for SAVIC guests
-43b6687ac8777821973d790ff9e9565a84cf6b98 x86/apic: Handle EOI writes for Secure AVIC guests
-c8018325dd3e7c75c19b1e9263c358c4c96214f9 x86/apic: Add kexec support for Secure AVIC
 cc8e91054c0a778074ecffaf12bd0944e884d71c ALSA: usb-audio: Allow Focusrite devices to use low samplerates
-c4074ab87f3483deb15f277f302f199cdb997738 x86/apic: Enable Secure AVIC in the control MSR
-952aefeebb3339d8129f7ca7fdb8f4344b6543a7 x86/sev: Prevent SECURE_AVIC_CONTROL MSR interception for Secure AVIC guests
-27a17e02418e978198513edfb389b65237f4eaf5 x86/sev: Indicate the SEV-SNP guest supports Secure AVIC
 bcd6659d4911c528381531472a0cefbd4003e29e ALSA: hda/hdmi: Add pin fix for another HP EliteDesk 800 G4 model
 c873ccbb2f8db46ad9b4a989ea924b6d8f19abf1 mm: fix possible deadlock in kmemleak
-727e914bbfbbda9e6efa5cb1abe4e96a949d576f PCI/MSI: Check MSI_FLAG_PCI_MSI_MASK_PARENT in cond_[startup|shutdown]_parent()
 e3c94a539e767c7bf055be4ed6911246812fcb6e Merge tag 'for-6.17-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 8026aed072e1221f0a61e5acc48c64546341bd4d Merge tag 'mm-hotfixes-stable-2025-09-01-17-20' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e6b9dce0aeeb91dfc0974ab87f02454e24566182 Merge tag 'sound-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-9c25b3bde81a8bb7bccc57aff35abdaf2a3faca2 Merge branch 'linus'
-a77f4d49a0eca228304fdbc524812fb787c59a4d Merge branch into tip/master: 'irq/drivers'
-67d9adae4041483fcb2263e4139c546a5420a81c Merge branch into tip/master: 'x86/apic'
+1ed628f80ef58fb609e632679e69b87c5c3bdcf5 Merge branch into tip/master: 'locking/urgent'
 
---===============3499402010362245724==--
+--===============1874860143194218304==--
