@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 03 Sep 2025 14:01:27 -0000
-Message-Id: <175690808788.78502.6042331471531819096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 03 Sep 2025 14:04:19 -0000
+Message-Id: <175690825938.80386.2399588736421527128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 9ac7f0dca75339000faa0214f272066db5a2009a
+  - ref: refs/heads/main
+    old: c6aed39675756a72c9bce4d94f12d8feb9837950
+    new: c784990ba3d2cdf0a5f6e26e4785ff48238ec01e
     log: |
-         8be3d7ffafe43c5f61e244c0cf968b07d0e07b20 change the calling conventions for vfs_parse_fs_string()
-         9ac7f0dca75339000faa0214f272066db5a2009a do_nfs4_mount(): switch to vfs_parse_fs_string()
+         6400e0ed82a68ec0dd001dbcf902230803ab954f intel_vpu: Update NPU firmware
+         c784990ba3d2cdf0a5f6e26e4785ff48238ec01e Merge branch 'update-2025ww36' into 'main'
          
