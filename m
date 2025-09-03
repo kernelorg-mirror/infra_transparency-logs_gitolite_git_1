@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0542959602749257476=="
+Content-Type: multipart/mixed; boundary="===============5181227092937466939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 03 Sep 2025 20:18:34 -0000
-Message-Id: <175693071497.445306.1791731396829977401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 03 Sep 2025 20:18:38 -0000
+Message-Id: <175693071857.445425.15302897238122750281@gitolite.kernel.org>
 
---===============0542959602749257476==
+--===============5181227092937466939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 4de51e81379aa3acbceddb7aec18a36b733fb6cb
     new: 1991a458528588ff34e98b6365362560d208710f
     log: |
          1991a458528588ff34e98b6365362560d208710f spi: spi-qpic-snand: unregister ECC engine on probe error and device remove
          
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 94b39cb3ad6db935b585988b36378884199cd5fc
     new: 73e4e7087a4545db3c8c4b3fec82c7bef8e2f7b1
     log: revlist-94b39cb3ad6d-73e4e7087a45.txt
 
---===============0542959602749257476==
+--===============5181227092937466939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1756930763 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1756930712-0a726d0c7fdb3909a7ad377dbb0138c96a75128b
+pusher C3F436CA30F5D8EB 1756930766 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1756930716-64f0343976e7613b9d6170460b08f320a400f2b2
 
-4de51e81379aa3acbceddb7aec18a36b733fb6cb 1991a458528588ff34e98b6365362560d208710f refs/heads/for-6.17
-94b39cb3ad6db935b585988b36378884199cd5fc 73e4e7087a4545db3c8c4b3fec82c7bef8e2f7b1 refs/heads/for-6.18
+4de51e81379aa3acbceddb7aec18a36b733fb6cb 1991a458528588ff34e98b6365362560d208710f refs/heads/spi-6.17
+94b39cb3ad6db935b585988b36378884199cd5fc 73e4e7087a4545db3c8c4b3fec82c7bef8e2f7b1 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi4ossACgkQJNaLcl1U
-h9A4Ogf/dA/fAj17XB+/cCA3VNzFHbX0k/qJF1yI8q4HwF2grK+BPxXeMt+O/mds
-b/q4XaY+ZfaAFjSRQjGCv2xkukDa8ObHgUiPq0+S6joYA0XzxhIK0viCvmh4F7Gd
-vcwBjWoX9RcM/zBWxpSD/2qmUxNnTcxTcufc22KABpL0yfzeDVuOdM4Rt4rdKOlP
-r+huJNG/XjRra19aPb9GszgngPUshOHsDMlZN6GPOgJUBKJqijMKNWKiMsyY7eX2
-UspX0zgqasEqHShwueGfvmfh6xtITN/unZU3MEQUt0akb/cZ46qOjBSJ5jIyIzLY
-4hRkytDPK3x0U5jswUCkoienq57V8A==
-=1ufn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi4os4ACgkQJNaLcl1U
+h9AiOQf+LfUWMs7Xe7VPzx0foQkTNdnSydmuYIhvz3mWgWb2eCKlMmMLW2aYXf92
+FPbPhipr8hURcUNPRboUJSLS3zRgmb1HGtKuS7c5Bv2JTIBHHeiqTDzRnUUiGb/R
+/Awx3/wRTa9lg24bgH6201SNNtzfZ/GB27dGUP/nLQiIMk4K0mFPX6nDJe+/sE26
+fnuRgVYk4Nmr4M1Yy+n1NeRtzz/aKJn3UIifuJqk1QaDOqTV/fU2bahkoJq8/rSX
+9x/rbO8EjG1N1NEzwNWuSZmRV4SD8DFQQeWne1u84iImb8q/XWLCe17sg1GTGN5J
+l5e7sDdkndU4FdG7k2LZQTKfZGG0/w==
+=K+es
 -----END PGP SIGNATURE-----
 
---===============0542959602749257476==
+--===============5181227092937466939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -813,4 +813,4 @@ fbb618e11fa7976c5295facb28afbf1a08393f51 spi: spi-fsl-dspi: Use whole page for D
 5cc49b5a36b32a2dba41441ea13b93fb5ea21cfd spi: spi-fsl-dspi: Report FIFO overflows as errors
 73e4e7087a4545db3c8c4b3fec82c7bef8e2f7b1 spi: spi-fsl-dspi: Target mode improvements
 
---===============0542959602749257476==--
+--===============5181227092937466939==--
