@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8285015983595523180=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 03 Sep 2025 16:35:14 -0000
-Message-Id: <175691731490.254170.169306199985094375@gitolite.kernel.org>
-
---===============8285015983595523180==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Wed, 03 Sep 2025 16:36:43 -0000
+Message-Id: <175691740327.255087.15542603644335671901@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 4aedc398cc6a732f96bb86b8217e21f33a1f4f82
-    new: 9b4687d3eb29492954ac1c7de1e7bc9e09c33d2e
+  - ref: refs/heads/stm32-next
+    old: c39246f5039dc411315b925d72b8abc82a7e3c08
+    new: 08a5d1b176ed503a5cef40991fc89549d85e8fe8
     log: |
-         1b1f4c6809b44cd1a3896f906f1ea8349d67fb18 Provide .vulnerable file for CVE-2022-49493
-         9b4687d3eb29492954ac1c7de1e7bc9e09c33d2e update based on .vulnerable file change.
+         fa36b8209ba600828646287ad14e527074b48247 ARM: dts: stm32: Add pinmux for CM4 leds pins
+         0d9673e19c37b2ff334811ee6b7bfc50f21bf95e ARM: dts: stm32: Add leds for CM4 on stm32mp15xx-ed1 and stm32mp15xx-dkx
+         b3646b905272e14d8bf9173e14b79d4d625cb84d ARM: dts: stm32: add Hardware debug port (HDP) on stm32mp13
+         62ba9a86eac78e21a13b71c36a006d8c99d87270 ARM: dts: stm32: add Hardware debug port (HDP) on stm32mp15
+         93b2c98314a82b2e674297584704de75c2776caf ARM: dts: stm32: add Hardware debug port (HDP) on stm32mp25
+         e32764f8c0bd46942a31c1fd2b39b18f69b4a2e3 ARM: dts: stm32: add alternate pinmux for HDP pin and add HDP pinctrl node
+         08a5d1b176ed503a5cef40991fc89549d85e8fe8 ARM: dts: stm32: add Hardware debug port (HDP) on stm32mp157c-dk2 board
          
-
---===============8285015983595523180==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756917360 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1756917310-790143e2da7c986212854e4fa8861a576c8b6d6a
-
-4aedc398cc6a732f96bb86b8217e21f33a1f4f82 9b4687d3eb29492954ac1c7de1e7bc9e09c33d2e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi4bnAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rbUP/ipkkCDcrsuQp90kBd6S
-xdmQF5twRbQQKHY0mLHGd1GWR8hkMP4/z6bKFtb6Gcy1K110mc0IhD/ZGlLvcFsM
-sun4Uogp4m7Wz1OsCj4r4WItG7Mux62GAecwn6Y0PsNCGIXuaSeVthGPXeOdW+cU
-nn/FieTTRrCxq+zb6FkJG7Q6QU0lJJ2/STSjwH+3OOEJBjyy5BqZ+dECOyt0XyHl
-xUJkEgy/DIua1PHpd9HVeptoVGbvuDYvUbHfj2JQvawFIIfEV6wSTvmHdsXUhbEF
-M65yB4SprgySb1W/PxfbgR+vNS9hsnxWkyZIxwqQCfobD9nQTcRS2By2S3lzCTJj
-f9SupVpPT7Wl4JRQ4DgXqa4zWU7+lHhm+iE+nY1FwrfqUPLNNqUg/+FwhkLMk3b2
-ENjj/sC2E4fdZYAqwATvujLWT/ovISWGAprdQhpylrRBEuTFdL3JMtuHZQaWuCXN
-rusHSgSB90bwFvJD+n4QGJEt3od3RSO0ePJtNuSUZPtJuL8rJOrgxZWdteZlTj6Y
-4MuM2V5vMsli0k2G+KOHv7dGUtMRbbDfNHE8nQ7KfTNBuimoqx/SToInsmHc0cqO
-h01Ja/c/0yE/FTxRk9UnpgKSnCL75adHHzQQL3amVRBllCnVeZbjRDjia3G+3XPx
-ELWzLiAICGawxmnvvoyNtmgB
-=cs8F
------END PGP SIGNATURE-----
-
---===============8285015983595523180==--
