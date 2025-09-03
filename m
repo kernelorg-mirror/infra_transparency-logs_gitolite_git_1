@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0302705924188727751=="
+Content-Type: multipart/mixed; boundary="===============3030394143689063098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
-Date: Wed, 03 Sep 2025 07:47:21 -0000
-Message-Id: <175688564155.3942930.1667935118378775059@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 07:47:32 -0000
+Message-Id: <175688565253.3943165.8783469332347908133@gitolite.kernel.org>
 
---===============0302705924188727751==
+--===============3030394143689063098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,37 @@ repo: pub/scm/linux/kernel/git/jberg/iw
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: aef3798128a17a319909e3e34b34d44b7c237a58
-    new: a52bda09d7d314f4d4ed333a0c5da51bfbaeafaf
-    log: |
-         009ad3b2ed9431dd9d8656b7b78940786a635969 update nl80211.h
-         efaf7864a649ba9cdc9527bb1608c6cb5c1f6c33 iw: Add support to set per-radio RTS threshold in multi-radio wiphy
-         c5bfa2a3a9720ae3af84d20ad561c8a46e6173a1 iw: add support to print link level information in station dump
-         a52bda09d7d314f4d4ed333a0c5da51bfbaeafaf bump version to 6.17
-         
+  - ref: refs/tags/v6.17
+    old: 0000000000000000000000000000000000000000
+    new: 096fba978531fc8e78c79fa720d5fb3d5f99f39b
 
---===============0302705924188727751==
+--===============3030394143689063098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1756885687 +0200
+pusher 7BF9099A 1756885698 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
-nonce 1756885637-9eaa14a804e8455ac7b7134c3c16b7aba1d2d0c9
+nonce 1756885648-559b3fee72a9716e136598bf2be919dfc64bb481
 
-aef3798128a17a319909e3e34b34d44b7c237a58 a52bda09d7d314f4d4ed333a0c5da51bfbaeafaf refs/heads/main
+0000000000000000000000000000000000000000 096fba978531fc8e78c79fa720d5fb3d5f99f39b refs/tags/v6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmi38rcACgkQ10qiO8sP
-aAAsBA/+I3ymitEB80IBCO4SFAIMPMCQTqOnUYNhSajlrfl0vcAglLs9Q60t3+u7
-IjXpAVRnDgFbgyiRW+sNtdKUhvBW+nQCaAVNYtvmh4JQJbU5QiYFyPX424qa/kQ7
-fkc34o8n6AWJOblAWiTA2xKd6x2Yd29JRKWtTxOzimDUMGkVnZfPGlyuxQDuwCc3
-ak6R9Fl781zvpKBUdRHoar7571NRTOPc814Ui9D1HSb9+wana4uiCkE9Ps0kTaCk
-KUDQa50GWu65LhuUfU14r359pzy3zeIVKTvteM/UZm5tw4LD/lPCz0bK231rjFAg
-nu7eB8/a68xxrVIEwXs4G5DBsG8H/xckq2EYcD4KSOVK58orzrTeZJBLqvzivvVo
-xi9a9om3pK9dPJCzkLxyzFhiNLi4hW4rWsAIrhNEOCr7IQf/HNeCeKKQz2yHHwh2
-8ltC+f1KeEXZx1TF0+eajRznji9+9lGW9sVrjfJtaubMpK9k4OuTgDX8utgDHlfY
-3lErJWzKQ4ELValGkQbICB1YRe3HEwL0xMPZ47+c3SGPpVlY9hb6gIiHqDIyT03/
-zVM7RGL8G6XX5aHhOrrZ46F2D/Ga8GoL3tBBvIDOdD+zLgjZG9s1qpgJ+BsqsSWF
-83Cl/uRFux0EGniYPbjqKxxV/bHXXDlCBqTxRXFSu6QRQxVzeYM=
-=6xso
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmi38sIACgkQ10qiO8sP
+aAA7FRAAqJ4C0P6WEctEAMV1ulIV+VLUSdqYjKx/fTvs7Uxoew+1zf0pUIO2dOtH
+Wy+pHEJ6ykUTV0wK8uTG6YwPq+AzEnUowWtefwfnwTP9bem8mPleDIm140r4mAL1
+JAR0XRgKfaQbDQr7R99B9hsgFucFyjjALr1OGJH5rwafrFsSOBEnFwdNmcILQCWK
+6oY8UK/SgyJlEQLA8IuyW3NSNXTlWI7e2Aflv0powu9ZIhzXQypJxPR9OpWXp94v
+VcvWLcUe/v1iEF0CPvU5kk4UC+v94t/BSM0PO3uz6gaszA8LnX8qgLG4dTniLlDy
+anKVJRPtd2O0WCQsfsqlT/npwGaKFG0DICSJQ8JoYDifksa6GJnqxRZbTJRIuktp
++vO+y3T31iRuyOpjoMqUmNPq12LONFuQE/zy8InD6n47G13DFQEY0cMH7p7HcpUv
+vxfUx6+rG7qlEJ/Rqr4iNlMGtFG2Q6qMOVrmI8T9rJixCsxx+/efrNNQzv7yDJTA
+mxs1r4hAe3brUXon9fSX1TrpNov6ti59CHKOXUCiu9aC3QOJ+C7UPTWTWS1SHgxo
+QpAhu+b0Ct1MYWwJu8VvzEQZo1fa2cfis++PO+cWnXrxkQecwe/62BY610lASzHs
+ut8q3v3gLdgHfJwk6qQv6N3rzzARbgGB9FJtE4DvBhpfGbvT2Rk=
+=GbXr
 -----END PGP SIGNATURE-----
 
---===============0302705924188727751==--
+--===============3030394143689063098==--
