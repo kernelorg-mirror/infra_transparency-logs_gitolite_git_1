@@ -1,60 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============3253438037275735081=="
+Content-Type: multipart/mixed; boundary="===============1142030776575597856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 03 Sep 2025 20:50:33 -0000
-Message-Id: <175693263330.478202.271659267259983316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 03 Sep 2025 21:03:42 -0000
+Message-Id: <175693342220.487611.628954030426367495@gitolite.kernel.org>
 
---===============3253438037275735081==
+--===============1142030776575597856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dir-deleg
-    old: 8fd5ee36813116afaa2f384f24bf5675871e9f92
-    new: ce0afff7bea09dccecf0a28deeea1b68a150bbbd
-    log: revlist-8fd5ee368131-ce0afff7bea0.txt
+  - ref: refs/heads/next
+    old: 2b94e3bde67474e6290cfa911860d5587b6aabed
+    new: 3d62ecaf14d485d3f7f87a354f2a71014c8586cd
+    log: revlist-2b94e3bde674-3d62ecaf14d4.txt
 
---===============3253438037275735081==
+--===============1142030776575597856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fd5ee368131-ce0afff7bea0.txt
+Content-Disposition: attachment; filename=revlist-2b94e3bde674-3d62ecaf14d4.txt
 
-9b4cf03ebba5783b11fc942196ea97e42c9cd664 filelock: add FL_RECLAIM to show_fl_flags() macro
-e1dfcd9de4e5c17548eb137bdc2dcdf7ef75772b vfs, nfsd, nfs: implement directory delegations
-11b2beb1a8b2cd6102b1e84eba611a7f9065e31a filelock: push the S_ISREG check down to ->setlease handlers
-74b97c2391e075ceda52696e8c1583b585f0b12d filelock: add a lm_may_setlease lease_manager callback
-8db0ba8f85ff04637ec9f1395084e39b3a67e277 vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
-766cb3e94d2ce83cc95dc9ae00cb5c70ba0ac732 vfs: allow mkdir to wait for delegation break on parent
-0461c45ed30761e2f18651d02888b3f8309781c8 vfs: allow rmdir to wait for delegation break on parent
-20ed5fcf0584524b7021a1af3c02d1af9c7de73b vfs: break parent dir delegations in open(..., O_CREAT) codepath
-1311bd782e007914f6aee651a4e9792160f40dad vfs: make vfs_create break delegations on parent directory
-3bb644aeb676979b55ac6bb03fcb3f0775e041c4 vfs: make vfs_mknod break delegations on parent directory
-81a5e3ea8e5217456b83ae02ee15b27ca072dbb4 filelock: lift the ban on directory leases in generic_setlease
-530b900e008f4cab5a770ccced039efec7f49cdf nfsd: allow filecache to hold S_IFDIR files
-f07dc0c2edb19c7f5b880ce896c4426f81060a39 nfsd: allow DELEGRETURN on directories
-1c73554047f139b20612fb0c71297c162ae814ff nfsd: check for delegation conflicts vs. the same client
-66271e090607bdf7551f2c32cce2e2c87216f029 nfsd: wire up GET_DIR_DELEGATION handling
-6d2ea707dd1bf79f14f12d167ff2e0429814e902 filelock: rework the __break_lease API to use flags
-91cd60d08e6ab3bad87703f39965bd2494c1b334 filelock: add struct delegated_inode
-723e0883f44c87bf65797dc97b240353193733a4 filelock: add support for ignoring deleg breaks for dir change events
-7a977ff7e97041ec5ec32918f043ee24a69e11d7 filelock: add a tracepoint to start of break_lease()
-fb8c34371f0e5d312c2efb81c078f45ed189b39e filelock: add an inode_lease_ignore_mask helper
-eb2f68c7715a62f7df763be38d54d69a958af233 nfsd: allow nfsd to get a dir lease with an ignore mask
-e654d3410cd576cb48d6eef78faf71872ef79aa0 vfs: add fsnotify_modify_mark_mask()
-59d78b8ed7b13bb9da57058a66717af13e3f177e nfsd: update the fsnotify mark when setting or removing a dir delegation
-f28fb3bca568c3698f1d73fe82a100b1db497dd9 nfsd: make nfsd4_callback_ops->prepare operation bool return
-47fb421a463ef2874ca7411f4da8ad0792fcaa9c nfsd: add protocol support for CB_NOTIFY
-689a46f76a6d40f1dbce851e92c5b8fee427f5ca nfs/nfsd: autogenerate FATTR4 constants and struct encoders
-671cfa20ed17cbb328104bcf00e352350fa54cc5 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
-9e1b36b2f3f6a8ae274bd06c5b584eb44e358cdf nfsd: add data structures for handling CB_NOTIFY to directory delegation
-c527a5ef103370ffa4854343118b62ff87786774 nfsd: add notification handlers for dir events
-ce0afff7bea09dccecf0a28deeea1b68a150bbbd nfsd: add tracepoint to dir_event handler
+272dad3f84004079328e8f36b2292e7297460ffd Documentation: pinctrl: Describe PM helper functions for standard states.
+08383cd479f8212fafee2f557b58cfd48818bee0 pinctrl: Add pinctrl_pm_select_init_state helper function
+5ffa3d2f43a487f60e9f6f692aa8e22251446755 dt-bindings: PCI: Add STM32MP25 PCIe Root Complex bindings
+bb90c3dd42adba65fc2f26ecb16c1d27d74fa68b PCI: stm32: Add PCIe host support for STM32MP25
+89f6842156333cca9abb8e641e28100b708bed00 dt-bindings: PCI: Add STM32MP25 PCIe Endpoint bindings
+23af4389362caf23d5b96f4a335cef48a1e69d4a MIPS: PCI: Use pci_enable_resources()
+8c27e59ab05870ce1d169a94e66b92c656a5957b PCI: Move find_bus_resource_of_type() earlier
+1c179ad7ac154b1aaac5e7385033c356fea7ae38 PCI: Refactor find_bus_resource_of_type() logic checks
+950db663be725bd9791b37837014f7c6a1964ba2 PCI: Always claim bridge window before its setup
+9b9bba344c61086076846bfc397788f23815741e PCI: Disable non-claimed bridge window
+25d115793bd4504b1c8fe74356ba4318b02d27d3 PCI: Use pci_release_resource() instead of release_resource()
+f28bc25fe58230da60b8b1daa453dfb8329b5341 PCI: Enable bridge even if bridge window fails to assign
+698d637f3696384d2ab915298e701ee26426d354 PCI: Preserve bridge window resource type flags
+92822c8f9558f2b2fec7ff1d4c0605c0d6cde8cc PCI: Add defines for bridge window indexing
+1e976e0408aa572090f89c9146129781821d2e96 PCI: Add bridge window selection functions
+b18e0b440291f04a72468446029971c8b4e9867f PCI: Fix finding bridge window in pci_reassign_bridge_resources()
+5e5c7c0129ec6f69db414b567be1fa8e62821cab PCI: Warn if bridge window cannot be released when resizing BAR
+caa0865c042713e5a5a773593bbf992889497351 PCI: Use pbus_select_window() during BAR resize
+43116687ccfd3938c6e948a997754f1c0f8b6a8c PCI: Use pbus_select_window_for_type() during IO window sizing
+ad7559c85cb460c2a0a0d8756cfdfebb6e4a069b PCI: Rename resource variable from r to res
+fe955e82253ef48c0233fa378894a07762263ace PCI: Use pbus_select_window() in space available checker
+1eb4901e96a046fe888962578110cf0ae5d3a980 PCI: Use pbus_select_window_for_type() during mem window sizing
+fa21bb133cdf87f4ed73a7f1ec936741404a6074 PCI: Refactor distributing available memory to use loops
+16ad9f0cdc182b81ddbe57095239c612993576e6 PCI: Refactor remove_dev_resources() to use pbus_select_window()
+9d6b374c97bf9dadd10168c80455ed4ee2810d2b PCI: Add pci_setup_one_bridge_window()
+7cd32b3b338ee1512277c9514310dc98e35e4bbd PCI: Pass bridge window to pci_bus_release_bridge_resources()
+d6f264fca58c9d2bc8fb7bd0e0ba52335f34f6a9 PCI: Alter misleading recursion to pci_bus_release_bridge_resources()
+f2543da14dc2b9bee337f1f9466ab3fedae1cd84 PCI: switchtec: Replace manual locks with guard
+57a48a2619c5f99d48748f9c34db510efe5ee7c9 dt-bindings: PCI: ti,am65: Extend for use with PVU
+c04b97b4a2f520c92344ad7744447cfa1b3a486c PCI: stm32: Add PCIe Endpoint support for STM32MP25
+dc4946029c1ca752aa2262c0aab07e1c59cd4d0d MAINTAINERS: Add entry for ST STM32MP25 PCIe drivers
+d39e0103e38f9889271a77a837b6179b42d6730d PCI: dwc: Add support for ELBI resource mapping
+dab104c81cbaf9677d367ca1ae8cd3ec8cc3d5bf PCI/AER: Print TLP Log for errors introduced since PCIe r1.1
+9a7f144e18dc5f037d85a0f0d99524a574331098 PCI: j721e: Fix module autoloading
+6ff53f7cc2e790898f8a3589bad2de7d5ed13bc5 PCI: qcom: Rely on DWC core for ELBI resource mapping
+8de91c2bfd0d9daee39bd4ee72f9cbf90a408170 PCI: dwc: Add support for ECAM mechanism using iATU 'CFG Shift Feature'
+7ac4620459ef0cc28142dcaa69d799e20465124e PCI: qcom: Configure ELBI base and iATU if ECAM is enabled by DWC core
+e1a8805e5d263453ad76a4f50ab3b1c18ea07560 PCI: tegra: Fix devm_kcalloc() argument order for port->phys allocation
+36427d8e94decd41bb2909eb274e023ac174c8aa Merge branch 'pci/aer'
+a6908496b205881cf1fca5c9889f492055907a47 Merge branch 'pci/enumeration'
+7ae92646763a4cf8e0d8b5c6e522adca285bb0bd Merge branch 'pci/hotplug'
+bb58b21bfe4a4c9e340d7d4424fa53daf44bb3f7 Merge branch 'pci/msi'
+9b7098db51f34f369be351dd530cd92053adc542 Merge branch 'pci/p2pdma'
+818bb3fcaf69bc279881f0ccc6e339d41d86d10d Merge branch 'pci/pwrctrl'
+e6c239b8ba533ed8608e4292903b5656928ceb19 Merge branch 'pci/resource'
+609294235a920e05d15dc7fdf2fde8c8cf97d274 Merge branch 'pci/switchtec'
+21c828d20cb2a6d628337f86b3d300a324c2e79b Merge branch 'pci/capability-search'
+70b877407601a9edb40a13cdb9474f1f497d1017 Merge branch 'pci/dt-binding'
+b08d1e441d6eab486434ee83703339f371c544ff Merge branch 'pci/endpoint'
+5830e4bb88169c5bde7b302eca251d009badfb79 Merge branch 'pci/controller/dwc-ecam'
+5f5df88cce13b2b2768fa94787fee45c403d920a Merge branch 'pci/controller/amd-mdb'
+a733bec77de05e950d4f436c1ddd376c2143053c Merge branch 'pci/controller/keystone'
+ba6560216dc363759b8507dd929e527f9c786494 Merge branch 'pci/controller/qcom'
+70cf5b2b3c51f115b70fb0aae5c8407f1cef2568 Merge branch 'pci/controller/rcar-host'
+c509fc5ccf74ab966173cd555d5e4a5dd729ba3f Merge branch 'pci/controller/mediatek-gen3'
+f41de6f977f5887938e93697b0437f74adcc49c1 Merge branch 'pci/controller/rcar-gen4'
+3094350a7d4984779127c7e6acf2836f715c5455 Merge branch 'pci/controller/stm32'
+8db3fb3c5a4378216b9dd89e4a21ace7c83e79b0 Merge branch 'pci/controller/tegra'
+caa82ad80e076394124fdb2ad4a16a197f0d2138 Merge branch 'pci/controller/ti'
+915e2575b302bf34231dd69fb27eb4b18bca9f64 Merge branch 'pci/controller/xgene-msi'
+3d62ecaf14d485d3f7f87a354f2a71014c8586cd Merge branch 'pci/misc'
 
---===============3253438037275735081==--
+--===============1142030776575597856==--
