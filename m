@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 03 Sep 2025 19:10:30 -0000
-Message-Id: <175692663050.389127.13834074825221897112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 03 Sep 2025 19:14:17 -0000
+Message-Id: <175692685779.391337.6100819230401436242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: e6b9dce0aeeb91dfc0974ab87f02454e24566182
-    new: ec299e4dc21e8cc476c2c848813919db79492dda
-    log: |
-         5ebf512f335053a42482ebff91e46c6dc156bf8c sched: Fix sched_numa_find_nth_cpu() if mask offline
-         ec299e4dc21e8cc476c2c848813919db79492dda Merge tag 'bitmap-for-6.17-rc5' of https://github.com/norov/linux
-         
+  - ref: refs/heads/v6_20250902_james_clark_spi_spi_fsl_dspi_target_mode_improvements
+    old: 5cc49b5a36b32a2dba41441ea13b93fb5ea21cfd
+    new: 0000000000000000000000000000000000000000
