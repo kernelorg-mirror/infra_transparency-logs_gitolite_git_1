@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Wed, 03 Sep 2025 06:04:51 -0000
-Message-Id: <175687949176.3853531.9016745702303447267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 03 Sep 2025 06:17:53 -0000
+Message-Id: <175688027382.3864612.2323645576054593030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: 4cbe53f6ad21495736d799e33f7964d150b17160
-    new: c34cd128b21c91db17f7fe5d03f2e5ed6b699be7
+  - ref: refs/heads/mlx5-next
+    old: 40653f280b2640e5caa94eeedee43e0f1df97704
+    new: 04a3134f88a4bd03001a3093144819523cfca99e
     log: |
-         fe42f567c387964ca5660d66242d30837fc488a2 ARM: dts: aspeed: Minor whitespace cleanup
-         c34cd128b21c91db17f7fe5d03f2e5ed6b699be7 Merge branches 'aspeed/drivers', 'aspeed/dt', 'nuvoton/arm/dt' and 'nuvoton/arm64/dt' into for-next
+         04a3134f88a4bd03001a3093144819523cfca99e net/mlx5: Add PSP capabilities structures and bits
          
