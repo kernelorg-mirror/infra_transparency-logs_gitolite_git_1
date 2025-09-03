@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8384809245720865550=="
+Content-Type: multipart/mixed; boundary="===============7592091080068427621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 03 Sep 2025 16:24:33 -0000
-Message-Id: <175691667337.242599.8710862675490397578@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 16:24:39 -0000
+Message-Id: <175691667997.242849.8104935163607479691@gitolite.kernel.org>
 
---===============8384809245720865550==
+--===============7592091080068427621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: cd8a4cfa6bb43a441901e82f5c222dddc75a18a3
     new: 1d8f0059091e757973324ae76253c2c059e0810f
     log: revlist-cd8a4cfa6bb4-1d8f0059091e.txt
 
---===============8384809245720865550==
+--===============7592091080068427621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ cb477c30512db29325c0503ba96a6158a61b7e7c net: dsa: lantiq_gswip: move to dedicat
 0dc602a3c7f781c8358e00d14988eca32d5e95c1 net: dsa: lantiq_gswip: move MDIO bus registration to .setup()
 1d8f0059091e757973324ae76253c2c059e0810f Merge branch 'net-dsa-lantiq_gswip-prepare-for-supporting-maxlinear-gsw1xx'
 
---===============8384809245720865550==--
+--===============7592091080068427621==--
