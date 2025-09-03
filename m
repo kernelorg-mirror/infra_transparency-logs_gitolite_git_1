@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0662392221451842153=="
+Content-Type: multipart/mixed; boundary="===============2741642545859466081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 03 Sep 2025 01:43:10 -0000
-Message-Id: <175686379090.3636363.8018263237627428979@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 01:43:12 -0000
+Message-Id: <175686379236.3636485.16083153613667290346@gitolite.kernel.org>
 
---===============0662392221451842153==
+--===============2741642545859466081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
+  - ref: refs/heads/mm-stable
     old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
     new: e6b9dce0aeeb91dfc0974ab87f02454e24566182
     log: revlist-1b237f190eb3-e6b9dce0aeeb.txt
 
---===============0662392221451842153==
+--===============2741642545859466081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -369,4 +369,4 @@ e3c94a539e767c7bf055be4ed6911246812fcb6e Merge tag 'for-6.17-rc4-tag' of git://g
 8026aed072e1221f0a61e5acc48c64546341bd4d Merge tag 'mm-hotfixes-stable-2025-09-01-17-20' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e6b9dce0aeeb91dfc0974ab87f02454e24566182 Merge tag 'sound-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============0662392221451842153==--
+--===============2741642545859466081==--
