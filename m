@@ -1,26 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 03 Sep 2025 21:57:14 -0000
-Message-Id: <175693663479.536442.3702857837836671979@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2750269375709198091=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 03 Sep 2025 22:01:50 -0000
+Message-Id: <175693691024.540946.1781143419286764985@gitolite.kernel.org>
+
+--===============2750269375709198091==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: f63e7c8a83892781f6ceb55566f9497639c44555
-    new: c5142df58d5a19a0615414037f256cd5ca39f7c5
-    log: |
-         22c55fb9eb92395d999b8404d73e58540d11bdd8 wifi: ath12k: Set EMLSR support flag in MLO flags for EML-capable stations
-         97acb0259cc9cbfbd7ab689e25684f3d8ce10e26 wifi: ath11k: fix group data packet drops during rekey
-         f8f15f6742b8874e59c9c715d0af3474608310ad wifi: cw1200: cap SSID length in cw1200_do_join()
-         c786794bd27b0d7a5fd9063695df83206009be59 wifi: libertas: cap SSID len in lbs_associate()
-         62b635dcd69c4fde7ce1de4992d71420a37e51e3 wifi: cfg80211: sme: cap SSID length in __cfg80211_connect_result()
-         fe9e4d0c39311d0f97b024147a0d155333f388b5 wifi: wilc1000: avoid buffer overflow in WID string configuration
-         27893dd6341b929f87d45fc4d65c5778179319dd Merge tag 'ath-current-20250902' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-         c5142df58d5a19a0615414037f256cd5ca39f7c5 Merge tag 'wireless-2025-09-03' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 2ede9d5a931ef5571e86c18b0249272168e93465
+    new: 414bf79debdce9bb682b4f23f87ea97568afa67b
+    log: revlist-2ede9d5a931e-414bf79debdc.txt
+
+--===============2750269375709198091==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2ede9d5a931e-414bf79debdc.txt
+
+78d853512d6f979cf0cc41566e4f6cd82995ff34 perf disasm: Avoid undefined behavior in incrementing NULL
+4bd5bd8dbd41a208fb73afb65bda6f38e2b5a637 perf test trace_btf_enum: Skip if permissions are insufficient
+2354479026d726954ff86ce82f4b649637319661 perf evsel: Avoid container_of on a NULL leader
+8b93f8933d37591d17c59fd71b18fc61966d9515 perf test shell lock_contention: Extra debug diagnostics
+b39c915a4f365cce6bdc0e538ed95d31823aea8f libperf event: Ensure tracing data is multiple of 8 sized
+c3befab83441afdc631524f4c507bb713aa44bd7 perf python: Add more exceptions on error paths
+6bdf8a5669d00bdd6ab97cb184e7178615b68df8 perf python: Improve the tracepoint function if no libtraceevent
+7f1f71a164ade85939dbe6022c5d305e1b1b56fd perf python: Add basic PMU abstraction and pmus sequence
+2f20df570e39ccedbf7374a46ae3893705e88d36 perf python: Add function returning dictionary of all events on a PMU
+83e5b8f9bf2edfa1aac0d09d994792da594fec56 perf ilist: Add new python ilist command
+d0550be70f7ab84dfeff0db163a6bb924f70e2cb perf python: Add parse_metrics function
+5ffa0246db5adb7839f9506c83554efd069c9142 perf python: Add evlist metrics function
+064647d61c28ab16d3f6a98e30685694198551ac perf python: Add evlist compute_metric
+47b3e95728eb4104adca3d4a0ec018fcaa738b82 perf python: Add metrics function
+a3f4104daa9f4399c295f1269d54491baf60f9be perf ilist: Add support for metrics
+9105df0185ea3a89e6651985e829897a8d3a94ae perf tp_pmu: Remove unnecessary check
+414bf79debdce9bb682b4f23f87ea97568afa67b perf dwarf-aux: Use signed variable types in match_var_offset
+
+--===============2750269375709198091==--
