@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 03 Sep 2025 17:19:21 -0000
-Message-Id: <175691996190.290605.4326256914605152174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Wed, 03 Sep 2025 17:20:48 -0000
+Message-Id: <175692004835.293135.12172066948574081980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/tags/at91-fixes-6.17
+  - ref: refs/tags/0.10.24
     old: 0000000000000000000000000000000000000000
-    new: a2aaca53558754f0476f9c0e75687b73d4429333
+    new: 6279f05b462540ef3d14fbb87f86989be95a973d
