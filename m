@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5800161074159059956=="
+Content-Type: multipart/mixed; boundary="===============7538406707499532357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 03 Sep 2025 22:02:14 -0000
-Message-Id: <175693693476.541580.16968060961887905884@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 22:02:23 -0000
+Message-Id: <175693694342.541789.16989396260271309446@gitolite.kernel.org>
 
---===============5800161074159059956==
+--===============7538406707499532357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 2ede9d5a931ef5571e86c18b0249272168e93465
+  - ref: refs/heads/perf-tools-next
+    old: 07d9df80082b8d1f37e05658371b087cb6738770
     new: 414bf79debdce9bb682b4f23f87ea97568afa67b
-    log: revlist-2ede9d5a931e-414bf79debdc.txt
+    log: revlist-07d9df80082b-414bf79debdc.txt
 
---===============5800161074159059956==
+--===============7538406707499532357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ede9d5a931e-414bf79debdc.txt
+Content-Disposition: attachment; filename=revlist-07d9df80082b-414bf79debdc.txt
 
+f06ba25ec54a3157c5b636483586f152f4478b9a perf annotate: Rename to __hist_entry__tui_annotate()
+4e3c9dc8b80e3d78be0055ef4ea5111427eab7f7 perf annotate: Remove annotation_print_data.start
+05a706b157acccc4b2c4063a63dbe38c130cd3fa perf annotate: Remove __annotation_line__write()
+d94d5eb54f9cf21411ad18fa2c7b6082437aa6c5 perf annotate: Pass annotation_print_data to annotation_line__write()
+7736a6fba05837d178caa3c0ced55da77377a7e6 perf annotate: Simplify width calculation in annotation_line__write()
+e38ea8c41edda61d7b86c94ff052474d0fe5bf9a perf annotate: Return printed number from disasm_line__write()
+7dbe89ca3d5496a3232349f9a7edfba6f9061c4c perf annotate: Add --code-with-type support for TUI
+1d4374afd000baa59aadb067f195d0fae9bd7f11 perf annotate: Add 'T' hot key to toggle data type display
+644bbe59af3d04a0d3b78e8048a35ba68c0dbafd perf annotate: Show warning when debuginfo is not available
+d69f56545ed53342204136b66b4d10ba80103d14 perf annotate: Hide data-type for stack operation and canary
+53a61a6ca279165dd51f4e3bb5f8b11544915138 perf annotate: Add dso__debuginfo() helper
+1086237f0a91c7e70eede1bc83ce54f521db64b0 perf annotate: Use a hashmap to save type data
 78d853512d6f979cf0cc41566e4f6cd82995ff34 perf disasm: Avoid undefined behavior in incrementing NULL
 4bd5bd8dbd41a208fb73afb65bda6f38e2b5a637 perf test trace_btf_enum: Skip if permissions are insufficient
 2354479026d726954ff86ce82f4b649637319661 perf evsel: Avoid container_of on a NULL leader
@@ -44,4 +56,4 @@ a3f4104daa9f4399c295f1269d54491baf60f9be perf ilist: Add support for metrics
 9105df0185ea3a89e6651985e829897a8d3a94ae perf tp_pmu: Remove unnecessary check
 414bf79debdce9bb682b4f23f87ea97568afa67b perf dwarf-aux: Use signed variable types in match_var_offset
 
---===============5800161074159059956==--
+--===============7538406707499532357==--
