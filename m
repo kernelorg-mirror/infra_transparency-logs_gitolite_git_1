@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4397584957144013477=="
+Content-Type: multipart/mixed; boundary="===============7526639422641175309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 03 Sep 2025 14:00:59 -0000
-Message-Id: <175690805908.77869.550420712278052838@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 14:01:05 -0000
+Message-Id: <175690806504.78098.6996147264279764346@gitolite.kernel.org>
 
---===============4397584957144013477==
+--===============7526639422641175309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: bc58402182fcce017c9fd98f3e22609dfb7d0886
     new: 9756ff114601f426521528469cb29dfc3837c466
     log: revlist-bc58402182fc-9756ff114601.txt
 
---===============4397584957144013477==
+--===============7526639422641175309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ f0aed6ffb3548a03dab9e608b2bd8ce07af4be9f dt-bindings: display: dsi-controller: a
 93674298bede84898742f4f8836666a2bfd0ece4 Documentation: fix typo 'Andorid' -> 'Android' in goldfish pipe binding
 9756ff114601f426521528469cb29dfc3837c466 dt-bindings: gpu: Convert aspeed,ast2400-gfx to DT schema
 
---===============4397584957144013477==--
+--===============7526639422641175309==--
