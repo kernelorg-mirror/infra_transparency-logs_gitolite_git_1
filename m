@@ -1,59 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============1416254485046073506=="
+Content-Type: multipart/mixed; boundary="===============7087851025539715681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/linux-firmware
-Date: Wed, 03 Sep 2025 20:21:09 -0000
-Message-Id: <175693086947.449747.116353916804334521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 03 Sep 2025 20:26:45 -0000
+Message-Id: <175693120581.454710.16597740206624062594@gitolite.kernel.org>
 
---===============1416254485046073506==
+--===============7087851025539715681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/linux-firmware
-user: jjohnson
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: f044bc789f8e7a4427593b687801644c39e3e8b7
-    new: 7d59b255fba6e1c3a4b7814c028cb9f8e83e14e8
-    log: revlist-f044bc789f8e-7d59b255fba6.txt
+  - ref: refs/heads/slab/for-next
+    old: f3e52a8da120cb4a9bcdbafd9fe6716009df50f3
+    new: 55377e68b4d02685395793e4b2193a43bc633850
+    log: revlist-f3e52a8da120-55377e68b4d0.txt
 
---===============1416254485046073506==
+--===============7087851025539715681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f044bc789f8e-7d59b255fba6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0cfc1632ef7b1cc15eea36214fc67098f6d49531 ath11k: Support WCN6855 hw2.1 with NFA firmware variant
-260ff42469304e2394ad48bd1549514354040324 Merge branch 'robot/pr-0-1756391920' into 'main'
-ef42281a3aaf17067597085035c5259f47ef8144 Revert "intel/ish: Add firmware for LENOVO THINKPAD X1 2-in-1 Gen 10"
-a24a8d7a46168f11c77a0fd71ac578d4190eee32 Merge branch 'superm1/revert-ish' into 'main'
-078946281c84e8477222e51f29416439a037d83d Move all iwlwifi top level files to intel/ directory
-06205c0eb81a78fef9eae2cb5b1789d99a78ac25 Move QAT firmware to intel/ subdirectory
-64596902d2db6f99eabdfea7b18c36125e343bb1 Merge branch 'superm1/iwlwifi-move-around' into 'main'
-dbe75f7ca712f8e938bb782bd1dcf67bd71750d8 Fix link entry for qat_895xcc.bin
-993ff19b553cd4d252fdf99f07c28825ef57b862 Merge branch 'main' into 'main'
-91fd5ffa1510d6a44c4ac72e8182448c13dbf825 iwlwifi: add Bz-HR FW for core90-93 release
-269f384928d919f85e54e4b69510f401ff83a791 Merge branch 'robot/pr-0-1756735424' into 'main'
-ed1c122b2a428a8f7280959317075dc79f2c6308 rtl_bt: Update RTL8822C BT USB firmware to 0x2B66_D962
-f5481b247365c3222d6584a2b700f7a51498ea47 Merge branch 'robot/patch-0-1756799466' into 'main'
-4897d80cce5fd7596ee9ef35d675f902a929bda7 qcom: add ADSP firmware for qcs615 platform
-1188b8e2e2cb04b5e336d05d145012fca2621c10 Merge branch 'robot/pr-0-1756793731' into 'main'
-20cf22e50252d63cfd0d06b5026c21b7a77ad821 i915: Update GUC to v70.49.4 for ADL-P, DG1, DG2, MTL, TGL
-d2f41cc246badb58bdef64dd5e9fe573653da295 xe: Update GUC to v70.49.4 for BMG, LNL, PTL
-e08b11609758ad08859727fa817e3b8a1a2bd9fc Merge branch 'intel/release-guc-v70494' into 'main'
-bd28704ab16eb880acbd38c597c54314e7745814 cs35l56: Rename firmware for Thinkbook 16P Gen6 (17AA3921) without multiple speakers
-7fc10a6b2b5fffad48bffaff6305f568ba322cc3 Merge branch 'robot/patch-0-1756739033' into 'main'
-739c7638b98232afb782b410e365de133ab8db54 Revert "cs35l56: Rename firmware for Thinkbook 16P Gen6 (17AA3921) without multiple speakers"
-c6aed39675756a72c9bce4d94f12d8feb9837950 Merge branch 'superm1/revert-bd28704ab16eb880acbd38c597c54314e7745814' into 'main'
-6400e0ed82a68ec0dd001dbcf902230803ab954f intel_vpu: Update NPU firmware
-c784990ba3d2cdf0a5f6e26e4785ff48238ec01e Merge branch 'update-2025ww36' into 'main'
-d9e126112daa6ec8e6d9c5d0c2f4a16ba13c3353 qcom: vpu: update firmware binaries to fix encoder drain handling
-3f50911efd86301b00883f1df6d03994e267b58a Merge branch 'robot/pr-0-1756893331' into 'main'
-7278ab0e55cf31f895c7803130446708dd718e87 mediatek MT7925:update bluetooth firmware to 20250825220109 Update binary firmware for MT7925 BT devices.
-f4bff0fc25cbb9dc3374b56a87a6397debf793af linux-firmware: update firmware for MT7925 WiFi device
-7d59b255fba6e1c3a4b7814c028cb9f8e83e14e8 Merge branch 'mt7925' into 'main'
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1756931252 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1756931202-df1d07b4a2cac4d9f07fadab1df3409276653de8
 
---===============1416254485046073506==--
+f3e52a8da120cb4a9bcdbafd9fe6716009df50f3 55377e68b4d02685395793e4b2193a43bc633850 refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmi4pLQbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaCVwIAJB4yXB0nBX/5fkRpAA9
+gN7TKkuphp5/N9dWDtBFEaxAKTdTXjtqEqSQxNF3t0YTdSvuWowZPPxi0i+75NbK
+7GZBE+IY8zFGUH0o+chN42opceAGP+PdB/gUg43WBJuMzqlkLjYeyf7xgdcZWB1s
+f1iVRnPgi73cmXg4JBvOVSroX9AsJhRgmne6YInqb0r4q+fRXKhM8jZ/lcu7aAbJ
+VaZWziaiN8EbX89mRYYMXRZYyrmQr4Fs0qO67J3NLu5TR8DKY16MmqDmq+PFOevy
+/2I5Zttrhqcnp4ziaJvaDnK0VMi46iw1Ua+Lk94tDcLQeDA79+JrvzKihQJOXe83
+MtM=
+=AF/o
+-----END PGP SIGNATURE-----
+
+--===============7087851025539715681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f3e52a8da120-55377e68b4d0.txt
+
+4978f3bded4519f1d02a3df65a740fb92f84e926 locking/local_lock: Expose dep_map in local_trylock_t.
+e28d21778c2c36d4e83eb621a8e41a1883b39a61 slab: simplify init_kmem_cache_nodes() error handling
+c89cbf27907d7c7eb83fe2c382987b487d8ba2ed slab: add opt-in caching layer of percpu sheaves
+e49b54ceee8d4b02077101d627d3cb6210b2220b slab: add sheaf support for batching kfree_rcu() operations
+1f4ebaf6bda0eea35779acbde80d2621dccc3353 slab: sheaf prefilling for guaranteed allocations
+5edbd09fb05c6aa75859bb2994302904b8917d33 slab: determine barn status racily outside of lock
+fd9c37447ff23d9671618bc661b9d2cc04a7815f slab: skip percpu sheaves for remote object freeing
+bda8efdf8562dc25b518e268ac7874b76b2812d6 slab: allow NUMA restricted allocations to use percpu sheaves
+28721f5609a3f2bb81600ce98698b0984b734240 tools/testing/maple_tree: Fix check_bulk_rebalance() locks
+cbb6a30df135202c4eef60dddfec8e5594ddb9ed tools/testing/vma: Implement vm_refcnt reset
+6602bcbdfbade6726268514393f9c5a01b782e62 tools/testing: Add support for changes to slab for sheaves
+7e0ec6f8b9b61acdcf7d5204f5f9983d4bbf73ff mm, vma: use percpu sheaves for vm_area_struct cache
+f7e4410a3465392441ef07614db7e0029bfc065a maple_tree: use percpu sheaves for maple_node_cache
+5cc04ced7f0d1d15dafd172957b7bacb2b048231 tools/testing: include maple-shim.c in maple.c
+1ad1ba2eeb228fa0ff4b87712fadba90f725525b testing/radix-tree/maple: Hack around kfree_rcu not existing
+ed807df13f26c3c9a702cfcdeb91347df56decdc maple_tree: Use kfree_rcu in ma_free_rcu
+bb9e70fcc0064f8cf3aa699332212ddbd51ec34d maple_tree: Replace mt_free_one() with kfree()
+893b7b95a703d96cff0d895a1a4b33d6b325e754 tools/testing: Add support for prefilled slab sheafs
+1094ea77b180b358fa3a6858448e22b7d192871f maple_tree: Prefilled sheaf conversion and testing
+7a2f1cc27b0040c6f69dca6a428271ecf338928f maple_tree: Add single node allocation support to maple state
+a48d52b2d21b6626a7d0fd210f7ad0b4fae80197 maple_tree: Convert forking to use the sheaf interface
+55377e68b4d02685395793e4b2193a43bc633850 Merge branch 'slab/for-6.18/sheaves' into slab/for-next
+
+--===============7087851025539715681==--
