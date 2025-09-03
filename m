@@ -1,19 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 03 Sep 2025 20:08:21 -0000
-Message-Id: <175693010170.436206.8335730809822092594@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2942553753308435241=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 03 Sep 2025 20:14:43 -0000
+Message-Id: <175693048334.441793.17650283810194117715@gitolite.kernel.org>
+
+--===============2942553753308435241==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 43ee14a2f84282510cb8edfed14f10ac2219c915
-    new: 349bf5cee82dce106ee37376d75db0c9d37c93e7
-    log: |
-         349bf5cee82dce106ee37376d75db0c9d37c93e7 foo
-         
+  - ref: refs/heads/10GbE
+    old: cd8a4cfa6bb43a441901e82f5c222dddc75a18a3
+    new: 396a788bca86ebef419471c73debdc46227972b5
+    log: revlist-cd8a4cfa6bb4-396a788bca86.txt
+
+--===============2942553753308435241==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cd8a4cfa6bb4-396a788bca86.txt
+
+23a6037ce76cb44d93cfea23aec5c7f3971227d4 bonding: Remove support for use_carrier
+99502c61e80c18dca754bace42b40fa289a79895 net: mvpp2: add xlg pcs inband capabilities
+d250f14f5f0754ce2d05d9c0ce778e4a51f488b0 net/smc: Replace use of strncpy on NUL-terminated string with strscpy
+23313771c7b99b3b8dba169bc71dae619d41ab56 net: selftests: clean up tools/testing/selftests/net/lib/py/utils.py
+3016024d7514e953cb3a6715ce29799373512eb4 net_sched: add back BH safety to tcf_lock
+5d14bbf9d1d90cb7ca3e46fe2c8a4277572eab94 net_sched: act: remove tcfa_qstats
+c2e5108649ab8dec599d074b7ea344e61efa5eee selftests: drv-net: adjust tests before defaulting to shell=False
+bc1a767f695d597de529f4f0c6fff1d55f1b5395 selftests: net: py: don't default to shell=True
+4022f92a2e4e9e7d5da06b9389a8dd43950ce1ea selftests: drv-net: rss_ctx: use Netlink for timed reconfig
+e2cf2d5baa09248d3d50b73522594b778388e3bc selftests: drv-net: rss_ctx: make the test pass with few queues
+3586018d5c3da14addcd033b6da5a1a209a0992d net: macb: Validate the value of base_time properly
+b0bc64512295f6a613fab42452bd7e2cf72c6b61 selftests: net: avoid memory leak
+3d95261eeb74958cd496e1875684827dc5d028cc ipv6: Add sanity checks on ipv6_devconf.rpl_seg_enabled
+cb477c30512db29325c0503ba96a6158a61b7e7c net: dsa: lantiq_gswip: move to dedicated folder
+7a1eaef0a791e017b67c71836f5bb42d669ade28 net: dsa: lantiq_gswip: support model-specific mac_select_pcs()
+17420a7fe5e260b8f5076b9e9d820da629668f8e net: dsa: lantiq_gswip: ignore SerDes modes in phylink_mac_config()
+5157820326f34e41d69b6a93d3c1c8302354c024 net: dsa: lantiq_gswip: support offset of MII registers
+720412c4aebc91fdb6c880353a9465ab36a26614 net: dsa: lantiq_gswip: support standard MDIO node name
+0dc602a3c7f781c8358e00d14988eca32d5e95c1 net: dsa: lantiq_gswip: move MDIO bus registration to .setup()
+1d8f0059091e757973324ae76253c2c059e0810f Merge branch 'net-dsa-lantiq_gswip-prepare-for-supporting-maxlinear-gsw1xx'
+8ee0c91097639520fe8bbd5c96ff36a546c24bdf ixgbe: add the 2.5G and 5G speeds in auto-negotiation for E610
+08a1af326a80b88324acd73877db81ae927b1219 ixgbe: reduce number of reads when getting OROM data
+86526aa57f3f24fbac3f9887af60848f6950e3f9 igbvf: add lbtx_packets and lbtx_bytes to ethtool statistics
+d07176252a4312b8010339e6e1b042ac93788ce5 igbvf: remove redundant counter rx_long_byte_count from ethtool statistics
+fa8a9346f95a5af3d17717223783b743bf20d4a9 e1000: drop unnecessary constant casts to u16
+7e93136459ddf8eaead66745751b1b0d1dda5202 e1000e: drop unnecessary constant casts to u16
+b45d082d910bb069c3b878426b5a105296b16562 igb: drop unnecessary constant casts to u16
+d45dda4914e9f675c4af9c61f409cfabe160954d igc: drop unnecessary constant casts to u16
+396a788bca86ebef419471c73debdc46227972b5 ixgbe: drop unnecessary casts to u16 / int
+
+--===============2942553753308435241==--
