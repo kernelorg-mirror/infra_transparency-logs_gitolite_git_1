@@ -1,46 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============0446522295342472451=="
+Content-Type: multipart/mixed; boundary="===============3916108550007486785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 03 Sep 2025 08:48:24 -0000
-Message-Id: <175688930470.3998594.12249723740318387525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Wed, 03 Sep 2025 08:49:07 -0000
+Message-Id: <175688934744.3999118.9711977529127685359@gitolite.kernel.org>
 
---===============0446522295342472451==
+--===============3916108550007486785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/scx-dl-server
-    old: 458863c1e397c517faea5f577394585f0b143a76
-    new: 57ad6a310b7bf266053bb1416ae34c3cc27a5791
-    log: revlist-458863c1e397-57ad6a310b7b.txt
+  - ref: refs/heads/b4/slub-percpu-sheaves
+    old: 06f1eb54eccf0e13bf86137713316780e8b56e7f
+    new: 419e8dbfdf4af8b8e826fc636c813ddc013f7aea
+    log: revlist-06f1eb54eccf-419e8dbfdf4a.txt
 
---===============0446522295342472451==
+--===============3916108550007486785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-458863c1e397-57ad6a310b7b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-19c641aa8fe8dd1bca8413ca796bf077b6b32196 sched_ext: Exit early on hotplug events during attach
-121ec897127d2a01ef6227ce34bece361cecb651 sched/debug: Fix updating of ppos on server write ops
-d19f8a4c09eb617f96fbf15cd3351c73520c9f81 sched/debug: Stop and start server based on if it was active
-1d49cd09faf9e68efbc68f05e50eeb635fbc959e sched/deadline: Clear the defer params
-2daf00ec5c467ac34e03d34a736cad18f6952864 sched/deadline: Return EBUSY if dl_bw_cpus is zero
-8a69b492ee1aaeef57e1811cd41391cdee933c8d sched: Add a server arg to dl_server_update_idle_time()
-2cf2261e799d146a0cca306ea842abcc13ca96c1 sched_ext: Add a DL server for sched_ext tasks
-4b4f25a04c094fdcaa213efde0bf61f4df3d23d0 sched/debug: Add support to change sched_ext server params
-43810d350c62c8b808add1e7fed4647b9bcd1960 sched/deadline: Add support to remove DL server's bandwidth contribution
-5412d98bdd66a3764a399721ecfaaa99fadf162e sched/deadline: Account ext server bandwidth
-72b48c01e4a15746b1b9de6fe40082775ed21fed sched/deadline: Allow to initialize DL server when needed
-14ee3adf5c45cf9548805f2b13aed024ab4bbf6f sched_ext: Selectively enable ext and fair DL servers
-af58de2a84144d45e86d542d14e1d42cc9568415 sched/deadline: Fix DL server crash in inactive_timer callback
-73d0a1a5196621b89d5fec8eab4a98cf8d7be10f sched/deadline: De-couple balance and pick_task
-9a2327c933b3347d8ebc3476467017d6f3af90f0 selftests/sched_ext: Add test for sched_ext dl_server
-57ad6a310b7bf266053bb1416ae34c3cc27a5791 selftests/sched_ext: Add test for DL server total_bw consistency
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1756889393 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1756889342-879681c62333c0239b19e87989081d66bb9f573a
 
---===============0446522295342472451==--
+06f1eb54eccf0e13bf86137713316780e8b56e7f 419e8dbfdf4af8b8e826fc636c813ddc013f7aea refs/heads/b4/slub-percpu-sheaves
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmi4ATEbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiabDsH/05kC+4dyLhhdgRQpARi
+NQd/h/dM5aSM/DbVjNxjj3Vz6AUmcxsxTsr0xGha9oLDxZbFy1lkBYK3+azmD+9U
+yUMLZTNFqKEzGP+jJdIyAPE/DVxsck5YxUflAk1DQCRJ6i9F1bG9EJKRVmPGj4JZ
+NHn9f8MQFiiZfrtpi9o7bRId/YdRkrV/DVYM9eYNRhzwYLyPaJfhoIadeNuo5Diz
+xFaQlg1VGLdeQ1neqEDse2FmR/oeTfYkIu++yGkFJuWc0rqK2JIXZT3fM04Sxc9Z
+5KgVbe5B+b3G2WS4tAV7Cw2BgYazbmJntPP28x0IPVJEf34ZQrxmTNNhC37FqINL
+Mhc=
+=KFRh
+-----END PGP SIGNATURE-----
+
+--===============3916108550007486785==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-06f1eb54eccf-419e8dbfdf4a.txt
+
+472070268b115c6c13614f0543a8a533dddb9412 locking/local_lock: Expose dep_map in local_trylock_t.
+b61c08f453ba704298e26011ce835d356c2e40af slab: simplify init_kmem_cache_nodes() error handling
+312be4a4f703d35e928cee0095fe699444ca5683 slab: add opt-in caching layer of percpu sheaves
+683c194fcbc9ec226d8ca6f8fd90698c4c315b1e slab: add sheaf support for batching kfree_rcu() operations
+02bebed1c53cee78f5329c78c7c2d1192813dbde slab: sheaf prefilling for guaranteed allocations
+1614d703f38bcaa6177db39c1986fecb5fc5726e slab: determine barn status racily outside of lock
+cdf75088080c36d799838a43bd3cb451429145e8 slab: skip percpu sheaves for remote object freeing
+023a4e5bbe12f074734d6fabe7ec2e08841307a4 slab: allow NUMA restricted allocations to use percpu sheaves
+3f6374307bff75076d1aae96b9486cf826dd1d69 mm, vma: use percpu sheaves for vm_area_struct cache
+90bfe22b198b0d64a6a6091296054b90f196adfd tools/testing: Add testing support for slab caches with sheaves
+419e8dbfdf4af8b8e826fc636c813ddc013f7aea maple_tree: use percpu sheaves for maple_node_cache
+
+--===============3916108550007486785==--
