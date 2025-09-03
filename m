@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7559398517412258965=="
+Content-Type: multipart/mixed; boundary="===============0119758255428496873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 03 Sep 2025 17:12:56 -0000
-Message-Id: <175691957656.284954.16348286572753213041@gitolite.kernel.org>
+Date: Wed, 03 Sep 2025 17:13:08 -0000
+Message-Id: <175691958803.285184.4090260863947670984@gitolite.kernel.org>
 
---===============7559398517412258965==
+--===============0119758255428496873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath12k-ng
-    old: 0e487f03c6e5d8dd5b076b8b061e50e736ab2196
+  - ref: refs/heads/pending-ath12k-ng
+    old: ce3ae9363a7891c38018c99bb4da154868405831
     new: d637c58a29475d646f8decfbbc1d27fae999a449
-    log: revlist-0e487f03c6e5-d637c58a2947.txt
+    log: revlist-ce3ae9363a78-d637c58a2947.txt
 
---===============7559398517412258965==
+--===============0119758255428496873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e487f03c6e5-d637c58a2947.txt
+Content-Disposition: attachment; filename=revlist-ce3ae9363a78-d637c58a2947.txt
 
 dc722ea9ee13369b1d4687160206e6bde2e8c2e2 wifi: ath12k: Move hal_tx and hal_rx to wifi7 directory
 020225bbf4fb2fb23553ac9c65c8f50bb4d2fe74 wifi: ath12k: Move hal_tx.h file to wifi7 directory
@@ -47,4 +47,4 @@ d3ade00eb6d27dda5ba0026f5602f03b99df5a96 wifi: ath12k: Move HTT code in dp.h to 
 611297ee9faf6a28b1d553c41c4677052629cf6c wifi: ath12k: Move HTT Tx specific code to newly introduced files
 d637c58a29475d646f8decfbbc1d27fae999a449 wifi: ath12k: Move HTT specific code from dp.c to newly introduced files
 
---===============7559398517412258965==--
+--===============0119758255428496873==--
