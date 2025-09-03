@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2928876007949628534=="
+Content-Type: multipart/mixed; boundary="===============2947121213159546300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 03 Sep 2025 18:52:34 -0000
-Message-Id: <175692555447.371247.17844607170143662703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 03 Sep 2025 18:52:44 -0000
+Message-Id: <175692556429.371571.17820078855552843696@gitolite.kernel.org>
 
---===============2928876007949628534==
+--===============2947121213159546300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: ce1a46b2d6a8465a86f7a6f71beb4c6de83bce5c
-    new: 09be5b1c923082d473a9fc52d6113eb0d9c08b4d
-    log: revlist-ce1a46b2d6a8-09be5b1c9230.txt
+  - ref: refs/heads/for-next
+    old: 0f0c3432ab67f96e567bc8039f3c32e9d4a9d1e5
+    new: b3b4502ed0c0dc89ebf89c0066da1419127b112e
+    log: revlist-0f0c3432ab67-b3b4502ed0c0.txt
 
---===============2928876007949628534==
+--===============2947121213159546300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1756925602 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1756925552-86e3503332f145afa90291920e22e88a1949bebe
-
-ce1a46b2d6a8465a86f7a6f71beb4c6de83bce5c 09be5b1c923082d473a9fc52d6113eb0d9c08b4d refs/heads/asoc-6.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi4jqIACgkQJNaLcl1U
-h9DmYgf/fn/KsOW7M7JjBJEYadLBuODZfwrVhNk3mTdMx0hNoLsGk6O2123LEd7T
-AvPdBKyYaraLyFn74M1LwVv1r+yR6zydcD8xzD/UMHw2nDXTnfobfocl7ojdt0b+
-yJ5IESrAEEr40WEPCY0agWLz58rVcTi4Uhvwljbca3hwoSHWR5cylbR1zLqfgFDz
-su9K5sTa0QC7LHm3WGBvLIHETEJQNvGSPRMEpy62iW9T0E+gVwwak/8TESVQrXZ5
-u4/CYSKO5xySlfjhePCdbQFjr9SyWlmV2/qJeoNT2y1fTGU8DNxAkdsIqMueY2Qv
-GDlxtZnh8/ZFkwhlURainiQ+gUAPqw==
-=5ahy
------END PGP SIGNATURE-----
-
---===============2928876007949628534==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce1a46b2d6a8-09be5b1c9230.txt
+Content-Disposition: attachment; filename=revlist-0f0c3432ab67-b3b4502ed0c0.txt
 
 0e3448f069646a72698b6f4933baf43daf92a9c0 ASoC: Intel: avs: hda: Adjust platform name
 7fa2ebe9b7f4a865030e6ea9be33635b4c1b9224 ASoC: Intel: avs: da7219: Adjust platform name
@@ -69,5 +44,6 @@ b0e52296aa83bdbed0130ff89948bbb0ef1ee024 ASoC: Intel: avs: rt5663: Adjust platfo
 6c402acec635969f2a48ff642b84f2eac0054175 ASoC: Intel: avs: rt5682: Adjust platform name
 ce57b718006a069226b5e5d3afe7969acd59154e ASoC: Intel: avs: ssm4567: Adjust platform name
 09be5b1c923082d473a9fc52d6113eb0d9c08b4d ASoC: Intel: avs: Adjust platform names
+b3b4502ed0c0dc89ebf89c0066da1419127b112e Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
 
---===============2928876007949628534==--
+--===============2947121213159546300==--
