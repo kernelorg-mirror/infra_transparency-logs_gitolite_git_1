@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6463187201043772028=="
+Content-Type: multipart/mixed; boundary="===============9037933054994368335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 04 Sep 2025 16:11:53 -0000
-Message-Id: <175700231338.1944278.9753426025005515549@gitolite.kernel.org>
+Date: Thu, 04 Sep 2025 16:11:58 -0000
+Message-Id: <175700231882.1944453.14048644218656912160@gitolite.kernel.org>
 
---===============6463187201043772028==
+--===============9037933054994368335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 1d8f0059091e757973324ae76253c2c059e0810f
     new: c975e1dfcc929dbfde8abfa514494b66f0335006
     log: revlist-1d8f0059091e-c975e1dfcc92.txt
 
---===============6463187201043772028==
+--===============9037933054994368335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ cc621faa9ca9a5dcd56f5b4815e1d8c0e6eb88f9 Merge branch 'eth-fbnic-support-queue-a
 a50e7864ca44f519935cdb04796c714eb9d6670c net: dsa: dsa_loop: use int type to store negative error codes
 c975e1dfcc929dbfde8abfa514494b66f0335006 net/smc: Improve log message for devices w/o pnetid
 
---===============6463187201043772028==--
+--===============9037933054994368335==--
