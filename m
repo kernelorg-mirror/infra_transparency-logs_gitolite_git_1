@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 04 Sep 2025 16:19:06 -0000
-Message-Id: <175700274645.1949830.2805543567728064135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 04 Sep 2025 16:19:55 -0000
+Message-Id: <175700279597.1951076.7217228511235607893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 16ebf6c26de558f19ca4b677ab083fbe2e099ac9
-    new: 006c974955d0c852eb943ee29eccebbaf07af269
+  - ref: refs/heads/kdevops
+    old: 3c994290dfd22d6c6515753fe9f9237a5bd784ce
+    new: 889118a206508f0af6f9fef0bea2ea91c9a1b116
     log: |
-         006c974955d0c852eb943ee29eccebbaf07af269 Bluetooth: Fix build after header cleanup
+         cd4e817e0ff2f9317a82e7bcb3f474ea7aea116a nfsd: add notification handlers for dir events
+         889118a206508f0af6f9fef0bea2ea91c9a1b116 SQUASH: notify handlers
          
