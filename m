@@ -1,124 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1854121850703916480=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 04 Sep 2025 00:38:41 -0000
-Message-Id: <175694632199.679185.7182093305754386440@gitolite.kernel.org>
-
---===============1854121850703916480==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 04 Sep 2025 00:39:14 -0000
+Message-Id: <175694635489.680194.12673838477289609386@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/tags/v6.12.24-18
-    old: 2221c8174ad570378ae6ff38d0bf0b43048ce88d
-    new: c6d99223b66c7ca3bfb4de8746dd6883e9bae06d
-    log: revlist-2221c8174ad5-c6d99223b66c.txt
-
---===============1854121850703916480==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2221c8174ad5-c6d99223b66c.txt
-
-7d9b210be0c0b05315f8fd45a4f44e891ea90591 NFSD: add io_cache_read controls to debugfs interface
-131be438bc22a86616901d5e7d006a1b3d2902cc NFSD: add io_cache_write controls to debugfs interface
-15fb72f42fe8ac261a2ea4839e6a728a67f429a5 NFSD: issue READs using O_DIRECT even if IO is misaligned
-d905a9dd6311d0c934a78af8d0b585a42d91e377 NFSD: issue WRITEs using O_DIRECT even if IO is misaligned
-462ca42352a464ac78731c7621c32eacac21768d NFSD: add nfsd_analyze_read_dio and nfsd_analyze_write_dio trace events
-1ff9e04a16939f209bedf07a46f2ab860cf10c6b NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
-440f3a39a990a05c6c6ed1e74310134182d1ef2b NFSD: use /end/ of rq_pages for misaligned DIO READ's start_extra page
-e580462e304eabf337e60470d4c58bcef6ccbba9 Expand the type of nfs_fattr->valid
-8f443cc8ffb5b29a8e76ee777d1c0012662db9a1 nfs: Add timecreate to nfs inode
-1e08b8a8cd63334b25aa12f83f501a05392d45e3 NFS: Return the file btime in the statx results when appropriate
-1eaac5149e0d2a71e45d4fd3b4938018bf4b48ae nfs: use lock_two_nondirectories()
-203601a9c3c842cf1c3f430b7b095bd647b5da0d pnfs: add pnfs_ds_connect trace point
-bc495fcf274f04eda882180738fdc9a4f3f7ffc6 NFS: remove unused wpages field from struct nfs_server
-8551f69c3e936231f507fb331c9a2b98d1270abc NFS: remove unused time_delta field from struct nfs_server
-6c67a4436369dda512e6ca88cf5138bc8ff5c40f NFS: remove unused pnfs_ld_data field from struct nfs_server
-0909285fb92bdc928ec9490582e41186368aac1c nfs: add cache_validity to the nfs_inode_event tracepoints
-c1dba01c1834e9be4d4d161000de2ba7b2f908c4 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
-2768f0d960f39b0bed55a4eac4a2c42d39193c7d nfs: new tracepoint in nfs_delegation_need_return
-c2231dcd978f258e8f520d8f97003b4684c77b58 nfs: new tracepoint in match_stateid operation
-398b7cd451a9f7b8804cec92f883dbfd653ab98b NFS: Allow folio migration for the case of mode == MIGRATE_SYNC
-fb9edb3e8ef10e0eebbf85ff505afd7dadff5664 NFS: support the kernel keyring for TLS
-82d590cdc6817b66b70662c275763fed7d988752 nfs: create a kernel keyring
-4c28633fa8302c8b2bf528c8c57d01d6a82e6234 SUNRPC: Remove unused xdr functions
-cebc2e4424395dfbc7dfdaac6359f68e3a614784 NFS: Remove unused function nfs_umount
-b961c4f2042c0be6094fc097b35e033b50c42130 pNFS: Fix uninited ptr deref in block/scsi layout
-a6c2178ed3b8cd68e90849174e467187e3272221 pNFS: Fix extent encoding in block/scsi layout
-674679bab5ab0905623498f40135bb4d158d2d59 pNFS: Add prepare commit trace to block/scsi layout
-55fbb9ba0c8c39a2718992ad61dac6c669a047c7 pNFS: Handle RPC size limit for layoutcommits
-85c12526adadd052255e86e042a7df31fa52503f pNFS: Fix stripe mapping in block/scsi layout
-630d9cff1923cd619365b77bd1f64022df3e72ff pNFS: Fix disk addr range check in block/scsi layout
-237949284c23420fd902e99a9133c84868238ec2 NFS: pass struct nfs_client_initdata to nfs4_set_client
-b1a3f4b856b6bc99506404f6b2a09c1f50b82daf NFS: drop __exit from nfs_exit_keyring
-0aa87dd7f0180d1d3064cd2fbb058390973e7fd8 pNFS/flexfiles: don't attempt pnfs on fatal DS errors
-74209ff44599b5b6321938fe2ba7754b87324e50 NFS: cleanup error handling in nfs4_server_common_setup
-cf455b80444ec42ab79d0150ffa6363c19c951b8 NFS: cleanup nfs_inode_reclaim_delegation
-08aa628c27910d0a2d7e1a0ea12e83aef95b580c NFS: move the delegation_watermark module parameter
-e5fb9f73378ca05a44a1fd46d768348d1f4d884e NFS: track active delegations per-server
-498ffaf8d6d0b2570d67db13d74e98c1af29778d NFS: use a hash table for delegation lookup
-e569e0bba32a30bd60112dc11e0b5937328995f5 NFS: Fix wakeup of __nfs_lookup_revalidate() in unblock_revalidate()
-b6d35aa336d17f73d04ef51d310523597d301135 NFS: Clean up pnfs_put_layout_hdr()/pnfs_destroy_layout_final()
-f3bf76efdb8b6555cf544077c5da87538aa869a3 SUNRPC: Silence warnings about parameters not being described
-5cbfb750f757cc7ddd9eead06b394a975822c2fb NFS: Fix filehandle bounds checking in nfs_fh_to_dentry()
-f7ac7a337d9834d5a3d9f6b478d28447f0628ed4 NFSv4.2: another fix for listxattr
-be3140fc6be868aa5bb98ba3677af6dee0efe8e5 NFS: Fixup allocation flags for nfsiod's __GFP_NORETRY
-d62554e452928865704724ae8a768c648314b59a nfs/localio: use read_seqbegin() rather than read_seqbegin_or_lock()
-de0b7863f663fa195fb8a95236df71ddb7fdc1eb sunrpc: fix client side handling of tls alerts
-4c035da3713c0877e1a2bdb569377fa7d294aeef NFS: Fix the setting of capabilities when automounting a new filesystem
-a3b6c2bfcb9e6cbc1605a78fcc4ff4e2c3d851a1 NFSv4: Remove duplicate lookups, capability probes and fsinfo calls
-dc20182a1e6eef737a523216a5d9ac651446ced2 NFS/localio: nfs_close_local_fh() fix check for file closed
-2b72cda7727ca1ac9ba84decd6fd7d471cf60b7d NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
-eb51ff5b83935717aa4572442112b07ed28eac6b NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
-ce9058c0cddd372180f8965b6a7e847b90ba7697 NFS: Fix a race when updating an existing write
-b48172a3ea12751f9fed2ac8896d307b95395df4 NFSv4: Don't clear capabilities that won't be reset
-a5e437d42b5a1e4d794d2818b3756fbb8f06ae75 NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
-cb966a59318abc28420fdf7663581e43545ef4d3 NFSv4: Clear NFS_CAP_OPEN_XOR and NFS_CAP_DELEGTIME if not supported
-d01c08cb4c5f8e91ab7e9dddf45ca561f8b1534d NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
-f5b9789bc1649061deacd40f36923a483f6757a6 nfs/localio: restore creds before releasing pageio data
-12bdc78b005e9d9f2ed3402fda0eac2323fccdc5 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
-68aa70d711894e64fb14fa92afe8ca4971c8bd2d nfs/localio: make trace_nfs_local_open_fh more useful
-19c36439dbb5006e69f2ee87bb199ec8690e972e nfs/localio: avoid issuing misaligned IO using O_DIRECT
-1ecba05722a61156ec0d8200c0de7dcd6147d63c nfs/localio: refactor iocb and iov_iter_bvec initialization
-c6b5cec2a6f79b4bdfcf20ea0e7236b56ebe2642 nfs/localio: refactor iocb initialization
-d0f26071575c47d516dea0858384b709856b47dc nfs/direct: add misaligned READ handling
-12a785810a928cbdb7e90b45452ed0baf9c9bd5c nfs/direct: add misaligned WRITE handling
-55ee0ff2b82669759e2c58dcfa50d415748c9c2f nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
-550b57a1ca221b3586183cc61636e1a86fec31fe NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
-af479539642a1cb382992cf3edaab8960230222a Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
-770640362cdbafd561d58a9a71df74489a5d8b98 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
-7f535757be6ffa42615a0213234c8682250bc159 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
-bb335813c69b50aa2e28eafccb8f6e0fae19b67a Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
-b58413fa9afc5fad9f0c11018166072ef4d40b9b Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
-911c9113814925ec0e2bdcee93fc5c551a716d2b Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
-f2fe82a40999ac0d17f004ed640661ed1a9d588b Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
-7e2178ac42fe1cda1eccc7c336e7a7311b9117fa Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
-b981e87aa123f8bc5d0ecfcc3453a6b275907ae1 Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
-c455ffd761f9bbc314cde6c857d75eb566d57a45 Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
-0c7a17de4708eec29a68815235d424799fb7d6ad kernel-6.12.24-1
-4cf84414372c8edb9a6c796c5f107e19faa5b2cd kernel-6.12.24-2
-c9b70a11f455a608179d96d40af2c5a597a58b4e kernel-6.12.24-3
-20301f96eea9d8753725eaba403a25f895f0b5d5 kernel-6.12.24-4
-32f4f08f87fa68d6f6c699248472375ff49eae21 kernel-6.12.24-5
-0e54fc805b3c8787d259f5ca981c22bf00062055 kernel-6.12.24-6
-93d530370c8b1607771755f5b6304273d017f24d kernel-6.12.24-7
-a943bb7dbd37636532a2b7c654fcd4b4e40107c3 kernel-6.12.24-8
-492590ba6df8bc298aee52848149cddb787149b5 kernel-6.12.24-9
-b85c770d7a2112d86dd66879a8bb2a71f1992b6b kernel-6.12.24-10
-6e61e78029a3a6f535278aa3e3480cf23ce2563c kernel-6.12.24-11
-7e4e76ba42c4485d36c4d9629856c0425fab0349 kernel-6.12.24-12
-eff7edfd7915e46fb037e9ab535a8f1c98b06d44 kernel-6.12.24-13
-9e3d0acf0f653940600665323acaf816bed393b2 kernel-6.12.24-14
-dd7b1dda424c9ead9698cfbf7b8dc071abc5eb4e kernel-6.12.24-15
-4077b514e9ead179ed5467a21baafde9387f74f9 kernel-6.12.24-16
-127a624580823c692f886b53a28873bfcb51b643 kernel-6.12.24-17
-c6d99223b66c7ca3bfb4de8746dd6883e9bae06d kernel-6.12.24-18
-
---===============1854121850703916480==--
+  - ref: refs/heads/master
+    old: d6acda3d2e3992dbbb51e6ce2ba5d69e5ef85570
+    new: d4b1dce71cf9fa0f0ba1f53286315a3ebb2147dd
+    log: |
+         224a7cc318423362f412aa826e4428c0c538ef71 sprandom: setup SPRandom before total_io_size is computed
+         36759728ecabb0b59c0d480af080f8f485e5f460 sprandom: fix debug printout for offset
+         226a6e3d90ce65c74f3564acf1b522c59a4ff5dc sprandom: free invalid_pct buffer
+         8c8e7050ccd96a9afa3f92b7b3ab03d1c7ef8fc1 sprandom: drop validity_dist after use
+         d4b1dce71cf9fa0f0ba1f53286315a3ebb2147dd Merge branch 'sprandom-fixes' of https://github.com/tomas-winkler-sndk/fio
+         
