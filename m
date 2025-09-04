@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 04 Sep 2025 04:04:03 -0000
-Message-Id: <175695864344.853031.12528993189992560638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 04 Sep 2025 04:50:09 -0000
+Message-Id: <175696140906.891101.4818203112256756678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: b9a10f876409bf3768178f4aded199e193ddbe33
-    new: 08b06c30a44555a8b1d14950e4462a52bfa0758b
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 592532a77b736b5153e0c2e4c74aa50af0a352ab
+    new: 3e681899cc6e6c77eca55dd8c7cc57b27868e8a2
     log: |
-         b5ee94ac651aa42612095c4a75ff7f5c47cd9315 ksmbd: allow a filename to contain colons on SMB3.1.1 posix extensions
-         08b06c30a44555a8b1d14950e4462a52bfa0758b Merge tag 'v6.17-rc4-ksmbd-fix' of git://git.samba.org/ksmbd
+         3e681899cc6e6c77eca55dd8c7cc57b27868e8a2 cpufreq: mediatek: avoid redundant conditions
          
