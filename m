@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 04 Sep 2025 18:31:09 -0000
-Message-Id: <175701066973.2073141.2399668548544029908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 04 Sep 2025 18:32:10 -0000
+Message-Id: <175701073092.2073698.3013529153649318436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/asoc-6.17
-    old: 9004a450fccbeb40a71cc173747da37a459fd4dc
-    new: bfa4d097f24e416b59a2d6146b29079928afbfea
+  - ref: refs/heads/dt/next
+    old: 9756ff114601f426521528469cb29dfc3837c466
+    new: cce65107897d699c78373b88f3fe94602f194d0e
     log: |
-         f81e63047600d023cbfda372b6de8f2821ff6839 ASoC: SDCA: Fix return value in sdca_regmap_mbq_size()
-         16c912ec34edc4d7daecde58e40d480858830a12 ASoC: SDCA: Fix return value in detected_mode_handler()
-         ec630c2c8ce215dd365b8c3644f004f645714a0f ASoC: SDCA: Reorder members of hide struct to remove holes
-         bfa4d097f24e416b59a2d6146b29079928afbfea More minor SDCA bug fixes
+         cce65107897d699c78373b88f3fe94602f194d0e dt-bindings: gpu: Convert aspeed,ast2400-gfx to DT schema
          
