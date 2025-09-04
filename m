@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7561053566455304439=="
+Content-Type: multipart/mixed; boundary="===============7613643991350704201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 04 Sep 2025 15:13:31 -0000
-Message-Id: <175699881160.1887590.13991716714401181942@gitolite.kernel.org>
+Date: Thu, 04 Sep 2025 15:14:09 -0000
+Message-Id: <175699884965.1888190.17578511444760176163@gitolite.kernel.org>
 
---===============7561053566455304439==
+--===============7613643991350704201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.18/sheaves
-    old: a48d52b2d21b6626a7d0fd210f7ad0b4fae80197
-    new: 258dbaffa918307ffe47fc1885257c6938ff0557
-    log: revlist-a48d52b2d21b-258dbaffa918.txt
+  - ref: refs/heads/slab/for-next
+    old: 55377e68b4d02685395793e4b2193a43bc633850
+    new: ac8e2b08d46ba828bb09c6deb2f68b3144aaa007
+    log: revlist-55377e68b4d0-ac8e2b08d46b.txt
 
---===============7561053566455304439==
+--===============7613643991350704201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1756998855 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1756998896 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1756998804-e4b99e17f8ebb9f9dd7ef4b069e0833c34e94c8f
+nonce 1756998845-7a0fdcf5e1599db5826a9df155968848c729bb7d
 
-a48d52b2d21b6626a7d0fd210f7ad0b4fae80197 258dbaffa918307ffe47fc1885257c6938ff0557 refs/heads/slab/for-6.18/sheaves
+55377e68b4d02685395793e4b2193a43bc633850 ac8e2b08d46ba828bb09c6deb2f68b3144aaa007 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmi5rMcbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaOAkH/jJiUJ4Oltk5pEwWZLiy
-Dk0EOBDDBthBpJnRti06Zzx3w5ea7D4YetwelJBJgsUz/4qNialKwx0E2XtGWUPw
-NLZv3Tc1au4/V+w2QinnZCWL1Jk0kvXXSDkdiaCxJOhF5JsgRJvlk4eCtvoNp1wA
-Dl+GeS1ZGyDY2H5kSHdV8KQZRxNCQEt4ndO0RD2enoEGenoTvSa4+oqG+ahHKnzU
-vfUFxJLIOYoPGa7tRHfHvQ0lwQF42n4dQMMBxoW+WdrPVspuvqpV450Ub9yI4Vnn
-VnkFW6wp/WTePcM+PUFacMWjkwPFGnSgQ0Vc82LbT3trxb97jt2gOs6ePXMD2ONI
-Udc=
-=8yFK
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmi5rPAbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaMvcIAJ6hFkdPWjwIHjtsQ1TB
+cOHImgZwomZW7x7szvei7dQw+6JCCObBTO0Nf5nG3f1KjXsWyaEQAhhypneKh6pW
+YWiIv4b1JrKKXSB0YNgwj7inBpNsKERu/hK2Ps2Wo4E/jqBDuh5jUUQ3rsubaUvt
+PKFeYBUOsWbUU70arp6h+3MQ54BA/GxuUbhMa2AUjyGl0XPrDs2JZVkn0//ELAq9
+VkTnv+ZK9QQerzZ1aL+TQYjjIwIRwa5FfpYCqmZt86OTwy1w1oO0Xaxb/wsH5tW3
+zv3Qb2DfAXWTII7Dai8dW9j6eIVlN+FOJA86aLKiX4KqQGsBDWuT6FnQQTB3AdTC
+u1E=
+=MXK6
 -----END PGP SIGNATURE-----
 
---===============7561053566455304439==
+--===============7613643991350704201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a48d52b2d21b-258dbaffa918.txt
+Content-Disposition: attachment; filename=revlist-55377e68b4d0-ac8e2b08d46b.txt
 
 2d54f6656a302ae99c7766f665c4e8c43267865d maple_tree: remove redundant __GFP_NOWARN
 b4c58c7ac70cf49794c942e99bef0f8f6bdb7bf4 tools/testing/vma: clean up stubs in vma_internal.h
@@ -67,5 +67,6 @@ c460342607d07485792410b3bf9d0cd9a251ce2d maple_tree: Replace mt_free_one() with 
 76f46d627ba7a236558cf824f98ed3a2a941abb1 maple_tree: Prefilled sheaf conversion and testing
 0716d82aa38d156d72c4bf4b3c3e05163997a598 maple_tree: Add single node allocation support to maple state
 258dbaffa918307ffe47fc1885257c6938ff0557 maple_tree: Convert forking to use the sheaf interface
+ac8e2b08d46ba828bb09c6deb2f68b3144aaa007 Merge branch 'slab/for-6.18/sheaves' into slab/for-next
 
---===============7561053566455304439==--
+--===============7613643991350704201==--
