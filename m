@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 04 Sep 2025 08:36:56 -0000
-Message-Id: <175697501654.1082511.9295970616806307394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
+Date: Thu, 04 Sep 2025 08:45:45 -0000
+Message-Id: <175697554539.1090527.16067968661190363233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/alexghiti/linux
+user: alexghiti
 changes:
-  - ref: refs/heads/stm32-next
-    old: b396ebce4b1064c4bd61924f546992b1824921ac
-    new: cfd856da6cf561f7e1dc6b16f3453814cde1058e
+  - ref: refs/heads/alex-fixes
+    old: 1fa00f3deacafe202eba6887deba74ea6402c883
+    new: 55ff00f94905a159cdb94841c1873acc8a37f15f
     log: |
-         9ed9bf8666b6aa4d02066f13f0f34ad96250f39f dt-binding: can: m_can: add optional resets property
-         cfd856da6cf561f7e1dc6b16f3453814cde1058e ARM: dts: stm32: add resets property to m_can nodes in the stm32mp153
+         c8f0866b9186d88d72804fd08a423d1291b8a4ca riscv: Fix sparse warning in __get_user_error()
+         bce1883b9adbd7007123962964302c8fc84e34f0 riscv: Fix sparse warning about different address spaces
+         9be00dcbba1e940900a78b1c6de572a0ea17db76 riscv: hwprobe: Fix stale vDSO data for late-initialized keys at boot
+         55ff00f94905a159cdb94841c1873acc8a37f15f riscv: Do not handle break traps from kernel as nmi
          
