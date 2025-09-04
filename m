@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4394501124499957303=="
+Content-Type: multipart/mixed; boundary="===============6523437459460494186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 04 Sep 2025 13:22:11 -0000
-Message-Id: <175699213107.1532307.10704316698948910968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 04 Sep 2025 13:26:03 -0000
+Message-Id: <175699236374.1536540.8756006135520342842@gitolite.kernel.org>
 
---===============4394501124499957303==
+--===============6523437459460494186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: ee1cb9b0e6a80c4f9011e7a9f87e3942a65e6f16
-    new: f490253809c8dab4af62e787f5a3ac3d22aa869c
+  - ref: refs/heads/master
+    old: a778d0259c6f9b9bbf4b0fa08eb9249781ffcb70
+    new: 45781ff103c7b66330bda1dcdc537725d76469aa
     log: |
-         c778f7ac13d5e94db821cf8e1078aa318cc15460 platform/x86: think-lmi: Add certificate GUID structure
-         07b93b747cb713478991388b3d55c3ce9267e037 platform/x86: think-lmi: Certificate support for ThinkCenter
-         a0d6959c345d89d811288a718e3f6b145dcadc8c platform/x86: think-lmi: Add extra TC BIOS error messages
-         a191224186ec16a4cb1775b2a647ea91f5c139e1 platform/x86/intel-uncore-freq: Present unique domain ID per package
-         f490253809c8dab4af62e787f5a3ac3d22aa869c platform/x86/amd/pmf: Remove redundant ternary operators
+         45781ff103c7b66330bda1dcdc537725d76469aa Linux 6.1.150
          
 
---===============4394501124499957303==
+--===============6523437459460494186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1756992176 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1756992126-50f0f46af70a03f76d772dfb2254e8c3fb183d6f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756992413 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1756992361-5acc7fa8d17d2cde53ad04d0d6e455a907a4bee4
 
-ee1cb9b0e6a80c4f9011e7a9f87e3942a65e6f16 f490253809c8dab4af62e787f5a3ac3d22aa869c refs/heads/review-ilpo-next
+a778d0259c6f9b9bbf4b0fa08eb9249781ffcb70 45781ff103c7b66330bda1dcdc537725d76469aa refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaLmStAAKCRBZrE9hU+XO
-MfVMAP9VfRVuDbCUvA4lOMpgcc4+BTiirJo0kW4ATrEHmTkIvgD/UiRIdVwXbi2j
-gwL29HgdSwpYQADpuRP+wvX5zELGmgQ=
-=b91u
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi5k50bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0LkP/iTGBVAkO4ljPbkYZ3VX
+gzRsDB5ELrcsw007aldPOKbd5k8gYnD2NgRZuCpuAu98w7CuI7ZIrSgdcKi2Jrtt
+hZ0m4smc4HSQPcu5Ownv4tHJuo+oUb0aiMNuHM8mGyul50e2B2nv/IMSryEuOoDK
+VsjLfwY9M4Lgkm0bn7Jukv8Q0V7CuqEGm0Tusjmb+jLu2zgpGvdCIc5xFIRV4rS7
+qG5ZoXgRtprt9pj9FdU+OBWbxdH967K5cbZGakjGQ8zWfx92FmQ+Wjkx7Rs+YPuk
+OGKkNk710vWmL6YfppKKRJNl/LgsHBs88WFPF6XqQPS+L7WGWzWVojpEnp6n67YU
+nBWz1/VVp7FlmRiAKvxwFODcZMHQlkU52RDTuH/e1CnQC5zHxXq3mqR/tLPzxtvd
+6ejcZJlPs992U4ork43CylSkMyQPyP4FGVmpNO3LBIoT0yAXV4GJsJCViRYlz8Hi
+pXQNGXmU1KjKVi49M10LGrIrlWSPetA0orS8FquLytIawL/SFmNhtViPJnYuAmq3
+hPhJsMcKfRuhLQ13lOZUpmBkKN3LoryLAOopvbnsv7b/H31BnCsxcFG903ULra5Z
+7l5SaH928waIPkKPyD14R/6XORO5gSg60ht1F0jSmkMZkKqrmWWY7EB5RKgpH8hU
+HEw+8ashlrQG5dEyuDiR+fwL
+=TgcM
 -----END PGP SIGNATURE-----
 
---===============4394501124499957303==--
+--===============6523437459460494186==--
