@@ -1,34 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 04 Sep 2025 19:57:15 -0000
-Message-Id: <175701583564.2183912.12356726867507092924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 04 Sep 2025 19:58:31 -0000
+Message-Id: <175701591140.2184480.10692262049670075506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/devel
-    old: 57810fd8312bcbef7cb5f38f7ab0d1703f26e9c4
-    new: 578c9ce6071995e1c2e7ec3ecd2fd2f5498a1dbc
+  - ref: refs/heads/x86/core
+    old: 894af4a1cde61c3401f237184fb770f72ff12df8
+    new: 4a1e02b15ac174c3c6d5e358e67c4ba980e7b336
     log: |
-         ba1d0db3977f0500199aa5dd37e40f2fedccf130 dt-bindings: pinctrl: Add support for Broadcom STB pin controller
-         7c4e19320a31362be6714add83b7df107283e8cc pinctrl: bcm: Add STB family pin controller driver
-         0d799afd85062cdac9594f03247085afdc497109 pinctrl: eswin: Fix regulator error check and Kconfig dependency
-         38793b41226e3e51f600a32d9383e663b2568c3a pinctrl: spacemit: fix typo in PRI_TDI pin name
-         578c9ce6071995e1c2e7ec3ecd2fd2f5498a1dbc pinctrl: keembay: fix double free in keembay_build_functions()
-         
-  - ref: refs/heads/for-next
-    old: 154f61c6bf256e591d56402b5023c9f9a5e6f3e5
-    new: 97766392ec96bdd8ef0b64bf94025d680298fa4a
-    log: |
-         ba1d0db3977f0500199aa5dd37e40f2fedccf130 dt-bindings: pinctrl: Add support for Broadcom STB pin controller
-         7c4e19320a31362be6714add83b7df107283e8cc pinctrl: bcm: Add STB family pin controller driver
-         0d799afd85062cdac9594f03247085afdc497109 pinctrl: eswin: Fix regulator error check and Kconfig dependency
-         38793b41226e3e51f600a32d9383e663b2568c3a pinctrl: spacemit: fix typo in PRI_TDI pin name
-         578c9ce6071995e1c2e7ec3ecd2fd2f5498a1dbc pinctrl: keembay: fix double free in keembay_build_functions()
-         97766392ec96bdd8ef0b64bf94025d680298fa4a Merge branch 'devel' into for-next
+         038c7dc66e2744e5df57163b8f957745ae10d23e compiler_types.h: Move __nocfi out of compiler-specific header
+         628a15e0536abb7658cd243553312d3f65c0aff2 x86/traps: Clarify KCFI instruction layout
+         24452d9ef17502965021ce5df30f4e184245a5ac x86/cfi: Document the "cfi=" bootparam options
+         9f303a35d1df27cdc7b895b077985b0e1c4473c2 x86/cfi: Standardize on common "CFI:" prefix for CFI reports
+         026211c40b055485b4c65c10d644a92864623225 x86/cfi: Add "debug" option to "cfi=" bootparam
+         0b815825b1b0bd6762ca028e9b6631b002efb7ca x86/cfi: Remove __noinitretpoline and __noretpoline
+         85a2d4a890dce3cfc9c14aa91afc3dd7af8e3bf5 x86,ibt: Use UDB instead of 0xEA
+         4a1e02b15ac174c3c6d5e358e67c4ba980e7b336 x86,retpoline: Optimize patch_retpoline()
          
