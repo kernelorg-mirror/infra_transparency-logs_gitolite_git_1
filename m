@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 04 Sep 2025 20:17:42 -0000
-Message-Id: <175701706221.2200731.1357728954058154473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Thu, 04 Sep 2025 20:26:51 -0000
+Message-Id: <175701761168.2209731.14420349535173693952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 29279d022563979e514f9c143a7225fafa1e9928
-    new: 2f694dfac7e6710e7578184c63a25b0bd4844a17
+  - ref: refs/heads/for-6.18
+    old: a08b4dcad9fae495bcd88b91fb3410abf77d268e
+    new: 47d9f8212826753c482df8189d18ca212eb5ae73
     log: |
-         98ea89792aab43b75e2161d80ea21c687cb0b07c driver core: faux: Set power.no_pm for faux devices
-         91b67ef43533d5e5b4a1af9f31ebdf6f3693ac58 driver core/PM: Set power.no_callbacks along with power.no_pm
-         597f21cc8c759b715a7d1e5cc8ce87e8abd65d1c Merge branch 'pm-core' into bleeding-edge
-         0115d063559fa6d25e41751cf455dda40aa2c856 thermal: intel: selftests: workload_hint: Mask unsupported types
-         2f694dfac7e6710e7578184c63a25b0bd4844a17 Merge branch 'thermal-intel' into bleeding-edge
+         47d9f8212826753c482df8189d18ca212eb5ae73 sched_ext: Fix NULL dereference in scx_bpf_cpu_rq() warning
+         
+  - ref: refs/heads/for-next
+    old: d3a4226c4844ba3690e24780a3167cabd625f21e
+    new: 88485afa2d146ff6fc4fed8ca47f64ff5e63ca1f
+    log: |
+         0c326c8f8b0fab736321bf2ca405c6140352d372 sched_ext: Exit early on hotplug events during attach
+         47d9f8212826753c482df8189d18ca212eb5ae73 sched_ext: Fix NULL dereference in scx_bpf_cpu_rq() warning
+         88485afa2d146ff6fc4fed8ca47f64ff5e63ca1f Merge branch 'for-6.18' into for-next
          
