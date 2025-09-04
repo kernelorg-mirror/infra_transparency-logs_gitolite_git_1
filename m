@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9199140185486981828=="
+Content-Type: multipart/mixed; boundary="===============0362772709134445798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 04 Sep 2025 16:02:01 -0000
-Message-Id: <175700172141.1933614.15837728067835757673@gitolite.kernel.org>
+Date: Thu, 04 Sep 2025 16:02:04 -0000
+Message-Id: <175700172400.1933697.5340519107951426189@gitolite.kernel.org>
 
---===============9199140185486981828==
+--===============0362772709134445798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f63e7c8a83892781f6ceb55566f9497639c44555
     new: 9b2bfdbf43adb9929c5ddcdd96efedbf1c88cf53
     log: revlist-f63e7c8a8389-9b2bfdbf43ad.txt
 
---===============9199140185486981828==
+--===============0362772709134445798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ b1ab3b029ff137f124c547452d0795e9de20ca63 gve: update MAINTAINERS
 fd2004d82d8d8faa94879e3de3096c8511728637 selftest: net: Fix weird setsockopt() in bind_bhash.c.
 9b2bfdbf43adb9929c5ddcdd96efedbf1c88cf53 phy: mscc: Stop taking ts_lock for tx_queue and use its own lock
 
---===============9199140185486981828==--
+--===============0362772709134445798==--
