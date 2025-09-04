@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8312012989938171305=="
+Content-Type: multipart/mixed; boundary="===============1714143075737879603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 04 Sep 2025 16:22:38 -0000
-Message-Id: <175700295880.1954772.11022312614855689110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 04 Sep 2025 16:28:37 -0000
+Message-Id: <175700331785.1959713.15484313699571114157@gitolite.kernel.org>
 
---===============8312012989938171305==
+--===============1714143075737879603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b62bd148650bfb25709ae2747265a35096cfc09f
-    new: 7ed0da99431fceec8c9497d26e6387db443457e4
+    old: e8a3192d295094087e09f623595c8309b2eac915
+    new: 1d96db854e0fcc2b227d1044431c5708bd02563a
     log: |
-         7ed0da99431fceec8c9497d26e6387db443457e4 drop queue-6.12/drm-amdgpu-fix-task-hang-from-failed-job-submission-during-process-kill.patch
+         1d96db854e0fcc2b227d1044431c5708bd02563a Update 352FE6582ED9B5DA (Niklas Cassel)
          
 
---===============8312012989938171305==
+--===============1714143075737879603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757003005 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1757002954-1ecce06bac3a8f7cf227f6a6cf9a12d5a1aec776
+pusher B6C41CE35664996C! 1757003367 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1757003316-ed238f0c043b98b323b296a315159998f0200a82
 
-b62bd148650bfb25709ae2747265a35096cfc09f 7ed0da99431fceec8c9497d26e6387db443457e4 refs/heads/master
+e8a3192d295094087e09f623595c8309b2eac915 1d96db854e0fcc2b227d1044431c5708bd02563a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi5vP0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gSwQAKvXE70KPDhALRJVUz8s
-Zg1kEC6OmFD3oZh1uTyY5FablpC/E59jOefM/C66RJElyuCoJ/e09lLwK5UzvqBz
-y8m6frHihkyYWkqAkcNDQuO46mAyGmMwDHCxlZ9Sc9u3rJL6d36CAuAOtrNrhtwC
-ttodXp5iD7Cdb2Drq0HThDM55Ln2JPjww4Uq+nGxUh6TKsc55v6jkCT/P69egTs7
-45uQgL4AXntyeHFjl3x+VMqPuea6hUVOXdjNRXqLHvuLsQ1VVyc5iRYF8zcMMrAH
-Y3xZPYAWZrfNRGfeuDjuiw2ynNeTxRJYddi+xtbPPvB/KE5g0HMW0ij7m9ek47Il
-io1bRBbFFUiD4RoWKI0wnSvxJIbLe115zO7te6c/tVM1CElBBsAEr5iEOzc3ypiV
-uY/9IZKeBAqRroUzHt6Hkj+0tOR4Vs/u49bKxsNWSfbThav95zwuUAk4JvpM2cgy
-sHaD9k8SBlQpu043xeZVJeVyDDRzruG10s+f4wanaAFXTGjBY1KaEXuyaLTW/1Oc
-e4KtcocFEOs4oiFahyRmVl7r9p9LAvJYQJQpHoULgGpX0567YMFHjEMLUkLfErGg
-mk7d3HdqId0RuxGWZjYtc+JjsqyZykvhCit7HwpwB57TQDS7CqdfC3zk3XzLdXKT
-mx75K+uPxiyE1Vi9RNCxkwfN
-=dJrZ
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaLm+ZwAKCRC2xBzjVmSZ
+bIScAP9vG3fbkDzxSEzDV8xO0tPTBSotBdoQpyh+OwPGYYTmlAEAspBKbHIddFD+
+QK46SWpL3ZI67MZgfF7Zs9SwA5EtoAI=
+=Hlo0
 -----END PGP SIGNATURE-----
 
---===============8312012989938171305==--
+--===============1714143075737879603==--
