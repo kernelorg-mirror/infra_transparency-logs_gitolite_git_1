@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============0157521197380122414=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 04 Sep 2025 03:51:45 -0000
-Message-Id: <175695790529.843923.6101391200335594455@gitolite.kernel.org>
-
---===============0157521197380122414==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 04 Sep 2025 04:04:03 -0000
+Message-Id: <175695864344.853031.12528993189992560638@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next/execve
-    old: a728ce8ffbd27954fdb2826dcc15a6576e574b83
-    new: 8c94db0ae97c72c253a615f990bd466b456e94f6
+  - ref: refs/heads/master
+    old: b9a10f876409bf3768178f4aded199e193ddbe33
+    new: 08b06c30a44555a8b1d14950e4462a52bfa0758b
     log: |
-         8c94db0ae97c72c253a615f990bd466b456e94f6 binfmt_elf: preserve original ELF e_flags for core dumps
+         b5ee94ac651aa42612095c4a75ff7f5c47cd9315 ksmbd: allow a filename to contain colons on SMB3.1.1 posix extensions
+         08b06c30a44555a8b1d14950e4462a52bfa0758b Merge tag 'v6.17-rc4-ksmbd-fix' of git://git.samba.org/ksmbd
          
-
---===============0157521197380122414==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1756957954 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1756957891-85ae14879fab9f60b357f01eac8c4c01995830d8
-
-a728ce8ffbd27954fdb2826dcc15a6576e574b83 8c94db0ae97c72c253a615f990bd466b456e94f6 refs/heads/for-next/execve
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaLkNAgAKCRA2KwveOeQk
-u5LvAP9sgt6kkUMIeNfUZv/DQvMWoxNZdfVMxIV5HuV98AQwHwEA3zccx4huNSCX
-QKaqvOaHRfT+d0S4MsbVsy7R7kxvvgw=
-=0I7Z
------END PGP SIGNATURE-----
-
---===============0157521197380122414==--
