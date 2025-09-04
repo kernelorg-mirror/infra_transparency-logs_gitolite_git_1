@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 04 Sep 2025 15:59:47 -0000
-Message-Id: <175700158726.1930182.4976427600047098721@gitolite.kernel.org>
+Date: Thu, 04 Sep 2025 16:00:31 -0000
+Message-Id: <175700163164.1932338.4492759505094582031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,9 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: c9110e6f7237f4a314e2b87b75a8a158b9877a7b
-    new: 525ac69b1eba2d6088339187ddb8e16e96dca638
+    old: 525ac69b1eba2d6088339187ddb8e16e96dca638
+    new: abc8a952d4aa1cdb72e90df280d1fe6fc50ed631
     log: |
-         8bad31edf5490a38dc26163502cd7005a033ee05 selftests/bpf: move get_ksyms and get_addrs to trace_helpers.c
-         adf6b57ce46ce685a65d54397c4389df754b6a99 selftests/bpf: skip recursive functions for kprobe_multi
-         a85d888768ea0e024dcc9d5fb172e7be8fd7d631 selftests/bpf: add benchmark testing for kprobe-multi-all
-         525ac69b1eba2d6088339187ddb8e16e96dca638 Merge branch 'selftests-bpf-benchmark-all-symbols-for-kprobe-multi'
+         19559e8441843bb36ecc78bb8d5cf82d500352fd bpf: add bpf_strcasecmp kfunc
+         abc8a952d4aa1cdb72e90df280d1fe6fc50ed631 selftests/bpf: Test kfunc bpf_strcasecmp
          
