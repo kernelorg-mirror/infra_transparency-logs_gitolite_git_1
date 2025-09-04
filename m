@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5399158568396494499=="
+Content-Type: multipart/mixed; boundary="===============4810195307118559860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 04 Sep 2025 00:38:33 -0000
-Message-Id: <175694631387.678818.8933861397418489260@gitolite.kernel.org>
+Date: Thu, 04 Sep 2025 00:38:36 -0000
+Message-Id: <175694631662.678956.11065742240590542149@gitolite.kernel.org>
 
---===============5399158568396494499==
+--===============4810195307118559860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: 87d24ef1a95077f61db8b1ff9669df9e0fc8b8af
-    new: d01c08cb4c5f8e91ab7e9dddf45ca561f8b1534d
-    log: revlist-87d24ef1a950-d01c08cb4c5f.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: a444096e25770170b6fcde828c3cb1a78f3aeffe
+    new: 550b57a1ca221b3586183cc61636e1a86fec31fe
+    log: revlist-a444096e2577-550b57a1ca22.txt
 
---===============5399158568396494499==
+--===============4810195307118559860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87d24ef1a950-d01c08cb4c5f.txt
+Content-Disposition: attachment; filename=revlist-a444096e2577-550b57a1ca22.txt
 
 7d9b210be0c0b05315f8fd45a4f44e891ea90591 NFSD: add io_cache_read controls to debugfs interface
 131be438bc22a86616901d5e7d006a1b3d2902cc NFSD: add io_cache_write controls to debugfs interface
@@ -82,5 +82,15 @@ b48172a3ea12751f9fed2ac8896d307b95395df4 NFSv4: Don't clear capabilities that wo
 a5e437d42b5a1e4d794d2818b3756fbb8f06ae75 NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
 cb966a59318abc28420fdf7663581e43545ef4d3 NFSv4: Clear NFS_CAP_OPEN_XOR and NFS_CAP_DELEGTIME if not supported
 d01c08cb4c5f8e91ab7e9dddf45ca561f8b1534d NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
+f5b9789bc1649061deacd40f36923a483f6757a6 nfs/localio: restore creds before releasing pageio data
+12bdc78b005e9d9f2ed3402fda0eac2323fccdc5 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+68aa70d711894e64fb14fa92afe8ca4971c8bd2d nfs/localio: make trace_nfs_local_open_fh more useful
+19c36439dbb5006e69f2ee87bb199ec8690e972e nfs/localio: avoid issuing misaligned IO using O_DIRECT
+1ecba05722a61156ec0d8200c0de7dcd6147d63c nfs/localio: refactor iocb and iov_iter_bvec initialization
+c6b5cec2a6f79b4bdfcf20ea0e7236b56ebe2642 nfs/localio: refactor iocb initialization
+d0f26071575c47d516dea0858384b709856b47dc nfs/direct: add misaligned READ handling
+12a785810a928cbdb7e90b45452ed0baf9c9bd5c nfs/direct: add misaligned WRITE handling
+55ee0ff2b82669759e2c58dcfa50d415748c9c2f nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
+550b57a1ca221b3586183cc61636e1a86fec31fe NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 
---===============5399158568396494499==--
+--===============4810195307118559860==--
