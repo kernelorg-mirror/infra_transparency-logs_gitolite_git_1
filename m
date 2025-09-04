@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 04 Sep 2025 14:25:48 -0000
-Message-Id: <175699594825.1690393.3185507053927143379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 04 Sep 2025 14:31:07 -0000
+Message-Id: <175699626752.1695016.6885886605969354723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: cc621faa9ca9a5dcd56f5b4815e1d8c0e6eb88f9
-    new: 3cd4c4f3955bd97470cc8728c28327cffb09f71e
+  - ref: refs/heads/gpio/for-current
+    old: ef9f21c3f370bcd45688a3a573b788e39b364e80
+    new: ed42d80f3bae89592fbb2ffaf8b6b2e720d53f6a
     log: |
-         3cd4c4f3955bd97470cc8728c28327cffb09f71e dt-bindings: net: sun4i-emac: add dma support
+         ed42d80f3bae89592fbb2ffaf8b6b2e720d53f6a tools: gpio: remove the include directory on make clean
          
