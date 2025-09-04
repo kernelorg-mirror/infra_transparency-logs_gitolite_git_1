@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0640764734727227629=="
+Content-Type: multipart/mixed; boundary="===============5750844408291836777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 04 Sep 2025 19:33:51 -0000
-Message-Id: <175701443196.2128045.9749036015904897341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 04 Sep 2025 19:33:55 -0000
+Message-Id: <175701443501.2128198.12282007187936252010@gitolite.kernel.org>
 
---===============0640764734727227629==
+--===============5750844408291836777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 9004a450fccbeb40a71cc173747da37a459fd4dc
     new: bfa4d097f24e416b59a2d6146b29079928afbfea
     log: |
@@ -26,28 +26,28 @@ changes:
          bfa4d097f24e416b59a2d6146b29079928afbfea More minor SDCA bug fixes
          
 
---===============0640764734727227629==
+--===============5750844408291836777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1757014480 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1757014430-a8d281137f9612f97ea2333ebdf0bce19ec0c796
+pusher C3F436CA30F5D8EB 1757014483 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1757014433-c93ebbd0b3c593083f61791bb1be3911c5ec2b82
 
-9004a450fccbeb40a71cc173747da37a459fd4dc bfa4d097f24e416b59a2d6146b29079928afbfea refs/heads/for-6.17
+9004a450fccbeb40a71cc173747da37a459fd4dc bfa4d097f24e416b59a2d6146b29079928afbfea refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi56dAACgkQJNaLcl1U
-h9B3iwf+O4UEpU9GDLz5DVPXhKXdJKO824lsgEslVl2NMAfq1JB5x1IE5BziqFQX
-aZXFXm1IfsOmsRSFsDNvnNasJEtgS8NseaRnGTPDWFkzpx5VwDW65OIci7sOZHJ0
-5vcFFoXdLtaYUKTOHzubMw3UElaqgTdKOQiN9Oq2oCRf0awuu1pKSviKzawInHVU
-NrXEdmnhYve17H/7AXNJmpCi7FwoORCX0Xa8Zo3C00c5hojLKLdHJG+ZykZpmYZ9
-9//MmbkH8f0PyiPiewHNOJvIokBWFEl6OmD/hR8rDZSyUGkAKt3yV3FfSHqB9R+Z
-5r1mkk2OaH6CYCW7GybKHtEXFdBWYg==
-=QjYj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi56dMACgkQJNaLcl1U
+h9Dexwf/ZlYkk38m7zJ9hcyyHsjMFeYUosTy/Rxl7xk4OAEPJNU3ZB/dcakTRH9G
+OYyglXesuVmgYqPQ84SZP1wKNDRJLtX2UScuJPMHuUobTNQJPLuKhvGMECLJn8I8
+0UDaFBlJyYQ3P+sP7GYgOkog5FRu/s2do1D9eZ+BNBcpiXjbYld47WN4f7lUN3QV
+jJY6DTNcVpftNHROczqW7NEMmpP1K+Me+XLmpPJi5Zi2ouQoeI2L4TBwB3q3x8pT
+AUjKZeoPtAL5HFKbpv5Oummpz/ljL6NTeliP3/Wf5Bq2R85M7jIOPUc8Z0zPg2Dd
+PeZNDW38YDPzGkLAuYvWSSD4eb9jsg==
+=aXCx
 -----END PGP SIGNATURE-----
 
---===============0640764734727227629==--
+--===============5750844408291836777==--
