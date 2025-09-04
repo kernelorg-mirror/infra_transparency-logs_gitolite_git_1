@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 04 Sep 2025 14:47:51 -0000
-Message-Id: <175699727135.1710460.2267770612601976070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
+Date: Thu, 04 Sep 2025 14:48:38 -0000
+Message-Id: <175699731842.1710849.18389550401515933664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/a.hindborg/linux
+user: a.hindborg
 changes:
-  - ref: refs/heads/microhcip-soc
-    old: d14c74e2a3144a9d2b1535632b792620daccaa51
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/configfs-next
+    old: ee360e7ea3f1d50499983b239ac086f9c3545b40
+    new: 462272dd734b568f0190d01e24f5257c1a763fae
+    log: |
+         462272dd734b568f0190d01e24f5257c1a763fae configfs: use PTR_ERR_OR_ZERO() to simplify code
+         
