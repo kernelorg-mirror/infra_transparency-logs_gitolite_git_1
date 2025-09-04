@@ -1,56 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2965587350114655472=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 04 Sep 2025 14:51:32 -0000
-Message-Id: <175699749245.1716153.7420046807672979609@gitolite.kernel.org>
-
---===============2965587350114655472==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 04 Sep 2025 14:56:36 -0000
+Message-Id: <175699779693.1771180.10428947623303281859@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 10309234f0d237f1cf57359150cbdc4de4fc13cc
-    new: 6b0cee303147dc4d94ccfeb1f36617ce894db99b
+  - ref: refs/heads/for-next
+    old: c3c9a75ede23fe2b244d2f1c4ac0c6cc3a4dc100
+    new: a73349c5dd27bc544b048e2e2c8ef6394f05b793
     log: |
-         6b0cee303147dc4d94ccfeb1f36617ce894db99b Notes added by 'git notes add'
+         ace1817ab49b3f92b3e965caa63b4a78e69266cd ALSA: usb-audio: rename QUIRK_FLAG_MIXER_MIN_MUTE to QUIRK_FLAG_MIXER_PLAYBACK_MIN_MUTE
+         759b5ce3e6e804ee333f0e0da3cf93c38b77b890 ALSA: usb-audio: add quirk QUIRK_FLAG_MIXER_CAPTURE_MIN_MUTE
+         806a38293fc0dfc80e556ec8f389dffc6ea90059 ALSA: usb-audio: apply "mixer_min_mute" quirks on some devices
+         a73349c5dd27bc544b048e2e2c8ef6394f05b793 ALSA: usb-audio: apply quirk for MOONDROP Quark2
          
-
---===============2965587350114655472==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1756997541 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1756997490-ca6534299654b0dd32bd0ee7577156b199273929
-
-10309234f0d237f1cf57359150cbdc4de4fc13cc 6b0cee303147dc4d94ccfeb1f36617ce894db99b refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi5p6UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZY8QALh95exdbterr6zw7WED
-rphrMueyiD2SmdnhJfhL09+OouVCdoWRwNqNgoYIM3kiX1uGKw8q4cgzNLyo8BA7
-0VaOLTFQuLD58jpoTgIOq27Rq2kF3DN0d0alCmo4XPeWJd3funzqHX6qF2KRR3L2
-MXaO2OzqVmtqUgf85WlRllkO86hIRh5BsBeiktoiLIoeIV+fH/AOAXFyX4zOQBrl
-xjj28CLzMaAcDZ/tKE589qmgTIsocuD4f5rehXPs57qFT6Y+exTET69crPVKv2wn
-jU0r6hUkJ6Gg4UIm90LPLToeJETxhyM6kCN3TquF4lJLh/LDae9N9AubC7kRDqW0
-yq4OotjS9l1UL5++Pj3ua9qpa6Jv99XxwFQ51Wi0C9ndUGHuN5GN1RINp2LaOt2S
-jUgGNRjxDm6RS5s8Au8hHcq9O3cVl8w1oh6PnKhg6kQnrRbWsZZ/hu5U7Cnw00s8
-DLstyTuXkEh7gi42CoXbOVHA5tv+5cw7DZT4+2wLNYqhXMfbD2IBRPPZipcPm9zJ
-2kbxCcy6+8XtTlcrkYQfaiFabivvqovobskzeweL/blDcMeKdxwuuJztkUAltKbK
-YZ8pazyL3wZ7U46qnLxmXyY7+RSuHaw0VhEykbqudszRInXCKEWaTkhyfqVauJOA
-bo0YgUPvCmeDSrbAUCFC4wam
-=NpFu
------END PGP SIGNATURE-----
-
---===============2965587350114655472==--
+  - ref: refs/heads/master
+    old: db5075dad810ea85966362b295ef5449cf65c8ea
+    new: b33188ef9a69c7bdc1e77daaa534d4e8259eb97e
+    log: |
+         ace1817ab49b3f92b3e965caa63b4a78e69266cd ALSA: usb-audio: rename QUIRK_FLAG_MIXER_MIN_MUTE to QUIRK_FLAG_MIXER_PLAYBACK_MIN_MUTE
+         759b5ce3e6e804ee333f0e0da3cf93c38b77b890 ALSA: usb-audio: add quirk QUIRK_FLAG_MIXER_CAPTURE_MIN_MUTE
+         806a38293fc0dfc80e556ec8f389dffc6ea90059 ALSA: usb-audio: apply "mixer_min_mute" quirks on some devices
+         a73349c5dd27bc544b048e2e2c8ef6394f05b793 ALSA: usb-audio: apply quirk for MOONDROP Quark2
+         b33188ef9a69c7bdc1e77daaa534d4e8259eb97e Merge branch 'for-next'
+         
