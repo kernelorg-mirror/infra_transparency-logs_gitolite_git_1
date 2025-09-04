@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/configfs
-Date: Thu, 04 Sep 2025 14:48:47 -0000
-Message-Id: <175699732752.1711052.18079940140791941057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 04 Sep 2025 14:49:52 -0000
+Message-Id: <175699739216.1712671.2404086191195272097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/a.hindborg/configfs
-user: a.hindborg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/configfs-next
-    old: ee360e7ea3f1d50499983b239ac086f9c3545b40
-    new: 462272dd734b568f0190d01e24f5257c1a763fae
+  - ref: refs/heads/main
+    old: fd2004d82d8d8faa94879e3de3096c8511728637
+    new: 9b2bfdbf43adb9929c5ddcdd96efedbf1c88cf53
     log: |
-         462272dd734b568f0190d01e24f5257c1a763fae configfs: use PTR_ERR_OR_ZERO() to simplify code
+         9b2bfdbf43adb9929c5ddcdd96efedbf1c88cf53 phy: mscc: Stop taking ts_lock for tx_queue and use its own lock
          
