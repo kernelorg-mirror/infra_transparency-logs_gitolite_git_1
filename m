@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5080401665857256105=="
+Content-Type: multipart/mixed; boundary="===============1876757088315833799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 04 Sep 2025 18:08:14 -0000
-Message-Id: <175700929402.2049496.5232889782241091158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 04 Sep 2025 18:08:17 -0000
+Message-Id: <175700929763.2049664.4240119587763989204@gitolite.kernel.org>
 
---===============5080401665857256105==
+--===============1876757088315833799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 7748328c2fd82efed24257b2bfd796eb1fa1d09b
     new: 554f6006c3c050026a0a505dfedfe03407e267e1
     log: |
@@ -31,28 +31,28 @@ changes:
          554f6006c3c050026a0a505dfedfe03407e267e1 Improve cs42l43 suspend/IRQ interactions
          
 
---===============5080401665857256105==
+--===============1876757088315833799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1757009342 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1757009291-42a07a93df00f3058339700aa0842c6f71a580c0
+pusher C3F436CA30F5D8EB 1757009346 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1757009295-4f2eb289a380e33c5c2a25f8db0de252d65a6053
 
-7748328c2fd82efed24257b2bfd796eb1fa1d09b 554f6006c3c050026a0a505dfedfe03407e267e1 refs/heads/for-6.18
+7748328c2fd82efed24257b2bfd796eb1fa1d09b 554f6006c3c050026a0a505dfedfe03407e267e1 refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi51b4ACgkQJNaLcl1U
-h9CbvggAhqRp1T3dqh8sMnRv9ZQMv5O3v+BNLxm0ZetJuiwev1EvvH1bHEbrBfUX
-2KY4YUHqVmH99xfJ0hHsYOyuJjEYOswsLpx0u+tzKtUxxormbYdvqRTRK8+pyN33
-UzEZzfp994uuSozjzhnElzi076P0pYcfXazQoeWEUTUAZ7kBVOueGZKBpQ/DhVFR
-epgh/PKD1V+EU4Hwdk9e4k6BXh/9f/lo5svjKwq9Li7caEjPqTfenxeCs/1++YAK
-x+VprjRuRFITOnsu19a1f4ZCtcHdkwpe6MplRKe8hFqMmF0lBMes9xI7bzIifVZW
-Ku1LXV6IwgkYYqOtBcrkST3HiB51aA==
-=L8Bc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi51cIACgkQJNaLcl1U
+h9CQVAf8C5yJ4vfUj1GO0UtvY9dCHBWun50Qgt+HlZLx9Wmi4fG9v4d48OEBjTl2
+n9uzPRU/u3zvHNgPjh0fUV8xI3PU1vlkMVqjfeMQjTEVYZ3/WczT/q13+RHWnIoN
+nKZhysO7DQLZvnJia5AhY7kCIJ3fG1iaXuQKvExU6j2wTZ4jphBlvTetDm15cQpN
+fot2ZBENbYviPQYVaxWJAN6+YhHSuO3Nya6px7cr04tPepBt+rqc6pjuJLIGRxBf
+2Ky7efdQ6GqRgFjgU/Ri/rq72rY/toN3pxmbygYDUFq0SWUSpxK9t5H8ePt5XENR
+1Elx7KH6ppyU036REL8gnWKrQNVOkQ==
+=5vbj
 -----END PGP SIGNATURE-----
 
---===============5080401665857256105==--
+--===============1876757088315833799==--
