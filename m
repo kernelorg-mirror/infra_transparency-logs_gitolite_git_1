@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 04 Sep 2025 18:32:17 -0000
-Message-Id: <175701073747.2073926.5527215217552876207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 04 Sep 2025 18:35:41 -0000
+Message-Id: <175701094196.2077701.890877621713541951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 9756ff114601f426521528469cb29dfc3837c466
-    new: cce65107897d699c78373b88f3fe94602f194d0e
+  - ref: refs/heads/master
+    old: 2d92ef7da2605fdb01db9b547e99d9ea8790c8eb
+    new: b338cf849ec82a3063119c9902c5ae21bc9dccb1
     log: |
-         cce65107897d699c78373b88f3fe94602f194d0e dt-bindings: gpu: Convert aspeed,ast2400-gfx to DT schema
+         b338cf849ec82a3063119c9902c5ae21bc9dccb1 libbpf: Remove unused args in parse_usdt_note
          
