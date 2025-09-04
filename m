@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6552125888882281742=="
+Content-Type: multipart/mixed; boundary="===============2552554562441176461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/configfs
-Date: Thu, 04 Sep 2025 14:45:16 -0000
-Message-Id: <175699711654.1708704.6809005887759491237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
+Date: Thu, 04 Sep 2025 14:45:44 -0000
+Message-Id: <175699714432.1709108.15579136406664752477@gitolite.kernel.org>
 
---===============6552125888882281742==
+--===============2552554562441176461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/a.hindborg/configfs
+repo: pub/scm/linux/kernel/git/a.hindborg/linux
 user: a.hindborg
 changes:
   - ref: refs/heads/configfs-next
@@ -20,7 +20,7 @@ changes:
     new: ee360e7ea3f1d50499983b239ac086f9c3545b40
     log: revlist-c6b190822459-ee360e7ea3f1.txt
 
---===============6552125888882281742==
+--===============2552554562441176461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fe3ad7a58b581859a1a7c237b670f8bcbf5b253c Merge tag 'sched_urgent_for_v6.17_rc4' 
 b320789d6883cc00ac78ce83bccbfe7ed58afcf0 Linux 6.17-rc4
 ee360e7ea3f1d50499983b239ac086f9c3545b40 configfs: use PTR_ERR_OR_ZERO() to simplify code
 
---===============6552125888882281742==--
+--===============2552554562441176461==--
