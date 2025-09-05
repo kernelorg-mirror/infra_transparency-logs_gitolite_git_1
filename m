@@ -1,59 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7704710082214864800=="
+Content-Type: multipart/mixed; boundary="===============2450729060601906922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 05 Sep 2025 17:29:18 -0000
-Message-Id: <175709335811.3290599.10115519707522761400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 05 Sep 2025 17:40:00 -0000
+Message-Id: <175709400043.3299127.3448447247904324243@gitolite.kernel.org>
 
---===============7704710082214864800==
+--===============2450729060601906922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: f98fcb0c94c391452ea1b36041ed853a10a0b475
-    new: 0afa57ec1c0057f54c843dfba0c9698d2e6f5a0a
-    log: |
-         07caff2228e221bc5cad042ba90a1dfc5df89965 update 6.15.9 review from greg
-         ccbbcef284c0bae116a86e31c5a108a064c7a3a8 assign some 6.15.9 cve ids
-         1eb1453dd46c63fc86495440d711408f4d32258f strip the new mbox files
-         0afa57ec1c0057f54c843dfba0c9698d2e6f5a0a mark 6.15 review as completed
-         
+  - ref: refs/heads/testme
+    old: 13f107f882bb5a0a3265b955cc538c90bd1d4be2
+    new: 61221d07e815008ba758995d79fd442b5217f51a
+    log: revlist-13f107f882bb-61221d07e815.txt
 
---===============7704710082214864800==
+--===============2450729060601906922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-13f107f882bb-61221d07e815.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757093408 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1757093357-249caf8cb86eb5ab8ed7cd320c6ebdfce062a268
+81e39b6d89b5148480f607f93a88cd16f7df6f4a MAINTAINERS: Update the file list in the TDX entry.
+957e3855407d943577695531931e8aec938733d2 MAINTAINERS: Add Rick Edgecombe as a TDX reviewer
+d8b483ba4336470805cc04c3a263ddc126c90175 MAINTAINERS: Add KVM mail list to the TDX entry
+94272b084a745940e076a170d8193ac3427292e6 x86/tdx: Eliminate duplicate code in tdx_clear_page()
+a27b008a5d7e8c49740dfd4b560cd2d1abe722e4 x86/tdx: Tidy reset_pamt functions
+01fb93a363e0583a3ce48098aca5ab9825a5b790 x86/tdx: Skip clearing reclaimed pages unless X86_BUG_TDX_PW_MCE is present
+744b02f62634b64345d05a8a3f145d56469313b4 x86/kexec: Consolidate relocate_kernel() function parameters
+83214a775f33bc9d61c2c284f2ace3f854a4cddb x86/sme: Use percpu boolean to control WBINVD during kexec
+10df8607bf1a22249d21859f56eeb61e9a033313 x86/virt/tdx: Mark memory cache state incoherent when making SEAMCALL
+b18651f70ce0e45d52b9e66d9065b831b3f30784 x86/kexec: Disable kexec/kdump on platforms with TDX partial write erratum
+80804847269eba880dc8c1bc64d70082692f72cd x86/virt/tdx: Remove the !KEXEC_CORE dependency
+5f9b5bd0c82925e4a71c5790a37b3142fec946d4 x86/virt/tdx: Update the kexec section in the TDX documentation
+61221d07e815008ba758995d79fd442b5217f51a KVM/TDX: Explicitly do WBINVD when no more TDX SEAMCALLs
 
-f98fcb0c94c391452ea1b36041ed853a10a0b475 0afa57ec1c0057f54c843dfba0c9698d2e6f5a0a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi7HiAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KhQP/3ZL2ig0xDvvMg8LwHK/
-1s6RSeJyqYVJ6VrH5QVGbrkZ/ILIn1SCTd5wloe7SdFIhTe4ugbyPwXCJhyAeymC
-Z7GeKQVsYLZ9HdYC9qXLaRk9VVs3febvi6hoQpdQHRuBHmyrbMQiGvonQMa54G4E
-CkdSSoaCqj9tEOwpAyoElkQNw2JH4IdtfQACZNIi3k7dzRMVEu3WvaFSUsmejj9n
-JaFmO+gXdHEbuGCRpYmLSV0Ww2UoO9M6FOqCvlgO7W9XUCL3WVA8H5dA9qimqCoZ
-+eZryG/hnS+KCgyenYfoMYcuqf5xINNuJLX98UxjPlo4ImqtoDLRGaEFhUz8meRd
-jJLhchv1aFuCnVBGZ9+pkTiCIOJDFfB3aVTIe8EKbjKLrqOZxQOpd29OYB5K03AL
-J994ManGMpDY2sT+bpShVm1BTUmxUPorrmXIE+qOeckZD2vvpdaK1L7A6ckSPQlZ
-RVA3GkXi+jgqCQe+N0UUkeGwQBePywNT6gVt6xd2DZSl+vDV8rInEpp5aFC9JZL9
-jHQ5KuzFQ9kmHzb4sDJ7hgjdCXrv3VwiDdUTt+nGKd0V4qDbD5AmKnm6a3wTZ7uv
-f71fs8qKpT+HPqoTfSaAOdEOj3pbhCKySF0pYHKJ4A6OJKRK6wxIMtxhH3CI941A
-8PLyJezuY2cgPJ3jRlOebSsl
-=CUZf
------END PGP SIGNATURE-----
-
---===============7704710082214864800==--
+--===============2450729060601906922==--
