@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Fri, 05 Sep 2025 01:56:09 -0000
-Message-Id: <175703736924.2491323.16190966916827850873@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 01:57:14 -0000
+Message-Id: <175703743462.2491891.1722544910804975430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
-  - ref: refs/heads/0.10.x
-    old: 53eda95eca0843ef6f7ac0bbcc75b6856fbd471d
-    new: 924c6217cf4c6799594a1cd18352b38c9dcf4db4
+  - ref: refs/heads/main
+    old: d136ead0b2945ec3f33ce49af38ef07beb930d1b
+    new: 655df9b2b4a9ec251e5018de88e02dca48ea74d7
     log: |
-         e67dfe4d8e77e60143a9087bfffcadd10a824c2f tests: convert command tests to data-driven tests
-         924c6217cf4c6799594a1cd18352b38c9dcf4db4 fix(enum): populate TpmRh fields
+         ae351b63698e8ea7b0586b0b65a85203b47b6ad2 tests: convert command tests to data-driven tests
+         655df9b2b4a9ec251e5018de88e02dca48ea74d7 fix(enum): populate TpmRh fields
          
