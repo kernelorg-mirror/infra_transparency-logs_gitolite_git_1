@@ -1,51 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4850772564316217213=="
+Content-Type: multipart/mixed; boundary="===============0352100222470121258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 05 Sep 2025 00:56:48 -0000
-Message-Id: <175703380855.2434023.8693408564040173664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 05 Sep 2025 01:29:30 -0000
+Message-Id: <175703577047.2465831.12163978849394015911@gitolite.kernel.org>
 
---===============4850772564316217213==
+--===============0352100222470121258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 414bf79debdce9bb682b4f23f87ea97568afa67b
-    new: 75a7b9d29215c5aa813b9620f3c56817918f9f8c
-    log: revlist-414bf79debdc-75a7b9d29215.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-next
+    old: e6bf9dcfd21bb5a294e120798f8cf3d8b2e553d2
+    new: 4eb7ee677831e6f87316ce176afe0fa5b4fa3aef
+    log: revlist-e6bf9dcfd21b-4eb7ee677831.txt
 
---===============4850772564316217213==
+--===============0352100222470121258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-414bf79debdc-75a7b9d29215.txt
+Content-Disposition: attachment; filename=revlist-e6bf9dcfd21b-4eb7ee677831.txt
 
-3ff7ce84e18151578352c2b28320824b42df114b perf python: Fix spelling mistake "metics" -> "metrics"
-1a461a62fb422db9cf870a4f184885cc69873b7f perf parse-events: Handle fake PMUs in CPU terms
-1b728c54fed1e46109c6c8ab8cd866f7577e775f perf vendor events: Update alderlake events/metrics
-3f7f743ec4891d36804103ee81027bcd49b4db4d perf vendor events: Update arrowlake events/metrics
-e50ae144a7b77ac2d66fd3cac9d60edd7dcd00d9 perf vendor events: Update broadwell metrics
-96e1aba56505e91f222ef2c9a07d71e08ea48e23 perf vendor events: Update cascadelakex metrics
-d9a6bb9e359e6f816c746fc8d6aa0999f4594a0c perf vendor events: Update emeraldrapids events/metrics
-d5a638022a010a480ec2ac308bcabc68eb1b6d62 perf vendor events: Update grandridge metrics
-0e08908841999354e86e85a38d3ad268a59924b2 perf vendor events: Update graniterapids events/metrics
-7fcaead09f74bacfbf9433a9b843b8f93f83e3c7 perf vendor events: Update haswell metrics
-55b3a5a7a7d124980289a8fcbe8878975b683574 perf vendor events: Update icelake metrics
-48a194efa00730a88044f8df300cf8bbfa891449 perf vendor events: Update ivybridge/ivytown metrics
-3fdb4ffe6505a8fd79be61bbd001413227964d97 perf vendor events: Update jaketown metrics
-4a0ca7230d91171cf24470be135263165f83b9ed perf vendor events: Update lunarlake events/metrics
-59050cb8972dd146641c69db54dee6fd36a84e34 perf vendor events: Update meteorlake events/metrics
-6826aa4ffaef2a084a5036453c4295a110860827 perf vendor events: Update rocketlake metrics
-8d824b469d3272af00b01305d6adba86e2a03a1a perf vendor events: Update sandybridge metrics
-26f4b26f76bd468d5cf36219b5c7d3802be08462 perf vendor events: Update sapphirerapids events/metrics
-f1980de60459a372301e673fa3185e2ee3c61c1f perf vendor events: Update sierraforest metrics
-94ce35cdb626733f0473615fd6337b9bdc44ea84 perf vendor events: Update skylake metrics
-75a7b9d29215c5aa813b9620f3c56817918f9f8c perf vendor events: Update tigerlake metrics
+d10818ae45d0596e04158787d0a62536cb159cea NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+4b689d92b60968914d677e6c83878ef84bd36009 NFSD: Move the fh_getattr() helper
+ead362034c0f392c1b135f9a3f0fb364cfea081d sunrpc: delay pc_release callback until after the reply is sent
+d792b6dac62afc1a0f16b71df3a4248694943c10 nfsd: discard nfsd_file_get_local()
+926a9ee9f188af6f7f437d4e01f5a34cec7d9f50 sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+1ffa72876f6d03e5bfdb5222ed0ec0f02f30de4c NFSD: Rework encoding and decoding of nfsd4_deviceid
+c45e953c7a464cff59c6df57efa1f0a61f071ea9 NFSD: Minor cleanup in layoutcommit processing
+3376d7e1db955c8e11ca64a70c159cecb1a2faff NFSD: Minor cleanup in layoutcommit decoding
+4f166cc1e925584e1fbb607ff2dcb5c509fe95b6 NFSD: Implement large extent array support in pNFS
+6536193874cc1d2c45baab13721bd9d29b13407f NFSD: Fix last write offset handling in layoutcommit
+12d6c05cfa927ef257ffc9389f0865c4bd5bf8c7 lockd: Remove space before newline
+4ce68b0b9e7bfb59530c02a8fb1cef55d6e0727d nfsd: Replace open-coded conversion of bytes to hex
+e1a19d0f5ea335a863e7b69a8ffc7bdfce2f18f9 nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
+aa7996d815d6f84500177ed894f2a8e528979926 NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
+4eb7ee677831e6f87316ce176afe0fa5b4fa3aef nfsd: decouple the xprtsec policy check from check_nfsd_access()
 
---===============4850772564316217213==--
+--===============0352100222470121258==--
