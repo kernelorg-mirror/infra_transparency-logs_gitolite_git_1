@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 05 Sep 2025 01:49:23 -0000
-Message-Id: <175703696300.2484532.14528197868272309799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Fri, 05 Sep 2025 01:56:09 -0000
+Message-Id: <175703736924.2491323.16190966916827850873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 5ef04a7b068cbb828eba226aacb42f880f7924d7
-    new: d9c74e6f8125ef43d0282c12cb788ae4c5290c27
+  - ref: refs/heads/0.10.x
+    old: 53eda95eca0843ef6f7ac0bbcc75b6856fbd471d
+    new: 924c6217cf4c6799594a1cd18352b38c9dcf4db4
     log: |
-         d9c74e6f8125ef43d0282c12cb788ae4c5290c27 dt-bindings: net: cdns,macb: Add compatible for Raspberry Pi RP1
+         e67dfe4d8e77e60143a9087bfffcadd10a824c2f tests: convert command tests to data-driven tests
+         924c6217cf4c6799594a1cd18352b38c9dcf4db4 fix(enum): populate TpmRh fields
          
