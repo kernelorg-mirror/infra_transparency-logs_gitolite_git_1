@@ -1,41 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2372700060670032306=="
+Content-Type: multipart/mixed; boundary="===============8949949701392025441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 05 Sep 2025 16:53:48 -0000
-Message-Id: <175709122894.3256875.7937544196045447634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 05 Sep 2025 16:56:46 -0000
+Message-Id: <175709140654.3261039.1216621521247773241@gitolite.kernel.org>
 
---===============2372700060670032306==
+--===============8949949701392025441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/dev-queue
-    old: d528b9e1cbec656fad1327ec0131bc03451a0bb3
-    new: c4940196ab024ba4d140259c26606d8e53ec0808
-    log: revlist-d528b9e1cbec-c4940196ab02.txt
+  - ref: refs/heads/next
+    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
+    new: ab57bbf321e1b58007056bf4da91b05f931b2353
+    log: revlist-1b237f190eb3-ab57bbf321e1.txt
 
---===============2372700060670032306==
+--===============8949949701392025441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d528b9e1cbec-c4940196ab02.txt
+Content-Disposition: attachment; filename=revlist-1b237f190eb3-ab57bbf321e1.txt
 
-03895420893bb0159908712ecd66db915cdf0f6f ice: Remove deprecated ice_lag_move_new_vf_nodes() call
-93baf431804786ac661bc3348d1976080d9c9b27 i40e: fix Jumbo Frame support after iPXE boot
-0881d536d176266de0c0151843b776e267a9116c ixgbevf: fix getting link speed data for E610 devices
-10986fdf58d00528fe772360413a63d97883aa81 ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
-6ce856514bdc52bcee26107de1622523046be626 ixgbevf: fix mailbox API compatibility by negotiating supported features
-bf6c7367b4b5183685edfcec60c70366b773914b ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
-988a1153b92b0293c64f009777af618567b94481 ice: add flow parsing for GTP and new protocol field support
-d09d6f742e6255c2733a4b368b3e71c9da1f9da9 ice: add virtchnl and VF context support for GTP RSS
-9a9bb97ea128fe30e98c297a4a29ef7e9e02c518 ice: improve TCAM priority handling for RSS profiles
-121bdd9d191a3d7e4fae4a5ab3ed0b840c0c814f ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
-c4940196ab024ba4d140259c26606d8e53ec0808 iavf: add RSS support for GTP protocol via ethtool
+d1891fa127c32b32f133b80b7496d075d79d1ef7 KVM: arm64: Add build-time check for duplicate DECLARE_REG use
+2352c42a77a93202440e25d85b5285f21b51bbe1 KVM: arm64: Rename pkvm.enabled to pkvm.is_protected
+af1db68057b885fe703118b18107dce44d5adac4 KVM: arm64: Rename 'host_kvm' to 'kvm' in pKVM host code
+fbde782063aee1d3a0d194fb782e3b8ede365294 KVM: arm64: Clarify comments to distinguish pKVM mode from protected VMs
+7814a46b75599c2581925518c6024be5283b814d KVM: arm64: Decouple hyp VM creation state from its handle
+da166837a729f801cf987dec9d85976f52765144 KVM: arm64: Separate allocation and insertion of pKVM VM table entries
+35e66e8a4b225f570e8283ff22654f3f1e3cd37d KVM: arm64: Consolidate pKVM hypervisor VM initialization logic
+f677b5ead216987c85b9c7da4e4dbce5f3725cf2 KVM: arm64: Introduce separate hypercalls for pKVM VM reservation and initialization
+ebe37eefb309cdd23edc131901ffce75cbcb3541 KVM: arm64: Reserve pKVM handle during pkvm_init_host_vm()
+ab57bbf321e1b58007056bf4da91b05f931b2353 Merge branch kvm-arm64/pkvm_vm_handle into kvmarm-master/next
 
---===============2372700060670032306==--
+--===============8949949701392025441==--
