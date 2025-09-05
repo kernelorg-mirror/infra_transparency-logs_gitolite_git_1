@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0352100222470121258=="
+Content-Type: multipart/mixed; boundary="===============6427770725436143013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 05 Sep 2025 01:29:30 -0000
-Message-Id: <175703577047.2465831.12163978849394015911@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 01:29:33 -0000
+Message-Id: <175703577314.2466086.8870751515706827393@gitolite.kernel.org>
 
---===============0352100222470121258==
+--===============6427770725436143013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-next
-    old: e6bf9dcfd21bb5a294e120798f8cf3d8b2e553d2
-    new: 4eb7ee677831e6f87316ce176afe0fa5b4fa3aef
-    log: revlist-e6bf9dcfd21b-4eb7ee677831.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing
+    old: 4f12c5dd1539cb172b589ebb4464c874555a2b80
+    new: 1b42aba338730231ae47eefe3bba1913d51b065b
+    log: revlist-4f12c5dd1539-1b42aba33873.txt
 
---===============0352100222470121258==
+--===============6427770725436143013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6bf9dcfd21b-4eb7ee677831.txt
+Content-Disposition: attachment; filename=revlist-4f12c5dd1539-1b42aba33873.txt
 
 d10818ae45d0596e04158787d0a62536cb159cea NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
 4b689d92b60968914d677e6c83878ef84bd36009 NFSD: Move the fh_getattr() helper
@@ -41,5 +41,14 @@ c45e953c7a464cff59c6df57efa1f0a61f071ea9 NFSD: Minor cleanup in layoutcommit pro
 e1a19d0f5ea335a863e7b69a8ffc7bdfce2f18f9 nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
 aa7996d815d6f84500177ed894f2a8e528979926 NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
 4eb7ee677831e6f87316ce176afe0fa5b4fa3aef nfsd: decouple the xprtsec policy check from check_nfsd_access()
+3d55b2af3efa8aa749c894e3f02f1c4abd30bc84 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
+b0bbc4dca38669fba3a93d38c2ad422b44c5876f sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+89e8615a97505acf37eb242afdf4ecc2a1c4c063 NFSD: Drop redundant conversion to bool
+fd3c6bd1d3e1ed4d3c2d8e3fc8e67afd831c6348 nfsd: unregister with rpcbind when deleting a transport
+c0af5a1d32531756e01c84b7718c179d851aec0a NFS: Remove rpcbind cleanup for NFSv4.0 callback
+767451d4b3287ae5d4c73028c2262e7f091e3975 SUNRPC: Move the svc_rpcb_cleanup() call sites
+d267fae6d75a4ed6079dae8e305723b5845d7c8e NFSD: Delay adding new entries to LRU
+0f1ee7e03d790e0a9a0697c9b0a15b074ce8f17b NFSD: Reduce DRC bucket size
+1b42aba338730231ae47eefe3bba1913d51b065b nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
 
---===============0352100222470121258==--
+--===============6427770725436143013==--
