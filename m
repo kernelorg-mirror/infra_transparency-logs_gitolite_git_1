@@ -1,45 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7945469340321122235=="
+Content-Type: multipart/mixed; boundary="===============7337286288593341528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 05 Sep 2025 16:53:25 -0000
-Message-Id: <175709120594.3256530.8971574706913349990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Fri, 05 Sep 2025 16:53:46 -0000
+Message-Id: <175709122625.3256790.9600520218229314295@gitolite.kernel.org>
 
---===============7945469340321122235==
+--===============7337286288593341528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/gpio/devel
-    old: 46880c17e85d6822b8c45c226dc932dae157cc07
-    new: 03c7669aab8786e210e99d521e97acea233cabd8
-    log: revlist-46880c17e85d-03c7669aab87.txt
+  - ref: refs/heads/dmabuf-vfio
+    old: e2f2fea13dd8a2bac99ab13ef2d27ac4716067d7
+    new: b38b087b6fee4e99a92210a98c914fe0864857c5
+    log: revlist-e2f2fea13dd8-b38b087b6fee.txt
 
---===============7945469340321122235==
+--===============7337286288593341528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46880c17e85d-03c7669aab87.txt
+Content-Disposition: attachment; filename=revlist-e2f2fea13dd8-b38b087b6fee.txt
 
-2818fe981c8c3b3917d0d6de7a1aee9c550ca9f5 gpio: loongson1: allow building the module with COMPILE_TEST enabled
-3e4ece2255e74536cfe8fe491bada7de749ab2ee gpio: loongson1: use new generic GPIO chip API
-ad8ad1660685fc6350c70819a6dbf8ce8a3dd009 gpio: hlwd: use new generic GPIO chip API
-36ef526c8701962def83334fc797827df3a5ff9b gpio: ath79: use new generic GPIO chip API
-c1a774a162a4575d375187f3008523ac21f442ac gpio: ath79: use the generic GPIO chip lock for IRQ handling
-6f6ff62df9f38e609bbc70098237be72349a76fa gpio: xgene-sb: use generic GPIO chip register read and write APIs
-83cb735f89c2e384468fa49e01bc348b63d1e615 gpio: brcmstb: use new generic GPIO chip API
-d2e554c53047d4ae41dc2c1e3e75f892968272ff gpio: mt7621: use new generic GPIO chip API
-5a5c67a12d1d724597afb41a6e8288a020c30e45 gpio: mt7621: use the generic GPIO chip lock for IRQ handling
-d25c77d46f504e6e310b91fe5364616bf3162c06 gpio: menz127: use new generic GPIO chip API
-58580f5964656266a5810901fd3abec9f0df4136 gpio: sifive: use new generic GPIO chip API
-e561976ef6947b48b4f2e113b110dac5b193c82c gpio: spacemit-k1: use new generic GPIO chip API
-b36fbc3ddf6416e974571bfb2e7a996ed03a6022 gpio: sodaville: use new generic GPIO chip API
-e87c59c570db2b893424cdefbe024dc111a3489c gpio: mmio: use new generic GPIO chip API
-03c7669aab8786e210e99d521e97acea233cabd8 gpio: move gpio-mmio-specific fields out of struct gpio_chip
+456c3d7fd0b18d1aa6615fb69e13dd2267495eee dma-mapping: convert dma_direct_*map_page to be phys_addr_t based
+47c43b47739fa5164a5314ae280bd785b7f3301c kmsan: convert kmsan_handle_dma to use physical addresses
+f851d41013017685e6d85d4680dc8f9584c25459 dma-mapping: implement DMA_ATTR_MMIO for dma_(un)map_page_attrs()
+bee5c34542b0a903754c013aa123a7ff56229a0f xen: swiotlb: Open code map_resource callback
+201ca78866dc8a7cc976ac817ad600d29d8b863d dma-mapping: export new dma_*map_phys() interface
+ff4f901ef5d553d59b6f94a7259b8884e99274b0 mm/hmm: migrate to physical address-based DMA mapping API
+b846e558bb1d1a69b4434151603ad66bc04cc477 mm/hmm: properly take MMIO path
+0653c1038608d8d0b3c06e532179704e2a072411 block-dma: migrate to dma_map_phys instead of map_page
+5083b2bc47a1113d2546ef6a3ab3f8956b29e3cf block-dma: properly take MMIO path
+46eb65843f3d3045f32fd1e56496d9fde97d9195 nvme-pci: unmap MMIO pages with appropriate interface
+573cb8912ae0633c53591ff15c5318dc313fc7e8 PCI/P2PDMA: Separate the mmap() support from the core logic
+409053f81de2595af41d5ddb20c503f9b8d659aa PCI/P2PDMA: Simplify bus address mapping API
+4711def926bae48cf274141f2a445104e66bc009 PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
+72ba9d06d253b4aa4c81d7992f4611aded63dcda PCI/P2PDMA: Export pci_p2pdma_map_type() function
+f0bc5be9ff9c976233a5b28088a0fc2ad1dd8468 types: move phys_vec definition to common header
+26519e78504eed8efe0aa6c43ee683f5d3d2f73e vfio: Export vfio device get and put registration helpers
+f5589169ba41f41556384c34136d35b6ca93a530 vfio/pci: Add dma-buf export config for MMIO regions
+cdcfcb5edbe12e8f6853d54cfb6dbd514b1ea3c5 vfio/pci: Enable peer-to-peer DMA transactions by default
+4c9a3e24a9bcde5ed248170ad9bb935b706bcd20 vfio/pci: Share the core device pointer while invoking feature functions
+9799a50ec21760e1dffeb2a8bd6b129c91e75675 vfio/pci: Add dma-buf export support for MMIO regions
+b38b087b6fee4e99a92210a98c914fe0864857c5 PCI/P2PDMA: Reduce scope of pci_has_p2pmem function
 
---===============7945469340321122235==--
+--===============7337286288593341528==--
