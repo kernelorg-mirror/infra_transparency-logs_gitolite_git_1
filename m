@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 05 Sep 2025 13:11:41 -0000
-Message-Id: <175707790156.3059062.10095806275822047384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 05 Sep 2025 13:20:02 -0000
+Message-Id: <175707840200.3065288.18393421424719252100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/gpio-fixes-for-v6.17-rc5
+  - ref: refs/heads/v7_20250905_wdouglass_regulator_pf530x_nxp_pf530x_regulator_driver
     old: 0000000000000000000000000000000000000000
-    new: 5e18096bcb259528050d719b011a31ef5ca98bcb
+    new: b497e1a1a2b10c4ddb28064fba229365ae03311a
