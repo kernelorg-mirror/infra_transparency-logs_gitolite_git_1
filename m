@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3756357914939992782=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 05 Sep 2025 05:33:27 -0000
-Message-Id: <175705040703.2677488.1962816425185900403@gitolite.kernel.org>
-
---===============3756357914939992782==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 05 Sep 2025 05:37:35 -0000
+Message-Id: <175705065562.2681688.5590728316088157539@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/for-next/v6.18-rc1/ffs-const
-    old: 159746fccb2e000bbac46fe24034d38e7df6c6e2
-    new: dc83f0302b3f8e4d4eeca62b91d2024049e016aa
+  - ref: refs/heads/probes/for-next
+    old: c3197a382d0c2f14767eb9a00c9b57c2e4a48a0b
+    new: b6850c8f4d9765e5c946b3510a5227dda3826419
     log: |
-         dc83f0302b3f8e4d4eeca62b91d2024049e016aa PCI: Test for bit underflow in pcie_set_readrq()
+         1975080bd66136dfc61a286288735584e428d39b tracing: probes: Use __free() for trace_probe_log
+         b62fdc098cd6f505342a1cad92973b37229fc58a tracing: eprobe: Cleanup eprobe event using __free()
+         0b9d856a6771b0ca95e4cf197755899a93469b0b tracing: uprobes: Cleanup __trace_uprobe_create() with __free()
+         3e1aa8b942a457e1a0cba7676aa3c2d885bff2e6 tracing: uprobe: eprobes: Allocate traceprobe_parse_context per probe
+         b6850c8f4d9765e5c946b3510a5227dda3826419 tracing: fprobe: fix suspicious rcu usage in fprobe_entry
          
-
---===============3756357914939992782==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1757050455 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1757050388-82818de6d9a660c915d9255a2d3afdee6764a6e5
-
-159746fccb2e000bbac46fe24034d38e7df6c6e2 dc83f0302b3f8e4d4eeca62b91d2024049e016aa refs/heads/for-next/v6.18-rc1/ffs-const
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaLp2VwAKCRA2KwveOeQk
-u4fbAQC8Ero3Q5vqKKZenQ+0kLoevKAQtSlviq8wtB1vHlX9dAD/aM3pe76TSgqK
-VPTtQFR0fH9T+U4C04y1as03EDn5bQA=
-=hZni
------END PGP SIGNATURE-----
-
---===============3756357914939992782==--
