@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6427770725436143013=="
+Content-Type: multipart/mixed; boundary="===============2243969310415656711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 05 Sep 2025 01:29:33 -0000
-Message-Id: <175703577314.2466086.8870751515706827393@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 01:29:35 -0000
+Message-Id: <175703577578.2466332.9254009169586220998@gitolite.kernel.org>
 
---===============6427770725436143013==
+--===============2243969310415656711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: 4f12c5dd1539cb172b589ebb4464c874555a2b80
-    new: 1b42aba338730231ae47eefe3bba1913d51b065b
-    log: revlist-4f12c5dd1539-1b42aba33873.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: 440f3a39a990a05c6c6ed1e74310134182d1ef2b
+    new: 56bba9f3626a2122b26c3fec0b283e8a4a99d4d5
+    log: revlist-440f3a39a990-56bba9f3626a.txt
 
---===============6427770725436143013==
+--===============2243969310415656711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f12c5dd1539-1b42aba33873.txt
+Content-Disposition: attachment; filename=revlist-440f3a39a990-56bba9f3626a.txt
 
 d10818ae45d0596e04158787d0a62536cb159cea NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
 4b689d92b60968914d677e6c83878ef84bd36009 NFSD: Move the fh_getattr() helper
@@ -50,5 +50,20 @@ c0af5a1d32531756e01c84b7718c179d851aec0a NFS: Remove rpcbind cleanup for NFSv4.0
 d267fae6d75a4ed6079dae8e305723b5845d7c8e NFSD: Delay adding new entries to LRU
 0f1ee7e03d790e0a9a0697c9b0a15b074ce8f17b NFSD: Reduce DRC bucket size
 1b42aba338730231ae47eefe3bba1913d51b065b nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
+888fa99c6e7a1eb7a0c5c32ae0a28df40b5d31db block: check for valid bio while splitting
+8f7f0dc82aabedf6c98e885dcc091d63b6a3cb10 block: align the bio after building it
+5e5f77f3453a7658280d8f0659d34ccb1918b586 block: simplify direct io validity check
+85a62efd75a815684edc7c7f09d7635f9c34cd67 iomap: simplify direct io validity check
+cc730e32c6ef34610cc35d01f10c857d16cbee46 block: remove bdev_iter_is_aligned
+6146cf1bf8d4102eb50ec4662a3275cc60481370 blk-integrity: use simpler alignment check
+bbdf8130d409d7f5f395ac45dab495d3d739c9a5 iov_iter: remove iov_iter_is_aligned
+e2fba07f72dc067c39f0a5e95b9751d6f7d5a166 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+550633773b9b6cb05c71eb30289c4bf3f9768f5d NFSD: pass nfsd_file to nfsd_iter_read()
+0e0ed5c4e1c5e90bc5e4e675f53a583d36cce504 NFSD: add io_cache_read controls to debugfs interface
+d1ed4c7e909b7f80483a71974bc01cd8bc51c849 NFSD: add io_cache_write controls to debugfs interface
+04d4caf06442ef212426a7058fbb127ba85c4c5e NFSD: issue READs using O_DIRECT even if IO is misaligned
+25e1dbcf3532f2038dd192e2838b4dec118395e0 NFSD: issue WRITEs using O_DIRECT even if IO is misaligned
+dae36e8b0c3ea1e6c3733db8420d1fa65b3fcd40 NFSD: add nfsd_analyze_read_dio and nfsd_analyze_write_dio trace events
+56bba9f3626a2122b26c3fec0b283e8a4a99d4d5 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
 
---===============6427770725436143013==--
+--===============2243969310415656711==--
