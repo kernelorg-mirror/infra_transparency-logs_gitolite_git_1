@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Fri, 05 Sep 2025 21:06:38 -0000
-Message-Id: <175710639890.3475155.3016841305011943432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 05 Sep 2025 21:12:34 -0000
+Message-Id: <175710675496.3480615.12619953530639138781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
-user: sre
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: ca50b295fd473ef797b69b8538036cca716f3d55
+  - ref: refs/heads/hwmon-next
+    old: d7b88be6e577c9cbf72864ea5469753b7ab59154
+    new: 8b1ac2378681de803c53b35561ba14bac0fe78ef
     log: |
-         ca50b295fd473ef797b69b8538036cca716f3d55 HSI: omap_ssi_port: Remove redundant pm_runtime_mark_last_busy() calls
+         e22b23916c5b9179530ed1841f82790b948a1e6d dt-bindings: hwmon: pwm-fan: Document after shutdown fan settings
+         8b1ac2378681de803c53b35561ba14bac0fe78ef hwmon: (pwm-fan) Implement after shutdown fan settings
          
