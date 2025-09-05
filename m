@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2955987341516350890=="
+Content-Type: multipart/mixed; boundary="===============7983104928423470866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 05 Sep 2025 15:35:44 -0000
-Message-Id: <175708654489.3187343.8361655545926948645@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 15:35:48 -0000
+Message-Id: <175708654819.3187467.5363736668765034297@gitolite.kernel.org>
 
---===============2955987341516350890==
+--===============7983104928423470866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 9b2bfdbf43adb9929c5ddcdd96efedbf1c88cf53
     new: 157cf360c4a8751f7f511a71cc3a283b5d27f889
     log: revlist-9b2bfdbf43ad-157cf360c4a8.txt
 
---===============2955987341516350890==
+--===============7983104928423470866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -284,4 +284,4 @@ b9a10f876409bf3768178f4aded199e193ddbe33 Merge tag 'soc-fixes-6.17-2' of git://g
 d69eb204c255c35abd9e8cb621484e8074c75eaa Merge tag 'net-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 157cf360c4a8751f7f511a71cc3a283b5d27f889 net: libwx: fix to enable RSS
 
---===============2955987341516350890==--
+--===============7983104928423470866==--
