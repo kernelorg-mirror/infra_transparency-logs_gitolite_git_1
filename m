@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Fri, 05 Sep 2025 20:29:14 -0000
-Message-Id: <175710415462.3443382.11707987500815947679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 05 Sep 2025 20:45:20 -0000
+Message-Id: <175710512037.3457599.11016167025832753688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 83a809bea583b06f9893003fd76eab7c36c212b1
-    new: ed675d3477a70a42d2e757b713f6c7125a27cdca
+  - ref: refs/heads/nfsd-testing
+    old: c4df20612a34b4713e81e0b3612a84481f6ae82e
+    new: b8cf39957931982091e6446a98f151a79aeea07b
     log: |
-         ed675d3477a70a42d2e757b713f6c7125a27cdca Fio 3.41
+         891582e7e9e2d266575a2b2983a9b38159d7055e NFSD: Do the grace period check in ->proc_layoutget
+         b8cf39957931982091e6446a98f151a79aeea07b siw: Enable try_gso
          
