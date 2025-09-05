@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3133125694119907838=="
+Content-Type: multipart/mixed; boundary="===============4850772564316217213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 05 Sep 2025 00:56:44 -0000
-Message-Id: <175703380412.2433855.5138256182139359722@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 00:56:48 -0000
+Message-Id: <175703380855.2434023.8693408564040173664@gitolite.kernel.org>
 
---===============3133125694119907838==
+--===============4850772564316217213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 414bf79debdce9bb682b4f23f87ea97568afa67b
     new: 75a7b9d29215c5aa813b9620f3c56817918f9f8c
     log: revlist-414bf79debdc-75a7b9d29215.txt
 
---===============3133125694119907838==
+--===============4850772564316217213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ f1980de60459a372301e673fa3185e2ee3c61c1f perf vendor events: Update sierraforest
 94ce35cdb626733f0473615fd6337b9bdc44ea84 perf vendor events: Update skylake metrics
 75a7b9d29215c5aa813b9620f3c56817918f9f8c perf vendor events: Update tigerlake metrics
 
---===============3133125694119907838==--
+--===============4850772564316217213==--
