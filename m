@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2034843423358959851=="
+Content-Type: multipart/mixed; boundary="===============9210868070246989465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 05 Sep 2025 01:29:41 -0000
-Message-Id: <175703578129.2466504.9994882184606852447@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 01:29:43 -0000
+Message-Id: <175703578395.2466612.5121336259527925052@gitolite.kernel.org>
 
---===============2034843423358959851==
+--===============9210868070246989465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: d01c08cb4c5f8e91ab7e9dddf45ca561f8b1534d
-    new: 7b9165804735bfcbde95b32a48ff632c94f54c48
-    log: revlist-d01c08cb4c5f-7b9165804735.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: 550b57a1ca221b3586183cc61636e1a86fec31fe
+    new: d303f25cac03fb2ac3b961431c6d4263a9c1c029
+    log: revlist-550b57a1ca22-d303f25cac03.txt
 
---===============2034843423358959851==
+--===============9210868070246989465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d01c08cb4c5f-7b9165804735.txt
+Content-Disposition: attachment; filename=revlist-550b57a1ca22-d303f25cac03.txt
 
 d10818ae45d0596e04158787d0a62536cb159cea NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
 4b689d92b60968914d677e6c83878ef84bd36009 NFSD: Move the fh_getattr() helper
@@ -114,5 +114,17 @@ cdf0f2b281607f89c02d043975f7fcab8c148eb1 NFS/localio: nfs_uuid_put() fix the wak
 91bd17cdfebbb98af54f7624964ee5c349a325d3 NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
 b4980eaac519f886ba826e236398134585e31be9 NFSv4: Clear NFS_CAP_OPEN_XOR and NFS_CAP_DELEGTIME if not supported
 7b9165804735bfcbde95b32a48ff632c94f54c48 NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
+2dd2303dac805902702cb0064a57ab3903feee85 nfs/localio: restore creds before releasing pageio data
+1d30f8cf27cabf7c92450d962b2117297283f877 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+1c7d548d22998261a7795af689437871be023e2c nfs/localio: make trace_nfs_local_open_fh more useful
+e20f2eb744498112a5b36c481fc51ef91a4e5c2a nfs/localio: avoid issuing misaligned IO using O_DIRECT
+c4c95f70ce5a2f5cdc2b98f7b00780831ea16128 nfs/localio: refactor iocb and iov_iter_bvec initialization
+a8851e8cf63e4b6aad44ab987c7eb11becc3a47d nfs/localio: refactor iocb initialization
+586e4529368e7996b019a11d1d67d2cce13bb3b0 nfs/direct: add misaligned READ handling
+bd870ae0d94523798c1cf5fd9599a23fa248a4b3 nfs/direct: add misaligned WRITE handling
+f6e10e67fb3bbe367d4fec503ed2f3df6903dc1f nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
+29225e7cf9af29b360cf6c3f9aca954c7eb46334 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+8b4f7868f8e417be05f2f68459c2d0aab64ca5cd Revert "nfs/direct: add misaligned WRITE handling"
+d303f25cac03fb2ac3b961431c6d4263a9c1c029 sunrpc: call xs_sock_process_cmsg for all cmsg
 
---===============2034843423358959851==--
+--===============9210868070246989465==--
