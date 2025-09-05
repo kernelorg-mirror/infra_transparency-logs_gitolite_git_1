@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 05 Sep 2025 14:03:36 -0000
-Message-Id: <175708101632.3102987.1666077047968052085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 05 Sep 2025 14:04:19 -0000
+Message-Id: <175708105917.3104005.16925016149187890756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for_next
-    old: f4512ab5571194b1b34d7de529bd193d48268cec
-    new: 57484755b4ba7224bc6b20d48ad2264e52030a6c
+  - ref: refs/heads/main
+    old: 4d7065d950efc1d6a0cbdab398bf29c8d3cbdd7d
+    new: 32563e28ea680b03ed52931d7cce946f3319c726
     log: |
-         62e59ffe8787b5550ccff70c30b6f6be6a3ac3dd fanotify: Validate the return value of mnt_ns_from_dentry() before dereferencing
-         57484755b4ba7224bc6b20d48ad2264e52030a6c Pull mount notify null ptr deref fix.
+         0732a4c4958a3919442b143b3932d688e7c190ea qcom: move Monaco EVK topology from qcs8275 to qcs8300 subdir
+         32563e28ea680b03ed52931d7cce946f3319c726 Merge branch 'robot/patch-0-1757079804' into 'main'
          
