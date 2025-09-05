@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0939933796405265314=="
+Content-Type: multipart/mixed; boundary="===============2034843423358959851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 05 Sep 2025 01:29:38 -0000
-Message-Id: <175703577868.2466419.817111202399271170@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 01:29:41 -0000
+Message-Id: <175703578129.2466504.9994882184606852447@gitolite.kernel.org>
 
---===============0939933796405265314==
+--===============2034843423358959851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
-    old: ce9058c0cddd372180f8965b6a7e847b90ba7697
-    new: 6c17ea0c5213ef4932fb8447b3d9e8e474bb218b
-    log: revlist-ce9058c0cddd-6c17ea0c5213.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
+    old: d01c08cb4c5f8e91ab7e9dddf45ca561f8b1534d
+    new: 7b9165804735bfcbde95b32a48ff632c94f54c48
+    log: revlist-d01c08cb4c5f-7b9165804735.txt
 
---===============0939933796405265314==
+--===============2034843423358959851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce9058c0cddd-6c17ea0c5213.txt
+Content-Disposition: attachment; filename=revlist-d01c08cb4c5f-7b9165804735.txt
 
 d10818ae45d0596e04158787d0a62536cb159cea NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
 4b689d92b60968914d677e6c83878ef84bd36009 NFSD: Move the fh_getattr() helper
@@ -110,5 +110,9 @@ dd70ae0285b8f02c0dd6da13dfe36ea99638539d NFS/localio: nfs_close_local_fh() fix c
 fc837b46f287507ba6212852dc5a57c887fbcc29 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 cdf0f2b281607f89c02d043975f7fcab8c148eb1 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
 6c17ea0c5213ef4932fb8447b3d9e8e474bb218b NFS: Fix a race when updating an existing write
+751a19521f4fc52c12cc34fb945c7082dad73a39 NFSv4: Don't clear capabilities that won't be reset
+91bd17cdfebbb98af54f7624964ee5c349a325d3 NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
+b4980eaac519f886ba826e236398134585e31be9 NFSv4: Clear NFS_CAP_OPEN_XOR and NFS_CAP_DELEGTIME if not supported
+7b9165804735bfcbde95b32a48ff632c94f54c48 NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
 
---===============0939933796405265314==--
+--===============2034843423358959851==--
