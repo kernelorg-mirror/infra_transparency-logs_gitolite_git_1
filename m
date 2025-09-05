@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2043388245128462431=="
+Content-Type: multipart/mixed; boundary="===============0063725309577141062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 05 Sep 2025 15:57:24 -0000
-Message-Id: <175708784497.3207292.18234159673693372509@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 15:57:45 -0000
+Message-Id: <175708786586.3207586.14698833602212142384@gitolite.kernel.org>
 
---===============2043388245128462431==
+--===============0063725309577141062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: c975e1dfcc929dbfde8abfa514494b66f0335006
-    new: 16c610162d1f1c332209de1c91ffb09b659bb65d
-    log: revlist-c975e1dfcc92-16c610162d1f.txt
+  - ref: refs/heads/200GbE
+    old: cf4b8c243a0f881511f146fcac7a103f119acc77
+    new: 51804f497ecf72504a2749fca4ac29b73c8db982
+    log: revlist-cf4b8c243a0f-51804f497ecf.txt
 
---===============2043388245128462431==
+--===============0063725309577141062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c975e1dfcc92-16c610162d1f.txt
+Content-Disposition: attachment; filename=revlist-cf4b8c243a0f-51804f497ecf.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 bb324f85f722848f5e5e53325bc00f13302e01d0 drm/gpuvm: Wrap drm_gpuvm_sm_map_exec_lock() expected usage in literal code block
@@ -412,5 +412,18 @@ d9c74e6f8125ef43d0282c12cb788ae4c5290c27 dt-bindings: net: cdns,macb: Add compat
 b13592d20b210976a0946adf027b7bd9d7734326 tcp: use tcp_eat_recv_skb in __tcp_close()
 abfa70b380348cf414e6b40fd485d1dd8d50504a Merge branch 'tcp-__tcp_close-changes'
 16c610162d1f1c332209de1c91ffb09b659bb65d net: call cond_resched() less often in __release_sock()
+80f7ac1d41656056e7891ee1209f967436ac8896 xdp, libeth: make the xdp_init_buff() micro-optimization generic
+e372cc25e945a30f7ea348aa0501a498aa94022f idpf: fix Rx descriptor ready check barrier in splitq
+19a31b2ec72c006cbbaaced23a3eef48d749ad01 idpf: use a saner limit for default number of queues to allocate
+9de130396b00a107d9be28e9b97e5686f1e1ec62 idpf: link NAPIs to queues
+5ecfc122a4e68d625bfd13e6e419bbb96907d6b8 idpf: add 4-byte completion descriptor definition
+7e10fdac288f0770065ad5031b7651ecb1765e21 idpf: remove SW marker handling from NAPI
+710b4f023164b724fd6f9ed2a0fa54c323fd4057 idpf: add support for nointerrupt queues
+3ed3bb428fbb0149be52065e016b623296cebee9 idpf: prepare structures to support XDP
+7b206408b50292aba325803a77e72e35061060c7 idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
+cca47d6bd8b12621a1728a3e5fe976cd7f804e8c idpf: use generic functions to build xdp_buff and skb
+dd4259ff9722888376bf5f8c53a48effcb5ac074 idpf: add support for XDP on Rx
+c369be0d5aae88909a297cb745fa3e8c43f82835 idpf: add support for .ndo_xdp_xmit()
+51804f497ecf72504a2749fca4ac29b73c8db982 idpf: add XDP RSS hash hint
 
---===============2043388245128462431==--
+--===============0063725309577141062==--
