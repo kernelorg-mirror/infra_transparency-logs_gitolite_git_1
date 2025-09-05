@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0627571751208679204=="
+Content-Type: multipart/mixed; boundary="===============1323932327066629536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 05 Sep 2025 17:04:28 -0000
-Message-Id: <175709186880.3267468.601671600291208156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 05 Sep 2025 17:04:32 -0000
+Message-Id: <175709187216.3267661.4264945162746456936@gitolite.kernel.org>
 
---===============0627571751208679204==
+--===============1323932327066629536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regulator-6.18
     old: 9d35d068fb138160709e04e3ee97fe29a6f8615b
     new: 92b9c2b7a88c07324d70ea877cfe2d90ac823dbf
     log: revlist-9d35d068fb13-92b9c2b7a88c.txt
 
---===============0627571751208679204==
+--===============1323932327066629536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1757091917 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1757091866-b95086ce8953938f323f70c60471188ce29bc3a4
+pusher C3F436CA30F5D8EB 1757091921 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1757091870-74e804ddd3ba41c26a28fc4b703947e25f2127ae
 
-9d35d068fb138160709e04e3ee97fe29a6f8615b 92b9c2b7a88c07324d70ea877cfe2d90ac823dbf refs/heads/for-6.18
+9d35d068fb138160709e04e3ee97fe29a6f8615b 92b9c2b7a88c07324d70ea877cfe2d90ac823dbf refs/heads/regulator-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi7GE0ACgkQJNaLcl1U
-h9DHrgf8CJD5Ga/u59Sn8WF7JmlCxRQR2MIxJEjR1JZCxnUaMpQ80ynl4x2jsU53
-ijV7wtEyJ0xFL238j3uRs13INVCGPQRILF8nUJ7vLYW+rjb5RfBsmS7lpm7WQvak
-UCpJRUs3f1VLuH+np83oQ1oR/n6Iz8+G3TjJQQqrku2mf7VGfmq7D74n46HlzBlI
-KQTWzB2/XGLPr79B91lZ1UNfBThG/nowrrBuiW3CAzGmIWaBxZSVn1k+ecJlSIon
-MnX/PISiQICYKinJDgS6m5E6W67L2m6zyiOMGGpfvyFi+z8H2AePAUXkNgbw7R/J
-mHuFD/cnKiRl3vUWSYMx5YhYQU+WDQ==
-=iw8f
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmi7GFEACgkQJNaLcl1U
+h9DuOAf+Ps+gjaAib96HmG5dy2aMIGqGMIYfVWZDsOdW20N0S8BqlJQqHtXXdYuE
+dyG6YLhVQw8Kr3Vdnm8ugfWEqva2uzP/KXbOWOgOcfft9jjW1YkIawqQr+O/I5T9
+ELWLc3MJtHjeY6F2Xx+/KdqQhk6In2qRHmXPDs82w0db4IJySvv+DVFGNcI/Yd89
+8o7ET9uNjs+Vde5tASY+l9+qPmo6AGPD3T4CU5fYYTvT5c6XY9+pdeBe2l/OvNpj
+Fj3qxW69XTpmwT+XJ2HF67O7lZNbvJ7qBNjxeeDO1yOj1lXQVrdmLfPJ60sMd706
+2UFA0kXMkaX9eRNpBP62s/OWzD/mfA==
+=SzZy
 -----END PGP SIGNATURE-----
 
---===============0627571751208679204==
+--===============1323932327066629536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -727,4 +727,4 @@ f5d15ff664a32593e0152d21ea747fb77e32ce7e regulator: dt-bindings: nxp,pf530x: Add
 b497e1a1a2b10c4ddb28064fba229365ae03311a regulator: pf530x: Add a driver for the NXP PF5300 Regulator
 92b9c2b7a88c07324d70ea877cfe2d90ac823dbf regulator: pf530x: NXP PF530x regulator driver
 
---===============0627571751208679204==--
+--===============1323932327066629536==--
