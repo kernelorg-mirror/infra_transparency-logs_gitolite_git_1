@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9210868070246989465=="
+Content-Type: multipart/mixed; boundary="===============7384816463013804288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 05 Sep 2025 01:29:43 -0000
-Message-Id: <175703578395.2466612.5121336259527925052@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 01:29:46 -0000
+Message-Id: <175703578675.2466809.14242455902092450094@gitolite.kernel.org>
 
---===============9210868070246989465==
+--===============7384816463013804288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
-    old: 550b57a1ca221b3586183cc61636e1a86fec31fe
-    new: d303f25cac03fb2ac3b961431c6d4263a9c1c029
-    log: revlist-550b57a1ca22-d303f25cac03.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: c6d99223b66c7ca3bfb4de8746dd6883e9bae06d
+    new: 0bf02a35464c7dc3c6298a98704f16371c60ae89
+    log: revlist-c6d99223b66c-0bf02a35464c.txt
 
---===============9210868070246989465==
+--===============7384816463013804288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-550b57a1ca22-d303f25cac03.txt
+Content-Disposition: attachment; filename=revlist-c6d99223b66c-0bf02a35464c.txt
 
 d10818ae45d0596e04158787d0a62536cb159cea NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
 4b689d92b60968914d677e6c83878ef84bd36009 NFSD: Move the fh_getattr() helper
@@ -126,5 +126,33 @@ f6e10e67fb3bbe367d4fec503ed2f3df6903dc1f nfs/direct: add tracepoints for misalig
 29225e7cf9af29b360cf6c3f9aca954c7eb46334 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 8b4f7868f8e417be05f2f68459c2d0aab64ca5cd Revert "nfs/direct: add misaligned WRITE handling"
 d303f25cac03fb2ac3b961431c6d4263a9c1c029 sunrpc: call xs_sock_process_cmsg for all cmsg
+cde28976e0c6e6cb6feb53838d7f034dedc433b5 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+3e612f6d9e348f8968fb1f5fb2984dd310860503 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+fb0dda63042c4b270050a94261bf6adbed096dfa Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+317773fb813f841831f3eecc093088eebca85c83 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+050efcd1bc3898ab782f25a1fead02890665c3ac Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+2c7857d72f06ed0593107c1ea854f97c019af3c1 Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+976e3de8e0f1647b18d2a2be11e13372d4fdd608 Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+e9f4ca1eca60d89b37097f8fd98e07702865e1e3 Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+b199e00c277823db88de21cce9da2ccc63899df8 Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
+24cbe11f458e67d75be4f8bd855d40905f3a4297 Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+24e833bd4beb5cae96c39e93cc1a1d529beb5eb1 kernel-6.12.24-1
+564b8eee4fb829027ec65026f6689039925afdde kernel-6.12.24-2
+517ab1b0b4b5de8e0c8f40d3043efd19b37a101b kernel-6.12.24-3
+0e8fab002d4a03d696d2f64af5eb38ed6a2e57ef kernel-6.12.24-4
+3ab15d6196e4f5fc1afaf75d1d4789053dd529ec kernel-6.12.24-5
+707025b3ffb6cc3ad91ab3337c1818cdb066fbf7 kernel-6.12.24-6
+7c1f76aa470ca036d9f243e773dfb7469daeb54e kernel-6.12.24-7
+6bdff3dd9157707bb39b317dde39e5f4a4607d88 kernel-6.12.24-8
+3ef7b7c6e9cb5747b09d997d1e7340e5ea447ea5 kernel-6.12.24-9
+82c479e0bc92cea85747ead445d3eac2d902143c kernel-6.12.24-10
+2d6627dcf511934df9a7f4346587f60d5396547c kernel-6.12.24-11
+76e146bfcaa98bf1d00f0072d8a47ca038e7f550 kernel-6.12.24-12
+bd0b377edb70df5e7d5f1a3349e968add9b415dd kernel-6.12.24-13
+f165d40149bdf01ed2d887031408505ccbe2f475 kernel-6.12.24-14
+3c02274603a320d25ffb6cc6337d4765c443bb17 kernel-6.12.24-15
+f21fe510511e61ffe981de94fe450dc134dfb5a0 kernel-6.12.24-16
+037abe0b636912c71bf69036eced2517a99c39aa kernel-6.12.24-17
+0bf02a35464c7dc3c6298a98704f16371c60ae89 kernel-6.12.24-18
 
---===============9210868070246989465==--
+--===============7384816463013804288==--
