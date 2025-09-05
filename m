@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1513763326521399282=="
+Content-Type: multipart/mixed; boundary="===============2043388245128462431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 05 Sep 2025 15:57:21 -0000
-Message-Id: <175708784186.3207208.11063216748993913342@gitolite.kernel.org>
+Date: Fri, 05 Sep 2025 15:57:24 -0000
+Message-Id: <175708784497.3207292.18234159673693372509@gitolite.kernel.org>
 
---===============1513763326521399282==
+--===============2043388245128462431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: c975e1dfcc929dbfde8abfa514494b66f0335006
     new: 16c610162d1f1c332209de1c91ffb09b659bb65d
     log: revlist-c975e1dfcc92-16c610162d1f.txt
 
---===============1513763326521399282==
+--===============2043388245128462431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -413,4 +413,4 @@ b13592d20b210976a0946adf027b7bd9d7734326 tcp: use tcp_eat_recv_skb in __tcp_clos
 abfa70b380348cf414e6b40fd485d1dd8d50504a Merge branch 'tcp-__tcp_close-changes'
 16c610162d1f1c332209de1c91ffb09b659bb65d net: call cond_resched() less often in __release_sock()
 
---===============1513763326521399282==--
+--===============2043388245128462431==--
