@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 05 Sep 2025 16:12:43 -0000
-Message-Id: <175708876375.3220695.5715392908104935814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 05 Sep 2025 16:17:22 -0000
+Message-Id: <175708904262.3225099.16667977318314120411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 9a6d3ff10f7f538835cae4799562004ee46922c5
-    new: a7ed7b9d0ebb038db9963d574da0311cab0b666a
+  - ref: refs/tags/scsi-fixes
+    old: 4fde3e7dc4938464f9310fb6736902efc1cdfe9c
+    new: aa7373aba8ee6d677fc1321ef4d7800e9d612d51
     log: |
-         f3ef7110924b897f4b79db9f7ac75d319ec09c4a ACPI/IORT: Fix memory leak in iort_rmr_alloc_sids()
-         a7ed7b9d0ebb038db9963d574da0311cab0b666a arm64: ftrace: fix unreachable PLT for ftrace_caller in init_module with CONFIG_DYNAMIC_FTRACE
+         9dba9a45c348e8460da97c450cddf70b2056deb3 scsi: lpfc: Fix buffer free/clear order in deferred receive path
+         708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe scsi: sr: Reinstate rotational media flag
          
