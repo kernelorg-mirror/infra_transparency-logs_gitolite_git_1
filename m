@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 06 Sep 2025 00:47:55 -0000
-Message-Id: <175711967503.3657140.850699748093557169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 06 Sep 2025 00:48:20 -0000
+Message-Id: <175711970065.3657541.3752087699049421433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 16c610162d1f1c332209de1c91ffb09b659bb65d
-    new: 43a42b85162aa1430556d58bbde05b54786a2c5a
+    old: 157cf360c4a8751f7f511a71cc3a283b5d27f889
+    new: 03e79de4608bdd48ad6eec272e196124cefaf798
     log: |
-         43a42b85162aa1430556d58bbde05b54786a2c5a net: phy: fixed_phy: remove link gpio support
+         03e79de4608bdd48ad6eec272e196124cefaf798 net: fec: Fix possible NPD in fec_enet_phy_reset_after_clk_enable()
          
