@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Sat, 06 Sep 2025 12:23:30 -0000
-Message-Id: <175716141034.84394.9074878342392278931@gitolite.kernel.org>
+Date: Sat, 06 Sep 2025 12:31:09 -0000
+Message-Id: <175716186921.91956.1301148861875228024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/extcon-next
-    old: ed1db66c8b818a485c2ad99db28f9410b1e5e3ea
-    new: 97caae28f7dec1af24ea6492ad3dc12fdefed639
+    old: 97caae28f7dec1af24ea6492ad3dc12fdefed639
+    new: cf1b84a768473bc4e8a43d69850a82179822e80f
     log: |
-         97caae28f7dec1af24ea6492ad3dc12fdefed639 dt-bindings: extcon: rt8973a: Convert DT bindings to YAML
+         cf1b84a768473bc4e8a43d69850a82179822e80f dt-bindings: extcon: linux,extcon-usb-gpio: GPIO must be provided
          
