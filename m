@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8357042822454318980=="
+Content-Type: multipart/mixed; boundary="===============6737851673838574816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 06 Sep 2025 17:50:38 -0000
-Message-Id: <175718103818.356856.14417265973299445151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sat, 06 Sep 2025 17:52:31 -0000
+Message-Id: <175718115187.357941.13429924748341440865@gitolite.kernel.org>
 
---===============8357042822454318980==
+--===============6737851673838574816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 20f2044bae1187f58863c7aa3d07dfc6ba50afec
-    new: 7704e6be4ed2835832c445807cdcb2d56d8a8430
+  - ref: refs/heads/driver-core-testing
+    old: c2ce2453413d429e302659abc5ace634e873f6f5
+    new: eca710386972f2a72708b0b2a615eb150d218e18
     log: |
-         ceda408c0d1d41094ad125332c6fb1d488e61c0c misc: remove ineffective WARN_ON() check from misc_deregister()
-         e28022873c0d051e980c4145f1965cab5504b498 char: Use list_del_init() in misc_deregister() to reinitialize list pointer
-         76254bc489d39dae9a3427f0984fe64213d20548 cdx: Fix device node reference leak in cdx_msi_domain_init
-         7704e6be4ed2835832c445807cdcb2d56d8a8430 mei: hook mei_device on class device
+         2b2d4c744e1ab8b8d41c5c2ccf889f5441e50105 drivers: base: fix "publically"->"publicly"
+         a86537ad21c7ba587241b0dcdd186f894a69fac7 driver core: get_dev_from_fwnode(): document potential race
+         716cec5fc92f6d4090a54ddb01042bce02b3c771 driver core: Fix order of the kernel-doc parameters
+         eca710386972f2a72708b0b2a615eb150d218e18 driver core: auxiliary bus: Drop dev_pm_domain_detach() call
          
 
---===============8357042822454318980==
+--===============6737851673838574816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757181084 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1757181032-057a680466fe421ecd4da56ead24617a78dc3a5b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757181198 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1757181147-b0a87b4f0bf6401776a0acc23d4fe9d75a29d1b7
 
-20f2044bae1187f58863c7aa3d07dfc6ba50afec 7704e6be4ed2835832c445807cdcb2d56d8a8430 refs/heads/char-misc-testing
+c2ce2453413d429e302659abc5ace634e873f6f5 eca710386972f2a72708b0b2a615eb150d218e18 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi8dJwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0SMP/Aw0s8/nTFk0eD3sOjln
-KObq9LwZkyoLIpkL4YT3joaU8fqRfJURWooAUDPw1kGSYErh4gL6R1x/KRX25YTC
-mnWG/AdhOOpfL3E7fpbxacYlXiVk/Tg83BmCXLtWtcCRkcXhO0Q08+6SI5TiCy6d
-H2zsll5x3cdZUPdAaxe2MbewxvNTsRoPfEoVYNe7yCo9KOqSCGx1ctZTsHvKDITy
-CdoOmzX8m8NpOpAIixNFjy0Bnl/etRRUqW/IFyftNXpCPFEuB289wLbeHbI7O2Hy
-1p3b14a/GEWoi1+5B7shRPSzQgYqKaqdG6Dip6A56n/p/YcnxzuvAgkKy7SdYjVc
-SqdaKn5qRD1qqenZuSnoWA5bS1r1wCSHvFFAzrp0AXUwmIPwpxCnfse6iks2cc8z
-2F6/VlQMCJxe2+0d3X6dR6+WjY/J0t9xJkLXYGZL0cr2Rb6FL4IqWBUPyIAZPi5Q
-z3zWVZCOtGFo3WgcoQ8RURgiRbnoq9fzVv3IXqwAwQIiPsccKPKXkn5KU5f5o/Xw
-6DL8/WXu7O0pOZjMF0EFXF32us6xO5N1Kgjc6F41JTxyMwKsc0BtAgYwoTSR3M98
-YmnY2hTdhMmGrzRxlaJwQdYIollnTvxpecRrif2PctW/NZ+cjXL6keD2c06oZsxY
-uaYV0kg0gH2Z012TvBRJwNKZ
-=1yvJ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi8dQ4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ctMP/iQGteafUhLwSZWc52QQ
+9TBj9/RhM98n8QTYLZfgOCB5KuncjUt/APW5bhILqXO9Yd9YcSFkeKqHooNKyToE
+cl3MK1jUwECkcPTM8m3H6XcTp0nB2lUBgu3e8UTcUf7XaG3REU47V0fPFAvpwbiG
+KYxjHyBwDzACm9UbFBCG1js/thyvF1J1IV/NRUysjj3/FV2jQjLWTRHRR9C9xtgt
+MVqdz3FPZjZTHZlrkAqzZ+UFoFtDYhEGADbr9sAMkGeJXP9CldSS53/Os1dlr+5L
+Z3Kz7dER9NWevrwIqFXeTrwdxM4s12eM22ZErgZ0gIIN1+t+1laxrwoka8xZwEvm
+dSnhlTp7xv8liBRL6a2JdmYr+hQBjg2tY4LI4AIjFuSBVkRrNXN0S5quablRDtDt
+imh/2mSLjHLS5KbFXxUOoZB8jQju/FRjCk8bod4xjyIDhZILXP1rmfUwNdeDkc31
+qXr5tqKejq8Xov6m1armUPQHi7iVfUM0fRwSNumcIINedM9ks5UNdne0noftjyNW
+WJjlDpqAgHMrxGXbGmCDrJL16tUC9j0aSJnJZl7wfaLJWOyHCXAUiGgFctVcPJHw
+mZqs37l0huk7X5Rq/epd/nMUXp9JmvTgu9kODGmRaDWvuo2oa1WMVUiyKw7J0nTz
+YZ3c4uIUuVZw208fu9tWPOR/
+=/BVx
 -----END PGP SIGNATURE-----
 
---===============8357042822454318980==--
+--===============6737851673838574816==--
