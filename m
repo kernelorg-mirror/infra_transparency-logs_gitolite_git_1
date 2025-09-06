@@ -1,1479 +1,2530 @@
-Content-Type: multipart/mixed; boundary="===============1434496376880889583=="
+Content-Type: multipart/mixed; boundary="===============0426017393308426092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Sat, 06 Sep 2025 05:24:04 -0000
-Message-Id: <175713624475.3893702.12786138243296896826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/e2fsprogs
+Date: Sat, 06 Sep 2025 05:25:01 -0000
+Message-Id: <175713630112.3895117.9578874731025066687@gitolite.kernel.org>
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+repo: pub/scm/linux/kernel/git/djwong/e2fsprogs
 user: djwong
 changes:
-  - ref: refs/heads/djwong-wtf
-    old: 3fbc4bf476259d56e8e484a32fadfa6ec8920bef
-    new: b999b846b46715592e1271c00eada1881a2cb081
-    log: revlist-3fbc4bf47625-b999b846b467.txt
-  - ref: refs/heads/fix-scrub-reap-calculations
-    old: 3346b51f98b45ee0e14f3c5960f3c22476cc63b0
-    new: e81f7dc0dd16835ea712f890963f9ef325a97b5d
+  - ref: refs/heads/fuse2fs-caching
+    old: 4173bde9dbbdf4d78c5e7ad63171dc0851f46011
+    new: 477079b92526955c22e50ff6a3ec45003c41c670
+    log: revlist-4173bde9dbbd-477079b92526.txt
+  - ref: refs/heads/fuse2fs-fixes
+    old: 3feda0e4ab8189d011cffc7302b4d463f28ceb5a
+    new: aa111330c2d3b7bdafd67c0a166c1ff37421e292
     log: |
-         05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-         2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-         09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-         cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-         24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-         34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-         97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-         f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-         e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
+         298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+         22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+         7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+         054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+         cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+         689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+         fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+         ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+         454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+         75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+         aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
          
-  - ref: refs/heads/fuse-fixes
-    old: feb769097d15991f974385fd76961b8b2c741b1a
-    new: b1841d01711dea4b6b2981a6aa82960c3703f455
-    log: revlist-feb769097d15-b1841d01711d.txt
-  - ref: refs/heads/fuse-iomap-attrs
-    old: 3e37f9253689178b97e0e7c52ced10f4a372541f
-    new: 45529b44955df2a70feb3124a5a62a9e17aa234f
-    log: revlist-3e37f9253689-45529b44955d.txt
-  - ref: refs/heads/fuse-iomap-cache
-    old: 8035f0176cbb826c2b2f5535d30496e71e898644
-    new: 6e0774184761728536fb64425b8bd0cf490b3783
-    log: revlist-8035f0176cbb-6e0774184761.txt
-  - ref: refs/heads/fuse-iomap-fileio
-    old: b44e872f65b2bed16545d664d34936c04538e5e2
-    new: 4afbb2efcd6c27e22b5b3f24423d287b7c34b582
-    log: revlist-b44e872f65b2-4afbb2efcd6c.txt
-  - ref: refs/heads/fuse-iomap-prep
-    old: e92eb157369d6d75f67a8b1016f3fa3fc0361cb6
-    new: 505e97934bcf155ceaf0075ad994df62aa2b7299
-    log: revlist-e92eb157369d-505e97934bcf.txt
-  - ref: refs/heads/fuse-root-nodeid
-    old: f0cd36e8661812ab7f4271fcc307732ae907d8d0
-    new: ac6e598455421690ee395eda18645afeaeeca532
-    log: revlist-f0cd36e86618-ac6e59845542.txt
-  - ref: refs/heads/fuse-service-container
-    old: 5268acfc421ee57c1d78911113b5efd94c1befad
-    new: 9a09141ad7c1f17c40907dc85a84f71c35f6bcb0
-    log: revlist-5268acfc421e-9a09141ad7c1.txt
-  - ref: refs/heads/health-monitoring
-    old: 4b8f2aabd3bb9d259bde7ad68f3596a6a3989b22
-    new: 48426d42cb86ec98adac67580a45dd0aa5f22304
-    log: revlist-4b8f2aabd3bb-48426d42cb86.txt
-  - ref: refs/heads/iomap-fuse-prep
-    old: a7194c98335df7c1ccf678f6032cb766bf7b332a
-    new: 824702470388a91847aa7a7db00aba7800fff73f
-    log: revlist-a7194c98335d-824702470388.txt
-  - ref: refs/heads/kconfig-2025-changes
-    old: c3889ef929df4c56c6c075d207540e7c242fa028
-    new: 7353387075b8bd6cc0d5a39408856fc0c97674ec
-    log: revlist-c3889ef929df-7353387075b8.txt
-  - ref: refs/tags/djwong-wtf_2025-09-05
-    old: 14b815df7bcf05ce4565dcfbf872e3d19d6135a3
-    new: 0e955404789943b80b28ca88337b83e7442018cc
-    log: revlist-14b815df7bcf-0e9554047899.txt
-  - ref: refs/tags/fix-scrub-reap-calculations_2025-09-05
-    old: aeeaac01520c8045b59c3554da5baf9d1f24fb0a
-    new: 78a09905858f08778b8e6f704ed424e9be54f76d
+  - ref: refs/heads/fuse2fs-iomap-attrs
+    old: f3d297e59a7867fa18be3ca9f6bdc2029c08afcd
+    new: c53a2350217acb1ed22432d0df9c50ed90ec20d8
+    log: revlist-f3d297e59a78-c53a2350217a.txt
+  - ref: refs/heads/fuse2fs-iomap-cache
+    old: b3c0acdeb2bd1129556adf2151d9624193c31084
+    new: ee8d49450cc09a3f3c20b0b76f2b60e5c507c56c
+    log: revlist-b3c0acdeb2bd-ee8d49450cc0.txt
+  - ref: refs/heads/fuse2fs-iomap-fileio
+    old: be1ce0d0bf25882fc55855783a2a84940963a53b
+    new: ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da
+    log: revlist-be1ce0d0bf25-ffd5a9068b29.txt
+  - ref: refs/heads/fuse2fs-library-upgrade
+    old: bfe909094eda150e143a9dca8dd2facd3bb6cc06
+    new: a589406ffa19d6cbf93d87047a24d497cfd4d568
+    log: revlist-bfe909094eda-a589406ffa19.txt
+  - ref: refs/heads/fuse2fs-new-features
+    old: c42caec049fa6fc6f70af36c5c6cbaaf895c779c
+    new: 9ba49f97d535a7969e93a3c1367080b0d72b5934
+    log: revlist-c42caec049fa-9ba49f97d535.txt
+  - ref: refs/heads/fuse2fs-refactor-mounting
+    old: 19a3ee3a348cfb5c191bbf76965b75baaedbbbe4
+    new: 25cb68dd3f42fd25efbde24861af7c0f3267c2ab
+    log: revlist-19a3ee3a348c-25cb68dd3f42.txt
+  - ref: refs/heads/fuse2fs-refactor-operation-startup
+    old: 91127cb83ab1a1b7a01bd07c45ac26e67aa60cc0
+    new: 098fd3998eea0a23ae2289a9cba12e894ce54f4d
+    log: revlist-91127cb83ab1-098fd3998eea.txt
+  - ref: refs/heads/fuse2fs-refactor-unmounting
+    old: 617ffe5a17a009a34035939227d65092870163d2
+    new: e719bedcd1b6dc4ad1ff2c3a826b874d10d27204
+    log: revlist-617ffe5a17a0-e719bedcd1b6.txt
+  - ref: refs/heads/fuse2fs-root-nodeid
+    old: 5b5cdb3df9d7966a1774d4611a4ebf5fbd504f2b
+    new: 9ff03d8ec25816995792589e8f5e1e1fe5b01b75
+    log: revlist-5b5cdb3df9d7-9ff03d8ec258.txt
+  - ref: refs/heads/fuse2fs-tracing
+    old: 8caf6b5ddac51c2d1e5959cf091d15be133467c1
+    new: 814445dcb7a5de425ab883eeb796f3b94dffb1ab
+    log: revlist-8caf6b5ddac5-814445dcb7a5.txt
+  - ref: refs/heads/fuse2fs-use-fuseblk
+    old: 9c81a3d5c8b0d45223e5bcb22172e44dc9422a56
+    new: 7fcc9b37dfa1826355e13e5c51936ddbddc41147
+    log: revlist-9c81a3d5c8b0-7fcc9b37dfa1.txt
+  - ref: refs/heads/fuse2fs-writability
+    old: 72751a91d95f98705d1c21a5cefd3ff9edb2721c
+    new: cebd55f9997e837ed57a530ad5c00dbd656d7b63
+    log: revlist-72751a91d95f-cebd55f9997e.txt
+  - ref: refs/heads/fuse4fs-fork
+    old: 082815341de497c499ef6c1693c2fd04119a30f8
+    new: 63409ceb3153db7f5b195e2ec2de77fcb8ba261d
+    log: revlist-082815341de4-63409ceb3153.txt
+  - ref: refs/heads/fuse4fs-service-container
+    old: 7baf14d755c94c0e043310aaae4076bd6b2b1d96
+    new: ea9fa6ee827607af10734361f1d8e035d0202213
+    log: revlist-7baf14d755c9-ea9fa6ee8276.txt
+  - ref: refs/heads/libext2fs-iomap-prep
+    old: 9156d4d24dedde1839cfdf2eb2bd2d1af60b0e47
+    new: 0f620e94b8e8e27be433894a96c4729cc52010f8
+    log: revlist-9156d4d24ded-0f620e94b8e8.txt
+  - ref: refs/tags/fuse2fs-caching_2025-09-05
+    old: 94d2068aad61493a9073e816d3db7076f3609f86
+    new: 49529445ba58bab529037b25573a807e626f807d
+    log: revlist-94d2068aad61-49529445ba58.txt
+  - ref: refs/tags/fuse2fs-fixes_2025-09-05
+    old: 2aff81a71f7b090ea49320405807990f17fadbcb
+    new: 18053165072c9cc39893c6deb68a28bf31d1d00e
     log: |
-         05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-         2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-         09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-         cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-         24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-         34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-         97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-         f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-         e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
+         298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+         22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+         7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+         054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+         cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+         689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+         fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+         ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+         454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+         75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+         aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
          
-  - ref: refs/tags/fuse-fixes_2025-09-05
-    old: 617e5b34e56f6bf90a0b8cf25e6addb6bd65db68
-    new: 9c9696a02b8477e24ea733edd932f32521b5dded
-    log: revlist-617e5b34e56f-9c9696a02b84.txt
-  - ref: refs/tags/fuse-iomap-attrs_2025-09-05
-    old: c691e6798f926deb2db7f18cbb36d6fb41371685
-    new: 57a8405ef7a3b14d371cf9f58fe084bfd51deac0
-    log: revlist-c691e6798f92-57a8405ef7a3.txt
-  - ref: refs/tags/fuse-iomap-cache_2025-09-05
-    old: 81c2fea034185636c5b58acc335862346815f8e0
-    new: 69aba9484fa42487efccfa8a90f73ce4dd777939
-    log: revlist-81c2fea03418-69aba9484fa4.txt
-  - ref: refs/tags/fuse-iomap-fileio_2025-09-05
-    old: 28a2fee4bdd78ff0f17035d0d2255050a66d267a
-    new: fb2d44ee772de068cf24f3b578c84635b14e42fa
-    log: revlist-28a2fee4bdd7-fb2d44ee772d.txt
-  - ref: refs/tags/fuse-iomap-prep_2025-09-05
-    old: 413aa026d2b1b843f1e5ac8868882ece13dec364
-    new: 2834bee061578bd797d8025ff54b23e4d3c25649
-    log: revlist-413aa026d2b1-2834bee06157.txt
-  - ref: refs/tags/fuse-root-nodeid_2025-09-05
-    old: 190cabd74d40550f61f945536c12462a58a78ce3
-    new: a5e1bed459f04f846e55ed285b79e136f4cdea4b
-    log: revlist-190cabd74d40-a5e1bed459f0.txt
-  - ref: refs/tags/fuse-service-container_2025-09-05
-    old: cebe9486da34b87d4881bea260edf551135abd20
-    new: f29db363058ddb94676ec25920adcc9819f6bf6e
-    log: revlist-cebe9486da34-f29db363058d.txt
-  - ref: refs/tags/health-monitoring_2025-09-05
-    old: 5c1b6eae19fd854ef2d19d0951baa20dbc9b1617
-    new: 9e81ec70a0a6e0ec40ecae85eca3d9524c3a468c
-    log: revlist-5c1b6eae19fd-9e81ec70a0a6.txt
-  - ref: refs/tags/iomap-fuse-prep_2025-09-05
-    old: c413d8da6111c2c3d2e349d220960e5ed4525c64
-    new: 0ba9467426f9058cac83eae4659dc5752c761819
-    log: revlist-c413d8da6111-0ba9467426f9.txt
-  - ref: refs/tags/kconfig-2025-changes_2025-09-05
-    old: f1976e7c19f10d84ab53405e4e409d2bc393039c
-    new: 09a2fec5d6c35686b05fc009e28e25a21cd1d943
-    log: revlist-f1976e7c19f1-09a2fec5d6c3.txt
+  - ref: refs/tags/fuse2fs-iomap-attrs_2025-09-05
+    old: 163d769767c1a8fc1bd0b9c55eac07e1f81d978e
+    new: d81cd48d3ba58b76c108700f5ffd54e4eed07f76
+    log: revlist-163d769767c1-d81cd48d3ba5.txt
+  - ref: refs/tags/fuse2fs-iomap-cache_2025-09-05
+    old: a100c6110c9052ca67b1c11b397b0ac7fe08d2c9
+    new: e171247f8084696d93ab4131529d50bfc2fbfad2
+    log: revlist-a100c6110c90-e171247f8084.txt
+  - ref: refs/tags/fuse2fs-iomap-fileio_2025-09-05
+    old: 666057def0cda8b00850187139808671fb6925cf
+    new: 3d9ff83a76cb3cd2ae5d206ee57127f54e7cfcbd
+    log: revlist-666057def0cd-3d9ff83a76cb.txt
+  - ref: refs/tags/fuse2fs-library-upgrade_2025-09-05
+    old: 5e1afb9a057c91b0b14452bb3af0a972433a1422
+    new: 13c17fd2829738441989976c498cb1e6bd3138f7
+    log: revlist-5e1afb9a057c-13c17fd28297.txt
+  - ref: refs/tags/fuse2fs-new-features_2025-09-05
+    old: 5a98bc04415b261cf167d07368c788fa4c9dd0d2
+    new: 4755a2511f6c06369c5b2e995c8110d7b4f3cc31
+    log: revlist-5a98bc04415b-4755a2511f6c.txt
+  - ref: refs/tags/fuse2fs-refactor-mounting_2025-09-05
+    old: 0804f02e0fa647f6d5599534df5c1f32bff1988b
+    new: d4bb08363ff3d8daf6f943d46c6d024506f48c90
+    log: revlist-0804f02e0fa6-d4bb08363ff3.txt
+  - ref: refs/tags/fuse2fs-refactor-operation-startup_2025-09-05
+    old: db204a08272233715d42f245f313663c4b81cdac
+    new: bfaa05dcbace15b27e938927a71a3ea572072871
+    log: revlist-db204a082722-bfaa05dcbace.txt
+  - ref: refs/tags/fuse2fs-refactor-unmounting_2025-09-05
+    old: d0c66382b5a6a3ca1604a103d2576f3e1f754064
+    new: bd0e58273ca26806e5949026d038946b37995e0f
+    log: revlist-d0c66382b5a6-bd0e58273ca2.txt
+  - ref: refs/tags/fuse2fs-root-nodeid_2025-09-05
+    old: 28038caede2f7a51e82b2eaa999e3b3ea42b7ae3
+    new: d1edaef089f7e0d483319dcb5aef0343599d13da
+    log: revlist-28038caede2f-d1edaef089f7.txt
+  - ref: refs/tags/fuse2fs-tracing_2025-09-05
+    old: 4230d1f5d0a0361e2b276662ef6251d6457366f0
+    new: 2cdcfa4a753266ac306411df17c84f70fb94a276
+    log: revlist-4230d1f5d0a0-2cdcfa4a7532.txt
+  - ref: refs/tags/fuse2fs-use-fuseblk_2025-09-05
+    old: 7fbeaf83ea9a76d003270b8da0a853bd6e19a41c
+    new: f6dae382e5c99b12f9cd909dbecf850340872518
+    log: revlist-7fbeaf83ea9a-f6dae382e5c9.txt
+  - ref: refs/tags/fuse2fs-writability_2025-09-05
+    old: 6061db982e512675d2968b8bb3f68ce114c9f6b6
+    new: c90b55b7f08e77b711b70c05aed0787f0614efd3
+    log: revlist-6061db982e51-c90b55b7f08e.txt
+  - ref: refs/tags/fuse4fs-fork_2025-09-05
+    old: 3701d62675a21de832dfcfefd05c01a1f5412d8e
+    new: eeb7eab434b15b937f542c3f16adc217ea29ca05
+    log: revlist-3701d62675a2-eeb7eab434b1.txt
+  - ref: refs/tags/fuse4fs-service-container_2025-09-05
+    old: 43a03c67541f76d035bcadc655020292c6c31df1
+    new: 0b452f7576aec0f4a37eda65958d83de6280ee7d
+    log: revlist-43a03c67541f-0b452f7576ae.txt
+  - ref: refs/tags/libext2fs-iomap-prep_2025-09-05
+    old: 5ac9941d4736596677bb3e733383f484071ebb13
+    new: 1f39b99e85b889f0b2956ab1b82506afcbe56f73
+    log: revlist-5ac9941d4736-1f39b99e85b8.txt
+  - ref: refs/tags/origin/next_2025-09-05
+    old: 151f56734347592db3e9811754dcd82b6c98483c
+    new: 277df1a16cde755f15a01056c39fd38984b83736
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fbc4bf47625-b999b846b467.txt
+Content-Disposition: attachment; filename=revlist-4173bde9dbbd-477079b92526.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
-29201259c92883f64bfd71f68f37173a8edb95b9 fuse: cache iomaps
-01566914592893939ca3d269b47e9eb9e7442788 fuse: use the iomap cache for iomap_begin
-178b2ae49accd79249ac62e32821e381ee753b1c fuse: invalidate iomap cache after file updates
-5d13a78d7b47691c845f4cc5cb93a2d14a6fd261 fuse: enable iomap cache management
-6e0774184761728536fb64425b8bd0cf490b3783 fuse: enable iomap
-42ec9cb4dd75d7d290810c1c4d8a06cea8483f5f fuse: allow privileged mount helpers to pre-approve iomap usage
-9a09141ad7c1f17c40907dc85a84f71c35f6bcb0 fuse: set iomap backing device block size
-b999b846b46715592e1271c00eada1881a2cb081 xfs: upgrade filesystem features
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
+9ecf35005e39c74fd07f4246d13ce995e1afa8e1 fuse2fs: enable caching of iomaps
+ee8d49450cc09a3f3c20b0b76f2b60e5c507c56c fuse2fs: be smarter about caching iomaps
+297efbf8f90441d0c17f5620f650310022c13506 libsupport: add caching IO manager
+4e49c239e96e7e26b90f1ac2feadb259211af987 iocache: add the actual buffer cache
+37e83b341f49c63593e08b9ea2baa1b4b71d52f0 iocache: bump buffer mru priority every 50 accesses
+14afdcad74343966d63dbc0ebcb1489c9b72c585 fuse2fs: enable caching IO manager
+936cd84b9ac7bf845c42c0c54df566cd11a9f0ba fuse2fs: increase inode cache size
+477079b92526955c22e50ff6a3ec45003c41c670 libext2fs: improve caching for inodes
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-feb769097d15-b1841d01711d.txt
+Content-Disposition: attachment; filename=revlist-f3d297e59a78-c53a2350217a.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e37f9253689-45529b44955d.txt
+Content-Disposition: attachment; filename=revlist-b3c0acdeb2bd-ee8d49450cc0.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
+9ecf35005e39c74fd07f4246d13ce995e1afa8e1 fuse2fs: enable caching of iomaps
+ee8d49450cc09a3f3c20b0b76f2b60e5c507c56c fuse2fs: be smarter about caching iomaps
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8035f0176cbb-6e0774184761.txt
+Content-Disposition: attachment; filename=revlist-be1ce0d0bf25-ffd5a9068b29.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
-29201259c92883f64bfd71f68f37173a8edb95b9 fuse: cache iomaps
-01566914592893939ca3d269b47e9eb9e7442788 fuse: use the iomap cache for iomap_begin
-178b2ae49accd79249ac62e32821e381ee753b1c fuse: invalidate iomap cache after file updates
-5d13a78d7b47691c845f4cc5cb93a2d14a6fd261 fuse: enable iomap cache management
-6e0774184761728536fb64425b8bd0cf490b3783 fuse: enable iomap
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b44e872f65b2-4afbb2efcd6c.txt
+Content-Disposition: attachment; filename=revlist-bfe909094eda-a589406ffa19.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e92eb157369d-505e97934bcf.txt
+Content-Disposition: attachment; filename=revlist-c42caec049fa-9ba49f97d535.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0cd36e86618-ac6e59845542.txt
+Content-Disposition: attachment; filename=revlist-19a3ee3a348c-25cb68dd3f42.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5268acfc421e-9a09141ad7c1.txt
+Content-Disposition: attachment; filename=revlist-91127cb83ab1-098fd3998eea.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
-29201259c92883f64bfd71f68f37173a8edb95b9 fuse: cache iomaps
-01566914592893939ca3d269b47e9eb9e7442788 fuse: use the iomap cache for iomap_begin
-178b2ae49accd79249ac62e32821e381ee753b1c fuse: invalidate iomap cache after file updates
-5d13a78d7b47691c845f4cc5cb93a2d14a6fd261 fuse: enable iomap cache management
-6e0774184761728536fb64425b8bd0cf490b3783 fuse: enable iomap
-42ec9cb4dd75d7d290810c1c4d8a06cea8483f5f fuse: allow privileged mount helpers to pre-approve iomap usage
-9a09141ad7c1f17c40907dc85a84f71c35f6bcb0 fuse: set iomap backing device block size
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b8f2aabd3bb-48426d42cb86.txt
+Content-Disposition: attachment; filename=revlist-617ffe5a17a0-e719bedcd1b6.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7194c98335d-824702470388.txt
+Content-Disposition: attachment; filename=revlist-5b5cdb3df9d7-9ff03d8ec258.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3889ef929df-7353387075b8.txt
+Content-Disposition: attachment; filename=revlist-8caf6b5ddac5-814445dcb7a5.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14b815df7bcf-0e9554047899.txt
+Content-Disposition: attachment; filename=revlist-9c81a3d5c8b0-7fcc9b37dfa1.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
-29201259c92883f64bfd71f68f37173a8edb95b9 fuse: cache iomaps
-01566914592893939ca3d269b47e9eb9e7442788 fuse: use the iomap cache for iomap_begin
-178b2ae49accd79249ac62e32821e381ee753b1c fuse: invalidate iomap cache after file updates
-5d13a78d7b47691c845f4cc5cb93a2d14a6fd261 fuse: enable iomap cache management
-6e0774184761728536fb64425b8bd0cf490b3783 fuse: enable iomap
-42ec9cb4dd75d7d290810c1c4d8a06cea8483f5f fuse: allow privileged mount helpers to pre-approve iomap usage
-9a09141ad7c1f17c40907dc85a84f71c35f6bcb0 fuse: set iomap backing device block size
-b999b846b46715592e1271c00eada1881a2cb081 xfs: upgrade filesystem features
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-617e5b34e56f-9c9696a02b84.txt
+Content-Disposition: attachment; filename=revlist-72751a91d95f-cebd55f9997e.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c691e6798f92-57a8405ef7a3.txt
+Content-Disposition: attachment; filename=revlist-082815341de4-63409ceb3153.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81c2fea03418-69aba9484fa4.txt
+Content-Disposition: attachment; filename=revlist-7baf14d755c9-ea9fa6ee8276.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
-29201259c92883f64bfd71f68f37173a8edb95b9 fuse: cache iomaps
-01566914592893939ca3d269b47e9eb9e7442788 fuse: use the iomap cache for iomap_begin
-178b2ae49accd79249ac62e32821e381ee753b1c fuse: invalidate iomap cache after file updates
-5d13a78d7b47691c845f4cc5cb93a2d14a6fd261 fuse: enable iomap cache management
-6e0774184761728536fb64425b8bd0cf490b3783 fuse: enable iomap
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
+9ecf35005e39c74fd07f4246d13ce995e1afa8e1 fuse2fs: enable caching of iomaps
+ee8d49450cc09a3f3c20b0b76f2b60e5c507c56c fuse2fs: be smarter about caching iomaps
+297efbf8f90441d0c17f5620f650310022c13506 libsupport: add caching IO manager
+4e49c239e96e7e26b90f1ac2feadb259211af987 iocache: add the actual buffer cache
+37e83b341f49c63593e08b9ea2baa1b4b71d52f0 iocache: bump buffer mru priority every 50 accesses
+14afdcad74343966d63dbc0ebcb1489c9b72c585 fuse2fs: enable caching IO manager
+936cd84b9ac7bf845c42c0c54df566cd11a9f0ba fuse2fs: increase inode cache size
+477079b92526955c22e50ff6a3ec45003c41c670 libext2fs: improve caching for inodes
+59741d6931a4b07caa03ce77794b692a4a6e6b6c fuse4fs: enable safe service mode
+0639a31e5b9a0dae83b185e21f4e7d1d5bab93d1 fuse4fs: set proc title when in fuse service mode
+ea9fa6ee827607af10734361f1d8e035d0202213 fuse4fs: set iomap backing device blocksize
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28a2fee4bdd7-fb2d44ee772d.txt
+Content-Disposition: attachment; filename=revlist-9156d4d24ded-0f620e94b8e8.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-413aa026d2b1-2834bee06157.txt
+Content-Disposition: attachment; filename=revlist-94d2068aad61-49529445ba58.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
+9ecf35005e39c74fd07f4246d13ce995e1afa8e1 fuse2fs: enable caching of iomaps
+ee8d49450cc09a3f3c20b0b76f2b60e5c507c56c fuse2fs: be smarter about caching iomaps
+297efbf8f90441d0c17f5620f650310022c13506 libsupport: add caching IO manager
+4e49c239e96e7e26b90f1ac2feadb259211af987 iocache: add the actual buffer cache
+37e83b341f49c63593e08b9ea2baa1b4b71d52f0 iocache: bump buffer mru priority every 50 accesses
+14afdcad74343966d63dbc0ebcb1489c9b72c585 fuse2fs: enable caching IO manager
+936cd84b9ac7bf845c42c0c54df566cd11a9f0ba fuse2fs: increase inode cache size
+477079b92526955c22e50ff6a3ec45003c41c670 libext2fs: improve caching for inodes
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-190cabd74d40-a5e1bed459f0.txt
+Content-Disposition: attachment; filename=revlist-163d769767c1-d81cd48d3ba5.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cebe9486da34-f29db363058d.txt
+Content-Disposition: attachment; filename=revlist-a100c6110c90-e171247f8084.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
-6d1f28e3fe4b0adbef028b046d5ad78502bd6130 fuse: allow synchronous FUSE_INIT
-32f7c1702bf033a1067df0904917f5245edcc911 fuse: move the backing file idr and code into a new source file
-3ba0a83d814253afdcec5ce30d1a4322c3d67786 fuse: move the passthrough-specific code back to passthrough.c
-505e97934bcf155ceaf0075ad994df62aa2b7299 fuse: move CREATE_TRACE_POINTS to a separate file
-dde6b47968a11d98a452c45eece8b28986e16bea fuse: implement the basic iomap mechanisms
-50db802e38edaf2fdc93d93b964d682134fd48a9 fuse: make debugging configurable at runtime
-c301d431b9689e209b168a72b824142db69ebdb5 fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-323688f934e6eeaab40d8ac50fc016c96c5e07df fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-e4075d767c882aad7f70cec0b9904d43d1917d10 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-095a347f4d35767a1be28ff1777a8e5e8ca9e95e fuse: implement direct IO with iomap
-687bfb0e8489b07a80151590528d06578c7f8507 fuse: isolate the other regular file IO paths from iomap
-336157679e8249835c74543a603515c6be9684e1 fuse: implement buffered IO with iomap
-93dbf8d4eb35deed186357704c3758174cd96422 fuse: implement large folios for iomap pagecache files
-63399baac9ed8dba7545e3cf5c51b8309fd0c37b fuse: use an unrestricted backing device with iomap pagecache io
-5691bc48b8c7f90da7c9770b3a60616b89a7dcc0 fuse: advertise support for iomap
-1b7afb4af523a7c5e54ed2928763bdba7a47bb20 fuse: query filesystem geometry when using iomap
-69fa3893ca43b8e7a35d0ec571c87682ffa02d4b fuse: implement fadvise for iomap files
-d0d18f17eded6904d4a2875ff26066a84bfa7551 fuse: invalidate ranges of block devices being used for iomap
-f555e000917cc900d4d6221cb37546211a019a42 fuse: implement inline data file IO via iomap
-decd806c33bb18cea82f513aac4a7eb714bd2b3b fuse: allow more statx fields
-bfceea75320441569ad5e6071d68ad759bb5c826 fuse: support atomic writes with iomap
-4afbb2efcd6c27e22b5b3f24423d287b7c34b582 fuse: disable direct reclaim for any fuse server that uses iomap
-3b94236596761e664ff6f0a5fdd21c73bbb25b6e fuse: make the root nodeid dynamic
-ac6e598455421690ee395eda18645afeaeeca532 fuse: allow setting of root nodeid
-412e20af3c0146993dfa6cfb005629a4ce648a54 fuse: enable caching of timestamps
-0498498089ac006c2220f25815d286158387998b fuse: force a ctime update after a fileattr_set call when in iomap mode
-39295da72d909eb5fb78bb8387791475215c3e84 fuse: allow local filesystems to set some VFS iflags
-830d1f1f5eaaff55f73368b49b0b5442539456ff fuse: cache atime when in iomap mode
-d7692d6108f32baca3bc7a4917bb20a5333452d8 fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-2ac2a04eb4c1a0ec693ba20f97ff00abd3ec5550 fuse: update ctime when updating acls on an iomap inode
-45529b44955df2a70feb3124a5a62a9e17aa234f fuse: always cache ACLs when using iomap
-29201259c92883f64bfd71f68f37173a8edb95b9 fuse: cache iomaps
-01566914592893939ca3d269b47e9eb9e7442788 fuse: use the iomap cache for iomap_begin
-178b2ae49accd79249ac62e32821e381ee753b1c fuse: invalidate iomap cache after file updates
-5d13a78d7b47691c845f4cc5cb93a2d14a6fd261 fuse: enable iomap cache management
-6e0774184761728536fb64425b8bd0cf490b3783 fuse: enable iomap
-42ec9cb4dd75d7d290810c1c4d8a06cea8483f5f fuse: allow privileged mount helpers to pre-approve iomap usage
-9a09141ad7c1f17c40907dc85a84f71c35f6bcb0 fuse: set iomap backing device block size
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
+9ecf35005e39c74fd07f4246d13ce995e1afa8e1 fuse2fs: enable caching of iomaps
+ee8d49450cc09a3f3c20b0b76f2b60e5c507c56c fuse2fs: be smarter about caching iomaps
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c1b6eae19fd-9e81ec70a0a6.txt
+Content-Disposition: attachment; filename=revlist-666057def0cd-3d9ff83a76cb.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c413d8da6111-0ba9467426f9.txt
+Content-Disposition: attachment; filename=revlist-5e1afb9a057c-13c17fd28297.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
-180e7ea2cf38e381a3cce96de6b6f2933569c032 xfs: create debugfs uuid aliases
-b537afa6012bfff4bf91dd89de6c775f06c2cbc7 xfs: create hooks for monitoring health updates
-8595fdeb9f66e35ca809dbff699f6974d8824214 xfs: create a filesystem shutdown hook
-e91699d33caddadf7e86f2cfeecd1503041c9d9c xfs: create hooks for media errors
-318ea5df6178b40d8a904c139a797470eb9ff9fc iomap, filemap: report buffered read and write io errors to the filesystem
-97d88b2f359e9b6648f5a65fa35c275e9b549077 iomap: report directio read and write errors to callers
-6f0eaa2dd2d9f2e50cf2e234a3e9b71f4925eb45 xfs: create file io error hooks
-237d11cf788fb2036fc3be6cf02e501b95fc0507 xfs: create a special file to pass filesystem health to userspace
-18369372eb4e34f1094e6a38ce95cb3b7ddf8dad xfs: create event queuing, formatting, and discovery infrastructure
-c0875a4cf7b653d0e1a1f3e6b8432cbce384c94d xfs: report metadata health events through healthmon
-0e5e4b9a7dc00217eb0b2d9832386b230901c2c3 xfs: report shutdown events through healthmon
-88cc8a52f5b87bb7e2a8251138d4bec9c77d7fcb xfs: report media errors through healthmon
-7ebd4d927676c20e8ec04b98dcf2057667667e7f xfs: report file io errors through healthmon
-9c71a5279ca96d6369d6a6ff60e2abbcffa6dbb3 xfs: allow reconfiguration of the health monitoring device
-50285ffbba7fa4999965642d074994863881929f xfs: validate fds against running healthmon
-5bc27a6bbd411da32fe4773fc7a3742394f7b46b xfs: add media error reporting ioctl
-48426d42cb86ec98adac67580a45dd0aa5f22304 xfs: send uevents when major filesystem events happen
-8ba92a3df16d63de42be25d27b6e0e4274f1af0a fuse: fix livelock in synchronous file put from fuseblk workers
-b7984652cf9e448985c7feaa42379a7e34680c73 fuse: flush pending fuse events before aborting the connection
-026af6e4b90a549959e40875a541f3d407404d63 fuse: capture the unique id of fuse commands being sent
-678a3f89c7c1a020588e492ebd7ed2197e02f760 fuse: signal that a fuse filesystem should exhibit local fs behaviors
-a17477c6f136d43c67868bdbb88bbc9791214263 fuse: implement file attributes mask for statx
-b767721680150b6d121e92f85ad9f5c93859f417 fuse: update file mode when updating acls
-0ccca8a387891cdf484e60ba8aac961b8d51d4c6 fuse: propagate default and file acls on creation
-b1841d01711dea4b6b2981a6aa82960c3703f455 fuse: enable FUSE_SYNCFS for all fuseblk servers
-0cba8fc1194d502a3605ea15119e35401ec1c679 iomap: trace iomap_zero_iter zeroing activities
-824702470388a91847aa7a7db00aba7800fff73f iomap: error out on file IO when there is no inline_data buffer
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
 
---===============1434496376880889583==
+--===============0426017393308426092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1976e7c19f1-09a2fec5d6c3.txt
+Content-Disposition: attachment; filename=revlist-5a98bc04415b-4755a2511f6c.txt
 
-05074cc1dca477c53b98e9727aab5739ef38e925 xfs: use deferred intent items for reaping crosslinked blocks
-2d47c1de074fdae3705a329bfef5893948c8c9b2 xfs: prepare reaping code for dynamic limits
-09aa4fc9fedca74cc155263d472102b8c9a4e717 xfs: convert the ifork reap code to use xreap_state
-cff2caefa3e78b9affa5723b8b484f65f7eb0bc8 xfs: compute per-AG extent reap limits dynamically
-24934834647bf6e80496787d583eee3ec7338f88 xfs: compute data device CoW staging extent reap limits dynamically
-34079a1f3adb76956bccf7f4147e1f01cbd397df xfs: compute realtime device CoW staging extent reap limits dynamically
-97fa691ec3d40245e9fe2e2dfbe47a001f950e39 xfs: compute file mapping reap limits dynamically
-f7e857691c7e897c2d42c78f0c6293dd0a032c3b xfs: remove static reap limits from repair.h
-e81f7dc0dd16835ea712f890963f9ef325a97b5d xfs: use deferred reaping for data device cow extents
-028aa6d38d32388716b53098d331827994d66d5e xfs: disable deprecated features by default in Kconfig
-a3cd8fce873dec09f7b5a1446ee9513e819cd4fa xfs: remove deprecated mount options
-751a5239103645c279cd55caa119cfc788a5eca0 xfs: remove deprecated sysctl knobs
-7353387075b8bd6cc0d5a39408856fc0c97674ec xfs: enable online fsck by default in Kconfig
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
 
---===============1434496376880889583==--
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0804f02e0fa6-d4bb08363ff3.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-db204a082722-bfaa05dcbace.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d0c66382b5a6-bd0e58273ca2.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-28038caede2f-d1edaef089f7.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4230d1f5d0a0-2cdcfa4a7532.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7fbeaf83ea9a-f6dae382e5c9.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6061db982e51-c90b55b7f08e.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3701d62675a2-eeb7eab434b1.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-43a03c67541f-0b452f7576ae.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+a6226dd51d46f92eeb65e23c299c5702e27e93b3 fuse2fs: implement bare minimum iomap for file mapping reporting
+cc42f694eee39b8a6bcfb67f03f8f3fd100e71fa fuse2fs: add iomap= mount option
+d6c56454e23bab6fddd25a9afbb377d0ec4e23a5 fuse2fs: implement iomap configuration
+2f790718c8fbf961671ab95956ebf234f160ad72 fuse2fs: register block devices for use with iomap
+7a3455ebdb01ef496cb1a65b90cdcbece571fbee fuse2fs: implement directio file reads
+75635f899fa0754e4e8a0dc1963039768a0de175 fuse2fs: add extent dump function for debugging
+0a8c478b677a8c4a05d4507077f274618c5ee507 fuse2fs: implement direct write support
+7209fb377b550ebfdb9bde821605a2e815a62890 fuse2fs: turn on iomap for pagecache IO
+e9bd25183ac48886d17de6982d8fefba69e5b9a1 fuse2fs: don't zero bytes in punch hole
+2974bc7a3f35061982837df1004ff215c80db2f6 fuse2fs: don't do file data block IO when iomap is enabled
+a802fbc6394eb85f4fa02a9c910cc6ac238aa24e fuse2fs: avoid fuseblk mode if fuse-iomap support is likely
+42e9c28470bd2ca30ff7bb56d4b1d43a29e01c15 fuse2fs: enable file IO to inline data files
+6afb259888554e97386eeca3b7dfac9e3eb7ad3e fuse2fs: set iomap-related inode flags
+21fb1d2da3e40864d9603ffc256033e0c445eee7 fuse2fs: configure block device block size
+d6c815a1cd0b324cd2c24c7ee11fdb12c339e277 fuse4fs: separate invalidation
+b969a2e2b5144a1b768caeb16c5d2dafd3b0d4c2 fuse2fs: implement statx
+ffd5a9068b295ec6c90ef9ceaaea98608fe9c9da fuse2fs: enable atomic writes
+9ff03d8ec25816995792589e8f5e1e1fe5b01b75 fuse4fs: don't use inode number translation when possible
+132e5907af68594c34f78e7ca3fc4d8c8b1e8810 fuse2fs: add strictatime/lazytime mount options
+2624b30530286157f832a9551966b1d840f96d05 fuse2fs: skip permission checking on utimens when iomap is enabled
+37679421d774e1fe28f9d2cb635acf588a06f826 fuse2fs: let the kernel tell us about acl/mode updates
+9318549cff05ab3762d5539d1720e876a56ce01e fuse2fs: better debugging for file mode updates
+5641af14bc34d72d4efc99557733dbdb16fe3663 fuse2fs: debug timestamp updates
+eecb05fc12c4a86adabc9f0d1184b72749e00394 Subject: [PATCH] fuse2fs: use coarse timestamps for iomap mode
+2d6286b156ac9ca2229eef3e61dc681719fd5001 fuse2fs: add tracing for retrieving timestamps
+b3e34ee1dfcd1cb42d8d874f3052eac977ab9e0d fuse2fs: enable syncfs
+8b97b5dff77ac009a1678d6a5bdf4f9e06be87b8 fuse2fs: skip the gdt write in op_destroy if syncfs is working
+c53a2350217acb1ed22432d0df9c50ed90ec20d8 fuse2fs: set sync, immutable, and append at file load time
+9ecf35005e39c74fd07f4246d13ce995e1afa8e1 fuse2fs: enable caching of iomaps
+ee8d49450cc09a3f3c20b0b76f2b60e5c507c56c fuse2fs: be smarter about caching iomaps
+297efbf8f90441d0c17f5620f650310022c13506 libsupport: add caching IO manager
+4e49c239e96e7e26b90f1ac2feadb259211af987 iocache: add the actual buffer cache
+37e83b341f49c63593e08b9ea2baa1b4b71d52f0 iocache: bump buffer mru priority every 50 accesses
+14afdcad74343966d63dbc0ebcb1489c9b72c585 fuse2fs: enable caching IO manager
+936cd84b9ac7bf845c42c0c54df566cd11a9f0ba fuse2fs: increase inode cache size
+477079b92526955c22e50ff6a3ec45003c41c670 libext2fs: improve caching for inodes
+59741d6931a4b07caa03ce77794b692a4a6e6b6c fuse4fs: enable safe service mode
+0639a31e5b9a0dae83b185e21f4e7d1d5bab93d1 fuse4fs: set proc title when in fuse service mode
+ea9fa6ee827607af10734361f1d8e035d0202213 fuse4fs: set iomap backing device blocksize
+
+--===============0426017393308426092==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ac9941d4736-1f39b99e85b8.txt
+
+298b5d611adfd6c32464ea0d6c4506c99ed22eb9 libext2fs: use F_GETFL, not F_GETFD, in unixfd_open
+22ec0b02a1b4c353def5c77ca46616aa3f4f95f9 libext2fs: don't look for O_EXCL in the F_GETFL output
+7872124ff822a508bbcb3ca5c42a53d9b7f84a75 fuse2fs: update manpage
+054e8680272f555967029f32c902b5c6e0cf9d31 fuse2fs: quiet down EXT2_ET_RO_FILSYS errors
+cd17aa83d0154e998358c3a4987f7f9e67f6c081 fuse2fs: free global_fs after a failed ext2fs_close call
+689ea802871344a807c1228f600bc4d88b232122 fuse2fs: fix memory corruption when parsing mount options
+fedf3ce6b05280bb58607542043fd113c0d595c8 fuse2fs: fix fssetxattr flags updates
+ead90cb24311468d0a3cf8bdd2360c31ab69ff08 fuse2fs: fix default acls propagating to non-dir children
+454e4b6ce8ce8e8903983f999235c190e9d499d0 fuse2fs: don't update atime when reading executable file content
+75cad7515ab88a5fdb47eeb209eff3324e095988 fuse2fs: fix in_file_group missing the primary process gid
+aa111330c2d3b7bdafd67c0a166c1ff37421e292 fuse2fs: work around EBUSY discard returns from dm-thinp
+1ff7bec3190098f0374b72bbe95c3ca2fff686bf fuse2fs: use file handles when possible
+d12949805d52832d5acf01343a99750e7463578d fuse2fs: implement dir seeking
+6f7f5f220aaeeac0b02c6c71781269931c3c0aa6 fuse2fs: implement readdirplus
+1ee34c1a66a078c2801e18d3807d31b9d7257146 fuse2fs: implement dirsync mode
+59dc7e133c800acbaee310b41ca49f15f1b9d938 fuse2fs: only flush O_SYNC files on close
+00483bc39f066a942d43cb7b20212b1dfbdb88a6 fuse2fs: improve want_extra_isize handling
+55b9cfdacb4917bedee66d04df18ab20fbf912f8 fuse2fs: cache symlink targets in the kernel
+9ba49f97d535a7969e93a3c1367080b0d72b5934 fuse2fs: improve error handling behaviors
+532b82addbf00ecd4f38e42955080b0fe8229021 fuse2fs: rework FUSE2FS_CHECK_CONTEXT not to rely on global_fs
+450d9d791c185ce9dcdf61261d55986b88825cd4 fuse2fs: rework checking file handles
+fea0a743337f21f43d45f37ca41955cfc204acd8 fuse2fs: rework fallocate file handle extraction
+c1af091587b9984bc9afb7efb0d41c2668d2f73c fuse2fs: consolidate file handle checking in op_ioctl
+561c836cfabccb4e5569c97a6159107f1cbaf528 fuse2fs: move fs assignment closer to locking the bfl
+93867c5814ff368caf214a20d598e0c73c7007d2 fuse2fs: clean up operation startup
+df478f16a1b15fac6f05c056fe759775c3f54699 fuse2fs: clean up operation completion
+ade2ed6cb86ed035de8245a6a92b7402db5cbfab fuse2fs: clean up more boilerplate
+098fd3998eea0a23ae2289a9cba12e894ce54f4d fuse2fs: collect runtime of various operations
+5788c1cc1b591d1867b85db198e937d568f82d0d fuse2fs: get rid of the global_fs variable
+8a96bf98d2f3dd6ef37bcb257ec11bdef31782b3 fuse2fs: hoist lockfile code
+e719bedcd1b6dc4ad1ff2c3a826b874d10d27204 fuse2fs: hoist unmount code from main
+bd974fba0f8479a72083e1c5256f33dac3a45b86 fuse2fs: split filesystem mounting into helper functions
+509d9077213c327ebc8d03e6e25c831553480a4e fuse2fs: make norecovery behavior consistent with the kernel
+25cb68dd3f42fd25efbde24861af7c0f3267c2ab fuse2fs: recheck support after replaying journal
+2dd9c77fa0eb0485c742e81257ecdbb0d62bd27c fuse2fs: mount norecovery if main block device is readonly
+7fcc9b37dfa1826355e13e5c51936ddbddc41147 fuse2fs: use fuseblk mode for mounting filesystems
+1d2298c5a4d8522c646140cbf1c4ba9ee6c0849f fuse2fs: register as an IO flusher thread
+a2243c2dcf1b66d9c012f999eb603db706135565 fuse2fs: hook library error message printing
+e357816834c5e28bc3ffd57acb40416d69337ca5 fuse2fs: print the function name in error messages, not the file name
+a8056a888036640cc72567b72291c8fd192650b4 fuse2fs: improve tracing for file range operations
+814445dcb7a5de425ab883eeb796f3b94dffb1ab fuse2fs: record thread id in debug trace data
+b21a2b044ed2648119f07e9506ee188b9972d523 fuse2fs: pass a struct fuse2fs to fs_writeable
+8d4057f70ceca4a148d2c432a0fba8b947d6add9 fuse2fs: track our own writable state
+cebd55f9997e837ed57a530ad5c00dbd656d7b63 fuse2fs: enable the shutdown ioctl
+8102a96d5f0ae0128976b3b8b780b8328104333c fuse2fs: bump library version
+082784ef244ca36dc2d7d2c765ca045d9d15456b fuse2fs: wrap the fuse_set_feature_flag helper for older libfuse
+a589406ffa19d6cbf93d87047a24d497cfd4d568 fuse2fs: disable nfs exports
+eb219cb0f3fd0bd9ead672e797fd6f1b5d14c04c Subject: [PATCH] fuse2fs: drop fuse 2.x support code
+b384453e02394f466f7433d8f2681ad9afc85682 fuse2fs: constrain worker thread count
+89d49b3736acaa785b59b60a9fef6bc9dc76b638 fuse2fs: port fuse2fs to lowlevel libfuse API
+b35f2c8bd8c5defa94d7039ae17248fdbed42bee fuse4fs: namespace some helpers
+080ecfb100c6192357e644cc6fdce08e34166bd1 fuse4fs: convert to low level API
+1708f7bf13842fda4e28ad93e07891a7fb1c7178 libsupport: port the kernel list.h to libsupport
+4d9fd1a6f0e4709366293bededf79260afe06bd1 libsupport: add a cache
+bcd8f7070dd50b78fbd827e9660f2c984547f410 cache: disable debugging
+2a90d846a512b5e715db0f6dd249d9f1e11b76bd cache: use modern list iterator macros
+61ffa7d620507b646a3d4a87571992bcd8cd79fa cache: embed struct cache in the owner
+5ccde9718be988c69d47f4ee9038473b0424091b cache: pass cache pointer to callbacks
+00187fa969449b8ceeff32340eac569028380005 cache: pass a private data pointer through cache_walk
+468cb6c2fec34526fb1de426fa83bc119dc594f7 cache: add a helper to grab a new refcount for a cache_node
+3d10ebc488f6e9b34544ef992299600a7d769a82 cache: return results of a cache flush
+a67fc69c32dcd710eedb2a2915a7033b1256bd9a cache: add a "get only if incore" flag to cache_node_get
+8b8ec586cdedc6282d85435287a3ea5d72d9be48 cache: support gradual expansion
+ad31d1e23ef14e917973f0d9cebfd39475e8d642 cache: implement automatic shrinking
+59fc834117426ae31e66d961a886d2889a27dea0 fuse4fs: add cache to track open files
+9de277121eac8df280d7a57d0f669e7ac020587a fuse4fs: use the orphaned inode list
+f6e47268cfc9043ef031de3cdc1bce20a5e3bf3e fuse4fs: implement FUSE_TMPFILE
+63409ceb3153db7f5b195e2ec2de77fcb8ba261d fuse4fs: create incore reverse orphan list
+cdfbea45c1bbe2443c95c4282e913d2d8d796913 libext2fs: make it possible to extract the fd from an IO manager
+f7215f2ff99a3ec16317155af7ea06603a782287 libext2fs: always fsync the device when flushing the cache
+82f79d523dda066137b82848ecde1c5434fd2470 libext2fs: always fsync the device when closing the unix IO manager
+d31ba78e000070b44d89c5162d58153c4544fd12 libext2fs: only fsync the unix fd if we wrote to the device
+04d982381e1f99cb9dbe9c75369b8b5de21e4050 libext2fs: invalidate cached blocks when freeing them
+b622bf28830d3f1cc118fe63d68bf51a5e9d429b libext2fs: only flush affected blocks in unix_write_byte
+39414ebc4e71ae635e27289a4e54b4a623fea986 libext2fs: allow unix_write_byte when the write would be aligned
+45c3147a3d1122bcc8728cd7b0ccbb718a935a18 libext2fs: allow clients to ask to write full superblocks
+0f870b474088b2702cc0463a81955d3b5c8a68e4 libext2fs: allow callers to disallow I/O to file data blocks
+0f620e94b8e8e27be433894a96c4729cc52010f8 libext2fs: add posix advisory locking to the unix IO manager
+
+--===============0426017393308426092==--
