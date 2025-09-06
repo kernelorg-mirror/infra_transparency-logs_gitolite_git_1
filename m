@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sat, 06 Sep 2025 21:50:03 -0000
-Message-Id: <175719540332.666445.5794567416131854524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 06 Sep 2025 21:50:59 -0000
+Message-Id: <175719545928.667757.12343194026844354884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: c3a49515225e44b2593839a4b3fec70c39dc0c89
-    new: def5612170a8c6c4c6a3ea5bd6c3cfc8de6ba4b1
+  - ref: refs/heads/hwmon-next
+    old: 0fc9c8aa0b9781844f071fbc880faf187f15cb65
+    new: 3c56a8e682e94ee9ac48c1fb2153becb861c0f7d
     log: |
-         def5612170a8c6c4c6a3ea5bd6c3cfc8de6ba4b1 power: supply: cw2015: Fix a alignment coding style issue
+         3c56a8e682e94ee9ac48c1fb2153becb861c0f7d hwmon: (asus-ec-sensors) add ROG STRIX X870-I GAMING WIFI
          
