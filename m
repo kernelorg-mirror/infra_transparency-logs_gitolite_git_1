@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4729123536448171845=="
+Content-Type: multipart/mixed; boundary="===============4857024370955201858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sat, 06 Sep 2025 18:10:57 -0000
-Message-Id: <175718225719.375315.10755610553427862435@gitolite.kernel.org>
+Date: Sat, 06 Sep 2025 18:12:11 -0000
+Message-Id: <175718233110.376028.6219850150942930254@gitolite.kernel.org>
 
---===============4729123536448171845==
+--===============4857024370955201858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: f1b55db08d527240fbc3b8c84229134a98d8d080
-    new: 3c9ba2777d6c86025e1ba4186dc5cd930e40ec5f
+  - ref: refs/heads/driver-core-testing
+    old: de6434020f8211b45611c29e7d4ffeb08e7b45e6
+    new: 4c48aed6dfcd32ea23e52adc1072405a62facf46
     log: |
-         3c9ba2777d6c86025e1ba4186dc5cd930e40ec5f kernfs: Fix UAF in polling when open file is released
+         4c48aed6dfcd32ea23e52adc1072405a62facf46 driver core: auxiliary bus: Optimize logic of auxiliary_match_id()
          
 
---===============4729123536448171845==
+--===============4857024370955201858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757182305 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757182379 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1757182253-2e6d03f0ebd2d8c69f065c1032d11d8544a0671b
+nonce 1757182327-ce38a4d483e69f7e67f200250d3c215b90882fdf
 
-f1b55db08d527240fbc3b8c84229134a98d8d080 3c9ba2777d6c86025e1ba4186dc5cd930e40ec5f refs/heads/driver-core-linus
+de6434020f8211b45611c29e7d4ffeb08e7b45e6 4c48aed6dfcd32ea23e52adc1072405a62facf46 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi8eWEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+81EP/1Xvfkg6VfLsmjeY7Moy
-dFw1zuIXyczxokDCT5jRHOQOTbDqubygJZyVIyQ97VA+BS7TtHG9J3H6TNV5HRK1
-RSNGEbg6OpeTkRmjVriTCEKNP5lCDxPThxJiPcuQLY54DlS/toMUUH+YXL+91sG4
-W289nl0VIt9G5OniZkqtZd/r00dg5sdqMdcrLpm652uxreKOmpuyzhexcBxNbN/V
-Q7sNUVSJ+K8HNOHdAYWsFVb3OImcVyrbURx89gasPVRTmiSxoxcHvuoxIbVJ7D5J
-eEqBr2yJ6AwpcYMvk7pmQ5hBiFWaYfnH+gTkfxXxelWIk+ENM+74mWaImarAbISY
-SLPlyDlGFwOwPkLhOx0jN+0islQv+RPEvtrfoKDiJZBhe4Rub+miu13lf6bMwkXr
-jN7phtJEbBgRndGYxeJyfZJ5c17ICkuzum6FfO5Jpezg+1MfQhiJIIIoeUqSCM1S
-HxZV4uA8LrgSeHHfJc/hjrw+L+SoYYVeWsTiUNOJtxvLoPvCCaCD6ZXbE3r3KQC5
-73zzxUYRsvOS49TZf+W6wGYrM/BjdzCB78REM6mlEXaAB+mSla1aCpSyLzO2x+Zr
-TcZgwEFwqrX69eqQ5jEuvAxcBJdgNOS5uQguELAiHYTmitLHuRZlIK5HLnSkUQtf
-6J1LtHjeQp6JR2zZXhZpt+Mq
-=4Cu/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi8easbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YOAQAM6gg6PvzuvTbqZ2nKmv
+MX/1b7CUdzXtwr3icWIOWNFJLHaMSipgBdiozUWJIntcWt5cfrODIu0pQYSZ4SHn
+0ZuPqKetGcYhipU2qnYorvqQtg7IpPZ0JlfQemXm/8lPkS8sl1RUIZZv6/acdeui
+AeVlKfs2QJKQrkM+WS/OFH3wndZW3YWq+GPG+wKiJwgSTgwhEkGNklNMwarX+yOh
+shGrEYer/OHy1w3z3MISD4MCnZkS4thzx2ByQhqswlLXEUCRCEmj94RcAI7JMOYn
+Sj0SeLlY2viQuN01JEcj1jNI4dnBVMQ/sFT5rsY9osWCCym2Tvvq4tvXpPlvHeaQ
+Ro3qAyCzAix0+qxhDiVaOK+CALhfUi8exFHG94Dtwi/8wxqXhvG3FP61BvaN0JS2
+sMkletjlxL8UVHlXJWRax8eq2aym7q3w0TQQHDwoqYwEix4TUKXRbmfXOadOQG21
+N+i78GF9oV2cbbl0X7r496ElLEtRps7UCiv9jeTI/2T3nlrFHxDdaXgBeZkQQyPJ
+Jnw4/D8YQusYgYfUN3xHkTOSGMABNhSqGXGy6EkQcvHYV2ySFHucY33zB0zKDu+s
+PYG51GTmaXcPWruJHjmoX0AxXJWKwhRpZ+E0q16uIqquW0iGiMhYnMnKx0kTng09
+cTOrjpHyQiqBV0T3UuhSd2CL
+=mtq6
 -----END PGP SIGNATURE-----
 
---===============4729123536448171845==--
+--===============4857024370955201858==--
