@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sat, 06 Sep 2025 12:12:42 -0000
-Message-Id: <175716076270.75658.1056057086975800724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Sat, 06 Sep 2025 12:13:54 -0000
+Message-Id: <175716083477.76284.11297471882426266687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/tags/0.10.31
-    old: 0000000000000000000000000000000000000000
-    new: 42375e948bdb5e312ec670ac15e6dae5817252cc
+  - ref: refs/heads/extcon-next
+    old: a373ef789d659fee12710429e067a37f9d78dec9
+    new: ed1db66c8b818a485c2ad99db28f9410b1e5e3ea
