@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Sat, 06 Sep 2025 12:31:09 -0000
-Message-Id: <175716186921.91956.1301148861875228024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Sat, 06 Sep 2025 13:10:20 -0000
+Message-Id: <175716422019.123748.18315009254713153316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/extcon-next
-    old: 97caae28f7dec1af24ea6492ad3dc12fdefed639
-    new: cf1b84a768473bc4e8a43d69850a82179822e80f
+  - ref: refs/heads/main
+    old: b79bf03499f210695983e1fc6f47dccbb1ef304a
+    new: 76b247a190268abced13b37bcd0f602b5b60376f
     log: |
-         cf1b84a768473bc4e8a43d69850a82179822e80f dt-bindings: extcon: linux,extcon-usb-gpio: GPIO must be provided
+         76b247a190268abced13b37bcd0f602b5b60376f refactor: TpmResponse to TpmResponseResult
          
