@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 06 Sep 2025 00:50:08 -0000
-Message-Id: <175711980851.3661044.13875302131664098404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Sat, 06 Sep 2025 01:07:52 -0000
+Message-Id: <175712087269.3674355.4406143775054561601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/main
-    old: 03e79de4608bdd48ad6eec272e196124cefaf798
-    new: e2a10daba84968f6b5777d150985fd7d6abc9c84
-    log: |
-         0ba5b2f2c381dbec9ed9e4ab3ae5d3e667de0dc3 net: phylink: add lock for serializing concurrent pl->phydev writes with resolver
-         e2a10daba84968f6b5777d150985fd7d6abc9c84 net: phy: transfer phy_config_inband() locking responsibility to phylink
-         
+  - ref: refs/tags/i2c-host-fixes-6.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: e4187c74ec290e21ea0f4bb971b80e128aa8e2b2
