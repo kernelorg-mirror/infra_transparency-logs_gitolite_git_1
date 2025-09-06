@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8939776760770381493=="
+Content-Type: multipart/mixed; boundary="===============4347563352368364508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 06 Sep 2025 13:27:16 -0000
-Message-Id: <175716523684.137420.5444314289347861060@gitolite.kernel.org>
+Date: Sat, 06 Sep 2025 13:30:28 -0000
+Message-Id: <175716542810.140982.18101821437313431109@gitolite.kernel.org>
 
---===============8939776760770381493==
+--===============4347563352368364508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 1bc28f015a19a10b7a305fc561c1143c34a1e04a
-    new: 0f577e88d9bc14d9ed00515b47fe3f8e9b1c35be
-    log: revlist-1bc28f015a19-0f577e88d9bc.txt
+  - ref: refs/heads/usb-linus
+    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
+    new: 116e79c679a1530cf833d0ff3007061d7a716bd9
+    log: |
+         220a0ffde02f962c13bc752b01aa570b8c65a37b xhci: dbc: decouple endpoint allocation from initialization
+         a5c98e8b1398534ae1feb6e95e2d3ee5215538ed xhci: dbc: Fix full DbC transfer ring after several reconnects
+         edcbe06453ddfde21f6aa763f7cab655f26133cc xhci: fix memory leak regression when freeing xhci vdev devices depth first
+         8d63c83d8eb922f6c316320f50c82fa88d099bea USB: gadget: dummy-hcd: Fix locking bug in RT-enabled kernels
+         f34bfcc77b18375a87091c289c2eb53c249787b4 usb: typec: tcpm: properly deliver cable vdms to altmode drivers
+         21d8525d2e061cde034277d518411b02eac764e2 usb: gadget: midi2: Fix missing UMP group attributes initialization
+         116e79c679a1530cf833d0ff3007061d7a716bd9 usb: gadget: midi2: Fix MIDI2 IN EP max packet size
+         
 
---===============8939776760770381493==
+--===============4347563352368364508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757165280 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757165474 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1757165229-b0e4def028cd05dd71813691c065481af861ae1e
+nonce 1757165423-bc3603a952a421a17946e6b0bc8117c298c16740
 
-1bc28f015a19a10b7a305fc561c1143c34a1e04a 0f577e88d9bc14d9ed00515b47fe3f8e9b1c35be refs/heads/usb-testing
+1b237f190eb3d36f52dffe07a40b5eb210280e00 116e79c679a1530cf833d0ff3007061d7a716bd9 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi8NuEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1xgP/0rZQLus9KXUT0X4qyJg
-w3PKeD9/siL/pSJSlDMd43aHRijHpg9iSg45Mlid4FRQw+Qf+t90owQAxYOSd9Ie
-FpS0YkdmHzgfPu6z8Nc7hHB5XgqW1I+1jhf4PTLyAABN2uHYXF2KfpTi49/BSP/F
-GRJUbMRE+di6iTefpd3KOUTh0oWiBQcju4n+vSvhQVndKnAK3iWjOivN3nb5APCt
-Yp7UMZGJElCqj/jqmceTosnJk03QK9Fy2qIEy9wPhKkURKf4Vp0IrisOhaHR70YA
-yiuvhIGgYgJefeSjtm5DW8vr/owyc2M5Jp5ekjyKvJCHPcjR8yfNAaStzu0CJDsA
-CETNGh1isKpK7iEFzsAt/5xKZBfA/CDvFsYpVePM2JJ9OFGna3VyZS2dSUC697sJ
-wQjIUGG9JUjVAYiDMiecEUoLQGfFtOIgwnKGNdZvk8W5uJS7u5FWW0OkNBui3w/R
-+gNOjZOiEhjp+spYDxqaiOhMkLqQJlX5WxnaGasypydIswBikcNbl4qUcLKiMT+f
-eZ6jT9O3VOdGsWsUWTyNOQhx4zDpWzQ3OLX6ZsFmbS8hboz0NtCTavimsmomOiOm
-NNa2UWIrDldpZM7EeAsaM887xMYrJoZVQ27KUvjTQ3xQ8EUNqhHgvKHb9opy2xjC
-YSY7GLC9AQJSpEhOPRdtUbBs
-=CZNY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi8N6IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m/UQAIYwuNlps21GGzv3tO9R
+Ml9mIcTpy38dExkgmc53WhbzmhlVXjpQtl1ZUQ7C1Z645WSIEtFiUJd3h/DGZQ5N
+oygepHhJpH88d0nAiE1pubYwK/kISloxgRDSaKGgIkwyzb6e5WliA7kcby7ba3vI
+N5cwgN8YirDGdsdB8Hoyepwt3t/6EtoUlp3JkUCgvFra93eFkJT5dne/pyQ3SnP1
+RyCxw4FDQ4SGjWcqY7ZkdGy466TmI/bwmqQLYEuWS8R8+OFFZaYk13vXY6GTj4Ro
+TfWgHBxvxL9tiq3yA+Y6+P/rxmbYDWfC1TT0/3X3IUcQcYpcIYhHf1n8FZ3erPgY
+2NAR/JgGBI927G1eGrB0Xje0t85B341wb0ll618D1vvTOqLb3F7QWkwmVmFN/5OB
+rb/sygoSUT5bF5EWIuJtZYvn7B/PF+9QINE/4Z3EA/JktOG4XP2yIaMlN0jzGutp
+c00P1rWibOkda+5/R7KgcUb5RAimpTOTx2frzIliiuHbQVmV73MkzJZzqt6wQLF2
+LAiJzAWl+ppDKAeFFp2TaC4rqIqPBXghnIcZv/hRWh289UtZl8McSlGZ2IPvw0jr
+x2NYAAW/W4B1EyLxX5vn/kPo5/jS2KQGQkm4DeEJbwoGfRxSoI1pSBR3Mm9eanGz
+KbcO691lBHC8TG5vpORnYHUg
+=65/G
 -----END PGP SIGNATURE-----
 
---===============8939776760770381493==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bc28f015a19-0f577e88d9bc.txt
-
-970076537efd847c6f74ba9ed888b9cdbf71206e usb: core: Use le16_to_cpu() to read __le16 value in usb_parse_endpoint()
-030ab58b075c04b5286d2787860373dcc30020c6 usb: core: Parse eUSB2 companion descriptors for high speed devices only
-53d76c6866a0362320b837dd292db4befcac31ba usb: core: eUSB2 companion descriptor is for isoc IN endpoints only
-20f988320d2718ef28b1f0635acc88c12a216d29 usb: core: Add a function to get USB version independent periodic payload
-24b8762e05ed8203dc0b76b62c802aadd487e9aa usb: xhci: Use usb_endpoint_max_periodic_payload()
-d6725169a9bbcb5bd1dd14b2891b874614c59f52 usb: core: Introduce usb_endpoint_is_hs_isoc_double()
-0c670dc882d31f0423f18899c0e594547b55b76d usb: xhci: Add host support for eUSB2 double isochronous bandwidth devices
-0666a012d25051d6d2b4e6b2c893e2f074b87d91 usb: core: support eUSB2 double bandwidth large isoc URB frames
-0aa0b0326cc5642e97af968d21cbd8836368b707 media: uvcvideo: eUSB2 double isochronous bandwidth support
-0f577e88d9bc14d9ed00515b47fe3f8e9b1c35be Merge patch series "eUSB2 Double Isochronous IN Bandwidth support"
-
---===============8939776760770381493==--
+--===============4347563352368364508==--
