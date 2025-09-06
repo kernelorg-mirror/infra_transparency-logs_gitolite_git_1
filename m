@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 06 Sep 2025 04:36:14 -0000
-Message-Id: <175713337420.3856482.9489787472695431734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 06 Sep 2025 05:10:48 -0000
+Message-Id: <175713544871.3884264.1723220944445251071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: b9815c885e2f714060204abd1592c3faae47266c
-    new: 4c0eb32a8bbc06f7b0cbab11fba13d0098d8e8ed
+  - ref: refs/heads/hwmon-next
+    old: 8b1ac2378681de803c53b35561ba14bac0fe78ef
+    new: a2d68a9f51c27051c4b84990ffbd2531a6024389
     log: |
-         4c0eb32a8bbc06f7b0cbab11fba13d0098d8e8ed Fixes for all trees
+         a2d68a9f51c27051c4b84990ffbd2531a6024389 hwmon: Introduce 64-bit energy attribute support
          
