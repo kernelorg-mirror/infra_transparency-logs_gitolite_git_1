@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 05 Sep 2025 23:53:47 -0000
-Message-Id: <175711642793.3612064.14091695336824783363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sat, 06 Sep 2025 00:09:13 -0000
+Message-Id: <175711735392.3625681.6162645016819653326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    new: 8c5795fe55278fa6a656bf4a0398fb22d5079298
+  - ref: refs/heads/master
+    old: ed675d3477a70a42d2e757b713f6c7125a27cdca
+    new: fc8f9c7f98156d42fc73fbd6df3c4aa9683df621
     log: |
-         6a93f54333979c2948e9c1e71ea0b377b486a3f5 power: supply: Add adc-battery-helper
-         dcf1e7b73797399f8706226c7ff6ad8f18634db4 power: supply: ug3105_battery: Switch to adc-battery-helper
-         eede3f72a9658a3c82725ed36723d3189a91b3e5 power: supply: ug3105_battery: Put FG in standby on remove and shutdown
-         926b144366c589a0c0c471d02a71590ed24284e0 power: supply: adc-battery-helper: Add support for optional charge_finished GPIO
-         8c5795fe55278fa6a656bf4a0398fb22d5079298 power: supply: Add new Intel Dollar Cove TI battery driver
+         41880b9b7aa4db7d537e096e15192437a990d9f1 mac: implement (file) cache invalidation
+         407491a84e257a60a09209c624014757b816ee8e mac: add readahead control to the posix_fadvise() shim
+         fc8f9c7f98156d42fc73fbd6df3c4aa9683df621 Merge branch 'improve_flushing_darwin' of https://github.com/Developer-Ecosystem-Engineering/fio
          
