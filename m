@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2563261021274385249=="
+Content-Type: multipart/mixed; boundary="===============1049270904579223745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 07 Sep 2025 15:30:53 -0000
-Message-Id: <175725905378.1532590.2713431461471476935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Sun, 07 Sep 2025 16:12:08 -0000
+Message-Id: <175726152880.1564909.557111489667798865@gitolite.kernel.org>
 
---===============2563261021274385249==
+--===============1049270904579223745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b236920731dd90c3fba8c227aa0c4dee5351a639
-    new: 6ab41fca2e8059803b27cef336d2abe7c936ba0b
-    log: revlist-b236920731dd-6ab41fca2e80.txt
+  - ref: refs/heads/main
+    old: 3337e5013e168bcf4fab5f6518d1e4293a0a830b
+    new: 68ba2bc6e2d060526496bc79591b09fcbc851a7f
+    log: |
+         68ba2bc6e2d060526496bc79591b09fcbc851a7f tc: gred: fix debug print
+         
 
---===============2563261021274385249==
+--===============1049270904579223745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b236920731dd-6ab41fca2e80.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d9b05321e21e4b218de4ce8a590bf375f58b6346 futex: Move futex_hash_free() back to __mmput()
-18dbcbfabfffc4a5d3ea10290c5ad27f22b0d240 perf: Fix the POLL_HUP delivery breakage
-762af5a2aa0ad18da1316666dae30d369268d44c vdso/vsyscall: Avoid slow division loop in auxiliary clock update
-41f9049cff324b7033e6ed1ded7dfff803cf550a riscv: Only allow LTO with CMODEL_MEDANY
-5b3706597b90a7b6c9ae148edd07a43531dcd49e ACPI: RISC-V: Fix FFH_CPPC_CSR error handling
-e108c8a94f3f958c877f6ec7a6052a893ae4aa98 riscv: use lw when reading int cpu in new_vmalloc_check
-1046791390af6703a5e24718a16f37974adb11db riscv: uaccess: fix __put_user_nocheck for unaligned accesses
-ad5348c765914766a98ad26cf7a8c28d51a16bdd riscv, bpf: use lw when reading int cpu in BPF_MOV64_PERCPU_REG
-8a16586fa7b8a01360890d284896b90c217dca44 riscv, bpf: use lw when reading int cpu in bpf_get_smp_processor_id
-f4ea67a722e8c9e1fb8109adebb9fb881ff0793a riscv: use lw when reading int cpu in asm_per_cpu
-95c54cd9c769a198118772e196adfaa1f002e365 riscv: kexec: Initialize kexec_buf struct
-fef7ded169ed7e133612f90a032dc2af1ce19bef riscv: Fix sparse warning in __get_user_error()
-a03ee11b8f850bd008226c6d392da24163dfb56e riscv: Fix sparse warning about different address spaces
-00e69828220782cae5df67d1546d4969770c9753 Merge tag 'riscv-for-linus-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-6a8a34a56a07eb5f0b9c41b1f1e6909e372122cd Merge tag 'perf-urgent-2025-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b7369eb7319d0cb94ad2ea5b5486e276339c595a Merge tag 'locking-urgent-2025-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6ab41fca2e8059803b27cef336d2abe7c936ba0b Merge tag 'timers-urgent-2025-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+certificate version 0.1
+pusher Stephen Hemminger <stephen@networkplumber.org> 1757261578 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1757261527-cbab1f8e1251623ea71bbeb8d68f691c97ed0ef6
 
---===============2563261021274385249==--
+3337e5013e168bcf4fab5f6518d1e4293a0a830b 68ba2bc6e2d060526496bc79591b09fcbc851a7f refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmi9rwobHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR++c0P/0APEjgWAdmcDt2CEQ0W
+alRY7ThTJdTs3oC5XV3KrhqszG0qOCBF/FnpWMAhjlpe3X20rwps7Rcpgb6+iQmT
+82IsvV6xSNz2eIOI8fbmjH5exyGpt1BgORwtOjRZzNLA7o4TW5ELMsDvZKtFHtvj
+V826Pcay30T9+SM4CCBi35RUAgfVseZ38pnCKoDhQlT8qoMRMTXcbnNYMTKpQcKA
+ASi02/vuR1LiVoAoj4D2snwLBj5uxaRFhD2p5nOQHVWzbIUBzQrOCsQFrg342Ah+
+7XsIwQiNxO5BD7uxfkIOGTBkHH3+fI+noueZYuFNiUf4O3IwsMijA93O+9gNzJVq
+zviElaqxlDoyHeI085ufhYy1SgsnZP4BJicMk9ljv13UsTuaDVDqcAAVVBf+/fTP
+NzPMQFXDiG5ZLBHiV5Yff5R8J5fu3E+W7/iBWgKNuSoPIsd4HI3SFevFnr87L5Wk
+VZQCg94zBFJzf47hNd2tMdd4gqkzdf9RxsrAq4WTJBORHY1caE7N67qD+ivsUzYA
+itdE7ZsMJ+ltL57HQ0BaVArM7XW7XYv7dL/DjnxpS0fQXkAkczZJEW/42gq5w8qV
+X29HJSAvwMac5u1q7ja1vM9Pp0/AdFzRuY01FHzS0xJrf1Xy7fgUPZ19wV+P9ka+
+rnUmnJlzDt9wql6zq/Rt8YJB
+=rmwu
+-----END PGP SIGNATURE-----
+
+--===============1049270904579223745==--
