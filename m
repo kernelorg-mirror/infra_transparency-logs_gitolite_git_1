@@ -1,56 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============2275182542461526490=="
+Content-Type: multipart/mixed; boundary="===============1315623108554351964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 07 Sep 2025 08:11:16 -0000
-Message-Id: <175723267675.1168877.16169655589655927042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 07 Sep 2025 09:13:56 -0000
+Message-Id: <175723643631.1217448.12617435968917112976@gitolite.kernel.org>
 
---===============2275182542461526490==
+--===============1315623108554351964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 109a7d120df6176e3b98965c716b08bb331890d3
-    new: 4f1627c4137ed250e3971a0f84bdebeb9dbfb397
+  - ref: refs/heads/for-next
+    old: 7cd931134f674ec87bf101fb3623cb2e41d719b5
+    new: 98ee0e036cfedf543c4728a604fd7870d0000efd
     log: |
-         4f1627c4137ed250e3971a0f84bdebeb9dbfb397 5.4-stable patches
+         43bd82eb33b2ac33232724a8ddb9e07cde492328 dt-bindings: clock: exynos990: Add PERIC0 and PERIC1 clock units
+         b3b314ef13e46dce1cdd97a856bd0250dac8feb9 clk: samsung: exynos990: Add PERIC0 and PERIC1 clock support
+         44b0a8e433aaad8aac51593a052f043aeb9a18d1 arm64: dts: exynos990: Enable PERIC0 and PERIC1 clock controllers
+         98ee0e036cfedf543c4728a604fd7870d0000efd Merge branches 'next/dt64' and 'next/clk' into for-next
+         
+  - ref: refs/heads/next/clk
+    old: f00a5dc81744250e7a3f843adfe12d7883282c56
+    new: b3b314ef13e46dce1cdd97a856bd0250dac8feb9
+    log: |
+         43bd82eb33b2ac33232724a8ddb9e07cde492328 dt-bindings: clock: exynos990: Add PERIC0 and PERIC1 clock units
+         b3b314ef13e46dce1cdd97a856bd0250dac8feb9 clk: samsung: exynos990: Add PERIC0 and PERIC1 clock support
+         
+  - ref: refs/heads/next/dt64
+    old: b1763769917723743284389803b4a0e0e09b849b
+    new: 44b0a8e433aaad8aac51593a052f043aeb9a18d1
+    log: |
+         44b0a8e433aaad8aac51593a052f043aeb9a18d1 arm64: dts: exynos990: Enable PERIC0 and PERIC1 clock controllers
          
 
---===============2275182542461526490==
+--===============1315623108554351964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757232726 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1757232674-9bd42c3610023a730260192ec0bc4ac0647a977d
+pusher krzk@kernel.org 1757236485 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1757236433-eb0f83384f2e98bf76668c3e341f0a1da1f3db30
 
-109a7d120df6176e3b98965c716b08bb331890d3 4f1627c4137ed250e3971a0f84bdebeb9dbfb397 refs/heads/master
+7cd931134f674ec87bf101fb3623cb2e41d719b5 98ee0e036cfedf543c4728a604fd7870d0000efd refs/heads/for-next
+f00a5dc81744250e7a3f843adfe12d7883282c56 b3b314ef13e46dce1cdd97a856bd0250dac8feb9 refs/heads/next/clk
+b1763769917723743284389803b4a0e0e09b849b 44b0a8e433aaad8aac51593a052f043aeb9a18d1 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi9PlYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JyYP/id2fiDP/Y0fjw0nuLtk
-fy0Nr6tlBCCVVmuxyZyFSevfscu6GoooD27YN60t+epPl3AsoCnBFP/Jlb5AOqPe
-MhZ7a5r4jwODZvOsUem3Z43l4o23CacPo842Rukw8dcce6leAh3FvoqSvcf9NlNX
-IYW50qvDfC1+Jq4EBEF28N5EFzOKNOjhhjnYdLAf1Bmd+bHMT3hyUHvw3We+FrtY
-gIVVr6DshQAuvSptu7bolxkl6IzdfuC80PG3OcjQucdald+YcJbfUSFGV7k21FfU
-PI/MIaSbnR4A23oDZD+RuqXD9O6tVZO+qtp1EtDD09MHrXaJmru2W/uf2Y4BYkVC
-kAN99MB90VvW8elqaExfwLrMf3BHBTOLBayeJVcprMJAPEFJFKuON+MHI5jSPOh0
-g59n3C08POZclk/dmNpXqpDlCWbh4IGRqOg3UW5UKIbcq8HYJ9GginxApENx7WQb
-13g+0G/DjbL4lzlzvQoQKpxmomn6OZ2FI61I8mCT0mu3gl8dNslb9/wXTHj4kUsl
-/5hdsdfS2BzKgRPVPkH4QYEsWDXJLWAXcwskHTj/XiOSZzHmCIl2YQDu/D9RR3Kv
-opkg7PUtbJqPc6qFUvevjbdRCeu1wielwLHCMktblhFUuqru8GdbH1v5qnzkiG0b
-xGV1q4PPNlFWhgAk+G7b77IO
-=4MC5
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmi9TQUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+FbEACDYCRm/Wpu4OXrtA2B+pHA3g5iXZ1/oWb8
+9TmwPuK/BMbfQOITm0iy3xq8xWbR6Amf6bg/dFnAKOxQZYFYUvPTCPKWEH9i7Hdr
+4U32RckrVQcvbbx0XVSScmw/oFKuvYpNBlKYA8JjandjODsof85fU29IbpL+l4jM
+SHg7/PSsg4UK8MQQRqh2hS3nz03BGhYvQB7mghJ/tiYSMVmWL14DcytDxG8MLiny
+D+XwVLZHfNBL7XFY+jBANSJDhelM6lDSIt8L73SPuIUZfML5WzjvT/RT+fK1RbXN
+ARU0wMcIW38sFvJUN1Htdjx4EhPSDe/4HrlosOemYW7uPz1A2tJfHDwfSmov5A4O
+ABLUM7GX9ros4XW9DQdsV/jZILJKd//cDUYp3u3J6W4UQuwK+hl88jIlt7ki3lSf
+ZMaH0g5lP1vhhhU6QitRSwGfxUv6BcmkFl0vVJxsowHmAs5sLrgQ9z6CV/SxGj4h
+lpyY5qJoI/1ZkQ5mIikdKY9pTgCE3jlR7OBGMeC5Qae7glT43jaUvQrD36DyX6/1
+gtCgbhTUFPf/pacShO8qCUsDeBNS73MPlaNPNQlmSivIl7DEN0VBQetRHrBPAYJz
+S7JDJB43g03m91yASM9mtIaAWYxPEt+5/2qNprK+eyJbCUdL9Ut32dIIuhkzMoHU
+ZbjUjymn7w==
+=wc01
 -----END PGP SIGNATURE-----
 
---===============2275182542461526490==--
+--===============1315623108554351964==--
