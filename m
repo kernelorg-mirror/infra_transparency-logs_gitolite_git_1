@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sun, 07 Sep 2025 10:55:05 -0000
-Message-Id: <175724250574.1302089.371963501508932028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sun, 07 Sep 2025 11:41:08 -0000
+Message-Id: <175724526851.1338154.4253801428535540111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/tags/i2c-for-6.17-rc5
+  - ref: refs/tags/edac_urgent_for_v6.17_rc5
     old: 0000000000000000000000000000000000000000
-    new: 5bc649592b405d221f035203bec131e1a54b6b13
+    new: b1b1a08d667ec92eda8982efdf1b808f6156a0be
