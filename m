@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5069295738603111800=="
+Content-Type: multipart/mixed; boundary="===============1516601368703388792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 07 Sep 2025 17:25:40 -0000
-Message-Id: <175726594001.1628354.4110244678754786273@gitolite.kernel.org>
+Date: Sun, 07 Sep 2025 17:26:03 -0000
+Message-Id: <175726596315.1628815.17307605185055965742@gitolite.kernel.org>
 
---===============5069295738603111800==
+--===============1516601368703388792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,90 +17,90 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-5.4.y
-    old: f6c7ecace748476f476d854568b2f063507c60cd
-    new: f9ed4d220d5602f9638b2f66ea986d1601c9764f
-    log: revlist-f6c7ecace748-f9ed4d220d56.txt
+    old: f9ed4d220d5602f9638b2f66ea986d1601c9764f
+    new: 5e560a7fc17f6fee48e057325b0582acd9a832a1
+    log: revlist-f9ed4d220d56-5e560a7fc17f.txt
 
---===============5069295738603111800==
+--===============1516601368703388792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757265989 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757266012 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1757265937-bf17a2383c19e475d14de7d863dc33cc6bfdebe9
+nonce 1757265960-e9cb8f078102630499af440393d51b163e3accb8
 
-f6c7ecace748476f476d854568b2f063507c60cd f9ed4d220d5602f9638b2f66ea986d1601c9764f refs/heads/linux-5.4.y
+f9ed4d220d5602f9638b2f66ea986d1601c9764f 5e560a7fc17f6fee48e057325b0582acd9a832a1 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi9wEUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3zcP/0UZ2ZZhwCvbpcubbSG7
-0rJoS7UF4Kjvy11L1XFq9gPQVr3iFwFECa3pun5dSAIm3V75lM95BjN2gMqRtow4
-lpuwcDx3MI7bcTOG0I+9gFItT7OQh+Txhk92cVmbK/1Pp87iVneIdwkXgYMZyyQy
-VIGpvzsqzH7lOae0I2AQMbs7jJu+hsHucou4FJ4MLwVpSV7TmUzOL0Sk0gjd+XMO
-QqA7pawtjXpKDN+1LdJhnkj22X+aBpGtVrG97PKC54zUMLzXVxoKenE2qXU+XRED
-SPSjaE/Vtj2UdOonHbD48bOPbM7ogBh0moCNRxpw1ZmBprddlpTnTjSHQTfdYAk2
-NNM1rhPQgoi1Cbi+xmgiyMoaXXzoGiW8A3gBIOUAbVkuGFpY1L7CWI1nIrL3jexS
-dvKUNEdZGV17n2WX0Y6U+KnDZWIeA7IBVdK3UUyh9s8YqNk9fL4txJTnZV4jwI1x
-IgSto5O3rZsULVkm5c2P84sGbpi14FX//ZKvA5UgZxQxq9gXBWOqpb0O6KdvWFJF
-1kDZfzZaRfOQh0J6ug0nrGgmo9/pww/czEwO2B8bJ3vimFDf1Mtauqa2ovTynLWT
-PDJZ3kseRVn8Fho7Uy9X6/ycXm3a2i11M+Hl8yRx0HtJEoOMbgzRoXb50pKLuWsL
-pjw6bPHmaPnFJnFfk1DEezua
-=R/Vg
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmi9wFwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8WsP/2+InFncLffJF2r2Evoe
+jFu3EoGGWQ/r5LVIo3oQ2Psp7gX1aBcsL9jzfG7oUq8PiywXuk2vlQ+lg1DDTJ6x
+PHIIJ7GdOqcNdvm+Yr71wA4iJU0wTPKXAC6ivthi4FS87cVfw64u4pLYQMCnke/G
+2h0kVlZMoj6ysAzOqP00qsvgF6gBOeiriQ6pS2Nm24MHGX0BnZWLAGnJu2NUxpG3
+io/Tseb00cpw6dSHDdMwCZdRY04gdTjS6gz7kiJ9mio0vf3azdTMYUWjIlqrUNqz
+TzJ+IxGeZbbbeKAnSSUFfZflgKGIjGgHdQ+f/2QoW24B8sSrLPZyMsPwdqb1Lm0S
+WDLLsaOACG6NPay3k8FqAaGzfaLcGREyvBI+ABxcPMAixnYwNAwbQnuIleQi04aq
+NB2GWYMyFgvj4W1Y2YaIVgzILN0Q5E+Bv8XKXcaEvnCiELdYh7+af9H5zxR27ZoI
+D9XbbLANidHlNdZRoNUj6mh+xpPQhQ73usRq+PQwDPCf0PCq7+4X9quNj/7YNSB1
+kPftCfWWruBy9NmTNEEBzEgLWOqUCmIXKKSFvUC53b106z/Fp6ytJ26K8iVW7F72
+uxbPYD0LYGpGHvZ4VuqkVUq5KlJ6BwcUSEnTPNLXN/XKdKwCYWrnGE5zP0RWe/Bz
+zjH+kLYe2OMDEyB2jqWMz/Iq
+=NBno
 -----END PGP SIGNATURE-----
 
---===============5069295738603111800==
+--===============1516601368703388792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6c7ecace748-f9ed4d220d56.txt
+Content-Disposition: attachment; filename=revlist-f9ed4d220d56-5e560a7fc17f.txt
 
-49b177614525b0496ff8a9d5efe7e9f0b6d00a1d powerpc: boot: Remove leading zero in label in udelay()
-c1641cb70c462a5f3380fe361767416a5ae383ce wifi: cfg80211: fix use-after-free in cmp_bss()
-e99476188bd283d13b481a9137caa9964e83617e netfilter: conntrack: helper: Replace -EEXIST by -EBUSY
-3e077378512a42709da8d5d2d7ec63a650a77cbf Bluetooth: Fix use-after-free in l2cap_sock_cleanup_listen()
-9c9f01dcae9f647c849ed1f1460962d8319dc217 xirc2ps_cs: fix register access when enabling FullDuplex
-110b1871cae90e25910f3f0462e8fc358419ef77 mISDN: Fix memory leak in dsp_hwec_enable()
-8cc3556c95dbef63e1194ab2b5aee7ae1a1fc467 icmp: fix icmp_ndo_send address translation for reply direction
-de50554166b5c2eabc78e596bd5309e8418cf9b6 i40e: Fix potential invalid access when MAC list is empty
-22d27de906eb5acd36f46c2eddced8e758da7bfb net: ethernet: mtk_eth_soc: fix tx vlan tag for llc packets
-aa8384fa5609c8be62b40958abaec62083e9a103 wifi: cw1200: cap SSID length in cw1200_do_join()
-3ad63289744fe2ff745fe44c8df3f546e8f30f8a wifi: libertas: cap SSID len in lbs_associate()
-1634dbfc944432760bb04d0ae1650c55c345fc62 net: thunder_bgx: add a missing of_node_put
-42ca7a82c4775f117a81e62169c2e92a2830f535 net: thunder_bgx: decrement cleanup index before use
-e79f9360ebfa952bc60f7b1db7af1d4ed06324e4 ipv4: Fix NULL vs error pointer check in inet_blackhole_dev_init()
-42e72416cddce817a9475df9c004e2faaf20a46a ax25: properly unshare skbs in ax25_kiss_rcv()
-2453f4a084858b827cf417bd2050a7b6bb82ef0c net: atm: fix memory leak in atm_register_sysfs when device_register fail
-1cbe8779f7b21051a68a2508b4bd93542250d64f ppp: fix memory leak in pad_compress_skb
-fb7cf927f95339e5e3fccc2a74b672f0be6476c2 ALSA: usb-audio: Add mute TLV for playback volumes on some devices
-4a86acbc7b7d782b04902b9d38ba16326a718c12 pcmcia: Fix a NULL pointer dereference in __iodyn_find_io_region()
-24a985357afb8fdb1b8a6dcb69b442888973792a wifi: mwifiex: Initialize the chan_stats array to zero
-dbceb6f1915aa5756afa94f87ba3009382d96499 drm/amdgpu: drop hw access in non-DC audio fini
-72e1a640b2b7a0bd7e202766f7d4d3979095f844 batman-adv: fix OOB read/write in network-coding decode
-a02ed1c766f94dded78774201527abe0239dbfdf e1000e: fix heap overflow in e1000_set_eeprom
-3e028017bac8af0ce7d64cf16181d0bdd8b04f90 mm/khugepaged: fix ->anon_vma race
-1d6d3f5b58a24e59e1a472a01f121174ecdb05e2 scsi: lpfc: Fix buffer free/clear order in deferred receive path
-f94d16387d5baa2450e4dfd4bad9e503dc8ffbc1 mm/slub: avoid accessing metadata when pointer is invalid in object_err()
-736c0a1122ced01171a3db7aefad9b524d332c75 cpufreq/sched: Explicitly synchronize limits_changed flag handling
-9cb6fa2587ce345f6fb5e64b723e76af373e5584 KVM: x86: Take irqfds.lock when adding/deleting IRQ bypass producer
-3c8a01b47470e2ed3c4625caf4a486a61f1fd964 iio: chemical: pms7003: use aligned_s64 for timestamp
-9bdfc435ac3dfc64e5690a2ad7c2a1b70eba4f0a iio: light: opt3001: fix deadlock due to concurrent flag access
-c3b3322c727a54385237fa8919960cd788160231 gpio: pca953x: fix IRQ storm on system wake up
-d9f397099bcd7b7e48f0c31cfb1632a56091ea0d ALSA: hda/realtek - Add new HP ZBook laptop with micmute led fixup
-e098b411fc32162a144156b3746cefe20b6fd3c6 dmaengine: mediatek: Fix a possible deadlock error in mtk_cqdma_tx_status()
-fc87014be315142d03cf9a3d4585a9f135b9b6da net: dsa: microchip: update tag_ksz masks for KSZ9477 family
-d79dbc9c2ceed4f0ced68cb610903c1a1dc8e721 net: dsa: microchip: linearize skb for tail-tagging switches
-37ec38db2f45cec2fb9923aba8cb2a8c38af63d6 vmxnet3: update MTU after device quiesce
-890abf464738573266448e40284d54ae0445b234 randstruct: gcc-plugin: Remove bogus void member
-26797f3e53dd5688222ea6b1088e810cfa1f51f5 randstruct: gcc-plugin: Fix attribute addition
-7788ad3cd56a213f5faa0e235a843ee9acdb21ac ALSA: hda/hdmi: Add pin fix for another HP EliteDesk 800 G4 model
-cdd9c41e82394e7631ec6def4bf2c8fa34c52793 pcmcia: Add error handling for add_interval() in do_validate_mem()
-521dac20c9f092f3e572775ad66ff3c2239d52a2 spi: spi-fsl-lpspi: Fix transmissions when using CONT
-447e80d963b32b568c5a8d53245b4637236d7aaa spi: spi-fsl-lpspi: Set correct chip-select polarity bit
-22011cb34a07703b580ec3ae63ab2a435044b88f spi: spi-fsl-lpspi: Reset FIFO and disable module on transfer abort
-b47be9d5b7fc5bdc9d72a9c4edef3d7d0279a31b cifs: fix integer overflow in match_server()
-f9ed4d220d5602f9638b2f66ea986d1601c9764f Linux 5.4.299-rc1
+946d98da04cc467c7e9877e6672e24b588d55f5d powerpc: boot: Remove leading zero in label in udelay()
+2f1301ca33cc3beffe0348cbc629aaa986cee0d2 wifi: cfg80211: fix use-after-free in cmp_bss()
+fdd129d726c5fc0f6cd9f4c0a48cc0ac87adfae8 netfilter: conntrack: helper: Replace -EEXIST by -EBUSY
+fcc4775ba778b40d5470c23570a60c25ba61c34a Bluetooth: Fix use-after-free in l2cap_sock_cleanup_listen()
+428e52045d07496562271aa4dc787c457a6e9bd5 xirc2ps_cs: fix register access when enabling FullDuplex
+3e96cc5107e36442202ef0003bbb32074c3d0a58 mISDN: Fix memory leak in dsp_hwec_enable()
+e5698654c2cdcb38aeaa3ab19dcce6aa00435917 icmp: fix icmp_ndo_send address translation for reply direction
+bfc89fcf275ddbabaee9b6ece933265ff5b12650 i40e: Fix potential invalid access when MAC list is empty
+c55bb1e828c22e5b49d86a9d1c6fb72b7eaedba8 net: ethernet: mtk_eth_soc: fix tx vlan tag for llc packets
+b9e84b82ce3e39452d50c3dab70c52d446ba302d wifi: cw1200: cap SSID length in cw1200_do_join()
+25877b8a087a5f6a8c6d8b33c0a0603100f45fcc wifi: libertas: cap SSID len in lbs_associate()
+f7c80bd710a92b868450ec5d9611a2998267736e net: thunder_bgx: add a missing of_node_put
+c06997f04a775dc1696541a665c82391dcabace9 net: thunder_bgx: decrement cleanup index before use
+52b9fbc2a77a971835262dd5e3db00ddd8d80e27 ipv4: Fix NULL vs error pointer check in inet_blackhole_dev_init()
+8543637a39aa614c2acf94b3aef465a41d22d1c8 ax25: properly unshare skbs in ax25_kiss_rcv()
+e6c23b1baeb289e35adb2df9e5905a4c097c00a7 net: atm: fix memory leak in atm_register_sysfs when device_register fail
+729dd8cf42b497a790b49628ccbd31f4a4182918 ppp: fix memory leak in pad_compress_skb
+70a3a74e6469ddc7160acc31d8887a14d555639d ALSA: usb-audio: Add mute TLV for playback volumes on some devices
+00aaf4ffe67d4112353652a6a8a5d148915b8dbe pcmcia: Fix a NULL pointer dereference in __iodyn_find_io_region()
+ae7027964c8deb80ce9d88281d63ab5982202051 wifi: mwifiex: Initialize the chan_stats array to zero
+bffac9518629703628512c5b2188c6ded8f69867 drm/amdgpu: drop hw access in non-DC audio fini
+208c43c57fdb1b432b48ccd8c315b42f103d6c8c batman-adv: fix OOB read/write in network-coding decode
+1d3eff66dea3c23679aa15fece63b14dc0c26976 e1000e: fix heap overflow in e1000_set_eeprom
+52d9276d067bce03ac3ed836e2c459d7e3ea2f93 mm/khugepaged: fix ->anon_vma race
+5996ac3ee55290af48b5b1e1615d9340db5cf51a scsi: lpfc: Fix buffer free/clear order in deferred receive path
+d9847b55ae84d21d26f320b80704be070774914e mm/slub: avoid accessing metadata when pointer is invalid in object_err()
+265d7ce0655ecd4023f97f7881c160dcca6fec3e cpufreq/sched: Explicitly synchronize limits_changed flag handling
+0f5c7354a3d49faaa6159e222182c6974611e79c KVM: x86: Take irqfds.lock when adding/deleting IRQ bypass producer
+7a5aea565c93fe1bd0b3daecf444bc0077a29356 iio: chemical: pms7003: use aligned_s64 for timestamp
+00cfdba5a1a5473589932a80fb966a904ad431be iio: light: opt3001: fix deadlock due to concurrent flag access
+44ef083d6f066a90f46fd80d4de5ab990948cb26 gpio: pca953x: fix IRQ storm on system wake up
+2b27f7cc3a098ccbeb6b7c9509d7b7e2f01507eb ALSA: hda/realtek - Add new HP ZBook laptop with micmute led fixup
+e4e708a340b91da77f21a209175518611c109cce dmaengine: mediatek: Fix a possible deadlock error in mtk_cqdma_tx_status()
+d7a755258d3b76250110ba18816720fee4366d5d net: dsa: microchip: update tag_ksz masks for KSZ9477 family
+3b7b310ef13053b7d750b9f915bfac64a94c7c5f net: dsa: microchip: linearize skb for tail-tagging switches
+27e23edd615d533470249d3a7a2b62d1fcdc96c5 vmxnet3: update MTU after device quiesce
+8126e2122fea5e1b70dba56496782c519b926ca6 randstruct: gcc-plugin: Remove bogus void member
+d3b7eda9ee10e591c1b714a7a8ad769e50a51925 randstruct: gcc-plugin: Fix attribute addition
+031760676962cafc5f2ebae944cc404cd81d173b ALSA: hda/hdmi: Add pin fix for another HP EliteDesk 800 G4 model
+08dc30449d296c775afe4d68e9f6550dbbc69b18 pcmcia: Add error handling for add_interval() in do_validate_mem()
+553460bfa721219842e302206b90bde3a7a67a99 spi: spi-fsl-lpspi: Fix transmissions when using CONT
+8231ea5241ad7bf8f1b2b94b0f179a47bec2f0f4 spi: spi-fsl-lpspi: Set correct chip-select polarity bit
+3618d0075407e789c33165a6bc22b9c9461510f0 spi: spi-fsl-lpspi: Reset FIFO and disable module on transfer abort
+ad17ec6bbbeb1db27f73b60fd6fa0a8cd3bb5a1d cifs: fix integer overflow in match_server()
+5e560a7fc17f6fee48e057325b0582acd9a832a1 Linux 5.4.299-rc1
 
---===============5069295738603111800==--
+--===============1516601368703388792==--
