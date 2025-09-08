@@ -1,38 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 08 Sep 2025 07:36:47 -0000
-Message-Id: <175731700705.2384253.967654348156621803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 08 Sep 2025 07:38:28 -0000
+Message-Id: <175731710862.2385023.5188787066917618480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-linus
-    old: ad64c073c9a031850de1542e6e976b0249e7e650
-    new: 71d2893a235bf3b95baccead27b3d47f2f2cdc4c
+  - ref: refs/heads/gpio/for-next
+    old: f3c19e70eb897544160c4b96b9ad6b7d921c9fac
+    new: 474014cdec1758e1802082b94043189e198c58a4
     log: |
-         71d2893a235bf3b95baccead27b3d47f2f2cdc4c ALSA: hda/tas2781: Fix the order of TAS2781 calibrated-data
-         
-  - ref: refs/heads/for-next
-    old: cbd676874e64a2122edd03ba6a2406b24779df05
-    new: 86eec88c5bddf9a57bfebe701d9c7a4d439aed9b
-    log: |
-         2c92e2fbe9e22cefdae87d8a0d654691ee4c1957 ALSA: compress_offload: Add 64-bit safe timestamp infrastructure
-         f20a53974f79619d0ef6c9f17bb8693499fb6ebb ALSA: compress_offload: Add SNDRV_COMPRESS_TSTAMP64 ioctl
-         86eec88c5bddf9a57bfebe701d9c7a4d439aed9b ALSA: compress_offload: Add SNDRV_COMPRESS_AVAIL64 ioctl
-         
-  - ref: refs/heads/master
-    old: 093060693445c07be256be66ae2c2ea2aaef120c
-    new: 6b6a663a4f09d832ac8e34f17ce8edd5c5e2affd
-    log: |
-         2c92e2fbe9e22cefdae87d8a0d654691ee4c1957 ALSA: compress_offload: Add 64-bit safe timestamp infrastructure
-         f20a53974f79619d0ef6c9f17bb8693499fb6ebb ALSA: compress_offload: Add SNDRV_COMPRESS_TSTAMP64 ioctl
-         86eec88c5bddf9a57bfebe701d9c7a4d439aed9b ALSA: compress_offload: Add SNDRV_COMPRESS_AVAIL64 ioctl
-         d152b6f174042a3eb40913adf4505a3a2eddeaf6 Merge branch 'for-next'
-         71d2893a235bf3b95baccead27b3d47f2f2cdc4c ALSA: hda/tas2781: Fix the order of TAS2781 calibrated-data
-         6b6a663a4f09d832ac8e34f17ce8edd5c5e2affd Merge branch 'for-linus'
+         d3e7efad8fbaf0c2d6f039ae074a20c3aa89bd12 gpio: Kconfig: Update help for GPIO_PCA953X
+         084d01a173f5f41afd326b1dfe73085972530ca7 dt-bindings: gpio: loongson: Document GPIO controller of LS2K0300 SoC
+         03c146cb6cd14fdab2d2c7ab1b4e8035b54df8cc gpio: loongson-64bit: Add support for Loongson-2K0300 SoC
+         474014cdec1758e1802082b94043189e198c58a4 gpio: pisosr: Use devm_mutex_init()
          
