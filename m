@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3115592092846857231=="
+Content-Type: multipart/mixed; boundary="===============0561331180352003476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 08 Sep 2025 14:49:39 -0000
-Message-Id: <175734297981.2772275.18318178752083153751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 08 Sep 2025 14:49:57 -0000
+Message-Id: <175734299714.2772573.18252002315135613236@gitolite.kernel.org>
 
---===============3115592092846857231==
+--===============0561331180352003476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: b320789d6883cc00ac78ce83bccbfe7ed58afcf0
     new: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
     log: revlist-b320789d6883-76eeb9b8de98.txt
 
---===============3115592092846857231==
+--===============0561331180352003476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -348,4 +348,4 @@ b7369eb7319d0cb94ad2ea5b5486e276339c595a Merge tag 'locking-urgent-2025-09-07' o
 bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c Linux 6.17-rc5
 
---===============3115592092846857231==--
+--===============0561331180352003476==--
