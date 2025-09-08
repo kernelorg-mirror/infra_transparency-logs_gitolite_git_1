@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 08 Sep 2025 10:58:36 -0000
-Message-Id: <175732911693.2576950.16460830716690691917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/cix
+Date: Mon, 08 Sep 2025 11:08:53 -0000
+Message-Id: <175732973337.2585306.2188618206243845861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/peter.chen/cix
+user: peter.chen
 changes:
-  - ref: refs/heads/rdma-next
-    old: f02a3789a737c379a57b060f24e1ba900293f5d3
-    new: 1d254c5fc86b6938f7faf09af56cc4cc3d92c8be
+  - ref: refs/heads/cix/dt
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: fad32e8ac460198d086c6468dafe47ecbd9d03e8
     log: |
-         1d254c5fc86b6938f7faf09af56cc4cc3d92c8be IB/mlx5: Reduce IMR KSM size when 5-level paging is enabled
+         fad32e8ac460198d086c6468dafe47ecbd9d03e8 arm64: dts: cix: add DT nodes for all I2C and I3C ports for sky1
          
