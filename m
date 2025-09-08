@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4819053690733499598=="
+Content-Type: multipart/mixed; boundary="===============4222490361971888632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 08 Sep 2025 09:54:15 -0000
-Message-Id: <175732525560.2520081.9589920224121502766@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 09:54:45 -0000
+Message-Id: <175732528538.2520735.11804069784187127377@gitolite.kernel.org>
 
---===============4819053690733499598==
+--===============4222490361971888632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 111b17d08c7ce82924dd46ce551c2af7eb056b1d
-    new: 267e0c6d2da10dd807e37e580768e4486b62f37e
-    log: revlist-111b17d08c7c-267e0c6d2da1.txt
+  - ref: refs/heads/m68k-queue
+    old: ffe9b3cd5475ca0b1490fd25714a96dc552c0232
+    new: e0836dd396164af3178d69c081b04a69b28929a2
+    log: revlist-ffe9b3cd5475-e0836dd39616.txt
 
---===============4819053690733499598==
+--===============4222490361971888632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-111b17d08c7c-267e0c6d2da1.txt
+Content-Disposition: attachment; filename=revlist-ffe9b3cd5475-e0836dd39616.txt
 
 e4a718a3a47e89805c3be9d46a84de1949a98d5d tee: fix NULL pointer dereference in tee_shm_put
 50a74d0095cd23d2012133e208df45a298868870 tee: fix memory leak in tee_dyn_shm_alloc_helper
@@ -347,6 +347,8 @@ b7369eb7319d0cb94ad2ea5b5486e276339c595a Merge tag 'locking-urgent-2025-09-07' o
 2c3bac60853ed8f67e42451c7810321ff1df9c7c Merge tag 'edac_urgent_for_v6.17_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c Linux 6.17-rc5
-267e0c6d2da10dd807e37e580768e4486b62f37e Merge tag 'v6.17-rc5'
+a1f10ef9fa4f67872c38fae587eef480010ca47a m68k: atari: usb: Add ISP1160 USB host controller support
+43acc7e6ceeedd9b82872e79ac839f9559e5a54f m68k: atari: Update Kconfig.bus help text
+e0836dd396164af3178d69c081b04a69b28929a2 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4819053690733499598==--
+--===============4222490361971888632==--
