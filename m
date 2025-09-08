@@ -1,70 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7716508190960241198=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 08 Sep 2025 22:59:32 -0000
-Message-Id: <175737237257.3201940.11625693432119594998@gitolite.kernel.org>
-
---===============7716508190960241198==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 08 Sep 2025 23:44:12 -0000
+Message-Id: <175737505217.3238044.13781593985653020613@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 633589da13485da4439da4329c7c936ad96bfb3b
-    new: 90573b76dda844abde5da85fec9552b8c8b8e344
-    log: revlist-633589da1348-90573b76dda8.txt
-
---===============7716508190960241198==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1757372410 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1757372356-1fbd788d3d8c6e920b2c20a4bb5def4d2d64bc52
-
-633589da13485da4439da4329c7c936ad96bfb3b 90573b76dda844abde5da85fec9552b8c8b8e344 refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaL9f+gAKCRA2KwveOeQk
-u/sDAQDsr210+XrBCIu5pp9fx8muqxVE7Pk6DrVmEHUi6mdNLAD5AbADp36CiDmu
-zikt+aqiBaAvdxMYYmlT14z8sFpanw0=
-=nP72
------END PGP SIGNATURE-----
-
---===============7716508190960241198==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-633589da1348-90573b76dda8.txt
-
-00e58ff924b3a684b076f9512fe2753be87b50e1 PCI: Test for bit underflow in pcie_set_readrq()
-b3a7bb71bfcd56c8266af8cf2a5dee3802e7a449 KUnit: Introduce ffs()-family tests
-6606c8c7e81886565f5cbdb0c0ce82e280c2b229 bitops: Add __attribute_const__ to generic ffs()-family implementations
-4452a0dfc5bddf4df3a945d2e9ecb201d52d164a csky: Add __attribute_const__ to ffs()-family implementations
-fca08b748d1773dd9743abc063379664986e276d x86: Add __attribute_const__ to ffs()-family implementations
-69057d3db759cc260aee4ab189b76ae91fbc18f9 powerpc: Add __attribute_const__ to ffs()-family implementations
-4251f58f620716163575d6b6f7e6a10d43fb5ca5 sh: Add __attribute_const__ to ffs()-family implementations
-a8d060ddeed52b4e4d0264b34353f025c421e4b9 alpha: Add __attribute_const__ to ffs()-family implementations
-799776f3360d7505be25adb0d06e28b183c8ad70 hexagon: Add __attribute_const__ to ffs()-family implementations
-c51c26e687a649df9a792f71759105e12e5d082f riscv: Add __attribute_const__ to ffs()-family implementations
-acfab97bef41324e72784fcfdb6ce7996a8bf548 openrisc: Add __attribute_const__ to ffs()-family implementations
-50c869a6cecabb522f157fa6cc41bca2eb8aecb4 m68k: Add __attribute_const__ to ffs()-family implementations
-32913fe7f71e72fb49033df35ec6388ff7b170ff mips: Add __attribute_const__ to ffs()-family implementations
-28fc0972e392ed3cfa579f3e3659d615cbac647b parisc: Add __attribute_const__ to ffs()-family implementations
-b77fee88bfdfcba2f92c9de2ed1af793c96c46d8 s390: Add __attribute_const__ to ffs()-family implementations
-945fc9dbd8377e48246de3a5f0104ebe82399eb0 xtensa: Add __attribute_const__ to ffs()-family implementations
-07008b9c1cb8cbeb1741c55729639836dccd4a8f sparc: Add __attribute_const__ to ffs()-family implementations
-95719dfa323709c06ec34cc96e73e0788e19934f KUnit: ffs: Validate all the __attribute_const__ annotations
-90573b76dda844abde5da85fec9552b8c8b8e344 Merge branches 'for-next/v6.18-rc1/ffs-const', 'for-next/hardening' and 'for-linus/hardening' into for-next/kspp
-
---===============7716508190960241198==--
+  - ref: refs/heads/pending-ath12k-ng
+    old: d637c58a29475d646f8decfbbc1d27fae999a449
+    new: 59727b35ec86018613078ae806d2f859d5f5b1a8
+    log: |
+         8565159de25efefa9b7bc9fa3816885a29e87c9c wifi: ath12k: Remove non-compact TLV support from QCN
+         0dfb89810898c2575982b9755bd7df5f8e4c7d17 wifi: ath12k: Move the hal APIs to hardware specific files
+         30db0c0c7256652ce1de9a7c4d2711a4875ece8e wifi: ath12k: unify HAL ops naming across chips
+         36de5fb3b1368e1e50b98de500b022d51c1e2f6f wifi: ath12k: Replace ops with direct calls for rxdma ring mask
+         4ea576e548d2eba8136ca15dacdb5f57d650c92e wifi: ath12k: Move hal_rx_ops callbacks to hal_ops
+         37f45edf70d6d037e85341178bd4b7ba46a156ab wifi: ath12k: Add new infra for the rx path
+         d7dfdff37b1993502b11b459c6bfc7e9535b3643 wifi: ath12k: Remove hal_rx_ops and merge into hal_ops
+         59727b35ec86018613078ae806d2f859d5f5b1a8 wifi: ath12k: Change the API prefixes to ath12k_wifi7 in tx/rx
+         
