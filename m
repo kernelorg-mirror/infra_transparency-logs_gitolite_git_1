@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6876722713775346861=="
+Content-Type: multipart/mixed; boundary="===============1147585170738319724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 08 Sep 2025 02:30:44 -0000
-Message-Id: <175729864410.2075878.265162006209275082@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 02:31:21 -0000
+Message-Id: <175729868169.2076471.3336716017885996210@gitolite.kernel.org>
 
---===============6876722713775346861==
+--===============1147585170738319724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 4a0de50a44bb11ea67bb3ca961844b55ac57cf05
-    new: b240a498e32a7c91e7ca4456b5fd0390894c9101
-    log: revlist-4a0de50a44bb-b240a498e32a.txt
+  - ref: refs/heads/nfsd-testing
+    old: b8cf39957931982091e6446a98f151a79aeea07b
+    new: c918e1b3b34e77a7dac1e9b77ca61161fce7e1dc
+    log: revlist-b8cf39957931-c918e1b3b34e.txt
 
---===============6876722713775346861==
+--===============1147585170738319724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a0de50a44bb-b240a498e32a.txt
+Content-Disposition: attachment; filename=revlist-b8cf39957931-c918e1b3b34e.txt
 
 e4a718a3a47e89805c3be9d46a84de1949a98d5d tee: fix NULL pointer dereference in tee_shm_put
 50a74d0095cd23d2012133e208df45a298868870 tee: fix memory leak in tee_dyn_shm_alloc_helper
@@ -371,5 +371,23 @@ f11eddb1596e63e39a8d352fb930bea136155c7c nfsd: Replace open-coded conversion of 
 6a17e181dcac332cc014242b51a2a614f075b61c nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
 ebda7eb4e74e83a6b0e072ce8cd9154bd336100d NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
 b240a498e32a7c91e7ca4456b5fd0390894c9101 nfsd: decouple the xprtsec policy check from check_nfsd_access()
+ac36ad0863e6c3349509bf7b139dc26b714adf7e sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
+30b6db2a0314471978f90d85bd01301811913558 sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+102810d62a8b030e79f7ab0c54fe17fa0ff97e07 NFSD: Drop redundant conversion to bool
+69ce9d3b7a763b268e4b307b2d3dbbf7f582528f nfsd: unregister with rpcbind when deleting a transport
+e9b6daa090885fbad534ccd5b5fd10f22606733f NFS: Remove rpcbind cleanup for NFSv4.0 callback
+ba94475668d576294ff44430e54c72217688e461 SUNRPC: Move the svc_rpcb_cleanup() call sites
+63a796a025af8e81aeee85b9df68385eef3f9019 NFSD: Delay adding new entries to LRU
+6d9f404b5bf493f7d07e41ebe2aa08ffc393c756 NFSD: Reduce DRC bucket size
+4e526012716733adde46e9684c7f51a188bec7bd nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
+71ee177cce6d93c309583458ebb243058898c9c6 nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
+b2c8530e38424679562ac1636e57f66b285d2ce9 svcrdma: Introduce Receive buffer arenas
+09f804150561611fb42bf7caec416b6686f7779e sunrpc: fix "occurence"->"occurrence"
+7fa611e9fe8ab6f780bc6fbd32fa8401a28121aa nfsd: delete unnecessary NULL check in __fh_verify()
+e2414d32bb23807ec8bcdbbc0177c9d63befe46b nfsd: remove long-standing revoked delegations by force
+c756301c52a35d89f8d7305aeb43e6dc7a317fbc NFSD: Disallow layoutget during grace period
+9872834bf47b3c0c661883750cf087ba54e50355 NFSD: Do the grace period check in ->proc_layoutget
+f1ce9d5523cc812e4073130af7fecb39b4db13c8 NFSD: Add io_cache_{read,write} controls to debugfs
+c918e1b3b34e77a7dac1e9b77ca61161fce7e1dc siw: Enable try_gso
 
---===============6876722713775346861==--
+--===============1147585170738319724==--
