@@ -1,50 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2732099474639982064=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 08 Sep 2025 10:02:39 -0000
-Message-Id: <175732575949.2528595.11180754923440881484@gitolite.kernel.org>
-
---===============2732099474639982064==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Mon, 08 Sep 2025 10:03:27 -0000
+Message-Id: <175732580738.2529038.17637012296260135332@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: ee1cb9b0e6a80c4f9011e7a9f87e3942a65e6f16
-    new: f490253809c8dab4af62e787f5a3ac3d22aa869c
+  - ref: refs/heads/renesas-pinctrl
+    old: d1d31e2739ff063da1e85cd9b44316ca5cccdba8
+    new: 512bf60226c621893729605121a396240e84a5d4
     log: |
-         c778f7ac13d5e94db821cf8e1078aa318cc15460 platform/x86: think-lmi: Add certificate GUID structure
-         07b93b747cb713478991388b3d55c3ce9267e037 platform/x86: think-lmi: Certificate support for ThinkCenter
-         a0d6959c345d89d811288a718e3f6b145dcadc8c platform/x86: think-lmi: Add extra TC BIOS error messages
-         a191224186ec16a4cb1775b2a647ea91f5c139e1 platform/x86/intel-uncore-freq: Present unique domain ID per package
-         f490253809c8dab4af62e787f5a3ac3d22aa869c platform/x86/amd/pmf: Remove redundant ternary operators
+         30247fc3254a4502465ab809d49e2167ace5a6f2 pinctrl: renesas: rzg2l: Fix OEN resume
+         837afa592c6234be82acb5d23e0a39e9befdaa85 pinctrl: renesas: rzg2l: Add suspend/resume support for Schmitt control registers
+         9f062fc5b0ff44550088912ab89f9da40226a826 pinctrl: renesas: Use int type to store negative error codes
+         512bf60226c621893729605121a396240e84a5d4 pinctrl: renesas: r8a779g0: Fix trivial typo in SoC type comment
          
-
---===============2732099474639982064==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1757325804 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1757325752-7618812137acb68b808abba9317fdd7cc2c25a67
-
-ee1cb9b0e6a80c4f9011e7a9f87e3942a65e6f16 f490253809c8dab4af62e787f5a3ac3d22aa869c refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaL6p9AAKCRBZrE9hU+XO
-Ma6qAQDzLay0rq4aCIuWyLR/b/598wm8jqFlvxISiJ+Dg01QbwEAsdAZk+u/HHAE
-USG5OI5KWcnHxxjFmbWxtvOjrsWRDA8=
-=Fwrz
------END PGP SIGNATURE-----
-
---===============2732099474639982064==--
+  - ref: refs/heads/renesas-pinctrl-for-v6.18
+    old: d1d31e2739ff063da1e85cd9b44316ca5cccdba8
+    new: 512bf60226c621893729605121a396240e84a5d4
+    log: |
+         30247fc3254a4502465ab809d49e2167ace5a6f2 pinctrl: renesas: rzg2l: Fix OEN resume
+         837afa592c6234be82acb5d23e0a39e9befdaa85 pinctrl: renesas: rzg2l: Add suspend/resume support for Schmitt control registers
+         9f062fc5b0ff44550088912ab89f9da40226a826 pinctrl: renesas: Use int type to store negative error codes
+         512bf60226c621893729605121a396240e84a5d4 pinctrl: renesas: r8a779g0: Fix trivial typo in SoC type comment
+         
