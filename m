@@ -1,69 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3200627960188753775=="
+Content-Type: multipart/mixed; boundary="===============8219913590588990798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 08 Sep 2025 22:00:16 -0000
-Message-Id: <175736881607.3154248.14056078279666128090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Mon, 08 Sep 2025 22:10:51 -0000
+Message-Id: <175736945161.3162837.5936592299013866272@gitolite.kernel.org>
 
---===============3200627960188753775==
+--===============8219913590588990798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/for-next/v6.18-rc1/ffs-const
-    old: dc83f0302b3f8e4d4eeca62b91d2024049e016aa
-    new: 95719dfa323709c06ec34cc96e73e0788e19934f
-    log: revlist-dc83f0302b3f-95719dfa3237.txt
+  - ref: refs/heads/hyperv-next
+    old: 59d77c469c036d519c461df98e6a696906f79f79
+    new: 20ebf27cc0803285f61abb3046398405f057766a
+    log: revlist-59d77c469c03-20ebf27cc080.txt
 
---===============3200627960188753775==
+--===============8219913590588990798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-59d77c469c03-20ebf27cc080.txt
 
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1757368865 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1757368803-3f5dafc2cfca0bfb2c4890eaf183f3c56268583a
+4cd661c248b6671914ad59e16760bb6d908dfc61 hyperv: Add missing field to hv_output_map_device_interrupt
+47691ced158ab3a7ce2189b857b19c0c99a9aa80 clocksource: hyper-v: Skip unnecessary checks for the root partition
+f26c9306dff818bbf4ef545c5a5ee0eca7149922 mshv: Add support for a new parent partition configuration
+ac7b0a5cd331862c3d4d49eae71ed93f8f5082f3 Drivers: hv: util: Cosmetic changes for hv_utils_transport.c
+2d0ddbb65cef99aab241378b0f4ff2d6ea8c3a5a Drivers: hv: Simplify data structures for VMBus channel close message
+a883d6d0d8066d691680ee6425aadb83ca36130b x86/hyperv: Fix kdump on Azure CVMs
+8af794d6f86597a42a859010d67c5f37cd8c787e mshv: Handle NEED_RESCHED_LAZY before transferring to guest
+4754f09b71b84d2515c51a9ee4c84384741d088f entry/kvm: KVM: Move KVM details related to signal/-EINTR into KVM proper
+4843a45ef9fe8a895ae7e47ffa672a0180c5d1a1 entry: Rename "kvm" entry code assets to "virt" to genericize APIs
+923ad723b3e9bb883497e42e59338d1fe1684ee2 mshv: Use common "entry virt" APIs to do work in root before running guest
+20ebf27cc0803285f61abb3046398405f057766a x86/hyperv: Switch to msi_create_parent_irq_domain()
 
-dc83f0302b3f8e4d4eeca62b91d2024049e016aa 95719dfa323709c06ec34cc96e73e0788e19934f refs/heads/for-next/v6.18-rc1/ffs-const
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaL9SIQAKCRA2KwveOeQk
-u8JbAQCK/4YcAjyaAjRu/5wn2wn7Sp47Mf8VJ1ebFb1YaImTqQD+Iq+PBdOe5BPQ
-TpFBuvMKFWsxTGWl7RNdq3GCAOSBwAM=
-=/kNq
------END PGP SIGNATURE-----
-
---===============3200627960188753775==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc83f0302b3f-95719dfa3237.txt
-
-00e58ff924b3a684b076f9512fe2753be87b50e1 PCI: Test for bit underflow in pcie_set_readrq()
-b3a7bb71bfcd56c8266af8cf2a5dee3802e7a449 KUnit: Introduce ffs()-family tests
-6606c8c7e81886565f5cbdb0c0ce82e280c2b229 bitops: Add __attribute_const__ to generic ffs()-family implementations
-4452a0dfc5bddf4df3a945d2e9ecb201d52d164a csky: Add __attribute_const__ to ffs()-family implementations
-fca08b748d1773dd9743abc063379664986e276d x86: Add __attribute_const__ to ffs()-family implementations
-69057d3db759cc260aee4ab189b76ae91fbc18f9 powerpc: Add __attribute_const__ to ffs()-family implementations
-4251f58f620716163575d6b6f7e6a10d43fb5ca5 sh: Add __attribute_const__ to ffs()-family implementations
-a8d060ddeed52b4e4d0264b34353f025c421e4b9 alpha: Add __attribute_const__ to ffs()-family implementations
-799776f3360d7505be25adb0d06e28b183c8ad70 hexagon: Add __attribute_const__ to ffs()-family implementations
-c51c26e687a649df9a792f71759105e12e5d082f riscv: Add __attribute_const__ to ffs()-family implementations
-acfab97bef41324e72784fcfdb6ce7996a8bf548 openrisc: Add __attribute_const__ to ffs()-family implementations
-50c869a6cecabb522f157fa6cc41bca2eb8aecb4 m68k: Add __attribute_const__ to ffs()-family implementations
-32913fe7f71e72fb49033df35ec6388ff7b170ff mips: Add __attribute_const__ to ffs()-family implementations
-28fc0972e392ed3cfa579f3e3659d615cbac647b parisc: Add __attribute_const__ to ffs()-family implementations
-b77fee88bfdfcba2f92c9de2ed1af793c96c46d8 s390: Add __attribute_const__ to ffs()-family implementations
-945fc9dbd8377e48246de3a5f0104ebe82399eb0 xtensa: Add __attribute_const__ to ffs()-family implementations
-07008b9c1cb8cbeb1741c55729639836dccd4a8f sparc: Add __attribute_const__ to ffs()-family implementations
-95719dfa323709c06ec34cc96e73e0788e19934f KUnit: ffs: Validate all the __attribute_const__ annotations
-
---===============3200627960188753775==--
+--===============8219913590588990798==--
