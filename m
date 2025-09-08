@@ -1,66 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6342594465523500850=="
+Content-Type: multipart/mixed; boundary="===============0687478723653003913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Mon, 08 Sep 2025 20:42:51 -0000
-Message-Id: <175736417127.3083603.1231144940585684171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 08 Sep 2025 20:44:24 -0000
+Message-Id: <175736426403.3084849.13295055593356975534@gitolite.kernel.org>
 
---===============6342594465523500850==
+--===============0687478723653003913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/rseq/perf
-    old: d93dabfa82385df8a85b60a3a948187d00737155
-    new: baeb0053ddfbf96f155b259e8dfc7aaa51e7ab33
-    log: revlist-d93dabfa8238-baeb0053ddfb.txt
+  - ref: refs/heads/next
+    old: 3d62ecaf14d485d3f7f87a354f2a71014c8586cd
+    new: bfd2c81b061c031cd1cfd7862ce881cb8f6aa9b5
+    log: revlist-3d62ecaf14d4-bfd2c81b061c.txt
 
---===============6342594465523500850==
+--===============0687478723653003913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d93dabfa8238-baeb0053ddfb.txt
+Content-Disposition: attachment; filename=revlist-3d62ecaf14d4-bfd2c81b061c.txt
 
-6281e4c6366798d6450bfe5972104c0d27ec8d61 rseq: Avoid pointless evaluation in __rseq_notify_resume()
-0a1e5f0dcbe4e01667de5b5abb98b4e8e6ef3b8c rseq: Condense the inline stubs
-28d41398f99aaee30c8bfedc06e929bbc1a2253a rseq: Move algorithm comment to top
-f2315df2bf202cb52a2079e2518e3e1493955a4a rseq: Remove the ksig argument from rseq_handle_notify_resume()
-b9c4234c814d7dd84177d71eca09b0ba536d9d32 rseq: Simplify registration
-75c8d399f7aa69d88713486fa3743b004533fea4 rseq: Simplify the event notification
-c6e1e225450c4454386e550cc3052fe5f6914d49 rseq, virt: Retrigger RSEQ after vcpu_run()
-56a4175374f09585ca2c79af7e5e63f62437b97b rseq: Avoid CPU/MM CID updates when no event pending
-e59450f6133c17d7ff9c68e6d2e1b10c1d42c719 rseq: Introduce struct rseq_data
-3efd7070a8c0d9277fbd59c84dafb1f4346453be entry: Cleanup header
-2940bef872782e5a5aaea348d47183f6f109a50b entry: Remove syscall_enter_from_user_mode_prepare()
-6f034b62a018f67f9487a7773ce6045f16bc8fb4 entry: Inline irqentry_enter/exit_from/to_user_mode()
-0287a70ea25d25e9b2cd89e31a32abced28dba53 sched: Move MM CID related functions to sched.h
-f4043d56d7ac9b2083fbeab36942989873d24440 rseq: Cache CPU ID and MM CID values
-172ab129ac1cc83236048969414c395df11f5498 rseq: Record interrupt from user space
-10d86ff0f48c9967ff62b3f41b4a397d79694dc1 rseq: Provide tracepoint wrappers for inline code
-c8f7a08781eecca8c7b72cf23f21df369548eede rseq: Expose lightweight statistics in debugfs
-b567f63d06463d5966883cf34629070bb812dda9 rseq: Provide static branch for runtime debugging
-bca167b7461e8e9b6ed38751568d8c733f630fea rseq: Provide and use rseq_update_user_cs()
-b084f4becd891fc1e6eb4e6847a1549e207e6867 rseq: Replace the original debug implementation
-b9551221ecf4d485473c6f0f95d38f79881ae42a rseq: Make exit debugging static branch based
-29c1396eb1a095012907278ede3a8d3dbbadfbd7 rseq: Use static branch for syscall exit debug when GENERIC_IRQ_ENTRY=y
-1ac649ef3b1ff9bed9a37ad933986b5fb0697f07 rseq: Provide and use rseq_set_ids()
-afbb07dfafaef25f2a084f831a93bbeb4cc3fc08 rseq: Separate the signal delivery path
-b2590450986066f22f3a7e34dcbb78a18ccf927b rseq: Rework the TIF_NOTIFY handler
-94bfccab77acb203162805cb04dd9acf004461a5 rseq: Optimize event setting
-9aece257d4ea1e3d7eaa18a211c91047fcf22419 rseq: Implement fast path for exit to user
-c34bc0a5058489a449f23e4a230f3ae34ba047c3 rseq: Switch to fast path processing on exit to user
-e1f3433c7b5e1aa28277b3cb563569e3871a3561 entry: Split up exit_to_user_mode_prepare()
-5f66548074e750ff53019788ef78ff0d5598e537 rseq: Split up rseq_exit_to_user_mode()
-ae09eb02834331e5a1f75fb1b213d6f05b0d53b5 asm-generic: Provide generic TIF infrastructure
-4a5cb0a93819235a44cca7f6d029dbe1c0503b1f x86: Use generic TIF bits
-8f2d890e2dcc7f2681d7fd08e0af0b97a80af5ee s390: Use generic TIF bits
-6d257d5ce75ebbde02c6b1be64e6db6aba4d4f87 loongarch: Use generic TIF bits
-b8d4f5db659f9921ad52ef0446ba4dabf7143f17 riscv: Use generic TIF bits
-baeb0053ddfbf96f155b259e8dfc7aaa51e7ab33 rseq: Switch to TIF_RSEQ if supported
+54dbd2a8e974b900b18639e75f62702a4334ddc0 PCI/P2PDMA: Reduce scope of pci_has_p2pmem()
+c8ab5e888bb6721e6e084881e6e24ef2678832c3 PCI/AER: Print TLP Log for errors introduced since PCIe r1.1
+37bf0f4e39de9b53bc6f8d3702b021e2c6b5bae3 PCI: qcom: Add equalization settings for 8.0 GT/s and 32.0 GT/s
+ea5fbbc15906abdef174c88cecfec4b2a0c748b9 PCI: qcom: Fix macro typo for CURSOR
+ce47f81925ed73f9d27b1a01f07afdb031949c68 PCI: hv: Remove unused parameter of hv_msi_free()
+f842d3313ba179d4005096357289c7ad09cec575 PCI: j721e: Fix programming sequence of "strap" settings
+d5f6bd3ee3f5048f272182dc91675c082773999e PCI: endpoint: pci-epf-test: Limit PCIe BAR size for fixed BARs
+1541594c965a82ae34cf1aaaf4c120791d521db4 Merge branch 'pci/aer'
+4c1cc106b5273dcd932767eed4ca6d9c7e14b62d Merge branch 'pci/enumeration'
+ea0fcbac1612fd81cc7e4e19fbc4887718b37261 Merge branch 'pci/hotplug'
+74ebd17880feb18fa99853a80bb8b60d7c5750fe Merge branch 'pci/msi'
+86bd461b1e5c6e91b6bcb4a9f89c0c421831b886 Merge branch 'pci/p2pdma'
+5b7e95bf816bc7548bf428e2a99831a9f5fa73a0 Merge branch 'pci/pwrctrl'
+63a0d4ae498a362af85563917ff047dddb526390 Merge branch 'pci/resource'
+e1cab01735a0d9a51051607babd4a18ae7c96d43 Merge branch 'pci/switchtec'
+2a2270223904efa9f0f9a8327b15f541d6ed2f09 Merge branch 'pci/capability-search'
+7127c0c950091121beea9b26b09712fa1918265e Merge branch 'pci/dt-binding'
+967a71808abce5ee200d4a293f308814b70f6282 Merge branch 'pci/endpoint'
+b863b689f1b027284b2ec483d62ad89fff118e1b Merge branch 'pci/controller/amd-mdb'
+d3bbd976516a55d0d3161363c86ba86b0871847b Merge branch 'pci/controller/hv'
+047d23b7519094a077c59c372d2b76354b25cf12 Merge branch 'pci/controller/keystone'
+44ed30d3dc0188db47e6158ebc1fbbd629e03093 Merge branch 'pci/controller/qcom'
+e1fba928fbd3b98731bf36704d47d4de02c755d0 Merge branch 'pci/controller/rcar-host'
+b2391115c12eb516f685cef8c5410945354d1aaf Merge branch 'pci/controller/mediatek-gen3'
+d0bc8fc9d4ba52e99607cda9c89cde641b1daf70 Merge branch 'pci/controller/rcar-gen4'
+149dcb525b25ce4b34155fdc8c8b200800242a8d Merge branch 'pci/controller/stm32'
+7f773c103f0a66e2e19233f1c4161d89f506ae27 Merge branch 'pci/controller/tegra'
+6d428ff2418c3ca75e030b5aceb1299177717b93 Merge branch 'pci/controller/ti'
+492f77c25e080304b7e3f4fa49488a3304cc4058 Merge branch 'pci/controller/xgene-msi'
+bfd2c81b061c031cd1cfd7862ce881cb8f6aa9b5 Merge branch 'pci/misc'
 
---===============6342594465523500850==--
+--===============0687478723653003913==--
