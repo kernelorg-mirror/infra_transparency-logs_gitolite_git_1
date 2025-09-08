@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 08 Sep 2025 16:48:06 -0000
-Message-Id: <175735008645.2877216.8624653855774236369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 08 Sep 2025 16:50:45 -0000
+Message-Id: <175735024589.2880747.17871049232490628159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/libcrypto-pending
-    old: f6fd8b8d3d9f225c431f9778aa496c7f51cf4d69
-    new: b94bc4398beccd329a51052c5e7e84e4670dbcd9
+  - ref: refs/heads/10GbE
+    old: 157cf360c4a8751f7f511a71cc3a283b5d27f889
+    new: e2a10daba84968f6b5777d150985fd7d6abc9c84
     log: |
-         54e7bb6ade8acd3fb1c486c9f3e2c0dfdc18f84e wireguard: kconfig: simplify crypto kconfig selections
-         b94bc4398beccd329a51052c5e7e84e4670dbcd9 crypto: md5 - Implement export_core() and import_core()
+         03e79de4608bdd48ad6eec272e196124cefaf798 net: fec: Fix possible NPD in fec_enet_phy_reset_after_clk_enable()
+         0ba5b2f2c381dbec9ed9e4ab3ae5d3e667de0dc3 net: phylink: add lock for serializing concurrent pl->phydev writes with resolver
+         e2a10daba84968f6b5777d150985fd7d6abc9c84 net: phy: transfer phy_config_inband() locking responsibility to phylink
          
