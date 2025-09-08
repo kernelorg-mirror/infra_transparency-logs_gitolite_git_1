@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 08 Sep 2025 16:44:49 -0000
-Message-Id: <175734988917.2873249.5225454057250825550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 08 Sep 2025 16:46:09 -0000
+Message-Id: <175734996964.2875727.10648252556770734280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/libcrypto-next
-    old: 713cc7ecd4423e14e8e3bb08a07b9310c0f7f0dc
-    new: 54e7bb6ade8acd3fb1c486c9f3e2c0dfdc18f84e
+  - ref: refs/heads/ath-current
+    old: d69eb204c255c35abd9e8cb621484e8074c75eaa
+    new: 82e2be57d544ff9ad4696c85600827b39be8ce9e
     log: |
-         54e7bb6ade8acd3fb1c486c9f3e2c0dfdc18f84e wireguard: kconfig: simplify crypto kconfig selections
+         4b66d18918f8e4d85e51974a9e3ce9abad5c7c3d wifi: ath12k: Fix missing station power save configuration
+         82e2be57d544ff9ad4696c85600827b39be8ce9e wifi: ath12k: fix WMI TLV header misalignment
          
