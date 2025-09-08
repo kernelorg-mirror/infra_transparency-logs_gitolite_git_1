@@ -1,34 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 08 Sep 2025 03:03:29 -0000
-Message-Id: <175730060991.2101656.6588195393518572491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 08 Sep 2025 03:04:38 -0000
+Message-Id: <175730067867.2103160.6114832503272602837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: 78f14762b209c9e3f79b06cc6ef3724a3e3aa929
-    new: d265883f19243c476ff5d23c9a26e16feed637f9
+  - ref: refs/heads/devfreq-testing
+    old: 95bbd51ff0a72c77b3673ca71759a46382531a07
+    new: d5f767a48ad1affbeaa01071f26ddba712751c96
     log: |
-         efb1bae2cc23cb4449f23052e3a718bcb4d995b2 _damo_records: move add_childs_target() to _damon
-         6713fb14dd9f1c12ff330cef3589ffded9ebb89c _damo_records: implement DamonIdleMsPercentiles class
-         262fc6ab76b1e90149b153cc40a069d2905116e5 _damo_records: separate percentile-idle time pair
-         9e0226d6ec5416b9fed066263610d6e593415633 _damo_records: add idle_ms_percentiles to DamonSnapshot
-         ae712ab950d9986d3fe916955a8b000358e3b933 tests/run: automatically disable and enable DAMON_STAT
-         5d6fbff87f065d6c998c8f1c70caec2ad4b4df6b release_note: update for next release
-         d265883f19243c476ff5d23c9a26e16feed637f9 Update the version
+         430a1845c804440c50456e9d65bba2b12184902f PM / devfreq: Fix memory leak in devfreq_event_add_edev()
+         b1336be3082ed2115c92ef5945978a4887a25dcc dt-bindings: devfreq: tegra30-actmon: Add Tegra124 fallback for Tegra210
+         d5f767a48ad1affbeaa01071f26ddba712751c96 PM / devreq: move governor.h to a public header location
          
-  - ref: refs/heads/next
-    old: 5d6fbff87f065d6c998c8f1c70caec2ad4b4df6b
-    new: d265883f19243c476ff5d23c9a26e16feed637f9
-    log: |
-         d265883f19243c476ff5d23c9a26e16feed637f9 Update the version
-         
-  - ref: refs/tags/v2.9.6
-    old: 0000000000000000000000000000000000000000
-    new: f2c8fbc8630e0507efcae668ae1beb9fd73c4f97
