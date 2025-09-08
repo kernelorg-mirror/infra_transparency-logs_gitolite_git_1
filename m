@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Mon, 08 Sep 2025 21:47:30 -0000
-Message-Id: <175736805071.3142146.11109206391235628735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Mon, 08 Sep 2025 21:57:12 -0000
+Message-Id: <175736863217.3150645.4708638109307975654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/rseq/slice
-    old: 0000000000000000000000000000000000000000
-    new: a2e41ac0ef0218895394b1ac12abe5b67d6d62d0
+  - ref: refs/heads/testing
+    old: 737a6b4e8b5f35b034e97068c04cddf08031bf24
+    new: eb88b1ef70ff29ed05fc37c546fb588d3d501aa7
