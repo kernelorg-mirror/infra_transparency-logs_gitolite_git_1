@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8963896667393264899=="
+Content-Type: multipart/mixed; boundary="===============6773745385608960064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 08 Sep 2025 09:15:33 -0000
-Message-Id: <175732293370.2488465.3730936899163338571@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 09:16:26 -0000
+Message-Id: <175732298687.2489372.3573948505716057640@gitolite.kernel.org>
 
---===============8963896667393264899==
+--===============6773745385608960064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,53 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f9f6155375f6275f511572a5753c5e8a0dc1b3f5
-    new: 43e28d2650ace5258963897aac750e1e90baa8d5
-    log: revlist-f9f6155375f6-43e28d2650ac.txt
+    old: 43e28d2650ace5258963897aac750e1e90baa8d5
+    new: 8e5b2f272c1801071142af33b193130bbcc5ba9d
+    log: revlist-43e28d2650ac-8e5b2f272c18.txt
+  - ref: refs/heads/tip/urgent
+    old: 0d084e56668432a12ed7db9594fc31f6a9bba8c5
+    new: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
+    log: revlist-0d084e566684-76eeb9b8de98.txt
+  - ref: refs/tags/v6.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 38018d744897d57a1fe8023770d32d622a61611b
 
---===============8963896667393264899==
+--===============6773745385608960064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9f6155375f6-43e28d2650ac.txt
+Content-Disposition: attachment; filename=revlist-43e28d2650ac-8e5b2f272c18.txt
+
+fef4c6979922973dc1ce9e984b69a61e6f5234d6 Merge branch into tip/master: 'core/bugs'
+945d41b7ff64987fae44f4b957d6e3d9bdf88a91 Merge branch into tip/master: 'irq/core'
+9c20fd68992043295ad12874a5460d80e44290bd Merge branch into tip/master: 'irq/drivers'
+f45e30750fb7ad943cb156bcff8a0510a3922858 Merge branch into tip/master: 'locking/futex'
+457e65991ce027364b9559fea8cf52804022ea22 Merge branch into tip/master: 'perf/core'
+b9e283d15b645f703983aeff316cba8cc54283f0 Merge branch into tip/master: 'ras/core'
+973746d059ca89b434bf3f5c84a26f585b9d290b Merge branch into tip/master: 'sched/core'
+a17341129b336fe3644b1c96ee8785e75e80d752 Merge branch into tip/master: 'timers/clocksource'
+283746db8eeb66b353325472c2d744a7dc90b7cf Merge branch into tip/master: 'timers/core'
+c6a4df81cacfe5e3bd898051198156b6dfc13e28 Merge branch into tip/master: 'timers/vdso'
+7ce79ebab2dd3f15c5248a0c1086b9df257da809 Merge branch into tip/master: 'x86/apic'
+247ebf3de701376ecf3a4a9a1079976f30e5b5fc Merge branch into tip/master: 'x86/asm'
+7f1da1fc421c9a747a903804a9ecc86edb2cdbcb Merge branch into tip/master: 'x86/bugs'
+abfdb089ed7ce21db1f2f81c00de927e60d23d6b Merge branch into tip/master: 'x86/build'
+3582b7af5feec88eebe2eac83c35fe83291cce61 Merge branch into tip/master: 'x86/cache'
+ce490f28e1991119bfa14f977fd1cba53f078151 Merge branch into tip/master: 'x86/cleanups'
+355eb1904f2cd722d77d8e9ed3ee4d5df6f215ff Merge branch into tip/master: 'x86/core'
+bfd9b17b6cf254883dcef4fbe683c509c54bce73 Merge branch into tip/master: 'x86/cpu'
+537f67e7f7a7b8da2d1a09683a86389307b26caa Merge branch into tip/master: 'x86/entry'
+785dd7570ed23421e6155b0316c92827af7759db Merge branch into tip/master: 'x86/microcode'
+40b13e5ce86550bf4caa0352d01ea8cb05e48902 Merge branch into tip/master: 'x86/misc'
+1e8963ad38184eeb550e8770b2de31b7ee4d5e52 Merge branch into tip/master: 'x86/mm'
+017e7ad56677cc763579258e5ef8b62731e49c8f Merge branch into tip/master: 'x86/sev'
+8e5b2f272c1801071142af33b193130bbcc5ba9d Merge branch into tip/master: 'x86/tdx'
+
+--===============6773745385608960064==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0d084e566684-76eeb9b8de98.txt
 
 ff2a66d21fd2364ed9396d151115eec59612b200 EDAC/altera: Delete an inappropriate dma_free_coherent() call
 664596bd98bb251dd417dfd3f9b615b661e1e44a i2c: i801: Hide Intel Birch Stream SoC TCO WDT
@@ -49,6 +87,5 @@ b7369eb7319d0cb94ad2ea5b5486e276339c595a Merge tag 'locking-urgent-2025-09-07' o
 2c3bac60853ed8f67e42451c7810321ff1df9c7c Merge tag 'edac_urgent_for_v6.17_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c Linux 6.17-rc5
-43e28d2650ace5258963897aac750e1e90baa8d5 Merge branch 'linus'
 
---===============8963896667393264899==--
+--===============6773745385608960064==--
