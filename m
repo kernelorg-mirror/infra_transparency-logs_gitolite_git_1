@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 08 Sep 2025 14:33:37 -0000
-Message-Id: <175734201727.2758116.1777655103266025787@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 14:33:57 -0000
+Message-Id: <175734203703.2758468.8019070671539737773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: c918e1b3b34e77a7dac1e9b77ca61161fce7e1dc
-    new: 5c4d43923c42e382d9fa86a40fa30491840e6414
+  - ref: refs/heads/direct-io
+    old: 43228f8bdd322880be63d4eea692d704a4d32c58
+    new: 4fb18137b5e191eea418821abb1f5e873c474a33
     log: |
          ad996d67c7798b41c44203e40c535c3c4d97168a NFSD: Allow layoutcommit during grace period
          175ac1f147f35ba67c9c28185a7633a4a40621bc NFSD: Add io_cache_{read,write} controls to debugfs
@@ -22,4 +22,7 @@ changes:
          80803596e1719e88e81401e67e06245cd1133a20 nfsd: move name lookup out of nfsd4_list_rec_dir()
          1a65d347afe90f3ed49e23b7421821a3729f8bfe nfsd: change nfs4_client_to_reclaim() to allocate data
          5c4d43923c42e382d9fa86a40fa30491840e6414 siw: Enable try_gso
+         699206dc161288fe280b582d3deefbf6c8432fb2 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+         9640d0090720a5e39c3c8343405146f0c8545938 NFSD: pass nfsd_file to nfsd_iter_read()
+         4fb18137b5e191eea418821abb1f5e873c474a33 NFSD: Implement NFSD_IO_DIRECT for NFS READ
          
