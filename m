@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0409736956469733425=="
+Content-Type: multipart/mixed; boundary="===============1626636609112490429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 08 Sep 2025 10:46:41 -0000
-Message-Id: <175732840146.2567437.6216501789713584896@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 10:48:16 -0000
+Message-Id: <175732849640.2568137.14661420919327311967@gitolite.kernel.org>
 
---===============0409736956469733425==
+--===============1626636609112490429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 347e9f5043c89695b01e66b3ed111755afcf1911
+  - ref: refs/heads/linux-next
+    old: efdaa61d73a1deb066ccc3b4d56257cc63ab5be9
     new: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
-    log: revlist-347e9f5043c8-76eeb9b8de98.txt
+    log: revlist-efdaa61d73a1-76eeb9b8de98.txt
 
---===============0409736956469733425==
+--===============1626636609112490429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-347e9f5043c8-76eeb9b8de98.txt
+Content-Disposition: attachment; filename=revlist-efdaa61d73a1-76eeb9b8de98.txt
 
+02c7f7219ac0e2277b3379a3a0e9841ef464b6d4 ext4: fix hole length calculation overflow in non-extent inodes
+76dba1fe277f6befd6ef650e1946f626c547387a ext4: use kmalloc_array() for array space allocation
 30c1d25b9870d551be42535067d5481668b5e6f3 netfilter: nft_set_pipapo: fix null deref for empty set
 c0a23bbc98e93704a1f4fb5e7e7bb2d7c0fb6eb3 ipvs: Fix estimator kthreads preferred affinity
 cf5fb87fcdaaaafec55dcc0dc5a9e15ead343973 netfilter: nf_tables: reject duplicate device on updates
@@ -251,7 +253,6 @@ d8df126349dad855cdfedd6bbf315bad2e901c2f x86/cpu/hygon: Add missing resctrl_cpu_
 e8bd877fb76bb9f35253e8f41ce0c772269934dd ovl: fix possible double unlink
 0227af355b50c526bf83ca52d67aef5d102e9b07 selftests: ublk: Use ARRAY_SIZE() macro to improve code
 447be50598c05499f7ccc2b1f6ddb3da30f8099a regulator: pca9450: Use devm_register_sys_off_handler
-8ea815399c3fcce1889bd951fec25b5b9a3979c1 compiler: remove __ADDRESSABLE_ASM{_STR,}() again
 75dbd4304afe574fcfc4118a5b78776a9f48fdc4 tee: optee: ffa: fix a typo of "optee_ffa_api_is_compatible"
 8fe8a092043f28d3c8e467cb2bbfe1e1ccf7f996 iommufd: viommu: free memory allocated by kvcalloc() using kvfree()
 447c6141e8ea68ef4e56c55144fd18f43e6c8dca iommufd: Fix spelling errors in iommufd.rst
@@ -415,7 +416,6 @@ cd6e4faba96fe41d6b686e144b96dad5e6f2e771 ring-buffer: Remove redundant semicolon
 edede7a6dcd7435395cf757d053974aaab6ab1c2 trace/fgraph: Fix the warning caused by missing unregister notifier
 8151320c747efb22d30b035af989fed0d502176e ACPI: pfr_update: Fix the driver update version check
 4647c4deadcc17f40858be06bcf416369a8f1d57 mm: numa,memblock: Use SZ_1M macro to denote bytes to MB conversion
-efdaa61d73a1deb066ccc3b4d56257cc63ab5be9 drivers/xen/xenbus: remove quirk for Xen 3.x
 1a2cf179e2973f6801c67397ecc987391b084bcf Merge drm/drm-fixes into drm-misc-fixes
 a47bc954cf0eb51f2828e1607d169d487df7f11f objtool/LoongArch: Get table size correctly if LTO is enabled
 5dfea6644d201bfeffaa7e0d79d62309856613b7 LoongArch: Pass annotate-tablejump option if LTO is enabled
@@ -1051,4 +1051,4 @@ b7369eb7319d0cb94ad2ea5b5486e276339c595a Merge tag 'locking-urgent-2025-09-07' o
 bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c Linux 6.17-rc5
 
---===============0409736956469733425==--
+--===============1626636609112490429==--
