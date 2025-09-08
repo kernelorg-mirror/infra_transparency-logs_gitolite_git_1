@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2601610598697887831=="
+Content-Type: multipart/mixed; boundary="===============2904752043748536911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 08 Sep 2025 18:36:20 -0000
-Message-Id: <175735658049.2972590.17067840692760100880@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 18:36:25 -0000
+Message-Id: <175735658563.2972766.8677800631872063125@gitolite.kernel.org>
 
---===============2601610598697887831==
+--===============2904752043748536911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 16c610162d1f1c332209de1c91ffb09b659bb65d
     new: c6142e1913de563ab772f7b0e4ae78d6de9cc5b1
     log: revlist-16c610162d1f-c6142e1913de.txt
 
---===============2601610598697887831==
+--===============2904752043748536911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ dda916111e296329fd6c8f69dcb19d690660d47a net: phy: aquantia: create and store a 
 a76f26f7a81e5adc76b5c3bcb580b7dc1c7d0451 net: phy: aquantia: support phy-mode = "10g-qxgmii" on NXP SPF-30841 (AQR412C)
 c6142e1913de563ab772f7b0e4ae78d6de9cc5b1 Merge branch '10g-qxgmii-for-aqr412c-felix-dsa-and-lynx-pcs-driver'
 
---===============2601610598697887831==--
+--===============2904752043748536911==--
