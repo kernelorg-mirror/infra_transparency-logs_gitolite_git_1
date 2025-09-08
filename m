@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 08 Sep 2025 13:59:16 -0000
-Message-Id: <175733995665.2728498.3973541276416124845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 08 Sep 2025 14:23:49 -0000
+Message-Id: <175734142931.2748383.9409740528353833163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/master
-    old: fc8f9c7f98156d42fc73fbd6df3c4aa9683df621
-    new: 84787adffac2435e72f6f08336e32559fd31e3a0
+  - ref: refs/heads/dm-6.17
+    old: 1071d560afb4c245c2076494226df47db5a35708
+    new: 77b8e6fbf9848d651f5cb7508f18ad0971f3ffdb
     log: |
-         ea0bc0021c1708c3f11c0795b9b93322a3a5a869 Makefile: fix missing test tool and unit test dependencies
-         84787adffac2435e72f6f08336e32559fd31e3a0 Merge branch 'master' of https://github.com/Meiye-lj/fio
+         77b8e6fbf9848d651f5cb7508f18ad0971f3ffdb dm-integrity: limit MAX_TAG_SIZE to 255
          
