@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2924461183643498054=="
+Content-Type: multipart/mixed; boundary="===============2601610598697887831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 08 Sep 2025 18:35:34 -0000
-Message-Id: <175735653479.2971962.10218326663223356740@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 18:36:20 -0000
+Message-Id: <175735658049.2972590.17067840692760100880@gitolite.kernel.org>
 
---===============2924461183643498054==
+--===============2601610598697887831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 51804f497ecf72504a2749fca4ac29b73c8db982
-    new: 88ca0c738c4159ce87893782b6dd964b5aa01f6e
-    log: revlist-51804f497ecf-88ca0c738c41.txt
+  - ref: refs/heads/1GbE
+    old: 16c610162d1f1c332209de1c91ffb09b659bb65d
+    new: c6142e1913de563ab772f7b0e4ae78d6de9cc5b1
+    log: revlist-16c610162d1f-c6142e1913de.txt
 
---===============2924461183643498054==
+--===============2601610598697887831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51804f497ecf-88ca0c738c41.txt
+Content-Disposition: attachment; filename=revlist-16c610162d1f-c6142e1913de.txt
 
 43a42b85162aa1430556d58bbde05b54786a2c5a net: phy: fixed_phy: remove link gpio support
 8c0b9ed2401b9b3f164c8c94221899a1ace6e9ab selftests: ncdevmem: don't retry EFAULT
@@ -43,18 +43,5 @@ bb427fb839de80394f6d2c8a969b8ebf9b100d52 net: stmmac: ptp: conditionally populat
 dda916111e296329fd6c8f69dcb19d690660d47a net: phy: aquantia: create and store a 64-bit firmware image fingerprint
 a76f26f7a81e5adc76b5c3bcb580b7dc1c7d0451 net: phy: aquantia: support phy-mode = "10g-qxgmii" on NXP SPF-30841 (AQR412C)
 c6142e1913de563ab772f7b0e4ae78d6de9cc5b1 Merge branch '10g-qxgmii-for-aqr412c-felix-dsa-and-lynx-pcs-driver'
-17d370a70bae277678b6ea82d71ef5892e7aaa97 xdp, libeth: make the xdp_init_buff() micro-optimization generic
-c20edbacc0295fd36f5f634b3421647ce3e08fd7 idpf: fix Rx descriptor ready check barrier in splitq
-ea18bcca43f4264809b3136761db523c5ac9f560 idpf: use a saner limit for default number of queues to allocate
-bd74a86bc75d35adefbebcec7c3a743d02c06230 idpf: link NAPIs to queues
-cfe5efec9177c42f0c172713151af95a073d3359 idpf: add 4-byte completion descriptor definition
-9d39447051a0decaf90ba520611ee0e4644a94d5 idpf: remove SW marker handling from NAPI
-a0c60b07904c2e213400ffbe4df4849c03a976d0 idpf: add support for nointerrupt queues
-ac8a861f632e68e669ba8fb28645fd118f19a7ab idpf: prepare structures to support XDP
-705457e7211f22c49b410eb25e83cef8a61bd560 idpf: implement XDP_SETUP_PROG in ndo_bpf for splitq
-a4d755d1040a49014b52de286c5f535e20788aa3 idpf: use generic functions to build xdp_buff and skb
-cba102cd719029a10bda1d0ca00ed646796f1f21 idpf: add support for XDP on Rx
-aaa3ac6480baeb7d26cd7f2c7886341872ad87b7 idpf: add support for .ndo_xdp_xmit()
-88ca0c738c4159ce87893782b6dd964b5aa01f6e idpf: add XDP RSS hash hint
 
---===============2924461183643498054==--
+--===============2601610598697887831==--
