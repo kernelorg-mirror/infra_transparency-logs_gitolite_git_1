@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 08 Sep 2025 16:46:17 -0000
-Message-Id: <175734997723.2875975.9709734149708760986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 08 Sep 2025 16:47:36 -0000
+Message-Id: <175735005687.2876681.9225061403786138602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/pending
-    old: 6f75aa0b2a81c59e3f72d961a85571e691c1161e
-    new: ee6960bdbb74499516261b84eadb19acc01cb361
+  - ref: refs/heads/main
+    old: 157cf360c4a8751f7f511a71cc3a283b5d27f889
+    new: e2a10daba84968f6b5777d150985fd7d6abc9c84
+    log: |
+         03e79de4608bdd48ad6eec272e196124cefaf798 net: fec: Fix possible NPD in fec_enet_phy_reset_after_clk_enable()
+         0ba5b2f2c381dbec9ed9e4ab3ae5d3e667de0dc3 net: phylink: add lock for serializing concurrent pl->phydev writes with resolver
+         e2a10daba84968f6b5777d150985fd7d6abc9c84 net: phy: transfer phy_config_inband() locking responsibility to phylink
+         
