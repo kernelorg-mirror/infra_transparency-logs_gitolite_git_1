@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1982396980770185351=="
+Content-Type: multipart/mixed; boundary="===============6876722713775346861=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 08 Sep 2025 02:30:07 -0000
-Message-Id: <175729860792.2075502.1986015830239460105@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 02:30:44 -0000
+Message-Id: <175729864410.2075878.265162006209275082@gitolite.kernel.org>
 
---===============1982396980770185351==
+--===============6876722713775346861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: b320789d6883cc00ac78ce83bccbfe7ed58afcf0
-    new: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
-    log: revlist-b320789d6883-76eeb9b8de98.txt
+  - ref: refs/heads/nfsd-next
+    old: 4a0de50a44bb11ea67bb3ca961844b55ac57cf05
+    new: b240a498e32a7c91e7ca4456b5fd0390894c9101
+    log: revlist-4a0de50a44bb-b240a498e32a.txt
 
---===============1982396980770185351==
+--===============6876722713775346861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b320789d6883-76eeb9b8de98.txt
+Content-Disposition: attachment; filename=revlist-4a0de50a44bb-b240a498e32a.txt
 
 e4a718a3a47e89805c3be9d46a84de1949a98d5d tee: fix NULL pointer dereference in tee_shm_put
 50a74d0095cd23d2012133e208df45a298868870 tee: fix memory leak in tee_dyn_shm_alloc_helper
@@ -347,5 +347,29 @@ b7369eb7319d0cb94ad2ea5b5486e276339c595a Merge tag 'locking-urgent-2025-09-07' o
 2c3bac60853ed8f67e42451c7810321ff1df9c7c Merge tag 'edac_urgent_for_v6.17_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c Linux 6.17-rc5
+2694b65fa95fc1f16a49c5562f8e631e22adfaef sunrpc: fix null pointer dereference on zero-length checksum
+e93d4c2b07dd8672beba8dda0551114db5101b22 NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+22d98e7f546c01cc54aa63fda9ea99d5f92d66b9 NFSD: Move the fh_getattr() helper
+dbb77a950ab11d71b36296ecd60481dde72dedce sunrpc: delay pc_release callback until after the reply is sent
+1314084bf23712840f5d654076968a98e555e114 nfsd: discard nfsd_file_get_local()
+9f09e93c6b07c2d981bb2d07f71c3272ec5c36a3 sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+3d5a8edb6d81ebb0a67736940cfc19812c5e38a8 NFSD: Rework encoding and decoding of nfsd4_deviceid
+ebeabf82ea6e8a3a94590009b4c445d0ede4a25e NFSD: Minor cleanup in layoutcommit processing
+41caf4e630e0cf34bf72e9ba5a88abb60b91b7e4 NFSD: Minor cleanup in layoutcommit decoding
+395cf290ea4739fb476364eb0d298e02e7d1952c NFSD: Implement large extent array support in pNFS
+cd2e1564f05a7b3ab6abdf645c9d36d1b2007cd0 NFSD: Fix last write offset handling in layoutcommit
+3180f4a6c2f6d2278e453939bc3bbfbae265373e nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
+86534626d35e91163cd389be2ddb221e7eb89d00 nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
+6aac669013adff9b1f38f7ca51b04aa12145e256 vfs: add ATTR_CTIME_SET flag
+f350a0fb161b29dda6cf6bd32e37e4fece9ab0d1 nfsd: use ATTR_CTIME_SET for delegated ctime updates
+4505a496f65e3fb8e00b4ab607982af96d23a9e8 nfsd: track original timestamps in nfs4_delegation
+e34a30abe5414c162bad318029ec682af853d6ba nfsd: fix SETATTR updates for delegated timestamps
+ff05aa648ec22e551de79d4a67405cafea8cee0b nfsd: fix timestamp updates in CB_GETATTR
+3142bdaa63303d743320c6d69556db6ee0943aba nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
+80d8746447afa3fdfd20d71589fbcea9f7e3ea1f lockd: Remove space before newline
+f11eddb1596e63e39a8d352fb930bea136155c7c nfsd: Replace open-coded conversion of bytes to hex
+6a17e181dcac332cc014242b51a2a614f075b61c nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
+ebda7eb4e74e83a6b0e072ce8cd9154bd336100d NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
+b240a498e32a7c91e7ca4456b5fd0390894c9101 nfsd: decouple the xprtsec policy check from check_nfsd_access()
 
---===============1982396980770185351==--
+--===============6876722713775346861==--
