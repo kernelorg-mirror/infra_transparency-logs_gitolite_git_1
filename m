@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 08 Sep 2025 18:57:41 -0000
-Message-Id: <175735786171.2990433.860358170776388969@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 19:02:20 -0000
+Message-Id: <175735814035.2994949.8874059300186335536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
   - ref: refs/heads/next
-    old: 9c642e6226e341562a3549a93d304498012cc99b
-    new: c5baaefe380d2c898d1f5fa0b90ba3778acfe3f3
+    old: c5baaefe380d2c898d1f5fa0b90ba3778acfe3f3
+    new: aae5a9834b388860844b294c70c8770dd26e528c
     log: |
-         c5baaefe380d2c898d1f5fa0b90ba3778acfe3f3 Merge branch kvm-arm64/ffa-1.2 into kvmarm-master/next
+         8673e5b22e1e114213d3ca74f415034aed45e528 KVM: arm64: ptdump: Don't test PTE_VALID alongside other attributes
+         aae5a9834b388860844b294c70c8770dd26e528c Merge branch kvm-arm64/misc-6.18 into kvmarm-master/next
          
