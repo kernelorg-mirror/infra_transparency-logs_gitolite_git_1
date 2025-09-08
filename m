@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 08 Sep 2025 18:21:43 -0000
-Message-Id: <175735570353.2958917.10838982539936079290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 08 Sep 2025 18:22:06 -0000
+Message-Id: <175735572645.2959214.7542401145900646587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/fixes
-    old: 5b9c1beaa1fdc0962ab522701f349364c3cec8dc
-    new: 2d0478279fc7fc3c75063b18319270a69047b026
+  - ref: refs/heads/hack/ppi-3
+    old: c8e55e3499af299c4d71e939006aab958fc1e114
+    new: 72532596a70cb22b1b21df1cdddeb76e68123ba0
     log: |
-         9f8073411c139b4b28a998f3efce85883b3725d5 KVM: arm64: Fix parameter ordering for VBAR_EL1 assignment
-         756491dd832912250ef9f8ecad954e9b3a23aa40 KVM: arm64: Remove stage 2 read fault check
-         2d0478279fc7fc3c75063b18319270a69047b026 KVM: arm64: vgic: fix incorrect spinlock API usage
+         72532596a70cb22b1b21df1cdddeb76e68123ba0 fixup! ACPI: irq: Add IRQ affinity reporting interface
          
