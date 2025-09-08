@@ -1,19 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 08 Sep 2025 17:39:51 -0000
-Message-Id: <175735319103.2922087.15300405526313730174@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1671690485197785096=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 08 Sep 2025 17:47:43 -0000
+Message-Id: <175735366396.2929280.8681999003251581577@gitolite.kernel.org>
+
+--===============1671690485197785096==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/20250902_tiwai_asoc_intel_fix_invalid_quirk_input_mapping
-    old: 0000000000000000000000000000000000000000
-    new: 4336efb59ef364e691ef829a73d9dbd4d5ed7c7b
-  - ref: refs/heads/file7XNm20
-    old: 0000000000000000000000000000000000000000
-    new: 5bad16482c2a7e788c042d98f3e97d3b2bbc8cc5
+  - ref: refs/heads/work.path
+    old: 5327a50856d6b6f254f7c09660d84a98d72b9388
+    new: 4362f3e4a38d17c7fe137251658adddde2e45bef
+    log: revlist-5327a50856d6-4362f3e4a38d.txt
+
+--===============1671690485197785096==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5327a50856d6-4362f3e4a38d.txt
+
+fa3b82abb2dbd8666e53643d91d93508969a7476 backing_file_user_path(): constify struct path *
+ff9650bb52b57202d72982f6166cc9174f1aaf1d constify path argument of vfs_statx_path()
+3013a70ab9460257881fa57d647af3a42a56363b filename_lookup(): constify root argument
+a62e356d98f8f8972925ccee37218c2b2de3e8d5 done_path_create(): constify path argument
+cc48ca6948f8f209679e0703e4bd816fbbd01b81 bpf...d_path(): constify path argument
+b748df4f7b68e2bf9b0e95b2626cbf44a014d631 nfs: constify path argument of __vfs_getattr()
+66fe3e67138709d512c4df04b276a144d8665d5a rqst_exp_get_by_name(): constify path argument
+efa6ab3688a541b0a390827fdd1d21d9288a4ea2 export_operations->open(): constify path argument
+df0c236a84654c5c3a3d85ea4b16c6ef509ca150 check_export(): constify path argument
+e033aa8d4a12ce6cd0f61ef6d1a881a949a985ca ksmbd_vfs_path_lookup_locked(): root_share_path can be const struct path *
+9dafb6b520b3a452118afb9855d402bb44706d46 ksmbd_vfs_kern_path_unlock(): constify path argument
+13336a66ba25f27f8c5c30f1e05e09f072249852 ksmbd_vfs_inherit_posix_acl(): constify path argument
+56c177b4815b9293eb0df8cafed292b7e28a6d75 ksmbd_vfs_set_init_posix_acl(): constify path argument
+69e4a8cfc2cf98eea53de25f8ca4e95d4c56813d ovl_ensure_verity_loaded(): constify datapath argument
+d1e05544d8843db46dd3538c721d7cfc0e18e45c ovl_validate_verity(): constify {meta,data}path arguments
+1acbf1650f2a5865b6a6a808e00713f9c129a430 ovl_get_verity_digest(): constify path argument
+811c3c6076ec842f850cd431d7d27cbddaa8c894 ovl_lower_dir(): constify path argument
+58e037d1e2416eedbae970c941cb214b174cfd70 ovl_sync_file(): constify path argument
+b9c56d85920a70fea38312183d1cf5b472aa2689 ovl_is_real_file: constify realpath argument
+b70ae913c31675e4a1c18ef6fc353cfd23a1ed8a apparmor/af_unix: constify struct path * arguments
+4362f3e4a38d17c7fe137251658adddde2e45bef configfs:get_target() - release path as soon as we grab configfs_item reference
+
+--===============1671690485197785096==--
