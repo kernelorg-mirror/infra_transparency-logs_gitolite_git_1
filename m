@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7541756988495567557=="
+Content-Type: multipart/mixed; boundary="===============6597058835873202086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 08 Sep 2025 07:44:55 -0000
-Message-Id: <175731749588.2390877.8719203883420153152@gitolite.kernel.org>
+Date: Mon, 08 Sep 2025 07:45:44 -0000
+Message-Id: <175731754497.2392890.894671526492097565@gitolite.kernel.org>
 
---===============7541756988495567557==
+--===============6597058835873202086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.18/sheaves
-    old: 258dbaffa918307ffe47fc1885257c6938ff0557
-    new: 00ce2d2cb238128a834d1672351f60ec039d6273
-    log: revlist-258dbaffa918-00ce2d2cb238.txt
+  - ref: refs/heads/slab/for-next
+    old: ac8e2b08d46ba828bb09c6deb2f68b3144aaa007
+    new: f10c36f9054790a917c58726bf15ba7bf28dac6c
+    log: revlist-ac8e2b08d46b-f10c36f90547.txt
 
---===============7541756988495567557==
+--===============6597058835873202086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1757317541 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1757317591 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1757317489-7ee5572d736ea3e60d932811c01c8f5c98660bd0
+nonce 1757317539-8031732e47dcac8dc2895fae5ea1cea212fa1e7a
 
-258dbaffa918307ffe47fc1885257c6938ff0557 00ce2d2cb238128a834d1672351f60ec039d6273 refs/heads/slab/for-6.18/sheaves
+ac8e2b08d46ba828bb09c6deb2f68b3144aaa007 f10c36f9054790a917c58726bf15ba7bf28dac6c refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmi+iaUbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia1VoH/1VXyYyrG4KrjMYceB29
-HPNQzf+5lnzczi/u8QnZVGcX4bjcu09zW4WGFdcEEm+thLLFTDcqmMXhGD/6r3wY
-2wznJdMXaRSY1qTnyaotm9jaIBOMfLLI5YPR+ImzMMlMZpaCzpsDsb9cuzfHGRsF
-fWM4ENl+g01tSnGbx5pIFQOV+Ai9xHyRSOV3nFCrc5osKzXk2jKyKZ7dAm1zHNzE
-OH/w4uAJDylCQu77cDGIICLRYijn2exwx23R9Rhc+tMlGEjc1ojx7U89DUQf43Q4
-fhLXApgI3QYpkxIhMJsaQftryUvBW8OhYW/X6DRocED9OZirWhZh3sWTljfn6Oh/
-Y0Q=
-=5r0N
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmi+idcbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia9ekIAIJUr5MWi2kcegg8EQBg
+7W5+nt1Z4zlh1L/XysYE/SCS3EjuRqcBueiG3ADSXCkQlMO1wK/3od8z6F8d9B+M
+uRIJmYvdRG4Hh+yqpqcyUmQ5aun4qMtJKhqVYx75bgkFtdXNjkXBiMQLESxDPmSW
+/9plgL7qHxFNBaCTJXU1afrxL6bqxVfjUqTLuVjIpJFxd9kW2psRAsOkCaGh9yBt
+0xZtHKo5umOgSiJRdeqjstUcQPTpvBb+QM4JqMYSa6bYlMtiqD8lt20IxBM74FJ7
+lIafVC5sDJUAysCUvUTwM7MQ14/PMrFktbXCBCim7xGsxZNU5Oll65ryF3io60bT
+EEQ=
+=Teur
 -----END PGP SIGNATURE-----
 
---===============7541756988495567557==
+--===============6597058835873202086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-258dbaffa918-00ce2d2cb238.txt
+Content-Disposition: attachment; filename=revlist-ac8e2b08d46b-f10c36f90547.txt
 
 c534124cebef279a7aed3d0b24d511c119d4fc03 slab: add opt-in caching layer of percpu sheaves
 1620531895aacc495ea533cb4547c40bb93502b5 slab: add sheaf support for batching kfree_rcu() operations
@@ -73,5 +73,6 @@ e7dea996f63aa930b540f9d233512e54a3c402b4 tools/testing: Add support for prefille
 cc8b186fa4582da09a96402f48687de81b7e3b99 maple_tree: Prefilled sheaf conversion and testing
 e33a9ffe92aafd7139370905936a6a7b172ea692 maple_tree: Add single node allocation support to maple state
 00ce2d2cb238128a834d1672351f60ec039d6273 maple_tree: Convert forking to use the sheaf interface
+f10c36f9054790a917c58726bf15ba7bf28dac6c Merge branch 'slab/for-6.18/sheaves' into slab/for-next
 
---===============7541756988495567557==--
+--===============6597058835873202086==--
