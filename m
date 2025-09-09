@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 09 Sep 2025 07:46:50 -0000
-Message-Id: <175740401006.3656037.8141027396295051037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 09 Sep 2025 07:58:45 -0000
+Message-Id: <175740472525.3665131.15746031828091138071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/experimental
-    old: 7d935172885a7e304fd320493e5c975fe9da1d0a
-    new: 4e1af94df1528422c2519e83376902933502c94a
-    log: |
-         ae8643e368459c5dded1459013437c96a465f759 erofs-utils: mount: fix memory leak in erofs_nbd_get_identifier
-         4e1af94df1528422c2519e83376902933502c94a erofs-utils: add NBD-backed OCI image mounting
-         
+  - ref: refs/heads/x86-efi-no-sev-enable
+    old: 0000000000000000000000000000000000000000
+    new: 80550accb678ab637201af8170fedad78225a986
