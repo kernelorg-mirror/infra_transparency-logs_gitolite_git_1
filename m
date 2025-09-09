@@ -1,41 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7403029304511226952=="
+Content-Type: multipart/mixed; boundary="===============1658499540029764846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 09 Sep 2025 17:20:45 -0000
-Message-Id: <175743844537.235504.12513152162550492520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 09 Sep 2025 17:21:19 -0000
+Message-Id: <175743847972.236183.17467589561635892885@gitolite.kernel.org>
 
---===============7403029304511226952==
+--===============1658499540029764846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hyperv-next-staging
-    old: ffd0786054f77bc045e3a5dc6fda8e8c60b7e067
-    new: 553d825fb2f0a79cb373514fbc73dbdc484e81c6
-    log: revlist-ffd0786054f7-553d825fb2f0.txt
+  - ref: refs/heads/for-6.18
+    old: 1cf87861a2e02432fb68f8bcc8f20a8e42acde59
+    new: 6917b595f5cfe0456936620561a2198b45db075f
+    log: |
+         16d4b44cf063e90a5495dba26ac9010bb1a77273 ASoC: renesas: msiof: Use guard() for spin locks
+         075a730b85e96d3d6f052f04f45c4f8b77fb8d56 ASoC: renesas: rsnd: Use guard() for spin locks
+         15583c4dbbf1f3ef44bc5eb8e9936f7069bc61e9 ASoC: renesas: fsi: Use guard() for spin locks
+         7d083666123a425ba9f81dff1a52955b1f226540 ASoC: renesas: rz-ssi: Use guard() for spin locks
+         b20eb0e8de383116f1e1470d74da2a3c83c4e345 ASoC: Intel: bytcht_es8316: Fix invalid quirk input mapping
+         fba404e4b4af4f4f747bb0e41e9fff7d03c7bcc0 ASoC: Intel: bytcr_rt5640: Fix invalid quirk input mapping
+         4336efb59ef364e691ef829a73d9dbd4d5ed7c7b ASoC: Intel: bytcr_rt5651: Fix invalid quirk input mapping
+         843e94cc1ca84741d3604e7d90daf4415611f4b1 ASoC: Intel: Fix invalid quirk input mapping
+         6917b595f5cfe0456936620561a2198b45db075f ASoC: renesas: Use guard() for spin locks
+         
 
---===============7403029304511226952==
+--===============1658499540029764846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffd0786054f7-553d825fb2f0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4cd661c248b6671914ad59e16760bb6d908dfc61 hyperv: Add missing field to hv_output_map_device_interrupt
-47691ced158ab3a7ce2189b857b19c0c99a9aa80 clocksource: hyper-v: Skip unnecessary checks for the root partition
-f26c9306dff818bbf4ef545c5a5ee0eca7149922 mshv: Add support for a new parent partition configuration
-ac7b0a5cd331862c3d4d49eae71ed93f8f5082f3 Drivers: hv: util: Cosmetic changes for hv_utils_transport.c
-2d0ddbb65cef99aab241378b0f4ff2d6ea8c3a5a Drivers: hv: Simplify data structures for VMBus channel close message
-a883d6d0d8066d691680ee6425aadb83ca36130b x86/hyperv: Fix kdump on Azure CVMs
-8af794d6f86597a42a859010d67c5f37cd8c787e mshv: Handle NEED_RESCHED_LAZY before transferring to guest
-4754f09b71b84d2515c51a9ee4c84384741d088f entry/kvm: KVM: Move KVM details related to signal/-EINTR into KVM proper
-4843a45ef9fe8a895ae7e47ffa672a0180c5d1a1 entry: Rename "kvm" entry code assets to "virt" to genericize APIs
-56f4ea2e37ae52870dd57ac532a9ead111f93910 mshv: Use common "entry virt" APIs to do work in root before running guest
-553d825fb2f0a79cb373514fbc73dbdc484e81c6 x86/hyperv: Switch to msi_create_parent_irq_domain()
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1757438527 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1757438475-a534629b37a518134f77c46e421a025cccdbca68
 
---===============7403029304511226952==--
+1cf87861a2e02432fb68f8bcc8f20a8e42acde59 6917b595f5cfe0456936620561a2198b45db075f refs/heads/for-6.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjAYj8ACgkQJNaLcl1U
+h9D/jQf/a7kJdu0xMtXHpuZheTMazdHpJEGtuW9gErAHrlXwpjc5BoSLNr5P35HZ
+48YD2ykteXRYTL7QBp4bmULzCX8aWCVRgDoDNxJ5aSIjQiAo1FNX3Qgln1b6REBx
+R778xMLGRxZiOQKWPGN7BQBKc8sJpE/ey8rDFhhlJb/NsXVHb4k4IWdYDjfRYOYA
+Tskg5rXjZqzcCLovzs4vEL81QXeaRmvwac9B459IUC8VOvKs/qq9l7Zs7LBsWx3+
+Ge+8B6gqqCvNtDkavRIP7CZ2DTNDXtToEDubFrL3YJIYBf/zj30vgCWiClqo3Avk
+eltxIeZA/K+L5ApbAAT8iCo+4lzUvg==
+=tbQl
+-----END PGP SIGNATURE-----
+
+--===============1658499540029764846==--
