@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Sep 2025 02:41:22 -0000
-Message-Id: <175738568272.3403349.12687723383708107370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Tue, 09 Sep 2025 02:58:42 -0000
+Message-Id: <175738672272.3416678.12123506985911070582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 674b34c4c770551e916ae707829c7faea4782d3a
-    new: d3b28612bc5500133260aaf36794a0a0c287d61b
+  - ref: refs/heads/zerocopy
+    old: b92ceee2f39b39869f3f0687347bc8b86e008581
+    new: 42f61d9d85e17f784f71c8ac64ee6adbb7171997
     log: |
-         8625f5748fea960d2af4f3c3e9891ee8f6f80906 net: bridge: Bounce invalid boolopts
-         d3b28612bc5500133260aaf36794a0a0c287d61b net: phy: NXP_TJA11XX: Update Kconfig with TJA1102 support
+         42f61d9d85e17f784f71c8ac64ee6adbb7171997 feat: kick off zerocopy with TpmView trait
          
