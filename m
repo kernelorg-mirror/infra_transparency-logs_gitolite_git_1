@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Tue, 09 Sep 2025 00:51:26 -0000
-Message-Id: <175737908601.3299995.11684998316995947421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 09 Sep 2025 00:51:32 -0000
+Message-Id: <175737909297.3300179.6150308900033629150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: a37c5b6ffd1a314f998ea80552ad67bfa7369488
-    new: 4f20ed666166f391f9c27919f1126d8860c525b1
+    old: e2a10daba84968f6b5777d150985fd7d6abc9c84
+    new: 1dbfb0363224f6da56f6655d596dc5097308d6f5
     log: |
-         1448c26952c3a7c3455a608d2672eabe0ac00ddf refactor: remove BuildOverflow
-         123f5e9f98c7941392e902006195fa5482feeed2 refactor: remove unused AuthMissing error variant
-         4f20ed666166f391f9c27919f1126d8860c525b1 refactor: remove InvalidMagic variant
+         1dbfb0363224f6da56f6655d596dc5097308d6f5 genetlink: fix genl_bind() invoking bind() after -EPERM
          
