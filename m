@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Sep 2025 11:05:03 -0000
-Message-Id: <175741590325.3830430.10004560987846489312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Tue, 09 Sep 2025 11:05:44 -0000
+Message-Id: <175741594431.3831621.621684510328948374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: bf59028ea8d42e8d10bb3d847c9982488ee9e3a0
-    new: e3c674db356c4303804b2415e7c2b11776cdd8c3
+    old: a03c46b6093b15780f74f94321d328075eb9c786
+    new: fd52de48efb661dc0290fbc8c91415f50482ff7c
     log: |
-         e3c674db356c4303804b2415e7c2b11776cdd8c3 tunnels: reset the GSO metadata before reusing the skb
+         fd52de48efb661dc0290fbc8c91415f50482ff7c feat: introduce casting of integers and buffer
          
