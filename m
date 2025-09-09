@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 09 Sep 2025 21:21:32 -0000
-Message-Id: <175745289229.492884.4213548244860362311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Tue, 09 Sep 2025 21:44:27 -0000
+Message-Id: <175745426749.510415.140595498474411010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/nova/dev-bitstruct
-    old: 354bc8b929b01ff2c5a095d0599346743c5cfa2d
-    new: 6057391d7392c11cd5f8c33c41a5704e68504ab7
+  - ref: refs/heads/main
+    old: e2a10daba84968f6b5777d150985fd7d6abc9c84
+    new: e3c674db356c4303804b2415e7c2b11776cdd8c3
     log: |
-         8c343bbd8abbb6b893f416e4b46b87961e0263b4 [JOEL] Add a script to git-send nova patches upstream
-         44a5dafb2d1b68924dd6432c866eb329c7a8abe9 nova-core: bitfield: Move bitfield-specific code from register! into new macro
-         8aa01395057f47323d80c962034ef1f04f5f55e7 nova-core: bitfield: Add support for different storage widths
-         6835198813d9240d35c0d1ad596af129ec23f06b nova-core: bitfield: Add support for custom visiblity
-         53d56d3db451d90477b04fdcec643c038355945f rust: Move register and bitfield macros out of Nova
-         6057391d7392c11cd5f8c33c41a5704e68504ab7 rust: Add KUNIT tests for bitfield
+         1dbfb0363224f6da56f6655d596dc5097308d6f5 genetlink: fix genl_bind() invoking bind() after -EPERM
+         674b34c4c770551e916ae707829c7faea4782d3a net: dsa: b53: fix ageing time for BCM53101
+         8625f5748fea960d2af4f3c3e9891ee8f6f80906 net: bridge: Bounce invalid boolopts
+         d3b28612bc5500133260aaf36794a0a0c287d61b net: phy: NXP_TJA11XX: Update Kconfig with TJA1102 support
+         bf59028ea8d42e8d10bb3d847c9982488ee9e3a0 selftests: net: add test for destination in broadcast packets
+         e3c674db356c4303804b2415e7c2b11776cdd8c3 tunnels: reset the GSO metadata before reusing the skb
          
