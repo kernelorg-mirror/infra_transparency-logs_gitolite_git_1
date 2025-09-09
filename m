@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 09 Sep 2025 11:42:25 -0000
-Message-Id: <175741814582.3864161.7911817175228181061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Tue, 09 Sep 2025 11:43:00 -0000
+Message-Id: <175741818046.3864519.2657643608251790614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: paulmck
 changes:
   - ref: refs/tags/v6.17-rc5
