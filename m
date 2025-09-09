@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 09 Sep 2025 08:22:01 -0000
-Message-Id: <175740612192.3686580.618607533549918073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Sep 2025 08:32:03 -0000
+Message-Id: <175740672378.3694834.2498618089473640036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 8181cc2f3f21657392da912eb20ee17514c87828
-    new: b5a861a438d1a456952665cf6167969f01209479
+  - ref: refs/heads/main
+    old: 9f0730b063b436938ebb6371aecb12ec6ed896e9
+    new: 389cca2bde7d44f9d681eb5b4065ec6b25b9138f
     log: |
-         08128670a931a4117f7b93c703d0186c67c9e1e2 riscv: dts: starfive: jh7110-common: drop no-mmc property from mmc1
-         b5a861a438d1a456952665cf6167969f01209479 riscv: dts: starfive: jh7110-common: drop mmc post-power-on-delay-ms
+         faf23f54d366467bb449a7b2c39b382db9f92e80 ptp: Add ioctl commands to expose raw cycle counter values
+         96c345c3c54c31abf8ba04c241b8fe26fa0ab022 net/mlx5: Extract MTCTR register read logic into helper function
+         a3fb485505caeadb559029900f5f37a332ae54e0 net/mlx5: Support getcyclesx and getcrosscycles
+         389cca2bde7d44f9d681eb5b4065ec6b25b9138f Merge branch 'support-exposing-raw-cycle-counters-in-ptp-and-mlx5'
          
