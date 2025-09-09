@@ -1,55 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0071604355208976353=="
+Content-Type: multipart/mixed; boundary="===============8563354489747087668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 09 Sep 2025 06:18:46 -0000
-Message-Id: <175739872684.3582796.11475004618529340458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 09 Sep 2025 06:34:55 -0000
+Message-Id: <175739969556.3596167.17739349726995485627@gitolite.kernel.org>
 
---===============0071604355208976353==
+--===============8563354489747087668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dmabuf-vfio
-    old: 12481d2d812eb377d48fac10b2d3f48dc4b67216
-    new: 9e9821e8ab8819b805329bc8c3cc3daecf86e6e2
-    log: revlist-12481d2d812e-9e9821e8ab88.txt
+  - ref: refs/heads/master
+    old: 8e5b2f272c1801071142af33b193130bbcc5ba9d
+    new: 6e24fefcf60909394e8bf9a14d99b8158922f2be
+    log: revlist-8e5b2f272c18-6e24fefcf609.txt
 
---===============0071604355208976353==
+--===============8563354489747087668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12481d2d812e-9e9821e8ab88.txt
+Content-Disposition: attachment; filename=revlist-8e5b2f272c18-6e24fefcf609.txt
 
-1b89afe4bd65cf97f668f6c521bf38418b8c126c dma-debug: refactor to use physical addresses for page mapping
-cfed5eef2f7912391a41af468a0d611e10de70f6 dma-mapping: rename trace_dma_*map_page to trace_dma_*map_phys
-73c1f0eb55d824533d14fe8bdaa9fe5442be5293 iommu/dma: rename iommu_dma_*map_page to iommu_dma_*map_phys
-3f907823230c7a6eaa65c7f68cdc9c8c168c8ead iommu/dma: implement DMA_ATTR_MMIO for iommu_dma_(un)map_phys()
-805df8b0032f32292301807e1844b7d372d345a9 dma-mapping: convert dma_direct_*map_page to be phys_addr_t based
-0313e168afb3668203dd9db11c9490906587475e kmsan: convert kmsan_handle_dma to use physical addresses
-0bcf6fc8fc785e6e15e47bb0baa3a215f31bfd48 dma-mapping: implement DMA_ATTR_MMIO for dma_(un)map_page_attrs()
-11b3cbae2d94c03e0be5cacb27eb7935985413ee xen: swiotlb: Open code map_resource callback
-5dab5cace3b3a9007d38abfbf70af1c56f22ee71 dma-mapping: export new dma_*map_phys() interface
-e0ec85f5c52b1fee5b561ab3cfec9f9abee845f1 mm/hmm: migrate to physical address-based DMA mapping API
-17418d6bbe5123af31147ec1ef25d6717fa98078 mm/hmm: properly take MMIO path
-06bb1f550e33c35f80a957125c6f0ee0d18deb97 block-dma: migrate to dma_map_phys instead of map_page
-e3f76beb155e4b47824f82fae0185f2d9f2ccf37 block-dma: properly take MMIO path
-57a8d38a73c599f9bcb83c4fbd254960c9c23197 nvme-pci: unmap MMIO pages with appropriate interface
-464aea62c18345f28450b68e6017d5c5ef499f17 PCI/P2PDMA: Separate the mmap() support from the core logic
-a15bb452fd2dd369fbf3a10d85370a22c3c50fa4 PCI/P2PDMA: Simplify bus address mapping API
-87eee79358449f07d6449878866f888e95c0018c PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
-9ac6977270931a5d0386a0b9937485c45198e1c1 PCI/P2PDMA: Export pci_p2pdma_map_type() function
-9615eb8b535fcfe02fbc909e51419520161fc1fa types: move phys_vec definition to common header
-4ff3bf6b17ad50e57bb1be5887abd49ca54dad86 vfio: Export vfio device get and put registration helpers
-45d91e951d1e1fd0df1b2f11d0aa84b3f6b5adc3 vfio/pci: Add dma-buf export config for MMIO regions
-56743c5cd542ee03cc862f6c8e51c839ca343bb5 vfio/pci: Enable peer-to-peer DMA transactions by default
-45339dce5003b23dfbdb1c8bdc45554386bb191a vfio/pci: Share the core device pointer while invoking feature functions
-e06e83791f84457c864de1467cc2fd22602f4536 vfio/pci: Add dma-buf export support for MMIO regions
-9e9821e8ab8819b805329bc8c3cc3daecf86e6e2 PCI/P2PDMA: Reduce scope of pci_has_p2pmem function
+d072148a8631f102de60ed5a3a827e85d09d24f0 fs: add a FMODE_ flag to indicate IOCB_HAS_METADATA availability
+2729a60bbfb9215997f25372ebe9b7964f038296 block: don't silently ignore metadata for sync read/write
+b1b5b825892bc309810fe57af708503a90a49fa6 Merge patch series "io_uring / dio metadata fixes"
+41a86f62424ac436cb51e3de612ef1e1ddb0c873 fs: fix indentation style
+be1e0283021ec73c2eb92839db9a471a068709d9 coredump: don't pointlessly check and spew warnings
+e9c8da670e749f7dedc53e3af54a87b041918092 fuse: do not allow mapping a non-regular backing file
+e5203209b3935041dac541bc5b37efb44220cc0b fuse: check if copy_file_range() returns larger than requested size
+1e08938c3694f707bb165535df352ac97a8c75c9 fuse: prevent overflow in copy_file_range return value
+79569946502258ef53984f3000bffa77e469d8dc fuse: reflect cached blocksize if blocksize was changed
+bd24d2108e9c8459d2c9f3d6d910b0053887df57 fuse: fix fuseblk i_blkbits for iomap partial writes
+9d81ba6d49a7457784f0b6a71046818b86ec7e44 fuse: Block access to folio overlimit
+bb585591ebf00fb1f6a1fdd1ea96b5848bd9112d fhandle: use more consistent rules for decoding file handle from userns
+e23654f5b12b1aa3384d0565ce1eb5ff860a5592 Merge tag 'fuse-fixes-6.17-rc5' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse into vfs.fixes
+e51bd0e595476c1527bb0b4def095a6fd16b2563 selftests/fs/mount-notify: Fix compilation failure.
+e1bf212d0604d2cbb5514e47ccec252b656071fb fuse: virtio_fs: fix page fault for DAX page address
+cba4262a19afae21665ee242b3404bcede5a94d7 x86/cpu/topology: Always try cpu_parse_topology_ext() on AMD/Hygon
+c6c973dbfa5e34b1572bcd1852adcad1b5d08fab x86/asm: Remove code depending on __GCC_ASM_FLAG_OUTPUTS__
+f777d1112ee597d7f7dd3ca232220873a34ad0c8 Merge tag 'vfs-6.17-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+1a5cdf53898b3507c46981380c99c55c18062074 Merge branch 'linus'
+2dd5acaa02fad3a7e68b131078b1be185e816a4a Merge branch into tip/master: 'x86/urgent'
+6e24fefcf60909394e8bf9a14d99b8158922f2be Merge branch into tip/master: 'x86/cleanups'
 
---===============0071604355208976353==--
+--===============8563354489747087668==--
