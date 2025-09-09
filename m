@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7632569283247288033=="
+Content-Type: multipart/mixed; boundary="===============2709185585382732590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 09 Sep 2025 01:10:02 -0000
-Message-Id: <175738020202.3322121.12066269446509882214@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 01:10:04 -0000
+Message-Id: <175738020479.3323733.4438454802006364516@gitolite.kernel.org>
 
---===============7632569283247288033==
+--===============2709185585382732590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: 7b9165804735bfcbde95b32a48ff632c94f54c48
-    new: 26fc2659af86f0d1836ad1e7b10f5b1ac2206d9d
-    log: revlist-7b9165804735-26fc2659af86.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: d303f25cac03fb2ac3b961431c6d4263a9c1c029
+    new: c067dc9e8e77aa6b7df184ae152719fb92eef43f
+    log: revlist-d303f25cac03-c067dc9e8e77.txt
 
---===============7632569283247288033==
+--===============2709185585382732590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b9165804735-26fc2659af86.txt
+Content-Disposition: attachment; filename=revlist-d303f25cac03-c067dc9e8e77.txt
 
 b8391ead782a9ccf00d8dea6a549f4f7868a6951 block: check for valid bio while splitting
 4e5f46c69ed34adf6aaf502b310e2858c6c726cc block: add size alignment to bio_iov_iter_get_pages
@@ -103,5 +103,14 @@ a94a22f5cefd38f4b68810feb968edfaea4c837d NFS: nfs_invalidate_folio() must observ
 434bd6b2c77dc16ad982ac427dd6cd51be7e3b86 NFS: Fix the marking of the folio as up to date
 d1397ce229ee38a75c4bfefb64169855378434e2 Revert "SUNRPC: Don't allow waiting for exiting tasks"
 26fc2659af86f0d1836ad1e7b10f5b1ac2206d9d SUNRPC: call xs_sock_process_cmsg for all cmsg
+1538f350c1ed8b509c268616042be435d4765a11 nfs/localio: make trace_nfs_local_open_fh more useful
+ee5caf5994c1b032a1cee3840e281fd77205d632 nfs/localio: avoid issuing misaligned IO using O_DIRECT
+c51f9bf58526541d3b9905e07ebd86411767e565 nfs/localio: refactor iocb and iov_iter_bvec initialization
+86cfd1af91712fd0d706d43b3d95fa8e1e4371ed nfs/localio: refactor iocb initialization
+68d5453fa7fdbbb4ef6ebf138ff0fd97da4559f7 nfs/direct: add misaligned READ handling
+c6c6c0bd84f8e02a77c90c94a60fb24adb90645c nfs/direct: add misaligned WRITE handling
+05a50f6ac8cfdbd77d60782b15a342c30645e052 nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
+44e7f3737c96534df7faef9ceb6ccf9e0012166d NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+c067dc9e8e77aa6b7df184ae152719fb92eef43f Revert "nfs/direct: add misaligned WRITE handling"
 
---===============7632569283247288033==--
+--===============2709185585382732590==--
