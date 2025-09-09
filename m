@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5058721767385097569=="
+Content-Type: multipart/mixed; boundary="===============7632569283247288033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 09 Sep 2025 01:09:59 -0000
-Message-Id: <175738019913.3321928.16217673140390758635@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 01:10:02 -0000
+Message-Id: <175738020202.3322121.12066269446509882214@gitolite.kernel.org>
 
---===============5058721767385097569==
+--===============7632569283247288033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
-    old: 6c17ea0c5213ef4932fb8447b3d9e8e474bb218b
-    new: 95f2f88e593744f7b7b08e8bfa54ba41394983e3
-    log: revlist-6c17ea0c5213-95f2f88e5937.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
+    old: 7b9165804735bfcbde95b32a48ff632c94f54c48
+    new: 26fc2659af86f0d1836ad1e7b10f5b1ac2206d9d
+    log: revlist-7b9165804735-26fc2659af86.txt
 
---===============5058721767385097569==
+--===============7632569283247288033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c17ea0c5213-95f2f88e5937.txt
+Content-Disposition: attachment; filename=revlist-7b9165804735-26fc2659af86.txt
 
 b8391ead782a9ccf00d8dea6a549f4f7868a6951 block: check for valid bio while splitting
 4e5f46c69ed34adf6aaf502b310e2858c6c726cc block: add size alignment to bio_iov_iter_get_pages
@@ -86,5 +86,22 @@ e302d1c24c5cce9e9b08a0a1b0e1210e19b8aac4 NFS: Fix the setting of capabilities wh
 a5d190964da37bed19ac4d0d02b991b0cf2d2b33 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
 d9ee334a5303f97c150c097e405dbbb814e59e0d NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
 95f2f88e593744f7b7b08e8bfa54ba41394983e3 NFS: Fix a race when updating an existing write
+460ff3c1f914cbea4c45b922f6ab2ed25e45f6b9 NFSv4: Don't clear capabilities that won't be reset
+4fb313ae188e85ac41ecd5bfc2641dfc1189db8c NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
+7a83859bdaf65762d804606b166759bff7c7e945 NFSv4: Clear NFS_CAP_OPEN_XOR and NFS_CAP_DELEGTIME if not supported
+979a77e56774d70dc676498bbcf0dc86d0977a4e NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
+5d115d9927c63c9e0ccdd70aa9d0d1c7f353b523 nfs/localio: restore creds before releasing pageio data
+72923f4ac27d702ff8c58cec0134441476bb6438 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+77a379481e3688514547d9c7db194fd0216961ce flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
+354b32fefe7e2d82acb4e1493aa2b6daf627601d NFS: Protect against 'eof page pollution'
+292952659d667554beb458351fb7d1d5de560d69 NFSv4.2: Protect copy offload and clone against 'eof page pollution'
+c9ef0a44fc24b1e9ec1c298f2845cccbece0c94f NFS: Serialise O_DIRECT i/o and truncate()
+6abb8e878955f13a3dc2d8fee672eb25d21068db NFSv4.2: Serialise O_DIRECT i/o and fallocate()
+0df90c03bbd17dc1506ad210c6625ba898749c2e NFSv4.2: Serialise O_DIRECT i/o and clone range
+865585d2f28f2d110da2cb1304ba52239bd4c40e NFSv4.2: Serialise O_DIRECT i/o and copy range
+a94a22f5cefd38f4b68810feb968edfaea4c837d NFS: nfs_invalidate_folio() must observe the offset and size arguments
+434bd6b2c77dc16ad982ac427dd6cd51be7e3b86 NFS: Fix the marking of the folio as up to date
+d1397ce229ee38a75c4bfefb64169855378434e2 Revert "SUNRPC: Don't allow waiting for exiting tasks"
+26fc2659af86f0d1836ad1e7b10f5b1ac2206d9d SUNRPC: call xs_sock_process_cmsg for all cmsg
 
---===============5058721767385097569==--
+--===============7632569283247288033==--
