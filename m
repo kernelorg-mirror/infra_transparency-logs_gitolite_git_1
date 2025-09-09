@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 09 Sep 2025 08:41:23 -0000
-Message-Id: <175740728335.3704122.13335754115126770047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 09 Sep 2025 08:53:17 -0000
+Message-Id: <175740799723.3713132.2136367131683911375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/microchip-soc
-    old: d14c74e2a3144a9d2b1535632b792620daccaa51
-    new: 38b22cde38aba61eafd752c8a2e43e631014e58a
+  - ref: refs/heads/timers/core
+    old: 0a26e5eb78fb1627beb8e3eb172737f8492d2799
+    new: c37fc72e2662a01662cc9f7bbcbb91fd387f4b4b
     log: |
-         452ed5c724038c269518f9df20599ed5134f36d0 mfd: at91-usart: Make it selectable for ARCH_MICROCHIP
-         9fc0a7e0ee896b1b4e66b1ffe38efe2f4af20891 tty: serial: atmel: make it selectable for ARCH_MICROCHIP
-         cb6f687ecf2eecbe2cba7a2706ce6fb1b1b94642 spi: atmel: make it selectable for ARCH_MICROCHIP
-         788da814b2546bb6984fc4d53b45060d96d3f745 i2c: at91: make it selectable for ARCH_MICROCHIP
-         c0f4f27de468644bbece454ae44a90e1285392c2 char: hw_random: atmel: make it selectable for ARCH_MICROCHIP
-         38b22cde38aba61eafd752c8a2e43e631014e58a crypto: atmel-aes: make it selectable for ARCH_MICROCHIP
+         d298fea67fde4e5cdf3a563fdb31dd0af3da73a7 posix-timers: Avoid direct access to hrtimer clockbase
+         316c010c55db1f9e521abe925c9d4b70e50e47e3 timers/itimer: Avoid direct access to hrtimer clockbase
+         9aacede5e1c8b626638356904f0247672dd68881 sched/core: Avoid direct access to hrtimer clockbase
+         18422ad1d8c6c7aa6563ea157fccd34041dade19 lib: test_objpool: Avoid direct access to hrtimer clockbase
+         e9209f4056e045cbeee6493ad070c10a86f16ece ALSA: hrtimer: Avoid direct access to hrtimer clockbase
+         12bbd35144939dbe9324b55fb1f50a0be2f0d6de media: pwm-ir-tx: Avoid direct access to hrtimer clockbase
+         19243b3beb9e362fad88a55cc28cf87a05785f70 hrtimer: Use hrtimer_cb_get_time() helper
+         c37fc72e2662a01662cc9f7bbcbb91fd387f4b4b hrtimer: Remove hrtimer_clock_base::get_time
          
