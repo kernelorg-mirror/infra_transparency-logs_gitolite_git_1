@@ -1,33 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6572556674677325903=="
+Content-Type: multipart/mixed; boundary="===============3965786799337101677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 09 Sep 2025 05:29:13 -0000
-Message-Id: <175739575307.3541021.7158680616465103932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 09 Sep 2025 05:29:22 -0000
+Message-Id: <175739576212.3541318.14272379015943341996@gitolite.kernel.org>
 
---===============6572556674677325903==
+--===============3965786799337101677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 3e8e5822146bc396d2a7e5fbb7be13271665522a
     new: 65dd046ef55861190ecde44c6d9fcde54b9fb77d
     log: revlist-3e8e5822146b-65dd046ef558.txt
-  - ref: refs/heads/stable
-    old: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
-    new: f777d1112ee597d7f7dd3ca232220873a34ad0c8
-    log: revlist-76eeb9b8de98-f777d1112ee5.txt
   - ref: refs/tags/next-20250909
     old: 0000000000000000000000000000000000000000
     new: c62a516303b963817a9d008c432013b18581997e
 
---===============6572556674677325903==
+--===============3965786799337101677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -805,27 +801,4 @@ a5ec09289d587643ab3b97bcc2c43bdcce6a0e04 Merge branch 'next' of https://git.kern
 918d41de4958024a170fdfeaae2fb32671c5188f Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 65dd046ef55861190ecde44c6d9fcde54b9fb77d Add linux-next specific files for 20250909
 
---===============6572556674677325903==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76eeb9b8de98-f777d1112ee5.txt
-
-d072148a8631f102de60ed5a3a827e85d09d24f0 fs: add a FMODE_ flag to indicate IOCB_HAS_METADATA availability
-2729a60bbfb9215997f25372ebe9b7964f038296 block: don't silently ignore metadata for sync read/write
-b1b5b825892bc309810fe57af708503a90a49fa6 Merge patch series "io_uring / dio metadata fixes"
-41a86f62424ac436cb51e3de612ef1e1ddb0c873 fs: fix indentation style
-be1e0283021ec73c2eb92839db9a471a068709d9 coredump: don't pointlessly check and spew warnings
-e9c8da670e749f7dedc53e3af54a87b041918092 fuse: do not allow mapping a non-regular backing file
-e5203209b3935041dac541bc5b37efb44220cc0b fuse: check if copy_file_range() returns larger than requested size
-1e08938c3694f707bb165535df352ac97a8c75c9 fuse: prevent overflow in copy_file_range return value
-79569946502258ef53984f3000bffa77e469d8dc fuse: reflect cached blocksize if blocksize was changed
-bd24d2108e9c8459d2c9f3d6d910b0053887df57 fuse: fix fuseblk i_blkbits for iomap partial writes
-9d81ba6d49a7457784f0b6a71046818b86ec7e44 fuse: Block access to folio overlimit
-bb585591ebf00fb1f6a1fdd1ea96b5848bd9112d fhandle: use more consistent rules for decoding file handle from userns
-e23654f5b12b1aa3384d0565ce1eb5ff860a5592 Merge tag 'fuse-fixes-6.17-rc5' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse into vfs.fixes
-e51bd0e595476c1527bb0b4def095a6fd16b2563 selftests/fs/mount-notify: Fix compilation failure.
-e1bf212d0604d2cbb5514e47ccec252b656071fb fuse: virtio_fs: fix page fault for DAX page address
-f777d1112ee597d7f7dd3ca232220873a34ad0c8 Merge tag 'vfs-6.17-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-
---===============6572556674677325903==--
+--===============3965786799337101677==--
