@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5252872924126684639=="
+Content-Type: multipart/mixed; boundary="===============0933595162670467194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 09 Sep 2025 18:13:36 -0000
-Message-Id: <175744161692.330521.12696524755825432289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Tue, 09 Sep 2025 18:13:52 -0000
+Message-Id: <175744163228.330814.15185219392950031107@gitolite.kernel.org>
 
---===============5252872924126684639==
+--===============0933595162670467194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 38018d744897d57a1fe8023770d32d622a61611b
 
---===============5252872924126684639==
+--===============0933595162670467194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -166,4 +166,4 @@ bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://g
 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c Linux 6.17-rc5
 f777d1112ee597d7f7dd3ca232220873a34ad0c8 Merge tag 'vfs-6.17-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 
---===============5252872924126684639==--
+--===============0933595162670467194==--
