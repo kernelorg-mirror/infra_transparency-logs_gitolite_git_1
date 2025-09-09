@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Tue, 09 Sep 2025 11:05:44 -0000
-Message-Id: <175741594431.3831621.621684510328948374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 09 Sep 2025 11:08:18 -0000
+Message-Id: <175741609815.3833001.7142172574300833761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: a03c46b6093b15780f74f94321d328075eb9c786
-    new: fd52de48efb661dc0290fbc8c91415f50482ff7c
-    log: |
-         fd52de48efb661dc0290fbc8c91415f50482ff7c feat: introduce casting of integers and buffer
-         
+  - ref: refs/heads/kvm-arm64/feat-visibility
+    old: 0000000000000000000000000000000000000000
+    new: b48d36f1cf68071dc3ba3526d0da7cb1bb86991c
