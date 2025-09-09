@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6519519770622252912=="
+Content-Type: multipart/mixed; boundary="===============1391700583202194150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Tue, 09 Sep 2025 16:11:23 -0000
-Message-Id: <175743428337.4160462.9566582670004016240@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 16:11:29 -0000
+Message-Id: <175743428935.4160674.5270511671491104904@gitolite.kernel.org>
 
---===============6519519770622252912==
+--===============1391700583202194150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/dev-queue
     old: a312f85c8033086f0cdc96822453089da624c328
     new: 4573c02ca0caf001c5ce5dbb62015d588258588b
     log: revlist-a312f85c8033-4573c02ca0ca.txt
 
---===============6519519770622252912==
+--===============1391700583202194150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ ba41835c21ebbbba92fce71d30f747490313eaf6 linux-firmware: update firmware for MT7
 ac27fb92503427641a4a827ab98ad05163e62cfd mediatek MT7922: update bluetooth firmware to 20250903123504
 4573c02ca0caf001c5ce5dbb62015d588258588b Merge branch 'mt7922' into 'main'
 
---===============6519519770622252912==--
+--===============1391700583202194150==--
