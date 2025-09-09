@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 09 Sep 2025 09:48:57 -0000
-Message-Id: <175741133704.3762426.9935665973884850775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 09 Sep 2025 09:50:31 -0000
+Message-Id: <175741143142.3765675.14492987279316270420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 71c082d7054704580b2a202c755bc2ebfca99530
-    new: 8024355cfc1e7785dd394c47a45bcf58cfe13fe9
+  - ref: refs/heads/irq/drivers
+    old: c2616c5696e85efb2679499d7260f7766b93cff6
+    new: a186120c780e21e4cfd186a925e34f718e30de88
     log: |
-         f4d365433815fdd8cc80c9a1bb1c547963515981 RDMA/mlx5: Fix page size bitmap calculation for KSM mode
-         6768aee67b1bd60ac323d3051d2754ce9c1f2f6e RDMA/rdmavt: Use int type to store negative error codes
-         8024355cfc1e7785dd394c47a45bcf58cfe13fe9 RDMA/core: fix "truely"->"truly"
+         5a5c48e870ed8d8aa9349be625c72f57bde45a4f irqchip/gic-v5: Delete a stray tab
+         bfcd1fdaae92faa8cae880eb4c3aaaa60c54bf0d irqchip/gic-v5: Fix loop in gicv5_its_create_itt_two_level() cleanup path
+         a186120c780e21e4cfd186a925e34f718e30de88 irqchip/gic-v5: Fix error handling in gicv5_its_irq_domain_alloc()
          
