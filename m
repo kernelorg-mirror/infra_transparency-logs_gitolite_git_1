@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5915780254043670057=="
+Content-Type: multipart/mixed; boundary="===============2164381018763604425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 09 Sep 2025 14:49:37 -0000
-Message-Id: <175742937705.4086050.10373426617333805170@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 14:50:14 -0000
+Message-Id: <175742941479.4088280.6955587753051033101@gitolite.kernel.org>
 
---===============5915780254043670057==
+--===============2164381018763604425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/testing
-    old: 201c2106d09943853c2484762095664569ddd552
-    new: c073f611592a260a7e962987a7f140fb23d90936
-    log: revlist-201c2106d099-c073f611592a.txt
+  - ref: refs/heads/hwmon-staging
+    old: 7e801aa73daa456c4404fde177d3fc397661abf0
+    new: 3e6874f16157d9778000957c8bec7279d34be303
+    log: revlist-7e801aa73daa-3e6874f16157.txt
 
---===============5915780254043670057==
+--===============2164381018763604425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-201c2106d099-c073f611592a.txt
+Content-Disposition: attachment; filename=revlist-7e801aa73daa-3e6874f16157.txt
 
+cb0780ad4333040a98e10f014b593ef738a3f31e md: add helper rdev_needs_recovery()
+b7ee30f0efd12f42735ae233071015389407966c md: fix sync_action incorrect display during resync
+715c7a36d59f54162a26fac1d1ed8dc087a24cf1 selftests: tls: make the new data_steal test less flaky
+39ca24675b7e351b8e681d924f417e455d4a7fc1 MAINTAINERS: Change habanalabs maintainers
+a44458dfd5bc0c79c6739c3f4c658361d3a5126b accel/habanalabs/gaudi2: Use kvfree() for memory allocated with kvcalloc()
+8a6ededaad2d2dcaac8e545bffee1073dca9db95 iio: adc: bd79124: Add GPIOLIB dependency
+c5f3e78d35c00599673e9ba9f2b641969f8667e4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+d1dfcdd30140c031ae091868fb5bed084132bca1 pcmcia: omap_cf: Mark driver struct with __refdata to prevent section mismatch
+44822df89e8f3386871d9cad563ece8e2fd8f0e7 pcmcia: Fix a NULL pointer dereference in __iodyn_find_io_region()
+b04e4551893fb8a06106a175ed7055d41a9279c4 iio: adc: ad7380: fix missing max_conversion_rate_hz on adaq4381-4
+ce0e8efb8438469aedb94746603a66e2de91852b pcmcia: ds: Emphasize "really" epizeuxis
+4bf1541e41d0540f9fcce8a32424ab05ae26fdca pcmcia: remove PCCARD_IODYN
 9e1ee333631a6d2b5f4ed9449ee2d595b6a87b81 pcmcia: Use str_off_on() and str_yes_no() helpers
 ecef14f70ec9344a10c817248d2ac6cddee5921e pcmcia: omap: Add missing check for platform_get_resource
 750da5029fd914b647d3063dacdadf56b9a9a046 pcmcia: cs: Remove unused pcmcia_get_socket_by_nr
@@ -1036,19 +1048,7 @@ bfa922eaa449561aae6f70810907a1988969d674 hwmon: (corsair-psu) Rely on subsystem 
 9f94353fc6a4cbd8536f1204c64957ae201d1f6e Merge branch 'hwmon-emc2103' into hwmon-staging
 049c7e5c02e6fa48384c4da86791b8938c8f8897 Merge branch 'hwmon-max16065' into hwmon-staging
 779c99d20c1e5a56f042bed159af3d9dc30d6310 Merge branch 'hwmon-fixes' into hwmon-staging
-b0f42d4109944aaa734730075b2b860c92b4de46 trace/fgraph: Fix error handling
-1f32afbd3c48564cf36e3c41f150782c084d2b0f possible circular locking dependency backtrace seen when enabling PREEMPT_RT
-378905e6f12880c0fe46539806c4b2cc291dda66 genirq/test: Fix depth tests on architectures with NOREQUEST by default.
 3b41550788cb42d3a9536c4c00bbfe166b329bb9 Merge branch 'hwmon-energy' into hwmon-staging
-324afbdaae7f3f3c2339dfa9ec8c0a9ba3c51aba watchdog: intel_oc_wdt: Do not try to write into const memory
 3e6874f16157d9778000957c8bec7279d34be303 Merge branch 'hwmon-lock' into hwmon-staging
-2cdfe9d64b0f6c92eb6f0617a914a448dcb5abc1 genirq/test: Select IRQ_DOMAIN
-38b8b7344afac23f63a5c6f075a8dcc1c5b9b74c genirq/test: Factor out fake-virq setup
-3ebaecd0d0f614b8e209a5370875d464399ecc51 genirq/test: Fail early if we can't request an IRQ
-51babea0fdf5bbc7ac4b642a136d5e9f8d81152c genirq/test: Depend on SPARSE_IRQ
-c4f45b7caafdd824823f812baf8689d049c2237a genirq/test: Drop CONFIG_GENERIC_IRQ_MIGRATION assumptions
-da39f6d25f76fa69165f8b9b321e245405b385ad genirq/test: Ensure CPU 1 is online for hotplug test
-0ae0dedc6e0b25a293d837ea798c093a2b8ead9f Merge branch 'hwmon-staging' into testing
-c073f611592a260a7e962987a7f140fb23d90936 Merge branch 'fixes-v6.17' into testing
 
---===============5915780254043670057==--
+--===============2164381018763604425==--
