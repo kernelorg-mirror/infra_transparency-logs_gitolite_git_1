@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 09 Sep 2025 15:34:14 -0000
-Message-Id: <175743205428.4127569.10137030641488190142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 09 Sep 2025 15:40:44 -0000
+Message-Id: <175743244462.4134376.12837728010845988661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/extcon-next
-    old: 94d885eb8ffe15b3eb4abe92e03d852fce8ba81f
-    new: e6f75eba4a860cc419ed632313523e25689fd144
+  - ref: refs/heads/main
+    old: e2a10daba84968f6b5777d150985fd7d6abc9c84
+    new: e3c674db356c4303804b2415e7c2b11776cdd8c3
     log: |
-         dcb04c84c81b365da5723eadbf4dbb43c5be8f6d dt-bindings: extcon: ptn5150: Allow "connector" node to present
-         0d6a9aca15c987b4774f7fdb34114ab0d483766a extcon: ptn5150: Add Type-C orientation switch support
-         e6f75eba4a860cc419ed632313523e25689fd144 extcon: ptn5150: Support USB role switch via connector fwnode
+         1dbfb0363224f6da56f6655d596dc5097308d6f5 genetlink: fix genl_bind() invoking bind() after -EPERM
+         674b34c4c770551e916ae707829c7faea4782d3a net: dsa: b53: fix ageing time for BCM53101
+         8625f5748fea960d2af4f3c3e9891ee8f6f80906 net: bridge: Bounce invalid boolopts
+         d3b28612bc5500133260aaf36794a0a0c287d61b net: phy: NXP_TJA11XX: Update Kconfig with TJA1102 support
+         bf59028ea8d42e8d10bb3d847c9982488ee9e3a0 selftests: net: add test for destination in broadcast packets
+         e3c674db356c4303804b2415e7c2b11776cdd8c3 tunnels: reset the GSO metadata before reusing the skb
          
