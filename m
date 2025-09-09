@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Sep 2025 09:29:45 -0000
-Message-Id: <175741018579.3746118.15430017496960104655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Tue, 09 Sep 2025 09:32:46 -0000
+Message-Id: <175741036676.3749429.6229925794732322752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/main
-    old: d3b28612bc5500133260aaf36794a0a0c287d61b
-    new: bf59028ea8d42e8d10bb3d847c9982488ee9e3a0
+  - ref: refs/heads/for-next
+    old: bdf75dcbef0f4ccbf68b944bb9bcaef24da4fcc0
+    new: ebbe7d7bb1eae4db32554562f0e228824ab1f135
     log: |
-         bf59028ea8d42e8d10bb3d847c9982488ee9e3a0 selftests: net: add test for destination in broadcast packets
+         0a0fdb98d16e334e259352893462030f15fb887f fuse: remove FUSE_NOTIFY_CODE_MAX from <uapi/linux/fuse.h>
+         0b563aad1c0a05dc7d123f68a9f82f79de206dad fuse: fix possibly missing fuse_copy_finish() call in fuse_notify()
+         60e1579a0dcf2c432286ef83ee470173d6db2f13 fuse: remove redundant calls to fuse_copy_finish() in fuse_notify()
+         3f29d59e92a96d843c2ff10ebfed92ac26878658 fuse: add prune notification
+         ebbe7d7bb1eae4db32554562f0e228824ab1f135 mm: fix lockdep issues in writeback handling
          
