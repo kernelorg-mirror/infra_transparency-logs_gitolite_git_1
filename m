@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8275998413914008451=="
+Content-Type: multipart/mixed; boundary="===============7433194005336751391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 09 Sep 2025 16:23:05 -0000
-Message-Id: <175743498530.4172827.6529779520576294777@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 16:23:10 -0000
+Message-Id: <175743499009.4172998.13468453070915757288@gitolite.kernel.org>
 
---===============8275998413914008451==
+--===============7433194005336751391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: c6142e1913de563ab772f7b0e4ae78d6de9cc5b1
     new: 0574c27cbe797329b932f9398959c3b08d41b0ad
     log: revlist-c6142e1913de-0574c27cbe79.txt
 
---===============8275998413914008451==
+--===============7433194005336751391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ d67ca09ca39f9605459959004b28c56899e3bca3 hsr: use netdev_master_upper_dev_link()
 aeb8d48ea92e6fd50dd4f973fb8778db86fbcc9f selftests: net: add test for ipv6 fragmentation
 0574c27cbe797329b932f9398959c3b08d41b0ad eth: fbnic: support persistent NAPI config
 
---===============8275998413914008451==--
+--===============7433194005336751391==--
