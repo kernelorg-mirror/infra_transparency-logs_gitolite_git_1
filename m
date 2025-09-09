@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Tue, 09 Sep 2025 07:11:05 -0000
-Message-Id: <175740186592.3627390.13074431637603668755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 09 Sep 2025 07:46:50 -0000
+Message-Id: <175740401006.3656037.8141027396295051037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/linux-next
-    old: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
-    new: f770c3d858687252f1270265ba152d5c622e793f
+  - ref: refs/heads/experimental
+    old: 7d935172885a7e304fd320493e5c975fe9da1d0a
+    new: 4e1af94df1528422c2519e83376902933502c94a
     log: |
-         34c605fe53d49886d2741223b12950a33bdf2acf xen: rework xen_pv_domain()
-         0f4283123fe1e6016296048d0fdcfce615047a13 xen: replace XENFEAT_auto_translated_physmap with xen_pv_domain()
-         2ea7a5bcc4cfca817b3502b38f97885767730ed8 drivers/xen/gntdev: use xen_pv_domain() instead of cached value
-         29c2f18d4f3fa444e3b8972b45d548cf521f8f15 x86/xen: select HIBERNATE_CALLBACKS more directly
-         08df2d7dd4ab2db8a172d824cda7872d5eca460a xen/events: Cleanup find_virq() return codes
-         07ce121d93a5e5fb2440a24da3dbf408fcee978e xen/events: Return -EEXIST for bound VIRQs
-         3fcc8e146935415d69ffabb5df40ecf50e106131 xen/events: Update virq_to_irq on migration
-         f770c3d858687252f1270265ba152d5c622e793f xen/manage: Fix suspend error path
+         ae8643e368459c5dded1459013437c96a465f759 erofs-utils: mount: fix memory leak in erofs_nbd_get_identifier
+         4e1af94df1528422c2519e83376902933502c94a erofs-utils: add NBD-backed OCI image mounting
          
