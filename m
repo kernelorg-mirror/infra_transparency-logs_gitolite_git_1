@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 09 Sep 2025 08:18:22 -0000
-Message-Id: <175740590240.3682561.14286656827164601694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 09 Sep 2025 08:22:01 -0000
+Message-Id: <175740612192.3686580.618607533549918073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 04a3134f88a4bd03001a3093144819523cfca99e
-    new: ff97bc38be343e4530e2f140b40cbdce2e09152f
+  - ref: refs/heads/riscv-dt-for-next
+    old: 8181cc2f3f21657392da912eb20ee17514c87828
+    new: b5a861a438d1a456952665cf6167969f01209479
     log: |
-         ff97bc38be343e4530e2f140b40cbdce2e09152f net/mlx5: Add RS FEC histogram infrastructure
+         08128670a931a4117f7b93c703d0186c67c9e1e2 riscv: dts: starfive: jh7110-common: drop no-mmc property from mmc1
+         b5a861a438d1a456952665cf6167969f01209479 riscv: dts: starfive: jh7110-common: drop mmc post-power-on-delay-ms
          
-  - ref: refs/tags/mlx5-rs-fec-ifc
-    old: 0000000000000000000000000000000000000000
-    new: ff97bc38be343e4530e2f140b40cbdce2e09152f
