@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 09 Sep 2025 06:44:51 -0000
-Message-Id: <175740029145.3605046.14128521208169661839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 09 Sep 2025 07:11:05 -0000
+Message-Id: <175740186592.3627390.13074431637603668755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/for-next
-    old: 86eec88c5bddf9a57bfebe701d9c7a4d439aed9b
-    new: 7095d688de38de197c408f8904cf1c1d8b257dae
+  - ref: refs/heads/linux-next
+    old: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
+    new: f770c3d858687252f1270265ba152d5c622e793f
     log: |
-         7ceb69ca82b1456a66783a1472d6e677e00065a1 ASoC: tas2781: Add tas2118, tas2x20, tas5825 support
-         7095d688de38de197c408f8904cf1c1d8b257dae ASoC: tas2781: Add tas2118, tas2x20, tas5825 support
-         
-  - ref: refs/heads/master
-    old: 6b6a663a4f09d832ac8e34f17ce8edd5c5e2affd
-    new: 74423aed9d7db520f788fc5dcdb0e0a035e0b28f
-    log: |
-         7ceb69ca82b1456a66783a1472d6e677e00065a1 ASoC: tas2781: Add tas2118, tas2x20, tas5825 support
-         7095d688de38de197c408f8904cf1c1d8b257dae ASoC: tas2781: Add tas2118, tas2x20, tas5825 support
-         74423aed9d7db520f788fc5dcdb0e0a035e0b28f Merge branch 'for-next'
+         34c605fe53d49886d2741223b12950a33bdf2acf xen: rework xen_pv_domain()
+         0f4283123fe1e6016296048d0fdcfce615047a13 xen: replace XENFEAT_auto_translated_physmap with xen_pv_domain()
+         2ea7a5bcc4cfca817b3502b38f97885767730ed8 drivers/xen/gntdev: use xen_pv_domain() instead of cached value
+         29c2f18d4f3fa444e3b8972b45d548cf521f8f15 x86/xen: select HIBERNATE_CALLBACKS more directly
+         08df2d7dd4ab2db8a172d824cda7872d5eca460a xen/events: Cleanup find_virq() return codes
+         07ce121d93a5e5fb2440a24da3dbf408fcee978e xen/events: Return -EEXIST for bound VIRQs
+         3fcc8e146935415d69ffabb5df40ecf50e106131 xen/events: Update virq_to_irq on migration
+         f770c3d858687252f1270265ba152d5c622e793f xen/manage: Fix suspend error path
          
