@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 09 Sep 2025 20:42:21 -0000
-Message-Id: <175745054192.458366.1476568424454234145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 09 Sep 2025 20:43:51 -0000
+Message-Id: <175745063126.459034.3504969866778051122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: f9a98ff26e505abdf55845a5d80a57a5defd6299
-    new: 441f95a9c146bcace5023847ff9fbe39eaf44716
+    old: a0a2dcf8479fd82a7ba598e7bc81812cc951d498
+    new: 6c7e4432e56e2d3c375927f2be7449fd51c16e52
     log: |
-         393e81a7473c636a6a00f49d9246e8a2e6d5674a main.conf: Add FilterDiscoverable option
-         2efd925db0b537c422d30283514e81816b673a03 client/assistant: Use strnlen() instead of strlen()
-         441f95a9c146bcace5023847ff9fbe39eaf44716 unit/test-hfp: Fix MINIMAL_SLC_SESSION
+         6c7e4432e56e2d3c375927f2be7449fd51c16e52 Bluetooth: bcsp: receive data only if registered
          
