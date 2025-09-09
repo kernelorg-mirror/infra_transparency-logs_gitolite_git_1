@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pratyush/linux
-Date: Tue, 09 Sep 2025 13:51:30 -0000
-Message-Id: <175742589021.3985179.4992399122108565955@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 13:59:37 -0000
+Message-Id: <175742637713.3991041.7775833780454482554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,11 @@ repo: pub/scm/linux/kernel/git/pratyush/linux
 user: pratyush
 changes:
   - ref: refs/heads/kho-array-upstream
-    old: 62292890ec38d224b721d7abb0e036e880f61ca9
-    new: acaf6494506fcfb1733c48de0e61f204cd588e71
+    old: acaf6494506fcfb1733c48de0e61f204cd588e71
+    new: c8ef8bd1b7439e95f75d8ae0d7cbd45b9f0b8087
     log: |
-         6fd5e3e0b27803ac8325f77b912c304f6680d0d9 kho: use KHO array for preserved memory bitmap serialization
-         916722cddf917c6f5a1b3506a5b6d0dae239ab50 kho: add support for preserving vmalloc allocations
-         acaf6494506fcfb1733c48de0e61f204cd588e71 lib/test_kho: use kho_preserve_vmalloc instead of storing addresses in fdt
+         60a502a65a0b14db0243819028402afb357f5bc7 kho: introduce the KHO array
+         3acda3270c1a87b5d64969ffa32e40fde9412d20 kho: use KHO array for preserved memory bitmap serialization
+         3815dc9086a324bdc3dc3463d7d3c71627f80ca6 kho: add support for preserving vmalloc allocations
+         c8ef8bd1b7439e95f75d8ae0d7cbd45b9f0b8087 lib/test_kho: use kho_preserve_vmalloc instead of storing addresses in fdt
          
