@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7633454995810929941=="
+Content-Type: multipart/mixed; boundary="===============2306562610588806263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 09 Sep 2025 16:48:58 -0000
-Message-Id: <175743653857.52841.13115939294211561881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 09 Sep 2025 16:49:12 -0000
+Message-Id: <175743655244.53665.14995643166693918448@gitolite.kernel.org>
 
---===============7633454995810929941==
+--===============2306562610588806263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/v5.10.243
-    old: 0000000000000000000000000000000000000000
-    new: 8a103b67626fb50a3c447dbe133da1741759981e
+  - ref: refs/heads/for-6.18/block
+    old: d7b1cdc9108f46f47a0899597d6fa270f64dd98c
+    new: d0d1d522316e91f2b935a78bbf962b8e529d8c4f
+    log: |
+         fec2e705729dc93de5399d8b139e4746805c3d81 block: check for valid bio while splitting
+         743bf2e0c49c835cb7c4e4ac7d5a2610587047be block: add size alignment to bio_iov_iter_get_pages
+         20a0e6276edba4318c13486df02c31e5f3c09431 block: align the bio after building it
+         5ff3f74e145adc79b49668adb8de276446acf6be block: simplify direct io validity check
+         7eac331869575d81eaa2dd68b19e7468f8fa93cb iomap: simplify direct io validity check
+         9eab1d4e0d15b633adc170c458c51e8be3b1c553 block: remove bdev_iter_is_aligned
+         69d7ed5b9ef661230264bfa0db4c96fa25b8efa4 blk-integrity: use simpler alignment check
+         b475272f03ca5d0c437c8f899ff229b21010ec83 iov_iter: remove iov_iter_is_aligned
+         05ceea5d3ec9a1b1d6858ffd4739fdb0ed1b8eaf blk-integrity: enable p2p source and destination
+         d57447ffb5fadffdba920f2fb933296fb6c5ff57 blk-mq-dma: bring back p2p request flags
+         d0d1d522316e91f2b935a78bbf962b8e529d8c4f blk-map: provide the bdev to bio if one exists
+         
+  - ref: refs/heads/for-next
+    old: 2dd28a64cfcea4302a2fdba7587e013140c6a87e
+    new: f243236bcccf49a07eaeb895755dd83cbda66118
+    log: revlist-2dd28a64cfce-f243236bcccf.txt
 
---===============7633454995810929941==
+--===============2306562610588806263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2dd28a64cfce-f243236bcccf.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757436588 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1757436536-f441458b36e0cd501334236a6f9c876f720ee8b1
+fec2e705729dc93de5399d8b139e4746805c3d81 block: check for valid bio while splitting
+743bf2e0c49c835cb7c4e4ac7d5a2610587047be block: add size alignment to bio_iov_iter_get_pages
+20a0e6276edba4318c13486df02c31e5f3c09431 block: align the bio after building it
+5ff3f74e145adc79b49668adb8de276446acf6be block: simplify direct io validity check
+7eac331869575d81eaa2dd68b19e7468f8fa93cb iomap: simplify direct io validity check
+9eab1d4e0d15b633adc170c458c51e8be3b1c553 block: remove bdev_iter_is_aligned
+69d7ed5b9ef661230264bfa0db4c96fa25b8efa4 blk-integrity: use simpler alignment check
+b475272f03ca5d0c437c8f899ff229b21010ec83 iov_iter: remove iov_iter_is_aligned
+3c2e8ca26ce6d4e2cfb4c6027e0899538ab16512 Merge branch 'for-6.18/block' into for-next
+05ceea5d3ec9a1b1d6858ffd4739fdb0ed1b8eaf blk-integrity: enable p2p source and destination
+d57447ffb5fadffdba920f2fb933296fb6c5ff57 blk-mq-dma: bring back p2p request flags
+d0d1d522316e91f2b935a78bbf962b8e529d8c4f blk-map: provide the bdev to bio if one exists
+f243236bcccf49a07eaeb895755dd83cbda66118 Merge branch 'for-6.18/block' into for-next
 
-0000000000000000000000000000000000000000 8a103b67626fb50a3c447dbe133da1741759981e refs/tags/v5.10.243
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjAWq0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z4YP/jytM0+kiv6bQdoBczrD
-sjnaHkYfU9oFDeZtxMr2EXqTKvgxHD6j51g6aVvvyQvYDJBLXB4lsCwqaWB4+tDI
-LuLH+XR4qYiWYrm5pd922PTLxjjNZsdTphmNAc41WLPHnVXOyABrQjyaZgfC1T5o
-ZePQMz5V/mhaH+wP9HRxyRem7ATzfcTF7CD0RAgtOWGrU4OSBAyssk+sXP3wjeTr
-anQsqltofBbJcUWd/3G8Nk3VxNnFEQegOv2/eNApnDTqtGlm0naXBu5/n5U+6nn8
-awVJWUh6bRuZkKYl+9YmWTkhKg9B0cQ7sh9MvF77hNcjfIAfgChmpUIkgXgIpDGo
-GBNJ/ut0zxESheoszotcOJgB76q+NNOUGqd5jHktIl6NF/4ZQJXtW8C7TYniKwZL
-knP1B/ng9jqaaDuBPE6aZUkPiKx5XDQUAgv2XWcQSRm4aN0k62hkx+nFS33PircQ
-ls1Ts6jvGT0xxjIG4Ggp8RG8hYF4s/SBmzG0tT04EEWrhQ6Ui7gBkrXlrpocKhgZ
-JKPY43rYTz6KeXHD4+f15kXU+5H33gnSN3IllduvpoZLvcNCkZAFgjQbbw5HnEcs
-2k03F26vYIZD3sybAKC1kajLK0wPK7kIk+a/ZLo7L4WsfWlbLU5AE7RtF8t0MsOS
-s23fIYgN156Kzjn/kuJGfpbk
-=wOJA
------END PGP SIGNATURE-----
-
---===============7633454995810929941==--
+--===============2306562610588806263==--
