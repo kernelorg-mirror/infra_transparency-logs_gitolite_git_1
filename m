@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3362501986394936411=="
+Content-Type: multipart/mixed; boundary="===============5058721767385097569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 09 Sep 2025 01:09:56 -0000
-Message-Id: <175738019605.3321828.15455989201393386106@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 01:09:59 -0000
+Message-Id: <175738019913.3321928.16217673140390758635@gitolite.kernel.org>
 
---===============3362501986394936411==
+--===============5058721767385097569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
-    old: 56bba9f3626a2122b26c3fec0b283e8a4a99d4d5
-    new: 6fe5a79a652f82c571da2ff0973e75ebdd6af8e6
-    log: revlist-56bba9f3626a-6fe5a79a652f.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-next
+    old: 6c17ea0c5213ef4932fb8447b3d9e8e474bb218b
+    new: 95f2f88e593744f7b7b08e8bfa54ba41394983e3
+    log: revlist-6c17ea0c5213-95f2f88e5937.txt
 
---===============3362501986394936411==
+--===============5058721767385097569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56bba9f3626a-6fe5a79a652f.txt
+Content-Disposition: attachment; filename=revlist-6c17ea0c5213-95f2f88e5937.txt
 
 b8391ead782a9ccf00d8dea6a549f4f7868a6951 block: check for valid bio while splitting
 4e5f46c69ed34adf6aaf502b310e2858c6c726cc block: add size alignment to bio_iov_iter_get_pages
@@ -41,5 +41,50 @@ a1ae01cc7a3efb11b3988c78637fe6cde120a0e8 block: remove bdev_iter_is_aligned
 882fef9c9ec2d7ed379d2f9932a9779b043250c3 NFSD: Implement NFSD_IO_DIRECT for NFS READ
 1b678507874a31ea2e2bef5f97dde9c71bc43637 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 6fe5a79a652f82c571da2ff0973e75ebdd6af8e6 NFSD: add nfsd_analyze_write_dio trace event
+1031da6a29f6d2143d5f3810b3ae5fde8aba9a44 Expand the type of nfs_fattr->valid
+02a68acecdaac22f4822de3d9b5a8028bdb4ea73 nfs: Add timecreate to nfs inode
+5c688c6f7bd0fb817e57099bb3bb41ef53b54c8f NFS: Return the file btime in the statx results when appropriate
+0b14bfe24b905a2933abfc99cedc420efa3cba06 nfs: use lock_two_nondirectories()
+e07eab166ddbc29876055df887263fbead11c2ed pnfs: add pnfs_ds_connect trace point
+d21ee0f1e745c09782045e157fa86886fe435782 NFS: remove unused wpages field from struct nfs_server
+27c0e824a5f5650c35682b86ab83f8cb2bc4cadd NFS: remove unused time_delta field from struct nfs_server
+26475cf72edccb5721cc148e73e15633754dea1c NFS: remove unused pnfs_ld_data field from struct nfs_server
+ef36ffdc532894d5182f785f4bb3a589bc464497 nfs: add cache_validity to the nfs_inode_event tracepoints
+55d555e46a1233a509235f3f0d2d6fa56cb649b3 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
+a9a6f2e98f245bf18a86b80f3925f779650971cf nfs: new tracepoint in nfs_delegation_need_return
+c29161b31f71f63d216c995f8f28c704eca73cf4 nfs: new tracepoint in match_stateid operation
+4e4477c9e5c06bf495a7b1ed4d1372cf01cc3d24 NFS: Allow folio migration for the case of mode == MIGRATE_SYNC
+3fb3c179a3fd218f64f9a7a11a6dd7081fcc139a NFS: support the kernel keyring for TLS
+042eb0aa32f04a5d7d67b04d22506ad80dcda567 nfs: create a kernel keyring
+362af9b08a04079262adca928dd50545f72edf68 SUNRPC: Remove unused xdr functions
+7c2f70576b9f9671205f8890b312c7e9eb6ae0b3 NFS: Remove unused function nfs_umount
+6b3c31d9d1837fb588832ab8bbb86fed66917ed5 pNFS: Fix uninited ptr deref in block/scsi layout
+87c0953039901162e4927e32d63dee205446cd56 pNFS: Fix extent encoding in block/scsi layout
+8c52cedbd3d179c44d22bd6d8c66585e71e26ead pNFS: Add prepare commit trace to block/scsi layout
+55dfeaa8e802c89e0041825cabef29c99cff6565 pNFS: Handle RPC size limit for layoutcommits
+61da4c4f45fe41fbe64808e5744a9a2b874881d0 pNFS: Fix stripe mapping in block/scsi layout
+cddec0846ed8d9e89beabdddab904b04c0c1c3a3 pNFS: Fix disk addr range check in block/scsi layout
+3be11f847d83fabceb980c50cf71b43c8ca094fe NFS: pass struct nfs_client_initdata to nfs4_set_client
+5c07f3d98db4bcd3be428f6b0e78314f7e3d3fb7 NFS: drop __exit from nfs_exit_keyring
+41e4b90b94eb70d32f4a6de0e351ab915a8ae128 pNFS/flexfiles: don't attempt pnfs on fatal DS errors
+23a3437e9284637984568e003d6e95ee691e755b NFS: cleanup error handling in nfs4_server_common_setup
+bd7e884a91b5b054623f164dcab42ceb6c57d49f NFS: cleanup nfs_inode_reclaim_delegation
+5721ae203e7399708383cfc5aa197b240b641de1 NFS: move the delegation_watermark module parameter
+06a6156dd14605556644145635e3ab8bc47bb823 NFS: track active delegations per-server
+48955ac5fc93083934d7f33b65b49a6c1d025a03 NFS: use a hash table for delegation lookup
+22ccdfe7e538023259f4eba438558c5a1c240a8d NFS: Fix wakeup of __nfs_lookup_revalidate() in unblock_revalidate()
+fbd99678538f96a725e8f7a03f9af95a40ac9594 NFS: Clean up pnfs_put_layout_hdr()/pnfs_destroy_layout_final()
+020ed1ec9e6aea44e59784a008a6e9aa62393c10 SUNRPC: Silence warnings about parameters not being described
+f9dc5d39779f880ac19bb8cea8b081bd4162db47 NFS: Fix filehandle bounds checking in nfs_fh_to_dentry()
+de56f0f7031056ae2d7639df7786a696f84cefbc NFSv4.2: another fix for listxattr
+9ab0092fefd8e9455a0ca14fcb1b4f2569af4868 NFS: Fixup allocation flags for nfsiod's __GFP_NORETRY
+8c0d76897a31ab562cd5b4874cbe3a70a58f2305 nfs/localio: use read_seqbegin() rather than read_seqbegin_or_lock()
+aedf42efab5a5bc4e25bd5afff52d432324a54c0 sunrpc: fix client side handling of tls alerts
+e302d1c24c5cce9e9b08a0a1b0e1210e19b8aac4 NFS: Fix the setting of capabilities when automounting a new filesystem
+93f85908a62ac81d3eda8381c7bfd0206d1e1460 NFSv4: Remove duplicate lookups, capability probes and fsinfo calls
+50627dc2c94815127499363f1696427d02f85586 NFS/localio: nfs_close_local_fh() fix check for file closed
+a5d190964da37bed19ac4d0d02b991b0cf2d2b33 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
+d9ee334a5303f97c150c097e405dbbb814e59e0d NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+95f2f88e593744f7b7b08e8bfa54ba41394983e3 NFS: Fix a race when updating an existing write
 
---===============3362501986394936411==--
+--===============5058721767385097569==--
