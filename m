@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 09 Sep 2025 22:33:37 -0000
-Message-Id: <175745721782.552213.6559206868833380591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 09 Sep 2025 22:34:08 -0000
+Message-Id: <175745724820.552568.13015378879605534465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: df0cb5cb50bd54d3cd4d0d83417ceec6a66404aa
-    new: 6d78b4473cdb08b74662355a9e8510bde09c511e
+  - ref: refs/heads/testme
+    old: 974f19e451091d8e1f1fea9e83c1cd0b713a10fa
+    new: 635836cbb6b5c3ee588354533f93d11fd7e85d03
     log: |
-         6d78b4473cdb08b74662355a9e8510bde09c511e bpf: Tell memcg to use allow_spinning=false path in bpf_timer_init()
+         635836cbb6b5c3ee588354533f93d11fd7e85d03 x86/virt/tdx: Use precalculated TDVPR page physical address
          
