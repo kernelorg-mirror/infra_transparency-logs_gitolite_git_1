@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 09 Sep 2025 11:46:26 -0000
-Message-Id: <175741838654.3868518.6308905991043653037@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 11:47:13 -0000
+Message-Id: <175741843384.3869045.12864151758705531920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileglwt46
-    old: 0000000000000000000000000000000000000000
-    new: 690aa09b1845c0d5c3c29dabd50a9d0488c97c48
-  - ref: refs/heads/v2_20250909_rf_asoc_cs35l56_handle_vendor_specific_uefi_variables
-    old: 0000000000000000000000000000000000000000
-    new: e5b4ad2183f7ab18aaf7c73a120d17241ee58e97
-  - ref: refs/heads/v5_20250909_xianwei_zhao_support_for_amlogic_spi_flash_controller_ip
-    old: 0000000000000000000000000000000000000000
-    new: 68c6135fe72af55ab696574c7b499f0b1b6c349d
+  - ref: refs/heads/regulator-6.18
+    old: 92b9c2b7a88c07324d70ea877cfe2d90ac823dbf
+    new: 5bad16482c2a7e788c042d98f3e97d3b2bbc8cc5
+    log: |
+         5bad16482c2a7e788c042d98f3e97d3b2bbc8cc5 regulator: dt-bindings: rpi-panel: Split 7" Raspberry Pi 720x1280 v2 binding
+         
