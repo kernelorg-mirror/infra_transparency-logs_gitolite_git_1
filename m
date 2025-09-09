@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 09 Sep 2025 00:26:38 -0000
-Message-Id: <175737759872.3278048.13532779998507527326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Tue, 09 Sep 2025 00:27:46 -0000
+Message-Id: <175737766627.3278709.3804529359094760773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/dev-test
-    old: ebbdc3cf477d389f3096779132eb29e76eb24d1e
-    new: 2110705e009deb33147fd25d4b4f91ebdc348c27
+  - ref: refs/heads/zerocopy
+    old: 2794b5d67deb27a926b90f27a53546e5b74bdd56
+    new: 5bf555c46bebba03bd0033db758a681d63a608ce
     log: |
-         2110705e009deb33147fd25d4b4f91ebdc348c27 f2fs: fix wrong layout information on 16KB page
+         e0656224b8a484d336610a4037ce66dc66b07c85 feat(message): tpm_cc() and tpm_handle_count() accessors
+         a1a0d6c5024af85f4b2d3f97112f710e8254fdb5 refactor: rework dynamic interface
+         5bf555c46bebba03bd0033db758a681d63a608ce feat: kick off zerocopy with TpmView trait
          
