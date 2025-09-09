@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2306562610588806263=="
+Content-Type: multipart/mixed; boundary="===============3142555667339065845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 09 Sep 2025 16:49:12 -0000
-Message-Id: <175743655244.53665.14995643166693918448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 09 Sep 2025 16:49:24 -0000
+Message-Id: <175743656458.54038.16930024290143126124@gitolite.kernel.org>
 
---===============2306562610588806263==
+--===============3142555667339065845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18/block
-    old: d7b1cdc9108f46f47a0899597d6fa270f64dd98c
-    new: d0d1d522316e91f2b935a78bbf962b8e529d8c4f
+  - ref: refs/notes/signatures/tar
+    old: 16c1229f8d4f3db163335efce67d12cbba45b17e
+    new: caeccbacfd790c313c982f1296873e4d41d68b29
     log: |
-         fec2e705729dc93de5399d8b139e4746805c3d81 block: check for valid bio while splitting
-         743bf2e0c49c835cb7c4e4ac7d5a2610587047be block: add size alignment to bio_iov_iter_get_pages
-         20a0e6276edba4318c13486df02c31e5f3c09431 block: align the bio after building it
-         5ff3f74e145adc79b49668adb8de276446acf6be block: simplify direct io validity check
-         7eac331869575d81eaa2dd68b19e7468f8fa93cb iomap: simplify direct io validity check
-         9eab1d4e0d15b633adc170c458c51e8be3b1c553 block: remove bdev_iter_is_aligned
-         69d7ed5b9ef661230264bfa0db4c96fa25b8efa4 blk-integrity: use simpler alignment check
-         b475272f03ca5d0c437c8f899ff229b21010ec83 iov_iter: remove iov_iter_is_aligned
-         05ceea5d3ec9a1b1d6858ffd4739fdb0ed1b8eaf blk-integrity: enable p2p source and destination
-         d57447ffb5fadffdba920f2fb933296fb6c5ff57 blk-mq-dma: bring back p2p request flags
-         d0d1d522316e91f2b935a78bbf962b8e529d8c4f blk-map: provide the bdev to bio if one exists
+         caeccbacfd790c313c982f1296873e4d41d68b29 Notes added by 'git notes add'
          
-  - ref: refs/heads/for-next
-    old: 2dd28a64cfcea4302a2fdba7587e013140c6a87e
-    new: f243236bcccf49a07eaeb895755dd83cbda66118
-    log: revlist-2dd28a64cfce-f243236bcccf.txt
 
---===============2306562610588806263==
+--===============3142555667339065845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2dd28a64cfce-f243236bcccf.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fec2e705729dc93de5399d8b139e4746805c3d81 block: check for valid bio while splitting
-743bf2e0c49c835cb7c4e4ac7d5a2610587047be block: add size alignment to bio_iov_iter_get_pages
-20a0e6276edba4318c13486df02c31e5f3c09431 block: align the bio after building it
-5ff3f74e145adc79b49668adb8de276446acf6be block: simplify direct io validity check
-7eac331869575d81eaa2dd68b19e7468f8fa93cb iomap: simplify direct io validity check
-9eab1d4e0d15b633adc170c458c51e8be3b1c553 block: remove bdev_iter_is_aligned
-69d7ed5b9ef661230264bfa0db4c96fa25b8efa4 blk-integrity: use simpler alignment check
-b475272f03ca5d0c437c8f899ff229b21010ec83 iov_iter: remove iov_iter_is_aligned
-3c2e8ca26ce6d4e2cfb4c6027e0899538ab16512 Merge branch 'for-6.18/block' into for-next
-05ceea5d3ec9a1b1d6858ffd4739fdb0ed1b8eaf blk-integrity: enable p2p source and destination
-d57447ffb5fadffdba920f2fb933296fb6c5ff57 blk-mq-dma: bring back p2p request flags
-d0d1d522316e91f2b935a78bbf962b8e529d8c4f blk-map: provide the bdev to bio if one exists
-f243236bcccf49a07eaeb895755dd83cbda66118 Merge branch 'for-6.18/block' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757436614 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1757436562-05a8d9e38ab31a48743264dcff5a79bb91d34775
 
---===============2306562610588806263==--
+16c1229f8d4f3db163335efce67d12cbba45b17e caeccbacfd790c313c982f1296873e4d41d68b29 refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjAWscbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4+QQAIGp101sGq7XpqMA02Vf
+hNOagl8EeDW2SjirC+H1A6jREmME4m2nA3CqcQ97A4yM0Ta9HVWbcv3VKkr2X8bE
+J55bFHDYLoJ94ndyqmOxVNTjxDFm8UJgD/PksMsTdx0NFB4TG8bvfdTkKdKGhXxE
+3BSMZFHBHgNu/C+TgwslZCVAo14tbVmFtX2ys9LqL/3I/z5ZKc0n0xH4P+3SZpWx
+W7mDdyhCimty2cPZs9Lw+VeKfc6ZQU9se8e0ps0YyOp6QB77OF2wL0UYFtdXgXnt
+N1d/ISLnf97KalzMwQPdlJhFXvLuUO/8rCfmMb7Ob9RJOVYU51hVcQ8zBmLvvPgK
+wbnxBSdLKMEnMG81P9JhFbYJAtBVPiQ/utfmmWefA7TJX0Ifh6RRI+b4/llzxgD2
++U9xzHiqGt5Sw/UTdHsuXo8qjCb4lUiIdCY4DtKjXH+hQk2Einh/Sc4Zn29BjlBW
+leBXP0aG3EtYAWIiRCha01d2jc3Q1iWdz+zrNUJImA4+dFCraHEDfxViPI8pqahK
+/HbyMDwmYmhbFRfvdOzCnv86wCNgvq61mZcontH5/nckWR0Z7Zd3aj8gnb8yTUyL
+Z2ppX6/Ir1/ZLubVqun+NXRAHeQk8y2GeaFrJNoRwCJSbQhoslkztjN1tlfgYA98
+o/x4hPHcKgzC6VEo2z8oeQAk
+=KKcu
+-----END PGP SIGNATURE-----
+
+--===============3142555667339065845==--
