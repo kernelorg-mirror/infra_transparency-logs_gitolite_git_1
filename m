@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 09 Sep 2025 22:34:28 -0000
-Message-Id: <175745726836.553419.17438062505519194014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 09 Sep 2025 22:45:58 -0000
+Message-Id: <175745795806.563894.3474196569228888191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 3b4296f5893d3a4e19edfc3800cb79381095e55f
-    new: a12fd5c31b7894b6d1d7206bdefe869b5bed6e22
-    log: |
-         a12fd5c31b7894b6d1d7206bdefe869b5bed6e22 selftests: net: run groups from fcnal-test in parallel
-         
+  - ref: refs/heads/sha256_finup_2x-v1
+    old: 0000000000000000000000000000000000000000
+    new: df40a68ffade36645ee12ce95ea4ba2da41b6908
