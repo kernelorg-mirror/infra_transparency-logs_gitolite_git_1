@@ -1,58 +1,109 @@
-Content-Type: multipart/mixed; boundary="===============9108709781793674498=="
+Content-Type: multipart/mixed; boundary="===============3151898833514979693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 09 Sep 2025 17:21:29 -0000
-Message-Id: <175743848922.236403.17104791868792807988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 09 Sep 2025 17:21:42 -0000
+Message-Id: <175743850268.236622.4954314926314793860@gitolite.kernel.org>
 
---===============9108709781793674498==
+--===============3151898833514979693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 1cf87861a2e02432fb68f8bcc8f20a8e42acde59
-    new: 6917b595f5cfe0456936620561a2198b45db075f
-    log: |
-         16d4b44cf063e90a5495dba26ac9010bb1a77273 ASoC: renesas: msiof: Use guard() for spin locks
-         075a730b85e96d3d6f052f04f45c4f8b77fb8d56 ASoC: renesas: rsnd: Use guard() for spin locks
-         15583c4dbbf1f3ef44bc5eb8e9936f7069bc61e9 ASoC: renesas: fsi: Use guard() for spin locks
-         7d083666123a425ba9f81dff1a52955b1f226540 ASoC: renesas: rz-ssi: Use guard() for spin locks
-         b20eb0e8de383116f1e1470d74da2a3c83c4e345 ASoC: Intel: bytcht_es8316: Fix invalid quirk input mapping
-         fba404e4b4af4f4f747bb0e41e9fff7d03c7bcc0 ASoC: Intel: bytcr_rt5640: Fix invalid quirk input mapping
-         4336efb59ef364e691ef829a73d9dbd4d5ed7c7b ASoC: Intel: bytcr_rt5651: Fix invalid quirk input mapping
-         843e94cc1ca84741d3604e7d90daf4415611f4b1 ASoC: Intel: Fix invalid quirk input mapping
-         6917b595f5cfe0456936620561a2198b45db075f ASoC: renesas: Use guard() for spin locks
-         
+  - ref: refs/tags/v5.10.242
+    old: 0000000000000000000000000000000000000000
+    new: bf8c01f0644ae039954e6e6e31e772b12f9fe7d1
+  - ref: refs/tags/v5.10.243
+    old: 0000000000000000000000000000000000000000
+    new: 8a103b67626fb50a3c447dbe133da1741759981e
+  - ref: refs/tags/v5.15.191
+    old: 0000000000000000000000000000000000000000
+    new: ce5a33f4f72ca80633529a70461972277ad1fa0f
+  - ref: refs/tags/v5.15.192
+    old: 0000000000000000000000000000000000000000
+    new: a2f1417c80b9b221ab049572907944e6ec046a98
+  - ref: refs/tags/v5.4.298
+    old: 0000000000000000000000000000000000000000
+    new: 3655d6eedea9ea0b0722c12c48a4ca01b67a1942
+  - ref: refs/tags/v5.4.299
+    old: 0000000000000000000000000000000000000000
+    new: 31bcc57d2e46f2826a781f51fb84e693417bcd90
+  - ref: refs/tags/v6.1.150
+    old: 0000000000000000000000000000000000000000
+    new: e717c012e9e4b46451b95d7c881f1e513ee21a48
+  - ref: refs/tags/v6.1.151
+    old: 0000000000000000000000000000000000000000
+    new: ce47f2f742dd7a9aa3dac529c70ff04e38222d81
+  - ref: refs/tags/v6.12.45
+    old: 0000000000000000000000000000000000000000
+    new: b8ebed12fdf2d58fab4f05d467a7bddcb5016eaa
+  - ref: refs/tags/v6.12.46
+    old: 0000000000000000000000000000000000000000
+    new: c5f786c883000a39f2e36121e864dc83c8026ef4
+  - ref: refs/tags/v6.16.5
+    old: 0000000000000000000000000000000000000000
+    new: cb733f4506ed952754a2f5d803a6c5976fb8b7a9
+  - ref: refs/tags/v6.16.6
+    old: 0000000000000000000000000000000000000000
+    new: b5f982132845d85b5829515f7a0d0386f6b0f0bb
+  - ref: refs/tags/v6.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 38018d744897d57a1fe8023770d32d622a61611b
+  - ref: refs/tags/v6.6.104
+    old: 0000000000000000000000000000000000000000
+    new: cfea4d2987fe8fc6e147e4dab9c6899902a3b1e7
+  - ref: refs/tags/v6.6.105
+    old: 0000000000000000000000000000000000000000
+    new: 1bca39f1db10494bb66a170f3324a9ea2965ad96
 
---===============9108709781793674498==
+--===============3151898833514979693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1757438536 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1757438483-0e4b205bf23f5f6dcd974dce263c27b778ab22a2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757438525 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1757438472-b975ac41d82152fc6c19769d250c72716e706024
 
-1cf87861a2e02432fb68f8bcc8f20a8e42acde59 6917b595f5cfe0456936620561a2198b45db075f refs/heads/asoc-6.18
+0000000000000000000000000000000000000000 bf8c01f0644ae039954e6e6e31e772b12f9fe7d1 refs/tags/v5.10.242
+0000000000000000000000000000000000000000 8a103b67626fb50a3c447dbe133da1741759981e refs/tags/v5.10.243
+0000000000000000000000000000000000000000 ce5a33f4f72ca80633529a70461972277ad1fa0f refs/tags/v5.15.191
+0000000000000000000000000000000000000000 a2f1417c80b9b221ab049572907944e6ec046a98 refs/tags/v5.15.192
+0000000000000000000000000000000000000000 3655d6eedea9ea0b0722c12c48a4ca01b67a1942 refs/tags/v5.4.298
+0000000000000000000000000000000000000000 31bcc57d2e46f2826a781f51fb84e693417bcd90 refs/tags/v5.4.299
+0000000000000000000000000000000000000000 e717c012e9e4b46451b95d7c881f1e513ee21a48 refs/tags/v6.1.150
+0000000000000000000000000000000000000000 ce47f2f742dd7a9aa3dac529c70ff04e38222d81 refs/tags/v6.1.151
+0000000000000000000000000000000000000000 b8ebed12fdf2d58fab4f05d467a7bddcb5016eaa refs/tags/v6.12.45
+0000000000000000000000000000000000000000 c5f786c883000a39f2e36121e864dc83c8026ef4 refs/tags/v6.12.46
+0000000000000000000000000000000000000000 cb733f4506ed952754a2f5d803a6c5976fb8b7a9 refs/tags/v6.16.5
+0000000000000000000000000000000000000000 b5f982132845d85b5829515f7a0d0386f6b0f0bb refs/tags/v6.16.6
+0000000000000000000000000000000000000000 38018d744897d57a1fe8023770d32d622a61611b refs/tags/v6.17-rc5
+0000000000000000000000000000000000000000 cfea4d2987fe8fc6e147e4dab9c6899902a3b1e7 refs/tags/v6.6.104
+0000000000000000000000000000000000000000 1bca39f1db10494bb66a170f3324a9ea2965ad96 refs/tags/v6.6.105
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjAYkgACgkQJNaLcl1U
-h9BXaAf9GDZUh+bpOs2Pfb5G/kumuoIKFqlOuspPR+uNSiYpEB74wKGUkN0aFKpz
-DBSBgTIH4yvxGhT5RtuYM3qC9eXB81LCnKmlwAAo99/ivXI9mvqeHMRSAcRWjCp/
-jRv1lyER6JDMKr5R6tSgjusJCIVUnBEaBUyuBEudVidqu6gKFK3DtL+oqZ2w+l2l
-zI1ReFe4qNa8jcVccisIF4x9sDyBklqPXexcZjwfT5LswpkdXPGAiK1nocRAzbG+
-dtwicW5gmaRXEBRIu9X5HX6qS2uMWg/jGaRfRwxImw4FAXCFwQngA1PdTDLjyf6l
-j6f6pt3YmefM2qDzjCTyE+3mYuhlKw==
-=g8WK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjAYj0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bYMQAIqlUR4kHwZs+2Yi0UPs
+esQnl4P4JQ5j06dL5U15XtwbiwXg6avQc+uoCgxo1FM74G1bNmQu/FiDje1MMSNp
+3xSj1yChsQP7bUJIYWNOTyHPpZv/B1qkUHOcTrjSkosojaRTVf8UDIcQRk6GL357
+AIZZuTHgSry8NQNccVGTkebgQ4ntiKbjPX3r13aKF6Q7koXLQl6y2BfXC4+ovaNo
+AIZtCJSP34mKMH8Z+9Pbn/5UxhHHbdrNE2kZZmaLRXgpX8wkqSOWrC0ZCyjaVbTV
+YEujm8jqkGmcfID957BVtKQsbyeb2QoYsGZOGBVTfT/Te+UPnIKKB72zOtGlJDTl
+7kf7WUVKVIjqZi31JjxEEuYkMENgLyfxLRHHNZA/j7P6vTV3+qqoiRS4QG1b749C
+FLOrzXUksFX2vgbw9kPswzlm62EeNDMHrRbYH48ludcDGAsGVgeQp1dKHTgERO5f
+c9fQ7SW1h4YgRVPIPR0iu756b4KrViKeWTqcJDkJvyAEexd+/VIt1ij/JXWDoopZ
+f+TNd0HyH5Ta2FFyX3PcCFUR7xYph7RU/NLKchUd01VeuS7jm6lxKKNtEKdY/3Gk
+rnA8WxOAnhCCzbhnoBrl4C40cX2QmVAbUj8lT/z4oVLdo8yaTkSWj7ybloK19UUq
+MrCv2SmdhfGdFHQyTx0eqPop
+=gOjd
 -----END PGP SIGNATURE-----
 
---===============9108709781793674498==--
+--===============3151898833514979693==--
