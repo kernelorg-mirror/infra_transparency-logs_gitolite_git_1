@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 09 Sep 2025 13:04:43 -0000
-Message-Id: <175742308386.3941030.12813559349802850675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 09 Sep 2025 13:12:11 -0000
+Message-Id: <175742353193.3948152.16775362952443590013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 4db87075549ebe3fa6d4d381186e30097f327fc7
-    new: 36f1e51b37e232a26958e50c66238b9c0d5c525e
+  - ref: refs/heads/x86/urgent
+    old: cba4262a19afae21665ee242b3404bcede5a94d7
+    new: d2e1b84c5141ff2ad465279acfc3cf943c960b78
     log: |
-         36f1e51b37e232a26958e50c66238b9c0d5c525e bindings: python: use quoted types when casting
+         d2e1b84c5141ff2ad465279acfc3cf943c960b78 fs/resctrl: Eliminate false positive lockdep warning when reading SNC counters
          
