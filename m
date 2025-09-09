@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 09 Sep 2025 01:21:12 -0000
-Message-Id: <175738087284.3335297.7834631341919458947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 09 Sep 2025 01:21:27 -0000
+Message-Id: <175738088714.3335643.16205308555638037633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 937989ba9b338cd315b38ff4a2a2c44ec02343a2
-    new: 922891e5eea9872058e013249d9aeab0eb6471d5
+  - ref: refs/heads/master
+    old: fcb5de5e8433fd632edbedcf7f94074f6304e398
+    new: ef8d41e801e121ef8945a828dc04a7c6de8fcc8f
     log: |
-         922891e5eea9872058e013249d9aeab0eb6471d5 mm/damon/tests/core-kunit: fix unintended fall-through in quota goal test
+         ef8d41e801e121ef8945a828dc04a7c6de8fcc8f patches/next: fix kernel test robot reported fall-through warning
          
