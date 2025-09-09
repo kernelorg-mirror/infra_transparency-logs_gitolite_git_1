@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Tue, 09 Sep 2025 21:03:58 -0000
-Message-Id: <175745183883.476042.6822294720314435133@gitolite.kernel.org>
+Date: Tue, 09 Sep 2025 21:10:13 -0000
+Message-Id: <175745221387.483166.4425244171766485626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/daveh/devel
 user: daveh
 changes:
   - ref: refs/heads/testme
-    old: 61221d07e815008ba758995d79fd442b5217f51a
-    new: 811559c670dffc37c5bb755dd04bb3c1daed6b86
+    old: 811559c670dffc37c5bb755dd04bb3c1daed6b86
+    new: 974f19e451091d8e1f1fea9e83c1cd0b713a10fa
     log: |
-         811559c670dffc37c5bb755dd04bb3c1daed6b86 x86/virt/tdx: Precalculate the TDVPR page physical address
+         974f19e451091d8e1f1fea9e83c1cd0b713a10fa x86/virt/tdx: Use precalculated TDVPR page physical address
          
