@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Wed, 10 Sep 2025 12:51:16 -0000
-Message-Id: <175750867608.1309615.17539884100004008630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 10 Sep 2025 12:53:44 -0000
+Message-Id: <175750882470.1310847.8305294806591617270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/sunxi/soc-for-6.18
-    old: e6b84cc2a6fe62b4070d73f2d2d7b2544a11df87
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/drivers-for-6.18
-    old: 0000000000000000000000000000000000000000
-    new: e6b84cc2a6fe62b4070d73f2d2d7b2544a11df87
+  - ref: refs/heads/mediatek-drm-fixes
+    old: c34414883f773412964404d77cd2fea04c6f7d60
+    new: 9ba2556cef1df746fad4d691c8290e235b23c7d1
+    log: |
+         4de37a48b6b58faaded9eb765047cf0d8785ea18 drm/mediatek: fix potential OF node use-after-free
+         9ba2556cef1df746fad4d691c8290e235b23c7d1 drm/mediatek: clean up driver data initialisation
+         
