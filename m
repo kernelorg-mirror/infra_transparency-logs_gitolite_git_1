@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7034496326661120730=="
+Content-Type: multipart/mixed; boundary="===============5852892172485370311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 10 Sep 2025 01:56:32 -0000
-Message-Id: <175746939232.729625.3165944087980280402@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 01:56:58 -0000
+Message-Id: <175746941831.729901.5394422679169686357@gitolite.kernel.org>
 
---===============7034496326661120730==
+--===============5852892172485370311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,81 +15,69 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-5.15.y
-    old: 7a6c2d093c4599727874a7e5e9b27fb313d2bd9c
-    new: de9476bb4f1bf28eba6d8ca55f934f94a39e31f8
-    log: revlist-7a6c2d093c45-de9476bb4f1b.txt
+  - ref: refs/heads/nfsd-5.10.y
+    old: c30b4019ea89633d790f0bfcbb03234f0d006f87
+    new: 9d9b1219d04c43d3d8e71abb6b75d0c7a35bf87a
+    log: revlist-c30b4019ea89-9d9b1219d04c.txt
 
---===============7034496326661120730==
+--===============5852892172485370311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a6c2d093c45-de9476bb4f1b.txt
+Content-Disposition: attachment; filename=revlist-c30b4019ea89-9d9b1219d04c.txt
 
-23099792bb6fafe4aa4063e261a17e2bb743026f bpf: Add cookie object to bpf maps
-bfb8da7a5dd1e2cb2e7329066380edbe48426518 bpf: Move cgroup iterator helpers to bpf.h
-c04992612ed441c1970e58dbbdd01771f76e2c5e bpf: Move bpf map owner out of common struct
-c1c74584b9b4043c52e41fec415226e582d266a3 bpf: Fix oob access in cgroup local storage
-71224142994b3d6a7ef6ae7b8e0a57c44bfad86f drm/amd/display: Don't warn when missing DCE encoder caps
-b187c976111960e6e54a6b1fff724f6e3d39406c fs: writeback: fix use-after-free in __mark_inode_dirty()
-4377eac565c297fdfccd2f8e9bf94ee84ff6172f tee: fix NULL pointer dereference in tee_shm_put
-0f70fab5598de18773c93e62c9c4ff349c9141c5 arm64: dts: rockchip: Add vcc-supply to SPI flash on rk3399-pinebook-pro
-ff040562c10a540b8d851f7f4145fa112977f853 wifi: cfg80211: fix use-after-free in cmp_bss()
-d00c8b0daf56012f69075e3377da67878c775e4c netfilter: br_netfilter: do not check confirmed bit in br_nf_local_in() after confirm
-c79730e337a1cfe15257058dffd21a4cbcdb806f netfilter: conntrack: helper: Replace -EEXIST by -EBUSY
-47f6090bcf75c369695d21c3f179db8a56bbbd49 Bluetooth: Fix use-after-free in l2cap_sock_cleanup_listen()
-1079c102938432fd4831c988b5f3107d2f7e79a8 xirc2ps_cs: fix register access when enabling FullDuplex
-e96d08ddbc99f072755ea249d3ecccd54618dc0a mISDN: Fix memory leak in dsp_hwec_enable()
-348a01c8574b0fbf5d92e26dfbce1f1290ec4a06 icmp: fix icmp_ndo_send address translation for reply direction
-1eadabcf5623f1237a539b16586b4ed8ac8dffcd i40e: Fix potential invalid access when MAC list is empty
-eaa10a027ab6f699bf9cd6a2ea4043960a414177 net: ethernet: mtk_eth_soc: fix tx vlan tag for llc packets
-24ec8826381f24a89bce072b0bc051554b966dd6 wifi: cw1200: cap SSID length in cw1200_do_join()
-e5f334ac774789726d602e575eb91122e0ace9cd wifi: libertas: cap SSID len in lbs_associate()
-299c6d47528eda7b9904707b55322bb9e8f1b6c2 net: thunder_bgx: add a missing of_node_put
-894c7d0c3fbaeb18cda07464d19193b3af0da706 net: thunder_bgx: decrement cleanup index before use
-a7eae33227ee660a847eb9c2d2aa091d37b6106c ipv4: Fix NULL vs error pointer check in inet_blackhole_dev_init()
-2bd0f67212908243ce88e35bf69fa77155b47b14 ax25: properly unshare skbs in ax25_kiss_rcv()
-955f400e4f51de22e00f32aa73b12f877b6a7f00 net: atm: fix memory leak in atm_register_sysfs when device_register fail
-0b21e9cd4559102da798bdcba453b64ecd7be7ee ppp: fix memory leak in pad_compress_skb
-b4c2fb32f4feaf1df6b1c2098cf11e34a35174c2 ptp: Add generic PTP is_sync() function
-24b24295464f25fb771d36ed558c7cd942119361 net: phy: mscc: Fix memory leak when using one step timestamping
-0bb7069ee34335d88b33692b43bba7444567cfac phy: mscc: Stop taking ts_lock for tx_queue and use its own lock
-2be7109ef258a26e1a30a460bb3f22af6ef6d3d3 ALSA: usb-audio: Add mute TLV for playback volumes on some devices
-4bd570f494124608a0696da070f00236a96fb610 pcmcia: Fix a NULL pointer dereference in __iodyn_find_io_region()
-744ff519c72de31344a627eaf9b24e9595aae554 x86/mm/64: define ARCH_PAGE_TABLE_SYNC_MASK and arch_sync_kernel_mappings()
-732e62212f49d549c91071b4da7942ee3058f7a2 mm: move page table sync declarations to linux/pgtable.h
-acdf26a912190fc6746e2a890d7d0338190527b4 wifi: mwifiex: Initialize the chan_stats array to zero
-da98fc73f7d1db1d77fb48b6e783426a49109e80 drm/amdgpu: drop hw access in non-DC audio fini
-95b63d15fce5c54a73bbf195e1aacb5a75b128e2 scsi: lpfc: Fix buffer free/clear order in deferred receive path
-5d334bce9fad58cf328d8fa14ea1fff855819863 batman-adv: fix OOB read/write in network-coding decode
-99a8772611e2d7ec318be7f0f072037914a1f509 e1000e: fix heap overflow in e1000_set_eeprom
-abdf3c33918185c3e8ffeb09ed3e334b3d7df47c mm/khugepaged: fix ->anon_vma race
-c824d766e472d7357f7ddca150875b6e01530607 cpufreq/sched: Explicitly synchronize limits_changed flag handling
-b9f28182e29e290f83b8ac91fdb0b7d602b24f24 KVM: x86: Take irqfds.lock when adding/deleting IRQ bypass producer
-45eef6be830ec88781b271894c5d01b06a5542ef spi: tegra114: Remove unnecessary NULL-pointer checks
-66dc11e9c28f76742bf19187aeee89758fba2bc0 spi: tegra114: Don't fail set_cs_timing when delays are zero
-28e4e1b59a348dca63b21dc5ec9be7148eb22669 iio: chemical: pms7003: use aligned_s64 for timestamp
-1d7def97e7eb65865ccc01bbdf4eb9e6bbe8a5b5 iio: light: opt3001: fix deadlock due to concurrent flag access
-b336106f04a2c5763007cb6f985de0832504c200 gpio: pca953x: fix IRQ storm on system wake up
-d0b7f11dd68b593bd970e5735be00e8d89bace30 dma-buf: insert memory barrier before updating num_fences
-6db1f39f003c6c05400edc7ea113d4199c39896b dmaengine: mediatek: Fix a possible deadlock error in mtk_cqdma_tx_status()
-01ea671f1f2bc93253ea31fcab07a16b05cb3da4 net: dsa: microchip: update tag_ksz masks for KSZ9477 family
-a82c31b8e9b66458baddfcf7d1e0fc18dd282201 net: dsa: microchip: linearize skb for tail-tagging switches
-85530b4ec37472f155d5fe957bfecdbdde291719 vmxnet3: update MTU after device quiesce
-4da1cc986b7571e377afe3892996bdf31b3b88d2 arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
-db44404d1b9bf39dac01e0dc252e02d4d5adce9d randstruct: gcc-plugin: Remove bogus void member
-8b9a5269b442e5942892565bd85169642bc2ee8c randstruct: gcc-plugin: Fix attribute addition
-7e287256904ee796c9477e3ec92b07f236481ef3 mm/slub: avoid accessing metadata when pointer is invalid in object_err()
-271ed980d57d54567246cda65da4c87eb6738c1d ALSA: hda/hdmi: Add pin fix for another HP EliteDesk 800 G4 model
-85be7ef8c8e792a414940a38d94565dd48d2f236 pcmcia: Add error handling for add_interval() in do_validate_mem()
-5255b997529b676e20a07fba77e0814661f4c467 spi: spi-fsl-lpspi: Fix transmissions when using CONT
-18fac6162dda56db205c774f1dc90260df17039b spi: spi-fsl-lpspi: Set correct chip-select polarity bit
-f2e6b997632d29f5b5992750734f51358493df04 spi: spi-fsl-lpspi: Reset FIFO and disable module on transfer abort
-43167766ea1b04bea94d3930110e486c7df60786 drm/bridge: ti-sn65dsi86: fix REFCLK setting
-b01a706f9e739d00e0b2a90009c8a4306039c02b perf bpf-event: Fix use-after-free in synthesis
-ffe9232693e31a70ff8322d6fb01478f65068a6f clk: qcom: gdsc: Set retain_ff before moving to HW CTRL
-b521afbe4525e951100470de3c74f65ba385a82f spi: tegra114: Use value to check for invalid delays
-3e7c1c70abf25c6568d634baba096b00636dce83 dmaengine: mediatek: Fix a flag reuse error in mtk_cqdma_tx_status()
-de9476bb4f1bf28eba6d8ca55f934f94a39e31f8 Linux 5.15.192
+9f61018f05e9acbc7a38453fa36656eae609c07e drm/amd/display: Don't warn when missing DCE encoder caps
+f266188603c34e6e234fb0dfc3185f0ba98d71b7 tee: fix NULL pointer dereference in tee_shm_put
+6d6366087c289a6a001049505e36a4b265f0c7fc arm64: dts: rockchip: Add vcc-supply to SPI flash on rk3399-pinebook-pro
+a97a9791e455bb0cd5e7a38b5abcb05523d4e21c wifi: cfg80211: fix use-after-free in cmp_bss()
+2c9c23ebf01eeb692c94d729b0be80bad050195e netfilter: conntrack: helper: Replace -EEXIST by -EBUSY
+83e1d9892ef51785cf0760b7681436760dda435a Bluetooth: Fix use-after-free in l2cap_sock_cleanup_listen()
+3a1de6d5562c1bf2776dadefa58d2cd56e12d48c xirc2ps_cs: fix register access when enabling FullDuplex
+17c01212b3172c4f6030c2f330dfb85d435adff1 mISDN: Fix memory leak in dsp_hwec_enable()
+33416e5c37c21f0828c2d979d1968922d08ef4f0 icmp: fix icmp_ndo_send address translation for reply direction
+3c6fb929afa313d9d11f780451d113f73922fe5d i40e: Fix potential invalid access when MAC list is empty
+64c916efe93ee2e501f3dfb236db9d27a60cfea7 net: ethernet: mtk_eth_soc: fix tx vlan tag for llc packets
+a45926a8a4243b52ac78b177d91ef67a497fa22b wifi: cw1200: cap SSID length in cw1200_do_join()
+30fc1555c8ee544bfecd2a4b06d1f42d1ff49ea6 wifi: libertas: cap SSID len in lbs_associate()
+caabe2edced524501a3fc6718441aa49d9b9f624 net: thunder_bgx: add a missing of_node_put
+044a47be34e4b12844e8f46fa58cc5c5ae8737e7 net: thunder_bgx: decrement cleanup index before use
+5d10858346bc0cdc1bf9b14bfa400001d9288e7c ipv4: Fix NULL vs error pointer check in inet_blackhole_dev_init()
+5b079be1b9da49ad88fc304c874d4be7085f7883 ax25: properly unshare skbs in ax25_kiss_rcv()
+3d295ffa95dc5d829ad97e514cb47eb82ecf5ef8 net: atm: fix memory leak in atm_register_sysfs when device_register fail
+87a35a36742df328d0badf4fbc2e56061c15846c ppp: fix memory leak in pad_compress_skb
+100bb38c19df9ee30bde75b41c71266703d4d56d ALSA: usb-audio: Add mute TLV for playback volumes on some devices
+5ff2826c998370bf7f9ae26fe802140d220e3510 pcmcia: Fix a NULL pointer dereference in __iodyn_find_io_region()
+05daef0442d28350a1a0d6d0e2cab4a7a91df475 wifi: mwifiex: Initialize the chan_stats array to zero
+4c020f40f4f8b2f189486d08b6e0b1e6295bb553 drm/amdgpu: drop hw access in non-DC audio fini
+baa39f6ad79d372a6ce0aa639fbb2f1578479f57 scsi: lpfc: Fix buffer free/clear order in deferred receive path
+1e36c6c8dc8023b4bbe9a16e819f9998b9b6a183 batman-adv: fix OOB read/write in network-coding decode
+ce8829d3d44b8622741bccca9f4408bc3da30b2b e1000e: fix heap overflow in e1000_set_eeprom
+cee956ab1efbd858b4ca61c8b474af5aa24b29a6 mm/khugepaged: fix ->anon_vma race
+f66012909e7bf383fcdc5850709ed5716073fdc4 mm/slub: avoid accessing metadata when pointer is invalid in object_err()
+2075ccfcba2745ea43d859e20975e6019e38f5f7 cpufreq/sched: Explicitly synchronize limits_changed flag handling
+5defea81d4942cf734d6b59ae560e345f3e8d230 KVM: x86: Take irqfds.lock when adding/deleting IRQ bypass producer
+119b2576b8c88769aa33bd149804c8b884dffedb iio: chemical: pms7003: use aligned_s64 for timestamp
+957e8be112636d9bc692917286e81e54bd87decc iio: light: opt3001: fix deadlock due to concurrent flag access
+b23bb1c1622695d6a8f23ab14f4d193dc3db53e6 gpio: pca953x: fix IRQ storm on system wake up
+d43a31ae7d393ee9c27dfabd7699d783731b3ab9 ALSA: hda/realtek - Add new HP ZBook laptop with micmute led fixup
+2bcc31d61d2aa05baecb283182699e8df3044ada dmaengine: mediatek: Fix a possible deadlock error in mtk_cqdma_tx_status()
+b21c1ab6ce5580d7fdff5926cc4299778220d40f net: dsa: microchip: update tag_ksz masks for KSZ9477 family
+48f5e27c6df91daae92dba382d24da01de0b2372 net: dsa: microchip: linearize skb for tail-tagging switches
+20aa059424c8147838a91c48b0dbcde720888d71 vmxnet3: update MTU after device quiesce
+8a7c47053f1cf6eb7deef161230d15d29c0b9eaf arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
+a5c6c3431e4ff30a8abccdddaf2c0fa1e7707a77 randstruct: gcc-plugin: Remove bogus void member
+eabc92d1fb4a226c6518dbc59011768be669a85d randstruct: gcc-plugin: Fix attribute addition
+bb2c31b8a8f0d9879600df39ca86ae81312d7078 net: phy: microchip: implement generic .handle_interrupt() callback
+308bccbbd23a3f9dd985d213071708e6ac3172bd net: phy: microchip: remove the use of .ack_interrupt()
+4c01ca5b8e5361abc1ab577fe5b8f94550f0abdf net: phy: microchip: force IRQ polling mode for lan88xx
+e911f0dcfef1aecd4696c51afe8b49ea3b680526 ALSA: hda/hdmi: Add pin fix for another HP EliteDesk 800 G4 model
+ae184024ef31423e5beb44cf4f52999bbcf2fe5b pcmcia: Add error handling for add_interval() in do_validate_mem()
+04c112ddf75e62f961ab4bbf3756dd905a14365d spi: spi-fsl-lpspi: Fix transmissions when using CONT
+817efa7b356236111b9cd2027b725469a98f6c40 spi: spi-fsl-lpspi: Set correct chip-select polarity bit
+8e206c6415cac4cd32d9a777597dba958f60a6ed spi: spi-fsl-lpspi: Reset FIFO and disable module on transfer abort
+071fdf70d9290425bd84e44021a450328c95cbe5 clk: qcom: gdsc: Set retain_ff before moving to HW CTRL
+64ddb14fd034300c3729fea5847e674ee9fb3f24 cifs: fix integer overflow in match_server()
+dab666be25dae4c9c5d0746a018e78b2c0d53e24 dmaengine: mediatek: Fix a flag reuse error in mtk_cqdma_tx_status()
+9d9b1219d04c43d3d8e71abb6b75d0c7a35bf87a Linux 5.10.243
 
---===============7034496326661120730==--
+--===============5852892172485370311==--
