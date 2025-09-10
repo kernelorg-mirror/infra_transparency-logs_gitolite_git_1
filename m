@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8471090392220534628=="
+Content-Type: multipart/mixed; boundary="===============2711841926149177347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 10 Sep 2025 01:46:47 -0000
-Message-Id: <175746880719.719148.3097443617190636006@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 01:46:49 -0000
+Message-Id: <175746880991.719265.18155310064952205700@gitolite.kernel.org>
 
---===============8471090392220534628==
+--===============2711841926149177347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: b0dd11b166ec8b568aa3f6cd4a14a6265a8fc82f
-    new: 3b2e0bd46097263a04d03241366e157c73b9082a
-    log: revlist-b0dd11b166ec-3b2e0bd46097.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: e16e0186d148dec641d9242c29a5e2ad70eeb2c9
+    new: 3cf6abe96207d7463556495bfa93cd12b1b794b5
+    log: revlist-e16e0186d148-3cf6abe96207.txt
 
---===============8471090392220534628==
+--===============2711841926149177347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0dd11b166ec-3b2e0bd46097.txt
+Content-Disposition: attachment; filename=revlist-e16e0186d148-3cf6abe96207.txt
 
 e430d73ac9f7ed2a9e9bb91fe8fcae5b5a66edb9 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 6f43a44b49f6f4206023aa1aa9aaa48b1695fb2a NFSD: pass nfsd_file to nfsd_iter_read()
@@ -94,5 +94,14 @@ db55f1aec4d79233f1f09d9e34b3d3763ea3841b NFS: nfs_invalidate_folio() must observ
 efcae164bf7f2d34fb655ffd9c012b86a8f51278 Revert "SUNRPC: Don't allow waiting for exiting tasks"
 3766a4abe540b1852aed6bbbe0fcd4fffeca7fc4 SUNRPC: call xs_sock_process_cmsg for all cmsg
 3b2e0bd46097263a04d03241366e157c73b9082a NFSv4/flexfiles: Fix layout merge mirror check.
+90bdf6d1e12e1654cb347a0269fbb73670675570 nfs/localio: make trace_nfs_local_open_fh more useful
+e1bd0bb489ed34a50298312df08551efd0d69ee5 nfs/localio: avoid issuing misaligned IO using O_DIRECT
+aedbfc75a6b1887d21802a0b075a941aa90e503d nfs/localio: refactor iocb and iov_iter_bvec initialization
+1f59cc9ff0c0f0644ce9d4dbd17967de5ed825fa nfs/localio: refactor iocb initialization
+352a3f7f5cb29a085007d00e3eab10725fc96285 nfs/direct: add misaligned READ handling
+4809144442cff80124cd0ad95d026fca821f25c3 nfs/direct: add misaligned WRITE handling
+feddd7e228e1741363ec36ae8bb252483c3758ff nfs/direct: add tracepoints for misaligned DIO READ and WRITE support
+13a8f82c7f7e0455c6f0ab18e6827788a809f5af NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+3cf6abe96207d7463556495bfa93cd12b1b794b5 Revert "nfs/direct: add misaligned WRITE handling"
 
---===============8471090392220534628==--
+--===============2711841926149177347==--
