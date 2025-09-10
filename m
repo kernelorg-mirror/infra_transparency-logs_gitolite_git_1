@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 10 Sep 2025 13:55:38 -0000
-Message-Id: <175751253823.1367717.6592881895798439144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 10 Sep 2025 14:02:14 -0000
+Message-Id: <175751293458.1372824.9944716727712163858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/heads/0.10.x
-    old: a8efce4167520d426a105189ef8aaee05e15c1e1
-    new: 529f0e675a182595ac4b9d2651c5ff4983c32451
+  - ref: refs/heads/master
+    old: 6d78b4473cdb08b74662355a9e8510bde09c511e
+    new: a3967baad4d533dc254c31e0d221e51c8d223d58
     log: |
-         529f0e675a182595ac4b9d2651c5ff4983c32451 refactor(types): simplify TpmuHa with TpmBuffer
+         a3967baad4d533dc254c31e0d221e51c8d223d58 tcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock->cork.
          
