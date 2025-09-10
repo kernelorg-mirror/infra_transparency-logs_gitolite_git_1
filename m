@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1368852778810198092=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 10 Sep 2025 16:34:29 -0000
-Message-Id: <175752206930.1523928.7952492159392443968@gitolite.kernel.org>
-
---===============1368852778810198092==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 10 Sep 2025 16:44:05 -0000
+Message-Id: <175752264524.1532023.40823777984630631@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/testing
-    old: d1487b0b78720b86ec2a2ac7acc683ec90627e5b
-    new: b8902d55155cec7bd743dc1129e0b32e70b1751f
-    log: revlist-d1487b0b7872-b8902d55155c.txt
-
---===============1368852778810198092==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1487b0b7872-b8902d55155c.txt
-
-02818610f605964df7609546fa50258652006ccb dt-bindings: iio: magnetometer: Infineon TLV493D 3D Magnetic sensor
-f467e6442d9c19b59e45bb35f85b11ce7cd5d7f0 iio: magnetometer: add support for Infineon TLV493D 3D Magentic sensor
-6560e3d4e217d33d7fdbfc5d6ce799cedf298105 iio: adc: PAC1934: Use devm_mutex_init()
-03b7cf008d3ac7595f1a4053bde1bfbaffe818be dt-bindings: iio: afe: current-sense-amplifier: Add io-channel-cells
-9f02e1060e606c4baff81b50b6bfedf4aa227c3e iio: imu: inv_icm42600: Simplify pm_runtime setup
-afcd1d66d1b4a8454b23f8372699eb53cc94ab64 iio: imu: inv_icm42600: Drop redundant pm_runtime reinitialization in resume
-b3fc529273b881a3723459ac42095a628b25832b iio: imu: inv_icm42600: Avoid configuring if already pm_runtime suspended
-eccb6ef0fb05e8262f2f786e1ad214eaf77fe4f1 iio: imu: inv_icm42600: Use devm_regulator_get_enable() for vdd regulator
-a37b4cc0919a8daaedbf920ad8b14e7e1006350e Documentation: iio: Remove location attribute
-b2fd4fa125ef4775b60629247a5bc42785549a36 iio: magnetometer: als31300: remove unused IIO_CHAN_INFO_PROCESSED handling
-b8902d55155cec7bd743dc1129e0b32e70b1751f iio: magnetometer: tmag5273: remove unused IIO_CHAN_INFO_PROCESSED handling
-
---===============1368852778810198092==--
+  - ref: refs/heads/main
+    old: e3c674db356c4303804b2415e7c2b11776cdd8c3
+    new: 78dd8ad62cad4f5af22afc842890d531312bbb8a
+    log: |
+         e0d1c55501d377163eb57feed863777ed1c973ad net: phy: fix phy_uses_state_machine()
+         686cab5a18e443e1d5f2abb17bed45837836425f net: dev_ioctl: take ops lock in hwtstamp lower paths
+         0f82c3ba66c6b2e3cde0f255156a753b108ee9dc macsec: sync features on RTM_NEWLINK
+         648de37416b301f046f62f1b65715c7fa8ebaa67 mptcp: sockopt: make sync_socket_options propagate SOCK_KEEPOPEN
+         7094b84863e5832cb1cd9c4b9d648904775b6bd9 netlink: specs: mptcp: fix if-idx attribute type
+         6f021e95d0828edc8ed104a294594c2f9569383a doc: mptcp: net.mptcp.pm_type is deprecated
+         ef1bd93b3b924086088b7818d9e5d89ede944f1f selftests: mptcp: shellcheck: support v0.11.0
+         78dd8ad62cad4f5af22afc842890d531312bbb8a Merge branch 'mptcp-misc-fixes-for-v6-17-rc6'
+         
