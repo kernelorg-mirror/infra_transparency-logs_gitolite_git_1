@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2770078406208023119=="
+Content-Type: multipart/mixed; boundary="===============8471090392220534628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 10 Sep 2025 01:46:44 -0000
-Message-Id: <175746880464.719005.14881411868059577028@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 01:46:47 -0000
+Message-Id: <175746880719.719148.3097443617190636006@gitolite.kernel.org>
 
---===============2770078406208023119==
+--===============8471090392220534628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
-    old: 95f2f88e593744f7b7b08e8bfa54ba41394983e3
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
+    old: b0dd11b166ec8b568aa3f6cd4a14a6265a8fc82f
     new: 3b2e0bd46097263a04d03241366e157c73b9082a
-    log: revlist-95f2f88e5937-3b2e0bd46097.txt
+    log: revlist-b0dd11b166ec-3b2e0bd46097.txt
 
---===============2770078406208023119==
+--===============8471090392220534628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95f2f88e5937-3b2e0bd46097.txt
+Content-Disposition: attachment; filename=revlist-b0dd11b166ec-3b2e0bd46097.txt
 
 e430d73ac9f7ed2a9e9bb91fe8fcae5b5a66edb9 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 6f43a44b49f6f4206023aa1aa9aaa48b1695fb2a NFSD: pass nfsd_file to nfsd_iter_read()
@@ -95,4 +95,4 @@ efcae164bf7f2d34fb655ffd9c012b86a8f51278 Revert "SUNRPC: Don't allow waiting for
 3766a4abe540b1852aed6bbbe0fcd4fffeca7fc4 SUNRPC: call xs_sock_process_cmsg for all cmsg
 3b2e0bd46097263a04d03241366e157c73b9082a NFSv4/flexfiles: Fix layout merge mirror check.
 
---===============2770078406208023119==--
+--===============8471090392220534628==--
