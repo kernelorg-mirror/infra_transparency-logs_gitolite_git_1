@@ -1,47 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8489997142075836658=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 10 Sep 2025 08:46:21 -0000
-Message-Id: <175749398137.1098860.8971671203728431391@gitolite.kernel.org>
-
---===============8489997142075836658==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Wed, 10 Sep 2025 08:55:30 -0000
+Message-Id: <175749453031.1106812.13817029962760264514@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/for-next
-    old: f490253809c8dab4af62e787f5a3ac3d22aa869c
-    new: c4f8b11bacd562f38c85f4f81a0a4426b267df70
+  - ref: refs/heads/nand/next
+    old: b2d2c2b8af4321476d58f313c7893b49c30141a4
+    new: 5808ae66f22e665c7131816e146548f2d7903ae1
     log: |
-         b5a5a16e37c004052e9181de5cff0638d44a4b9b platform/x86: xiaomi-wmi: Use devm_mutex_init()
-         c4f8b11bacd562f38c85f4f81a0a4426b267df70 platform/x86: quickstart: Use devm_mutex_init()
+         7a1e3a452a574ef337c4c2cd9202332a1ae9cd94 mtd: rawnand: loongson1: Rename the prefix from ls1x to loongson
+         fb1dd6b6722b5187a4fa7385d0be60b28c0f9936 mtd: rawnand: loongson: Add 6-byte NAND ID reading support
+         7ad5bdf88d7295c295a363a5daf481b283acedc2 mtd: rawnand: loongson: Add nand chip select support
+         4a2bab7ccceb14b48e86794b87104248c75aa587 dt-bindings: mtd: loongson,ls1b-nand-controller: Document the Loongson-2K0500 NAND controller
+         e55bbdd4a4b654dfe8ee8649b3be1db82319d6c0 mtd: rawnand: loongson: Add Loongson-2K0500 NAND controller support
+         0b1ae6480c3be58ad31afe757cbf1069ae072bb1 dt-bindings: mtd: loongson,ls1b-nand-controller: Document the Loongson-2K1000 NAND controller
+         5808ae66f22e665c7131816e146548f2d7903ae1 mtd: rawnand: loongson: Add Loongson-2K1000 NAND controller support
          
-
---===============8489997142075836658==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1757494028 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1757493976-6dc561f18845749bc0857e5f6a557dd26f30bdcb
-
-f490253809c8dab4af62e787f5a3ac3d22aa869c c4f8b11bacd562f38c85f4f81a0a4426b267df70 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaME7EAAKCRBZrE9hU+XO
-MflQAQDHWZgCXUZGnQyUYBHgGh3oSD81FaNWlaSuAAMYwZ842gEAkFVej56Q5cGz
-wVFU9WQsE4XBUVMX3lsogGtoqiDyMgg=
-=7+Ts
------END PGP SIGNATURE-----
-
---===============8489997142075836658==--
