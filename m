@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 10 Sep 2025 13:13:47 -0000
-Message-Id: <175751002746.1329396.15363007175945060334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Wed, 10 Sep 2025 13:30:21 -0000
+Message-Id: <175751102181.1344769.9287443242993678873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/v6_20250910_xianwei_zhao_support_for_amlogic_spi_flash_controller_ip
-    old: 0000000000000000000000000000000000000000
-    new: 6a129b2ca5c533aec89fbeb58470811cc4102642
+  - ref: refs/heads/main
+    old: e601ec40ed31a7c9bcef9ad74d3d9eab16b5be1c
+    new: c35520089e5b623b1e6d50b78c9e29847b840422
+    log: |
+         c35520089e5b623b1e6d50b78c9e29847b840422 feat(buffer): mutable casts
+         
