@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 10 Sep 2025 15:59:30 -0000
-Message-Id: <175751997031.1493051.5876199088413518462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 10 Sep 2025 16:03:25 -0000
+Message-Id: <175752020515.1496763.7438745905742418128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: 8990f1983843bd559f6da939107c18d355d0edba
-    new: 37dbd4203b42c10b76d55471bb866900f99d6bc1
-    log: |
-         bf42df09b6aa4ebb596ecba66cf35b75362b55c7 printk: kunit: support offstack cpumask
-         37dbd4203b42c10b76d55471bb866900f99d6bc1 Merge branch 'rework/ringbuffer-kunit-test' into for-next
-         
+  - ref: refs/heads/dev
+    old: 084f547bd8e3ff45c27f61c5205ff7ec06ff3432
+    new: 68e1e908cb7682db9fb7f79907f9352435a81c0f
+  - ref: refs/heads/next
+    old: 084f547bd8e3ff45c27f61c5205ff7ec06ff3432
+    new: 68e1e908cb7682db9fb7f79907f9352435a81c0f
