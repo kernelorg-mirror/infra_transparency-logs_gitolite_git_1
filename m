@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 10 Sep 2025 15:31:44 -0000
-Message-Id: <175751830443.1451247.10294347214433508654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Wed, 10 Sep 2025 15:45:21 -0000
+Message-Id: <175751912127.1480603.18281174324730799961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: aed025ea2b4be27479946d3fd09245877fa68357
-    new: bd48fe0a8306cf49288e5d41826450b50c30e3ce
-    log: |
-         bd48fe0a8306cf49288e5d41826450b50c30e3ce arm64: dts: renesas: rzg3s-smarc-som: Fix Ethernet aliases
-         
+  - ref: refs/heads/sunxi/clk-fixes-for-6.17
+    old: 0000000000000000000000000000000000000000
+    new: 25fbbaf515acd13399589bd5ee6de5f35740cef2
