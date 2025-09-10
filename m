@@ -1,60 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4703179466003115835=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 10 Sep 2025 10:16:03 -0000
-Message-Id: <175749936340.1177401.12850881370114344837@gitolite.kernel.org>
-
---===============4703179466003115835==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 10 Sep 2025 10:20:43 -0000
+Message-Id: <175749964374.1181588.9080734184459096942@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: d69eb204c255c35abd9e8cb621484e8074c75eaa
-    new: 8cc71fc3b82b51e155fbe20876b1aa17a315ac4c
+  - ref: refs/heads/wip/leon-for-next
+    old: 689aad4d07d0f36989a654f61b1d97c63b7a2880
+    new: 7cb1bec5195c532a0dfc19d614fd4b838d43e555
     log: |
-         4b66d18918f8e4d85e51974a9e3ce9abad5c7c3d wifi: ath12k: Fix missing station power save configuration
-         82e2be57d544ff9ad4696c85600827b39be8ce9e wifi: ath12k: fix WMI TLV header misalignment
-         2682e7a317504a9d81cbb397249d4299e84dfadd wifi: iwlwifi: fix 130/1030 configs
-         bda605962c0798617172eb17348a43002e3595b7 Merge tag 'ath-current-20250909' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-         a814c36cc6738ae61a4bcda6d948935a6da51ae1 Merge tag 'iwlwifi-fixes-2025-09-09' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-         8cc71fc3b82b51e155fbe20876b1aa17a315ac4c wifi: cfg80211: Fix "no buffer space available" error in nl80211_get_station() for MLO
+         d52e83e1f9848e8a66ff08267d44d244c67a3e7f RDMA/ionic: Register device ops for control path
+         d5998624818c8aca5b470297ae9766658704518f RDMA/ionic: Register device ops for datapath
+         50739de16021ae29e5738d8bf886be75a185a3ca RDMA/ionic: Register device ops for miscellaneous functionality
+         15b463e96b72d0914e68ca9c79e995c0f4df1377 RDMA/ionic: Implement device stats ops
+         ff8862c9c60986a905a395499b66d2b2d812a9ec RDMA/ionic: Add Makefile/Kconfig to kernel build environment
+         fc219a896e052371174bea6a18faf4af5f8d9c1d RDMA/bnxt_re: Update sysfs entries with appropriate data
+         7cb1bec5195c532a0dfc19d614fd4b838d43e555 RDMA/bnxt_re: Avoid GID level QoS update from the driver
          
-
---===============4703179466003115835==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1757499381 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1757499330-cc50112f3abcbf6786fb8296e6fa7c4521e36d75
-
-d69eb204c255c35abd9e8cb621484e8074c75eaa 8cc71fc3b82b51e155fbe20876b1aa17a315ac4c refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmjBT/UACgkQ10qiO8sP
-aABk7A//efCR59jqX4QjcbP3eC8iUjJratlp4Ic0/xKJewYlpUQgdV1nSiuAb6Iq
-BkxLwHE1R4T8jrIJ/aWRsgU/mCxnU+LRItcep0Tll/Eyyudh8HMxNLFs/tYIEdAz
-dAtU+AdCPOc5+eTFylpUwnQccYteUaNvwbb4w1oPBYuFOCfQNQBlCxEqaFpjJkvQ
-ARJsdDOmBxRiscyeuE6QV36gy60//cF/u4N23PyM6OTuIk022hnHG0/cbicQ+zvN
-Xz3+N3vNvUqUtidjmJZ6aSQc82Lg1LLSphQOaTov8/XxGvPt1fMMf/NzysYPk36r
-FeyrXpNZYUKp0X+atrVrl8ZEZCRbNGUitRgimf9AcD7K4YOf1AeizcfXeGHqzTIN
-mq69BQg40Szd56dHphgxfC5sPT/BnS+E6alEppXbCkMPWa9AV4qyDfWo5iRewzVz
-gVkRr+Tdf4ehgHaxvS/emzrwivN6/3tmo3oXbveFcwCpcYaOG50gwLHxo6Qg6wRG
-gpsLTMv1jshjfjb4IfsGMe0VgjMzbbsvVNbDx423+hqdh8ZTtN4s2L+MslTfh+nZ
-zDZlaEcLl2UQOTUP9Jdn51GR3ENX3pvLnDSKOjn8JZ7DEt2eKYmLeaoTnfP5f4Ao
-Cet9bFh4TGItwyrhrdc+44bwtZrjC5YWpubLRhBQJSSwmXCcog4=
-=Vbe8
------END PGP SIGNATURE-----
-
---===============4703179466003115835==--
