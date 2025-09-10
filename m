@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 10 Sep 2025 14:33:14 -0000
-Message-Id: <175751479434.1400309.4915363020351361423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 10 Sep 2025 14:41:41 -0000
+Message-Id: <175751530197.1408148.9522019705162399324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: f777d1112ee597d7f7dd3ca232220873a34ad0c8
-    new: 9dd1835ecda5b96ac88c166f4a87386f3e727bd9
+  - ref: refs/heads/experimental
+    old: 6f45306991ef0cf37ea1d0a1090f8289efbd1ea8
+    new: a22aeffd20c4a5f7b3f9b9d0f72bcce662a84d35
     log: |
-         7e2368a21741e2db542330b32aa6fdd8908e7cff dma-debug: don't enforce dma mapping check on noncoherent allocations
-         9dd1835ecda5b96ac88c166f4a87386f3e727bd9 Merge tag 'dma-mapping-6.17-2025-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+         25c84182c464452d961202cd6e8c7aa0d8c9727d erofs-utils: add NBD-backed OCI image mounting
+         a22aeffd20c4a5f7b3f9b9d0f72bcce662a84d35 erofs-utils: mount: add OCI recovery support for NBD reattach
          
