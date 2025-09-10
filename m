@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8134142837289802033=="
+Content-Type: multipart/mixed; boundary="===============0862191376078947407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 10 Sep 2025 16:50:36 -0000
-Message-Id: <175752303640.1541211.6880334247024247483@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 16:50:40 -0000
+Message-Id: <175752304096.1541380.3349254153379154619@gitolite.kernel.org>
 
---===============8134142837289802033==
+--===============0862191376078947407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 0574c27cbe797329b932f9398959c3b08d41b0ad
     new: deb105f49879dd50d595f7f55207d6e74dec34e6
     log: revlist-0574c27cbe79-deb105f49879.txt
 
---===============8134142837289802033==
+--===============0862191376078947407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ f3164840a136b123c8348ca5af4d83d99aa86eb7 ptp: qoriq: convert to use generic inte
 214da63451bbdf00cbf2347d8f264d39ae938c7e Merge branch 'ptp-add-pulse-signal-loopback-support-for-debugging'
 deb105f49879dd50d595f7f55207d6e74dec34e6 net: phy: marvell: Fix 88e1510 downshift counter errata
 
---===============8134142837289802033==--
+--===============0862191376078947407==--
