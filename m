@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 10 Sep 2025 01:38:01 -0000
-Message-Id: <175746828106.709706.7112270903629462275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 10 Sep 2025 01:38:54 -0000
+Message-Id: <175746833429.710203.3153078151704070225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dt/next
-    old: bc3f7d0340f7cf32b53e40aeed25ac0c6a0e77e7
-    new: b132e9745e8cd5d383253dc3f21775d6cdea1fd8
+  - ref: refs/heads/main
+    old: 0f82c3ba66c6b2e3cde0f255156a753b108ee9dc
+    new: 648de37416b301f046f62f1b65715c7fa8ebaa67
     log: |
-         3ef9c995fa51a90b08b0cc8d2951acb53c38936c docs: dt: writing-schema: Describe defining properties in top-level
-         b132e9745e8cd5d383253dc3f21775d6cdea1fd8 dt-bindings: dp-connector: describe separate DP and AUX lines
+         648de37416b301f046f62f1b65715c7fa8ebaa67 mptcp: sockopt: make sync_socket_options propagate SOCK_KEEPOPEN
          
