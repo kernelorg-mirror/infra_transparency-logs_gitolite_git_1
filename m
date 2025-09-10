@@ -1,40 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0804383723859983587=="
+Content-Type: multipart/mixed; boundary="===============1070881766677645076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 10 Sep 2025 21:13:23 -0000
-Message-Id: <175753880337.1768620.4412253092193537650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 10 Sep 2025 21:19:49 -0000
+Message-Id: <175753918909.1774215.9710118412333354864@gitolite.kernel.org>
 
---===============0804383723859983587==
+--===============1070881766677645076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: b132e9745e8cd5d383253dc3f21775d6cdea1fd8
-    new: fc9cd2ffa02df7db1887dbc72254aead65b141b0
-    log: revlist-b132e9745e8c-fc9cd2ffa02d.txt
+  - ref: refs/heads/slab/for-next
+    old: 3d4a49d3243449044b50d7dcbb5e39527f9a607d
+    new: f1114465202a35ba2c6480b38549cda140afd435
+    log: |
+         850470a8413a8a78e772c4f6bd9fe81ec6bd5b0f mm: slub: avoid wake up kswapd in set_track_prepare
+         e1c4350327b39c9cad27b6c5779b3754384f26c8 mm/slub: Fix cmp_loc_by_count() to return 0 when counts are equal
+         ba7a896427cbade13d30f3c7e18c15e8be243c18 mm/slub: Replace sort_r() with sort() for debugfs stack trace sorting
+         41534d499e50e23571d6b9960498777d93f817ce mm/slub: Refactor note_cmpxchg_failure for better readability
+         5211f53b8ee88950fba4fbb488c79824bcdb6b9f slab: Remove unnecessary test from alloc_debug_processing()
+         b43dd0db8189e98b09fc7b493aad6cabe882749c slab: Remove unnecessary test from alloc_single_from_partial()
+         56b6be28c2295441e541fccef7849a6fc83e2290 slab: Remove dead code in check_slab()
+         60eccef8469963f0d5de9f6ca884c06fd07c0d39 slab: Remove dead code in free_consistency_checks()
+         f1114465202a35ba2c6480b38549cda140afd435 Merge branch 'slab/for-6.18/sheaves' into slab/for-next
+         
 
---===============0804383723859983587==
+--===============1070881766677645076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b132e9745e8c-fc9cd2ffa02d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1c951f1043346a3862e003bd7663a9c89b317900 dt-bindings: soc: renesas: Add the Renesas RZ/N1 GPIO Interrupt Multiplexer
-4b7c5c0d6790d748f10a8311ece1c87b33a166e8 dt-bindings: watchdog: Drop duplicate moxa,moxart-watchdog.txt
-e4d538076423637d563cb4041a3ea2ac37362a29 dt-bindings: mailbox: Convert rockchip,rk3368-mailbox to DT schema
-fbb65a10c9171d0f7ae10f4d82c8853058ac5e10 dt-bindings: mailbox: Convert marvell,armada-3700-rwtm-mailbox to DT schema
-f1c4064f837db7e582727b7e62f993ceb1146a37 dt-bindings: mailbox: Convert brcm,iproc-pdc-mbox to DT schema
-3e92610ca97cf257dcd4e3a24e8027edc9c5f74c dt-bindings: mailbox: Convert brcm,iproc-flexrm-mbox to DT schema
-230cb594a6224647ff9d2370b14879e6aa9c080d dt-bindings: watchdog: Convert marvell,armada-3700-wdt to DT schema
-99b8ba27e5ef230849f72369f45c184c9846e4ce dt-bindings: thermal: Convert marvell,armada370-thermal to DT schema
-deda693ef3bc7882d3fc0e7b88aea902acbbfdf6 dt-binding: thermal: Convert marvell,armada-ap806-thermal to DT schema
-fc9cd2ffa02df7db1887dbc72254aead65b141b0 dt-bindings: edac: Convert apm,xgene-edac to DT schema
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1757539236 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1757539184-9f144251337638c80151fd2c33d44dcdb743e862
 
---===============0804383723859983587==--
+3d4a49d3243449044b50d7dcbb5e39527f9a607d f1114465202a35ba2c6480b38549cda140afd435 refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjB66QbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiac0YH/1K7jhECTRlDDzLQeIXS
+oo83Uz75WzMVA3eIovHqCCc32CzOl0pNxpLkoxAuRK/U3mY6cWfARzzZcJ7Cgffa
+UfKYX7jKN2VKugfqhbAqEfFF9VmoXn5G0hms4mnxuqFo4p0YtGYVg9EHW/r7Tkdp
+F6Db/6oEso7veMcZsW9eySjc0wshnKqdtYjF4HbjyBK+dHgnbf9qmc1eXB2bkmXo
+3xcmMW7aqnYAdn2BZhqCnYsC9gmcILjnl7DimLhHCIn++P3B/+NFjwbCu8YXGfOO
++gCgIy1ieez4lHRWc55HgFwNOCjPSml8ia/qwdztdLqLzcDQ3B0SM9TR3j2JQC4w
+UCw=
+=xWtk
+-----END PGP SIGNATURE-----
+
+--===============1070881766677645076==--
