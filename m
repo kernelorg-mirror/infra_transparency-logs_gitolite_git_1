@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 10 Sep 2025 18:23:55 -0000
-Message-Id: <175752863597.1620311.16528662290292937075@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 18:23:59 -0000
+Message-Id: <175752863956.1620466.7935328610818540065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: 6300d5c5438724c0876828da2f6e2c1a661871fc
-    new: 708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe
+  - ref: refs/heads/fixes
+    old: 708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe
+    new: 5cb782ff3c62c837e4984b6ae9f5d9a423cd5088
     log: |
-         9dba9a45c348e8460da97c450cddf70b2056deb3 scsi: lpfc: Fix buffer free/clear order in deferred receive path
-         708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe scsi: sr: Reinstate rotational media flag
+         5cb782ff3c62c837e4984b6ae9f5d9a423cd5088 scsi: ufs: mcq: Fix memory allocation checks for SQE and CQE
          
