@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3543325350287776808=="
+Content-Type: multipart/mixed; boundary="===============7622991219171794924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 10 Sep 2025 15:50:43 -0000
-Message-Id: <175751944377.1485858.14837617548469328475@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 15:51:54 -0000
+Message-Id: <175751951400.1486695.5542655976476033987@gitolite.kernel.org>
 
---===============3543325350287776808==
+--===============7622991219171794924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 75e30744b86bbc7dce47b23318ea10c58489a984
+  - ref: refs/heads/next
+    old: be48bcf004f9d0c9207ff21d0edb3b42f253829e
     new: 237183e8ff0f087143837b64a5f246f1bf569e76
-    log: revlist-75e30744b86b-237183e8ff0f.txt
+    log: revlist-be48bcf004f9-237183e8ff0f.txt
 
---===============3543325350287776808==
+--===============7622991219171794924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75e30744b86b-237183e8ff0f.txt
+Content-Disposition: attachment; filename=revlist-be48bcf004f9-237183e8ff0f.txt
 
 f1edb159200ad1ef2fc518c7673cb9559a6f8edd arm64: vgic-v2: Fix guest endianness check in hVHE mode
 85acc29f90e0183997dea27277057c9aec2769aa KVM: arm64: selftest: Add standalone test checking for KVM's own UUID
@@ -1051,4 +1051,4 @@ f777d1112ee597d7f7dd3ca232220873a34ad0c8 Merge tag 'vfs-6.17-rc6.fixes' of git:/
 bd1609fa0404a79d863ed02784342296e7ec2914 KEYS: trusted_tpm1: Use SHA-1 library instead of crypto_shash
 237183e8ff0f087143837b64a5f246f1bf569e76 KEYS: trusted_tpm1: Move private functionality out of public header
 
---===============3543325350287776808==--
+--===============7622991219171794924==--
