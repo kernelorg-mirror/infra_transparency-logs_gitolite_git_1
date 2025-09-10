@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 10 Sep 2025 19:07:50 -0000
-Message-Id: <175753127010.1660984.14351882165826417383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/quilttools
+Date: Wed, 10 Sep 2025 19:10:47 -0000
+Message-Id: <175753144776.1664484.2890000358132635698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/tglx/quilttools
+user: tglx
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: d680c9d268a8016767afa8a0a41c2345c01b1814
-    new: d4a5d397c7fb1ca967e0da202cac196e7324f4ea
+  - ref: refs/heads/master
+    old: dff8a63f77a641f0d848955cfa38e40521236968
+    new: b2cdb780dc28092194a42205cd6f81ed4714204d
     log: |
-         d4a5d397c7fb1ca967e0da202cac196e7324f4ea samples: rust: Add scoped debugfs sample driver
+         b2cdb780dc28092194a42205cd6f81ed4714204d git-to-quilt: Add exporter, which supports notes
          
