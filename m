@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 10 Sep 2025 05:36:35 -0000
-Message-Id: <175748259568.914839.4630894132160613175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Wed, 10 Sep 2025 05:45:07 -0000
+Message-Id: <175748310793.922439.8274658652436391973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/apparmor-fixes
-    old: 1293451ce75a5620e91a34aa13cf95a9abf2f10e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 88e5c7214e5f31d8ed1a5becd88d8f0ea9b8543e
+    new: 04780e75b967bfa762288e47cd0256b552168648
+    log: |
+         04780e75b967bfa762288e47cd0256b552168648 feat(data): TpmRcCast
+         
