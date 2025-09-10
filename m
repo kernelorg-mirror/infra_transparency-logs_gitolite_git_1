@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
-Date: Wed, 10 Sep 2025 20:39:13 -0000
-Message-Id: <175753675321.1737499.14141251831937527082@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 20:39:45 -0000
+Message-Id: <175753678504.1737845.16231403597249482146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/morse/linux
 user: morse
 changes:
-  - ref: refs/heads/mpam/snapshot/v6.17-rc4
+  - ref: refs/heads/mpam/driver/v2
     old: 0000000000000000000000000000000000000000
-    new: 1e5b9e907a3fa515c3745ed2969a1f285dcc03d2
+    new: 072a43fa12969442f64d8b9058a9ee0fde420bb2
