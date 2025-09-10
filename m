@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 10 Sep 2025 16:44:21 -0000
-Message-Id: <175752266177.1532990.10984782507733994978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 10 Sep 2025 16:46:32 -0000
+Message-Id: <175752279282.1535985.6517991837009120599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: cbbe50f9b8502b0b7df899fe81595a9e170065c3
-    new: c69374f3566782cebbafa73665c43f611f53806e
+  - ref: refs/heads/10GbE
+    old: e3c674db356c4303804b2415e7c2b11776cdd8c3
+    new: 78dd8ad62cad4f5af22afc842890d531312bbb8a
     log: |
-         4e4ce1189cb8779c1f9c99e08cd64d022724d83f cve_review: Match on BUG_ON
-         aa1b8d94c6d8a3b2fa4c9421381d42853467ab42 proposed: Add Lee's v6.16.2 results
-         ba7d94cab550af1a7b4e4632796b46d13d15af9c proposed: Add Lee's v6.16.3 results
-         c69374f3566782cebbafa73665c43f611f53806e proposed: Add Lee's v6.16.4 results
+         e0d1c55501d377163eb57feed863777ed1c973ad net: phy: fix phy_uses_state_machine()
+         686cab5a18e443e1d5f2abb17bed45837836425f net: dev_ioctl: take ops lock in hwtstamp lower paths
+         0f82c3ba66c6b2e3cde0f255156a753b108ee9dc macsec: sync features on RTM_NEWLINK
+         648de37416b301f046f62f1b65715c7fa8ebaa67 mptcp: sockopt: make sync_socket_options propagate SOCK_KEEPOPEN
+         7094b84863e5832cb1cd9c4b9d648904775b6bd9 netlink: specs: mptcp: fix if-idx attribute type
+         6f021e95d0828edc8ed104a294594c2f9569383a doc: mptcp: net.mptcp.pm_type is deprecated
+         ef1bd93b3b924086088b7818d9e5d89ede944f1f selftests: mptcp: shellcheck: support v0.11.0
+         78dd8ad62cad4f5af22afc842890d531312bbb8a Merge branch 'mptcp-misc-fixes-for-v6-17-rc6'
          
