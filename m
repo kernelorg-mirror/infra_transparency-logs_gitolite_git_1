@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 10 Sep 2025 14:12:21 -0000
-Message-Id: <175751354135.1382384.2705924976079331108@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 14:13:23 -0000
+Message-Id: <175751360371.1382981.448969001862684015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
-  - ref: refs/heads/0.10.x
-    old: 529f0e675a182595ac4b9d2651c5ff4983c32451
-    new: ee99bf49cc9152b9edb4e57fde21b1d0ab828a9b
+  - ref: refs/heads/main
+    old: cba72de4644be39e34cd869ff067c27f363b6f67
+    new: 5d3c5bf6e66b16b6954d442a5669f914ac8d8a47
     log: |
-         ee99bf49cc9152b9edb4e57fde21b1d0ab828a9b refactor: simplify dispatch
+         5d3c5bf6e66b16b6954d442a5669f914ac8d8a47 refactor(error): rename Unreachable as Failure
          
