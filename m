@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5518579671939641644=="
+Content-Type: multipart/mixed; boundary="===============5748215037794136303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 10 Sep 2025 03:02:31 -0000
-Message-Id: <175747335137.784679.4320794196665868031@gitolite.kernel.org>
+Date: Wed, 10 Sep 2025 03:02:36 -0000
+Message-Id: <175747335633.784914.16614693863025524035@gitolite.kernel.org>
 
---===============5518579671939641644==
+--===============5748215037794136303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 623eaede4890f1ae29c2ed8b06a92d222d87a804
-    new: e69477821c10df3a248df61409123e09a13a566a
+  - ref: refs/heads/6.18/scsi-queue
+    old: d6477ee38ccfbeaed885733c13f41d9076e2f94a
+    new: b620462bba6655b47d127db70d18123c7af522d4
     log: |
          6d55af0f0740bf3d77943425fdafb77dc0fa6bb9 scsi: ufs: exynos: fsd: Gate ref_clk and put UFS device in reset on suspend
          b5f717b31b5e478398740db8aee2ecbc4dd72bf3 scsi: sd: Fix build warning in sd_revalidate_disk()
@@ -31,33 +31,33 @@ changes:
          b620462bba6655b47d127db70d18123c7af522d4 scsi: ufs: core: Move the tracing enumeration types into a new file
          
 
---===============5518579671939641644==
+--===============5748215037794136303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1757473383 -0400
+pusher 75C5DE3D 1757473405 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1757473331-545f3b5f57fe8cd754456cf70151654c48f16e97
+nonce 1757473354-de05356acf1f293b4428daf92d59eb29c2671e6d
 
-623eaede4890f1ae29c2ed8b06a92d222d87a804 e69477821c10df3a248df61409123e09a13a566a refs/tags/mkp-scsi-queue
+d6477ee38ccfbeaed885733c13f41d9076e2f94a b620462bba6655b47d127db70d18123c7af522d4 refs/heads/6.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjA6mcACgkQ7ulgGnXF
-3j2/9A//VFpACGzZq2PvuHLxNrHgHDSem3pWir5fBA7DSsGo5bJ9ZigBF4v9YNBF
-CjChwbp5S0i+gr0kuye+PIVfUixjmxZCLWwNz35nrPa2aMeET6q9isdA21MxlOdK
-IMU6A4LfB3pXgy4OSl3u54tyqXANa5gze8vTFZ49geCQimX1ZgjsJbWOHeApUkB9
-JXI2YhWGLVHK7RHksBLG5Wg0I2vl3TsbkgB+xEx6FbGpqgMLUG0UCj0SQ07VoaHZ
-P73kAQ+D2NgFvWb/nvkR06C2ZXvqECyIL/LGAq3QIw+SOrZwLmA0VvCjRNkCREsX
-gEw+gkdIVYE/WUw+6xiGEzdh2Aw0ieXknhEb086uAL+Txs/I81Of24vJCahOlCiu
-goAHSRV5AstPv5IOWdRh1LNjOQserNkcOzAXiqvauzQVbP0FWeA3ox9XQjFeTInB
-Gywq/5XtvsgQ6EKEi1sc4sHy39vfjeEM2PiqXPKbwfGpqczObHE9+lJtV4YNj/K/
-WBhD7YzTO+0qw7futjTsJQspm91rwzKMb0/Y+a67ZVU6U6UL4+2MYQNTJW5rPB/c
-yLwc6qUss9vaOAWg+dDtwRWCf61lToIRiBkQxkI3I4OU9FiLWfFX8X8VUFyTkwty
-3Iatm7GmbYdlweGgk+y5ARsRfTZYLUMPlZeew3IRkxAOBMKjnhY=
-=gej8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjA6n4ACgkQ7ulgGnXF
+3j1+qA//VeObqStlmJbDaGTgFBwa4wRMIePRwtRflG2CYrGYLnz7vHS2LkP6pb+j
+PZe4jW+irENZuUS45LAPRtylmxtODHpL8mu+rPMjzOLVC/7uaqu7TspiMCELAP8E
+5OXuMis1mqVtUM1faR3thdpHfR5Q7jqplSrvM9WkvX/3d1oyul/Pi0L96QT2s6XF
+mQj0p9wUEzey2miyYanOQqDVsuD9n4vnuW+eww/JcYMm1YzZfoFrR3PyrUUyCyJK
+HCQClcfwGoe+dEG6nIn3Yg1krJM7sJJCaDo0nMdTyGB5fzBs1x0IdsV0j2WwMEsj
+djWNZ0djQg23l1aWGyIdMyNrR7iFAAj32XvyjXD2UbNN9nDnrJbNMdkpRFo92ofh
+vxfhuPDQNXEZpfufMvO+kxXLBRTyE70hTDM5hJHw0Tdbp1+cdo5TbnV5UKp3dhyS
+cXXlkhYb0r6NxjjBGaJ7wOMvyCNbZczsk9WU9NUPo81j5KhCZh3WgDohz1h+Yn+9
+XDntEBfPrDmihkoEuTUG5gzVMQd2nc1NMIlvajcKX+f1YeJQ25rOgwMXw2zfj4OB
+tyBNwnR9nmK0PflYoLQPBRQjyMFT/RRPY9VaTUjc6PIUje0HmrXjfn6VIBp6ngzF
+zbrOSYElppbjBDY4HCTawYaMdoxX+P/g4oOHQ33MVsLIGKIrzZA=
+=eol4
 -----END PGP SIGNATURE-----
 
---===============5518579671939641644==--
+--===============5748215037794136303==--
