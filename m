@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 10 Sep 2025 07:18:57 -0000
-Message-Id: <175748873733.1001612.7656489195325461959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Wed, 10 Sep 2025 07:19:25 -0000
+Message-Id: <175748876539.1002593.7934203625153695345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/hack/ppi-3
-    old: 72532596a70cb22b1b21df1cdddeb76e68123ba0
-    new: effcbaa1afd83e97cedffaf33347398dbd9be41f
+  - ref: refs/heads/main
+    old: 04780e75b967bfa762288e47cd0256b552168648
+    new: 5e531e09f21e3e18f7955c461f00cbbd36557c9f
     log: |
-         effcbaa1afd83e97cedffaf33347398dbd9be41f fixup! genirq: Allow per-cpu interrupt sharing for non-overlapping affinities
+         5e531e09f21e3e18f7955c461f00cbbd36557c9f fix(buffer): fix TpmBufferCast validation
          
