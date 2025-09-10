@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 10 Sep 2025 18:17:46 -0000
-Message-Id: <175752826659.1615624.4160413371230137111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 10 Sep 2025 18:23:55 -0000
+Message-Id: <175752863597.1620311.16528662290292937075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/tags/nf-25-09-10
-    old: 0000000000000000000000000000000000000000
-    new: a9b28650b0d58abe5d7b948a6cc88e4487227cb8
+  - ref: refs/heads/fixes-base
+    old: 6300d5c5438724c0876828da2f6e2c1a661871fc
+    new: 708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe
+    log: |
+         9dba9a45c348e8460da97c450cddf70b2056deb3 scsi: lpfc: Fix buffer free/clear order in deferred receive path
+         708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe scsi: sr: Reinstate rotational media flag
+         
