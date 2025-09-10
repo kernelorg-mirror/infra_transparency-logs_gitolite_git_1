@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Sep 2025 15:23:46 -0000
-Message-Id: <175751782641.1443027.1565980320217900279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 10 Sep 2025 15:30:51 -0000
+Message-Id: <175751825113.1450526.11157194624798600400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/x86/sev
-    old: 26a9f90b6101ea2c9d6f02802cf6d85108104b90
-    new: 8d73829b78ca1a0e6eb93380f3bf5193d58c281c
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 5fe50568f244de58e4eeaa535506cc0ca6d16310
+    new: 0e96df9bf091df1d4525860314410c64fa635fc9
     log: |
-         8d73829b78ca1a0e6eb93380f3bf5193d58c281c x86/startup/sev: Document the CPUID flow in the boot #VC handler
+         0e96df9bf091df1d4525860314410c64fa635fc9 arm64: dts: renesas: rzg3s-smarc-som: Fix Ethernet aliases
          
