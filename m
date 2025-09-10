@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 10 Sep 2025 14:09:15 -0000
-Message-Id: <175751335511.1378664.14524855894542838373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 10 Sep 2025 14:11:09 -0000
+Message-Id: <175751346997.1381422.4932613127394440598@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: daa6c8134ac9de3472fcdee701c0ccea3b95709d
-    new: 2f4022f42dd3ffd32cc9b110e4c8fc307e6dd7d6
+  - ref: refs/heads/fixes
+    old: 131897c65e2b86cf14bec7379f44aa8fbb407526
+    new: 181993bb0d626cf88cc803f4356ce5c5abe86278
     log: |
-         2f4022f42dd3ffd32cc9b110e4c8fc307e6dd7d6 refactor: simplify dispatch
+         181993bb0d626cf88cc803f4356ce5c5abe86278 erofs: fix runtime warning on truncate_folio_batch_exceptionals()
          
