@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3729285110528899634=="
+Content-Type: multipart/mixed; boundary="===============0013923293306850139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 10 Sep 2025 07:16:11 -0000
-Message-Id: <175748857131.999928.15078995290882692840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 10 Sep 2025 07:16:23 -0000
+Message-Id: <175748858331.1000328.8786363694787819798@gitolite.kernel.org>
 
---===============3729285110528899634==
+--===============0013923293306850139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 65dd046ef55861190ecde44c6d9fcde54b9fb77d
     new: 5f540c4aade9f1d58fb7b9490b4b7d5214ec9746
     log: revlist-65dd046ef558-5f540c4aade9.txt
-  - ref: refs/heads/stable
-    old: f777d1112ee597d7f7dd3ca232220873a34ad0c8
-    new: 9dd1835ecda5b96ac88c166f4a87386f3e727bd9
-    log: |
-         7e2368a21741e2db542330b32aa6fdd8908e7cff dma-debug: don't enforce dma mapping check on noncoherent allocations
-         9dd1835ecda5b96ac88c166f4a87386f3e727bd9 Merge tag 'dma-mapping-6.17-2025-09-09' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
-         
-  - ref: refs/tags/next-20250610
-    old: 9a3b1b1b837c4085ada0e47dc46b399ea4eb80f0
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250910
     old: 0000000000000000000000000000000000000000
     new: 0c73257677576a103139866657ffea304020ff74
 
---===============3729285110528899634==
+--===============0013923293306850139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ e2310589c5bf87a83e0342d8a5a2d5ac5583471a Merge branch 'crc-next' of https://git.
 40a65ff0f5064d862f8e4f3b413b2e0b6d8d8e73 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 5f540c4aade9f1d58fb7b9490b4b7d5214ec9746 Add linux-next specific files for 20250910
 
---===============3729285110528899634==--
+--===============0013923293306850139==--
