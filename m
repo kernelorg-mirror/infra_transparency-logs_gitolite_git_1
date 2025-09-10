@@ -1,19 +1,70 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 10 Sep 2025 11:06:41 -0000
-Message-Id: <175750240110.1219583.8865039527073438958@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5767478144485516102=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 10 Sep 2025 11:19:27 -0000
+Message-Id: <175750316710.1229458.15187198004556266135@gitolite.kernel.org>
+
+--===============5767478144485516102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
+  - ref: refs/heads/for-next
+    old: 7095d688de38de197c408f8904cf1c1d8b257dae
+    new: 3c30d57544bf91d6adaf3cab8474194e4c4404bc
+    log: revlist-7095d688de38-3c30d57544bf.txt
   - ref: refs/heads/master
-    old: 6de1e5fb38b714bf2a66bc764c74af70ad8709b3
-    new: 464e448debff042f6997c0f76b44af88b80d8d06
-    log: |
-         464e448debff042f6997c0f76b44af88b80d8d06 Fixes for all trees
-         
+    old: 74423aed9d7db520f788fc5dcdb0e0a035e0b28f
+    new: 5b81417c6c2ec40824d844b7e70e86698bf2fdb4
+    log: revlist-74423aed9d7d-5b81417c6c2e.txt
+
+--===============5767478144485516102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7095d688de38-3c30d57544bf.txt
+
+207cd1de01e398cd3d9a270bb78f8ca9388267d8 ALSA: aoa: Use guard() for spin locks
+56100eed4f1dbe689b759064dd7d2d5b3604c80c ALSA: aoa: Don't split string across lines
+2d7d8e0fa54617a31b840a62541afe9669f38d38 ALSA: arm: Use guard() for spin locks
+f5bf18b076a685a7529dd61e31fc7f9904f5ac56 ALSA: sgio2audio: Use guard() for spin locks
+b10b93d1930b1db77df70157efd68695ecaf8c9d ALSA: snd-n64: Use guard() for spin locks
+f1998e16b2566514b31a98bad6950ea96042c465 ALSA: parisc: Use guard() for spin locks
+97bffca637975c6025b5bc5a3bf9926cc6985eab ALSA: snd_ps3: Use guard() for spin locks
+d20cce1ca598231367c05a55e674d243612f3353 ALSA: ppc: Use guard() for spin locks
+bdcdb4e7aa410122baa3496b93e7850dc20a90fa ALSA: line6: Use guard() for spin locks
+d5323227325696b6458eae3cf84705f5caa595fb ALSA: usb: fcp: Use guard() for spin locks
+02d0aba676ee07481a613a032897528247d31d34 ALSA: usb-audio: Use guard() for spin locks
+4c680628ad09027d5f1b2ba8393da680e2256570 ALSA: sparc/amd7930: Use guard() for spin locks
+4baca4bf866c32ab8a3d67e1ad10aa35d93ae134 ALSA: sparc/cs4231: Use guard() for spin locks
+3c30d57544bf91d6adaf3cab8474194e4c4404bc ALSA: sparc/dbri: Use guard() for spin locks
+
+--===============5767478144485516102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74423aed9d7d-5b81417c6c2e.txt
+
+207cd1de01e398cd3d9a270bb78f8ca9388267d8 ALSA: aoa: Use guard() for spin locks
+56100eed4f1dbe689b759064dd7d2d5b3604c80c ALSA: aoa: Don't split string across lines
+2d7d8e0fa54617a31b840a62541afe9669f38d38 ALSA: arm: Use guard() for spin locks
+f5bf18b076a685a7529dd61e31fc7f9904f5ac56 ALSA: sgio2audio: Use guard() for spin locks
+b10b93d1930b1db77df70157efd68695ecaf8c9d ALSA: snd-n64: Use guard() for spin locks
+f1998e16b2566514b31a98bad6950ea96042c465 ALSA: parisc: Use guard() for spin locks
+97bffca637975c6025b5bc5a3bf9926cc6985eab ALSA: snd_ps3: Use guard() for spin locks
+d20cce1ca598231367c05a55e674d243612f3353 ALSA: ppc: Use guard() for spin locks
+bdcdb4e7aa410122baa3496b93e7850dc20a90fa ALSA: line6: Use guard() for spin locks
+d5323227325696b6458eae3cf84705f5caa595fb ALSA: usb: fcp: Use guard() for spin locks
+02d0aba676ee07481a613a032897528247d31d34 ALSA: usb-audio: Use guard() for spin locks
+4c680628ad09027d5f1b2ba8393da680e2256570 ALSA: sparc/amd7930: Use guard() for spin locks
+4baca4bf866c32ab8a3d67e1ad10aa35d93ae134 ALSA: sparc/cs4231: Use guard() for spin locks
+3c30d57544bf91d6adaf3cab8474194e4c4404bc ALSA: sparc/dbri: Use guard() for spin locks
+5b81417c6c2ec40824d844b7e70e86698bf2fdb4 Merge branch 'for-next'
+
+--===============5767478144485516102==--
