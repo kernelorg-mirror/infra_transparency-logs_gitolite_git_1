@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2733525432688893110=="
+Content-Type: multipart/mixed; boundary="===============1494657281624530363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 11 Sep 2025 11:19:26 -0000
-Message-Id: <175758956681.2540873.2665872980570490394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 11 Sep 2025 11:19:40 -0000
+Message-Id: <175758958068.2541195.10681631907692943897@gitolite.kernel.org>
 
---===============2733525432688893110==
+--===============1494657281624530363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 1e5881b168b94871fecd4603633a5fe6a519cbbf
     log: revlist-75a7b9d29215-1e5881b168b9.txt
 
---===============2733525432688893110==
+--===============1494657281624530363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -629,4 +629,4 @@ edf93f2a24de5791bfaa15d82794e38e97c9498c perf docs: Update SPE doc to include de
 7eabedef445a15d39feef1ff094b659327591140 perf annotate: Factor out annotate_browser__show_function_title()
 1e5881b168b94871fecd4603633a5fe6a519cbbf perf annotate: Fix title line after return from call
 
---===============2733525432688893110==--
+--===============1494657281624530363==--
