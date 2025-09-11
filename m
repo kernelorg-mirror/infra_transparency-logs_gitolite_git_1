@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============4732060768188952890=="
+Content-Type: multipart/mixed; boundary="===============8243908886794065888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Thu, 11 Sep 2025 06:52:14 -0000
-Message-Id: <175757353471.2259933.12942787433238991134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Thu, 11 Sep 2025 06:53:50 -0000
+Message-Id: <175757363021.2260756.6402700813005678781@gitolite.kernel.org>
 
---===============4732060768188952890==
+--===============8243908886794065888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 9c600589e14f5fc01b8be9a5d0ad1f094b8b304b
-    new: c3f8d13357deab1e04f8a52b499d6b9b704e578e
+    old: 6f4f8abad4f2e4f679d88eae04dcb69b2ad7bd14
+    new: 1b2e9feb351435299863b5e7ebeb02634381c883
     log: |
-         c3f8d13357deab1e04f8a52b499d6b9b704e578e wifi: nl80211: completely disable per-link stats for now
+         1b2e9feb351435299863b5e7ebeb02634381c883 wifi: mwifiex: fix endianness handling in mwifiex_send_rgpower_table
          
 
---===============4732060768188952890==
+--===============8243908886794065888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1757573554 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1757573503-c5b518c2af5a63c65e33013d54accd78c04bf612
+pusher 7BF9099A 1757573652 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1757573601-91a716e0904ffc97d0c173bc55501265fead7d82
 
-9c600589e14f5fc01b8be9a5d0ad1f094b8b304b c3f8d13357deab1e04f8a52b499d6b9b704e578e refs/heads/main
+6f4f8abad4f2e4f679d88eae04dcb69b2ad7bd14 1b2e9feb351435299863b5e7ebeb02634381c883 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmjCcbIACgkQ10qiO8sP
-aACLAhAAkaPbzZohN9/r8dhtWzK7tDVrO4NvAuKj2hmiKTKLyrkrxp9EfSNf3NfF
-SbTwVi3H4Fg7pqFO8bTRZha9TgEbouIdSdFZqSn7TB7UnPbz5l7CCc2RBVe+Q9U5
-7aD0fjqnMrZjkACfGx5hKMtN3avCF0wuaHxdctBFv3e2C4GV0sBZ5b+6PcLb5aPz
-Fk+XkivDU4su+MV43Q0Ee6BF5m30CoavDmTPZXK8wcb+V4X5kISl7hMRvbrguy2Y
-As/GzqRa9xRzITZZe2U2xxpiH/o9qBPKMrCExsLRZLkE71b5xzaFWl3LQgr04wqE
-WrWNMxFv3rlyOPf/N5Peev7QTP3+NMXv7K/1gE4ND2bu6w7jcyIlaPvz4cAlEh2O
-yBBD06DCxV9fW4Dk+7kIG0TgDQ3TPMuazwkcSQOo3MH3T1UjdfsUExuOpDq/n9tR
-duRLW2JNqTcoQhbODw5vyqUwmPPjeG4KF63qB3dYuYiGBk7L350x1n/TnYQVNFAG
-64jNwc9LHoh+V1BYYAxbkNXmYvtR7A9kq6cV2Pj2Eb1w3iIQDy/kU0D76FMB8ztA
-VHvGbw9yj9RJHlpyzE0//5HEE3nW9Hg4SbnAzKdfPxo+NDxixEoCJcdhkbjPhWzP
-jQfGnIKrwsB3rvxZkLcFzNAjvBVC667L1R6JsFcHVFKH43f1WmQ=
-=fQy+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmjCchQACgkQ10qiO8sP
+aADasQ/+PKonU3wL9vyG4MtD7sqTs/r6wKmqd8jH4f+ESIxX8EfJiXSJ+SsKkhK4
+FAV60+o6E+LMgZIl9QW9mEk/F3iYJg5IrvvMf74eeZmacpLhMN1O1Poulfo0HEWl
+bG/xk3FsfB5s9KdvHOcDd8IRCIRfgOKMKCVoqK35yyJ9uFT+LfnhDtmecg9+gLOI
+9hUfihtIuR70WYS0puVwJsDejaZizf21tBeMLkrKr0ZTOpPFjN09FgEP2JtHCZCa
+RKyTtyWK8WOc0iX6l8NcrE6Tmge113LmyMJ8zMHDrshl2tERwsfQ5J+GxwGv1p6t
+H8yAI1TNcFEHTq9HEOVe9fOP8kNsgLf0T/H1PaL7jWU/UERDyLu8wv5EtFKOQ8Uh
+suHNM1OU3UKIMxxh9KT2dR0XkXQfxY+wu29H9JGcYDexmfwoFYaX6FjF6wJm3Zwa
+wx7WCcOv48ufy8U3iER94pliGIfLQmbate8aGWGNp2Zbe/P8SO0AevpSESVcF/72
+KMfR6AGS+qHSG6mE9cy1CKZSOxHGE+Tqm/VpVATaSuqL3ZiOjMQ4KxDZNFMugc9z
+6a4RZKemVi9MZMFFMog+o3eBq7V/hD/Yc/xB0q8YyawnubizEqJJpzf1Yifkdean
+/0XuuDCR1FW5AAcl/StD3GJXAsQt5qoWHQrHRCqTzZKP+1GFN8M=
+=DkSk
 -----END PGP SIGNATURE-----
 
---===============4732060768188952890==--
+--===============8243908886794065888==--
