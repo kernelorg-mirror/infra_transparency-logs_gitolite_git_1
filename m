@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 11 Sep 2025 19:38:49 -0000
-Message-Id: <175761952932.3173184.8911102670612615679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 11 Sep 2025 19:45:03 -0000
+Message-Id: <175761990313.3179501.6944929983576599860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/experimental
-    old: 9083534ac80772a1e8f7ff054a7b3a32f6b6100b
-    new: 228e1b62129cd011431fc14ccd1465884eb5e78f
+  - ref: refs/heads/master
+    old: 441f95a9c146bcace5023847ff9fbe39eaf44716
+    new: befdacd236c3a761d766da9f95bd7763cd216425
     log: |
-         9d62407114fbdcfe9fcbb3ddfca401d32900803c erofs-utils: mkfs: correct sb_size if metabox is on
-         ec0ae531ade80fc5f4d19678554d78a85fdc9596 erofs-utils: add NBD-backed OCI image mounting
-         4ca4bf6e7bbdb8bba07d6e58e20918941b3f05f6 erofs-utils: mount: add OCI recovery support for NBD reattach
-         7c7383af92fc52f2340ae77b8ab9731a709cde74 erofs-utils: fix memory leaks and allocation issue
-         228e1b62129cd011431fc14ccd1465884eb5e78f erofs-utils: mkfs: fix location of xattr long prefixes
+         a887b1a1b91fcb7fc1ddc052cafe1818230d97db audio: Add support for specific error codes for A2DP configuration
+         befdacd236c3a761d766da9f95bd7763cd216425 doc: Document error codes for A2DP MediaEndpoints
          
