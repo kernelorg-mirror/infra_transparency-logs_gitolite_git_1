@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 11 Sep 2025 09:07:32 -0000
-Message-Id: <175758165278.2425962.3979576445116008729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 11 Sep 2025 09:22:59 -0000
+Message-Id: <175758257954.2438233.15850282275082524727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 1f24a240974589ce42f70502ccb3ff3f5189d69a
-    new: db1b6006668623b46a3f6b3fe6b5f030e4c60a42
+  - ref: refs/heads/stable/v2.41
+    old: 31dbe00bb620ceedbcbb128ef05f107622dfba75
+    new: 913cc9393cdc91d10d2e8f37b6c31ea30b588528
     log: |
-         db1b6006668623b46a3f6b3fe6b5f030e4c60a42 selftests: net: Add tests to verify team driver option set and get.
+         913cc9393cdc91d10d2e8f37b6c31ea30b588528 build-sys: update release dates
          
+  - ref: refs/tags/v2.41.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 473bb9611b7408fd25c2f04375c84c46186cf311
