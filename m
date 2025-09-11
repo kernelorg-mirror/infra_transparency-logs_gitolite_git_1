@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2431154460643176284=="
+Content-Type: multipart/mixed; boundary="===============2056456523623662538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 11 Sep 2025 17:57:03 -0000
-Message-Id: <175761342364.3085968.17631480888525997555@gitolite.kernel.org>
+Date: Thu, 11 Sep 2025 17:57:06 -0000
+Message-Id: <175761342615.3086140.11154224941895881235@gitolite.kernel.org>
 
---===============2431154460643176284==
+--===============2056456523623662538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 78dd8ad62cad4f5af22afc842890d531312bbb8a
     new: 63a796558bc22ec699e4193d5c75534757ddf2e6
     log: revlist-78dd8ad62cad-63a796558bc2.txt
 
---===============2431154460643176284==
+--===============2056456523623662538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ c3f8d13357deab1e04f8a52b499d6b9b704e578e wifi: nl80211: completely disable per-l
 62e1de1d3352d4c64ebc0335a01186f421cbe6e7 Merge tag 'wireless-2025-09-11' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 63a796558bc22ec699e4193d5c75534757ddf2e6 Revert "net: usb: asix: ax88772: drop phylink use in PM to avoid MDIO runtime PM wakeups"
 
---===============2431154460643176284==--
+--===============2056456523623662538==--
