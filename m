@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3482660395046214257=="
+Content-Type: multipart/mixed; boundary="===============0473339309305259568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 11 Sep 2025 18:13:15 -0000
-Message-Id: <175761439530.3100538.7244588942594030244@gitolite.kernel.org>
+Date: Thu, 11 Sep 2025 18:13:19 -0000
+Message-Id: <175761439974.3100705.7546227834552815496@gitolite.kernel.org>
 
---===============3482660395046214257==
+--===============0473339309305259568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: deb105f49879dd50d595f7f55207d6e74dec34e6
     new: 5adf6f2b9972dbb69f4dd11bae52ba251c64ecb7
     log: revlist-deb105f49879-5adf6f2b9972.txt
 
---===============3482660395046214257==
+--===============0473339309305259568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ c068ba9d3ded56cb1ba4d5135ee84bf8039bd563 selftests: traceroute: Return correct v
 f7240999deb45f15c37b357852be2da23c2ea2d3 selftests: traceroute: Add VRF tests
 5adf6f2b9972dbb69f4dd11bae52ba251c64ecb7 Merge branch 'ipv4-icmp-fix-source-ip-derivation-in-presence-of-vrfs'
 
---===============3482660395046214257==--
+--===============0473339309305259568==--
