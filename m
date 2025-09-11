@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 11 Sep 2025 14:29:16 -0000
-Message-Id: <175760095681.2743208.6887534401269317918@gitolite.kernel.org>
+Date: Thu, 11 Sep 2025 14:29:26 -0000
+Message-Id: <175760096699.2743497.4592949807595967382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath12k-ng
-    old: d637c58a29475d646f8decfbbc1d27fae999a449
+  - ref: refs/heads/pending-ath12k-ng
+    old: 93ccbd4a1d65cd44a7ae1dd0b2dab0c9e19bdeb7
     new: 972f34d54015a4a16aa9e6a081bafabb6f9bf95c
     log: |
          00139e4d7baf41e05b907846dbc53829421bb1fc wifi: ath12k: Remove non-compact TLV support from QCN
