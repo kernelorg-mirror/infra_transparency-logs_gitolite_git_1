@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3568301729560693575=="
+Content-Type: multipart/mixed; boundary="===============6870350422402609142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 11 Sep 2025 15:17:48 -0000
-Message-Id: <175760386834.2841170.9511379956592719495@gitolite.kernel.org>
+Date: Thu, 11 Sep 2025 15:17:51 -0000
+Message-Id: <175760387135.2841323.14719013459659877707@gitolite.kernel.org>
 
---===============3568301729560693575==
+--===============6870350422402609142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: de9476bb4f1bf28eba6d8ca55f934f94a39e31f8
-    new: 43bb85222e53926decace01ce6584ca88e09a0a9
-    log: |
-         a4fff4e5c054bbbba0d1924f13306f1c2358133d Documentation/hw-vuln: Add VMSCAPE documentation
-         f2ed886bb650423b5a1e0478f5d4349fdc576d7f x86/vmscape: Enumerate VMSCAPE bug
-         d5490dfa35427a2967e00a4c7a1b95fdbc8ede34 x86/vmscape: Add conditional IBPB mitigation
-         2f4f2f8f860cb4c3336a7435ebe8dcfded0c9c6e x86/vmscape: Enable the mitigation
-         1cd71b057f0528bcaececa93611e3f6165fb0685 x86/bugs: Move cpu_bugs_smt_update() down
-         79ec330d124e12671aa15a0fe9eb5b93a5db07a6 x86/vmscape: Warn when STIBP is disabled with SMT
-         70de678302a8314e131f23ac1f9efaba64765bd5 x86/vmscape: Add old Intel CPUs to affected list
-         43bb85222e53926decace01ce6584ca88e09a0a9 Linux 5.15.193
-         
+  - ref: refs/tags/v5.15.193
+    old: 0000000000000000000000000000000000000000
+    new: 879cd396a98acd21405ef8b4d90607675f826702
 
---===============3568301729560693575==
+--===============6870350422402609142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757603918 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757603922 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1757603866-3cae3a5615993d277cb0acb58e9c4904eb508427
+nonce 1757603869-eca6d06429ef85e045cb1225caad1ae57f9600af
 
-de9476bb4f1bf28eba6d8ca55f934f94a39e31f8 43bb85222e53926decace01ce6584ca88e09a0a9 refs/heads/linux-5.15.y
+0000000000000000000000000000000000000000 879cd396a98acd21405ef8b4d90607675f826702 refs/tags/v5.15.193
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjC6E8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U94P/iEe5xrV5xnucT05q0ke
-K1d+bZD96GLEtwMl+nsu+I9Z94AcJhSjCKE3DOkSXzvPj2UEwVYYPqownJLlfp7C
-LdOhnJEb4qmKhOAFn4gpbBOPIVU2vQR4LSng8+iaKc1uc7QrYv5+UxFivJJj0KXV
-kT7RcME1892TwzE3c0byKiwAsIyd6NSSO2dJf6RHlzQqJOU3RuxOq77WrmMo6wVK
-6UMNf6KrL2fInsqlrVpOW3HS0uhHp4q8g2gbE6TpwbZHgvo3bYqdErA+IxZZkAsk
-u6uXvtOIw/PoYQeKXVxcKZoQM/yYm0x7n8q9KRQfPa9DdcuHxfmniI2VVRkFcgU2
-XcnW3+KOHIK2c8j6V7MBQHDBMI1A1OJgMTG/+bstQlEQ0ke5VuKsDKEqDjMrfS9j
-wTrr3xs10IF6d2R6J+evy8K30ZHZEy5H2wcaCi4eJIfvhUVUEPQW/iqkDaTtcuzw
-aR6vvAxUVkHRic7szCDXFC94l1WCwQ7YyW36Jbb8ja6zx+AHAPc1jWgOLgyUgJ+u
-Webq3quSG5RTA1lxSXhsWotmYIkc1yZcM+BdzsvrDHSMEc+rvSoZVspqfGEncXEi
-iuqLlaQgJKR+6yA6TlY4V0r3zSe2oO/cX0iVmaiDsTDl3KLN19Xv1HJJMsOrYT3a
-v6ftyKZyxaWe7msaOWCj6AgB
-=WHez
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjC6FIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jx0P/RD1UqDyfWSnSfFJzDj1
+9ASaDpqSbIuZZpWnebve6sApLz2kHZ0nEl3vcj1xfHkTL99uNXaufTBa/WtSi0CG
+n1RrlIXY7h+RlTHwhNmJE2nuCekEP+HPBA/5F0hDTxH0Iu/C2Ik2GWcZn9dyzpFV
+jgHa/AmWSGNUAyTmvagqD/Clg4CKb/9XjzWIZU94OZkQFS9bM4yotp7W1e7PWKSw
+Lbl0Z5FMnIZxJxNLslZaYEZnN9rMKUoZh/R1ohl/FlHpA/tEYZt5QoCEhIPh3eUd
+UXUjGdJaEmXoimDIngtkgTv+0ejzx4FSThw+Z6sJyeoa78V4OhNNLAopl9ywRE4F
+IclfBsb5gs0LrrYNgAmgrznyMSKqfmyIGhY9I+fRXdYTj4BHP2CA0IIZmlv+sc51
+dRMIxf3SlK41s3uyPWN++6TCMR6vqhkpvhgEBChd9UswxmTTz467ZF7AbzSj/3Bu
+su06/gbwbaQoh4RiN9yoE+T6yH8fL36Vjqaw+MWRXofYTtrT+OvYJonWO/e1EGVk
+OPh4RagTjUd8at1nF3hIRhUa8tx08JQMT9lOC6nVDlAY7y/386NvvLMdEZLvMFA7
+wolQ8+08n4eX9JNMGQAxwu45CkuEup5j8AEhu4qx+Q9vv+7ZlaaaSBNeNtbtmUWw
+Czh8X40Yc93hHh/T/mPinRJx
+=oPYo
 -----END PGP SIGNATURE-----
 
---===============3568301729560693575==--
+--===============6870350422402609142==--
