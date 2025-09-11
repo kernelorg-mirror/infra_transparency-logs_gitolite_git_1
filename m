@@ -1,48 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8858851280057953542=="
+Content-Type: multipart/mixed; boundary="===============3848564374387733077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Thu, 11 Sep 2025 16:40:04 -0000
-Message-Id: <175760880435.3017804.330573994226303064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Thu, 11 Sep 2025 16:46:11 -0000
+Message-Id: <175760917166.3022807.11532769929161078438@gitolite.kernel.org>
 
---===============8858851280057953542==
+--===============3848564374387733077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/maint
-    old: a5da316e5b54e12da000c60191c6220692c00f0f
-    new: 4b02eb164221c079b428566499343af2766c2ec3
-    log: revlist-a5da316e5b54-4b02eb164221.txt
-  - ref: refs/heads/pristine-tar
-    old: cad730dd6a5c827441fba03e18af4c9aebac9822
-    new: 34172d14fad3977b039b2771d6d3c2fd5e0c134c
-    log: |
-         34172d14fad3977b039b2771d6d3c2fd5e0c134c pristine-tar data for e2fsprogs_1.47.3.orig.tar.gz
-         
+  - ref: refs/heads/main
+    old: 3a1a66d124547f2a4896bf346a33ebe6eb301bf4
+    new: 63a796558bc22ec699e4193d5c75534757ddf2e6
+    log: revlist-3a1a66d12454-63a796558bc2.txt
 
---===============8858851280057953542==
+--===============3848564374387733077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5da316e5b54-4b02eb164221.txt
+Content-Disposition: attachment; filename=revlist-3a1a66d12454-63a796558bc2.txt
 
-53136b205486590aa035a02d7aaab63f12cfbc22 mke2fs: don't print warnings about dax to stderr
-bc1279f60fde251991030d3aaec7711d2c6eb4b0 fuse2fs: fix readlink failure
-6d6f7b7a1fba4cda551ab8851bc5172457bd3f13 fuse2fs: fix various problems in get_req_groups
-6c6ce2d0c3cb7365c7ebe3457bcbc0e3874fe600 fuse2fs: allow O_APPEND and O_TRUNC opens
-10684aec06a156122da67a7c58332dd00aacac8c fuse2fs: don't let ENOENT escape from ioctl_fitrim
-a78c7ad99ee036218762a69e7736e2e5163cf8ac fuse2fs: don't run fallible operations in op_init
-5aba0ce6aa6f586e8bbd698a8e9fbe1644bebb48 fuse2fs: check for recorded fs errors before touching things
-a441dd7b5e0a644d6bc51ac6f9d281d22162e5de fuse2fs: interpret error codes in remove_ea_inodes correctly
-23a04c82973bb94c20a02e565699ae47ce333038 fuse2fs: don't write inode when inactivation fails
-33f8c42e0c3b3fb3d6f6654bdd616865d9832dae fuse2fs: set EXT2_ERROR_FS when recording errors
-b646a80722c0a1412377f854d75538f9a022f949 fuse2fs: disable fallocate/zero range on indirect files
-4b02eb164221c079b428566499343af2766c2ec3 libext2fs: relock CACHE_MTX after calling ->write_error
+4b66d18918f8e4d85e51974a9e3ce9abad5c7c3d wifi: ath12k: Fix missing station power save configuration
+82e2be57d544ff9ad4696c85600827b39be8ce9e wifi: ath12k: fix WMI TLV header misalignment
+2682e7a317504a9d81cbb397249d4299e84dfadd wifi: iwlwifi: fix 130/1030 configs
+bda605962c0798617172eb17348a43002e3595b7 Merge tag 'ath-current-20250909' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+a814c36cc6738ae61a4bcda6d948935a6da51ae1 Merge tag 'iwlwifi-fixes-2025-09-09' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+8cc71fc3b82b51e155fbe20876b1aa17a315ac4c wifi: cfg80211: Fix "no buffer space available" error in nl80211_get_station() for MLO
+9c600589e14f5fc01b8be9a5d0ad1f094b8b304b wifi: virt_wifi: Fix page fault on connect
+c3f8d13357deab1e04f8a52b499d6b9b704e578e wifi: nl80211: completely disable per-link stats for now
+8884c693991333ae065830554b9b0c96590b1bb2 hsr: use rtnl lock when iterating over ports
+393c841fe4333cdd856d0ca37b066d72746cfaa6 hsr: use hsr_for_each_port_rtnl in hsr_port_get_hsr
+847748fc66d08a89135a74e29362a66ba4e3ab15 hsr: hold rcu and dev lock for hsr_get_port_ndev
+9b1fbd3539698e56b2616f9cd83ee1ef8b35a74f Merge branch 'hsr-fix-lock-warnings'
+62e1de1d3352d4c64ebc0335a01186f421cbe6e7 Merge tag 'wireless-2025-09-11' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+63a796558bc22ec699e4193d5c75534757ddf2e6 Revert "net: usb: asix: ax88772: drop phylink use in PM to avoid MDIO runtime PM wakeups"
 
---===============8858851280057953542==--
+--===============3848564374387733077==--
