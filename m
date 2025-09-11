@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 11 Sep 2025 18:15:50 -0000
-Message-Id: <175761455048.3104423.9385378539607859314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Thu, 11 Sep 2025 18:22:59 -0000
+Message-Id: <175761497949.3109662.15003832045288087536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: adfcf50cc9eba74d75f3e7adb913a97cc498e3fe
-    new: ca5d0cc30e30242ecc71266f0ff1d50fece3fb6b
+  - ref: refs/heads/main
+    old: 11d9b328a35f5448f4130ed2083450c624cce1a9
+    new: ac304d396af136599fd6a6cbb064c6facf8cab56
     log: |
-         ab02207f173cc6e78aea0c4a9b38f39064744aa3 NFSD: Define actions for the new time_deleg FATTR4 attributes
-         7d4bc56af7e6681684deef9077d89b7148aae957 NFSD: Define a proc_layoutcommit for the FlexFiles layout type
-         ca5d0cc30e30242ecc71266f0ff1d50fece3fb6b siw: Enable try_gso
+         ac304d396af136599fd6a6cbb064c6facf8cab56 feat(tpms): trial first cast conversions
          
