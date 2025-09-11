@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Thu, 11 Sep 2025 14:24:59 -0000
-Message-Id: <175760069907.2739044.2760500467528559435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 11 Sep 2025 14:29:16 -0000
+Message-Id: <175760095681.2743208.6887534401269317918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 7a5e9040f418c2dd5d30fbdc2cad4446a004c6c5
+  - ref: refs/heads/ath12k-ng
+    old: d637c58a29475d646f8decfbbc1d27fae999a449
+    new: 972f34d54015a4a16aa9e6a081bafabb6f9bf95c
     log: |
-         2720c87b76215595a94fb70515438c5b64c360eb backlight: mp3309c: Drop pwm_apply_args()
-         fe85a39d8402e64a60ad3b23e190140a71d98dd9 backlight: mp3309c: Initialize backlight properties without memset
-         7a5e9040f418c2dd5d30fbdc2cad4446a004c6c5 backlight: led_bl: Use devm_kcalloc() for array space allocation
+         00139e4d7baf41e05b907846dbc53829421bb1fc wifi: ath12k: Remove non-compact TLV support from QCN
+         4ae34800a70d2704ec3a55146c86c4355a4129f6 wifi: ath12k: Move the hal APIs to hardware specific files
+         dd33e179466e4c0c5f74ebd838eedd9212cd3964 wifi: ath12k: unify HAL ops naming across chips
+         52537339693789f3dd4ef7931f417ad641ee864b wifi: ath12k: Replace ops with direct calls for rxdma ring mask
+         92541061a6fd4e6a0acd700e8544cb26f19570e8 wifi: ath12k: Move hal_rx_ops callbacks to hal_ops
+         e8a1e49c63280e6266392cb4a9f879e22bad893a wifi: ath12k: Add new infra for the rx path
+         0cdb09b19760f3464b3fbed782b59758124537c3 wifi: ath12k: Remove hal_rx_ops and merge into hal_ops
+         972f34d54015a4a16aa9e6a081bafabb6f9bf95c wifi: ath12k: Change the API prefixes to ath12k_wifi7 in tx/rx
          
