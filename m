@@ -1,48 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5152876900809348039=="
+Content-Type: multipart/mixed; boundary="===============3165980293211929628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 11 Sep 2025 15:51:35 -0000
-Message-Id: <175760589581.2973371.7634729820355254575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 11 Sep 2025 15:54:41 -0000
+Message-Id: <175760608161.2975409.2550033651569961976@gitolite.kernel.org>
 
---===============5152876900809348039==
+--===============3165980293211929628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 02ffd6f89c50ca0bff0c4578949ff99e70451757
-    new: e59a039119c3ec241228adf12dca0dd4398104d0
-    log: revlist-02ffd6f89c50-e59a039119c3.txt
+    old: 74a24c9b361058d1e1ac8d1a02b70fd3e4de8d22
+    new: 94d25e897c62ea27b6f85532fe0c498addcfa742
+    log: revlist-74a24c9b3610-94d25e897c62.txt
 
---===============5152876900809348039==
+--===============3165980293211929628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02ffd6f89c50-e59a039119c3.txt
+Content-Disposition: attachment; filename=revlist-74a24c9b3610-94d25e897c62.txt
 
-220abf77e7c2835cc63ea8cd7158cf83952640af cpufreq/amd-pstate: Fix setting of CPPC.min_perf in active mode for performance governor
-57834ce5a6a47df282c8419019ba5495eac58fb9 s390/mm: Prevent possible preempt_count overflow
-85941afd2c404247e583c827fae0a45da1c1d92c s390/pai: Deny all events not handled by this PMU
-ce971233242b5391d99442271f3ca096fb49818d s390/cpum_cf: Deny all sampling events by counter PMU
-de134cb54c3a67644ff95b1c9bffe545e752c912 btrfs: fix squota compressed stats leak
-6db1df415d73fcad12134a54f97dc6c8a64ab181 btrfs: accept and ignore compression level for lzo
-9786531399a679fc2f4630d2c0a186205282ab2f btrfs: fix corruption reading compressed range when block size is smaller than page size
-f6a6c280059c4ddc23e12e3de1b01098e240036f btrfs: fix subvolume deletion lockup caused by inodes xarray race
-ba3319e5905710abe495b11a1aaf03ebb51d62e2 cpufreq/amd-pstate: Fix a regression leading to EPP 0 after resume
-5a91f52c8650334aaf8c4c7c90f40c6906994225 MAINTAINERS: update btrfs entry
-3d1267475b94b3df7a61e4ea6788c7c5d9e473c4 btrfs: don't allow adding block device of less than 1 MB
-971e2c87e4a9f6321523cf1b4a00d1d4d1aa39b3 Merge tag 'amd-pstate-v6.17-2025-09-04' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
-e0423541477dfb684fbc6e6b5386054bc650f264 PM: EM: Add function for registering a PD without capacity update
-449c9c02537a146ac97ef962327a221e21c9cab3 PM: hibernate: Restrict GFP mask in hibernation_snapshot()
-bddce1c7a5ab3ec2dd0fc404f4155c0c17e847b2 Merge branches 'pm-sleep' and 'pm-em'
-b10c31b70bf00ba4688c4b364691640a92b7f4bf Merge tag 'for-6.17-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-a1228f048a314b9280784a2cbd757cac74705589 Merge tag 'pm-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e59a039119c3ec241228adf12dca0dd4398104d0 Merge tag 's390-6.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+cfffcf97997bd35f4a59e035523d1762568bdbad x86/mce: Set CR4.MCE last during init
+669ce4984b729ad5b4c6249d4a8721ae52398bfb x86/mce: Define BSP-only init
+c6e465b8d45a1bc717d196ee769ee5a9060de8e2 x86/mce: Define BSP-only SMCA init
+a46b2bbe1e36e7faab5010f68324b7d191c5c09f x86/mce: Do 'UNKNOWN' vendor check early
+7eee1e92684507f64ec6a75fecbd27e37174b888 x86/mce: Separate global and per-CPU quirks
+91af6842e9945d064401ed2d6e91539a619760d1 x86/mce: Move machine_check_poll() status checks to helper functions
+5c6f123c419b6e20f84ac1683089a52f449273aa x86/mce: Add a clear_bank() helper
+53b3be0e79ef80da524a99eef51a2ca642d4e134 x86/mce: Unify AMD THR handler with MCA Polling
+cf6f155e848b8e014010c1b69338d30368214ab9 x86/mce: Unify AMD DFR handler with MCA Polling
+fe02d3d00b06850b131d6baafaae64ca80eddd71 x86/mce/amd: Enable interrupt vectors once per-CPU on SMCA systems
+9b92e18973ce199a4439c0bf572316b109556323 x86/mce/amd: Support SMCA corrected error interrupt
+922300abd79d9eac241a531579db3b5dfb2dd1a9 x86/mce/amd: Remove redundant reset_block()
+5a92e88ffc49c383472f4b686d1bbe89e7b33cf3 x86/mce/amd: Define threshold restart function for banks
+c8f4cea38959dad58e1bb52cac9dab2f2fa45a9a x86/mce: Handle AMD threshold interrupt storms
+8541d643578f5fc7919e3982667c5dedab597bf5 x86/mce: Save and use APEI corrected threshold limit
+94d25e897c62ea27b6f85532fe0c498addcfa742 Merge branch into tip/master: 'ras/core'
 
---===============5152876900809348039==--
+--===============3165980293211929628==--
