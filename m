@@ -1,57 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0994517060977025003=="
+Content-Type: multipart/mixed; boundary="===============6783475511184068166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 11 Sep 2025 16:59:18 -0000
-Message-Id: <175760995820.3035475.7403001468702610123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Thu, 11 Sep 2025 17:02:04 -0000
+Message-Id: <175761012411.3038869.2352040698033192282@gitolite.kernel.org>
 
---===============0994517060977025003==
+--===============6783475511184068166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 558ec8e6a0c6dd438ae652f7007c4283f83b2d08
-    new: 7e36c68e88d4530474617c9d23428f93f8738d54
-    log: |
-         97bb5ca94282e86c3e6ca6be4920ea86506b2587 update CVE-2024-53194 with the new .vulnerable info
-         7e36c68e88d4530474617c9d23428f93f8738d54 strip the mbox for the newly created cve ids
-         
+  - ref: refs/heads/b4/slub-slab-validation
+    old: 0000000000000000000000000000000000000000
+    new: 26d26496e08383979aab9a04b3a6790d3a78e447
 
---===============0994517060977025003==
+--===============6783475511184068166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757610009 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1757609957-18b7aea53cb2c8fcecd49b267c751d4a8875945f
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1757610171 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1757610119-7001a09b94717bc04d47395c3b8c1739dff3944e
 
-558ec8e6a0c6dd438ae652f7007c4283f83b2d08 7e36c68e88d4530474617c9d23428f93f8738d54 refs/heads/master
+0000000000000000000000000000000000000000 26d26496e08383979aab9a04b3a6790d3a78e447 refs/heads/b4/slub-slab-validation
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjDABkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d0YP/i5mMaNjYPDyJfrPlzQV
-IkcCkhqFKguZ6TkuphcixmAOT9XX/PzIoVhfy0EZ0QBmjgHyLUYbEwYGMoZT7Q0R
-Y99S+403nBJDVzfviakEorme8Lje30uYgPN8rb+MqmyVU6h2y769DIcQkgPQejLy
-dycD8pztaTBBs6bTNqBhA/5aNPpWmCeFWCWAeZtoIY3uqVlzjsnY7fguGVBO0ind
-Do0y0VNrikhzGdXjO5KNH5R+znnkqcVYPx7ZrtEtCzib71wRDlAA0Ia++u17CymX
-KDUGO/rRFS0Aqm3/Gq4WxbTOqnjfh47RW3AlXbuAT8Q0Ui36P2F46dmRH0Uq25kG
-r1OAQIFfRkeVFTbmGlguCJueGH3D73+ekDl07oXFUEQGQ9/5HuMTVwH9GbPNTDJz
-g9W+Q5r1WVUk1pnuNPBBfbKaXB/bgMRkgMwsSzTNpStZc7rI8MNFqqy075ii9nlU
-6DRlDcu3Id+sI6qiZ/9ZbaifcFCyfe03V397eE7nINmfcaw5Y8fm9b0j5KfC2g0J
-qSjMbZ62N9cU9moKTFtuugUtcNhO6GOQ0We8OGJjG/vQ9cVsnFmRlx7EMSOvSCMW
-7z/e5p+xQ47nrzUMdnF/F52q4Cyrkj9FMuDhswbCAnMOtOX9EkD42o4+p0ryQS41
-PRAi5X6l+fYrKHRZa9gMX2i8
-=9jCg
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjDALsbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaSCoH/03/EKItQCS/fX7U5SO1
+OesaA53MStIVinDW5HvbqP2n5Q4c3Y2/Kc0E6u2+vKQnSSeHnd29o7JfUlEKDEOE
+zrL+JJ/J5n3zaB55cAslX2vU/FJj+hkPo8O9ayQ2LbrXLmuxxfbtCYVsCSM9qzfF
+INg6GFJEjTpubn5aYLX6ZSd8IPw/bDUJREYmMNyzWyx1twXJFXvZp91PjN7/UWzz
+zVuoho/gJBR0JzsF5koT+NRFFRzNKzEVRl2Uwhor7rKQEoALTOY9p51mLMyLEAuM
+OKuXanFyYMD9ncnU5rJXN+YSdS2PtCQ9nH55IHESWILir0jvg8Oueq0ZM78RObTh
+Ayw=
+=ahzz
 -----END PGP SIGNATURE-----
 
---===============0994517060977025003==--
+--===============6783475511184068166==--
