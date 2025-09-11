@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8213475368770517352=="
+Content-Type: multipart/mixed; boundary="===============6646041743891140705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 11 Sep 2025 06:18:39 -0000
-Message-Id: <175757151993.2231258.18413006533521587838@gitolite.kernel.org>
+Date: Thu, 11 Sep 2025 06:18:48 -0000
+Message-Id: <175757152879.2231441.12025247061816202250@gitolite.kernel.org>
 
---===============8213475368770517352==
+--===============6646041743891140705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/for-next
     old: 7cb1bec5195c532a0dfc19d614fd4b838d43e555
     new: eba165b2909716c690351d21d9b6b6d95b9e1f59
     log: revlist-7cb1bec5195c-eba165b29097.txt
 
---===============8213475368770517352==
+--===============6646041743891140705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ ea4c399642b85dc30f44d90ee805c6a18fa03062 RDMA/ionic: Implement device stats ops
 72d0b87e1e7c34ebb89deae75f5306264578b01f RDMA/bnxt_re: Update sysfs entries with appropriate data
 eba165b2909716c690351d21d9b6b6d95b9e1f59 RDMA/bnxt_re: Avoid GID level QoS update from the driver
 
---===============8213475368770517352==--
+--===============6646041743891140705==--
