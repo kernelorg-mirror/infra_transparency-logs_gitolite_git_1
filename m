@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2276703583786809454=="
+Content-Type: multipart/mixed; boundary="===============4499141247981990341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Thu, 11 Sep 2025 17:03:12 -0000
-Message-Id: <175761019294.3039556.15698981463327622819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 11 Sep 2025 17:08:49 -0000
+Message-Id: <175761052902.3044041.1777526038850442978@gitolite.kernel.org>
 
---===============2276703583786809454==
+--===============4499141247981990341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/slub-slab-validation
-    old: 26d26496e08383979aab9a04b3a6790d3a78e447
-    new: 01cb8fd75b321601e835ec2e501a2ca32378cec5
+  - ref: refs/heads/master
+    old: 7e36c68e88d4530474617c9d23428f93f8738d54
+    new: 9875233112a613b040eded1154abb0c88f0781a9
     log: |
-         01cb8fd75b321601e835ec2e501a2ca32378cec5 slab: don't validate slab pointer in free_debug_processing()
+         9875233112a613b040eded1154abb0c88f0781a9 proposed: Add Allen's v6.16.6 results
          
 
---===============2276703583786809454==
+--===============4499141247981990341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1757610241 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1757610189-d8687e3e5f1df134602a7f86a11815ab5df9381d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757610580 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1757610528-1157593fb2c773450aad48cc41dd0f900c1ea031
 
-26d26496e08383979aab9a04b3a6790d3a78e447 01cb8fd75b321601e835ec2e501a2ca32378cec5 refs/heads/b4/slub-slab-validation
+7e36c68e88d4530474617c9d23428f93f8738d54 9875233112a613b040eded1154abb0c88f0781a9 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjDAQEbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaOEAH/REg3nroJ/k8YEGgrWs2
-vvS1L8MnaFHwnjfoBZc2B375XrI5xrSRIDdGAIGUbBR2Dg/B0aIERO31KayWi/No
-9XQjVtg286alHB40ctmAFmJhsw9R3LpH7kDly8I9YURtuopPxD76bvnCfQLdBjEA
-6tVzsQyzKcjhcmlXPetnpfr1iInl7L7WWaexWHe8k52a4D7QmB49oBIKB7EtzJiX
-S0GZ8C9WwYzDzb7YhTmQvlRM4hXnz7wWnZYL/zKgdDhh+f7G0HjuMjJre4YQXwB7
-Rw0KKFhPUlxrB2rPE673FllQt0a5Svs+/eeFGfhIexGGDWog+uIGnb/Ltp9+XxLJ
-fBs=
-=wkD6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjDAlQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dE8QAJOFe81pc6p6Y+w1LNLL
+TuH7hTN4AnJ/euOO3D/4GFocjbp0VK/VaQCkIRg2JhmmlOv3H322i5FNg0ia+Bg7
+3YyFJK7wDrhlI1+5JGa7YQdSlP3bPY1cxgkl8coH0lfWDzi3PAPtME4Z2pOJakIl
+ltl/PKmJ/zctQAVSbWAhrUos4KMH9HmISVkEOU14/cvk3QYy5ETWE3UFZAGdH2kb
+IsxosJy1oPtVtUGSFjm98rQ1jSi266PqqTIIaULo0LaJhvKjAkbOul49HYh5NTUK
+fRi/JeM+ovrgE6TgnPWpOgZhpSWtgE1HhBOlg5XO6G/Qt1IfcOlYo4+wRahPKHFw
+iieP59si7OKtUiT43LPrtn8v6b8qtC0n22xa/gDVA9H5Am3LypVt9Slqqhhwk11T
+pOSB0wQeZ1CteQ5gZPqabwRnrf/aUTGPjdnkcezAu4MKgLtSyKcf/OeFEwXq7H9P
+Et1FnQtZelwHP0MTFQ6e2yFAY31eQUKZxhmj7o4Ji1AbjsXn8wEfR94hxOlFX7xN
+exCLfMP89Abf9oix2fhCbYf74Iai+lUQnL+ZI467lInADjGR4KH+16auHBfYsd/p
+zhx4ledeE/y2EOzYE9AfGSRvWVGNy1LmrH3/pBV9x0VJEmWpsG7JtKVkLd8hR4u2
+zHbPlAIJxJfBHr1o2vW/MXcJ
+=9viO
 -----END PGP SIGNATURE-----
 
---===============2276703583786809454==--
+--===============4499141247981990341==--
