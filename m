@@ -1,65 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0672707645034869073=="
+Content-Type: multipart/mixed; boundary="===============1113737885179780821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 11 Sep 2025 08:50:39 -0000
-Message-Id: <175758063904.2391983.7062885629038019045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Thu, 11 Sep 2025 08:52:14 -0000
+Message-Id: <175758073491.2412730.11346028368513209103@gitolite.kernel.org>
 
---===============0672707645034869073==
+--===============1113737885179780821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: c4f8b11bacd562f38c85f4f81a0a4426b267df70
-    new: 8e54e493c9926105e771873b151d5eba80fbb856
-    log: revlist-c4f8b11bacd5-8e54e493c992.txt
+  - ref: refs/heads/main
+    old: 78dd8ad62cad4f5af22afc842890d531312bbb8a
+    new: 3a1a66d124547f2a4896bf346a33ebe6eb301bf4
+    log: revlist-78dd8ad62cad-3a1a66d12454.txt
 
---===============0672707645034869073==
+--===============1113737885179780821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-78dd8ad62cad-3a1a66d12454.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1757580685 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1757580632-9963eb075005d978501441e30d024e09ffea9d9c
+641427d5bf90af0625081bf27555418b101274cd docs: networking: can: change bcm_msg_head frames member to support flexible array
+75871a525a596ff4d16c4aebc0018f8d0923c9b1 igb: Fix NULL pointer dereference in ethtool loopback test
+d709f178abca22a4d3642513df29afe4323a594b igb: fix link test skipping when interface is admin down
+915470e1b44e71d1dd07ee067276f003c3521ee3 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
+503f1c72c31bbee21e669a08cf65c49e96d42755 i40e: fix Jumbo Frame support after iPXE boot
+d013ebc3499fd87cb9dee1dafd0c58aeb05c27c1 selftests: can: enable CONFIG_CAN_VCAN as a module
+7fcbe5b2c6a4b5407bf2241fdb71e0a390f6ab9a can: j1939: implement NETDEV_UNREGISTER notification handler
+f214744c8a27c3c1da6b538c232da22cd027530e can: j1939: j1939_sk_bind(): call j1939_priv_put() immediately when j1939_local_ecu_get() failed
+06e02da29f6f1a45fc07bd60c7eaf172dc21e334 can: j1939: j1939_local_ecu_get(): undo increment when j1939_local_ecu_get() fails
+ef79f00be72bd81d2e1e6f060d83cf7e425deee4 can: xilinx_can: xcan_write_frame(): fix use-after-free of transmitted SKB
+5c793afa07da6d2d4595f6c73a2a543a471bb055 can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
+5e13f2c491a4100d208e77e92fe577fe3dbad6c2 netfilter: nft_set_bitmap: fix lockdep splat due to missing annotation
+c4eaca2e1052adfd67bed0a36a9d4b8e515666e4 netfilter: nft_set_pipapo: don't check genbit from packetpath lookups
+a60f7bf4a1524d8896b76ba89623080aebf44272 netfilter: nft_set_rbtree: continue traversal if element is inactive
+64102d9bbc3d41dac5188b8fba75b1344c438970 netfilter: nf_tables: place base_seq in struct net
+11fe5a82e53ac3581a80c88e0e35fb8a80e15f48 netfilter: nf_tables: make nft_set_do_lookup available unconditionally
+b2f742c846cab9afc5953a5d8f17b54922dcc723 netfilter: nf_tables: restart set lookup on base_seq change
+37a9675e61a2a2a721a28043ffdf2c8ec81eba37 MAINTAINERS: add Phil as netfilter reviewer
+6fef6ae764be8a77f61ad3b6937ba82fe8358045 net: ethtool: fix wrong type used in struct kernel_ethtool_ts_info
+5537a4679403423e0b49c95b619983a4583d69c5 net: usb: asix: ax88772: drop phylink use in PM to avoid MDIO runtime PM wakeups
+a2ddf8a51c86f461679fa7b6b335d492f978bd39 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+ccf78f7f05ce2f5f18ab69b39e236292e384625c Merge tag 'linux-can-fixes-for-6.17-20250910' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+3a1a66d124547f2a4896bf346a33ebe6eb301bf4 Merge tag 'nf-25-09-10-v2' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
-c4f8b11bacd562f38c85f4f81a0a4426b267df70 8e54e493c9926105e771873b151d5eba80fbb856 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaMKNkgAKCRBZrE9hU+XO
-MbCmAPoCnX8aNtGPAjTaZuyRXeeu7cjVjrds0kT4ZbJXGLIiIAD6A9T/23mSfQLa
-nj6ulY8Ub1m0QBAoUNtTVwFJ+Rf5Cgw=
-=i/hv
------END PGP SIGNATURE-----
-
---===============0672707645034869073==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4f8b11bacd5-8e54e493c992.txt
-
-f10ea2df9e4d28964e2a02abaf32100953885989 platform/x86/amd/pmf: Add support for adjusting PMF PPT and PPT APU thresholds
-d82e3d2dd0ba019ac6cdd81e47bf4c8ac895cfa0 platform/x86/amd/pmf: Fix the custom bios input handling mechanism
-ebc68a3451ce419fe2e7a7d3f06df408fb36399e platform/x86/amd/pmf: Extend custom BIOS inputs for more policies
-37336ecb06a81e7c4fb3e89dbb04169c0e523069 platform/x86/amd/pmf: Update ta_pmf_action structure member
-4389d38080d72a818de2731663d0b5571f66db31 platform/x86/amd/pmf: Add helper to verify BIOS input notifications are enable/disable
-04199ef48ac2c5f0985a54171da47a218c37b00f platform/x86/amd/pmf: Add custom BIOS input support for AMD_CPU_ID_PS
-b21ec88340b7e9dbaac13d9902f1e8166932c277 platform/x86/amd/pmf: Preserve custom BIOS inputs for evaluating the policies
-62214d942d2bebbed1798eef711dd82aa493a616 platform/x86/amd/pmf: Call enact function sooner to process early pending requests
-2ab7713d6e9408587731c186b9a5a208f04a6b33 platform/x86/amd/pmf: Add debug logs for pending requests and custom BIOS inputs
-feae929d8e6cb4e8d78a930c8b75326229e6b921 platform/x86:intel/pmc: Enable SSRAM support for Lunar Lake
-1e508af6bc4b24a7924b619800f1b138281f0e82 platform/x86:intel/pmc: Move telemetry endpoint register handling
-612326e0a87a5c75d35146ee172eb46bcd09089a platform/x86:intel/pmc: Improve function to show substate header
-a22bc8643889ef5a3c032700f69001fdc457413c platform/x86:intel/pmc: Show substate requirement for S0ix blockers
-8e54e493c9926105e771873b151d5eba80fbb856 platform/x86:intel/pmc: Enable SSRAM support for Panther Lake
-
---===============0672707645034869073==--
+--===============1113737885179780821==--
