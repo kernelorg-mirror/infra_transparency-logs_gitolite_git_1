@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1946973847471423071=="
+Content-Type: multipart/mixed; boundary="===============7034029454663177826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 11 Sep 2025 11:20:38 -0000
-Message-Id: <175758963811.2543640.7221640574224366510@gitolite.kernel.org>
+Date: Thu, 11 Sep 2025 11:21:00 -0000
+Message-Id: <175758966042.2543947.12724966419436846844@gitolite.kernel.org>
 
---===============1946973847471423071==
+--===============7034029454663177826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 7704e6be4ed2835832c445807cdcb2d56d8a8430
     new: 63f0c6a270be611455b502de1aa7049476c6e1ed
     log: |
@@ -25,34 +25,34 @@ changes:
          63f0c6a270be611455b502de1aa7049476c6e1ed Merge tag 'w1-drv-6.18' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/krzk/linux-w1 into char-misc-next
          
 
---===============1946973847471423071==
+--===============7034029454663177826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757589684 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757589711 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1757589632-63768206b3746943b4aee912ff466b5522c0951f
+nonce 1757589659-2e0cb8014d4b404a0a8d3fc2ff80c18f7285f4d1
 
-7704e6be4ed2835832c445807cdcb2d56d8a8430 63f0c6a270be611455b502de1aa7049476c6e1ed refs/heads/char-misc-testing
+7704e6be4ed2835832c445807cdcb2d56d8a8430 63f0c6a270be611455b502de1aa7049476c6e1ed refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjCsLQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ucIP/1xH182GFUUpXGXJy4zh
-KbthVPJetlkbm1XOjjgZgM+fXpX9fQQKsfiQTjdydGiYM4xUHcQk6KlFpY4wyxem
-fQQOFg2VddD4u7PJ9ZWeeFUuq9US8stlZ4ZyzHInNXq1Nyzzl58Toq1RY8mAIdxW
-gAMyo9ZJKlJKhy45l+C5GlXANndDgg7syCzTbMZQ2VyKVeSLBiuVhJqjeKCpiXYL
-nleHZzp/1wIkdnhKe3ihV84tkW3CeGKmQGsm3+Ltwy+mVAxxk+SsEYC3+P8SXDyC
-vvSMuHNQIUTRhJGhuTDkzjXMaPa0VZdEDN2Mw9fQ0mibisjPqMio3vf7GHD6XIiR
-L+r08P1TjXfJlpvVpX2Lui860tvlrlHXBkH/BFTDYNMPj7RFhVMlQ+Wu1ylJg9bc
-FRo1Zoi1D5VXL6KCfxBV25PvqEb7d7WLVr+uDb9QpPkfPsxFcopAOovwHDop857X
-lpnonjJhP3jotpBmvI4ty8AvweF3P9sPQkciEymoTUCkjfSuk3S3cQNyXIB66C6U
-accphDBUIsthkrIIZIP9LedHoFKI4FWaN8PCLh7yGtl3HF9pDsT4JtW+BB72Aerg
-X/6evVbyVuVXNvx5sPWoIe65r70lNSVHTU4Xa10ceDW16KqOfqWJSo+sWxBPYmrf
-K0JcOIll1CGFvaPpsRjq4oYV
-=b6uo
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjCsM8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xEMQANMbNPG+UTM5wR+NlaNi
+mTFb8recBTLqPRno2voN4Fy6eeNGHFsNRp7KXF51+lutYmxALE9by0Vqp+Xd//PA
+GzSPr3DQYmrAqZlZpJNzWwtptEXCXmmEBajeoV0qd0IFcdPj58CpWU7OlezJELiE
+j40aZEYXtjBf0SslIa/CVFfOZETeR9TZsARMM2pMHL9Kim51hnxf+0n+qNW28rZU
+Qc6xuvDgPvAjT6kwB2dkpYDYCAM5sIc49Vq+s1HxLhyTQOtKvLEImUiw5WrSstwH
+CQGjfpPAAPxKDLxHXQ220J+uA9xy7Vy4sw5ojoWzoudZqUKhU+JYNxgKVRJ+iAKd
+ViCC/b9613d/Z9ONHZgnJ+FiBmUze4ya1EC5Ck43SRFw6NNOCEcFgBbAPLHB1Q8z
+sNHGFVz4ZlneFkWQRO2sXPEAk/D2tTyPjswnxRV/JPooPMe9B7RT4dr+i9Cw8INM
+C9fcrO+8GVz5v0+Os5Sdn5vtpW5zdM7ufIrqGJJ43HMopp9Vo0TkuMiWDMUOstLW
+qMmVbAvqyCj6BfNIJHwhFXyO24F9ElFnoaCLAMIuO+ASIXQouLrjlEtAL9fDs95q
+vDrjbhGBxsSWDBKb0hbZ6fO/0NB22UDty7YTJux7UJiqMKUrpytmyjF9jr/BdNSh
+klgElatoTnMRmKq5rlup1pfP
+=qPcA
 -----END PGP SIGNATURE-----
 
---===============1946973847471423071==--
+--===============7034029454663177826==--
