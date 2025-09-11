@@ -1,53 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2946246789859429176=="
+Content-Type: multipart/mixed; boundary="===============2090406654180929003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 11 Sep 2025 15:20:08 -0000
-Message-Id: <175760400848.2848421.13147639689003725266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 11 Sep 2025 15:20:17 -0000
+Message-Id: <175760401767.2856460.16764103416901811913@gitolite.kernel.org>
 
---===============2946246789859429176==
+--===============2090406654180929003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.6.106
-    old: 0000000000000000000000000000000000000000
-    new: 6611de581a6c8685a21994717a92789609c2afe0
+  - ref: refs/heads/linux-6.6.y
+    old: fe9731e100041bb2cc186717bde3e05ca175623b
+    new: 60a9e718726fa7019ae00916e4b1c52498da5b60
+    log: |
+         9d1677060428c178385ac0ee984a9937490c81df Documentation/hw-vuln: Add VMSCAPE documentation
+         813cb831439c754922687d1562ec02446f9aa8ae x86/vmscape: Enumerate VMSCAPE bug
+         f866eef8d1c65504d30923c3f14082ad294d0e6d x86/vmscape: Add conditional IBPB mitigation
+         34e5667041050711a947e260fc9ebebe08bddee5 x86/vmscape: Enable the mitigation
+         a5d029f1152a8841560a2c632cc88265ad290126 x86/bugs: Move cpu_bugs_smt_update() down
+         1e1dc1f9edb92effe32751921778164ed8fb3056 x86/vmscape: Warn when STIBP is disabled with SMT
+         3b9e7e5c52982224fc66ffa27a384f8a31e904d3 x86/vmscape: Add old Intel CPUs to affected list
+         60a9e718726fa7019ae00916e4b1c52498da5b60 Linux 6.6.106
+         
 
---===============2946246789859429176==
+--===============2090406654180929003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757604059 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1757604007-950a151bf31231ff08d2e89157eb44b4feddf9bc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757604068 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1757604015-1b3c33283a42f12a3f54c596ad66377a94006d11
 
-0000000000000000000000000000000000000000 6611de581a6c8685a21994717a92789609c2afe0 refs/tags/v6.6.106
+fe9731e100041bb2cc186717bde3e05ca175623b 60a9e718726fa7019ae00916e4b1c52498da5b60 refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjC6NsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YgwQALp52Ew5XTg28Ysc76sG
-pXfWSNrXXsgItdro/GK2IePJm3+OeVryXWQhXnq0FJpfVynyQL3oy2/o0Lf5peo0
-0Ldb/lhOHNWF6nv0bSOLREKI0quG9YTJRfaiUMD/zz8X14xbqE1TWHYC4MLG62og
-eLHraUuRY8bUr/PQC+1ZH1DsoKYkFxSvTlxjs9tkbqlTOgao6mbbTbNXJ/TIzUR3
-2zxxRxeSgXbAoMdAIFGNIyo4ENGxdRMglRp4dUmNU/HVWBBd5JeqhNVX49e8CLj6
-JtlySNUcvwZ6HK3MZMxASsRCpI6UFqNo7RTtkRdmEE3KIdG6teDQ3gOqJ3crv5Va
-LITH6STGN43s5QO3wUbShI9looeTd+ume6FLyXth/82ptvrKLrYND4WcCwys++VQ
-/i3fHhjZr7NaumS+wbpL729pEqj62uvP+yCb7zFVhRZpoBpkdbs+xH2sLhe85XsT
-jPdkxRbI3HfbkEwAXXYi0X1UZSoXrNqsFGwwmQESWPRyw0X8/fgpU+aMg01T2Go5
-GA6HqJA4XWDPe2zzJKAnmzstlBtC/5Zi9sA+ia0t/L+NofresxLPNFJKKb06MmEK
-czJilVA6teac54E0i4I06Fq75RdPTut+KV4LZI5KV59KgtAy88GfXx1Tg87aPTXa
-/YuSKeNUtTrakMsh6ebIbHQr
-=E2zX
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjC6OQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D6oP/AlqyUwlH6d2VfitjtfX
+7ba8wv50A10rr53PokHQJbuNgFvaiPDAll8MZOk2MWrYPO37jHpCaBSSBrTkhpb9
+5176PInfXCkW3/xX5LOrhyDcSJjBaKG1VEdNjtKPYYwxBvsE/M0E6mLmR4cIi31/
+wMNbketjEamzPKlwHHpYJQiSrqAk8ZzJ4Mphpj46ByaekHUAiFT/jfH00OPt6X+c
+Qy3FvHIp7kjsMaoPNWzXdjIvk7tKC8zCI6SCwYEPrCRG8vjCXdg4Hk0ISi1m2Us4
+ugr3cGETuJN2ETUHABRlhxGOXC1NZZVy13gfvS88+p9CP9nhLO6ovMH3lASD6vzx
+Tj00NAPN7r42s6QU6nI7owL2ZN3vemz2zyjUM/bOP422uVmfflDvDBktQWupaMe2
+hXK7DddcD0+rMilLFVkx1e9NweI+iYWV2bTOZnXjGB2hEM7t+5IGG7vN73Tb/Lwj
++iShEDlgtQ3S/cTOjfdPRV4BZhGFtw+kz4cGWZeSjqgwqqp+orYOifqKVH73YNoJ
+Edz/83gFWpSiFT4PEFunEwEF2kBRlbCpZ/mm0Hw/lhaeQcnsME+8tWsoIS+fO053
+GHh3qa0dh/yKO8FsyLKjB99cTz8UpLi/xqZt79ZrbU8oVTp3hiogw0yBznFkvrTY
+vCy9R3BHIcmfLN7+8tEZ8xSy
+=GDML
 -----END PGP SIGNATURE-----
 
---===============2946246789859429176==--
+--===============2090406654180929003==--
