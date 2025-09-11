@@ -1,16 +1,93 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 11 Sep 2025 17:49:29 -0000
-Message-Id: <175761296910.3078093.2072670026122356871@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3530349897203095068=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 11 Sep 2025 17:56:23 -0000
+Message-Id: <175761338344.3084992.1727612038861169434@gitolite.kernel.org>
+
+--===============3530349897203095068==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/controller/dwc-edma
-    old: 0000000000000000000000000000000000000000
-    new: 9e495c2d7f38a6e256749a8466856dc711666f05
+  - ref: refs/heads/dev-queue
+    old: c9797abf223f834316707e8e345cf5d93221da36
+    new: 1955a689f22803ed7ce03f469b12df71612cd35e
+    log: revlist-c9797abf223f-1955a689f228.txt
+
+--===============3530349897203095068==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c9797abf223f-1955a689f228.txt
+
+4b66d18918f8e4d85e51974a9e3ce9abad5c7c3d wifi: ath12k: Fix missing station power save configuration
+82e2be57d544ff9ad4696c85600827b39be8ce9e wifi: ath12k: fix WMI TLV header misalignment
+2682e7a317504a9d81cbb397249d4299e84dfadd wifi: iwlwifi: fix 130/1030 configs
+641427d5bf90af0625081bf27555418b101274cd docs: networking: can: change bcm_msg_head frames member to support flexible array
+75871a525a596ff4d16c4aebc0018f8d0923c9b1 igb: Fix NULL pointer dereference in ethtool loopback test
+d709f178abca22a4d3642513df29afe4323a594b igb: fix link test skipping when interface is admin down
+915470e1b44e71d1dd07ee067276f003c3521ee3 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
+503f1c72c31bbee21e669a08cf65c49e96d42755 i40e: fix Jumbo Frame support after iPXE boot
+bda605962c0798617172eb17348a43002e3595b7 Merge tag 'ath-current-20250909' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+a814c36cc6738ae61a4bcda6d948935a6da51ae1 Merge tag 'iwlwifi-fixes-2025-09-09' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+8cc71fc3b82b51e155fbe20876b1aa17a315ac4c wifi: cfg80211: Fix "no buffer space available" error in nl80211_get_station() for MLO
+9c600589e14f5fc01b8be9a5d0ad1f094b8b304b wifi: virt_wifi: Fix page fault on connect
+d013ebc3499fd87cb9dee1dafd0c58aeb05c27c1 selftests: can: enable CONFIG_CAN_VCAN as a module
+7fcbe5b2c6a4b5407bf2241fdb71e0a390f6ab9a can: j1939: implement NETDEV_UNREGISTER notification handler
+f214744c8a27c3c1da6b538c232da22cd027530e can: j1939: j1939_sk_bind(): call j1939_priv_put() immediately when j1939_local_ecu_get() failed
+06e02da29f6f1a45fc07bd60c7eaf172dc21e334 can: j1939: j1939_local_ecu_get(): undo increment when j1939_local_ecu_get() fails
+ef79f00be72bd81d2e1e6f060d83cf7e425deee4 can: xilinx_can: xcan_write_frame(): fix use-after-free of transmitted SKB
+5c793afa07da6d2d4595f6c73a2a543a471bb055 can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
+5e13f2c491a4100d208e77e92fe577fe3dbad6c2 netfilter: nft_set_bitmap: fix lockdep splat due to missing annotation
+c4eaca2e1052adfd67bed0a36a9d4b8e515666e4 netfilter: nft_set_pipapo: don't check genbit from packetpath lookups
+a60f7bf4a1524d8896b76ba89623080aebf44272 netfilter: nft_set_rbtree: continue traversal if element is inactive
+64102d9bbc3d41dac5188b8fba75b1344c438970 netfilter: nf_tables: place base_seq in struct net
+11fe5a82e53ac3581a80c88e0e35fb8a80e15f48 netfilter: nf_tables: make nft_set_do_lookup available unconditionally
+b2f742c846cab9afc5953a5d8f17b54922dcc723 netfilter: nf_tables: restart set lookup on base_seq change
+37a9675e61a2a2a721a28043ffdf2c8ec81eba37 MAINTAINERS: add Phil as netfilter reviewer
+6fef6ae764be8a77f61ad3b6937ba82fe8358045 net: ethtool: fix wrong type used in struct kernel_ethtool_ts_info
+5537a4679403423e0b49c95b619983a4583d69c5 net: usb: asix: ax88772: drop phylink use in PM to avoid MDIO runtime PM wakeups
+a2ddf8a51c86f461679fa7b6b335d492f978bd39 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+ccf78f7f05ce2f5f18ab69b39e236292e384625c Merge tag 'linux-can-fixes-for-6.17-20250910' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+3a1a66d124547f2a4896bf346a33ebe6eb301bf4 Merge tag 'nf-25-09-10-v2' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+c3f8d13357deab1e04f8a52b499d6b9b704e578e wifi: nl80211: completely disable per-link stats for now
+8884c693991333ae065830554b9b0c96590b1bb2 hsr: use rtnl lock when iterating over ports
+393c841fe4333cdd856d0ca37b066d72746cfaa6 hsr: use hsr_for_each_port_rtnl in hsr_port_get_hsr
+847748fc66d08a89135a74e29362a66ba4e3ab15 hsr: hold rcu and dev lock for hsr_get_port_ndev
+9b1fbd3539698e56b2616f9cd83ee1ef8b35a74f Merge branch 'hsr-fix-lock-warnings'
+62e1de1d3352d4c64ebc0335a01186f421cbe6e7 Merge tag 'wireless-2025-09-11' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+63a796558bc22ec699e4193d5c75534757ddf2e6 Revert "net: usb: asix: ax88772: drop phylink use in PM to avoid MDIO runtime PM wakeups"
+7c5d1084a102d4c63dc16b78f68a4e099e632841 ice: fix lane number calculation
+cde4e52070129464c69c7b341af1143dc7f2fe7d ice: fix fwlog after driver reinit
+b2e73ce883a44dffb05163bbf9f2dd905ea6f337 i40e: add validation for ring_len param
+d6477f1a4b7116975c358a8d8058abbb17c8a5e5 i40e: fix idx validation in i40e_validate_queue_map
+fbffdaaec1667e0c41369999ea9e46d80b19566e i40e: fix idx validation in config queues msg
+35a73e2cae9f25cc76587938601266dd9c33e6be i40e: fix input validation logic for action_meta
+77485fa9f00c64b50476ca034f39514f6a3d983f i40e: fix validation of VF state in get resources
+0c27c7e2420f16f80dd9552caa537d1888244134 i40e: add max boundary check for VF filters
+1e9c1264b4a1afdb17390481852d285b6d6ed796 i40e: add mask to apply valid bits for itr_idx
+832ac8bd39dc3ee29de8e1a822c31c3e0c3ab667 i40e: improve VF MAC filters accounting
+c3cd20867ae38a5e4b40aeb0bb7ca7077658c3b1 idpf: cleanup remaining SKBs in PTP flows
+602a2c465fe797fc929575e22d60af07f9db0587 ice: Fix enable_cnt imbalance on resume
+5e22c80cf0a2df2485568dc9fb8d39836be1667b ice: Fix enable_cnt imbalance on PCIe error recovery
+bf58240b4f7baddd694a8025c6b5d5056c482b80 i40e: Fix enable_cnt imbalance on PCIe error recovery
+076ff8cea6b19eaf22cdf538321a42016bd590dd idpf: convert vport state to bitmap
+8f74388740c008bae578f887bcf707408cb66417 idpf: fix possible race in idpf_vport_stop()
+bcd899478e9d2eb979721777ff7129d2587c1ede i40e: remove redundant memory barrier when cleaning Tx descs
+8126635158eae0f97c14e1bf54b804dafba31b07 ice: fix Rx page leak on multi-buffer frames
+a47c3168848910b4767f901280abacce598323c3 ixgbevf: fix getting link speed data for E610 devices
+3b020f7b48d565b62095c3de54fa5bd7a8db09a1 ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
+c6c22dcd3224aa60e587d0e7b986c316737aaa99 ixgbevf: fix mailbox API compatibility by negotiating supported features
+95814688ba628e1dd139297b8b02a01a41531cc8 ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
+27bc4967e4993f16dd4682e241cb304689c13ab9 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+ca38a647c0b913167915971d6aa23441bed0db11 ixgbe: fix too early devlink_free() in ixgbe_remove()
+a16dc1492c19ed8b5a94e39e94e50b6eb26c4fa1 ixgbe: initialize aci lock before it's used
+1955a689f22803ed7ce03f469b12df71612cd35e ixgbe: destroy aci lock later within ixgbe_remove path
+
+--===============3530349897203095068==--
