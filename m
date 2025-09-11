@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 11 Sep 2025 20:03:22 -0000
-Message-Id: <175762100240.3196071.3044586485594158227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/linux
+Date: Thu, 11 Sep 2025 20:04:22 -0000
+Message-Id: <175762106297.3197056.273652787899117867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
+repo: pub/scm/fs/fscrypt/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-pending
-    old: b94bc4398beccd329a51052c5e7e84e4670dbcd9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 0e6608d4938eb209616e8673c95364bb2a7d55bd
+    new: 19591f7e781fd1e68228f5b3bee60be6425af886
+    log: |
+         19591f7e781fd1e68228f5b3bee60be6425af886 fscrypt: use HMAC-SHA512 library for HKDF
+         
