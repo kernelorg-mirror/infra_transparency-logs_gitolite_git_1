@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6489973136316329133=="
+Content-Type: multipart/mixed; boundary="===============2431154460643176284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 11 Sep 2025 17:57:01 -0000
-Message-Id: <175761342119.3085849.15174680879369799059@gitolite.kernel.org>
+Date: Thu, 11 Sep 2025 17:57:03 -0000
+Message-Id: <175761342364.3085968.17631480888525997555@gitolite.kernel.org>
 
---===============6489973136316329133==
+--===============2431154460643176284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 503f1c72c31bbee21e669a08cf65c49e96d42755
+  - ref: refs/heads/10GbE
+    old: 78dd8ad62cad4f5af22afc842890d531312bbb8a
     new: 63a796558bc22ec699e4193d5c75534757ddf2e6
-    log: revlist-503f1c72c31b-63a796558bc2.txt
+    log: revlist-78dd8ad62cad-63a796558bc2.txt
 
---===============6489973136316329133==
+--===============2431154460643176284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-503f1c72c31b-63a796558bc2.txt
+Content-Disposition: attachment; filename=revlist-78dd8ad62cad-63a796558bc2.txt
 
 4b66d18918f8e4d85e51974a9e3ce9abad5c7c3d wifi: ath12k: Fix missing station power save configuration
 82e2be57d544ff9ad4696c85600827b39be8ce9e wifi: ath12k: fix WMI TLV header misalignment
 2682e7a317504a9d81cbb397249d4299e84dfadd wifi: iwlwifi: fix 130/1030 configs
 641427d5bf90af0625081bf27555418b101274cd docs: networking: can: change bcm_msg_head frames member to support flexible array
-e0d1c55501d377163eb57feed863777ed1c973ad net: phy: fix phy_uses_state_machine()
-686cab5a18e443e1d5f2abb17bed45837836425f net: dev_ioctl: take ops lock in hwtstamp lower paths
-0f82c3ba66c6b2e3cde0f255156a753b108ee9dc macsec: sync features on RTM_NEWLINK
-648de37416b301f046f62f1b65715c7fa8ebaa67 mptcp: sockopt: make sync_socket_options propagate SOCK_KEEPOPEN
-7094b84863e5832cb1cd9c4b9d648904775b6bd9 netlink: specs: mptcp: fix if-idx attribute type
-6f021e95d0828edc8ed104a294594c2f9569383a doc: mptcp: net.mptcp.pm_type is deprecated
-ef1bd93b3b924086088b7818d9e5d89ede944f1f selftests: mptcp: shellcheck: support v0.11.0
-78dd8ad62cad4f5af22afc842890d531312bbb8a Merge branch 'mptcp-misc-fixes-for-v6-17-rc6'
+75871a525a596ff4d16c4aebc0018f8d0923c9b1 igb: Fix NULL pointer dereference in ethtool loopback test
+d709f178abca22a4d3642513df29afe4323a594b igb: fix link test skipping when interface is admin down
+915470e1b44e71d1dd07ee067276f003c3521ee3 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
+503f1c72c31bbee21e669a08cf65c49e96d42755 i40e: fix Jumbo Frame support after iPXE boot
 bda605962c0798617172eb17348a43002e3595b7 Merge tag 'ath-current-20250909' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
 a814c36cc6738ae61a4bcda6d948935a6da51ae1 Merge tag 'iwlwifi-fixes-2025-09-09' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 8cc71fc3b82b51e155fbe20876b1aa17a315ac4c wifi: cfg80211: Fix "no buffer space available" error in nl80211_get_station() for MLO
@@ -68,4 +64,4 @@ c3f8d13357deab1e04f8a52b499d6b9b704e578e wifi: nl80211: completely disable per-l
 62e1de1d3352d4c64ebc0335a01186f421cbe6e7 Merge tag 'wireless-2025-09-11' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 63a796558bc22ec699e4193d5c75534757ddf2e6 Revert "net: usb: asix: ax88772: drop phylink use in PM to avoid MDIO runtime PM wakeups"
 
---===============6489973136316329133==--
+--===============2431154460643176284==--
