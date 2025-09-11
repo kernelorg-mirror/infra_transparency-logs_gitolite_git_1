@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Thu, 11 Sep 2025 20:56:47 -0000
-Message-Id: <175762420783.3242279.16414302152439045702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Thu, 11 Sep 2025 20:58:45 -0000
+Message-Id: <175762432534.3243383.9379254862659744223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/dev
-    old: 67fe7be7dffd0e27bcba472777d34b59b90f7330
-    new: 54d94c422fed9575b74167333c1757847a4e6899
+  - ref: refs/heads/main
+    old: 4f26509289d0cf23d5efbeeb7add54d2cd55473f
+    new: 41b981c133a086274d2da8fde71e6bdce3c42fd0
     log: |
-         54d94c422fed9575b74167333c1757847a4e6899 lsm: CONFIG_LSM can depend on CONFIG_SECURITY
+         41b981c133a086274d2da8fde71e6bdce3c42fd0 iplink: bond_slave: add support for actor_port_prio
          
-  - ref: refs/heads/next
-    old: 67fe7be7dffd0e27bcba472777d34b59b90f7330
-    new: 54d94c422fed9575b74167333c1757847a4e6899
+  - ref: refs/heads/master
+    old: 4f26509289d0cf23d5efbeeb7add54d2cd55473f
+    new: 41b981c133a086274d2da8fde71e6bdce3c42fd0
     log: |
-         54d94c422fed9575b74167333c1757847a4e6899 lsm: CONFIG_LSM can depend on CONFIG_SECURITY
+         41b981c133a086274d2da8fde71e6bdce3c42fd0 iplink: bond_slave: add support for actor_port_prio
          
