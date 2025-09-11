@@ -1,52 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1165971627389335168=="
+Content-Type: multipart/mixed; boundary="===============2944138420295349850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 11 Sep 2025 10:07:23 -0000
-Message-Id: <175758524356.2478725.12927498810896048079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 11 Sep 2025 10:23:49 -0000
+Message-Id: <175758622944.2491557.16598811681463601028@gitolite.kernel.org>
 
---===============1165971627389335168==
+--===============2944138420295349850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/tags/wireless-next-2025-09-11
-    old: 0000000000000000000000000000000000000000
-    new: e3a49289de191486770ef323e03ea8e309040b54
+  - ref: refs/heads/ras/core
+    old: 9f34032ec0deef58bd0eb7475f1981adfa998648
+    new: 8541d643578f5fc7919e3982667c5dedab597bf5
+    log: revlist-9f34032ec0de-8541d643578f.txt
 
---===============1165971627389335168==
+--===============2944138420295349850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9f34032ec0de-8541d643578f.txt
 
-certificate version 0.1
-pusher 7BF9099A 1757585269 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1757585218-aa90049338b10e470ec2fee2665c6a4dc36ac9b1
+cfffcf97997bd35f4a59e035523d1762568bdbad x86/mce: Set CR4.MCE last during init
+669ce4984b729ad5b4c6249d4a8721ae52398bfb x86/mce: Define BSP-only init
+c6e465b8d45a1bc717d196ee769ee5a9060de8e2 x86/mce: Define BSP-only SMCA init
+a46b2bbe1e36e7faab5010f68324b7d191c5c09f x86/mce: Do 'UNKNOWN' vendor check early
+7eee1e92684507f64ec6a75fecbd27e37174b888 x86/mce: Separate global and per-CPU quirks
+91af6842e9945d064401ed2d6e91539a619760d1 x86/mce: Move machine_check_poll() status checks to helper functions
+5c6f123c419b6e20f84ac1683089a52f449273aa x86/mce: Add a clear_bank() helper
+53b3be0e79ef80da524a99eef51a2ca642d4e134 x86/mce: Unify AMD THR handler with MCA Polling
+cf6f155e848b8e014010c1b69338d30368214ab9 x86/mce: Unify AMD DFR handler with MCA Polling
+fe02d3d00b06850b131d6baafaae64ca80eddd71 x86/mce/amd: Enable interrupt vectors once per-CPU on SMCA systems
+9b92e18973ce199a4439c0bf572316b109556323 x86/mce/amd: Support SMCA corrected error interrupt
+922300abd79d9eac241a531579db3b5dfb2dd1a9 x86/mce/amd: Remove redundant reset_block()
+5a92e88ffc49c383472f4b686d1bbe89e7b33cf3 x86/mce/amd: Define threshold restart function for banks
+c8f4cea38959dad58e1bb52cac9dab2f2fa45a9a x86/mce: Handle AMD threshold interrupt storms
+8541d643578f5fc7919e3982667c5dedab597bf5 x86/mce: Save and use APEI corrected threshold limit
 
-0000000000000000000000000000000000000000 e3a49289de191486770ef323e03ea8e309040b54 refs/tags/wireless-next-2025-09-11
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmjCn3UACgkQ10qiO8sP
-aABeWA//YTF+4Ml2ar9H/pt4kUwSJd1aKMRBlesXivFZ+FeVcylEEyyl62nDWJAW
-m3Q+WtiQYa9MtCo1iFb/oxGUts1DvgkSInmWcmR0o9iMQv+PIm+znatTIuCvZH27
-JmMNn5GHglnSK6tLcg+r8yDKOa60Pl01XxzqJw1AfuM8RYwd732YTMucLRxQSjNv
-8xvJInOLL2cO0No/CsCgZjeBIBoVHvh39AmniASfVjwp5AIQKqW2fXu/e4dGFh3Y
-3UawGcc3v/7imdsFf110q/fpQguKAGMsO/agiFUMwq3o4ymNtCylQg2vaPE3u6rC
-+6yjkQbaRfechyx+IAv9QhwVdyD40IH6TP/E9/SME/uXfjeXHmYg5f2sISBwILOF
-KLaBMSn8mTYPLHtQE6xdHaejfr6ofE7+j8Wm2ZLbW5QEQc+NKIKHXqby5fPncyqu
-hHj1NI5J6Kk0/ojg7fVpEqcfS04IPel+CXj/5cRko0UPrmRL0n7q/jXU3/vpnhHA
-3H3gZuV5uZ3BXFm5I+Gu1SHV3rNZDpsKB2Ui/a7qG5lMH4O8Wn8jX28x/6BEIoDJ
-O+oUfLp1cM3Uy67baltjge5AFmKybL+2Vor5tQrPAKmZPe4UtWGNLY8ACwDtkMKG
-9UPeAKER/PArdykJ+/EuK5yLZA7AWRggspiRZ7GPHCC8MZUDjuU=
-=XZRz
------END PGP SIGNATURE-----
-
---===============1165971627389335168==--
+--===============2944138420295349850==--
