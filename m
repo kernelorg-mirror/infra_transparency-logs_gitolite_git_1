@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 11 Sep 2025 05:38:02 -0000
-Message-Id: <175756908291.2198625.9758423420564491155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 11 Sep 2025 06:00:29 -0000
+Message-Id: <175757042985.2217977.14656313603946930581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/for-6.17-rc4-tag
-    old: 6b614cc742e3ed71e0a20059b30894adbbf2c4c0
+  - ref: refs/heads/test/auto-cleanup
+    old: 3c30d57544bf91d6adaf3cab8474194e4c4404bc
     new: 0000000000000000000000000000000000000000
