@@ -1,45 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2944138420295349850=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 11 Sep 2025 10:23:49 -0000
-Message-Id: <175758622944.2491557.16598811681463601028@gitolite.kernel.org>
-
---===============2944138420295349850==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 11 Sep 2025 10:24:29 -0000
+Message-Id: <175758626961.2492492.1634435596331411438@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/ras/core
-    old: 9f34032ec0deef58bd0eb7475f1981adfa998648
-    new: 8541d643578f5fc7919e3982667c5dedab597bf5
-    log: revlist-9f34032ec0de-8541d643578f.txt
-
---===============2944138420295349850==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f34032ec0de-8541d643578f.txt
-
-cfffcf97997bd35f4a59e035523d1762568bdbad x86/mce: Set CR4.MCE last during init
-669ce4984b729ad5b4c6249d4a8721ae52398bfb x86/mce: Define BSP-only init
-c6e465b8d45a1bc717d196ee769ee5a9060de8e2 x86/mce: Define BSP-only SMCA init
-a46b2bbe1e36e7faab5010f68324b7d191c5c09f x86/mce: Do 'UNKNOWN' vendor check early
-7eee1e92684507f64ec6a75fecbd27e37174b888 x86/mce: Separate global and per-CPU quirks
-91af6842e9945d064401ed2d6e91539a619760d1 x86/mce: Move machine_check_poll() status checks to helper functions
-5c6f123c419b6e20f84ac1683089a52f449273aa x86/mce: Add a clear_bank() helper
-53b3be0e79ef80da524a99eef51a2ca642d4e134 x86/mce: Unify AMD THR handler with MCA Polling
-cf6f155e848b8e014010c1b69338d30368214ab9 x86/mce: Unify AMD DFR handler with MCA Polling
-fe02d3d00b06850b131d6baafaae64ca80eddd71 x86/mce/amd: Enable interrupt vectors once per-CPU on SMCA systems
-9b92e18973ce199a4439c0bf572316b109556323 x86/mce/amd: Support SMCA corrected error interrupt
-922300abd79d9eac241a531579db3b5dfb2dd1a9 x86/mce/amd: Remove redundant reset_block()
-5a92e88ffc49c383472f4b686d1bbe89e7b33cf3 x86/mce/amd: Define threshold restart function for banks
-c8f4cea38959dad58e1bb52cac9dab2f2fa45a9a x86/mce: Handle AMD threshold interrupt storms
-8541d643578f5fc7919e3982667c5dedab597bf5 x86/mce: Save and use APEI corrected threshold limit
-
---===============2944138420295349850==--
+  - ref: refs/heads/main
+    old: 7f0b763b818064b317122b6d5e20c59802615eb2
+    new: 5adf6f2b9972dbb69f4dd11bae52ba251c64ecb7
+    log: |
+         cda276bcb9a5c3d53620b3af9c372a87e0f92583 ipv4: cipso: Simplify IP options handling in cipso_v4_error()
+         0d3c4a441686663ad34aa3d6abe8c5317d21e707 ipv4: icmp: Pass IPv4 control block structure as an argument to __icmp_send()
+         4a8c416602d97a4e2073ed563d4d4c7627de19cf ipv4: icmp: Fix source IP derivation in presence of VRFs
+         c068ba9d3ded56cb1ba4d5135ee84bf8039bd563 selftests: traceroute: Return correct value on failure
+         47efbac9b768553331b9459743a29861e0acd797 selftests: traceroute: Use require_command()
+         5c9c78224fc3045c8ffe1a4c7d25d277e2e02b7b selftests: traceroute: Reword comment
+         2e6428100b1613d85d5442c14ee18c5a47054daf selftests: traceroute: Test traceroute with different source IPs
+         f7240999deb45f15c37b357852be2da23c2ea2d3 selftests: traceroute: Add VRF tests
+         5adf6f2b9972dbb69f4dd11bae52ba251c64ecb7 Merge branch 'ipv4-icmp-fix-source-ip-derivation-in-presence-of-vrfs'
+         
