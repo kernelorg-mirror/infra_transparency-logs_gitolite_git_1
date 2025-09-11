@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 11 Sep 2025 18:43:10 -0000
-Message-Id: <175761619007.3128832.2910931410750363565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 11 Sep 2025 19:36:31 -0000
+Message-Id: <175761939151.3171927.15978158067677005267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/renesas-r9a09g047-dt-binding-defs
-    old: f21923f3f410f84528b5e7bdcbe4afdc6f07010c
-    new: a24cd110e664396061b0a72930734bf419bf88c4
+  - ref: refs/heads/dev-test
+    old: 181993bb0d626cf88cc803f4356ce5c5abe86278
+    new: 1fcf686def19064a7b5cfaeb28c1f1a119900a2b
     log: |
-         a24cd110e664396061b0a72930734bf419bf88c4 dt-bindings: clock: renesas,r9a09g047-cpg: Add USB3.0 core clocks
+         1fcf686def19064a7b5cfaeb28c1f1a119900a2b erofs: fix long xattr name prefix placement
          
