@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Sep 2025 00:56:36 -0000
-Message-Id: <175755219615.1954670.9116989274273280563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 11 Sep 2025 00:57:40 -0000
+Message-Id: <175755226003.1955223.13511764110741089078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 78dd8ad62cad4f5af22afc842890d531312bbb8a
-    new: 5537a4679403423e0b49c95b619983a4583d69c5
+    old: deb105f49879dd50d595f7f55207d6e74dec34e6
+    new: 38611e5adae32e2546636ba930807f89c04061a1
     log: |
-         6fef6ae764be8a77f61ad3b6937ba82fe8358045 net: ethtool: fix wrong type used in struct kernel_ethtool_ts_info
-         5537a4679403423e0b49c95b619983a4583d69c5 net: usb: asix: ax88772: drop phylink use in PM to avoid MDIO runtime PM wakeups
+         38611e5adae32e2546636ba930807f89c04061a1 net: mana: Remove redundant netdev_lock_ops_to_full() calls
          
