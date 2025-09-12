@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Fri, 12 Sep 2025 05:27:08 -0000
-Message-Id: <175765482806.3686111.16187293885966379075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 12 Sep 2025 05:54:43 -0000
+Message-Id: <175765648342.3708051.7230466623427129906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: b06578497e6f32fa181235f5a64746c7d40259e6
-    new: 00f2bf97544cdc7e5b166d19f896f5eaa2bb02ae
+  - ref: refs/heads/for-next
+    old: 3c30d57544bf91d6adaf3cab8474194e4c4404bc
+    new: e135eeef0b25d44fe71dc3b71b0106d48d825470
     log: |
-         00f2bf97544cdc7e5b166d19f896f5eaa2bb02ae MAINTAINERS: Update Michael Jamet's maintainer entries
+         e135eeef0b25d44fe71dc3b71b0106d48d825470 ALSA: aoa: Remove redundant size arguments from strscpy()
+         
+  - ref: refs/heads/master
+    old: 94c6c305248b914a8fddfb7c74039ecb7bfac15b
+    new: ffe89e9561bbc26ecf641efab6518ae4888cec31
+    log: |
+         e135eeef0b25d44fe71dc3b71b0106d48d825470 ALSA: aoa: Remove redundant size arguments from strscpy()
+         ffe89e9561bbc26ecf641efab6518ae4888cec31 Merge branch 'for-next'
          
