@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6758480299000993468=="
+Content-Type: multipart/mixed; boundary="===============3766375855425560479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 12 Sep 2025 06:11:07 -0000
-Message-Id: <175765746781.3774504.12349520806988585984@gitolite.kernel.org>
+Date: Fri, 12 Sep 2025 06:11:50 -0000
+Message-Id: <175765751044.3774971.2843766739629658334@gitolite.kernel.org>
 
---===============6758480299000993468==
+--===============3766375855425560479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,52 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0a5f56aff154a781eee9667abf33b8f5f3e0d08b
-    new: 311ac9db7e2ef2a30cea611a6d9b5750718c37a0
-    log: revlist-0a5f56aff154-311ac9db7e2e.txt
+    old: 311ac9db7e2ef2a30cea611a6d9b5750718c37a0
+    new: fc1ded58808520a1ced0c4e2e5fb0dbd33b33612
+    log: revlist-311ac9db7e2e-fc1ded588085.txt
+  - ref: refs/heads/tip/urgent
+    old: 1da2cf67f78940eda96dea9000d2b011a61d296e
+    new: 72dfe83e9fe2a9ebae30b0045c05a0ececd844e8
+    log: revlist-1da2cf67f789-72dfe83e9fe2.txt
 
---===============6758480299000993468==
+--===============3766375855425560479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a5f56aff154-311ac9db7e2e.txt
+Content-Disposition: attachment; filename=revlist-311ac9db7e2e-fc1ded588085.txt
+
+bc0db799ba3b4c135d44ceee39cb3e73add8889f Merge branch into tip/master: 'timers/urgent'
+72dfe83e9fe2a9ebae30b0045c05a0ececd844e8 Merge branch into tip/master: 'x86/urgent'
+51172f4b50b79fe28e526e51c53bee98b64e1e52 Merge branch into tip/master: 'core/bugs'
+f519174f94ad6af3acce7830d941637ed0dcde70 Merge branch into tip/master: 'irq/core'
+36da7b4f97bc6aa0ae0d19951c084d3df8fe1a26 Merge branch into tip/master: 'irq/drivers'
+6953c7f11c81d094d6558db508553552c76a1465 Merge branch into tip/master: 'locking/futex'
+3ba935aa520bbef0778e7d55648ea71166e45c31 Merge branch into tip/master: 'perf/core'
+39375c19d930feb14813f34bc9d6f1873f762355 Merge branch into tip/master: 'ras/core'
+113f06eb62a1862676fcaa2ff490a0e97b4083fa Merge branch into tip/master: 'sched/core'
+9564a0642ad819ecd37b453f638d2fbf421b7226 Merge branch into tip/master: 'timers/clocksource'
+77c266fb00f1fa87f2c74ef3b39a7b1b68dff93b Merge branch into tip/master: 'timers/core'
+000430f44def83527eb272e8bcd57dc361401532 Merge branch into tip/master: 'timers/vdso'
+d813f4d4a694e4d947d7c9c5e2e11bc1e738b968 Merge branch into tip/master: 'x86/apic'
+31b3bf322ddb60e270700d8626ad53fbf8b308ae Merge branch into tip/master: 'x86/asm'
+b60e13306778b382b7e61ffd3b75eb46bfc7cd0a Merge branch into tip/master: 'x86/bugs'
+d1809f6cb3245cce31a6d7eef819506d36c0696e Merge branch into tip/master: 'x86/build'
+ac4f738f1dcfa846fee24c186169cac974d9e701 Merge branch into tip/master: 'x86/cache'
+e46448d0bf4ff853ce40392f48dae9540a34fae4 Merge branch into tip/master: 'x86/cleanups'
+1f3bc75d7711b53301374dd162268f8df4a11a84 Merge branch into tip/master: 'x86/core'
+fa02132c25adedc19fdc646282f41eb378ecd13c Merge branch into tip/master: 'x86/cpu'
+bb6d9deefe5a222791aaf91ea80fa2b31e1d9ddd Merge branch into tip/master: 'x86/entry'
+6002294ce34f3aab426a27278e72b8debf9643fd Merge branch into tip/master: 'x86/microcode'
+fcec4f5f9dddf4156387ded94f0c8f116869e96f Merge branch into tip/master: 'x86/misc'
+37b1a5c36c3eda8ad01ddb1e4d705ce62db7f41c Merge branch into tip/master: 'x86/mm'
+87c6cbc9be190ba5c2b342fc43caec441f18a987 Merge branch into tip/master: 'x86/sev'
+fc1ded58808520a1ced0c4e2e5fb0dbd33b33612 Merge branch into tip/master: 'x86/tdx'
+
+--===============3766375855425560479==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1da2cf67f789-72dfe83e9fe2.txt
 
 9969779d0803f5dcd4460ae7aca2bc3fd91bff12 Documentation/hw-vuln: Add VMSCAPE documentation
 a508cec6e5215a3fbc7e73ae86a5c5602187934d x86/vmscape: Enumerate VMSCAPE bug
@@ -154,9 +191,8 @@ b10c31b70bf00ba4688c4b364691640a92b7f4bf Merge tag 'for-6.17-rc5-tag' of git://g
 a1228f048a314b9280784a2cbd757cac74705589 Merge tag 'pm-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e59a039119c3ec241228adf12dca0dd4398104d0 Merge tag 's390-6.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 db87bd2ad1f736c2f7ab231f9b40c885934f6b2c Merge tag 'net-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-e414b1005891d74bb0c3d27684c58dfbfbd1754b x86/virt/tdx: Use precalculated TDVPR page physical address
 320475fbd590dc94a0a3d9173f81e0797ee1a232 Merge tag 'mtd/fixes-for-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-7edeb1c327781738f0db266732562a8e8b993b6e Merge branch into tip/master: 'x86/tdx'
-311ac9db7e2ef2a30cea611a6d9b5750718c37a0 Merge branch 'linus'
+bc0db799ba3b4c135d44ceee39cb3e73add8889f Merge branch into tip/master: 'timers/urgent'
+72dfe83e9fe2a9ebae30b0045c05a0ececd844e8 Merge branch into tip/master: 'x86/urgent'
 
---===============6758480299000993468==--
+--===============3766375855425560479==--
