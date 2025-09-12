@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3863363400444331869=="
+Content-Type: multipart/mixed; boundary="===============8744386074061881558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 12 Sep 2025 14:33:55 -0000
-Message-Id: <175768763504.13523.3709901297467078019@gitolite.kernel.org>
+Date: Fri, 12 Sep 2025 14:34:05 -0000
+Message-Id: <175768764579.13840.2315017833946467896@gitolite.kernel.org>
 
---===============3863363400444331869==
+--===============8744386074061881558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/clk/imx
     old: c78865241ecffaff7ce5db00ed5b71c1a70c0ff1
     new: 14be8b7b6cbc0a072c749e46e28d66e0ea6d0857
     log: revlist-c78865241ecf-14be8b7b6cbc.txt
 
---===============3863363400444331869==
+--===============8744386074061881558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 1B5F44C900951556 1757687677 +0300
+pusher 1B5F44C900951556 1757687695 +0300
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/abelvesa/linux
-nonce 1757687624-3d3755a88177c6f4abf94464f43be61526337179
+nonce 1757687642-539cea41dd74f32eb72197a5457e49613c71597d
 
-c78865241ecffaff7ce5db00ed5b71c1a70c0ff1 14be8b7b6cbc0a072c749e46e28d66e0ea6d0857 refs/heads/for-next
+c78865241ecffaff7ce5db00ed5b71c1a70c0ff1 14be8b7b6cbc0a072c749e46e28d66e0ea6d0857 refs/heads/clk/imx
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmjEL30ACgkQG19EyQCV
-FVZkfA/9GH58p6e8j+mfOiaZegZmiIPW8ovUrCq0tKQo8bWc9DQROnThpfUJeWHK
-+DTRa4B6mJHRwvlTg2I6wqCSvhyqsP1xh+E57w4JxjXQZVfYVjqRaKgXOZI49E4d
-82iMK9evxNwhmxbRLmuGvHQFPKT6TrJcN1AP9a+LcWqs89OW70bRIxb2BcQUDxq6
-Np7x91+TgmPfdfckvvqwEG/E4wN3p1WsM1PcXOwQAZU1J/q7dM9zMDumSAW/EbvV
-DrunHsUj483l9r0m2v2cH40T7mFAbFuNudKgHTQLbEWteyzEJhUdcMXIvsg8fHpZ
-8p1bqg7+slC301uM+l6fFAaN1OfGFAvqgxZhyEY3q1sEGV+RPeSGtp+sgSCaZdcD
-elxg1JgWLqfLr0i2KlN2c0tAi5YOCqA3oRaV0QJFXJg0M0HTPSAfekQ/W7ooxXjz
-HCTnWGDXY6ux1mJC+fdyfgCxYTwQARA9vHy/MNSG0sADu0B5q1CFMcOFLlIPvw4d
-4kn5S8OItzUL95qMv6/E5iSHfkE6ueU4varvQ8tgMBtelvjikINztMMpme/r6r+5
-7ugrMOqhR0gUQVvGlY1jJqRcW/ZzeDM8WT5rjNsCZDSWBvz2YG2pkbyD31J+aiP8
-CBMEgvbOf+tGMO3ow2tfyaEC/yANnqeJumf5qErfNW4frg+8PP8=
-=RkbM
+iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmjEL48ACgkQG19EyQCV
+FVa5MBAAukhPum8VXQQPkWfs9Lk1Nr9fN1xeay2h2sOWzQgEqtU38Wk0HVKBANQ8
+CSUkCMHXQL4VpVwlyQgksYu+VjmmcwrW3HaHrL5+SPgrsapzZGKl6Ai/+ghhAjVG
+nOGGbVe8+z5eUF7eRL0WaIGOeja50Exb90vpjLbE+DmYxtPCyascWO72TIeFAP8s
+NoL0FWF8FK+o+r+HQEp+TboMCuN5ak7dENBUyU7F/DT1hvUGxP/0SCMbwXb6INMe
+Z+IWu34IOsIeWdo9uONqucrpg356+qXhrimBROI3ZIfips/ZwGqr9tnzk5Ln9Ui9
+6W9FLMObiJksJ8bhIZ/yqGa8Ul2MQmpchaL/Rn5XRjGp/AAf+x6FiAc3lLBDh3da
+wg1KJNLaF64fHwxAYO4Va6fWCNaXgtPMTlhB5uU7cNso/gy3A17JvpJN9xnPZYHM
+06lsKLcP1WGWhGYIMi0aNDagUv4lOQFbIrQWJm6JKfdxJzR90qTCIW+VzC6oG5YD
+/aT8udbsjQ6rNweszrB77kDaBVe6OeRoyEVEjiToVIlUP8CXksCM1K2anBXPi5HK
+XQr1+MujR30RYHGmr0wlwOhoD0CLTzyI+48B28nuDsxjZtl7hynmRsX8ySDzh5K8
+oKq8dkYDisorZ7HgORJtx3ECids5wKLA/1fanSdf0puxvUR3evM=
+=PllL
 -----END PGP SIGNATURE-----
 
---===============3863363400444331869==
+--===============8744386074061881558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,4 +1081,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 aa1735d72bc085c4d107fb2017c597f83bb9490c clk: imx95-blk-ctl: Save platform data in imx95_blk_ctl structure
 14be8b7b6cbc0a072c749e46e28d66e0ea6d0857 clk: imx95-blk-ctl: Save/restore registers when RPM routines are called
 
---===============3863363400444331869==--
+--===============8744386074061881558==--
