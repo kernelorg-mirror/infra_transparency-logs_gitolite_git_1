@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Thu, 11 Sep 2025 23:54:48 -0000
-Message-Id: <175763488841.3394766.14962812898502196269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 12 Sep 2025 00:20:52 -0000
+Message-Id: <175763645202.3417146.3723757879889518092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: cd032134baa6cd3e4b182be7a52a3299b4c82783
-    new: 4352eee2bcd226aa929fdcad6974f3dc73788a41
+    old: 5adf6f2b9972dbb69f4dd11bae52ba251c64ecb7
+    new: 5f790208d68fe1526c751dc2af366c7b552b8631
     log: |
-         4352eee2bcd226aa929fdcad6974f3dc73788a41 feat(macro): tpm_struct_cast!
+         5f790208d68fe1526c751dc2af366c7b552b8631 net: phy: fixed_phy: remove two function stubs
          
