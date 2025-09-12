@@ -1,46 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============3473009970162597984=="
+Content-Type: multipart/mixed; boundary="===============4724946366372921647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/david/linux
-Date: Fri, 12 Sep 2025 12:16:21 -0000
-Message-Id: <175767938188.4085301.11594862265161366728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Fri, 12 Sep 2025 12:24:42 -0000
+Message-Id: <175767988215.4091228.961683853882338717@gitolite.kernel.org>
 
---===============3473009970162597984==
+--===============4724946366372921647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/david/linux
-user: david
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/guestmemfd-preview
-    old: 5a43d9403765d7bbf85829adcaada918b174d398
-    new: 911634bac3107b237dcd8fdcb6ac91a22741cbe7
-    log: revlist-5a43d9403765-911634bac310.txt
+  - ref: refs/heads/devel
+    old: 5e302106099efc8a309d92ad84cb37d35d6c3775
+    new: 8c2467dea393622123f66b38fa4ca695670eb656
+    log: revlist-5e302106099e-8c2467dea393.txt
+  - ref: refs/heads/for-next
+    old: 1c84a6b2ca9400516d3659dcb5515ffcd09fc801
+    new: d64911c0050612c226e6cf503a1c2434c8584d5a
+    log: revlist-1c84a6b2ca94-d64911c00506.txt
 
---===============3473009970162597984==
+--===============4724946366372921647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a43d9403765-911634bac310.txt
+Content-Disposition: attachment; filename=revlist-5e302106099e-8c2467dea393.txt
 
-838bb6938b9813d42e6434dd195a572a29b2047f mm/filemap: Add NUMA mempolicy support to filemap_alloc_folio()
-b835061e31c68e2221f45c8eceb7aa91905de7cd mm/filemap: Extend __filemap_get_folio() to support NUMA memory policies
-47a8c310366fdc9a9d8fa641e190076a609f0f5a mm/mempolicy: Export memory policy symbols
-156022331db57505807dc8f74830abdc7df8b965 filemap: Pass address_space mapping to ->free_folio()
-bf1164cbb7edf821f7595ef41506e9320e6ae3fe arch: export set_direct_map_valid_noflush to KVM module
-6ffb355b14a4087723b76520b0189771734c37e9 mm: introduce AS_NO_DIRECT_MAP
-0c49656519cad0c030daab6d315795cd21ad1eb2 KVM: guest_memfd: Add stub for kvm_arch_gmem_invalidate
-fcba0c3b74f6661a8a63b59101a87871c482acb5 KVM: guest_memfd: Add flag to remove from direct map
-c2fa9e47c5604e72fa90b14c7d6a329bf8c57c76 KVM: selftests: load elf via bounce buffer
-28cb2e6f2ba8ae943db6715f48edf62764bb4975 KVM: selftests: set KVM_MEM_GUEST_MEMFD in vm_mem_add() if guest_memfd != -1
-e23fb9af3d163ad61cd4850114f6625153a8bfe5 KVM: selftests: Add guest_memfd based vm_mem_backing_src_types
-b7165b512bc9871be42bed2a0f42e47fda937728 KVM: selftests: stuff vm_mem_backing_src_type into vm_shape
-4ee6123ff009d2cbd9e6a7aeb4e70d742c11dd59 KVM: selftests: cover GUEST_MEMFD_FLAG_NO_DIRECT_MAP in existing selftests
-ec6c084ce5ee967610170e101b1e51f0efd68beb KVM: selftests: Test guest execution from direct map removed gmem
-390a95ab49e4c65973fb089efd5de189b431f023 KVM: guest_memfd: add generic population via write
-911634bac3107b237dcd8fdcb6ac91a22741cbe7 KVM: selftests: update guest_memfd write tests
+03724b3496cb0272a5050a989ebf2494b1ff5a55 dt-bindings: pinctrl: samsung: Add compatible for ARTPEC-8 SoC
+d4ac729964d8967261fe15fdc8f249729f923120 pinctrl: samsung: Add ARTPEC-8 SoC specific configuration
+358253fa8179ab4217ac283b56adde0174186f87 pinctrl: samsung: Drop unused S3C24xx driver data
+d37db94b078197ec4be1cadebbfd7bf144e3c5e4 dt-bindings: pinctrl: samsung: Drop S3C2410
+30247fc3254a4502465ab809d49e2167ace5a6f2 pinctrl: renesas: rzg2l: Fix OEN resume
+837afa592c6234be82acb5d23e0a39e9befdaa85 pinctrl: renesas: rzg2l: Add suspend/resume support for Schmitt control registers
+9f062fc5b0ff44550088912ab89f9da40226a826 pinctrl: renesas: Use int type to store negative error codes
+512bf60226c621893729605121a396240e84a5d4 pinctrl: renesas: r8a779g0: Fix trivial typo in SoC type comment
+cb730dac4a1870ef66a7c3838fcd84de1809ddc7 Merge tag 'samsung-pinctrl-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/samsung into devel
+334ef450cc97b448ba0771f1e6c182eae0b50e7a Merge tag 'renesas-pinctrl-for-v6.18-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
+8c2467dea393622123f66b38fa4ca695670eb656 pinctrl: Simplify printks with pOF format
 
---===============3473009970162597984==--
+--===============4724946366372921647==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1c84a6b2ca94-d64911c00506.txt
+
+03724b3496cb0272a5050a989ebf2494b1ff5a55 dt-bindings: pinctrl: samsung: Add compatible for ARTPEC-8 SoC
+d4ac729964d8967261fe15fdc8f249729f923120 pinctrl: samsung: Add ARTPEC-8 SoC specific configuration
+358253fa8179ab4217ac283b56adde0174186f87 pinctrl: samsung: Drop unused S3C24xx driver data
+d37db94b078197ec4be1cadebbfd7bf144e3c5e4 dt-bindings: pinctrl: samsung: Drop S3C2410
+30247fc3254a4502465ab809d49e2167ace5a6f2 pinctrl: renesas: rzg2l: Fix OEN resume
+837afa592c6234be82acb5d23e0a39e9befdaa85 pinctrl: renesas: rzg2l: Add suspend/resume support for Schmitt control registers
+9f062fc5b0ff44550088912ab89f9da40226a826 pinctrl: renesas: Use int type to store negative error codes
+512bf60226c621893729605121a396240e84a5d4 pinctrl: renesas: r8a779g0: Fix trivial typo in SoC type comment
+cb730dac4a1870ef66a7c3838fcd84de1809ddc7 Merge tag 'samsung-pinctrl-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/samsung into devel
+334ef450cc97b448ba0771f1e6c182eae0b50e7a Merge tag 'renesas-pinctrl-for-v6.18-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into devel
+8c2467dea393622123f66b38fa4ca695670eb656 pinctrl: Simplify printks with pOF format
+d64911c0050612c226e6cf503a1c2434c8584d5a Merge branch 'devel' into for-next
+
+--===============4724946366372921647==--
