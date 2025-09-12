@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7509711672362568645=="
+Content-Type: multipart/mixed; boundary="===============5920384570413844632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 12 Sep 2025 12:05:35 -0000
-Message-Id: <175767873593.4075415.577052471941279733@gitolite.kernel.org>
+Date: Fri, 12 Sep 2025 12:08:55 -0000
+Message-Id: <175767893520.4077100.1171171423703852769@gitolite.kernel.org>
 
---===============7509711672362568645==
+--===============5920384570413844632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 21188e8d6d75900f35c2acc8baa5a6ed4aec5af7
-    new: daf161343a3904f6699febbfb1e18d532371ba00
+    old: daf161343a3904f6699febbfb1e18d532371ba00
+    new: 44bbcba50d55ca97e09b0eaa7c1e6bf97b9f425d
     log: |
-         121a0f839dbb397af5fabb701cea3e9983223e50 usb: misc: Add Intel USBIO bridge driver
-         c122451ce04e6991316ed37bac41d45646942027 gpio: Add Intel USBIO GPIO driver
-         daf161343a3904f6699febbfb1e18d532371ba00 i2c: Add Intel USBIO I2C driver
+         ddb473a51b4bf33d040d827ae9a8724ee5ef1a36 usb: xhci-plat: separate dev_pm_ops for each pm_event
+         7f70b89b2be66c03ddc76d3ad8aebeeec4a9c505 usb: offload: add apis for offload usage tracking
+         ef82a4803aabaf623bfcae07981406f1386eabf9 xhci: sideband: add api to trace sideband usage
+         38d627bc8522a6a2fd6f9454c8b3b5d3848f5f03 usb: host: enable USB offload during system sleep
+         44bbcba50d55ca97e09b0eaa7c1e6bf97b9f425d Merge patch series "Support system sleep with offloaded usb transfers" into usb-next
          
 
---===============7509711672362568645==
+--===============5920384570413844632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757678784 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757678983 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1757678731-e4e91296093b02ce9d55ab9163087ed4439b4cbc
+nonce 1757678931-3c6e94120e95bdf158f52ea463a0d927f4c6b290
 
-21188e8d6d75900f35c2acc8baa5a6ed4aec5af7 daf161343a3904f6699febbfb1e18d532371ba00 refs/heads/usb-testing
+daf161343a3904f6699febbfb1e18d532371ba00 44bbcba50d55ca97e09b0eaa7c1e6bf97b9f425d refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjEDMAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fHkP+QF5plYDnkenUEw4qhTl
-lpUuGof+eU5wWApfo0i/UXmKwqvuddFETqXCipzJlRNmMvuuAQPKgVKiw2y2Q7gB
-bwnxD9A5onX/a7a0RJ+bcAjZ2qlhJnexhp/N/Ix7POqP9PVU2ZJeqSI+3pkDDg33
-pcncs51xVVvGs3mOdORzEzFRbEeQ0uVFXkvN3h6wxsXmhZzcLRK6Gnyp/NqJNezE
-b0F4TbGrMCLFWAYDYmUYi4I+oYjcoQ0TL+SeM5pZ61xHT7Rm4pKZxGnCWDAPZjr7
-60ypkh28oKWukaq8Drz/zJKDHvfn49bNKurm1w3FD1Pwtt9zVf3CdtR5HUuyAkl+
-ctoPwG6AUazrfHcRQgs+HBeUHnFYXXkkNYgDUEYbTA8Cs5M3qL3Nlo5+ZI34gLGc
-/pfGQC6E1qoKanre8muMvRoxqf7IP+2nodH+4ahA3g1O5e1oiXgLR3adirKCXCEy
-WdhJEnJe6hJsSrC5CVxDbdFTAXMdPaoDC9yI9GgBF7srHRnSuLU7mkYOQEO+cXQ6
-PPmj8PnRhRDXuVUDewsDZOS3wjougHZduYAn//5EuKv8DePAANgd2mdPOJWNsb4v
-Gml+vrsOqW/16IquCm68T0UUb9UzZdVdbCtSnA3k3OJ5dbCb4TS6+FzD4tAG2JR/
-PcgxTYdK+stqflR7VmYr08qd
-=QKsA
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjEDYcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oV0P+weLc9eQultFPb3zIlC2
+bREETEEk2woTptrCmJAdK5i79oWSpuLZxk/t4AZXaPAXOiJJ4YFvb7X2swfqM5AB
+pqx1XNgwTi8AoUTyeWqxznWEbu64woOGrm4XgBwLksLWnTfaL0vGm51ZPz/43GAT
+QpUMnLwvZt2KK2gaPMzSp0PlRknzuvPr9pVOud2GXJVHI7HoEbKR6+4JOZMArKqL
+wFm5SE0BL41UE+bXBgiHlHoWTi8AQ9+oQ5R/eD0h6/tDdVHzIXG+of2FVLQnQI2k
+6WGO3sUWmrQSxUTe3NgZW8XcLNS5hVF8aFe55bsNs2S2tgR+iRxrXygh0gW+VBOD
+4WM6vkIhKCLu1PBbSsTApSRPahF3G1EUt36hjESww3uz3ZqJDIWbK0SlSd+lAZrr
+ekMsR/wX7vm6REZ8V/i67wyIuJUrhLlmEvah8xcL8UcFSav5ok3PtMUt7lv4GXWG
+WGIhdo6yPUykZ39YOxWrk0bv1Q8kOKuxMIfhw5bMuj8UmLJTmk7KwC4Yvs91nol1
+eODb2XwgjbPkZEk0zPtv2dZAGmsYN3Vj7i/8dAe/xleb2OYMDGwmZ5vOfkAcaoHF
+acaIy8YxYcFWtJ9718XkZ5TG4hKNXe3if2pq47n83hgv7Ictgd263LTx76iINrTQ
+w2a96JRbyd1O0/z1p1TG3Uce
+=w43u
 -----END PGP SIGNATURE-----
 
---===============7509711672362568645==--
+--===============5920384570413844632==--
