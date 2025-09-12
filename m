@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6033020903509424376=="
+Content-Type: multipart/mixed; boundary="===============6257682674154196958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 12 Sep 2025 15:52:27 -0000
-Message-Id: <175769234775.87557.16499602714566470594@gitolite.kernel.org>
+Date: Fri, 12 Sep 2025 15:52:33 -0000
+Message-Id: <175769235326.87730.5103792148165071818@gitolite.kernel.org>
 
---===============6033020903509424376==
+--===============6257682674154196958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 5adf6f2b9972dbb69f4dd11bae52ba251c64ecb7
     new: dc2f650f7e6857bf384069c1a56b2937a1ee370d
     log: revlist-5adf6f2b9972-dc2f650f7e68.txt
 
---===============6033020903509424376==
+--===============6257682674154196958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -447,4 +447,4 @@ bf2650d0599c999cf2fdffa721b00e25989918fb Merge branch 'bridge-allow-keeping-loca
 999337afa51d9bd7941f6ace24923ba64690380f Merge branch 'tcp-destroy-tcp-ao-tcp-md5-keys-in-sk_destruct'
 dc2f650f7e6857bf384069c1a56b2937a1ee370d udp_tunnel: use netdev_warn() instead of netdev_WARN()
 
---===============6033020903509424376==--
+--===============6257682674154196958==--
