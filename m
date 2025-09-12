@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8688939677962155224=="
+Content-Type: multipart/mixed; boundary="===============4902458405006388178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 12 Sep 2025 15:38:49 -0000
-Message-Id: <175769152947.74330.15796518708713174451@gitolite.kernel.org>
+Date: Fri, 12 Sep 2025 15:38:52 -0000
+Message-Id: <175769153226.74483.3649724666877882126@gitolite.kernel.org>
 
---===============8688939677962155224==
+--===============4902458405006388178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 63a796558bc22ec699e4193d5c75534757ddf2e6
     new: 2690cb089502b80b905f2abdafd1bf2d54e1abef
     log: revlist-63a796558bc2-2690cb089502.txt
 
---===============8688939677962155224==
+--===============4902458405006388178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -261,4 +261,4 @@ db87bd2ad1f736c2f7ab231f9b40c885934f6b2c Merge tag 'net-6.17-rc6' of git://git.k
 5577352b55833d0f4350eb5d62eda2df09e84922 net/mlx5: Not returning mlx5_link_info table when speed is unknown
 2690cb089502b80b905f2abdafd1bf2d54e1abef dpaa2-switch: fix buffer pool seeding for control traffic
 
---===============8688939677962155224==--
+--===============4902458405006388178==--
