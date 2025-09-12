@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0554103261893618150=="
+Content-Type: multipart/mixed; boundary="===============8224289247086668121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 12 Sep 2025 03:29:05 -0000
-Message-Id: <175764774541.3588851.7779043036566166926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 12 Sep 2025 03:29:08 -0000
+Message-Id: <175764774884.3588948.1024904564918751872@gitolite.kernel.org>
 
---===============0554103261893618150==
+--===============8224289247086668121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 9ca01e9226dbbb523b49b4e583e1d522977b4fe6
     new: 34c2202f5ca2325511a0e0b8802492eec17a2c76
     log: |
@@ -25,28 +25,28 @@ changes:
          34c2202f5ca2325511a0e0b8802492eec17a2c76 spi: axi-spi-engine: improve version checks
          
 
---===============0554103261893618150==
+--===============8224289247086668121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1757647795 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1757647743-82b5eda95e0a60cf9d7449952502142c598fc020
+pusher C3F436CA30F5D8EB 1757647799 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1757647746-40468fb58ad42105b0df25b119230b99dcc7ccb5
 
-9ca01e9226dbbb523b49b4e583e1d522977b4fe6 34c2202f5ca2325511a0e0b8802492eec17a2c76 refs/heads/for-6.18
+9ca01e9226dbbb523b49b4e583e1d522977b4fe6 34c2202f5ca2325511a0e0b8802492eec17a2c76 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjDk7MACgkQJNaLcl1U
-h9BSkwf6AociZQY6byO9NWWSndX9Zt3qeIcSR/LL9IdJocy2EtomAWI9ofnkIHhW
-/p2bqXCNbxn/Yc7wavk+RBm2TI4lkefzgX9QzmmWWzdx+sS1tdcodNxYFQuzKUzV
-BUXEEAuGVWMRD2MJeW5FMS6iVImg7NSrM2rKW64+3LnoIsQYKtB82wCNBar4GFsP
-K1kc9YiL6guyGsrtwpI91wL80yb7R5nxoAU0GB1vMCaPzrb+xQ8bRTXtD5pxiSN+
-Al8mLgwtpx5pWKU+xSj+hjBtPhyVT+oedhDJEbhGlTbPXUbmAKoEZQyDbCZrUpnH
-ET7Owc3Ugo/7smXfQif6Wl+sL6MGIw==
-=MRDD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjDk7cACgkQJNaLcl1U
+h9DNdgf/Z6qDEwf6jlaafazzMlcjlBZLJC8pcfIv8Yy+D+hSHz5wH3JSw7737cmc
+FPuj53W7anhrj5+TU5yWH3QF5o1/HyQw1BvK/iQuY3HkBFqKAfF/yfGB7ts6ZaJz
+pFg0ngQjrwbhcYqAXsX8XNhqBr996k/Gjj9fBsu1j+QwMkYz+SZ6s9RygYgdj53p
+NY3PpA8U1kkJX7U4M8J0EpZOqtSIeKQpHoeljZ+GrqKkoPVtFVKmzRCgeLmBUQU1
+83kXSsT7EPW9BLLwoVxr7oJjoy9T6cEEQOVOQKy6/8P37Cnnj16boujOfwMUbbUg
+pODLOn1jknRZbvli94F0jVJRHYK4rA==
+=9ZeQ
 -----END PGP SIGNATURE-----
 
---===============0554103261893618150==--
+--===============8224289247086668121==--
