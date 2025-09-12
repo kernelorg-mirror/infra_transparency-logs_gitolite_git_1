@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2340972378220615603=="
+Content-Type: multipart/mixed; boundary="===============2971686170190235104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 12 Sep 2025 12:03:14 -0000
-Message-Id: <175767859485.4071947.10613702537965656358@gitolite.kernel.org>
+Date: Fri, 12 Sep 2025 12:04:07 -0000
+Message-Id: <175767864775.4072503.16710940356811244676@gitolite.kernel.org>
 
---===============2340972378220615603==
+--===============2971686170190235104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 6f9871b3e8c31953978db552c730a7e017e51d19
-    new: 5df186e2ef11dca3fb6f0f332dc09c4ac0bed870
+    old: 5df186e2ef11dca3fb6f0f332dc09c4ac0bed870
+    new: 21188e8d6d75900f35c2acc8baa5a6ed4aec5af7
     log: |
-         a5d2edb2c9fa48382aec1673c709c2919899527c usb: typec: tcpci: add wakeup support
-         e77ee1d2a8fa0f3179d4ac7b7d35b555da6a8cea usb: dwc2: Add support for 'maximum-speed' property
-         7bf1158514e410310aec975e630cec99d4e4092f usb: udc: Add trace event for usb_gadget_set_state
-         5df186e2ef11dca3fb6f0f332dc09c4ac0bed870 usb: xhci: tegra: Support USB wakeup function for Tegra234
+         643df901f7ead35a71552a61927ad665a15aa87f usb: dwc3: core: Introduce glue callbacks for flattened implementations
+         21188e8d6d75900f35c2acc8baa5a6ed4aec5af7 usb: dwc3: qcom: Implement glue callbacks to facilitate runtime suspend
          
 
---===============2340972378220615603==
+--===============2971686170190235104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757678643 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757678696 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1757678591-60e75d456c9a7baba86de6101f46e7aaea85ccef
+nonce 1757678643-4e5f2f6774c51e68645f5001d4bbffed6ff4d3fc
 
-6f9871b3e8c31953978db552c730a7e017e51d19 5df186e2ef11dca3fb6f0f332dc09c4ac0bed870 refs/heads/usb-testing
+5df186e2ef11dca3fb6f0f332dc09c4ac0bed870 21188e8d6d75900f35c2acc8baa5a6ed4aec5af7 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjEDDMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7YgP/AoTreXs0kBmPcKuzN2C
-zDlkh9vwc9HaL0cH4jmdY7KvUk6vB4AVfYXW23YRZOoL1lazfkdPrw72iXA43t89
-XC88WPbvF749BlcfrKyJQr+/vHEgWW98MG9ROf7kRRUV7+JsIFwoliF74g2GVCDV
-Ye62UN5m1OtJnp+3iw6kFnYq0YnAZRmDBNIexQXl4lJ1DlsVjKpw9CLpIf86CJxw
-JKnlnNm8BrYlBaEJkOyA4W5+m5qajKrnP7WoQ8FGdUSWHZxx1uuoYtLv/D+x1ux8
-qKAQw6x+LiGC47c9JTiwJchn+hld2W+JiwvsvqsaMl8pUgClRHPCA2jm56DbZHPo
-O3dY81WKUkNVGL+dbAmrvaj5blQm1H94Pqrz7Tnlk1FNDS44uNsQC4Kf4fxk5ctm
-pgruuOy7Puhv+Gw/lMOE+nFYSHZDH8aOH+6MCYphulFnbzsqBKZaSdUj+0vko9dK
-sS8KE8HPV/sucburvddsriw3KfsES5Ih6wF7YL31+sAvjWYrVkfXoKh4FSBgU2JE
-icyvn8l2rxQAoLV/CkSz4XBzIq5h7sHdySWkoecPRBm8PgKtbU3IzXIiHySakI8G
-k6bBOkNgcFpN1Sn7UX6VPZ07htoSbF4Q4mInFsXIwd2rO0Qek/yyCwBghd0AzjgH
-b6AAE3kgqIyFA/k+/AgBBbcn
-=rIl7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjEDGgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a50QANABVZk1DPJVLY2llCeF
+RoF24WeGLhb25h4kmf1u/zQIB0v7npUFjgVewrQEQMdC6cf01xgCqe2mqFtsLesc
+F6adBKIvFsg9GFQu3YmLRGHXOpXb4IXOvW2Vq8ySzzr3NvhDDMjfEI1l8i22Mtgm
+nsBODFxi+Z3PyhHHEbLKS0hHI2jqk8Rj5/cZ1neE8Z2r1r6wy6v51JymeWPTSJdr
+LSXQEPyyu5iOhljNdb223XsmzK0kn7j7yZGmnQhgsQEJ5Hd0h5I2INmIg5W03Tld
+7ZRBnNSENRjloCpqTnw/aPowxmLeTqr4zeCLIQszj1ic7Piv5+6yObicWajgkFzi
+jwg8+jz4Osp9NqByGrtFND0aKfsCe8A6/bRUJbRLNeBqUXNZhQ5NCbNhYJEKb9w9
+EBNwyRp/KtF29jAcJ73XDLm0mqWpMc9b59cUnJJLDsGd+0YVG0plzEK+I0Yt8C4A
+e2ie4AMzWMrXxcbu7k8pCYClpp0gsSjEw5IBpQTRkzKNTKLOQa4TUa8eqDaXr+oE
+rbgCbItUN+v95hr+kunIpsNc0twmPArLI5iRFttK29Ab3dpqeXHM+RK0gXjMe9t5
+nASHUHKrprdRuW5nUnsb70ujRZWv8tpgFNbw20m7h/uwEAwVZyZaaGmZYj10maaz
+ShXTvnGIgqrkpCw2JvZ1Vd92
+=/lFo
 -----END PGP SIGNATURE-----
 
---===============2340972378220615603==--
+--===============2971686170190235104==--
