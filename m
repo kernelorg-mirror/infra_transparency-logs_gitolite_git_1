@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 12 Sep 2025 02:34:16 -0000
-Message-Id: <175764445612.3541028.12566033226575358893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 12 Sep 2025 02:37:34 -0000
+Message-Id: <175764465429.3544215.12686417809000294151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 999337afa51d9bd7941f6ace24923ba64690380f
-    new: dc2f650f7e6857bf384069c1a56b2937a1ee370d
+  - ref: refs/heads/arm32-defconfig-for-v6.18
+    old: bcafdbaff25930db6c8866056e0f4071dc71ca97
+    new: 3e23fc50890d3f04ec8e3670c6927eb239930136
     log: |
-         dc2f650f7e6857bf384069c1a56b2937a1ee370d udp_tunnel: use netdev_warn() instead of netdev_WARN()
+         3e23fc50890d3f04ec8e3670c6927eb239930136 ARM: defconfig: Remove obsolete CONFIG_USB_EHCI_MSM
+         
+  - ref: refs/heads/clk-for-6.18
+    old: 9ff39b0468c3e04fee05d4e005d2fc03d28b1538
+    new: 4ca6a89f38718d6cd84304e6a26e7ddc90e03356
+    log: |
+         57c8e9da3dfe606b918d8f193837ebf2213a9545 clk: qcom: tcsrcc-x1e80100: Set the bi_tcxo as parent to eDP refclk
+         4ca6a89f38718d6cd84304e6a26e7ddc90e03356 clk: qcom: gcc-sc8280xp: drop obsolete PCIe GDSC comment
          
