@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============9153271795293293260=="
+Content-Type: multipart/mixed; boundary="===============0532842563426812496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 12 Sep 2025 01:09:44 -0000
-Message-Id: <175763938441.3462277.15581308521331142034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 12 Sep 2025 01:09:47 -0000
+Message-Id: <175763938782.3462594.5148910521923024624@gitolite.kernel.org>
 
---===============9153271795293293260==
+--===============0532842563426812496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 2c625f0fe2db4e6a58877ce2318df3aa312eb791
     new: 9ca01e9226dbbb523b49b4e583e1d522977b4fe6
     log: revlist-2c625f0fe2db-9ca01e9226db.txt
 
---===============9153271795293293260==
+--===============0532842563426812496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1757639434 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1757639382-320ffe98db761f8d3c4025af2175349ca0ae2e12
+pusher C3F436CA30F5D8EB 1757639437 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1757639385-3aab0137cfdb696c326fa8d81ad7568ae7a88e68
 
-2c625f0fe2db4e6a58877ce2318df3aa312eb791 9ca01e9226dbbb523b49b4e583e1d522977b4fe6 refs/heads/for-6.18
+2c625f0fe2db4e6a58877ce2318df3aa312eb791 9ca01e9226dbbb523b49b4e583e1d522977b4fe6 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjDcwoACgkQJNaLcl1U
-h9BNLAf+OL2SjSy6jME8FHA6XmY2AhXbEG6hZC8SdF00VuYdPQPM/9TJ7OLXYmQ7
-+2v2wC6AHyUIkwRH9/7e9z7Cot3ZP7UyfHuvcraGD2p/8fr3lQUhQZCkOa74mvCh
-0sInzLRUh+IS88gL4IPH4L6mQ2hkqooj+/3pqKSDfL6fT5hC/1EKsqSYtxuknLM0
-dVUSkI2oYViG+nF3Xa9QGnDdinibV7GGluFK8i7FOZfWhmfKcAi6gSoa3J6dMLvR
-mhuv3bjAzyCoViwZse3CpRguU+6v9tefYBdGax027Z6AdgYuQGsiS7cN8CLrRtFS
-WVlvSW8IRobXfXIilTwZabX9JGIbOQ==
-=HuGB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjDcw0ACgkQJNaLcl1U
+h9AnOAf/XYMUwJfJnJFgX6lKRkurA24/XL76tJiM7j8aszBrLL/WcZXxTM77uGFe
+n1D6K+Gz8oXjDu7kmWNJEB1Z0KFUS00sLv4f0RePREnfWia91nGGRqOeKfBW5+pc
+PjE5Yh4Kmf91BcOTegfZarDVE/7p/OOgTUH8eRu5WDXkrGj/PLdSy3Fmg+J2nRXf
++MOwwnGUL2cMvemOG20r7KXSIIsZ1eCRaU5uy6atXth0pBk3jmsGT/8vZZJJ5Uu0
+vtRl8sAFm1Zd1KwppdTezxCuPJv9YDJELiDtewqK7p2dHN6cQ/aifR49yMQv7JtX
+41rpOnlL95tRegoYcZTEWB0+TG6FSg==
+=xSUq
 -----END PGP SIGNATURE-----
 
---===============9153271795293293260==
+--===============0532842563426812496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -368,4 +368,4 @@ bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://g
 6a129b2ca5c533aec89fbeb58470811cc4102642 MAINTAINERS: Add an entry for Amlogic spifc driver
 9ca01e9226dbbb523b49b4e583e1d522977b4fe6 support for Amlogic SPI Flash Controller IP
 
---===============9153271795293293260==--
+--===============0532842563426812496==--
