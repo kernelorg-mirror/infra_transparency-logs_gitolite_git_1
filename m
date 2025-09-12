@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 12 Sep 2025 16:43:45 -0000
-Message-Id: <175769542594.133214.18027778837048505733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 12 Sep 2025 17:17:04 -0000
+Message-Id: <175769742440.160751.6838082684951534429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: c3aba96d91746b14587212ad7757ac509946993a
-    new: 8c7875e89a0127135da30f55ee480569df31086b
+  - ref: refs/heads/arm64-gcs
+    old: e771af4cd6f06e2c848e3a79b919108ab67d9eb4
+    new: a80d9e9bf94efafedd00f845203eb11034c3f38b
     log: |
-         8c7875e89a0127135da30f55ee480569df31086b Fixes for all trees
+         484a80bf66e66f7e9b0cb3ed90d1ad9efa4b6fde KVM: arm64: Provide guest support for GCS
+         96a00f64fcdfb2e446c893d647f2f78c8c6a2534 arm64/gcs: Ensure FGTs for EL1 GCS instructions are disabled
+         33133687c8df98be6719d1e740f5505a9934e028 KVM: arm64: Manage GCS access and registers for guests
+         7a97182ff590478a67ded488a9df3c2814678292 KVM: arm64: Set PSTATE.EXLOCK when entering an exception
+         d2a6b15a18944946704375451b0252ec6dfe0f8d KVM: arm64: Validate GCS exception lock when emulating ERET
+         5f9e3b76c22eece6d2ac26990552e60493b86bd8 KVM: arm64: Allow GCS to be enabled for guests
+         a80d9e9bf94efafedd00f845203eb11034c3f38b KVM: selftests: arm64: Add GCS registers to get-reg-list
          
