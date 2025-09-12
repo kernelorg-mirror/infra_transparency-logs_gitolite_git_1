@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 12 Sep 2025 02:24:56 -0000
-Message-Id: <175764389676.3531773.7426923478685226109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
+Date: Fri, 12 Sep 2025 02:25:02 -0000
+Message-Id: <175764390231.3531963.18324533421571376847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pjw/riscv
+user: pjw
 changes:
-  - ref: refs/heads/spi-6.18
-    old: 9ca01e9226dbbb523b49b4e583e1d522977b4fe6
-    new: 34c2202f5ca2325511a0e0b8802492eec17a2c76
-    log: |
-         67a529b7d3c50a56c162476509361f4fe11350dd include: adi-axi-common: add version check function
-         30db1b21fa37a2f37c7f4d71864405a05e889833 spi: axi-spi-engine: use adi_axi_pcore_ver_gteq()
-         34c2202f5ca2325511a0e0b8802492eec17a2c76 spi: axi-spi-engine: improve version checks
-         
+  - ref: refs/heads/pjw-test
+    old: fab1beda7597fac1cecc01707d55eadb6bbe773c
+    new: 0000000000000000000000000000000000000000
