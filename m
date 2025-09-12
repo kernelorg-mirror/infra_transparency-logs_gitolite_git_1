@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7847347010021871069=="
+Content-Type: multipart/mixed; boundary="===============6033020903509424376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 12 Sep 2025 15:52:13 -0000
-Message-Id: <175769233324.87238.8716824248703018253@gitolite.kernel.org>
+Date: Fri, 12 Sep 2025 15:52:27 -0000
+Message-Id: <175769234775.87557.16499602714566470594@gitolite.kernel.org>
 
---===============7847347010021871069==
+--===============6033020903509424376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 10ee8b756efd0913ef0ec6fc7a147771cdc36416
-    new: 0a8f71f37d33f548bf9bb20b564543e9b6636c85
-    log: revlist-10ee8b756efd-0a8f71f37d33.txt
+  - ref: refs/heads/1GbE
+    old: 5adf6f2b9972dbb69f4dd11bae52ba251c64ecb7
+    new: dc2f650f7e6857bf384069c1a56b2937a1ee370d
+    log: revlist-5adf6f2b9972-dc2f650f7e68.txt
 
---===============7847347010021871069==
+--===============6033020903509424376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10ee8b756efd-0a8f71f37d33.txt
+Content-Disposition: attachment; filename=revlist-5adf6f2b9972-dc2f650f7e68.txt
 
 9969779d0803f5dcd4460ae7aca2bc3fd91bff12 Documentation/hw-vuln: Add VMSCAPE documentation
 a508cec6e5215a3fbc7e73ae86a5c5602187934d x86/vmscape: Enumerate VMSCAPE bug
@@ -446,64 +446,5 @@ bf2650d0599c999cf2fdffa721b00e25989918fb Merge branch 'bridge-allow-keeping-loca
 51e547e8c89c661f6fbede4a28b1d33b13625683 tcp: Free TCP-AO/TCP-MD5 info/keys without RCU
 999337afa51d9bd7941f6ace24923ba64690380f Merge branch 'tcp-destroy-tcp-ao-tcp-md5-keys-in-sk_destruct'
 dc2f650f7e6857bf384069c1a56b2937a1ee370d udp_tunnel: use netdev_warn() instead of netdev_WARN()
-a50eae4e318e99e89949204b9d60c2a5a1b6cd17 ice: fix lane number calculation
-c20269814f2d89a7ecef3e64dcdfa66d6937061e ice: Allow 100M speed for E825C SGMII device
-7c8358b3dcc75bbdc47de2a34414e4ba7460578f ice: fix Rx page leak on multi-buffer frames
-177181aa3bb2e43bff470f3748da5effe03467f7 ice: remove legacy Rx and construct SKB
-ef741caf35bd540e923b6891bb166137244c6df1 ice: drop page splitting and recycling
-3eae799d1453546e23ef1a14e4539f386f573f47 ice: switch to Page Pool
-d3b2368f588739f2bc86bc9a74256d6f4e08edd8 i40e: add validation for ring_len param
-f4c31ce3fddd171ca00963caef41135d308324e9 i40e: fix idx validation in i40e_validate_queue_map
-ab90ce3762211a829b795817104e77faff97b80c i40e: fix idx validation in config queues msg
-ec8636a8baf3b0d843c3d52e01f16b3fea06b04c i40e: fix input validation logic for action_meta
-0d2c45b43e13f567561a710cca610567e4443883 i40e: fix validation of VF state in get resources
-9fa74ae725bb0746aae2028e71e07df0f30ebbd6 i40e: add max boundary check for VF filters
-4d5f7dfd60138e0e0e4115dffa44d68566616e60 i40e: add mask to apply valid bits for itr_idx
-70b30d965714fd50c3e2d97ae377bd0f4ef9f84f i40e: improve VF MAC filters accounting
-50620b3f794521ee4f5f70213421bc801a5de417 ice: make fwlog functions static
-d6f2720e187126f34ead131800747b64bfa5add4 ice: move get_fwlog_data() to fwlog file
-51cb4047f2f5f49bc1f99b9ad784765fb1795c05 ice: drop ice_pf_fwlog_update_module()
-92d1580ee9aee3bd6f793a6461f1dee17f4ef51b ice: introduce ice_fwlog structure
-660afe549a77aee8ab8f88b9b8c81f2840670313 ice: add pdev into fwlog structure and use it for logging
-f91cf100a1b224046f3bbd4047d630f31e47a13b ice: allow calling custom send function in fwlog
-7375dd33427b52a0aeb31acc896c6fd7b081e3e4 ice: move out debugfs init from fwlog
-f65fe1c06f8d8ad111d05102f9dd6197eb73b5e8 ice: check for PF number outside the fwlog code
-a9661dd14d5ec0517d2837d8c6576cf63e1a52d9 ice: drop driver specific structure from fwlog code
-595cbc351491469808c17f2c55cb3baec0360e0a libie, ice: move fwlog admin queue to libie
-8614f87933b4a244ea5c062997c5b5b61ce4c279 ice: move debugfs code to fwlog
-3a0278de2d617382c748da0c90b4723e634dd799 ice: prepare for moving file to libie
-d97beae227b64ce2421511e8483e8e9428d820cc ice: reregister fwlog after driver reinit
-48a98565c2c78a0c2a57beccc22c589094d97a33 ice, libie: move fwlog code to libie
-6762cf100729ce7803dbb7d9abd0286e44661edd ixgbe: fwlog support for e610
-c37c65040adc03f90e463bfbfd6139bfc2389bfd idpf: cleanup remaining SKBs in PTP flows
-98f15d0470ad90b6a52e7a245e26d7672642651c ice: Fix enable_cnt imbalance on resume
-26647d00765811f4883bde35c85eaaa190393ce2 ice: Fix enable_cnt imbalance on PCIe error recovery
-c29c495ec8a55b837be5b6819eef0b60c1b0649d i40e: Fix enable_cnt imbalance on PCIe error recovery
-0cef0545ee633f4accf9d7af304f5df550a74a2f ice: move ice_qp_[ena|dis] for reuse
-63bf41fbcabef63aa9901aaf5a6d82fb9ad1737e ice: add E830 Earliest TxTime First Offload support
-3f434b11f3fd9de9ba7e91cb6d928946a595bf60 idpf: add HW timestamping statistics
-a71aa7224a271c93cfcfc33fe7b6929e57596fdd i40e: remove redundant memory barrier when cleaning Tx descs
-902e16c8a39555d221dce67796e81f548b43228c ice: Remove deprecated ice_lag_move_new_vf_nodes() call
-7e2d4dba44a74cd305b592e8c7c12ef569319cf1 ixgbevf: fix getting link speed data for E610 devices
-4f8adf1f9f16da4d883a166ed93652bf58a8a607 ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
-009b9d7952214d7453e1c1a5d7147cb360237c7c ixgbevf: fix mailbox API compatibility by negotiating supported features
-e9711c4b2c1d5861d5de1c1992c349b0a8cb8236 ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
-dd1e5e2384d72acb9e13478dc5d8b8bab3769842 ice: add flow parsing for GTP and new protocol field support
-79b12e4d425a084e9a8ef0b43deca321f1e11df2 ice: add virtchnl and VF context support for GTP RSS
-0ff99d51055cff8521e8ed9dcb3779beadc470dd ice: improve TCAM priority handling for RSS profiles
-ba0cf2243ecb9bcef942f69b3b66cf28959e2873 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
-1f44e61df8397240e82f59a7201c573170c274a7 iavf: add RSS support for GTP protocol via ethtool
-6fd3e603887d754d670521481c99f7e45cc296db ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-f465b0114651ead33ac1116374d8b7a846d11820 ixgbe: fix too early devlink_free() in ixgbe_remove()
-b35e3d075b74964c1f5ce627f39aa38c1db5f000 net: intel: fm10k: Fix parameter idx set but not used
-f1461dcc2bad5a51a4a184521bb108c033ff66c2 idpf: add support for IDPF PCI programming interface
-4b8f13bf04a5cc2f7820478a0ac52a81c9b24ce6 ice: add recovery clock and clock 1588 control for E825c
-044f3ab1b296a5abf1d8dc64f86d9de52779d89d ixgbe: initialize aci lock before it's used
-4f9f36369c07a953d8232d79015abaffed7a5852 ixgbe: destroy aci lock later within ixgbe_remove path
-9ea94d893a5b8d70c0c6c17812766e057d10b9e4 devlink: Add new "max_mac_per_vf" generic device param
-c2e2f8ef2832a2000cc6f2df641bfddfe297f02e i40e: support generic devlink param "max_mac_per_vf"
-d53c829a6edd8647a00cf65819a6b7894f2395fb e1000e: Introduce private flag to disable K1
-6dfd02ffebc97bd15d05756b5561b3c293d09310 igc: don't fail igc_probe() on LED setup error
-0a8f71f37d33f548bf9bb20b564543e9b6636c85 ixgbevf: fix proper type for error code in ixgbevf_resume()
 
---===============7847347010021871069==--
+--===============6033020903509424376==--
