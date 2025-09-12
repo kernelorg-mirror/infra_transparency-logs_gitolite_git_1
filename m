@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0532842563426812496=="
+Content-Type: multipart/mixed; boundary="===============1080671780981829910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 12 Sep 2025 01:09:47 -0000
-Message-Id: <175763938782.3462594.5148910521923024624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 12 Sep 2025 01:10:13 -0000
+Message-Id: <175763941338.3464537.16622045994002182086@gitolite.kernel.org>
 
---===============0532842563426812496==
+--===============1080671780981829910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.18
-    old: 2c625f0fe2db4e6a58877ce2318df3aa312eb791
+  - ref: refs/heads/for-next
+    old: 2e80eaa2b3d4750b7abcde696f11f82ecb36cadb
     new: 9ca01e9226dbbb523b49b4e583e1d522977b4fe6
-    log: revlist-2c625f0fe2db-9ca01e9226db.txt
+    log: revlist-2e80eaa2b3d4-9ca01e9226db.txt
 
---===============0532842563426812496==
+--===============1080671780981829910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1757639437 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1757639385-3aab0137cfdb696c326fa8d81ad7568ae7a88e68
-
-2c625f0fe2db4e6a58877ce2318df3aa312eb791 9ca01e9226dbbb523b49b4e583e1d522977b4fe6 refs/heads/spi-6.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjDcw0ACgkQJNaLcl1U
-h9AnOAf/XYMUwJfJnJFgX6lKRkurA24/XL76tJiM7j8aszBrLL/WcZXxTM77uGFe
-n1D6K+Gz8oXjDu7kmWNJEB1Z0KFUS00sLv4f0RePREnfWia91nGGRqOeKfBW5+pc
-PjE5Yh4Kmf91BcOTegfZarDVE/7p/OOgTUH8eRu5WDXkrGj/PLdSy3Fmg+J2nRXf
-+MOwwnGUL2cMvemOG20r7KXSIIsZ1eCRaU5uy6atXth0pBk3jmsGT/8vZZJJ5Uu0
-vtRl8sAFm1Zd1KwppdTezxCuPJv9YDJELiDtewqK7p2dHN6cQ/aifR49yMQv7JtX
-41rpOnlL95tRegoYcZTEWB0+TG6FSg==
-=xSUq
------END PGP SIGNATURE-----
-
---===============0532842563426812496==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c625f0fe2db-9ca01e9226db.txt
+Content-Disposition: attachment; filename=revlist-2e80eaa2b3d4-9ca01e9226db.txt
 
 e4a718a3a47e89805c3be9d46a84de1949a98d5d tee: fix NULL pointer dereference in tee_shm_put
 50a74d0095cd23d2012133e208df45a298868870 tee: fix memory leak in tee_dyn_shm_alloc_helper
@@ -161,7 +136,6 @@ b0908e03fdd488a5ffd5b80d86dcfc77207464e7 platform/x86: acer-wmi: Stop using ACPI
 2cbe4ac193ed7172cfd825c0cc46ce4a41be4ba1 ALSA: usb-audio: Add mute TLV for playback volumes on more devices
 3e93d5bbcbfc3808f83712c0701f9d4c148cc8ed Merge tag 'asoc-fix-v6.17-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 78811dd56def1479777c9823f3c2139739ef5bf5 ALSA: docs: Add documents for recently changes in snd-usb-audio
-89e7353f522f5cf70cb48c01ce2dcdcb275b8022 spi: microchip-core-qspi: stop checking viability of op->max_freq in supports_op callback
 aa28991fd5dc4c01a40caab2bd9af8c5e06f9899 platform/x86/intel: power-domains: Use topology_logical_package_id() for package ID
 1180c79fbf36e4c02e76ae4658509523437e52a4 hwmon: mlxreg-fan: Prevent fans from getting stuck at 0 RPM
 98fd069dd87386d87eaf439e3c7b5767618926d2 hwmon: (ina238) Correctly clamp temperature
@@ -208,7 +182,6 @@ e019bbd8e440fd5a47158e1e337d3731468620d5 Merge tag 'imx-fixes-6.17' of https://g
 63ddc0a75b3b071f04f4bc277b2510eb06d21648 arm64: dts: rockchip: fix USB on RADXA ROCK 5T
 cc8e91054c0a778074ecffaf12bd0944e884d71c ALSA: usb-audio: Allow Focusrite devices to use low samplerates
 bcd6659d4911c528381531472a0cefbd4003e29e ALSA: hda/hdmi: Add pin fix for another HP EliteDesk 800 G4 model
-7446284023e8ef694fb392348185349c773eefb3 spi: cadence-quadspi: Implement refcount to handle unbind during busy
 bd7e7bc2cc2024035dfbc8239c9f4d8675793445 hwmon: (ina238) Correctly clamp shunt voltage limit
 c2623573178bab32990695fb729e9b69710ed66d hwmon: (ina238) Correctly clamp power limits
 0dffd938db37333bd7cc4946feb8c2c5262197ad Merge tag 'for-net-2025-08-29' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
@@ -220,7 +193,6 @@ b434a3772dca1c90a40e8ec69230caa55c18ef84 docs: remove obsolete description about
 6bc8a5098bf4a365c4086a4a4130bfab10a58260 net: macb: Fix tx_ptr_lock locking
 030e1c45666629f72d0fc1d040f9d2915680de8e macsec: read MACSEC_SA_ATTR_PN with nla_get_uint
 aca701c61822d996f38b328d38d3b5d62a9f49b5 Merge tag 'batadv-net-pullrequest-20250901' of https://git.open-mesh.org/linux-merge
-4de51e81379aa3acbceddb7aec18a36b733fb6cb spi: spi-fsl-lpspi: Generic fixes and support for
 c873ccbb2f8db46ad9b4a989ea924b6d8f19abf1 mm: fix possible deadlock in kmemleak
 dcc6785caffad27f2ea601fdd2f9782036e1faed arm64: dts: rockchip: fix second M.2 slot on ROCK 5T
 ba1e9421cf1a8369d25c3832439702a015d6b5f9 net/smc: fix one NULL pointer dereference in smc_ib_is_sg_need_sync()
@@ -280,7 +252,6 @@ fe9e4d0c39311d0f97b024147a0d155333f388b5 wifi: wilc1000: avoid buffer overflow i
 18dbcbfabfffc4a5d3ea10290c5ad27f22b0d240 perf: Fix the POLL_HUP delivery breakage
 762af5a2aa0ad18da1316666dae30d369268d44c vdso/vsyscall: Avoid slow division loop in auxiliary clock update
 9a6d3ff10f7f538835cae4799562004ee46922c5 arm64: uapi: Provide correct __BITS_PER_LONG for the compat vDSO
-1991a458528588ff34e98b6365362560d208710f spi: spi-qpic-snand: unregister ECC engine on probe error and device remove
 f2e8f1f5f5c81037fc0b2d78eb75aeb80a0ee507 Merge tag 'v6.17-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
 5ebf512f335053a42482ebff91e46c6dc156bf8c sched: Fix sched_numa_find_nth_cpu() if mask offline
 d302effafae5a6a632bf581ced97ef91c95a2ac6 ARM: at91: select ARCH_MICROCHIP
@@ -368,4 +339,4 @@ bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://g
 6a129b2ca5c533aec89fbeb58470811cc4102642 MAINTAINERS: Add an entry for Amlogic spifc driver
 9ca01e9226dbbb523b49b4e583e1d522977b4fe6 support for Amlogic SPI Flash Controller IP
 
---===============0532842563426812496==--
+--===============1080671780981829910==--
