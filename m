@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sat, 13 Sep 2025 17:41:45 -0000
-Message-Id: <175778530519.1466336.3335955541619208119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 13 Sep 2025 17:42:34 -0000
+Message-Id: <175778535489.1466961.2902467116470215406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/perf-tools
-    old: ca81e74dc34734078d34485d4aa123561ba75b15
-    new: 7947ad15614ce897f47ce8ae123b82445d1861d0
+  - ref: refs/heads/tip/tip
+    old: a39dbaeb153d08f156031013de546674eadd4124
+    new: fb36b95abb5d340fe30d47edc26795069ff986a6
     log: |
-         a5edf3550f4260504b7e0ab3d40d13ffe924b773 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-         7947ad15614ce897f47ce8ae123b82445d1861d0 perf lock: Provide a host_env for session new
+         fb36b95abb5d340fe30d47edc26795069ff986a6 Add core/rseq to collect RSEQ specific changes
          
