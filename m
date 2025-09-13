@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sat, 13 Sep 2025 10:19:27 -0000
-Message-Id: <175775876768.1044817.6582063147249143175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sat, 13 Sep 2025 10:49:45 -0000
+Message-Id: <175776058534.1069108.15063580500997603463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/dmabuf-vfio
-    old: 8ffb6c1de868f7db89e0194cd6e7a813b8035513
-    new: 85d0064f29c3a15c1f4c7f4b128e0effa5594f57
+  - ref: refs/heads/for-next
+    old: a4bac55d99d37976209e2fc2c32bd3dfc86b0447
+    new: 136d8a6f73fee0686d163dca91fdffb35e25f092
     log: |
-         fac128653a1f1b98888a1b0ed4d01b289ffc4847 vfio/pci: Add dma-buf export support for MMIO regions
-         85d0064f29c3a15c1f4c7f4b128e0effa5594f57 PCI/P2PDMA: Reduce scope of pci_has_p2pmem function
+         136d8a6f73fee0686d163dca91fdffb35e25f092 firewire: core: remove useless lockdep_assert_held()
          
