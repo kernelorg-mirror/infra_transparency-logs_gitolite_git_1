@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sat, 13 Sep 2025 14:54:32 -0000
-Message-Id: <175777527288.1327609.17532288926340372140@gitolite.kernel.org>
+Date: Sat, 13 Sep 2025 14:55:35 -0000
+Message-Id: <175777533591.1329883.447254439741125827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
   - ref: refs/heads/bugfix/syzbot
-    old: 1d790be884352c44f13ca7c1d488c4fe23124658
-    new: 349e8b72826248cad6fc2c681b7176a438caba53
+    old: 349e8b72826248cad6fc2c681b7176a438caba53
+    new: db9545641db13800bc345aa4ce72ebf9fe3ef739
     log: |
-         349e8b72826248cad6fc2c681b7176a438caba53 f2fs: fix to avoid potential deadlock
+         db9545641db13800bc345aa4ce72ebf9fe3ef739 f2fs: fix to avoid potential deadlock
          
