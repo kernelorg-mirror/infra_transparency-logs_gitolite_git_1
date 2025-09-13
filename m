@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Sat, 13 Sep 2025 08:58:27 -0000
-Message-Id: <175775390714.976702.308789252887946236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 13 Sep 2025 09:13:51 -0000
+Message-Id: <175775483195.989207.11250491094796027520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/sunxi/dt-for-6.18
-    old: a1845487afd06899502714a3500b60f815d98203
-    new: b65ee02e77cb14486cf30709e978430e91f74d2e
+  - ref: refs/heads/kvm-arm64/lp-db
+    old: 00fdb59e53a3795166efef0ab096d496b004a03a
+    new: aab76d84d15f43ca077b362df21367a438533189
     log: |
-         3173a760021b9340923831aa5edc5530d61a6b9b ARM: dts: allwinner: orangepi-zero: Add default audio routing
-         fd5c7bf8ddb51373a6c9456865b3af99f53642a2 ARM: dts: allwinner: orangepi-zero-plus2: Add default audio routing
-         b65ee02e77cb14486cf30709e978430e91f74d2e ARM: dts: allwinner: Add Orange Pi Zero Interface Board overlay
+         aab76d84d15f43ca077b362df21367a438533189 WIP
          
