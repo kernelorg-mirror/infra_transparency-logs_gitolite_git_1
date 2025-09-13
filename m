@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sat, 13 Sep 2025 00:04:17 -0000
-Message-Id: <175772185756.496812.17992821960287943298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 13 Sep 2025 00:04:40 -0000
+Message-Id: <175772188016.497183.773405211517085677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 107ae8fec4425d27b6587d1efbfb1687cbfb16cb
-    new: 25446eec3c2ceb81ac03a43db40079e8eb12c106
+    old: dc2f650f7e6857bf384069c1a56b2937a1ee370d
+    new: 3456820e01f9b40167e8438f5a43c76e4361c2d6
     log: |
-         25446eec3c2ceb81ac03a43db40079e8eb12c106 refactor: renable tpm_struct_cast!
+         903e6d05876f5b79df64468580b76622d372c167 net: mvneta: add support for hardware timestamps
+         3456820e01f9b40167e8438f5a43c76e4361c2d6 dt-bindings: net: Drop duplicate brcm,bcm7445-switch-v4.0.txt
          
