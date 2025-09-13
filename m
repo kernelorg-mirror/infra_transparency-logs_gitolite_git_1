@@ -1,75 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1513998117531746844=="
+Content-Type: multipart/mixed; boundary="===============8541765421633661728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 13 Sep 2025 12:40:37 -0000
-Message-Id: <175776723703.1215849.16540730368364331108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 13 Sep 2025 13:18:50 -0000
+Message-Id: <175776953029.1245567.1739764083056517645@gitolite.kernel.org>
 
---===============1513998117531746844==
+--===============8541765421633661728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 6f9871b3e8c31953978db552c730a7e017e51d19
-    new: 44bbcba50d55ca97e09b0eaa7c1e6bf97b9f425d
-    log: revlist-6f9871b3e8c3-44bbcba50d55.txt
+  - ref: refs/heads/master
+    old: caf921337d5747d3a5497faa3b071f8a12076b68
+    new: 292c00a0380b936ce87f3ed305155a636c63fd6a
+    log: |
+         292c00a0380b936ce87f3ed305155a636c63fd6a 5.10-stable patches
+         
 
---===============1513998117531746844==
+--===============8541765421633661728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757767288 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1757767235-39b16ff900ddd83dda4db695542ae20f1673b36c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757769581 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1757769528-4ad9c7379746ad492e48fc76ba1eb1647f529fb4
 
-6f9871b3e8c31953978db552c730a7e017e51d19 44bbcba50d55ca97e09b0eaa7c1e6bf97b9f425d refs/heads/usb-next
+caf921337d5747d3a5497faa3b071f8a12076b68 292c00a0380b936ce87f3ed305155a636c63fd6a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjFZngbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ei0P/RTq711i9gHoDfm1etR9
-w3guiNXNZ9jISEHRcqzOWkhm0OHUpkDLs28nDvH4Fh6Bq0/SCp47tnn7/7Z6/KDT
-VBPG85OC2/wDla0Hlw4t7bIEFVsnKo9zV+rrjaSNyhIGCq2bUXVr3CJMsv/QRoP3
-RrMrqGNv2eRjHq3A4UIWgGMs3RYD1vJwqLDc6vybK6C64EMTmPJGmoJT5ZmfVVuJ
-VozDmV2KdHRL45iDGcGjXYeQw4h8o6njw6ae2fyOWKFuMNpJgu4I4DqYEAhyEU5o
-rAXwwkJcTmTq2IuYdqumnum6dRKkPwol/ifFD65DhuZ0QspGK+qCQnMyAKDp0bV0
-ow+mkH6ECeyv3dUWlb39IKXMuHqAKJMvJVUifyOAIETDR6Z91Lro/PcGB942qLCX
-0VpYCjQQBmciH0iHOXVntOCBgTLRQIzNQxOmB8n40Bt1UHBxsr9mf23TavCN82fK
-JY6mrLMi64KpCyFPS2EsloR+4x6KJkzBezS1+Q++hixSWXitzIuGUo1/5c84Nh4A
-bU4GMyq0V6CInzWsxN7UTuyHypHxCBXU5xYT3LF1FJz+SuSd9Ex71SWiAyZxHQYe
-lehiElezLWEyrwneTa1xsFvNcVs1HqRWtd8EKT7E3MvhAfw3Yw0h/Pqz6vowoomI
-jkzfYW2cCWL/LMIX6Au+jMps
-=JMhI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjFb20bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6MEP/3eQrlQ3zY33/pys79+o
+DF0j05imk4rrY5bRRpJdVEgJspifu04FCk+KlQjsRHe1ncWOchmwGGjTSzhf9775
+St8dzpOVaCR4ocLXvTTO2f0drl3eYT0dMCcf+1M2pPYBc/cEu0+k+2krHS266SE9
+Ns3OLccu2diSEXZl4w38Jwra0hQIsm8X/Q6PfE902k0y3wkdD1zIMlCHdLaCf/c9
+DuY0cIoxmltV8VIdR9DpMPCsjsMZhfLJfTs8kMB7/xbub1Hi/bEw8nzaxo2uuAPD
+ph9Dy/8v0PP+MNFHD/2Aq504B6D/L2/xxTJwg8y3HfrkR5VdLfLobbCOfKO2ZAy8
+U6lBvibPAUbaBOgGOSAuIj2NeyPg0OGykZANJbhFznlZUb+7vHvgQ4J5xHVMRMR4
+YODwHU9rzTIQNlsu1xX2EZT2tRv+4Qgkm2Qcj2MXV43PbbrzmiZgJb8Q+1uyvyDI
+UrD4KEQnV1PhrRdr49HaJCME7kgGN0iyIdcHiJPy4mpfjjanPCW6OV8z/EQT0Mqs
+TB/UNY32oq1ms2ERG3sy7XuySdcCPHQsxHQhPgppTJUwZcIkpf+H5/utYU2UnqSR
+XyfjT9rXQQIEoLyWgxihVwdTtmfXgxSz85MZMcdOfaKuB09Ew265xWzK+9BgbhcY
++hA3FdBV6WV++BqgriQBsG9z
+=LO2U
 -----END PGP SIGNATURE-----
 
---===============1513998117531746844==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f9871b3e8c3-44bbcba50d55.txt
-
-a5d2edb2c9fa48382aec1673c709c2919899527c usb: typec: tcpci: add wakeup support
-e77ee1d2a8fa0f3179d4ac7b7d35b555da6a8cea usb: dwc2: Add support for 'maximum-speed' property
-7bf1158514e410310aec975e630cec99d4e4092f usb: udc: Add trace event for usb_gadget_set_state
-5df186e2ef11dca3fb6f0f332dc09c4ac0bed870 usb: xhci: tegra: Support USB wakeup function for Tegra234
-643df901f7ead35a71552a61927ad665a15aa87f usb: dwc3: core: Introduce glue callbacks for flattened implementations
-21188e8d6d75900f35c2acc8baa5a6ed4aec5af7 usb: dwc3: qcom: Implement glue callbacks to facilitate runtime suspend
-121a0f839dbb397af5fabb701cea3e9983223e50 usb: misc: Add Intel USBIO bridge driver
-c122451ce04e6991316ed37bac41d45646942027 gpio: Add Intel USBIO GPIO driver
-daf161343a3904f6699febbfb1e18d532371ba00 i2c: Add Intel USBIO I2C driver
-ddb473a51b4bf33d040d827ae9a8724ee5ef1a36 usb: xhci-plat: separate dev_pm_ops for each pm_event
-7f70b89b2be66c03ddc76d3ad8aebeeec4a9c505 usb: offload: add apis for offload usage tracking
-ef82a4803aabaf623bfcae07981406f1386eabf9 xhci: sideband: add api to trace sideband usage
-38d627bc8522a6a2fd6f9454c8b3b5d3848f5f03 usb: host: enable USB offload during system sleep
-44bbcba50d55ca97e09b0eaa7c1e6bf97b9f425d Merge patch series "Support system sleep with offloaded usb transfers" into usb-next
-
---===============1513998117531746844==--
+--===============8541765421633661728==--
