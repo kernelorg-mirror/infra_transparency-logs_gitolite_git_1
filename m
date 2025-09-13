@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sat, 13 Sep 2025 19:19:46 -0000
-Message-Id: <175779118698.1547103.4803279023309271313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Sat, 13 Sep 2025 20:10:25 -0000
+Message-Id: <175779422525.1589036.6775068620572735606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/srini/slimbus
+user: srini
 changes:
-  - ref: refs/heads/main
-    old: 4f48396e0df888ee6a5e8a2df92d71cfc05d26d8
-    new: 67676dfb6e27b2a43a8d4366758eee0e63f76f7c
-    log: |
-         67676dfb6e27b2a43a8d4366758eee0e63f76f7c feat(macro): tpm_enum_cast!
-         
+  - ref: refs/heads/for-next
+    old: b549602f781e955d1bebd95bc3c3afd50402d947
+    new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
