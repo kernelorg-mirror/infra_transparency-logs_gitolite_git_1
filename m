@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8079552658093953992=="
+Content-Type: multipart/mixed; boundary="===============3488693601282450516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 13 Sep 2025 09:21:26 -0000
-Message-Id: <175775528628.997142.15614315149920997307@gitolite.kernel.org>
+Date: Sat, 13 Sep 2025 09:22:35 -0000
+Message-Id: <175775535522.997864.15286613821569107250@gitolite.kernel.org>
 
---===============8079552658093953992==
+--===============3488693601282450516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,55 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: fc1ded58808520a1ced0c4e2e5fb0dbd33b33612
-    new: 2288ddaba811197ad6c3d68afed3d67431d83149
-    log: revlist-fc1ded588085-2288ddaba811.txt
+    old: 2288ddaba811197ad6c3d68afed3d67431d83149
+    new: f7a6ef198ded30b63810efdc923b919606ea65c8
+    log: revlist-2288ddaba811-f7a6ef198ded.txt
+  - ref: refs/heads/tip/urgent
+    old: 72dfe83e9fe2a9ebae30b0045c05a0ececd844e8
+    new: 881799d60af71d37c56836ed080e03a4db9b2ae1
+    log: revlist-72dfe83e9fe2-881799d60af7.txt
 
---===============8079552658093953992==
+--===============3488693601282450516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc1ded588085-2288ddaba811.txt
+Content-Disposition: attachment; filename=revlist-2288ddaba811-f7a6ef198ded.txt
+
+41bab90bbfdc55228b8697d960839a4abb5016d4 x86/its: Move ITS indirect branch thunks to .text..__x86.indirect_thunk
+5799d5d8a6c877f03ad5b5a640977053be45059a x86/bugs: Add attack vector controls for VMSCAPE
+1e587a7af2266551d83ecf381b457321d56aaa4e Merge branch 'x86/bugs' into x86/core, to resolve conflict
+f852474563bd399c8971c3e73a75879128298a86 Merge branch into tip/master: 'timers/urgent'
+881799d60af71d37c56836ed080e03a4db9b2ae1 Merge branch into tip/master: 'x86/urgent'
+83cbfbfd477c370da83b64e04072a59fa0416376 Merge branch into tip/master: 'core/bugs'
+72db11c491a3b190893c47a897610de57621679c Merge branch into tip/master: 'irq/core'
+fe1be9dc1bc1a588af71d6567da7e2354c72d02f Merge branch into tip/master: 'irq/drivers'
+c0566899e47aa7c38ac9843bb30e147dcfe2d759 Merge branch into tip/master: 'locking/futex'
+dacbb8bad990d2aeae6d586e127af07897a25f1a Merge branch into tip/master: 'perf/core'
+eacaa8cb3339f53f7414e3cfe13a75e524925ac3 Merge branch into tip/master: 'ras/core'
+85df3736d0b0fd2c45ab2b2c03fa5bc89647113e Merge branch into tip/master: 'sched/core'
+3e8fce69080fd7680219c17762cea44e7b00179a Merge branch into tip/master: 'timers/clocksource'
+8d945c5b56ea564303dab147d4e416161168fce6 Merge branch into tip/master: 'timers/core'
+38fdefe29d66409b693835c1be0a1a177ed864a8 Merge branch into tip/master: 'timers/vdso'
+524ab1a290369858442413220bf32fd0cc834e45 Merge branch into tip/master: 'x86/apic'
+67800b984c3f04be88226e5096e1c69b1591e23d Merge branch into tip/master: 'x86/asm'
+223a0561b2935765320551941f281a0fa8cf8ba0 Merge branch into tip/master: 'x86/bugs'
+ca331fe2570fe5c488ebbdc9616940ead23a2349 Merge branch into tip/master: 'x86/build'
+207769d8e3d6a795b45b98bf62b33d275a8cfd3b Merge branch into tip/master: 'x86/cache'
+95729db317efade0341145f6e7b36d443b001335 Merge branch into tip/master: 'x86/cleanups'
+0cae690c9f7627738765d2b3667eb607a5b2eeac Merge branch into tip/master: 'x86/core'
+93afdb57b81ef2dd0b91a5166fdcb33bd1b20113 Merge branch into tip/master: 'x86/cpu'
+4149c891c6900d5672f7c5f059f17ee46886b631 Merge branch into tip/master: 'x86/entry'
+1274f7711f5dca9ff71feb5585b78f77054b6988 Merge branch into tip/master: 'x86/microcode'
+301fc972f90d851801d32aedb0f61c547566cc37 Merge branch into tip/master: 'x86/misc'
+21b6b6a69d45b23b81469a2bb098eadd11b097d8 Merge branch into tip/master: 'x86/mm'
+3fef79acb1645ceb672d06693893df6f9b147a75 Merge branch into tip/master: 'x86/sev'
+f7a6ef198ded30b63810efdc923b919606ea65c8 Merge branch into tip/master: 'x86/tdx'
+
+--===============3488693601282450516==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-72dfe83e9fe2-881799d60af7.txt
 
 5c5a41a75452e9eb5810a7d0d9916b61fe9fd1c5 gpu: nova-core: depend on CONFIG_64BIT
 d5067034725b1a0b2c785cea9cfce68776a94042 Revert "drm/nouveau: Remove waitque for sched teardown"
@@ -63,6 +103,7 @@ dab1f85526a454cd81174a9df70961169222efa2 Merge tag 'drm-misc-fixes-2025-09-11' o
 cb780b79b236db9a036a4b7975361dd44a0b4d29 Merge tag 'v6.17-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 965c995c9a4b395471ff48790a0155ee986ca405 Merge tag 'drm-fixes-2025-09-12' of https://gitlab.freedesktop.org/drm/kernel
 22f20375f5b71f30c0d6896583b93b6e4bba7279 Merge tag 'pci-v6.17-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-2288ddaba811197ad6c3d68afed3d67431d83149 Merge branch 'linus'
+f852474563bd399c8971c3e73a75879128298a86 Merge branch into tip/master: 'timers/urgent'
+881799d60af71d37c56836ed080e03a4db9b2ae1 Merge branch into tip/master: 'x86/urgent'
 
---===============8079552658093953992==--
+--===============3488693601282450516==--
