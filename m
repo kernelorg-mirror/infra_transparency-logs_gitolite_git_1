@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4362691218917111575=="
+Content-Type: multipart/mixed; boundary="===============0212784318351927766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 13 Sep 2025 14:04:54 -0000
-Message-Id: <175777229432.1286045.8183572396625649542@gitolite.kernel.org>
+Date: Sat, 13 Sep 2025 14:05:01 -0000
+Message-Id: <175777230192.1286249.10583047085343120672@gitolite.kernel.org>
 
---===============4362691218917111575==
+--===============0212784318351927766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,82 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 9d9b1219d04c43d3d8e71abb6b75d0c7a35bf87a
-    new: f49498831170df832e1166e8f834815d1fbd851a
-    log: revlist-9d9b1219d04c-f49498831170.txt
+  - ref: refs/heads/linux-5.15.y
+    old: de9476bb4f1bf28eba6d8ca55f934f94a39e31f8
+    new: c4917f308f03cc2e832b28012195308146f65d2b
+    log: revlist-de9476bb4f1b-c4917f308f03.txt
 
---===============4362691218917111575==
+--===============0212784318351927766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757772345 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757772352 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1757772291-96f865a9953bfd3df7739b44f36d8487622d8713
+nonce 1757772299-3847532a75b27087f71a1cca39550f996fd655fa
 
-9d9b1219d04c43d3d8e71abb6b75d0c7a35bf87a f49498831170df832e1166e8f834815d1fbd851a refs/heads/linux-5.10.y
+de9476bb4f1bf28eba6d8ca55f934f94a39e31f8 c4917f308f03cc2e832b28012195308146f65d2b refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjFejkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+slkQAINeb7Uw3s6zdAY/14hB
-9EKfzc47E2ciA3yuaZomI3I4GjmoXZyLAqCP/I3Hm2pe6CGvTiMg4Kvx/eXeDsD0
-B+maiOgz8QonGCNj3266cuxSs1GwUn0ivnzTdX+12UG3a/5FY3JOengayQm1L+CQ
-wcXqzd215jOLiEE/AMPVh4jVYAq4ErX21sydYSTPizT4lG97EFjMCjlgSF0SH08l
-KIyAuWO7hcu1NAL2lfcPIlxxilo8943g1zfNwd/viovkHCzK2ScayhmrsfkhhnCu
-btvdxNLAEei7ii9vDFL8Tdl7eUp0i2y/RnIGNdygpBkWO2+elmkgm/iKSGy9xV2Q
-+9J1KYj74d9XucyAygRsrlVBcD9YK5DeRZBdHDIm2Zm/JQsWcNwxYiQeLPIBmMGw
-NI9EendcuhHWwXflekuDVc1cNy6JFAiULkp0gL+Fm4p+/4mKjyRvDHiLlZIMJdVX
-z64Qe3hgzxonaXTQcCdgsSElJrrpbstJn5vTXYwUsNpLUQo6nUgGjyB7VbC+CJWO
-kNCfslDdkwznddUynrl1Bu/EW6OM5OcjO27lJlrqEpF26kuq34YwG+vz6Xl69nQq
-wk0U4JTayASFIVa7+hafEBtEAG5lTWvo9mb8tDD5++ugS8SUrE6/CJrHVz6n2qmB
-Pmlx6alH3w718NRzXFe77fnz
-=PZlc
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjFekAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vSIQAMY26yUQ7JEhimXoe20Q
+KjA7DLebQQH8tQthBh6Y27zfpxgQN+wQDleOQmy9ZWE5VEq1lr/KANVZdnzNh84n
+2svvV3q/Njeenms+FCgrHGBcof6mtm9lMxcRX/JqXNwzqXgbdbbqBjQI+nVo1rma
+YOOy8UVlwvpZ0TU87zDwRKIALLMDVGOxgFAzmtGB/HQ6Tk2vpe76aS1RTpZ9LCXU
+v8fOT2U4ouUCnx574ijddPJrhw1XJiMEeamDilKtSHwSdbI0r2VRayKnyCJrc44t
+IOu4XVXE2wZ0tvdlgkPIYU/fN3YezzRo6NtPsLZOFlCfSb2wDs0Bp3FxW/JoHXKp
+bJoP2r7Cw1XbrU71Qzw9mhtDZ9AqF+eyhFtRLNhhGF/n4kba9MtRvxeTk9PXYLM5
+27SfEuwIuviQPJTD8R0yNfZVLNuVo+wX+qVDBRsGoutpxNmSMXrQvajJXqKD9O73
+/A1fhFOhZcgc6dvFWpzuH35dtVJsPeidacy8L6RH/oexfKlAUPULRRuWx1ZpptLo
+1BtH6ddlDLLcNtGqspJzAjVKMOG47kP4xoGO9AGz4LzNcq0legaXMK7485kHE5C7
+phxy0aONIyTt00VsCUzccPGgS0wv0KrQHfyrBU1yPfTFK33K+2FKy0/IVL4Ey+Ec
+JLHaflHmlzzEJYRR1Tjg6xJX
+=mlE6
 -----END PGP SIGNATURE-----
 
---===============4362691218917111575==
+--===============0212784318351927766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d9b1219d04c-f49498831170.txt
+Content-Disposition: attachment; filename=revlist-de9476bb4f1b-c4917f308f03.txt
 
-28fbc7eddc481f8f3fbb16b01f9f8f5c6f2f14e3 Documentation/hw-vuln: Add VMSCAPE documentation
-e3e6bcf3284b5cd4d0ea6f672742c22fa0753db7 x86/vmscape: Enumerate VMSCAPE bug
-ac60717f9a8d21c58617d0b34274babf24135835 x86/vmscape: Add conditional IBPB mitigation
-c08192b5d6730a914dee6175bc71092ee6a65f14 x86/vmscape: Enable the mitigation
-c2422d85692b9068c7c865a866be532073331619 x86/bugs: Move cpu_bugs_smt_update() down
-b47d48dd45802d261608d163580fc3b7ffaa0a14 x86/vmscape: Warn when STIBP is disabled with SMT
-276cc8b36d66ec7c68f03d84cc9ea1fbfd7be697 x86/vmscape: Add old Intel CPUs to affected list
-863b76df7d1e327979946a2d3893479c3275bfa4 Linux 5.10.244
-eec0b74137aed04c4e5e1f767ea0d5279c74b442 mptcp: pm: kernel: flush: do not reset ADD_ADDR limit
-66871194cd8b9279ae4714b10d6fd6bbe30332fa media: mtk-vcodec: venc: avoid -Wenum-compare-conditional warning
-b16206e811f87f91bb7445716b5473293f7c95a3 media: i2c: imx214: Fix link frequency validation
-7bc44e2f733c8e732ab25f36cda6497dc2af04b2 net: Fix null-ptr-deref by sock_lock_init_class_and_name() and rmmod.
-bf1ed5421faae8aab7d3bce27088d41f0432329b mtd: Add check for devm_kcalloc()
-c9eb48edaf6fe5a600e40f96eec5ab6816bdc89e flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
-b3d57910288ecc56af4b308b4eedc1aa0339a1d4 NFSv4: Don't clear capabilities that won't be reset
-6a61ea8d0aa6d3b1f30b53d170b30895a498adb6 NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
-420da69eabc4359e057bdae95e8b297c9c80efe1 tracing: Fix tracing_marker may trigger page fault during preempt_disable
-63aadf4c3a9700df01cf8658456ec5043fbce5e6 NFSv4/flexfiles: Fix layout merge mirror check.
-83b0544a78f3565823d2447c3996d087ac137553 s390/cpum_cf: Deny all sampling events by counter PMU
-605f6b6924b78abc81b7f58b73db2acf28ce02d5 tcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock->cork.
-e6de45fe8844568da88fdf8df4260943badcff4b overflow: Correct check_shl_overflow() comment
-de91cbb620248b2f2df475a487416d4fbb702384 compiler.h: drop fallback overflow checkers
-8295f92fd8ce33a465cd24e9b110b74c1f5c675a overflow: Allow mixed type arguments
-be91d89f797cdc377df9ad732269181888b33b74 EDAC/altera: Delete an inappropriate dma_free_coherent() call
-0f0d6253e21a9e1ba498c84c2a699c7c07f4a397 compiler-clang.h: define __SANITIZE_*__ macros only when undefined
-5fcc9f233f7c5296831a86d6b9e995e0dfaa637a ocfs2: fix recursive semaphore deadlock in fiemap call
-8c9d2bba334c13e714a9acf971d10be96a50e949 mtd: rawnand: stm32_fmc2: fix ECC overwrite
-87f006741cafe3eadf554190a91bb4ff44945008 fuse: check if copy_file_range() returns larger than requested size
-ee3d8e2b4836c6a9cba4fabe50fba093403bd4d3 fuse: prevent overflow in copy_file_range return value
-f49498831170df832e1166e8f834815d1fbd851a Linux 5.10.245-rc1
+a4fff4e5c054bbbba0d1924f13306f1c2358133d Documentation/hw-vuln: Add VMSCAPE documentation
+f2ed886bb650423b5a1e0478f5d4349fdc576d7f x86/vmscape: Enumerate VMSCAPE bug
+d5490dfa35427a2967e00a4c7a1b95fdbc8ede34 x86/vmscape: Add conditional IBPB mitigation
+2f4f2f8f860cb4c3336a7435ebe8dcfded0c9c6e x86/vmscape: Enable the mitigation
+1cd71b057f0528bcaececa93611e3f6165fb0685 x86/bugs: Move cpu_bugs_smt_update() down
+79ec330d124e12671aa15a0fe9eb5b93a5db07a6 x86/vmscape: Warn when STIBP is disabled with SMT
+70de678302a8314e131f23ac1f9efaba64765bd5 x86/vmscape: Add old Intel CPUs to affected list
+43bb85222e53926decace01ce6584ca88e09a0a9 Linux 5.15.193
+ca549a7a1b9a39d896fc168b8d2def91fc228e20 Revert "fbdev: Disable sysfb device registration when removing conflicting FBs"
+25b224f85446ec15c1c117d41101ad4e2264532a xfs: short circuit xfs_growfs_data_private() if delta is zero
+9dd489b81b08de710a5fa43732100ce702fd0a3a kunit: kasan_test: disable fortify string checker on kasan_strings() test
+cea919f601c1244b1e4f6e2ebf67653a50316654 mm: introduce and use {pgd,p4d}_populate_kernel()
+772d26db543ebd87233ba155c562bdf6b7affeee media: mtk-vcodec: venc: avoid -Wenum-compare-conditional warning
+4f9973a88baa64177d0d0994990d5956a409a3e5 media: i2c: imx214: Fix link frequency validation
+c11800ac2592a8951fb97b50caacd1895ac8e9f9 net: Fix null-ptr-deref by sock_lock_init_class_and_name() and rmmod.
+3f96e51c70c1835869d3ae295c43665d4f22ecf9 tracing: Do not add length to print format in synthetic events
+7da6782e7bfa8e9698b87978a2fab9cad37e9020 mm/rmap: reject hugetlb folios in folio_make_device_exclusive()
+d7823bbd29047d6ac88fc71092cc4826f6a0c328 flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
+d97ce8fdf66283ee569e4244a75a465631f8c6cc NFSv4: Don't clear capabilities that won't be reset
+96ecb1aa022527b733ee3d208aae87548c1c09b2 NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
+1b48277e12cc92055b6ae44aa1deb57e408a7dc3 NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
+6d49b1d65daf499d6bd7d77d30dc83d67641b816 tracing: Fix tracing_marker may trigger page fault during preempt_disable
+5fe825bb2a3188ad26cc491350383dfd95e08cbc NFSv4/flexfiles: Fix layout merge mirror check.
+6970d833b33bbc80fff99ce71ca287db8229f2c0 s390/cpum_cf: Deny all sampling events by counter PMU
+839ce597ba84ddcdf78dc55f7c24606da81605d0 tcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock->cork.
+8eb1d011d3e63bb22c3c3337662cdb7d340dcd94 KVM: x86: Move open-coded CPUID leaf 0x80000021 EAX bit propagation code
+9b66ed7b93cc2a973e39d939538a75b9627a846c KVM: SVM: Return TSA_SQ_NO and TSA_L1_NO bits in __do_cpuid_func()
+3167dd456dc86df9dd148f2a29d6f3bff84151ee KVM: SVM: Set synthesized TSA CPUID flags
+c3e623723bf02e51eaccfe224f97c4243da127c0 EDAC/altera: Delete an inappropriate dma_free_coherent() call
+39c33b8ec98bd8184b1618bc63ae743cb5b7c166 compiler-clang.h: define __SANITIZE_*__ macros only when undefined
+3e9415b673b5f2f60e757c3b632588f11d5cda21 mptcp: sockopt: make sync_socket_options propagate SOCK_KEEPOPEN
+a36db956c7cdcbf965eae5598bb648a0dcfae9d8 ocfs2: fix recursive semaphore deadlock in fiemap call
+82b36484308f428b3d3f43cf4976215745c11fe1 mtd: rawnand: stm32_fmc2: fix ECC overwrite
+2c691349a66a89454f13dc78792ef7b4aff599d1 fuse: check if copy_file_range() returns larger than requested size
+70e7c03a3f1f01489534680c881f670799508972 fuse: prevent overflow in copy_file_range return value
+c4917f308f03cc2e832b28012195308146f65d2b Linux 5.15.194-rc1
 
---===============4362691218917111575==--
+--===============0212784318351927766==--
