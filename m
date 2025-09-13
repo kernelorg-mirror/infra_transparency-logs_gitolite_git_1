@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sat, 13 Sep 2025 18:39:23 -0000
-Message-Id: <175778876305.1513300.6254882137426095049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 13 Sep 2025 18:48:58 -0000
+Message-Id: <175778933821.1521087.15337103792926517681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: 7c5ffa98405254fd89a240fc555e24cd3aae94e3
-    new: 4f48396e0df888ee6a5e8a2df92d71cfc05d26d8
+  - ref: refs/heads/ras/core
+    old: 8541d643578f5fc7919e3982667c5dedab597bf5
+    new: 28e82d6f03b0626f78e0a2719eca9fbf43f26855
     log: |
-         4f48396e0df888ee6a5e8a2df92d71cfc05d26d8 feat(macro): tpm_enum_cast!
+         28e82d6f03b0626f78e0a2719eca9fbf43f26855 x86/mce: Save and use APEI corrected threshold limit
          
