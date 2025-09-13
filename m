@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4935951074562144279=="
+Content-Type: multipart/mixed; boundary="===============1637388908498995305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 13 Sep 2025 14:00:31 -0000
-Message-Id: <175777203165.1283033.2464440024460218706@gitolite.kernel.org>
+Date: Sat, 13 Sep 2025 14:04:46 -0000
+Message-Id: <175777228616.1285568.4819320480439472038@gitolite.kernel.org>
 
---===============4935951074562144279==
+--===============1637388908498995305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,56 +17,56 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-5.4.y
-    old: 08c21a7a8d77131bb79b4611d19d9f45844053a8
-    new: c150428dc80f131d4733a3ecabf4064e594d57ce
-    log: revlist-08c21a7a8d77-c150428dc80f.txt
+    old: c150428dc80f131d4733a3ecabf4064e594d57ce
+    new: f39818b51d208b2395b405ad902d5b04fe15601a
+    log: revlist-c150428dc80f-f39818b51d20.txt
 
---===============4935951074562144279==
+--===============1637388908498995305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757772082 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757772337 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1757772029-e8ac9fb97fc12b9f71501614f2c6f5297b156ff5
+nonce 1757772284-55834c119866bde9b8441f13193961997cf5f1ab
 
-08c21a7a8d77131bb79b4611d19d9f45844053a8 c150428dc80f131d4733a3ecabf4064e594d57ce refs/heads/linux-5.4.y
+c150428dc80f131d4733a3ecabf4064e594d57ce f39818b51d208b2395b405ad902d5b04fe15601a refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjFeTIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AIIP/05qnEz8gBIJz0WySnid
-9Gqfhps7jK7DfHeCl6T2w0WvSZQmoUiuBIz7t/tCiAoOilW3mxTD+8rZs7k1le8E
-JPsxvV53zZ3zq82V+gqdrbMrWXFncwC2rLQt0jq6MT8KVagc/Laqzo+9f5ox3Rjl
-rRLPiGFegSE2CCdsGkiueo9u5yOQoLY5mR3Jbl1Ecl3gDq9XsamW51303p+cl0LM
-k61UIA2l7K/Z19r8f7Ady8rf6w1bTJUeNLNvsm2NbOrqM6VW5HZevgH0i+p0eog5
-cvej+SRIf3hkgCnbZeRPnbwvH3HqCYYvdRIpRDQfVUaXC70RJGUqoMNXr55rdeFT
-N6KK8snVIg5q1x6qiECTjp/HnVV1vS3SipTrBKT6LKp+fzvaPB2P32MvQ3qk5vBZ
-diod6Kz1bzDcueRxGsSiV/a8AKN3vagGFSdJeAe7JDqEGq0Lkji4kjgWXAe7k9sv
-7GUjZ2R4gTmBryz6Ne0Ig75XsbOy/+gFDdotlhdAZXXCRiIlsablJmLBc6agEUQm
-TDRXt5hqhHt19ADn1xUSPzjdNFTwPzgVN7Ut6n9wenJFTxnqjQ9v63eBitJqeZSc
-iqBDYcYjQoDSakpG56QkQO8SCtpygYBfSQs8sQu25ZALq5ZwMQ9xhGr7WOWvfTaq
-SHDak1NcMUJRcmv4qdXbrztt
-=XPl8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjFejEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f+wQAJ8pluhqLVO9bXOsbnOX
+tlG9CTalK+82tSxkfR76mdhD4wOov705koMBar2svtNnHgLHAvx/QpBFlr44G8T1
+m/8+VCQpq5jg9cq58qV3DpAmGQ9QAiD3/e98NQIEGUkvvVz/Q2A0xiUdXOwYkQuR
+LQpnFYkafU/UiMHj+CBaFGteqMlyfTDHED/6QDuPwj2rRU+4NmWg3d+0OkHtG2xl
+tLANWqzPOoPbKVnSZf6WpwSnL5JZDByorvqKUXfmAR4MvJMPHy9MHuzLbASHWsI+
+aU3WsB77GoN+Wqo1Hvvrtv7hzcPP6ssulD8akLGbm2fPvPeHoscNGRioIb/tFArv
+X60AAiYFb8dsYfSkceRrVI+2/zFqv2YAIDN57oGNqLvNvSKXf8ezAbmhWunH+88J
+3PgYs9P4gYgKR7e53fqNtgJsExllAh6o8SarPx9NjXKVSREMPZ2Pcn3WmFY/Dlls
+8oOHNj2fC2YU4U7AtbcI9vfAMsvgkGEGyWttTE4VgY8JStPZQyY1sN+widYJmrB3
+U9GJIUQ9sEDzYdDWk4xFmP0TNNsEyXvyrOpUA3JJZKMfBZ9woM7uszV8kLSeKohD
+9J2cqIIvmJPlXa6UYg2/UNeqg5HQxmcyIGP9OophMxwLxuhAzdlsHnDmJ1bdytqA
+gbSEr02l7Fy/GJ+zYVn8h9XE
+=0ReE
 -----END PGP SIGNATURE-----
 
---===============4935951074562144279==
+--===============1637388908498995305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08c21a7a8d77-c150428dc80f.txt
+Content-Disposition: attachment; filename=revlist-c150428dc80f-f39818b51d20.txt
 
-53422279b635bf57f42bd09138c344268a131bed usb: hub: Fix flushing of delayed work used for post resume purposes
-d85444f78a340d3ca82539ed7d5658b1dcd630f4 net: Fix null-ptr-deref by sock_lock_init_class_and_name() and rmmod.
-5c60001f364da20ef10ca4aedd933dbb2b4de6d8 NFSv4: Don't clear capabilities that won't be reset
-b7280bacb0c08c8be082373743388637eb59720e s390/cpum_cf: Deny all sampling events by counter PMU
-3847abe1d97fa2d95e2d0d95a84ac90883cb1bba tcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock->cork.
-8eafcaef22816fba18d6deb872ac0cf67089fc70 EDAC/altera: Delete an inappropriate dma_free_coherent() call
-b47eca37f2d013e73e8fe59769fbe80db151daf6 ocfs2: fix recursive semaphore deadlock in fiemap call
-3158f52e50fb993b12534adf673db071224e734b mtd: rawnand: stm32_fmc2: fix ECC overwrite
-7e2a521adc92f494bf186eb2ef5df3f2193e06a2 fuse: check if copy_file_range() returns larger than requested size
-29ecb9a83915d6f868ccf0d4ea840bd79febbfd4 fuse: prevent overflow in copy_file_range return value
-c150428dc80f131d4733a3ecabf4064e594d57ce Linux 5.4.300-rc1
+cc56fac7f50bb9fab46b0fa6063fe1fec80af99b usb: hub: Fix flushing of delayed work used for post resume purposes
+571d0b9a0afd02b2255b75c03a5554c6022aa752 net: Fix null-ptr-deref by sock_lock_init_class_and_name() and rmmod.
+a1fa9efa7f41b93dd841e55cbfaf916d7025adbb NFSv4: Don't clear capabilities that won't be reset
+cfa5e1d948d568d6206f7cefbfd3ce6a3bcdb15c s390/cpum_cf: Deny all sampling events by counter PMU
+5ad786169637ade38b422ea1139acab3bacc3a31 tcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock->cork.
+4303f43ecd7c21f63ff5704b8df60331054c2704 EDAC/altera: Delete an inappropriate dma_free_coherent() call
+ca520f1f7e9d56405a194ee85a47d2528da0a072 ocfs2: fix recursive semaphore deadlock in fiemap call
+f797f53cc774385d397c9dab6f62eb90ea83210a mtd: rawnand: stm32_fmc2: fix ECC overwrite
+9beb256b742c4b4a572092c6f3eadfdc51636196 fuse: check if copy_file_range() returns larger than requested size
+cf0bab5e7d4508152bfe02f304c8329e65fc6819 fuse: prevent overflow in copy_file_range return value
+f39818b51d208b2395b405ad902d5b04fe15601a Linux 5.4.300-rc1
 
---===============4935951074562144279==--
+--===============1637388908498995305==--
