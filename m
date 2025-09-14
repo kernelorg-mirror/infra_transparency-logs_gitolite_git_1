@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 14 Sep 2025 00:17:29 -0000
-Message-Id: <175780904913.1788307.4981591339693373585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sun, 14 Sep 2025 00:39:24 -0000
+Message-Id: <175781036408.1805816.11237751919616292765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 5cd64d4f92683afa691a6b83dcad5adfb2165ed0
-    new: f83a4f2a4d8c485922fba3018a64fc8f4cfd315f
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: b90ec277d78744833fd5dfd55918fd780f654a7c
+    new: 0a64594f33302b0302ce4d558fd37dbe4f6f85db
     log: |
-         131897c65e2b86cf14bec7379f44aa8fbb407526 erofs: fix invalid algorithm for encoded extents
-         181993bb0d626cf88cc803f4356ce5c5abe86278 erofs: fix runtime warning on truncate_folio_batch_exceptionals()
-         1fcf686def19064a7b5cfaeb28c1f1a119900a2b erofs: fix long xattr name prefix placement
-         f83a4f2a4d8c485922fba3018a64fc8f4cfd315f Merge tag 'erofs-for-6.17-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+         dac5803a85649f95df5e595041b360d63eeddd14 nfs/localio: add proper O_DIRECT support for READ and WRITE
+         bb5ffa6deff6c0d51784dae56a13eed95b629282 nfs/localio: add tracepoints for misaligned DIO READ and WRITE support
+         0a64594f33302b0302ce4d558fd37dbe4f6f85db NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
          
