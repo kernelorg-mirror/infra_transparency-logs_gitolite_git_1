@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 14 Sep 2025 22:24:28 -0000
-Message-Id: <175788866806.2949362.2736302469405797478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sun, 14 Sep 2025 23:12:23 -0000
+Message-Id: <175789154342.2990014.18107972569376262753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/rtc-next
-    old: 50562f9cd36694dcfb6551481e7171a7bbf37b1a
-    new: 14552d291e50fffc48deae4105d560ba0088223d
+  - ref: refs/heads/kernel-6.12.24/nfs-testing-snitm
+    old: 0a64594f33302b0302ce4d558fd37dbe4f6f85db
+    new: 4afc473060e5d749ce07f40606c9a08d406b1a51
     log: |
-         5eabddff91682f479d00fc634f9063cc39c3247b dt-bindings: rtc: Drop isil,isl12057.txt
-         c90c7ebf8f73184a53b9ad822033b719ff310dec rtc: remove unneeded 'fast_io' parameter in regmap_config
-         0552f7c674690015125c8f7cd9350105ac47e274 dt-bindings: rtc: Fix Xicor X1205 vendor prefix
-         14552d291e50fffc48deae4105d560ba0088223d rtc: x1205: Fix Xicor X1205 vendor prefix
+         cb702c86aa12e5477e1e4aca0c1384a821f2afef nfs/localio: add proper O_DIRECT support for READ and WRITE
+         97b5def7cebbb4d157b86d70827b128b985b654c nfs/localio: add tracepoints for misaligned DIO READ and WRITE support
+         4afc473060e5d749ce07f40606c9a08d406b1a51 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
          
