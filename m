@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sun, 14 Sep 2025 02:14:33 -0000
-Message-Id: <175781607368.1888318.7565589259896385633@gitolite.kernel.org>
+Date: Sun, 14 Sep 2025 02:29:45 -0000
+Message-Id: <175781698525.1900944.10680923742402727398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
   - ref: refs/heads/0.10.x
-    old: be2f094e9282d05e4d5ec6f56cfb350f85366c97
-    new: a47df6d74de8b97176e30ee1179ce125e731e4ba
+    old: a47df6d74de8b97176e30ee1179ce125e731e4ba
+    new: 80a715c974b1d30ed2e0b75142a7e6365bcb669b
     log: |
-         a47df6d74de8b97176e30ee1179ce125e731e4ba refactor(macro): remove useless TpmTagged implementation
+         80a715c974b1d30ed2e0b75142a7e6365bcb669b refactor(tpmu): tidy uunnecessary TpmTagged use
          
