@@ -1,123 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============2605972666905232885=="
+Content-Type: multipart/mixed; boundary="===============8843928336629779510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Sun, 14 Sep 2025 06:36:20 -0000
-Message-Id: <175783178051.2110723.9204365410412921946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 14 Sep 2025 07:29:41 -0000
+Message-Id: <175783498165.2152577.8766922736999124268@gitolite.kernel.org>
 
---===============2605972666905232885==
+--===============8843928336629779510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18/arm/dt
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 73e23d3bd7220847c3b1554ebe29221f84a01e95
-    log: revlist-8f5ae30d69d7-73e23d3bd722.txt
-  - ref: refs/heads/for-6.18/arm64/dt
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: e1899da95f59240ed2d4a51d7a89c8b77c45ff06
-    log: |
-         804ebc2bdcc85f30973708835b47ee023a4be003 dt-bindings: i2c: nvidia,tegra20-i2c: Document Tegra264 I2C
-         6b670e53ac6ecd531d90324e9ef87a029d2c98b9 dt-bindings: display: tegra: Move avdd-dsi-csi-supply from VI to CSI
-         fc02f529a8dbf617f6d211cb693f56a842b6dbe5 dt-bindings: clock: tegra30: Add IDs for CSI pad clocks
-         669c71f6c6b0034f918430a2fdcf577683d31db6 dt-bindings: arm: tegra: Add Xiaomi Mi Pad (A0101)
-         7526e6db4703d0fe81b5397939c2aefd5fe8d9bc dt-bindings: reset: Add Tegra114 CAR header
-         04f27a0fda6b6be104531eeb95d07ef1b3a72af8 dt-bindings: arm: tegra: Add ASUS TF101G and SL101
-         a555633fd3f1d28a092c6707d9ebc00dfc1190a9 Merge branch 'for-6.18/dt-bindings' into for-6.18/arm64/dt
-         e1899da95f59240ed2d4a51d7a89c8b77c45ff06 arm64: tegra: Add I2C nodes for Tegra264
-         
-  - ref: refs/heads/for-6.18/clk
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 5aba939e80f439c1a67adb6d9cae23cc72db7ef9
-    log: |
-         804ebc2bdcc85f30973708835b47ee023a4be003 dt-bindings: i2c: nvidia,tegra20-i2c: Document Tegra264 I2C
-         6b670e53ac6ecd531d90324e9ef87a029d2c98b9 dt-bindings: display: tegra: Move avdd-dsi-csi-supply from VI to CSI
-         fc02f529a8dbf617f6d211cb693f56a842b6dbe5 dt-bindings: clock: tegra30: Add IDs for CSI pad clocks
-         669c71f6c6b0034f918430a2fdcf577683d31db6 dt-bindings: arm: tegra: Add Xiaomi Mi Pad (A0101)
-         7526e6db4703d0fe81b5397939c2aefd5fe8d9bc dt-bindings: reset: Add Tegra114 CAR header
-         04f27a0fda6b6be104531eeb95d07ef1b3a72af8 dt-bindings: arm: tegra: Add ASUS TF101G and SL101
-         c4d7901225435c2a82049588532f7b7a07e06188 Merge branch 'for-6.18/dt-bindings' into for-6.18/clk
-         8e7bd526e83673c2b4931163311cca49796657f8 clk: tegra: Add DFLL DVCO reset control for Tegra114
-         5aba939e80f439c1a67adb6d9cae23cc72db7ef9 clk: tegra: dfll: Add CVB tables for Tegra114
-         
-  - ref: refs/heads/for-6.18/dt-bindings
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 04f27a0fda6b6be104531eeb95d07ef1b3a72af8
-    log: |
-         804ebc2bdcc85f30973708835b47ee023a4be003 dt-bindings: i2c: nvidia,tegra20-i2c: Document Tegra264 I2C
-         6b670e53ac6ecd531d90324e9ef87a029d2c98b9 dt-bindings: display: tegra: Move avdd-dsi-csi-supply from VI to CSI
-         fc02f529a8dbf617f6d211cb693f56a842b6dbe5 dt-bindings: clock: tegra30: Add IDs for CSI pad clocks
-         669c71f6c6b0034f918430a2fdcf577683d31db6 dt-bindings: arm: tegra: Add Xiaomi Mi Pad (A0101)
-         7526e6db4703d0fe81b5397939c2aefd5fe8d9bc dt-bindings: reset: Add Tegra114 CAR header
-         04f27a0fda6b6be104531eeb95d07ef1b3a72af8 dt-bindings: arm: tegra: Add ASUS TF101G and SL101
-         
-  - ref: refs/heads/for-6.18/soc
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: b9c01adedf38c69abb725a60a05305ef70dbce03
-    log: |
-         b9c01adedf38c69abb725a60a05305ef70dbce03 soc/tegra: fuse: Add Tegra114 nvmem cells and fuse lookups
-         
-  - ref: refs/heads/for-next
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: ede1a0bcc92fda700dc56e76f43f2d86b1ecbf05
-    log: revlist-8f5ae30d69d7-ede1a0bcc92f.txt
-  - ref: refs/tags/for-6.18-clk
-    old: 0000000000000000000000000000000000000000
-    new: 9dda07ed1525f09611a15d033c1729414290f90a
+  - ref: refs/heads/master
+    old: 22f20375f5b71f30c0d6896583b93b6e4bba7279
+    new: f83a4f2a4d8c485922fba3018a64fc8f4cfd315f
+    log: revlist-22f20375f5b7-f83a4f2a4d8c.txt
 
---===============2605972666905232885==
+--===============8843928336629779510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-73e23d3bd722.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-804ebc2bdcc85f30973708835b47ee023a4be003 dt-bindings: i2c: nvidia,tegra20-i2c: Document Tegra264 I2C
-6b670e53ac6ecd531d90324e9ef87a029d2c98b9 dt-bindings: display: tegra: Move avdd-dsi-csi-supply from VI to CSI
-fc02f529a8dbf617f6d211cb693f56a842b6dbe5 dt-bindings: clock: tegra30: Add IDs for CSI pad clocks
-669c71f6c6b0034f918430a2fdcf577683d31db6 dt-bindings: arm: tegra: Add Xiaomi Mi Pad (A0101)
-7526e6db4703d0fe81b5397939c2aefd5fe8d9bc dt-bindings: reset: Add Tegra114 CAR header
-04f27a0fda6b6be104531eeb95d07ef1b3a72af8 dt-bindings: arm: tegra: Add ASUS TF101G and SL101
-166e2c0f26c83e8035cbd2a3301390c86de047ce Merge branch 'for-6.18/dt-bindings' into for-6.18/arm/dt
-b49a73a08100ab139e07cfa7ca36e9b15787d0ab ARM: tegra: p880: set correct touchscreen clipping
-93ff9ffaf3434a236d5450d8a29af1433b48a049 ARM: tegra: Add DFLL clock support for Tegra114
-cca41614d15ce2bbc2c661362d3eafe53c9990af ARM: tegra: transformer-20: add missing magnetometer interrupt
-3f973d78d176768fa7456def97f0b9824235024f ARM: tegra: transformer-20: fix audio-codec interrupt
-73e23d3bd7220847c3b1554ebe29221f84a01e95 ARM: tegra: add support for ASUS Eee Pad Slider SL101
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757835032 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1757834979-6047dba8e899ff128c3d8b5bbd48ef93ce1e8ffc
 
---===============2605972666905232885==
+22f20375f5b71f30c0d6896583b93b6e4bba7279 f83a4f2a4d8c485922fba3018a64fc8f4cfd315f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjGbxgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wSMP/jo0HNawGZhnBQNCs7lb
+kzU8UZlOkL/19Y+XTCg0pD6MRwjMjOPzqqXgLSklmxuU/oWa8fpxKOVFWwpJ7u97
+4f8eI2L2uGtNualOsJqxBRikO0zVdYDDUSRumytedOHhMcGIBUYT0Sz8hci79fxN
+91iaCWJaM2SY0F8OuIcO64fVhhWPlr/TeVPu8tEaStImMjApWc1DZUKt++5YiFFe
+TMj8VyV7gLh8ZSYzAS3lJPb5lBTXfVSu7o/7hg3aYPHQn31zgpNEoJW7yI6hXzAd
+j1UbpNDCy00gbO0cZG/L8ud58x1Gdjjk7GuLJCH6QmWwAzjruM5SUzwlJS6AWb9T
+KUgOOv5fB80j9tsKzKgtNOXbsaYDfFB5dMU0oIcWuc349o740T64WCdxsFBofNJG
+BV/xLsfrFk1xDHRPtb20ENekX6+kPclHzNVizRAiLatghLAeB8zuN1NAbmv1qR0t
+NhsiO6a883cgWxvBw100l9vbyZC0E1aA+aCFRgyAZdu3y+AiW0SCK1FeFsooqWPD
+lqAAkelsu/Ss8rCTb8zV3RRjYjWp758DMZ8ZWcmd2ROGYqu8F7CyPr7NAF7Flwtu
+vyDMIxfjJPW0u2VIQRpxa1A9LP6oc7G6AVyp6ocYu+9Y84CSpZQxznaeMVask2Ui
+DZUq+al5po2nxnHVz1SvXHeB
+=MacT
+-----END PGP SIGNATURE-----
+
+--===============8843928336629779510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-ede1a0bcc92f.txt
+Content-Disposition: attachment; filename=revlist-22f20375f5b7-f83a4f2a4d8c.txt
 
-804ebc2bdcc85f30973708835b47ee023a4be003 dt-bindings: i2c: nvidia,tegra20-i2c: Document Tegra264 I2C
-6b670e53ac6ecd531d90324e9ef87a029d2c98b9 dt-bindings: display: tegra: Move avdd-dsi-csi-supply from VI to CSI
-fc02f529a8dbf617f6d211cb693f56a842b6dbe5 dt-bindings: clock: tegra30: Add IDs for CSI pad clocks
-669c71f6c6b0034f918430a2fdcf577683d31db6 dt-bindings: arm: tegra: Add Xiaomi Mi Pad (A0101)
-b9c01adedf38c69abb725a60a05305ef70dbce03 soc/tegra: fuse: Add Tegra114 nvmem cells and fuse lookups
-7526e6db4703d0fe81b5397939c2aefd5fe8d9bc dt-bindings: reset: Add Tegra114 CAR header
-04f27a0fda6b6be104531eeb95d07ef1b3a72af8 dt-bindings: arm: tegra: Add ASUS TF101G and SL101
-c4d7901225435c2a82049588532f7b7a07e06188 Merge branch 'for-6.18/dt-bindings' into for-6.18/clk
-8e7bd526e83673c2b4931163311cca49796657f8 clk: tegra: Add DFLL DVCO reset control for Tegra114
-166e2c0f26c83e8035cbd2a3301390c86de047ce Merge branch 'for-6.18/dt-bindings' into for-6.18/arm/dt
-b49a73a08100ab139e07cfa7ca36e9b15787d0ab ARM: tegra: p880: set correct touchscreen clipping
-93ff9ffaf3434a236d5450d8a29af1433b48a049 ARM: tegra: Add DFLL clock support for Tegra114
-cca41614d15ce2bbc2c661362d3eafe53c9990af ARM: tegra: transformer-20: add missing magnetometer interrupt
-3f973d78d176768fa7456def97f0b9824235024f ARM: tegra: transformer-20: fix audio-codec interrupt
-73e23d3bd7220847c3b1554ebe29221f84a01e95 ARM: tegra: add support for ASUS Eee Pad Slider SL101
-a555633fd3f1d28a092c6707d9ebc00dfc1190a9 Merge branch 'for-6.18/dt-bindings' into for-6.18/arm64/dt
-e1899da95f59240ed2d4a51d7a89c8b77c45ff06 arm64: tegra: Add I2C nodes for Tegra264
-5aba939e80f439c1a67adb6d9cae23cc72db7ef9 clk: tegra: dfll: Add CVB tables for Tegra114
-aec2bb5425fd6feb4b245da509cafeba5d1baba1 Merge branch for-6.18/dt-bindings into for-next
-6f5491d5bd708f354c7c449a05d5b8dfd3e6aed2 Merge branch for-6.18/soc into for-next
-4044d6b02d0abe56baa29efcc4a24b0e18705e6d Merge branch for-6.18/clk into for-next
-554c3d2add1a719f517cfe48cd46c1afa4d3a225 Merge branch for-6.18/arm/dt into for-next
-ede1a0bcc92fda700dc56e76f43f2d86b1ecbf05 Merge branch for-6.18/arm64/dt into for-next
+131897c65e2b86cf14bec7379f44aa8fbb407526 erofs: fix invalid algorithm for encoded extents
+f1b55db08d527240fbc3b8c84229134a98d8d080 rust: device: fix unresolved link to drm::Device
+3c9ba2777d6c86025e1ba4186dc5cd930e40ec5f kernfs: Fix UAF in polling when open file is released
+c05d0b32eebadc8be6e53196e99c64cf2bed1d99 regulator: sy7636a: fix lifecycle of power good gpio
+15f519e9f883b316d86e2bb6b767a023aafd9d83 ceph: fix race condition validating r_parent before applying state
+bec324f33d1ed346394b2eee25bf6dbf3511f727 ceph: fix race condition where r_parent becomes stale before sending message
+cce7c15faaac79b532a07ed6ab8332280ad83762 ceph: always call ceph_shift_unused_folios_left()
+249e0a47cdb46bb9eae65511c569044bd8698d7d ceph: fix crash after fscrypt_encrypt_pagecache_blocks() error
+181993bb0d626cf88cc803f4356ce5c5abe86278 erofs: fix runtime warning on truncate_folio_batch_exceptionals()
+cdbc9836c7afadad68f374791738f118263c5371 libceph: fix invalid accesses to ceph_connection_v1_info
+1fcf686def19064a7b5cfaeb28c1f1a119900a2b erofs: fix long xattr name prefix placement
+f6d2900f2806d584303db689d9e18f0443610514 MAINTAINERS: Update the DMA Rust entry
+b891d11b74b447df6e18104199148e420c985ac1 Merge tag 'driver-core-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+395d68e5dd63745a424b1b3bdee095b500c7cf83 Merge tag 'regulator-fix-v6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+5cd64d4f92683afa691a6b83dcad5adfb2165ed0 Merge tag 'ceph-for-6.17-rc6' of https://github.com/ceph/ceph-client
+f83a4f2a4d8c485922fba3018a64fc8f4cfd315f Merge tag 'erofs-for-6.17-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============2605972666905232885==--
+--===============8843928336629779510==--
