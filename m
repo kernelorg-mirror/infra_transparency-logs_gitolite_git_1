@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sun, 14 Sep 2025 02:29:45 -0000
-Message-Id: <175781698525.1900944.10680923742402727398@gitolite.kernel.org>
+Date: Sun, 14 Sep 2025 02:30:19 -0000
+Message-Id: <175781701965.1902868.10613305757432177058@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
-  - ref: refs/heads/0.10.x
-    old: a47df6d74de8b97176e30ee1179ce125e731e4ba
-    new: 80a715c974b1d30ed2e0b75142a7e6365bcb669b
+  - ref: refs/heads/main
+    old: 37e6430cca95953db9d9578bdc7e2cacd8a9ef11
+    new: 1529a05b0f86ac9d7d772d4050133c2d17a51642
     log: |
-         80a715c974b1d30ed2e0b75142a7e6365bcb669b refactor(tpmu): tidy uunnecessary TpmTagged use
+         1529a05b0f86ac9d7d772d4050133c2d17a51642 refactor(tpmu): tidy uunnecessary TpmTagged use
          
