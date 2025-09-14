@@ -1,19 +1,112 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sun, 14 Sep 2025 03:08:14 -0000
-Message-Id: <175781929488.1935341.6420041935593175283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Sun, 14 Sep 2025 03:10:52 -0000
+Message-Id: <175781945217.1938795.7619010592580435488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/0.10.x
-    old: 80a715c974b1d30ed2e0b75142a7e6365bcb669b
-    new: 614219cba455a9bc90e7157849d9aa150da8dce8
-    log: |
-         614219cba455a9bc90e7157849d9aa150da8dce8 refactor(tpmu): tidy uunnecessary TpmTagged use
-         
+  - ref: refs/tags/drm-fixes-2025-07-04
+    old: 0000000000000000000000000000000000000000
+    new: ab288407e5ff0d25b7ff913423c7b499c69394ea
+  - ref: refs/tags/drm-fixes-2025-07-12
+    old: 0000000000000000000000000000000000000000
+    new: 6e9d0e0dbf3313f1dfd2a163ddc87dbf0c20b5e9
+  - ref: refs/tags/drm-fixes-2025-07-18-1
+    old: 0000000000000000000000000000000000000000
+    new: 1395e7255d41e10da152f668a54fbc6ce10cc291
+  - ref: refs/tags/drm-fixes-2025-07-24
+    old: 0000000000000000000000000000000000000000
+    new: d9d931f5a5c0a4b1f8c3b8f10cfb7961f2e8bf77
+  - ref: refs/tags/drm-fixes-2025-07-26
+    old: 0000000000000000000000000000000000000000
+    new: 11ae042d69b08228c1a4af227a8383e7cd151239
+  - ref: refs/tags/drm-fixes-2025-08-08
+    old: 0000000000000000000000000000000000000000
+    new: 8b2c56f471500802526b9892a32842763e14984b
+  - ref: refs/tags/drm-fixes-2025-08-16
+    old: 0000000000000000000000000000000000000000
+    new: ef587d2777c7cf38422d1c5f8c0614683d9d4e6f
+  - ref: refs/tags/drm-fixes-2025-08-23-1
+    old: 0000000000000000000000000000000000000000
+    new: 888c68a96d2e17759b23db81dfdea1b8ebfc6442
+  - ref: refs/tags/drm-fixes-2025-08-29
+    old: 0000000000000000000000000000000000000000
+    new: 4fdd6b601610c3ec3f64a243f7ae21213f21c3a5
+  - ref: refs/tags/drm-fixes-2025-09-05
+    old: 0000000000000000000000000000000000000000
+    new: b936b36e47b8d8f5102a9eb697a2751114fccb11
+  - ref: refs/tags/drm-fixes-2025-09-12
+    old: 0000000000000000000000000000000000000000
+    new: 8dac77ef6abf683f0d731104b3ed941ecd5a89de
+  - ref: refs/tags/drm-misc-fixes-2025-07-03
+    old: 0000000000000000000000000000000000000000
+    new: 3da48dfa0c1ccf9ea1038637a3244746f8437c77
+  - ref: refs/tags/drm-misc-fixes-2025-07-10
+    old: 0000000000000000000000000000000000000000
+    new: 6eb1f28d2ce783bf4b231f71ce7724ebf3fd0425
+  - ref: refs/tags/drm-misc-fixes-2025-07-16
+    old: 0000000000000000000000000000000000000000
+    new: fe8f1b1499849cebe6cdce046881d30c56309467
+  - ref: refs/tags/drm-misc-fixes-2025-07-23
+    old: 0000000000000000000000000000000000000000
+    new: cc31c180ac22fcb1a66e86f74971dff2387fef3b
+  - ref: refs/tags/drm-misc-fixes-2025-08-21
+    old: 0000000000000000000000000000000000000000
+    new: 2b859362754e5bd529381fd7151a463caaa7f6fa
+  - ref: refs/tags/drm-misc-fixes-2025-08-28
+    old: 0000000000000000000000000000000000000000
+    new: 4d4da2f834d12da59b6d79fca0a8e71997812e9e
+  - ref: refs/tags/drm-misc-fixes-2025-09-03
+    old: 0000000000000000000000000000000000000000
+    new: fb97684e2f34ee8ac0102f701804cfda1d343127
+  - ref: refs/tags/drm-misc-fixes-2025-09-11
+    old: 0000000000000000000000000000000000000000
+    new: ba0b03ae73d325bf87e639ab8d12c27e9b012aee
+  - ref: refs/tags/drm-misc-next-2025-07-03
+    old: 0000000000000000000000000000000000000000
+    new: 44b38017c6a36c7c25e4fc664aba4d1cbd5d5023
+  - ref: refs/tags/drm-misc-next-2025-07-10
+    old: 0000000000000000000000000000000000000000
+    new: 72e2b250397fcbaa3a9d646897a297ef0d585fc1
+  - ref: refs/tags/drm-misc-next-2025-07-17
+    old: 0000000000000000000000000000000000000000
+    new: 7c3fedd08d0cbcac16754821483953672712c390
+  - ref: refs/tags/drm-misc-next-2025-08-14
+    old: 0000000000000000000000000000000000000000
+    new: 95c19c30360febed62201729dc06d02bc12700bb
+  - ref: refs/tags/drm-misc-next-2025-08-21
+    old: 0000000000000000000000000000000000000000
+    new: f91e9905a892581dabaa2c1e3afaa1e12bd1e620
+  - ref: refs/tags/drm-misc-next-2025-08-28
+    old: 0000000000000000000000000000000000000000
+    new: 82c0fd61f0379fc5729b5256c2218cebcbbd9c50
+  - ref: refs/tags/drm-misc-next-2025-09-04
+    old: 0000000000000000000000000000000000000000
+    new: bd8850312c59dba5b5bcbfba7c3900b20d7f8ad2
+  - ref: refs/tags/drm-misc-next-2025-09-11
+    old: 0000000000000000000000000000000000000000
+    new: 256054752dae5d6c4bb3f3e6108b202c39cfc916
+  - ref: refs/tags/drm-misc-next-fixes-2025-07-24
+    old: 0000000000000000000000000000000000000000
+    new: 8f8bea466d9a48a8cc6856c333e515d5bfbfa52a
+  - ref: refs/tags/drm-misc-next-fixes-2025-08-12
+    old: 0000000000000000000000000000000000000000
+    new: 60c09afea9dde8c94b644154c684726a891ed768
+  - ref: refs/tags/drm-next-2025-07-30
+    old: 0000000000000000000000000000000000000000
+    new: 1f5792ac6e5083359c1dfd2100d8cf9e51c21e52
+  - ref: refs/tags/drm-next-2025-08-01
+    old: 0000000000000000000000000000000000000000
+    new: a6ad485d83c950976285e14636ddecbd59fb970a
+  - ref: refs/tags/drm-next-2025-08-08
+    old: 0000000000000000000000000000000000000000
+    new: 21d67aa05e066f4f36c2e621bdbd38b4527197d4
+  - ref: refs/tags/exynos-drm-misc-next-for-v6.18
+    old: 0000000000000000000000000000000000000000
+    new: 6a5e414ba651f1ca4f8d00007f1462f0aaac5f6d
