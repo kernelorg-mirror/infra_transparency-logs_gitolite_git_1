@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3347214453432636138=="
+Content-Type: multipart/mixed; boundary="===============5096062884053001083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 14 Sep 2025 03:58:03 -0000
-Message-Id: <175782228374.1981971.4603437396128275900@gitolite.kernel.org>
+Date: Sun, 14 Sep 2025 03:58:05 -0000
+Message-Id: <175782228518.1982148.10174928430536813745@gitolite.kernel.org>
 
---===============3347214453432636138==
+--===============5096062884053001083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
+  - ref: refs/heads/mm-stable
     old: e6b9dce0aeeb91dfc0974ab87f02454e24566182
     new: 103e90626d3a4032d22e8b09ff14600e71cda59c
     log: revlist-e6b9dce0aeeb-103e90626d3a.txt
 
---===============3347214453432636138==
+--===============5096062884053001083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -202,4 +202,4 @@ c66ae64401d148733ff564488160b58a659b80a5 tools: testing: use existing atomic.h f
 82b5fe3059a52e1419521ac32703208d03bb15e9 maple_tree: fix testing for 32 bit builds
 103e90626d3a4032d22e8b09ff14600e71cda59c maple_tree: testing fix for spanning store on 32b
 
---===============3347214453432636138==--
+--===============5096062884053001083==--
