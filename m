@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Sun, 14 Sep 2025 20:25:27 -0000
-Message-Id: <175788152797.2852101.15397931508421777888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 14 Sep 2025 20:28:26 -0000
+Message-Id: <175788170622.2853684.17041713156123161232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/i3c/next
-    old: 4132335d15d5e91242b78d6711521914aa3b80ef
-    new: f6fecd2759be2581e40173d5bd2da79d281557c2
+  - ref: refs/heads/main
+    old: c20302dd42ac2aa3cbb3e8099a8a39b90194d189
+    new: d586676a2714176bed06cf70467c4e08ac2d4681
     log: |
-         f6fecd2759be2581e40173d5bd2da79d281557c2 i3c: Fix default I2C adapter timeout value
+         d586676a2714176bed06cf70467c4e08ac2d4681 ionic: use int type for err in ionic_get_module_eeprom_by_page
          
