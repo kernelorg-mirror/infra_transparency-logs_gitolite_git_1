@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 14 Sep 2025 00:43:52 -0000
-Message-Id: <175781063237.1810155.5093269015144082053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Sun, 14 Sep 2025 00:53:01 -0000
+Message-Id: <175781118176.1818390.11267635252325191644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/tags/v6.12.24-20
-    old: 6fb01507c67db213e1a9b19588b31d9965c59f2e
-    new: abde1998fe54f20676350ca637662e93adcdceab
+  - ref: refs/heads/for-linus
+    old: 5f9efb6b7667043527d377421af2070cc0aa2ecd
+    new: 30989f67650cbf8dc763f7c22e3a210f70a8d7d0
     log: |
-         abde1998fe54f20676350ca637662e93adcdceab kernel-6.12.24-20
+         30989f67650cbf8dc763f7c22e3a210f70a8d7d0 MAINTAINERS: Input: Drop melfas-mip4 section
          
