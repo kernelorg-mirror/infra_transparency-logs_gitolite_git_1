@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Sun, 14 Sep 2025 16:29:18 -0000
-Message-Id: <175786735880.2653044.12390817925149993061@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4267622925766056272=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 14 Sep 2025 16:34:37 -0000
+Message-Id: <175786767751.2657660.1880583964609931693@gitolite.kernel.org>
+
+--===============4267622925766056272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: ff2c31c5369ad7cbbe50af8fa9f0e1e2a0a612aa
-    new: 249ef0edd383fd5a506ed2e6430d0a096846bd30
+  - ref: refs/heads/master
+    old: 052c026d4bf0dc617093efdc91fd71e8fd95ae56
+    new: 4c85d5d5180375cce6bafab8d911166eb20bcb80
     log: |
-         e6fad4960fc67b7225255b10b080765b451a7bc7 arm64: dts: sun55i: a523: Assign standard clock rates to PRCM bus clocks
-         9f01e1e14e71defefcb4d6823b8476a15f3cf04a arm64: dts: allwinner: a527: cubie-a5e: Drop external 32.768 KHz crystal
-         3d5e1ba00af8dd34ae1e573c2c07e00b5ec65267 arm64: dts: allwinner: t527: avaota-a1: hook up external 32k crystal
-         bd1ce7ef6aef4ee7349eb3124166e712693650ce arm64: dts: allwinner: t527: orangepi-4a: hook up external 32k crystal
-         cca07ac2b5f7838b8ff612b53b9f82ac8cb58312 arm64: dts: allwinner: sun55i: Complete AXP717A sub-functions
-         249ef0edd383fd5a506ed2e6430d0a096846bd30 Merge branch 'sunxi/dt-for-6.18' into sunxi/for-next
+         4c85d5d5180375cce6bafab8d911166eb20bcb80 5.10-stable patches
          
+
+--===============4267622925766056272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757867728 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1757867674-1c2a436fd4a05f848fe1bcb27056083cb10ad346
+
+052c026d4bf0dc617093efdc91fd71e8fd95ae56 4c85d5d5180375cce6bafab8d911166eb20bcb80 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjG7tAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+79sQAKWOjmrI7ZY1TUsS/LWC
+C8rGzdezrh+xyOH1LIdSn4uJditRvGOjd3JET7xRtYfAmMU4aSpnjOFb18GxkgWP
+EHFw9KU+L+vKfhbBAJzPFJZBt64b5gpcI4IoTBC3lw0wYi26xJ1wXS0whBgp7XND
+Lt5n1CV7wC66FUv3VhB8uAE0Q49s4fnJ3XdODBWK8tF13uRfoqn5iQ5ErTcYZeWG
+fcdKbrmhdUgocnnIDvg6BxhZOXBoxQ+HqTQgaifu8B8T9z/y91mmjHVW3IZTIKWw
+k/e1j5GS/za99FgnpXqI4sMzi3O/Tn2wHzB6TTWogeqE186BtH70dX7EmTg9DM8x
+3vk74PDqkiAVXtWpB/kB4qEtwdQaZ9J5Z4Oj7VDES9d+eLYpiwuCC4r9qF+TfinG
+do2lE7yQ2xEli9pzFdRH3o6Y018ua3/m3cCmFAjkPFqFTsY59otVRjJvGSvuYT6Y
+TJsGlhiMnUjDQDYtFTYua8a47rgA5scZmuxlVPGKW0F4wNEAh1AcOD+HoATwL1TU
+479qMK6o3p5TcVmwGWjEUP9wGQIprZO1OXmKNh7WWTdn35RJsWud1h6fdUV0c05J
+Q7rWUYJrYrm6keNXr9+tqwQ+N56szd6nFMkJBdPL0yl9+iil71DuJynYO6+XQ3YK
+0QRVQrQLmtEn7mYS5SaS5fWp
+=S2zU
+-----END PGP SIGNATURE-----
+
+--===============4267622925766056272==--
