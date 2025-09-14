@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 14 Sep 2025 21:13:53 -0000
-Message-Id: <175788443312.2890776.12475629256610588331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 14 Sep 2025 21:23:04 -0000
+Message-Id: <175788498434.2898895.8587469187913508305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/rtc-next
-    old: bb5b0b4317c9516bdc5e9a4235e3b5f1a73b7e48
-    new: 50562f9cd36694dcfb6551481e7171a7bbf37b1a
+  - ref: refs/heads/main
+    old: d586676a2714176bed06cf70467c4e08ac2d4681
+    new: b957665dc00ee62c5d3d557ecf1a96cc66667ddd
     log: |
-         b4bcfbfb1f0f6d787e5c8d5add019dd7a9d6dd13 dt-bindings: rtc: pcf85063: remove quartz-load-femtofarads restriction for nxp,pcf85063
-         ab2849666022a02179652fc9e177244b39b91aae dt-bindings: rtc: trivial-rtc: add dallas,m41t00
-         06625ab00682fbba6d6cf9db6763927305bcc2d7 rtc: s3c: Drop unused defines
-         1e41547c2041dd2f87a96688ed4550f1ab516eec rtc: s3c: Drop support for S3C2410
-         063544dad4a7d800028a50b4dab02b4d8e7e1ed8 dt-bindings: rtc: s3c: Drop S3C2410
-         a6432c0d99ba55a9f1281e05fccd64f858ea7e64 rtc: pcf2127: clear minute/second interrupt
-         50562f9cd36694dcfb6551481e7171a7bbf37b1a rtc: efi: Remove wakeup functionality
+         ec2a1681ed4f0aa74e15e4430e26afff514e4e19 net: fec: use a member variable for maximum buffer size
+         29e6d5f89e482ceccaa71358333316a7624df009 net: fec: add pagepool_order to support variable page size
+         62b5bb7be7bc3dcf87a2ab6ceced88164a626397 net: fec: update MAX_FL based on the current MTU
+         5b14ed3ac5133a1f7a5fe760451e645524b6c34e net: fec: add rx_frame_size to support configurable RX length
+         59e9bf037d7579a8d845bb8026276bc7e3852436 net: fec: add change_mtu to support dynamic buffer allocation
+         d466c16026e9ac125e5053a2fa26e59c82538fa4 net: fec: enable the Jumbo frame support for i.MX8QM
+         b957665dc00ee62c5d3d557ecf1a96cc66667ddd Merge branch 'net-fec-add-the-jumbo-frame-support'
          
