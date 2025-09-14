@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 14 Sep 2025 21:25:20 -0000
-Message-Id: <175788512017.2902187.15744626726016115110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 14 Sep 2025 21:30:26 -0000
+Message-Id: <175788542617.2906676.13616841439867035262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: af82e857df5dd883a4867bcaf5dde041e57a4e33
-    new: 56c0a2a9ddc2f5b5078c5fb0f81ab76bbc3d4c37
+    old: b957665dc00ee62c5d3d557ecf1a96cc66667ddd
+    new: 5b5ba63a54cc7cb050fa734dbf495ffd63f9cbf7
     log: |
-         56c0a2a9ddc2f5b5078c5fb0f81ab76bbc3d4c37 qed: Don't collect too many protection override GRC elements
+         5b5ba63a54cc7cb050fa734dbf495ffd63f9cbf7 amd-xgbe: Add PPS periodic output support
          
