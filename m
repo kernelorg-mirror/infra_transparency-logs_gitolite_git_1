@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7935343298810724872=="
+Content-Type: multipart/mixed; boundary="===============0343895919100149813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 14 Sep 2025 13:38:32 -0000
-Message-Id: <175785711282.2508122.2723395258885052513@gitolite.kernel.org>
+Date: Sun, 14 Sep 2025 13:39:00 -0000
+Message-Id: <175785714002.2508533.1508891395200511137@gitolite.kernel.org>
 
---===============7935343298810724872==
+--===============0343895919100149813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: d4a5d397c7fb1ca967e0da202cac196e7324f4ea
     log: revlist-8f5ae30d69d7-d4a5d397c7fb.txt
 
---===============7935343298810724872==
+--===============0343895919100149813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757857157 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757857192 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1757857103-533f0aae014bf6e4e9c2cb10434cce4380410b08
+nonce 1757857138-99ffe1ee91276d54edbcc034404e8d506467b9a7
 
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 d4a5d397c7fb1ca967e0da202cac196e7324f4ea refs/heads/driver-core-next
+8f5ae30d69d7543eee0d70083daf4de8fe15d585 d4a5d397c7fb1ca967e0da202cac196e7324f4ea refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjGxYUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RWAP/1te65P0jxKg05bIF4gL
-E3cn2rljV0P6JWmU4JPVqXx54b3wAgl6K8LkFiv8Yj7m5Vs7OKc8pnmzdimUfTNS
-s7zGma6LjJRwztRKmC/9ywTFDwqOwa0tA1bYRtyZO4OuH9r5vMpeqisqhiOOR8Eg
-eQJkPbVxLwTGpqVeSkXMh2c8RQWjXN18yiG5fWHQuNgFSQ4rccE/ChlVhEH1kaUg
-9dgjrL6vPS3eF6YIrdSvqCoGHPMnAxvhgDRZa1ASlixCSkWlZ0HHgkOFM16kYRJt
-YPAiw3AUvAJ0z9mrSx73N1+/JwZrml4qGcJ69xYsJThen/LTzo1RJrYQFYTVqPgu
-pfKhi1DsvBxp+dzP9Nl1oSASUJZFujRs4sTmLeqrfB7SyWQ3U3R5sJvuQshE7PVU
-v+AkkN2U0RTWrJprAjRsAc9qqCfw+FtMKNIF0uCUBU6jza45CWBI93I+EFNCGOJ1
-ATgwN8wYbfwG/AnoEW+/HWnyJYTMQ6B9fKBPaE6ag4aIZYcWUv74tKH8sVBI8hBp
-kFZb/go9iN8gUYJnf1yKfv5M635DjtQ30DYoD+uqja/QCgNDDc2X0YiN9xhWEmmm
-W09U2wie4lA206phOp6bZt5adZJfcltSK9+HG7PWiKR7xBEDWmSdntuATDU5E88/
-kbqJF7j28iGpI8eupjrO/AgU
-=oV3S
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjGxagbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kcIP/RVD8PFLxA5j0mIvTWoj
+iat/CG4T3KWKmR5GVfJhOyyKw0DdoeAz+gxP1vcg9cNd5AO2GbqsxDFDi2ARcqcD
+g9m5u/zlHHaYu0GQ/rB2o3xSpzjJlJAAKO5UMkBZOOVCJ92Yscnd4wGuc+qRuEMM
+szVexpS3CPUn5nNwr2dhFJ/lpdm2mQ30m1/ccVQct/JheoVNti+GuqIJxD0G9r40
+CDqnWOipo9zpxgo3QEqfqBgSUhsfn31L48e/sOjki+TT36264c/Xz1taSRJxLcZ+
+EVOFdAbXDBB/ylsPPKZu2VuRl2aYv67m9P8mCXllDsPT0Wz0wxfEMRLQU9DVolpl
+UbbHNM8bNsQgiNv6aLm48kUtsbk/Zn3XCXPboZhQgFXigJ4j9TFy8hQxSIo1WgSj
+hBx/xO1dRJk8dLPwCKRJ/e9TxAaxylBIgj8T7SHaxWA5pDmmy9wmN1xZILc/UwLG
+Z2XEwqZGv66VAL2Kermjb3A4O7i9WBL/eJl1ibb0zobIP8RkHCE0SvdRa8KIEATb
+nQLSpt96JuDlgYO1dTZVEP2j5+LWYU69Zi7r3FRya+Je25oP05tPxPLl9teVpSX/
+OunB6z5x7n11p4ugJo4ADa6Z7/e6Pqfy54pgfhKEaBLpzhy6MEnT2v6bur1cQylb
+gEEdaxmBHIR02vsLaGf0BXxT
+=AqSh
 -----END PGP SIGNATURE-----
 
---===============7935343298810724872==
+--===============0343895919100149813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -769,4 +769,4 @@ eca710386972f2a72708b0b2a615eb150d218e18 driver core: auxiliary bus: Drop dev_pm
 5f0942581dd0218c4449dac0639cf362e943c302 rust: debugfs: Add support for scoped directories
 d4a5d397c7fb1ca967e0da202cac196e7324f4ea samples: rust: Add scoped debugfs sample driver
 
---===============7935343298810724872==--
+--===============0343895919100149813==--
