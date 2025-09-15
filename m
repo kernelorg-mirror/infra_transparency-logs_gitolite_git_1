@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 15 Sep 2025 13:36:04 -0000
-Message-Id: <175794336497.3777866.8053032874848199937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 15 Sep 2025 13:36:27 -0000
+Message-Id: <175794338763.3778255.5223257634896428024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/sti/dt-2
+  - ref: refs/heads/for-6.18/haptic
     old: 0000000000000000000000000000000000000000
-    new: 129d617c60c9101963f0af07dd8edfbe9d346056
+    new: 8d0bf7908b5a6532a18ee658337d498158672862
