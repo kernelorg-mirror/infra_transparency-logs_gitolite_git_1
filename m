@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1453444895921933780=="
+Content-Type: multipart/mixed; boundary="===============0045764846020466103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 15 Sep 2025 21:04:17 -0000
-Message-Id: <175797025717.4181442.17623946479197019926@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 21:04:25 -0000
+Message-Id: <175797026513.4181700.12758212680740816220@gitolite.kernel.org>
 
---===============1453444895921933780==
+--===============0045764846020466103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 095e5c15a1c622914712a28938f63ba802b37467
-    new: 17c6edda47a76dcb8f774d87bea55cf023de7786
-    log: revlist-095e5c15a1c6-17c6edda47a7.txt
+  - ref: refs/heads/1GbE
+    old: dc2f650f7e6857bf384069c1a56b2937a1ee370d
+    new: c5e389cc6b36701098d31fa3438c553c7fe7c1bb
+    log: revlist-dc2f650f7e68-c5e389cc6b36.txt
 
---===============1453444895921933780==
+--===============0045764846020466103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-095e5c15a1c6-17c6edda47a7.txt
+Content-Disposition: attachment; filename=revlist-dc2f650f7e68-c5e389cc6b36.txt
 
 496a6ed8405ef15f6becc0126bf1577717faf86d selftest:net: fixed spelling mistakes
 ba941796d7cd1e81f51eed145dad1b47240ff420 netfilter: ipset: Remove unused htable_bits in macro ahash_region
@@ -102,56 +102,5 @@ ebb1031c51377829b21e1c58e8eccc479e4921b7 dpll: zl3073x: Refactor DPLL initializa
 a1e891fe4ae8df3ba17d75c270f1877e282c9d2c dpll: zl3073x: Implement devlink flash callback
 8c42986b02887f66af31b6e42babc904b2f4f4b6 Merge branch 'dpll-zl3073x-add-support-for-devlink-flash'
 c5e389cc6b36701098d31fa3438c553c7fe7c1bb net/mlx5: fix typo in pci_irq.c comment
-991c1685e20e01467a31f61ce626c226dc63a256 ice: fix lane number calculation
-829bdd6d96fca5df3d94024ae1163d4c9570361b ice: Allow 100M speed for E825C SGMII device
-2f5010d370bf7c5c3ef4e9850afc81c73ff54e92 ice: fix Rx page leak on multi-buffer frames
-d69d6821e1cb7c38df612adb2e935d7313e25332 ice: remove legacy Rx and construct SKB
-2d59d646d47dc81e7f2c66653dc953c7048636f7 ice: drop page splitting and recycling
-8276d464f710fff230d56113315b23458436edb3 ice: switch to Page Pool
-4e850f2a3bc6b8ea37e14bebb6be2b6939c1381c i40e: add validation for ring_len param
-ad997aa66d6e0b0cd5a7142546a88f75943928e3 i40e: fix idx validation in i40e_validate_queue_map
-ac2b3a8f3a354d32312fbe53f1d0dc01e85a6120 i40e: fix idx validation in config queues msg
-7a20801b31f72f715e7597402bc33bdf063557cd i40e: fix input validation logic for action_meta
-1dd14db7fae1ba3e23b724e2769e2335dbe1f5d3 i40e: fix validation of VF state in get resources
-4dee85d085098a1b6caebc9662c97cf99f10fac7 i40e: add max boundary check for VF filters
-705ba15f48294e594d1e0f6f7143ca8b9f1cf853 i40e: add mask to apply valid bits for itr_idx
-c963ba0f479ee1c7d2f6d618d9b76a4041a99a64 i40e: improve VF MAC filters accounting
-507e275cc4a316dfc696575a80f1ea8cd411dc2b idpf: cleanup remaining SKBs in PTP flows
-ae4370deb8c2d17831134f8306e58c7ea5bcc681 ice: Fix enable_cnt imbalance on resume
-d55e48f32eefde37a47f9ab089b4ccf429a684bb ice: Fix enable_cnt imbalance on PCIe error recovery
-e4daa19fbdf35053a0a65d611385342a00282ba2 i40e: Fix enable_cnt imbalance on PCIe error recovery
-4bc13cdd629269feb9ec17ac6810a4412d406650 ice: move ice_qp_[ena|dis] for reuse
-1e1a214896179f9e035ebc0d3a0a7926a81e7c82 ice: add E830 Earliest TxTime First Offload support
-4bd89e30cee21e70624aa3cca6ebe4fafd0402df idpf: add HW timestamping statistics
-4f17d4ddebac83ba8f0d661b881ff2aeebbea472 i40e: remove redundant memory barrier when cleaning Tx descs
-b8d3ea5c940c3ff93ce95bc3066f6b97bdee2e4f ice: Remove deprecated ice_lag_move_new_vf_nodes() call
-1061961a465c8448802c3fc694efa99a1ac39c80 ixgbevf: fix getting link speed data for E610 devices
-d75266f292804dd8f9c05f6987489e20864d490e ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
-d69ec29ef5a61b06591065c48fe6908bc852ca58 ixgbevf: fix mailbox API compatibility by negotiating supported features
-cdaf1544375c0688ab5eb08b913c54408b82fcd0 ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
-a96c842f72f0f769ebf65398b3133ed7eb54f81a ice: add flow parsing for GTP and new protocol field support
-40ce14f9be53ff70e368a9c15a2b2a2fa4e37622 ice: add virtchnl and VF context support for GTP RSS
-a60dd7874ab85be94e42a5adf9e7e49c82a65bbf ice: improve TCAM priority handling for RSS profiles
-a22442fe6a6058e7696fe557e1af833ca382d391 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
-2490f86aedbe13532c03b19e2f959f553135ca7f iavf: add RSS support for GTP protocol via ethtool
-264e40a8685f5cda9d23c44acc2f5408bcd9803e ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-f0173a4cbc7e4ff2584722bc7152b2cde25dad0d ixgbe: fix too early devlink_free() in ixgbe_remove()
-7d366c8417219dbb5ffd2de6c1ec4ec52ecdfc4e net: intel: fm10k: Fix parameter idx set but not used
-fa7a1bc98373a6fac5690677ab71f6e470306e88 idpf: add support for IDPF PCI programming interface
-ae4e77fb301ad6123dcd4e7cf90028ccfc8a6443 ice: add recovery clock and clock 1588 control for E825c
-b6abac60edc4ba66a6485b812aaed27390f930a3 ixgbe: initialize aci lock before it's used
-72be057ce1233bca1142b9d822e1340f3c5da8fe ixgbe: destroy aci lock later within ixgbe_remove path
-b8cd456d3a741adf2feab6052a060334004a709e devlink: Add new "max_mac_per_vf" generic device param
-929619fcb2593608035fb2173ec311a09e3196c1 i40e: support generic devlink param "max_mac_per_vf"
-99059e6372f6820c40076bd2bbbe6000cb4280d0 e1000e: Introduce private flag to disable K1
-84d0500b6fd59cdfaf4c7c6b4a394d87b4056dd8 igc: don't fail igc_probe() on LED setup error
-0f033a77b5a74bd056d9494ff16b195f95ac8226 ixgbevf: fix proper type for error code in ixgbevf_resume()
-3e0caa79fa4d18cc3341a1e78dc98aa3f7bcca55 idpf: add virtchnl functions to manage selected queues
-1d825d9af196363131527f412a87f86c7ce140f3 idpf: add XSk pool initialization
-e2542b6ee6ad0442e933f6d137effdc745984b2d idpf: implement XSk xmit
-3203228a91f16cbc83d2bf03aeb7d16719a765fc idpf: implement Rx path for AF_XDP
-18634f0b227903a3d08f9da61085608fc4677a1a idpf: enable XSk features and ndo_xsk_wakeup
-c8a6e7467e97d4e30b640ccc25ce1a9760f450bf idpf: convert vport state to bitmap
-17c6edda47a76dcb8f774d87bea55cf023de7786 idpf: fix possible race in idpf_vport_stop()
 
---===============1453444895921933780==--
+--===============0045764846020466103==--
