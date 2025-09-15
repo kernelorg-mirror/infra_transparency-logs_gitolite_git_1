@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 15 Sep 2025 13:11:33 -0000
-Message-Id: <175794189317.3753429.4622661986250532655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Mon, 15 Sep 2025 13:11:36 -0000
+Message-Id: <175794189616.3753580.13783653291971479501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/samsung/dt
+  - ref: refs/tags/imx-dt64-6.18
     old: 0000000000000000000000000000000000000000
-    new: d19b1773362adfe8c0d5ccc4faf6aea0249976a6
+    new: f829a41fd5548fe4ce67993f08d045f0566ad275
