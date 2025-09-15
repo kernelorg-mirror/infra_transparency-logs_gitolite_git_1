@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 15 Sep 2025 14:20:48 -0000
-Message-Id: <175794604874.3823881.8439358519767502208@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 14:22:23 -0000
+Message-Id: <175794614392.3824825.8107305191880605611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/tegra114/fuse
+  - ref: refs/heads/drivers/scmi
     old: 0000000000000000000000000000000000000000
-    new: b9c01adedf38c69abb725a60a05305ef70dbce03
+    new: 2f86054cc1a6792f0812d5f23f271a83848edabb
