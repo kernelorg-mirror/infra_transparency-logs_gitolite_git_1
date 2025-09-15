@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 15 Sep 2025 15:35:45 -0000
-Message-Id: <175795054558.3893216.7251622208696572868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 15 Sep 2025 15:40:14 -0000
+Message-Id: <175795081401.3897544.13224621018787936063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/tags/intel-gpio-v6.17-1
-    old: 0000000000000000000000000000000000000000
-    new: bf06649f28d59eadca52dda6980e40644b3da007
+  - ref: refs/heads/stm32-next
+    old: a57a6d61e3e912e3d940ace25a66d4f96e9d7202
+    new: 2d62e539e4e0394670fe48e0ccc30ecfc84b617d
+    log: |
+         121e2fa049cfe0cfcc7e6872df776eb9afaec4c4 arm64: dts: st: remove gpioj and gpiok banks from stm32mp231
+         2d62e539e4e0394670fe48e0ccc30ecfc84b617d arm64: dts: st: fix memory region size on stm32mp235f-dk
+         
