@@ -1,53 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2627680452807587078=="
+Content-Type: multipart/mixed; boundary="===============6506221560571007308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 15 Sep 2025 06:16:06 -0000
-Message-Id: <175791696623.3336845.12375677345978224227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 15 Sep 2025 06:16:23 -0000
+Message-Id: <175791698327.3337297.3968859567759341172@gitolite.kernel.org>
 
---===============2627680452807587078==
+--===============6506221560571007308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
+  - ref: refs/tags/v6.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
+  - ref: refs/tags/v6.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 38018d744897d57a1fe8023770d32d622a61611b
   - ref: refs/tags/v6.17-rc6
     old: 0000000000000000000000000000000000000000
     new: 0124ee3e78e4adb40db91280f3e468373e48928e
 
---===============2627680452807587078==
+--===============6506221560571007308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917018 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1757916964-eb79c69643a46d57c56ca30153b6d3f40f890bf9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917034 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1757916980-5c9e80833f515261fb571cf710a8607cc2ce9cdf
 
+0000000000000000000000000000000000000000 5cc61f86dff464a63b6a6e4758f26557fda4d494 refs/tags/v6.17-rc4
+0000000000000000000000000000000000000000 38018d744897d57a1fe8023770d32d622a61611b refs/tags/v6.17-rc5
 0000000000000000000000000000000000000000 0124ee3e78e4adb40db91280f3e468373e48928e refs/tags/v6.17-rc6
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHr1obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k9gP/RS5ucO6mD1qKA3HtSJh
-1LLEA5zEXvKryWfAriOIq5E0uRCNMsRacOKWLNdzwQ6CTqlEYs++nEhPxHBZUsI8
-s0W2uoWSsBFNsnRQtyWvW/9D97rG9hpslm+QQiKOD9S2BoWlsWcp3e9EdCxWOSJj
-ALUzwrEf+SU+CE+IyVK0SPAfMtTa73Bg0YbG6JdlHTzNatvIqApmRswOtZDtywLJ
-9L4tAEoy8ujcydnOjaGRVDrKlovu0skMu4Jv17KFF0iAUfrNkRN8sdMuOsbC5Rbs
-MDkq3yMDr0S4LTys2Q3tR42lk0l6Z0cULov0WDqd35BqcdfuwU5GtPRONGj1Rc59
-8clE5hf7bpCuHLtcIIQjDKWrotMlRmCpuB6pTs5sowmGAKxUuauffGClJN129jA7
-rIdkI/wSAa4nYRIAjW76PFXg6neaZXg1CSD5fG2lMlUZBuPr6rgvF4FdAc6mJQu8
-gbqvC1dqlx7C3GM5EhvbPqQvyFT/h+MD48GYAEKzGuekeSmmBRIsaFFmxykCF0K4
-IM41U1k4wTOCPB6wPgUBPQ9OFbzWHWT0pmLDPTESKyySC3bQJKlbBykhn0pU6c7V
-nsZvbu6rOixEjFvcywzcyUD81c81c9b8S+OCrDLBPsMMJ7JdxGtAj5wh1PyHu1Jz
-pOcVFqJc3u9Iw4SU0525Kez7
-=pg+r
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHr2obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++aUP/jwn/+NWSfy+CziLE2/r
+NR861KKRr2wT8S2A+pHTj+2s6AHJVv+JCThA5Pqg1u05Z6JuWRlViJelfQBXuAkk
+GYi+xVtHoYOe8fmJMTq/CMXNtD9NYQfvRuS4VyqXMCUCMUuJeYO45Y0W2zSs5prZ
+AmZWJLNaaiCAO3K/tjvGMs9GHPYBfviBKjo015+JgdZRQi+3owMEjGN8ceg2s5xe
+Ibf1wdFJTNuOu8aFxUOC9Tnj7G7ycW3yhCFQ6m1h0R2nStmcQIrS21oGhhCRWD5+
+lZatEQTGzVomIU2BcqW18tk9EWuDXLU/qJVzkPpxju6/FStQlVNQL1CL/c4y0giX
+WeCufW4JW/oDedPhIHJX3zO9cbogbnpWqeWtmt9NieEpWuJVmqP6eepcZvEvG746
+xY+uWBA0P+N7Uv187W00jL0A3NIW8Bt+xkgvF3hKG/wMuCgCs8SJfQuLKsKjicPJ
+vRxBuSitmSNMVwjqIuH+eD1ze6PgrVJDAhzhzaHkarqM1dT5YOF/u7F0NLSJQcJp
+aDHhuqvWfYVX74kcas+OUaLFJHZA6LsQ59vyJD+In159xf86/zxgx7R4JVCloaDc
+jfE1ZC9fBhUX2C+zgbtn6DcbWAeAbZX5Gg1oV5toS0g7vrZjqzGdkTL3Yjyaq0tw
+2sw1XL/AFkAtQODVkkmXScu1
+=7qgU
 -----END PGP SIGNATURE-----
 
---===============2627680452807587078==--
+--===============6506221560571007308==--
