@@ -1,54 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3412294645642614783=="
+Content-Type: multipart/mixed; boundary="===============5641300059336864193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 15 Sep 2025 14:48:35 -0000
-Message-Id: <175794771564.3850063.5641178397083603386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 15 Sep 2025 14:49:42 -0000
+Message-Id: <175794778235.3851488.8281868203060079977@gitolite.kernel.org>
 
---===============3412294645642614783==
+--===============5641300059336864193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: a384e20ee2abca03d0a36ceb33d4ba305a1aa60b
-    new: c6ac987e064311233f51a385bad47b894790744c
+  - ref: refs/heads/master
+    old: 8f79b33e68135a4f461895407c985d1b2ca56ebe
+    new: 0a4e2e70de33963c94a011e708d8cd8993da4e2d
     log: |
-         a21fe7b010e32c51c62a86dcba02f9404ed77cac slab: validate slab before using it in alloc_single_from_partial()
-         3864e4d5a526870e011e6aadc05645bc93ca3dd6 slab: don't validate slab pointer in free_debug_processing()
-         67a9f25de091b132deac9b7d6a40819484e3dfdd Merge branch 'slab/for-6.18/sheaves' into slab/for-next
-         c6ac987e064311233f51a385bad47b894790744c Merge branch 'slab/for-6.18/kmalloc_nolock' into slab/for-next
+         ae6aab89cdfa01f39d0d1945a73441c74fdefc4a assign some cve ids out of gsd-review.02
+         0a4e2e70de33963c94a011e708d8cd8993da4e2d assign some cve ids out of gsd-review.03
          
 
---===============3412294645642614783==
+--===============5641300059336864193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1757947765 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1757947711-da16716314e855292b46927e9ccdd567a36b3504
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757947819 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1757947766-0ce82883400c6362d36a511b039000e0d19742da
 
-a384e20ee2abca03d0a36ceb33d4ba305a1aa60b c6ac987e064311233f51a385bad47b894790744c refs/heads/slab/for-next
+8f79b33e68135a4f461895407c985d1b2ca56ebe 0a4e2e70de33963c94a011e708d8cd8993da4e2d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjIJ3UbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia0gkH/jnz/n1BMU2FVprTuTz9
-MxQoJvMqLEeX5m8tw1HX13sA3vzBjqDfg82sSVGNCw5NqelkUvh8dv3WP2skKrbz
-/5PshHMubF/PPPiMpzfB2S5nJfxq9sPQuxkRT3PPm+Ar60lsBeUBJ6UiSIavQLkP
-jzvFH69vyuTs+vrFhGd/38Ikdc6Fj9hy1r0+Unb4kuJCFIzF1DYAMLsKJHowV9FH
-cgqGi774F0Om3xnPsdIBjN2Nie2rSq1bCWCu3mWJlG1/HKbM2oDwyJvlW/zktGEI
-mu+9JWqUVtvW4B9gVCeeK6NpwP+kXbnHHCF0pfz+TZKa/usewfm6TwF6TRw9xcUX
-eMs=
-=sXdZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjIJ6sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O4gQALEcVqZ8yZbgq2Tdhv0A
+GNB1PsDvRnzq/0yH7Fx1+jg88RI0xYU2F1d5o+FIX9slSVZKrdS8ytXOHUC6pA7Q
+bIx0WnA4BqajpQWl2/AutLodMojJ+LHa/Eqs1tm6ChhFiwmjYHdrUjaudP0pJmBa
+fvNXzHL56+DzzQ/cmV0ebpu5AFEMZ6jYi+Wunkdla4YqTwsLHjFB/jzGasSN8I1+
+2XUR0eKIyh4HybBsyriSKUHgyUG59+ZY2p7KSR7aZYZQnhk5b8kdUQnYOviEy9tj
+ZU7m4Aqeubyn2x8ca7v0tTEp5bu0uea0I3ylk6WLveB/wZ069mN+f1T05EMmTiqn
+khi6hFuLvbHd9owATasB1o1Qgs6n+iw1HDmGl0OnEJRM+pSwpo6RnBRAlgOr+KR6
+Fac0PbUYRH7a4FYSWnN7mUW4B1ueSi52iywRM9DH1C672wLxJqA9DSh/cHQCbOFy
+8855GJdOaZb0mgvZWEFq2VteHJ2/4oyNitQSbzZd5vQTyoURVIykLbG5nG0fRKR1
+qUtWHyPv+QtozfEvHHmV9lBtsEH5ZZQirnt47jxMG0Us0uCvgp7GRq3MHodzlLSV
+dKa9IUBpPkUPSLXbHWaZ3tg5thG165IxjkpNRtdqDqA/AMNVVdT63k0ZoYv+JZrR
+zhiybBbcUFVNg7QLzcQDeeRZ
+=GpPV
 -----END PGP SIGNATURE-----
 
---===============3412294645642614783==--
+--===============5641300059336864193==--
