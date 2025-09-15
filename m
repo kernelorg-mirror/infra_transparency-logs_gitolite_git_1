@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 15 Sep 2025 17:06:58 -0000
-Message-Id: <175795601856.3976693.8563800597601779239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 15 Sep 2025 17:10:10 -0000
+Message-Id: <175795621039.3980438.14362971251906071309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dmabuf-vfio
-    old: 0f1721a9bcaae0a89e61c82cb931a720c57a0d94
-    new: 229f3b5e8720c4aac7b31642284de72a3da52447
+  - ref: refs/heads/master
+    old: fd2e08128944a7679e753f920e9eda72057e427c
+    new: 32d376610bdfdcda39e0a74aac7c6c3b92f91098
     log: |
-         229f3b5e8720c4aac7b31642284de72a3da52447 dma-mapping: remove unused mapping resource callbacks
+         32d376610bdfdcda39e0a74aac7c6c3b92f91098 bpftool: Search for tracefs at /sys/kernel/tracing first
          
