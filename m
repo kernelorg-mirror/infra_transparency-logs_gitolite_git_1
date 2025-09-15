@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Mon, 15 Sep 2025 19:36:41 -0000
-Message-Id: <175796500147.4106220.17370597485616087153@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 19:37:13 -0000
+Message-Id: <175796503344.4106592.10682933031518137864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
   - ref: refs/heads/0.10.x
-    old: da216f406e5ccd41c4a2b328fea1080c5c502c42
-    new: d9782ff7943371c35662e9feb4d2fa8158a3cb1c
+    old: d9782ff7943371c35662e9feb4d2fa8158a3cb1c
+    new: ac380fc7bad2428d9f37e40bc0a4d17b3db0af58
     log: |
-         d9782ff7943371c35662e9feb4d2fa8158a3cb1c fix(tpms): incorrect field type in TpmsKeyedHashParms
+         ac380fc7bad2428d9f37e40bc0a4d17b3db0af58 chore: bump version to 0.10.43
          
