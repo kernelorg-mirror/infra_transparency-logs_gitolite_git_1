@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 15 Sep 2025 17:02:47 -0000
-Message-Id: <175795576789.3972511.7965294582589739347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 15 Sep 2025 17:06:58 -0000
+Message-Id: <175795601856.3976693.8563800597601779239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: 7947ad15614ce897f47ce8ae123b82445d1861d0
-    new: 20c9ccffccd61b37325a0519fb6d485caeecf7fa
+  - ref: refs/heads/dmabuf-vfio
+    old: 0f1721a9bcaae0a89e61c82cb931a720c57a0d94
+    new: 229f3b5e8720c4aac7b31642284de72a3da52447
     log: |
-         20c9ccffccd61b37325a0519fb6d485caeecf7fa perf maps: Ensure kmap is set up for all inserts
+         229f3b5e8720c4aac7b31642284de72a3da52447 dma-mapping: remove unused mapping resource callbacks
          
