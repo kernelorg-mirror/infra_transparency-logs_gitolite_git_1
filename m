@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 15 Sep 2025 18:41:03 -0000
-Message-Id: <175796166392.4059356.15604503003848351207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 15 Sep 2025 19:01:06 -0000
+Message-Id: <175796286681.4075896.15404224150888754492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 61ee2cce3fe4a006c600069c726dc36d54256765
-    new: 3ae4c527080ce81b889ffc2780e077770b95ae88
+    old: 97c596056b81488b86ff300cdbaf06471af3cc6e
+    new: 5503c2b545709e1cf8484670aa7088a827f4818d
     log: |
-         3ae4c527080ce81b889ffc2780e077770b95ae88 selftests/bpf: More open-coded gettid syscall cleanup
+         5503c2b545709e1cf8484670aa7088a827f4818d liburing.h: Support C++20 module export feature
          
