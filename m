@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 15 Sep 2025 15:40:14 -0000
-Message-Id: <175795081401.3897544.13224621018787936063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 15 Sep 2025 15:49:10 -0000
+Message-Id: <175795135058.3903900.8481298727879828691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/stm32-next
-    old: a57a6d61e3e912e3d940ace25a66d4f96e9d7202
-    new: 2d62e539e4e0394670fe48e0ccc30ecfc84b617d
+  - ref: refs/heads/for-6.18/io_uring
+    old: 81b748b8c6bf15985e209925f72588fc3d63846a
+    new: e8dca4d06545c0f87ae9405133bc19f824c8fef7
     log: |
-         121e2fa049cfe0cfcc7e6872df776eb9afaec4c4 arm64: dts: st: remove gpioj and gpiok banks from stm32mp231
-         2d62e539e4e0394670fe48e0ccc30ecfc84b617d arm64: dts: st: fix memory region size on stm32mp235f-dk
+         1b3aa3900782707ec2f4cc1651bc82c628f25d2b io_uring/uring_cmd: correct signature for io_uring_mshot_cmd_post_cqe()
+         e8dca4d06545c0f87ae9405133bc19f824c8fef7 io_uring/query: check for loops in in_query()
+         
+  - ref: refs/heads/for-next
+    old: 1c0eb8215e823e0d8a82cff7315749668e763d47
+    new: bf918f352fb8d865e69e72483cc6a48c34fcac21
+    log: |
+         1b3aa3900782707ec2f4cc1651bc82c628f25d2b io_uring/uring_cmd: correct signature for io_uring_mshot_cmd_post_cqe()
+         e8dca4d06545c0f87ae9405133bc19f824c8fef7 io_uring/query: check for loops in in_query()
+         0039b55fc2e603d01900adf99ebaffef100079ba Merge branch 'for-6.18/io_uring' into for-next
+         bf918f352fb8d865e69e72483cc6a48c34fcac21 Merge branch 'for-6.18/block' into for-next
          
