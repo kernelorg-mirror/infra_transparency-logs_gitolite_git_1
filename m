@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1817326493635222057=="
+Content-Type: multipart/mixed; boundary="===============0994768834360841295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 15 Sep 2025 06:26:12 -0000
-Message-Id: <175791757202.3398336.10220815894276537904@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 06:26:18 -0000
+Message-Id: <175791757860.3398538.5133447728900081695@gitolite.kernel.org>
 
---===============1817326493635222057==
+--===============0994768834360841295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: f6d2900f2806d584303db689d9e18f0443610514
-    new: f83ec76bf285bea5727f478a68b894f5543ca76e
-    log: revlist-f6d2900f2806-f83ec76bf285.txt
+  - ref: refs/heads/driver-core-next
+    old: 3b5eba544a8af6826209d34daf6197b79b1333bf
+    new: c319c4ec062477edd0d14b79e2f3a9bd26a9a82e
+    log: revlist-3b5eba544a8a-c319c4ec0624.txt
 
---===============1817326493635222057==
+--===============0994768834360841295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917624 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917628 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1757917570-ac1b37ece3e1414e27fe42d4e77e0bf26ef76bb6
+nonce 1757917575-fac831c8cd20e4ab423879ebe990a136b0f8dda9
 
-f6d2900f2806d584303db689d9e18f0443610514 f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/driver-core-linus
+3b5eba544a8af6826209d34daf6197b79b1333bf c319c4ec062477edd0d14b79e2f3a9bd26a9a82e refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHsbgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oJYP/2R/fKO3BFSjruAigYJD
-EB1AFKGYkYLRnjpS32ep86QBwHwqRsYrpW6ujjmuobWf6CnTCmELaqnUnbMolJ0F
-r0wFucP6+Tfa86GUK4wsqiBwa3k29jfy+nw2f5swklAf1Id6KIWwXo7Q1D9MOW/a
-u59y1DArpArAxC8SPl5koCQ0dfLU4S8ViP/APpigF8FOqGUGgbgJulnsa5351pQz
-IcgrMbmxHXIS2ISK0QkN3s2eBp/Knnsacoquu/miMFL0VTL5VMU181g7EbRGkkEX
-tCcavWYxQLvz5HDZP7GQbQ4GEU/5rNULNZj9UCa5/H9EaGBsu13WN4aRSnJe2LCn
-KlFukgZwPdVyfSBzSHezlAjB4oKRO2hvKtMl6NYRb0RFwjaLoZFyIOIJClkLnTlR
-PqdteHIkvw6qxuTpDQmYTi8gs0aB6ocM3ZAf7X+X0kL9DQNgLkvzd3ZsXmWwmthU
-3XB6seiDhXhJ4iPrhQrZAA833uTwHKXV/4bt2pvvL42SmF2lni7uZ1yNqo0F7nCA
-VWqYfcIQrsf2ceXGbFqD8JF6rTTzSzTaq9F0qMoMjwAyNwt5e+RRirnqOCbPuwMf
-CnTpKcSRTKGxQAb+l1TEk9Qz/wMr6EOnXY9un8iveZCgBKm+GHuzRCPcFNuqbIeD
-W2wpMk4e08hLjumGVZ11avzw
-=GJ8O
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHsbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q7cQALROtoFmrAr/Tlod61hO
+GZjaCn6OnMU23eRmjN2fxghKRKyyV+tRX6+7RDW/5jRDBJGFGW3B3D5EtO6GWrRS
+ItFOhexRiYkvECLssmERMTmnQ/AqrEW18b/GfFgfniQcE9GS6yox4fBTyXlbqX8T
+azOr7XQC367dahvq/YV9JoMWsboBDnOMLKcOgZAEhW9lTfBpdlhDA1daQ952rcIz
+XzJ9YfH7+PKEMAA3r6lzbZirsBMn+ZQjfDq4+Uzjru0dSh6D15pGcqMGxB7Bhccj
+iWBUcZj1p2zM7k+oKR99iEV+CbxJzvj+kQgL5Ybxp2vgbP8BeswFNRUCUYMmHQ3G
+sv9HaprwJTwCEHygyv9nzC+vhDwo9Q1tgV/YM+edbKj8m4bD5zXi3f0b+TB1FvcF
+a0drheGMpfDOcLgOADuSYcK4gY25MdnXOaU+16akCf9tsH3bNHkYRTAKuHythpsd
+ncY6hll+rR5v4JmKPJhhTb5e3/upH2IGMuYIzM92utO0alJYE1gOKKje/KzSfXaG
+8qy3D1Laxqw5VyGTV5O0vd+6ocUNQq9jHp/ed3EL3wr+ZkhKVRlfF0Ngg+QNFLBY
+B7ZfSSTvKAl/d63xSTis9AFLqn5YpW9/PvxDCcso5Msk4mEzYGuAlEiLNZlJRCrB
+xXs/kIUmDJApOzwObOpAxQvy
+=4Asx
 -----END PGP SIGNATURE-----
 
---===============1817326493635222057==
+--===============0994768834360841295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6d2900f2806-f83ec76bf285.txt
+Content-Disposition: attachment; filename=revlist-3b5eba544a8a-c319c4ec0624.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -594,6 +594,7 @@ e63419dbf2ceb083c1651852209c7f048089ac0f dmaengine: ti: edma: Fix memory allocat
 7e2368a21741e2db542330b32aa6fdd8908e7cff dma-debug: don't enforce dma mapping check on noncoherent allocations
 e51bd0e595476c1527bb0b4def095a6fd16b2563 selftests/fs/mount-notify: Fix compilation failure.
 ba1e9421cf1a8369d25c3832439702a015d6b5f9 net/smc: fix one NULL pointer dereference in smc_ib_is_sg_need_sync()
+f1b55db08d527240fbc3b8c84229134a98d8d080 rust: device: fix unresolved link to drm::Device
 ef9f21c3f370bcd45688a3a573b788e39b364e80 gpio: fix GPIO submenu in Kconfig
 aa2e1e4563d3ab689ffa86ca1412ecbf9fd3b308 dmaengine: dw: dmamux: Fix device reference leak in rzn1_dmamux_route_allocate
 232674e1a6dd2f7a68b0d496a7ed1a57d79533da drm/sched: Fix racy access to drm_sched_entity.dependency
@@ -771,6 +772,7 @@ b5e3277c0f1c3439dd02b58997c06201d0ee8dbf serial: xilinx_uartps: read reg size fr
 ab1396af7595e7d49a3850481b24d7fe7cbdfd31 trace/fgraph: Fix error handling
 c1628c00c4351dd0727ef7f670694f68d9e663d8 tracing/osnoise: Fix null-ptr-deref in bitmap_parselist()
 5f9efb6b7667043527d377421af2070cc0aa2ecd Input: mtk-pmic-keys - MT6359 has a specific release irq
+3c9ba2777d6c86025e1ba4186dc5cd930e40ec5f kernfs: Fix UAF in polling when open file is released
 b236920731dd90c3fba8c227aa0c4dee5351a639 Merge tag 'rust-fixes-6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 d3684397ea9ba2edf02be0aa2b4dcab3bd74c503 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
 5a46d2339a5ae268ede53a221f20433d8ea4f2f9 flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
@@ -919,6 +921,7 @@ a1228f048a314b9280784a2cbd757cac74705589 Merge tag 'pm-6.17-rc6' of git://git.ke
 e59a039119c3ec241228adf12dca0dd4398104d0 Merge tag 's390-6.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 db87bd2ad1f736c2f7ab231f9b40c885934f6b2c Merge tag 'net-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 1fcf686def19064a7b5cfaeb28c1f1a119900a2b erofs: fix long xattr name prefix placement
+f6d2900f2806d584303db689d9e18f0443610514 MAINTAINERS: Update the DMA Rust entry
 2c38074c3667ca6940a1ea29930e2cd86efce348 Merge tag 'drm-rust-fixes-2025-09-05' of https://gitlab.freedesktop.org/drm/rust/kernel into drm-fixes
 467360e2959595d812c4eb553115a8b5c49cb14f Merge tag 'drm-intel-fixes-2025-09-10' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 1d00adb873a0ee9139c35d40b7b55fe8d940f376 Merge tag 'amd-drm-fixes-6.17-2025-09-10' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
@@ -944,5 +947,6 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 0676181a87540fa2aabc8920dc30bca5071b8f1a Merge tag 'dmaengine-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
+c319c4ec062477edd0d14b79e2f3a9bd26a9a82e Merge 6.17-rc6 into driver-core-next
 
---===============1817326493635222057==--
+--===============0994768834360841295==--
