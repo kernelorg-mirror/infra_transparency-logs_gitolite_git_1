@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7616466225602410052=="
+Content-Type: multipart/mixed; boundary="===============0169836694926145921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 15 Sep 2025 06:27:39 -0000
-Message-Id: <175791765928.3399425.643213057193377319@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 06:27:43 -0000
+Message-Id: <175791766399.3399617.7593372650654485413@gitolite.kernel.org>
 
---===============7616466225602410052==
+--===============0169836694926145921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+  - ref: refs/heads/tty-linus
+    old: b5e3277c0f1c3439dd02b58997c06201d0ee8dbf
     new: f83ec76bf285bea5727f478a68b894f5543ca76e
-    log: revlist-8f5ae30d69d7-f83ec76bf285.txt
+    log: revlist-b5e3277c0f1c-f83ec76bf285.txt
 
---===============7616466225602410052==
+--===============0169836694926145921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917711 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917716 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1757917657-83bbd83e48f90d7c2bb18ab16fd045dcf60fe35c
+nonce 1757917662-a08ac7920f816fa3e7628d6cf8dcab4ea830fb2a
 
-8f5ae30d69d7543eee0d70083daf4de8fe15d585 f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/main
+b5e3277c0f1c3439dd02b58997c06201d0ee8dbf f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHsg8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GeIQAMgbnK8dhP0whekYf7ST
-CKb+n+04+OaZZk4Rf4C5bqTAtlBMEP3S/ucGlxE9bOXXBIvXya6xZl0Mg9B1pFlK
-RyY7SBbfPUDnjH63F4eOlrydLlkr7KGu4kWIzrfmdPVckQvLbYpIz40iARdk9WYJ
-/A/UJooNqlpN9rOAx4FmLeOoOx8xyMFn0sItmivzxjBz+JQn8J1/moLELKOwbGcZ
-PyfhWTbBPnLeEXlSCwJy0LHYovZKFrMSvMFt/w2nvqgWY8+AUrOJXU+jndLC8jIk
-6Ju2xUrn+zZypstWR1sTUFxOjgfd3+vH8l7C6mJiYBF0cvItErz+otmhnTFpkh/2
-N3xW29nm3jNMllyyRQUIFguYxqnp9d3m/8pmx1t5MtrK19NyXWh3lLLxALOU/jk4
-GARz3/X80Rpol3SFV/+Son7JKyJtgE5mCricqK6buaSEYhCc9rieEPcGaKPU5oDu
-3G5OyLMPw7KRVmkMAku2z5zzJcz3hyE1hRNea6WYUJjWU/V7oHPxYP3i/A7PFXTV
-FxFknD2DYam+6ZxMqEWQOd+fbIzSi4NPN3rdIP45Sq7IaM91ZNBSD4H6hDgIkGgD
-YnBJ0lQMm0/JqqE19rskF4R7r27cw5fGy7aFBaYY/B9uN89icAiAwyxRsW3vL3LH
-gk5GaUXOgFI9QLGNRoOJYa1m
-=kde/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHshQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JPUQAMBc//WKmdIDYo+eYt9Y
+VDEspbojNjfyn9QjBhQns3PvArdOW5A/A87FYU17+j55yVvQ3AhdOwGB4CyTHl6I
+KqDGWhSWO/2IGKRDCRzllafBWJMAk+xlbrkBPum0AqGhySwZBU3TTqIRflmEr++0
+qr1Q4F7c1t9ToGbDtYZlNXDWQ6nSq6XMmrputKK9GL7jnpUVpsDvD3sm8/F3/ViH
+/OYZOuUmLSPZan3pkyWtD765HDVuV0j8KA4Kfeo5KWwkeRCejHNzBEeEhijmnw1n
+E3ZsHv2F187nmyGYHJoE1WdlVoabVgL2M+T9BtJZx6n8VLy2hgoJzh6szPDhXsJr
+qmR5Zjc7U1B8tkEhIL4siyui1PYPtxaIoMoK2vQ7NMqV+Buc+Wop2RrIR+iJNh11
+Z6hjXkzTJvJiKWHZLKBzHbOclB32MkOGmTukWkPuxK70xrstmZ/vJ0MorMKGdG/N
+k6DFeV/AvFnnSeGCHd7tJ3EpP42R/jUwZZ+dg5vL6amUI6wlUdq7E44EH0hjacLv
+Y52M7Jx1mKdH29OwCo5Yh+bYTjbDNCdpckkKMLpaX1oveVbmcj4LRKTfPDUsLhGu
+C1287uOggC+Llyh4hyrvgITWAMSXHt8Wf1Nd+dTccpiXGkIP6TLHmsundu5Mc089
+QYtVL5Wvuy03GGYJd+0VIdtl
+=Tznr
 -----END PGP SIGNATURE-----
 
---===============7616466225602410052==
+--===============0169836694926145921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-f83ec76bf285.txt
+Content-Disposition: attachment; filename=revlist-b5e3277c0f1c-f83ec76bf285.txt
 
+14ec8ce45611c767656e4fa575f17b05344aa80a tools headers: Sync arm64 headers with the kernel source
 c85538c4e3c7111958057d15ea8ee444116891c3 tools headers: Sync powerpc headers with the kernel source
 52174e0eb13876654f56701c26a672890aa5e7e3 tools headers: Sync syscall tables with the kernel source
 b18aabe283a10774977d698c075d2296a2336aef tools headers: Sync uapi/linux/fcntl.h with the kernel source
@@ -902,7 +903,6 @@ edcbe06453ddfde21f6aa763f7cab655f26133cc xhci: fix memory leak regression when f
 f34bfcc77b18375a87091c289c2eb53c249787b4 usb: typec: tcpm: properly deliver cable vdms to altmode drivers
 21d8525d2e061cde034277d518411b02eac764e2 usb: gadget: midi2: Fix missing UMP group attributes initialization
 116e79c679a1530cf833d0ff3007061d7a716bd9 usb: gadget: midi2: Fix MIDI2 IN EP max packet size
-b5e3277c0f1c3439dd02b58997c06201d0ee8dbf serial: xilinx_uartps: read reg size from DTS
 ab1396af7595e7d49a3850481b24d7fe7cbdfd31 trace/fgraph: Fix error handling
 c1628c00c4351dd0727ef7f670694f68d9e663d8 tracing/osnoise: Fix null-ptr-deref in bitmap_parselist()
 5f9efb6b7667043527d377421af2070cc0aa2ecd Input: mtk-pmic-keys - MT6359 has a specific release irq
@@ -1082,4 +1082,4 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
 
---===============7616466225602410052==--
+--===============0169836694926145921==--
