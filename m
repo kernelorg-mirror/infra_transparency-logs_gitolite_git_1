@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5302801044408325072=="
+Content-Type: multipart/mixed; boundary="===============8230992539234489961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 15 Sep 2025 02:16:52 -0000
-Message-Id: <175790261247.3145084.16134879225256482858@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 02:18:07 -0000
+Message-Id: <175790268761.3145787.2288801206887612105@gitolite.kernel.org>
 
---===============5302801044408325072==
+--===============8230992539234489961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: b240a498e32a7c91e7ca4456b5fd0390894c9101
-    new: 9e0509202d27c762f7afba590b5d3932b9ca0ee8
-    log: revlist-b240a498e32a-9e0509202d27.txt
+  - ref: refs/heads/nfsd-testing
+    old: e728d6b352dff1bbd3939f1fc142d844af7f1895
+    new: ee4fca5a330e17f0082dec0f5874168c62b90f38
+    log: revlist-e728d6b352df-ee4fca5a330e.txt
 
---===============5302801044408325072==
+--===============8230992539234489961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b240a498e32a-9e0509202d27.txt
+Content-Disposition: attachment; filename=revlist-e728d6b352df-ee4fca5a330e.txt
 
 22571172257a55c443f1a9306e963da4c6187e83 dt-bindings: dma: qcom: bam-dma: Add missing required properties
 5068b5254812433e841a40886e695633148d362d dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
@@ -326,5 +326,30 @@ facf195da2a6dc78a5e8ccef90f2a85fbab40ad9 nfsd: use ATTR_CTIME_SET for delegated 
 0f374ccf4e3d82a426f7263d6c1b7924bec72f53 nfsd: decouple the xprtsec policy check from check_nfsd_access()
 9922307132c6180a0d35005ec71233d6b31387a0 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
 9e0509202d27c762f7afba590b5d3932b9ca0ee8 sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+84afc44a0cf6d21685ec1ffd91f01466cea28ee8 NFSD: Drop redundant conversion to bool
+22f74255e004bd82b6b46527b348a40b9f7efae0 nfsd: unregister with rpcbind when deleting a transport
+b4d268b4338763d3ec2f51f259b7ef7796d4ab64 NFS: Remove rpcbind cleanup for NFSv4.0 callback
+a8495d70da75fd147d1be17e62093c8e8d487198 SUNRPC: Move the svc_rpcb_cleanup() call sites
+b6361d3e63754b5a75398d75d17b171d13fdda30 NFSD: Delay adding new entries to LRU
+bf55a47c888c6062b03ec53ff307b817e6adfd1d NFSD: Reduce DRC bucket size
+8d5a7d3acc9293226e12e0a40d2c5829636f4ac5 nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
+c4e459e5ef2c1c0e62f674f45d323d8c7e21b02d nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
+c59caa98c4c2a4e3ce68a8ed3b7a00d5d5fefaf2 sunrpc: fix "occurence"->"occurrence"
+db218bb9a5be2866922a0b7beaba278e34690330 nfsd: delete unnecessary NULL check in __fh_verify()
+449aa9bbbe4bdf9fa7f50d8aa218d089cc3a6997 nfsd: remove long-standing revoked delegations by force
+6981aff792dfb8ee005fa4bfba0c97972dfc1c33 NFSD: Disallow layoutget during grace period
+13702fb994ed01c4fbd1d901068cfae645f14329 NFSD: Do the grace period check in ->proc_layoutget
+e7eb8ddb4362d53fdfd9493cee27bcd978ec49b2 NFSD: Allow layoutcommit during grace period
+77b584c79e94f15db25e80fed69f9038c1e3670d NFSD: Add io_cache_{read,write} controls to debugfs
+10e2040f4d7919992a69ef4041642f27d230cd75 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
+7f30b3ca929c0e095bf68403f17f8a357c89e82d nfsd: discard nfserr_dropit
+cb578225621e5567960bd7e402e527826df1cc33 nfsd: move name lookup out of nfsd4_list_rec_dir()
+72e91598cd3ca02bb3dba7537dc4bc2b0278be42 nfsd: change nfs4_client_to_reclaim() to allocate data
+5551840f34b556ccdb83e01e5fed09cd5a5a7cc4 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+43b819f5f96a5ca75a7d31aeb03cf5827b62f3d2 NFSD: Define actions for the new time_deleg FATTR4 attributes
+2a339ba6f00f6cf634f243a1407feddfb2ddd13c NFSD: Define a proc_layoutcommit for the FlexFiles layout type
+291a3d2df1aa150f568ea7d8ecb2c05e884df459 NFSD: Remove WARN_ON_ONCE in nfsd_iter_read()
+0044635411637abdbde97390bc3dc1b351d38a77 svcrdma: Introduce Receive buffer arenas
+ee4fca5a330e17f0082dec0f5874168c62b90f38 siw: Enable try_gso
 
---===============5302801044408325072==--
+--===============8230992539234489961==--
