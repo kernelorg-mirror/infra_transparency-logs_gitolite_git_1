@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 15 Sep 2025 14:02:18 -0000
-Message-Id: <175794493814.3804456.3211975817706784847@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 14:02:38 -0000
+Message-Id: <175794495835.3804793.11618341437356588928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 62a9be0b3388d1026117de536f6c81e09ba219fe
-    new: b5818e2a245e631f194e27ada85a51f7e19a85a1
-    log: |
-         8aa1e3a6f0ffbcfdf3bd7d87feb9090f96c54bc4 firmware: qcom: tzmem: export shm_bridge create/delete
-         4b700098c0fc4a76c5c1e54465c8f35e13755294 firmware: qcom: scm: add support for object invocation
-         0ea453542998ff3833a8aad5e61b645dce409a7b Merge branch '20250911-qcom-tee-using-tee-ss-without-mem-obj-v12-2-17f07a942b8d@oss.qualcomm.com' into drivers-for-6.18
-         b5818e2a245e631f194e27ada85a51f7e19a85a1 Merge branches 'arm32-defconfig-for-v6.18', 'arm32-for-6.18', 'arm64-defconfig-for-6.18', 'arm64-for-6.18', 'clk-for-6.18', 'drivers-fixes-for-6.17' and 'drivers-for-6.18' into for-next
-         
+  - ref: refs/heads/20250911-qcom-tee-using-tee-ss-without-mem-obj-v12-2-17f07a942b8d@oss.qualcomm.com
+    old: 0000000000000000000000000000000000000000
+    new: 4b700098c0fc4a76c5c1e54465c8f35e13755294
