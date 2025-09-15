@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 15 Sep 2025 18:36:48 -0000
-Message-Id: <175796140860.4055197.7280512474186731644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 15 Sep 2025 18:41:03 -0000
+Message-Id: <175796166392.4059356.15604503003848351207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/next
-    old: aa3fbbf6334cd7d0417ec3217ee619816f93fec9
-    new: 7f6a59a1cc88cf31aee4540f01f037609b5ca150
+  - ref: refs/heads/master
+    old: 61ee2cce3fe4a006c600069c726dc36d54256765
+    new: 3ae4c527080ce81b889ffc2780e077770b95ae88
     log: |
-         7f6a59a1cc88cf31aee4540f01f037609b5ca150 tpm: Prevent local DOS via tpm/tpm0/ppi/*operations
+         3ae4c527080ce81b889ffc2780e077770b95ae88 selftests/bpf: More open-coded gettid syscall cleanup
          
