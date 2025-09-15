@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7924340367064724960=="
+Content-Type: multipart/mixed; boundary="===============1817326493635222057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 15 Sep 2025 06:26:06 -0000
-Message-Id: <175791756659.3398040.2380483500562035046@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 06:26:12 -0000
+Message-Id: <175791757202.3398336.10220815894276537904@gitolite.kernel.org>
 
---===============7924340367064724960==
+--===============1817326493635222057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
+  - ref: refs/heads/driver-core-linus
+    old: f6d2900f2806d584303db689d9e18f0443610514
     new: f83ec76bf285bea5727f478a68b894f5543ca76e
-    log: revlist-1b237f190eb3-f83ec76bf285.txt
+    log: revlist-f6d2900f2806-f83ec76bf285.txt
 
---===============7924340367064724960==
+--===============1817326493635222057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917618 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917624 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1757917565-9e62a7b1a15f76a3076e5ac3ef49e4653166fa47
+nonce 1757917570-ac1b37ece3e1414e27fe42d4e77e0bf26ef76bb6
 
-1b237f190eb3d36f52dffe07a40b5eb210280e00 f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/main
+f6d2900f2806d584303db689d9e18f0443610514 f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHsbIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qMgP/ihFLGR+/20ET1TF4ncd
-DuPakZY9RNZVsk6H05q12d5a6wfeboQcWPqQxUZkV88QqLERnPpFOajYAyDCtc/s
-zk3egEDiT89P/TOlASVt+wiHr8p5buQotxLgjsJHMlCxzvmCoXSjx63ahl0INb2X
-UyTbq8aN8u+VqB165XBJFvx2IYtdZvIxrS98QHYqsSfU6TcDp9ELsBw4yJj7lsGJ
-86vSw5Qvr44k52PxdmIIL34Kkql75a5fJp6w8L0lc3wF2NRZG5tGem/aaWKa1j8n
-W+Cq9o8zdNxOkXUjVY0LbCOX5dFbiA9OiCDQU0DagrqIafzb+xEQ+SUhzxc1wjgY
-s2LBP/gTzJqcFM/DRKbd9PdJOLTgCjMl5jRzoELmRMKBkbdLmkq2p47+a5fy+wOs
-yJqv908VUT2xsAhnE7M8umQbKnMTA62RFqv5yzbCtQzbOkZZ93GZlmnqkoYlwU8n
-vU9w9H2rbIfylym+KgNczSCIXGlsYQVBpuQJJbPQez/0k6Jq+afO9UGIUTraevl3
-AnHAKDUpAVdMQejG0WtqK4r9tn1cYVRm3XPHogq808KhsehspZuZ2dU++9FDyYd/
-Ex2SjBdEZa8XrL3o8quG561vUvSnyHnCV8qgams8DohjonRIud3Tx64bh+Or9kMN
-iATPA9V2vqkCTGMKx+amun10
-=K6Og
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHsbgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oJYP/2R/fKO3BFSjruAigYJD
+EB1AFKGYkYLRnjpS32ep86QBwHwqRsYrpW6ujjmuobWf6CnTCmELaqnUnbMolJ0F
+r0wFucP6+Tfa86GUK4wsqiBwa3k29jfy+nw2f5swklAf1Id6KIWwXo7Q1D9MOW/a
+u59y1DArpArAxC8SPl5koCQ0dfLU4S8ViP/APpigF8FOqGUGgbgJulnsa5351pQz
+IcgrMbmxHXIS2ISK0QkN3s2eBp/Knnsacoquu/miMFL0VTL5VMU181g7EbRGkkEX
+tCcavWYxQLvz5HDZP7GQbQ4GEU/5rNULNZj9UCa5/H9EaGBsu13WN4aRSnJe2LCn
+KlFukgZwPdVyfSBzSHezlAjB4oKRO2hvKtMl6NYRb0RFwjaLoZFyIOIJClkLnTlR
+PqdteHIkvw6qxuTpDQmYTi8gs0aB6ocM3ZAf7X+X0kL9DQNgLkvzd3ZsXmWwmthU
+3XB6seiDhXhJ4iPrhQrZAA833uTwHKXV/4bt2pvvL42SmF2lni7uZ1yNqo0F7nCA
+VWqYfcIQrsf2ceXGbFqD8JF6rTTzSzTaq9F0qMoMjwAyNwt5e+RRirnqOCbPuwMf
+CnTpKcSRTKGxQAb+l1TEk9Qz/wMr6EOnXY9un8iveZCgBKm+GHuzRCPcFNuqbIeD
+W2wpMk4e08hLjumGVZ11avzw
+=GJ8O
 -----END PGP SIGNATURE-----
 
---===============7924340367064724960==
+--===============1817326493635222057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b237f190eb3-f83ec76bf285.txt
+Content-Disposition: attachment; filename=revlist-f6d2900f2806-f83ec76bf285.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -594,7 +594,6 @@ e63419dbf2ceb083c1651852209c7f048089ac0f dmaengine: ti: edma: Fix memory allocat
 7e2368a21741e2db542330b32aa6fdd8908e7cff dma-debug: don't enforce dma mapping check on noncoherent allocations
 e51bd0e595476c1527bb0b4def095a6fd16b2563 selftests/fs/mount-notify: Fix compilation failure.
 ba1e9421cf1a8369d25c3832439702a015d6b5f9 net/smc: fix one NULL pointer dereference in smc_ib_is_sg_need_sync()
-f1b55db08d527240fbc3b8c84229134a98d8d080 rust: device: fix unresolved link to drm::Device
 ef9f21c3f370bcd45688a3a573b788e39b364e80 gpio: fix GPIO submenu in Kconfig
 aa2e1e4563d3ab689ffa86ca1412ecbf9fd3b308 dmaengine: dw: dmamux: Fix device reference leak in rzn1_dmamux_route_allocate
 232674e1a6dd2f7a68b0d496a7ed1a57d79533da drm/sched: Fix racy access to drm_sched_entity.dependency
@@ -772,7 +771,6 @@ b5e3277c0f1c3439dd02b58997c06201d0ee8dbf serial: xilinx_uartps: read reg size fr
 ab1396af7595e7d49a3850481b24d7fe7cbdfd31 trace/fgraph: Fix error handling
 c1628c00c4351dd0727ef7f670694f68d9e663d8 tracing/osnoise: Fix null-ptr-deref in bitmap_parselist()
 5f9efb6b7667043527d377421af2070cc0aa2ecd Input: mtk-pmic-keys - MT6359 has a specific release irq
-3c9ba2777d6c86025e1ba4186dc5cd930e40ec5f kernfs: Fix UAF in polling when open file is released
 b236920731dd90c3fba8c227aa0c4dee5351a639 Merge tag 'rust-fixes-6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 d3684397ea9ba2edf02be0aa2b4dcab3bd74c503 nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
 5a46d2339a5ae268ede53a221f20433d8ea4f2f9 flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
@@ -921,7 +919,6 @@ a1228f048a314b9280784a2cbd757cac74705589 Merge tag 'pm-6.17-rc6' of git://git.ke
 e59a039119c3ec241228adf12dca0dd4398104d0 Merge tag 's390-6.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 db87bd2ad1f736c2f7ab231f9b40c885934f6b2c Merge tag 'net-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 1fcf686def19064a7b5cfaeb28c1f1a119900a2b erofs: fix long xattr name prefix placement
-f6d2900f2806d584303db689d9e18f0443610514 MAINTAINERS: Update the DMA Rust entry
 2c38074c3667ca6940a1ea29930e2cd86efce348 Merge tag 'drm-rust-fixes-2025-09-05' of https://gitlab.freedesktop.org/drm/rust/kernel into drm-fixes
 467360e2959595d812c4eb553115a8b5c49cb14f Merge tag 'drm-intel-fixes-2025-09-10' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 1d00adb873a0ee9139c35d40b7b55fe8d940f376 Merge tag 'amd-drm-fixes-6.17-2025-09-10' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
@@ -948,4 +945,4 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
 
---===============7924340367064724960==--
+--===============1817326493635222057==--
