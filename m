@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 15 Sep 2025 13:36:27 -0000
-Message-Id: <175794338763.3778255.5223257634896428024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 15 Sep 2025 13:36:39 -0000
+Message-Id: <175794339957.3778483.12385117798219464716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-6.18/haptic
+  - ref: refs/heads/tegra/dt-bindings
     old: 0000000000000000000000000000000000000000
-    new: 8d0bf7908b5a6532a18ee658337d498158672862
+    new: 04f27a0fda6b6be104531eeb95d07ef1b3a72af8
