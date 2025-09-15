@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8230992539234489961=="
+Content-Type: multipart/mixed; boundary="===============3101157340599691017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 15 Sep 2025 02:18:07 -0000
-Message-Id: <175790268761.3145787.2288801206887612105@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 02:18:41 -0000
+Message-Id: <175790272110.3146208.13568149430326295971@gitolite.kernel.org>
 
---===============8230992539234489961==
+--===============3101157340599691017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: e728d6b352dff1bbd3939f1fc142d844af7f1895
-    new: ee4fca5a330e17f0082dec0f5874168c62b90f38
-    log: revlist-e728d6b352df-ee4fca5a330e.txt
+  - ref: refs/heads/direct-io
+    old: 815ae72712da1dd9a80ee492171665742f262bf0
+    new: 102bf90765cc0687c5fc92ec236be2a4cabc9614
+    log: revlist-815ae72712da-102bf90765cc.txt
 
---===============8230992539234489961==
+--===============3101157340599691017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e728d6b352df-ee4fca5a330e.txt
+Content-Disposition: attachment; filename=revlist-815ae72712da-102bf90765cc.txt
 
 22571172257a55c443f1a9306e963da4c6187e83 dt-bindings: dma: qcom: bam-dma: Add missing required properties
 5068b5254812433e841a40886e695633148d362d dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
@@ -351,5 +351,8 @@ cb578225621e5567960bd7e402e527826df1cc33 nfsd: move name lookup out of nfsd4_lis
 291a3d2df1aa150f568ea7d8ecb2c05e884df459 NFSD: Remove WARN_ON_ONCE in nfsd_iter_read()
 0044635411637abdbde97390bc3dc1b351d38a77 svcrdma: Introduce Receive buffer arenas
 ee4fca5a330e17f0082dec0f5874168c62b90f38 siw: Enable try_gso
+3a41179fbf08487329fac6e9eeedbf85b38b5567 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+82760594337b4558d620c5e11c1c9c20e21c0773 NFSD: pass nfsd_file to nfsd_iter_read()
+102bf90765cc0687c5fc92ec236be2a4cabc9614 NFSD: Implement NFSD_IO_DIRECT for NFS READ
 
---===============8230992539234489961==--
+--===============3101157340599691017==--
