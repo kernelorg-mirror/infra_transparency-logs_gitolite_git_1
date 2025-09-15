@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1479200201122346645=="
+Content-Type: multipart/mixed; boundary="===============4431419997019244267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 15 Sep 2025 06:24:06 -0000
-Message-Id: <175791744616.3394211.9094648858061392810@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 06:24:12 -0000
+Message-Id: <175791745239.3394939.1460842027950439914@gitolite.kernel.org>
 
---===============1479200201122346645==
+--===============4431419997019244267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 9dfec4a51df9cf0dcc23cb4ac6fc314bf9e999d0
-    new: f83ec76bf285bea5727f478a68b894f5543ca76e
-    log: revlist-9dfec4a51df9-f83ec76bf285.txt
+  - ref: refs/heads/usb-next
+    old: 82432bbfb9e83b7e81d04660fe129b99a29b2ac2
+    new: a4d43c1f17b9f143af5868285c513c866e9cf67b
+    log: revlist-82432bbfb9e8-a4d43c1f17b9.txt
 
---===============1479200201122346645==
+--===============4431419997019244267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917498 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1757917502 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1757917443-137d9cd592c5412c0432ceea605565195659d9b7
+nonce 1757917449-d613ca1b52d69630be1238e1247bac903dccbf37
 
-9dfec4a51df9cf0dcc23cb4ac6fc314bf9e999d0 f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/usb-linus
+82432bbfb9e83b7e81d04660fe129b99a29b2ac2 a4d43c1f17b9f143af5868285c513c866e9cf67b refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHsTobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bTQP/3NxoKsCapnbEWD3HZk0
-BiLITBYtvLA1QIXi0JUdTMQ8WdxCg7GzPxz6AcIxDIUxa4X34cQZNRYvM3tfKEOA
-343OEMSadfU5fWnvh+fbPQTZZGgxjGub/6EkCCZg9+v2yq7w/qFObCcft9KvmMv1
-V+56b+Za90D471NUCkhaklEwKn6vAdxeWm+gjF8ig+GPYol4SmmFBX4rsJSLTMnH
-aFd4LAo5n/OmNHjEa6944fpvrgWC4HP1eTBZQomlap2ks/WgIMjCpNGSkLIzz72l
-y6hZfoI8q7hUtnmUNIwfuiteKPZR78IzHUu5mQ3YfHoUNW9rn7VHTpdftreCIF/x
-DxR1++33CWKBY8uZlepFY5Bc68Z+AbMW2KX8sxU25loUnoPrqhKtIzyn07brDIhd
-pPW+0SBRK8D5dlDoKofO85KQayD1KqVAx9blgtwxQiwgk5zd6LhIATnYiEpSsWvf
-9wEgK8zqXEbn9Dev7WIUCShlnX2wfESgNEzqA6m5gJdY1l7lv/z6Jdtnjnf3kYV7
-hpATdg3AYsdppDqKWJf3y1zGKEbYUV071akQypNiaxAF2q4B8mAvsy1/x2WLMq6+
-s0zRqGtjYF6E2CkxBSil+9XX+6fnNwss2VtKiqxRg6350i1GcOgp3amQXfWCqIBH
-TL8v8akswVu++8vvkXOhy6VY
-=1N1P
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjHsT4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1vcP/2NJO4jjXcCstQ7q8RQT
+oacV9a4Xt1Fdyi6W2Z8AmcDJ6sH5Or4qG+p4rxU0Ff9BuQavOOeJAv/4yhwjWQTE
+X0exf1X0s7JAOuD1rzgfUNkIR2f+Cj9cRbx4tdyhlQaFGfbWxzSjU9jLggv+gOMY
+fdsbzbEOUx0/etu61wBcSwkwBH4WBiuP2if0l02P41LSHXliq1/dX6cQfObDY5GA
+FW/AOLRy1xHwS714eN4hfP9dGsbjEPGc3rBoadiD7xD1dsX/9Yg5u0q442I+Var1
+W4sUFKpTIKUxFOJshd0BQIrLNSWI9VgWGeFwHf3tKIEwwvi9Bgj4BdNhhOkwVV+h
+ue2tA0l5NxiuxjaJ2BqTfHTmNtSZOU41AmGq6UbxE5fS3B/ViDR1AozoRo4e53jb
+Cs/0nXy1XTNatsZANf3xSHExXcrmTaesTQQEX5KcZyAStaGMHA9BRVKuM0gH9YHx
+2V4XuzrFRLXqBlSMOt3oGA8a2lDeOJKTTA6ZQ4xn8Ov+D0a/XiY6+OJC9XyXcQ8f
+6v9xSfa5Qd8OJIkCOgvhCNlF6H3U4sV9WZ7kuulcXmywYF5yd8BV+1443uURe98s
+gayPfoXO8pzjUadqfFM7nsPjzFIW3vH76t8TesBKdrdDwEkoy56LYO5n+fIHU863
+j07LmVgxpBhuyOBFLbqyWkt0
+=FWoY
 -----END PGP SIGNATURE-----
 
---===============1479200201122346645==
+--===============4431419997019244267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9dfec4a51df9-f83ec76bf285.txt
+Content-Disposition: attachment; filename=revlist-82432bbfb9e8-a4d43c1f17b9.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -311,7 +311,9 @@ bb4700adc3abec34c0a38b64f66258e4e233fc16 sched/deadline: Always stop dl-server b
 421fc59cf58c64f898cafbbbbda0bc705837e7df sched/deadline: Fix RT task potential starvation when expiry time passed
 52d15521eb75f9b521744db675bee61025d2fa52 sched/deadline: Don't count nr_running for dl_server proxy tasks
 ae668cd567a6a7622bc813ee0bb61c42bed61ba7 xfs: do not propagate ENODATA disk errors into xattr code
+cba70aff623b104085ab5613fedd21f6ea19095a USB: serial: option: add Telit Cinterion FN990A w/audio compositions
 57834ce5a6a47df282c8419019ba5495eac58fb9 s390/mm: Prevent possible preempt_count overflow
+a5a261bea9bf8444300d1067b4a73bedee5b5227 USB: serial: option: add Telit Cinterion LE910C4-WWX new compositions
 810e154d90f44127239957b06ee51a55553a5815 gpio: timberdale: fix off-by-one in IRQ type boundary check
 6fe31c8b53003134e5573cfb89aea85f96a43afd MAINTAINERS: Change Altera-PIO driver maintainer
 832e5777143e799a97e8f9b96f002a90f06ba548 HID: elecom: add support for ELECOM M-DT2DRBK
@@ -759,6 +761,13 @@ d1d10cea0895264cc3769e4d9719baa94f4b250b Merge tag 'perf-tools-fixes-for-v6.17-2
 0ba5b2f2c381dbec9ed9e4ab3ae5d3e667de0dc3 net: phylink: add lock for serializing concurrent pl->phydev writes with resolver
 e2a10daba84968f6b5777d150985fd7d6abc9c84 net: phy: transfer phy_config_inband() locking responsibility to phylink
 d035b4baebfc5112b128b66cafd45d2522a9c8f1 Merge tag 'i2c-host-fixes-6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+220a0ffde02f962c13bc752b01aa570b8c65a37b xhci: dbc: decouple endpoint allocation from initialization
+a5c98e8b1398534ae1feb6e95e2d3ee5215538ed xhci: dbc: Fix full DbC transfer ring after several reconnects
+edcbe06453ddfde21f6aa763f7cab655f26133cc xhci: fix memory leak regression when freeing xhci vdev devices depth first
+8d63c83d8eb922f6c316320f50c82fa88d099bea USB: gadget: dummy-hcd: Fix locking bug in RT-enabled kernels
+f34bfcc77b18375a87091c289c2eb53c249787b4 usb: typec: tcpm: properly deliver cable vdms to altmode drivers
+21d8525d2e061cde034277d518411b02eac764e2 usb: gadget: midi2: Fix missing UMP group attributes initialization
+116e79c679a1530cf833d0ff3007061d7a716bd9 usb: gadget: midi2: Fix MIDI2 IN EP max packet size
 b5e3277c0f1c3439dd02b58997c06201d0ee8dbf serial: xilinx_uartps: read reg size from DTS
 ab1396af7595e7d49a3850481b24d7fe7cbdfd31 trace/fgraph: Fix error handling
 c1628c00c4351dd0727ef7f670694f68d9e663d8 tracing/osnoise: Fix null-ptr-deref in bitmap_parselist()
@@ -920,6 +929,8 @@ f2c8bbb6e971802d169a43f1f90f351600561055 Merge tag 'mediatek-drm-fixes-20250910'
 dab1f85526a454cd81174a9df70961169222efa2 Merge tag 'drm-misc-fixes-2025-09-11' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 320475fbd590dc94a0a3d9173f81e0797ee1a232 Merge tag 'mtd/fixes-for-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 9a3f210737e958c3f45a4ce0d7f1ff330af3965f Merge tag 'drm-xe-fixes-2025-09-11' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+7609fb63cead022a748b59ecbf0d45a2862f0287 Merge tag 'usb-serial-6.17-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+9dfec4a51df9cf0dcc23cb4ac6fc314bf9e999d0 USB: core: remove the move buf action
 cb780b79b236db9a036a4b7975361dd44a0b4d29 Merge tag 'v6.17-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 965c995c9a4b395471ff48790a0155ee986ca405 Merge tag 'drm-fixes-2025-09-12' of https://gitlab.freedesktop.org/drm/kernel
 22f20375f5b71f30c0d6896583b93b6e4bba7279 Merge tag 'pci-v6.17-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
@@ -936,5 +947,6 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 0676181a87540fa2aabc8920dc30bca5071b8f1a Merge tag 'dmaengine-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
+a4d43c1f17b9f143af5868285c513c866e9cf67b Merge 6.17-rc6 into usb-next
 
---===============1479200201122346645==--
+--===============4431419997019244267==--
