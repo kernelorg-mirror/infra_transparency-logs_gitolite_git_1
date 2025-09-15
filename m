@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1472125993901615669=="
+Content-Type: multipart/mixed; boundary="===============1929693295581563961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 15 Sep 2025 16:13:17 -0000
-Message-Id: <175795279766.3924384.647341678132173868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 15 Sep 2025 16:13:33 -0000
+Message-Id: <175795281345.3924602.11109437174381008798@gitolite.kernel.org>
 
---===============1472125993901615669==
+--===============1929693295581563961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 0124ee3e78e4adb40db91280f3e468373e48928e
 
---===============1472125993901615669==
+--===============1929693295581563961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -288,4 +288,4 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
 
---===============1472125993901615669==--
+--===============1929693295581563961==--
