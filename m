@@ -1,31 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5145507900632654744=="
+Content-Type: multipart/mixed; boundary="===============2007799020752892533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Sep 2025 11:23:29 -0000
-Message-Id: <175793540962.3655279.15456989982131242361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Mon, 15 Sep 2025 11:31:15 -0000
+Message-Id: <175793587577.3663043.12452589907157850883@gitolite.kernel.org>
 
---===============5145507900632654744==
+--===============2007799020752892533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/x86/cache
-    old: b470929e21393f37cae51a922ef319a753273719
-    new: d79bab8a48bfcf5495f72d10bf609478a4a3b916
-    log: revlist-b470929e2139-d79bab8a48bf.txt
+  - ref: refs/heads/exynos-drm-next
+    old: 6a3ac4a08be247d6ebd5da13237aec4898a2c4a4
+    new: 472df181d7c4c732d5c5b98d506d1902e7580acb
+    log: revlist-6a3ac4a08be2-472df181d7c4.txt
 
---===============5145507900632654744==
+--===============2007799020752892533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b470929e2139-d79bab8a48bf.txt
+Content-Disposition: attachment; filename=revlist-6a3ac4a08be2-472df181d7c4.txt
 
+864e3396976ef41de6cc7bc366276bf4e084fff2 net: gso: Forbid IPv6 TSO with extensions on devices with only IPV6_CSUM
+84967deee9d9870b15bc4c3acb50f1d401807902 ipv6: sr: validate HMAC algorithm ID in seg6_hmac_info_add
+ccab044697980c6c01ab51f43f48f13b8a3e5c33 mptcp: drop skb if MPTCP skb extension allocation fails
+68fc0f4b0d25692940cdc85c68e366cae63e1757 mptcp: pm: kernel: flush: do not reset ADD_ADDR limit
+452690be7de2f91cc0de68cb9e95252875b33503 selftests: mptcp: pm: check flush doesn't reset limits
+5d13349472ac8abcbcb94407969aa0fdc2e1f1be mptcp: remove duplicate sk_reset_timer call
+f5ce0714623cffd00bf2a83e890d09c609b7f50a mptcp: disable add_addr retransmission when timeout is 0
+f92199f551e617fae028c5c5905ddd63e3616e18 selftests: mptcp: disable add_addr retrans in endpoint_tests
+2eefbed30d46d5e68593baf6b52923e00e7678af selftests: mptcp: connect: fix C23 extension warning
+3259889fd3c0cc165b7e9ee375c789875dd32326 selftests: mptcp: sockopt: fix C23 extension warning
+8cd3709b3985df5638558605ac79daba709a4344 Merge branch 'mptcp-misc-fixes-for-v6-17-rc'
+89eb9a62aed77b409663ba1eac152e8f758815b7 net: dsa: b53: fix reserved register access in b53_fdb_dump()
+4611d88a37cfc18cbabc6978aaf7325d1ae3f53a bnxt_en: Fix lockdep warning during rmmod
+eabcac808ca3ee9878223d4b49b750979029016b scsi: ufs: core: Fix IRQ lock inversion for the SCSI host lock
 e5203d89d59bfcbe1f348aa0d2dc4449a8ba644c scsi: ufs: core: Remove WARN_ON_ONCE() call from ufshcd_uic_cmd_compl()
 9ee35fd43f94bf19dbd27cffc213a31314b623d2 scsi: ufs: core: Fix the return value documentation
 09d57d68ba9a36117eadb75d3ecf817a3c091acc scsi: ufs: core: Rename ufshcd_wait_for_doorbell_clr()
@@ -719,6 +733,7 @@ f63e7c8a83892781f6ceb55566f9497639c44555 net: dsa: mv88e6xxx: Fix fwnode referen
 827733acbe4c3a0e117b6ebde5ed269fb7686427 crypto: sha1 - Implement export_core() and import_core()
 30b2a8c4f2f3833f4f813d3e0d003f7c50cdf275 crypto: sha256 - Implement export_core() and import_core()
 cdb03b6d1896c2d23f9c47dc779edba0a9241115 crypto: sha512 - Implement export_core() and import_core()
+82b13dd5d93d9d170c096f042eb470add22c338c drm/i915: Replace kmalloc() + copy_from_user() with memdup_user()
 f8f15f6742b8874e59c9c715d0af3474608310ad wifi: cw1200: cap SSID length in cw1200_do_join()
 c786794bd27b0d7a5fd9063695df83206009be59 wifi: libertas: cap SSID len in lbs_associate()
 62b635dcd69c4fde7ce1de4992d71420a37e51e3 wifi: cfg80211: sme: cap SSID length in __cfg80211_connect_result()
@@ -896,6 +911,7 @@ cce7c15faaac79b532a07ed6ab8332280ad83762 ceph: always call ceph_shift_unused_fol
 e3c674db356c4303804b2415e7c2b11776cdd8c3 tunnels: reset the GSO metadata before reusing the skb
 e895f8e29119c8c966ea794af9e9100b10becb88 hrtimers: Unconditionally update target CPU base after offline timer migration
 641427d5bf90af0625081bf27555418b101274cd docs: networking: can: change bcm_msg_head frames member to support flexible array
+f8d2c26df98b487d61e582c01804340b96c44e44 drm/i915/gt: Fix memory leak in hangcheck selftest
 f5c32370dba668c171c73684f489a3ea0b9503c5 drm/amd/display: Disable DPCD Probe Quirk
 70f0b051f82d0234ade2f6753f72a2610048db3b drm/amd/display: Correct sequences and delays for DCN35 PG & RCG
 60f71f0db7b12f303789ef59949e38ee5838ee8b drm/amd/display: Drop dm_prepare_suspend() and dm_complete()
@@ -989,6 +1005,7 @@ b10c31b70bf00ba4688c4b364691640a92b7f4bf Merge tag 'for-6.17-rc5-tag' of git://g
 a1228f048a314b9280784a2cbd757cac74705589 Merge tag 'pm-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e59a039119c3ec241228adf12dca0dd4398104d0 Merge tag 's390-6.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 db87bd2ad1f736c2f7ab231f9b40c885934f6b2c Merge tag 'net-6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+ba391a102ec11ab7f5b249e46dcf61ef836a57e7 drm/i915/guc: Include the GuC registers in the error state
 1fcf686def19064a7b5cfaeb28c1f1a119900a2b erofs: fix long xattr name prefix placement
 f6d2900f2806d584303db689d9e18f0443610514 MAINTAINERS: Update the DMA Rust entry
 2c38074c3667ca6940a1ea29930e2cd86efce348 Merge tag 'drm-rust-fixes-2025-09-05' of https://gitlab.freedesktop.org/drm/rust/kernel into drm-fixes
@@ -1016,39 +1033,22 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 0676181a87540fa2aabc8920dc30bca5071b8f1a Merge tag 'dmaengine-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
-0e58f6a7dd689c73d67e6a2164b46d4618f2698a fs/resctrl: Optimize code in rdt_get_tree()
-09f37134464cc03baf5cb8eab2d99db27ee73217 x86,fs/resctrl: Consolidate monitor event descriptions
-d257cc2e5c8bb8236cb161360d6c0529fd442712 x86,fs/resctrl: Replace architecture event enabled checks
-63cc9811aa874e6fab671599ba93a989f4f93a5d x86/resctrl: Remove the rdt_mon_features global variable
-83b039877310ae1eb614eef17b780df1e10d9fb5 x86,fs/resctrl: Prepare for more monitor events
-e19c06219985f2beb9d71959d80f56e318abf744 x86/cpufeatures: Add support for Assignable Bandwidth Monitoring Counters (ABMC)
-bebf57bf054b561a62f3440142b2eddab2b0bbff x86/resctrl: Add ABMC feature in the command line options
-5ad68c8f965fed78c61f2ac7aea933f06bb50032 x86,fs/resctrl: Consolidate monitoring related data from rdt_resource
-13390861b426e936db20d675804a5b405622bc79 x86,fs/resctrl: Detect Assignable Bandwidth Monitoring feature details
-faebbc58cde9d8f6050ac152c34c88195ed4abaa x86/resctrl: Add support to enable/disable AMD ABMC feature
-3b497c3f4f0427d940ec5c8600e840c8adc5cfbf fs/resctrl: Introduce the interface to display monitoring modes
-8c793336eaf8893a29626155d74615fe9f03e7f2 fs/resctrl: Add resctrl file to display number of assignable counters
-4d32c24a74f2c12ff440d381ba01de574f6631ce fs/resctrl: Introduce mbm_cntr_cfg to track assignable counters per domain
-16ff6b038fb3b64aa033efdc95d673239610e1a6 fs/resctrl: Introduce interface to display number of free MBM counters
-84ecefb766748916099f5b7444a973a623611d63 x86/resctrl: Add data structures and definitions for ABMC assignment
-ebebda853633de389ba2c6737f8ca38405713e90 fs/resctrl: Introduce event configuration field in struct mon_evt
-f7a4fb22312646329ba21bc58958fd83fb9fc15d x86,fs/resctrl: Implement resctrl_arch_config_cntr() to assign a counter with ABMC
-bd85310efd71b9e7809e1b95fe7a60fde42e62db fs/resctrl: Add the functionality to assign MBM events
-aab2c5088cdb26e80d51ffbe72d24ab23fa1533e fs/resctrl: Add the functionality to unassign MBM events
-bc53eea6c2a1dea152a0073a2f2814b697ad197e fs/resctrl: Pass struct rdtgroup instead of individual members
-862314fd1f93d96eddb0559a807c66cb1f6ee520 fs/resctrl: Introduce counter ID read, reset calls in mbm_event mode
-7c9ac605e202c4668e441fc8146a993577131ca1 x86/resctrl: Refactor resctrl_arch_rmid_read()
-2a65b72c1603a74f35228acbb8de2ecff9c13efe x86/resctrl: Implement resctrl_arch_reset_cntr() and resctrl_arch_cntr_read()
-159f36cd4de7718779fd0b232de5137b4ffd2d1e fs/resctrl: Support counter read/reset with mbm_event assignment mode
-ea274cbeaf8f0667267b347e3f84797439cdab4e fs/resctrl: Add event configuration directory under info/L3_MON/
-f9ae5913d47cda67481a4f54cc3273d3d1d00a01 fs/resctrl: Provide interface to update the event configurations
-ac1df9bb0ba3ae94137fb494cd9efc598f65d826 fs/resctrl: Introduce mbm_assign_on_mkdir to enable assignments on mkdir
-ef712fe97ec575657abb12d76837867dd8b8a0ed fs/resctrl: Auto assign counters on mkdir and clean up on group removal
-cba8222880b88d96f3ed6c8a115e335e552b83a1 fs/resctrl: Introduce mbm_L3_assignments to list assignments in a group
-88bee79640aea6192f98c8faae30e0013453479d fs/resctrl: Introduce the interface to modify assignments in a group
-9f0209b857d2fc99c2a32bff1d7bfd54b314c29c fs/resctrl: Disable BMEC event configuration when mbm_event mode is enabled
-8004ea01cf6338298e0c6ab055bc3ec659ce381b fs/resctrl: Introduce the interface to switch between monitor modes
-0f1576e43adc62756879a240e66e89ce386b6eb9 x86/resctrl: Configure mbm_event mode if supported
-d79bab8a48bfcf5495f72d10bf609478a4a3b916 MAINTAINERS: resctrl: Add myself as reviewer
+2cda9a063dd6f21e5294092a679afdcd0fc58549 Merge tag 'drm-intel-gt-next-2025-09-12' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
+0d9f0083f7a5a31d91d501467b499bb8c4b25bdf Merge tag 'v6.17-rc6' into drm-next
+4e445729dc103ff7780ed03da9f8310759ea5dae drm/bridge: samsung-dsim: support separate LINK and DPHY status registers
+7c9b998947f19457e32496ab9edeea798373c426 drm/bridge: samsung-dsim: add SFRCTRL register
+92beab1a397d80d04d90f511c6d0af696da67a33 drm/bridge: samsung-dsim: add flag to control header FIFO wait
+f6ba4c1577a8184105133a79b5d1b6d465158362 drm/bridge: samsung-dsim: allow configuring bits and offsets of CLKCTRL register
+4d244122dd90c72f6c3f10eb7a53678d78d3b857 drm/bridge: samsung-dsim: allow configuring the MAIN_VSA offset
+d6dbefb2fed7d7f333c4241965296d84c202b6bf drm/bridge: samsung-dsim: allow configuring the VIDEO_MODE bit
+9aa49c21aac071383353315036520ba753484c93 drm/bridge: samsung-dsim: allow configuring PLL_M and PLL_S offsets
+f7754d843a05c685ba453be176a29ae157f88b0c drm/bridge: samsung-dsim: allow configuring the PLL_STABLE bit
+7ef93667ab19370a2a05b8dbcad36d76b887ff38 drm/bridge: samsung-dsim: increase timeout value for PLL_STABLE
+f08051a4158fec363e1f33b75dd48131f524fa5f drm/bridge: samsung-dsim: add ability to define clock names for every variant
+7f8d35b589c9f6acda0e36b184c193d38f092c36 dt-bindings: samsung,mipi-dsim: document exynos7870 DSIM compatible
+77169a11d4e9916f6c22587df396d6128505dbfb drm/bridge: samsung-dsim: add driver support for exynos7870 DSIM bridge
+0e6ee83c4b68448063e88e14c13c17d83e7d9735 dt-bindings: display: samsung,exynos7-decon: document iommus, memory-region, and ports
+e1361a4f1be9cb69a662c6d7b5ce218007d6e82b drm/exynos: exynos7_drm_decon: remove ctx->suspended
+472df181d7c4c732d5c5b98d506d1902e7580acb drm/exynos: dsi: add support for exynos7870
 
---===============5145507900632654744==--
+--===============2007799020752892533==--
