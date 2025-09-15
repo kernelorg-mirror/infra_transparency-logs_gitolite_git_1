@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 15 Sep 2025 03:25:09 -0000
-Message-Id: <175790670958.3200990.593165745373190379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Mon, 15 Sep 2025 03:47:12 -0000
+Message-Id: <175790803281.3217971.8768649816083239624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/next-fixes
-    old: 5fdd2d91176a8bd54d7f96213f8e15db65656ad6
-    new: 07cd468e0f61b72a2e07ce6102b69f6cd273cb93
+  - ref: refs/heads/next
+    old: 521959321ddc32b9613d55a542ce3356f36f0660
+    new: 2b93325efcf30e23f249224c704604959201c968
     log: |
-         b62fd63ade7cb573b114972ef8f9fa505be8d74a btrfs: fix invalid extref key setup when replaying dentry
-         5b8d2964754102323ca24495ba94892426284e3a btrfs: zoned: fix incorrect ASSERT in btrfs_zoned_reserve_data_reloc_bg()
-         8679d2687c351824d08cf1f0e86f3b65f22a00fe btrfs: initialize inode::file_extent_tree after i_mode has been set
-         80eb65ccf6f72dc37b972583fe71cd8a50ff7e51 btrfs: annotate block group access with data_race() when sorting for reclaim
-         07cd468e0f61b72a2e07ce6102b69f6cd273cb93 Merge branch 'misc-6.17' into next-fixes
+         8043fc322e3f630d48b849c0db91b09f7768b489 _damon_args: split out damos quotas args setup
+         773ad256cfe84df8a8176610a8cb29f9a423e9c4 _damon_args: split out --damos_* arguments lengths verification
+         e6237757f03d2a77fedf9d87dfdebead1a1e822e _damon_args: split out default --damos_* args fillup
+         c99a6ad7aa3c2aede16bb3d5aeb1839fb28e556f _damon_args: simplify target_nid setup
+         1984d80314d9d68ccb221d4c414c25bc115595d6 _damon_args: simplify dests setup
+         2b93325efcf30e23f249224c704604959201c968 release_note: update for cleanup
          
