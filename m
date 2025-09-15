@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5813717403097940076=="
+Content-Type: multipart/mixed; boundary="===============2125930581435484949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 15 Sep 2025 13:44:23 -0000
-Message-Id: <175794386363.3785778.7548022077049417258@gitolite.kernel.org>
+Date: Mon, 15 Sep 2025 13:44:49 -0000
+Message-Id: <175794388901.3786264.2686901788633172547@gitolite.kernel.org>
 
---===============5813717403097940076==
+--===============2125930581435484949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/soc/arm
-    old: 1141f2fa2089bce94a4ef6b8ac131b46167b41f9
-    new: 9685b2975972640a98f682462ea0741757c13294
-    log: |
-         9685b2975972640a98f682462ea0741757c13294 ARM: mach-hpe: Rework support and directory structure
-         
-  - ref: refs/heads/soc/dt
-    old: cea9c89d46c62b5fdc719c60bc7b2e3abd8c0153
-    new: 10588787c8037a7bf459bf8a5ebc131944b9b005
-    log: revlist-cea9c89d46c6-10588787c803.txt
+  - ref: refs/heads/for-next
+    old: bf1fe7a7cfa4e12202bc287e5a9b8a955b7c086d
+    new: 04baa0d57069993289a95fcfffaa96f6f37d61b1
+    log: revlist-bf1fe7a7cfa4-04baa0d57069.txt
 
---===============5813717403097940076==
+--===============2125930581435484949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cea9c89d46c6-10588787c803.txt
+Content-Disposition: attachment; filename=revlist-bf1fe7a7cfa4-04baa0d57069.txt
 
 3ede313b5ec41bf1064fc35a168618eaee0d8e98 arm64: dts: qcom: sa8775p: fix RPMh power domain indices
 1d517444b21e49bb049dc1ca9df0281ba5203c86 arm64: dts: qcom: sm8150: use correct PD for DisplayPort controller
@@ -466,6 +460,7 @@ d1a7bf9031b9f91b86187bcd5bd7a4bfd76bcaef dt-bindings: marvell: armada-37xx: add 
 839bef00712dc2d98842838dafa894621bfcfc13 Merge tag 'v6.18-rockchip-dts32-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
 b1161065094f545ef7595068a647d9849e72dc44 Merge tag 'socfpga_dts_updates_for_v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into soc/dt
 54a5a6041bfc48f0393284c267210803238f0e39 Merge tag 'samsung-dt64-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
+9685b2975972640a98f682462ea0741757c13294 ARM: mach-hpe: Rework support and directory structure
 942d46b4329ca86dc0de254a12024528859867fe Merge tag 'i2c-gpio-fixes-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux into soc/dt
 b425afb3488464f38aa433b2d960f3839c7f4187 Merge tag 'dt64-cleanup-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt into soc/dt
 9a801e8b96b84727c61885d24e4363d7f589e508 Merge tag 'samsung-dt-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
@@ -487,5 +482,8 @@ aa14c3aff06bf5e85c46845efcee749d5b1caaa1 Merge tag 'sti-dt-for-v6.18-round2' of 
 b4952e54c3fde100bff2a012c670bba8363d1e5f Merge tag 'tegra-for-6.18-arm-dt' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/dt
 d75f5aded453a005c8c0f79e0b1221a5629e73fe Merge tag 'tegra-for-6.18-arm64-dt' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/dt
 10588787c8037a7bf459bf8a5ebc131944b9b005 Merge tag 'aspeed-6.18-devicetree-1' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into soc/dt
+090be83a079230395f9c8ca28ceac1a2086fbd18 Merge branch 'soc/dt' into for-next
+8a9dc324cc233696fb4445058d0dee6768de5efc Merge branch 'soc/arm' into for-next
+04baa0d57069993289a95fcfffaa96f6f37d61b1 soc: document merges
 
---===============5813717403097940076==--
+--===============2125930581435484949==--
