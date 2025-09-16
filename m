@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8221040997856250170=="
+Content-Type: multipart/mixed; boundary="===============0174441123656554402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 16 Sep 2025 13:15:44 -0000
-Message-Id: <175802854433.850476.17038465796143976700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Sep 2025 13:15:47 -0000
+Message-Id: <175802854768.850611.1216006168958557444@gitolite.kernel.org>
 
---===============8221040997856250170==
+--===============0174441123656554402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: 1991a458528588ff34e98b6365362560d208710f
     new: f83ec76bf285bea5727f478a68b894f5543ca76e
     log: revlist-1991a4585285-f83ec76bf285.txt
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 34c2202f5ca2325511a0e0b8802492eec17a2c76
     new: 18dda9eb9e11b2aeec73cbe2a56ab2f862841ba4
     log: |
          18dda9eb9e11b2aeec73cbe2a56ab2f862841ba4 spi: amlogic: Fix error checking on regmap_write call
          
 
---===============8221040997856250170==
+--===============0174441123656554402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1758028595 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1758028542-37c8ef2e22142aaae7e402977069502709f2c9ea
+pusher C3F436CA30F5D8EB 1758028599 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1758028545-fce417463fe53f1043149c45f6fab62fca98e458
 
-1991a458528588ff34e98b6365362560d208710f f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/for-6.17
-34c2202f5ca2325511a0e0b8802492eec17a2c76 18dda9eb9e11b2aeec73cbe2a56ab2f862841ba4 refs/heads/for-6.18
+1991a458528588ff34e98b6365362560d208710f f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/spi-6.17
+34c2202f5ca2325511a0e0b8802492eec17a2c76 18dda9eb9e11b2aeec73cbe2a56ab2f862841ba4 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjJYzMACgkQJNaLcl1U
-h9BuRAf/YcnSe3srL/G8K5OjDdJCy/dEc273QpmjI1brjuvZG1XdqeiFXuGtdMgf
-dZE2A/6N3Ev96Hv5Qy5ilg3kPqJJQNHBAjppTuLPZwDCI6to8dU4oN8luHVRvH1K
-Xj5K2eV2Rm3KSsUDUnlcDLMlNCelvQYZthSzTP8MFg6/zjUi/s96i1nONaaKyE+d
-iBwCu9Kd0LhnOHU7zzrnsaPLH44qTvN1jhAX/UfrZd0xI7blHY2TJve3lMGv/xzv
-XO17RhpnkeFhpedRjgq1sS4M7yTZHO0EJ7TpFlo6sSUwxT6gYgMH5JmfSdnkYvIr
-fETRmPc/rjHj8m3HOVO8x7hJUdUnYg==
-=cXU9
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjJYzcACgkQJNaLcl1U
+h9Cs3Af/ceV4Ik1HJ3cjtjNqTvaZEVoRHI48RtiErCb86IbA7c5kp77aGvXgOWgZ
+rs/DU6b93Ch7n81Zl+kcmnjem0FBc8yQ/w8hcL5MnobDStCxJupgobLprqoMzDmT
+BG78jGita4x08OE4pWl19T64cGCA9VkX0cVncWTx1p+beVWbIElL2Ru2rKninRWh
+H2DS3kF7zOyZ22ChaDzoA2OgHTg8P+IiW6PL1c527YMDrLs9L6eTn/7X1usL/TgJ
+2jjYFWD46MpGHWe5nfYJ+ml/rzFj1R5fNwTA/dzvD+A0M1hoz0Rw/iuRtAu8n5Aa
+vCKGEn1m3boGGw1AqFKzeHkjsBDQgw==
+=HmHi
 -----END PGP SIGNATURE-----
 
---===============8221040997856250170==
+--===============0174441123656554402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -641,4 +641,4 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
 
---===============8221040997856250170==--
+--===============0174441123656554402==--
