@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3178312951950966517=="
+Content-Type: multipart/mixed; boundary="===============1491247028342402600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 16 Sep 2025 22:33:17 -0000
-Message-Id: <175806199743.1347639.11291982491883102843@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 22:33:19 -0000
+Message-Id: <175806199949.1347789.3564251976489109856@gitolite.kernel.org>
 
---===============3178312951950966517==
+--===============1491247028342402600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: ede965fd555ac2536cf651893a998dbfd8e57b86
-    new: f83ec76bf285bea5727f478a68b894f5543ca76e
-    log: revlist-ede965fd555a-f83ec76bf285.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: c29d695ce0f8699a424ab9ec52e10ce2dc2976de
+    new: 3921711f7241cf4a4c50380e4815d6c6c21f1a3b
+    log: revlist-c29d695ce0f8-3921711f7241.txt
 
---===============3178312951950966517==
+--===============1491247028342402600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ede965fd555a-f83ec76bf285.txt
+Content-Disposition: attachment; filename=revlist-c29d695ce0f8-3921711f7241.txt
 
 e4a718a3a47e89805c3be9d46a84de1949a98d5d tee: fix NULL pointer dereference in tee_shm_put
 50a74d0095cd23d2012133e208df45a298868870 tee: fix memory leak in tee_dyn_shm_alloc_helper
@@ -617,5 +617,7 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 0676181a87540fa2aabc8920dc30bca5071b8f1a Merge tag 'dmaengine-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
+fa023f8ef6cbc8118661cc3e368a9ff5379c5595 i2c: s3c2410: Drop S3C2410 OF support
+3921711f7241cf4a4c50380e4815d6c6c21f1a3b dt-bindings: i2c: samsung,s3c2410-i2c: Drop S3C2410
 
---===============3178312951950966517==--
+--===============1491247028342402600==--
