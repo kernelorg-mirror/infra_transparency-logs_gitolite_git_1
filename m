@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3248161205523997904=="
+Content-Type: multipart/mixed; boundary="===============2220924527135218509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 16 Sep 2025 16:57:19 -0000
-Message-Id: <175804183941.1058852.8850597707891674560@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 16:57:21 -0000
+Message-Id: <175804184112.1058968.2276968191694113650@gitolite.kernel.org>
 
---===============3248161205523997904==
+--===============2220924527135218509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.18
-    old: be6f43c64ca0f7929904f31c2a034c81093eb5c0
-    new: 520f9fec5d6f5a23e7985140dc4dd9986f0ed140
-    log: revlist-be6f43c64ca0-520f9fec5d6f.txt
+  - ref: refs/heads/for-next
+    old: b5818e2a245e631f194e27ada85a51f7e19a85a1
+    new: db251d219d978045b902175f0253f4c9e4a064d0
+    log: revlist-b5818e2a245e-db251d219d97.txt
 
---===============3248161205523997904==
+--===============2220924527135218509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be6f43c64ca0-520f9fec5d6f.txt
+Content-Disposition: attachment; filename=revlist-b5818e2a245e-db251d219d97.txt
 
 dfdbe4bf6ff386d96c1dc8c7407201d882fc4113 arm64: dts: qcom: lemans: Add SDHC controller and SDC pin configuration
 5bc646aa0c7a444d4e81d8e3cae4baf463e1a018 arm64: dts: qcom: lemans-evk: Enable GPI DMA and QUPv3 controllers
@@ -65,5 +65,6 @@ a19c879b69b12cc31ed59b50e743a1ef2e5b08b1 arm64: dts: qcom: lemans: Add support f
 b68fc45910d4eb1b3bb7e160282fba5a4bdd8409 arm64: dts: qcom: lemans-evk: Add IMX577-based camera overlay
 e645096d1f6dadcead09c722a3fbc6c44a45fece arm64: dts: qcom: qcm2290: Add CCI node
 520f9fec5d6f5a23e7985140dc4dd9986f0ed140 arm64: dts: qcom: sm8450: enable camera clock controller by default
+db251d219d978045b902175f0253f4c9e4a064d0 Merge branches 'arm32-defconfig-for-v6.18', 'arm32-for-6.18', 'arm64-defconfig-for-6.18', 'arm64-for-6.18', 'clk-for-6.18', 'drivers-fixes-for-6.17' and 'drivers-for-6.18' into for-next
 
---===============3248161205523997904==--
+--===============2220924527135218509==--
