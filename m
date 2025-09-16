@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 16 Sep 2025 22:55:26 -0000
-Message-Id: <175806332636.1368515.17625550334071169443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 16 Sep 2025 23:03:15 -0000
+Message-Id: <175806379576.1374026.13506890029071466277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: e45e4bc063ec58e3c2a35c9e99b47c0db8d9e331
-    new: e8cfc524eaf3c0ed88106177edb6961e202e6716
+  - ref: refs/heads/dev-queue
+    old: bda14d4ab76535586b346ecc1d6a09c58c15dfc1
+    new: 1bdbb561dc20aca221810ad5dde1db574ece9be8
     log: |
-         e8cfc524eaf3c0ed88106177edb6961e202e6716 selftests: watchdog: skip ping loop if WDIOF_KEEPALIVEPING not supported
+         1bdbb561dc20aca221810ad5dde1db574ece9be8 iavf: fix proper type for error code in iavf_resume()
          
