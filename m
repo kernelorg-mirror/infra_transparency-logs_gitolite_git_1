@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5546651034921532182=="
+Content-Type: multipart/mixed; boundary="===============0900192748882598949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 16 Sep 2025 14:13:52 -0000
-Message-Id: <175803203214.902446.16828579092080570422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 16 Sep 2025 14:13:58 -0000
+Message-Id: <175803203841.902675.3073469834239291111@gitolite.kernel.org>
 
---===============5546651034921532182==
+--===============0900192748882598949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 576bd7a8c90c48e9e93a18de0bcc0fa1e0a5433b
     log: revlist-1e5881b168b9-576bd7a8c90c.txt
 
---===============5546651034921532182==
+--===============0900192748882598949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ e00bd64de1d0c497f2272452531f76cc3dab6e7a perf test: AMD IBS swfilt skip kernel t
 0615a3b4ec90d7489c98a4e60bdbc19dc93666d1 perf dwarf-aux: Fix __die_find_scope_cb() for namespaces
 576bd7a8c90c48e9e93a18de0bcc0fa1e0a5433b perf tests record: Update testcase to fix usage of affinity for machines with #CPUs > 1K
 
---===============5546651034921532182==--
+--===============0900192748882598949==--
