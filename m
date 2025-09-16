@@ -1,30 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 16 Sep 2025 20:33:58 -0000
-Message-Id: <175805483886.1239602.15113030521462450548@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6852859998937463302=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 16 Sep 2025 20:53:58 -0000
+Message-Id: <175805603860.1257555.16668472251420943149@gitolite.kernel.org>
+
+--===============6852859998937463302==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-6.18
-    old: ad7c7f4b9c6c2950778e5bd305392a333de73912
-    new: dadb3ebcf395ebee3626d88ac7e5e234f15bae2c
-    log: |
-         f6cfa602d2ba7e5ca9dc65ec4141521aca80bda2 workqueue: replace use of system_unbound_wq with system_dfl_wq
-         a2be943b46b4a7478ea8ddf9bb8e5251c59fceb7 workqueue: replace use of system_wq with system_percpu_wq
-         dadb3ebcf395ebee3626d88ac7e5e234f15bae2c workqueue: WQ_PERCPU added to alloc_workqueue users
-         
-  - ref: refs/heads/for-next
-    old: 570129c58347cbcad4c13703065606b580e54034
-    new: 9c440b3715d65ba639f8098c3cf46afc8c3a04a1
-    log: |
-         f6cfa602d2ba7e5ca9dc65ec4141521aca80bda2 workqueue: replace use of system_unbound_wq with system_dfl_wq
-         a2be943b46b4a7478ea8ddf9bb8e5251c59fceb7 workqueue: replace use of system_wq with system_percpu_wq
-         dadb3ebcf395ebee3626d88ac7e5e234f15bae2c workqueue: WQ_PERCPU added to alloc_workqueue users
-         9c440b3715d65ba639f8098c3cf46afc8c3a04a1 Merge branch 'for-6.18' into for-next
-         
+  - ref: refs/heads/kvm-arm64/el2-res0
+    old: 57846c55f8ad7a8203fd72a4aac416e2cea3f5fa
+    new: 7650c0667a791f4dcef49d61f000dd17ad340304
+    log: revlist-57846c55f8ad-7650c0667a79.txt
+
+--===============6852859998937463302==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-57846c55f8ad-7650c0667a79.txt
+
+1ec6bd94b4d606694e500faa3cf4bec79d6bc530 KVM: arm64: Remove duplicate FEAT_{SYSREG128,MTE2} descriptions
+19c7d9cd34dc457d34f1ba7a97a34f154a26fe95 KVM: arm64: Add reg_to_feat_map to describe full register dependency
+d3dfe699601458aba05a2d788becd61daa820e6c KVM: arm64: Enforce absence of FEAT_FGT on FGT registers
+5977f27bb9a6903736e36300924188d3c22a61f1 KVM: arm64: Enforce absence of FEAT_FGT2 on FGT2 registers
+839aca8f550fd2c78995199d4644b80e044a2e66 KVM: arm64: Enforce absence of FEAT_HCX on HCRX_EL2
+1eaa65857c56614a4b57995be95e57d6cb137194 KVM: arm64: Convert HCR_EL2 RES0 handling to compute_reg_res0_bits()
+c84797dce95a2c8eb40d96edfcf1a90b44e636e2 KVM: arm64: Enforce absence of FEAT_SCTLR2 on SCTLR2_EL{1,2}
+db8ddf91e8939790eec4a73bda9ed4eadcec37ba KVM: arm64: Enforce absence of FEAT_TCR2 on TCR2_EL2
+7937c8e3122ef683876f080fc9dd31e1220743f8 KVM: arm64: Convert SCTLR_EL1 RES0 handling to compute_reg_res0_bits()
+7650c0667a791f4dcef49d61f000dd17ad340304 KVM: arm64: Convert MDCR_EL2 RES0 handling to compute_reg_res0_bits()
+
+--===============6852859998937463302==--
