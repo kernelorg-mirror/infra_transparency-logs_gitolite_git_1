@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
-Date: Tue, 16 Sep 2025 13:52:26 -0000
-Message-Id: <175803074681.883262.12320261153847759487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 16 Sep 2025 13:53:05 -0000
+Message-Id: <175803078513.883673.11078689836174532665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexs/linux
-user: alexs
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/docs-next
-    old: 0694113d49b5dec1de37765851b457e3f8737b7c
-    new: 1b0e2133293bbf69c78f915f08a47e145b572d32
+  - ref: refs/heads/kdevops
+    old: 1752f47f5080c9ef393caa38cc5eaf7a1d4421a6
+    new: 16d92e02576c7dfaad7db72e5bb99a0a972cc7f1
     log: |
-         6d35e61606d006a8714a4df22ad288f2aece5886 Docs/zh_CN: Translate mptcp-sysctl.rst to Simplified Chinese
-         d3e7609c6e5ec92587ed1043a985749d22cc78d1 Docs/zh_CN: Translate skbuff.rst to Simplified Chinese
-         ab530c5fca9b0357b4958b19a1bc23fae7168c9e Docs/zh_CN: Translate generic-hdlc.rst to Simplified Chinese
-         1b0e2133293bbf69c78f915f08a47e145b572d32 Docs/zh_CN: Translate timestamping.rst to Simplified Chinese
+         27d0531d630459c614079868ceab3d817dedd289 nfsd: add notification handlers for dir events
+         df6aa7319ba2d17105ade60072870b19bdd4b2fb nfsd: add tracepoint to dir_event handler
+         5f931c31ebb05885376ef930356680f5d6ca5eb9 nfsd: apply the notify mask to the delegation when requested
+         8502868afc11af62ce301b4dbc3691002bd823e2 nfsd: add helper to marshal a fattr4 from completed args
+         9cc5f6f7d51d14d8ed42f37e88e66a8c0250057f nfsd: allow nfsd4_encode_fattr4_change() to work with no export
+         403783c8dd8e0e6fef65e4dfef83c8cbe8af9c04 nfsd: mix in attributes
+         16d92e02576c7dfaad7db72e5bb99a0a972cc7f1 nfsd: rework nfsd4_encode_notify_event() to return a pointer to event buffer
          
