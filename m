@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3059897617550293324=="
+Content-Type: multipart/mixed; boundary="===============8584921588299087186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 16 Sep 2025 09:04:13 -0000
-Message-Id: <175801345351.605668.166926400643358276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 16 Sep 2025 09:05:38 -0000
+Message-Id: <175801353840.608048.16890884346626951262@gitolite.kernel.org>
 
---===============3059897617550293324==
+--===============8584921588299087186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: a6b0cdee4868ee25553488cdedc6b52266211821
-    new: ef6a2a3c438bdc90a6b8e46ee4e59fc618d8bc37
-    log: |
-         ef6a2a3c438bdc90a6b8e46ee4e59fc618d8bc37 update cvelistV5
-         
+  - ref: refs/heads/main
+    old: 05c05d14d95fa54814f39197dfa4ad2a241c46bc
+    new: dfc0882a4088001a9bcd620bc32938d13d0f18b9
+    log: revlist-05c05d14d95f-dfc0882a4088.txt
 
---===============3059897617550293324==
+--===============8584921588299087186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-05c05d14d95f-dfc0882a4088.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758013505 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1758013453-b93faf7c3088b7552b2a6305bdc80da3264108d5
+cdb096c41b7dc26abab644886514135141a76978 hinic3: HW initialization
+8a1c655f55c8fe2d7b595fe31acfe87d39caf633 hinic3: HW management interfaces
+069e42485e53e25b5875ccf9642eb097fe40b231 hinic3: HW common function initialization
+a0543a79359ed838960bc10ac3a5ee8810f63834 hinic3: HW capability initialization
+b92e6c734db80900b1a59383b5f35700ae248b8f hinic3: Command Queue flush interfaces
+8133788d023ffb5498ad19ad4d079705d30ddef1 hinic3: Nic_io initialization
+6b822b658aafe840ffd6d7f1af5bf4f77df15a11 hinic3: Queue pair endianness improvements
+73f37a7e1993dfde3362a2d3fd18c2bc8b0c519e hinic3: Queue pair resource initialization
+97dcb914a25ba889db3a529e34ca4071a6ceb4d1 hinic3: Queue pair context initialization
+b83bb584bc97f9dfe409474c87b0dd6b9ba01755 hinic3: Tx & Rx configuration
+1f3838b84a6374d5529c0b929053d19674595df8 hinic3: Add Rss function
+45f97ae93de2edeb7d214d619306612af6d1d03a hinic3: Add port management
+4404f6af810829588a51968959c6b85574109c13 hinic3: Fix missing napi->dev in netif_queue_set_napi
+d5aeec592154716ae8ba2cf094c1f04b077998a3 hinic3: Fix code style (Missing a blank line before return)
+dfc0882a4088001a9bcd620bc32938d13d0f18b9 Merge branch 'net-hinic3-add-a-driver-for-huawei-3rd-gen-nic-sw-and-hw-initialization'
 
-a6b0cdee4868ee25553488cdedc6b52266211821 ef6a2a3c438bdc90a6b8e46ee4e59fc618d8bc37 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjJKEIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++KcP/R+wd3II0+N0x1XPwPsQ
-o0GXS9F39s//1ks/R0RYqbz1jBJZomPZfN9QpWZklwpjbALGfrTXzK4z1yPivRpi
-3vEW9erCH6YxQ1A4RLPXFymc4CfQ+W7TIo1K94IO9dqRVnwBsUM1chb5QSMa6M6W
-Obx8W/N1OCbqAAnQ9IxTjMJoiJvSubDrxGkZwHqv4+MBeFa4u42550xv9XikO5/c
-9At4w6ItM4RhXMCgwdTON/Xq/+IEDUC9iuHuHElDaIc/JCZlh7d9IdFsEhC3rNO7
-+2GJMi52wfa8CDEofuDMWdlqy1nC+2nT0ZXlbLftPXikFt5b0qmZgBPSDR7dQjuU
-quVijNTiA8cIhbc0ia+ZeewPLFMPPfpHY17R91ByeVdD3C2Xh/IEsE8c/Qfl7JtY
-LdHfUaEXq5SRYpVvQkte3PakIX6nTPgKzPGYeTYtlOiCgugP7MY5iNqIY+rZpeG9
-2MmAuU1du5HgQ+Dbr/hyi7jcY+m7bG1jIVh/xEv9+TY7lE7I4lSR83Ymq0LfQSv4
-mZ97Nyg8TuWn/lvA0AZRPioFjfsfMCTfnlg/RH5yoZuKWptQ8mzckzviezeiq1/6
-LbwwTkYdNz4H3QUzhPXeIRMvNRSJIrQsGxuD8s1Al4TpN1WfqFltZwnSVG9H/0EJ
-5cEsj5fSI8oxuTKOBLcyXmam
-=UCqO
------END PGP SIGNATURE-----
-
---===============3059897617550293324==--
+--===============8584921588299087186==--
