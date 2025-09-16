@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 16 Sep 2025 14:16:37 -0000
-Message-Id: <175803219704.906697.4826157303513039203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 16 Sep 2025 14:21:54 -0000
+Message-Id: <175803251436.911172.2044829262502939649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/for-leds-next
-    old: d6058316d16ee0d1861c0550051b2492efb54b79
-    new: 96e048fa11d6aedf4add4c2f93a8d06445948056
+  - ref: refs/heads/for-next
+    old: eba165b2909716c690351d21d9b6b6d95b9e1f59
+    new: 2bd7dd383609f11330814ecc0d3c10b67073a6be
     log: |
-         96e048fa11d6aedf4add4c2f93a8d06445948056 leds: is31fl319x: Use devm_mutex_init()
+         2bbe1255fcf19c5eb300efb6cb5ad98d66fdae2e RDMA/cm: Rate limit destroy CM ID timeout error message
+         2bd7dd383609f11330814ecc0d3c10b67073a6be RDMA/mana_ib: Extend modify QP
          
