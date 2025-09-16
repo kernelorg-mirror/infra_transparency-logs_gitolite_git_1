@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 16 Sep 2025 23:03:15 -0000
-Message-Id: <175806379576.1374026.13506890029071466277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 16 Sep 2025 23:05:15 -0000
+Message-Id: <175806391545.1377408.9047161551761452725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-queue
-    old: bda14d4ab76535586b346ecc1d6a09c58c15dfc1
-    new: 1bdbb561dc20aca221810ad5dde1db574ece9be8
+  - ref: refs/heads/main
+    old: 949ddfb774fe527cebfa3f769804344940f7ed2e
+    new: d3f7457da7b9527a06dbcbfaf666aa51ac2eeb53
     log: |
-         1bdbb561dc20aca221810ad5dde1db574ece9be8 iavf: fix proper type for error code in iavf_resume()
+         d3f7457da7b9527a06dbcbfaf666aa51ac2eeb53 selftests/Makefile: include $(INSTALL_DEP_TARGETS) in clean target to clean net/lib dependency
          
