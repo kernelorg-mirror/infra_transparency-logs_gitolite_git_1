@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8698052364142580158=="
+Content-Type: multipart/mixed; boundary="===============1981059851019683901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Tue, 16 Sep 2025 15:32:24 -0000
-Message-Id: <175803674402.979990.7456658322919480998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 16 Sep 2025 15:37:00 -0000
+Message-Id: <175803702074.984346.7610512463235362744@gitolite.kernel.org>
 
---===============8698052364142580158==
+--===============1981059851019683901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
+repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
-  - ref: refs/heads/i3c/fixes
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/rtc-fixes
+    old: 08d82d0cad51c2b1d454fe41ea1ff96ade676961
     new: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    log: revlist-19272b37aa4f-8f5ae30d69d7.txt
+    log: revlist-08d82d0cad51-8f5ae30d69d7.txt
 
---===============8698052364142580158==
+--===============1981059851019683901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19272b37aa4f-8f5ae30d69d7.txt
+Content-Disposition: attachment; filename=revlist-08d82d0cad51-8f5ae30d69d7.txt
 
 44d10df2007a3081ae45bbf81a96b077b48db6a2 MAINTAINERS: add missing percpu-internal.h file to per-cpu section
 85c16ee6faa1f12289b9b84ab552f55dc4aad89c MAINTAINERS: add missing interval_tree.c to memory mapping section
@@ -1051,4 +1051,4 @@ b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
 
---===============8698052364142580158==--
+--===============1981059851019683901==--
