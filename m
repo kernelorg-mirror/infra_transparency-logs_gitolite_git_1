@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Tue, 16 Sep 2025 14:56:29 -0000
-Message-Id: <175803458967.944142.12686960752803267735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Tue, 16 Sep 2025 14:56:43 -0000
+Message-Id: <175803460374.944380.8185418790928717763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/rtc-next
-    old: 96e8fe5b8a8852c4cd9b0430f4184e856550015f
-    new: c96433f4806fa5aa5b6504b3b8230fe353c0bfbe
+  - ref: refs/heads/at91-soc
+    old: 3cae7d18392feacf04354feac994c1b48eed91af
+    new: 747436750bc0ef73be32391bd5d0d7dcd185da7f
     log: |
-         c96433f4806fa5aa5b6504b3b8230fe353c0bfbe rtc: spacemit: support the SpacemiT P1 RTC
+         747436750bc0ef73be32391bd5d0d7dcd185da7f ARM: at91: pm: Remove 2.5V regulator
          
