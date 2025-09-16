@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1370699555052865843=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 16 Sep 2025 13:09:00 -0000
-Message-Id: <175802814020.841803.3111378921137471512@gitolite.kernel.org>
-
---===============1370699555052865843==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 16 Sep 2025 13:10:09 -0000
+Message-Id: <175802820902.844860.1870691146113140910@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/master
-    old: 9d885e8b868a1fa17eed385d66c4c7777f191ef1
-    new: fe3e4476558f967afa3b68c692a6164bb2076c9d
+  - ref: refs/heads/for-next
+    old: 4466dd3d719cca113308e8ae539adf7b3d68c985
+    new: 4c1257c79e93bbfc2bbb56733d3401c362d111a8
     log: |
-         fe3e4476558f967afa3b68c692a6164bb2076c9d mark 6.15.5 review as completed
+         59171a527991bb37bfab95a758d4a7ba413d7c22 dm: optimize REQ_PREFLUSH with data when using the linear target
+         8b18a2e44ac8fa51a2758ad2c7efabaaeef2c060 dm vdo: Update code to use mem_is_zero
+         4c1257c79e93bbfc2bbb56733d3401c362d111a8 dm vdo: return error on corrupted metadata in start_restoring_volume functions
          
-
---===============1370699555052865843==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758028193 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1758028139-e16ca2d9c7cae15126f434e21c6fbf7032cb7df3
-
-9d885e8b868a1fa17eed385d66c4c7777f191ef1 fe3e4476558f967afa3b68c692a6164bb2076c9d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjJYaEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OIkP/264fHpst9VCWwRPZFa1
-rkV8+9I2L+nxLTILT6gU4phcrXGvGRJ8Z+2uizZipiSHcfXjSK1j4NPSWdG7WVrS
-f91HrsEx1Lb2EH2zmM9Vi9XPEAsWUFIAWrUeWoB20gbyEUE5Xgl0PlpBTMSBk6lK
-fhd+O1QSHghoW9LdlmhlLkLizqEN6D48hDkYWOBoe/d1McZtCSjlTmMt9lcFduxf
-3YqTPcojv+koSppZb5RtwFK2vDeb1pzaJ+LPq1an2Or9HVzyVIvcX8SKY7gR269Q
-/8WNOFdEhWx1mnbIQFMM4ipjnJL9Sbb5RLYl8Kf8aAGTIyeoeNKfZRxJUZ0MAGfB
-+4mRHW27/1J7V9odQLBXQTMH2FAr8UitbWnj1vVJei/8IZY/Qw5ecl3LIW2uZgTn
-YIrd2EnCmhcJe1sucda8BqG11pRmQc6nwkCK4lTcvXGZfs0LJTbyu4BDq1LdA6ZR
-MNQ4krLWonwT5rZJ9j4W4I2d7pGg09E6kxJIS/6f/XVawmn0TyAvE6JampRNeYh/
-t6W5hjINosZRGVcZlwojpGI4mzKxrggNKYkvvcDODY7ziSDK+0DQoQPA2zoNoCTv
-uSuf4u/+VBh61QkBfdIfD8aV+4kNOeKMMNZdlGS4Emzg5t0lztatdmL7SpxPx4Sw
-QbTX+N2LGyLUp5DwiWxXTCc4
-=eg9r
------END PGP SIGNATURE-----
-
---===============1370699555052865843==--
