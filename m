@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 16 Sep 2025 23:31:46 -0000
-Message-Id: <175806550624.1398859.4956497389624145091@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 23:33:02 -0000
+Message-Id: <175806558241.1399554.2197655665199519525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 5ed994dd0b7ba1f98f234cd92d3a31b1a7696380
-    new: 3ea308da69b1a0848828e95eb5d514873f3a5249
+    old: 3ea308da69b1a0848828e95eb5d514873f3a5249
+    new: c94ef36ec9d1093e676c81a1ed415e63dffb0046
     log: |
-         3ea308da69b1a0848828e95eb5d514873f3a5249 net: mvpp2: add support for hardware timestamps
+         c94ef36ec9d1093e676c81a1ed415e63dffb0046 net: dsa: mv88e6xxx: clean up PTP clock during setup failure
          
