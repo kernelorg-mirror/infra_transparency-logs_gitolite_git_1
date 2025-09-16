@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 16 Sep 2025 13:07:23 -0000
-Message-Id: <175802804388.840750.8056476557020227585@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5155464603800751543=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 16 Sep 2025 13:08:41 -0000
+Message-Id: <175802812168.841441.8040049038431274126@gitolite.kernel.org>
+
+--===============5155464603800751543==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dmabuf-vfio
-    old: 1f22dbc1d5f47a9e6e9217b37c720f22b190f7cf
-    new: 887b59804850b679831fda6eba707cc1b1b077e0
+  - ref: refs/heads/master
+    old: 0174165824b799c71929b720e7287749d7890169
+    new: 9d885e8b868a1fa17eed385d66c4c7777f191ef1
     log: |
-         e6bbade3239e8025dd7c7bec3d639d05aa49ef2b xen: swiotlb: Switch to physical address mapping callbacks
-         19e1683200df53250b1406bfe047218d2d811f5b dma-mapping: remove unused mapping resource callbacks
-         f2295b0c961b56f20e784944bc8f0fa6d0570718 alpha: Convert mapping routine to rely on physical address
-         ba0ffaffe8be30d5e3474d9d8f7d1e0c658fedc0 MIPS/jazzdma: Provide physical address directly
-         f60a05488f117f20c2d7ec6bf99ca1f7f1ee940b parisc: Convert DMA map_page to map_phys interface
-         7b4af8522254f58e9c812362d173b7417a7cc3da powerpc: Convert to physical address DMA mapping
-         ea58d5c1de6355a98e58cad814b5f77271e9032e sparc64: Use physical address DMA mapping
-         ee0311eb8696d680d2868346f3e0cf49c4cb4b44 x86: Use physical address for DMA mapping
-         e9c6146f6aca812b20a0c2f166d62503bbbfc59f vdpa: Convert to physical address DMA mapping
-         578f4d72ae8400981618097e068695dcbda45f95 xen: swiotlb: Convert mapping routine to rely on physical address
-         887b59804850b679831fda6eba707cc1b1b077e0 dma-mapping: remove unused map_page callback
+         9d885e8b868a1fa17eed385d66c4c7777f191ef1 final assigments of some more 6.16.5 cve ids
          
+
+--===============5155464603800751543==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758028174 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1758028120-d332a8e39d8942be5f40754dfbeac83017ab4fce
+
+0174165824b799c71929b720e7287749d7890169 9d885e8b868a1fa17eed385d66c4c7777f191ef1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjJYY4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U8gP/3Y4smNk8aTfqDz/noi4
+thny6eRhoY60eCp6mlZ3zoEUjw6JYFJyV7BcUHYoRh+Qp8THzm7d9EKNSwh8WzBq
+ENOOzzr/ZTMp1vR4Ur8BeYup1ZLfzXdWJMPwL2TVuu27KXN80WnNzfExfKqsi5Ou
+U02c+fdwS5o6MJizoMaJE60SZBfctkyuA2zpXDW1XNHJg6tsn79gCfUjLvTYOdlv
+CqphZ4z/uK1D5foMGYsScAFwE/8fLkUA1SLD42b9ytN/k6ou6Rk/MphSSDkpI38r
+dNAfGyxd1CtmpRBSpXpoIsUGDh32D7OS0QL5/XbsErwXKdXwNdPLgdo/Cgmu8M9B
+THxd6IQ4+2yR6/ymDw+hTT7FWrYzDNOW+4/TrjefjL0bei79GqbRUT8Va+9SkqvJ
+9pT9E4YZ5r70ZkeIYhFaRIHRzhaxOvxkeg1Db8YljgarC0T5g6dg25WDL7TUzIp8
+PrSconx8Ji2NUjqDLV8fIDQAO01g7TxEDgk1PFlE4jDnBB5QNPyanpljiXBpFrnP
+DsQYjTZXnus1rdKT/gtuiRW77TJj6FZwm6G1FQgcU2+1Wgij2OYpD5Pn6+2mCH3n
+oi4oK2IQq12+B5UCYtbV447lXjXRpK3K23RfiAWqPVbfJ5/lkj2RtkWLl/5NXl4W
+qQivLk0Y03CIQ4lzKSpIC0ao
+=EctY
+-----END PGP SIGNATURE-----
+
+--===============5155464603800751543==--
