@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 16 Sep 2025 21:41:31 -0000
-Message-Id: <175805889155.1303372.15926877356090218911@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 21:41:35 -0000
+Message-Id: <175805889593.1303485.13833557034751538510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v4_20250915_alexey_klimov_add_pm4125_audio_codec_driver
-    old: 88d0d17192c5a850dc07bb38035b69c4cefde270
+  - ref: refs/heads/v2_20250909_rf_asoc_cs35l56_handle_vendor_specific_uefi_variables
+    old: e5b4ad2183f7ab18aaf7c73a120d17241ee58e97
     new: 0000000000000000000000000000000000000000
