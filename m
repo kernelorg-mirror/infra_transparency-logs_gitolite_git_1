@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 16 Sep 2025 23:19:03 -0000
-Message-Id: <175806474348.1387166.17225970234327601519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 16 Sep 2025 23:31:03 -0000
+Message-Id: <175806546370.1398434.3352108671656136712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d3f7457da7b9527a06dbcbfaf666aa51ac2eeb53
-    new: 5ed994dd0b7ba1f98f234cd92d3a31b1a7696380
+    old: 93ab4881a4e2b9657bdce4b8940073bfb4ed5eab
+    new: 109f8b51543d106aee50dfe911f439e43fb30c7a
     log: |
-         5ed994dd0b7ba1f98f234cd92d3a31b1a7696380 libie: fix linking with libie_{adminq,fwlog} when CONFIG_LIBIE=n
+         109f8b51543d106aee50dfe911f439e43fb30c7a doc/netlink: Fix typos in operation attributes
          
