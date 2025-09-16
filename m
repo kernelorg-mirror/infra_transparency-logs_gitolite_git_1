@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1935271827579178859=="
+Content-Type: multipart/mixed; boundary="===============5715841344784222031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 16 Sep 2025 18:37:56 -0000
-Message-Id: <175804787617.1143947.12970217028320217425@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 18:37:58 -0000
+Message-Id: <175804787871.1144026.10647331943846652715@gitolite.kernel.org>
 
---===============1935271827579178859==
+--===============5715841344784222031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: c5e389cc6b36701098d31fa3438c553c7fe7c1bb
     new: 949ddfb774fe527cebfa3f769804344940f7ed2e
     log: revlist-c5e389cc6b36-949ddfb774fe.txt
 
---===============1935271827579178859==
+--===============5715841344784222031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -100,4 +100,4 @@ a44a93ea6f06da7bd15232805fd8f8b90fd59e37 tools: ynl-gen: rename TypeArrayNest to
 1b255e1beabf6826758d6018ddd2e1e3bba32f44 tools: ynl: add ipv4-or-v6 display hint
 949ddfb774fe527cebfa3f769804344940f7ed2e Merge branch 'tools-ynl-prepare-for-wireguard'
 
---===============1935271827579178859==--
+--===============5715841344784222031==--
