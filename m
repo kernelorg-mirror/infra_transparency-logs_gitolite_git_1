@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8329888733234144477=="
+Content-Type: multipart/mixed; boundary="===============0161712398138570988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 16 Sep 2025 06:24:25 -0000
-Message-Id: <175800386562.465287.5479231408556857632@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 06:24:55 -0000
+Message-Id: <175800389520.465776.15666138095646312326@gitolite.kernel.org>
 
---===============8329888733234144477==
+--===============0161712398138570988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/sev
-    old: 8d73829b78ca1a0e6eb93380f3bf5193d58c281c
-    new: f83ec76bf285bea5727f478a68b894f5543ca76e
-    log: revlist-8d73829b78ca-f83ec76bf285.txt
+  - ref: refs/heads/x86/apic
+    old: d4bc3b11c12b41fdb5650f5ad797de97f8dce869
+    new: 85df1cd15ff5d775e88e23b9fc2a9f429fa5b504
+    log: revlist-d4bc3b11c12b-85df1cd15ff5.txt
 
---===============8329888733234144477==
+--===============0161712398138570988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d73829b78ca-f83ec76bf285.txt
+Content-Disposition: attachment; filename=revlist-d4bc3b11c12b-85df1cd15ff5.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 79aef1a3705bbc95b36dad892af1f313490bd65c of: Clarify OF device context in of_match_device() comment
@@ -427,6 +427,7 @@ c5c5eb24ed6177fc0ef4bb75fc18d07a99c1d3f0 ublk: avoid ublk_io_release() called af
 9b2785ea8592f239836405de023c75c4f3f5ce00 ublk selftests: add --no_ublk_fixed_fd for not using registered ublk char device
 85941afd2c404247e583c827fae0a45da1c1d92c s390/pai: Deny all events not handled by this PMU
 ce971233242b5391d99442271f3ca096fb49818d s390/cpum_cf: Deny all sampling events by counter PMU
+e2e29752357f32feb69a68e9e6e7361405b3f289 x86/sev: Separate MSR and GHCB based snp_cpuid() via a callback
 3c75dc44ad11c347596aa81af3c8d4a7547dd517 platform/x86: asus-wmi: map more keys on ExpertBook B9
 c96f86217bb28e019403bb8f59eacd8ad5a7ad1a platform/x86/amd/pmc: Add TUXEDO IB Pro Gen10 AMD to spurious 8042 quirks list
 5549202b9c02c2ecbc8634768a3da8d9e82d548d platform/x86: asus-wmi: Fix racy registrations
@@ -508,6 +509,9 @@ c8bc81a52d5a2ac2e4b257ae123677cf94112755 Merge tag 'arm64-fixes' of git://git.ke
 9dba9a45c348e8460da97c450cddf70b2056deb3 scsi: lpfc: Fix buffer free/clear order in deferred receive path
 708e2371f77a9d3f2f1d54d1ec835d71b9d0dafe scsi: sr: Reinstate rotational media flag
 d9b05321e21e4b218de4ce8a590bf375f58b6346 futex: Move futex_hash_free() back to __mmput()
+c15a4705d59caeb44f4c373cf04e89041309e568 x86/sev: Use MSR protocol for remapping SVSM calling area
+7cb7b6de9cb90311a917d65c0228b6aa223dc456 x86/sev: Use MSR protocol only for early SVSM PVALIDATE call
+e349241b97a8b1169a4e90375159df4d22061f9a x86/sev: Run RMPADJUST on SVSM calling area page to test VMPL
 d77b6ff0ce35a6d0b0b7b9581bc3f76d041d4087 batman-adv: fix OOB read/write in network-coding decode
 1c99e3e9f33add5e193591e051735b1179a4382a Merge tag 'gpio-fixes-for-v6.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 9acd5b8bebea619d414cc6cccc7d13a4e6f02ec2 Merge tag 'hardening-v6.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -630,6 +634,24 @@ fe9e4d0c39311d0f97b024147a0d155333f388b5 wifi: wilc1000: avoid buffer overflow i
 1991a458528588ff34e98b6365362560d208710f spi: spi-qpic-snand: unregister ECC engine on probe error and device remove
 ba3319e5905710abe495b11a1aaf03ebb51d62e2 cpufreq/amd-pstate: Fix a regression leading to EPP 0 after resume
 f2e8f1f5f5c81037fc0b2d78eb75aeb80a0ee507 Merge tag 'v6.17-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+37dbd78f98a80e89b5413f4649d0fbd023d99b2f x86/sev: Move GHCB page based HV communication out of startup code
+a5f03880f06a6da6ea5f1d966fffffcb3fc65462 x86/sev: Avoid global variable to store virtual address of SVSM area
+d5949ea50c5642ab7e3c4dd6020e23725c079b25 x86/sev: Share implementation of MSR-based page state change
+00d25566761746ba53934ad3a89ea79923a38d01 x86/sev: Pass SVSM calling area down to early page state change API
+c54604fb7f2522fec5b97e86103ec49e539e80fe x86/sev: Use boot SVSM CA for all startup and init code
+68a501d7fd82454525797971c6a0005ceeb93153 x86/boot: Drop redundant RMPADJUST in SEV SVSM presence check
+f27906b287403af53be26341cf86d73798f15fe8 x86/boot: Provide PIC aliases for 5-level paging related constants
+9723dd0c705eb626bac2cd06b83a2c8514ed697a x86/sev: Provide PIC aliases for SEV related data objects
+d4077e6ad35121b97f3233da5d60763de3d23df9 x86/sev: Move __sev_[get|put]_ghcb() into separate noinstr object
+05ce314ba5155d57c86f8f276cb17f78ac5fb4f0 x86/sev: Export startup routines for later use
+0d6e4563fc03d83f948e6a6f7963cc31a4c81914 objtool: Add action to check for absence of absolute relocations
+296650c8ac4f18e886dd2a606152c00adf527219 x86/boot: Check startup code for absence of absolute relocations
+2578560d2259735d7d51364e7991ea92d85fd56c x86/boot: Revert "Reject absolute references in .head.text"
+749627c3980e4421b709857e979e8aa16a4c7147 x86/kbuild: Incorporate boot/startup/ via Kbuild makefile
+7b38dec3c5af54665a4b29483aa02bd1c1e71cf1 x86/boot: Create a confined code area for startup code
+e7b88bc0051c5062bdd73b58837cf277d0057358 efistub/x86: Remap inittext read-execute when needed
+c5c30a37369313d1f8b84e96e6a4397b4e2b4eb8 x86/boot: Move startup code out of __head section
+ce39a6aa8802e718f9b68bf6892612e4fd7f9d2d x86/boot: Get rid of the .head.text section
 5ebf512f335053a42482ebff91e46c6dc156bf8c sched: Fix sched_numa_find_nth_cpu() if mask offline
 d302effafae5a6a632bf581ced97ef91c95a2ac6 ARM: at91: select ARCH_MICROCHIP
 217efb440933bf97a78ef328b211d8a39f4ff171 ARM: dts: microchip: sama7d65: Force SDMMC Legacy mode
@@ -672,6 +694,7 @@ e67f0bd05519012eaabaae68618ffc4ed30ab680 s390: kexec: initialize kexec_buf struc
 4039ce7ef40474d5ba46f414c50cc7020b9cf8ae netfilter: nf_tables: Introduce NFTA_DEVICE_PREFIX
 0a228624bcc00af41f281a2a84c928595a74c17d net: atm: fix memory leak in atm_register_sysfs when device_register fail
 47ddf62b43eced739b56422cd55e86b9b4bb7dac Input: xpad - add support for Flydigi Apex 5
+9f8d92a1fbb5a08e17f9d405a1ab27be64096d8c x86/sev: Zap snp_abort()
 c9ddc41cdd522f2db5d492eda3df8994d928be34 Input: iqs7222 - avoid enabling unused interrupts
 d93b10e89471002d16556f14b804b5a7d9924142 Merge tag 'nf-25-09-04' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 8bbceba7dc5090c00105e006ce28d1292cfda8dd net: xilinx: axienet: Add error handling for RX metadata pointer retrieval
@@ -696,6 +719,7 @@ d69eb204c255c35abd9e8cb621484e8074c75eaa Merge tag 'net-6.17-rc5' of git://git.k
 1f6b281ac501ceaa121a9bece11260aecca70865 Merge tag 'nvme-6.17-2025-09-04' of git://git.infradead.org/nvme into block-6.17
 744175e972ac7c1f1be53556e186e5976e39f735 perf test: Checking BPF metadata collection fails on version string
 ca81e74dc34734078d34485d4aa123561ba75b15 perf symbol-elf: Add support for the block argument for libbfd
+0ca77f8d33e8136b8926775380506f78a8d04811 Merge branch 'x86/apic' into x86/sev, to resolve conflict
 349510052f765b6eb9c2a21d0ffe08ba61fa683c MAINTAINERS: Add drm-rust tree for Rust DRM drivers and infrastructure
 743bf030947169c413a711f60cebe73f837e649f Merge tag 'md-6.17-20250905' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.17
 e1bf212d0604d2cbb5514e47ccec252b656071fb fuse: virtio_fs: fix page fault for DAX page address
@@ -787,6 +811,7 @@ d613f53c83ec47089c4e25859d5e8e0359f6f8da mm/memory-failure: fix VM_BUG_ON_PAGE(P
 a68172d95c2845d2b5455b072b4ff51ba32650e9 MAINTAINERS: add tree entry to numa memblocks and emulation block
 cfa7b7659757f8d0fc4914429efa90d0d2577dd7 drm/i915/power: fix size for for_each_set_bit() in abox iteration
 bf59028ea8d42e8d10bb3d847c9982488ee9e3a0 selftests: net: add test for destination in broadcast packets
+26a9f90b6101ea2c9d6f02802cf6d85108104b90 objtool: Ignore __pi___cfi_ prefixed symbols
 d2e1b84c5141ff2ad465279acfc3cf943c960b78 fs/resctrl: Eliminate false positive lockdep warning when reading SNC counters
 2682e7a317504a9d81cbb397249d4299e84dfadd wifi: iwlwifi: fix 130/1030 configs
 15f519e9f883b316d86e2bb6b767a023aafd9d83 ceph: fix race condition validating r_parent before applying state
@@ -855,6 +880,7 @@ f214744c8a27c3c1da6b538c232da22cd027530e can: j1939: j1939_sk_bind(): call j1939
 06e02da29f6f1a45fc07bd60c7eaf172dc21e334 can: j1939: j1939_local_ecu_get(): undo increment when j1939_local_ecu_get() fails
 ef79f00be72bd81d2e1e6f060d83cf7e425deee4 can: xilinx_can: xcan_write_frame(): fix use-after-free of transmitted SKB
 5c793afa07da6d2d4595f6c73a2a543a471bb055 can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
+8d73829b78ca1a0e6eb93380f3bf5193d58c281c x86/startup/sev: Document the CPUID flow in the boot #VC handler
 5e13f2c491a4100d208e77e92fe577fe3dbad6c2 netfilter: nft_set_bitmap: fix lockdep splat due to missing annotation
 c4eaca2e1052adfd67bed0a36a9d4b8e515666e4 netfilter: nft_set_pipapo: don't check genbit from packetpath lookups
 a60f7bf4a1524d8896b76ba89623080aebf44272 netfilter: nft_set_rbtree: continue traversal if element is inactive
@@ -916,5 +942,7 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 0676181a87540fa2aabc8920dc30bca5071b8f1a Merge tag 'dmaengine-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
+7f830e126dc357fc086905ce9730140fd4528d66 x86/sev: Guard sev_evict_cache() with CONFIG_AMD_MEM_ENCRYPT
+85df1cd15ff5d775e88e23b9fc2a9f429fa5b504 Merge branch 'x86/urgent' into x86/apic, to resolve conflict
 
---===============8329888733234144477==--
+--===============0161712398138570988==--
