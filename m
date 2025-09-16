@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 16 Sep 2025 11:41:31 -0000
-Message-Id: <175802289185.742441.3192129905887110928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 16 Sep 2025 11:41:50 -0000
+Message-Id: <175802291093.742846.11722063139051105392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/sched/core
-    old: 5b726e9bf9544a349090879a513a5e00da486c14
-    new: 0d4eaf8caf8cd633b23e949e2996b420052c2d45
+  - ref: refs/heads/kho/vmalloc/v4
+    old: 4198c802be71f6b2ce7716a8f89fb779b09575a2
+    new: 30099ec14e8ce0b1af8e53de7c5146b21b8ff46d
     log: |
-         fe8d238e646e16cc431b7a5899f8dda690258ee9 sched/fair: Propagate load for throttled cfs_rq
-         fcd394866e3db344cbe0bb485d7e3f741ac07245 sched/fair: update_cfs_group() for throttled cfs_rqs
-         253b3f587241967a97a971e23b1e2a7d74244fad sched/fair: Do not special case tasks in throttled hierarchy
-         0d4eaf8caf8cd633b23e949e2996b420052c2d45 sched/fair: Do not balance task to a throttled cfs_rq
+         10656ff69d07a360deb3662ea555dae3d2fa2fef kho: replace kho_preserve_phys() with kho_preserve_pages()
+         bc2e400077ff9d99bb3b40e7aed6df7d974b4c0d kho: add support for preserving vmalloc allocations
+         30099ec14e8ce0b1af8e53de7c5146b21b8ff46d lib/test_kho: use kho_preserve_vmalloc instead of storing addresses in fdt
          
