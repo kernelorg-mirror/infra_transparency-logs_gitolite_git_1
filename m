@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2088928889676523126=="
+Content-Type: multipart/mixed; boundary="===============3178312951950966517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 16 Sep 2025 22:33:15 -0000
-Message-Id: <175806199550.1347564.9185031633110453649@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 22:33:17 -0000
+Message-Id: <175806199743.1347639.11291982491883102843@gitolite.kernel.org>
 
---===============2088928889676523126==
+--===============3178312951950966517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 8cbfa19726190ea426f3080b6326b381910bc7ef
-    new: 3921711f7241cf4a4c50380e4815d6c6c21f1a3b
-    log: revlist-8cbfa1972619-3921711f7241.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: ede965fd555ac2536cf651893a998dbfd8e57b86
+    new: f83ec76bf285bea5727f478a68b894f5543ca76e
+    log: revlist-ede965fd555a-f83ec76bf285.txt
 
---===============2088928889676523126==
+--===============3178312951950966517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cbfa1972619-3921711f7241.txt
+Content-Disposition: attachment; filename=revlist-ede965fd555a-f83ec76bf285.txt
 
 e4a718a3a47e89805c3be9d46a84de1949a98d5d tee: fix NULL pointer dereference in tee_shm_put
 50a74d0095cd23d2012133e208df45a298868870 tee: fix memory leak in tee_dyn_shm_alloc_helper
@@ -279,7 +279,6 @@ a6099f263e1f408bcc7913c9df24b0677164fc5d net: ethernet: ti: am65-cpsw-nuss: Fix 
 304f455b648d68ba47135583b644ee72ac48d544 MAINTAINERS: Update git entry for nouveau
 81ac63321eb936b1a1f7045b37674661f8ffb4a5 trace: Remove redundant __GFP_NOWARN
 3d62ab32df065e4a7797204a918f6489ddb8a237 tracing: Fix tracing_marker may trigger page fault during preempt_disable
-664596bd98bb251dd417dfd3f9b615b661e1e44a i2c: i801: Hide Intel Birch Stream SoC TCO WDT
 bdd5a14e660062114bdebaef9ad52adf04970a89 drm/bridge: ti-sn65dsi86: fix REFCLK setting
 403bf043d9340196e06769065169df7444b91f7a ice: fix NULL access of tx->in_use in ice_ptp_ts_irq
 f6486338fde3f04ed0ec59fe67a69a208c32734f ice: fix NULL access of tx->in_use in ice_ll_ts_intr
@@ -347,9 +346,6 @@ d5067034725b1a0b2c785cea9cfce68776a94042 Revert "drm/nouveau: Remove waitque for
 b9a10f876409bf3768178f4aded199e193ddbe33 Merge tag 'soc-fixes-6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 c5142df58d5a19a0615414037f256cd5ca39f7c5 Merge tag 'wireless-2025-09-03' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 b4ada0618eed0fbd1b1630f73deb048c592b06a1 tools: ynl-gen: fix nested array counting
-cd6c956fbc13156bcbcca084b46a8380caebc2a8 i2c: rtl9300: fix channel number bound check
-06418cb5a1a542a003fdb4ad8e76ea542d57cfba i2c: rtl9300: ensure data length is within supported range
-ede965fd555ac2536cf651893a998dbfd8e57b86 i2c: rtl9300: remove broken SMBus Quick operation support
 5d6b58c932ec451a5c41482790eb5b1ecf165a94 net: lockless sock_i_ino()
 1de95db1242632e121a07f8034273782a5a39656 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 3bc32fd9db47a20f38b0783364fdb2f2f1c97220 net: phylink: move PHY interrupt request to non-fail path
@@ -621,7 +617,5 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 0676181a87540fa2aabc8920dc30bca5071b8f1a Merge tag 'dmaengine-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
-fa023f8ef6cbc8118661cc3e368a9ff5379c5595 i2c: s3c2410: Drop S3C2410 OF support
-3921711f7241cf4a4c50380e4815d6c6c21f1a3b dt-bindings: i2c: samsung,s3c2410-i2c: Drop S3C2410
 
---===============2088928889676523126==--
+--===============3178312951950966517==--
