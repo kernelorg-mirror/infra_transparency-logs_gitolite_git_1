@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0350717587087175502=="
+Content-Type: multipart/mixed; boundary="===============3005866661138753448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 16 Sep 2025 11:28:55 -0000
-Message-Id: <175802213574.729322.9826015795128696880@gitolite.kernel.org>
+Date: Tue, 16 Sep 2025 11:29:39 -0000
+Message-Id: <175802217972.730636.12901832629787220005@gitolite.kernel.org>
 
---===============0350717587087175502==
+--===============3005866661138753448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-6.18-merge
+  - ref: refs/heads/for-next
     old: e90dcba0a350836a5e1a1ac0f65f9e74644d7d3b
     new: 8e2cdd8e18ff5073ad76ab2220910001eae39398
     log: revlist-e90dcba0a350-8e2cdd8e18ff.txt
 
---===============0350717587087175502==
+--===============3005866661138753448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ e747883c7d7306acb4d683038d881528fbfbe749 xfs: fix log CRC mismatches between i38
 0301dae732a5402a68fdb8d8461b97da6b9bccc6 xfs: refactor hint based zone allocation
 8e2cdd8e18ff5073ad76ab2220910001eae39398 xfs: adjust the hint based zone allocation policy
 
---===============0350717587087175502==--
+--===============3005866661138753448==--
