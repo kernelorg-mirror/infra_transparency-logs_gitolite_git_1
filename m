@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 16 Sep 2025 14:51:30 -0000
-Message-Id: <175803429087.939503.9091046342426010317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 16 Sep 2025 14:56:29 -0000
+Message-Id: <175803458967.944142.12686960752803267735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 96e048fa11d6aedf4add4c2f93a8d06445948056
-    new: 7010cc08a6fd4ae4e68b05ec4f52c36cc0122f4c
+  - ref: refs/heads/rtc-next
+    old: 96e8fe5b8a8852c4cd9b0430f4184e856550015f
+    new: c96433f4806fa5aa5b6504b3b8230fe353c0bfbe
     log: |
-         3f5df63955756fbe253a2a26043accf7318fa53a dt-bindings: leds: Add generic LED consumer documentation
-         22420da3662a69d8894ee624494213a5888a1e87 dt-bindings: leds: Unify 'leds' property
-         7010cc08a6fd4ae4e68b05ec4f52c36cc0122f4c leds: led-class: Add Device Tree support to led_get()
+         c96433f4806fa5aa5b6504b3b8230fe353c0bfbe rtc: spacemit: support the SpacemiT P1 RTC
          
