@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============4942021187876580312=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 16 Sep 2025 09:46:56 -0000
-Message-Id: <175801601612.644335.3932394378159728569@gitolite.kernel.org>
-
---===============4942021187876580312==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 16 Sep 2025 09:47:22 -0000
+Message-Id: <175801604202.644709.14843043229409631123@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 8e54e493c9926105e771873b151d5eba80fbb856
-    new: 8236b4667aca63afcd29620a48a084f6a0eed162
+  - ref: refs/heads/gpio/for-next
+    old: 9b90afa6d613b66ec4e74ae75f9bfa5baf386ecd
+    new: 17628f1abbf4bd4162c655f3260d68bc1934ec73
     log: |
-         8236b4667aca63afcd29620a48a084f6a0eed162 platform/x86: portwell-ec: Add hwmon support for voltage and temperature
+         17628f1abbf4bd4162c655f3260d68bc1934ec73 dt-bindings: gpio: fix trivial-gpio's schema id
          
-
---===============4942021187876580312==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1758016064 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1758016010-59cff892e7db43fefbf64f29f27ee1c002041722
-
-8e54e493c9926105e771873b151d5eba80fbb856 8236b4667aca63afcd29620a48a084f6a0eed162 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaMkyRAAKCRBZrE9hU+XO
-MciVAP997AbKzZbkWllPkCMQbV7x1r5FqgbKR5+6tL0llxODrwD7BLlPrpGgfLKg
-R0lFxrJNwLKVso5TmbJQ9ToNdLoeIQc=
-=NZjJ
------END PGP SIGNATURE-----
-
---===============4942021187876580312==--
