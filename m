@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7058183210301351421=="
+Content-Type: multipart/mixed; boundary="===============4225326380931101076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 16 Sep 2025 14:02:03 -0000
-Message-Id: <175803132396.892343.6174684773635000375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Sep 2025 14:02:07 -0000
+Message-Id: <175803132756.892482.10237639427595972348@gitolite.kernel.org>
 
---===============7058183210301351421==
+--===============4225326380931101076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/regulator-6.17
     old: c05d0b32eebadc8be6e53196e99c64cf2bed1d99
     new: f83ec76bf285bea5727f478a68b894f5543ca76e
     log: revlist-c05d0b32eeba-f83ec76bf285.txt
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regulator-6.18
     old: 2e0fd4583d0efcdc260e61a22666c8368f505353
     new: 41b5c85ba94057c955f0f6348c551093917da06d
     log: revlist-2e0fd4583d0e-41b5c85ba940.txt
 
---===============7058183210301351421==
+--===============4225326380931101076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1758031375 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1758031321-89fa0f8ef2bd897fd7d48e1b44d218067c1939a0
+pusher C3F436CA30F5D8EB 1758031378 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1758031325-08460b982bcf726df66ca49341833971dcaab0bc
 
-c05d0b32eebadc8be6e53196e99c64cf2bed1d99 f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/for-6.17
-2e0fd4583d0efcdc260e61a22666c8368f505353 41b5c85ba94057c955f0f6348c551093917da06d refs/heads/for-6.18
+c05d0b32eebadc8be6e53196e99c64cf2bed1d99 f83ec76bf285bea5727f478a68b894f5543ca76e refs/heads/regulator-6.17
+2e0fd4583d0efcdc260e61a22666c8368f505353 41b5c85ba94057c955f0f6348c551093917da06d refs/heads/regulator-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjJbg8ACgkQJNaLcl1U
-h9D0ygf+PoAg+cFTRMZ44PTwmV5WOgG6PeBdQusQUXEgPzAZcEyvUffL4Yeokq64
-p5c8wFoCMOVTKrS+lJnpaqevkGeUDSSY6GvZxpflPgbOdFsZ+vpjV9kmLsnMmqgo
-zLf5vorYXpmtwUr0w1dO7cr88bYS1MPphE8juOaa8xNXwi/6gB5MYT/jifrIMApD
-CBQZODgWuNzfuymG5sMu95GcBqCgvR7S0f2vnap/2JjzilrsOZmWGH2GQ2tTIPbw
-7U82PIYDOKHTaT7xZ/CiwONs7+zh3TjqLQC5ci5T32OrQNk3HxbrmocPI/9quhKT
-102bmwtmJoKweoX25n+a+HtwmaFEsw==
-=XA1Z
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjJbhIACgkQJNaLcl1U
+h9CPpAf9Gvzla4P93slWJ1/JguK6+/AwZqAvssDDuzU/zsvtGwomanVFUw4HAKg+
++cHS1eDUxK4xkiY6y+QmbBOQ31ZtCBGx3XwpDgTxV+lAiYgLnvpwTPPnkdm6kD8C
+NTb5b2+fFi9eFb5NbEN4qO6XYgO0987+smzrHbdDH/BlMDAEDWrBr8u+7jt8eeT4
+BY5SYwHVrlWrYq385EL7vlYgDRcXN01lDve1YNvpCZ0k2M7S/W6IKo4j2SU2JwG/
+VQim6f2MTPBuofQmm93NV3u+s5BPR5Umwc/gvAPOc7z10/Pl3Po75MUTYeGuL975
+GyXhi1n8WIrGAeaPVJB5XoFHSncpLw==
+=IliK
 -----END PGP SIGNATURE-----
 
---===============7058183210301351421==
+--===============4225326380931101076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -651,7 +651,7 @@ d6b42787f30d86ef3aa5313c8a43c0b228d1f11b Merge tag 'usb-6.17-rc6' of git://git.k
 79e8447ec66289745d1b38679b16dd6c654ff578 Merge tag 'phy-fix-6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
 
---===============7058183210301351421==
+--===============4225326380931101076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1551,4 +1551,4 @@ f83ec76bf285bea5727f478a68b894f5543ca76e Linux 6.17-rc6
 6a1f303cba45fa3b612d5a2898b1b1b045eb74e3 regulator: max77838: add max77838 regulator driver
 41b5c85ba94057c955f0f6348c551093917da06d regulator: max77838: add max77838 regulator driver
 
---===============7058183210301351421==--
+--===============4225326380931101076==--
