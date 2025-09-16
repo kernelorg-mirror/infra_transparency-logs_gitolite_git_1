@@ -1,37 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2645797940370584738=="
+Content-Type: multipart/mixed; boundary="===============1829796053582498012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 16 Sep 2025 13:48:09 -0000
-Message-Id: <175803048988.878614.16397773197991307355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 16 Sep 2025 13:48:23 -0000
+Message-Id: <175803050339.878913.2274206669097053029@gitolite.kernel.org>
 
---===============2645797940370584738==
+--===============1829796053582498012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: c3067c2c38316c3ef013636c93daa285ee6aaa2e
     new: 05af764719214d6568adb55c8749dec295228da8
     log: revlist-c3067c2c3831-05af76471921.txt
-  - ref: refs/heads/stable
-    old: f83ec76bf285bea5727f478a68b894f5543ca76e
-    new: 46a51f4f5edade43ba66b3c151f0e25ec8b69cb6
-    log: |
-         2c334d038466ac509468fbe06905a32d202117db power: supply: bq27xxx: fix error return in case of no bq27000 hdq battery
-         1e451977e1703b6db072719b37cd1b8e250b9cc9 power: supply: bq27xxx: restrict no-battery detection to bq27000
-         46a51f4f5edade43ba66b3c151f0e25ec8b69cb6 Merge tag 'for-v6.17-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-         
   - ref: refs/tags/next-20250916
     old: 0000000000000000000000000000000000000000
     new: 65ca971b838b0fbb45efc48751644105e9d91aa7
 
---===============2645797940370584738==
+--===============1829796053582498012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -825,4 +817,4 @@ cd482470d53b075bb7bfe137d2115b25928cb25b Merge branch 'crc-next' of https://git.
 cfaca5c67b20c3a78bec7db38b661c8405c04a68 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 05af764719214d6568adb55c8749dec295228da8 Add linux-next specific files for 20250916
 
---===============2645797940370584738==--
+--===============1829796053582498012==--
