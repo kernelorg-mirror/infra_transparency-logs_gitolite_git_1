@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3384391532688135659=="
+Content-Type: multipart/mixed; boundary="===============3021235906175990708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 16 Sep 2025 15:54:09 -0000
-Message-Id: <175803804905.999772.7152182560122372900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Sep 2025 15:54:13 -0000
+Message-Id: <175803805361.1000271.15088181652715499928@gitolite.kernel.org>
 
---===============3384391532688135659==
+--===============3021235906175990708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: cc648f4dde2ffbb74b9c1626e3eaaac89c6fbe16
     new: f7a5195c2d28925f09dc8f01addfdab44c0e3997
     log: revlist-cc648f4dde2f-f7a5195c2d28.txt
 
---===============3384391532688135659==
+--===============3021235906175990708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1758038100 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1758038046-8f256545fc77ed000e23bff74ad3d06cda91e062
+pusher C3F436CA30F5D8EB 1758038105 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1758038050-0753ca88b896b432f4f24a5a5a565b8c69eb8918
 
-cc648f4dde2ffbb74b9c1626e3eaaac89c6fbe16 f7a5195c2d28925f09dc8f01addfdab44c0e3997 refs/heads/for-6.17
+cc648f4dde2ffbb74b9c1626e3eaaac89c6fbe16 f7a5195c2d28925f09dc8f01addfdab44c0e3997 refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjJiFQACgkQJNaLcl1U
-h9A4pwf+NB2kvgY1z6F+NAR4hvHqnmGk7l9E2iWvDMCG1tdDW3Uri1YHIVUoKbBU
-McCLgnBiVnG+cA9TXl8r9SuwIC5stOdTaTiqd9sOwVHyiGeHN16at+xWwb4QtHi2
-mFVBqkT587YOO2lgy1eIvoZUgqfwwaqtbfTHMCjwhAu1WVg1u7UdIVZCtvuVLUHu
-DOr733sYv1eiJU6O5K/2qTzlZGyediEiS9op94nSZeQfCIfhy7l0BodLrVHT+QVT
-rDv2l5cBOWmgj0b+H/gzhNyZ9avtZFAwfFR5i1esCz0mbF+SuI0nPb5cXtIBKhUB
-Dx9giAE2AEuE0rzt72JMyuzggJpf7Q==
-=81Hn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjJiFkACgkQJNaLcl1U
+h9BxTwf/ZjKmTpXpqWLOm1G/9PbqkA1j8Qzdr06Ta0msCshPrUpJlZ5qMJ83fZDv
+SKqk/L+KPJqSjIMimuIsUAhItXLC2j+BFOm1buLLpBeo8VkOERX20eV2cCnpdxuW
+v/KWbdm0OVyqbNHVSYimBQlMXBl+2VBJeI0T6BWGCnVCEnFmyxSmqXXHbimT28xV
+aDCD11SObKs/NhMyc/zK1UKrjiqtEgOjRMrH8ZAuntqKZ1w+0gC9/shhQ3qdxXR6
+7ekVY36yFcq3zhhHCTFUToZ1+99bdTKTUSvxo81wQOEBYOxBza6+35ECstXJZ/Uu
+7PChyqbaa3Otq5LYribj9fCuDxoyXw==
+=CPzw
 -----END PGP SIGNATURE-----
 
---===============3384391532688135659==
+--===============3021235906175990708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -371,4 +371,4 @@ bd8f3bff4a5d4a2e7a414b033e5abb3c643c59db Merge tag 'i2c-for-6.17-rc5' of git://g
 596e8ba2faf0d2beb9bb68801622fa6461918c1d ASoC: qcom: sc8280xp: Enable DAI format configuration for MI2S interfaces
 f7a5195c2d28925f09dc8f01addfdab44c0e3997 Fix lpaif_type and DAI configuration for I2S
 
---===============3384391532688135659==--
+--===============3021235906175990708==--
