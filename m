@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 16 Sep 2025 13:57:45 -0000
-Message-Id: <175803106502.888033.15964073965173783040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Tue, 16 Sep 2025 14:01:51 -0000
+Message-Id: <175803131140.892098.10579560124401322286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/master
-    old: 22f20375f5b71f30c0d6896583b93b6e4bba7279
-    new: f36caa7c14f44ca1ad321128b47a2fe373585d0f
-    log: |
-         f36caa7c14f44ca1ad321128b47a2fe373585d0f MAINTAINERS: Delete inactive maintainers from AF_XDP
-         
+  - ref: refs/heads/docs-next
+    old: 1b0e2133293bbf69c78f915f08a47e145b572d32
+    new: ab530c5fca9b0357b4958b19a1bc23fae7168c9e
