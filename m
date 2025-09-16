@@ -1,67 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6701981417656068842=="
+Content-Type: multipart/mixed; boundary="===============3194448149002477432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 16 Sep 2025 12:34:14 -0000
-Message-Id: <175802605435.809373.1764147585107201470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 16 Sep 2025 12:34:49 -0000
+Message-Id: <175802608937.809915.13642777559205986805@gitolite.kernel.org>
 
---===============6701981417656068842==
+--===============3194448149002477432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: c6ac987e064311233f51a385bad47b894790744c
-    new: 55243c759c41162c2ee1a1764d7ef7c99e27611f
-    log: revlist-c6ac987e0643-55243c759c41.txt
+  - ref: refs/heads/master
+    old: e231c3b335df49bc8358f7c04128a0f3aa02db58
+    new: 48ac76d2601e8614bb0591d7931d56dfce7992a3
+    log: |
+         48ac76d2601e8614bb0591d7931d56dfce7992a3 gsd: clean up gsd/gsd-review.04 of ids that are already assigned to CVEs
+         
 
---===============6701981417656068842==
+--===============3194448149002477432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1758026103 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1758026049-afe36522c9286f31216a5003227ad9fbffbf66f6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758026139 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1758026085-77cf1df4711719b23d9c5b24d491914e76c8394b
 
-c6ac987e064311233f51a385bad47b894790744c 55243c759c41162c2ee1a1764d7ef7c99e27611f refs/heads/slab/for-next
+e231c3b335df49bc8358f7c04128a0f3aa02db58 48ac76d2601e8614bb0591d7931d56dfce7992a3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjJWXcbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaeUQH/36IKPgkRMXh+insEdxl
-iCoRx0bYAzsp/64uJF2hdufSSQZDHI7xVQAdBkuykufS1ayqX8fxppWkjOIF2gaF
-WO5PK4IJwDCHC/tHXFKTt2llla3xlPxrgVnhngqDjqkPi3bkBCk5ftHB1idtX35X
-P5TrjaeC/ioH7lA8BZp6Epu6ZTzMOAZre3GGPb7uSFw5DPA3LSCB6gOvBfCdS/qO
-o4Pah7Z4LT/EQZkzCn5IMygz7sqC9ug/KboW9LBm8CJJWlXSwUGBrb0IHHalxujC
-ddTznBNA/AaLqrmroVn/paG5unK8uYJcIwFiU++PZvUvX7CmKk4U+QW/7/Qpb/m5
-V30=
-=WSa1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjJWZsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PvEQANSahkl6CLaKd4tis+or
+H0dGElz7EwgO5h8fsnOuFdAOHlVkXnAVJcsV5KSYPivbxRcKEOAQf3QnIrUnt4U2
+AFvKG4oAf5uzWZTFcpQMW6NYxArUHBMr+2crgKxSh65Qe/sjanFK+cnbOBWGxtmx
+iIXB1exSjH+cA3MN0FuqfTeOTvUHfGvgBfA1jArQTKeVMWcHS3YqXKZLf7A/SSqM
+AUKK57g6TR+dXdJ4PMU8r5T2njgg7iFiqkdi5gUSX/iZ1hfkjEteKPksEhyW2HAu
+tDz3IXH9l9Vpi8XSOxyf9iGEZWMI3HGUAr+8dLaXwbiCS90/JoH5mVHqkTVuHoJj
+7xk6ZxSYSJSJwrS03etd6G6Udj4J5z80Def9nqh+x8LJHO0EGJiWM+eEUA5iW4y8
+XNt70e8BLqr8IiaYNKAK2nNDzIJ1ohTQlYeonERpj4FpWyExav9ozIk0UW5Jo72A
+ojPyklq+pxUwz+rqCiKYMGdqfcxHuXMJYXccbn4/O/GGgKjAo/RH+rqstF4MHFZB
+rCLiQ8BILKweTv7AGAayna1pjiu2Jf7kZ1+br236hZ2MktvEiKdkiSxFnuMA/s/r
+DfO5sEv9c07APjM8e6BAoBPRKSbc99y+tKsbkiLtfq/Lzf6YToIxhWqB/zvyO/5W
+J3Hq+zuRRInqrwDoAgqGv7WD
+=HRdM
 -----END PGP SIGNATURE-----
 
---===============6701981417656068842==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6ac987e0643-55243c759c41.txt
-
-4db39c39165583bae01e6624803363090054c792 mm: Allow GFP_ACCOUNT to be used in alloc_pages_nolock().
-5d98176f4d7a8c068d6b239a1f8a720448045fdc mm: Introduce alloc_frozen_pages_nolock()
-476607eb4a07d8382a5a4b15f34e40f917d087b7 slab: Make slub local_(try)lock more precise for LOCKDEP
-66cfb5033ea8d8fbdc07d1ff076d4da7987914a3 slab: Reuse first bit for OBJEXTS_ALLOC_FAIL
-fe21477d89f754fbd230bc5816e50f62e4ef1809 slab: Introduce kmalloc_nolock() and kfree_nolock().
-dfc415682b11d7e5be3d9625a73a22478be3d6f4 slab: Clarify comments regarding pfmemalloc and NUMA preferences
-cbcc3da4e7bfcdf08630243e9b66bb207d9cb019 slab: Disallow kprobes in ___slab_alloc()
-4038016397da5c1cebb10e7c85a36d06123724a8 slab: prevent warnings when slab obj_exts vector allocation fails
-f7381b9116407ba2a429977c80ff8df953ea9354 slab: mark slab->obj_exts allocation failures unconditionally
-08e255b9679a936b979b61cb8ddd0e481291e336 Merge branch 'slab/for-6.18/sheaves' into slab/for-next
-55243c759c41162c2ee1a1764d7ef7c99e27611f Merge branch 'slab/for-6.18/kmalloc_nolock' into slab/for-next
-
---===============6701981417656068842==--
+--===============3194448149002477432==--
