@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 17 Sep 2025 00:36:23 -0000
-Message-Id: <175806938302.1456719.14391155634162017389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 17 Sep 2025 00:44:03 -0000
+Message-Id: <175806984329.1461986.10545958136467099600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 739d911ce58a7827aefdcf0d0dc7397263c6f6ed
-    new: 5e87fdc37f8dc619549d49ba5c951b369ce7c136
+  - ref: refs/heads/arm64-for-6.18
+    old: 520f9fec5d6f5a23e7985140dc4dd9986f0ed140
+    new: 4e26b0f4f1a965e366795c100bd7a8ee1635ed14
     log: |
-         e89888a1e778db5954e702defc44cfbc4ebe92c2 batman-adv: Start new development cycle
-         87b95082db32ae1cfe66d04052da8c6b21531110 batman-adv: remove network coding support
-         d5d80ac74f80fab4e2647c1030053d71d8c81bc9 batman-adv: keep skb crc32 helper local in BLA
-         629a2b18e8729497eeac5b63e575e0961ca3a4ab batman-adv: remove includes for extern declarations
-         5e87fdc37f8dc619549d49ba5c951b369ce7c136 Merge tag 'batadv-next-pullrequest-20250916' of https://git.open-mesh.org/linux-merge
+         b4f745f1d8adad62ba8c2065873c8a857ed4c3da arm64: dts: qcom: lemans: Add PCIe lane equalization preset properties
+         e36b9782fafa4502bd2d3e2aaf4fbf425e9ca908 arm64: dts: qcom: apq8016-sbc: Correct HDMI bridge #sound-dai-cells
+         24f8b8ef130b7249684948a2a82318476f7ab11c arm64: dts: qcom: apq8016-sbc: Drop redundant HDMI bridge status
+         8b9b2af6de97e2d2cfcfb5d92178c198f01e1559 arm64: dts: qcom: sdm845-enchilada: Add notification LED
+         4e26b0f4f1a965e366795c100bd7a8ee1635ed14 arm64: dts: qcom: qcs615: Enable TSENS support for QCS615 SoC
          
