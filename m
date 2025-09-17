@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6778127164651355701=="
+Content-Type: multipart/mixed; boundary="===============3218958971645929668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Sep 2025 10:39:30 -0000
-Message-Id: <175810557028.1976291.17995747180073875541@gitolite.kernel.org>
+Date: Wed, 17 Sep 2025 10:42:12 -0000
+Message-Id: <175810573203.1979262.10470026972280113945@gitolite.kernel.org>
 
---===============6778127164651355701==
+--===============3218958971645929668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a4d43c1f17b9f143af5868285c513c866e9cf67b
-    new: 368ed48a5ef52e384f54d5809f0a0b79ac567479
+    old: 368ed48a5ef52e384f54d5809f0a0b79ac567479
+    new: cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4
     log: |
-         7d547c1c249872b7732767e483758cb4fcb2d99b dt-bindings: usb: dwc3: add support for SpacemiT K1
-         e0b6dc00c701e600e655417aab1e100b73de821a usb: dwc3: add generic driver to support flattened
-         90422219191973d9f534338e6f694bd2f18257d0 Merge patch series "Add SpacemiT K1 USB3.0 host controller support"
-         41cf11946b9076383a2222bbf1ef57d64d033f66 usb: xhci: plat: Facilitate using autosuspend for xhci plat devices
-         368ed48a5ef52e384f54d5809f0a0b79ac567479 usb: mon: Increase BUFF_MAX to 64 MiB to support multi-MB URBs
+         45fe729be9a6be326a1ca25af82d34de32ba2ce8 usb: typec: Stub out typec_switch APIs when CONFIG_TYPEC=n
+         cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4 usb: gadget: f_fs: Fix epfile null pointer access after ep enable.
          
 
---===============6778127164651355701==
+--===============3218958971645929668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758105621 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758105783 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1758105567-3e9809f8f5ceb8ebcb2ea8c5a70aab2087c02e3b
+nonce 1758105729-b7a9ad035e814ffe1c495def97192924e7353377
 
-a4d43c1f17b9f143af5868285c513c866e9cf67b 368ed48a5ef52e384f54d5809f0a0b79ac567479 refs/heads/usb-testing
+368ed48a5ef52e384f54d5809f0a0b79ac567479 cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKkBUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7GIP/RXrVQAgZWzLfc/GLAgY
-mmhA2cMLJkQRwHnVSOmTH7A54lYNf5jfYnelD+WsayHseqkbumAte/Iwk/BHCNzw
-BIly9AJNW3edgH2RiOln/xkaumrm7zdGWmVMjwfkznAYe1pQ6sBoP0d/dMnt9Q9z
-hjRHtDDtIWASKNJ1NBfSk1xL3vBsf7npJq2KP95kABHtlu8KqHOKtpZWNs/86nuQ
-U6RAKOA24tYsOzANBGApDG6tOWBcpbgm8yBggyxtZjJJHSpKfodg95uLJrBGLVxr
-k2CFGnhuA8FaP8CnyU+d/DrVh6hxdflOiGCVRW2L8XRmRMs+W2SPC/wjAlMIGpF4
-71sNCWb1ms3A26fHx5c49csZtgluhCbtDJvjbgK1bphU2/X5RTaG1Lgyr71IFO2a
-DxaJ2NXbV1rrRS4SuVCumELzwF2cBRSYmRIWgh+riJ4KJVi4CbKr5rCh+4XWm2TA
-PzAzqnApUP0WMTfgtmAud2ZMnuU6qClllY/iHvivkwNM+EYEdzLoUFEeZ9Ghs4sR
-zRuWmYl6Gi9FklqfRbiSqn/oEUSEX+miyMXoldf7pb+DDuxvrpiHMIkECHA6a2Z4
-rDUscmeHUuupBDVi7mrGXcSSrj+bQuOGDSqTMBW9tQ8LaHY9G63d3P1w+sqbUd7t
-Vt9l3Cch5ENTCFKmPG1VUQ6P
-=6PSh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKkLcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sKMP/RodR+KqUM/cCaBimLaJ
+DZHwlQM+qSuVJObaZ2bx067MWPdfe0AoKHhtaMGFirAgkirrcSvhp5cDOV0rNjiD
+n9m2ADNxYh1pDP4g/Am/Xw4HXcYiQozShPHf+RYNEjI1cmRoWu+vndW5xxsMV8Et
+umMeQQCBo+9V6EI3BWOXKKSeDVoVqFVJItXXqCcUb71PCPx+Jf7UeeFoBbvRI7XF
+knc0MWOXjFEp3M3tn0+NOA25cI1jXtP46DMpj2dt2ehggB4g9d88D6uOTve/oeD5
+hTMmFTj0rwvR0RtcQAwmA5krYJHVfXuVGHbvUx2pkzSpdnbhkEdLRMEeE1PhVT+7
+kpoBNGMyg91pIP7D28u4UK1QLsWWZ0jBEed68y4MV5v0RuJ8GvcdAxH4xVJpGSVL
+wOQvl9bpoSqH9O8JrhqoyaJmVb2UzdUbmMyGJeKClQheCwcTtJ+bCqoTzIrldbk2
+yd/BIZ9hkZY30wFFM/2K/B8CwQ+wrbC0TLWyKLB4mTutmZpSzIHhx00KvyKw8yKf
+dTg/Pex6rfYBRMkfQt0pnVYLYKokUlIasF/VGUuOQ56lhahhU8gLF6ITw3PMAapf
+hAvm7asGEwRz/ezNqMK80Bg66UzK4oev6z4EG4T8kuFr+N8erSS/V5/bhqbAKQDz
+Rh70OvPn3yu12VlLBlc6srh5
+=VPVX
 -----END PGP SIGNATURE-----
 
---===============6778127164651355701==--
+--===============3218958971645929668==--
