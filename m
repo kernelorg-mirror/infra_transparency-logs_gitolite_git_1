@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5814059477786509617=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 17 Sep 2025 12:05:21 -0000
-Message-Id: <175811072131.2053666.7083555481932174134@gitolite.kernel.org>
-
---===============5814059477786509617==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 17 Sep 2025 12:06:31 -0000
+Message-Id: <175811079190.2054352.7963796693834462881@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: 8e54e493c9926105e771873b151d5eba80fbb856
-    new: 8236b4667aca63afcd29620a48a084f6a0eed162
+    old: 9fc4a3da9a0259a0500848b5d8657918efde176b
+    new: 7e18682bdbda4df24837dae4cf103b2a6de3d699
     log: |
-         8236b4667aca63afcd29620a48a084f6a0eed162 platform/x86: portwell-ec: Add hwmon support for voltage and temperature
+         7e18682bdbda4df24837dae4cf103b2a6de3d699 ALSA: spi/at73c213: Use guard() for spin locks
          
-
---===============5814059477786509617==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1758110772 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1758110718-96d211a5c14f5f3876dcfd09070c5232ae3cb806
-
-8e54e493c9926105e771873b151d5eba80fbb856 8236b4667aca63afcd29620a48a084f6a0eed162 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaMqkNgAKCRBZrE9hU+XO
-MUBEAQDxGkPmGfQTp2hu7rMaNdZMlip6RGVakoyYCpQGahydrAD/Tv4MuqmYAK4t
-Z68nuGzxzShTxRwf/WT1wVNqxIjIcgY=
-=tofU
------END PGP SIGNATURE-----
-
---===============5814059477786509617==--
+  - ref: refs/heads/master
+    old: 4c421c40c8b30ab7aae1edc7f7e294fcd33fc186
+    new: 8c68e73066eda603268ed518cdf8b04025e17194
+    log: |
+         7e18682bdbda4df24837dae4cf103b2a6de3d699 ALSA: spi/at73c213: Use guard() for spin locks
+         8c68e73066eda603268ed518cdf8b04025e17194 Merge branch 'for-next'
+         
