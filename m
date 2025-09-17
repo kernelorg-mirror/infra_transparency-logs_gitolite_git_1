@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2973202177957110927=="
+Content-Type: multipart/mixed; boundary="===============8095304134440789309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 17 Sep 2025 15:13:19 -0000
-Message-Id: <175812199964.2256673.4603670069321172285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Wed, 17 Sep 2025 15:27:09 -0000
+Message-Id: <175812282962.2269307.4657900053444534465@gitolite.kernel.org>
 
---===============2973202177957110927==
+--===============8095304134440789309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/fsverity/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: fa66267620c22533688ee30da85236373e647dc1
-    new: d5842c4a2d4943a9ea3b9340094c20b641b981f1
-    log: |
-         d5842c4a2d4943a9ea3b9340094c20b641b981f1 6.1-stable patches
-         
+  - ref: refs/heads/for-next
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: 681a202ab7d80e7967289f2c4b7ca4ce9531f52c
+    log: revlist-8f5ae30d69d7-681a202ab7d8.txt
 
---===============2973202177957110927==
+--===============8095304134440789309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-681a202ab7d8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758122051 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1758121997-c5c3b9c2160519b86dfe5d16af42e25e384b15e2
+6c9468aad215a198742c8375b0415e42521c905c fscrypt: replace raw loads of info pointer with helper function
+93221de31a8df6710e02328f82dc68d7ab4ad9e6 fscrypt: add support for info in fs-specific part of inode
+80e07df424e583d4124be6059be54080e4c4cb64 ext4: move crypt info pointer to fs-specific part of inode
+7afb71ee92de72f54877b06a31d46614edcaad24 f2fs: move crypt info pointer to fs-specific part of inode
+e1add70aaa5ea469980a60a1747ab9863fec2124 ubifs: move crypt info pointer to fs-specific part of inode
+bbe395ded3ef2a2aecfc90372bda2b3e3ed8f2ee ceph: move crypt info pointer to fs-specific part of inode
+ab90c2d2476c4dd6deddd089c7e83b858d135783 fs: remove inode::i_crypt_info
+2a7349add18e5915cd87251af5f98db1772b6131 fsverity: add support for info in fs-specific part of inode
+c9fff804b59c5495db944ddf84e1f963967cc361 ext4: move verity info pointer to fs-specific part of inode
+1f66cef4a9a3033b76db08de25eb017ddc6967e6 f2fs: move verity info pointer to fs-specific part of inode
+fcafdd4210658986470208230253ba5cdc6107a0 btrfs: move verity info pointer to fs-specific part of inode
+818c659ac164e4e4639ceaedaccbdfebb1ef63b5 fs: remove inode::i_verity_info
+8a3d00dde63a339d31d1fdeead24ddfd4d459c70 fsverity: check IS_VERITY() in fsverity_cleanup_inode()
+f0883b9c395ecdf7e66a58b6027fd35056cf152c Merge patch series "Move fscrypt and fsverity info out of struct inode"
+a342da2dd276e4ac55a98841aa68132fcfd48ecb lib/crypto: sha256: Add support for 2-way interleaved hashing
+ba29bedc1fc0fdc06203a7841f6c654bcd80c547 lib/crypto: arm64/sha256: Add support for 2-way interleaved hashing
+b4da079a3b4a459fd4135c225b9032a040eaa627 lib/crypto: x86/sha256: Add support for 2-way interleaved hashing
+083b9dbdb176094203762aec575b685e8896c881 lib/crypto: tests: Add tests and benchmark for sha256_finup_2x()
+6bf460bd9c808e7625e716b7fc89fac27baa801d fsverity: Remove inode parameter from fsverity_hash_block()
+681a202ab7d80e7967289f2c4b7ca4ce9531f52c fsverity: Use 2-way interleaved SHA-256 hashing when supported
 
-fa66267620c22533688ee30da85236373e647dc1 d5842c4a2d4943a9ea3b9340094c20b641b981f1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjK0EQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XSsQALvIY3V+zNC8rCVG2tJ2
-7aZuKWp0fxBy/4tuyPwf3fnVd+/AegWKzmJhx1/6GY7nUWmAogX9qJFDGoSKKqxZ
-n9WhjvI4Lx3l7xA5Vi4tI+UCg1Efa5obL8d8A2Kbw1Fp1Pp4rnSMFOw5Wee154rA
-jh5nBQezhsPfflvwdE8dU0kbH7ZoJUkhtP5ypZJbowyjl9hhZg/TP/eDB5wkdMoB
-oniRjJyETPp2X8aw8ViaLNKqBIQ7c9IF5p36Y6KJL9GYaf9bJr8FOB+MQSOk3N3/
-TXFNHvT/RgWhpTzdY3YPiVt+IzE4ILpnFIRGEjmcd7pXimBNbZe74ODULqHZNfB+
-f3taADTlmA1uLqHRJkLt0o6n5RGslqgaPLGg0r6R3rIVFZliGh/4xUpgi8Agks6O
-sCq2e8JKWlZhF7vG437NfeNCxKsGFZryAJaspODe25c56YZRTZf2v8ctwWs+A29D
-2W4Lfv3Ee+90bbIV2wxnYgfhXjvBVrrxPbTNX5I7bup9/tZ1rP1VA6ArJBR1dLFN
-tR9fByCqK5FvMWxm49oIs+/O90Zs9jbChlkXqdmS5bFTf4VQ+n6JadCcRAVzXCFe
-ozf4hogRlQ9DwWe1UKkSKYpsMrdC/wywVb8mqxevn6vXq4TgFBNFyWJaMqCtbp+d
-9lOyva/ar5cQmUZRKyFnimsQ
-=uWdE
------END PGP SIGNATURE-----
-
---===============2973202177957110927==--
+--===============8095304134440789309==--
