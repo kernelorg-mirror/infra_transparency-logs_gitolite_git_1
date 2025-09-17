@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 17 Sep 2025 18:12:17 -0000
-Message-Id: <175813273749.2418693.9156615503180493805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 17 Sep 2025 18:19:19 -0000
+Message-Id: <175813315958.2424361.15239455802935540383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main-pending
-    old: 70debd8f4a5a33263824f00ce0c68c60fb7402eb
-    new: cf80662fb4f07a9abe74fc998b493ca55cbefe3b
+  - ref: refs/heads/master
+    old: 180a46bc1a1c585f5187df7bccdb522556f4ecd8
+    new: a24a2dda70fb40629d44b899452d8e4c0be075e2
     log: |
-         2112c8068f9a9c280d21136f05a6f22505da56ad wifi: ath12k: fix signal in radiotap for WCN7850
-         e4d718fdd1e598339d190ff4c34a148a935c5aef wifi: ath12k: fix HAL_PHYRX_COMMON_USER_INFO handling in monitor mode
-         65ca226455adb20bcfe4adba8a52465e9b8044be wifi: ath12k: fix the fetching of combined rssi
-         7bdacb46316f02403fa91752c340a14a983342e7 wifi: ath12k: Add fallback for invalid channel number in PHY metadata
-         cf80662fb4f07a9abe74fc998b493ca55cbefe3b Merge branch 'pending' into main-pending
+         a3c73d629ea1373af3c0c954d41fd1af555492e3 bpf: dont report verifier bug for missing bpf_scc_visit on speculative path
+         a24a2dda70fb40629d44b899452d8e4c0be075e2 selftests/bpf: trigger verifier.c:maybe_exit_scc() for a speculative state
          
-  - ref: refs/tags/ath-pending-202509171751
-    old: 0000000000000000000000000000000000000000
-    new: cf80662fb4f07a9abe74fc998b493ca55cbefe3b
