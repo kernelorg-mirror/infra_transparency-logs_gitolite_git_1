@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8133442975202305009=="
+Content-Type: multipart/mixed; boundary="===============4144074336675251327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 17 Sep 2025 10:19:43 -0000
-Message-Id: <175810438304.1957699.3604424181577408312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 17 Sep 2025 10:19:47 -0000
+Message-Id: <175810438761.1957874.15059296988490349566@gitolite.kernel.org>
 
---===============8133442975202305009==
+--===============4144074336675251327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 8d7de4a014f589c1776959f7fdadbf7b12045aac
     new: 32bd60d5eca048fb91eed723799c0b4a847c18e4
     log: revlist-8d7de4a014f5-32bd60d5eca0.txt
 
---===============8133442975202305009==
+--===============4144074336675251327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1758104433 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1758104379-0668418b03d3fb03d9d326ec2f9c261596d426ba
+pusher C3F436CA30F5D8EB 1758104438 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1758104384-e8a1b4fd0e2c56dc83441711f92bc5a94b3941dc
 
-8d7de4a014f589c1776959f7fdadbf7b12045aac 32bd60d5eca048fb91eed723799c0b4a847c18e4 refs/heads/for-6.18
+8d7de4a014f589c1776959f7fdadbf7b12045aac 32bd60d5eca048fb91eed723799c0b4a847c18e4 refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjKi3EACgkQJNaLcl1U
-h9A0pQf+KIqMoe7oV2NtWRrkjXZS619tc1hWRzO/fOWCy8fEVTCr/0Z+kSTHyOS0
-TjLW/CEi2AsGxFFuEPZOb5FASixEootbGJDxo71VKMl3vOiFJ6XgDw0JpyKoMYmf
-5Feh6Xr6B4lQfqRrtcUJ88lv0oHc7gj1E8HY5U3JYBP0DjuVVHTsBO5MxU2ofzyi
-ZCdiysYgvUeJ0X3fOj7z1OZhEO0T/qnhadkznLIt1RhCUYHY63p+8QuvfVzWZJfZ
-QONfJEcW4o9s5cIfXkKLOBsDqEdBkTUoBNNDYm5M34tbDtD1cKpNwHjwVK0Y/x8N
-offvBQWGCeLVyMpiMZuG3qKiTfGksA==
-=PDcZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjKi3YACgkQJNaLcl1U
+h9CkTwf/dYauDrD6kjnooQbQyTqRgqhwMvpdBMPKao71P4bOO982D/U47GnWqWsh
+vmr6FwvZwUjMH82IlM8mNF21jNcdd0kIKwzyuKTZwcndaPPOT+/FQVpD24uKdswk
+oZbqZck+BHcuoDSdP9rt/FKaFy3qvjZ7FobRgJ/yfugzg3ScpXNSzqLGv6K5DrcX
+CeVUZO6Hx4NC44lYvxX4abVZ/Ygh2vLstu+I0aMxs62hSUEszlnCYoJDwymnmdO6
+y/qzx9/7BJPOxqYISWMcWsY9oi6ZOlwLB95q3c/c0mLMBS/oQ74LZYkUj1Yy60y3
+miw6mo2SKhtvxxUyf4fhLX21AbSvXg==
+=+hpE
 -----END PGP SIGNATURE-----
 
---===============8133442975202305009==
+--===============4144074336675251327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -956,4 +956,4 @@ b9cb410d48b00a759f0947f2491785f4d0486c68 MAINTAINERS: add Qualcomm PM4125 audio 
 c99642913d4c4ab9e8ac73d0241e7b5e3e14fd05 Add PM4125 audio codec driver
 32bd60d5eca048fb91eed723799c0b4a847c18e4 ASoC: cs35l56: Handle vendor-specific UEFI
 
---===============8133442975202305009==--
+--===============4144074336675251327==--
