@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 17 Sep 2025 09:26:34 -0000
-Message-Id: <175810119499.1905269.8979605865787259577@gitolite.kernel.org>
+Date: Wed, 17 Sep 2025 09:28:38 -0000
+Message-Id: <175810131857.1906272.3983447660015804754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/x86/cpu
-    old: d98b40c07552a3bdc72bfc5879748707ba7598ae
-    new: c3ebd1304f12a7103ae1b0a07066d6b420151ba1
+    old: c3ebd1304f12a7103ae1b0a07066d6b420151ba1
+    new: d98b40c07552a3bdc72bfc5879748707ba7598ae
     log: |
-         610c32025f510e2a9a161d55f60f1850d38fdb94 x86/cpu: Rename and move CPU model entry for Diamond Rapids
-         66765d17b06f3479ebbb7dd3341701af4594afb2 x86/cpu/cacheinfo: Simplify cacheinfo_amd_init_llc_id() using _cpuid4_info
-         38ebac2d21c8895720ac2ddf28b4623ac6ff9dd6 x86/cpu/topology: Check for X86_FEATURE_XTOPOLOGY instead of passing has_xtopology
-         d5efcab393837421a9ab5b14e6475fc8fc3ec02a x86/cpu/topology: Define AMD64_CPUID_EXT_FEAT MSR
-         c3ebd1304f12a7103ae1b0a07066d6b420151ba1 Documentation/x86/topology: Detail CPUID leaves used for topology enumeration
+         70d1d98934e723b9e463283a542b88f4f009ae82 x86/cpu: Rename and move CPU model entry for Diamond Rapids
+         af507c6951180ae5e5edb71f56a227ffdcc54f78 x86/cpu/cacheinfo: Simplify cacheinfo_amd_init_llc_id() using _cpuid4_info
+         d691c5f87f344a448b1a522284fa314e2bb403e2 x86/cpu/topology: Check for X86_FEATURE_XTOPOLOGY instead of passing has_xtopology
+         bc6397cf0bc4f2b7a47cc6ac44086daf67c3c71c x86/cpu/topology: Define AMD64_CPUID_EXT_FEAT MSR
+         d98b40c07552a3bdc72bfc5879748707ba7598ae Documentation/x86/topology: Detail CPUID leaves used for topology enumeration
          
