@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 17 Sep 2025 08:14:03 -0000
-Message-Id: <175809684340.1837704.11458081653530916942@gitolite.kernel.org>
+Date: Wed, 17 Sep 2025 08:19:08 -0000
+Message-Id: <175809714888.1842369.13387052669329602449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,14 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: a1ba7b9d8deb9ce5ba400f6ff9e6cd83917ea0df
-    new: 64855a8ad6601da8852c92d591f5bb5a4e10e2a7
+    old: 64855a8ad6601da8852c92d591f5bb5a4e10e2a7
+    new: 6bbf884525cad2702b1e69a0ac022db3ef92154d
     log: |
-         5fd9b8c95ca67e1c14002c6c2b04315049ef14ba column: add --wrap-separator option for custom text wrapping
-         64855a8ad6601da8852c92d591f5bb5a4e10e2a7 Merge branch 'PR/column-wrap-separator' of https://github.com/karelzak/util-linux-work
+         6bbf884525cad2702b1e69a0ac022db3ef92154d blkid: correct an erroneous error message
+         
+  - ref: refs/heads/stable/v2.41
+    old: 14375f8fc531399affa81e4657aa5ab682d35eef
+    new: fb942d08e2ea9c9078869e0ea8d30175859c1995
+    log: |
+         fb942d08e2ea9c9078869e0ea8d30175859c1995 blkid: correct an erroneous error message
          
