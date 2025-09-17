@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7438574598169264524=="
+Content-Type: multipart/mixed; boundary="===============2623091878061421759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 17 Sep 2025 10:12:08 -0000
-Message-Id: <175810392860.1949193.17214811489010011385@gitolite.kernel.org>
+Date: Wed, 17 Sep 2025 10:12:10 -0000
+Message-Id: <175810393085.1949330.16996251584023651101@gitolite.kernel.org>
 
---===============7438574598169264524==
+--===============2623091878061421759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,93 +16,111 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: e8d894bd64f1fcdf466d0d0927002c0464661981
-    new: ee1318cc40982f5c4b98d633c4866a6a3729ef20
-    log: revlist-e8d894bd64f1-ee1318cc4098.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 54911de46ea95e7dcb72b165eb7659d4f689c5ec
+    new: 8903a755b8fd9fcdf75b18206bf99f43d038ac85
+    log: revlist-54911de46ea9-8903a755b8fd.txt
 
---===============7438574598169264524==
+--===============2623091878061421759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758103980 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758103983 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1758103926-f14ebbfc71a5caaeb5fbb7bb385f774ec02afdcc
+nonce 1758103928-199944c36bf5b7a67243298039721e5d67aee785
 
-e8d894bd64f1fcdf466d0d0927002c0464661981 ee1318cc40982f5c4b98d633c4866a6a3729ef20 refs/heads/linux-5.10.y
+54911de46ea95e7dcb72b165eb7659d4f689c5ec 8903a755b8fd9fcdf75b18206bf99f43d038ac85 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKiawbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xPIP/19PRASK68zXm8KNaQfE
-yjgANGHH3PNq9JshSHCSdUug34VnB7IH2id4BqoILLY/lJN6JU/S7xl7O+LR/fRm
-WQlaRLXLzVuMrNNIn+dZ/yiu80r0gFk/uZPdWv/1Czt1CtJyNEnr/+SEdfIFQO1R
-Sty3303ezM/qHKvDyZRLOUnq/4TSI2pyenxQZ2h4hK07IcF6b4Xzhp+2NnVsr4DV
-+c+7CQrcnruROoogHzzCSvf3ekR/LqDGv8sVf0COxDIpoHbIGmocrVe3A/Kwq5Mx
-ay7vz1WCV+603y3LlBmEFV8jokB0l9AJKPPPHARCkHJK0UXShUNkYE+FRdCWgMPA
-3n1fERk5Nf/yYnin1LgtLnkK4vpoWjNGaPjCLYljpe4Wzf76uU0qlFsa22Wqj+gQ
-9HM90H0SCA6qaPJaLFbIl8c1s+PJEOXPWIvaeF48ZPWUJ0yjluAwhppWedkvRXpV
-tccXA8xkCTI41ELtdTgXUsq2ey9VdqMqMLdQcrt4Yt0QH3+sqpNmlTZznKtw9HP5
-sWtN0stw+gITzABiT+Da24c3nU0JXPPcIcDXJEuH1egg+gYb8Mbnd0U4DJFijEsm
-MBX+lDZS+sfig6OsN2j+k7/JjqoBxNCZWYir61oh9bOvYh0akPLECEsfp/RTpbsx
-wN+ikCA5mDYxnwwuuINC/eHN
-=66Ce
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKia8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4b8P/iRQupOEaRGQBOc0B3ef
+LQvJcT4p9fvT3jJ7GU5Ucprfad+mQKlnWGXGLUVhBgxIRSb1kWLIUBKI6DDPAfFv
+iYYq1J9JmiPyYhrf/rTynZFtHxpCNzozYuhGGVqpR+orlLv5pNuQDCZErKUId+cR
+M+YUPzYV6esDsslcxJAx9w/o8yYq+QNRILJXMzx8uhzPyI0VGvTn8tvJgRpT5wZl
+jd38wFu/4+LRPR6wd7/bdrzuzSO5IDWuhZufqet1pnX7BwfS7QE3GCvaDHrFEmOB
+e4HYzfNRq+vmOOZdBIiQHo6bYLbpeK9lBhSakY1cCYEiVun/CEYulvI/5ZKlAb7H
+0Gy7qrXdtU7Ti7GMlVeXFlOHCDVBxpz5Ztwqhpmjr/o99DYaFZ7hm7pRqL8Df7LC
+Sqn1Ka1KFvga6Y40FTb27XZe+DZe1/BJo9UU+nU4g8alTkb5FHU3n9R7PDE2dGSK
+cohJEfDg++ss28ji7Q6EQE4w7YYoXMx2a2ikOcS8MwNTgmIBrWp2GjBCgxL/ee42
+F4YFxbSvN/uHzoXPYz91I6lSJwp18zlTPsLz74teWgno/8yiuDKfKmcIAH/APVTa
++r4VxN+uzcSkWPkDouRedhKupW7exxExeqkQt0DgLAuJaNh7R1ouaPT7Zu09STwb
+UuVatbMiJ0mkZWXwwXJCPYoZ
+=ooEd
 -----END PGP SIGNATURE-----
 
---===============7438574598169264524==
+--===============2623091878061421759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8d894bd64f1-ee1318cc4098.txt
+Content-Disposition: attachment; filename=revlist-54911de46ea9-8903a755b8fd.txt
 
-cf5bbc73f01c95678300bdd340bffc14fa039a80 mptcp: pm: kernel: flush: do not reset ADD_ADDR limit
-1f6806d2a12d343417327b0d85bdfaf87f998747 media: mtk-vcodec: venc: avoid -Wenum-compare-conditional warning
-300db6f8d4744616b17794f93ab60ab956fdfe71 media: i2c: imx214: Fix link frequency validation
-4234682fd1008e379a8e81acdc6c0d9d58f56469 net: Fix null-ptr-deref by sock_lock_init_class_and_name() and rmmod.
-c562f9ca8fb5be965c8ef68ab0a7e2d92d758e07 mtd: Add check for devm_kcalloc()
-aa766c8761a731b77f436b98ad2b888ab2e38673 flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
-0135e9a40a33ab1894fb4552d4cf5a7f086d4a08 NFSv4: Don't clear capabilities that won't be reset
-142f5da486bc3edcbfd434fcf91390bd4ff6fa4e NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
-7d8a75303f8856e5dedcd50bba8f08b48e7c5904 tracing: Fix tracing_marker may trigger page fault during preempt_disable
-8b299c331d05c5077f2a6eed3ec2b0cb84bb12b0 NFSv4/flexfiles: Fix layout merge mirror check.
-f2ad2f1f3b5802a82fdb2f86cb9d3424145d2117 s390/cpum_cf: Deny all sampling events by counter PMU
-66d5febbe927eddc33d5a80c7293b1a18aef2fe1 tcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock->cork.
-447955296efc3810ed91f8975eae16f54579f486 overflow: Correct check_shl_overflow() comment
-0c6037c1b07ab776a676f6542ab03791177da37a compiler.h: drop fallback overflow checkers
-6d21ad051d47e1f6eb1a7ad938a66061bd69628d overflow: Allow mixed type arguments
-aac1bff6ba68d05a636f951f752a90d4577c075a EDAC/altera: Delete an inappropriate dma_free_coherent() call
-2283f74b5e81c275505b367709fbdab194991e84 compiler-clang.h: define __SANITIZE_*__ macros only when undefined
-100bac9319305e9ff3173a18c1939dd9678d6d80 ocfs2: fix recursive semaphore deadlock in fiemap call
-ff2f97d8ef0662d1d4fc18f055a745f5019a447b mtd: rawnand: stm32_fmc2: fix ECC overwrite
-487eabccdd8971f21202023ea65b6ab1e2c906ad fuse: check if copy_file_range() returns larger than requested size
-d6504464d47b1c2f418ec11c24fc281b50b5b412 fuse: prevent overflow in copy_file_range return value
-2f1643b6e1f07c122aaabbac57d19740e9808fba mm/khugepaged: fix the address passed to notifier on testing young
-367dc25628c634100f8e8dd41db1e2be682b2831 mtd: rawnand: stm32_fmc2: Fix dma_map_sg error check
-e3620761b0b168130fb5c98d6ff91012302d482d mtd: rawnand: stm32_fmc2: avoid overlapping mappings on ECC buffer
-f547c78a17c5b903962747fac41db9fdebb4325e mtd: nand: raw: atmel: Fix comment in timings preparation
-bfbf4a46532bc065dfbc6c90bd3850690e9927e3 mtd: nand: raw: atmel: Respect tAR, tCLR in read setup timing
-7e794c368ad14e7a1ed033fdb85fd7d457d93fa2 Input: i8042 - add TUXEDO InfinityBook Pro Gen10 AMD to i8042 quirk table
-db89494ff21ec749ab2d48b584b2b166af3090a1 tty: hvc_console: Call hvc_kick in hvc_write unconditionally
-2ce082a21ddfceacb6060d676b573e0a5cb5cbb9 USB: serial: option: add Telit Cinterion FN990A w/audio compositions
-852abf5001f40aa503fdfef06b9f41db6eb50859 USB: serial: option: add Telit Cinterion LE910C4-WWX new compositions
-f8c3e61c6e3609be7713d8a21a3c374dfc8ec1ae net: fec: Fix possible NPD in fec_enet_phy_reset_after_clk_enable()
-d32245c998878a0efb9ea19cc53f7700843c97c5 tunnels: reset the GSO metadata before reusing the skb
-4a1fd169e2f0fc452ec99919c2dec0c2792157ac igb: fix link test skipping when interface is admin down
-17d39d7837e6f5a818b61bd0c510e9e1490333a6 genirq/affinity: Add irq_update_affinity_desc()
-6cd2480537a9759b1bfff36b087f4e7cafae23c6 genirq: Export affinity setter for modules
-7016c5e638388eacfdc2effc175a8ca8eb039c3d genirq: Provide new interfaces for affinity hints
-32084d2b0450796d67db0acf0366cf297b232c04 i40e: Use irq_update_affinity_hint()
-d0270552a36ffa68fb39cb55176fbc5028c247d9 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
-bd29b57f1e108ba3911d77119c3a7cc49c806e12 can: j1939: j1939_sk_bind(): call j1939_priv_put() immediately when j1939_local_ecu_get() failed
-f643adb21ad1b21bd0e42a1f032d272c79d5bad3 can: j1939: j1939_local_ecu_get(): undo increment when j1939_local_ecu_get() fails
-5f3ad75a2e97768467dede0fce244c784b89dd6c dmaengine: ti: edma: Fix memory allocation size for queue_priority_map
-1d0626ed6fe4135ab5817b508fc8994f900fcaa3 dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
-676b370a8994b61dc631f4050ddb12bfd0adf804 phy: ti-pipe3: fix device leak at unbind
-91d78c222eb66e5f46f58c7ce4c62dad329d3b9a soc: qcom: mdt_loader: Deal with zero e_shentsize
-b8f8ca6627caeb9c3cd20d25ee531c0f844bf933 drm/i915/power: fix size for for_each_set_bit() in abox iteration
-c0a84d25474c83242d776ec16d8afa4788007071 mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory
-ee1318cc40982f5c4b98d633c4866a6a3729ef20 Linux 5.10.245-rc1
+666eed0e93376d60193a03f97886ea9d94576201 Revert "fbdev: Disable sysfb device registration when removing conflicting FBs"
+4d39a745cf9bc3a25b6ba8205bad0214000c564a xfs: short circuit xfs_growfs_data_private() if delta is zero
+0c9ef1619f074e83706f287e114e085bd73dda4d kunit: kasan_test: disable fortify string checker on kasan_strings() test
+2499b7d18fdd978bfe957c2dd9fbc5959af5bf9e mm: introduce and use {pgd,p4d}_populate_kernel()
+ee574aee158279dc393ff751b2ba45ed9931d4ab media: mtk-vcodec: venc: avoid -Wenum-compare-conditional warning
+60bc4e324a3185074e8973228cf2cf2a5fcb12aa media: i2c: imx214: Fix link frequency validation
+49e674f714c544403cddf926f194160d60a3cc16 net: Fix null-ptr-deref by sock_lock_init_class_and_name() and rmmod.
+9a3deb23a4643bd203d2f60a12568e7c7d6b86d4 tracing: Do not add length to print format in synthetic events
+a28462af3fbaf8e78c308614f44623bfe3036a95 mm/rmap: reject hugetlb folios in folio_make_device_exclusive()
+2f53d8d8558fb4a86970d99afcff1a95837a8819 flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
+15903c7f60450fc89676670b0563c005052bfe34 NFSv4: Don't clear capabilities that won't be reset
+f3bf796062b2aa2744c7a32d3aef19748c843cd2 NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
+8805dc17ed1282bb016f934b7185bf4129d407d7 NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
+ea7ad691e29171818e53a70e4cd0f1140057d98e tracing: Fix tracing_marker may trigger page fault during preempt_disable
+d7b45867e42ba29eaf775edc0879e90542c1f126 NFSv4/flexfiles: Fix layout merge mirror check.
+0ab0649ce5438dd6bd6b8072d7b6cc37cda560de s390/cpum_cf: Deny all sampling events by counter PMU
+80c3bda480bfaeeee3939cd2bbaf812d94d21826 tcp_bpf: Call sk_msg_free() when tcp_bpf_send_verdict() fails to allocate psock->cork.
+31e1db1faf2b1e6cd084ec2ed6aea9a0acf0d35b KVM: x86: Move open-coded CPUID leaf 0x80000021 EAX bit propagation code
+a8b2718a04a023a8143554208b2a90a41ed4a6f3 KVM: SVM: Return TSA_SQ_NO and TSA_L1_NO bits in __do_cpuid_func()
+593ddebcb8276ace358ce71f6e958720eeefeeba KVM: SVM: Set synthesized TSA CPUID flags
+9acef577ac73536f4c52855c7c0f92cf6e549fef EDAC/altera: Delete an inappropriate dma_free_coherent() call
+2e657f2561277f87c6a831836bbdd449551154e9 compiler-clang.h: define __SANITIZE_*__ macros only when undefined
+997ae9f0a66b4eec0a4c1354c2324407d4d1fb82 mptcp: sockopt: make sync_socket_options propagate SOCK_KEEPOPEN
+f5fd1cc993f79305662362dd07339a9a75051e9a ocfs2: fix recursive semaphore deadlock in fiemap call
+b8c7491f46d179f45a2aad87ada303d0c71f92a3 mtd: rawnand: stm32_fmc2: fix ECC overwrite
+104726251949aab487d91528499c9a49f0996d76 fuse: check if copy_file_range() returns larger than requested size
+2bb759988506a7e70bdc49557140bd30fe833151 fuse: prevent overflow in copy_file_range return value
+e96fc4208fe815420263348f18a1ae4e5a840aef libceph: fix invalid accesses to ceph_connection_v1_info
+c1088ecb6e4e696709d3c3e16e20fb0071c40721 mm/khugepaged: fix the address passed to notifier on testing young
+f3e7aecb72acd106c9c58e4bf0cd85b3bc0dd4df mtd: nand: raw: atmel: Fix comment in timings preparation
+ecdc6d4c81f16a7760a00e0b4816c4e852265d13 mtd: nand: raw: atmel: Respect tAR, tCLR in read setup timing
+2f6c2ecb54e44b6edcd1a65fd221214315fa0813 mtd: rawnand: stm32_fmc2: Fix dma_map_sg error check
+55626dc2c2e147dc4814f48bc847a79310775bf3 mtd: rawnand: stm32_fmc2: avoid overlapping mappings on ECC buffer
+16db92ea63b5fe39861f4b29b1f7b911df038ef1 Input: i8042 - add TUXEDO InfinityBook Pro Gen10 AMD to i8042 quirk table
+902a579c6a89e2a500fa5dbbea2efbc853c6fe26 tty: hvc_console: Call hvc_kick in hvc_write unconditionally
+a0dec4b30ddd146d8aeb8e467359e1ec871fc030 dt-bindings: serial: brcm,bcm7271-uart: Constrain clocks
+4da3d83a8ccedd8a245da28379db44894345bc85 USB: serial: option: add Telit Cinterion FN990A w/audio compositions
+3c95db43b164abcea4409260e79e1b2c4ecaef95 USB: serial: option: add Telit Cinterion LE910C4-WWX new compositions
+3320ae5ea17cb574999c23753a395c74c8bf299d net: fec: Fix possible NPD in fec_enet_phy_reset_after_clk_enable()
+469d43818d9e54f73f7503b3a1e8b8263dba7752 tunnels: reset the GSO metadata before reusing the skb
+518d523353d37a002195949c442d3f88fe654a22 igb: fix link test skipping when interface is admin down
+71ee5673fd0d136649f6c8ed9dd1161dad1cba0f genirq: Provide new interfaces for affinity hints
+25769094843b36c440bb3a639029d7b0b7b954a8 i40e: Use irq_update_affinity_hint()
+b9ff0eac554d0f8605a1998cbbca9b5970e54502 i40e: fix IRQ freeing in i40e_vsi_request_irq_msix error path
+bbdc5f40f713cacb966ef62c26a0be5132b69a20 can: j1939: j1939_sk_bind(): call j1939_priv_put() immediately when j1939_local_ecu_get() failed
+e884c9ca5d588580815379122b82b46eac340b59 can: j1939: j1939_local_ecu_get(): undo increment when j1939_local_ecu_get() fails
+5fdf15e7e8377f3b55b4ecf26c0bc37a7902c2e9 can: xilinx_can: xcan_write_frame(): fix use-after-free of transmitted SKB
+948d0c3759b5c521071564f00f4a0db1df546313 net: hsr: Disable promiscuous mode in offload mode
+f9f66e02f836cc287914bea43cf7818c17df4d5e net: hsr: Add support for MC filtering at the slave device
+26a44ba0fdc8179f09d2c4e39a5535c923bc8344 net: hsr: Add VLAN CTAG filter support
+64fa5505b55e6f181f6e9ec683b03ef5f38e8433 hsr: use rtnl lock when iterating over ports
+7c578cf82ab985d3453597d25ceb44c128b5a486 hsr: use hsr_for_each_port_rtnl in hsr_port_get_hsr
+c3107379afe2f043b6b6c9ce9821632dde81094a dmaengine: ti: edma: Fix memory allocation size for queue_priority_map
+d7fa2da909d27d4e5a80ceb59163a06de93a6931 regulator: sy7636a: fix lifecycle of power good gpio
+65a353b791b280fe2a0d2d625affd1d91fe58d6b hrtimer: Remove unused function
+a9fdd9cd10b095bff60311604a64ff42fdc6c7e8 hrtimer: Rename __hrtimer_hres_active() to hrtimer_hres_active()
+c663ec94af75c779f1d4a07c5141d40df94b5167 hrtimers: Unconditionally update target CPU base after offline timer migration
+cfd20f6be2b286d3a7320180ae4ca7dea243d5de dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
+02912c09084953275946d52089024883a2c87ef0 phy: tegra: xusb: fix device and OF node leak at probe
+517d667dd33eb8662bcb379eac5830153175ece8 phy: ti-pipe3: fix device leak at unbind
+fbab455a15be1d98d9800643f21155bf8c667c32 soc: qcom: mdt_loader: Deal with zero e_shentsize
+336787ee9ed4c1cbf124d636c6375bb606548b4e drm/amdgpu: fix a memory leak in fence cleanup when unloading
+0df605ccdec3fab80a48469a5d587d6f4a884e67 drm/i915/power: fix size for for_each_set_bit() in abox iteration
+5ddd6070a6a71bdd0961691a733127f7c951ed7f mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory
+8903a755b8fd9fcdf75b18206bf99f43d038ac85 Linux 5.15.194-rc1
 
---===============7438574598169264524==--
+--===============2623091878061421759==--
