@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 17 Sep 2025 10:25:14 -0000
-Message-Id: <175810471407.1964795.17061127826287026573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/toke/linux
+Date: Wed, 17 Sep 2025 10:27:42 -0000
+Message-Id: <175810486221.1965913.13856515688835004513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/toke/linux
+user: toke
 changes:
-  - ref: refs/heads/for-next
-    old: e9ff5223523bcd245a26bb205f8d988a21cff5d1
-    new: efafd17317f77f8a3bf6c7bd1b8f34cd72f6a26f
+  - ref: refs/heads/mq-cake-sub-qdisc
+    old: f4d9cced131c92eaee462179708996c0020a3430
+    new: db28405abf8d8d3835f0b4f46e49f0544bc22957
     log: |
-         d1dd75c6500c74b91c5286fd3277710371d3e3ca HID: core: Change hid_driver to use a const char* for name
-         efafd17317f77f8a3bf6c7bd1b8f34cd72f6a26f Merge branch 'for-6.18/core' into for-next
+         db28405abf8d8d3835f0b4f46e49f0544bc22957 net/sched: sch_cake: share shaper state across sub-instances of cake_mq
          
