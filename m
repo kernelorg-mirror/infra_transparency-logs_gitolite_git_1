@@ -1,45 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 17 Sep 2025 20:18:46 -0000
-Message-Id: <175814032646.2532437.11711009214290966253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 17 Sep 2025 20:22:17 -0000
+Message-Id: <175814053769.2536566.18275371277887382841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 430def8418ea05be625af7281566fd185ba69031
-    new: 91ba4736fb2c9614b250ae532c133546a2cc717c
+  - ref: refs/heads/dev
+    old: 10ed9f231d694966d25114bcd22da75b4ceebb8f
+    new: 9f31ba919cc9a13b1cd8641114ed4d7c2a0eca98
     log: |
-         64912c0554d91747a91a826365498b1c0f7947c6 Merge branches 'acpi-property' and 'acpi-processor' into linux-next
-         bdf780fbcef5df4d365404a178e7f845a317b4e9 ACPI: processor: idle: Rearrange declarations in header file
-         91ba4736fb2c9614b250ae532c133546a2cc717c Merge branch 'acpi-processor' into bleeding-edge
+         e35f4c09f073e6adfd0ee471f02f11d634284a91 srcu: Create an srcu_expedite_current() function
+         d1381d21b0a7047a78c1b01a584dd4d61bc2dd25 rcutorture: Test srcu_expedite_current()
+         11f7256516e4898cc3d9b01d4499f3a814b49bf4 srcu: Create an rcu_tasks_trace_expedite_current() function
+         b2b5e478c7cc64de8ac8dcd85bd6f951d2b6f257 rcutorture: Test rcu_tasks_trace_expedite_current()
+         9f31ba919cc9a13b1cd8641114ed4d7c2a0eca98 srcu: Make DEFINE_SRCU_FAST() available to modules
          
-  - ref: refs/heads/linux-next
-    old: 46dcd043c79fc7e54898d02eb26af40fab3766d9
-    new: 64912c0554d91747a91a826365498b1c0f7947c6
-    log: |
-         d0759b10989c5c5aae3d455458c9fc4e8cc694f7 ACPI: property: Fix buffer properties extraction for subnodes
-         d06118fe9b03426484980ed4c189a8c7b99fa631 ACPI: property: Disregard references in data-only subnode lists
-         737c3a09dcf69ba2814f3674947ccaec1861c985 ACPI: property: Add code comments explaining what is going on
-         baf60d5cb8bc6b85511c5df5f0ad7620bb66d23c ACPI: property: Do not pass NULL handles to acpi_attach_data()
-         0f83b1d436c98083dcbf7f3e6204015ed4a46743 ACPI: property: Adjust failure handling in acpi_nondev_subnode_extract()
-         5020d05b3476f3561377a4ab076d42fda00e3607 ACPI: processor: Remove unused empty stubs of some functions
-         64912c0554d91747a91a826365498b1c0f7947c6 Merge branches 'acpi-property' and 'acpi-processor' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 46dcd043c79fc7e54898d02eb26af40fab3766d9
-    new: 64912c0554d91747a91a826365498b1c0f7947c6
-    log: |
-         d0759b10989c5c5aae3d455458c9fc4e8cc694f7 ACPI: property: Fix buffer properties extraction for subnodes
-         d06118fe9b03426484980ed4c189a8c7b99fa631 ACPI: property: Disregard references in data-only subnode lists
-         737c3a09dcf69ba2814f3674947ccaec1861c985 ACPI: property: Add code comments explaining what is going on
-         baf60d5cb8bc6b85511c5df5f0ad7620bb66d23c ACPI: property: Do not pass NULL handles to acpi_attach_data()
-         0f83b1d436c98083dcbf7f3e6204015ed4a46743 ACPI: property: Adjust failure handling in acpi_nondev_subnode_extract()
-         5020d05b3476f3561377a4ab076d42fda00e3607 ACPI: processor: Remove unused empty stubs of some functions
-         64912c0554d91747a91a826365498b1c0f7947c6 Merge branches 'acpi-property' and 'acpi-processor' into linux-next
-         
+  - ref: refs/tags/v6.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 0124ee3e78e4adb40db91280f3e468373e48928e
