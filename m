@@ -1,41 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6331756351692738521=="
+Content-Type: multipart/mixed; boundary="===============8044139362866920549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 17 Sep 2025 14:11:14 -0000
-Message-Id: <175811827458.2200673.6877757822711376273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 17 Sep 2025 14:11:35 -0000
+Message-Id: <175811829542.2200986.14442508925305737996@gitolite.kernel.org>
 
---===============6331756351692738521==
+--===============8044139362866920549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 05af764719214d6568adb55c8749dec295228da8
     new: ae2d20002576d2893ecaff25db3d7ef9190ac0b6
     log: revlist-05af76471921-ae2d20002576.txt
-  - ref: refs/heads/stable
-    old: 46a51f4f5edade43ba66b3c151f0e25ec8b69cb6
-    new: 5aca7966d2a7255ba92fd5e63268dd767b223aa5
-    log: |
-         a5edf3550f4260504b7e0ab3d40d13ffe924b773 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-         7947ad15614ce897f47ce8ae123b82445d1861d0 perf lock: Provide a host_env for session new
-         20c9ccffccd61b37325a0519fb6d485caeecf7fa perf maps: Ensure kmap is set up for all inserts
-         5aca7966d2a7255ba92fd5e63268dd767b223aa5 Merge tag 'perf-tools-fixes-for-v6.17-2025-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-         
-  - ref: refs/tags/next-20250617
-    old: 4bfc276e73ee01c639085ae15a4450226be55dbb
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250917
     old: 0000000000000000000000000000000000000000
     new: b09b832c719df5e10f2560771fd38146f2b3fd7c
 
---===============6331756351692738521==
+--===============8044139362866920549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1066,4 +1054,4 @@ ee072f9d72f287637675b1ca0660ccf1b2fb2d91 Merge branch 'crc-next' of https://git.
 f89ef753cb254b8301fb093d2ce0760581afda15 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 ae2d20002576d2893ecaff25db3d7ef9190ac0b6 Add linux-next specific files for 20250917
 
---===============6331756351692738521==--
+--===============8044139362866920549==--
