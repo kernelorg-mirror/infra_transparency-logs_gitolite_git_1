@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3218958971645929668=="
+Content-Type: multipart/mixed; boundary="===============3160564183851424307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Sep 2025 10:42:12 -0000
-Message-Id: <175810573203.1979262.10470026972280113945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Wed, 17 Sep 2025 10:42:38 -0000
+Message-Id: <175810575844.1979589.3143547737081835599@gitolite.kernel.org>
 
---===============3218958971645929668==
+--===============3160564183851424307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/usb-testing
-    old: 368ed48a5ef52e384f54d5809f0a0b79ac567479
-    new: cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4
+  - ref: refs/heads/main
+    old: db87bd2ad1f736c2f7ab231f9b40c885934f6b2c
+    new: b6f56a44e4c1014b08859dcf04ed246500e310e5
     log: |
-         45fe729be9a6be326a1ca25af82d34de32ba2ce8 usb: typec: Stub out typec_switch APIs when CONFIG_TYPEC=n
-         cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4 usb: gadget: f_fs: Fix epfile null pointer access after ep enable.
+         a38108a23ab558b834d71d542d32c05ab0fb64d4 wifi: iwlwifi: pcie: fix byte count table for some devices
+         e882985b09b2469b7d48389e08fb790dc9497d60 Merge tag 'iwlwifi-fixes-2025-09-15' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+         b6f56a44e4c1014b08859dcf04ed246500e310e5 net: rfkill: gpio: Fix crash due to dereferencering uninitialized pointer
          
 
---===============3218958971645929668==
+--===============3160564183851424307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758105783 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1758105729-b7a9ad035e814ffe1c495def97192924e7353377
+pusher 7BF9099A 1758105783 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1758105729-e31124ef5a7055dac26ea9b5c88ef83c1c7c78b6
 
-368ed48a5ef52e384f54d5809f0a0b79ac567479 cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4 refs/heads/usb-testing
+db87bd2ad1f736c2f7ab231f9b40c885934f6b2c b6f56a44e4c1014b08859dcf04ed246500e310e5 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKkLcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sKMP/RodR+KqUM/cCaBimLaJ
-DZHwlQM+qSuVJObaZ2bx067MWPdfe0AoKHhtaMGFirAgkirrcSvhp5cDOV0rNjiD
-n9m2ADNxYh1pDP4g/Am/Xw4HXcYiQozShPHf+RYNEjI1cmRoWu+vndW5xxsMV8Et
-umMeQQCBo+9V6EI3BWOXKKSeDVoVqFVJItXXqCcUb71PCPx+Jf7UeeFoBbvRI7XF
-knc0MWOXjFEp3M3tn0+NOA25cI1jXtP46DMpj2dt2ehggB4g9d88D6uOTve/oeD5
-hTMmFTj0rwvR0RtcQAwmA5krYJHVfXuVGHbvUx2pkzSpdnbhkEdLRMEeE1PhVT+7
-kpoBNGMyg91pIP7D28u4UK1QLsWWZ0jBEed68y4MV5v0RuJ8GvcdAxH4xVJpGSVL
-wOQvl9bpoSqH9O8JrhqoyaJmVb2UzdUbmMyGJeKClQheCwcTtJ+bCqoTzIrldbk2
-yd/BIZ9hkZY30wFFM/2K/B8CwQ+wrbC0TLWyKLB4mTutmZpSzIHhx00KvyKw8yKf
-dTg/Pex6rfYBRMkfQt0pnVYLYKokUlIasF/VGUuOQ56lhahhU8gLF6ITw3PMAapf
-hAvm7asGEwRz/ezNqMK80Bg66UzK4oev6z4EG4T8kuFr+N8erSS/V5/bhqbAKQDz
-Rh70OvPn3yu12VlLBlc6srh5
-=VPVX
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmjKkLcACgkQ10qiO8sP
+aABOFw//TAaeuO3XJ2jq4y6ImwwgUjmtwaM1+OL2A9huxXuJiyvEuXWJTkrYw4ZO
+UyWZahbJ1OwjKOPggAwP27Pbz1Sg9QZ/Z179Eo3zRknbCFxILi/BkGz0eR97RXmA
+dfnMKmucxDwZhC3/vadu/c99/4l3T9+f/0+a/HTa+STescUs9/1HOoo44RVV0D6e
+rF95/1Jh7ZLraw+lDHEldkFuGy+0aMOhpTf4DQB7oRsQRA7jAckrBRbdt2zMyanm
+bSSxHWzw+74LvqAB0QyM5S0vaeYgGe3PxnIBH+Ug/KDnMRQnN0UGcKMncY1sGf4R
+4/+Uo1OH58yMYmriS2YDqev+8DSw6VIhRBxtRrLyunx9f3sPN9gpNAdRF0DZL/J5
+/o4Vs91V5lGrp7u5ocZxgkc1GgAYnythndLbHoVcSN/ZBOASqU1PS6xgEpqHNUIV
+P7pXHmSVUh2KO8envTMpG7aUW4QVxpAUV1ztn1cjHIA/MnOrJiCUjbt3C4lvDOtz
+tf9anEjN+BgkKKGRcOLQJDEC9MnrU54rbxPDRLrdCt752pi6tLPq/FgJH7AgcJ9E
+HymeSYh4ClNastZvuVnEkIMDPaVEXiZ87d7B+Vk33lbKq10Jhb4hef0Y/AHZzR76
+huAmBzruOBejU0oaCucEraIXIq1CrcUPVCQKoiXqLa+c7ETRXdo=
+=80wQ
 -----END PGP SIGNATURE-----
 
---===============3218958971645929668==--
+--===============3160564183851424307==--
