@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7233402883105400868=="
+Content-Type: multipart/mixed; boundary="===============0745718852791202641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Sep 2025 02:25:03 -0000
-Message-Id: <175807590322.1551158.3540690780444829593@gitolite.kernel.org>
+Date: Wed, 17 Sep 2025 02:25:26 -0000
+Message-Id: <175807592665.1552312.10910250125535875844@gitolite.kernel.org>
 
---===============7233402883105400868==
+--===============0745718852791202641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a4ee0f4c1e04641978cba60a99d15702ec8ddd91
-    new: ed160c6e04b9e497e8fe1b149311509a10ba8e75
-    log: revlist-a4ee0f4c1e04-ed160c6e04b9.txt
+  - ref: refs/heads/6.18/scsi-staging
+    old: fea2bfde3d52fbcfc7698c01954bee8b57d42abf
+    new: 88e8acffd7af9b030d2772f27ee30639be7024cf
+    log: revlist-fea2bfde3d52-88e8acffd7af.txt
 
---===============7233402883105400868==
+--===============0745718852791202641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1758075935 -0400
+pusher 75C5DE3D 1758075959 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1758075882-301420f8acfca37c6d9d11025906436920401c52
+nonce 1758075906-cd1a7406299cac189c56eabd1da97f456bd532c0
 
-a4ee0f4c1e04641978cba60a99d15702ec8ddd91 ed160c6e04b9e497e8fe1b149311509a10ba8e75 refs/tags/mkp-scsi-staging
+fea2bfde3d52fbcfc7698c01954bee8b57d42abf 88e8acffd7af9b030d2772f27ee30639be7024cf refs/heads/6.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjKHCAACgkQ7ulgGnXF
-3j2DpBAArqGhjB4yfggjZxvzOOWWN3RtVNepTboQ1Eg/rKZO19PzKZPA6F+bES/x
-FTjSqTBB8fNFcQLGSMuPo9QGpDK09YC3ZNCcmHle6WcEuS1UrsHdrfoiA7oqsw0H
-0NI48x35ubEo+3kzFMLdsIECIsjISJ7QGbOEBGAt1K/pnJ0qOaVpebEz0wKu2Q0e
-sR7wQV5QlZd8DD2f5HfBOtDWwySolGtOZNzEJrasQqJgb3UMszBeCmHrUdnEXYTV
-MXUBRy5i7X9oBz8UGDSRy/uXneHcFd4Gw9wfuQji1AM2LPM07bSnVXbHNjVz2X/8
-pYh1lemlh4xsZg0jMHomk2k+dkBOjiv2Kx9fHh53602wENRNNAOHYF++D1/LdRrk
-cBWfT37pKTRDa+/9X6R/1/+C5KX0snoCwECS67go964WfXGRJ+GZXfh4Ui2f8zJA
-SUiu3sHsymWhDnRg0WApEBgfENgA6NIi3NKgi8RIygnU0eFk/jhb4XsLyYmhBvQV
-hxIJ6lxbuori4ttdte+ukFh1OeuK1JoZ4c1hO6XlwezzxZKOkm92GmMCjtSXkJoS
-6djVgz4nv7VEQ3/wVkiBjaua9WY9Q6kmHpleGth4eqoPP38PWsicVSwcb8QjT785
-JepxTY++no4sazztRqwkk7iATtCk8RvQYyjXOWS/wzxCJglT0TA=
-=X8Ks
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjKHDgACgkQ7ulgGnXF
+3j084Q/9HSrrD72PJYpbuIiG+0h/dgn7l19YBSG89ie5+w7pTFXTyhfHzZJeUITw
+JriKqm9EWmv/5NlabeHuNay4ggBaZdNKjYGGOzdPVyhMsi9fXvR4UzcmEac0kwaP
+LAI+EJ3R8CfCTUtKYne3hW3xs6NH9wjRww1rC6tOV4hKki/uGCRPW77e/cbvj6kG
+3skTjQUtrx46leBkhwPOvH6xyeFmHJbPP4E0VteP31lSUNJCTUvXbcoXbkWqhbAV
+pUxNMf24/WMAyoqyvwzjGG3EDu11cFmDgICOxRpXwXSnazQsq9/jwKhhxFt6v1e9
+Q6ofxlchrgknkNm5wciLs7U12Guf0vxicD3r5BXB2avNsgUiwyQhstQzr5jPwUQU
+QBh8PcbqHAP8G/Ods+D7j4gI/ETlQT0noOC8/bH8Tgv23M8PDjabW+iUFZb0ZRp1
+ZoPVP5ifBKe/+bnOfDiNLrBCpuqZwY3IVpSKK+1TY0F2N8Z7BmIOT4Z7Gs8wNAYN
+oXFXTKCuNNfNBJD68AcBVhG8Q10uMwsA/d5JLYBoj5eXpJ/jiv3CLUGdfyDz6+8L
+gtDT1mZr2Nj/Tr4r1wztv7shyYI3NIfrfxPfguMBFv8ht/K61ADAfrWvmEgW5BmO
+r64iWbsNwbTJop2oziRYeu9oq7ftmPm+kblZ2dfjnIVF+OLQ7Ug=
+=n3kp
 -----END PGP SIGNATURE-----
 
---===============7233402883105400868==
+--===============0745718852791202641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4ee0f4c1e04-ed160c6e04b9.txt
+Content-Disposition: attachment; filename=revlist-fea2bfde3d52-88e8acffd7af.txt
 
 0bd0e43776b6a0ff5f7aa3783f547849356ac899 scsi: ufs: exynos: Correct sync pattern mask timing comment
 c1553fc105dff28f79bef90fab207235f5f2d977 scsi: ufs: ufs-qcom: Disable lane clocks during phy hibern8
@@ -80,4 +80,4 @@ a045ae21ce3e3411ac38ff2f9051792585f444d7 scsi: lpfc: Convert debugfs directory c
 a28205c2bc22774dcab375411683f2b47d9102f3 scsi: lpfc: Copyright updates for 14.4.0.11 patches
 88e8acffd7af9b030d2772f27ee30639be7024cf Merge patch series "Update lpfc to revision 14.4.0.11"
 
---===============7233402883105400868==--
+--===============0745718852791202641==--
