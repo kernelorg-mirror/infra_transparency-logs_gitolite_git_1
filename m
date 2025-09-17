@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Wed, 17 Sep 2025 00:57:28 -0000
-Message-Id: <175807064848.1474614.5298246202199680307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 17 Sep 2025 01:55:48 -0000
+Message-Id: <175807414800.1527958.6108564300502832805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: c52525917f25a52991fc9a9a94ce5040e8f1d05e
-    new: 6b611f24a0acd258cbc6eac991b3cd8a846af2b3
+  - ref: refs/heads/master
+    old: 46a51f4f5edade43ba66b3c151f0e25ec8b69cb6
+    new: 5aca7966d2a7255ba92fd5e63268dd767b223aa5
     log: |
-         c65261717599d419e9c683d85f515d3ca2261549 ARM: dts: aspeed: yosemite4: allocate ramoops for kernel panic
-         6b611f24a0acd258cbc6eac991b3cd8a846af2b3 Merge branches 'aspeed/drivers', 'aspeed/arm/dt', 'nuvoton/arm/dt' and 'nuvoton/arm64/dt' into for-next
+         a5edf3550f4260504b7e0ab3d40d13ffe924b773 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+         7947ad15614ce897f47ce8ae123b82445d1861d0 perf lock: Provide a host_env for session new
+         20c9ccffccd61b37325a0519fb6d485caeecf7fa perf maps: Ensure kmap is set up for all inserts
+         5aca7966d2a7255ba92fd5e63268dd767b223aa5 Merge tag 'perf-tools-fixes-for-v6.17-2025-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
          
