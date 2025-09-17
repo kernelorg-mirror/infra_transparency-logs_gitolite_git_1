@@ -1,62 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6882935558487072387=="
+Content-Type: multipart/mixed; boundary="===============0703389090901400514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Sep 2025 10:50:30 -0000
-Message-Id: <175810623016.1987972.2844031976713851769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 17 Sep 2025 11:02:24 -0000
+Message-Id: <175810694484.1996891.16840665348479620722@gitolite.kernel.org>
 
---===============6882935558487072387==
+--===============0703389090901400514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 5db5025d32e5b0b4c13198b5570f33d92ae941d3
-    new: 41f71deda1c12e063a0793252021f37e790d1ef1
+  - ref: refs/heads/master
+    old: d851caefc3267fd6c2cc52abfd305dab00abd893
+    new: 18086361df2259443c9c859668b7c8e15c097e28
     log: |
-         bfb1d99d969fe3b892db30848aeebfa19d21f57f usb: gadget: Store endpoint pointer in usb_request
-         201c53c687f2b55a7cc6d9f4000af4797860174b usb: gadget: Introduce free_usb_request helper
-         75a5b8d4ddd4eb6b16cb0b475d14ff4ae64295ef usb: gadget: f_ncm: Refactor bind path to use __free()
-         47b2116e54b4a854600341487e8b55249e926324 usb: gadget: f_acm: Refactor bind path to use __free()
-         42988380ac67c76bb9dff8f77d7ef3eefd50b7b5 usb: gadget: f_ecm: Refactor bind path to use __free()
-         08228941436047bdcd35a612c1aec0912a29d8cd usb: gadget: f_rndis: Refactor bind path to use __free()
-         41f71deda1c12e063a0793252021f37e790d1ef1 Merge patch series "usb: gadget: Refactor function drivers to use __free() cleanup"
+         01f1dade160c112cf2cc4326ac887a7d42d032e6 add .vulnerable id for CVE-2023-53287
+         bc35ac74e14c46d30037c81ba166300567231625 add .vulnerable id for CVE-2023-53325
+         0cbefb8b73e8520597969dfe85a560ad0dc5076f add .vulnerable id for CVE-2023-53328
+         18086361df2259443c9c859668b7c8e15c097e28 update records based on new .vulnerable files added
          
 
---===============6882935558487072387==
+--===============0703389090901400514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758106281 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1758106227-203ee86ac6f841391217cfe8ed97ba98302871e9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758106995 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1758106941-97e00ecc28ac0ead48a571f5047f22bea7d8ddc5
 
-5db5025d32e5b0b4c13198b5570f33d92ae941d3 41f71deda1c12e063a0793252021f37e790d1ef1 refs/heads/usb-testing
+d851caefc3267fd6c2cc52abfd305dab00abd893 18086361df2259443c9c859668b7c8e15c097e28 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKkqkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iEYP/3gXJ8QoBpazLXrdQCmD
-nDoFMJsjqKq8F52dTmYpVjtzaC2+ONBl5ToLDH4XiwQqCDfpwhW0QRZLhCq5ty76
-VGr+fGCpJGec8lDICUw/NGWviSVQKwX/+sxSXgxtHrFjZMPUlBeexsvuCjcX/GDN
-wbVs8d+trDKcQ3L5SMfO/vPCEHb7Zr+HzlU1+dJWFF0a2x20RibtdaT2JJpTMnDi
-5vfQYAMNrso2CYknlnLrmQ52Gj7JXLWkDC5n6Xf0RsNclRGMoi3Q1EF2Pg8tlbIC
-02QlW6QREmkMiauRlKvMLAB46/Mmzv81DY7jVdRkdCzG1XAce2cvsvt46KnKZJZO
-+ynbl9CrG7vrS/iedxH5EPnyk22zAT7F/qnWnUsCAbf7VlB7OBhQ1wLKcjIPu8wb
-NYgoecGMqD5kzuIbswvW3xQjTigf2Sl1ZFRTljb3G1nDqOY5X9h6I+gPB4tfD89M
-xpL0wAQ9clLU+2IYLaByaxuE34SF7MT+B41jzl42ugqI1CZ/YgXBPt3hItUCa8AI
-rK0WQ6yiC3c4WnZT1IBhZTK5CNu+56C8VNXemDsqnH9GWfEl8UYuDM1kFUDLHB8+
-dvEZoA+6g2ZPRdYPq6O54NB/Hm0I2c01beLPcXeHaifhqKxa1wmq2AxtHjD1r3wD
-fOAzQhtCU89bf5cNGb6S8Mae
-=FPq2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKlXMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wIEQANcaAm0XRfsepsGMn+KR
+b96dbSMvpBsYXyQokEuOA4n+rFZTEKXybeQHWBJDBku9HT98QvhLtLIf5wpip8nA
+CBU70tzS8kBwqf6EKdxim9exZbqt/W/4dkkM54SXq4oAgf0ouaE53GfVXNpF3z1O
+VJco5D13+gKOHoIe5+f6vwg1g9JdeMIiZeZCAKQxsuk3p8U/eXbRtbbmRbifiicB
+TpcIYEwOh95TH/DoblzsZr1Z4zBJlqCIUw0R9Bcmo/K5SI+cmfqnPcyni4jcb4L/
+xhF5F5e9LXsJ7ZH/oLVhDwqwuqZ8RuYbZllNu71nWDSsUvyhG8kUiwiPxBYRx06b
+vzFvVsj144xS/lFqvTNnc3ZpUtMCKUHr6Lo6njQNLqEU3/vMUBiymUtrEfdiR4gO
+9MNsXHiAILRsPizIPXl02pBilR/xw2rGkULRxxfwewq+ydsNOo0nHvc8UQ/ItxZZ
+1CTqee/m5TIuSVyrWnOVTePI2mSpsGRuz3umLb5ZU5o10F8jZqnFC6Z8n2r2IHz1
++WVtCbJ5TMnciO8cCP35a8xtIjH7csmtIk5rR3yoi+wjuSvh93JBqT8dWMcInabF
+EwErFwmp5zCnA4NGHR+6RIab07WxW3WwFE4t1O8gY8JR7QaPerRuFS2o2df84h9/
+9zkt7jenhy7qvCDypXr5C8AV
+=LPPa
 -----END PGP SIGNATURE-----
 
---===============6882935558487072387==--
+--===============0703389090901400514==--
