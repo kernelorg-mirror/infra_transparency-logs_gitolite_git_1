@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8193471996541085890=="
+Content-Type: multipart/mixed; boundary="===============9182604234611826912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Sep 2025 02:24:27 -0000
-Message-Id: <175807586724.1549482.12519139339953401458@gitolite.kernel.org>
+Date: Wed, 17 Sep 2025 02:24:32 -0000
+Message-Id: <175807587249.1549664.12375414061613226118@gitolite.kernel.org>
 
---===============8193471996541085890==
+--===============9182604234611826912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: e69477821c10df3a248df61409123e09a13a566a
-    new: 7f7b57524a88332d50e22096a92cb268abb4a4e1
-    log: revlist-e69477821c10-7f7b57524a88.txt
+  - ref: refs/heads/6.18/scsi-queue
+    old: b620462bba6655b47d127db70d18123c7af522d4
+    new: fea2bfde3d52fbcfc7698c01954bee8b57d42abf
+    log: revlist-b620462bba66-fea2bfde3d52.txt
 
---===============8193471996541085890==
+--===============9182604234611826912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1758075894 -0400
+pusher 75C5DE3D 1758075923 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1758075840-5618fad4e86a2ea4d4706c63ea044446e9e301e1
+nonce 1758075870-0c75302a7499da3581a56824276f4eca46599cfb
 
-e69477821c10df3a248df61409123e09a13a566a 7f7b57524a88332d50e22096a92cb268abb4a4e1 refs/tags/mkp-scsi-queue
+b620462bba6655b47d127db70d18123c7af522d4 fea2bfde3d52fbcfc7698c01954bee8b57d42abf refs/heads/6.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjKG/YACgkQ7ulgGnXF
-3j2gUw//UgGhNVtKPpQE9wXKuUIb/CKjtl2KGP0Ns14xO3DDEg6AP42PCsJ/cHwP
-Tnucdc+kVSFpNsu8VRflQ16208y8tsjQfNeldJ1OxrJrXIilMYDYD3XkNfOgHftY
-nCCGcasnqEIkxMBT8DQImx4flMFNmv3Ew00mpo6xLKWzyJ92ASD9x41t1PITKqOR
-NogQtaQlncKyEkpjkBp/7ex/lP+JLfcb5iijQBPcDpnGJLJDSN2EEjab8g333PPb
-AIhabLgm9kXfxYA9mBKqdgRsuC0YIsubUujdKLeNvIbl+RQVlSef6+WxVOPhgbC4
-b4xYTjRNHLeLfSXkjJPKfyIm3GaCVU4BZQifv2k3XjOcbbgtgOLJcFx0d/FLFGp3
-vMH8/ZFYns7TFmhCtA2pAt+RkH8Fk0L1Ldpo75o9WmYrak0Y9b1Ib/qwdsD6gIV/
-oTWZbpFqJeTnrgwlnbVjhk0IYJSw1YA0cstVnyJycDaWloPAu2a6yGYoYr5m/S4v
-BNNoXxZ/uKgoVw0rMxTDyX0YPSGvBvTbZhzEhcyP6dcvAFl/W3Js5omiZdgyKy3c
-z9yxYNwgzyJNuDGYvXUCurz/9MGG5haVIAoPgTiKbHv0XvwSGaeNNnMyodt+LLeU
-T+coIJNtWriqc3Lf5sebsIaJDUMhunhO7lkAxXukgHjUBJd4v7k=
-=Lvpo
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjKHBQACgkQ7ulgGnXF
+3j2TYxAAmQ3jyCF3zhfc8xSxFLZNflndtiVyT6EYEkqjFafhNp/guv0ubevsnBWb
+1sb67A9kZuYoQNfoQqxdYvzBE1cqdikQrigXernGnNTmBfuvKrQTJMoeHfhwZYB3
+e07f6ldUqbxd+oOhKTn/sk+lv6mrGvv7Dg/OE8pJwcUtQJPXQMi6/cTb0i6Acj2b
+htfIvmQmCOXUqbFMAscdFs0iK2xPbfmuYXB+Ol/TVOlyFzjTiYWzvpfwGKUE9gJj
+YqE3zrP04oU3Mng99QCAVDBTZdhMvcH4gaedCUiBMzYw2YxFdV8KvsGuoNjpL0At
++60R81Z789pS64kLnjY4bxTH3caIH0+JOKKDOcpacNEoftFFF1jUYwRrp0EGLxuB
+FqyfE2BKlXpHlvVyVMKR+I0lh9pbheLOgfMbN5fEDailwiYuU38D1qloR5JpbT5w
+GWaCJ1zpgTVnHUEa+T5WqeQ7FC7peZdn0zIYVl10pBsOH2UYDsbc6inU+8IDQoH1
+2VDTOKlXem52qM8hw2AV6QZmJYN1Hvp4ewzHT1HVhu4z22Kc44dQBkPcngTnjtAJ
+al3cHxtYv9adROA6IQNM2fxCHthsbiEMM4IOsXAbzBG1SsOxLfyZfdOOi9hj+HF7
+B1Pp1My2ULWGYXi67p2fRkV9w+ZznqeHyauK+6t9DJGBDNmVew4=
+=YW4t
 -----END PGP SIGNATURE-----
 
---===============8193471996541085890==
+--===============9182604234611826912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e69477821c10-7f7b57524a88.txt
+Content-Disposition: attachment; filename=revlist-b620462bba66-fea2bfde3d52.txt
 
 b0aca7ae828560b103016620be7fd4c302da4176 scsi: target: iscsi: Use int type to store negative value
 5cffc679ad1de542ef8a247b12283cbe57511fc8 scsi: lpfc: Use int type to store negative error codes
@@ -77,4 +77,4 @@ bc5dbf7739594b05c673ab3905471257be9921e7 scsi: ufs: ufs-qcom: Refactor MCQ regis
 d76afd8d2dc43d841b84a9f539b9f84ff79d055c Merge patch series "Simplify MCQ resource mapping"
 fea2bfde3d52fbcfc7698c01954bee8b57d42abf scsi: bfa: Remove self-assignment code
 
---===============8193471996541085890==--
+--===============9182604234611826912==--
