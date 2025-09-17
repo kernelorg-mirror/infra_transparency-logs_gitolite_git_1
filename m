@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Wed, 17 Sep 2025 13:22:54 -0000
-Message-Id: <175811537488.2157039.2011110673796433365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 17 Sep 2025 13:25:44 -0000
+Message-Id: <175811554449.2160704.798727880526125023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dev/gicv5-fixes
-    old: 999deda18864b78a3e92ef55423326b48cb9954a
-    new: 0121931a4f3e633473a7edbf9f4fe3113babf27a
+  - ref: refs/heads/master
+    old: 430b8b1b024b4f452aa1f641137c9b132c812435
+    new: c6dcf6b714501768ab7ea293e75d945be0eec188
     log: |
-         0121931a4f3e633473a7edbf9f4fe3113babf27a of/irq: Add msi-parent check to of_msi_xlate()
+         c6dcf6b714501768ab7ea293e75d945be0eec188 transport: Fix build with VCP support disabled
          
