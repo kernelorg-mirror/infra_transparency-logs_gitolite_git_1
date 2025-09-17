@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3160564183851424307=="
+Content-Type: multipart/mixed; boundary="===============1122719856174449059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 17 Sep 2025 10:42:38 -0000
-Message-Id: <175810575844.1979589.3143547737081835599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 17 Sep 2025 10:42:43 -0000
+Message-Id: <175810576300.1979774.5076366607564445411@gitolite.kernel.org>
 
---===============3160564183851424307==
+--===============1122719856174449059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: db87bd2ad1f736c2f7ab231f9b40c885934f6b2c
-    new: b6f56a44e4c1014b08859dcf04ed246500e310e5
+  - ref: refs/heads/usb-testing
+    old: cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4
+    new: 5db5025d32e5b0b4c13198b5570f33d92ae941d3
     log: |
-         a38108a23ab558b834d71d542d32c05ab0fb64d4 wifi: iwlwifi: pcie: fix byte count table for some devices
-         e882985b09b2469b7d48389e08fb790dc9497d60 Merge tag 'iwlwifi-fixes-2025-09-15' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-         b6f56a44e4c1014b08859dcf04ed246500e310e5 net: rfkill: gpio: Fix crash due to dereferencering uninitialized pointer
+         dd0d2618e3f815a030622599e540d3be1964a888 dt-bindings: usb: Document Renesas RZ/G3E USB3HOST
+         f7acd12eba05fb9e7dba3222e2aeca5f49d38b3a usb: host: xhci-rcar: Move R-Car reg definitions
+         2ef16e4eb41fe711479d92805e4b9e430c7bbefd usb: host: xhci-plat: Add .post_resume_quirk for struct xhci_plat_priv
+         5db5025d32e5b0b4c13198b5570f33d92ae941d3 usb: host: xhci-rcar: Add Renesas RZ/G3E USB3 Host driver support
          
 
---===============3160564183851424307==
+--===============1122719856174449059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1758105783 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1758105729-e31124ef5a7055dac26ea9b5c88ef83c1c7c78b6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758105814 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1758105760-01ba92731eceae6d88771003761cc26d0c91ea50
 
-db87bd2ad1f736c2f7ab231f9b40c885934f6b2c b6f56a44e4c1014b08859dcf04ed246500e310e5 refs/heads/main
+cfd6f1a7b42f62523c96d9703ef32b0dbc495ba4 5db5025d32e5b0b4c13198b5570f33d92ae941d3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmjKkLcACgkQ10qiO8sP
-aABOFw//TAaeuO3XJ2jq4y6ImwwgUjmtwaM1+OL2A9huxXuJiyvEuXWJTkrYw4ZO
-UyWZahbJ1OwjKOPggAwP27Pbz1Sg9QZ/Z179Eo3zRknbCFxILi/BkGz0eR97RXmA
-dfnMKmucxDwZhC3/vadu/c99/4l3T9+f/0+a/HTa+STescUs9/1HOoo44RVV0D6e
-rF95/1Jh7ZLraw+lDHEldkFuGy+0aMOhpTf4DQB7oRsQRA7jAckrBRbdt2zMyanm
-bSSxHWzw+74LvqAB0QyM5S0vaeYgGe3PxnIBH+Ug/KDnMRQnN0UGcKMncY1sGf4R
-4/+Uo1OH58yMYmriS2YDqev+8DSw6VIhRBxtRrLyunx9f3sPN9gpNAdRF0DZL/J5
-/o4Vs91V5lGrp7u5ocZxgkc1GgAYnythndLbHoVcSN/ZBOASqU1PS6xgEpqHNUIV
-P7pXHmSVUh2KO8envTMpG7aUW4QVxpAUV1ztn1cjHIA/MnOrJiCUjbt3C4lvDOtz
-tf9anEjN+BgkKKGRcOLQJDEC9MnrU54rbxPDRLrdCt752pi6tLPq/FgJH7AgcJ9E
-HymeSYh4ClNastZvuVnEkIMDPaVEXiZ87d7B+Vk33lbKq10Jhb4hef0Y/AHZzR76
-huAmBzruOBejU0oaCucEraIXIq1CrcUPVCQKoiXqLa+c7ETRXdo=
-=80wQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKkNYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cIgQANetqjsySizo6M8l7cT6
+N6yQVPL0bjx4uPMqyKDnGKD4iULf/vmhi43A5fZNTkXk+3RtZYQ1GboXSxzHZQ7Z
+4vIVlctChUsODTs7oGDiUbk1i089jy/IPBJ9NOa7+/V6iiJp+3hYStsaO0hW0gKH
+BwDct3HyjP9SKhZPGdfM3nsgTIXewBNT9Y2MFrpFQiucPgx71HOviha/nYd6q5Mh
+E/X0Nvo50T/bFJy4b0yETsJPvMvGotQHgaO884Qi9ggePzuVnHnou/0JEY76cJZv
+vCx+HUDSBzJ/QVQhxWYXcAY9f4aw2PTcUdU6urhpCsnlDd7dUFHL+vL7RKAbpFdM
+5O5ZF0jHkwMhGKVmnam6lYRWoRZmpzsO4x4NhBw9apahmgLl+ZJecv3m4FY3XJeR
+VN1smUblxafaOzWs3QpFL9d2IA2a+gysJ/SOF+trzQyejmS9zSzp7SJIJc4rYCPb
+aKznUCaMq05BWLyRGu25KG9ihvTE2DAoHtMkWa4vy57N4SGut6nP3HPAU2r3CHAp
+bb475x9cJLrqGk7DCvuxAEaRCrnioeExFGf0lKKY3E4jrgAX+C/3hEkn1F0w/Ma3
+lQIjJk+IJtOFReyrveqDBifUVV4jhHhvbfMV901rfS0VQ6oTxndvuKEgtPLgpK6W
+xIryMH4J1+OBqyqX9XbgmG0F
+=0ixc
 -----END PGP SIGNATURE-----
 
---===============3160564183851424307==--
+--===============1122719856174449059==--
