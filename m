@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 17 Sep 2025 00:21:24 -0000
-Message-Id: <175806848453.1442632.18023952190470368716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 17 Sep 2025 00:23:40 -0000
+Message-Id: <175806862015.1443613.14200985474324594091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/tags/0.10.44
-    old: 0000000000000000000000000000000000000000
-    new: 80d46cde879d9ff52e78782e7220cb81c1e885c4
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 576bd7a8c90c48e9e93a18de0bcc0fa1e0a5433b
+    new: afdaeaf7da044073f95845a27749c4a47712b72d
+    log: |
+         be0ff68ad70daf92f6cdb699f1dcdf8c85925921 perf tools: Update header documentation on BPF_PROG_INFO
+         3e549f4abd95aee7f97139fee0dc2446c54697dc perf tools: Remove a pointless check
+         afdaeaf7da044073f95845a27749c4a47712b72d perf test shell lbr: Avoid failures with perf event paranoia
+         
