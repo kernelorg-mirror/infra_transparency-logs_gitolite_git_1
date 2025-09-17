@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 17 Sep 2025 00:17:33 -0000
-Message-Id: <175806825304.1438023.12587704237316425355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 17 Sep 2025 00:20:19 -0000
+Message-Id: <175806841974.1441679.2161232372280983411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/0.10.x
-    old: ac380fc7bad2428d9f37e40bc0a4d17b3db0af58
-    new: ff4c83c03c62f20138a76d819f9bc950bf1981df
+  - ref: refs/heads/main
+    old: 94ff1ed3030e88cfe4e34c1d47c5832995c953c8
+    new: 8c4748539985489b59a00b4c2ae919253b3d2762
     log: |
-         ff4c83c03c62f20138a76d819f9bc950bf1981df fix(data): incorrect asym declarations
+         6b4be64fd9fec16418f365c2d8e47a7566e9eba5 net/mlx5e: Harden uplink netdev access against device unbind
+         7601a0a46216f4ba05adff2de75923b4e8e585c2 net/mlx5e: Add a miss level for ipsec crypto offload
+         8c4748539985489b59a00b4c2ae919253b3d2762 Merge branch 'mlx5e-misc-fixes-2025-09-15'
          
