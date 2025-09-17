@@ -1,39 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 17 Sep 2025 13:49:10 -0000
-Message-Id: <175811695058.2178578.16581818942324649270@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8651246247199265767=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 17 Sep 2025 13:50:47 -0000
+Message-Id: <175811704710.2181151.14524576119749400758@gitolite.kernel.org>
+
+--===============8651246247199265767==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/block-6.17
-    old: 743bf030947169c413a711f60cebe73f837e649f
-    new: de09bcb81874b1c92bc624482e8d028dd454603f
+  - ref: refs/heads/master
+    old: 18086361df2259443c9c859668b7c8e15c097e28
+    new: 6ed0b999c0e23f556abb79af9847cfb4e92cfafe
     log: |
-         f0bd03832f5c84f90919bd018156b1b6eb911692 md: init queue_limits->max_hw_wzeroes_unmap_sectors parameter
-         de09bcb81874b1c92bc624482e8d028dd454603f Merge tag 'md-6.17-20250917' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.17
+         6ed0b999c0e23f556abb79af9847cfb4e92cfafe reject CVE-2025-38380 based on maintainer review.
          
-  - ref: refs/heads/for-6.18/block
-    old: da7b97ba0d219a14a83e9cc93f98b53939f12944
-    new: 336aec7b06be860477be80a4299263a2e9355789
-    log: |
-         0b507305a08c134722f363de6fe6f1ba84e313b7 blk-mq: Fix the blk_mq_tagset_busy_iter() documentation
-         336aec7b06be860477be80a4299263a2e9355789 blk-throttle: fix throtl_data leak during disk release
-         
-  - ref: refs/heads/for-next
-    old: 095845733fbf06bab4b9bbedb11bed621168930d
-    new: 0504a65672b65c7c30757b6776722061af5117a9
-    log: |
-         f0bd03832f5c84f90919bd018156b1b6eb911692 md: init queue_limits->max_hw_wzeroes_unmap_sectors parameter
-         de09bcb81874b1c92bc624482e8d028dd454603f Merge tag 'md-6.17-20250917' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.17
-         cd494a1046ebbe145eff69b4fea120e4015f87b7 Merge branch 'block-6.17' into for-next
-         0b507305a08c134722f363de6fe6f1ba84e313b7 blk-mq: Fix the blk_mq_tagset_busy_iter() documentation
-         c2351c45f1a60eade36865f809f212cc8a28e346 Merge branch 'for-6.18/block' into for-next
-         336aec7b06be860477be80a4299263a2e9355789 blk-throttle: fix throtl_data leak during disk release
-         0504a65672b65c7c30757b6776722061af5117a9 Merge branch 'for-6.18/block' into for-next
-         
+
+--===============8651246247199265767==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758117097 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1758117044-1325793ba57f50d8fe3ebb9c9239c1e181db684d
+
+18086361df2259443c9c859668b7c8e15c097e28 6ed0b999c0e23f556abb79af9847cfb4e92cfafe refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjKvOkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vd8P/j5Y22kZhH3/vV8c3+H9
+qERbyiv1zeDIVw4EjkiEPmc0UM4fRatfOiUDYmn2PcsgBrGeFIXf4AM7ZWxyvlH5
+Vuf30ZXunYmhOqQfqDaRGdvsgdvubGopmBk459yranBRS+cOLpcu8zyxYAQe60et
++mvBlMcVp2RGyWNFeeSBzpxP6pdjqh554oDet+vmwIc9OcdGw6xsgbLGZQ4E2ess
+aD32Z0KXcy4TgP8IjFe5NWpuxevwL/a0K5VoG/yuIcs3KAip2ZApL2D+T+atm6hi
+I79j2DlTH/NZgHRS9Pr5O471XQ4s5hfiAQI1ACsqcwzBJX5jxRSoO8OIReo9h/Af
+TInEVBTq4tNY1eLvLsowFLlYWWrN0X/wmgrh4xN8nt2UwCGPdcR9oV/c2xcsa2vH
+v3IFyN5yB03KVxUb9HYW2iYiSLMDORq7yhYBzeLCLMaLQiHzEOExRREB+nr5yMTo
+0kKeSOsr6cpuRCJEjyQgUtAjeEE+jeGQNmlYBy3Rrc1sR7LR/eG6e6JILnM127fV
+BCo4VuvS1KVlGxFBoFHzSDv5pvs6SS1kehw2KyTsFE1WUkZxZqIvjInTQEjGWQU8
+xE1cO6glorqivYp22xVE75CuFRj7bEbehuev002WD4jlT6gbXlA/ToqS2s+Qr8Xf
+/JXHHA1s1/CCVDCxhWLSvZGY
+=x4Dq
+-----END PGP SIGNATURE-----
+
+--===============8651246247199265767==--
