@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 17 Sep 2025 22:15:20 -0000
-Message-Id: <175814732014.2632480.14079583823690616068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 17 Sep 2025 22:15:21 -0000
+Message-Id: <175814732189.2632558.16448870251225195010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: dfc85640796b414385e50c932eb2b8ce4d38ce72
-    new: dc110d1b23564ce448cc4c9ff2346b7e1db4dd84
+    old: 8c4748539985489b59a00b4c2ae919253b3d2762
+    new: dc5f94b1ec8f9f65d1ad7a5f45fcac740544e35f
     log: |
-         0fcb1dc3e8044a20f584c3dbdf01ce6d2234ca4c ptp: describe the two disables in ptp_set_pinfunc()
-         a60fc3294a377204664b5484e4a487fa124155da ptp: rework ptp_clock_unregister() to disable events
-         aa9f09a26bfda97bdbdbec4bce2279a41300c969 Merge branch 'ptp-safely-cleanup-when-unregistering-a-ptp-clock'
-         dc110d1b23564ce448cc4c9ff2346b7e1db4dd84 net: cadence: macb: Add support for Raspberry Pi RP1 ethernet controller
+         a8ba87f04ca9cdec06776ce92dce1395026dc3bb bonding: don't set oif to bond dev when getting NS target destination
+         dc5f94b1ec8f9f65d1ad7a5f45fcac740544e35f selftests: bonding: add vlan over bond testing
          
