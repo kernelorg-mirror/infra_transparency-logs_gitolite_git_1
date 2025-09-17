@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3555962813009010864=="
+Content-Type: multipart/mixed; boundary="===============1250722145729060542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 17 Sep 2025 20:49:28 -0000
-Message-Id: <175814216803.2559633.9126914738457822168@gitolite.kernel.org>
+Date: Wed, 17 Sep 2025 20:49:30 -0000
+Message-Id: <175814217056.2559971.1354668392188901669@gitolite.kernel.org>
 
---===============3555962813009010864==
+--===============1250722145729060542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 949ddfb774fe527cebfa3f769804344940f7ed2e
     new: 5e87fdc37f8dc619549d49ba5c951b369ce7c136
     log: revlist-949ddfb774fe-5e87fdc37f8d.txt
 
---===============3555962813009010864==
+--===============1250722145729060542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d654d3fc2066c40586fa3b0538c0bf093e20b817 net/mlx5: Lag, add net namespace suppor
 739d911ce58a7827aefdcf0d0dc7397263c6f6ed Merge branch 'net-mlx5-refactor-devcom-and-add-net-namespace-support'
 5e87fdc37f8dc619549d49ba5c951b369ce7c136 Merge tag 'batadv-next-pullrequest-20250916' of https://git.open-mesh.org/linux-merge
 
---===============3555962813009010864==--
+--===============1250722145729060542==--
