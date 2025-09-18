@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 18 Sep 2025 11:04:52 -0000
-Message-Id: <175819349272.3341660.13371394258944967947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 18 Sep 2025 11:06:11 -0000
+Message-Id: <175819357125.3344064.6994329552836676901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next/cpufeature
-    old: 220928e52cb03d223b3acad3888baf0687486d21
-    new: 3ba8d4aa42bd5dc6e2493ce4a73bb41c9cfd77ca
+  - ref: refs/heads/main
+    old: 09847108971a97417b03af1f81b0adc8c586ab42
+    new: 4c05c7ed880fb58790731fb53571af67b7632d87
     log: |
-         f38c2c3e572ce0ce5c01de0358ed70328e0cb5af arm64: cputype: Add Cortex-A720AE definitions
-         3ba8d4aa42bd5dc6e2493ce4a73bb41c9cfd77ca arm64: errata: Expand speculative SSBS workaround for Cortex-A720AE
-         
-  - ref: refs/heads/for-next/selftests
-    old: 14a41628c470f4aa069075cdcf6ec0138b6cf1da
-    new: 5b7bdc4402b12bdad747cce305ecbc9737aed7ba
-    log: |
-         5b7bdc4402b12bdad747cce305ecbc9737aed7ba kselftest/arm64/gcs/basic-gcs: Respect parent directory CFLAGS
+         0aeb54ac4cd5cf8f60131b4d9ec0b6dc9c27b20d tls: make sure to abort the stream if headers are bogus
+         4c05c7ed880fb58790731fb53571af67b7632d87 selftests: tls: test skb copy under mem pressure and OOB
          
