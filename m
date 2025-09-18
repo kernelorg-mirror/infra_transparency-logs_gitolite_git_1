@@ -1,46 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 18 Sep 2025 18:22:27 -0000
-Message-Id: <175821974765.3733634.1486811439141145413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 18 Sep 2025 18:23:57 -0000
+Message-Id: <175821983756.3734466.11992219960862456701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/tags/0.10.0
-    old: 0000000000000000000000000000000000000000
-    new: c74e3de1f0ab2d2ab752080a958cba100e359cd6
-  - ref: refs/tags/0.5.0
-    old: 0000000000000000000000000000000000000000
-    new: 969eabe6802545f2bd02445a4dd63834700d71db
-  - ref: refs/tags/0.5.1
-    old: 0000000000000000000000000000000000000000
-    new: de5bd663da45316e406816cb2924c17faf67c997
-  - ref: refs/tags/0.5.2
-    old: 0000000000000000000000000000000000000000
-    new: b6d449856dba7c7f79e95581dfb6e83df31dadd4
-  - ref: refs/tags/0.5.3
-    old: 0000000000000000000000000000000000000000
-    new: 6b0409dfc92a305dca0ccc7c7d27cd036fb0d31f
-  - ref: refs/tags/0.5.4
-    old: 0000000000000000000000000000000000000000
-    new: 68ae805fded1ad3c3949a4207f31dd5b1130a849
-  - ref: refs/tags/0.6.0
-    old: 0000000000000000000000000000000000000000
-    new: b5076708acedb9d59337693df66dfd0473a8cea6
-  - ref: refs/tags/0.6.1
-    old: 0000000000000000000000000000000000000000
-    new: b02a2f6f465600387f952a5b2169b3d7ff605ced
-  - ref: refs/tags/0.7.0
-    old: 0000000000000000000000000000000000000000
-    new: 1ad8bb268cdedb917ff6c30149c4aa95596c7e14
-  - ref: refs/tags/0.8.0
-    old: 0000000000000000000000000000000000000000
-    new: 301ccd6ae2884c470edb9950e18c4e40bc1eb298
-  - ref: refs/tags/0.9.0
-    old: 0000000000000000000000000000000000000000
-    new: 78c4479720e419cadb9f1641891b69c8ecea763e
+  - ref: refs/heads/anna-linux-next-6.18
+    old: 9a73b534e5451bbe960c2c75fd53343647d0adbd
+    new: 79f4defe4ab1ad7b6bd760e373d8c7392d25f690
+    log: |
+         4f5683a0903a8a2961b5434f8be1037915b17832 nfsd: discard nfsd_file_get_local()
+         ab4f202e9cd8a22e80176ec83885addbd5b84f0f NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+         8337b52a74a46b583563cf096a4613a8abdd1eb1 nfs/localio: make trace_nfs_local_open_fh more useful
+         32b46bf5c20c32cb00fd24a61b2a5aadbdd0f801 nfs/localio: avoid issuing misaligned IO using O_DIRECT
+         2dfcd7d9dbef5574dfc178953a9d151d0410c599 nfs/localio: refactor iocb and iov_iter_bvec initialization
+         bc6aa887603456d5b1a7484059d220c878754cec nfs/localio: refactor iocb initialization
+         48c1663a8b1ba09f770fe7c9f6cf7b8117740633 nfs/localio: add proper O_DIRECT support for READ and WRITE
+         f5dbc64124226ba461890dd82fe53730832f5be6 nfs/localio: add tracepoints for misaligned DIO READ and WRITE support
+         79f4defe4ab1ad7b6bd760e373d8c7392d25f690 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+         
