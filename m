@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 18 Sep 2025 15:35:20 -0000
-Message-Id: <175820972018.3581566.2254457645377317195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 18 Sep 2025 15:37:18 -0000
+Message-Id: <175820983815.3582509.18388519512980943706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/dev
-    old: 9f31ba919cc9a13b1cd8641114ed4d7c2a0eca98
-    new: a699e5de9a4d8330b3b58841248108c32ff25eaa
+  - ref: refs/heads/next-merge
+    old: 42c21838708c20dd8ba605e4099bf6a7156c3362
+    new: ff3d90903f8f525eedb26efe6fea03c39476cb69
     log: |
-         05ea6022e28c8a7a6e29caf2c85430e1ae1cab83 srcu: Create an rcu_tasks_trace_expedite_current() function
-         93d7d2fb1d2fe5e80dd333caec75ba669fdb4325 rcutorture: Test rcu_tasks_trace_expedite_current()
-         b177912aa512fd2c5605eabfa222e9ca092f481c srcu: Make DEFINE_SRCU_FAST() available to modules
-         f7009a3b4bb971e830d982cbe49ce53badbb00c5 srcu: Make SRCU-fast available to heap srcu_struct structures
-         850fc6627e2371221ad9af57f5a01f7c4ca721ba srcu: Make grace-period determination use ssp->srcu_reader_flavor
-         a699e5de9a4d8330b3b58841248108c32ff25eaa rcutorture: Exercise DEFINE_STATIC_SRCU_FAST() and init_srcu_struct_fast()
+         d5409ebf46bb0735ba26c64d7a9c80dde3f94eb6 xfs: remove xfs_errortag_get
+         991dcadaddcced38c5d2da656862d94a1fc9e6e5 xfs: remove xfs_errortag_set
+         807df3227d7674d7957c576551d552acf15bb96f xfs: remove the expr argument to XFS_TEST_ERROR
+         b55dd72798115015908f4a17a1f8d70e8e974ab4 xfs: remove pointless externs in xfs_error.h
+         71fa062196ae3abab790c91f1bdf09dcdc6fb1fe xfs: centralize error tag definitions
+         8e1cfa51320da0cf599d286c89db043f329ca6b0 xfs: improve zone statistics message
+         ff3d90903f8f525eedb26efe6fea03c39476cb69 xfs: improve default maximum number of open zones
          
-  - ref: refs/heads/dev.2025.09.15a
-    old: 0000000000000000000000000000000000000000
-    new: f81c21ec3fca688bfcb6fa0abaf70404655765dc
