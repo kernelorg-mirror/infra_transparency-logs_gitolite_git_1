@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6863233007527203659=="
+Content-Type: multipart/mixed; boundary="===============3949401305891483337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 18 Sep 2025 14:02:37 -0000
-Message-Id: <175820415738.3496893.12883293196776786757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 18 Sep 2025 14:04:35 -0000
+Message-Id: <175820427502.3498508.922660268600437799@gitolite.kernel.org>
 
---===============6863233007527203659==
+--===============3949401305891483337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: fe83c90e49e9cf8bff664b5f97e1ee4678176b19
-    new: 8d46a6c990abe172e1ec0decbe2a5403d6a19273
-    log: |
-         8d46a6c990abe172e1ec0decbe2a5403d6a19273 strip the new mbox files
-         
+  - ref: refs/heads/misc
+    old: b620462bba6655b47d127db70d18123c7af522d4
+    new: fea2bfde3d52fbcfc7698c01954bee8b57d42abf
+    log: revlist-b620462bba66-fea2bfde3d52.txt
 
---===============6863233007527203659==
+--===============3949401305891483337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b620462bba66-fea2bfde3d52.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758204210 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1758204156-95ab7046b167e3abb9fe291d2eab73c010f79b74
+b0aca7ae828560b103016620be7fd4c302da4176 scsi: target: iscsi: Use int type to store negative value
+5cffc679ad1de542ef8a247b12283cbe57511fc8 scsi: lpfc: Use int type to store negative error codes
+8791b07894ab75361195094828dc56b7ed449c36 scsi: scsi_debug: Replace kzalloc() + copy_from_user() with memdup_user_nul()
+3126b5fd02270380cce833d06f973a3ffb33a69b scsi: ufs: ufs-qcom: Align programming sequence of Shared ICE for UFS controller v5
+508e754c693162af1fdb6bc00dec0b3237c17462 scsi: pm80xx: Avoid -Wflex-array-member-not-at-end warnings
+faac32d4ece30609f1a0930ca0ae951cf6dc1786 scsi: ufs: host: mediatek: Enhance recovery on hibernation exit failure
+15ef3f5aa822f32524cba1463422a2c9372443f0 scsi: ufs: host: mediatek: Enhance recovery on resume failure
+77b96ef70b6ba46e3473e5e3a66095c4bc0e93a4 scsi: ufs: host: mediatek: Correct system PM flow
+b2f8abadabea32c49b0d624232016347082b1aa9 scsi: ufs: host: mediatek: Correct resume flow for LPM and MTCMOS
+c73cd5e298c5a86cb5cf7019f787dffe9b784294 scsi: ufs: host: mediatek: Support UFS PHY runtime PM and correct sequence
+f5ca8d0c7a6388abd5d8023cc682e1543728cc73 scsi: ufs: host: mediatek: Disable auto-hibern8 during power mode changes
+f29ec85ac4fdd72469c0c5898f47301c7c95ead8 scsi: ufs: host: mediatek: Return error directly on idle wait timeout
+d73836cb8535b3078e4d2a57913f301baec58a33 scsi: ufs: host: mediatek: Fix adapt issue after PA_Init
+91cad911edd1612ed28f5cfb2d4c53a8824951a5 scsi: ufs: host: mediatek: Fix unbalanced IRQ enable issue
+2936049277ea3bfd38d12583755556290b9ea494 scsi: ufs: host: mediatek: Fix device power control
+7dc0d13d752986a50f6876806a100c97d3fbdcae Merge patch series "ufs: host: mediatek: Power Management and stability enhancements"
+2b9887b17ebe942cbef7cffc4e19fa2aa5fed4c8 scsi: ufs: ufs-qcom: Streamline UFS MCQ resource mapping
+bc5dbf7739594b05c673ab3905471257be9921e7 scsi: ufs: ufs-qcom: Refactor MCQ register dump logic
+d76afd8d2dc43d841b84a9f539b9f84ff79d055c Merge patch series "Simplify MCQ resource mapping"
+fea2bfde3d52fbcfc7698c01954bee8b57d42abf scsi: bfa: Remove self-assignment code
 
-fe83c90e49e9cf8bff664b5f97e1ee4678176b19 8d46a6c990abe172e1ec0decbe2a5403d6a19273 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjMETIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B/0QAISC2YWJAONidlYivh4d
-klReEY0B5GdDar9H9I+3xxQXshdaZDgYo6T02aHBS63rF5NwS6Kx1b50s+hmiU4g
-4XdHZ3+5qLFkIN5aUuDqXIgRQn4yQ5rygCt+dqZ8vXwtuNOG+EB5vLveNpuGtaQm
-wG3C4yrcKhrXIxE+QGRo9HIBFR7G41X0KwNM+wn8pEPut3xHp7wvhuThu/3ovv8P
-g0YhQieZNdpEKReRoNpwp1XVaww9Fk5C475PyHVV0MELNWuhT6jcmIcIHnusfiUM
-XvfY+eKbaI/eVMAm/ZUN4GiqCN5tgSn+oAI1Wtjqjx8YJTy63gXCnw4S7d6WDB/G
-jrjnUK3DQdjgw4vcyUY+1yzFDHwwcED1DAUhY92gJMGjKCGxrG/i1qZ3t1A75nEU
-L9Rr494YzFZFye4b2WGrW8+iGxKnCjlndHyVLwaOQJv3zvrsBMT6G9dSkMgpofg0
-jqZ0sCK8I9ziQLSRAlTOUQgfHasRy4Dl6zbVFizsSCbP/4jFFnlOZP2owslPHhxc
-kyfuMN47Z60Upk3nGCTsmK6jVCLmLciEfVSOZD7hlPzaZ1p5swpahzwpVhbB9/mq
-mi6xwCp0l9EObujozLcUi2rzr/r8d2kZDtPE1n6fNlRCmg5250JSatxpdbma8KP4
-olZu83wP7x7XOMfXCvX/EUIn
-=BzN1
------END PGP SIGNATURE-----
-
---===============6863233007527203659==--
+--===============3949401305891483337==--
