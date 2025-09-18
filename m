@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8115685324425068194=="
+Content-Type: multipart/mixed; boundary="===============8614202446450493063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 18 Sep 2025 11:00:54 -0000
-Message-Id: <175819325424.3338956.652897964367236129@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 11:01:44 -0000
+Message-Id: <175819330427.3339517.14186923597973133653@gitolite.kernel.org>
 
---===============8115685324425068194==
+--===============8614202446450493063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.18
     old: 4c7599398e83b0520745f2334924a1c900806237
     new: 5d420ba103c007252a55bae09bbf1ec344efa0d3
     log: revlist-4c7599398e83-5d420ba103c0.txt
 
---===============8115685324425068194==
+--===============8614202446450493063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c5f09540ca2aa2e1405cc6afc10c58eb5dc14775 dm-integrity: introduce integrity_kmap 
 dd2b6bcb2e6679d1d6cb59cea849703a75962eaf dm-integrity: enable asynchronous hash interface
 5d420ba103c007252a55bae09bbf1ec344efa0d3 dm-integrity: prefer synchronous hash interface
 
---===============8115685324425068194==--
+--===============8614202446450493063==--
