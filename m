@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/linux-firmware
-Date: Thu, 18 Sep 2025 18:04:05 -0000
-Message-Id: <175821864595.3716467.9902741754901926041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 18 Sep 2025 18:05:21 -0000
+Message-Id: <175821872192.3719290.4902796415265211911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/linux-firmware
-user: jjohnson
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/ath-20250918
-    old: 0000000000000000000000000000000000000000
-    new: 1d588f106ceea113c4c650b43d948da5746e704c
+  - ref: refs/heads/next
+    old: 3e23a3f688b457288c37899f8898180cc231ff97
+    new: 2c55daf7de07158df2ab3835321086beca25a691
+    log: |
+         2c55daf7de07158df2ab3835321086beca25a691 selftests: always install UAPI headers to the correct directory
+         
