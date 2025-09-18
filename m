@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 18 Sep 2025 21:22:34 -0000
-Message-Id: <175823055495.3933282.13105200830381867878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 18 Sep 2025 21:26:52 -0000
+Message-Id: <175823081213.3937482.17877484018237578433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/pending
-    old: b2fec09f82faf2dd3eabdeb160aa4221d3a4a4b7
-    new: 9ae30dd7fa8b78545e4a647ad7e43da60666c286
+  - ref: refs/heads/main
+    old: fbbc8c43a73456e1b0e5ca9a7aacc73d5f493d54
+    new: 5dc549b3738c55233275361cc1c739de8fb628fc
     log: |
-         fb20df909de0f1b7171be42ba324276c725847dd wifi: ath12k: enhance the WMI_PEER_STA_KICKOUT event with reasons and RSSI reporting
-         cc4fa178131127899312ac370ef9c1c09b9b6dbf wifi: ath12k: Add support to handle reason inactivity STA kickout event for QCN9274/IPQ5332
-         9ae30dd7fa8b78545e4a647ad7e43da60666c286 wifi: ath12k: Extend beacon miss handling for MLO non-AP STA
+         3c3a3e6e746b30c56b58b8764324319f85bc74f1 refactor(command): consolidate loading to 'load'
+         43ceef7a26ae9aadf04b3892a20a348a81a59d92 feat(delete): handle TPM_RC_HANDLE
+         ab9d7939a878270ec3fdefd4a007153c959675e3 refactor(pcr-event): simplify command-line
+         5dc549b3738c55233275361cc1c739de8fb628fc feat(contex): load_object
          
