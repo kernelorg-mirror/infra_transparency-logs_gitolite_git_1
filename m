@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 18 Sep 2025 18:22:18 -0000
-Message-Id: <175821973893.3733399.14943871732895882390@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 18:22:27 -0000
+Message-Id: <175821974765.3733634.1486811439141145413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
-  - ref: refs/heads/main
+  - ref: refs/tags/0.10.0
     old: 0000000000000000000000000000000000000000
-    new: 464dea81dc755d7e20c4206336f4a8aeeef93033
+    new: c74e3de1f0ab2d2ab752080a958cba100e359cd6
+  - ref: refs/tags/0.5.0
+    old: 0000000000000000000000000000000000000000
+    new: 969eabe6802545f2bd02445a4dd63834700d71db
+  - ref: refs/tags/0.5.1
+    old: 0000000000000000000000000000000000000000
+    new: de5bd663da45316e406816cb2924c17faf67c997
+  - ref: refs/tags/0.5.2
+    old: 0000000000000000000000000000000000000000
+    new: b6d449856dba7c7f79e95581dfb6e83df31dadd4
+  - ref: refs/tags/0.5.3
+    old: 0000000000000000000000000000000000000000
+    new: 6b0409dfc92a305dca0ccc7c7d27cd036fb0d31f
+  - ref: refs/tags/0.5.4
+    old: 0000000000000000000000000000000000000000
+    new: 68ae805fded1ad3c3949a4207f31dd5b1130a849
+  - ref: refs/tags/0.6.0
+    old: 0000000000000000000000000000000000000000
+    new: b5076708acedb9d59337693df66dfd0473a8cea6
+  - ref: refs/tags/0.6.1
+    old: 0000000000000000000000000000000000000000
+    new: b02a2f6f465600387f952a5b2169b3d7ff605ced
+  - ref: refs/tags/0.7.0
+    old: 0000000000000000000000000000000000000000
+    new: 1ad8bb268cdedb917ff6c30149c4aa95596c7e14
+  - ref: refs/tags/0.8.0
+    old: 0000000000000000000000000000000000000000
+    new: 301ccd6ae2884c470edb9950e18c4e40bc1eb298
+  - ref: refs/tags/0.9.0
+    old: 0000000000000000000000000000000000000000
+    new: 78c4479720e419cadb9f1641891b69c8ecea763e
