@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Thu, 18 Sep 2025 16:57:37 -0000
-Message-Id: <175821465704.3658491.4548113727086171890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 18 Sep 2025 17:02:54 -0000
+Message-Id: <175821497450.3663141.16954532003696641855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 950b6dd5d7812d101bf30ac0b4c94bedcc2a9d23
-    new: 6d7fac6a90732a11f9ffed67fef3b3217ae05901
-    log: |
-         45bf4cad464db93fe0b7553db9ad9ef825bb94c4 rteval: services.py: Fix SyntaxWarning
-         6d7fac6a90732a11f9ffed67fef3b3217ae05901 rteval: Make timerlat the default for rteval
-         
+  - ref: refs/heads/fileXyyKuJ
+    old: ab63e9910d2d3ea4b8e6c08812258a676defcb9c
+    new: 0000000000000000000000000000000000000000
