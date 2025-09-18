@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 18 Sep 2025 23:08:51 -0000
-Message-Id: <175823693162.4030977.15561639591823348392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 18 Sep 2025 23:09:31 -0000
+Message-Id: <175823697134.4032176.9686413073387784725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 59340683ee6e92030b2ae221a9e00d274ee5f892
-    new: a8091a2736685f3939fa6559e3544bc21cf9ade3
+  - ref: refs/heads/ethos-v3
+    old: 6097eb6b3b2c4005a3764dcee104a4a98884dec7
+    new: 6bafb6b0701a741e75c9f159f3b6e8cf07d48b55
     log: |
-         a8091a2736685f3939fa6559e3544bc21cf9ade3 foo
+         6bafb6b0701a741e75c9f159f3b6e8cf07d48b55 accel: Add Arm Ethos-U NPU driver
          
