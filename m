@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 18 Sep 2025 15:16:25 -0000
-Message-Id: <175820858562.3562645.10225692491882966521@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0652653060449382968=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 18 Sep 2025 15:19:36 -0000
+Message-Id: <175820877643.3564791.2413582328027360696@gitolite.kernel.org>
+
+--===============0652653060449382968==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 4d4a3cc7f280b2751a6967b25c6d8c1e2740cafd
-    new: 16d18e3eaf29be1d987f5238ec03226f15dad5f5
+  - ref: refs/heads/char-misc-testing
+    old: 9441d6b876529d519547a1ed3af5a08b05bd0339
+    new: 3ebcd3460cad351f198c39c6edb4af519a0ed934
     log: |
-         f3243bed39c26ce0f13e6392a634f91d409b2d02 riscv: mm: Return intended SATP mode for noXlvl options
-         17e9521044c9b3ee839f861d1ac35c5b5c20d16b riscv: mm: Use mmu-type from FDT to limit SATP mode
-         01dc937ac18dd0bc0fc77c24030639553f977ffe drivers/perf: riscv: Remove redundant ternary operators
-         316b60b984d5be9b86047cdf3bf16d51c7c70cc5 riscv: mmap(): use unsigned offset type in riscv_sys_mmap
-         cc2294d3f9c99c216ef563b83b08d2c0604f9b92 riscv: introduce asm/swab.h
-         6dab7e15c0b312be79ccadf85c9ec7332427ba7b riscv: pi: use 'targets' instead of extra-y in Makefile
-         205cbc714842478df4239b5be205b9b459fd9fbc riscv: Enable ARCH_HAVE_NMI_SAFE_CMPXCHG
-         92c4995b4d494f197858a79c6c6af7b6b06d38bf RISC-V: ACPI: enable parsing the BGRT table
-         16d18e3eaf29be1d987f5238ec03226f15dad5f5 riscv: Move vendor errata definitions to new header
+         3ebcd3460cad351f198c39c6edb4af519a0ed934 binder: fix double-free in dbitmap
          
+
+--===============0652653060449382968==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758208828 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1758208774-ca8fd89f9184ff11413bdb8c7fb1af8a425caf01
+
+9441d6b876529d519547a1ed3af5a08b05bd0339 3ebcd3460cad351f198c39c6edb4af519a0ed934 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjMIzwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1kIQAJRkpQK1e8ubIe5JnFCv
+lkoJ+i9homGCQA2dxPalgTKAVDjQWDoIlHw0p9Eb8K+1i1kbHjUnN+ysXsZPdggl
+xWosXrnBliYEftkmnRugZBLlMRWN9w3brP3nlLoWMmXZ9aQU3T/fr1xQ+pbopzCQ
+PNwy+CSRGNlLJA0qZP1MZZPWRDTmQVhMmch7V0jH3fLh16Unaaycg0HsTZMHVXz2
+peuOP8iF4Oz6qWEMasVJheSQipdyhaWDTu2hzWaxPuJAxlMEG5AnMo6PgoTLZfcD
+dclNFQJxFTDHpzCozjeLF6ojuZvLMFkeDqMOCHw4nQ65aSx5efWeDN4o+Y3i9OvA
+quOPHgYp04KG/dnQWy3HcoR43JrfKjGL7hqT9c3wGhl5wE5w9HJXs+v2771rVCUO
+7DnIv2oNyptqAJmQQMN11e5v0g5t5be3kOcoMQ/JdwU0Cae+d4NiXpv1mj43YVkB
+DRmpVHiYGFu0d3yaBu+GLVw+i0gQYfCSE4p/76foXK/nA+MeRB0yOzw/oU1Cc0kL
+tAKutKYlyH+4v09NagLWb7GfY97kSLpjYWTUXNoLElf19ztqO4OfBj+gAYc0sl7c
+UZIDr9PuFolpQEff/DteNKHySErJK8uWQpHkKRImy0MFZUjDUz32ZZHiVidKSSly
++2nEsL7RdykAkDAMQk/m/Jnp
+=/VzE
+-----END PGP SIGNATURE-----
+
+--===============0652653060449382968==--
