@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 18 Sep 2025 20:11:37 -0000
-Message-Id: <175822629702.3867453.9240232966767187578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 18 Sep 2025 20:16:32 -0000
+Message-Id: <175822659252.3872018.9030528641914596749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: 464dea81dc755d7e20c4206336f4a8aeeef93033
-    new: 0115866b89be1adb27ff19e69c33be987dd1d534
+  - ref: refs/heads/dt/next
+    old: df4acfbcf59a35b265a340b6a25cd2feadc0eb97
+    new: e7847c0bd7ca55158fb77578d97893e113e2b22c
     log: |
-         0115866b89be1adb27ff19e69c33be987dd1d534 feat(tpmkey): TpmKey::is_parent
+         67aeda32b09b6a422637cdef0a03d6a665dcd8f4 dt-bindings: arm: Add Arm C1 cores and PMUs
+         e7847c0bd7ca55158fb77578d97893e113e2b22c dt-bindings: watchdog: Convert nuvoton,npcm-wdt to DT schema
          
