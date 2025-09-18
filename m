@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4268670593526810236=="
+Content-Type: multipart/mixed; boundary="===============7985931069003147401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 18 Sep 2025 16:44:48 -0000
-Message-Id: <175821388802.3645753.10380835530653796073@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 16:44:50 -0000
+Message-Id: <175821389050.3645888.7077365215942225798@gitolite.kernel.org>
 
---===============4268670593526810236==
+--===============7985931069003147401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 8c4748539985489b59a00b4c2ae919253b3d2762
     new: f8b4687151021db61841af983f1cb7be6915d4ef
     log: revlist-8c4748539985-f8b468715102.txt
 
---===============4268670593526810236==
+--===============7985931069003147401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ cca7b1cfd7b8a0eff2a3510c5e0f10efe8fa3758 net: liquidio: fix overflow in octeon_i
 cfa7d9b1e3a8604afc84e9e51d789c29574fb216 cnic: Fix use-after-free bugs in cnic_delete_task
 f8b4687151021db61841af983f1cb7be6915d4ef octeontx2-pf: Fix use-after-free bugs in otx2_sync_tstamp()
 
---===============4268670593526810236==--
+--===============7985931069003147401==--
