@@ -1,46 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0230702082734826039=="
+Content-Type: multipart/mixed; boundary="===============1674633742500840460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 18 Sep 2025 11:46:45 -0000
-Message-Id: <175819600552.3378709.17540764850143703766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Thu, 18 Sep 2025 11:50:54 -0000
+Message-Id: <175819625407.3382756.9388305965325963410@gitolite.kernel.org>
 
---===============0230702082734826039==
+--===============1674633742500840460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 4bcdd4498e809533f3b201f25788d9c0944de36d
-    new: 8dc5245673cf7f33743e5c0d2a4207c0b8df3067
-    log: revlist-4bcdd4498e80-8dc5245673cf.txt
+  - ref: refs/heads/cap-analysis/dev
+    old: 219a75ef543244c4335b6c050df8426ac8e15845
+    new: fe33147edc4d6f6641988dfebdb47dded5ff5563
+    log: revlist-219a75ef5432-fe33147edc4d.txt
 
---===============0230702082734826039==
+--===============1674633742500840460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bcdd4498e80-8dc5245673cf.txt
+Content-Disposition: attachment; filename=revlist-219a75ef5432-fe33147edc4d.txt
 
-baad7830ee9a56756b3857348452fe756cb0a702 objtool/LoongArch: Mark types based on break immediate code
-539d7344d4feaea37e05863e9aa86bd31f28e46f objtool/LoongArch: Mark special atomic instruction as INSN_BUG type
-b15212824a01cb0b62f7b522f4ee334622cf982a LoongArch: Make LTO case independent in Makefile
-74f8295c6fb8436bec9995baf6ba463151b6fb68 LoongArch: Handle jump tables options for RUST
-f5003098e2f337d8e8a87dc636250e3fa978d9ad LoongArch: Update help info of ARCH_STRICT_ALIGN
-a9d13433fe17be0e867e51e71a1acd2731fbef8d LoongArch: Align ACPI structures if ARCH_STRICT_ALIGN enabled
-51adb03e6b865c0c6790f29659ff52d56742de2e LoongArch: Check the return value when creating kobj
-d6d69f0edde63b553345d4efaceb7daed89fe04c LoongArch: Replace sprintf() with sysfs_emit()
-677d4a52d4dc4a147d5e84af9ff207832578be70 LoongArch: Fix unreliable stack for live patching
-ac398f570724c41e5e039d54e4075519f6af7408 LoongArch: vDSO: Check kcalloc() result in init_vdso()
-091b29d53fe645781c5c1f405bc9fcd50ce5792b LoongArch: KVM: Remove unused returns and semicolons
-f58c9aa1065f73d243904b267c71f6a9d1e9f90e LoongArch: KVM: Fix VM migration failure with PTW enabled
-47256c4c8b1bfbc63223a0da2d4fa90b6ede5cbb LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_ctrl_access()
-62f11796a0dfa1a2ef5f50a2d1bc81c81628fb8e LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_regs_access()
-01a8e68396a6d51f5ba92021ad1a4b8eaabdd0e7 LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_sw_status_access()
-8dc5245673cf7f33743e5c0d2a4207c0b8df3067 LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_pch_pic_regs_access()
+43a0b16f5563ff250d0522c8ced820f914b09475 compiler-capability-analysis: Add infrastructure for Clang's capability analysis
+306deed91fe13767cba258bccd575c2877f1dcee compiler-capability-analysis: Add test stub
+500f2fa57ce36b710d1edb22dbe18090964d3f89 Documentation: Add documentation for Compiler-Based Capability Analysis
+79b223896979556c02c4879247508ae9dd64fe77 checkpatch: Warn about capability_unsafe() without comment
+7925217d4f50f5f83474275e30fd7847bef16ad3 cleanup: Basic compatibility with capability analysis
+d28651f538096a5815a2077878f407c9baa465c5 lockdep: Annotate lockdep assertions for capability analysis
+760ae135d1d0a5430add77a1e1675b12ba95377c locking/rwlock, spinlock: Support Clang's capability analysis
+bb4f953011d0b62db131d1ff181eecee454bbdb6 compiler-capability-analysis: Change __cond_acquires to take return value
+58f4495040a54ad3c60492e7a04dd4a0c8dbf4e1 locking/mutex: Support Clang's capability analysis
+ede3d011512afa6d34f7b7342419c719a131f789 locking/seqlock: Support Clang's capability analysis
+51e736e60364573ae6070ea8dbdee346db531e63 bit_spinlock: Include missing <asm/processor.h>
+3eb98798cd146ae5e6735a43c40f27b393e394ae bit_spinlock: Support Clang's capability analysis
+77a7615ca1f437f9aba177a27d25988c4f7dcb45 rcu: Support Clang's capability analysis
+c288a3f40f11073a8478f369e9b741cc2f14c59b srcu: Support Clang's capability analysis
+d07aba2b76d51b75cee4c4d0d4c8493734c2e9ce kref: Add capability-analysis annotations
+c7dbce99b75c790dc1d03534cfd270b20e51d580 locking/rwsem: Support Clang's capability analysis
+621f1c0abd76f84c654c016e7cccada9b636b0b1 locking/local_lock: Include missing headers
+fad805679367c0f767a25f8f861ccf10fd66eb79 locking/local_lock: Support Clang's capability analysis
+8fbb05e521ace25a3283f5acecfae84aba933362 locking/ww_mutex: Support Clang's capability analysis
+2124dbfd4b3550d4ec155660b12d394785fd74ca debugfs: Make debugfs_cancellation a capability struct
+c4326f6c3d86ab20d5732bf0fde30857e98e99f5 compiler-capability-analysis: Remove Sparse support
+93ebe6bb88661315232e9febc9d3c53b8ebcfcfa compiler-capability-analysis: Remove __cond_lock() function-like helper
+8cc836d2b3d375dd1c9e3541df0f94a90c979c33 compiler-capability-analysis: Introduce header suppressions
+29c6f27ad3fc887a0e1fc2852c651cc8f08f32ef compiler: Let data_race() imply disabled capability analysis
+aad87ae4f2dad5324e89a690bb2939eaf13171d9 MAINTAINERS: Add entry for Capability Analysis
+d1de170008940e28fa22b0862b306b993e1f1c3f kfence: Enable capability analysis
+e225c47af1aadd849bb211ca094a31692f7f8403 kcov: Enable capability analysis
+02c7c1513113cc45d14b6aa69859f26f18939e6c kcsan: Enable capability analysis
+ee9716f4647e122efcafb73b3fe2defde1549fdc stackdepot: Enable capability analysis
+5ce69f9d9bfc85eb390cd49218cba84d830c7d66 rhashtable: Enable capability analysis
+a1dce6d5390b168ceb5309b4869a189fe7311118 printk: Move locking annotation to printk.c
+31349c5c0d32d097640f0f3e2a8b44a28f8be7a9 security/tomoyo: Enable capability analysis
+ae95cd74febde55644b43f02182971b881dd19a3 crypto: Enable capability analysis
+fe33147edc4d6f6641988dfebdb47dded5ff5563 sched: Enable capability analysis for core.c and fair.c
 
---===============0230702082734826039==--
+--===============1674633742500840460==--
