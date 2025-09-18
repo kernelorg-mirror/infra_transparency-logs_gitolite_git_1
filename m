@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3949401305891483337=="
+Content-Type: multipart/mixed; boundary="===============7610290449895503631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 18 Sep 2025 14:04:35 -0000
-Message-Id: <175820427502.3498508.922660268600437799@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 14:04:52 -0000
+Message-Id: <175820429273.3498838.16695041043700845774@gitolite.kernel.org>
 
---===============3949401305891483337==
+--===============7610290449895503631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: b620462bba6655b47d127db70d18123c7af522d4
-    new: fea2bfde3d52fbcfc7698c01954bee8b57d42abf
-    log: revlist-b620462bba66-fea2bfde3d52.txt
+  - ref: refs/heads/for-next
+    old: c9dd1e6348a930250e60e402248d51dc7494e338
+    new: e8db785e78cdf765f7c57125b7eb143a85eecc8f
+    log: revlist-c9dd1e6348a9-e8db785e78cd.txt
 
---===============3949401305891483337==
+--===============7610290449895503631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b620462bba66-fea2bfde3d52.txt
+Content-Disposition: attachment; filename=revlist-c9dd1e6348a9-e8db785e78cd.txt
 
 b0aca7ae828560b103016620be7fd4c302da4176 scsi: target: iscsi: Use int type to store negative value
 5cffc679ad1de542ef8a247b12283cbe57511fc8 scsi: lpfc: Use int type to store negative error codes
@@ -46,5 +46,6 @@ d73836cb8535b3078e4d2a57913f301baec58a33 scsi: ufs: host: mediatek: Fix adapt is
 bc5dbf7739594b05c673ab3905471257be9921e7 scsi: ufs: ufs-qcom: Refactor MCQ register dump logic
 d76afd8d2dc43d841b84a9f539b9f84ff79d055c Merge patch series "Simplify MCQ resource mapping"
 fea2bfde3d52fbcfc7698c01954bee8b57d42abf scsi: bfa: Remove self-assignment code
+e8db785e78cdf765f7c57125b7eb143a85eecc8f Merge branch 'misc' into for-next
 
---===============3949401305891483337==--
+--===============7610290449895503631==--
