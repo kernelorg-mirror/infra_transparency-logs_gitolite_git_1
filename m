@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 18 Sep 2025 12:25:52 -0000
-Message-Id: <175819835229.3412357.14507117368737406080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 18 Sep 2025 12:29:14 -0000
+Message-Id: <175819855474.3414602.5750277294802935610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/x86/apic
-    old: 85df1cd15ff5d775e88e23b9fc2a9f429fa5b504
-    new: 648dbccc03a000cd64c2a9d86012d98053545e64
+  - ref: refs/heads/main
+    old: add225168d0d1ba4c174d5eb15272b53de01ad5a
+    new: 37f3f2d8e14cff7b316616924331d57f6ec6e259
     log: |
-         e4c00c4ce2aafe61dc7436e763a78d6d112d9e2f x86/sev: Add new dump_rmp parameter to snp_leak_pages() API
-         e09701dcdd9ca06be249091eeb786d57e67b613e crypto: ccp - Add new HV-Fixed page allocation/free API
-         648dbccc03a000cd64c2a9d86012d98053545e64 crypto: ccp - Add AMD Seamless Firmware Servicing (SFS) driver
+         6625e563d600eba34cf2c71df7572ad1c421c6fd qcom: move LEMANS EVK firmware to correct location
+         37f3f2d8e14cff7b316616924331d57f6ec6e259 Merge branch 'robot/patch-0-1758163077' into 'main'
          
