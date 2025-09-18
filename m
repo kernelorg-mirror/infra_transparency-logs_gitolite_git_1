@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 18 Sep 2025 19:44:16 -0000
-Message-Id: <175822465692.3842909.14244776842015151588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 18 Sep 2025 19:47:27 -0000
+Message-Id: <175822484722.3846073.18248793182270176111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/arm64-lsfe
-    old: e2f8c74f3992ecb2fe56bbea3c89c38401ba40fc
-    new: f72ae3871c568f8aef530bb71f8f325e62c2c0cd
+  - ref: refs/heads/pending
+    old: 660988562c1497a2d88e89565f5441709b2d7bb6
+    new: b3d1a269638d8c692bc5c4e7c7657b6563f4d06f
     log: |
-         220928e52cb03d223b3acad3888baf0687486d21 arm64/hwcap: Add hwcap for FEAT_LSFE
-         9eb527e3c144c8e1b623c5cfb37d8a54af38431b arm64: Support FEAT_LSFE (Large System Float Extension)
-         e17f7cc7b80999fa3c5b7d024e668dc76c816274 KVM: arm64: Expose FEAT_LSFE to guests
-         f72ae3871c568f8aef530bb71f8f325e62c2c0cd kselftest/arm64: Add lsfe to the hwcaps test
+         b3d1a269638d8c692bc5c4e7c7657b6563f4d06f wifi: ath10k: Fix connection after GTK rekeying
          
