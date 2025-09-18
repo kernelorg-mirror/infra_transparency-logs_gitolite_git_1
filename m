@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 18 Sep 2025 20:21:37 -0000
-Message-Id: <175822689773.3877671.1876988797818931880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 18 Sep 2025 20:25:57 -0000
+Message-Id: <175822715757.3881929.562422459048525343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/smp/core
-    old: e2a18574d138827183cef75d4d11cdb7ddd13093
-    new: ccf09357ffef2ab472369ab9cdf470c9bc9b821a
+  - ref: refs/heads/main
+    old: 0115866b89be1adb27ff19e69c33be987dd1d534
+    new: aac4dd8b2458e7d8731d191f6671b6ac538b9501
     log: |
-         ccf09357ffef2ab472369ab9cdf470c9bc9b821a smp: Fix up and expand the smp_call_function_many() kerneldoc
+         aac4dd8b2458e7d8731d191f6671b6ac538b9501 refactor(command): consolidate loading to 'load'
          
