@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4635164268924460075=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 18 Sep 2025 13:39:05 -0000
-Message-Id: <175820274581.3475546.6989999872664925126@gitolite.kernel.org>
-
---===============4635164268924460075==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 18 Sep 2025 13:41:17 -0000
+Message-Id: <175820287701.3478842.9649608295964708955@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 6de808cc0b7e0d4a28d353ae4982e4b9f6a99b3c
-    new: c5dcaf376122398d774a588ca82f00c36d9d8965
+  - ref: refs/heads/kvm-arm64/el2-res0
+    old: 7650c0667a791f4dcef49d61f000dd17ad340304
+    new: 2ce388bb99b7edf06fb9641be30f02cb1eb0afa3
     log: |
-         c5dcaf376122398d774a588ca82f00c36d9d8965 update cvelistV5
+         5ccd0a1219b12ea104830b18b2ac8e1d68554e39 KVM: arm64: Add reg_feat_map_desc to describe full register dependency
+         f01b095108719fcd32763698cea1d2cba5dc37b1 KVM: arm64: Enforce absence of FEAT_FGT on FGT registers
+         fc2fe29c8d9a50cfaff4b5fe9f3adc19e76a623e KVM: arm64: Enforce absence of FEAT_FGT2 on FGT2 registers
+         e714383e0896db3676370d7e748ac417584f6742 KVM: arm64: Enforce absence of FEAT_HCX on HCRX_EL2
+         20024ac60aba307b0aba1f49988d1b97f5048018 KVM: arm64: Convert HCR_EL2 RES0 handling to compute_reg_res0_bits()
+         42bc9c15f2637eb033a56727a4e6599d75eebfc6 KVM: arm64: Enforce absence of FEAT_SCTLR2 on SCTLR2_EL{1,2}
+         976855bcda5fb8001bee6b55af69ad37159b7864 KVM: arm64: Enforce absence of FEAT_TCR2 on TCR2_EL2
+         eb62fb791065178ae724bf60b59cc8942ee43100 KVM: arm64: Convert SCTLR_EL1 RES0 handling to compute_reg_res0_bits()
+         2ce388bb99b7edf06fb9641be30f02cb1eb0afa3 KVM: arm64: Convert MDCR_EL2 RES0 handling to compute_reg_res0_bits()
          
-
---===============4635164268924460075==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758202799 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1758202745-4eea24d971b4676c0a53378fdae1691f67ec109b
-
-6de808cc0b7e0d4a28d353ae4982e4b9f6a99b3c c5dcaf376122398d774a588ca82f00c36d9d8965 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjMC68bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pG4P/i41kBycE5uXI+w+pSaX
-WancwPPZ+GDDTIs4TGNxh+faVDMIQytNQsm4RIAWyzhmDptyBYMK6FbWWKgG1l1e
-aKZOx/e4e4ljmTMiSwOsdS27zsQvQgLWtM+vxr0LZPwlkS8jEz0Z5eP2noOZ43aN
-MH67UueYgkwWnmp0IfGe9wdgkmEqImGvY00Y8aOaLkj7FHWuFdEBvys6ABieghkA
-bAELiDP/UUXWrEWTSPTAM9oRW7GbFwvX5zXCRwf4dEtgEywQ/xol0/8rrJTbFtYL
-TxuvNH6RvrjUO9QMj8dvtdQHhou9JFmwqnFY2poLG+fECCVBwQa2QKEZf1k4ilc9
-Q9TXlGh1qFmOXCraVkZ5mnxXADi7X+s0GogfAVVg5AUYE0tuegNI03AK1ZrnUDZu
-IvKdqlapUXtKQeYOHnqeUDi21S2XXCM4h/6EOWO02tt7P8KgLIFTjiBxbJBFjUNZ
-zQGgr5dSMfJWgPMcdNwX9K1/SLQHYOvHcd4HXhmdD/+yGsVEO1pXGMVHeG9zE3p9
-WXFyVHLAeoNYZNPbvMY5zabUFBhbUyMGFuZjIDDnJyq9vbIz5b8tGkGwKOxfIEeK
-4Ne46V2MufLh3xicL76uOUKyy1I64Kd5/AWMcF4hI8ypAfH7yjxuIpQOrtsPksCo
-eomKcJlJibnuZMeZoq6HFgEf
-=SZ+S
------END PGP SIGNATURE-----
-
---===============4635164268924460075==--
