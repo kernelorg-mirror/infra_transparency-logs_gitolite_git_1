@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 18 Sep 2025 14:49:47 -0000
-Message-Id: <175820698798.3538369.16889210783934705594@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3217089463970039956=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 18 Sep 2025 14:54:57 -0000
+Message-Id: <175820729735.3542837.11920566110161887869@gitolite.kernel.org>
+
+--===============3217089463970039956==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 4c05c7ed880fb58790731fb53571af67b7632d87
-    new: f8b4687151021db61841af983f1cb7be6915d4ef
+  - ref: refs/heads/tty-next
+    old: d21b26cad33250be758ea9d860ff9d5c3992c459
+    new: f4abab350840d58d69814c6993736f03ac27df83
     log: |
-         3fbfe251cc9f6d391944282cdb9bcf0bd02e01f8 Revert "net/mlx5e: Update and set Xon/Xoff upon port speed set"
-         87ebb628a5acb892eba41ef1d8989beb8f036034 net: clear sk->sk_ino in sk_set_socket(sk, NULL)
-         cca7b1cfd7b8a0eff2a3510c5e0f10efe8fa3758 net: liquidio: fix overflow in octeon_init_instr_queue()
-         7736aff4704188d4483b7b36ff06d201c8be4844 MAINTAINERS: update sundance entry
-         3191df0a4882c827cac29925e80ecb1775b904bd devlink rate: Remove unnecessary 'static' from a couple places
-         cfa7d9b1e3a8604afc84e9e51d789c29574fb216 cnic: Fix use-after-free bugs in cnic_delete_task
-         f8b4687151021db61841af983f1cb7be6915d4ef octeontx2-pf: Fix use-after-free bugs in otx2_sync_tstamp()
+         f4abab350840d58d69814c6993736f03ac27df83 tty: serial: fix help message for SERIAL_CPM
          
+
+--===============3217089463970039956==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758207350 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1758207296-91f8ed0a2f26fd35ad27f0b2778167b8489b5591
+
+d21b26cad33250be758ea9d860ff9d5c3992c459 f4abab350840d58d69814c6993736f03ac27df83 refs/heads/tty-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjMHXYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xj8P/ReJUdT/t5gBh9wnYJNB
+ePelinN6u9eTwMV23zrH007hZvK9BQyPYnEGsYFPOULo+BfWWbG+/Sfs2Vn3rsMe
+ypPxS1sBMDNYY3K+BZ1/aF7PS6/nhJ8DuKOktHd0gK5uEClYBzm9QtQGoENotpO7
+/mkNoojyJX+cDlhWTa2QEsDYXuOtVUtYbKwTS46LFUFgUAiFah3yW1SqsNJoCf7H
+Jz1d3NdQSMTzsWTiucXZ6du13VOOcHlE8GpI3eVMqcVCD9Ffr7gQGTBLdYUA89iB
+P4Zn9TUDhq3d8R7z956ua+ZsepM5ws/ZKapsDMGBryzdNUdBcBHeUdxHOjbtL75S
++GdwHgNuMXGPWnceYyX3TKg7TEgpw0rYzrmHJ4P6Vt9CwHdMPeZi3JGPcjhD8mNt
+9Ev2acaQe6nTNQBwPnyqX6V9yYmJMC1cHLKIxlQyyUixIhTB1AWwesLg4Fc+/LCN
+tZuuFpvZMHlZovYhE6tgUiTMJxucIgaBL6a4jYJESP0fbvSTWOZPXUhkuku7R1N7
+eCxM6O13icVSViuazE/XVh1xNYg9Gxzl2PuLs2wLmvGANdyWVl9NBYtZP96C13kt
+4EaQnhTe9ZolIO79prHoABS4AVCW6igcb8ocpt19+AVK9OjWhiWj9WI0ai0mLmSK
+KOFmjdLsSUEzbic74Mwi47/M
+=IOoY
+-----END PGP SIGNATURE-----
+
+--===============3217089463970039956==--
