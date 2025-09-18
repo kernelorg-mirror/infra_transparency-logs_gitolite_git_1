@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8821127548982295772=="
+Content-Type: multipart/mixed; boundary="===============8564258064247696635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 18 Sep 2025 17:13:40 -0000
-Message-Id: <175821562044.3673491.10841341298217786250@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 17:26:43 -0000
+Message-Id: <175821640333.3685042.7192452289274150817@gitolite.kernel.org>
 
---===============8821127548982295772==
+--===============8564258064247696635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 5e87fdc37f8dc619549d49ba5c951b369ce7c136
-    new: 1d9770838dcbe25151a319c1eae0c9879385b49f
-    log: revlist-5e87fdc37f8d-1d9770838dcb.txt
+  - ref: refs/heads/dev-queue
+    old: 1ab75b1100dde3cdc619eb0452ba6e7e097a2f15
+    new: ff9f8329f189c17549f3fbb5058505fb3e46dd99
+    log: revlist-1ab75b1100dd-ff9f8329f189.txt
 
---===============8821127548982295772==
+--===============8564258064247696635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e87fdc37f8d-1d9770838dcb.txt
+Content-Disposition: attachment; filename=revlist-1ab75b1100dd-ff9f8329f189.txt
 
 4436b2b324cec38caa876b11e521d270240a9986 tools: ynl-gen: support uint in multi-attr
 dfc85640796b414385e50c932eb2b8ce4d38ce72 net: pcs: Kconfig: Fix unmet dependency warning
@@ -137,5 +137,72 @@ dce08107f1f305b0fbef115410034b1fb3b7e070 net: ethtool: update set_rxfh_indir to 
 8b7c4b612decb79b157611225faee68c384102a9 net: ethtool: use the new helper in rss_set_prep_indir()
 483446690a625c325149c6d14283b9782aaefffe net: virtio_net: add get_rxrings ethtool callback for RX ring queries
 1d9770838dcbe25151a319c1eae0c9879385b49f Merge branch 'net-ethtool-add-dedicated-grxrings-driver-callbacks'
+a12b2b4a7c5ee5ed4a9342803da910d9c2f42be3 ice: fix lane number calculation
+abd4f0d50e6f1e0fa5ed9e854f760844f237183c ice: Allow 100M speed for E825C SGMII device
+a5c6c838b6846982da0e1067772750772a1f96b6 ice: fix Rx page leak on multi-buffer frames
+f021494364fb296c2d9c9e893345e175d7173734 ice: remove legacy Rx and construct SKB
+b75bfa7db98ce7635e04ad1dd90c576e42cb5e7e ice: drop page splitting and recycling
+37fffa2e65533ad3566b27cf6120eb14baa33524 ice: switch to Page Pool
+f4f02faab9ec4e77286d4014f40bf51909be1d96 i40e: add validation for ring_len param
+b4fd28610189fc3aea4d150aeccfa32f3a168c92 i40e: fix idx validation in i40e_validate_queue_map
+40508f303407bd8ea6aeca9c1a73d537facc947d i40e: fix idx validation in config queues msg
+3dffef9f5cf415dbb2db48b076b3a4957ba77dfe i40e: fix input validation logic for action_meta
+99f67ad5fad61cf47e6080f4988c2c3976e17f33 i40e: fix validation of VF state in get resources
+da77942b463c02c8c9392c644385692d2cefa301 i40e: add max boundary check for VF filters
+a53af7e47dfdfa04c2b3489678573a682e1a136a i40e: add mask to apply valid bits for itr_idx
+23dac9aa6d982711be3ded4b131809e0e45b7f60 i40e: improve VF MAC filters accounting
+54ccd5459a544380639768df7a0d330fd0789135 idpf: cleanup remaining SKBs in PTP flows
+19ea280466968d146a57dc6d2ea97586f8b558ea ice: Fix enable_cnt imbalance on resume
+b06f05b0c4cc740da396ba434c8267ffc76042cc ice: Fix enable_cnt imbalance on PCIe error recovery
+467ea0fcafeec0ec06c2ad4df24a42f749cc0175 i40e: Fix enable_cnt imbalance on PCIe error recovery
+54dca6b414c2bd18559513b9faab65641b4756da ice: move ice_qp_[ena|dis] for reuse
+10739591f703000470fecf21a4f9af0875f5f91c ice: add E830 Earliest TxTime First Offload support
+437b0d308680c092da2fc3c858d87129ee2bf059 idpf: add HW timestamping statistics
+0c912ace14821ec7e1825561f0469f251d93f658 i40e: remove redundant memory barrier when cleaning Tx descs
+d555712786e37e79db193966003434f88ae15157 ice: Remove deprecated ice_lag_move_new_vf_nodes() call
+1201c3b8dff51d0039df87e627085879d7db771b ixgbevf: fix getting link speed data for E610 devices
+3a8f072fd34b84f464b4cb6f139156d72e25a62c ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
+91765a563a73b5dd7808133edb669c7ae751a977 ixgbevf: fix mailbox API compatibility by negotiating supported features
+a571d4d6eff03af1506dc1ae3d55ded80e8ea527 ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
+c93f8719dbed9c99fbd3507b7227cfa233f49063 ice: add flow parsing for GTP and new protocol field support
+9bc436dca6aad75af9dd0bbb283b0032784e1ab1 ice: add virtchnl and VF context support for GTP RSS
+da0625c36e60581f0dcbda00793e5a0a767cf7f2 ice: improve TCAM priority handling for RSS profiles
+cd5478b0d13ce0572b2039c2fa0c04ca68507571 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
+cc273f47588da281856d4d520291345244187ec4 iavf: add RSS support for GTP protocol via ethtool
+fddf3c6822035969829892fe2b5e16bb2a1a624b ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+d03541ff37fad7e25baaac97c38cb2f509400385 ixgbe: fix too early devlink_free() in ixgbe_remove()
+7e59872f13e00a00b5d800ae0e9844ab125d9501 net: intel: fm10k: Fix parameter idx set but not used
+ba0b9caf0327c7f5025a0d7a1723c3373a81cc2c idpf: add support for IDPF PCI programming interface
+c4e916fbc9c49658a2e99f950960b5516be4fb8e ice: add recovery clock and clock 1588 control for E825c
+b237169f725f7695cb7f4b59fe10ae4b7e3a5b36 ixgbe: initialize aci lock before it's used
+a1627333862286703a16d0ae60acecdcc43cb61c ixgbe: destroy aci lock later within ixgbe_remove path
+e7d51ff42c12f172efc8974aa8ce9ec3935c67da devlink: Add new "max_mac_per_vf" generic device param
+1ab454e725956b9290ef0985103f67142bc0499d i40e: support generic devlink param "max_mac_per_vf"
+405941a92d33b57b39b10638a962a977e0f25ebb e1000e: Introduce private flag to disable K1
+cdf5008c6602fdb3388e8441d99dd7ae93cdce63 igc: don't fail igc_probe() on LED setup error
+3ef6575f9c7e220ce0103aa84cadf87331010e46 ixgbevf: fix proper type for error code in ixgbevf_resume()
+717ffe687eb550b9fbcf26f3dd255280299ea4c9 idpf: add virtchnl functions to manage selected queues
+f4c726d26e49cdc7eb5d0764f8f31b9613cea4ad idpf: add XSk pool initialization
+b571137fc36ec76fc8412b919364cd22420fbcd6 idpf: implement XSk xmit
+9321e17f730e3998d3856b196ede693a604544e7 idpf: implement Rx path for AF_XDP
+fc970c2908f8870bb259e4c78a3e31be1efaaf8c idpf: enable XSk features and ndo_xsk_wakeup
+7745d9f7a39487ec8dac45f4eba4f058352106c4 idpf: convert vport state to bitmap
+b5682702ddd5b1f1a40ff0ac3d88e1342a71cbc6 idpf: fix possible race in idpf_vport_stop()
+4c644fedeca74f16c7402618fd916ad745000150 iavf: fix proper type for error code in iavf_resume()
+62a5aef4567442d1b26f135b3967ba18530e126f libie: fix string names for AQ error codes
+8627e37bc39035fdba1eeadd983815b5be78ef92 ice: enforce RTNL assumption of queue NAPI manipulation
+4eb095908adc5a935a34481997d28a30751f2a55 ice: move service task start out of ice_init_pf()
+841368caa20bfdf3c2e7abd1ddaddee3df8c6792 ice: move ice_init_interrupt_scheme() prior ice_init_pf()
+8548267ec95abbd9be5f76491fe3db3ae7dd2ba7 ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
+97eac63b8fa47b6ef32443ea023f0efdcba8325f ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
+4affc31ecbfac96db01d1ea59c9ab6f9b6c492ee ice: move ice_init_pf() out of ice_init_dev()
+582e2ea32eb4e0c98d7659586fe2cf59f40b4f41 ice: extract ice_init_dev() from ice_init()
+beace82a4d0d965112b43cba3dc2961a9ee2670c ice: move ice_deinit_dev() to the end of deinit paths
+caf99a8777ce19686a843e6d2416d629b0e0dec0 ice: remove duplicate call to ice_deinit_hw() on error paths
+3931622272770168fb39afdf3e296b2ddf6fd5c2 net: docs: add missing features that can have stats
+54cf5f8c1368fdbe6b2dab8b6a6c52b2e00c9c45 ice: implement ethtool standard stats
+cafce2711377a8e28f07d6a6b9b4a0c1e09a7a29 ice: add tracking of good transmit timestamps
+4495dfd645c162d61f269489d0083eda508a3e2f ice: implement transmit hardware timestamp statistics
+ff9f8329f189c17549f3fbb5058505fb3e46dd99 ice: refactor to use helpers
 
---===============8821127548982295772==--
+--===============8564258064247696635==--
