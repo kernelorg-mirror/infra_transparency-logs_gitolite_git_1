@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 18 Sep 2025 18:21:59 -0000
-Message-Id: <175821971988.3732868.12125173150044261183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 18 Sep 2025 18:22:01 -0000
+Message-Id: <175821972146.3732942.17026002942135137333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/anna-linux-next-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 9a73b534e5451bbe960c2c75fd53343647d0adbd
+  - ref: refs/tags/net-6.17-rc7
+    old: 6634d3a40835d52c0976f15359a4e946831e4ed3
+    new: 0000000000000000000000000000000000000000
