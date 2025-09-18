@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3384396398252214475=="
+Content-Type: multipart/mixed; boundary="===============0812286828150659106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 18 Sep 2025 23:45:49 -0000
-Message-Id: <175823914906.4063180.18322647159686434038@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 23:45:55 -0000
+Message-Id: <175823915532.4063410.964160386438445027@gitolite.kernel.org>
 
---===============3384396398252214475==
+--===============0812286828150659106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: d103f26a5c8599385acb2d2e01dfbaedb00fdc0a
+  - ref: refs/heads/pending
+    old: 9ae30dd7fa8b78545e4a647ad7e43da60666c286
     new: dcdb05a43df9d2e40116a1ddd1460846bd98a6e0
-    log: revlist-d103f26a5c85-dcdb05a43df9.txt
+    log: revlist-9ae30dd7fa8b-dcdb05a43df9.txt
 
---===============3384396398252214475==
+--===============0812286828150659106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d103f26a5c85-dcdb05a43df9.txt
+Content-Disposition: attachment; filename=revlist-9ae30dd7fa8b-dcdb05a43df9.txt
 
 87a67cc357a8d01f244ae04284eac4c41c221e34 wifi: ath12k: Add support to set per-radio RTS threshold
 bba2f9faf41ee9607c78fcd669527b7654543cfe wifi: ath12k: initialize eirp_power before use
@@ -47,4 +47,4 @@ cf412ae7b7124e2b3bfe472616ec24b117b6008a wifi: ath12k: fix signal in radiotap fo
 9891fbd9d8ec1710215b3c1ce1a5e9b3f33b5c1f wifi: ath12k: Add support to handle reason inactivity STA kickout event for QCN9274/IPQ5332
 dcdb05a43df9d2e40116a1ddd1460846bd98a6e0 wifi: ath12k: Extend beacon miss handling for MLO non-AP STA
 
---===============3384396398252214475==--
+--===============0812286828150659106==--
