@@ -1,45 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4562745697245278564=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 18 Sep 2025 12:17:15 -0000
-Message-Id: <175819783526.3404136.14396369983658444783@gitolite.kernel.org>
-
---===============4562745697245278564==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 18 Sep 2025 12:25:47 -0000
+Message-Id: <175819834779.3412133.10282799911588076073@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/rdma-next
-    old: 5106ebff3bc276a28eaef8105a29bcbeb0186234
-    new: d34205cb60e3a332c6de3866678cf71f603b03d4
-    log: revlist-5106ebff3bc2-d34205cb60e3.txt
-
---===============4562745697245278564==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5106ebff3bc2-d34205cb60e3.txt
-
-24d324344913170315f66cb43ac6692b3132a145 dma-mapping: prepare dma_map_ops to conversion to physical address
-9a1d5ba5f4e5c4ac1216253e35a4a6a7cb941802 dma-mapping: convert dummy ops to physical address mapping
-2f20069c2b616808c034ba4e75905820b94e0e22 ARM: dma-mapping: Reduce struct page exposure in arch_sync_dma*()
-110f3bd0ad179b6a26cf236c3214818dbec6a723 ARM: dma-mapping: Switch to physical address mapping callbacks
-997c0122a24c355b4d7ee353902041a7617f4c9e xen: swiotlb: Switch to physical address mapping callbacks
-c1a88f10a387eadf5c466cabf63bc905faddac81 dma-mapping: remove unused mapping resource callbacks
-0c64474985af55b1aa934b857808068a0e609c6e alpha: Convert mapping routine to rely on physical address
-c090b68bbbb551a0e43a90245cb72537bf8f3b65 MIPS/jazzdma: Provide physical address directly
-03d013e891469ccc2cfe6e896428b1b9408bf756 parisc: Convert DMA map_page to map_phys interface
-953c91241d192b3a10196e45a9ecb7cda9f4b29f powerpc: Convert to physical address DMA mapping
-d0f738d0c2d93a1eab85cc2c22ffa0201639efa7 sparc64: Use physical address DMA mapping
-f6436437e758b3f97eee49d75b0b7fb63c36cd99 x86: Use physical address for DMA mapping
-d17eba9b66bc1cdef279cccca17b1108debf1000 vdpa: Convert to physical address DMA mapping
-ff04de44cf23726d231cfe00082041af922db925 xen: swiotlb: Convert mapping routine to rely on physical address
-d34205cb60e3a332c6de3866678cf71f603b03d4 dma-mapping: remove unused map_page callback
-
---===============4562745697245278564==--
+  - ref: refs/notes/commits
+    old: 00a2ed444f824528d0d563021e6056d7022f43d9
+    new: 66d4970f65f74022cc300ebe264a3e7dfc320d72
+    log: |
+         66a9bb2c73123a0d4a44a03252942726e75d31a3 Notes added by 'git notes add'
+         17169470de19cb01e9e2da89ecf7ccaf0832705a Notes added by 'git notes add'
+         b6ba50ddcc5f3f66e6eab8a76e2329f97e342f0f Notes added by 'git notes add'
+         4806e593827db1cbbd1f2dded53f6f605810f7c8 Notes added by 'git notes add'
+         1efdd385a293aff5ad4716ee13d9687a18136ab2 Notes added by 'git notes add'
+         b07847536613e5e24e0163079fb732df05fb9f4e Notes added by 'git notes add'
+         2c0f2778268484d1d1afa60b8ffd67d01844122b Notes added by 'git notes add'
+         66d4970f65f74022cc300ebe264a3e7dfc320d72 Merged notes from FETCH_HEAD into refs/notes/commits
+         
