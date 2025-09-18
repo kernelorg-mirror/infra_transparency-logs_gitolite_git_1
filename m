@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============9094051371353646902=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 18 Sep 2025 09:37:52 -0000
-Message-Id: <175818827269.3266989.3364370821339746080@gitolite.kernel.org>
-
---===============9094051371353646902==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 18 Sep 2025 09:52:11 -0000
+Message-Id: <175818913183.3279042.17926438675699685711@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 3d3e5eb5c68f909f93b95f363891c7a3112f84ee
-    new: 8a9321493deceb6958b3ce39a065f39630affba2
+  - ref: refs/heads/sched/core
+    old: 86baebdda6c98ee5c49316476546817a648ce425
+    new: 5b822694f62186b86fa9f13009398b6f0c3b7bdd
     log: |
-         8a9321493deceb6958b3ce39a065f39630affba2 gsd: clean up gsd-review.10
+         fe8d238e646e16cc431b7a5899f8dda690258ee9 sched/fair: Propagate load for throttled cfs_rq
+         fcd394866e3db344cbe0bb485d7e3f741ac07245 sched/fair: update_cfs_group() for throttled cfs_rqs
+         253b3f587241967a97a971e23b1e2a7d74244fad sched/fair: Do not special case tasks in throttled hierarchy
+         0d4eaf8caf8cd633b23e949e2996b420052c2d45 sched/fair: Do not balance task to a throttled cfs_rq
+         443260bd2dd5a5827c4e41dcdab84e868056c21e arch: add the macro COMPILE_OFFSETS to all the asm-offsets.c
+         00d75c9f8ee886ca22e612cca04dcb27aea8446f rcu: replace preempt.h with sched.h in include/linux/rcupdate.h
+         a3b9673a4131229af302532c0c62a55540166f36 sched: make migrate_enable/migrate_disable inline
+         5b822694f62186b86fa9f13009398b6f0c3b7bdd sched: fix some typos in include/linux/preempt.h
          
-
---===============9094051371353646902==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758188326 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1758188272-e5d0f379ff6a43617560e6522ac4b73e6a2f9ce7
-
-3d3e5eb5c68f909f93b95f363891c7a3112f84ee 8a9321493deceb6958b3ce39a065f39630affba2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjL0yYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NSkP/jfpKlcz96Fr+LRy2Oky
-W97wzCwIXUQowG7LytIGlj0uxfqMBEDcv50lwVXt/CO7cAfLG0PF2frOsSSnCd3c
-5JsefimwX57WB2yBoXxKzMdXa7ST3fbwcPg3ouH/jARIIr+LHDyOhFXKF4gEBp9O
-zvart8wo83zIGBQ4JXy6iQDeFGztOUMUPjUILdz6x+PTS02Yyl83xypKw+DrpW8j
-mwZSoIH+l93xBIqBlYnne7scpt92uAzEo7UdCVzGgYtpu3xGRWaMmINU92a+Rds2
-Tm5hHvAH6HNvjBxWvmb0aBvTozeR+Vi/lbLl1iTge8rTZWW+wknds6YSlmYTEUwT
-0Gcx6IMWRZJLcREaF/s98284pNCDDjKO5MVPlEInbSGeLRoNrmmu7KI1FAVf5r2Y
-R6G4k9BnOEsca31Q2XB+zst5KnjDC0jabp4ycANKYMuvC+rU6CZtj4wmf237AWyB
-rNZqIe7Z5OxRDcP4JImEPsz05VlxqzWHfcBlw0ibPxaGGxSfMQb3iV83syCAdp5o
-YaWc419MC3ciKJHJqQDEbblAfM7ST8vnRk4pzgFOTlKQ6VTvdoGDKdOZ6V76PS5B
-/Zwy7wpC/6xI2Og7hCNfezZt5v2ydHnG/XqzzqMTxVmNg7gDGbp4b0Pfig47o4gj
-wn4dte/Xtb0wVX7CMGxApMDa
-=/iGf
------END PGP SIGNATURE-----
-
---===============9094051371353646902==--
