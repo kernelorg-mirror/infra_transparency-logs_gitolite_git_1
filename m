@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0021726402415142278=="
+Content-Type: multipart/mixed; boundary="===============8821127548982295772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 18 Sep 2025 17:13:34 -0000
-Message-Id: <175821561417.3673281.12049320495746447756@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 17:13:40 -0000
+Message-Id: <175821562044.3673491.10841341298217786250@gitolite.kernel.org>
 
---===============0021726402415142278==
+--===============8821127548982295772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 5e87fdc37f8dc619549d49ba5c951b369ce7c136
     new: 1d9770838dcbe25151a319c1eae0c9879385b49f
     log: revlist-5e87fdc37f8d-1d9770838dcb.txt
 
---===============0021726402415142278==
+--===============8821127548982295772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -138,4 +138,4 @@ dce08107f1f305b0fbef115410034b1fb3b7e070 net: ethtool: update set_rxfh_indir to 
 483446690a625c325149c6d14283b9782aaefffe net: virtio_net: add get_rxrings ethtool callback for RX ring queries
 1d9770838dcbe25151a319c1eae0c9879385b49f Merge branch 'net-ethtool-add-dedicated-grxrings-driver-callbacks'
 
---===============0021726402415142278==--
+--===============8821127548982295772==--
