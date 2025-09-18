@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5563675319167554224=="
+Content-Type: multipart/mixed; boundary="===============6938260775113671025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 18 Sep 2025 10:31:40 -0000
-Message-Id: <175819150053.3313899.7968795238099278881@gitolite.kernel.org>
+Date: Thu, 18 Sep 2025 10:31:51 -0000
+Message-Id: <175819151193.3314161.3514277120252508253@gitolite.kernel.org>
 
---===============5563675319167554224==
+--===============6938260775113671025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
+  - ref: refs/heads/loongarch-kvm
     old: 58ea0ee79133252e7a6894d700f0c35ad47725bf
-    new: 87b4857430bdab12c672eb12b448426d8aee09da
-    log: revlist-58ea0ee79133-87b4857430bd.txt
+    new: 278d7915a149ab66ad35c118c9b40e48484c16ae
+    log: revlist-58ea0ee79133-278d7915a149.txt
 
---===============5563675319167554224==
+--===============6938260775113671025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58ea0ee79133-87b4857430bd.txt
+Content-Disposition: attachment; filename=revlist-58ea0ee79133-278d7915a149.txt
 
 7b8346bd9fce6b76a96c6780d2e5bba76687f97f KVM: arm64: Don't attempt vLPI mappings when vPE allocation is disabled
 bb324f85f722848f5e5e53325bc00f13302e01d0 drm/gpuvm: Wrap drm_gpuvm_sm_map_exec_lock() expected usage in literal code block
@@ -932,21 +932,5 @@ dd18707ce47e51337c1d27a8fd1ea7a1c845213b LoongArch: KVM: Add different length su
 8d06541fd8792ae21c817e37441ac95cd61fc4a3 LoongArch: KVM: Add different length support in loongarch_pch_pic_write()
 aeb8bbad2b750203207f1a7593af5bccf68b6592 LoongArch: KVM: Rework pch_pic_update_batch_irqs()
 278d7915a149ab66ad35c118c9b40e48484c16ae LoongArch: KVM: Move kvm_iocsr tracepoint out of generic code
-d52404305082d63525cf0c584e98dd4c8e343410 objtool/LoongArch: Mark types based on break immediate code
-25211a8feac1608befa02edaea09a29df9a9ae9f objtool/LoongArch: Mark special atomic instruction as INSN_BUG type
-8a0177fbfd3b8a21def5fdcc5532b6659896aebf LoongArch: Make LTO case independent in Makefile
-9c8c621f14b1cf396ee62ad94d1e1373dd45f6a2 LoongArch: Handle jump tables options for RUST
-a0c0da244ec759048605d7d3fc2915f275095438 LoongArch: Update help info of ARCH_STRICT_ALIGN
-76bf473c325233fbc11098ba8bbf831ebb6225d9 LoongArch: Align ACPI structures if ARCH_STRICT_ALIGN enabled
-d9e14a0b18f81ffa60a35c79cf57f7029b8a7dc5 LoongArch: Check the return value when creating kobj
-b7409ed880272a91f7ebd4686ac924a6df5322fa LoongArch: Replace sprintf() with sysfs_emit()
-8b3176ce05582a079ee81ecb58ce2b51eb011766 LoongArch: Fix unreliable stack for live patching
-c89c43cadac697b740c8261c50611a785c34286f LoongArch: vDSO: Check kcalloc() result in init_vdso()
-aad5f96479319cf35be28b6375330cd0e9dca5d5 LoongArch: KVM: Remove unused returns and semicolons
-39696bac5fa0d01628ee8aa8d95d44c1e1902676 LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_ctrl_access()
-819d7017c5952094667d2d971662b4359d4037e6 LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_regs_access()
-398fa953cafe809ea239ffa6f837542658bde54d LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_eiointc_sw_status_access()
-4bcdd4498e809533f3b201f25788d9c0944de36d LoongArch: KVM: Avoid copy_*_user() with lock hold in kvm_pch_pic_regs_access()
-87b4857430bdab12c672eb12b448426d8aee09da Merge branch 'loongarch-kvm' into loongarch-next
 
---===============5563675319167554224==--
+--===============6938260775113671025==--
