@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 18 Sep 2025 22:09:43 -0000
-Message-Id: <175823338367.3976744.9472364171471012969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 18 Sep 2025 22:12:19 -0000
+Message-Id: <175823353967.3979764.12182485955708807576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/dev
-    old: a699e5de9a4d8330b3b58841248108c32ff25eaa
-    new: 5673f060fc2b14adfa683f5570248d49544ce656
+  - ref: refs/heads/main
+    old: e7bc0d4abf11d7e48352f3bc80a1b2cfa2aac930
+    new: 91856d5a756905e87218ba37d2439f7416a5b985
     log: |
-         5673f060fc2b14adfa683f5570248d49544ce656 fixup! srcu: Make SRCU-fast available to heap srcu_struct structures
+         91856d5a756905e87218ba37d2439f7416a5b985 feat(seal): algorithm selection
          
