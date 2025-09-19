@@ -1,44 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0701816767578783991=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 19 Sep 2025 14:23:15 -0000
-Message-Id: <175829179517.610788.12702538148313899247@gitolite.kernel.org>
-
---===============0701816767578783991==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 19 Sep 2025 14:25:54 -0000
+Message-Id: <175829195479.614328.14703967535163959541@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 5edab10f8dc02982fa9656e3ee78c9fefa851700
-    new: 0d3f819014b5e70eeb17a9a659e968d1ac4bedbc
-    log: revlist-5edab10f8dc0-0d3f819014b5.txt
-
---===============0701816767578783991==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5edab10f8dc0-0d3f819014b5.txt
-
-2fb4172c1fb8576855f845a62e706ecf197aef00 refactor(load): sanitize parent handling
-6e613eb375a57f6bf1164dd095dbe5439cf40d01 refactor(seal): avoid extra clone for alg str
-aedc8604048e6e0368acc7a4a378cb2c98c45bb4 refactor: consolidate attribute settings
-e84a2602398f5848ae7e05b00298bc196f658b22 refactor(load): simplify error handling
-797a2944afb811be2da3d41227961274c11917c0 feat(list): ListCategoryError
-defb9f87d17b5b8af6703426a5ad883bdf2202cc feat(start-session): choose hash algorithm
-e0a0e03ec5e601b13a4be265b6f2c73a7f96667d refactor(crypto): cleanup
-5053c97dbd71a0eb79073dbed21d6e4ae358ed68 feat(pcr-event): hex index
-191e2751abd64205f3205724b45a744840f233d6 refactor: simplify algorithm parsing
-cdceb196e4a3cf8a542a468cb0e16f39573f52ec refactor(policy): implement pcr visitor
-ae9666b82fa13fd64eb76484fc05b356d5d25beb refactor(command): dyn dispatch
-9926c9307d49747bd87e88359cd66ecd1b05783b docs: update README.md
-5464998e39b5383a8b93e4d34d4a5e68dd631add build: degrade base64ct from 1.8.0 to 1.6.0
-0d3f819014b5e70eeb17a9a659e968d1ac4bedbc feat(mocktpm): parent binding check
-
---===============0701816767578783991==--
+    old: 315f423be0d1ebe720d8fd4fa6bed68586b13d34
+    new: e156dd6b856fa462430d875b0d4cd281ecd66c23
+    log: |
+         17f1b7711e81107de60ff1f74b93fe5111dd3b0a psp: do not use sk_dst_get() in psp_dev_get_for_sock()
+         c4bdef8b3d2a9ad4ac45017fa294b3b0784ca974 hinic3: Fix NULL vs IS_ERR() check in hinic3_alloc_rxqs_res()
+         833d4313bc1e9e194814917d23e8874d6b651649 mptcp: reset blackhole on success with non-loopback ifaces
+         a346e48c1792cbc600fdafc8fb4c0044f7c2ccfe net: dsa: dsa_loop: remove duplicated definition of NUM_FIXED_PHYS
+         bf7154ffb1c65a201906296a9d3eb22e9daa5ffc r8169: set EEE speed down ratio to 1
+         e156dd6b856fa462430d875b0d4cd281ecd66c23 net: airoha: Fix PPE_IP_PROTO_CHK register definitions
+         
