@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 19 Sep 2025 19:05:31 -0000
-Message-Id: <175830873179.1078495.16683622003741107336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 19 Sep 2025 19:07:42 -0000
+Message-Id: <175830886207.1079567.12785421571172332220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: 537e189f2708864e21c9be7109e1f454b956370c
-    new: 3e2518d8b646afe159170422c1c8e072ba7c0798
+  - ref: refs/heads/master
+    old: da5daf532409812c41a237a6a6126868f6867079
+    new: 6b0a08776ae44a9102d7c6875a77e83dc6a11a37
     log: |
-         ae28e0b895bb4fa78390ac9ad799a3fcd0ec11d2 dt-bindings: arm: marvell: Convert marvell,armada-370-xp boards to DT schema
-         abd4ac56f4af01a60922ccdfcbaa6b7dac994a32 dt-bindings: arm: marvell: Convert marvell,armada375 boards to DT schema
-         3ef9017c373bba536d5e23d535d404525bdcfeb9 dt-bindings: arm: marvell: Convert marvell,armada390 boards to DT schema
-         1c5f2ea8ce7f53f1c72980ac312ae1c0c29aa8a5 dt-bindings: arm: marvell: Convert marvell,kirkwood boards to DT schema
-         573a8be749aed8d0744b78d6795cb2d7c20c14be dt-bindings: arm: marvell: Convert marvell,dove boards to DT schema
-         3e2518d8b646afe159170422c1c8e072ba7c0798 dt-bindings: arm: marvell: Convert marvell,orion5x boards to DT schema
+         6b0a08776ae44a9102d7c6875a77e83dc6a11a37 media: fix pac_config_cb() error code return
          
