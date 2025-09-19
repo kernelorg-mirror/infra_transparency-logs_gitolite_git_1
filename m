@@ -1,28 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 19 Sep 2025 13:47:01 -0000
-Message-Id: <175828962123.576797.5165687555115397841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 19 Sep 2025 13:49:09 -0000
+Message-Id: <175828974964.578378.1448823677167013537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 16d18e3eaf29be1d987f5238ec03226f15dad5f5
-    new: a054965b36af884083add1a286cabf98caca549e
+  - ref: refs/heads/for-6.18/io_uring
+    old: 31bf77dcc3810e08bcc7d15470e92cdfffb7f7f1
+    new: 7ea24326e72dad7cd326bedd8442c162ae23df9d
     log: |
-         70ddf86d76c1a560095c397c01b0862fe302b500 riscv: sbi: Switch to new sys-off handler API
-         f68cd7ddd014b60451922207bff2ea3beea0d8cb selftests: riscv: Add README for RISC-V KSelfTest
-         568a2fa10dd06bbd8160e3f8cce9483fabcb7121 perf: riscv: skip empty batches in counter start
-         2e2cf5581fccc562f7faf174ffb9866fed5cafbd riscv: cpufeature: add validation for zfa, zfh and zfhmin
-         f79671dc87b6cea78dbe429969eb5549fca1bcc1 dt-bindings: riscv: Add xmipsexectl ISA extension description
-         e3ab68f18c4870e6d3aa508974ea045f00a6e3c9 riscv: Add xmipsexectl as a vendor extension
-         96714efaa407593856a1b55bcef34fe199b17a5e riscv: Add xmipsexectl instructions
-         d808a88eb496eae5e64ecea2c892a66c62a612f3 riscv: hwprobe: Add MIPS vendor extension probing
-         874267e26eaf02f41b50f513f3f271a66f7f21bf riscv: hwprobe: Document MIPS xmipsexectl vendor extension
-         a054965b36af884083add1a286cabf98caca549e riscv: errata: Fix the PAUSE Opcode for MIPS P8700
+         2408d1783204920880f929a7a3087c76f5a59c13 io_uring/query: prevent infinite loops
+         7ea24326e72dad7cd326bedd8442c162ae23df9d io_uring/query: cap number of queries
+         
+  - ref: refs/heads/for-next
+    old: fef4785ecd4b105cbefd82e8c45cc9b2d1f6dcfc
+    new: e6ade1cea25edce2015b3b5f28e02771376512c8
+    log: |
+         2c139a47eff8de24e3350dadb4c9d5e3426db826 io_uring: fix incorrect io_kiocb reference in io_link_skb
+         f271e10f15a310a9ebac5f8f8de23f73c3e6d195 Merge branch 'io_uring-6.17' into for-next
+         2408d1783204920880f929a7a3087c76f5a59c13 io_uring/query: prevent infinite loops
+         7ea24326e72dad7cd326bedd8442c162ae23df9d io_uring/query: cap number of queries
+         e6ade1cea25edce2015b3b5f28e02771376512c8 Merge branch 'for-6.18/io_uring' into for-next
+         
+  - ref: refs/heads/io_uring-6.17
+    old: df8922afc37aa2111ca79a216653a629146763ad
+    new: 2c139a47eff8de24e3350dadb4c9d5e3426db826
+    log: |
+         2c139a47eff8de24e3350dadb4c9d5e3426db826 io_uring: fix incorrect io_kiocb reference in io_link_skb
          
