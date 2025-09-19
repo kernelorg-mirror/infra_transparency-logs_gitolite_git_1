@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 19 Sep 2025 23:20:40 -0000
-Message-Id: <175832404029.1297399.4672235509611062787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 19 Sep 2025 23:48:03 -0000
+Message-Id: <175832568335.1318205.10849311822600580539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 57cb26950112f0dfa9077b2710b1c280efa97e81
-    new: 5612ea8b554375d45c14cbb0f8ea93ec5d172891
+  - ref: refs/heads/main
+    old: cbf658dd09419f1ef9de11b9604e950bdd5c170b
+    new: a35c04de2565db191726b5741e6b66a35002c652
     log: |
-         5612ea8b554375d45c14cbb0f8ea93ec5d172891 bpftool: Fix -Wuninitialized-const-pointer warnings with clang >= 21
+         1091860a16a86ccdd77c09f2b21a5f634f5ab9ec net: tun: Update napi->skb after XDP process
+         a35c04de2565db191726b5741e6b66a35002c652 net/smc: fix warning in smc_rx_splice() when calling get_page()
          
