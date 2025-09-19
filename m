@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Fri, 19 Sep 2025 10:38:16 -0000
-Message-Id: <175827829676.415864.11688450337726948847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 19 Sep 2025 10:38:25 -0000
+Message-Id: <175827830597.416082.3609719616618629251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/mmc-v6.17-rc2-2
+  - ref: refs/tags/gpio-fixes-for-v6.17-rc7
     old: 0000000000000000000000000000000000000000
-    new: 790c54361836ef82004ed901107d1c34b5d17745
-  - ref: refs/tags/v6.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0124ee3e78e4adb40db91280f3e468373e48928e
+    new: fbf0b1b97f4e84bd7cc85e45daf5912c77533f73
