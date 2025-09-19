@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 19 Sep 2025 20:57:45 -0000
-Message-Id: <175831546558.1175185.16592781525599536448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Fri, 19 Sep 2025 20:59:47 -0000
+Message-Id: <175831558736.1176923.10701993761130578349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 58c26aeac5132152f4c61e58b800ee327defaf8f
-    new: 1fb36b59a9050bd29c0bd48800069834c7de8d8e
+  - ref: refs/heads/b4/mm-access_remote_vm
+    old: fa077c8be43279532b3d3f320056b6aab6928754
+    new: 69b246ca4d3b8ad5fadf5dc1828eab3166393e46
     log: |
-         1fb36b59a9050bd29c0bd48800069834c7de8d8e perf bpf-filter: Fix opts declaration on older libbpfs
+         69b246ca4d3b8ad5fadf5dc1828eab3166393e46 mm: remove __access_remote_vm()
          
