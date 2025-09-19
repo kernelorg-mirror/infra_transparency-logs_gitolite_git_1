@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1414814971694321011=="
+Content-Type: multipart/mixed; boundary="===============0917227377475238808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 19 Sep 2025 16:01:31 -0000
-Message-Id: <175829769120.913800.3308390376990368629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 19 Sep 2025 16:01:34 -0000
+Message-Id: <175829769454.913931.11610632574897893092@gitolite.kernel.org>
 
---===============1414814971694321011==
+--===============0917227377475238808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: a24802b0a2a238eaa610b0b0e87a4500a35de64a
     new: 40987a08ba6c3e9408efc00e6388304452276e40
     log: revlist-a24802b0a2a2-40987a08ba6c.txt
 
---===============1414814971694321011==
+--===============0917227377475238808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1758297743 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1758297689-532657098d86e62958d36ba2afa4f2f39d440154
+pusher C3F436CA30F5D8EB 1758297747 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1758297692-0211761012199a031ed2a7032a57420a7edbd24f
 
-a24802b0a2a238eaa610b0b0e87a4500a35de64a 40987a08ba6c3e9408efc00e6388304452276e40 refs/heads/for-6.18
+a24802b0a2a238eaa610b0b0e87a4500a35de64a 40987a08ba6c3e9408efc00e6388304452276e40 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjNfo8ACgkQJNaLcl1U
-h9DwOAf+P0/GyrypAn2s4dGQBVWa9bjxh77V/6nGMGpEeQAImelWWFAtnqot1M6T
-1gXgffhfNDQaBg08H/ZiQAMeq1LV5GipUrsh/YYvubfUPSAhgXNkJKzbJN1HTwWV
-W+aa6tm0/iWClLyHSlwGfCc5EIsTENBgVqrDThMQzTAGIQ2V1Dy06dm/WKeew5yk
-CHi24EI9sYomyEm6kM3Qks1AGfNQF10PiesY8qjnyplfMVVpM9EMu3QHENBp3ylv
-UT51p4wu7XW02FgwcLw3a2EpWWwfXD3XJvhuARDSDIv8Fi0Ac/TIXWHkTEg5c4jV
-KAOjQ4ZCGCFeoQzvDw0TutHGjLy8rw==
-=4mi1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjNfpMACgkQJNaLcl1U
+h9CkkAf9FbfFenmZ1nM5Fcpoz+ntrR7Dp44W1xTYf6uE2Hn8bFNtcVA2zbGhanwj
+DygQxqf8HEHYrtWFrZ/GFGX0dNmEe9KYTCwbxPiczyj9DhQAhR2MJSyfxkoBfY6a
+5wqE4SPhO9ds6Jkj8mWPhO7lQWYvHscZIKL6eU4ikqJGbrj5viV4uFA8t+krSPFU
+2zQVj7smBsfpzRL/FvFRSJBKmVl6XnRmvcNIX5MGjHdVOcxUxvy+yLoX3hYZHuz+
+pBxRoNc/qowMDRnN+/q64xbYG0tkaya5IEMyJvWnBBZYfpYInufXGRTcgCJnpWRl
+SJhsjyhKWiSZaK+zDggD6G0+w73uuA==
+=GPyU
 -----END PGP SIGNATURE-----
 
---===============1414814971694321011==
+--===============0917227377475238808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -338,4 +338,4 @@ c07f270323175b83779c2c2b80b360ed476baec5 spi: spi-nxp-fspi: add the support for 
 faef0c6ccef8a6d7709227654032427ba0bb3911 spi: spi-nxp-fspi: add DTR mode support
 40987a08ba6c3e9408efc00e6388304452276e40 Add QSPI support for sam9x7 and sama7d65 SoCs
 
---===============1414814971694321011==--
+--===============0917227377475238808==--
