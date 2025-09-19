@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 19 Sep 2025 15:06:16 -0000
-Message-Id: <175829437630.858509.5694170166289106707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Fri, 19 Sep 2025 15:08:12 -0000
+Message-Id: <175829449233.859454.12609216231440007192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: e156dd6b856fa462430d875b0d4cd281ecd66c23
-    new: 3fb4f35a75e864ecf298b55259223bc984f63276
+  - ref: refs/heads/0.10.x
+    old: de4ad8264c66463b1f54fbc26fb7e4dc01b70855
+    new: 026fb5bb469e1c2743722ccd77fec03113962422
     log: |
-         3fb4f35a75e864ecf298b55259223bc984f63276 wan: framer: pef2256: use %pe in print format
+         790a9adfdb55cbb686d1f0798174e16e9ba0fe6d fix(macros): implement backwards compatible dispatch check
+         026fb5bb469e1c2743722ccd77fec03113962422 fix(tpmu): clippy issues
          
