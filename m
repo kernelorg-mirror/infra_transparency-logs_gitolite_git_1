@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4156710803895499814=="
+Content-Type: multipart/mixed; boundary="===============3263017543123764556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 19 Sep 2025 14:56:04 -0000
-Message-Id: <175829376440.797279.10613728456255577585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 19 Sep 2025 14:56:19 -0000
+Message-Id: <175829377955.797800.3953149129487805592@gitolite.kernel.org>
 
---===============4156710803895499814==
+--===============3263017543123764556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 2aa28b748fc967a2f2566c06bdad155fba8af7d8
-    new: 309e94a64b61d1b18a0d0d83de4bf2d2582708ce
-    log: revlist-2aa28b748fc9-309e94a64b61.txt
+  - ref: refs/heads/for-next
+    old: dee40e8d0b574d03ad1e655be428198db1436565
+    new: 0436095c16241ee1c86181138bafa778baf8e9cd
+    log: revlist-dee40e8d0b57-0436095c1624.txt
 
---===============4156710803895499814==
+--===============3263017543123764556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1758293816 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1758293761-866077e0fef47a325a4f3d5e70c3ea3cafcfa98d
-
-2aa28b748fc967a2f2566c06bdad155fba8af7d8 309e94a64b61d1b18a0d0d83de4bf2d2582708ce refs/heads/asoc-6.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjNbzgACgkQJNaLcl1U
-h9Dw4gf/QfU/jnZ17LW9dAieDlGGtA/u5GPO2MXq0lL5JafdmZIV1kUGlU6FbAU+
-oqOSMBzVFA5Sw07pcDY4RMMYlTOtsQyezNkNl7T/f+l4u3pzZVxqawVxsgjDGKj+
-eZmaeZDQPSQ4Rd1R0jOuCcRk0OusChu9k3y4CCwQGh2Zcxap93WIPAtCXlgcgWqm
-zuBgWSXAsUN31cqjotfrKSi5+5Zh4Oxz+1ar/VXZXykUvpkgbuZ1QfJtSRevo8Aq
-mJiif4cE/KGiyQg29dLF9m7JQ7PmTvO8el/raq7danBAgkirj642nlsdhTnctsEZ
-L5N9Z3d2+0XnQWbdq6vl/4a9LFZqSg==
-=yRen
------END PGP SIGNATURE-----
-
---===============4156710803895499814==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2aa28b748fc9-309e94a64b61.txt
+Content-Disposition: attachment; filename=revlist-dee40e8d0b57-0436095c1624.txt
 
 6b8ba0db92cd01450acaf375caf4c126aa913d72 ASoC: soc-dapm: add snd_soc_dapm_to_dev()
 c8df096bca84c9eb04b656015c8430d0b87ebbcf ASoC: soc-dapm: add snd_soc_dapm_to_card()
@@ -76,5 +51,6 @@ edf8918028e226515c3869c3b8b16f12fe6e62fe ASoC: codecs: wcd938x: get regmap direc
 0266f9541038b9b98ddd387132b5bdfe32a304e3 ASoC: codecs: wcd937x: get regmap directly
 dfe3de7b5abe194f422dd92cf18fb5678fb918a7 ASoC: soc-dapm: prepare for hiding struct
 309e94a64b61d1b18a0d0d83de4bf2d2582708ce ASoC: codecs: wcd93xxx: remove code duplication
+0436095c16241ee1c86181138bafa778baf8e9cd Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
 
---===============4156710803895499814==--
+--===============3263017543123764556==--
