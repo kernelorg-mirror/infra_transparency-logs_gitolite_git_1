@@ -1,30 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 19 Sep 2025 12:59:44 -0000
-Message-Id: <175828678474.536920.13761317633431135591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 19 Sep 2025 13:13:48 -0000
+Message-Id: <175828762886.548096.11559386936693197250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 1f9fc89cbbe8a7a8648ea2f827f7d8590e62e52c
-    new: fc87f70bd133afd5b41fa8c128beb58c1ccc6e99
-    log: |
-         5d36370f34312776d202e5c35d1a786d8b07a9c3 ALSA: compress: add raw opus codec define and opus decoder structs
-         b07d2514b91c30ab16fdf8f9cc3523bef969becf ALSA: compress_offload: increase SNDRV_COMPRESS_VERSION minor version by 1
-         fc87f70bd133afd5b41fa8c128beb58c1ccc6e99 ASoC: qcom: qdsp6/audioreach: add support for offloading raw opus playback
-         
   - ref: refs/heads/master
-    old: 5e589635c0168d1518a67d85b6ec41901f167350
-    new: f9137537ad40e1c6fb40db799400380272c19ef2
+    old: eb7cfb357799ab022864645efac1634b5babd4f2
+    new: 7f98762bede818c811283e42884979c8feb3dd1c
     log: |
-         5d36370f34312776d202e5c35d1a786d8b07a9c3 ALSA: compress: add raw opus codec define and opus decoder structs
-         b07d2514b91c30ab16fdf8f9cc3523bef969becf ALSA: compress_offload: increase SNDRV_COMPRESS_VERSION minor version by 1
-         fc87f70bd133afd5b41fa8c128beb58c1ccc6e99 ASoC: qcom: qdsp6/audioreach: add support for offloading raw opus playback
-         f9137537ad40e1c6fb40db799400380272c19ef2 Merge branch 'for-next'
+         7e565c0116ba6e0cd1bce3a42409b31fd4dd47d3 tests: test the query interface
+         f1fc45cbcdcd35064b2fbe3eab6a2b89fb335ec6 tests: add t_submit_and_wait_single helper
+         7a936a80be37f50a1851379aa0592eeb3b42a9a1 tests: introduce t_iovec_data_length helper
+         7d3773fd9e5352b113b7d425aa5708acdd48d3c0 tests: add t_sqe_prep_cmd helper
+         9e69daf86de39c9b4e70c2dd23e4046293585f34 tests: add helper for iov data verification
+         d5673a9b4ad074745e28bf7ddad3692115da01fd tests: add mock file based tests
+         7f98762bede818c811283e42884979c8feb3dd1c test: use T_EXIT_SKIP consistently
          
