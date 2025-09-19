@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3147506845617375030=="
+Content-Type: multipart/mixed; boundary="===============2432328859291652645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 19 Sep 2025 15:39:25 -0000
-Message-Id: <175829636563.892000.3578354095279234314@gitolite.kernel.org>
+Date: Fri, 19 Sep 2025 15:39:28 -0000
+Message-Id: <175829636843.892135.17146357853862282875@gitolite.kernel.org>
 
---===============3147506845617375030==
+--===============2432328859291652645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 1d9770838dcbe25151a319c1eae0c9879385b49f
     new: 3fb4f35a75e864ecf298b55259223bc984f63276
     log: revlist-1d9770838dcb-3fb4f35a75e8.txt
 
---===============3147506845617375030==
+--===============2432328859291652645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -289,4 +289,4 @@ bf7154ffb1c65a201906296a9d3eb22e9daa5ffc r8169: set EEE speed down ratio to 1
 e156dd6b856fa462430d875b0d4cd281ecd66c23 net: airoha: Fix PPE_IP_PROTO_CHK register definitions
 3fb4f35a75e864ecf298b55259223bc984f63276 wan: framer: pef2256: use %pe in print format
 
---===============3147506845617375030==--
+--===============2432328859291652645==--
