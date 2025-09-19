@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 19 Sep 2025 13:49:43 -0000
-Message-Id: <175828978307.578917.9395312539083228515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Fri, 19 Sep 2025 13:51:48 -0000
+Message-Id: <175828990858.581691.2873291588165114635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/dev
-    old: 5673f060fc2b14adfa683f5570248d49544ce656
-    new: 708e8ee6de19fef23313143ec6d8e9cdc366aa8f
+  - ref: refs/heads/main
+    old: 79d8614e7954442de78cc5db8a2d6ca4e18692c6
+    new: 2112170b07dc8e9db9b77b9b9a3fcea3ee18e275
     log: |
-         fef0b397670b86b2d51812ab3aa6595f02ee45d7 srcu: Require special srcu_struct define/init for SRCU-fast readers
-         708e8ee6de19fef23313143ec6d8e9cdc366aa8f srcu: Make SRCU-fast readers enforce use of SRCU-fast definition/init
+         2112170b07dc8e9db9b77b9b9a3fcea3ee18e275 build: degrad base64ct version from 1.8.0 to 1.6.0
          
