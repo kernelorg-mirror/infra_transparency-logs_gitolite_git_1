@@ -1,56 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============8771413506145646741=="
+Content-Type: multipart/mixed; boundary="===============8777111119281392624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 19 Sep 2025 14:53:50 -0000
-Message-Id: <175829363087.795224.13575992136603170577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 19 Sep 2025 14:55:58 -0000
+Message-Id: <175829375801.797171.17798214731369021179@gitolite.kernel.org>
 
---===============8771413506145646741==
+--===============8777111119281392624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 31e25aa268226971d527379aa357cfc07f74c87d
-    new: 0dfe08b3e8b675fb7ba289828a6fa00ea9f4d43b
-    log: |
-         0dfe08b3e8b675fb7ba289828a6fa00ea9f4d43b updates based on new stable releases
-         
+  - ref: refs/heads/for-6.18
+    old: 2aa28b748fc967a2f2566c06bdad155fba8af7d8
+    new: 309e94a64b61d1b18a0d0d83de4bf2d2582708ce
+    log: revlist-2aa28b748fc9-309e94a64b61.txt
 
---===============8771413506145646741==
+--===============8777111119281392624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758293684 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1758293629-3eed57f429baccff5b193ba0d5e77b68d00df003
+pusher C3F436CA30F5D8EB 1758293809 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1758293754-75963b083f3f58e8cb3ddf5b8a0ce3b06dece857
 
-31e25aa268226971d527379aa357cfc07f74c87d 0dfe08b3e8b675fb7ba289828a6fa00ea9f4d43b refs/heads/master
+2aa28b748fc967a2f2566c06bdad155fba8af7d8 309e94a64b61d1b18a0d0d83de4bf2d2582708ce refs/heads/for-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjNbrQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GfUP/2HGE/GMkkx2U6tRnr+m
-lQCPU9Z6tWFZr6kSkptEmEeLPd4EKqmhxusuT0M94HTDsChh8+E/4phkEXHdsDS4
-BTGnRR11+PtbY1+xPhorDXZsYZstjzuPkAIXl3ILZXpP6V7O8GiJkYACv34oLl6H
-oOFWtklmoK5w0wd0OI4URyZfnujTUOGvAUqbHTTdQUO/dmEZNmu6xlZhLzkBU8gU
-bEG5AwIAhfqS3U0W/nHmslhCU7jY45sRvlHaFkgZMTcyi7mc5frK9WMb+FPl8Jrd
-RwidJgAuDB8XGfC/42mz6G+drpUgb47Uea5tQunyThPgttPCe5c3jBpN3VaWc7lf
-+U1HZPLMolIe8SwWSHy68xN+71X5evm+Ht/EnJUdZju6jH/U7AtQBIPPt4CYX/iN
-C0kHu/MC7LI7oKi4jRSrDyaEmW4G7pDi0KvZU9J+2sebthVUIadY5/tKNvmplILJ
-2kXLTwgzmsCfUjsJsBBeQZ2CnBF5Frk2c5kvQO9MQXXLLYjzx112F2A+48JFS2/a
-lsRS6Mp9rc45F/Gw//6E3t0DjqTGzu6paY5ZNNkHbCkhKpl/Npv3ADiIVlxoBTvn
-j50QvAM6X0KVHJb8kb5Ai1tPr4FMhTOSeBbHR2O2o4JPxAwvm9f+UOl7B0kWhC1H
-/8me/s/nusAoHn9z8/80ZPc2
-=W+ye
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjNbzEACgkQJNaLcl1U
+h9DRcgf9F/qdRfvn9rHq+ndr/VuabRTTZI0BOjExH8WVRUn/sYyDqcD+JuIuflRm
+FqwDQptwHy+1EnN6w9Gfv4QX96W4zyWv6MDHylqprKp3Ml7pejUmYrR7gHvYuy9N
+e4df1OpbeAYLutrD4wTihpCNlcaxwyz4xPy7v3Ade5BxklNMQa55+eAE/4T02/Jf
+kt3lLDzPOzRdU8XaJ7zBesEmJCvb6WSm3RA0qofFYuApoDfO0vf0t4waaGieJXUQ
+ICXQyyCRGPc+d9sRAgvwWTttjjx2xXxV572dui3LW9FvwOV1F4C/veUoZKFp6yMc
+LZlGXUPHZ1Mt/DkgkIRw+3atE0Dr0w==
+=Q5R8
 -----END PGP SIGNATURE-----
 
---===============8771413506145646741==--
+--===============8777111119281392624==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2aa28b748fc9-309e94a64b61.txt
+
+6b8ba0db92cd01450acaf375caf4c126aa913d72 ASoC: soc-dapm: add snd_soc_dapm_to_dev()
+c8df096bca84c9eb04b656015c8430d0b87ebbcf ASoC: soc-dapm: add snd_soc_dapm_to_card()
+96e311b561a2d393a786a2aeb50cd5e02d06afb3 ASoC: soc-dapm: use dapm->component instead of container_of()
+a1c99b6097afe64ed493c05b522ee4d6f9b0094d ASoC: soc-component: add snd_soc_component_to_dapm()
+e38a80c5c24f3058bd5da6f2910e2b672493f4f2 ASoC: soc-card: add snd_soc_card_to_dapm()
+3bc0a92cb2062fce54ddd97ad68ad6fe358c3ff0 ASoC: soc-dapm: remove suspend_bias_off from snd_soc_dapm_context
+889dd56f8c03586e5489050e7457a405fae6a420 ASoC: soc-dapm: tidyup idle_bias handling - step1
+4b4fdc8b75a902eeb7441dff1876c2bb31c7715f ASoC: soc-dapm: tidyup idle_bias handling - step2
+2e7f0a86123d54a94fa3d309efdfbac02f2999b8 ASoC: soc-dapm: add snd_soc_dapm_get_bias_level()
+cb3c715d89607f8896c0f20fe528a08e7ebffea9 ASoC: soc-dapm: add snd_soc_dapm_set_idle_bias()
+66a940b1bf48a7095162688332d725ba160154eb ASoC: codecs: wcd937x: set the comp soundwire port correctly
+c4bb62eb594418a6bd05ff03bb9072ee1fef29c2 ASoC: codecs: wcd937x: make stub functions inline
+76cffc3eb1bdee0a7e8cca090adfd46a740f1cb0 soundwire: bus: add of_sdw_find_device_by_node helper
+2e07017b28e8bbace4a4973d11d0646575d36f94 soundwire: bus: add sdw_slave_get_current_bank helper
+772ed12bd04e6e6ad6d3fbc34016a2f88e63af7d ASoC: codecs: wcdxxxx: use of_sdw_find_device_by_node helper
+45a3295a3005f7782054a153312ba81d28eb7664 ASoC: codecs: wcdxxxx: use sdw_slave_get_current_bank helper
+4f16b6351bbff629e1a2a9d902b96210a50d65f0 ASoC: codecs: wcd: add common helper for wcd codecs
+4652f02cf6150ae496eec582e76b7cc7bb3089a1 ASoC: codecs: wcd-common: move WCD_SDW_CH to common
+ebaf88c0546ddfd5efe5d7867a2e8e9f0e5969ed ASoC: codecs: wcd-common: move component ops to common
+45f2c5e1d1fa413e862379f0ec765c3fdd07ec8e ASoC: codecs: wcd939x: get regmap directly
+59aebbbb0b47ee97c15cb6992c0fd665289544de ASoC: codecs: wcd-common: move status_update callback to common
+edf8918028e226515c3869c3b8b16f12fe6e62fe ASoC: codecs: wcd938x: get regmap directly
+0266f9541038b9b98ddd387132b5bdfe32a304e3 ASoC: codecs: wcd937x: get regmap directly
+dfe3de7b5abe194f422dd92cf18fb5678fb918a7 ASoC: soc-dapm: prepare for hiding struct
+309e94a64b61d1b18a0d0d83de4bf2d2582708ce ASoC: codecs: wcd93xxx: remove code duplication
+
+--===============8777111119281392624==--
