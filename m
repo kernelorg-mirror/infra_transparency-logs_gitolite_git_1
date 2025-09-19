@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 19 Sep 2025 01:37:51 -0000
-Message-Id: <175824587174.4162942.13987090310574766660@gitolite.kernel.org>
+Date: Fri, 19 Sep 2025 01:42:20 -0000
+Message-Id: <175824614079.4167245.5478368510281438855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 458908b42fc278ac878722185cc46a5c7871aed8
-    new: 8c8ada71cfcb8259940043f7372ad571c162e73a
+    old: 8c8ada71cfcb8259940043f7372ad571c162e73a
+    new: 2d5bb6d18c02aec1be47666694bd448cf9cf06e5
     log: |
-         9ad1e6c667d99552674a1e4c791c446b39844729 feat(list): ListCategoryError
-         8c8ada71cfcb8259940043f7372ad571c162e73a feat(start-session): choose hash algorithm
+         2d5bb6d18c02aec1be47666694bd448cf9cf06e5 refactor(crypto): cleanup
          
