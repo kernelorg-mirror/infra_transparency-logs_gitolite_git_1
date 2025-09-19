@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1610698830467671064=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 19 Sep 2025 07:40:17 -0000
-Message-Id: <175826761798.266922.18194086335058944276@gitolite.kernel.org>
-
---===============1610698830467671064==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Fri, 19 Sep 2025 07:40:39 -0000
+Message-Id: <175826763995.267198.14815850579881191579@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 55f6ac4484b342e62640ee4135ab1f1ffbcd5be5
-    new: eafedbc7c050c44744fbdf80bdf3315e860b7513
+  - ref: refs/heads/mhi-next
+    old: f5225a34bd8f9f64eec37f6ae1461289aaa3eb86
+    new: 54c67740fff7360b6607d02b8499d09b944b3fda
     log: |
-         eafedbc7c050c44744fbdf80bdf3315e860b7513 rust_binder: add Rust Binder driver
+         a9e3d5a69cf8d1a73733c52f593a3f803f576391 bus: mhi: host: Add support for separate controller configurations for VF and PF
+         b4d01c5b9a9d2dc39f52be22809e845cc4c46f03 bus: mhi: host: pci_generic: Read SUBSYSTEM_VENDOR_ID for VF's to check status
+         fd6e0509d0e86059f9a1c25b0b91ef5d0021701f bus: mhi: host: pci_generic: Add SRIOV support
+         12543f4405887da9f3e401e708ca0ff796a7b866 bus: mhi: host: pci_generic: Reset QDU100 while the MHI driver is removed
+         aa1a0e93ed21a06acb7ca9d4a4a9fce75ea53d0c bus: mhi: core: Improve mhi_sync_power_up handling for SYS_ERR state
+         54c67740fff7360b6607d02b8499d09b944b3fda bus: mhi: host: pci_generic: Set DMA mask for VFs
          
-
---===============1610698830467671064==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758267669 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1758267614-dc35bbb59c1ec12a4fd2b87383e189a44b160640
-
-55f6ac4484b342e62640ee4135ab1f1ffbcd5be5 eafedbc7c050c44744fbdf80bdf3315e860b7513 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjNCRUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3IMP+wawnFONhXzhb0MTCwpw
-29oa2obFbYtB0nurUcT2TZPhuVMWxsqWKgKa/MKK967v9NQQjmyJDMNJ+0FpIWOz
-+GlRfxIS9UJO5fVsZ0C42XdLksvShMIvT7pqLz3FAMH6WRF8jFrtQGKGdAztBO6d
-oofSiYJ/XyiJB4DLFk4puSBgLBL5b6b5CdUMPw95hqofhVeowsDrN6e6jKQkniat
-O3VaUKag4Qh3VBFiSip4pVVG2WdFacb7Z3CmiXN5bnIguRphpO85GE4Hl9nJJRG6
-xqBGlSo8vze4+Q+NNbZrDiva7PoA49yxD8oyz2cXbxoy3iT7e8/if7tGLGNy06Md
-33SCXkuJngNKb1/RYkiaRukGam87S+cESkFdNvFuMttrgJtEeFp2TWB7xwIz7tE+
-b01ws6c10+zsDdF09dwwwhERDiQHqmWqSE9VkaBum8/hAY7tGFpW4bx/krXWNyk7
-wJ7pJ1p04HFx07rTKzfQxDQ9t9fr2xrxnq8/xurLb0KgYd3J5/Wp1PAP+UCH5G6Y
-/PZtIJMSa6zL2xvY5GNzZPZFaqJOdIhk9zbg9yZ+jW5n8bfAip3jkIvnZYnt7j/0
-EBbLubUZ0YunJdOo2r7uI2C5dDzZJlJ5RZVI67aR0oSXoEtvDTzBt59Y1NmNEC6F
-FjDWPZCPMe/NyydWSXEDBIpz
-=x9vZ
------END PGP SIGNATURE-----
-
---===============1610698830467671064==--
