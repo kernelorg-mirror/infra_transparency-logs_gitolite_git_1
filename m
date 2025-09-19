@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 19 Sep 2025 13:53:11 -0000
-Message-Id: <175828999196.582426.7230440107845833644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Fri, 19 Sep 2025 14:06:53 -0000
+Message-Id: <175829081337.594122.7479050328682980105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
   - ref: refs/heads/main
-    old: 2112170b07dc8e9db9b77b9b9a3fcea3ee18e275
-    new: 9fc1d72166f31b337686ff6664b8b245a2e5b867
+    old: 4e10e5b34593052e6ce4a166796b10c72f978efd
+    new: efc79373b714a2cef2101eacb7282c85655d8561
     log: |
-         9fc1d72166f31b337686ff6664b8b245a2e5b867 build: degrade base64ct from 1.8.0 to 1.6.0
+         b1ecd762250d3dcc0cc19b19d2f1c78b60438602 tuna: Add -U and -K to the spread command
+         b238986588c765c5300d05493da4bdda541f273b tuna: replace match with if statements
+         efc79373b714a2cef2101eacb7282c85655d8561 tuna: Proofreading fixes
          
