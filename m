@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 19 Sep 2025 19:49:04 -0000
-Message-Id: <175831134489.1113891.1413680273973858095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 19 Sep 2025 19:54:26 -0000
+Message-Id: <175831166691.1119035.17542252945369171986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: d879aa5c62e104a29d03fae10390f4e1a4d31b73
-    new: e0f0414575aee0391019162503e8d9975118f5c2
+  - ref: refs/heads/tmp.perf-tools-next
+    old: c17dda8013495d8132c976cbf349be9949d0fbd1
+    new: 0dc96cae063cbf9ebf6631b33b08e9ba02324248
     log: |
-         e0f0414575aee0391019162503e8d9975118f5c2 feat(context): object type
+         5519b69183c80fbbed8d6eb6dcdf63ba52090d77 tools build: Make libperl opt-in rather than opt-out, deprecate
+         48918cacefd226af44373e914e63304927c0e7dc perf test: Don't leak workload gopipe in PERF_RECORD_*
+         693101792e45eefc888c7ba10b91108047399f5d perf evsel: Fix uniquification when PMU given without suffix
+         edaeb4bcf1511fe4e464fff9dd4a3abf6b0096da perf test: Avoid uncore_imc/clockticks in uniquification test
+         24937ee839e4bbc097acde73eeed67812bad2d99 perf evsel: Ensure the fallback message is always written to
+         0dc96cae063cbf9ebf6631b33b08e9ba02324248 perf build-id: Ensure snprintf string is empty when size is 0
          
