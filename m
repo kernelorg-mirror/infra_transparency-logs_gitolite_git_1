@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0289801878096982084=="
+Content-Type: multipart/mixed; boundary="===============0515007073993029984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Fri, 19 Sep 2025 22:18:58 -0000
-Message-Id: <175832033840.1242713.298080591352826277@gitolite.kernel.org>
+Date: Fri, 19 Sep 2025 22:19:21 -0000
+Message-Id: <175832036165.1243729.14854738043470188913@gitolite.kernel.org>
 
---===============0289801878096982084==
+--===============0515007073993029984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 201825fb4278accb6ace42915566c22391a0900d
-    new: cbf658dd09419f1ef9de11b9604e950bdd5c170b
-    log: revlist-201825fb4278-cbf658dd0941.txt
+  - ref: refs/heads/testing
+    old: 2e0638a8932771f261f6487720889ae018dfb0f0
+    new: 296a803b36e557a247b38a05dcb026adfd0c0b6f
+    log: revlist-2e0638a89327-296a803b36e5.txt
 
---===============0289801878096982084==
+--===============0515007073993029984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-201825fb4278-cbf658dd0941.txt
+Content-Disposition: attachment; filename=revlist-2e0638a89327-296a803b36e5.txt
 
 22571172257a55c443f1a9306e963da4c6187e83 dt-bindings: dma: qcom: bam-dma: Add missing required properties
 5068b5254812433e841a40886e695633148d362d dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
@@ -267,5 +267,6 @@ f03e578c8afe514c82ec9bd9af548b8fe08694e5 Merge tag 'uml-for-6.17-rc7' of git://g
 604530cd9a5b0c603038dfbe9e82b3e4dad11350 Merge tag 'platform-drivers-x86-v6.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 86cc796e5e9bff0c3993607f4301b8188095516c Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 cbf658dd09419f1ef9de11b9604e950bdd5c170b Merge tag 'net-6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+296a803b36e557a247b38a05dcb026adfd0c0b6f ipvs: Defer ip_vs_ftp unregister during netns cleanup
 
---===============0289801878096982084==--
+--===============0515007073993029984==--
