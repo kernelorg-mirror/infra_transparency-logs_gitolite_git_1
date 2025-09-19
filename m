@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3319231626738035384=="
+Content-Type: multipart/mixed; boundary="===============6179396462249758008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 19 Sep 2025 17:29:05 -0000
-Message-Id: <175830294586.990343.4270150236308963372@gitolite.kernel.org>
+Date: Fri, 19 Sep 2025 17:29:11 -0000
+Message-Id: <175830295199.991061.10052566866131529407@gitolite.kernel.org>
 
---===============3319231626738035384==
+--===============6179396462249758008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: e7847c0bd7ca55158fb77578d97893e113e2b22c
     new: 8d40ef680a6e11d17a5a8ab8ac43e82142aa7522
     log: revlist-e7847c0bd7ca-8d40ef680a6e.txt
 
---===============3319231626738035384==
+--===============6179396462249758008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ d27ce63a31c3c9b221287844c41088e499042199 dt-bindings: edac: Convert apm,xgene-ed
 537e189f2708864e21c9be7109e1f454b956370c dt-bindings: watchdog: Convert nuvoton,npcm-wdt to DT schema
 8d40ef680a6e11d17a5a8ab8ac43e82142aa7522 dt-bindings: trivial-devices: Add some more devices
 
---===============3319231626738035384==--
+--===============6179396462249758008==--
