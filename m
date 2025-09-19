@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2944009484822539010=="
+Content-Type: multipart/mixed; boundary="===============1169957515846206525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 19 Sep 2025 09:56:30 -0000
-Message-Id: <175827579047.381184.1188206661710515293@gitolite.kernel.org>
+Date: Fri, 19 Sep 2025 09:57:03 -0000
+Message-Id: <175827582325.381543.3967656150143392643@gitolite.kernel.org>
 
---===============2944009484822539010==
+--===============1169957515846206525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,55 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: dfca7e9ecc40e65628853594957725fa2d4a3faf
-    new: 53c2a6cf9253e64bd5f73d435f9c48cd44e87667
-    log: revlist-dfca7e9ecc40-53c2a6cf9253.txt
+    old: 53c2a6cf9253e64bd5f73d435f9c48cd44e87667
+    new: 1118f7e68f35fa7650ff8ed3973f0dfcf6191de2
+    log: revlist-53c2a6cf9253-1118f7e68f35.txt
+  - ref: refs/heads/tip/urgent
+    old: b40bb754c6fab152a51e980702f33c4abc442f78
+    new: 8053a658c633b1a9db4aca5446a312e87e6b5fdb
+    log: revlist-b40bb754c6fa-8053a658c633.txt
 
---===============2944009484822539010==
+--===============1169957515846206525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfca7e9ecc40-53c2a6cf9253.txt
+Content-Disposition: attachment; filename=revlist-53c2a6cf9253-1118f7e68f35.txt
+
+11eb7c20838f41bb7f1d7eb831f8533f5082ce4c Merge branch into tip/master: 'sched/urgent'
+8053a658c633b1a9db4aca5446a312e87e6b5fdb Merge branch into tip/master: 'x86/urgent'
+0d8c3ec1d67da07567f4455050c036dc5bbc8a02 Merge branch into tip/master: 'core/bugs'
+88be08e844fdd27994fb206cc90455c5a7913e18 Merge branch into tip/master: 'core/core'
+eaed624de5af1bdd0a6b45357ec515d81ac5cda8 Merge branch into tip/master: 'core/rseq'
+4ffef6cb83845c862cf95faff4ad8ede7ef7f51f Merge branch into tip/master: 'irq/core'
+90528610099166bc23bdba668e0e8d9e9e3c5b4f Merge branch into tip/master: 'irq/drivers'
+fa57df7341f3fc33f53d6a05487107c62555cbf3 Merge branch into tip/master: 'locking/core'
+636b7e458861d61a2011c544a0dae32762b05569 Merge branch into tip/master: 'locking/futex'
+9ca3a7320fb1d91dd4f8303a5881b7681bf4ac83 Merge branch into tip/master: 'perf/core'
+a4605210ecaf23473656cf71724e8ca232cf67f9 Merge branch into tip/master: 'ras/core'
+6ef8d0c1b3b8e72fea0c46b77b56f7fe13342e22 Merge branch into tip/master: 'sched/core'
+b1acc9fc135cf603e776c5c0b1ea98a96d6c2027 Merge branch into tip/master: 'smp/core'
+6e6668b69de608c0b512578aecd1080dc4efd1b1 Merge branch into tip/master: 'timers/clocksource'
+f31d00d70aad672c215f9ed798bcbc1c8e07fb8e Merge branch into tip/master: 'timers/core'
+11f6c5abe6462b17e7641b5fd6678cc38246aab9 Merge branch into tip/master: 'timers/vdso'
+0396e7afe14db54c6427638820928b6e296336ab Merge branch into tip/master: 'x86/apic'
+e8ae3a59b9791157ff54aef3f2938bbedf79127b Merge branch into tip/master: 'x86/asm'
+c248d6094332f1536f08a8c161673d1e7da58834 Merge branch into tip/master: 'x86/bugs'
+4b86da66f7e4752dd27ef291839474745d3371af Merge branch into tip/master: 'x86/build'
+5cff28509838d0a29166ae48a5977d3df1cde87b Merge branch into tip/master: 'x86/cache'
+c3762bcc024061ea802b9c471a3006acdc031d11 Merge branch into tip/master: 'x86/cleanups'
+cfec5d142506784293fd5e0eeca6eb4b06c43d28 Merge branch into tip/master: 'x86/core'
+559fc1a6026d90bc37b94ac52b958eb06b56b854 Merge branch into tip/master: 'x86/cpu'
+1e5b00a5aff4400dd38967ae478a0c44db697536 Merge branch into tip/master: 'x86/entry'
+ce89d617e3db4e0faf0f8353c2bb45ea4a6c0cff Merge branch into tip/master: 'x86/microcode'
+d6a43d048dcaca3750e0ff4d67dfb0da431ff3ef Merge branch into tip/master: 'x86/misc'
+ff0668e24118fd535e1c00fa013d5151bdfea3c4 Merge branch into tip/master: 'x86/mm'
+1118f7e68f35fa7650ff8ed3973f0dfcf6191de2 Merge branch into tip/master: 'x86/tdx'
+
+--===============1169957515846206525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b40bb754c6fa-8053a658c633.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 79f919a89c9d06816dbdbbd168fa41d27411a7f9 cgroup: split cgroup_destroy_wq into 3 workqueues
@@ -126,23 +166,14 @@ b85936e95a4bd2a07e134af71e2c0750a69d2b8b ixgbe: initialize aci.lock before it's 
 7601a0a46216f4ba05adff2de75923b4e8e585c2 net/mlx5e: Add a miss level for ipsec crypto offload
 8c4748539985489b59a00b4c2ae919253b3d2762 Merge branch 'mlx5e-misc-fixes-2025-09-15'
 a1eab4d813f7b6e606ed21381b8cfda5c59a87e5 sched_ext, sched/core: Fix build failure when !FAIR_GROUP_SCHED && EXT_GROUP_SCHED
-dd86b69d20fb9fa7e941ed01ff05f1e662fcc3ff fs/resctrl: Fix counter auto-assignment on mkdir with mbm_event enabled
-e4c00c4ce2aafe61dc7436e763a78d6d112d9e2f x86/sev: Add new dump_rmp parameter to snp_leak_pages() API
-e09701dcdd9ca06be249091eeb786d57e67b613e crypto: ccp - Add new HV-Fixed page allocation/free API
-648dbccc03a000cd64c2a9d86012d98053545e64 crypto: ccp - Add AMD Seamless Firmware Servicing (SFS) driver
 e882985b09b2469b7d48389e08fb790dc9497d60 Merge tag 'iwlwifi-fixes-2025-09-15' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 b6f56a44e4c1014b08859dcf04ed246500e310e5 net: rfkill: gpio: Fix crash due to dereferencering uninitialized pointer
 a86556264696b797d94238d99d8284d0d34ed960 dm-raid: don't set io_min and io_opt for raid1
-fd4e876f59b7e70283b4025c717cad8948397be1 softirq: Provide a handshake for canceling tasklets via polling
-3253cb49cbad4772389d6ef55be75db1f97da910 softirq: Allow to drop the softirq-BKL lock on PREEMPT_RT
 b6f456a76f7379fa4e30371e548f40b10a76b60f Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 d4b779985a6c853be5693fa6e8994034f8492abc Merge tag 'for-6.17/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 7d862707d6af86a31720f31fc1949112df4abadc Merge tag 'kvmarm-fixes-6.17-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 f6f43a5338751d40817859bc09a60c22d4c42bb5 Merge tag 'kvm-x86-fixes-6.17-rcN' of https://github.com/kvm-x86/linux into HEAD
 ecd42dd170ea7bacdd9d01d8e74658df8dff621d Merge tag 'kvm-s390-master-6.17-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-c1c863457780adfb2e29fa9a85897179ad3903e6 selftest/futex: Make the error check more precise for futex_numa_mpol
-2951dddef0a87c20e83c77070bd5077290d9121f selftest/futex: Reintroduce "Memory out of range" numa_mpol's subtest
-ed323aeda5e09fa1ab95946673939c8c425c329c selftest/futex: Compile also with libnuma < 2.0.16
 05950213a9717dc8d83ba90538a87b7a9e140ff8 Merge tag 'cgroup-for-6.17-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 37889ceadde0329621a1a1f253febb2019dfdec2 Merge tag 'sched_ext-for-6.17-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 a8ba87f04ca9cdec06776ce92dce1395026dc3bb bonding: don't set oif to bond dev when getting NS target destination
@@ -173,14 +204,8 @@ f03e578c8afe514c82ec9bd9af548b8fe08694e5 Merge tag 'uml-for-6.17-rc7' of git://g
 86cc796e5e9bff0c3993607f4301b8188095516c Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 cbf658dd09419f1ef9de11b9604e950bdd5c170b Merge tag 'net-6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 ef442fc5c1a9a2a232de85a0e6967f388b6c0c8e rv: Add Gabriele Monaco as maintainer for Runtime Verification
-ccf09357ffef2ab472369ab9cdf470c9bc9b821a smp: Fix up and expand the smp_call_function_many() kerneldoc
 097a6c336d0080725c626fda118ecfec448acd0f Merge tag 'trace-rv-v6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-7114d2ff6a0ee7c5aab21d09795741dd6fcd9ebf Merge branch into tip/master: 'sched/urgent'
-8bc1d526679c9433759e3a05ecc0586b1db0d067 Merge branch into tip/master: 'irq/core'
-ac320e04c7454d12963be06693b1ae868bd48731 Merge branch into tip/master: 'locking/futex'
-bab9658aeb5d8c4a6d04ad26fab826982e991815 Merge branch into tip/master: 'smp/core'
-d11633b119594f3524523b184e026957d643ab27 Merge branch into tip/master: 'x86/apic'
-2c6f8f332d6dd1c95c2dd5e4a5d0d57e81bd8bda Merge branch into tip/master: 'x86/cache'
-53c2a6cf9253e64bd5f73d435f9c48cd44e87667 Merge branch 'linus'
+11eb7c20838f41bb7f1d7eb831f8533f5082ce4c Merge branch into tip/master: 'sched/urgent'
+8053a658c633b1a9db4aca5446a312e87e6b5fdb Merge branch into tip/master: 'x86/urgent'
 
---===============2944009484822539010==--
+--===============1169957515846206525==--
