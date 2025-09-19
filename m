@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 19 Sep 2025 01:54:50 -0000
-Message-Id: <175824689082.4177455.1537593283300989866@gitolite.kernel.org>
+Date: Fri, 19 Sep 2025 02:01:20 -0000
+Message-Id: <175824728049.4184283.12007140133907287895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,14 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 0baa853040e3f614519785a34090ba8cd88b54d8
-    new: 3ffd45ebfa47934607307e71b5e76b72548a3ba1
+    old: 3ffd45ebfa47934607307e71b5e76b72548a3ba1
+    new: f87718601b1a2346f402199c4193d6e6e1b9139e
     log: |
-         144b88515ee43036ff6f9d0517ad67b4f6fdf011 refactor(load): simplify error handling
-         d509be053a16871e4e38d7ccfed3a2a5a81a36de feat(list): ListCategoryError
-         e42dbc4d83293d6bab4281d876257b00d0c4644b feat(start-session): choose hash algorithm
-         dd44d1f109255282356f1cdc2bdb03e144e9aecf refactor(crypto): cleanup
-         3ffd45ebfa47934607307e71b5e76b72548a3ba1 feat(pcr-event): hex index
+         21444bbaf2514057fba82a5d5948bf6a2ba01715 refactor(seal): avoid extra clone for alg str
+         a95c6a47299d99455fa11084605d4a37cc55fce4 refactor: consolidate attribute settings
+         fb9d52568ba5ade67dcae93f657a7b29cefaa020 refactor(load): simplify error handling
+         059586e04e92e897e44ba9566590c2858a8d2573 feat(list): ListCategoryError
+         2fc115bf4b9467e53f25111859fb4b11ba6bb789 feat(start-session): choose hash algorithm
+         d43b6cb12d7c20bac523605e78feb067fbe68e89 refactor(crypto): cleanup
+         f87718601b1a2346f402199c4193d6e6e1b9139e feat(pcr-event): hex index
          
