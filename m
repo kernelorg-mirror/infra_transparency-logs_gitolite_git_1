@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 19 Sep 2025 16:40:42 -0000
-Message-Id: <175830004222.950967.8867923246619582843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 19 Sep 2025 16:42:24 -0000
+Message-Id: <175830014460.951848.7894701923414155996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-6.18
-    old: 1f1cb5d60c76e4ebbdfc5aa673233b305589876d
-    new: 59d5de3655698679ad8fd2cc82228de4679c4263
+  - ref: refs/heads/master
+    old: 8c75ddc8591ef82954031aa2e9bdcde54c43ea82
+    new: ffc3237f13a5433a9bb19d202a00b785b1d6e074
     log: |
-         216217ebee16afc4d79c3e86a736d87175c18e68 cpuset: fix failure to enable isolated partition when containing isolcpus
-         59d5de3655698679ad8fd2cc82228de4679c4263 cpuset: Use new excpus for nocpu error check when enabling root partition
-         
-  - ref: refs/heads/for-next
-    old: b7d62c86ac2e6aab62618984394bb20ab43f6b7c
-    new: afcd416ca8caea05594fde027343da60a5973f7d
-    log: |
-         216217ebee16afc4d79c3e86a736d87175c18e68 cpuset: fix failure to enable isolated partition when containing isolcpus
-         59d5de3655698679ad8fd2cc82228de4679c4263 cpuset: Use new excpus for nocpu error check when enabling root partition
-         afcd416ca8caea05594fde027343da60a5973f7d Merge branch 'for-6.18' into for-next
+         9cecbdb6092c336084bd04d05f1fef601be9f6b7 Add support for IORING_SETUP_CQE_MIXED
+         b15c0596944e978ad9bf9a59d38fd4143020f370 test/timestamp: add IORING_SETUP_CQE_MIXED test
+         e3205c05468970a28d168dc9039071dae76cff54 Add nop testing for IORING_SETUP_CQE_MIXED
+         ffc3237f13a5433a9bb19d202a00b785b1d6e074 Merge branch 'cqe-mixed'
          
