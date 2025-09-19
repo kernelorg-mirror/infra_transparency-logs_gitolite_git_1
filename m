@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6790903360528231033=="
+Content-Type: multipart/mixed; boundary="===============6012908333333714482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 19 Sep 2025 15:44:31 -0000
-Message-Id: <175829667164.896659.7295970331977033722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 19 Sep 2025 15:44:40 -0000
+Message-Id: <175829668089.896917.11429003387143036543@gitolite.kernel.org>
 
---===============6790903360528231033==
+--===============6012908333333714482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: c17dda8013495d8132c976cbf349be9949d0fbd1
     log: revlist-b7ae4320d693-c17dda801349.txt
 
---===============6790903360528231033==
+--===============6012908333333714482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -262,4 +262,4 @@ c3047f9a1ab457b60caa3b2baa2c605b935ca4f1 perf bench mem: Refactor mem_options
 a8f0992998af9ea1135ee6415c68c1d84cb5ad22 perf bench mem: Add mmap() workloads
 c17dda8013495d8132c976cbf349be9949d0fbd1 perf session: Fix handling when buffer exceeds 2 GiB
 
---===============6790903360528231033==--
+--===============6012908333333714482==--
