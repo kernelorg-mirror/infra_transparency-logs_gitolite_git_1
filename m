@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 19 Sep 2025 16:42:50 -0000
-Message-Id: <175830017085.952198.17885892788466328772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 19 Sep 2025 16:56:27 -0000
+Message-Id: <175830098774.964368.12867968940389520499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/for-6.18
-    old: 59d5de3655698679ad8fd2cc82228de4679c4263
-    new: 51840f7ba393dce7624a759cc4cee8c2bedf9068
-    log: |
-         51840f7ba393dce7624a759cc4cee8c2bedf9068 cpuset: fix missing error return in update_cpumask
-         
-  - ref: refs/heads/for-next
-    old: afcd416ca8caea05594fde027343da60a5973f7d
-    new: ba1682902333b357a3f146fb392a427ffe7518e5
-    log: |
-         51840f7ba393dce7624a759cc4cee8c2bedf9068 cpuset: fix missing error return in update_cpumask
-         ba1682902333b357a3f146fb392a427ffe7518e5 Merge branch 'for-6.18' into for-next
-         
+  - ref: refs/heads/scx
+    old: 7bd4e2c2822060e3cf828050e7cb9b455b8480d0
+    new: c45a43baacf0cdde38e1610b26ab0dfe020f5e9a
