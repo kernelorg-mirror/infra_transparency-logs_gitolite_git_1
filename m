@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1354228633609488671=="
+Content-Type: multipart/mixed; boundary="===============7293066272260073274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 20 Sep 2025 17:29:35 -0000
-Message-Id: <175838937557.2206783.17111556582330424000@gitolite.kernel.org>
+Date: Sat, 20 Sep 2025 17:29:50 -0000
+Message-Id: <175838939065.2207285.12995546066947259575@gitolite.kernel.org>
 
---===============1354228633609488671==
+--===============7293066272260073274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 7401a0225372cc42192842eefdd3648168149e5a
+  - ref: refs/heads/master
+    old: f53d117864c01aecd974e229e58079d753b5844c
     new: 37f03a747bb8ed014a9e018d709aff5af1fd3543
-    log: revlist-7401a0225372-37f03a747bb8.txt
+    log: revlist-f53d117864c0-37f03a747bb8.txt
 
---===============1354228633609488671==
+--===============7293066272260073274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7401a0225372-37f03a747bb8.txt
+Content-Disposition: attachment; filename=revlist-f53d117864c0-37f03a747bb8.txt
 
 22571172257a55c443f1a9306e963da4c6187e83 dt-bindings: dma: qcom: bam-dma: Add missing required properties
 5068b5254812433e841a40886e695633148d362d dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
@@ -561,4 +561,4 @@ c4a211c658786a227511af4dc38d9842504619df tpm: Prevent local DOS via tpm/tpm0/ppi
 55bd6986bad21098d0bc84dc89bf0824eff33427 tpm_tis: Fix incorrect arguments in tpm_tis_probe_irq_single
 37f03a747bb8ed014a9e018d709aff5af1fd3543 tpm: use a map for tpm2_calc_ordinal_duration()
 
---===============1354228633609488671==--
+--===============7293066272260073274==--
