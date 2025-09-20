@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 20 Sep 2025 22:48:46 -0000
-Message-Id: <175840852683.2463949.2282972589783724661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 20 Sep 2025 23:25:33 -0000
+Message-Id: <175841073374.2495412.4591133499921643287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 5612ea8b554375d45c14cbb0f8ea93ec5d172891
-    new: 5a427fddec5e76360725a0f03df3a2a003efbe2e
+  - ref: refs/heads/arm64-gcs-exit-token
+    old: 7c9bfe9766fd7ea66170625840dc9c859fc3323f
+    new: b061176fb9a99aabc3b9217fa4a4dd97dbf45fab
     log: |
-         5a427fddec5e76360725a0f03df3a2a003efbe2e selftests/bpf: Fix selftest verifier_arena_large failure
+         b061176fb9a99aabc3b9217fa4a4dd97dbf45fab kselftest/arm64: Add PR_SHADOW_STACK_EXIT_TOKEN to gcs-locking
          
