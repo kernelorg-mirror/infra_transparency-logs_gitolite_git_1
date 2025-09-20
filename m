@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1727224169823183433=="
+Content-Type: multipart/mixed; boundary="===============1922260545008246912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 20 Sep 2025 16:22:30 -0000
-Message-Id: <175838535011.2152263.14244218387458251006@gitolite.kernel.org>
+Date: Sat, 20 Sep 2025 16:22:37 -0000
+Message-Id: <175838535770.2152492.12225053408750201919@gitolite.kernel.org>
 
---===============1727224169823183433==
+--===============1922260545008246912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/notes/commits
-    old: 42605732e88d881398177266164ed8d6bb76862c
-    new: 744ddfe820fe07682beca5319bb233d6e8686c03
-    log: revlist-42605732e88d-744ddfe820fe.txt
+  - ref: refs/heads/locking/futex
+    old: 6b54082c3ed4dc9821cdf0edb17302355cc5bb45
+    new: 4386f71623b77215c9502e60fc399e76ec337fec
+    log: revlist-6b54082c3ed4-4386f71623b7.txt
 
---===============1727224169823183433==
+--===============1922260545008246912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42605732e88d-744ddfe820fe.txt
+Content-Disposition: attachment; filename=revlist-6b54082c3ed4-4386f71623b7.txt
 
-dae1fc4fe880651542f2e4624d508dba2f41a752 Notes added by 'git notes add'
-1a552c12596762b2e2be3861a2e8dcfea08cf543 Notes added by 'git notes add'
-7eca7965fa7575bb65c3dd8d6bc042f42b1c8161 Notes added by 'git notes add'
-a1f3f341dd11db7b2301ecd5f5152ac790fd952b Notes added by 'git notes add'
-af71d4fd1551752113a738822dbb27044e9c22cc Notes added by 'git notes add'
-3c0d881c19b5e7c6d4458ad571e09935c9eea4e5 Notes added by 'git notes add'
-bdd205981cb7cd95c18aecbfa505db84a006e03a Notes added by 'git notes add'
-9afc40e40300dec8464bfc66b258711ee5f50904 Notes added by 'git notes add'
-689243506c36563cefda167cf7ead5df9b9a5895 Notes added by 'git notes add'
-d53ab0b87a78cc16eacb15fbf8a8830db9e63612 Notes added by 'git notes add'
-346fc5c2e935d1ba1fa4b8270944ddb5cb2c049e Notes added by 'git notes add'
-4785ed039a54640206faf07d5acfa97cde419794 Notes added by 'git notes add'
-3d14fedb648bbeb8007cfc71d6ac1e3d4d19f324 Notes added by 'git notes add'
-c36feec72a90983a8bf576e7fa8e4d5e506f4c7f Notes added by 'git notes add'
-fabd5e74bbf9084f6eb96237b7b189069e17a78a Notes added by 'git notes add'
-744ddfe820fe07682beca5319bb233d6e8686c03 Notes added by 'git notes add'
+f2662ec26b26adb71783fa5e5ee75aff6f18a940 selftests: kselftest: Create ksft_print_dbg_msg()
+d060495a37cb437459b3d202572d48a73bee8a66 selftests/futex: Refactor futex_requeue_pi with kselftest_harness.h
+65a12ce20fb27067c0d946e7dcf83b9c9ff365fd selftests/futex: Refactor futex_requeue_pi_mismatched_ops with kselftest_harness.h
+2ef0615685094f6c7ad7e18498759f90015b7de8 selftests/futex: Refactor futex_requeue_pi_signal_restart with kselftest_harness.h
+0c02abf6389e01a3b78091394bc9624d5f1d84fb selftests/futex: Refactor futex_wait_timeout with kselftest_harness.h
+f5a16834410a89f929657d9b8a5a4011c05293c8 selftests/futex: Refactor futex_wait_wouldblock with kselftest_harness.h
+af3c79f8575d751914d1175c02dc024ecc173c58 selftests/futex: Refactor futex_wait_unitialized_heap with kselftest_harness.h
+14d016bd72822c0464e9aed4b6a620474923818d selftests/futex: Refactor futex_wait_private_mapped_file with kselftest_harness.h
+e5c04d0f3ea0dfa4858a449ff3153bc3cef6a140 selftests/futex: Refactor futex_wait with kselftest_harness.h
+f341a20f6d7e25669b2fdf2b071bdd92962e5897 selftests/futex: Refactor futex_requeue with kselftest_harness.h
+a91e8e372e4f1ecce2a87905d4fa437865158b1e selftests/futex: Refactor futex_waitv with kselftest_harness.h
+4ba629e6c6dc6eef1a6b96dc06c140e622a8f836 selftests/futex: Refactor futex_priv_hash with kselftest_harness.h
+d35ca2f642726a2c8a85c5b864fd05f59f3965af selftests/futex: Refactor futex_numa_mpol with kselftest_harness.h
+b257d91c4db5bafcc3f67eab120e75bda4f61137 selftests/futex: Drop logging.h include from futex_numa
+520db0559deff096c33a95dd3be2583e02771261 selftests/futex: Remove logging.h file
+4386f71623b77215c9502e60fc399e76ec337fec selftest/futex: Fix spelling mistake "boundarie" -> "boundary"
 
---===============1727224169823183433==--
+--===============1922260545008246912==--
