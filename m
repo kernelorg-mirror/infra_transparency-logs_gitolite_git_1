@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Sat, 20 Sep 2025 12:22:02 -0000
-Message-Id: <175837092264.1952372.14143098719376472872@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8132866842800075415=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
+Date: Sat, 20 Sep 2025 12:22:07 -0000
+Message-Id: <175837092733.1952581.9308735798481488118@gitolite.kernel.org>
+
+--===============8132866842800075415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/sven/linux
+user: sven
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 381e8ee368234a51b3a4f231f6f24ff0b09d9f9e
-    new: b73f28d2f847c24ca5d858a79fd37055036b0a67
-    log: |
-         f75f66683ded09f7135aef2e763c245a07c8271a crypto: comp - Use same definition of context alloc and free ops
-         bee8a520eb84950193d0566ea2c2e46406a4b6ce rhashtable: Use rcu_dereference_all and rcu_dereference_all_check
-         838d2d51513e6d2504a678e906823cfd2ecaaa22 crypto: aspeed - Fix dma_unmap_sg() direction
-         5ce9891ea928208a915411ce8227f8c3e37e5ad9 crypto: qat - Return pointer directly in adf_ctl_alloc_resources
-         85acd1b26b8f5b838887dc965dc3aa2c0253f4d1 crypto: hisilicon/qm - invalidate queues in use
-         3d716c51e0e8791f8dd72479a3e6d5e7650ac35e crypto: hisilicon/qm - mask axi error before memory init
-         80736a97cf94eeb02da6de6cfbc5a74514c85a16 crypto: hisilicon - enable error reporting again
-         64b9642fc29a14e1fe67842be9c69c7b90a3bcd6 crypto: hisilicon/qm - clear all VF configurations in the hardware
-         f0cafb02de883b3b413d34eb079c9680782a9cc1 crypto: hisilicon/qm - set NULL to qm->debug.qm_diff_regs
-         b73f28d2f847c24ca5d858a79fd37055036b0a67 crypto: anubis - simplify return statement in anubis_mod_init
-         
+  - ref: refs/tags/apple-soc-dt-6.18-part2
+    old: 0000000000000000000000000000000000000000
+    new: e225f3c7089aef9920aa66b92eb044c2f5becf1a
+
+--===============8132866842800075415==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 44117D242A751EE9! 1758370979 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sven/linux
+nonce 1758370924-19fab8dc6d5e8ba4e7905ad8df1953703f693815
+
+0000000000000000000000000000000000000000 e225f3c7089aef9920aa66b92eb044c2f5becf1a refs/tags/apple-soc-dt-6.18-part2
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQS3vz815OHsEaWy0u9EEX0kKnUe6QUCaM6cowAKCRBEEX0kKnUe
+6YBtAQC3BiysbU2Httqun9avZ8ij+qKS4JPbDBsi0WSHqM5W5gEAikz8ZHxRfCUq
+9pjEEt56BFfcgQcrQV/L5vUyCsRYWA8=
+=hW1v
+-----END PGP SIGNATURE-----
+
+--===============8132866842800075415==--
