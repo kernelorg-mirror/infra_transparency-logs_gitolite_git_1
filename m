@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 20 Sep 2025 17:11:12 -0000
-Message-Id: <175838827282.2192254.11272301984432769017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 20 Sep 2025 17:28:35 -0000
+Message-Id: <175838931502.2205475.5344973642122886409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: c9a9fc23228f447beefe473224207944521b14a1
-    new: 0b0ca959d20689fece038954bbf1d7b14c0b11c3
+  - ref: refs/heads/next
+    old: f53d117864c01aecd974e229e58079d753b5844c
+    new: 7401a0225372cc42192842eefdd3648168149e5a
     log: |
-         0b0ca959d20689fece038954bbf1d7b14c0b11c3 riscv: errata: Fix the PAUSE Opcode for MIPS P8700
+         7401a0225372cc42192842eefdd3648168149e5a tpm: use a map for tpm2_calc_ordinal_duration()
          
