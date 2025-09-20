@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sat, 20 Sep 2025 05:03:00 -0000
-Message-Id: <175834458074.1586725.4973463546898469544@gitolite.kernel.org>
+Date: Sat, 20 Sep 2025 05:40:55 -0000
+Message-Id: <175834685511.1618230.15572297961187175022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
-  - ref: refs/heads/clk-amlogic
-    old: a75ca9ae47f90c619c88d359c7ae8af96bb350c5
-    new: 7e2e4e32cd47a4129bf25c21e7049ff0571b7b90
-    log: |
-         7e2e4e32cd47a4129bf25c21e7049ff0571b7b90 clk: amlogic: fix recent code refactoring
-         
   - ref: refs/heads/clk-next
-    old: 779de22f5d93d4f2ce24be3f77eee439d6761fce
-    new: 7629c844510a6ee0c41eaf9a8edd874dc43e7d4c
+    old: 7629c844510a6ee0c41eaf9a8edd874dc43e7d4c
+    new: 8725d3ded67b6b9682ffa0c2e7e62c174f01875e
     log: |
-         7e2e4e32cd47a4129bf25c21e7049ff0571b7b90 clk: amlogic: fix recent code refactoring
-         7629c844510a6ee0c41eaf9a8edd874dc43e7d4c Merge branch 'clk-amlogic' into clk-next
+         1e0d75258bd09323cb452655549e03975992b29e clk: ti: am33xx: keep WKUP_DEBUGSS_CLKCTRL enabled
+         048546931339b322f13c5863ce1815c9e5e7b0bd clk: keystone: sci-clk: use devm_kmemdup_array()
+         8725d3ded67b6b9682ffa0c2e7e62c174f01875e Merge branch 'clk-ti' into clk-next
          
+  - ref: refs/heads/clk-ti
+    old: 0000000000000000000000000000000000000000
+    new: 048546931339b322f13c5863ce1815c9e5e7b0bd
