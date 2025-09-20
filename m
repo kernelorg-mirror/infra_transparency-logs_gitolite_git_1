@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 20 Sep 2025 15:29:45 -0000
-Message-Id: <175838218503.2105737.13386533208389886322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 20 Sep 2025 15:40:08 -0000
+Message-Id: <175838280899.2115871.1189083036969823178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: c6689857b6e6efae214652baadb5fe2bdb8bd594
-    new: 8e8114dd9ed917427ab1d415073f92fd632adee1
+  - ref: refs/notes/commits
+    old: 21ddd37b669123df08131d3b34360c1aafae8a80
+    new: 6c111d2148b13e81dbc487e4a7db1f412856f7d6
     log: |
-         701b839f35a6aa4f7c5958b140ac382849092596 treewide: Define \pct for percent sign and use it instead of "\,\%"
-         8e8114dd9ed917427ab1d415073f92fd632adee1 Subject: [PATCH -perfbook 2/2] utilities/punctcheck.sh: Check use of "\%"
+         6c111d2148b13e81dbc487e4a7db1f412856f7d6 Notes added by 'git notes add'
          
