@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4691258583385432764=="
+Content-Type: multipart/mixed; boundary="===============3750022215254290811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 20 Sep 2025 11:21:57 -0000
-Message-Id: <175836731783.1899332.17266274141817685761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sat, 20 Sep 2025 11:26:37 -0000
+Message-Id: <175836759793.1903866.4442704144637528072@gitolite.kernel.org>
 
---===============4691258583385432764==
+--===============3750022215254290811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/52bit-at
-    old: 998982db161c4500b62e314ec62b0106b1f4df65
-    new: 00a37271c8a68070dc64f81a5d64644beb4cef2f
-    log: revlist-998982db161c-00a37271c8a6.txt
+  - ref: refs/heads/next
+    old: 0010dabe5bf4155cf036bd5fd40944a1821cfe55
+    new: 181ce6b01ad52aeb791545edbae0b92648c6428d
+    log: revlist-0010dabe5bf4-181ce6b01ad5.txt
 
---===============4691258583385432764==
+--===============3750022215254290811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-998982db161c-00a37271c8a6.txt
+Content-Disposition: attachment; filename=revlist-0010dabe5bf4-181ce6b01ad5.txt
 
 0090c0a247cd3dc37181be4a9af4750ae3fedbd0 KVM: arm64: Add helper computing the state of 52bit PA support
 23cf13def0c87d9ce234f12eb6132f6bf9442f29 KVM: arm64: Account for 52bit when computing maximum OA
@@ -42,5 +42,11 @@ cb1762904c5000220a0facf9bcab68ba687ec417 KVM: arm64: Allow EL1 control registers
 b8e625167a321138f83b1f6c99cf25d1290cb04e KVM: arm64: Add S1 IPA to page table level walker
 50f77dc87f133b09db44a5bbfdd64b1ca83a8d8e KVM: arm64: Populate level on S1PTW SEA injection
 00a37271c8a68070dc64f81a5d64644beb4cef2f KVM: arm64: selftest: Expand external_aborts test to look for TTW levels
+8cba6c8b87c55f14ea2c4c3173f4e01b60d7ae62 Merge branch kvm-arm64/52bit-at into kvmarm-master/next
+d9476fd35636f7ae5b8f94fed7011d351544125e Merge branch kvm-arm64/gic-v5-nv into kvmarm-master/next
+f01c7baa16bf28a579e48739df287408720e2844 Merge branch kvm-arm64/nv-debug into kvmarm-master/next
+46bd74ef07a8a9c4085d03595fce2bfc2a38f03a Merge branch kvm-arm64/el2-feature-control into kvmarm-master/next
+47f15744fcf91587afcd228a3c206a978f3d034b Merge branch kvm-arm64/nv-misc-6.18 into kvmarm-master/next
+181ce6b01ad52aeb791545edbae0b92648c6428d Merge branch kvm-arm64/misc-6.18 into kvmarm-master/next
 
---===============4691258583385432764==--
+--===============3750022215254290811==--
