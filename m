@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5366657848195132441=="
+Content-Type: multipart/mixed; boundary="===============4943291836477823838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 20 Sep 2025 16:03:35 -0000
-Message-Id: <175838421579.2135018.13646304346808742683@gitolite.kernel.org>
+Date: Sat, 20 Sep 2025 16:03:53 -0000
+Message-Id: <175838423310.2135333.388000608801959909@gitolite.kernel.org>
 
---===============5366657848195132441==
+--===============4943291836477823838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: fea2bfde3d52fbcfc7698c01954bee8b57d42abf
-    new: 88e8acffd7af9b030d2772f27ee30639be7024cf
-    log: revlist-fea2bfde3d52-88e8acffd7af.txt
+  - ref: refs/heads/for-next
+    old: e8db785e78cdf765f7c57125b7eb143a85eecc8f
+    new: e50b8f02e00d445cdb8cf928eb4b06541cb98e5f
+    log: revlist-e8db785e78cd-e50b8f02e00d.txt
 
---===============5366657848195132441==
+--===============4943291836477823838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fea2bfde3d52-88e8acffd7af.txt
+Content-Disposition: attachment; filename=revlist-e8db785e78cd-e50b8f02e00d.txt
 
 0bd0e43776b6a0ff5f7aa3783f547849356ac899 scsi: ufs: exynos: Correct sync pattern mask timing comment
 c1553fc105dff28f79bef90fab207235f5f2d977 scsi: ufs: ufs-qcom: Disable lane clocks during phy hibern8
@@ -49,5 +49,6 @@ a045ae21ce3e3411ac38ff2f9051792585f444d7 scsi: lpfc: Convert debugfs directory c
 546ad76b2a9a87ce72bc91f644365a2f250d1417 scsi: lpfc: Update lpfc version to 14.4.0.11
 a28205c2bc22774dcab375411683f2b47d9102f3 scsi: lpfc: Copyright updates for 14.4.0.11 patches
 88e8acffd7af9b030d2772f27ee30639be7024cf Merge patch series "Update lpfc to revision 14.4.0.11"
+e50b8f02e00d445cdb8cf928eb4b06541cb98e5f Merge branch 'misc' into for-next
 
---===============5366657848195132441==--
+--===============4943291836477823838==--
