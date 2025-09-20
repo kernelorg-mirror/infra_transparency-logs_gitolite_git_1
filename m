@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 20 Sep 2025 13:30:52 -0000
-Message-Id: <175837505233.2008741.15900905807016103700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Sat, 20 Sep 2025 14:37:43 -0000
+Message-Id: <175837906351.2060692.8164126454831438728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/scx
-    old: 3ace638865ca4abffbd7e80c85373fcb695859c1
-    new: e1436f21fed139afaef96ca2c555929bdd798dc0
+  - ref: refs/heads/master
+    old: 3fe1be6fee6e8180d4ae5251300759573d409e18
+    new: 3b3eb857d5ab6d4edfc4c64221fae8aa54a05fde
     log: |
-         d4961deceac0de34c3358adc27ee058a6e6d5c4f sched_ext: idle: Handle migration-disabled tasks in BPF code
-         81ff13a24c73136f7b46d345cefd2b505edb28a6 sched_ext: idle: Allow per-CPU kthreads to stack with the wakee
-         e1436f21fed139afaef96ca2c555929bdd798dc0 sched_ext: idle: Favor same SMT idle sibling
+         3b3eb857d5ab6d4edfc4c64221fae8aa54a05fde Bluetooth: MGMT: Fix possible UAFs
          
