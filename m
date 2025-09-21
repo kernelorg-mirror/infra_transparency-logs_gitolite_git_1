@@ -1,34 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Sun, 21 Sep 2025 22:05:47 -0000
-Message-Id: <175849234731.3670659.5487735328687440412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 21 Sep 2025 22:14:05 -0000
+Message-Id: <175849284561.3676231.17451307196959350144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/linux-next
-    old: 249efb49520b1c6a23a7c16636e8b28794dc3c76
-    new: 672adcf350892e7b2a6857983e164e9765c9ae95
+  - ref: refs/heads/master
+    old: 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6
+    new: 07e27ad16399afcd693be20211b0dfae63e0615f
     log: |
-         5d51754d4b388f559909452f2efce89c9484a7cc virtio: introduce map ops in virtio core
-         672adcf350892e7b2a6857983e164e9765c9ae95 vdpa: support virtio_map
+         07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
          
-  - ref: refs/heads/test
-    old: 249efb49520b1c6a23a7c16636e8b28794dc3c76
-    new: 672adcf350892e7b2a6857983e164e9765c9ae95
-    log: |
-         5d51754d4b388f559909452f2efce89c9484a7cc virtio: introduce map ops in virtio core
-         672adcf350892e7b2a6857983e164e9765c9ae95 vdpa: support virtio_map
-         
-  - ref: refs/heads/vhost
-    old: 249efb49520b1c6a23a7c16636e8b28794dc3c76
-    new: 672adcf350892e7b2a6857983e164e9765c9ae95
-    log: |
-         5d51754d4b388f559909452f2efce89c9484a7cc virtio: introduce map ops in virtio core
-         672adcf350892e7b2a6857983e164e9765c9ae95 vdpa: support virtio_map
-         
+  - ref: refs/tags/v6.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
