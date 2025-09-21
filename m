@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5902721586577091614=="
+Content-Type: multipart/mixed; boundary="===============2382167378875358199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 21 Sep 2025 23:24:41 -0000
-Message-Id: <175849708107.3735706.2116479938970002207@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 23:24:59 -0000
+Message-Id: <175849709945.3736179.7629711014607066606@gitolite.kernel.org>
 
---===============5902721586577091614==
+--===============2382167378875358199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: d987abba065b7a0d2a9834c9bb2219a41563fe88
-    new: 817a91d01f5a562ccceebb22565ad3d5d15d824b
-    log: revlist-d987abba065b-817a91d01f5a.txt
+  - ref: refs/heads/direct-io
+    old: 7ce43efe43cd6852da73494eb2ffdea9a0402b2b
+    new: 7c16b12154a7eab538bb747d4693bd042ccd18b7
+    log: revlist-7ce43efe43cd-7c16b12154a7.txt
 
---===============5902721586577091614==
+--===============2382167378875358199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d987abba065b-817a91d01f5a.txt
+Content-Disposition: attachment; filename=revlist-7ce43efe43cd-7c16b12154a7.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
@@ -358,5 +358,8 @@ f6ef8c57978efe1b7a77d20c1a6372ded4e80191 NFSD: Define actions for the new time_d
 76f4480080e6721ec636898de94ba8098438255c NFSD: Define a proc_layoutcommit for the FlexFiles layout type
 dc7316d9c0b728809c0661b458e059786fab68ca NFSD: Add array bounds-checking in nfsd_iter_read()
 817a91d01f5a562ccceebb22565ad3d5d15d824b siw: Enable try_gso
+edfb46fdfd5df2b21f75a5716cfb4c17271a5277 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+c8fc0d1c06dc84854855c08774abe98ce5b9aef4 NFSD: pass nfsd_file to nfsd_iter_read()
+7c16b12154a7eab538bb747d4693bd042ccd18b7 NFSD: Implement NFSD_IO_DIRECT for NFS READ
 
---===============5902721586577091614==--
+--===============2382167378875358199==--
