@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3964147997096330203=="
+Content-Type: multipart/mixed; boundary="===============2381888192893811978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 21 Sep 2025 16:29:58 -0000
-Message-Id: <175847219877.3380921.7842341671076595940@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 16:30:32 -0000
+Message-Id: <175847223242.3382860.18131809148247879111@gitolite.kernel.org>
 
---===============3964147997096330203==
+--===============2381888192893811978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,72 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/posix24
-    old: 4dda55e540c71a973fa24bd44adcebdc5fb189ce
-    new: a3314bf33a7ae7d1d1002730e5d11f5928379560
-    log: revlist-4dda55e540c7-a3314bf33a7a.txt
+    old: a3314bf33a7ae7d1d1002730e5d11f5928379560
+    new: 8b3c1de4503ec1c936bd7bf6ca58f257fa4e3e2d
+    log: revlist-a3314bf33a7a-8b3c1de4503e.txt
 
---===============3964147997096330203==
+--===============2381888192893811978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dda55e540c7-a3314bf33a7a.txt
+Content-Disposition: attachment; filename=revlist-a3314bf33a7a-8b3c1de4503e.txt
 
-f23e8249a6dcf695d38055483802779c36aedbba man/man2const/PR_GET_TIMING.2const: SYNOPSIS: tfix
-b67ac0da88ed90f767f89b8eadfae960b7c2230f GNUmakefile: help: Document the usual targets
-eb0f8239bc35c722c6daa9149bff42f088392f70 man/man2/mount_setattr.2: Document glibc >= 2.36 syscall wrappers
-e473affca7b039fd018eedb839d6c80e4fd3df17 man/man2type/open_how.2type: Move VERSIONS to HISTORY
-1984b640b29a2d43ea9ecc8a37b87c8c1ab09e46 man/man2/mount_setattr.2: ffix
-0ffeac3f71295732c4040595e5ab35680825fb91 man/man3/setlocale.3: SYNOPSIS: Use _Nullable
-4e5e85f923b2e31af2b19a866af1324459248603 man/man2/getgroups.2: setgroups(2): Don't use NULL as a 0-length array
-b587f95d5b530c99b79f9d34b4090ef16be38061 man/man7/cgroups.7: plfix
-e95462eed046693a276b5dca21a5cfb6d0792909 man/man2/mremap.2: Explicitly document the simple move operation
-e3fcb6c7668555e11f8644e1af413e7526f5f977 man/man2/mremap.2: Describe multiple-mapping move
-964e13bac1d9c09dce6c07e8222504efad3afc19 man/man3/mallinfo.3: Reduce MAX_ALLOCS
-0444e843feee6e1609fae8e9158089f8b527b60d man/man3/sem_post.3: ERRORS: Clarify EOVERFLOW
-5f5aa4e98a67093231dcbc00030aa2ca3f2c84a9 man/man2/syslog.2: SYNOPSIS: Remove incorrect include
-e595b251028db1a33e45bdbcd0d397d0b1852b4c src/bin/diffman-git: Show sections as hunk context
-7ee4cbd5bbdaa540ec90147b6b8b4e63efc45386 man/man2/getrusage.2: Use correct unit (KiB) for .ru_maxrss
-1144819ff0d6dab063627b9f138b5cc4f7098e85 man/man3/posix_spawn.3: EXAMPLES: Validate the number of arguments
-dc439abb1e34244224c7cbf92cc7ec1500a62f0a man/man2const/PR_FUTEX_HASH.2const: Update as of Linux v6.17-rc2
-7ddb2d300aff00e31f5a6ead5dbb58325d155505 PR_FUTEX_HASH_GET_SLOTS.2const: Add page
-87635e2443d99e27e08597e5c0709783b5077092 man/man3/countof.3: Add page
-b813975d30c00ad87b37651d61db3430424f3309 man/man7/operator.7: Add some primary expressions that look like operators
-47c4b74677dd20090853b8434e263a4206e5da90 man/man7/operator.7: Add compound literal
-598ae3cf6bb7ce9cd913502597d4b5ad97c2f1a0 man/man7/operator.7: Add _Countof and alignof
-e2d3f14fe40ad90a1fedf0fcd27e6cc896c49a7a man/man3/strftime.3: EXAMPLES: Validate number of arguments
-0e7a39804a3c017a209117fc2243c6cbb543dede man/: EXAMPLES: Use err(3) and errc(3bsd) instead of similar macros
-3d066f79ac04b6b7fd79bca7d3ec0c298ee9ad5e man/man2/: SYNOPSIS: Use GNU forward-declarations of parameters for sizes of array parameters
-c7e6c703f8c41d16630dfeb289de6bb45228d8d8 man/man2/mremap.2: Describe previously undocumented shrink behaviour
-22e08a0266b28f810445c624a418d7c4854ab249 share/mk/: lint-man-tbl: Show target name in diagnostics
-81ef9a35b5b6de9325de9f0c57feec2c3fb397f3 man/man2/syscalls.2: Remove pread and pwrite from list of arch-specific syscalls
-089c5b3b57095d9533d5efbc1c9a836103b32de8 man/man7/man-pages.7: ffix
-d58fd9181a331c605bd50fbdee13b162ff386905 man/: ffix
-94cb0bb84116bb26e269af5f9afa10803b5cce22 man/man2/: Fix STANDARDS and HISTORY
-b20237b447742beb814fe347efe9a3af2c003f32 man/man2/socket.2: VERSIONS: POSIX.1-2024 specifies SOCK_CLOFORK, but Linux doesn't support it
-b65e4a92d436eabf3c62f0ed476212fb3b07d521 man/man2/close.2: Move part of NOTES into a new CAVEATS section
-f52e60929157be582e18747308a3af8415b99d67 man/man2/close.2: CAVEATS: Document divergence from POSIX.1-2024
-23ceb82bbc6a59862b7c04c555887e4959ce110b man/man7/pathname.7: VERSIONS: Linux doesn't disallow new-line characters
-8bbe06d3309f966b9f420a8376d11ef93d0eb299 man/man3/_Fork.3: Document _Fork()
-687b648b0db8c111946371ca2050ec465c459dbd man/: Update fork(2) for POSIX.1-2024, and add references to _Fork(3)
-7278c4da6deaa8f31885ecf34f5ddac8415e0210 man/man2/open.2: Simplify STANDARDS, and move part of it to HISTORY
-4d3cc489cf0299c6b7a669e7a195f467f6537d65 man/man2/: STANDARDS: Update system calls for POSIX.1-2024
-84673838a3e13ee26d686afda033f65303f75e24 man/man3/ptsname.3: Mention ptsname_r() was standardized in POSIX-1.2024
-9c7c8ae5913d2a89f84c1a51fd4c76b35c28120e man/man7/signal.7: Mention SIGWINCH was standardized in POSIX-1.2024
-6d39a26fbb6f82f0a87e12b85716c2a626d5d921 man/man3/getenv.3: Mention secure_getenv() was standardized in POSIX-1.2024
-48775e98eb3fdf0c48ca55b057e060e382f6728e man/man3*/: STANDARDS: Update APIs for POSIX.1-2024
-c123a9ee9eb50a2a090054ce1db83f06dfabfed7 man/man3/ptsname.3: VERSIONS: Document ptsname_r(3) incompatibility on FreeBSD
-02565afde7c12dc5723b752d50f67fdd8aa21571 man/man2/gettimeofday.2: Declare functions with [[deprecated]]
-a3314bf33a7ae7d1d1002730e5d11f5928379560 man/man3/ftime.3: SYNOPSIS: Declare ftime with [[deprecated]]
+76294a63120086e4fd9e05a8ce2169b44d7bbdfa man/man7/man-pages.7: ffix
+88e64ce329f71a96a2532ddd9d42e6c2f5995955 share/mk/: lint-man-blank: Add target to lint about blank lines
+48c8cad94cb669a45885b28ce787dba9f5ad4092 man/man7/inode.7: srcfix
+55bacd90284bbb9a520862ba6ce0e14094d4cfa9 man/man4/console_codes.4: tfix
+4dd43b3bbbd19559d7542bd107c3b77425dfa52a man/man5/proc_pid_map_files.5: Remove SELinux indicator in examples
+a472a0f677f72886f65ca7162be1af85d3c559c7 share/mk/: lint-man-ws: Diagnose spurious use of white space
+50cfdb41a64d303d98a10b6ae6358113e371a595 man/man7/environ.7: srcfix
+b05c34b175616356d367e090bc5ed11042d90c42 man/man3/random_r.3: pfix
+765225e08b83991e4b7ba4ac22fbcd0f46d1b362 man/man3/pthread_mutexattr_getpshared.3: ffix
+a6244a9bd5d5fc025fa7bd051ceeb8407144031c man/man2const/PR_[SG]ET_TSC.2const: Fix parameter name
+505fb4157ca66e318bec7bacf6374ce8f3734d50 man/man2const/PR_SET_SECUREBITS.2const: wfix
+90a906e9986661ad3c83ae2852528bc701d2b6ca man/man2const/PR_SET_FPEXC.2const: Format information as a list
+a10de114be268fd2e3947cb2fc187cef562d3a85 man/man2/open.2: wfix, ffix
+f16c1222ff1541fda69e45aab81e537a6cd76ff6 man/man2const/PR_CAPBSET_DROP.2const: pfix
+499c8056a2a32343292aae4894d4c0f4b295766d man2/: Use the common name 'fd' instead of 'fildes'
+9192f59b6c2adbbfba9dcf6a99c41e3c701c127d man/: wsfix
+76a687f5c95df648f34265028bb0f2f04a3f567f man/man2/futex.2: Recycle two gmane URLs
+c27f2edf6a73db7b01418cb0cd7c5359eebb3081 man/man7/random.7: grfix
+ac2f7481d25104475ee42c83e514847b60ee4bc5 man/man2/mount.2: Expand and clarify docs for MS_REMOUNT | MS_BIND
+585731b046a1ee7e194e3d2f3da0ec0dd96e407e man/man2/mount.2: tfix (mountpoint => mount point)
+4caee65cef80f011313073b180d53d8e9c6e338f man/man2const/PR_SET_THP_DISABLE.2const: ffix
+a05d521a5658c7b8712e2c31c7d7a9bd2836cba7 man/man7/man-pages.7: Document formatting of foward declarations of function parameters
+8fe863c771af1f833e9084188b4b4903b2555285 man/man2const/PR_[GS]ET_ENDIAN.2const: tfix (s/endian-ness/endianness/)
+5ebbf71985df828cb3faeab598824535e02dd1a6 man/man2/listmount.2: ERRORS: Clarify EPERM
+487f41c27b9dbc65be0a87a6d1aa31d564bee797 man/man3/malloc.3: STANDARDS: wfix
+a65cc4b258d092e4e24f43a0b83814635ec62f9c man/man3/gnu_get_libc_version.3: grfix
+1ff30a97c4c205bfd11bd965ab8bab8dc2316ba3 man/man2/ioctl_pipe.2: grfix
+04cd9143778fbaac4ff9bb09e4bd820b50aa6666 man/man3/gethostbyname.3: Fix reference to function parameter
+9ca08bf8151713e83404ac0c6e96991167114ff2 man/: ffix
+4bf209b5d7e17f589e7b2e7dbc0ebfc244e5b534 man/: ffix
+d72a13d8e9591e472548fd6844f90a1aac0546b3 man/man2/syscalls.2: tfix
+243049e06600f2263c64e6d4523f8d3e14926399 man/man2/shmget.2: Fix broken references to proc_sys_vm(5)
+4735c6f45942d04a9c802a4d17d7d8a82e3baa73 man/man3/stdin.3: tfix
+1d36f93d237f842d05a4260a2e7b7cd599df2430 man/man2/sched_rr_get_interval.2: ffix
+0fe1123e2d17d66a6afc212157b48d5aeccb9860 man/man3/login.3: ffix
+b97091bb62f316618cf9f472966b52af13b584ed man/man2/readv.2: Document RWF_DONTCACHE
+e86f9fd0c279f593242969a2fbb5ef379272d89d man/man3/fma.3: ERRORS: Add missing error
+226573250652ed381c0f7d20732aec78b7e4e6e2 share/mk/: lint-man-quote: Diagnose an unmatched quote
+ddb26eb2011a498ece999aa44e501e0ed7fddb09 man/man3/cfree.3: pfix
+17fa7e849eb524eeda51beadc9924527358722bb man/: Address diagnostic about mismatched quotes
+1d0de88ebe324b704c8584b8ea9472bb3027478c man/: EXAMPLES: Fix includes
+87e9368954f6c10b060762dbb5993373791b1792 man/man2/: Fix STANDARDS and HISTORY
+f97d6a278b7b385242ec68a9c7079a1448760ea1 man/man2/socket.2: VERSIONS: POSIX.1-2024 specifies SOCK_CLOFORK, but Linux doesn't support it
+3553faf0a3336d39fb77e31016607a217dd246d1 man/man2/close.2: Move part of NOTES into a new CAVEATS section
+650f0a330df8b65788d3c06999a5cf42de5f692f man/man2/close.2: CAVEATS: Document divergence from POSIX.1-2024
+413b1364f797792053c9012c06fba1199ce2234b man/man7/pathname.7: VERSIONS: Linux doesn't disallow new-line characters
+7f44ee5fe871626f65df2d811edcd1fbd25182aa man/man3/_Fork.3: Document _Fork()
+9c66fb3d490530e203269f601d111ae09f352a85 man/: Update fork(2) for POSIX.1-2024, and add references to _Fork(3)
+9c49c29ccbae65b80160982d65d4f44a7badfc52 man/man2/open.2: Simplify STANDARDS, and move part of it to HISTORY
+e17a7ac3a351429b63bed891abf36428cd67113d man/man2/: STANDARDS: Update system calls for POSIX.1-2024
+1ff035dfe771d01ed0c3b844ff2076476f0595b0 man/man3/ptsname.3: Mention ptsname_r() was standardized in POSIX-1.2024
+18e7ebd8ca67bbfe22f5e986927f125823ef9194 man/man7/signal.7: Mention SIGWINCH was standardized in POSIX-1.2024
+22258922acc1745d6077503ef5e1689f96d443ba man/man3/getenv.3: Mention secure_getenv() was standardized in POSIX-1.2024
+eb260ed965f266c0276c8b74b89bcd161ca27799 man/man3*/: STANDARDS: Update APIs for POSIX.1-2024
+2476a3fb9885522e251282f2eff11ea477f8bfcd man/man3/ptsname.3: VERSIONS: Document ptsname_r(3) incompatibility on FreeBSD
+b0cd47e029fd740cdbbed97fcadb3ef1d10909ed man/man2/gettimeofday.2: Declare functions with [[deprecated]]
+8b3c1de4503ec1c936bd7bf6ca58f257fa4e3e2d man/man3/ftime.3: SYNOPSIS: Declare ftime with [[deprecated]]
 
---===============3964147997096330203==--
+--===============2381888192893811978==--
