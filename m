@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8354556582219925467=="
+Content-Type: multipart/mixed; boundary="===============4832384091385770500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 21 Sep 2025 18:01:11 -0000
-Message-Id: <175847767128.3467389.2866385538768337400@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 18:01:43 -0000
+Message-Id: <175847770396.3467956.12291976324674894837@gitolite.kernel.org>
 
---===============8354556582219925467==
+--===============4832384091385770500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,42 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/ino
-    old: 7d24733a92d588674f486a6aebe39d66d1019645
-    new: 598500f31fda04b3e273d95c347de6d802e4e17b
-    log: revlist-7d24733a92d5-598500f31fda.txt
+    old: 598500f31fda04b3e273d95c347de6d802e4e17b
+    new: 8b6d222aab33d651a1817324c1e4482a30d5f1d4
+    log: revlist-598500f31fda-8b6d222aab33.txt
 
---===============8354556582219925467==
+--===============4832384091385770500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d24733a92d5-598500f31fda.txt
+Content-Disposition: attachment; filename=revlist-598500f31fda-8b6d222aab33.txt
 
-3d066f79ac04b6b7fd79bca7d3ec0c298ee9ad5e man/man2/: SYNOPSIS: Use GNU forward-declarations of parameters for sizes of array parameters
-c7e6c703f8c41d16630dfeb289de6bb45228d8d8 man/man2/mremap.2: Describe previously undocumented shrink behaviour
-22e08a0266b28f810445c624a418d7c4854ab249 share/mk/: lint-man-tbl: Show target name in diagnostics
-81ef9a35b5b6de9325de9f0c57feec2c3fb397f3 man/man2/syscalls.2: Remove pread and pwrite from list of arch-specific syscalls
-089c5b3b57095d9533d5efbc1c9a836103b32de8 man/man7/man-pages.7: ffix
-d58fd9181a331c605bd50fbdee13b162ff386905 man/: ffix
-76294a63120086e4fd9e05a8ce2169b44d7bbdfa man/man7/man-pages.7: ffix
-88e64ce329f71a96a2532ddd9d42e6c2f5995955 share/mk/: lint-man-blank: Add target to lint about blank lines
-48c8cad94cb669a45885b28ce787dba9f5ad4092 man/man7/inode.7: srcfix
-55bacd90284bbb9a520862ba6ce0e14094d4cfa9 man/man4/console_codes.4: tfix
-4dd43b3bbbd19559d7542bd107c3b77425dfa52a man/man5/proc_pid_map_files.5: Remove SELinux indicator in examples
-a472a0f677f72886f65ca7162be1af85d3c559c7 share/mk/: lint-man-ws: Diagnose spurious use of white space
-50cfdb41a64d303d98a10b6ae6358113e371a595 man/man7/environ.7: srcfix
-b05c34b175616356d367e090bc5ed11042d90c42 man/man3/random_r.3: pfix
-765225e08b83991e4b7ba4ac22fbcd0f46d1b362 man/man3/pthread_mutexattr_getpshared.3: ffix
-a6244a9bd5d5fc025fa7bd051ceeb8407144031c man/man2const/PR_[SG]ET_TSC.2const: Fix parameter name
-505fb4157ca66e318bec7bacf6374ce8f3734d50 man/man2const/PR_SET_SECUREBITS.2const: wfix
-90a906e9986661ad3c83ae2852528bc701d2b6ca man/man2const/PR_SET_FPEXC.2const: Format information as a list
-a10de114be268fd2e3947cb2fc187cef562d3a85 man/man2/open.2: wfix, ffix
-f16c1222ff1541fda69e45aab81e537a6cd76ff6 man/man2const/PR_CAPBSET_DROP.2const: pfix
-499c8056a2a32343292aae4894d4c0f4b295766d man2/: Use the common name 'fd' instead of 'fildes'
-9192f59b6c2adbbfba9dcf6a99c41e3c701c127d man/: wsfix
-6f223252d9ce990fe5e9fb375958f14907779c6d man/: Use '.member' notation for referring to struct/union members
-598500f31fda04b3e273d95c347de6d802e4e17b man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
+76a687f5c95df648f34265028bb0f2f04a3f567f man/man2/futex.2: Recycle two gmane URLs
+c27f2edf6a73db7b01418cb0cd7c5359eebb3081 man/man7/random.7: grfix
+ac2f7481d25104475ee42c83e514847b60ee4bc5 man/man2/mount.2: Expand and clarify docs for MS_REMOUNT | MS_BIND
+585731b046a1ee7e194e3d2f3da0ec0dd96e407e man/man2/mount.2: tfix (mountpoint => mount point)
+4caee65cef80f011313073b180d53d8e9c6e338f man/man2const/PR_SET_THP_DISABLE.2const: ffix
+a05d521a5658c7b8712e2c31c7d7a9bd2836cba7 man/man7/man-pages.7: Document formatting of foward declarations of function parameters
+8fe863c771af1f833e9084188b4b4903b2555285 man/man2const/PR_[GS]ET_ENDIAN.2const: tfix (s/endian-ness/endianness/)
+5ebbf71985df828cb3faeab598824535e02dd1a6 man/man2/listmount.2: ERRORS: Clarify EPERM
+487f41c27b9dbc65be0a87a6d1aa31d564bee797 man/man3/malloc.3: STANDARDS: wfix
+a65cc4b258d092e4e24f43a0b83814635ec62f9c man/man3/gnu_get_libc_version.3: grfix
+1ff30a97c4c205bfd11bd965ab8bab8dc2316ba3 man/man2/ioctl_pipe.2: grfix
+04cd9143778fbaac4ff9bb09e4bd820b50aa6666 man/man3/gethostbyname.3: Fix reference to function parameter
+9ca08bf8151713e83404ac0c6e96991167114ff2 man/: ffix
+4bf209b5d7e17f589e7b2e7dbc0ebfc244e5b534 man/: ffix
+d72a13d8e9591e472548fd6844f90a1aac0546b3 man/man2/syscalls.2: tfix
+243049e06600f2263c64e6d4523f8d3e14926399 man/man2/shmget.2: Fix broken references to proc_sys_vm(5)
+4735c6f45942d04a9c802a4d17d7d8a82e3baa73 man/man3/stdin.3: tfix
+1d36f93d237f842d05a4260a2e7b7cd599df2430 man/man2/sched_rr_get_interval.2: ffix
+0fe1123e2d17d66a6afc212157b48d5aeccb9860 man/man3/login.3: ffix
+b97091bb62f316618cf9f472966b52af13b584ed man/man2/readv.2: Document RWF_DONTCACHE
+e86f9fd0c279f593242969a2fbb5ef379272d89d man/man3/fma.3: ERRORS: Add missing error
+226573250652ed381c0f7d20732aec78b7e4e6e2 share/mk/: lint-man-quote: Diagnose an unmatched quote
+ddb26eb2011a498ece999aa44e501e0ed7fddb09 man/man3/cfree.3: pfix
+17fa7e849eb524eeda51beadc9924527358722bb man/: Address diagnostic about mismatched quotes
+1d0de88ebe324b704c8584b8ea9472bb3027478c man/: EXAMPLES: Fix includes
+423eca0553cf31d409b5abf459a779ea6530702a man/: Use '.member' notation for referring to struct/union members
+8b6d222aab33d651a1817324c1e4482a30d5f1d4 man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
 
---===============8354556582219925467==--
+--===============4832384091385770500==--
