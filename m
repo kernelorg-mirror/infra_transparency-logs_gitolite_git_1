@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sun, 21 Sep 2025 18:08:45 -0000
-Message-Id: <175847812537.3474401.3829054004704091245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 21 Sep 2025 18:12:30 -0000
+Message-Id: <175847835091.3478578.5299616422269872726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/clk-next
-    old: 991ca4c9cdc725bb7d73035c81caa3a5d7a857d0
-    new: db0809310d8e2bbb5d8c798e3d4a69e2c33b59af
+  - ref: refs/heads/master
+    old: f975f08c2e899ae2484407d7bba6bb7f8b6d9d40
+    new: 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6
     log: |
-         93bb097fb14c44470f4182335fc49519d2f57afe Merge branch 'clk-microchip' into clk-next
-         81feeb35fedd3802b903afd05b0848a0269d35e3 Merge branch 'clk-lookup' into clk-next
-         cb9db1744f7f1b2e28af50eb978b83e7611487ea Merge branch 'clk-st' into clk-next
-         c3d9f4efbfae0f069190f28f383f2369c781b118 Merge branch 'clk-samsung' into clk-next
-         cf0e034e48f1a1a05dc74840a18699343d3a6c39 Merge branch 'clk-marvell' into clk-next
-         b4484fe70cd281191792455148b647cc0031e1db Merge branch 'clk-xilinx' into clk-next
-         db0809310d8e2bbb5d8c798e3d4a69e2c33b59af Merge branch 'clk-mediatek' into clk-next
+         f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
+         25fbbaf515acd13399589bd5ee6de5f35740cef2 clk: sunxi-ng: mp: Fix dual-divider clock rate readback
+         6d8042baa80c993cfdc6795384f32e37213b2ec9 Merge tag 'renesas-clk-fixes-for-v6.17-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-fixes
+         764c921bf0c5ff125989a6c039a344ed211ffda9 Merge tag 'sunxi-clk-fixes-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
+         2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
          
