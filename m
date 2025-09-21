@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 21 Sep 2025 10:18:28 -0000
-Message-Id: <175844990815.3017027.17714815041194229475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sun, 21 Sep 2025 10:21:03 -0000
+Message-Id: <175845006365.3020570.14793621486559881511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 4244707ee7f024e09f21cfde61eec8b5610606a3
-    new: 3f163b55d767812533ed5ba1e5ad9d2583bcd215
+    old: fce24200cbddb5a333a157eecf0a8020c1d36d7c
+    new: f975f08c2e899ae2484407d7bba6bb7f8b6d9d40
     log: |
-         3f163b55d767812533ed5ba1e5ad9d2583bcd215 man/man2/mount_setattr.2: Mirror opening sentence from fsopen(2)
+         96fa515e70f3e4b98685ef8cac9d737fc62f10e1 btrfs: tree-checker: fix the incorrect inode ref size check
+         ed4e6b5d644c4dd2bc2872ffec036b7da0ec2e27 btrfs: ref-verify: handle damaged extent root tree
+         b98b208300573f4ab29507f81194a6030b208444 btrfs: reject invalid compression level
+         f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
          
