@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 21 Sep 2025 11:22:07 -0000
-Message-Id: <175845372751.3070352.17135833261860938293@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 11:31:22 -0000
+Message-Id: <175845428261.3078451.9679298196409277940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: 1428cd764cd708d53a072a2f208d87014bfe05bc
-    new: 8ca7eada62fcfabf6ec1dc7468941e791c1d8729
+    old: 8ca7eada62fcfabf6ec1dc7468941e791c1d8729
+    new: 260cce64aaa2828d42956d356c682389aca24b47
     log: |
-         8ca7eada62fcfabf6ec1dc7468941e791c1d8729 RDMA/rxe: Fix race in do_task() when draining
+         ed9836c040bac2823dffd4e10c107206d88ac548 RDMA/ionic: Fix build failure on SPARC due to xchg() operand size
+         260cce64aaa2828d42956d356c682389aca24b47 RDMA/ionic: Use ether_addr_copy instead of memcpy
          
