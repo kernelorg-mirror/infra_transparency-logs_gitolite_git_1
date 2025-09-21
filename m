@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6416318096655574554=="
+Content-Type: multipart/mixed; boundary="===============6635578661048634372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 21 Sep 2025 18:00:28 -0000
-Message-Id: <175847762862.3466615.17323367061261282823@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 18:00:48 -0000
+Message-Id: <175847764896.3466951.11550445628014885056@gitolite.kernel.org>
 
---===============6416318096655574554==
+--===============6635578661048634372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,47 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/ino
-    old: e769592c7b758fa364a83b60260be47d47967242
-    new: a5cc076afcd3245c91cbb4eb405a9b9c6b990db0
-    log: revlist-e769592c7b75-a5cc076afcd3.txt
+    old: a5cc076afcd3245c91cbb4eb405a9b9c6b990db0
+    new: 7d24733a92d588674f486a6aebe39d66d1019645
+    log: revlist-a5cc076afcd3-7d24733a92d5.txt
 
---===============6416318096655574554==
+--===============6635578661048634372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e769592c7b75-a5cc076afcd3.txt
+Content-Disposition: attachment; filename=revlist-a5cc076afcd3-7d24733a92d5.txt
 
-5f2d8b3301e9805660782d7edfd9029010b721c0 man/man2/fcntl.2, man/man2const/F_DUPFD.2const: Split F_DUPFD and F_DUPFD_CLOEXEC from fcntl(2)
-417d039b6095c7e4314a070aea7542877c75ebf3 man/man2const/F_DUPFD{,_CLOEXEC}.2const: Tweak after split, and add link page
-eb519b0ea375b18e11d70310ef89cd3eadee5e99 man/man2/fcntl.2, man/man2const/F_GETFD.2const: Split F_{G,S}ETFD from fcntl(2)
-fcc7f5030422845a632dcdd4b56951daf5b4eec8 man/man2const/F_{G,S}ETFD.2const: Tweak after split, and add link page
-d1f2e9c8bf7763a6de767b1a668f7a5c0d73c11b man/man2/fcntl.2, man/man2const/F_GETFL.2const: Split F_{G,S}ETFL from fcntl(2)
-50660de0687d83ff38e12945ca7362d3834181b0 man/man2const/F_{G,S}ETFL.2const: Tweak after split, and add link page
-21ea050fc6155f2af8c72e5681cf7b1e3881db9e man/man2/fcntl.2, man/man2const/F_GETPIPE_SZ.2const: Split F_{G,S}ETPIPE_SZ from fcntl(2)
-834acbbda6de59e93847a84940ace89a5b5ea258 man/man2const/F_{G,S}ETPIPE_SZ.2const: Tweak after split, and add link page
-970e17b880739cf156cf73ded93d5cec4b4cb62f man/man2/fcntl.2, man/man2const/F_GET_SEALS.2const: Split F_{GET,ADD}_SEALS from fcntl(2)
-3b807d4f63989666a6688f614bdbbcd35eb92dcb man/man2const/F_{GET,ADD}_SEALS.2const: Tweak after split, and add link page
-5d93c92d365a2a54ea3c4fbf37f2692f3f9cdf7f man/man2/fcntl.2, man/man2const/F_GET_RW_HINT.2const: Split F_{G,S}ET{,_FILE}_RW_HINT from fcntl(2)
-1717b8889e390e71f5b89e65e3d20438b2927868 man/man2const/F_{G,S}ET{,_FILE}_RW_HINT.2const: Tweak after split, and add link pages
-219d7bb11fd41dc349442695f773d82040dc5e6c man/man2/fcntl.2, man/man2const/F_NOTIFY.2const: Split F_NOTIFY from fcntl(2)
-99fc8d2561b63a8c59326dd8d61853e58d38b1d1 man/man2const/F_NOTIFY.2const: Tweak after split
-358aa107c93082442b09d753b075c21afd7bf59c man/man2/fcntl.2, man/man2const/F_GETLEASE.2const: Split F_{G,S}ETLEASE from fcntl(2)
-b7c20376b2541f4a249355de4cbb3b2033ac0618 man/man2const/F_{G,S}ETLEASE.2const: Tweak after split, and add link page
-2a02d055833d603a6ef82754ced7db95f52270a1 man/man2/fcntl.2, man/man2const/F_GETSIG.2const: Split F_{G,S}ETOWN*, F_{G,S}ETSIG from fcntl(2)
-5835f146c6ebf06be4ce473718f6987d86ee7c0d man/man2const/F_*.2const: Tweak after split, and add link pages
-92582bafdeae6c965aaf53dc14edeac509566c66 man/man2/fcntl{,_locking}.2: Split locking operations from fcntl(2)
-3d692c69d2debcfe751c4b030c832abda07fbaaa man/man2/fcntl_locking.2, man/man2const/F_*.2const: Tweak after split, and add link pages
-b42140730ee52191a58addcfe857537bbb73bc13 man/man2/fcntl.2: Tweak after making sashimi of this page
-943d37920c8e3e67afae46d16e7d71bac23fe62b man/man2/fcntl.2, man/man2const/F_*.2const: Make sashimi of fcntl(2)
-b9ebd195e442d00b8b5dbaa307f273b108dae759 man/man3/malloc.3: STANDARDS, HISTORY, BUGS: Clarify (non)conformance of realloc{,array}(3)
-9b5bd2e62db076254e05322d30138ea7e38c0e36 Changes: Ready for 6.15
-5c13a7d2af19091764f72f82e8435bc0fd51612d man/: Use '.member' notation for referring to struct/union members
-a5cc076afcd3245c91cbb4eb405a9b9c6b990db0 man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
+5d53969e60c484673745ed47d6015a1f09c8641e lsm: Released 6.15
+671e1b8cbeee5e81ff1e10d10586521e0ce82cf9 man/man2/openat2.2: HISTORY: Include epilogue about FreeBSD
+42b25a00b5164cbabfde8592657d0dee7a80619f man/man3/malloc.3: STANDARDS: tfix, ffix
+e88e68a0eaa79cda0c36b8c361d013ebdfec0ae6 share/mk/build/pdf/book/prepare.pl: Add support for man3attr
+3832ef2f5eeb3e10384f0996635f3e9d8af8e583 src/bin/sortman: Fix order of intro(*) pages for subsections
+2d9d6deeb4dccc4f46e7aa29878fe65b6642682c man/man2/openat2.2: Update RESOLVE_CACHED to mention kernel version
+f23e8249a6dcf695d38055483802779c36aedbba man/man2const/PR_GET_TIMING.2const: SYNOPSIS: tfix
+b67ac0da88ed90f767f89b8eadfae960b7c2230f GNUmakefile: help: Document the usual targets
+eb0f8239bc35c722c6daa9149bff42f088392f70 man/man2/mount_setattr.2: Document glibc >= 2.36 syscall wrappers
+e473affca7b039fd018eedb839d6c80e4fd3df17 man/man2type/open_how.2type: Move VERSIONS to HISTORY
+1984b640b29a2d43ea9ecc8a37b87c8c1ab09e46 man/man2/mount_setattr.2: ffix
+0ffeac3f71295732c4040595e5ab35680825fb91 man/man3/setlocale.3: SYNOPSIS: Use _Nullable
+4e5e85f923b2e31af2b19a866af1324459248603 man/man2/getgroups.2: setgroups(2): Don't use NULL as a 0-length array
+b587f95d5b530c99b79f9d34b4090ef16be38061 man/man7/cgroups.7: plfix
+e95462eed046693a276b5dca21a5cfb6d0792909 man/man2/mremap.2: Explicitly document the simple move operation
+e3fcb6c7668555e11f8644e1af413e7526f5f977 man/man2/mremap.2: Describe multiple-mapping move
+964e13bac1d9c09dce6c07e8222504efad3afc19 man/man3/mallinfo.3: Reduce MAX_ALLOCS
+0444e843feee6e1609fae8e9158089f8b527b60d man/man3/sem_post.3: ERRORS: Clarify EOVERFLOW
+5f5aa4e98a67093231dcbc00030aa2ca3f2c84a9 man/man2/syslog.2: SYNOPSIS: Remove incorrect include
+e595b251028db1a33e45bdbcd0d397d0b1852b4c src/bin/diffman-git: Show sections as hunk context
+7ee4cbd5bbdaa540ec90147b6b8b4e63efc45386 man/man2/getrusage.2: Use correct unit (KiB) for .ru_maxrss
+1144819ff0d6dab063627b9f138b5cc4f7098e85 man/man3/posix_spawn.3: EXAMPLES: Validate the number of arguments
+dc439abb1e34244224c7cbf92cc7ec1500a62f0a man/man2const/PR_FUTEX_HASH.2const: Update as of Linux v6.17-rc2
+7ddb2d300aff00e31f5a6ead5dbb58325d155505 PR_FUTEX_HASH_GET_SLOTS.2const: Add page
+87635e2443d99e27e08597e5c0709783b5077092 man/man3/countof.3: Add page
+b813975d30c00ad87b37651d61db3430424f3309 man/man7/operator.7: Add some primary expressions that look like operators
+47c4b74677dd20090853b8434e263a4206e5da90 man/man7/operator.7: Add compound literal
+598ae3cf6bb7ce9cd913502597d4b5ad97c2f1a0 man/man7/operator.7: Add _Countof and alignof
+e2d3f14fe40ad90a1fedf0fcd27e6cc896c49a7a man/man3/strftime.3: EXAMPLES: Validate number of arguments
+0e7a39804a3c017a209117fc2243c6cbb543dede man/: EXAMPLES: Use err(3) and errc(3bsd) instead of similar macros
+e4159a5d042e433a35536c9f27a3c21382ec8f21 man/: Use '.member' notation for referring to struct/union members
+7d24733a92d588674f486a6aebe39d66d1019645 man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
 
---===============6416318096655574554==--
+--===============6635578661048634372==--
