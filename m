@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 21 Sep 2025 18:05:21 -0000
-Message-Id: <175847792122.3472792.12758100190855102880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sun, 21 Sep 2025 18:08:45 -0000
+Message-Id: <175847812537.3474401.3829054004704091245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/ino
-    old: 84e032eaecf2102c1d21b8d939f5b1531ded7a9c
-    new: c63aebb958261ab0b0cd1bea0349ed1a6eb93e29
+  - ref: refs/heads/clk-next
+    old: 991ca4c9cdc725bb7d73035c81caa3a5d7a857d0
+    new: db0809310d8e2bbb5d8c798e3d4a69e2c33b59af
     log: |
-         f17990c243eafc1891ff692f90b6ce42e6449be8 man/: Use semantic newlines
-         7e356f0a466c0fb3eaf1fb2b1488e875472ac4c9 man/: Use '.member' notation for referring to struct/union members
-         c63aebb958261ab0b0cd1bea0349ed1a6eb93e29 man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
+         93bb097fb14c44470f4182335fc49519d2f57afe Merge branch 'clk-microchip' into clk-next
+         81feeb35fedd3802b903afd05b0848a0269d35e3 Merge branch 'clk-lookup' into clk-next
+         cb9db1744f7f1b2e28af50eb978b83e7611487ea Merge branch 'clk-st' into clk-next
+         c3d9f4efbfae0f069190f28f383f2369c781b118 Merge branch 'clk-samsung' into clk-next
+         cf0e034e48f1a1a05dc74840a18699343d3a6c39 Merge branch 'clk-marvell' into clk-next
+         b4484fe70cd281191792455148b647cc0031e1db Merge branch 'clk-xilinx' into clk-next
+         db0809310d8e2bbb5d8c798e3d4a69e2c33b59af Merge branch 'clk-mediatek' into clk-next
          
