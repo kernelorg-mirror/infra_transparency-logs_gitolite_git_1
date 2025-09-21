@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2382167378875358199=="
+Content-Type: multipart/mixed; boundary="===============4615424769920810278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 21 Sep 2025 23:24:59 -0000
-Message-Id: <175849709945.3736179.7629711014607066606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sun, 21 Sep 2025 23:26:23 -0000
+Message-Id: <175849718382.3738619.1405718959503085490@gitolite.kernel.org>
 
---===============2382167378875358199==
+--===============4615424769920810278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/direct-io
-    old: 7ce43efe43cd6852da73494eb2ffdea9a0402b2b
-    new: 7c16b12154a7eab538bb747d4693bd042ccd18b7
-    log: revlist-7ce43efe43cd-7c16b12154a7.txt
+  - ref: refs/heads/for-linus
+    old: 853a57ba263adfecf4430b936d6862bc475b4bb5
+    new: 07e27ad16399afcd693be20211b0dfae63e0615f
+    log: revlist-853a57ba263a-07e27ad16399.txt
 
---===============2382167378875358199==
+--===============4615424769920810278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ce43efe43cd-7c16b12154a7.txt
+Content-Disposition: attachment; filename=revlist-853a57ba263a-07e27ad16399.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
@@ -300,7 +300,6 @@ ffa7119cd1294dc1814e582dc07ffeb953ae7b26 Merge tag 'mmc-v6.17-rc2-2' of git://gi
 1522b530ac3e2dadd75ccb351b88d3c7c4cf584e Merge tag 'block-6.17-20250918' of git://git.kernel.dk/linux
 497b9a7b8df955fffd612d0d4aaf315b03556b10 Merge tag 'iommu-fixes-v6.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 cd89d487374c49f18a8c4af312ecc74d997f3b07 Merge tag '6.17-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-853a57ba263adfecf4430b936d6862bc475b4bb5 firewire: core: fix overlooked update of subsystem ABI version
 764c921bf0c5ff125989a6c039a344ed211ffda9 Merge tag 'sunxi-clk-fixes-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
 3b08f56fbbb9ef75c7454487f8d3db80a84deef7 Merge tag 'x86-urgent-2025-09-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0f46486981e7c3109aab71623eab3ce26dcadbdf Merge tag 'firewire-fixes-6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
@@ -308,58 +307,5 @@ fce24200cbddb5a333a157eecf0a8020c1d36d7c Merge tag 'scsi-fixes' of git://git.ker
 f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
-6df164e29bd4e6505c5a2e0e5f1e1f6957a16a42 sunrpc: fix null pointer dereference on zero-length checksum
-c926f0298d3cdd25f1bfa019f5b74ed48796cef7 NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
-c1f203e46c55ac063791bb893e30e5d14cabe1f6 NFSD: Move the fh_getattr() helper
-d9adbb6e10bf7d4223d3d521ede1b2052903bc5e sunrpc: delay pc_release callback until after the reply is sent
-2ee3a75e42081db3d951c0893f5d654f16d1c0e8 nfsd: discard nfsd_file_get_local()
-c97b737ef8f10f28424822c139e3b22b9e9bcc2b sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
-832738e4b325b742940761e10487403f9aad13e8 NFSD: Rework encoding and decoding of nfsd4_deviceid
-274365a51d88658fb51cca637ba579034e90a799 NFSD: Minor cleanup in layoutcommit processing
-6bf1be3399e2635805074954011cb55745569788 NFSD: Minor cleanup in layoutcommit decoding
-f963cf2b91a30b5614c514f3ad53ca124cb65280 NFSD: Implement large extent array support in pNFS
-d68886bae76a4b9b3484d23e5b7df086f940fa38 NFSD: Fix last write offset handling in layoutcommit
-2990b5a47984c27873d165de9e88099deee95c8d nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
-5affb498e70bba3053b835c478a199bf92c99c4d nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
-afc5b36e29b95fbd31a60b9630d148857e5e513d vfs: add ATTR_CTIME_SET flag
-c066ff58e5d6e5d7400e5fda0c33f95b8c37dd02 nfsd: use ATTR_CTIME_SET for delegated ctime updates
-7663e963a51122792811811c8119fd55c9ab254a nfsd: track original timestamps in nfs4_delegation
-3952f1cbcbc454b2cb639ddbf165c07068e90371 nfsd: fix SETATTR updates for delegated timestamps
-b40b1ba37ad5b6099c426765c4bc327c08b390b9 nfsd: fix timestamp updates in CB_GETATTR
-e5e9b24ab8fa9e899d6627123d7d5ba0c317d267 nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
-6ecdfd7aa8e30e16193d4ee07bcb3f1216dbc358 lockd: Remove space before newline
-17695d72d0b192bb471a699483dd6c6c2576c57d nfsd: Replace open-coded conversion of bytes to hex
-9ebcd022a34388bd3c37c6a11c1a9d49d5394eb2 nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
-ab1c282c010c4f327bd7addc3c0035fd8e3c1721 NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
-e4f574ca9c6dfa66695bb054ff5df43ecea873ec nfsd: decouple the xprtsec policy check from check_nfsd_access()
-a9a15ba23efc4d6d34127e8d175ae63a95434f58 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
-7569065fb123f8428cb9d29939dd16d43d4b50c4 sunrpc: eliminate return pointer in svc_tcp_sendmsg()
-f64397e04b4d094319a8f72bb1b82e4d2e3672ae NFSD: Drop redundant conversion to bool
-898374fdd7f06fa4c4a66e8be3135efeae6128d5 nfsd: unregister with rpcbind when deleting a transport
-dd9adfa0da2b0dac4c0abdae4bdb88c366bd83d5 NFS: Remove rpcbind cleanup for NFSv4.0 callback
-d73d06dac604043b94a5f18ebb6a69da1b867702 SUNRPC: Move the svc_rpcb_cleanup() call sites
-fb340bfd48bcc3a51d35be1fe2a2db290092d4ea NFSD: Delay adding new entries to LRU
-8ddd06be9a9e2b9f4af9b337150af834862331ef NFSD: Reduce DRC bucket size
-a082e4b4d08a4a0e656d90c2c05da85f23e6d0c9 nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
-13289ed501bad7a37ccbfa8581961d2e9dd4aea3 nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
-6c15463c4511d26f2a820f63f5b76624a71afc44 sunrpc: fix "occurence"->"occurrence"
-37be05f4da90144ca3971c292c8d2ce7b0c514c4 NFSD: Disallow layoutget during grace period
-d43179e9410ccc6d8742d72273f1bf6f2a9ae2e2 nfsd: delete unnecessary NULL check in __fh_verify()
-51aff47be6ffae806cbef6c2ad2d41897010da21 nfsd: remove long-standing revoked delegations by force
-253871677a44fe88cacc243089d5137a23fc5b8a NFSD: Do the grace period check in ->proc_layoutget
-4a0e02b0ff974ee94d010385e4f58b811301ab11 NFSD: Allow layoutcommit during grace period
-76f39dd3cd6cf9355d8137e897789689d5ebfb51 NFSD: Add io_cache_{read,write} controls to debugfs
-5211fbf446a64da102cd5e818796af140f3b2821 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
-48e7e73c49604caaf8ff0798dc38eff9cd174983 nfsd: discard nfserr_dropit
-6cef01e6a06e3c12a10c0998ecb29d066588a8ba nfsd: move name lookup out of nfsd4_list_rec_dir()
-740424258b6775d012779b25c0e594086eec4731 nfsd: change nfs4_client_to_reclaim() to allocate data
-f07168bc3c6f0a92a3901bda4b8941c069672210 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
-f6ef8c57978efe1b7a77d20c1a6372ded4e80191 NFSD: Define actions for the new time_deleg FATTR4 attributes
-76f4480080e6721ec636898de94ba8098438255c NFSD: Define a proc_layoutcommit for the FlexFiles layout type
-dc7316d9c0b728809c0661b458e059786fab68ca NFSD: Add array bounds-checking in nfsd_iter_read()
-817a91d01f5a562ccceebb22565ad3d5d15d824b siw: Enable try_gso
-edfb46fdfd5df2b21f75a5716cfb4c17271a5277 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
-c8fc0d1c06dc84854855c08774abe98ce5b9aef4 NFSD: pass nfsd_file to nfsd_iter_read()
-7c16b12154a7eab538bb747d4693bd042ccd18b7 NFSD: Implement NFSD_IO_DIRECT for NFS READ
 
---===============2382167378875358199==--
+--===============4615424769920810278==--
