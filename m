@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4637210133678948003=="
+Content-Type: multipart/mixed; boundary="===============3147632193879580023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 21 Sep 2025 18:03:53 -0000
-Message-Id: <175847783331.3469315.3350757632972766002@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 18:04:14 -0000
+Message-Id: <175847785451.3470193.15181545161221156998@gitolite.kernel.org>
 
---===============4637210133678948003==
+--===============3147632193879580023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,26 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/ino
-    old: d2f6453a6f64ed62d98c65faea9c2221d72ee5f7
-    new: b9e37e62a819e9a74b685c360b778d9aff25020e
-    log: revlist-d2f6453a6f64-b9e37e62a819.txt
+    old: b9e37e62a819e9a74b685c360b778d9aff25020e
+    new: 84e032eaecf2102c1d21b8d939f5b1531ded7a9c
+    log: revlist-b9e37e62a819-84e032eaecf2.txt
 
---===============4637210133678948003==
+--===============3147632193879580023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2f6453a6f64-b9e37e62a819.txt
+Content-Disposition: attachment; filename=revlist-b9e37e62a819-84e032eaecf2.txt
 
-f632c336373dd7ea2784af65d0407de33713f5f4 man/man5/locale.5: tfix
-f357768b32690257f0b739967a9ac5612e13643c man/man5/locale.5: wfix
-972beca9d8c56ec5eb3f77753d58c84b6bfd6650 share/mk/: Unify variable names for regex files
-8982bb673546d95b34f7c35be8cadd8091de2a25 man/man2/sigaction.2: Update si_code list with Linux v6.16
-813498a542e7a5eabee407f7295f6131dcaa0602 man/man2/sigaction.2: pfix
-9d05964bedb07779c1f9e20aeba3ea482f7adad2 man/man2/quotactl[_fd].2: Document quotactl_fd() syscall; add link page
-a1095951d5ab6b27ea1579cadf8fe3e550c7191d man/man2/mount_setattr.2, man/man2type/mount_attr.2type: Move mount_attr struct to new page mount_attr(2type)
-4696e70f802a3623d3834390d1450a800fbd59ad man/man7/rtnetlink.7: ffix
-6747d5be7a5a6bf46440c37f57c660c3f85873dc man/man3/memeq.3: Add page
-7300b5d747cba8316bacd9b3b63ba9a99cb22205 man/man3/streq.3: Add page
-6c742e4aca6a5912b047b219913ca89fb4e72525 man/: EXAMPLES: Use NITEMS() consistently
-55a7b8d4e04a3e97b5c29c4839aebe60abcb4ac4 man/: Use '.member' notation for referring to struct/union members
-b9e37e62a819e9a74b685c360b778d9aff25020e man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
+187510af6e6a6c34ea43df76668e2624892ee5b0 man/man2/clock_getres.2: EXAMPLES: Don't name unused parameters
+4e9e045c3590b34bcfdfbee2c379dc85ca8b9250 share/mk/, etc/clang-tidy: Silence diagnostics about unnamed parameters
+cfd392cb506ef4aeddf1db303bca81a80049bdc4 man/man2/splice.2: EXAMPLES: Use [[gnu::nonstring]]
+4244707ee7f024e09f21cfde61eec8b5610606a3 share/mk/: $CLANG_CFLAGS: Add -Wno-unknown-attributes
+3f163b55d767812533ed5ba1e5ad9d2583bcd215 man/man2/mount_setattr.2: Mirror opening sentence from fsopen(2)
+5bec5876c5e54874edb79f84359cdf92be327252 share/mk/: $PCRE2GREP: Add dependency
+bba4af63a0b987901ff42aa9f1afae0fa1bb23f3 share/mk/: lint-man-poems: Diagnose (lack of) semantic newlines
+8191096c6d5514f7261725298ff73f56f8ec35c5 share/mk/: $AWK: Add dependency
+dbc3270a88165851aa5e7ab5d1f99dc1acb9624d share/mk/: lint-man-poems: Align output
+2a1786bea6eeb915191231ab0e4383bfb180f8dc man/: Use '.member' notation for referring to struct/union members
+84e032eaecf2102c1d21b8d939f5b1531ded7a9c man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
 
---===============4637210133678948003==--
+--===============3147632193879580023==--
