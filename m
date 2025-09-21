@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 20 Sep 2025 23:25:33 -0000
-Message-Id: <175841073374.2495412.4591133499921643287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sun, 21 Sep 2025 00:59:53 -0000
+Message-Id: <175841639343.2569154.4411130320605495489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/arm64-gcs-exit-token
-    old: 7c9bfe9766fd7ea66170625840dc9c859fc3323f
-    new: b061176fb9a99aabc3b9217fa4a4dd97dbf45fab
+  - ref: refs/heads/for-linus
+    old: f83ec76bf285bea5727f478a68b894f5543ca76e
+    new: 853a57ba263adfecf4430b936d6862bc475b4bb5
     log: |
-         b061176fb9a99aabc3b9217fa4a4dd97dbf45fab kselftest/arm64: Add PR_SHADOW_STACK_EXIT_TOKEN to gcs-locking
+         853a57ba263adfecf4430b936d6862bc475b4bb5 firewire: core: fix overlooked update of subsystem ABI version
          
