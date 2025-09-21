@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Sun, 21 Sep 2025 04:43:50 -0000
-Message-Id: <175842983041.2752477.2970299987019782381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 21 Sep 2025 08:01:30 -0000
+Message-Id: <175844169076.2909671.14775072587364187230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 6925b23f44d4c986f6b348b9f81355e90c460dfb
-    new: 1365bb36a92656eb52b64cb04d249c47a1d3c4cf
+  - ref: refs/notes/commits
+    old: 744ddfe820fe07682beca5319bb233d6e8686c03
+    new: 508e6f3c6c5d622c1f01fe11a45641449cfb52ef
     log: |
-         1365bb36a92656eb52b64cb04d249c47a1d3c4cf Release 0.5.13.
+         508e6f3c6c5d622c1f01fe11a45641449cfb52ef Notes added by 'git notes add'
          
-  - ref: refs/tags/v0.5.13
-    old: 0000000000000000000000000000000000000000
-    new: 1365bb36a92656eb52b64cb04d249c47a1d3c4cf
