@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sun, 21 Sep 2025 16:51:55 -0000
-Message-Id: <175847351573.3402223.14399919451763030082@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 17:02:06 -0000
+Message-Id: <175847412601.3410581.17660171934856061839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: sboyd
 changes:
-  - ref: refs/heads/clk-cleanup
-    old: 539b06e9e0d805aec5f8f7407483c90c71a13209
-    new: b52297f6eb82e46ae5ecc34d270e7ed96eca0594
+  - ref: refs/heads/clk-next
+    old: 07b91ec564c8c5b313619b5a25d2fdefd55f25a3
+    new: bd6e816f44790d9a21f34805974cf69a12b25fcd
     log: |
-         bbcc60a43cf80c4d609bcddcb42bb5641066ac45 clk: st: flexgen: remove unused compatible
-         b52297f6eb82e46ae5ecc34d270e7ed96eca0594 dt-bindings: clock: st: flexgen: remove deprecated compatibles
+         0c01fe49651d387776abed6a28541e80c8a93319 ARM: at91: pm: save and restore ACR during PLL disable/enable
+         af98caeaa7b6ad11eb7b7c8bfaddc769df2889f3 clk: at91: clk-sam9x60-pll: force write to PLL_UPDT register
+         e0237f5635727d64635ec6665e1de9f4cacce35c clk: at91: clk-master: Add check for divide by 3
+         94a1274100e397a27361ae53ace37be6da42a079 clk: at91: sam9x7: Add peripheral clock id for pmecc
+         bfa2bddf6ffe0ac034d02cda20c74ef05571210e clk: at91: add ACR in all PLL settings
+         652b08afba69d5d26fe91098eb832b1bcc0f91c2 ARM: at91: remove default values for PMC_PLL_ACR
+         1803012a8929213b1abb9a46fc92de3674187085 Merge tag 'clk-microchip-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-microchip
+         bd6e816f44790d9a21f34805974cf69a12b25fcd Merge branch 'clk-microchip' into clk-next
          
+  - ref: refs/heads/clk-microchip
+    old: 0000000000000000000000000000000000000000
+    new: 1803012a8929213b1abb9a46fc92de3674187085
