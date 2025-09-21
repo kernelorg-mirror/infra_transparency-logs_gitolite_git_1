@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 21 Sep 2025 04:43:42 -0000
-Message-Id: <175842982250.2752219.13403798210649982848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dash/dash
+Date: Sun, 21 Sep 2025 04:43:50 -0000
+Message-Id: <175842983041.2752477.2970299987019782381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/utils/dash/dash
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: fce24200cbddb5a333a157eecf0a8020c1d36d7c
-    new: f975f08c2e899ae2484407d7bba6bb7f8b6d9d40
+    old: 6925b23f44d4c986f6b348b9f81355e90c460dfb
+    new: 1365bb36a92656eb52b64cb04d249c47a1d3c4cf
     log: |
-         96fa515e70f3e4b98685ef8cac9d737fc62f10e1 btrfs: tree-checker: fix the incorrect inode ref size check
-         ed4e6b5d644c4dd2bc2872ffec036b7da0ec2e27 btrfs: ref-verify: handle damaged extent root tree
-         b98b208300573f4ab29507f81194a6030b208444 btrfs: reject invalid compression level
-         f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+         1365bb36a92656eb52b64cb04d249c47a1d3c4cf Release 0.5.13.
          
+  - ref: refs/tags/v0.5.13
+    old: 0000000000000000000000000000000000000000
+    new: 1365bb36a92656eb52b64cb04d249c47a1d3c4cf
