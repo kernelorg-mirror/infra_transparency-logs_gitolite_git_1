@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6635578661048634372=="
+Content-Type: multipart/mixed; boundary="===============8354556582219925467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 21 Sep 2025 18:00:48 -0000
-Message-Id: <175847764896.3466951.11550445628014885056@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 18:01:11 -0000
+Message-Id: <175847767128.3467389.2866385538768337400@gitolite.kernel.org>
 
---===============6635578661048634372==
+--===============8354556582219925467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,39 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/ino
-    old: a5cc076afcd3245c91cbb4eb405a9b9c6b990db0
-    new: 7d24733a92d588674f486a6aebe39d66d1019645
-    log: revlist-a5cc076afcd3-7d24733a92d5.txt
+    old: 7d24733a92d588674f486a6aebe39d66d1019645
+    new: 598500f31fda04b3e273d95c347de6d802e4e17b
+    log: revlist-7d24733a92d5-598500f31fda.txt
 
---===============6635578661048634372==
+--===============8354556582219925467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5cc076afcd3-7d24733a92d5.txt
+Content-Disposition: attachment; filename=revlist-7d24733a92d5-598500f31fda.txt
 
-5d53969e60c484673745ed47d6015a1f09c8641e lsm: Released 6.15
-671e1b8cbeee5e81ff1e10d10586521e0ce82cf9 man/man2/openat2.2: HISTORY: Include epilogue about FreeBSD
-42b25a00b5164cbabfde8592657d0dee7a80619f man/man3/malloc.3: STANDARDS: tfix, ffix
-e88e68a0eaa79cda0c36b8c361d013ebdfec0ae6 share/mk/build/pdf/book/prepare.pl: Add support for man3attr
-3832ef2f5eeb3e10384f0996635f3e9d8af8e583 src/bin/sortman: Fix order of intro(*) pages for subsections
-2d9d6deeb4dccc4f46e7aa29878fe65b6642682c man/man2/openat2.2: Update RESOLVE_CACHED to mention kernel version
-f23e8249a6dcf695d38055483802779c36aedbba man/man2const/PR_GET_TIMING.2const: SYNOPSIS: tfix
-b67ac0da88ed90f767f89b8eadfae960b7c2230f GNUmakefile: help: Document the usual targets
-eb0f8239bc35c722c6daa9149bff42f088392f70 man/man2/mount_setattr.2: Document glibc >= 2.36 syscall wrappers
-e473affca7b039fd018eedb839d6c80e4fd3df17 man/man2type/open_how.2type: Move VERSIONS to HISTORY
-1984b640b29a2d43ea9ecc8a37b87c8c1ab09e46 man/man2/mount_setattr.2: ffix
-0ffeac3f71295732c4040595e5ab35680825fb91 man/man3/setlocale.3: SYNOPSIS: Use _Nullable
-4e5e85f923b2e31af2b19a866af1324459248603 man/man2/getgroups.2: setgroups(2): Don't use NULL as a 0-length array
-b587f95d5b530c99b79f9d34b4090ef16be38061 man/man7/cgroups.7: plfix
-e95462eed046693a276b5dca21a5cfb6d0792909 man/man2/mremap.2: Explicitly document the simple move operation
-e3fcb6c7668555e11f8644e1af413e7526f5f977 man/man2/mremap.2: Describe multiple-mapping move
-964e13bac1d9c09dce6c07e8222504efad3afc19 man/man3/mallinfo.3: Reduce MAX_ALLOCS
-0444e843feee6e1609fae8e9158089f8b527b60d man/man3/sem_post.3: ERRORS: Clarify EOVERFLOW
-5f5aa4e98a67093231dcbc00030aa2ca3f2c84a9 man/man2/syslog.2: SYNOPSIS: Remove incorrect include
-e595b251028db1a33e45bdbcd0d397d0b1852b4c src/bin/diffman-git: Show sections as hunk context
-7ee4cbd5bbdaa540ec90147b6b8b4e63efc45386 man/man2/getrusage.2: Use correct unit (KiB) for .ru_maxrss
-1144819ff0d6dab063627b9f138b5cc4f7098e85 man/man3/posix_spawn.3: EXAMPLES: Validate the number of arguments
-dc439abb1e34244224c7cbf92cc7ec1500a62f0a man/man2const/PR_FUTEX_HASH.2const: Update as of Linux v6.17-rc2
-7ddb2d300aff00e31f5a6ead5dbb58325d155505 PR_FUTEX_HASH_GET_SLOTS.2const: Add page
-87635e2443d99e27e08597e5c0709783b5077092 man/man3/countof.3: Add page
-b813975d30c00ad87b37651d61db3430424f3309 man/man7/operator.7: Add some primary expressions that look like operators
-47c4b74677dd20090853b8434e263a4206e5da90 man/man7/operator.7: Add compound literal
-598ae3cf6bb7ce9cd913502597d4b5ad97c2f1a0 man/man7/operator.7: Add _Countof and alignof
-e2d3f14fe40ad90a1fedf0fcd27e6cc896c49a7a man/man3/strftime.3: EXAMPLES: Validate number of arguments
-0e7a39804a3c017a209117fc2243c6cbb543dede man/: EXAMPLES: Use err(3) and errc(3bsd) instead of similar macros
-e4159a5d042e433a35536c9f27a3c21382ec8f21 man/: Use '.member' notation for referring to struct/union members
-7d24733a92d588674f486a6aebe39d66d1019645 man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
+3d066f79ac04b6b7fd79bca7d3ec0c298ee9ad5e man/man2/: SYNOPSIS: Use GNU forward-declarations of parameters for sizes of array parameters
+c7e6c703f8c41d16630dfeb289de6bb45228d8d8 man/man2/mremap.2: Describe previously undocumented shrink behaviour
+22e08a0266b28f810445c624a418d7c4854ab249 share/mk/: lint-man-tbl: Show target name in diagnostics
+81ef9a35b5b6de9325de9f0c57feec2c3fb397f3 man/man2/syscalls.2: Remove pread and pwrite from list of arch-specific syscalls
+089c5b3b57095d9533d5efbc1c9a836103b32de8 man/man7/man-pages.7: ffix
+d58fd9181a331c605bd50fbdee13b162ff386905 man/: ffix
+76294a63120086e4fd9e05a8ce2169b44d7bbdfa man/man7/man-pages.7: ffix
+88e64ce329f71a96a2532ddd9d42e6c2f5995955 share/mk/: lint-man-blank: Add target to lint about blank lines
+48c8cad94cb669a45885b28ce787dba9f5ad4092 man/man7/inode.7: srcfix
+55bacd90284bbb9a520862ba6ce0e14094d4cfa9 man/man4/console_codes.4: tfix
+4dd43b3bbbd19559d7542bd107c3b77425dfa52a man/man5/proc_pid_map_files.5: Remove SELinux indicator in examples
+a472a0f677f72886f65ca7162be1af85d3c559c7 share/mk/: lint-man-ws: Diagnose spurious use of white space
+50cfdb41a64d303d98a10b6ae6358113e371a595 man/man7/environ.7: srcfix
+b05c34b175616356d367e090bc5ed11042d90c42 man/man3/random_r.3: pfix
+765225e08b83991e4b7ba4ac22fbcd0f46d1b362 man/man3/pthread_mutexattr_getpshared.3: ffix
+a6244a9bd5d5fc025fa7bd051ceeb8407144031c man/man2const/PR_[SG]ET_TSC.2const: Fix parameter name
+505fb4157ca66e318bec7bacf6374ce8f3734d50 man/man2const/PR_SET_SECUREBITS.2const: wfix
+90a906e9986661ad3c83ae2852528bc701d2b6ca man/man2const/PR_SET_FPEXC.2const: Format information as a list
+a10de114be268fd2e3947cb2fc187cef562d3a85 man/man2/open.2: wfix, ffix
+f16c1222ff1541fda69e45aab81e537a6cd76ff6 man/man2const/PR_CAPBSET_DROP.2const: pfix
+499c8056a2a32343292aae4894d4c0f4b295766d man2/: Use the common name 'fd' instead of 'fildes'
+9192f59b6c2adbbfba9dcf6a99c41e3c701c127d man/: wsfix
+6f223252d9ce990fe5e9fb375958f14907779c6d man/: Use '.member' notation for referring to struct/union members
+598500f31fda04b3e273d95c347de6d802e4e17b man/man3/readdir.3, man/man3type/stat.3type: Improve documentation about .d_ino and .st_ino
 
---===============6635578661048634372==--
+--===============8354556582219925467==--
