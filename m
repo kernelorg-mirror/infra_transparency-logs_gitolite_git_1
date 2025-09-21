@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3921400224715486544=="
+Content-Type: multipart/mixed; boundary="===============5902721586577091614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 21 Sep 2025 23:24:16 -0000
-Message-Id: <175849705633.3735245.16018732356505309807@gitolite.kernel.org>
+Date: Sun, 21 Sep 2025 23:24:41 -0000
+Message-Id: <175849708107.3735706.2116479938970002207@gitolite.kernel.org>
 
---===============3921400224715486544==
+--===============5902721586577091614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 3ed33133605569efc3a9590d6d28878f1ce0601d
-    new: 6c15463c4511d26f2a820f63f5b76624a71afc44
-    log: revlist-3ed331336055-6c15463c4511.txt
+  - ref: refs/heads/nfsd-testing
+    old: d987abba065b7a0d2a9834c9bb2219a41563fe88
+    new: 817a91d01f5a562ccceebb22565ad3d5d15d824b
+    log: revlist-d987abba065b-817a91d01f5a.txt
 
---===============3921400224715486544==
+--===============5902721586577091614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ed331336055-6c15463c4511.txt
+Content-Disposition: attachment; filename=revlist-d987abba065b-817a91d01f5a.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
@@ -343,5 +343,20 @@ fb340bfd48bcc3a51d35be1fe2a2db290092d4ea NFSD: Delay adding new entries to LRU
 a082e4b4d08a4a0e656d90c2c05da85f23e6d0c9 nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
 13289ed501bad7a37ccbfa8581961d2e9dd4aea3 nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
 6c15463c4511d26f2a820f63f5b76624a71afc44 sunrpc: fix "occurence"->"occurrence"
+37be05f4da90144ca3971c292c8d2ce7b0c514c4 NFSD: Disallow layoutget during grace period
+d43179e9410ccc6d8742d72273f1bf6f2a9ae2e2 nfsd: delete unnecessary NULL check in __fh_verify()
+51aff47be6ffae806cbef6c2ad2d41897010da21 nfsd: remove long-standing revoked delegations by force
+253871677a44fe88cacc243089d5137a23fc5b8a NFSD: Do the grace period check in ->proc_layoutget
+4a0e02b0ff974ee94d010385e4f58b811301ab11 NFSD: Allow layoutcommit during grace period
+76f39dd3cd6cf9355d8137e897789689d5ebfb51 NFSD: Add io_cache_{read,write} controls to debugfs
+5211fbf446a64da102cd5e818796af140f3b2821 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
+48e7e73c49604caaf8ff0798dc38eff9cd174983 nfsd: discard nfserr_dropit
+6cef01e6a06e3c12a10c0998ecb29d066588a8ba nfsd: move name lookup out of nfsd4_list_rec_dir()
+740424258b6775d012779b25c0e594086eec4731 nfsd: change nfs4_client_to_reclaim() to allocate data
+f07168bc3c6f0a92a3901bda4b8941c069672210 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+f6ef8c57978efe1b7a77d20c1a6372ded4e80191 NFSD: Define actions for the new time_deleg FATTR4 attributes
+76f4480080e6721ec636898de94ba8098438255c NFSD: Define a proc_layoutcommit for the FlexFiles layout type
+dc7316d9c0b728809c0661b458e059786fab68ca NFSD: Add array bounds-checking in nfsd_iter_read()
+817a91d01f5a562ccceebb22565ad3d5d15d824b siw: Enable try_gso
 
---===============3921400224715486544==--
+--===============5902721586577091614==--
