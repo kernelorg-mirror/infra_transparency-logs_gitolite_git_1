@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 22 Sep 2025 20:09:05 -0000
-Message-Id: <175857174554.704035.5546867341060305070@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 20:09:09 -0000
+Message-Id: <175857174995.704769.16079084524322307300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/notes/commits
-    old: 2bb23de04295773f3d8a7c9075b8fbb6387d8439
-    new: 0e188d65068c597d3a9dccdef1950279021248e8
+  - ref: refs/heads/x86/urgent
+    old: 4f115596133fa168bac06bb34c6efd8f4d84c22e
+    new: 2066f00e5b2dc061fb6d8c88fadaebc97f11feaa
     log: |
-         0e188d65068c597d3a9dccdef1950279021248e8 Notes added by 'git notes add'
+         2066f00e5b2dc061fb6d8c88fadaebc97f11feaa x86/topology: Implement topology_is_core_online() to address SMT regression
          
