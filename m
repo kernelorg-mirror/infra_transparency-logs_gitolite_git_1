@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
-Date: Mon, 22 Sep 2025 10:24:57 -0000
-Message-Id: <175853669703.187721.6644912801355803773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 22 Sep 2025 10:58:29 -0000
+Message-Id: <175853870933.214599.9296878328114463650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hkrogeru/usb
-user: hkrogeru
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/tags/v6.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
+  - ref: refs/heads/next-merge
+    old: 3c54e6027f14c4f54be5508af748f6cc2fd72f89
+    new: fc0d192303bd385ac24dc52eb31ceb6ca7e027d0
+    log: |
+         42852fe57c6d2a0abb10429841cb1226b7186b7a xfs: track the number of blocks in each buftarg
+         6ef2175fce30ccab80d519f2afcc93d8b138c16c xfs: use bt_nr_sectors in xfs_dax_translate_range
+         fc0d192303bd385ac24dc52eb31ceb6ca7e027d0 xfs: scrub: use kstrdup_const() for metapath scan setups
+         
