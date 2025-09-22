@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 22 Sep 2025 18:51:49 -0000
-Message-Id: <175856710982.638268.3074132930287935875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 22 Sep 2025 19:10:28 -0000
+Message-Id: <175856822853.653848.10909586999144711440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: 4b1eb8337e6bc1a8831e4ba8feff5927a8fb9a34
-    new: 9b277fca90c39c8b749e659bf5c23e924c46c93b
+  - ref: refs/heads/master
+    old: d4c7fccfa784da0583fed9c8f98ed78236c030fb
+    new: cec1e6e5d1ab33403b809f79cd20d6aff124ccfe
     log: |
-         35626012877b80436e0627feb16520db4f0ba53e net: spacemit: Make stats_lock softirq-safe
-         c9809f03c158f07eaa76c7dd3606fc0a184520f2 mptcp: pm: netlink: only add server-side attr when true
-         3d7ae91107b839ffeeb19730a2e2a46e0054bae8 mptcp: pm: netlink: announce server-side flag
-         c8bc168f5f3d152b378726f89e8561ccedcb5d5c mptcp: pm: netlink: deprecate server-side attribute
-         e6c35529452e658272d370535e8c1424dbb8e5d2 selftests: mptcp: pm: get server-side flag
-         5c967ebb551919661166305c0ff9422e41065c02 mptcp: use _BITUL() instead of (1 << x)
-         1be5b82c45850f495adf67887075507d5e8a860b mptcp: remove unused returned value of check_data_fin
-         9b277fca90c39c8b749e659bf5c23e924c46c93b Merge branch 'mptcp-pm-netlink-announce-server-side-flag'
+         55ed11b181c43d81ce03b50209e4e7c4a14ba099 sched_ext: idle: Handle migration-disabled tasks in BPF code
+         cec1e6e5d1ab33403b809f79cd20d6aff124ccfe Merge tag 'sched_ext-for-6.17-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
          
