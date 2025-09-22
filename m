@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 22 Sep 2025 19:48:00 -0000
-Message-Id: <175857048060.687364.6575088465965231286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 22 Sep 2025 20:09:05 -0000
+Message-Id: <175857174554.704035.5546867341060305070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: d599ad1fdcfcd9d18f29f26fbd9f4e4a100cdafc
-    new: 2d23bdd4e16bd62d45fefe0a14b6828f6e421145
+  - ref: refs/notes/commits
+    old: 2bb23de04295773f3d8a7c9075b8fbb6387d8439
+    new: 0e188d65068c597d3a9dccdef1950279021248e8
     log: |
-         2d23bdd4e16bd62d45fefe0a14b6828f6e421145 sasha: review v6.16.8
+         0e188d65068c597d3a9dccdef1950279021248e8 Notes added by 'git notes add'
          
