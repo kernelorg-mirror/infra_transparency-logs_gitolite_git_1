@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0846202675440380233=="
+Content-Type: multipart/mixed; boundary="===============5152180189938929700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 22 Sep 2025 17:10:31 -0000
-Message-Id: <175856103187.551328.739765797998303197@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 17:10:34 -0000
+Message-Id: <175856103458.551447.11070491223035368861@gitolite.kernel.org>
 
---===============0846202675440380233==
+--===============5152180189938929700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3fb4f35a75e864ecf298b55259223bc984f63276
     new: 312e6f7676e63bbb9b81e5c68e580a9f776cc6f0
     log: revlist-3fb4f35a75e8-312e6f7676e6.txt
 
---===============0846202675440380233==
+--===============5152180189938929700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ b34df17d588de926212527a2f2ce72bc4e330260 net: netpoll: remove unused netpoll poi
 614accf5455304ac0e708882609a34ec9aec463b net: netpoll: use synchronize_net() instead of synchronize_rcu()
 312e6f7676e63bbb9b81e5c68e580a9f776cc6f0 Merge branch 'net-netpoll-remove-dead-code-and-speed-up-rtnl-locked-region'
 
---===============0846202675440380233==--
+--===============5152180189938929700==--
