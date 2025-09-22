@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4798498583382273477=="
+Content-Type: multipart/mixed; boundary="===============8283797266950043418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 22 Sep 2025 07:49:15 -0000
-Message-Id: <175852735532.15396.11411944888757721391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 22 Sep 2025 08:11:04 -0000
+Message-Id: <175852866439.34151.17432155031216028976@gitolite.kernel.org>
 
---===============4798498583382273477==
+--===============8283797266950043418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: 4b9046077455ca513f24261d21243b820d224542
-    new: 71a2fea2f1b5fb480244c641bf20c949b5757211
-    log: revlist-4b9046077455-71a2fea2f1b5.txt
-  - ref: refs/tags/renesas-devel-2025-09-22-v6.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dcbb10af7022abf10cfb89cafa2bc51baa57eb33
-  - ref: refs/tags/v6.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
+    old: 793f4a5da91fe6f127eeb5f479342d163e7444bb
+    new: 5a8e23c2d2603cd8c64a5d79ea2a8833bc3799d8
+    log: revlist-793f4a5da91f-5a8e23c2d260.txt
 
---===============4798498583382273477==
+--===============8283797266950043418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b9046077455-71a2fea2f1b5.txt
+Content-Disposition: attachment; filename=revlist-793f4a5da91f-5a8e23c2d260.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
@@ -314,6 +308,6 @@ fce24200cbddb5a333a157eecf0a8020c1d36d7c Merge tag 'scsi-fixes' of git://git.ker
 f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
-71a2fea2f1b5fb480244c641bf20c949b5757211 Merge tag 'v6.17-rc7' into renesas-devel
+5a8e23c2d2603cd8c64a5d79ea2a8833bc3799d8 Merge tag 'v6.17-rc7'
 
---===============4798498583382273477==--
+--===============8283797266950043418==--
