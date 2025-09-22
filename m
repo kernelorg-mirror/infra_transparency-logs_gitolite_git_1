@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 22 Sep 2025 18:25:47 -0000
-Message-Id: <175856554746.615898.3646168886305636877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 22 Sep 2025 18:33:41 -0000
+Message-Id: <175856602152.621306.7608464905199320906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 32d27cf535ead3b10e926c76dc5b6301920328b0
-    new: d4c7fccfa784da0583fed9c8f98ed78236c030fb
+  - ref: refs/heads/bleeding-edge
+    old: 4b20c1037df85f242a4d2a37dffe8f10c0b2570a
+    new: f8254bbe1a14f6a603eb88ff81af41a38c363aab
     log: |
-         85fe9f565d2d5af95ac2bbaa5082b8ce62b039f5 IB/mlx5: Fix obj_type mismatch for SRQ event subscriptions
-         7a425ec75d2bb30a1c959a8676ef8c5ef285095d iommufd: Fix refcounting race during mmap
-         4e034bf045b12852a24d5d33f2451850818ba0c1 iommufd: Fix race during abort for file descriptors
-         53d0584eeb2c85a46c83656246d61a89558d74b3 iommufd: WARN if an object is aborted with an elevated refcount
-         43f6bee02196e56720dd68eea847d213c6e69328 iommufd/selftest: Update the fail_nth limit
-         b183f251e2024531c2262829e97907b0e623cc41 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-         d4c7fccfa784da0583fed9c8f98ed78236c030fb Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+         4d330fe54145ecfbb657ac01a554fdedf3c1927e ACPI: SPCR: Support Precise Baud Rate field
+         016ed2be7bd07e822e9b50cf39bbdbf7073f5255 Merge branch 'acpi-tables' into bleeding-edge
+         5b87014e999903b63c6416183446bcc18aabe5ef x86/acpi/cstate: Remove open coded check for cpu_feature_enabled()
+         f8254bbe1a14f6a603eb88ff81af41a38c363aab Merge branch 'acpi-x86' into bleeding-edge
          
