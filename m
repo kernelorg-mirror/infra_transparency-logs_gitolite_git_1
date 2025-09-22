@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 22 Sep 2025 20:41:49 -0000
-Message-Id: <175857370986.731399.11169154308055407585@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 20:41:55 -0000
+Message-Id: <175857371585.731573.8657780919889048142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 7ca61ed8b3f3fc9a7decd68039cb1d7d1238c566
+  - ref: refs/heads/pending
+    old: 1627783dcdba3cfd81a2c863acd7c3763ce4bb94
     new: 9eb6f553026e1268a62aa352af38f70fe7d42a46
     log: |
          82993345aef6987a916337ebd2fca3ff4a6250a7 wifi: ath12k: Increase DP_REO_CMD_RING_SIZE to 256
