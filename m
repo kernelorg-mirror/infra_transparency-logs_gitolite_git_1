@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8283797266950043418=="
+Content-Type: multipart/mixed; boundary="===============5119628679184622469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 22 Sep 2025 08:11:04 -0000
-Message-Id: <175852866439.34151.17432155031216028976@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 08:11:14 -0000
+Message-Id: <175852867454.34491.14999734728251739452@gitolite.kernel.org>
 
---===============8283797266950043418==
+--===============5119628679184622469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 793f4a5da91fe6f127eeb5f479342d163e7444bb
-    new: 5a8e23c2d2603cd8c64a5d79ea2a8833bc3799d8
-    log: revlist-793f4a5da91f-5a8e23c2d260.txt
+  - ref: refs/heads/m68k-queue
+    old: 47cae0e55d10134bc7cb33b460ea7dd9894576f5
+    new: 0452208d225a246235d3cc851ddb05acdf5a6e25
+    log: revlist-47cae0e55d10-0452208d225a.txt
 
---===============8283797266950043418==
+--===============5119628679184622469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-793f4a5da91f-5a8e23c2d260.txt
+Content-Disposition: attachment; filename=revlist-47cae0e55d10-0452208d225a.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
@@ -308,6 +308,10 @@ fce24200cbddb5a333a157eecf0a8020c1d36d7c Merge tag 'scsi-fixes' of git://git.ker
 f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
-5a8e23c2d2603cd8c64a5d79ea2a8833bc3799d8 Merge tag 'v6.17-rc7'
+e210423315f64b7f30b2b65bd6a8380712b06d3f zorro: Remove extra whitespace in macro definitions
+50e0c26c08d34986778dcde9739c65ce3c78fd51 m68k: bitops: Fix find_*_bit() signatures
+44b6ff5f83e8163d10698e2604d6ec0730456ccf m68k: atari: usb: Add ISP1160 USB host controller support
+7d1be2f75344e6a38657c90e8b9d9dcdcaaee376 m68k: atari: Update Kconfig.bus help text
+0452208d225a246235d3cc851ddb05acdf5a6e25 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8283797266950043418==--
+--===============5119628679184622469==--
