@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 22 Sep 2025 15:14:09 -0000
-Message-Id: <175855404958.443165.2142989818931315832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 22 Sep 2025 15:14:11 -0000
+Message-Id: <175855405197.443244.7947201744453551908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/pending
-    old: 71371ea1d4347e9460b12811e8806560c0bffb10
-    new: 1627783dcdba3cfd81a2c863acd7c3763ce4bb94
+  - ref: refs/heads/for-next
+    old: baea7817eee8f271c60f5bf0e88853d7981fce7e
+    new: e71b83525f8e45161737f1837aebd5c166e5baab
     log: |
-         1627783dcdba3cfd81a2c863acd7c3763ce4bb94 wifi: ath12k: enforce CPU endian format for all QMI data
+         e71b83525f8e45161737f1837aebd5c166e5baab dt-bindings: edac: Convert aspeed,ast2400-sdram-edac to DT schema
          
