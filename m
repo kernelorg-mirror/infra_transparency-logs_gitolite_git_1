@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 22 Sep 2025 16:43:03 -0000
-Message-Id: <175855938386.523213.15094971098089361879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Mon, 22 Sep 2025 16:49:50 -0000
+Message-Id: <175855979082.529195.12179729942790744908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/tags/sched_ext-for-6.17-rc7-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 55b19fa9b7621c613299de58c5399d2c769f5b59
+  - ref: refs/heads/at91-dt
+    old: d0fd848949eece04a3b935f5a80566fb013428c3
+    new: c656932c3ece3eebe6240bb20e5c1d8aa0d7ecb0
+    log: |
+         04334f9e8ed2c5763f5633ad53199d12c96fc795 ARM: dts: microchip: sama7d65: Add GPIO buttons and LEDs
+         82ab67d762e922bb5df1cbb442e8d4f12c26a7ae ARM: dts: microchip: sama7d65: add uart3 definition for flexcom3 peripheral
+         c656932c3ece3eebe6240bb20e5c1d8aa0d7ecb0 ARM: dts: microchip: sam9x7: Add qspi controller
+         
