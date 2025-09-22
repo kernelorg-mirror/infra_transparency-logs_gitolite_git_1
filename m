@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 22 Sep 2025 17:05:47 -0000
-Message-Id: <175856074746.546398.11789429531772751991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Mon, 22 Sep 2025 17:08:24 -0000
+Message-Id: <175856090479.547739.13641467079182975757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/scx
-    old: e1436f21fed139afaef96ca2c555929bdd798dc0
-    new: 200e71c7360912a20e8bc15a867826440ab4973a
+  - ref: refs/heads/next-integrity-testing
+    old: a4cc916bf57267818385afcde50c6889b848be4d
+    new: 00642a06d60c897a8348784e1eee9e5369219ce5
     log: |
-         200e71c7360912a20e8bc15a867826440ab4973a sched_ext: Introduce scx_bpf_dsq_peek()
+         00642a06d60c897a8348784e1eee9e5369219ce5 ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr
          
