@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 22 Sep 2025 14:42:28 -0000
-Message-Id: <175855214822.416770.9013159039221002905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 22 Sep 2025 14:46:25 -0000
+Message-Id: <175855238556.420963.5182039310788489681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/tags/sunxi-dt-for-6.18-2
-    old: 0000000000000000000000000000000000000000
-    new: b118ffb3564e365c61d6fe69e7924ce89ebedecf
+  - ref: refs/notes/commits
+    old: 508e6f3c6c5d622c1f01fe11a45641449cfb52ef
+    new: 2bb23de04295773f3d8a7c9075b8fbb6387d8439
+    log: |
+         2bb23de04295773f3d8a7c9075b8fbb6387d8439 Notes added by 'git notes add'
+         
