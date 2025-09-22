@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2812450165966843010=="
+Content-Type: multipart/mixed; boundary="===============1174686260040807066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 22 Sep 2025 09:54:43 -0000
-Message-Id: <175853488308.124987.11990815794045334123@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 09:54:57 -0000
+Message-Id: <175853489715.125238.17675046952431724194@gitolite.kernel.org>
 
---===============2812450165966843010==
+--===============1174686260040807066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: d3b28612bc5500133260aaf36794a0a0c287d61b
-    new: b65678cacc030efd53c38c089fb9b741a2ee34c8
-    log: revlist-d3b28612bc55-b65678cacc03.txt
-  - ref: refs/heads/master
-    old: d3b28612bc5500133260aaf36794a0a0c287d61b
-    new: b65678cacc030efd53c38c089fb9b741a2ee34c8
-    log: revlist-d3b28612bc55-b65678cacc03.txt
+  - ref: refs/heads/testing
+    old: 74485647e0f97a39417a5d993aaf65e378ca3e13
+    new: 08ef26bf71fd6d67e66e1dfd439513dc9278b9ac
+    log: revlist-74485647e0f9-08ef26bf71fd.txt
 
---===============2812450165966843010==
+--===============1174686260040807066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1758534931 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1758534946 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1758534874-09b0e276e89a93a21822ffe70aab9773dbf03433
+nonce 1758534890-2dbe9c8e86ea372dafd0550d279b1d88843debc7
 
-d3b28612bc5500133260aaf36794a0a0c287d61b b65678cacc030efd53c38c089fb9b741a2ee34c8 refs/heads/main
-d3b28612bc5500133260aaf36794a0a0c287d61b b65678cacc030efd53c38c089fb9b741a2ee34c8 refs/heads/master
+74485647e0f97a39417a5d993aaf65e378ca3e13 08ef26bf71fd6d67e66e1dfd439513dc9278b9ac refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjRHRMTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnK4jB/4zzSkMNRKOC0Pcha3ri+65xgJuifae
-78HrfJASytoL2tNPrAa5b0YxcJH62eYDJ62Ui0oapBELBqyisBPqugVbAbQFlbrB
-Oq4HyC/DLS5achsx9VU3FBMmKDWKcsJGlgcwums9ZgfszWg6fCUGW6ealUhxr0YE
-m+8T4anbRnzbakMcRR951tfpWFBzdtC6++QL+fJohN1VFjWbGulV+TGrdYOUBLQK
-9VVquF4F99485pwzbiXy7n28Zg+dhBin6xB2wBS1pELmeSTqviZ2d9eM4wl5SgWs
-U0PshZUWKCb74UvZu7/cYVe4YDOQda8OuXglfvgJq7LMDHxcOIpgyn3f
-=2pl3
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjRHSITHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnCYLB/902MSOedoBiRIB37fvZ9a0iHH/ZX6g
+Z8jFLRzMt1dzSGahsEq9V+z7eAxURLUKEHw/yDraSSKK589RoVub7fEoQROMQRl9
+f1ptVsURhIUPFR8fW6VlTOJnSzQVMhTH6QXSd2HlImJkQaqiOZkEY8a4FjCF2RL2
+CUEprlLojBGyFjp5cw8FR29gvhrYZfWZ4zsNjV1oGkVvZcISeutzUrgzIP8rsJEp
+H5gWidVgp2HaRP7rJ5H1Guey1mxRcZF4c2v9pBMbktS6QpMFopRqgKrjVHM02jup
+uzBe9rtZVbUwbeHV5+aeoWWYhoS4KGZrJa6LDE09iqzzGbbHE/rNuBGm
+=zX3Z
 -----END PGP SIGNATURE-----
 
---===============2812450165966843010==
+--===============1174686260040807066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3b28612bc55-b65678cacc03.txt
+Content-Disposition: attachment; filename=revlist-74485647e0f9-08ef26bf71fd.txt
 
 22571172257a55c443f1a9306e963da4c6187e83 dt-bindings: dma: qcom: bam-dma: Add missing required properties
 5068b5254812433e841a40886e695633148d362d dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
@@ -331,7 +326,6 @@ cce7c15faaac79b532a07ed6ab8332280ad83762 ceph: always call ceph_shift_unused_fol
 249e0a47cdb46bb9eae65511c569044bd8698d7d ceph: fix crash after fscrypt_encrypt_pagecache_blocks() error
 e3c674db356c4303804b2415e7c2b11776cdd8c3 tunnels: reset the GSO metadata before reusing the skb
 e895f8e29119c8c966ea794af9e9100b10becb88 hrtimers: Unconditionally update target CPU base after offline timer migration
-641427d5bf90af0625081bf27555418b101274cd docs: networking: can: change bcm_msg_head frames member to support flexible array
 f5c32370dba668c171c73684f489a3ea0b9503c5 drm/amd/display: Disable DPCD Probe Quirk
 70f0b051f82d0234ade2f6753f72a2610048db3b drm/amd/display: Correct sequences and delays for DCN35 PG & RCG
 60f71f0db7b12f303789ef59949e38ee5838ee8b drm/amd/display: Drop dm_prepare_suspend() and dm_complete()
@@ -579,8 +573,17 @@ f03e578c8afe514c82ec9bd9af548b8fe08694e5 Merge tag 'uml-for-6.17-rc7' of git://g
 604530cd9a5b0c603038dfbe9e82b3e4dad11350 Merge tag 'platform-drivers-x86-v6.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 86cc796e5e9bff0c3993607f4301b8188095516c Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 cbf658dd09419f1ef9de11b9604e950bdd5c170b Merge tag 'net-6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-1091860a16a86ccdd77c09f2b21a5f634f5ab9ec net: tun: Update napi->skb after XDP process
-a35c04de2565db191726b5741e6b66a35002c652 net/smc: fix warning in smc_rx_splice() when calling get_page()
-b65678cacc030efd53c38c089fb9b741a2ee34c8 ethernet: rvu-af: Remove slash from the driver name
+6b696808472197b77b888f50bc789a3bae077743 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+5cff263606a10102a0ea19ff579eaa18fd5577ad can: rcar_canfd: Fix controller mode setting
+38c0abad45b190a30d8284a37264d2127a6ec303 can: etas_es58x: populate ndo_change_mtu() to prevent buffer overflow
+ac1c7656fa717f29fac3ea073af63f0b9919ec9a can: hi311x: populate ndo_change_mtu() to prevent buffer overflow
+61da0bd4102c459823fbe6b8b43b01fb6ace4a22 can: sun4i_can: populate ndo_change_mtu() to prevent buffer overflow
+17c8d794527f01def0d1c8b7dc2d7b8d34fed0e6 can: mcba_usb: populate ndo_change_mtu() to prevent buffer overflow
+a3ed215cb2147e98981de5321fd1b1d0e3dceb1c Merge patch series "can: populate ndo_change_mtu() to prevent buffer overflow"
+c443be70aaee42c2d1d251e0329e0a69dd96ae54 can: peak_usb: fix shift-out-of-bounds issue
+3eeb6387f097d6567905891cf18213e4ee6b1ba9 can: esd_usb: Fix not detecting version reply in probe routine
+381464b59a084125db1f93cab4abe0ee1f0357a6 can: esd_usb: Fix handling of TX context objects
+c836bac7b8d942a5f2a09cc0f2e83f29a65f5896 can: esd_usb: Add watermark handling for TX jobs
+08ef26bf71fd6d67e66e1dfd439513dc9278b9ac Merge patch series "can: esd_usb: Fixes and improvements"
 
---===============2812450165966843010==--
+--===============1174686260040807066==--
