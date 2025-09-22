@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Mon, 22 Sep 2025 15:57:16 -0000
-Message-Id: <175855663679.482117.13716513042721445698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 22 Sep 2025 16:02:20 -0000
+Message-Id: <175855694013.487215.1815651224703134128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: f29e4c9b19ab128483b513fd3a1e700db566b7f8
-    new: 80274f31feab1eaec15b1ce752ead1f8ecf1463f
+  - ref: refs/heads/kdevops
+    old: 76e15f15444bfcf49365dea6257dad8ea91a8c7d
+    new: 45375915b4d3408875c34bfe71bf308b85560b79
     log: |
-         80274f31feab1eaec15b1ce752ead1f8ecf1463f s2idle: Calculate end of `test` cycles for long cycles
+         45375915b4d3408875c34bfe71bf308b85560b79 SQUASH: fix up attr_vals encoder to not include len
          
