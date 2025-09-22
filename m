@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 22 Sep 2025 16:50:56 -0000
-Message-Id: <175855985656.531277.13993046414447976469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 22 Sep 2025 16:53:54 -0000
+Message-Id: <175856003494.532535.10303012857880705490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/at91-next
-    old: 3022b69d5ffd31f472899c099ea0691449c06307
-    new: 5a410e87e09e29f92cec7a7beb0d5ed2ce31824c
+  - ref: refs/heads/pinctrl
+    old: 69c073cdb60f2e13a617eb5db437dd667a4d424d
+    new: e6f23d5384d0fee67c3762c5e3e69a8d49568f05
     log: |
-         04334f9e8ed2c5763f5633ad53199d12c96fc795 ARM: dts: microchip: sama7d65: Add GPIO buttons and LEDs
-         82ab67d762e922bb5df1cbb442e8d4f12c26a7ae ARM: dts: microchip: sama7d65: add uart3 definition for flexcom3 peripheral
-         c656932c3ece3eebe6240bb20e5c1d8aa0d7ecb0 ARM: dts: microchip: sam9x7: Add qspi controller
-         5a410e87e09e29f92cec7a7beb0d5ed2ce31824c Merge branch 'at91-dt' into at91-next
+         e6f23d5384d0fee67c3762c5e3e69a8d49568f05 functional pic64gx?
          
