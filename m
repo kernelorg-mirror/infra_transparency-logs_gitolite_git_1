@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 22 Sep 2025 09:03:52 -0000
-Message-Id: <175853183266.79879.516278598135545156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 22 Sep 2025 09:14:25 -0000
+Message-Id: <175853246520.89891.14523538966084896880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 5a0090288c56bdcc139254af1a54596b3efae0c8
-    new: 531557439de6e05dee7f689516416557314cf99f
+  - ref: refs/heads/for-6.18
+    old: 692173de3032b22792d21070238a986163fc29ec
+    new: f145845d8348c9b6288df41cb7904fd9fde566dc
     log: |
-         531557439de6e05dee7f689516416557314cf99f patches/next: rebase to latest mm-new
+         f145845d8348c9b6288df41cb7904fd9fde566dc dt-bindings: ata: apm,xgene-ahci: Add apm,xgene-ahci-v2 support
          
