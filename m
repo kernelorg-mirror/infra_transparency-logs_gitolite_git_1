@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0388762365118617301=="
+Content-Type: multipart/mixed; boundary="===============0940753031272428551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 22 Sep 2025 04:53:11 -0000
-Message-Id: <175851679130.4005957.18165545569567888559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 22 Sep 2025 04:53:34 -0000
+Message-Id: <175851681497.4006263.18223615659090350853@gitolite.kernel.org>
 
---===============0388762365118617301==
+--===============0940753031272428551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: f83ec76bf285bea5727f478a68b894f5543ca76e
     new: 07e27ad16399afcd693be20211b0dfae63e0615f
     log: revlist-f83ec76bf285-07e27ad16399.txt
 
---===============0388762365118617301==
+--===============0940753031272428551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -309,4 +309,4 @@ f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://g
 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
 
---===============0388762365118617301==--
+--===============0940753031272428551==--
