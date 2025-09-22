@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 22 Sep 2025 10:58:29 -0000
-Message-Id: <175853870933.214599.9296878328114463650@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 11:23:18 -0000
+Message-Id: <175854019837.234724.811829541995002878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/next-merge
+  - ref: refs/heads/xfs-6.18-merge
     old: 3c54e6027f14c4f54be5508af748f6cc2fd72f89
     new: fc0d192303bd385ac24dc52eb31ceb6ca7e027d0
     log: |
