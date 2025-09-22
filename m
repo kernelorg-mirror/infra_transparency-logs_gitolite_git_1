@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5471758234531888789=="
+Content-Type: multipart/mixed; boundary="===============5679105831376123954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 22 Sep 2025 19:12:06 -0000
-Message-Id: <175856832684.654864.7844988090569500395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 22 Sep 2025 19:18:46 -0000
+Message-Id: <175856872648.659863.17803978949740520343@gitolite.kernel.org>
 
---===============5471758234531888789==
+--===============5679105831376123954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ed468b6695fbaa814828da04fc74e067f5655542
-    new: d599ad1fdcfcd9d18f29f26fbd9f4e4a100cdafc
+    old: 99bffaab0538907fa166baca939c2f73048e81cb
+    new: 3ff73c746825aeb6b597dd892cb5a3b95a550cfe
     log: |
-         d599ad1fdcfcd9d18f29f26fbd9f4e4a100cdafc reject CVE-2022-50403 on review
+         81aae073a5f3fdb88afc80650fa8c871ec5bfcf6 drop x86-sev-guard-sev_evict_cache-with-config_amd_mem_encrypt.patch from 6.12
+         bd67b2a5965ca7793b1a22797059aaa0ef63127f 6.6-stable patches
+         3ff73c746825aeb6b597dd892cb5a3b95a550cfe 6.1-stable patches
          
 
---===============5471758234531888789==
+--===============5679105831376123954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758568379 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1758568323-d4c42ec6fbce37009347154f8ee47dc83eab66c7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758568781 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1758568724-4c1e1e4b58cb3a878dfd6b7cb646415f3598fc29
 
-ed468b6695fbaa814828da04fc74e067f5655542 d599ad1fdcfcd9d18f29f26fbd9f4e4a100cdafc refs/heads/master
+99bffaab0538907fa166baca939c2f73048e81cb 3ff73c746825aeb6b597dd892cb5a3b95a550cfe refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjRn7sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TvMQAJJXNs2x4Z9yv9n4RWzE
-WlAEMXCDbEgHt8bR5sXbP48fPI8w4oT7PGbnpSZO4jheDjVie9dpKXxlgr7v4994
-5lSFrvZ0jQ3z4HVeMeJq8Rhy/T5+WnUo1CVTAecoT616pzb0J9hXjvo/MI4TMAVG
-XIQzX0S635GjUQZ/n9e9U4dWlW0jPLPRZ28HUvQrzKcLpCaw72nndvnvTie5Tq1l
-N9E5gejkIZ5ANSDdEGxEgIiy9d7MSRBo1NYhVMm+JLPKd8PoaSw5P/78lFUpkmtl
-lGGzeCLsdu6j+MOSa3nYezbeBnObZ5ZHSq+AlXLvWPmtq3tcmb6KJrYSgJbMhy8D
-Rmyq/U3fzA4/40JKuLKbead4SaLv/c+xfuKvdxAQMeB42t/OBpOpYoeqkwvLfYDh
-KXfYMnnRFfjd32ZIM3eehsiWcpmXoF7GPkH2tdcTZQc6E3qLbsQiW4hpzM7u9Aee
-+MGnFefXh6JhVINVEEwki/wr9wyAZiXIxm+aWoCitgbnUai5r7BTnW8AeqLbJ/z2
-arl9FifhKRqsSKAMGA53l0CTY8+vM5Pe9oKrQ+ZQzpL52jF9FPT4p5/W6Ur0TwnC
-hthfMI7GlmEoOgw7UIEb+6jzvQK5Dd/qw1XMZYOJKcFwvQtTAFSUubVHGHA/QNEG
-GO/Ay+H6VitUP4yciCkiu+RG
-=GBg0
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjRoU0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cYYP/Rs9WeK9Cw5NJp8/uhHn
+vNf7/ocBP34yVzqDwPwQ2X3zmyX1TKT2tqDUnAtC6b2vl14HjbBvsoBEBVNkILcN
+wZdTCyGdM/bssm9+JSQnuYjVimocG1WUetW94d5pNJF7cMolO3ZuRM4O2ATNbUYi
+GdP4qshBdkLlKscqT75kR6r9ihL7hsNu95yNherBAqxv6pJdTNdXLE6sdFVtyQ0M
+/Yk168mWrCG5YFmxJY3Ok+DucfLmn4wWf2ja/ZmFN/J/XsUnZ4/RHpa+LFii5azt
+rDeibi7pMtcJ7S8F1s2+Sau6NJ5MEpvU3HPI9r8O/oLcFQWo2Dw+XUUj7ghFRz3K
+TZifnGcaNTNIQJ2AtF1whjZxjyUt7WlldpzE7fJOWeriTgEVZBSm+r3//1O5inmf
+0DPQfmCvnwu94eRwqEYw7Zlr9e8oj/BpTHwst5GqDv497v1qx/N+p7QbPjhYl7Fo
+ML/6quPcNby9/h7yknMw8dmQEwpwcZhdwDCUZlDZHHV2byeymaX16wCoewX5/09n
+gokKsDb+oRuAPF24zMYxD2/ctk0+DP2AjzuR+dsCAL+Rf5d/o94tRjOBpsP172Fu
+i9mRBtW6Rb22nmSXgpud9wdTxWGai/wJIC0ly+/OLTbYamsAOinxbBPCdv2i+tU6
+Lt80UgNayL8iQGcqVyMGFf/0
+=eaVY
 -----END PGP SIGNATURE-----
 
---===============5471758234531888789==--
+--===============5679105831376123954==--
