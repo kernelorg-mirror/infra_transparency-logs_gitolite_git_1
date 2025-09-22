@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 22 Sep 2025 08:23:03 -0000
-Message-Id: <175852938396.44037.4287925090834898323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 22 Sep 2025 08:24:47 -0000
+Message-Id: <175852948782.45722.4867018960393067281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/master
-    old: f975f08c2e899ae2484407d7bba6bb7f8b6d9d40
-    new: 07e27ad16399afcd693be20211b0dfae63e0615f
+  - ref: refs/heads/controller/ti
+    old: f842d3313ba179d4005096357289c7ad09cec575
+    new: e82d56b5f3844189f2b2240b1c3eaeeafc8f1fd2
     log: |
-         f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
-         25fbbaf515acd13399589bd5ee6de5f35740cef2 clk: sunxi-ng: mp: Fix dual-divider clock rate readback
-         6d8042baa80c993cfdc6795384f32e37213b2ec9 Merge tag 'renesas-clk-fixes-for-v6.17-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-fixes
-         764c921bf0c5ff125989a6c039a344ed211ffda9 Merge tag 'sunxi-clk-fixes-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
-         2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-         07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
+         c514ba0fa8938ae09370beecb77257868c1568a7 PCI: Export pci_get_host_bridge_device() for use by pci-keystone
+         db9ff606a5535aee94bf41682f03aba500ff3ad6 PCI: dwc: Export dw_pcie_allocate_domains() and dw_pcie_ep_raise_msix_irq()
+         76d23c87a3e06af003ae3a08053279d06141c716 PCI: keystone: Error out ks_pcie_probe() for invalid controller mode
+         e82d56b5f3844189f2b2240b1c3eaeeafc8f1fd2 PCI: keystone: Add support to build as a loadable module
          
-  - ref: refs/tags/v6.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
