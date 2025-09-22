@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1726239550369086249=="
+Content-Type: multipart/mixed; boundary="===============3218962227343945087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 22 Sep 2025 09:03:23 -0000
-Message-Id: <175853180389.79292.15148230606534067685@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 09:03:25 -0000
+Message-Id: <175853180552.79447.2113060106554114418@gitolite.kernel.org>
 
---===============1726239550369086249==
+--===============3218962227343945087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: b8086c28010853a2bf0ef45f871174710dd053ee
-    new: 9f9a6bed8c05d92c16f76236af73f29a1ca9aee1
-    log: revlist-b8086c280108-9f9a6bed8c05.txt
+  - ref: refs/heads/mm-unstable
+    old: cef92af94f5d429e6c926f0295cdc731797f02da
+    new: ff6e87c62b9720c9bcdc93873c0220768b865452
+    log: revlist-cef92af94f5d-ff6e87c62b97.txt
 
---===============1726239550369086249==
+--===============3218962227343945087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8086c280108-9f9a6bed8c05.txt
+Content-Disposition: attachment; filename=revlist-cef92af94f5d-ff6e87c62b97.txt
 
 bc9950b56f16e9cc53879118bfddcc175355a75a Merge branch 'mm-hotfixes-stable' into mm-stable in order to pick up changes required by mm-stable material: hugetlb and damon.
 1e338f4d99e6814ede16bad1db1cc463aad8032c kasan: introduce ARCH_DEFER_KASAN and unify static key across modes
@@ -233,24 +233,5 @@ a636e494bde80988a4debc2bc30eb7fc518cf05e mm/page_vma_mapped: track if the page i
 dd8932b5ca4e53bad1bd66d31ba8bd48b5257451 mm/rmap: mlock large folios in try_to_unmap_one()
 e9a20ada6a3237867c77043337ec395d9db68ab0 mm/fault: try to map the entire file folio in finish_fault()
 ff6e87c62b9720c9bcdc93873c0220768b865452 mm/rmap: improve mlock tracking for large folios
-03bab6dcd1f4d5b6fb75ddf3a6717061cc57466c ksm: use a folio inside cmp_and_merge_page()
-a86eab3e034a0a3105ee251e21439b44e01df814 mm/vmalloc: move resched point into alloc_vmap_area()
-b6d3ee1ce7305114e28912c80868795fbfb214b3 mm-vmalloc-move-resched-point-into-alloc_vmap_area-fix
-3ccc182aec2a47eec210cb59d3d60c7dc09eae05 mm/damon/sysfs: set damon_ctx->min_sz_region only for paddr use case
-6528e45492a4d38dffe5f8f8f55c5d771429de69 selftests/mm: skip soft-dirty tests when CONFIG_MEM_SOFT_DIRTY is disabled
-f4d3628008d27c754934787799e5bb24ff506786 kho: move sanity checks to kho_restore_page()
-77d40c41af926677142c2b3e2ded6d21c952c721 kho: make sure page being restored is actually from KHO
-79e236a088e8fe48ef9ef49ec8bc700b087c2a77 mm/memory_hotplug: fix typo 'esecially' -> 'especially'
-bc80092ac7d4ac4c9aad1d20e3aa83107af735bb mm: remove PMD alignment constraint in execmem_vmalloc()
-528b669699d4d9609c3474d128a38f7fac178ed0 drivers/base/node: fix double free in register_one_node()
-fb419ec45eb99620152c5fd790a97ca1e1574bb8 mm: vmscan: remove folio_test_private() check in pageout()
-f42e854be1ee9638ab764ce9672ddb445485fd27 mm-vmscan-remove-folio_test_private-check-in-pageout-fix
-df7e726919c10f75ff06755256a64fa1653ea92f mm: vmscan: simplify the folio refcount check in pageout()
-93ba8e8bf13ecb0a181564fda17e73358b1f8bb4 hugetlb: increase number of reserving hugepages via cmdline
-94c5a7dcf4034d0b50b6e358016ef1e8db40f5f3 mm/ksm: get mm_slot by mm_slot_entry() when slot is !NULL
-35fd89fca64f1b500522710ac48abdc05e145fb2 mm/khugepaged: remove definition of struct khugepaged_mm_slot
-1d228211f629e50b5f162b6db794b0fb8315c346 drivers/base/memory: add node id parameter to add_memory_block()
-0aa8563ed800f4d8240143361ec8905da16f15ec mm/memory_hotplug: activate node before adding new memory blocks
-9f9a6bed8c05d92c16f76236af73f29a1ca9aee1 drivers/base: move memory_block_add_nid() into the caller
 
---===============1726239550369086249==--
+--===============3218962227343945087==--
