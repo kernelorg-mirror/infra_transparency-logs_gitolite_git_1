@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3663365462080004498=="
+Content-Type: multipart/mixed; boundary="===============6769834419838789383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 22 Sep 2025 19:20:11 -0000
-Message-Id: <175856881147.663273.5328336296296465862@gitolite.kernel.org>
+Date: Mon, 22 Sep 2025 19:20:12 -0000
+Message-Id: <175856881273.663368.8033218558599660601@gitolite.kernel.org>
 
---===============3663365462080004498==
+--===============6769834419838789383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,108 +16,117 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 7ea566f6203e53055d4dea36d18d7b9fe037892f
-    new: 94eebab92ce4c24a2ad631fea31cbda49f1a9cb6
-    log: revlist-7ea566f6203e-94eebab92ce4.txt
+  - ref: refs/heads/linux-6.6.y
+    old: dd7e466e98dac03ca12c4e2cbcc14548c6c6d134
+    new: 0f374b2fa28e6b5a577f4f5101be60cf7a34594a
+    log: revlist-dd7e466e98da-0f374b2fa28e.txt
 
---===============3663365462080004498==
+--===============6769834419838789383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758568865 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758568866 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1758568809-14172a8680bed4ab351d6615bf6e140dab98dfb7
+nonce 1758568811-ebb6696d03e6d4bb315001385bcef536675ec328
 
-7ea566f6203e53055d4dea36d18d7b9fe037892f 94eebab92ce4c24a2ad631fea31cbda49f1a9cb6 refs/heads/linux-6.1.y
+dd7e466e98dac03ca12c4e2cbcc14548c6c6d134 0f374b2fa28e6b5a577f4f5101be60cf7a34594a refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjRoaEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yZMP/RNXYFXE85GC0zT3BPlI
-YvUuNjOF44aRpTM5ntB0JiTkMcrwJjR600QfAcHwW/UpvcMKZ+64fMgdnLzmEqSw
-MKFPfIrAQlEGsVwOXWx09+PXkFPPVN28rV6gtq2DF3Z8oRFkM1vR8Ru8dJoYjkvg
-cjmdE0O1HftNUy3HYpiaiAAzAIKq5w2KeNVpLD5RKkopAOUch5MlnS85vzRg1F/I
-svw65RF8/i+Y+vr2KLi0Ytag+JlwlaqA9oXINnvYDYfcryA/olvo7D6TXSTtDE+t
-8ioK9xCHVxTjSD6doe6yiTC03dG63UVkoNl/rrnRu7grrMTbaaRTcaFHAT2NWneO
-qkgu5qdvebBbxC/vedUOZlrxqUijR7q4LDfUjKzpxpMG3idyWl6lOirm5pqbOIp3
-stWrXiWndfuHVysnUm8knM+VnEsnTzenosR3p93dni1SJW7zwxGn9bMmoKdBVOMT
-xYYvcwqWzbMq8QMu+DTIPcPrau7d8dyIeCHWKKzgFMy1LaOptvrbed+K/imj572f
-xGBEP64etlxR1uxcrODKWetQl2+U7hofMFTrO59lVKYB9OX9UoUTYncgldgfsFJx
-2te3HUhUvFoz1fFpQtyo/Z5eoTqW4GcIwdFCsYQgCLNccSjmjsk9ts7yqN/qcaq8
-xanmfYx4CIEoHjK8qPOe0yzP
-=Ybb/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjRoaIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KJAQAJrm3JEuUvCyLlpGppE1
+xuXkLziEqhK+psGB16uhHMW3VmROpghDASvEb68eCBnzNcumL9Z41nnRrjRpK5VY
+kFguPlUxraWtp4kdsJ7LuX89nVkOdXg2C9VRBcYlrSPdbU2sXVlRONhxx7jFCOtO
+xEEBVUUcXsAkdLtIKYBOwftzXRhPkQkHfDp0wpO5VH242Z0D//WWAOViCAIaihsE
+M1kTut+Iaqf8do0qpsDc81EF1gEAeY1sZ3Me6dFPLnWc8wF/H5KOSZAq8hNZINiR
+Bg/6iLVhjMCHYYdkRsbJZJCKK9Nxnhsl9jY4t0Ku2DZNr7Rz+up95tf8dV1SXDj6
+JDp0U8JBM5C2itWKV8DQGOa4DApfVcp8ijDNLcHdTwfK/58A1aQJ28AY+JvBs7iU
+IW9XNmmnhX0m9dKYEDoOUlYv0BeO3Keh/z7HnlQuVnhKlSuWv2LjKTs/hCxRbAme
+3iVd1drOrXxkNMsgmMIq/FkemzoYARm1qlxfPZ/I+2Daa8kFhBlxwbOwLtSFJ85Y
+j0TzGeHHxZSjR3qHOG4OeIy8PJ0Q4/cLEUagrKtWYBzTHhCHFiW4jPfgbscN6Hh5
+wFRxwQKPqY5VTJX+keWULPTLVV1il+U9oIHbwexDAMPCd3ytBEF8VHO68aYVQY8y
+kmKonLlRjsgzSU8ETL+aERC2
+=UJ3N
 -----END PGP SIGNATURE-----
 
---===============3663365462080004498==
+--===============6769834419838789383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ea566f6203e-94eebab92ce4.txt
+Content-Disposition: attachment; filename=revlist-dd7e466e98da-0f374b2fa28e.txt
 
-719dd4861e91474c75df17f46d18190cafde7aff ALSA: firewire-motu: drop EPOLLOUT from poll return values as write is not supported
-932278e360fa29b0bbc785b7a2a303164d5c6a96 wifi: mac80211: increase scan_ies_len for S1G
-b71217b16e8ce3e7746f93278356a4252c392fc3 wifi: mac80211: fix incorrect type for ret
-0646746d5d729bdfac0f5dd7e292c21eb64d1afc pcmcia: omap_cf: Mark driver struct with __refdata to prevent section mismatch
-37a0ea4d1c8ae8c07d5279a2b3e760f12528ed52 cgroup: split cgroup_destroy_wq into 3 workqueues
-5547d683dd8b169414bea01c4083d3a4291afc6c btrfs: fix invalid extref key setup when replaying dentry
-3397edd644e827fb6b195fafac08bf668da3a062 um: virtio_uml: Fix use-after-free after put_device in probe
-7ad57061588a31a28cda185b0fb12df8f2826c74 dpaa2-switch: fix buffer pool seeding for control traffic
-a6ea1c76eab8b82e3d131baec912d4ee74673cb7 qed: Don't collect too many protection override GRC elements
-a9f11a791297710455036cd46a5b251d617f315a mptcp: set remote_deny_join_id0 on SYN recv
-1bd501816f22b23c72c97f87456f4ff22d3dd96e net: natsemi: fix `rx_dropped` double accounting on `netif_rx()` failure
-566570742ed633b261e27907cceb0eeab2fe5f87 i40e: remove redundant memory barrier when cleaning Tx descs
-db09ac0bb978b67d7cf3e0f54f4ddd844f6c84ed bonding: don't set oif to bond dev when getting NS target destination
-319c1870b4cfd529db9ed1f58146d2e472672945 tcp: Clear tcp_sk(sk)->fastopen_rsk in tcp_disconnect().
-6bccbc94d08ce342c8ae96e3698ad37d1400972b tls: make sure to abort the stream if headers are bogus
-a152e3d11ad14c4d4da0d63e5297227a84ccd2cf Revert "net/mlx5e: Update and set Xon/Xoff upon port speed set"
-372f61e1b5a389f386f47879445b8a2b2849c80d net: liquidio: fix overflow in octeon_init_instr_queue()
-ed7757e5bed2787dd07fc54ebc6e25dad8644d71 cnic: Fix use-after-free bugs in cnic_delete_task
-af1fd3d0ea1af3c2f3140c24d2ed9f7565714746 octeontx2-pf: Fix use-after-free bugs in otx2_sync_tstamp()
-3160766bfbfc75f0610d8e3b5fe43db821a0eb27 ksmbd: smbdirect: validate data_offset and data_length field of smb_direct_data_transfer
-800550033f3b3602881a669424ee95132972b819 ksmbd: smbdirect: verify remaining_data_length respects max_fragmented_recv_size
-a28abc85e4fb35b6717c56c425a7a9cf6df330fa nilfs2: fix CFI failure when accessing /sys/fs/nilfs2/features/*
-bf23fe78b299df281c48c989d70d5834b1a4da2a power: supply: bq27xxx: fix error return in case of no bq27000 hdq battery
-e55939236a6b35417f58ccb26d65ac78aca0f9a0 power: supply: bq27xxx: restrict no-battery detection to bq27000
-c43a602d0736abca745db8bdf0db66f5d5653c21 LoongArch: Align ACPI structures if ARCH_STRICT_ALIGN enabled
-f2f9709c345253d2893725a23ca223df85a41e92 LoongArch: Check the return value when creating kobj
-452450dca4a5d2d3caf532b8339283a9308c7a26 iommu/vt-d: Fix __domain_mapping()'s usage of switch_to_super_page()
-785c567ef0d34bf435c40c0df580ca35c665a2a7 btrfs: tree-checker: fix the incorrect inode ref size check
-10c9bfde42019bf0d11d3992bcc476d8eb79c9f8 ASoC: qcom: audioreach: Fix lpaif_type configuration for the I2S interface
-90bbcdf16ea83742da9065bc8b87ebd4482994e1 ASoC: qcom: q6apm-lpass-dais: Fix missing set_fmt DAI op for I2S
-d514f3682396a20af8516b8cc2c3cc0c6205f90a mmc: mvsdio: Fix dma_unmap_sg() nents value
-b4fe944ef681a7596346759c075dd05cf91ac85d KVM: SVM: Sync TPR from LAPIC into VMCB::V_TPR even if AVIC is active
-ade3b3e4bb98c9e700dabd7bf3089b3edcfead84 rds: ib: Increment i_fastreg_wrs before bailing out
-27944360d75382382e0f324f583711f5341a9b12 selftests: mptcp: avoid spurious errors on TCP disconnect
-eea16be561b37a890d7138522cd66362522b883f ALSA: hda/realtek: Fix mute led for HP Laptop 15-dw4xx
-64bae09d07576b53f7b01c51d9554493542d9d87 io_uring: backport io_should_terminate_tw()
-750873b8377f9dbbbaef35b28ff9cae6eaeec78f io_uring: include dying ring in task_work "should cancel" state
-84c7335e3121bc0708c5ac6c010a2693f51d2911 ASoC: wm8940: Correct typo in control name
-d41f38593129a122901ab3b3af6f5d0defe2605b ASoC: wm8974: Correct PLL rate rounding
-4ff700c8f0940741b61a0e6deddaf6f4f63557d4 ASoC: SOF: Intel: hda-stream: Fix incorrect variable used in error message
-37f0902184bd5f11d2a8739d6ecfdf26d7124fc4 drm: bridge: anx7625: Fix NULL pointer dereference with early IRQ
-7237222db7c6d2f52905da703305c21afea135cc drm: bridge: cdns-mhdp8546: Fix missing mutex unlock on error path
-6e035d4a2f6907599846887d8bd1604fea49663f crypto: af_alg: Indent the loop in af_alg_sendmsg()
-2245408757a7938e13d633553b095d67cd30fd64 crypto: af_alg - Set merge to zero early in af_alg_sendmsg
-174fb29e8ca68dddf829baf2ba60e8a321f9aecf smb: client: fix smbdirect_recv_io leak in smbd_negotiate() error path
-ebcb37a7e226cdb547bbd216cab091b95cfb5362 mptcp: pm: nl: announce deny-join-id0 flag
-cc4875848cbc4914905aa5c88fb8226eedf10016 selftests: mptcp: userspace pm: validate deny-join-id0 flag
-ded1c95d0b486ce4f44ccfde1740a5784d3afdfa phy: broadcom: ns-usb3: fix Wvoid-pointer-to-enum-cast warning
-791cc588635634be7804f4679b836fd6d615afd5 phy: Use device_get_match_data()
-9c795f1df7e2a31a76327417451a5fb770b7e98c phy: ti: omap-usb2: fix device leak at unbind
-fa69253856939aaf099a827ecb614f1f5223912b xhci: dbc: decouple endpoint allocation from initialization
-ef747311da3430ae5a2cfc8f7c255252397102b5 xhci: dbc: Fix full DbC transfer ring after several reconnects
-4d60434a37ed58a1f3e071500428c7ea1bdcc96c mptcp: propagate shutdown to subflows when possible
-6088deae20778c2f7494ff61fd719e5108d094d1 selftests: mptcp: connect: catch IO errors on listen side
-610219c50239a8ebe922a33a3230c8f2e6f88198 net: rfkill: gpio: add DT support
-1bceb0d0caa82e983e1454b84d6373b21021843c net: rfkill: gpio: Fix crash due to dereferencering uninitialized pointer
-e06bf91057568052259b830296e7223de7300017 ASoC: qcom: q6apm-lpass-dai: close graphs before opening a new one
-24c69260738a242e679f99926c3268de9ec6f681 ASoC: q6apm-lpass-dai: close graph on prepare errors
-c93e1480a5b3ec590bdd0e086be705cdaa71877a ASoC: qcom: q6apm-lpass-dais: Fix NULL pointer dereference if source graph failed
-13f21df31c3dd79c98c1476a40086592c98aafca crypto: af_alg: Convert af_alg_sendpage() to use MSG_SPLICE_PAGES
-6be36ab06237ebee4fe223e8e8988a18eaf6d274 crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg
-94eebab92ce4c24a2ad631fea31cbda49f1a9cb6 Linux 6.1.154-rc1
+7df8bfb3a605d28d7c17301ca141d7e12f7cb484 wifi: wilc1000: avoid buffer overflow in WID string configuration
+6fd53a144d288ce0e85e0728c14e914995d43c50 ALSA: firewire-motu: drop EPOLLOUT from poll return values as write is not supported
+1269a80bfec1c2db22dcd6a47405c77a437432f7 wifi: mac80211: increase scan_ies_len for S1G
+70bbc5d09a96b0e61d42bb0cd2b460815ad3ff9d wifi: mac80211: fix incorrect type for ret
+673e7b0dc6030ccd5d64103924d0a4166e79ab78 pcmcia: omap_cf: Mark driver struct with __refdata to prevent section mismatch
+16dfbf5599971130451bd83133f01af353444ee4 cgroup: split cgroup_destroy_wq into 3 workqueues
+517cc85d7db703a3e5c23ee104fc8518143a4c15 btrfs: fix invalid extref key setup when replaying dentry
+cfcbd58702f6393fdda8bd01b96519d0703aa3c0 um: virtio_uml: Fix use-after-free after put_device in probe
+5e4467a077254f62b5127fb9a17d7f1fc52fd5ac dpaa2-switch: fix buffer pool seeding for control traffic
+6461301d9266bd5c726e5cbb7dfce638ea4f814e qed: Don't collect too many protection override GRC elements
+61883855ed821a5add0567e62aa8ad1c3c0ef0ac bonding: set random address only when slaves already exist
+0e58ad8807d58fd15e78640f5a7a4ea9c5203586 mptcp: set remote_deny_join_id0 on SYN recv
+037e7bdfae0fc94241890c43d059789eeb9914ce mptcp: tfo: record 'deny join id0' info
+4ded301f3fe03a0ae45c8d97da7cad436178d821 selftests: mptcp: sockopt: fix error messages
+933b908f3eed04ef0659c640a091d5aeb7e00833 net: natsemi: fix `rx_dropped` double accounting on `netif_rx()` failure
+b211e1a21a674222342f1b2e7d8b8261b49314eb i40e: remove redundant memory barrier when cleaning Tx descs
+47cd60a71b44f77a259b5a177ff9e17281c8324b net/mlx5e: Consider aggregated port speed during rate configuration
+22db9b42e070a266334da050e68c5e3b077aa943 net/mlx5e: Harden uplink netdev access against device unbind
+16da3cd9e1ad332ffed0fca603c5aede1c86b4e1 bonding: don't set oif to bond dev when getting NS target destination
+69a3ec5e869e366a94ebf03c948fef658ff14e47 tcp: Clear tcp_sk(sk)->fastopen_rsk in tcp_disconnect().
+14cd0ed28226f8e9a019f060d80e3a5d310dd08b tls: make sure to abort the stream if headers are bogus
+982394461b6d8e0fa55fa33522526952ca942938 Revert "net/mlx5e: Update and set Xon/Xoff upon port speed set"
+a44758c46b659aec338af89862cd6a1358302a79 net: liquidio: fix overflow in octeon_init_instr_queue()
+23fb6487611688ff8667f244db1cd265110cef89 cnic: Fix use-after-free bugs in cnic_delete_task
+6b6b2e354cb6732b3a3e6918fb3cc55dc0b69cf7 octeontx2-pf: Fix use-after-free bugs in otx2_sync_tstamp()
+4e6ffe8cb09baae039ac74716196bb3c6f120d0f ksmbd: smbdirect: validate data_offset and data_length field of smb_direct_data_transfer
+d87260162cf7e5270a129a5af041cd304bc9d423 ksmbd: smbdirect: verify remaining_data_length respects max_fragmented_recv_size
+cb6f0af498927a397e4d32979faf66edfad93dc3 nilfs2: fix CFI failure when accessing /sys/fs/nilfs2/features/*
+59739fa6a27fcc3b0fe4a21b51154f426bca43b3 crypto: af_alg - Disallow concurrent writes in af_alg_sendmsg
+29ce1b8b7ca6bc5589537638f45d707114bf6682 power: supply: bq27xxx: fix error return in case of no bq27000 hdq battery
+f297d197843daf88566af766dfe6820e2bbc7132 power: supply: bq27xxx: restrict no-battery detection to bq27000
+0d5ecbdb6f207e2250fdf2e4504accfa75069209 LoongArch: Update help info of ARCH_STRICT_ALIGN
+0b5e8ce63617496708cde48ece95ea848ae8595f LoongArch: Align ACPI structures if ARCH_STRICT_ALIGN enabled
+b9cd42153c1ce3aec17710d39c5e8e1fe8f91256 LoongArch: Check the return value when creating kobj
+c63ac43fbef1f95b9f50b7d434be0fd1444d26da iommu/vt-d: Fix __domain_mapping()'s usage of switch_to_super_page()
+b263a0bdf18ebd187a4fbd2e49d9ec1d98e899e3 btrfs: tree-checker: fix the incorrect inode ref size check
+08ebdc6962817716ccf16d65fabe06b818723f50 ASoC: qcom: audioreach: Fix lpaif_type configuration for the I2S interface
+13b31e20a279a43350b457d94acba91ff29517b9 ASoC: qcom: q6apm-lpass-dais: Fix NULL pointer dereference if source graph failed
+b3ee8767dc2d0dcd3e510e3e2ca6e909eb9df839 ASoC: qcom: q6apm-lpass-dais: Fix missing set_fmt DAI op for I2S
+bbb2c791442065a54755bb7d6086532893bb9086 mmc: mvsdio: Fix dma_unmap_sg() nents value
+c3baaec62017728d4a3340a25c5700cba6d9d07b KVM: SVM: Sync TPR from LAPIC into VMCB::V_TPR even if AVIC is active
+c78d0c4afc328cb579410cc29f0f6694215c4b04 net: rfkill: gpio: Fix crash due to dereferencering uninitialized pointer
+e6b01728a033fd29fdf61f6a39d826ae3fee9279 rds: ib: Increment i_fastreg_wrs before bailing out
+c970ecbeb1b828961c79cd3df34170f5ab0ac733 selftests: mptcp: connect: catch IO errors on listen side
+8217d2a4bd45c75ec8eccc56657092d29450a729 selftests: mptcp: avoid spurious errors on TCP disconnect
+d24b2d034c2e03358f9807fe6299c91adf4041d8 ALSA: hda/realtek: Fix mute led for HP Laptop 15-dw4xx
+ee8f0eea7a4d53a256982a88ae664c391f2cbc8e io_uring: backport io_should_terminate_tw()
+b38e0d5c06475a51d4e08c974b74bc706d520a1c io_uring: include dying ring in task_work "should cancel" state
+772b96c61c3eb9812bb7f7712ffe1829b8217c1e ASoC: wm8940: Correct PLL rate rounding
+3b3522c1826e3ecfe53f5d322b55c09fd97a0b17 ASoC: wm8940: Correct typo in control name
+489ee9ac45af8aa4c9e8c706d7f92d7d1c9452a6 ASoC: wm8974: Correct PLL rate rounding
+5f5ddc2ddac07c8977ff25cc01a4cf0f887db807 ASoC: SOF: Intel: hda-stream: Fix incorrect variable used in error message
+4246c7937bdad553f973b99afb901b7282dd678a drm: bridge: anx7625: Fix NULL pointer dereference with early IRQ
+7b6ebb910d6fbf00aafd394c9318c38473210ffc drm: bridge: cdns-mhdp8546: Fix missing mutex unlock on error path
+c5866bcd24763f5e873ca878b9b3b6aff1b3eed4 crypto: af_alg - Set merge to zero early in af_alg_sendmsg
+c6185ccb1b8793bc2b19cd16aa7f88fb9aff7eee smb: client: fix smbdirect_recv_io leak in smbd_negotiate() error path
+7b2ffc9bd203aabf743d918514cc28d58a4b3320 vmxnet3: unregister xdp rxq info in the reset path
+45be0cd930b90e636c706241bca9fb892a8922a2 mptcp: pm: nl: announce deny-join-id0 flag
+d2c046196dcc521e46413895cf35de25236bc2c0 selftests: mptcp: userspace pm: validate deny-join-id0 flag
+3084d2575aeac4296a5235df605fb091a2c9fb5a phy: Use device_get_match_data()
+186ff84501a94a9963b9e8cd45191a779313ce79 phy: ti: omap-usb2: fix device leak at unbind
+f56a13fa3b4addf95232a2a7566da1fc4f639270 xhci: dbc: decouple endpoint allocation from initialization
+a00088a58e3d554af1fcce4e7ed0cfd640bc9385 xhci: dbc: Fix full DbC transfer ring after several reconnects
+c9a2b30e4385f09f59b3130b3c1de5a4e54ccd0a iommu/amd/pgtbl: Fix possible race while increase page table level
+888b0502afdd9d11bf4aca3ead8db1cbc12983a7 rtc: pcf2127: fix SPI command byte for PCF2131 backport
+b03599b52c1fd9d592368ab65b0bf6554781b10e mptcp: propagate shutdown to subflows when possible
+1404d37a7b80fc098df33d4e28c5a1a0f896bb25 minmax: avoid overly complicated constant expressions in VM code
+5fb772a83ed70c77cdb8d9be42d539ed55873029 minmax: simplify and clarify min_t()/max_t() implementation
+f9b4036ea6a7cdf6c3f94f6b479d55a8066916a8 minmax: add a few more MIN_T/MAX_T users
+cd4643214eba063729ff6c717bcac27cd35b30af Revert "loop: Avoid updating block size under exclusive owner"
+0f374b2fa28e6b5a577f4f5101be60cf7a34594a Linux 6.6.108-rc1
 
---===============3663365462080004498==--
+--===============6769834419838789383==--
