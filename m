@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 23 Sep 2025 23:43:59 -0000
-Message-Id: <175867103909.2170278.5611409536329439515@gitolite.kernel.org>
+Date: Tue, 23 Sep 2025 23:44:20 -0000
+Message-Id: <175867106037.2171295.403184144493164244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,66 +11,93 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/akpm/mm
 user: akpm
 changes:
-  - ref: refs/tags/mm-nonmm-stable-2022-05-26
-    old: f5aad8616d88ab6e4324d31b865952d46011ec26
+  - ref: refs/tags/mm-stable-2022-05-25
+    old: 293046abc13a885fd7f1b0203e02ebb0186a2444
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2022-06-05
-    old: 218291e617a44d7a33514c95d9cbe232901cb034
+  - ref: refs/tags/mm-stable-2022-05-27
+    old: 57c2261ba85121804502db7947a98ef66c562085
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2022-08-06
-    old: e88cae1d686d4407e29a1c8187e4e43d2486d22f
+  - ref: refs/tags/mm-stable-2022-08-03
+    old: 09e530d3b9baa68aefcfab0370c390b689d34d38
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2022-08-06-2
-    old: 59d941757134aa04d51b5a1f977935ee6528fc33
+  - ref: refs/tags/mm-stable-2022-08-09
+    old: 0de7e2769ee050b74cac33916e28510a4a9eb8a3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2022-10-11
-    old: 63c0e011675dbce9f8719968b5a2f66d29b1aefe
+  - ref: refs/tags/mm-stable-2022-10-08
+    old: dc819594589f643464c9e5d5899843ccd2fd3cb1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2022-12-12
-    old: 8341ddcb3c3a1bf776ff8cd8a237341ed8f3cff8
+  - ref: refs/tags/mm-stable-2022-10-13
+    old: eadcd91ee65995cea18bf7e4d092908ddf209d3b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2022-12-17-20-32
-    old: 792205171ef51cadf441592f45280a27534d3433
+  - ref: refs/tags/mm-stable-2022-12-13
+    old: e1ce752a5b7fb20d1b2ec753736b070fd7a38070
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2023-02-20-15-29
-    old: b89e1e40069cda6e32f3c8784d81fbf645c3b24f
+  - ref: refs/tags/mm-stable-2022-12-17
+    old: 3dc7aef8bc2e6b84202842ee19447099020b9f1a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2023-04-27-16-01
-    old: 95db8eebeba8604a6ed529c8bb2bd504170ee173
+  - ref: refs/tags/mm-stable-2022-12-17-2
+    old: c87dbaa71e9c51876b83adac77f672c999508117
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2023-06-24-19-23
-    old: 066e443002922912f4f24e1587bd33c46e183b60
+  - ref: refs/tags/mm-stable-2023-02-20-13-37
+    old: ae38b0f78d957650853da8f81d387ffe58f9ad2f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2023-08-28-22-48
-    old: 48ca135603b0b5ea20c3573f8a78121b9a5b4133
+  - ref: refs/tags/mm-stable-2023-04-27-15-30
+    old: 7442c03fe99fdb6dee586ed62b026251cb9490c5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2023-11-02-14-08
-    old: 83c838356a49520df4024d4c8ea1dc314c02decd
+  - ref: refs/tags/mm-stable-2023-05-03-16-22
+    old: c3b9e0f7b858c31e0d1d5c4e25f6894d87830306
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2024-01-09-10-33
-    old: 7be83607a2fa16bd6abe77c4142901ecd1ebaaea
+  - ref: refs/tags/mm-stable-2023-05-06-10-20
+    old: faad96576bd37f8ba9e08a3663d02a9f9df66fc2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2024-03-14-09-36
-    old: 19d96820011d86b03b92051d0cf7e12a8b39eee2
+  - ref: refs/tags/mm-stable-2023-05-06-10-25
+    old: 94655d071269ea6c1da0ec5cd580b05463b43921
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2024-05-19-11-56
-    old: 9997180d795dde3d163fc41e786715c2760bf1cc
+  - ref: refs/tags/mm-stable-2023-05-06-10-49
+    old: 0f5a026a346fa4d5a7e0c634b153dbad9abeb3ff
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2024-05-22-17-30
-    old: 70943deb73e037c6b7198c42eb00e65ac0e7c3f8
+  - ref: refs/tags/mm-stable-2023-06-24-19-15
+    old: b8fff9fa4488adaf2d77165fa49f5380a4bb666b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2024-07-21-15-07
-    old: 6ebdc2e2ab8497ecc834aa75b42f839eec7bdcd0
+  - ref: refs/tags/mm-stable-2023-08-28-18-26
+    old: 85505b2c450e86f7e2f22a4bee1bef075c3548ba
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2024-09-21-07-52
-    old: 028987dd310c9fdb7c97ffd9349487b69ad83612
+  - ref: refs/tags/mm-stable-2023-09-04-14-00
+    old: 632ea97c21ff35149241df10f025dfc086b0944f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2024-11-24-02-05
-    old: 9a07bd92400671b651a3548439ad7868d14e3853
+  - ref: refs/tags/mm-stable-2023-11-01-14-33
+    old: 5a5a49c2283747d165fa22853924ba8797166d00
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2025-01-24-23-16
-    old: c2183d65097b9168f0ec221c128392705997bc64
+  - ref: refs/tags/mm-stable-2024-01-08-15-31
+    old: 83e6b3cb39364179fbacfdd1bb136c01dd8895b6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-nonmm-stable-2025-03-30-18-23
-    old: 2faf946248eb38ea9787dc9477b55dc8280e998f
+  - ref: refs/tags/mm-stable-2024-03-13-20-01
+    old: 2f2c98278a29fd09255e9367a8052b15c0a6e9db
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2024-03-13-20-04
+    old: 206b5b6c7411414428845dad00e0a98beb853fb6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2024-05-17-19-19
+    old: 9e1c8655e1cb71dd5174f3937e8d6ac17f75ae3f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2024-05-22-17-22
+    old: 87030977e67d91f2b87d383469b5135df90882f0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2024-05-24-11-49
+    old: f0cb95af06dc435edf3e65d5ac11ce68393cdf6e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2024-07-21-14-50
+    old: dee047c13bbeab157cd37528f971c2f3e54d3d6d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2024-09-20-02-31
+    old: 3982f507ef3d2ea1a05d243880e67a2440d9c0dc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2024-11-18-19-27
+    old: 3c5bf5e5213b88a477961a94dd6eeaf7c7e3168f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2025-01-24-16-19
+    old: ef42bc90f9ad466dde540eccd87b12ad5fa17721
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/mm-stable-2025-01-26-14-59
+    old: 08d5b04ab192c5f854b53b009b7000858dcb43fe
     new: 0000000000000000000000000000000000000000
