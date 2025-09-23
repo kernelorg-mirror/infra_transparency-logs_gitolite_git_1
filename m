@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4520349529397363347=="
+Content-Type: multipart/mixed; boundary="===============7339483700919376644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 23 Sep 2025 20:05:24 -0000
-Message-Id: <175865792425.1978690.16885099695733454041@gitolite.kernel.org>
+Date: Tue, 23 Sep 2025 20:05:29 -0000
+Message-Id: <175865792927.1978826.11587849636402179159@gitolite.kernel.org>
 
---===============4520349529397363347==
+--===============7339483700919376644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: b99dd77076bd3fddac6f7f1cbfa081c38fde17f5
+  - ref: refs/heads/200GbE
+    old: b65678cacc030efd53c38c089fb9b741a2ee34c8
     new: 3d3aa9472c6dd0704e9961ed4769caac5b1c8d52
-    log: revlist-b99dd77076bd-3d3aa9472c6d.txt
+    log: revlist-b65678cacc03-3d3aa9472c6d.txt
 
---===============4520349529397363347==
+--===============7339483700919376644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b99dd77076bd-3d3aa9472c6d.txt
+Content-Disposition: attachment; filename=revlist-b65678cacc03-3d3aa9472c6d.txt
 
 cd8ae32e4e4652db55bce6b9c79267d8946765a9 xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
 91d8a53db2199eefc73ecf3682e0665ea6895696 xfrm: fix offloading of cross-family tunnels
-1091860a16a86ccdd77c09f2b21a5f634f5ab9ec net: tun: Update napi->skb after XDP process
-a35c04de2565db191726b5741e6b66a35002c652 net/smc: fix warning in smc_rx_splice() when calling get_page()
-b65678cacc030efd53c38c089fb9b741a2ee34c8 ethernet: rvu-af: Remove slash from the driver name
+55d225670def06b01af2e7a5e0446fbe946289e8 i40e: add validation for ring_len param
+aa68d3c3ac8d1dcec40d52ae27e39f6d32207009 i40e: fix idx validation in i40e_validate_queue_map
+f1ad24c5abe1eaef69158bac1405a74b3c365115 i40e: fix idx validation in config queues msg
+9739d5830497812b0bdeaee356ddefbe60830b88 i40e: fix input validation logic for action_meta
+877b7e6ffc23766448236e8732254534c518ba42 i40e: fix validation of VF state in get resources
+cb79fa7118c150c3c76a327894bb2eb878c02619 i40e: add max boundary check for VF filters
+eac04428abe9f9cb203ffae4600791ea1d24eb18 i40e: add mask to apply valid bits for itr_idx
+b99dd77076bd3fddac6f7f1cbfa081c38fde17f5 i40e: improve VF MAC filters accounting
 1c5091a9b4c990a6fcf8de7d0e97dba4cf878f17 Bluetooth: Fix build after header cleanup
 1488af7b8b5f9896ea88ee35aa3301713f72737c Bluetooth: hci_sync: Fix hci_resume_advertising_sync
 2e128683176a56459cef8705fc7c35f438f88abd Bluetooth: hci_event: Fix UAF in hci_conn_tx_dequeue
@@ -45,4 +50,4 @@ cd875625b475dc4e28ac302ccb3422cc9f678f89 ptp: document behavior of PTP_STRICT_FL
 a461b2fe3e0f5264d11bed6039b2531b8f5ec648 Merge tag 'ipsec-2025-09-22' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 3d3aa9472c6dd0704e9961ed4769caac5b1c8d52 bnxt_en: correct offset handling for IPv6 destination address
 
---===============4520349529397363347==--
+--===============7339483700919376644==--
