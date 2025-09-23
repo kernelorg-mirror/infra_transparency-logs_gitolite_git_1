@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5822201202479163294=="
+Content-Type: multipart/mixed; boundary="===============7411230273312592670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 23 Sep 2025 07:14:44 -0000
-Message-Id: <175861168420.1264970.8516722536249780487@gitolite.kernel.org>
+Date: Tue, 23 Sep 2025 07:14:45 -0000
+Message-Id: <175861168565.1265046.15237095161585256511@gitolite.kernel.org>
 
---===============5822201202479163294==
+--===============7411230273312592670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9f9a6bed8c05d92c16f76236af73f29a1ca9aee1
-    new: 8ea920de57a564c95e5d444a258514d944787368
-    log: revlist-9f9a6bed8c05-8ea920de57a5.txt
+  - ref: refs/heads/mm-unstable
+    old: ff6e87c62b9720c9bcdc93873c0220768b865452
+    new: f6c67c0b17ba144b75f5924e9c8c2c45742c07c0
+    log: revlist-ff6e87c62b97-f6c67c0b17ba.txt
 
---===============5822201202479163294==
+--===============7411230273312592670==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9f9a6bed8c05-8ea920de57a5.txt
+Content-Disposition: attachment; filename=revlist-ff6e87c62b97-f6c67c0b17ba.txt
 
 e8a9b7f0f6bd0f5d8a3d5fe4bfab7209b63512b5 hung_task: fix warnings caused by unaligned lock pointers
 1a0b8a6039d797b3825269f8f1f772ee17201964 mm/hugetlb: fix folio is still mapped when deleted
@@ -80,19 +80,5 @@ b9af7859c3d4310ddc7761eca4fa368a0de1a7db kho: make sure page being restored is a
 107823ff9d2912ad28a5bf34314c27f9d1c69f4e mm/memory_hotplug: fix typo 'esecially' -> 'especially'
 fba046bd8c5b8b436ae9a419d7bced52b3f45d6b mm: remove PMD alignment constraint in execmem_vmalloc()
 f6c67c0b17ba144b75f5924e9c8c2c45742c07c0 drivers/base/node: fix double free in register_one_node()
-6a2fbda2f8bcc37136a71bdd3b505e5fedf5d433 mm: vmscan: remove folio_test_private() check in pageout()
-321cc3d62cdfe1833699c504594f55fdf9d7759e mm-vmscan-remove-folio_test_private-check-in-pageout-fix
-f4470bbe44276f803d6c681e06059c08d9339d7b mm: vmscan: simplify the folio refcount check in pageout()
-b169b0662e96f170f29fe685dd4bf1c11838272e mm-vmscan-simplify-the-folio-refcount-check-in-pageout-fix
-744d3b2c61c1d3ae4f7a5886c96ecc7e865872dd hugetlb: increase number of reserving hugepages via cmdline
-a0ca06bc95f5077e3d61fb20cbb1c91b85e922dd mm/ksm: get mm_slot by mm_slot_entry() when slot is !NULL
-ab4ba46ca727f6a564e37bcd0f0f1f39312cd8c3 mm/khugepaged: remove definition of struct khugepaged_mm_slot
-97c970818d5b74e46d08aa11573f0be8db2352c0 mm-khugepaged-remove-definition-of-struct-khugepaged_mm_slot-fix
-1915584ed5b86fe8e8fb424916df991db7a4b7f6 mm/memory-failure: don't select MEMORY_ISOLATION
-d6952c8401a50b6039e2de45bd6489566929e447 mm/khugepaged: use start_addr/addr for improved readability
-7cd4554358f228b1e112223dc141734354593abc memcg: skip cgroup_file_notify if spinning is not allowed
-985a8ab615d15afdef096a8ab195a607f0405008 drivers/base/memory: add node id parameter to add_memory_block()
-69753a4e9b1796c701fa6a61f3bcb52b503d5878 mm/memory_hotplug: activate node before adding new memory blocks
-8ea920de57a564c95e5d444a258514d944787368 drivers/base: move memory_block_add_nid() into the caller
 
---===============5822201202479163294==--
+--===============7411230273312592670==--
