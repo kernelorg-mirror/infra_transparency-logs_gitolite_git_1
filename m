@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 23 Sep 2025 17:59:14 -0000
-Message-Id: <175865035434.1869675.14174319380831927044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 23 Sep 2025 17:59:31 -0000
+Message-Id: <175865037128.1869988.8592913490028838645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: f2c1d8f9d0c80d9e882a74c1e74fba7dfe1cd9f1
-    new: 6a39dfaffdb8a6c2080eec0dc7fb1ee532d54025
+  - ref: refs/heads/for-next
+    old: bd2cf0e4f02f186dc2fb6ea616ef9408cc320b6a
+    new: e6e8a72ec5276d645a8d788508a2167414b79807
     log: |
-         6a39dfaffdb8a6c2080eec0dc7fb1ee532d54025 options: check for NULL input string and fail
+         d41e075b077142bb9ae5df40b9ddf9fd7821a811 remoteproc: pru: Fix potential NULL pointer dereference in pru_rproc_set_ctable()
+         e6e8a72ec5276d645a8d788508a2167414b79807 Merge branch 'rproc-next' and 'rpmsg-next' into for-next
          
