@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 23 Sep 2025 14:36:00 -0000
-Message-Id: <175863816075.1691685.14616612310875740186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 23 Sep 2025 14:44:27 -0000
+Message-Id: <175863866752.1697959.6626287048293673393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
   - ref: refs/heads/next
-    old: 64581f41f4c4aa1845edeee6bb0c8f2a7103d9aa
-    new: de023206fc27e1e848e3dd54ee6fbcdc78dba6bb
+    old: 67da3f16e5f97a864a0beb4f9758d09e1890a76e
+    new: 7aada81cd75ad844c84fb1dcdce2d67ec41763f8
     log: |
-         5fc4ab3269dea6a0b00c7256cb6f6c0101b6a44b pmdomain: mediatek: set default off flag for MT8195 AUDIO power domain
-         de023206fc27e1e848e3dd54ee6fbcdc78dba6bb pmdomain: Merge branch fixes into next
+         7aada81cd75ad844c84fb1dcdce2d67ec41763f8 dt-bindings: mmc: samsung,exynos-dw-mshc: add specific compatible for exynos8890
          
