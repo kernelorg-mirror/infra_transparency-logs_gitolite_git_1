@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3045063070492783526=="
+Content-Type: multipart/mixed; boundary="===============7103478229124250862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 23 Sep 2025 20:05:19 -0000
-Message-Id: <175865791901.1978402.1179896925421931793@gitolite.kernel.org>
+Date: Tue, 23 Sep 2025 20:05:21 -0000
+Message-Id: <175865792144.1978519.12735964934319540380@gitolite.kernel.org>
 
---===============3045063070492783526==
+--===============7103478229124250862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: b65678cacc030efd53c38c089fb9b741a2ee34c8
     new: 3d3aa9472c6dd0704e9961ed4769caac5b1c8d52
     log: revlist-b65678cacc03-3d3aa9472c6d.txt
 
---===============3045063070492783526==
+--===============7103478229124250862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ cd875625b475dc4e28ac302ccb3422cc9f678f89 ptp: document behavior of PTP_STRICT_FL
 a461b2fe3e0f5264d11bed6039b2531b8f5ec648 Merge tag 'ipsec-2025-09-22' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 3d3aa9472c6dd0704e9961ed4769caac5b1c8d52 bnxt_en: correct offset handling for IPv6 destination address
 
---===============3045063070492783526==--
+--===============7103478229124250862==--
