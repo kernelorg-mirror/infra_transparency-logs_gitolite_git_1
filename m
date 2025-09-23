@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 23 Sep 2025 14:34:19 -0000
-Message-Id: <175863805995.1688619.38422439263879488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 23 Sep 2025 14:34:22 -0000
+Message-Id: <175863806241.1688698.8589762378972065416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/fixes
-    old: 303010f4658cb134eb27cee88026fb5d065a48cd
-    new: 5fc4ab3269dea6a0b00c7256cb6f6c0101b6a44b
+  - ref: refs/heads/master
+    old: 326f125912c0af5154b15fc26b133615023a1a62
+    new: bb3b98753e797fb96615a7b096604f38fc448a37
     log: |
-         5fc4ab3269dea6a0b00c7256cb6f6c0101b6a44b pmdomain: mediatek: set default off flag for MT8195 AUDIO power domain
+         bb3b98753e797fb96615a7b096604f38fc448a37 Release 0.80
          
