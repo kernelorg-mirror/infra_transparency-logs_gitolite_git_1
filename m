@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
-Date: Tue, 23 Sep 2025 16:03:24 -0000
-Message-Id: <175864340413.1769602.9665930301794115078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 23 Sep 2025 16:34:38 -0000
+Message-Id: <175864527888.1795604.9015315380511337397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pjw/riscv
-user: pjw
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/experimental
-    old: 0000000000000000000000000000000000000000
-    new: 75b248aa75bb3517ee7efd0118e86410d098517b
+  - ref: refs/heads/kdevops
+    old: 8f15c27f763a776bab6e3f105ad7a8d2e58c3257
+    new: 2abc755651150327b0a7aae2f7908fe6c78bc41e
+    log: |
+         2abc755651150327b0a7aae2f7908fe6c78bc41e HACK: turn off connectable filehandles
+         
