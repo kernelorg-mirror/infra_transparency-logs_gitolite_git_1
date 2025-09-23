@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 23 Sep 2025 23:55:27 -0000
-Message-Id: <175867172773.2183390.4461641601480020985@gitolite.kernel.org>
+Date: Tue, 23 Sep 2025 23:57:26 -0000
+Message-Id: <175867184603.2184483.13026423403075826732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 09630ab91d840416b0178f3660afa4eebce24286
-    new: f77064586026df2acbab0631df237d4147350983
+    old: f77064586026df2acbab0631df237d4147350983
+    new: 7e554f317be8e41ce2f2ce9f6faca14e697b0d26
     log: |
-         f77064586026df2acbab0631df237d4147350983 selftests: rtnetlink: correct error message in rtnetlink.sh fou test
+         7e554f317be8e41ce2f2ce9f6faca14e697b0d26 net: phy: move config symbol MDIO_BUS to drivers/net/phy/Kconfig
          
