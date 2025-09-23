@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1739425918567120354=="
+Content-Type: multipart/mixed; boundary="===============7533765804156067852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 23 Sep 2025 09:27:10 -0000
-Message-Id: <175861963011.1388769.8224896294231383580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 23 Sep 2025 09:27:18 -0000
+Message-Id: <175861963836.1388945.13459743135900658006@gitolite.kernel.org>
 
---===============1739425918567120354==
+--===============7533765804156067852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 63b4c34635cf32af023796b64c855dd1ed0f0a4f
     new: fd9814554328e189216bb1488c17157462600e99
     log: revlist-63b4c34635cf-fd9814554328.txt
 
---===============1739425918567120354==
+--===============7533765804156067852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1758619683 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1758619627-61ffc4d229123c22652f2f351348b6c1b1b47d3a
+pusher Mark Brown <broonie@kernel.org> 1758619692 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1758619634-4378654a1136bf95154c7c124426099f26619087
 
-63b4c34635cf32af023796b64c855dd1ed0f0a4f fd9814554328e189216bb1488c17157462600e99 refs/heads/for-6.18
+63b4c34635cf32af023796b64c855dd1ed0f0a4f fd9814554328e189216bb1488c17157462600e99 refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjSaCMTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0DGBB/4+NOC2mORx5F0Y2AbocpzrCutpH0ID
-NdBqUYU/ZoWbDbKnlvdBAUg4Pt/YzcgbkdKY7WcCqA9kjzX7DzEhBBYMjmn0J+9Q
-no2h+3enx16RxkuSRVw8rkY0ec4ORnyJzl4ndk5y9QJdl5H9VmkqjdgkgQdxRnl8
-XQy7GSDreii3h4Zsp4lfxzpoW6KNpuRJ1t74uHTmVkxrVvqgeLqhx4lof8/akzzv
-1NiTTUONmmIFkROpYZWyGHKMfKJl2XOgvdClNIYYWRbHa3aDJLpXL/+9mi4/Bh/I
-R/j0W36VmL2IpZCBGczZkMa9AlDCmbyf2KYXcU9rw6wCKW3KksDquyp7
-=piB5
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjSaCwTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BJOB/4kdmVUqBk5KFmm/6vWnsGBOoX0KJED
+hB7usQkhFVjDLK4WSgt0MjfA13/ZxjDy7RLHcoNPU3VDAR4e7NRK6SK0mTaVIBnL
+JHtIBDS590s75xy1wafmuqhJFyoYLzh5CXAIBu8Oa9okwTFDXFd6H8D/0h5BhfQz
+vd0Wrk2Ot1ydLcnIUH8Nvydq1mHDAzznOAJYbjABqKf7HjiSx669hyKf8whVUP8w
+HLG7XaaeZy2WbdDjfywEHJLjY1VcN+8X2ILQ8pwkSF91GBA+eCkpzO+qKOoalqgn
+/i9n7efzpziVaprlYmKYQafsQ8+pqcjK/E0rCwxhxEg3sEaUIukDki4+
+=ooRG
 -----END PGP SIGNATURE-----
 
---===============1739425918567120354==
+--===============7533765804156067852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -337,4 +337,4 @@ f8673e4069b2032bf9f854bae818a7bdbdca7520 ASoC: dt-bindings: cirrus,cs35l41: Docu
 46c8b4d2a693eca69a2191436cffa44f489e98c7 ASoC: cs35l41: Fallback to reading Subsystem ID property if not ACPI
 fd9814554328e189216bb1488c17157462600e99 Support reading Subsystem ID from Device Tree
 
---===============1739425918567120354==--
+--===============7533765804156067852==--
