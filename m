@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 22 Sep 2025 23:55:14 -0000
-Message-Id: <175858531497.895218.12067876814433623031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 23 Sep 2025 00:00:20 -0000
+Message-Id: <175858562009.899773.3277057665977968130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 3491bb7dae5c3899b52f9a2329a9d25b79c2b0fb
-    new: 91fc61775c57da3f5145abf80d047c4eb181c68a
+    old: 530ae8ec0e5e08b123ca667aedaf7fdbb1a8200f
+    new: dfff18082a6c2c52b07a6e0830298c6b3f48dfa9
     log: |
-         55d225670def06b01af2e7a5e0446fbe946289e8 i40e: add validation for ring_len param
-         aa68d3c3ac8d1dcec40d52ae27e39f6d32207009 i40e: fix idx validation in i40e_validate_queue_map
-         f1ad24c5abe1eaef69158bac1405a74b3c365115 i40e: fix idx validation in config queues msg
-         9739d5830497812b0bdeaee356ddefbe60830b88 i40e: fix input validation logic for action_meta
-         877b7e6ffc23766448236e8732254534c518ba42 i40e: fix validation of VF state in get resources
-         cb79fa7118c150c3c76a327894bb2eb878c02619 i40e: add max boundary check for VF filters
-         eac04428abe9f9cb203ffae4600791ea1d24eb18 i40e: add mask to apply valid bits for itr_idx
-         b99dd77076bd3fddac6f7f1cbfa081c38fde17f5 i40e: improve VF MAC filters accounting
-         91fc61775c57da3f5145abf80d047c4eb181c68a Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         3b8606193d435796ca07e488d4fb4fca4bbf1b68 ice: move ice_qp_[ena|dis] for reuse
+         ccde82e909467abdf098a8ee6f63e1ecf9a47ce5 ice: add E830 Earliest TxTime First Offload support
+         34138ea02a608dc39f04e364f3249e12f6002bad ice: Remove deprecated ice_lag_move_new_vf_nodes() call
+         7a5a03869801e2f1cabdc55b2e697fea20da5c68 idpf: add HW timestamping statistics
+         c4f7a6672f9019c9509c656c76dcbe804fb66e0c iavf: fix proper type for error code in iavf_resume()
+         a460f96709bb0dab9a527e2e6126ce0b2fcd02fe ixgbevf: fix proper type for error code in ixgbevf_resume()
+         99e9c5ffbbee0f258a1da4eadf602b943f8c8300 net: intel: fm10k: Fix parameter idx set but not used
+         dfff18082a6c2c52b07a6e0830298c6b3f48dfa9 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
