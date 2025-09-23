@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 23 Sep 2025 01:20:54 -0000
-Message-Id: <175859045430.971381.16144472022529764801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 23 Sep 2025 01:58:45 -0000
+Message-Id: <175859272518.1002141.13716320797903622480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/ath-next-20250922
-    old: 0000000000000000000000000000000000000000
-    new: 32631926960634d398e4f0edb5bd433c3a78d3cc
+  - ref: refs/heads/main
+    old: a461b2fe3e0f5264d11bed6039b2531b8f5ec648
+    new: 3d3aa9472c6dd0704e9961ed4769caac5b1c8d52
+    log: |
+         3d3aa9472c6dd0704e9961ed4769caac5b1c8d52 bnxt_en: correct offset handling for IPv6 destination address
+         
