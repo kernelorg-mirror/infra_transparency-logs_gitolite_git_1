@@ -1,50 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3422185261620100665=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 23 Sep 2025 08:18:50 -0000
-Message-Id: <175861553036.1324516.11314489689390693707@gitolite.kernel.org>
-
---===============3422185261620100665==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 23 Sep 2025 08:19:10 -0000
+Message-Id: <175861555061.1325502.18013316769935059140@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.18
-    old: 40987a08ba6c3e9408efc00e6388304452276e40
-    new: 878702702dbbd933a5da601c75b8e58eadeec311
+  - ref: refs/heads/for-next
+    old: c997efda4f98e4608953d8b7df72ca56b36c7a0e
+    new: 73603ce29fbd382713c9122bf89ca026667f8a02
     log: |
-         878702702dbbd933a5da601c75b8e58eadeec311 spi: ljca: Remove Wentong's e-mail address
+         a0ce874cfaaab9792d657440b9d050e2112f6e4d ASoC: ops: improve snd_soc_get_volsw
+         4cc9bd8d7b32d59b86cb489a96aa8a7b9dd6a21b ASoc: tas2783A: Add soundwire based codec driver
+         96384a34dd15b0e7357a34af5c848d1115a35e62 ASoc: tas2783A: machine driver amp utility for TI devices
+         b41949a2109e49cb96a1dc292efa249933e5232e ASoc: tas2783A: add machine driver changes
+         63b4c34635cf32af023796b64c855dd1ed0f0a4f tas2783A: Add acpi match changes for Intel MTL
+         73603ce29fbd382713c9122bf89ca026667f8a02 Merge remote-tracking branch 'asoc/for-6.18' into asoc-next
          
-
---===============3422185261620100665==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1758615584 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1758615528-9d9570ccb6b6464177bab94aafc961bb60de89ea
-
-40987a08ba6c3e9408efc00e6388304452276e40 878702702dbbd933a5da601c75b8e58eadeec311 refs/heads/spi-6.18
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjSWCATHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0EthB/9AESZStK4WpaAyVO76DjhBws5+5clH
-exNX3ymiCd6mQNtiTkVK2//VmFhtwl9h59EhvBM5nTq9lKDbtMjmAoqSWz/50doZ
-tfN+Bveuic8pWwvXimBbdN14qxSZgtFWlZxnaFtjnKft6gOCRBQTJEZx/I/joiAn
-8tEVPMWFv544ZqBf0VhwqgIj7GgQ1ST/u0Vt/UXF999/DVnduJj9lnE1cFGcog/L
-d/sGcSzluKkut5NTPSB+kWKbhlFYqBdtg/yFva6TjTRN49W+NW04+zu/0Un8xLVE
-p0y2TRs6BC+RNrP7xhYtmWt4l2WCUBCi99KL31jcvOn13uDOwttY3fS5
-=l2fI
------END PGP SIGNATURE-----
-
---===============3422185261620100665==--
