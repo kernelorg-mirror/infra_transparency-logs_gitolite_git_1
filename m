@@ -1,26 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 23 Sep 2025 06:15:00 -0000
-Message-Id: <175860810072.1212960.5165505226447993409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 23 Sep 2025 06:16:50 -0000
+Message-Id: <175860821026.1215652.5744445115115573677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-6.18/io_uring
-    old: 79525b51acc1c8e331ab47eb131a99f5370a76c2
-    new: ef9f603fd3d4b7937f2cdbce40e47df0a54b2a55
+  - ref: refs/heads/for-linus
+    old: d33c3471047fc54966621d19329e6a23ebc8ec50
+    new: d1d6ad7f6686e208aba06b7af3feef7a7cba61cf
     log: |
-         ef9f603fd3d4b7937f2cdbce40e47df0a54b2a55 io_uring/cmd: drop unused res2 param from io_uring_cmd_done()
+         d1d6ad7f6686e208aba06b7af3feef7a7cba61cf ALSA: usb-audio: don't apply interface quirk to Presonus S1824c
          
   - ref: refs/heads/for-next
-    old: f8779c3909e5ed6d334535a0e8199239074d7c2e
-    new: 4d92a855591759da45c7b3455877d7001e7307ff
+    old: b8d8265a0db8b3e8a6b40e8a0b25da1c00599577
+    new: 9cf5b8b69bfccf3d98d31f640244437a452daa80
     log: |
-         ef9f603fd3d4b7937f2cdbce40e47df0a54b2a55 io_uring/cmd: drop unused res2 param from io_uring_cmd_done()
-         4d92a855591759da45c7b3455877d7001e7307ff Merge branch 'for-6.18/io_uring' into for-next
+         9cf5b8b69bfccf3d98d31f640244437a452daa80 ASoC: tas2781: Correct the wrong description and register address on tas2781
+         
+  - ref: refs/heads/master
+    old: 6faa9add4e86bbf9c188e5bd9a1396e7c49a36b8
+    new: 1efd67f06f26ed6bdce939a9b46e1bdb4c969737
+    log: |
+         9cf5b8b69bfccf3d98d31f640244437a452daa80 ASoC: tas2781: Correct the wrong description and register address on tas2781
+         067d4c0fa4b803d961632aa1db22c2162d9f09dd Merge branch 'for-next'
+         d1d6ad7f6686e208aba06b7af3feef7a7cba61cf ALSA: usb-audio: don't apply interface quirk to Presonus S1824c
+         1efd67f06f26ed6bdce939a9b46e1bdb4c969737 Merge branch 'for-linus'
          
