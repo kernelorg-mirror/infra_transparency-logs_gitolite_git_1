@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3434593251882589882=="
+Content-Type: multipart/mixed; boundary="===============7570310518808142203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 23 Sep 2025 09:01:28 -0000
-Message-Id: <175861808800.1365622.1435917580570419420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 23 Sep 2025 09:02:13 -0000
+Message-Id: <175861813346.1366031.5697966762446552236@gitolite.kernel.org>
 
---===============3434593251882589882==
+--===============7570310518808142203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 8236b4667aca63afcd29620a48a084f6a0eed162
-    new: bf726cdc9d4fabcf1ebd50f6fce5121acc7447bb
+  - ref: refs/heads/next-test
+    old: 4a774b39e68fac7d6c7c9cffeb6a4ea4b6dc8b41
+    new: ef104054a312608deab266f95945057fa73eeaad
     log: |
-         bee278e18e641a4bc11513b0fa8f5eb2667b8a32 dt-bindings: embedded-controller: Add Lenovo Thinkpad T14s EC
-         27221f91b83ff1435e550f57b8380a01bab0fc80 platform: arm64: thinkpad-t14s-ec: new driver
-         7de8353e082d179a241dc4a4129c5d6916803399 arm64: dts: qcom: x1e80100-t14s: add EC
-         bf726cdc9d4fabcf1ebd50f6fce5121acc7447bb platform/x86:intel/pmc: Replace dev_warn() with dev_dbg()
+         91daac8a6893c65e18f194946ad3ad9df5e9de8d genirq/msi: Remove msi_post_free()
+         ef104054a312608deab266f95945057fa73eeaad powerpc/pseries: Define __u{8,32} types in papr_hvpipe_hdr struct
          
 
---===============3434593251882589882==
+--===============7570310518808142203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1758618137 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1758618081-dd4ff39f7800b6d8591435ce4d95eae951fb48b7
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1758618184 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1758618127-2624cc24f3e7d8eaef228ab728c35239547cfb14
 
-8236b4667aca63afcd29620a48a084f6a0eed162 bf726cdc9d4fabcf1ebd50f6fce5121acc7447bb refs/heads/review-ilpo-next
+4a774b39e68fac7d6c7c9cffeb6a4ea4b6dc8b41 ef104054a312608deab266f95945057fa73eeaad refs/heads/next-test
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaNJiHgAKCRBZrE9hU+XO
-MZwbAP9IEafxt/jRixp0uI/b+2fYuG/4puDUrKD9ZT6JYZAnEgD/ZzY+RSc1129k
-UqEFFvi0lulR3EdUXER865Nvh5D/FQA=
-=XL4e
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmjSYkgACgkQpnEsdPSH
+ZJTl+hAAhZu46OQHk7B5amOH78MUT0OuLuP7jsZevc/tIqCfGG7yUq652r8bgVFA
+/pWG3rME/tnuDcHhDw9IsObKIXDGJ93lmuNLF4mhxbMIm+oMAOZdh1cJ1trdDeVs
+AX2AAo8g5KV13J9qDUZQwFlvzDGp2GSrZCotmhpBmgLU0qtzeTnbW8odTkZm7pPH
+YaVTf6OqE9ytXo4VMJjhQADu+vKal/XvV0I10plPApfE0xFMcriB5NJTk42TJ6l4
+XLXbNCn8aqwSnntsRW9lvMcGeRaOYrprG0M2iY9ZwJem2rqDpCiR8DsJtPJEb6uM
+bpeF0pSc+raV/wgzfQTm1XuYmidmQ57at8nAZZ7tQPFP0XB3tj32YkNh7aHIIlSs
+iDF1Z8LLK5EoXjc1llOwRvY8pIA434+O3AwiIYVQgKIQHrSoN8bKiCsv+nl9jfA4
+DQXwROOC2cxYX6vtDJRWwjmlVUkA4YYG1eg6YErDuvuUosgQpjkqra9OfsMrGc8y
+I6IfP4j2mDHLmWVH/oxaZ4B+gIp5W4jNvtoFj4tKD89Wc5De3PE7QwMPtFEmkaiK
+vKnKHwz6RkYzmLp0k3rNJoUKlwpU/eUNH1ti5gmY+ieisQMwbaRKsSkZmJhDK/Z+
+tbXEYAK+ML7ifMN0DKbds0ceZyBrquKDc/HFdgoHIQSAv+SEL08=
+=ngCp
 -----END PGP SIGNATURE-----
 
---===============3434593251882589882==--
+--===============7570310518808142203==--
