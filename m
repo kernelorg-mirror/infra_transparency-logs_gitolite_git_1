@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3313758543435684124=="
+Content-Type: multipart/mixed; boundary="===============1441461181659235314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 23 Sep 2025 20:21:45 -0000
-Message-Id: <175865890551.1993742.6273508091657371011@gitolite.kernel.org>
+Date: Tue, 23 Sep 2025 20:21:48 -0000
+Message-Id: <175865890814.1993895.8553312338661150441@gitolite.kernel.org>
 
---===============3313758543435684124==
+--===============1441461181659235314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 312e6f7676e63bbb9b81e5c68e580a9f776cc6f0
     new: df1526752e0cd8db11b1fd4c1be3bd47409fd3ac
     log: revlist-312e6f7676e6-df1526752e0c.txt
 
---===============3313758543435684124==
+--===============1441461181659235314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -109,4 +109,4 @@ cc21191b584c6f7836b0f10774f8278b7cbfba10 dibs: Move data path to dibs layer
 a612dbe8d04d47af91fa88f0599c1370cc70f687 dibs: Move event handling to dibs layer
 df1526752e0cd8db11b1fd4c1be3bd47409fd3ac Merge branch 'dibs-direct-internal-buffer-sharing'
 
---===============3313758543435684124==--
+--===============1441461181659235314==--
