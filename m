@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3627779991447034275=="
+Content-Type: multipart/mixed; boundary="===============4459104472599122015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 23 Sep 2025 11:23:24 -0000
-Message-Id: <175862660481.1523793.14974697657756156015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 23 Sep 2025 11:23:34 -0000
+Message-Id: <175862661417.1523971.13094402442281715068@gitolite.kernel.org>
 
---===============3627779991447034275==
+--===============4459104472599122015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 878702702dbbd933a5da601c75b8e58eadeec311
     new: 2bfb20b65d9bc1d0de58f8c28ca9d6f1d27bbc01
     log: revlist-878702702dbb-2bfb20b65d9b.txt
 
---===============3627779991447034275==
+--===============4459104472599122015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1758626658 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1758626602-a0cdf5e357c0fc550f771c368b8a90d0eb1ef28e
+pusher Mark Brown <broonie@kernel.org> 1758626668 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1758626609-f64d155660f91e9527bb17d9ba3c3a8913120017
 
-878702702dbbd933a5da601c75b8e58eadeec311 2bfb20b65d9bc1d0de58f8c28ca9d6f1d27bbc01 refs/heads/for-6.18
+878702702dbbd933a5da601c75b8e58eadeec311 2bfb20b65d9bc1d0de58f8c28ca9d6f1d27bbc01 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjSg2ITHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GcDB/96cB/84b9UzNegDgN83M72tkY6JY3W
-QFSiwI0J4L3fbTGt2FHKgtoWysiKHpx34vgKKQbyeZHSn1EwKb71aLMmp5xQ/n8n
-F5hF8ab/zjunoGHfduLPdLunCvyxOC9BKP0TZ0uwek3FYa6ja6vdHpMBQnBYNrDe
-FiQsJ+Zv4rgZya+ovABHHm2uTs7Ae0PeEWFQQbV3dM3bKx3sDaIsU4in8gvJZ7dx
-Ot0/Ng0yujgfNM5Wnz8a+yz4FKi8VOblydt6LkDKi0sp7CLKRU8MOffbpWIUmM+Q
-XuGZGDrbCBLMlcqTtvwbPq6GMiQc6c4ubYe+Syh/YNSKZlW6WvRekR9g
-=6EBV
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjSg2wTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0DS4CACDqNkbz25aSTApXB0ONbmN501pxBXc
+puRAcT7jKcjIu5Pc5wgW3ja/HfrszgHyY+KO+h18WAz4KUuuDaeGG10DJZPYvmes
+zx+TtZYKe13sldckpcrHqg9b91DQKylXSU4XNVz73K6+Y0s0rWK/qYYsu9gWHfxp
+b4iAxlbqIYqkwQjeTyietPcOIsrvJs4SDDcKSKTYXh7xtdgXqSTkSSql6n7Uz5L0
+1vEX8EvaP75tXkZ/qJhGkEblCLOc/KDag1IYNxx3T9sEBkNBrBvyyZn8uvLBZYVf
+bVD9OotrxCzHQaid5NYYIHd0dfWOmUxl+Ih5m94+tl//3RmUtXL3J6Pd
+=RyrI
 -----END PGP SIGNATURE-----
 
---===============3627779991447034275==
+--===============4459104472599122015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -349,4 +349,4 @@ e336ab509b43ea601801dfa05b4270023c3ed007 spi: rename SPI_CS_CNT_MAX => SPI_DEVIC
 089558a9baaceb68b58c31cab658b7117743c452 Virtio SPI Linux driver
 2bfb20b65d9bc1d0de58f8c28ca9d6f1d27bbc01 spi: rpc-if: Add resume support for RZ/G3E
 
---===============3627779991447034275==--
+--===============4459104472599122015==--
