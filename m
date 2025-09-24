@@ -1,25 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 24 Sep 2025 19:20:58 -0000
-Message-Id: <175874165876.3222868.7819052512742606806@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9068527249621658638=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 24 Sep 2025 19:30:50 -0000
+Message-Id: <175874225075.3231144.3572243600519047630@gitolite.kernel.org>
+
+--===============9068527249621658638==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: cec1e6e5d1ab33403b809f79cd20d6aff124ccfe
-    new: 4ea5af08590825c79ba2f146482ed54443e22c28
-    log: |
-         8ffe28b4e8d8b18cb2f2933410322c24f039d5d6 cpufreq: Initialize cpufreq-based invariance before subsys
-         1cde0a74a7a8951b3097417847a458e557be0b5b smb: server: don't use delayed_work for post_recv_credits_work
-         f7f89250175e0a82e99ed66da7012e869c36497d smb: server: use disable_work_sync in transport_rdma.c
-         53de7ee4e28f6e866ac319b9db6e6c1b05664c32 btrfs: zoned: don't fail mount needlessly due to too many active zones
-         fd7d927587c7db5005d90623447c5d3b7750533d Merge tag '6.17-rc7-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-         74c7cc79aadf40fc14cfa04379693d2a3751e6e5 Merge tag 'for-6.17-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         4ea5af08590825c79ba2f146482ed54443e22c28 Merge tag 'pm-6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-         
+  - ref: refs/heads/hwmon-next
+    old: 80038a758b7fc0cdb6987532cbbf3f75b13e0826
+    new: b0f1dc76321f4302e018ae35504f398e7d99cd8c
+    log: revlist-80038a758b7f-b0f1dc76321f.txt
+
+--===============9068527249621658638==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-80038a758b7f-b0f1dc76321f.txt
+
+bca9b6633fb92ff37247442d08f3889a2e87881c dt-bindings: trivial-devices: add mps,mp5998
+bef3c793542b132ab1dc19076ce4f91594b5fbdc hwmon: (pmbus/mp5990) add support for MP5998
+1fac317b6cae373d5d1a5695a5175c65c745922f hwmon: (gpd-fan) Fix range check for pwm input
+5d5ec7c81c372d33875e0176f9f6d68e3e813e32 hwmon: (asus-ec-sensors) add ROG STRIX X670E-E GAMING WIFI
+ddb61e737f04e3c6c8299c1e00bf17a42a7f05cf hwmon: (dell-smm) Remove Dell Precision 490 custom config data
+b3499883c6d5f968f44e87d021ff2bd47ab5d094 hwmon: (dell-smm) Move clamping of fan speed out of i8k_set_fan()
+2c8ac03aad7a8dd649de9080503c68319afb43f9 hwmon: (asus-ec-sensors) add ROG STRIX X870E-E GAMING WIFI
+584d55be66ef151e6ef9ccb3dcbc0a2155559be1 hwmon: (asus-ec-sensors) increase timeout for locking ACPI mutex
+205c730262215fe1940668394a856f69ece55c66 hwmon: (gpd-fan) complete Kconfig dependencies
+1c1658058c99bcfd3b2347e587a556986037f80a hwmon: (dell-smm) Add support for automatic fan mode
+53d3bd48ef6ff1567a75ca77728968f5ab493cb4 hwmon: (dell-smm) Add support for Dell OptiPlex 7040
+82766ad83efcb903a61a94db0adb68b217f7d1ac dt-bindings: hwmon: Add MPS mp2925 and mp2929
+b3a4efc88601cb5fc97b4ae23c478700a60302da hwmon: add MP2925 and MP2929 driver
+922de42896e2c7d3d971186824bea00651373904 hwmon: (asus-ec-sensors) add TUF GAMING X670E PLUS WIFI
+6890889bca6b741d445e77a81603a418667db9f6 dt-bindings: hwmon: sl28cpld: add sa67mcu compatible
+08d2acc861b3ad18ad3534b95307aeaae5581380 hwmon: add SMARC-sAM67 support
+412b98c3dfdc58dd6e74302df36ababaddf2b925 platform/chrome: update pwm fan control host commands
+8448248b75fd1a9532a33acc67bebbd2b8d8e2a5 hwmon: (cros_ec) add PWM control over fans
+b0f1dc76321f4302e018ae35504f398e7d99cd8c hwmon: (cros_ec) register fans into thermal framework cooling devices
+
+--===============9068527249621658638==--
