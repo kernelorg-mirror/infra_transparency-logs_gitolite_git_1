@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 24 Sep 2025 19:04:22 -0000
-Message-Id: <175874066221.3207453.8276902619673022521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 24 Sep 2025 19:16:44 -0000
+Message-Id: <175874140480.3218547.12358901579454937452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/pm
-    old: 299fad4133677b845ce962f78c9cf75bded63f61
-    new: 48991e4935078b05f80616c75d1ee2ea3ae18e58
+  - ref: refs/heads/for-next
+    old: 8682e2221ee075c28a63071e03be66d3bd2df5e6
+    new: 070132aaa08f69d08c39e7f46eed83caf9343ede
     log: |
-         48991e4935078b05f80616c75d1ee2ea3ae18e58 PCI/sysfs: Ensure devices are powered for config reads
+         cec91c7758f965bdf051cb3f832fa4873fade380 dt-bindings: media: Convert MediaTek mt8173-vpu bindings to DT schema
+         82bc8474d6af8280327dc4fbece3de631e014489 dt-bindings: pinctrl: mt65xx: Allow gpio-line-names
+         6e46c778d2c468d4a289fd81d1573c323d9abe5a dt-bindings: soc: mediatek: pwrap: Add power-domains property
+         cdd28077e2089b250b65c737d5007e731dd9280c dt-bindings: trivial-devices: Add compatible string synaptics,synaptics_i2c
+         070132aaa08f69d08c39e7f46eed83caf9343ede dt-bindings: trivial-devices: Add some more devices
          
