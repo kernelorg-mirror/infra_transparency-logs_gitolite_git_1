@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daniel.lezcano/linux
-Date: Wed, 24 Sep 2025 13:45:45 -0000
-Message-Id: <175872154564.2910364.14785034151366258252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 24 Sep 2025 13:49:15 -0000
+Message-Id: <175872175556.2912649.10191722541257304981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daniel.lezcano/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/timers/drivers/next
-    old: 6cc2a27616ec1fb09dad7c976e42192271af52b1
-    new: 45d78cd0bf2c40e74c31f70340484e20aae45b07
+  - ref: refs/heads/main
+    old: ef58001fa35e68825340af157d6be41dca721a56
+    new: 1269106c61a34b8f65d045c8045df880083bd3b1
     log: |
-         45d78cd0bf2c40e74c31f70340484e20aae45b07 dt-bindings: timer: exynos4210-mct: Add compatible for ARTPEC-9 SoC
+         d5eedab92c67d327696c845b072697701ed5893b Revert "amdgpu: update gc 10.3.6 firmware"
+         1269106c61a34b8f65d045c8045df880083bd3b1 Merge branch 'amd-staging' into 'main'
          
