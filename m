@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 24 Sep 2025 11:45:21 -0000
-Message-Id: <175871432195.2806748.18067280859310377310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 24 Sep 2025 11:47:20 -0000
+Message-Id: <175871444091.2807720.7641815258374310802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/filenFjj6p
-    old: 0000000000000000000000000000000000000000
-    new: dc64b3d42cb361d4b39eb7cc73037fec52ef9676
+  - ref: refs/heads/for-6.18/block
+    old: 7378b003e9e091b9ee69d0545a6468057e7dbc91
+    new: f85e254b51aeadf8dc367aaf2fbd2c20378f75c2
+    log: |
+         f85e254b51aeadf8dc367aaf2fbd2c20378f75c2 ublk: remove redundant zone op check in ublk_setup_iod()
+         
+  - ref: refs/heads/for-next
+    old: ffdc3eb40bcea56a94cfe47ab83db51cf2ff12c5
+    new: 9b05a4b96df4b0b292071c70bba5e75f17314880
+    log: |
+         f85e254b51aeadf8dc367aaf2fbd2c20378f75c2 ublk: remove redundant zone op check in ublk_setup_iod()
+         9b05a4b96df4b0b292071c70bba5e75f17314880 Merge branch 'for-6.18/block' into for-next
+         
