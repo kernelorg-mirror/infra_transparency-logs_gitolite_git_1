@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 24 Sep 2025 07:33:55 -0000
-Message-Id: <175869923502.2569008.10160385661405016930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 24 Sep 2025 07:35:13 -0000
+Message-Id: <175869931356.2572113.14083551747879548841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 65b593db4ccd297743094618af8aaea03a39a3b7
-    new: 6ff714a56b83d7aafec61dd837b8905f526c0cc4
+  - ref: refs/heads/experimental
+    old: 80b2ba447fb08a140162e2dafc57202ebc04e410
+    new: ab858f291a1ac654a328c01d8ccc4855b4c44cac
     log: |
-         32e4086b325abe4896fb2a6e1fb9484bcb6009b2 erofs: Add support for FS_IOC_GETFSLABEL
-         6ff714a56b83d7aafec61dd837b8905f526c0cc4 erofs: drop redundant sanity check for ztailpacking inline
+         ab858f291a1ac654a328c01d8ccc4855b4c44cac erofs-utils: dump: avoid SIGSEGV when time cannot be represented
          
