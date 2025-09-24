@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 24 Sep 2025 06:31:17 -0000
-Message-Id: <175869547736.2517595.11420835296240765124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 24 Sep 2025 06:39:33 -0000
+Message-Id: <175869597389.2523663.10183335940712651018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 8fe50c83a7cc9e9fef7ab8ecafc0b4d357bcdb4f
-    new: d54be55d7a5eb9ee0a758580079adb2808d71a25
+  - ref: refs/heads/for-6.18
+    old: ebfd5226ec365d0901d3ddee4aba9c737137645c
+    new: df10932ad740ba1f871b6dd2ddafc7dc8cea944f
     log: |
-         53de7ee4e28f6e866ac319b9db6e6c1b05664c32 btrfs: zoned: don't fail mount needlessly due to too many active zones
-         09abde49979e33ec033ee6dc09185f2afa899d39 btrfs: avoid potential out-of-bounds in btrfs_encode_fh()
-         d741e7c20daa20ff6e7d82bdfca83dc2b127c38d btrfs: === misc-next on b-for-next ===
-         c2d8e7036b0ff155f1847914e94921aff7084ebc Merge branch 'misc-6.17' into for-next-current-v6.16-20250924
-         c71dd5b4a25af9a97fc3bd575c7f98ed5b865e1d Merge branch 'b-for-next' into for-next-next-v6.17-20250924
-         4700e306d122345de1b883342a71a25e9da10776 Merge branch 'misc-next' into for-next-next-v6.17-20250924
-         aa59155b5d6eb22581eac46ee63e6f2cb4e51f51 Merge branch 'for-next-current-v6.16-20250924' into for-next-20250924
-         d54be55d7a5eb9ee0a758580079adb2808d71a25 Merge branch 'for-next-next-v6.17-20250924' into for-next-20250924
+         df10932ad740ba1f871b6dd2ddafc7dc8cea944f Revert "sched_ext: Use rhashtable_lookup() instead of rhashtable_lookup_fast()"
+         
+  - ref: refs/heads/for-next
+    old: 067ec8cfe3ae62d5175307a45134e071e10405a9
+    new: e343e82601f93d749fccef04c3af9d0e33fe311a
+    log: |
+         df10932ad740ba1f871b6dd2ddafc7dc8cea944f Revert "sched_ext: Use rhashtable_lookup() instead of rhashtable_lookup_fast()"
+         e343e82601f93d749fccef04c3af9d0e33fe311a Merge branch 'for-6.18' into for-next
          
