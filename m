@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2845168737774876886=="
+Content-Type: multipart/mixed; boundary="===============7046526515607282121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 24 Sep 2025 12:56:36 -0000
-Message-Id: <175871859674.2868185.617085392230441776@gitolite.kernel.org>
+Date: Wed, 24 Sep 2025 12:56:39 -0000
+Message-Id: <175871859945.2868290.7411019281632255593@gitolite.kernel.org>
 
---===============2845168737774876886==
+--===============7046526515607282121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
     old: 1e261dbea1bf6d74757496831dbf2eed9857140e
     new: e00d9eea60ad640825343ef0decd7bd5d17ffcf9
     log: revlist-1e261dbea1bf-e00d9eea60ad.txt
 
---===============2845168737774876886==
+--===============7046526515607282121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -92,4 +92,4 @@ be3979c363bd9e37ce43f41a50d647e0d811ed72 NFS: nfs_invalidate_folio() must observ
 7b147eb86523daf8fe507af88e2f17b0e96dcadd SUNRPC: call xs_sock_process_cmsg for all cmsg
 e00d9eea60ad640825343ef0decd7bd5d17ffcf9 NFSv4/flexfiles: Fix layout merge mirror check.
 
---===============2845168737774876886==--
+--===============7046526515607282121==--
