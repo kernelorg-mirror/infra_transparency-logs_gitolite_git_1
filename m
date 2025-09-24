@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3599751555638870927=="
+Content-Type: multipart/mixed; boundary="===============0841040263580014237=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 24 Sep 2025 16:07:43 -0000
-Message-Id: <175873006390.3038502.9415300443850465390@gitolite.kernel.org>
+Date: Wed, 24 Sep 2025 16:07:46 -0000
+Message-Id: <175873006635.3038671.11255872493170606953@gitolite.kernel.org>
 
---===============3599751555638870927==
+--===============0841040263580014237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: df1526752e0cd8db11b1fd4c1be3bd47409fd3ac
     new: dc1dea796b197aba2c3cae25bfef45f4b3ad46fe
     log: revlist-df1526752e0c-dc1dea796b19.txt
 
---===============3599751555638870927==
+--===============0841040263580014237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ f67e9ae72dd72ae37d186d68f7a9f9eb8082cd95 selftests: bridge_fdb_local_vlan_0: Tes
 e8ab231782e92bc26e5eb605263525636a2f7ae7 net: ethtool: tsconfig: set command must provide a reply
 dc1dea796b197aba2c3cae25bfef45f4b3ad46fe tcp: Remove stale locking comment for TFO.
 
---===============3599751555638870927==--
+--===============0841040263580014237==--
