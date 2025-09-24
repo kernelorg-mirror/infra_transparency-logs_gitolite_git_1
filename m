@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3381568941753957324=="
+Content-Type: multipart/mixed; boundary="===============1975672033154738448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 24 Sep 2025 21:59:04 -0000
-Message-Id: <175875114440.3354346.5936993522140699363@gitolite.kernel.org>
+Date: Wed, 24 Sep 2025 22:11:13 -0000
+Message-Id: <175875187377.3365772.14742937404004964621@gitolite.kernel.org>
 
---===============3381568941753957324==
+--===============1975672033154738448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: cdd28077e2089b250b65c737d5007e731dd9280c
     new: e42136a03dca4f11547aea8a53b64b6668b45fe0
     log: revlist-cdd28077e208-e42136a03dca.txt
 
---===============3381568941753957324==
+--===============1975672033154738448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ ef8e6a16b53efa5898a8ad59aabccd3d091f42c6 dt-bindings: arm: mediatek: Support mt8
 1b1a0ea3efa06ae8c316295dabc2590e30ab67e6 dt-bindings: soc: mediatek: pwrap: Add power-domains property
 e42136a03dca4f11547aea8a53b64b6668b45fe0 dt-bindings: trivial-devices: Add compatible string synaptics,synaptics_i2c
 
---===============3381568941753957324==--
+--===============1975672033154738448==--
