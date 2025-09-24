@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 24 Sep 2025 20:14:53 -0000
-Message-Id: <175874489344.3268440.6272866133337632627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 24 Sep 2025 20:17:04 -0000
+Message-Id: <175874502458.3271182.12168079608900841383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/nova/dev-bitstruct
-    old: 2326bdd0d0154664326235a11080a1eaa86ec864
-    new: b32d7e59ee65f3aa21afc5c467495cac8fd5703f
+  - ref: refs/heads/bleeding-edge
+    old: a8c1b12928d9e96266c0e5be1ec80959b4a9b35b
+    new: 29639a999ae1a7ba096163e5231bc92a435d6c85
     log: |
-         c040bf2edcf564f99dc79b7e65b2069df73d3a30 Remove from() since struct user can wrap directly.
-         b32d7e59ee65f3aa21afc5c467495cac8fd5703f Add hardening for out of bounds access
+         5cf952c54f3546f904ded645aecc1788d1090bd2 thermal: intel: int340x: Power Slider: Validate slider_balance range
+         3c40efe34ba9fb35c514c34150ff5a243ba4aee7 Merge branch 'thermal-intel' into bleeding-edge
+         cb12b12ed32626ee2fa6291ba9a90b20a958c5f5 PM: runtime: Documentation: ABI: Document time units for *_time
+         29639a999ae1a7ba096163e5231bc92a435d6c85 Merge branch 'pm-runtime' into bleeding-edge
          
