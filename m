@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 24 Sep 2025 16:13:24 -0000
-Message-Id: <175873040405.3044307.3683608588617213749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 24 Sep 2025 16:24:58 -0000
+Message-Id: <175873109898.3054962.8393125480117814926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 0489aaf1fd25b1505796a280180e820d084a9109
-    new: c7d3dd9163e6095b2d4d000433ccdc166c33aa3c
+  - ref: refs/heads/endpoint
+    old: 85afa9ea122dd9d4a2ead104a951d318975dcd25
+    new: b308dcd8b385f93c7d210be3a48aaa590739ba17
     log: |
-         8d18ef04f940a8d336fe7915b5ea419c3eb0c0a6 s390: vmlinux.lds.S: Reorder sections
-         0ce5139fd96e9d415d3faaef1c575e238f9bbd67 kbuild: always create intermediate vmlinux.unstripped
-         3e86e4d74c0490e5fc5a7f8de8f29e7579c9ffe5 kbuild: keep .modinfo section in vmlinux.unstripped
-         39cfd5b12160be4f57df1c3ba60139741c827616 kbuild: extract modules.builtin.modinfo from vmlinux.unstripped
-         b88f88c26705ad436ff9675258f76082dd43996a scsi: Always define blogic_pci_tbl structure
-         83fb49389bbe07defb85b063f7ff0fd016f06b35 modpost: Add modname to mod_device_table alias
-         5ab23c7923a1d2ae1890026866a2d8506b010a4a modpost: Create modalias for builtin modules
-         3328d39a8dca2d6ed27197a0025df7540b99adf2 kbuild: vmlinux.unstripped should always depend on .vmlinux.export.o
-         c7d3dd9163e6095b2d4d000433ccdc166c33aa3c Merge patch series "Add generated modalias to modules.builtin.modinfo"
+         b640d42a6ac9ba01abe65ec34f7c73aaf6758ab8 PCI: tegra194: Fix broken tegra_pcie_ep_raise_msi_irq()
+         82f1cc171ce95544c024837c20a54d1954a67a76 PCI: tegra194: Set pci_epc_features::msi_capable to true
+         308c6d4cf3ef9725054c431b1b8e3db0dc38de34 PCI: tegra194: Reset BARs when running in PCIe endpoint mode
+         b308dcd8b385f93c7d210be3a48aaa590739ba17 PCI: tegra194: Handle errors in BPMP response
          
