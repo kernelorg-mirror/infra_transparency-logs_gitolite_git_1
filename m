@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0445338750896286409=="
+Content-Type: multipart/mixed; boundary="===============6139253341395864160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 24 Sep 2025 19:35:12 -0000
-Message-Id: <175874251278.3235595.5428088142726607878@gitolite.kernel.org>
+Date: Wed, 24 Sep 2025 19:35:33 -0000
+Message-Id: <175874253357.3235947.15618368503916757582@gitolite.kernel.org>
 
---===============0445338750896286409==
+--===============6139253341395864160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-staging
-    old: 3e6874f16157d9778000957c8bec7279d34be303
-    new: 557f328c3c6ad9f49a36fc47dd4574e261138a39
-    log: revlist-3e6874f16157-557f328c3c6a.txt
+  - ref: refs/heads/testing
+    old: c073f611592a260a7e962987a7f140fb23d90936
+    new: 61284c4cdf8234783a24784272bebf0464892b06
+    log: revlist-c073f611592a-61284c4cdf82.txt
 
---===============0445338750896286409==
+--===============6139253341395864160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e6874f16157-557f328c3c6a.txt
+Content-Disposition: attachment; filename=revlist-c073f611592a-61284c4cdf82.txt
 
 22571172257a55c443f1a9306e963da4c6187e83 dt-bindings: dma: qcom: bam-dma: Add missing required properties
 5068b5254812433e841a40886e695633148d362d dmaengine: qcom: bam_dma: Fix DT error handling for num-channels/ees
@@ -691,5 +691,16 @@ f6030f4c94c99a251f855f8d40293c3dddd12600 Merge branch 'hwmon-max16065' into hwmo
 975c9f9181e6b252663fab5602c1a7da2343be18 Merge branch 'hwmon-fixes' into hwmon-staging
 87f20da599fcef650dc761aa28015362e06b5295 Merge branch 'hwmon-energy' into hwmon-staging
 557f328c3c6ad9f49a36fc47dd4574e261138a39 Merge branch 'hwmon-lock' into hwmon-staging
+387e7f705850a1f9fd45f4c6cff53226394dc127 possible circular locking dependency backtrace seen when enabling PREEMPT_RT
+6395ddda1c9f83d477fdf734d002e5ba6c38aee4 genirq/test: Fix depth tests on architectures with NOREQUEST by default.
+02574d8c54ba9582a57591047134a2494bba6c62 watchdog: intel_oc_wdt: Do not try to write into const memory
+e778f22d8edbcc1578f8681657c064341a3fc1b2 genirq/test: Select IRQ_DOMAIN
+9393e660e6167c32b54085235ac3517d60a7936a genirq/test: Factor out fake-virq setup
+db7fb1a2015b7b1feb47a5351f63001f3770c6f5 genirq/test: Fail early if we can't request an IRQ
+39320dae93b37a5acfbcf14247e22dc1d4617476 genirq/test: Depend on SPARSE_IRQ
+de45a6d135990216d5bdc7688940264e5065b583 genirq/test: Drop CONFIG_GENERIC_IRQ_MIGRATION assumptions
+7e2bdf3cc8ddbfb8529477eaf87ad0ca260105b9 genirq/test: Ensure CPU 1 is online for hotplug test
+f9893bf6fefb4647f4c27c1f9c98c3d48c9b036e Merge branch 'hwmon-staging' into testing
+61284c4cdf8234783a24784272bebf0464892b06 Merge branch 'fixes-v6.17' into testing
 
---===============0445338750896286409==--
+--===============6139253341395864160==--
