@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3078803653324647607=="
+Content-Type: multipart/mixed; boundary="===============7163620676223009025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 24 Sep 2025 16:00:05 -0000
-Message-Id: <175872960502.3031900.18439163363977426178@gitolite.kernel.org>
+Date: Wed, 24 Sep 2025 16:00:07 -0000
+Message-Id: <175872960740.3031981.8558102941820601778@gitolite.kernel.org>
 
---===============3078803653324647607==
+--===============7163620676223009025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3d3aa9472c6dd0704e9961ed4769caac5b1c8d52
     new: 181d981b14bf0722d879d5d69ea4e5e0b61c5d92
     log: revlist-3d3aa9472c6d-181d981b14bf.txt
 
---===============3078803653324647607==
+--===============7163620676223009025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ efb877cf27e300e47e1c051f4e8fd80fc42325d5 net/mlx5: HWS, ignore flow level for mu
 6d0477d0d067a53c1d48d0aff1fd52e151721871 net/mlx5e: Fix missing FEC RS stats for RS_544_514_INTERLEAVED_QUAD
 181d981b14bf0722d879d5d69ea4e5e0b61c5d92 Merge branch 'mlx5-misc-fixes-2025-09-22'
 
---===============3078803653324647607==--
+--===============7163620676223009025==--
