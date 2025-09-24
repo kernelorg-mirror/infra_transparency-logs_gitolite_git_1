@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 24 Sep 2025 12:26:44 -0000
-Message-Id: <175871680464.2842665.7276266176402223266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 24 Sep 2025 12:31:33 -0000
+Message-Id: <175871709385.2847103.12462225559698588165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/kdevops
-    old: 1ce40a90a86150f1e7cc5e1a66d028cbdea728c5
-    new: 4bcdd22ed97b39a807df37134379a15ccf5b9441
+  - ref: refs/heads/perf/core
+    old: 6d48436560e91be858158e227f21aab71698814e
+    new: 4f3f3f9aa9b0d68880fb2793e0a13b4c15488a44
     log: |
-         4bcdd22ed97b39a807df37134379a15ccf5b9441 nfsd: add dir attributes to the notifications
+         4f3f3f9aa9b0d68880fb2793e0a13b4c15488a44 x86/insn,uprobes,alternative: Unifiy insn_is_nop()
          
