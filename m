@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 24 Sep 2025 11:44:27 -0000
-Message-Id: <175871426753.2804432.16514787597872759137@gitolite.kernel.org>
+Date: Wed, 24 Sep 2025 11:45:21 -0000
+Message-Id: <175871432195.2806748.18067280859310377310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 6be988660b474564c77cb6ff60776dafcd850a18
-    new: 2cc6710595fb2b693e1e9da4521d9a438d653ad8
-    log: |
-         52aefc1e3c5fbdfdd216796fbe78443ae67e447f ASoC: dt-binding: Convert mt8183-afe-pcm to dt-schema
-         cf5be90ee4dfa3c38dc64fbcc4fb70fa0180b7b7 ASoC: Convert MT8183 DA7219 sound card to DT schema
-         82fd5dc99d63f948c59ac3b08137ef49125938bc ASoC: dt-binding: Convert MediaTek mt8183-mt6358 to DT schema
-         2cc6710595fb2b693e1e9da4521d9a438d653ad8 MediaTek devicetree/bindings warnings sanitization
-         
+  - ref: refs/heads/filenFjj6p
+    old: 0000000000000000000000000000000000000000
+    new: dc64b3d42cb361d4b39eb7cc73037fec52ef9676
