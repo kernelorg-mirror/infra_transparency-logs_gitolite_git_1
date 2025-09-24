@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 24 Sep 2025 00:43:14 -0000
-Message-Id: <175867459420.2223102.13247112397115794688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 24 Sep 2025 00:59:43 -0000
+Message-Id: <175867558329.2236630.14872385876883126489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/tpm-buf
-    old: cc9f6ff074012320b890a595b67793d5dd07f058
-    new: c33389f3c6e02ef35ac50470a116d22bc73215ca
+  - ref: refs/heads/main
+    old: f67e9ae72dd72ae37d186d68f7a9f9eb8082cd95
+    new: e8ab231782e92bc26e5eb605263525636a2f7ae7
     log: |
-         3d92f14c204d09babadaa0b7c7a82c40d11696d0 tpm: cap PCR bank in tpm2_get_pcr_allocations()
-         71393b6d7bf0f8a83799e58569abfcd47dd6dbda tpm: Make TPM buffer allocations more robust
-         aeb6fae44e3c93e212694a2f651fbec8eb9a1435 tpm: Use TPM_MIN_BUF_SIZE in driver commands
-         c33389f3c6e02ef35ac50470a116d22bc73215ca tpm: re-erchestrate tpm_get_random()
+         e8ab231782e92bc26e5eb605263525636a2f7ae7 net: ethtool: tsconfig: set command must provide a reply
          
