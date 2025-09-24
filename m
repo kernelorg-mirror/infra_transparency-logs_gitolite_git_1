@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0722218261084166283=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 24 Sep 2025 19:17:15 -0000
-Message-Id: <175874143541.3219091.18098718734046897515@gitolite.kernel.org>
-
---===============0722218261084166283==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 24 Sep 2025 19:20:58 -0000
+Message-Id: <175874165876.3222868.7819052512742606806@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dt/next
-    old: 3b93e2d02735674889a2b47f2d00773250834756
-    new: cdd28077e2089b250b65c737d5007e731dd9280c
-    log: revlist-3b93e2d02735-cdd28077e208.txt
-
---===============0722218261084166283==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b93e2d02735-cdd28077e208.txt
-
-f0d05f2df9ece68604d3a5871831095619763787 dt-bindings: display: mediatek: dpi: Allow specifying resets
-209cedd644f0f96a1dbc6c66c3a5f6392d679c2b dt-bindings: timer: mediatek: Add compatible for MT6795 GP Timer
-b94aeb17e7228bfb618ffb2fa0f481629edc5629 dt-bindings: pinctrl: mediatek,mt7622-pinctrl: Add missing pwm_ch7_2
-b3f311917a792c7beeb0d5e10f76dfe37e3affa5 dt-bindings: pinctrl: mediatek,mt7622-pinctrl: Add missing base reg
-c3e94de136dba0f68ef4d9c85a1bf72c9d214c2a dt-bindings: regulator: mediatek,mt6332-regulator: Add missing compatible
-dbdc60ef6dd743f35e48d11fe379c54d61a226b7 dt-bindings: regulator: mediatek,mt6331: Fix various regulator names
-564f33406db77184ccf4fdaf363cdb3f0e827754 dt-bindings: regulator: mediatek,mt6331: Add missing compatible
-f13c175e5211c935885228d36da50b4a56af53c8 dt-bindings: mailbox: mediatek,gce-mailbox: Make clock-names optional
-cbadd7cfdfe7b6d5eb768201b8a5fb1268fda4a8 dt-bindings: arm: mediatek: Support mt8183-audiosys variant
-cec91c7758f965bdf051cb3f832fa4873fade380 dt-bindings: media: Convert MediaTek mt8173-vpu bindings to DT schema
-82bc8474d6af8280327dc4fbece3de631e014489 dt-bindings: pinctrl: mt65xx: Allow gpio-line-names
-6e46c778d2c468d4a289fd81d1573c323d9abe5a dt-bindings: soc: mediatek: pwrap: Add power-domains property
-cdd28077e2089b250b65c737d5007e731dd9280c dt-bindings: trivial-devices: Add compatible string synaptics,synaptics_i2c
-
---===============0722218261084166283==--
+  - ref: refs/heads/master
+    old: cec1e6e5d1ab33403b809f79cd20d6aff124ccfe
+    new: 4ea5af08590825c79ba2f146482ed54443e22c28
+    log: |
+         8ffe28b4e8d8b18cb2f2933410322c24f039d5d6 cpufreq: Initialize cpufreq-based invariance before subsys
+         1cde0a74a7a8951b3097417847a458e557be0b5b smb: server: don't use delayed_work for post_recv_credits_work
+         f7f89250175e0a82e99ed66da7012e869c36497d smb: server: use disable_work_sync in transport_rdma.c
+         53de7ee4e28f6e866ac319b9db6e6c1b05664c32 btrfs: zoned: don't fail mount needlessly due to too many active zones
+         fd7d927587c7db5005d90623447c5d3b7750533d Merge tag '6.17-rc7-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+         74c7cc79aadf40fc14cfa04379693d2a3751e6e5 Merge tag 'for-6.17-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+         4ea5af08590825c79ba2f146482ed54443e22c28 Merge tag 'pm-6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+         
