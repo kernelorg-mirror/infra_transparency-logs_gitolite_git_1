@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Wed, 24 Sep 2025 13:14:28 -0000
-Message-Id: <175871966893.2882843.18120522408779143520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Wed, 24 Sep 2025 13:16:30 -0000
+Message-Id: <175871979005.2885793.11693433256225983251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/b4/uid_slot
+  - ref: refs/tags/nf-next-25-09-24
     old: 0000000000000000000000000000000000000000
-    new: 87b502098882192d5986bcaec909f9a44a45cce4
+    new: 1fca30b8cab1f799607613572239a86a1bdfe68b
