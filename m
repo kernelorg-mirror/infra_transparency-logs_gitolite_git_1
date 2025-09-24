@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 24 Sep 2025 03:34:20 -0000
-Message-Id: <175868486029.2370735.8517610185282251835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 24 Sep 2025 04:02:23 -0000
+Message-Id: <175868654300.2393659.11194455814300977599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/next
-    old: 37f03a747bb8ed014a9e018d709aff5af1fd3543
-    new: 7e93fe26caa9c010d438b267616793026db363b7
-    log: |
-         df4ff30339918659f0e03c57a01ff8303aed5d4d tpm_tis: Fix incorrect arguments in tpm_tis_probe_irq_single
-         e104ffe6b4723260c7decc0f517ce7a387ed8cc8 tpm: use a map for tpm2_calc_ordinal_duration()
-         7e93fe26caa9c010d438b267616793026db363b7 tpm: Prevent local DOS via tpm/tpm0/ppi/*operations
-         
+  - ref: refs/heads/for-6.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53de7ee4e28f6e866ac319b9db6e6c1b05664c32
