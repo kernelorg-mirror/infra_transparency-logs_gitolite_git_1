@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1459046580055206314=="
+Content-Type: multipart/mixed; boundary="===============3840577716566371724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 25 Sep 2025 15:22:08 -0000
-Message-Id: <175881372801.331762.4472394775197157573@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 15:22:10 -0000
+Message-Id: <175881373065.331842.15616166252190675028@gitolite.kernel.org>
 
---===============1459046580055206314==
+--===============3840577716566371724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: dc1dea796b197aba2c3cae25bfef45f4b3ad46fe
     new: 12de5f0f6c2d7aad7e60aada650fcfb374c28a5e
     log: revlist-dc1dea796b19-12de5f0f6c2d.txt
 
---===============1459046580055206314==
+--===============3840577716566371724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ f095a358faf263bf1d8ae712bd38e13b71286819 net: gro: remove unnecessary df checks
 5e9ff9378adcaff1efd19d31f7be946472df02f8 selftests/net: test ipip packets in gro.sh
 12de5f0f6c2d7aad7e60aada650fcfb374c28a5e Merge branch 'net-gso-restore-outer-ip-ids-correctly'
 
---===============1459046580055206314==--
+--===============3840577716566371724==--
