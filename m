@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Sep 2025 08:45:54 -0000
-Message-Id: <175878995475.3951597.12633245316396962715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 25 Sep 2025 08:51:22 -0000
+Message-Id: <175879028237.3956407.1052423140781368733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: b7e32ae6664285e156e9f0cd821e63e19798baf7
-    new: 764a47a639c73e8d941cbbb10696a0eb98d10d7b
+  - ref: refs/heads/experimental
+    old: 311d7594557f8f97357bdf5fae1984c7e31bf00a
+    new: 30c272ae63e77498c913e417f6bcec4f48d5cf50
     log: |
-         c0054b25e2f1045f47b4954cf13a539e5e6047df net: dsa: lantiq_gswip: move gswip_add_single_port_br() call to port_setup()
-         987afe147965ef7a8e7d144ffef0d70af14bb1d4 net: dsa: lantiq_gswip: suppress -EINVAL errors for bridge FDB entries added to the CPU port
-         764a47a639c73e8d941cbbb10696a0eb98d10d7b Merge branch 'lantiq_gswip-fixes'
+         30c272ae63e77498c913e417f6bcec4f48d5cf50 erofs-utils: mkfs: combine erofs_{mkfs,rebuild}_handle_inode
          
