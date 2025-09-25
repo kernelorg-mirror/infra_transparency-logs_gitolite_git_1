@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5443832484347244738=="
+Content-Type: multipart/mixed; boundary="===============8494035837376660540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 25 Sep 2025 14:05:38 -0000
-Message-Id: <175880913802.263717.3979016204838120890@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 14:05:53 -0000
+Message-Id: <175880915365.264026.15346103994223979068@gitolite.kernel.org>
 
---===============5443832484347244738==
+--===============8494035837376660540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: c239cb8a211022025b4bf29c8c5495bfa519af5a
-    new: b15411e5ecb13c61a6438b39996d8df6230c82b9
-    log: revlist-c239cb8a2110-b15411e5ecb1.txt
+  - ref: refs/heads/direct-io
+    old: fea9dd4f1f0c0519c508fe7125fc4206adecfc80
+    new: 949b6a56402c9ae282ae3e6f151182546aa6fc04
+    log: revlist-fea9dd4f1f0c-949b6a56402c.txt
 
---===============5443832484347244738==
+--===============8494035837376660540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c239cb8a2110-b15411e5ecb1.txt
+Content-Disposition: attachment; filename=revlist-fea9dd4f1f0c-949b6a56402c.txt
 
 db155b7c7c85b5f14edec21e164001a168581ffb NFSD: Disallow layoutget during grace period
 1c2be5cf5713387d72790491a2e66ab204e3dd81 NFSD: Allow layoutcommit during grace period
@@ -43,5 +43,9 @@ c869cc71f42122647149a411831043190a410a62 NFSD: Define actions for the new time_d
 9e3015f281e3a443abec2fd882541f260c272f34 svcrdma: Release transport resources synchronously
 67d1384d695679f6672766c76f707bb2c0b84afb nfsd: fix refcount leak in nfsd_set_fh_dentry()
 b15411e5ecb13c61a6438b39996d8df6230c82b9 siw: Enable try_gso
+bc70aaeba7df05d32c72f4b8994d07a0c53555e0 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+8ead87efa1056c6004cf105a2fd2b065fccfbb6f NFSD: pass nfsd_file to nfsd_iter_read()
+d2cc9c2fd82c9ab1b6681fed2fd9cf3241f3c096 NFSD: Relocate the xdr_reserve_space_vec() call site
+949b6a56402c9ae282ae3e6f151182546aa6fc04 NFSD: Implement NFSD_IO_DIRECT for NFS READ
 
---===============5443832484347244738==--
+--===============8494035837376660540==--
