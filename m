@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7807560783529205956=="
+Content-Type: multipart/mixed; boundary="===============0108547429354023354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 25 Sep 2025 16:38:41 -0000
-Message-Id: <175881832125.395882.10825820379788370871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Thu, 25 Sep 2025 16:38:52 -0000
+Message-Id: <175881833203.396124.9686470789302235312@gitolite.kernel.org>
 
---===============7807560783529205956==
+--===============0108547429354023354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: ef351f8e39375a12b64364e5cda7c62fb96a8566
-    new: 264a58e60c5c93b358818f523eb4911190c8b8d7
+  - ref: refs/heads/main
+    old: ccbd9b64d66652d779b6963bda29af84324e87b7
+    new: 69453579bef91dd2f55cc8eb45a3ef3a3266bda7
     log: |
-         b3a333f8ac1645b5f6a9d5f0a33c8523c1cedb94 USB: serial: oti6858: remove extranenous ; after comment
-         0e0ba0ecec3d6e819e0c2348331ff99afe2eb5d5 USB: serial: option: add SIMCom 8230C compositions
-         264a58e60c5c93b358818f523eb4911190c8b8d7 Merge tag 'usb-serial-6.18-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
+         bcddc725eef50d698129ee9641931e2d65076d7d iplink_can: fix coding style for pointer format
+         428767b96ca092723ded0d8e5701f13b02206715 rdma: fix minor style issue
+         69453579bef91dd2f55cc8eb45a3ef3a3266bda7 ip: fix minor style issue
          
 
---===============7807560783529205956==
+--===============0108547429354023354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758818374 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1758818318-61887f83467b0fc886b27d0ed71e591a989f5451
+pusher Stephen Hemminger <stephen@networkplumber.org> 1758818387 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1758818330-cedbf1f0d4d330843c24155d591eadc0a84c408d
 
-ef351f8e39375a12b64364e5cda7c62fb96a8566 264a58e60c5c93b358818f523eb4911190c8b8d7 refs/heads/usb-testing
+ccbd9b64d66652d779b6963bda29af84324e87b7 69453579bef91dd2f55cc8eb45a3ef3a3266bda7 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjVcEYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bmgQAL0UR3h9eB2pp9wuRPF4
-dfaBo1di/tSg4CbRH71IPBd9xUjTfedyLg9b53NhuNVfLKfDy0riz2yrWsK5kbVb
-Rv32DTpCXCrQeqCGGNL0S/8qPvOElO56G6DWycLc+bDJduEG+BOKLV5v/cUJfq2Q
-gvpMmr2xOgcOQnD2xvYSV2mPhLOkHTQogyCes8TVuBDU0LflAPcN3tYZSCL1U5IM
-MEXp7Ukft9aXp20GZO01Fw6y21X1Fztm7/be4bkzkXr9JeQVKK/TI4Vf4mdlSiSw
-A8aZ0Obm+ECU5f6/cCWWb2jCNuDxy8OiwEqMc5toNAPhhpZtOZUqQeLopkmEdQb4
-bn/R4yb3Di5Vdvr0k/diRECN4+Ptbw6iZiXLFjF3sVgA+WIA2uuv+OVo5q71zuFe
-xiy27sj3UFLKxiTuTj8C0QVnfBMBG9tLjqpvrMS2c+63x+LhHL4qn67qlJvpF8si
-Qc1cVV/qAZhCfvi6uPePIch3WGURtQBtk3IsbtY/SaTtgHJfnrobX5JBlfXb71A6
-JwAGSO87OcKqJFOx7uvGhHXaAN7Oj3JXpPqVnGz1G53sPSKdSZdRc3rzd5/LN3nq
-vj3ZoU5coeI6BwDY5DO/iVDFd+HKqyhXQzBeigf7DtgkYMDVIUaQetYoDzOQBQZX
-pNLhAcJSOjkspYzUyesVILqG
-=eDaC
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmjVcFMbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+ePgP/391UMJ6v5/9dvZw7rcT
+cNZg1uIS/oU144jY9QXGvwc5QGq8lQllOHRNawl9XWQaTYFUuZw5cndagsP58scS
+ePh9PEMum7yLHJIZatLZBgVCIDup7nCECptvQz0DtbWQOkuWOeSnMh/RWtyrwtba
+TbYTiBzknACt/rohZXN0GbtwAJiFqw47oFagf/ndGHSenEPjKHfipcdQ+e7u2nW8
+lwQ/gqQ2Bn8+qc3wD7nk+W3DhZyDZyc0RyP9Lhtr9EqyqdQgdym6vT1bcyZtOMps
+kBWPg2XKrV76OpMPVpmX2LrCzx/USk85FOyx4e9sI9+nxAGG9GheykfLEO9t9z/k
+hDtedfrVO3j/Ty2HePSkCsM7wwQYT/KJSZ5IFSgfG9uneKwVBllAO7dMWARKJbmV
+SrPFhEdwdtk8IF2MDE81nkqkMm1VhAueuYbpfPvEsjjnDZoo7JAH5ey4iV/vIKRY
+7Yb1y+GG1XcEK8KVcdaMerzwfqdWj6IeN9Y82JpGHqICbY8v+962HxeMnxAVNR7I
+xDZYvnO3OAqAHLKfClajwN6PoZq1DhbAanEuHDLQ3+jM9bDZyPp+QG3lAHp8dU9Y
+r1j0KWh/f+du8GgFaaQIz1PmLUoKY8fSJ6w4idXAuKDVTP3DbimwBPKueqYieLGp
+2oZbpIaCq6sA+x2P4ps/g8Ch
+=2BP4
 -----END PGP SIGNATURE-----
 
---===============7807560783529205956==--
+--===============0108547429354023354==--
