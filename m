@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Sep 2025 21:54:40 -0000
-Message-Id: <175883728052.714445.17018466624823539378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 25 Sep 2025 21:55:42 -0000
+Message-Id: <175883734292.716777.2416753483281059932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 9b5c111c3cd6e8248e750cc91bf0647278e8b98a
-    new: 1193c46c1745cf809dead55ece4f3baa728f316c
+    old: 69b814a56939c8a1356f59618418b528ac6fed1c
+    new: fdbecc93407b7609399fb6a9c7e4a39fe3a1ef58
     log: |
-         1193c46c1745cf809dead55ece4f3baa728f316c selftests/bpf: Test changing packet data from global functions with a kfunc
+         fdbecc93407b7609399fb6a9c7e4a39fe3a1ef58 foo
          
