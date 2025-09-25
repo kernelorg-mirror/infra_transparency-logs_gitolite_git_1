@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 25 Sep 2025 16:34:28 -0000
-Message-Id: <175881806842.391497.12919385600385630138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 25 Sep 2025 16:35:47 -0000
+Message-Id: <175881814778.393693.15227337895470557292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/kdevops
-    old: 5194a8f20850c760c9934de47c48d022d8499895
-    new: 6a0df33b1b2c47a6a60846bc460642ac68dbe101
+  - ref: refs/heads/controller/rcar-gen4
+    old: d96ac5bdc52b271b4f8ac0670a203913666b8758
+    new: d0bf8864a2fe2120a5da51e4bca3e11747a8e797
     log: |
-         6a0df33b1b2c47a6a60846bc460642ac68dbe101 SQUASH: fix refcount leak in nfsd_handle_dir_event()
+         23291403391180b0312405bb3d8fa8546124c643 PCI: rcar-gen4: Add missing 1ms delay after PWR reset assertion
+         1d45d0c80b9e8fd8167e0621146a32eecebd430f PCI: rcar-gen4: Assure reset occurs before DBI access
+         d0bf8864a2fe2120a5da51e4bca3e11747a8e797 PCI: rcar-gen4: Fix inverted break condition in PHY initialization
          
