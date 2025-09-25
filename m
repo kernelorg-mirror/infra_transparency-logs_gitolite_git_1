@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Thu, 25 Sep 2025 09:24:33 -0000
-Message-Id: <175879227372.4160161.7625135732520882763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfstests-dev
+Date: Thu, 25 Sep 2025 09:25:53 -0000
+Message-Id: <175879235302.4161075.8905993730441152091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/cem/xfstests-dev
+user: cem
 changes:
-  - ref: refs/tags/thunderbolt-for-v6.18-rc1
+  - ref: refs/heads/6_17
     old: 0000000000000000000000000000000000000000
-    new: 4e1d414178b40da1a2261687945e0f42e7146f72
+    new: eb66b51fca87f057752dce75c9e46ce794a51483
