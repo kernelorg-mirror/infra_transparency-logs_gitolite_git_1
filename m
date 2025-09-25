@@ -1,89 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============8869285320797903222=="
+Content-Type: multipart/mixed; boundary="===============0601233122940706429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 25 Sep 2025 16:36:02 -0000
-Message-Id: <175881816273.393923.6799883425747063059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 25 Sep 2025 16:37:07 -0000
+Message-Id: <175881822776.395058.5999880966316318793@gitolite.kernel.org>
 
---===============8869285320797903222==
+--===============0601233122940706429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: bf40f4b87761e2ec16efc8e49b9ca0d81f4115d8
-    new: 4ff71af020ae59ae2d83b174646fc2ad9fcd4dc4
-    log: revlist-bf40f4b87761-4ff71af020ae.txt
+  - ref: refs/heads/usb-testing
+    old: a4e143636d5def935dd461539b67b61287a8dfef
+    new: ef351f8e39375a12b64364e5cda7c62fb96a8566
+    log: revlist-a4e143636d5d-ef351f8e3937.txt
 
---===============8869285320797903222==
+--===============0601233122940706429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf40f4b87761-4ff71af020ae.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cd8ae32e4e4652db55bce6b9c79267d8946765a9 xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
-91d8a53db2199eefc73ecf3682e0665ea6895696 xfrm: fix offloading of cross-family tunnels
-a318eb807825d71900e212f5aab3469e86feff8e vhost-scsi: fix argument order in tport allocation error message
-55d225670def06b01af2e7a5e0446fbe946289e8 i40e: add validation for ring_len param
-aa68d3c3ac8d1dcec40d52ae27e39f6d32207009 i40e: fix idx validation in i40e_validate_queue_map
-f1ad24c5abe1eaef69158bac1405a74b3c365115 i40e: fix idx validation in config queues msg
-9739d5830497812b0bdeaee356ddefbe60830b88 i40e: fix input validation logic for action_meta
-877b7e6ffc23766448236e8732254534c518ba42 i40e: fix validation of VF state in get resources
-cb79fa7118c150c3c76a327894bb2eb878c02619 i40e: add max boundary check for VF filters
-eac04428abe9f9cb203ffae4600791ea1d24eb18 i40e: add mask to apply valid bits for itr_idx
-b99dd77076bd3fddac6f7f1cbfa081c38fde17f5 i40e: improve VF MAC filters accounting
-90beccb3e1287b8d596c4816530ef54df01aa11f vhost-net: unbreak busy polling
-4174152771bf0d014d58f7d7e148bb0c8830fe53 Revert "vhost/net: Defer TX queue re-enable until after sendmsg"
-e430451613c7a27beeadd00d707bcf7ceec6328e vhost-net: flush batched before enabling notifications
-6b696808472197b77b888f50bc789a3bae077743 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
-5cff263606a10102a0ea19ff579eaa18fd5577ad can: rcar_canfd: Fix controller mode setting
-38c0abad45b190a30d8284a37264d2127a6ec303 can: etas_es58x: populate ndo_change_mtu() to prevent buffer overflow
-ac1c7656fa717f29fac3ea073af63f0b9919ec9a can: hi311x: populate ndo_change_mtu() to prevent buffer overflow
-61da0bd4102c459823fbe6b8b43b01fb6ace4a22 can: sun4i_can: populate ndo_change_mtu() to prevent buffer overflow
-17c8d794527f01def0d1c8b7dc2d7b8d34fed0e6 can: mcba_usb: populate ndo_change_mtu() to prevent buffer overflow
-a3ed215cb2147e98981de5321fd1b1d0e3dceb1c Merge patch series "can: populate ndo_change_mtu() to prevent buffer overflow"
-c443be70aaee42c2d1d251e0329e0a69dd96ae54 can: peak_usb: fix shift-out-of-bounds issue
-1091860a16a86ccdd77c09f2b21a5f634f5ab9ec net: tun: Update napi->skb after XDP process
-a35c04de2565db191726b5741e6b66a35002c652 net/smc: fix warning in smc_rx_splice() when calling get_page()
-b65678cacc030efd53c38c089fb9b741a2ee34c8 ethernet: rvu-af: Remove slash from the driver name
-1c5091a9b4c990a6fcf8de7d0e97dba4cf878f17 Bluetooth: Fix build after header cleanup
-1488af7b8b5f9896ea88ee35aa3301713f72737c Bluetooth: hci_sync: Fix hci_resume_advertising_sync
-2e128683176a56459cef8705fc7c35f438f88abd Bluetooth: hci_event: Fix UAF in hci_conn_tx_dequeue
-9e622804d57e2d08f0271200606bd1270f75126f Bluetooth: hci_event: Fix UAF in hci_acl_create_conn_sync
-afe16653e05db07d658b55245c7a2e0603f136c0 vhost: Take a reference on the task in struct vhost_task.
-d6d673dd1e92b2bed0096e7e7e9fe5d7e7d2156c uapi: vduse: fix typo in comment
-a05e4e935a6689542d86162b33a484cc704ce39a virtio_config: clarify output parameters
-cde7e7c3f8745a61458cea61aa28f37c3f5ae2b4 MAINTAINERS, mailmap: Update address for Peter Hilber
-302a1f674c00dd5581ab8e493ef44767c5101aab Bluetooth: MGMT: Fix possible UAFs
-6e6c88d85623dc0c5c3faf185c12bd723efde5ee broadcom: fix support for PTP_PEROUT_DUTY_CYCLE
-3200fdd4021de1d182fa3b6db5ad936d519f3848 broadcom: fix support for PTP_EXTTS_REQUEST2 ioctl
-cd875625b475dc4e28ac302ccb3422cc9f678f89 ptp: document behavior of PTP_STRICT_FLAGS
-207b45e8533f9a5b3206b6a85a984464e646b0e1 Merge branch 'broadcom-report-the-supported-flags-for-ancillary-features'
-3491bb7dae5c3899b52f9a2329a9d25b79c2b0fb Merge tag 'for-net-2025-09-22' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-91fc61775c57da3f5145abf80d047c4eb181c68a Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-a461b2fe3e0f5264d11bed6039b2531b8f5ec648 Merge tag 'ipsec-2025-09-22' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-3d3aa9472c6dd0704e9961ed4769caac5b1c8d52 bnxt_en: correct offset handling for IPv6 destination address
-16d93558e12a03488d59562343e944f27ff4b9f3 Merge tag 'linux-can-fixes-for-6.17-20250923' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-ca9f9cdc4de97d0221100b11224738416696163c net: allow alloc_skb_with_frags() to use MAX_SKB_FRAGS
-390b3a300d7872cef9588f003b204398be69ce08 nexthop: Forbid FDB status change while nexthop is in a group
-c29913109c70383cdf90b6fc792353e1009f24f5 selftests: fib_nexthops: Fix creation of non-FDB nexthops
-00af023d90f9087ed5a371302ab442ed5736c3b7 selftests: fib_nexthops: Add test cases for FDB status change
-0efdfbba2e59626b9e924efba2a50b36d14bc276 Merge branch 'nexthop-various-fixes'
-6043819e707cefb1c9e59d6e431dcfa735c4f975 net/mlx5: fs, fix UAF in flow counter release
-efb877cf27e300e47e1c051f4e8fd80fc42325d5 net/mlx5: HWS, ignore flow level for multi-dest table
-6d0477d0d067a53c1d48d0aff1fd52e151721871 net/mlx5e: Fix missing FEC RS stats for RS_544_514_INTERLEAVED_QUAD
-181d981b14bf0722d879d5d69ea4e5e0b61c5d92 Merge branch 'mlx5-misc-fixes-2025-09-22'
-b7e32ae6664285e156e9f0cd821e63e19798baf7 libie: fix string names for AQ error codes
-c0054b25e2f1045f47b4954cf13a539e5e6047df net: dsa: lantiq_gswip: move gswip_add_single_port_br() call to port_setup()
-987afe147965ef7a8e7d144ffef0d70af14bb1d4 net: dsa: lantiq_gswip: suppress -EINVAL errors for bridge FDB entries added to the CPU port
-764a47a639c73e8d941cbbb10696a0eb98d10d7b Merge branch 'lantiq_gswip-fixes'
-d9c70e93ec5988ab07ad2a92d9f9d12867f02c56 octeontx2-pf: Fix potential use after free in otx2_tc_add_flow()
-93a274456158f178aa713fbb60642e0094e6065e Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-4ff71af020ae59ae2d83b174646fc2ad9fcd4dc4 Merge tag 'net-6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1758818279 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1758818223-a0c14b48c84074cbe209ddab5fc8a66ea2350094
 
---===============8869285320797903222==--
+a4e143636d5def935dd461539b67b61287a8dfef ef351f8e39375a12b64364e5cda7c62fb96a8566 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjVb+cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K8cQAI5XzF+N3NOMceE/teon
+X1sxKhxevhEQRLxm/GRz1EYlZtB1clGyjC/QzXY1b1suQigPzT6fpDlKucN6iV5k
+vzUIB4LmnVMMXx7Uq9Fr6HCcRZiYJ0LnhHLyyymDETGmuQoOKwV+NbHUBFSx27BX
+QBaQHXbQZHC27EaSgpgxIqGAoQqU+g36NA43WSRLexW5zMkBOmpFlLNf+hpRTh0F
+DpxQ1iHp1XKpGn1neoXltUhaGitEo4ERRFCjD0//A1FC9WJ6/EOd9RLlddVEC5nx
+LSX0VIcduSj/fq4/3EoLMoIEE1bQ+yA5XBs48YFgsflOoo2kcjpwkE2G7xQc2csv
+Dbx854uOHwnvrxuQatXDRA08i7zI/MzQLmF85bxbm75ba95F6xh6xuL7VnD8L2eC
+nYW8run41zSmxDb19UKd7O3o/dZwXzYcr8Bm1jBCl3fvXf5mnYzUJsUrbiwblDyS
+LqfGZ88PW97EHkBqCLINzyTAsMdwO1DzXwKevJOFDz3ISb493bbSY+0V0uXdAoT0
+X0P9fKOlrerBW4qaUVfshvNQ7m8EK+fs1EFzpSCpolFy0/C5o6FnYtv2OAYNPn9/
+5fpomHAbZd+JMhcIQlowt1uRS/ce8tZGZKwM9p1Y0AiER467JDYGoECEl45BD9mK
+kYBvXerUT28lpeUBg8b1afme
+=Wdnr
+-----END PGP SIGNATURE-----
+
+--===============0601233122940706429==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a4e143636d5d-ef351f8e3937.txt
+
+dced755df3bc49e417ee4de45eec89bf5570b192 thunderbolt: Compare HMAC values in constant time
+0eff12ce88e1e77c465cbaa22d450fd268cd9b74 thunderbolt: Use HMAC-SHA256 library instead of crypto_shash
+aaa76d1cbd73a7e8ddb9d92423b017eb98d2b335 thunderbolt: Use Linux Foundation IDs for XDomain discovery
+5d03847175e81e86d4865456c15638faaf7c0634 thunderbolt: Use is_pciehp instead of is_hotplug_bridge
+b06578497e6f32fa181235f5a64746c7d40259e6 thunderbolt: Use string choices helpers
+00f2bf97544cdc7e5b166d19f896f5eaa2bb02ae MAINTAINERS: Update Michael Jamet's maintainer entries
+1fac4d003fd6895599053f8f046139108fba68b8 thunderbolt: Update acpi.c function documentation
+c0a078d7bc008d27f06cfc6bb05d311158d4b3b9 thunderbolt: Update cap.c function documentation
+66cf14cc9fdf2a9747bdaf2a629e3a510d31a3de thunderbolt: Update clx.c function documentation
+38f33b8e2cc2d3d3bae88dd5b4546e4f38cda3be thunderbolt: Update ctl.c function documentation
+12cb68e48691ffb6700ef0d8dceae7b4739b8dea thunderbolt: Add missing documentation in ctl.h tb_cfg_request struct
+a84be45d332ae69b1ed1ef82143d98936b14201d thunderbolt: Update dma_port.c function documentation
+250afc7f396d456a3458cc9160cf44990474c644 thunderbolt: Update domain.c function documentation
+728ab0e4a0ca78f550ca59d9267e0b2835f523fa thunderbolt: Update eeprom.c function documentation
+4815b7548cf669b402919d592583a1ad00de9305 thunderbolt: Update lc.c function documentation
+a38523805007a7498a4cbc56239ffb7709826179 thunderbolt: Update nhi.c function documentation
+bbbca9bfd1720d5eaeede878d63a171e34ea4b9b thunderbolt: Add missing documentation in nhi_regs.h ring_desc structure
+fe83a27383ca0a95022f5b5807e8516d4d7554fe thunderbolt: Update nvm.c function documentation
+a6e3f939ada8c4502bb9264adce106f5f2c9d51d thunderbolt: Update path.c function documentation
+d015642ad36d78e6eba12d8ab96cea6fd4602b49 thunderbolt: Update property.c function documentation
+f72f4d5cdb1ddbc323df6c3f638dd2499c038bef thunderbolt: Update retimer.c function documentation
+207b8a260578b3240f1501feb75376e4b00706b1 thunderbolt: Update switch.c function documentation
+d05cc39d1d2b9df8cd86ca24c21f36408a5c72a7 thunderbolt: Update tb.c function documentation
+978a3d608f9f162ba2f0fa3c392ce8adaa171c95 thunderbolt: Update tb.h function documentation
+b30234f27396c915547fa5905dcf79e5e9be3ff6 thunderbolt: Add missing documentation in tb.h
+371c2374449db296675a865c46cde54336ff2ef7 thunderbolt: Update tmu.c function documentation
+6f3ed985b7d1e4950f1f63139f32a7d889e4aaee thunderbolt: Update tunnel.c function documentation
+e262b91b223a237fa87c83ce1b4e4e2dafd053ad thunderbolt: Update tunnel.h function documentation
+9a5abaf8be02aeedd8f374b253da472f9eedfbf1 thunderbolt: Update usb4.c function documentation
+a2ba553cd45a5fb33f0edc6dd8c6b5280cad4ab0 thunderbolt: Update usb4_port.c function documentation
+81a1962cb281636a95c49f02ef57d37deb6ceb8f thunderbolt: Update xdomain.c function documentation
+ea6bb47fd6a4c5a332f9349c39bf7462e3e7a35b thunderbolt: Update thunderbolt.h header file
+67600ccfc4f38ebd331b9332ac94717bfbc87ea7 thunderbolt: Fix use-after-free in tb_dp_dprx_work
+ef351f8e39375a12b64364e5cda7c62fb96a8566 Merge tag 'thunderbolt-for-v6.18-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
+
+--===============0601233122940706429==--
