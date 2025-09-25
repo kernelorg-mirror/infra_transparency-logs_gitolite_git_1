@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8122369307150314322=="
+Content-Type: multipart/mixed; boundary="===============6135101093633223038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 25 Sep 2025 15:18:05 -0000
-Message-Id: <175881348581.326635.15032589067361366590@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 15:18:27 -0000
+Message-Id: <175881350751.326918.12738371887242944891@gitolite.kernel.org>
 
---===============8122369307150314322==
+--===============6135101093633223038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: dc1dea796b197aba2c3cae25bfef45f4b3ad46fe
-    new: 12de5f0f6c2d7aad7e60aada650fcfb374c28a5e
-    log: revlist-dc1dea796b19-12de5f0f6c2d.txt
+  - ref: refs/heads/dev-queue
+    old: 1cac4d3a9d6ab7c5bf52248f558cd2a41b820094
+    new: de7895365ed67e2f5f30662530c6fed32c6e5124
+    log: revlist-1cac4d3a9d6a-de7895365ed6.txt
 
---===============8122369307150314322==
+--===============6135101093633223038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc1dea796b19-12de5f0f6c2d.txt
+Content-Disposition: attachment; filename=revlist-1cac4d3a9d6a-de7895365ed6.txt
 
 54728bd535fb3899ad51489dc1e05eb5bb53cb95 bpf: Return an error pointer for skb metadata when CONFIG_NET=n
 2dfd8b8de66d9b0ef16d089e4d4525acf2a59cb2 Merge branch 'bpf-next/skb-meta-dynptr' into 'bpf-next/net'
@@ -68,5 +68,60 @@ bb6a22651b893c08c7855b34aa618b2a71bece9e eth: fbnic: Read module EEPROM
 f095a358faf263bf1d8ae712bd38e13b71286819 net: gro: remove unnecessary df checks
 5e9ff9378adcaff1efd19d31f7be946472df02f8 selftests/net: test ipip packets in gro.sh
 12de5f0f6c2d7aad7e60aada650fcfb374c28a5e Merge branch 'net-gso-restore-outer-ip-ids-correctly'
+cc63dc6758d7d39d445bc421076254e5854b0c4f ice: fix lane number calculation
+85fc93825d455730409e007d35ab260b6121164c ice: Allow 100M speed for E825C SGMII device
+e71d480b7d50b67a76f8f41dce216eb547630e9e i40e: add validation for ring_len param
+3ca24147d5bb46a3fd77e48c7fe1d85a11c1f483 i40e: fix idx validation in i40e_validate_queue_map
+e09544ed9f38b838a35c33277a85fe6bf583db5d i40e: fix idx validation in config queues msg
+81a175550d236ac7b9c6914c307d99c6af6e9683 i40e: fix input validation logic for action_meta
+ebb81778c2d42081c34d812172eedc28fec7ffe8 i40e: fix validation of VF state in get resources
+931ddf5845d9672ea8e675af84aafe15e5d7131a i40e: add max boundary check for VF filters
+27d9244b7ad97ec360fba975ed26243648f3ca3b i40e: add mask to apply valid bits for itr_idx
+3e21a5c555e4142985e649dad12b0296c403d543 i40e: improve VF MAC filters accounting
+ebb4964af9cff1b28b609700f599efbaf6fdf277 idpf: cleanup remaining SKBs in PTP flows
+9b4e47be113d78a74721bed33d33c8e803e27c56 ice: Fix enable_cnt imbalance on resume
+09818bda175d3540766472b7d7c49ac705bd2fbc ice: Fix enable_cnt imbalance on PCIe error recovery
+ce889abc802b7521eaa8d8a86eab433fca5f1801 i40e: Fix enable_cnt imbalance on PCIe error recovery
+ed714a1db142b8f1b91376d03fd0b965267828e3 ixgbevf: fix getting link speed data for E610 devices
+86819c87eb5085e49dee51dc093681e72c8e92bf ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
+92b6000736533cbfeead93a5af63a46aaa160e10 ixgbevf: fix mailbox API compatibility by negotiating supported features
+c30cab858dd3c862db760d29e97bd5f7839782db ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
+deb07f323d7c32bfeb49024169eb19d62783cc5a ice: add flow parsing for GTP and new protocol field support
+1d674171eeb3884ac045929ca2dbbd1527469122 ice: add virtchnl and VF context support for GTP RSS
+9c3850c581af9d8648e148453e5c8c5fea922bdc ice: improve TCAM priority handling for RSS profiles
+a839e929eff9da1e9ecc2e0386cde812377a20b4 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
+31731ee2b14560259971f85d487d17ae93b5fae5 iavf: add RSS support for GTP protocol via ethtool
+cf178586d90dbe4c32d7cadaf6d3b58739cc0aa6 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+82ce3854c014d6c0dd54d82c9cd3930eb6fcee8b ixgbe: fix too early devlink_free() in ixgbe_remove()
+5ab1f8cafa1c05653c9bc41fabb63347ee76ecf7 idpf: add support for IDPF PCI programming interface
+4b1e9ef5e5e9dce865eb601684e4cb4f481dbc16 ice: add recovery clock and clock 1588 control for E825c
+ecf622d78dd925ded2348b83d8b59e6f83abc52a devlink: Add new "max_mac_per_vf" generic device param
+b7b7d7c5692a06d85881ba929fca88bfeed4fcd5 i40e: support generic devlink param "max_mac_per_vf"
+71eba5f1b08dca9d7a3b3b16739afe16ee4364b8 e1000e: Introduce private flag to disable K1
+388e0cbc3da6a3b13819015f0a2db36a08935bda idpf: add virtchnl functions to manage selected queues
+ac72510838651f49a702c679ba9b209d4975eeb6 idpf: add XSk pool initialization
+b2d9f14aec4175d2fd2f8a51a42d2cc4e3ec074a idpf: implement XSk xmit
+e3fc8e96b80a7decebc2de7d8173324f3e40ef50 idpf: implement Rx path for AF_XDP
+3ef80e41c3bdfe3a65d2e119c8d7d7c36caf9895 idpf: enable XSk features and ndo_xsk_wakeup
+304436915b6384cceaf6f66df6d86a440bc28872 idpf: convert vport state to bitmap
+33b5525254e5a7ea640afcadcdd367f9df031134 idpf: fix possible race in idpf_vport_stop()
+2dbf5f278bae58aed84773ff94be9ed0610e2684 libie: fix string names for AQ error codes
+7aa4e0d4740e6a704518f10c2527a91ba2d5c1b3 ice: enforce RTNL assumption of queue NAPI manipulation
+dd00b19009143b1b05a04847f2d995f49c9fa919 ice: move service task start out of ice_init_pf()
+19e9fabfc4c459883729c56568fa34edac111e51 ice: move ice_init_interrupt_scheme() prior ice_init_pf()
+e6048bf545a85feb9836dd3faed81db324ceb4b1 ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
+ca420117ffc4d5d61ac094effb888f19bfcac224 ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
+e991b11acbbf4eecbc44de76d968e171f7511037 ice: move ice_init_pf() out of ice_init_dev()
+3ddf627843f87dd2beaf71c448b01d60bdd6aeca ice: extract ice_init_dev() from ice_init()
+4fbf7e9b71ef8285a72f19044bd85f0b6ef62b1c ice: move ice_deinit_dev() to the end of deinit paths
+5a1f8ff3b1a13092c2133137bae42f98ebcb6c38 ice: remove duplicate call to ice_deinit_hw() on error paths
+c881e3e206aa11bb190daec83ddd1f702bfb4933 net: docs: add missing features that can have stats
+3d1fedd24c133bb1d525dcc4b4316dd78def17b2 ice: implement ethtool standard stats
+555a1a35131cd93fcc6ebdae73fa84956acbb4d8 ice: add tracking of good transmit timestamps
+be90c88a1a847c2f1ca4c328007e91357a57dbe8 ice: implement transmit hardware timestamp statistics
+0425c26b069e2b13d120b8e394067f2ce390230d ice: refactor to use helpers
+47aa4a008ccb4bf8620d808284517527fc89171c igc: power up the PHY before the link test
+ea91e905ec7752f75fc49d78d042cc78d19f639d ixgbe: preserve RSS indirection table across admin down/up
+de7895365ed67e2f5f30662530c6fed32c6e5124 idpf: remove duplicate defines in IDPF_CAP_RSS
 
---===============8122369307150314322==--
+--===============6135101093633223038==--
