@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2373974734133514151=="
+Content-Type: multipart/mixed; boundary="===============7217609626142710608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 25 Sep 2025 07:34:11 -0000
-Message-Id: <175878565111.3837422.3401408041404235964@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 07:34:49 -0000
+Message-Id: <175878568969.3838043.9117281132098557798@gitolite.kernel.org>
 
---===============2373974734133514151==
+--===============7217609626142710608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 103265a1a936cfe910c9ac0f0ab153f7dac818ba
-    new: 09e1f689e111e781bf827e21a8f8f1e944802637
-    log: revlist-103265a1a936-09e1f689e111.txt
+    old: 09e1f689e111e781bf827e21a8f8f1e944802637
+    new: afe922c9f90d05475d07333923ce52f233c1ebe5
+    log: revlist-09e1f689e111-afe922c9f90d.txt
 
---===============2373974734133514151==
+--===============7217609626142710608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-103265a1a936-09e1f689e111.txt
+Content-Disposition: attachment; filename=revlist-09e1f689e111-afe922c9f90d.txt
 
-06ea48beece831a8447758e5432ad1cd60765363 ARM: dts: allwinner: Minor whitespace cleanup
-85f5d8e369c24d678442f6bb4ec5bbdc431a09d9 ARM: dts: armada-370-db: Fix stereo audio input routing on Armada 370
-2aeadea47f5bdec94d04b890bc9a0d25a1340fa8 ARM64: dts: mcbin: fix SATA ports on Macchiatobin
-9a52827a9bbbabb461e87bb41174a96a82c0e8ae reset: eyeq: fix OF node leak
-ea9da67e2add7bd5f1e4b38dc2404480e711f4d8 ARM: dts: socfpga: sodia: Fix mdio bus probe and PHY address
-41194ee115685ec2dbbb80e20d1090cc3a4c64d8 arm64: dts: rockchip: Add vcc supply for SPI Flash on NanoPC-T6
-0f860eef417df93eb0ae70bbfa8d26cb7e29244d arm64: dts: rockchip: Fix the headphone detection on the orangepi 5
-a5d7a8ab4b21747173a2f8f0ebf71d72692793c3 riscv: dts: allwinner: rename devterm i2c-gpio node to comply with binding
-b2461e20fa9ac18b1305bba5bc7e22ebf644ea01 firmware: imx: Add stub functions for SCMI MISC API
-3fb91b5c86d0fb5ff6f65c30a4f20193166e22fe firmware: imx: Add stub functions for SCMI LMM API
-222accf05fc42f68ae02065d9c1542c20315118b firmware: imx: Add stub functions for SCMI CPU API
-d79c3eb59780369e57fc9cd325c703e4f3c55210 ARM: imx: Kconfig: Adjust select after renamed config option
-a50342f976d25aace73ff551845ce89406f48f35 arm64: dts: imx8mp: Correct thermal sensor index
-29341c6c18b8ad2a9a4a68a61be7e1272d842f21 ARM: dts: kirkwood: Fix sound DAI cells for OpenRD clients
-d3021e6aa11fecdafa85038a037c04d5bfeda9d5 arm64: dts: marvell: cn913x-solidrun: fix sata ports status
-48b51799a5461707705454568453618cdd7307f4 arm64: dts: marvell: cn9132-clearfog: disable eMMC high-speed modes
-794a066688038df46c01e177cc6faebded0acba4 arm64: dts: marvell: cn9132-clearfog: fix multi-lane pci x2 and x4 ports
-f1a43af7a9ecf276e698cd4c32f6bacee0b6df49 Merge tag 'mvebu-fixes-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
-bab62f5bdce4d88e8adb7deb1b9632c93ad1f205 Merge tag 'reset-fixes-for-v6.17' of https://git.pengutronix.de/git/pza/linux into arm/fixes
-32687c06637562511f7a1c1a651c0d9964aa144c Merge tag 'socfpga_dts_fix_for_v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
-6865ed7ddc815861e52f3692890852fe6043baea Merge tag 'imx-fixes-6.17-2' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-6131690df4adae33e01c0b51b9b78b3e8ed3b76f firmware: tegra: Do not warn on missing memory-region property
-07db1def8f0aad25612b35377b63aa20b032c86d MAINTAINERS: remove Alyssa Rosenzweig
-8ffe28b4e8d8b18cb2f2933410322c24f039d5d6 cpufreq: Initialize cpufreq-based invariance before subsys
-1cde0a74a7a8951b3097417847a458e557be0b5b smb: server: don't use delayed_work for post_recv_credits_work
-f7f89250175e0a82e99ed66da7012e869c36497d smb: server: use disable_work_sync in transport_rdma.c
-53de7ee4e28f6e866ac319b9db6e6c1b05664c32 btrfs: zoned: don't fail mount needlessly due to too many active zones
-5eba504bb2b387404901deb5932da835ee74ba8b Merge tag 'sunxi-fixes-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-ea38dfdd38e150130779defc01fd0f58b570a5be Merge tag 'apple-soc-fixes-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sven/linux into arm/fixes
-6866b785666030e73ceb25d6754880568b33bfa7 Merge tag 'v6.17-rockchip-dtsfixes2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-13923775d5b0b47656e800bec7baf50a20474aaf Merge tag 'tegra-for-6.17-firmware-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
-c539feff3c8f8c86213eee2b237410714712c326 tracing: fprobe: Fix to remove recorded module addresses from filter
-456c32e3c4316654f95f9d49c12cbecfb77d5660 tracing: dynevent: Add a missing lockdown check on dynevent
-1f6113ae5ac4927fe80256154ebb0461e670fa85 x86/boot: Drop erroneous __init annotation from early_set_pages_state()
-fd7d927587c7db5005d90623447c5d3b7750533d Merge tag '6.17-rc7-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-74c7cc79aadf40fc14cfa04379693d2a3751e6e5 Merge tag 'for-6.17-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-4ea5af08590825c79ba2f146482ed54443e22c28 Merge tag 'pm-6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-ea78c190810ecd2c9dfb6d22b52fc670a38e8836 Merge tag 'soc-fixes-6.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-d0ca0df179c4b21e2a6c4a4fb637aa8fa14575cb crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
-bf40f4b87761e2ec16efc8e49b9ca0d81f4115d8 Merge tag 'probes-fixes-v6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-7e48ccce67018fd1f7b2a39fa30abbf326dc2b5c Merge branch into tip/master: 'x86/apic'
-09e1f689e111e781bf827e21a8f8f1e944802637 Merge branch 'linus'
+10a9538fdb78e913140bf741d5d4dab353d2ed1b Merge branch into tip/master: 'core/urgent'
+f60c78ff728021306e1eb56b417db8027c78e6b3 Merge branch into tip/master: 'locking/urgent'
+d4284a54b2f6d152f9d22bf7cc9623403a3dc20d Merge branch into tip/master: 'sched/urgent'
+55cf4ffa9fa68cbdba7d198a481bf7325eed3863 Merge branch into tip/master: 'x86/urgent'
+9ea602f42be83d7eb0ae8876a2a4f7fb59a3f26e Merge branch into tip/master: 'core/bugs'
+1362fca5dde01ace0313a8db81414a5612cdc86c Merge branch into tip/master: 'core/core'
+ef863e43e3f87cdb456882859f5f507157d77686 Merge branch into tip/master: 'core/rseq'
+52bf1a387c80659bd925fafcf9b66276b1eef886 Merge branch into tip/master: 'irq/core'
+f4504f795418ddcb0e990500a5deacea02018d6f Merge branch into tip/master: 'irq/drivers'
+63698ba2f120d55b72c67db7c21e8af1d9ff1753 Merge branch into tip/master: 'locking/core'
+d76e1ed6b631e4ab2c43b0e080ab0e3840fffb24 Merge branch into tip/master: 'locking/futex'
+03e0de0b350cca0ce63c183884d7309855604e9f Merge branch into tip/master: 'perf/core'
+95d472497441c85e7d834202bf03c469d828a3f1 Merge branch into tip/master: 'ras/core'
+1e14f448b3c09b769db463ba3428c39a879010f7 Merge branch into tip/master: 'sched/core'
+ffbbb84b62243fc3541ca0b3693953e329ab3363 Merge branch into tip/master: 'smp/core'
+59ec62b554b12bb3957960ccd2a9b9db58b31593 Merge branch into tip/master: 'timers/clocksource'
+d142748d4dace9022d530aaca8ea217fe7831c40 Merge branch into tip/master: 'timers/core'
+a6d51e52f6c38aaf5389dd30b0e9a7b4ae09ac33 Merge branch into tip/master: 'timers/vdso'
+6310d9e95fdf02cd3f9730a7aaf19f263be037a2 Merge branch into tip/master: 'x86/apic'
+ccda987725cc9c3f1904c45f72667481ec59f906 Merge branch into tip/master: 'x86/asm'
+7b4568661d43e906964aa144f01e34b3e7bfb050 Merge branch into tip/master: 'x86/bugs'
+af8c1eccf9e2ffc318e5641b0a27a4d0e7986943 Merge branch into tip/master: 'x86/build'
+64670b8073ec5c80378b1c1556f4a036e33347ba Merge branch into tip/master: 'x86/cache'
+bdc7e80fa85db87e1186854e17513d7bcee0b209 Merge branch into tip/master: 'x86/cleanups'
+493c30476bdc108f3e15a9b6c922b442ffccd37a Merge branch into tip/master: 'x86/core'
+166359a1372e905144196642eddb1683ed2e5997 Merge branch into tip/master: 'x86/cpu'
+38fa2938afd6c5485fad01013c8e20bc3cee651d Merge branch into tip/master: 'x86/entry'
+d23b5f761dd487300a65471d820fb09a31b0dd8d Merge branch into tip/master: 'x86/microcode'
+b2835cb0af019044bd451d22b22ab30399033d15 Merge branch into tip/master: 'x86/misc'
+7f3782720fe5da929c0bfea66556cd7ee8884ca2 Merge branch into tip/master: 'x86/mm'
+afe922c9f90d05475d07333923ce52f233c1ebe5 Merge branch into tip/master: 'x86/tdx'
 
---===============2373974734133514151==--
+--===============7217609626142710608==--
