@@ -1,20 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Sep 2025 21:30:19 -0000
-Message-Id: <175883581933.695085.9817893819761320385@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8881965349847916521=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Thu, 25 Sep 2025 21:39:31 -0000
+Message-Id: <175883637155.701452.13299140599394835217@gitolite.kernel.org>
+
+--===============8881965349847916521==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/master
-    old: 5730dacb3f172858ca47b8b1aeab083b5713f24b
-    new: 9b5c111c3cd6e8248e750cc91bf0647278e8b98a
-    log: |
-         bc8712f2b5250825968e6b0c3d2709a4b9d5d570 bpf: Emit struct bpf_xdp_sock type in vmlinux BTF
-         9b5c111c3cd6e8248e750cc91bf0647278e8b98a selftests/bpf: Test changing packet data from global functions with a kfunc
-         
+  - ref: refs/heads/for-linus
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: f32a26fab3672e60f622bd7461bf978fc72f29ec
+    log: revlist-8f5ae30d69d7-f32a26fab367.txt
+
+--===============8881965349847916521==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-f32a26fab367.txt
+
+44fd3e4fc9cdd49c0db170459c3eed9977aae9e7 MAINTAINERS: update location of hfs&hfsplus trees
+9282bc905f0949fab8cf86c0f620ca988761254c hfsplus: return EIO when type of hidden directory mismatch in hfsplus_fill_super()
+738d5a51864ed8d7a68600b8c0c63fe6fe5c4f20 hfs: validate record offset in hfsplus_bmap_alloc
+4840ceadef4290c56cc422f0fc697655f3cbf070 hfsplus: fix KMSAN uninit-value issue in __hfsplus_ext_cache_extent()
+c62663a986acee7c4485c1fa9de5fc40194b6290 hfs: make proper initalization of struct hfs_find_data
+2048ec5b98dbdfe0b929d2e42dc7a54c389c53dd hfs: fix KMSAN uninit-value issue in hfs_find_set_zero_bits()
+9b3d15a758910bb98ba8feb4109d99cc67450ee4 hfsplus: fix KMSAN uninit-value issue in hfsplus_delete_cat()
+a06ec283e125e334155fe13005c76c9f484ce759 hfs: add logic of correcting a next unused CNID
+18b07c44f245beb03588b00b212b38fce9af7cc9 hfs: clear offset and space out of valid records in b-tree node
+bea3e1d4467bcf292c8e54f080353d556d355e26 hfsplus: fix slab-out-of-bounds read in hfsplus_uni2asc()
+42520df65bf67189541a425f7d36b0b3e7bd7844 hfsplus: fix slab-out-of-bounds read in hfsplus_strcasecmp()
+f32a26fab3672e60f622bd7461bf978fc72f29ec hfs/hfsplus: rework debug output subsystem
+
+--===============8881965349847916521==--
