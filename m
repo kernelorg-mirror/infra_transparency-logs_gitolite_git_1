@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8760426411547750560=="
+Content-Type: multipart/mixed; boundary="===============0501501463399046812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 25 Sep 2025 10:12:42 -0000
-Message-Id: <175879516288.58484.3964802619361252493@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 10:12:44 -0000
+Message-Id: <175879516434.58559.6010024364435529360@gitolite.kernel.org>
 
---===============8760426411547750560==
+--===============0501501463399046812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: f6c67c0b17ba144b75f5924e9c8c2c45742c07c0
-    new: 16f553dff68a4de293a15661085daff350efed98
-    log: revlist-f6c67c0b17ba-16f553dff68a.txt
+  - ref: refs/heads/mm-stable
+    old: 473b73222f3d8cc66bcd840bf9c3260619620789
+    new: 89a3ecca49ee889cc1ab4def6caa0452df196efb
+    log: revlist-473b73222f3d-89a3ecca49ee.txt
 
---===============8760426411547750560==
-Content-Type: text/plain; charset="utf-8"
+--===============0501501463399046812==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f6c67c0b17ba-16f553dff68a.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-473b73222f3d-89a3ecca49ee.txt
 
 af6703838ecb1513efdd2502a8f7bb6472c5ce96 mm: specify separate file and vm_file params in vm_area_desc
 f7a741c53b712542aedd9382f215fbe969f8a580 mm: do not assume file == vma->vm_file in compat_vma_mmap_prepare()
@@ -37,40 +37,5 @@ fde591dad10900b9b4af07a532b5f91c53b20e25 mm/oom_kill.c: fix inverted check
 0389c305ef56cbadca4cbef44affc0ec3213ed30 selftests/mm: skip soft-dirty tests when CONFIG_MEM_SOFT_DIRTY is disabled
 20571b187051e5b78b48b99c9bdd425c94b29e18 kho: move sanity checks to kho_restore_page()
 89a3ecca49ee889cc1ab4def6caa0452df196efb kho: make sure page being restored is actually from KHO
-8cec3f8b8d8a467c8956394eb6295c0acf183631 hung_task: fix warnings caused by unaligned lock pointers
-852b29a07ff89a463d7365c6c5f47d58f1fc2fa4 mm/hugetlb: fix folio is still mapped when deleted
-35426771bf9b3b6810b1ede3d2534ad1079cb19d kasan: fix warnings caused by use of arch_enter_lazy_mmu_mode()
-471cb43189ef25d745527a6cb6a48ed56620ed54 kasan-fix-warnings-caused-by-use-of-arch_enter_lazy_mmu_mode-fix
-8aeebce7de1b364dbf0b2afc485eef8bec6dcee4 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
-d2cc5d9bf5f01f200cede0b628d155ef663a74c3 kmsan: fix out-of-bounds access to shadow memory
-e0417c0bcf2f6ffe68faec6930636321e76c85b0 fs/proc/task_mmu: check p->vec_buf for NULL
-d699d7642ffd491b9cef93c6aafaa27116fbfdfe mm/thp: fix MTE tag mismatch when replacing zero-filled subpages
-1df10c5be559363fbfb9bf81dcc1bc27a9fcc5fb mm/damon/sysfs: do not ignore callback's return value in damon_sysfs_damon_call()
-a511ed2b25af327be0d192e736c115120908f09e mailmap: add entry for Bence Csókás
-1f0182fe6588110478dcc01be6b351f9f08e6b37 foo
-5e57bc7cffb98157deb964f4f4323803ca30d6f5 mm/compaction: fix low_pfn advance on isolating hugetlb
-845ec784d7f801084a696ac28daddabac8033f09 mm/memory-failure: support disabling soft offline for HugeTLB pages
-1afca4e695356026955b847849ea1be7bf4919a1 mm/page_vma_mapped: track if the page is mapped across page table boundary
-93acfca1ffdcd5ca523ac58547371e58d9c54b10 mm-page_vma_mapped-track-if-the-page-is-mapped-across-page-table-boundary-fix
-cd395fa5553a4eea8f4f475e00e5a95e3144872a mm/rmap: fix a mlock race condition in folio_referenced_one()
-5cdd7775abcff38724be9f68000909be8458db23 mm-rmap-fix-a-mlock-race-condition-in-folio_referenced_one-fix
-e4b632ffd23845b5ba215991a854ca55876233aa mm/rmap: mlock large folios in try_to_unmap_one()
-c82d4ab29c522f707c13428dc963101238a2cde1 mm-rmap-mlock-large-folios-in-try_to_unmap_one-fix
-21a3b9d51c12a00e01a2f6c908fa3888639fe33d mm/fault: try to map the entire file folio in finish_fault()
-4ea99f7c18bf56303507d135ddfcd03e55a0eaaf mm/filemap: map entire large folio faultaround
-f49000a4e6c816903561b3a3a63de855f71ce22c mm/rmap: improve mlock tracking for large folios
-eafcf3838aa68ed8197ba6e3ee124d24f7c5a4e6 mm/memory_hotplug: fix typo 'esecially' -> 'especially'
-4b6d7d0c07a21620759337a4a88ba5901187eacc mm: remove PMD alignment constraint in execmem_vmalloc()
-e09d0f281dc1a69139156bbae4ceb6e666f59b79 drivers/base/node: fix double free in register_one_node()
-d6c1620beb9a78e6bfd71c19e4e8379e04db8ba4 mm/ksm: fix incorrect KSM counter handling in mm_struct during fork
-43cd99febc2cf3c1b3ab248c879464d2ec023591 selftests/mm: add fork inheritance test for ksm_merging_pages counter
-466557b65f0d53a939f3eaf83ed52f211301c988 hugetlb: increase number of reserving hugepages via cmdline
-c3b4c4e62080c2293ba018f4aac88b02e00856c9 mm/ksm: get mm_slot by mm_slot_entry() when slot is !NULL
-ec37fe1a32cceec1a040161a1ecbca955a38566e mm/khugepaged: remove definition of struct khugepaged_mm_slot
-5ff49de93566518cc94db91536a3891971112823 mm-khugepaged-remove-definition-of-struct-khugepaged_mm_slot-fix
-73c766b383d5c068a91a99ab589a0b9cfbb1eff1 mm/memory-failure: don't select MEMORY_ISOLATION
-381cd9c338c43222c8cccfde91a412ae19069e5b mm/khugepaged: use start_addr/addr for improved readability
-20a22e16c0b52156a90554c2491205945f526b9d mm: convert folio_page() back to a macro
-16f553dff68a4de293a15661085daff350efed98 mm: swap: check for stable address space before operating on the VMA
 
---===============8760426411547750560==--
+--===============0501501463399046812==--
