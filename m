@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 25 Sep 2025 16:41:28 -0000
-Message-Id: <175881848807.400057.5807559175707181659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 25 Sep 2025 16:44:00 -0000
+Message-Id: <175881864009.401098.4767232971553881301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/controller/tegra
-    old: 4f152338e384a3a47dd61909e1457539fa93f5a4
-    new: 39ec28d01d565030aa28d87a212d201c252c072e
-    log: |
-         39ec28d01d565030aa28d87a212d201c252c072e PCI: tegra: Convert struct tegra_msi::mask_lock into raw spinlock
-         
+  - ref: refs/heads/20250925_kuninori_morimoto_gx_asoc_renesas_msiof_tidyup_to_remove_each_errors
+    old: 0000000000000000000000000000000000000000
+    new: e26387e950ee4486b4ed5728b5d3c1430c33ba67
