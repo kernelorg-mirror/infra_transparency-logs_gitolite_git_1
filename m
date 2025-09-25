@@ -1,103 +1,174 @@
-Content-Type: multipart/mixed; boundary="===============7116413168697163897=="
+Content-Type: multipart/mixed; boundary="===============5753387469841624926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 25 Sep 2025 12:41:29 -0000
-Message-Id: <175880408983.185312.1641898903838033175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Thu, 25 Sep 2025 12:44:24 -0000
+Message-Id: <175880426437.187127.14152716690275233495@gitolite.kernel.org>
 
---===============7116413168697163897==
+--===============5753387469841624926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: broonie
 changes:
-  - ref: refs/heads/rdma-next
-    old: 2a215b8c0f05454a0ab955f4225872a57b71e100
-    new: 1bcce8048669d846eb09beeb59f13f0ad63e90e6
-    log: revlist-2a215b8c0f05-1bcce8048669.txt
+  - ref: refs/heads/fs-current
+    old: 3166017aa0d5922eb8f43bece44d80a4f624740e
+    new: 80b80c4c775445d7391ffb032b5d527dc3786988
+    log: revlist-3166017aa0d5-80b80c4c7754.txt
+  - ref: refs/heads/fs-next
+    old: c54644c3221b6230a9fc0f9f09630b4ef7a6bd79
+    new: bf53ef8c4acd22e7f7bf13a02fd82c0158cd586d
+    log: revlist-c54644c3221b-bf53ef8c4acd.txt
 
---===============7116413168697163897==
+--===============5753387469841624926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a215b8c0f05-1bcce8048669.txt
+Content-Disposition: attachment; filename=revlist-3166017aa0d5-80b80c4c7754.txt
 
-604f202bc9ebf9d8a96caec3375a7ba3bcf149b2 RDMA/bnxt_re: Add debugfs info entry for device and resource information
-7fcf00bd7f30540cf7096c8f2fadab5d890d4cf2 RDMA/bnxt_re: Remove non-statistics counters from hw_counters
-4bab6d9584497191c449212c85799de4d84a1263 RDMA/irdma: Fix positive vs negative error codes in irdma_post_send()
-880245fd029a8f8ee8fd557c2681d077c1b1a959 RDMA/irdma: Remove unused struct irdma_cq fields
-fb0b08297ecb429b60cb2b6ed40632ce5294220c RDMA/bnxt_re: improve clarity in ALLOC_PAGE handler
-5ba23b4f51a1cf570bde33ff58ba1be195a94479 net/sched: Don't print dump stack in event of transmission timeout
-02d7df7982abc0dea01f8179ce2cd4d4db6b6c91 RDMA/mlx5: Add debugfs to dump MR cache state
-47686857c3f26c64cd3c8a5a695e80c67c21a264 RDMA/core: Introduce peer memory interface
-9eb14c644b0f3beb8e14eba197fe80f4a1f48d24 TEMP: Increase lockdep depth
-6ea9e2363effca1ee683dfd9b76b6b090014fc30 TEMP: Increase MAX_LOCKDEP_ENTRIES size
-3d40bf12477d1e2e014ff4c999ea1b046268bccf xfrm: advance SEQ number in non-ESN mode
-3aa79a5745aeb554fd344485ceb70d44e7b17e34 xfrm: advance SEQ number in ESN mode
-6d63e8e3e5766d65cd87aa2ebe045f09e670f6c0 xfrm: advance SEQ number in BMP mode
-0b176ab6c7dad693aaa506020b1eea6d4bb7dbef rds: rely on IB/core to determine if device is ODP capable
-271726cb23d1bcaa59f595515d61fe0bd0161171 swiotlb: Enrich message about buffer overflow
-597157b5df0b459e4d277864f41b4f886878b344 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
-1fec5beb7e3327a1c3b78aaeeca4bd6b3889348d xfrm: skip templates check for packet offload tunnel mode
-b2beca121af45b4a6fffde25953e9db1c19342fc sched/topology: Correct "sched_domains_curr_level" in topology_span_sane()
-7a7080edf52ed7e41097c8583fd70005eacb0854 net/mlx5: Refactor devcom to return NULL on failure
-faf1b500f57f4ff6f76beab4f88422acc7563abb net/mlx5: Fix IPsec cleanup over MPV device
-eadcf526c54df1b9cad93b864fb1768bf242b992 net/mlx5: Add OTHER_ESWITCH HW capabilities
-7bca65dc122e8f63c8d6880e07052df25c0de4cb net/mlx5: fs, Add other_eswitch support for steering tables
-da1df61644197d882dc12ccdf4beb2d976449812 net/mlx5: fs, set non default device per namespace
-fc4d48201b694f8d95e98f998571f2697e5a97f3 RDMA/mlx5: Change default device for LAG slaves in RDMA TRANSPORT namespaces
-cbcba26a1f00be2015fa9d697d577a217a795f1b RDMA/mlx5: Add other_eswitch support for devx destruction
-622176952c973b8ee5e427c5204dfac1cce70872 RDMA/mlx5: Refactor _get_prio() function
-3e6e4c6e88fa7f4b3912f5a9cc2cfc94fa793be3 RDMA/mlx5: Add other eswitch support to userspace tables
-73cc7bcc8e3e45cb4568d097dae5e1d575b8dcb4 IB/mlx5: Fix obj_type mismatch for SRQ event subscriptions
-a1a4d7830a7fb12cd1df3cff088a967cc6e622d7 dma-debug: don't enforce dma mapping check on noncoherent allocations
-5b52eaca42725b46506ebd7044032817d8c91413 IB/mlx5: Reduce IMR KSM size when 5-level paging is enabled
-e5f2a24694c5e0b4145969abc9d5a65ce4b3e51c dma-mapping: introduce new DMA attribute to indicate MMIO memory
-5a5684b01f58a6fc91ac019a742bdafc5051e1ff iommu/dma: implement DMA_ATTR_MMIO for dma_iova_link().
-1745c0688cfa999f7fcef1c869a25918f0681108 dma-debug: refactor to use physical addresses for page mapping
-44f5bf79f7c2449a6d3091d9154670afab1a9e69 dma-mapping: rename trace_dma_*map_page to trace_dma_*map_phys
-33e5c4657e577cb4761b9da7724c291d401a10e4 iommu/dma: rename iommu_dma_*map_page to iommu_dma_*map_phys
-f47bbe7fe7993b1e34c569288653b640fb2a9b9c iommu/dma: implement DMA_ATTR_MMIO for iommu_dma_(un)map_phys()
-1e519a396b8aa92831f53803b78dd015faf77d54 dma-mapping: convert dma_direct_*map_page to be phys_addr_t based
-2ef9b4b18e685c66090366d3a9c4cad89a4c5d58 kmsan: convert kmsan_handle_dma to use physical addresses
-82372931810ebc82703b282e397ad15666fc0e4c dma-mapping: implement DMA_ATTR_MMIO for dma_(un)map_page_attrs()
-b0baa41a66bb2beaa35e9e1cc8f9ce1cf2f6d9dc xen: swiotlb: Open code map_resource callback
-07fa33b700be83fb27fc8db08191e4f334fc3817 dma-mapping: export new dma_*map_phys() interface
-2da367db433d7eb21ae4a40e81c8fbf84ee19ee4 mm/hmm: migrate to physical address-based DMA mapping API
-44687fd00280160213894dec12c65822aa4607c1 mm/hmm: properly take MMIO path
-a3a7d4c5096f6e116a6ed5c34fbcd03af0fa9314 block-dma: migrate to dma_map_phys instead of map_page
-0c2dfa090b6e6a70c8170b22baed993993eab122 block-dma: properly take MMIO path
-e9f665a4e985c6b5812897daaed817313c7a93ef nvme-pci: unmap MMIO pages with appropriate interface
-3ae95fe8fd5753cd8394387e6c67611128224235 PCI/P2PDMA: Separate the mmap() support from the core logic
-ce571cf4ddad1f9d4876365fc3c6ffb9321558a4 PCI/P2PDMA: Simplify bus address mapping API
-c0ff0e595a0270dd78c5bc59495cb4eea1549bd4 PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
-8729f6fe93fb4853ead43db2bc90c19d167294e7 PCI/P2PDMA: Export pci_p2pdma_map_type() function
-2b6201f613a3938d99bbf1601cdbb5edd52b1c00 types: move phys_vec definition to common header
-cdd270a567abaacc87a3f8deef414d479ad5b17e vfio: Export vfio device get and put registration helpers
-da7b662e0fb4988133ae6010f557211cc091618e vfio/pci: Add dma-buf export config for MMIO regions
-d466039a8a5586d0a8d8d4f9347ea8eac89fca04 vfio/pci: Enable peer-to-peer DMA transactions by default
-95273b3c60be890e27ecc57bf41a6d4d1e3c62bd vfio/pci: Share the core device pointer while invoking feature functions
-2c7ab9505a77d9fb3c65ca9b240cace36c9ce920 vfio/pci: Add dma-buf export support for MMIO regions
-62a72dec4e57bdeb2a5ff56c02df68653649a0f4 PCI/P2PDMA: Reduce scope of pci_has_p2pmem function
-ad4d79545576a82df2240785ecd188e206a3686a kmsan: fix missed kmsan_handle_dma() signature conversion
-e5fbf03c342089a228c5d1c8b8341a3425947313 dma-mapping: prepare dma_map_ops to conversion to physical address
-637fa59d3f89f21adea528b4204273e9806947be dma-mapping: convert dummy ops to physical address mapping
-0dbe83a40c14e3baf158469f77f839cb1681cd00 ARM: dma-mapping: Reduce struct page exposure in arch_sync_dma*()
-37706da4f7c80251752c150e5b7d228f96272fd3 ARM: dma-mapping: Switch to physical address mapping callbacks
-eea16960b87b5da35aaa2acbe561d2fa9118e1c4 xen: swiotlb: Switch to physical address mapping callbacks
-6070eab417f842619dcefec8196415cc96ae6417 dma-mapping: remove unused mapping resource callbacks
-d7b94bc2f9982ea682b37a5f5c1da4226e847f9a alpha: Convert mapping routine to rely on physical address
-0024cc2797445abd48d4e27d0a62d9122527f762 MIPS/jazzdma: Provide physical address directly
-53b792ed6fa71960bea577bfd6c520de43447c28 parisc: Convert DMA map_page to map_phys interface
-663544baf0c7aaf6cfb4a988425bd0a372f0c6b3 powerpc: Convert to physical address DMA mapping
-9cca161ab74b7437879581b2b39d14d5aded3250 sparc64: Use physical address DMA mapping
-fec7b27a825d5f6cb83d09f0bb1774bc0937b6ba x86: Use physical address for DMA mapping
-f321bc86cf202fb03995b3b498175fc37129ed24 vdpa: Convert to physical address DMA mapping
-8abffd6ac4750acfd30a8cc33e08ec8a4c3fc476 xen: swiotlb: Convert mapping routine to rely on physical address
-1bcce8048669d846eb09beeb59f13f0ad63e90e6 dma-mapping: remove unused map_page callback
+06ea48beece831a8447758e5432ad1cd60765363 ARM: dts: allwinner: Minor whitespace cleanup
+85f5d8e369c24d678442f6bb4ec5bbdc431a09d9 ARM: dts: armada-370-db: Fix stereo audio input routing on Armada 370
+2aeadea47f5bdec94d04b890bc9a0d25a1340fa8 ARM64: dts: mcbin: fix SATA ports on Macchiatobin
+9a52827a9bbbabb461e87bb41174a96a82c0e8ae reset: eyeq: fix OF node leak
+ea9da67e2add7bd5f1e4b38dc2404480e711f4d8 ARM: dts: socfpga: sodia: Fix mdio bus probe and PHY address
+41194ee115685ec2dbbb80e20d1090cc3a4c64d8 arm64: dts: rockchip: Add vcc supply for SPI Flash on NanoPC-T6
+0f860eef417df93eb0ae70bbfa8d26cb7e29244d arm64: dts: rockchip: Fix the headphone detection on the orangepi 5
+a5d7a8ab4b21747173a2f8f0ebf71d72692793c3 riscv: dts: allwinner: rename devterm i2c-gpio node to comply with binding
+b2461e20fa9ac18b1305bba5bc7e22ebf644ea01 firmware: imx: Add stub functions for SCMI MISC API
+3fb91b5c86d0fb5ff6f65c30a4f20193166e22fe firmware: imx: Add stub functions for SCMI LMM API
+222accf05fc42f68ae02065d9c1542c20315118b firmware: imx: Add stub functions for SCMI CPU API
+d79c3eb59780369e57fc9cd325c703e4f3c55210 ARM: imx: Kconfig: Adjust select after renamed config option
+a50342f976d25aace73ff551845ce89406f48f35 arm64: dts: imx8mp: Correct thermal sensor index
+29341c6c18b8ad2a9a4a68a61be7e1272d842f21 ARM: dts: kirkwood: Fix sound DAI cells for OpenRD clients
+d3021e6aa11fecdafa85038a037c04d5bfeda9d5 arm64: dts: marvell: cn913x-solidrun: fix sata ports status
+48b51799a5461707705454568453618cdd7307f4 arm64: dts: marvell: cn9132-clearfog: disable eMMC high-speed modes
+794a066688038df46c01e177cc6faebded0acba4 arm64: dts: marvell: cn9132-clearfog: fix multi-lane pci x2 and x4 ports
+f1a43af7a9ecf276e698cd4c32f6bacee0b6df49 Merge tag 'mvebu-fixes-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
+bab62f5bdce4d88e8adb7deb1b9632c93ad1f205 Merge tag 'reset-fixes-for-v6.17' of https://git.pengutronix.de/git/pza/linux into arm/fixes
+32687c06637562511f7a1c1a651c0d9964aa144c Merge tag 'socfpga_dts_fix_for_v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
+6865ed7ddc815861e52f3692890852fe6043baea Merge tag 'imx-fixes-6.17-2' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+6131690df4adae33e01c0b51b9b78b3e8ed3b76f firmware: tegra: Do not warn on missing memory-region property
+07db1def8f0aad25612b35377b63aa20b032c86d MAINTAINERS: remove Alyssa Rosenzweig
+8ffe28b4e8d8b18cb2f2933410322c24f039d5d6 cpufreq: Initialize cpufreq-based invariance before subsys
+1cde0a74a7a8951b3097417847a458e557be0b5b smb: server: don't use delayed_work for post_recv_credits_work
+f7f89250175e0a82e99ed66da7012e869c36497d smb: server: use disable_work_sync in transport_rdma.c
+5eba504bb2b387404901deb5932da835ee74ba8b Merge tag 'sunxi-fixes-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+ea38dfdd38e150130779defc01fd0f58b570a5be Merge tag 'apple-soc-fixes-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sven/linux into arm/fixes
+6866b785666030e73ceb25d6754880568b33bfa7 Merge tag 'v6.17-rockchip-dtsfixes2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+13923775d5b0b47656e800bec7baf50a20474aaf Merge tag 'tegra-for-6.17-firmware-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
+c539feff3c8f8c86213eee2b237410714712c326 tracing: fprobe: Fix to remove recorded module addresses from filter
+456c32e3c4316654f95f9d49c12cbecfb77d5660 tracing: dynevent: Add a missing lockdown check on dynevent
+fd7d927587c7db5005d90623447c5d3b7750533d Merge tag '6.17-rc7-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+74c7cc79aadf40fc14cfa04379693d2a3751e6e5 Merge tag 'for-6.17-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+4ea5af08590825c79ba2f146482ed54443e22c28 Merge tag 'pm-6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+ea78c190810ecd2c9dfb6d22b52fc670a38e8836 Merge tag 'soc-fixes-6.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+d0ca0df179c4b21e2a6c4a4fb637aa8fa14575cb crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
+bf40f4b87761e2ec16efc8e49b9ca0d81f4115d8 Merge tag 'probes-fixes-v6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+9158c6bb245113d4966df9b2ba602197a379412e afs: Fix potential null pointer dereference in afs_put_server
+807cf49eef13ed619583e755efe2b8ef451b77a9 Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+169498d9a253571c36560f6b996cfee181231494 Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+80b80c4c775445d7391ffb032b5d527dc3786988 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
 
---===============7116413168697163897==--
+--===============5753387469841624926==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c54644c3221b-bf53ef8c4acd.txt
+
+06ea48beece831a8447758e5432ad1cd60765363 ARM: dts: allwinner: Minor whitespace cleanup
+85f5d8e369c24d678442f6bb4ec5bbdc431a09d9 ARM: dts: armada-370-db: Fix stereo audio input routing on Armada 370
+2aeadea47f5bdec94d04b890bc9a0d25a1340fa8 ARM64: dts: mcbin: fix SATA ports on Macchiatobin
+9a52827a9bbbabb461e87bb41174a96a82c0e8ae reset: eyeq: fix OF node leak
+ea9da67e2add7bd5f1e4b38dc2404480e711f4d8 ARM: dts: socfpga: sodia: Fix mdio bus probe and PHY address
+41194ee115685ec2dbbb80e20d1090cc3a4c64d8 arm64: dts: rockchip: Add vcc supply for SPI Flash on NanoPC-T6
+0f860eef417df93eb0ae70bbfa8d26cb7e29244d arm64: dts: rockchip: Fix the headphone detection on the orangepi 5
+a5d7a8ab4b21747173a2f8f0ebf71d72692793c3 riscv: dts: allwinner: rename devterm i2c-gpio node to comply with binding
+b2461e20fa9ac18b1305bba5bc7e22ebf644ea01 firmware: imx: Add stub functions for SCMI MISC API
+3fb91b5c86d0fb5ff6f65c30a4f20193166e22fe firmware: imx: Add stub functions for SCMI LMM API
+222accf05fc42f68ae02065d9c1542c20315118b firmware: imx: Add stub functions for SCMI CPU API
+d79c3eb59780369e57fc9cd325c703e4f3c55210 ARM: imx: Kconfig: Adjust select after renamed config option
+a50342f976d25aace73ff551845ce89406f48f35 arm64: dts: imx8mp: Correct thermal sensor index
+29341c6c18b8ad2a9a4a68a61be7e1272d842f21 ARM: dts: kirkwood: Fix sound DAI cells for OpenRD clients
+d3021e6aa11fecdafa85038a037c04d5bfeda9d5 arm64: dts: marvell: cn913x-solidrun: fix sata ports status
+48b51799a5461707705454568453618cdd7307f4 arm64: dts: marvell: cn9132-clearfog: disable eMMC high-speed modes
+794a066688038df46c01e177cc6faebded0acba4 arm64: dts: marvell: cn9132-clearfog: fix multi-lane pci x2 and x4 ports
+f1a43af7a9ecf276e698cd4c32f6bacee0b6df49 Merge tag 'mvebu-fixes-6.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
+bab62f5bdce4d88e8adb7deb1b9632c93ad1f205 Merge tag 'reset-fixes-for-v6.17' of https://git.pengutronix.de/git/pza/linux into arm/fixes
+32687c06637562511f7a1c1a651c0d9964aa144c Merge tag 'socfpga_dts_fix_for_v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
+6865ed7ddc815861e52f3692890852fe6043baea Merge tag 'imx-fixes-6.17-2' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+6131690df4adae33e01c0b51b9b78b3e8ed3b76f firmware: tegra: Do not warn on missing memory-region property
+07db1def8f0aad25612b35377b63aa20b032c86d MAINTAINERS: remove Alyssa Rosenzweig
+8ffe28b4e8d8b18cb2f2933410322c24f039d5d6 cpufreq: Initialize cpufreq-based invariance before subsys
+5eba504bb2b387404901deb5932da835ee74ba8b Merge tag 'sunxi-fixes-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+ea38dfdd38e150130779defc01fd0f58b570a5be Merge tag 'apple-soc-fixes-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sven/linux into arm/fixes
+6866b785666030e73ceb25d6754880568b33bfa7 Merge tag 'v6.17-rockchip-dtsfixes2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+13923775d5b0b47656e800bec7baf50a20474aaf Merge tag 'tegra-for-6.17-firmware-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
+9a8e34089020d82d017ff0aae26cdf5ed8b7df05 fs/orangefs: Replace kzalloc + copy_from_user with memdup_user_nul
+c539feff3c8f8c86213eee2b237410714712c326 tracing: fprobe: Fix to remove recorded module addresses from filter
+456c32e3c4316654f95f9d49c12cbecfb77d5660 tracing: dynevent: Add a missing lockdown check on dynevent
+fd7d927587c7db5005d90623447c5d3b7750533d Merge tag '6.17-rc7-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+74c7cc79aadf40fc14cfa04379693d2a3751e6e5 Merge tag 'for-6.17-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+4ea5af08590825c79ba2f146482ed54443e22c28 Merge tag 'pm-6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+ea78c190810ecd2c9dfb6d22b52fc670a38e8836 Merge tag 'soc-fixes-6.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+d0ca0df179c4b21e2a6c4a4fb637aa8fa14575cb crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
+bf40f4b87761e2ec16efc8e49b9ca0d81f4115d8 Merge tag 'probes-fixes-v6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+1cf12c7177410afcb53f815315d1247ea57fae4f erofs: Add support for FS_IOC_GETFSLABEL
+e2d3af0d64e5fe2ee269e8f082642f82bcca3903 erofs: drop redundant sanity check for ztailpacking inline
+ede9253a7945b11e44e02d665938fc8cfc5a8699 smb: client: add tcon information to smb2_reconnect() debug messages
+50cb4115659b73dfe31f596e73c1528bddd98cf3 cifs: client: force multichannel=off when max_channels=1
+8c78e78d993558f275dfdbee96cc61b420451388 smb: client: fix sending the iwrap custom IRD/ORD negotiation messages
+c00ca43372f5a64038bfe6e2d1b46a1df771ca3a smb: Use arc4 library instead of duplicate arc4 code
+9158c6bb245113d4966df9b2ba602197a379412e afs: Fix potential null pointer dereference in afs_put_server
+a19239ba14525c26ad097d59fd52cd9198b5bcdb afs: Add support for RENAME_NOREPLACE and RENAME_EXCHANGE
+10cdfcd37ade7ce736bc4a1927680f390a6b1f7b nstree: make struct ns_tree private
+4055526d35746ce8b04bfa5e14e14f28bb163186 ns: move ns type into struct ns_common
+af075603f27b0f6e05f1bdf64bad42fa7cfb033b ns: drop assert
+6e65f4e8fc5b02f7a60ebb5b1b83772df0b86663 Merge patch series "ns: tweak ns common handling"
+9861a4f58a2036ceec7e7a55d512fa782b9c102c Merge branch 'vfs.fixes' into vfs.all
+cfba2c3d851eedbd650160c6272c15f8c1ded024 Merge branch 'vfs-6.18.misc' into vfs.all
+f98ca7f656c729c26c355e1dd53dfb390f9c411d Merge branch 'vfs-6.18.mount' into vfs.all
+99152d87c945920e81fe7676dfafd48f76ddb8df Merge branch 'vfs-6.18.inode' into vfs.all
+a4f4557b26318047c9dba18633b688d7949dd276 Merge branch 'vfs-6.18.iomap' into vfs.all
+cac778440d134706eaf2c834e7be6816798e9be6 Merge branch 'vfs-6.18.pidfs' into vfs.all
+7507f036dd842915f4b04dcba9c7537730e99ac5 Merge branch 'vfs-6.18.rust' into vfs.all
+970646917c3a9f2099b978e8605972bc23932ed4 Merge branch 'vfs-6.18.workqueue' into vfs.all
+62835f29632258576f4137173777b9829d034ec8 Merge branch 'kernel-6.18.clone3' into vfs.all
+b283f57ee15906b84780b44549455f03ffef1081 Merge branch 'vfs-6.18.procfs' into vfs.all
+3ff8a0e9ffc4c504c518ea4c650454bba3c7719f Merge branch 'vfs-6.18.afs' into vfs.all
+9b9db67a9684eafcc9bf4da1158c026c93413234 Merge branch 'namespace-6.18' into vfs.all
+cf398c9e771ab71453f2787c8acc366c56806b06 Merge branch 'vfs-6.18.writeback' into vfs.all
+f1c864be6e889d220ded28fd79b13565d220cdb7 Merge branch 'vfs-6.18.async' into vfs.all
+807cf49eef13ed619583e755efe2b8ef451b77a9 Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+169498d9a253571c36560f6b996cfee181231494 Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+80b80c4c775445d7391ffb032b5d527dc3786988 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+fb4560d92e34c1d6229af8b2d5444b768a349039 Merge branch 'for-next' of https://git.kernel.org/pub/scm/fs/fscrypt/linux.git
+161207a2eae92583cca5a7dee0c1db72446b960e Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+94f7a9faabb73f92da5b860ca8f710b9c166d9d0 Merge branch 'master' of https://github.com/ceph/ceph-client.git
+88d6f43e3c262f9296336d431d39bc08f897c9e2 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
+ae0ca0061280cf133272ef5036fbe2106d6bd960 Merge branch 'configfs-next' of https://git.kernel.org/pub/scm/linux/kernel/git/a.hindborg/linux.git
+af0c1163d21d28b8369bd7e89bb18b1d9a7e8ffc Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git
+166ad5cc1a671f1384bfffd22c7ee570db313e3f Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
+20b0e8f7b89d0648391048c1862911d40184e543 Merge branch 'dev' of https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+caf242f0b38b7d43ac8fc7fa4ab8d9d9edccd304 Merge branch 'dev' of https://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
+65af085e34accad3247d9a7098da011ba97d3d1a Merge branch 'for_next' of https://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
+542239b24fad8ce7c00eec817ac93388542a12ef Merge branch 'dev' of https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
+3da0201ff17fd4e9c51f87bb36647e5825811bf5 Merge branch 'for-next' of https://git.kernel.org/pub/scm/fs/fsverity/linux.git
+1b979335dbd662910c3e5ad720844f9b5c798b8e Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse.git
+d303ca76c75842937ecbb257e879d1a50049dfa0 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
+04f1a10ddc13d9e78cd2bc363422c9a64f29acbb next-20250924/jfs
+d59436ee34ef3bf31daa9d21363354c253640e2c Merge branch 'linux-next' of git://git.linux-nfs.org/projects/anna/linux-nfs.git
+b5ea4dcd7721aa352e97f71d36d1278276b0cffe Merge branch 'nfsd-next' of https://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+29e0e68ffa06080545072b3177b74ec15f3d9f5f Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
+fc1faaa40ee3df06f9e8513a584393f63f121c92 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux.git
+f3dab837f15441f34c0a5b3c320583be258cb298 Merge branch 'overlayfs-next' of https://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
+8b0ea394a49d8fe7357dc18d00230b21ed890f61 Merge branch '9p-next' of https://github.com/martinetd/linux
+8d1cb88f31ecca9702054f7626b22ccf75fdb052 Merge branch 'for-next' of https://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
+bf77d508d9fa7616ff929964ee9c69257e346818 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
+777fe5f51ce79a79c49c89fd10e1afe348a1fccb Merge branch 'vfs.all' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+bf53ef8c4acd22e7f7bf13a02fd82c0158cd586d Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+
+--===============5753387469841624926==--
