@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8778608944335209128=="
+Content-Type: multipart/mixed; boundary="===============3876291394679308755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 25 Sep 2025 00:02:37 -0000
-Message-Id: <175875855758.3462841.9695065670391781252@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 00:02:39 -0000
+Message-Id: <175875855978.3462936.10787046652756983508@gitolite.kernel.org>
 
---===============8778608944335209128==
+--===============3876291394679308755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 3921711f7241cf4a4c50380e4815d6c6c21f1a3b
-    new: 25aab8f3ce56fd3cdf921c206ce42d1cdede5259
-    log: revlist-3921711f7241-25aab8f3ce56.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: f83ec76bf285bea5727f478a68b894f5543ca76e
+    new: 07e27ad16399afcd693be20211b0dfae63e0615f
+    log: revlist-f83ec76bf285-07e27ad16399.txt
 
---===============8778608944335209128==
+--===============3876291394679308755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3921711f7241-25aab8f3ce56.txt
+Content-Disposition: attachment; filename=revlist-f83ec76bf285-07e27ad16399.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
@@ -308,7 +308,5 @@ fce24200cbddb5a333a157eecf0a8020c1d36d7c Merge tag 'scsi-fixes' of git://git.ker
 f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
-f2b6b51d21ce7b84bc01d252b451684b86ad1cdc i2c: s3c2410: Drop S3C2410 OF support
-25aab8f3ce56fd3cdf921c206ce42d1cdede5259 dt-bindings: i2c: samsung,s3c2410-i2c: Drop S3C2410
 
---===============8778608944335209128==--
+--===============3876291394679308755==--
