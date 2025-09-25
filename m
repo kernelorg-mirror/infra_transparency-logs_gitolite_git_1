@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7219118251214723605=="
+Content-Type: multipart/mixed; boundary="===============8760426411547750560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 25 Sep 2025 10:12:41 -0000
-Message-Id: <175879516140.58352.2204372220695839853@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 10:12:42 -0000
+Message-Id: <175879516288.58484.3964802619361252493@gitolite.kernel.org>
 
---===============7219118251214723605==
+--===============8760426411547750560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 8ea920de57a564c95e5d444a258514d944787368
-    new: 1de17a1d554240365c2ee7012033bf0d950d1378
-    log: revlist-8ea920de57a5-1de17a1d5542.txt
+  - ref: refs/heads/mm-unstable
+    old: f6c67c0b17ba144b75f5924e9c8c2c45742c07c0
+    new: 16f553dff68a4de293a15661085daff350efed98
+    log: revlist-f6c67c0b17ba-16f553dff68a.txt
 
---===============7219118251214723605==
+--===============8760426411547750560==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8ea920de57a5-1de17a1d5542.txt
+Content-Disposition: attachment; filename=revlist-f6c67c0b17ba-16f553dff68a.txt
 
 af6703838ecb1513efdd2502a8f7bb6472c5ce96 mm: specify separate file and vm_file params in vm_area_desc
 f7a741c53b712542aedd9382f215fbe969f8a580 mm: do not assume file == vma->vm_file in compat_vma_mmap_prepare()
@@ -72,30 +72,5 @@ ec37fe1a32cceec1a040161a1ecbca955a38566e mm/khugepaged: remove definition of str
 381cd9c338c43222c8cccfde91a412ae19069e5b mm/khugepaged: use start_addr/addr for improved readability
 20a22e16c0b52156a90554c2491205945f526b9d mm: convert folio_page() back to a macro
 16f553dff68a4de293a15661085daff350efed98 mm: swap: check for stable address space before operating on the VMA
-dd3f72ae7efd15021107cdb2bfe80744b099e753 mm: vmscan: remove folio_test_private() check in pageout()
-afa5fcd50a134fc3f159e8797e6a5d69abbb7e81 mm-vmscan-remove-folio_test_private-check-in-pageout-fix
-4d800d87a9c879c7656778816a4c2371042f22d3 mm: vmscan: simplify the folio refcount check in pageout()
-a1445d9ec6fea01b260433ebea10b2dc85f4527e mm-vmscan-simplify-the-folio-refcount-check-in-pageout-fix
-014dbc1d0a6bef14ced55fa6044b393660fd4b59 memcg: skip cgroup_file_notify if spinning is not allowed
-26268818e00afcb82d3e15e5cc305218390223ce mm/shmem: update shmem to use mmap_prepare
-97dc570ddaf89f9e21a4f28984dc5fa88195c0b0 device/dax: update devdax to use mmap_prepare
-155ea8cc5fcca798a7469670eff8e3e4ef7d5ff1 mm: add vma_desc_size(), vma_desc_pages() helpers
-567a2ea5b3361381fc91b2e98aada03d0e29f2e4 relay: update relay to use mmap_prepare
-9585d34c186520d8bc84fe4dd317cb96ad82f575 mm/vma: rename __mmap_prepare() function to avoid confusion
-a890fa71da6b4607ab5b6ecb3264c5b49483b1d5 mm: add remap_pfn_range_prepare(), remap_pfn_range_complete()
-b69bba3ccdd54fa98031eeb8b0fcfc4158617c98 mm: abstract io_remap_pfn_range() based on PFN
-8db6a7d9f947b82c2898ca68eee1f6dd23cdc93c mm: introduce io_remap_pfn_range_[prepare, complete]()
-ae8b16b5f837d85ecb2431f6583f494139c8d454 fixup io_remap_pfn_range_[prepare, complete]
-8462dbefad78dda6155a0760bbb3dcc37c367b5c mm: add ability to take further action in vm_area_desc
-88f0dea6ffe4ab44a922470174cacc906cf44e65 doc: update porting, vfs documentation for mmap_prepare actions
-482cd37311d0306ad7dbf30db3883583049c1c58 mm/hugetlbfs: update hugetlbfs to use mmap_prepare
-420d3bfe5b5dc234a086ad944e7775646cbaa860 mm: add shmem_zero_setup_desc()
-604d268c9c19b1b6f784138a20df22029d8c7482 mm: update mem char driver to use mmap_prepare
-4f45248e93ee09be28f7201f6a8c8a01a679bbe2 mm: update resctl to use mmap_prepare
-aa164612ca91cf9e8fc33a168afe265f989c38a7 mm/memblock: correct totalram_pages accounting with KMSAN
-39e2cc13ea31cd8368cb53abaa07d17e73c83b14 mm: clean up is_guard_pte_marker()
-6ccf948c50b207b8f6c91e42e31d3b0371a1fa38 drivers/base/memory: add node id parameter to add_memory_block()
-8df6180a5ec5da53b12c67516a452115df9ebb63 mm/memory_hotplug: activate node before adding new memory blocks
-1de17a1d554240365c2ee7012033bf0d950d1378 drivers/base: move memory_block_add_nid() into the caller
 
---===============7219118251214723605==--
+--===============8760426411547750560==--
