@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 25 Sep 2025 07:51:45 -0000
-Message-Id: <175878670598.3905433.3467457183246431774@gitolite.kernel.org>
+Date: Thu, 25 Sep 2025 07:51:51 -0000
+Message-Id: <175878671141.3905671.7140524319531130135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/notes/commits
-    old: 028f3a5521ab5223dbf5560c64a5179adc68b04a
-    new: d5f277a568045e1e633faf9a48ce70a1695adad8
+  - ref: refs/heads/sched/urgent
+    old: 2dcbcce9bfac6ddc2e2f9243fa846a875371de79
+    new: a3a70caf7906708bf9bbc80018752a6b36543808
     log: |
-         9dbf678d4def81320f745b9868f580f3fb6eec2d Notes added by 'git notes add'
-         59317d4e3efbf564854d324b2696be8407692490 Notes added by 'git notes add'
-         4e31170be54d9ecdf4e5986c17e7eec2122e5c0e Notes added by 'git notes add'
-         d5f277a568045e1e633faf9a48ce70a1695adad8 Notes added by 'git notes add'
+         4ae8d9aa9f9dc7137ea5e564d79c5aa5af1bc45c sched/deadline: Fix dl_server getting stuck
+         a3a70caf7906708bf9bbc80018752a6b36543808 sched/deadline: Fix dl_server behaviour
          
