@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7437807352747553999=="
+Content-Type: multipart/mixed; boundary="===============2632445119758408789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 26 Sep 2025 11:28:18 -0000
-Message-Id: <175888609865.1401831.3622977472067688980@gitolite.kernel.org>
+Date: Fri, 26 Sep 2025 11:28:58 -0000
+Message-Id: <175888613851.1402171.8786770429891264011@gitolite.kernel.org>
 
---===============7437807352747553999==
+--===============2632445119758408789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
+  - ref: refs/heads/for-next
     old: 5accc30cddb19143e3626f7df2bd1afe32983616
     new: b8754092dfed4fc2fcdb0de32a029ba8f9b464b6
     log: revlist-5accc30cddb1-b8754092dfed.txt
 
---===============7437807352747553999==
+--===============2632445119758408789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1758886150 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1758886193 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1758886092-49e61d391b7472a3a5e6e6d175708dde3c237b04
+nonce 1758886135-fc44728256f263b83e0a1f74d3f80adf38cf8e6d
 
-5accc30cddb19143e3626f7df2bd1afe32983616 b8754092dfed4fc2fcdb0de32a029ba8f9b464b6 refs/heads/review-ilpo-next
+5accc30cddb19143e3626f7df2bd1afe32983616 b8754092dfed4fc2fcdb0de32a029ba8f9b464b6 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaNZ5CgAKCRBZrE9hU+XO
-MV54AQD6Z8XpmaonwWf1BKEJ6jMEh418nLEpDzOQp0K5CX9sBgEA+Psfk8+bBqT1
-eQ6V1JcKFrkSQIyElHibSlfkBkMejwk=
-=g1ua
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaNZ5MwAKCRBZrE9hU+XO
+MVYwAQDr5XXu5dg71NZGEv30EtD1jPv6j+qHoR2Pe1FS5txfKgEAqZweqRZ05BtK
+vEWVqxQj2unalPWfXrndPOy8gSYtOgI=
+=kwb5
 -----END PGP SIGNATURE-----
 
---===============7437807352747553999==
+--===============2632445119758408789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ d4bc149653d33d373c90b6dcdcc51fb55b296c7f platform/x86: x86-android-tablets: Move
 a2a815233c3068e3d41e15ee4dc4c19f256840df platform/x86: meraki-mx100: Use static device properties
 b8754092dfed4fc2fcdb0de32a029ba8f9b464b6 platform/x86: pcengines-apuv2: Use static device properties
 
---===============7437807352747553999==--
+--===============2632445119758408789==--
