@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5173816480411086198=="
+Content-Type: multipart/mixed; boundary="===============3985281195075356823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Sep 2025 22:42:42 -0000
-Message-Id: <175892656289.2007279.2643952900198333091@gitolite.kernel.org>
+Date: Fri, 26 Sep 2025 22:42:46 -0000
+Message-Id: <175892656605.2007359.4003047437378600065@gitolite.kernel.org>
 
---===============5173816480411086198==
+--===============3985281195075356823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 203e3beb73e53584ca90bc2a6d8240b9b12b9bcf
     new: 347afa39042728267550fa7a5ab5e9af52671add
     log: revlist-203e3beb73e5-347afa390427.txt
 
---===============5173816480411086198==
+--===============3985281195075356823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -284,4 +284,4 @@ ffa8f0791955dec12af2a09a1655a41e3fff783a net: dns_resolver: Fix request-key cros
 81dcfdd21dbd7067068c7c341ee448c3f0d6f115 selftest: net: Fix error message if empty variable
 347afa39042728267550fa7a5ab5e9af52671add dpll: zl3073x: Fix double free in zl3073x_devlink_flash_update()
 
---===============5173816480411086198==--
+--===============3985281195075356823==--
