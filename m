@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 26 Sep 2025 18:48:48 -0000
-Message-Id: <175891252895.1796869.3557060222709555755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 26 Sep 2025 19:01:04 -0000
+Message-Id: <175891326445.1808225.2438371104926391889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 855318e7c0c4a3e3014c0469dd5bc93a1c0df30c
-    new: 6d97171ac6585de698df019b0bfea3f123fd8385
-    log: |
-         d53ea977adf913a6e5024323e6b7e02326d4453c rust: pci: display symbolic PCI class names
-         6d97171ac6585de698df019b0bfea3f123fd8385 rust: pci: display symbolic PCI vendor names
-         
+  - ref: refs/heads/controller/xgene
+    old: 0000000000000000000000000000000000000000
+    new: b26fc701a25195134ff0327709a0421767c4c7b2
