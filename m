@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0418861180626888821=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 26 Sep 2025 11:09:43 -0000
-Message-Id: <175888498392.1385468.4034036202354262591@gitolite.kernel.org>
-
---===============0418861180626888821==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 26 Sep 2025 11:22:11 -0000
+Message-Id: <175888573129.1396645.1149103662370852767@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/fixes
-    old: a15b5aefa8178846ed614745569fed0d1fb6cb87
-    new: 3ed17349f18774c24505b0c21dfbd3cc4f126518
+  - ref: refs/heads/pinctrl
+    old: fcce7d40704ff9fc47dc5e32a310a2fb78e758c9
+    new: ae986f5dcf9187004346a582b573ec6f5033e78f
     log: |
-         3ed17349f18774c24505b0c21dfbd3cc4f126518 platform/x86: lg-laptop: Fix WMAB call in fan_mode_store()
+         f7e6298e90d0051082f321201bb56b5ef0f8be05 dt-bindings: pinctrl: add polarfire soc iomux0 pinmux
+         c696f0fd456d1f29bce04c260a862d718367ca2f dt-bindings: pinctrl: add pic64gx "gpio2" pinmux
+         c241af08366b9228bb55433a5cf8f8161f0f4d27 pinctrl: add polarfire soc iomux0 pinmux driver
+         61055ac5b20d6177650ba755b71d45ae4b73e4dd pinctrl: add pic64gx "gpio2" pinmux driver
+         58d2cc40e29391d021898804dff6ed5b76572ec7 riscv: dts: microchip: add pinctrl nodes for iomux0
+         1d7a3d1c02bf2ab3b0c568e6f1f7cb98a0811b62 riscv: dts: microchip: pic64gx pinctrl
+         e2ac6189117607673a7e62878c72aad72a27404a pinctrl: mssio
+         ae986f5dcf9187004346a582b573ec6f5033e78f riscv: dts: microchip: mpfs mssio pinctrl
          
-
---===============0418861180626888821==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1758885035 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1758884978-16d7731028d0c2ac12034be7433a6074e11a6f58
-
-a15b5aefa8178846ed614745569fed0d1fb6cb87 3ed17349f18774c24505b0c21dfbd3cc4f126518 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaNZ0sAAKCRBZrE9hU+XO
-MeojAP4one0NpPCQ5yB+5bCv2g6+f7acNB/mWGldcKYhSxKACQEAxODpuVBCE/sU
-VT/gd31hKDDcR8SskpCsyYtu4xSC8g8=
-=J3Mo
------END PGP SIGNATURE-----
-
---===============0418861180626888821==--
