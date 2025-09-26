@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1532065479271582586=="
+Content-Type: multipart/mixed; boundary="===============4463993894699937296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 26 Sep 2025 07:41:33 -0000
-Message-Id: <175887249330.1209413.6621968566365635941@gitolite.kernel.org>
+Date: Fri, 26 Sep 2025 07:41:48 -0000
+Message-Id: <175887250860.1209660.13410536275450602220@gitolite.kernel.org>
 
---===============1532065479271582586==
+--===============4463993894699937296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 36fe19318e509f111251ce26a4b926ab25951710
-    new: 9969273723b010e0c858f2c1f169e83f992af8f9
-    log: revlist-36fe19318e50-9969273723b0.txt
   - ref: refs/heads/tip/urgent
-    old: 9c418678e69c2a9efe445c1ca0b302fd8be186c0
-    new: 039186c4e27f8c38296cd6fcf653928ca38aaef0
-    log: |
-         0df5e34794ec704dd5f05ea48597980032177917 Merge branch into tip/master: 'core/urgent'
-         e021a0c098aa9b50f3485c368778caac95b56184 Merge branch into tip/master: 'locking/urgent'
-         60e5f2dd7a773dc64d3efbbf102410f5448c09ba Merge branch into tip/master: 'sched/urgent'
-         039186c4e27f8c38296cd6fcf653928ca38aaef0 Merge branch into tip/master: 'x86/urgent'
-         
+    old: 039186c4e27f8c38296cd6fcf653928ca38aaef0
+    new: 3c23215d5c70546653c1f594a3eb04fd21354767
+    log: revlist-039186c4e27f-3c23215d5c70.txt
 
---===============1532065479271582586==
+--===============4463993894699937296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36fe19318e50-9969273723b0.txt
+Content-Disposition: attachment; filename=revlist-039186c4e27f-3c23215d5c70.txt
 
 cd8ae32e4e4652db55bce6b9c79267d8946765a9 xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
 91d8a53db2199eefc73ecf3682e0665ea6895696 xfrm: fix offloading of cross-family tunnels
@@ -98,32 +89,5 @@ d9c70e93ec5988ab07ad2a92d9f9d12867f02c56 octeontx2-pf: Fix potential use after f
 cf687df399bead2f7cdff8618707cdb3ce62b092 Merge branch into tip/master: 'locking/urgent'
 823a3852bdfa92f8c0341b01a9b0fb26b0c6832f Merge branch into tip/master: 'sched/urgent'
 3c23215d5c70546653c1f594a3eb04fd21354767 Merge branch into tip/master: 'x86/urgent'
-503094abecb1297d98ea5f9a2afe37df1e4ed4d8 Merge branch into tip/master: 'core/bugs'
-4f596b0c046cfab33e701fbf69712de998d5e828 Merge branch into tip/master: 'core/core'
-112a5c4412b6666e57b446e43ead7f45899d31bc Merge branch into tip/master: 'core/rseq'
-7e8d7a3c902699455147d4400816376f51db3cee Merge branch into tip/master: 'irq/core'
-29ae2170242011f3f2d31267a559664f7f4e0a6d Merge branch into tip/master: 'irq/drivers'
-2eb97f0e1207bddcc65dd38dc820ecc44396e455 Merge branch into tip/master: 'locking/core'
-5967ca6a0fdb08881d069f4c890640058aaf7466 Merge branch into tip/master: 'locking/futex'
-541f00a19b93a267c888414e28cb5da6b7d4d4a6 Merge branch into tip/master: 'perf/core'
-69b2321a83707daa191729ccaae326b9afd60bc9 Merge branch into tip/master: 'ras/core'
-bf29de506883f25b5d9d6c9f022e94a14209131f Merge branch into tip/master: 'sched/core'
-d78b99c92c30df36c67406f80e5fc53b1d3e89f7 Merge branch into tip/master: 'smp/core'
-fac9b0afff183de0eb0e634fd0845fbbd3bddc3a Merge branch into tip/master: 'timers/clocksource'
-6e2fcef30a906f0941931d931b698747788994b4 Merge branch into tip/master: 'timers/core'
-fe3352c62d36388b8a23d97098d6330c7233dffe Merge branch into tip/master: 'timers/vdso'
-25e73dd3b234d90f1d0a37a72d8aaeb39c317703 Merge branch into tip/master: 'x86/apic'
-c79874fe8da8883be21b796856e25af28a77665d Merge branch into tip/master: 'x86/asm'
-a1f50bd5c7f1dfc687be3d79ee738ccc6896bc94 Merge branch into tip/master: 'x86/bugs'
-9ea7d0f8cf91a54624ef4c83cdf0084bb934ba00 Merge branch into tip/master: 'x86/build'
-ae5faa743481e9090baa7b0af0bcb815eea4a12f Merge branch into tip/master: 'x86/cache'
-779237be1b07ca4119e07ee241c76f6de57869ac Merge branch into tip/master: 'x86/cleanups'
-a382e1937ff6a46dd924c24316c857a003d28501 Merge branch into tip/master: 'x86/core'
-2fc0592af1462e11ef66d51b4efabb9cdd7f18be Merge branch into tip/master: 'x86/cpu'
-f0bb4a1a0a1314f49cb79a417506ce02ea3de2e4 Merge branch into tip/master: 'x86/entry'
-437017c3add33d12fbb4c1509a798fdf235b50de Merge branch into tip/master: 'x86/microcode'
-5e3727b5e4eb2479d16c620f7bf11a9a9dcd7a14 Merge branch into tip/master: 'x86/misc'
-39affc67bec913618e6ef7f5a0420889fab43fa3 Merge branch into tip/master: 'x86/mm'
-9969273723b010e0c858f2c1f169e83f992af8f9 Merge branch into tip/master: 'x86/tdx'
 
---===============1532065479271582586==--
+--===============4463993894699937296==--
