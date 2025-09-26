@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3738035187581423099=="
+Content-Type: multipart/mixed; boundary="===============8016124017596428090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 26 Sep 2025 16:34:35 -0000
-Message-Id: <175890447520.1683997.11911116542889856471@gitolite.kernel.org>
+Date: Fri, 26 Sep 2025 16:34:36 -0000
+Message-Id: <175890447667.1684167.3843596833731439224@gitolite.kernel.org>
 
---===============3738035187581423099==
+--===============8016124017596428090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1de17a1d554240365c2ee7012033bf0d950d1378
-    new: e612c80ae0aeb331f8377d43c94d5854f6b7f3d8
-    log: revlist-1de17a1d5542-e612c80ae0ae.txt
+  - ref: refs/heads/mm-unstable
+    old: 16f553dff68a4de293a15661085daff350efed98
+    new: 69684d09767ed4deafc1cd39153edd237c3706e3
+    log: revlist-16f553dff68a-69684d09767e.txt
 
---===============3738035187581423099==
+--===============8016124017596428090==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1de17a1d5542-e612c80ae0ae.txt
+Content-Disposition: attachment; filename=revlist-16f553dff68a-69684d09767e.txt
 
 7b7387650dcf2881fd8bb55bcf3c8bd6c9542dd7 mm/hugetlb: fix folio is still mapped when deleted
 14967a9c7d247841b0312c48dcf8cd29e55a4cc8 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
@@ -60,29 +60,5 @@ f2ae2df45249fd08bbc6595ad3381454fc19e7a7 mm/khugepaged: remove definition of str
 4e11e98d4669c59ebb6f5b655e7b360c17e9d655 mm/khugepaged: use start_addr/addr for improved readability
 f15fca19b64b81ef3afb7b02ca2128fe2d46acf4 mm: convert folio_page() back to a macro
 69684d09767ed4deafc1cd39153edd237c3706e3 mm: swap: check for stable address space before operating on the VMA
-14b5835e1341f4cf3dd3874d15006f66b97e8f2b mm: vmscan: remove folio_test_private() check in pageout()
-7547987ce973096bf3004b812d26f59feeb61594 mm-vmscan-remove-folio_test_private-check-in-pageout-fix
-ad02aa178c5ee60e97c4e6f8752e2010b82aeb3f mm: vmscan: simplify the folio refcount check in pageout()
-e87503d7440a3c85e3e3d93353abdbab370490ad mm-vmscan-simplify-the-folio-refcount-check-in-pageout-fix
-9b66dc1d0f905fe104482542b52b6bdbb72ae1e3 memcg: skip cgroup_file_notify if spinning is not allowed
-13ae69e9c5bcd7476b29dd3706c5085c4caaefc0 mm/shmem: update shmem to use mmap_prepare
-2d0fec097b0dee20d28033cee8d1b040637f6f7e device/dax: update devdax to use mmap_prepare
-b70d1edf8862627e63767091e01266b15965c368 mm: add vma_desc_size(), vma_desc_pages() helpers
-0e090e428671c9724778071d375260d693771535 relay: update relay to use mmap_prepare
-8d52f8f697025e35f08ebbe482de6c8a4b9559d2 mm/vma: rename __mmap_prepare() function to avoid confusion
-acd9509d8efca004edd43232b9086d60c1a45f9c mm: add remap_pfn_range_prepare(), remap_pfn_range_complete()
-a8d108772aee1325b0e7670f7858ebb684fe7d85 mm: abstract io_remap_pfn_range() based on PFN
-96d1c736876572999e8dcc1e6ea4518e1cf3f992 mm: introduce io_remap_pfn_range_[prepare, complete]()
-2ef50da8a4b792c98432c6f562b4b4c7d4ca8260 fixup io_remap_pfn_range_[prepare, complete]
-b403d889d1cb6ccdf59f934f4ddb26590581866c mm: add ability to take further action in vm_area_desc
-44e7c8c67328d6054961d6239d2b63cab5e0110a doc: update porting, vfs documentation for mmap_prepare actions
-4726b4e26fdd91b6de4238c2c3996c04bdd1aabb mm/hugetlbfs: update hugetlbfs to use mmap_prepare
-6f6bc60eb2a4b4aac9262e2885f5c477b70b7d4c mm: add shmem_zero_setup_desc()
-69a503680a107343ecc169941a7b24e1b3795c63 mm: update mem char driver to use mmap_prepare
-83229bafbcbf67733860ccc2879003dd91669fc9 mm: update resctl to use mmap_prepare
-5517e62c380289375edb5936a0e8899e2eb3a818 mm: clean up is_guard_pte_marker()
-dcb991ea1204425b4ffd4ae5d2a06eb25fdfc8d6 drivers/base/memory: add node id parameter to add_memory_block()
-4d0764af9a6792239d59f3204200c02ce6e7ddf1 mm/memory_hotplug: activate node before adding new memory blocks
-e612c80ae0aeb331f8377d43c94d5854f6b7f3d8 drivers/base: move memory_block_add_nid() into the caller
 
---===============3738035187581423099==--
+--===============8016124017596428090==--
