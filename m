@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Fri, 26 Sep 2025 09:54:08 -0000
-Message-Id: <175888044843.1318396.14522709969256668424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 26 Sep 2025 09:56:41 -0000
+Message-Id: <175888060177.1321471.2376500605299490494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
+repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 36f1e51b37e232a26958e50c66238b9c0d5c525e
-    new: 97ee30872853b2c9fbb448240012909d985f2e19
+  - ref: refs/heads/gpio/for-next
+    old: 2235b26c1b25daf253748acff501af3ea85faaa8
+    new: bc061143637532c08d9fc657eec93fdc2588068e
     log: |
-         97ee30872853b2c9fbb448240012909d985f2e19 bindings: python: generate wheels for CPython 3.14
+         bc061143637532c08d9fc657eec93fdc2588068e gpio: mpfs: fix setting gpio direction to output
          
