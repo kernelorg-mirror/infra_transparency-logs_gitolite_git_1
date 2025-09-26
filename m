@@ -1,34 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 26 Sep 2025 18:36:52 -0000
-Message-Id: <175891181281.1788015.14434306891584176424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 26 Sep 2025 18:48:48 -0000
+Message-Id: <175891252895.1796869.3557060222709555755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 7b68c0c98e9a2cc1c19df851232b3553bf78fe41
-    new: 57bd5eb636ca740228c3395c8f38138cddaa73e2
+  - ref: refs/heads/driver-core-next
+    old: 855318e7c0c4a3e3014c0469dd5bc93a1c0df30c
+    new: 6d97171ac6585de698df019b0bfea3f123fd8385
     log: |
-         1f5bcfe91ffce71bdd1022648b9d501d46d20c09 PM: hibernate: Combine return paths in power_down()
-         57bd5eb636ca740228c3395c8f38138cddaa73e2 Merge branch 'pm-sleep' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: 7b68c0c98e9a2cc1c19df851232b3553bf78fe41
-    new: 57bd5eb636ca740228c3395c8f38138cddaa73e2
-    log: |
-         1f5bcfe91ffce71bdd1022648b9d501d46d20c09 PM: hibernate: Combine return paths in power_down()
-         57bd5eb636ca740228c3395c8f38138cddaa73e2 Merge branch 'pm-sleep' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 7b68c0c98e9a2cc1c19df851232b3553bf78fe41
-    new: 57bd5eb636ca740228c3395c8f38138cddaa73e2
-    log: |
-         1f5bcfe91ffce71bdd1022648b9d501d46d20c09 PM: hibernate: Combine return paths in power_down()
-         57bd5eb636ca740228c3395c8f38138cddaa73e2 Merge branch 'pm-sleep' into linux-next
+         d53ea977adf913a6e5024323e6b7e02326d4453c rust: pci: display symbolic PCI class names
+         6d97171ac6585de698df019b0bfea3f123fd8385 rust: pci: display symbolic PCI vendor names
          
