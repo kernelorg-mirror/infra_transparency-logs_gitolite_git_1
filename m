@@ -1,74 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8393710972149570279=="
+Content-Type: multipart/mixed; boundary="===============1753395644203172726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Fri, 26 Sep 2025 07:47:34 -0000
-Message-Id: <175887285497.1214172.5547060620311023188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Fri, 26 Sep 2025 08:34:28 -0000
+Message-Id: <175887566801.1252849.3182354420273514086@gitolite.kernel.org>
 
---===============8393710972149570279==
+--===============1753395644203172726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/i2c/for-mergewindow
-    old: 958e55f90a01451de77e22063d37b60388219b96
-    new: c149841b069ccc6e480b00e11f35a57b5d88c7bb
-    log: revlist-958e55f90a01-c149841b069c.txt
-  - ref: refs/heads/i2c/for-next
-    old: 8b456d12e708c25569828467041e622abeffb434
-    new: db76a1cecd6ebaca37f056de41d543c50359a800
-    log: revlist-8b456d12e708-db76a1cecd6e.txt
+  - ref: refs/heads/b4/aarch64-dynamic-kernel-stacks-v6.17-rc1
+    old: 1568268d4178aaea346b3ab595773f2326018676
+    new: 7c0046c311f8023d3ffcefc2b103d68765e9cf89
+    log: revlist-1568268d4178-7c0046c311f8.txt
+  - ref: refs/heads/b4/aarch64-dynamic-kernel-stacks-v6.17-rc1-old
+    old: 0000000000000000000000000000000000000000
+    new: 1568268d4178aaea346b3ab595773f2326018676
 
---===============8393710972149570279==
+--===============1753395644203172726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-958e55f90a01-c149841b069c.txt
+Content-Disposition: attachment; filename=revlist-1568268d4178-7c0046c311f8.txt
 
-448097bbd3836d2ee46fa6eabd18661e9a3c8be8 device property: Add scoped fwnode child node iterators
-d32bb69523b86c85fc91d4c8a6d8313639ac1c1c i2c: core: Use fwnode_for_each_child_node_scoped()
-54d6a978bb2bb78a781bc849608c5b4f0748985b Merge branch 'i2c/immutable/scoped_fwnode_child' into i2c/for-mergewindow
-1a2b423be6a89dd07d5fc27ea042be68697a6a49 i2c: boardinfo: Annotate code used in init phase only
-b492183652808e0f389272bf63dc836241b287ff i2c: mediatek: fix potential incorrect use of I2C_MASTER_WRRD
-41d6f90ef5dc2841bdd09817c63a3d6188473b9b i2c: spacemit: ensure bus release check runs when wait_bus_idle() fails
-445522fe7aad6131b2747ae8c76f77266054cd84 i2c: spacemit: remove stop function to avoid bus error
-11f40684ccd84e792eced110f0a5d3d6adbdf90d i2c: spacemit: disable SDA glitch fix to avoid restart delay
-db7720ef50e0103be70a3887bc66e9c909933ad9 i2c: spacemit: check SDA instead of SCL after bus reset
-0de61943244dec418d396633a587adca1c350b55 i2c: spacemit: ensure SDA is released after bus reset
-437e6c3e3175e40c07987be87eea1cf9d7b8f30f i2c: designware: convert to dev_err_probe() on request IRQ error
-2b7a2003ba01cde9a4958a50c55207f820766816 i2c: designware: use dev_err_probe() when probing platform device
-59ccb8176bd7e826d47962e891b460284f6978f0 i2c: mux: Simplify boolean assignment in i2c_mux_alloc
-12aad2960e9d6a32d7371e43cabcb02531ae3704 i2c: busses: Fix some spelling errors
-70e633bedeeb4a7290d3b1dd9d49cc2bae25a46f i2c: designware: Fix clock issue when PM is disabled
-c149841b069ccc6e480b00e11f35a57b5d88c7bb i2c: designware: Add disabling clocks when probe fails
+009522a283381eda6e75ccd97e5aba7017fdf2cf Dynamic kernel stack size for ARM64
+954c48a22d6cf4de541753564527fb668cf0d452 fork: Remove assumption that vm_area->nr_pages equals to THREAD_SIZE
+09687728a80f88770657bc30dcf7a294995cb689 fork: check charging success before zeroing stack
+de80d1d790209a1a82f71e39b34c053b91279f6b fork: zero vmap stack using clear_page() instead of memset()
+0bb10a4e239471d1daaff4ae873fec190fe62fb3 fork: use the first page in stack to store vm_stack in cached_stacks
+87793cc00797878c1a47fb877bae2d58d92ae2a6 fork: separate vmap stack alloction and free calls
+bf80e9ee2f6c90da07d5e5409b17ad93b7422514 mm/vmalloc: Add a get_vm_area_node() and vmap_pages_range_noflush() public functions
+cfb65c412ab8da7e4c35b1084f6578bcefdfd18e fork: Dynamic Kernel Stacks
+99fef1fbe7bedc3fac59ea7db0a02661f1a9acdb task_stack.h: Clean-up stack_not_used() implementation
+a3de321553574cfe09df4929cf754426b6fca656 task_stack.h: Add stack_not_used() support for dynamic stack
+003dc40a35c47a1b750cfeb9f724807e33362598 fork: Dynamic Kernel Stack accounting
+904448424617284a092482b621c99f6a1df5fdf9 fork: fallback to global store of stack pages
+cbdf8212f51198eb14e780bd75c79349c0ae4c68 arm64: entry: Confine TPIDR registers to userspace
+7c0046c311f8023d3ffcefc2b103d68765e9cf89 arm64: Support dynamic kernel stacks
 
---===============8393710972149570279==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b456d12e708-db76a1cecd6e.txt
-
-448097bbd3836d2ee46fa6eabd18661e9a3c8be8 device property: Add scoped fwnode child node iterators
-d32bb69523b86c85fc91d4c8a6d8313639ac1c1c i2c: core: Use fwnode_for_each_child_node_scoped()
-54d6a978bb2bb78a781bc849608c5b4f0748985b Merge branch 'i2c/immutable/scoped_fwnode_child' into i2c/for-mergewindow
-1a2b423be6a89dd07d5fc27ea042be68697a6a49 i2c: boardinfo: Annotate code used in init phase only
-b492183652808e0f389272bf63dc836241b287ff i2c: mediatek: fix potential incorrect use of I2C_MASTER_WRRD
-41d6f90ef5dc2841bdd09817c63a3d6188473b9b i2c: spacemit: ensure bus release check runs when wait_bus_idle() fails
-445522fe7aad6131b2747ae8c76f77266054cd84 i2c: spacemit: remove stop function to avoid bus error
-11f40684ccd84e792eced110f0a5d3d6adbdf90d i2c: spacemit: disable SDA glitch fix to avoid restart delay
-db7720ef50e0103be70a3887bc66e9c909933ad9 i2c: spacemit: check SDA instead of SCL after bus reset
-0de61943244dec418d396633a587adca1c350b55 i2c: spacemit: ensure SDA is released after bus reset
-437e6c3e3175e40c07987be87eea1cf9d7b8f30f i2c: designware: convert to dev_err_probe() on request IRQ error
-2b7a2003ba01cde9a4958a50c55207f820766816 i2c: designware: use dev_err_probe() when probing platform device
-59ccb8176bd7e826d47962e891b460284f6978f0 i2c: mux: Simplify boolean assignment in i2c_mux_alloc
-12aad2960e9d6a32d7371e43cabcb02531ae3704 i2c: busses: Fix some spelling errors
-70e633bedeeb4a7290d3b1dd9d49cc2bae25a46f i2c: designware: Fix clock issue when PM is disabled
-c149841b069ccc6e480b00e11f35a57b5d88c7bb i2c: designware: Add disabling clocks when probe fails
-db76a1cecd6ebaca37f056de41d543c50359a800 Merge branch 'i2c/for-mergewindow' into i2c/for-next
-
---===============8393710972149570279==--
+--===============1753395644203172726==--
