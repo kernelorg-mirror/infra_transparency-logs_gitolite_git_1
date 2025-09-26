@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Fri, 26 Sep 2025 14:22:32 -0000
-Message-Id: <175889655242.1562708.5127631329069939235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 26 Sep 2025 14:23:01 -0000
+Message-Id: <175889658101.1563046.2344432189094562247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/tags/thermal-v6.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: da8522620f1a7f5c16d64d7289ecca5f514ab3d9
+  - ref: refs/heads/master
+    old: 27a779c9dbe1d1d9748237d5be49f805cdcce0a4
+    new: 159d92f5d3d3e8e52cd6b2ef72fb0095e301d976
+    log: |
+         8d5f1e52e91514c3c9f43fc9e1650d3b339fe127 cve_classifier: don't include large commits in the prompt
+         159d92f5d3d3e8e52cd6b2ef72fb0095e301d976 tools: Remove .diff file support in favor of .message files
+         
