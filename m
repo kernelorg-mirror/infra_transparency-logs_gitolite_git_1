@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 26 Sep 2025 17:17:15 -0000
-Message-Id: <175890703514.1721298.8758822106288477746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 26 Sep 2025 17:23:39 -0000
+Message-Id: <175890741928.1726132.4924923008067382830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/riscv-for-linus-v6.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: a73e57e9d42cbde88c57271cd0f7d99bb423e53b
+  - ref: refs/heads/filemW4oHN
+    old: f8b9c819ea20d1101656a91ced843d9e47ba0630
+    new: 0000000000000000000000000000000000000000
