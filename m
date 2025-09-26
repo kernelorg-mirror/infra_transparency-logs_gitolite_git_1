@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 26 Sep 2025 13:38:03 -0000
-Message-Id: <175889388394.1520064.4869739042413796131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 26 Sep 2025 13:38:28 -0000
+Message-Id: <175889390878.1520447.10787690940765469702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/keys-pqc
-    old: aa9b8fdd2e0fc08db61d2c82a97009d91ff835db
-    new: 72dbc6028b9955e6560030896c65a93a1c6f4155
+  - ref: refs/heads/for-kernelci
+    old: 35aa5763e111b9aff896ec234b34b445fc0ac96e
+    new: 2213e57a69f0aa4f6595a4b6b6a7598b7c4b3b47
     log: |
-         70084aec4a7e3bbeec4d171145a5d2b020cd809d lib/crypto: Add SHA3 kunit tests
-         fe57c66da840d93bceb6c3c629b7841cd2033f61 crypto/sha3: Use lib/crypto/sha3
-         1b9cc3129f948d49bae49c644fdeb00ee0c83272 crypto/sha3: Add SHAKE128/256 support
-         72dbc6028b9955e6560030896c65a93a1c6f4155 crypto: SHAKE tests
+         cb0c5a60a6f7dd7f35fa5b46fd04dfb66b37fc1e docs: perf: Fujitsu: Fix htmldocs build warnings and errors
+         2213e57a69f0aa4f6595a4b6b6a7598b7c4b3b47 Merge branch 'for-next/core' into for-kernelci
+         
+  - ref: refs/heads/for-next/core
+    old: 200b0d25084d6e99f9f08229283b14b60a84c657
+    new: cb0c5a60a6f7dd7f35fa5b46fd04dfb66b37fc1e
+    log: |
+         cb0c5a60a6f7dd7f35fa5b46fd04dfb66b37fc1e docs: perf: Fujitsu: Fix htmldocs build warnings and errors
          
