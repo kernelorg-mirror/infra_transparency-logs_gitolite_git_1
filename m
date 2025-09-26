@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3005198555490528361=="
+Content-Type: multipart/mixed; boundary="===============7436098972292882841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 26 Sep 2025 19:50:55 -0000
-Message-Id: <175891625532.1853343.12962337479932971068@gitolite.kernel.org>
+Date: Fri, 26 Sep 2025 19:51:01 -0000
+Message-Id: <175891626147.1853564.7860524646396751452@gitolite.kernel.org>
 
---===============3005198555490528361==
+--===============7436098972292882841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: e42136a03dca4f11547aea8a53b64b6668b45fe0
     new: a036bb0e60ad2828c3498bff7465bcbb247b7436
     log: revlist-e42136a03dca-a036bb0e60ad.txt
 
---===============3005198555490528361==
+--===============7436098972292882841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ d0b5a39acd079bccaebbb0d94bfd4649359951c2 dt-bindings: pinctrl: mt65xx: Allow gpi
 4fea3336ef57295b989a6b2db4a6946a06e4c787 dt-bindings: trivial-devices: Add compatible string synaptics,synaptics_i2c
 a036bb0e60ad2828c3498bff7465bcbb247b7436 of: base: Add of_get_next_child_with_prefix() stub
 
---===============3005198555490528361==--
+--===============7436098972292882841==--
