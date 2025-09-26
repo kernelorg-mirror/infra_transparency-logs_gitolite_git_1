@@ -1,65 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3735673831997461424=="
+Content-Type: multipart/mixed; boundary="===============9068492468464865065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 26 Sep 2025 20:02:26 -0000
-Message-Id: <175891694695.1866363.17332821497215164397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Fri, 26 Sep 2025 20:07:13 -0000
+Message-Id: <175891723329.1870698.17556013211323603671@gitolite.kernel.org>
 
---===============3735673831997461424==
+--===============9068492468464865065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 57bd5eb636ca740228c3395c8f38138cddaa73e2
-    new: 74a3b1c2c1d61a10d6e13f9030d54e937edbc15b
-    log: revlist-57bd5eb636ca-74a3b1c2c1d6.txt
-  - ref: refs/heads/linux-next
-    old: 57bd5eb636ca740228c3395c8f38138cddaa73e2
-    new: 74a3b1c2c1d61a10d6e13f9030d54e937edbc15b
-    log: revlist-57bd5eb636ca-74a3b1c2c1d6.txt
-  - ref: refs/heads/testing
-    old: 57bd5eb636ca740228c3395c8f38138cddaa73e2
-    new: 74a3b1c2c1d61a10d6e13f9030d54e937edbc15b
-    log: revlist-57bd5eb636ca-74a3b1c2c1d6.txt
+  - ref: refs/heads/main
+    old: 9166c3f0bb9c5d3e31dc80aff165a5073b5ac5be
+    new: 4e68b52f0e0c9777c91088948374c6ee3d4a1f6b
+    log: revlist-9166c3f0bb9c-4e68b52f0e0c.txt
 
---===============3735673831997461424==
+--===============9068492468464865065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57bd5eb636ca-74a3b1c2c1d6.txt
+Content-Disposition: attachment; filename=revlist-9166c3f0bb9c-4e68b52f0e0c.txt
 
-4ae50c82a5ab9071b928648da8723153004170bb dt-bindings: thermal: tsens: Add QCS615 compatible
-84fd9e4a6b996ca1ac00eb46fcb4ef3246b6f6a3 thermal/drivers/rcar_gen3: Add support for per-SoC default trim values
-48bc3b3317b9e67103b82cebbc1475b57abde38b thermal/drivers/rcar_gen3: Add support for R-Car V4H default trim values
-5ea75f3479ee7c97a54c8660ce2cd980c9e9afb6 thermal/drivers/mediatek/lvts_thermal: Remove unneeded semicolon
-57eda47bd14b0c2876f2db42e757c57b7a671965 thermal/drivers/qcom: Make LMH select QCOM_SCM
-b50b2c53f98fcdb6957e184eb488c16502db9575 thermal/drivers/qcom/lmh: Add missing IRQ includes
-14b7ea27bd0fcbaf06f3df1544dcbced43e9fb1b drivers/thermal/qcom/lmh: Fix incorrect error message
-13eac80a2db125c56a13938216c23202cf7f59ac thermal/drivers/rcar_gen3: Fix comment typo
-ec4be3165e4c6af3f03c8a603af5ea118c95dfb4 thermal/drivers/rcar_gen3: Document Gen4 support in Kconfig entry
-aa0025154855b10b68ada4e60fd99623d51252cc dt-bindings: thermal: Document Tegra114 SOCTHERM Thermal Management System
-48fc33b95159badfca03d0c48aced60bf9f9325a thermal/drivers/tegra/soctherm-fuse: Prepare calibration for Tegra114 support
-10e1dcb62a7e874af43e7dfbef13ef8e3a2ad4a9 dt-bindings: thermal: add Tegra114 soctherm header
-9d522a877b6f1a8a2675826d14d2edaa9712db9a thermal/drivers/tegra: Add Tegra114 specific SOCTHERM driver
-117bdda24d68be7a61d460e1ee372458c41e787e thermal/drivers/rcar_gen3: Fix mapping SoCs to generic Gen4 entry
-55173287e7a2dbab8c920f7d5db8ac515ab82b4e thermal/drivers/k3_j72xx_bandgap: Register sensors with hwmon
-a3152e5c742ca2557c5cd0e5a9e6ca6b9a92df93 dt-bindings: thermal: r9a08g045-tsu: Document the TSU unit
-dc095b37b09e1abbdb6daf5e69dbd0cd5265087e thermal/drivers/renesas/rzg3s: Add thermal driver for the Renesas RZ/G3S SoC
-6f769708d53ab029f09f78660680b4ad161092f2 thermal/drivers/rockchip: Unify struct rockchip_tsadc_chip format
-c268a9d8c18d594418dcf16762bfe9caf6e1bbb6 thermal/drivers/rockchip: Shut up GRF warning
-e881662aa06af65021c2fa255dd7530235a3d195 dt-bindings: thermal: rockchip: Tighten grf requirements
-3762f5851ac5a65dcccadf73dbe853b1b346f561 thermal/drivers/thermal-generic-adc: Add temperature sensor channel
-caf41eb4575ddac61dd0f6d4a6108bb7ab9fc408 dt-bindings: thermal: r9a09g047-tsu: Document the TSU unit
-19d3a401a617c68e9487f55b9f2efe213f8f949d thermal/drivers/renesas/rzg3e: Add thermal driver for the Renesas RZ/G3E SoC
-79428e60897916401c9ed326f6ada4d7c7c997a3 dt-bindings: thermal: qcom-tsens: Document the Glymur temperature Sensor
-b1793cd1fefaa372f838aa43cf6c404ad49e2968 Merge branch 'thermal-intel'
-acbba7f0e5ec9736813dee221cc20f77a7d11d7b Merge tag 'thermal-v6.18-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux
-74a3b1c2c1d61a10d6e13f9030d54e937edbc15b Merge branch 'thermal' into linux-next
+c3d682e19e1157c2b193c2c2b258c61055cbf069 README: Drop "debug" from the tracing path
+0dc503a35789da265735df2f03524b4ec7d63209 rt-utils: Remove mount_debugfs()
+37b49286a1d48fe6ca5adc2c6359cfc3d12a26ae rt-utils: Rename get_debugfileprefix() and let it look for tracefs
+b5941f7e5a6ad3e034d4dd2570aa00ac49000b04 queuelat, rt-migrate-test: Use tracefs for tracing
+47e056d9a0eec92da5a97690e2c59c6179762176 rt-utils: Remove fileprefix.
+9d26bd81f4595c71c8590e476153bd6807da0edd rt-utils: Simplify trace_file_exists()
+52fb02a7d7d73e1f304afb7442c58d92e9aecb42 rt-utils: Decouple writing trace-marks with trace stopping
+bd5967b42597d4c6cafe53f29d86959964e2929f sched_deadline: Use tracemark() from rt-utils instead custom implementation
+151b2f5ee633f22a2c43e0619d07b70f5a07df53 sched_deadline: Check the resulting size returned from snprintf()
+064050e8c1beec927b2ce1f817b92bc3f64badd7 cyclicdeadline: Don't test for /sys/kernel/debug/sched_features
+d524fe1d0f21130a5efbdf54bc4617eb100bef62 ssdd: mitigate tracee starvation
+60d60540c0094d30e2faa7a36037fe483b5a2316 rt-utils.c: Check return values of write()
+564093ba1564cd6f97bfa253680158958c181316 pmqtest.c: Check return values of write() and ftruncate()
+dd7b0229aa1ddd00a66ced101169c62580e75f0d ptsematest.c: Check return values of write() and ftruncate()
+1fc77b9d100aa56f0e317b10997463d493fadcd3 rt-migrate-test.c: Check return values of write() and ftruncate()
+9745fb809bfade8ed2361ead1c2e9339cadfa367 cyclicdeadline.c: Check return values of write() and ftruncate()
+a64853b50770f9f6cb2d734df634cdaa2922d29f deadline_test.c: Check return values of write() and ftruncate()
+929d84fa4f2beb2c96407a7c21d9aaed6779ca72 sigwaittest.c: Check return values of write() and ftruncate()
+4e68b52f0e0c9777c91088948374c6ee3d4a1f6b svsematest.c: Check return values of write() and ftruncate()
 
---===============3735673831997461424==--
+--===============9068492468464865065==--
