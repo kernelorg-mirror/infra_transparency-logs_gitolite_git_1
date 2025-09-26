@@ -1,47 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1753395644203172726=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 26 Sep 2025 08:34:28 -0000
-Message-Id: <175887566801.1252849.3182354420273514086@gitolite.kernel.org>
-
---===============1753395644203172726==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 26 Sep 2025 08:35:45 -0000
+Message-Id: <175887574538.1254984.13816254533306203392@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/b4/aarch64-dynamic-kernel-stacks-v6.17-rc1
-    old: 1568268d4178aaea346b3ab595773f2326018676
-    new: 7c0046c311f8023d3ffcefc2b103d68765e9cf89
-    log: revlist-1568268d4178-7c0046c311f8.txt
-  - ref: refs/heads/b4/aarch64-dynamic-kernel-stacks-v6.17-rc1-old
+  - ref: refs/tags/vfs-6.17-rc8.fixes
     old: 0000000000000000000000000000000000000000
-    new: 1568268d4178aaea346b3ab595773f2326018676
-
---===============1753395644203172726==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1568268d4178-7c0046c311f8.txt
-
-009522a283381eda6e75ccd97e5aba7017fdf2cf Dynamic kernel stack size for ARM64
-954c48a22d6cf4de541753564527fb668cf0d452 fork: Remove assumption that vm_area->nr_pages equals to THREAD_SIZE
-09687728a80f88770657bc30dcf7a294995cb689 fork: check charging success before zeroing stack
-de80d1d790209a1a82f71e39b34c053b91279f6b fork: zero vmap stack using clear_page() instead of memset()
-0bb10a4e239471d1daaff4ae873fec190fe62fb3 fork: use the first page in stack to store vm_stack in cached_stacks
-87793cc00797878c1a47fb877bae2d58d92ae2a6 fork: separate vmap stack alloction and free calls
-bf80e9ee2f6c90da07d5e5409b17ad93b7422514 mm/vmalloc: Add a get_vm_area_node() and vmap_pages_range_noflush() public functions
-cfb65c412ab8da7e4c35b1084f6578bcefdfd18e fork: Dynamic Kernel Stacks
-99fef1fbe7bedc3fac59ea7db0a02661f1a9acdb task_stack.h: Clean-up stack_not_used() implementation
-a3de321553574cfe09df4929cf754426b6fca656 task_stack.h: Add stack_not_used() support for dynamic stack
-003dc40a35c47a1b750cfeb9f724807e33362598 fork: Dynamic Kernel Stack accounting
-904448424617284a092482b621c99f6a1df5fdf9 fork: fallback to global store of stack pages
-cbdf8212f51198eb14e780bd75c79349c0ae4c68 arm64: entry: Confine TPIDR registers to userspace
-7c0046c311f8023d3ffcefc2b103d68765e9cf89 arm64: Support dynamic kernel stacks
-
---===============1753395644203172726==--
+    new: 9493e01a2c394e3220d6e4b273d7740a217d7e6c
+  - ref: refs/tags/vfs-6.18-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: aa32706a3e348d1f9f3f3c892d7c534a84104b4a
+  - ref: refs/tags/vfs-6.18-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: 24972965245eea87704929118b4d60a3720f8780
+  - ref: refs/tags/vfs-6.18-rc1.inode
+    old: 0000000000000000000000000000000000000000
+    new: 9434e7c7e2a8b45ca3672934027376e892ecb98e
+  - ref: refs/tags/vfs-6.18-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 0495f767e9714a5964aa1c6cd608e8f27d957a0a
+  - ref: refs/tags/vfs-6.18-rc1.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: 95e95031ba7cd1510613ddd8d39766fa0ae6a6d5
+  - ref: refs/tags/vfs-6.18-rc1.rust
+    old: 0000000000000000000000000000000000000000
+    new: 2ad3d206a1344e201dc6dbf690f54cbc4f606499
+  - ref: refs/tags/vfs-6.18-rc1.workqueue
+    old: 0000000000000000000000000000000000000000
+    new: 1324469d9ae34f5929c47cc28453e37da27e4208
+  - ref: refs/tags/kernel-6.18-rc1.clone3
+    old: 0000000000000000000000000000000000000000
+    new: a3766cbc0f99430b16ae28fe080c80f4db3ebf52
+  - ref: refs/tags/vfs-6.18-rc1.procfs
+    old: 0000000000000000000000000000000000000000
+    new: d56950b558f7bf996d099d6d2746c6cf20f5b888
+  - ref: refs/tags/vfs-6.18-rc1.afs
+    old: 0000000000000000000000000000000000000000
+    new: 855d20fc917cb11f3be69b96c9c52792193e03cd
+  - ref: refs/tags/namespace-6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09ac05a505ab62225ee3985c7736ce9372aefcb4
+  - ref: refs/tags/vfs-6.18-rc1.writeback
+    old: 0000000000000000000000000000000000000000
+    new: b1419e62723f98c171c2cc8edbc143b592c3ab78
+  - ref: refs/tags/vfs-6.18-rc1.async
+    old: 0000000000000000000000000000000000000000
+    new: 63068d08c16db3069c4cf62f5201e1ba0be8c80c
