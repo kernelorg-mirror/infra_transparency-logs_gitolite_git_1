@@ -1,81 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============7996407954317457550=="
+Content-Type: multipart/mixed; boundary="===============1593689107512620066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 26 Sep 2025 20:33:11 -0000
-Message-Id: <175891879160.1893270.14375726932103699585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 26 Sep 2025 20:42:53 -0000
+Message-Id: <175891937380.1901542.16744474292833357389@gitolite.kernel.org>
 
---===============7996407954317457550==
+--===============1593689107512620066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: 2a75658499c74cb96f05e24f6c671803f08be53c
-    new: 9b7310ad466d283078694a8fa9bc289925d50fd6
-    log: revlist-2a75658499c7-9b7310ad466d.txt
+  - ref: refs/heads/master
+    old: 4ff71af020ae59ae2d83b174646fc2ad9fcd4dc4
+    new: 083fc6d7fa0d974a3663b97c8b0466737a544236
+    log: revlist-4ff71af020ae-083fc6d7fa0d.txt
 
---===============7996407954317457550==
+--===============1593689107512620066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a75658499c7-9b7310ad466d.txt
+Content-Disposition: attachment; filename=revlist-4ff71af020ae-083fc6d7fa0d.txt
 
-b640d42a6ac9ba01abe65ec34f7c73aaf6758ab8 PCI: tegra194: Fix broken tegra_pcie_ep_raise_msi_irq()
-82f1cc171ce95544c024837c20a54d1954a67a76 PCI: tegra194: Set pci_epc_features::msi_capable to true
-48991e4935078b05f80616c75d1ee2ea3ae18e58 PCI/sysfs: Ensure devices are powered for config reads
-42f9c66a6d0cc45758dab77233c5460e1cf003df PCI: tegra194: Reset BARs when running in PCIe endpoint mode
-f8c9ad46b00453a8c075453f3745f8d263f44834 PCI: tegra194: Handle errors in BPMP response
-15c5867b0ae6a47914b45daf3b64e2d2aceb4ee5 PCI: Don't print stale information about resource
-c96992a24beca0768c1c42ad25d6a466e17ec70f PCI: dwc: Add support for ELBI resource mapping
-f6fd357f7afbeb34a633e5688a23b9d7eb49d558 PCI: dwc: Prepare the driver for enabling ECAM mechanism using iATU 'CFG Shift Feature'
-4660e50cf81800f82eeecf743ad1e3e97ab72190 PCI: qcom: Prepare for the DWC ECAM enablement
-0da48c5b2fa731b21bc523c82d927399a1e508b0 PCI: dwc: Support ECAM mechanism by enabling iATU 'CFG Shift Feature'
-0a8f173d9dad13930d5888505dc4c4fd6a1d4262 PCI: rcar-host: Drop PMSR spinlock
-a43ac325c7cbbfe72bdf9178059b3ee9f5a2c7dd PCI: Set up bridge resources earlier
-06b77d5647a4d6a7c8ba96292b5adc2ffb9f76a9 PCI: Mark resources IORESOURCE_UNSET when outside bridge windows
-a109384e21f4959bf5b7ad7a144b63dfdc99639a PCI: dwc: Invoke .post_init() callback in dw_pcie_resume_noirq()
-668b42687b947b5d395eb5f2a9b98a1d4db638df PCI: imx6: Assert CLKREQ# during host controller initialization
-8795b70581770657cd5ead3c965348f05242580f PCI: rcar-gen4: Add missing 1ms delay after PWR reset assertion
-0056d29f8c1b13d7e60d60cdb159767ac8f6a883 PCI: rcar-gen4: Assure reset occurs before DBI access
-2bdf1d428f48e1077791bb7f88fd00262118256d PCI: rcar-gen4: Fix inverted break condition in PHY initialization
-26fda92d3b56bf44a02bcb4001c5a5548e0ae8ee PCI: tegra: Convert struct tegra_msi mask_lock into raw spinlock
-e1bd928479fb1fa60e9034b0fdb1ab9f3fa92f33 PCI: tegra194: Rename 'root_bus' to 'root_port_bus' in tegra_pcie_downstream_dev_to_D0()
-5ed35b4d490d8735021cce9b715b62a418310864 PCI: rcar-host: Convert struct rcar_msi mask_lock into raw spinlock
-7c403b6042438e8d88171921ba64dc7baa22ad77 Merge branch 'pci/aer'
-0049f7ee7c6eea5379ee9d2b99a440429f7dd3c6 Merge branch 'pci/aspm'
-c97c46b38f1346a9966ff95c951969b179d20482 Merge branch 'pci/enumeration'
-aa1f9c20d7e6aa385b19eb7c91e2b453ac1ff24b Merge branch 'pci/hotplug'
-a6a54cce34a270109a99b0f83ecda2db12789827 Merge branch 'pci/msi'
-88bcecb5d90b2a9e27688cd556218720a84d273d Merge branch 'pci/of'
-cc384c6c3c2335a5b84a2276b5decd1f5bd2e9dd Merge branch 'pci/p2pdma'
-a31e9d64d727a446888cb23cb414d79434acf0f3 Merge branch 'pci/pm'
-51a0070c1e32869b261e6ac78039f01e8e15337e Merge branch 'pci/pwrctrl'
-08f6dd07d17fb6469caedb8898154b2503e2e208 Merge branch 'pci/resource'
-e3f3d60c390992c376e1d422f9ce2f87f24e7fa9 Merge branch 'pci/switchtec'
-0d3cea2ff0ab74d99a1a6588e37fce4996d9a4cb Merge branch 'pci/capability-search'
-2ca7ab23f3159c282f0f4eb6802b94a60cdf30a9 Merge branch 'pci/dt-binding'
-de95a2cc5815e7aabe3668bcacb88ada1b79d249 Merge branch 'pci/endpoint'
-3b23a403ecc134525a1d1d07fb936beb1614ae09 Merge branch 'pci/controller/amd-mdb'
-dfa37d1a46aeb925e2a1bb1d5ac231e2761eabd3 Merge branch 'pci/controller/dwc-edma'
-51cb3f58f054675c9b3fad3cfa2a876d4af49a80 Merge branch 'pci/controller/hv'
-135a4afdb4906034654f223b5d634dbd548e9734 Merge branch 'pci/controller/imx6'
-022feb628de33d0416ed4b127faec3eb65d14c25 Merge branch 'pci/controller/keystone'
-8e4b36e2957710bec6212124222824e53ef31046 Merge branch 'pci/controller/qcom'
-5494672821dac9156db47c158d347136d6239831 Merge branch 'pci/controller/mediatek-gen3'
-0523abbe17657dee66894f657b56ee92f24ced4e Merge branch 'pci/controller/plda'
-3874d3b89e5dfef12935f20d17b8ab7319301027 Merge branch 'pci/controller/rcar-gen4'
-6dd36cc399c9611af253a38c4eede1d7aad17a26 Merge branch 'pci/controller/rcar-host'
-33ff8b36ab6dce3ef65b984f124a495e59e2e5bd Merge branch 'pci/controller/sophgo'
-644bd6dbc1c6257c99d094c4918f46056cc25446 Merge branch 'pci/controller/stm32'
-f75f48292ec752f23404467e14541fffb90d3a5b Merge branch 'pci/controller/tegra'
-5384a3a9d5816f7a48ee69daf63dc652ed3b6c79 Merge branch 'pci/controller/ti'
-1673943c37bf0b6515007b2704fcc8ddb4cbda00 Merge branch 'pci/controller/xgene-msi'
-9b7310ad466d283078694a8fa9bc289925d50fd6 Merge branch 'pci/misc'
+66d938e89e940e512f4c3deac938ecef399c13f9 netfs: Prevent duplicate unlocking
+c7c31f8dc54aa3c9b2c994b5f1ff7e740a654e97 drm/ast: Use msleep instead of mdelay for edid read
+352e66900cde63f3dadb142364d3c35170bbaaff drm/gma500: Fix null dereference in hdmi teardown
+b549113738e8c751b613118032a724b772aa83f2 futex: Prevent use-after-free during requeue-PI
+1cf9f2a6a544288516a7b9e883a48eba6246bcf2 smb: client: handle unlink(2) of files open by different clients
+1a194e6c8e1ee745e914b0b7f50fa86c89ed13fe fbcon: fix integer overflow in fbcon_do_set_font
+c6ccc4dde17676dfe617b9a37bd9ba19a8fc87ee gpiolib: Extend software-node support to support secondary software-nodes
+3bd44edd6c55828fd4e11cb0efce5b7160bfa2de gpio: regmap: fix memory leak of gpio_regmap structure
+ab073abf6d974d3fe998fc6731ca80e2b57ffd69 block: fix EOD return for device with nr_sectors == 0
+500dad428e5b0de4c1bdfa893822a6e06ddad0b5 drm/xe/vf: Don't expose sysfs attributes not applicable for VFs
+b67e7422d229dead0dddaad7e7c05558f24d552f drm/xe: Fix build with CONFIG_MODULES=n
+77c8ede611c6a70a95f7b15648551d0121b40d6c drm/xe: Don't copy pinned kernel bos twice on suspend
+c1e7254935c0414e7a31737bd357872d1b0f346b drm/i915: set O_LARGEFILE in __create_shmem()
+7f97a0a871d9532f2e1a5ee7d16d0e364215bcac drm/i915/ddi: Guard reg_val against a INVALID_TRANSCODER
+12a3dd4d2cd9232d4e4df3b9a5b3d745db559941 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
+2c61c45af153243baf591a77ec187be2b9cfe302 platform/x86/dell: Set USTT mode according to BIOS after reboot
+a15b5aefa8178846ed614745569fed0d1fb6cb87 platform/x86: dell-lis3lv02d: Add Latitude E6530
+9b2f5ef00e852f8e8902a4d4f73aeedc60220c12 fbcon: Fix OOB access in font allocation
+285213a65e91d0295751d740e2320d8fcd75d56e MAINTAINERS: update io_uring and block tree git trees
+5fc4ab3269dea6a0b00c7256cb6f6c0101b6a44b pmdomain: mediatek: set default off flag for MT8195 AUDIO power domain
+44b0fed0a5947f54fd14255cd0766df952267bc5 drm/amd/display: Only restore backlight after amdgpu_dm_init or dm_resume
+1c3217dd557d4f04eb4c2afcd7c76de6b4d66ccb drm/amd/display: Use mpc.preblend flag to indicate preblend
+361ee85e980c16c9b9e236ccfac33014e8602485 drm/amd/display: Init DCN35 clocks from pre-os HW values
+41b1f9fcba62b06195e625bb88c1031102892439 drm/amd/display: remove output_tf_change flag
+4ec3c15462b9f44562f45723a92e2807746ba7d1 futex: Use correct exit on failure from futex_hash_allocate_default()
+e2ffa15b9baa447e444d654ffd47123ba6443ae4 kbuild: Disable CC_HAS_ASM_GOTO_OUTPUT on clang < 17
+9158c6bb245113d4966df9b2ba602197a379412e afs: Fix potential null pointer dereference in afs_put_server
+4ae8d9aa9f9dc7137ea5e564d79c5aa5af1bc45c sched/deadline: Fix dl_server getting stuck
+a3a70caf7906708bf9bbc80018752a6b36543808 sched/deadline: Fix dl_server behaviour
+7d9c3442b02ab7dd3c44e20095a178fd57d2eccb drm/panthor: Defer scheduler entitiy destruction to queue release
+3ed17349f18774c24505b0c21dfbd3cc4f126518 platform/x86: lg-laptop: Fix WMAB call in fan_mode_store()
+29ecd47927754e88f9f9a75bb2a497dd5e38301b Merge tag 'amd-drm-fixes-6.17-2025-09-24' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+4d486a51772421b1c6e37e6bfec9b3c60af58dba Merge tag 'drm-intel-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+366a9295079731654bf0e0c6c5ac47b1f346b410 Merge tag 'drm-misc-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+ec73e5984e01bfdf92234eaf5a2c3e54aa67f2aa Merge tag 'drm-xe-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+4d428dca252c858bfac691c31fa95d26cd008706 netfs: fix reference leak
+fbe2dc6a9c7318f7263f5e4d50f6272b931c5756 smb: client: fix wrong index reference in smb2_compound_op()
+3170244bc5cfe2a93d105aa57ff7e04ab19f78fc Merge tag 'drm-fixes-2025-09-26' of https://gitlab.freedesktop.org/drm/kernel
+3a654ee549210f8aecfbebc7c699557666d17a4b Merge tag 'block-6.17-20250925' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+df2837012f7e29fc80ea673268643ec472ee0e61 Merge tag 'gpio-fixes-for-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+bb97142197df73fbbb0e6f8629dc1f89ef6960f7 Merge tag 'platform-drivers-x86-v6.17-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+0d97ef77425e591669111ebf819ceb5d5e2dc329 Merge tag 'pmdomain-v6.17-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+d8743676b12addb982f5d501e9f8def042ef9bdb Merge tag 'vfs-6.17-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+f26a24662cd2875f82029e28879a20cea212214c Merge tag 'v6.17rc7-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+8b07f74c23a0890977a5ae3c0b2c105d7ac3b584 Merge tag 'core-urgent-2025-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2cea0ed9796381b142f46bd8de97bb6b54b1df61 Merge tag 'locking-urgent-2025-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+083fc6d7fa0d974a3663b97c8b0466737a544236 Merge tag 'sched-urgent-2025-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============7996407954317457550==--
+--===============1593689107512620066==--
