@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8252406579454711911=="
+Content-Type: multipart/mixed; boundary="===============5490557861986742422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Sep 2025 22:38:37 -0000
-Message-Id: <175892631705.2002858.1902772738449296819@gitolite.kernel.org>
+Date: Fri, 26 Sep 2025 22:42:17 -0000
+Message-Id: <175892653705.2006970.16914447529676661151@gitolite.kernel.org>
 
---===============8252406579454711911==
+--===============5490557861986742422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 203e3beb73e53584ca90bc2a6d8240b9b12b9bcf
-    new: 347afa39042728267550fa7a5ab5e9af52671add
-    log: revlist-203e3beb73e5-347afa390427.txt
+  - ref: refs/heads/dev-queue
+    old: d7b6b8009ad6bf4fc20a871452edaa3cb3205720
+    new: f4f8769193be440ca73723db45abbcb519ebf2c8
+    log: revlist-d7b6b8009ad6-f4f8769193be.txt
 
---===============8252406579454711911==
+--===============5490557861986742422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-203e3beb73e5-347afa390427.txt
+Content-Disposition: attachment; filename=revlist-d7b6b8009ad6-f4f8769193be.txt
 
 58de1f91e033b1fface8d8948984583125f93736 wifi: rtw88: sdio: use indirect IO for device registers before power-on
 26a8bf978ae9cd7688af1d08bc8760674d372e22 wifi: rtw88: Lock rtwdev->mutex before setting the LED
@@ -283,5 +283,45 @@ ffa8f0791955dec12af2a09a1655a41e3fff783a net: dns_resolver: Fix request-key cros
 793adf57e2cfa85792989f6d89cb1bba5bcc6df2 Merge branch 'dns_resolver-docs-formatting-cleanup'
 81dcfdd21dbd7067068c7c341ee448c3f0d6f115 selftest: net: Fix error message if empty variable
 347afa39042728267550fa7a5ab5e9af52671add dpll: zl3073x: Fix double free in zl3073x_devlink_flash_update()
+8d581077a2152ab36181322141a8d24ba82880f6 ice: fix lane number calculation
+151b61765756d34b7fbefb451eba434f561f3ed2 ice: Allow 100M speed for E825C SGMII device
+9b9f57970f0d299f0b7122ee24255f730e7b9c54 idpf: cleanup remaining SKBs in PTP flows
+2d26d48dfcbe083ba3663c3bb5908653da42858a ice: Fix enable_cnt imbalance on resume
+79c68bb0abe18961fa6f989def6ca00ab3af3253 ice: Fix enable_cnt imbalance on PCIe error recovery
+e38183778456aa2ad3f28cae8c59aa40db4e14b1 i40e: Fix enable_cnt imbalance on PCIe error recovery
+5f9b359596a4b2e96d796f5dfa6511b44d5be3ce ixgbevf: fix getting link speed data for E610 devices
+538e16bc5fe68e544081a00c82863f455af36eee ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
+77445aa964a6471c988ec444a5bfb75743868f69 ixgbevf: fix mailbox API compatibility by negotiating supported features
+1c473ce0d64429b954f72a821a24285bc060ae00 ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
+db7de80001f7a7699e895a8ed13a1d38f099b13b ice: add flow parsing for GTP and new protocol field support
+9d05bf71ed50c9e7e9e00283c081ab2e36a27121 ice: add virtchnl and VF context support for GTP RSS
+172f14183169b0c3bec19a3c943f5fd7897022a0 ice: improve TCAM priority handling for RSS profiles
+854ef09db9d3831e3c2483373611fcaeaa0a53a9 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
+a99afca76cebc2216c61ee2ac5060869932c14df iavf: add RSS support for GTP protocol via ethtool
+46baa8cbd4fdea2aea50dbb5c309b1b800e6fd53 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+d4409554f34f6fb7316f2b7a54fe8cb60df42fa3 ixgbe: fix too early devlink_free() in ixgbe_remove()
+3b3466837130fbe39d4e63f99bde3dd8d8cbab6e ice: add recovery clock and clock 1588 control for E825c
+ec44d55dc8d47fc8d4a0fb16ec6e68bd208dff68 devlink: Add new "max_mac_per_vf" generic device param
+f82dfffbb4a6a0208accdd07b585a496aa0d4a94 i40e: support generic devlink param "max_mac_per_vf"
+68078da52b35cf1a50a046381744e6b0853cd117 e1000e: Introduce private flag to disable K1
+46420a8c5815c537b65500786dea5fb90670553c idpf: convert vport state to bitmap
+b19fc4f0eedffb50c21cff4f39e3caa44e0218a3 idpf: fix possible race in idpf_vport_stop()
+5f57562c05121b38db45c8dc161fec298107bdd0 ice: enforce RTNL assumption of queue NAPI manipulation
+9cd1d364ec70e9a9beb39d75446f3e91e15fb454 ice: move service task start out of ice_init_pf()
+872031d63590b6885bf570b4b4dd0f30ac1a7869 ice: move ice_init_interrupt_scheme() prior ice_init_pf()
+d087829bb697c69ef109f39e9e0107d2e84fc561 ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
+cfe9c622f200348d8d5424491d6d3a42160f80c5 ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
+599ae1444fe3c7707a63b57e78d6455331f0cad1 ice: move ice_init_pf() out of ice_init_dev()
+5000d2af6ded2824ab876c04acc752daeadcd805 ice: extract ice_init_dev() from ice_init()
+c19f1f712e7a7e6532b22300dc602b5bbfbfc3ab ice: move ice_deinit_dev() to the end of deinit paths
+bd7f40d281b1862ee116161339ea512e07e2a42d ice: remove duplicate call to ice_deinit_hw() on error paths
+7820ad5c5a9b39574a613ff8e0d3995c4114ca42 net: docs: add missing features that can have stats
+f0a11c44621cfccd39e71317d7a769efa1de8a5f ice: implement ethtool standard stats
+e5907af5bae6c04df963591773b86c812d1c1bd2 ice: add tracking of good transmit timestamps
+f2c2e87414192aa3b36764060a154c1035519895 ice: implement transmit hardware timestamp statistics
+e969c557d99af935a61c0116fc1d6b836cdd0145 ice: refactor to use helpers
+b791751a6cddb07f132e7734378ef06cf8809486 igc: power up the PHY before the link test
+f60e5da6fedb4ad0029afef566a784a1126af223 ixgbe: preserve RSS indirection table across admin down/up
+f4f8769193be440ca73723db45abbcb519ebf2c8 idpf: remove duplicate defines in IDPF_CAP_RSS
 
---===============8252406579454711911==--
+--===============5490557861986742422==--
