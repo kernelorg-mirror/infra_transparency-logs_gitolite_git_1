@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Fri, 26 Sep 2025 17:04:27 -0000
-Message-Id: <175890626737.1710184.6937546871177695449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 26 Sep 2025 17:17:15 -0000
+Message-Id: <175890703514.1721298.8758822106288477746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: wagi
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/tags/v6.12.49-rt13-patches
+  - ref: refs/tags/riscv-for-linus-v6.17-rc8
     old: 0000000000000000000000000000000000000000
-    new: 77f8c28410a39cf30aa2d0b052132fcf4ee12462
+    new: a73e57e9d42cbde88c57271cd0f7d99bb423e53b
