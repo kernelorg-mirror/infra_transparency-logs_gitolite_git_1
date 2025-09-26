@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Sep 2025 21:23:01 -0000
-Message-Id: <175892178136.1936139.7981638345387005198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 26 Sep 2025 21:35:10 -0000
+Message-Id: <175892251019.1948362.7897912136311444377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: 11ae737efea10a8cc1c48b6288bde93180946b8c
-    new: 47f78a67d35e48a56add528c9aa681782cf1b8e1
+  - ref: refs/heads/for-next
+    old: a036bb0e60ad2828c3498bff7465bcbb247b7436
+    new: d1a7be736ca9b89c32023185fa95c0df02f6db27
     log: |
-         267bca002c504b6c656c23dc973a34ddaededbce dt-bindings: net: sparx5: correct LAN969x register space windows
-         6c85fb5486c5a8ae646438877d7dc5050992a173 psp: Expand PSP acronym in INET_PSP help description
-         47f78a67d35e48a56add528c9aa681782cf1b8e1 selftests: drv-net: Enable BTF
+         86eedc669a56e5607c253253d7b466a5b8d70fc8 docs: dt: fix grammar and spelling
+         d6f57d8c5a5aede34c72382cdbd5b35616e171e6 dt-bindings: fix spelling, typos, grammar, duplicated words
+         77e46093e83a2788e2cf80ba8c8731375e587ad2 scripts: dt_to_config: fix grammar and a typo in --help text
+         74459b0dacced28542b631abf89bc24456c7f789 dt-bindings: display: bridge: convert megachips-stdpxxxx-ge-b850v3-fw.txt to yaml
+         33b6c8ed1ddd6118fbc150269cd2201462fbd7e6 dt-bindings: vendor-prefixes: update regex for properties without a prefix
+         532a94352fca6b51f49d1cd9f0e4250ade49b8b2 dt-bindings: rng: sparc_sun_oracle_rng: convert to DT schema
+         d1a7be736ca9b89c32023185fa95c0df02f6db27 dt-bindings: gpu: Convert nvidia,gk20a to DT schema
          
