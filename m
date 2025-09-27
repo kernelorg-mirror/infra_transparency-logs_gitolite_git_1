@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 27 Sep 2025 19:33:09 -0000
-Message-Id: <175900158932.3035423.326781837456853678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Sat, 27 Sep 2025 22:17:04 -0000
+Message-Id: <175901142403.3165823.3068488297099522648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/next
-    old: 201cb9bcf14670d3799820f52143d06ca26867a9
-    new: bad35dbf34838a5e2914292d743d27a23014b40b
+  - ref: refs/heads/thermal/linux-next
+    old: 79428e60897916401c9ed326f6ada4d7c7c997a3
+    new: aff9cf97881ca76f46fc8f5b13cc990b26d0831b
     log: |
-         bad35dbf34838a5e2914292d743d27a23014b40b release_note: update for 'damo report damon' changes
+         aff9cf97881ca76f46fc8f5b13cc990b26d0831b thermal/drivers/renesas/rzg3e: Fix add thermal driver for the Renesas RZ/G3E SoC
          
