@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3691184780484104942=="
+Content-Type: multipart/mixed; boundary="===============5222789012834217838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 27 Sep 2025 18:05:25 -0000
-Message-Id: <175899632510.2964057.2682290999265043356@gitolite.kernel.org>
+Date: Sat, 27 Sep 2025 18:05:51 -0000
+Message-Id: <175899635166.2964346.2573994962293184928@gitolite.kernel.org>
 
---===============3691184780484104942==
+--===============5222789012834217838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 9d0e78f4e95d6f5025c2e80be5770aa8b2a45b5d
+  - ref: refs/heads/next
+    old: 7e93fe26caa9c010d438b267616793026db363b7
     new: 262bb4f7cacfd17bd0ae118255f61dbc5cfbdd96
-    log: revlist-9d0e78f4e95d-262bb4f7cacf.txt
+    log: revlist-7e93fe26caa9-262bb4f7cacf.txt
 
---===============3691184780484104942==
+--===============5222789012834217838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d0e78f4e95d-262bb4f7cacf.txt
+Content-Disposition: attachment; filename=revlist-7e93fe26caa9-262bb4f7cacf.txt
 
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
 06ea48beece831a8447758e5432ad1cd60765363 ARM: dts: allwinner: Minor whitespace cleanup
@@ -226,4 +226,4 @@ eb28a2adba0654878bcfd909b429bf567b35922b tpm: Ensure exclusive userspace access 
 b6889908d493fe03a1db28aa9afdade6bceda158 tpm: Allow for exclusive TPM access when using /dev/tpm<n>
 262bb4f7cacfd17bd0ae118255f61dbc5cfbdd96 tpm: Require O_EXCL for exclusive /dev/tpm access
 
---===============3691184780484104942==--
+--===============5222789012834217838==--
