@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0120378120830126778=="
+Content-Type: multipart/mixed; boundary="===============4533013610299093437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Sat, 27 Sep 2025 17:16:25 -0000
-Message-Id: <175899338522.2923257.917705346345520006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 27 Sep 2025 17:33:31 -0000
+Message-Id: <175899441115.2936291.16772842367365193388@gitolite.kernel.org>
 
---===============0120378120830126778==
+--===============4533013610299093437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/tags/fscrypt-for-linus
-    old: cce429f1c63d557fe9103a9cdedb30f463decc58
-    new: 9dcae587058ee4e2d0c304a734df9febf1c96199
-    log: revlist-cce429f1c63d-9dcae587058e.txt
+  - ref: refs/tags/crc-for-linus
+    old: 439d83c2f131cc3602ba4cd60a518c19f0ca4199
+    new: 5e7b3c711bdf0ddc65cb8faf24b64b2d11d6aa97
+    log: revlist-439d83c2f131-5e7b3c711bdf.txt
 
---===============0120378120830126778==
+--===============4533013610299093437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cce429f1c63d-9dcae587058e.txt
+Content-Disposition: attachment; filename=revlist-439d83c2f131-5e7b3c711bdf.txt
 
-651ad43d56d1bae6aa37d313339ce756b5303a67 MAINTAINERS: add missing mm_slot.h file THP section
-2011011ad6aee2d4366402d91a856a9c9f377252 MAINTAINERS: move memremap.[ch] to hotplug section
-c3ef2cc69596f2cfb1546d6428ca906dd2cc13ea MAINTAINERS: add missing shrinker files
 2656a75ca140710b7cc78f3c495dd9660f78a2c3 MAINTAINERS: add missing files to page alloc section
 a5c9fcb18c5a94932a50e2ce1549c8c2396530c4 MAINTAINERS: add missing zsmalloc file
 e23210425c594b0d58c5bae4a955346c2a7b6b1c MAINTAINERS: add MM MISC section, add missing files to MISC and CORE
@@ -1048,7 +1045,10 @@ acaa21a26f2ffa400aa77423403b357b871dbc28 Merge tag 'x86_urgent_for_v6.17_rc1' of
 b96ddbc5c88791260ab202e835425dfddbdd60d9 Merge tag 'smp_urgent_for_v6.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b38afce25c4e1b8f943ff4f0a2b51d6c40f2ed2 Merge tag 'turbostat-2025.09.09' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 Linux 6.17-rc1
-0e6608d4938eb209616e8673c95364bb2a7d55bd fscrypt: Remove redundant __GFP_NOWARN
-19591f7e781fd1e68228f5b3bee60be6425af886 fscrypt: use HMAC-SHA512 library for HKDF
+b41dc83f0790fd3488a45b31de0b0c3af7d441fe kunit, lib/crypto: Move run_irq_test() to common header
+842ec21357f15ff722695dd87daf99823f297185 lib/crc: crc_kunit: Test CRC computation in interrupt contexts
+c2a0c5156a40c40edb0cce80ce11c97ab39c67e3 lib/crc: Use underlying functions instead of crypto_simd_usable()
+5ff74f5f71f83cce3c920cd17940df0fe0401865 lib/crc: Drop inline from all *_mod_init_arch() functions
+136d029662cdde77d3e4db5c07de655f35f0239f Documentation/staging: Fix typo and incorrect citation in crc32.rst
 
---===============0120378120830126778==--
+--===============4533013610299093437==--
