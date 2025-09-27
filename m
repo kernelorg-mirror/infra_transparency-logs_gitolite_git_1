@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 27 Sep 2025 00:42:20 -0000
-Message-Id: <175893374092.2107748.9379419724925282280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 27 Sep 2025 01:03:58 -0000
+Message-Id: <175893503802.2124190.1628526049903299900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 55f5a5a7c1770c3c79715e5236d7055f3cca8742
-    new: bf91f4bc9c1dfba75e457e6a5f11e3cda658729a
+    old: 439263376c2c4e126cac0d07e4987568de4eaba5
+    new: 012ea489aedab1a4c08efbd936bb7be91a06d236
     log: |
-         e556f011e2df317b23ee44542189ed52c8117eea Wangxun: vf: Implement some ethtool apis for get_xxx
-         20a2e46f9e4c3c9a8a17708f81db672a26738adc eth: fbnic: Add support to read lane count
-         105ce7ad57e492b75ab40f2dc591db645fadbaa2 net: airoha: npu: Add a NPU callback to initialize flow stats
-         bf91f4bc9c1dfba75e457e6a5f11e3cda658729a net: phy: micrel: Fix lan8814_config_init
+         9665aa15ef8bdf1fa596f9ff8162e9c5e00ac036 dt-bindings: net: cdns,macb: allow tsu_clk without tx_clk
+         fca3dc859b200ca4dcdd2124beaf3bb2ab80b0f7 net: macb: remove illusion about TBQPH/RBQPH being per-queue
+         92d4256fafd8d0a14d3aaa10452ac771bf9b597c net: macb: move ring size computation to functions
+         78d901897b3cae06b38f54e48a2378cf9da21175 net: macb: single dma_alloc_coherent() for DMA descriptors
+         70a5ce8bc94545ba0fb47b2498bfb12de2132f4d net: macb: avoid dealing with endianness in macb_set_hwaddr()
+         012ea489aedab1a4c08efbd936bb7be91a06d236 Merge branch 'net-macb-various-fixes'
          
