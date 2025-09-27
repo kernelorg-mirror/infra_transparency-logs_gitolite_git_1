@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7288369284318523278=="
+Content-Type: multipart/mixed; boundary="===============7080635551186177735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 27 Sep 2025 16:37:37 -0000
-Message-Id: <175899105763.2889874.15488530938397154725@gitolite.kernel.org>
+Date: Sat, 27 Sep 2025 16:37:39 -0000
+Message-Id: <175899105914.2889950.3704444354224379912@gitolite.kernel.org>
 
---===============7288369284318523278==
+--===============7080635551186177735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,69 +15,70 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 4ff71af020ae59ae2d83b174646fc2ad9fcd4dc4
-    new: fec734e8d564d55fb6bd4909ae2e68814d21d0a1
-    log: revlist-4ff71af020ae-fec734e8d564.txt
+  - ref: refs/heads/mm-new
+    old: e612c80ae0aeb331f8377d43c94d5854f6b7f3d8
+    new: 6c679f0f1fab04b117d34ec87225f73aa965e4b5
+    log: revlist-e612c80ae0ae-6c679f0f1fab.txt
 
---===============7288369284318523278==
+--===============7080635551186177735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ff71af020ae-fec734e8d564.txt
+Content-Disposition: attachment; filename=revlist-e612c80ae0ae-6c679f0f1fab.txt
 
-66d938e89e940e512f4c3deac938ecef399c13f9 netfs: Prevent duplicate unlocking
-c7c31f8dc54aa3c9b2c994b5f1ff7e740a654e97 drm/ast: Use msleep instead of mdelay for edid read
-352e66900cde63f3dadb142364d3c35170bbaaff drm/gma500: Fix null dereference in hdmi teardown
-b549113738e8c751b613118032a724b772aa83f2 futex: Prevent use-after-free during requeue-PI
-1cf9f2a6a544288516a7b9e883a48eba6246bcf2 smb: client: handle unlink(2) of files open by different clients
-1a194e6c8e1ee745e914b0b7f50fa86c89ed13fe fbcon: fix integer overflow in fbcon_do_set_font
-4f115596133fa168bac06bb34c6efd8f4d84c22e x86/Kconfig: Reenable PTDUMP on i386
-c6ccc4dde17676dfe617b9a37bd9ba19a8fc87ee gpiolib: Extend software-node support to support secondary software-nodes
-3bd44edd6c55828fd4e11cb0efce5b7160bfa2de gpio: regmap: fix memory leak of gpio_regmap structure
-ab073abf6d974d3fe998fc6731ca80e2b57ffd69 block: fix EOD return for device with nr_sectors == 0
-500dad428e5b0de4c1bdfa893822a6e06ddad0b5 drm/xe/vf: Don't expose sysfs attributes not applicable for VFs
-b67e7422d229dead0dddaad7e7c05558f24d552f drm/xe: Fix build with CONFIG_MODULES=n
-77c8ede611c6a70a95f7b15648551d0121b40d6c drm/xe: Don't copy pinned kernel bos twice on suspend
-2066f00e5b2dc061fb6d8c88fadaebc97f11feaa x86/topology: Implement topology_is_core_online() to address SMT regression
-c1e7254935c0414e7a31737bd357872d1b0f346b drm/i915: set O_LARGEFILE in __create_shmem()
-7f97a0a871d9532f2e1a5ee7d16d0e364215bcac drm/i915/ddi: Guard reg_val against a INVALID_TRANSCODER
-12a3dd4d2cd9232d4e4df3b9a5b3d745db559941 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
-2c61c45af153243baf591a77ec187be2b9cfe302 platform/x86/dell: Set USTT mode according to BIOS after reboot
-a15b5aefa8178846ed614745569fed0d1fb6cb87 platform/x86: dell-lis3lv02d: Add Latitude E6530
-9b2f5ef00e852f8e8902a4d4f73aeedc60220c12 fbcon: Fix OOB access in font allocation
-285213a65e91d0295751d740e2320d8fcd75d56e MAINTAINERS: update io_uring and block tree git trees
-5fc4ab3269dea6a0b00c7256cb6f6c0101b6a44b pmdomain: mediatek: set default off flag for MT8195 AUDIO power domain
-44b0fed0a5947f54fd14255cd0766df952267bc5 drm/amd/display: Only restore backlight after amdgpu_dm_init or dm_resume
-1c3217dd557d4f04eb4c2afcd7c76de6b4d66ccb drm/amd/display: Use mpc.preblend flag to indicate preblend
-361ee85e980c16c9b9e236ccfac33014e8602485 drm/amd/display: Init DCN35 clocks from pre-os HW values
-41b1f9fcba62b06195e625bb88c1031102892439 drm/amd/display: remove output_tf_change flag
-546e42c8c6d9498d5eac14bf2aca0383a11b145a riscv: Use an atomic xchg in pudp_huge_get_and_clear()
-e24108012ce9662d90093f91d5ffebcbf78da7de MAINTAINERS: Update Paul Walmsley's E-mail address
-4ec3c15462b9f44562f45723a92e2807746ba7d1 futex: Use correct exit on failure from futex_hash_allocate_default()
-e2ffa15b9baa447e444d654ffd47123ba6443ae4 kbuild: Disable CC_HAS_ASM_GOTO_OUTPUT on clang < 17
-9158c6bb245113d4966df9b2ba602197a379412e afs: Fix potential null pointer dereference in afs_put_server
-4ae8d9aa9f9dc7137ea5e564d79c5aa5af1bc45c sched/deadline: Fix dl_server getting stuck
-a3a70caf7906708bf9bbc80018752a6b36543808 sched/deadline: Fix dl_server behaviour
-7d9c3442b02ab7dd3c44e20095a178fd57d2eccb drm/panthor: Defer scheduler entitiy destruction to queue release
-3ed17349f18774c24505b0c21dfbd3cc4f126518 platform/x86: lg-laptop: Fix WMAB call in fan_mode_store()
-29ecd47927754e88f9f9a75bb2a497dd5e38301b Merge tag 'amd-drm-fixes-6.17-2025-09-24' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-4d486a51772421b1c6e37e6bfec9b3c60af58dba Merge tag 'drm-intel-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-366a9295079731654bf0e0c6c5ac47b1f346b410 Merge tag 'drm-misc-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-ec73e5984e01bfdf92234eaf5a2c3e54aa67f2aa Merge tag 'drm-xe-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-4d428dca252c858bfac691c31fa95d26cd008706 netfs: fix reference leak
-fbe2dc6a9c7318f7263f5e4d50f6272b931c5756 smb: client: fix wrong index reference in smb2_compound_op()
-3170244bc5cfe2a93d105aa57ff7e04ab19f78fc Merge tag 'drm-fixes-2025-09-26' of https://gitlab.freedesktop.org/drm/kernel
-3a654ee549210f8aecfbebc7c699557666d17a4b Merge tag 'block-6.17-20250925' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-df2837012f7e29fc80ea673268643ec472ee0e61 Merge tag 'gpio-fixes-for-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-bb97142197df73fbbb0e6f8629dc1f89ef6960f7 Merge tag 'platform-drivers-x86-v6.17-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-0d97ef77425e591669111ebf819ceb5d5e2dc329 Merge tag 'pmdomain-v6.17-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-d8743676b12addb982f5d501e9f8def042ef9bdb Merge tag 'vfs-6.17-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-f26a24662cd2875f82029e28879a20cea212214c Merge tag 'v6.17rc7-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-8b07f74c23a0890977a5ae3c0b2c105d7ac3b584 Merge tag 'core-urgent-2025-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2cea0ed9796381b142f46bd8de97bb6b54b1df61 Merge tag 'locking-urgent-2025-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-083fc6d7fa0d974a3663b97c8b0466737a544236 Merge tag 'sched-urgent-2025-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d4df17482e963e5424da63f22010976d1656a4b0 Merge tag 'x86-urgent-2025-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fec734e8d564d55fb6bd4909ae2e68814d21d0a1 Merge tag 'riscv-for-linus-v6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+1e8f294cc819b16e79f66cb28ffd806c7fc77a9d hung_task: fix warnings caused by unaligned lock pointers
+1d1b743290abbe141e5560a4e92b81a530e5e64e mm/thp: fix MTE tag mismatch when replacing zero-filled subpages
+cccf357e8d025674f9c6abf919704d62e892f1db foo
+63f5bde8f5cfb2cdab8648ea2fd9c77c590e0581 mm/compaction: fix low_pfn advance on isolating hugetlb
+0f76fe45a44d2009f3b4be6194648ae4eed23e5f mm/page_vma_mapped: track if the page is mapped across page table boundary
+7c39c86053a57cbc42fde688a50e943ec969d960 mm-page_vma_mapped-track-if-the-page-is-mapped-across-page-table-boundary-fix
+2707977ef7295f62e1e877453ce88e56b0879ac9 mm/rmap: fix a mlock race condition in folio_referenced_one()
+cd28733a1eb0ca3b44d8fef3fb32daddb8030b4a mm-rmap-fix-a-mlock-race-condition-in-folio_referenced_one-fix
+3943c2af3cdb09d7280566b278205165080b9b0a mm/rmap: mlock large folios in try_to_unmap_one()
+aa6ee62f1c746a5f3d45e40a31aa22eb74236cfa mm-rmap-mlock-large-folios-in-try_to_unmap_one-fix
+26ca3dcc73db3939b7c807240686266b87fde027 mm/fault: try to map the entire file folio in finish_fault()
+415e78b94c832e1d3af770b7b769070f5827ded3 mm/filemap: map entire large folio faultaround
+e3290eb3447d593de6034a07310bd586b65be27e mm/rmap: improve mlock tracking for large folios
+6f0397390ac7dc4c3b4935e902e718249b77e20b mm/memory_hotplug: fix typo 'esecially' -> 'especially'
+e6bc6ae487f6e01d6ad050ae043e26a195857a8b mm: remove PMD alignment constraint in execmem_vmalloc()
+bf4273074abd8b159766ea2b5de0341358c7386a drivers/base/node: fix double free in register_one_node()
+563e78b9d0ae82fb68cb610aa4b4d7c7e785bd2f mm/ksm: fix incorrect KSM counter handling in mm_struct during fork
+93aaea1dd000976746ff29f08cd16f314c4756ad selftests/mm: add fork inheritance test for ksm_merging_pages counter
+0501a5b9a2a464465861c4cb2431cb58f47f7aed hugetlb: increase number of reserving hugepages via cmdline
+5c2271303c8b41e7d5f0019c3c0bbdfa1ccecdbe mm/ksm: get mm_slot by mm_slot_entry() when slot is !NULL
+56ec23c35519a63c70f350e8d01a92f143fe5a65 mm/khugepaged: remove definition of struct khugepaged_mm_slot
+e899bfe2e7d7ae0aa7e6350fc57dc6a957ca6418 mm-khugepaged-remove-definition-of-struct-khugepaged_mm_slot-fix
+0a829dc5d1e6480e6f25dbcbca152c1c83f64603 mm/memory-failure: don't select MEMORY_ISOLATION
+91ed40a3e6c028088fbab8beb182d046bcbacb68 mm: silence data-race in update_hiwater_rss
+e4a136e18eb075bb9e63e5a4596a7a68627377e6 alloc_tag: fix boot failure due to NULL pointer dereference
+0d5f7ab53acb1753b3dd3a74ce22e9fbc2fa840f hugetlbfs: skip VMAs without shareable locks in hugetlb_vmdelete_list
+9c14a7edd02eaafd6d169b2e543d754557b1b6bd mm/memory-failure: support disabling soft offline for HugeTLB pages
+974df9b83a136e07edf865ffa796c097a6b20086 mm/khugepaged: use start_addr/addr for improved readability
+fe0cd0743e4a2ea4b09e2b580e1163d976550832 mm: convert folio_page() back to a macro
+32bb854337cd91f81ca70aaf6ddfbbe34c54ce9f mm: swap: check for stable address space before operating on the VMA
+a9899a9bef2f7ee15f3deccd325bc9ddcc40cdf2 mm: vmscan: remove folio_test_private() check in pageout()
+141f027c1d71f2fd2d74f18ba25938b6a6b471e0 mm-vmscan-remove-folio_test_private-check-in-pageout-fix
+ba76ed1fc9e646aec679c30d299469626c933e87 mm: vmscan: simplify the folio refcount check in pageout()
+3ca9656ce130e76abd7330979ddf1bc656bfbd6f mm-vmscan-simplify-the-folio-refcount-check-in-pageout-fix
+a16d23e9bf9d907312655da58ff493d8fc671abf memcg: skip cgroup_file_notify if spinning is not allowed
+aec53a3fc690bd1ffa22d6e72b3c637d8ccf4353 mm/shmem: update shmem to use mmap_prepare
+3fb14c66cca2b079eaf3c1ba094ffd923d365bac device/dax: update devdax to use mmap_prepare
+44be2f81b6fc6272c63f99f12db0077f7f8093a8 mm: add vma_desc_size(), vma_desc_pages() helpers
+68049e9faca81767f6a5a842b3c57c04bd6d6c78 relay: update relay to use mmap_prepare
+509d4ae643cf2aafa1685b41947e226391ebdc70 mm/vma: rename __mmap_prepare() function to avoid confusion
+c41ee5119ba57d5d3ce7bd9a0a235f2abf94fbea mm: add remap_pfn_range_prepare(), remap_pfn_range_complete()
+87d257c2abfd5cfb51bd27f5f8a6c42bee682de1 mm: abstract io_remap_pfn_range() based on PFN
+9900d959f716a75a408dca2e630429859ecb51e1 mm: introduce io_remap_pfn_range_[prepare, complete]()
+096d09738dc3f048184a12a72fd8ffebeaeb18ae fixup io_remap_pfn_range_[prepare, complete]
+6b0359b05bfb8b26c11e6d2fefe5ac7870499dc0 mm: add ability to take further action in vm_area_desc
+96ae272dea131861aca319570f46785a0daec45c doc: update porting, vfs documentation for mmap_prepare actions
+3f8c7030dbbe8001af6974f0d17cc815a40c9eac mm/hugetlbfs: update hugetlbfs to use mmap_prepare
+f1b3e7bbaad2d608e4ac7968602a3fac6abfa1ce mm: add shmem_zero_setup_desc()
+e0ec3a2fdcb18ae0a6416cbd052dd5a522e589c7 mm: update mem char driver to use mmap_prepare
+46abada1d7f5601e6415e564895e1bb1ab1a7f0b mm: update resctl to use mmap_prepare
+e8e037a611eed23c1d5b4b03ebbd5407250070ae mm: clean up is_guard_pte_marker()
+f9ff44eb6f31837b21f771e8080de5e2e427b039 drivers/base/memory: add node id parameter to add_memory_block()
+0fcd3bddb0df9ab7b2848ffe881c4dfcdaed68b0 mm/memory_hotplug: activate node before adding new memory blocks
+6c679f0f1fab04b117d34ec87225f73aa965e4b5 drivers/base: move memory_block_add_nid() into the caller
 
---===============7288369284318523278==--
+--===============7080635551186177735==--
