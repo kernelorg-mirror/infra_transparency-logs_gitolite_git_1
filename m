@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 28 Sep 2025 07:05:20 -0000
-Message-Id: <175904312090.3597240.5495993704762696540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Sun, 28 Sep 2025 07:11:31 -0000
+Message-Id: <175904349126.3602062.3775988822705747599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/dev
-    old: ab858f291a1ac654a328c01d8ccc4855b4c44cac
-    new: e4423050ddaff3f3b4893d4763567cc6f11a46ac
+  - ref: refs/heads/wip
+    old: 8be7641616ba9c572b8771b6574bb10a8ee2c130
+    new: c1d6ca037eed980a38fe97b115f767afa0ac15cf
     log: |
-         dcd06f421003de4481f774b8c456e42603a41062 erofs-utils: mkfs: tar: fix SIGSEGV on `/` entry
-         3a58308b753c155002c388b541dcdb4b010fa9ce erofs-utils: mkfs: combine erofs_{mkfs,rebuild}_handle_directory
-         10ddca80815be92686dcb49aba6c3ff0e798c9be erofs-utils: mkfs: combine erofs_{mkfs,rebuild}_handle_inode
-         dd440eb75d4030c0b9391665189c00b86de216dd erofs-utils: lib: fix incorrect big pcluster judgment
-         57c24434b9b036fef09b12f2886e71c212a9688f erofs-utils: lib: handle duplicate dirents in incremental builds
-         e4423050ddaff3f3b4893d4763567cc6f11a46ac erofs-utils: mkfs: fix incremental builds with 48-bit layout
+         7127c5c2518b19456f9e3f946c82637e32348852 f2fs: zone: allow IPU for regular file in regular block device
+         e985f63e56e9269bbd20587529fbcd9532766b6f f2fs: support NOCoW flag
+         28e29a748d62129953cc79280bb42eeb53784066 f2fs: revalidate empty segment when checkpoint is disabled
+         be9e5d942075c068547af3651cedd273abaf9b35 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
+         7b3de68ece376fc0c4a7e69ce63f3a4c87fad07a f2fs: introduce written_map to indicate written datas
+         110ebe573dd78aed5393afc2e7f8d1aba0c663a6 f2fs: compress: support recovery
+         f35f9335325a8c5991af73ec176218130fed63ec f2fs: f2fs supports uncached buffered I/O read
+         c1d6ca037eed980a38fe97b115f767afa0ac15cf f2fs: fix to return -EOPNOTSUPP for uncached write
          
