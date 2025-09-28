@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sun, 28 Sep 2025 00:37:38 -0000
-Message-Id: <175901985854.3280201.826376414947305193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Sun, 28 Sep 2025 01:40:55 -0000
+Message-Id: <175902365525.3333028.348411317856185041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/devel/sparse/sparse
+user: chrisl
 changes:
-  - ref: refs/heads/seen
-    old: 918d9bfea716e743aa1bf56f5ff1f57fce9d7bf3
-    new: fcab7413021a1a313d378398f1fefefeff853660
+  - ref: refs/heads/master
+    old: 0196afe16a50c76302921b139d412e82e5be2349
+    new: bb97bcbd4f7e00896ee447752dfa59bf302c7d17
     log: |
-         5a12fd2a8c850df311aa149c9bad87b7cb002abb doc: change the markup of paragraphs following a nested list item
-         fcab7413021a1a313d378398f1fefefeff853660 Merge branch 'ja/doc-markup-attached-paragraph-fix' into seen
-         
-  - ref: refs/notes/amlog
-    old: c60b295483249b0a073beeed5673ce631945af1c
-    new: e05a832ec250f1377581965f66a516b3f8223e37
-    log: |
-         b1def556728ed313be5b1a2b6e63d6efa2625978 Notes added by 'git notes add'
-         e05a832ec250f1377581965f66a516b3f8223e37 Notes added by 'git notes add'
+         c47766ce0620001dfaf201674c990cde2e10423e vadidation: add used-to-be-signed unit tests
+         366ad4b2fa3e8361001a08b3719881b6d7c87e90 Warn about "unsigned value that used to be signed against zero"
+         bb97bcbd4f7e00896ee447752dfa59bf302c7d17 fix: Skip if symbol have no op when handle_qualifiers
          
