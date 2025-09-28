@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse
-Date: Sun, 28 Sep 2025 01:40:55 -0000
-Message-Id: <175902365525.3333028.348411317856185041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Sun, 28 Sep 2025 01:44:06 -0000
+Message-Id: <175902384647.3335104.1504117798012288740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse
+repo: pub/scm/devel/sparse/sparse-dev
 user: chrisl
 changes:
   - ref: refs/heads/master
-    old: 0196afe16a50c76302921b139d412e82e5be2349
-    new: bb97bcbd4f7e00896ee447752dfa59bf302c7d17
+    old: bb97bcbd4f7e00896ee447752dfa59bf302c7d17
+    new: 67f0a03cee4637e495151c48a02be642a158cbbb
     log: |
-         c47766ce0620001dfaf201674c990cde2e10423e vadidation: add used-to-be-signed unit tests
-         366ad4b2fa3e8361001a08b3719881b6d7c87e90 Warn about "unsigned value that used to be signed against zero"
-         bb97bcbd4f7e00896ee447752dfa59bf302c7d17 fix: Skip if symbol have no op when handle_qualifiers
+         67f0a03cee4637e495151c48a02be642a158cbbb doc: update maintainer
          
