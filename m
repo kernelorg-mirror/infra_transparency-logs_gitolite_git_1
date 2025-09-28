@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 28 Sep 2025 21:44:24 -0000
-Message-Id: <175909586499.128560.13189911203817520456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Sun, 28 Sep 2025 22:19:09 -0000
+Message-Id: <175909794904.156393.4607419460407650315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: c68472b46416573fa2af4851b2dad94971f544d4
-    new: e5f0a698b34ed76002dc5cff3804a61c80233a7a
+  - ref: refs/heads/i3c/next
+    old: 649764145b70a0328fc020fe31fc80594761a707
+    new: d6ddd9beb1a5c32acb9b80f5c2cd8b17f41371d1
     log: |
-         e5f0a698b34ed76002dc5cff3804a61c80233a7a Linux 6.17
+         8a1f3fd1a89cd1d4acccb0181346ad212a275a69 i3c: master: adi: fix number of bytes written to fifo
+         d6ddd9beb1a5c32acb9b80f5c2cd8b17f41371d1 i3c: fix big-endian FIFO transfers
          
-  - ref: refs/tags/v6.17
-    old: 0000000000000000000000000000000000000000
-    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
