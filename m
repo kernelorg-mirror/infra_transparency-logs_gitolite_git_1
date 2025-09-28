@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 28 Sep 2025 19:43:40 -0000
-Message-Id: <175908862053.28179.6279939911863215616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Sun, 28 Sep 2025 20:07:22 -0000
+Message-Id: <175909004207.48296.15856469041306730734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/tags/driver-core-6.18-rc1
-    old: fa9ad0fbad941c44585bd1236a55e53c164f7c4c
-    new: ade8b57cdf194a9cf1e4675fbb7ff601cb75e4db
+  - ref: refs/heads/dev-test
+    old: ba962de462cb9bc8314aea80eb74e0b5a7082802
+    new: edf7e9040fc52c922db947f9c6c36f07377c52ea
+    log: |
+         45b70947a425fa121a8b9bcbb77472d9e35def6a f2fs: add sanity check on ei.len in __update_extent_tree_range()
+         72bdca6231a35aaf3fc1f3ac174d5203621d9e7f f2fs: readahead node blocks in F2FS_GET_BLOCK_PRECACHE mode
+         edf7e9040fc52c922db947f9c6c36f07377c52ea f2fs: fix UAF issue in f2fs_merge_page_bio()
+         
