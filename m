@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7328536179301548858=="
+Content-Type: multipart/mixed; boundary="===============4596306484709841600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 28 Sep 2025 17:29:37 -0000
-Message-Id: <175908057768.4111720.9545420589967837850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 28 Sep 2025 17:36:22 -0000
+Message-Id: <175908098225.4118395.15569271878522321835@gitolite.kernel.org>
 
---===============7328536179301548858==
+--===============4596306484709841600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
-    old: 51a24b7deaae5c3561965f5b4b27bb9d686add1c
+    old: fec734e8d564d55fb6bd4909ae2e68814d21d0a1
     new: 8f9736633f8ca0224d6dd0cf6826044b7b5f9737
-    log: revlist-51a24b7deaae-8f9736633f8c.txt
+    log: revlist-fec734e8d564-8f9736633f8c.txt
 
---===============7328536179301548858==
+--===============4596306484709841600==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-51a24b7deaae-8f9736633f8c.txt
+Content-Disposition: attachment; filename=revlist-fec734e8d564-8f9736633f8c.txt
 
 30dbc1c8d50f13c1581b49abe46fe89f393eacbf spi: cadence-qspi: defer runtime support on socfpga if reset bit is enabled
 398a8a4e51dbd03e4103ea596ea4ea037fe67175 spi: omap2-mcspi: drive SPI_CLK on transfer_setup()
@@ -37,9 +37,12 @@ a2501032de0d1bc7971b2e43c03da534ac10ee9b tracing/osnoise: Fix slab-out-of-bounds
 87e1c7c9a09604ac6a8f6ccf3086aec24a76e5a9 mailmap: add entry for Bence Csókás
 06195ee967d06ead757f9291bbaf1a0b30fa10b8 mm/damon/sysfs: do not ignore callback's return value in damon_sysfs_damon_call()
 7e89979f6695fb56e8739b7d19614256e637131d include/linux/pgtable.h: convert arch_enter_lazy_mmu_mode() and friends to static inlines
+b1e0ff7209e952bdb4f9a85a8450546700b4affa rtla: Fix buffer overflow in actions_parse
+2227f273b7dc25a791ae6b152550098aa6934b2f rtla/actions: Fix condition for buffer reallocation
 0db0934e7f9bb624ed98a665890dbe249f65b8fd tracing: fgraph: Protect return handler from recursion loop
+51a24b7deaae5c3561965f5b4b27bb9d686add1c Merge tag 'trace-tools-v6.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 09d95bc8023569a56078950f2fc6f1a12a94ee08 Merge tag 'mm-hotfixes-stable-2025-09-27-22-35' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 a5b2a9f5056b64aa41bd11d9166d836df30b0897 Merge tag 'spi-fix-v6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 8f9736633f8ca0224d6dd0cf6826044b7b5f9737 Merge tag 'trace-v6.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============7328536179301548858==--
+--===============4596306484709841600==--
