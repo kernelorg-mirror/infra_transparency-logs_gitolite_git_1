@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6862523020722689567=="
+Content-Type: multipart/mixed; boundary="===============3692643826487493500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 28 Sep 2025 14:39:50 -0000
-Message-Id: <175907039035.3970851.15760116325892516073@gitolite.kernel.org>
+Date: Sun, 28 Sep 2025 14:40:52 -0000
+Message-Id: <175907045261.3972966.15848899493333118496@gitolite.kernel.org>
 
---===============6862523020722689567==
+--===============3692643826487493500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,42 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: f787e1f565dc46773904c183b76c3081bdb9f9c1
-    new: 27727b8ef9b3ad55a3a28f9622a62561c9988335
-    log: revlist-f787e1f565dc-27727b8ef9b3.txt
+  - ref: refs/heads/dmabuf-vfio
+    old: 2f5fda84a3b98d89cb4c294a5d91752a0ae57d98
+    new: 688fd6028f71548bda0370f05225c2b772b42fc3
+    log: revlist-2f5fda84a3b9-688fd6028f71.txt
+  - ref: refs/tags/dmabuf-vfio-Sep-28
+    old: 2f5fda84a3b98d89cb4c294a5d91752a0ae57d98
+    new: 688fd6028f71548bda0370f05225c2b772b42fc3
+    log: revlist-2f5fda84a3b9-688fd6028f71.txt
+  - ref: refs/tags/dmabuf-vfio-v4
+    old: 2f5fda84a3b98d89cb4c294a5d91752a0ae57d98
+    new: 688fd6028f71548bda0370f05225c2b772b42fc3
+    log: revlist-2f5fda84a3b9-688fd6028f71.txt
 
---===============6862523020722689567==
+--===============3692643826487493500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f787e1f565dc-27727b8ef9b3.txt
+Content-Disposition: attachment; filename=revlist-2f5fda84a3b9-688fd6028f71.txt
 
-53f3ea1947919a5e657b4f83e74ca53aa45814d4 vfio/pci: Add dma-buf export support for MMIO regions
-56b4208a67bfab30eabad194de2f1b67a6fc3a7a PCI/P2PDMA: Reduce scope of pci_has_p2pmem function
-5bd8b58ae55786edfe452f9a2d008b780714f933 kmsan: fix missed kmsan_handle_dma() signature conversion
-5d6f7e8e76c570bbd7ec9937e0381d9a6f585998 dma-mapping: prepare dma_map_ops to conversion to physical address
-b609aba3f757c519a47f99cf7a60f8bb0606d914 dma-mapping: convert dummy ops to physical address mapping
-c9582237567127ffdbcc559841f3c6133bf5a942 ARM: dma-mapping: Reduce struct page exposure in arch_sync_dma*()
-ad673ef8a54c5b20892967e492e522ed45294426 ARM: dma-mapping: Switch to physical address mapping callbacks
-f976a0ef0b0e7f2b17910dcad5a448d1acf121db xen: swiotlb: Switch to physical address mapping callbacks
-7e9896ae599ad7a2af295c1b4237d27b27611987 dma-mapping: remove unused mapping resource callbacks
-512d4c498103fcfccd8c60ce1982cd961434d30b alpha: Convert mapping routine to rely on physical address
-f64ece5bdf9dc4c7e9407a5089be68a8c5c011a5 MIPS/jazzdma: Provide physical address directly
-333ec4dabec16d3d913a93780bc6e7ddb5240fcf parisc: Convert DMA map_page to map_phys interface
-f2b69a0ac2308cc8fd8635dceac951670d41cea2 powerpc: Convert to physical address DMA mapping
-bac909dab3c82fc6a7a4f5a31f22bac9a69f7f07 sparc64: Use physical address DMA mapping
-d3ce41b94c8facae446c67d85f731c031bb6ff35 x86: Use physical address for DMA mapping
-fafaec3eb3830aa726b86ac7b145763c8be25a8a vdpa: Convert to physical address DMA mapping
-573fbadd743851838a91a8dbc84b4506cea2192c xen: swiotlb: Convert mapping routine to rely on physical address
-27727b8ef9b3ad55a3a28f9622a62561c9988335 dma-mapping: remove unused map_page callback
+a881acd4f2253a702ee4ae6e80d98bd7a3568846 vfio/pci: Add dma-buf export support for MMIO regions
+4d407bae2ca58d7a5102e099a8b2378bc9a42bc9 PCI/P2PDMA: Reduce scope of pci_has_p2pmem function
+4a0dcb9b92833dbc5ac8a9f2e9a499e2f1a9a2de kmsan: fix missed kmsan_handle_dma() signature conversion
+e8275aa6184d02dc47a6a049d7f60e3c48c6856b dma-mapping: prepare dma_map_ops to conversion to physical address
+c76ef36cbad53e970814083c682c922085ff3dde dma-mapping: convert dummy ops to physical address mapping
+bd35a3272aab56b94eebb1423c6001040d82985b ARM: dma-mapping: Reduce struct page exposure in arch_sync_dma*()
+feb02e6a501c178dee5aa10d185838c82c02f0a5 ARM: dma-mapping: Switch to physical address mapping callbacks
+8d6b6b55221787ef2a73889d75e7e40c320c5044 xen: swiotlb: Switch to physical address mapping callbacks
+a31dda6d9e37f24f93616d21036f691e3c145707 dma-mapping: remove unused mapping resource callbacks
+164503997b4a5f3bec45473494c31fd857113df2 alpha: Convert mapping routine to rely on physical address
+91df65d732511857db2227b48448eddf9de2f859 MIPS/jazzdma: Provide physical address directly
+14f295bd26b86e0d4064eda19ddf7a68e9d9c563 parisc: Convert DMA map_page to map_phys interface
+75f5dee6c0329104d0e8b4fcc30afaa65111d7ad powerpc: Convert to physical address DMA mapping
+7f9ad5e44323dbda5cd030823e54fe71c1373531 sparc64: Use physical address DMA mapping
+19bca57af5310afa2db04e06ca3868e269da7718 x86: Use physical address for DMA mapping
+97b1b58cd6c6e88d2cdec46196b1ce7c82770410 vdpa: Convert to physical address DMA mapping
+96cb857d796d5590969f40a71b579ffc2498b47c xen: swiotlb: Convert mapping routine to rely on physical address
+688fd6028f71548bda0370f05225c2b772b42fc3 dma-mapping: remove unused map_page callback
 
---===============6862523020722689567==--
+--===============3692643826487493500==--
