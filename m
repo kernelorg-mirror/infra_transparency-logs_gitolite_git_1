@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 28 Sep 2025 19:40:54 -0000
-Message-Id: <175908845419.26489.14525918154506267083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sun, 28 Sep 2025 19:43:17 -0000
+Message-Id: <175908859765.27785.14445637866343492075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/tags/driver-core-6.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: fa9ad0fbad941c44585bd1236a55e53c164f7c4c
+  - ref: refs/heads/for-next
+    old: e216c49b3ebb0729c50870ebfb8b798376dc1edf
+    new: 40d4c761200b796a44bf2c7675ae09c87b17d4af
+    log: |
+         40d4c761200b796a44bf2c7675ae09c87b17d4af firewire: core: fix undefined reference error in ARM EABI
+         
