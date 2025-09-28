@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sun, 28 Sep 2025 20:41:24 -0000
-Message-Id: <175909208452.77288.12824238268627214552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Sun, 28 Sep 2025 21:02:40 -0000
+Message-Id: <175909336064.94134.13131108625773752690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/next
-    old: 21bbcdf669554c2fe535592be639ba2f2e899399
-    new: 19692013415486febf71343f5cc539a343a2994b
-    log: |
-         19692013415486febf71343f5cc539a343a2994b MAINTAINERS: add myself and Barry to dma_map_benchmark maintainers
-         
+  - ref: refs/tags/nolibc-20250928-for-6.18-1
+    old: 0000000000000000000000000000000000000000
+    new: cc90f8051793924fc3229c2b77d12a45ba1fae4e
