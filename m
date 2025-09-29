@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3798879752133915918=="
+Content-Type: multipart/mixed; boundary="===============2865804241770587902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 29 Sep 2025 10:30:52 -0000
-Message-Id: <175914185237.827250.7157069690208789483@gitolite.kernel.org>
+Date: Mon, 29 Sep 2025 10:32:06 -0000
+Message-Id: <175914192649.828172.16241604019081956657@gitolite.kernel.org>
 
---===============3798879752133915918==
+--===============2865804241770587902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/affs
     old: 4ff71af020ae59ae2d83b174646fc2ad9fcd4dc4
     new: e5f0a698b34ed76002dc5cff3804a61c80233a7a
     log: revlist-4ff71af020ae-e5f0a698b34e.txt
-  - ref: refs/tags/v6.17
-    old: 0000000000000000000000000000000000000000
-    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
 
---===============3798879752133915918==
+--===============2865804241770587902==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -113,4 +110,4 @@ a5b2a9f5056b64aa41bd11d9166d836df30b0897 Merge tag 'spi-fix-v6.17-rc7' of git://
 c68472b46416573fa2af4851b2dad94971f544d4 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 e5f0a698b34ed76002dc5cff3804a61c80233a7a Linux 6.17
 
---===============3798879752133915918==--
+--===============2865804241770587902==--
