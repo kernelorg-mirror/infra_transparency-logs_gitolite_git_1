@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 29 Sep 2025 23:07:42 -0000
-Message-Id: <175918726211.1550029.16089323198656308723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 29 Sep 2025 23:10:06 -0000
+Message-Id: <175918740675.1553428.15992562833033034098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 437469ce8cbfb901f6e4f71a99478f6bf4105c2b
-    new: d8f39946abebf7ea64f8248086c65dd6b8bc9d5b
+  - ref: refs/heads/master
+    old: d43df56a7370d78cfbd86fa4d15cd296853b2b60
+    new: ec21f680de9dc4aef1c8c0efe160f8e377ace65c
     log: |
-         d8f39946abebf7ea64f8248086c65dd6b8bc9d5b feat!: drop mocktpm
+         cbdef24f96bb1aacbf87b33f8b6bb026e0114e04 foo
+         055281df3971efdb6540d7acd7bab5120fc8479d foo
+         ec21f680de9dc4aef1c8c0efe160f8e377ace65c foo
          
