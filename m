@@ -1,35 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Mon, 29 Sep 2025 09:48:26 -0000
-Message-Id: <175913930684.790458.373731449522764597@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2595051155018317332=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 29 Sep 2025 10:25:02 -0000
+Message-Id: <175914150208.820996.17934623635828194213@gitolite.kernel.org>
+
+--===============2595051155018317332==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0b5aecb85a21148b9bf79d8708b9c48809160c7f
-    new: 2842172e14056ae1e054a3541bff153b6af94f34
-    log: |
-         288e352ed7c8db5caf8750c6d2ca3ba01b011568 Fix printf string specifiers, otherwise kexec doesn't work on my laptop
-         c837f1971fab244e30165f4469a2dd75c0393bb7 kexec/kexec-elf-exec.c: Replace %lux with %lx
-         9c12e71d712a346b52db17ddc16e81a8629d2f79 kexec/arch/i386/x86-linux-setup.c: replace %d with %u
-         b7b2a13547a0e06c2de01822ed5655f6e8a551ee util_lib/elf_info.c: fix typo: prink -> printk
-         c343815e7e0ae37f28a1010d625e7f5acf424e8e kexec/arch/i386/kexec-x86-common.c: remove duplicate <stdio.h>
-         2842172e14056ae1e054a3541bff153b6af94f34 kexec/arch/arm64/crashdump-arm64.c: remove extra whitespace
-         
   - ref: refs/heads/master
-    old: 0b5aecb85a21148b9bf79d8708b9c48809160c7f
-    new: 2842172e14056ae1e054a3541bff153b6af94f34
+    old: 0a67c0d50584ad58d929eac02766e45b145c75bf
+    new: eb3db2d365ee61db6fa5ff8beca92c74fe36bad2
     log: |
-         288e352ed7c8db5caf8750c6d2ca3ba01b011568 Fix printf string specifiers, otherwise kexec doesn't work on my laptop
-         c837f1971fab244e30165f4469a2dd75c0393bb7 kexec/kexec-elf-exec.c: Replace %lux with %lx
-         9c12e71d712a346b52db17ddc16e81a8629d2f79 kexec/arch/i386/x86-linux-setup.c: replace %d with %u
-         b7b2a13547a0e06c2de01822ed5655f6e8a551ee util_lib/elf_info.c: fix typo: prink -> printk
-         c343815e7e0ae37f28a1010d625e7f5acf424e8e kexec/arch/i386/kexec-x86-common.c: remove duplicate <stdio.h>
-         2842172e14056ae1e054a3541bff153b6af94f34 kexec/arch/arm64/crashdump-arm64.c: remove extra whitespace
+         eb3db2d365ee61db6fa5ff8beca92c74fe36bad2 update cvelistV5
          
+
+--===============2595051155018317332==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759141555 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1759141498-4e3352be755a86e4e658cba11f56cdaaa84aecb0
+
+0a67c0d50584ad58d929eac02766e45b145c75bf eb3db2d365ee61db6fa5ff8beca92c74fe36bad2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjaXrQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3BwP/i4RtI0/ic8dSUdfGz2P
+GBh2IQ0M2QhMzPAhTElEssK7S3PunzR7vJiMki01Pjp98A9rUX76wA17yQkOEbZC
+RPGJs0d/XTBownnoJi4qFbAhGA1dquFeL1TYAk/SZ4do58qFmZoxKes4oaV87qFL
+u9eyupEhJpJ2bq8//6Q3p6XWd25MnIJcWn3uxpngofUYHYjE1iYooxtda1VrRm9h
+9DUhIMP+UZAzrBereVossy/ZIliSqsmqqCF06qDn0+MwPvC8GWWiXnO51IAUQ6oS
+49wKwYD/2mgJ6DaOTUliHr+hDY6sy+Qp5u2uTn1m0kFZPd3R8Xcn5v//bugwrBSX
+eqebH6RzUXHDc+6MXn+Tk8lg/2QpAmUc7RI6Lg2c9nI7DYXvUcfZ0eHG5UrMV1jC
+NSPtNs7SNTLHuxWIgLU1vu5GHueRmd8JgOc/VSmEv3qkP8yYPuuYOsB1jtfp5ZTm
+GFNxzhrVrx/zIjhhW90FMffYakRGGVZ0OKkCSdo7WxbPR5EGDN7VhW+L+KfkSSic
+mM6jn9qTuwQjstOt0lYFqUXMVz0g+rWHm+g05dnT2mrW0yMKgW/jQbaEK+MaPHRd
+vi6FeSMQl2+W0UnvheGdidUCjp6fOvFEbV7UjRz7GImGiB3y5l2QIcyl1eUwUsNM
+PYgKeTUPWJv5jMLO03w/rwAi
+=8fj6
+-----END PGP SIGNATURE-----
+
+--===============2595051155018317332==--
