@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7059752363566577798=="
+Content-Type: multipart/mixed; boundary="===============2780493948302218404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 29 Sep 2025 23:04:15 -0000
-Message-Id: <175918705548.1545401.3766332169827329527@gitolite.kernel.org>
+Date: Mon, 29 Sep 2025 23:04:18 -0000
+Message-Id: <175918705803.1545556.2731761973986447640@gitolite.kernel.org>
 
---===============7059752363566577798==
+--===============2780493948302218404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 347afa39042728267550fa7a5ab5e9af52671add
     new: e835faaed2f80ee8652f59a54703edceab04f0d9
     log: revlist-347afa390427-e835faaed2f8.txt
 
---===============7059752363566577798==
+--===============2780493948302218404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ fca6ff9191bd60167d5fe1d1fea89bf988d9e355 selftests: forwarding: README: Mention 
 1493c18fe8696bfc758a97130a485fc4e08387f5 Merge branch 'selftests-mark-auto-deferring-functions-clearly'
 e835faaed2f80ee8652f59a54703edceab04f0d9 net/mlx5: Expose uar access and odp page fault counters
 
---===============7059752363566577798==--
+--===============2780493948302218404==--
