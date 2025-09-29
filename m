@@ -1,27 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Mon, 29 Sep 2025 20:52:13 -0000
-Message-Id: <175917913380.1432367.16386175926864921120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 29 Sep 2025 21:17:42 -0000
+Message-Id: <175918066232.1452583.17783546612976876159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/nova/dev-bitstruct
-    old: 39bafdc0bd926429f5ae245f269b1863b05b1cb0
-    new: 338476be64b8b928b55c227a3fda65319922bbd5
+  - ref: refs/heads/master
+    old: 849ae81d4816b3739f4576ef0bd42b4226ccc633
+    new: d43df56a7370d78cfbd86fa4d15cd296853b2b60
     log: |
-         28d752b0b35971c6a82a2fb569111b4e7a5328a0 nova-core: bitfield: Move bitfield-specific code from register! into new macro
-         d71992393583c98d69995868599ccfaada7faf91 nova-core: bitfield: Add support for different storage widths
-         1441c9349bde0c48828cc2b24690adc202549e6e nova-core: bitfield: Add support for custom visiblity
-         e885af56ac0c04fbab29567b115a874adaa80903 rust: Move register and bitfield macros out of Nova
-         78668abcb9612a914d2fadb5c189091dfdee199a rust: bitfield: Add a new() constructor and raw() accessor
-         625cd25c14e2b18c3d08548e0189a323b98261c5 rust: bitfield: Add KUNIT tests for bitfield
-         c85e0b63f9b5d649553b9b89644b80cdd3ba9ef1 rust: bitfield: Use 'as' operator for setter type conversion
-         fb2ec759963d3206af162f5291d7546a3ee1bded rust: bitfield: Add hardening for out of bounds access
-         338476be64b8b928b55c227a3fda65319922bbd5 rust: bitfield: Add hardening for undefined bits
+         b185036a396b88627d0a567dcca3ef3c651e7807 foo
+         f43f8be8f4633cc4d3cbc338da8cdb1ee386acaf foo
+         2627664b5929c1de5103a26c595ebf38eb2d948b foo
+         eff2e65bcd510b2c8babfefa039987c44a05267a foo
+         6df603f9cfea5f44cf619d7b8aed4925c98c6cbe foo
+         cdff9f8bae25b300a4b61cb1d5143501103fe285 foo
+         3f0efdf7754355a0fdabe6f520f94c19fb50a7e7 foo
+         f0e005c0666da01ee81cf80292564afcaf51711b foo
+         63d20fb08badc44df4574fb394998fc048cf2a8a foo
+         00211e2d922cdff1db37dd4f5c1e939211ae07ef foo
+         9dae6a0f750e7f7b1547bd58cbd7fd04109b32fa foo
+         40fe35f122bd63f71e5e544c58227c6ba0cc6060 foo
+         486a237f80eeb9dfccf14b595fd07c98b6b487c6 foo
+         834ddf35e2200218f4e58462c60a834207c95e44 foo
+         d43df56a7370d78cfbd86fa4d15cd296853b2b60 foo
          
