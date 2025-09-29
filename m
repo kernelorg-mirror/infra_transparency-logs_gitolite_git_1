@@ -1,19 +1,55 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Mon, 29 Sep 2025 14:19:16 -0000
-Message-Id: <175915555634.1037734.6783957842915021364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Mon, 29 Sep 2025 14:34:15 -0000
+Message-Id: <175915645576.1050059.3722730723197404979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/nova/dev-bitstruct
-    old: fa26657ceff20245149d592fb6a75fd728fd82a3
-    new: 39bafdc0bd926429f5ae245f269b1863b05b1cb0
-    log: |
-         39bafdc0bd926429f5ae245f269b1863b05b1cb0 rust: bitfield: Add hardening for undefined bits
-         
+  - ref: refs/tags/dlm-6.18
+    old: 0000000000000000000000000000000000000000
+    new: ef2ed98284a7d815d984ea6a6ad9416561f9eac3
+  - ref: refs/tags/v6.15
+    old: 0000000000000000000000000000000000000000
+    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
+  - ref: refs/tags/v6.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: bc720facc421d0ff6d568323035d1a4d5d35ce84
+  - ref: refs/tags/v6.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5cb8274d66c611b7889565c418a8158517810f9b
+  - ref: refs/tags/v6.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
+  - ref: refs/tags/v6.16
+    old: 0000000000000000000000000000000000000000
+    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
+  - ref: refs/tags/v6.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
+  - ref: refs/tags/v6.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e76fe965a0365e346cdaaf462847bac748354ab2
+  - ref: refs/tags/v6.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
+  - ref: refs/tags/v6.16-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
+  - ref: refs/tags/v6.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 47633099a672fc7bfe604ef454e4f116e2c954b1
+  - ref: refs/tags/v6.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
+  - ref: refs/tags/v6.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 75083cd99c8261eec695596813cc261a523ab32b
+  - ref: refs/tags/v6.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
