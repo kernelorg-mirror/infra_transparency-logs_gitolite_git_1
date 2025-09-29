@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 29 Sep 2025 11:53:54 -0000
-Message-Id: <175914683487.902798.15988547278985110713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Mon, 29 Sep 2025 11:55:39 -0000
+Message-Id: <175914693960.905929.7435986355243554953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: imbrenda
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/next
-    old: 352ccf890a3e91f58bc32503f9afdc161bc2c34a
-    new: d0051fc4a7e149ebb1f4089b2da67188b370c822
+  - ref: refs/heads/features
+    old: 088bb10e37252034ec58a6152f20bfdc8a837f54
+    new: 4335edb7138b45abab65f01d2be77a9be9cfd2fe
     log: |
-         d0051fc4a7e149ebb1f4089b2da67188b370c822 KVM: s390: Fix to clear PTE when discarding a swapped page
+         fa7a0a53eeb7e16402f82c3d5a9ef4bf5efe9357 s390: Add -Wno-pointer-sign to KBUILD_CFLAGS_DECOMPRESSOR
+         f0edc8f113a39d1c9f8cf83e865c32b0668d80e0 s390/cio/ioasm: Fix __xsch() condition code handling
+         4335edb7138b45abab65f01d2be77a9be9cfd2fe s390: Remove superfluous newlines from inline assemblies
          
