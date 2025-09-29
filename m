@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5142181142753693223=="
+Content-Type: multipart/mixed; boundary="===============7923132491685643205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 29 Sep 2025 14:17:40 -0000
-Message-Id: <175915546060.1035922.11628581106017225240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 29 Sep 2025 14:17:56 -0000
+Message-Id: <175915547638.1036145.11973368251364930559@gitolite.kernel.org>
 
---===============5142181142753693223==
+--===============7923132491685643205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 07e27ad16399afcd693be20211b0dfae63e0615f
     new: e5f0a698b34ed76002dc5cff3804a61c80233a7a
     log: revlist-07e27ad16399-e5f0a698b34e.txt
 
---===============5142181142753693223==
+--===============7923132491685643205==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -228,4 +228,4 @@ a5b2a9f5056b64aa41bd11d9166d836df30b0897 Merge tag 'spi-fix-v6.17-rc7' of git://
 c68472b46416573fa2af4851b2dad94971f544d4 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 e5f0a698b34ed76002dc5cff3804a61c80233a7a Linux 6.17
 
---===============5142181142753693223==--
+--===============7923132491685643205==--
