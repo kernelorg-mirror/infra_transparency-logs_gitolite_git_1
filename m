@@ -1,22 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 29 Sep 2025 15:51:20 -0000
-Message-Id: <175916108032.1120301.7100433079981402739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Mon, 29 Sep 2025 15:54:29 -0000
+Message-Id: <175916126949.1122352.11508476974333760778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/direct-io
-    old: ace39c9adab8cf4c428c45afe5922095f7e237dd
-    new: 2e348d32d4713d8092768ab73374a4a72082e34e
+  - ref: refs/heads/main
+    old: afceddf61037440628a5612f15a6eaefd28d9fd3
+    new: fc5f69b8f2c500c69656c04a5da48f55e9c82ff9
     log: |
-         fea38e084588fe6630491892f1d5e8faafab3ca4 NFSD: Relocate the xdr_reserve_space_vec() call site
-         b224a21c50cd8a49b3a34dcbe8758ebbad673486 NFSD: Implement NFSD_IO_DIRECT for NFS READ
-         816e9393b9d74fb908efa87668176259e89de1fe NFSD: Prevent a NULL pointer dereference in fh_getattr()
-         2e348d32d4713d8092768ab73374a4a72082e34e NFSD: Ignore vfs_getattr() failure in nfsd_file_get_dio_attrs()
+         7bf7effb40dd734099e25aa748037d8e9bf9cd91 Update kernel headers
+         fc5f69b8f2c500c69656c04a5da48f55e9c82ff9 ip: iplink_bridge: Support fdb_local_vlan_0
          
+  - ref: refs/heads/master
+    old: afceddf61037440628a5612f15a6eaefd28d9fd3
+    new: fc5f69b8f2c500c69656c04a5da48f55e9c82ff9
+    log: |
+         7bf7effb40dd734099e25aa748037d8e9bf9cd91 Update kernel headers
+         fc5f69b8f2c500c69656c04a5da48f55e9c82ff9 ip: iplink_bridge: Support fdb_local_vlan_0
+         
+  - ref: refs/tags/v6.17.0
+    old: 0000000000000000000000000000000000000000
+    new: e99ec63481292550af90b08b7b92d8082fb64709
