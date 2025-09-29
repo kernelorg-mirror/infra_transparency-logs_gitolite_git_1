@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2559497772606428255=="
+Content-Type: multipart/mixed; boundary="===============2970606691716857916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 29 Sep 2025 16:32:41 -0000
-Message-Id: <175916356197.1158319.11944683676714206075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 29 Sep 2025 16:33:01 -0000
+Message-Id: <175916358122.1158595.1510110157677873046@gitolite.kernel.org>
 
---===============2559497772606428255==
+--===============2970606691716857916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 48de25d8ca9f8a4d826b2ed96da133b33a432c68
-    new: df5b8274ad11a884fa52349c3214ce99fb7f2967
-    log: revlist-48de25d8ca9f-df5b8274ad11.txt
-  - ref: refs/tags/v6.17
-    old: 0000000000000000000000000000000000000000
-    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
+    old: 28ee02f214274bca61ca5b47e7e2faa227e82bc7
+    new: 3df91be27cdd585c3fe381b42b1816a260682759
+    log: revlist-28ee02f21427-3df91be27cdd.txt
 
---===============2559497772606428255==
+--===============2970606691716857916==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-48de25d8ca9f-df5b8274ad11.txt
+Content-Disposition: attachment; filename=revlist-28ee02f21427-3df91be27cdd.txt
 
 ceb9515524046252c522b16f38881e8837ec0d91 Merge branch 'introduce-refcount_t-for-reference-counting-of-rose_neigh'
 8b3641dfb6f902407495c63b9b64482b32319b66 x86/bugs: Add attack vector controls for SSB
@@ -1052,6 +1049,6 @@ a5b2a9f5056b64aa41bd11d9166d836df30b0897 Merge tag 'spi-fix-v6.17-rc7' of git://
 6855f06042ae8d134f96c63feb5dfb3943c6d789 Merge tag 'i2c-for-6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 c68472b46416573fa2af4851b2dad94971f544d4 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 e5f0a698b34ed76002dc5cff3804a61c80233a7a Linux 6.17
-df5b8274ad11a884fa52349c3214ce99fb7f2967 audit: add a Linux Audit specific README.md and SECURITY.md
+3df91be27cdd585c3fe381b42b1816a260682759 lsm: add a LSM specific README.md and SECURITY.md
 
---===============2559497772606428255==--
+--===============2970606691716857916==--
