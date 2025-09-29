@@ -1,67 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7885873110562594553=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 29 Sep 2025 17:56:08 -0000
-Message-Id: <175916856881.1229976.15946690464992205270@gitolite.kernel.org>
-
---===============7885873110562594553==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 29 Sep 2025 17:59:00 -0000
+Message-Id: <175916874048.1231354.9772083606227477344@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 3b9828df8eb9c85c0418f805f802836fe56045f7
-    new: bad4d23129a84477405a608fea6297a05ed36ee5
-    log: revlist-3b9828df8eb9-bad4d23129a8.txt
-  - ref: refs/heads/next
-    old: 0a67913615c9fcbed46cd4f4191848cf1228f582
-    new: bad4d23129a84477405a608fea6297a05ed36ee5
+  - ref: refs/heads/tpm2-session
+    old: 478e788f406d52b747bf5aefedbc5bd496d58115
+    new: 478614ea1dbf039bc833a5302e24a8c780a0da93
     log: |
-         bad4d23129a84477405a608fea6297a05ed36ee5 Update the version
+         26c6047463443d28caf419bb37567ddcb6ab160b tpm: Use -EPERM as fallback error code in tpm_ret_to_err
+         86865dc14e293f5a8d01e102d920a5eba4cf2dd9 KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
+         0614e2a47e177a8c2a18b4184fcd8200b4619be6 tpm2-sessions: Remove 'attributes' from tpm_buf_append_auth
+         7aecd6f154a116b2c06d0206a948e598a4a10e5e tpm2-sessions: Umask tpm_buf_append_hmac_session()
+         19d061bfe7533a69c996530949e74f75360e8340 KEYS: trusted: Open code tpm2_buf_append()
+         9146bd2c7962da5734c8207d6e48871b067b1eba tpm-buf: check for corruption in  tpm_buf_append_handle()
+         78718f2eb0fceb08c13e2b05b8a8f470c731eae3 tpm-buf: Remove chip parameeter from tpm_buf_append_handle
+         478614ea1dbf039bc833a5302e24a8c780a0da93 tpm-buf: Build PCR extend commands
          
-  - ref: refs/tags/v2.9.8
-    old: 0000000000000000000000000000000000000000
-    new: 2698edd6ff34d4cf18e958e5b021223168d064f7
-
---===============7885873110562594553==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b9828df8eb9-bad4d23129a8.txt
-
-f9db08d98dbaede8626438669aa83aa506291c73 _damon_args: cleanup args.damos_action reset on damos_options_to_schemes()
-f2f72d5f69dc9df7aea6dfe4a5d8cf90dfe10220 _damon_args: generalize --damos_action arguments count error message
-74b0ad9fdb5b93539b300be7fe6760ac71e08e68 damo_report_holistic: set {kdamond,context,scheme}_idx and df_passed for fmt_heats()
-db1cebbd488ca7c0f1d0ae113ab54b3e6c1e436b damo_report_holistic: fix address range inputs to fmt_heats()
-5da0440125e4c3350611582e0bcb4d5c81ac8932 release_note: update for 'damo report holistic' fixup
-dd6e708152c4683db85e12e57b552b5619ebcd26 TODO: add item for full support of refresh_ms
-096b1623885448d7c57793956a4839fb430a96ba _damon: add omit_tried_regions parameter to Damos.to_str()
-c2080a66db1ef2631c0affafadbb0275e9bb0937 _damon: add omit_damos_tried_regions parameter to {DamonCtx,Kdamond}.to_str()
-f12ca4963f05233b9302d4a9acdcd055389579da damo_report_damon: add --omit_damos_tried_regions
-bdedcbe3c6fa4d88071c2bb20dd1c6c82d9d340c damo_report_damon: skip DAMOS tried rgions update if --omit_damos_tried_regions is set
-201cb9bcf14670d3799820f52143d06ca26867a9 damo_report_damon: skip DAMOS treid regions updat if --json is set
-bad35dbf34838a5e2914292d743d27a23014b40b release_note: update for 'damo report damon' changes
-ffec608a649f9c9c08f37c3adb90259e86a92253 _damo_records: rename percentile_ms_dict to percentile_ms_list
-c7f1faedd7494343c9941633452916e669097b21 _damo_records: avoid unnecessary nesting of percentile idle ms percentiles kvpair
-8a8b00c5d1a1dd32b3fc1290e947f8f141f6c26d _damo_records: remove idle_ms_percentiles from DamonSnapshot
-aeed4a5d5b03cc8d9966b89dde2226f3cef8f790 _damo_records: enhance RecordingHandle documentation
-08502a33b43200a0918a7afcf1dbb670aaba8655 _damo_records: use parameters directly from get_records()
-bf5656c4cdf11433757dff6fd3500a1042903d7d _damo_records/RecordGetRequest: remove TODO for integration with recording
-de5d6fd16c0c7645bfc65ac57b215bf9193cf9e8 _damo_reocrds: rename RecordGetRequest to SanpshotRequest
-1fc7118ed57bb39cf5373fd1e26c6a6060d33baa _damo_records: remove SanpshotRequest.record_file
-32e67ea32d65800506bb0d55722732f500a47b67 _damo_records: move SanpshotRequest definition to close to its user
-fbbb0d3add4e89a91c6022969d473601bc090ec1 _damo_records: improve SnapshotRequest comments
-5d96afdaa2504fa7a3d6ea17729ec9ede3ff6091 TODO: add more detailed plan for DAMON_STAT support
-bd66e89572f9ca90797c298cb5a1e6a82c2255f7 _damo_records: add a class for DAMON_STAT snapshot
-a5baf7f5fed91bd92f8aafc020f508faa381542f _damo_records: fix a typo in DamonIdleMsPercentil.from_kvapirs()
-b44875a94bc1c6b98a22003a3458f192618bd6aa _damo_records: implement DamonStatSnapshot.capture()
-0a67913615c9fcbed46cd4f4191848cf1228f582 release_note: update for DAMON_STAT support prep
-bad4d23129a84477405a608fea6297a05ed36ee5 Update the version
-
---===============7885873110562594553==--
