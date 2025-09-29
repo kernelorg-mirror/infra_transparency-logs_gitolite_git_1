@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 29 Sep 2025 16:54:06 -0000
-Message-Id: <175916484649.1177098.13858791335852465495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Mon, 29 Sep 2025 17:12:13 -0000
+Message-Id: <175916593374.1192407.3117096679937914588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: 755f5d758e7a365d13140a130a748283b67f756e
-    new: 422504811c13c245cd627be2718fbaa109bdd6ec
+  - ref: refs/heads/io_uring-defer-tw.4
+    old: ef9eca363b2366e32e77a8348cc5e9a181b953e6
+    new: afad3000d53227006433c1921c3e64a952b48497
     log: |
-         a9c809e083c0a16a9397c0233d312b5b40488392 update UAPI header copies
-         e11ebba815b96b57d5c193f65bc0ad0facb1a41b ethtool: pse-pd: Add PSE priority support
-         9ad8e2929bcfb71f93b8751e544988f7ab7899ac ethtool: pse-pd: Add PSE event monitoring support
-         422504811c13c245cd627be2718fbaa109bdd6ec Merge branch 'review/pse-pd-prio-event-v3' into master
+         da4244e91b4d748c38eb84264c5ed252139f8150 io_uring: abstract out tw_ring handling from local task_work
+         afad3000d53227006433c1921c3e64a952b48497 foo
          
