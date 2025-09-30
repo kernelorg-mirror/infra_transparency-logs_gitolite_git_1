@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5176590010220822075=="
+Content-Type: multipart/mixed; boundary="===============2434313182630856267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 30 Sep 2025 22:48:35 -0000
-Message-Id: <175927251543.2789877.1512389910002665673@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 22:48:49 -0000
+Message-Id: <175927252968.2790158.10077975415117196490@gitolite.kernel.org>
 
---===============5176590010220822075==
+--===============2434313182630856267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: e496fc4f5cb2c8198907c95a984bb6fc1b0b7e99
-    new: ecf5ebe73c9b797869d5a4d42d594b4304f9e48e
-    log: revlist-e496fc4f5cb2-ecf5ebe73c9b.txt
+  - ref: refs/heads/1GbE
+    old: e835faaed2f80ee8652f59a54703edceab04f0d9
+    new: 03faea8466713f04a522c52c386124755be960bc
+    log: revlist-e835faaed2f8-03faea846671.txt
 
---===============5176590010220822075==
+--===============2434313182630856267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e496fc4f5cb2-ecf5ebe73c9b.txt
+Content-Disposition: attachment; filename=revlist-e835faaed2f8-03faea846671.txt
 
 926e8bfaaa11471b3df25befc284da62b11a1e92 Bluetooth: btintel: Add support for BlazarIW core
 e57362f4911b025c31e032c7e1c67389b7eb8dd1 Bluetooth: btintel_pcie: Add support for _suspend() / _resume()
@@ -129,48 +129,5 @@ b3820e0e6c1251689318dcc831b7a07403fd923c selftests: drv-net: psp: add tests for 
 c18b0f5af42f8f98d4d629e578608188c0ce4652 Merge branch 'net-lockless-skb_attempt_defer_free'
 6f5dacf88a32b3fd8b52c8ea781bf188c42aaa95 Revert "net/mlx5e: Update and set Xon/Xoff upon MTU set"
 03faea8466713f04a522c52c386124755be960bc selftests/net: add tcp_port_share to .gitignore
-9c51c7b5e0791d0940876b78d13e75b934f21093 ice: fix lane number calculation
-de9d77577a48ebbd146552264635f9f8541bba05 ice: Allow 100M speed for E825C SGMII device
-384d80c3ac3b2e630a94120715610e1e9f71be55 idpf: cleanup remaining SKBs in PTP flows
-d4c137152a53578a2cbb0b6eb63e9622aaa38e59 ice: Fix enable_cnt imbalance on resume
-a0b8b3e696bfb4e52ce958ef50b32271aa8bbe48 ice: Fix enable_cnt imbalance on PCIe error recovery
-0f6ac3dcfa2ca4d07420c5b8759b5f7215776bb8 i40e: Fix enable_cnt imbalance on PCIe error recovery
-c2f0dfc27a052a2f2df86114579581ec4d0bec19 ixgbevf: fix getting link speed data for E610 devices
-d3d136b33a514304022284ef462c7a853c0035ce ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
-2b9e1e009c9ac137b09ac943c0105c0dee823ecd ixgbevf: fix mailbox API compatibility by negotiating supported features
-c09ebc3d70172af01fe907cecdcd07e8bb422f9f ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
-127d9c485903fea7dcd244b5e7bf132ec46dbb3d ice: add flow parsing for GTP and new protocol field support
-800ca99ec54cff55a2dbb8f583e0e326e6672121 ice: add virtchnl and VF context support for GTP RSS
-87947f377e6d76bd4fd5c6c49e8d4a82f3b6abb4 ice: improve TCAM priority handling for RSS profiles
-44c65ffbb6158450e1edc97be3c9049ffd872325 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
-de08edaab8937fa80e69ec895e0551079a159f7b iavf: add RSS support for GTP protocol via ethtool
-e9076fd47cd2db0400358ec4b134a3b2763a3c32 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-d45557ef8d08da38a3d984e25c949cd4cd3d0026 ixgbe: fix too early devlink_free() in ixgbe_remove()
-1e5c4e6feedbc00805cf068fa12dad8560d1944e ice: add recovery clock and clock 1588 control for E825c
-d52df91c6ca347474eb16ee206ad717d81e6ac09 devlink: Add new "max_mac_per_vf" generic device param
-7447c339f5d128b996f3a05a33bdbc1187efddce i40e: support generic devlink param "max_mac_per_vf"
-0f3766402964442b96fc797cef22fc7c72046ae0 e1000e: Introduce private flag to disable K1
-2224759f0ef6bed603522f901db7532ab593f341 idpf: convert vport state to bitmap
-9990f4037e794fab20dab19f870bb68d511a58da idpf: fix possible race in idpf_vport_stop()
-6ec86d519aaf69fa14c49e800aaa549f09e4bad2 ice: enforce RTNL assumption of queue NAPI manipulation
-f25209d21d9644b60a0b58e3e0b841e683cda5e4 ice: move service task start out of ice_init_pf()
-920fbfaab40b19f4c9a1cd1f8bbd6ecfbad09907 ice: move ice_init_interrupt_scheme() prior ice_init_pf()
-15d37ec677a20d837f4bbc99a58a6d43068ee57f ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
-966347a7a57ff6880ff8f3fdce75d22a0302f206 ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
-8fd4a95c197ec4601de8ace1477237fc2aad7f78 ice: move ice_init_pf() out of ice_init_dev()
-84fb191636991527d62989398c254f6755e45b25 ice: extract ice_init_dev() from ice_init()
-b7c36b5bd3ee5720e1dcab8fd5c6c31bbd69b8fe ice: move ice_deinit_dev() to the end of deinit paths
-e82220d6e46853217cfe42350340b0cb1042e741 ice: remove duplicate call to ice_deinit_hw() on error paths
-d86b8af99d0394d6ae2b0b455ff2edd4b6015946 net: docs: add missing features that can have stats
-03d3b633735b02aa4b0292c32f6963da3c0af647 ice: implement ethtool standard stats
-e82d8e67f944ef68a83baf836f862b25640551c1 ice: add tracking of good transmit timestamps
-81e46fbb12966bc0bf9ed51aa9e6ea1f64112fdd ice: implement transmit hardware timestamp statistics
-c48c795cb54e6436e1d7b1719a4486a233b6ca05 ice: refactor to use helpers
-f1f73fbf5bd6c12a7ed2b7bd10d306414a098cfe igc: power up the PHY before the link test
-b400f5785a00d878c2329995cea0332fe6d8b8c6 ixgbe: preserve RSS indirection table across admin down/up
-4b2ba8fe89ea21046872db7880661919d6fe82a0 idpf: remove duplicate defines in IDPF_CAP_RSS
-be1b6fe57505b234fdd92a75aabe9b5f4623c83d ice: remove legacy Rx and construct SKB
-2c1c9840f7b6d6f96b279181b96c02111753105a ice: drop page splitting and recycling
-ecf5ebe73c9b797869d5a4d42d594b4304f9e48e ice: switch to Page Pool
 
---===============5176590010220822075==--
+--===============2434313182630856267==--
