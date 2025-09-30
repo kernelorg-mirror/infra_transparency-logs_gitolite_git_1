@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8266807721709414454=="
+Content-Type: multipart/mixed; boundary="===============4657257175465689326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 30 Sep 2025 02:23:35 -0000
-Message-Id: <175919901579.1726096.516604704627719195@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 02:23:37 -0000
+Message-Id: <175919901727.1726246.2494191450498782946@gitolite.kernel.org>
 
---===============8266807721709414454==
+--===============4657257175465689326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 6c679f0f1fab04b117d34ec87225f73aa965e4b5
-    new: 71fffcaf9c5c5eb17f90a8db478586091cd300c5
-    log: revlist-6c679f0f1fab-71fffcaf9c5c.txt
+  - ref: refs/heads/mm-unstable
+    old: 32bb854337cd91f81ca70aaf6ddfbbe34c54ce9f
+    new: 97553774943919434a8ab5344002d0f159a738ca
+    log: revlist-32bb854337cd-975537749439.txt
 
---===============8266807721709414454==
+--===============4657257175465689326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c679f0f1fab-71fffcaf9c5c.txt
+Content-Disposition: attachment; filename=revlist-32bb854337cd-975537749439.txt
 
 89e688edcffee7858aa394fd107df98bfd7647a4 mm/compaction: fix low_pfn advance on isolating hugetlb
 2db579838296239545554443234fafb8f485cca0 mm/page_vma_mapped: track if the page is mapped across page table boundary
@@ -58,28 +58,5 @@ e19ae989a1eb0692d38c4c978a2b5574af949ede drivers/base/memory: add node id parame
 5948978649a779a556034dfdb265a32e4bd13d4c drivers/base: move memory_block_add_nid() into the caller
 eecf25f063ff27e9297f13e71c6cd73c787d5e30 mm: clean up is_guard_pte_marker()
 97553774943919434a8ab5344002d0f159a738ca Documentation/mm: Drop pxx_mkdevmap() descriptions from page table helpers
-bc2a10ef30e0c811624e5a604cffe6ab55679b6b mm/memory-failure: support disabling soft offline for HugeTLB pages
-eae6fdc61eb74cde74333301efb50ddbd6610293 mm: vmscan: remove folio_test_private() check in pageout()
-941bbbda7387c08bf3993b87685e06495e478b0c mm-vmscan-remove-folio_test_private-check-in-pageout-fix
-f3f7e695561c4eb1384dd3edcafae599f43e8c5e mm: vmscan: simplify the folio refcount check in pageout()
-ce1f4697b481852106be7f0cfd41d2a5ed1da1ee mm-vmscan-simplify-the-folio-refcount-check-in-pageout-fix
-bb394a96453171a72427cce8d046202913342394 mm/shmem: update shmem to use mmap_prepare
-cbaba08c09904e0f1f3d6ba3a360901d8207cc9a device/dax: update devdax to use mmap_prepare
-8de09156773204c97af1fe5bf323b9e926a2cb06 mm: add vma_desc_size(), vma_desc_pages() helpers
-2c6df0fc2530fcd1c45abe9d7b49ea7f44c90d5d relay: update relay to use mmap_prepare
-22d0d11f3c619b967aa8afb3c47ca7f789300908 mm/vma: rename __mmap_prepare() function to avoid confusion
-dd6cad47d90ae1f77c8c9a1c8b831949a59e74dd mm: add remap_pfn_range_prepare(), remap_pfn_range_complete()
-b87d77cde4679371c30ea4ddba2ef51af3cb5352 mm: abstract io_remap_pfn_range() based on PFN
-3d5514f2ddc2f0abf6fe5bb87e11f1bd045e9c11 mm: introduce io_remap_pfn_range_[prepare, complete]()
-46517a733c18d71ad27bd510b23a7bde5ab3b1bd fixup io_remap_pfn_range_[prepare, complete]
-f9c810e9f6652fed1352e2eb6ce827a1e9ff2c57 mm: add ability to take further action in vm_area_desc
-93a17e6492b4c9e8e29bc418c46c945c1db2fffb doc: update porting, vfs documentation for mmap_prepare actions
-e663a74a8c3020a6683f2726338ebe5ebce9292b mm/hugetlbfs: update hugetlbfs to use mmap_prepare
-bca51d4d12dfeee365de314b2dd9de2e1e6fedef mm: add shmem_zero_setup_desc()
-7db4224828cca9d32899fc20615d3bea8bf4c444 mm: update mem char driver to use mmap_prepare
-0c5aa7a1632a9f608b3bca2e0efbd2833b2d70c5 mm: update resctl to use mmap_prepare
-33e95ac9174a8e6c07a27cceb5e2be9aac3f8754 mm/thp: drop follow_devmap_pmd() default stub
-d485579f29f435a99db76eaf97c7986767bf265c docs: admin-guide/mm/damon: correct typo "directores"
-71fffcaf9c5c5eb17f90a8db478586091cd300c5 mm: Fix some typos in mm module
 
---===============8266807721709414454==--
+--===============4657257175465689326==--
