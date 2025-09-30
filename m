@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4758682347605994185=="
+Content-Type: multipart/mixed; boundary="===============2886897088200184517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 30 Sep 2025 15:14:40 -0000
-Message-Id: <175924528067.2393240.879591661994666867@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 15:14:41 -0000
+Message-Id: <175924528190.2393315.18092290058355535792@gitolite.kernel.org>
 
---===============4758682347605994185==
+--===============2886897088200184517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 58a0a7a45feaf4538841afe8e251737bf7c56607
-    new: bb8fc571c9306d10f6b57d8b8bc1f9b5cdf685be
-    log: revlist-58a0a7a45fea-bb8fc571c930.txt
-  - ref: refs/tags/ath-202509301458
-    old: 0000000000000000000000000000000000000000
-    new: bb8fc571c9306d10f6b57d8b8bc1f9b5cdf685be
+  - ref: refs/heads/ath-next
+    old: 56d9de46715245c9cc46dbe16830e431056abbc3
+    new: 94aced6ed9e2630bae0b5631e384a5302c4b6783
+    log: revlist-56d9de467152-94aced6ed9e2.txt
 
---===============4758682347605994185==
+--===============2886897088200184517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58a0a7a45fea-bb8fc571c930.txt
+Content-Disposition: attachment; filename=revlist-56d9de467152-94aced6ed9e2.txt
 
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
 d8f3ae7b38fea546e64a6cfcdc7d061c85f086e2 pmdomain: renesas: rcar-sysc: Make rcar_sysc_onecell_np __initdata
@@ -491,8 +488,5 @@ dd5629a67c5f3b4d9783dcdf06c844f8b7c88fae Merge branch 'xsk-refactors-around-gene
 6c85fb5486c5a8ae646438877d7dc5050992a173 psp: Expand PSP acronym in INET_PSP help description
 47f78a67d35e48a56add528c9aa681782cf1b8e1 selftests: drv-net: Enable BTF
 94aced6ed9e2630bae0b5631e384a5302c4b6783 Merge tag 'wireless-next-2025-09-25' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
-3c5a1f24f41d9123ea381bbd27a27d4940a895d4 Merge branch 'ath-next'
-32b37364e2a453aae691de855dd972a8894f614d Merge remote-tracking branch 'mhi/mhi-next'
-bb8fc571c9306d10f6b57d8b8bc1f9b5cdf685be Add localversion-wireless-testing-ath
 
---===============4758682347605994185==--
+--===============2886897088200184517==--
