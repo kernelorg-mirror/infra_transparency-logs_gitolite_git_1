@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Tue, 30 Sep 2025 08:54:11 -0000
-Message-Id: <175922245149.2045058.3188679274223320717@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 08:57:28 -0000
+Message-Id: <175922264842.2048437.3589654638006693219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,8 @@ repo: pub/scm/linux/kernel/git/vireshk/linux
 user: vireshk
 changes:
   - ref: refs/heads/virtio/msg
-    old: 666e58333081abe39091b8ae006bf0b42f87e1e2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virtio/msg-v2
-    old: 6205d0620e1d8d5c0197bfbf438aa1b8db614220
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virtio/msg-v2-xen
-    old: 584e71176cc74d70faae4330414be0e0e2bd4af5
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: c3edc0cc389b230ef92747e0aa8b533e8b110c40
+  - ref: refs/heads/virtio/msg-xen
+    old: 0000000000000000000000000000000000000000
+    new: 9c30dff52b1c6392b15a54dbb8de2731175a01df
