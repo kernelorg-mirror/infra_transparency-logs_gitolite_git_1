@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8913650966172995532=="
+Content-Type: multipart/mixed; boundary="===============0720808496511467670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 30 Sep 2025 17:03:23 -0000
-Message-Id: <175925180384.2489509.11735483144067664778@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 17:05:37 -0000
+Message-Id: <175925193728.2492673.408018136058345313@gitolite.kernel.org>
 
---===============8913650966172995532==
+--===============0720808496511467670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: kees
 git_push_cert_status: E
 changes:
   - ref: refs/heads/for-next/hardening
-    old: c8a935a31bc787db52296944890f300ba9479088
-    new: 01c6d112b63ce34f6d0e1e2bac605fa5c025e97e
+    old: 01c6d112b63ce34f6d0e1e2bac605fa5c025e97e
+    new: 90fbdddfdeb11a31805c175739f9f12623e3221a
     log: |
-         01c6d112b63ce34f6d0e1e2bac605fa5c025e97e kconfig: Avoid prompting for transitional symbols
+         90fbdddfdeb11a31805c175739f9f12623e3221a kconfig: Avoid prompting for transitional symbols
          
 
---===============8913650966172995532==
+--===============0720808496511467670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1759251860 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1759251994 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1759251783-cffa9b1f6d06897bb63ec984996eb2f452bcf165
+nonce 1759251933-96b9556af3c87e692fbb67a4a9e0fbbc1f9ef944
 
-c8a935a31bc787db52296944890f300ba9479088 01c6d112b63ce34f6d0e1e2bac605fa5c025e97e refs/heads/for-next/hardening
+01c6d112b63ce34f6d0e1e2bac605fa5c025e97e 90fbdddfdeb11a31805c175739f9f12623e3221a refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaNwNlAAKCRA2KwveOeQk
-uzAkAP4kF/CaJ8yVD1F4gh8IyiPpBm4D+lycHyueWeRwmo1bJwEAlegTT4qYe8SS
-9DsZsuSsHamtrATj7GBSrB1Oaza7gA4=
-=EddA
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaNwOGgAKCRA2KwveOeQk
+uxdEAP9Ea9qNiNIN8ENizsB3cmjbsq3F6MlJhQ3C4OC8FKSfTwEAlu948h4YxWES
+fAnHE8j0c6NQwa60KFqcz1yY3UhLqQw=
+=cIs4
 -----END PGP SIGNATURE-----
 
---===============8913650966172995532==--
+--===============0720808496511467670==--
