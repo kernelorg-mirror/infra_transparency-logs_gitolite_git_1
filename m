@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 30 Sep 2025 15:46:47 -0000
-Message-Id: <175924720710.2422921.548319999601691425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 Sep 2025 15:46:51 -0000
+Message-Id: <175924721135.2423136.15262569309585079512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0a9740883750bf7f73c08c9bbcaa889f9e7c0464
-    new: ac9599127263efeca1f44c9df4cfb06be1a3beea
+    old: 6f5dacf88a32b3fd8b52c8ea781bf188c42aaa95
+    new: 03faea8466713f04a522c52c386124755be960bc
     log: |
-         ac9599127263efeca1f44c9df4cfb06be1a3beea feat!: drop mocktpm
+         03faea8466713f04a522c52c386124755be960bc selftests/net: add tcp_port_share to .gitignore
          
