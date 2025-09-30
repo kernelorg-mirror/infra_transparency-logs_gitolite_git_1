@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Tue, 30 Sep 2025 08:57:28 -0000
-Message-Id: <175922264842.2048437.3589654638006693219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 30 Sep 2025 09:26:10 -0000
+Message-Id: <175922437074.2072025.8161808709156970449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 0000000000000000000000000000000000000000
-    new: c3edc0cc389b230ef92747e0aa8b533e8b110c40
-  - ref: refs/heads/virtio/msg-xen
-    old: 0000000000000000000000000000000000000000
-    new: 9c30dff52b1c6392b15a54dbb8de2731175a01df
+  - ref: refs/heads/fixes
+    old: 34f46fecfe96b404ef14e97b8e59cde693276f28
+    new: cc96679f3c0348bf8450a5c84b71bb1351c027f9
+    log: |
+         cc96679f3c0348bf8450a5c84b71bb1351c027f9 KVM: arm64: Prevent access to vCPU events before init
+         
