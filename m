@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 30 Sep 2025 17:37:11 -0000
-Message-Id: <175925383102.2519917.2735296494681816818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 30 Sep 2025 17:39:13 -0000
+Message-Id: <175925395387.2521488.9556334976994913992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 7eed8a2812e0ba9d710baf3b8ab57865301c4482
-    new: d29979a1a33c9580c2263f9517a2951633a3130d
+    old: 2725800a9b5c532fcd1bc6c1502cb4678463416d
+    new: ed924f6db3c973f941fd6c6317c0d52664e83e5a
     log: |
-         d29979a1a33c9580c2263f9517a2951633a3130d feat!: drop mocktpm
+         456617792f737ca068475cbd6736bf3971b0fa4a qcom: Update DSP firmware for qcs8300 platform.
+         ed924f6db3c973f941fd6c6317c0d52664e83e5a Merge branch 'robot/pr-0-1759253351' into 'main'
          
