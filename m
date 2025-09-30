@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 30 Sep 2025 20:33:47 -0000
-Message-Id: <175926442735.2672689.14623705512963965847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 30 Sep 2025 20:53:11 -0000
+Message-Id: <175926559115.2688556.14083284227197410244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 35974a67c652a2e8391b823a4b60ec137b778267
-    new: 4caf7781a59c55ebf04f3d7815cb6aa95a9fd46e
+  - ref: refs/heads/master
+    old: e951bf0c08c81a2ea0c4b7bca7e4494f2043d367
+    new: 35033d7ea3ab2645d12af2567a4c220602db47f8
     log: |
-         e1b3ba98f78f14ade23269dbd89bc9df8531fc83 fbdev: radeonfb: Remove stale product link in Kconfig/FB_RADEON
-         4caf7781a59c55ebf04f3d7815cb6aa95a9fd46e fbdev: Make drivers depend on LCD_CLASS_DEVICE
+         a0046b03931aa8e1a9e5b0244cde6f0a9b1d0abc liburing.h: Add const-qualifier for some preps
+         35033d7ea3ab2645d12af2567a4c220602db47f8 Merge branch 'const-for-preps' of https://github.com/silvanshade/axboe-liburing
          
