@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6545745892434759394=="
+Content-Type: multipart/mixed; boundary="===============2764220334431653347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 30 Sep 2025 16:47:05 -0000
-Message-Id: <175925082545.2474692.5119224466796309116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 30 Sep 2025 16:47:16 -0000
+Message-Id: <175925083670.2474917.3210770997228826601@gitolite.kernel.org>
 
---===============6545745892434759394==
+--===============2764220334431653347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 3f20f98e2a542fba932d374253b7c81c0f0957e9
     log: revlist-1fb36b59a905-3f20f98e2a54.txt
 
---===============6545745892434759394==
+--===============2764220334431653347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ dd171167f220d01331b40b1c6c1cff820e861cf2 perf vendor events intel: Update panthe
 0c32e2748c2968d51ab735e5ea19d867c7019828 perf vendor events intel: Update sapphirerapids events to v1.35
 3f20f98e2a542fba932d374253b7c81c0f0957e9 perf vendor events intel: Update sierraforest events to v1.12
 
---===============6545745892434759394==--
+--===============2764220334431653347==--
