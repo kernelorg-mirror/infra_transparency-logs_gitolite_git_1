@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5569860013157600028=="
+Content-Type: multipart/mixed; boundary="===============6332382875745667869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 30 Sep 2025 02:34:00 -0000
-Message-Id: <175919964010.1735156.7402785624559460041@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 02:34:05 -0000
+Message-Id: <175919964546.1735645.9815128414325927133@gitolite.kernel.org>
 
---===============5569860013157600028==
+--===============6332382875745667869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: d91a129bf4ff9b80b69b519ea67fbee29a4a0aa0
-    new: 7891beb6f94af44211dff3eb50547d20435953e1
-    log: revlist-d91a129bf4ff-7891beb6f94a.txt
+  - ref: refs/heads/6.18/scsi-queue
+    old: 88e8acffd7af9b030d2772f27ee30639be7024cf
+    new: fb641516a6687801fddc25e889bee9ab46e133d7
+    log: revlist-88e8acffd7af-fb641516a668.txt
 
---===============5569860013157600028==
+--===============6332382875745667869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1759199676 -0400
+pusher 75C5DE3D 1759199701 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1759199618-46ec8e11f44d9daf8146dfc8e4020ed7609142eb
+nonce 1759199642-7ea386f85db56fe588038420282e9abfc79aa356
 
-d91a129bf4ff9b80b69b519ea67fbee29a4a0aa0 7891beb6f94af44211dff3eb50547d20435953e1 refs/tags/mkp-scsi-queue
+88e8acffd7af9b030d2772f27ee30639be7024cf fb641516a6687801fddc25e889bee9ab46e133d7 refs/heads/6.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjbQbwACgkQ7ulgGnXF
-3j0JRRAAmjfBTvAody4xQaTH5KADOUXIDWBgTRy6dAXbh3C32ewcblyeJnUsSblO
-CCJLYhow3Fs04edv4wGZzT1La4C31PzYeic/Ljo0mvN543GGi6TDl6BSv23hU6Do
-yFhtAmJxNFbeniTNLyesodAMCSLgmh5bbzDbuje7H7Gp8unFhKvIZwfljZG3tnB6
-akTfn2t5JcvpNY48pamN5nixjhCx9e0vRI1X544I1qmMeQjg0AHwLVdwf2OZoii5
-rjdFYAMm+GLHan+EWTyL8H0tda9UsbY+8KQTkSNrPOtTWmKn7zycl1j30M37YzdP
-a9CbNbfTbbV7NfKgshrcB71kXEjCo+moXZnojHcgf6m9FK+1KnVZCzSRxBL5jaP5
-QvmAA0q9JeedvvXNiQFr2SYcvzxzQXcOPODDpxSBnTArtDZK68zwall9ZDHX7yqt
-KEOxfqDfa9B0IBteJNdSqzsFIl/4M6VMiRkPkZSjRlm8OwWT5Fvqdy4KtfW/x07f
-toXX0t83SM8WDpWBToKRZrJLyhsl+V+rjp9XThufVU9vvCktyL8H6DHiImKSMEze
-3yJxG/hpX9qvh70fZG6XyL1M7oNNKZG5MqwO8+/RQrDaomfKEDfb9ns55CXn29LF
-mDwKe3+zxspe7y2IgLTOKH9dfdxKjV1snWoEJ+UQgxkkW3qoGF8=
-=FRh8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjbQdUACgkQ7ulgGnXF
+3j10AQ//VNY8fzaaKUg74jQjY+SLEPoTiJGc1hvIE1AmUtesQrMokLVrObOC3w46
+5H5uB167sMjTnvDI6GLS+NldtmXtCkMgtppawejVQdIJkiKFaW25tYL6nu2VEWMh
+hEQfNFaTBQmWbtxNukEaQLcvG+RlFAmqd8FuoaLDHK+iTDYxt3qo3VYlX9di7Zrv
+AWJwqFahGeQBZgazxu3Et1zNgMZcv8dXJNDex3tO3YMJ1J1Ou3AFrJ+L6ya1P/vi
+ll1KoH3Bz7MZn7uu/Ofge4kyTNxZSB3DrO1Wk1c8ro7SVGB9OaWWFGgR5F5JlUgj
+9VvtZEFptLKq4HjE3BqixHe5nIsoVIQawDt5Uj82LKO9f6oSpIrHuHAyFiS7DkWv
+Jz24xEGTu5E6DcjSz6IaxpFkeaoZxrnKtTJPmv78pYyoZgHWBcZvw2t5vVsPQP8u
+gtIs3Uq2XxSbH1MZxwVZ5NfGrBgFv594UhpURpipigNyJFtq6jzGVqJceQONwppj
+yevLpJu7Nq6TnTfq5rDs03PHl+ZvBAvhAHFrExkVL/3vqJErSvPpL9lWA0qPlBwR
+GANWdezuDUwt1eo5Gz3M05HG+ze0TViMeacT8grY6Thfqk2wSDDB+qXBYqABhEOl
+QWcrF+2kNswEZQDMfwPtiR495qgRCD/yYAJmtYDKjiFLX54YQrY=
+=APc6
 -----END PGP SIGNATURE-----
 
---===============5569860013157600028==
+--===============6332382875745667869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d91a129bf4ff-7891beb6f94a.txt
+Content-Disposition: attachment; filename=revlist-88e8acffd7af-fb641516a668.txt
 
 b81296591c567b12d3873b05a37b975707959b94 scsi: hpsa: Fix potential memory leak in hpsa_big_passthru_ioctl()
 ac01fc418f586c6a6e5582da16de7324e9c6391a scsi: hpsa: Replace kmalloc() + copy_from_user() with memdup_user()
@@ -75,4 +75,4 @@ d471a075ae019118fa2e1bd251bad7e98d97b49e scsi: ufs: ufs-qcom: Remove redundant r
 408445e9c1639e41e37876cb9e887cb0fadad381 Merge patch series "mpt3sas: Few Enhancements and minor fixes"
 fb641516a6687801fddc25e889bee9ab46e133d7 scsi: MAINTAINERS: Update FC element owners
 
---===============5569860013157600028==--
+--===============6332382875745667869==--
