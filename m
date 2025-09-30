@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0188542832266220171=="
+Content-Type: multipart/mixed; boundary="===============8144179261024706318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 30 Sep 2025 22:55:37 -0000
-Message-Id: <175927293755.2798873.11704814321185331852@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 22:55:39 -0000
+Message-Id: <175927293996.2798954.12428836457945136276@gitolite.kernel.org>
 
---===============0188542832266220171==
+--===============8144179261024706318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 012ea489aedab1a4c08efbd936bb7be91a06d236
     new: 2aff4420efc2910e905ee5b000e04e87422aebc4
     log: revlist-012ea489aeda-2aff4420efc2.txt
 
---===============0188542832266220171==
+--===============8144179261024706318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ eb11f02f3151e86f41bb15cc47b7400e91c07a4f Merge branch 'mlx5-misc-fixes-2025-09-2
 9c328f54741bd5465ca1dc717c84c04242fac2e1 net: nfc: nci: Add parameter validation for packet data
 2aff4420efc2910e905ee5b000e04e87422aebc4 net: enetc: initialize SW PIR and CIR based HW PIR and CIR values
 
---===============0188542832266220171==--
+--===============8144179261024706318==--
