@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 30 Sep 2025 07:49:05 -0000
-Message-Id: <175921854508.1988517.12872225592592925243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 30 Sep 2025 07:52:38 -0000
+Message-Id: <175921875870.1992328.10707802062721534899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: c5cb31c99257aacd5cc2ff72a3b6f0c660046c9b
-    new: 7bd80ed89d72285515db673803b021469ba71ee8
+  - ref: refs/heads/master
+    old: 97ee30872853b2c9fbb448240012909d985f2e19
+    new: 2eab5e896f7dd8e6ec5bea5070b95f09a2fbbcbb
     log: |
-         7bd80ed89d72285515db673803b021469ba71ee8 Documentation: net: add flow control guide and document ethtool API
+         e5494942299014784203e6718dba6664cb514958 bindings: rust: complete the unification of imports in examples
+         d0f1291f4137c7243f44b118ca6ecfe0cd4fd92d bindings: rust: update formatting to --edition 2024
+         2eab5e896f7dd8e6ec5bea5070b95f09a2fbbcbb bindings: rust: add examples to the README.md in the libgpiod crate
          
