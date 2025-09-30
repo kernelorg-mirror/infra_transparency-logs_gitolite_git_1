@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 30 Sep 2025 23:12:17 -0000
-Message-Id: <175927393776.2813423.16815802739395601683@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3175861558659574765=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Tue, 30 Sep 2025 23:16:10 -0000
+Message-Id: <175927417068.2817354.9283176438936681144@gitolite.kernel.org>
+
+--===============3175861558659574765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: aschofie
 changes:
-  - ref: refs/heads/tpm2-session
-    old: 2bffe2945a930ed51f0284f6e07cf9e06d7f1287
-    new: 38cafb88c9069e0f1add076f8374bd8c4b988942
-    log: |
-         5233d2f8601483a65761f734387730fd82310b61 tpm: Cap the number of PCR banks
-         e8939c6dec392a57776f02dc444cccdf2a3a44ef tpm: Use -EPERM as fallback error code in tpm_ret_to_err
-         41b7c367c7302fb71b1dacf7193b34f58ed8e0ed KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
-         eeb13f5df6af9e4b618604a85c6259e4d0597e9f tpm2-sessions: Remove 'attributes' from tpm_buf_append_auth
-         4a4ccb425131a94eea780990d65ec0b0609ecb2f tpm2-sessions: Unmask tpm_buf_append_hmac_session()
-         ad0915e8b4a3a8178322ed46bc14ca8b190e6f2a KEYS: trusted: Open code tpm2_buf_append()
-         f9ebac42a3db8e45d448911c065e0c6be5143e93 tpm-buf: check for corruption in tpm_buf_append_handle()
-         c8ed3a5fca711189867eaa264fb50d1f5c60abc9 tpm-buf: Remove chip parameter from tpm_buf_append_handle
-         38cafb88c9069e0f1add076f8374bd8c4b988942 tpm-buf: Enable managed and stack allocations.
-         
+  - ref: refs/heads/pending
+    old: 74b9e411bf13e87df39a517d10143fafa7e2ea92
+    new: 4f7a1c63b3305c97013d3c46daa6c0f76feff10d
+    log: revlist-74b9e411bf13-4f7a1c63b330.txt
+
+--===============3175861558659574765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74b9e411bf13-4f7a1c63b330.txt
+
+4259c72e7baf4c9bde1e607c39784bb2a0ce0870 build: update meson feature deprecation warnings
+e4a2269f2da9607ecf1a8f0603183847cda969b2 test/sub-section.sh: use built ndctl program in unit test
+30aca9314e91f385c85dfc1866f0da282dbba1cd test/dax.sh: adjust trace parsing of fault results
+2153a80419ee8900bdfbf12ef88bdc154386e45d README.md: update package requirements for the test environment
+01c245fcc4bc8acec0d329ab3e389b28c799fd5a test/meson.build: add fwctl dependency needed for cxl-features.sh
+ea4cdc87121c8c3ec804cb3548efd026b9e92ccf test/common: add double quotes to bash variables
+2e4465374ca512b672bbe06d522de3ed1aaa503e test/common: move err() function to top of file
+14246dd830edb0179150daa4531c0db2a6c64422 ndctl: fix user visible spelling errors
+c1e2e3cd7e9b7664d8e880e1ae932462ff4a1734 cxl: add helper function to verify port is in memdev hierarchy
+b9695a3656a6e34d7b29b890944f15e68d186136 test/cxl-poison.sh: test inject and clear poison by region offset
+b4caae2ed720d2ba51eabf449fd1e1105bd07dd1 test/dm.sh: use dm.sh as script name in cleanup error message
+4c6e6c38d2835b7f6cbd973f3159627f1dbe9966 cxl: document 'cxl enable-port -m' behavior change
+b26e9ae3b1dc565b3a508b8a65677dce402e151c cxl/list: remove libtracefs build dependency for --media-errors
+4f7a1c63b3305c97013d3c46daa6c0f76feff10d ndctl: release v83
+
+--===============3175861558659574765==--
