@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4785439585489181616=="
+Content-Type: multipart/mixed; boundary="===============2050259431454815224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Tue, 30 Sep 2025 04:33:19 -0000
-Message-Id: <175920679989.1831545.1221990683655906989@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 04:34:42 -0000
+Message-Id: <175920688239.1832918.15878218995602324108@gitolite.kernel.org>
 
---===============4785439585489181616==
+--===============2050259431454815224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 37816488247ddddbc3de113c78c83572274b1e2e
-    new: 30d4efb2f5a515a60fe6b0ca85362cbebea21e2f
-    log: revlist-37816488247d-30d4efb2f5a5.txt
+  - ref: refs/heads/dev
+    old: 6558447ace6122794873ed9930fbefc995923dc0
+    new: f7b73df92315a68e4f96c7f298cf98526589de3c
+    log: revlist-6558447ace61-f7b73df92315.txt
 
---===============4785439585489181616==
+--===============2050259431454815224==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-37816488247d-30d4efb2f5a5.txt
+Content-Disposition: attachment; filename=revlist-6558447ace61-f7b73df92315.txt
 
-fc670ad5966f999b970b2767f55ce9e978e44d9c Revert "KVM: arm64: Reschedule as needed when destroying the stage-2 page-tables"
-e6157256ee1a6a500da42556e059d4dec2ade871 Revert "KVM: arm64: Split kvm_pgtable_stage2_destroy()"
-5e13f2c491a4100d208e77e92fe577fe3dbad6c2 netfilter: nft_set_bitmap: fix lockdep splat due to missing annotation
-c4eaca2e1052adfd67bed0a36a9d4b8e515666e4 netfilter: nft_set_pipapo: don't check genbit from packetpath lookups
-a60f7bf4a1524d8896b76ba89623080aebf44272 netfilter: nft_set_rbtree: continue traversal if element is inactive
-64102d9bbc3d41dac5188b8fba75b1344c438970 netfilter: nf_tables: place base_seq in struct net
-11fe5a82e53ac3581a80c88e0e35fb8a80e15f48 netfilter: nf_tables: make nft_set_do_lookup available unconditionally
-b2f742c846cab9afc5953a5d8f17b54922dcc723 netfilter: nf_tables: restart set lookup on base_seq change
 37a9675e61a2a2a721a28043ffdf2c8ec81eba37 MAINTAINERS: add Phil as netfilter reviewer
 449c9c02537a146ac97ef962327a221e21c9cab3 PM: hibernate: Restrict GFP mask in hibernation_snapshot()
 1b5d4661c7ee7937d062a00bd336761a237870b4 Merge tag 'trace-v6.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -1050,5 +1042,13 @@ f1004b2f19d7e9add9d707f64d9fcbc50f67921b Merge tag 'm68k-for-v6.18-tag1' of git:
 9cc220a422113f665e13364be1411c7bba9e3e30 Merge tag 's390-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 417552999d0b6681ac30e117ae890828ca7e46b3 Merge tag 'powerpc-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 30d4efb2f5a515a60fe6b0ca85362cbebea21e2f Merge tag 'for-linus-6.18-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+6dfba108387bf4e71411b3da90b2d5cce48ba054 exfat: limit log print for IO error
+79c1587b6cda74deb0c86fc7ba194b92958c793c exfat: validate cluster allocation bits of the allocation bitmap
+2c88607ac82d1e375e4c85577fe54e69b0be43a9 exfat: drop redundant conversion to bool
+cb8d6d4aa015a8dace68d129baf7a4d7042a667d exfat: Remove unnecessary parentheses
+9fd688678dd86e3be32a35e3b2c5cc3ef0c4e257 exfat: optimize allocation bitmap loading time
+e6fd5d3a431708df8f43d970bd3ba8a70a034fd5 exfat: support modifying mount options via remount
+bfffcbef36811d9848dff6f31d28d2067c1b8496 exfat: Add support for FS_IOC_{GET,SET}FSLABEL
+f7b73df92315a68e4f96c7f298cf98526589de3c exfat: combine iocharset and utf8 option setup
 
---===============4785439585489181616==--
+--===============2050259431454815224==--
