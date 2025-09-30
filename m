@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 30 Sep 2025 09:26:10 -0000
-Message-Id: <175922437074.2072025.8161808709156970449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 Sep 2025 09:29:51 -0000
+Message-Id: <175922459147.2074497.4376443251990622541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/fixes
-    old: 34f46fecfe96b404ef14e97b8e59cde693276f28
-    new: cc96679f3c0348bf8450a5c84b71bb1351c027f9
+  - ref: refs/heads/main
+    old: 38b04ed7072e54086102eae2d05d03ffcdb4b695
+    new: 2ade91705b596b7b6b7de84c0ca59eced7acd1f6
     log: |
-         cc96679f3c0348bf8450a5c84b71bb1351c027f9 KVM: arm64: Prevent access to vCPU events before init
+         2ade91705b596b7b6b7de84c0ca59eced7acd1f6 tipc: adjust tipc_nodeid2string() to return string length
          
