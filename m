@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Tue, 30 Sep 2025 18:05:49 -0000
-Message-Id: <175925554975.2548011.11813612239992187891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Tue, 30 Sep 2025 18:11:47 -0000
+Message-Id: <175925590736.2552890.8751790360820599497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
-  - ref: refs/tags/0.10.51
-    old: 0000000000000000000000000000000000000000
-    new: 5427d829fc127de21ed92dedcf3e6a6ad432371e
+  - ref: refs/heads/main
+    old: 4c865a357b37251ff20694a4c644a98241823b0b
+    new: b6d58397145917b7da022145f337629fb8a3bd53
+    log: |
+         b6d58397145917b7da022145f337629fb8a3bd53 feat!: drop mocktpm
+         
