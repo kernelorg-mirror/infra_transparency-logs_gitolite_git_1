@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Tue, 30 Sep 2025 01:26:54 -0000
-Message-Id: <175919561410.1676602.17583481865100709176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 Sep 2025 01:29:31 -0000
+Message-Id: <175919577123.1678362.5922504690237076613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/bcain/boot_qemu
-    old: aa3b4cb38614545e4235294c86e2bb4a1babd309
-    new: 9972e822a002061805a0b9f5cbce6dd535226856
+  - ref: refs/heads/main
+    old: 74f7c5233e09a8b10ccf94f2fef42f95961c288b
+    new: 9dd4e022bfffe0fbc6eaccdb52fc25554be5c367
     log: |
-         9972e822a002061805a0b9f5cbce6dd535226856 hexagon: add hwcap
+         9dd4e022bfffe0fbc6eaccdb52fc25554be5c367 net: stmmac: Convert open-coded register polling to helper macro
          
