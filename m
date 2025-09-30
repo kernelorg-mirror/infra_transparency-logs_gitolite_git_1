@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 30 Sep 2025 16:13:52 -0000
-Message-Id: <175924883205.2445660.11873013406583463498@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 16:14:00 -0000
+Message-Id: <175924884013.2445846.2595971753962996708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath12k-ng
-    old: 972f34d54015a4a16aa9e6a081bafabb6f9bf95c
+  - ref: refs/heads/pending-ath12k-ng
+    old: 1cca685f04639e68224760279e5613d9fb417368
     new: af66c7640cf94aa77314cf8d5e95141bdecbc1ee
     log: |
          3a52762b539f6eefa6f600ab58577ee09f26657a wifi: ath12k: Convert ath12k_dp member in ath12k_base to pointer
