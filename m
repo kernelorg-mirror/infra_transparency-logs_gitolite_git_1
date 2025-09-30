@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 30 Sep 2025 16:14:00 -0000
-Message-Id: <175924884013.2445846.2595971753962996708@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4086432599346254293=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 30 Sep 2025 16:14:13 -0000
+Message-Id: <175924885357.2446693.3535303121436371091@gitolite.kernel.org>
+
+--===============4086432599346254293==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending-ath12k-ng
-    old: 1cca685f04639e68224760279e5613d9fb417368
-    new: af66c7640cf94aa77314cf8d5e95141bdecbc1ee
+  - ref: refs/heads/master
+    old: 749f364f99310f7fb2a22761b75f9df373faa433
+    new: 2367c3a0f5fdbf607e439c80cc907d53c8041cd5
     log: |
-         3a52762b539f6eefa6f600ab58577ee09f26657a wifi: ath12k: Convert ath12k_dp member in ath12k_base to pointer
-         614c23e24ee84d5cc2c1648941ee7156b4fb173f wifi: ath12k: Support arch-specific DP device allocation
-         8042e30acd1f48aa7d79a9be3b64b04376b0014c wifi: ath12k: Rearrange DP fields in ath12k_hw_group struct
-         914c890d3b905165afa17356bcf4e23352411486 wifi: ath12k: Add framework for hardware specific ieee80211_ops registration
-         39538dc8860aa523dde38ab68a333cac4a98d9f2 wifi: ath12k: Add framework for hardware specific DP interrupt handler
-         af66c7640cf94aa77314cf8d5e95141bdecbc1ee wifi: ath12k: Refactor ath12k_vif structure
+         2367c3a0f5fdbf607e439c80cc907d53c8041cd5 Add FD3CBBAE0E6AD22C (Md Danish Anwar)
          
+
+--===============4086432599346254293==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1759248910 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1759248852-ebff01e413a9ac765917b4e40d306ba76b5a30e6
+
+749f364f99310f7fb2a22761b75f9df373faa433 2367c3a0f5fdbf607e439c80cc907d53c8041cd5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaNwCDgAKCRC2xBzjVmSZ
+bNb2AP0TH8IE8QA3BaQYiC9z8Jn5ROvbOSXOjOWrzxnfh3ENDwD+KuJUdvLxjsJD
+UGvlQ9W2UH5W/KIVzuF5j+e/JYUnQA4=
+=Gzho
+-----END PGP SIGNATURE-----
+
+--===============4086432599346254293==--
