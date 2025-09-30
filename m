@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1902491362875891918=="
+Content-Type: multipart/mixed; boundary="===============7583289201620958994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 30 Sep 2025 14:37:33 -0000
-Message-Id: <175924305374.2360041.2272519455938789823@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 14:37:36 -0000
+Message-Id: <175924305600.2360184.14896217482210349130@gitolite.kernel.org>
 
---===============1902491362875891918==
+--===============7583289201620958994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,138 +16,136 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 147338df34870c0248133d7a986b1fab025ec56a
-    new: 583cf4b0ea80d8f32feb8655c39067ba1da1ffd7
-    log: revlist-147338df3487-583cf4b0ea80.txt
+  - ref: refs/heads/linux-6.12.y
+    old: da274362a7bd9ab3a6e46d15945029145ebce672
+    new: 8e6ad214c7b34b9022784193fdc71e1561cdf11b
+    log: revlist-da274362a7bd-8e6ad214c7b3.txt
 
---===============1902491362875891918==
+--===============7583289201620958994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759243110 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759243111 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1759243048-d2c44f13d3d924aee6acc22d67af2a404bcd695a
+nonce 1759243049-aaf13489d63c574202df6e9d4782b3634f08eba5
 
-147338df34870c0248133d7a986b1fab025ec56a 583cf4b0ea80d8f32feb8655c39067ba1da1ffd7 refs/heads/linux-6.6.y
+da274362a7bd9ab3a6e46d15945029145ebce672 8e6ad214c7b34b9022784193fdc71e1561cdf11b refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjb62YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IBgQAMxedULHkqqyjUVuKFQs
-deRntqITNv93LRjoo530QR+Pd69Ml1R3lH/xZOuy/1cmvPIBJPFSleAByTvm686l
-jTtpL4PmtLVV6/rFyFwVy5kEcHhl2JcV7qdnx3/+52qO/WHPu784LYCwwjdwGN/J
-zrti7AQ5z2WKOZoIry97xit3qpJG/1p9eGGMj/CA01mNRzhG36Lg/i7yeBBJNUn6
-CQvEsbxkP9q+ZcXqhFeLNrRhvC9iRSa1vR8hz1uD0hU3MkCT9t5OvVuOgzXqtS6V
-WXXfDiIgXht5VjkVAD9On9+kOWIX+ftZuBQX5fVbQ2Iu2gcl8QtfHJN5o5gpK+qz
-aavshQ85LfTtLKnm4pK7mZrDfAuvFb7ueyS0KnuO89S93RCK+H/LIfLN/q5FgOMt
-MqP/kZzChQD1MYq9y9qfdQLkRnLhNJkeqCpodEQabXI9T9QIDB2u4KUuhJqWSEzJ
-C8S0CsPWv6xT55fcKMkbRjhi+Ir+aUJhXPVNBI4/SBJZbemVVngRJPp0hfCKxcuV
-c/X+Usa+dugtmJ5RhW2NHPdEQzjKzecFy24wf0Uy8SYTtnwKXnqMNfcE/Cixs4Wi
-GI+KzYjkFC33d60prw2UY7EqRvuz1DxjRmqeDZmXCncO6cEk4EJl4WLr+vKNqq2a
-phmN+RSa4upx9nGdDRk9t3E0
-=kyEU
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjb62cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+My8QAL+itlAhTdNJoAmf2bGo
+A8VzFXf2wWOhEv1y8dqpGe4SNGD8I1LaCFOkzqGp7YXeCrU9JB6A2619Z9qiNs5L
+O9WvSO4CT2daWXGwwghCtOBUtwALqrojvy71EGJDV0uIhqVplMUdje1DgKO2oz6N
+qMQwVSFAlV7kDjFjN64rQsU7ogNXaPf2D79dQhe6gOAZd5AbW2Y8NCGibYj7cXqQ
+RB3tbA/uIVgKVLJUCcytOWf0DufIVMT32hBrywyfDYcoRaCxNdjVRpN4dNVVDLTe
+btrTUSc64yE6zNuQCqNMqnyeL3+XNbTdTSOPR0biLgIZFd8x1vBt30r2DAavNB9o
+aUMul13XjBW3RZzYzfJ8v79dEogUbUTHNiyzKibxTXIoH/c/ZovFqA0jolTreZcZ
+I2vP81GVA0shBhH/wc6rtmVwKH6JCyQQDQU5yxEWlMBQBA4btzqZ3wC4GQVYRD7p
+46boHyOHVzAePPrEYGi6VcBHorysIBVDnhlaaXoRQv0Lo+u1i2OYQlMIQ8rOxqI2
+mPJeUUUdXVetk7BrbzuQqXCRW/nB7peuYt0hpTLYhGkVS2iKTrq6p7uZ7a4SfgVg
+DoMHDvsv0kgimmUbDdCoKrXocyNv6HdqlbClhRTWJbeC5ZsCdhwUtTpjb2brop/F
+m4eEwflvKck6xHHy5a9508YK
+=jvsY
 -----END PGP SIGNATURE-----
 
---===============1902491362875891918==
+--===============7583289201620958994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-147338df3487-583cf4b0ea80.txt
+Content-Disposition: attachment; filename=revlist-da274362a7bd-8e6ad214c7b3.txt
 
-e518a45e5812b4c8b8fae3596d221bb033eb8a24 scsi: ufs: mcq: Fix memory allocation checks for SQE and CQE
-6cc1f1c7451eb4c0b95d3d4dbcd9656f5f91347c firewire: core: fix overlooked update of subsystem ABI version
-d320234a9fcc389ce73141a33bb95ec45b5d1810 ALSA: usb-audio: Fix block comments in mixer_quirks
-622184fdc4d3b452474878a033452a6149da85a3 ALSA: usb-audio: Drop unnecessary parentheses in mixer_quirks
-bd056aa3b38c30c1bb7e856fa60b5c405259e606 ALSA: usb-audio: Avoid multiple assignments in mixer_quirks
-69fd7980aeb71334166dd63c34c0c62328beb8d4 ALSA: usb-audio: Simplify NULL comparison in mixer_quirks
-817ce1fb19b215600b76ee89d4223c8e5ab13d63 ALSA: usb-audio: Remove unneeded wmb() in mixer_quirks
-e0691923b295cc1cd0e55c80ec897e55c6bb8c78 ALSA: usb-audio: Add mixer quirk for Sony DualSense PS5
-a0674bde4c4ae5f08c74279c530c951054d9446d HID: multitouch: Get the contact ID from HID_DG_TRANSDUCER_INDEX fields in case of Apple Touch Bar
-1c56f7f969079cb3da2d297b5acc09463924ba76 HID: multitouch: support getting the tip state from HID_DG_TOUCH fields in Apple Touch Bar
-e529cdd6aeadd5783af5c29a78ba075269a0af95 HID: multitouch: take cls->maxcontacts into account for Apple Touch Bar even without a HID_DG_CONTACTMAX field
-a724c0f0a4acedc88553d5735edffdc5ecba1f98 HID: multitouch: specify that Apple Touch Bar is direct
-84db3812506a26fa4302844359428d7aaca0c39f ALSA: usb-audio: Convert comma to semicolon
-4795aa1c45ddaa3e8a8b56d43ef89511912b9f60 ALSA: usb-audio: Fix build with CONFIG_INPUT=n
-5a37aa0c4f6f6f43a67d48bf6029f56f5b25f5e9 usb: core: Add 0x prefix to quirks debug output
-29c1aba87b578344cf0adfe248a272e6379615b6 mmc: sdhci-cadence: add Mobileye eyeQ support
-1ff9c19b17529585a762a81f778b4fc9e561556a i2c: designware: Add quirk for Intel Xe
-07db0fca203f8c80f357415567f9963b4c6c90ed ALSA: usb-audio: Add DSD support for Comtrue USB Audio device
-0960b240f83ea5aabe265a80774ea5bdec96e2ec ALSA: usb-audio: move mixer_quirks' min_mute into common quirk
-3d8576c252663442e31e577ba23f9740ca1f0966 ALSA: usb-audio: Add mute TLV for playback volumes on more devices
-a9a657a89071d6b22b50cccee0c69c1027286630 IB/mlx5: Fix obj_type mismatch for SRQ event subscriptions
-6df807bb91781f2512703081b1148ab13e1e1d2c mm/gup: revert "mm: gup: fix infinite loop within __get_longterm_locked"
-d9e9d602ae7a3d2574cb914ab3cc6ada3d512f9a mm: add folio_expected_ref_count() for reference count calculation
-3a9013fbb1985dc83d37148cfb15ae4d38a67017 mm/gup: check ref_count instead of lru before migration
-7bc877c590dab1db9089ee10d48a91fbb2284e63 mm/gup: local lru_add_drain() to avoid lru_add_drain_all()
-fc97a0ae89e56b56e57e0adc95581686202bdd17 mm: folio_may_be_lru_cached() unless folio_test_large()
-764e05ceca8cb10a3bb7c9f4da86254177ab1bd9 arm64: dts: imx8mp: Correct thermal sensor index
-50491d37e6023fbc73fd19979e08ebed23f89d00 ARM: dts: kirkwood: Fix sound DAI cells for OpenRD clients
-305859a6cce5adac193ec62ee7fdaa237a36a4a6 cpufreq: Initialize cpufreq-based invariance before subsys
-fb238071ff83de5a8d7845d4cabc147eee3a9e2f smb: server: don't use delayed_work for post_recv_credits_work
-95811bdeca964f8bef4b5b91588cf4d9ef5934da wifi: virt_wifi: Fix page fault on connect
-b2f3589bb574c9398dba212ac9831446b96778ce can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
-6b09155c3ffa9b75bf3b2d0a33338dc0f7018256 bpf: Reject bpf_timer for PREEMPT_RT
-ef3ac0ac337d9e3384ce1a132d654dcf01c75b6d xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
-bde71b3c0a9262aad26413566893b91bac68bf37 can: etas_es58x: populate ndo_change_mtu() to prevent buffer overflow
-39140d2e1b1a51af6b50d5a1c6c6276a6bcc37ec can: hi311x: populate ndo_change_mtu() to prevent buffer overflow
-d0478667637fbc7da873430f6599c7f971437cbc can: sun4i_can: populate ndo_change_mtu() to prevent buffer overflow
-3b2a3cc6153925f9f7a2e292cd28ad7b2f566545 can: mcba_usb: populate ndo_change_mtu() to prevent buffer overflow
-ce7f00321a28dcafaa2b98dc4dbc4b41aaa51040 can: peak_usb: fix shift-out-of-bounds issue
-9b0865b1323690069914dc0b391f2b417bd67e20 ethernet: rvu-af: Remove slash from the driver name
-cbd95444d9e00844826c994f2cd51f90ed2ad498 Bluetooth: hci_sync: Fix hci_resume_advertising_sync
-4f74ac51a7696af5e5b072ea7eed28c596501556 Bluetooth: hci_event: Fix UAF in hci_acl_create_conn_sync
-9969b8ddf7f2cc87349a73354e9bfda928c08601 vhost: Take a reference on the task in struct vhost_task.
-47f8efc2050fb85a21b5ccf33e15e2d794002536 bnxt_en: correct offset handling for IPv6 destination address
-2ca989f101b54a271493f0b3c5596786024579fd net: allow alloc_skb_with_frags() to use MAX_SKB_FRAGS
-48946fa0a037f63953182365142f15327ffa6a88 nexthop: Forbid FDB status change while nexthop is in a group
-70f1fd404ac9a5bc1ca2a49e28514f5df03808d0 selftests: fib_nexthops: Fix creation of non-FDB nexthops
-752a164481402d9f0075b84a361c2c7745be0a37 net: dsa: lantiq_gswip: do also enable or disable cpu port
-88cf36b126a56004980bf7e0ca09d31db0aa7e01 net: dsa: lantiq_gswip: move gswip_add_single_port_br() call to port_setup()
-73a5d799f5595d816e1aed26d512e3a67a6df22b net: dsa: lantiq_gswip: suppress -EINVAL errors for bridge FDB entries added to the CPU port
-8515c452e5209f95b8520f605dc8cda842cbbe50 octeontx2-pf: Fix potential use after free in otx2_tc_add_flow()
-5c1c2fb04352c2fdd9bf124ccf8e2baa3d4db3f2 drm/gma500: Fix null dereference in hdmi teardown
-2821cc8873357c6f43e77b92e48d527e367d6d2c futex: Prevent use-after-free during requeue-PI
-e516874dc6b8ef5eaa536cb0d412dad7e21f2a06 smb: client: fix wrong index reference in smb2_compound_op()
-22711f9b05ed2348fbbf12bee7e7d705f0d416bd HID: asus: add support for missing PX series fn keys
-73ef2460adc22366bf6e911ded5a0ff7b679c555 i40e: fix idx validation in i40e_validate_queue_map
-64569fadd2a410cb9913fe36825ac76a37b16b8c i40e: fix idx validation in config queues msg
-dd3aca68b938f58fcfb1a8ef63d5ee3d00cc0858 i40e: fix input validation logic for action_meta
-a44f11cccda56e76a11dae3246a9c4b26a7984c6 i40e: fix validation of VF state in get resources
-70029545b10fbfeef01bbb9fe46412a7f4ffc350 i40e: add max boundary check for VF filters
-eb847c428739ff11668152904d414353b59b472b i40e: add mask to apply valid bits for itr_idx
-3efc2df9b8d6737294190d4344861cc46ac57005 i40e: improve VF MAC filters accounting
-773f431a48da0be95596596f0dcdd8f8d6c49ae3 crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
-53de5d760805477b98056a6014444201a86f7fde tracing: dynevent: Add a missing lockdown check on dynevent
-2fb49d7d0506bd305fae6339b723d63800e1215a ARM: dts: socfpga: sodia: Fix mdio bus probe and PHY address
-fe3df51fa56fa944a2c94f04bda9ff76825f288f afs: Fix potential null pointer dereference in afs_put_server
-e20dec6b94cfdaaf18eefa4121de672109eeb677 kmsan: fix out-of-bounds access to shadow memory
-1d9e98e579f837794441621064f5bdf39d969ec9 mm/hugetlb: fix folio is still mapped when deleted
-d9510224ed1c7bc11539e24f6f513128f92f7f82 fbcon: fix integer overflow in fbcon_do_set_font
-a4aaccacebc849c6821ee832fc505d54fe54c57b fbcon: Fix OOB access in font allocation
-47d6fb3916789cf157a89104b8f2cfbab9bbb9fe s390/cpum_cf: Fix uninitialized warning after backport of ce971233242b
-095a2c49f3be2ebc62668420caf47a395abfbd12 ARM: bcm: Select ARM_GIC_V3 for ARCH_BRCMSTB
-e80b52f720b18a42ef42c742fe892f9bc175612f mm: migrate_device: use more folio in migrate_device_finalize()
-3fcb394b3102f8927d812bbc287e4aa3695a9dd7 mm/migrate_device: don't add folio to be freed to LRU in migrate_device_finalize()
-52d86692c0ba3bb74a469ddcb14ea5a750665eb8 loop: Avoid updating block size under exclusive owner
-bf3fec32a1d3b459dc8ca3cf160b0d5955e577e4 gpiolib: Extend software-node support to support secondary software-nodes
-f269ea9307fe08ccea6bfce4803d4eb9acfe9fa7 drm/ast: Use msleep instead of mdelay for edid read
-599910f6ced00ada928c0fabca6326e8d1708833 i40e: increase max descriptors for XL710
-85f64c6e4579eb0af0412fb3f9684a8069ee3e84 i40e: add validation for ring_len param
-5e2ad6ecdefc3b8f7a70b6973532f24b792aaee8 minmax: make generic MIN() and MAX() macros available everywhere
-a0c028db80a802b08ddfa7b4c64fdd0ccde07231 minmax: simplify min()/max()/clamp() implementation
-779300187208fd89e7ef1a66dbfabffffdc65f12 minmax: don't use max() in situations that want a C constant expression
-024da8884108a86940488c67246b12e884fb6f50 minmax: improve macro expansion and type checking
-fc8108b30652cbef828440f9419db0a8c8699b47 minmax: fix up min3() and max3() too
-2bb87cb6da97d43aef6ca2539afbfa6d860d68e8 minmax.h: add whitespace around operators and after commas
-5001829b0495db59cad7f567866c1967be8dd228 minmax.h: update some comments
-b3a0fdbcbbc11f917a0bad588aa37e50be2d7d3e minmax.h: reduce the #define expansion of min(), max() and clamp()
-485d14fb67d3d0a22356a09b820641893a2a823a minmax.h: use BUILD_BUG_ON_MSG() for the lo < hi test in clamp()
-c8314f5af8e6f68c2f54537832334c0fe3134ee6 minmax.h: move all the clamp() definitions after the min/max() ones
-45b825a84e84924b030f48a7a532264f24fcb7c8 minmax.h: simplify the variants of clamp()
-1414778dae14090b8d26bc777c79784478171a46 minmax.h: remove some #defines that are only expanded once
-583cf4b0ea80d8f32feb8655c39067ba1da1ffd7 Linux 6.6.109-rc1
+4062d7febf930bb7a240449681a0040664783703 scsi: ufs: mcq: Fix memory allocation checks for SQE and CQE
+11c9866423d02a391424e29f9bd38a3253bd0a79 firewire: core: fix overlooked update of subsystem ABI version
+cd5d4ae38288eb362e708f3e6c64a377c09b623a ALSA: usb-audio: Fix code alignment in mixer_quirks
+a21e82970872420c89b55196ba4c199a63205e15 ALSA: usb-audio: Fix block comments in mixer_quirks
+98bd51e31c45ecacd20ace37b0708da1b2d076d6 ALSA: usb-audio: Drop unnecessary parentheses in mixer_quirks
+c3f4cd7d2b8ee2c10a4529250c7560016aca4f22 ALSA: usb-audio: Avoid multiple assignments in mixer_quirks
+2dbf05da7c336e9021de0a246b4628e5efba76e3 ALSA: usb-audio: Simplify NULL comparison in mixer_quirks
+e63b3290f3d6b966350d49fcc78c83b9d38b472a ALSA: usb-audio: Remove unneeded wmb() in mixer_quirks
+6a5cb299938fe7761bd1de1332c2bfd7f574efaf ALSA: usb-audio: Add mixer quirk for Sony DualSense PS5
+ece565756f26956ef0dc9f9226bce9ad9dc96ca9 HID: multitouch: Get the contact ID from HID_DG_TRANSDUCER_INDEX fields in case of Apple Touch Bar
+5244cdcc6a6311c4f81530eb689ea7cc3b5ffdfd HID: multitouch: support getting the tip state from HID_DG_TOUCH fields in Apple Touch Bar
+3c8a5384a713159872b2f7dfb3eb16b6d636db74 HID: multitouch: take cls->maxcontacts into account for Apple Touch Bar even without a HID_DG_CONTACTMAX field
+728a1ea32f8dccc32bd0013fa6c67f472156b4c3 HID: multitouch: specify that Apple Touch Bar is direct
+c56d9b02c9e5cefbf12559c31a353b76322f2e97 ALSA: usb-audio: Convert comma to semicolon
+1b08d0220e6744c9c982fa61dcb661ffaf230cf2 ALSA: hda/realtek: Add support for ASUS NUC using CS35L41 HDA
+ee102567a25c86380543847a5db56ee84f678ba8 ALSA: usb-audio: Fix build with CONFIG_INPUT=n
+41cc774b593492fb852e95ec0e9229618e9544ff usb: core: Add 0x prefix to quirks debug output
+d2eaf5383470d608d4b4fac63677305695aa478b net: fec: rename struct fec_devinfo fec_imx6x_info -> fec_imx6sx_info
+3d62e52e7eb0f02eb8c174fb9d20bb7252f7040f net: sfp: add quirk for Potron SFP+ XGSPON ONU Stick
+8b74bad288cdf38117f74db7de9142bca97198e3 mmc: sdhci-cadence: add Mobileye eyeQ support
+1dd1ff21bf8026ffc5c5e19de823a99b41f60e2c i2c: designware: Add quirk for Intel Xe
+2229edc1d73ae3b516d733f1334b66fe147b0a9f ALSA: usb-audio: Add DSD support for Comtrue USB Audio device
+c67b154580bf105ed3ebe1af9da9a604959fe70d ALSA: usb-audio: move mixer_quirks' min_mute into common quirk
+dc7f640d43c231670893302ca032d782fc3717d6 ALSA: usb-audio: Add mute TLV for playback volumes on more devices
+d627b343dc6c7cfb45fe43ec386f96dcffdf7b3b net: sfp: add quirk for FLYPRO copper SFP+ module
+39b05450e8b96ffc2f6f358f8a67be21e4c95882 IB/mlx5: Fix obj_type mismatch for SRQ event subscriptions
+63375ac12988c8592e205df5a7aee0fc44d1fd29 HID: amd_sfh: Add sync across amd sfh work functions
+f1a74363fb5be10a3d732e0a2120113a2886dc8d firmware: imx: Add stub functions for SCMI MISC API
+94e3ce80404ece87f90da9e717f7fa8a61f01c58 arm64: dts: imx8mp: Correct thermal sensor index
+75295b9ea3ed09e615c1cd25e200a042934439f6 ARM: dts: kirkwood: Fix sound DAI cells for OpenRD clients
+6cbbcd4cf2ae61b7094f6b21f95bd9fafef8055b cpufreq: Initialize cpufreq-based invariance before subsys
+0428688cce0ddc49635c740b5e21d282fa2d58d6 smb: server: don't use delayed_work for post_recv_credits_work
+37d263621584c5a47f7b3254a6a71e6a274805f1 smb: server: use disable_work_sync in transport_rdma.c
+2482d61ca97d666b0f2276f43bb289c096de02d2 bpf: Check the helper function is valid in get_helper_proto
+f3cf045bdab715e0f0ae3567937ca947c5bc3006 btrfs: don't allow adding block device of less than 1 MB
+0b7ceda19ef245af1e08a4f6d30f6d39c8263f7e wifi: virt_wifi: Fix page fault on connect
+ecfefdc285c9b9654e98daefa88674518ed163aa can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
+0e117f4b8d41940976904467c9a740f14c813d03 bpf: Reject bpf_timer for PREEMPT_RT
+f3eb6778673f3083a47472f9c8b72bfc2a97137a xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
+9f1335650aa1afc3af485ed8527023ec1176eb6d can: etas_es58x: populate ndo_change_mtu() to prevent buffer overflow
+2c158fb6613fc441656260a61f59b105f1c4adc2 can: hi311x: populate ndo_change_mtu() to prevent buffer overflow
+86b8d534496097eb1d55040c9dab01d99df2c15f can: sun4i_can: populate ndo_change_mtu() to prevent buffer overflow
+25cf3910814bafd32a073db672603433b0c9b830 can: mcba_usb: populate ndo_change_mtu() to prevent buffer overflow
+12e438bf5a180132e84905388ebca2c8708ef83f can: peak_usb: fix shift-out-of-bounds issue
+811709f2f7e4bb7d338bc3bdafef1721bf660c94 net: tun: Update napi->skb after XDP process
+dc90b3fb0579aad85375ae04e7f6391facbbadc8 net/smc: fix warning in smc_rx_splice() when calling get_page()
+53b124e9df63512ef2d2169c76a6ad1febaf360b ethernet: rvu-af: Remove slash from the driver name
+c1cca541605132e19631e8bdef696179be78a66b Bluetooth: hci_sync: Fix hci_resume_advertising_sync
+abc37d1e8914c58cb6dbf64a1150f7cff0728c91 Bluetooth: hci_event: Fix UAF in hci_acl_create_conn_sync
+c3443a101de925364637174e7252d86dfd078ad6 vhost: Take a reference on the task in struct vhost_task.
+1b37a0c7a956b57ebdb5b911d77616f780267780 bnxt_en: correct offset handling for IPv6 destination address
+8704e5d2b89af7e22713369ce0d20bb3a663b49d net: allow alloc_skb_with_frags() to use MAX_SKB_FRAGS
+76389dd58753921cff62284354ce41dbec3e7c5c nexthop: Forbid FDB status change while nexthop is in a group
+c14af814e36268009554177ff0b4bb46b47847cb selftests: fib_nexthops: Fix creation of non-FDB nexthops
+2a4a6d95031f28d9e5ea7ba5de01a4e7694dbeb3 net: dsa: lantiq_gswip: move gswip_add_single_port_br() call to port_setup()
+1514bda1973efd0f2646a33673644e5ac82cfa84 net: dsa: lantiq_gswip: suppress -EINVAL errors for bridge FDB entries added to the CPU port
+d847198ab88ebfd7207172ab0981161680f80e1a octeontx2-pf: Fix potential use after free in otx2_tc_add_flow()
+b4872df0785bcf0d7bc45993335e36b4bf583e28 mm/gup: local lru_add_drain() to avoid lru_add_drain_all()
+3012f47560c7cd148c1a400a192cceba72b373dc mm: revert "mm/gup: clear the LRU flag of a page before adding to LRU batch"
+849f31a9f7f55becdee6570d6db702cf0ebba2b4 mm: folio_may_be_lru_cached() unless folio_test_large()
+ff32d2596807634ea910f8eb16c7e6ed8977cd28 drm/gma500: Fix null dereference in hdmi teardown
+7e9dddb6f7e4345b486d0d2a108d1f520424d6ac futex: Prevent use-after-free during requeue-PI
+53984c59e9f9899e778ba052f7b0ebbe8e49e254 drm/panthor: Defer scheduler entitiy destruction to queue release
+278926edcf0794ac4b758c694d86b39ac711e4e4 platform/x86: lg-laptop: Fix WMAB call in fan_mode_store()
+e5da0784b986c980dc14b7a58827e5376c4f46c0 smb: client: fix wrong index reference in smb2_compound_op()
+6ec20728918833efd46fe3b8ee0caa12e5db8653 HID: asus: add support for missing PX series fn keys
+4b9f44244d7d64281d0a403a20649ab3803d3431 i40e: add validation for ring_len param
+0225daafae6643ef2d8d4276718bc6aa31ccc54a i40e: fix idx validation in i40e_validate_queue_map
+be094dd64a126f0ede973849fcc24a4c59eb0753 i40e: fix idx validation in config queues msg
+17fad6615576bc435d18274741c5efa2c0559b93 i40e: fix input validation logic for action_meta
+736c038c28ee2cc437b8592010a05c34d9efe9ac i40e: fix validation of VF state in get resources
+6087e09c771fdf70cf63bb580c48485b9aba9559 i40e: add max boundary check for VF filters
+c4638b1436e9b4a3860c892ffb1ebb91527c02ec i40e: add mask to apply valid bits for itr_idx
+f91b8e9672ac86e4231bea7d2d24415568d5fdcf i40e: improve VF MAC filters accounting
+666c5dffc04205bffdbe8582e8af211522bb166e crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
+8c504838151bac30321827df768af83dfbc0b7b4 tracing: dynevent: Add a missing lockdown check on dynevent
+868a1c90ca2c5e3090551800ff500df42ebdb371 ARM: dts: socfpga: sodia: Fix mdio bus probe and PHY address
+7538f32da165f597bb8d149082f6d344d06723d9 arm64: dts: marvell: cn9132-clearfog: disable eMMC high-speed modes
+da1046b85f3dc3e7af0205b7299fe38de015c11f arm64: dts: marvell: cn9132-clearfog: fix multi-lane pci x2 and x4 ports
+0ade9238f085906ce0a1b0ae8ed67e3f169fe3bc drm/ast: Use msleep instead of mdelay for edid read
+0490f7cb0f0caa54d169c5d8a0c60c82f07988ca afs: Fix potential null pointer dereference in afs_put_server
+a6cc0a288af2e32e07d64c2df83e3a6a9b7b8349 fs/proc/task_mmu: check p->vec_buf for NULL
+fdd7aaeb02aaec1f136b60fe04bb78d8139c6cce gpiolib: Extend software-node support to support secondary software-nodes
+00235af2116451dbc8ce7033996064cc57a180cb kmsan: fix out-of-bounds access to shadow memory
+71bef6a1cd4ebbd3ab9cf393f5373d98df11bfe7 mm/hugetlb: fix folio is still mapped when deleted
+d0fe86b331f19653c47f21d237734d9717ca6301 fbcon: fix integer overflow in fbcon_do_set_font
+3c4af3ca9caacd7f0ab42d872c1b668e572613aa fbcon: Fix OOB access in font allocation
+609dc36f76c1e83dc4f30a441f660e8eaf35ce26 iommufd: Fix race during abort for file descriptors
+7985ead798f723d9ad9848245b2b0a09f4e568e3 Revert "usb: xhci: remove option to change a default ring's TRB cycle bit"
+8e6ad214c7b34b9022784193fdc71e1561cdf11b Linux 6.12.50-rc1
 
---===============1902491362875891918==--
+--===============7583289201620958994==--
