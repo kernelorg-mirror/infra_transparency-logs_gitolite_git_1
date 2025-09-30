@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hubcap/linux
-Date: Tue, 30 Sep 2025 14:32:30 -0000
-Message-Id: <175924275098.2355123.6679755149453676831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 Sep 2025 14:32:45 -0000
+Message-Id: <175924276568.2355385.10869277732497190349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hubcap/linux
-user: hubcap
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 9a8e34089020d82d017ff0aae26cdf5ed8b7df05
-    new: 11f6bce77e27e82015a0d044e6c1eec8b139831a
+  - ref: refs/heads/main
+    old: c18b0f5af42f8f98d4d629e578608188c0ce4652
+    new: 6f5dacf88a32b3fd8b52c8ea781bf188c42aaa95
     log: |
-         3dffadfa99f7ba2e9bee69d1e0bb42fd2d2d6022 orangefs: Remove unused type in macro fill_default_sys_attrs
-         025e880759c279ec64d0f754fe65bf45961da864 orangefs: fix xattr related buffer overflow...
-         11f6bce77e27e82015a0d044e6c1eec8b139831a fs/orangefs: Replace kzalloc + copy_from_user with memdup_user_nul
+         6f5dacf88a32b3fd8b52c8ea781bf188c42aaa95 Revert "net/mlx5e: Update and set Xon/Xoff upon MTU set"
          
