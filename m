@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2434313182630856267=="
+Content-Type: multipart/mixed; boundary="===============8355809453143757699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 30 Sep 2025 22:48:49 -0000
-Message-Id: <175927252968.2790158.10077975415117196490@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 22:48:52 -0000
+Message-Id: <175927253223.2790275.16090348704773679128@gitolite.kernel.org>
 
---===============2434313182630856267==
+--===============8355809453143757699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e835faaed2f80ee8652f59a54703edceab04f0d9
     new: 03faea8466713f04a522c52c386124755be960bc
     log: revlist-e835faaed2f8-03faea846671.txt
 
---===============2434313182630856267==
+--===============8355809453143757699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -130,4 +130,4 @@ c18b0f5af42f8f98d4d629e578608188c0ce4652 Merge branch 'net-lockless-skb_attempt_
 6f5dacf88a32b3fd8b52c8ea781bf188c42aaa95 Revert "net/mlx5e: Update and set Xon/Xoff upon MTU set"
 03faea8466713f04a522c52c386124755be960bc selftests/net: add tcp_port_share to .gitignore
 
---===============2434313182630856267==--
+--===============8355809453143757699==--
