@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 30 Sep 2025 21:37:40 -0000
-Message-Id: <175926826065.2728707.2944536957860636031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 30 Sep 2025 21:38:18 -0000
+Message-Id: <175926829848.2729162.2213720565281447237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: ded91428bb0a06bba551c30d6b6d6958e3f04c9b
-    new: 1671cb952a8f680214b04ae9546d4f649f1b367b
+  - ref: refs/heads/tpm2-session
+    old: 08f3af4720292501b93766aa93745f13c26c06a6
+    new: cbddfece21a85c94bc03c5ff8b4ae1e3f4c0446a
     log: |
-         b02b4205f480b6fbce2dc773805690b1a617ab8f Added query.h to install
-         1671cb952a8f680214b04ae9546d4f649f1b367b Merge branch 'master' of https://github.com/rpereira-dev/liburing
+         cbddfece21a85c94bc03c5ff8b4ae1e3f4c0446a tpm-buf: Enable managed and stack allocations.
          
