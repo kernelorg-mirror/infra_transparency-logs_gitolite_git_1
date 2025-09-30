@@ -1,26 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 30 Sep 2025 22:54:14 -0000
-Message-Id: <175927285481.2795937.9553904465588735496@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5172887499227980132=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 30 Sep 2025 22:55:17 -0000
+Message-Id: <175927291768.2798046.5963463088338904586@gitolite.kernel.org>
+
+--===============5172887499227980132==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/wip-aes-gcm
-    old: 91708ababb181fbd87ac3d77cf1016547c64289c
-    new: 56c627a50744608f67de69f9db7d3a7d938f29a0
-    log: |
-         4109eab9f2da055da29e960cd43f9658a8936d44 crypto: x86/aes-gcm-avx2 - add VAES+AVX2 optimized AES-GCM
-         3ee7666fec66ef62ae7f2e716b40273eca445781 crypto: x86/aes-gcm - remove "AVX10/256" optimized code
-         d2c422ca9118dd6a79175d04e16b36e2647e37a9 crypto: x86/aes-gcm - rename avx10 and avx10_512 to avx512
-         bf074505d32e8b4e58e749e9eb40f348e4df654a crypto: x86/aes-gcm-avx512 - clean up code to assume 512-bit vectors
-         25d1550a589fd57d8ab228338176a0e780f26399 crypto: x86/aes-gcm-avx512 - reorder some code
-         ad8c9a78cda019d6344877c9d25d82a7607b3f27 crypto: x86/aes-gcm-avx512 - revise some comments
-         4447c3c7655f7b802977949c7ddd804bdfc8689a crypto: x86/aes-gcm-avx512 - optimize computation of H^2 from H^1
-         56c627a50744608f67de69f9db7d3a7d938f29a0 crypto: x86/aes-gcm-avx512 - optimize long AAD processing
-         
+  - ref: refs/heads/main
+    old: 012ea489aedab1a4c08efbd936bb7be91a06d236
+    new: 2aff4420efc2910e905ee5b000e04e87422aebc4
+    log: revlist-012ea489aeda-2aff4420efc2.txt
+
+--===============5172887499227980132==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-012ea489aeda-2aff4420efc2.txt
+
+b9bd25f47eb79c9eb275e3d9ac3983dc88577dd4 idpf: fix mismatched free function for dma_alloc_coherent
+8425161ac1204d2185e0a10f5ae652bae75d2451 nfp: fix RSS hash key size when RSS is not supported
+f017156aea60db8720e47591ed1e041993381ad2 net: ena: return 0 in ena_get_rxfh_key_size() when RSS hash key is not configurable
+8169a6011c5fecc6cb1c3654c541c567d3318de8 net: dlink: handle copy_thresh allocation failure
+b1f0349bd6d320c382df2e7f6fc2ac95c85f2b18 net/mlx5: Stop polling for command response if interface goes down
+79a0e32b32ac4e4f9e4bb22be97f371c8c116c88 net/mlx5: pagealloc: Fix reclaim race during command interface teardown
+5cfbe7ebfa42fd3c517a701dab5bd73524da9088 net/mlx5: fw reset, add reset timeout work
+eb11f02f3151e86f41bb15cc47b7400e91c07a4f Merge branch 'mlx5-misc-fixes-2025-09-28'
+5b66169f6be4847008c0aea50885ff0632151479 bonding: fix xfrm offload feature setup on active-backup mode
+99e4c35eada98d5959e61e7d3e049f64b2f0e4e1 selftests: bonding: add ipsec offload test
+9c328f54741bd5465ca1dc717c84c04242fac2e1 net: nfc: nci: Add parameter validation for packet data
+2aff4420efc2910e905ee5b000e04e87422aebc4 net: enetc: initialize SW PIR and CIR based HW PIR and CIR values
+
+--===============5172887499227980132==--
