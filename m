@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Tue, 30 Sep 2025 08:45:13 -0000
-Message-Id: <175922191347.2037758.2733223250375631156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Tue, 30 Sep 2025 08:47:22 -0000
+Message-Id: <175922204297.2039108.1295197703302587794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/tags/fuse-update-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 967e202d6fa300805bf68e10c6a0b6a7f79032a3
+  - ref: refs/heads/virtio/msg-rfc
+    old: 0cefef5e29a47d5ca0744bdcb36158c98b6af466
+    new: 0000000000000000000000000000000000000000
