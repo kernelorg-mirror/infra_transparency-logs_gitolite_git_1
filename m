@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4657257175465689326=="
+Content-Type: multipart/mixed; boundary="===============5360227827153481822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 30 Sep 2025 02:23:37 -0000
-Message-Id: <175919901727.1726246.2494191450498782946@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 02:23:38 -0000
+Message-Id: <175919901878.1726340.12378359493538282883@gitolite.kernel.org>
 
---===============4657257175465689326==
+--===============5360227827153481822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 32bb854337cd91f81ca70aaf6ddfbbe34c54ce9f
-    new: 97553774943919434a8ab5344002d0f159a738ca
-    log: revlist-32bb854337cd-975537749439.txt
+  - ref: refs/heads/mm-stable
+    old: 89a3ecca49ee889cc1ab4def6caa0452df196efb
+    new: 1367da7eb875d01102d2ed18654b24d261ff5393
+    log: revlist-89a3ecca49ee-1367da7eb875.txt
 
---===============4657257175465689326==
+--===============5360227827153481822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32bb854337cd-975537749439.txt
+Content-Disposition: attachment; filename=revlist-89a3ecca49ee-1367da7eb875.txt
 
 89e688edcffee7858aa394fd107df98bfd7647a4 mm/compaction: fix low_pfn advance on isolating hugetlb
 2db579838296239545554443234fafb8f485cca0 mm/page_vma_mapped: track if the page is mapped across page table boundary
@@ -48,15 +48,5 @@ dd83609b88986f4add37c0871c3434310652ebd5 hugetlbfs: skip VMAs without shareable 
 1acc369373008b9eeb930fbb47847c0693055553 mm/khugepaged: use start_addr/addr for improved readability
 81e78b7ec61e89e8bab9736551839f79b063614c mm: convert folio_page() back to a macro
 1367da7eb875d01102d2ed18654b24d261ff5393 mm: swap: check for stable address space before operating on the VMA
-1766fb7dffefb7efc2f91d00920d65960bb9ec64 memcg: skip cgroup_file_notify if spinning is not allowed
-0cf8b93a7a44981527a11a808a46aa3e9db98987 hung_task: fix warnings caused by unaligned lock pointers
-a65efaa8edbf0c0c5f6c741f451e6ce5063c69d3 mm: hugetlb: avoid soft lockup when mprotect to large memory area
-3e57add5370201651ab430037b710e189abc6001 mm/thp: fix MTE tag mismatch when replacing zero-filled subpages
-46ed7084306fb9eeb6dbf53ca58ace25d08f68cd foo
-e19ae989a1eb0692d38c4c978a2b5574af949ede drivers/base/memory: add node id parameter to add_memory_block()
-95e41a6adcd9d850cfae999864a0344c2e91fced mm/memory_hotplug: activate node before adding new memory blocks
-5948978649a779a556034dfdb265a32e4bd13d4c drivers/base: move memory_block_add_nid() into the caller
-eecf25f063ff27e9297f13e71c6cd73c787d5e30 mm: clean up is_guard_pte_marker()
-97553774943919434a8ab5344002d0f159a738ca Documentation/mm: Drop pxx_mkdevmap() descriptions from page table helpers
 
---===============4657257175465689326==--
+--===============5360227827153481822==--
