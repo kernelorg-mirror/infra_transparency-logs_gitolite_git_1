@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3175861558659574765=="
+Content-Type: multipart/mixed; boundary="===============3797786708318419184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Tue, 30 Sep 2025 23:16:10 -0000
-Message-Id: <175927417068.2817354.9283176438936681144@gitolite.kernel.org>
+Date: Tue, 30 Sep 2025 23:16:20 -0000
+Message-Id: <175927418048.2817640.1926545042976911053@gitolite.kernel.org>
 
---===============3175861558659574765==
+--===============3797786708318419184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/ndctl/ndctl
 user: aschofie
 changes:
-  - ref: refs/heads/pending
+  - ref: refs/heads/main
     old: 74b9e411bf13e87df39a517d10143fafa7e2ea92
     new: 4f7a1c63b3305c97013d3c46daa6c0f76feff10d
     log: revlist-74b9e411bf13-4f7a1c63b330.txt
 
---===============3175861558659574765==
+--===============3797786708318419184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ b4caae2ed720d2ba51eabf449fd1e1105bd07dd1 test/dm.sh: use dm.sh as script name in
 b26e9ae3b1dc565b3a508b8a65677dce402e151c cxl/list: remove libtracefs build dependency for --media-errors
 4f7a1c63b3305c97013d3c46daa6c0f76feff10d ndctl: release v83
 
---===============3175861558659574765==--
+--===============3797786708318419184==--
