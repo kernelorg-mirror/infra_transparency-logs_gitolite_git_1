@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3788527441490369374=="
+Content-Type: multipart/mixed; boundary="===============9038980119630080976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 01 Oct 2025 13:15:49 -0000
-Message-Id: <175932454929.3525105.13316443187887569594@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 13:21:20 -0000
+Message-Id: <175932488012.3530667.428835093420320851@gitolite.kernel.org>
 
---===============3788527441490369374==
+--===============9038980119630080976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c6a2d577a27508d59d33a0cfb478277b20db067f
-    new: b87af2e0dc6228c52ebd1c9df7b4c13aa4093f05
+  - ref: refs/heads/stable-0.14.y
+    old: 2e5255f0857a73879f3e23f669190532e9698a8f
+    new: c8b5bd6b30fd6f2d27adc1ef4fee92339902e1e2
     log: |
-         b87af2e0dc6228c52ebd1c9df7b4c13aa4093f05 mbox: improve logging output for shazam base selection
+         c8b5bd6b30fd6f2d27adc1ef4fee92339902e1e2 Revert "mbox: refactor how we treat base_commit for am and shazam"
          
 
---===============3788527441490369374==
+--===============9038980119630080976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1759324606 -0400
+pusher B6C41CE35664996C! 1759324937 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1759324548-34dbe4979f95506cd741832260c9888a22a9f2ea
+nonce 1759324879-cdc47e2f0ef1f793a772a4e3d37a7c881a54715d
 
-c6a2d577a27508d59d33a0cfb478277b20db067f b87af2e0dc6228c52ebd1c9df7b4c13aa4093f05 refs/heads/master
+2e5255f0857a73879f3e23f669190532e9698a8f c8b5bd6b30fd6f2d27adc1ef4fee92339902e1e2 refs/heads/stable-0.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaN0pvgAKCRC2xBzjVmSZ
-bHqKAP9wQF0zyc2yN1yk9E6yhQhW72sz0sOvEJA/ma6yNniYOwEA9CLg88XMlLra
-IN+pYZALAY/4t2gGe/u2lR+zLuWdIQg=
-=ctHr
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaN0rCQAKCRC2xBzjVmSZ
+bH3UAQCh79E8nR51XkVhRvGh1/MoEyy0WssTh/iQOhUWpkHqoAD7BjFnQSmAgie2
+TBklg7ATd9RmVST3C6RdMTfFQRuepQo=
+=6zLi
 -----END PGP SIGNATURE-----
 
---===============3788527441490369374==--
+--===============9038980119630080976==--
