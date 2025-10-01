@@ -1,31 +1,58 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 01 Oct 2025 11:53:43 -0000
-Message-Id: <175931962307.3455459.15603611586629467452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 01 Oct 2025 12:00:30 -0000
+Message-Id: <175932003018.3462647.363093182538717917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 57d59a5cd5ba6c0b32cae27f5ce48241274f6e6e
-    new: 2412842c253c31559e5e6e9b6f3ecba7902aeafa
+  - ref: refs/heads/bleeding-edge
+    old: 235ff9c3f6a43c812d8ae2061e1ac3fb58f4051c
+    new: f260144857047e913b1b6105c17d63acc722e74e
     log: |
-         4109f4bfefff9e6cd65815399af3eab2b0a59104 libcommon: added lib "configs" for parsing configuration files in the correct order
-         d1cf7efb17869d0fdf132bb3581d9b74a459bb87 agetty: using configs lib for parsing issue files
-         16826c6675df3b6b28851c72f2dd1d194d3c7189 Using fix issue dir path "/usr/lib" for agetty
-         2412842c253c31559e5e6e9b6f3ecba7902aeafa Merge branch 'configs3' of https://github.com/schubi2/util-linux
+         ebc4ed14a4dbf51307102bb7ffc82ed6c16a37c2 cpufreq: mediatek: fix device leak on probe failure
+         24287f902095d845c6af9c2c369ba96877f5eb79 rust: cpufreq: streamline find_supply_names
+         0b1bb980fd7cae126ee3d59f817068a13e321b07 cpufreq: tegra186: Set target frequency for all cpus in policy
+         ba6018929165fc914c665f071f8e8cdbac844a49 cpufreq: tegra186: Initialize all cores to max frequencies
+         f97aef092e199c10a3da96ae79b571edd5362faa cpufreq: Make drivers using CPUFREQ_ETERNAL specify transition latency
+         f965d111e68f4a993cc44d487d416e3d954eea11 cpufreq: CPPC: Avoid using CPUFREQ_ETERNAL as transition delay
+         c28a280bd465690981099cd6e43dfcfa5c28b133 ACPI: CPPC: Do not use CPUFREQ_ETERNAL as an error value
+         950c6451a5c38d375993c3b9da427e2e69b01c30 cpufreq: Drop unused symbol CPUFREQ_ETERNAL
+         fa06c482790ce425dd090c051934023c0b49dcc2 Merge tag 'cpufreq-arm-updates-6.18-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+         f260144857047e913b1b6105c17d63acc722e74e Merge branch 'pm-cpufreq-next' into linux-next
          
-  - ref: refs/tags/7-start
-    old: 0000000000000000000000000000000000000000
-    new: 16b76c51f93b330b9c64f61bfabb6b0c5005ad1b
-  - ref: refs/tags/7.0-start
-    old: 0000000000000000000000000000000000000000
-    new: 29229c32b8699097ce0e8d9e29ca8da302215a09
-  - ref: refs/tags/v2.41-devel
-    old: 0000000000000000000000000000000000000000
-    new: b939475ca5c0612e7f15c812230fd5f9da0b36c4
+  - ref: refs/heads/linux-next
+    old: 235ff9c3f6a43c812d8ae2061e1ac3fb58f4051c
+    new: f260144857047e913b1b6105c17d63acc722e74e
+    log: |
+         ebc4ed14a4dbf51307102bb7ffc82ed6c16a37c2 cpufreq: mediatek: fix device leak on probe failure
+         24287f902095d845c6af9c2c369ba96877f5eb79 rust: cpufreq: streamline find_supply_names
+         0b1bb980fd7cae126ee3d59f817068a13e321b07 cpufreq: tegra186: Set target frequency for all cpus in policy
+         ba6018929165fc914c665f071f8e8cdbac844a49 cpufreq: tegra186: Initialize all cores to max frequencies
+         f97aef092e199c10a3da96ae79b571edd5362faa cpufreq: Make drivers using CPUFREQ_ETERNAL specify transition latency
+         f965d111e68f4a993cc44d487d416e3d954eea11 cpufreq: CPPC: Avoid using CPUFREQ_ETERNAL as transition delay
+         c28a280bd465690981099cd6e43dfcfa5c28b133 ACPI: CPPC: Do not use CPUFREQ_ETERNAL as an error value
+         950c6451a5c38d375993c3b9da427e2e69b01c30 cpufreq: Drop unused symbol CPUFREQ_ETERNAL
+         fa06c482790ce425dd090c051934023c0b49dcc2 Merge tag 'cpufreq-arm-updates-6.18-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+         f260144857047e913b1b6105c17d63acc722e74e Merge branch 'pm-cpufreq-next' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 235ff9c3f6a43c812d8ae2061e1ac3fb58f4051c
+    new: f260144857047e913b1b6105c17d63acc722e74e
+    log: |
+         ebc4ed14a4dbf51307102bb7ffc82ed6c16a37c2 cpufreq: mediatek: fix device leak on probe failure
+         24287f902095d845c6af9c2c369ba96877f5eb79 rust: cpufreq: streamline find_supply_names
+         0b1bb980fd7cae126ee3d59f817068a13e321b07 cpufreq: tegra186: Set target frequency for all cpus in policy
+         ba6018929165fc914c665f071f8e8cdbac844a49 cpufreq: tegra186: Initialize all cores to max frequencies
+         f97aef092e199c10a3da96ae79b571edd5362faa cpufreq: Make drivers using CPUFREQ_ETERNAL specify transition latency
+         f965d111e68f4a993cc44d487d416e3d954eea11 cpufreq: CPPC: Avoid using CPUFREQ_ETERNAL as transition delay
+         c28a280bd465690981099cd6e43dfcfa5c28b133 ACPI: CPPC: Do not use CPUFREQ_ETERNAL as an error value
+         950c6451a5c38d375993c3b9da427e2e69b01c30 cpufreq: Drop unused symbol CPUFREQ_ETERNAL
+         fa06c482790ce425dd090c051934023c0b49dcc2 Merge tag 'cpufreq-arm-updates-6.18-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+         f260144857047e913b1b6105c17d63acc722e74e Merge branch 'pm-cpufreq-next' into linux-next
+         
