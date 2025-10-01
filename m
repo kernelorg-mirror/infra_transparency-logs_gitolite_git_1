@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4810791992853484777=="
+Content-Type: multipart/mixed; boundary="===============6359571141407657487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 01 Oct 2025 03:51:32 -0000
-Message-Id: <175929069203.3052136.12387520566372210829@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 03:51:54 -0000
+Message-Id: <175929071433.3052471.7184386948025401370@gitolite.kernel.org>
 
---===============4810791992853484777==
+--===============6359571141407657487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next
+  - ref: refs/heads/hyperv-next-staging
     old: 553d825fb2f0a79cb373514fbc73dbdc484e81c6
     new: e3ec97c3abaf2fb68cc755cae3229288696b9f3d
     log: revlist-553d825fb2f0-e3ec97c3abaf.txt
 
---===============4810791992853484777==
+--===============6359571141407657487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ a3a4d6cb0b968e5d842e79f5dd9d7e07670e9b8a Drivers: hv: vmbus: Fix typos in vmbus_
 94b04355e6397a0a70b69c2571fa5c7d9990b835 Drivers: hv: Add CONFIG_HYPERV_VMBUS option
 e3ec97c3abaf2fb68cc755cae3229288696b9f3d Drivers: hv: Make CONFIG_HYPERV bool
 
---===============4810791992853484777==--
+--===============6359571141407657487==--
