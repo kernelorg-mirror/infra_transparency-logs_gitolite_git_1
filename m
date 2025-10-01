@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 01 Oct 2025 12:14:45 -0000
-Message-Id: <175932088585.3474034.15906225560316838000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 01 Oct 2025 13:05:05 -0000
+Message-Id: <175932390513.3515945.15524254276569453753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 1671cb952a8f680214b04ae9546d4f649f1b367b
-    new: f22f2fb4341afbe755870b0e7dd1b680dbb5bb8f
+    old: 2412842c253c31559e5e6e9b6f3ecba7902aeafa
+    new: 3059771445a81446544bbb08ba2dfeb4506ba598
     log: |
-         f22f2fb4341afbe755870b0e7dd1b680dbb5bb8f github: Test build against the installed liburing
+         3059771445a81446544bbb08ba2dfeb4506ba598 fallocate: allow O_CREATE if mode is FALLOC_FL_WRITE_ZEROES
          
