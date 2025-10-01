@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8536282815507617187=="
+Content-Type: multipart/mixed; boundary="===============0330523721266530697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 01 Oct 2025 14:10:49 -0000
-Message-Id: <175932784984.3578550.17257699972258240736@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 14:11:14 -0000
+Message-Id: <175932787402.3578979.15517648371333451515@gitolite.kernel.org>
 
---===============8536282815507617187==
+--===============0330523721266530697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: fb641516a6687801fddc25e889bee9ab46e133d7
-    new: 60cd16a3b7439ccb699d0bf533799eeb894fd217
+  - ref: refs/tags/mkp-scsi-staging
+    old: f9f143d967c601ce3976fdabf8f0bc0c61bdfd2f
+    new: 6cd2c665c3637506276d6d9cc8fb2412c5a3c684
     log: |
-         27e06650a5eafe832a90fd2604f0c5e920857fae scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-         285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
-         f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
-         0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
-         60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
+         bb7663dec67b691528f104894429b3859fb16c14 scsi: ufs: sysfs: Make HID attributes visible
+         558ae4579810fa0fef011944230c65a6f3087f85 scsi: ufs: core: Include UTP error in INT_FATAL_ERRORS
          
 
---===============8536282815507617187==
+--===============0330523721266530697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1759327906 -0400
+pusher 75C5DE3D 1759327912 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1759327848-e7204321df28ca648ee1b49f343979b2c0d94501
+nonce 1759327853-7c262f9b46bf3c2c1285f3388efa88b00946be12
 
-fb641516a6687801fddc25e889bee9ab46e133d7 60cd16a3b7439ccb699d0bf533799eeb894fd217 refs/heads/queue
+f9f143d967c601ce3976fdabf8f0bc0c61bdfd2f 6cd2c665c3637506276d6d9cc8fb2412c5a3c684 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjdNqIACgkQ7ulgGnXF
-3j3/2A/+KWGxNnLOyAzWiDbSsg7F5KLNR0K/DgJ/Vd5o/ytSAbM0KMNwI5TQ2FSf
-KXps0OrkSRff5NDFOga4fERYEm3FxmnSLvekUl4wwt+gWEuZHunmPfsFVDvPTdrj
-t5lbDrT8PKH33AtJcU5v3aDPDy+xhyhZKQHQpjDk+99e4wDi+yczp2h7fQ2pGQnJ
-VgbhKtGAs0z9JjC2UzcCQDsHWQwtn8kgoPuedCxOzvsCOaA+P7CRCWUqbIKEZTuj
-fxQF4CfMmndXIxCVicSQCC2OCxsHM4CQ0GRWcMAX+b62RRF+BuzczmtKjCOm7Ci4
-KYcosjt5Ofbi+G7iXFXthmSO85bm4nLnQFwy3cyL1i+LbXxMjyUsyQxCW1qlDfEB
-JXm7fme1QiUdzecdepREE6pkomyl+/Uf3ZkZVDao6LaJZwCO5Z4l19W0tFx+YCgi
-l9S/HQH8qgURXcqzq/D5vNVKwJs2eP8F7eZTLIqYaylfmcMI98ZzPdstfT/+yvgR
-IT6Sp8ZV/fU7dopMzLrl9sMpP6UVp62cG2FJVkuM5lw92q2eO1PW7OB3paX3hJkC
-qLab8QNhZBuewKzxtTjVhH6D9hq3KVgRWfxw7ademNYcLH1V+njs0YWRAvagMdxl
-/HIL95iKy1NSTye/rM13F48emwKKd6hNn7z6CCg3lHW11LlLhQw=
-=4Wuh
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjdNqgACgkQ7ulgGnXF
+3j3YXw/+PFE6t10uLIF3SYZ7m+hABiLYzhonAUFoZsI1zZeHCk/qWW7DJoeOQ9Vb
+s40gdmXnrU0xqHxK9eP/8k9+FTLVhkMriNmuzSvLKvBKxucuvPulYA8aGa1UrHpE
+9L/yaBCKHKI1jfygDuXGxwACEEw31OdYbuiEuJyQnKJ2q0l6Kz19yGlKbHxOmE+p
+nC3wHnO9kGCcxbLsC5ZR9GNqqcPJcFEPLiZBBWuiwNUoAzuh4SwgPjS3GOPqjMld
+LYNStrAZH8ya1Z4nCoCNYKqe1FYTyWosV35FEx26O38Uyr/g5qYX4JPXE2KyGI4b
+OTONh2UiaABxRA6OfziJ0l3S5RympiK0CpTCwsBhF5iKYoSO+siE54FioGKsl9XP
+CdFvLQJaxbxDKxD+wGNGqfTUFgIjBI8PtmyX177RMN9HktDbJ7i3GwF7u47+pTU2
+fx4yBnqIORw22qwGjrkK2+QEzQ7Q5OqXDZTqn/kHAkZCiwvxIwRUQjpxSpd4mBUb
+Fw3ZGh1KHT0NDFqJW/7vi3jAT6nyQfiKBwpiOmXooBwhdtCYWHy3EWo24APQca0s
+8QgzH5G+xjVsNaUMwyvOhFm1K+0Ij2wNfSLdU7hZ1BiwbgkqgIEqmyhlVh800NfN
+HV3go1Eo9s+nH86iNV7bhqgFPVk/GpcUpH4rkcIAGkY8iWqZnh0=
+=Ey4x
 -----END PGP SIGNATURE-----
 
---===============8536282815507617187==--
+--===============0330523721266530697==--
