@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Wed, 01 Oct 2025 13:52:24 -0000
-Message-Id: <175932674419.3559285.1254200751048437864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 01 Oct 2025 13:53:39 -0000
+Message-Id: <175932681948.3560005.14425455034352828367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 9f218f9bb9d274b9d5d48a4c95e1b199141fc1f2
-    new: ba3b29a639fe5173033914db6ee58d8d9bb86aba
+  - ref: refs/tags/mfd-next-6.18
+    old: 0000000000000000000000000000000000000000
+    new: 83c423cbbe080bbc06ccd265a73e2daf42d39a07
