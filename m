@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0330523721266530697=="
+Content-Type: multipart/mixed; boundary="===============5853753899695916679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 01 Oct 2025 14:11:14 -0000
-Message-Id: <175932787402.3578979.15517648371333451515@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 14:11:36 -0000
+Message-Id: <175932789673.3579506.10968014856431183095@gitolite.kernel.org>
 
---===============0330523721266530697==
+--===============5853753899695916679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: f9f143d967c601ce3976fdabf8f0bc0c61bdfd2f
-    new: 6cd2c665c3637506276d6d9cc8fb2412c5a3c684
+  - ref: refs/heads/6.18/scsi-staging
+    old: 60cd16a3b7439ccb699d0bf533799eeb894fd217
+    new: 558ae4579810fa0fef011944230c65a6f3087f85
     log: |
          bb7663dec67b691528f104894429b3859fb16c14 scsi: ufs: sysfs: Make HID attributes visible
          558ae4579810fa0fef011944230c65a6f3087f85 scsi: ufs: core: Include UTP error in INT_FATAL_ERRORS
          
 
---===============0330523721266530697==
+--===============5853753899695916679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1759327912 -0400
+pusher 75C5DE3D 1759327935 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1759327853-7c262f9b46bf3c2c1285f3388efa88b00946be12
+nonce 1759327876-379a1cdb6e9fdcc2e575923863675792c5433b96
 
-f9f143d967c601ce3976fdabf8f0bc0c61bdfd2f 6cd2c665c3637506276d6d9cc8fb2412c5a3c684 refs/tags/mkp-scsi-staging
+60cd16a3b7439ccb699d0bf533799eeb894fd217 558ae4579810fa0fef011944230c65a6f3087f85 refs/heads/6.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjdNqgACgkQ7ulgGnXF
-3j3YXw/+PFE6t10uLIF3SYZ7m+hABiLYzhonAUFoZsI1zZeHCk/qWW7DJoeOQ9Vb
-s40gdmXnrU0xqHxK9eP/8k9+FTLVhkMriNmuzSvLKvBKxucuvPulYA8aGa1UrHpE
-9L/yaBCKHKI1jfygDuXGxwACEEw31OdYbuiEuJyQnKJ2q0l6Kz19yGlKbHxOmE+p
-nC3wHnO9kGCcxbLsC5ZR9GNqqcPJcFEPLiZBBWuiwNUoAzuh4SwgPjS3GOPqjMld
-LYNStrAZH8ya1Z4nCoCNYKqe1FYTyWosV35FEx26O38Uyr/g5qYX4JPXE2KyGI4b
-OTONh2UiaABxRA6OfziJ0l3S5RympiK0CpTCwsBhF5iKYoSO+siE54FioGKsl9XP
-CdFvLQJaxbxDKxD+wGNGqfTUFgIjBI8PtmyX177RMN9HktDbJ7i3GwF7u47+pTU2
-fx4yBnqIORw22qwGjrkK2+QEzQ7Q5OqXDZTqn/kHAkZCiwvxIwRUQjpxSpd4mBUb
-Fw3ZGh1KHT0NDFqJW/7vi3jAT6nyQfiKBwpiOmXooBwhdtCYWHy3EWo24APQca0s
-8QgzH5G+xjVsNaUMwyvOhFm1K+0Ij2wNfSLdU7hZ1BiwbgkqgIEqmyhlVh800NfN
-HV3go1Eo9s+nH86iNV7bhqgFPVk/GpcUpH4rkcIAGkY8iWqZnh0=
-=Ey4x
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjdNr8ACgkQ7ulgGnXF
+3j2ByA/+LNxQTKWe7Z1aBnfGBL2Rxj5Mq1HlZeCx9k2pxqb7rB2md3Z6iq1wkRb5
+/n/5frCoqgR2LhiwEMxHb9K+2U66HBzlWP0GTgwaytCRUdl3BT930/2WItL9ZGSb
+sVCtP6iyYNemFX0NOr0Fgi+zj9C/s5ECvR6VuHmP/bKE4qQauvHHoSkgsCW3ZS6a
+MbLOqWS+oJZYwZRzOX4+CdOyViuywwK6D+G+iNIbMxmNe8N9eCVajA4oAx4NtnGK
+N9c/Tl6kQYNwZyRXl19MVyuUtO+KWZTgtKSDX5qJc9TVuHeWL5aBuM5A9EUsDtKt
+mWiLV2MQ5lhLYsUOqbsu6pvR9A1hJiSdZMsf8HjhGXpCpw91Y1wrwALNFfnllwnE
+uL3ya1E8t0xh+rKMs05TRUrjweQuJXVuVtwIHfFmsCsbWBt8G1frVm9ymLzpl12B
+aDnd25uGZpru+mVE5sHM79kVwXVLbQfhkF/wBbIPAIgYgdpD8t80dPZTnD6OUQMe
+x5pBQQz8eIArM1oKxDi3wnsZD6Ys9O6mx0jePufq3sNSdBw5QEpi6Y0M3Mn9GyhU
+ofNXS17jdhEuUIj+qe05pMIhiLbOZz7bOjrkdbfG6n5mGaKHbhqqlsR0Af+6oZMj
+WASBWRYTQdX7tc1ZLt6rgMaen2ZgKNWYYk/xCgjvxZdceB0+Beg=
+=+VMk
 -----END PGP SIGNATURE-----
 
---===============0330523721266530697==--
+--===============5853753899695916679==--
