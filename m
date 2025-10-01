@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
-Date: Wed, 01 Oct 2025 18:40:36 -0000
-Message-Id: <175934403641.3816095.17442562122667085964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 01 Oct 2025 18:47:19 -0000
+Message-Id: <175934443918.3821303.13805485358783605679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fwctl/fwctl
-user: jgg
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/tags/for-linus-fwctl
-    old: 30ef1c0af1a15c4dcf4ab87b3f0270e88a203374
-    new: b61963eaad8d45c4f40847983ba1d9b58935e8bc
+  - ref: refs/heads/bleeding-edge
+    old: f260144857047e913b1b6105c17d63acc722e74e
+    new: 7e6af862aa6162444dbad889fa9e6e37fbc8fd4d
     log: |
-         cb81f72f86e0ad7da83236c2f8b2db5a8f1310ba fwctl/mlx5: Allow MODIFY_CONG_STATUS command
-         e7085be863839e3438fb67da65a74b64e99917e7 fwctl/mlx5: Add Adjacent function query commands and their scope
-         479bec4cb39a1bfb2e5d3e3959d660f61399cad4 pds_fwctl: Replace kzalloc + copy_from_user with memdup_user in pdsfc_fw_rpc
+         d9f866b2bb3eec38b3734f1fed325ec7c55ccdfa ACPI: property: Return present device nodes only on fwnode interface
+         7e6af862aa6162444dbad889fa9e6e37fbc8fd4d Merge branch 'acpi-property-next' into bleeding-edge
          
