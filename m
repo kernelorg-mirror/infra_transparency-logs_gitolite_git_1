@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6123183190739790807=="
+Content-Type: multipart/mixed; boundary="===============4705777676614801241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 01 Oct 2025 23:10:29 -0000
-Message-Id: <175936022995.4050021.15490881355933056388@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 23:10:31 -0000
+Message-Id: <175936023182.4050186.4873984022798797375@gitolite.kernel.org>
 
---===============6123183190739790807==
+--===============4705777676614801241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 07e27ad16399afcd693be20211b0dfae63e0615f
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 217f92d91c9faeb6b78bd6205b3585944cbcb433
     new: cb3005d4c490fe2489accd5408592683d705b455
-    log: revlist-07e27ad16399-cb3005d4c490.txt
+    log: revlist-217f92d91c9f-cb3005d4c490.txt
 
---===============6123183190739790807==
+--===============4705777676614801241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07e27ad16399-cb3005d4c490.txt
+Content-Disposition: attachment; filename=revlist-217f92d91c9f-cb3005d4c490.txt
 
 690de2902dca98aec96de004428c020ca902f047 i2c: muxes: pca954x: Use reset controller only
 94c29677640312fcfab261bddc1006bc43efe4ba i2c: muxes: pca954x: Reset if (de)select fails
@@ -42,9 +42,6 @@ eddfe53b0d84b02802432bf783ccd53b095dd10a i2c: core: Drop dev_pm_domain_detach() 
 6d74ed4c81470b7df89b6688a0a95adcebb4794f Merge tag 'at24-updates-for-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-mergewindow
 8ab3bd59f9fc210a1a88b509f6931cf3f5ea229a dt-bindings: i2c: exynos5: add samsung,exynos8890-hsi2c compatible
 958e55f90a01451de77e22063d37b60388219b96 dt-bindings: i2c: spacemit,k1-i2c: Minor whitespace cleanup in example
-f2b6b51d21ce7b84bc01d252b451684b86ad1cdc i2c: s3c2410: Drop S3C2410 OF support
-25aab8f3ce56fd3cdf921c206ce42d1cdede5259 dt-bindings: i2c: samsung,s3c2410-i2c: Drop S3C2410
-217f92d91c9faeb6b78bd6205b3585944cbcb433 dt-bindings: i2c: i2c-mt65xx: Document MediaTek MT6878 I2C
 54d6a978bb2bb78a781bc849608c5b4f0748985b Merge branch 'i2c/immutable/scoped_fwnode_child' into i2c/for-mergewindow
 1a2b423be6a89dd07d5fc27ea042be68697a6a49 i2c: boardinfo: Annotate code used in init phase only
 b492183652808e0f389272bf63dc836241b287ff i2c: mediatek: fix potential incorrect use of I2C_MASTER_WRRD
@@ -63,4 +60,4 @@ c07b3e60b4d853056f696c449d4d47701dc9f36f Merge tag 'i2c-host-6.18' of git://git.
 ec67ef0a501d7dc915d84c0ada4ab3697adfa1d9 dt-bindings: i2c: i2c-mt65xx: Add MediaTek MT8196/6991 compatibles
 cb3005d4c490fe2489accd5408592683d705b455 i2c: i801: Add support for Intel Wildcat Lake-U
 
---===============6123183190739790807==--
+--===============4705777676614801241==--
