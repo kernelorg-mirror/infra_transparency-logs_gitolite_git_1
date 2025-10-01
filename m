@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8780180117771991352=="
+Content-Type: multipart/mixed; boundary="===============4392492703750695530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 01 Oct 2025 17:51:21 -0000
-Message-Id: <175934108193.3771809.10924892574287467882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 01 Oct 2025 17:51:39 -0000
+Message-Id: <175934109948.3772105.2524129282378830479@gitolite.kernel.org>
 
---===============8780180117771991352==
+--===============4392492703750695530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 6063257da111c7639d020c5f15bfb37fb839d8b6
 
---===============8780180117771991352==
+--===============4392492703750695530==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1054,4 +1054,4 @@ ae28ed4578e6d5a481e39c5a9827f27048661fdd Merge tag 'bpf-next-6.18' of git://git.
 f4e0ff7e45c30f4665cfbbe2f0538e9c5789bebc Merge tag 'rust-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 50c19e20ed2ef359cf155a39c8462b0a6351b9fa Merge tag 'nolibc-20250928-for-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/nolibc/linux-nolibc
 
---===============8780180117771991352==--
+--===============4392492703750695530==--
