@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6156511503143805690=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 01 Oct 2025 11:51:00 -0000
-Message-Id: <175931946087.3454034.5777752485739849154@gitolite.kernel.org>
-
---===============6156511503143805690==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 01 Oct 2025 11:53:43 -0000
+Message-Id: <175931962307.3455459.15603611586629467452@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: fd31660f9665eb69688e57c4259063c5c781564b
-    new: 8de53ada5642c6c9c6ee130ae66774cb812f84e8
+    old: 57d59a5cd5ba6c0b32cae27f5ce48241274f6e6e
+    new: 2412842c253c31559e5e6e9b6f3ecba7902aeafa
     log: |
-         7ee65a68b3d75eb0663e000cbb9a704658f829d8 strip the new mbox files
-         8de53ada5642c6c9c6ee130ae66774cb812f84e8 update cvelistV5
+         4109f4bfefff9e6cd65815399af3eab2b0a59104 libcommon: added lib "configs" for parsing configuration files in the correct order
+         d1cf7efb17869d0fdf132bb3581d9b74a459bb87 agetty: using configs lib for parsing issue files
+         16826c6675df3b6b28851c72f2dd1d194d3c7189 Using fix issue dir path "/usr/lib" for agetty
+         2412842c253c31559e5e6e9b6f3ecba7902aeafa Merge branch 'configs3' of https://github.com/schubi2/util-linux
          
-
---===============6156511503143805690==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759319518 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1759319459-b026246c55cdc579f133f151fd15cd3adb282a1c
-
-fd31660f9665eb69688e57c4259063c5c781564b 8de53ada5642c6c9c6ee130ae66774cb812f84e8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjdFd4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+29sP/R62Qhi4OO7vUFJuxd5V
-25fXN+6HU/4slav7gsBztEGwN/bRZ2kvnPSG2jCqf4mm6D6wpSX0Jj9oHCtL0KEM
-nbhQLqEe+/YOVSyI/52N8/RRk6QoBsPlX0vVEeApicrnFs9Vmeo16qOKsEXDx2zU
-x//2DOu+rytd0z2ciu7qn5f/5/arZ5g2SiaKIElWGp/mRhutIQJgDBekpFVVOTH0
-Te/sRfDQ1zTN+5XKS3++nNb6ovaap2Kl/jei95j3bYJIzHg2kYTt8L2Gwu9NbGBm
-kA0R4XbnNz781oGC6nxfGDrPc8sLJufSdD74L9FccZ53vEMcSVwjZqq0W7KL3uml
-YhxGwfUL9+Q80pRLg4GS/iYg8vKX+gLvnAWjAkH4IF6M3DTBES0Cj62G+4d1xqzx
-eqzKcvFzCfhrorr80ktqaKUNHhxssbURYI82673IAApJFqHLaeVeh36Mp3GXFoq4
-chT5pZMV4N0m3lCL9V+7atezCcTVTGaUexhGd+b19fBzSG6ipDounIZHuT5bAyV4
-737VePVeOZ4JqvmjduNyY382XrB8IX0ETpskJiQEmHxauVRETmFlu/EAiU+SDfm2
-ucOezWMi+JVVqisOR7Zijolmub01L14fKiH++U6KPJRPUHMNXEQuH8riw8jRnGlo
-vtcjJS5xFl/2OrCeFiB5fK/f
-=m/P5
------END PGP SIGNATURE-----
-
---===============6156511503143805690==--
+  - ref: refs/tags/7-start
+    old: 0000000000000000000000000000000000000000
+    new: 16b76c51f93b330b9c64f61bfabb6b0c5005ad1b
+  - ref: refs/tags/7.0-start
+    old: 0000000000000000000000000000000000000000
+    new: 29229c32b8699097ce0e8d9e29ca8da302215a09
+  - ref: refs/tags/v2.41-devel
+    old: 0000000000000000000000000000000000000000
+    new: b939475ca5c0612e7f15c812230fd5f9da0b36c4
