@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8594530430931865068=="
+Content-Type: multipart/mixed; boundary="===============6081126024525395589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 01 Oct 2025 15:32:15 -0000
-Message-Id: <175933273535.3649155.928904971575218948@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 15:33:40 -0000
+Message-Id: <175933282061.3649988.1130043199890039059@gitolite.kernel.org>
 
---===============8594530430931865068==
+--===============6081126024525395589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 88e8acffd7af9b030d2772f27ee30639be7024cf
-    new: fb641516a6687801fddc25e889bee9ab46e133d7
-    log: revlist-88e8acffd7af-fb641516a668.txt
+  - ref: refs/heads/for-next
+    old: e50b8f02e00d445cdb8cf928eb4b06541cb98e5f
+    new: 29a48da922d4a54dae591e6f333096b07a3aa597
+    log: revlist-e50b8f02e00d-29a48da922d4.txt
 
---===============8594530430931865068==
+--===============6081126024525395589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88e8acffd7af-fb641516a668.txt
+Content-Disposition: attachment; filename=revlist-e50b8f02e00d-29a48da922d4.txt
 
 b81296591c567b12d3873b05a37b975707959b94 scsi: hpsa: Fix potential memory leak in hpsa_big_passthru_ioctl()
 ac01fc418f586c6a6e5582da16de7324e9c6391a scsi: hpsa: Replace kmalloc() + copy_from_user() with memdup_user()
@@ -44,5 +44,6 @@ d471a075ae019118fa2e1bd251bad7e98d97b49e scsi: ufs: ufs-qcom: Remove redundant r
 7e5a43897aa3e5df197475809dd5264cb724474a scsi: mpt3sas: Update driver version to 54.100.00.00
 408445e9c1639e41e37876cb9e887cb0fadad381 Merge patch series "mpt3sas: Few Enhancements and minor fixes"
 fb641516a6687801fddc25e889bee9ab46e133d7 scsi: MAINTAINERS: Update FC element owners
+29a48da922d4a54dae591e6f333096b07a3aa597 Merge branch 'misc' into for-next
 
---===============8594530430931865068==--
+--===============6081126024525395589==--
