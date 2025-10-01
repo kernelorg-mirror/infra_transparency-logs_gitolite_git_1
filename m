@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Wed, 01 Oct 2025 14:01:21 -0000
-Message-Id: <175932728125.3568508.4138119890559948056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Wed, 01 Oct 2025 14:01:40 -0000
+Message-Id: <175932730044.3568871.16637795953180931690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/tags/backlight-next-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 6f98403fed20fc55f52e83a20f1b5a8aebf6f815
+  - ref: refs/heads/v2.2.x
+    old: d387ae288b1fce4a1a4779c3999d9fbce45e2ab5
+    new: 7afad4f10f9ea2cdd00248531b1d195215cc4eac
+    log: |
+         7afad4f10f9ea2cdd00248531b1d195215cc4eac dbus: don't install generated headers
+         
