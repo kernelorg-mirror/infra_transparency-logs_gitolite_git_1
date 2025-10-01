@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 01 Oct 2025 11:19:44 -0000
-Message-Id: <175931758420.3423722.8240186923572041841@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 11:20:14 -0000
+Message-Id: <175931761472.3425930.4163336994047963339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/tags/for_v6.18-rc1
-    old: 53dde367f900a64f26f7641a9019fc17cf069490
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/fsnotify_for_v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 1f6b739030bbddf4629062816cee2717f4f90002
