@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2067985935528678977=="
+Content-Type: multipart/mixed; boundary="===============5596440245922535940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 01 Oct 2025 23:26:00 -0000
-Message-Id: <175936116041.4064833.8155965111761053705@gitolite.kernel.org>
+Date: Wed, 01 Oct 2025 23:26:03 -0000
+Message-Id: <175936116310.4064945.12793082590939899863@gitolite.kernel.org>
 
---===============2067985935528678977==
+--===============5596440245922535940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: cb3005d4c490fe2489accd5408592683d705b455
     new: 8d43287120ce6437e7a77e735d99137f3fdb3ae9
     log: revlist-cb3005d4c490-8d43287120ce.txt
 
---===============2067985935528678977==
+--===============5596440245922535940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ bcd5f0da57e6c47a884dcad94ad6b0e32cce8705 i2c: rtl9300: use scoped guard instead 
 17689aafb793599a862617a127429dd3d6f675c9 dt-bindings: i2c: realtek,rtl9301-i2c: extend for RTL9310 support
 8d43287120ce6437e7a77e735d99137f3fdb3ae9 i2c: rtl9300: add support for RTL9310 I2C controller
 
---===============2067985935528678977==--
+--===============5596440245922535940==--
