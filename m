@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 01 Oct 2025 16:13:38 -0000
-Message-Id: <175933521865.3685078.3111906680654806766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Wed, 01 Oct 2025 16:28:18 -0000
+Message-Id: <175933609879.3698189.2698127069817969225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/nova/dev-irq-bindings
-    old: 525a8b7420771bcfd86a303876473868a927cc4b
-    new: c11d6b368275d28c2a32e0cf614549b473d5bc28
-    log: |
-         c11d6b368275d28c2a32e0cf614549b473d5bc28 rust: pci: Allocate and manage PCI interrupt vectors
-         
-  - ref: refs/tags/nova.dev.irq.10.1.2025
+  - ref: refs/tags/test.1759336150.x86_tdx_for_6.18-rc1
     old: 0000000000000000000000000000000000000000
-    new: c11d6b368275d28c2a32e0cf614549b473d5bc28
+    new: 7029df19db946cb4369a59105e2f197f51d54d56
