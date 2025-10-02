@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5189248289153889324=="
+Content-Type: multipart/mixed; boundary="===============3177683532667223290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 02 Oct 2025 17:24:41 -0000
-Message-Id: <175942588180.1000485.5227019516822354623@gitolite.kernel.org>
+Date: Thu, 02 Oct 2025 17:24:57 -0000
+Message-Id: <175942589798.1000726.11134273596476941471@gitolite.kernel.org>
 
---===============5189248289153889324==
+--===============3177683532667223290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 4335edb7138b45abab65f01d2be77a9be9cfd2fe
-    new: 85d88918e686f5a2843bbffe2f687eec51614926
-    log: |
-         198c570d7131cca92eec058c952203c33042f906 s390/pci: Expose firmware provided UID Checking state in sysfs
-         47304e4dc02dd848f1e2065d547b02902d939e58 s390/cio: Update purge function to unregister the unused subchannels
-         85d88918e686f5a2843bbffe2f687eec51614926 s390/pai_crypto: Consolidate PAI crypto allocation and cleanup paths
-         
-  - ref: refs/heads/master
-    old: e5f0a698b34ed76002dc5cff3804a61c80233a7a
-    new: 9cc220a422113f665e13364be1411c7bba9e3e30
-    log: revlist-e5f0a698b34e-9cc220a42211.txt
+  - ref: refs/heads/for-next
+    old: 16b73afa59c60c3a70d7ed673a5433a9feeab124
+    new: b32b1e46f698d50413329de2a68a0d8b4e4e6f8a
+    log: revlist-16b73afa59c6-b32b1e46f698.txt
 
---===============5189248289153889324==
+--===============3177683532667223290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5f0a698b34e-9cc220a42211.txt
+Content-Disposition: attachment; filename=revlist-16b73afa59c6-b32b1e46f698.txt
 
 d679c2e1e8d96f71f85e2ef3877407d264212cc3 pstore/zone: rewrite some comments for better understanding
 cce436aafc2abad691fdd37de63ec8a4490b42ce seccomp: Fix a race with WAIT_KILLABLE_RECV if the tracer replies too fast
@@ -80,10 +72,6 @@ abdfd4948e45c51b19162cf8b3f5003f8f53c9b9 pid: make __task_pid_nr_ns(ns => NULL) 
 b1afcaddd6c8475ee346a60525f9504965673e0c pid: change bacct_add_tsk() to use task_ppid_nr_ns()
 d00f5232851c4895db8f0228881c31608feaab30 pid: change task_state() to use task_ppid_nr_ns()
 da664c6db895f70c2be8c3dd371c273b6f8b920f Merge patch series "Improve pid_nr_ns()"
-efe89a30f70753d861340a20365812e93d34a0de s390/sclp: Refactor sclp_cmd.c
-f9de6cdf4cf8c932ee94f6e25cd7434a97c78bf3 s390/sclp: Move memory hotplug code for better modularity
-de88e74889a30bd9ff4047726021cde857348b4b s390/bitops: Slightly optimize ffs() and fls64()
-669bc57e7016cf9d1a9eedb2a984c4fb4fd67f3d s390/bitops: Optimize inlining
 136d029662cdde77d3e4db5c07de655f35f0239f Documentation/staging: Fix typo and incorrect citation in crc32.rst
 278033a225e13ec21900f0a92b8351658f5377f2 fs: Add 'initramfs_options' to set initramfs mount options
 6c9468aad215a198742c8375b0415e42521c905c fscrypt: replace raw loads of info pointer with helper function
@@ -122,8 +110,6 @@ d6b6aac0cdb4b4f81cccc531ed76211d56c17444 lib/crypto: tests: Add KUnit tests for 
 8a221004fe5288b66503699a329a6b623be13f91 xfs: add .fileattr_set and fileattr_get callbacks for symlinks
 0239bd9fa445a21def88f7e76fe6e0414b2a4da0 xfs: allow setting file attributes on special files
 851c4c96db001f51bdad1432aa54549c7fe2c63e xfs: implement XFS_IOC_DIOINFO in terms of vfs_getattr
-b3597eb51aad4a6e985c701c129bd7fc2cf0d682 s390/boot: Add common boot_panic() code
-11aa54ba4cfa5390ea47c9a1fc62502abce1f6b9 s390/pkey: Forward keygenflags to ep11_unwrapkey
 38d1227fa71d96b470172df50e241775a802a8e7 fs: Replace offsetof() with struct_size() in ioctl_file_dedupe_range()
 9a98f9e84cfbeaa51af42ba2b8bbbde046c709a7 fs: make the i_state flags an enum
 db2ab24a341ce89351a1bede37a96a3e3ce1726a Add RWF_NOSIGNAL flag for pwritev2
@@ -236,8 +222,6 @@ b77fee88bfdfcba2f92c9de2ed1af793c96c46d8 s390: Add __attribute_const__ to ffs()-
 07008b9c1cb8cbeb1741c55729639836dccd4a8f sparc: Add __attribute_const__ to ffs()-family implementations
 95719dfa323709c06ec34cc96e73e0788e19934f KUnit: ffs: Validate all the __attribute_const__ annotations
 01c7344e21c2140e72282d9d16d79a61f840fc20 lkdtm: fortify: Fix potential NULL dereference on kmalloc failure
-f5507aefc9114ced49d1ee527f63ea12ff5d7751 s390/debug: Replace kmalloc() + copy_from_user() with memdup_user_nul()
-5450abb0dea4f9fb432dea2ca92ea7a9bd25650b s390/hmcdrv: Replace kmalloc() + copy_from_user() with memdup_user_nul()
 bea3e1d4467bcf292c8e54f080353d556d355e26 hfsplus: fix slab-out-of-bounds read in hfsplus_uni2asc()
 2c2529e470627a8de22ec366d2f4c3146fb3fe96 arm64: sysreg: Fix and tidy up sysreg field definitions
 f4d4ebc84995178273740f3e601e97fdefc561d2 arm64: sysreg: Correct sign definitions for EIESB and DoubleLock
@@ -311,7 +295,6 @@ e747883c7d7306acb4d683038d881528fbfbe749 xfs: fix log CRC mismatches between i38
 0301dae732a5402a68fdb8d8461b97da6b9bccc6 xfs: refactor hint based zone allocation
 8e2cdd8e18ff5073ad76ab2220910001eae39398 xfs: adjust the hint based zone allocation policy
 42c21838708c20dd8ba605e4099bf6a7156c3362 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-5b27dfb1d7b59db9e72766c990a3ee80e39e4f69 s390/dcssblk: Add DAX support
 220928e52cb03d223b3acad3888baf0687486d21 arm64/hwcap: Add hwcap for FEAT_LSFE
 47687aa4d9c91a9d9b1dbae40c242cd291030bd9 arm64: probes: Break ret out from bl/blr
 ea920b50ac9ff13ef0282428bd80395ea134a26c arm64: uaccess: Move existing GCS accessors definitions to gcs.h
@@ -360,10 +343,6 @@ f38c2c3e572ce0ce5c01de0358ed70328e0cb5af arm64: cputype: Add Cortex-A720AE defin
 3ba8d4aa42bd5dc6e2493ce4a73bb41c9cfd77ca arm64: errata: Expand speculative SSBS workaround for Cortex-A720AE
 dd68f51febbd6eb8a40872724f4c9bcc84442114 kselftest/arm64: Verify that we reject out of bounds VLs in sve-ptrace
 09b5febf84262a303ecedf0821e03b8d8492a38b kselftest/arm64: Check that unsupported regsets fail in sve-ptrace
-a9f859b516ac98c06b0d24e691fceab32a9665d5 s390/bitops: Limit return value range of __flogr()
-f72e2cff13aefe305fc8fc6afe4f43626e4ad88c compiler_types: Add __assume macro
-79161603952c842eb22313f2060051b359b0a592 s390/bitops: Use __assume() for __flogr() inline assembly return value
-f46ccdb87a2573a23ee2d2c21a6b087af9ae76c0 s390/bitops: Cleanup __flogr()
 f8cc02321bfca71967db1620d684aa3abab59612 dt-bindings: perf: fsl-imx-ddr: Add a compatible string fsl,imx94-ddr-pmu for i.MX94
 e4d9e8fb406bef3936aceac85d3f400b1acdbe73 perf: imx_perf: add support for i.MX94 platform
 2c599c68c43e65fa333b222effbeab61cbd35df5 MAINTAINERS: include fsl_imx9_ddr_perf.c and some perf metric files
@@ -519,7 +498,6 @@ da9e5c04be589524101aac31746902b6803581e4 arm/syscalls: mark syscall invocation a
 d7610cb7454bbd8bf6d58f71b0ed57155d3c545f ns: simplify ns_common_init() further
 5890f504ef543190beae2a4e244bbfa7c3e0b57c ns: add ns_debug()
 d969328c513c6679b4be11a995ffd4d184c25b34 Merge patch series "ns: minor tweaks"
-e11727b2b0ca23d147c4d42f494a59aba0749c89 s390/configs: Enable additional network features
 42520df65bf67189541a425f7d36b0b3e7bd7844 hfsplus: fix slab-out-of-bounds read in hfsplus_strcasecmp()
 334c0e493c2aa3e843a80bb9f3862bb50360cb36 erofs: avoid reading more for fragment maps
 17eb98d6b517b6e7faaebed496fd688dbb1771d9 VFS/ovl: add lookup_one_positive_killable()
@@ -533,9 +511,6 @@ bc7d684fea18cc48c3630d2b7f1789000ff2df5b xfs: rearrange code in xfs_inode_item_p
 c91d38b57f2c4784d885c874b2a1234a01361afd xfs: rework datasync tracking and execution
 a40282dd3c484e6c882e93f4680e0a3ef3814453 gcc-plugins: Remove TODO_verify_il for GCC >= 16
 2084660ad288c998b6f0c885e266deb364f65fba perf/dwc_pcie: Fix use of uninitialized variable
-5671ce2a1fc6b4a16cff962423bc416b92cac3c8 s390/mm: Use __GFP_ACCOUNT for user page table allocations
-7b80a23c0e33ae5a3ae68e0cf5b5a59e8a368c37 s390/bitops: Switch to generic fls(), fls64(), etc.
-6c4e0cb3d87ad63a30e05e7624a45a6f01240e70 s390/bitops: Switch to generic ffs() if supported by compiler
 1cf89b6bf660c2e9fa137b3e160c7b1001937a78 arm64: Kconfig: Make CPU_BIG_ENDIAN depend on BROKEN
 57f13e3d91208900c59fbb4d4314a0281762cfb6 Merge branch 'for-next/fixes' into for-next/core
 5647d32f514ecac98760d60a77c1fcfbc5fb2ed0 Merge branch 'for-next/cca' into for-next/core
@@ -561,10 +536,6 @@ a19239ba14525c26ad097d59fd52cd9198b5bcdb afs: Add support for RENAME_NOREPLACE a
 4055526d35746ce8b04bfa5e14e14f28bb163186 ns: move ns type into struct ns_common
 af075603f27b0f6e05f1bdf64bad42fa7cfb033b ns: drop assert
 6e65f4e8fc5b02f7a60ebb5b1b83772df0b86663 Merge patch series "ns: tweak ns common handling"
-f707d2f7a0c7793406daf0e223bad01bb748343e s390/tape: Add WQ_PERCPU to alloc_workqueue users
-dbfe205a344a865b9c36706738f45bc554a040c7 s390/diag324: Replace use of system_wq with system_percpu_wq
-72105fc1c1cb67e779fe2da9d22ffae189c00cfc s390: Replace use of system_wq with system_dfl_wq
-088bb10e37252034ec58a6152f20bfdc8a837f54 s390/mm: Add memory allocation profiling hooks
 e8c84e2082e69335f66c8ade4895e80ec270d7c4 statmount: don't call path_put() under namespace semaphore
 c1f86d0ac322c7e77f6f8dbd216c65d39358ffc0 listmount: don't call path_put() under namespace semaphore
 28986dd7e38fb5ba2f180f9eb3ff330798719369 fcntl: trim arguments
@@ -765,5 +736,9 @@ feafee284579d29537a5a56ba8f23894f0463f3d Merge tag 'arm64-upstream' of git://git
 cb7e3669c683669d93139184adff68a7d9000536 Merge tag 'riscv-for-linus-6.18-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 f1004b2f19d7e9add9d707f64d9fcbc50f67921b Merge tag 'm68k-for-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 9cc220a422113f665e13364be1411c7bba9e3e30 Merge tag 's390-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+198c570d7131cca92eec058c952203c33042f906 s390/pci: Expose firmware provided UID Checking state in sysfs
+47304e4dc02dd848f1e2065d547b02902d939e58 s390/cio: Update purge function to unregister the unused subchannels
+85d88918e686f5a2843bbffe2f687eec51614926 s390/pai_crypto: Consolidate PAI crypto allocation and cleanup paths
+b32b1e46f698d50413329de2a68a0d8b4e4e6f8a Merge branch 'features' into for-next
 
---===============5189248289153889324==--
+--===============3177683532667223290==--
