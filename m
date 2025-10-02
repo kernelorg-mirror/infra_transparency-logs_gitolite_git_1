@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 02 Oct 2025 07:43:22 -0000
-Message-Id: <175939100266.291907.17765023022857174090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rmk/linux
+Date: Thu, 02 Oct 2025 07:44:22 -0000
+Message-Id: <175939106269.292989.4665523904884787705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/rmk/linux
+user: rmk
 changes:
-  - ref: refs/heads/scx
-    old: d0f5fba10f8ebeddf1ea95e75d03b3c72f71af9a
-    new: 410c14cf1f642bc06aee90897bae9df1d440d438
+  - ref: refs/heads/for-next
+    old: 015e1729c81b161ac00803f9fafa65bae767e297
+    new: eca2ec8c85ae5aa49b43ba096370628e9838c8ac
     log: |
-         c5b436fc05b5550f56bbdab0022c50319be0945c sched_ext: idle: Allow per-CPU kthreads to stack with the wakee
-         35f40a45dc7292c651b4921a2a2e4733b8bb0a84 sched_ext: idle: Favor same SMT idle sibling
-         bc0af37f59a091a8eb6c8d8cb88c4a16acf35339 sched_ext: Add lockless peek operation for DSQs
-         156b21991a03b98dd2d8bca3bad8ff63fd6834ea sched_ext: optimize first_task update logic
-         410c14cf1f642bc06aee90897bae9df1d440d438 sched_ext: Add a selftest for scx_bpf_dsq_peek
+         c085ddfd22da76ef64bfd3005c3fe0626324b285 ARM: 9451/1: mm: l2x0: use string choices helper
+         2a295922a20b82f8713ae753705cdf6900d912f5 ARM: 9454/1: kernel: bios32: use string choices helper
+         fb0e5f266ebc86eb97e061ce5e3a74370c16de53 ARM: 9456/1: mm: fault: use string choices helper
+         9aa791c8d7bfc46d8e155cfd812674e8ffedf6b9 ARM: 9457/1: ftrace: Implement HAVE_FUNCTION_GRAPH_FREGS
+         eca2ec8c85ae5aa49b43ba096370628e9838c8ac Merge branches 'fixes' and 'misc' into for-next
          
