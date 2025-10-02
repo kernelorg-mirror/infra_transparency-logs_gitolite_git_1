@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 02 Oct 2025 15:49:28 -0000
-Message-Id: <175942016860.912279.2762930931020377507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 02 Oct 2025 16:05:26 -0000
+Message-Id: <175942112696.926739.4817191258159336515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: d18020cf1e92c9f77819c49b61e2d558ed9fad70
-    new: 7d4a47754a7b8ae86b388f8d346af3f4c83d796e
-    log: |
-         b19a0f610088a1416d118b4f89b1e2fda9eeb7ca perf build: Remove libtracefs configuration
-         7d4a47754a7b8ae86b388f8d346af3f4c83d796e tools build: Don't assume libtracefs-devel is always available
-         
+  - ref: refs/tags/v6.17
+    old: 0000000000000000000000000000000000000000
+    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
