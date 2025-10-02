@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2798302823423066217=="
+Content-Type: multipart/mixed; boundary="===============5212236380177356035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 02 Oct 2025 19:38:11 -0000
-Message-Id: <175943389123.1112860.3616517522946620832@gitolite.kernel.org>
+Date: Thu, 02 Oct 2025 19:38:45 -0000
+Message-Id: <175943392522.1113253.18032450530727202130@gitolite.kernel.org>
 
---===============2798302823423066217==
+--===============5212236380177356035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,105 +15,87 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-6.6.y
-    old: 147338df34870c0248133d7a986b1fab025ec56a
-    new: f34f16e5c63232cfd9bfeb722e0878e209caa9ce
-    log: revlist-147338df3487-f34f16e5c632.txt
+  - ref: refs/heads/nfsd-6.1.y
+    old: 7b34dc04e4ff0f37ba4ad8414f42abae9f8f68e4
+    new: 882efbdd9d34ebaf03da2dd0246f07f251b0aed2
+    log: revlist-7b34dc04e4ff-882efbdd9d34.txt
 
---===============2798302823423066217==
+--===============5212236380177356035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-147338df3487-f34f16e5c632.txt
+Content-Disposition: attachment; filename=revlist-7b34dc04e4ff-882efbdd9d34.txt
 
-ca3e48e96816cac48b4b66a4b828241b0ba86b92 scsi: ufs: mcq: Fix memory allocation checks for SQE and CQE
-18f9e77de527200df5af7c640ef991ed2ec90589 firewire: core: fix overlooked update of subsystem ABI version
-08a96e22bd37f539011c59416e5b4d6d756f7cfa ALSA: usb-audio: Fix block comments in mixer_quirks
-bafc648b82c3b323a00ab9627c86e95e172b01e9 ALSA: usb-audio: Drop unnecessary parentheses in mixer_quirks
-e8c605fece5b9b3402a1a4dd8c351a7ab7e6a42e ALSA: usb-audio: Avoid multiple assignments in mixer_quirks
-9db2614986bd02335f2415f099c889cc9b358a03 ALSA: usb-audio: Simplify NULL comparison in mixer_quirks
-8fa69bd18148e1cdb00a02079f40fb2029fc3f0a ALSA: usb-audio: Remove unneeded wmb() in mixer_quirks
-d04d301614630724feb4048bf17432fc7964fe74 ALSA: usb-audio: Add mixer quirk for Sony DualSense PS5
-a3961b1f7f79e747669d6fcd9f73485c98819c3e ALSA: usb-audio: Convert comma to semicolon
-dc77154e830488f80d1212e13f5eb45c71264436 ALSA: usb-audio: Fix build with CONFIG_INPUT=n
-306697a775fbc1a0f126a5c871e78c5bdbca1eae usb: core: Add 0x prefix to quirks debug output
-41ea28a2de2555b23162bb7e5d84e7caf35069ba mmc: sdhci-cadence: add Mobileye eyeQ support
-b61b90b07416fb5ada86a8470d5b70abbdf25a85 i2c: designware: Add quirk for Intel Xe
-ea6016c9ec61d9d728e468a2f13059d34d5115a4 ALSA: usb-audio: Add DSD support for Comtrue USB Audio device
-0aac2fa4d0c7545a5aea46712244b4404bef83d1 ALSA: usb-audio: move mixer_quirks' min_mute into common quirk
-943754ad81131742af632c71d258f0967657f596 ALSA: usb-audio: Add mute TLV for playback volumes on more devices
-df2580fbcedeaae9e38a718f7b6f19dbebc11f5c IB/mlx5: Fix obj_type mismatch for SRQ event subscriptions
-4ed203f79821cb44d4070fce7cc0dc243d66b97f mm/gup: revert "mm: gup: fix infinite loop within __get_longterm_locked"
-dc58ab1eb90c9f662cf81f60d783a62844c7c543 mm: add folio_expected_ref_count() for reference count calculation
-768c44cc8b6386b9f4ec7b90ef5311d2be953894 mm/gup: check ref_count instead of lru before migration
-d37ec803b281363120af797ee8b4432e2dac307c mm/gup: local lru_add_drain() to avoid lru_add_drain_all()
-1744aff07b833a5e69719e0db649ccfd454e0108 mm: folio_may_be_lru_cached() unless folio_test_large()
-ebe7a2e46d189a75697dd8d4c06a926c233f66e8 arm64: dts: imx8mp: Correct thermal sensor index
-35bb271de241d1e0141ce66b874db7fc635d9f3e ARM: dts: kirkwood: Fix sound DAI cells for OpenRD clients
-6017196aabf1dfd1cffa7d9a109317eabf8c477e cpufreq: Initialize cpufreq-based invariance before subsys
-c5be7edd42602bef1e85c6f775584654a6d2df54 smb: server: don't use delayed_work for post_recv_credits_work
-210b91bfe355bc2a3fceb0c32c5f8cc7f1cb40a6 wifi: virt_wifi: Fix page fault on connect
-865eec09b6e4455dbb54dc25daf13905a206c7f7 can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
-f64abeebf763c3e1df52ff6e815238af384ac642 bpf: Reject bpf_timer for PREEMPT_RT
-0baf92d0b1590b903c1f4ead75e61715e50e8146 xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
-cbc1de71766f326a44bb798aeae4a7ef4a081cc9 can: etas_es58x: populate ndo_change_mtu() to prevent buffer overflow
-be1b25005fd0f9d4e78bec6695711ef87ee33398 can: hi311x: populate ndo_change_mtu() to prevent buffer overflow
-2e423e1990f3972cbea779883fef52c2f2acb858 can: sun4i_can: populate ndo_change_mtu() to prevent buffer overflow
-3664ae91b26d1fd7e4cee9cde17301361f4c89d5 can: mcba_usb: populate ndo_change_mtu() to prevent buffer overflow
-17edec1830e48c0becd61642d0e40bc753243b16 can: peak_usb: fix shift-out-of-bounds issue
-c957284701353c403b9723c9515f57eaea4beb1b ethernet: rvu-af: Remove slash from the driver name
-6a0070c5c3ad37827a51b4e7e319b9b1d150aad9 Bluetooth: hci_sync: Fix hci_resume_advertising_sync
-bcce99f613163a43de24674b717e7a6c135fc879 Bluetooth: hci_event: Fix UAF in hci_acl_create_conn_sync
-82a1463c968b1a6ae598a4f2fcef17b71bb7d3a0 vhost: Take a reference on the task in struct vhost_task.
-98a76bd96f382f3b571a8fdd247fc96d66dad7eb bnxt_en: correct offset handling for IPv6 destination address
-31ae2fbc9fcb938b798a8f8fb61f6c54b9e79f59 net: allow alloc_skb_with_frags() to use MAX_SKB_FRAGS
-24046d31f6f92220852d393d510b6062843e3fbd nexthop: Forbid FDB status change while nexthop is in a group
-be0bd592298f836f3ce67f6a973d01fb12d62bc0 selftests: fib_nexthops: Fix creation of non-FDB nexthops
-a7a2b29c1ee44b8d379ab840a1d89dcc626ef47d net: dsa: lantiq_gswip: do also enable or disable cpu port
-816d30afbad52d2749666d4a8a49526ddcc8521b net: dsa: lantiq_gswip: move gswip_add_single_port_br() call to port_setup()
-7b209698e648b86b5fd8496366658ec2496d995d net: dsa: lantiq_gswip: suppress -EINVAL errors for bridge FDB entries added to the CPU port
-df2c071061ed52d2225d97b212d27ecedf456b8a octeontx2-pf: Fix potential use after free in otx2_tc_add_flow()
-6ffa6b5bc861a3ea9dfcdc007f002b4a347c24ba drm/gma500: Fix null dereference in hdmi teardown
-348736955ed6ca6e99ca24b93b1d3fbfe352c181 futex: Prevent use-after-free during requeue-PI
-ba7bcfd52c66dd1c2dfa5142aca7e4a70b62dfa5 smb: client: fix wrong index reference in smb2_compound_op()
-3cefd898b7aa14c3d51272cf8a574a1c3cdef72a HID: asus: add support for missing PX series fn keys
-50a1e2f50f6c22b93b94eb8d168a1be3c05bf5cd i40e: fix idx validation in i40e_validate_queue_map
-2cc26dac0518d2fa9b67ec813ee60e183480f98a i40e: fix idx validation in config queues msg
-3883e9702b6a4945e93b16c070f338a9f5b496f9 i40e: fix input validation logic for action_meta
-e748f1ee493f88e38b77363a60499f979d42c58a i40e: fix validation of VF state in get resources
-edecce7abd7152b48e279b4fa0a883d1839bb577 i40e: add max boundary check for VF filters
-b247cdd04750ec7dfa132817c09eb73ddff11966 i40e: add mask to apply valid bits for itr_idx
-b769490521cf9768196785bb0809cc78b3694d2a i40e: improve VF MAC filters accounting
-8703940bd30b5ad94408d28d7192db2491cd3592 crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
-3887f3814c0e770e6b73567fe0f83a2c01a6470c tracing: dynevent: Add a missing lockdown check on dynevent
-58d304a89178d47fbbe47a950b9c2b8123449c41 ARM: dts: socfpga: sodia: Fix mdio bus probe and PHY address
-cab278cead49a547ac84c3e185f446f381303eae afs: Fix potential null pointer dereference in afs_put_server
-df1fa034c0fc229a63d01ffb20bb919b839cb576 kmsan: fix out-of-bounds access to shadow memory
-c9c2a51f91aea70e89b496cac360cd795a2b3c26 mm/hugetlb: fix folio is still mapped when deleted
-adac90bb1aaf45ca66f9db8ac100be16750ace78 fbcon: fix integer overflow in fbcon_do_set_font
-09e3bda3a7ba2204361cd08ad02ccd5fd8c77641 fbcon: Fix OOB access in font allocation
-53888cd32a3f6d73480096494f7b0c4675a8e080 s390/cpum_cf: Fix uninitialized warning after backport of ce971233242b
-684a9a995748cb267c694f66ffb908be9a79f37c ARM: bcm: Select ARM_GIC_V3 for ARCH_BRCMSTB
-e7a85efb873fa6f109c21ec99326b381f55e849e mm: migrate_device: use more folio in migrate_device_finalize()
-78f579cb7d825134e071a1714d8d0c4fd0ffe459 mm/migrate_device: don't add folio to be freed to LRU in migrate_device_finalize()
-457d2c5e112fd08dc1039b1ae39a83ec1782360d loop: Avoid updating block size under exclusive owner
-ed6fa21f689737897b16d3d028930ffa842100f6 gpiolib: Extend software-node support to support secondary software-nodes
-7ea47a560a7a3e7edc6d33dea9e141737a75d742 drm/ast: Use msleep instead of mdelay for edid read
-6e4251690710d0e2cf4853e82fcdf50205b323aa i40e: increase max descriptors for XL710
-c0c83f4cd074b75cecef107bfc349be7d516c9c4 i40e: add validation for ring_len param
-6183c6579356ae6486b247f4f1912234c7b505d2 minmax: make generic MIN() and MAX() macros available everywhere
-bb63c996c2db0b5df5da65a1e8617afbd1782251 minmax: simplify min()/max()/clamp() implementation
-7194a302345da510f9a1afdc455a25778374c861 minmax: don't use max() in situations that want a C constant expression
-f0be4c5dc213d49c81b617dd5899ba60ebfb80de minmax: improve macro expansion and type checking
-46648b94e6ebbc80ca6ea8b5a01f6335613abab0 minmax: fix up min3() and max3() too
-6012f69bf7495ec0834bf1c849c7f1153480f52b minmax.h: add whitespace around operators and after commas
-85d619594313e30d1744aca03b4eb550b7f8357c minmax.h: update some comments
-511e7d2e4d51fee16177272135513f9ebb994e1f minmax.h: reduce the #define expansion of min(), max() and clamp()
-26c3d697becf32cc4331c9f74fa1b6d0f261cc8c minmax.h: use BUILD_BUG_ON_MSG() for the lo < hi test in clamp()
-9955044f552b593dbab52591a2ba0cf4bd5c5540 minmax.h: move all the clamp() definitions after the min/max() ones
-1a899044a0f5a790fe3385c401badd56c84ba612 minmax.h: simplify the variants of clamp()
-4529bb0b6be3d40d7671a5cfd1e68a4d1a8da817 minmax.h: remove some #defines that are only expanded once
-eb53056323f133d4998784bf936a9f26dbbfb8c1 drm/i915/backlight: Return immediately when scale() finds invalid parameters
-f34f16e5c63232cfd9bfeb722e0878e209caa9ce Linux 6.6.109
+377780195aff58ab826fbd0ad83e05f776357c65 ALSA: usb-audio: Fix block comments in mixer_quirks
+27bc2785912da5c9b38ac110579113f3c912012e ALSA: usb-audio: Drop unnecessary parentheses in mixer_quirks
+7bdc56f5ca3352e5f763e6a4e47e51d265f6242a ALSA: usb-audio: Avoid multiple assignments in mixer_quirks
+279c82964c08cf05ae6e495b863558e88e4c99b5 ALSA: usb-audio: Simplify NULL comparison in mixer_quirks
+6aeadc24db688bf6c843ba3d89e5d738007618f9 ALSA: usb-audio: Remove unneeded wmb() in mixer_quirks
+c2d5b0a6c688ffb32c35627e337fbbcc65bc275f ALSA: usb-audio: Add mixer quirk for Sony DualSense PS5
+9e4be9a6a084c6443d59d54466fa7aa09e4713ff ALSA: usb-audio: Convert comma to semicolon
+5b422452a29b65c267115dd55c51f927984d3c40 ALSA: usb-audio: Fix build with CONFIG_INPUT=n
+5f7a5d62ec7173b3ecd7ec3c546c3c8502ee6b51 usb: core: Add 0x prefix to quirks debug output
+d926dd23d18bee1e360e879d764f267c13d0b558 ALSA: usb-audio: Add DSD support for Comtrue USB Audio device
+0dbaae134d035b630e8ef0833e734aa19b294c93 ALSA: usb-audio: move mixer_quirks' min_mute into common quirk
+2879ca58235808cb35bbacb3841e176d086f816b ALSA: usb-audio: Add mute TLV for playback volumes on more devices
+8634e8eb12789fb0ca6a0f7b01b88e1fda205b6d IB/mlx5: Fix obj_type mismatch for SRQ event subscriptions
+c22fcd236c36e242933fe0c1910423b174eca82e mm/gup: revert "mm: gup: fix infinite loop within __get_longterm_locked"
+437b423715effa444928c85d9276c4c07ef192a1 mm: add folio_expected_ref_count() for reference count calculation
+54c774c608935d75de0243cb4e12a9b550953bad mm/gup: check ref_count instead of lru before migration
+9557ba5fd368b98329cf1882d538a670abaaacec mm/gup: local lru_add_drain() to avoid lru_add_drain_all()
+85fc33541cc56d364ec0c6b9cf9088674d9eb4c5 mm: folio_may_be_lru_cached() unless folio_test_large()
+38c4a28ad1a65bce41a38bd0b696ebcef98b8a20 arm64: dts: imx8mp: Correct thermal sensor index
+75d9fb6acd97bf0e94029e9a798050b6033a9963 cpufreq: Initialize cpufreq-based invariance before subsys
+72ded830e1dd91951eb3764549bcdd8ae5c6da2a smb: server: don't use delayed_work for post_recv_credits_work
+9507cbebc1861d1d3c20aa6e098b5cbcfe08f0fe can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
+dd8b31eadb1074649056ee368265e3d1c13d1a70 bpf: Reject bpf_timer for PREEMPT_RT
+18c64b2a6da22cdeed0ef0b1ae352594c078b89c can: etas_es58x: sort the includes by alphabetic order
+c4e582e686c4d683c87f2b4a316385b3d81d370f can: etas_es58x: populate ndo_change_mtu() to prevent buffer overflow
+57d332ce8c921d0e340650470bb0c1d707f216ee can: hi311x: populate ndo_change_mtu() to prevent buffer overflow
+a61ff7ac93270d20ca426c027d6d01c8ac8e904c can: sun4i_can: populate ndo_change_mtu() to prevent buffer overflow
+ca4e51359608e1f29bf1f2c33c3ddf775b6b7ed1 can: mcba_usb: populate ndo_change_mtu() to prevent buffer overflow
+176c81cbf9c4e348610a421aad800087c0401f60 can: peak_usb: fix shift-out-of-bounds issue
+b254550ffc4a172a0c3bb837a2b82d08c59bb26d ethernet: rvu-af: Remove slash from the driver name
+fba6815ad1781bb9663711eed9b8b146515fde4d Bluetooth: hci_sync: Fix hci_resume_advertising_sync
+6243bda271a628c48875e3e473206e7f584892ce Bluetooth: hci_event: Fix UAF in hci_acl_create_conn_sync
+6d422469a5e62016930fb2857909b14520605459 bnxt_en: correct offset handling for IPv6 destination address
+ec428fff792b7bd15b248dafca2e654b666b1304 nexthop: Forbid FDB status change while nexthop is in a group
+205ff8e48eef07c13e1735eb5fdc9ab42ff41291 selftests: fib_nexthops: Fix creation of non-FDB nexthops
+4863e2ecfa872376d163453889c95d013cca11d6 net: dsa: lantiq_gswip: do also enable or disable cpu port
+53ba228426811230be8a798cc68e872b9df5f480 net: dsa: lantiq_gswip: move gswip_add_single_port_br() call to port_setup()
+e6b0a62b3bb56cce7b37580c0b5a03ab91e5a2e3 net: dsa: lantiq_gswip: suppress -EINVAL errors for bridge FDB entries added to the CPU port
+5723120423a753a220b8b2954b273838b9d7e74a octeontx2-pf: Fix potential use after free in otx2_tc_add_flow()
+02e4ff4941efb9bbb40d8d5b61efa1a4119b1ba7 drm/gma500: Fix null dereference in hdmi teardown
+cb5d19a61274b51b49601214a87af573b43d60fa futex: Prevent use-after-free during requeue-PI
+4d5e804a9e19b639b18fd13664dbad3c03c79e61 i40e: fix idx validation in i40e_validate_queue_map
+461e0917eedcd159d87f3ea846754a1e07d7e78a i40e: fix input validation logic for action_meta
+02aae5fcdd34c3a55a243d80a1b328a35852a35c i40e: add max boundary check for VF filters
+cf524fdefa5d262aac9771019d8272cf4f861d85 i40e: add mask to apply valid bits for itr_idx
+df42f84dc2a0c07fa88adfc2699edb0afae6904f i40e: improve VF MAC filters accounting
+54506c6335690f4ef1b9f154e34f5a604c72c1ed crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
+07b1f63b5f86765793fab44d3d4c2be681cddafb tracing: dynevent: Add a missing lockdown check on dynevent
+7b8381f3c405b864a814d747e526e078c3ef4bc2 afs: Fix potential null pointer dereference in afs_put_server
+c1dc0524ab2cc3982d4e0d2bfac71a0cd4d65c39 mm/hugetlb: fix folio is still mapped when deleted
+a6eb9f423b3db000aaedf83367b8539f6b72dcfc fbcon: fix integer overflow in fbcon_do_set_font
+af3d855d0757163a0099948567a521964eaeeb6e fbcon: Fix OOB access in font allocation
+d7dbe5f691796269979cdea07eb14cfc31d58edf s390/cpum_cf: Fix uninitialized warning after backport of ce971233242b
+192fe94c02164a42402fba49a15da0ed39917805 mm: migrate_device: use more folio in migrate_device_finalize()
+20fb6fc51863fbff7868de8b5f6d249d2094df1f mm/migrate_device: don't add folio to be freed to LRU in migrate_device_finalize()
+f9a6f9a85a7488d778d75515f2ef4f6d14a7a73b minmax: add in_range() macro
+079b92c3b2f454d6bf243b8b0a6c3f80eea309f0 minmax: Introduce {min,max}_array()
+bc9ff2176fcd2d9dbab048b3e574525dc465edf4 minmax: deduplicate __unconst_integer_typeof()
+fff222c369140c4ac7f81b868c3222ebbdf5dcef minmax: fix indentation of __cmp_once() and __clamp_once()
+7800f13d93ec1e295c9440875e35a3dcb9903b82 minmax: avoid overly complicated constant expressions in VM code
+bfe3a42b61679a39d308268c40e5c18fbfb53fdf drm/ast: Use msleep instead of mdelay for edid read
+6c3981fd59ef11a75005ac9978f034da5a168b6a i40e: fix validation of VF state in get resources
+8b9c7719b0987b1c6c5fc910599f3618a558dbde i40e: fix idx validation in config queues msg
+27481c165a9eadcac1ede0311199d4834c2df048 i40e: increase max descriptors for XL710
+d3b0d3f8d11fa957171fbb186e53998361a88d4e i40e: add validation for ring_len param
+e6684ed39edc35401a3341f85b1ab50a6f89a45d kmsan: fix out-of-bounds access to shadow memory
+7d4fa074a220ca7949b213004af59fa99da2e20d minmax: make generic MIN() and MAX() macros available everywhere
+ab55a0c6a58e01d90f3ac5e3f4e8965215f99525 minmax: add a few more MIN_T/MAX_T users
+b2f31ae2cc2447f422604f5c7ad78490c81b33a2 minmax: simplify and clarify min_t()/max_t() implementation
+a333c5c524c4e00183a34f93b075235ebf7d3325 drm/i915/backlight: Return immediately when scale() finds invalid parameters
+882efbdd9d34ebaf03da2dd0246f07f251b0aed2 Linux 6.1.155
 
---===============2798302823423066217==--
+--===============5212236380177356035==--
