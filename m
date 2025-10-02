@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0457801145201397302=="
+Content-Type: multipart/mixed; boundary="===============5090875643879992993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 02 Oct 2025 11:02:19 -0000
-Message-Id: <175940293904.459717.12183078549661426049@gitolite.kernel.org>
+Date: Thu, 02 Oct 2025 11:02:27 -0000
+Message-Id: <175940294754.459978.17222528282017932556@gitolite.kernel.org>
 
---===============0457801145201397302==
+--===============5090875643879992993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/tmp.perf-tools-next
     old: 3f20f98e2a542fba932d374253b7c81c0f0957e9
     new: d18020cf1e92c9f77819c49b61e2d558ed9fad70
     log: revlist-3f20f98e2a54-d18020cf1e92.txt
 
---===============0457801145201397302==
+--===============5090875643879992993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ f15548b277cc107d41b88b1a63bd4942b703666b perf test: Refactor brstack test
 33706fb0aa6c2f7eb869a0a9ad569e414ff11375 perf test: Add an 'import perf' test shell script
 d18020cf1e92c9f77819c49b61e2d558ed9fad70 perf test: Remove C python_use test
 
---===============0457801145201397302==--
+--===============5090875643879992993==--
