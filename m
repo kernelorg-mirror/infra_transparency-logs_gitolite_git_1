@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1092279652644406176=="
+Content-Type: multipart/mixed; boundary="===============0345336526970764193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 02 Oct 2025 18:45:01 -0000
-Message-Id: <175943070130.1067474.4426743506360942956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 02 Oct 2025 18:45:07 -0000
+Message-Id: <175943070778.1069266.8383976804093558537@gitolite.kernel.org>
 
---===============1092279652644406176==
+--===============0345336526970764193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 2836ed1748ccc567fddd51d4544a35f1e0f43136
     log: revlist-a39516805992-2836ed1748cc.txt
 
---===============1092279652644406176==
+--===============0345336526970764193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ d9007afca0cf6c549c5049d5a75bce470453b024 perf llvm: Move llvm functionality into
 95931d9a594dd0b5f2191a6a6340549b8f3b031b perf libbfd: Move libbfd functionality to its own file
 2836ed1748ccc567fddd51d4544a35f1e0f43136 perf capstone: Remove open_capstone_handle
 
---===============1092279652644406176==--
+--===============0345336526970764193==--
