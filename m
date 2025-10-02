@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3741062537872329200=="
+Content-Type: multipart/mixed; boundary="===============1367653422098900188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 02 Oct 2025 10:57:51 -0000
-Message-Id: <175940267112.455253.841041291101862258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 02 Oct 2025 11:02:04 -0000
+Message-Id: <175940292472.459459.8953515208386163506@gitolite.kernel.org>
 
---===============3741062537872329200==
+--===============1367653422098900188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 1c7ab350c21a302ed1ea5ec776c8a9f2550bc812
-    new: a6ba0fef4c175b11f41a86576c07fd6033e80ecd
-    log: |
-         a6ba0fef4c175b11f41a86576c07fd6033e80ecd gsd: update gsd-review.15
-         
+  - ref: refs/heads/perf-tools-next
+    old: 3f20f98e2a542fba932d374253b7c81c0f0957e9
+    new: d18020cf1e92c9f77819c49b61e2d558ed9fad70
+    log: revlist-3f20f98e2a54-d18020cf1e92.txt
 
---===============3741062537872329200==
+--===============1367653422098900188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3f20f98e2a54-d18020cf1e92.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759402726 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1759402668-f27b9339a5e2bd189296b53e44d166517db31310
+a93b9ccb03a2b27c49bdadb0e2da036451794f92 perf tools: Fix duplicated words in documentation and comments
+241f21be7d0fdf3c1792ed7e61f90a9f5eecd03e perf test perftool_testsuite: Use absolute paths
+58a606149c60d5da554302a7a08234cf3ca259f4 perf sched: Avoid union type punning undefined behavior
+1dbfaf94cf66ec4b19945aa4c76901e4af292a48 perf powerpc: Add basic CONFIG_AUXTRACE support for VPA pmu on powerpc
+c4bbd4ec2e50a9ed7cc379556223977147c59278 perf powerpc: Process auxtrace events and display in 'perf report -D'
+71feffa9c08675f65192a6b0d6ce168c620ba49a perf powerpc: Add event name as vpa-dtl of PERF_TYPE_SYNTH type to present DTL samples
+cd1c3b730a2a0455b405d7ecbd02a63b51cdc04b perf powerpc: Allocate and setup aux buffer queue to help co-relate with other events across CPU's
+8644834a482a94e7da391a09af4d7f3672a5a400 perf powerpc: Process the DTL entries in queue and deliver samples
+a0dfb18f7d20ae0b7b5f513fd65882af105bb771 perf script: Enable to present DTL entries
+6c153cc4684a13af86780cfe293db7b4b4d6739d MAINTAINERS: Remove myself from perf_events subsystem
+60c38a6d38053be24deca331f9f35cf368400352 perf annotate: Use architecture-agnostic register limit
+8c519a825b4add85b63531869d4a813511e6234b perf bpf_counter: Move header declarations into C code
+b91917c0c6fa6df97ec0222d8d6285ab2d60c21b perf bpf_counter: Fix handling of cpumap fixing hybrid
+f15548b277cc107d41b88b1a63bd4942b703666b perf test: Refactor brstack test
+11e59335b0d1c4bc259ee6f0533e04c4b3a9f1dd perf test: Add syscall and address tests to brstack test
+9f0fa213790e3633d37e981386da99149573135b perf test: Extend branch stack sampling test for Arm64 BRBE
+33706fb0aa6c2f7eb869a0a9ad569e414ff11375 perf test: Add an 'import perf' test shell script
+d18020cf1e92c9f77819c49b61e2d558ed9fad70 perf test: Remove C python_use test
 
-1c7ab350c21a302ed1ea5ec776c8a9f2550bc812 a6ba0fef4c175b11f41a86576c07fd6033e80ecd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjeWuYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1ssP/RdHEeUUbLmasRtWiNkA
-FR8WvEUylhB/1dEu8XN6aoy67kuoObEC0RHU/Rxgts2cC4Yntonn+BWb1hXJQTIF
-avwuqjmznw5ROE/p6vM3SCF+VQKpuhutAPGNDQ2OEcg0tj8Nck4bGo9RAd67BnE1
-U5ugijIhg07dclT7vUUQs+DhQKCZ4vweHuHArdsP/MNid49fO4SWhxiGD5slwn3+
-UnrKkZLxqYHlHXfbK5soFbOgEXVqFzDsjWExME4Cu6LoWnS20ciqFMAbHFciHLBX
-/lkdXqI7dOspapkhvTkkrMFHEvp4VyvG0Q2Si+XotDZG1l13h47j3b55VvdOV06Z
-8EC0EGfxin/jt+nkm5LYikoTz3JIkZERAWFLrHG5hJHXyTW0tHs3MsDFacTE8LHG
-Odk2CcqG5ee+cV1IDSGlp9FBWsKdQ6soK1dYvUpcSKE7BthDEihvXzHa4+VZC2se
-n0tBvJjqAJ7xixN/OWtzWG5G+DBPqpWPhtwjds+lTnaZcvDwH7uKJ3AHZMEsobsI
-tnFn5hhxnu1kG7CB8638TU/2zyOrDDykQtQ+LDGMZCrT8selwi/q3jp8JyQAiLlf
-RVNdO0i9s+ImNqHwRXKZZRVGSXMYYnAiICdrvhhiE6VR1UQ3tfcEbnjEd0AysgZj
-QNhRl331V1sD5FiBiJtaooqL
-=/IWu
------END PGP SIGNATURE-----
-
---===============3741062537872329200==--
+--===============1367653422098900188==--
