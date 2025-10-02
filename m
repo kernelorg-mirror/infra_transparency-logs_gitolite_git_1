@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 02 Oct 2025 06:40:13 -0000
-Message-Id: <175938721343.238532.9618031708699098860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 02 Oct 2025 06:46:15 -0000
+Message-Id: <175938757567.243259.6498362530943130295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/main
-    old: ed08ca7f3bd1382a407497c6efe409df6731c655
-    new: 6b41fae0501df1e78b0088a90a94304258a1eae5
-    log: |
-         6b41fae0501df1e78b0088a90a94304258a1eae5 feat!: drop mocktpm
-         
+  - ref: refs/heads/for-next
+    old: 47f17741f9f1ffb192fd6ed74e3db3cf3c22df20
+    new: 0000000000000000000000000000000000000000
