@@ -1,26 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 02 Oct 2025 17:37:13 -0000
-Message-Id: <175942663305.1011869.11235091842255707238@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4103823691904897754=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 02 Oct 2025 17:37:45 -0000
+Message-Id: <175942666546.1012210.2685978480870763418@gitolite.kernel.org>
+
+--===============4103823691904897754==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 593953f4b9dff183bb723f8035c65eddb206a041
-    new: 12f9e4a62a787852d4e9f7cb3a6f6d3dda668e4c
+  - ref: refs/heads/for-6.18
+    old: bace10b59624e6bd8d68bc9304357f292f1b3dcf
+    new: aefada95fbab74035aca62e3ab80f93fe91d2d58
     log: |
-         4444012bc3eac3b57ff42d55d1a9f8827f886d01 nfsd: delete unreachable confusing code in nfs4_open_delegation()
-         93a3fea415a0f8b288bea5557ba3342ef71941da NFSD: Define actions for the new time_deleg FATTR4 attributes
-         ead359d363ef95cb3cb0c20203543d8fc70c0ad5 NFSD: Fix crash in nfsd4_read_release()
-         9da282fba2a9528b3567739216aea3dd34aa26e5 nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
-         3a0a9db9f149b314522056c18e801b23555d574b NFSD: Update comment documenting unsupported fattr4 attributes
-         ee019b746f7c147a8e173fd2d71d96296e558eb7 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
-         023dd18dd3307220bd348aa6a70f3999f4555eab svcrdma: Increase the server's default RPC/RDMA credit grant
-         12f9e4a62a787852d4e9f7cb3a6f6d3dda668e4c siw: Enable try_gso
+         a7fe5ff832d61d9393095bc3dd5f06f4af7da3c1 ASoC: SOF: ipc4-topology: Correct the minimum host DMA buffer size
+         3dcf683bf1062d69014fe81b90d285c7eb85ca8a ASoC: SOF: ipc4-topology: Account for different ChainDMA host buffer size
+         45ad27d9a6f7c620d8bbc80be3bab1faf37dfa0a ASoC: SOF: Intel: hda-pcm: Place the constraint on period time instead of buffer time
+         aefada95fbab74035aca62e3ab80f93fe91d2d58 ASoC: SOF: ipc4/Intel: Fix the host buffer
          
+
+--===============4103823691904897754==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1759426722 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1759426663-b5ef5ee782cd42c8b5f99807bb69951d23ca6020
+
+bace10b59624e6bd8d68bc9304357f292f1b3dcf aefada95fbab74035aca62e3ab80f93fe91d2d58 refs/heads/for-6.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjeuKIACgkQJNaLcl1U
+h9ChzAf+IXuUfqhMBQJG7DcawvGXia24J2DEc4p87oQGTigskL4EoppG71xMnv3x
+R4Xv2ruRnPgSSg3KYZtYhO+Tf3zXbKIixCSYw6pMFPUsN1h+/Q4t+UXafnCBkNon
+qYgyc+c4jxqXEFbjTHpe1Wr2DVe1MM6iW/y4/KTuUsCPuF73EQf/nldFgS9QyHE1
+Eu+4J0dsPprtge4Omx8DWS2333WtweoTpUiykfXWdlm2QpYpF/te4vK81aOV5Tqg
+65iG2YZWC4dV4CV5hIHCt+eHcrmH6KNwvBlw88w79jSM2zkCNZn2Xti8TgHl7jli
+l61cAwQHrVhihbSo2eMKf7aSX3NRNw==
+=g7Q6
+-----END PGP SIGNATURE-----
+
+--===============4103823691904897754==--
