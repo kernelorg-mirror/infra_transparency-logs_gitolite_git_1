@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Thu, 02 Oct 2025 16:20:33 -0000
-Message-Id: <175942203377.941635.5349181629207196828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 02 Oct 2025 16:22:25 -0000
+Message-Id: <175942214576.942996.5931894257814540005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: aegl
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: f1f41dc4f0f489b5b44b5ea61fecbb82adaf5e6c
-    new: bcd71be7776f1fdbd043064bf3034a0cbf297666
+  - ref: refs/heads/main
+    old: 7066e76ab7684a9084a476b12a187ccc2edd693b
+    new: 87c22c927394745fcac53481c4ced90b94eccb13
     log: |
-         bcd71be7776f1fdbd043064bf3034a0cbf297666 mcelog: Add model-specific decoding for Diamond Rapids
+         87c22c927394745fcac53481c4ced90b94eccb13 feat!: drop mocktpm
          
-  - ref: refs/tags/v207
-    old: 0000000000000000000000000000000000000000
-    new: bcd71be7776f1fdbd043064bf3034a0cbf297666
