@@ -1,53 +1,205 @@
-Content-Type: multipart/mixed; boundary="===============8536255386334905019=="
+Content-Type: multipart/mixed; boundary="===============2760712965907013815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 02 Oct 2025 11:48:03 -0000
-Message-Id: <175940568323.605637.13996391146384938136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 02 Oct 2025 11:48:19 -0000
+Message-Id: <175940569916.606035.12930088068430934080@gitolite.kernel.org>
 
---===============8536255386334905019==
+--===============2760712965907013815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.16.10
-    old: 0000000000000000000000000000000000000000
-    new: 0604304122abaf8ac1f178cf90bfb872d7cfd7e3
+  - ref: refs/heads/linux-6.16.y
+    old: b0d8acc711981d712a59ee20b073cbc52a4109c5
+    new: bcabc18865f367a23e016bf6113420c82aea276d
+    log: revlist-b0d8acc71198-bcabc18865f3.txt
 
---===============8536255386334905019==
+--===============2760712965907013815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759405741 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1759405681-dfd2794be207b981589fa148a6113384cee4166d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759405753 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1759405693-7e5610f052490867f5fe61938cd78e7fc40ba20e
 
-0000000000000000000000000000000000000000 0604304122abaf8ac1f178cf90bfb872d7cfd7e3 refs/tags/v6.16.10
+b0d8acc711981d712a59ee20b073cbc52a4109c5 bcabc18865f367a23e016bf6113420c82aea276d refs/heads/linux-6.16.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjeZq0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gNkP/j2O7B/0J/wSkh+ZHPnB
-VAoHolEwC5fDUvz4U4dK1/IBNr4CnrLTQEwwH99aXUgj7Of4OW9Pk6Vo23BHR1sY
-6pRidHlsc9j0SSoTmib77HJxIfwDll1okD51jFcO0H+ZxvEHqamPP9wqGxS3inqv
-S85rOpXAHSagz3Xlf9iG2dT/BJn6oAYmGLDu5GpCnPUXRWlhahklEBkK9YeNS3/A
-JX6tJSiQhX0hjYw7wqjRFDXNU2DdnizEBLVKjD4k/c+c8wZwT3pulFRIa3sh1k6v
-TlW0mabP8cBc2HznnHKhw6GT+gLIql8wUw4VQh6PQRNjDrj+s2wceK3kP+ay8NR7
-3GpMDVxH92lUHnuTcnvPkXd3nNLIpGgArJggFOC7o9pEv/1LMP0iHH7R2rhMzsSn
-J7a1Adjivqt8ENZLOPN1nPjP3mDBD5C1tT/m92EfnLWbmOSFkJjdO8ohL44SVA+g
-P0uSdnCVse48gQYJLVQvBSg/VH1sN96zW3WAtDp4y10VbTChxjcRzTMZa8+SOxgj
-MlVjgSSPs3vqK9DzgfHHJL/zVVlBpbmaaVqM9OB05qM1IHUIZtt4Z8DpsLCuKP1H
-G5lROT2UPMOhLhCM1jWifeN7HyOTeDAjfY76MUO/F7BRuaBR8zgNO7T3RYg1rb4S
-HrRmo+GFOuH1dpDEPl8PMl0D
-=W2up
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjeZrkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+etsP/RO+Ez0gbSeHAhebkJZN
+ShGNCOqSZBkIgQrGNEk3bU1xR1+4relvPwBwxkH/rHJyFFznX8EJ17gv8dnG0ByU
+kP8E7XEAd5ArNFvCOEta++nH9zxlT2SYNM7Zsr+sLjcRoYJdSZBVkOg4ZPCBDCl8
+quK9DvqgRwoZ9lZzjuXlVdbYix0O3uL0Ek8ppPfhFJcBJRJEysIrbkgUl9Xrp96u
+rDO0vbIMxkaeEdMyS0QAnl4vQ+cULW6qZrAOrfxrlqUjJBfjoL+wK7fm6W89ikTX
+x49FBMJNVBMemrDggqvtsyyc2UV4/vVk/Ur/NwepkVZNbwzbzQyozFCfQswuCiaK
+p7cHURh4Hn/5L/u3/gUbDSwX4LIkFGgJRIHXKBLrZuqoIJA5+00FQvl2PGbnFkN4
+UmosQbub5gbLnkij0yGPvUfichDe1Fn/4eGtgZb8daBGfTzyLbJZECWPBOJvkIxt
+l59ra/n/G3p6x4+QdcFVUmZarwuiHJelrYhss7MRBx6X+H4oR9RSRi1vcGe3om0z
+z1rO3QnjQicnigMIl+MzrIas7yYeAEe+lKoXIg+uACCsBEJ3xTLcu+0+PM28jYMA
+devIExWp5GAqyeS1GIiv28ihBhKi2mDOFokKkuvS2+6EdJEEormTtULp+SNp8ijU
+tnc+kjyqdOF1lqrTik6MnyLF
+=qZcq
 -----END PGP SIGNATURE-----
 
---===============8536255386334905019==--
+--===============2760712965907013815==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b0d8acc71198-bcabc18865f3.txt
+
+16bd546200ec5c125d59a1b8898b4633241464c3 scsi: ufs: mcq: Fix memory allocation checks for SQE and CQE
+f8ae65129919a284d7c0ed643e946d3ca4fa01ff firewire: core: fix overlooked update of subsystem ABI version
+2ea8b2ce48de5dd620ff2d9e51a2dd9c50bac00b ALSA: usb-audio: Fix code alignment in mixer_quirks
+c11341fb8fc3a38f40e7ae47e2f0f27e802aed3a ALSA: usb-audio: Fix whitespace & blank line issues in mixer_quirks
+0afc2246dd448d0f08c0a58fd333665c4d289149 ALSA: usb-audio: Fix block comments in mixer_quirks
+d3934ea7fb976e970db58409a347b384a6c6ea38 ALSA: usb-audio: Drop unnecessary parentheses in mixer_quirks
+8af6015e380ca5fce0e864ab6fc81b629084fa8f ALSA: usb-audio: Avoid multiple assignments in mixer_quirks
+9f76d2c9e8c021e3b63341d0447c476ff224fd03 ALSA: usb-audio: Simplify NULL comparison in mixer_quirks
+042ce4cb97ae4e25a21ab83a759b34afb6cf07a7 ALSA: usb-audio: Remove unneeded wmb() in mixer_quirks
+0105cfc41abeb428d4405951a20e1e239bea5e1d ALSA: usb-audio: Add mixer quirk for Sony DualSense PS5
+6a6edca250126c701ee0795306bd73789736d89c HID: multitouch: Get the contact ID from HID_DG_TRANSDUCER_INDEX fields in case of Apple Touch Bar
+cf60067a13847621ba478d6a4aa7e4d1a18508f0 HID: multitouch: support getting the tip state from HID_DG_TOUCH fields in Apple Touch Bar
+3e4453b40562fc470c970f29fbe57dbe7de33881 HID: multitouch: take cls->maxcontacts into account for Apple Touch Bar even without a HID_DG_CONTACTMAX field
+bdb9cc8a8f940768a9a46ae6c88cf5d90893f0c3 HID: multitouch: specify that Apple Touch Bar is direct
+9a183aeb23ca46c4165d66f4f86d0bfbcd08ca14 ALSA: usb-audio: Convert comma to semicolon
+645c7aa98d1e99c16d7b6660a47d061deb93e5df ALSA: hda/realtek: Add support for ASUS NUC using CS35L41 HDA
+330e7cc51c275a69a211fec674e684eae111ff34 ALSA: usb-audio: Fix build with CONFIG_INPUT=n
+e9d96c5baa454e0108ba903722beef3fee7b824c usb: core: Add 0x prefix to quirks debug output
+a94d1a0de44d74adade6662425dee49005c42f6d net: fec: rename struct fec_devinfo fec_imx6x_info -> fec_imx6sx_info
+01c1287ef2a4421a79bcfb423d32eae0c4a071e7 net: sfp: add quirk for Potron SFP+ XGSPON ONU Stick
+8cae20f2a4719623e22dafb3c478ab41d2371b1c drm/panfrost: Drop duplicated Mediatek supplies arrays
+39fdf31a26526d93d1985f33943a1694f974aa3d drm/panfrost: Commonize Mediatek power domain array definitions
+44fd9560ea831f7ef858bfbc727e1a301260826a drm/panfrost: Add support for Mali on the MT8370 SoC
+dcae67ba20e398f16ed9a84d7ac9d4485b3ea0a7 mmc: sdhci-cadence: add Mobileye eyeQ support
+9b866ec1b3d8f795737167048f9db1eea2366a3b i2c: designware: Add quirk for Intel Xe
+71f64a3244ac9da5a455ab8c55250298a6821384 ASoC: Intel: soc-acpi: Add entry for sof_es8336 in PTL match table.
+eae9d5c299b78f948c621f7fbd4d54bbdf4a11f7 ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in PTL match table
+1e1873264e9de547218277c4495321d452628b10 ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for PTL.
+86cb0f559b71e4a677ec47947003f29fe5794f79 platform/x86: oxpec: Add support for OneXPlayer X1 Mini Pro (Strix Point)
+001470af9436a1d4ca652ca5f0c1578236c16ed4 ALSA: usb-audio: Add DSD support for Comtrue USB Audio device
+f637c0678f8e81e4c15460d2906670329d92f4d9 gpiolib: acpi: Add quirk for ASUS ProArt PX13
+f20938fb3ba2e126d904d42753f7903467dc3fdd ALSA: usb-audio: move mixer_quirks' min_mute into common quirk
+4ceb739a3260ab03f723f8f839142767bcfc77e3 ALSA: usb-audio: Add mute TLV for playback volumes on more devices
+dbeeeae988cce0480d3c56989ff725a6e110c418 net: sfp: add quirk for FLYPRO copper SFP+ module
+f1958eb140458cbc6d266637ffd82023ab8ffeba IB/mlx5: Fix obj_type mismatch for SRQ event subscriptions
+0fd5a4eeb726cb82dfe2ebc9b4a40c2b0525c27f HID: cp2112: fix setter callbacks return value
+1f58c03bc7580ed9ee371c7c1b51262fbfb17c73 HID: amd_sfh: Add sync across amd sfh work functions
+e3aba0b7f24c4f2482f23dc416991b881d58cb72 arm64: dts: rockchip: Fix the headphone detection on the orangepi 5
+39cc5381c80c0b00ef413a72255b2da55da0d600 firmware: imx: Add stub functions for SCMI MISC API
+5f9587bbb3bb7b14e639db6d579c960a40f45390 firmware: imx: Add stub functions for SCMI LMM API
+8707ccbf686f7d45ed488a808eb5633ef50bb14e firmware: imx: Add stub functions for SCMI CPU API
+c49b3ffc64cae66b2b9225cc0d6feeb52f20df16 arm64: dts: imx8mp: Correct thermal sensor index
+d342ba13c2a91c3458df88b1ddf212ce2fd5df0f ARM: dts: kirkwood: Fix sound DAI cells for OpenRD clients
+302c25ec64051774b2f59e2abc83c7f498dbb7ce cpufreq: Initialize cpufreq-based invariance before subsys
+27ce0a17ee9893f5be715eebd7d2a669cbd8728d smb: server: don't use delayed_work for post_recv_credits_work
+e6014ad4d009e6aef1e475a914f13cd424435d7d smb: server: use disable_work_sync in transport_rdma.c
+6233715b4b714068d6c831d214a4e8792109875a bpf: Check the helper function is valid in get_helper_proto
+e64b692a2d55f7980437983d397a657966134db4 selftests/fs/mount-notify: Fix compilation failure.
+f51f9695207bc6f55e9c1ccaf04d8a0b24b0d9b1 btrfs: don't allow adding block device of less than 1 MB
+204099ce6574b84df08dd7da2daaa57bafc494c8 NFS: Protect against 'eof page pollution'
+aae986c5805c722292f75760ac7d0ca1c2586ee7 NFSv4.2: Protect copy offload and clone against 'eof page pollution'
+a01d1325e0fbd64db82b695d36866204f99f56d0 drm/amdkfd: fix p2p links bug in topology
+0bcc5ea4bb30d29ea741c2a4abc963f2752f797b amd/amdkfd: correct mem limit calculation for small APUs
+528151da32c174ef68a984975f7101bd8175c094 wifi: virt_wifi: Fix page fault on connect
+f577bec9836d1dfb57a9efcec0ac9c3b57a2eb9d can: rcar_can: rcar_can_resume(): fix s2ram with PSCI
+b6b7db65302364c3a7641e67d932406efd18b7f4 bpf: Reject bpf_timer for PREEMPT_RT
+966877e96d022dbb9094a46b1e3dbc9593f0682c selftests/bpf: Skip timer cases when bpf_timer is not supported
+a78e55776522373c446f18d5002a8de4b09e6bf7 xfrm: xfrm_alloc_spi shouldn't use 0 as SPI
+cc4cb275764da57f511e8d7b1f87457a1e219166 xfrm: fix offloading of cross-family tunnels
+e587af2c89ecc6382c518febea52fa9ba81e47c0 can: etas_es58x: populate ndo_change_mtu() to prevent buffer overflow
+e77fdf9e33a83a08f04ab0cb68c19ddb365a622f can: hi311x: populate ndo_change_mtu() to prevent buffer overflow
+7f7b21026a6febdb749f6f6f950427245aa86cce can: sun4i_can: populate ndo_change_mtu() to prevent buffer overflow
+b638c3fb0f163e69785ceddb3b434a9437878bec can: mcba_usb: populate ndo_change_mtu() to prevent buffer overflow
+394c58017e5f41043584c345106cae16a4613710 can: peak_usb: fix shift-out-of-bounds issue
+1697577e1669b0321d02cd848384a5d33e284296 net: tun: Update napi->skb after XDP process
+d5411685dc2f6ac7bdf01a0a204d56cae38c6cf6 net/smc: fix warning in smc_rx_splice() when calling get_page()
+c283e4a0e078a26ba77af5c64cb8196e8ef5260d ethernet: rvu-af: Remove slash from the driver name
+1609ab5393d332c54bd62328c5791ab398d7aa94 Bluetooth: hci_sync: Fix hci_resume_advertising_sync
+dde33124f17cf3bab4dc5e18d1b4dee128361061 Bluetooth: hci_event: Fix UAF in hci_conn_tx_dequeue
+a78fd4fc5694ecb3b97deb2ad9eaebd67b4d2b08 Bluetooth: hci_event: Fix UAF in hci_acl_create_conn_sync
+7ce635b3d3aba43296b62b5a2d97c008bc51cbd2 vhost: Take a reference on the task in struct vhost_task.
+87a1f16f07c6c43771754075e08f45b41d237421 Bluetooth: MGMT: Fix possible UAFs
+1bfb2d9456c18e53c49344d76ffec6b03ac17dc6 broadcom: fix support for PTP_PEROUT_DUTY_CYCLE
+4d109d6c56c60bbcb9c07895921f9eb26a628ea5 broadcom: fix support for PTP_EXTTS_REQUEST2 ioctl
+3e4a313b11fca26bc3489325033214ac74b39c6d bnxt_en: correct offset handling for IPv6 destination address
+61341d935833f93cb74c23fe6f58375bcc5998b7 net: allow alloc_skb_with_frags() to use MAX_SKB_FRAGS
+8dd4aa0122885f710930de135af2adc4ccc3238f nexthop: Forbid FDB status change while nexthop is in a group
+1c5a55ce47578a4afd07b8a92994f1c0178f87d3 selftests: fib_nexthops: Fix creation of non-FDB nexthops
+3c77f6d244188c3fb11f6aec40bbfe884f1803b5 net/mlx5: fs, fix UAF in flow counter release
+7f1b5d056f053ebcc8793b6ffaecaea1e51bc262 net/mlx5: HWS, remove unused create_dest_array parameter
+5aa468e563ce743b5e0df98d692cb2cdede8b366 net/mlx5: HWS, ignore flow level for multi-dest table
+8523fee4caad82d3c4b00e216d73b44013a17fc6 net/mlx5e: Fix missing FEC RS stats for RS_544_514_INTERLEAVED_QUAD
+075c92577f529848a6334367740e4966d1da6a63 net: dsa: lantiq_gswip: move gswip_add_single_port_br() call to port_setup()
+449aae54fa5105942c17330b460b27e503445af5 net: dsa: lantiq_gswip: suppress -EINVAL errors for bridge FDB entries added to the CPU port
+a8a63f27c3a8a3714210d32b12fd0f16d0337414 octeontx2-pf: Fix potential use after free in otx2_tc_add_flow()
+0fc650fa475b50c1da8236c5e900b9460c7027bc drm/gma500: Fix null dereference in hdmi teardown
+d824b2dbdcfe3c390278dd9652ea526168ef6850 futex: Prevent use-after-free during requeue-PI
+6021d412108f704beee4b43b982dd9ef612d506c gpio: regmap: fix memory leak of gpio_regmap structure
+bacbadedbba737da8ae6e0464bc0971c30cda4cb drm/xe/vf: Don't expose sysfs attributes not applicable for VFs
+94c5669b1b1727e7c358d5e7ddf56b6f14e61eaa drm/xe: Fix build with CONFIG_MODULES=n
+9682dc123f8f1a3f497a9488773c2563cd0a2b74 drm/i915/ddi: Guard reg_val against a INVALID_TRANSCODER
+c6adf475f375ca1c0fd6c930a2002bf4873ef436 drm/amd/display: remove output_tf_change flag
+f1635765cd0fdbf27b04d9a50be91a01b5adda13 futex: Use correct exit on failure from futex_hash_allocate_default()
+2858cae6896ea03625b67b354ab35bc3026c8946 drm/panthor: Defer scheduler entitiy destruction to queue release
+923638cea4c17bd85a26cf9017afabd3d988c828 platform/x86: lg-laptop: Fix WMAB call in fan_mode_store()
+093615fc76063ea08d454ba86677ce64c736e806 smb: client: fix wrong index reference in smb2_compound_op()
+e35eeb3a8eaf8f264638a7cc5a8dfff4f70efad0 Revert "drm/xe/guc: Set RCS/CCS yield policy"
+908478fe5884835c1d54db9f9b55e7506fd2e1b1 Revert "drm/xe/guc: Enable extended CAT error reporting"
+930cb05a9e107777316b3ccf37f9556366669065 tracing/osnoise: Fix slab-out-of-bounds in _parse_integer_limit()
+f76347f4ec435a805c5904e01880e2b539a84ba4 HID: intel-thc-hid: intel-quickspi: Add WCL Device IDs
+1cf7258a9cf3355f515a0bfa2494cd7398d49e8c HID: asus: add support for missing PX series fn keys
+afec12adab55d10708179a64d95d650741e60fe0 i40e: add validation for ring_len param
+d4e3eaaa3cb3af77836d806c89cd6ebf533a7320 i40e: fix idx validation in i40e_validate_queue_map
+5c1f96123113e0bdc6d8dc2b0830184c93da9f65 i40e: fix idx validation in config queues msg
+560e1683410585fbd5df847f43433c4296f0d222 i40e: fix input validation logic for action_meta
+a991dc56d3e9a2c3db87d0c3f03c24f6595400f1 i40e: fix validation of VF state in get resources
+8b13df5aa877b9e4541e301a58a84c42d84d2d9a i40e: add max boundary check for VF filters
+168107437eac5a559b508f34e4bc5f2ee356c8df i40e: add mask to apply valid bits for itr_idx
+6200d2e7ea6a6544673abea7e905153739d095b9 i40e: improve VF MAC filters accounting
+fbe96bd25423e61273d8831e995260b429d850b6 crypto: af_alg - Fix incorrect boolean values in af_alg_ctx
+b47c4e06687a5a7b6c6ef4bd303fcfe4430b26bb tracing: dynevent: Add a missing lockdown check on dynevent
+cbb8c94f92d0c36fba9d7d5aed9705fc19f0f5e8 tracing: fgraph: Protect return handler from recursion loop
+e57d19757aeb2c09a00f6a34d07b99ef94696859 tracing: fprobe: Fix to remove recorded module addresses from filter
+d00bcd2d5414e4c5520f497736e2029ab2cd6872 ARM: dts: socfpga: sodia: Fix mdio bus probe and PHY address
+a22ccb766ced5ea7ec6cc3a5a6a7d813edb5cdb1 arm64: dts: marvell: cn913x-solidrun: fix sata ports status
+eca259860a084513ccc006d739ae76a744ab3098 arm64: dts: marvell: cn9132-clearfog: disable eMMC high-speed modes
+408d90e817211f525d307cee6bc3cc2a93245830 arm64: dts: marvell: cn9132-clearfog: fix multi-lane pci x2 and x4 ports
+5168f19d4d8193994b74844d25b687a5bae0ff22 drm/xe: Don't copy pinned kernel bos twice on suspend
+40903aa97e193dd809f7eaab68ead204da2ebddd drm/ast: Use msleep instead of mdelay for edid read
+3bf00f58a8075fe881890cb21b753105f231713d drm/amd/display: Only restore backlight after amdgpu_dm_init or dm_resume
+cda80b7937bb5695e0b019783e41f0f3530d0552 pinctrl: airoha: fix wrong PHY LED mux value for LED1 GPIO46
+238f33bb3f6fac8ed79c610593b73d4602ddf9fd pinctrl: airoha: fix wrong MDIO function bitmaks
+7de587f87f37e59e42bf7aec587cf5d82c64806f Revert "vhost/net: Defer TX queue re-enable until after sendmsg"
+a63e7dcf6a5524569dfb1c666e8fc1b1bb79daa7 vhost-net: flush batched before enabling notifications
+41782c44bb8431c43043129ae42f2ba614938479 afs: Fix potential null pointer dereference in afs_put_server
+a2cb8818a3d915cd33a1e8b2babc1bb0c34862c3 fs/proc/task_mmu: check p->vec_buf for NULL
+61ae3a52075dcdb46aa6fd9fccf5a4f3ececbd77 gpiolib: Extend software-node support to support secondary software-nodes
+5855792c6bb9a825607845db3feaddaff0414ec3 kmsan: fix out-of-bounds access to shadow memory
+8df142e93098b4531fadb5dfcf93087649f570b3 netfs: fix reference leak
+b64d23d1b932108b2c52d5f3dc2b03841db6741d riscv: Use an atomic xchg in pudp_huge_get_and_clear()
+309b8857c50d03d9dca6b4234dac4d7251a0614e x86/topology: Implement topology_is_core_online() to address SMT regression
+7c78ae54e342d06e6d62120bb3d59942ea2cb2e6 x86/Kconfig: Reenable PTDUMP on i386
+21ee79ce938127f88fe07e409c1817f477dbe7ea mm/hugetlb: fix folio is still mapped when deleted
+2aa2cea8f77163653554cf3068cd3d66606e2543 mm/damon/sysfs: do not ignore callback's return value in damon_sysfs_damon_call()
+c0c01f9aa08c8e10e10e8c9ebb5be01a4eff6eb7 fbcon: fix integer overflow in fbcon_do_set_font
+fc19489dfaf424397ba8d03b47e8786eaed7b3fc fbcon: Fix OOB access in font allocation
+b9ebc20920be34e5be4f27e7c928c3e80d2d5dc8 wifi: iwlwifi: fix byte count table for old devices
+2243b9b728b3c33cc536a3f76717dd475c2d33e3 wifi: iwlwifi: pcie: fix byte count table for some devices
+1f2bffc8dd18b65569ae55e37f1b50acd18112b0 sched_ext: idle: Make local functions static in ext_idle.c
+4109506b7eba2bc304027b1d5fadced0217a09e1 sched_ext: idle: Handle migration-disabled tasks in BPF code
+b7ec8a2b094a33d0464958c2cbf75b8f229098b0 spi: cadence-quadspi: Implement refcount to handle unbind during busy
+e7e5315212819143c88bb7b138079175af09f23f spi: cadence-qspi: defer runtime support on socfpga if reset bit is enabled
+e4825368285e33d6360c6c6a6a10d2d83da06e55 iommufd: Fix race during abort for file descriptors
+bcabc18865f367a23e016bf6113420c82aea276d Linux 6.16.10
+
+--===============2760712965907013815==--
