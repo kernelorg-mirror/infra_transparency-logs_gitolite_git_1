@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4849388975897348903=="
+Content-Type: multipart/mixed; boundary="===============8235652848778438008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 03 Oct 2025 19:38:47 -0000
-Message-Id: <175952032701.2378089.3838778814117359726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 03 Oct 2025 19:39:20 -0000
+Message-Id: <175952036074.2379234.12976574638738514726@gitolite.kernel.org>
 
---===============4849388975897348903==
+--===============8235652848778438008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: cfbd7536edf5ec1350e642dfd2196fcd07ff5d69
     log: revlist-2836ed1748cc-cfbd7536edf5.txt
 
---===============4849388975897348903==
+--===============8235652848778438008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ Content-Disposition: attachment; filename=revlist-2836ed1748cc-cfbd7536edf5.txt
 40fd9678a0f7f345ff20932f828a166e0f9fc5e6 perf record: Add ratio-to-prev term
 cfbd7536edf5ec1350e642dfd2196fcd07ff5d69 perf record: Add auto counter reload parse and regression tests
 
---===============4849388975897348903==--
+--===============8235652848778438008==--
