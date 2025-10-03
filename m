@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2963234856824815598=="
+Content-Type: multipart/mixed; boundary="===============6517054717240261201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 03 Oct 2025 14:33:29 -0000
-Message-Id: <175950200955.2114763.7552686133405552234@gitolite.kernel.org>
+Date: Fri, 03 Oct 2025 14:34:17 -0000
+Message-Id: <175950205795.2115904.1686127166116250062@gitolite.kernel.org>
 
---===============2963234856824815598==
+--===============6517054717240261201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
-  - ref: refs/heads/for-6.18-fixes
-    old: 9800921d444ddc66efea89e8867e0dd2e6cf7cea
+  - ref: refs/heads/for-next
+    old: ee105e835faf4542acb91ec612ba9a123050ff01
     new: 93a4b36ef3cf4ce5e6a7e7a7686181de76e246a1
-    log: revlist-9800921d444d-93a4b36ef3cf.txt
+    log: revlist-ee105e835faf-93a4b36ef3cf.txt
 
---===============2963234856824815598==
+--===============6517054717240261201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9800921d444d-93a4b36ef3cf.txt
+Content-Disposition: attachment; filename=revlist-ee105e835faf-93a4b36ef3cf.txt
 
 411d9d33c8a2cf04a611cad948b24ed3f746230b net/mlx5e: Implement PSP key_rotate operation
 64d2616972b77506731fa0122d3c48cb04dbe21b Merge branch 'add-basic-psp-encryption-for-tcp-connections'
@@ -1051,4 +1051,4 @@ f79e772258df311c2cb21594ca0996318e720d28 Merge tag 'media/v6.18-1' of git://git.
 e406d57be7bd2a4e73ea512c1ae36a40a44e499e Merge tag 'mm-nonmm-stable-2025-10-02-15-29' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 93a4b36ef3cf4ce5e6a7e7a7686181de76e246a1 cgroup: Fix seqcount lockdep assertion in cgroup freezer
 
---===============2963234856824815598==--
+--===============6517054717240261201==--
