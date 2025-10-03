@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8232145828560561418=="
+Content-Type: multipart/mixed; boundary="===============6237867169116776630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Oct 2025 13:26:03 -0000
-Message-Id: <175949796377.2059488.12251977641470174872@gitolite.kernel.org>
+Date: Fri, 03 Oct 2025 13:26:04 -0000
+Message-Id: <175949796473.2059600.1563113333449051721@gitolite.kernel.org>
 
---===============8232145828560561418==
+--===============6237867169116776630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,48 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: d799fce6f291200d0347cea8965d1e140c0cffe5
-    new: 7883371add1ef0059547f4241300e818ccb16d67
+  - ref: refs/heads/linux-6.6.y
+    old: b1b5b89832f14bbcd8f4111e998dec579d12d938
+    new: dd4983092e69a6eeac994cffa105ce799d7c9f6a
     log: |
-         d9ca496cee7d9a18738c3d356a410f26a8c412e4 iommu/amd: Add map/unmap_pages() iommu_domain_ops callback support
-         1cb3ff8aa0ccaf7fce39a5265e53188639a9ad6a scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-         3f0d83f83310d45b663b948303d9a2abfdedce6b media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-         78770dd8250a893f27fa806c902af5c1a038ee6d media: rc: fix races with imon_disconnect()
-         3e480601e08afaa77d7fb1681f9b31569d15028c media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-         7883371add1ef0059547f4241300e818ccb16d67 Linux 5.15.195-rc1
+         dc2febfe979b6175c69e4e5b8dfaa5a7edc7c004 crypto: sha256 - fix crash at kexec
+         78ffe767e2b2fe8d192c4f38dad993ed8f2eeb6d gcc-plugins: Remove TODO_verify_il for GCC >= 16
+         07c0c7764d32e064cf4218996bebcefd7d113443 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+         645d21d4dd2709fff6b7d0b632afb8d36e74c909 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+         c8a088385dbc3933b9d453247a6ce9dc1e787b96 media: rc: fix races with imon_disconnect()
+         2574fdd774a23e2e9ee1e444f1a43d73555bb305 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+         8187f59931ca5259306ac9e0b56840eb9bb54420 ASoC: qcom: audioreach: fix potential null pointer dereference
+         dd4983092e69a6eeac994cffa105ce799d7c9f6a Linux 6.6.110-rc1
          
 
---===============8232145828560561418==
+--===============6237867169116776630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759498021 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759498022 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1759497962-bc96300e19330165a0665ec72153c56ef2979308
+nonce 1759497963-c1f23a57d0c3882b65d699b0884fad4d32558f63
 
-d799fce6f291200d0347cea8965d1e140c0cffe5 7883371add1ef0059547f4241300e818ccb16d67 refs/heads/linux-5.15.y
+b1b5b89832f14bbcd8f4111e998dec579d12d938 dd4983092e69a6eeac994cffa105ce799d7c9f6a refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjfzyUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hf0P/3a4++cIYWJrpAuJNIO9
-AEfy9wSjQ9BI/x4PSdL3rHqfX6e9c8gx8JRjtmEo/eOvf89o8VnD8vEaQRfeXtQZ
-i/46iSq4rQFkpuNZsd4E/GckjOwgOr/JNjR9lrjIV40VvooWA7mrq7mgSZBQYwks
-QI6ZRTZp+qD9vrBwNcLud3hNx5t7Ivpv5MNtXRLg8sXOIquJBI29NB6/7MEgQSQO
-NPn3ox0gu3GfqweUZSxSQx5n+7nItQNt9h/Y8o+P3/nNYhEpwtZeY19Nz3H6I4T9
-LDon/lyh/LArm5PdAGrwvxROf2HGAfj7p0xmFhzU6UIbTUqfZ85oZ9w3zwLFEuF6
-TB5V68dc8uPXG5YgwNdqXz20nIlcBTUukG0fMc77ivEK1nlgZ+iLeMbpXX95VIHD
-TgICAeedyq9xSA3R7ns7I3qjRpsu9rPD6P51VFCdZXENKMS0/LnJVBzIOoyRE4WH
-ju02Qegm2qRjcfaoHstgDxwOwquRNAfgD9/jPI1BFqBEuRQtmLaxWV3duQ6jOy3z
-WD92SFDuZScBZ+lGIbHv4wTsgAM7nVLzKX+5cBFc6b8ZC+Ix1/8EVXnYAk9C+XxK
-gTl0THQdrJW+8Qg33PTdZqfbo7IkpOtpD9o30yXAS0yvU0DzNhz/DV/AqN6ERji3
-+qyj5HPE5QySjxnJp3+Q6G//
-=4v0f
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjfzyYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gSgQAMPgJ+y48UL5W+Rt5Ye8
+4ci7I078yutzzL/1b0kKURG+ZHUIx8EQXBQq0ttQf+emjffL3DyB7bhE+E6gsHMo
++xvCTaTseGsJcTESKLKW9ThDmL/KP3CRNzwk6FHSZgCNyV36H20RkcfoMSd9PSmq
+PUO/k25/SaYsaA5xL3zf3mQUbwD7x1MQL7Jktxm2ZRj7wOpyPf8D9bsqte45PR7u
+WQPpNu51t/O1kKHM5PDXNi+qpFtvg8BH3opZoWnLe9fTxL02YzhoatkOdEN831P1
+b/SG1cIHgo/8dPUio5ofoke6pJQZUM7vTLQpzoKq+HLf+8nUG6q52Q+PpsRcrBNa
+wo9sGj2L7FTULdTMqOQre3+CDUObfYpp33yEsjy1SUrrbNLnBySQhmMYF+gN7N5n
+4Y4zRMx9f2g+xtWNmyq3X+5RkjnsUMzbRKtJtHmDoK+W3Yevy8PmcD1Y3GVLOjYX
+JiPi7QW9XWGFgVPMRJX9onS+XL8jcuxTADhhd0cV4mNsg1LtXzyu+2QbktJrW8Lz
+5FAR3O+aSlvm3um7gfUSzYqbWALZkP9E2wlqKrWBW6I1HvhKBh1nhjGKSNzp/me1
+s/I9FTiuD8xfXu7quwTxgEft8QGXSqQ+8lrwAlEd4lyxCPYyW5f2o3Ev5AhtpSfr
+iZN3AUVX/P/NvU4iFGRKqAmO
+=wM4h
 -----END PGP SIGNATURE-----
 
---===============8232145828560561418==--
+--===============6237867169116776630==--
