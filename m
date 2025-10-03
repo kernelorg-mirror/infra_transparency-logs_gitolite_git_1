@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3292061351218216114=="
+Content-Type: multipart/mixed; boundary="===============6411086017657332342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Fri, 03 Oct 2025 16:06:04 -0000
-Message-Id: <175950756492.2199477.15191157664987020435@gitolite.kernel.org>
+Date: Fri, 03 Oct 2025 16:08:31 -0000
+Message-Id: <175950771107.2200888.3474554114083603898@gitolite.kernel.org>
 
---===============3292061351218216114==
+--===============6411086017657332342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
 user: agruen
 changes:
-  - ref: refs/heads/for-next
-    old: 28c4d9bc0708956c1a736a9e49fee71b65deee81
-    new: dc82d89ed92b7040a95f77dbe567d39b6e472f3b
-    log: revlist-28c4d9bc0708-dc82d89ed92b.txt
+  - ref: refs/heads/withdraw
+    old: 0eb64a0d6051a62ee5e7ab1127a9dcd90c8c0b1f
+    new: 9250bdc83a17c856f172626bc80ee3b5a6697202
+    log: revlist-0eb64a0d6051-9250bdc83a17.txt
 
---===============3292061351218216114==
+--===============6411086017657332342==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-28c4d9bc0708-dc82d89ed92b.txt
+Content-Disposition: attachment; filename=revlist-0eb64a0d6051-9250bdc83a17.txt
 
-5b3706597b90a7b6c9ae148edd07a43531dcd49e ACPI: RISC-V: Fix FFH_CPPC_CSR error handling
-1f6b281ac501ceaa121a9bece11260aecca70865 Merge tag 'nvme-6.17-2025-09-04' of git://git.infradead.org/nvme into block-6.17
-744175e972ac7c1f1be53556e186e5976e39f735 perf test: Checking BPF metadata collection fails on version string
-ca81e74dc34734078d34485d4aa123561ba75b15 perf symbol-elf: Add support for the block argument for libbfd
-349510052f765b6eb9c2a21d0ffe08ba61fa683c MAINTAINERS: Add drm-rust tree for Rust DRM drivers and infrastructure
-34b8f4adedd54c19b0008914d2bb6311e1fb0d3b KVM: arm64: Mark freed S2 MMUs as invalid
-33ddc796ecbd50cd6211aa9e9eddbf4567038b49 xfs: Replace strncpy with memcpy
-743bf030947169c413a711f60cebe73f837e649f Merge tag 'md-6.17-20250905' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.17
-923b70581cb6acede90f8aaf4afe5d1c58c67b71 iommu/amd: Fix ivrs_base memleak in early_amd_iommu_init()
-b3506e9bcc777ed6af2ab631c86a9990ed97b474 iommu/s390: Fix memory corruption when using identity domain
-dce043c07ca1ac19cfbe2844a6dc71e35c322353 iommu/vt-d: Fix __domain_mapping()'s usage of switch_to_super_page()
-9ffaf5229055fcfbb3b3d6f1c7e58d63715c3f73 iommu/s390: Make attach succeed when the device was surprise removed
-0c43094f8cc9d3d99d835c0ac9c4fe1ccc62babd eventpoll: Replace rwlock with spinlock
-e493b83b10af01631948d921f02d4ca8577b5051 Merge patch "eventpoll: Fix priority inversion problem"
-c593b9d6c446510684da400833f9d632651942f0 filelock: add FL_RECLAIM to show_fl_flags() macro
-e1bf212d0604d2cbb5514e47ccec252b656071fb fuse: virtio_fs: fix page fault for DAX page address
-4e47e46718c466d90f7a452579f9ed1a7c250553 Merge tag 'pcmcia-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/brodo/linux
-01c93aa01c75e7a43f7f53229bcbecffac75eb84 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-4550d33e18112a11a740424c4eec063cd58e918c mtd: spinand: winbond: Fix oob_layout for W25N01JW
-cd32a0c0dcdf634f2e0e71f41c272e19dece6264 xfs: use deferred intent items for reaping crosslinked blocks
-82e374405e85af2ce3149c74766168df14864697 xfs: prepare reaping code for dynamic limits
-ef930cc371f033d9ce21292ca577741dfeb8c7f3 xfs: convert the ifork reap code to use xreap_state
 b2311ec6778fcde9d40cd9e22899f8bd594d8465 xfs: compute per-AG extent reap limits dynamically
 442bc127d460a807858ef9258e77518b9597eed1 xfs: compute data device CoW staging extent reap limits dynamically
 74fc66ee17fcd994a49ed80ddba90bc3b7046684 xfs: compute realtime device CoW staging extent reap limits dynamically
@@ -1050,5 +1028,27 @@ b3e1c7855e8e1c4d77685ce4a8cd9cdd576058eb Merge tag 'hfs-v6.18-tag1' of git://git
 a769648f464c9f453b3dc5c2bb8559b28c5d78a1 Merge tag 'dlm-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 eabfd528710d42f891c8ccadcb5d7db1ade1de8e gfs2/sysfs: Replace sprintf/snprintf with sysfs_emit
 dc82d89ed92b7040a95f77dbe567d39b6e472f3b Documentation: gfs2: Consolidate GFS2 docs into its own subdirectory
+4da0a3541ad7a41f603d1a3a92423d44476b4401 gfs2: Add clean argument to lm_unmount hook
+bbe4d3889c7060a47acb62bb7e81903b7ff6b127 gfs2: Asynchronous withdraw
+ae75b62c6c5c907a26419ba4d0ba60e7d6700463 gfs2: Get rid of delayed withdraws
+760751be2162c6114691f2b42cac5831cf89ddac gfs2: Rename gfs2_{withdrawing_or_ => }withdrawn
+31dca7b57037127a93fba8d6d64ada722888df11 gfs2: Withdraw immediately on log write errors
+f413ae64a76c03b4e630bbe6bd9d47f15bf0bf94 gfs2: Kill gfs2_io_error_bh_wd
+5411b4494f1c2a09cc208d6a2156429f80406eff gfs2: Rename LM_FLAG_{NOEXP -> RECOVER}
+656d4720af8f13cc712c87b4c4010e72fcf28185 Revert "gfs2: don't stop reads while withdraw in progress"
+8f7d643fe59c0d60953f0b64ec4bde63886bace4 Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (1/6)
+983cc8ded68a5e5526e6230c7f2cfd99df54bd1d Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (2/6)
+37626739585abd7a2e1263e1ffc88dd8c200cc9e Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (3/6)
+6e61746f57699962f758a735d7f3d837e77a21ef Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (4/6)
+454aec47cf23a613ce863f74d6beb6af77ab7841 Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (5/6)
+7c14c6b55a6a219e43e622e06f5102af2104f0e5 Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (6/6)
+2b7b7da3dd83e12c7b4747067d265d9c26ce0a17 Revert "gfs2: fix a deadlock on withdraw-during-mount"
+dcfb16e53a4df35e41a1a2b9b1ba9f1eb33a8908 Revert "gfs2: Check for log write errors before telling dlm to unlock"
+c24d111e85559ccc3401c523addcf4accade286f Revert "gfs2: Allow some glocks to be used during withdraw"
+6a74c3128571b389cc81347c3fbce99a726a75d4 Revert "gfs2: fix infinite loop when checking ail item count before go_inval"
+a8e66fdeb86d24afb5b1d752aa4544270b33b879 gfs2: Rename gfs2_{gl_dq_holders => withdraw_glocks}
+c7e750613b2188cee1205a94d1bcf81463b8e8b2 gfs2: Clean up properly during a withdraw
+bc1031aab82691e6d359185167431ddc6a80fe96 gfs2: New gfs2_withdraw_helper
+9250bdc83a17c856f172626bc80ee3b5a6697202 gfs2: Withdraw immediately in gfs2_trans_add_meta
 
---===============3292061351218216114==--
+--===============6411086017657332342==--
