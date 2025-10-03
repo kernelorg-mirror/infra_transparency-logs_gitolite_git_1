@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1988124329406006449=="
+Content-Type: multipart/mixed; boundary="===============6839601763133065634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 03 Oct 2025 13:25:37 -0000
-Message-Id: <175949793715.2058683.5593880961680128862@gitolite.kernel.org>
+Message-Id: <175949793725.2058702.8049425946663361399@gitolite.kernel.org>
 
---===============1988124329406006449==
+--===============6839601763133065634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,19 +16,17 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 29e53a5b1c4f144301ee36a907e8b03d7733f0b0
-    new: d799fce6f291200d0347cea8965d1e140c0cffe5
+  - ref: refs/heads/linux-5.10.y
+    old: d3d0b4e274d20103634bc7100cfb6d05ea3ec4d2
+    new: 05d451c3a064080280220e7d118b3957e2895cf7
     log: |
-         e806c53f0687b368aa3ca439e2186d0c2230d439 iommu/amd: Add map/unmap_pages() iommu_domain_ops callback support
-         5026cdc0a81c468d2c44502e6d6beccd3fbe7814 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-         23d9b2253a802c6cf8b2a2493d18f8a04e78c1e6 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-         6385db42d10bf039e631305827af8d04626cc84f media: rc: fix races with imon_disconnect()
-         3436d468e160aef7e61c114af0c8f8d5b6a98922 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-         d799fce6f291200d0347cea8965d1e140c0cffe5 Linux 5.15.195-rc1
+         dfcdad1850610dd366702c7a31cf570b3df3dca9 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+         4494d8214d8abd512c0ae249bf3b315889a3414b media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+         b54461c358f65cb64cd4e927d6c5d93962ab3507 media: rc: fix races with imon_disconnect()
+         05d451c3a064080280220e7d118b3957e2895cf7 Linux 5.10.246-rc1
          
 
---===============1988124329406006449==
+--===============6839601763133065634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,23 +37,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759497994 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1759497934-09bf6532b2e4c3e3120247084c65e420bd19e939
 
-29e53a5b1c4f144301ee36a907e8b03d7733f0b0 d799fce6f291200d0347cea8965d1e140c0cffe5 refs/heads/linux-5.15.y
+d3d0b4e274d20103634bc7100cfb6d05ea3ec4d2 05d451c3a064080280220e7d118b3957e2895cf7 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjfzwsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lWAP/iI2UJd3IGEGSNEqBcsN
-opVD8wh3MyG1ZvkzK1r+ArE17Ng4+5QQqeJxGHKTu5zugzGZb6mETTuiP7qM8hCa
-IDrFrOZUMREW/499Uv7Rj1GkufOd3mXJFOBFSKnWwHLKNyU5uHJrNYEMzF4URVl8
-Yx4eaPA8FPPjnljhfh9FgVUbxV/VH5PKorF5hTxpJXDvZM9nHLXzT+rKb14mTj08
-4YmikG8M6Xt6wVNPBQqasJLPmy4x2T18uCtxqXQiiFKfS8cmbreXhd5jEv8frP7D
-xZDiQDOFJewe6QIUQLghymKN1i8UeMqus1yAXuduy2Lm8wslMunza8z0JdtRj9SI
-poi+TYqUIo8De9p4l4XtASwn8crUxdOJ1XQhxRZfvAGPU9HXHW9G0LcyN5f2nzx4
-Nj3vhJbsy4/Nj2D9kVzoFowmiV6KGncJ3nRnSFfVVeNbxo3mGK13+kn2mlxBb79r
-WVWmoPj8CbLAzrB/fS5dGC2+GLJ0XacXuH4u8ZtwAfNG5BEpQOh2nV3Io0hIw3s8
-lzvNsXqmbOFwqs8tblk9x6xAKtoi2UuUTtVc9zLYTVlLstAYNsuUDIlmBh456oBC
-beyXn3V2BYmXi8t/tC1VMIKZS10HKtEmhC5m3rOjNMXvt3LM0Sl71dKNOANvoGel
-dkv5+PhdC/m0HA4coMv3U2DL
-=NJ3u
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WUgQAJ6gg4r4LTbi5cCCOyPS
+kUEUHwUF9PiwfEpvDLt+qvvGQ0fqU9ckqRbrRyJ1FfY83CcUW2Klh07apTkoSyrQ
+2FtGmy4blVgduEYp3v1tHi3ZJQ+lAFiXV36L4pzXIZ7j0PedYmT+yH8TkRsWlKts
+MHEngKwlp4VnXjrvAtFuFWgcBihO4aQmu0lSjz7ICloPZqr8otDVhzP7sTyqnR6w
+9afngs7/+a7Nf5oC0SHyBsoyKjcW4VVDTqnqNgd1jtKL6B1Uwf2akmKBtOei9TOb
+Bi3SJBke9Fdm8VEnBm1ZaqCr17UzUqyevsL6pTUZeOkLvAAcZkpaWlg/vOK6Av78
+7akNrU3NEo4X5UebEHAJMvxdne3vhiADYP1IBNYLbGDM/RM2K+5U38enhzMThmMu
+bz3Xm4EjAJ1OUZyGk9exsvmPG0NrBDIw0NrmDRL/o1dQzSN4+FSVX6q7WMehUjp/
+690ShW891CeeQvoV3a6PnDbvrCxP0QNdahrEeAManIkAo7xPwIqgliBDgegKiOzJ
+xUGIrm2wtZguPpU5Loxlp+GCGpb05LKH2YNTWaRMlTI9KzSCVxbaSzoGWncKGjue
+18bDOt/QRoMMj5qHbckkVmnFBbWde0XA9bRZ2VRJO7LZyDlhsrM4/lU0dUzGss5J
+8nP/aK44bqqwQK06SbB4C2kT
+=vE1C
 -----END PGP SIGNATURE-----
 
---===============1988124329406006449==--
+--===============6839601763133065634==--
