@@ -1,41 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8235652848778438008=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 03 Oct 2025 19:39:20 -0000
-Message-Id: <175952036074.2379234.12976574638738514726@gitolite.kernel.org>
-
---===============8235652848778438008==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 03 Oct 2025 20:25:38 -0000
+Message-Id: <175952313895.2418070.17544230441603023320@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 2836ed1748ccc567fddd51d4544a35f1e0f43136
-    new: cfbd7536edf5ec1350e642dfd2196fcd07ff5d69
-    log: revlist-2836ed1748cc-cfbd7536edf5.txt
-
---===============8235652848778438008==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2836ed1748cc-cfbd7536edf5.txt
-
-062d02a96d810d55afdc594ceeb52223d8b36b5c perf namespaces: Avoid get_current_dir_name dependency
-77974c3c9d9ce36b3205b220c1b01c30bfdf4f0f tools build: Remove get_current_dir_name
-338fd6cf34343fedabda77b1f0f1de8aec3238c4 perf stat: Move create_perf_stat_counter() to builtin-stat.c
-7f76be2372850fdf13d1002c1399255314abd52a perf stat: Refactor retry/skip/fatal error handling
-0ae3078af9db879bb9c92880273bd78fba1a6328 perf annotate: Rename TSR_KIND_POINTER to TSR_KIND_PERCPU_POINTER
-7e6ec7f61f37fe632d7a86778c60dccade9b1015 tools build: Remove feature-libslang-include-subdir
-266f02c2bf78201744d31d9a4fdc1fdbcb960646 perf build: Move libopcode disasm tests to BUILD_NONDISTRO
-8a6509f1ea73c68c101eeb43cd8d477034028a9c perf bpf-event: Use libbpf version rather than feature check
-0eb97e57981ab1fce47a7508abf32d11cd685991 tools build: Remove libbpf-strings feature test
-40fd9678a0f7f345ff20932f828a166e0f9fc5e6 perf record: Add ratio-to-prev term
-cfbd7536edf5ec1350e642dfd2196fcd07ff5d69 perf record: Add auto counter reload parse and regression tests
-
---===============8235652848778438008==--
+    old: cfbd7536edf5ec1350e642dfd2196fcd07ff5d69
+    new: 56be0fe5f62c8d165b8c9c3d3bc1dab6e8443146
+    log: |
+         79cc9b4b2cc1e9a100f3bdab22c954f8541a8cc7 tools build: Remove get_current_dir_name feature check
+         6026ab657a0e9e8b05f8d9fbf99a65151ce7a40b perf stat: Move create_perf_stat_counter() to builtin-stat.c
+         2cc7aa995ce9ecd897c1df7ac04c624d542415ae perf stat: Refactor retry/skip/fatal error handling
+         a5099d8143db7f44e82b1098b75c398e6abc7c54 perf annotate: Rename TSR_KIND_POINTER to TSR_KIND_PERCPU_POINTER
+         c5b76ab525d3f6ad711ff07fd77de04ec1f0c9b0 tools build: Remove feature-libslang-include-subdir
+         a90777bb03fc7b9bc5d668ed136d86c3971f48bf perf build: Move libopcode disasm tests to BUILD_NONDISTRO
+         2bd597170f46610792c541814ac36d14618de459 perf bpf-event: Use libbpf version rather than feature check
+         584754cbee6edf8495117e176427113b51a9bd7f tools build: Remove libbpf-strings feature test
+         6b9c0261b3fb298b1fd49621f0479518efdcf3dc perf record: Add ratio-to-prev term
+         56be0fe5f62c8d165b8c9c3d3bc1dab6e8443146 perf record: Add auto counter reload parse and regression tests
+         
