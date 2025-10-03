@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6237867169116776630=="
+Content-Type: multipart/mixed; boundary="===============3163950714999807771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Oct 2025 13:26:04 -0000
-Message-Id: <175949796473.2059600.1563113333449051721@gitolite.kernel.org>
+Date: Fri, 03 Oct 2025 13:26:05 -0000
+Message-Id: <175949796554.2059758.9331676331404478090@gitolite.kernel.org>
 
---===============6237867169116776630==
+--===============3163950714999807771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,61 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: b1b5b89832f14bbcd8f4111e998dec579d12d938
-    new: dd4983092e69a6eeac994cffa105ce799d7c9f6a
-    log: |
-         dc2febfe979b6175c69e4e5b8dfaa5a7edc7c004 crypto: sha256 - fix crash at kexec
-         78ffe767e2b2fe8d192c4f38dad993ed8f2eeb6d gcc-plugins: Remove TODO_verify_il for GCC >= 16
-         07c0c7764d32e064cf4218996bebcefd7d113443 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-         645d21d4dd2709fff6b7d0b632afb8d36e74c909 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-         c8a088385dbc3933b9d453247a6ce9dc1e787b96 media: rc: fix races with imon_disconnect()
-         2574fdd774a23e2e9ee1e444f1a43d73555bb305 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-         8187f59931ca5259306ac9e0b56840eb9bb54420 ASoC: qcom: audioreach: fix potential null pointer dereference
-         dd4983092e69a6eeac994cffa105ce799d7c9f6a Linux 6.6.110-rc1
-         
+  - ref: refs/heads/linux-6.1.y
+    old: 204072390c1829bb4d85cbbe2ab8d896e9d1cde6
+    new: 13eb46bc49763c9fc7b26c0619088c2e8e1644ff
+    log: revlist-204072390c18-13eb46bc4976.txt
 
---===============6237867169116776630==
+--===============3163950714999807771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759498022 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759498023 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1759497963-c1f23a57d0c3882b65d699b0884fad4d32558f63
+nonce 1759497964-38cfc26d3733d890b3c88d4ede8fe2b40193c25d
 
-b1b5b89832f14bbcd8f4111e998dec579d12d938 dd4983092e69a6eeac994cffa105ce799d7c9f6a refs/heads/linux-6.6.y
+204072390c1829bb4d85cbbe2ab8d896e9d1cde6 13eb46bc49763c9fc7b26c0619088c2e8e1644ff refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjfzyYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gSgQAMPgJ+y48UL5W+Rt5Ye8
-4ci7I078yutzzL/1b0kKURG+ZHUIx8EQXBQq0ttQf+emjffL3DyB7bhE+E6gsHMo
-+xvCTaTseGsJcTESKLKW9ThDmL/KP3CRNzwk6FHSZgCNyV36H20RkcfoMSd9PSmq
-PUO/k25/SaYsaA5xL3zf3mQUbwD7x1MQL7Jktxm2ZRj7wOpyPf8D9bsqte45PR7u
-WQPpNu51t/O1kKHM5PDXNi+qpFtvg8BH3opZoWnLe9fTxL02YzhoatkOdEN831P1
-b/SG1cIHgo/8dPUio5ofoke6pJQZUM7vTLQpzoKq+HLf+8nUG6q52Q+PpsRcrBNa
-wo9sGj2L7FTULdTMqOQre3+CDUObfYpp33yEsjy1SUrrbNLnBySQhmMYF+gN7N5n
-4Y4zRMx9f2g+xtWNmyq3X+5RkjnsUMzbRKtJtHmDoK+W3Yevy8PmcD1Y3GVLOjYX
-JiPi7QW9XWGFgVPMRJX9onS+XL8jcuxTADhhd0cV4mNsg1LtXzyu+2QbktJrW8Lz
-5FAR3O+aSlvm3um7gfUSzYqbWALZkP9E2wlqKrWBW6I1HvhKBh1nhjGKSNzp/me1
-s/I9FTiuD8xfXu7quwTxgEft8QGXSqQ+8lrwAlEd4lyxCPYyW5f2o3Ev5AhtpSfr
-iZN3AUVX/P/NvU4iFGRKqAmO
-=wM4h
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjfzycbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nFIQAMiG6sb5Gj+QDa0iVzYo
+jtyGqGhVHjx0ykMyX3Lss+ti/0HBNIHNgTUIEVt/6qnTjy3Br60/l6vuJXkwBrcx
+oTyxJVV0V1gJi1/1vkAMQxu9ShgauivqLEV5XoLquHLonndA6yBRapJy7wWhaAv5
+OilFHYPXln8Ki609pX+11VsPfpdjlEV9EM5Cm2LIn54vkipnRLKdrPQjPkrHjUd5
+8PPbfsEIb9ObkiNj+320FGsaMMaqQmcjFl9pDy/4BQtjGUSfRy5ly2vEAxSc3iBk
+oE2gCW+z1VrG+bYMDJEosLhO+XEkwID3fuZSR7MmWJIIOrV0SkTO1XVQZkKJLNxY
+dPFjof23NUwwHHGMNNQgNjgbTF5xYdM9igV/BRtLd3c5IVpoZwwVmnm3dt8nQeB/
+Ok0GpyEUJcQ0JJgCvUNBZdxU+GEOjRGE++3MdZnDoV1xIAZCBI95R6ZJwpNfy0Gu
+bOI+7Nx5rp/bHWJ9ISsL29pd2oqH3vm9UKC3qdhGEE5bEGhO/yOP3sjaf7IjWI0K
+Ea3OBxXWGosxFo8gWcb7qeb5yq4XzRcjWz89sE4HULvpna0iP1wsDU2k31CJoOmd
+K/Srelep/+Eg902IAZoNr4hiXGsHvSJeFsVq0Pef0N5cyry5rYbbPo73eiF3BlqK
+HtHo9qLNlUrDblr3wxNv7lrd
+=QUFq
 -----END PGP SIGNATURE-----
 
---===============6237867169116776630==--
+--===============3163950714999807771==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-204072390c18-13eb46bc4976.txt
+
+14f425f1a277fecfa98bf549f95dbc8b52fb7d15 crypto: sha256 - fix crash at kexec
+18280d1be0145f04311ced0c4e78c8252ca4af6a selftests: mptcp: connect: fix build regression caused by backport
+da2b8d996b03eaaa2c1ec19d10813bc155d21c2c cacheinfo: Use RISC-V's init_cache_level() as generic OF implementation
+0d11fdda9265ad8d9622eb2db12e2005b4c404d2 cacheinfo: Return error code in init_of_cache_level()
+8fbd33855ee888f5a216dda68196fa32840b34a1 cacheinfo: Check 'cache-unified' property to count cache leaves
+8c040a728012420eb37b8c51586e13228a8f9000 ACPI: PPTT: Remove acpi_find_cache_levels()
+70f3d2e92d7d268377a2548d43c1c33abe3bd704 ACPI: PPTT: Update acpi_find_last_cache_level() to acpi_get_cache_info()
+3caeae0f3f5aabeac279bbd5903a2d2ed2bfc322 arch_topology: Build cacheinfo from primary CPU
+2e53d6d986337a3fc1abf7c1e62738f28f3b1628 gcc-plugins: Remove TODO_verify_il for GCC >= 16
+66d31f2ea45494c11526712df08e1fd64156da13 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+9395ab19815998b29508aec5f0476c3772fe20e0 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+6028da1205fdfc93968b1543bed42ffae42d5370 media: rc: fix races with imon_disconnect()
+904410f353d55076519893dc66221ddbe462b71b media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+931e81a60cf06ec80c44e528531d29b75da4167c ASoC: qcom: audioreach: fix potential null pointer dereference
+13eb46bc49763c9fc7b26c0619088c2e8e1644ff Linux 6.1.156-rc1
+
+--===============3163950714999807771==--
