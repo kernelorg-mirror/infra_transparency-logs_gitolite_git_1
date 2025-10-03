@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4631500369883050834=="
+Content-Type: multipart/mixed; boundary="===============0267656579498847531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 03 Oct 2025 16:02:15 -0000
-Message-Id: <175950733534.2194163.10123323459675810596@gitolite.kernel.org>
+Date: Fri, 03 Oct 2025 16:02:22 -0000
+Message-Id: <175950734256.2194417.16414251075819929206@gitolite.kernel.org>
 
---===============4631500369883050834==
+--===============0267656579498847531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,44 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: fe6a911d3d81c0d0c0777a8bf5d7fb17bc712ae1
-    new: 2c0548712531f8b879edccf67949a8e5abe4e5e4
+  - ref: refs/heads/linux-5.10.y
+    old: 2282ac68c42f87414b926be9cec1b583217161e6
+    new: 3dcb72377f42ea5181a3bc22ab947227c2c6a2dc
     log: |
-         77c35d9dda4340cdd0c104fc529292cb88cb333d scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-         4c0b693c270ca2b33f56c2c73c1c34343b0bdc42 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-         2c0548712531f8b879edccf67949a8e5abe4e5e4 Linux 5.4.301-rc1
+         ebd09b068c0c3cf0d5c490ef535435f619208f4c scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+         4a93a9b6dd5f7e536d116deca648352705b5c255 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+         3a0901656a971ac61e45f7e3d16c4a691d2c254d media: rc: fix races with imon_disconnect()
+         3dcb72377f42ea5181a3bc22ab947227c2c6a2dc Linux 5.10.246-rc1
          
 
---===============4631500369883050834==
+--===============0267656579498847531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759507392 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759507399 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1759507332-fe6a7fa3ea30236df51a8956333e8a6eb356ff9c
+nonce 1759507340-9f6583629ff3aafd2b2062e65524c69cc94d2b37
 
-fe6a911d3d81c0d0c0777a8bf5d7fb17bc712ae1 2c0548712531f8b879edccf67949a8e5abe4e5e4 refs/heads/linux-5.4.y
+2282ac68c42f87414b926be9cec1b583217161e6 3dcb72377f42ea5181a3bc22ab947227c2c6a2dc refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjf88AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QWEQAMnTo+20HDubPfv47wZ3
-yatHF1UF/RPsyrc4LL5yjzbT9j9vJeQ2xYKuryTKLg20xotJwg07JEXtZXhuvEJx
-BZCadxbpfg4apdmkDe17FYeoCrqf8izvSTo2PYJN+JflbzdwvXj4hvuRgqLqqLFX
-oo7dQskylBI0PXLF98skQptYzvSVsHbWFB9gRRy7JA9+a0xqDUovrOoDGN0trJRD
-5ANGQqbXqkXgundJZSdJHBslrjITFjDENwXDPyobUqkd3ksuOU+CCWtHTKAy1oPo
-bDLkf990Y+8Qv6JknGs4j8hgnkWIvHIactGddoqjaSgVPb2OO5WAfAK2o5oLtNYY
-6Ca/Lx7ZTuF6xhymv/MQNrNDmmY0q3r7T5gzwuk1XpzsA09J/8nMxrXUwsK/4bqv
-JvNVgzSeyLF3yeJvnquRzNgMQCHMu37kihB+eEkgP6c2nIa1h9BLHtSPGAeVRSuS
-L8tLdOjaKaAv6M73+LKAzGf3X5KqcRE+Me4ZDzTO1QpmpZIESxSLkF1VumM6+u1f
-ITuHCVJM2tpSYHn3fgGqqDBM+z5KKD1JIqQieNTJwlQVvF2xmHTqR1a5Go3Icjb4
-2xrYS68Dist9SEckVtrHNbw6/C08DeYAOd7DoXw7y5v1i6Gm7QF6V6HRYe9jNYAf
-c3vvHbaV4VM74R0AfBAEUuo6
-=OKq6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjf88cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MIMQAKTJEhNXTrRIz7c9QWz/
+bfUX0g0S5uNL3oEBhwMTyFw37BPNY63engfxjX4NM4bC86ONQqC1sOmtmYPheyqX
+iHUhZLyT0yf5FJXNWisMzv8Z7SOa8+L8+tfwyFfOmz/yqc/bmxP7fi3uaPoy1AH8
+o1SNec5NbLuH7oiLdpNjjKwVqALtUjI09SV+Y+zgbSOG6n2fdsOrdseysk68+chY
+5qR/5r3ki/3zKioRwmpBJAQseCazINMPEvCdXEFb4tiOMoHJGWroAFJ7W/VVG2CH
+bSjqXJpm/LJBWTmsrmBV3qAk0DLInlc48c7lEY7PPjUP5uLSanJhXcFkeZSEFb1/
+sw5/082m7zWQI0rOMa+EQFysszhBOIWpCLdrqYXZ2wfXXvkaV8QX32R9dS5xXmzR
+72J+otaN2w1aNtZkw6IWTyT6a5suJMVrTHdmq0+7y0B3/ZFx2Z0AdoAsaGNDTNeU
+kFlz3TguyIEUte9FLKt0QlVkRMMf+dj/n9Xw7xtra/Cc/IBstYpuRrp2CeFN0H9l
+VniHPQ6NrI29mvmkZBOAzmEjiBrFQs7/uQxtLwq7PNh0fvaOL0TSXAn+joD4ExIN
+ObPt+iBsBEOxxJt6URP9FNWyUsyJ4F4+NjVb57hE+Amm+wO4bKOd+Bp7KG3jZGZe
+RpHSgGLk+GzkNoqzRyYvGV9Z
+=TkMj
 -----END PGP SIGNATURE-----
 
---===============4631500369883050834==--
+--===============0267656579498847531==--
