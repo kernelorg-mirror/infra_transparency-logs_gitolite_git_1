@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 03 Oct 2025 15:49:11 -0000
-Message-Id: <175950655190.2179302.2713311179440167354@gitolite.kernel.org>
+Date: Fri, 03 Oct 2025 15:54:10 -0000
+Message-Id: <175950685031.2185077.8001982089704103788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: c12b12c3bf89f0d9d038d4274c6b36b362af03ef
-    new: 4ae6df6084c477960e70bfd56f2364333ebaddd0
+    old: 4ae6df6084c477960e70bfd56f2364333ebaddd0
+    new: 61a5edb2801c8f93716bde373de2d529a13d3449
     log: |
-         96ed5b3686d0836c33c7141f6deb2c3e555aa5a8 linux-firmware: Add Dell ISH firmware for Intel Lunar Lake systems
-         4ae6df6084c477960e70bfd56f2364333ebaddd0 Merge branch 'dell-58.7727.0' into 'main'
+         d2404284b6ce4ee34ca56351d8741cdc61d81910 intel_vpu: Update NPU firmware
+         3d9e4d59d157e7126dd65e3ead818f1175d2d138 Merge branch 'intel-vpu-v1.24.0' into 'main'
+         5905c27e13dc751bb5c2fd8465fa7be86fd0d346 WHENCE: remove link for Kaanapali video firmware
+         61a5edb2801c8f93716bde373de2d529a13d3449 Merge branch 'robot/pr-0-1759506540' into 'main'
          
