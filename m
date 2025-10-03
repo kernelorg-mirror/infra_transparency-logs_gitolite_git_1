@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5849519247434402012=="
+Content-Type: multipart/mixed; boundary="===============7453176565367519382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 03 Oct 2025 20:29:27 -0000
-Message-Id: <175952336712.2421107.17358363432608497594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 03 Oct 2025 20:29:32 -0000
+Message-Id: <175952337298.2421276.4675620529799827289@gitolite.kernel.org>
 
---===============5849519247434402012==
+--===============7453176565367519382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 56be0fe5f62c8d165b8c9c3d3bc1dab6e8443146
     log: revlist-d18020cf1e92-56be0fe5f62c.txt
 
---===============5849519247434402012==
+--===============7453176565367519382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ a90777bb03fc7b9bc5d668ed136d86c3971f48bf perf build: Move libopcode disasm tests
 6b9c0261b3fb298b1fd49621f0479518efdcf3dc perf record: Add ratio-to-prev term
 56be0fe5f62c8d165b8c9c3d3bc1dab6e8443146 perf record: Add auto counter reload parse and regression tests
 
---===============5849519247434402012==--
+--===============7453176565367519382==--
