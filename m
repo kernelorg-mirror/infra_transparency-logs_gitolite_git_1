@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Fri, 03 Oct 2025 06:57:10 -0000
-Message-Id: <175947463082.1684096.15001858148379305393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Fri, 03 Oct 2025 07:44:17 -0000
+Message-Id: <175947745704.1721829.3500221819141060813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/dma-mapping-for-next
-    old: ef3d979b3e270b6a41b6f306bfc442253c41a4cd
-    new: 16abbabc004bedeeaa702e11913da9d4fa70e63a
+  - ref: refs/heads/main
+    old: 8d4cf38498dc2e3ae231bb38265612979011ef16
+    new: 8c973c3ed2406baa0fd5675c348b9230484a7822
     log: |
-         ab220548dbefa8f99636741924b6fdf33f3230a2 kmsan: fix kmsan_handle_dma() to avoid false positives
-         16abbabc004bedeeaa702e11913da9d4fa70e63a dma-mapping: fix direction in dma_alloc direction traces
+         8c973c3ed2406baa0fd5675c348b9230484a7822 feat!(tpm2sh): baseline for 0.11
          
