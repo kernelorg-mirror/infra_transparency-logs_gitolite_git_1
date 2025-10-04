@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4887083199774475143=="
+Content-Type: multipart/mixed; boundary="===============3449637164004756240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Sat, 04 Oct 2025 00:55:12 -0000
-Message-Id: <175953931260.2646941.9949241728829281054@gitolite.kernel.org>
+Date: Sat, 04 Oct 2025 00:55:18 -0000
+Message-Id: <175953931862.2647116.8888840228191742561@gitolite.kernel.org>
 
---===============4887083199774475143==
+--===============3449637164004756240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2aff4420efc2910e905ee5b000e04e87422aebc4
     new: 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc
     log: revlist-2aff4420efc2-1b54b0756f05.txt
 
---===============4887083199774475143==
+--===============3449637164004756240==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f79e772258df311c2cb21594ca0996318e720d28 Merge tag 'media/v6.18-1' of git://git.
 7a0f94361ffd6e1d31c79023e8674b492bef05e3 net: psp: don't assume reply skbs will have a socket
 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc net: doc: Fix typos in docs
 
---===============4887083199774475143==--
+--===============3449637164004756240==--
