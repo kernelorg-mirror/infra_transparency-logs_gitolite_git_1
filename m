@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2208387122649349534=="
+Content-Type: multipart/mixed; boundary="===============1650087241503637680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sat, 04 Oct 2025 08:25:02 -0000
-Message-Id: <175956630243.3066526.4607092423120812521@gitolite.kernel.org>
+Date: Sat, 04 Oct 2025 08:25:07 -0000
+Message-Id: <175956630774.3068091.2826216090332361994@gitolite.kernel.org>
 
---===============2208387122649349534==
+--===============1650087241503637680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: f83ec76bf285bea5727f478a68b894f5543ca76e
+  - ref: refs/heads/driver-core-next
+    old: 6d97171ac6585de698df019b0bfea3f123fd8385
     new: cbf33b8e0b360f667b17106c15d9e2aac77a76a1
-    log: revlist-f83ec76bf285-cbf33b8e0b36.txt
+    log: revlist-6d97171ac658-cbf33b8e0b36.txt
 
---===============2208387122649349534==
+--===============1650087241503637680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759566360 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759566365 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1759566300-bfba76ca24123b4f6cde7ae2b79b7c8de3df9751
+nonce 1759566305-c7db1c07bee0538721428cb1f7ba7c94e9147215
 
-f83ec76bf285bea5727f478a68b894f5543ca76e cbf33b8e0b360f667b17106c15d9e2aac77a76a1 refs/heads/driver-core-linus
+6d97171ac6585de698df019b0bfea3f123fd8385 cbf33b8e0b360f667b17106c15d9e2aac77a76a1 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjg2hgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r0UP/0DUy2jjQnM7dVBYApOc
-5JDCLf1oL3Qvh1ask9qr7VPDxqmzDqq9OjuwkHz+DXn8Qi7jaQQH7YKprRTnbLSU
-WL1R+CdjKUma+Ocm+e13P8dJ8sw7NFcTU04ZOURf0F66uZqlSdErKeCVgyAS10i+
-ksJAfDGVwOmykPVSD5+rUd+h7YJliGeLE0WplPG5KqbBEd9qbuzgSGcE7oxzFB8y
-A7WZ/nFpiaQEs62Iy1YpC2O3mOQEj06htr8JKvnY/XqmDbX+6Ip4I5jMLlXAOl86
-t0hqff3tU3sKZuO9WPPEa+i3RcjEUWSBfvobn4cj6/PJ0z8ITYV0W4moJBSvLMhZ
-NY+Lwg5A9irGcKlWlNdf4ACpRUl3BAEvFWOD51GNIGvqGgNP0gT2H7OQ6sJBQ8lr
-BoPYnSj5CsmJbbaV8IA2ESzhurmknONk9evcynUCBFeYeaVEZGXEPISkWwrqmEVZ
-aW5Z2Eq/vVYDTP/UWYQbIR0nwt7LYQmQwNzbuXSPqWF2bO+CezORjwG9iCJ7A3I2
-nnIOsCbeONvaqBqthvS67ws5Wc3v19UCYeErIiGMNAzQdPy2UT9+XBcYW6E56HWm
-PlVoY47gqaeXdJnlOrcVeo6bEZQlLsK9uI9ZzP3Jv7/f+4nbJ3gsYvjq1CbzhmtS
-9GzDYpM+bisEtPvNpZZqvZOH
-=G5md
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjg2h0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dg0QALI5MtquKdqxFn9GCKDh
+FHK5XwmIuxaSTCLDuhKhBAUU60dnQM/dBjT7PNSR7QeuxQahEhcfMHmIsSFWakya
+6SvYwhcQO5+AX4y4bj9dY8brJG/kBtB6cD70NCyl4r5WT66MRhGqIKWnzXtKsPms
+AY4cyeKzASkvE+Z+swsuuwYDT48cVJlCETHGsZ3iREF4Iy+3ptBgBmM2hAMRisvp
+qE+q1kiIdz4nyTYmhdOi64iJDyKDOusW8nJTKSmx9d6oAhugDDzCIUyzA+b9rULw
+V7am1exc6oVBRqiYRd9E1GwYNPUhvLcUHt+J0K9bnRoQ42a6yw4ysy31Ss1/DrJK
+I/wcbi2Td41IGkzDKkQw87fIBILREbH31fsaDZGsb6aX8r0oVypI9kWay46f6wht
+j2mxGWTTxZQPqANT5d1mQ6fWs0Ck0DBEqozfBNOmsN3xi/iZXwv1SfHbCaj5NOYa
+1n+4qj77mRI/aGbwOXSWa+MVIa1XerXN4xYO1AKSSe83w1Qsap9+seFHAE34p6eW
+X7JxmR0tXxq4kWHc4RQ6cJHrHNFgj+Thk1lTsAt5Se1L5Slvko3T2Tcq+6z2YKxq
+rivgjwHAv64ocJnaVMcunPUMYkdawSNmOm2wSWhChYf1Hc6ju2fukYEno9a3Ik/a
++jH+plRYSxowi1NIKZSHJNnB
+=zjXk
 -----END PGP SIGNATURE-----
 
---===============2208387122649349534==
+--===============1650087241503637680==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f83ec76bf285-cbf33b8e0b36.txt
+Content-Disposition: attachment; filename=revlist-6d97171ac658-cbf33b8e0b36.txt
 
+0529b191ac9c907225593e12a68f1718a60b2fba accel/habanalabs/gaudi2: use the CPLD_SHUTDOWN event handler
+0668db41b5d8a834a04be3b281fa9452dcf3dc18 accel/habanalabs: remove old interface variation of 'access_ok()'
 513024d5a0e34fd34247043f1876b6138ca52847 accel/habanalabs: support mapping cb with vmalloc-backed coherent memory
 8cbacc9a2703c661c5e15bfbaeb1d4dcb58eb621 accel/habanalabs: add NVMe Direct I/O (HLDIO) infrastructure
 eeb38d0e91860fb47bc42a2cc44ffd80989a04fc accel/habanalabs: add debugfs interface for HLDIO testing
@@ -103,8 +105,6 @@ f707d2f7a0c7793406daf0e223bad01bb748343e s390/tape: Add WQ_PERCPU to alloc_workq
 dbfe205a344a865b9c36706738f45bc554a040c7 s390/diag324: Replace use of system_wq with system_percpu_wq
 72105fc1c1cb67e779fe2da9d22ffae189c00cfc s390: Replace use of system_wq with system_dfl_wq
 088bb10e37252034ec58a6152f20bfdc8a837f54 s390/mm: Add memory allocation profiling hooks
-d53ea977adf913a6e5024323e6b7e02326d4453c rust: pci: display symbolic PCI class names
-6d97171ac6585de698df019b0bfea3f123fd8385 rust: pci: display symbolic PCI vendor names
 c4331e19a6b0f9b8de5921cc2f3253e572945564 fuse: move the backing file idr and code into a new source file
 cb403594701cd36f7f3f868258655d56f9afaf8e fuse: move CREATE_TRACE_POINTS to a separate file
 93a274456158f178aa713fbb60642e0094e6065e Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
@@ -1082,4 +1082,4 @@ e56ebe27a00dee1e083621b67ec23310d8e0319a Merge tag 'for-linus-iommufd' of git://
 d955299b5c468f805d75e0b92e7c1d2392bae921 Merge tag 'soc-fixes-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 cbf33b8e0b360f667b17106c15d9e2aac77a76a1 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============2208387122649349534==--
+--===============1650087241503637680==--
