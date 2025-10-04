@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6128025916625097168=="
+Content-Type: multipart/mixed; boundary="===============0005040662597920716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Sat, 04 Oct 2025 00:54:53 -0000
-Message-Id: <175953929374.2644766.14764826070918862903@gitolite.kernel.org>
+Date: Sat, 04 Oct 2025 00:55:06 -0000
+Message-Id: <175953930697.2646768.8386937735530315000@gitolite.kernel.org>
 
---===============6128025916625097168==
+--===============0005040662597920716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: ae3045505a07bf66c23a9d4766dce1aab414ef66
-    new: e50b34f0f3fb86c9be2f9ad3b7ed483f18b46896
-    log: revlist-ae3045505a07-e50b34f0f3fb.txt
+  - ref: refs/heads/1GbE
+    old: 2aff4420efc2910e905ee5b000e04e87422aebc4
+    new: 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc
+    log: revlist-2aff4420efc2-1b54b0756f05.txt
 
---===============6128025916625097168==
+--===============0005040662597920716==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ae3045505a07-e50b34f0f3fb.txt
+Content-Disposition: attachment; filename=revlist-2aff4420efc2-1b54b0756f05.txt
 
+4d9553fee3e278ca3d90c54c063ce2db01e93268 sched_ext: Add the @sch parameter to scx_dsq_insert_preamble/commit()
+d4f7d866667c32b097721a96ebf0b19e1c85a75a sched_ext: Drop scx_kf_exit() and scx_kf_error()
+c0008a5632103eae31302e83d012e2d3b0cfad41 sched_ext: Misc updates around scx_sched instance pointer
+6d74ed4c81470b7df89b6688a0a95adcebb4794f Merge tag 'at24-updates-for-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-mergewindow
+ccb4f5d91ec43c05ba165ccfc7ed889eb9cdfd05 bpf: Allow union argument in trampoline based programs
+1c6686bf7fc161ed87b44b523a96c5ae4bfed351 selftests/bpf: Add union argument tests using fexit programs
+f0b5c1490aa8af7a0fcface6cc99266cff1549be Merge branch 'bpf-allow-union-argument-in-trampoline-based-programs'
+2f6aa0acdc5d09d1fee3049593c81affa9c58838 MAINTAINERS: Remove myself as Synopsys DesignWare I2C maintainer
+ebfd5226ec365d0901d3ddee4aba9c737137645c sched_ext: Merge branch 'for-6.17-fixes' into for-6.18
+dde9a38195b0c268ff55d3a8aa62faefd0e988c8 i2c: riic: Allow setting frequencies lower than 50KHz
+8d13f91d7fce4e842dfc7edbcba0690f7ed11c18 dt-bindings: i2c: spacemit: extend and validate all properties
+0d3bf643b41bc339a02562a4aa382542d046bd0a bpftool: Add bash completion for program signing options
+d0bf7cd5df18466d969bb60e8890b74cf96081ca riscv: bpf: Fix uninitialized symbol 'retval_off'
+8b52d09a1dfe949851675b30b309865ade8ce457 Merge branch 'riscv-bpf-fix-uninitialized-symbol-retval_off'
 8ab3bd59f9fc210a1a88b509f6931cf3f5ea229a dt-bindings: i2c: exynos5: add samsung,exynos8890-hsi2c compatible
 958e55f90a01451de77e22063d37b60388219b96 dt-bindings: i2c: spacemit,k1-i2c: Minor whitespace cleanup in example
 57cff2159b4a067097fb7aef471f1f9db54244d9 Merge tag 'ti-k3-dt-for-v6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/dt
@@ -923,6 +937,9 @@ fc92cddd7a833d51ef857eca672214cab755ceaa net/mlx5e: Introduce mlx5e_rss_init_par
 c40a94ccfdc76fa26c620d1748ebda35c2153dd9 net/mlx5e: Introduce mlx5e_rss_params for RSS configuration
 a833538d1d8db96b78bac04eec9be51b297f1d23 net/mlx5e: Use extack in set rxfh callback
 3cfb33f92dfb118ccaec5613c677f444af12bcc7 Merge branch 'net-mlx5-misc-changes-2025-09-28'
+cd9ea7da41a449ff1950230a35990155457b9879 octeontx2-vf: fix bitmap leak
+92e9f4faffca70c82126e59552f6e8ff8f95cc65 octeontx2-pf: fix bitmap leak
+daa26ea63c6f848159821cd9b3cbe47cddbb0a1c Merge branch 'octeontx2-fix-bitmap-leaks-in-pf-and-vf'
 ae28ed4578e6d5a481e39c5a9827f27048661fdd Merge tag 'bpf-next-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 f4e0ff7e45c30f4665cfbbe2f0538e9c5789bebc Merge tag 'rust-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 50c19e20ed2ef359cf155a39c8462b0a6351b9fa Merge tag 'nolibc-20250928-for-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/nolibc/linux-nolibc
@@ -1033,22 +1050,5 @@ f79e772258df311c2cb21594ca0996318e720d28 Merge tag 'media/v6.18-1' of git://git.
 4f0d91ba72811fd5dd577bcdccd7fed649aae62c net/mlx4: prevent potential use after free in mlx4_en_do_uc_filter()
 7a0f94361ffd6e1d31c79023e8674b492bef05e3 net: psp: don't assume reply skbs will have a socket
 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc net: doc: Fix typos in docs
-e8ff381ac1ecf4df5d575f98f24781dd5134ddd7 ice: fix lane number calculation
-1f7e7f027658aba172437f3a0451ca7a30bf268e ice: fix fwlog after driver reinit
-d7576bb1ac6bf72d2b2929f02107f7a9f5c8d2b0 idpf: cleanup remaining SKBs in PTP flows
-6c1f4c42b45748d983d9bdbfbf1f824aa970a482 ice: Fix enable_cnt imbalance on resume
-7f7de102a7df98ff5d11237032b1eab494aeae08 ice: Fix enable_cnt imbalance on PCIe error recovery
-cf489cdf7e1d4befe08d9575feb12605aa61433d i40e: Fix enable_cnt imbalance on PCIe error recovery
-7c0e8a950dbd30ca46e999cf1d25f3e97a98f174 idpf: convert vport state to bitmap
-da0f108fe5be2844edeb4d15974a78cd25b7dea9 idpf: fix possible race in idpf_vport_stop()
-97e14c98e9c1d5b96c55d23f5a0bec6203eef895 ixgbevf: fix getting link speed data for E610 devices
-eef2a1f51bf0d2297f807cfdf9e6110956aad384 ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
-29c93c5947765eeb473dab4f42275c537b620a69 ixgbevf: fix mailbox API compatibility by negotiating supported features
-d141e275ba88f58123ff8de507ba97c0dbbd0491 ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
-a548b49a5d5defc9fa110579729a596e1edd96e2 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-228c3bb4307a42dd15f6952e7319dbb484e90083 ixgbe: fix too early devlink_free() in ixgbe_remove()
-7819b159ea06fdf505c171b8d5de238b48ffb6d4 igc: power up the PHY before the link test
-811cd56b911bf0c1b268bae21b7a6917eafc0791 ice: fix destination CGU for dual complex E825
-e50b34f0f3fb86c9be2f9ad3b7ed483f18b46896 igc: fix race condition in TX timestamp read for register 0
 
---===============6128025916625097168==--
+--===============0005040662597920716==--
