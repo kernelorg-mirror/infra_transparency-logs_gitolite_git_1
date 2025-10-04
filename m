@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 03 Oct 2025 23:48:39 -0000
-Message-Id: <175953531998.2585801.8287231503409876435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Sat, 04 Oct 2025 00:14:09 -0000
+Message-Id: <175953684988.2606770.6069564509837279960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/tags/mm-stable-2025-10-03-16-49
-    old: 0000000000000000000000000000000000000000
-    new: dee15dd3b943f10c9c31fabf9c521fcf63840879
+  - ref: refs/heads/main
+    old: 61a5edb2801c8f93716bde373de2d529a13d3449
+    new: 757854f42d83aab44a72eedded3485887798a4fd
+    log: |
+         8d5c190abbc630e8d0747d2c45ad5f8d4be8a458 amdgpu: DMCUB updates for various ASICs
+         757854f42d83aab44a72eedded3485887798a4fd Merge branch 'amd-staging' into 'main'
+         
