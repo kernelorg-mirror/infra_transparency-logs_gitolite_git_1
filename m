@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4009946952164930262=="
+Content-Type: multipart/mixed; boundary="===============5997766035305069577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 04 Oct 2025 02:49:14 -0000
-Message-Id: <175954615473.2739169.10247960231437039082@gitolite.kernel.org>
+Date: Sat, 04 Oct 2025 02:49:30 -0000
+Message-Id: <175954617022.2739420.12770534230650023795@gitolite.kernel.org>
 
---===============4009946952164930262==
+--===============5997766035305069577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 4ef77dd584cfd915526328f516fec59e3a54d66e
+  - ref: refs/heads/for-next
+    old: 95524d1a6bd69856826d3516631d4d15b2b4ec19
     new: cbf33b8e0b360f667b17106c15d9e2aac77a76a1
-    log: revlist-4ef77dd584cf-cbf33b8e0b36.txt
+    log: revlist-95524d1a6bd6-cbf33b8e0b36.txt
 
---===============4009946952164930262==
+--===============5997766035305069577==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4ef77dd584cf-cbf33b8e0b36.txt
+Content-Disposition: attachment; filename=revlist-95524d1a6bd6-cbf33b8e0b36.txt
 
 7e5a43897aa3e5df197475809dd5264cb724474a scsi: mpt3sas: Update driver version to 54.100.00.00
 408445e9c1639e41e37876cb9e887cb0fadad381 Merge patch series "mpt3sas: Few Enhancements and minor fixes"
@@ -1051,4 +1051,4 @@ e56ebe27a00dee1e083621b67ec23310d8e0319a Merge tag 'for-linus-iommufd' of git://
 d955299b5c468f805d75e0b92e7c1d2392bae921 Merge tag 'soc-fixes-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 cbf33b8e0b360f667b17106c15d9e2aac77a76a1 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============4009946952164930262==--
+--===============5997766035305069577==--
