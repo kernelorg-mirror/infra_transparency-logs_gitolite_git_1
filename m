@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2359215611463821052=="
+Content-Type: multipart/mixed; boundary="===============1951507741324679589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 04 Oct 2025 14:24:53 -0000
-Message-Id: <175958789396.3366705.10339539505105329982@gitolite.kernel.org>
+Date: Sat, 04 Oct 2025 14:25:09 -0000
+Message-Id: <175958790915.3368563.14937735393782597202@gitolite.kernel.org>
 
---===============2359215611463821052==
+--===============1951507741324679589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 688cf647bad9fbd4e46a48a357be8ba4b572afb3
+  - ref: refs/heads/master
+    old: 262bb4f7cacfd17bd0ae118255f61dbc5cfbdd96
     new: 0997223af577d1c50cbfa280bcbd3345bf30385c
-    log: revlist-688cf647bad9-0997223af577.txt
+    log: revlist-262bb4f7cacf-0997223af577.txt
 
---===============2359215611463821052==
+--===============1951507741324679589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-688cf647bad9-0997223af577.txt
+Content-Disposition: attachment; filename=revlist-262bb4f7cacf-0997223af577.txt
 
 9b8d24a49fe83787208479d51f320cead25e856c KEYS: encrypted: Use SHA-256 library instead of crypto_shash
 8be70a8fc667c33e69257a72e8092f07c828241e security: keys: use menuconfig for KEYS symbol
@@ -39,4 +39,4 @@ b6d30aacaf3ab2355009836bef749b4e14f71e94 tpm: Ensure exclusive userspace access 
 6741fe6658c552e06190559a1e0c18ba49cc1b22 tpm: Allow for exclusive TPM access when using /dev/tpm<n>
 0997223af577d1c50cbfa280bcbd3345bf30385c tpm: Require O_EXCL for exclusive /dev/tpm access
 
---===============2359215611463821052==--
+--===============1951507741324679589==--
