@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1919181487228826515=="
+Content-Type: multipart/mixed; boundary="===============1454229039558757012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 04 Oct 2025 00:46:07 -0000
-Message-Id: <175953876754.2637242.3435220316241625795@gitolite.kernel.org>
+Date: Sat, 04 Oct 2025 00:46:17 -0000
+Message-Id: <175953877709.2637435.18206763752179567639@gitolite.kernel.org>
 
---===============1919181487228826515==
+--===============1454229039558757012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 06d79d51cf51b27766fec621911f5b8ebdfecd62
-    new: aacc48c9de6afe5fa99ff168d6954f10c254010c
-    log: revlist-06d79d51cf51-aacc48c9de6a.txt
+  - ref: refs/heads/1GbE
+    old: 03faea8466713f04a522c52c386124755be960bc
+    new: 07fdad3a93756b872da7b53647715c48d0f4a2d0
+    log: revlist-03faea846671-07fdad3a9375.txt
 
---===============1919181487228826515==
+--===============1454229039558757012==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-06d79d51cf51-aacc48c9de6a.txt
+Content-Disposition: attachment; filename=revlist-03faea846671-07fdad3a9375.txt
 
+330f02b136a8c2e025548683c265fc2be844614c btrfs: add workspace manager initialization for zstd
+6f9c3f48acffaffe7bb643b3bc04f8a99021179a btrfs: add generic workspace manager initialization
+856d46c31343169a566f44035c4c74b2f0842438 btrfs: migrate to use per-fs workspace manager
+9c8f4cf45651b8f07bd06df443871d526dc53cea btrfs: cleanup the per-module compression workspace managers
 0d0b80929eff93e7e0323060899d04905b8e6de9 btrfs: rename btrfs_compress_op to btrfs_compress_levels
 74e8f002b772686408d62e420d9f70a4bcb1c2c4 btrfs: reduce compression workspace buffer space to block size
 17dc82dc1e77a6fce07252ce894748190d1487d0 btrfs: fix typos in comments and strings
@@ -620,6 +624,16 @@ d6f57d8c5a5aede34c72382cdbd5b35616e171e6 dt-bindings: fix spelling, typos, gramm
 532a94352fca6b51f49d1cd9f0e4250ade49b8b2 dt-bindings: rng: sparc_sun_oracle_rng: convert to DT schema
 d1a7be736ca9b89c32023185fa95c0df02f6db27 dt-bindings: gpu: Convert nvidia,gk20a to DT schema
 fec734e8d564d55fb6bd4909ae2e68814d21d0a1 Merge tag 'riscv-for-linus-v6.17-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+c35cf24a69b00b7f54f2f19838f2b82d54480b0f net: enetc: Fix probing error message typo for the ENETCv4 PF driver
+958baf5eaee394e5fd976979b0791a875f14a179 net: usb: Remove disruptive netif_wake_queue in rtl8150_set_multicast
+e9f35294e18da82162004a2f35976e7031aaf7f9 ptp: Add a upper bound on max_vclocks
+439263376c2c4e126cac0d07e4987568de4eaba5 vhost: vringh: Fix copy_to_iter return value check
+9665aa15ef8bdf1fa596f9ff8162e9c5e00ac036 dt-bindings: net: cdns,macb: allow tsu_clk without tx_clk
+fca3dc859b200ca4dcdd2124beaf3bb2ab80b0f7 net: macb: remove illusion about TBQPH/RBQPH being per-queue
+92d4256fafd8d0a14d3aaa10452ac771bf9b597c net: macb: move ring size computation to functions
+78d901897b3cae06b38f54e48a2378cf9da21175 net: macb: single dma_alloc_coherent() for DMA descriptors
+70a5ce8bc94545ba0fb47b2498bfb12de2132f4d net: macb: avoid dealing with endianness in macb_set_hwaddr()
+012ea489aedab1a4c08efbd936bb7be91a06d236 Merge branch 'net-macb-various-fixes'
 b1e0ff7209e952bdb4f9a85a8450546700b4affa rtla: Fix buffer overflow in actions_parse
 2227f273b7dc25a791ae6b152550098aa6934b2f rtla/actions: Fix condition for buffer reallocation
 87608c2a7718dcac5deef801fb3c18cf36fb0233 bpf: Remove duplicate crypto/sha2.h header
@@ -868,15 +882,27 @@ b2ec5ca9d5c2c019e2316f7ba447596d1dcd8fde Merge tag 'amd-drm-next-6.18-2025-09-26
 50157eaa0c13bb5aac5cc45330bf055d95d4af57 Merge tag 'execve-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a240a79d435ae7206a5c5101033f3f81d68bc3b4 Merge tag 'seccomp-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a5ba183bdeeeedd5f5b683c02561072848258496 Merge tag 'hardening-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+b9bd25f47eb79c9eb275e3d9ac3983dc88577dd4 idpf: fix mismatched free function for dma_alloc_coherent
 e129e479f2e444eaccd822717d418119d39d3d5c Merge tag 'pstore-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+8425161ac1204d2185e0a10f5ae652bae75d2451 nfp: fix RSS hash key size when RSS is not supported
+f017156aea60db8720e47591ed1e041993381ad2 net: ena: return 0 in ena_get_rxfh_key_size() when RSS hash key is not configurable
 46a1b6b2aaae965b27b3bb34cf88d441f6aef20e Merge tag 'nios2_update_for_v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
 fe68bb2861808ed5c48d399bd7e670ab76829d55 Merge tag 'microblaze-v6.18' of git://git.monstr.eu/linux-2.6-microblaze
+8169a6011c5fecc6cb1c3654c541c567d3318de8 net: dlink: handle copy_thresh allocation failure
 feafee284579d29537a5a56ba8f23894f0463f3d Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+b1f0349bd6d320c382df2e7f6fc2ac95c85f2b18 net/mlx5: Stop polling for command response if interface goes down
+79a0e32b32ac4e4f9e4bb22be97f371c8c116c88 net/mlx5: pagealloc: Fix reclaim race during command interface teardown
+5cfbe7ebfa42fd3c517a701dab5bd73524da9088 net/mlx5: fw reset, add reset timeout work
+eb11f02f3151e86f41bb15cc47b7400e91c07a4f Merge branch 'mlx5-misc-fixes-2025-09-28'
 cb7e3669c683669d93139184adff68a7d9000536 Merge tag 'riscv-for-linus-6.18-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 f1004b2f19d7e9add9d707f64d9fcbc50f67921b Merge tag 'm68k-for-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 9cc220a422113f665e13364be1411c7bba9e3e30 Merge tag 's390-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 417552999d0b6681ac30e117ae890828ca7e46b3 Merge tag 'powerpc-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 30d4efb2f5a515a60fe6b0ca85362cbebea21e2f Merge tag 'for-linus-6.18-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+5b66169f6be4847008c0aea50885ff0632151479 bonding: fix xfrm offload feature setup on active-backup mode
+99e4c35eada98d5959e61e7d3e049f64b2f0e4e1 selftests: bonding: add ipsec offload test
+9c328f54741bd5465ca1dc717c84c04242fac2e1 net: nfc: nci: Add parameter validation for packet data
+2aff4420efc2910e905ee5b000e04e87422aebc4 net: enetc: initialize SW PIR and CIR based HW PIR and CIR values
 f3827213abae9291b7525b05e6fd29b1f0536ce6 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 56a0810d8ca406648fe01ec996ade1d61bf8ec8d Merge tag 'audit-pr-20250926' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 57bc683896c55ff348e1a592175e76f9478035d6 Merge tag 'selinux-pr-20250926' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
@@ -899,6 +925,7 @@ a65879b4584f98e6c1b80380f55ca8cfca82cb47 Merge tag 'x86_cpu_for_v6.18_rc1' of gi
 22bdd6e68bbe270a916233ec5f34a13ae5e80ed9 Merge tag 'x86_apic_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7601d18be06943d5ac2b1802899ff6c303544936 Merge tag 'core-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1d17e808cf2aad182f0eb2ea83e329e4a6795428 Merge tag 'core-rseq-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fd8c8216648cd8c047bd3bcad65424ed44b5b450 net/mlx5: Improve write-combining test reliability for ARM64 Grace CPUs
 3b2074c77d25f453247163300d5638adfab4e4fa Merge tag 'irq-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 03a53e09cd723295ac1ddd16d9908d1680e7a1bf Merge tag 'irq-drivers-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d8de3685f1a28722a4ba4f1f06a0987822750fb9 Merge tag 'smp-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -906,9 +933,25 @@ c574fb2ed7c96f87fc0e5295e910e646a7ee4dfa Merge tag 'locking-futex-2025-09-29' of
 c5448d46b3995c0b477f6bb04f313af3d57665c4 Merge tag 'timers-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 70de5572a82b3d510df31d2c572c15cd53a00870 Merge tag 'timers-clocksource-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4b81e2eb9e4db8f6094c077d0c8b27c264901c1b Merge tag 'timers-vdso-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+906154caa7d3d750d47cd18f9349b75b77e12854 net/mlx5: HWS, Generalize complex matchers
+06fdc45f16c392dc3394c67e7c17ae63935715d3 net/mlx5e: Prevent entering switchdev mode with inconsistent netns
+33dbaa54ef431b416c1ddb2c25b9b201634edcfa net/mlx5: Improve QoS error messages with actual depth values
+a3f69641cbbc36015eb50ad6170caeb26f9022de net/mlx5e: Remove unused mdev param from RSS indir init
+fc92cddd7a833d51ef857eca672214cab755ceaa net/mlx5e: Introduce mlx5e_rss_init_params
+c40a94ccfdc76fa26c620d1748ebda35c2153dd9 net/mlx5e: Introduce mlx5e_rss_params for RSS configuration
+a833538d1d8db96b78bac04eec9be51b297f1d23 net/mlx5e: Use extack in set rxfh callback
+3cfb33f92dfb118ccaec5613c677f444af12bcc7 Merge branch 'net-mlx5-misc-changes-2025-09-28'
+cd9ea7da41a449ff1950230a35990155457b9879 octeontx2-vf: fix bitmap leak
+92e9f4faffca70c82126e59552f6e8ff8f95cc65 octeontx2-pf: fix bitmap leak
+daa26ea63c6f848159821cd9b3cbe47cddbb0a1c Merge branch 'octeontx2-fix-bitmap-leaks-in-pf-and-vf'
 ae28ed4578e6d5a481e39c5a9827f27048661fdd Merge tag 'bpf-next-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 f4e0ff7e45c30f4665cfbbe2f0538e9c5789bebc Merge tag 'rust-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 50c19e20ed2ef359cf155a39c8462b0a6351b9fa Merge tag 'nolibc-20250928-for-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/nolibc/linux-nolibc
+1a98f5699bd57c9b3f66ec54cc38571d5e42ffb1 Revert "Documentation: net: add flow control guide and document ethtool API"
+d9fcb34f8b3bf793fadb591aafc76f27ecb48ff0 dt-bindings: net: sun8i-emac: Add A523 GMAC200 compatible
+f603808a98afd37c50a736f1d3c8e186b625b115 net: stmmac: Add support for Allwinner A523 GMAC200
+936f160a95cddd361d9c70798464e87a9cc57a37 Merge branch 'net-stmmac-add-support-for-allwinner-a523-gmac200'
+f1455695d2d99894b65db233877acac9a0e120b9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e8c81284032ad9ba9ec3a89311c587aad0c84beb Merge branches 'ib-mfd-char-crypto-6.18', 'ib-mfd-gpio-6.18', 'ib-mfd-gpio-hwmon-i2c-can-rtc-watchdog-6.18', 'ib-mfd-gpio-input-pinctrl-pwm-6.18', 'ib-mfd-input-6.18', 'ib-mfd-input-rtc-6.18' and 'ib-mfd-power-regulator-6.18' into ibs-for-mfd-merged
 81a2c31257411296862487aaade98b7d9e25dc72 mfd: simple-mfd-i2c: Add compatible strings for Layerscape QIXIS FPGA
 0b9483bf7f319468bd37351c112c8f0bfe242028 mfd: adp5585: Drop useless return statement
@@ -1007,48 +1050,5 @@ e1b1d03ceec343362524318c076b110066ffe305 Merge tag 'for-6.18/block-20250929' of 
 58809f614e0e3f4e12b489bddf680bfeb31c0a20 Merge tag 'drm-next-2025-10-01' of https://gitlab.freedesktop.org/drm/kernel
 f79e772258df311c2cb21594ca0996318e720d28 Merge tag 'media/v6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 07fdad3a93756b872da7b53647715c48d0f4a2d0 Merge tag 'net-next-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-9069aa341cd2c6e8567ff08d9ee296170c327ec7 ice: fix lane number calculation
-b566fd0fefd6ac82f988f5f63b0a06e214bd47f1 ice: Allow 100M speed for E825C SGMII device
-4e2bbd8a214fcdc5236f72c867498d945996b456 idpf: cleanup remaining SKBs in PTP flows
-bd0ac2dbf1d68790ed6c325f73998693bcf73665 ice: Fix enable_cnt imbalance on resume
-7c573dd9ded169c8ef1bb23235a1e4ab0e129723 ice: Fix enable_cnt imbalance on PCIe error recovery
-1bef2e623a24dcd828e7dbc2f4a7acb8ed8e37bb i40e: Fix enable_cnt imbalance on PCIe error recovery
-8ce0be7da0eaaa9e8c62534322b5dd2c51c112dc ixgbevf: fix getting link speed data for E610 devices
-8e5ffe8183cc267a0f296e4adf767f0796914e99 ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
-bc6b7a0cf15e4f6eb1c5673d5ecddedacf98a650 ixgbevf: fix mailbox API compatibility by negotiating supported features
-ed0e0127c31448d9ebafb1d14f5f9beb8010125f ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
-45975c20214c401944f2f46bbbb75302db662990 ice: add flow parsing for GTP and new protocol field support
-c7c1a42aad54a8dc0b063f5a970c5165211a2bc0 ice: add virtchnl and VF context support for GTP RSS
-c4c4179f01f73af1976816870df11be9d00bd0c4 ice: improve TCAM priority handling for RSS profiles
-8b37a49156c734ed2fa037c679da3e64dc51a1b2 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
-316aaaeb0aeced72f732c974cef7116b9f56d7d7 iavf: add RSS support for GTP protocol via ethtool
-c498ba3fca0d33291e996967a79a547ae8ff2434 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-bfb4c0746691d52549bfaf4ae2054a793dfbbb55 ixgbe: fix too early devlink_free() in ixgbe_remove()
-16879c799b01ad09aba24a9a9dfa88de337e9412 ice: add recovery clock and clock 1588 control for E825c
-6aa914d078d5bb6f3cf2be02a977e14c195faed5 devlink: Add new "max_mac_per_vf" generic device param
-3f3edbe896f533ca57e5f4598e6e6178696106bc i40e: support generic devlink param "max_mac_per_vf"
-a5b91096c4ee8949115bd531482b14bb87bfce87 e1000e: Introduce private flag to disable K1
-876d0bd08146b4ffb12b51d02e78af27c3f571e7 idpf: convert vport state to bitmap
-12c6dd13ba48b5e994bfeb06602d0c95bcd1e376 idpf: fix possible race in idpf_vport_stop()
-9e914795f6b0006886cf1132d1a615c80f4950cd ice: enforce RTNL assumption of queue NAPI manipulation
-5fc5d42a374f20a6f1fb54e422c3a40020b6382c ice: move service task start out of ice_init_pf()
-47328296d4848c3be92d2d3d834fbbb315d8b25b ice: move ice_init_interrupt_scheme() prior ice_init_pf()
-ad67adae690e8b5aed212ad809d6e8b80ee3ff07 ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
-587e8de6554763eb63fa10d032f3acb99648b3e9 ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
-8bb46faf797680abf16450944455ee4f0863bce9 ice: move ice_init_pf() out of ice_init_dev()
-d58954c014b63abf2590cd261daaf3c311b57622 ice: extract ice_init_dev() from ice_init()
-b6463abc1878cd271b82fc3061d7843c5a294055 ice: move ice_deinit_dev() to the end of deinit paths
-e58ca417b0f4566952fe7d76456f16b7598822ba ice: remove duplicate call to ice_deinit_hw() on error paths
-58ca85a5495b842f68e3584e7f3836c26d638ab3 net: docs: add missing features that can have stats
-d76cb6c4732fd7df53b9ef2004cdb68e2ee7d9df ice: implement ethtool standard stats
-ae309676032c1e9f8bcaa2ec246c83db0ae8478c ice: add tracking of good transmit timestamps
-237e76768fe31874b038c564caa54d119970485b ice: implement transmit hardware timestamp statistics
-27f95ec54acf12c1f4bd455bef88a8e991fd7464 ice: refactor to use helpers
-ee54707cc971b89b8e287db5eec71c8361c655f8 igc: power up the PHY before the link test
-8c183d546caf2696f400814be1f2a7de76fe9c95 ixgbe: preserve RSS indirection table across admin down/up
-6d0fb0da803930412f0ebeb6b8c1f920456236ad idpf: remove duplicate defines in IDPF_CAP_RSS
-d18ed08cd9590518ccc3cf6b50ea38cf6cc72805 ice: remove legacy Rx and construct SKB
-9d978a500b67826d6ee1c6087779e5dfba9b9ba1 ice: drop page splitting and recycling
-aacc48c9de6afe5fa99ff168d6954f10c254010c ice: switch to Page Pool
 
---===============1919181487228826515==--
+--===============1454229039558757012==--
