@@ -1,19 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sat, 04 Oct 2025 14:18:23 -0000
-Message-Id: <175958750329.3361357.15473520796504483728@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2359215611463821052=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 04 Oct 2025 14:24:53 -0000
+Message-Id: <175958789396.3366705.10339539505105329982@gitolite.kernel.org>
+
+--===============2359215611463821052==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 117080518dd0ac9ad45cec8239475323c9591965
-    new: 2620eecf30c5beb508b5a68a8231866923090dda
-    log: |
-         2620eecf30c5beb508b5a68a8231866923090dda feat!(tpm2sh): baseline for 0.11
-         
+  - ref: refs/heads/next
+    old: 688cf647bad9fbd4e46a48a357be8ba4b572afb3
+    new: 0997223af577d1c50cbfa280bcbd3345bf30385c
+    log: revlist-688cf647bad9-0997223af577.txt
+
+--===============2359215611463821052==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-688cf647bad9-0997223af577.txt
+
+9b8d24a49fe83787208479d51f320cead25e856c KEYS: encrypted: Use SHA-256 library instead of crypto_shash
+8be70a8fc667c33e69257a72e8092f07c828241e security: keys: use menuconfig for KEYS symbol
+48909a39d695730e3f3e8f35515ac04ace90ba06 tpm: Disable TPM2_TCG_HMAC by default
+2b24c902778fe707537cb377909417b5bcf63f0b tpm: Compare HMAC values in constant time
+d97154e7e9bd7ae20420f823d6ef804af2d6901c tpm: Use HMAC-SHA256 library instead of open-coded HMAC
+42aeac3331e587d436eb55a540ec54101d1ce032 tpm_tis: Fix incorrect arguments in tpm_tis_probe_irq_single
+2c2632a6a8acfff323872eba2be5872c06d77aa7 tpm: use a map for tpm2_calc_ordinal_duration()
+c99085927d2662016497cbafa85f5e98ae01e5d6 tpm: Prevent local DOS via tpm/tpm0/ppi/*operations
+b6d30aacaf3ab2355009836bef749b4e14f71e94 tpm: Ensure exclusive userspace access when using /dev/tpm<n>
+87c0c7d6d9bc5c62e5205d8c8b0191fc1de892b4 tpm: Remove tpm_find_get_ops
+6741fe6658c552e06190559a1e0c18ba49cc1b22 tpm: Allow for exclusive TPM access when using /dev/tpm<n>
+0997223af577d1c50cbfa280bcbd3345bf30385c tpm: Require O_EXCL for exclusive /dev/tpm access
+
+--===============2359215611463821052==--
