@@ -1,46 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2003754481398095910=="
+Content-Type: multipart/mixed; boundary="===============2350283202503601725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 04 Oct 2025 17:18:08 -0000
-Message-Id: <175959828866.3513896.17755105173873344803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 04 Oct 2025 17:19:53 -0000
+Message-Id: <175959839348.3515522.2768253218693483633@gitolite.kernel.org>
 
---===============2003754481398095910==
+--===============2350283202503601725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 12f9e4a62a787852d4e9f7cb3a6f6d3dda668e4c
-    new: 5ae3a05ec4266e86f3d1c91a22efc6e274e26c95
-    log: revlist-12f9e4a62a78-5ae3a05ec426.txt
+  - ref: refs/heads/dev
+    old: 0c9ebd400d9a65155516b770637030886df3fca6
+    new: 63162810c64fb2a83c7e0a741a127cc7ad43bc8c
+    log: revlist-0c9ebd400d9a-63162810c64f.txt
+  - ref: refs/heads/dev.2025.10.04a
+    old: 0000000000000000000000000000000000000000
+    new: 0c9ebd400d9a65155516b770637030886df3fca6
 
---===============2003754481398095910==
+--===============2350283202503601725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12f9e4a62a78-5ae3a05ec426.txt
+Content-Disposition: attachment; filename=revlist-0c9ebd400d9a-63162810c64f.txt
 
-737a72eed2e50587828a44f6e5c9832097c15eaa NFSD: Prevent a NULL pointer dereference in fh_getattr()
-d724252e737cf8624cd35134efa45f14867b34f9 NFSD: pass nfsd_file to nfsd_iter_read()
-1f9961833492e5c72ef1a0f79e7c2dc083467df1 NFSD: Relocate the xdr_reserve_space_vec() call site
-684b774d82a4f2f72ddf7aec1884ab8d5fbc11df NFSD: Implement NFSD_IO_DIRECT for NFS READ
-86734a77b0c737e417e3d713c5d52e0594d98105 nfsd: delete unreachable confusing code in nfs4_open_delegation()
-530b68775148a00fe855d9080a2aa5b68f2a034e NFSD: Define actions for the new time_deleg FATTR4 attributes
-752da98b666350913ac23238f5c8ac1ed3b8511e NFSD: Fix crash in nfsd4_read_release()
-f684c2428a340ee221a397974adf293b5d598d1d nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
-99a8fe031d98960b5eb88af511184d2de06b39cc NFSD: Update comment documenting unsupported fattr4 attributes
-3fc2a51b648fc3fb3cde3ca10948faa5387f5207 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
-388aaec28f6bf2ac30216f322db1c434139d5273 svcrdma: Increase the server's default RPC/RDMA credit grant
-b94708d49420881366669b7010269f159a6e1b70 NFSD/blocklayout: Fix minlength check in proc_layoutget
-88f8b3f8c4fc8c351aaae49d0fec4e7b5e6ad0db NFSD/blocklayout: Extract extent mapping from proc_layoutget
-76fc273123889e9b1629fc9f1ec40465dbda1a73 NFSD/blocklayout: Introduce layout content structure
-8a3c46f07fb5c3cd6c1cc807d9a22e1531100625 NFSD/blocklayout: Support multiple extents per LAYOUTGET
-5ae3a05ec4266e86f3d1c91a22efc6e274e26c95 siw: Enable try_gso
+5d8f870264de9a6ce2a6dad836b2aa2e6054ef13 torture: Add kvm-series.sh to test commit/scenario combination
+09f978a9c056f93dbfc0eb53d9caace3630f5736 srcu: Permit Tiny SRCU srcu_read_unlock() with interrupts disabled
+8754119fcaedcefc8bc732f24fa9c62a3d7f8276 rcu: Re-implement RCU Tasks Trace in terms of SRCU-fast
+32d6d0f28950558afb4988552855374269efd7dc context_tracking: Remove rcu_task_trace_heavyweight_{enter,exit}()
+a2e4c69e0d7582b9d3f0d979d081d0915d56e6ce rcu: Clean up after the SRCU-fastification of RCU Tasks Trace
+7d77ce484132f5d1d89b77f222b413e64285689c rcu: Move rcu_tasks_trace_srcu_struct out of #ifdef CONFIG_TASKS_RCU_GENERIC
+e9fc7afa7e586060cc6538a95f0f5e0cbe35401f srcu: Create an srcu_expedite_current() function
+3f7acbe17943c055fbcae6f5c24ebd089c58e178 rcutorture: Test srcu_expedite_current()
+16b52e388a6b2ab1c105e2fc5ec40e2cc32fdc58 srcu: Create a DEFINE_SRCU_FAST()
+4103ea9b8cd278ff4c88a79cd3218c7d51c03159 rcu: Add noinstr-fast rcu_read_{,un}lock_tasks_trace() APIs
+e4b22769cf3234d405af2987df14732012203b6f rcu: Update Requirements.rst for RCU Tasks Trace
+154b794b619c1608cc58d7e2cdeb75f930c14f45 checkpatch: Deprecate rcu_read_{,un}lock_trace()
+6e4b56737ad95bfc409d4a2a88e5863cd629be0c srcu: Create an rcu_tasks_trace_expedite_current() function
+979d962b15286180a3f1587768d7ed169c651d95 rcutorture: Test rcu_tasks_trace_expedite_current()
+9a8596606798176201989f86896345d7134a47ec srcu: Make grace-period determination use ssp->srcu_reader_flavor
+c83a4dd249710f837832d2df15ef1ab744831484 rcutorture: Exercise DEFINE_STATIC_SRCU_FAST() and init_srcu_struct_fast()
+ed4a4bb68692ae581fa302600d96b639741b3303 refscale: Exercise DEFINE_STATIC_SRCU_FAST() and init_srcu_struct_fast()
+d82ab22fd7c6d2009021643190c746fe7ca27a8e srcu: Require special srcu_struct define/init for SRCU-fast readers
+e80e0669a8804de82af2356140261c431a2928cd srcu: Make SRCU-fast readers enforce use of SRCU-fast definition/init
+ea4f984c9b66e2f59200f0821ffed26f7d26b404 doc: Update for SRCU-fast definitions and initialization
+b0cfb6ae48f05c685c66a5a75025a43e2dc23c30 tracing: Guard __DECLARE_TRACE() use of __DO_TRACE_CALL() with SRCU-fast
+63162810c64fb2a83c7e0a741a127cc7ad43bc8c rcu: Mark diagnostic functions as notrace
 
---===============2003754481398095910==--
+--===============2350283202503601725==--
