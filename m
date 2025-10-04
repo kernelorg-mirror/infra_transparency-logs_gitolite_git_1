@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 04 Oct 2025 13:09:13 -0000
-Message-Id: <175958335351.3299629.8218973218077555725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 04 Oct 2025 13:21:01 -0000
+Message-Id: <175958406112.3310290.8457330880245377948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 56be0fe5f62c8d165b8c9c3d3bc1dab6e8443146
-    new: a22d167ed82505f770340c3a7c257c04ba24dac9
-    log: |
-         a22d167ed82505f770340c3a7c257c04ba24dac9 perf parse-events: Fix parsing of >30kb event strings
-         
+  - ref: refs/heads/v6.17-armsoc/dtsfixes
+    old: 0f860eef417df93eb0ae70bbfa8d26cb7e29244d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.17-rockchip-dtsfixes1
+    old: 33cd0cafa394703dd8ae781776090e2933f95914
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.17-rockchip-dtsfixes2
+    old: abeb9160769b3663a503f1b88520251f73b42148
+    new: 0000000000000000000000000000000000000000
