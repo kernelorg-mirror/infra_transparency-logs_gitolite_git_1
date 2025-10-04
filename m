@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sat, 04 Oct 2025 21:39:13 -0000
-Message-Id: <175961395302.3731147.4677195807614939241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 04 Oct 2025 21:39:54 -0000
+Message-Id: <175961399466.3731852.15193719054695592708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 757854f42d83aab44a72eedded3485887798a4fd
-    new: 46a6999a2d14a5f2239e7e712e5bbcf543f59034
-    log: |
-         80e2ccb38d412e80e2232242dab1bf5631e78560 qcom: Update DSP firmware for sa8775p platform
-         46a6999a2d14a5f2239e7e712e5bbcf543f59034 Merge branch 'robot/pr-0-1759560666' into 'main'
-         
+  - ref: refs/old/wip-crc-specialize-crc32c-avx512
+    old: 072a118eef44114eb3a10f9654acdf9269079b7a
+    new: 0000000000000000000000000000000000000000
