@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1638012798382987631=="
+Content-Type: multipart/mixed; boundary="===============2546433463628468116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 04 Oct 2025 09:48:28 -0000
-Message-Id: <175957130828.3135399.11288270621582185525@gitolite.kernel.org>
+Date: Sat, 04 Oct 2025 09:48:30 -0000
+Message-Id: <175957131066.3135476.1593566073901503702@gitolite.kernel.org>
 
---===============1638012798382987631==
+--===============2546433463628468116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 0adff1c8ffa9f86efcbd42d5cd6d565596a91013
-    new: 1e33137d47105a807262aa17e028374463876f85
-    log: revlist-0adff1c8ffa9-1e33137d4710.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: cb3005d4c490fe2489accd5408592683d705b455
+    new: cf8da11679ec4e54e2dd3cb147fb310a2230be52
+    log: revlist-cb3005d4c490-cf8da11679ec.txt
 
---===============1638012798382987631==
+--===============2546433463628468116==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0adff1c8ffa9-1e33137d4710.txt
+Content-Disposition: attachment; filename=revlist-cb3005d4c490-cf8da11679ec.txt
 
+c24928ac69be2390cdf456d126b464af079c57ef mfd: max77705: max77705_charger: move active discharge setting to mfd parent
+a96d68ea0ab7536c25a5304112484172a5acc803 Merge tag 'ib-max77705-for-v6.17-signed'
+1512231b6cc860ffbfbd85b295449dfb6977d357 bpf: Enforce RCU protection for KF_RCU_PROTECTED
+8b788d663861271c10905b23195bc6ae862caad2 selftests/bpf: Add tests for KF_RCU_PROTECTED
+3547a61ee2fe8f1fc46d4326a9517d97ae3614cd Merge branch 'update-kf_rcu_protected'
+d84510db8c1414b67167cdc452103c1f429588cc power: supply: max77705_charger: refactoring: rename charger to chg
+ef1e734dbe257ce8bc42383b9977b5558f061288 power: supply: max77705_charger: use regfields for config registers
+55af7b9bb66c1cf796142f75a76914e2c3df5d06 power: supply: max77705_charger: return error when config fails
+baedd8be7036233025527a78f209e34d03057872 power: supply: max77705_charger: add writable properties
+12a1185a06e3377af777e792ba7436862f8e528a power: supply: max77705_charger: rework interrupts
 bc7d3a0f92dad811110f5602f58fe756cefce2b8 power: supply: max77705_charger: use REGMAP_IRQ_REG_LINE macro
 55d225670def06b01af2e7a5e0446fbe946289e8 i40e: add validation for ring_len param
 aa68d3c3ac8d1dcec40d52ae27e39f6d32207009 i40e: fix idx validation in i40e_validate_queue_map
@@ -1040,15 +1050,5 @@ dba8acc3ef34ca5189d393b0dc4d3cdf0058fe49 Merge tag 'hsi-for-6.18' of git://git.k
 524c4a5daf92982cf16d9e6c8cdf8721abe35a11 Merge tag 'for-linus-6.18-1' of https://github.com/cminyard/linux-ipmi
 5fb024931949f3475260c84a0e4b0997af9c5530 Merge tag 'pinctrl-v6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 cf8da11679ec4e54e2dd3cb147fb310a2230be52 Merge tag 'i2c-for-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-d3c2191d493a9a017ea816f3b38dfbcadb6cccb5 i2c: rtl9300: Implement I2C block read and write
-85f1c01ce2f98a4925d2610d9d3f4c2749eb9331 i2c: rtl9300: use regmap fields and API for registers
-0395a5e8fd07645df6743fd2a6883708196d9d75 dt-bindings: i2c: realtek,rtl9301-i2c: fix wording and typos
-c840492ad7487dcb58b0f5f249793e7350114076 i2c: rtl9300: rename internal sda_pin to sda_num
-d1cef7afc3c79260d4d1a86f7a814de2a1bf3fe4 i2c: rtl9300: move setting SCL frequency to config_io
-d5b4fd6ed8ea3eb5dc072285a5e4c0ee32e829b2 i2c: rtl9300: do not set read mode on every transfer
-059374aa0ab11a758a9e2219e90361911397b03d i2c: rtl9300: separate xfer configuration and execution
-46fe8265685cb6003a0989b53e11e8afa4826572 i2c: rtl9300: use scoped guard instead of explicit lock/unlock
-99fd09e01db2c6fc4c6ffe851b337f64ff93e1b5 dt-bindings: i2c: realtek,rtl9301-i2c: extend for RTL9310 support
-1e33137d47105a807262aa17e028374463876f85 i2c: rtl9300: add support for RTL9310 I2C controller
 
---===============1638012798382987631==--
+--===============2546433463628468116==--
