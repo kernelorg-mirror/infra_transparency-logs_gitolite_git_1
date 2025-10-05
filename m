@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2712937794839732244=="
+Content-Type: multipart/mixed; boundary="===============4227007368232145371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 05 Oct 2025 18:12:56 -0000
-Message-Id: <175968797607.550780.11937594853038398186@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 18:12:58 -0000
+Message-Id: <175968797889.550876.12410550317943446927@gitolite.kernel.org>
 
---===============2712937794839732244==
+--===============4227007368232145371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: d540a33c436f67a220cca8521fd34fd921d65e22
-    new: 05d78060b494703ff63ece3776f5f06c8c881fd3
-    log: revlist-d540a33c436f-05d78060b494.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: 3514bc2e4999f1c8fdc9f350aa09328dc5a741d2
+    new: ba17d657a546f2d7a38f4b8457f22ec3ab931fa8
+    log: revlist-3514bc2e4999-ba17d657a546.txt
 
---===============2712937794839732244==
+--===============4227007368232145371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d540a33c436f-05d78060b494.txt
+Content-Disposition: attachment; filename=revlist-3514bc2e4999-ba17d657a546.txt
 
 b68f4867881a61ec04ce55a52a109d833e620001 block: check for valid bio while splitting
 d0eab655898c98dcdb9a1623d69d56efa5ff3746 block: add size alignment to bio_iov_iter_get_pages
@@ -151,5 +151,6 @@ f65b4d08cdfd9e09d151bd5be6ff07b3a50fe723 NFSD: Fix crash in nfsd4_read_release()
 56fd02db75142090014581c06cdb6f781079f1c2 NFSD/blocklayout: Extract extent mapping from proc_layoutget
 3060678c2fa8bbf417fd48451190c8bf1e24af17 NFSD/blocklayout: Introduce layout content structure
 05d78060b494703ff63ece3776f5f06c8c881fd3 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+ba17d657a546f2d7a38f4b8457f22ec3ab931fa8 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 
---===============2712937794839732244==--
+--===============4227007368232145371==--
