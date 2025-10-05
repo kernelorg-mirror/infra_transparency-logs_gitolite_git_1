@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9155892642241215481=="
+Content-Type: multipart/mixed; boundary="===============6711866663568633188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Sun, 05 Oct 2025 06:53:32 -0000
-Message-Id: <175964721213.4184262.6131528259000512500@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 06:54:41 -0000
+Message-Id: <175964728101.4185561.2107438116147574119@gitolite.kernel.org>
 
---===============9155892642241215481==
+--===============6711866663568633188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: bentiss
 changes:
-  - ref: refs/heads/master
-    old: 32d27cf535ead3b10e926c76dc5b6301920328b0
+  - ref: refs/heads/for-next
+    old: dabac188f8e4e30c78e111672ec981b4a9a58b6f
     new: 54ba6d9b1393a0061600c0e49c8ebef65d60a8b2
-    log: revlist-32d27cf535ea-54ba6d9b1393.txt
+    log: revlist-dabac188f8e4-54ba6d9b1393.txt
 
---===============9155892642241215481==
+--===============6711866663568633188==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-32d27cf535ea-54ba6d9b1393.txt
+Content-Disposition: attachment; filename=revlist-dabac188f8e4-54ba6d9b1393.txt
 
 dc095b37b09e1abbdb6daf5e69dbd0cd5265087e thermal/drivers/renesas/rzg3s: Add thermal driver for the Renesas RZ/G3S SoC
 6f769708d53ab029f09f78660680b4ad161092f2 thermal/drivers/rockchip: Unify struct rockchip_tsadc_chip format
@@ -1051,4 +1051,4 @@ b4e5bb555594826bb98aaf8bcd9f957f0428cb07 Merge tag 'keys-next-6.18' of git://git
 b66451723c45b791fd2824d1b8f62fe498989e23 Merge tag 'platform-drivers-x86-v6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 54ba6d9b1393a0061600c0e49c8ebef65d60a8b2 Merge tag 'hid-for-linus-2025093001' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============9155892642241215481==--
+--===============6711866663568633188==--
