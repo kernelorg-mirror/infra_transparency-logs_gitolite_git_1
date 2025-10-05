@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sun, 05 Oct 2025 16:47:49 -0000
-Message-Id: <175968286974.477342.17914008747394547952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Sun, 05 Oct 2025 16:51:41 -0000
+Message-Id: <175968310101.481352.8563639081090514470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 6f400e0c6aa96364342b27c66f0b3fad27c13019
-    new: a4bc6936c6120d16f36381a232c750d2f03659d0
+    old: 6d25a041a491742527dbdfe7c48911b8f8c8971e
+    new: 47e5f925ee92ab6de198489e45d56de8dd2ec085
     log: |
-         a4bc6936c6120d16f36381a232c750d2f03659d0 feat!(tpm2sh): baseline for 0.11
+         47e5f925ee92ab6de198489e45d56de8dd2ec085 refactor: remove TpmHt-redundant constants
          
