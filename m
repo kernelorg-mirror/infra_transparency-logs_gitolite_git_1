@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5545092373128742472=="
+Content-Type: multipart/mixed; boundary="===============1552120560574254368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 05 Oct 2025 15:04:31 -0000
-Message-Id: <175967667153.381482.16082778124545898305@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 15:04:59 -0000
+Message-Id: <175967669952.381794.3094688006123412336@gitolite.kernel.org>
 
---===============5545092373128742472==
+--===============1552120560574254368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 0997223af577d1c50cbfa280bcbd3345bf30385c
-    new: ffe76f5ff8000266e72aab145be470e7ba864909
-    log: revlist-0997223af577-ffe76f5ff800.txt
+  - ref: refs/heads/tpm2-session
+    old: 34bcee919cbd9edf5a1f0982177963ed721883be
+    new: 5ff746df84024ce3acd63bc2c69a92d76c5daf97
+    log: revlist-34bcee919cbd-5ff746df8402.txt
 
---===============5545092373128742472==
+--===============1552120560574254368==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0997223af577-ffe76f5ff800.txt
+Content-Disposition: attachment; filename=revlist-34bcee919cbd-5ff746df8402.txt
 
-e121be784d35e2950652b46258a87381e00270ab ACPI: property: Refactor acpi_fwnode_get_reference_args() to support nargs_prop
-bc8712f2b5250825968e6b0c3d2709a4b9d5d570 bpf: Emit struct bpf_xdp_sock type in vmlinux BTF
-11f40684ccd84e792eced110f0a5d3d6adbdf90d i2c: spacemit: disable SDA glitch fix to avoid restart delay
-db7720ef50e0103be70a3887bc66e9c909933ad9 i2c: spacemit: check SDA instead of SCL after bus reset
-0de61943244dec418d396633a587adca1c350b55 i2c: spacemit: ensure SDA is released after bus reset
-437e6c3e3175e40c07987be87eea1cf9d7b8f30f i2c: designware: convert to dev_err_probe() on request IRQ error
-2b7a2003ba01cde9a4958a50c55207f820766816 i2c: designware: use dev_err_probe() when probing platform device
-59ccb8176bd7e826d47962e891b460284f6978f0 i2c: mux: Simplify boolean assignment in i2c_mux_alloc
-12aad2960e9d6a32d7371e43cabcb02531ae3704 i2c: busses: Fix some spelling errors
-1193c46c1745cf809dead55ece4f3baa728f316c selftests/bpf: Test changing packet data from global functions with a kfunc
 105eb5dc74109a9f53c2f26c9a918d9347a73595 selftests/bpf: Fix flaky bpf_cookie selftest
 7b7387650dcf2881fd8bb55bcf3c8bd6c9542dd7 mm/hugetlb: fix folio is still mapped when deleted
 14967a9c7d247841b0312c48dcf8cd29e55a4cc8 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
@@ -1050,5 +1040,15 @@ e156d2cf0af50f3195e2111fee7e8015e73f1b5d tpm: Use HMAC-SHA256 library instead of
 46112c803d133cf91b701a4ac6720d54b1b4a4ce tpm: Remove tpm_find_get_ops
 ab5d950d8de4a02624ac903c51e9cadd41f50e36 tpm: Allow for exclusive TPM access when using /dev/tpm<n>
 ffe76f5ff8000266e72aab145be470e7ba864909 tpm: Require O_EXCL for exclusive /dev/tpm access
+a09691e4bb366823a4eb2972ba4a4569e90a7549 tpm: Skip stale tpmrm0 flushes and saves
+c484945cbfec153d5974e62c1f46122e01b1ab4c tpm: Cap the number of PCR banks
+2cc3c5ef753452e33d5304263b7a61bab9bab2a5 tpm: Use -EPERM as fallback error code in tpm_ret_to_err
+c4a5637e72b8672ee4fbea266ca305afde1db4be KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
+e11bc5fe689f0cb5c73465f88e33e3a8b3b4f592 tpm2-sessions: Remove 'attributes' from tpm_buf_append_auth
+d8f4402d60e61e3eeae06eb132833f4d8275df75 tpm2-sessions: Unmask tpm_buf_append_hmac_session()
+68c26fa7cc7f2c1ea36a35ea31b6dfe1e4880662 KEYS: trusted: Open code tpm2_buf_append()
+a3142be6440340db0011e95ff4b28f3064abca1a tpm-buf: check for corruption in tpm_buf_append_handle()
+64a369a1b93e82480132bcba1a4ba96efd7af4a9 tpm-buf: Remove chip parameter from tpm_buf_append_handle
+5ff746df84024ce3acd63bc2c69a92d76c5daf97 tpm-buf: Enable managed and stack allocations.
 
---===============5545092373128742472==--
+--===============1552120560574254368==--
