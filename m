@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 05 Oct 2025 21:31:18 -0000
-Message-Id: <175969987832.715398.7799990399825925641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sun, 05 Oct 2025 22:17:32 -0000
+Message-Id: <175970265282.751362.12180009600103996798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/rtc-next
-    old: e22f4d1321e0055065f274e20bf6d1dbf4b500f5
-    new: 87064da2db7be537a7da20a25c18ba912c4db9e1
-    log: |
-         87064da2db7be537a7da20a25c18ba912c4db9e1 rtc: pcf2127: fix watchdog interrupt mask on pcf2131
-         
+  - ref: refs/heads/vbios-asref-refactor-v1
+    old: 0000000000000000000000000000000000000000
+    new: cabda1c8a83b072a96af965b8088b43fd9c0171b
