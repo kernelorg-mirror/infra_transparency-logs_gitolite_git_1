@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2426238626214389834=="
+Content-Type: multipart/mixed; boundary="===============0419773349756660854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 05 Oct 2025 15:51:16 -0000
-Message-Id: <175967947616.428703.2762019439038873568@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 15:52:21 -0000
+Message-Id: <175967954125.429483.14934859281497587408@gitolite.kernel.org>
 
---===============2426238626214389834==
+--===============0419773349756660854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,28 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 5a9cd3ef1b330a920d288bc3bac1342c9e9e3aa6
-    new: 911e9f16800437cc96349f85c6c916c9d8c2d317
-    log: revlist-5a9cd3ef1b33-911e9f168004.txt
+  - ref: refs/heads/for-next
+    old: 911e9f16800437cc96349f85c6c916c9d8c2d317
+    new: 2cba4b54e6ab21d9324000f3cd009dbe9cad9c19
+    log: revlist-911e9f168004-2cba4b54e6ab.txt
 
---===============2426238626214389834==
+--===============0419773349756660854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a9cd3ef1b33-911e9f168004.txt
+Content-Disposition: attachment; filename=revlist-911e9f168004-2cba4b54e6ab.txt
 
-cf73c0adc635980124232a81d70007ecfbc3cf3e btrfs/301: test nested squota teardown
-9d618786c0d1d6d987f0a8c2dbe516714d6520ad btrfs/237: skip test on devices with conventional zones
-579a65fc0de0c3cf6c5ff7c0e0f0f60b13ab6545 btrfs/301: Make the test compatible with all the supported block sizes
-d6506d38a3ee8a947ba5f22a5c723bdac45c5917 generic/274: Make the pwrite block sizes and offsets to 64k
-6ec63265999335d27b4c2cd71ac6f5733ba030ef btrfs/137: Make this test compatible with all supported block sizes
-f5822b2bced6ca87d463c88391b86854f877f513 generic/563: Increase the iosize to cover for btrfs higher node sizes
-86a1a51cf62ed2a3e45cb4a8c3b210fc170d2440 dmthin: _notrun when dm-thin setup fails
-aff1e92c3f47416608ccbd6e637be75eb270bb55 generic/081: don't hang when running on devices with protection information
-fa19801cda23b2b67750bd5d01de77d1ef402033 generic/450: don't hang when running on devices with protection information
-6ca32795a99ec1da541caf827c4b3417080a37f5 fstests: btrfs: add a new test case to verify compressed read
-8735e3e15fc7059cb35262003921cb498bb83153 generic/365: Fix false failure when mapping ends with free space
-6dca84887d877bdb2c8e726afbcab39ffb3c6d67 generic/363: mention btrfs kernel fix for block size < page size scenario
-bfa369f55a2b5994c9f2110cf6d425ea87e282a7 fstests: add commit IDs for kernel fixes already merged upstream
-8dd133d0763bdc92f8e0a53fa706ea9e09b390ce fstests: generic/228: do not rely on the bash core dump output
-911e9f16800437cc96349f85c6c916c9d8c2d317 fstests: generic/733: avoid output difference due to bash's version
+e2932df1b5d0b18d7f9a4071f731736ec18aa8d7 xfs/513: remove attr2 and ikeep tests
+21d6c88606ce7bc22d4079db97ac88bb790bd052 xfs/613: remove attr2 tests
+c3b7b05756d6e2860f8937d077db8d134843d126 xfs/539: Remove test for good
+986a4cc1f5a716e435b8aaf241e63e76bdb96340 common/rc: destroy loop dev before fallback recreation
+38ae4c5048a0d0732e63143415d292113f84e154 f2fs/021: test quota mount option
+9460a05243ac9ec93f7184d5d2efc59fc69c63a2 f2fs/022: do sanity check on footer of non inode dnode
+ebfd9f1ea7c636c85235d11b99eb60d523fea902 btrfs/012 btrfs/136: skip the test if ext* doesn't support the block size
+f8d78645f2ab02557e1e6728c0a075b696942314 btrfs/192 btrfs/30[456]: explicitly specify block size to avoid false alerts
+57589265bf749fa34ade172c93322dfc1fc084c9 btrfs/26[67]: update the stale comments
+ef1028cf0379a091c0063b15ca6ade114680dfcc file_attr: introduce program to set/get fsxattr
+4eb40174d77c1bfbbaaeeda68bab9ccd51516842 generic: introduce test to test file_getattr/file_setattr syscalls
+2cba4b54e6ab21d9324000f3cd009dbe9cad9c19 xfs: test quota's project ID on special files
 
---===============2426238626214389834==--
+--===============0419773349756660854==--
