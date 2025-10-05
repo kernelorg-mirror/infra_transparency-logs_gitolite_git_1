@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1517712106380121818=="
+Content-Type: multipart/mixed; boundary="===============7044150624146488284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 05 Oct 2025 15:36:51 -0000
-Message-Id: <175967861170.414525.12596904453989687460@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 15:36:54 -0000
+Message-Id: <175967861432.414623.17385114954682715332@gitolite.kernel.org>
 
---===============1517712106380121818==
+--===============7044150624146488284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: 49b7a31af4e072915133a6ce432140e7ac2988e0
-    new: d540a33c436f67a220cca8521fd34fd921d65e22
-    log: revlist-49b7a31af4e0-d540a33c436f.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: c97bf7962b95fdedcc4a90fc3b584ea544afcdba
+    new: 3514bc2e4999f1c8fdc9f350aa09328dc5a741d2
+    log: revlist-c97bf7962b95-3514bc2e4999.txt
 
---===============1517712106380121818==
+--===============7044150624146488284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49b7a31af4e0-d540a33c436f.txt
+Content-Disposition: attachment; filename=revlist-c97bf7962b95-3514bc2e4999.txt
 
 28e95727315569ab6bcea6e4aabb682d6c4e6baa drm/i915: Use kernel_write() in shmem object create
 1ad2c05ea6f095d0241af55f8f7bb950548a94ea drm/i915: Refactor shmem_pwrite() to use kiocb and write_iter
@@ -158,5 +158,6 @@ dc392bfd99725968db86db6bde61311a0c91e9c4 NFSD: Define actions for the new time_d
 be658fec8f2838d4c6c526f592cc1210a1a31a03 NFSD/blocklayout: Extract extent mapping from proc_layoutget
 218ad6a92daadb673e5de2db34435a7691a4a8d2 NFSD/blocklayout: Introduce layout content structure
 d540a33c436f67a220cca8521fd34fd921d65e22 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+3514bc2e4999f1c8fdc9f350aa09328dc5a741d2 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 
---===============1517712106380121818==--
+--===============7044150624146488284==--
