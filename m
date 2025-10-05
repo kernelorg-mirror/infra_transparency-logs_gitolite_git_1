@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0728282691642839756=="
+Content-Type: multipart/mixed; boundary="===============5545092373128742472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 05 Oct 2025 15:04:11 -0000
-Message-Id: <175967665172.381001.14941041088753209007@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 15:04:31 -0000
+Message-Id: <175967667153.381482.16082778124545898305@gitolite.kernel.org>
 
---===============0728282691642839756==
+--===============5545092373128742472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 0997223af577d1c50cbfa280bcbd3345bf30385c
     new: ffe76f5ff8000266e72aab145be470e7ba864909
     log: revlist-0997223af577-ffe76f5ff800.txt
 
---===============0728282691642839756==
+--===============5545092373128742472==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e156d2cf0af50f3195e2111fee7e8015e73f1b5d tpm: Use HMAC-SHA256 library instead of
 ab5d950d8de4a02624ac903c51e9cadd41f50e36 tpm: Allow for exclusive TPM access when using /dev/tpm<n>
 ffe76f5ff8000266e72aab145be470e7ba864909 tpm: Require O_EXCL for exclusive /dev/tpm access
 
---===============0728282691642839756==--
+--===============5545092373128742472==--
