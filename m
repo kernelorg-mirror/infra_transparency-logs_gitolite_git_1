@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1976368363613795475=="
+Content-Type: multipart/mixed; boundary="===============1517712106380121818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 05 Oct 2025 15:36:48 -0000
-Message-Id: <175967860895.414307.16598569109763553811@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 15:36:51 -0000
+Message-Id: <175967861170.414525.12596904453989687460@gitolite.kernel.org>
 
---===============1976368363613795475==
+--===============1517712106380121818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-next
-    old: fea83d51d15bb37d6403a30dba81350d7be126b4
-    new: f0f448c9d77cbb56acf220d9304f4956a4587358
-    log: revlist-fea83d51d15b-f0f448c9d77c.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing
+    old: 49b7a31af4e072915133a6ce432140e7ac2988e0
+    new: d540a33c436f67a220cca8521fd34fd921d65e22
+    log: revlist-49b7a31af4e0-d540a33c436f.txt
 
---===============1976368363613795475==
+--===============1517712106380121818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fea83d51d15b-f0f448c9d77c.txt
+Content-Disposition: attachment; filename=revlist-49b7a31af4e0-d540a33c436f.txt
 
 28e95727315569ab6bcea6e4aabb682d6c4e6baa drm/i915: Use kernel_write() in shmem object create
 1ad2c05ea6f095d0241af55f8f7bb950548a94ea drm/i915: Refactor shmem_pwrite() to use kiocb and write_iter
@@ -137,5 +137,26 @@ a4e1c747d9447d0b038eeeade06383256ee94c53 NFSD: Reduce DRC bucket size
 76746c0357e0f34d7d9ad893f168f3138395acc8 NFSD: Add io_cache_{read,write} controls to debugfs
 5593b70629d91caee8d04e6b062fa93eb08a2585 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
 f0f448c9d77cbb56acf220d9304f4956a4587358 nfsd: discard nfserr_dropit
+aeede6025c72dcaa3bfc3e75317e084ec033c363 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+d8dec7c76165f29b1fe40f0260b48a1c0b3888a1 NFSD: Define a proc_layoutcommit for the FlexFiles layout type
+1445713108083686334dd6a57a576fd3a2789ad1 NFSD: Add array bounds-checking in nfsd_iter_read()
+7ffe9b21b822a3254fdae6e68b50f488d6b1ece3 svcrdma: Release transport resources synchronously
+bff090c4cc32db38516a6b7551d177fcbcb0b5c9 nfsd: fix refcount leak in nfsd_set_fh_dentry()
+1e7653dc67b0caf3ae8690af1192f16cc6e0e2dd NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+c81dc31e17fa8c9417e0e058e9322eeefabc1f4b NFSD: Prevent a NULL pointer dereference in fh_getattr()
+d2d9b454a07f55b3b54c36a54737204788cac9dd NFSD: pass nfsd_file to nfsd_iter_read()
+10235ab75044b77bb875e8332bc09717b29b30bd NFSD: Relocate the xdr_reserve_space_vec() call site
+e9d0727ed82304fdb33ff9a0d279d962189590b4 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+c842de6ac548fb50908e6b0871a32bf4e63432ef nfsd: delete unreachable confusing code in nfs4_open_delegation()
+dc392bfd99725968db86db6bde61311a0c91e9c4 NFSD: Define actions for the new time_deleg FATTR4 attributes
+8c5f9e84057f8da21a25da4df16f1a9214dd9bed NFSD: Fix crash in nfsd4_read_release()
+4b67943d183b71d590b7f71455d8e04163ed967c nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+5bcd972a1e9a74b42e30516c991251859aeb4167 NFSD: Update comment documenting unsupported fattr4 attributes
+3908305b26c4a73a1564ac88146b9861a3a1549c Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+6f54063375915daf1c789d8868a3f9229f7b761d svcrdma: Increase the server's default RPC/RDMA credit grant
+5966d45f797e37c7b04872d898f29ca21dc48168 NFSD/blocklayout: Fix minlength check in proc_layoutget
+be658fec8f2838d4c6c526f592cc1210a1a31a03 NFSD/blocklayout: Extract extent mapping from proc_layoutget
+218ad6a92daadb673e5de2db34435a7691a4a8d2 NFSD/blocklayout: Introduce layout content structure
+d540a33c436f67a220cca8521fd34fd921d65e22 NFSD/blocklayout: Support multiple extents per LAYOUTGET
 
---===============1976368363613795475==--
+--===============1517712106380121818==--
