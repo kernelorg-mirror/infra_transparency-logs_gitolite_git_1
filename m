@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 05 Oct 2025 21:17:43 -0000
-Message-Id: <175969906366.703626.7320582492961669853@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 21:31:18 -0000
+Message-Id: <175969987832.715398.7799990399825925641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
   - ref: refs/heads/rtc-next
-    old: f38bdd730914be1fcd63240af89a2dc802148c8a
-    new: e22f4d1321e0055065f274e20bf6d1dbf4b500f5
+    old: e22f4d1321e0055065f274e20bf6d1dbf4b500f5
+    new: 87064da2db7be537a7da20a25c18ba912c4db9e1
     log: |
-         e22f4d1321e0055065f274e20bf6d1dbf4b500f5 rtc: zynqmp: Restore alarm functionality after kexec transition
+         87064da2db7be537a7da20a25c18ba912c4db9e1 rtc: pcf2127: fix watchdog interrupt mask on pcf2131
          
