@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7906299245554692611=="
+Content-Type: multipart/mixed; boundary="===============5010888257143270367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 05 Oct 2025 04:57:22 -0000
-Message-Id: <175964024296.4086871.6133360081949731323@gitolite.kernel.org>
+Date: Sun, 05 Oct 2025 05:36:29 -0000
+Message-Id: <175964258915.4118747.9286120293029377592@gitolite.kernel.org>
 
---===============7906299245554692611==
+--===============5010888257143270367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/wip-dm-crypt-md5
-    old: fe67e5de78283dd0bc925618da0a8efc7c4ede97
-    new: 155658cfc77537ae9e5cb2883e9dc24c3d3283b1
-    log: revlist-fe67e5de7828-155658cfc775.txt
+  - ref: refs/heads/wip-ecryptfs-md5
+    old: c792e911d509a7b9b047cee9a8a98f3e0f1ce384
+    new: 00119f9443c7abb73fa0f98b5891c4ab87274e13
+    log: revlist-c792e911d509-00119f9443c7.txt
 
---===============7906299245554692611==
+--===============5010888257143270367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe67e5de7828-155658cfc775.txt
+Content-Disposition: attachment; filename=revlist-c792e911d509-00119f9443c7.txt
 
 5225c689dd9048b67ddf3044da68cc17ab1aa04e staging: rtl8723bs: fix comment formatting in basic_types.h
 520c9fde09b557559fe512cc5b2ba689cd08567e staging: rtl8723bs: fix if-statement alignment and line continuation in rtw_ap.c
@@ -916,6 +916,6 @@ cc07b0a3afc8c15c1308497033453b44f7ccfc49 Merge tag 'mtd/for-6.18' of git://git.k
 c6006b8ca14dcc604567be99fc4863e6e11ab6e3 Merge tag 'usb-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 59697e061f6aec86d5738cd4752e16520f1d60dc Merge tag 'staging-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 6093a688a07da07808f0122f9aa2a3eed250d853 Merge tag 'char-misc-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-155658cfc77537ae9e5cb2883e9dc24c3d3283b1 dm-crypt: Use MD5 library instead of crypto_shash
+00119f9443c7abb73fa0f98b5891c4ab87274e13 ecryptfs: Use MD5 library instead of crypto_shash
 
---===============7906299245554692611==--
+--===============5010888257143270367==--
