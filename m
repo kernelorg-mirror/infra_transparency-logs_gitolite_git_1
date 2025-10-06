@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2661810468437751555=="
+Content-Type: multipart/mixed; boundary="===============8506935564652689545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 06 Oct 2025 09:16:37 -0000
-Message-Id: <175974219748.1346926.15267288805344984297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 06 Oct 2025 09:16:50 -0000
+Message-Id: <175974221082.1347344.1975997989948300394@gitolite.kernel.org>
 
---===============2661810468437751555==
+--===============8506935564652689545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: d6306a3d5577769b179ae4e448fd144e2b0f7717
-    new: 83d59d81b20c09c256099d1c15d7da21969581bd
+  - ref: refs/notes/signatures/tar
+    old: be4e7d5203d1ac2083a11579857efd01fb4d66b3
+    new: f25a51155ecd30b787a3228c0ee7e267872e9739
     log: |
-         83d59d81b20c09c256099d1c15d7da21969581bd slab: Fix using this_cpu_ptr() in preemptible context
+         f25a51155ecd30b787a3228c0ee7e267872e9739 Notes added by 'git notes add'
          
 
---===============2661810468437751555==
+--===============8506935564652689545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1759742252 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1759742192-c995518069820bd494e7c3485374f3d9bc765750
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759742269 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1759742208-fa537817b4eb2dbe4edbecae566ad05ef7edfbcc
 
-d6306a3d5577769b179ae4e448fd144e2b0f7717 83d59d81b20c09c256099d1c15d7da21969581bd refs/heads/slab/for-next-fixes
+be4e7d5203d1ac2083a11579857efd01fb4d66b3 f25a51155ecd30b787a3228c0ee7e267872e9739 refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjjiSwbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaZkkH/1iJGqsqniGjaLxr+h+7
-sdThvaTfxuUg8v5sXkr4ujZqMkpAeb8EWWHY9k997NSvbxched302R8NOvEE1SZl
-DY3JQbOxAKPd/G9vj7eiHQcQTMh07QqTAUMyrQDbWTFi+pzDF6ZqrzhsATQzO5d/
-8G551Bpp4yAae8NiOvNRxC63Sq3uYE424FX276KVeogdwI41SXJSQrJBzsM9hRo3
-wj5ZNp8P9kHZPrLF96YhYtgYoRWdCSwspel1RAGc0eK85oWmSOTFt2N28MlwjAAy
-+H2baNrmZpXUPom6DPYkp21YukT3RweHvMEaIogpR3/GwOwKqkPR2b3SN93axENz
-8qE=
-=bSYZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjiT0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SDIP/An5QkzH2O4HwFgNp3uM
+qXA7bnwjBHdDUOP66N0prVIU6GLU39AXu/pScITA87jx9zdKlUL+JRzKNe2Y+Qsm
+P5vOIl2tXijfHJkvhk762SoZUgiUlHuHaaApXo5MGjj4gphdDf7+duqj8FPfufwo
+awBpxl+HFLRWztXGrfDA1e1AICLM+D2mynPBn/GP/j2AcPKSuKm+cj4VmYWVW8cL
+TCBpFV34uo6rxbaXYZclTG+OsYAxxKSRE2oJMzVQJ8B/8qtQm1AUHM+niZbBGopv
+eimm3bZjS4jFJBykbgS5h3CMtZSxMJ1JV2fS4grH2EGIwXSICoSWrag8GCadhN63
+PdIpo6gQVR9YYPFoYHmbi+rkmA0HKW/lZPdwFugRPb8QmulA2IXxJIFIMzUauJCN
+QLalnmf4/kByjMoU1RVwJW979vssZsbwa8NH5v9UTZFXyqKh5205P2NDc8BqTzJT
+1unKGke7fkvtDoRuQCwhFllhFReN3uAlJgovqqk4k2tlZxcmtzN2vtw+kadoILCp
+Np9qnKGG9/aDayu0sU9Wnf+Eijz1abFVz8jSB41lqZogxyQq7ARKTmZN4yuhFOL6
+TIrZbdmGGBkuRLOTNG7owx0v01+YKajBJ3l7RlCYZSomBDcjpAerd36+oVfXkcZF
+cJ2Cm3Hv/wZn6GVuA3d2y8gl
+=8eVa
 -----END PGP SIGNATURE-----
 
---===============2661810468437751555==--
+--===============8506935564652689545==--
