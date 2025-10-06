@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0025141377945838233=="
+Content-Type: multipart/mixed; boundary="===============5872821146567740341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 06 Oct 2025 22:15:10 -0000
-Message-Id: <175978891084.2110259.7618843153413940001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 06 Oct 2025 22:15:26 -0000
+Message-Id: <175978892673.2110560.5053879447489864560@gitolite.kernel.org>
 
---===============0025141377945838233==
+--===============5872821146567740341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: f3b601f900902ab80902c44f820a8985384ac021
     log: revlist-a22d167ed825-f3b601f90090.txt
 
---===============0025141377945838233==
+--===============5872821146567740341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ e7e86d7697c6ed1dbbde18d7185c35b6967945ed perf build: Disable thread safety analy
 5205c3d002662093150fdcfd2a236ab897ffb5a5 perf tests: Don't retest sections in "Object code reading"
 f3b601f900902ab80902c44f820a8985384ac021 perf tools: Fix arm64 libjvmti build by generating unistd_64.h
 
---===============0025141377945838233==--
+--===============5872821146567740341==--
