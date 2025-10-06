@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1155915766308345793=="
+Content-Type: multipart/mixed; boundary="===============2414472764282537611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 06 Oct 2025 08:37:37 -0000
-Message-Id: <175973985735.1310726.6407853882492803284@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 08:37:40 -0000
+Message-Id: <175973986092.1310918.14138893364308269254@gitolite.kernel.org>
 
---===============1155915766308345793==
+--===============2414472764282537611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: cbf33b8e0b360f667b17106c15d9e2aac77a76a1
     new: fd94619c43360eb44d28bd3ef326a4f85c600a07
     log: revlist-cbf33b8e0b36-fd94619c4336.txt
 
---===============1155915766308345793==
+--===============2414472764282537611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759739914 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759739919 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1759739854-b5ec12590dc4645979e41b28bd9d91374fca59b3
+nonce 1759739859-3f42eb9604cface7ee314798a5ee37eb9004d209
 
-cbf33b8e0b360f667b17106c15d9e2aac77a76a1 fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/main
+cbf33b8e0b360f667b17106c15d9e2aac77a76a1 fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjgAobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oyMP/R9LElY6+SJeuE1sJcXO
-GTpspsHIj9dhPOcA79IU8fZDQ2oFBEEhnBm+4tGnrtSgyWiZgYOvWaus3qn1xBgD
-Kkc+k6kDoOn2rm7kdhC5rTw7caZy3syITtYRkpTqMWq/93AmaQQrd8hg9giS6LrE
-4bKhaXF44HDSazq8ShQPgO56FoVIK3nCsLNMVPJIQF0jeYNxR4Hf6zsB7okVJeHm
-94gg+0udK0KFB/iqYfkbDcWn8R8Tj1iVY2y/4H8MPCIM15Y16pSy6bEiXA2bJRZY
-W/xrulHkL6PFT4/gFa6ayMpUEC/8zGDdDmwqVZ/tBhQFOhUy3rLzeTZjb/VE5CSK
-/Lm8Y6PKk7RNANET/+gZ0xtmwCL6hMUck/mBfvKKoLELxcRrgXpK9yMbLQdG1VFR
-jlVwWHYVgVAnUdxfWnzYJ2bnpW1U7WQmwL+9KflPaJEzQ/3Va2u48ZHFpRZnB3w8
-ieARiXhEp1QwL1vqaDl7B7ulvSbOGh4fvU6MXMFmWgSdnrFOZom45Jrugwq9r4He
-T9bMa0Rx1667lrrKGghhQbQjaBccefFrqjkQHgak7TOYvbVrM/Cddpem1PV2F7cX
-mFk/gCDr+ZSXRxwjEyi877yQujrM4gzJV6aaGoYyIEWFN37xxJzMp2VNT1Akeaym
-s/PWpsGmqvAWmm4M8f1Ve9kv
-=5nQG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjgA8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UbIQAIExd7kM5OvtdzEH/9FC
+9Qt95xKohd08QYqlLdCpGwQ3UL7cJeKx3LId7/yFc0xSLOMMpDA3gGeOhU9MalOB
+gVqGG7AnzXQPf9EFN1VIEivyMQ4iB90OLgznlBMDMYC+46PtFw1h7mP0el6xEptt
+Xs9UvMTu+29OwHPRwX63hvsC+3u8n+HX0J8WC7sAk71KCKsLDQhy3rbkQvLK0ujg
+WNz2RI/BRAzTG6TqAMVqpEz0fWV1PWPXlArwxHEwiOdQo+Xt3HJIyCCI1oOx2tLO
+cJ9aEu1VjINGxVEHYh1aq/g05o1XUn5Bzi7dPYqdEnrz3sVa9YrBjV3ph9T67tiU
+QQkZqvo4brWCZG2i8mQLBu1pjKszfexrB6fn8fiKJ9iVyQHMBslUz7OjjV7q73LR
+lWWyyOttFMWHrEz63teE8oSFmEEwqGwZewp0IfTPkjydRkqXRG+WL/vnr5jf1T8f
+d8HaSVzPTl8/ujrdNZJuolHp/DEyqqPnb9nY/crd3fkyWJpHNXaQ2BOKE91UTzZ9
+09I/kM03ey63bcJ9g/7dQAOKXzPJvOokOY+B72hbZ/e6qTe5RryYmmUXhz4+38/N
+CN4R9+NmON1q526GXsXaOx9p5hV04+1u/rODf//RmDHiiSthucEvm50Bt1jLzklh
+1H49zIJl1PxU7x2TesPftuWT
+=+fyh
 -----END PGP SIGNATURE-----
 
---===============1155915766308345793==
+--===============2414472764282537611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git:/
 4b616669d1d8e91d0964b0861b51a3bca5f678c1 Merge tag 'ata-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 fd94619c43360eb44d28bd3ef326a4f85c600a07 Merge tag 'zonefs-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 
---===============1155915766308345793==--
+--===============2414472764282537611==--
