@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 06 Oct 2025 18:10:17 -0000
-Message-Id: <175977421708.1905225.8224258224366790767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Mon, 06 Oct 2025 18:14:58 -0000
+Message-Id: <175977449819.1908111.12405171981869507077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/main
-    old: 2f3119686ef50319490ccaec81a575973da98815
-    new: 370e98728bda92b1bdffb448d1acdcbe19dadb4c
+  - ref: refs/heads/testing/wfamnae-next20251002
+    old: 102fd25b5cdfb259211243b7a8003d2e3955ec7b
+    new: 4c2b9a97ad9fa9231d64d22b6708dbefe89d2aaf
     log: |
-         370e98728bda92b1bdffb448d1acdcbe19dadb4c net: wwan: t7xx: add support for HP DRMR-H01
+         4c2b9a97ad9fa9231d64d22b6708dbefe89d2aaf scsi: esas2r: Avoid multiple -Wflex-array-member-not-at-end warnings
          
