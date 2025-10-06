@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1015230693657170424=="
+Content-Type: multipart/mixed; boundary="===============1943149241722818508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 06 Oct 2025 10:59:10 -0000
-Message-Id: <175974835086.1541484.6204571289964115424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 06 Oct 2025 10:59:15 -0000
+Message-Id: <175974835537.1541875.8083819784488260163@gitolite.kernel.org>
 
---===============1015230693657170424==
+--===============1943149241722818508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -21,37 +21,37 @@ changes:
     new: e5f0a698b34ed76002dc5cff3804a61c80233a7a
     log: revlist-8f5ae30d69d7-e5f0a698b34e.txt
 
---===============1015230693657170424==
+--===============1943149241722818508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1759748409 +0900
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1759748348-cb32eb420a19b89e4d28d293de281ca7ef5125ff
+pusher krzk@kernel.org 1759748413 +0900
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1759748352-6b93b300319ee7e320082cb0bbe5c13091a1f3ef
 
 8f5ae30d69d7543eee0d70083daf4de8fe15d585 e5f0a698b34ed76002dc5cff3804a61c80233a7a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjjoTkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17zjEACX60y0gX25QY6h+no+EsOpho0nyJu00MZw
-/seHnIxw5TVaQkziw1J92SOjZw0Q3NYKiKCLYUCDpbKSyhhYos9pDpNsLa8f5HB2
-gcG/fVHgoW6RO8HI9GHykJJoGuwrOuCs4QL4i/uVNHVT8syV59uIL2oXVJog5JUP
-MIM7XTXdyvgond8A2Da/Zk87xzti+IXOD6hjuXUTRNFp4D7nkV/xpO5Vd5QHz26t
-LUsTKvwM2KyG6w/DtwXD3DTC7CIZiU3elfb6IQvlViq0JL/OwffBqQ2+j1EzIBBN
-stpj2usiK9rTunlG3zjLJb2DcocqnwqHSEyP0TI5ybwie5oMgdkymmABwjdZ0iVE
-UHx4u+qwsnAcCTTNJqAxO5P2wiy8DhNNfFvY0UEWHmJj30udaWNL6twN1TEmW/IO
-8ad0nA1+4d5Alvtqx1ocUO9FjO4mad6UpbJbZ6uxro/A+fb/axP2cXwDtE/zVSXq
-CxnSsYqeK6hP5PP2rx4einEkQ4DYUuM4iIA+iivrIn/THic/Ng2z4PAEzsehK0Gp
-Hu0fMwTQIpdTpdPo9pFGrEQ9ascAPF/oWowiZCOsqQ1lu+OD/H5eGJ49sAnBnUT4
-qJyOO2LzywxXgLI2kZTJw79H8+tOG7g1b14zHs7MwmbnpiGh1evL9Bk5Cb/kvCVH
-mZm7opkoqw==
-=kyJS
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjjoT0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13T/EACDYToap1M7YKCECBLWQ9UAjPUe98xUgWAL
+KHyTB1fK4/SnQ6UeyTX0/jmdDTzHCWTpcuFf29kdmEN0cR9eaYzjfGDz8CbMoSFP
+35/7zx4gLzZL+NfoKVkgWUHBdlw5eOoN407uMpo41HkEGCHJumfq5zYSol2PphwF
+LMEAGe5rrhkLJpWWgmjIx+zxstE8eVEN4J6ndXVmfrpKcBjZgw0LNgZLesLTcZsD
+Ph68TJxjnENVgquvBv/z2n8BLx2X5NuYWXK8P/R08Yh/6Sqg+f0a/WANV9xogwqx
+wUQ9lsdWvCNGzc/lvspW+rGmd8h6IdkGk3dlWSLCFzoIRrS7vUQBRmEW6NMI/d9b
+gPSuyh5b5PVgkYYzjw4J1O14+C+egaC58gpNH5guEJX245dmOFEtBFO+WeRuBiDm
+4v4BrdT33UveQuHTIjM7e3cWJA8I4R3FssCM/cJAqyK9zHR5a/Q8gi7KnDJ/tt9p
+ckjD8t+HYv65dXIkdt2ABaUTvUltZJkHNFWtStveinBIzfsEc8RgzrJ8cq7s3Fmz
+BPBVnvWbOz8GlgeOKlFtB+8exdHVY3TjzI+JBQVoErCBgYx/i7h9OWxdtsnZf8tD
+YUDMu3GwzycCjYdhJCn363WSxmG+cUFQYNdyI5LdoMTJDQIO7OJmUcYTMI/pVqOQ
+3pIU7uOPIA==
+=8yJJ
 -----END PGP SIGNATURE-----
 
---===============1015230693657170424==
+--===============1943149241722818508==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ a5b2a9f5056b64aa41bd11d9166d836df30b0897 Merge tag 'spi-fix-v6.17-rc7' of git://
 c68472b46416573fa2af4851b2dad94971f544d4 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 e5f0a698b34ed76002dc5cff3804a61c80233a7a Linux 6.17
 
---===============1015230693657170424==--
+--===============1943149241722818508==--
