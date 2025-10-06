@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 06 Oct 2025 17:15:54 -0000
-Message-Id: <175977095482.1859430.13446819828810838884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Mon, 06 Oct 2025 17:33:04 -0000
+Message-Id: <175977198476.1872455.10989277244469394813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 42500a0a3e593911219533233b77554a2903f5b6
-    new: e050308ac323ee98b7e4acdfd2ea5e1a931cb90c
+  - ref: refs/heads/0.10.x
+    old: 04fa38e2f52a56887bebaabc31979372506107a2
+    new: 5667089b8b436c88f2552e48690697295c874a00
     log: |
-         e050308ac323ee98b7e4acdfd2ea5e1a931cb90c patches/next: fix damon_stat_monitoring_accracy_overhead label
+         5667089b8b436c88f2552e48690697295c874a00 chore: bump version 0.10.53
          
