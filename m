@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 06 Oct 2025 15:15:32 -0000
-Message-Id: <175976373217.1755080.12343956033815641940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 06 Oct 2025 16:07:01 -0000
+Message-Id: <175976682183.1796494.1959302600008362480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 164e3e096390b7823ba356ae4ac7e1a5279f7642
-    new: 014b7133fa7b534d9149ae5126bbb9f4434e4ebb
+    old: de7342228b7343774d6a9981c2ddbfb5e201044b
+    new: 248613824459602597eabbaa657a8228c5d82dfc
     log: |
-         fea4150ae678f150f5b85d479b0e1a9baf0d4e39 Bluetooth: MGMT: fix crash in set_mesh_sync and set_mesh_complete
-         014b7133fa7b534d9149ae5126bbb9f4434e4ebb Revert "Bluetooth: L2CAP: convert timeouts to secs_to_jiffies()"
+         248613824459602597eabbaa657a8228c5d82dfc libbpf: Fix undefined behavior in {get,put}_unaligned_be32()
          
