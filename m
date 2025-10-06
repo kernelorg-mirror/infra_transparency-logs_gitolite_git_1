@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0266781147202577503=="
+Content-Type: multipart/mixed; boundary="===============3422968543416525790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 06 Oct 2025 08:40:27 -0000
-Message-Id: <175974002731.1315906.364289516352584626@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 08:40:38 -0000
+Message-Id: <175974003866.1316142.1255349161691836257@gitolite.kernel.org>
 
---===============0266781147202577503==
+--===============3422968543416525790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f83ec76bf285bea5727f478a68b894f5543ca76e
+  - ref: refs/heads/tty-next
+    old: f4abab350840d58d69814c6993736f03ac27df83
     new: fd94619c43360eb44d28bd3ef326a4f85c600a07
-    log: revlist-f83ec76bf285-fd94619c4336.txt
+    log: revlist-f4abab350840-fd94619c4336.txt
 
---===============0266781147202577503==
+--===============3422968543416525790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759740084 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759740097 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1759740024-dd644bdf15bd263fb48fb0f9fc790d219c6344c8
+nonce 1759740035-729cf282678dbc7c5771c1c58e0d18b7e3298c7e
 
-f83ec76bf285bea5727f478a68b894f5543ca76e fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/main
+f4abab350840d58d69814c6993736f03ac27df83 fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjgLQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hLsP/jozNiRQxYoUn4KhRd/W
-IEV4X0w/WNf0ga8OF1l/svymuBLpBF1rPKLTuIKJlCKEmiAaiBIwane8lMWASEIn
-2SEKphg5Fbi/tnNPi9dKsZnpgw6BiGspQgbnRwiYNeIRr+X7YvipThwWGm8jdhfp
-8iR8H+LGGxlaqHnv2C3nrO9yCijp7mtQOf3W0Jpm0EYXhEq0ZkuOJbF1qgOssGI0
-Beo0nD1k00cDLAYPX/Ediug/i6l8PNanP5WpL+c5tFoGXgE+3asPFlD/mUKKRYXB
-1y+comUjhmANi7p04P3y9heid/IEPSrExoaoSVRiyrTNrWCwYa9GbpPJLHo/k7nx
-AzDe7h6H8PwkWSBpIp9TiZAbAW2bDCBG/gPeMj7y7XjgCkhBcHxrLlDiJM4QByIk
-Ydk4I5pgK/aLYfiIWEvII9LQ9vX1rXuebAGp4RnedHAzV3FqB3y9I243Bn5opAlg
-geHAg1Q2ypweXAzhkO7NWz5uPacoGLB9DV456T1tiTAzv6YfHGAZsei0CNlF2wIo
-URaoB15enYxoKhkB92wgZgE7tPjkEZMGhGEoWcpOPtbxcnQHNTS59ap1KY/aAYaP
-RX3fhFsCIZhkjd4HB1btl3wOJbs1/Batbjw7mVu6jf23Ubq8u1wz2fYmhLg6bZuS
-fPjUUGdhClfxYGPKGyUSeqeD
-=XVD5
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjgMEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FVUP/22krO/yVjGs8+m/P9f1
+V9c4SuDwd58JQYHYPZGMs6PwuG8K1UWo5adPcb4VPXbbeLOfWrqV75icS1yGQWBL
+kNC2qUhPV2R3mjqU8UNm1QNScnu6TaLeeHbfMWe0VJt9zNQ4HUNEYkAcMiyPwWKi
+u6VWv+Uc/lGi1rgz2U4x4O4caHXlj96eHuTz06lMtFYcdaDw4U/RexbUPbh6ih3H
+T4mvIFCQb+a9m28Xquj6at8xdfU0hjagRwalapQXee2OWD+uvE7b9ljLzrWr9YNh
+TO8MslooCxtnpsuaUULswyTb3aR6ReP74rwPYQiYaZl2mNciix4M0Si4z/AnHycw
+1ESWhLpWXMrpxv85heNUMlcLK3u72xent4bYZCq0iFHGqUslZ3Ym4MdlagIBxPqW
+Ds5nTFq4JVv4Ut1Xb+3dZggFhcOQoXyA9aSQmbBAly9cZLu/mNj7Z0uJPBzdCj64
+ak2aXu7tSig0iW3+NhgDjGcsuZXlWrSlz16Y/z5SrZX/WsDJ1tF38DCBHpLe+ij8
+fraPoKTi6JURBtqv5TtTbsxzFWZ+EMQ7Pib5CE/enMDrII4xWr7z99yedv1/3OVc
+JQ2JJHOWgBxI9Ow14SbCTvjJwufmLpiZFwx/EIy7BsJYwoYxZuHmSTatRYuVgCW5
+6/PJTMw+E79ivm2yQQO76MtJ
+=Y8iR
 -----END PGP SIGNATURE-----
 
---===============0266781147202577503==
+--===============3422968543416525790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f83ec76bf285-fd94619c4336.txt
+Content-Disposition: attachment; filename=revlist-f4abab350840-fd94619c4336.txt
 
 2734fdbc9bb8a3aeb309ba0d62212d7f53f30bc7 tools/power x86_energy_perf_policy: Prefer driver HWP limits
 a648e0892ccd8c2168c2deae7e12e18a8d596730 tools/power x86_energy_perf_policy: Add make snapshot target
@@ -1082,4 +1082,4 @@ cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git:/
 4b616669d1d8e91d0964b0861b51a3bca5f678c1 Merge tag 'ata-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 fd94619c43360eb44d28bd3ef326a4f85c600a07 Merge tag 'zonefs-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 
---===============0266781147202577503==--
+--===============3422968543416525790==--
