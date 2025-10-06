@@ -1,51 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============4037432967507760727=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 06 Oct 2025 11:07:05 -0000
-Message-Id: <175974882510.1549684.1581265211505124640@gitolite.kernel.org>
-
---===============4037432967507760727==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 06 Oct 2025 11:07:32 -0000
+Message-Id: <175974885219.1550047.9037766981637197777@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/tags/for-linus
-    old: c8d1609b146735b45fbed3271473f25184f3000a
-    new: 55c2b344e54ef803e5955997b026b9c7e301b638
-  - ref: refs/tags/kvm-6.18-2
-    old: c8d1609b146735b45fbed3271473f25184f3000a
-    new: 55c2b344e54ef803e5955997b026b9c7e301b638
-
---===============4037432967507760727==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1759748877 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1759748817-a400b6df487f02bd4d8cfc35867bf8c096cefbb6
-
-c8d1609b146735b45fbed3271473f25184f3000a 55c2b344e54ef803e5955997b026b9c7e301b638 refs/tags/for-linus
-c8d1609b146735b45fbed3271473f25184f3000a 55c2b344e54ef803e5955997b026b9c7e301b638 refs/tags/kvm-6.18-2
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmjjow0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPqCQgAnzPvVzcdDxIT1gv0H0HcIDq/5cXt
-eN3v6fWuysulMKf56QUQu5bU3oXbIrUiCJ6mgVwxK+7WZETFWABq32rNv1FGtwE4
-loW0n11eDn+9xHvAicgZ6S7yeaexFxMW1moMbIfJxniJVD0dcCgTtHi8cpCA1ca8
-b2Dup8gsdedYQSPEP5NSt0eMlc1w+uYjGpV8d7I0xZi0Zn7UEOPMrx+whFsoBFkR
-dkeTMxGYZ64Ps/vc+n1DFB9WPclQR7c8+o0EvY8LmM3dWONKu2Gqe9IZf2k4K7sG
-pEzwyGuSxmcIa7SM3Uud+NcTgl0NwU3AHjL3m5iNKI2q5W4u8IzpqVpbkw==
-=JLhw
------END PGP SIGNATURE-----
-
---===============4037432967507760727==--
+  - ref: refs/heads/main
+    old: 0eaaa4553e42f3b0c03e732e95c65e7dfb16a362
+    new: 4d98add260cfffcbfa4d233b5cf44d958691cde6
+    log: |
+         4d98add260cfffcbfa4d233b5cf44d958691cde6 opal: Submit PSID reset command to R/W file descriptor.
+         
+  - ref: refs/heads/master
+    old: 3a8feb8be78dabb7024aad2d1c48dcaa145e67dc
+    new: 4d98add260cfffcbfa4d233b5cf44d958691cde6
+    log: |
+         0eaaa4553e42f3b0c03e732e95c65e7dfb16a362 Fix handling of too long label and subsystem fields
+         4d98add260cfffcbfa4d233b5cf44d958691cde6 opal: Submit PSID reset command to R/W file descriptor.
+         
+  - ref: refs/heads/tcrypt-argon2
+    old: d8792595e6e5eed552a2dddafedc7bc48c5226bd
+    new: 3a08685522ac50457090efe215a0e00d8da5568e
+    log: |
+         0eaaa4553e42f3b0c03e732e95c65e7dfb16a362 Fix handling of too long label and subsystem fields
+         d40bc0404d64c9aa663ec8dec0ec1db4a938c661 tcrypt: Support Argon2id PBKDF introduced in VeraCrypt 1.26.27.
+         5269be3f0ce8e4079834b20375d918f68c23fd27 tests: Add PBKDF check for crypto helper.
+         3a08685522ac50457090efe215a0e00d8da5568e tests: Add new trcypt images for Argon2 PBKDF.
+         
+  - ref: refs/merge-requests/693/merge
+    old: 4e0d1c157564908f06c1036ac3d1325bc9f40f8f
+    new: 69b6f88461772566c9679ccc1326d0640b30a3fa
+    log: |
+         0eaaa4553e42f3b0c03e732e95c65e7dfb16a362 Fix handling of too long label and subsystem fields
+         69b6f88461772566c9679ccc1326d0640b30a3fa Merge branch 'integrity-phmac' into 'main'
+         
+  - ref: refs/merge-requests/819/head
+    old: d8792595e6e5eed552a2dddafedc7bc48c5226bd
+    new: 3a08685522ac50457090efe215a0e00d8da5568e
+    log: |
+         0eaaa4553e42f3b0c03e732e95c65e7dfb16a362 Fix handling of too long label and subsystem fields
+         d40bc0404d64c9aa663ec8dec0ec1db4a938c661 tcrypt: Support Argon2id PBKDF introduced in VeraCrypt 1.26.27.
+         5269be3f0ce8e4079834b20375d918f68c23fd27 tests: Add PBKDF check for crypto helper.
+         3a08685522ac50457090efe215a0e00d8da5568e tests: Add new trcypt images for Argon2 PBKDF.
+         
+  - ref: refs/merge-requests/819/merge
+    old: 3c5a11d5d1aadb4196cd090a9159c01d5a3c6288
+    new: 7db08f3eddc2bba60b354a9ae5e44ee31702527b
+    log: |
+         d40bc0404d64c9aa663ec8dec0ec1db4a938c661 tcrypt: Support Argon2id PBKDF introduced in VeraCrypt 1.26.27.
+         5269be3f0ce8e4079834b20375d918f68c23fd27 tests: Add PBKDF check for crypto helper.
+         3a08685522ac50457090efe215a0e00d8da5568e tests: Add new trcypt images for Argon2 PBKDF.
+         7db08f3eddc2bba60b354a9ae5e44ee31702527b Merge branch 'tcrypt-argon2' into 'main'
+         
+  - ref: refs/merge-requests/832/merge
+    old: eca3efea18ee74493bc21cf178eb5fdc0cd956b6
+    new: e19a588f8b1fa663f1081d838b238bfab6554fef
+    log: |
+         0eaaa4553e42f3b0c03e732e95c65e7dfb16a362 Fix handling of too long label and subsystem fields
+         e19a588f8b1fa663f1081d838b238bfab6554fef Merge branch 'opal-sum' into 'main'
+         
+  - ref: refs/merge-requests/842/head
+    old: 0000000000000000000000000000000000000000
+    new: c9d0673c197dcb15f93d7ee308ae4897be503fd7
+  - ref: refs/merge-requests/842/merge
+    old: 0000000000000000000000000000000000000000
+    new: 8226ce366b90900da03d103725b7f4cfb3501654
+  - ref: refs/merge-requests/843/head
+    old: 0000000000000000000000000000000000000000
+    new: 4d98add260cfffcbfa4d233b5cf44d958691cde6
+  - ref: refs/merge-requests/843/merge
+    old: 0000000000000000000000000000000000000000
+    new: 17b2a527e7dd441b116e5e6ad8803b8e0e09fd87
