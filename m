@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4648488705914886059=="
+Content-Type: multipart/mixed; boundary="===============3904568161760611399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 06 Oct 2025 10:06:24 -0000
-Message-Id: <175974518432.1491435.3927786453385477540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 06 Oct 2025 10:06:28 -0000
+Message-Id: <175974518813.1491756.14403376560381229575@gitolite.kernel.org>
 
---===============4648488705914886059==
+--===============3904568161760611399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -20,34 +20,34 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 6063257da111c7639d020c5f15bfb37fb839d8b6
 
---===============4648488705914886059==
+--===============3904568161760611399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1759745242 +0900
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1759745182-6af8ced5fe9a66353eae5250c0760ec22f757200
+pusher krzk@kernel.org 1759745246 +0900
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1759745186-1c8a48ced093df309b50cf5795169dd9ff554209
 
 0000000000000000000000000000000000000000 6063257da111c7639d020c5f15bfb37fb839d8b6 refs/tags/v6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjjlNoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10npD/9JP9fvGVKWbMoLqea3/4ItU+inhs/2wPq8
-j9Xe0ccubwtClYf74ddMWZA48vxvmUs0RUH7sZ89SqdbmatbKe/EKL2LCAhFNv55
-5bzN0GiGUjzaHsOAEN+avoZinx6G3HJS/mu72aSYBI5rSTJbWRm7MFCePqjcGpKf
-5+3mghfhxRcQmp9ZSh+tbahOoV5stv2LFglbDewuUnzZwZuM97gABY35N3YQShql
-ZFDpfC6AWpqhtvfnh8jNSjarehDpEV7J8rW/vgOzJHJGw4NBahLOBumWnoOnZ4Gn
-P/d7Ugts6DGXQeFmGV1UfJ/ReuQ7oVPQFjMGfRpUuugoniJGXn6oOEgRBATHqNvk
-16fLWtECW46dJlNkbHEbBZ9uu+0miDFDKyL6cGMmJOy09aIGjz9+UnOQfDdVPPDM
-7t1oXCAzpJMlabFrHwx4QxOCw2RJHL5tISecwDQf0p1vxu+h0ODqfC6Qg754H876
-kjirkfLsutq1yVqlTn0HV1QSKWop7SEgASAkfp3ZA6Lq/IRd6rObGiuzEQJ36z0R
-wSryNMiMEj+6xLaAOPdwutcmh4sYb+1m26DuWD7AkSv8E0Mis3v/AcnZyDuCPF8O
-EK/vrIQltVlrL/9ctKcNF4v5AktzdqOCcZIqhPsS4JF0qKSLmjlYy9agGXswHMCE
-ynATpsrDMQ==
-=cclv
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjjlN4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/d9EACCYkkYCyFoswChAedpJCs2U3K5uDNqXc4T
+XsDY1WOf2I8z6dwA+W4qSaIVg2psyftFadVbGZnPEoQI9AlE6ZDdFtEidxchl/U8
+/lc04+A6wOlQiY1oU+/htc3VS8zHjNT6ed6wKZ8iEA+Czpj1QydBOIvw/8R8oZRK
+vyeT74dQHHaDUc8nn02YLaH2L/wCdPj7vhtubgBmSomLQJgdjnAIr286Z1+9CHSr
+gp0j6Wuna4o/qve/957giyKcZcy2YWqYCkJB8T8mcCN+iVEsEmdjqjpEGxX2zR99
+FfNAHASZOnFJIQPCmg9aWmcJF30cCBrRuS7eDfib6cLWRvXOTFafjY2ENPF/OPvr
+DdFkdI+9pJAFeluCa0W2lmYipudff/NBd0bZ/IuxzA/vnNXEO5BT/yLVNWxdXpZC
+VJnJJAvUPPHUxnmehyorgGVd6f3IHBJ3AGVDYCzvthAkXii34tju8TaE0Qor4Nqi
+SgYKEi5ps6VIXiNQoN04Pt20GIzHAYEYI2R0SJXz4LLmnTjBEsu8DfAJW6b0seq6
+EoweXTWjl1MuliqlDletGsaUCqtv+rjjg/U1wFcjgNM7Agy3+bG7+eP6+moPxjQb
+kiWt1e7qUSxSiJ0NhAEan0S2Q7Lr5McOZ+gSEoW3ley1eEN4Vky5haGj0Ag55r4/
+WkQAwFIsoA==
+=o1hl
 -----END PGP SIGNATURE-----
 
---===============4648488705914886059==--
+--===============3904568161760611399==--
