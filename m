@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6155878869769838595=="
+Content-Type: multipart/mixed; boundary="===============3583970316940288292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 06 Oct 2025 16:28:12 -0000
-Message-Id: <175976809253.1815759.11124721093193390542@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 16:28:14 -0000
+Message-Id: <175976809451.1815858.10044318607803611010@gitolite.kernel.org>
 
---===============6155878869769838595==
+--===============3583970316940288292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,42 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 696ef26cfef2a96be5310afdf94bc971270ba6f6
-    new: 53e573001f2b5168f9b65d2b79e9563a3b479c17
-    log: revlist-696ef26cfef2-53e573001f2b.txt
+  - ref: refs/heads/mm-unstable
+    old: e499e312bd9b492b6d886515ceae1ec8052a1280
+    new: 70a5d4f64d780518bbe353fa263c9c355baad39a
+    log: revlist-e499e312bd9b-70a5d4f64d78.txt
 
---===============6155878869769838595==
+--===============3583970316940288292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-696ef26cfef2-53e573001f2b.txt
+Content-Disposition: attachment; filename=revlist-e499e312bd9b-70a5d4f64d78.txt
 
+ba0c67d3c4b0ce5ec5e6de35e6433b22eecb1f6a ASoC: qcom: sc8280xp: use sa8775p/ subdir for QCS9100 / QCS9075
+733a763dd8b3ac2858dd238a91bb3a2fdff4739e ASoC: tlv320aic3x: Fix class-D initialization for tlv320aic3007
+76bb6969a8cfc5e00ca142fdad86ffd0a6ed9ecd dt-bindings: hwmon: (lm75) allow interrupt for ti,tmp75
+159c86f306ea20c019b36fc998e2677008183c04 ACPI: Add support for nargs_prop in acpi_fwnode_get_reference_args()
+4215d1cf59e4b272755f4277a05cd5967935a704 ACPI: scan: Update honor list for RPMI System MSI
+694b2ef1e73c5eea6d7bd112894f465a9c4e42d5 ACPI: RISC-V: Create interrupt controller list in sorted order
+4d185fdeef67d0c2c5d4a142392cf1ade3786dd2 ACPI: RISC-V: Add support to update gsi range
+bb96fb5a799a128bb478e1ea3dab25a484aadf63 ACPI: RISC-V: Add RPMI System MSI to GSI mapping
+3f5d7a5c05b4d5ac011223359f15fb140125894b irqchip/irq-riscv-imsic-early: Export imsic_acpi_get_fwnode()
+7e64042fdbacc04adce0caf4a0718bf2c4b2045f mailbox/riscv-sbi-mpxy: Add ACPI support
+4752b0cfbc37a4e62e583bd8723b1fc2fe8df319 irqchip/riscv-rpmi-sysmsi: Add ACPI support
+f30d7ccd13f01aa6224a2de62562f63c7a298a7e RISC-V: Enable GPIO keyboard and event device in RV64 defconfig
+67b876663ecee3a74be3bb1ad358d309fcaec6b1 MAINTAINERS: Add entry for RISC-V RPMI and MPXY drivers
+21c3896b471aafe906f35e8d5a2dbf713754079e ACPI: support BGRT table on RISC-V
+46c22a8bb4cb03211da1100d7ee4a2005bf77c70 ext4: correctly handle queries for metadata mappings
+a2caae58f8e8f24f085515d270b5983b83d2c6e3 Merge tag 'drm-misc-next-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
+cafb47be3f38ad81306bf894e743bebc2ccf66ab tools/power turbostat: Fix incorrect sorting of PMT telemetry
+62127655b7ab7b8c2997041aca48a81bf5c6da0c tools/power x86_energy_perf_policy: Fix incorrect fopen mode usage
+b6b42a6051b203bb1d78bf6518007e5dc8b62fc4 tools/power x86_energy_perf_policy: Enhance HWP enabled check
+c97c057d357c4b39b153e9e430bbf8976e05bd4e tools/power x86_energy_perf_policy: Enhance HWP enable
+8ef8fa829f8ad313f18d694c15874f85d693215d tools/power x86_energy_perf_policy: Prepare for MSR/sysfs refactoring
+f8241f5426eb9feb46a007341edd221ceaf73073 tools/power x86_energy_perf_policy: EPB access is only via sysfs
+2734fdbc9bb8a3aeb309ba0d62212d7f53f30bc7 tools/power x86_energy_perf_policy: Prefer driver HWP limits
+a648e0892ccd8c2168c2deae7e12e18a8d596730 tools/power x86_energy_perf_policy: Add make snapshot target
+66f430522452fe1a8a0fd2198cf9f335125acbfc tools/power x86_energy_perf_policy.8: Emphasize preference for SW interfaces
 62bea0e1d5c71a3d9c953d4bbbae79428d0ba05c Merge tag 'drm-habanalabs-next-2025-09-25' of https://github.com/HabanaAI/drivers.accel.habanalabs.kernel into drm-next
 29ecd47927754e88f9f9a75bb2a497dd5e38301b Merge tag 'amd-drm-fixes-6.17-2025-09-24' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 4d486a51772421b1c6e37e6bfec9b3c60af58dba Merge tag 'drm-intel-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
@@ -1025,30 +1050,5 @@ a958f7a2824040e4dbef56cab5dc1431444877bb mm/thp: fix MTE tag mismatch when repla
 a43f79f9ef41a1f3b040bc7f74ac54990037c4b0 mm/ksm: fix flag-dropping behavior in ksm_madvise
 06f4360ada6369675505abe0bab5b2d8b7ac1459 mm-ksm-fix-flag-dropping-behavior-in-ksm_madvise-fix
 70a5d4f64d780518bbe353fa263c9c355baad39a fsnotify: pass correct offset to fsnotify_mmap_perm()
-99b1750ea56cb1d9e36e208ea477ab08b46ec4f8 mm/memory-failure: support disabling soft offline for HugeTLB pages
-81b19ae1a4c511160ef7ae40c5aef6e8463a9bc9 mm: vmscan: remove folio_test_private() check in pageout()
-de92460fceb08664ada6994d57856e17a7b1e747 mm-vmscan-remove-folio_test_private-check-in-pageout-fix
-7601fe51b8a9f03e408328bd86cb8f01dd0e50d4 mm: vmscan: simplify the folio refcount check in pageout()
-28d570f8bbc11f86bcfb38246ec80ce897f79e13 mm-vmscan-simplify-the-folio-refcount-check-in-pageout-fix
-ca47558d7332c8f25a0c150fc18a17c7f014fbbb mm/shmem: update shmem to use mmap_prepare
-453881d1432f50f2b41e1979fe4a0b1c87ec9b37 device/dax: update devdax to use mmap_prepare
-5e38b6c0b947b2dee20bd4685e6aedbdb8628240 mm: add vma_desc_size(), vma_desc_pages() helpers
-fcff77529d0f26b220b5b9c96b12faa354e986d6 relay: update relay to use mmap_prepare
-d6b1f2bb479327ac773eaf6b85cf9999531ea93f mm/vma: rename __mmap_prepare() function to avoid confusion
-3e36aafc5d72d589413a53f562d5a7568f323f14 mm: add remap_pfn_range_prepare(), remap_pfn_range_complete()
-54de5341eec161cb048cb44e3f814a4dec9256bb mm: abstract io_remap_pfn_range() based on PFN
-e18ea0bde02404db51dc7dcc8cea84abe4d94c21 mm: introduce io_remap_pfn_range_[prepare, complete]()
-c2dc8d8585b9dfb9faef44b0f017b374090d645e fixup io_remap_pfn_range_[prepare, complete]
-39fc6178c5124781b13461228eae18a39c322429 mm: add ability to take further action in vm_area_desc
-241e766dda1edb3015a882ed0c77ce031f512eb9 doc: update porting, vfs documentation for mmap_prepare actions
-fa229955fb42d683282845cdd628fa325b0869b5 mm/hugetlbfs: update hugetlbfs to use mmap_prepare
-4c11502a0a94d44761e5073a43568ea075f55f62 mm: add shmem_zero_setup_desc()
-7d8a29f6ab8d7eb8b38023b2693586bcf1ec639a mm: update mem char driver to use mmap_prepare
-de2ccf33a081117e23f844cc84afa8d356802388 mm: update resctl to use mmap_prepare
-6a99c5d4d6239f1ebd6c39c58fccc9b8e44b7b9b mm/thp: drop follow_devmap_pmd() default stub
-05b2b9bbe9e765e81c1e0906c74f3db03a581be4 mm: fix some typos in mm module
-76bdd83b476ed8182bf52a7eeb7222d1d78ff741 mm/ptdump: replace READ_ONCE() with standard page table accessors
-4caa64f894fd6d009bc34d1459acd42b7e9f681e mm/khugepaged: abort collapse scan on non-swap entries
-53e573001f2b5168f9b65d2b79e9563a3b479c17 mm: redefine VM_* flag constants with BIT()
 
---===============6155878869769838595==--
+--===============3583970316940288292==--
