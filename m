@@ -1,31 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8068145108841798629=="
+Content-Type: multipart/mixed; boundary="===============6389857901741358983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Mon, 06 Oct 2025 01:41:59 -0000
-Message-Id: <175971491927.924871.8940984206449082254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Mon, 06 Oct 2025 02:04:05 -0000
+Message-Id: <175971624515.942352.15224436160083339628@gitolite.kernel.org>
 
---===============8068145108841798629==
+--===============6389857901741358983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jassibrar/mailbox
-user: jassibrar
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
   - ref: refs/heads/for-next
-    old: 5378bdf6a611a32500fccf13d14156f219bb0c85
-    new: e825c795ac6cdba99d26a374f705c0f7dcbac543
-    log: revlist-5378bdf6a611-e825c795ac6c.txt
+    old: 4f156ee58bb84a081ae4a8ac0bbc425176882014
+    new: e0650a9b38b8fd0fd52f41efdf99e7fa744ec209
+    log: revlist-4f156ee58bb8-e0650a9b38b8.txt
 
---===============8068145108841798629==
+--===============6389857901741358983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5378bdf6a611-e825c795ac6c.txt
+Content-Disposition: attachment; filename=revlist-4f156ee58bb8-e0650a9b38b8.txt
 
+e2d324af56f703eb1491a9530c026bad2f700bbb Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+afd58777de7f87c5f6a430c281907f0a66fd08ab Merge tag 'mmc-v6.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+edeee68c42747c9d9b237f06fbc4cd1a2348fefb Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+d28de4fc0aaa8db6c0163e37c6d4d07f062a08db Merge tag 'io_uring-6.17-20250822' of git://git.kernel.dk/linux
+a2e94e80790bb103ca72f8a2991f43c80474a4b6 Merge tag 'block-6.17-20250822' of git://git.kernel.dk/linux
+272aa18fea29f3299960b62e2c24efb049b540ea Merge tag 'platform-drivers-x86-v6.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+b3d80535e213ad6584577b0f20d9d49ccf233206 Merge tag 'for-linus-6.17-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+cf6fc5eefc5bbbbff92a085039ff74cdbd065c29 Merge tag 's390-6.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+9c6182843b0d02ca04cc1d946954a65a2286c7db ALSA: usb-audio: Add mute TLV for playback volumes on some devices
+dc88b77113d75a8fd5818355f8e313bec144ea5d ALSA: hda: intel-dsp-config: Select SOF driver on MTL Chromebooks
+5d7eba62e5eb68347de59b31b347b24f304cf21c Bluetooth: hci_conn: Make unacked packet handling more robust
+79f919a89c9d06816dbdbbd168fa41d27411a7f9 cgroup: split cgroup_destroy_wq into 3 workqueues
+94a4acfec14615e971eb2c9e1fa6c992c85ff6c6 cgroup/psi: Set of->priv to NULL upon file release
+2f050a5392b7a0928bf836d9891df4851463512c Bluetooth: hci_event: Treat UNKNOWN_CONN_ID on disconnect as success
+b7fafbc499b5ee164018eb0eefe9027f5a6aaad2 Bluetooth: hci_event: Mark connection as closed during suspend disconnect
+15bf2c6391bafb14a3020d06ec0761bce0803463 Bluetooth: hci_event: Detect if HCI_EV_NUM_COMP_PKTS is unbalanced
+55b9551fcdf6a2fe7f3422918d5697b56794da72 Bluetooth: hci_event: Disconnect device when BIG sync is lost
+6bbd0d3f0c23fc53c17409dd7476f38ae0ff0cd9 Bluetooth: hci_sync: fix set_local_name race condition
+7b28232921782aa38048249132899c337405eaa8 mips: dts: lantiq: danube: add missing burst length property
+8c431ea8f3f795c4b9cfa57a85bc4166b9cce0ac mips: lantiq: xway: sysctrl: rename the etop node
 f9915c391cf72789ec5b6d5966ba82c2bca5daa7 Merge tag 'drm-misc-fixes-2025-08-21' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 80af3745ca465c6c47e833c1902004a7fa944f37 of: dynamic: Fix use after free in of_changeset_add_prop_helper()
 471b25a2fcbb25dccd7c9bece30313f2440a554e Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
@@ -1029,26 +1049,6 @@ fce24200cbddb5a333a157eecf0a8020c1d36d7c Merge tag 'scsi-fixes' of git://git.ker
 f975f08c2e899ae2484407d7bba6bb7f8b6d9d40 Merge tag 'for-6.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 2d5bd41a45050d9bcd2de9c049beaf7dc5c45aa6 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 07e27ad16399afcd693be20211b0dfae63e0615f Linux 6.17-rc7
-31eb92022166846e55a63fd850ceb13e4b334f94 mailbox: arm_mhuv3: Remove no_free_ptr() to maintain the original form of the pointer
-2fd274a7210913f7a98de6b0c2354661ac98de9a MAINTAINERS: Change mailbox-altera maintainer
-9c889daa5a77380985a7aa26a33612ee5a3f64e2 mailbox: Prevent out-of-bounds access in of_mbox_index_xlate()
-b5c08c9ac994cf9d9ba67aa7d4d3164c1ca62d98 dt-bindings: mailbox: qcom: Document Glymur CPUCP mailbox controller binding
-2dc4ebe3b9e2f486b51f149c1ac965758f1fecfc dt-bindings: mailbox: mediatek,gce-mailbox: Make clock-names optional
-6072a6631fbb71caeb68c30399263d9c310d28cf mailbox: remove unneeded 'fast_io' parameter in regmap_config
-f58d541ec564059417a5c7eb1a6b9cc725e231a0 mailbox: zynqmp-ipi: Remove redundant mbox_controller_unregister() call
-bcb51dfc7bccb4a8a957f4ef36a57db415602c4a mailbox: zynqmp-ipi: Remove dev.parent check in zynqmp_ipi_free_mboxes
-37be768a511bff24b42dded613e654da6c2d9f1c mailbox: zynqmp-ipi: Fix out-of-bounds access in mailbox cleanup loop
-23cc4f2379bdfbe8ecdf3f91c6d3840d079aa6aa mailbox: zynqmp-ipi: Fix SGI cleanup on unbind
-70a1df275f31482032d10a95fa1c2353f31d0866 dt-bindings: mailbox: Add MT8196 GPUEB Mailbox
-976d8d9cb07d99d9cb8ec7a1508fa29f15b39dc0 mailbox: add MediaTek GPUEB IPI mailbox
-d7fe54d4ca6c050c4e7a3c92bbdbc6e6b3b2fc8a mailbox: mtk-cmdq: Refine DMA address handling for the command buffer
-ffeb641af9c12e26d376fb6d3036f3ad2f0511eb mailbox: mtk-cmdq: Add cmdq private data to cmdq_pkt for generating instruction
-64f50ddbfaf4c18d87e003a77fcf3d01e0052d87 mailbox: mtk-cmdq: Add GCE hardware virtualization configuration
-7a8c1a12ebacebebda8bffc39244d83ddb82b52b mailbox: mtk-cmdq: Add mminfra_offset configuration for DRAM transaction
-9abf1fee6509c9ee86017b6f54edb9d775338d0b mailbox: mtk-cmdq: Add driver data to support for MT8196
-e332bb2d8333e8afb9140a9fa02b84dcb82563f2 dt-bindings: mailbox: mediatek,mt8196-vcp-mbox: add mtk vcp-mbox document
-1d3f7aef0a5afc004af392b9c5dc62b5bcab3fe3 mailbox: mediatek: Add mtk-vcp-mailbox driver
-265562a0a490856969e2c90bdd136c6c40a62534 mailbox: mtk-cmdq: Remove unused cmdq_get_shift_pa()
-e825c795ac6cdba99d26a374f705c0f7dcbac543 mailbox: mtk-cmdq: Remove pm_runtime APIs from cmdq_mbox_send_data()
+e0650a9b38b8fd0fd52f41efdf99e7fa744ec209 MAINTAINERS: change maintainer for Intel MAX10 BMC secure updates
 
---===============8068145108841798629==--
+--===============6389857901741358983==--
