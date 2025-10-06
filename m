@@ -1,53 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1959514770020583975=="
+Content-Type: multipart/mixed; boundary="===============2661810468437751555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 06 Oct 2025 09:16:36 -0000
-Message-Id: <175974219620.1346814.12280206973210253856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 06 Oct 2025 09:16:37 -0000
+Message-Id: <175974219748.1346926.15267288805344984297@gitolite.kernel.org>
 
---===============1959514770020583975==
+--===============2661810468437751555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/v6.6.110
-    old: 0000000000000000000000000000000000000000
-    new: ea0702293e5ff3f9b480f675e66ea2198e117516
+  - ref: refs/heads/slab/for-next-fixes
+    old: d6306a3d5577769b179ae4e448fd144e2b0f7717
+    new: 83d59d81b20c09c256099d1c15d7da21969581bd
+    log: |
+         83d59d81b20c09c256099d1c15d7da21969581bd slab: Fix using this_cpu_ptr() in preemptible context
+         
 
---===============1959514770020583975==
+--===============2661810468437751555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759742255 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1759742194-87d70040dc3b34ba3ec8d053d7292202760521cd
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1759742252 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1759742192-c995518069820bd494e7c3485374f3d9bc765750
 
-0000000000000000000000000000000000000000 ea0702293e5ff3f9b480f675e66ea2198e117516 refs/tags/v6.6.110
+d6306a3d5577769b179ae4e448fd144e2b0f7717 83d59d81b20c09c256099d1c15d7da21969581bd refs/heads/slab/for-next-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjiS8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fCEP/051mcsX+5XhsNIBpmH9
-onI8+JzPZYUZkuGLPDT2gkBym7wFyiObvbStD+Scm8db3es45BYg5v1jD7/HLjmT
-dIKjGxQwEgpOMEqI9Gxf4jV2ATSuGcfiX166xRAOziamzV8Hroh8sSCEikkVCh1r
-58x72Z9t06UONXKEqZ/tgkFd8h1Vv7xCBJT57j1TgaZrEQ54IKNM6yHGfgIuQn/Y
-FGGRj+cpri/BbocdWxuWk733yAOReD1PQ0nuP88RxwBNjpKRGVZvWtP3iVVX03sR
-1bhK5BR5yyTsFGwpLBVUsXiTGbYyHSxooNJEJqnYZy4H00BdUraF3IC66V5VikON
-8EwWdnW5Asw9uDeJBYDtQMEJ8akZLpDck6kJ7Zv8YgoWMluy7YJnrzwtaUfl60XA
-feiJKwHuU+pEI/2fvVRnM+wIGoD9RLlgRVRXhrlTjo2461MGNRFdlpG0Lhr+OoGb
-4IhQ27mTgUYAuNa+eu8+CrBylxAtaotPO0EvkVaFNZ+ncPGvz89WJoZbbNdsxo04
-2zsbY/8FCkvNSj5LodlAQQce6590n8hH2IQQdfYz67xs9nSPWeppQvJqRe239L+0
-5cAT/zIsxs1aIfjZ5HMWcNLe18i6y2X0xiiRizOCCc3hW3O5Qobj7bHONx3nif43
-GsN/kKup5evFNJeD5/c4pQo1
-=1HYp
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjjiSwbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaZkkH/1iJGqsqniGjaLxr+h+7
+sdThvaTfxuUg8v5sXkr4ujZqMkpAeb8EWWHY9k997NSvbxched302R8NOvEE1SZl
+DY3JQbOxAKPd/G9vj7eiHQcQTMh07QqTAUMyrQDbWTFi+pzDF6ZqrzhsATQzO5d/
+8G551Bpp4yAae8NiOvNRxC63Sq3uYE424FX276KVeogdwI41SXJSQrJBzsM9hRo3
+wj5ZNp8P9kHZPrLF96YhYtgYoRWdCSwspel1RAGc0eK85oWmSOTFt2N28MlwjAAy
++H2baNrmZpXUPom6DPYkp21YukT3RweHvMEaIogpR3/GwOwKqkPR2b3SN93axENz
+8qE=
+=bSYZ
 -----END PGP SIGNATURE-----
 
---===============1959514770020583975==--
+--===============2661810468437751555==--
