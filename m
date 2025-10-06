@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5828054904044328304=="
+Content-Type: multipart/mixed; boundary="===============2961464929539148573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 06 Oct 2025 23:29:28 -0000
-Message-Id: <175979336871.2170950.5029580519530151481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 06 Oct 2025 23:34:22 -0000
+Message-Id: <175979366238.2175413.2744220166890929443@gitolite.kernel.org>
 
---===============5828054904044328304==
+--===============2961464929539148573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/bat
-    old: 9a2cc27ea43b4886dab6ea76e18bcdf276a7a5fe
-    new: 700c22d7d5d8ac706a76be7393d612ff7c24824a
-    log: revlist-9a2cc27ea43b-700c22d7d5d8.txt
+  - ref: refs/heads/dev-queue
+    old: 7f7d4b12cef48e21425f5375cd6efe61c42c53d5
+    new: 1246ab0b17f5e9251d717f84eabcc06fb7788f18
+    log: revlist-7f7d4b12cef4-1246ab0b17f5.txt
 
---===============5828054904044328304==
+--===============2961464929539148573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a2cc27ea43b-700c22d7d5d8.txt
+Content-Disposition: attachment; filename=revlist-7f7d4b12cef4-1246ab0b17f5.txt
 
-d0ecb19b9dc2e5dec56e2648c1b8bcfddce2a347 nfsd: add notification handlers for dir events
-f325eaa2a7f35ede29a7618c4f81f226aff67e4f nfsd: add tracepoint to dir_event handler
-4374a30a99c226f20b80375169867747cf18cb47 nfsd: apply the notify mask to the delegation when requested
-cb1e4ad8be86b1a1a5c59cb46a5c54faec470601 nfsd: add helper to marshal a fattr4 from completed args
-01fe187382a0190cf025547fb6661a25a319b877 nfsd: allow nfsd4_encode_fattr4_change() to work with no export
-e7e3dbb94d49098f5800f8d556ff748f7f89fbe9 nfsd: send basic file attributes in CB_NOTIFY
-42f2f4fa8efb14366393bd294bf69de1f08916d3 nfsd: allow encoding a filehandle into fattr4 without a svc_fh
-d7648be4d61ff61515b265347cb30327d11299c9 nfsd: add a fi_connectable flag to struct nfs4_file
-21f630d0c9aa6298de3ac4dcfa331c788ba3bbce nfsd: add the filehandle to returned attributes in CB_NOTIFY
-d3a30a19dfa05dbbaaff7125c96e588b9ca8eeb6 nfsd: properly track requested child attributes
-1be532ffbd8da4ee6c7b2615ea79672207757bf1 nfsd: track requested dir attributes
-700c22d7d5d8ac706a76be7393d612ff7c24824a nfsd: add support to CB_NOTIFY for dir attribute changes
+ed6ee6682ab7868411f46a5ceb68202338d5bcdb ice: fix fwlog after driver reinit
+e37313c82c72a40add0129ad40af834c1fbe4314 idpf: cleanup remaining SKBs in PTP flows
+520e58e0342c1a0f5317657b57869a4b8dc3ebff ice: Fix enable_cnt imbalance on resume
+908f967753c6687e0971924772aeb50ad50177e9 ice: Fix enable_cnt imbalance on PCIe error recovery
+f784535a113aabc06d223c03c7c1b8246d0c58a9 i40e: Fix enable_cnt imbalance on PCIe error recovery
+99d9341320f0eb1e1972cf032479fc5c4bc24c79 idpf: convert vport state to bitmap
+e28a313c502441df7b051dee3ee48c4de9bf331d idpf: fix possible race in idpf_vport_stop()
+7cacc88717c62064fd50aa8039bf85dda5b93364 ixgbevf: fix getting link speed data for E610 devices
+a776dd9c807d4a083f93dc192437e5e5c590a4d9 ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
+811af423cc9560338a1dc59d63158fcc6cab350c ixgbevf: fix mailbox API compatibility by negotiating supported features
+ed612eb21914b52024ffaf10582ecd323751e2c4 ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
+8c8ece83b8ada091a09a5ce3c4690937dd64858f ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+96a4967a507e689781ebd0c9f17a053610eac91f ixgbe: fix too early devlink_free() in ixgbe_remove()
+456219bfbcc89b090ebd60727e2eab1f70d450fb igc: power up the PHY before the link test
+a41dc8f63bfdc23ffb313dc91b5d9f801e04de90 ice: fix destination CGU for dual complex E825
+1246ab0b17f5e9251d717f84eabcc06fb7788f18 igc: fix race condition in TX timestamp read for register 0
 
---===============5828054904044328304==--
+--===============2961464929539148573==--
