@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3000116721991296559=="
+Content-Type: multipart/mixed; boundary="===============1970333220288174250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 06 Oct 2025 10:13:25 -0000
-Message-Id: <175974560525.1499438.6197505949452412528@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 10:15:11 -0000
+Message-Id: <175974571138.1502707.12231591168648224899@gitolite.kernel.org>
 
---===============3000116721991296559==
+--===============1970333220288174250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e5f0a698b34ed76002dc5cff3804a61c80233a7a
-    new: fd94619c43360eb44d28bd3ef326a4f85c600a07
-    log: revlist-e5f0a698b34e-fd94619c4336.txt
+  - ref: refs/heads/rndis
+    old: 98870dd23eac9cea0bb55b945d9d66423b8ae92c
+    new: a5476d8c6bac3e247d4ffa85935eec38c98786c5
+    log: revlist-98870dd23eac-a5476d8c6bac.txt
 
---===============3000116721991296559==
+--===============1970333220288174250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759745637 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759745743 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1759745577-22d8b516d60e8ee28a5b802a31b9fc9ee1d5618d
+nonce 1759745681-d378f7e42cc96bee5783eabaca2900009e64f5f6
 
-e5f0a698b34ed76002dc5cff3804a61c80233a7a fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/main
+98870dd23eac9cea0bb55b945d9d66423b8ae92c a5476d8c6bac3e247d4ffa85935eec38c98786c5 refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjlmYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JK0P/RLtQw8VrQs1RUgj/lyq
-yAyRJubcsYyn5C326oMNKis776KcSsRSfBJT0wqIJYPsObv3CD5GAZsTYvoFjCjz
-r/juG3+WQwaOAG0PSz1rcI9r1PXoEUJizvESxdzdGtqqsPYOegTDdtNquWgYRNzk
-0ErQXceKAbBx1URYXwCNIL2RqLSzYzxUDJo70MOSm+evaCVV+3pDXV2BkeQX1Sqh
-WTmY5TeAgmCooAZuEd5GCDpeglLXHkNSMJRyJJQsbFXve8YHKmBTXzIMtLi+oFKY
-pFTTYWxSKk+3eWZiJVfAonTzfyAcrOp4TXkjMvxDgUTesdzucchSefPloIhY4m+v
-dv5DwymXV7c6ZdRxgB3CB7KLOSCuJwaAyHwrmwhvPrO3IE8eh/vUb1h+UmynK4KE
-ib4+/8/SeXvPYrgsIMMRxDdiK1JKBtxEnrlfd/cecyHaOviaIaTXMX9rbkDC2LM4
-LY3MNY1/TdWC2FGH1ml5HvZGd88pkyN0eYj0g2Rwb1PSB8KDLO5KzeEWRBSvgXnk
-mPdV95Z4O/B1twY05KqPummaGCXmf34e8525ulLB6zqml3XY4A83RPSSJDkpnooR
-yLOotyAa2punQxeOEJjIEbNRfjqXHeBnJOv+5T4uq34RWIK+fh7XujYO0ab4egpE
-asRE3LGA69rexrBZ3lhGaVjg
-=122E
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjls8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4V4QAKXAzUnLrJibaJAGu/4Y
+YNJ8kJFN8K2NKxh8Z9WXQGIAgELM90zoXh8A6hVuLiZCQ9Hys7TB8gW/DGe6qvtT
+vQHH2p0UtNiJ4Y/aMRXLjhIsXMeUuv91A6WbANSMU1Z5io+eyB6pG1QnFQECCxvY
+CQAJKDhO85cEQKg96Q0Tz9ACTdcs4b3TTAOnxc4BwR2iGSdgI58NtH4c1ADi41B0
+PoWTu82tq1ggjAuXHcjKOpzL+VEWkrXiqOsnkFuDtqNDXv+ChyVSybHBuFR08WME
+8+2ClnfWvcfHky65AxMpO7d4/dXZS8sVP5xBOGJJBvuZ7IuQF2VsB1UXIzFyJdLb
+FaJX7KpmKRmF9uVeWr5mzE0k6oF5duGCtPqZkC0ClnO5gG94ylOaH9A2UHf53oNW
+U/M694UtxvcLUV8oI4tuDEkoZubd6ktCa85ZziR3gYuYPeIkAu5jpGkkS5Eykysq
+QTBOQjCGx4wYf/mjt4mSr1YzbdjChgT/i4qqyqRpL65iSqIjRkizyts+YKWQtGbB
+Kb3n3g3OUB+vGMgfSU/cMiCwx5wg/Hl3qOUVl7ASDT+e9RydwHf3AtMAK8wh78Tg
+EGDv3fCU0aoDsCq+7Kwqep71KLbe8DEr5/wwInaWUcbJfkDRhWmZRdXjyqNy8LZQ
+qw3pLJeV4hmgQ3zYlDRfvLtk
+=cpzF
 -----END PGP SIGNATURE-----
 
---===============3000116721991296559==
+--===============1970333220288174250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5f0a698b34e-fd94619c4336.txt
+Content-Disposition: attachment; filename=revlist-98870dd23eac-a5476d8c6bac.txt
 
-2b7a2003ba01cde9a4958a50c55207f820766816 i2c: designware: use dev_err_probe() when probing platform device
-59ccb8176bd7e826d47962e891b460284f6978f0 i2c: mux: Simplify boolean assignment in i2c_mux_alloc
 12aad2960e9d6a32d7371e43cabcb02531ae3704 i2c: busses: Fix some spelling errors
 1193c46c1745cf809dead55ece4f3baa728f316c selftests/bpf: Test changing packet data from global functions with a kfunc
 105eb5dc74109a9f53c2f26c9a918d9347a73595 selftests/bpf: Fix flaky bpf_cookie selftest
@@ -1081,5 +1079,7 @@ cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git:/
 7a405dbb0f036f8d1713ab9e7df0cd3137987b07 Merge tag 'mm-stable-2025-10-03-16-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 4b616669d1d8e91d0964b0861b51a3bca5f678c1 Merge tag 'ata-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 fd94619c43360eb44d28bd3ef326a4f85c600a07 Merge tag 'zonefs-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
+716fe4dcd4a2c3ecd304a141bbcefaae7f1131d2 USB: disable all RNDIS protocol drivers
+a5476d8c6bac3e247d4ffa85935eec38c98786c5 USB: potential rndis host fix
 
---===============3000116721991296559==--
+--===============1970333220288174250==--
