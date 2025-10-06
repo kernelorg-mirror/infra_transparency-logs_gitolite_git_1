@@ -1,92 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5271743584938276796=="
+Content-Type: multipart/mixed; boundary="===============8472180988302430970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 06 Oct 2025 22:59:59 -0000
-Message-Id: <175979159932.2146603.4738339683320723849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
+Date: Mon, 06 Oct 2025 23:13:47 -0000
+Message-Id: <175979242754.2157649.17964623717924026524@gitolite.kernel.org>
 
---===============5271743584938276796==
+--===============8472180988302430970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/jassibrar/mailbox
+user: jassibrar
 changes:
-  - ref: refs/heads/master
-    old: bad4d23129a84477405a608fea6297a05ed36ee5
-    new: 33ca9e90698ad16da2bbedb73ce07a66660d43ee
-    log: revlist-bad4d23129a8-33ca9e90698a.txt
-  - ref: refs/heads/next
-    old: be81449072e994d823b0781a74df2d41cf4588b0
-    new: 33ca9e90698ad16da2bbedb73ce07a66660d43ee
-    log: revlist-be81449072e9-33ca9e90698a.txt
-  - ref: refs/tags/v2.9.9
-    old: 0000000000000000000000000000000000000000
-    new: 764ae781b949e886f63208c8f015a6a629b08acf
+  - ref: refs/heads/for-next
+    old: e825c795ac6cdba99d26a374f705c0f7dcbac543
+    new: 5ca613cf33f566d919a005de143d93f99123b879
+    log: revlist-e825c795ac6c-5ca613cf33f5.txt
 
---===============5271743584938276796==
+--===============8472180988302430970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bad4d23129a8-33ca9e90698a.txt
+Content-Disposition: attachment; filename=revlist-e825c795ac6c-5ca613cf33f5.txt
 
-2c003ac8d92ae685f2ffee08ac82579eefb21b25 _damon: Fix lost targets in add_childs_target
-1c4632c1e044b0678de196f91201574131546378 _damo_records: do not install three target regions for snapshot
-15b7d8672bb55569ab2135d4cdc09acaec071add _damo_records: remove install_target_regions_if_needed()
-22dfdd85b292ef78ae39b165790a0ccd4ea4f424 _damo_records: remove three_regions_of()
-aa46d98d79a856ea8b3a089d38ec543f1ccf074a _damon/add_childs_target(): clarify why no region is set and future work
-e4efd57f40c070f3dba6ec01490fd8bcd78a0f14 _dasmon/add_childs_target(): rename a few pids container variables
-2fafdc74acb526f450b5f62a71b8c5f6ecd87b01 _damon: break long line and remove unnecessary new line
-e16cb92a36d1b7708b86dcdc2b81f74c3822a1c1 release_note: update for next release
-de712f7ed019edc37212da3eafc266681f788041 damo_report_access: add a holistic --input option
-c8567cf471b4185094ac380d4476aecdb600ddd6 _damo_records: add live_only damon_stat snapshot capture option
-25cb4bcecb50ed82c9732d6721ceba3bc5a4550a damo_module_stat: add metavar for some options
-6d46858997602c2eb39ef169c24976872d35591b damo_module_stat: update --parameters usage
-cc4409363130da2a7d0dbbe758a26195a7e45066 damo_module_stat: allow multiple reads
-be81449072e994d823b0781a74df2d41cf4588b0 damo_module_stat: rename read positional argument to to_read
-b34ee0e6b6f73d3b6cae77a79149e3d87b95ab46 _damo_records: allow retrieving snapshot from damon_stat
-6cf2e9f9d76a62dae21e5941a1b430b91ceea140 _damo_records: implement get_snapshot_records_of_damon_stat()
-53a21e2da9507f2719b9bbf3c0d078e036525796 _damo_records: add DamonRecord.data_sourcee
-b53026be2d7521a041f9498fe2940636fea36c21 _damo_records: set data_source of DAMON_STAT-generated record
-72fd2b4003b05f648ef314cd091dd11aa42fd447 _damo_records/get_snapshot_record_of_damon_stat(): set addresses as integers
-3248f27e082f6ef8db149dbb23834deb24fe13ef _damo_records/get_snapshot_records_of_damon_stat(): use average idle time per region
-f6549613e1de450a1e440389c891bb40a31f3bde tests/report/test: add a help message for expected changes
-c7d2cdeb28e0c609628583b4b9eb997fcf1d8ed5 damo_report_access: show record data source on raw_form output
-34bd95e98dde29c5e43601871bbc1f617d9a9e3e _damo_records: split out regions merging
-9a1a1091abb2e35fa1fdda59468a0c6725831902 _damo_records/get_snapshot_records_of_damon_stat(): merge same pattern regions if allowed
-7208a10a457cdcad41fbe7706ec7c0218d112d66 damo_report_access: add <data source> record formatter
-0900100ce67e06e3cf534fcf40c546d4f4fe70b5 damo_report_access: show data source for damon_stat-based record by default
-2ba23b75b622c71a3a8e787a3fbcd8aa50b3ad83 USAGE: clarify 'damo report access' source of data
-3afc9c2179343b34afe29b4e5fe97a2029c06872 release_note: update for damon_stat-based DAMON records generation
-15cbaaec7a92b7c9fd38975d4ed66ca150be5d6e TODO: remove completed items for DAMON_STAT integration
-16d8c5e30edbfd59aeb705ae8637fba22a654ae7 TODO: add item for estimated memory bandwidth from DAMON_STAT
-33ca9e90698ad16da2bbedb73ce07a66660d43ee Update the version
+d30352829667b92809ed4cb55844ea1841d146a6 mailbox: arm_mhuv3: Remove no_free_ptr() to maintain the original form of the pointer
+8ac2a8c4b3b5058be211f740f41e6da5380a3963 MAINTAINERS: Change mailbox-altera maintainer
+526ce9eb455e03a6dcdbf9a6c57c777c06d1ddf2 dt-bindings: mailbox: qcom: Document Glymur CPUCP mailbox controller binding
+426f4e9414df5d51e7bc6519edb82bccf07ce52f dt-bindings: mailbox: mediatek,gce-mailbox: Make clock-names optional
+60d7416d8eb46ef2e71bf3dc13cd0c5eefc2ef89 mailbox: remove unneeded 'fast_io' parameter in regmap_config
+341867f730d3d3bb54491ee64e8b1a0c446656e7 mailbox: zynqmp-ipi: Remove redundant mbox_controller_unregister() call
+019e3f4550fc7d319a7fd03eff487255f8e8aecd mailbox: zynqmp-ipi: Remove dev.parent check in zynqmp_ipi_free_mboxes
+0aead8197fc1a85b0a89646e418feb49a564b029 mailbox: zynqmp-ipi: Fix out-of-bounds access in mailbox cleanup loop
+bb160e791ab15b89188a7a19589b8e11f681bef3 mailbox: zynqmp-ipi: Fix SGI cleanup on unbind
+d3e35a151a84ee607c817c08692dfd71568b3e0c dt-bindings: mailbox: Add MT8196 GPUEB Mailbox
+dbca0eabb821a6278925712a7bb263d0997e9c8f mailbox: add MediaTek GPUEB IPI mailbox
+b5c846374b12659974562c07883547ec54175aa2 mailbox: mtk-cmdq: Refine DMA address handling for the command buffer
+b6f6924697cedb2b0cbbef93de229b6264dc62e0 mailbox: mtk-cmdq: Add cmdq private data to cmdq_pkt for generating instruction
+80d5e3630a63b8044cd7a2578b225f3b0eecbe08 mailbox: mtk-cmdq: Add GCE hardware virtualization configuration
+e82ab5b15f1600f79ebb49ad4a29622259b68484 mailbox: mtk-cmdq: Add mminfra_offset configuration for DRAM transaction
+b532c82ea8732c1be56fe4e56a9829ecb579d2c1 mailbox: mtk-cmdq: Add driver data to support for MT8196
+4e446d18e9e11f6787b01819686d2239861e14fe dt-bindings: mailbox: mediatek,mt8196-vcp-mbox: add mtk vcp-mbox document
+336d3ee8f494789b7056990ec25d6c08723b4d7f mailbox: mediatek: Add mtk-vcp-mailbox driver
+58e172b23fe2f4c8e3007cdf79d03b8bca0b4c49 mailbox: mtk-cmdq: Remove unused cmdq_get_shift_pa()
+5ca613cf33f566d919a005de143d93f99123b879 mailbox: mtk-cmdq: Remove pm_runtime APIs from cmdq_mbox_send_data()
 
---===============5271743584938276796==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be81449072e9-33ca9e90698a.txt
-
-b34ee0e6b6f73d3b6cae77a79149e3d87b95ab46 _damo_records: allow retrieving snapshot from damon_stat
-6cf2e9f9d76a62dae21e5941a1b430b91ceea140 _damo_records: implement get_snapshot_records_of_damon_stat()
-53a21e2da9507f2719b9bbf3c0d078e036525796 _damo_records: add DamonRecord.data_sourcee
-b53026be2d7521a041f9498fe2940636fea36c21 _damo_records: set data_source of DAMON_STAT-generated record
-72fd2b4003b05f648ef314cd091dd11aa42fd447 _damo_records/get_snapshot_record_of_damon_stat(): set addresses as integers
-3248f27e082f6ef8db149dbb23834deb24fe13ef _damo_records/get_snapshot_records_of_damon_stat(): use average idle time per region
-f6549613e1de450a1e440389c891bb40a31f3bde tests/report/test: add a help message for expected changes
-c7d2cdeb28e0c609628583b4b9eb997fcf1d8ed5 damo_report_access: show record data source on raw_form output
-34bd95e98dde29c5e43601871bbc1f617d9a9e3e _damo_records: split out regions merging
-9a1a1091abb2e35fa1fdda59468a0c6725831902 _damo_records/get_snapshot_records_of_damon_stat(): merge same pattern regions if allowed
-7208a10a457cdcad41fbe7706ec7c0218d112d66 damo_report_access: add <data source> record formatter
-0900100ce67e06e3cf534fcf40c546d4f4fe70b5 damo_report_access: show data source for damon_stat-based record by default
-2ba23b75b622c71a3a8e787a3fbcd8aa50b3ad83 USAGE: clarify 'damo report access' source of data
-3afc9c2179343b34afe29b4e5fe97a2029c06872 release_note: update for damon_stat-based DAMON records generation
-15cbaaec7a92b7c9fd38975d4ed66ca150be5d6e TODO: remove completed items for DAMON_STAT integration
-16d8c5e30edbfd59aeb705ae8637fba22a654ae7 TODO: add item for estimated memory bandwidth from DAMON_STAT
-33ca9e90698ad16da2bbedb73ce07a66660d43ee Update the version
-
---===============5271743584938276796==--
+--===============8472180988302430970==--
