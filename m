@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3583970316940288292=="
+Content-Type: multipart/mixed; boundary="===============8673258536628376229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 06 Oct 2025 16:28:14 -0000
-Message-Id: <175976809451.1815858.10044318607803611010@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 16:28:16 -0000
+Message-Id: <175976809647.1815935.15079721777489456998@gitolite.kernel.org>
 
---===============3583970316940288292==
+--===============8673258536628376229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: e499e312bd9b492b6d886515ceae1ec8052a1280
-    new: 70a5d4f64d780518bbe353fa263c9c355baad39a
-    log: revlist-e499e312bd9b-70a5d4f64d78.txt
+  - ref: refs/heads/mm-stable
+    old: c14bdcc9f274620492aba7d920cc2641440cf1ba
+    new: 7a405dbb0f036f8d1713ab9e7df0cd3137987b07
+    log: revlist-c14bdcc9f274-7a405dbb0f03.txt
 
---===============3583970316940288292==
-Content-Type: text/plain; charset="us-ascii"
+--===============8673258536628376229==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e499e312bd9b-70a5d4f64d78.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-c14bdcc9f274-7a405dbb0f03.txt
 
+28aa29986dde79e8466bc87569141291053833f5 fs/proc/task_mmu: check p->vec_buf for NULL
+87e1c7c9a09604ac6a8f6ccf3086aec24a76e5a9 mailmap: add entry for Bence Csókás
+06195ee967d06ead757f9291bbaf1a0b30fa10b8 mm/damon/sysfs: do not ignore callback's return value in damon_sysfs_damon_call()
+7e89979f6695fb56e8739b7d19614256e637131d include/linux/pgtable.h: convert arch_enter_lazy_mmu_mode() and friends to static inlines
+17f0d1f6321caa95699b8f96baf12e654d7b8d60 bpf: Add lookup_and_delete_elem for BPF_MAP_STACK_TRACE
+363b17e273f0929ba7791231a0bbb5424204d93a selftests/bpf: Refactor stacktrace_map case with skeleton
+d43029ff7d1b7183dc0cf11b6cc2c12a0b810ad8 selftests/bpf: Add stacktrace map lookup_and_delete_elem test case
+27fa1a8b2803dfd88c39f03b0969c55f667cdc43 ASoC: stm32: sai: manage context in set_sysclk callback
+b6b5bbad571f1204622881b30e6ca3e6d7324102 ASoC: renesas: msiof: tidyup to remove each errors
 ba0c67d3c4b0ce5ec5e6de35e6433b22eecb1f6a ASoC: qcom: sc8280xp: use sa8775p/ subdir for QCS9100 / QCS9075
 733a763dd8b3ac2858dd238a91bb3a2fdff4739e ASoC: tlv320aic3x: Fix class-D initialization for tlv320aic3007
 76bb6969a8cfc5e00ca142fdad86ffd0a6ed9ecd dt-bindings: hwmon: (lm75) allow interrupt for ti,tmp75
@@ -1041,14 +1050,5 @@ d9f24f8e60798c066ead61f77e67ee6a5a204514 Merge tag 'trace-tools-v6.18' of git://
 678074f1a8e03598977bdeea10a4ce51c4f4a0c4 Merge tag 'integrity-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 7a405dbb0f036f8d1713ab9e7df0cd3137987b07 Merge tag 'mm-stable-2025-10-03-16-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-02977a0280ce69eb8dbdfc9f5ef0492f5cc43fc7 memcg: skip cgroup_file_notify if spinning is not allowed
-0b21fdef8cb10fe9fc9644c1ce22ae2e22bfbf7d hung_task: fix warnings caused by unaligned lock pointers
-153df1949c6d66e538a291f8f94791ac6103460d mm: hugetlb: avoid soft lockup when mprotect to large memory area
-a958f7a2824040e4dbef56cab5dc1431444877bb mm/thp: fix MTE tag mismatch when replacing zero-filled subpages
-5a378596d65fd511da1baa349b569b6a280975b1 mm/rmap: fix soft-dirty and uffd-wp bit loss when remapping zero-filled mTHP subpage to shared zeropage
-913e738aa20e32d64109b60acbfbf7a94aaf45fb mm/damon/vaddr: do not repeat pte_offset_map_lock() until success
-a43f79f9ef41a1f3b040bc7f74ac54990037c4b0 mm/ksm: fix flag-dropping behavior in ksm_madvise
-06f4360ada6369675505abe0bab5b2d8b7ac1459 mm-ksm-fix-flag-dropping-behavior-in-ksm_madvise-fix
-70a5d4f64d780518bbe353fa263c9c355baad39a fsnotify: pass correct offset to fsnotify_mmap_perm()
 
---===============3583970316940288292==--
+--===============8673258536628376229==--
