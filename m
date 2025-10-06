@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2411830251170903701=="
+Content-Type: multipart/mixed; boundary="===============1409260647964781459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 06 Oct 2025 10:19:32 -0000
-Message-Id: <175974597294.1505436.247859171152624658@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 10:20:15 -0000
+Message-Id: <175974601590.1507647.4420031394174612241@gitolite.kernel.org>
 
---===============2411830251170903701==
+--===============1409260647964781459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 77a436c93d10d68201bfd4941d1ca3230dfd1f40
+  - ref: refs/heads/next
+    old: 7aada81cd75ad844c84fb1dcdce2d67ec41763f8
     new: 00c520dbd580f53a922260f17432103ca040b294
-    log: revlist-77a436c93d10-00c520dbd580.txt
+    log: revlist-7aada81cd75a-00c520dbd580.txt
 
---===============2411830251170903701==
+--===============1409260647964781459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77a436c93d10-00c520dbd580.txt
+Content-Disposition: attachment; filename=revlist-7aada81cd75a-00c520dbd580.txt
 
 a648e0892ccd8c2168c2deae7e12e18a8d596730 tools/power x86_energy_perf_policy: Add make snapshot target
 66f430522452fe1a8a0fd2198cf9f335125acbfc tools/power x86_energy_perf_policy.8: Emphasize preference for SW interfaces
@@ -1051,4 +1051,4 @@ cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git:/
 fd94619c43360eb44d28bd3ef326a4f85c600a07 Merge tag 'zonefs-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 00c520dbd580f53a922260f17432103ca040b294 rpmb: move rpmb_frame struct and constants to common header
 
---===============2411830251170903701==--
+--===============1409260647964781459==--
