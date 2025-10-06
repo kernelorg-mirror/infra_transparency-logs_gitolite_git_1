@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1475119122750836983=="
+Content-Type: multipart/mixed; boundary="===============5301700115174644777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 06 Oct 2025 08:35:16 -0000
-Message-Id: <175973971656.1309058.14262825926951674682@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 08:35:27 -0000
+Message-Id: <175973972741.1309322.11663020168504285818@gitolite.kernel.org>
 
---===============1475119122750836983==
+--===============5301700115174644777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
+  - ref: refs/heads/char-misc-next
+    old: 22d693e45d4a4513bd99489a4e50b81cc0175b21
     new: fd94619c43360eb44d28bd3ef326a4f85c600a07
-    log: revlist-1b237f190eb3-fd94619c4336.txt
+    log: revlist-22d693e45d4a-fd94619c4336.txt
 
---===============1475119122750836983==
+--===============5301700115174644777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759739773 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759739785 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1759739713-5bfeec093e6728506bb681345f2d3bfbd17f9f25
+nonce 1759739724-5cffa8006b89809c8a4c2ad432d87a02923c8bca
 
-1b237f190eb3d36f52dffe07a40b5eb210280e00 fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/main
+22d693e45d4a4513bd99489a4e50b81cc0175b21 fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjf30bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N8YP/A+AnRSHUSSOY5jBX18i
-xcfYNW3wYZ37DgJxS+aTwkThxyo4y2vGPT6/IWEYauj9e+UpbTpb/KNUGtUP4vKb
-edYyQZ8n0EUZ99MpstXdFsa5lskruoMoxenEk1JXwcX4kl7caLVU+fXAkuo+Ie8F
-9W4W8vR2S4F3x/0WAJG5+eLllRv57vmCxjaegnAAvp6jPocs+HCUm0wFOlGZlCx0
-S8nwEiIUiNmhj3lH+E4bMgf0dLi3My46g40GbGGvjp3g4ngqKPdbswamFs3AagnT
-FkRhehQi9aP5F3IDRl4SpqA3rAIvdDg19GJTuMUktTb46iB7/mWuLw1cdO4yO0tF
-TAXHUoVrmxSfrI7/yWjEtlQHjEeW9s9GeAL+tC0lxqq3ZDxF4t5fuCjOsxJB8oLl
-t0Lqaa9NhcN5thquZ1voeo4cK4PNy3qlD0hAxgGEEwu7jV6zTTwOgZttVpZkyZwQ
-It/sXx+RgyX2t5tcIvZo9Z/5Uto5dKG9zSaooF9SJTv/SaJU8rr0q9+0hJtf7P24
-upLnATa4urRbZWzoVWq/kS33TTkRMpZG96riqYcE8fK51RYcd7ZnnIPJXHmOLwHX
-2tFJG9wUQYq+AuRVcDi4VPK8Llu+VX0nWOe2Ruyefudt/zskrHR/A9oYiyksy0k8
-LOCeCLF86gSli3EBdeiubzgQ
-=Ro1s
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjf4obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VrQQAKrj+7z4tus+KWdT9f+a
+F7Pf1414/VekglIbzNAMZHsQIE1Jc9EFSqvqadJfCspu5s6xJUYK7Tb3QEmfHbsQ
+5RB/VFZs3K891hODM8vXPu+EKGKA+imrCbT62KiTMyBsUIn8cFGyceaklRZG2nBL
+F6CyHfKDi7u/ZfXqGoolGx1EdzxvqIhUfMeJXhECD7dz8MQufQWSOu8ZBboXApcF
+X1uLPObTjHi0yH08x3YEfQsDC4dHXubxV0XXU8/K+CPEk54n3j/q7MOL7llvWvjO
+YUNqNHIQ5Tpqtw/goMpruG2dssfMIQsNfWo7pAe73Np4cAlUya0xlGJD6DDFVEwG
+eBcxsgpYHvnUzGU5IHI4/Lp0/lRhJx/aYh9FHsEd4EIg+t9IWippeK6OR0X3xWWm
+2lC+31lXqW4qb6VaMmx9buDaBzT8r6Gc1mk5SHkHUUkO31pITG+iciAKX7wY1WAZ
+C16OR4r6S05q7qgFmo58+R/mGZEoNmx//M9GvnhDBvx/W3sYxHfUdkqezCtvIdIP
+sxxu6+lqhFP9hhMBEwdtLPmQeS0gd4vp/5lFou4r9+GFk+JKiJmDrG75dLt9CSrl
++r69D+9E5Z3nUn6UFZeg6OYFfY+mhOCoT8sIRUhW/X2jXmLOgTr/ZsWrwoT5Ar4l
+lNPki8+vDW3jDj0R3wq6oLhv
+=TswE
 -----END PGP SIGNATURE-----
 
---===============1475119122750836983==
+--===============5301700115174644777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b237f190eb3-fd94619c4336.txt
+Content-Disposition: attachment; filename=revlist-22d693e45d4a-fd94619c4336.txt
 
+8ef8fa829f8ad313f18d694c15874f85d693215d tools/power x86_energy_perf_policy: Prepare for MSR/sysfs refactoring
+f8241f5426eb9feb46a007341edd221ceaf73073 tools/power x86_energy_perf_policy: EPB access is only via sysfs
 2734fdbc9bb8a3aeb309ba0d62212d7f53f30bc7 tools/power x86_energy_perf_policy: Prefer driver HWP limits
 a648e0892ccd8c2168c2deae7e12e18a8d596730 tools/power x86_energy_perf_policy: Add make snapshot target
 66f430522452fe1a8a0fd2198cf9f335125acbfc tools/power x86_energy_perf_policy.8: Emphasize preference for SW interfaces
@@ -65,8 +67,6 @@ a648e0892ccd8c2168c2deae7e12e18a8d596730 tools/power x86_energy_perf_policy: Add
 4d486a51772421b1c6e37e6bfec9b3c60af58dba Merge tag 'drm-intel-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 366a9295079731654bf0e0c6c5ac47b1f346b410 Merge tag 'drm-misc-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 ec73e5984e01bfdf92234eaf5a2c3e54aa67f2aa Merge tag 'drm-xe-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-f12140f21acba1499e55cc0220d7c1fe518de369 rust: usb: don't retain device context for the interface parent
-22d693e45d4a4513bd99489a4e50b81cc0175b21 rust: usb: keep usb::Device private for now
 70e633bedeeb4a7290d3b1dd9d49cc2bae25a46f i2c: designware: Fix clock issue when PM is disabled
 c149841b069ccc6e480b00e11f35a57b5d88c7bb i2c: designware: Add disabling clocks when probe fails
 57f55048e564dedd8a4546d018e29d6bbfff0a7e iommu/vt-d: Disallow dirty tracking if incoherent page walk
@@ -1082,4 +1082,4 @@ cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git:/
 4b616669d1d8e91d0964b0861b51a3bca5f678c1 Merge tag 'ata-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 fd94619c43360eb44d28bd3ef326a4f85c600a07 Merge tag 'zonefs-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 
---===============1475119122750836983==--
+--===============5301700115174644777==--
