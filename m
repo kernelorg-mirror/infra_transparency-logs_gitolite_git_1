@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0088912826124346576=="
+Content-Type: multipart/mixed; boundary="===============4815437764240850430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 Oct 2025 22:58:42 -0000
-Message-Id: <175979152226.2144799.5837379466545607289@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 22:58:44 -0000
+Message-Id: <175979152456.2144918.5564431090911964338@gitolite.kernel.org>
 
---===============0088912826124346576==
+--===============4815437764240850430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc
     new: f07f91a36090b54076e89b46f159ea3a4b77fb2b
     log: revlist-1b54b0756f05-f07f91a36090.txt
 
---===============0088912826124346576==
+--===============4815437764240850430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ bc9ea787079671cb19a8b25ff9f02be5ef6bfcf5 net: mscc: ocelot: Fix use-after-free c
 2aa74c62589737054a6a8ba3c5b3d8cb10656737 selftests: net: sort configs
 f07f91a36090b54076e89b46f159ea3a4b77fb2b selftests: net: unify the Makefile formats
 
---===============0088912826124346576==--
+--===============4815437764240850430==--
