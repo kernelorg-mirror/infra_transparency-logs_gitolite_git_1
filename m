@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6420669797938500613=="
+Content-Type: multipart/mixed; boundary="===============5174587258570856748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 06 Oct 2025 14:42:23 -0000
-Message-Id: <175976174326.1725533.16225401814074536052@gitolite.kernel.org>
+Date: Mon, 06 Oct 2025 14:42:54 -0000
+Message-Id: <175976177464.1725862.12825454950145326902@gitolite.kernel.org>
 
---===============6420669797938500613==
+--===============5174587258570856748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 91d8a53db2199eefc73ecf3682e0665ea6895696
     new: 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc
     log: revlist-91d8a53db219-1b54b0756f05.txt
 
---===============6420669797938500613==
+--===============5174587258570856748==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f79e772258df311c2cb21594ca0996318e720d28 Merge tag 'media/v6.18-1' of git://git.
 7a0f94361ffd6e1d31c79023e8674b492bef05e3 net: psp: don't assume reply skbs will have a socket
 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc net: doc: Fix typos in docs
 
---===============6420669797938500613==--
+--===============5174587258570856748==--
