@@ -1,64 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6498144085629513321=="
+Content-Type: multipart/mixed; boundary="===============1685538155907305073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 06 Oct 2025 08:35:36 -0000
-Message-Id: <175973973639.1309548.13100223855287722951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 06 Oct 2025 08:37:33 -0000
+Message-Id: <175973985364.1310533.10889219690075356123@gitolite.kernel.org>
 
---===============6498144085629513321==
+--===============1685538155907305073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 22d693e45d4a4513bd99489a4e50b81cc0175b21
+  - ref: refs/heads/main
+    old: f83ec76bf285bea5727f478a68b894f5543ca76e
     new: fd94619c43360eb44d28bd3ef326a4f85c600a07
-    log: revlist-22d693e45d4a-fd94619c4336.txt
+    log: revlist-f83ec76bf285-fd94619c4336.txt
 
---===============6498144085629513321==
+--===============1685538155907305073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759739794 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1759739733-36d867906c478d6dc176948d7ee3e369ea060563
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759739910 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1759739850-8da42035a470528328224d5ed5e92c8b58677f81
 
-22d693e45d4a4513bd99489a4e50b81cc0175b21 fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/char-misc-testing
+f83ec76bf285bea5727f478a68b894f5543ca76e fd94619c43360eb44d28bd3ef326a4f85c600a07 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjf5IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t2MP/1D7p4oMd/SF65QZ81YH
-kKJ+IcXFF4P5UWS7rAlrOn2qUZWED57+mO48kKXuDvO2u+3mUhpHR0OxtF7Yxltf
-jSPRXwS9aNzoLzJmBI9e+8iP94LgjNtGLpZDP6vexjKZCjR/dmMcsBuWO6roOGY+
-VvRQtsBz2Xyzu6Afgw8BtJ6UEbJ3/BJ0yGEmGrkNwQf8WSsl0TsWHfjiLakwGeft
-dYnYmGIXmMEcKpxiK2ggy1QD5UzFb/zQMycIF+EfsEvq+Cji0Ka9BkkyOwmRQIeX
-khJwLMfs8xVy2AUkgpXslWNVYwcdd9ww0BOp/8cOSAmflSYxGcdqcjSK6ray9jsL
-oB8pXG+GOlcnmNoqbb8MDitZ66F8C4hpINMpVrVNwxp+P1wuLIO1jwchAev4tWI3
-T2f+cZkSRwsOiwbMRLDKnWu774hfhGLRZ4980AI8CIkzFdTfr2pWz5DszWnEWbFP
-HF/4+MZ/DJthYVSpl5aBgB81PvTVHmcPtD2E8CbMg6yuthMFUMAlbaoPbet5VGpI
-kkpjvuN1lTy9Em6h8E+EDoxLdMuBNHSsSy6yXXUmcdE1Fw5O85QrS3frsLdOB3KT
-ewxRLjUdb8mLzbqmE3L5SGLQpEUMos2RknJqYL0Gqjiaqo7Yjhb/RKZTGrc4ENwW
-WztG10S2s0OA1TqojehmzUOw
-=M7BB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjgAYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+phUQAJnIgDmwqoh4ym4Fg6SU
+QJl799K4CBXPE5PCD1ESzpxnSvY7l7q+v5TgDje3MNbB2IGmkmi8CFETZ41pmioa
+PuEKvmuVlf1ccLhpguONKKv9jv3biAZIB7HNCgRrBO3X6OgNsJiqfhz1p0bCVXiH
+lMVnqpDKahlmCH50Za0yy7KenPGtxC0iIYCuVyM1OLwBlOTTf+sVNNuLaUpzo8BO
+bXYtvkGFbbvlNPi+/EYYpba4IxgXOiVkiKHwFiAQMs1vCSEEnQ8gbTkNo4VsxHhi
+ZC54k7B3vKb3xJcJPDgS3iPeFOtuVXZxzZHFDqbnL4SEVtrli5pXJy31VlOrS9XF
+j9lcL4li2nr95+bhWX/gc/YjT5cUAWPLlEL9On9hLo9Zf4NpXLCtxrA5hGW3oFf7
+F6kB9INk7XIUorb0v4ixCBWTeGHki1aMsa0nr4KDkE9M1tuTblLgFrYeAPDMlv+D
+X0YTEiZ51iweGBXgOzuPeuw8dCShR2I7fmRC8OFftMzbUfI58mFi9xvC/MdYXfin
+DdEpvyBHJPkckvNk2gLHB4tufe+aRclIu1kMMGiCxKodKnuO+xmJTQm+5gVVK3ml
+0UIlui9IkYvAuyMsIk8jdeAdjGhS2+dHT6J1mbLcC6+RZjZyZXP7NKODNNpOOQWN
+i9YFBDiW2FlE9dqX4qf9h25R
+=HXp5
 -----END PGP SIGNATURE-----
 
---===============6498144085629513321==
+--===============1685538155907305073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22d693e45d4a-fd94619c4336.txt
+Content-Disposition: attachment; filename=revlist-f83ec76bf285-fd94619c4336.txt
 
-8ef8fa829f8ad313f18d694c15874f85d693215d tools/power x86_energy_perf_policy: Prepare for MSR/sysfs refactoring
-f8241f5426eb9feb46a007341edd221ceaf73073 tools/power x86_energy_perf_policy: EPB access is only via sysfs
 2734fdbc9bb8a3aeb309ba0d62212d7f53f30bc7 tools/power x86_energy_perf_policy: Prefer driver HWP limits
 a648e0892ccd8c2168c2deae7e12e18a8d596730 tools/power x86_energy_perf_policy: Add make snapshot target
 66f430522452fe1a8a0fd2198cf9f335125acbfc tools/power x86_energy_perf_policy.8: Emphasize preference for SW interfaces
@@ -67,6 +65,8 @@ a648e0892ccd8c2168c2deae7e12e18a8d596730 tools/power x86_energy_perf_policy: Add
 4d486a51772421b1c6e37e6bfec9b3c60af58dba Merge tag 'drm-intel-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 366a9295079731654bf0e0c6c5ac47b1f346b410 Merge tag 'drm-misc-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 ec73e5984e01bfdf92234eaf5a2c3e54aa67f2aa Merge tag 'drm-xe-fixes-2025-09-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+f12140f21acba1499e55cc0220d7c1fe518de369 rust: usb: don't retain device context for the interface parent
+22d693e45d4a4513bd99489a4e50b81cc0175b21 rust: usb: keep usb::Device private for now
 70e633bedeeb4a7290d3b1dd9d49cc2bae25a46f i2c: designware: Fix clock issue when PM is disabled
 c149841b069ccc6e480b00e11f35a57b5d88c7bb i2c: designware: Add disabling clocks when probe fails
 57f55048e564dedd8a4546d018e29d6bbfff0a7e iommu/vt-d: Disallow dirty tracking if incoherent page walk
@@ -1082,4 +1082,4 @@ cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git:/
 4b616669d1d8e91d0964b0861b51a3bca5f678c1 Merge tag 'ata-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 fd94619c43360eb44d28bd3ef326a4f85c600a07 Merge tag 'zonefs-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 
---===============6498144085629513321==--
+--===============1685538155907305073==--
