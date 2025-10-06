@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3459095370913009797=="
+Content-Type: multipart/mixed; boundary="===============5721350686820472780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 06 Oct 2025 10:35:45 -0000
-Message-Id: <175974694512.1522480.306178994650722274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 06 Oct 2025 10:38:21 -0000
+Message-Id: <175974710192.1523788.7111372548449085830@gitolite.kernel.org>
 
---===============3459095370913009797==
+--===============5721350686820472780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sched/cleanup-pick
-    old: 6a9266930c5efc0a40c84ba923b919def8e8567a
-    new: 09a2e5932e6f407aa03bee64f91eac984cab09e7
-    log: revlist-6a9266930c5e-09a2e5932e6f.txt
+  - ref: refs/heads/master
+    old: 9e3bef05ec4138f072515b8aa57d9587b1c0e822
+    new: 345705a1683fab8eb36302f713109ab31f099e91
+    log: |
+         345705a1683fab8eb36302f713109ab31f099e91 6.1-stable patches
+         
 
---===============3459095370913009797==
+--===============5721350686820472780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a9266930c5e-09a2e5932e6f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2cac437a2de65258477d589ecb34f0aa81e006f9 sched: Employ sched_change guards
-a7296de0f9e445beffa7cca4143a2e464c978aab sched: Re-arrange the {EN,DE}QUEUE flags
-a49be956f4d64b3f13d6ef630377903ee640136e sched: Fold sched_class::switch{ing,ed}_{to,from}() into the change pattern
-f401165fee7654dfed0cbc34466f45b89e68b32a sched: Cleanup sched_delayed handling for class switches
-544003f6c292f7994d034d91e4f4e27a9f392e13 sched: Move sched_class::prio_changed() into the change pattern
-15cafc89f456911911306c1dd3bee77ea0e503d3 sched: Fix migrate_disable_switch() locking
-902c8d04051507d0f8a55564bb811138fccd38e8 sched: Fix do_set_cpus_allowed() locking
-d91fa4a83484628580b4a63d7dc8fc24448c0578 sched: Rename do_set_cpus_allowed()
-332511fa7d73a0211ea088a987ea58c213e0bd03 sched: Make __do_set_cpus_allowed() use the sched_change pattern
-b4502e264a131b8b181bb67e6b3c6ca296cb12b7 sched: Add locking comments to sched_class methods
-ab823bf8137661f33dc03636fd584502492b17c7 sched: Match __task_rq_{,un}lock()
-3c5578f0dbb93ab7a75a664b55df81aab6b4d6fe sched: Cleanup the sched_change NOCLOCK usage
-93865678b267f125c82d57b7c5c1449c0894bb1d sched: Detect per-class runqueue changes
-06fdd5e090dd216cafd2fc5ce7ac2871c6acef20 sched: Add support to pick functions to take rf
-09a2e5932e6f407aa03bee64f91eac984cab09e7 sched/ext: Fold balance_scx() into pick_task_scx()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759747157 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1759747096-b291b66b09919813c644b1841534c6a0de2e54f3
 
---===============3459095370913009797==--
+9e3bef05ec4138f072515b8aa57d9587b1c0e822 345705a1683fab8eb36302f713109ab31f099e91 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjjnFUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IGQP+gMxUxr8oUR94da1bUbl
+rS2odWCFPlBOhz6wucWf1FKZG2eI9UT9l/uyxf2Vm1TytqBdbbcOfZynEdsNorC4
+y4PzaZI+8BfjnfXKYi20CLtK5s/sI+mxhRviKCwssog1qd2z0B2mLp/aTFc1ALec
+9ssSl9dea0+gDnGWsM65yWGkh/vXF+j/1BI5IUG7soYpeoGPAKG3pNBckDqG/PIZ
+lQeetAwW10vgSoDJUZNzd/0RcUaQJ8JFYKA3XdjNEQ/uH4r3Al6ysW2VltqF0JWi
+w0iJZvOqjPoRdZ/bekpBbWAbjvO2sRibzuK8T7ICh0SD9kOaD04bUB3HZ3LY+w37
+gbWeczSVXvREeB9rv5tBimsb7pypFPpanrvvW3gUCTEmSYDhTaQa+pd7t552eZwA
+EYNHaaAtn1rQBzGhl5UrPSkB+FZCoHEVYmdol8cqBS026iorlETxC9waQmJ2QsQo
+mFysAnibeuKca+CPa6Q5rOb36DuU8jsmRnGSYNPB2Ur8E8rdbK5arUblpa0EJTic
+qcJCWWH22Vq3ALcIOXiM3S4OWEuAQn7WdHhDLtlD0UVhLhU99qOFWH7Jd45Z1c7/
+1BOA7bcR/lRrtuzkGSBTLvJRiWHD/10Luz1Y4FhiuEXL1IUtptwRZHPvbilS3/QQ
+D2aAnNaUqAL5FQyVC01cJMX5
+=MZ4I
+-----END PGP SIGNATURE-----
+
+--===============5721350686820472780==--
