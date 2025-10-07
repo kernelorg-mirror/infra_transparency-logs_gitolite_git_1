@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0209917063488753842=="
+Content-Type: multipart/mixed; boundary="===============2287067280640702440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 07 Oct 2025 02:38:12 -0000
-Message-Id: <175980469263.2332573.3157446289031176215@gitolite.kernel.org>
+Date: Tue, 07 Oct 2025 02:38:35 -0000
+Message-Id: <175980471520.2332895.10629660773469112953@gitolite.kernel.org>
 
---===============0209917063488753842==
+--===============2287067280640702440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 6cd2c665c3637506276d6d9cc8fb2412c5a3c684
-    new: c72a26320e2436bdc05311a9da475ce739b58d71
+  - ref: refs/heads/6.18/scsi-staging
+    old: 558ae4579810fa0fef011944230c65a6f3087f85
+    new: 7c3321f3d279eda7f7d622312ffdbb889f3bec97
     log: |
          b69ffeaa0ae43892683113b3f4ddf156398738b9 scsi: storvsc: Prefer returning channel with the same CPU as on the I/O issuing CPU
          987da233b2982c686a8ea5cd4c76f0bd5e957ee3 scsi: qla4xxx: Fix typos in comments
@@ -27,33 +27,33 @@ changes:
          7c3321f3d279eda7f7d622312ffdbb889f3bec97 scsi: ufs: phy: dt-bindings: Add QMP UFS PHY compatible for Kaanapali
          
 
---===============0209917063488753842==
+--===============2287067280640702440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1759804732 -0400
+pusher 75C5DE3D 1759804755 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1759804672-0a1f2d0b5a818fecb0f9379c5e551b8c3f4d25e3
+nonce 1759804695-ec1ae6f9e676acb8635469bfae9dcb6cf3d55bb7
 
-6cd2c665c3637506276d6d9cc8fb2412c5a3c684 c72a26320e2436bdc05311a9da475ce739b58d71 refs/tags/mkp-scsi-staging
+558ae4579810fa0fef011944230c65a6f3087f85 7c3321f3d279eda7f7d622312ffdbb889f3bec97 refs/heads/6.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjkfTwACgkQ7ulgGnXF
-3j2MmQ//YpYSCvh1JWbLkWrRxaOwzPAGgpvbrU4a5wBIsHBx3TwJQ0H+wg7jaE1S
-Onyl0tewnhzqwm9NTpOXWnXQbSHX/oJ0xMJQl4V8NZ6BkSUaVv/z7I+oBGyFtNTt
-608FYrm4Ul9kYRwod8vpo35+2YlthWgJBVfMLnt/wVrRy0lahiA5itnl5FGy1DDP
-VTfnzQ5CRDBtpOiVt5+ZaEyEgKEZZEG2DfCjGD0LXnu7/VZqYNuX8Iytq+uTToEd
-5VCVYmfyNDpI04YmwAPUGvpoj0VwahVk/+a8JF4SW9h6Jtm+30lmp9XgaIVyAybj
-iX6PM7YikEBkcZqx5ZekUpC9yQ/0HLv2tdT1HaTqNlMdQYy6CTx0O2TBfMVKfJzL
-2c/Hh3vx6TJ72997MlcxW0adyKYBc2uJjqCUywfTVrHSLMkK4rJgvknJKOdW5Xf1
-r1HNTccDuzoLt4SJb+PzpEyY0vdkai28vksKbYfRCRdpY4vK4ECSBOQyIhskjNep
-MMl/LBOK2u3rIhegZyXCAawWKZUYTpPve1oTa49PZIFXz8pbIMR+bONbwoflpLXU
-Sg2oueNgdvuRCGzy9WsRNWz7RdhHAxsLWX8x4EekVe0BwxahB6OQjhd8RGY81Dww
-n6cYS79QLqEE4qETtExRcpseFKgui4lff87uB4Gd5hvZYwWiv70=
-=86nC
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjkfVMACgkQ7ulgGnXF
+3j2BehAAho3zdSDbSgXRkt7bAGfwdIENQCHX4jnFIbcCZNf8OG5fIQWFSY44ga4j
+5ucLHz/Adc/1hZnNIvLTV+ggHda5EdAnFl+WhnBRYaoQ0p7wj03It+z0AaYfR9mM
+DlwLZbPrzGys2ufVkcE5jE8VEuxz5ZGTJbeMkwpefAEbkkdtHOYT4vizO7O4d+Z3
+JgxLY5jy/Tb39ZU/adPNgDL9WCwEFspsnMjBrWH7CjuQrL5LC3gJLyxlClKwlggy
+Q6uruC16nQcYge/Knwh0I+9CfiR4CqPSHgVnZhlz3kgM6eNbYZ9Inoy09NbXvwhN
+IIF8E0hwsYWdkCVq66XLF7Sp50vNq/jUsklPMxh5LCn1zD80WGkqdxzc+7tyB8P0
+RbG7snlEjuzAQ0dj2YVOvbDcyDe8W2GGezRvZtOQO7U1tHRPSxyYrk/L2Bk6NtpX
+FmEb2YGPblvnxsW+nqo2H8LZxlAPKQTsYYG57/uzkH8r3lAFimExXsMLFtYp6+n7
+lMw742OKq73qELj5JpkgOzjde1O0GDw/kyMnmXlb4I4QPHzKucY6ZFDguHFyxXYK
+pIGel+Yi0JCm3f8ajMUl3YcsogqlDJOJTPwWwDIA61O+dMyadIFJTHUHykCASHdt
+a4OA93J4ARBh2SF0qw/D2oB5DRUn3vpxj04ZH+QR5BuJMy1yX94=
+=KadQ
 -----END PGP SIGNATURE-----
 
---===============0209917063488753842==--
+--===============2287067280640702440==--
