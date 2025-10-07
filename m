@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1289025443355699270=="
+Content-Type: multipart/mixed; boundary="===============6037657726179142988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 07 Oct 2025 12:35:24 -0000
-Message-Id: <175984052468.2843700.9350512238743687222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 07 Oct 2025 12:37:31 -0000
+Message-Id: <175984065106.2879561.12575170599891775004@gitolite.kernel.org>
 
---===============1289025443355699270==
+--===============6037657726179142988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/sheaves-for-all
-    old: c92c38998ebc855b94b6c41b783249fe94b7fa48
-    new: f49675e733ec6229ee69e71a118fd3a328f92d3a
+  - ref: refs/heads/master
+    old: 9a4411326ff23d34a3a932be070e79e02316caaf
+    new: 7846dd591926caf13ce80b05ccfd24773e28633b
     log: |
-         d68a8872b6c58527f32a1477ee176b69d8e73435 slub: Don't call lockdep_unregister_key() for immature kmem_cache.
-         8857019084fc041a6d949f046604a716ace8dfa5 EDITME: cover title for remove-slub-tiny
-         9fcc4e1525bb7cdfdb59fc5c2e0474a285a742b5 slab: move kfence_alloc() out of internal bulk alloc
-         81f82b1554974038d612c9800bc7df11b6d5d038 slub: remove CONFIG_SLUB_TINY specific code paths
-         c5083ee07d45638de65d5740c5c210f9373930ac slab: prevent recursive kmalloc() in alloc_empty_sheaf()
-         5d1d015a40202069307048f4d418a6ce32a15525 slab: add sheaves to most caches
-         e9729764701b3da9fd5b259e5aeb2afc5cc4c9f5 slab: handle sheaf bootstrap
-         675ceaa2344d0a9d745647080d9e3b49bffd8588 slab: make percpu sheaves compatible with kmalloc_nolock()/kfree_nolock()
-         f49675e733ec6229ee69e71a118fd3a328f92d3a slab: handle kmalloc sheaves bootstrap
+         7846dd591926caf13ce80b05ccfd24773e28633b 6.12-stable patches
          
 
---===============1289025443355699270==
+--===============6037657726179142988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1759840579 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1759840518-43ab867d862146319cb572e6ab924ebd5eb60029
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759840710 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1759840649-dcccc91e972c6aa668998a4109fd0f593d629a12
 
-c92c38998ebc855b94b6c41b783249fe94b7fa48 f49675e733ec6229ee69e71a118fd3a328f92d3a refs/heads/b4/sheaves-for-all
+9a4411326ff23d34a3a932be070e79e02316caaf 7846dd591926caf13ce80b05ccfd24773e28633b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjlCUMbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia8GsH/2cbwU3pgenEYZBLXGx+
-C1aNdnEyr/a6IpQRQ105RNvpPts+UIPB9ITn59ndN1OBkjOB8eACznl3AzKEiGmE
-FBkcmjXVHqdPzx95/tX1mGq3GkwYGMQzBw9GD/1tOZUt+QZMCPMzr1q4z8Ke+l+8
-EhXm3gT7+/ZYDMNEwXQqtnZDDxzh7FsmTMKz9mu/A4/gYrVFI832nYksoFFSrbFR
-rurnLmav44VWT5uGwCfPhNgTDB9ZNnERYuq5ywF4JtPe5yTL19HaiFxO09IFvsT9
-Mcezgz/NdebYA7GhHYVzAZE+wApbFfGVoJPmTX9sAs+E/RWDUY9JNQjbv8rfr2+O
-wMU=
-=DWhu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlCcYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3jIP/2/nUufqmCY+Wj/cMDZD
+63FpjgF0rxehjRBqVGAJd0NWhY9pNvaSjZs6O08vJGVIL+8P3oPHzZa1cTli1dRd
+IOgfXPLhsTmdXsK6N/eTXazig/VX1xUBjcVoD9ziKAJGL7cxgRXojiXXpjRB45pn
+5Pe6LYhuVEOoIHnjFPxpO4fOdF07MJnfl56f9j46fe0bwn9QJMlqTSdPW5gTvvnT
+TYLl4+HsLEu5f3cpGFFl1c893U6AB2Vv9q6YegRQZvsQdFsa57Mp2FydGy9xbmpD
+YEg3UzHNO4G3HFsOBO9k29WirHWmiD7oUgU82XUcKl14VzzNEPT6iA0BewRwqVH8
+tdcjXDpfykjECpC72q7hJPCXPhUxi9/yrfAKjvS0jjyQ57mPuix13YiVpQBjIrhM
+RUGlNyWZIVENJws7s97eb/aXKjAQViP5ppbFazRN15n1suP5voVwoI+CVfy+84kG
+ANqtYzPQHAftBiheSOzMaYAIys9NlkI/7okj0fKj4mLGqL4HK8f2FJ0qKpoot52o
+GSZ3xorPiq3/Q5/8isy85ZKunATyo7eDk7RBIZQXogwyGFw020aZNLCiET8UsMil
+lWNvndU5ZuLsA0ivb493BSuFtENUM0n2kS5IHuJX7c9LLjfwTtGvyxHCdCoeGAUm
+gWQVPK04oPf9vd7ftUHcFw8v
+=JK/V
 -----END PGP SIGNATURE-----
 
---===============1289025443355699270==--
+--===============6037657726179142988==--
