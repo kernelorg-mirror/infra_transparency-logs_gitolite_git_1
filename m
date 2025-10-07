@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8386737414360611665=="
+Content-Type: multipart/mixed; boundary="===============7680857006146749144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 07 Oct 2025 12:55:08 -0000
-Message-Id: <175984170827.2898827.1112236303345545697@gitolite.kernel.org>
+Date: Tue, 07 Oct 2025 12:55:38 -0000
+Message-Id: <175984173872.2899133.12273414086480964235@gitolite.kernel.org>
 
---===============8386737414360611665==
+--===============7680857006146749144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,71 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 16bd70161249a4ab97ed2203f91de5374128b68c
-    new: f9c0f8455913b161a968db82b3a05df0ee992e12
-    log: revlist-16bd70161249-f9c0f8455913.txt
+  - ref: refs/heads/container_of_const_mess
+    old: c746d33e42afadc4d2fae165a7fcc09321d98915
+    new: f273fd06ab871ae2842dc41679c87b3e4e173186
+    log: revlist-c746d33e42af-f273fd06ab87.txt
 
---===============8386737414360611665==
+--===============7680857006146749144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841764 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841795 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1759841703-339b6e7d910c3ba39ec4e31c791b4bf7555598bd
+nonce 1759841733-518a58b42a16f4041461ff8fe94fcb584728da3a
 
-16bd70161249a4ab97ed2203f91de5374128b68c f9c0f8455913b161a968db82b3a05df0ee992e12 refs/heads/class_cleanup
+c746d33e42afadc4d2fae165a7fcc09321d98915 f273fd06ab871ae2842dc41679c87b3e4e173186 refs/heads/container_of_const_mess
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDeQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+toMP+gIYrERAv+pGEwwg5m8I
-VGjjX0QpQdx52I3HCcazfeeD5ivX/jsx91YyiEuBF9PJv/JGHhFCQeoONOFGgyF/
-HNQt7tEyw5yyLC3uCHvdh696uRT4Jr53nogdmYhhWQHtHxqtviZ1lEUTVyocgyWx
-I7YqBApVz4KtF1AI9WtgEvLMgkAVrsovIJxs3ufkxUSAe/syXKXVCjrrP2x3M38g
-vLqNk8+nWSu6GsQBrIPZYqoUz/OICcqrtxIaEtQx1/KKn1tAUwCF5dikK9I7IhHV
-ZZ4xW6RSYHhPjP0hwEcJ3pqJTCoTwXFEyqA/nt/rLOMGZUOsZoTlHWMveyLHv7u0
-eqkcuatbWziWMy0xe/QWwvO++CULxExtfFig/znQHhYYoKbnT/ndjO97KHT3hxIj
-YsymUpHNuyFJ+eAG8lcLR9+1AuDeVrsuj0JUQe0EgI5fFb1vf0DipOTYdwDrRUOC
-BAjr06KbK9KUZzs4ZweF7tk4ad5+9+O18bawstFoyxpMpdFZufUnof4eDQC5p8AU
-ESDw00sZLXL8smAnqbxPSYPpWeZRo08zAgOn2eJXZsGYwhYcirPL1aWyfcO2oZuP
-gbMgvQd/PHm8OpQuth3DQVDXCS+xxiPrDZvAoBHBU/6orvy0g5UvhZC7WSui/r8y
-COMfVnV6WLBWhMBjEK456VNB
-=iAmL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDgMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+acoQAMiqPqKaLGIJBIdDfpSR
+Ve/mgW2cRuv90dVsGMz+rCpo2TSWfI3H/AOKy9GXchsNOu4PD6F840roULiXMtn6
+SMfmwnp6UIGZdhA/BnP8sb5BDqcCyF3VIDC9sWLr1cPeyCa6yd127wImcTS/ebSC
+sJjZuKPCULDdaqBdbk2aXg5C9tJvU5o8ivHdBdieU9IcGU8pPGX9mVcSA0ztFzw6
+6M8LBQlpvtFXBrb2l/I3cCS4kg0GP6S9Ka1w+dYRorrWh7htdPdIl7j78pvp4vfI
+0oo2MjMdOpjZ5Hic+WwJC1fASPzOlonmueF6GqHq+ryt6vmSX5kQE7zq8E6prG9I
+jjsgKI/oHzq0IOCChqlgaxKFhUIe0vT1nShzRhUuW9GgsOiMnnMR+YTfiUpGtgsW
+s6m15VziIpo/oGe9ypEYEFlKLJo6UpljIUaqd8CKmIjiZr6ZDhZ9yyZv4sWswaos
+0jaWyRRXXOOygxjCG/4lpi5uHl0oyfI6q8ubAFe7nYVSg5F6ssCPBGeUIRIhVgIP
+2VypyBXfCYHamTyx3AGuurhI45u8/d06YdBwezpBU2QlND71VI8CypaddT99DdhM
+bIIvud6VsxPDuHEimF/KklGj9Hb7KMo2wWzSBVYt1cTaYxCYaGF6izdpGrnyIyaE
+SEG0G3HkCoUMObseWuq7IQdO
+=rBrh
 -----END PGP SIGNATURE-----
 
---===============8386737414360611665==
+--===============7680857006146749144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16bd70161249-f9c0f8455913.txt
+Content-Disposition: attachment; filename=revlist-c746d33e42af-f273fd06ab87.txt
 
+4934ccbeaed39659474fa18b8a399e2887cef8a9 NFSv4/flexfiles: Read path updates for striped layouts
+8a8729db676379e148ce56ac9a7bc1f90e3bd95a NFSv4/flexfiles: Commit path updates for striped layouts
+06d157d6fc40615d199d0b2786dc469a05c9d254 NFSv4/flexfiles: Write path updates for striped layouts
+8a8e0f5566edc074a006246917fd78b358e39afa NFSv4/flexfiles: Update layout stats & error paths for striped layouts
+20b1d75fb840cc27490028a5b13914e22375f273 NFSv4/flexfiles: Add support for striped layouts
+b1793cd1fefaa372f838aa43cf6c404ad49e2968 Merge branch 'thermal-intel'
+ad9a8291b13b985852ad617827a4c5265a8836f5 dt-bindings: edac: Convert aspeed,ast2400-sdram-edac to DT schema
+b518ec73cc62fe3f921ea6c009628a40c927d92c dt-bindings: gpu: arm,mali-midgard: add exynos8890-mali compatible
+60042a6ff2348fd2edca2f31e79fe80548d1a75d dt-bindings: display: simple: Add innolux,n133hse-ea1 and nlt,nl12880bc20-spwg-24
+c502ca1ea1b9a7ed4b9665bed48bc1d8887639b3 dt-bindings: interrupt-controller: arm,gic: Add tegra264-agic
+4379fbb9b06c8c17dac63652cfc2a7ada96c5074 dt-bindings: interrupt-controller: qcom,pdc: Document Glymur PDC
+069862313db33a2b68ebf9e92ac13b73ef12f2af dt-bindings: display: mediatek: dpi: Allow specifying resets
+c1f7800c9c70c67d5feea2d9acaac004086d41d2 dt-bindings: timer: mediatek: Add compatible for MT6795 GP Timer
+8d200dff1e8e0cb521dd48ba1d5424be400cd9bc dt-bindings: pinctrl: mediatek,mt7622-pinctrl: Add missing pwm_ch7_2
+8e0118a79bda64aad3ae72dd80c814c1978460ea dt-bindings: pinctrl: mediatek,mt7622-pinctrl: Add missing base reg
+41663b33cda3a70c719f82f4f62c2f54b16fad5b dt-bindings: regulator: mediatek,mt6332-regulator: Add missing compatible
+e29e64fb9c58ce92cb8316cd6a939bd3e49b7f63 dt-bindings: regulator: mediatek,mt6331: Fix various regulator names
+1a8493e06b854b05263071a5db77488cb9c07972 dt-bindings: regulator: mediatek,mt6331: Add missing compatible
+a31c2f8e2b6af2e45d5e8016e5055b2b00b4d6c5 dt-bindings: mailbox: mediatek,gce-mailbox: Make clock-names optional
+37020f865aa3c4049266cb34cf83ef299184ae80 dt-bindings: arm: mediatek: Support mt8183-audiosys variant
+49ceb031b6c139e17e069b25506a4c283fd22595 dt-bindings: media: Convert MediaTek mt8173-vpu bindings to DT schema
+d0b5a39acd079bccaebbb0d94bfd4649359951c2 dt-bindings: pinctrl: mt65xx: Allow gpio-line-names
+18b26b15178386eb82bca4b23b03e96ca9317d36 dt-bindings: soc: mediatek: pwrap: Add power-domains property
+4fea3336ef57295b989a6b2db4a6946a06e4c787 dt-bindings: trivial-devices: Add compatible string synaptics,synaptics_i2c
 a036bb0e60ad2828c3498bff7465bcbb247b7436 of: base: Add of_get_next_child_with_prefix() stub
 acbba7f0e5ec9736813dee221cc20f77a7d11d7b Merge tag 'thermal-v6.18-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux
 0cc114dc358cf8da2ca23a366e761e89a46ca277 libbpf: Fix error when st-prefix_ops and ops from differ btf
@@ -1055,31 +1079,7 @@ fb5bc347311b1d78dc608c91c2d68327b0a1d1d4 Merge tag 'loongarch-6.18' of git://git
 256e3417065b2721f77bcd37331796b59483ef3b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 81538c8e42806eed71ce125723877a7c2307370c Merge tag 'nfsd-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 c746c3b5169831d7fb032a1051d8b45592ae8d78 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-edd93fe4b976503947d92970801b1c7e17c5dacf powerpc: cell: make spu_subsys const
-84fbe818f16704f26c26118c612b8dd5b2b37e5d powerpc: ps3: make ps3_system_bus_type const
-86946ce1317ed7fb081840412f5506eae5dd78e8 powerpc: pseries: make cmm_subsys const
-5729ba7b5c65a208bc16adb49dbae9ea8e0c2770 powerpc: pseries: make suspend_subsys const
-3aee5847241bcd9bd8c264cf94b545a874524686 drm/dp: make drm_dp_aux_dev_class constant
-30e1d2e67888983ed2a0ec2daccef52b656f90ec drm/sysfs: make drm_class constant
-a1e13ae5b05d59bf47aa44eae3a68512e5e8c2ed drm/fbdev/core: make fb_class constant
-663fdf60f9c3970513e643c1398b193be26ac750 dma-buf: heaps: make dma_heap_class constant
-dfe870640b56dcd1e9a7a18e0a10c0b9d0c26b3c media: dvbdev: make dvb_class constant
-22e372d4efe8f0ca154fde588488c8f4563e5417 drm/dp: constify the struct device_type usage
-edf39ccd24deac7ce227655eaec80621488fbb65 drm/privacy_screen: constify the struct device_type usage
-284735a8d2f892015d2ff3ea8aebd365c64f45d5 drm/sysfs: constify the struct device_type usage
-c94fa9e18c78d27f1e800825fe5954d62a829289 ARM: sa1111: make sa1111_bus_type const
-97f11a889d0bed285a1bee1d18455e2620b37837 bus: mhi: ep: make mhi_ep_bus_type const
-036222355517a421a63f95fd37feab3d8bcd4b45 rapidio: make rio_mport_class constant
-cc1505f04fde4e1f867c21c7056a8bb4dad458ff intel_th: make intel_th_bus const
-6e098db5618ee51e2a1f23f61dd367b3068ddcd8 EISA: make eisa_bus_type const
-be52778a0f24165dc6e1615247d6b2fef52c15cc parport: constify the struct device_type usage
-f18b1d9fc5b72cde9b3a925a70658a81be91cb9f coda: psdev: make coda_psdev_class a static const structure
-d782a446cf45cbf3bfdb18b0108bbd10ea076d57 cuse: make cuse_class a static const structure
-6cd9c9add518d4945155311548f00a55dc14536a pstore: pmsg: make pmsg_class a static const structure
-11a081b6df5a4bb874efba5f6c79fffc95446e8e netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-fe7e665cb14c5815fede4ebe6da6b5de439315cc PM: wakeup: make wakeup_class a static const structure
-df4f001f83846f82f064d84227826ff27927e0c8 gnss: make gnss_class a static const structure
-cce5c62a75d667059cbb9c63ea009294f2de3955 extcon: make extcon_class a static const structure
-f9c0f8455913b161a968db82b3a05df0ee992e12 misc: c2port: core: make c2port_class a static const structure
+54e49a32aa196749cb35710c2fa401fb641385e4 container_of: switch to be a const call
+f273fd06ab871ae2842dc41679c87b3e4e173186 generic: fix up some const issues.
 
---===============8386737414360611665==--
+--===============7680857006146749144==--
