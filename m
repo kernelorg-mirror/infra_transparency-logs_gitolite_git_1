@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5661652863140636908=="
+Content-Type: multipart/mixed; boundary="===============5562702714086365284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 07 Oct 2025 12:47:19 -0000
-Message-Id: <175984123948.2888512.15030946635853797558@gitolite.kernel.org>
+Date: Tue, 07 Oct 2025 12:47:28 -0000
+Message-Id: <175984124802.2888744.5442848893128079428@gitolite.kernel.org>
 
---===============5661652863140636908==
+--===============5562702714086365284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-next
     old: fd94619c43360eb44d28bd3ef326a4f85c600a07
     new: c746c3b5169831d7fb032a1051d8b45592ae8d78
     log: revlist-fd94619c4336-c746c3b51698.txt
 
---===============5661652863140636908==
+--===============5562702714086365284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841298 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841306 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1759841237-67424c557ae1a3537d5c9fb7cb9a266aef798944
+nonce 1759841246-b7a577d857107bd5f0e4c23c32ade1aafd28688a
 
-fd94619c43360eb44d28bd3ef326a4f85c600a07 c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/main
+fd94619c43360eb44d28bd3ef326a4f85c600a07 c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDBIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T7cP/1D5zW/2b1tiZbbJtZWI
-QuLri1XT4S386q0lQw9BTmHg0dW/WSm8oc2XzXhnIVYsazvL2Su7evrV0vvjSoIX
-MCWZzu9NQEUziaZjSfL8aLc1Dn4cjnKEfBWa/2jeNcVWBNHM9FOagIgxaXN4ott4
-0ygtp8HxyuEvvJCu0cDK5vndhujhRSsP7Lb3+aB4FsQG5ff5PMzP1zcZqyGLidpz
-78IdzpnxvdjIpDgJ0+ayiukT58NgJZ5ntNqOKH2ICQ4i/clzoOtLXCJZJOrsDaNv
-lZL/eYEFKTRFd2V3wFFZgUr9EkEFdOsCZBRhFFIk/7DxAWgh6fv7Y+GOeO6canvm
-otczSJfjd4Zg1QpGNlzHNhm3bZjOQa/+z7iWqKTz1IzaxPM9kxsdN7d77Q9LRQzO
-Et4XKBkuDLP4htylXwLL1Q7QkuK5V1S2SSLLJ9zclDyJnQi82vo8KMPel725rbSj
-4UmVK0iUmjlGAPzaCAzYVQi7TV+ZiknVj+68CVn4xlBQsp8yyqbwbhFRSjTzWuUt
-OZi4/cLaFre/BwiMsmwKuKqax5OKCj8eWmYjJll+rJwZ+6kgrytjdH+gVbYE2tYm
-WJ+qU5FGU4+AxjnyafesInrdkUOWhUgMJn3sZut7I66mKnJBmFuz0PBzJh6g18A0
-0V+so6JkCpR/6hba43PY/Xgi
-=FvB9
+iQJOBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pXwP+IZKlsvZ/OtxY95hDY11
+vmOcNvrPIHcoSZeimvlNzWJTtGVJQkg+B/j8yQ7b9Bfs2iRoAzyfTd8AKdrR8q6m
+nTS3HkgOEWpw/vlmL7Zg6AFi8bZq7CvfdgvNEpNzqyF7KBGTDUJr596ZJphSWfu/
+ncMvN7ftDJgYw2fpWYXVYh0jo+vKHB7QaHaWa1mm8RnlUz7YojAJn//6HT/+nAQk
++V3CBXN22p0zRS6YNdIBcU4EpMGAX4lAfvrqJnNcCbwGE1/domGEV73ocXH1Izcu
+Q2ttKtUZJV1mJqs9O9/W+bNA3QzmbJQ6pisVy8RRl97+Q4eU82EIcNCU/ufKVPVV
+ELOmb93wq0l/lboGfVRa55O37qk1uAULwPxhTgiiUbD+eW0u+Yhfe3GW6voaMGac
+fYPGvVDiedXIiQIBJqUErg4x8qsykUybGnfWPmD5/wzrA8saeoQcxZCCgBfATCka
+ETELumPTgQ8zSzC2it3C0/cPkS4tRQWPFDKdEtwe2GlquvNJ9QtelnArQNum0y4F
+pXwz1cv4yxXiThRHNRje/TN1D8A5U8vamfUnaFB9tZ4jFyopyKPX872Maxyxw6Hh
+tYlghyIwn3fZwqHaGhkvJ2C6FSbw9f/bsXlv1rqMroSqHVoZIBXZbIwdg0Y3LHfV
+qehl+PiJ/qkKh4zCAConOq8=
+=CCwJ
 -----END PGP SIGNATURE-----
 
---===============5661652863140636908==
+--===============5562702714086365284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -582,4 +582,4 @@ fb5bc347311b1d78dc608c91c2d68327b0a1d1d4 Merge tag 'loongarch-6.18' of git://git
 81538c8e42806eed71ce125723877a7c2307370c Merge tag 'nfsd-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 c746c3b5169831d7fb032a1051d8b45592ae8d78 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============5661652863140636908==--
+--===============5562702714086365284==--
