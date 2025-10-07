@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 07 Oct 2025 03:56:10 -0000
-Message-Id: <175980937021.2397798.11701098451307460055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 07 Oct 2025 04:19:39 -0000
+Message-Id: <175981077973.2415966.2669260522235194973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/dev-test
-    old: 8ec5fc1ff77e29d2cb2ba99a280240188b276805
-    new: 88342cdee63b4d3ea9faf418b7e001c376fa99f9
+  - ref: refs/heads/master
+    old: 4d920ed684392ae064af62957d6f5a90312dfaf6
+    new: 23f3770e1a53e6c7a553135011f547209e141e72
     log: |
-         88342cdee63b4d3ea9faf418b7e001c376fa99f9 f2fs: fix wrong block mapping for multi-devices
+         23f3770e1a53e6c7a553135011f547209e141e72 bpf: Fix metadata_dst leak __bpf_redirect_neigh_v{4,6}
          
