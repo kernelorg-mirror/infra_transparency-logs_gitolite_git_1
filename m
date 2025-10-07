@@ -1,62 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0813839103413959219=="
+Content-Type: multipart/mixed; boundary="===============2894994733711986531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 07 Oct 2025 12:56:54 -0000
-Message-Id: <175984181446.2899842.9806724121514388969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 07 Oct 2025 12:57:43 -0000
+Message-Id: <175984186368.2900354.17126312199652691495@gitolite.kernel.org>
 
---===============0813839103413959219==
+--===============2894994733711986531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/pmu_bus
-    old: b240b9724faabd3eb484254b41bbf9d8bb73d0f7
-    new: 61d9c914338bf4105e1e7991c5554399ee25c245
-    log: revlist-b240b9724faa-61d9c914338b.txt
+  - ref: refs/heads/main
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+    new: c746c3b5169831d7fb032a1051d8b45592ae8d78
+    log: revlist-8f5ae30d69d7-c746c3b51698.txt
 
---===============0813839103413959219==
+--===============2894994733711986531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841871 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1759841809-5b535f2956a3220a7308ce942d401e1ecbe28129
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841922 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1759841861-6e9caad81e158644daeed346c8b17f5c79157bb2
 
-b240b9724faabd3eb484254b41bbf9d8bb73d0f7 61d9c914338bf4105e1e7991c5554399ee25c245 refs/heads/pmu_bus
+8f5ae30d69d7543eee0d70083daf4de8fe15d585 c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDk8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UN4P/RpW8ebVyrp6aqaEfLBa
-LbN54/4WjR9ZSQe9LB/UdnJTT9imq9hBTs7PaCizBW0sZa/Z2PxM+lWtaYYaF1vk
-oLYquBMXXTTwHfk2OPekdDbarJwFHo7WQ0k5pJXI1u5juIxLvrtZ1TrykA5k2SW6
-cjrjsyCdvHT87l/u7eZtrg5lStNGG+Bhul5sQT9Et6/MunGtDf26SVvvyCtBRksF
-fPr77LlYDk7PFTJzHGLY1EqqcoMIx1Nrosgj1KXUASZr7mM/vUA42OmFruHd3kWn
-LzS27ciZnmSTzashKdcXIHqly9VtiwYFFFYa6pgifzfGkKl5JlmZRZufHI2Yp4UN
-UnQpih37ji/OTfS4+HoGijlA8NcUcOgbVERXGf1aqNWLQK+wJSF4lU34PwcFnQKb
-LnxQNaWnND72FPGVn9k1kHuzf+DVXppEMkIeOakwEkxjYJLGZSRAiMN52JOk9Q00
-B6Rp5obQhTzlsAMDxavHy7JRgZzlR+oa2qLk5AhFv/92u97EmjhF63G8zjYgnrVs
-tPXA7T+37dSKNj8k0C5dsqwvuV1cEvm02QR6CNgEfxa+pG89LFFN+AsNolN/ZMQ9
-L5F5S0iGVZ4BnraHXtff6zLHDKnjod5umaW67SlFdJAPnCOvd6O+r1AqSo0QtE0P
-gLLFZtUE5/i0APTax7n1IX4k
-=wqgG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDoIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3KgP/RsL8RU6O0dbrllTUwKX
+7Yaodd2MfcDiaQCMpinKzfttKFEGqpL0BEeTq3uLACbL3mZ01HnKtr+nUr/30f5q
+sdNH1eW8Yri8pfUqt74VgbvvjD3mUZsejq6uadPf7BNPPVwU4n+LLh1Tj1AolzPw
+3iSo5K/rmQ6uSioVs6r9CpdMiUSDfKupc+PX7clPm2sEIXQla1ohwXy7IfRYbwt5
+PSMp/7iz8ibCLM+nKbYPUq/bdDTz44y37rIpCByQaL/TS8zLsT7+dpdGVKpMHemT
+tKe7EFGM1MnVzGg6BaZ0ShZBFqh10iOVTydwJhFh900lwEfRDLJl04vmv3YxH85t
+69qOGQd7mJySXCYpoCm8aqWZc7qKM30d58l1LffjYHcsmvbFNspDwU4pIuJdMAQa
+jVnL24KiX2+ShWmF+f/RLF5gAX54yzHhQP7uilixTV6KuTyxaDO5bpt99V28Ywwo
+NYryEUah7f9PsygggzwlLwIiCSazZqBhaNpYaQkhHMHrhdrto+oBYqOI6T6/iW1g
+Jzl6uYpp7WyrpB+lBgRxQfll/ucEZwlW+r0RoRmD9+dHLnybOMAG4pIY+ihAf6/A
+5NHafhn7QBha/Ga/PYZXBuQeFhfmG05o8eEooQrxwbM4b3vEPxAKV0C4RKXaHou6
+eXbEkP+SIUsAcSz1eKcHB+fg
+=uURQ
 -----END PGP SIGNATURE-----
 
---===============0813839103413959219==
+--===============2894994733711986531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b240b9724faa-61d9c914338b.txt
+Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-c746c3b51698.txt
 
+d442670c0f63c46b7f348f68fb2002af597708f2 NFSv4/flexfiles: Add data structure support for striped layouts
 a1491919c8805b3874f76fd273ae224ec9768aec NFSv4/flexfiles: Update low level helper functions to be DS stripe aware.
 4934ccbeaed39659474fa18b8a399e2887cef8a9 NFSv4/flexfiles: Read path updates for striped layouts
 8a8729db676379e148ce56ac9a7bc1f90e3bd95a NFSv4/flexfiles: Commit path updates for striped layouts
@@ -1080,6 +1081,5 @@ fb5bc347311b1d78dc608c91c2d68327b0a1d1d4 Merge tag 'loongarch-6.18' of git://git
 256e3417065b2721f77bcd37331796b59483ef3b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 81538c8e42806eed71ce125723877a7c2307370c Merge tag 'nfsd-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 c746c3b5169831d7fb032a1051d8b45592ae8d78 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-61d9c914338bf4105e1e7991c5554399ee25c245 perf/core: move all of the pmu devices into their own location
 
---===============0813839103413959219==--
+--===============2894994733711986531==--
