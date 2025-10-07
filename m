@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 07 Oct 2025 11:22:34 -0000
-Message-Id: <175983615435.2764465.8789948380433970199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Tue, 07 Oct 2025 11:26:16 -0000
+Message-Id: <175983637639.2768352.1319285146597377910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/tags/thermal-6.18-rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: 7528c2a8b33a8ce6727fb99412f38d6903226a69
+  - ref: refs/heads/testing
+    old: 7a1c6415ebeffe78f4503ee853d2bdd5289d12ed
+    new: 52d628ba07fa6ccb054cd616b0cc6119705541f3
+    log: |
+         52d628ba07fa6ccb054cd616b0cc6119705541f3 bridge: br_vlan_fill_forward_path_pvid: use br_vlan_group_rcu()
+         
