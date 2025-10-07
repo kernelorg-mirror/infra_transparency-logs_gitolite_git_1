@@ -1,30 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5974070064991135910=="
+Content-Type: multipart/mixed; boundary="===============5661652863140636908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 07 Oct 2025 12:45:13 -0000
-Message-Id: <175984111324.2887461.1394377216242207866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 07 Oct 2025 12:47:19 -0000
+Message-Id: <175984123948.2888512.15030946635853797558@gitolite.kernel.org>
 
---===============5974070064991135910==
+--===============5661652863140636908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6093a688a07da07808f0122f9aa2a3eed250d853
+  - ref: refs/heads/main
+    old: fd94619c43360eb44d28bd3ef326a4f85c600a07
     new: c746c3b5169831d7fb032a1051d8b45592ae8d78
-    log: revlist-6093a688a07d-c746c3b51698.txt
+    log: revlist-fd94619c4336-c746c3b51698.txt
 
---===============5974070064991135910==
+--===============5661652863140636908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6093a688a07d-c746c3b51698.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841298 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1759841237-67424c557ae1a3537d5c9fb7cb9a266aef798944
+
+fd94619c43360eb44d28bd3ef326a4f85c600a07 c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDBIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T7cP/1D5zW/2b1tiZbbJtZWI
+QuLri1XT4S386q0lQw9BTmHg0dW/WSm8oc2XzXhnIVYsazvL2Su7evrV0vvjSoIX
+MCWZzu9NQEUziaZjSfL8aLc1Dn4cjnKEfBWa/2jeNcVWBNHM9FOagIgxaXN4ott4
+0ygtp8HxyuEvvJCu0cDK5vndhujhRSsP7Lb3+aB4FsQG5ff5PMzP1zcZqyGLidpz
+78IdzpnxvdjIpDgJ0+ayiukT58NgJZ5ntNqOKH2ICQ4i/clzoOtLXCJZJOrsDaNv
+lZL/eYEFKTRFd2V3wFFZgUr9EkEFdOsCZBRhFFIk/7DxAWgh6fv7Y+GOeO6canvm
+otczSJfjd4Zg1QpGNlzHNhm3bZjOQa/+z7iWqKTz1IzaxPM9kxsdN7d77Q9LRQzO
+Et4XKBkuDLP4htylXwLL1Q7QkuK5V1S2SSLLJ9zclDyJnQi82vo8KMPel725rbSj
+4UmVK0iUmjlGAPzaCAzYVQi7TV+ZiknVj+68CVn4xlBQsp8yyqbwbhFRSjTzWuUt
+OZi4/cLaFre/BwiMsmwKuKqax5OKCj8eWmYjJll+rJwZ+6kgrytjdH+gVbYE2tYm
+WJ+qU5FGU4+AxjnyafesInrdkUOWhUgMJn3sZut7I66mKnJBmFuz0PBzJh6g18A0
+0V+so6JkCpR/6hba43PY/Xgi
+=FvB9
+-----END PGP SIGNATURE-----
+
+--===============5661652863140636908==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fd94619c4336-c746c3b51698.txt
 
 add7b05aeeb417c86239e6731a168e6c46b83279 PCI: qcom: Select PCI Power Control Slot driver
 d96ac5bdc52b271b4f8ac0670a203913666b8758 PCI: rcar-gen4: Fix PHY initialization
@@ -38,7 +69,6 @@ c763fae8c4231e426033f62c21be60db4b6659a9 PCI: Clean up pci_scan_child_bus_extend
 a22250fe933dbd1da9a9683506ae3f489ccc579d PCI: Add Extended Tag + MRRS quirk for Xeon 6
 1d33d9e46c08e952853e821ab8e0b46cb248bc1f PCI: hotplug: Clean up spaces in messages
 ebc7086b39e5e4f3d3ca82caaea20538c9b62d42 PCI: Disable MSI on RDC PCI to PCIe bridges
-a42938e80357a13f8b8592111e63f2e33a919863 zonefs: correct some spelling mistakes
 78a474b5a31a25e0a77e50df42be925f7cb575e6 dt-bindings: phy: fsl,imx8mq-usb: Drop 'db' suffix duplicating dtschema
 8b63fee9f62361a7d96394611ba05734ec21e2eb soundwire: debugfs: add SCP_SDCA_IntStatX and SCP_SDCA_IntMaskX registers
 689a54acb56858c85de8c7285db82b8ae6dbf683 phy: cdns-dphy: Store hs_clk_rate and return it
@@ -175,40 +205,8 @@ e24bbbe0780262a21fc8619fe99078a5b8d64b18 PCI/pwrctrl: Fix device and OF node lea
 dc32e9346b26ba33e84ec3034a1e53a9733700f9 PCI/pwrctrl: Fix device leak at device stop
 6633875250b38b18b8638cf01e695de031c71f02 PCI/AER: Support errors introduced by PCIe r6.0
 fac679df7580979174c90303f004b09cdc6f086f PCI/ACPI: Fix pci_acpi_preserve_config() memory leak
-1e50201d3911507744adf5dafd6e25dbffee3692 dt-bindings: ata: highbank: Minor whitespace cleanup in example
-692173de3032b22792d21070238a986163fc29ec dt-bindings: ata: imx: Document 'target-supply'
 f2543da14dc2b9bee337f1f9466ab3fedae1cd84 PCI: switchtec: Replace manual locks with guard
 57a48a2619c5f99d48748f9c34db510efe5ee7c9 dt-bindings: PCI: ti,am65: Extend for use with PVU
-12d7b0f093d39daccb2a4eab0ebc0b3abb08c7f8 mips/octeon/smp: Remove space before newline
-05e75ac35ee9e38f96bbfebf1830ec2cace2e7f8 efi: Explain OVMF acronym in OVMF_DEBUG_LOG help text
-21050b589fb00997256c4ecaeee0cb0e46f30891 MIPS: BMIPS: Properly define memory controller compatible
-157f9533f9ffb5d9544515dcfe54e0901d9aa615 mips: Replace __ASSEMBLY__ with __ASSEMBLER__ in the mips headers
-dba4380504923b9c21d391bc9a3e699d3ba2bab6 MIPS: Alchemy: convert from round_rate() to determine_rate()
-1ea149fb5b068c1b7490451d967216ff554628af dt-bindings: mips: cpu: Add MIPS 34Kc Core
-e8dee66c37085dc9858eb8608bc783c2900e50e7 mips: lantiq: danube: add missing properties to cpu node
-d66949a1875352d2ddd52b144333288952a9e36f mips: lantiq: danube: add missing device_type in pci node
-cb96fd880ef78500b34d10fa76ddd3fa070287d6 mips: lantiq: danube: add model to EASY50712 dts
-e5a6d4a23acfe56749c7543ef55c54b8b903616b MIPS: sgi-ip22: Replace deprecated strcpy() in plat_mem_setup()
-5cd39d00c257ea01eeab4ad36c0d4474e143655e MIPS: sgi-ip32: Replace deprecated strcpy() in plat_mem_setup()
-5861bb3ea24c8c7ab1d619b59b777a4c56777142 MIPS: sni: Replace deprecated strcpy() in sni_console_setup()
-19b32dbba0c7f4ab2fb7349676ffcb40a70be0fa MIPS: txx9: Replace deprecated strcpy() with strscpy()
-267ac0a800121dd450d0ed6cdbba9a8712b48c59 MIPS: arc: Replace deprecated strcpy() with memcpy()
-2c7c8cf656b2712ece061346848664ab5ace72c6 MIPS: octeon: Replace memset(0) + deprecated strcpy() with strscpy_pad()
-e34b690f58da12c4301932bb3cf9857879b2396f MIPS: octeon: Replace deprecated strcpy() in octeon_model_get_string_buffer()
-6a1e6bf933b6216cc3eb731a14cd519c189d3a04 MIPS: generic: Replace deprecated strcpy() in ocelot_detect()
-b7c1ee2dfe03c106a391cdbcba8d41e23c4b1bcb MIPS: Loongson64: Replace deprecated strcpy() with strscpy_pad()
-51f96bff04b05ee0683471fa33b11cce414e4b56 MIPS: RB532: Replace deprecated strcpy() with memcpy() and strscpy()
-b0d04fe6a633ada2c7bc1b5ddd011cbd85961868 mips: lantiq: xway: sysctrl: rename stp clock
-2b9706ce84be9cb26be03e1ad2e43ec8bc3986be mips: lantiq: danube: rename stp node on EASY50712 reference board
-cfbb794c62291cd8249def0d10cae922b717b53e dt-bindings: mips: loongson: Add LS1B-DEMO and CQ-T300B
-6428fcf27f0248b076b381408c98102f88564926 MIPS: dts: loongson: Add LS1B-DEMO board
-9c607077294a25bd597cfcfb3f832707b5b88426 MIPS: dts: loongson: Add LSGZ_1B_DEV board
-cf4b382a92f4fea09f5987e5757b4979fd255cb2 MIPS: dts: loongson: Add Smartloong-1C board
-11741215e287454bd4c6e9a4872790a1a2c0e0ae MIPS: dts: loongson: Add CQ-T300B board
-ec7c2a107a59a60079eff3308e791a3441231f2e MIPS: loongson: Add built-in DTB support
-85c4354076ca2f84f6473073005174905880e998 MIPS: loongson32: Switch to generic core
-2d18f2343e44317697c5623fb387c90914c377da MIPS: Unify Loongson1 PRID_REV
-ad79935dbc227fad7172dc50970ee579ff21a91e MIPS: configs: Consolidate Loongson1 defconfigs
 0c4916aadb8df892399eec99f775655c31049195 phy: qcom-qmp-ufs: Add regulator load voting for UFS QMP PHY
 df4beac9da5f162770c8563d11cda327d748c20b phy: qcom-qmp-ufs: Add PHY and PLL regulator load
 da938e39a81642748db3ec2385e8a53fe03d9bd1 phy: hisilicon: Remove redundant ternary operators
@@ -274,13 +272,8 @@ aac057dd623132a1776be37b471e30b4589fdf76 KVM: x86: Move vector_hashing into lapi
 3ccbf6f47098f5d5e247d1b7739d0fd90802187b KVM: x86/mmu: Return -EAGAIN if userspace deletes/moves memslot during prefault
 2bc2694fe20bf06eb73524426e3f4581d7b28923 KVM: TDX: Do not retry locally when the retry is caused by invalid memslot
 bdb978979ed133c47e19099ff2a4ae51e515452b phy: rockchip: phy-rockchip-inno-csidphy: add support for rk3588 variant
-4735037b5d9b0f809c51976c87d737fa2c48fdea openrisc: Add text patching API support
-9d0cb6d00be891586261a35da7f8c3c956825c39 openrisc: Add R_OR1K_32_PCREL relocation type module support
-09a27fc32e3d69be93fdb898690932ad5bc592d8 openrisc: Regenerate defconfigs.
-8c30b0018f9d93391573e091960d257fd9de120a openrisc: Add jump label support
 fc55b4cda00aff08ea6dfe86411efa13bdb728c5 KVM: nSVM: Replace kzalloc() + copy_from_user() with memdup_user()
 0a27bdb14b028fed30a10cec2f945c38cb5ca4fa PCI/AER: Fix NULL pointer access by aer_info
-c662a6fef10aff3b13befc499335a334205316d5 mips: math-emu: replace deprecated strcpy() in me-debugfs
 bdbb4a2d2aeae3d115bbdc402adac72aec071492 watchdog: intel_oc_wdt: Do not try to write into const memory
 5cacd26436a66e24b1f0335a5d2b71eed4ab0d74 dt-bindings: watchdog: renesas,wdt: Add support for RZ/T2H and RZ/N2H
 19f7eaec4d9d1dcd8b49e14dbad56a65810c2910 watchdog: rzv2h: Obtain clock-divider and timeout values from OF match data
@@ -396,17 +389,9 @@ a082e4b4d08a4a0e656d90c2c05da85f23e6d0c9 nfsd: nfserr_jukebox in nlm_fopen shoul
 13289ed501bad7a37ccbfa8581961d2e9dd4aea3 nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
 6c15463c4511d26f2a820f63f5b76624a71afc44 sunrpc: fix "occurence"->"occurrence"
 4f152338e384a3a47dd61909e1457539fa93f5a4 PCI: tegra194: Fix duplicate PLL disable in pex_ep_event_pex_rst_assert()
-f145845d8348c9b6288df41cb7904fd9fde566dc dt-bindings: ata: apm,xgene-ahci: Add apm,xgene-ahci-v2 support
 e8f85d7884e0890ea43aa36396bcaf8a2659c2ac KVM: x86: Don't treat ENTER and LEAVE as branches, because they aren't
 299fad4133677b845ce962f78c9cf75bded63f61 PCI/PM: Skip resuming to D0 if device is disconnected
 86bcd23df9cec9c2df520ae0982033e301d3c184 KVM: x86: Fix hypercalls docs section number order
-17a1a107d0e96c1b7eef875de46f1d953c557f88 tracing: Replace syscall RCU pointer assignment with READ/WRITE_ONCE()
-3add2d34bdfb1caab1d3f28ba0160f52dcff9353 tracing: Have syscall trace events show "0x" for values greater than 10
-09da59344a5a2abb5b2f209cf149421d7d105ebc tracing: Use vmalloc_array() to improve code
-1d67d67a8c88db99ebf5b1323c238929c5fa8483 tracing/osnoise: Use for_each_online_cpu() instead of for_each_cpu()
-ade2105e748f85eb026d26701091213855aea633 tracing: Move buffer in trace_seq to end of struct
-8613a55ac57baf40e54633eab00c820515196113 tracing: Remove redundant 0 value initialization
-70bd70c303ad4a00b299cb2468bc6475ff90b5b1 tracing: replace use of system_wq with system_percpu_wq
 e0ff302b79c54567eb6b8f609e76c633978ff06d KVM: SEV: Rename kvm_ghcb_get_sw_exit_code() to kvm_get_cached_sw_exit_code()
 bd5f500d23170e5bde59ce97da523048b66a8183 KVM: SEV: Read save fields from GHCB exactly once
 4135a9a8ccba2b685f2301429ea765fa0f78eb89 KVM: SEV: Validate XCR0 provided by guest in GHCB
@@ -499,17 +484,9 @@ dff4f9ff5d7f289e4545cc936362e01ed3252742 btrfs: avoid potential out-of-bounds in
 60e7b5aa85712f7f2fc75b2e9d28444de88ab47f PCI: Add lockdep assertion in pci_stop_and_remove_bus_device()
 cef730075cfe2b2091e3c94471cc0a78405401d5 PCI: dwc: Support 16-lane operation
 96a17ed17b369109b662b40345df961b412c1cd3 dt-bindings: PCI: qcom,pcie-x1e80100: Set clocks minItems for the fifth Glymur PCIe Controller
-344823886eafe5fe17ed788b00e463666c2183b4 tools/rtla: Consolidate common parameters into shared structure
-5742bf62e6d3070f04a2ea688758431537076129 tools/rtla: Move top/hist params into common struct
-263d7eacf8d17d66078700ff6b4b540d66f56278 tools/rtla: Create common_apply_config()
-2f3172f9dd58cca0f188bc0766b619d24f8116ad tools/rtla: Consolidate code between osnoise/timerlat and hist/top
-c4e30c22baa745173997c831011a95e03771e466 tools/rtla: Fix -A option name in test comment
-3cd6b18d1025f2fca991c5d9543396892df3a8dd tools/rtla: Add test engine support for unexpected output
-05b7e10687c69e0c28e62b9a74ce78b3e7463806 tools/rtla: Add remaining support for osnoise actions
 064a97a29e3ba0e5d75b3b8ad5b762962aaad8ab dt-bindings: watchdog: add SMARC-sAM67 support
 c64c2a50cdd487e2270c875c1770cd55705d75ff watchdog/hpwdt New maintianer
 5c34f2b6f89ad4f31db15f9c658b597e23bacdf8 nvdimm: Remove duplicate linux/slab.h header
-99da5bf3dd6a8cb951adcace6153c34c86547811 efi/x86: Memory protection on EfiGcdMemoryTypeMoreReliable
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message in probe()
 98a4f5b7359205ced1b6a626df3963bf7c5e5052 PCI: xilinx-nwl: Fix ECAM programming
@@ -524,8 +501,6 @@ d05ca6b7931e15d882af9ca4a609957cae7aac96 Merge tag 'kvm-x86-misc-6.18' of https:
 d273b52b6fad95b6b00b93250151c323c19de50d KVM: x86: Move kvm_intr_is_single_vcpu() to lapic.c
 6560468305da263c35ff51cde1dd74d6a228b286 KVM: x86: Drop pointless exports of kvm_arch_xxx() hooks
 6b36119b94d0b2bb8cea9d512017efafd461d6ac KVM: x86: Export KVM-internal symbols for sub-modules only
-4099b98203d6b33d990586542fa5beee408032a3 ftrace: Fix softlockup in ftrace_module_enable
-2378a191f440a06e4c60fb8a50f4cb708c10ba40 tracing: Ensure optimized hashing works
 4335c4496b1bcf8e85761af23550a180e937bac6 btrfs: fix PAGE_SIZE format specifier in open_ctree()
 63a562b33a9c6b4359bfb5a9c7f5d26a85c40fe1 PCI: stm32: Add PCIe host support for STM32MP25
 b8ef623f18da24ee9e1cf9bef66dacd2e8574902 dt-bindings: PCI: Add STM32MP25 PCIe Endpoint bindings
@@ -537,7 +512,6 @@ d6e80d48f9c83fc766c1418c584dbba5a0bc9e8a NFSD: Do the grace period check in ->pr
 6304affe45648294229d18cab2b4ba6d40045570 NFSD: Add io_cache_{read,write} controls to debugfs
 d8e97cc476e33037ac69c5b09b351f5cc8d0589d SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
 73cc6ec1a89a6c443a77b9b93ddcea63b7cea223 nfsd: discard nfserr_dropit
-9cf9aa7b0acfde7545c1a1d912576e9bab28dc6f tracing: Fix race condition in kprobe initialization causing NULL pointer dereference
 2b5f6638204cc0e0f6ecd55b963ebb895ec61f3b Merge tag 'acpi-6.18-rc1' into loongarch-next
 deb2f228388ff3a9d0623e3b59a053e9235c341d PCI/AER: Avoid NULL pointer dereference in aer_ratelimit()
 abb2a5572264b425e6dd9c213b735a82ab0ca68a LoongArch: Add cflag -fno-isolate-erroneous-paths-dereference
@@ -562,10 +536,6 @@ a04731cbee6e981afa4263289a0c0059c8b2e7b9 LoongArch: BPF: Don't align trampoline 
 ea645cfd3d5f74a2bd40a60003f113b3c467975d LoongArch: BPF: Make trampoline size stable
 de2c0b7788648850b68b75f7cc8698b2749dd31e LoongArch: BPF: Make error handling robust in arch_prepare_bpf_trampoline()
 8b51b11b3d81c1ed48a52f87da9256d737b723a0 LoongArch: BPF: Sign-extend struct ops return values properly
-1376956c5e9e7871978153a483904dc3238e96fb integrity: Select CRYPTO from INTEGRITY_ASYMMETRIC_KEYS
-191cac349c8eeeb6d64453b8db194d3ad42ca9dc lib/digsig: Use SHA-1 library instead of crypto_shash
-88b4cbcf6b041ae0f2fc8a34554a5b6a83a2b7cd ima: don't clear IMA_DIGSIG flag when setting or removing non-IMA xattr
-61e19cd2e5c5235326a13a68df1a2f8ec4eeed7b tracing: Fix lock imbalance in s_start() memory allocation failure path
 a0d0cad13f7173a5a584fe3596c394cd987771f6 Merge branch 'pci/aer'
 7cc5e1e62bd20a6c24597a0d13bcf24f784e8b74 Merge branch 'pci/aspm'
 31e04a46cefcd79976a57eaebbc174dbf7b2100f Merge branch 'pci/enumeration'
@@ -599,24 +569,7 @@ c4c50d8da88c383cc446e60fda8c2c317ebb93e5 Merge branch 'pci/controller/tegra'
 7fe17980cb4e55beb634e58085ac3a880786ca93 Merge branch 'pci/controller/xgene'
 43c59341487d53c782695d1b85b3bd1d69182931 Merge branch 'pci/controller/xilinx-nwl'
 51204faa4273a64b7066b5c1b5383e9b20d58caa Merge branch 'pci/misc'
-c6a809363a66b8ff0f6a000b5f09408a1b33eeb5 drivers/base/memory: add node id parameter to add_memory_block()
-b8179af120943e2fc099ea87caa234039a709a66 mm/memory_hotplug: activate node before adding new memory blocks
-0a947c14e48cbf9de222836170282e0167a9e096 drivers/base: move memory_block_add_nid() into the caller
-89be2815f465a8b167fbef09a8b664bad28713bb mm: clean up is_guard_pte_marker()
-a089461a5994204558096eff4e4e518614755463 Documentation/mm: drop pxx_mkdevmap() descriptions from page table helpers
-df6879a7483e2372fcd70762660c546446f99006 mm/ksm: cleanup mm_slot_entry() invocation
-c14bdcc9f274620492aba7d920cc2641440cf1ba mm/khugepaged: use KMEM_CACHE()
 032676ff8217cab3273da56ee774b64c46b56b5e LoongArch: Update Loongson-3 default config file
-2cd14dff1660f80e81ad914317872686ebcdccc0 Merge tag 'probes-fixes-v6.17' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-d9f24f8e60798c066ead61f77e67ee6a5a204514 Merge tag 'trace-tools-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-21fbefc5886cc38cf7b57b28c35bd619efbce914 Merge tag 'trace-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-742adaa16db994ba1748465b95548e2f28aa18ca Merge tag 'for-linus' of https://github.com/openrisc/linux
-6a74422b9710e987c7d6b85a1ade7330b1e61626 Merge tag 'mips_6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-678074f1a8e03598977bdeea10a4ce51c4f4a0c4 Merge tag 'integrity-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-cf0e371d2b0e25d115442a281a232922a6dc0d6a Merge tag 'efi-next-for-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-7a405dbb0f036f8d1713ab9e7df0cd3137987b07 Merge tag 'mm-stable-2025-10-03-16-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-4b616669d1d8e91d0964b0861b51a3bca5f678c1 Merge tag 'ata-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-fd94619c43360eb44d28bd3ef326a4f85c600a07 Merge tag 'zonefs-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 58b65f6dccb0497802fad938e479df6ec8684c1f Merge tag 'soundwire-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 1d1ba4d390141d602dbce8f5f0ac19a384d10a64 Merge tag 'phy-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 e4c0fdd5af4c590ca07880b97e286c6532437658 Merge tag 'dmaengine-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
@@ -629,4 +582,4 @@ fb5bc347311b1d78dc608c91c2d68327b0a1d1d4 Merge tag 'loongarch-6.18' of git://git
 81538c8e42806eed71ce125723877a7c2307370c Merge tag 'nfsd-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 c746c3b5169831d7fb032a1051d8b45592ae8d78 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============5974070064991135910==--
+--===============5661652863140636908==--
