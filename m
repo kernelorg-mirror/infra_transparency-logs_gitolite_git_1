@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5372622895385006017=="
+Content-Type: multipart/mixed; boundary="===============3308192558844868033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 07 Oct 2025 12:52:27 -0000
-Message-Id: <175984154790.2894318.7482760774699044591@gitolite.kernel.org>
+Date: Tue, 07 Oct 2025 12:52:37 -0000
+Message-Id: <175984155726.2894529.11686393418015873448@gitolite.kernel.org>
 
---===============5372622895385006017==
+--===============3308192558844868033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f83a4f2a4d8c485922fba3018a64fc8f4cfd315f
+  - ref: refs/heads/driver-core-testing
+    old: d4a5d397c7fb1ca967e0da202cac196e7324f4ea
     new: c746c3b5169831d7fb032a1051d8b45592ae8d78
-    log: revlist-f83a4f2a4d8c-c746c3b51698.txt
+    log: revlist-d4a5d397c7fb-c746c3b51698.txt
 
---===============5372622895385006017==
+--===============3308192558844868033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841606 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841616 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1759841546-c2c313dc4ed62740899ece423bfbcd9c6108e362
+nonce 1759841554-fee918fe45702d85a368a033f08a319a2793af85
 
-f83a4f2a4d8c485922fba3018a64fc8f4cfd315f c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/main
+d4a5d397c7fb1ca967e0da202cac196e7324f4ea c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDUYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TYMP/3Jznt2o5KlCe9hc6EMP
-TN73mzEXwtW8MjGjN929WzkZuOkHg4SX7p06c4biM0wBFA0fPOJigOFhBaqk07Vv
-Zps4ro3jxCXGWpet+TQzO1H3Ew2QYf76fRRCd6djvrv2UxaLdxk1BJ8zwKm0MBrD
-IO9ohhoqbgce/veA6mgj2FA9EjVPDgOZnI1/myYaafmiZWXWp0Y9Mo5u2STqIHgh
-NKXtDPQgMlS81FcUZECctEUwTukvqG8VyBFTsYJgZ0x1DKUgDLPHFw5gwg713mmo
-vsg6FJNyMG8YSE59eSRTq3WDe9JRHbrS8udh0CwZfKppdrOk2x7EbRJdrK6eE/1B
-jgkLO8okT6HZfM6hpV9Sm3EWa1DdT9f+JCZ092Vnw4wYGq+iVWw/4py75k2+6G7i
-iZ53IbAISBhESQtnxvpzmGOLODdsGJKDGo1A0C3s7XPopk37Px8qh5WnRX2k6vsb
-HJsZSxYXmthg97VG30d1JKZZc6n39WbWNsPMVb7tNDD0j7IKvypB696TA5HjKeuU
-x97n8S+v31/JnGXW7oEZYq0KtmPL5m11+X23uqKl6By/enlC4PJibiyfAp6onglZ
-BLIxr2SN07XTqAudjY910p64dUEbyCVX2v1lj3Epw/wNitFwhq0GuW9fJZzMtaeB
-0xMOOTk9fqS+qldi1OpX+3Ns
-=zbFN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDVAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8F8P/1tncibDTuGaUarZLutp
+x2Ps/JitCDZIYu8FQ4FNPgBosltdnA6pr/hEapZUtJfP0Dzugm8nEMeW/cSlqR7P
+QjciWpWcl55qC4d/N8+UtUoG4Pn20CIbAorhJSzlm7AxVxXELAR373FEbmXD9S79
+WZLb5WQpOYyk8ovHENSwTAIwpBHYcj7yLlpxi/fwTtURrJAxrcjXlv4adj6SThay
+3rOdQAGxN/1cQ86A8TPRrYincHo2blz76tphXNrGwgsVoys3yi4nwzsl+9yP8Xok
+7bPcm6mZPf6HoPOBaI+yM3tSvep0Qf1guT5wDvGV+7ynmoTZjKCRFV99OA0vwrIL
+b6fGnOQpabdCcfQ1d2PkuonCu4rAAmRdAHmZ0/jlEiVhgitbX+IWkXnHS26KmFb8
+Hj8pKIT+O28kJHx/OjLvt/nazDYiC0h7EHXKoL0hY9nhbKgIbc/N6Hd/vybcBPKU
+uG7v1VgUFH5Bcx78FbJb4s9oOtSDIayBd4WAI8S+D2svxYgZphWeUbCjvrZ62Cjo
+sQI/sye8R+jSWobIF6OljNeH9bpJK0YrFh/KSqV3Tv/5xRz3VvEBF85JyiqGKnfT
+A1EszFA7J9cboOyrMYODSlGKSKqDmOXicemZEwh3iuwJdeO5o4jSQYjrfbJvuRBI
+LRfV3eEbg1cf0MPs6u/rXsWW
+=92WY
 -----END PGP SIGNATURE-----
 
---===============5372622895385006017==
+--===============3308192558844868033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f83a4f2a4d8c-c746c3b51698.txt
+Content-Disposition: attachment; filename=revlist-d4a5d397c7fb-c746c3b51698.txt
 
 d442670c0f63c46b7f348f68fb2002af597708f2 NFSv4/flexfiles: Add data structure support for striped layouts
 a1491919c8805b3874f76fd273ae224ec9768aec NFSv4/flexfiles: Update low level helper functions to be DS stripe aware.
@@ -1082,4 +1082,4 @@ fb5bc347311b1d78dc608c91c2d68327b0a1d1d4 Merge tag 'loongarch-6.18' of git://git
 81538c8e42806eed71ce125723877a7c2307370c Merge tag 'nfsd-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 c746c3b5169831d7fb032a1051d8b45592ae8d78 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============5372622895385006017==--
+--===============3308192558844868033==--
