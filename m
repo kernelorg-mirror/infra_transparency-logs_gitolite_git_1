@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6430026695614941034=="
+Content-Type: multipart/mixed; boundary="===============2649709281693439741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 07 Oct 2025 02:00:52 -0000
-Message-Id: <175980245225.2302684.11019463713691184493@gitolite.kernel.org>
+Date: Tue, 07 Oct 2025 02:00:55 -0000
+Message-Id: <175980245508.2302830.14723044482675078137@gitolite.kernel.org>
 
---===============6430026695614941034==
+--===============2649709281693439741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-next
-    old: 4ff85f184217fb1760e4e81c013fc7a97ec0c7b4
-    new: f01664d8c1ab36a02a4215b609bf78e819e9cbcd
-    log: revlist-4ff85f184217-f01664d8c1ab.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing
+    old: 05d78060b494703ff63ece3776f5f06c8c881fd3
+    new: 65973fede401e183419f7402bc6fc7fbeaede582
+    log: revlist-05d78060b494-65973fede401.txt
 
---===============6430026695614941034==
+--===============2649709281693439741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ff85f184217-f01664d8c1ab.txt
+Content-Disposition: attachment; filename=revlist-05d78060b494-65973fede401.txt
 
 d831eee861e0cac28f90582e785df5fc347db769 sunrpc: unexport rpc_malloc() and rpc_free()
 781b7058378fcc080be0821ae66d1fb1f53af871 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
@@ -88,5 +88,26 @@ d20013baa2bf5210aa8f54ff17e7680f6062083f NFSD: Do the grace period check in ->pr
 0319d250ca0abec879a8477b80dbf1e5b9118728 NFSD: Add io_cache_{read,write} controls to debugfs
 77e0e00d53720891307199c15a612dd255413341 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
 f01664d8c1ab36a02a4215b609bf78e819e9cbcd nfsd: discard nfserr_dropit
+a65dbdc21d95e5579dd91b7167571721ed6872b5 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+610e61550b94fa601504ec117f637e421598e6f3 NFSD: Define a proc_layoutcommit for the FlexFiles layout type
+efa178f41beaf438cda48d977009bca6fa646aca NFSD: Add array bounds-checking in nfsd_iter_read()
+b1d060b3fcf1b8c1cb66db41c3a7f4d3be2eb59f svcrdma: Release transport resources synchronously
+3ae69673fc331817e0950a211a773d2a276ddd73 nfsd: fix refcount leak in nfsd_set_fh_dentry()
+2eebfa2a191f2e07efe737e58b5b18920079ac6c NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+8aa3f404a1097b153625bf31fbff9c9497d4738c NFSD: Prevent a NULL pointer dereference in fh_getattr()
+abb999110656f448c4b7650b2ea7b119d281b65d NFSD: pass nfsd_file to nfsd_iter_read()
+8e7bed53205bbbad4668505567bba0ff7aa48ff6 NFSD: Relocate the xdr_reserve_space_vec() call site
+3178ccffb884be1e58b707ead6ebb0fa0ab37342 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+6151a43d4c6b2b9edc308f72e4842755affe65ce nfsd: delete unreachable confusing code in nfs4_open_delegation()
+03119652b37b46481aada33cc4a83c5ea837c472 NFSD: Define actions for the new time_deleg FATTR4 attributes
+3a57703cce311e7d3be742dece622438ce6da103 NFSD: Fix crash in nfsd4_read_release()
+27fbafa2edb255ab0a14e560471eeb51df584ac1 nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+da063bfe8ce6994ec9e4caa513bed0b090a00fb6 NFSD: Update comment documenting unsupported fattr4 attributes
+37a8cc313da8a3768ffa8951c12c9b999fe7fc73 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+1b139b27cb34b7f29f9ba79a118408b6b0443a68 svcrdma: Increase the server's default RPC/RDMA credit grant
+e694ac3aa66f7a51188389adfa6b964890c58836 NFSD/blocklayout: Fix minlength check in proc_layoutget
+3fca7ccb05c2fc2edcdcd4ef98c8f20c8de0590b NFSD/blocklayout: Extract extent mapping from proc_layoutget
+ade782612b8d18695ce6f4ebc192b0499a848d7d NFSD/blocklayout: Introduce layout content structure
+65973fede401e183419f7402bc6fc7fbeaede582 NFSD/blocklayout: Support multiple extents per LAYOUTGET
 
---===============6430026695614941034==--
+--===============2649709281693439741==--
