@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Tue, 07 Oct 2025 04:29:21 -0000
-Message-Id: <175981136124.2424076.4182727070349462313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/linux-stk
+Date: Tue, 07 Oct 2025 04:50:10 -0000
+Message-Id: <175981261079.2442295.11313764264026635605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/klassert/linux-stk
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: b484a31c2037d43753ca03362422d150581cce84
-    new: 0a5b246623ae446e0ddcba38bf075a07778bf44e
-    log: |
-         0a5b246623ae446e0ddcba38bf075a07778bf44e wireless-regdb: Permit lower 6 GHz band for Kazakhstan (KZ)
-         
+  - ref: refs/heads/ipsec-next-merge-esp46-v2
+    old: 0000000000000000000000000000000000000000
+    new: 7ca9b83565b808062dd8698544076276627abf62
