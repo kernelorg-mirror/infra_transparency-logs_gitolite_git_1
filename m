@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3313368363686059633=="
+Content-Type: multipart/mixed; boundary="===============4213014827739000684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 07 Oct 2025 13:36:37 -0000
-Message-Id: <175984419711.2936399.1990820778705944068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 07 Oct 2025 13:57:18 -0000
+Message-Id: <175984543869.2952813.14259676374613119928@gitolite.kernel.org>
 
---===============3313368363686059633==
+--===============4213014827739000684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: fd8192bfd574b68cd47a4581bfde9690e09b30ec
-    new: 0d87cc27512c8d366fd935913d2fa51c39d35e60
-    log: |
-         0d87cc27512c8d366fd935913d2fa51c39d35e60 update cvelistV5
-         
+  - ref: refs/tags/slab-for-6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 6edd7a143e88d26c8df04bc645f461e4aa695a33
 
---===============3313368363686059633==
+--===============4213014827739000684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759844256 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1759844196-6946fa180374a4685e9c1fa51a99825940838e64
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1759845494 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1759845434-282262afcd0bfcc3f397f92d779db02ff3b1aee7
 
-fd8192bfd574b68cd47a4581bfde9690e09b30ec 0d87cc27512c8d366fd935913d2fa51c39d35e60 refs/heads/master
+0000000000000000000000000000000000000000 6edd7a143e88d26c8df04bc645f461e4aa695a33 refs/tags/slab-for-6.18-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlF6AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A7gQAMBsgN4Www+u5mhnRiv9
-Bd4kF6y2XJ22GKuv4RDfn5dcbw1EFYSVAGqa3PU2tb0ueyaCQ02QuyZPJYsnhiad
-4DiWbwF8WA/uyrUsgcxZVvGg6sO0rLq8TGmYo4ktw3/ar0In1aV+GYinYUGtLz5/
-rggYVOgf6nQ1h8/NQwRpCqLqpIaTJ2kWAfmN9fu97fLukVPaRLRajz2rvZIO7ZDW
-1xj2vDH/KlEkqU5/PH2nVUi9eZYPx2wh9L8VxbTQ8YvLeo+/bom0L5DI311EDxWL
-De1WBiNx4gGQKQ82vj8aOWZfIHYE9vIWELEUNBGn3gRo7aR/3/pXb7QwIqZhy7q7
-hJ7RuhgoKlD8zfVpkN9/YzvJ/Vr2oLVXUJZ18aHPmkXGjvE3iSfVlgg0CBdcQ3G7
-X9YJh8wyaXBqTWuHkpyLzGlDSk7bqNLXKxKfep6nRxVd6Wkpka7JSgvxmIRaODeN
-/raK+EoA9sZFlLLNckIrxBFfxzvc8hqGDutRHovUsfmkmFOyXRmBd1fXi6eWin75
-AiqTWYBf99Qe9Lh4YUbb92gl8D5+dwvrOmx9NXNC3Is8ReMraLeGUvm/L5lO5xLK
-9kHWzSyzoR44lz2lbBDTNl9mmU5UzO6kYsmmUA5igP3VatvR8vXlqI7D42Kiyc6J
-bbnQo7ieFGdawcW7gvWWVVlK
-=l6AG
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjlHHYbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiauLMH/1nDR2BzjstBc8LDyARm
+b+GnPjzZA1ffwhM7pHOYHiO8dCnRxGDOwUz4u7VnvUhStZmDWe2uhECk5rJ8weK0
++LwG4OGW7QBVXpqzO0zRGnl++CqHxSvMxLWC9LvZzRWT6kwJT90BEHkKmuxrrARW
+prlNjZurwg8BT4+p9rxyrpB/rER3uVnGfERXJ0kjMzmR55kRbwyEOYkYZtfFjTfN
+ngjm3OjxfSfv6J2jyvB/5eaooJP7lwwMVGCVG149CWzV78zwu4HWdSEDisV7xVc1
+soZqfgF9v8mhxOTu37u+R13WhsLki2/at27p+cm6vuBlYNKcj68xC0ebKYcBivOv
+fyo=
+=COMo
 -----END PGP SIGNATURE-----
 
---===============3313368363686059633==--
+--===============4213014827739000684==--
