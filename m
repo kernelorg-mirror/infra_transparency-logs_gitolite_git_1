@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3079691051731113578=="
+Content-Type: multipart/mixed; boundary="===============0966160225923103990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 07 Oct 2025 12:58:22 -0000
-Message-Id: <175984190257.2901443.9106007469524506208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 07 Oct 2025 12:58:25 -0000
+Message-Id: <175984190561.2901597.13135723228153280469@gitolite.kernel.org>
 
---===============3079691051731113578==
+--===============0966160225923103990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
+  - ref: refs/heads/staging-testing
     old: fd94619c43360eb44d28bd3ef326a4f85c600a07
     new: c746c3b5169831d7fb032a1051d8b45592ae8d78
     log: revlist-fd94619c4336-c746c3b51698.txt
 
---===============3079691051731113578==
+--===============0966160225923103990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841961 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1759841900-1f75968acdd95de07005ca5359ad3ffb3c2f009e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841964 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1759841903-6376506a7adabf49bc66104a699669cc4dbf69f4
 
-fd94619c43360eb44d28bd3ef326a4f85c600a07 c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/tty-testing
+fd94619c43360eb44d28bd3ef326a4f85c600a07 c746c3b5169831d7fb032a1051d8b45592ae8d78 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDqkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FgIP/08k6NrSBG3SNF2YidWd
-z1rAY+2RziauFTdb8/7M8tyNvCJ5FFYG56dPH37zen6srlhtfn/VluExdDQB4tNu
-iRLikKyI71mlgWu+MRScK3AeJAaweZP9ECIyAAKgvRxxtPiMfQfgahK5uPApTWK0
-mwCjhnQsJPhMYvOa2uAp+qKnTWEzmXguvQyDqwOfgAwntvmEiOM2zPHazufCTO9k
-YN1s2LrECzCU9L5iILI+qEDwLHmYCK7hNR8CQim0T4CRtolKtE15fCG6qKvo8oIP
-wxNlb9zygbTg0SwT1DqOMvSWUGDH45Lt38scGukMTutK9q8x8Ab5zDOs5X4/h0XQ
-6JRMkgknDeUiwM2FT8HMEPcoHOOc3rZdkuD+kswVvxJlPmZ3btOJepu9mXDd+SjO
-JYGyQohwXfoFv3IPC6ARM3VcaYpP/JlXQ3rimURIdzwYGK2SukETphFLIEfN2HGk
-zkPyVi8kcq1pLY7QyrCULG5+tZlUILxmbsXzm2vFeg5IeMMvRK/oqA1EQ4WW1xlu
-lSmQpZ20MiMR4GnEeLjdpMsirqFc80d/NZD+vuhNop8mVta01vSsiWskMtHBeOuL
-nJ8XJDpuVo6csz8GjDDgLxMkHL316sISsGbNr9gOWXGPspQKQgbHf/kehR1miiXx
-5lMAWCHdphix4Tu7uTrz38nX
-=/Wv8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDqwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I/gP/35z3khT5CN6+0p4/nMS
+hCrmpsuepbOprJMBHoHx1WEeZwGc0OAL155ga5+rX2bJZSuZ2/NUZbBO8B8i0sWm
+eb3p6SK8vDcczC2LuTx8MAYrv/f+T4v2+dAYzQLHzzqiQKpw2DasSscI5vBSjVne
+hdM/KNivrCR7B/AIrob0isMvO3O2os0VmwWESWl+U1NaSirWo3p1WJiAtTfv8TzO
+y1XcPoxKU1EPe/SxjBdwLhkPDpMwssTz+c3gjF17KO1xp6DhmaZPRz8d6O2Z7dp9
+OVQbtrE/+rHdwuWLNvO17maJU/ZhwBBsLBkY4MdBn+RYm0LehoTzioWnY7XU6nrQ
+DTif2+1R8Sq13Rz+RF8mH2R+xLmhmdpR0/Ogv/LU8+evrkGqWCuvgMu3ze4HAk5e
+F9X3HaXpYr3aW49UoDt5VixWCThABBjaioAoH5J9AJZ2qla6EB8beSfjTbXAhYoA
+/VxlOF9TsuRXDlHl6DzEVB2ej2VNYgbWc/jYhwpu1/HCYrOivI58N197Y6SNAAeJ
+d7cvaq7loanv86mHWoEd11YW2gkg+GQ5zizVRz2QYOFI/EQeSSP20/+JsjUlSoU3
+jgg3CdJ7zZZqU2kptjfwTR+h5Hgo9k6BNlsRhvzSgicTr3MVWtN8W/wQWdEqQ86d
+YuzXoVMqkchh9DTo4dlBtBIw
+=EaeK
 -----END PGP SIGNATURE-----
 
---===============3079691051731113578==
+--===============0966160225923103990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -582,4 +582,4 @@ fb5bc347311b1d78dc608c91c2d68327b0a1d1d4 Merge tag 'loongarch-6.18' of git://git
 81538c8e42806eed71ce125723877a7c2307370c Merge tag 'nfsd-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 c746c3b5169831d7fb032a1051d8b45592ae8d78 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============3079691051731113578==--
+--===============0966160225923103990==--
