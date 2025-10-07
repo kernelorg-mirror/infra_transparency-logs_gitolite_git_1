@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7680857006146749144=="
+Content-Type: multipart/mixed; boundary="===============0813839103413959219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 07 Oct 2025 12:55:38 -0000
-Message-Id: <175984173872.2899133.12273414086480964235@gitolite.kernel.org>
+Date: Tue, 07 Oct 2025 12:56:54 -0000
+Message-Id: <175984181446.2899842.9806724121514388969@gitolite.kernel.org>
 
---===============7680857006146749144==
+--===============0813839103413959219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/container_of_const_mess
-    old: c746d33e42afadc4d2fae165a7fcc09321d98915
-    new: f273fd06ab871ae2842dc41679c87b3e4e173186
-    log: revlist-c746d33e42af-f273fd06ab87.txt
+  - ref: refs/heads/pmu_bus
+    old: b240b9724faabd3eb484254b41bbf9d8bb73d0f7
+    new: 61d9c914338bf4105e1e7991c5554399ee25c245
+    log: revlist-b240b9724faa-61d9c914338b.txt
 
---===============7680857006146749144==
+--===============0813839103413959219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841795 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759841871 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1759841733-518a58b42a16f4041461ff8fe94fcb584728da3a
+nonce 1759841809-5b535f2956a3220a7308ce942d401e1ecbe28129
 
-c746d33e42afadc4d2fae165a7fcc09321d98915 f273fd06ab871ae2842dc41679c87b3e4e173186 refs/heads/container_of_const_mess
+b240b9724faabd3eb484254b41bbf9d8bb73d0f7 61d9c914338bf4105e1e7991c5554399ee25c245 refs/heads/pmu_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDgMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+acoQAMiqPqKaLGIJBIdDfpSR
-Ve/mgW2cRuv90dVsGMz+rCpo2TSWfI3H/AOKy9GXchsNOu4PD6F840roULiXMtn6
-SMfmwnp6UIGZdhA/BnP8sb5BDqcCyF3VIDC9sWLr1cPeyCa6yd127wImcTS/ebSC
-sJjZuKPCULDdaqBdbk2aXg5C9tJvU5o8ivHdBdieU9IcGU8pPGX9mVcSA0ztFzw6
-6M8LBQlpvtFXBrb2l/I3cCS4kg0GP6S9Ka1w+dYRorrWh7htdPdIl7j78pvp4vfI
-0oo2MjMdOpjZ5Hic+WwJC1fASPzOlonmueF6GqHq+ryt6vmSX5kQE7zq8E6prG9I
-jjsgKI/oHzq0IOCChqlgaxKFhUIe0vT1nShzRhUuW9GgsOiMnnMR+YTfiUpGtgsW
-s6m15VziIpo/oGe9ypEYEFlKLJo6UpljIUaqd8CKmIjiZr6ZDhZ9yyZv4sWswaos
-0jaWyRRXXOOygxjCG/4lpi5uHl0oyfI6q8ubAFe7nYVSg5F6ssCPBGeUIRIhVgIP
-2VypyBXfCYHamTyx3AGuurhI45u8/d06YdBwezpBU2QlND71VI8CypaddT99DdhM
-bIIvud6VsxPDuHEimF/KklGj9Hb7KMo2wWzSBVYt1cTaYxCYaGF6izdpGrnyIyaE
-SEG0G3HkCoUMObseWuq7IQdO
-=rBrh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjlDk8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UN4P/RpW8ebVyrp6aqaEfLBa
+LbN54/4WjR9ZSQe9LB/UdnJTT9imq9hBTs7PaCizBW0sZa/Z2PxM+lWtaYYaF1vk
+oLYquBMXXTTwHfk2OPekdDbarJwFHo7WQ0k5pJXI1u5juIxLvrtZ1TrykA5k2SW6
+cjrjsyCdvHT87l/u7eZtrg5lStNGG+Bhul5sQT9Et6/MunGtDf26SVvvyCtBRksF
+fPr77LlYDk7PFTJzHGLY1EqqcoMIx1Nrosgj1KXUASZr7mM/vUA42OmFruHd3kWn
+LzS27ciZnmSTzashKdcXIHqly9VtiwYFFFYa6pgifzfGkKl5JlmZRZufHI2Yp4UN
+UnQpih37ji/OTfS4+HoGijlA8NcUcOgbVERXGf1aqNWLQK+wJSF4lU34PwcFnQKb
+LnxQNaWnND72FPGVn9k1kHuzf+DVXppEMkIeOakwEkxjYJLGZSRAiMN52JOk9Q00
+B6Rp5obQhTzlsAMDxavHy7JRgZzlR+oa2qLk5AhFv/92u97EmjhF63G8zjYgnrVs
+tPXA7T+37dSKNj8k0C5dsqwvuV1cEvm02QR6CNgEfxa+pG89LFFN+AsNolN/ZMQ9
+L5F5S0iGVZ4BnraHXtff6zLHDKnjod5umaW67SlFdJAPnCOvd6O+r1AqSo0QtE0P
+gLLFZtUE5/i0APTax7n1IX4k
+=wqgG
 -----END PGP SIGNATURE-----
 
---===============7680857006146749144==
+--===============0813839103413959219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c746d33e42af-f273fd06ab87.txt
+Content-Disposition: attachment; filename=revlist-b240b9724faa-61d9c914338b.txt
 
+a1491919c8805b3874f76fd273ae224ec9768aec NFSv4/flexfiles: Update low level helper functions to be DS stripe aware.
 4934ccbeaed39659474fa18b8a399e2887cef8a9 NFSv4/flexfiles: Read path updates for striped layouts
 8a8729db676379e148ce56ac9a7bc1f90e3bd95a NFSv4/flexfiles: Commit path updates for striped layouts
 06d157d6fc40615d199d0b2786dc469a05c9d254 NFSv4/flexfiles: Write path updates for striped layouts
@@ -1079,7 +1080,6 @@ fb5bc347311b1d78dc608c91c2d68327b0a1d1d4 Merge tag 'loongarch-6.18' of git://git
 256e3417065b2721f77bcd37331796b59483ef3b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 81538c8e42806eed71ce125723877a7c2307370c Merge tag 'nfsd-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 c746c3b5169831d7fb032a1051d8b45592ae8d78 Merge tag 'for-6.18-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-54e49a32aa196749cb35710c2fa401fb641385e4 container_of: switch to be a const call
-f273fd06ab871ae2842dc41679c87b3e4e173186 generic: fix up some const issues.
+61d9c914338bf4105e1e7991c5554399ee25c245 perf/core: move all of the pmu devices into their own location
 
---===============7680857006146749144==--
+--===============0813839103413959219==--
