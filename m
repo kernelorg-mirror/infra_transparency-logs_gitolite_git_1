@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7462367108449105506=="
+Content-Type: multipart/mixed; boundary="===============3184253219200639055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 08 Oct 2025 05:32:58 -0000
-Message-Id: <175990157851.3797781.10094626076788743601@gitolite.kernel.org>
+Date: Wed, 08 Oct 2025 05:33:02 -0000
+Message-Id: <175990158240.3797945.13618793343287319749@gitolite.kernel.org>
 
---===============7462367108449105506==
+--===============3184253219200639055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: c746c3b5169831d7fb032a1051d8b45592ae8d78
     new: 0d97f2067c166eb495771fede9f7b73999c67f66
     log: revlist-c746c3b51698-0d97f2067c16.txt
 
---===============7462367108449105506==
+--===============3184253219200639055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759901637 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759901641 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1759901576-1ce02eb2aa7bc610dc2b784e243b4b2cd32c6c2d
+nonce 1759901580-09249e078415254708c53895fe87d8e013ecfb6d
 
-c746c3b5169831d7fb032a1051d8b45592ae8d78 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/driver-core-linus
+c746c3b5169831d7fb032a1051d8b45592ae8d78 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl98UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YpQQANPYtGITsHT8Yqr+ebET
-RSeDIsVaF+vz3o8fj2OiJUh+5JrpitqZ78XelOlmv1jz1Eq/5qjveBPqp6DtoKtL
-PQPbbrxKQgq56EfSugcpUg5qtJ3BPmy+Eb6vwAoMovlFAdz3zcNZTOr2GWGBoKQO
-AB9Xvfd+Dq216WtBZ8QW17MAnr8u8R8GokZEDKRwZV7egBX4/gkTLo901/NiHmuX
-36jWflpT00SiZNvJuf7Rrbtu2XzzrUbJpZw2WreMCcFz006Pfps2dG92kUpMJOSN
-+lbKEfbuBMGkJOv1c1hQ+oXGH/U/g6/U/lAs0L2xLQYZLqxEq7pWtUZopx4T9bGH
-Z7nfWrJ68itjNt9qkn/WFhMwT3P6GZpYsqjP+2Krb+OJt3+LfLg5w/NEt+l0cHmW
-SMfG4KJtKWk9aC6tD3uwIaHrrf7tmrDtmkm4KXFv4DM31vZfeKm+1WM3kPEHTzKK
-ZLKpPcZtybjlUA+t3m2QzXbomhtzjXdJBm15hnNDhtna0eOfmGyyAQ7CD8Eew8xx
-7Qi5clA7JuPuyDgBsIWfmV50SyE6gP8IWvv0+ZhTPfRzbuSxmYqJnnDCLw0FlbwU
-/ljsotLEEYNCx7gz9lSDJW/RY0WTHkJgXMhB1LFW4f+voaZurOC6PDXY2j93GFwu
-DSUTRgVqKXvc4ym+CIgCw0AK
-=XLXz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl98kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3GsP+QFLvIIIyoetPQgjigIA
+pNSFmMx6gyH6Gecv5KQeN1HZPpzDqsSqY6/y/Hn2AG/IbAV+6BAur5pEi2tDNgPD
+rGtkwS7io6+jub2kcuvs46jGX6eMYcd3F6WxbtgMQvy53Xxjm8GqSCb7Kezu8LTf
+x/yHaUIXpg5FNAC7+Z34Krp/SrpOpSFGMdHpqEWYOCeTOp6TVTou2zL7TUeAU0FP
+skyFXx2H2O20BimKSdnRE9U+nE7j3sRkaiJMNMeH/829M5Z9uZ+3/Lv8Y3sq+4ym
+ZdBuYcpg9jPSviG/ucMlu2tLzE2ujk60XJnQl7ELq7InQl+Eh7AG7aOuYLWKpmYS
+wm1+NOieVpT6SVstQdqsxpV/8YzOvvn7kZVV5L/DyJamSL/xA523KMG00n7mtYrv
+ypJDb+i0GbYADsB4ZFMrNxNXMifDvxb3NvNYuEn8wmyzhSEAeCZPpVNbgH/6KE2t
+JWQFJTyoZ60hpC8Pt9E8vVa4/OMigVXFJ5j73fGnu6fif8Snr0q0p/SyczTJz0w6
+y96PlDpDFGl6g7CI16NdkSbHMBYwSwIGKsi+psC1sWCmC0vVcod+j66i5S6uMWVJ
+NCI63v1mTrUsyl45PNyidByjuFAuTX5rIrM4Jz+Dq2M5b9H4rWKjW4cRai+HvE3u
+lbayjvu8S2nTr8CGOh7BYebx
+=25XY
 -----END PGP SIGNATURE-----
 
---===============7462367108449105506==
+--===============3184253219200639055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -472,4 +472,4 @@ fdb8d00af919d2403a9e40261cf3f78f0fd75212 Merge tag 'char-misc-6.18-rc1-2' of git
 a8cdf51cda30f7461a98af821e8a28c5cb5f8878 Merge tag 'hardening-fix1-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 0d97f2067c166eb495771fede9f7b73999c67f66 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 
---===============7462367108449105506==--
+--===============3184253219200639055==--
