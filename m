@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3784139058128856691=="
+Content-Type: multipart/mixed; boundary="===============0009818735119022252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 08 Oct 2025 17:29:00 -0000
-Message-Id: <175994454013.218402.17856947210250291544@gitolite.kernel.org>
+Date: Wed, 08 Oct 2025 17:29:06 -0000
+Message-Id: <175994454633.219379.12427919757891607671@gitolite.kernel.org>
 
---===============3784139058128856691==
+--===============0009818735119022252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,123 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-next
-    old: e00d9eea60ad640825343ef0decd7bd5d17ffcf9
-    new: bbd7108bbe1d1d0e5b7a239434ad549d764218c0
-    log: revlist-e00d9eea60ad-bbd7108bbe1d.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 3a1ef5abfd31333cfa7284b3e7633733c6798c60
+    new: 823d441ea9cdd161492c6529ee3556ebdcbe52ab
+    log: revlist-3a1ef5abfd31-823d441ea9cd.txt
 
---===============3784139058128856691==
+--===============0009818735119022252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e00d9eea60ad-bbd7108bbe1d.txt
+Content-Disposition: attachment; filename=revlist-3a1ef5abfd31-823d441ea9cd.txt
 
-a1d059cb99e2df6af359512f001299dea551dfab Expand the type of nfs_fattr->valid
-dbb18073feb129b757012fe50a5bb9528393abeb nfs: Add timecreate to nfs inode
-412cbe687b98da7df3be6a1786a11709eb131253 NFS: Return the file btime in the statx results when appropriate
-9b948eb2a8e16a60553be3c75e89defa5279202f nfs: use lock_two_nondirectories()
-5dbfcc6e51520b99aabab0f87158639e04f23b52 pnfs: add pnfs_ds_connect trace point
-c0b4c921df62d2b4df033ab0664d7ab6e9c33ca4 NFS: remove unused wpages field from struct nfs_server
-4887ffd2b836f38162b20a1ccd7ad67ad057cdb5 NFS: remove unused time_delta field from struct nfs_server
-2085306dfdd1bdbea7ee846d32323d59a9216eb2 NFS: remove unused pnfs_ld_data field from struct nfs_server
-794e1a164ed26574c821dce9e8198a3ddd977780 nfs: add cache_validity to the nfs_inode_event tracepoints
-5fab5b520338998d3323a70c340a5cd495ae7c76 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
-bc450f67a7ccd5efde8296101c4cd07e2a347277 nfs: new tracepoint in nfs_delegation_need_return
-8bfd7d5e219b19ff86240217161bd8b0e1e60e3f nfs: new tracepoint in match_stateid operation
-a1cda44c7f0dad20247f9e3cdf21f5e2f24443a7 NFS: Allow folio migration for the case of mode == MIGRATE_SYNC
-f88dae58a3c134672bd8df299ea39261c6e1133c NFS: support the kernel keyring for TLS
-bc0ef548aeeafd3cbba0642d1807d3ce39442ca1 nfs: create a kernel keyring
-0eebf703d00cfec9b7aad61d429f7e8e19cf8dbf SUNRPC: Remove unused xdr functions
-e7b6bdcbec9883874c899faa74aa1839cafb7bd8 NFS: Remove unused function nfs_umount
-7b1c139e0f1b77b88ed8f7749f00618359362a34 pNFS: Fix uninited ptr deref in block/scsi layout
-499a0e6cb8f102b8b650433654236bf4e05b9cac pNFS: Fix extent encoding in block/scsi layout
-588d17481bb413f1c28e0283bd58807554092ea5 pNFS: Add prepare commit trace to block/scsi layout
-7750e21335c0cc2f5c526d295c07afb0bcb12baf pNFS: Handle RPC size limit for layoutcommits
-2a3a9d3976ccc68c9fbb0cb0fa168582e30856ba pNFS: Fix stripe mapping in block/scsi layout
-ce5a710eb1706ea759044937d5d83ef472982c82 pNFS: Fix disk addr range check in block/scsi layout
-8ceb57dfbef48ca648714be6254c40393f63875a NFS: pass struct nfs_client_initdata to nfs4_set_client
-a01e829eb19091e2fe0075ba54253d430f9accb9 NFS: drop __exit from nfs_exit_keyring
-d0b8c577bd2f7ab85d8cdd5026cd0978cf2c3793 pNFS/flexfiles: don't attempt pnfs on fatal DS errors
-fc72b1ed2f67de0df3300efce3a43f3baa40bb8b NFS: cleanup error handling in nfs4_server_common_setup
-84a6434abe470408595f759696e190a4d508c068 NFS: cleanup nfs_inode_reclaim_delegation
-7905c76526eb7bc0dd690cb318ccd26e0b51e4f2 NFS: move the delegation_watermark module parameter
-9db2651bd7a4fbac0b8128b2f736ba56350360e7 NFS: track active delegations per-server
-463cb8cbdaf90b43ce37be8b6422a947538ddc8e NFS: use a hash table for delegation lookup
-3e431a83a0feb0b222dcf1b4979e8ad0ede31dc8 NFS: Fix wakeup of __nfs_lookup_revalidate() in unblock_revalidate()
-d00b5995fcfae718b579595763f6c46a75b56364 NFS: Clean up pnfs_put_layout_hdr()/pnfs_destroy_layout_final()
-ad45cb0a039c6bc4b2a1b1f502a361199b2a5699 SUNRPC: Silence warnings about parameters not being described
-8a3da7c64c4359e9d1d7c3fa1bafa145d4a7ebdf NFS: Fix filehandle bounds checking in nfs_fh_to_dentry()
-9843dff4defd29ece0f539614f83650dbf922d04 NFSv4.2: another fix for listxattr
-404a12c443d91438a420d5eda89f4dd6bcd8c0de NFS: Fixup allocation flags for nfsiod's __GFP_NORETRY
-5e557efbae430cf348ae1876127dfc3d81628273 nfs/localio: use read_seqbegin() rather than read_seqbegin_or_lock()
-be02509d5b91cf64da1de1244b539fe833c8c6c1 sunrpc: fix client side handling of tls alerts
-785b9420421aee1620bbd0f3e5b95f8002644d61 NFS: Fix the setting of capabilities when automounting a new filesystem
-9fb37c6f13ee1cc5e9e90f6d835f17fd517c3722 NFSv4: Remove duplicate lookups, capability probes and fsinfo calls
-940cf7afa7939cc839a1d67e04d6bacddc2f12bd NFS/localio: nfs_close_local_fh() fix check for file closed
-1b1155fd4c5e4d1cf448d6cac7621dc9633bc9f7 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
-7dbfc4969aa84e6111b18a69057b1e346bd1ab83 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
-fd2e9694b1408c631b8bf6c21a3e126ebbcc2bcb NFS: Fix a race when updating an existing write
-e12d36b7d5404c88e95ac6bd8917da057e5066ff NFSv4: Don't clear capabilities that won't be reset
-25cbb21a53feab9280e4833d8faf5650aa67eb8f NFSv4: Clear the NFS_CAP_FS_LOCATIONS flag if it is not set
-c215502c5d40a544a5618c3ead409982be87b347 NFSv4: Clear NFS_CAP_OPEN_XOR and NFS_CAP_DELEGTIME if not supported
-79f8cc21c631b24719fb6281dd30cd99b8e00428 NFSv4: Clear the NFS_CAP_XATTR flag if not supported by the server
-889d460c3f16404740315d5220a15f9d53c10f68 nfs/localio: restore creds before releasing pageio data
-71ccba343641398f9e725f3af10386c410b6de6d nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
-df18ebefb2e5b6537cbe821837cc4686f51a9cea flexfiles/pNFS: fix NULL checks on result of ff_layout_choose_ds_for_read
-aa18e50335717ed5d61f1bfaca9ece3866b0f184 NFS: Protect against 'eof page pollution'
-e9303310624ef2f72bd92b025c41f5736421c6a4 NFSv4.2: Protect copy offload and clone against 'eof page pollution'
-7935b7d7a19aaf3d3421fb1a11a5d23f2f7c3e25 NFS: Serialise O_DIRECT i/o and truncate()
-a5ae5b15d60bd04b6fc1de9bdcc247933e3bd499 NFSv4.2: Serialise O_DIRECT i/o and fallocate()
-d51b25a956fc244a725a30d6d6345546fd1db417 NFSv4.2: Serialise O_DIRECT i/o and clone range
-da347d96f434f7f743ce671a9e1380eff8517b38 NFSv4.2: Serialise O_DIRECT i/o and copy range
-5e15abbcf64b6862b40352b8fa60ed52a0bb8717 NFS: nfs_invalidate_folio() must observe the offset and size arguments
-356aef9b6d003c07b365f9eebfb19e4fba7a07ab NFS: Fix the marking of the folio as up to date
-c9c4aa2fd9b86e902b2e808d9b1b0ac582bc0f92 Revert "SUNRPC: Don't allow waiting for exiting tasks"
-873a6349f01a7a5b9433630dd90502c172ec404f SUNRPC: call xs_sock_process_cmsg for all cmsg
-b88141b1c5b62995c64d2f95449a58c36099daa8 NFSv4/flexfiles: Fix layout merge mirror check.
-b68f4867881a61ec04ce55a52a109d833e620001 block: check for valid bio while splitting
-d0eab655898c98dcdb9a1623d69d56efa5ff3746 block: add size alignment to bio_iov_iter_get_pages
-099105c3f5a75e04ab04f8795fb1d423615a5bbb block: align the bio after building it
-85d3016957fc75e843074618d35149cf3043181a block: simplify direct io validity check
-e9264284eeeed2188e66c637bc4717037199622a iomap: simplify direct io validity check
-a6fa6ffabdd89a1e96c7c47949f93ae717a9c267 block: remove bdev_iter_is_aligned
-645de90072d6a2498a7b8107d51f5d22b1c9256b blk-integrity: use simpler alignment check
-7fe04a9c8876ca1f56a40b926716bb9303697abe iov_iter: remove iov_iter_is_aligned
-ce53009705e1f8086ceed73db64e0620752d275e nfs: add tracepoints to nfs_file_read() and nfs_file_write()
-208fec16877ece593ff1922e7658983515a7f7c4 nfs: new tracepoints around write handling
-81c9e59fd56f048eaba26cad376d943019f42a1e nfs: more in-depth tracing of writepage events
-57966fba5a5f146c2dc801f98d3c021e2cd3d1fb nfs: add tracepoints to nfs_writepages()
-0cf9d9c7a39f1b40823aa1c0fc465210952d9cfb nfs: cleanup tracepoint declarations
-732042640fb771db7f903cb4e0fa6b33e79107cc sunrpc: remove dfprintk_cont() and dfprintk_rcu_cont()
-af01ab8dbfdc0f2c9ebd46388366ef0e2dc6e919 sunrpc: add a Kconfig option to redirect dfprintk() output to trace buffer
-cefb351608ffdd160de3f112a2d7ff7ed25a44aa NFSv4: handle ERR_GRACE on delegation recalls
-6fc86183de6b03d81e43473f3238a04e196009b0 NFSv4: fix "prefered"->"preferred"
-ff3ce4c5bb5683d02355d58b58754324b1563ac6 NFSv4.1: fix backchannel max_resp_sz verification check
-705942a39dcd2ed7bea065a3372c4dcff501bc20 NFSv4.1: fix mount hang after CREATE_SESSION failure
-917eef4ebd57ec1b0197aa396dfb586b3db3c0de NFS: Remove rpcbind cleanup for NFSv4.0 callback
-8f0b34f6c05e12a68c8aca2ce2b5d53b938c9cc6 SUNRPC: Move the svc_rpcb_cleanup() call sites
-e443c38a9faa7dca2ff8a8ff9cc671cb789bb2b9 nfs: remove NFS_WBACK_BUSY()
-e9d8a023ec70c6c68f9b28f725bc59c176b21181 SUNRPC: Remove redundant __GFP_NOWARN
-ef7d1eebd4409c8f2cca3507afac0f6c765258f1 SUNRPC: Introduce xdr_set_scratch_folio()
-8aeff508138a07be8970acfa19bd8b9f969c13f5 NFS: Update readdir to use a scratch folio
-f0592ecebfa3c4b5cc6b48fc96c09f2ca2997a26 NFS: Update getacl to use xdr_set_scratch_folio()
-fe1933941c0e013ce78742e98f169c90ef9e5fbe NFS: Update listxattr to use xdr_set_scratch_folio()
-7eb6bbd9cddb8d424086911d16f02fc31b1703e5 NFS: Update the blocklayout to use xdr_set_scratch_folio()
-4da1f677d5be920884b14b04898ecb46e95873aa NFS: Update the filelayout to use xdr_set_scratch_folio()
-120c8d8ec0aa3ee722264fec07974567b65520aa NFS: Update the flexfilelayout driver to use xdr_set_scratch_folio()
-ff48ede762b629a7c4480d2d57aca8aab3903b22 SUNRPC: Update svcxdr_init_decode() to call xdr_set_scratch_folio()
-f1a1293f027e8130512d11054803bac1ce4d4899 SUNRPC: Update gssx_accept_sec_context() to use xdr_set_scratch_folio()
-653b9a3380e537ba4b473c0ba67bf6eeca336696 nfs4_setup_readdir(): insufficient locking for ->d_parent->d_inode dereferencing
-d831eee861e0cac28f90582e785df5fc347db769 sunrpc: unexport rpc_malloc() and rpc_free()
-781b7058378fcc080be0821ae66d1fb1f53af871 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
-fce6034463e1c0e746500ffc71d2852a27402d81 nfs/localio: make trace_nfs_local_open_fh more useful
-f1ce4ea78b7c6cad906e4381f108c810a2499fe2 nfs/localio: avoid issuing misaligned IO using O_DIRECT
-7e07871b424573fbb716966a05f5d2387c275431 nfs/localio: refactor iocb and iov_iter_bvec initialization
-c22de1c4ee046cfb8c8a808c3a36d24d13b1ae43 nfs/localio: refactor iocb initialization
-a2c4e7fe5877cc6fb2ff4741d998adf504e3e9a1 nfs/localio: add proper O_DIRECT support for READ and WRITE
-a6a866433db790693f0cbb429893aa955edc15cb nfs/localio: add tracepoints for misaligned DIO READ and WRITE support
-14931e1e2804dd13a7400ddd493c1c951622a4f4 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
-855ec014efcbf3792a6bc4f22d594826811e4cae Add CONFIG_SUNRPC_DEBUG_TRACE=n to default config
 29fa10623b4083c8105518830569209194d34c63 NFSv4/flexfiles: Remove cred local variable dependency
 3c2d70cea6cbf4b630e23335ba5f5267a42c568a NFSv4/flexfiles: Use ds_commit_idx when marking a write commit
 978b8bf0b9b5467ee8a59e36a8764df20363590c NFSv4/flexfiles: Add data structure support for striped layouts
@@ -142,5 +36,41 @@ a86dca522903b8c481b82cd25c33f9611661e3eb NFSv4/flexfiles: Write path updates for
 42b13da66af0cf18d03d46d3d1e98852e1acfdbf NFSv4/flexfiles: Update layout stats & error paths for striped layouts
 41e551663b0752e5d9197df3920177d511976b93 NFSv4/flexfiles: Add support for striped layouts
 bbd7108bbe1d1d0e5b7a239434ad549d764218c0 NFSv4/flexfiles: fix to allocate mirror->dss before use
+7400fa30c362afb5364d23d89b41ae473e3881ac Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+20c36b0a77de54e10c9e220965c9eeee6c6f8a92 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+9f2251389c1d1ed32826c811395b0310e14010ad Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+e701ac9c3897e439222ca88f8f681eca085b6b93 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+acff59f4a7fa14a28c11c207977082e2746e09e3 Merge branch 'kernel-6.12.24/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.24/main
+711a6a46efb5fb3b45cebf4d6ce1cb59670975a0 Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.24/main
+e3d68377c6560c26afea1631659b767d2814d9c5 Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.18-1' into kernel-6.12.24/main
+ca35cfc43b78d941ee1a74d55db0c89d29e4d380 Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+82f6c02caa219e7d91c0aed0e4072a8ab06b8c73 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+2093aee734cc46340b3cff95d72545a9144aad3f Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+6c902e6f6d99736355ccdf332570fe9fd14d1dbe Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+c32dba1ed114a4203c83908670874e0cd9e02bd4 kernel-6.12.24-1
+90902f117f8578308bc175e4d7f2f027a333acd3 kernel-6.12.24-2
+2611161a8f41d1710b6f789549c3cd3e28b6a125 kernel-6.12.24-3
+08870dada9f6f72118cbf8ca0b5b830c6415854b kernel-6.12.24-4
+3a83759aff05c4c433e1b46311686275d8d96f92 kernel-6.12.24-5
+67cdf9ee18a3618915975b20678ea1f59c14b429 kernel-6.12.24-6
+40f85484c86bdc3f6da57c14567675fbf3f40839 kernel-6.12.24-7
+f58c8221b1269bcc9132d626128d767cadca5061 kernel-6.12.24-8
+76e5df609c65a8788cd6563641c05542368061af kernel-6.12.24-9
+bf93ff5ec2b685f6e22a00fc470da19bc00e2644 kernel-6.12.24-10
+213d65ca9f7ea92b915c98ccf10431d8e7a9f9e6 kernel-6.12.24-11
+53002c0ef2d53e8c29b5b7ee6d36023034741634 kernel-6.12.24-12
+fb7da784a690bbececd316990554cd9987022685 kernel-6.12.24-13
+939a521bda281688c0e0c2c24368e7d5145b4192 kernel-6.12.24-14
+36fef9eb3498e2677461448d8154a034a1583be5 kernel-6.12.24-15
+29be5499929386ea3891b459e0ee22e3a391d228 kernel-6.12.24-16
+18d11ddbb307d0d5087a9ce054b8f4868a202887 kernel-6.12.24-17
+d5139d4b0b6c835da9baf5d38db1af47554267d5 kernel-6.12.24-18
+752ee717f50726bb3647260e731009367ad92d92 kernel-6.12.24-19
+a4b2e8ade6b815dd15267b3b51425089e17c9987 kernel-6.12.24-20
+fa1a90f9d392c516d20d25da09c177abda9f4e68 kernel-6.12.24-21
+964a68ad22eab9433a75d491ad273610a818c00c kernel-6.12.24-22
+d5d8d05aca63496a83de1502d01217cca755a5fd kernel-6.12.24-23
+84fbdab2fd430e708ccab30fcb54e9dfb399030f kernel-6.12.24-24
+823d441ea9cdd161492c6529ee3556ebdcbe52ab kernel-6.12.24-25
 
---===============3784139058128856691==--
+--===============0009818735119022252==--
