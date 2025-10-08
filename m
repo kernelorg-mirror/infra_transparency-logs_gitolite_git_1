@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1568506474215028270=="
+Content-Type: multipart/mixed; boundary="===============1139851698924457577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 08 Oct 2025 08:49:07 -0000
-Message-Id: <175991334784.3961190.14164030023193617077@gitolite.kernel.org>
+Date: Wed, 08 Oct 2025 08:49:15 -0000
+Message-Id: <175991335535.3961383.1238214519265655632@gitolite.kernel.org>
 
---===============1568506474215028270==
+--===============1139851698924457577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,53 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: b65678cacc030efd53c38c089fb9b741a2ee34c8
-    new: 2c95a756e0cfc19af6d0b32b0c6cf3bada334998
-    log: revlist-b65678cacc03-2c95a756e0cf.txt
-  - ref: refs/heads/master
-    old: b65678cacc030efd53c38c089fb9b741a2ee34c8
-    new: 2c95a756e0cfc19af6d0b32b0c6cf3bada334998
-    log: revlist-b65678cacc03-2c95a756e0cf.txt
+  - ref: refs/heads/testing
+    old: c443be70aaee42c2d1d251e0329e0a69dd96ae54
+    new: ca965a70ea57cd12f19a422a28a97aab5e1d031b
+    log: revlist-c443be70aaee-ca965a70ea57.txt
 
---===============1568506474215028270==
+--===============1139851698924457577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1759913403 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1759913411 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1759913341-ba579dde8c70490ce6141841ed67304020e4de7a
+nonce 1759913351-a8234c57c355ebfabf31123f28bf4b48fdf94318
 
-b65678cacc030efd53c38c089fb9b741a2ee34c8 2c95a756e0cfc19af6d0b32b0c6cf3bada334998 refs/heads/main
-b65678cacc030efd53c38c089fb9b741a2ee34c8 2c95a756e0cfc19af6d0b32b0c6cf3bada334998 refs/heads/master
+c443be70aaee42c2d1d251e0329e0a69dd96ae54 ca965a70ea57cd12f19a422a28a97aab5e1d031b refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjmJbsTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnI6nB/wJW0Vsi26vw4H3KGOCnOWgB413bY8u
-Too6kRAZLbRiyW6bD0wD0yN/vBmF1vmhCDIuX8k6CXWY6UjJB9/IPEeBbbnPGPbt
-WOwUdEREgmdE/JqjoxWsLViJ6sbzRpjVjS5qXGbtC5iAmAXG4PU1cPGbvO+9obDY
-tmUMwLVk24L8ThPSETvaOi581fjXdEbcz9tx9KHM8uOyzvMHFhz/OuIOqypQsBmT
-tEEJvsCAqVWM4n8g9LimL7HjhWa4y93j+3VedAIcBgCzieJVGGosrHPsEhsSz7Yy
-KX9SWkc21ScDU1XEh7We0bElDsWAJTdtpZS2nkUqp3cSmOnD1Id543xp
-=5b9e
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjmJcMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnJo8CACVyijbe2Gemqq2LFMr2aIzaHNRa4ii
+/TADE8iWfo7jZsPyObRrDIYhFHcYL3NddYPceifN/YZ3U7KT9VHlOyDumDARrYLh
+jslBs9MJbt9o0or76joZlfQJEyfMp6RNpDp4WM1nmN9Dow4iLvUj+j5CnpCaoFnE
+Jq9YSBqSuxq3n1mRWfWrwHRs1XGuNaDYs2wNufCxvRkaesyYCgvWIyb3q2dd/ff9
+m1dAM/BfUfGXxsjK+mfk+YTh2yY6KvW4r987+zr6ssZkLz5zl/YkG1k9+TSxUb9Y
+OuwGpklqfdmB2pKkFxYzBibGTpjwYahunzlUOgnzGZPRD+siASr+/uul
+=urd7
 -----END PGP SIGNATURE-----
 
---===============1568506474215028270==
+--===============1139851698924457577==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b65678cacc03-2c95a756e0cf.txt
+Content-Disposition: attachment; filename=revlist-c443be70aaee-ca965a70ea57.txt
 
-f77064586026df2acbab0631df237d4147350983 selftests: rtnetlink: correct error message in rtnetlink.sh fou test
-7e554f317be8e41ce2f2ce9f6faca14e697b0d26 net: phy: move config symbol MDIO_BUS to drivers/net/phy/Kconfig
-42e2a9e11a1dcb81c83d50d18c547dc9a1c6d6ed net: phy: dp83640: improve phydev and driver removal handling
-092263a03105539b8dfe74c59be4c6cce1304d5f net: phy: stop exporting phy_driver_register
-bc992abe0fd1faa8c470c4a652f360b733d5bded Merge branch 'net-phy-stop-exporting-phy_driver_register'
-390b3a300d7872cef9588f003b204398be69ce08 nexthop: Forbid FDB status change while nexthop is in a group
-c29913109c70383cdf90b6fc792353e1009f24f5 selftests: fib_nexthops: Fix creation of non-FDB nexthops
 00af023d90f9087ed5a371302ab442ed5736c3b7 selftests: fib_nexthops: Add test cases for FDB status change
 0efdfbba2e59626b9e924efba2a50b36d14bc276 Merge branch 'nexthop-various-fixes'
 cd9a9562b2559973aa1b68c3af63021a2c5fd022 net: bridge: Install FDB for bridge MAC on VLAN 0
@@ -1080,5 +1068,12 @@ b615879dbfea6cf1236acbc3f2fb25ae84e07071 selftests: drv-net: make linters happy 
 943af6478807fc8dc37196e4fd080b98aa61aeec Merge branch 'mlx5-misc-fixes-2025-10-05'
 e475fa420e6c53a5023e89dbf0d51bd027b5a776 net/mlx5: fix pre-2.40 binutils assembler error
 2c95a756e0cfc19af6d0b32b0c6cf3bada334998 net: pse-pd: tps23881: Fix current measurement scaling
+2a27f6a8fb5722223d526843040f747e9b0e8060 can: gs_usb: increase max interface to U8_MAX
+a12f0bc764da3781da2019c60826f47a6d7ed64f can: gs_usb: gs_make_candev(): populate net_device->dev_port
+ba569fb07a7e9e9b71e9282e27e993ba859295c2 can: m_can: m_can_plat_remove(): add missing pm_runtime_disable()
+3d9db29b45f970d81acf61cf91a65442efbeb997 can: m_can: m_can_handle_state_errors(): fix CAN state transition to Error Active
+4942c42fe1849e6d68dfb5b36ccba344a9fac016 can: m_can: m_can_chip_config(): bring up interface in correct state
+a9e30a22d6f23a2684c248871cad4c3061181639 can: m_can: fix CAN state in system PM
+ca965a70ea57cd12f19a422a28a97aab5e1d031b Merge patch series "can: m_can: fix pm_runtime and CAN state handling"
 
---===============1568506474215028270==--
+--===============1139851698924457577==--
