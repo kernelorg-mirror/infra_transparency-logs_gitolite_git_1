@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Wed, 08 Oct 2025 20:36:25 -0000
-Message-Id: <175995578597.378591.3444960232099004017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Wed, 08 Oct 2025 20:52:47 -0000
+Message-Id: <175995676756.391496.11133420724598223734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 233c9723106f8e26eadc4fdd79c3fdf6ac8459a1
-    new: 032036474b85f85c98e218f2e31de2297b9504ce
+  - ref: refs/heads/main
+    old: 9b4e31f8bea02953d56d8243a1b9157096642c54
+    new: f5625436f119146d3ac7006b4164a2fb2207066a
     log: |
-         16881c825e48d6ba4a31d0978190ae0e5ce7d246 s2idle: ignore a subprocess call error
-         032036474b85f85c98e218f2e31de2297b9504ce s2idle: change the return type for EDID capture
+         f5625436f119146d3ac7006b4164a2fb2207066a refactor(context): decouple deletion
          
