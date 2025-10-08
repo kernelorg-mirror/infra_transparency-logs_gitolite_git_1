@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0013510495023948989=="
+Content-Type: multipart/mixed; boundary="===============8592189259636542322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 08 Oct 2025 05:34:08 -0000
-Message-Id: <175990164896.3799362.1731532297008337387@gitolite.kernel.org>
+Date: Wed, 08 Oct 2025 05:34:12 -0000
+Message-Id: <175990165272.3799695.15582178911936216330@gitolite.kernel.org>
 
---===============0013510495023948989==
+--===============8592189259636542322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: c746c3b5169831d7fb032a1051d8b45592ae8d78
     new: 0d97f2067c166eb495771fede9f7b73999c67f66
     log: revlist-c746c3b51698-0d97f2067c16.txt
 
---===============0013510495023948989==
+--===============8592189259636542322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759901707 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759901711 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1759901647-84dd760b9d2a6713ee2321d97dc5050c1f2c7418
+nonce 1759901651-98862d48dd09dcc9e5c7fb50070c59aab8c11d8e
 
-c746c3b5169831d7fb032a1051d8b45592ae8d78 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/usb-next
+c746c3b5169831d7fb032a1051d8b45592ae8d78 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl+AwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TNQP/2tXgiZnJUQzCOrdU5QG
-Ts4AWB8qjgpZGXuI8tCIBVR5pwGBm7wXhYmgxypv1H3wrk/iaqrXL4rMpLJE3r0C
-DlVucZ5dQz2ejNq7itFbEU/ZsABos/nZ6gea2PRE1x9FTv7MUsMIvNXXKLifsa4X
-8T+/JoXcsQlZDruuY0sxNuWTXs5ptZCWUPEaAvoMbdJ6gE3uaL42PYv+jEbLf4v5
-VnrAWaYLS4q1DWIdU+nYO3ickVxC0YU3s9c+vF97bCaGgEoaUgGwqrSohQVr7jhW
-PCl7DgP1rgu1PLiwT7CtQ3CPaRbl8wsQ5vhFDH7sEWZHmMovr40GBhFsKk+xkR+b
-WF1WO+6so8fVlpbi7lPSXL6AoS+1TlUnmJIIPdacbX8WtiXKdQjyicCCjhTIqJbN
-fdxSn44LB3yDbliBczqFh1m++iDUM3XITL3orlaXSXcxl2rpU9QI+Kfu/iuiKK7D
-gVcDSvOSVCieT4dmX2aNvbdHbLTIV2mkYtTxATRtvxnnwouEkwaUQRROg9pzjxaE
-Hf0WzjQ8eQrqkuBFBI7kVdYyHZpaTtsqm51xxaTpPVsR3iGeILFgRO9K4GzPVN4A
-rKJRftiMow8yBmpg9ac783n8kZHoElU3pQ884Q6+mj2YoNFji6ujXt0j7xVdr6QX
-fntINEult05m4Iv1cy+wyPeB
-=E/2W
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl+A8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RVUP/Rx9GKOdbFzyY1KnEj2J
+vmKO/qboNVcxxUrS/xqchiqrcDAkbRRyUiv5uc6DFFGtXy3R3vSqFku2aWMZGDmZ
+Fcm6SUPNYViwETNA5AP+o0e4GukADVekeprGt2fazWp79TCAvuGbIK/6Q/rxeKwd
+JK9CMNXSKZ8jUns6468+3E+0vViIMifiK4tHoilaKnUbP97esqF/SgoO763rW2CK
+XoMG74vh/G8ri+qqJxyO1n5h9zDgGHVHpi42/dxfoQC1jjFycGYUlxMiQA3WycoY
+Y2qMJWUVg/4FNSOfiQvp7NQx7BTGTr8UlsZCoTjez14vBjcen8NuGxrlHEnSy6rY
+APZZd59vKaHHcGtMN+2I+8ex6Cxl6TxuDEiWCNIPz8oZgwAT4TuNGjdRXIkUsVBd
+1pBR47IwXvBDpmWNyz1GorInnzI0/6O7eLgfyvbsoEMnERDTZx865o9mEzgJzGUp
+FJfsENtJ+YqmvNLK37dkCnZnKRNy+Fx1xG1219wiRZf4UkAD05S/eum55e1LChgv
+vY24TK1NP6CdCCY90djZ7L6/XM6kaMOQgi0s6YRt+cIqId0nox6XEKiYgF1i5ZNk
+mFFz2eloAEQOg3UN2/7We04jgFNwV9NfW+40ELpg0z7nseNHhrIG7n23orW1WDKi
+eJoqhV+Fj4gKGa0WpNF1q5YH
+=Lrc1
 -----END PGP SIGNATURE-----
 
---===============0013510495023948989==
+--===============8592189259636542322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -472,4 +472,4 @@ fdb8d00af919d2403a9e40261cf3f78f0fd75212 Merge tag 'char-misc-6.18-rc1-2' of git
 a8cdf51cda30f7461a98af821e8a28c5cb5f8878 Merge tag 'hardening-fix1-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 0d97f2067c166eb495771fede9f7b73999c67f66 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 
---===============0013510495023948989==--
+--===============8592189259636542322==--
