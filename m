@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9150632348344946716=="
+Content-Type: multipart/mixed; boundary="===============0013510495023948989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 08 Oct 2025 05:34:05 -0000
-Message-Id: <175990164526.3799263.18059331325210786609@gitolite.kernel.org>
+Date: Wed, 08 Oct 2025 05:34:08 -0000
+Message-Id: <175990164896.3799362.1731532297008337387@gitolite.kernel.org>
 
---===============9150632348344946716==
+--===============0013510495023948989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/usb-next
     old: c746c3b5169831d7fb032a1051d8b45592ae8d78
     new: 0d97f2067c166eb495771fede9f7b73999c67f66
     log: revlist-c746c3b51698-0d97f2067c16.txt
 
---===============9150632348344946716==
+--===============0013510495023948989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759901704 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759901707 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1759901643-a0b7f665463b6b846534327602679a3134f454e3
+nonce 1759901647-84dd760b9d2a6713ee2321d97dc5050c1f2c7418
 
-c746c3b5169831d7fb032a1051d8b45592ae8d78 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/usb-linus
+c746c3b5169831d7fb032a1051d8b45592ae8d78 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl+AgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W30P/RX33CmIq47e/hZP4nV9
-C+DyDXsoTc5xmT325V+fxy8syqRUwFnddBwxXLWKCHwI3rD4JygROpGrOP74QMsq
-+j2Qhs5ApcjxyNfl3cCCDYWTvkmL5leixv2SZzQe40Yrwoepp5iDrVZ9RIrnvBAb
-DJqlgvOGvKSndDDw5a5qiZs0qdozRrIWkSfCJ6kLVOijHYSdRkD40IrgUfxmD5jF
-76+fdAP0Whkh8hXb9fojxkZCQPLRZXKiKN1+5VGj0uCBVNRdATIeEFmhmCmP68gB
-48OfVduobmiVKHKp1FGFTh7r+Y/SYhfzvdT08pLWRj7F5sOZ2kFS+Yzo1hMl4L3f
-U3g4kFarOLkIFo4fNStkEf44XL48rUvHxb/p2vynPngqcV6opCrlpYKDsVis8O8o
-bm1xK2spe2ImgoTAeIKhvKpv5xJMo+JhpArOrPRYtuEp1K4HLLH74lGN5RDhalwR
-qRrkkGXI3CFhCZv7PNAaR4sVtw6tCclJre7F5gkkbNXrVo+TkCMnfsfYI2WeEbT8
-FNS/3OYUIMmVzkgIgMKO0gOKMWRm2Bc5y5lot0716i3ue3ye1DvICDUM1HIeg1MH
-4FizK/yrbtGmUPkdOOoGGEUqwrPX9jNnk5ocavnS4WtKXRIFzJTl0X5ml/RYlBFs
-VpAfkWVicakRyqQ3PYU9B0H4
-=HE28
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl+AwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TNQP/2tXgiZnJUQzCOrdU5QG
+Ts4AWB8qjgpZGXuI8tCIBVR5pwGBm7wXhYmgxypv1H3wrk/iaqrXL4rMpLJE3r0C
+DlVucZ5dQz2ejNq7itFbEU/ZsABos/nZ6gea2PRE1x9FTv7MUsMIvNXXKLifsa4X
+8T+/JoXcsQlZDruuY0sxNuWTXs5ptZCWUPEaAvoMbdJ6gE3uaL42PYv+jEbLf4v5
+VnrAWaYLS4q1DWIdU+nYO3ickVxC0YU3s9c+vF97bCaGgEoaUgGwqrSohQVr7jhW
+PCl7DgP1rgu1PLiwT7CtQ3CPaRbl8wsQ5vhFDH7sEWZHmMovr40GBhFsKk+xkR+b
+WF1WO+6so8fVlpbi7lPSXL6AoS+1TlUnmJIIPdacbX8WtiXKdQjyicCCjhTIqJbN
+fdxSn44LB3yDbliBczqFh1m++iDUM3XITL3orlaXSXcxl2rpU9QI+Kfu/iuiKK7D
+gVcDSvOSVCieT4dmX2aNvbdHbLTIV2mkYtTxATRtvxnnwouEkwaUQRROg9pzjxaE
+Hf0WzjQ8eQrqkuBFBI7kVdYyHZpaTtsqm51xxaTpPVsR3iGeILFgRO9K4GzPVN4A
+rKJRftiMow8yBmpg9ac783n8kZHoElU3pQ884Q6+mj2YoNFji6ujXt0j7xVdr6QX
+fntINEult05m4Iv1cy+wyPeB
+=E/2W
 -----END PGP SIGNATURE-----
 
---===============9150632348344946716==
+--===============0013510495023948989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -472,4 +472,4 @@ fdb8d00af919d2403a9e40261cf3f78f0fd75212 Merge tag 'char-misc-6.18-rc1-2' of git
 a8cdf51cda30f7461a98af821e8a28c5cb5f8878 Merge tag 'hardening-fix1-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 0d97f2067c166eb495771fede9f7b73999c67f66 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 
---===============9150632348344946716==--
+--===============0013510495023948989==--
