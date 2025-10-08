@@ -1,72 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5205335545705581118=="
+Content-Type: multipart/mixed; boundary="===============4668213965958742912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 08 Oct 2025 11:54:52 -0000
-Message-Id: <175992449228.4114299.6573260023765694092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 08 Oct 2025 11:56:29 -0000
+Message-Id: <175992458925.4116717.5696117672636575587@gitolite.kernel.org>
 
---===============5205335545705581118==
+--===============4668213965958742912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-linus
-    old: f4ace70faa8ff2890774bac86762e036a3651066
-    new: ca7a2317993efa26eb2100a1523548f1b3a07af0
-    log: revlist-f4ace70faa8f-ca7a2317993e.txt
-  - ref: refs/heads/for-next
-    old: f4ace70faa8ff2890774bac86762e036a3651066
-    new: ca7a2317993efa26eb2100a1523548f1b3a07af0
-    log: revlist-f4ace70faa8f-ca7a2317993e.txt
-  - ref: refs/heads/master
-    old: e9f81e7274faa1c9aba9fa1e347f46f20da982af
-    new: 50c3f429a610c4016b0493dfb82f797a3eb6b6c7
-    log: revlist-e9f81e7274fa-50c3f429a610.txt
+  - ref: refs/heads/dmabuf-vfio
+    old: f76adfe9a618fb2764763d4a1fd95c8d587c739a
+    new: dcaac9ee2106563ae3c3081931b8c5b2939aeef7
+    log: revlist-f76adfe9a618-dcaac9ee2106.txt
 
---===============5205335545705581118==
+--===============4668213965958742912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4ace70faa8f-ca7a2317993e.txt
+Content-Disposition: attachment; filename=revlist-f76adfe9a618-dcaac9ee2106.txt
 
-59abe7bc7e7c70e9066b3e46874d1b7e6a13de14 ASoC: SOF: ipc3-topology: Fix multi-core and static pipelines tear down
-bcd1383516bb5a6f72b2d1e7f7ad42c4a14837d1 ASoC: SOF: ipc4-pcm: fix delay calculation when DSP resamples
-bace10b59624e6bd8d68bc9304357f292f1b3dcf ASoC: SOF: ipc4-pcm: fix start offset calculation for chain DMA
-a7fe5ff832d61d9393095bc3dd5f06f4af7da3c1 ASoC: SOF: ipc4-topology: Correct the minimum host DMA buffer size
-3dcf683bf1062d69014fe81b90d285c7eb85ca8a ASoC: SOF: ipc4-topology: Account for different ChainDMA host buffer size
-45ad27d9a6f7c620d8bbc80be3bab1faf37dfa0a ASoC: SOF: Intel: hda-pcm: Place the constraint on period time instead of buffer time
-aefada95fbab74035aca62e3ab80f93fe91d2d58 ASoC: SOF: ipc4/Intel: Fix the host buffer
-18dbff48a1ea58100f9fa6886cfef286a96a5fb0 ASoC: SOF: sof-audio: add dev_dbg_ratelimited wrapper
-a4b8152c09a832b089864e5e209a479bb0fb5cc9 ASoC: SOF: ipc4-pcm: do not report invalid delay values
-aaab61de1f1e44a2ab527e935474e2e03a0f6b08 ASoC: SOF: Intel: Read the LLP via the associated Link DMA channel
-4c4ed5e073a923fb3323022e1131cb51ad8df7a0 ASoC: meson: aiu-encoder-i2s: fix bit clock polarity
-a27539810e1e61efcfdeb51777ed875dc61e9d49 ASoC: rt722: add settings for rt722VB
-ca7a2317993efa26eb2100a1523548f1b3a07af0 Merge tag 'asoc-fix-v6.18-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+f93249c43f4143be5aa76e3467a5af976a1a5afd vfio/pci: Enable peer-to-peer DMA transactions by default
+feb66481c2209660909625af294deb29fa2fd6e6 vfio/pci: Share the core device pointer while invoking feature functions
+7c2edfeafe0a7e08e9c9efbf29bec38f329fea6c vfio/pci: Add dma-buf export support for MMIO regions
+62ba7a75de903937ae0b32c698530857d79c3ed7 PCI/P2PDMA: Reduce scope of pci_has_p2pmem function
+3f089fad6d471ae04fd4d56c2249c558dff4cc85 kmsan: fix missed kmsan_handle_dma() signature conversion
+b55596205f2dd1b920db99d68a1139539baeb626 dma-mapping: prepare dma_map_ops to conversion to physical address
+9888ab6a45d4f8b0ce394fc08903c0873930f27a dma-mapping: convert dummy ops to physical address mapping
+c6a5f9cf386efe0d53c22f894851fb4880239a55 ARM: dma-mapping: Reduce struct page exposure in arch_sync_dma*()
+b160e73c5e9f336d7840194030b0a670fa327353 ARM: dma-mapping: Switch to physical address mapping callbacks
+fca342ef904ced60cd1fe34d6939073c19fc74d6 xen: swiotlb: Switch to physical address mapping callbacks
+71410fa774ccfa52cab337813852e4a9b3887678 dma-mapping: remove unused mapping resource callbacks
+2dc0d0be7b3798e692798a894b9f54644ae4b44f alpha: Convert mapping routine to rely on physical address
+e5565cecaddb40de01499e0c80cb7483ffb69099 MIPS/jazzdma: Provide physical address directly
+55f2f9ec4505179cc62c7941f2e7576044be2720 parisc: Convert DMA map_page to map_phys interface
+4ba3da2d2d69d27facc2d3a5f2b9683d6407ca64 powerpc: Convert to physical address DMA mapping
+039ac2bae5af3fd2cfd6b235ebed38af78b1b3a5 sparc: Use physical address DMA mapping
+45fa5d24c3f5e93c3ebfa9a6310cf472cddadfd0 x86: Use physical address for DMA mapping
+599416bfeee39750b23a12aae0061f9212e33a35 vdpa: Convert to physical address DMA mapping
+8a16573884d7cd66b8b5a320f21dcc0516f69d17 xen: swiotlb: Convert mapping routine to rely on physical address
+dcaac9ee2106563ae3c3081931b8c5b2939aeef7 dma-mapping: remove unused map_page callback
 
---===============5205335545705581118==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9f81e7274fa-50c3f429a610.txt
-
-59abe7bc7e7c70e9066b3e46874d1b7e6a13de14 ASoC: SOF: ipc3-topology: Fix multi-core and static pipelines tear down
-bcd1383516bb5a6f72b2d1e7f7ad42c4a14837d1 ASoC: SOF: ipc4-pcm: fix delay calculation when DSP resamples
-bace10b59624e6bd8d68bc9304357f292f1b3dcf ASoC: SOF: ipc4-pcm: fix start offset calculation for chain DMA
-a7fe5ff832d61d9393095bc3dd5f06f4af7da3c1 ASoC: SOF: ipc4-topology: Correct the minimum host DMA buffer size
-3dcf683bf1062d69014fe81b90d285c7eb85ca8a ASoC: SOF: ipc4-topology: Account for different ChainDMA host buffer size
-45ad27d9a6f7c620d8bbc80be3bab1faf37dfa0a ASoC: SOF: Intel: hda-pcm: Place the constraint on period time instead of buffer time
-aefada95fbab74035aca62e3ab80f93fe91d2d58 ASoC: SOF: ipc4/Intel: Fix the host buffer
-18dbff48a1ea58100f9fa6886cfef286a96a5fb0 ASoC: SOF: sof-audio: add dev_dbg_ratelimited wrapper
-a4b8152c09a832b089864e5e209a479bb0fb5cc9 ASoC: SOF: ipc4-pcm: do not report invalid delay values
-aaab61de1f1e44a2ab527e935474e2e03a0f6b08 ASoC: SOF: Intel: Read the LLP via the associated Link DMA channel
-4c4ed5e073a923fb3323022e1131cb51ad8df7a0 ASoC: meson: aiu-encoder-i2s: fix bit clock polarity
-a27539810e1e61efcfdeb51777ed875dc61e9d49 ASoC: rt722: add settings for rt722VB
-ca7a2317993efa26eb2100a1523548f1b3a07af0 Merge tag 'asoc-fix-v6.18-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-50c3f429a610c4016b0493dfb82f797a3eb6b6c7 Merge branch 'for-linus'
-
---===============5205335545705581118==--
+--===============4668213965958742912==--
