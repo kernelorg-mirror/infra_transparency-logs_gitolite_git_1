@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 Oct 2025 01:39:22 -0000
-Message-Id: <175988756235.3553879.7341112646501634845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Wed, 08 Oct 2025 02:17:27 -0000
+Message-Id: <175988984727.3584779.4973873566152560329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/main
-    old: 943af6478807fc8dc37196e4fd080b98aa61aeec
-    new: 2c95a756e0cfc19af6d0b32b0c6cf3bada334998
+  - ref: refs/heads/master
+    old: 80274f31feab1eaec15b1ce752ead1f8ecf1463f
+    new: f9c283c92e954808d976ec37559f99f0a3d4fdfd
     log: |
-         e475fa420e6c53a5023e89dbf0d51bd027b5a776 net/mlx5: fix pre-2.40 binutils assembler error
-         2c95a756e0cfc19af6d0b32b0c6cf3bada334998 net: pse-pd: tps23881: Fix current measurement scaling
+         f9c283c92e954808d976ec37559f99f0a3d4fdfd Fix f-string in IOMMU ACPI failure explanation
          
