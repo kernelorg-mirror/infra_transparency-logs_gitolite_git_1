@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 08 Oct 2025 16:26:47 -0000
-Message-Id: <175994080736.164252.12257670587837154505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+Date: Wed, 08 Oct 2025 16:29:23 -0000
+Message-Id: <175994096398.166237.11740838241943342985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+user: jkacur
 changes:
-  - ref: refs/heads/pending-ath12k-ng
-    old: a049791918e1e464e0ae1793ac69d83e66b40f6c
-    new: c57176c0dad91a00bd20feb5f6dc4e8d575f4628
+  - ref: refs/heads/main
+    old: 59ecd1ba018141a02ffe59c16a9346991dfd0d48
+    new: c68a7b885925841468d5f4535deb60bb73136b07
     log: |
-         9e0ee04f818f42ec879b053e4b5d0c9c230415da wifi: ath12k: Refactor data path pdev struct
-         c57176c0dad91a00bd20feb5f6dc4e8d575f4628 wifi: ath12k: Rearrange PPDU radio stats
+         c68a7b885925841468d5f4535deb60bb73136b07 python-linux-procfs: Remove import of range from six.moves
          
