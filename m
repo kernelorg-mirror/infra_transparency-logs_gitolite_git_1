@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7449616654315201099=="
+Content-Type: multipart/mixed; boundary="===============2146800173515131656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 08 Oct 2025 08:49:26 -0000
-Message-Id: <175991336616.3962015.10249855877222514234@gitolite.kernel.org>
+Date: Wed, 08 Oct 2025 08:53:08 -0000
+Message-Id: <175991358868.3965205.15771335477330940813@gitolite.kernel.org>
 
---===============7449616654315201099==
+--===============2146800173515131656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,54 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: dc1dea796b197aba2c3cae25bfef45f4b3ad46fe
+  - ref: refs/heads/testing
+    old: 896d52af944107c0644c12378741af9a3834c514
     new: 07fdad3a93756b872da7b53647715c48d0f4a2d0
-    log: revlist-dc1dea796b19-07fdad3a9375.txt
-  - ref: refs/heads/master
-    old: dc1dea796b197aba2c3cae25bfef45f4b3ad46fe
-    new: 07fdad3a93756b872da7b53647715c48d0f4a2d0
-    log: revlist-dc1dea796b19-07fdad3a9375.txt
+    log: revlist-896d52af9441-07fdad3a9375.txt
 
---===============7449616654315201099==
+--===============2146800173515131656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1759913422 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1759913645 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1759913360-1cd8aba32a2e731ac1fbe6537b2a6991321956b7
+nonce 1759913584-13a63c2ab40ab772b546ad80ce8787a41a7d7874
 
-dc1dea796b197aba2c3cae25bfef45f4b3ad46fe 07fdad3a93756b872da7b53647715c48d0f4a2d0 refs/heads/main
-dc1dea796b197aba2c3cae25bfef45f4b3ad46fe 07fdad3a93756b872da7b53647715c48d0f4a2d0 refs/heads/master
+896d52af944107c0644c12378741af9a3834c514 07fdad3a93756b872da7b53647715c48d0f4a2d0 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFGBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjmJc4THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnNSqB/MGhNbGKsidrBdJ+ONatuvB5xdR0jon
-FK9/uRqwKbgG0WZIGSEBnfWfPh5eS6o6Tz2/Y2Yzbra0HeGa6z38itu+3H4XVExQ
-rr7Q/l9oyVCsBd8G9dLMy2hWjLFmIGEPTdsXro7GDuRpVqEInJTk8c7C2BCQ7qDq
-OHaqn7horboRjUGVeYKnSDY9wBAj1cJyucmg+9hmRDgr+8wtxNuat1kehTtQWZ5E
-c9G/7oPbRooFICzWy0EaPpbPYb+cHBBpyCcP0NxJvau/GvDi6dpWmdN2IC42tslD
-HwdRROogjUMtWOY238eQ1sr6CxQVypO3j9FMXwu23NUCP1HgaPl0nos=
-=RAJy
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjmJq0THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnGjoCACR97znXp7urGLZorKpqza/Y0dmdWur
+FJQvAHnSIdg8+zAqssj6132qQJaTfjknAHpm2gblym42WLLbOCWsEzaCp5fUtxw2
+njDLyMqX5MNXBN4BLfWX0/N861RkSL25b1KE0Vokmob3s3Gek2QkjYKiBiWIuH2v
+6UcHhOv+axw+H8y2QKmjNcf2y5s1QVGnVBE9LkUpBFwOwu3vd5l/hnoPMAvqsGof
+hA1seuzi/f3E+62a6IuCtR9H1Nx1Luz7UkIW8J7MRXbobqobOrPQm0DiqR3a3Vko
+YVhRhi68vPu1T18HXuKG5XNR8y7bxMu9rp+03sXxbzka3pqgdl2UWxCA
+=0bOG
 -----END PGP SIGNATURE-----
 
---===============7449616654315201099==
+--===============2146800173515131656==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dc1dea796b19-07fdad3a9375.txt
+Content-Disposition: attachment; filename=revlist-896d52af9441-07fdad3a9375.txt
 
+abfbfb98acfe6fd603d48424e32f8d99922e70b9 Merge tag 'amlogic-arm64-dt-for-v6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into soc/dt
+5eba504bb2b387404901deb5932da835ee74ba8b Merge tag 'sunxi-fixes-for-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+ea38dfdd38e150130779defc01fd0f58b570a5be Merge tag 'apple-soc-fixes-6.17' of https://git.kernel.org/pub/scm/linux/kernel/git/sven/linux into arm/fixes
+6866b785666030e73ceb25d6754880568b33bfa7 Merge tag 'v6.17-rockchip-dtsfixes2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+13923775d5b0b47656e800bec7baf50a20474aaf Merge tag 'tegra-for-6.17-firmware-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
+8f12d1137c2382c80aada8e05d7cc650cd4e403c bpf: Clear pfmemalloc flag when freeing all fragments
+dea1526fbafb55099a788cde0b659530ee5b1c66 bpf: Allow bpf_xdp_shrink_data to shrink a frag from head and tail
+4dce1a0d7cf39575a5880414ea882890edd8d26f bpf: Support pulling non-linear xdp data
+0e7a733ab3d7be8d745e8ee38d637ea7a9b24343 bpf: Clear packet pointers after changing packet data in kfuncs
+7eb83bff02ad5e82e8c456c58717ef181c220870 bpf: Make variables in bpf_prog_test_run_xdp less confusing
+fe9544ed1a2e9217b2c5285c3a4ac0dc5a38bd7b bpf: Support specifying linear xdp packet data size for BPF_PROG_TEST_RUN
+323302f54db92dc1c80ff5b114c20f19ec0adf81 selftests/bpf: Test bpf_xdp_pull_data
+676af08386e44fd6ea42b43db4c130bf04f36d92 arm64: dts: apm-shadowcat: Move slimpro nodes out of "simple-bus" node
 345518c00ba6bc90c8c557157bc0a6e081e7b2a4 arm64: dts: apm-shadowcat: Drop "apm,xgene2-pcie" compatible
 26116b98d657b4d0ddc4d101a60b6ab072d556dc Merge tag 'omap-for-v6.18/dt-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap into soc/dt
 8de446fd49c2de7f3d766a80c32f039c6445b5c3 Merge tag 'apple-soc-dt-6.18-part2' of https://git.kernel.org/pub/scm/linux/kernel/git/sven/linux into soc/dt
@@ -88,17 +96,28 @@ da3a88e9656c17a34daf49c9acc6d85f73b4d3d9 pinctrl: use more common syntax for com
 649764145b70a0328fc020fe31fc80594761a707 i3c: Remove superfluous FIXME
 55d5a5154d751023bdf12c196fb0f1accdacf300 Merge branch 'bpf-next/xdp_pull_data' into 'bpf-next/net'
 34f033a6c9c94a6e71c03133f006931bf7d5678b Merge branch 'bpf-next/xdp_pull_data' into 'bpf-next/master'
+b650bf0977d34c52befb31a9fa711534e11b220f udp: remove busylock and add per NUMA queues
 16d93558e12a03488d59562343e944f27ff4b9f3 Merge tag 'linux-can-fixes-for-6.17-20250923' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 ca9f9cdc4de97d0221100b11224738416696163c net: allow alloc_skb_with_frags() to use MAX_SKB_FRAGS
+09630ab91d840416b0178f3660afa4eebce24286 net: airoha: Avoid -Wflex-array-member-not-at-end warning
+f77064586026df2acbab0631df237d4147350983 selftests: rtnetlink: correct error message in rtnetlink.sh fou test
+7e554f317be8e41ce2f2ce9f6faca14e697b0d26 net: phy: move config symbol MDIO_BUS to drivers/net/phy/Kconfig
+42e2a9e11a1dcb81c83d50d18c547dc9a1c6d6ed net: phy: dp83640: improve phydev and driver removal handling
+092263a03105539b8dfe74c59be4c6cce1304d5f net: phy: stop exporting phy_driver_register
+bc992abe0fd1faa8c470c4a652f360b733d5bded Merge branch 'net-phy-stop-exporting-phy_driver_register'
 390b3a300d7872cef9588f003b204398be69ce08 nexthop: Forbid FDB status change while nexthop is in a group
 c29913109c70383cdf90b6fc792353e1009f24f5 selftests: fib_nexthops: Fix creation of non-FDB nexthops
 00af023d90f9087ed5a371302ab442ed5736c3b7 selftests: fib_nexthops: Add test cases for FDB status change
 0efdfbba2e59626b9e924efba2a50b36d14bc276 Merge branch 'nexthop-various-fixes'
+cd9a9562b2559973aa1b68c3af63021a2c5fd022 net: bridge: Install FDB for bridge MAC on VLAN 0
+f67e9ae72dd72ae37d186d68f7a9f9eb8082cd95 selftests: bridge_fdb_local_vlan_0: Test FDB vs. NET_ADDR_SET behavior
+e8ab231782e92bc26e5eb605263525636a2f7ae7 net: ethtool: tsconfig: set command must provide a reply
 6043819e707cefb1c9e59d6e431dcfa735c4f975 net/mlx5: fs, fix UAF in flow counter release
 efb877cf27e300e47e1c051f4e8fd80fc42325d5 net/mlx5: HWS, ignore flow level for multi-dest table
 6d0477d0d067a53c1d48d0aff1fd52e151721871 net/mlx5e: Fix missing FEC RS stats for RS_544_514_INTERLEAVED_QUAD
 181d981b14bf0722d879d5d69ea4e5e0b61c5d92 Merge branch 'mlx5-misc-fixes-2025-09-22'
 546e42c8c6d9498d5eac14bf2aca0383a11b145a riscv: Use an atomic xchg in pudp_huge_get_and_clear()
+dc1dea796b197aba2c3cae25bfef45f4b3ad46fe tcp: Remove stale locking comment for TFO.
 e24108012ce9662d90093f91d5ffebcbf78da7de MAINTAINERS: Update Paul Walmsley's E-mail address
 7378b003e9e091b9ee69d0545a6468057e7dbc91 Merge tag 'nvme-6.18-2025-09-23' of git://git.infradead.org/nvme into for-6.18/block
 df10932ad740ba1f871b6dd2ddafc7dc8cea944f Revert "sched_ext: Use rhashtable_lookup() instead of rhashtable_lookup_fast()"
@@ -153,30 +172,6 @@ b3499883c6d5f968f44e87d021ff2bd47ab5d094 hwmon: (dell-smm) Move clamping of fan 
 205c730262215fe1940668394a856f69ece55c66 hwmon: (gpd-fan) complete Kconfig dependencies
 1c1658058c99bcfd3b2347e587a556986037f80a hwmon: (dell-smm) Add support for automatic fan mode
 53d3bd48ef6ff1567a75ca77728968f5ab493cb4 hwmon: (dell-smm) Add support for Dell OptiPlex 7040
-23049938605bda390f875ce20e0704252c2e5c3d can: populate the minimum and maximum MTU values
-b98aceb65e2c57df9646530e5f2b2531a661203f can: enable CAN XL for virtual CAN devices by default
-2d51a5b83cf88dcf0100c2f1404da279fe66b522 Merge patch series "can: rework the CAN MTU logic (CAN XL preparation step 2/3)"
-cc470fcf1d59f9d6186810ea5253da49a4f85f83 can: dev: move struct data_bittiming_params to linux/can/bittiming.h
-7208385df7846d30e29febc6c6280cb32e91ee82 can: dev: make can_get_relative_tdco() FD agnostic and move it to bittiming.h
-94040a8f484576cb1b7df3b2e93118c3b3e3aff4 can: netlink: document which symbols are FD specific
-f5ae5a75412db0b8ded2342d409c7ba504eb198f can: netlink: refactor can_validate_bittiming()
-b23a8425cba5d7908d69f3bce8f3c697362b50ae can: netlink: add can_validate_tdc()
-3820a415bece1feb7d832f6bda6c927d91c3ab52 can: netlink: add can_validate_databittiming()
-45be26b7e35a70ac7c79341747bd596d83dee977 can: netlink: refactor CAN_CTRLMODE_TDC_{AUTO,MANUAL} flag reset logic
-2b0a6930ae7c54ef401cd0a98ba194236ff8fbf7 can: netlink: remove useless check in can_tdc_changelink()
-530c918f8cf68c06e82dbebf44bda67c60fd004b can: netlink: make can_tdc_changelink() FD agnostic
-2e543af483a98a5e51509d8a720940fa8a35fdce can: netlink: add can_dtb_changelink()
-e1a5cd9d6665c44119d5e664ecaccdb6467aecda can: netlink: add can_ctrlmode_changelink()
-63888a57801656ee1204f750ec4f98bd75fe44aa can: netlink: make can_tdc_get_size() FD agnostic
-d5f45ef88ba4e6af14a0d36ed3323b5813f07988 can: netlink: add can_data_bittiming_get_size()
-e1a2be5a6967143b56e253920be208635fc627b8 can: netlink: add can_bittiming_fill_info()
-aaeebdb7a7235ffec5c56a8a0144cac94b5a8e3e can: netlink: add can_bittiming_const_fill_info()
-d5ee934ee19b563a965da135e04d6d93067ccf2c can: netlink: add can_bitrate_const_fill_info()
-e72f1ba700e3d502cd0a604fda86e38431467a46 can: netlink: make can_tdc_fill_info() FD agnostic
-6ffc1230d3a728e07d7d2464f388ad4bbefe90c2 can: calc_bittiming: make can_calc_tdco() FD agnostic
-7de54546fff11cb0a53f47847d62f7b1a5792d17 can: dev: add can_get_ctrlmode_str()
-6742ca18cb4169dc9a7f2860d18e78fcf00c6717 can: netlink: add userland error messages
-896d52af944107c0644c12378741af9a3834c514 Merge patch series "can: netlink: preparation before introduction of CAN XL step 3/3"
 456c32e3c4316654f95f9d49c12cbecfb77d5660 tracing: dynevent: Add a missing lockdown check on dynevent
 1cf89b6bf660c2e9fa137b3e160c7b1001937a78 arm64: Kconfig: Make CPU_BIG_ENDIAN depend on BROKEN
 57f13e3d91208900c59fbb4d4314a0281762cfb6 Merge branch 'for-next/fixes' into for-next/core
@@ -1081,4 +1076,4 @@ e1b1d03ceec343362524318c076b110066ffe305 Merge tag 'for-6.18/block-20250929' of 
 f79e772258df311c2cb21594ca0996318e720d28 Merge tag 'media/v6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 07fdad3a93756b872da7b53647715c48d0f4a2d0 Merge tag 'net-next-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============7449616654315201099==--
+--===============2146800173515131656==--
