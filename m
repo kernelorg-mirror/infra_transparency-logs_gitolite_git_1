@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2558900410077576441=="
+Content-Type: multipart/mixed; boundary="===============4307303369150754850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 08 Oct 2025 04:41:52 -0000
-Message-Id: <175989851295.3702927.15412725477939937614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 08 Oct 2025 04:41:55 -0000
+Message-Id: <175989851556.3703027.6285268028137701696@gitolite.kernel.org>
 
---===============2558900410077576441==
+--===============4307303369150754850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: a699213d4e6ef4286348c6439837990f121e0c03
+  - ref: refs/heads/char-misc-linus
+    old: 10df039834f84a297c72ec962c0f9b7c8c5ca31a
     new: 0d97f2067c166eb495771fede9f7b73999c67f66
-    log: revlist-a699213d4e6e-0d97f2067c16.txt
+    log: revlist-10df039834f8-0d97f2067c16.txt
 
---===============2558900410077576441==
+--===============4307303369150754850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759898571 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1759898510-eddbafbc5e6907233a7ed1a080cd506b77d718c7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1759898574 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1759898512-c99cba575eff3b37d8da554d05d082682a263013
 
-a699213d4e6ef4286348c6439837990f121e0c03 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/tty-linus
+10df039834f84a297c72ec962c0f9b7c8c5ca31a 0d97f2067c166eb495771fede9f7b73999c67f66 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl68wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fvUP/0TYnue+0UDUimXe6NXm
-THJbj7IkFLMSaBK9twaahCNID/kBZ3Ti6tUB3Rm8ZzxUa8qEbKEuD/rm4Gin2Nz+
-cduUtoSZATch4xFDTRSKvF3/FxmYgUE48dqt3g7LBy6aVDg/iRdjE4QHluWq/uCb
-diXdEA9RASrXoe5gS4oyPDmJh6rtmDsPDaMGDhMtbrHzJQUfSF9zB3LLfZ6SMwJU
-GKQSFHA7oeAQSViXOe16EcHt8qsq0hoJ4bghraZ/FgB/4giUe9RGJGehxWglp9cC
-3LEoq2XzSNYnQs3DAUlJyQFunw47r2O72sAgSgUKdAAhL667PYKi4V8Sj6RKEK8E
-lajOfZlAhZGpBF3cc4bmhywms4JxC+LMqz+5/nVj45sfyMX7BQ/0ZzU45mkTrcm4
-OtV6arY5XXr4gHsB5avZ768+IqmZi2kRXPFN9oWsNfbf0YQ+9WgCNEoG918nHh2B
-/Cxl3JxfFrJaAzRFtExF/WNb5c3PC5wnpo31rk/yDEl4THSu/S+JJQlGDgcGGGN/
-IRj1BYwDbin/8EjaiicAzoPJG2GeXky9bRjUBwiDiMRTNPPUecF49HXS7QR12W2/
-5jegq1oGsTEOvaDIhYHLhgS+qbv2LJu7iceEJ8g3/viS6EHnxBd1jkW0Q4M6kOu4
-taVSX02g9h91fex/EksWIxJS
-=ydW1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjl684bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vm0P/3PMdpT85B96jOXng3AC
+HnGbSlMw+8ugOlqM5wiqrjmdzca0xJPUczuZ7c/HvU7PB5J1Zt3rLjy00xtAJ3bK
+5MMIfQTXtVsnjMC9TmBOH3Zeefcwkz8v7gdqOpZiMfYFMLUoSdGyBy+uHsgqI64v
+IPMfpoFYTh2mpud4/b88Uzt1Dq32iHTKWc6VxtjC5aqZ+LjxqlbzTfsbscxjYytj
+LpfMlja2ZQud+tTXzw1zZFfhaxfMDJOdm3l3Bf9BchlwEKrucvEqTDzQwntCURin
+t9c6eBoBJLccD1b06OHHW266YYbT/T9kAnVcKm9EXS4L67wyN/XtkDVEa3JWzh+u
+8zAxCQ5iMWSI2qZhIweXqTLhoXpjFQdLA+R8a+EDY4Q3+co2uf1Pc9gzgiDCh+mu
+9A3W154ZZLJXlcTuB1LrJJNLbnLsB+E/AAzVnC2KE9qYoTqL0/8L6Lsfwz7f+qno
+U4bmgknecfllZsdOI0bUbWGvw9lf1S9EFfm5TkrLdGqEma7ytfINSUTFIvi4XMaf
+RMxbijxP6x99zA1IdpCZLaaPyH5Y7aoGKpSMUtx23AaUh6kTcMyd8+hwdbLZSKM4
+QzqVQliwqcxvBgPx/7uFQgLOPrqKMWiOF6FTe/1Kf1r4qT9OqKeHbjMigcobt2Z7
+ktzlc5Crb+oJWGeAdKKiVSFx
+=eSo/
 -----END PGP SIGNATURE-----
 
---===============2558900410077576441==
+--===============4307303369150754850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a699213d4e6e-0d97f2067c16.txt
+Content-Disposition: attachment; filename=revlist-10df039834f8-0d97f2067c16.txt
 
 55f5a5a7c1770c3c79715e5236d7055f3cca8742 Merge branch 'add-fec-bins-histogram-report-via-ethtool'
 e556f011e2df317b23ee44542189ed52c8117eea Wangxun: vf: Implement some ethtool apis for get_xxx
@@ -1082,4 +1082,4 @@ fdb8d00af919d2403a9e40261cf3f78f0fd75212 Merge tag 'char-misc-6.18-rc1-2' of git
 a8cdf51cda30f7461a98af821e8a28c5cb5f8878 Merge tag 'hardening-fix1-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 0d97f2067c166eb495771fede9f7b73999c67f66 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 
---===============2558900410077576441==--
+--===============4307303369150754850==--
