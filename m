@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8515790195380763371=="
+Content-Type: multipart/mixed; boundary="===============8418822498620873419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 08 Oct 2025 15:43:06 -0000
-Message-Id: <175993818629.124938.6287091050392213633@gitolite.kernel.org>
+Date: Wed, 08 Oct 2025 15:43:08 -0000
+Message-Id: <175993818889.125038.15429841320286214022@gitolite.kernel.org>
 
---===============8515790195380763371==
+--===============8418822498620873419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-next
-    old: f01664d8c1ab36a02a4215b609bf78e819e9cbcd
-    new: 5d92ea9ddab97f28a9bd584c8964de2e5b431aeb
-    log: revlist-f01664d8c1ab-5d92ea9ddab9.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing
+    old: 38e32ca818201a7f323c5a8cd71bf11fde9bcc38
+    new: 88cc1c5a60b9005d343c6162218cdc364f28a2ec
+    log: revlist-38e32ca81820-88cc1c5a60b9.txt
 
---===============8515790195380763371==
+--===============8418822498620873419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f01664d8c1ab-5d92ea9ddab9.txt
+Content-Disposition: attachment; filename=revlist-38e32ca81820-88cc1c5a60b9.txt
 
 ca9541c939d5887e9ead842ca9f13f64d70cea1f NFSD: Move the fh_getattr() helper
 d5bc44f126e236a4e30112c7e860bfd7e4498fa5 sunrpc: delay pc_release callback until after the reply is sent
@@ -64,5 +64,25 @@ c8a3d1770fac2037efe0e9159275310dd8bfd732 NFSD: Do the grace period check in ->pr
 e462a70837ccc31963dc67607d19b41840067e8e NFSD: Add io_cache_{read,write} controls to debugfs
 84f1a8ce698d93bc976cd8f94adae155a7aacd4e SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
 5d92ea9ddab97f28a9bd584c8964de2e5b431aeb nfsd: discard nfserr_dropit
+1e09c25ae8675fcabea2f454135e9201d14ee824 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+5edf63e8925cf29a64cd8cbdf6c4d46e5802f5d4 NFSD: Define a proc_layoutcommit for the FlexFiles layout type
+3ac99711b426e522a532fe0be67a9cd9a84547a1 NFSD: Add array bounds-checking in nfsd_iter_read()
+734dea4aad70806cb82e99b9c25dfe19ec9aa710 svcrdma: Release transport resources synchronously
+25dec1b570aeefdfca941765d1b7a8412c82640e nfsd: fix refcount leak in nfsd_set_fh_dentry()
+e7554e4a4611eb824102a5a97d1e492a1c729557 NFSD: Prevent a NULL pointer dereference in fh_getattr()
+1823bf287d4c1dc2c3003fb5f1bb4323813cc4d4 NFSD: pass nfsd_file to nfsd_iter_read()
+f4fe51c652f339bd1b221a4b84438f7f9779d757 NFSD: Relocate the xdr_reserve_space_vec() call site
+e5fe6469f50d9339d4b55c3a52263c38736a3819 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+ac74885ad645382e6396b35d1d00e57405a59e69 nfsd: delete unreachable confusing code in nfs4_open_delegation()
+11690c6318ef9d40ef9a1a9ad8dfdd6025299a2a NFSD: Define actions for the new time_deleg FATTR4 attributes
+bda932c3a3f5e8ddf935d533fc4539b79099b9e1 NFSD: Fix crash in nfsd4_read_release()
+9bdbcd93c2cbdef20c6f6bc06854213a38971d22 nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+db601d308cd0ad14a292d4b05f50a630e6100f8a NFSD: Update comment documenting unsupported fattr4 attributes
+15a386fa9aeb3a7760282cfbde85b9cfeb38931b Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+9949936592abc58773adc7f7cbfe63a076419a58 svcrdma: Increase the server's default RPC/RDMA credit grant
+a165ef3a4eee059e22aea4c37050db38b2264a5d NFSD/blocklayout: Fix minlength check in proc_layoutget
+8700aab739a140fa7b44c47331ed32acb686df38 NFSD/blocklayout: Extract extent mapping from proc_layoutget
+6e075092ba342c6f2e1de613d0eaf3877d2dcf32 NFSD/blocklayout: Introduce layout content structure
+88cc1c5a60b9005d343c6162218cdc364f28a2ec NFSD/blocklayout: Support multiple extents per LAYOUTGET
 
---===============8515790195380763371==--
+--===============8418822498620873419==--
