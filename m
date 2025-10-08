@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 08 Oct 2025 20:59:05 -0000
-Message-Id: <175995714547.398189.15738850026260132556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Wed, 08 Oct 2025 20:59:19 -0000
+Message-Id: <175995715938.398507.16236241672162049386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/todo
-    old: 3f98ee4873bfc9df01bcd97a49927acfac8cb181
-    new: ed415fd51f931ad8ce771672bcac2f9310d220d4
-    log: |
-         ed415fd51f931ad8ce771672bcac2f9310d220d4 What's cooking (2025/10 #03)
-         
+  - ref: refs/heads/stacktrace_test
+    old: 0000000000000000000000000000000000000000
+    new: 47ac1cfc037407f00f6989151bfd59dfcdf1eb38
