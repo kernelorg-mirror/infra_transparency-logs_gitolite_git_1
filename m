@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Oct 2025 08:09:57 -0000
-Message-Id: <175999739794.955461.11832821410068517718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 09 Oct 2025 08:26:26 -0000
+Message-Id: <175999838611.969875.10881965009895654677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 2c95a756e0cfc19af6d0b32b0c6cf3bada334998
-    new: 2854378a00e8872507a19cb1eb88517fc9584bc5
+  - ref: refs/heads/v2.2.x
+    old: 7afad4f10f9ea2cdd00248531b1d195215cc4eac
+    new: 821361a150132eca1c12d5a55835f04c6ad11636
     log: |
-         f359b809d54c6e3dd1d039b97e0b68390b0e53e4 netfilter: nft_objref: validate objref and objrefmap expressions
-         bbf0c98b3ad9edaea1f982de6c199cc11d3b7705 bridge: br_vlan_fill_forward_path_pvid: use br_vlan_group_rcu()
-         a126ab6b26f107f4eb100c8c77e9f10b706f26e6 selftests: netfilter: nft_fib.sh: fix spurious test failures
-         e84945bdc619ed4243ba4298dbb8ca2062026474 selftests: netfilter: query conntrack state to check for port clash resolution
-         2854378a00e8872507a19cb1eb88517fc9584bc5 Merge tag 'nf-25-10-08' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         4c07fde457f2d401d030e24d586c92b62c1363ca build: fix pkgconfig check and drop unneeded AS_IF() in configure
+         87a36dc47a92e0c1c0b6ca3433e49598698e8d57 tests: harness: use correct type to capture a boolean retval
+         821361a150132eca1c12d5a55835f04c6ad11636 tests: gpiosim: don't allow clearing hogs on active devices
          
