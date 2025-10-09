@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4563590267629614720=="
+Content-Type: multipart/mixed; boundary="===============4033176711568003604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Thu, 09 Oct 2025 08:27:14 -0000
-Message-Id: <175999843487.970697.9522472593718389506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 09 Oct 2025 08:34:35 -0000
+Message-Id: <175999887586.976550.7284663942845036694@gitolite.kernel.org>
 
---===============4563590267629614720==
+--===============4033176711568003604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/testing
-    old: ca965a70ea57cd12f19a422a28a97aab5e1d031b
-    new: 49836ff2f37dd6d52bfe3153c0bcbd96025a6100
+  - ref: refs/heads/master
+    old: 83a9a2226b1d1f59b1555100b6c4f2f8b3e7e4cf
+    new: db0efab5c3e13794ae79fcb3db8371e3af510169
+    log: revlist-83a9a2226b1d-db0efab5c3e1.txt
+  - ref: refs/heads/stable/v2.41
+    old: 0027056fe902764320fac9fa38f04dba65bf6775
+    new: 917917253e60b0ba485cf6a27a2f993aa43e1eea
     log: |
-         49836ff2f37dd6d52bfe3153c0bcbd96025a6100 can: m_can: replace Dong Aisheng's old email address
+         917917253e60b0ba485cf6a27a2f993aa43e1eea libblkid: use snprintf() instead of sprintf()
          
 
---===============4563590267629614720==
+--===============4033176711568003604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-83a9a2226b1d-db0efab5c3e1.txt
 
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1759998492 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1759998431-ddb9dd52b185f2aa853eb1264f92ae56a40a477d
+041380f4ca7244df624bf7efdb5e27fdd3144175 libblkid: use snprintf() instead of sprintf()
+c1d4ee34b1f6d5356f1f601231ebaecc5a575202 lsipc: use snprintf() instead of sprintf()
+33d3d53139ffd43604ce598625ef87f5bcc58e57 dmesg: use snprintf() instead of sprintf()
+154b00c7fb26cd1b08b238048d283a69abd75b23 pipesz: use snprintf() instead of sprintf()
+952715782ae5d05934920b4d986e0c87f724b0cc lsfd: use snprintf() instead of sprintf()
+417d8c564905dafb2522ec7f93b6bfd124a35e0f libfdisk: use snprintf() instead of sprintf()
+af2f3f99b90ded1481c80912744cd0a0dfa58d6b col: use snprintf() instead of sprintf()
+62f8363caa017741db8e5ced9c0f1e305f61c5ea lib/mbsalign: use snprintf() instead of sprintf()
+cfc572a53614d91183787c6daf2a1a879368444b hwclock: use snprintf() instead of sprintf()
+6e723400a384c39f0df709b17af43e51c0a4f505 parsing /run/issue.d/* too
+60c5c0516e6ce52863b12343a1cd276423ab3bae netaddrq: Fix crash if there are no IP addresses
+39a270061dfe0ee27b5113001dac40b7a4000c60 Merge branch 'PR/sprintf-replace' of https://github.com/karelzak/util-linux-work
+60ab2c3c3724fd2787638b14d5071851154b8a41 Merge branch 'run_issue_d' of https://github.com/schubi2/util-linux
+db0efab5c3e13794ae79fcb3db8371e3af510169 Merge branch 'master' of https://github.com/stanislav-brabec/util-linux
 
-ca965a70ea57cd12f19a422a28a97aab5e1d031b 49836ff2f37dd6d52bfe3153c0bcbd96025a6100 refs/heads/testing
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjnchwTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnB6lB/9mnL/KpCIO/86BotHPQk+MGX+kaYYY
-X+k7vi8UgwNjeGyP8saxohEHgaMxFTk1EYjtaLbp07pvK3cboJbRjqzGI6ZuGmBm
-LEZODzyXIEcq3H8zcWBktqlT8wOjYGP8n9SK/Rkv4b4OyeJPJnJ3j5NAZdT6MTkU
-lrk+TKauGB3JVrIDxDwky9Wjw/hJ/nOzYE0pP1oLLgC1REsAnIaUWmcXcorFtSPM
-1dKDcm1GYfOrMh01VXpeCp1kw4/upNFjYCVqmy5Uwgivsm4wdp+ohwoALLlM0OT0
-rNgIBkivAW2uVw8rzgOzHhTWQxOJu7IfAY4ucRaivbgJwbAef2uEQTuG
-=/euj
------END PGP SIGNATURE-----
-
---===============4563590267629614720==--
+--===============4033176711568003604==--
