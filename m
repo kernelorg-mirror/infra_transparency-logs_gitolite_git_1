@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 09 Oct 2025 16:08:06 -0000
-Message-Id: <176002608610.1397048.2248708349330884742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Thu, 09 Oct 2025 16:32:50 -0000
+Message-Id: <176002757064.1418152.13255051176222753066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: 98bf4d7a2299a12ed3e199aa383c540040ddb096
-    new: 0eae8f4ef360b88fa6bdcf7113101a709da4e10a
+  - ref: refs/heads/pwm/for-nexxt
+    old: 8f2689f194b8d1bff41150ae316abdfccf191309
+    new: d80df3e4bc3504eb959d1ea227ff1abe9073fc3f
     log: |
-         0eae8f4ef360b88fa6bdcf7113101a709da4e10a patches/next: rebase to latest mm-new
+         0cb631c4ccb21634ec8228fab902e56860d135a5 pwm: Simplify printf to emit chip->npwm in $debugfs/pwm
+         d80df3e4bc3504eb959d1ea227ff1abe9073fc3f pwm: Use %u to printf unsigned int pwm_chip::npwm and pwm_chip::id
          
