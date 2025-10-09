@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7618085779208742066=="
+Content-Type: multipart/mixed; boundary="===============2903830626167937167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 09 Oct 2025 09:44:07 -0000
-Message-Id: <176000304780.1056397.14707536010385983448@gitolite.kernel.org>
+Date: Thu, 09 Oct 2025 09:44:33 -0000
+Message-Id: <176000307361.1056833.2644304083834441669@gitolite.kernel.org>
 
---===============7618085779208742066==
+--===============2903830626167937167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 2c95a756e0cfc19af6d0b32b0c6cf3bada334998
+  - ref: refs/heads/testing
+    old: e84945bdc619ed4243ba4298dbb8ca2062026474
     new: e6cc7ac0d420a7782cdb6d926245abf40f943f24
-    log: revlist-2c95a756e0cf-e6cc7ac0d420.txt
+    log: revlist-e84945bdc619-e6cc7ac0d420.txt
 
---===============7618085779208742066==
+--===============2903830626167937167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c95a756e0cf-e6cc7ac0d420.txt
+Content-Disposition: attachment; filename=revlist-e84945bdc619-e6cc7ac0d420.txt
 
-f359b809d54c6e3dd1d039b97e0b68390b0e53e4 netfilter: nft_objref: validate objref and objrefmap expressions
-bbf0c98b3ad9edaea1f982de6c199cc11d3b7705 bridge: br_vlan_fill_forward_path_pvid: use br_vlan_group_rcu()
-a126ab6b26f107f4eb100c8c77e9f10b706f26e6 selftests: netfilter: nft_fib.sh: fix spurious test failures
-e84945bdc619ed4243ba4298dbb8ca2062026474 selftests: netfilter: query conntrack state to check for port clash resolution
 2854378a00e8872507a19cb1eb88517fc9584bc5 Merge tag 'nf-25-10-08' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 7e617d57f2a2f0cc3c5d91b5594df7fd1f2e4459 eth: fbnic: fix missing programming of the default descriptor
 613e9e8dcb7e2523943d3cf965f3183c54b32adb eth: fbnic: fix accounting of XDP packets
@@ -42,4 +38,4 @@ fbb467f0ed95853ff0f1a20f8d53e8c0eccc2ddb selftests: drv-net: pp_alloc_fail: lowe
 5d683e550540b7afd813ae45e9f727245bd26fe3 selftests: drv-net: pp_alloc_fail: add necessary optoins to config
 e6cc7ac0d420a7782cdb6d926245abf40f943f24 Merge branch 'eth-fbnic-fix-xdp_tx-and-xdp-vs-qstats'
 
---===============7618085779208742066==--
+--===============2903830626167937167==--
