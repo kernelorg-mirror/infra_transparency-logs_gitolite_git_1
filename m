@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 09 Oct 2025 09:51:24 -0000
-Message-Id: <176000348400.1065226.9413781357635969582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 09 Oct 2025 09:57:14 -0000
+Message-Id: <176000383444.1070308.11437509069575343940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/kvm-arm64/pan-orama
-    old: 6d194164edcae873e290a259d344297577c148a4
-    new: b08d4b5b7cc16472a66478b9e9fec544015e2dc4
+  - ref: refs/heads/main
+    old: e6cc7ac0d420a7782cdb6d926245abf40f943f24
+    new: fea8cdf6738a8b25fccbb7b109b440795a0892cb
     log: |
-         b08d4b5b7cc16472a66478b9e9fec544015e2dc4 arm64: Revamp HCR_EL2.E2H RES1 probing
+         fea8cdf6738a8b25fccbb7b109b440795a0892cb net: airoha: Fix loopback mode configuration for GDM2 port
          
