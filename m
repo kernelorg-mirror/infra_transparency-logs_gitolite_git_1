@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 09 Oct 2025 19:11:36 -0000
-Message-Id: <176003709659.1553890.16496783924341049366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 09 Oct 2025 19:19:03 -0000
+Message-Id: <176003754389.1559708.12646111974842244530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 91e6446373fbf4147ca55a6464994f9a1b068528
-    new: f8c73ec9c6006b74bc2d9a87b1379c74b7541e37
+    old: ed31254c1bb4e88d1b3812c06212b50dcba795bc
+    new: b9b306b542afb8a3059c2035fb2034a89e4660d1
     log: |
-         187232db064229a03ad2bc09cbf123b3fc192e1b intro/intro: Update based on 2025 Kernel Recipes feedback
-         22326b56ec779548559a42b2c5d9d28ca90cd5d5 howto/howto: Add URL of 2025 Kernel Recipes presentation
-         0bc04a7e2aeb67f3ed54a4f4d5e741f4f4c0916b together/applyrcu: Credit Denis for Lockless Double-Checked Initialation
-         5ef7a255121592a787b2946968f917884245e261 intro/intro: Add "Existing Sequential Designs" section
-         f8c73ec9c6006b74bc2d9a87b1379c74b7541e37 datastruct/datastruct: Document concurrency-friendly hash-table API
+         7089300f2dae18dbcb05dbb75fe73606658a12d9 stat: report zone reset count only when zonemode is set to zbd
+         b9b306b542afb8a3059c2035fb2034a89e4660d1 stat: report zone reset count in json output format
          
