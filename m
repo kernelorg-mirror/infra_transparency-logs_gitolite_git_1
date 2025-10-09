@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 09 Oct 2025 06:12:11 -0000
-Message-Id: <175999033142.859412.1739754166178697169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 09 Oct 2025 06:27:51 -0000
+Message-Id: <175999127170.872093.1768419820431501548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: f3b601f900902ab80902c44f820a8985384ac021
-    new: e6600166d374a64164783e19cbf7d37765e4b118
+  - ref: refs/heads/experimental
+    old: 011f3a4174249259191d589a8e3a071a3c29ac4f
+    new: febad09f304111c97a976b4b0e499a44b230ee84
     log: |
-         ef1b7cc5308832de62f78f24001addccb150edae perf tools c2c: Add annotation support to perf c2c report
-         46de1a9151fa5fe64b44ce13135eb67862b13399 perf tests: use strdup() in "Object code reading"
-         5ae431d164b62cc927f594ada1b04c48ed148e9f perf stat: Additional verbose details for <not supported> events
-         e6600166d374a64164783e19cbf7d37765e4b118 perf build python: Don't leave a.out file when building with clang
+         2c06f1a6c5e1df5cb941f3acf5dc6c07aab4ed9b erofs-utils: mount: don't overwrite layer_index with -1 again
+         f4466946588cadb68c4f1573933cf6c2fe8a85f0 erofs-utils: mkfs,oci: support tarindex mode with zinfo for OCI
+         febad09f304111c97a976b4b0e499a44b230ee84 erofs-utils: mount: add support for standard OCI targz blob access
          
