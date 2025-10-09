@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 09 Oct 2025 17:13:15 -0000
-Message-Id: <176002999585.1451945.15132260231463182554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 09 Oct 2025 17:33:59 -0000
+Message-Id: <176003123926.1468544.12818052616808382082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/syztest
-    old: 299d12f375f4a41ea5655eb565cdf0c936ff6b8f
-    new: 554d1823d893658d5b3527306fca5dfa6f17217e
+  - ref: refs/heads/always-kfence
+    old: 90a1fd620f839dfd87e82ec5482b27e364b1b5b9
+    new: f633362ad91bdda54b5a1f7f8a09745387934a03
     log: |
-         630396b98b879fd9333e7113d58682f8016c09ca io_uring/waitid: have io_waitid_complete() remove wait queue entry
-         554d1823d893658d5b3527306fca5dfa6f17217e io_uring/waitid: use io_waitid_remove_wq() consistently
+         f633362ad91bdda54b5a1f7f8a09745387934a03 mm: add a way to always do a kfence allocation in a slabcache
          
