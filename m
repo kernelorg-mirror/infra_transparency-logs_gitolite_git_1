@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3003940020052422360=="
+Content-Type: multipart/mixed; boundary="===============0024893528096782615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Thu, 09 Oct 2025 12:26:19 -0000
-Message-Id: <176001277946.1202817.17811047105060179403@gitolite.kernel.org>
+Date: Thu, 09 Oct 2025 12:26:27 -0000
+Message-Id: <176001278790.1203237.10647270446420234116@gitolite.kernel.org>
 
---===============3003940020052422360==
+--===============0024893528096782615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: f3b601f900902ab80902c44f820a8985384ac021
     new: ec714e371f22f716a04e6ecb2a24988c92b26911
     log: revlist-f3b601f90090-ec714e371f22.txt
 
---===============3003940020052422360==
+--===============0024893528096782615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a154f141604acacc0ec64a445d8058a045c308ef PCI: Fix regression in pci_bus_distribu
 37bfdbc11b245119210ac9924a192aec8bd07d16 Merge tag 'pci-v6.18-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 ec714e371f22f716a04e6ecb2a24988c92b26911 Merge tag 'perf-tools-for-v6.18-1-2025-10-08' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============3003940020052422360==--
+--===============0024893528096782615==--
