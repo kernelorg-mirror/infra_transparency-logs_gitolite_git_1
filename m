@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8630259479780846075=="
+Content-Type: multipart/mixed; boundary="===============0011390419552908700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 09 Oct 2025 18:01:46 -0000
-Message-Id: <176003290652.1493576.5435209561889067319@gitolite.kernel.org>
+Date: Thu, 09 Oct 2025 18:01:48 -0000
+Message-Id: <176003290892.1493677.5974890831872481815@gitolite.kernel.org>
 
---===============8630259479780846075==
+--===============0011390419552908700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 2c95a756e0cfc19af6d0b32b0c6cf3bada334998
     new: fea8cdf6738a8b25fccbb7b109b440795a0892cb
     log: revlist-2c95a756e0cf-fea8cdf6738a.txt
 
---===============8630259479780846075==
+--===============0011390419552908700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ fbb467f0ed95853ff0f1a20f8d53e8c0eccc2ddb selftests: drv-net: pp_alloc_fail: lowe
 e6cc7ac0d420a7782cdb6d926245abf40f943f24 Merge branch 'eth-fbnic-fix-xdp_tx-and-xdp-vs-qstats'
 fea8cdf6738a8b25fccbb7b109b440795a0892cb net: airoha: Fix loopback mode configuration for GDM2 port
 
---===============8630259479780846075==--
+--===============0011390419552908700==--
