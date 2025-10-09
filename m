@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 09 Oct 2025 10:37:28 -0000
-Message-Id: <176000624859.1103936.16678491492416647986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 09 Oct 2025 10:49:12 -0000
+Message-Id: <176000695242.1113492.8717080284647504304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/renesas/swdt
-    old: ce60b8cdfd073fab9e1f517fb424ff48eba0a044
-    new: 88bf1f8864678cd24571bc9fef796f5c89c8ebca
+  - ref: refs/heads/arm64/midr-cleanup
+    old: 118cafd7572ef2223c11fe55ae7119d9f0c0553f
+    new: 4385cbffabecca330e6d6980489339066f636f48
     log: |
-         38999ee230b357da9f6c2c124d500e68b7580698 dt-bindings: watchdog: factor out RZ/A watchdog
-         92ea4376857c8f7c2186cefe695350c6276d693d dt-bindings: watchdog: factor out RZ/N1 watchdog
-         9ea5c4d7bfd8772ca0a24ba1ae79f75e2f4c3b7b dt-bindings: watchdog: factor out RZ/G2L watchdog
-         b98d370126f40e2d386d2ca80ee3731a4aa5202f dt-bindings: watchdog: factor out RZ/V2H(P) watchdog
-         16616f0ed9b77b638b443ccc6589ab9f70619a65 dt-bindings: watchdog: renesas,wdt: add SWDT exception for V3H
-         7325b72a041f2ef8dc748b116db67aa1b89b3454 arm64: dts: renesas: r8a77980: add SWDT node
-         88bf1f8864678cd24571bc9fef796f5c89c8ebca arm64: dts: renesas: v3h: mark SWDT as reserved
+         43843c356ea21425bb0ce31d267308935d3c9d7f WIP: Combine implementer and partnum at point of use
+         415e15cefedf2881e56726ccebc8981617b185e1 WIP: simplify is_kryo_midr() usage
+         56d09155630e4aa4fcbffac9fefaac63ed0ab349 WIP: arm64: cputype: Delete unused MIDR definitions
+         4385cbffabecca330e6d6980489339066f636f48 WIP: Factor out MIDR definitions
          
