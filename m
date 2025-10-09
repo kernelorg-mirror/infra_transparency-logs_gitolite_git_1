@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 09 Oct 2025 10:55:35 -0000
-Message-Id: <176000733509.1120450.1519709632508654410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 09 Oct 2025 10:58:15 -0000
+Message-Id: <176000749528.1121849.2529860589295257768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/arm64/midr-cleanup
-    old: 4385cbffabecca330e6d6980489339066f636f48
-    new: 618c85796192e749547d92f873bce0fed4d4d146
+  - ref: refs/heads/main
+    old: 40d72c36592c787e411d62ae2104d055b4aa1cf5
+    new: b0602ff7306a093a0b60bbe60f68d018d48235e9
     log: |
-         618c85796192e749547d92f873bce0fed4d4d146 WIP: Factor out MIDR definitions
+         b0602ff7306a093a0b60bbe60f68d018d48235e9 refactor(session): sanitize session refresh
          
