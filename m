@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 09 Oct 2025 21:34:11 -0000
-Message-Id: <176004565131.1674361.13852889990153551135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 09 Oct 2025 21:34:53 -0000
+Message-Id: <176004569335.1675196.1941609463448807978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: d7a0402d29de0ce75cca99224fa7efd7c247885e
-    new: 40700030d858a7372a0f30f3f6b751731867792f
+  - ref: refs/heads/main
+    old: 7cbddb355d67e5320f818012190a387067eae61f
+    new: 34bbeb13367b597face191b2a63bc0f818d33037
     log: |
-         40700030d858a7372a0f30f3f6b751731867792f foo
+         34bbeb13367b597face191b2a63bc0f818d33037 build: drop urlencoding
          
