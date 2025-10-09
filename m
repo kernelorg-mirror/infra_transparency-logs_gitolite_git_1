@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Oct 2025 10:53:16 -0000
-Message-Id: <176000719697.1117100.1882270971764594123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 09 Oct 2025 10:55:35 -0000
+Message-Id: <176000733509.1120450.1519709632508654410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/tags/net-6.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 852a838523ebb943aaa57421c0aef69fc0bc179b
+  - ref: refs/heads/arm64/midr-cleanup
+    old: 4385cbffabecca330e6d6980489339066f636f48
+    new: 618c85796192e749547d92f873bce0fed4d4d146
+    log: |
+         618c85796192e749547d92f873bce0fed4d4d146 WIP: Factor out MIDR definitions
+         
