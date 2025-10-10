@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Fri, 10 Oct 2025 13:24:52 -0000
-Message-Id: <176010269274.2490518.13368809694279467354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 10 Oct 2025 13:40:49 -0000
+Message-Id: <176010364920.2504693.6460355290583899625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/b4/rv-reactor-signal
+  - ref: refs/tags/sound-fix-6.18-rc1
     old: 0000000000000000000000000000000000000000
-    new: 5f1e83d0ead9b8fc09102bea3ac5c9c87daeb8a9
+    new: 2094b4ef92dd945cbe4f8ef08d1b1ea3b3397a6b
