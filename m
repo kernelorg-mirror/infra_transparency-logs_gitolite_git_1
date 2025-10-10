@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0164633457852830377=="
+Content-Type: multipart/mixed; boundary="===============0714975630117742711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Oct 2025 13:12:30 -0000
-Message-Id: <176010195024.2477824.2384020391452406584@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 13:12:31 -0000
+Message-Id: <176010195110.2477903.11365874494057498426@gitolite.kernel.org>
 
---===============0164633457852830377==
+--===============0714975630117742711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,70 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: c290a6f127312b6a54109de65ecba7c4fae420aa
-    new: 5f5f34fe123e7725651fa95866200bb44465e291
-    log: revlist-c290a6f12731-5f5f34fe123e.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 31269473f270ad72c1fd095c6763bf02d221553e
+    new: 9ae5ed5ef482a78cff93c8f30727fcdb7ab7018a
+    log: revlist-31269473f270-9ae5ed5ef482.txt
 
---===============0164633457852830377==
+--===============0714975630117742711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760102009 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760102010 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1760101948-a32d62ae4bb2d68090cc863602de017bdc0dd46d
+nonce 1760101949-6a0f7b0f49c1cf5630ee71f8d54b0ac457bd20f9
 
-c290a6f127312b6a54109de65ecba7c4fae420aa 5f5f34fe123e7725651fa95866200bb44465e291 refs/heads/linux-5.10.y
+31269473f270ad72c1fd095c6763bf02d221553e 9ae5ed5ef482a78cff93c8f30727fcdb7ab7018a refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBnobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vN8QAMj3HjHe7XNtqiije2NO
-NVdY+AfJQ2wMBWbP3DRICu4Cn9Bo2HQ3D+cH6I+46CtIgCmrLxrXBiS70VPFO1ra
-lvg3+SgfSewjLdfDi2AVP1MlNdPmMU6NoI3IHCFKzIVAuLN8z7eivC7mIqogOLmE
-HAUWkTOwqHgWzfcrvIcnNSXaq7Z7Mbqs6yMz29GykUCHy1p3Bx1jxh5+3L/0Rhxr
-FRLuPX6xc0DocYbPvBkzvZQOsJlvNtsVUacs1Lz8YPXNSrXrDTF3+Ve42FrnfDcR
-ALgqayErsUBlQzgDK73hRUdS1bOBpLYYdFUaCzVXjX7fr++IWoxxjHylzbKYWBMs
-FcrNC/WKLlrSXzXBPCEMGITdaEK0HSVU8ylQD36kllUh4goMQOmhPmhagtd4Ar1M
-8fyMYTGPhned8idKPWwnQ530dHgpi+E/FMI/whhHUF2LAkUETzwbkiE1QkQGNIQO
-RBFnVqTbDvw27b84miJ6v80HMkP87n0BqsLvpr8qtltwObl52ns72+rYlB1bLXoh
-jXP/okOMPJJQy0HB0mCRQ6QeqIUeVFd17H1rtANji5Gtu0Ynstv814MTRNR0jclF
-it1j5TNL550P3ja8Sw8LyU17ezr0J8j5Dzunr2yUiI03ufrtSj7BoPxGjJqpqjKK
-MlTNerYS9SVtucmwnJd0jid0
-=EuNd
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4dwQALpuX5OmLdwHi2brXu5A
+l1EytwyrvyhOIhdRYFl92fgLXqZIdhJMrSZAhEqvh2nLJoRyU/oZqbr4Dn8y9v4G
+AL85Wmo2+chXVnwVdndPY8GVnH5fMbwLcue4mqWVJELLusxUddNFbqP/bnyWWthn
+P/OILVBNcA+QH+H6jxS3CSBgVAY938HTb7vMlWjd27dxu5Q7Pz27actks8d1K2UW
+uZ+UiIo5CnWBCFUAjAJpYbXxGOO1hWTNOj5JNrDenIL31tUGGnPGgA1KZOIr0p0J
+p1kLhdQ1/va/l4nAhcRn39L3uATYvWB4QPkONSS0QI84Uy++0Ik4NUH55HP9mg/v
+c5KZWS0/15/YIFleEFRbgdxUBR8eVqkU9w2D+AHxZVglQ03UJ/4sfzpqObkKUlCb
+ojet6P6YqieNcB9kfG519YrKERGyIt61YkKsqCAjYUOtAafmW2aJ0JQlbf5rmWz2
+befXOeHq5npkZI7wfPF+G/9f12U25iWPsKt9zM+lyUs6FpSGjCP1gTnjX58cei0k
+B23Xqgirrc2RUKXAwvR3cQnzUUEvQv/x31QyIk1pe9QtIKuKudhvahBKjt2kcmQ4
+jfzHBu9ngRD29cVPv6QU+HnpUK95rGeJgJk3e8sKFPCVVhua0ANNpPe2SeNBpalG
+GMQb3DMGFjJkE9NIRmhpCjYY
+=a/+t
 -----END PGP SIGNATURE-----
 
---===============0164633457852830377==
+--===============0714975630117742711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c290a6f12731-5f5f34fe123e.txt
+Content-Disposition: attachment; filename=revlist-31269473f270-9ae5ed5ef482.txt
 
-145718339e4899abe92e8de5e9943a023713eb1d scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-c8d620fc09465be61218fde48136db3b452693a2 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-2d8e7e209522a673d0fc354d3843de9b593cd1b9 media: rc: fix races with imon_disconnect()
-72c3315a7dcbd1eb0c06d1e58427e63cbae35839 udp: Fix memory accounting leak.
-f394d0a57f82e2f5c0c9289ddcb0a8f0b4e4b403 media: tunner: xc5000: Refactor firmware load
-63d9f9bb4df948b8930568b5a4860aca80f4e02c media: tuner: xc5000: Fix use-after-free in xc5000_release
-f40d4335edc68993f98e044866d76adcf8c69248 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-e6f609fb5ce5ef0254dc87d9ec3b0293fd1a7327 USB: serial: option: add SIMCom 8230C compositions
-e9b084f9bcf15685aab252596221539b5aaea349 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-38c3395f415e1268126e0727c1120ab7f568b18d dm-integrity: limit MAX_TAG_SIZE to 255
-ee29342591a78cf9e619720ee424069235200114 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-e08a0fbe7cf952bff6eb6a2d2ff87414c8af72d8 hid: fix I2C read buffer overflow in raw_event() for mcp2221
-11bccb578ad8f2ddc7cd4369874899aa0a8ae7a8 serial: stm32: allow selecting console when the driver is module
-100a45b4d6058bf6c4f81bee49c5a314249289cb staging: axis-fifo: fix maximum TX packet length check
-9a6f04fc852ac3279fff423400fdeeec7ac0e2e3 staging: axis-fifo: flush RX FIFO on read errors
-a34abd5f123e26f314ba90a8dc7f0898c0b741b6 driver core/PM: Set power.no_callbacks along with power.no_pm
-3701dbfc0f15724ab45806d27ac91c3490ba056e drm/amd/display: Remove redundant safeguards for dmub-srv destroy()
-468a0b04ff8cb20c8c069ca7bada69ed26b664a2 drm/amd/display: Fix potential null dereference
-5f63f5c399e62820a0805df2a4f70bcef72826c0 crypto: rng - Ensure set_ent is always present
-5f5f34fe123e7725651fa95866200bb44465e291 Linux 5.10.246-rc1
+926384ac40ebb389c3401c1cc686268ba2bb81b8 iommu/amd: Add map/unmap_pages() iommu_domain_ops callback support
+425e430314de4434242c9464531eacefbea1609f scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+72bb0a108cde3ee046f52ec37c63019db6c7ce25 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+62097a8bc5baa305cd4ba03a59cff28167035bb4 media: rc: fix races with imon_disconnect()
+e033538ed98640c42c0bb1c4228ba342080f9c2c media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+6bb161b4c9d117c3412f90ceb83a022d05ce1906 KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
+b5c7c15f3b940aaad41437f7e688590f93ad70b0 udp: Fix memory accounting leak.
+63bdbef8890641011a07b34eba9cb7d4e6ca0348 media: tunner: xc5000: Refactor firmware load
+1f8a5fc608333171cf8240c25a37115cb4751a61 media: tuner: xc5000: Fix use-after-free in xc5000_release
+4d7002905f7867615fbda53e69a5e5c18d00ad68 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+962ed200f02040c7b21261fdd75795ebc963dd96 USB: serial: option: add SIMCom 8230C compositions
+3ef0f33a44ccca1ad965ba335d697876456b69df wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+eaa461ce4695680bfd481e020aa896b7555d6a23 dm-integrity: limit MAX_TAG_SIZE to 255
+0044825e5eb992e16800644ed4cf91418a647864 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+29ca57f9c0a577b6926c2febfe09d7c3ef2bd97c hid: fix I2C read buffer overflow in raw_event() for mcp2221
+840089031e10eef3f20f9226aedf2a20159590dc serial: stm32: allow selecting console when the driver is module
+8bce5e169861b2b4cce2f6ed2269f604c9e97f1a staging: axis-fifo: fix maximum TX packet length check
+033f177a74267f9311c36ffb4455e1999f59ea7f staging: axis-fifo: flush RX FIFO on read errors
+0ac71b6146216b6c82ffaf55119172ca255a2fd6 driver core/PM: Set power.no_callbacks along with power.no_pm
+3a8bb25e4f02e403ce9aac3fd14e97d8603bb984 platform/x86: int3472: Check for adev == NULL
+f712e35f6876ec1fdf6dd1e9f65f1620aaa59b06 crypto: rng - Ensure set_ent is always present
+5bddaffa91f66df75707c0790c913d9decc21377 minmax: add in_range() macro
+2552e21ae04b60631ef78bc41a5e3c0585c94fcf net/9p: fix double req put in p9_fd_cancelled
+9ae5ed5ef482a78cff93c8f30727fcdb7ab7018a Linux 5.15.195-rc1
 
---===============0164633457852830377==--
+--===============0714975630117742711==--
