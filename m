@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4825190030707714574=="
+Content-Type: multipart/mixed; boundary="===============7299294680519129857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Oct 2025 12:46:42 -0000
-Message-Id: <176010040216.2454743.16901792799387378077@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 12:46:43 -0000
+Message-Id: <176010040345.2454887.12342620172151912554@gitolite.kernel.org>
 
---===============4825190030707714574==
+--===============7299294680519129857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,93 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.17.y
-    old: e7da5b86b53db5f0fb8e2a4e0936eab2e6491ec7
-    new: d0e5608ac0184861900577848ecbe83f50fd1507
-    log: revlist-e7da5b86b53d-d0e5608ac018.txt
+  - ref: refs/heads/linux-6.12.y
+    old: 791ab27b9c005e9996ed4ff5785a84890ea86f8b
+    new: 12d60807601df5aad74c0f00812852d8066bca81
+    log: revlist-791ab27b9c00-12d60807601d.txt
 
---===============4825190030707714574==
+--===============7299294680519129857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760100461 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760100462 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1760100400-ec79453201957135d25941b123c707a8fb909f30
+nonce 1760100401-fcfd81e1aa4b370626d08fac19a6b77bf7f95c98
 
-e7da5b86b53db5f0fb8e2a4e0936eab2e6491ec7 d0e5608ac0184861900577848ecbe83f50fd1507 refs/heads/linux-6.17.y
+791ab27b9c005e9996ed4ff5785a84890ea86f8b 12d60807601df5aad74c0f00812852d8066bca81 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpAG0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jcEQALYOv3u0T2bJxWnRmc5B
-l2xHPGQGyVAYwWqFrkZpU4xNe3Iy/ZdYKjblXgmJEpz3sTivRIHJdqY6oGC/rphI
-8mVTN9Qvg/wL0m2zS6t8bGlWUOANuI5FR6VQFOj68bIEZPgLd/+6iOmF/yzAQfAY
-q8As0g7V76I+6TIM9Q4idwCMetKh5/o7q5f/TjXCEP0c8pFeVW3bdJyobFmev49u
-brFzP/ZLjU8iWPKvoE5DW/Px9ovPEKQfQjrRw+7oB1h5MRjxVS42DgW8yZiLr915
-WOerC0RGc+GFTmRyEnA6+/0Wni6SfN3nl0sun9SHrrZiYTkOw1byHRNdf0pM0jEC
-0aR8K2/gUE2EXZJ6Tf5nqIsMDh7BygiFLoV5QwGn4xr15JgueEw9QrugxupBSbxO
-UFOEJ95JlkEoNxtAcDWuYuMyvDBXFYAEe5pwWMXH1+AzjHjvzZ0qGh9PLZIoccFK
-Gv+4QqPPsIye95mUfk8/3AA8pyxd+dVO+mr18Q2DkawvHkC76wp7t6lHZ6Ij5I8u
-naw88wt2pl+g8kpx0naIk8UVBr+ms7VIAOE/I22RFV/4iyTPTyT0EuOcC3WWATJp
-6s5F1L1vbw0ujYR95yQlc+t8YyGhHvTWQWEtgx8WdX/MCVyAl1AK8ORk3k3/Wjlm
-1hNGAur/IeniYPkh0M1r4+zb
-=Y4Ge
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpAG8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rBgP/0bU4Pg+WlKir95klDlK
+/2OH3pulZwUi5v7l/mTetnS/3AeiW2t9pqO26fJRNjZvdFj45NOEhp2tq7r+5Qnv
+MUwImbSdmDuUVzjVXC2Hr6qCL+WRB94vXbiUZ3hN+VPkQrGzFGxq5/HFeEemnqrO
+gqaXuofhpLx5Ju9BDQw8czvREnl+vD6eBHnQlmApzJwrTaOWHGBJzloE3MOu8c4q
+I9miHaByjO/TXWdR78eAOEEcW6m+SMTr58qnNeJPSH9LORJidzy84FVuDk+pyrkW
+YAMCIUJHPRAy84QdYLAy1VUgSLfDxdYe9gFDj6R/pq6Dr++VR0Us2AHyuuC+My8e
+0VL1ro8AMHtrgPX9qqCx/i8Q0m8rmZzpwsm3sTOw75BVHK3J4bQM9rcZKz5yLSz/
+tz0F99hxxHult2qeQwRoFKAXbTxtDBFgFE78VnBvS2J/QMF+OPGuW/shn0hS7Man
+aeAwCc0gSiXxxDu8ihTdHqwHiqf1WDAhQDJ/nEZPK8w9O7+hUFCbVPFQajWgkfUA
+Cu3+yENMzjiJlWaZquh+1c1C04j4itaEhdnYOwdliJV3Z6pk1MoSlJ+kM4PE3XV+
+RljJZGqzjV0So8xRZIhM6Ywoaej+VLObxxvlZv3gvfErdvv7i+AvMGW86O8MBmOt
+o0niJjjuK/loCXslmuJTfZ18
+=ewiZ
 -----END PGP SIGNATURE-----
 
---===============4825190030707714574==
+--===============7299294680519129857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7da5b86b53d-d0e5608ac018.txt
+Content-Disposition: attachment; filename=revlist-791ab27b9c00-12d60807601d.txt
 
-392b1d64911f4de8887fe8b68299fa8bd6e5b923 blk-mq: fix blk_mq_tags double free while nr_requests grown
-0424e4ee60a621d71ab12b51475292115eac903a gcc-plugins: Remove TODO_verify_il for GCC >= 16
-a150275831b765b0f1de8b8ff52ec5c6933ac15d scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-353d8c715cc951a980728133c9dd64ca5a0a186c ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
-bdb3c41b358cf87d99e39d393e164f9e4a6088e6 wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
-6a92f5796880f5aa345f0fed53ef511e3fd6f706 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-2610617effb4454d2f1c434c011ccb5cc7140711 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-4266f012806fc18e46da4a04d130df59a4946f93 media: tuner: xc5000: Fix use-after-free in xc5000_release
-2e7fd93b9cc565b839bc55a6662475718963e156 media: rc: fix races with imon_disconnect()
-0f140cede24334b3ee55e3e1127071266cbb8287 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-e4e99d69b8b8295c501b2eef89e13306b738b667 mm: swap: check for stable address space before operating on the VMA
-500fcc31e488d798937a23dbb1f62db46820c5b2 wifi: ath11k: fix NULL dereference in ath11k_qmi_m3_load()
-ec2f87ad035e8d1ad67567542842f1f23a4dbde2 media: iris: Fix memory leak by freeing untracked persist buffer
-4eeafff163e80d576c5efc1360ae310c0ceedd02 media: stm32-csi: Fix dereference before NULL check
-ef08ce6304d30b5778035d07b04514cb70839983 ASoC: qcom: audioreach: fix potential null pointer dereference
-4a245d5610b1706a1ede4cf1b5f462bb3cf84f1c Linux 6.17.1
-5876e997f777f6de18edc075e9db3328794c39a1 drm/amdgpu: Enable MES lr_compute_wa by default
-11bcffac814a933f4eb0ecc88252780ffebd5b0b USB: serial: option: add SIMCom 8230C compositions
-0317eeba510bb05b851d042938395be9d01f928a Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
-86eeb3bd9d4436d25aa97bb1016c427ee0c27441 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-bc82646afef3ec714200b12c5aed1a75fd64ea86 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
-49df6177855e44640d795c1ba4477d0e99f65a7f rust: drm: fix `srctree/` links
-fa5babab01ce01fadf1f937ccaeafe257877c735 rust: block: fix `srctree/` links
-13a0a7a4ab9fffd3c07dd02c16d47f2e12662d19 rust: pci: fix incorrect platform reference in PCI driver probe doc comment
-8eb37d9db07a9478de0ebe893d1bf6bec973a88f rust: pci: fix incorrect platform reference in PCI driver unbind doc comment
-feb15618a5b0eaf2240a50b79640d27b30b9e0b8 serial: qcom-geni: Fix blocked task
-6b803fee4751e8a90ab96a73b108f2c7838e6d98 nvmem: layouts: fix automatic module loading
-593f0ccd9ac527f53c5abbd746a27fd4c297440b drivers/misc/amd-sbi/Kconfig: select REGMAP_I2C
-3ea21a34a3ae1d06eacaddda0b3693ce8426ef23 binder: fix double-free in dbitmap
-8e34e4851b1713b7141aa883103c82b4e1b7ef52 serial: stm32: allow selecting console when the driver is module
-69ef9af1815a9434ccb670682499966860e359c5 staging: axis-fifo: fix maximum TX packet length check
-043915e7228081945029b69125f917a8af842848 staging: axis-fifo: fix TX handling on copy_from_user() failure
-9cc5dd976eb8e61f6d39dd3a79ca5e4ee7782a4a staging: axis-fifo: flush RX FIFO on read errors
-68ae7ab78cd6143071fe1699c56cce2ac31e702d driver core: faux: Set power.no_pm for faux devices
-89b111717f073394952d4d2e247e12aa22e838e9 driver core/PM: Set power.no_callbacks along with power.no_pm
-7b0995a9c8927652b449f833661e7782c0ff8849 Revert "crypto: testmgr - desupport SHA-1 for FIPS 140"
-d962af424ce37f6e26654f6f2d33cbe084b86d51 crypto: zstd - Fix compression bug caused by truncation
-88439b8d62abc7470c39abf4c861bce3d26ef13e crypto: rng - Ensure set_ent is always present
-f6812cf8ca254259153825540379f2fba956b8cc net/9p: fix double req put in p9_fd_cancelled
-62b31e0a3f00ab1d9c4cfe1510ade2194bf2e466 KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
-e3427f9764f69916841ff5c5713920888c9e2250 f2fs: fix to do sanity check on node footer for non inode dnode
-87622bc25be9259ae1a692676f7653f6c21a6eb9 ring buffer: Propagate __rb_map_vma return value to caller
-d0e5608ac0184861900577848ecbe83f50fd1507 Linux 6.17.2-rc1
+70165dc3ec8cff702da7b8b122c44575ee3111d6 crypto: sha256 - fix crash at kexec
+fc998bccee32bd6c79bdda1ec9031ae31c7b5b9f gcc-plugins: Remove TODO_verify_il for GCC >= 16
+53c6351597e6a17ec6619f6f060d54128cb9a187 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+514a519baa9e2be7ddc2714bd730bc5a883e1244 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+effb1c19583bca7022fa641a70766de45c6d41ac media: tuner: xc5000: Fix use-after-free in xc5000_release
+fd5d3e6b149ec8cce045d86a2b5e3664d6b32ba5 media: rc: fix races with imon_disconnect()
+000b2a6bed7f30e0aadfb19bce9af6458d879304 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+4e5f060d7347466f77aaff1c0d5a6c4f1fb217ac mm: swap: check for stable address space before operating on the VMA
+1f52119809b76d43759fc47da1cf708690b740a1 wifi: ath11k: fix NULL dereference in ath11k_qmi_m3_load()
+4dda55d04caac3b4102c26e29b1c27fa35636be3 ASoC: qcom: audioreach: fix potential null pointer dereference
+a9152eb181adaac576e8ac1ab79989881e0f301b Linux 6.12.51
+0ac476c74277546dc3fb939ff813b233b5e35c54 wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
+985cc23b5c96f46e8daa25fbd3223e10a006ec5b media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+6753768047e7247e953a89a9d235b757e3528cba USB: serial: option: add SIMCom 8230C compositions
+cf0da7704cd8c9a47f51c24123ac1e5304cd345c Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
+28fc13a1b3bcdfca41e2ba39777d2b0e74baedc6 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+18a12c28b34b0461d37868bf4a0bec4d900da434 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
+f217b321bc268eee5e71372f59bdaeace4b73ca8 rust: block: fix `srctree/` links
+591630b84f12b6fa6b08d6fb502ee7431c8c9763 ASoC: amd: acp: Adjust pdm gain value
+c3247ac5cb2bf7428f9df4b60396d27e4b1d437b dm-integrity: limit MAX_TAG_SIZE to 255
+a37c8eb212829e1304770ee9a28e703ebf060d50 platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
+b45d0b0080c261aadcfbf582155801f1597f9a20 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+5b17b22d57e5509189cfc014d6e353be009d75a9 platform/x86/amd/pmf: Support new ACPI ID AMDI0108
+8af6fe1d959586eb256955215f1a5612e604e8f8 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+d9e60789e9ea76651e3fab178b31daa8985586a3 btrfs: ref-verify: handle damaged extent root tree
+8d1fc32c7e2f485e9a974447a5b7297ab01994de netfs: Prevent duplicate unlocking
+612a1e161a11ba0385892c4c67d20cdbab8272f7 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+a1dbb3c74afb2afdfaebc12dfe5ef659da51403f can: rcar_canfd: Fix controller mode setting
+bfea951809d34b9bd3fa844f434d2626e5a8a506 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
+b0eb43f8fad291c84097b1a56d8f9a3bc0e2a2f5 drm/amd : Update MES API header file for v11 & v12
+fd565260012b54dff9246d47301d230386f10443 drm/amd/include : MES v11 and v12 API header update
+26a92872ec3a7025140d28e01d8a328447de72d6 drm/amd/include : Update MES v12 API for fence update
+0a6210c1303e0f4a0a6fc907377977e19ddc5dbe drm/amdgpu: Enable MES lr_compute_wa by default
+1c9230058acc83fb18eba748bab041f7cc83d34b ALSA: usb-audio: Kill timer properly at removal
+f29b8888cab30236620a7afa4209efb30fa6c37e ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
+05f8a9543e60385ca9ffc4d6eebab1e0a9fe485a hid: fix I2C read buffer overflow in raw_event() for mcp2221
+26dcad338e00e363da86f07928634271ac8debcc nvmem: layouts: fix automatic module loading
+4067afb2d5d7ea89771bb1cb5b923b20e25a7850 binder: fix double-free in dbitmap
+27d47e8c3e6c25186acf13faff34cffd0df7c4b1 serial: stm32: allow selecting console when the driver is module
+366b88ff40d8e9258d5cedf8a96cda5be37c55f8 staging: axis-fifo: fix maximum TX packet length check
+9b03025d26a6d3c049102116f6a978f0b7130878 staging: axis-fifo: fix TX handling on copy_from_user() failure
+d8b9f5368446df87a5bef2561af10f30fb33bc07 staging: axis-fifo: flush RX FIFO on read errors
+fbc1635a2237867ad006f897350d0a6732b47da9 driver core/PM: Set power.no_callbacks along with power.no_pm
+b15e176ed80d745d4083d87390a4968fa59cbaeb crypto: rng - Ensure set_ent is always present
+6a6130724b3e8a1153e63410b3c6c0fa980e4a5f net/9p: fix double req put in p9_fd_cancelled
+551889681d0b18fdefe673be3de5d8502f71d146 KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
+12d60807601df5aad74c0f00812852d8066bca81 Linux 6.12.52-rc1
 
---===============4825190030707714574==--
+--===============7299294680519129857==--
