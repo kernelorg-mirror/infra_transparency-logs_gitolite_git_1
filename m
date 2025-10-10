@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2651435070367885810=="
+Content-Type: multipart/mixed; boundary="===============1075434641548376276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 10 Oct 2025 15:31:57 -0000
-Message-Id: <176011031771.2601000.10777400626914775566@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 15:34:21 -0000
+Message-Id: <176011046173.2602860.6358743595210302675@gitolite.kernel.org>
 
---===============2651435070367885810==
+--===============1075434641548376276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 7e2a53eeb8988cf58761d9a040561adb189b359e
-    new: e7359120b7e323baf2388c11715457a516a714df
+    old: e7359120b7e323baf2388c11715457a516a714df
+    new: ae9e799bfbd382506f963144c93bc9416927f620
     log: |
-         71fa538556665aab608a9bc78208f668a375ab80 CVE-2025-38562: Provide ZDI reference
-         81f83e943cc4e066e3b81b91662844eff7d544f8 CVE-2025-38561: Provide ZDI reference
-         2a75add678f89c3a4c1591af5720067d24f82c5e CVE-2025-39698: Provide ZDI reference
-         edb14bff68f5174677f685f89b83be0dfddbb9f4 CVE-2025-38563: Provide ZDI reference
-         e7359120b7e323baf2388c11715457a516a714df update entries based on new reference file
+         ae9e799bfbd382506f963144c93bc9416927f620 reject CVE-2022-50487
          
 
---===============2651435070367885810==
+--===============1075434641548376276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760110378 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760110522 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1760110317-efdf228f71b12504909a2923ba5fdcd5404ee7c3
+nonce 1760110461-67c2d5f6c0c7b2622c8815246b79af789b7b4afa
 
-7e2a53eeb8988cf58761d9a040561adb189b359e e7359120b7e323baf2388c11715457a516a714df refs/heads/master
+e7359120b7e323baf2388c11715457a516a714df ae9e799bfbd382506f963144c93bc9416927f620 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpJyobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1hgP/i8Ut/T8SDX0Q+1fTsaX
-9OGtQC07jQbfi1H7Em0XpwEBX0ZwbYrzHK6SSHAlu5YLWjxBAeArumtBbsYQ6kTI
-m89HyV2NwU/mktXIITjP9p9JRN83YyACrOXW+FAW6SZPAWSlWoT5k9aEYs3+Y7Pp
-8houeJ+ucG64vND+DzPeK/OX9C6XMMwmlwX9jN3I1bh+fRaTeQzQgN0GUwf5hfH1
-EnwkkNKyMC8dV0ANXSfOpEPvWPtTvRSNjdRCG7dgUI7P+niu2/SMEn0J+yiN3cze
-u/CKHAl9QOeD6/ixs9TZYLSP71+3ilMmwlHfygA27MOdA8gh7c33fTe+veZGXthh
-fV8XqCG1NpFgdp2rSQxVMcAAbYaF8c/GnqAq0gKW306JHTHkgp+LQ0ZiKXK4ryWd
-8p6PkhIY9Sl2FZrmiEgAkb/zP97dH/lZOyhbQBmMvXgaP8JSPqmlbixdvZ2aIbIo
-BN2qcc4XVim69aU6bqwXABTxOcVM5LFuvlaaxJGxzowUb3vrkkjuxUCG8jw5PzKt
-JFpitlHS+rG75JTAmgZyZbUbAJzVXhO81x8PPbLLTfpuEb2KiZ2fQj/4WF05JcBA
-Tze4fNj6U9LO/ypr7Kn2tu2ht0uW02DEoq87mFn87T/FHiLxlGs0MteHKbKSa3U7
-I8fFUJzfKbGh6TnKPT7cGXxQ
-=B0tk
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpJ7obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fDYQAMazn9TcnMiekO0UZm5P
+mfXiR5AfMN4TYePvjbN63PMpLfspyjz64jZsgfMQ1zDAs0roW567oy1+4AY7/QTg
+GNY/2jzIKM5dAWhS/BhCKueGmLcgTuJhgCGdkOJKggVN+TtHTy5EjEQkbM3nXVMt
+zAWJPDDt2Bxt7N7wENy2tZNfeRvigKsH4ZjeRNgKhQkzgD0hdSOdQdztL0dg7JjN
+evm45ovemHAZhym2sncYMcU+XRxqlYgXJ7YWcNXyb3C8zLQkwoaZtHAGOzLOLJw2
+Hs+X+ZF0xAj6ujlF5f/C1NlmnpbsNnF+NlSRmq9nF2daPKBRpteHISU5OPRM7xP0
+iWQoog193A7y4aneICQ9GuoLoOlHyGvAOcoIdyEHcI5lC83530UZBp01ttc9xPQb
+XgJ9VKmsT+avw1gZLdOUffliavFwwdgO0Xs8VKpSMYxu7bVbLvHf17NeYSXb0mm4
+cg0wirX7iqD0IeMbI27D82ePHlhwIJ1o7NnCSxwpjZtvbQ/qXwbqXl8HyO9mBX/b
+6BmVwxCMA+zp2qDQ4xabwTRk/rXfF0OT9Wd3EtsGkXO2yb/NVfd4rv1eQJlopsSo
+xMZm0420dLDTFA/wdXsuFrHrEM21IIa2K4vpg8H6m3sjnvYINRpUy53/xbmqFKE0
+IoKRQt710yvMPwS5t/snaKaB
+=zNHa
 -----END PGP SIGNATURE-----
 
---===============2651435070367885810==--
+--===============1075434641548376276==--
