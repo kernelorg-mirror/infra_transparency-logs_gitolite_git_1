@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 10 Oct 2025 13:17:42 -0000
-Message-Id: <176010226227.2483848.11775431604357666816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Fri, 10 Oct 2025 13:18:43 -0000
+Message-Id: <176010232359.2484500.10421271678957595744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: f22f2fb4341afbe755870b0e7dd1b680dbb5bb8f
-    new: 03b511049579e4472c285930d55d90aaba8161ca
-    log: |
-         5639d4ed98dee27848fd52914e1d12a0fa30a0cf test: poll-race-mshot: Fix incorrect posix_memalign
-         03b511049579e4472c285930d55d90aaba8161ca Merge branch 'small_fix' of https://github.com/schlad/liburing
-         
+  - ref: refs/tags/fbdev-for-6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 790228883ea1932b2c98dfabd7de59fcf035547b
