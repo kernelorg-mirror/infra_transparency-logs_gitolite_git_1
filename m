@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0148971520481912967=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 10 Oct 2025 15:04:02 -0000
-Message-Id: <176010864282.2573814.2710599556327801947@gitolite.kernel.org>
-
---===============0148971520481912967==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 10 Oct 2025 15:05:15 -0000
+Message-Id: <176010871530.2576319.4206488358501050666@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: b301adaac34af94dd34b750298a18b1587735a9a
-    new: be54db4a8a89011ecb07b36042ed2736664ab00d
+  - ref: refs/heads/pinctrl
+    old: 4da7fd8374a8f95529f3884bbb3548bb590fd436
+    new: 2667f57d9c48ccf9fe4d56c99191677bfabd8dc5
     log: |
-         be54db4a8a89011ecb07b36042ed2736664ab00d Update 9CE05640D703A136 (Xiao Ni)
+         34b12d772119c994a5acde95e6b5767b37c8666b pinctrl: add polarfire soc iomux0 pinmux driver
+         5f40d3901a117ee06886a2ced993404245788899 dt-bindings: pinctrl: document pic64gx "gpio2" pinmux
+         393212f8a6a8d9d9098daaa95f3baa73e4fd152e pinctrl: add pic64gx "gpio2" pinmux driver
+         82bce21e45bff0768aa4b820c834c93fc32e99d2 dt-bindings: pinctrl: document polarfire soc mssio pin controller
+         c36b93264ddce4e36b9cbfd7d1932ce4d7b8892a pinctrl: add polarfire soc mssio pinctrl driver
+         7a785fa636642dc6a89e36ac3f41ec10aa0047c4 riscv: dts: microchip: add pinctrl nodes for mpfs
+         5551fd290409b3cfe6d63e73cea2a33723c5b40c DROP riscv: dts: microchip: pic64gx pinctrl
+         2667f57d9c48ccf9fe4d56c99191677bfabd8dc5 riscv: dts: goofed on the mmc
          
-
---===============0148971520481912967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1760108702 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1760108641-a64b58c923172663fc7386e2fd78c43cae515435
-
-b301adaac34af94dd34b750298a18b1587735a9a be54db4a8a89011ecb07b36042ed2736664ab00d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaOkgngAKCRC2xBzjVmSZ
-bEjnAP4wkJrru+cJi8rCxPWHeuYh2ZPq8g0xrG8f+S8WGNKf0AEAu+6LTz5QhGlc
-wB3wJ7naa36m3wWj8HEq8TTdIMlYhQ8=
-=3eZl
------END PGP SIGNATURE-----
-
---===============0148971520481912967==--
