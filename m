@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2984008447751642562=="
+Content-Type: multipart/mixed; boundary="===============6147439078331728454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Oct 2025 12:38:19 -0000
-Message-Id: <176009989911.2445010.1203558420005304931@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 12:40:20 -0000
+Message-Id: <176010002099.2448617.1415277348904311968@gitolite.kernel.org>
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,320 +16,327 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/5.10
-    old: 9c06f6e1dc6c2b949f133a73c45c3c34337d91d1
-    new: b437f0ad8364ef5774df24d862d9822585064c50
-    log: revlist-9c06f6e1dc6c-b437f0ad8364.txt
+    old: b437f0ad8364ef5774df24d862d9822585064c50
+    new: 0df9fb7df22e872eaed5edd6c0d415e40d4d721f
+    log: revlist-b437f0ad8364-0df9fb7df22e.txt
   - ref: refs/heads/queue/5.15
-    old: 26b3fbac2ecc33677c7d945a0a91fbe95c1089db
-    new: a1a2869783ed8f28641b9e52cc69a4e2752ca5a9
-    log: revlist-26b3fbac2ecc-a1a2869783ed.txt
+    old: a1a2869783ed8f28641b9e52cc69a4e2752ca5a9
+    new: fbb1926370ee1119f36d03d5455d11fb14bfe6c0
+    log: revlist-a1a2869783ed-fbb1926370ee.txt
   - ref: refs/heads/queue/5.4
-    old: f7d5fdf8823da550683bd8b0286cc279b0cddb32
-    new: 052f6141b31ef1e636079f6242534f29fa4820e0
-    log: revlist-f7d5fdf8823d-052f6141b31e.txt
+    old: 052f6141b31ef1e636079f6242534f29fa4820e0
+    new: aede6be8cb77d74d796bfb7812e4b619e74b4d0a
+    log: revlist-052f6141b31e-aede6be8cb77.txt
   - ref: refs/heads/queue/6.1
-    old: c77da73aa9527fc1adde4b3bd7ada2b293e7849e
-    new: ae8cf7beb893a814d3a44f5f1f40ae103d920899
-    log: revlist-c77da73aa952-ae8cf7beb893.txt
+    old: ae8cf7beb893a814d3a44f5f1f40ae103d920899
+    new: 8dc5faec86b20606896b3f87ec566822f4a01bf4
+    log: revlist-ae8cf7beb893-8dc5faec86b2.txt
   - ref: refs/heads/queue/6.12
-    old: dc4431b65623ec6dc300f6b3cb07a90109d6c8f3
-    new: fa6d8dc9ae7df5866af665d9e202f8ad471db91e
-    log: revlist-dc4431b65623-fa6d8dc9ae7d.txt
+    old: fa6d8dc9ae7df5866af665d9e202f8ad471db91e
+    new: d5c4caf8a2eeb4a4882eb360954ba4382ae6eecc
+    log: revlist-fa6d8dc9ae7d-d5c4caf8a2ee.txt
   - ref: refs/heads/queue/6.16
-    old: 2b6b11bf43dbc42335cd682e83226f0a505f56dd
-    new: a3dbba423a5fd401198aef4a0ef579f3b511d30c
-    log: revlist-2b6b11bf43db-a3dbba423a5f.txt
+    old: a3dbba423a5fd401198aef4a0ef579f3b511d30c
+    new: 228386b125872c5106ac3456fbdef13cd55b83f7
+    log: revlist-a3dbba423a5f-228386b12587.txt
   - ref: refs/heads/queue/6.17
-    old: fa823392a90dc688f5d573a00f3444c2401cb0e1
-    new: 0b8f7c608db1282ade020909212b2f7748936203
-    log: revlist-fa823392a90d-0b8f7c608db1.txt
+    old: 0b8f7c608db1282ade020909212b2f7748936203
+    new: 2e315635bd3d7ce44280dc1b6a72c0218233c16f
+    log: revlist-0b8f7c608db1-2e315635bd3d.txt
   - ref: refs/heads/queue/6.6
-    old: 3f902ed0a06dd9ac7e3511e677a9c5872fcf5ba3
-    new: afabc95ca0dd3e00d7122bb6e14dd33fa6d4e05f
-    log: revlist-3f902ed0a06d-afabc95ca0dd.txt
+    old: afabc95ca0dd3e00d7122bb6e14dd33fa6d4e05f
+    new: 064b5beddee42921bab28db69600dc664a7aca5f
+    log: revlist-afabc95ca0dd-064b5beddee4.txt
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c06f6e1dc6c-b437f0ad8364.txt
+Content-Disposition: attachment; filename=revlist-b437f0ad8364-0df9fb7df22e.txt
 
-2567cb4aa465573128d090303a169c4c05659a97 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-40f92012fb5858a1f1da44f55f8b97ac1861b4c3 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-22db2012066df25f0e2a0cc1cf02b8323b3b2a55 media: rc: fix races with imon_disconnect()
-96ab78d81287c86b5bfd2f6a19528a6484d29862 udp: Fix memory accounting leak.
-5e1354f8e8538eb8f5a75f46f63a6c4285b2f9c8 media: tunner: xc5000: Refactor firmware load
-30dc6d498a230b0e6a8820850c79e30b382152a9 media: tuner: xc5000: Fix use-after-free in xc5000_release
-a8570c1ee5a9cd0c29f777f608483adbf87a0b2b media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-512fcb510ef8310f0b2dbd670673c4d196d992ba USB: serial: option: add SIMCom 8230C compositions
-89b1585aaabfd6de165be52e1a478b3ed153f669 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-2b133f7c1693d9d5cb3f9e7ed9c8b451765d047e dm-integrity: limit MAX_TAG_SIZE to 255
-1cbda220696d1b68c421197c70ad53b1243d6f1c perf subcmd: avoid crash in exclude_cmds when excludes is empty
-8cc93c23c1fc713f97955982697ae1ee7b647667 hid: fix I2C read buffer overflow in raw_event() for mcp2221
-31ec3e03b6602c95f39950f55b9f425638df137c serial: stm32: allow selecting console when the driver is module
-5f93a8f8230d37be537b0350de9f0e906bffeea4 staging: axis-fifo: fix maximum TX packet length check
-75b64a78e97dc6d66d1b33f93aebf116a1ce4a7b staging: axis-fifo: flush RX FIFO on read errors
-811c492fb8ccc303a4bc7f3d974a4d5d7ca430b5 driver core/PM: Set power.no_callbacks along with power.no_pm
-0838442a9b0424401bc25da6f427c6ebbbb40eba drm/amd/display: Remove redundant safeguards for dmub-srv destroy()
-e359f59dc2a12084f29d55f5feb227ac56277fbb drm/amd/display: Fix potential null dereference
-b437f0ad8364ef5774df24d862d9822585064c50 crypto: rng - Ensure set_ent is always present
+e97ed0e558624ef4d730dbbdda46ba372bfaf130 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+922655617ed8026f9e2092b1b78559980fef9f17 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+19b487d35e6a26591c31c0a1dc329c7c9c3c236a media: rc: fix races with imon_disconnect()
+273f7ee5fc5bca2852998c9c0840ebb6ab7f3137 udp: Fix memory accounting leak.
+b242f180fbba9e942a2e1a0ccc3d8a167b030992 media: tunner: xc5000: Refactor firmware load
+8a952fe12952307932216ea33b3f3f0d2c57189e media: tuner: xc5000: Fix use-after-free in xc5000_release
+c9896bf2a5051941c68537265bae37805c3e8339 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+2bc8ed9c703416dcd1543c0fa6948b30a0ccc6a4 USB: serial: option: add SIMCom 8230C compositions
+8c6f6374cdecba1bfcf9ff54657090683f829bd1 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+f9975c139a5eecfa1ad9f6231324a358cdc05fb9 dm-integrity: limit MAX_TAG_SIZE to 255
+2441abcdc6ff5417ec680c19daaa91f843b178a2 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+ec3cb47723519d4967602df56105ab5cb9dfe2b3 hid: fix I2C read buffer overflow in raw_event() for mcp2221
+3981f671fbc6cd368361608521ed02e17522cbdc serial: stm32: allow selecting console when the driver is module
+dbb6c44267edce573f522b5d1f7cc40ca9012850 staging: axis-fifo: fix maximum TX packet length check
+b08a2d555a59fb01a84eac3a4224f7ab4118fbe2 staging: axis-fifo: flush RX FIFO on read errors
+1b0dfb798df8132723913832fb95968c35656a3f driver core/PM: Set power.no_callbacks along with power.no_pm
+f2bfd16a5c7fd88873ab576030cbc22fae8ff353 drm/amd/display: Remove redundant safeguards for dmub-srv destroy()
+f4d16070d272f016237cf5549c3978b493a75fdd drm/amd/display: Fix potential null dereference
+0df9fb7df22e872eaed5edd6c0d415e40d4d721f crypto: rng - Ensure set_ent is always present
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26b3fbac2ecc-a1a2869783ed.txt
+Content-Disposition: attachment; filename=revlist-a1a2869783ed-fbb1926370ee.txt
 
-0bc15ef959af4ca5ebf681433e3e35451c91aab9 iommu/amd: Add map/unmap_pages() iommu_domain_ops callback support
-ebff6d993fa8317dd38b9ad8f6266dab13ef8c72 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-0176ca857d5c37153953d4e1c578c3cdbbb8045e media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-eba7b0b71c08928aca986da91cbca3724a30cb93 media: rc: fix races with imon_disconnect()
-7b9dac1222f4f334dcf5b8858163d72099e70f31 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-d625a8c3cfa8cf9a2dbaf2299c6e2e08ac151bd4 KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
-263d05dadd20cdd919e1fb326b1fbe813ec9af9c udp: Fix memory accounting leak.
-ae5d4aeb59198851921bbd28fbfad683498477a3 media: tunner: xc5000: Refactor firmware load
-6edb9c75fb2e91888a878c79e5c2a07c8cccec11 media: tuner: xc5000: Fix use-after-free in xc5000_release
-b55fa7c28e0bbc8a37d5283c25de3bda16544814 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-632c330164dc7eec0d80eae249ea63e654953173 USB: serial: option: add SIMCom 8230C compositions
-59c5714454de79921b078ae799e7e15b157dc9b9 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-f7e044793b51d16edb3c4441e56cb98b377876f2 dm-integrity: limit MAX_TAG_SIZE to 255
-6c25bbf0054333d1cbb94d852181dac0def8dbee perf subcmd: avoid crash in exclude_cmds when excludes is empty
-a61cca4a6f1068d66e6ec7592ca73d993331b46c hid: fix I2C read buffer overflow in raw_event() for mcp2221
-44977bbaca7bfdb1bd659b78af5ef283eeaffd2a serial: stm32: allow selecting console when the driver is module
-a867f6ea70b709cd1ce5f1d4073b655c3ecee886 staging: axis-fifo: fix maximum TX packet length check
-f403f64d69bcb52bd472e17f8f2f05c5cd35efb0 staging: axis-fifo: flush RX FIFO on read errors
-38fc5101be7dbbfee82456ce232518f4aac9dec1 driver core/PM: Set power.no_callbacks along with power.no_pm
-4b292f64a6a4f4dc0b182810ca4e922283758dbe platform/x86: int3472: Check for adev == NULL
-56dace5441c657f5a1fe10a971c9ee17646ca32c crypto: rng - Ensure set_ent is always present
-d0b2125e6884c97348f13b49d3c8ca4aad5478ce minmax: add in_range() macro
-a1a2869783ed8f28641b9e52cc69a4e2752ca5a9 net/9p: fix double req put in p9_fd_cancelled
+8060650ef812d804cd68ca55b535fe77699eb7e1 iommu/amd: Add map/unmap_pages() iommu_domain_ops callback support
+13511fe2ae58d5743618354464fba4a74f7f7843 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+8c009868f212364a7960a4447c0aeb804d64f496 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+e014bf8e969fd0bd37e0f0ffbdeb44bc6e3514f8 media: rc: fix races with imon_disconnect()
+52834f669d67e567ae4e08446309b91c231794ea media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+d929568913353521fb688ab9dc9ad0e489dcc38f KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
+92e9205a459b97c6a0ccd83a3e0ca790ada2b5e7 udp: Fix memory accounting leak.
+57a29c14b67a67478c9e8b7e78608cba9c35f68f media: tunner: xc5000: Refactor firmware load
+c1b9e6f8694347f25c04fb9b104bcf29344bfe96 media: tuner: xc5000: Fix use-after-free in xc5000_release
+cac96fc677d60c95f8bec24ece8061b35b1702c0 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+71ea8d1b901f8647abf5c35381df7b74bfa9ec07 USB: serial: option: add SIMCom 8230C compositions
+ee00d78e0431daad01a44386baf907c4d2166427 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+1ab60189ba12645b6fcccf55f76d9df36eb40d05 dm-integrity: limit MAX_TAG_SIZE to 255
+f67a9a213fc7fb9f5fdde0922ddebf905bdc7830 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+568785597d75219102f18507c0048241e5008b5c hid: fix I2C read buffer overflow in raw_event() for mcp2221
+3a7ebcf94f07b49039a525bc37b7562fb471ac2c serial: stm32: allow selecting console when the driver is module
+9617ee14585849367dfe9723892eb3b3c6896ed8 staging: axis-fifo: fix maximum TX packet length check
+e2a8ad133c66ae7ad83f6baca6e6d6c39ac6bba6 staging: axis-fifo: flush RX FIFO on read errors
+7eade9dd6264950d8d1144265c84d29f41ce9fd7 driver core/PM: Set power.no_callbacks along with power.no_pm
+aaa1bfbe742855cbee9eeb8cfd441fc61cddbe0e platform/x86: int3472: Check for adev == NULL
+409235e33e95671e5a0815dec7ae181e463a41b2 crypto: rng - Ensure set_ent is always present
+4f38d206789b44abf159673a11446f1595a4cec6 minmax: add in_range() macro
+fbb1926370ee1119f36d03d5455d11fb14bfe6c0 net/9p: fix double req put in p9_fd_cancelled
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7d5fdf8823d-052f6141b31e.txt
+Content-Disposition: attachment; filename=revlist-052f6141b31e-aede6be8cb77.txt
 
-9e51390ea7fc949a6ad41e684dc6011c7c38b754 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-5017c3053729b9aed06ec5fa64d08c8e0d0f483c media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-f5d850b2c43a3a1317b4602d7c44df85a0ccbe2e udp: Fix memory accounting leak.
-240cf9bf8db97dc5c468be1ef2d3fcdd8e8f5101 media: tunner: xc5000: Refactor firmware load
-5904b9d2c50fc6944660f8a1186ade7629b90929 media: tuner: xc5000: Fix use-after-free in xc5000_release
-dca45580496cacc9474fc5d1b56964c931344a56 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-ecaae52bc6b6402c247a35ff4acf0a1701a16973 media: rc: Add support for another iMON 0xffdc device
-d1fe37ac262f8b004be735b08d702924b213a832 media: imon: reorganize serialization
-658120de93bc0272bc664829df1738e174224880 media: imon: grab lock earlier in imon_ir_change_protocol()
-8f9f426f248365ad211d1033ad4d07c0d22b5645 media: rc: fix races with imon_disconnect()
-c618ce9700c9d0ce788fd940382d68b2dbd84f59 USB: serial: option: add SIMCom 8230C compositions
-35367b8ddfdb5e33af923fef9356f27a2da1ba35 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-d12b12eb1fc18d964d4c905c8710a658a884b7c5 dm-integrity: limit MAX_TAG_SIZE to 255
-1db6621de8e41e13e97997eb21e68954577c6e91 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-7b6ac8ca2114e5ec89e0499402165bfc07d408e2 staging: axis-fifo: fix maximum TX packet length check
-d883017e10923280264e7396aec0343d7dc91aa7 staging: axis-fifo: flush RX FIFO on read errors
-052f6141b31ef1e636079f6242534f29fa4820e0 driver core/PM: Set power.no_callbacks along with power.no_pm
+bf59bc802267d2013f7df992581005c19a4d20b8 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+8c30b09a0a09d5d11e135268f60ac855284f34bf media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+55860a2358d68f686e4a32d6e18cb21b6643a81f udp: Fix memory accounting leak.
+0c4e8b6258ab9edcff4735730cdba30190756b1d media: tunner: xc5000: Refactor firmware load
+ecae7ca2e9651b1286c9ab284a86999bbc891d25 media: tuner: xc5000: Fix use-after-free in xc5000_release
+c318e96cb1e57f3f2437983463c8381bc7bc1e42 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+4b94b4941f3002d22d9882795cf7c4c0f4b4c5c8 media: rc: Add support for another iMON 0xffdc device
+76d39a26b55eac9394bc2f563f11d424d313a034 media: imon: reorganize serialization
+c3d10007a4cd0d5689107116b17e13a3e0578495 media: imon: grab lock earlier in imon_ir_change_protocol()
+8b63d2fa6be162d504710e7444ac808a467c8a35 media: rc: fix races with imon_disconnect()
+287ab7e4bf58f1004600a9eec84da440fc9f1767 USB: serial: option: add SIMCom 8230C compositions
+51015c42236e832700235dea9b4b46b8c8a4334c wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+71aa786ec7035dda18d34e759233c5cea8b4c962 dm-integrity: limit MAX_TAG_SIZE to 255
+96c9ef99b7fcb4752024e4e13ba742ebae3424ba perf subcmd: avoid crash in exclude_cmds when excludes is empty
+6636d280c417d2b7b5608fdd1028687abd941889 staging: axis-fifo: fix maximum TX packet length check
+9c582f9f40ef05eb0c9f62c6f47e1fe36246bc86 staging: axis-fifo: flush RX FIFO on read errors
+aede6be8cb77d74d796bfb7812e4b619e74b4d0a driver core/PM: Set power.no_callbacks along with power.no_pm
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c77da73aa952-ae8cf7beb893.txt
+Content-Disposition: attachment; filename=revlist-ae8cf7beb893-8dc5faec86b2.txt
 
-42e185e9bae2f60d0610e999ffaea30d36f69af2 crypto: sha256 - fix crash at kexec
-051cb141756a64b1bd1b1e2365095788c9fcdc17 selftests: mptcp: connect: fix build regression caused by backport
-a38d59266ed676c665954a087285b90ffeeb50d8 cacheinfo: Use RISC-V's init_cache_level() as generic OF implementation
-08b1617c8af31529a873f1eeac20f74ad15873a9 cacheinfo: Return error code in init_of_cache_level()
-342ee45a6c699d813adc22475b4900b4378d34f7 cacheinfo: Check 'cache-unified' property to count cache leaves
-ada7885c2773b676b2e142f471b153eadcbab65c ACPI: PPTT: Remove acpi_find_cache_levels()
-3bb8e33f622c5d7f84025ce68e8b6b4ad513a4f1 ACPI: PPTT: Update acpi_find_last_cache_level() to acpi_get_cache_info()
-515f09bf4993cc1cbe533343d4ed2a3d6dc56482 arch_topology: Build cacheinfo from primary CPU
-82a68eb3187602c9f6e1c40ab97a3d1bebb87584 gcc-plugins: Remove TODO_verify_il for GCC >= 16
-7ff53eceb4431c0586db796b30a0820eef6bf073 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-4325058193fba7d1c438798dd78821ff732e540e media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-140026ea6d4c9b568ebc20b2aff8b94b7524a19e media: rc: fix races with imon_disconnect()
-368df1b97bfb9ffb21969a2330a826dd3aaec501 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-37ad59898287663a8471b29e607930791ee9bc19 ASoC: qcom: audioreach: fix potential null pointer dereference
-1325ccb9f4a2172da4886aa4f0744014217c0486 KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
-b6b3803d5239a9a57e93f13b71523bcbb57f8496 media: tunner: xc5000: Refactor firmware load
-52a637c06a0c461e42f3d30a331f585e021b0cb3 media: tuner: xc5000: Fix use-after-free in xc5000_release
-98d43ef06440b348ef697bee81096684dddd9fcd media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-5527592036ecb07003bce89592e87d327b01bc29 minmax: don't use max() in situations that want a C constant expression
-b14513a96d13ad28cc822a4a4a5ba73d172beff2 minmax: simplify min()/max()/clamp() implementation
-7695d0721c9fa807fe1c33ffc6bd446058b51ae6 minmax: improve macro expansion and type checking
-8be5bf094f9c5f2cca9baa311f73d8a3f1d1d260 minmax: fix up min3() and max3() too
-69d2758afc8eff83ca07982ecab1608c931229a7 minmax.h: add whitespace around operators and after commas
-1d73113133cc2930f65e246b963f19170b9a61b4 minmax.h: update some comments
-9e9317ed4a6660fd3b51b996f1c3970121499ec5 minmax.h: reduce the #define expansion of min(), max() and clamp()
-cea468d87729157961746da2e750070658897642 minmax.h: use BUILD_BUG_ON_MSG() for the lo < hi test in clamp()
-cc8c2f2d1b81b81d5892c7636f02577b94f1b550 minmax.h: move all the clamp() definitions after the min/max() ones
-1042a10ed57deb0b32355582a2f54f0a84a9d421 minmax.h: simplify the variants of clamp()
-53b7b8c36927f52b75aca306e7509f6e6e0c4429 minmax.h: remove some #defines that are only expanded once
-73879e560fa16cd8cdc63be6556d9afc84fa98ec USB: serial: option: add SIMCom 8230C compositions
-e98e3194dbe782d8efc7a89add2e56efd56ea1e1 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-9716854ccce755bc91b6c433701da81b45c60d6b dm-integrity: limit MAX_TAG_SIZE to 255
-21e9a6d8f51bf88241bcda0049df9d4743a32c29 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-f6f30a8bb4fb591b376951e84db7836725dc3c35 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
-14db423411c4de654dc3b3708247e2e9c0929785 btrfs: ref-verify: handle damaged extent root tree
-b64371978e5ef64cf78e7b64f9fc6e7d300e5694 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
-1dd69cea9aec43ce2aab44514f400ef60f57b28d can: rcar_canfd: Fix controller mode setting
-f1d6b854e0bee50c6257cb4b02716f3ead91f33b hid: fix I2C read buffer overflow in raw_event() for mcp2221
-962c7f63276a24813c6fd3c20ac307140a45fce3 serial: stm32: allow selecting console when the driver is module
-022ca759bc49e1c0831c652dfb42072509408427 staging: axis-fifo: fix maximum TX packet length check
-12be430de4f8ce9ee2615295d7299a93616a7b09 staging: axis-fifo: fix TX handling on copy_from_user() failure
-7e2e465da1e59aa777e1244b071454d32086f58c staging: axis-fifo: flush RX FIFO on read errors
-51ef65a22a6cfacbe111c11c9d6c3436745a5c1d driver core/PM: Set power.no_callbacks along with power.no_pm
-a7aec5e7d998c82c892d14aca34a3e8163d83c18 crypto: rng - Ensure set_ent is always present
-ae8cf7beb893a814d3a44f5f1f40ae103d920899 net/9p: fix double req put in p9_fd_cancelled
+1550ec1f494c4f225ab389dd247e719c76d7b8fb crypto: sha256 - fix crash at kexec
+736ba809b52de97fb448a6ab47ecde245243d702 selftests: mptcp: connect: fix build regression caused by backport
+c7204342198fcbbdc887fec0d08c2c7b9fbda491 cacheinfo: Use RISC-V's init_cache_level() as generic OF implementation
+5ffd61ae713852ea09096e9648bc8b2117bc87ab cacheinfo: Return error code in init_of_cache_level()
+5b69cd553e9e5ac1a1469bb77a0b02ed6b91f0f7 cacheinfo: Check 'cache-unified' property to count cache leaves
+60f4a412f3906e893cb2d71f7760f0bd13717d07 ACPI: PPTT: Remove acpi_find_cache_levels()
+300c29ce7fb9e69902ec222fa38dc1be76f0ff87 ACPI: PPTT: Update acpi_find_last_cache_level() to acpi_get_cache_info()
+e84f11a4ee325108f1585be84e51db1445530fbe arch_topology: Build cacheinfo from primary CPU
+a017a6ecb956b06032ebc380971073494e7474d8 gcc-plugins: Remove TODO_verify_il for GCC >= 16
+a331347be0a23f6f104e5cd9073f7b518d5ab78c scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+f295d1ca4e8bef3158711897b5bc045f1e47ba41 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+82dad7a265c65c3722e130383524c3ea7ca9e640 media: rc: fix races with imon_disconnect()
+edf7ab1dfc6503960d55032b6e8111500c52c48a media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+4902460b38ee99038f5dc7c1a4b432272f0de67c ASoC: qcom: audioreach: fix potential null pointer dereference
+bb16058e4d2f7ff822f7cc25fc873728dc7df9c7 KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
+d643ef04eee47a0260edd6fd796649428d827d33 media: tunner: xc5000: Refactor firmware load
+97de605ca11f54daa833b9c8b46edb6a92d4719a media: tuner: xc5000: Fix use-after-free in xc5000_release
+8827fbed279cd5cdd48795546b22b199ee05bd92 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+dd22e3e8148d7d58dcec01f318a03e21e9a1255a minmax: don't use max() in situations that want a C constant expression
+1936ea0ca08ba7cac49e199c1bd0cb571607c211 minmax: simplify min()/max()/clamp() implementation
+2fb186e6427af9892888576c9eb5d2389942b8f2 minmax: improve macro expansion and type checking
+0dcc87fa1a79290e173cf2520a4e723707bfadcd minmax: fix up min3() and max3() too
+addbcff9e005e97c73bd2dec73e74605ed669ac7 minmax.h: add whitespace around operators and after commas
+3b54bdf2dca84f0de83b0a3bcda7353723da64ad minmax.h: update some comments
+38a3fa768396753b156d32d51c10893847d11733 minmax.h: reduce the #define expansion of min(), max() and clamp()
+f04145464f544bc62bdbb5a77d60ac23a74161e5 minmax.h: use BUILD_BUG_ON_MSG() for the lo < hi test in clamp()
+37aeed43ebaf28cb7ba8729dff66b3f07e201abe minmax.h: move all the clamp() definitions after the min/max() ones
+006854267188da55dc6f0e09a0005157bdfd6a22 minmax.h: simplify the variants of clamp()
+1852a5f050e4c2febc63a04a8a5283bf9ce79a38 minmax.h: remove some #defines that are only expanded once
+b669699030762e0a033a4c4ece9e716f558b9807 USB: serial: option: add SIMCom 8230C compositions
+74eaf7f288a39a70ed4108a9beb21bd76eb53eb8 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+d16e6ed4f655f349cdf53c5b8e47ab3a451803fd dm-integrity: limit MAX_TAG_SIZE to 255
+83183fd16b2ad7af864fdbd2c42d2d3a0caee38c perf subcmd: avoid crash in exclude_cmds when excludes is empty
+6d2bf1efa366de60a1215dc78b5c2d426e4969f9 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+50cffdc5156b0f15561ce580d97a95edc7ab7220 btrfs: ref-verify: handle damaged extent root tree
+07d1eba07ae686e0ab6846ddc70c4dad5c7664ba can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+72c451519abaa9a796e43f6b4408aa3beadec917 can: rcar_canfd: Fix controller mode setting
+046a9ee67ddc26fc5635648cd74f7c40e7916d34 hid: fix I2C read buffer overflow in raw_event() for mcp2221
+77b4e72afb3ef084fbe7d1362a9717ae55162165 serial: stm32: allow selecting console when the driver is module
+86bf335f39d4d00e3ae1c33ad56a641a3b509842 staging: axis-fifo: fix maximum TX packet length check
+76e921b1e624d41e70f2c4da3c79a9bd31fb41d7 staging: axis-fifo: fix TX handling on copy_from_user() failure
+b28e96ec70e893bd054f2740114f1caf9f3c8f1d staging: axis-fifo: flush RX FIFO on read errors
+43526c991954e4a56e0c0e2f62ff92d3c964800f driver core/PM: Set power.no_callbacks along with power.no_pm
+9ee05e2c5ae1e542e8222f22f7c802a98013be48 crypto: rng - Ensure set_ent is always present
+8dc5faec86b20606896b3f87ec566822f4a01bf4 net/9p: fix double req put in p9_fd_cancelled
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc4431b65623-fa6d8dc9ae7d.txt
+Content-Disposition: attachment; filename=revlist-fa6d8dc9ae7d-d5c4caf8a2ee.txt
 
-887e7739896ca81677b8105a14cffed9f4348c2d wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
-487e6debb6d1db75ee6d35f5e222e3b7eb07e0f6 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-bc59b181fedaef8b5804bee95826c7ba703f665a USB: serial: option: add SIMCom 8230C compositions
-1f141395f8b389427041f1573a34863bec93ff35 Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
-78ea52cec2ec6289e7b2707e8831a0146fa0b256 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-bca8b2c249500e4afc7886997d20bea6e424bab4 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
-04a5e8547d9be43f33dd111c387f98882f241fed rust: block: fix `srctree/` links
-e8bedfe7b59cddc395de885401ca082aef193600 ASoC: amd: acp: Adjust pdm gain value
-fe8cc5c5b075662c02cd60e4706872b4e1cd7309 dm-integrity: limit MAX_TAG_SIZE to 255
-187d20f2f12a75a378adeda46962bc47f00b5b24 platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
-08c53c4a7f5f054aeabbfa2adae1a27a58583e90 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-0d4666e7d8a4d8172e31a5bc54c3fe5726ea1365 platform/x86/amd/pmf: Support new ACPI ID AMDI0108
-314c6f5a7f51327eba04afbf6fbc4cf76d268892 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
-3f6dcc592feaea8f97af4cad08caa7e914662b10 btrfs: ref-verify: handle damaged extent root tree
-4a47be9afd60cb05527b783a3abd296fc24027fa netfs: Prevent duplicate unlocking
-16412a1b4c65911ee6168dad10d91f4850e32d7f can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
-238dec3f1a94a601cd469a22e73807cc97215435 can: rcar_canfd: Fix controller mode setting
-3eea84a571e310ba2b4a18994bfd56c13c861fb0 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
-49c437aa85dcac3db38794e06aaec1e235091610 drm/amd : Update MES API header file for v11 & v12
-df33f01020d78958eb255b2f1691514f3ccb6f87 drm/amd/include : MES v11 and v12 API header update
-cf8436e4f9d3f01a6b03370baf8141436b046e55 drm/amd/include : Update MES v12 API for fence update
-a89a087381ed891e0eafd23260298168b73b486f drm/amdgpu: Enable MES lr_compute_wa by default
-bfe82adf2fdfc66e3f2ea2219a427a6c467a9934 ALSA: usb-audio: Kill timer properly at removal
-fe5574307f94ec3f2a88c13f63ad88d0ca40b4a3 ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
-8a257fd16d5ddd1242b043cb0b3cb6210c56891c hid: fix I2C read buffer overflow in raw_event() for mcp2221
-6cd97c4db58ce6deba26a79fe2fcfd6e22a93f06 nvmem: layouts: fix automatic module loading
-413d776d4448c58716d707751dc73133a56a2bb0 binder: fix double-free in dbitmap
-033b3287b2d738214190ec6299548552f64a47fb serial: stm32: allow selecting console when the driver is module
-bfd8c9475471ee5b954c6ec00547ec1a4be30b2b staging: axis-fifo: fix maximum TX packet length check
-c88c486ba4f10e172fefafea2e6584f6239c24f1 staging: axis-fifo: fix TX handling on copy_from_user() failure
-7d3adeb1fc1087cebbbb381064edb42ea413c2f8 staging: axis-fifo: flush RX FIFO on read errors
-1bfc2c3d681985a9127b65411bae158ae6805714 driver core/PM: Set power.no_callbacks along with power.no_pm
-ec63067f34cec9e80b1a3225fed239d45f1c75eb crypto: rng - Ensure set_ent is always present
-e3ecf54f34edf31e073173258600e1f0fd1e577c net/9p: fix double req put in p9_fd_cancelled
-bd2091c79dec9371ba94d52e9b3f68c440a16db0 KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
-fa6d8dc9ae7df5866af665d9e202f8ad471db91e ring buffer: Propagate __rb_map_vma return value to caller
+04579bfaba93f07d21b8b3dfa65ccfeb67ed099e wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
+4817bfbead69f04555bc371816d58586b3245c09 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+a401bc687c4118fd59bbf1c67761177909cf2ae7 USB: serial: option: add SIMCom 8230C compositions
+99753616c052367b991e6dc73ad30bef4491f3af Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
+e8919475c86d1293e3222a9364920a6eb0f3d002 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+e48d7825ea56325f1e4d99d054de792663e253c3 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
+e8eaa750116e39f75fac51702b7c384dba9ac2fb rust: block: fix `srctree/` links
+e01640aeca38b578a673f41dd67b7384805aec9e ASoC: amd: acp: Adjust pdm gain value
+52e366d87c0c1892a2464818dcac5072c983ae65 dm-integrity: limit MAX_TAG_SIZE to 255
+c9891384d35e26d6bb5e7319d3edf8806aab3a6d platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
+56cd9a763872db475324ab5ffb69bb2c4e4ccd1d perf subcmd: avoid crash in exclude_cmds when excludes is empty
+d5695b4c2bc3e04cc6b0b0537dd1af9456a33c65 platform/x86/amd/pmf: Support new ACPI ID AMDI0108
+0d32d3c54b420da2f2fe56b977aab80648016dde ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+4b76e2b570cb65dbe6e2d65e4193b77ab0e78132 btrfs: ref-verify: handle damaged extent root tree
+bec873107c157d7fc90efdb3f8dd2534d6df82c7 netfs: Prevent duplicate unlocking
+e3d9f68e67fd29db9b27e24848e4c2382f77dda5 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+acd6710450df66980e695db1aac2c941679c218c can: rcar_canfd: Fix controller mode setting
+9d968db15586bfc318ac39cf41e00960729e8594 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
+bc3df9e8100ced4958d4e1db8ac38a839f24537e drm/amd : Update MES API header file for v11 & v12
+8123bec0d0ad7cc6e9a01c97f309d7396de86445 drm/amd/include : MES v11 and v12 API header update
+00721c362765c58c6d066a8ae457b1ba795f7215 drm/amd/include : Update MES v12 API for fence update
+761b1bf15f189ad6f9aac4ec84167e9900815f77 drm/amdgpu: Enable MES lr_compute_wa by default
+baaebb01a7b07a5c77b957f932e8fd4049f0c138 ALSA: usb-audio: Kill timer properly at removal
+c52a0778d9f02e88d0930d918ffcbd078ddd8742 ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
+04224618f6c50216f1f9529d909f5fd5e3f35f80 hid: fix I2C read buffer overflow in raw_event() for mcp2221
+651564b0f115bc43bff94ad075afa557c9c248ff nvmem: layouts: fix automatic module loading
+635d850690acb4cc980e13b490ba3b7f06253a99 binder: fix double-free in dbitmap
+c326d2d15743eb09b112fa022b88d7b4f0b7e761 serial: stm32: allow selecting console when the driver is module
+22dc09350ed434e3273a3c661788fe7bc87345c9 staging: axis-fifo: fix maximum TX packet length check
+d6c61c9dc32e3ef6f553bca42d27c62365161bc5 staging: axis-fifo: fix TX handling on copy_from_user() failure
+80252394d48dbe4d76eea1144b8be255464ba50c staging: axis-fifo: flush RX FIFO on read errors
+24925e314947e20393ba50cee009425973e01101 driver core/PM: Set power.no_callbacks along with power.no_pm
+5e51524169ed47cf69eda1f6419c8a4e0d98df0b crypto: rng - Ensure set_ent is always present
+3d69911990af5e8420c9f0a7b5a7d4456cd1c730 net/9p: fix double req put in p9_fd_cancelled
+aaf491797fcdc60a3f21eb1a4c22aba076c6bc25 KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
+d5c4caf8a2eeb4a4882eb360954ba4382ae6eecc ring buffer: Propagate __rb_map_vma return value to caller
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b6b11bf43db-a3dbba423a5f.txt
+Content-Disposition: attachment; filename=revlist-a3dbba423a5f-228386b12587.txt
 
-9ee66e22e0bc873c5fcb70fb2db4c5fa782d22db ALSA: hda/tas2781: Fix the order of TAS2781 calibrated-data
-d4e06be707d1c52d8227f036883131019cc45c2e drm/amdgpu: Enable MES lr_compute_wa by default
-2c1f374a3851cbde91a711dc45cb5c4adf1beba2 wifi: rtw89: mcc: stop TX during MCC prepare
-87ea4592b0865b9c2704bd069f7e0a3ae9ca2685 wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
-5ec7cd3b8bad3756baf5dba30edcd7c6587ea6c1 USB: serial: option: add SIMCom 8230C compositions
-6c54f6c391d8052f1de63919f59c078fd483d185 Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
-3bd46c5c83da51822b27b201c92f8b78a35b465a wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-64c471ac1151f361b0782cc9ceed6601ca4d3295 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
-422ad7c82435fbd6ec2d3c56d1a009d80e5cfb06 rust: drm: fix `srctree/` links
-8b301206c223ba0d74b1f892b683b59f22f6acf6 rust: block: fix `srctree/` links
-4c660b8bea390d65bb109026fbe9cfd4d40f868b rust: pci: fix incorrect platform reference in PCI driver probe doc comment
-49f17f997e38d285b63188eb25db3a3b1b8dcd99 gpiolib: acpi: Ignore touchpad wakeup on GPD G1619-05
-4b47059c6852326cc1fe54ae7fdce8d4c6ddd680 ASoC: rt712: avoid skipping the blind write
-0b87365f3c59a0d06d3578194169101a326cbc04 ASoC: amd: acp: Adjust pdm gain value
-652762b86587fc15b7390a454ea765272dadd159 dm-integrity: limit MAX_TAG_SIZE to 255
-d702efd97c740e80620ede7d8452cbaf6a817ecf platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
-dff89dfe9ba5bc7fd58d90722429b5a9009c534c platform/x86: oxpec: Add support for OneXPlayer X1Pro EVA-02
-105fde2c8dd14a524e372bd5bc9df4713ac9fa46 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-1d5aa764b72255d15556fa6b0cc69f4df353b289 drm/amdgpu/gfx11: Add Cleaner Shader Support for GFX11.0.1/11.0.4 GPUs
-78ac5019152ed930dd8b3236889075bf9997af8b platform/x86/amd/pmf: Support new ACPI ID AMDI0108
-3c7352044b400a84569df0c099a0dd569771d5f0 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
-873d983787ae210d9e811b5a48693baf42207432 btrfs: ref-verify: handle damaged extent root tree
-26d24b3819b95a0a3670eeb488f0c96826e23359 netfs: Prevent duplicate unlocking
-7b4a6f6e72b2bb83550acae2d6eca404d64adaad iommufd: WARN if an object is aborted with an elevated refcount
-ba47284ad4436f4d5d5f7f4c3c48e063cf7da556 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
-ee60a389496e260c97e13db63725bd38e7c37e23 can: rcar_canfd: Fix controller mode setting
-1112a5f475303d78a7bc13d0814515bb21575404 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
-6417bebc3dab965c7f5f74217e2d8dbc566730f8 hid: fix I2C read buffer overflow in raw_event() for mcp2221
-b977bcc7834f67ddcd9c93bb6dc19526fe86c01b nvmem: layouts: fix automatic module loading
-3d8380f5457b17e6a2ce36957113c60ccc2959e3 drivers/misc/amd-sbi/Kconfig: select REGMAP_I2C
-3da0407aa23f860d010e0f122a7e9578a3b123c8 binder: fix double-free in dbitmap
-3c6ada7920237549ac7cbbb38df85d44980afe12 serial: stm32: allow selecting console when the driver is module
-f7fb1426c20c43114c1e5f7d30899101f8fffbbd staging: axis-fifo: fix maximum TX packet length check
-4b6e4a4d74fa230d709aedb4de216f76e5bba7a9 staging: axis-fifo: fix TX handling on copy_from_user() failure
-92e12496d2dbfe4f4e045fe09dcf94d03e7ce496 staging: axis-fifo: flush RX FIFO on read errors
-3a2ab48687debd5f9bd8e84cf6050f8a03b00d36 driver core: faux: Set power.no_pm for faux devices
-010cd35e308d8fbb1b2cea45e36cc76687da3514 driver core/PM: Set power.no_callbacks along with power.no_pm
-a3dbba423a5fd401198aef4a0ef579f3b511d30c crypto: rng - Ensure set_ent is always present
+50a72484dd771654db560a0090a62fdfedb10482 ALSA: hda/tas2781: Fix the order of TAS2781 calibrated-data
+50f697a8044c269dc44720a5d8d6378ba4c27d9e drm/amdgpu: Enable MES lr_compute_wa by default
+21ee35616f0436e6fa7458c940936bf37d1b96a7 wifi: rtw89: mcc: stop TX during MCC prepare
+389e0bee2d9339ce9f047275be55f8f9cecff53c wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
+9524317084ec145b782d382f702db7ec1e413ac8 USB: serial: option: add SIMCom 8230C compositions
+8efd766d3c52fdd852882a6f9baab6f6c2efa7aa Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
+6f49d9f53d6366893cdb476a70af1f5c3c5e7f21 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+52d51d54e8f80334f8d9d064e7aceda14efe1ce4 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
+7c8bcb8872b13c4c4a898217581b8f1d4c323469 rust: drm: fix `srctree/` links
+f5c5744f9acaf8209560ca78aac4734d1b424934 rust: block: fix `srctree/` links
+11ac5ec9ef00be0a53be1f908186bf53d3870c08 rust: pci: fix incorrect platform reference in PCI driver probe doc comment
+00278f53b78e264aefd5f6d64d51d523ec9a976b gpiolib: acpi: Ignore touchpad wakeup on GPD G1619-05
+e35401eb83c57203dc9f1b9a08b83e117827587f ASoC: rt712: avoid skipping the blind write
+e85c524057076c2039125d6f1c4d75ac4ea86f50 ASoC: amd: acp: Adjust pdm gain value
+3d5feeb6ed3e30b81508b3807995252bab4b9786 dm-integrity: limit MAX_TAG_SIZE to 255
+8c25c8d27608a09930f079b8048e6fbf479331e0 platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
+b64b8aefca1d9806f35159b5409931911a166413 platform/x86: oxpec: Add support for OneXPlayer X1Pro EVA-02
+fc2f7586865e675c6deccc8d728f76ce1f542ddf perf subcmd: avoid crash in exclude_cmds when excludes is empty
+6905e214bd7d51165c95e3e93ab1ee94b7412f2f drm/amdgpu/gfx11: Add Cleaner Shader Support for GFX11.0.1/11.0.4 GPUs
+1319b59234ba97e774be43e132d31e9f820ecd2e platform/x86/amd/pmf: Support new ACPI ID AMDI0108
+070a4e962601e44e8b44280d532d47c28777a6ea ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+c6e5d14f0181581a626d1c29afcfb04bd087fa1e btrfs: ref-verify: handle damaged extent root tree
+f7f303901002fae532b94d7b35bb5601acd4aeeb netfs: Prevent duplicate unlocking
+eb328e06e93dd7e1d9bf4a365e0754d783e371b7 iommufd: WARN if an object is aborted with an elevated refcount
+780a342cb55dd0568cd7cd2bce589d7c64d0a62b can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+4bf018333110cd323e4bb885100e657e227e8fb3 can: rcar_canfd: Fix controller mode setting
+e150de911b67a9fa80d2353dd406a703bdc90ea3 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
+5cef71b08e93278de9e7ea7f868160529f454697 hid: fix I2C read buffer overflow in raw_event() for mcp2221
+ce64d8eb8ff8e03f694cc4c84659fff80b0be6d2 nvmem: layouts: fix automatic module loading
+941c87c84aef13571b13ec89d3017b461b884c5f drivers/misc/amd-sbi/Kconfig: select REGMAP_I2C
+f107e3e7da1f60ffbf27c362ce3b12682bf827ba binder: fix double-free in dbitmap
+06184948fbf9c63e4ee4eb5d6c29b6733e471cd7 serial: stm32: allow selecting console when the driver is module
+b418cc157e3276ab96128ec0b629f741066b7c0f staging: axis-fifo: fix maximum TX packet length check
+a28d9b4984ffa20cdd7ffc6aa519c15187ffa796 staging: axis-fifo: fix TX handling on copy_from_user() failure
+52eb6500e4ce057d4bedafacd4ecd8417bb43220 staging: axis-fifo: flush RX FIFO on read errors
+18bd094bbfa9068b18f30ab3fcfdcf1cdba9f03c driver core: faux: Set power.no_pm for faux devices
+7a729ee8708a9f0f97c82adbd478e4ec228f27c6 driver core/PM: Set power.no_callbacks along with power.no_pm
+aefe919b9327f6613029dec7b862bafe5a65242a crypto: rng - Ensure set_ent is always present
+26fbbafdbc6b70bef3d41a708abedcd9d602ad77 net/9p: fix double req put in p9_fd_cancelled
+a7e502ef0dccfb658c43e0d8e13e66639ad6e0fe KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
+228386b125872c5106ac3456fbdef13cd55b83f7 ring buffer: Propagate __rb_map_vma return value to caller
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa823392a90d-0b8f7c608db1.txt
+Content-Disposition: attachment; filename=revlist-0b8f7c608db1-2e315635bd3d.txt
 
-e46b432dc83483f33f0aaa0b0a7d0025398b02e0 drm/amdgpu: Enable MES lr_compute_wa by default
-a7f82b7b78b5e32feb47b5cdfc2c1419511cd038 USB: serial: option: add SIMCom 8230C compositions
-8f3bb4b0eca09ba0f2d552057c7eb0c1953adb00 Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
-ca29cb55e6ea24d6daee194e0850d7e5ae332f9a wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-a2c8be5cc899342427e7c0ea606f3d8f2b0ab620 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
-f52343f1f53a13797acf403e77e231306a4d44e3 rust: drm: fix `srctree/` links
-5efdb454279a1d6243c5f132e4a42ecf69097880 rust: block: fix `srctree/` links
-0814b37f640930792c3f3fc66c88039ec8ef5955 rust: pci: fix incorrect platform reference in PCI driver probe doc comment
-2bcb241f6344a0375cdeb44d3d6f3507ef124e22 rust: pci: fix incorrect platform reference in PCI driver unbind doc comment
-efe175091cd2d234fbcc867c0045c2e331a9b1a0 serial: qcom-geni: Fix blocked task
-c735d420c75398dc298239a7e1d888363162d3f5 nvmem: layouts: fix automatic module loading
-705f204cb04b82fb6d793d7f2a57ad2abbafe2b7 drivers/misc/amd-sbi/Kconfig: select REGMAP_I2C
-b2987f7a8aaddc789867e62cdab488c4deaf9bb9 binder: fix double-free in dbitmap
-4f1ab9d87ce104d89a7c4831dfbd35f6c54959aa serial: stm32: allow selecting console when the driver is module
-028e3e99e46988f435ac37eb5ed7f8c50b76c330 staging: axis-fifo: fix maximum TX packet length check
-730b588f11da9af8c460edeab571251430afb988 staging: axis-fifo: fix TX handling on copy_from_user() failure
-04ac036e2a864b008f9b196a72a85812bdc4239d staging: axis-fifo: flush RX FIFO on read errors
-9b68a9a26815f23816511c435d134dcc2b37ff21 driver core: faux: Set power.no_pm for faux devices
-a9ea58f6071b494d9bd35a06a5685692ceecc359 driver core/PM: Set power.no_callbacks along with power.no_pm
-73bf6c957a060aecf9ef42bcc08fd62a94f53330 Revert "crypto: testmgr - desupport SHA-1 for FIPS 140"
-30e80088cf2115d2f535f766d273d6f0f00157bb crypto: zstd - Fix compression bug caused by truncation
-0b8f7c608db1282ade020909212b2f7748936203 crypto: rng - Ensure set_ent is always present
+fc655cde29bdc9e8fceb6b2be06273f1ac4796c2 drm/amdgpu: Enable MES lr_compute_wa by default
+9d9158555b257dc8949a1abedf7382064bb2c36f USB: serial: option: add SIMCom 8230C compositions
+5d1c5531940a5925571a935c9e9f110831f6622e Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
+83402c13bfdd54e40eedd29aa7f36795bf43a8cb wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+addcb53ed1dac8a5c3b7bd635f37ddd781b31ed2 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
+294ee7c162f4baef7209827b5c3425a6549f47a2 rust: drm: fix `srctree/` links
+31ce9eecf5f2ee2716910416458954099c27fc00 rust: block: fix `srctree/` links
+e8782f7ac8856d37a4acec296676f73ac0a2b090 rust: pci: fix incorrect platform reference in PCI driver probe doc comment
+1833c163121e3004ae8931ef3751c86300ac30bb rust: pci: fix incorrect platform reference in PCI driver unbind doc comment
+cb8e722d74ff79ba818a88ef360992c40e99f6e2 serial: qcom-geni: Fix blocked task
+249b587174a8092b62017c5fabcdd92b1fd3c2c6 nvmem: layouts: fix automatic module loading
+d9f2de97781ea085fc1d27eb8ca93d6981db29c1 drivers/misc/amd-sbi/Kconfig: select REGMAP_I2C
+2494842785682d3a29da002cb887364564aa6fc0 binder: fix double-free in dbitmap
+e5c54e8806abd7131a6f506c74a84418975cb0c6 serial: stm32: allow selecting console when the driver is module
+479d3542d90c0028f07faa1ed10d986879263db3 staging: axis-fifo: fix maximum TX packet length check
+cc28b521d5c1e05f524b4bf4635b565d86125285 staging: axis-fifo: fix TX handling on copy_from_user() failure
+1d585b1ab07a878dfa07d4290adfe4fcc1a84efd staging: axis-fifo: flush RX FIFO on read errors
+fb24c9f325f01d82e63b57969247ef35802ae852 driver core: faux: Set power.no_pm for faux devices
+6e1844ead4c7f68b2c4bc61aed88ea750d5eb6a5 driver core/PM: Set power.no_callbacks along with power.no_pm
+decf01a468e6009e78ff7ed8e41786a1a3bf49a9 Revert "crypto: testmgr - desupport SHA-1 for FIPS 140"
+0c1be5c5d9745e8dfbace5ace27b094ed622897f crypto: zstd - Fix compression bug caused by truncation
+72af4883803a8b11a58740d18a463b0aae621603 crypto: rng - Ensure set_ent is always present
+c05b8a15ddad8c97b3315afdbd79fede4145d86f net/9p: fix double req put in p9_fd_cancelled
+c50286aff768df3f72e34aa3773c46355072211c KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
+97447c16ce26bf1af1202be0291a00faeae79fce f2fs: fix to do sanity check on node footer for non inode dnode
+2e315635bd3d7ce44280dc1b6a72c0218233c16f ring buffer: Propagate __rb_map_vma return value to caller
 
---===============2984008447751642562==
+--===============6147439078331728454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f902ed0a06d-afabc95ca0dd.txt
+Content-Disposition: attachment; filename=revlist-afabc95ca0dd-064b5beddee4.txt
 
-00c4d2963c4faccfe6f9d4498aaa5f0c8dc9d1f5 KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
-3997289751d6a3ff522e667bc8b3a8223e8fec46 media: tunner: xc5000: Refactor firmware load
-4c89d2ef04ddae930c14d2ede345b5b27fcba735 media: tuner: xc5000: Fix use-after-free in xc5000_release
-075aeec682855efca398e10977e48d886d7aaaa9 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-ff4b7a96f2f9e251a16036f19c3f6e87ee90d7a4 USB: serial: option: add SIMCom 8230C compositions
-2c3374a0e112750f8a76317f52eb68ef8a3a68b5 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-1fc3bedb02002cacf74a6f2128b731b1350eec2c ASoC: amd: acp: Adjust pdm gain value
-7b3556e19909dea0b3e0b7186c26619b084c0fc6 dm-integrity: limit MAX_TAG_SIZE to 255
-06a70355e2a712cc25d26fac9202543764d06fa8 platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
-ac9426fd1f2c501380f046ee56421fd06e0fb5fb perf subcmd: avoid crash in exclude_cmds when excludes is empty
-ae8959c175a98c387b9b81a4634af87c065bed1f ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
-ce6ed841d22ecb1bb247e30e17788bc03416666c btrfs: ref-verify: handle damaged extent root tree
-4c56a13a5bcb149d032e643555638c0d10b22d26 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
-43561382bc97e0ed5f18b006ff4d9fb2e25efbed can: rcar_canfd: Fix controller mode setting
-bcee80afb9808948cb58c709a90b7fef4d241d7e platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
-ba4df49b16b68188d7e68a75914b7b600b83090c ALSA: usb-audio: Kill timer properly at removal
-07e0947a210e4c96754b47fced8def9af45dd2ec ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
-e74b42dc6b56d1e498560f734a52a1a38ee35869 hid: fix I2C read buffer overflow in raw_event() for mcp2221
-124d3d63b7f7c6f155ecfdbc6ccb97268b23876a serial: stm32: allow selecting console when the driver is module
-5e6107cb777878ac69cf654181ae99e259774711 staging: axis-fifo: fix maximum TX packet length check
-c06e82323f2f2284d8030eaa36a25f6ae411e1b7 staging: axis-fifo: fix TX handling on copy_from_user() failure
-6527c4975222016036c995a997b3260bb9c47dad staging: axis-fifo: flush RX FIFO on read errors
-373378f3168e80603b9575d7cd693b2a8bb09efc driver core/PM: Set power.no_callbacks along with power.no_pm
-6e6bc4d2fafd62824c1c281c2fde29e2994da847 riscv: mm: Use hint address in mmap if available
-993a1a7b3311c919428d86afa9ea423ceae4e19a riscv: mm: Do not restrict mmap address based on hint
-56cec411831bb14ce864f9d2ce8d0c576428d44c crypto: rng - Ensure set_ent is always present
-a78f4b447fdaba89135fed7b48f64d2a8093a535 net/9p: fix double req put in p9_fd_cancelled
-afabc95ca0dd3e00d7122bb6e14dd33fa6d4e05f KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
+03f2e374283a882827fa9e4e4568fc4167e5359b KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
+129aed127826d6bb4e455bd297b1d6609c556248 media: tunner: xc5000: Refactor firmware load
+1b5b3d9b1a1723fdb71a5989ffe97020edba340c media: tuner: xc5000: Fix use-after-free in xc5000_release
+2281246be20f48371e27a9818bf5d87270019ed7 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+4bae19a44d134256f95c70b88390ad963e83eabc USB: serial: option: add SIMCom 8230C compositions
+b2e0de739a3dfd46c7a9a4c8a4d51b9a7ca62e3d wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+16fb745699eda581c881a82ba9c22aabf0f51a06 ASoC: amd: acp: Adjust pdm gain value
+39abd282f67644735c45868e98a25e029e2119c2 dm-integrity: limit MAX_TAG_SIZE to 255
+9b580316440c1853f5b17c01d98a135487b81265 platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
+fb7806940ea6b1bf68e068c3c5b863933f1229ba perf subcmd: avoid crash in exclude_cmds when excludes is empty
+127a8f1252ea1c3ee3f145592220126d610fc4e7 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+575bb5c30d7c32df97b3ff8ee4c3cf835c2fec7a btrfs: ref-verify: handle damaged extent root tree
+05ec954ff196ceb82344b2e9eb357fb6c96adab7 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+edb78b7cb694a156ec5b5821fcfc45c7e1bd97b4 can: rcar_canfd: Fix controller mode setting
+36e7a75a48cc1ab2ac66624acb07ef33a38d5cce platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
+f9808e9909e3129d4bc3335ef70bff77bef10ef2 ALSA: usb-audio: Kill timer properly at removal
+08c443db7e9cec6e04b50b1206e23a361b904d30 ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
+96708aa3280759d1d648cbbc20adcb2b0ce5fb54 hid: fix I2C read buffer overflow in raw_event() for mcp2221
+39a2453e9d5bd47df1aa5fb7cbef4cba5cdc2f09 serial: stm32: allow selecting console when the driver is module
+364754722938891ed3d81c75b76a1a6ec8c2de11 staging: axis-fifo: fix maximum TX packet length check
+dbab491bd374e2aca97617e9363943aac036294e staging: axis-fifo: fix TX handling on copy_from_user() failure
+874f4a20ceb77fc2ecabb012142cba4306f2a8c9 staging: axis-fifo: flush RX FIFO on read errors
+6ef73e03f16866c0dfb11862dce1d52254e7f339 driver core/PM: Set power.no_callbacks along with power.no_pm
+cc9bbf8be675ef0e262ae8d51f5278085265ec9f riscv: mm: Use hint address in mmap if available
+104fefb6985414f9e1fda744e100346061718e32 riscv: mm: Do not restrict mmap address based on hint
+563b78ec9354dbd842fffee71870727687144f97 crypto: rng - Ensure set_ent is always present
+97bbe82e5d8573f0a333bb6ebabfcb8644dda3c8 net/9p: fix double req put in p9_fd_cancelled
+064b5beddee42921bab28db69600dc664a7aca5f KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
 
---===============2984008447751642562==--
+--===============6147439078331728454==--
