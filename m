@@ -1,19 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 10 Oct 2025 00:20:16 -0000
-Message-Id: <176005561607.1813991.15406654394258259248@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7677354825466178845=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 10 Oct 2025 00:29:43 -0000
+Message-Id: <176005618346.1820645.5440570763419994544@gitolite.kernel.org>
+
+--===============7677354825466178845==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e264c47ebde5da5dceaa23fe89ec2a5411d0b872
-    new: cbac82efdfb97a1b3c37a7885a6dcea8ef18a7c5
+  - ref: refs/heads/master
+    old: b87af2e0dc6228c52ebd1c9df7b4c13aa4093f05
+    new: f760a0468f91296750af072f7b3aed916f217e77
     log: |
-         cbac82efdfb97a1b3c37a7885a6dcea8ef18a7c5 feat!(tpm2sh): baseline for 0.11
+         a4cd516aace3018517b0602a8b6b49cfee73efe3 b4: support send-email aliases
+         f760a0468f91296750af072f7b3aed916f217e77 Merge patch "b4: support send-email aliases"
          
+
+--===============7677354825466178845==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1760056243 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1760056182-46afe6107b3042965bec1eb03dfdee511d5dc59e
+
+b87af2e0dc6228c52ebd1c9df7b4c13aa4093f05 f760a0468f91296750af072f7b3aed916f217e77 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaOhTswAKCRC2xBzjVmSZ
+bNVXAP4rz/l7Ae14EHzdjZQfonKo1ew9Tiqefb/XyRDuAcnK7gEAo1dWgXcw7Tn0
+QEB97LwnyhJ7UWfTmYCaeRtBj5HvPQs=
+=uBc0
+-----END PGP SIGNATURE-----
+
+--===============7677354825466178845==--
