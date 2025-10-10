@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0114908391949702038=="
+Content-Type: multipart/mixed; boundary="===============5067899060380364748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 10 Oct 2025 09:20:23 -0000
-Message-Id: <176008802381.2272723.3232106220770887743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 10 Oct 2025 09:34:12 -0000
+Message-Id: <176008885239.2282832.3632377712164189185@gitolite.kernel.org>
 
---===============0114908391949702038==
+--===============5067899060380364748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/sheaves-for-all
-    old: 575f4b1ed517f1734ff0d2d8889a16074e297056
-    new: aedcc5042ffc473929d681b9ac1c646861e0763d
+  - ref: refs/heads/master
+    old: 6740649aab3d3a0c772041ae56b857fb648d57be
+    new: 100511180010a0e10147d3f612d7232092a0ff53
     log: |
-         8ee115a6a6f148d19bb5a296226bae33e2028dd8 slab: remove cpu (partial) slabs usage from allocation paths
-         b1e4ac891d6c832b7f205fea147c6e226cc48642 slab: remove SLUB_CPU_PARTIAL
-         78a752b23b17245954b74a4b79e12f1df96d5b31 slab: remove the do_slab_free() fastpath
-         2e93e2fde8129d24313d6776c879262fe45419f4 slab: remove defer_deactivate_slab()
-         6af6f04fd9195b6a07ef95e89810cc0871564893 slab: simplify kmalloc_nolock()
-         c02abdf41a35ac4389e3a9ca744184ee3ad9cb19 slab: remove kmem_cache_cpu
-         aedcc5042ffc473929d681b9ac1c646861e0763d slab: clean some more unused cruft
+         100511180010a0e10147d3f612d7232092a0ff53 update cvelistV5
          
 
---===============0114908391949702038==
+--===============5067899060380364748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1760088079 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1760088017-72decceffed5b411d3a916a17632925cac8dd59c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760088910 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1760088849-922f78812a423ea7d26401ab2ebd71cab2878a2e
 
-575f4b1ed517f1734ff0d2d8889a16074e297056 aedcc5042ffc473929d681b9ac1c646861e0763d refs/heads/b4/sheaves-for-all
+6740649aab3d3a0c772041ae56b857fb648d57be 100511180010a0e10147d3f612d7232092a0ff53 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjo0A8bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYianEcIAKLCztvQ/iK5Zx5AsxAo
-y5djfRVoy135ATX4XtBe2JgvBC9CEn6X1OfzUAEwSR6abFBS/2a2KLEh42oJuojr
-kKBx4/+rHja/UTLAr33DrlKgTty14G7Wrr126Vqq8mu8xI1YubuVuF2TfmCKeZ+i
-lpvoXuRgHIyC+fDigOpVc2Qzse0I/gq6JyRVNZD3uptpDDQtv86KGWYPp2kOmdLO
-dLWUa6yAC3CphK7cYsxyVa7S15N3/fKJSMnX0/j54A/IY43S8YAUmhLLeejcNcEo
-nt1O91AWRMCZ+m4dU0C04Phh4TBtGdwfEZvVl42YbMI7vSrXrlQ7WIM7TQHNfHGL
-KU8=
-=dxCr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjo004bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2E8QANX8I4s6pssFDBrCyHmS
+XhHG0XcP339J6e7AFFKPRbjlFdCEoHAJdXy6TCUI2VHKBDjfKXDd9k73mReTFmTB
+yDFadAZ0N3ReSNqiGS9Au1jHIFmGUgTY5CUgqbRW/9Kizi3EhMArZP0J2jkzFwNO
+tn0Yu8XcqLlPBJDylXrt0DZf+s35ZUmejLVdTgiL2fY+Oiuxkdi51sgHW/V0FS+V
+Y4R/sRPSCRuQGP0Frh8ZS5rHYDyguSsVALKcovSm3mcLWtcLiDk0GiGZYDCBPJ1Y
+BcQVqUk/GkVhQJfVW+dgN/jhHXCxSmZ3icJJ8ZGuTVZuF6nKgyy+WCJ08Y2IcT29
+Fu2iGQzIo+G6MLz6oS9EWxqtgU4PUomovv972xWJ4Q7tMRzDMVKmMLFhiQzeeLMK
+CgxKQgLsegh+ueYYZzDnA7d+q/2npQqyp1Eh6ul5ghef1nAiW8asg8vx+ntMviC+
+yM59MngvUVCl/+38xL/ijqq6BpaGVZDJeZAt/FUAcANX11+rh6BNecdhsReBpqwC
+bQxGbVnj+jJLwrN/H0B/ttukCK7V90R6gWNYB+8K1Ihl5jT2c38MSH/MbUc+OEDo
+SaNIw1HWyx7O07Yfj87E4UG0m2wfTOSMNjTZ7lRvk8wYqjevp08Arpv6ht5OVJcJ
+QxWbQ2KcB7jndfcJL2dHKFs2
+=ktLp
 -----END PGP SIGNATURE-----
 
---===============0114908391949702038==--
+--===============5067899060380364748==--
