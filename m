@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 10 Oct 2025 08:53:02 -0000
-Message-Id: <176008638219.2248607.16797426212751460526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Fri, 10 Oct 2025 09:13:06 -0000
+Message-Id: <176008758607.2264862.10677004231416186892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/parisc-6.18-1
+  - ref: refs/heads/jag/sysctl_conv
     old: 0000000000000000000000000000000000000000
-    new: f4edb5c52c93b1bc676064472fb517566a3e2129
+    new: fd98457173e626d2501830b48b9bfe973fe663b4
