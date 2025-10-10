@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0599072716579301069=="
+Content-Type: multipart/mixed; boundary="===============0164633457852830377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Oct 2025 13:12:29 -0000
-Message-Id: <176010194989.2477790.16598603936528901694@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 13:12:30 -0000
+Message-Id: <176010195024.2477824.2384020391452406584@gitolite.kernel.org>
 
---===============0599072716579301069==
+--===============0164633457852830377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: da8e3d6b8cf37ea38b19355688fe676f2504432c
-    new: f83a874ce4dca9d7030f9787c86783926843be5f
-    log: revlist-da8e3d6b8cf3-f83a874ce4dc.txt
+  - ref: refs/heads/linux-5.10.y
+    old: c290a6f127312b6a54109de65ecba7c4fae420aa
+    new: 5f5f34fe123e7725651fa95866200bb44465e291
+    log: revlist-c290a6f12731-5f5f34fe123e.txt
 
---===============0599072716579301069==
+--===============0164633457852830377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,50 +30,52 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760102009 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1760101947-d3e710ffbbc36976cc0a7d48913b666ad0a31176
+nonce 1760101948-a32d62ae4bb2d68090cc863602de017bdc0dd46d
 
-da8e3d6b8cf37ea38b19355688fe676f2504432c f83a874ce4dca9d7030f9787c86783926843be5f refs/heads/linux-5.4.y
+c290a6f127312b6a54109de65ecba7c4fae420aa 5f5f34fe123e7725651fa95866200bb44465e291 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBnkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OWwP/ilUgTXTG4w8Ko8AVRra
-jV0lwikD739AquS/XrCWZj/TyrgFqjF3HeRDfWJuKSgZdTCgMfXLWfeu33DcgfI9
-ViSH6sj9qaUJziW/CL1vp1clkrLtXgzc2j9FqyYWlCfkRM5QOsQtALtapNgzVfQW
-hNionHXvqlwwO/0jm7y6yuQH43J+s2soBxTovEcWVF1fIcLiE+E12yUxnOlm16Fb
-9d4LpRPh7rxfyL3vREnaMkSoBKK6J5IiGuSypTJMYadu/YQGbnDSiI89o1RYYbQ9
-Vk2CrG7Me4R9b72xVhUIG3tl2jxF7LB9DIawzpOWVRtnsMH+j8C+5XIYPsEFO7JN
-yisek/9vcqQejAde3N8f7FFW5lYCApOoFM9K7l4fxluWNywndHmInWYusExI54Mx
-RVUo43yNNA2h4ma9na4szlTuBbqO5PiuIt9/SeyfZrkUpqkjTtNRDU/dQsTzI+up
-gcwUdItZ69TVgOHdgtKw7v0RyQQ/V7py3lfjUk47FRZLyA27t/IovhiyH+KCNg3u
-ca4s6B/KSnguL0aWLnS+4d2gh+lfEoV1/G4jLAxMh+uBT1gNppOteGXom2Y5xqUJ
-GXQzfcJKl/CTCKq26iqqiGrUdwvB/8E3CPsKBx0I3r9X+14bNDOdZY7P6mF4Bx35
-fGEcIXvzipNlXvCvXDdKYljt
-=jip6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBnobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vN8QAMj3HjHe7XNtqiije2NO
+NVdY+AfJQ2wMBWbP3DRICu4Cn9Bo2HQ3D+cH6I+46CtIgCmrLxrXBiS70VPFO1ra
+lvg3+SgfSewjLdfDi2AVP1MlNdPmMU6NoI3IHCFKzIVAuLN8z7eivC7mIqogOLmE
+HAUWkTOwqHgWzfcrvIcnNSXaq7Z7Mbqs6yMz29GykUCHy1p3Bx1jxh5+3L/0Rhxr
+FRLuPX6xc0DocYbPvBkzvZQOsJlvNtsVUacs1Lz8YPXNSrXrDTF3+Ve42FrnfDcR
+ALgqayErsUBlQzgDK73hRUdS1bOBpLYYdFUaCzVXjX7fr++IWoxxjHylzbKYWBMs
+FcrNC/WKLlrSXzXBPCEMGITdaEK0HSVU8ylQD36kllUh4goMQOmhPmhagtd4Ar1M
+8fyMYTGPhned8idKPWwnQ530dHgpi+E/FMI/whhHUF2LAkUETzwbkiE1QkQGNIQO
+RBFnVqTbDvw27b84miJ6v80HMkP87n0BqsLvpr8qtltwObl52ns72+rYlB1bLXoh
+jXP/okOMPJJQy0HB0mCRQ6QeqIUeVFd17H1rtANji5Gtu0Ynstv814MTRNR0jclF
+it1j5TNL550P3ja8Sw8LyU17ezr0J8j5Dzunr2yUiI03ufrtSj7BoPxGjJqpqjKK
+MlTNerYS9SVtucmwnJd0jid0
+=EuNd
 -----END PGP SIGNATURE-----
 
---===============0599072716579301069==
+--===============0164633457852830377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da8e3d6b8cf3-f83a874ce4dc.txt
+Content-Disposition: attachment; filename=revlist-c290a6f12731-5f5f34fe123e.txt
 
-b6e06ebad780919904b9a3e38ce55df2432c919f scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-05d85944ff1d7f9b3c4c9b78b6fc5c6eba00f832 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-dda033cd94d387384772af5b659fddebcc815215 udp: Fix memory accounting leak.
-16a8abb7a768f736ccebedafdcb12e74311fc135 media: tunner: xc5000: Refactor firmware load
-75b7b0de24e2c9c013a57dd85ddd20e44921e7b5 media: tuner: xc5000: Fix use-after-free in xc5000_release
-f510f25af165ac1ba2e4e4838e63ba924887b0f1 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-438ff8df7da0b257c972cf0e30d7469314143531 media: rc: Add support for another iMON 0xffdc device
-67584cacaa6b603cf7b5fc15270f2865c4d678ff media: imon: reorganize serialization
-603f96076f5342b30ed9ee349245aa29b1b5d53f media: imon: grab lock earlier in imon_ir_change_protocol()
-fdcacb0a97983e00ff2c1c292803d1aaadab30ba media: rc: fix races with imon_disconnect()
-75ebb4ac60bb153575643479d8e1aa43254db6c7 USB: serial: option: add SIMCom 8230C compositions
-18f0d56fbb6b632775d899b6f9d719e8f775685b wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-e96f0638588ec69ce8fdde6c148c7eef95666ee8 dm-integrity: limit MAX_TAG_SIZE to 255
-cd0030c7a250b92c060b6cda88ecef64b4db3c6b perf subcmd: avoid crash in exclude_cmds when excludes is empty
-50c21b89e531a6acbb89c54cba2521dceee35344 staging: axis-fifo: fix maximum TX packet length check
-3e83bca3556346a4c83715479f210909204f1eab staging: axis-fifo: flush RX FIFO on read errors
-5d883ccfe5e74362976535fc871c2b89648c0b6e driver core/PM: Set power.no_callbacks along with power.no_pm
-f83a874ce4dca9d7030f9787c86783926843be5f Linux 5.4.301-rc1
+145718339e4899abe92e8de5e9943a023713eb1d scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+c8d620fc09465be61218fde48136db3b452693a2 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+2d8e7e209522a673d0fc354d3843de9b593cd1b9 media: rc: fix races with imon_disconnect()
+72c3315a7dcbd1eb0c06d1e58427e63cbae35839 udp: Fix memory accounting leak.
+f394d0a57f82e2f5c0c9289ddcb0a8f0b4e4b403 media: tunner: xc5000: Refactor firmware load
+63d9f9bb4df948b8930568b5a4860aca80f4e02c media: tuner: xc5000: Fix use-after-free in xc5000_release
+f40d4335edc68993f98e044866d76adcf8c69248 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+e6f609fb5ce5ef0254dc87d9ec3b0293fd1a7327 USB: serial: option: add SIMCom 8230C compositions
+e9b084f9bcf15685aab252596221539b5aaea349 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+38c3395f415e1268126e0727c1120ab7f568b18d dm-integrity: limit MAX_TAG_SIZE to 255
+ee29342591a78cf9e619720ee424069235200114 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+e08a0fbe7cf952bff6eb6a2d2ff87414c8af72d8 hid: fix I2C read buffer overflow in raw_event() for mcp2221
+11bccb578ad8f2ddc7cd4369874899aa0a8ae7a8 serial: stm32: allow selecting console when the driver is module
+100a45b4d6058bf6c4f81bee49c5a314249289cb staging: axis-fifo: fix maximum TX packet length check
+9a6f04fc852ac3279fff423400fdeeec7ac0e2e3 staging: axis-fifo: flush RX FIFO on read errors
+a34abd5f123e26f314ba90a8dc7f0898c0b741b6 driver core/PM: Set power.no_callbacks along with power.no_pm
+3701dbfc0f15724ab45806d27ac91c3490ba056e drm/amd/display: Remove redundant safeguards for dmub-srv destroy()
+468a0b04ff8cb20c8c069ca7bada69ed26b664a2 drm/amd/display: Fix potential null dereference
+5f63f5c399e62820a0805df2a4f70bcef72826c0 crypto: rng - Ensure set_ent is always present
+5f5f34fe123e7725651fa95866200bb44465e291 Linux 5.10.246-rc1
 
---===============0599072716579301069==--
+--===============0164633457852830377==--
