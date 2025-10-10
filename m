@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7124643665993256309=="
+Content-Type: multipart/mixed; boundary="===============7932413137629791795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 10 Oct 2025 10:57:18 -0000
-Message-Id: <176009383867.2354140.5939067487193150912@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 10:57:48 -0000
+Message-Id: <176009386854.2354551.6276362214344432625@gitolite.kernel.org>
 
---===============7124643665993256309==
+--===============7932413137629791795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: a2f12b1cbec103a836e3ddfde57084661591e4f3
-    new: 64b229b5b6816b9247e0f592e6f7cdb3693cf3b8
-    log: revlist-a2f12b1cbec1-64b229b5b681.txt
+  - ref: refs/heads/main
+    old: 0d97f2067c166eb495771fede9f7b73999c67f66
+    new: 5472d60c129f75282d94ae5ad072ee6dfb7c7246
+    log: revlist-0d97f2067c16-5472d60c129f.txt
 
---===============7124643665993256309==
+--===============7932413137629791795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760093896 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760093928 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1760093834-4b1a50e6d063d6c5cf78ad904ca820944a4f8125
+nonce 1760093866-77167caccbc491f9be006cdb6f697c2015a5bd2e
 
-a2f12b1cbec103a836e3ddfde57084661591e4f3 64b229b5b6816b9247e0f592e6f7cdb3693cf3b8 refs/heads/usb-testing
+0d97f2067c166eb495771fede9f7b73999c67f66 5472d60c129f75282d94ae5ad072ee6dfb7c7246 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjo5sgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JccQAKtpJuDNxPgM+6K75FFm
-j8Zo2OsRYmySyh5UEEJnMnnWUMCm2aQDxQ81wNuVuOLvhDEIrH4WKWucgxuPRmR1
-m4vnbFuWzTcS1fL/bnZ3upu2i6d1voU9Zvj/wTufoF67E+imMCXu/vVUgWVR+N2H
-+xfPLB6gNzr65ya0yhoaPKnhdIdckwVFKf9msRcC17l4brgdeZnrp/bodNR6zdUt
-JlHM6t3RinzwJWNp5g5AvEempD7n1w+G5W66RmHPJLWbwUv0/+1kzDCO2hpGnorh
-8k1h6ozHaffAI9iikZt/sf5kZvBrEPe5h2y/knfNAFJyCAEaJ8TB3osR64duiDbu
-THvo2uWtBADDFCEt9TQHmjwADWSc687bgTL0vMykHY5HFdc7MZ44UdI9ZV+pDyMO
-+idfbCVOmpgnVV6019WW7WXggexEFkXhAXGEqFBma6HDoy3VC+otaFq8ELU1xvIf
-IIzhhKZWlhW+F6K1n1X6+xMFwM83/3WVd572+dUkameXm5IP9g+0WkHV/b9jSqrI
-qjIoEaoVINqnveyhLYP5XL9F10mn2ugEqR2i8ICwJHQwEvgiRl8m0/hGe64STkRj
-wvjUrhFhRBLbIGsARlvZto6L3KlmbkqK21TqmNbEWDOrV7VIoMGmwomt0YQw1yR0
-yN9/6m7/rtrMvX+HX3WeI3lq
-=6fFo
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjo5ugbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SD0P/2C0j/SuJzs6DR+QsIHq
+HZBSbYdZ7SRgc9DmPoNeXsSGWUph06+Ft6VY+e5cE9o9u6gGYJNt5yaPvlZFySFP
+hQJu5/bOKO//wT/BFjGXtIiY2JaLk5imEyvZmoPP/6E8TYpT530ta32kJb71Rcfg
+u9e1mWYvu9PIDphxPMehGJO2+dOWajp/shALlF9G/wLxc2o2hHDJGy+4OXMxVtOr
+9rJ840kQdXE3FDwfUzuvIB4js713X53R0eciBA+hqbztC1aywR7F9D2SV4c7dCgI
+0SaRUz29m+Osf2Tix1fUKSFhATIWt6OYQ4isYZTt7txVItKgR3tTZnsM5bnumW7V
+Tu6+6G/fecBkWLXLAuXZ85h9bVDW/nsjsCBVrJi/sSQdipUgcjZtNHAHzL1FvtsM
+ovMD+yttcJdbnvAjWuKRV8RrUqZkwyE8AM/EyLq642YWf+BANCJUsz5yr09Hm/EY
+wUWnYjBezzzgC91ae0GAQXiFUD2/JYx6eHS3rum8D0Hct4H4CFwN/TSmNQhfGGyu
+nwIi0bUda9Uabw9pseo8ZIWG5CYgPvTukIz4ZKQX0nSRDoLv0U1IXceQlOMZ92NQ
+JDMSxHWR7u9RwwcwvoC9rlGTSDeZurdeDDDDu9TUJTvVhej2+turkKdkONXNXQUm
+fGZX49Z8ns0nD3OqYvHfe2p9
+=yVpm
 -----END PGP SIGNATURE-----
 
---===============7124643665993256309==
+--===============7932413137629791795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2f12b1cbec1-64b229b5b681.txt
+Content-Disposition: attachment; filename=revlist-0d97f2067c16-5472d60c129f.txt
 
 534b9bdeb4b80d843ca9f924524d4d103ad6605e Input: tca6416-keypad - remove the driver
 c12e371a31d6a835d28330d582e953ae94c2e3e2 Input: tca8418_keypad - switch to using module_i2c_driver()
@@ -404,28 +404,5 @@ f6db358deaeafd9830c8bcba8f76f55f8a14b059 Merge tag 'slab-for-6.18-rc1' of git://
 18a7e218cfcdca6666e1f7356533e4c988780b57 Merge tag 'net-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 80b7065ec19485943fa00d60f27b447c3f17069c Merge tag '9p-for-6.18-rc1' of https://github.com/martinetd/linux
 5472d60c129f75282d94ae5ad072ee6dfb7c7246 Merge tag 'trace-v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-17c020bd0ab1e413888db8a00697537bfed00c5f usb: misc: ljca: Remove Wentong's e-mail address
-1219da3ef9e7249e8a3540ccda535420b69dd305 usb: core: Drop spaces after function names
-64a08e2452901c26c5a9be4018aaab636ac31afc dt-bindings: usb: uhci: Add reset property
-252ec989fa05cc4113cfd6b2fcfe805e4551ad4a usb: uhci: Add reset control support
-34f2f3a04f0b4d07888d2a3c855e47e63f716d87 dt-bindings: usb: uhci: Add Aspeed AST2700 compatible
-cfc1e3907287f20cec1446b489ea13217ec4deb3 usb: uhci: Add Aspeed AST2700 support
-8ffca48672a26374e4fc8bc4fb00ef1d3cf86fdb dt-bindings: usb: ehci: Add Aspeed AST2700 compatible
-566caf611575eb409d322ebd0a3c5677880b8af7 usb: ehci: Add Aspeed AST2700 support
-753834918217ef3bfa209b7be5957dc9461a8adf dt-bindings: usb: samsung,exynos-dwc3: add power-domains
-f5e03417b859802a8c375894d84140978124e35e usb: usbtmc: Remove unnecessary local variable from usbtmc_ioctl_request
-2f5534de9bb34993fc64ccc505e5ec715a40d606 usbip: Fix locking bug in RT-enabled kernels
-3a4e4e5e5e507ea8eb6d291510b4250a0a1c5191 usb: hub: Use max() to improve usb_set_lpm_pel()
-078e56d2b50656b3ecdbb14559e5df486838c161 usb: gadget: zero: add function wakeup support
-d34bdaba6669b161c6e1e284d45c95dc78954276 dt-bindings: usb: xhci: Allow "iommus" and "dr_mode" properties
-92a180dda1b52260feb5a9baed7656e6b0665e8a dt-bindings: usb: xhci: Add "generic-xhci" compatible for Marvell Armada 37xx/8k
-d6a98246e69e86f881a50d5e1d029b32bdf0a8a1 usb: typec: tipd: Fix error handling in cd321x_read_data_status
-c95966dbe180c220678d1fba1170ab94ab126abb dt-bindings: usb: usbmisc-imx: add fsl,imx94-usbmisc compatible
-ebda5c6dd96605e075fb09ceab1869cfb92cc43f usb: chipidea: imx: add USB support for i.MX94
-2913076fa7494177799ed50a9a82799ef2563130 usb: typec: class: add typec_get_data_role symbol
-fb5413949164fad5ecfba8b830fc0d3e4d28a14e usb: typec: altmodes/displayport: do not enter mode if port is the UFP
-8a17a113c85f1f10da8eb19385de17c81d98f00e dt-bindings: usb: add missed compatible string for arm64 layerscape
-254d35c9d493234bb7d90886cd9150f110a725a6 usb: dwc3: Add software-managed properties for flattened model
-64b229b5b6816b9247e0f592e6f7cdb3693cf3b8 usb: dwc3: dwc3-generic-plat: Add layerscape dwc3 support
 
---===============7124643665993256309==--
+--===============7932413137629791795==--
