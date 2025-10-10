@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7523862446760465004=="
+Content-Type: multipart/mixed; boundary="===============3296985925434447976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Oct 2025 13:12:33 -0000
-Message-Id: <176010195380.2478181.16485297220089065129@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 13:12:34 -0000
+Message-Id: <176010195479.2478281.7931161611418688045@gitolite.kernel.org>
 
---===============7523862446760465004==
+--===============3296985925434447976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.17.y
-    old: d0e5608ac0184861900577848ecbe83f50fd1507
-    new: 8902adbbfd36cec55ff7b00116d287c06bda347c
-    log: revlist-d0e5608ac018-8902adbbfd36.txt
+  - ref: refs/heads/linux-6.12.y
+    old: 12d60807601df5aad74c0f00812852d8066bca81
+    new: f7ad21173a1934329ac5bf0c8b5443d5666d3ce6
+    log: revlist-12d60807601d-f7ad21173a19.txt
 
---===============7523862446760465004==
+--===============3296985925434447976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,57 +32,66 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760102013 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1760101952-7822ed5e44bcce7a449e7bc061ec94e3f855a4cf
 
-d0e5608ac0184861900577848ecbe83f50fd1507 8902adbbfd36cec55ff7b00116d287c06bda347c refs/heads/linux-6.17.y
+12d60807601df5aad74c0f00812852d8066bca81 f7ad21173a1934329ac5bf0c8b5443d5666d3ce6 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBn0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mggQANEr8q22GtNjgoF60Y/r
-jXiKSwbDEprbJH/r5+r10WQY3RmpFaIXwpPlU/ooRmED79gyoAgCRpm6dOK9t/84
-icIUYaJlRzE0Zr3TYUVjEchiIW7IXhczyFPjh0Dr5Yr98sj3o9RqNlBV04MX+X8r
-ChlD3L7HD+GFiCUhfk0mB4ZyyTbi6eRNNdQh4FncuK1ueOuuGEbdQdJcQ+rZ/bq7
-EJBpQlfta69jwucXE4poIXz95DffAN8viur3xMlYOJU4YfH1JGzAICivvhh0uDdj
-feNdbzcFheNST77ZCobQjL84atDuAI2ff3YWt+X3wo6u7xv5Nt43hiJhkYVYNX8y
-RXLo5aJf5+D8lUj1aMSV6yu4PnqHafZe6V+b5sU/yOnUK/hTYfWU64/ezaaOZrqg
-YTMUYUpRrcDVI8kS/yHV3E7Np1pcrToMbREi+HOLvm6l8DNFeVPRXYueRbw46l8J
-mHbWTewYEhG9RhaEHKqOx3B/XRmmbpNbjNlwg7TGNtsExu31OumAZ6YJWXSmM80T
-a3LlKYqPrPlBAtt3qeHu5EWAoxKSaGsDbq9imP2qiRl3JW4jOC9Lih+dBx+ipcs6
-8Uh0/kK690QQhmkp0ClY0cnTULON3DWiJV6mEnu3naTilZDvAe2WnCLNn3ql8FQC
-V0ZYGBiLh4znQqlqtaLhsyv5
-=vmMP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBn4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GWQQAM+4PbL0UQxb74slAfIy
+58TRpwHYlwIxCC6hAkJEybOEev1Ekh4/pEbtcu2m7b8bMXeA/2YxxTDpUT7XOcpC
+zbL8WIuSUuvo2piTibJuKmwvwY9l8cfWTBjfSOQmdEroMHxwiGLpAVtVUhgXoNZa
+j5R1ble72q4VtYglJ7kj2ogKXrFQgd/Q2VzF/0ZzLTuMB4y4X8PvxBvcD2laJS9y
+aEWDxlaji646Ao7sRLlp2WBjXj81nItK3yMYdCHtebYOKcaMkD0t3C5X56lLfbAp
+5gsKPxUEyWf5q4melF4xWuxZezQ2c/cHFLCXxGkQSOHfKwU5Xq+r+5fCT3++mpop
+SEs6vpekLopFKLVUbUM7Tddn9pWfSpoucW7DhmG7j6S/iOMp2RMxiKemTvwzueZW
+/ZDqdvksmRsfbpvC540d1kDrmbms/i49gkJC6+GUSIOS13rlF1lm9+W5v3nHnnbq
+/me1tV4ttQLa2RHV0EI8NpboMo9wmkxbscyFwDk5HtOMAdFPYTYZKGhbfpX/+SMC
+WLrNVdZKmhH1xxmhupDONCtuqaF+4/CGPL1xD1wcgDe9jgY67H7Ebozp1UncsuHl
+wMxR77X7G55Q7RQXHEUSzRNTuNcwmNYRWFsAcZoegZyNG9qtqQVaOopIY3cawPIj
+CngsN6sun1Hhxb0wo1M/+DKK
+=WJcd
 -----END PGP SIGNATURE-----
 
---===============7523862446760465004==
+--===============3296985925434447976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0e5608ac018-8902adbbfd36.txt
+Content-Disposition: attachment; filename=revlist-12d60807601d-f7ad21173a19.txt
 
-d788157f67aa8fe437301cd3ece62f3ba8f44394 drm/amdgpu: Enable MES lr_compute_wa by default
-ab7b9b3b45f4139de0fb55cffd6f5c3c52faa4a6 USB: serial: option: add SIMCom 8230C compositions
-2d47ad69dbaecdf72a59308867886c423d44dbd6 Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
-a98602c89b5a28ca9a3209e96dd4b4ddd24da350 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-8e6ccedc9925eb803d45b85883b596f7ed19ba20 wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
-3bb4db80498da53402c453c079a2e47ffdb5f9a6 rust: drm: fix `srctree/` links
-19f0df674daf6575d15b808525c11c74bd1b96df rust: block: fix `srctree/` links
-304be200b410b52758e66c1f72ce6b101411821a rust: pci: fix incorrect platform reference in PCI driver probe doc comment
-0f438071fbe7c0da2153d785eb9dc85d09088d7b rust: pci: fix incorrect platform reference in PCI driver unbind doc comment
-484fa281a3c4445abca48168972f5720db7f07a6 serial: qcom-geni: Fix blocked task
-fcdf2ddd87e98a72d41e3e45391010a8a26a767b nvmem: layouts: fix automatic module loading
-95ea8fa8bfe7e8cd6e712e289b3314d70ba01e0f drivers/misc/amd-sbi/Kconfig: select REGMAP_I2C
-b509be26880c89b8e374554041e3430271270866 binder: fix double-free in dbitmap
-56915f302467cdcf24c28a01a3b6840a48dfec6f serial: stm32: allow selecting console when the driver is module
-e2ae7695c8892824ae07481d77fc842de5c65864 staging: axis-fifo: fix maximum TX packet length check
-68e4628fdea58162ff76a08cd74f781cec427637 staging: axis-fifo: fix TX handling on copy_from_user() failure
-893a07b13a71a767102a6b8667a4be3cce8dee6d staging: axis-fifo: flush RX FIFO on read errors
-40cdba7f7eab3c10a26fb8517f83deb17e84f187 driver core: faux: Set power.no_pm for faux devices
-9d0e4c79c53f7976110e2f2925ff4e9f2320c4b5 driver core/PM: Set power.no_callbacks along with power.no_pm
-70a24497a1dae6fd11ac701fd6ce4c6d38976633 Revert "crypto: testmgr - desupport SHA-1 for FIPS 140"
-43d5d3cfe2adb0138bcf703a61138c03e1f97caa crypto: zstd - Fix compression bug caused by truncation
-8c518f72ec4f106568a5736ee160bf723c369159 crypto: rng - Ensure set_ent is always present
-8d6e3b7217cb006de70a539fc22de6f93e86f553 net/9p: fix double req put in p9_fd_cancelled
-d2ffcf608f61bc5edfccb40c19b62ebcabaa2fbc KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
-dc34d0e7d63f2281d3f9b116b47b0fba9fdc5403 f2fs: fix to do sanity check on node footer for non inode dnode
-c70d53aa74168de92649a692f4a639202f989fb6 ring buffer: Propagate __rb_map_vma return value to caller
-8902adbbfd36cec55ff7b00116d287c06bda347c Linux 6.17.2-rc1
+5a08d3cbd3a870b5680423659713361b06121202 wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
+b17f61712158711b78a0de1dda9ffbfdd72404be media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+087ed581e9b149a30f7a292dba9770dc2158cdb3 USB: serial: option: add SIMCom 8230C compositions
+8c844a8e5738206e987cb7effd24f55673dd25d9 Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
+23d909bd492499dff14ebf5cb7a5dad70b4d34ff wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+84eaecee858a51a865b619057c04910637048d4d wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
+3ecf1c0e4c5d3abbfb3ba1320f796f2bbbda449f rust: block: fix `srctree/` links
+b68962f5fc4243b10d7c7b5b8fab04a48b83abaa ASoC: amd: acp: Adjust pdm gain value
+b58dff4fc6fe2936547a9eea326a7a8305aa13d5 dm-integrity: limit MAX_TAG_SIZE to 255
+df7b0b8a8d2cc14d5f5bb186f5a0cbff578f7c8c platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
+83bbad8c5dffb7d97412b629f7bd860ea1e4bdb6 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+e002edf5bded7f3894f3daac6b5a0da31a650d11 platform/x86/amd/pmf: Support new ACPI ID AMDI0108
+a4d555bd85a205739c8d21e14980f5a0fd50db82 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+47ba252fe050a5fdaadae43cb92e9a86e5a9abe2 btrfs: ref-verify: handle damaged extent root tree
+91ff80892254bc109373951797bd872e29410f51 netfs: Prevent duplicate unlocking
+ad66352a4f5158e925f93f3c456adcf421053fc4 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+10277e5ca7c99dba5a6c12fa194ced96878432ba can: rcar_canfd: Fix controller mode setting
+c9162447b6c7fe71fe2da12ea6f6527b74e84ec7 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
+4bbbaea14e31e31d5651aa4cfb93aed34fca2138 drm/amd : Update MES API header file for v11 & v12
+9e0a1deb2df00864b019a5f08f6b0de7f13af6a2 drm/amd/include : MES v11 and v12 API header update
+d157f050c949020c8e5d79803dc37cea55f4b922 drm/amd/include : Update MES v12 API for fence update
+cc80c7b94f16db93bb742d890e640de9143bdc65 drm/amdgpu: Enable MES lr_compute_wa by default
+f403d430e0b9555cc56a1c817284ae607f2aa504 ALSA: usb-audio: Kill timer properly at removal
+47253e9d0739bebbf88b6b568df46150bfcdac08 ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
+9a709e3e2dc9b0a1f9c1e821f7a10a31fa6fa6a4 hid: fix I2C read buffer overflow in raw_event() for mcp2221
+7db2b0508f35dbefd03a4310f56095ac92d9030e nvmem: layouts: fix automatic module loading
+cc71392ea0abbc2153b328af9746b54e9e26c51a binder: fix double-free in dbitmap
+200940e2a3aedf472ee0cef0cb62487a54a5772d serial: stm32: allow selecting console when the driver is module
+410001243d89864722156402e9da61ff4458bc6b staging: axis-fifo: fix maximum TX packet length check
+8dd1617356a4707ce2117b13d67e7e971ecf4861 staging: axis-fifo: fix TX handling on copy_from_user() failure
+3b5ad4d646402e41b91ee2bd2669f47bca352fce staging: axis-fifo: flush RX FIFO on read errors
+9532316966b07e1b116a4c5f8186c680b0fa3eaa driver core/PM: Set power.no_callbacks along with power.no_pm
+f4b5723021dce7d1d59c35b1d1609cd23dc9c2f5 crypto: rng - Ensure set_ent is always present
+b1c45e0e4a14eef758bcfdea6c68ae95a862626e net/9p: fix double req put in p9_fd_cancelled
+3b6348b353b3781fcf3c558d1b9e29fa239c1462 KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
+f7ad21173a1934329ac5bf0c8b5443d5666d3ce6 Linux 6.12.52-rc1
 
---===============7523862446760465004==--
+--===============3296985925434447976==--
