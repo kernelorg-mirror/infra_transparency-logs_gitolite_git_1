@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6406433780530521966=="
+Content-Type: multipart/mixed; boundary="===============7247148645176017625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 10 Oct 2025 17:01:11 -0000
-Message-Id: <176011567113.2678571.11685985488919643532@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 17:01:24 -0000
+Message-Id: <176011568442.2678888.3101299630025868839@gitolite.kernel.org>
 
---===============6406433780530521966==
+--===============7247148645176017625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 14b1c68519e8d55cd9ee2e6687e091ae6cb4f3ef
-    new: 19a35099995bd7d8f4cae3c0673e5c3eaf3ca440
-    log: revlist-14b1c68519e8-19a35099995b.txt
+  - ref: refs/heads/nfsd-testing
+    old: 46c707ac45acc05c614805078621812284343625
+    new: 09755c4dd276922173218adcb0984a63343db943
+    log: revlist-46c707ac45ac-09755c4dd276.txt
 
---===============6406433780530521966==
+--===============7247148645176017625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14b1c68519e8-19a35099995b.txt
+Content-Disposition: attachment; filename=revlist-46c707ac45ac-09755c4dd276.txt
 
 534b9bdeb4b80d843ca9f924524d4d103ad6605e Input: tca6416-keypad - remove the driver
 c12e371a31d6a835d28330d582e953ae94c2e3e2 Input: tca8418_keypad - switch to using module_i2c_driver()
@@ -381,5 +381,26 @@ f6db358deaeafd9830c8bcba8f76f55f8a14b059 Merge tag 'slab-for-6.18-rc1' of git://
 4bd66f0cd2177b43187c2c5b32668f18f1f8e56b nfsd: move name lookup out of nfsd4_list_rec_dir()
 413f8c6095251a20b357aa095aa79da010ff4f22 nfsd: change nfs4_client_to_reclaim() to allocate data
 19a35099995bd7d8f4cae3c0673e5c3eaf3ca440 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+16ff2ae4be94051aef505133cb1e86b3f1220762 NFSD: Add array bounds-checking in nfsd_iter_read()
+a58d0f859909f5fdc7468caeaadfad38663e03ef svcrdma: Release transport resources synchronously
+862cea9b2a305c1699807df3d324fbf064483f8b nfsd: delete unreachable confusing code in nfs4_open_delegation()
+d71a152ed77e30c679e1802aad90c851ca1e9fbb NFSD: Define actions for the new time_deleg FATTR4 attributes
+7cf783305d89ca4ae98565d3294caf1114eacedc NFSD: Fix crash in nfsd4_read_release()
+e44f3c930e8ec43c31551f3215ec203e0dcc79ab nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+28d12ef1a7fda641baf980ef6b249d03be72a35f NFSD: Update comment documenting unsupported fattr4 attributes
+5ae2169c1a7ed85bb034df99fa5f40ab205e3f7e Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+b0a70c3876a7f9cd1c31bc32efa48df5a6f8a9aa svcrdma: Increase the server's default RPC/RDMA credit grant
+cc5b6ccb819b2e25337ff950fff21a2d55374a01 NFSD/blocklayout: Fix minlength check in proc_layoutget
+4e955e787d3cc3dd54e9d3113ad1f7a55f116256 NFSD/blocklayout: Extract extent mapping from proc_layoutget
+3ae8122eb46144cbf1a6f6fd82056597d7f3e6b0 NFSD/blocklayout: Introduce layout content structure
+8de7f467d88c9e47a32dbd6cba44256ecbd1f2a3 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+c585f0220620c7b793f77eae14fd8441074a2850 nfsd: fix refcount leak in nfsd_set_fh_dentry()
+39af09765a50f03517ff05f991fb4da9a63f78c0 NFSD: Prevent a NULL pointer dereference in fh_getattr()
+43615967f98d0bcb36114acbb2203a657b73e2cf NFSD: pass nfsd_file to nfsd_iter_read()
+a70c8f6a65774ebab9ebac104bdcae0dcc4662fb NFSD: Relocate the xdr_reserve_space_vec() call site
+827016589f58c2955d2529fddfc74b7551eb5ece NFSD: Implement NFSD_IO_DIRECT for NFS READ
+26f37af30be377743bd607a98874dfee155a5762 SUNRPC: Improve "fragment too large" warning
+c72da835c925349c6bf5ea42ef71bf2d45c0719c nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
+09755c4dd276922173218adcb0984a63343db943 siw: Enable try_gso
 
---===============6406433780530521966==--
+--===============7247148645176017625==--
