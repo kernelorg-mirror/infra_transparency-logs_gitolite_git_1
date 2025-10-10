@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 10 Oct 2025 20:07:21 -0000
-Message-Id: <176012684103.2840543.15408921947939704068@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4479685142142613709=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 10 Oct 2025 20:31:15 -0000
+Message-Id: <176012827501.2860419.11925904129821267406@gitolite.kernel.org>
+
+--===============4479685142142613709==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 8bd9238e511d02831022ff0270865c54ccc482d6
-    new: f76b1683d16dcd5299a9b67d8ef45fe8d29cb2e6
+    old: f760a0468f91296750af072f7b3aed916f217e77
+    new: 16329336c1c8faba853b11238a16249306742505
     log: |
-         f9a68cf7b9afeb1780527f840995fc4292a2202a dt-bindings: mmc: Correct typo "upto" to "up to"
-         4e66293bb141df33d5eb1f922e16fe05913bf296 of: doc: Fix typo in doc comments.
-         a8de554774ae48efbe48ace79f8badae2daa2bf1 of: unittest: Fix device reference count leak in of_unittest_pci_node_verify
-         dc6b724974018c1b3b6fd704899782da3f12f145 MAINTAINERS: Move DT patchwork to kernel.org
-         f7045387a6816d51d462447af4522785e1c7251c dt-bindings: bus: allwinner,sun50i-a64-de2: don't check node names
-         ce740955b238761ec1d8cf0590d7e6802d3a813a dt-bindings: bus: renesas-bsc: allow additional properties
-         f76b1683d16dcd5299a9b67d8ef45fe8d29cb2e6 Merge tag 'devicetree-fixes-for-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+         16329336c1c8faba853b11238a16249306742505 dig: initial b4 dig implementation
          
+
+--===============4479685142142613709==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1760128335 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1760128274-05d4ce92dc40c2cbf61170185299450effb699c4
+
+f760a0468f91296750af072f7b3aed916f217e77 16329336c1c8faba853b11238a16249306742505 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaOltTwAKCRC2xBzjVmSZ
+bJ5ZAQD2CGJUqa2FIczBOcVYkJKZnp3VHd4ZlxdsrfYh7IpSxAEAxV16dhiw1plQ
+yhuLFw0U7OsrNxbCrifoWxCpYsBNVAc=
+=Vtd6
+-----END PGP SIGNATURE-----
+
+--===============4479685142142613709==--
