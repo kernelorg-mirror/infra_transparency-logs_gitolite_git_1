@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2684708466507858555=="
+Content-Type: multipart/mixed; boundary="===============1459077941568774962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Oct 2025 13:12:36 -0000
-Message-Id: <176010195671.2478394.12972592348245529388@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 13:12:37 -0000
+Message-Id: <176010195765.2478459.3163361441555509989@gitolite.kernel.org>
 
---===============2684708466507858555==
+--===============1459077941568774962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 85fafed046926dcdab2d1e43ef52be1327a8bc8f
-    new: 24b555bd2c99f5acddf13454b8b010075b374bcb
-    log: revlist-85fafed04692-24b555bd2c99.txt
+  - ref: refs/heads/linux-6.16.y
+    old: 6804208b026787c9365bdc07e972960e3afdebc2
+    new: e006d63d59f243154aba844a31f8ac8afd93484a
+    log: revlist-6804208b0267-e006d63d59f2.txt
 
---===============2684708466507858555==
+--===============1459077941568774962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,76 +32,72 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760102015 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1760101954-b43b783c061fe4bf7b1d97682b1de8361a330b43
 
-85fafed046926dcdab2d1e43ef52be1327a8bc8f 24b555bd2c99f5acddf13454b8b010075b374bcb refs/heads/linux-6.1.y
+6804208b026787c9365bdc07e972960e3afdebc2 e006d63d59f243154aba844a31f8ac8afd93484a refs/heads/linux-6.16.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBn8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J5oP/1dNDEO0DeduLMQmwjnh
-KcSZaRt1yY0SHU9yRRq3fYBnPblzkmv3ko+jn9yEDqMl2UMUopKHdcReLBcrtzOo
-clMz7vbxre8R/3OtenMk1OkmUy+IuAS2HFRaf/zdCpn52MmeXPG8uLacAtsGuDgL
-mkjsS7c0dfDyEZuVLej65ds8duCRa9CBfNpm0V1NrAlzBHdn6lhq8/hTHXf23W4d
-Vlk4sZQk1cko/dT9rjXqRoVr/1PHiQxw31f0Wp5eFrn1P65ZoTRgvetqJsIcTivX
-VP1GjpVn8XtKvDX+SWrq2eL0FdWKfIxV/8bJqag3YMI0BrVYJujg/nh5EWfXmPoJ
-QywTagK2nopC2VcyjMQfeObdrg2a458NG2J+nmEcxiG5xKhgnuxeqwFkyqdEiYRY
-ystFcq5cLvBlwr7Mmf1R5OO1JyIimWB39BBJsIrD0GdbZUMWpBQ6B/vLs35qb+Tw
-8P7bYPuYLl5sw/yD883fxJcXSANlpxuiJeXwzu9CCZczp+9G9S7T/Puu1BOFhRvZ
-gQHf3ZC/7BGOrz+q9DxXutbGVRD5/rfTt8nEE18tL8puumGddplgsT4gCTkayZnw
-tUkLzaNcoRnyv2uuczSmwjLp38kxy2ZJpBiTadxEsSPzRb1LI8XHG3t0+cNHYlgY
-HOtf8pg2P/r2O6u4uEPzeS0E
-=B862
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c+QP/il8KiF+tJT8nV8/xpij
+L6kzYEW1fPBFBh83pAPBtnVeimTm7xwMr8gz8+bttegBBmSsdDbIBQmW4hczO94d
+5e1y0RrtdnlP2MyQ+cLXbZkRb9yV9tlvSN/mqNwcqU1km8tIxTyUbaGwp0Ca0xZp
+eZ87Daph3MmoUyW3pVqKgnXBqWEi0c42YwC6jam4DLgzlBxYL2BwLdIxabbpT/d+
+ahog0tkKzxi6eqc/YxKI4enfJ9gJIEPV19UfKFhyH+N2leYoygUVlZ+I/hRPdp2a
+emF1LfH4LJJKGLHd1ZHzlgv/6QEWLVMMrIWngmG4YTtrYyTn/+y7ZCrNr0KFnkEA
+Is9QwKtujAlYjPZqUbNhfsifInHfM3s5PchDZ7CGJqZRfOORCCqeWOJJ36SXYSVk
+t/5yDrLKofUNt5iBIwdpSgfPg/GmEn9kQU42UoTyHI/jj7V4f12NSzQPj1RRER8T
+r3PF8MsYYnkRaXieTHTMxleATSRYkw/geLpLpFk0W9hS6hbd6xrD23la1FW5m3n6
+4OZHY/W52ksa8qrIZSLxKa5ZICsHrYKnnQhWvnbTWygpiW3wf7NXJOwMPQHhf1eY
+3sfg6YejWr9zXzLedYaudERppAwajYRYpKmX8h6Y83ju1rwe8IIOLDXn4VXTIS6J
+VqW8IBPhULcKym3gPgtAN+yA
+=1TKQ
 -----END PGP SIGNATURE-----
 
---===============2684708466507858555==
+--===============1459077941568774962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85fafed04692-24b555bd2c99.txt
+Content-Disposition: attachment; filename=revlist-6804208b0267-e006d63d59f2.txt
 
-7d197583b7d1f30652569f958f9bd0cb1bb5f0c5 crypto: sha256 - fix crash at kexec
-ae3d5019331db134be2807b4a034f61d96591f3c selftests: mptcp: connect: fix build regression caused by backport
-48fc0bfeeb73c3895f53c52efe10b67455804ed7 cacheinfo: Use RISC-V's init_cache_level() as generic OF implementation
-e5472e075dbd12d487c580fc22cb29da8a4c76c3 cacheinfo: Return error code in init_of_cache_level()
-c86b86f6791bb7a5f29fa5696cb8a3839ebf1f3a cacheinfo: Check 'cache-unified' property to count cache leaves
-9974d39506adfd739becec3d100851ea1f5bcfb1 ACPI: PPTT: Remove acpi_find_cache_levels()
-f83142be5306ac4dddbb7ef29791f49697ea66e3 ACPI: PPTT: Update acpi_find_last_cache_level() to acpi_get_cache_info()
-0547c990de7f879b2ae2bee6783e445e5591f52d arch_topology: Build cacheinfo from primary CPU
-788b1c3bfcb95845d43384a349c936ad1553d146 gcc-plugins: Remove TODO_verify_il for GCC >= 16
-81c83b1caec81d6da7ac011296ebfaf172b8499d scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-17b1a97e9514c6c35cdbf19e0c7adc2178d6793c media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-a7970811a4781136e17f2cfe08b636a3c40ffcd3 media: rc: fix races with imon_disconnect()
-fae2490ce731a3267bc99480c4a7b4d90cfeaf1c media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-8ae22ffbbdd39502144164a66c6be25072fea4a9 ASoC: qcom: audioreach: fix potential null pointer dereference
-668399024a443061904b1e95e7247974ed2bf4da KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
-64251178d2f1cb207550dff0b0afff3929c3af0a media: tunner: xc5000: Refactor firmware load
-8edff025efd7b17abce10957f8cd8eaeefda8634 media: tuner: xc5000: Fix use-after-free in xc5000_release
-856a90e0c7018062afe04b354f971057bef7a550 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-2196378b2e59803e6f294b5579ea4a5ac268107f minmax: don't use max() in situations that want a C constant expression
-5dc117df7e5a3d85058bf31078594025d683f6e7 minmax: simplify min()/max()/clamp() implementation
-e3ccec63791a26e55963c11e416859e367ab1180 minmax: improve macro expansion and type checking
-2283fb2d36d2f41702af34c2bd524dc03bf4e7c6 minmax: fix up min3() and max3() too
-fc5f2714d4b02d185f9689278a0d520dfefeb65f minmax.h: add whitespace around operators and after commas
-449c622caea2ff28180d8e34878c9ada34d2e22c minmax.h: update some comments
-2b4d0f58ecefd770afbcbce3054401d03706fcfe minmax.h: reduce the #define expansion of min(), max() and clamp()
-117d74c8a9ab050a0aedda79d1c53171b7a2cb14 minmax.h: use BUILD_BUG_ON_MSG() for the lo < hi test in clamp()
-8be1bbce1b546e0eab51b9e0c0144e2a6bc42b6b minmax.h: move all the clamp() definitions after the min/max() ones
-ac72dbfa81fa1206921b01d5639d12a29d1f3b66 minmax.h: simplify the variants of clamp()
-5058e203d1f1dcdd47456e1f19acd4ffe78214f9 minmax.h: remove some #defines that are only expanded once
-206e37af636baa25146496a430d0d55885c5a7f7 USB: serial: option: add SIMCom 8230C compositions
-1d91a2903b7decd404c3caf1483e634d6e238c8e wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-59516d77e59a588c9ac857c81d72d3f3a6ae1cd5 dm-integrity: limit MAX_TAG_SIZE to 255
-1d8b3f619fe5999e8c03791780793d101ef83b61 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-93b878b5d46a63ece5184d5a9cc4f85e4dea36e5 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
-2338ca9637877b0918afeed8477470b807174abe btrfs: ref-verify: handle damaged extent root tree
-f3c43e6eb85a9bc5931ce2ce9d869a2cb13a7ffa can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
-bec6991aee079ddd5be9a752a9f48ea6358b0e8b can: rcar_canfd: Fix controller mode setting
-6b1f7350e507beadb636451ff2f091a7f40fc3fd hid: fix I2C read buffer overflow in raw_event() for mcp2221
-f2acdb08ed5690bbd08b92219268fc7c6938784e serial: stm32: allow selecting console when the driver is module
-39277570621169ea6d1710251b81688c6bd72531 staging: axis-fifo: fix maximum TX packet length check
-0eb1a1b39da1ff8e50a949a266114e0144f39506 staging: axis-fifo: fix TX handling on copy_from_user() failure
-b18fe0f646928130cc1f437c4fa9cd52c33f87fc staging: axis-fifo: flush RX FIFO on read errors
-3aa690f26f11fc27d1573e5cea3e732527fd9680 driver core/PM: Set power.no_callbacks along with power.no_pm
-a1c6b87d88a697c7e565471847d5c3509b3feebb crypto: rng - Ensure set_ent is always present
-35e14d2c2e9992528a25b39600e666221d08e293 net/9p: fix double req put in p9_fd_cancelled
-24b555bd2c99f5acddf13454b8b010075b374bcb Linux 6.1.156-rc1
+75447a739f36a5363db277290cdb1d9130215480 ALSA: hda/tas2781: Fix the order of TAS2781 calibrated-data
+64b4a5da1fa3b1cd37aaaf0b47eb6143a67ddd88 drm/amdgpu: Enable MES lr_compute_wa by default
+629b78a57a34f93b96acc2acc007a62097d719ea wifi: rtw89: mcc: stop TX during MCC prepare
+e9015c3f72f17e2ff6e95b5b8572fb842e07017a wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
+4ea0df58fa2094fb94a445d52c78ce5bfa947a34 USB: serial: option: add SIMCom 8230C compositions
+139be7527ca0ebcf3ac76512a06708b91e9db6e1 Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
+dcd34c9e4aa68d99659c21c57f9401acfd1ee102 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+fb83bd0f195922d3293ee9f3dcc74754ddc0533a wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
+828027edb226e70ce536b1c08eba5175d4609313 rust: drm: fix `srctree/` links
+dabac42e97f356a3cb799126276b15c57b190efd rust: block: fix `srctree/` links
+e9f42596dfabde9a9fd727e57157df5fe88d424a rust: pci: fix incorrect platform reference in PCI driver probe doc comment
+f96188bad2bda8da306d3d64ff8f203511593f4a gpiolib: acpi: Ignore touchpad wakeup on GPD G1619-05
+ad59c216e1ea598deb22aa0bfaabfcbbec264420 ASoC: rt712: avoid skipping the blind write
+24dd3e723c370a43c3dd946ab9ca18c80491afdb ASoC: amd: acp: Adjust pdm gain value
+9720c8e5a5df1cdb481e95f4d9250e66bd5c4cc6 dm-integrity: limit MAX_TAG_SIZE to 255
+0b2c69fe5f36f6e964615f21e70d048d23bfe6cf platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
+e7ba23d4dd8370179365e60f30ef6b7dae3142f9 platform/x86: oxpec: Add support for OneXPlayer X1Pro EVA-02
+dbc90d2ce973dec345c0eec46dac65fdc4fbdc34 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+cbb59cbc6b51db42c50086dfeb987fba95e2532c drm/amdgpu/gfx11: Add Cleaner Shader Support for GFX11.0.1/11.0.4 GPUs
+e2b56c5ca686d47620861341b2f20e5edf38d3da platform/x86/amd/pmf: Support new ACPI ID AMDI0108
+8502a11ac3fb0b99d0a911a1689c3b22b4f52704 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+4117e19548b4e1da42ddaa51006eaa1fb1029b12 btrfs: ref-verify: handle damaged extent root tree
+9c3bcaa774d6d890f0004c1399f141d22fae58ce netfs: Prevent duplicate unlocking
+1d5a7a1e9068cfb299e1775b50cc99224ba37344 iommufd: WARN if an object is aborted with an elevated refcount
+b3be2e65ab578b284fab3cac9743c39325092efc can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+1aaf3cf77f7b39efdd5f9f86c91a50b430b5948b can: rcar_canfd: Fix controller mode setting
+bfd8b1d86c701a65c4800a61b564e03d71bc7317 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
+56d76f65b925b3e16145ca1efa7f878e24b9fa9e hid: fix I2C read buffer overflow in raw_event() for mcp2221
+9f1b213c13e36feb316a886c1a5b6acdbb77a0cc nvmem: layouts: fix automatic module loading
+cd082d3ad2db15c63da41b5a16ec1abcd4d26680 drivers/misc/amd-sbi/Kconfig: select REGMAP_I2C
+288d511cb411ffa01cb1c6b96b4dab28be529136 binder: fix double-free in dbitmap
+e7400116b524327daf8fc9f1bfdfd20a7bd2ef26 serial: stm32: allow selecting console when the driver is module
+9dad3a8224a1a838be1e7e2125e4a566555d5dcf staging: axis-fifo: fix maximum TX packet length check
+683b9a1d09cbe39743d4f1f182a902654fba2b3c staging: axis-fifo: fix TX handling on copy_from_user() failure
+668049841a2ffe8c4897c7b760ee904410c63021 staging: axis-fifo: flush RX FIFO on read errors
+5dc934ed17f4d334c8f9b858457bffb5b69ba686 driver core: faux: Set power.no_pm for faux devices
+2803bac78f3faca5410c1ce5a361cd7ce6a643e8 driver core/PM: Set power.no_callbacks along with power.no_pm
+287cc1f7cd6983309b09e4eb8a7cf7e8f3a063fa crypto: rng - Ensure set_ent is always present
+53f835d3f411656a72f5bb284a3c70381d5ecd9c net/9p: fix double req put in p9_fd_cancelled
+907c22a76e690f29057df9ea868e76792cab44e9 KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
+b5c41e0ffb175d07d93854f0e6844a1b3cf9ba27 ring buffer: Propagate __rb_map_vma return value to caller
+e006d63d59f243154aba844a31f8ac8afd93484a Linux 6.16.12-rc1
 
---===============2684708466507858555==--
+--===============1459077941568774962==--
