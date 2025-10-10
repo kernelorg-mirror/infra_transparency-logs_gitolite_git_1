@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3615288174999800563=="
+Content-Type: multipart/mixed; boundary="===============6083387887200263681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 10 Oct 2025 15:53:39 -0000
-Message-Id: <176011161937.2618735.14432585957157113447@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 16:05:49 -0000
+Message-Id: <176011234982.2630087.1205013107548125387@gitolite.kernel.org>
 
---===============3615288174999800563==
+--===============6083387887200263681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ae9e799bfbd382506f963144c93bc9416927f620
-    new: 0da4c4f3f1ffada74508884d5b6bf36095326c1c
+    old: 0da4c4f3f1ffada74508884d5b6bf36095326c1c
+    new: ed30b477a4a26d16a0bae65926624e5cb87a1c61
     log: |
-         0a94c3f63f93304d0fcc08d8ad42b1211a6b35a4 update two 2022 cve ids with a correct "fixed" id
-         a73db686d416dabf89901346fbbd49d4ff94c1f8 fix up CVE-2022-50240 with the proper sha1 and vulnerable settings
-         0da4c4f3f1ffada74508884d5b6bf36095326c1c reject CVE-2022-50338 as it was a duplicate of CVE-2022-50240
+         2ff46da12b145296d1b6161b24c6203f7dcd2e79 reject CVE-2022-50502
+         ed30b477a4a26d16a0bae65926624e5cb87a1c61 update the ids for CVE-2022-50380
          
 
---===============3615288174999800563==
+--===============6083387887200263681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760111674 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760112407 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1760111613-d8644d2cb48dfb86d5d5e3a8feb62c2167160b27
+nonce 1760112346-a982ec64ecb27f45acb768289e457c682ca8e452
 
-ae9e799bfbd382506f963144c93bc9416927f620 0da4c4f3f1ffada74508884d5b6bf36095326c1c refs/heads/master
+0da4c4f3f1ffada74508884d5b6bf36095326c1c ed30b477a4a26d16a0bae65926624e5cb87a1c61 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpLDobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HWAP/3Vzyr2bKo4GfdJJ8/9y
-TxWHVIARWsDVLffYW88bYT9rVounyYrDczzvq/Ju7IHuoHoKeSxu/YEiFC7O4UBl
-Xrxm2G5FkXCI7O8YVDZMxD2GkU0ITLKqzLEAS9HzlNlKHG1ss5zqbMk1TDCbJT/X
-hil5+Gu6rU7Dpa+lWxLnpne2gpENY4jItylGlZi1FOTYahR5Z6s64/oxZ3wFnVtZ
-DHG9goiWDWbbPekzixaURuDvMAdxr4q0UDLDWPUedKg4/Me1f2r/3E2sc2UXzTbU
-bYWa509w80u4ykhTjDdy3acCN2ogzwjdPntRhfkXkIAev5Eb4EJgKR7qolTQX9Ii
-gtFe8yx7A+NNIKaeqA5TOCJxUUWJxNZVkem6Q3zB6CAhhD3CqNL9axwnNuXwks7Y
-8Jy8T4mCM7FeqxhENlYa5257s4aWPPAc5lXZTksyip/IYnyfW/ml8Dhy6WCuz2gh
-GvYNUK+/x6j1S20cnWk3HQATp/1a/ikC2N6yFNzCmQYYMX24TrhKIaTMzmNZXnGQ
-KnxQm1poKc1BNDYhTtRijOOEkie07YmtmB9HzQXj338wm6C81SqhMMLrB9MTgbMu
-VI2FruvD3K4cIDy99uzZxNw68t2mShWcBtSFnJsPfnr5D0YqQq4pAAWi/ZBuq72X
-qW2FtylyG1hAZGJl365jcvAw
-=k0OC
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpLxcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FFUP/3jg961mB/09hL/Sk6Ik
+Iy31+FH2B25+S9mhyNzsHpzMsQkr32cAgfflZyrBJEsnI4pg6srybWpGqN6KkJsO
+6Xo8rOeyIDM/dGqjsmMrHcJiX2gD44r31hYGntRPjOQzMs2jRukDPmmoJXabpEG/
+xB1/0bFqcw1+XLEoxCVC3n/0jIL5uHf02A3LI5AqED4AfDSNmU2zIsyHaFRKcSzH
+jcSAGZDWiGFbCnbfsoUCZZBofV7JaW7t/2Ug+sbV6G5tztscxVpZp+HUq+DnvnMN
+fQZrpAxcWa9Iu6/CQsvW+U4R6AurQgbhp+eifb/9rJqIzWOMprF4H/zLlWqAIH4w
+2QcEk3RzAcvLy3DGdXWHmchdLOzqxlWYVtLepSy69Cnl4PkP6di+aBIDU6cfA4dT
+XD/4v9+y1hNyjUr+4H6EQKpRrnRXlGejx5Pw6mxYAdYMHk6kwIk3J06ZlL6G/aKm
+bUScuef5QdxmLPXbBzdi+qHzK23hAY+Y3y5KaIKzo09clhnPXpE1Hjc92wCf97Lo
+ctip6HyCZmIIbzwUrdpFG9z92Nn/iF5ui6tyHzfu46Q0rT6IgLHsavDQ9+vgNibP
+sVgT09UnesDSjIsFxWYso39Vtz3ydMkGO6gtBRtv4Z1sdsIpEpPRrT4hDPVd1qVC
+lY9U62x6xyKOcz3xZjczSetT
+=0C0m
 -----END PGP SIGNATURE-----
 
---===============3615288174999800563==--
+--===============6083387887200263681==--
