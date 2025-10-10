@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3296985925434447976=="
+Content-Type: multipart/mixed; boundary="===============2684708466507858555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Oct 2025 13:12:34 -0000
-Message-Id: <176010195479.2478281.7931161611418688045@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 13:12:36 -0000
+Message-Id: <176010195671.2478394.12972592348245529388@gitolite.kernel.org>
 
---===============3296985925434447976==
+--===============2684708466507858555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,82 +16,92 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 12d60807601df5aad74c0f00812852d8066bca81
-    new: f7ad21173a1934329ac5bf0c8b5443d5666d3ce6
-    log: revlist-12d60807601d-f7ad21173a19.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 85fafed046926dcdab2d1e43ef52be1327a8bc8f
+    new: 24b555bd2c99f5acddf13454b8b010075b374bcb
+    log: revlist-85fafed04692-24b555bd2c99.txt
 
---===============3296985925434447976==
+--===============2684708466507858555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760102013 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760102015 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1760101952-7822ed5e44bcce7a449e7bc061ec94e3f855a4cf
+nonce 1760101954-b43b783c061fe4bf7b1d97682b1de8361a330b43
 
-12d60807601df5aad74c0f00812852d8066bca81 f7ad21173a1934329ac5bf0c8b5443d5666d3ce6 refs/heads/linux-6.12.y
+85fafed046926dcdab2d1e43ef52be1327a8bc8f 24b555bd2c99f5acddf13454b8b010075b374bcb refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBn4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GWQQAM+4PbL0UQxb74slAfIy
-58TRpwHYlwIxCC6hAkJEybOEev1Ekh4/pEbtcu2m7b8bMXeA/2YxxTDpUT7XOcpC
-zbL8WIuSUuvo2piTibJuKmwvwY9l8cfWTBjfSOQmdEroMHxwiGLpAVtVUhgXoNZa
-j5R1ble72q4VtYglJ7kj2ogKXrFQgd/Q2VzF/0ZzLTuMB4y4X8PvxBvcD2laJS9y
-aEWDxlaji646Ao7sRLlp2WBjXj81nItK3yMYdCHtebYOKcaMkD0t3C5X56lLfbAp
-5gsKPxUEyWf5q4melF4xWuxZezQ2c/cHFLCXxGkQSOHfKwU5Xq+r+5fCT3++mpop
-SEs6vpekLopFKLVUbUM7Tddn9pWfSpoucW7DhmG7j6S/iOMp2RMxiKemTvwzueZW
-/ZDqdvksmRsfbpvC540d1kDrmbms/i49gkJC6+GUSIOS13rlF1lm9+W5v3nHnnbq
-/me1tV4ttQLa2RHV0EI8NpboMo9wmkxbscyFwDk5HtOMAdFPYTYZKGhbfpX/+SMC
-WLrNVdZKmhH1xxmhupDONCtuqaF+4/CGPL1xD1wcgDe9jgY67H7Ebozp1UncsuHl
-wMxR77X7G55Q7RQXHEUSzRNTuNcwmNYRWFsAcZoegZyNG9qtqQVaOopIY3cawPIj
-CngsN6sun1Hhxb0wo1M/+DKK
-=WJcd
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpBn8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J5oP/1dNDEO0DeduLMQmwjnh
+KcSZaRt1yY0SHU9yRRq3fYBnPblzkmv3ko+jn9yEDqMl2UMUopKHdcReLBcrtzOo
+clMz7vbxre8R/3OtenMk1OkmUy+IuAS2HFRaf/zdCpn52MmeXPG8uLacAtsGuDgL
+mkjsS7c0dfDyEZuVLej65ds8duCRa9CBfNpm0V1NrAlzBHdn6lhq8/hTHXf23W4d
+Vlk4sZQk1cko/dT9rjXqRoVr/1PHiQxw31f0Wp5eFrn1P65ZoTRgvetqJsIcTivX
+VP1GjpVn8XtKvDX+SWrq2eL0FdWKfIxV/8bJqag3YMI0BrVYJujg/nh5EWfXmPoJ
+QywTagK2nopC2VcyjMQfeObdrg2a458NG2J+nmEcxiG5xKhgnuxeqwFkyqdEiYRY
+ystFcq5cLvBlwr7Mmf1R5OO1JyIimWB39BBJsIrD0GdbZUMWpBQ6B/vLs35qb+Tw
+8P7bYPuYLl5sw/yD883fxJcXSANlpxuiJeXwzu9CCZczp+9G9S7T/Puu1BOFhRvZ
+gQHf3ZC/7BGOrz+q9DxXutbGVRD5/rfTt8nEE18tL8puumGddplgsT4gCTkayZnw
+tUkLzaNcoRnyv2uuczSmwjLp38kxy2ZJpBiTadxEsSPzRb1LI8XHG3t0+cNHYlgY
+HOtf8pg2P/r2O6u4uEPzeS0E
+=B862
 -----END PGP SIGNATURE-----
 
---===============3296985925434447976==
+--===============2684708466507858555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12d60807601d-f7ad21173a19.txt
+Content-Disposition: attachment; filename=revlist-85fafed04692-24b555bd2c99.txt
 
-5a08d3cbd3a870b5680423659713361b06121202 wifi: rtw89: fix use-after-free in rtw89_core_tx_kick_off_and_wait()
-b17f61712158711b78a0de1dda9ffbfdd72404be media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-087ed581e9b149a30f7a292dba9770dc2158cdb3 USB: serial: option: add SIMCom 8230C compositions
-8c844a8e5738206e987cb7effd24f55673dd25d9 Bluetooth: btusb: Add USB ID 2001:332a for D-Link AX9U rev. A1
-23d909bd492499dff14ebf5cb7a5dad70b4d34ff wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-84eaecee858a51a865b619057c04910637048d4d wifi: rtl8xxxu: Don't claim USB ID 07b8:8188
-3ecf1c0e4c5d3abbfb3ba1320f796f2bbbda449f rust: block: fix `srctree/` links
-b68962f5fc4243b10d7c7b5b8fab04a48b83abaa ASoC: amd: acp: Adjust pdm gain value
-b58dff4fc6fe2936547a9eea326a7a8305aa13d5 dm-integrity: limit MAX_TAG_SIZE to 255
-df7b0b8a8d2cc14d5f5bb186f5a0cbff578f7c8c platform/x86/amd/pmc: Add MECHREVO Yilong15Pro to spurious_8042 list
-83bbad8c5dffb7d97412b629f7bd860ea1e4bdb6 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-e002edf5bded7f3894f3daac6b5a0da31a650d11 platform/x86/amd/pmf: Support new ACPI ID AMDI0108
-a4d555bd85a205739c8d21e14980f5a0fd50db82 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
-47ba252fe050a5fdaadae43cb92e9a86e5a9abe2 btrfs: ref-verify: handle damaged extent root tree
-91ff80892254bc109373951797bd872e29410f51 netfs: Prevent duplicate unlocking
-ad66352a4f5158e925f93f3c456adcf421053fc4 can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
-10277e5ca7c99dba5a6c12fa194ced96878432ba can: rcar_canfd: Fix controller mode setting
-c9162447b6c7fe71fe2da12ea6f6527b74e84ec7 platform/x86/amd/pmc: Add Stellaris Slim Gen6 AMD to spurious 8042 quirks list
-4bbbaea14e31e31d5651aa4cfb93aed34fca2138 drm/amd : Update MES API header file for v11 & v12
-9e0a1deb2df00864b019a5f08f6b0de7f13af6a2 drm/amd/include : MES v11 and v12 API header update
-d157f050c949020c8e5d79803dc37cea55f4b922 drm/amd/include : Update MES v12 API for fence update
-cc80c7b94f16db93bb742d890e640de9143bdc65 drm/amdgpu: Enable MES lr_compute_wa by default
-f403d430e0b9555cc56a1c817284ae607f2aa504 ALSA: usb-audio: Kill timer properly at removal
-47253e9d0739bebbf88b6b568df46150bfcdac08 ALSA: usb-audio: fix race condition to UAF in snd_usbmidi_free
-9a709e3e2dc9b0a1f9c1e821f7a10a31fa6fa6a4 hid: fix I2C read buffer overflow in raw_event() for mcp2221
-7db2b0508f35dbefd03a4310f56095ac92d9030e nvmem: layouts: fix automatic module loading
-cc71392ea0abbc2153b328af9746b54e9e26c51a binder: fix double-free in dbitmap
-200940e2a3aedf472ee0cef0cb62487a54a5772d serial: stm32: allow selecting console when the driver is module
-410001243d89864722156402e9da61ff4458bc6b staging: axis-fifo: fix maximum TX packet length check
-8dd1617356a4707ce2117b13d67e7e971ecf4861 staging: axis-fifo: fix TX handling on copy_from_user() failure
-3b5ad4d646402e41b91ee2bd2669f47bca352fce staging: axis-fifo: flush RX FIFO on read errors
-9532316966b07e1b116a4c5f8186c680b0fa3eaa driver core/PM: Set power.no_callbacks along with power.no_pm
-f4b5723021dce7d1d59c35b1d1609cd23dc9c2f5 crypto: rng - Ensure set_ent is always present
-b1c45e0e4a14eef758bcfdea6c68ae95a862626e net/9p: fix double req put in p9_fd_cancelled
-3b6348b353b3781fcf3c558d1b9e29fa239c1462 KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
-f7ad21173a1934329ac5bf0c8b5443d5666d3ce6 Linux 6.12.52-rc1
+7d197583b7d1f30652569f958f9bd0cb1bb5f0c5 crypto: sha256 - fix crash at kexec
+ae3d5019331db134be2807b4a034f61d96591f3c selftests: mptcp: connect: fix build regression caused by backport
+48fc0bfeeb73c3895f53c52efe10b67455804ed7 cacheinfo: Use RISC-V's init_cache_level() as generic OF implementation
+e5472e075dbd12d487c580fc22cb29da8a4c76c3 cacheinfo: Return error code in init_of_cache_level()
+c86b86f6791bb7a5f29fa5696cb8a3839ebf1f3a cacheinfo: Check 'cache-unified' property to count cache leaves
+9974d39506adfd739becec3d100851ea1f5bcfb1 ACPI: PPTT: Remove acpi_find_cache_levels()
+f83142be5306ac4dddbb7ef29791f49697ea66e3 ACPI: PPTT: Update acpi_find_last_cache_level() to acpi_get_cache_info()
+0547c990de7f879b2ae2bee6783e445e5591f52d arch_topology: Build cacheinfo from primary CPU
+788b1c3bfcb95845d43384a349c936ad1553d146 gcc-plugins: Remove TODO_verify_il for GCC >= 16
+81c83b1caec81d6da7ac011296ebfaf172b8499d scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+17b1a97e9514c6c35cdbf19e0c7adc2178d6793c media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+a7970811a4781136e17f2cfe08b636a3c40ffcd3 media: rc: fix races with imon_disconnect()
+fae2490ce731a3267bc99480c4a7b4d90cfeaf1c media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+8ae22ffbbdd39502144164a66c6be25072fea4a9 ASoC: qcom: audioreach: fix potential null pointer dereference
+668399024a443061904b1e95e7247974ed2bf4da KVM: arm64: Fix softirq masking in FPSIMD register saving sequence
+64251178d2f1cb207550dff0b0afff3929c3af0a media: tunner: xc5000: Refactor firmware load
+8edff025efd7b17abce10957f8cd8eaeefda8634 media: tuner: xc5000: Fix use-after-free in xc5000_release
+856a90e0c7018062afe04b354f971057bef7a550 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+2196378b2e59803e6f294b5579ea4a5ac268107f minmax: don't use max() in situations that want a C constant expression
+5dc117df7e5a3d85058bf31078594025d683f6e7 minmax: simplify min()/max()/clamp() implementation
+e3ccec63791a26e55963c11e416859e367ab1180 minmax: improve macro expansion and type checking
+2283fb2d36d2f41702af34c2bd524dc03bf4e7c6 minmax: fix up min3() and max3() too
+fc5f2714d4b02d185f9689278a0d520dfefeb65f minmax.h: add whitespace around operators and after commas
+449c622caea2ff28180d8e34878c9ada34d2e22c minmax.h: update some comments
+2b4d0f58ecefd770afbcbce3054401d03706fcfe minmax.h: reduce the #define expansion of min(), max() and clamp()
+117d74c8a9ab050a0aedda79d1c53171b7a2cb14 minmax.h: use BUILD_BUG_ON_MSG() for the lo < hi test in clamp()
+8be1bbce1b546e0eab51b9e0c0144e2a6bc42b6b minmax.h: move all the clamp() definitions after the min/max() ones
+ac72dbfa81fa1206921b01d5639d12a29d1f3b66 minmax.h: simplify the variants of clamp()
+5058e203d1f1dcdd47456e1f19acd4ffe78214f9 minmax.h: remove some #defines that are only expanded once
+206e37af636baa25146496a430d0d55885c5a7f7 USB: serial: option: add SIMCom 8230C compositions
+1d91a2903b7decd404c3caf1483e634d6e238c8e wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+59516d77e59a588c9ac857c81d72d3f3a6ae1cd5 dm-integrity: limit MAX_TAG_SIZE to 255
+1d8b3f619fe5999e8c03791780793d101ef83b61 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+93b878b5d46a63ece5184d5a9cc4f85e4dea36e5 ASoC: rt5682s: Adjust SAR ADC button mode to fix noise issue
+2338ca9637877b0918afeed8477470b807174abe btrfs: ref-verify: handle damaged extent root tree
+f3c43e6eb85a9bc5931ce2ce9d869a2cb13a7ffa can: hi311x: fix null pointer dereference when resuming from sleep before interface was enabled
+bec6991aee079ddd5be9a752a9f48ea6358b0e8b can: rcar_canfd: Fix controller mode setting
+6b1f7350e507beadb636451ff2f091a7f40fc3fd hid: fix I2C read buffer overflow in raw_event() for mcp2221
+f2acdb08ed5690bbd08b92219268fc7c6938784e serial: stm32: allow selecting console when the driver is module
+39277570621169ea6d1710251b81688c6bd72531 staging: axis-fifo: fix maximum TX packet length check
+0eb1a1b39da1ff8e50a949a266114e0144f39506 staging: axis-fifo: fix TX handling on copy_from_user() failure
+b18fe0f646928130cc1f437c4fa9cd52c33f87fc staging: axis-fifo: flush RX FIFO on read errors
+3aa690f26f11fc27d1573e5cea3e732527fd9680 driver core/PM: Set power.no_callbacks along with power.no_pm
+a1c6b87d88a697c7e565471847d5c3509b3feebb crypto: rng - Ensure set_ent is always present
+35e14d2c2e9992528a25b39600e666221d08e293 net/9p: fix double req put in p9_fd_cancelled
+24b555bd2c99f5acddf13454b8b010075b374bcb Linux 6.1.156-rc1
 
---===============3296985925434447976==--
+--===============2684708466507858555==--
