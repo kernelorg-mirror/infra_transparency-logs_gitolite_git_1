@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 10 Oct 2025 09:41:40 -0000
-Message-Id: <176008930039.2290657.14281551544946966881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 10 Oct 2025 10:01:22 -0000
+Message-Id: <176009048218.2306694.5462611436199837727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/main
-    old: 5c15551e75e43ddfa347c5d03b0c476c9dd3128c
-    new: fa2b0fef8deaedb7cba9541763502b9ce1f5ab47
-    log: |
-         fa2b0fef8deaedb7cba9541763502b9ce1f5ab47 feat!(tpm2sh): baseline for 0.11
-         
+  - ref: refs/tags/parisc-for-6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8c688d36a87c00b9644ce6012789d70066058b11
