@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 10 Oct 2025 16:06:50 -0000
-Message-Id: <176011241074.2630875.17111956832851709453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 10 Oct 2025 16:07:21 -0000
+Message-Id: <176011244112.2631331.4085801796565485920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: 2b10caba3eb5ff4e92e9a091130025ea894cbfee
-    new: 615036fbc4e6c471a83663c30d689620cb36d574
+  - ref: refs/heads/dev
+    old: 8ec5fc1ff77e29d2cb2ba99a280240188b276805
+    new: 7d9fdb3c9e5b7c67e7dc50e6edf33eb42a8f6ce2
     log: |
-         5f48720c71e0a8545ee7aac01d390622691f142b f2fs_io: measure a fsync latency
-         60385790d515000e4382477afbfbc4ed56125f4f f2fs_io: measure atomic operation latency with random write
-         40a14ace4533c22d4b7e363c0edafee49c45dae9 f2fs_io: add mlock to measure the read speed
-         3770cac99729191a84e24f47617cdcf5da0ac472 f2fs_io: add dontcache to measure RWF_DONTCACHE speed
-         f46c3365836ae512df5c888ab120c25d8dfe5998 f2fs_io: let's try to get contigous memory if possible
-         615036fbc4e6c471a83663c30d689620cb36d574 f2fs_io: calculate IO bandwidth vs. mlock latency
+         5c6190db67e046c78f063872603cdd6a49888af4 f2fs: don't call iput() from f2fs_drop_inode()
+         7d9fdb3c9e5b7c67e7dc50e6edf33eb42a8f6ce2 f2fs: fix wrong block mapping for multi-devices
          
