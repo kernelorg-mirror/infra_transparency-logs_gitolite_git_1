@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1819507443748926755=="
+Content-Type: multipart/mixed; boundary="===============5088584340867172725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 10 Oct 2025 14:07:11 -0000
-Message-Id: <176010523159.2526490.1419015410217936726@gitolite.kernel.org>
+Date: Fri, 10 Oct 2025 14:07:18 -0000
+Message-Id: <176010523847.2526682.4511659415951696789@gitolite.kernel.org>
 
---===============1819507443748926755==
+--===============5088584340867172725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath12k-ng
-    old: c57176c0dad91a00bd20feb5f6dc4e8d575f4628
+  - ref: refs/heads/pending-ath12k-ng
+    old: eeb2d7f79eafa9014fc27228e06d037c0814937e
     new: 25122460e7f96864a80b59ffe6c953911516d3b3
-    log: revlist-c57176c0dad9-25122460e7f9.txt
+    log: revlist-eeb2d7f79eaf-25122460e7f9.txt
 
---===============1819507443748926755==
+--===============5088584340867172725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c57176c0dad9-25122460e7f9.txt
+Content-Disposition: attachment; filename=revlist-eeb2d7f79eaf-25122460e7f9.txt
 
 c0600b35e08db781511c2b35af2d2ec58bbfbdfd wifi: ath12k: Move srng config and hal_ops to hw specific hal files
 74ed243dad18366aeb836f40b921758e20d9d5b7 wifi: ath12k: Initialize desc_size through hal_init
@@ -45,4 +45,4 @@ ea23813a2e442f96a05d3d2ddf3d42c6005b1862 wifi: ath12k: Move HAL Cookie Conversio
 49ba5debad420506eef9fcef38d1fdce41010901 wifi: ath12k: Rename hal_ops to ops
 25122460e7f96864a80b59ffe6c953911516d3b3 wifi: ath12k: Drop hal_ prefix from hardware register names
 
---===============1819507443748926755==--
+--===============5088584340867172725==--
