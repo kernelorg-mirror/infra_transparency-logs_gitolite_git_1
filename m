@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 10 Oct 2025 22:04:45 -0000
-Message-Id: <176013388547.2944499.4311321180042267592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Fri, 10 Oct 2025 22:05:23 -0000
+Message-Id: <176013392366.2946531.18274583725953751363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/fixes
-    old: 7882d2c45ccba538cddb0615a893a008dd2efcde
-    new: 852947be66b826c3d0ba328e19a3559fdf7ac726
-    log: |
-         852947be66b826c3d0ba328e19a3559fdf7ac726 riscv: kprobes: convert one final __ASSEMBLY__ to __ASSEMBLER__
-         
+  - ref: refs/tags/mm-nonmm-stable-2025-10-10-15-03
+    old: 0000000000000000000000000000000000000000
+    new: 4d3f1f1e64fbcc7266e9a350691247a7e0762d31
