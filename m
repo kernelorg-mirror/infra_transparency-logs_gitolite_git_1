@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 10 Oct 2025 07:28:42 -0000
-Message-Id: <176008132287.2177101.14695674732138672227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 10 Oct 2025 07:36:58 -0000
+Message-Id: <176008181896.2184846.2877675435042239291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 18a7e218cfcdca6666e1f7356533e4c988780b57
-    new: f3426ac54c42c3260096ddc50b5470eb179fb06a
+  - ref: refs/heads/gpio/for-current
+    old: 83d314fac266a3d9de61e4a4490c4f2eafc86b05
+    new: b5f8aa8d4bde0cf3e4595af5a536da337e5f1c78
     log: |
-         f3426ac54c42c3260096ddc50b5470eb179fb06a dpll: zl3073x: Increase maximum size of flash utility
+         b5f8aa8d4bde0cf3e4595af5a536da337e5f1c78 gpio: wcd934x: mark the GPIO controller as sleeping
          
