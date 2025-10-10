@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5634428721808430825=="
+Content-Type: multipart/mixed; boundary="===============7307705271691783139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 10 Oct 2025 12:46:38 -0000
-Message-Id: <176010039826.2454360.16518748242562576423@gitolite.kernel.org>
+Message-Id: <176010039862.2454396.11461132700834006581@gitolite.kernel.org>
 
---===============5634428721808430825==
+--===============7307705271691783139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,66 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 2c0548712531f8b879edccf67949a8e5abe4e5e4
-    new: b01076ce16edc17bd4244f75e3d539bbaf8b8e1d
-    log: revlist-2c0548712531-b01076ce16ed.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 3dcb72377f42ea5181a3bc22ab947227c2c6a2dc
+    new: c290a6f127312b6a54109de65ecba7c4fae420aa
+    log: revlist-3dcb72377f42-c290a6f12731.txt
 
---===============5634428721808430825==
+--===============7307705271691783139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760100457 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760100458 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1760100396-a678ea007d024251cda820667e737ae5f1b4ce19
+nonce 1760100397-e3090e60acfdad3be9505080171bbeb48a70ae5e
 
-2c0548712531f8b879edccf67949a8e5abe4e5e4 b01076ce16edc17bd4244f75e3d539bbaf8b8e1d refs/heads/linux-5.4.y
+3dcb72377f42ea5181a3bc22ab947227c2c6a2dc c290a6f127312b6a54109de65ecba7c4fae420aa refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjpAGobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1E8P/3FR1fxIh0mld1UbfAtT
-hda6VUZp6zw/G9g9kaxaV1PIW+c2Z/VKIjkFtFRUyEhqVUzH4EgTX3wp1UlzSecI
-CmyEEaSi5//7yLnELmmiLwWy+lytYjQyDu0NyQd5429QbDwZPLKtfiQfduhJXecc
-aaT+tRunsdH8u93eK+vhOxYKQ3uY4YnFGcd5f8QD6ByI3XEPfB0jTlJo6pyp8cf/
-SZvBlpX9f7mm0T9zCQfrhgqO9VCdziu5iyQn4zsXDQBZprJ6HsW/FCzMVk16yrlR
-XkG+QJfItprs0DmoKha0KDVtyimE4sj0jV5elZRX24SAWzjZPl+pQWxcepkERu1T
-OtCkZCWwayyDsbNW/El0jtz7Vo+IFm5/J7xVcivMwwCU6M8SQQnK81K6SargJoTV
-utoDs0eq+eM/JqGggS+g57MeexhJ+VK3nHFXD0ScUa7IZfpciG3ySmrWf9kaJ2gg
-rUuBgdDuyB2upm8zVZdKn0RkuoTbcLRRCw7wvVhpXzsatihXa/Gi8gUHBNiz75JG
-1et86T4atG2+MRZIA19hwupsWYhSH7QM6O+0Ldtd463w8QKEgeik8GxDTclEp5Eb
-yB6J97Gp7+PxDQhYUqiZ96okAfIwiD2Co3g0tdOsa1Ik1hE6aJw+gEeC7Z7qYcZy
-yTrww1svqCIDXcLgnnULFH0g
-=+9i5
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TcwP/0jDU55rBR0qKyVn8mWf
+1ClK+fDps9hgn7xmQUfi9Kn7aB+KgnTCPGqQ5kAhDTHMAWp3eEFNC9fhDynT3ssQ
+7lSYpY+lCGScxtMfRB6gOTGihZgtt50U+rMSIH2SL/j4ZkKusRJ3uzH3kBdrecr/
+2TmUO7sYdto9gtStNcOOFoKSB662l1C92xqiUy3g9QQ0PQzf3RPQNBE74S6QzDmp
+ugZ818bgCzLJZA8jwPM4Aljh3r871Vftvxr2iGKbuXW0/2YmAd1Vu9MhyOhtlc2g
+irKvXuanzhvGpK6kaCSlNJYBwyCZ1oJle2TcN27konqhfggohUikKLMd0UGWQRdF
+oJb9Db//qDOXoiHCQl/CdfCKVCE9UVR6bBQzsJSo8r6UgX0RWeetDHzrKYjIKX8d
+yAW6pM+0Vxk2OZKbK5QG2QEeORH7PPDAfPXNvfskh7O77pBoee/wj/OFUCfNs9XD
+ak/418icBQkrnpySV842PSPwxsjRHgwoNumJ/X8C8+yGMs8c+iUxESReFeYc2BXi
+AFZEZEmd2ijMzvGnvkfN7f7+5zDxrr93TRR7xtHy6hYxnFK7d1ypsGDza4xXuqTo
+rDi94ZOxavwHnidc+LlhixhV0DkWT4ZQgGXW4KhZuCxo8BI8UqiPsaxz7RoQ8hDl
+oaFgdj1am6+ySgCIYOceY5Zz
+=FPB3
 -----END PGP SIGNATURE-----
 
---===============5634428721808430825==
+--===============7307705271691783139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c0548712531-b01076ce16ed.txt
+Content-Disposition: attachment; filename=revlist-3dcb72377f42-c290a6f12731.txt
 
-464aa4e22cd14575674d9c48fb90d448cae50707 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
-7c0be6f402f4596730d805cf38428f0af7202a7e media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
-db9724eab196fbc67ec3fc537e6958ba9e017ad7 udp: Fix memory accounting leak.
-801e531e9a975b2c635e3110aeeeb20317460687 media: tunner: xc5000: Refactor firmware load
-93c84028310e952cf696c06f96e346e3346bc655 media: tuner: xc5000: Fix use-after-free in xc5000_release
-cd04d50bcdf02e89e57b7c6aec14571b4361dc27 media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
-c60561e90fc294dbb28f0fd19c6f66867d3e322b media: rc: Add support for another iMON 0xffdc device
-76bdce81a57ff423c03b21ac95cb0a5e97d0b144 media: imon: reorganize serialization
-95f3a749cc7401cc5610c94f6d8b1a2a62ac7bc3 media: imon: grab lock earlier in imon_ir_change_protocol()
-21122dd36ff5356b56002638bfe25f71d8816f06 media: rc: fix races with imon_disconnect()
-334ecf213f69b62e150a2827f25a8e2a2fe691ef USB: serial: option: add SIMCom 8230C compositions
-241d806e73d044b572b8026c8494c2cdf92ab421 wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
-8fec81b107058e615c13b3d6da9b196a6bd78596 dm-integrity: limit MAX_TAG_SIZE to 255
-a5e780dd7555bf7eda2901608f5fa867477f6657 perf subcmd: avoid crash in exclude_cmds when excludes is empty
-14c3a38cbf8fee4b0f5e10afc53348b36242b8df staging: axis-fifo: fix maximum TX packet length check
-57d7422746bd927b9b8809944dc0b084d96b10d8 staging: axis-fifo: flush RX FIFO on read errors
-3a3cc2ec25402aae9aedea57d349364d79f52a8c driver core/PM: Set power.no_callbacks along with power.no_pm
-b01076ce16edc17bd4244f75e3d539bbaf8b8e1d Linux 5.4.301-rc1
+bcbb473f7c6a2f5c257086c066d93f68b38adb06 scsi: target: target_core_configfs: Add length check to avoid buffer overflow
+855a8bf66a8207c407b54f115b041625aa84d415 media: b2c2: Fix use-after-free causing by irq_check_work in flexcop_pci_remove
+99fb93e21c677b9ea023c3124a4259b84f4c49a2 media: rc: fix races with imon_disconnect()
+39c83de1222a22664e6108e0d1ae92e19bf49e8e udp: Fix memory accounting leak.
+cc8001db32f680e10e2c43818e8f3030a6337a9a media: tunner: xc5000: Refactor firmware load
+6e13cf6c106374fa2952c3c58b1f602878569d0b media: tuner: xc5000: Fix use-after-free in xc5000_release
+934719048f1646792b13f2e9a883019ef34018fb media: i2c: tc358743: Fix use-after-free bugs caused by orphan timer in probe
+56a5e9c1b1152dfc4006855197c14dbbac79905f USB: serial: option: add SIMCom 8230C compositions
+341e468d6c41ec164df9f274eaf78bdf191f138a wifi: rtlwifi: rtl8192cu: Don't claim USB ID 07b8:8188
+c78b325b7794b981c84dd10b88465bf5c8c358ec dm-integrity: limit MAX_TAG_SIZE to 255
+403e0608880c55692400dd7827387fcafa9ed851 perf subcmd: avoid crash in exclude_cmds when excludes is empty
+1eb26ff5940ab4005ceb46855d8dcd28329c510b hid: fix I2C read buffer overflow in raw_event() for mcp2221
+fd3d051a796a8bce7a4065a0571d1c9bf72bd182 serial: stm32: allow selecting console when the driver is module
+b78e2eb0e40c6dea557958b6af4cc7b2e60f6fa8 staging: axis-fifo: fix maximum TX packet length check
+7cfb84f325dbe88dff439c5f1e88540642d68a2a staging: axis-fifo: flush RX FIFO on read errors
+912378181ea7ec7880c09c394868bb7c80ce1798 driver core/PM: Set power.no_callbacks along with power.no_pm
+dfb6ec1b571ba9c55c5742ca5b3263734371b226 drm/amd/display: Remove redundant safeguards for dmub-srv destroy()
+cfcfd18ccbb5c30387d8286e9fd25bd6378b64c1 drm/amd/display: Fix potential null dereference
+1f45e62f4c1d529263eaa9796bda8023da521f3c crypto: rng - Ensure set_ent is always present
+c290a6f127312b6a54109de65ecba7c4fae420aa Linux 5.10.246-rc1
 
---===============5634428721808430825==--
+--===============7307705271691783139==--
