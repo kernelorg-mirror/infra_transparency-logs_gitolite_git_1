@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Sat, 11 Oct 2025 13:26:41 -0000
-Message-Id: <176018920145.3707884.525858708871860335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 11 Oct 2025 13:40:32 -0000
+Message-Id: <176019003234.3720195.1131211197241469072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: fc26738021a842dc98bd87d26579847efe31c168
-    new: 6a1714b28bc97c1b871984d15858986803128ab3
-    log: |
-         52927cf12611b9d9af59cf4c9d9b926cf0663001 include/a2i/a2i/: Simplify macros by calling a2i()
-         ec798a0996736b5df47a399aa85d236cfdd1dc0f man/man3/: Use 'typename' to document type parameters
-         6a1714b28bc97c1b871984d15858986803128ab3 share/tests/: test_range(): Test values closer to the limits of the type
-         
+  - ref: refs/heads/x86/core
+    old: 6c6e6a5416471498d8aafc050110bec9467e4da7
+    new: 4a1e02b15ac174c3c6d5e358e67c4ba980e7b336
