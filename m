@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3682398154633083399=="
+Content-Type: multipart/mixed; boundary="===============2108812236050028924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 11 Oct 2025 03:07:03 -0000
-Message-Id: <176015202345.3199328.8306500577862414497@gitolite.kernel.org>
+Date: Sat, 11 Oct 2025 03:08:43 -0000
+Message-Id: <176015212396.3200406.16460969049000406829@gitolite.kernel.org>
 
---===============3682398154633083399==
+--===============2108812236050028924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: e2d3af0d64e5fe2ee269e8f082642f82bcca3903
+  - ref: refs/heads/fixes
+    old: f83ec76bf285bea5727f478a68b894f5543ca76e
     new: 571a55ef2c8a203c476497b2425bcbda0266869e
-    log: revlist-e2d3af0d64e5-571a55ef2c8a.txt
+    log: revlist-f83ec76bf285-571a55ef2c8a.txt
 
---===============3682398154633083399==
+--===============2108812236050028924==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e2d3af0d64e5-571a55ef2c8a.txt
+Content-Disposition: attachment; filename=revlist-f83ec76bf285-571a55ef2c8a.txt
 
 1071d560afb4c245c2076494226df47db5a35708 dm-stripe: fix a possible integer overflow
 f63aaf6e71de897954fbde4e4a17a9dcdbe5e7e1 clk: renesas: mstp: Add genpd OF provider at postcore_initcall()
@@ -511,4 +511,4 @@ c68472b46416573fa2af4851b2dad94971f544d4 Merge tag 'for-linus' of git://git.kern
 e5f0a698b34ed76002dc5cff3804a61c80233a7a Linux 6.17
 571a55ef2c8a203c476497b2425bcbda0266869e erofs: fix crafted invalid cases for encoded extents
 
---===============3682398154633083399==--
+--===============2108812236050028924==--
