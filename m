@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sat, 11 Oct 2025 19:30:30 -0000
-Message-Id: <176021103088.4007048.4107491666360668680@gitolite.kernel.org>
+Date: Sat, 11 Oct 2025 19:37:36 -0000
+Message-Id: <176021145630.4012184.7542832246347831052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/tags/v6.17
+  - ref: refs/tags/kbuild-fixes-6.18-1
     old: 0000000000000000000000000000000000000000
-    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
-  - ref: refs/tags/v6.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89d926fa53d0a6c257c4e8ac1c00c3d9a194ef31
-  - ref: refs/tags/v6.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
-  - ref: refs/tags/v6.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 38018d744897d57a1fe8023770d32d622a61611b
-  - ref: refs/tags/v6.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0124ee3e78e4adb40db91280f3e468373e48928e
-  - ref: refs/tags/v6.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
+    new: 039074c532bc13005ed311e213848af6bcd20ea4
