@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
-Date: Sat, 11 Oct 2025 00:48:06 -0000
-Message-Id: <176014368630.3086971.13845471835767421747@gitolite.kernel.org>
+Date: Sat, 11 Oct 2025 00:48:32 -0000
+Message-Id: <176014371292.3087268.9472332508568699134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pjw/riscv
 user: pjw
 changes:
-  - ref: refs/heads/riscv-experimental-for-v6.18
-    old: 73bd2d0e80e9fbd48e3fad63097b51bff509fe39
+  - ref: refs/heads/fixes
+    old: d0e1f2110a5eeb6e410b2dd37d98bc5b30da7bc7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-fixes-1-for-v6.17-rc
-    old: 327f578ec0002eae3cb8e65f96121e04ff447e71
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv-fixes-2-for-v6.17-rc
-    old: e24108012ce9662d90093f91d5ffebcbf78da7de
+  - ref: refs/heads/for-next
+    old: 467e050e9760fc31dcf854ec88401e18419f5f78
     new: 0000000000000000000000000000000000000000
