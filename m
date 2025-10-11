@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 11 Oct 2025 00:41:35 -0000
-Message-Id: <176014329551.3074776.4120488856695352526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Sat, 11 Oct 2025 00:41:40 -0000
+Message-Id: <176014330065.3074957.5825438741489667722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/tags/bpf-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 6e3ec5072acbe039dfd3660e9c41e2346ce8ae61
+  - ref: refs/heads/notes
+    old: a56a5caae0369271800a441294c9d2b72362cbf7
+    new: 0000000000000000000000000000000000000000
