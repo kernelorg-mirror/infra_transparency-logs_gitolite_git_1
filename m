@@ -1,20 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sat, 11 Oct 2025 10:29:08 -0000
-Message-Id: <176017854843.3563106.2397447908396931595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 11 Oct 2025 10:49:33 -0000
+Message-Id: <176017977345.3580994.17188034201908617158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: fef0b3bbf4947ac7c50c32050992d89fa55c4dff
-    new: 919daee84a86592c8fe6710e16a788dfb706962a
+  - ref: refs/heads/for-linus
+    old: 30b3211aa24161856134b2c2ea2ab1c6eb534b36
+    new: 77908b81766781dfcd086878aefc29f5db8dae6a
     log: |
-         a96c15581a53ccdb01c2ccd386f6bd71f96ee2e5 linux-firmware: Add ISH firmware file for Intel Pather Lake platform
-         919daee84a86592c8fe6710e16a788dfb706962a Merge branch 'ish-ptl' into 'main'
+         77908b81766781dfcd086878aefc29f5db8dae6a ALSA: usb-audio: apply quirk for Huawei Technologies Co., Ltd. CM-Q3
+         
+  - ref: refs/heads/for-next
+    old: 30b3211aa24161856134b2c2ea2ab1c6eb534b36
+    new: 77908b81766781dfcd086878aefc29f5db8dae6a
+    log: |
+         77908b81766781dfcd086878aefc29f5db8dae6a ALSA: usb-audio: apply quirk for Huawei Technologies Co., Ltd. CM-Q3
+         
+  - ref: refs/heads/master
+    old: 7e9827afc78073096149cf3565ba668fe2ef4831
+    new: 4f632750ad41ade6ff0ca9dc0619232a759b446d
+    log: |
+         77908b81766781dfcd086878aefc29f5db8dae6a ALSA: usb-audio: apply quirk for Huawei Technologies Co., Ltd. CM-Q3
+         4f632750ad41ade6ff0ca9dc0619232a759b446d Merge branch 'for-linus'
          
