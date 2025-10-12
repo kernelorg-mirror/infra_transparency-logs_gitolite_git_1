@@ -1,60 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============0673645185407136004=="
+Content-Type: multipart/mixed; boundary="===============0235566940847833386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 12 Oct 2025 11:49:03 -0000
-Message-Id: <176026974395.764911.16981058181931057178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 12 Oct 2025 13:12:19 -0000
+Message-Id: <176027473911.831355.18307447252305200191@gitolite.kernel.org>
 
---===============0673645185407136004==
+--===============0235566940847833386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/gregkh-strak
-    old: 0fb83de9d72892f542d27d69f4cd1a60d1877199
-    new: 9f3720ed675dd51000f9afa189751d4a6e94dd8f
-    log: |
-         16617e0825897aa2311be470e6fb9264fce26a0b update cvelistV5
-         61a35e09789f625368139bb38fecb6c732341f0b update cvelistV5
-         dad905e825d241370d8c0166e3e40b86fc47119a updates based on latest stable kernel releases
-         87de9ea37b447496d9868c357d3f474fadea32e2 tools: cve_utils: add some more tests for version_utils.
-         9f3720ed675dd51000f9afa189751d4a6e94dd8f strak: work in progress...
-         
+  - ref: refs/heads/dmabuf-vfio
+    old: 631d7bba0552b7e039e0fd9ed33873df1434fdae
+    new: 44b418f3086e3e1f8934e59aed686b72325273f5
+    log: revlist-631d7bba0552-44b418f3086e.txt
 
---===============0673645185407136004==
+--===============0235566940847833386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-631d7bba0552-44b418f3086e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760269800 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1760269738-d30e72edfebac483277879f140eb5ad9bd9186ff
+96b993dd70e4e5c5c525a70bde602051aac5d7e6 vfio/pci: Add dma-buf export support for MMIO regions
+4925eaca3970b0c479177058ed20accd8ecfab9e dma-mapping: prepare dma_map_ops to conversion to physical address
+63fb4a86c7411a799270ee526555a0642df15763 dma-mapping: convert dummy ops to physical address mapping
+af21359d4a050e8032e64ba79c065f0152bf4e21 ARM: dma-mapping: Reduce struct page exposure in arch_sync_dma*()
+44ffdc581bbd482fa70bb3afeb4083e6bf7df6df ARM: dma-mapping: Switch to physical address mapping callbacks
+8303bec7639b778157742b239500e83e4a0465e0 xen: swiotlb: Switch to physical address mapping callbacks
+b22d3e16955d58d2187dd878861853cfd1926d59 dma-mapping: remove unused mapping resource callbacks
+094dbb2d4d9ae3caa97043a94da59ca9fe6f5d80 alpha: Convert mapping routine to rely on physical address
+db2e063a520cf293ef8de355f6da38a80a2c1371 MIPS/jazzdma: Provide physical address directly
+3583d9529906693edf0759f49d3307d568a90fe8 parisc: Convert DMA map_page to map_phys interface
+90b8bf5bf0d15e2dae9321292b3047ea4a2c5f1c powerpc: Convert to physical address DMA mapping
+eb4ab411532b1c3cad293cbfa2753f041c503ef4 sparc: Use physical address DMA mapping
+c6f56e247cd033fff80264111b30ab6ded50d182 x86: Use physical address for DMA mapping
+471ed445ee338086c6124c0af228ed7c718a88c3 xen: swiotlb: Convert mapping routine to rely on physical address
+44b418f3086e3e1f8934e59aed686b72325273f5 dma-mapping: remove unused map_page callback
 
-0fb83de9d72892f542d27d69f4cd1a60d1877199 9f3720ed675dd51000f9afa189751d4a6e94dd8f refs/heads/gregkh-strak
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrlegbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JJUQAI+t2xLwVtXxXMtBrxiq
-Rrz4Sr/pCOJaBXao02WsMEdJqvOLSBF87ZaI9M/cm1N3SR8yrYvM2ncME3St8mUW
-YZCDWKejwlOY12EQESpFbeVMWwjlNdDwWqgPgMD3pohjHY4IoHpb+BtQ3g0JQ+OF
-+MBkNbpfu9sMFe4Zs041c/STvaW14qqiM18nc505XkYJIIH8GpikpGtcA4+AGX9Y
-XeUipLsx7zTzL16d+zVN4xsWaxKE1/V9OpQeXg56pUSs5PfoZAjlDNnUorcWTb4p
-ljHE1frnUmKrakpPF2pBtOGWaAHhQ9yRdUNRcH+V4p4pvQrAMa8b0V1XwdjdwIAc
-JgC2FYfiu3h6RwsrSphmxw0aR640mn+RIqJmzOMRf/LsTmnVnDshqrjhDgv3iF5U
-2dlvCkbwfx/2EHziAtMcg+AYD4pzAvuThiFrmBZwYl8a1Cj3Pq1sDGkDWHoyALaC
-So0Y0v0feInlnMc7QgWw0q6jaW0kx/lfB9vwtlRE/NAyOon8ZgZg2cDCYcnBS8h4
-cVwS7JDTHpcz/oyZTS8BrmPuxwiobgiJCd7SAUp2PaG1SGpRntXHKczhnP/YKIFd
-SBiICBxT/LjtDeD/8mK83EEEeTtXyP/DIXxWcUXk3tQoxT2S47F2Ol/7qSbmIiKJ
-GYzpm/6GGZwF2j4vUB538xwI
-=hzDJ
------END PGP SIGNATURE-----
-
---===============0673645185407136004==--
+--===============0235566940847833386==--
