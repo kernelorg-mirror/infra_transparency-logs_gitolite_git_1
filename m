@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5345142000574645938=="
+Content-Type: multipart/mixed; boundary="===============4679892426420453803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 12 Oct 2025 11:12:02 -0000
-Message-Id: <176026752256.734481.11055927621281846653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 12 Oct 2025 11:19:20 -0000
+Message-Id: <176026796055.738871.9064761392010907901@gitolite.kernel.org>
 
---===============5345142000574645938==
+--===============4679892426420453803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 16617e0825897aa2311be470e6fb9264fce26a0b
-    new: dad905e825d241370d8c0166e3e40b86fc47119a
+    old: a384d87e169c95ce019813bb099040bb765761b0
+    new: b0c097a8390c57ef95e488cf5094e35659ec54ec
     log: |
-         61a35e09789f625368139bb38fecb6c732341f0b update cvelistV5
-         dad905e825d241370d8c0166e3e40b86fc47119a updates based on latest stable kernel releases
+         b0c097a8390c57ef95e488cf5094e35659ec54ec 6.16 is now end-of-life
          
 
---===============5345142000574645938==
+--===============4679892426420453803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760267583 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1760267521-eae80cdfc547156113bc111021374574b2baad8d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760268020 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1760267958-8c2f8a834907862db75cba77a18ac1a5a1cc5669
 
-16617e0825897aa2311be470e6fb9264fce26a0b dad905e825d241370d8c0166e3e40b86fc47119a refs/heads/master
+a384d87e169c95ce019813bb099040bb765761b0 b0c097a8390c57ef95e488cf5094e35659ec54ec refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrjT8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p98P/0yuNJjA8EnLo8StNggf
-MOXrSrVBV2peLU+LHwzYz/MAKB4OTc/S3FZ2/Xg6JmaShCKh/TaGM9p4P+0nXR4s
-LA9KNblmhvsurSq/iD0z9wPzmSR2Z66DBdpA63dnG2lSG/10InDkBZT7RPh3Efy4
-04dd2hX+a6QNloQhM5eec69QzvFw3PD/fjXwnaWyKfbX386Ux2cLqjYXkSMRdBs6
-ScFtCl1MLxdv7bWWrg8noFKb7xqxY2Nryu+ZNFpuTBLOHYlCiEsGpMFq6DWjHqZC
-FEwHmqKhL5GZgSXDOk0XObaxTnLinxWJEzUT+w6OUZYoOsL9RSwanVNDVzvpvbMF
-9X8qlA7/i6w+nIycS17brpaCKG0b1JITFAh/Xwcozvj8jpcmPRQGsTourshO51Yo
-1w11//DyI5mWLwy+MsBCFDG6wf79aZKfahwv61nFnvR/NWLM1bvgZKVsrnos+E0z
-3eCLCQyF+VWnLyfASyeMqyy6Ootyiru3p7AVARWzoj7kdRw0uKM+sKQddgI6Ioay
-57At35Gl3PR0I5oqwyO6RoSgPUkO8uZVeckvQBrxPPaN6b+Y1wTyJJ+sD+1akqOc
-ZmJj/Z+NruoPZM2Z3+kbM/MRgOHdL8m1wvu5kcpxelfdOJKgDzQKErTIQwyBoJux
-2Yx5MdQ76HulrDRO0bQB2bhs
-=TLqg
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrjvQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WlkQAMXv5GU5WGX8t2CAUSyP
++aGX3nUQ8BTZL9CUkYZ7jENJEpvA7ZOeoRIxegcmzlnXdiuTJdVvuA0EOHgcQteL
+TqNO29xY24anu7qz+zYSvIGVCxfqX9rvMjRu3CA6LqlCvzc6QRi2FQzYfKPWiltA
+cy5UK1rsDqe42G6hAnn2oIxc1ZkCoGGmUksEwN5MxLKGk3wcAibnrtkr65OLzDXU
+aeHI/uxbXSBTvs6/Xm2VCRBCN7lMX/yyZ5n6vl9E7oADtXhWspG86J5qWPA3cFUV
+8CCyS6+UWMmem5SEDm+5PWsq3NLW85iUwbAPeAjos6rC2+mIhbSBYspgw3sIME30
++qetTfXgk3ktabMgNhXUfjAhqPPnA8iBbHtT2k3Fbs6ATOxan60buRYJ+Mp0bN96
+fIBNGzSAmFdXs5SaKer7YtwH9QKN9YzQsC9rj3DVkXJViSvC+4KPsFczl+B0+tPC
+r8Zsd6TDLISjIO5ZfavGOTA+rlEv1dfPW7zi8uBabD5lVu4zbBR51U4JoVUpmpT/
+Ld2NQ91WVUIrN8LPZ5BZ9ZgU4I6HMj9z+JRFcTj9H38E4/U7U0sIJPGjHlvgc1dD
+yU6fz82eJprIAMca/AheHjoW+LInHdfPhsWrQYAkuvJLyWME+2Rp3zpE7qIBY/TC
+ZPn2qheNXStlu0bq+Umm1wdk
+=BemR
 -----END PGP SIGNATURE-----
 
---===============5345142000574645938==--
+--===============4679892426420453803==--
