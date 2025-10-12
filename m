@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2965467461165830086=="
+Content-Type: multipart/mixed; boundary="===============0136189211265989298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 12 Oct 2025 06:32:02 -0000
-Message-Id: <176025072272.348062.1003751063053579306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 12 Oct 2025 06:32:29 -0000
+Message-Id: <176025074924.348527.12311647027928831960@gitolite.kernel.org>
 
---===============2965467461165830086==
+--===============0136189211265989298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 0d97f2067c166eb495771fede9f7b73999c67f66
     new: 67029a49db6c1f21106a1b5fcdd0ea234a6e0711
     log: revlist-0d97f2067c16-67029a49db6c.txt
 
---===============2965467461165830086==
+--===============0136189211265989298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250781 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1760250719-c70a0534921e275864607decabde5976f670a446
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250806 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1760250744-0acd5d9fa4319b81cf279ea627e97c6ccbd884fb
 
-0d97f2067c166eb495771fede9f7b73999c67f66 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 refs/heads/master
+0d97f2067c166eb495771fede9f7b73999c67f66 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrS50bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8asP/1HCHKCalyfakWi3lMbV
-BQr/lPJWgChm+Ae+pNjAhgJC19zzMl8TevBe3o4YokPhaCjaBA2pGpYw39xCDkwh
-OjMXKyALi1mQLvoLkYyyC7p/F6t6cPhzHIZeONpThl3JRhSr4FhZ19n1O+vdGsVO
-9C2EbILmSkJxCgc1fqmPR0NCEkl8PV9lLBoLuMtemJYXTVcrU3s8OkEYoiODz/2w
-VqndCfqFQt1khRYLV3UozWy2U3YjzMcsgpWNmQkAZaau0SOBA53MViDIWS4olYDI
-lvnTW2O7RzGYadZ+YWJl6Ms1j9AXNnGdapBh6ak9Mze5+tfzaa+FDbBkn3ikCBIC
-1HnTNoNUDA1RtnQaSTwWsXjkIp1LZjwbDBwz4tyYcfRb4Gm9Ms90FVzml2YOFUaY
-ZDFZg4Ppi50+t95EqxDXyCIOk5gh3+kZOOoaKnZUZNXv4IVMNIsjRYyduqNjKrAK
-7lF78Jep8DcygZYvCCclzJ7iGYqYevHLDIc0mkSgc0hD1r2V+Auc6r2y/OwyCwYj
-cA3HIdVf1HT+NQBpnby5ute5jemEa1OME0N6q+e9D22UvMqkQJAk9+zBLdGV+CBF
-nD+E3ge6Bv1pntx56Zi7wTn9qFhaVL2KO2QJE94sBteMEykeg+h0mTfuPGesRHmc
-v9Yc9pwB54wHdnHQieMWcjjr
-=7Gmz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrS7YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uZoQALMaxkTqOhhSzeZrFevr
+/O47vnyIsnTt6qyyojvzL6idgYlDmh2PcMhjBN2j61U6RUICgn2tbDgIVrQJzM8G
+DWz+Y5u4cqmQHQXJQjNycj/jIARJpsFqOiQK7spRA5etzanij4KuBV4Ktgvh6K+S
+QRdB11//FZsHqZeHuPOV1sb0uRwKWbL+JQOUjnf3DVAet9+CJYOgX+KG1Lf6oZKK
+vTXzU9DZbZ5oB2KL9u4Lb4KVM+ogevPtf+jvu8Dk8l4dYi6pCR0fCuIIJNLChq9c
+hT7r4XwfO4bVwz81Z90np5RDJ+Mb3Y3Kp/UyJL3rFudxoMz9E2n3YshhlOgxZ+RA
+gmcvehcCciHuAAwaX9CGh3sL6jYMB9+EJlzIJrmvditanI9lrMR6Qoa7bzPQdzkX
+HMfYdaJT+IJlgbjrG7YwpAOTI96qMCMAl8Wi68K1pYvY8bwU1T38L/OOAltA8b3l
++xauhgaWWAs+uWYDfqiN+fhkKH7hBzdPdCeNZE4Rbf4AkIvpUoVWnRpznLi2+5yp
+ydDBrOBu9y9LMEZkfYfY30/4mT2+9d6pGsCJkE2TT6PsBUQUXnkn7iw5Nl8xJyTT
+wQMlgFi+RiKBIDzz/e5+K1US/ScjgVuk0tx9Vs13tstC0V8GWlCMQ8x1eMRjhEUi
+dk5smpuMIwgtgfCJRHEr/jf+
+=Jaui
 -----END PGP SIGNATURE-----
 
---===============2965467461165830086==
+--===============0136189211265989298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -702,4 +702,4 @@ fbde105f132f30aff25f3acb1c287e95d5452c9c Merge tag 'bpf-fixes' of git://git.kern
 c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 Merge tag 'trace-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============2965467461165830086==--
+--===============0136189211265989298==--
