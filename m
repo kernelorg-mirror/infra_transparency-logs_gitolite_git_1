@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7267872375857617186=="
+Content-Type: multipart/mixed; boundary="===============7713976872702253924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 12 Oct 2025 15:49:09 -0000
-Message-Id: <176028414962.962325.5394432832801440063@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 15:57:29 -0000
+Message-Id: <176028464943.969570.6198233142168723039@gitolite.kernel.org>
 
---===============7267872375857617186==
+--===============7713976872702253924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/gregkh-strak
-    old: 9f3720ed675dd51000f9afa189751d4a6e94dd8f
-    new: e1593c51dc9274bb0db0bd04ca6067dde01bd6f9
+    old: e1593c51dc9274bb0db0bd04ca6067dde01bd6f9
+    new: 64c92f98ec5e6edc38a2ac4fd56fefc5642a1c74
     log: |
-         e1593c51dc9274bb0db0bd04ca6067dde01bd6f9 strak: rewrite the normal path by just using version strings
+         64c92f98ec5e6edc38a2ac4fd56fefc5642a1c74 tools/strak: clean up unused code
          
 
---===============7267872375857617186==
+--===============7713976872702253924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760284207 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760284710 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1760284145-aa60f2293051c5b2ffdc6cd3e8d5f64dc3d5f869
+nonce 1760284648-c8f5cbf56e9f4360d4d3e47aa6815e4cc0522b9b
 
-9f3720ed675dd51000f9afa189751d4a6e94dd8f e1593c51dc9274bb0db0bd04ca6067dde01bd6f9 refs/heads/gregkh-strak
+e1593c51dc9274bb0db0bd04ca6067dde01bd6f9 64c92f98ec5e6edc38a2ac4fd56fefc5642a1c74 refs/heads/gregkh-strak
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrzi8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QaQQALySC5pKP1FE1RR4t+Cd
-Khc3vSa1i4TSjLh610y9V2UyVPJP5KrlgQpfuWi1HTvnQqyfBJojAoGP41+673MD
-VNgbeKmUz3CUfPGGfafscz3xjJO3Fn/Np3mwLDHQrVKx/Mxhbk+mFx87ErLuc8nn
-SCEH0J9E9TXVQ+QmLjwqsErUrBQndvDm9tT9dxp5COxO2JwotkDkOY6qC6kTe1RO
-/IXcJ88Swo9zWU8XU3qadQIeIWNxD056UEIlwVfza7jXj4sD6hZt/+BzVP6TthBg
-1Bp76FbkwGPHxBRpw2I/Al/IKAjCCMh4BXy71BJExDCsWo4FQJO6L01udWaL2rGR
-/MgFFeJSaLfK+yWdidQuWoJS6sr5v1CH6AvGF1tXKH1Rbt+ON32tbdlWSGDuaD6Q
-k1lsO/4N3XTP+XneFKyN56N9KwAyik85yxM/Nj69rWz7/5OGnfhvSLTPKTNPFBI7
-XL9hQ5uYX0H88MSvgsOZmFvIL2ECmm3xXvNZMUjErEwz49703UxHYz+xrTrBSmYW
-IyodOtJf0xwynvgLbmqLWnkGwqLJ2fHCrggDsGyzEMU6SZ5hNKjkacqDn8qg+qyv
-GzyXxCDpYLfAXWWQeb3pg4p+R7XO88GYIQHjpUFqcqGJ6Qppl4PZPTGjk5/DdvQy
-ovqmLUmFoHqXi0cqtKpBpUWe
-=o7Ku
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjr0CYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YRIP/3bWn57XPVTGr5PXzZ30
+fsvKDRlZm1YaHrQRKCuHWCGoJXcRtA/h0DyVPJrEt2NfBmFA2w4o2ct0lvuKkz15
+PTGFbdJc0fwJv60c/X1AjXx27YjU3WQxAQR6J3ntnZ5DdRlz4CmgxVnGBCTSQJ5E
+EdVpvPXC6I7i8JfFKYX4/HyvdW4kbA8viVocm6Zn48fjfHvKrExsnO7QeXqdYtFM
+cam9qp79gk3z9rm8NoiefLpYJ13DfAyemwKygHp7sGBKbHlYzjnNjyl+ai/M4Oh7
+87jj5SprwZ5LHvStFWACBfSxq4fZlLOlvuk3zB63PlRKBuYTq4O3Oqf4clXJ8RPp
+ngjrrZDJwZTgK6TqD3eDYcIuaIjLyAedU5CqzoP8tkSBBIuMtAx1CYpyzv6hWX8h
+AdsUJ5pFH50Nn04AQ9z4SVCqMI6V4HGBiVyUs73nqoPsJqYkwt7b7KCQAsSEuJep
+p/HAaPbMx9NNoGJt3oCQb8682W1PWL2xZz5ipShhsPJ3JNurXUZfwsox+kFtkgYT
+Vj2sKkERUmaWYUV3xdSCU7E6daK5rBjGDvDodcl0JCteyJ7xu4r3eagspjnp8EUw
+aCQ15/qXcx8F+D70S3+6hp5hZqfASQU07TZI1vXnHCNRQO5bF5pXQTy+Yef9bIaL
+OYlS5T2Gb+txiv+U+ChKY7Ep
+=S88Z
 -----END PGP SIGNATURE-----
 
---===============7267872375857617186==--
+--===============7713976872702253924==--
