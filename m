@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6838041066336877582=="
+Content-Type: multipart/mixed; boundary="===============7381187398841674289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 12 Oct 2025 01:29:50 -0000
-Message-Id: <176023259045.104785.3774605218024767177@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 01:30:01 -0000
+Message-Id: <176023260136.105035.10874149920810366441@gitolite.kernel.org>
 
---===============6838041066336877582==
+--===============7381187398841674289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 4c97c4b149a019a3b318dc6ea3dc96efe0ee1f39
+  - ref: refs/heads/for-next
+    old: cbf33b8e0b360f667b17106c15d9e2aac77a76a1
     new: 39e9d5f63075f4d54e3b59b8238478c32af92755
-    log: revlist-4c97c4b149a0-39e9d5f63075.txt
+    log: revlist-cbf33b8e0b36-39e9d5f63075.txt
 
---===============6838041066336877582==
+--===============7381187398841674289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c97c4b149a0-39e9d5f63075.txt
+Content-Disposition: attachment; filename=revlist-cbf33b8e0b36-39e9d5f63075.txt
 
-383c4ff4987f651c5340b8e95f4c3e17ebd90ea8 Merge tag 'v6.18-rockchip-clk1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-rockchip
-6df164e29bd4e6505c5a2e0e5f1e1f6957a16a42 sunrpc: fix null pointer dereference on zero-length checksum
-c926f0298d3cdd25f1bfa019f5b74ed48796cef7 NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
-c1f203e46c55ac063791bb893e30e5d14cabe1f6 NFSD: Move the fh_getattr() helper
-d9adbb6e10bf7d4223d3d521ede1b2052903bc5e sunrpc: delay pc_release callback until after the reply is sent
-2ee3a75e42081db3d951c0893f5d654f16d1c0e8 nfsd: discard nfsd_file_get_local()
-c97b737ef8f10f28424822c139e3b22b9e9bcc2b sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
-832738e4b325b742940761e10487403f9aad13e8 NFSD: Rework encoding and decoding of nfsd4_deviceid
-274365a51d88658fb51cca637ba579034e90a799 NFSD: Minor cleanup in layoutcommit processing
-6bf1be3399e2635805074954011cb55745569788 NFSD: Minor cleanup in layoutcommit decoding
-f963cf2b91a30b5614c514f3ad53ca124cb65280 NFSD: Implement large extent array support in pNFS
-d68886bae76a4b9b3484d23e5b7df086f940fa38 NFSD: Fix last write offset handling in layoutcommit
-2990b5a47984c27873d165de9e88099deee95c8d nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
-5affb498e70bba3053b835c478a199bf92c99c4d nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
-afc5b36e29b95fbd31a60b9630d148857e5e513d vfs: add ATTR_CTIME_SET flag
-c066ff58e5d6e5d7400e5fda0c33f95b8c37dd02 nfsd: use ATTR_CTIME_SET for delegated ctime updates
-7663e963a51122792811811c8119fd55c9ab254a nfsd: track original timestamps in nfs4_delegation
-3952f1cbcbc454b2cb639ddbf165c07068e90371 nfsd: fix SETATTR updates for delegated timestamps
-b40b1ba37ad5b6099c426765c4bc327c08b390b9 nfsd: fix timestamp updates in CB_GETATTR
 e5e9b24ab8fa9e899d6627123d7d5ba0c317d267 nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
 6ecdfd7aa8e30e16193d4ee07bcb3f1216dbc358 lockd: Remove space before newline
 17695d72d0b192bb471a699483dd6c6c2576c57d nfsd: Replace open-coded conversion of bytes to hex
@@ -707,6 +688,7 @@ d5b4fd6ed8ea3eb5dc072285a5e4c0ee32e829b2 i2c: rtl9300: do not set read mode on e
 55a42f78ffd386e01a5404419f8c5ded7db70a21 Merge tag 'vfio-v6.18-rc1' of https://github.com/awilliam/linux-vfio
 bf897d2626abe4559953342e2f7dda05d034c8c7 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 f3826aa9962b4572d01083c84ac0f8345f121168 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+de7342228b7343774d6a9981c2ddbfb5e201044b bpf: Finish constification of 1st parameter of bpf_d_path()
 1884f54e48da54a16b6f03b6b1ea6b88f096c28e Merge tag 'i2c-host-6.18-pt2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 b043a81ce3ee3aa1d4adc63eb77203a652cfc94e s390/pci: Expose firmware provided UID Checking state in sysfs
 9daa5a8795865f9a3c93d8d1066785b07ded6073 s390/cio: Update purge function to unregister the unused subchannels
@@ -897,6 +879,7 @@ d07e142641417e67f3bfc9d8ba3da8a69c39cfcd drm/amd/display: Incorrect Mirror Cosit
 ce47f7498598f4cf8729a6b93722c98814385e78 smb: client: Use common code in cifs_do_create()
 3d15d6c1b3dd9eda173d474db82daf093afa4562 Merge tag 'tty-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 fbd2e22716d30d77a35affd6493f4bd74fe2e961 Merge tag 'staging-6.18-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+0db4941d9dae159d887e7e2eac7e54e60c3aac87 bpf: Use rcu_read_lock_dont_migrate in bpf_sk_storage.c
 fdb8d00af919d2403a9e40261cf3f78f0fd75212 Merge tag 'char-misc-6.18-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 4468490251c0392e0c87a3f1c1c1585a89f6ffa6 smb: client: Return directly after a failed genlmsg_new() in cifs_swn_send_register_message()
 16d1ba7c9675ee16e0f7fb22d51cd2898aab625d Merge tag 'dma-mapping-6.18-2025-10-07' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
@@ -914,6 +897,7 @@ b93af2cc8e036754c0d9970d9ddc47f43cc94b9f mm/damon/vaddr: do not repeat pte_offse
 f04aad36a07cc17b7a5d5b9a2d386ce6fae63e93 mm/ksm: fix flag-dropping behavior in ksm_madvise
 28bba2c2935e219d6cb6946e16b9a0b7c47913be fsnotify: pass correct offset to fsnotify_mmap_perm()
 f52ce0ea90c83a28904c7cc203a70e6434adfecb mm: hugetlb: avoid soft lockup when mprotect to large memory area
+56b4d162392dda2365fbc1f482184a24b489d07d bpf: Cleanup unused func args in rqspinlock implementation
 0d97f2067c166eb495771fede9f7b73999c67f66 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 e475fa420e6c53a5023e89dbf0d51bd027b5a776 net/mlx5: fix pre-2.40 binutils assembler error
 2c95a756e0cfc19af6d0b32b0c6cf3bada334998 net: pse-pd: tps23881: Fix current measurement scaling
@@ -1015,6 +999,13 @@ dcf50ca7823506fb3f20b8ffd3f928003cddaeed Merge tag 'ntb-6.18' of https://github.
 06a88f47990974f1322c2bf2e8c5125f8a2f69fe Merge tag 'fbdev-for-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 fdfa38e95e1229ec2fb2f18540987c97f861d470 Merge tag 'sound-fix-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 8cc8ea228c4199482cf087fc6ed2d6e31b7a49e2 Merge tag 'parisc-for-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+469d638d1520a9332cd0d034690e75e845610a51 bpf: Fix sleepable context for async callbacks
+f233d4855918547f19c5bff95223706d1c836b7c bpf: Refactor storage_get_func_atomic to generic non_sleepable flag
+5b1b5d380ac7de39e9cb9de4209719b3949ebd3c selftests/bpf: Add tests for async cb context
+17566cf0e3629728b692e35213a4fd6ea9f86150 Merge branch 'fix-sleepable-context-tracking-for-async-callbacks'
+b5b693f73589283e75436e64fab46bf6298abd89 bpf: add bpf_strcasestr,bpf_strncasestr kfuncs
+eca0b643efc96f1b095ae9ff5d190a513590f838 selftests/bpf: Test bpf_strcasestr,bpf_strncasestr kfuncs
+2e36338df42d64955236d9f9b665d1443fd74f8c Merge branch 'add-kfuncs-bpf_strcasestr-and-bpf_strncasestr'
 07ca98f906a403637fc5e513a872a50ef1247f3b xsk: Harden userspace-supplied xdp_desc validation
 4f375ade6aa9f37fd72d7a78682f639772089eed bpf: Avoid RCU context warning when unpinning htab with internal structs
 accb9a7e87f096a12eb21256107b9c8e343f8019 selftests/bpf: Add test for unpinning htab with internal timer struct
@@ -1025,6 +1016,15 @@ ffce84bccb4d95c7922b44897b6f0ffcda5061b7 Merge branch 'bpf-avoid-rcu-context-war
 cfc584537150484874e10ec4e59ad2ecbae46bfe Merge patch series "kbuild: Fixes for fallout from recent modules.builtin.modinfo series"
 eba41c0173c8c27702b720730ed9d399088409f0 Merge tag 'io_uring-6.18-20251009' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 1b1391b9c4bfadcaeb89a87edf6c3520dd349e35 Merge tag 'block-6.18-20251009' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+d8accf661fcf3088ef4c349ab56ecd19a5071b19 bpf: Refactor cleanup of bpf_prog_test_run_skb
+57bb2f6717930a5e670da179c316159719b724a2 bpf: Reorder bpf_prog_test_run_skb initialization
+838baa351cee86526973fb3ef49c0f4c1b2f3b0c bpf: Craft non-linear skbs in BPF_PROG_TEST_RUN
+8d45d0398d10966b022b96481feb619ae1695de0 selftests/bpf: Support non-linear flag in test loader
+bc3eeb42597a514a0b5286f085d91c8b34e4a532 selftests/bpf: Test direct packet access on non-linear skbs
+7dc484fe481e5cc5b850fc1aa974a46e0f29ed68 Merge branch 'support-non-linear-skbs-for-bpf_prog_test_run'
+5f8d41172931a92339c5cce81a3142065fa56e45 bpf: Fix handling maps with no BTF and non-constant offsets for the bpf_wq
+bca2b74ea9a8a194d4545448e883940daaaa1c38 selftests/bpf: Add more bpf_wq tests
+4c97c4b149a019a3b318dc6ea3dc96efe0ee1f39 bpf: Extract internal structs validation logic into helpers
 917167ed1211b7037534b6e6d7815778b57d310b Merge tag 'xtensa-20251010' of https://github.com/jcmvbkbc/linux-xtensa
 91b436fc925ca58625e4230f53238e955223c385 Merge tag 'v6.18-rc-part2-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8bd9238e511d02831022ff0270865c54ccc482d6 Merge tag 'ceph-for-6.18-rc1' of https://github.com/ceph/ceph-client
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 Merge tag 'trace-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 39e9d5f63075f4d54e3b59b8238478c32af92755 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf before 6.18-rc1
 
---===============6838041066336877582==--
+--===============7381187398841674289==--
