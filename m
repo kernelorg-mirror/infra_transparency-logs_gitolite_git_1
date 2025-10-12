@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 12 Oct 2025 23:47:43 -0000
-Message-Id: <176031286316.1365501.11652331736900727894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 12 Oct 2025 23:48:25 -0000
+Message-Id: <176031290517.1365943.18317058445226713843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/meta/cgit
-    old: 8cd87682b52d6b21ddbe318016b808e729915e81
-    new: ad9445670612d7afbc818e691062781929fb0cff
+  - ref: refs/heads/main
+    old: 89877dcb076448adc6ce8b9c9011a255285f703e
+    new: ad3eb5066e9c451cb1f8b08c445ff8673803256c
     log: |
-         ad9445670612d7afbc818e691062781929fb0cff update base for for-linus, for-next, and main to 6.18-rc1
+         ad3eb5066e9c451cb1f8b08c445ff8673803256c feat!(tpm2sh): baseline for 0.11
          
