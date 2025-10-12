@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7738892230858975174=="
+Content-Type: multipart/mixed; boundary="===============2691486518496900782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 12 Oct 2025 06:33:36 -0000
-Message-Id: <176025081653.349591.16936923902889569028@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 06:34:22 -0000
+Message-Id: <176025086248.350794.14579878904175168766@gitolite.kernel.org>
 
---===============7738892230858975174==
+--===============2691486518496900782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: ebdd6d1a0ac0f2df75d867b9a497a86dd04726ab
-    new: 823912a509eefd8413687a7d71a0859961f767b3
-    log: revlist-ebdd6d1a0ac0-823912a509ee.txt
+  - ref: refs/heads/main
+    old: 0d97f2067c166eb495771fede9f7b73999c67f66
+    new: 67029a49db6c1f21106a1b5fcdd0ea234a6e0711
+    log: revlist-0d97f2067c16-67029a49db6c.txt
 
---===============7738892230858975174==
+--===============2691486518496900782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250873 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250921 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1760250810-ab6fba0632ac6da66a4f508f3c9adb3e4b210c6a
+nonce 1760250859-88cd81f3f54ddce9f2da91715c253c4251da5be4
 
-ebdd6d1a0ac0f2df75d867b9a497a86dd04726ab 823912a509eefd8413687a7d71a0859961f767b3 refs/heads/staging-testing
+0d97f2067c166eb495771fede9f7b73999c67f66 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrS/obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x94P+wbXNlxX+hPgU/etzMVK
-jY/8gvdLz0CJsg98Lj2iG+CzoL2TS1mrwymdH4f0ed3luh+B6l1EwCBuhuSEz87M
-bK0eSB0QH1zVSNx4TKT9uqB59r/Om7Jl6jmDOr36DnCXP8mPq2L99iAGOOzGfhmm
-z2UTGm1kutE/eBBkxS6NWeO22H9BuzpU67AIzIyZoC0Ex9kXhJ7WuGJW97HMmsFy
-mSEIAJDbqHPXm1ercSucrdw0BJ3bb9epZnHPFNkKQLREHAdskzKGpTIF3LHh8fM0
-EWxcVRiXA3KdisdyS2GKixtexxjZqjburngCuzdK1IlJ3eeUdDfRGN22Z1278XiM
-KGNrLvllG7+ZBjK+wKhU8w0JjjDrkIXndYtiQgPWa4b1DRz94hDHeUw7hiNBkyg4
-3LkFkB8a99LkYN0dk2D8ZEqnFrsL/4lvjdvXvS+4wiOjCERk1H+fPFB1BHODLUq9
-B7F4PDOOqT4sM/oru6CoD2EC63RtbeJ/HLNL4PrKJzX6QxeVXQKDtSlCYRglTebD
-ETTPZLmFlAYB0B2fEBaBlnJYQsskJCx3Bqh6fSaAKqJKKnziNWb7Z7l1SgYUimFX
-mJtrvMma4jaQPASouEuoVOiojY/ACTi88mmhunnWTeqS5ZRNBMNDiOAW4Muwghlh
-UNJdokS/S+E1a99yssZvFDE5
-=PoKm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrTCkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++5sP/0dE7/AP9E9vO9JfXVMf
+2P6bgSBMr0VgAcLi3y4dEVCnxsIPU1JJdiaPya348shqzw9ypnxy641R8Hkf10nJ
+/4liXTfKVbBfx7LaXcfckd96O+viN7H28kK3uSbTat0ucDbLH4O0253c0RPo9B7j
+Gh7oJpZ0HsdDd//aq3vVn4d6dwdnSl/b7sV9v5iZjZpLGPa9SoP2EcRbgZmX0l3s
+wDfFlC1bYM8F2BzezaSOoD0VkelY1f/D+7ND1TzvwvzxwbWYfFD9Nks9pTVeW8e6
+AqD0+VfiRW/iKJH76TLwRj3yrdMgX/oOK3WH/BwUtZ6FZ0h6nFWNWOU+s8rB/Rdl
+gznk3KwuW0PFTQYKL4lOsPLSHMQx/bE99FIXbnj1jlQ4GVVt1VgEBun/q2LhBGB6
+ZpOT0XKjNp7eP2MUOklN1nR6yamRrcqjF+N5hZFQHc9qBksaZEu0bKDa+5LZh58Y
+ZmIDoorihc4+zXRZv5Z/LvNfyRzJLPLasAoO29KZRIENn/xjxNrQrEl49Xe/tPW+
+2ErYTPAjgIA2zwbwKyW7+IZEwPo5nVcgZlIXq1AHVdlvTMnpSIbPzDw9Gfqoh89W
+28ueF2AOBNdBFCka4CSPioIUeZnKjSWCROSiUU5yLWBWyxy+OZB0TsFIAkjjHcVw
+Mhz2re8RistcE6ZoVbR6gOs0
+=JvZr
 -----END PGP SIGNATURE-----
 
---===============7738892230858975174==
+--===============2691486518496900782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebdd6d1a0ac0-823912a509ee.txt
+Content-Disposition: attachment; filename=revlist-0d97f2067c16-67029a49db6c.txt
 
 534b9bdeb4b80d843ca9f924524d4d103ad6605e Input: tca6416-keypad - remove the driver
 c12e371a31d6a835d28330d582e953ae94c2e3e2 Input: tca8418_keypad - switch to using module_i2c_driver()
@@ -701,25 +701,5 @@ fbde105f132f30aff25f3acb1c287e95d5452c9c Merge tag 'bpf-fixes' of git://git.kern
 98906f9d850e4882004749eccb8920649dc98456 Merge tag 'rtc-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 Merge tag 'trace-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-fc7e505e08a553147c80c8c520dda8dfb037e4ca staging: rtl8723bs: Add missing MODULE_DESCRIPTION()
-515cf02b7bbb9128060911c6851208524be8a4af staging: sm750fb: rename camel case identifiers
-dd6148be1f01d2acabd7fa1d666cee8bd60b767b staging: rtl8723bs: sdio: clarify OQT free page comment
-1d31ee04ed2158af10ad44a0ccc815474e5f0adf staging: gpib: tms9914: Fix typo in comment
-e9908268358dc54798617f5374c5bf0326955879 staging: rtl8723bs: rtw_hal_set_def_var is not used
-e9178f1817c4cb4a36f768ac376ba7421c25938d staging: rtl8723bs: Fix operator spacing in rtw_security.c
-e3aed675170267f1ed94061beeb30c43d3780f42 staging: rtl8723bs: Remove commented ifdef CONFIG_WAPI_SUPPORT
-1d59facb012bcb6ba3694878c8e80552dc08a917 staging: rtl8723bs: Remove unsupported PALTFORM_OS_WINCE ifdef
-7e4916a96d7f42f050ed968340c4667b0d2525f9 staging: rtl8723bs: remove unnecessary blank lines in rtw_ap.c
-8946c6304f6bf2a7ad42a15a5578e40fff4de50c staging: rtl8723bs: add missing blank line in rtw_ap.c
-3d7441664acc4f5dd3d4973dccb6490a6a442d25 staging: rtl8723bs: remove dead code in rtw_ap.c
-ba822db114cd25d8fd3a448a14c05bf3dd1f764f staging: rtl8723bs: fix lines starting with '(' in rtw_ap.c
-23f74af9e54738310ece1335cc73b2d5d4f24f65 staging: rtl8723bs: add spaces around '+' operator in rtw_ap.c
-a0f5f8c8d214ec909ce6af59502a76b5e8df0e04 staging: rtl8723bs: wrap long comments in rtw_ap.c
-9e5dd14a4cc45bcad136b1365ce990c61753fe81 staging: axis-fifo: add compatible strings for v4.2 and v4.3
-cc60f878f60a3998da5be7f823fe73a009bade22 staging: axis-fifo: simplify interrupt handling
-45b8cfee641692037cede647c34b3cd13e8ab445 staging: axis-fifo: remove unneeded irq field from struct axis_fifo
-1e6ca7bc7c176864b8fe0ca442872175a1c966e4 staging: axis-fifo: remove get_dts_property() helper
-33491838e9af7c723e0ab7f26aa4631d1196fbf7 staging: axis-fifo: drop redundant read/write_flags from axis_fifo
-823912a509eefd8413687a7d71a0859961f767b3 staging: axis-fifo: drop debug print of remapped base address
 
---===============7738892230858975174==--
+--===============2691486518496900782==--
