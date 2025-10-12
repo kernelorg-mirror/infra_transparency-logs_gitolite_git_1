@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0136189211265989298=="
+Content-Type: multipart/mixed; boundary="===============8368438707621798018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 12 Oct 2025 06:32:29 -0000
-Message-Id: <176025074924.348527.12311647027928831960@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 06:32:32 -0000
+Message-Id: <176025075289.348654.15979357507087023043@gitolite.kernel.org>
 
---===============0136189211265989298==
+--===============8368438707621798018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: 0d97f2067c166eb495771fede9f7b73999c67f66
     new: 67029a49db6c1f21106a1b5fcdd0ea234a6e0711
     log: revlist-0d97f2067c16-67029a49db6c.txt
 
---===============0136189211265989298==
+--===============8368438707621798018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250806 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250813 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1760250744-0acd5d9fa4319b81cf279ea627e97c6ccbd884fb
+nonce 1760250751-71d6f6f1dd86f5eb81002d5d9cca1b1f4e7e4343
 
-0d97f2067c166eb495771fede9f7b73999c67f66 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 refs/heads/main
+0d97f2067c166eb495771fede9f7b73999c67f66 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrS7YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uZoQALMaxkTqOhhSzeZrFevr
-/O47vnyIsnTt6qyyojvzL6idgYlDmh2PcMhjBN2j61U6RUICgn2tbDgIVrQJzM8G
-DWz+Y5u4cqmQHQXJQjNycj/jIARJpsFqOiQK7spRA5etzanij4KuBV4Ktgvh6K+S
-QRdB11//FZsHqZeHuPOV1sb0uRwKWbL+JQOUjnf3DVAet9+CJYOgX+KG1Lf6oZKK
-vTXzU9DZbZ5oB2KL9u4Lb4KVM+ogevPtf+jvu8Dk8l4dYi6pCR0fCuIIJNLChq9c
-hT7r4XwfO4bVwz81Z90np5RDJ+Mb3Y3Kp/UyJL3rFudxoMz9E2n3YshhlOgxZ+RA
-gmcvehcCciHuAAwaX9CGh3sL6jYMB9+EJlzIJrmvditanI9lrMR6Qoa7bzPQdzkX
-HMfYdaJT+IJlgbjrG7YwpAOTI96qMCMAl8Wi68K1pYvY8bwU1T38L/OOAltA8b3l
-+xauhgaWWAs+uWYDfqiN+fhkKH7hBzdPdCeNZE4Rbf4AkIvpUoVWnRpznLi2+5yp
-ydDBrOBu9y9LMEZkfYfY30/4mT2+9d6pGsCJkE2TT6PsBUQUXnkn7iw5Nl8xJyTT
-wQMlgFi+RiKBIDzz/e5+K1US/ScjgVuk0tx9Vs13tstC0V8GWlCMQ8x1eMRjhEUi
-dk5smpuMIwgtgfCJRHEr/jf+
-=Jaui
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrS70bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+angQAKrUSWE/c69ZcuOhSOzR
+8JcBKipFx+KaPL0Bls7JBYpm8EM120lcXA8RJI8fVt/F+bhcGnbM8zOytuKZJjrS
+YjfLuoLM2YXWcRwnVzQsqOqUdPg7XZ73X4SO6TpOMacq/aODuDZGNAjS6oVkOH7F
+cW4MEU/MLnJHovfoKuHauKU3z+VZk4HrzSGBXV3hx5+tjNOBIQxW4GLSeTA+PGnB
+MYPwrJTwxIhigAnYqWU8gAQjgHO8x3oOmxPl/1wmIfHC5L5jM/TLEqQpsCzSwXIn
+E2ywP9AYsHvgYhjTFOyU2zdNn3KtL/fcPxutim2yEo/B0QZH8vMiET9aIXjXSfK9
+h40w2R8KVFzv/lmi0L1a2DoRBwiXe7vV64YO6Vw/Lk4UrwQXyf4iww3ERHuKARXk
+y8Le6Pn/5HrmwCr3Q+m4WE8Pz3ip2FIhpkPejKEVRF8d/oDZMoEwzj17yxpEb/OP
++jYFEqFUTKoxBZg1xTxxOr5KkOc6az6qcXZWCadQ9Nqx34Vb944uBtD7NSjrTUd2
+8p1jT2aGHwlUalmgvtltjYyD60Rajpl7mI8AhuIsujuCcQWeE478TFB5DhVEWyz8
+vwMTSaCZ8IVtt4mxXTpj8F3sBLm52MnOSm4xzumBgj9oVAOWaZY77N0Tht3ZbbyG
+ukvpy31rqkh07CkMyWk//nEr
+=s3LJ
 -----END PGP SIGNATURE-----
 
---===============0136189211265989298==
+--===============8368438707621798018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -702,4 +702,4 @@ fbde105f132f30aff25f3acb1c287e95d5452c9c Merge tag 'bpf-fixes' of git://git.kern
 c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 Merge tag 'trace-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============0136189211265989298==--
+--===============8368438707621798018==--
