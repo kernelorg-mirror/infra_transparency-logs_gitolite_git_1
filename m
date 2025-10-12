@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4741874863750304784=="
+Content-Type: multipart/mixed; boundary="===============0637268603841436617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 12 Oct 2025 21:22:01 -0000
-Message-Id: <176030412148.1241982.16643342715637720292@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 21:22:28 -0000
+Message-Id: <176030414837.1242255.1203188980358789395@gitolite.kernel.org>
 
---===============4741874863750304784==
+--===============0637268603841436617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 19a35099995bd7d8f4cae3c0673e5c3eaf3ca440
-    new: 63126f4e331ae84a536ea75ecab7c3a418c7b3a0
-    log: revlist-19a35099995b-63126f4e331a.txt
+  - ref: refs/heads/nfsd-testing
+    old: 09755c4dd276922173218adcb0984a63343db943
+    new: de3cbc6415ae9401b17c1497a6918a09a233985a
+    log: revlist-09755c4dd276-de3cbc6415ae.txt
 
---===============4741874863750304784==
+--===============0637268603841436617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19a35099995b-63126f4e331a.txt
+Content-Disposition: attachment; filename=revlist-09755c4dd276-de3cbc6415ae.txt
 
 0cb6f1e436accba7882bb3115408d1474c1e14af KVM: x86: Implement test_cc() in C
 6204aea36b74cd2001a142e92e492e301597eafb KVM: x86: Introduce EM_ASM_1
@@ -332,5 +332,28 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 1e78a6629e0d5259c22cc0a7ec6f6c1358e54fdb nfsd: move name lookup out of nfsd4_list_rec_dir()
 3b96fbb8445ae1e7f4289fc166379be70fc72a1a nfsd: change nfs4_client_to_reclaim() to allocate data
 63126f4e331ae84a536ea75ecab7c3a418c7b3a0 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+6fd74d04e4f018c04e3d434f6c633385d4dc4dfc NFSD: Add array bounds-checking in nfsd_iter_read()
+3238cb4b39b5dbe5f118f08d04a272f7cf240b3a svcrdma: Release transport resources synchronously
+0a468fe719cf9b4e538a66714ea2b7133b0ac0e0 nfsd: delete unreachable confusing code in nfs4_open_delegation()
+178fc18fa36b5fd2d71dd65d7640295e183d86e8 NFSD: Define actions for the new time_deleg FATTR4 attributes
+8558f8f9cd52d72de9de616519f2ed033f77e33f NFSD: Fix crash in nfsd4_read_release()
+c710de671789388b3af1046c7091685594ec44d9 nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+3f9b2006d21d5a5d3a04b80fa5eabf0fb76bcb69 NFSD: Update comment documenting unsupported fattr4 attributes
+17f799e3534d258c08cb53d86213660ad62e2480 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+5aa036c1a78fcdcce396f1d33e184d81fbce6e05 svcrdma: Increase the server's default RPC/RDMA credit grant
+0f5a25dc6bc0fddac14938351a6c2528025ab2db NFSD/blocklayout: Fix minlength check in proc_layoutget
+ef21b363a42d9ffad86869da556c0a951278685e NFSD/blocklayout: Extract extent mapping from proc_layoutget
+e7d48b2176f021ac30b394d3ff0cf0bc5c058b7e NFSD/blocklayout: Introduce layout content structure
+b7fec56921e08aa29a75157f85b95e219af392e1 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+65fa384ca01ef03dfd8f6724b26ebf4596ea11ac nfsd: fix refcount leak in nfsd_set_fh_dentry()
+9d99423f54408d73a2ac0e96060e234ed08847b8 NFSD: Prevent a NULL pointer dereference in fh_getattr()
+e135fb19752d20561c8e64566ad62eb23d17c662 NFSD: pass nfsd_file to nfsd_iter_read()
+decb503feb580463b108d547898efe7dc8a2e7ec NFSD: Relocate the xdr_reserve_space_vec() call site
+c848552b389a7f1d93b7dff1388b1280488333fc NFSD: Implement NFSD_IO_DIRECT for NFS READ
+83a236eb5e6d20b017af6dc2a1a7631c9f43fd24 SUNRPC: Improve "fragment too large" warning
+6e7b714679d28da7bd91b3f4656bf0865d6006b6 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
+fcc041be9cbefa0922038a7791019594b7f7152e sunrpc: allocate a separate bvec array for socket sends
+7d2654bb4d94cea0fa03ff45d08b54a398cc867f nfsd: Use MD5 library instead of crypto_shash
+de3cbc6415ae9401b17c1497a6918a09a233985a siw: Enable try_gso
 
---===============4741874863750304784==--
+--===============0637268603841436617==--
