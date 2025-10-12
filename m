@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Sun, 12 Oct 2025 18:01:28 -0000
-Message-Id: <176029208868.1072314.4706209982646332788@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 18:03:08 -0000
+Message-Id: <176029218892.1073102.14246363749498427740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/davem/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 3abc0e55ea1fa2250e52bc860e8f24b2b9a2093a
-    new: 65946eac6d888d50ae527c4e5c237dbe5cc3a2f2
+    old: 65946eac6d888d50ae527c4e5c237dbe5cc3a2f2
+    new: 68a052239fc4b351e961f698b824f7654a346091
     log: |
-         65946eac6d888d50ae527c4e5c237dbe5cc3a2f2 net: dlink: handle dma_map_single() failure properly
+         68a052239fc4b351e961f698b824f7654a346091 selftests: drv-net: update remaining Python init files
          
