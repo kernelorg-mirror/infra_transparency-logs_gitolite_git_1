@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1978836790343228950=="
+Content-Type: multipart/mixed; boundary="===============3995942771585828808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sun, 12 Oct 2025 14:19:20 -0000
-Message-Id: <176027876061.886375.9246431515894484785@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 14:19:30 -0000
+Message-Id: <176027877013.886596.17294405542933255540@gitolite.kernel.org>
 
---===============1978836790343228950==
+--===============3995942771585828808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,37 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/linux-can-fixes-for-6.18-20251012
-    old: 0000000000000000000000000000000000000000
-    new: 46c8b232f557ac6fd8352eb2f0a263592b0e868b
+  - ref: refs/heads/testing
+    old: 49836ff2f37dd6d52bfe3153c0bcbd96025a6100
+    new: 91cb822f98b3438812304d151076dfca9b30d2e0
+    log: |
+         7df0c15fbb575506f961b84179f0fe265b3b8932 can: remove false statement about 1:1 mapping between DLC and length
+         45af25abc36b74eded5a8bd4ecb984bf7967e2e9 can: add Transmitter Delay Compensation (TDC) documentation
+         91cb822f98b3438812304d151076dfca9b30d2e0 Merge patch series "can: add Transmitter Delay Compensation (TDC) documentation"
+         
 
---===============1978836790343228950==
+--===============3995942771585828808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1760278818 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1760278828 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1760278756-ca76f5bc08471ccfe8b578f2236dffbff85378ce
+nonce 1760278766-f20e61156995145b6adcfc462a77be5a1c22a342
 
-0000000000000000000000000000000000000000 46c8b232f557ac6fd8352eb2f0a263592b0e868b refs/tags/linux-can-fixes-for-6.18-20251012
+49836ff2f37dd6d52bfe3153c0bcbd96025a6100 91cb822f98b3438812304d151076dfca9b30d2e0 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjruSITHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnEpJB/0fC13haqPdQ5uCWXjV1l76bJqR+iDQ
-G9JZMfHL/Z0PioI++lbSv4nsCOH3KulwkK9gX04boDM+zPX7H0bFNxKwZBrbw7Wq
-z1KwqZk5nGL8BfIa5d8keH/m+O9QhsxwN0KxzmZj0WH1nlHleqKTb8FbnVmBWEAf
-ht3PkRN3rFIZFSm0WmZOZ6mg1rbBJ4UIKZ0iUF7qNhkDb+BJrS7+gk49KdB8+89S
-++5wzPofUc4/8kMfOUjfecmCoasAxak7pOlhVHIC6fafnhSHG2sExiPLrkEZ4PqP
-seucSm1WdjChzmopdIA6LROsUgpjbRxwzjNCRCGWhG8NyLJXTl+3ZVaQ
-=PoG1
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmjruSwTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnCsoCACR6vy7pYb9knvzp0gXxMiROCClU46F
+gVRKxzx/y6nIJcSQlMGJQTbwZPmvAXqN2bZ/bbvUj/2o/l0dIsdwMj5+UsAHwn0K
+4GluFmqfvH0APLx1rgW75I6NC1rm+KAZDj1UCWBEcAsQpn9vTG7AINXccKgkQXod
+TYDuZWZKbCj8u261bzQNuNp7iIRJ+ahgeIbC6v5j+6MJZARny7JD0Xnq/wwc3QrW
+6yTrfAlUgcSaCR2HN2e/b6a0o94uGz/V+RrF2BZTK5BNqadqbD2ucesEuqolyhBv
+S5SQ43Ej5gWHHZKhv6SVv7b5/T373ZqYgJDceEyTrAPJeoJY9IIQxNiC
+=W57m
 -----END PGP SIGNATURE-----
 
---===============1978836790343228950==--
+--===============3995942771585828808==--
