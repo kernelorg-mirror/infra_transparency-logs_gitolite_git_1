@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============9062348251995887893=="
+Content-Type: multipart/mixed; boundary="===============2216963774960109186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Sun, 12 Oct 2025 20:47:27 -0000
-Message-Id: <176030204750.1211088.12221504417278285773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Sun, 12 Oct 2025 20:48:10 -0000
+Message-Id: <176030209043.1211668.6389484054895227311@gitolite.kernel.org>
 
---===============9062348251995887893==
+--===============2216963774960109186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-next
-    old: 2d965c1ae4135ed6f505661458f6dabd39488dac
-    new: 812f223fe9be03dc22abb85240b6f075135d2386
-    log: revlist-2d965c1ae413-812f223fe9be.txt
+  - ref: refs/heads/b4/sysfs-const-attr-prep
+    old: 2f395e85415de4c3851ae4f327d39a81356d7693
+    new: 3ce19a325cfc28ef7b014c4fd6f99af91615a34a
+    log: revlist-2f395e85415d-3ce19a325cfc.txt
 
---===============9062348251995887893==
+--===============2216963774960109186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d965c1ae413-812f223fe9be.txt
+Content-Disposition: attachment; filename=revlist-2f395e85415d-3ce19a325cfc.txt
 
-e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
-3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 722df25ddf4f13e303dcc4cd65b3df5b197a79e6 Merge tag 'kernel-6.18-rc1.clone3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5484a4ea7a1f208b886b58dd55cc55f418930f8a Merge tag 'vfs-6.18-rc1.afs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message in probe()
@@ -1049,6 +1042,13 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-812f223fe9be03dc22abb85240b6f075135d2386 tools/nolibc: handle NULL wstatus argument to waitpid()
+7885306819aedb048cfe4300541e984833a17035 sysfs: prepare the constification of struct attribute
+0201065bfbe41d03de8cb158c1bc2ec72c8620a3 sysfs: attribute_group: allow registration of const attribute
+e91d8d8ac05719877f5ce0060c6242d00d21bb74 sysfs: transparently handle const pointers in ATTRIBUTE_GROUPS()
+8cc5af16b9e7c511fb6c5e1bf37497cb7cc5def7 sysfs: introduce __SYSFS_FUNCTION_ALTERNATIVE()
+b8887b0d56236c81baa6e884c318e49a49a70acd sysfs: attribute_group: enable const variants of is_visible()
+b63df9ace4bb196853d062e4fa29cc7ecbe0c936 samples/kobject: add is_visible() callback to attribute group
+7e20140eea9bd3f77b1428d951aa542fa83827fc samples/kobject: constify 'struct foo_attribute'
+3ce19a325cfc28ef7b014c4fd6f99af91615a34a sysfs: simplify attribute definition macros
 
---===============9062348251995887893==--
+--===============2216963774960109186==--
