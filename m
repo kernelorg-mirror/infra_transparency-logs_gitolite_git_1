@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7381187398841674289=="
+Content-Type: multipart/mixed; boundary="===============0245399872271323211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 12 Oct 2025 01:30:01 -0000
-Message-Id: <176023260136.105035.10874149920810366441@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 01:30:09 -0000
+Message-Id: <176023260940.106822.14731815673573745656@gitolite.kernel.org>
 
---===============7381187398841674289==
+--===============0245399872271323211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/net
     old: cbf33b8e0b360f667b17106c15d9e2aac77a76a1
     new: 39e9d5f63075f4d54e3b59b8238478c32af92755
     log: revlist-cbf33b8e0b36-39e9d5f63075.txt
 
---===============7381187398841674289==
+--===============0245399872271323211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 Merge tag 'trace-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 39e9d5f63075f4d54e3b59b8238478c32af92755 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf before 6.18-rc1
 
---===============7381187398841674289==--
+--===============0245399872271323211==--
