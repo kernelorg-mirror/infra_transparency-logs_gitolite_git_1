@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 12 Oct 2025 19:58:55 -0000
-Message-Id: <176029913530.1170274.16170260020652460124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 12 Oct 2025 20:45:03 -0000
+Message-Id: <176030190328.1209301.14759052199112303853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: 8071fcec82b220e68f758025b32c6d1d8eeeb61f
-    new: 925a55b6b624a70b6e1df6fc4477605670dbf90b
+  - ref: refs/heads/master
+    old: 8765f467912ff0d4832eeaf26ae573792da877e7
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
     log: |
-         802d1d9e1d6a50677d064f5b4047a8d3cb97edda TODO: add two new items based on GitHub issues
-         29ad51a26ae5a4c1e810a64c4803553443a0790a damo_adjust: support record filters
-         c0cf0317b270c3579bffb1d3dc051eaaae186c15 damo_record: add option for intermediate output flush duration
-         c15506d7c79fb2407b8570ad112be112cde47efb USAGE: document per-hour output flushing feature
-         925a55b6b624a70b6e1df6fc4477605670dbf90b damo_report_access: support '-i' for '--input'
+         a8482d2c9071d75c920eba0db36428898250ea57 Revert "i2c: boardinfo: Annotate code used in init phase only"
+         3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
          
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
