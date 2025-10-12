@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2691486518496900782=="
+Content-Type: multipart/mixed; boundary="===============5633183474845325694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 12 Oct 2025 06:34:22 -0000
-Message-Id: <176025086248.350794.14579878904175168766@gitolite.kernel.org>
+Date: Sun, 12 Oct 2025 06:34:26 -0000
+Message-Id: <176025086625.350949.8005023857436268507@gitolite.kernel.org>
 
---===============2691486518496900782==
+--===============5633183474845325694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 0d97f2067c166eb495771fede9f7b73999c67f66
     new: 67029a49db6c1f21106a1b5fcdd0ea234a6e0711
     log: revlist-0d97f2067c16-67029a49db6c.txt
 
---===============2691486518496900782==
+--===============5633183474845325694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250921 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760250926 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1760250859-88cd81f3f54ddce9f2da91715c253c4251da5be4
+nonce 1760250864-9c523a7d34ec848cafd7ca1363f0e801f5be70fc
 
-0d97f2067c166eb495771fede9f7b73999c67f66 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 refs/heads/main
+0d97f2067c166eb495771fede9f7b73999c67f66 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrTCkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++5sP/0dE7/AP9E9vO9JfXVMf
-2P6bgSBMr0VgAcLi3y4dEVCnxsIPU1JJdiaPya348shqzw9ypnxy641R8Hkf10nJ
-/4liXTfKVbBfx7LaXcfckd96O+viN7H28kK3uSbTat0ucDbLH4O0253c0RPo9B7j
-Gh7oJpZ0HsdDd//aq3vVn4d6dwdnSl/b7sV9v5iZjZpLGPa9SoP2EcRbgZmX0l3s
-wDfFlC1bYM8F2BzezaSOoD0VkelY1f/D+7ND1TzvwvzxwbWYfFD9Nks9pTVeW8e6
-AqD0+VfiRW/iKJH76TLwRj3yrdMgX/oOK3WH/BwUtZ6FZ0h6nFWNWOU+s8rB/Rdl
-gznk3KwuW0PFTQYKL4lOsPLSHMQx/bE99FIXbnj1jlQ4GVVt1VgEBun/q2LhBGB6
-ZpOT0XKjNp7eP2MUOklN1nR6yamRrcqjF+N5hZFQHc9qBksaZEu0bKDa+5LZh58Y
-ZmIDoorihc4+zXRZv5Z/LvNfyRzJLPLasAoO29KZRIENn/xjxNrQrEl49Xe/tPW+
-2ErYTPAjgIA2zwbwKyW7+IZEwPo5nVcgZlIXq1AHVdlvTMnpSIbPzDw9Gfqoh89W
-28ueF2AOBNdBFCka4CSPioIUeZnKjSWCROSiUU5yLWBWyxy+OZB0TsFIAkjjHcVw
-Mhz2re8RistcE6ZoVbR6gOs0
-=JvZr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjrTC4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Px8QALwQBJtLdpV2Xfqph83d
+dX5iqqavpEcyy4w3EgbgAXkz5tFDLPOaEFskGFUg6hyoy+yR5wCSGeEK1UzmIyh7
+loBkG9dz4cy5YJcrDvgL7IudaAccaSAqfjBqylFZFb5hy52gqiacHxjCAQKcd1VS
+7uYFERsSB3JkThQtUbApUEytzXda/Bi7ByYKno796NjPk69PVVy7Wqvnx/OCrTcV
+XcvjDQwk5afznQV8tXLrHyeROHRNSlnAPr7GQnO44bqapz9JRSxclfj6ZcgbrrWm
+bP06I3n88QoJ5D+IbmMOEOMxtcDKihNmP9usayFQvBdrZ25tVZ49WsTNdvx/uU0J
+CN4Mq+W/93zVf4nD2wb2bBVEpfFMSU5eZ8FvJaUyOqv85kMZqVBUg+9ytIX1Mds0
+pEcFfVBEvyCA7EG8iYsJordcrJA2GlTPzYuRkz34kj7U8XGunnzg1ht0/VP0YnfM
+7LsuaV7LPkkJAQX5MwIfGqeKHnrIOgnahxVKjf54O8o4KLtaRzxmF8X4bG2Ovep3
+3vBfDdi9YbqCn2ecfeZmKr74CedJdjxSWWxrWkT2QNDptQ86BTOgIgYPA3YBaYmX
+UFzTdv2AqAwn/oE24ugOvkLcCNUwziPlYgQt0TgyU3uUec82r9YxgoT7zNBDgvgL
+HfWUtaC61Biqt3eJpBpLJFMI
+=4Hd+
 -----END PGP SIGNATURE-----
 
---===============2691486518496900782==
+--===============5633183474845325694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -702,4 +702,4 @@ fbde105f132f30aff25f3acb1c287e95d5452c9c Merge tag 'bpf-fixes' of git://git.kern
 c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 67029a49db6c1f21106a1b5fcdd0ea234a6e0711 Merge tag 'trace-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============2691486518496900782==--
+--===============5633183474845325694==--
