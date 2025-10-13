@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2636732759662550842=="
+Content-Type: multipart/mixed; boundary="===============1068910576028930347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 13 Oct 2025 07:10:56 -0000
-Message-Id: <176033945620.1807260.7186080230787784363@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 07:11:40 -0000
+Message-Id: <176033950083.1808075.13144106967852414988@gitolite.kernel.org>
 
---===============2636732759662550842==
+--===============1068910576028930347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 64b229b5b6816b9247e0f592e6f7cdb3693cf3b8
-    new: 1c97fc901fb6318aca0160da96736d0bc136ddcd
-    log: revlist-64b229b5b681-1c97fc901fb6.txt
+  - ref: refs/heads/main
+    old: 5472d60c129f75282d94ae5ad072ee6dfb7c7246
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-5472d60c129f-3a8660878839.txt
 
---===============2636732759662550842==
+--===============1068910576028930347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339515 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339561 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1760339453-ad7fca3f05deaa0eefbd0dcd1a6076954965fc80
+nonce 1760339499-92b8e02dbaa78b4ce0c14231e65eddfdf4cd62dc
 
-64b229b5b6816b9247e0f592e6f7cdb3693cf3b8 1c97fc901fb6318aca0160da96736d0bc136ddcd refs/heads/usb-testing
+5472d60c129f75282d94ae5ad072ee6dfb7c7246 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspjsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RRgP/RJfBvgItUs4D9cYqPA9
-/I5Zcgb8zI/8+LGsUABCyeYHJIK1AlB7P8baR7lAQYfeT2dv8/cbcJkDp/MUIxgG
-+/XOT4f2qqVlYyjz5OqqAeCKIZ2GNz6Uyuqit0axrzs7OUwHcfi80cO9mgoKl3wm
-x0Mf7silGuMH7RwOWsdmWTDd6UGNbfxmLo8HYfa0HGpQgT5dlpdZhCShyPt3opW0
-0fcOhZ+KWaTOYxmQXfZvqqdbQOWrx1m4njoBW7oJ2RVphMzG/tPljmxHmsOKBpNg
-ajhSEtkcLPlivKf5HLq0oysSuji3sRCWsWKy3WOXX4FTdrF/6sRBbZZpUPVCfMmq
-zEFEHQxDpZknoLb/EKKtZgf9IfaYeJNETArNwx/P1ZIv5RvBTTQYXhlQtcpW+SPP
-a1SROhUOmkCoPsRFALh9BK43NJtlr4jxkD+vt2SLGtyD26NLafpRVwfVWIrSJ64q
-HF7+wEQm7eZwHGGKb/pLAiyF+fzDxscMpmlyG2tcNjyY5Trn7fe2tMqV8qYLyrFY
-Qbls+8zAS/uLWHI38K8VZpy4K2CcQUzHuAUkuRh4eP56KUJqd9FZT19zpzFERR+7
-YMEQCY9EOWipCTymA+iNJYu8JRALoD2MA4nn6/yCgDxxVdFyMZU8FnTm2LcV07Cg
-Jgjsf4ZdfJTXhxybjM6Nxmbx
-=LImj
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspmkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1N8QAIU4LL6oF1HUcAHs11h3
+mAL6/95S+JQxRTVbq8ephoU+5LeRd29rDlI8yipxi+TR6dKFldu6LNLBD+WhYx2f
+qJS3KVNPNV2nSIIJq0ReILCAL2aCmA4IYTjU+yqCKe6ceneTMt5wp0hXQ07lSRBk
++ICnaLyviISl4Q+s3KR464kRLoOjpTPbcgvfIO6HJCBruWASwo/UfJICxMzIBiAW
+TiNLByTumWac03in3y2VUmLUFxeq69pCQaxjp78VDVmrGQvPEA05H/WydeLmG9gz
+fSenf4sBddZAHQ2n8G+G/meeP9R6KF2dCTbExXAnQxwDN7jBOavn/cvOGvVlBh+G
+Ip20DrvKoEnHiMq2Bd7s+eV+4Pu6iUdNB6yMcOQfGx5gSzqXehCRYLOork8Eo11F
+i+XRvA+Dp2NV8vUZX2tvAYM5PjXK2Fl/i9QlOHanP31zjkW5suYU+ZpMbdniAvWJ
+Sz8beGz2w7H6ebiPHpE9jspazfcq2aay8uvIM2CNh7bqaTBjh+Ea+X1vxePnfBKs
+7486rFUDtrjc0NpCWZGU4+hdDH/aurgiAENMXI153X1scms5UcSkp8KHQKBM9Bdg
+x4Vz3IjRZAakB5bPxkKBbptKGHvPuX4OT8UfDhZBR9c1MxRSKFcjHPbRYRFc71oy
+cIHCpFsiGNPXKmoAPILnMgDY
+=RQWo
 -----END PGP SIGNATURE-----
 
---===============2636732759662550842==
+--===============1068910576028930347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64b229b5b681-1c97fc901fb6.txt
+Content-Disposition: attachment; filename=revlist-5472d60c129f-3a8660878839.txt
 
 0cb6f1e436accba7882bb3115408d1474c1e14af KVM: x86: Implement test_cc() in C
 6204aea36b74cd2001a142e92e492e301597eafb KVM: x86: Introduce EM_ASM_1
@@ -360,28 +360,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-6f64e1872bf6a735a1171eb6c9193d7f91717441 usb: misc: ljca: Remove Wentong's e-mail address
-a0da19eda98c227c0cd732c65da8091b1941709c usb: core: Drop spaces after function names
-19040e562640fa3a59fbf9ce98f201bf4d2d82d8 dt-bindings: usb: uhci: Add reset property
-113ba4270afffa4c1127c31d305e5bac48f27681 usb: uhci: Add reset control support
-8b25c96ab6ed1e9134e130e635ca922ba9a0a264 dt-bindings: usb: uhci: Add Aspeed AST2700 compatible
-18a9ec886d328dc823aa2b2f3ef02009f634539f usb: uhci: Add Aspeed AST2700 support
-f39e7cdd8e4cce94db2ed33aa46192cf9ce35d96 dt-bindings: usb: ehci: Add Aspeed AST2700 compatible
-274f2232a94f6ca626d60288044e13d9a58c7612 usb: ehci: Add Aspeed AST2700 support
-b61cb4419e432e459d5c7f900b0eb24139a859ce dt-bindings: usb: samsung,exynos-dwc3: add power-domains
-6e26324df8880beddc5280137693116b6ac059ac usb: usbtmc: Remove unnecessary local variable from usbtmc_ioctl_request
-09bf21bf5249880f62fe759b53b14b4b52900c6c usbip: Fix locking bug in RT-enabled kernels
-87653d54edd69f9f623d0a650323ec1adbbd2952 usb: hub: Use max() to improve usb_set_lpm_pel()
-ed9dd907ee38975d164b563470aa1e1a1abbc79a usb: gadget: zero: add function wakeup support
-978719f90256ebee945562e82613ab6eb03fdaca dt-bindings: usb: xhci: Allow "iommus" and "dr_mode" properties
-0e61e71538d2d52971a90b02c3abd43816ad8c70 dt-bindings: usb: xhci: Add "generic-xhci" compatible for Marvell Armada 37xx/8k
-1c1b2a247c384179fcc97b63bb0c17e112217d7a usb: typec: tipd: Fix error handling in cd321x_read_data_status
-51659606d4e00445c202195093f0c200db4d67e4 dt-bindings: usb: usbmisc-imx: add fsl,imx94-usbmisc compatible
-924aa1d9e0ae081cf3cb4a378e394f6074da911a usb: chipidea: imx: add USB support for i.MX94
-ed4a5c5de56ad4e23c9e5da8981639352b63b8ac usb: typec: class: add typec_get_data_role symbol
-41294342fad7d7fe907d8707a4efcafdb66b7940 usb: typec: altmodes/displayport: do not enter mode if port is the UFP
-b9f1c762a4de17d93017fbd12b9941caff6d3078 dt-bindings: usb: add missed compatible string for arm64 layerscape
-7298c06d58e23c1c6e60180ab1ce069087ae38e2 usb: dwc3: Add software-managed properties for flattened model
-1c97fc901fb6318aca0160da96736d0bc136ddcd usb: dwc3: dwc3-generic-plat: Add layerscape dwc3 support
 
---===============2636732759662550842==--
+--===============1068910576028930347==--
