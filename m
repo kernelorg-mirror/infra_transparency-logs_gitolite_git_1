@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5696264703210334857=="
+Content-Type: multipart/mixed; boundary="===============7229305044713510438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 13 Oct 2025 16:56:42 -0000
-Message-Id: <176037460219.2363980.7630599647988137674@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 16:56:52 -0000
+Message-Id: <176037461244.2364208.1459305479681912924@gitolite.kernel.org>
 
---===============5696264703210334857==
+--===============7229305044713510438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
+  - ref: refs/heads/next-integrity
     old: 88b4cbcf6b041ae0f2fc8a34554a5b6a83a2b7cd
     new: 8f3fc4f3f8aa6e99266c69cc78bdaa58379e65fc
     log: revlist-88b4cbcf6b04-8f3fc4f3f8aa.txt
 
---===============5696264703210334857==
+--===============7229305044713510438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 8f3fc4f3f8aa6e99266c69cc78bdaa58379e65fc ima: Attach CREDS_CHECK IMA hook to bprm_creds_from_file LSM hook
 
---===============5696264703210334857==--
+--===============7229305044713510438==--
