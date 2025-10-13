@@ -1,67 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============9164195502004861195=="
+Content-Type: multipart/mixed; boundary="===============6104310297569809406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 13 Oct 2025 20:16:29 -0000
-Message-Id: <176038658960.2547537.6515136262063772563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Mon, 13 Oct 2025 20:18:03 -0000
+Message-Id: <176038668381.2548408.16110952568722109028@gitolite.kernel.org>
 
---===============9164195502004861195==
+--===============6104310297569809406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 7c3321f3d279eda7f7d622312ffdbb889f3bec97
+  - ref: refs/heads/cpupower
+    old: 23199d2aa6dcaf6dd2da772f93d2c94317d71459
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-7c3321f3d279-3a8660878839.txt
+    log: revlist-23199d2aa6dc-3a8660878839.txt
 
---===============9164195502004861195==
+--===============6104310297569809406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-23199d2aa6dc-3a8660878839.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1760386649 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1760386583-3c46093da88d1e30db581a95173a7ccd86542377
-
-7c3321f3d279eda7f7d622312ffdbb889f3bec97 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjtXlkACgkQ7ulgGnXF
-3j0YMxAAhsaYTgZWUjjC7XfuIUkuGYCfZy9oM6k7J+UZJYWBFKBLFWDl3HG2An3m
-G45FI5jYTexLpXGCBF18dye8jABrnvrYkF+D7fxjfO0rTqunYp97kxPVbmEz0cdJ
-WO56S4nJ/XngwMesDmdgoE8S3C80z7T5WdNmOseSzGwzcyb0srAp2vpImSUer6Fs
-9bVfcBWR03Uv3BiUuxyNYg8zPm432oEdRm5u0RDUKJapK8q9O/J1EN0vFlFjOh+y
-Ri4cSIgnpH75LSW24WYUdtgq2j3xrVRltTuaGppIJpTJPGDYwT0LYO9ArYRDuaLm
-4JB7F4ZbS86Ngb3C2mwHpgkJ/1mw8FrfRmsf3JU6JbE8DpLs4jBz6XzIlzLcq2pi
-L4ZI+KpqbdTYDmHtQ0hlcwLL0CKT5TQao/J90CZGQwI0jUhJXwtLiaUKk8lG6uFO
-C0GJoZaCz+RWs3X0SUcWfTB0zN0MUHWoia4tZJc3NeKozxwtnyRmbU86T5soSt4C
-ecO3hoYJu6ZTMQ4l2tkSqtMYaJMiYfvrXtlhQK4RvQFCdDgy5tEojkfWs/gY8vS+
-wksMRXOt+7Aqw1ZW4GMDXXl8l53O9pkaO7u9yvgr29vXbRF5uDh/QFqzjhlAzGXS
-iIrbMA7i4/BbiFoPOphpmPWgSike7p8UicmRBxhhDrpZI54J+Kw=
-=FW6M
------END PGP SIGNATURE-----
-
---===============9164195502004861195==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c3321f3d279-3a8660878839.txt
-
-b1a5c6de97b4c861c1ad1e7ad3818ebd32be190e mtd: rawnand: omap2: drop unused module alias
-1f7005d382f567b25cfb96d9f201f5448cf67f9a mtd: rawnand: pl353: drop unused module alias
-61163e7373f678c453a4505865e0f8b27e506de8 mtd: rawnand: rockchip: drop unused module alias
-2f05c108664056f91e5f9171169c685f517ac568 mtd: rawnand: stm32_fmc2: drop unused module alias
-362f84c89e136539b8c3edb47f42fb06ce37bacf mtd: rawnand: sunxi: drop unused module alias
-b7ce6fa90fd9554482847b19756a06232c1dc78c Merge tag 'vfs-6.18-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -79,7 +43,11 @@ cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message
 2804359536275d8d5f92eb1949102eca4153ea1e net: ethtool: remove duplicated mm.o from Makefile
 29be241d11748dbcd9981587a85afa734942c885 docs: networking: phy: clarify abbreviation "PAL"
 ee916dccd4df6e2fd19c3606c4735282b72f1473 Unbreak 'make tools/*' for user-space targets
+285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
 f2c61db29f277b9c80de92102fc532cc247495cd Remove bcachefs core code
+f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
+0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
+60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
 a40eb50a9566318a138b3e222fc4fe04e3932cda Merge tag 'gfs2-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 e445fba2d76369d72b497ecadf6b9787930693d9 Merge tag 'xfs-merge-6.18' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 98a4f5b7359205ced1b6a626df3963bf7c5e5052 PCI: xilinx-nwl: Fix ECAM programming
@@ -264,11 +232,13 @@ e4dcbdff114e2c0a8059c396e233aa5d9637afce Merge tag 'perf-core-2025-09-26' of git
 45d96dd2c62899ff8a3f07e3b8109656062b457a Merge tag 'x86_asm_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bd91417a962db247d41a22720a79e68a509a9353 Merge tag 'x86_microcode_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9c43b6e43643e0c884179fd4598e2003f1a04a3 Merge tag 'ras_core_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bb7663dec67b691528f104894429b3859fb16c14 scsi: ufs: sysfs: Make HID attributes visible
 d7ec0cf1cd79a74399b53453f9c48acbca7d6fce Merge tag 'x86_bugs_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffe381923d87c8cf5d4372c12eea6127dc36fd3a sunrpc: unexport rpc_malloc() and rpc_free()
 d11f6cd1bb4a416b4515702d020a7480ac667f0f NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 fd6d93c2b79ded0a447502ce5c8a9a549c697819 nfs/localio: make trace_nfs_local_open_fh more useful
 25ba2b84c38f624151a3ba36e56d41c39b9223ad nfs/localio: avoid issuing misaligned IO using O_DIRECT
+558ae4579810fa0fef011944230c65a6f3087f85 scsi: ufs: core: Include UTP error in INT_FATAL_ERRORS
 091bdcfcece0963a9a6590ba7cfcc9e1d454165f nfs/localio: refactor iocb and iov_iter_bvec initialization
 e43e9a3a3d6652047808d6fadff5c3703f5ce90d nfs/localio: refactor iocb initialization
 c817248fc831f5494d076421672b70a6ec1a92dc nfs/localio: add proper O_DIRECT support for READ and WRITE
@@ -1081,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============9164195502004861195==--
+--===============6104310297569809406==--
