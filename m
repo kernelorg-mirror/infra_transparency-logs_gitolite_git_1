@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 13 Oct 2025 11:16:51 -0000
-Message-Id: <176035421145.2041588.1209602737270202643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 13 Oct 2025 11:18:12 -0000
+Message-Id: <176035429285.2042365.15927327018858669499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/main
-    old: f446da1b1a89f9ee2e13c1207420d3cda0236285
-    new: daf21ff278920b54f6f4d89b1424b5b5345ec7ff
-    log: |
-         daf21ff278920b54f6f4d89b1424b5b5345ec7ff feat!(tpm2sh): baseline for 0.11
-         
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
