@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6015858005667816514=="
+Content-Type: multipart/mixed; boundary="===============3242775279423725659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 13 Oct 2025 23:54:57 -0000
-Message-Id: <176039969736.2727797.1962346284360072018@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 23:55:14 -0000
+Message-Id: <176039971431.2729649.4407231031529044103@gitolite.kernel.org>
 
---===============6015858005667816514==
+--===============3242775279423725659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 7d9fdb3c9e5b7c67e7dc50e6edf33eb42a8f6ce2
-    new: 9d5c4f5c7a2c7677e1b3942772122b032c265aae
-    log: revlist-7d9fdb3c9e5b-9d5c4f5c7a2c.txt
+  - ref: refs/heads/dev-test
+    old: 99fa7844a64a303070f1b22309fabd116f0b2173
+    new: f8d5629a7921b3994289afa843c814f42d6fb28f
+    log: revlist-99fa7844a64a-f8d5629a7921.txt
 
---===============6015858005667816514==
+--===============3242775279423725659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d9fdb3c9e5b-9d5c4f5c7a2c.txt
+Content-Disposition: attachment; filename=revlist-99fa7844a64a-f8d5629a7921.txt
 
-c4d7901225435c2a82049588532f7b7a07e06188 Merge branch 'for-6.18/dt-bindings' into for-6.18/clk
-8e7bd526e83673c2b4931163311cca49796657f8 clk: tegra: Add DFLL DVCO reset control for Tegra114
-a24cd110e664396061b0a72930734bf419bf88c4 dt-bindings: clock: renesas,r9a09g047-cpg: Add USB3.0 core clocks
-23c59916bafa396265c12112bc94f373ad560b16 clk: renesas: r9a09g057: Add clock and reset entries for I3C
-2cfff084f03005079f900fe6d0a031f7c508e881 clk: renesas: r9a09g056: Add clock and reset entries for I3C
 7aa8781f379c32c31bd78f1408a31765b2297c43 clk: sunxi-ng: sun6i-rtc: Add A523 specifics
 a85ac2dae6bf8050deaf9839e4c0328756b48720 tools headers: Remove unused kvm_perf.h copies
 4589be8cd0338e6bf0f5b9aaa044442876e78894 tools headers: Remove unused arm32 asm/kvm.h copy
@@ -1050,5 +1045,10 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 1ee889fdf409ce68c1e3b62912333a5cc69acaa0 f2fs: don't call iput() from f2fs_drop_inode()
 9d5c4f5c7a2c7677e1b3942772122b032c265aae f2fs: fix wrong block mapping for multi-devices
+e14fffaac3171c55da91e423dcb2e5f93f6e2484 f2fs: maintain one time GC mode is enabled during whole zoned GC cycle
+d6649c781215e035bb0286f0a8354fc6f5bfef48 f2fs: set default valid_thresh_ratio to 80 for zoned devices
+a0c0428d24a6d0fcbfa69828a06663c5f93d5bb4 f2fs: ensure node page reads complete before f2fs_put_super() finishes
+7b54387fa4c9b26c70e22eebd2da602fc3ab8214 f2fs: use folio_nr_pages() instead of shift operation
+f8d5629a7921b3994289afa843c814f42d6fb28f f2fs: Perform sanity check before unlinking directory inode
 
---===============6015858005667816514==--
+--===============3242775279423725659==--
