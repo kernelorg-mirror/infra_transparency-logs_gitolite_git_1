@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1068910576028930347=="
+Content-Type: multipart/mixed; boundary="===============2728754288811058040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 13 Oct 2025 07:11:40 -0000
-Message-Id: <176033950083.1808075.13144106967852414988@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 07:11:44 -0000
+Message-Id: <176033950495.1808193.6402375004170230203@gitolite.kernel.org>
 
---===============1068910576028930347==
+--===============2728754288811058040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/usb-linus
     old: 5472d60c129f75282d94ae5ad072ee6dfb7c7246
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
     log: revlist-5472d60c129f-3a8660878839.txt
 
---===============1068910576028930347==
+--===============2728754288811058040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339561 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339565 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1760339499-92b8e02dbaa78b4ce0c14231e65eddfdf4cd62dc
+nonce 1760339503-48f29f6ce591e0d43f589a1868015ba4dcc7181d
 
-5472d60c129f75282d94ae5ad072ee6dfb7c7246 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/main
+5472d60c129f75282d94ae5ad072ee6dfb7c7246 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1N8QAIU4LL6oF1HUcAHs11h3
-mAL6/95S+JQxRTVbq8ephoU+5LeRd29rDlI8yipxi+TR6dKFldu6LNLBD+WhYx2f
-qJS3KVNPNV2nSIIJq0ReILCAL2aCmA4IYTjU+yqCKe6ceneTMt5wp0hXQ07lSRBk
-+ICnaLyviISl4Q+s3KR464kRLoOjpTPbcgvfIO6HJCBruWASwo/UfJICxMzIBiAW
-TiNLByTumWac03in3y2VUmLUFxeq69pCQaxjp78VDVmrGQvPEA05H/WydeLmG9gz
-fSenf4sBddZAHQ2n8G+G/meeP9R6KF2dCTbExXAnQxwDN7jBOavn/cvOGvVlBh+G
-Ip20DrvKoEnHiMq2Bd7s+eV+4Pu6iUdNB6yMcOQfGx5gSzqXehCRYLOork8Eo11F
-i+XRvA+Dp2NV8vUZX2tvAYM5PjXK2Fl/i9QlOHanP31zjkW5suYU+ZpMbdniAvWJ
-Sz8beGz2w7H6ebiPHpE9jspazfcq2aay8uvIM2CNh7bqaTBjh+Ea+X1vxePnfBKs
-7486rFUDtrjc0NpCWZGU4+hdDH/aurgiAENMXI153X1scms5UcSkp8KHQKBM9Bdg
-x4Vz3IjRZAakB5bPxkKBbptKGHvPuX4OT8UfDhZBR9c1MxRSKFcjHPbRYRFc71oy
-cIHCpFsiGNPXKmoAPILnMgDY
-=RQWo
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspm0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rCIQAJkMw2njCEvUepJyp4Pt
+UWHs8ZhNjHA/PlQS3qUE/gzZ3hRx7zMYaIhKY8/PaiT5glvjHNb3otNn+p9NjqLk
+iGHjFQryg78vr2Tf2PdS44qgXYiLLZB7wWVBPB79k/T/xIT/rD2MBZkZyQiE5LsF
+nXkq73bGsrTN1eN8yjBrDHPPXuvfmAl6A+ssY6BwtxywtfXYL5Cj2v1X4Co+gurB
+M4llwUUhVUzNMxUCMv6W5Tsu9sKqKdrDfTucpa5ugpQ5JigQEatHmed0EIBPkKot
+7vI71djgEwHj6pdJt2blimnSkmNW1Ey8nw5GRPIXzg9AJRLUjy3TMLAMRYhfFpNs
++htwLrAgRfodyBc0YBq6WCrC1K5gMOJ+UFJF9KFQ1kkyf7Ivthk2FP1IMjCmL65v
+3LwHtKdySTNbVTzsV/kp00b8J+r33HBLqYD0T0BwNU0xl9KiJLu17gxyf65okhgu
+QEbybV7/bL00rwr60UGpaGfcF0FXkvfP1ptnKgSx1ufcfOqkqQ52gPQ6zcQtkEdl
+AxF7OpOMcmoMxwrabo4iE+wx88KqVvTe5crAX9I3cjbkM46yV2gw/IG10vfZQuqQ
+38PitLrCRiTdU02VidP3XaytAdbAwzzfm+avV3lr2VI/b0ytvktebvSY0IYIHl5T
+KqTiWfkSyFLqSzyj1io97hbR
+=jf9/
 -----END PGP SIGNATURE-----
 
---===============1068910576028930347==
+--===============2728754288811058040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -361,4 +361,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============1068910576028930347==--
+--===============2728754288811058040==--
