@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7735558814817232613=="
+Content-Type: multipart/mixed; boundary="===============6638020412794686656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 13 Oct 2025 07:09:35 -0000
-Message-Id: <176033937543.1803216.2657327908827716862@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 07:09:40 -0000
+Message-Id: <176033938007.1803348.290500743366066155@gitolite.kernel.org>
 
---===============7735558814817232613==
+--===============6638020412794686656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 67029a49db6c1f21106a1b5fcdd0ea234a6e0711
-    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: |
-         196754c2a04a8ba682b00ea7c818897295c98967 irqchip/aspeed-scu-ic: Fix an IS_ERR() vs NULL check
-         f75e07bf5226da640fa99a0594687c780d9bace4 irqchip/sifive-plic: Avoid interrupt ID 0 handling during suspend/resume
-         a8482d2c9071d75c920eba0db36428898250ea57 Revert "i2c: boardinfo: Annotate code used in init phase only"
-         8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-         3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-         
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
 
---===============7735558814817232613==
+--===============6638020412794686656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339436 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339440 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1760339374-ad9e4a3cb77774b5df80cedf78c90c369ceb6714
+nonce 1760339378-38a3804976f0ccadfdcca8c15a648a8e48824757
 
-67029a49db6c1f21106a1b5fcdd0ea234a6e0711 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/tty-testing
+0000000000000000000000000000000000000000 cb6649f6217c0331b885cf787f1d175963e2a1d2 refs/tags/v6.18-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspewbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YekQAMdSzkV//taK7NjuQygp
-JReY33mRU/I9cOto1J7vpq1wzF9tWNikoUFf+VgUTzX8/zdQHxHYBe+q8hG8MffT
-daqoayaQAz8fsVOGi5abV7GjNj9dPl6cAvzzfwX3g83AhsuVL18ukEvcdkNE1nIW
-nhHvRkXhqVQrLeABy2CdZXv/c5D3KAPxwAMGF+IyGRFH+bOBaAqEVdcTbcZoga1O
-FXAjWhgiCWv+OnoghMHKGOudunI1GbOXqhAzeoCFLXzfxz6nguf9yVxW5VWsuQnO
-/tE9piDQSod1GMk/PAU2ZVt+xwODQRfnOPSl8WWf3JcNIF+ohFNY0zBU3Mjv102L
-M1kyGDjUFv5GtZqO6EIJr5M8xORNdewz8qapzkl0eMaR6ogGVQURT5QSKUYSLaW/
-iB0h7DTozK1txipt7Q9CdkE55/xhAJLZYK+xfWgywROYRppngDCezk8qvGSB+d7f
-quSa7A1zqeTjcuuNTaEuNVk1+o62L7/oTmKUzhjcYSQR5ppf+R6rjpXNChrQoSdP
-QxqCpfzRCMLrMcNIdhcE4XMJt4/pgOyUi6+LDMi4iV3B0j/4pobduQVlP4Oml+Fu
-v+Ilc18M16l6KRbtjqI1CYbUc+hfIq4Q/fvXpNM+8yusJzmWyiJo6V6EJL7bekFJ
-+beOXYTyjUzHRGRysW6uDai4
-=IBWv
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspfAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+izwP/3hPvWScGiWGpDnfC4vt
+eXjk3kwZmKSGFXQCrhyT7btp7JrNtnJm92dd6xoaVndWN2Z3rZHfCz0SYOcgO7Mt
+QPeF8RCx6WUHzW1oD2QHofMJcU2nJscoDIdkJIrs1MwNVk/8/wN4S5sj4sACeBhs
+cI7YfQBBjgFNZLzolgXqcfkP10ZnFgbGpWjRuY1F9FjtbZKud18TSMQZfXuwvFZF
+gC3zXFmIsNHOBD/wYTRt7MHXsvq9ZW3MjIOiUMXFQm7OFMk+JjnT8S2VT2OkHxa6
+2IF0x9RXOuVgz2lc7uld5vUirqhEyH2D1QoW56wyxoPrQKUym1TMnsfQEY3vm7zZ
+Vb0SgI3+6/GDWMrv0OlZUW7lK0ig79N656OU8od+9DLEdPzodOCAKZ74oid9zFg5
+XZ2rqy3I5ERK8qHYvLQTBn15IjLxMsu1MGLiIxBUmc94VqEuSHnG2NVPScXOY+H/
+47LJyKdTZ8yLryHGlzh744mKbzeq0wm/CiwS/dnGC+rl0lQXiL2EzdPfTngnT+Cy
+Pj5Cyo5qGa1qQFmkPvru1+sNgiHPc0UAofXm1YXsbxX3yc7LeubpUFH2TSxWL1I0
+WjbMS4iaP0j/6OBNU3YQEShK01rg3kJg4IruuQbJRcC4PE6ETK1VsfDlUMgRt3j1
+YgWWKmkATnBGzWon7LjH7x8k
+=6iCj
 -----END PGP SIGNATURE-----
 
---===============7735558814817232613==--
+--===============6638020412794686656==--
