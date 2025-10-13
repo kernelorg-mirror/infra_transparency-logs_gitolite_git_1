@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4942864219382890799=="
+Content-Type: multipart/mixed; boundary="===============2799638939543906082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 13 Oct 2025 11:18:26 -0000
-Message-Id: <176035430653.2042590.412610456192116901@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 11:18:42 -0000
+Message-Id: <176035432225.2042852.13213356064947076265@gitolite.kernel.org>
 
---===============4942864219382890799==
+--===============2799638939543906082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 00c520dbd580f53a922260f17432103ca040b294
     new: 7e8242405b94ceac6db820de7d4fd9318cbc1219
     log: revlist-00c520dbd580-7e8242405b94.txt
 
---===============4942864219382890799==
+--===============2799638939543906082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 7e8242405b94ceac6db820de7d4fd9318cbc1219 rpmb: move rpmb_frame struct and constants to common header
 
---===============4942864219382890799==--
+--===============2799638939543906082==--
