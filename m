@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6759909829289476423=="
+Content-Type: multipart/mixed; boundary="===============4099635079663147028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 13 Oct 2025 07:36:51 -0000
-Message-Id: <176034101127.1832767.11666863959732903450@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 07:37:29 -0000
+Message-Id: <176034104989.1833152.6342115980723685987@gitolite.kernel.org>
 
---===============6759909829289476423==
+--===============4099635079663147028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,85 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 680b1fb5d2d9b3ed6644e85f6115972d8ade01aa
-    new: 4b17a60d1e1c2d9d2ccbd58642f6f4ac2fa364ba
-    log: revlist-680b1fb5d2d9-4b17a60d1e1c.txt
+  - ref: refs/heads/fixes-togreg
+    old: 875e7d357a7f2e77a7f3fc4759d0aa0872c33027
+    new: e2cc390a6629c76924a2740c54b144b9b28fca59
+    log: revlist-875e7d357a7f-e2cc390a6629.txt
 
---===============6759909829289476423==
+--===============4099635079663147028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-680b1fb5d2d9-4b17a60d1e1c.txt
+Content-Disposition: attachment; filename=revlist-875e7d357a7f-e2cc390a6629.txt
 
+18b19abc3709b109676ffd1f48dcd332c2e477d4 Merge tag 'namespace-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+263e777ee3e00d628ac2660f68c82aeab14707b3 Merge tag 'vfs-6.18-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+449c2b302c8e200558619821ced46cc13cdb9aa6 Merge tag 'vfs-6.18-rc1.async' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+2804359536275d8d5f92eb1949102eca4153ea1e net: ethtool: remove duplicated mm.o from Makefile
+29be241d11748dbcd9981587a85afa734942c885 docs: networking: phy: clarify abbreviation "PAL"
+ee916dccd4df6e2fd19c3606c4735282b72f1473 Unbreak 'make tools/*' for user-space targets
+285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
+f2c61db29f277b9c80de92102fc532cc247495cd Remove bcachefs core code
+f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
+0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
+60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
+a40eb50a9566318a138b3e222fc4fe04e3932cda Merge tag 'gfs2-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
+e445fba2d76369d72b497ecadf6b9787930693d9 Merge tag 'xfs-merge-6.18' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+98a4f5b7359205ced1b6a626df3963bf7c5e5052 PCI: xilinx-nwl: Fix ECAM programming
+a9401710a5f5681abd2a6f21f9e76bc9f2e81891 Merge tag 'v6.18-rc-part1-smb3-common' of git://git.samba.org/ksmbd
+b3e1c7855e8e1c4d77685ce4a8cd9cdd576058eb Merge tag 'hfs-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/vdubeyko/hfs
+5928397f5739fb94559350575826d94fa8c35929 Merge tag 'erofs-for-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+a769648f464c9f453b3dc5c2bb8559b28c5d78a1 Merge tag 'dlm-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
+d60ac92c105fd8c09224b92c3e34dd03327ba3f4 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+e2fffe1d958b3660bc4e07e6542d97b6cc168826 Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+d8768fb12a14c30436bd0466b4fc28edeef45078 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+1896ce8eb6c61824f6c1125d69d8fda1f44a22f8 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+b2ec5ca9d5c2c019e2316f7ba447596d1dcd8fde Merge tag 'amd-drm-next-6.18-2025-09-26' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+8c1ed3021883f5e49f74dfb41ce0a24e5d07fdf0 Merge tag 'ffs-const-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+50157eaa0c13bb5aac5cc45330bf055d95d4af57 Merge tag 'execve-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+a240a79d435ae7206a5c5101033f3f81d68bc3b4 Merge tag 'seccomp-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+96ccc93744f8260f62841ee1de7153bb1b8cfd83 ixgbe: fix typos and docstring inconsistencies
+a5ba183bdeeeedd5f5b683c02561072848258496 Merge tag 'hardening-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+7ce48d497475d7222bd8258c5c055eb7d928793c net: stmmac: est: Drop frames causing HLBS error
+de17376cad9706911f2d5a58a8c0f02b9665025d net: stmmac: tc: Add HLBS drop count to taprio stats
+3806446f609e111abf10b9a28c9e9762fafe56f4 Merge branch 'net-stmmac-drop-frames-causing-hlbs-error'
+2b235765e9d4426cf56d7fd1a331f81a4dbbd85a scm: use masked_user_access_begin() in put_cmsg()
+1fb0e471611dc6a79dee609a7e0037eb1d124400 net: remove one stac/clac pair from move_addr_to_user()
+b9bd25f47eb79c9eb275e3d9ac3983dc88577dd4 idpf: fix mismatched free function for dma_alloc_coherent
+e129e479f2e444eaccd822717d418119d39d3d5c Merge tag 'pstore-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+1be6db04979944a05224807150038bab937521c8 net: libwx: support separate RSS configuration for every pool
+58f244b25688bc0d891a1e52f13bd26cefbd8dae net: libwx: move rss_field to struct wx
+2556f80a6abc69cb4f980ebcf5ca82ad383fef35 net: wangxun: add RSS reta and rxfh fields support
+2a251b85ce918e8552c604df4770040eae4432be net: libwx: restrict change user-set RSS configuration
+e8c4840d0c198215866728626b5c197048d4368b Merge branch 'net-wangxun-support-to-configure-rss'
+c39d6d4d933381714b6e5d735545256558ec6c05 ptr_ring: __ptr_ring_zero_tail micro optimization
+d210ee58da1eff63626982ade65632a291aff941 Merge tag 'for-net-next-2025-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+f017c1f768b670bced4464476655b27dfb937e67 tcp: use skb->len instead of skb->truesize in tcp_can_ingest()
+9aa59323f2709370cb4f01acbba599a9167f317b mptcp: leverage skb deferral free
+a7556779745c047efb7b0ce8732889b0cdc80936 tcp: make tcp_rcvbuf_grow() accessible to mptcp code
+e118cdc34dd109562b64f6a397f68cd33b041d5b mptcp: rcvbuf auto-tuning improvement
+9a0afe0db46720ce1a009c7dac168aa0584bd732 mptcp: introduce the mptcp_init_skb helper
+c4ebc4ee4e751c6430604c52344d932bf1fde379 mptcp: remove unneeded mptcp_move_skb()
+68c7af988bd137479101e2b40ab5fdd0e0365364 mptcp: factor out a basic skb coalesce helper
+59701b1870032c1bf32244d87476bcd4b5ecb41b mptcp: minor move_skbs_to_msk() cleanup
+c912f935a5c7e43f2b6be94d76e4ddbb6ff14c6d selftests: mptcp: join: validate new laminar endp
+74f7c5233e09a8b10ccf94f2fef42f95961c288b Merge branch 'mptcp-receive-path-improvement'
+9dd4e022bfffe0fbc6eaccdb52fc25554be5c367 net: stmmac: Convert open-coded register polling to helper macro
+7d452516b67add4a53e63bfa496d8df930a66b9a Revert "net: group sk_backlog and sk_receive_queue"
+4ed9db2dc5d8981ecb7042f084f5cff43ba539d6 net: rtnetlink: fix typo in rtnl_unregister_all() comment
+8425161ac1204d2185e0a10f5ae652bae75d2451 nfp: fix RSS hash key size when RSS is not supported
+f017156aea60db8720e47591ed1e041993381ad2 net: ena: return 0 in ena_get_rxfh_key_size() when RSS hash key is not configurable
+46a1b6b2aaae965b27b3bb34cf88d441f6aef20e Merge tag 'nios2_update_for_v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
+70dd4775db7fe33669bff6998e4b363298810127 selftest: packetdrill: Set ktap_set_plan properly for single protocol test.
+261cb8b12376d1c06c2840280fc602dc065ed924 selftest: packetdrill: Require explicit setsockopt(TCP_FASTOPEN).
+97b3b8306f782af80b4666d7137c75be9dba9219 selftest: packetdrill: Define common TCP Fast Open cookie.
+0b8f164eb264184bf8820cc0c59cf6089d0201b3 selftest: packetdrill: Import TFO server basic tests.
+399e0a7ed930c9d64e10dba2ac8bed0a5793e264 selftest: packetdrill: Add test for TFO_SERVER_WO_SOCKOPT1.
+e57b3933abcec26255fd9b4405badfc22af67da2 selftest: packetdrill: Add test for experimental option.
+5ed080f85a33ad76288711c64ec2d8699de65ff9 selftest: packetdrill: Import opt34/fin-close-socket.pkt.
+a8b1750e68f5fd6fe4bdff6f5d59d157c87a9b99 selftest: packetdrill: Import opt34/icmp-before-accept.pkt.
+5920f154e144c1e62b581454397e0f88fbd3b58d selftest: packetdrill: Import opt34/reset-* tests.
+21f7fb31aef878df52c4575f3b71cbbea935d48a selftest: packetdrill: Import opt34/*-trigger-rst.pkt.
 be90c7b3d5c8f3343d2402b883e7ec673538a302 selftest: packetdrill: Refine tcp_fastopen_server_reset-after-disconnect.pkt.
 05b9f505fbe760416afa555bdfd0c461291ed69c selftest: packetdrill: Import sockopt-fastopen-key.pkt
 9b62d53cc8b4f089a1d069e1b6753b544d480212 selftest: packetdrill: Import client-ack-dropped-then-recovery-ms-timestamps.pkt
@@ -971,84 +1039,16 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-5f31df5075a7f8967401ded5d54be04f62b172a2 iio: adc: ad7124: add debugfs to disable single cycle mode
-0b02af932b7e7777074d78203e8e336a9dc30400 iio: adc: ad7124: inline ad7124_enable_channel()
-4a579c175aad6d1b5d2288f4db366261c5c4f60b iio: adc: ad7124: remove unused `nr` field
-b8579b7c6e484f399f14bca2a9d2ca83a3c9b483 iio: adc: ad7124: use AD7124_MAX_CHANNELS
-0b028373f87a354ad5f7665034f71007b8f3d9e2 iio: adc: ad7124: use devm_mutex_init()
-97c8b5dedb407d389e7a947b8c037087a919aadc iio: adc: ad7124: remove __ad7124_set_channel()
-6b166e815cdcf2ddb755ca5311a5343635ff9610 iio: buffer: document iio_push_to_buffers_with_ts_unaligned() may sleep
-a8c8aad411554755ab59621dc6961db8a4c8af7a iio: buffer: iio_push_to_buffers_with_ts_unaligned() might_sleep()
-536bf30d282a6b2f676c6106587f0e1946449aca iio: buffer: document iio_push_to_buffers_with_ts()
-4992ce003b76ee1629ad4e7332a49ea2619e7523 iio: buffer: deprecated iio_push_to_buffers_with_timestamp()
-d87b03ced9e989a516cc000e1e65f4eb4d6d46aa iio: buffer: document iio_push_to_buffers() calling context
-748ed9fc8596015e7e136877465919b89c7d08d6 iio: buffer: document store_to() callback may be called in any context
-592ae0ccecfac9af8f67444cab11cbb11770f571 iio: buffer: document that buffer callback must be context safe
-b8af83efd67c2d36142bb411ff5218f02eaf0deb dt-bindings: iio: accel: bosch,bma220 cleanup typo
-b8719569a0971f971a117c67c462360d7bbc0fcc dt-bindings: iio: accel: bosch,bma220 setup SPI clock mode
-92c7ae3486143a44ecc974531704b905d22a784a dt-bindings: iio: accel: bosch,bma220 set irq type in example block
-dbe5906bc03fb7f404fabfb24357b9145225ccf6 dt-bindings: iio: imu: smi330: Add binding
-d25139c3275a1a4533b382991e187bfbd27c112f iio: imu: smi330: Add driver
-2fa8647417fbe8f1f7bce1ce049b4b333e9ab692 iio: imu: bmi270: add support for motion events
-2945ce93087171a84885849d462ecc324bb52a05 iio: ABI: document accelerometer event attributes
-4c4fe43344d72763b6265d1ce7ae697c7175d7ee Documentation: iio: ade9000, adis*, adx*: Convert IIO subsystem cross-references
-217c9698a180d0d24c16359aa3905b2910af237a iio: dac: ltc2688: make use of devm_mutex_init()
-84d212d9657a7d332b90e97dfab43389d19c0a85 iio: adc: ad7124: add ext attributes to temperature channel
-20523086f51239acfc7db33f73d4dfeca484ca38 iio: adc: ad7124: change setup reg allocation strategy
-4238f0d5d00cfa41049abb8fc110dca79a32c434 dt-bindings: iio: pressure: add binding for mpl3115
-bba02877b976bd7d8410883b27c46aa8acd30240 iio: mpl3115: add separate function for triggered buffer data collection
-18c99e364a564397a1a276ddfc6697d995b09e5d iio: mpl3115: rename CTRL_REG1 field macros
-92b0e3a3dd473955918a4d760bd91653261ffdb5 iio: mpl3115: add support for DRDY interrupt
-982b1b998c7651f4ebb5cc5b17bd833c9732d3e5 iio: mpl3115: add support for sampling frequency
-0705bc4f1c9dfd4f3813c0d33e5e4578d2270998 iio: light: ltr390: Fix typo in variable name
-d2d35cb2630a6338346ab552c968b8615047b531 iio: adc: ad4030: replace sprintf() with sysfs_emit()
-f76f6d2c0d6061034e429825b907096cb97b39db iio: adc: ad7768-1: replace sprintf() with sysfs_emit()
-cb639599343074add58b451e76ee4c719188f041 iio: adc: mcp3564: replace sprintf() with sysfs_emit()
-57412824a6ac43cfc0118ffe1965c68d165df6e9 iio: adc: meson_saradc: replace sprintf() with sysfs_emit()
-09a7963727c8235d0b46c55aab16b013de5fc743 iio: adc: mt6360-adc: replace snprintf() with sysfs_emit()
-677579a771092cc4f3243aebe83995328393ba01 iio: adc: pac1921: replace sprintf() with sysfs_emit()
-28259a2a5f47df928c1bbb8be9a80ff3e1064ef9 iio: adc: qcom-spmi-rradc: replace snprintf() with sysfs_emit()
-f2e03ca2ea80d4a12e77533d12c1a3022799f09b iio: position: hid-sensor-custom-intel-hinge: replace sprintf() with sysfs_emit()
-d5df30845ec4c778d3f72d749e7ebfaeb3b0afae iio: resolver: ad2s1210: replace sprintf() with sysfs_emit()
-e9125370766c1ee9709ae556a5b90b877db8859b iio: dac: ltc2688: use the auto lock API
-1ade3639b459392ffebfa5310b89b222c39ee340 dt-bindings: iio: adc: document RZ/T2H and RZ/N2H ADC
-0bb1746b0bcd1c72d6ee500bd5eea7cc3fad522c iio: adc: add RZ/T2H / RZ/N2H ADC driver
-a0964bcdca9c134ecba5296885d0bb22821c1df7 staging: iio: ad9834: remove empty ad9834.h file
-2473f1811ba41d33bdf6eef456688426c2d0d432 iio: accel: bma220: remove incorrect kernel-doc marking
-6208d1c318a74c72d8687f18759956f3fda613e5 iio: accel: bma220: relax constraints during probe()
-3068deb61e5f0576d1309807df1d51b48863e4a3 iio: accel: bma220: cleanup license string
-f87dba809f788f296791904c76dbefede8fafaca iio: accel: bma220: shorten spi->dev calls
-be7f041bd933f6ec7054936ec00d0a0950d74081 iio: accel: bma220: move bma220_power function
-9a69ba4e74fa4c656e92e44def706605e86ddce0 iio: accel: bma220: cleanup includes
-46124bf9f317691c36cef37f268a5a2dade0ead5 iio: accel: bma220: split original driver
-ae53087e808db019e40b07ab300a98793673c75d iio: accel: bma220: add open firmware table
-41d10be0bb1c1cfbd0d806a206535ee3c03446c9 iio: accel: bma220: turn power supplies on
-dc66c9d613b126084e51a30b2b6fbed70e3e92bf iio: accel: bma220: reset registers during init stage
-092dcc6e413f49576465808c3eed7ed62a8fe556 iio: accel: bma220: migrate to regmap API
-06b20ea3395cb59af88545de537fea1fedd29111 iio: accel: bma220: populate buffer ts in trigger handler
-75c47aa845cfc9b78df426e8253e2a3328876d7d iio: accel: bma220: use find_match_table fct
-64e720cbc16f0ae1796226bc1d3601b4df7ee29c iio: accel: bma220: add i2c module
-59a07f0557a645594e56c08d619e553b0703b75a iio: accel: bma220: add i2c watchdog feature
-f2be5b5be4c69fb12e2177aec596e6c2ae025a57 iio: accel: bma220: add interrupt trigger
-a3d73e41b878d967de852efbba731c81d94bf8e3 iio: accel: bma220: add LPF cut-off frequency mapping
-1ffe821e89760560f25538a8dbc555008e2a9eea iio: accel: bma220: add debugfs reg access
-5586d8f7a1b3b9d99087c4c4cfce64ef816f4410 iio: accel: bma220: add maintainer
-71bb0191f180c5393f6739cbed33e7b7b1ab6d34 dt-bindings: iio: Add Infineon DPS310 sensor documentation
-68fe416d2259bb10a21ec5b148d9fdd8dd95301b dt-bindings: iio: imu: Add inv_icm45600
-712007c900611c39ccfdb4edd180bde591753176 iio: imu: inv_icm45600: add new inv_icm45600 driver
-7e1e1e37402c95acd5ae6aace9e363a982038b11 iio: imu: inv_icm45600: add buffer support in iio devices
-4188d5dea4e762b95c6ffb41d1a4681b619110e4 iio: imu: inv_icm45600: add IMU IIO gyroscope device
-4b9773388426185cc28ec1e4d712830b9c5f3bc8 iio: imu: inv_icm45600: add IMU IIO accelerometer device
-c7dd90861c9052f7e28ef93fa03aeb94cb5dc43b iio: imu: inv_icm45600: add I2C driver for inv_icm45600 driver
-a4b7eae65ba1b203af517fa0f0ab1fcbb91ef673 iio: imu: inv_icm45600: add SPI driver for inv_icm45600 driver
-7fb9b3244078bf49c5f24f4c9cba7adb1ddd4c5f iio: imu: inv_icm45600: add I3C driver for inv_icm45600 driver
-d6bff1166408879633a5e9b784899667bf0f8c08 MAINTAINERS: add entry for inv_icm45600 6-axis imu sensor
-1ced3b7b299ea9634c2cb4c9cac5838de93a0645 iio: adc: ad4080: fix chip identification
-b68d1bf12e0d2ca9af31e98dbf5d8190f12dd04b iio: adc: ad4080: prepare driver for multi-part support
-5d8d9f47325d131350aef328510d1b68db0ad335 dt-bindings: iio: adc: adi,ad4080: add support for AD4084
-ac7a3ec9dcebde996361ccb690b8503755a4e2b4 iio: adc: ad4080: add support for AD4084
-eccb1df7ca159cfd0810089f2baed232e96bb82e dt-bindings: iio: adc: adi,ad4080: add support for AD4081
-b2012bb7e9d94b8d52913ed321fa363368958378 iio: adc: ad4080: add support for AD4081
-4b17a60d1e1c2d9d2ccbd58642f6f4ac2fa364ba iio: adc: ti-ads131e08: return correct error code
+ffc74ad539136ae9e16f7b5f2e4582e88018cd49 iio: adc: ad4030: Fix _scale value for common-mode channels
+9b45744bf09fc2a3287e05287141d6e123c125a7 iio: adc: rtq6056: Correct the sign bit index
+632757312d7eb320b66ca60e0cfe098ec53cee08 iio: adc: ad7380: fix SPI offload trigger rate
+8a6b7989ff0cd0a95c93be1927f2af7ad10f28de iio: adc: stm32-dfsdm: fix st,adc-alt-channel property handling
+0bf1bfde53b30da7fd7f4a6c3db5b8e77888958d iio: pressure: bmp280: correct meas_time_us calculation
+a514bb109eada64f798f1c86c17182229cc20fe7 iio: buffer: support getting dma channel from the buffer
+f9c198c3ccaf90a1a265fb2ffa8d4b093c3b0784 iio: buffer-dma: support getting the DMA channel
+3db847df994d475db7812dde90376f2848bcd30a iio: buffer-dmaengine: enable .get_dma_dev()
+bd886cdcbf9e746f61c74035a3acd42e9108e115 iio: adc: ad7280a: fix ad7280_store_balance_timer()
+21553258b94861a73d7f2cf15469d69240e1170d iio:common:ssp_sensors: Fix an error handling path ssp_probe()
+e2cc390a6629c76924a2740c54b144b9b28fca59 iio: adc: ad7124: fix temperature channel
 
---===============6759909829289476423==--
+--===============4099635079663147028==--
