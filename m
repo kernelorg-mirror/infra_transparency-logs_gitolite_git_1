@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1618357462709033744=="
+Content-Type: multipart/mixed; boundary="===============7100073858046762582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 13 Oct 2025 17:43:14 -0000
-Message-Id: <176037739465.2406542.14447952410191138197@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 17:43:16 -0000
+Message-Id: <176037739649.2406650.8382518386222892327@gitolite.kernel.org>
 
---===============1618357462709033744==
+--===============7100073858046762582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: ac68ef9e57b0cc635ad0f236e109b2ea22800ab6
-    new: 226e17305844a18c6ab918096942e0d55a2bda45
-    log: revlist-ac68ef9e57b0-226e17305844.txt
+  - ref: refs/heads/mm-stable
+    old: 7a405dbb0f036f8d1713ab9e7df0cd3137987b07
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-7a405dbb0f03-3a8660878839.txt
 
---===============1618357462709033744==
+--===============7100073858046762582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac68ef9e57b0-226e17305844.txt
+Content-Disposition: attachment; filename=revlist-7a405dbb0f03-3a8660878839.txt
 
+8e7bd526e83673c2b4931163311cca49796657f8 clk: tegra: Add DFLL DVCO reset control for Tegra114
+a24cd110e664396061b0a72930734bf419bf88c4 dt-bindings: clock: renesas,r9a09g047-cpg: Add USB3.0 core clocks
+23c59916bafa396265c12112bc94f373ad560b16 clk: renesas: r9a09g057: Add clock and reset entries for I3C
 2cfff084f03005079f900fe6d0a031f7c508e881 clk: renesas: r9a09g056: Add clock and reset entries for I3C
 7aa8781f379c32c31bd78f1408a31765b2297c43 clk: sunxi-ng: sun6i-rtc: Add A523 specifics
 a85ac2dae6bf8050deaf9839e4c0328756b48720 tools headers: Remove unused kvm_perf.h copies
@@ -901,6 +904,13 @@ fa02d505a3ef7c5c55b7b2aee1df2bdc178ce1ad MAINTAINERS, .mailmap: update Umang's e
 8375b76517cb52bac0903071feedc218c45d74d2 kho: replace kho_preserve_phys() with kho_preserve_pages()
 a667300bd53f272a3055238bcefe108f88836270 kho: add support for preserving vmalloc allocations
 90eb9ae35727a662789c850efaf225ffe5511fae lib/test_kho: use kho_preserve_vmalloc instead of storing addresses in fdt
+fcc0669c5aa681994c507b50f1c706c969d99730 memcg: skip cgroup_file_notify if spinning is not allowed
+1ce6473d17e78e3cb9a40147658231731a551828 mm/thp: fix MTE tag mismatch when replacing zero-filled subpages
+9658d698a8a83540bf6a6c80d13c9a61590ee985 mm/rmap: fix soft-dirty and uffd-wp bit loss when remapping zero-filled mTHP subpage to shared zeropage
+b93af2cc8e036754c0d9970d9ddc47f43cc94b9f mm/damon/vaddr: do not repeat pte_offset_map_lock() until success
+f04aad36a07cc17b7a5d5b9a2d386ce6fae63e93 mm/ksm: fix flag-dropping behavior in ksm_madvise
+28bba2c2935e219d6cb6946e16b9a0b7c47913be fsnotify: pass correct offset to fsnotify_mmap_perm()
+f52ce0ea90c83a28904c7cc203a70e6434adfecb mm: hugetlb: avoid soft lockup when mprotect to large memory area
 0d97f2067c166eb495771fede9f7b73999c67f66 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 e475fa420e6c53a5023e89dbf0d51bd027b5a776 net/mlx5: fix pre-2.40 binutils assembler error
 2c95a756e0cfc19af6d0b32b0c6cf3bada334998 net: pse-pd: tps23881: Fix current measurement scaling
@@ -1040,15 +1050,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-a2a0c5313d2237da3740f9027cde5b7d5c55b421 hung_task: fix warnings caused by unaligned lock pointers
-213082aabb3a25121d019e12473ac6354edeca93 mm: skip folio_activate() for mlocked folios
-8121f7bb162dd574128977771536c43cf3e6e9c8 mm/damon/sysfs: catch commit test ctx alloc failure
-6721fe9c486b36d9b9795a4b6eccb97e70e75152 mm/damon/sysfs: dealloc commit test ctx always
-36cda59943001c04d4ea7a07caba25c14506d0b1 hugetlbfs: check for shareable lock before calling huge_pmd_unshare()
-1351db3d17a7f597499cee83e511551e9ca2005e dma-debug: don't report false positives with DMA_BOUNCE_UNALIGNED_KMALLOC
-d74446ea27a22b90e9529d805a664d39f8986ecb dma-debug-dont-report-false-positives-with-dma_bounce_unaligned_kmalloc-v2
-5857b0acf626eb64a8683065167c983cef3c50a5 mm: don't spin in add_stack_record when gfp flags don't allow
-c4e7b5b077c84a175347e5c4ebdea41847ff7295 ocfs2: clear extent cache after moving/defragmenting extents
-226e17305844a18c6ab918096942e0d55a2bda45 mm: prevent poison consumption when splitting THP
 
---===============1618357462709033744==--
+--===============7100073858046762582==--
