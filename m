@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6337129127335518827=="
+Content-Type: multipart/mixed; boundary="===============8993876101771983249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 13 Oct 2025 20:10:47 -0000
-Message-Id: <176038624737.2539840.15870079665738436385@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 20:11:15 -0000
+Message-Id: <176038627581.2540290.18296598893338348405@gitolite.kernel.org>
 
---===============6337129127335518827==
+--===============8993876101771983249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
+  - ref: refs/heads/devel
     old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
     log: revlist-8f5ae30d69d7-3a8660878839.txt
 
---===============6337129127335518827==
+--===============8993876101771983249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============6337129127335518827==--
+--===============8993876101771983249==--
