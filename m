@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8285782945925907117=="
+Content-Type: multipart/mixed; boundary="===============4197437381541676848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Oct 2025 07:06:50 -0000
-Message-Id: <176033921090.1798942.8415790614130222820@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 07:06:54 -0000
+Message-Id: <176033921408.1799060.2527337794709580256@gitolite.kernel.org>
 
---===============8285782945925907117==
+--===============4197437381541676848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 67029a49db6c1f21106a1b5fcdd0ea234a6e0711
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
     log: |
@@ -28,34 +28,34 @@ changes:
          3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
          
 
---===============8285782945925907117==
+--===============4197437381541676848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339271 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339275 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1760339209-cc69ca697eb71e27f2eb479b616001922e6649c4
+nonce 1760339212-19dd807f21bfa12f37bf44f16959c35a0e671cb2
 
-67029a49db6c1f21106a1b5fcdd0ea234a6e0711 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/char-misc-next
+67029a49db6c1f21106a1b5fcdd0ea234a6e0711 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspUgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3FEQAIkiXnbCw5CVwCdrXPFt
-WRXvotw87m4tvohU8jkaTE2QCxNf4X5i2hxZGTnYf9JQbXGkabg2EVPzA2MuEUQj
-LKtfbF1vLQUn7IcPjvNUELDL42L9qKnT46t/+zIfrDGGngtm1C2R77tkQyrDt77k
-5med1Kvn4j/be2wUa5UeKwDqyC/vZPO09fiVoYzbQnepLbykD0+ksIV5cDHM0hy9
-DE3jy/1cclZ4Q8Vin++81kfNuKJapuxPBj3Ms+V6s3OKkr6T8ij4/b+ppIM515QW
-SWc38H4Std/TEo1XCazmSecB5bxIhmRwD+i9TBvmBZJSWaZhGXMaO3vREWvhO0ug
-1OghIhCSA+ZInTzsA2xS61YPizOEuDP4ZY+lEkJxlQWcyDkHg0YSME6Qge3Gd8xq
-ReuCge57OjYNUVASQuUH4Ri3uIgi5HhfOE9E+6ZCjnzUhBDRE7fXUvtmr07nBefA
-8suS8cJfRsVHJN+DGYFAXDAUfEnESSebsi2zQI5lqbvt101sgF12i8saHFsX76Mm
-Qh3G3HlaxM0Jm31blNGfMNEDcDnmxuwPsYUVIkrevmLyrJK+GBebwkvQoDUQgPFg
-9uL9lW/O1F2J+Wo39bwBPEGEmQ7xoqecGwHyt8YobawYiIdPOy9sCBoCje2qo1Yj
-IZ89e05gqW5j2qNEHYRQLlvm
-=qAnU
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspUsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5skP+wTE5Sj6fuXJqs7yX2T7
+ToIWFPOB1AcXHr/w8W7XbPuPMKEvti7aMRlV7znoyk4Vi//TxU5+0n35mRoPWcBV
+TlYqVQuxbAA6xUfDAqbaIHPaHcwaCqI1CGgoQ5aD4+4NpsDZSnBFWwYSu9ehISUs
+fEujpTAOv98fFr+z0qY6t6TftwcR8maovMeY6G36uqY7dAtMlIHneKNqbCgYj+7c
+z3gqTEwRCcPWI6uhEzyJ4SfsYqYTxQwajS0lBQZwSNnXPspjlxQIgK055iFXKUY4
+GvekYO/ujHUXszfwNpz3aO8UpUrrr9EMGqHwJ0LQPUeoRNbUGR5YBwmSFNCOVz7a
+MNjijMK4gw6Pa0XcKFQNg50BYrjp6KVrv1xyVS2RaBZ3fYhFQGWNPRKPdR2Gz0g4
+gBNKsnBxKM0YKSTayELYpbEt92Hn87O7Mlm9I8Vb/9ATacWQTohxiKI99yQMkwlo
+ZDY/+H3Tm1ktKpr4GGQYsjLt/2mmnAbdXbQb5VE9DIzX09co5oc64gdk3DHy7mJZ
+TfXHXtmUEybkb28bJkRfGIjavCqgpv7nZm5osLI/H5h3pbMMKlNnWNKK0j8ILWH6
+3x1XUQ+j0gxrkHZVnY1kh9qjgszYox47DB1lyE7nvH9ZlbHNdvebiH0LLmkwHzr6
+sckXnZrQFlpLgqfc5kZjy8hO
+=Ls6R
 -----END PGP SIGNATURE-----
 
---===============8285782945925907117==--
+--===============4197437381541676848==--
