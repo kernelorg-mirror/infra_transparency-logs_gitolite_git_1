@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1718680971344998600=="
+Content-Type: multipart/mixed; boundary="===============8327697333907131287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 13 Oct 2025 20:15:04 -0000
-Message-Id: <176038650485.2545415.7749325864104546581@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 20:15:30 -0000
+Message-Id: <176038653001.2545771.11623193041389733887@gitolite.kernel.org>
 
---===============1718680971344998600==
+--===============8327697333907131287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,58 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 5cb782ff3c62c837e4984b6ae9f5d9a423cd5088
-    new: 48277906603528a1fd1946bf0f141b2fd4f84e46
-    log: revlist-5cb782ff3c62-482779066035.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 6b7d7956b0844e404486bac2f7be8834d005c4b8
+    new: 2f1131aaf5efc6fa66b1afaacecb9dac77bffa4d
+    log: revlist-6b7d7956b084-2f1131aaf5ef.txt
 
---===============1718680971344998600==
+--===============8327697333907131287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1760386564 -0400
+pusher 75C5DE3D 1760386570 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1760386499-a952fb544e31e820dc5f952f53a9ecb949505b98
+nonce 1760386508-0d5c41c15fed2d55c2bd9460c81c46cf9c27c47b
 
-5cb782ff3c62c837e4984b6ae9f5d9a423cd5088 48277906603528a1fd1946bf0f141b2fd4f84e46 refs/heads/fixes
+6b7d7956b0844e404486bac2f7be8834d005c4b8 2f1131aaf5efc6fa66b1afaacecb9dac77bffa4d refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjtXgQACgkQ7ulgGnXF
-3j2cBA//SKgUisCHiU5uFIRF3O+ukjdzj9p9WVAMjvUHCDf/CML5MfTsOqy4l2Zd
-wfedHzRWt4ar+63lDsCxUJjGlTiOy6piAidnzaj2Qhe++zLT7Z+HhbcnU9jcAaJ5
-iTGEAptbBbNO2jzQnAO8fbqrDeImocaxnnDqia4tu7f7I9xMSlawyvTPh6Pv2nLQ
-UCBoZKd6IecNH0fvu9G9XN1Y+RDh64u9bMUMZIF/rmlT6/aiHAcOca8lhZko5fLq
-amZN+5U9dfh+HVZv6DmAAKbXoX3itDeGhvIbx42fihnaH7AMInPzW5fbeIQ3H0Tk
-6KexZzSxX7nO0anByTH4NzItxiH1nqD/or2wEP5wpYypjSzI8Qyj+fegf03vAJ/G
-ls4GKhlLBq+jqt3PIbMShqhJjpG4UkJ4IV2I2DmqgASO6ujsSYn0FJwZFO7lafEa
-OJJSW+C2bt6g36uz50UXVRaSejIGAYLu4QfRBigmG1IKCUZ5RsRlqyfHmL9duUZs
-vJ8QGqEbck29jKEfwwrbbK2MbrPCd6PhRhqf4a1gtAOMIE1KOeKXnphPXRIt81fo
-Z3dJ54ROHEXOW4U0B5pRaASq4Svql1nIyJTF6iKYMKpSu9JkJXTgCApYdaS7KPvA
-l04srjwF9xT6G2AavmlnzuToDzUX1/cg4AdLXUs300xbfTJ+UU8=
-=XJFt
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjtXgoACgkQ7ulgGnXF
+3j3xRxAApldZ85yoTwjf5zY/hZXOxpb+y99EtUG8virmbg8qeBe9bTZkOPEPzdmV
+vOWeSKAnPD3Tl/wib0RjCUnya4z5k6qJSDBqa1lIy/lDr1e6Y4t1rP5y5ZH56Hqn
+v74vQmvKlocc4pwlvslNxavV1WYFi+eA5nsp4gADZgsmhPkYNn8I3+vQRGJ/35vG
+LXUzO8uXuCi56N8MqDqJQnTc0yMZg+hUhhCerYaTSIl3voe6yMMp9yYGD66jrF0x
+ymUHH4feernU4v47Rsoh9e7HPYlcHZ8NlsYjGe98TfHqzWKFFhb3hyTeXOFVFG18
+1LCtfnEWhqGfmfStWtFkKbcosuXgHXQs5BD6YgppXVvauDcNtfcQonnk8VRUvfQn
+QhXd8IjJxgNVQmOVRYzlcJIvrTNJ3B4KceQ3XddqRh6DMOqtxaJISS858jt6SPh1
+otvqRV+A/keazsNVfktZ9pFOo9/dJIxlVamMI4mFa+fxOonqCR0kk04zAATOsPQo
+vNrSFxlnGhWZVKuQBeHud0doI2x2JNP3ZacZXB0R/rIPhwuAZamyshepmMrO2Kxw
+Hek/4XCBRAPq/8DPtMNEOH3fa4tMX4HjHRfT7Ee3B6IubuPM+bfhjbhOCK/zWpQA
+R6bV9WDpjPvHROMHUeyny1hrQSg7jmoF8A4D1H9taQZcQamxkkU=
+=3rNU
 -----END PGP SIGNATURE-----
 
---===============1718680971344998600==
+--===============8327697333907131287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cb782ff3c62-482779066035.txt
+Content-Disposition: attachment; filename=revlist-6b7d7956b084-2f1131aaf5ef.txt
 
+b1a5c6de97b4c861c1ad1e7ad3818ebd32be190e mtd: rawnand: omap2: drop unused module alias
+1f7005d382f567b25cfb96d9f201f5448cf67f9a mtd: rawnand: pl353: drop unused module alias
+61163e7373f678c453a4505865e0f8b27e506de8 mtd: rawnand: rockchip: drop unused module alias
+2f05c108664056f91e5f9171169c685f517ac568 mtd: rawnand: stm32_fmc2: drop unused module alias
+362f84c89e136539b8c3edb47f42fb06ce37bacf mtd: rawnand: sunxi: drop unused module alias
+b7ce6fa90fd9554482847b19756a06232c1dc78c Merge tag 'vfs-6.18-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
+e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
+3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 722df25ddf4f13e303dcc4cd65b3df5b197a79e6 Merge tag 'kernel-6.18-rc1.clone3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -67,11 +79,7 @@ cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message
 2804359536275d8d5f92eb1949102eca4153ea1e net: ethtool: remove duplicated mm.o from Makefile
 29be241d11748dbcd9981587a85afa734942c885 docs: networking: phy: clarify abbreviation "PAL"
 ee916dccd4df6e2fd19c3606c4735282b72f1473 Unbreak 'make tools/*' for user-space targets
-285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
 f2c61db29f277b9c80de92102fc532cc247495cd Remove bcachefs core code
-f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
-0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
-60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
 a40eb50a9566318a138b3e222fc4fe04e3932cda Merge tag 'gfs2-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 e445fba2d76369d72b497ecadf6b9787930693d9 Merge tag 'xfs-merge-6.18' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 98a4f5b7359205ced1b6a626df3963bf7c5e5052 PCI: xilinx-nwl: Fix ECAM programming
@@ -256,13 +264,11 @@ e4dcbdff114e2c0a8059c396e233aa5d9637afce Merge tag 'perf-core-2025-09-26' of git
 45d96dd2c62899ff8a3f07e3b8109656062b457a Merge tag 'x86_asm_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bd91417a962db247d41a22720a79e68a509a9353 Merge tag 'x86_microcode_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9c43b6e43643e0c884179fd4598e2003f1a04a3 Merge tag 'ras_core_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bb7663dec67b691528f104894429b3859fb16c14 scsi: ufs: sysfs: Make HID attributes visible
 d7ec0cf1cd79a74399b53453f9c48acbca7d6fce Merge tag 'x86_bugs_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffe381923d87c8cf5d4372c12eea6127dc36fd3a sunrpc: unexport rpc_malloc() and rpc_free()
 d11f6cd1bb4a416b4515702d020a7480ac667f0f NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 fd6d93c2b79ded0a447502ce5c8a9a549c697819 nfs/localio: make trace_nfs_local_open_fh more useful
 25ba2b84c38f624151a3ba36e56d41c39b9223ad nfs/localio: avoid issuing misaligned IO using O_DIRECT
-558ae4579810fa0fef011944230c65a6f3087f85 scsi: ufs: core: Include UTP error in INT_FATAL_ERRORS
 091bdcfcece0963a9a6590ba7cfcc9e1d454165f nfs/localio: refactor iocb and iov_iter_bvec initialization
 e43e9a3a3d6652047808d6fadff5c3703f5ce90d nfs/localio: refactor iocb initialization
 c817248fc831f5494d076421672b70a6ec1a92dc nfs/localio: add proper O_DIRECT support for READ and WRITE
@@ -851,11 +857,6 @@ d3e35a151a84ee607c817c08692dfd71568b3e0c dt-bindings: mailbox: Add MT8196 GPUEB 
 dbca0eabb821a6278925712a7bb263d0997e9c8f mailbox: add MediaTek GPUEB IPI mailbox
 bae04c9658fc8ec1429a64636ff14b09c31ba1d8 Merge tag 'drm-misc-next-fixes-2025-10-02' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
 73bc073d4270b6b227d5545fc277c1f09a26a77a Merge tag 'drm-xe-next-fixes-2025-10-03' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
-b69ffeaa0ae43892683113b3f4ddf156398738b9 scsi: storvsc: Prefer returning channel with the same CPU as on the I/O issuing CPU
-987da233b2982c686a8ea5cd4c76f0bd5e957ee3 scsi: qla4xxx: Fix typos in comments
-120642726ecb1b7a266f5c21bec90821e1154509 scsi: libfc: Prevent integer overflow in fc_fcp_recv_data()
-6dfc353af575e33c94f5d740f7b0569fa9b784d9 scsi: ufs: qcom: dt-bindings: Document the Kaanapali UFS controller
-7c3321f3d279eda7f7d622312ffdbb889f3bec97 scsi: ufs: phy: dt-bindings: Add QMP UFS PHY compatible for Kaanapali
 23f3770e1a53e6c7a553135011f547209e141e72 bpf: Fix metadata_dst leak __bpf_redirect_neigh_v{4,6}
 196754c2a04a8ba682b00ea7c818897295c98967 irqchip/aspeed-scu-ic: Fix an IS_ERR() vs NULL check
 f75e07bf5226da640fa99a0594687c780d9bace4 irqchip/sifive-plic: Avoid interrupt ID 0 handling during suspend/resume
@@ -1079,6 +1080,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-48277906603528a1fd1946bf0f141b2fd4f84e46 Merge branch '6.18/scsi-queue' into 6.18/scsi-fixes
 
---===============1718680971344998600==--
+--===============8327697333907131287==--
