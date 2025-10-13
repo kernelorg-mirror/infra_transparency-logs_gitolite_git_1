@@ -1,31 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============7334873402238568059=="
+Content-Type: multipart/mixed; boundary="===============7606889637646729565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 13 Oct 2025 07:38:46 -0000
-Message-Id: <176034112621.1833843.13836096652940875967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 13 Oct 2025 07:39:05 -0000
+Message-Id: <176034114596.1834742.10084517455934564076@gitolite.kernel.org>
 
---===============7334873402238568059==
+--===============7606889637646729565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: bb4aa9c2eb8a61a354d00061634c362a7e3ef0e5
-    new: e060c7297882b12012bac8001264a7c9fe61e2f5
-    log: revlist-bb4aa9c2eb8a-e060c7297882.txt
+  - ref: refs/heads/for-linus
+    old: 77908b81766781dfcd086878aefc29f5db8dae6a
+    new: 66233e583d1e00b1742d1ba36ae31568109ba6bd
+    log: |
+         5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
+         66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
+         
+  - ref: refs/heads/for-next
+    old: 77908b81766781dfcd086878aefc29f5db8dae6a
+    new: 66233e583d1e00b1742d1ba36ae31568109ba6bd
+    log: |
+         5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
+         66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
+         
+  - ref: refs/heads/master
+    old: 4f632750ad41ade6ff0ca9dc0619232a759b446d
+    new: c77258f4efda96c2aabc46a48ff8de5b634fd0a6
+    log: |
+         5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
+         66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
+         c77258f4efda96c2aabc46a48ff8de5b634fd0a6 Merge branch 'for-linus'
+         
+  - ref: refs/heads/upstream
+    old: e5f0a698b34ed76002dc5cff3804a61c80233a7a
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-e5f0a698b34e-3a8660878839.txt
 
---===============7334873402238568059==
+--===============7606889637646729565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb4aa9c2eb8a-e060c7297882.txt
+Content-Disposition: attachment; filename=revlist-e5f0a698b34e-3a8660878839.txt
 
+6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1072,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-e060c7297882b12012bac8001264a7c9fe61e2f5 cpufreq: s5pv210: fix refcount leak
 
---===============7334873402238568059==--
+--===============7606889637646729565==--
