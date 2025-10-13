@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3003072959616584426=="
+Content-Type: multipart/mixed; boundary="===============4457568171798933460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Oct 2025 10:06:24 -0000
-Message-Id: <176034998444.1978091.9965112606745156499@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 10:06:34 -0000
+Message-Id: <176034999461.1978439.18434128278239531992@gitolite.kernel.org>
 
---===============3003072959616584426==
+--===============4457568171798933460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/core
-    old: 4a1e02b15ac174c3c6d5e358e67c4ba980e7b336
-    new: ecf4ab97089bc45468356eaf3609b93a499cbf59
-    log: revlist-4a1e02b15ac1-ecf4ab97089b.txt
+  - ref: refs/heads/perf/core
+    old: 4f3f3f9aa9b0d68880fb2793e0a13b4c15488a44
+    new: f79c5a964e3aa7636f95ee64ee7d5b4a5ac41426
+    log: revlist-4f3f3f9aa9b0-f79c5a964e3a.txt
 
---===============3003072959616584426==
+--===============4457568171798933460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a1e02b15ac1-ecf4ab97089b.txt
+Content-Disposition: attachment; filename=revlist-4f3f3f9aa9b0-f79c5a964e3a.txt
 
+3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1047,8 +1048,7 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-a75c0641d47a6d98ddbecd141ba7d019f2c5f3ac x86/alternative: Drop not needed test after call of alt_replace_call()
-6990964362201192a66f993d500c740d0474add8 x86/alternative: Refactor apply_alternatives()
-ecf4ab97089bc45468356eaf3609b93a499cbf59 x86/alternative: Patch a single alternative location only once
+0f34f1f5511111bc1a4039e1efadf92432c9339b x86/insn,uprobes,alternative: Unify insn_is_nop()
+f79c5a964e3aa7636f95ee64ee7d5b4a5ac41426 x86/insn: Simplify for_each_insn_prefix()
 
---===============3003072959616584426==--
+--===============4457568171798933460==--
