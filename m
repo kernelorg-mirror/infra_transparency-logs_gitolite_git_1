@@ -1,38 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============2349697556322582972=="
+Content-Type: multipart/mixed; boundary="===============3171548724163909318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 13 Oct 2025 15:23:21 -0000
-Message-Id: <176036900188.2276741.7050759360672019672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 13 Oct 2025 15:23:30 -0000
+Message-Id: <176036901068.2276938.7653693678556635454@gitolite.kernel.org>
 
---===============2349697556322582972==
+--===============3171548724163909318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: 68e1e908cb7682db9fb7f79907f9352435a81c0f
+    old: 54d94c422fed9575b74167333c1757847a4e6899
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-68e1e908cb76-3a8660878839.txt
+    log: revlist-54d94c422fed-3a8660878839.txt
   - ref: refs/heads/next
-    old: 68e1e908cb7682db9fb7f79907f9352435a81c0f
+    old: 54d94c422fed9575b74167333c1757847a4e6899
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-68e1e908cb76-3a8660878839.txt
+    log: revlist-54d94c422fed-3a8660878839.txt
   - ref: refs/heads/stable-6.18
-    old: 68e1e908cb7682db9fb7f79907f9352435a81c0f
+    old: 54d94c422fed9575b74167333c1757847a4e6899
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-68e1e908cb76-3a8660878839.txt
+    log: revlist-54d94c422fed-3a8660878839.txt
 
---===============2349697556322582972==
+--===============3171548724163909318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e1e908cb76-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-54d94c422fed-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1059,4 +1059,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============2349697556322582972==--
+--===============3171548724163909318==--
