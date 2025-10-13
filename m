@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 13 Oct 2025 16:21:35 -0000
-Message-Id: <176037249536.2333494.6434072448631325120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 13 Oct 2025 16:24:16 -0000
+Message-Id: <176037265663.2335581.45160227447064122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/acpi_scmi_telemetry
-    old: 0000000000000000000000000000000000000000
-    new: 872204541d0c298cab365d5dcd343d9cdb749d31
+  - ref: refs/heads/for-next
+    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
+    new: 0000000000000000000000000000000000000000
