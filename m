@@ -1,52 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7606889637646729565=="
+Content-Type: multipart/mixed; boundary="===============3850780193997216829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 13 Oct 2025 07:39:05 -0000
-Message-Id: <176034114596.1834742.10084517455934564076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 13 Oct 2025 07:39:22 -0000
+Message-Id: <176034116299.1835408.4306955414298056728@gitolite.kernel.org>
 
---===============7606889637646729565==
+--===============3850780193997216829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-linus
-    old: 77908b81766781dfcd086878aefc29f5db8dae6a
-    new: 66233e583d1e00b1742d1ba36ae31568109ba6bd
-    log: |
-         5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
-         66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
-         
-  - ref: refs/heads/for-next
-    old: 77908b81766781dfcd086878aefc29f5db8dae6a
-    new: 66233e583d1e00b1742d1ba36ae31568109ba6bd
-    log: |
-         5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
-         66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
-         
-  - ref: refs/heads/master
-    old: 4f632750ad41ade6ff0ca9dc0619232a759b446d
-    new: c77258f4efda96c2aabc46a48ff8de5b634fd0a6
-    log: |
-         5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
-         66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
-         c77258f4efda96c2aabc46a48ff8de5b634fd0a6 Merge branch 'for-linus'
-         
-  - ref: refs/heads/upstream
-    old: e5f0a698b34ed76002dc5cff3804a61c80233a7a
+  - ref: refs/heads/opp/linux-next
+    old: 05db35963eef7a55f1782190185cb8ddb9d923b7
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-e5f0a698b34e-3a8660878839.txt
+    log: revlist-05db35963eef-3a8660878839.txt
 
---===============7606889637646729565==
+--===============3850780193997216829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5f0a698b34e-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-05db35963eef-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1073,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============7606889637646729565==--
+--===============3850780193997216829==--
