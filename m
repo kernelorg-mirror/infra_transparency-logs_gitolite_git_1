@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5733377163006203303=="
+Content-Type: multipart/mixed; boundary="===============6337129127335518827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Mon, 13 Oct 2025 20:10:21 -0000
-Message-Id: <176038622107.2539538.3858482497276228885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 13 Oct 2025 20:10:47 -0000
+Message-Id: <176038624737.2539840.15870079665738436385@gitolite.kernel.org>
 
---===============5733377163006203303==
+--===============6337129127335518827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: e5f0a698b34ed76002dc5cff3804a61c80233a7a
+  - ref: refs/heads/kunit-fixes
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-e5f0a698b34e-3a8660878839.txt
+    log: revlist-8f5ae30d69d7-3a8660878839.txt
 
---===============5733377163006203303==
+--===============6337129127335518827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5f0a698b34e-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============5733377163006203303==--
+--===============6337129127335518827==--
