@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 13 Oct 2025 17:44:16 -0000
-Message-Id: <176037745683.2408010.3923483939195081811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 13 Oct 2025 17:51:47 -0000
+Message-Id: <176037790742.2415238.4274442820480525356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/tags/damon/next-2025-10-13-10-45-on-v6.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 53d5280352b6a8eff7469d6f35b4d51b3da313fd
+  - ref: refs/notes/commits
+    old: c2d436b62ef66914c6d1e9c122905f5f3e8feba7
+    new: 9520f9bc49514e3b5243a00cedb2b742709fe589
+    log: |
+         9520f9bc49514e3b5243a00cedb2b742709fe589 Notes added by 'git notes add'
+         
