@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9126900161705735862=="
+Content-Type: multipart/mixed; boundary="===============6952878277760666514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Oct 2025 17:27:23 -0000
-Message-Id: <176037644385.2391291.6356433001349709264@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 17:29:48 -0000
+Message-Id: <176037658849.2393096.12877592150460587632@gitolite.kernel.org>
 
---===============9126900161705735862==
+--===============6952878277760666514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: 24f8700c99a54f2bb5933c7cc5d795bf61377d20
-    new: 21973593e123fa9dca9f30766c7350d1cbecf66e
-    log: revlist-24f8700c99a5-21973593e123.txt
+  - ref: refs/heads/arm64-sme-ptrace-sme-only
+    old: ec8c33979d1f4f7451876977c9c2a9c2869a1a39
+    new: 5f776cd47f4d48a39d79d16ca0e20de967ea20c0
+    log: revlist-ec8c33979d1f-5f776cd47f4d.txt
 
---===============9126900161705735862==
+--===============6952878277760666514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24f8700c99a5-21973593e123.txt
+Content-Disposition: attachment; filename=revlist-ec8c33979d1f-5f776cd47f4d.txt
 
+e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+722df25ddf4f13e303dcc4cd65b3df5b197a79e6 Merge tag 'kernel-6.18-rc1.clone3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5484a4ea7a1f208b886b58dd55cc55f418930f8a Merge tag 'vfs-6.18-rc1.afs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message in probe()
 18b19abc3709b109676ffd1f48dcd332c2e477d4 Merge tag 'namespace-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1041,14 +1045,10 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-f9d07565cec241385a82f8fe22806ef003064b7f fork: Support shadow stacks in clone3()
-6d2837026d6740aba34389810980af94c202c0a1 arm64/gcs: Return a success value from gcs_alloc_thread_stack()
-7aa55e77ffdda4c5477e38527b1948f4de693b1b Documentation: userspace-api: Add shadow stack API documentation
-ec2ed269d8c2d8d0b168892e2d1eb44069e1a80f selftests: Provide helper header for shadow stack testing
-c8b89e251c0038de1ff796896956201afb4fc88d fork: Add shadow stack support to clone3()
-c10e4e83e1124174c8272a5885c5ba675e272fcb selftests/clone3: Remove redundant flushes of output streams
-7e3523aff11fc9bc4ed3dbc8eda21c98e0da9040 selftests/clone3: Factor more of main loop into test_clone3()
-30a02779f3651a623c9d2864e99a4f125ddbedb9 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-21973593e123fa9dca9f30766c7350d1cbecf66e selftests/clone3: Test shadow stack support
+d1f2bcbc61e2b836f9eb445a523a1f4f7f6fc07a arm64/sme: Support disabling streaming mode via ptrace on SME only systems
+20dc6151ae809cf7111b13e0854619eb3ea634aa kselftest/arm64: Check that unsupported regsets fail in sve-ptrace
+955a043e235142f70caf608a0d6973bc80120716 arm64/sme: Support disabling streaming mode via ptrace on SME only systems
+4f2a25dca740454e4392d4e6b83c3245cfdafe44 kselftst/arm64: Test NT_ARM_SVE FPSIMD format writes on non-SVE systems
+5f776cd47f4d48a39d79d16ca0e20de967ea20c0 kselftest/arm64: Cover disabling streaming mode without SVE in fp-ptrace
 
---===============9126900161705735862==--
+--===============6952878277760666514==--
