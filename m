@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1599321898912136082=="
+Content-Type: multipart/mixed; boundary="===============4015744652770992816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 13 Oct 2025 05:20:55 -0000
-Message-Id: <176033285571.1655230.9948978803639908720@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 05:21:25 -0000
+Message-Id: <176033288544.1655602.14743001489515763450@gitolite.kernel.org>
 
---===============1599321898912136082==
+--===============4015744652770992816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: 0e0ba0ecec3d6e819e0c2348331ff99afe2eb5d5
+  - ref: refs/heads/usb-linus
+    old: f83ec76bf285bea5727f478a68b894f5543ca76e
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-0e0ba0ecec3d-3a8660878839.txt
+    log: revlist-f83ec76bf285-3a8660878839.txt
 
---===============1599321898912136082==
+--===============4015744652770992816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e0ba0ecec3d-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-f83ec76bf285-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============1599321898912136082==--
+--===============4015744652770992816==--
