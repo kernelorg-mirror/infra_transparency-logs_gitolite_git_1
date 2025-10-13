@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4636701213552541598=="
+Content-Type: multipart/mixed; boundary="===============4861168542775938954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 13 Oct 2025 00:20:29 -0000
-Message-Id: <176031482928.1396828.2846120051402428673@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 00:20:38 -0000
+Message-Id: <176031483861.1397117.11139689151255934380@gitolite.kernel.org>
 
---===============4636701213552541598==
+--===============4861168542775938954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
+  - ref: refs/heads/for-next
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 5b6b7d39cee69373dc61ca22164d616e4faf60c6
     log: |
@@ -24,35 +24,39 @@ changes:
          f416d35e6522f0c08d4e866e5d6930bfd504e645 dt-bindings: pinctrl: samsung: add exynos8890-wakeup-eint compatible
          5b6b7d39cee69373dc61ca22164d616e4faf60c6 pinctrl: samsung: add exynos8890 SoC pinctrl configuration
          
+  - ref: refs/heads/for-v6.19-early-will-be-rebased
+    old: fef2085bf1979ac98d04048520a975c045cd4552
+    new: 0000000000000000000000000000000000000000
 
---===============4636701213552541598==
+--===============4861168542775938954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1760314889 +0200
+pusher krzk@kernel.org 1760314898 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1760314827-a50f81e86b4825eb10b2b924a8bd1e4f8d81de3c
+nonce 1760314836-bd8e02bb7b827ad185e1a174b56b6fa430da4d9f
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 5b6b7d39cee69373dc61ca22164d616e4faf60c6 refs/heads/pinctrl-next
+3a8660878839faadb4f1a6dd72c3179c1df56787 5b6b7d39cee69373dc61ca22164d616e4faf60c6 refs/heads/for-next
+fef2085bf1979ac98d04048520a975c045cd4552 0000000000000000000000000000000000000000 refs/heads/for-v6.19-early-will-be-rebased
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjsRgkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD152HD/9Lb8+zrRO5dcVE4JN7zuqs69FsN09gCY/9
-alZhbfACc8SxBd105VLSkyLIPsZ7c6ccJ4IOYgEdXk5RT55GQpEXn2Vk7K7YHRkt
-NqZN05cxq14T6onv44RwwdeQgSK4ImSpBgcKKqJQS9vH27Al/DQO4rxS9Rgv2Fn1
-GAqdz+/HdPQfHElYfQX5R2aUMDuhIWg4i8M9fd297BrcwoCrsnqkdyR69fSlJ6Xz
-UfAZSufjryEZlYUGPvaWst19FdlR7Y99BQwm2BxCIGzBnUwh7BWtzifed0NWPme1
-torAnGAvzhxkeLkkFf4zmfxktqbwB3/yJUtt65j+Z8xbtvSa4Anjx5PqpqOSoVx1
-bfcJBtmJyKqPC94ZTwATWrM0cl31DsD4lxsONAkAGjaOzTFEAvL25pL7BiQjzfS3
-3x4yarkECNPT+05YZl0SN010STWVqNYKnuYO5imEV4KpF4GF0Hhxcc9rdkMdN+uq
-qBY80RhSeZNGorVVZNdrsYusPLHiFycW3FB63OgKXSeI9P6rGHehaSvR2/LMtlmj
-rmlBOIZaFhY7iPwgfnP/cJz7tkFuQOLDEJBxSclkFNFz0Uk+rURxOSZtw3+L/dCs
-a7aECI9JhrDF+/l+WsgxXFxh5JmUgjPf9ao3oE8BFwXUQcoT6hRxoo234khv0257
-ExQHNKfBgw==
-=rUKB
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjsRhIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yyQD/0cNpm6SmCvULzXYXKzWP9OLIsJGQQ0U8mp
+80UlOvgQ79CyzIPR9iLNR/m5xxOzhAsf5qqdo4RWJI6aYJZixBpO+4bgYdSJQGfy
+iU+ppDHeNmq3ggpMibcLlbm5572tkCKkD+nNwLWhnwfdcvwu0r3m62CYvNooc/Ec
+Ztz4BXhV4PTgM0V8t0rEDHQ2QWK+IkGnsQ7q7JKrqL47zCT5sZa9KM6cBVHOLtUA
+KJ3oUYuriDo3F8XVV0VVPtAb98sBdDtvNnqPVq5oCjnP7Zq9uNlZrpyaZfFKVKQz
+vOwTD8Tl6A4sN1AuAZauE8VEbHDUaqMKQeCY8fjY2oHTxW3ZIZUeFb3ZWwbYsSNS
+reE1HG7sQ3Ee5UUS9GT9pSXtURAq9BV3e0Kx0Oq629bI8boHZOi1RHVy8NVKA/Ip
+QjE0sTiHNJ91ahlKrJHCVcLXN28u+GRusMU5wXPftVEeQ8Ipgpbxy4/mOgMgRoT9
+oUNbRJgZ2B0Vgcf9ROCJDijbuylfoliL46mfST3gUfN02F0zPxsbgE4I/BsD8hF3
+/hoYD1nEogucNlh78csOgJYfvbLybM4xQA4fEhRReYcTwyF0QOovz+15U9BRsMUX
+KCrDdQh4OovZZ6xL45l7zc6PFwpREuTVZmvGelzRIfb3YGYkKD8M2kTGX4oTGlTy
+g+6fujst4A==
+=guiC
 -----END PGP SIGNATURE-----
 
---===============4636701213552541598==--
+--===============4861168542775938954==--
