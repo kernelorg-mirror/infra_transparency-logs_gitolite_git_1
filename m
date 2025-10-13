@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5247729277175358318=="
+Content-Type: multipart/mixed; boundary="===============7904146568211223093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 13 Oct 2025 08:41:33 -0000
-Message-Id: <176034489333.1896801.11592615839842097578@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 08:42:00 -0000
+Message-Id: <176034492083.1897162.5978113781982091354@gitolite.kernel.org>
 
---===============5247729277175358318==
+--===============7904146568211223093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 93e9a0677cc38a73ef8f4eac5db40462decb26da
-    new: 3f5025593bf44c3cf9906bdc8791243f21bda9fe
+    old: 3f5025593bf44c3cf9906bdc8791243f21bda9fe
+    new: e93954b32a5e4a01fe1d01eca24b0effeedeb4f0
     log: |
-         3f5025593bf44c3cf9906bdc8791243f21bda9fe 6.6-stable patches
+         e93954b32a5e4a01fe1d01eca24b0effeedeb4f0 drop queue-6.1/media-zoran-remove-zoran_fh-structure.patch
          
 
---===============5247729277175358318==
+--===============7904146568211223093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760344954 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760344981 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1760344891-116159ed97bf5b437c6d7978b0d6097b7864079b
+nonce 1760344919-f9960fea644b11a23188c3f36cd1d694378d5f77
 
-93e9a0677cc38a73ef8f4eac5db40462decb26da 3f5025593bf44c3cf9906bdc8791243f21bda9fe refs/heads/master
+3f5025593bf44c3cf9906bdc8791243f21bda9fe e93954b32a5e4a01fe1d01eca24b0effeedeb4f0 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjsu3obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q2QQANRLFYK4UKAjA05BovJk
-l+RTNz8a3bSDou9R407Ui0nzMnF+pSkeVFcRHskQqc6/p/QVizwqaqvWT7J24HVT
-jte/sre1Pphnuuf6N/OpPIIoq8YJGgF4/IROicsCiVfsbvSlt9HYBuEdX5s3EMoZ
-MRrwnHLaTKIB7T4ZAD33DS4My6i4fJHeGUTPS9rbWtfLp+HmznAtvVeJdBLfO3Rx
-tCOUtnhPKc960AFDo7GTywaPkhN2mPuW226sIkUGoApiaZ98HOpe8T9ppK/m0EAL
-gFrrtXB+az2TWza3PuaenLg0JldVK2/5tDT2avOIXLCZd7rsRUGtv8VUioZQkh4Q
-Go5IgHqeOlgFNkJ9pe8s+EP3Yo7AkRTDULtyrZLN9rWrWWgoG+kDmQK8vVhi0nib
-ER0z4uDIsv7FhnjTLdLCeFtPoJJdLcbNrlkKi7G1Xjom6lezx0TteNHsHmUkwf/a
-V3+Q6vH2XXib3lH5iXIo/vPh7gCdG5ymbPtqWGmuGgZ7GmMSXrRKoO1H/VR6+/Rp
-6JDn1TDTrSW3E76oKfgCfhKzWwzVjxDoR2gGWy04AI5ApIyGW5IuubbMHslD64qp
-2mnRkMT9m68K9QAc3MHVESxtOfpl/BTx0t9LZ/W3xXJHSXkvY0qMOKo85zVyDwu2
-6zo+lA7Yj4KihdujT/J/9cIa
-=M3J2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjsu5UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6EQP/iOwYAPZ72gyQVFdHNlJ
+qkfda46AiGi5Qb5aKHPkDjVypUsPDcsiIuBr0CDfFVs3FFIZObWM/gVplUMmWbt0
+pKhDOrvQ2ttpH45VzEy/2IZjXDVh2NRS8DZW2wF6q/BxGwxsxsb69XrjtBAMjOZK
+erOcU11wbBSiGLtYCVYNcpyn/Fo9uJKi/GbUZAEIjKEReT5mOqVIJAtOuuvQ/Vfj
+lt8PgdOVZWOPzybKVLrWGRYDvqDSH+vuX/fG5OIvYb62Ursb5ngiF+xn0rG+Vs3i
+LFnIE1FHLMvoASlqCuP+MDepG3y4bNel3xIrAjGj00vRTCCeZkORXMIJhuFs5Tb2
+MQ2sVTo0YzPh4v0ozJXUDozAmPietebeR1lH9yMbx3I+0re7RkpAYI+0HXNtfulO
+2gAZAbCdFbeasfdCkUcsXxN67RYnkopuaQkR57j82pwY0dE46X9QMBvMNLLbBHGF
+9dey1x6cjrETzr3yiC63kh4HayM2wHNh6iZRMdUD52pNQOUnxt0UG84H+l9NL9Kk
+v7K83um9n7fwSlvcQUas/mFJQ+1JzCoCjJqFilUXaiEZwm7C7YQNsMekf8ZcwS5f
+g97hXhkfq1BNu+kds4dSGn4w5QoaUnX2v/NHbE9J7fxXUeRV6RL3XjvgzaSiwIqS
+r2cb9u5rBMPAiJvSTgCXRgyb
+=MSY/
 -----END PGP SIGNATURE-----
 
---===============5247729277175358318==--
+--===============7904146568211223093==--
