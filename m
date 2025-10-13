@@ -1,41 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============4400687971289524828=="
+Content-Type: multipart/mixed; boundary="===============4033397845995393478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Mon, 13 Oct 2025 20:16:14 -0000
-Message-Id: <176038657440.2546930.9312010333905306281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Mon, 13 Oct 2025 20:16:21 -0000
+Message-Id: <176038658112.2547191.12450777601680178531@gitolite.kernel.org>
 
---===============4400687971289524828==
+--===============4033397845995393478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hyperv-next
-    old: b595edcb24727e7f93e7962c3f6f971cc16dd29e
-    new: 0f60b8508ca2ac685e0400cd802d1251a9d67ee4
-    log: revlist-b595edcb2472-0f60b8508ca2.txt
+  - ref: refs/heads/staging
+    old: 7c3321f3d279eda7f7d622312ffdbb889f3bec97
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-7c3321f3d279-3a8660878839.txt
 
---===============4400687971289524828==
+--===============4033397845995393478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b595edcb2472-0f60b8508ca2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher 75C5DE3D 1760386640 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1760386575-b57a456a1f926e9f006f989ef0d5652886c8da2f
+
+7c3321f3d279eda7f7d622312ffdbb889f3bec97 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/staging
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmjtXlAACgkQ7ulgGnXF
+3j3+lA//fuzVNRox7R4hpbLThorFfy5skvGhdVMmPYKr7dEKFzQL3JqjhdPOzuTO
+2+pKo7ZdzhH/PXN/tDy5/uv24GboClSQ0CkSqte1nVwh96iqfkI4n7b/5BxAIu9j
+4KZnwG36RQt31ohWEf6N7Szb5+ixM/67EQCTta/5W98E3xWR4ns+LSE9gwVGapf6
+WuEXiuNxDcDgr7ZwNkA0G+kqHXwLWQ/1MdQUrF+GntqND68IoWkCBS5W2bWB38J2
+ZnLxYLDSLUBsZfvvOCOi1nSCdsw0bZEm3Fd9ebWcaEKPcoFB0wTzfpv6oV+MEDlo
+xE7bSLtIR6xgwOsCCZ7DrzIB4wNskKQpvwS8KJai1T37VcUqGPv7vR4TzY1w7mF4
+ArCDodtfC1ovGT+ioz58mlRLzJRttO1TUC1x0iwMcPCx6RU3dir0Tg/iypg5Op4u
+RTXZ/pnl9/S9V+mWTzIv86nYQGY/cH/8pF8L/KdAhP1FlCi8x8Hvh24mRe2n+ElL
+Vvaxqo07IETnhU48u1T8rhnCqPqtRgMzWgN/BtUtOYcOp+hkh8zmjcfED0XC8pN6
+JQmkksUyqwImVSnUcdi4u9+rJGXQTpfB7Dy26GjXxZ0Mg2ZSqWfDZfT6l/pY+ckg
+EykXuf2i1to5Gj6olYAD1b5ZaaY/kiP0G+1uo1lwmepS5CoD2Ig=
+=drkv
+-----END PGP SIGNATURE-----
+
+--===============4033397845995393478==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7c3321f3d279-3a8660878839.txt
+
+b1a5c6de97b4c861c1ad1e7ad3818ebd32be190e mtd: rawnand: omap2: drop unused module alias
+1f7005d382f567b25cfb96d9f201f5448cf67f9a mtd: rawnand: pl353: drop unused module alias
+61163e7373f678c453a4505865e0f8b27e506de8 mtd: rawnand: rockchip: drop unused module alias
+2f05c108664056f91e5f9171169c685f517ac568 mtd: rawnand: stm32_fmc2: drop unused module alias
+362f84c89e136539b8c3edb47f42fb06ce37bacf mtd: rawnand: sunxi: drop unused module alias
+b7ce6fa90fd9554482847b19756a06232c1dc78c Merge tag 'vfs-6.18-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
+e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
+3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+722df25ddf4f13e303dcc4cd65b3df5b197a79e6 Merge tag 'kernel-6.18-rc1.clone3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+5484a4ea7a1f208b886b58dd55cc55f418930f8a Merge tag 'vfs-6.18-rc1.afs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message in probe()
+18b19abc3709b109676ffd1f48dcd332c2e477d4 Merge tag 'namespace-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 263e777ee3e00d628ac2660f68c82aeab14707b3 Merge tag 'vfs-6.18-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 449c2b302c8e200558619821ced46cc13cdb9aa6 Merge tag 'vfs-6.18-rc1.async' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 2804359536275d8d5f92eb1949102eca4153ea1e net: ethtool: remove duplicated mm.o from Makefile
 29be241d11748dbcd9981587a85afa734942c885 docs: networking: phy: clarify abbreviation "PAL"
 ee916dccd4df6e2fd19c3606c4735282b72f1473 Unbreak 'make tools/*' for user-space targets
-285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
 f2c61db29f277b9c80de92102fc532cc247495cd Remove bcachefs core code
-f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
-0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
-60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
 a40eb50a9566318a138b3e222fc4fe04e3932cda Merge tag 'gfs2-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 e445fba2d76369d72b497ecadf6b9787930693d9 Merge tag 'xfs-merge-6.18' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 98a4f5b7359205ced1b6a626df3963bf7c5e5052 PCI: xilinx-nwl: Fix ECAM programming
@@ -220,13 +264,11 @@ e4dcbdff114e2c0a8059c396e233aa5d9637afce Merge tag 'perf-core-2025-09-26' of git
 45d96dd2c62899ff8a3f07e3b8109656062b457a Merge tag 'x86_asm_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bd91417a962db247d41a22720a79e68a509a9353 Merge tag 'x86_microcode_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9c43b6e43643e0c884179fd4598e2003f1a04a3 Merge tag 'ras_core_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bb7663dec67b691528f104894429b3859fb16c14 scsi: ufs: sysfs: Make HID attributes visible
 d7ec0cf1cd79a74399b53453f9c48acbca7d6fce Merge tag 'x86_bugs_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffe381923d87c8cf5d4372c12eea6127dc36fd3a sunrpc: unexport rpc_malloc() and rpc_free()
 d11f6cd1bb4a416b4515702d020a7480ac667f0f NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
 fd6d93c2b79ded0a447502ce5c8a9a549c697819 nfs/localio: make trace_nfs_local_open_fh more useful
 25ba2b84c38f624151a3ba36e56d41c39b9223ad nfs/localio: avoid issuing misaligned IO using O_DIRECT
-558ae4579810fa0fef011944230c65a6f3087f85 scsi: ufs: core: Include UTP error in INT_FATAL_ERRORS
 091bdcfcece0963a9a6590ba7cfcc9e1d454165f nfs/localio: refactor iocb and iov_iter_bvec initialization
 e43e9a3a3d6652047808d6fadff5c3703f5ce90d nfs/localio: refactor iocb initialization
 c817248fc831f5494d076421672b70a6ec1a92dc nfs/localio: add proper O_DIRECT support for READ and WRITE
@@ -249,13 +291,24 @@ da1bb9135213744e7ec398826c8f2e843de4fb94 fbdev: simplefb: Fix use after free in 
 7601d18be06943d5ac2b1802899ff6c303544936 Merge tag 'core-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1d17e808cf2aad182f0eb2ea83e329e4a6795428 Merge tag 'core-rseq-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd8c8216648cd8c047bd3bcad65424ed44b5b450 net/mlx5: Improve write-combining test reliability for ARM64 Grace CPUs
+7ad8c34f2435137e2a0dfd0a5dd000e219c642ce x86/hyperv: Add kexec/kdump support on Azure CVMs
+0ebac01a00be972020c002a7fe0bb6b6fca8410f mshv: Handle NEED_RESCHED_LAZY before transferring to guest
+6d0386ea99875313fdfd074eb74013b6e3b48a76 entry/kvm: KVM: Move KVM details related to signal/-EINTR into KVM proper
+9be7e1e320ff2e7db4b23c8ec5f599bbfac94ede entry: Rename "kvm" entry code assets to "virt" to genericize APIs
+c5eebe075e1129748f74e567da7bd8fbe77e485b mshv: Use common "entry virt" APIs to do work in root before running guest
+4691db0704ac1c266377c99f00288a014fdb7af1 x86/hyperv: Switch to msi_create_parent_irq_domain()
 3b2074c77d25f453247163300d5638adfab4e4fa Merge tag 'irq-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 03a53e09cd723295ac1ddd16d9908d1680e7a1bf Merge tag 'irq-drivers-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d8de3685f1a28722a4ba4f1f06a0987822750fb9 Merge tag 'smp-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c574fb2ed7c96f87fc0e5295e910e646a7ee4dfa Merge tag 'locking-futex-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c5448d46b3995c0b477f6bb04f313af3d57665c4 Merge tag 'timers-core-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fd9be098f7eb4bb6b1768145fd48e74a292e3730 Drivers: hv: vmbus: Clean up sscanf format specifier in target_cpu_store()
+332bf98d6c5a198d3078110b9000841dac3fd7b2 Drivers: hv: vmbus: Fix sysfs output format for ring buffer index
+a3a4d6cb0b968e5d842e79f5dd9d7e07670e9b8a Drivers: hv: vmbus: Fix typos in vmbus_drv.c
 70de5572a82b3d510df31d2c572c15cd53a00870 Merge tag 'timers-clocksource-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4b81e2eb9e4db8f6094c077d0c8b27c264901c1b Merge tag 'timers-vdso-2025-09-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+94b04355e6397a0a70b69c2571fa5c7d9990b835 Drivers: hv: Add CONFIG_HYPERV_VMBUS option
+e3ec97c3abaf2fb68cc755cae3229288696b9f3d Drivers: hv: Make CONFIG_HYPERV bool
 906154caa7d3d750d47cd18f9349b75b77e12854 net/mlx5: HWS, Generalize complex matchers
 06fdc45f16c392dc3394c67e7c17ae63935715d3 net/mlx5e: Prevent entering switchdev mode with inconsistent netns
 33dbaa54ef431b416c1ddb2c25b9b201634edcfa net/mlx5: Improve QoS error messages with actual depth values
@@ -529,6 +582,9 @@ c3073f1da0517b63cf3e561d79c346e15bd8c5a8 fbdev: radeonfb: Remove stale product l
 c8fee6a7c5cbde4908804aafc469391c22e72be9 fbdev: Make drivers depend on LCD_CLASS_DEVICE
 f79e772258df311c2cb21594ca0996318e720d28 Merge tag 'media/v6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 2ce61c63e7459058709f12f43a8a98c500382382 selftests/bpf: Add tests for rejection of ALU ops with negative offsets
+34b4620349fe4776babf9c735e1c68e620784763 fbdev/hyperv_fb: deprecate this in favor of Hyper-V DRM driver
+020b4e86834f7a35e9986cacd10eb0202d8faa08 MAINTAINERS: Mark hyperv_fb driver Obsolete
+b595edcb24727e7f93e7962c3f6f971cc16dd29e hyperv: Remove the spurious null directive line
 98b7bf54338b797e3a11e8178ce0e806060d8fa3 loop: fix backing file reference leak on validation error
 510d76646a6a7beaa49fc0da7282e285a3dfce97 block: Update a comment of disk statistics
 63d2247e2e37d9c589a0a26aa4e684f736a45e29 libbpf: Fix missing #pragma in libbpf_utils.c
@@ -1024,31 +1080,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-cf7f213312b188a67d744dc02dd5c03751fc7b0f x86/hyperv: Don't use hv apic driver when Secure AVIC is available
-bee8bf1316c2a506cfecfc19e720f85186de3a60 drivers: hv: Allow vmbus message synic interrupt injected from Hyper-V
-52974142b2a370b15e2826e4d80880e335990d32 x86/hyperv: Don't use auto-eoi when Secure AVIC is available
-6302a381a95b923445514c10f15a4529430f2365 x86/hyperv: Allow Hyper-V to inject STIMER0 interrupts
-55782c1285592dbd1df8ca50298983137d8e8cc0 Documentation: hyperv: Confidential VMBus
-c6112b2771f1f5483e83c8f9a8eae329042c199d Drivers: hv: VMBus protocol version 6.0
-12a4a027da92c2e2c1eb61268fd7f3ed0fd397e4 arch/x86: mshyperv: Discover Confidential VMBus availability
-3330e25f268e07e531b5e48edccc6f3dee082601 arch: hyperv: Get/set SynIC synth.registers via paravisor
-2750999157d7c9bb0c4bec6a99f5fe0700259c0b arch/x86: mshyperv: Trap on access for some synthetic MSRs
-12ded5757742dc2ba2a79fe816c52241064c64b2 Drivers: hv: Rename fields for SynIC message and event pages
-006665d52cf2235853b06e1b08f4dd524e4dbbf9 Drivers: hv: Allocate the paravisor SynIC pages when required
-a6553a98909ab24594f8e8da4071bbff9b780d7a Drivers: hv: Post messages through the confidential VMBus if available
-41df8fefe571e83036e3d561a4f257f458034ece Drivers: hv: remove stale comment
-f9066a9455876c2055746b28b940a2b64984bd2a Drivers: hv: Check message and event pages for non-NULL before iounmap()
-97332abf40b9f2c7dae14f5ef20a3fd7b08940ff Drivers: hv: Rename the SynIC enable and disable routines
-b9c142fc483d08531a89d5cf29ca7758196a9e41 Drivers: hv: Functions for setting up and tearing down the paravisor SynIC
-81bbbfe6db617f62fa636d744d71f642aafc6e18 Drivers: hv: Allocate encrypted buffers when requested
-3b4a718ac375b791449c3141519ee5252b644149 Drivers: hv: Free msginfo when the buffer fails to decrypt
-16eafa65663edcd862bdaec1f435c723103aa35d Drivers: hv: Support confidential VMBus channels
-0040edd8238102b06dc6efc159cd224f37c3c6b9 Drivers: hv: Set the default VMBus version to 6.0
-6451c6ee8b99431cb70ca836327d2e4b288b92a9 Drivers: hv: Support establishing the confidential VMBus connection
-ae55c148ba8850b36d43e080320197f3fe1be505 mshv: Only map vp->vp_stats_pages if on root scheduler
-8878d8d28044f0dbb36fc9ac7446027b29b7bfc4 mshv: Add the HVCALL_GET_PARTITION_PROPERTY_EX hypercall
-66c7d7c81ccc00285ec32ffaeb360c1ab2e2b1e1 mshv: Get the vmm capabilities offered by the hypervisor
-e8c6b20808d0369e79b6f21ce809681ad4a80c06 mshv: Allocate vp state page for HVCALL_MAP_VP_STATE_PAGE on L1VH
-0f60b8508ca2ac685e0400cd802d1251a9d67ee4 mshv: Introduce new hypercall to map stats page for L1VH partitions
 
---===============4400687971289524828==--
+--===============4033397845995393478==--
