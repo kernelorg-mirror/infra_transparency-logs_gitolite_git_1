@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1520294902638834402=="
+Content-Type: multipart/mixed; boundary="===============1473850145636117189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Oct 2025 12:52:23 -0000
-Message-Id: <176035994321.2132359.12212447079374513002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 13 Oct 2025 12:54:36 -0000
+Message-Id: <176036007617.2134230.4342271122046255114@gitolite.kernel.org>
 
---===============1520294902638834402==
+--===============1473850145636117189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/spi-6.18
-    old: 18a5f1af596e6ba22cd40ada449063041f3ce6d4
-    new: 4f38da1f027ea2c9f01bb71daa7a299c191b6940
-    log: revlist-18a5f1af596e-4f38da1f027e.txt
+  - ref: refs/heads/master
+    old: f6be823e4af90d31f8670c0d50d016159afe062b
+    new: 90b2f0aaf37dac827373a682db8df7d3ae0dc7de
+    log: revlist-f6be823e4af9-90b2f0aaf37d.txt
 
---===============1520294902638834402==
+--===============1473850145636117189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18a5f1af596e-4f38da1f027e.txt
+Content-Disposition: attachment; filename=revlist-f6be823e4af9-90b2f0aaf37d.txt
 
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1049,6 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-4f38da1f027ea2c9f01bb71daa7a299c191b6940 spi: Merge up v6.18-rc1
+90b2f0aaf37dac827373a682db8df7d3ae0dc7de Merge tag 'v6.18-rc1'
 
---===============1520294902638834402==--
+--===============1473850145636117189==--
