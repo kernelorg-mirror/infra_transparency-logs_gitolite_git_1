@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2929726410578413707=="
+Content-Type: multipart/mixed; boundary="===============1709536748359652482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Oct 2025 09:09:14 -0000
-Message-Id: <176034655445.1921945.16409528533419843213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Oct 2025 09:16:06 -0000
+Message-Id: <176034696675.1928934.6483204483701487429@gitolite.kernel.org>
 
---===============2929726410578413707==
+--===============1709536748359652482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: b5ce7a5cc50f4c283d0bfa5cc24fe864cb9a3400
-    new: 7557f189942571821a09879edfcdfdafefe4d67f
+  - ref: refs/heads/master
+    old: e93954b32a5e4a01fe1d01eca24b0effeedeb4f0
+    new: 307bf2e9b6a95372d033e68a99871353867f0c50
     log: |
-         7557f189942571821a09879edfcdfdafefe4d67f binder: Fix missing kernel-doc entries in binder.c
+         307bf2e9b6a95372d033e68a99871353867f0c50 5.15-stable patches
          
 
---===============2929726410578413707==
+--===============1709536748359652482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760346614 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1760346551-d29b27bd5d7ac431aca18bc378b0ad90efd44bd4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760347027 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1760346964-bc1992b8df266b87adba98bf69852a7f4dfdf517
 
-b5ce7a5cc50f4c283d0bfa5cc24fe864cb9a3400 7557f189942571821a09879edfcdfdafefe4d67f refs/heads/char-misc-linus
+e93954b32a5e4a01fe1d01eca24b0effeedeb4f0 307bf2e9b6a95372d033e68a99871353867f0c50 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjswfYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GsoQAJcesdkpoB22fgNgrP3j
-1DOUd8rtsOEdPwpUqAbHcromrJuST3gSpwU6p4xjjOoVB5wyoVSii6kmEU1C5eT7
-NxD3zmKY//8RRNmZerDZ8gZwkegDE4X5u0Dy243oR9yxc7LOjKKSKf/iKoEOLEH8
-XcbRroYafGd9PVZSYJiizYHm0/udC8yea3/8oE5sN+sIsyT9KwAJtwZDNDN+S+Jf
-OQ5wfRDpR7a6u8A5zTQgBDG9Lu+QWNQodwgwnPWrHnqao9u5yJnmGu8frBJJoIua
-zUrEI+fdakZ1Tpxh5YMcKgc0etsfNlsoB4aUDCabMRxJmVrxP0ZTRthzduUj20zC
-nExUOVRDf6t7pMRm6B0wUTOAOZS0+nw5uqjcUkvGCAkXGkgpPX7EMGJerANbDJIk
-+Ze3aktizpOU5AYdffn/FGEvRIPZpEmpIzgpPKv0ZDA4qaD1MmEChO6I4KBaYvOZ
-F7bIth6D6pYEKzc42JbdAzxvHLe09iQPKlEnIMkODPP3BS3Gh5gje6BgXVRUMiMv
-fb5ZnK16MEefs6i0iwJaef/nsdg9ymY6waetyU16ifetNdh0laR9c5mrqxuBrNMy
-ffplGucuATeM+OBlUf4UpIxHPZeHr5Vme+sianGOzUwCYJQjvoBzEEWyCb0lfClq
-hxz/9gOTiZP2fnyHmmFurTX9
-=EgnB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjsw5MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DCkQAIEGpHKv6f8eUqRILkrZ
+5T/m1HbXZMezcVA5j75+oZhsM95WRfrkacHZ90UFGDu3D1rMZjHRSvBFgr93GHR+
+o3OPI4SV0ukRjkRkBDh8hrHsInWOaOP15EJAYNcrgAAiNAcYVBTVjtOVsWHmWwra
+Dwr7Z98sosPgT2GEDAN3PFyjuxHLKUBc97E8K+/zHz3Wh7S3C9nbsH4/34lNIm/L
+HkUJT6ae36vyzgNVqw1zXflj60iI2BhtVQo+aCSqe52weYguIFOT4eV6gIxpEy50
+4Mde9aZY08z+sDUM7a90D95X0/HCcZo74uyPrHaWGhBKAbKwh2vgs8iphTxiAIun
+Q9nc98hAoRvW5GhFjHElWruKFteukQ4alj+QqMs3Jh8moh5O1sdxgG7WEMi8hLHK
+Ulrb99UGY+gyX6cq5pg2tkupqgsDhzW4pUlaGPzFEkppeSPwYfhhuUly6+SfYCSb
+EgL8EUoFGn97zzjQ2lfR9VLRwL3ZFnizeHghnwknV3aGsBjoAHqJM9kLdAJLotFa
+CdATjmprZ047zAvcDCOLTNkJR4bkE55XbdtVV7nxazmUFaKQYCmDdvL/McpjKcps
+WLper8JJFYk7snyXK/FG1+/daiT/ikLrcLZoj/DXBuqgEcACR5qUjdicD5ONVxG+
+PkJFAPMpsKKYS9KR0L2RxMvJ
+=v20O
 -----END PGP SIGNATURE-----
 
---===============2929726410578413707==--
+--===============1709536748359652482==--
