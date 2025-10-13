@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3223409377451657903=="
+Content-Type: multipart/mixed; boundary="===============4732329797177474469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 13 Oct 2025 13:49:41 -0000
-Message-Id: <176036338115.2187180.14277434636248577200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Mon, 13 Oct 2025 13:52:11 -0000
+Message-Id: <176036353105.2190147.4685606058867747802@gitolite.kernel.org>
 
---===============3223409377451657903==
+--===============4732329797177474469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: aalbersh
 changes:
-  - ref: refs/heads/master
-    old: b26b6487037c9f6f97ee3f39e2a1a0c4e10634b3
-    new: d0ac821eaa89ec0d1ef0002454ce3451897a58ef
-    log: |
-         d0ac821eaa89ec0d1ef0002454ce3451897a58ef 6.17-stable patches
-         
+  - ref: refs/heads/for-next
+    old: 75faf2bc907584acc879accae60a59bd655b6b6a
+    new: 059eef174487133bec609752b6deb3b9db5e64bb
+    log: revlist-75faf2bc9075-059eef174487.txt
 
---===============3223409377451657903==
+--===============4732329797177474469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-75faf2bc9075-059eef174487.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760363441 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1760363379-deb995436b3a71f57fb2d8a785044cc0f9272fc8
+add1e9d2f576a3222faba16a11868eb178d2ba86 mkfs: fix libxfs_iget return value sign inversion
+e51aa35ec4c8da806f6dc79a2eb03abae7ef99da libfrog: pass mode to xfrog_file_setattr
+41aac2782dba98cf16a3dc155f48f8e6be7d05f7 xfs_scrub: fix strerror_r usage yet again
+bb52ff815e546a8970f22927e12a05717f6780eb mkfs: fix copy-paste error in calculate_rtgroup_geometry
+313be3605966e79a99883705859046e9c5f1b7d3 xfs: rename diff_two_keys routines
+a6b87a3a466cf689ceafbb919b5e8a9bd47d2627 xfs: rename key_diff routines
+4a902e04d98ef28daab8bffc8c78ac59e426dd5a xfs: refactor cmp_two_keys routines to take advantage of cmp_int()
+fe6a679a9b30f7d7d30163d0eebc19133dbf22f7 xfs: refactor cmp_key_with_cur routines to take advantage of cmp_int()
+a9be1f9d2baeb5c589d229e62f50161e3cbad6cb xfs: use a proper variable name and type for storing a comparison result
+ff1a5239a94f7ad3db4ebd9897c4d1e83292feae xfs: refactor xfs_btree_diff_two_ptrs() to take advantage of cmp_int()
+fc46966ce3d53f0106620637dce2f3221da75124 xfs: return the allocated transaction from xfs_trans_alloc_empty
+c6135e4201a1290d9d62a3e5f437b5745ad9c16c xfs: improve the xg_active_ref check in xfs_group_free
+86c2579ddf30874ce5aa33760630792a4962f238 fs/xfs: replace strncpy with memtostr_pad()
+620910fd6440e308c5ef561850eefe017d2149a9 xfs: don't use a xfs_log_iovec for ri_buf in log recovery
+059eef174487133bec609752b6deb3b9db5e64bb xfs: do not propagate ENODATA disk errors into xattr code
 
-b26b6487037c9f6f97ee3f39e2a1a0c4e10634b3 d0ac821eaa89ec0d1ef0002454ce3451897a58ef refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjtA7IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mxEQAM2HPICa3oKFFEgETxRc
-9IsSvXnW8muwq+4lc8dBReNxP4v5P5gn9AAgWwoifZbCgd3QSXOjT1qRZo4jnZgU
-nrwkb4zG9KqgcyaWJBAYXZl9Kxt5Qc8AaxROpxEaTAfYMVBpFIB+0rwFDPFQW4P3
-7f7xQuC8lwJkU+b2q6+tj9TByPY9doPLvdRFC8GJE1q7jVO0G8Kx6v0rbbtMX5+V
-vSRuf0EFYH1TwkaPMuSciORgKga7qvPn6NZiTyIXl6NHKuZ0OyG0UcbvD12vy5zC
-xO78mzsmFIdsn2AhTox3Zv4suNDx+HwLZdVR7vsemxs4ONPgOowpKdYZv/J/3K5F
-Vg3FVOIbDzK9ChHtixy/AV+7Y74HXlkpavQ0u5/Q6eWlNmsHOv5JTm4bC9o5TywT
-p7BYKQDTW0rBJLrJPIv7ntT0Lv36Z42x2Rt8fnyIVJ0lPK3S65y/V3lSIdSD3HUW
-XPTZm02VSz7TDKtKnlk3tUNGxE1aZQZjJhJr4GpYvpSjIJWwQ0PHgbIrNSVE2cDS
-GgcnQ1ExsntdAbyjJzjrPciTgb7LGirjbzMXOUOnHCa1qhB1ut3o+3snTT7M71Az
-HndOXdKtOBzNALv6LlwZmYtbYZqyJW/gM+/vSQWygx1G6gVN6M5WiQ27TCwV7l7m
-jyiJXvKg8Qo5texfTncTEsdq
-=SkaE
------END PGP SIGNATURE-----
-
---===============3223409377451657903==--
+--===============4732329797177474469==--
