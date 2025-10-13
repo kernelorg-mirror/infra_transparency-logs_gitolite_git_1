@@ -1,53 +1,89 @@
-Content-Type: multipart/mixed; boundary="===============3042521157456652032=="
+Content-Type: multipart/mixed; boundary="===============7912666874628681475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Oct 2025 07:07:18 -0000
-Message-Id: <176033923831.1800042.13225966140502930892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Mon, 13 Oct 2025 07:07:56 -0000
+Message-Id: <176033927661.1800506.5195942103361016852@gitolite.kernel.org>
 
---===============3042521157456652032==
+--===============7912666874628681475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/char-misc-6.18-rc1-2
-    old: ddd7eb687bfc76179aa593f3fe16fe24fdc256ee
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/spdx-6.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9e2b78635cfef046ada13f8dd637baaaa964f7fd
+  - ref: refs/tags/v6.17
+    old: 0000000000000000000000000000000000000000
+    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
+  - ref: refs/tags/v6.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
+  - ref: refs/tags/v6.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f3c5631f70e434e318c44001e2417d4770f06cd0
+  - ref: refs/tags/v6.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89d926fa53d0a6c257c4e8ac1c00c3d9a194ef31
+  - ref: refs/tags/v6.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
+  - ref: refs/tags/v6.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 38018d744897d57a1fe8023770d32d622a61611b
+  - ref: refs/tags/v6.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 0124ee3e78e4adb40db91280f3e468373e48928e
+  - ref: refs/tags/v6.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
 
---===============3042521157456652032==
+--===============7912666874628681475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339299 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1760339237-4357ceba01d268031a428564654f3590bfd51dbb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339334 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1760339272-f217fbcc282fb282da0c5b5fe767f2f2e8c8c231
 
-ddd7eb687bfc76179aa593f3fe16fe24fdc256ee 0000000000000000000000000000000000000000 refs/tags/char-misc-6.18-rc1-2
+0000000000000000000000000000000000000000 9e2b78635cfef046ada13f8dd637baaaa964f7fd refs/tags/spdx-6.16-rc1
+0000000000000000000000000000000000000000 6063257da111c7639d020c5f15bfb37fb839d8b6 refs/tags/v6.17
+0000000000000000000000000000000000000000 062b3e4a1f880f104a8d4b90b767788786aa7b78 refs/tags/v6.17-rc1
+0000000000000000000000000000000000000000 f3c5631f70e434e318c44001e2417d4770f06cd0 refs/tags/v6.17-rc2
+0000000000000000000000000000000000000000 89d926fa53d0a6c257c4e8ac1c00c3d9a194ef31 refs/tags/v6.17-rc3
+0000000000000000000000000000000000000000 5cc61f86dff464a63b6a6e4758f26557fda4d494 refs/tags/v6.17-rc4
+0000000000000000000000000000000000000000 38018d744897d57a1fe8023770d32d622a61611b refs/tags/v6.17-rc5
+0000000000000000000000000000000000000000 0124ee3e78e4adb40db91280f3e468373e48928e refs/tags/v6.17-rc6
+0000000000000000000000000000000000000000 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231 refs/tags/v6.17-rc7
+0000000000000000000000000000000000000000 cb6649f6217c0331b885cf787f1d175963e2a1d2 refs/tags/v6.18-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspWMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UdAP/3F+8eOdZrdrx0BDgcVJ
-n8+3MjoUzzj/eIqAQLVYh/XM+mVrqm+RVyF2nhwgzkpPRLlyuKQFUflsztYvWOAm
-K+YR3IuIbwGZQH4PSzTd1pd9vXmdeabvQIevW1HVfr9A0K5jJ7uWg2pmEidv5PRo
-qTLOMHiWM1y+6jj863J2iEFiVRgnqEGf3gbPqFtWljKrEC6GKrDpUCBvWUvbVsRT
-60+37gMlJS7KYLJBtQ5RRYXOBRyZbtibwXX9r+DLTTI+1FO158XAdaXqvPm8LyaP
-1S4hxuTRdSOaZwuH+x6g4u0PHCRoB+SNHkTen71KADKZ5ZKTVZdRZQUivNPQVoPW
-lmMv/oHrm+WTw3v3zv1FMVTIbvMwnop6sAroIrSxS5SBvQQ6ZiJmZmDDKYOeWCBT
-yUOyqtiCivXxjHCTcTfojE3pdQC445hCTVr8b00VLr2G4Hao+XsFDqNd9dBeY9e0
-QtXliHq4TnC6ldmmn+kEbfUX8/ZoulIHaY7bhHKEDIMNNbTE9UZ+9GlvifqHaary
-m6MJsjuwtYcuo+r2EnZxvpJiVou8OQKR4RfHGru8JNwwVQU1wdmXd7M2ga8PyYw/
-GKF4Q21kBN72/YRh5kKnsIeKmTuVZRNC1NE5BNSCHxY2FHSCHbi1/td6qvPG30qX
-wiEd4FKlRinNvokpPHKz+9w7
-=3+tD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspYcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jxMP/AivZpCrvR3FTcWFc42E
+wkZS31Of+eO7HAC2WuVXRZVxsOhl3jtAdzS1lu1wr2RbVk+5CP+7MhY3R6X66Bof
+mbFGm1YHIykP4TBQcBPzsYniCaxIMty1NLs5/qWu85NcxV3MEja+REdABuDhmmZw
+qJK9i2p3oZ1wJ08sWow/BAhhv0NgEo3vixG/UGT42SoEAKLqcQ6pLGND/n8PaeoY
+yDduEptFYpY1+o24lzgLROXcwNMEAkFLVCwrJsepVgrH6cF9xRx3Z17tMnmM4Kg4
+P8B4F1s4Z51cdTPMbjyt2ttxaq5j0BJcTq8MOal5CIW2mbghu5TxlBZgjdIxBhf9
+YgMJpUsCVLEbQPwmAv5949C209VoEGfiC87ihMh11hm6KV0mdcPlqZNVtiD1vICX
+MCqMlQbLYOi61YgQBa98V1bDYFbO4ZqkImoLUHhJFWorjtQaZHHcgXkBEDGooIIU
+39w2Nds8rLqd7B5cQUfMjl6j7bOQGy3p+0Hukqnj3bEjy1xfwckFVadaKrEpQxVd
+6KFhG7WVmh1zWY8o7AYBNXReq5osb4p2mIw8zJNN93noKnw9Kzt6XFZnf0QWM5Mf
+bBBZN2I5iNEvNd/Zi7JmzMv72kBWvx0sejYtCdm7ErscWAD+9jukwkMiEPL/2Sxe
+B+SNNS5Fjxsisl7QuN8bb1Pg
+=rlvm
 -----END PGP SIGNATURE-----
 
---===============3042521157456652032==--
+--===============7912666874628681475==--
