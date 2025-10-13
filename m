@@ -1,61 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4449387840235700621=="
+Content-Type: multipart/mixed; boundary="===============3042521157456652032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 13 Oct 2025 07:07:10 -0000
-Message-Id: <176033923067.1799798.10127892086027839622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 13 Oct 2025 07:07:18 -0000
+Message-Id: <176033923831.1800042.13225966140502930892@gitolite.kernel.org>
 
---===============4449387840235700621==
+--===============3042521157456652032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 67029a49db6c1f21106a1b5fcdd0ea234a6e0711
-    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: |
-         196754c2a04a8ba682b00ea7c818897295c98967 irqchip/aspeed-scu-ic: Fix an IS_ERR() vs NULL check
-         f75e07bf5226da640fa99a0594687c780d9bace4 irqchip/sifive-plic: Avoid interrupt ID 0 handling during suspend/resume
-         a8482d2c9071d75c920eba0db36428898250ea57 Revert "i2c: boardinfo: Annotate code used in init phase only"
-         8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-         3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-         
+  - ref: refs/tags/char-misc-6.18-rc1-2
+    old: ddd7eb687bfc76179aa593f3fe16fe24fdc256ee
+    new: 0000000000000000000000000000000000000000
 
---===============4449387840235700621==
+--===============3042521157456652032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339291 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1760339229-b993ad3ac8934b0c4448ee70fe031587204775a5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760339299 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1760339237-4357ceba01d268031a428564654f3590bfd51dbb
 
-67029a49db6c1f21106a1b5fcdd0ea234a6e0711 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/driver-core-testing
+ddd7eb687bfc76179aa593f3fe16fe24fdc256ee 0000000000000000000000000000000000000000 refs/tags/char-misc-6.18-rc1-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspVsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S1cQAJw63zwZJjz6fnUHCXJD
-nFuhW5XoD5/dsen8TkT1gYPulNT5XQ8HRUqWg23fQoZ3+kv9iRh7wMQJ3fKk6duL
-5NHXhNGCrvwEMAgrXkXkkLiyjdKqkbCTJGyyWZ7CYatg20Oc/odfuof4jKTKAcxd
-EcOSeoa0t3QNLLww1qwzzJDJuNIDYASdxkZztrGtYWMgMVQl421W1Bx0O5Cfe2Km
-CabgCxqZfQyW+ubON/soHuicMpMxgQ4wVIh0VbPvcs9uraQ1B9XRw0EfbZJDrKaj
-hHswC1AGgPpX5RCZPrcEW+TtNg9/QzhRqNRNfBVS/ntUf3KFKBM8rP81tyMrLIu/
-RPIIhqE2RjGsCRmDacF8bqyzLPs71+WapWWEfBKjF4hpZB8gwzV0qeD+WfgpLXWs
-H0uT5OhVKRmDX9Gvn40Q8ugzcdzwVDvXmtx1osqAJw0zUkI8nHdliijz3OkZ8cmK
-ip0cVy76gOlfew9ALrM5l/nHBzOeVBWmarhiaGeusDHVwmwWQ0BJNLXGVcDq4Xn8
-Tex7AZwTENZT7cjOdHCDexM6wZ4STfPlIjd0OOCS3yMzyrMSdPbQ0AfGGy1BYuaR
-CfHhW0kcac515hqoAICF5xsz3v4Umxb+v55ahRPTo2GEr2Xf1E7YoqFs3A0VInwi
-6H2rCdu6eC1foO23x43e8eND
-=3LOK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjspWMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UdAP/3F+8eOdZrdrx0BDgcVJ
+n8+3MjoUzzj/eIqAQLVYh/XM+mVrqm+RVyF2nhwgzkpPRLlyuKQFUflsztYvWOAm
+K+YR3IuIbwGZQH4PSzTd1pd9vXmdeabvQIevW1HVfr9A0K5jJ7uWg2pmEidv5PRo
+qTLOMHiWM1y+6jj863J2iEFiVRgnqEGf3gbPqFtWljKrEC6GKrDpUCBvWUvbVsRT
+60+37gMlJS7KYLJBtQ5RRYXOBRyZbtibwXX9r+DLTTI+1FO158XAdaXqvPm8LyaP
+1S4hxuTRdSOaZwuH+x6g4u0PHCRoB+SNHkTen71KADKZ5ZKTVZdRZQUivNPQVoPW
+lmMv/oHrm+WTw3v3zv1FMVTIbvMwnop6sAroIrSxS5SBvQQ6ZiJmZmDDKYOeWCBT
+yUOyqtiCivXxjHCTcTfojE3pdQC445hCTVr8b00VLr2G4Hao+XsFDqNd9dBeY9e0
+QtXliHq4TnC6ldmmn+kEbfUX8/ZoulIHaY7bhHKEDIMNNbTE9UZ+9GlvifqHaary
+m6MJsjuwtYcuo+r2EnZxvpJiVou8OQKR4RfHGru8JNwwVQU1wdmXd7M2ga8PyYw/
+GKF4Q21kBN72/YRh5kKnsIeKmTuVZRNC1NE5BNSCHxY2FHSCHbi1/td6qvPG30qX
+wiEd4FKlRinNvokpPHKz+9w7
+=3+tD
 -----END PGP SIGNATURE-----
 
---===============4449387840235700621==--
+--===============3042521157456652032==--
