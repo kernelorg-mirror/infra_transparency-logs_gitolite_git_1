@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 13 Oct 2025 15:40:30 -0000
-Message-Id: <176037003044.2294673.5161850267918771980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 13 Oct 2025 15:40:49 -0000
+Message-Id: <176037004983.2295047.16077761336166743763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/main
-    old: 090c1fd4fafcec41827576692570c52b5974a4bd
-    new: 638544920fc435dff28360a091fdff723420ed6a
+  - ref: refs/heads/pwm/for-next
+    old: 8f2689f194b8d1bff41150ae316abdfccf191309
+    new: d80df3e4bc3504eb959d1ea227ff1abe9073fc3f
     log: |
-         638544920fc435dff28360a091fdff723420ed6a feat!(tpm2sh): baseline for 0.11
+         0cb631c4ccb21634ec8228fab902e56860d135a5 pwm: Simplify printf to emit chip->npwm in $debugfs/pwm
+         d80df3e4bc3504eb959d1ea227ff1abe9073fc3f pwm: Use %u to printf unsigned int pwm_chip::npwm and pwm_chip::id
          
