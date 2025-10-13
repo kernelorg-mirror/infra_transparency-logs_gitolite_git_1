@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7477164738919881984=="
+Content-Type: multipart/mixed; boundary="===============3973101105856434038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 13 Oct 2025 00:23:04 -0000
-Message-Id: <176031498463.1399563.5283013654629201849@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 00:23:08 -0000
+Message-Id: <176031498838.1399754.17131891786915271880@gitolite.kernel.org>
 
---===============7477164738919881984==
+--===============3973101105856434038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/drivers
-    old: 1da4cbefed4a2e69ebad81fc9b356cd9b807f380
+  - ref: refs/heads/next/dt
+    old: d19b1773362adfe8c0d5ccc4faf6aea0249976a6
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-1da4cbefed4a-3a8660878839.txt
+    log: revlist-d19b1773362a-3a8660878839.txt
 
---===============7477164738919881984==
+--===============3973101105856434038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1760315044 +0200
+pusher krzk@kernel.org 1760315047 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1760314979-56af634375eb09866b0b861ceadb22efbc508a2b
+nonce 1760314985-13712f3ffc285d12486aae812fea11f125a2c986
 
-1da4cbefed4a2e69ebad81fc9b356cd9b807f380 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/next/drivers
+d19b1773362adfe8c0d5ccc4faf6aea0249976a6 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/next/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjsRqQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yqiD/9TeQFIQqVL+/VwIBDbdbOoRP4sSLLV9Z86
-+lvO+oSG3IjZoQEuMPUTXgwadN68fJEdhZbRT48fSSubbiBCsmQWJkon8anKBReD
-RFmDONRG0IKFOXFYQxD65Snym+Fi892HEPMvozeX30QwYLqQw22naW7lsakL8KjR
-8sGrolqsDx9Z2CPqHUqxTwRAupXoj/4VubFIaxo+LPL9lytYtbZq6HK0MQ3gQu53
-g29b46Ft1Dl5fg0m3yDrk2HEj/Lo+6NJvRf4Gz+Y9ocLqIDd1m7zW2iyMnkSGApK
-fPfMHv+4chtQjZNo7JEWiXu8C05cN+cTs9CVCdkyIzfz+DxHbjetPoIttkNIYJ2j
-oO++IUgwUdu+3qF4TblcWXiAurF/uP2qlJ2flFM/u+74tyN96yDnQzv2HAT3iO3Z
-scaa0wGzgP8bM0KXYWEVy2W1ZqgTwBRzR1CqCG1YiNyhVk17SfuYuhlkYjG3s5+o
-ZiQnwKdw2c7uaGxkuvg9rffvQnnrB7xNM1GeK4Akyw1zjk9A/9+ClYJxOTzNfz7B
-PjXQj3Ac6RAKT+5nnB8vxfgkxdCJro/+zV1wclPCPY3iT4bqhRibdP5yJHvXOjw6
-jVDcxT6ke2t1Q0x9ozywzqGhGlzswLEg0W/tXuISdwahb/rBDIuF7h3mmW/c8mm0
-8XdcNFXZOw==
-=75WM
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjsRqgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1y3hD/9vYSCI4cnxZqdcIIDRCQqR9cuVQ44qr7+0
+p+Lfe4nZMmu0wM2sqcwh7uYv3kUFjhp7IaAOtE5PeVp1bdbP2V+Gqhmo6iM38dLh
+Zr5eXytxQ2SUSsmbrGZi3VoMGT8e3AVq/Dmzr81OYZ8T8s+F+o8EWYQM6GLyu+IF
+RolkZgEnAppz/yrUp/xw0a65X2qRttwCjlb5dShFWhZW3WlXWTxNf/bp11vtUZ6O
+6lSzQnAEmsdoq6J3hL/gXdkGgB/ll1ml5smJVEFZuM41NiyR6Soh85lbe3AYP4k+
+Tnyq3wr3to0Qd847jBJWTYtXTiEkow7apevulnQnsffZofMAWdogWoi8SodqNK5z
+BGt14K2bDY5HtkJmcblXd47QIoVY0+2XtB06SrS5xThk4bw9tTpTuFQiuHipc2I1
+PkZ916JhhzgKKyQ1/wsvIw4hYWO+txtvVglmzQ7WwcqUSJ4FhzW4bxaNmfoz4MVe
+RJeASKmbOzWZLl0Go4+j0UV2n6PP0IoleFhjjDo2XFgKhjvVZ/x3dToR4c0TwHMu
+D1iht1snJy9wUOHpkzz6exUMegEUjY9B5myOD2RALM4bAUOM6+JAlMzLeHe80ibO
+qL+2z46gWT0BnECicr0JhEQY96rkePlR/n/9KqWNiuQmq/utZFeS9qeFCvk1b0TN
+B8fGzTcE9g==
+=xKET
 -----END PGP SIGNATURE-----
 
---===============7477164738919881984==
+--===============3973101105856434038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1da4cbefed4a-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-d19b1773362a-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1082,4 +1082,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============7477164738919881984==--
+--===============3973101105856434038==--
