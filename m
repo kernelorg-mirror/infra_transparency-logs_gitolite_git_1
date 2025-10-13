@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7845751916447754401=="
+Content-Type: multipart/mixed; boundary="===============3300336530294874765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 13 Oct 2025 08:21:08 -0000
-Message-Id: <176034366834.1874928.14541077467930619016@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 08:21:50 -0000
+Message-Id: <176034371001.1875582.14437159596260773389@gitolite.kernel.org>
 
---===============7845751916447754401==
+--===============3300336530294874765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: b8754092dfed4fc2fcdb0de32a029ba8f9b464b6
+  - ref: refs/heads/fixes
+    old: 3ed17349f18774c24505b0c21dfbd3cc4f126518
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-b8754092dfed-3a8660878839.txt
+    log: revlist-3ed17349f187-3a8660878839.txt
 
---===============7845751916447754401==
+--===============3300336530294874765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1760343726 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1760343766 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1760343663-33dc79513d9337df14fe5b01214b993d92191382
+nonce 1760343704-fe7ecb96fd5645de30abb643b3e3d5290e733106
 
-b8754092dfed4fc2fcdb0de32a029ba8f9b464b6 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/review-ilpo-next
+3ed17349f18774c24505b0c21dfbd3cc4f126518 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaOy2sAAKCRBZrE9hU+XO
-MdbJAQCpQFG/OdADYozHL4VAQFWgeQwkX/jlhPjlyzKFegmJOgD/T48cSqy9z0UM
-0RFH3k19ftQfX87OFagvZGVMN/tf9gc=
-=8D+j
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaOy22gAKCRBZrE9hU+XO
+MUMAAP9KU73HyaULZRXnbxpWinVliiU2mFDtesLiHemlxtoG7AD+P8GNB9bM6svc
+Bqt3ZAJSIYHNnnHiwObiBzhwDfnfhQ4=
+=ckdj
 -----END PGP SIGNATURE-----
 
---===============7845751916447754401==
+--===============3300336530294874765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8754092dfed-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-3ed17349f187-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1072,4 +1072,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============7845751916447754401==--
+--===============3300336530294874765==--
