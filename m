@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 13 Oct 2025 11:34:09 -0000
-Message-Id: <176035524975.2058804.8268503154037256498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 13 Oct 2025 11:35:00 -0000
+Message-Id: <176035530004.2059546.5213666021484152021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: daf21ff278920b54f6f4d89b1424b5b5345ec7ff
-    new: dd672d7f6ebd4913bc07ff4702c618a6f1a2ede5
+  - ref: refs/heads/ethos-v4
+    old: bda00258ea5f94c45ae1bb74a5f43610d31b75c8
+    new: 3c4b0f0100b723aa6dcd971cda8d4a8c30f0b22a
     log: |
-         dd672d7f6ebd4913bc07ff4702c618a6f1a2ede5 feat!(tpm2sh): baseline for 0.11
+         51ba6409b9a89805fe01709b3ed70db523fb6314 accel: Add Arm Ethos-U NPU
+         90a69fbed5703a408bcf99c72c727922d93890ec dt-bindings: npu: Add Arm Ethos-U65/U85
+         3c4b0f0100b723aa6dcd971cda8d4a8c30f0b22a accel: Add Arm Ethos-U NPU driver
          
