@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4503012926197415941=="
+Content-Type: multipart/mixed; boundary="===============3289968712308288954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Oct 2025 10:06:02 -0000
-Message-Id: <176034996241.1977563.2053115649830367289@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 10:06:13 -0000
+Message-Id: <176034997354.1977815.15152389753686734339@gitolite.kernel.org>
 
---===============4503012926197415941==
+--===============3289968712308288954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: c90cac58f80cc4268e8799fe51a0ced91220428a
-    new: bc46a565798322686d367c09b790a43a5b6fd847
-    log: revlist-c90cac58f80c-bc46a5657983.txt
+  - ref: refs/heads/sched/core
+    old: 5b822694f62186b86fa9f13009398b6f0c3b7bdd
+    new: b92896c3295fbaa6658e44241699ab40d0e731a9
+    log: revlist-5b822694f621-b92896c3295f.txt
 
---===============4503012926197415941==
+--===============3289968712308288954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c90cac58f80c-bc46a5657983.txt
+Content-Disposition: attachment; filename=revlist-5b822694f621-b92896c3295f.txt
 
+029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 722df25ddf4f13e303dcc4cd65b3df5b197a79e6 Merge tag 'kernel-6.18-rc1.clone3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1044,11 +1046,9 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-8598178aaa8f74f5692ff62e4f2b3c31d8bc76ff atomic: skip alignment check for try_cmpxchg() old arg
-7ccc4570bffb9a74a57d6aa4d8f751d648cdfea5 documentation: seqlock: fix the wrong documentation of read_seqbegin_or_lock/need_seqretry
-05b1c033ff04fa84fd6f64491dfdc9dbc614109e seqlock: Introduce scoped_seqlock_read()
-2c4b1bcb12058c6b3cbb1f6f70c7297ac100d294 seqlock: Change thread_group_cputime() to use scoped_seqlock_read()
-5259948079562bd66aecfbc7f799bca42899bae2 seqlock: Change do_task_stat() to use scoped_seqlock_read()
-bc46a565798322686d367c09b790a43a5b6fd847 seqlock: Change do_io_accounting() to use scoped_seqlock_read()
+46ca83289642b9ead9f238d407880f778e47f1f3 sched/fair: Forfeit vruntime on yield
+783d51659d5a9b9b3f46deffbef45f517d775665 sched/deadline: only set free_cpus for online runqueues
+de908a4c6e518832c43382b865db6c2055f64386 sched: Create architecture specific sched domain distances
+b92896c3295fbaa6658e44241699ab40d0e731a9 sched/topology: Fix sched domain build error for GNR, CWF in SNC-3 mode
 
---===============4503012926197415941==--
+--===============3289968712308288954==--
