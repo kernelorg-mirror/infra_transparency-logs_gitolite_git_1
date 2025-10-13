@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2838958146187084843=="
+Content-Type: multipart/mixed; boundary="===============7941791844157148015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 13 Oct 2025 13:47:54 -0000
-Message-Id: <176036327442.2184941.11989423509572114781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 13 Oct 2025 13:48:59 -0000
+Message-Id: <176036333968.2185658.17254499169573310044@gitolite.kernel.org>
 
---===============2838958146187084843==
+--===============7941791844157148015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kdevops
-    old: 0b29ab2db9d2705ff0d195dfa98c0bd2704c9144
-    new: c09eca824ab26d8d10dcbf7182fd088cbc2b080e
-    log: revlist-0b29ab2db9d2-c09eca824ab2.txt
+  - ref: refs/heads/master
+    old: 12f20b0fd5bd74d04372141f44eb4af080997002
+    new: 9ae284759c696729f4ff612039a3466cb737e324
+    log: |
+         9ae284759c696729f4ff612039a3466cb737e324 strip the new mbox files
+         
 
---===============2838958146187084843==
+--===============7941791844157148015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b29ab2db9d2-c09eca824ab2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2c40814eb5ae104d3f898fd8b705ecad114105b5 sunrpc: allocate a separate bvec array for socket sends
-0bf7f445b4ccbf2a0cbdbd1587cbea916b59ba45 vfs: recall-only directory delegations for knfsd
-c554099b072c4a55403d655b52c3764dd436104d filelock: push the S_ISREG check down to ->setlease handlers
-dc0c01b3483dad000cf13fc4007a5d88bb432bcb filelock: add a lm_may_setlease lease_manager callback
-5272c472f79271b00afd9c2f67c3650b90e1f480 vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
-66fbb9bc64c8ce3bb12410b6d1ae8e2d8f3da590 vfs: allow mkdir to wait for delegation break on parent
-5e33c242b032f3ec5433432871ce8eb9ed4f3ab9 vfs: allow rmdir to wait for delegation break on parent
-5d60f84c52e40a0dffdb69e33d06aa05a82e5f7f vfs: break parent dir delegations in open(..., O_CREAT) codepath
-a2f86b4a127d5536fcdba75beae74bdad8cbf8e9 vfs: make vfs_create break delegations on parent directory
-f07196ae8643902507a5a4f3365b425c83b43779 vfs: make vfs_mknod break delegations on parent directory
-781ef06e411c49ba3e125503f22cd84025a6e579 filelock: lift the ban on directory leases in generic_setlease
-0ce84c1c34918883b0615715fdb9bf6fe07060c9 nfsd: allow filecache to hold S_IFDIR files
-c4c4d1115cb9c0c4f386f0bb23989a31e2fdc6c6 nfsd: allow DELEGRETURN on directories
-028b8776603cae51d97e43e72c7016fb6e49b90b nfsd: check for delegation conflicts vs. the same client
-c09eca824ab26d8d10dcbf7182fd088cbc2b080e nfsd: wire up GET_DIR_DELEGATION handling
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760363400 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1760363339-ab47f9c120cdc18c93fdcf2466fd849b37daaf7c
 
---===============2838958146187084843==--
+12f20b0fd5bd74d04372141f44eb4af080997002 9ae284759c696729f4ff612039a3466cb737e324 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjtA4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QroP/A36H4fYTGWMHKylpoYw
+TNfhb2Slo7Hp3sevB38mmBNnH8ciFAMYRIzfAY2VNMHJkcrs7S4IxxbcBAztzs1K
+CTwekL7dELeDyAI90reYrJ1zTPXjVuIEBnXizYeEIhKKBiAc5cJXUgrkPW3tKpuT
+YohZzd7vIXmb1Zj5eEarE89bmKExjw2AcrKU9r65+xcgjuxY7LQcwe1B2LRXdZXt
+JKnL3QPnkOlfXtKP17awdfVSdEzsLTR+brQhoCJUBO9GEPBRzgZRByhZtukoPq+n
+0j/5tsgqr5vxYyDIeHQCPql42M/+PU+cXmVwIddeCuKhaTiayuk8/LOrpX6ZELCa
+yKR0fZxrC7EuJrlafVWLtM+oxSj1raUCoGHmXPqjTQNaoVd4nmugKMJtm1xW0Jqc
+u5O6IWJvQa2Q+BjWp2M8UkB84pMgb+KlC/qvxEww2vgxy4z0DPMAwaZHDKEi4OrB
+JjZnt2q+WeSjfQpwRdBsU6c9ZkgMJDc3Mfpmym8s2c3PsGTLfKujyXop2M0mFO0B
+8ocrRig4UiR9R/C/0G08Y1jtn1xqXAz89QzW8Qpg0Gr8KPfvZv3vPFpCtU9QKPoS
+xRhVbRW4Y172heZgE2T/dlWiGscBuoeSPLM5ddwmF6D3nMFQf767EPyvZO2yabCl
+lKJ1TePqLi3alggYsGcs3S8l
+=Y6ja
+-----END PGP SIGNATURE-----
+
+--===============7941791844157148015==--
