@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2817220242300252983=="
+Content-Type: multipart/mixed; boundary="===============4730906834344944144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Oct 2025 19:18:26 -0000
-Message-Id: <176038310670.2489849.2643750558842698071@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 19:18:32 -0000
+Message-Id: <176038311221.2490007.6679974300987223682@gitolite.kernel.org>
 
---===============2817220242300252983==
+--===============4730906834344944144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/cleanup
-    old: 4d4356011e15bb5f18228186d4fb9c55aa9d41f0
-    new: da7696e4a98c9742365a3e43f3a18611f267754e
-    log: revlist-4d4356011e15-da7696e4a98c.txt
+  - ref: refs/heads/sched/cleanup-pick
+    old: a85bb9c58a6293b7823fff6c715026bad24d3fff
+    new: 6aca008c41b79bcb936bcfd0be07cab30337c044
+    log: revlist-a85bb9c58a62-6aca008c41b7.txt
 
---===============2817220242300252983==
+--===============4730906834344944144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d4356011e15-da7696e4a98c.txt
+Content-Disposition: attachment; filename=revlist-a85bb9c58a62-6aca008c41b7.txt
 
 cfc8ae24266b96e8b8647aa95b909505ddc1390d sched/deadline: Stop dl_server before CPU goes offline
 a56002f238eb373f0788299072f1f8003586f792 sched/fair: Fix pelt lost idle time detection
@@ -46,5 +46,8 @@ ea7a129c0cd9551998e674f0fec5703f2370e3a1 sched: Add locking comments to sched_cl
 0b840ed7f45c638a1cfe847b5cfef00d0b1950e9 sched: Match __task_rq_{,un}lock()
 f0191dc7b2dd05332656242c69132232b56928bd sched: Cleanup the sched_change NOCLOCK usage
 da7696e4a98c9742365a3e43f3a18611f267754e sched: Mandate shared flags for sched_change
+359fe920b55fa6a27d6b1c7536fef702b6729511 sched: Detect per-class runqueue changes
+4924230f12b61e9628d6a58e64d8d47ba36c8fc5 sched: Add support to pick functions to take rf
+6aca008c41b79bcb936bcfd0be07cab30337c044 sched/ext: Fold balance_scx() into pick_task_scx()
 
---===============2817220242300252983==--
+--===============4730906834344944144==--
