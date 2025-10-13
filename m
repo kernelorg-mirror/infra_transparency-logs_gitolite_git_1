@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3188719094096390516=="
+Content-Type: multipart/mixed; boundary="===============3710600826662911322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 13 Oct 2025 11:10:40 -0000
-Message-Id: <176035384060.2035138.11542349700739892077@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 11:10:57 -0000
+Message-Id: <176035385707.2035369.12983963319878617490@gitolite.kernel.org>
 
---===============3188719094096390516==
+--===============3710600826662911322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: bbc3110823eca23b066e75a920bdc8118adda0d2
-    new: 8bed31a59f722739cfe670594848355b9279f5e5
-    log: revlist-bbc3110823ec-8bed31a59f72.txt
+  - ref: refs/heads/fixes
+    old: 5fc4ab3269dea6a0b00c7256cb6f6c0101b6a44b
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-5fc4ab3269de-3a8660878839.txt
 
---===============3188719094096390516==
+--===============3710600826662911322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbc3110823ec-8bed31a59f72.txt
+Content-Disposition: attachment; filename=revlist-5fc4ab3269de-3a8660878839.txt
 
+6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
+e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
+3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1045,10 +1050,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-90bde9194fdc540619dfc90b9840daf0b116dcf7 PM: wakeup: Add out-of-band system wakeup support for devices
-2631c50559820aa224fbed749bb7c66410d974b1 pmdomain: core: Allow power-off for out-of-band wakeup-capable devices
-78797b9c2f2967279cc2dcdc7b15c373840c0024 usb: chipidea: core: detach power domain for ci_hdrc platform device
-4ab5a9291d1ad37aee9b6fca21c68acdc0c45efa usb: chipidea: ci_hdrc_imx: Set out of band wakeup for i.MX95
-8bed31a59f722739cfe670594848355b9279f5e5 usb: dwc3: imx8mp: Set out of band wakeup for i.MX95
 
---===============3188719094096390516==--
+--===============3710600826662911322==--
