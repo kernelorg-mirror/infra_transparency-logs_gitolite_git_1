@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3994081842555282989=="
+Content-Type: multipart/mixed; boundary="===============6015858005667816514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 13 Oct 2025 23:54:38 -0000
-Message-Id: <176039967885.2727552.7396682344046733442@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 23:54:57 -0000
+Message-Id: <176039969736.2727797.1962346284360072018@gitolite.kernel.org>
 
---===============3994081842555282989==
+--===============6015858005667816514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: fd94619c43360eb44d28bd3ef326a4f85c600a07
-    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-fd94619c4336-3a8660878839.txt
-  - ref: refs/tags/v6.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
+  - ref: refs/heads/dev
+    old: 7d9fdb3c9e5b7c67e7dc50e6edf33eb42a8f6ce2
+    new: 9d5c4f5c7a2c7677e1b3942772122b032c265aae
+    log: revlist-7d9fdb3c9e5b-9d5c4f5c7a2c.txt
 
---===============3994081842555282989==
+--===============6015858005667816514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd94619c4336-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-7d9fdb3c9e5b-9d5c4f5c7a2c.txt
 
-bdb978979ed133c47e19099ff2a4ae51e515452b phy: rockchip: phy-rockchip-inno-csidphy: add support for rk3588 variant
-fc55b4cda00aff08ea6dfe86411efa13bdb728c5 KVM: nSVM: Replace kzalloc() + copy_from_user() with memdup_user()
 c4d7901225435c2a82049588532f7b7a07e06188 Merge branch 'for-6.18/dt-bindings' into for-6.18/clk
 8e7bd526e83673c2b4931163311cca49796657f8 clk: tegra: Add DFLL DVCO reset control for Tegra114
 a24cd110e664396061b0a72930734bf419bf88c4 dt-bindings: clock: renesas,r9a09g047-cpg: Add USB3.0 core clocks
@@ -1053,5 +1048,7 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
+1ee889fdf409ce68c1e3b62912333a5cc69acaa0 f2fs: don't call iput() from f2fs_drop_inode()
+9d5c4f5c7a2c7677e1b3942772122b032c265aae f2fs: fix wrong block mapping for multi-devices
 
---===============3994081842555282989==--
+--===============6015858005667816514==--
