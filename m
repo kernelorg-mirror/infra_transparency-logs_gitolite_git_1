@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1333011838884437468=="
+Content-Type: multipart/mixed; boundary="===============2391153343723369925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 13 Oct 2025 12:00:12 -0000
-Message-Id: <176035681290.2082865.10796025244207554884@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 12:00:25 -0000
+Message-Id: <176035682536.2083216.13642134698100809288@gitolite.kernel.org>
 
---===============1333011838884437468==
+--===============2391153343723369925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/cleanup
-    old: 3c5578f0dbb93ab7a75a664b55df81aab6b4d6fe
-    new: 4d4356011e15bb5f18228186d4fb9c55aa9d41f0
-    log: revlist-3c5578f0dbb9-4d4356011e15.txt
+  - ref: refs/heads/sched/cleanup-pick
+    old: 09a2e5932e6f407aa03bee64f91eac984cab09e7
+    new: a85bb9c58a6293b7823fff6c715026bad24d3fff
+    log: revlist-09a2e5932e6f-a85bb9c58a62.txt
 
---===============1333011838884437468==
+--===============2391153343723369925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c5578f0dbb9-4d4356011e15.txt
+Content-Disposition: attachment; filename=revlist-09a2e5932e6f-a85bb9c58a62.txt
 
-83382af9ddc3cb0ef43f67d049b461720ad785e6 slab: Make slub local_(try)lock more precise for LOCKDEP
-7612833192d56af86061de8ab51989b75daf5b0d slab: Reuse first bit for OBJEXTS_ALLOC_FAIL
-af92793e52c3a99b828ed4bdd277fd3e11c18d08 slab: Introduce kmalloc_nolock() and kfree_nolock().
 b9120619246d733a27e5e93c29e86f2e0401cfc5 Merge series "SLUB percpu sheaves"
 ca74b8cadaad4b179f77f1f4dc3d288be9a580f1 Merge series "slab: Re-entrant kmalloc_nolock()"
 17eb8812917b10ce4146b5595f91d8e45bfe68cc Merge tag 'linux-cpupower-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
@@ -1050,5 +1047,8 @@ be7d6d8bf17886a8ee09e1ba670bccc0d2d2b6a3 sched: Add locking comments to sched_cl
 fcc1b20e63ea1e09f4d9a2c2df38525c8c3a0ff8 sched: Match __task_rq_{,un}lock()
 18b30289a0ed1f3124749db30bfff19754a2d447 sched: Cleanup the sched_change NOCLOCK usage
 4d4356011e15bb5f18228186d4fb9c55aa9d41f0 sched: Mandate shared flags for sched_change
+3e92434695a42323aaa6b1d6a78245f1c31b3421 sched: Detect per-class runqueue changes
+cca381dc1e8d4bd253a10e2a69834001524daba4 sched: Add support to pick functions to take rf
+a85bb9c58a6293b7823fff6c715026bad24d3fff sched/ext: Fold balance_scx() into pick_task_scx()
 
---===============1333011838884437468==--
+--===============2391153343723369925==--
