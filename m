@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2794312256980451183=="
+Content-Type: multipart/mixed; boundary="===============4982759478433846410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 13 Oct 2025 11:22:20 -0000
-Message-Id: <176035454029.2047501.7436323067212904933@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 11:22:23 -0000
+Message-Id: <176035454300.2047584.2970725547942183035@gitolite.kernel.org>
 
---===============2794312256980451183==
+--===============4982759478433846410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-fixes
-    old: cc6f2b728cd06402127fb24df3c1c0e6f48c80c4
+  - ref: refs/heads/for-next
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-cc6f2b728cd0-3a8660878839.txt
+    log: revlist-8f5ae30d69d7-3a8660878839.txt
 
---===============2794312256980451183==
+--===============4982759478433846410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc6f2b728cd0-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============2794312256980451183==--
+--===============4982759478433846410==--
