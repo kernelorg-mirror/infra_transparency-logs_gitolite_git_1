@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5325515261616621199=="
+Content-Type: multipart/mixed; boundary="===============7845751916447754401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 13 Oct 2025 08:20:35 -0000
-Message-Id: <176034363503.1874482.14625791655339666980@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 08:21:08 -0000
+Message-Id: <176034366834.1874928.14541077467930619016@gitolite.kernel.org>
 
---===============5325515261616621199==
+--===============7845751916447754401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-ilpo-next
     old: b8754092dfed4fc2fcdb0de32a029ba8f9b464b6
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
     log: revlist-b8754092dfed-3a8660878839.txt
 
---===============5325515261616621199==
+--===============7845751916447754401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1760343691 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1760343726 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1760343628-2032ec0a24f4f4018cad73e034686ef643fd7362
+nonce 1760343663-33dc79513d9337df14fe5b01214b993d92191382
 
-b8754092dfed4fc2fcdb0de32a029ba8f9b464b6 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/for-next
+b8754092dfed4fc2fcdb0de32a029ba8f9b464b6 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaOy2jwAKCRBZrE9hU+XO
-MV8cAQDrmzZifHUCMETsffUU1Xn31qtAZZXsN2E2BehUrnLKkwEA7WzyvRYEE9NP
-nMTWs39oNGejx5S8ao53jpQ4opsP6gQ=
-=J8Nt
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaOy2sAAKCRBZrE9hU+XO
+MdbJAQCpQFG/OdADYozHL4VAQFWgeQwkX/jlhPjlyzKFegmJOgD/T48cSqy9z0UM
+0RFH3k19ftQfX87OFagvZGVMN/tf9gc=
+=8D+j
 -----END PGP SIGNATURE-----
 
---===============5325515261616621199==
+--===============7845751916447754401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============5325515261616621199==--
+--===============7845751916447754401==--
