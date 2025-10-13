@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 13 Oct 2025 07:53:47 -0000
-Message-Id: <176034202798.1848475.19759365079615336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Mon, 13 Oct 2025 07:58:07 -0000
+Message-Id: <176034228795.1852800.14954896050997857527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/master
-    old: f4fe71e9405c3dbeab41dc8ea772735fd64562f8
-    new: 7a768dc5b7cd943e22713c2cb9af283a5bd023f6
-    log: |
-         7a768dc5b7cd943e22713c2cb9af283a5bd023f6 tests: gpiosim: revert minimum kernel version back to v5.17.4
-         
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
