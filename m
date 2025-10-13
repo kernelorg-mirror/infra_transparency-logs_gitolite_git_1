@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7877264667178535509=="
+Content-Type: multipart/mixed; boundary="===============5780665835024572302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 13 Oct 2025 05:44:16 -0000
-Message-Id: <176033425693.1676623.806304298060781477@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 05:44:31 -0000
+Message-Id: <176033427133.1677084.15237988495006242741@gitolite.kernel.org>
 
---===============7877264667178535509==
+--===============5780665835024572302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: c17b750b3ad9f45f2b6f7e6f7f4679844244f0b9
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
     log: revlist-c17b750b3ad9-3a8660878839.txt
 
---===============7877264667178535509==
+--===============5780665835024572302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============7877264667178535509==--
+--===============5780665835024572302==--
