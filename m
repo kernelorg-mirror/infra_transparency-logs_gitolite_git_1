@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7761060104743439860=="
+Content-Type: multipart/mixed; boundary="===============3529389801939910225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 13 Oct 2025 00:22:21 -0000
-Message-Id: <176031494149.1398438.3889332489779401702@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 00:22:29 -0000
+Message-Id: <176031494984.1398680.11609991306139647702@gitolite.kernel.org>
 
---===============7761060104743439860==
+--===============3529389801939910225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-v6.19-early-will-be-rebased
-    old: 61087dd679a005563d38b40cf5d8b3138fa053de
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mem-ctrl-next
+  - ref: refs/heads/for-next
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 50c833c5cd9450c8c67d32883ea290dcbd633ea0
     log: revlist-3a8660878839-50c833c5cd94.txt
 
---===============7761060104743439860==
+--===============3529389801939910225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1760315001 +0200
+pusher krzk@kernel.org 1760315010 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1760314938-8c8e1835c0da6e5caf7ce1e07b975de32d6514c6
+nonce 1760314947-c8ff980fdfc7b1784809d842842d09c92db19346
 
-61087dd679a005563d38b40cf5d8b3138fa053de 0000000000000000000000000000000000000000 refs/heads/for-v6.19-early-will-be-rebased
-3a8660878839faadb4f1a6dd72c3179c1df56787 50c833c5cd9450c8c67d32883ea290dcbd633ea0 refs/heads/mem-ctrl-next
+3a8660878839faadb4f1a6dd72c3179c1df56787 50c833c5cd9450c8c67d32883ea290dcbd633ea0 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjsRnkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/zAD/432pEiHCZegxiB0O/JmwHtKAiJtyHOULnW
-+8y3S6JLPD5SP730SL9suxY8w9QlocwmtbF2nH00nGWGXT3kB5SJqufqMyVQ1U6N
-IZA2jv0DLAkslPTPhXHmwtJtIzKdQxmQV23T+LppRYJAHazat777qka8BoNQVCss
-UnUfja6lLVfWd/4RlNnTGNUWiUuBM+bklJSXyrMmGDpMkP7SowWSUdS8beM517Qc
-XzcRj1V6LfV1eZXGg8+2CKauZ8E/DsW+yrUoabFeAZqnT/aLkXqclwHpsuibax2y
-IsjSqCMn2W9oMoCVfvdh2877+TtSBqTg21F8qdHTOc35vkq/JC/Ps2gz6k8I+4hX
-JhFTM5RRkGzNPiYnXArTRpSPRGiGUy8GY+vFCwZwbgHl5RebUyfqPksOES/oKdyk
-qbyjayl8Bac4QHaqSZ0iCmfQXE/I1FrKfwXdU+Jp/HC7fCYkjGWKFrTF62b1UVk6
-jaqnRP/3jEcI2KJN65MAcDcHA4Q+o1Ad3Jd9hbKGgdnAxtdzLy+KHLhsFgP+weDm
-n6JHvL84bhA7LMixAQ/qum9LL/cYrMHDyo+4O/8ybHKtelWnxw9gQdsr9rkKyjQI
-pgkq3oXRoE5ZlvTrMOZKQ67SBc5TCunFuyteL/mlp0zPyMEN7Jp1Yl8+l+9qVPce
-iaa65Ixdvw==
-=lb97
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmjsRoIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14wtD/99svnU0nWBRythLX2STMIXN6Wu07KQeOS1
+sh9B9eEHUj0KW5Soj+1x+TOScIJXPLu8tlIRlVdeoPkR/X13OJh1Wh2VdiOqy2gb
+mzw86SeRTNnm2SxbaNqsz2Ce8hwkKyzFxtMbzLzw2dnnuFfG5v2d+t8l0CEgNiiz
+R3M3IHR6KdnZrxrSVbyyCW2wQYvdAJLF0MQ5sKqHr2B53R6vCTwPCny7p8WhDK2k
+sbCahN7axKeSNh8O8wgXBXjAOvEDhIz/gBjtJeiTMVu7X0MU9Xb8yZIfMKIPDVWq
+UdLjlCmeVY1v/im8dchloqBfJvcc4Sq/kctbPu38dGiMrmGhkrW7bvgceDQE39xn
+j8EG0RZGqvPIxpJNLev8puzccX5palz/faCq2ERB6O+H1oOPO2iSPYrYOSej87Ax
+aw4/V8niftiyg+CwaZSvFLdm0ofdzK2u+HD+XA8sPw5EekNK5NSlpok5VRxSCLmE
+Da6qY56L9BRgi5GF18sEjx2Jmw0DGGLQbEOgCgI4ZvsajocjrUBwHfbw/Eprq4/x
+KfRvmVO5xL2f+N2+x55Ms+gpsmJmxrWnOMqToqHVo9Yv0V12J7vDg9BoksKIfqiA
+WT8F1sv4zPRKSOte6CAlpkJVYRwwbWZTle9SxsfRTNtJ3Y7sextFuDdez+kN26pO
+OzGPxEDYeQ==
+=Yo89
 -----END PGP SIGNATURE-----
 
---===============7761060104743439860==
+--===============3529389801939910225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +71,4 @@ e6e50496b7e77613ed5b610877f34e1197ce62da memory: tegra124-emc: Add the SoC model
 5c8c19417c9777aba1bc9a1d93c95edec48d8b19 memory: tegra20-emc: Add the SoC model prefix to functions
 50c833c5cd9450c8c67d32883ea290dcbd633ea0 memory: tegra30-emc: Add the SoC model prefix to functions
 
---===============7761060104743439860==--
+--===============3529389801939910225==--
