@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7315828472647854905=="
+Content-Type: multipart/mixed; boundary="===============4137513212120255010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Oct 2025 14:45:13 -0000
-Message-Id: <176036671372.2241517.15319249917665669358@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 14:47:42 -0000
+Message-Id: <176036686235.2243001.3666304456669092673@gitolite.kernel.org>
 
---===============7315828472647854905==
+--===============4137513212120255010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/selftests-fchmodat2
-    old: 8f353dd1cc814f9d8f1fa33c0539aad49ce6c23f
-    new: 781b31ae1db8a40d1ad6fc64a1a46b14b0644352
-    log: revlist-8f353dd1cc81-781b31ae1db8.txt
+  - ref: refs/heads/selftest-filelock-ktap
+    old: 7e43a4d36110ea28a2aeca048954c02068166eb3
+    new: 0106f8d470081487460445b59cbbcb29ede3143b
+    log: revlist-7e43a4d36110-0106f8d47008.txt
 
---===============7315828472647854905==
+--===============4137513212120255010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f353dd1cc81-781b31ae1db8.txt
+Content-Disposition: attachment; filename=revlist-7e43a4d36110-0106f8d47008.txt
 
-56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1047,8 +1046,9 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-695ff3d6e3d3b22be1d7446a41a0672ebfac7654 selftests/fchmodat2: Error handling and general cleanups
-42d0d2844e979f2f40677c2c3bbabefdc9200497 selftests/fchmodat2: Clean up temporary files and directories
-781b31ae1db8a40d1ad6fc64a1a46b14b0644352 selftests/fchmodat2: Use ksft_finished()
+b7ce28d5014eb0ca0bad7cd77880059ff6dd9853 selftests/filelock: Make output more kselftestish
+cf5a5fedfad4ae29d2c8296c9651b5da6d7b6d71 kselftest/filelock: Use ksft_perror()
+8d71d4e27e8db8dcb15e454454b0c01f26755ab4 kselftest/filelock: Report each test in oftlocks separately
+0106f8d470081487460445b59cbbcb29ede3143b kselftest/filelock: Add a .gitignore file
 
---===============7315828472647854905==--
+--===============4137513212120255010==--
