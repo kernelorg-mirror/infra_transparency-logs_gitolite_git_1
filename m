@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6195057222299024129=="
+Content-Type: multipart/mixed; boundary="===============1732609611484311562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 13 Oct 2025 17:02:39 -0000
-Message-Id: <176037495972.2369306.519056713812633952@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 17:04:48 -0000
+Message-Id: <176037508819.2371006.4615557960872449113@gitolite.kernel.org>
 
---===============6195057222299024129==
+--===============1732609611484311562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: ff2a66d21fd2364ed9396d151115eec59612b200
+  - ref: refs/heads/edac-for-next
+    old: 5c4a065eebd70227b51bb2c8d06e9e4c1b313b05
     new: 79c0a2b7abc906c7cf3c793256c6b638d7dc477f
-    log: revlist-ff2a66d21fd2-79c0a2b7abc9.txt
+    log: revlist-5c4a065eebd7-79c0a2b7abc9.txt
 
---===============6195057222299024129==
+--===============1732609611484311562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff2a66d21fd2-79c0a2b7abc9.txt
+Content-Disposition: attachment; filename=revlist-5c4a065eebd7-79c0a2b7abc9.txt
 
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
 
---===============6195057222299024129==--
+--===============1732609611484311562==--
