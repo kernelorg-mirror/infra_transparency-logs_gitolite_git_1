@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5313601234045336536=="
+Content-Type: multipart/mixed; boundary="===============3753731049130317381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 13 Oct 2025 07:48:11 -0000
-Message-Id: <176034169100.1843272.9582728822556420034@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 07:48:29 -0000
+Message-Id: <176034170912.1843527.12750514932653874308@gitolite.kernel.org>
 
---===============5313601234045336536==
+--===============3753731049130317381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/devel
-    old: acdaecbe949a8b0d037db9adb182ac67a6fa3726
+  - ref: refs/heads/master
+    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-acdaecbe949a-3a8660878839.txt
+    log: revlist-8f5ae30d69d7-3a8660878839.txt
 
---===============5313601234045336536==
+--===============3753731049130317381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-acdaecbe949a-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============5313601234045336536==--
+--===============3753731049130317381==--
