@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4732329797177474469=="
+Content-Type: multipart/mixed; boundary="===============6490146411810570023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Mon, 13 Oct 2025 13:52:11 -0000
-Message-Id: <176036353105.2190147.4685606058867747802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Oct 2025 13:53:55 -0000
+Message-Id: <176036363500.2191099.12792475025964852295@gitolite.kernel.org>
 
---===============4732329797177474469==
+--===============6490146411810570023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 75faf2bc907584acc879accae60a59bd655b6b6a
-    new: 059eef174487133bec609752b6deb3b9db5e64bb
-    log: revlist-75faf2bc9075-059eef174487.txt
+  - ref: refs/heads/master
+    old: d0ac821eaa89ec0d1ef0002454ce3451897a58ef
+    new: 2e830f1553d63d5f9dad82e5a2140eb2436e8c1f
+    log: |
+         2e830f1553d63d5f9dad82e5a2140eb2436e8c1f 6.1-stable patches
+         
 
---===============4732329797177474469==
+--===============6490146411810570023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75faf2bc9075-059eef174487.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-add1e9d2f576a3222faba16a11868eb178d2ba86 mkfs: fix libxfs_iget return value sign inversion
-e51aa35ec4c8da806f6dc79a2eb03abae7ef99da libfrog: pass mode to xfrog_file_setattr
-41aac2782dba98cf16a3dc155f48f8e6be7d05f7 xfs_scrub: fix strerror_r usage yet again
-bb52ff815e546a8970f22927e12a05717f6780eb mkfs: fix copy-paste error in calculate_rtgroup_geometry
-313be3605966e79a99883705859046e9c5f1b7d3 xfs: rename diff_two_keys routines
-a6b87a3a466cf689ceafbb919b5e8a9bd47d2627 xfs: rename key_diff routines
-4a902e04d98ef28daab8bffc8c78ac59e426dd5a xfs: refactor cmp_two_keys routines to take advantage of cmp_int()
-fe6a679a9b30f7d7d30163d0eebc19133dbf22f7 xfs: refactor cmp_key_with_cur routines to take advantage of cmp_int()
-a9be1f9d2baeb5c589d229e62f50161e3cbad6cb xfs: use a proper variable name and type for storing a comparison result
-ff1a5239a94f7ad3db4ebd9897c4d1e83292feae xfs: refactor xfs_btree_diff_two_ptrs() to take advantage of cmp_int()
-fc46966ce3d53f0106620637dce2f3221da75124 xfs: return the allocated transaction from xfs_trans_alloc_empty
-c6135e4201a1290d9d62a3e5f437b5745ad9c16c xfs: improve the xg_active_ref check in xfs_group_free
-86c2579ddf30874ce5aa33760630792a4962f238 fs/xfs: replace strncpy with memtostr_pad()
-620910fd6440e308c5ef561850eefe017d2149a9 xfs: don't use a xfs_log_iovec for ri_buf in log recovery
-059eef174487133bec609752b6deb3b9db5e64bb xfs: do not propagate ENODATA disk errors into xattr code
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760363695 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1760363633-4a39c84d42e54e7dbcc1f95d929428bc00744a2b
 
---===============4732329797177474469==--
+d0ac821eaa89ec0d1ef0002454ce3451897a58ef 2e830f1553d63d5f9dad82e5a2140eb2436e8c1f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjtBK8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hEsQAKYKUcm5Oh0JfR7kbw5l
+rYia3U+9LyuylJid8Dcupafcxr7lR7V/kSGLYX3UBoQU3ONc6w7Ydc+GOF0OBBrZ
+ecYaebGVakUy1NHKUdgx3fQGJwWm5toUR9eRLsNNl3Y0BfyzxcF1bwbUYPIlZDPl
+yk+Ag0ReMd+0aFGwNvlXtr8YwQz3V5/cY3oHb+lLDCsyLo8J9oYKvx+bT5m9aPzD
+q+gXBGLKqccbnYk/acSBQAzSc0I+sVrN1d2WjGwZp9yOfqQr1e47DipgxS1ZDtfh
+G3o3zV1P7RVKT9e6bktQBOjYmRtk6QZkCYmFOz7crKqyaiPyqVwWXm5H7Gyiuo32
+04Q2cnyKVor5F67sXbsKVAcA80/Z2TD587+5rscormQxC2o4EaDgRkg+TALzEZcM
+4JHlOKpkx734aP+ghc2jKKIbwpC0jIBE5AX8g1BWJte6SQnUwbuelcoJrcf2knEb
+UWtcmr0aUAYBXjQMb6MqR8aYIq2mOscQ8lnhpVLH3WwQuyP+7I4uSN48IL0prAWT
+Pfl1MDIHu96hsaVqv5kWppEF7X/5nyetK/Wrkilik+SM3IfkULIrbeHv0oeQRPmV
+iXuqa1wj3uWzkfPilwbaPij2niaK7dFb6TskUYj9WjEnEd9DTh8mhVPDHkRn1GF3
+vk3CIK6SwvjFK4TxR1h62twu
+=Pqxh
+-----END PGP SIGNATURE-----
+
+--===============6490146411810570023==--
