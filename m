@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 13 Oct 2025 09:29:16 -0000
-Message-Id: <176034775655.1941378.2929185906160883757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 13 Oct 2025 09:30:37 -0000
+Message-Id: <176034783718.1943886.4760185006832920060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/pcc_updates
+  - ref: refs/heads/v6.18-next/dts64
     old: 0000000000000000000000000000000000000000
-    new: e70f200976812134511bf845fb014d8914bfe9f8
+    new: 872fa3ea0c0e4602e4775d0fbe84ed3d6aa60e67
