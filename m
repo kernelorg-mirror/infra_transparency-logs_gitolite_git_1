@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4677307426338555793=="
+Content-Type: multipart/mixed; boundary="===============3765692444649806276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 13 Oct 2025 17:43:10 -0000
-Message-Id: <176037739055.2406287.1377930881465279326@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 17:43:12 -0000
+Message-Id: <176037739273.2406387.6063637107017210705@gitolite.kernel.org>
 
---===============4677307426338555793==
+--===============3765692444649806276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,148 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 340fc8ef2c4980e5a2c8cb6b24cad582a7293f10
-    new: 6c92b08e4d234f8437741625f36ad085b9477061
-    log: revlist-340fc8ef2c49-6c92b08e4d23.txt
+  - ref: refs/heads/mm-new
+    old: 6ee170fcfeb2afa03ddb50712e9532e05dddaf1a
+    new: 4c4142c93fc19cd75a024e5c81b0532578a9e187
+    log: revlist-6ee170fcfeb2-4c4142c93fc1.txt
 
---===============4677307426338555793==
+--===============3765692444649806276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-340fc8ef2c49-6c92b08e4d23.txt
+Content-Disposition: attachment; filename=revlist-6ee170fcfeb2-4c4142c93fc1.txt
 
+3ab10f83e277ba9640742cbba67b8df369591450 PCI: Fix finding bridge window in pci_reassign_bridge_resources()
+85796d20a6907e8ede81380a8fa73745d486f0af PCI: Warn if bridge window cannot be released when resizing BAR
+7dc58aa7f1b32a215fb0b7c6ca30ddf4663dedf4 PCI: Use pbus_select_window() during BAR resize
+ebe091ad81e1d3e5cbb1592ebc18175b5ca3d2bd PCI: Use pbus_select_window_for_type() during IO window sizing
+da07881005e57b3c19dccce2ad2f488ba96e8a6a PCI: Rename resource variable from r to res
+13016e15d595125ec2da83e1715083efe7499f91 PCI: Use pbus_select_window() in space available checker
+ae88d0b9c57f70086dca4f8ccb14c64b2f144c58 PCI: Use pbus_select_window_for_type() during mem window sizing
+4292a1e45fd464551efac7b2b52fd3606e956c28 PCI: Refactor distributing available memory to use loops
+aaae2863e7319b0201029868433e8356b923063c PCI: Refactor remove_dev_resources() to use pbus_select_window()
+ebbebd8873c4bab4f3553b22f43388de6349f1ee PCI: Add pci_setup_one_bridge_window()
+159fbfd0412b0351a512d716757b6eac4639da84 PCI: Pass bridge window to pci_bus_release_bridge_resources()
+43b4f7cd064b2ae11742f33e2af195adae00c617 PCI: Alter misleading recursion to pci_bus_release_bridge_resources()
+b3a37bff8daf50cdd6fa9ebe4a503d4261d99796 KVM: TDX: Reject fully in-kernel irqchip if EOIs are protected, i.e. for TDX VMs
+06dc910f5e07a3b85ea1a6891596689f492ecc72 KVM: x86/pmu: Correct typo "_COUTNERS" to "_COUNTERS"
+4319fa120f0f42be167d56d84ece94340e11d61e KVM: x86: Use guard() instead of mutex_lock() to simplify code
+cbd860293d139fae44b76d821d8112aab89d8e17 KVM: x86: hyper-v: Use guard() instead of mutex_lock() to simplify code
+5b5133e6a55bf6ca18de1b33c2ffe17d1162ec8e Documentation: KVM: Call out that KVM strictly follows the 8254 PIT spec
+7c85e4da8ce734eaca66a921aabeb6107842169f dt-bindings: clock: silabs,si5341: Add missing properties
+acf800c8fc567b6cf991e22df2dc4e3fd1b8eea5 Merge tag 'clk-imx-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/abelvesa/linux into clk-imx
+af8df709bf365f5583d31091280354e1ef0b201f PCI: qcom: Move host bridge 'phy' and 'reset' pointers to struct qcom_pcie_port
+a699213d4e6ef4286348c6439837990f121e0c03 serial: qcom-geni: Fix blocked task
+cf6ee09b0913308729f9c38cfbcb8320c10fe5d5 PCI/sysfs: Expose PCI device serial number
+0c01fe49651d387776abed6a28541e80c8a93319 ARM: at91: pm: save and restore ACR during PLL disable/enable
+af98caeaa7b6ad11eb7b7c8bfaddc769df2889f3 clk: at91: clk-sam9x60-pll: force write to PLL_UPDT register
+e0237f5635727d64635ec6665e1de9f4cacce35c clk: at91: clk-master: Add check for divide by 3
+94a1274100e397a27361ae53ace37be6da42a079 clk: at91: sam9x7: Add peripheral clock id for pmecc
+bfa2bddf6ffe0ac034d02cda20c74ef05571210e clk: at91: add ACR in all PLL settings
+652b08afba69d5d26fe91098eb832b1bcc0f91c2 ARM: at91: remove default values for PMC_PLL_ACR
+925e9296dadf83b5136665060f86c3e5b6669fa1 Merge tag 'ib-mfd-gpio-input-pinctrl-pwm-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd into next
+f9d803784f8dfea60f394d7fc94084c5f1eb4027 dt-bindings: input: touchscreen: document Himax HX852x(ES)
+09fd8626cf8285503b4803b30b06c296599a24e7 Input: add Himax HX852x(ES) touchscreen driver
+11fafeb2657e2c2df3d011ca759962a4e81b19b1 Input: twl4030_keypad - drop support for platform data
+1b7d2e1742427527aac2b2d5cb92fb8f2f047cad dt-bindings: input: convert tca8418_keypad.txt to yaml format
+6c521885da34e61908d84a4f3eda85545f060848 Input: imx6ul_tsc - fix typo in register name
+05fcd78bcb14f68d46e4de8812ce6646d3d7f941 Input: imx6ul_tsc - use BIT, FIELD_{GET,PREP} and GENMASK macros
+6e4a5154934f8c7283452651c4d398d34a46e952 dt-bindings: touchscreen: resistive-adc-touch: change to unevaluatedProperties
+4687a2c4e6a61b247ad14ffb2ef5ca56e44fa4f2 KVM: VMX: Setup canonical VMCS config prior to kvm_x86_vendor_init()
+e3d1f2826da68c763cba1f29dba5cc81d3fdaaee KVM: SVM: Check pmu->version, not enable_pmu, when getting PMC MSRs
+51f34b1e650fc5843530266cea4341750bd1ae37 KVM: x86/pmu: Snapshot host (i.e. perf's) reported PMU capabilities
+1e24bece26812547608dd02eb1fc138359d0f813 KVM: x86: Rename vmx_vmentry/vmexit_ctrl() helpers
+cdfed9370b96aabaa2d20f65ca4e9c9b009fe8fa KVM: x86/pmu: Move PMU_CAP_{FW_WRITES,LBR_FMT} into msr-index.h header
+6057497336bbfabd3a2f632bba2cd2bfbcb7b304 KVM: x86: Rework KVM_REQ_MSR_FILTER_CHANGED into a generic RECALC_INTERCEPTS
+5a1a726e68ff256f564cf51ad21a96bceb4dd954 KVM: x86: Use KVM_REQ_RECALC_INTERCEPTS to react to CPUID updates
+2bff2edf69ed80b21d35470a3580f25979be2c4b KVM: VMX: Add helpers to toggle/change a bit in VMCS execution controls
+30c0267f15812114d7ab96a7dd45874742d736fe KVM: x86/pmu: Use BIT_ULL() instead of open coded equivalents
+9bae7a086394128bd829c0c04f9f75600fdc1bc1 KVM: x86/pmu: Move initialization of valid PMCs bitmask to common x86
+c49aa98376864ddf82175a7ea48977c637398653 KVM: x86/pmu: Restrict GLOBAL_{CTRL,STATUS}, fixed PMCs, and PEBS to PMU v2+
+7e52794b88f8bce684ffd7081279ac4236131ae1 dt-bindings: touchscreen: convert bu21013 bindings to json schema
+7ee0f793d00d586bf01017a0a24308659873975c dt-bindings: touchscreen: convert zet6223 bindings to json schema
+8a760c454da263f4b5f0f557e26141b2a3186b40 Documentation: PCI: Fix typos
+e8fe3f07a357c39d429e02ca34f740692d88967a 9p/trans_fd: p9_fd_request: kick rx thread if EPOLLIN
+039fd0634a0629132432632d7ac9a14915406b5c perf arm_spe: Correct setting remote access
+cb300e3515057fb555983ce47e8acc86a5c69c3c perf arm_spe: Correct memory level for remote access
+7203a22492e6c1836e641c8f65786c40e456dd42 perf arm_spe: Use full type for data_src
+45854b6d775b3a0610cdd5e00393253539338d14 perf arm_spe: Directly propagate raw event
+e44e2b2b16dffc56c86cc062d85721644dcf37f4 perf arm_spe: Decode event types for new features
+99940fd9e145895d03b4ee456491b9583ae88795 perf arm_spe: Add "event_filter" entry in meta data
+98f993ae6f4bc50fcdb0168a1673f7943e1189f2 perf arm_spe: Refine memory level filling
+14d4ecb15e885ebea8eeb0389c6a35e3a166f199 perf arm_spe: Separate setting of memory levels for loads and stores
+786e7e7a504634168c0287ad8de3f4fe34f1b1f6 perf arm_spe: Fill memory levels for FEAT_SPEv1p4
+04abd5c06516a3c59fe14fbee0e510d3c21fc3b6 perf arm_spe: Refactor arm_spe__get_metadata_by_cpu()
+d510568970f38539eff41e6fe4ef76809f1b184c perf arm_spe: Set HITM flag
+d120cb34c9c75cf49d8ef821215d26d6e22fe8a9 perf arm_spe: Allow parsing both data source and events
+ece3c7754fc94aed15b7da567a4d22e30e3ee52b perf trace: Add --max-summary option
+97996580da08f06f8b09a86f3384ed9fa7a52e32 perf vendor events arm64 AmpereOneX: Fix typo - should be l1d_cache_access_prefetches
+acd331d706f6b11e56670875fb228379feb7906c perf vendor events arm64 AmpereOne: Fix typos in metrics' descriptions
+54a7685fd2d687dc4a7015d7bc32614d65d0d05a perf auxtrace: Avoid redundant NULL check in auxtrace_mmap_params__set_idx()
+2e3501212293c5005873c6ca6bb4f963a7eec442 perf test: AMD IBS swfilt skip kernel tests if paranoia is >1
+8c6d842302f3d070a5f41c296f1668fd69dae468 perf dwarf-aux: More accurate variable type match for breg
+4a6ce9ad20257a9b8fc32994366a24170a3dfa3d perf dwarf-aux: Better variable collection for insn tracking
+e7ace97fcf6d2eb458bd7e16bba8e3f24d396e9b perf dwarf-aux: Fix __die_find_scope_cb() for namespaces
+c0e885e92534ae83ff2721332c17022a48d769c7 perf tests record: Update testcase to fix usage of affinity for machines with #CPUs > 1K
+817af72c05c8adfc5b5c8c772e237a2ac85b25f5 perf tools: Update header documentation on BPF_PROG_INFO
+98dbed7aee7f8fd664927a6eea5fce15663be198 perf tools: Remove a pointless check
+48314d20fe467d6653783cbf5536cb2fcc9bdd7c perf test shell lbr: Avoid failures with perf event paranoia
+72c181399b01bb4836d1fabaa9f5f6438c82178e Merge remote-tracking branch 'torvalds/master' into perf-tools-next
+0e9e7bc14e8f7a3b4193a8e3febb9e1e92051bd3 perf test attr: Add missing int_mist.uop_dropping event to test-stat files
+b0f4ade163e551d0c470ead7ac57eaf373eec71a perf trace: Fix IS_ERR() vs NULL check bug
+79a0194f2f28abca7a17c37d5384762355d17c26 perf bench mem: Remove repetition around time measurement
+07e257245d5ee0c5393ae2fe8c7fc18071c5a637 perf bench mem: Defer type munging of size to float
+dbf5dad1540e28bddde701268beb77beadb58321 perf bench mem: Move mem op parameters into a structure
+bdc22a83dc2a2f1ecfc4cdd8e605d6c075b3dd82 perf bench mem: Pull out init/fini logic
+fe0f3216dd8736afc1a6ddb0b79fd24f37418357 perf bench mem: Switch from zalloc() to mmap()
+7b6837e63a091d15ea35974aae5ccf2605ad7047 perf bench mem: Allow mapping of hugepages
+fd1d882c4c34e1925bf134e31dddf4891578a72f perf bench mem: Allow chunking on a memory region
+c3047f9a1ab457b60caa3b2baa2c605b935ca4f1 perf bench mem: Refactor mem_options
+a8f0992998af9ea1135ee6415c68c1d84cb5ad22 perf bench mem: Add mmap() workloads
+c17dda8013495d8132c976cbf349be9949d0fbd1 perf session: Fix handling when buffer exceeds 2 GiB
+4e4a4f58bed19e1a3a5a7c3a18ce3b927b76fcd3 dt-bindings: pci: Add Sophgo SG2042 PCIe host
+49a6c160ad4812476f8ae1a8f4ed6d15adfa6c09 PCI: cadence: Check for the existence of cdns_pcie::ops before using it
+1c72774df028429836eec3394212f2921bb830fc PCI: sg2042: Add Sophgo SG2042 PCIe driver
+b90d027afbdde5a0b640586f4cf91cc5cc97a5bc dt-bindings: input: maxtouch: add common touchscreen properties
+fd321a861fcae862a4800fa49375336ee64e6c9c Input: atmel_mxt_ts - add support for generic touchscreen configurations
+5519b69183c80fbbed8d6eb6dcdf63ba52090d77 tools build: Make libperl opt-in rather than opt-out, deprecate
+48918cacefd226af44373e914e63304927c0e7dc perf test: Don't leak workload gopipe in PERF_RECORD_*
+693101792e45eefc888c7ba10b91108047399f5d perf evsel: Fix uniquification when PMU given without suffix
+edaeb4bcf1511fe4e464fff9dd4a3abf6b0096da perf test: Avoid uncore_imc/clockticks in uniquification test
+24937ee839e4bbc097acde73eeed67812bad2d99 perf evsel: Ensure the fallback message is always written to
+0dc96cae063cbf9ebf6631b33b08e9ba02324248 perf build-id: Ensure snprintf string is empty when size is 0
+510c47f165f0c1f0b57329a30a9a797795519831 KVM: TDX: Fix uninitialized error code for __tdx_bringup()
+597fe80ba3fc55b67cd3aaed8431a3607f519f5b Merge tag 'sunxi-clk-for-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-allwinner
+7e2e4e32cd47a4129bf25c21e7049ff0571b7b90 clk: amlogic: fix recent code refactoring
+1e0d75258bd09323cb452655549e03975992b29e clk: ti: am33xx: keep WKUP_DEBUGSS_CLKCTRL enabled
+048546931339b322f13c5863ce1815c9e5e7b0bd clk: keystone: sci-clk: use devm_kmemdup_array()
+ac28c7598611df3034c0f61d25da7b3377bbce87 dt-bindings: clock: mediatek: Add power-domains property
+18db1ff2dea0f97dedaeadd18b0cb0a0d76154df clk: scmi: Add duty cycle ops only when duty cycle is supported
+8be1f299041220512195e40590bb4984f297ae48 dt-bindings: clock: spacemit: introduce i2s pre-clock to fix i2s clock
+74246a820c817f195f6191e370c3df98d2df5d91 clk: spacemit: introduce pre-div for ddn clock
+519cff1d85694cbdf33b27591740e7e37348e6b4 clk: spacemit: fix i2s clock
+575e9a62b8cacec8b613a60d74c853efe3a74f87 Merge tag 'qcom-clk-for-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
+072ce917bf95fc31f3c8c106b71a31e8607553ce clk: bcm: rpi: Add missing logs if firmware fails
+919d6924ae9b4bcc9cb1d5ce4b78d5b92665d630 clk: bcm: rpi: Turn firmware clock on/off when preparing/unpreparing
+6526402b9bac873d7a64c6e81eb53307d8471f08 clk: bcm: rpi: Maximize V3D clock
+6c4c26b624790098988c1034541087e3e5ed5bed clk: mediatek: mt8195-infra_ao: Fix parent for infra_ao_hdmi_26m
+64e7df08ed43e45aa1a8382b459b516d04d47e99 dt-bindings: clock: mt7622: Add AFE_MRGIF clock
+cc5f9cfb2a2d22f05f5aa1c09bfa816cbfc4e10a clk: mediatek: mt7622-aud: Add missing AFE_MRGIF clock
+5e121370a7ad3414c7f3a77002e2b18abe5c6fe1 clk: mediatek: clk-mux: Do not pass flags to clk_mux_determine_rate_flags()
+aee9ffa010e9b06f4138c6575a9318422ac32fc3 clk: mediatek: clk-pll: Add set/clr regs for shared PLL enable control
+2c327a17718d8d6e7e79c2ab73ea6073aae9f22d clk: mediatek: clk-pll: Add ops for PLLs using set/clr regs and FENC
+d3c4dde9770dbe2eb3a57c3d952c630e81fcd1c0 clk: mediatek: clk-mux: Add ops for mux gates with set/clr/upd and FENC
+516edf79a5c6af2ce862e83a34c9d9d74770ac93 clk: mediatek: clk-mtk: Introduce mtk_clk_get_hwv_regmap()
+be89999259376eba724a52cc31560588bd5c95d8 clk: mediatek: clk-mux: Add ops for mux gates with HW voter and FENC
+8ceff24a754ac065123ae0ec9f31ec03aff55f8a clk: mediatek: clk-gate: Refactor mtk_clk_register_gate to use mtk_gate struct
+e504d3bdb3d0bf581056f18ed12f7d2a59815cd1 clk: mediatek: clk-gate: Add ops for gates with HW voter
+a94737a6652bd9fe2db4161e2b81dce58505b4cc clk: mediatek: clk-mtk: Add MUX_DIV_GATE macro
+dd240e95f1bee671f58148dea25e3be7cb39b50d dt-bindings: clock: mediatek: Describe MT8196 clock controllers
+d78485d63b79dd896301439e57e3dea45db0b575 clk: mediatek: Add MT8196 apmixedsys clock support
+895ab0134d64834b3f265a6cb5ed609c80876efb clk: mediatek: Add MT8196 topckgen clock support
+b093e0f1709990666d75d3018db2d7b431678f2f clk: mediatek: Add MT8196 topckgen2 clock support
+2f8b3ae6f0cb189c067f18480caf4bd52e1cc21d clk: mediatek: Add MT8196 vlpckgen clock support
+212779900009b7658acc191432236746145a1ac2 clk: mediatek: Add MT8196 peripheral clock support
 a74d5e835a9ff3ac56c01e6235e3122b0208ad30 clk: mediatek: Add MT8196 ufssys clock support
 c9b9a66bde91b84157243f8a6fe6ac524868c199 clk: mediatek: Add MT8196 pextpsys clock support
 8f61d9d319915eb84511773dfa57fb0c60ead0f7 clk: mediatek: Add MT8196 I2C clock support
@@ -919,136 +1050,5 @@ ecf7e95dc394aee20b1dc4ce87d70b1e06397559 mm/swap: do not choose swap device acco
 54ee087d2ec1e8903ffecaabaeb17eaa8100530a mm-swap-do-not-choose-swap-device-according-to-numa-node-fix
 16aff1a598934e8cbb46a122579edb1323b8f8b9 mm/swap: select swap device with default priority round robin
 4c4142c93fc19cd75a024e5c81b0532578a9e187 mm/huge_memory: only get folio_order() once during __folio_split()
-436ef6e95e3b17e6a9ee17e2471b0b0bfbad0832 === mark start of DAMON hack tree ===
-12515b5faa05908ced6f89f5ed1386b0158c5d83 add -damon suffix to the version name
-565e360b43185da9a7e4624186940333eee9eb11 === temporal fixes ===
-cbdaa5d1923f860e4d8561a03f7084ef321aff13 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-738e609790c19b7a7831bbe537afd0f754f4f1d3 === patches written or reviewed by SJ but not merged in -mm ===
-279fd0da89cb17156e825d6e58742959c70f0a19 Documentation: damon: reclaim: Convert "Free Page Reporting" citation link
-ccb48f0d949e274d388e66c8f80f7d1ff234ce46 === hacks in progress ===
-7eefae41a812c04e5269ec6d7f2ce0069c24a25c mm/damon/core: use damos_commit_quota_goal() for new goal commit
-5ddc9b5137a46328825e36525b7a438ceef94f63 ==== numa_memcg_used_bp DAMOS quota goal metric ====
-9cdeec93e8c567bbb6c41392a95aa931d55091e3 mm/damon: document damos_quota_goal->nid use case
-b087a775b76d32dac19959bb2f4cb26c45ba62a8 mm/damon: add DAMOS quota goal type for per-memcg per-node memory usage
-cb18b17d26b11f0116549efdcfcb9e706a39b0b4 mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_USED_BP
-00ea2f4954dba9dddf85e44a5ff823dd10cee16e mm/damon/sysfs-schemes: implement path file under quota goal directory
-fcb71cbbe39407948d8bce67dc1e2a12ba41d51a mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_USED_BP
-1d4076dff990c83e96a22812d27644f5c8fb2d70 mm/damon/core: add DAMOS quota gaol metric for per-memcg per-numa free memory
-d4c98d0f2e8b75a7e13b9def78184cc7f3c59cf9 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-6ec111ea9658561045b4f1fe2ad5d9c5134717ce Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_{USED,FREE}_BP
-6f29c13da682f81efd319de6957119d7a8251838 Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
-1b05876490b04a323265ac296d7268f3efaf13df Docs/ABI/damon: document DAMOS quota goal path file
-d9a116df62dcce12d30c69e8756f31d73ff0a55d ==== fault/report-based monitoring for per-cpu and write ====
-f4f8b2a4f52b1f19aa50b192ee4abc78a6cd228b mm/damon/core: introduce damon_report_access()
-ac5385514b8599cdad7e1976612f3a2ac8f8c280 mm/damon/core: add eligible_report() ops callback
-b3a4e68cf360ebe9f7c777b041b508b9cf8a4d3a mm/damon/vaddr: implement eligible_report()
-f9e058b4316afe1ecfc20c43bb968c2fb36f7ea1 mm/damon/core: read received access reports
-a40c0cbf4566a9c2113e95bc5ed7ec198b002967 mm/memory: implement MM_CP_DAMON
-0ec0160a32feffa77156471c3343d951f5a572ae mm/damon: implement paddr_fault operations set
-72c0349de15df1eb682812d684029a52375779f8 mm/damon/sysfs: support paddr_fault
-a7358c848a4fcbe2e9258b0d37109aa7135eaa88 mm/damon: introduce damon_operations_attrs for operations set control
-7b8d4267d17ebb72ea5a0ef2a09868deef120a8b mm/damon/core: use reports based on ops_attrs.use_reports
-b9e6378f55f8819de0fbeff0b3009feade96f97f mm/damon/paddr: use ops_attrs.use_reports to determine what source to use
-0e13ac613dbd39004b5b34ac8e74f076dbc8f1bb mm/damon/paddr: remove paddr_fault
-1cf3ca2fca9dba9ef3d9b978f4e67949b2923db8 mm/damon/sysfs: implement ops_attrs directory and use_reports file
-7f780bc6381324cfa52ad41bdf6eb52ed8ff8b02 mm/damon/sysfs: connect use_reports to core layer
-34796f7ae5d40b98bb2843e5e4cf5a9f79108a94 mm/damon: add operations_attrs->write_only
-264941bbfb23101fda34c42263c74690a988167e mm/damon: add damon_access_report->is_write
-770d3e37e22ea69e37d511e1696936857bf2f427 mm/memory: set damon_access_report->is_write from do_damon_page()
-9ebce638a255f255ea4c95786844f35a34fb7101 mm/damon: pass opeartions_attrs to damon_operations->eligible_report
-b5e36fb0c36c162a08951c3a34b22a1ad24e3280 mm/damon/paddr: implement write-only handling eligible_report()
-95248feb29cc76a9f8c90f8bdaa258e7af06c652 mm/damon/sysfs: implement write_only file under operations_attrs
-a38dc83fbcbb685586419bb1a540c2f9131b3737 mm/damon/sysfs: pass write_only to core
-222b6c386bea40ca2a368759958e8c33cc977a59 mm/damon: add damon_access_report->cpuid
-3cbdd5d7e75af8c87ddeb4d0bc7e9024205d13dd mm/memory: set damon_access_report->cpu
-066eb59dc3837620d2f03e0bc43b9fc5f7843a93 mm/damon: add ops_attrs->cpus
-f8baed75f98e872c5f850883dc494e7fba44255c mm/damon/sysfs: support ops_attrs->cpus
-14aa83d78d93cc7039fc78449e3bb26ab7498b14 mm/damon/paddr: filter reports based on cpus
-8198a733bb184d9701cf7b7d01348fbb721c7b25 mm/damon: add damon_access_report->tid
-03f952c18a9c9870c5c8e13770ef57dbc5970011 mm/memory: report tid of the fault-caused access to DAMON
-6aa238ca90e918bb92ab71310661622229cc7e53 mm/damon: extend damon_operations_attrs for per-threads monitoring
-13d7a56eb337d1313f7ba7b8842509ebc09c9399 mm/damon/paddr: support damon_operations_attrs->tids
-67a8847912a949b6877277409b6baa6d233298e8 mm/damon/sysfs: implement ops_attrs->tids file for thread ids
-10a4d653ae8283c65d0dd17adb40c60a7c234550 mm/damon/sysfs: setup ops_attrs->tids
-2a9f6a16816d941f943a01e83bbab22dbb0fc878 mm/damon/core: deallocate ops_attrs->tids from destroy_ctx()
-b8d2a8e11195d13be0f3d6621d44bdbf9ddf6627 mm/damon/sysfs: implement tids reading
-b5edab4be82d65e489e2c1675d4cbd37bbae4ad7 ==== docs for DAMON and mm ====
-494fd884d9a32919853210f0e5f903a80999fcb1 Docs/mm/damon/design: add table of contents for overall and DAMOS
-57acf6d1ebc2eb43d738bcc5079552aea737dbb7 Docs/process/2.Process: Update mm tree URL
-618fb8b43f7b53c7379ae0a02e14492ccd87558e Docs/mm/damon/design: add API link to damon_ctx
-cb66f99320a2d03ed97adc3af2d93c2b0a29a997 ==== ACMA ====
-4a8976d8a0aaea9b18b99f825000e08b811578a6 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-02900e43e8ae083c3e490259eb69520f0c86097d mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-6966234a1233457b1fbdd542ae3c6c3d82203244 mm/page_reporting: implement a function for reporting specific pfn range
-6dd53b1a1998104b192bdd066b1c23405febb71c mm/damon/acma: implement scale down feature
-752eed3a4a0d66355bb92a26a23a8ac90e6ee715 mm/damon/acma: implement scale up feature
-4ae580f51f52abcd6b46627c01dae9ffa9b8575a drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-1f1193bfabc49abedc56bc243ceb3e2ade9afa23 === commits aiming not to be posted ===
-d353cb545f75f27945d5b9f206d2ff9a8ac8fef3 mm/damon: Add debug code
-bb9216c3d3770e6231b6684b519fba205a0450ce mm/damon/core: add debugging log for intervals auto-tuning
-248d842ed1fc05acf91b011025433cbc1c2e764f mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-52f417bf3ad0896083a8ddb1281ee07d1bbc2e23 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-9a1bc5590c4c43b303cbf64062982beee8accd74 mm/damon/core: add todo for DAMOS interval validation
-701806be28d0e4e13628920dc1beafe7fd229e84 mm/damon/core: add debugging-purpose log of tuned esz
-f0167b583c9c0a592fd8020a243879663c97b7bd Add debug log for PSI
-2bcafb0bf784f4851a0c60589502c2e52208a898 mm/damon/core: add debug log for reset_regions()
-967e7ae95465c3bc11a4aaad47dd8d586714fc75 ==== lru_sort advancing ====
-6c1782bc299c9ee4aa1a3df6b64b2071fc130314 mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-ea7a00580cc8f5e27df1ecf42154fe8b5bff421a mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-85032b264d2857faad3c0c8ba793bba1fd05739c Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-227b8da90892b2507ea80afdde18942ef457144f mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-737cbc41576aaa2fa9081022fd6362f989472fae mm/damon/lru_sort: consider age for quota prioritization
-03c94062462f632aa6aa93b50543ea7c3c2c8e79 mm/damon/lru_sort: support young page filters
-12faaf0cdf0caf8e6930430a88ee4d7ffc1f9f49 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-f07070e3585f0371dab97b5f8b9ca62b7512fd8c mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-100ae8f14c81f68e7aca41272b15448730181e72 Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-b10034d09f80c7c18f72904d167755f7a95297ce mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-bcdc8df3a6025f44260c8351a39fb4e22cf6a21e Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-d88dee3101e52d2ee05be5f12a436ec3e0856aed ==== kunut improvements ====
-78efcaf65947f4667b0f16775d1edf7bb1bbb510 mm/damon/core: pass migrate_dests to damos_commit_dests()
-6b5953efd42c3ddf8233977b0d409a8f6f61b268 mm/damon/tests/core-kunit: use '1' instead of DAMON_MIN_REGION
-a41d2ceed56ddbe86b253490a09521340d125fce ==== add kunit tests ====
-cbb5ace4242cf289805e802def70f5b3dfc666fc mm/damon/tests/core-kunit: test damon_commit_ctx() for attrs
-7bb6019862b45849cf47e2e3cc416bc3116e8ec5 mm/damon/tests/core-kunit: split out commit test context builds
-b508d2810256958e0e91ce4d9056ff368b4408cd mm/damon/tests/core-kunit: fixup freeing of dst context
-4251752095abfca1c2cbe0c4f81dd0fb79f3cd47 mm/damon/tests/core-kunit: add test targets
-40e04440921997b2f5a1b88c8ee7643ccd89dedc mm/damon/tests/core-kunit: split out results verification
-b05e7cf5f7633b68f6e60805e3d63ba991ce4460 mm/damon/tests/core-kunit: test number of committed targets
-3f8ef9945f2ffd19106fdf7c606e74174259b8fa mm/damon/tests/core-kunit: test target parameters commitment
-21bbf99cc12dc7666467370d8dc0af551fd7bab7 mm/damon/tests/core-kunit: test regions commitment
-4afec732adbc0ea54e9393342b607aa255c48f47 mm/damon/tests/core-kunit: test number of committed schemes
-30a0559e391d5ec14f1ffa9e8bd0345c7e0c6b59 mm/damon/tests/core-kunit: add a simple damos_commit_quota_goal test
-bee214b3c40c077e88cd4ab6971a7c8425cc3738 mm/damon/tests/core-kunit: split out damos_test_commit_quota_goal()
-3036cffa734cff827bf8435c826e4892214a5ab2 mm/damon/tests/core-kunit: do quota goal commit expectation more metric-aware
-7b2b40e5c27b1992e350eea41e6973348bdfb88f mm/damon/tests/core-kunit: test node_mem_used_bp
-8992f710526ef34bdf767443abcb966bb3ae6873 mm/damon/tests/core-kunit: further modularize quota goal commit test
-8a591fe0a6ad59c955bad3e607f839a9bbcc0ea7 mm/damon/tests/core-kunit: test all quota goal metrics
-c77f6158dd3da2acdf30a57e9592e6dda21dab54 mm/damon/tests/core-kunit: add damos_commit_quota kunit test
-0c42264faa324a4fdea88c30632d1738cf28a85e mm/damon/tests/core-kunit: clarify why we test entire bits
-6bc5b802283ff7035befad57bf890bd2ae48b258 mm/damon/tests/core-kunit: fix unintended fall-through in quota goal test
-9eb8d2cfb78397d60ee1d4c386d2f64f5ddce29d mm/damon/tests/core-kunit: check target fields one by one
-ef9fc61e89234c1167c6b32a50b3754ada39a5ec mm/damon/tests/core-kunit: use KUNIT_EXPECT_PTR_EQ() for target->pid
-73d42c477a4016dfd68bc4e85c5d982e9a61bfd4 mm/damon/tests/core-kunit: add a simple test for damon_commit_targets()
-0c264fba7149eb4301324548e8c91c7c27f53709 mm/damon/test/core-kunit: add TODO for filter commit test
-e260e718e05e1a9162070d8fa6cdbace2947aaba mm/damon/tests/core-kunit: add test for quota goals commit
-68e53e50e6824a9afce454df6106537d524f4d69 ==== mm/damon/sysfs: obsolete targets ====
-e1c0e4c7b1a7e41cdc318d7b0c561d708bfcf621 mm/damon: add damon_target->remove_on_commit
-2c449e53aacb12d02b99023ddc97e081e3245b3d mm/damon/core: handle remove_on_commit
-48427e5b7f610233051f1b426de0c6b84f4d6330 mm/damon/sysfs: implement obsolete_target file
-d1c49559e40a48bddb3b844ab029554bf2d1d2df mm/damon/core: error for remove_on_commit target of no matching dst
-9ddb546ed758d6d28d73dc88cc660c618ceaa38b mm/damo/sysfs: add todo items for obsolete file input handling
-ee822869b9542cf636ff72bfab68e206704ee18d ==== uncategorized ====
-c2f1c7d413f7cc820fdea18c1cd93c55ca0037a4 mm/damon/core: add an hacking idea concept interface prototype
-48a0dfd18dd91c3df5c99e568091c9181061f5a4 mm/damon: add trace event for intervals score
-9eae1976cb1a8e2f29740d8f0537116320d62806 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-529a54f4278bdbb589c5a17e59c7cec967fcde68 Docs/admin-guide/mm/damon/usage: clarify empty target regions commit behavior
-f1d6ff065f27862b481d3d16fd7395b55bb32b8e Docs/admin-guide/mm/damon/reclaim: document addr_unit parameter
-666ebdc59fa98e5a4f1a5a698e1a011cc1fc9ad1 Docs/admin-guide/mm/damon/lru_sort: document addr_unit parameter
-6f84615c6642ed96a02e86ac539ef5c73a0a194d Docs/admin-guide/mm/damon/stat: document aggr_interval_us parameter
-e2f5b3cdd3c30233d2b2eaa59631c9fdb6ead3d8 Docs/admin-guide/mm/damon/stat: document negative idle time
-5903184ed863a85d0dd77c2fe5311a7d5ad61d8f Docs/admin-guide/mm/damon/stat: fix damon_stat_monitoring_accuracy_overhead label
-72d247e1e0ce393e0bd764962b89bb7a35d02637 mm/damon/sysfs: ensure commit test ctx has running ctx parameters
-4ba2806f0e5a9e2a359efd48f4fb745506267b91 mm/damon/sysfs: remove obsolete todo item
-6c92b08e4d234f8437741625f36ad085b9477061 mm/damon/tests/core-kunit: extend damon_test_commit_targets()
 
---===============4677307426338555793==--
+--===============3765692444649806276==--
