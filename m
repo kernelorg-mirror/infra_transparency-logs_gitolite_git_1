@@ -1,52 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 13 Oct 2025 07:26:32 -0000
-Message-Id: <176034039273.1822541.12770554468247290052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 13 Oct 2025 07:29:01 -0000
+Message-Id: <176034054172.1824060.17370284608091118310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/tags/v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
-  - ref: refs/tags/v6.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
-  - ref: refs/tags/v6.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
-  - ref: refs/tags/v6.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
-  - ref: refs/tags/v6.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: bc720facc421d0ff6d568323035d1a4d5d35ce84
-  - ref: refs/tags/v6.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5cb8274d66c611b7889565c418a8158517810f9b
-  - ref: refs/tags/v6.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
-  - ref: refs/tags/v6.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e76fe965a0365e346cdaaf462847bac748354ab2
-  - ref: refs/tags/v6.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
-  - ref: refs/tags/v6.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
-  - ref: refs/tags/v6.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 47633099a672fc7bfe604ef454e4f116e2c954b1
-  - ref: refs/tags/v6.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
-  - ref: refs/tags/v6.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 75083cd99c8261eec695596813cc261a523ab32b
+  - ref: refs/heads/for-6.18-fixes
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: 12d724f2852d094d68dccaf5101e0ef89a971cde
+    log: |
+         12d724f2852d094d68dccaf5101e0ef89a971cde ata: libata-core: relax checks in ata_read_log_directory()
+         
