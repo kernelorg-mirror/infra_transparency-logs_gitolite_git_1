@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 13 Oct 2025 18:49:37 -0000
-Message-Id: <176038137701.2463942.17951660531172590845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 13 Oct 2025 18:50:39 -0000
+Message-Id: <176038143934.2466008.14677350144757290897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 9e76fb9f6ce830cebb71a0b54a662ea8bb50bd54
-    new: 2db2d35937997d6098fa89bd1945206a0d23beb8
+  - ref: refs/heads/bleeding-edge
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: 33f2ffbf2f47e698aee8207c7a06c97babb1dc0f
     log: |
-         8f0aa430bfb939cad6dff17c91fac7f8bf3ebec2 tools: add 6lowpan-tester
-         2db2d35937997d6098fa89bd1945206a0d23beb8 doc: enable 6lowpan in tester.config and explain in test-runner.rst
+         c9ff3637386c6eb72eac55a8b4c9a4972215dbcb PM: WQ_UNBOUND added to pm_wq workqueue
+         33f2ffbf2f47e698aee8207c7a06c97babb1dc0f Merge branch 'pm-core' into bleeding-edge
          
