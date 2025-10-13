@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6939405911025873919=="
+Content-Type: multipart/mixed; boundary="===============2627150765704323804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 13 Oct 2025 20:36:16 -0000
-Message-Id: <176038777630.2564717.13252659884897814049@gitolite.kernel.org>
+Date: Mon, 13 Oct 2025 20:39:39 -0000
+Message-Id: <176038797988.2567188.12397093916600035178@gitolite.kernel.org>
 
---===============6939405911025873919==
+--===============2627150765704323804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/next-fixes
-    old: ce9972cf7d4ae542933b4c39bfa05411ed08807b
-    new: 32b578e755e0f21019c0fce1c983bb7e10fd404f
-    log: revlist-ce9972cf7d4a-32b578e755e0.txt
+  - ref: refs/heads/for-next
+    old: 4339d0815413524b1c3433e994e2315572e0308d
+    new: 4932dafe93ec98de6f2a5312ae9a34853bdeed18
+    log: revlist-4339d0815413-4932dafe93ec.txt
 
---===============6939405911025873919==
+--===============2627150765704323804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce9972cf7d4a-32b578e755e0.txt
+Content-Disposition: attachment; filename=revlist-4339d0815413-4932dafe93ec.txt
 
-5484a4ea7a1f208b886b58dd55cc55f418930f8a Merge tag 'vfs-6.18-rc1.afs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message in probe()
-18b19abc3709b109676ffd1f48dcd332c2e477d4 Merge tag 'namespace-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-263e777ee3e00d628ac2660f68c82aeab14707b3 Merge tag 'vfs-6.18-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-449c2b302c8e200558619821ced46cc13cdb9aa6 Merge tag 'vfs-6.18-rc1.async' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-2804359536275d8d5f92eb1949102eca4153ea1e net: ethtool: remove duplicated mm.o from Makefile
-29be241d11748dbcd9981587a85afa734942c885 docs: networking: phy: clarify abbreviation "PAL"
-ee916dccd4df6e2fd19c3606c4735282b72f1473 Unbreak 'make tools/*' for user-space targets
-285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
-f2c61db29f277b9c80de92102fc532cc247495cd Remove bcachefs core code
-f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
-0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
-60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
-a40eb50a9566318a138b3e222fc4fe04e3932cda Merge tag 'gfs2-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-e445fba2d76369d72b497ecadf6b9787930693d9 Merge tag 'xfs-merge-6.18' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-98a4f5b7359205ced1b6a626df3963bf7c5e5052 PCI: xilinx-nwl: Fix ECAM programming
-a9401710a5f5681abd2a6f21f9e76bc9f2e81891 Merge tag 'v6.18-rc-part1-smb3-common' of git://git.samba.org/ksmbd
-b3e1c7855e8e1c4d77685ce4a8cd9cdd576058eb Merge tag 'hfs-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/vdubeyko/hfs
-5928397f5739fb94559350575826d94fa8c35929 Merge tag 'erofs-for-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-a769648f464c9f453b3dc5c2bb8559b28c5d78a1 Merge tag 'dlm-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
-d60ac92c105fd8c09224b92c3e34dd03327ba3f4 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-e2fffe1d958b3660bc4e07e6542d97b6cc168826 Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-d8768fb12a14c30436bd0466b4fc28edeef45078 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-1896ce8eb6c61824f6c1125d69d8fda1f44a22f8 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-b2ec5ca9d5c2c019e2316f7ba447596d1dcd8fde Merge tag 'amd-drm-next-6.18-2025-09-26' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-8c1ed3021883f5e49f74dfb41ce0a24e5d07fdf0 Merge tag 'ffs-const-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-50157eaa0c13bb5aac5cc45330bf055d95d4af57 Merge tag 'execve-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-a240a79d435ae7206a5c5101033f3f81d68bc3b4 Merge tag 'seccomp-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-96ccc93744f8260f62841ee1de7153bb1b8cfd83 ixgbe: fix typos and docstring inconsistencies
 a5ba183bdeeeedd5f5b683c02561072848258496 Merge tag 'hardening-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7ce48d497475d7222bd8258c5c055eb7d928793c net: stmmac: est: Drop frames causing HLBS error
 de17376cad9706911f2d5a58a8c0f02b9665025d net: stmmac: tc: Add HLBS drop count to taprio stats
@@ -1040,6 +1011,9 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
+047410100a540f45906a67aee3b6630f4def4f4b btrfs: ignore ENOMEM from alloc_bitmap()
+cac698292f9ffc83147a1e225318291cf9fa8c55 btrfs: fix clearing of BTRFS_FS_RELOC_RUNNING if relocation already running
+8d9f6395a8e17de65c973dddc2b55546028629a0 btrfs: use single return value variable in btrfs_relocate_block_group()
 7e5a5983edda664e8e4bb20af17b80f5135c655c btrfs: fix clearing of BTRFS_FS_RELOC_RUNNING if relocation already running
 53a4acbfc1de85fa637521ffab4f4e2ee03cbeeb btrfs: fix memory leak on duplicated memory in the qgroup assign ioctl
 b7fdfd29a136a17c5c8ad9e9bbf89c48919c3d19 btrfs: only set the device specific options after devices are opened
@@ -1049,6 +1023,32 @@ a5a51bf4e9b7354ce7cd697e610d72c1b33fd949 btrfs: do not assert we found block gro
 fec9b9d3ced39f16be8d7afdf81f4dd2653da319 btrfs: fix memory leaks when rejecting a non SINGLE data profile without an RST
 e92c2941204de7b62e9c2deecfeb9eaefe54a22a btrfs: tree-checker: fix bounds check in check_inode_extref()
 8aec9dbf2db2e958de5bd20e23b8fbb8f2aa1fa6 btrfs: send: fix -Wflex-array-member-not-at-end warning in struct send_ctx
-32b578e755e0f21019c0fce1c983bb7e10fd404f Merge branch 'misc-6.18' into next-fixes
+65ecfd15940db9edec3da064bd153a161f00914e btrfs: remove unnecessary NULL fs_info check from find_lock_delalloc_range()
+f26a9f7b3cd5826b0684febd7cdeaa9e5e1bf94f btrfs: fix memory leak on duplicated memory in the qgroup assign ioctl
+fd6c2b4f54b2e36318d4b3e1ce67972ef1cacb36 btrfs: print-tree: use string format for key names
+738cc50ca660a4c20981903a680135563c51c04d btrfs: fix trivial -Wshadow warnings
+65be76cbba794d767cfd05894d0f65b61f864787 btrfs: only set the device specific options after devices are opened
+a7806b6fea434a3f9ea103b94836e7e0416c7a71 btrfs: do not use folio_test_partial_kmap() in ASSERT()s
+d2fa8afddf66787332ecad0e2586ef14d690d038 btrfs: refactor allocation size calculation in alloc_btrfs_io_context()
+9e3fa2c58604aa5bae0b489871c1dfcb20deb673 btrfs: subpage: rename macro variables to avoid shadowing
+315343ac3481ad54146982f207f2c58deea71589 btrfs: fix double free of qgroup record after failure to add delayed ref head
+895352813e1eb97a20466ccb2ed59b4e17545a52 btrfs: do not assert we found block group item when creating free space tree
+1547b6634361d47f10528712486ff96e922b111c btrfs: fix comment in alloc_bitmap() and drop stale TODO
+c5ccdccbda8bf9f816cb6e4faf8518b22e4a4bd9 btrfs: fix racy bitfield write in btrfs_clear_space_info_full()
+1e9506292cc0aa91cb56ca8f815f186dd947cac2 btrfs: fix incorrect readahead expansion length
+c7c81cec03d23e65cb5655db33ee6d2496a9c1f0 btrfs: use end_pos variable where needed in btrfs_dirty_folio()
+8448f429987c38ed0bec604e66561ddd4f5176f9 btrfs: fix memory leaks when rejecting a non SINGLE data profile without an RST
+8f4907c1b6f9aa306b726a3fe1b43f9343f6e69b btrfs: tree-checker: Fix bounds check in check_inode_extref()
+7cd375ca80a7355fb2dc6abe1a175624d9c3b306 btrfs: introduce a new shutdown state
+4cc15e1637c918f878c2c581dbbe4e74a840da5c btrfs: implement shutdown ioctl
+7e45474b2b48d5944cc7178136e28db147b2679e btrfs: implement remove_bdev and shutdown super operation callbacks
+0b429552f4748c1de9f5a79b3a17e33fd3c08126 btrfs: send: fix -Wflex-array-member-not-at-end warning in struct send_ctx
+001bc98b846de9db6cda0488c1e715f6d7f3ba58 btrfs: === misc-next on b-for-next ===
+cbd4717bde928d584be23c9b546665f948d12bbf btrfs: more trivial BTRFS_PATH_AUTO_FREE conversions
+e2fabc8d74d53c47cab55f2267ef5c1492a2486b Merge branch 'misc-6.18' into for-next-current-v6.17-20251013
+9d64c84e8f394b120a893a6e4a62ef947bf3a607 Merge branch 'b-for-next' into for-next-next-v6.18-20251013
+600b08dfb9a7ad4edc1ca79910207fdc13d503ed Merge branch 'misc-next' into for-next-next-v6.18-20251013
+57551bf1f6121f1a1ca4d7e806e34c77bdb298fc Merge branch 'for-next-current-v6.17-20251013' into for-next-20251013
+4932dafe93ec98de6f2a5312ae9a34853bdeed18 Merge branch 'for-next-next-v6.18-20251013' into for-next-20251013
 
---===============6939405911025873919==--
+--===============2627150765704323804==--
