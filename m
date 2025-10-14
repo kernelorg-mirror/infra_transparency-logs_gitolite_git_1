@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0528650868859433080=="
+Content-Type: multipart/mixed; boundary="===============8313202373495600192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 14 Oct 2025 10:10:39 -0000
-Message-Id: <176043663907.3256204.8484744581092648479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Oct 2025 10:10:44 -0000
+Message-Id: <176043664447.3256379.4725640756055397310@gitolite.kernel.org>
 
---===============0528650868859433080==
+--===============8313202373495600192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 18a5f1af596e6ba22cd40ada449063041f3ce6d4
     new: 4f38da1f027ea2c9f01bb71daa7a299c191b6940
     log: revlist-18a5f1af596e-4f38da1f027e.txt
+  - ref: refs/heads/spi-6.19
+    old: 0000000000000000000000000000000000000000
+    new: 3d66d3dbd514c8b6018d65bb413c5e92af6516f6
 
---===============0528650868859433080==
+--===============8313202373495600192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1760436698 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1760436636-177ed996acb5b9175d4218871fbccd96a468d97a
+pusher C3F436CA30F5D8EB 1760436704 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1760436640-2ca4c4a607b4a288558782ad37f6c96ef9a71432
 
-18a5f1af596e6ba22cd40ada449063041f3ce6d4 4f38da1f027ea2c9f01bb71daa7a299c191b6940 refs/heads/for-6.18
+18a5f1af596e6ba22cd40ada449063041f3ce6d4 4f38da1f027ea2c9f01bb71daa7a299c191b6940 refs/heads/spi-6.18
+0000000000000000000000000000000000000000 3d66d3dbd514c8b6018d65bb413c5e92af6516f6 refs/heads/spi-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjuIdoACgkQJNaLcl1U
-h9Bv/Qf5ATXDBSafgiF7MXojzrAX6jHrAw8fZChy0+Ww9fed1aCpccFhtA1gdu3u
-2rxSgK7aNjk5YVlOUUZZQPpJM+kQL/MDyxIvJrRDT4XC+LD/IyDoSbXYU7R1Jmsr
-HkLa8n7jhAXnOqVRpQiSIBHC4DuwY9mrc0mFjLILHTbjYw1chgOgeFa6SqivEyqP
-gnEE9PNLppJu/fO0vgVicrvyUYSBPdChGYz5byGycL7EwbOEM9XNdgmwZWICbUWZ
-/8G3O9Ol9eJeZdqG7WAAtvZMoxhDf38RmFJTtsch4loMoqPY5tWx1iTws4iPHj+1
-4DMhLiqrCZp/oi7kBomJHaHdoHN8Pw==
-=XqJN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjuIeAACgkQJNaLcl1U
+h9B75Qf/cD7+qsV2EGVvjub7VyGyvJ/VK/8bsTYSTz21ySbeHoLBJiPZ4j18gWAN
+8EcLU2uVXjzf1cwDCs0q1Sh+STR4yX4v3cpkPU78HgoccCwY0YdfGi1BQZLdWv9G
+sCa4kaBuI3OdsAHZL5tWoRRG2kvZgHHK7qamwZj/IC87CbQTYo6O8YokVClyF+Z5
+rN4GwIFEEQGYiZXa+dHjGwZHROcc0EXg34RHZfKTEElCW7i5jM0gK9n1qIdRZSk5
+mlbUoJlZ/uyT+8lxeLS3A0FNm8lDyUfgtKLlxRAFoTAOxh2jUyNLVy+ryX/sxhlT
+6C1QcifS2p0HhaY8/k6IXdikDYk+7g==
+=ntUC
 -----END PGP SIGNATURE-----
 
---===============0528650868859433080==
+--===============8313202373495600192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1080,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 4f38da1f027ea2c9f01bb71daa7a299c191b6940 spi: Merge up v6.18-rc1
 
---===============0528650868859433080==--
+--===============8313202373495600192==--
