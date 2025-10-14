@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0821149067712538336=="
+Content-Type: multipart/mixed; boundary="===============9141074262115185591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 14 Oct 2025 02:35:15 -0000
-Message-Id: <176040931556.2870613.15600228096148476240@gitolite.kernel.org>
+Date: Tue, 14 Oct 2025 02:35:17 -0000
+Message-Id: <176040931725.2870709.9048580770308039726@gitolite.kernel.org>
 
---===============0821149067712538336==
+--===============9141074262115185591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: a5e7fe953c420a3515f8dbf56aad1042ffb0da91
-    new: 5540031f31d67a81621e4bf54861e4bed2e5fe83
-    log: revlist-a5e7fe953c42-5540031f31d6.txt
+  - ref: refs/heads/mm-new
+    old: 4c4142c93fc19cd75a024e5c81b0532578a9e187
+    new: 36c6c5ce1b275ba1cb4c3206fcde2f77d00c57d5
+    log: revlist-4c4142c93fc1-36c6c5ce1b27.txt
 
---===============0821149067712538336==
+--===============9141074262115185591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5e7fe953c42-5540031f31d6.txt
+Content-Disposition: attachment; filename=revlist-4c4142c93fc1-36c6c5ce1b27.txt
 
 b8bc2df98a91924a342134135da30a8a36222491 hung_task: fix warnings caused by unaligned lock pointers
 2057ff86bc9469fe0f497620badff0203dcc8f34 mm: skip folio_activate() for mlocked folios
@@ -138,136 +138,5 @@ f9aaef6cb3658eabb1b1ffada2f003da0e64a794 mm/page_alloc: batch page freeing in de
 2e8d7882eebf08289f49e40930bb499d701afd99 mm/page_alloc: batch page freeing in free_frozen_page_commit
 647e2e0123cc1e8a2f113aa98be5c2fcdcf8bf16 vmalloc: update __vmalloc_node_noprof() documentation
 36c6c5ce1b275ba1cb4c3206fcde2f77d00c57d5 mm: remove the BOUNCE config option
-5633172aa45a27c8284e080250913c3c489284b5 === mark start of DAMON hack tree ===
-6e0c634c4b1b8af4646703a5bdbfb2f2cb1c01d3 add -damon suffix to the version name
-10b355817d884fa32e17895a0c6019f899b94d55 === temporal fixes ===
-dc79e0ad3457be03bcd747ac4af112f485f1f199 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-df0960fd6612b7f58a5c178c96f21900765dbb02 === patches written or reviewed by SJ but not merged in -mm ===
-1ce0579d2b655ae65f409468bca8353112a57531 Documentation: damon: reclaim: Convert "Free Page Reporting" citation link
-09bd306c41c94d2841cbd62bed87509fe830930f mm/damon/core: use damos_commit_quota_goal() for new goal commit
-0130fb149476854d09d10744a545ac5021d01efc === hacks in progress ===
-f40d948180db5e227d8cd4f9bf329ae6eeb20724 ==== numa_memcg_used_bp DAMOS quota goal metric ====
-2c9ba2c71067962fe36f89f94c2dadaea84d39e0 mm/damon: document damos_quota_goal->nid use case
-11eed6930414e629b834ec65a0e8ba808c1870b4 mm/damon: add DAMOS quota goal type for per-memcg per-node memory usage
-8a5fe47d8a68355b179d616774e940f0b3c5b83f mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_USED_BP
-94bc090352195b1224bd6b4a4c4f2141aa816959 mm/damon/sysfs-schemes: implement path file under quota goal directory
-a6b8c6a280d5df71975384c4c3c90091275cdde4 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_USED_BP
-53b8a5d30563b11926346c6eefa24d69c3940fef mm/damon/core: add DAMOS quota gaol metric for per-memcg per-numa free memory
-e9e3e74c01794bfa19257633f1277fceccef6686 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-25ad7930d03aae8cf20e8f694f8f334585399809 Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_{USED,FREE}_BP
-ad8b1ab0797deb43a3db37deeb0e907730adbd98 Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
-d85c3d9b562f3d5bf68b25f31dfa01fd3df72e45 Docs/ABI/damon: document DAMOS quota goal path file
-6418316455f265de2aa7e2a6e993830d38ef6c1c ==== fault/report-based monitoring for per-cpu and write ====
-a0cb49ef8d0e5f9be977a05b72426321966550ac mm/damon/core: introduce damon_report_access()
-e154412b2e0fe3ddbdb981e738600aca956f0cfe mm/damon/core: add eligible_report() ops callback
-29659a67b8bf1ee1eec5d10257bed68c0ecafef9 mm/damon/vaddr: implement eligible_report()
-f15787a4a2630d353e73bd72dd75f090051bbe03 mm/damon/core: read received access reports
-7007a9ceb30bd164ffd6f96dd0919082663a7af4 mm/memory: implement MM_CP_DAMON
-d557092071df93c454f80658127b8769ddafd0c0 mm/damon: implement paddr_fault operations set
-6253e070a9ed182b3eee41e4524939448f3bc818 mm/damon/sysfs: support paddr_fault
-97970dfe0747954f1937aee062294692a65e78d8 mm/damon: introduce damon_operations_attrs for operations set control
-3a19b98f97414aa1c622e47cfb97867ac743f50d mm/damon/core: use reports based on ops_attrs.use_reports
-98bd33b991ec9785ff7d9b5ad004b0bcadec843a mm/damon/paddr: use ops_attrs.use_reports to determine what source to use
-6dde4a495d03dcda4e3b026af1c869416f0419a0 mm/damon/paddr: remove paddr_fault
-59e7c8a6a4cfb78b27bac425af3c74d87641e43e mm/damon/sysfs: implement ops_attrs directory and use_reports file
-f540653e36422c644eafc9b8d693913cca5c5a8b mm/damon/sysfs: connect use_reports to core layer
-ae90771d70671b27560b5c5d915b93a07996d47f mm/damon: add operations_attrs->write_only
-e42f04ef3bae02a1f7bc8c83f55a84e97dbfa57c mm/damon: add damon_access_report->is_write
-27844dcd3b13343223445f3f271f3d7f4fe9d949 mm/memory: set damon_access_report->is_write from do_damon_page()
-794bf0966ce6b717db4abc25fe15c38e21cf596c mm/damon: pass opeartions_attrs to damon_operations->eligible_report
-cfc0b863d095660ad0c6306725bdc3e731ec8e22 mm/damon/paddr: implement write-only handling eligible_report()
-f32ecce3c7844d58e811c1a31af68e40ef7e3205 mm/damon/sysfs: implement write_only file under operations_attrs
-74cc5927509e67e5b1866b04ccfc20252df46ed7 mm/damon/sysfs: pass write_only to core
-4e1d3dc9e6bf09fd071ca700ec5f99f4bafb9585 mm/damon: add damon_access_report->cpuid
-59450d4ac15d7debc8b9b34c58fd898875002eb4 mm/memory: set damon_access_report->cpu
-84f19bcf6eb4b1839a42655c1a582364b2077b33 mm/damon: add ops_attrs->cpus
-4a5c3f2d58ec3dc8e7f13ce477a3717fa3c7184e mm/damon/sysfs: support ops_attrs->cpus
-3d92ffa8a9b4cf11d705ef0c70d98e174740a3e5 mm/damon/paddr: filter reports based on cpus
-91b28fa11cebda483923197cae65dd7629470f8f mm/damon: add damon_access_report->tid
-c756a77522a53f6ab940560e80b4549f06efa8f2 mm/memory: report tid of the fault-caused access to DAMON
-40e4f78bfe3288f73a99b050cb4349705fdc9acf mm/damon: extend damon_operations_attrs for per-threads monitoring
-62c6788f40f0533d1f525b816b2d50d2d1806564 mm/damon/paddr: support damon_operations_attrs->tids
-97a8066fef83a201a42378f7a11d81a182b00196 mm/damon/sysfs: implement ops_attrs->tids file for thread ids
-77839c3e844ca5b268cae112006e499c6be04577 mm/damon/sysfs: setup ops_attrs->tids
-48f9ac5a804035ceb8dbdb2719fbe099ab01c58a mm/damon/core: deallocate ops_attrs->tids from destroy_ctx()
-e3777a1d4f56bcb2cecaa9a7152c3642a826594f mm/damon/sysfs: implement tids reading
-60fe1b349074f8910b365573404c47a05b080d0b ==== docs for DAMON and mm ====
-65478e01b7446fd00f1c8994ee23de20564757c5 Docs/mm/damon/design: add table of contents for overall and DAMOS
-5f0fb013f852d8209d282d0907672232758cfec9 Docs/process/2.Process: Update mm tree URL
-0ae220f3852e6c89edb667fe2b8970994ad8a165 Docs/mm/damon/design: add API link to damon_ctx
-800a227a695b082c9d5d0eb272694aa810e7ede5 ==== ACMA ====
-fdd0a26aaa0384a0daea111ffe2802e60b3122ee mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-ae121128df0caaf27da314a21a4edff495531267 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-0a84737830cb6d5a12f3bec72744d97cdb64d0c4 mm/page_reporting: implement a function for reporting specific pfn range
-9759bc6122db67be1c3e7b250ffa1d04abe891f0 mm/damon/acma: implement scale down feature
-5ac6177c8110318facd9a180c49089777e5d8748 mm/damon/acma: implement scale up feature
-92a2c149bea479d0d6c4d6b74e51236dd0a6e72c drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-35a303bc6140e0bdfe2d07370d7b343845de21f5 === commits aiming not to be posted ===
-6090e4362d66e9e3ac7655d9b0e5b79cf2f2aa1d mm/damon: Add debug code
-18211474439124b3611c452a3e506cd5138f9011 mm/damon/core: add debugging log for intervals auto-tuning
-0a8bd6c45bbec080b91632fd9e10cdd6213a06ac mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-8c9647f3808d2ce3245855623df987237e233bc8 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-ec9edb18f6f1f1f94e038c3ec000a905148466dc mm/damon/core: add todo for DAMOS interval validation
-db01ba882acce9d05c5a6499bc901d3d0dfd09ee mm/damon/core: add debugging-purpose log of tuned esz
-d9fb064af57488cb8c76e6fff7dbddf3f772c95b Add debug log for PSI
-89704e65aea0dc8ca872eda921bc7c977b6b33ee mm/damon/core: add debug log for reset_regions()
-7005c436c02c0ffc4e957c99f30646465f36a60f ==== lru_sort advancing ====
-513bf921ca7da972b8ec68dbfc93c068a5ae4d9b mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-aaa5f89f4c628154de0d301d9b90591b20af97ea mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-f53ef5148756e28ce46af48dab7a1b0f7ac5d8b9 Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-752cf1b2a9f3fe75be7b91cf2120ff11eafcb55c mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-a86f2e595a3a4724ffd653cc61c9732e9600079f mm/damon/lru_sort: consider age for quota prioritization
-3c06ae01697b4c9bc11efc9aaefcd8c69643953e mm/damon/lru_sort: support young page filters
-6c60276075c9d2b4810b381454949f8a0ec21347 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-b43cb63fe3069bbd534d9642e8ab13eb0b1cf655 mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-f28dd9f4e7340e2b5127ff0c1c000a3211ff9b60 Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-164f3d095ee2196732ebee875018e94ddbd06a0a mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-6b0244d23ba27ebcd4188ad8c2936c706de7b218 Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-6fb0bc42edc5fc4d8d295634f0bae42f2aacd01b ==== kunut improvements ====
-cfb33cfa772121b9902870e8486a8a832308a819 mm/damon/core: pass migrate_dests to damos_commit_dests()
-0ebe3477e38ff4fd063453c38fc785f575cf3de6 mm/damon/tests/core-kunit: use '1' instead of DAMON_MIN_REGION
-3f03dffc3de0d142f2117ed7dd7e0ab60c513a65 ==== add kunit tests ====
-4120122fe5c27eaa3eb50a66ce9698b6d0a98122 mm/damon/tests/core-kunit: test damon_commit_ctx() for attrs
-a02def2adc3c10d155904d99cfed32b8381ca9b7 mm/damon/tests/core-kunit: split out commit test context builds
-dc7f4b9cc31d4356695b339017100a1431108692 mm/damon/tests/core-kunit: fixup freeing of dst context
-6f1ae2f5d79d3906b7881ccac1f5063e049f36d5 mm/damon/tests/core-kunit: add test targets
-392dc5361858acf6a07f4d920c9a5ede2e311f69 mm/damon/tests/core-kunit: split out results verification
-aefd7f10cd7633486e0de16651049934dc8e8741 mm/damon/tests/core-kunit: test number of committed targets
-73e5b57ac39ccfb62fff58512df1267d64e944a6 mm/damon/tests/core-kunit: test target parameters commitment
-4d8c0d12edd1888384c17682295555075e9be1d9 mm/damon/tests/core-kunit: test regions commitment
-85e9e82b07193fd53440c1c80b8055d4b3b2c514 mm/damon/tests/core-kunit: test number of committed schemes
-488628b0f98d27d0604caf0f3823f83ef3f9497c mm/damon/tests/core-kunit: add a simple damos_commit_quota_goal test
-b485d03e6e4bf466e2552ae57cca3dda8dbafdb1 mm/damon/tests/core-kunit: split out damos_test_commit_quota_goal()
-f0882b74dc953a0ae4a2111328ca8d1b1a99748d mm/damon/tests/core-kunit: do quota goal commit expectation more metric-aware
-196baa0efc5657d1c2bf1d690f4c0834e7af33e0 mm/damon/tests/core-kunit: test node_mem_used_bp
-3b1658c3dffd53cfd0a5d9bae6134ae5c3213472 mm/damon/tests/core-kunit: further modularize quota goal commit test
-fe157e357adb68b5ea262bcad566294d9d9fa1f7 mm/damon/tests/core-kunit: test all quota goal metrics
-e15b8f77454cc854df26fd410a01cce3878f1023 mm/damon/tests/core-kunit: add damos_commit_quota kunit test
-0cd7e98fdfc48266d419d26b9fb57e98e5660540 mm/damon/tests/core-kunit: clarify why we test entire bits
-5b2d5de5438661436f48f756bf6702d18685023c mm/damon/tests/core-kunit: fix unintended fall-through in quota goal test
-bc206af1fab9145030c13019033314fe169c0fa9 mm/damon/tests/core-kunit: check target fields one by one
-56e4dbecdbdd703e7834a8b3085ba434999df7fe mm/damon/tests/core-kunit: use KUNIT_EXPECT_PTR_EQ() for target->pid
-be1984bfddbd5ea7eb8b46ae15bcadef4da6d797 mm/damon/tests/core-kunit: add a simple test for damon_commit_targets()
-41bb70624c16150a43cc564295057afaa4c1afc3 mm/damon/test/core-kunit: add TODO for filter commit test
-ff808f9ad78eb1c371732c97b6afb927d18ce232 mm/damon/tests/core-kunit: add test for quota goals commit
-988805b78ad66ddc9f86515f19f40b7dab0bbb41 ==== mm/damon/sysfs: obsolete targets ====
-3d192a7ff5e25ea2313427b44f3e6f748bacfa85 mm/damon: add damon_target->remove_on_commit
-897f7067f5aac1d125e1b145685b2d6acf5ae32b mm/damon/core: handle remove_on_commit
-e16cdf82688bc4707aa04de8f5d6b696b6ead27d mm/damon/sysfs: implement obsolete_target file
-5790069c3bd7801b4855aa36eb6e0da8f0263bb2 mm/damon/core: error for remove_on_commit target of no matching dst
-9617ae683ce77ece40c89998a5cabbec0415def7 mm/damo/sysfs: add todo items for obsolete file input handling
-cffbdb1bb48029c159944fae4205bcb0e4eeba54 ==== uncategorized ====
-a41b1b06aaf855447543356197cabb7f4832079b mm/damon/core: add an hacking idea concept interface prototype
-0fa6674893063d2a6f90595c4f5690b55e2eaf9a mm/damon: add trace event for intervals score
-5690e76cb701e47c4ed9bd2d4e0fac26591fe18b mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-2e7a3a8ac5e7a2780de61c418a22a364596278b8 Docs/admin-guide/mm/damon/usage: clarify empty target regions commit behavior
-2d8485b9488b8e6717b8984d2de7c2dc8f439274 Docs/admin-guide/mm/damon/reclaim: document addr_unit parameter
-8e91861192462dff34ec95a1ba6eb7d3bc955b2c Docs/admin-guide/mm/damon/lru_sort: document addr_unit parameter
-dd319f23d95f323ca15bc0667fa7b27deb6c206a Docs/admin-guide/mm/damon/stat: document aggr_interval_us parameter
-61644b2eb28a09a56bb1187cd2b392f2f55978f3 Docs/admin-guide/mm/damon/stat: document negative idle time
-de0a67195cdcba88f006f28ca1ebbdf182e1631a Docs/admin-guide/mm/damon/stat: fix damon_stat_monitoring_accuracy_overhead label
-54af338f09e3d2a633eb6818ee4519e8ab2ed523 mm/damon/sysfs: ensure commit test ctx has running ctx parameters
-fce37e48382990a8d2668e740ec58023643a484b mm/damon/sysfs: remove obsolete todo item
-5540031f31d67a81621e4bf54861e4bed2e5fe83 mm/damon/tests/core-kunit: extend damon_test_commit_targets()
 
---===============0821149067712538336==--
+--===============9141074262115185591==--
