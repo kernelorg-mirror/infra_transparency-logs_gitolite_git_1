@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 14 Oct 2025 15:54:09 -0000
-Message-Id: <176045724925.3567140.14344701040507344718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Tue, 14 Oct 2025 15:56:26 -0000
+Message-Id: <176045738696.3570150.9330272867456308935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 7458a3bbb621a7ca12dd700c2dbb0b48cb57c441
-    new: feba761b97dca7568886efd413874a1431319950
+  - ref: refs/heads/kdevops
+    old: 8c8500758db6cfbf4b64b8c9ccc57e6f9493856f
+    new: 61869f508dcb35769f3268bddc6b96b2b087b782
     log: |
-         feba761b97dca7568886efd413874a1431319950 sasha: review v6.17.1
+         61869f508dcb35769f3268bddc6b96b2b087b782 locktest: add support for testing directory leases
          
