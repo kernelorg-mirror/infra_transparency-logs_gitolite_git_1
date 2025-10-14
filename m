@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5367927038121319154=="
+Content-Type: multipart/mixed; boundary="===============1838509926937550795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Oct 2025 11:42:25 -0000
-Message-Id: <176044214517.3338606.6832618175143276068@gitolite.kernel.org>
+Date: Tue, 14 Oct 2025 11:42:59 -0000
+Message-Id: <176044217931.3338927.6120798917463990979@gitolite.kernel.org>
 
---===============5367927038121319154==
+--===============1838509926937550795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: a3a70caf7906708bf9bbc80018752a6b36543808
-    new: 17e3e88ed0b6318fde0d1c14df1a804711cab1b5
-    log: revlist-a3a70caf7906-17e3e88ed0b6.txt
+  - ref: refs/heads/objtool/core
+    old: 4ed9d82bf5b21d65e2f18249eec89a6a84df8f23
+    new: 044f721ccd33103349eebbb960825584bc6d8e23
+    log: revlist-4ed9d82bf5b2-044f721ccd33.txt
 
---===============5367927038121319154==
+--===============1838509926937550795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3a70caf7906-17e3e88ed0b6.txt
+Content-Disposition: attachment; filename=revlist-4ed9d82bf5b2-044f721ccd33.txt
 
-3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1048,7 +1047,8 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-ee6e44dfe6e50b4a5df853d933a96bdff5309e6e sched/deadline: Stop dl_server before CPU goes offline
-17e3e88ed0b6318fde0d1c14df1a804711cab1b5 sched/fair: Fix pelt lost idle time detection
+c5df4e1ab8c00c4dc13094fa44e219bc48d910f4 objtool/x86: Remove 0xea hack
+76e1851a1bc28e760d6acc7a54ec9dce05717028 objtool/x86: Add UDB support
+044f721ccd33103349eebbb960825584bc6d8e23 objtool/x86: Fix NOP decode
 
---===============5367927038121319154==--
+--===============1838509926937550795==--
