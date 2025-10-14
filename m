@@ -1,26 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 14 Oct 2025 09:49:40 -0000
-Message-Id: <176043538049.3235502.1985232781586304231@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3050502990857862358=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 14 Oct 2025 09:49:59 -0000
+Message-Id: <176043539957.3235985.11455515362093557488@gitolite.kernel.org>
+
+--===============3050502990857862358==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.19/logitech
-    old: ba00292b965d41dca82fc7d238ff9b1c77f2b98c
-    new: 8c09e8b38dcc82d3db3187ef2460cb4011616e58
-    log: |
-         8c09e8b38dcc82d3db3187ef2460cb4011616e58 HID: hid-lg-g15: Add hw_brightness_changed support for the G510 keyboard
-         
-  - ref: refs/heads/for-next
-    old: eaa52824681ac2a7785647feb8a2c6d9bf8204bb
-    new: 58e6a00c90841295a42c729c5d30f518f0322653
-    log: |
-         8c09e8b38dcc82d3db3187ef2460cb4011616e58 HID: hid-lg-g15: Add hw_brightness_changed support for the G510 keyboard
-         58e6a00c90841295a42c729c5d30f518f0322653 Merge branch 'for-6.19/logitech' into for-next
-         
+  - ref: refs/heads/review-ilpo-fixes
+    old: f79a02282bff701d8069aa1eeaedb8de842631bf
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+
+--===============3050502990857862358==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1760435458 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1760435395-7e2d2ef9e54826fd164ca66caf8f515490c9e40e
+
+f79a02282bff701d8069aa1eeaedb8de842631bf 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaO4dBQAKCRBZrE9hU+XO
+MdyPAPsH5WeM2U764N7OFtMNHURdJwKVf89HZxBr4TH275GCAQEAq3D9eq3JY5tx
+V5yVhKE2aZ64N3fYQG9M8WCxesagUAM=
+=PDQO
+-----END PGP SIGNATURE-----
+
+--===============3050502990857862358==--
