@@ -1,40 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============0138729971641713847=="
+Content-Type: multipart/mixed; boundary="===============2809646340103537232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 14 Oct 2025 10:11:16 -0000
-Message-Id: <176043667612.3257065.9780664925138285175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 14 Oct 2025 10:11:28 -0000
+Message-Id: <176043668800.3257378.1287450388305119231@gitolite.kernel.org>
 
---===============0138729971641713847==
+--===============2809646340103537232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
-    new: 6dc21d19fe9b30a514704a3cbed13b9eecdd9a1c
-    log: |
-         886f42ce96e7ce80545704e7168a9c6b60cd6c03 regmap: mmio: Add missing MODULE_DESCRIPTION()
-         5c36b86d2bf68fbcad16169983ef7ee8c537db59 regmap: Remove superfluous check for !config in __regmap_init()
-         f4672dc6e9c07643c8c755856ba8e9eb9ca95d0c regmap: use int type to store negative error codes
-         6dc21d19fe9b30a514704a3cbed13b9eecdd9a1c Merge remote-tracking branch 'regmap/for-6.17' into regmap-linus
-         
+    old: f83ec76bf285bea5727f478a68b894f5543ca76e
+    new: e609438851928381e39b5393f17156955a84122a
+    log: revlist-f83ec76bf285-e60943885192.txt
   - ref: refs/heads/for-next
-    old: 29883457319786c1f5ce825cb26d1541e84610dc
-    new: d00c269736b61bce170648fa1710628644cae5fb
-    log: revlist-298834573197-d00c269736b6.txt
+    old: e609438851928381e39b5393f17156955a84122a
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-e60943885192-3a8660878839.txt
 
---===============0138729971641713847==
+--===============2809646340103537232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-298834573197-d00c269736b6.txt
+Content-Disposition: attachment; filename=revlist-f83ec76bf285-e60943885192.txt
 
+f7fbf3091f4cc4133574852f655593e1613d1af0 rust: regulator: remove needless &mut from member functions
+9a200cbdb54349909a42b45379e792e4b39dd223 rust: regulator: implement Send and Sync for Regulator<T>
+82f0907931f016c04bcb992f764bd65992c7008e dt-bindings: regulator: add PF0900 regulator yaml
+162e23657e5379f07c6404dbfbf4367cb438ea7d regulator: pf0900: Add PMIC PF0900 support
+c6871d56b52ec177b8b8bd891fa0cbbd004b646d regulator: tps6594-regulator: Remove unneeded semicolon
+f6cc4140e161831e5796f099f5abc3af953ae2b8 regulator: tps6524x: Remove unnecessary memset
+bb2441402392ef1f49563be68e8f0dcb127ac965 regulator: add s2dos05 regulator support
+a54ef14188519a0994d0264f701f5771815fa11e regulator: dt-bindings: Clean-up active-semi,act8945a duplication
+eccd3d9753d48cc3e873eeda5b0e271454aa08ac regulator: add new PMIC PF0900 support
+eb9bb4c5b521853d29b79197f412c5c533a6483c rust: regulator: relax a few constraints on
+d0de6895095356f1cc2d5f9825df220f10d34cee regulator: dt-bindings: Add Richtek RT5133 Support
+714165e1c4b0d5b8c6d095fe07f65e6e7047aaeb regulator: rt5133: Add RT5133 PMIC regulator Support
+37533933bfe92cd5a99ef4743f31dac62ccc8de0 regulator: remove unneeded 'fast_io' parameter in regmap_config
+6d068f1ae2a2f713d7f21a9a602e65b3d6b6fc6d regulator: rt5133: Fix spelling mistake "regualtor" -> "regulator"
+550bc517e59347b3b1af7d290eac4fb1411a3d4e regulator: bd718x7: Use kcalloc() instead of kzalloc()
+f7f804633c91f0fbf03eefbae39eec2205191a82 regulator: rt5133: Fix IS_ERR() vs NULL bug in rt5133_validate_vendor_info()
+ec0be3cdf40b5302248f3fb27a911cc630e8b855 regulator: consumer.rst: document bulk operations
+e2ab5f600bb01d3625d667d97b3eb7538e388336 rust: regulator: use `to_result` for error handling
+899fb38dd76dd3ede425bbaf8a96d390180a5d1c regulator: core: Remove redundant ternary operators
+9d35d068fb138160709e04e3ee97fe29a6f8615b regulator: scmi: Use int type to store negative error codes
+f5d15ff664a32593e0152d21ea747fb77e32ce7e regulator: dt-bindings: nxp,pf530x: Add NXP PF5300/PF5301/PF5302 PMICs
+b497e1a1a2b10c4ddb28064fba229365ae03311a regulator: pf530x: Add a driver for the NXP PF5300 Regulator
+92b9c2b7a88c07324d70ea877cfe2d90ac823dbf regulator: pf530x: NXP PF530x regulator driver
+5bad16482c2a7e788c042d98f3e97d3b2bbc8cc5 regulator: dt-bindings: rpi-panel: Split 7" Raspberry Pi 720x1280 v2 binding
+b87ecbc54f22382ace1cf41645e8652a4ce44d52 rust: regulator: remove Regulator<Dynamic>
+2e0fd4583d0efcdc260e61a22666c8368f505353 rust: regulator: add devm_enable and devm_enable_optional
+0f101028407605c7b7cea53946ee4d25f82cfb6c dt-bindings: regulator: document max77838 pmic
+6a1f303cba45fa3b612d5a2898b1b1b045eb74e3 regulator: max77838: add max77838 regulator driver
+41b5c85ba94057c955f0f6348c551093917da06d regulator: max77838: add max77838 regulator driver
+8b84d712ad849172f6bbcad57534b284d942b0b5 regulator: spacemit: support SpacemiT P1 regulators
+abe962346ef420998d47ba1c2fe591582f69e92e regulator: Fix MAX77838 selection
+e609438851928381e39b5393f17156955a84122a regulator: dt-bindings: qcom,sdm845-refgen-regulator: document more platforms
+
+--===============2809646340103537232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e60943885192-3a8660878839.txt
+
+6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
+e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1057,7 +1093,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-6dc21d19fe9b30a514704a3cbed13b9eecdd9a1c Merge remote-tracking branch 'regmap/for-6.17' into regmap-linus
-d00c269736b61bce170648fa1710628644cae5fb Merge branch 'regmap-linus' into regmap-next
 
---===============0138729971641713847==--
+--===============2809646340103537232==--
