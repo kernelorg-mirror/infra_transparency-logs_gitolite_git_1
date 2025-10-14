@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 14 Oct 2025 07:37:26 -0000
-Message-Id: <176042744648.3117907.2318716522904928436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 14 Oct 2025 07:38:25 -0000
+Message-Id: <176042750576.3118498.5997793634633614454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: 9ade0e7ad56196251fde719e2a3aa0649e71802b
-    new: 248c68a9b21cccf6ddebfba174d7536fe54ed8ad
+  - ref: refs/heads/arm64-fpsimd-on-stack-v4
+    old: 4924331534c3687fd56cd3b5a0c2432cf3c0b4c3
+    new: 81e540cd5b24edcfb33c33ae756cdd4e92c6e9fc
     log: |
-         248c68a9b21cccf6ddebfba174d7536fe54ed8ad feat!(tpm2sh): baseline for 0.11
+         81e540cd5b24edcfb33c33ae756cdd4e92c6e9fc fixup! lib/crc: Switch ARM and arm64 to 'ksimd' scoped guard API
          
