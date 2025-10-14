@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5712739541276838630=="
+Content-Type: multipart/mixed; boundary="===============6631453344985020621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 14 Oct 2025 04:50:40 -0000
-Message-Id: <176041744064.2979259.7673529095584104468@gitolite.kernel.org>
+Date: Tue, 14 Oct 2025 04:51:09 -0000
+Message-Id: <176041746906.2979724.7865648678627831798@gitolite.kernel.org>
 
---===============5712739541276838630==
+--===============6631453344985020621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 1b54b0756f051c11f5a5d0fbc1581e0b9a18e2bc
     new: 2c67301584f2671e320236df6bbe75ae09feb4d0
     log: revlist-1b54b0756f05-2c67301584f2.txt
 
---===============5712739541276838630==
+--===============6631453344985020621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a7075f501bd33c93570af759b6f4302ef0175168 ixgbevf: fix mailbox API compatibility 
 d1d5df4691e4322656024fc374d0faec4387aa0f Merge branch 'intel-wired-lan-driver-updates-2025-10-01-idpf-ixgbe-ixgbevf'
 2c67301584f2671e320236df6bbe75ae09feb4d0 net: phy: realtek: Avoid PHYCR2 access if PHYCR2 not present
 
---===============5712739541276838630==--
+--===============6631453344985020621==--
