@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 14 Oct 2025 12:48:12 -0000
-Message-Id: <176044609206.3397363.860324999017361346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Tue, 14 Oct 2025 13:02:26 -0000
+Message-Id: <176044694669.3409439.728740972552447615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/for-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 300709fbefd19ff7293c7d0ded9b56e69216e634
+  - ref: refs/heads/jag/sysctl_conv
+    old: fd98457173e626d2501830b48b9bfe973fe663b4
+    new: 61c86bfeaf633d1fcc35f72ea331366950847fa3
     log: |
-         d5e88d32de4e4ce289d107939da970763669d631 s390/mm: Support removal of boot-allocated virtual memory map
-         ff18dcb19aab83edbe15b1a88ed9520d92e276f5 s390/sclp: Add support for dynamic (de)configuration of memory
-         ce2071e02d84a133c2985e80f5a84473642de983 s390/sclp: Remove MHP_OFFLINE_INACCESSIBLE
-         300709fbefd19ff7293c7d0ded9b56e69216e634 mm/memory_hotplug: Remove MEM_PREPARE_ONLINE/MEM_FINISH_OFFLINE notifiers
+         d8d06b6391be22ab4a7ff039ee0dd6bf273fac02 sysctl: Generalize proc handler converter creation
+         3ffe19482a5c4f486dbf0f121012d65c070aaae3 sysctl: Replace void pointer with const pointer to ctl_table
+         fa507d38fa1ef9a7193c67e2aaaf5c81fa3ce5cb sysctl: Remove superfluous tbl_data param from "dovec" functions
+         9e6c8401ef61f024532911dd59a926c7def3d32c sysctl: Remove superfluous __do_proc_* indirection
+         02158247367f81402fcf429a19e9b8f5ebf8180c sysctl: Indicate the direction of operation with macro names
+         deea2ef871d5430e5358508ba1fbcd3b1c4d169e sysctl: Discriminate between kernel and user converter params
+         942626ca5ea2e8179ebaef49738acf6774f38238 sysctl: Create converter functions with two new macros
+         6f409fabfb00b72f9a573817694040f4a3f58cde sysctl: Create integer converters with one macro
+         61c86bfeaf633d1fcc35f72ea331366950847fa3 sysctl: Add optional range checking to SYSCTL_INT_CONV_CUSTOM
          
-  - ref: refs/heads/memory-hotplug
-    old: 0000000000000000000000000000000000000000
-    new: 300709fbefd19ff7293c7d0ded9b56e69216e634
