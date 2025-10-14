@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 14 Oct 2025 09:26:15 -0000
-Message-Id: <176043397554.3214818.1640615400018840241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Tue, 14 Oct 2025 09:27:13 -0000
+Message-Id: <176043403346.3215432.13113498773211047969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: cb0f8a46806a1c805ab9e320ef731c19859a5bec
-    new: 3a6c7ef3a776675959c25556e8adaeb32b802d7d
+  - ref: refs/heads/main
+    old: b6ee3bea3f1d50f06a5e03afb8ba78091ac10d11
+    new: 612dc5fea2a4bab93b78a23f3bea4e372464e724
     log: |
-         6c26c055523d915afb8d18e7277848eff66a3085 HID: intel-thc-hid: intel-quicki2c: Fix wrong type casting
-         3a6c7ef3a776675959c25556e8adaeb32b802d7d Merge branch 'for-6.18/upstream-fixes' into for-next
+         612dc5fea2a4bab93b78a23f3bea4e372464e724 feat!(tpm2sh): baseline for 0.11
          
-  - ref: refs/heads/for-6.18/upstream-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 6c26c055523d915afb8d18e7277848eff66a3085
