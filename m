@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 14 Oct 2025 09:27:13 -0000
-Message-Id: <176043403346.3215432.13113498773211047969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 14 Oct 2025 09:27:44 -0000
+Message-Id: <176043406459.3215751.13730598531653246356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/main
-    old: b6ee3bea3f1d50f06a5e03afb8ba78091ac10d11
-    new: 612dc5fea2a4bab93b78a23f3bea4e372464e724
+  - ref: refs/heads/for-6.18/upstream-fixes
+    old: 6c26c055523d915afb8d18e7277848eff66a3085
+    new: 8fe2cd8ec84b3592b57f40b080f9d5aeebd553af
     log: |
-         612dc5fea2a4bab93b78a23f3bea4e372464e724 feat!(tpm2sh): baseline for 0.11
+         8fe2cd8ec84b3592b57f40b080f9d5aeebd553af HID: intel-thc-hid: Intel-quickspi: switch first interrupt from level to edge detection
+         
+  - ref: refs/heads/for-next
+    old: 3a6c7ef3a776675959c25556e8adaeb32b802d7d
+    new: 4dbc6b12ceb3b99a0abbcc2313c26e95cb406158
+    log: |
+         8fe2cd8ec84b3592b57f40b080f9d5aeebd553af HID: intel-thc-hid: Intel-quickspi: switch first interrupt from level to edge detection
+         4dbc6b12ceb3b99a0abbcc2313c26e95cb406158 Merge branch 'for-6.18/upstream-fixes' into for-next
          
