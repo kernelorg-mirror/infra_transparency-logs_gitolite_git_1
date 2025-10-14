@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 14 Oct 2025 23:14:03 -0000
-Message-Id: <176048364335.3948062.3715695775288185887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 14 Oct 2025 23:18:14 -0000
+Message-Id: <176048389473.3951862.9881674151789172362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/todo
-    old: ef0f98845a70ba89da1feb3be1ec0dd0844c2a4e
-    new: 5e05f96d9e92d287910f724e0228fdd2aeebba59
-    log: |
-         5e05f96d9e92d287910f724e0228fdd2aeebba59 What's cooking (2025/10 #05)
-         
+  - ref: refs/heads/ksmbd-pending
+    old: 0000000000000000000000000000000000000000
+    new: 27199266b5971dd2e75156b46a7d9bbc4b62f06c
