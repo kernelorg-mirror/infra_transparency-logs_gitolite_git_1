@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4167742302790356519=="
+Content-Type: multipart/mixed; boundary="===============4157706020503070913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 14 Oct 2025 23:49:38 -0000
-Message-Id: <176048577828.3978713.18020716750238070407@gitolite.kernel.org>
+Date: Tue, 14 Oct 2025 23:49:58 -0000
+Message-Id: <176048579893.3978985.11917320192196338999@gitolite.kernel.org>
 
---===============4167742302790356519==
+--===============4157706020503070913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,60 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 07fdad3a93756b872da7b53647715c48d0f4a2d0
-    new: bdec4271e8081fed339759c45f1db81ea7f8f8ed
-    log: revlist-07fdad3a9375-bdec4271e808.txt
+  - ref: refs/heads/dev-queue
+    old: cbbc9ad6caed63e32e8a4b10001b041f7294ffa6
+    new: b89940cfa589d590a7043ed8c8ae434320980bad
+    log: revlist-cbbc9ad6caed-b89940cfa589.txt
 
---===============4167742302790356519==
+--===============4157706020503070913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07fdad3a9375-bdec4271e808.txt
+Content-Disposition: attachment; filename=revlist-cbbc9ad6caed-b89940cfa589.txt
 
-39f17c707454290900b608ee5a200b5db9245626 sched/task.h: fix the wrong comment on task_lock() nesting with tasklist_lock
-a15f37a40145c986cdf289a4b88390f35efdecc4 kernel/sys.c: fix the racy usage of task_lock(tsk->group_leader) in sys_prlimit64() paths
-3437819c5e7a855b344030bfe15bbd513c28388f ocfs2: avoid extra calls to strlen() after ocfs2_sprintf_system_inode_name()
-af6703838ecb1513efdd2502a8f7bb6472c5ce96 mm: specify separate file and vm_file params in vm_area_desc
-f7a741c53b712542aedd9382f215fbe969f8a580 mm: do not assume file == vma->vm_file in compat_vma_mmap_prepare()
-bee278e18e641a4bc11513b0fa8f5eb2667b8a32 dt-bindings: embedded-controller: Add Lenovo Thinkpad T14s EC
-e828a1875e3a6216e4d66ac2c2f60894d10945b7 dm vdo: Update code to use mem_is_zero
-9ddf6d3fcbe0b96e318da364cf7e6b59cd4cb5a2 dm vdo: return error on corrupted metadata in start_restoring_volume functions
-e4cc9deca3da48986072327ae2eeb18e6fd0165d dm-integrity: use internal variable for digestsize
-d91610656499d228146cdf49fb6f7d720411fadb dm-integrity: replace bvec_kmap_local with kmap_local_page
-4b9197ed60bb3929d39833075b4108b366453018 dm-integrity: introduce integrity_kmap and integrity_kunmap
-143ddfa169bbb733275b1a720bafd5a4366b3d89 rcu: replace use of system_wq with system_percpu_wq
-499d48f75b230522f4aa5aa4b9cc3c5b1594e1af rcu: WQ_PERCPU added to alloc_workqueue users
-82c427bc935aa5b91d0cabbbc062e71132be2bb8 rcu: WQ_UNBOUND added to sync_wq workqueue
-ccd0256e697e369fc3cfa57d321074eaeac18dce Merge branch 'rcu.2025.09.23a' into HEAD
-a590b67d3301006e41b767f958365743b14ce264 Merge branch 'srcu-next.2025.08.21a' into HEAD
-1d289fc5691c7a970a285bc53292bac9e37c89a6 Merge branch 'torture.2025.08.14a' into HEAD
-26e5c67deb2e1f42a951f022fdf5b9f7eb747b01 fuse: fix livelock in synchronous file put from fuseblk workers
-0d375a1385ed80d8c84433fb54062a9253ccf7e5 fuse: capture the unique id of fuse commands being sent
-9095d207417477eb50e84fd0652895db77ec584e fs: Create sb_encoding() helper
-23253e278a4574114d4c2729ed70f70b4ec7a30e fs: Create sb_same_encoding() helper
-5fbf73c7f13ddd5d30dde6760955e644ceffe2ee ovl: Prepare for mounting case-insensitive enabled layers
-ee95c5fc86ddd10c354da554442582a2d12a1b90 ovl: Create ovl_casefold() to support casefolded strncmp()
-1f7168b28f667c0920fd83151ae35ce593950663 ovl: Ensure that all layers have the same encoding
-8a78f189756ac3bc8c1c326994ad7261885227bb ovl: Set case-insensitive dentry operations for ovl sb
-f9377faaeae0473ea45f2b6d3ff758e192f3f01d ovl: Add S_CASEFOLD as part of the inode flag to be copied
-dfc7da402ccc92d6e4b01a4778a3f15f2496b9af ovl: Check for casefold consistency when creating new dentries
-16754d61dc69cb4550225a967a2639809226de42 ovl: Support mounting case-insensitive enabled layers
-ad1423922781e6552f18d055a5742b1cff018cdc ovl: make sure that ovl_create_real() returns a hashed dentry
-d3906d8f3cee0279d459dc88b5a871fcdcd4b236 fuse: enable FUSE_SYNCFS for all fuseblk servers
-cbcd30ae37a9aa9c03607f597e7fdea3a6ebd816 Merge tag 'icc-6.18-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-fc3e44e4925ab4ab2e1c9d2f8ebb1e4c1594dc34 Merge tag 'iio-for-6.18a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-e7151e225c043106c745b7eeb1370255ac8eb048 dm-integrity: allocate the recalculate buffer with kmalloc
-e3de0a36409011cb630571cfe7c9e0f5394988b6 dm-integrity: add the "offset" argument
-e8a052ee1fb570b8e07f05f65752646eaac74355 dm-integrity: rename internal_hash
-5076d4599ce1702ab3615c7600504ba68df02168 dm-integrity: enable asynchronous hash interface
-1cd83fb79083a2431f513956afca92b690ef11ad dm-integrity: prefer synchronous hash interface
-55dcfdf8af9c38cce6f5b2058d3b58dde25e5020 dm raid: use proper md_ro_state enumerators
-7fdd04e15ad79cc2294b9e722d6282357da0b53a coresight: tnoc: Fix a NULL vs IS_ERR() bug in probe
-21dd3f8bc24b6adc57f09fff5430b0039dd00492 coresight: fix indentation error in cscfg_remove_owned_csdev_configs()
-dcdc42f5dcf9b9197c51246c62966e2d54a033d8 coresight-etm4x: Conditionally access register TRCEXTINSELR
-8a79026926b329d4ab0c6d0921373a80ec8aab6e coresight: tmc: Support atclk
-5483624effea2e893dc0df6248253a6a2a085451 coresight: catu: Support atclk
 40c0cdc9cbbebae9f43bef1cab9ce152318d0cce coresight: etm4x: Support atclk
 1abc1b212effe920f4729353880c8e03f1d76b4b coresight: Appropriately disable programming clocks
 a8f2d480f19d912f15dbac7038cd578d6b8b4d74 coresight: Appropriately disable trace bus clocks
@@ -1050,5 +1007,48 @@ f6db358deaeafd9830c8bcba8f76f55f8a14b059 Merge tag 'slab-for-6.18-rc1' of git://
 0513a3f97b96aaf41e91e02bc3b5d08c9dce5bfa net: bridge: correct debug message function name in br_fill_ifinfo
 e0aa115271394d68992e4a0369479e3632038c2a eth: fbnic: fix various typos in comments and strings
 bdec4271e8081fed339759c45f1db81ea7f8f8ed net: dsa: b53: implement port isolation support
+2a154dcbcd0260aeb4e5462c92ce4f158d2aa670 ice: fix lane number calculation
+529b4663b8db47a16ff6675b7c9b32de25ace92b ice: Allow 100M speed for E825C SGMII device
+f6a7c660a2ef10c8281e0697ec3f599e627cd204 ice: Fix enable_cnt imbalance on resume
+710bcf6f5c00917691bdf37afdeb0ca82d04420f ice: Fix enable_cnt imbalance on PCIe error recovery
+0d1e6557679bc555028d1d279bbf6ed02e6f8f44 i40e: Fix enable_cnt imbalance on PCIe error recovery
+7bd1ef35aefe10b21248195ed14a439476c3b1d5 ice: add flow parsing for GTP and new protocol field support
+7f5a1ddea98d91c56926919a6940398a583e9b7b ice: add virtchnl and VF context support for GTP RSS
+52edb71696626e23ed6e5549fc18bf62673b3eab ice: improve TCAM priority handling for RSS profiles
+b6aca69407c150f1b8f145d69fbc0d5b98db496e ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
+eacc166cc641a6e287c52fab841dc84520020897 iavf: add RSS support for GTP protocol via ethtool
+2596888be166a1c12252c973b19434788a851055 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+c68b8e19cbcce70b27c1dd6559730b78e1a9a548 ixgbe: fix too early devlink_free() in ixgbe_remove()
+ccad76186cb22ca5d7623ac8d08183bb07d17d12 ice: add recovery clock and clock 1588 control for E825c
+bfeb4a8db27d44129a96d8380fdad23b0aa8df84 devlink: Add new "max_mac_per_vf" generic device param
+4237ab56fea3b23866e38020948913cbf02a8ccc i40e: support generic devlink param "max_mac_per_vf"
+11b83154d780f74a078caa73e608a74aab33240d e1000e: Introduce private flag to disable K1
+3bc86d0db4b13f5d97ababe26b98938ea5246d62 ice: enforce RTNL assumption of queue NAPI manipulation
+d14cc6b7213fbee0892d5d48b3b48dff99d59830 ice: move service task start out of ice_init_pf()
+aa6fad8c665ec00bafa9b02a615772a40e5cabae ice: move ice_init_interrupt_scheme() prior ice_init_pf()
+d379e1997e28230d321cc9e53d0d05cb7c33b84f ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
+9a3decd76fc482224e56ebed68bf72906ff85f29 ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
+9a753bcac83422991c51fd4d488299f9fdd4c43c ice: move ice_init_pf() out of ice_init_dev()
+9b81c93896b8f3eef6e27de86793553dff69ad57 ice: extract ice_init_dev() from ice_init()
+f7d8ca0e0b8fcf4cb96771849f51564555ea3108 ice: move ice_deinit_dev() to the end of deinit paths
+4b6b76d5ae78a18eb718bf6dc2e5cca196b61544 ice: remove duplicate call to ice_deinit_hw() on error paths
+ed12e33452174bddb7ad94a0181c8369b7409cfa net: docs: add missing features that can have stats
+dc9fc70e7bfb585e9b31e30544ab559c864a292a ice: implement ethtool standard stats
+b6ab481c6f594c00af1b08133d7b5cf7df23bb60 ice: add tracking of good transmit timestamps
+ea46706ae2a54bbc0a62866a6074c164b008d2b1 ice: implement transmit hardware timestamp statistics
+c0381ba4ad286b0320d97805c9c01157b139d40f ice: refactor to use helpers
+d215db90052fcd6bf7133ad8d2e2da2b0f78777a igc: power up the PHY before the link test
+f64037dcde8651cae55614308096b021a2f2fd9b ixgbe: preserve RSS indirection table across admin down/up
+c1e6817e391b0371ed3596376aeb05fbad428cd3 idpf: remove duplicate defines in IDPF_CAP_RSS
+d2268a922877a806634f44d3e64ac5dcab3d8705 ice: remove legacy Rx and construct SKB
+c527dfa90935d4c751b0d263d3960a791e4aab49 ice: drop page splitting and recycling
+4e8712c94b51a66e33dcd1e7e94cbbaebf1d2594 ice: switch to Page Pool
+2e677da9b76aba723ce05e950646ca4331cd347e idpf: fix memory leak of flow steer list on rmmod
+b9086b3505a6f6455fc8729777eabb4f8d52832a idpf: fix issue with ethtool -n command display
+ce3eaa79f1ece659d91c62b7efba9d500da11920 ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
+433e9d9685ce12b0d2308641beff1ed490f90b98 ice: add TS PLL control for E825 devices
+371a3fbb799a7f6467eb407499b66109da64ea30 ice: add support for unmanaged dpll on E830 NIC
+2519b6a05f66446cfab9c07a2c09903d21628d6a ice: implement configurable header split for regular Rx
+b89940cfa589d590a7043ed8c8ae434320980bad ice: fix destination CGU for dual complex E825
 
---===============4167742302790356519==--
+--===============4157706020503070913==--
