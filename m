@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 14 Oct 2025 18:50:36 -0000
-Message-Id: <176046783617.3722153.7481184022264050391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 14 Oct 2025 19:14:55 -0000
+Message-Id: <176046929536.3740781.4788670278262929646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/tags/0.11.2
-    old: 0000000000000000000000000000000000000000
-    new: 6dac9792abb4c48342e5a628372d234b2e398005
+  - ref: refs/heads/master
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: 7f9ee5fc97e14682e36fe22ae2654c07e4998b82
+    log: |
+         7f9ee5fc97e14682e36fe22ae2654c07e4998b82 bpf: test_run: Fix ctx leak in bpf_prog_test_run_xdp error path
+         
