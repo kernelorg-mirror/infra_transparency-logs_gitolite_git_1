@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Oct 2025 10:34:12 -0000
-Message-Id: <176043805209.3278120.10887025226618666113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Tue, 14 Oct 2025 10:37:47 -0000
+Message-Id: <176043826731.3281515.12275115910287825838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 295ce1eb36ae47dc862d6c8a1012618a25516208
-    new: bd5afca115f181c85f992d42a57cd497bc823ccb
+    old: c3cc79af9c831e3181604760cbafd0e5582126a2
+    new: 9b19920f043829caed0425d25bb5da6824b2fa6a
     log: |
-         bd5afca115f181c85f992d42a57cd497bc823ccb net: airoha: Take into account out-of-order tx completions in airoha_dev_xmit()
+         9b19920f043829caed0425d25bb5da6824b2fa6a feat!(tpm2sh): baseline for 0.11
          
