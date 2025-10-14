@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6774103578499035748=="
+Content-Type: multipart/mixed; boundary="===============2861676032164400913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 14 Oct 2025 15:17:19 -0000
-Message-Id: <176045503996.3532919.3589771355998108851@gitolite.kernel.org>
+Date: Tue, 14 Oct 2025 15:17:31 -0000
+Message-Id: <176045505187.3533139.15971636470975414277@gitolite.kernel.org>
 
---===============6774103578499035748==
+--===============2861676032164400913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: d41e075b077142bb9ae5df40b9ddf9fd7821a811
+  - ref: refs/heads/for-next
+    old: e6e8a72ec5276d645a8d788508a2167414b79807
     new: ff7c763b91981b9037086eae4ae4f127d5cceb63
-    log: revlist-d41e075b0771-ff7c763b9198.txt
+    log: revlist-e6e8a72ec527-ff7c763b9198.txt
 
---===============6774103578499035748==
+--===============2861676032164400913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d41e075b0771-ff7c763b9198.txt
+Content-Disposition: attachment; filename=revlist-e6e8a72ec527-ff7c763b9198.txt
 
 df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ b0106defc0ff673d6a29cbc858ea48b5f43ac7e7 remoteproc: imx_rproc: Use devm_add_act
 9b2451658afa9d144706f4b8d8727bb458fb4514 remoteproc: imx_rproc: Use devm_add_action_or_reset() for scu cleanup
 ff7c763b91981b9037086eae4ae4f127d5cceb63 remoteproc: imx_rproc: Use devm_rproc_add() helper
 
---===============6774103578499035748==--
+--===============2861676032164400913==--
