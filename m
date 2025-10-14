@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 14 Oct 2025 01:59:03 -0000
-Message-Id: <176040714389.2839665.12354119298462434317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Tue, 14 Oct 2025 02:20:08 -0000
+Message-Id: <176040840826.2858032.13611122092582839456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/master
-    old: cf4449e5be6f9828a9a70993bdf2f002187d92a8
-    new: 508b40f7f1ae665f57694eeb9bcca77fd19610a7
+  - ref: refs/heads/bugfix/syzbot
+    old: 519a1cbfb1f287de5edded596f01a41af0cf25ec
+    new: d00a681abff2ae7a00865cdb881ac043d5ffa4ec
     log: |
-         508b40f7f1ae665f57694eeb9bcca77fd19610a7 foo
+         d00a681abff2ae7a00865cdb881ac043d5ffa4ec f2fs: use global inline_xattr_slab instead of per-sb slab cache
          
