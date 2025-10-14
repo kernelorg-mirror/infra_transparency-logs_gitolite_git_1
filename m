@@ -1,51 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============9082013205031102309=="
+Content-Type: multipart/mixed; boundary="===============5606787635711580071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 14 Oct 2025 20:55:09 -0000
-Message-Id: <176047530958.3829052.702301356859274421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 14 Oct 2025 20:56:29 -0000
+Message-Id: <176047538964.3829873.1253693077278484@gitolite.kernel.org>
 
---===============9082013205031102309==
+--===============5606787635711580071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: df90f6cd29d8c77be6de4f9adf9cbe42ce2f0016
-    new: 711c435c89e59ee32bf8bb1c0d875a07931da5a8
+  - ref: refs/heads/master
+    old: 965071ee174d55969110de4cae739e76a6467ea8
+    new: 3ae277e9c7dd3e1df61a14884aabdd5834ad1201
     log: |
-         711c435c89e59ee32bf8bb1c0d875a07931da5a8 slab: Add check for memcg_data != OBJEXTS_ALLOC_FAIL in folio_memcg_kmem
+         e8937ac7791dfdba5b788ae128588409bb16778c dig: actually handle commitish strings
+         3ae277e9c7dd3e1df61a14884aabdd5834ad1201 dig: first round of refinement to dig
          
 
---===============9082013205031102309==
+--===============5606787635711580071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1760475367 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1760475304-1bcc19b8ea46f0e0cafd2b41df1555d3952f874d
+pusher B6C41CE35664996C! 1760475450 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1760475388-ac6371dbec0ba0df13372c9644316808ba7c0e92
 
-df90f6cd29d8c77be6de4f9adf9cbe42ce2f0016 711c435c89e59ee32bf8bb1c0d875a07931da5a8 refs/heads/slab/for-next-fixes
+965071ee174d55969110de4cae739e76a6467ea8 3ae277e9c7dd3e1df61a14884aabdd5834ad1201 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjuuOcbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia35gIAIg+0ODBUg160tLLLAra
-lmmm+XyApcxZDn0TbNBlKXT//a+tToMZLOjxOsOloeS5/u6rfX65/yYseyt/4iey
-p2wt+BXCY1stUrBFtQbfG4rsw1rOz+1T82Bj4t7jYbQ5dNAb8AGbxzBBCfdKXjqa
-YFvBedQf2Z+KFlxlkk4yWTz8vnXt1C4aVTFHgWBFYA1v4l3p4Y8VwnLQLIuDBKOR
-vwI8KYSgL6CRbaG97OhXTxgeab+xJYi9S8T2ObZWG6m1L2T1guMzIPx7ZppMaKLY
-vJdEhvtBomUd+Vyowq15zA7GaXRNPqaW+uC/26LxTqDufoMF+nn1PkZuyP2kj/IF
-Q0o=
-=WKF9
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaO65OgAKCRC2xBzjVmSZ
+bFIlAQCZapDmO5Kd8Q75Ro+ugAN/U/wLs6sr0coGRQIp6f2+vwD+IoNIYC2/Oerj
+M8aZZuZO/qSszECs88+1sAvR+SgIhwE=
+=iGHz
 -----END PGP SIGNATURE-----
 
---===============9082013205031102309==--
+--===============5606787635711580071==--
