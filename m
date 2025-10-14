@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5311187039050904531=="
+Content-Type: multipart/mixed; boundary="===============2999242517753453120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 14 Oct 2025 07:57:18 -0000
-Message-Id: <176042863834.3137222.17500954554788391386@gitolite.kernel.org>
+Date: Tue, 14 Oct 2025 07:58:42 -0000
+Message-Id: <176042872289.3137948.13071088516209040603@gitolite.kernel.org>
 
---===============5311187039050904531==
+--===============2999242517753453120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 51cb04abd39097209b871e95ffa7e8584ce7dcba
+    old: 51cb04abd39097209b871e95ffa7e8584ce7dcba
+    new: 2bbd38fcd29670e46c0fdb9cd0e90507a8a1bf6a
     log: |
-         268eb6fb908bc82ce479e4dba9a2cad11f536c9c dt-bindings: usb: dwc3-imx8mp: dma-range is required only for imx8mp
-         2758246d287549e1088eae350654160cbf4d424f usb: dwc3: Don't call clk_bulk_disable_unprepare() twice
-         bd8c3ce6d7a205b3ba3ef9815db4c6932290ec59 dt-bindings: usb: switch: split out ports definition
-         dddc0f71485f1f29f236e387632181bcc09019a0 usb: misc: Add x86 dependency for Intel USBIO driver
-         51cb04abd39097209b871e95ffa7e8584ce7dcba dt-bindings: usb: qcom,snps-dwc3: Fix bindings for X1E80100
+         8607edcd1748503f4f58e66ca0216170f260c79b usb: xhci-pci: Fix USB2-only root hub registration
+         f3d12ec847b945d5d65846c85f062d07d5e73164 xhci: dbc: fix bogus 1024 byte prefix if ttyDBC read races with stall event
+         2bbd38fcd29670e46c0fdb9cd0e90507a8a1bf6a xhci: dbc: enable back DbC in resume if it was enabled before suspend
          
 
---===============5311187039050904531==
+--===============2999242517753453120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760428698 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760428783 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1760428635-ff71f9ddbbd9db22dda1ba004ea9d9f81ee73b87
+nonce 1760428720-e599bcad158b019dc0be6edafd7625ba9963d30a
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 51cb04abd39097209b871e95ffa7e8584ce7dcba refs/heads/usb-linus
+51cb04abd39097209b871e95ffa7e8584ce7dcba 2bbd38fcd29670e46c0fdb9cd0e90507a8a1bf6a refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjuApobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KpsP/3CjNNQnsw4XxYAyikxG
-qt1gcoT6Gu6HiH4iGqli+4pIkSWuh3hNTxqgiM6RIWKLKAnjGyqbRUvzNrhBMkpY
-/bytTg9NM6JBPmlxcvBWXT7MtmJG584V10cmsZKDsVhbuFGwxLbNEaVf8dbj/JrZ
-C/9gWfcySoht2j/upnafP961INYD82mvo7syl9w8lJJSjANBwt0zEetz41yIVeFG
-PadsDaLa8x8S4PmXij/SlKyg2xVZiHMFvmX6BaPgzApFBizoOBgAAQRpRVQmqWKc
-KUMjsB6rIH/hJh1AeQ+LrzrdDQy2qcdp7AHkK0eWx1E4teOpQR53Gcy8X5wHj73x
-dm0Z7teAXm2t86fh4TuRXiN0iBGap7UUkwFnO26KADzfDvpvvecT+JgvShfrvfhL
-240Xu/+STliRbENXGYDveHQxm0j0X0adreo5Jhr0SCsXnpmqhZJnwUncdzkfXLxx
-tXBVIkfzkFT8NHK685uB1uzkwtXVtGNbOVBqwZJxmnN+r4ps05ivi/RzQyorg8id
-8iWreTL4id0BiDnfGPI5LRqjso2XVUNvheNmLyMwuvqQ8m1bDKUTmy81LdFCZxK6
-NXUBLQr9VDgjzA9XofZd1XgKYwQBVikrAaYrB8NY8uScvPgM6eA/MONzgwQDsIcZ
-FmmhecuUJqrvQR/JzW+zH8hx
-=ud/l
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjuAu8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0X8QAMDBxekdRS+wqNbzmnv1
+YAIkPJDorKI0McDwiC4jge5uN6s+0wDJ5vwLzXnQ4LoqGukn8PbXXuY5ejYHT9QD
++Bedx6ZrK2lCe86BYA4xUZywgZc1M/r49yOeS4ChxkuIPwRQjyG69MDAxtgQ8lEB
+D/QPZZ3TMIDHvTNR6cUviS8nAhombJ0eFE79ToSQTjfMX//EMUdYyVODPXqZtCPk
+x8xt3egBHpniZm4Ww7aQ5I8461NumeIJFzuGqHLP3Ma3wOEJ1aYfafQsROpktrgN
+OM1InkgzX+7CPYDtxzQeA+DXqspzHUaJpW6yqLfLGPc8RDnt1zwloNJd/9N3xe0G
+HxbH2529f34QssFK4q4opLW8xlS14/r+BKfWFLYVV7Xoaos3wZSclmIDbqscFogR
+gjDw0W9YQpjEyETGLLOSt8NOx4j8corpVA1wOJMiP9ONM9+grsQojqt5moIt3lOp
+j/jJq2OyvywxkboPK9eNrIS5S6qQ4zQC7Phbt8RXdKqDcdc2nTXX7Owddo12xRRP
++8b6Piz1+QY62ZUFS+PmqvvdRWlZwSqoKJDAapK2uzYr65UcpieSG5vwE54zMdLo
+Cft9ZfW2IRKmkqydY8SKSexaTOAoUuOEu0IQrv8QbpK7HFQOqK/1NgV5OGaO4vks
+xBFkQOgTkWvtvH0Reo1iyULj
+=m1ci
 -----END PGP SIGNATURE-----
 
---===============5311187039050904531==--
+--===============2999242517753453120==--
