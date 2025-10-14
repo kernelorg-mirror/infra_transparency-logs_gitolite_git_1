@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 14 Oct 2025 15:51:46 -0000
-Message-Id: <176045710613.3565568.17584070559083487012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 14 Oct 2025 15:54:09 -0000
+Message-Id: <176045724925.3567140.14344701040507344718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 337c2476e4e3f404ed59c1b1c38eabd24939e972
-    new: fe9440bd1104b06eea5da04981171f9215f4ecb2
+  - ref: refs/heads/master
+    old: 7458a3bbb621a7ca12dd700c2dbb0b48cb57c441
+    new: feba761b97dca7568886efd413874a1431319950
     log: |
-         fe9440bd1104b06eea5da04981171f9215f4ecb2 feat!(tpm2sh): baseline for 0.11
+         feba761b97dca7568886efd413874a1431319950 sasha: review v6.17.1
          
