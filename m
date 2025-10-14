@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 14 Oct 2025 11:21:41 -0000
-Message-Id: <176044090170.3321047.13739348960321491547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 14 Oct 2025 11:32:18 -0000
+Message-Id: <176044153821.3329447.14435431846914495968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: d67c259d5a176813eaf8a86961319c385cd270f4
-    new: 9793ef466934e37597a8285db01a676772104d9f
-    log: |
-         9793ef466934e37597a8285db01a676772104d9f feat!(tpm2sh): baseline for 0.11
-         
+  - ref: refs/heads/v2_20251014_yung_chuan_liao_asoc_use_sof_sdw_as_default_intel_sof_sdw_machine_driver
+    old: 0000000000000000000000000000000000000000
+    new: 7e7e2c6e2a1cb250f8d03bb99eed01f6d982d5dd
