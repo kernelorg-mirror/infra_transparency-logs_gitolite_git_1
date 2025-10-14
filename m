@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 14 Oct 2025 16:59:19 -0000
-Message-Id: <176046115916.3624978.12462283254326510476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Tue, 14 Oct 2025 17:43:25 -0000
+Message-Id: <176046380560.3660041.2858634524263413219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/arm64-sme-ptrace-sme-only
-    old: 5f776cd47f4d48a39d79d16ca0e20de967ea20c0
-    new: 9fbb3559b215ca0721432194b1c69689f257c263
+  - ref: refs/heads/kdevops
+    old: 61869f508dcb35769f3268bddc6b96b2b087b782
+    new: 1e1898572bd6dc315919344dac1b56a14a7d6b44
     log: |
-         f565015dbbd8c384a5623a122d6df576b92d4116 arm64/sme: Support disabling streaming mode via ptrace on SME only systems
-         261e5a6bf31ed0f021dc60ae764b8b49da3e4a90 kselftst/arm64: Test NT_ARM_SVE FPSIMD format writes on non-SVE systems
-         9fbb3559b215ca0721432194b1c69689f257c263 kselftest/arm64: Cover disabling streaming mode without SVE in fp-ptrace
+         1e1898572bd6dc315919344dac1b56a14a7d6b44 locktest: add support for testing directory leases
          
