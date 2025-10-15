@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4010219219233742926=="
+Content-Type: multipart/mixed; boundary="===============2055070072083104299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 15 Oct 2025 11:51:40 -0000
-Message-Id: <176052910072.620029.5441709984416320332@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 11:58:43 -0000
+Message-Id: <176052952362.625750.1145204142271997420@gitolite.kernel.org>
 
---===============4010219219233742926==
+--===============2055070072083104299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 3ae277e9c7dd3e1df61a14884aabdd5834ad1201
-    new: 7c006f2c0a4f9a6c3dd304a2c03cc7f70562af32
+    old: 7c006f2c0a4f9a6c3dd304a2c03cc7f70562af32
+    new: 20e25cb50df6415a19c88a0686e37def7506724c
     log: |
-         7c006f2c0a4f9a6c3dd304a2c03cc7f70562af32 dig: improve date filtering
+         20e25cb50df6415a19c88a0686e37def7506724c dig: fix backtrace on non-existent git object
          
 
---===============4010219219233742926==
+--===============2055070072083104299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1760529161 -0400
+pusher B6C41CE35664996C! 1760529585 -0400
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1760529099-bf373a3ad3d396c74380cb3ec07fae42979d6f2c
+nonce 1760529522-aa5e67d1adece059bfad14392e4f0ab0ddac7d2a
 
-3ae277e9c7dd3e1df61a14884aabdd5834ad1201 7c006f2c0a4f9a6c3dd304a2c03cc7f70562af32 refs/heads/master
+7c006f2c0a4f9a6c3dd304a2c03cc7f70562af32 20e25cb50df6415a19c88a0686e37def7506724c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaO+LCQAKCRC2xBzjVmSZ
-bM0rAQDvszXqR+bwIzLoEIFC4UTOYa2cXXMTQb8C0UJ0H+ib4AEA1XjDcBvZRS7F
-npP9P/OgS+TlRWvRM+ToGTT7C5mo6AE=
-=ZgDi
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaO+MsQAKCRC2xBzjVmSZ
+bEKSAQDyNT/3XN3DrJzmT9n9w3UxeL0WjGe1Pn9BCh1GevFL4wEA0E80OWMT4nhv
+ZXENnxA8sWnHZ7QxgKwtx9X6zS2pgw4=
+=KRzq
 -----END PGP SIGNATURE-----
 
---===============4010219219233742926==--
+--===============2055070072083104299==--
