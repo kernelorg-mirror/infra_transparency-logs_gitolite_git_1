@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0702007797084840303=="
+Content-Type: multipart/mixed; boundary="===============3282141955526019331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 15 Oct 2025 16:20:31 -0000
-Message-Id: <176054523103.873600.12377919608854999454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 15 Oct 2025 16:20:39 -0000
+Message-Id: <176054523963.873894.18430306586405154579@gitolite.kernel.org>
 
---===============0702007797084840303==
+--===============3282141955526019331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: 0b0eb7702a9fa410755e86124b4b7cd36e7d1cb4
-    new: 79c36ecfc8994011ab0a973d3b4148aa5d9e0c91
-    log: revlist-0b0eb7702a9f-79c36ecfc899.txt
+  - ref: refs/heads/for-next
+    old: b5e980e88f315c5fdd2ce98c4684ae5f6c861129
+    new: 3484c83c123017051a973aa260ace247f60de2ae
+    log: revlist-b5e980e88f31-3484c83c1230.txt
 
---===============0702007797084840303==
+--===============3282141955526019331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1760545291 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1760545228-756b200333b6d76a3e62c08a6ce31655bad5e166
-
-0b0eb7702a9fa410755e86124b4b7cd36e7d1cb4 79c36ecfc8994011ab0a973d3b4148aa5d9e0c91 refs/heads/asoc-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjvygsACgkQJNaLcl1U
-h9DgbAf9GbKdAhgSJZUMFRv99xSxo7oTooNsDGhtMdAHLGw4Nsmf7d8brfclsNY6
-f6sRYT7zloBeG2hOdIRXJPVI0K3y5y7xhU/gBXbyW4XclvuGVElWFK/1H04KZRlh
-o2glJv2OqlYpVDtqzvioe4s2QqCy/VkonrMflDAY2fJU4Q0EOOGBsDC8w4QF2w5F
-d0LseuZ0CmC7ugtNyfq+Kut/81zSRLItfMmTv9O0TURkKze9fUXufTH9lGK0hFFp
-sH2/nlAlveyzepfd5eioDvu1dTFa5svYUr6frspF/jV/KJRiP4iWalFi6J7UXWQR
-Kyy5z3GXABu5CIbAxd0WY0Ba9EoPUQ==
-=bxUA
------END PGP SIGNATURE-----
-
---===============0702007797084840303==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b0eb7702a9f-79c36ecfc899.txt
+Content-Disposition: attachment; filename=revlist-b5e980e88f31-3484c83c1230.txt
 
 2b92b98cc4765fbb0748742e7e0dd94d15d6f178 ASoC: SOF: Don't print the monolithic topology name if function topology may be used
 d25de16477657f9eddd4be9abd409515edcc3b9e ASoC: soc-acpi: make some variables of acpi adr and link adr non-const
@@ -73,5 +48,6 @@ aa1ee85ce3576defd29f2a389d7508d2036af977 ASoC: soc_sdw_utils: add name_prefix to
 cee2c8396d9c8e834fe28929bc1d8153d7e9897f ASoC: use sof_sdw as default Intel SOF SDW machine
 c1afb0350069c3be137b5692923ad13d69648970 Add tegra264 audio device tree support
 79c36ecfc8994011ab0a973d3b4148aa5d9e0c91 ASoC: use sof_sdw as default Intel SOF SDW machine
+3484c83c123017051a973aa260ace247f60de2ae Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
 
---===============0702007797084840303==--
+--===============3282141955526019331==--
