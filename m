@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8751646094600637851=="
+Content-Type: multipart/mixed; boundary="===============0308945876048331820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 15 Oct 2025 09:46:12 -0000
-Message-Id: <176052157287.349539.10748831673842900821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 15 Oct 2025 09:46:16 -0000
+Message-Id: <176052157696.349695.13447063595084389953@gitolite.kernel.org>
 
---===============8751646094600637851==
+--===============0308945876048331820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regulator-6.18
     old: e609438851928381e39b5393f17156955a84122a
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
     log: revlist-e60943885192-3a8660878839.txt
-  - ref: refs/heads/for-6.19
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+  - ref: refs/heads/regulator-6.19
+    old: 0000000000000000000000000000000000000000
     new: 6277a486a7faaa6c87f4bf1d59a2de233a093248
-    log: |
-         6277a486a7faaa6c87f4bf1d59a2de233a093248 regulator: dt-bindings: Convert Dialog DA9211 Regulators to DT schema
-         
 
---===============8751646094600637851==
+--===============0308945876048331820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1760521632 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1760521570-8a1c8b10d874be3c403d2c91ea42c2670c8ca92f
+pusher C3F436CA30F5D8EB 1760521637 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1760521574-b9f4418ddbb260d8dcf5414b9c8e6ed2ecaa84e6
 
-e609438851928381e39b5393f17156955a84122a 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/for-6.18
-3a8660878839faadb4f1a6dd72c3179c1df56787 6277a486a7faaa6c87f4bf1d59a2de233a093248 refs/heads/for-6.19
+e609438851928381e39b5393f17156955a84122a 3a8660878839faadb4f1a6dd72c3179c1df56787 refs/heads/regulator-6.18
+0000000000000000000000000000000000000000 6277a486a7faaa6c87f4bf1d59a2de233a093248 refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjvbaAACgkQJNaLcl1U
-h9DXogf+INhUhZ8qktYjmloklcvblz1naKk0OmKPEfdUnIJU3SNbrPueHHMv7/L4
-5JwntYxAyq3bx22G7QD5gL4IBzOUpX6vXDJE+nnMpHr7Manv43aBwvC4f3ESju4C
-AfEYRFAnSOjTFdditVxUlLT3rfD2FKHWxy7sasiaLnw6Q1OUl8j9ilkvwbF3SKrr
-Ns/lf3zqJfk02Qj10pLgM7AfCnYFjtNbTT7jNWSl7vL5zv0zwzyhE/YHm7x1igKF
-UYXFLXN85NWeYpFq9WeA8SZGLS3KVLXmeg0ctrWzF6swCG3EfKSupovg6O/0oD+I
-DADUY2JdWSBnKbu1RcdhelXXdg6Ing==
-=AAkO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjvbaUACgkQJNaLcl1U
+h9CQ7gf+KbmGmc6VQa3fJBhzvd1V6mTy8lycdvPSfqWdymuHJ0MkEy1xhGRbY+gx
+KUoZM9TjpI0EFIiCmttqHuidJtIWpH2ce29oBgY3gGe2Cqxj1d33KjOPJ1Eaf1co
+S3l2WUOGKfKFm15jCDebjU68/xmkcQQcxwrvI2Xs9PcjkivPuvStRLTmsm6liMpK
+BHKd5Am/CFdEi10U0gKslCzy5lki+f4bbZ+ryXalQdNGjSMbbz1TE6cT0hP2UmBG
+lppB38h/iwh6yiIRuy0QV5gLQl7ZayQdPBfDFtx1QsP+3FgGauu98nHS6jqpDm+h
+zZlCrK8Ypdr6hTwVRjB+Vc+THfWIlA==
+=PgxA
 -----END PGP SIGNATURE-----
 
---===============8751646094600637851==
+--===============0308945876048331820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1080,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============8751646094600637851==--
+--===============0308945876048331820==--
