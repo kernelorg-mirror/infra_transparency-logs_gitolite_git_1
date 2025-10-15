@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9148190354598294345=="
+Content-Type: multipart/mixed; boundary="===============7911998762208387862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 15 Oct 2025 07:19:08 -0000
-Message-Id: <176051274882.164040.132373544397413028@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 07:19:15 -0000
+Message-Id: <176051275504.164211.16160111459104457609@gitolite.kernel.org>
 
---===============9148190354598294345==
+--===============7911998762208387862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: e6d736bd08902ba53460df1b62ee4218bbd17d9b
+  - ref: refs/heads/for-rc
+    old: 85fe9f565d2d5af95ac2bbaa5082b8ce62b039f5
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-e6d736bd0890-3a8660878839.txt
+    log: revlist-85fe9f565d2d-3a8660878839.txt
 
---===============9148190354598294345==
+--===============7911998762208387862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6d736bd0890-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-85fe9f565d2d-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============9148190354598294345==--
+--===============7911998762208387862==--
