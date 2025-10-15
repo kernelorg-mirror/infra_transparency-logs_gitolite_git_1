@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1824939969281337186=="
+Content-Type: multipart/mixed; boundary="===============3618693402837117377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 15 Oct 2025 17:56:08 -0000
-Message-Id: <176055096808.958718.12519895953679740547@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 17:56:12 -0000
+Message-Id: <176055097274.958826.5150709306455224708@gitolite.kernel.org>
 
---===============1824939969281337186==
+--===============3618693402837117377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 07fdad3a93756b872da7b53647715c48d0f4a2d0
     new: 1c51450f1afff1e7419797720df3fbd9ccbf610c
     log: revlist-07fdad3a9375-1c51450f1aff.txt
 
---===============1824939969281337186==
+--===============3618693402837117377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fc4fed9054ef5b5269d4395dd9db36fe98fce9e3 net: airoha: Add get_link ethtool callb
 6378e25ee1ca2ed687eee78eff7bd588d52a4e14 dt-bindings: net: dsa: nxp,sja1105: Add optional clock
 1c51450f1afff1e7419797720df3fbd9ccbf610c tcp: better handle TCP_TX_DELAY on established flows
 
---===============1824939969281337186==--
+--===============3618693402837117377==--
