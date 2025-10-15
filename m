@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8580104510734108071=="
+Content-Type: multipart/mixed; boundary="===============1822733334094299229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 15 Oct 2025 11:01:59 -0000
-Message-Id: <176052611990.572253.13757613646118699502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 15 Oct 2025 11:03:21 -0000
+Message-Id: <176052620182.572855.11453840500769526636@gitolite.kernel.org>
 
---===============8580104510734108071==
+--===============1822733334094299229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.19
-    old: 4412ab501677606436e5c49e41151a1e6eac7ac0
-    new: 92a42edd347c3b5a9045bb137a33204c6ddc0803
-    log: revlist-4412ab501677-92a42edd347c.txt
+  - ref: refs/heads/master
+    old: 381f84ab711d92c8f7448598514350342dd7383a
+    new: d6b2eea4873114af4c66e0bb32af5af9c2ffeffe
+    log: |
+         d6b2eea4873114af4c66e0bb32af5af9c2ffeffe 5.4-stable patches
+         
 
---===============8580104510734108071==
+--===============1822733334094299229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4412ab501677-92a42edd347c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b926b15547d29a88932de3c24a05c12826fc1dbc spi: dw: rename the spi controller to ctlr
-fe8cc44dd173cde5788ab4e3730ac61f3d316d9c spi: dw: add target mode support
-31dcc7e1f8a9377d8fd9f967f84c121c5ba8f89c spi: aspeed: Update clock selection strategy
-efb79de36e947d136517bac14c139d494fcc72fa spi: aspeed: Improve timing calibration algorithm for AST2600 platform
-630a185fd06109193574d10f38b29812986c21de spi: aspeed: Force default address decoding range assignment for each CS
-b546e0023a203e7edf9377ac8f4f490a6965afd6 spi: aspeed: Centralize address decoding region management
-0586b53d4a0c7c5a132629f99da934cc674ea4cd spi: aspeed: Add per-platform adjust_window callback for decoding range
-64d87ccfae3326a9561fe41dc6073064a083e0df spi: aspeed: Only map necessary address window region
-b83fb1b14c06bdd765903ac852ba20a14e24f227 spi: offload: Add offset parameter
-a758314f71ba90cca2a5813bbf96c4954a15b613 spi: offload: Add offset parameter
-7d9c2924f61dcabcbc5868bec6054ab4f4de01d1 spi: aspeed: Improve clock, timing and address
-92a42edd347c3b5a9045bb137a33204c6ddc0803 Add target mode support for the DesignWare SPI
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760526263 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1760526199-0b9dc29cfc1a73256b32a15eccd71092dfad045c
 
---===============8580104510734108071==--
+381f84ab711d92c8f7448598514350342dd7383a d6b2eea4873114af4c66e0bb32af5af9c2ffeffe refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjvf7cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XAsQALnFnOl+Cjt9vur/DLk2
+ZskF+H2blowc+0R2GMEFcR2XYNOMV3BbuixABF0tW2pXj4Un9+1s3wte04x5C0VF
+Gt2TlrNaTwLFTp39kdyWVSLTwmvHkjhMMAznVsEPGdsjFTdpa2tbdlWu5tCX9MrJ
+g1qF9EVu5ed8QJRYkfWB2Ony4ZX9o+5k6EMhkTKeqoAk6ur1iPv2HMEAeAmMN8ZF
++93A4H2qTTa1vQgvSESZ/hcKzi3zrqRjTo+qTaakjX6mJHhi1QUvUB7l5jJjtIBz
+0MDhaetCZOXMmGR+iiFxyGSVt2JpV6ZfPqCVgZSp5i4VJEItgDM0ccXl5J9agNwu
+kywyqGKL8hMeKK+al14L0PZTJaooTrCqd8SRG6+5o36rcQRyF4IAJJ8s7QnsQ4dR
+k1B80rpaYQ+kui4PlXqjsTcqOLPv89fnKKVRswzHndeaOdApNgxvaH4kwmCa+23S
+j5z4v3oWTjVYAXgO9xQ+plRGnzJTQHgvhus+cC69y38D5KKv0e1T/Srgl/BVy+tO
+r3ononGnpJGvElcl8yKBgCrQs5L0MSbxsGDdQZvqV/TbEfK2333UK26QDh6JVsoH
+e0nmegaqzvW/U3uCZlQcnNXsagBCNDmj/ksXRjD4HPUEatOiNbAbUbgv3ZKADTl0
++eAn/YfcYzYgmCtrpk3kuiDP
+=++cT
+-----END PGP SIGNATURE-----
+
+--===============1822733334094299229==--
