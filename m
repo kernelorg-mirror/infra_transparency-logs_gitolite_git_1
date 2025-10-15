@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0467561862185357126=="
+Content-Type: multipart/mixed; boundary="===============5533918022746416973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 15 Oct 2025 14:22:47 -0000
-Message-Id: <176053816760.763067.9057577648583112418@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 14:23:47 -0000
+Message-Id: <176053822722.763565.2598712405167118745@gitolite.kernel.org>
 
---===============0467561862185357126==
+--===============5533918022746416973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 472df181d7c4c732d5c5b98d506d1902e7580acb
+  - ref: refs/heads/exynos-drm-fixes
+    old: 9a3f210737e958c3f45a4ce0d7f1ff330af3965f
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-472df181d7c4-3a8660878839.txt
+    log: revlist-9a3f210737e9-3a8660878839.txt
 
---===============0467561862185357126==
+--===============5533918022746416973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-472df181d7c4-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-9a3f210737e9-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============0467561862185357126==--
+--===============5533918022746416973==--
