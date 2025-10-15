@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Wed, 15 Oct 2025 13:02:18 -0000
-Message-Id: <176053333895.686594.13024041219627157346@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 13:03:22 -0000
+Message-Id: <176053340235.687109.14728595696030915092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
-  - ref: refs/heads/for-6.19/trivial
+  - ref: refs/heads/for-next
     old: dcf9f31c62b3d31c033ee5bce522855c3d7f56b1
     new: 5cb5575308bce9d63178fe943bf89c520a348808
     log: |
