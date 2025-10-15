@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Wed, 15 Oct 2025 15:24:29 -0000
-Message-Id: <176054186971.821386.11968817686902572009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 15 Oct 2025 15:26:53 -0000
+Message-Id: <176054201336.824466.15492469206512664392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: a497fe9d9c61d7b85867e12bcedbdf46576e5d37
-    new: 7b6506dc9d4ad066d849d2ec9b38969728f05100
+  - ref: refs/heads/pending
+    old: 418addd549057e8fc884112e0c9035a206e4b6d3
+    new: 5493fb76febe1ad1953462ddf2988878db243d6e
     log: |
-         7b6506dc9d4ad066d849d2ec9b38969728f05100 refactor!(convert): sanitize argument handling
+         5493fb76febe1ad1953462ddf2988878db243d6e wifi: ath10k: move recovery check logic into a new work
          
