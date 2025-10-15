@@ -1,61 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0228316791994178359=="
+Content-Type: multipart/mixed; boundary="===============7751728436797877987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 15 Oct 2025 09:46:00 -0000
-Message-Id: <176052156055.349126.6259295013211735263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 15 Oct 2025 09:46:04 -0000
+Message-Id: <176052156479.349286.14720065129957236755@gitolite.kernel.org>
 
---===============0228316791994178359==
+--===============7751728436797877987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: a27539810e1e61efcfdeb51777ed875dc61e9d49
     new: 6370a996f308ea3276030769b7482b346e7cc7c1
     log: revlist-a27539810e1e-6370a996f308.txt
-  - ref: refs/heads/for-6.19
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+  - ref: refs/heads/asoc-6.19
+    old: 0000000000000000000000000000000000000000
     new: 5e537031f322d55315cd384398b726a9a0748d47
-    log: |
-         4ebe64f507ca921c5109eb37eae6058b77413d93 ASoC: tas2781: Add TAS5802, TAS5815, and TAS5828
-         29fa213c6ab00c6749db47b47e384cab760c109e ASoC: dt-bindings: ti,tas2781: Add TAS5802, TAS5815, and TAS5828
-         3c89238ca35bfe176ba34bc688541f90f6fa7bdb ASoc: tas2783A: Remove unneeded variable assignment
-         5e537031f322d55315cd384398b726a9a0748d47 ASoC: codecs: Fix the error of excessive semicolons
-         
 
---===============0228316791994178359==
+--===============7751728436797877987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1760521620 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1760521558-9219491a4adbe199d189330f3ec29b83b5ec3943
+pusher C3F436CA30F5D8EB 1760521624 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1760521561-32d1c5489c4cc8e83cfbe453af5b13c031ba655b
 
-a27539810e1e61efcfdeb51777ed875dc61e9d49 6370a996f308ea3276030769b7482b346e7cc7c1 refs/heads/for-6.18
-3a8660878839faadb4f1a6dd72c3179c1df56787 5e537031f322d55315cd384398b726a9a0748d47 refs/heads/for-6.19
+a27539810e1e61efcfdeb51777ed875dc61e9d49 6370a996f308ea3276030769b7482b346e7cc7c1 refs/heads/asoc-6.18
+0000000000000000000000000000000000000000 5e537031f322d55315cd384398b726a9a0748d47 refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjvbZUACgkQJNaLcl1U
-h9B3KAf/YQWfmC+GZCxw5B/Rbt+TzTZorFnwMhzaxLsXEz8lroRRkfIm6GFJu8KO
-k6znZ+Yqh9xHumrs9d7m+6p6A4OfAy6sTY/XEIgW3ICWHSCgXZt+4TLeR9NO9Iko
-7xW9wUSKQJkEVRSjY7ttHyZHl94ZUdxwJi9j+b6IRnHYnGE6e6eC1fLqUowEqZSc
-zPNnOPqcNdrnVPMjCfO7nbrkHA67Q5f0f/oqM8yaId8zZRK+MyDqOiLDYCC7tabC
-F2yGA3UUF5YjsV9g8SPNjmRaK0pAsz7FjE7EkscGgnXDfiWxz17PyHoPC00m1Gag
-btmO4rse+liVmdleybz6TPFvy7C5cQ==
-=ct2s
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjvbZgACgkQJNaLcl1U
+h9De9Qf/dem69dLPpuXCWkNLN7p5Gx0ccmNZ/KCMrcdMChgGVFxJaFcKwucxRy3A
+iLa6E3U8OHH2GA1qXoHTxqdgLC+aTXsHEK3rDEO6HRDLrYn68eFiNyl/u6gYLSv2
+4RUmdK9zaNK2xMI4UpCAg2saYy1QnPQAuvm16k+L4cyQ44Ux/NtBzlA1Pu02sBEX
+/qF6gJWdV/Py8mmNsFAmWE4nQpTqZnO4/JClVR0kwp50UDx1wjYwQtbY6xI6g32p
+z8gB60a3f4rvovPgFUcprhVTeh0fvenvhG5ngfZPPXCYoYxQXAfDZ9qrzeZUCjWe
+02BB2Mm7nkU9ESDKcEaV3L57TsadPA==
+=VeR6
 -----END PGP SIGNATURE-----
 
---===============0228316791994178359==
+--===============7751728436797877987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1086,4 +1080,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 7e6cfa3e94cf8278ee3170dc0b81fc6db1287e28 ASoC: tas2781: Update ti,tas2781.yaml for adding tas58xx
 6370a996f308ea3276030769b7482b346e7cc7c1 ASoC: codecs: Fix gain setting ranges for Renesas IDT821034 codec
 
---===============0228316791994178359==--
+--===============7751728436797877987==--
