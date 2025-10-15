@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Wed, 15 Oct 2025 13:00:57 -0000
-Message-Id: <176053325730.685646.3743188013703320831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Wed, 15 Oct 2025 13:02:18 -0000
+Message-Id: <176053333895.686594.13024041219627157346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
-user: chrisl
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 610d841da021200788d2200d7bc66f08bcc97c23
-    new: f76b3418b4576deda3beec85152d2e80ba406f5a
+  - ref: refs/heads/for-6.19/trivial
+    old: dcf9f31c62b3d31c033ee5bce522855c3d7f56b1
+    new: 5cb5575308bce9d63178fe943bf89c520a348808
     log: |
-         f76b3418b4576deda3beec85152d2e80ba406f5a Enable strict percpu address space checks
+         139560e8b973402140cafeb68c656c1374bd4c20 livepatch: Match old_sympos 0 and 1 in klp_find_func()
+         5cb5575308bce9d63178fe943bf89c520a348808 selftests: livepatch: use canonical ftrace path
          
