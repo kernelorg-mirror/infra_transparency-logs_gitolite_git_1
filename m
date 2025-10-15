@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 15 Oct 2025 15:06:11 -0000
-Message-Id: <176054077158.803389.17400094520043712433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 15 Oct 2025 15:14:03 -0000
+Message-Id: <176054124307.809361.11887057478259174537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: 9b332cece987ee1790b2ed4c989e28162fa47860
-    new: 1f4a222b0e334540343fbb5d3eac4584a6bfe180
+  - ref: refs/heads/for-6.18/upstream-fixes
+    old: a7cdc2086c19e435d4cec3f9393b5f46899c0468
+    new: 0187c08058da3e7f11b356ac27e0c427d36f33f2
     log: |
-         3c652c3a71de1d30d72dc82c3bead8deb48eb749 jbd2: ensure that all ongoing I/O complete before freeing blocks
-         328a782cb138029182e521c08f50eb1587db955d ext4: wait for ongoing I/O to complete before freeing blocks
-         4b471b736ea1ce08113a12bd7dcdaea621b0f65f ext4, doc: fix and improve directory hash tree description
-         1d3ad183943b38eec2acf72a0ae98e635dc8456b ext4: detect invalid INLINE_DATA + EXTENTS flag combination
-         971843c511c3c2f6eda96c6b03442913bfee6148 ext4: free orphan info with kvfree
-         c065b6046b3493a878c2ceb810aed845431badb4 Use CONFIG_EXT4_FS instead of CONFIG_EXT3_FS in all of the defconfigs
-         66f8e4df003e61b72fdc794ed0ec8378d74a9a4a Merge tag 'ext4_for_linus-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-         1f4a222b0e334540343fbb5d3eac4584a6bfe180 Remove long-stale ext3 defconfig option
+         0187c08058da3e7f11b356ac27e0c427d36f33f2 HID: hid-input: only ignore 0 battery events for digitizers
+         
+  - ref: refs/heads/for-next
+    old: a5e7c10e8a5226e99140038e32230924829bf8c1
+    new: e1d6c403d7087b61a1abb43899d7e3c20080b6ab
+    log: |
+         0187c08058da3e7f11b356ac27e0c427d36f33f2 HID: hid-input: only ignore 0 battery events for digitizers
+         e1d6c403d7087b61a1abb43899d7e3c20080b6ab Merge branch 'for-6.18/upstream-fixes' into for-next
          
