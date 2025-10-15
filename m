@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 15 Oct 2025 15:57:01 -0000
-Message-Id: <176054382138.850182.1291911612517970341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 15 Oct 2025 16:05:11 -0000
+Message-Id: <176054431118.857695.8412474741188345864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/main
-    old: 6378e25ee1ca2ed687eee78eff7bd588d52a4e14
-    new: 1c51450f1afff1e7419797720df3fbd9ccbf610c
+  - ref: refs/heads/master
+    old: 48a97ffc6c826640907d13b199e29008f4fe2c15
+    new: 27aab47b347ee8aafb213fbafaef956eeee58b91
     log: |
-         1c51450f1afff1e7419797720df3fbd9ccbf610c tcp: better handle TCP_TX_DELAY on established flows
+         27aab47b347ee8aafb213fbafaef956eeee58b91 selftests: arg_parsing: Ensure data is flushed to disk before reading.
          
