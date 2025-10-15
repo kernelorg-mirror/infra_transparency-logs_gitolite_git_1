@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5948404522412551918=="
+Content-Type: multipart/mixed; boundary="===============9183112908700717352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 15 Oct 2025 20:50:59 -0000
-Message-Id: <176056145962.1115995.17818322137502744231@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 20:51:02 -0000
+Message-Id: <176056146222.1116145.4862410319192814540@gitolite.kernel.org>
 
---===============5948404522412551918==
+--===============9183112908700717352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: 94611dd9dd9a9a6dec46e56743a4a1bf0bf34de3
-    new: cc7ce9bae34ac3653c4df0607e72fd832cc0891f
-    log: revlist-94611dd9dd9a-cc7ce9bae34a.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: 264d6afe01bf7a193e5af7e676524e4b609a19bb
+    new: 6b00103dfdaf7ec387ab330c6f4b92c9519a335f
+    log: revlist-264d6afe01bf-6b00103dfdaf.txt
 
---===============5948404522412551918==
+--===============9183112908700717352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94611dd9dd9a-cc7ce9bae34a.txt
+Content-Disposition: attachment; filename=revlist-264d6afe01bf-6b00103dfdaf.txt
 
 0393dbae79ccb280c202af53bdae033edf963975 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
 f3f272c15fda99b9a222d3d79d00a2c38dd6536e NFSD: Add array bounds-checking in nfsd_iter_read()
@@ -48,5 +48,7 @@ d79252c2757d60659db18d4d71acbfb95bde6677 NFSD: Relocate the xdr_reserve_space_ve
 2ecb69e35ff668b6b258606a3ba27eec8f9b507d SUNRPC: Improve "fragment too large" warning
 0de973e19b73e8b873b6898572d992b6d24fb4c6 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
 cc7ce9bae34ac3653c4df0607e72fd832cc0891f sunrpc: allocate a separate bvec array for socket sends
+d215a4004362b6a046e508de58800f91476f5a08 NFSD: Enable return of an updated stable_how to NFS clients
+6b00103dfdaf7ec387ab330c6f4b92c9519a335f NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 
---===============5948404522412551918==--
+--===============9183112908700717352==--
