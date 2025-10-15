@@ -1,19 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 15 Oct 2025 23:37:06 -0000
-Message-Id: <176057142605.1255122.1920926558551930664@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8646665906124433520=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 15 Oct 2025 23:38:55 -0000
+Message-Id: <176057153509.1255832.2625057820974866298@gitolite.kernel.org>
+
+--===============8646665906124433520==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 3631b9cb2a34983e0f5962e542b428a66036d689
-    new: 5fb1d3ce3e74a4530042795e1e065422295f1371
-    log: |
-         5fb1d3ce3e74a4530042795e1e065422295f1371 parisc: entry: set W bit for !compat tasks in syscall_restore_rfi()
-         
+  - ref: refs/heads/ath-next
+    old: 94aced6ed9e2630bae0b5631e384a5302c4b6783
+    new: 9c5f229b1312a31aff762b2111f6751e4e3722fe
+    log: revlist-94aced6ed9e2-9c5f229b1312.txt
+
+--===============8646665906124433520==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-94aced6ed9e2-9c5f229b1312.txt
+
+4077d7fb27be990a8ddcff9b49f7e1788a960f3a wifi: wcn36xx: Remove unused wcn36xx_smd_update_scan_params
+f35a07a4842a88801d9182b1a76d178bfa616978 wifi: ath10k: move recovery check logic into a new work
+960fc268a9fc269190014773c81507e695bec3d4 wifi: ath11k: Remove struct wmi_bcn_send_from_host_cmd
+d34a368be24d029544cc97feb87729a9f7984a78 wifi: ath12k: Remove struct wmi_bcn_send_from_host_cmd
+596b911644cc19ecba0dbc9c92849fb59390e29a wifi: ath11k: restore register window after global reset
+36f9edbb9d0fc36c865c74f3c1ad8e1261ad3981 wifi: ath12k: Fix MSDU buffer types handling in RX error path
+43ba986e7ac7d9420e26e9a9b03c73054bc2149c wifi: ath12k: track dropped MSDU buffer type packets in REO exception ring
+6917e268c4338ceb5916c8695423597ed8c8b38e wifi: ath12k: Defer vdev bring-up until CSA finalize to avoid stale beacon
+b94f523cc5a19108ff4687a4bce9e5d484f0f9c5 wifi: ath12k: Fix NSS value update in ext_rx_stats
+8c21b32c2cc82224c7fc1a9f67318f3b1199744b wifi: ath12k: fix VHT MCS assignment
+9c5f229b1312a31aff762b2111f6751e4e3722fe wifi: ath12k: fix TX and RX MCS rate configurations in HE mode
+
+--===============8646665906124433520==--
