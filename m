@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Wed, 15 Oct 2025 08:34:11 -0000
-Message-Id: <176051725184.281507.16464088829636201802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 15 Oct 2025 08:34:39 -0000
+Message-Id: <176051727928.282185.13035798961827275615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
   - ref: refs/tags/v6.17
