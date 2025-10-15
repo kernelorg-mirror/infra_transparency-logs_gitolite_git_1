@@ -1,61 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============8961013612396429270=="
+Content-Type: multipart/mixed; boundary="===============7881557246586422361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 15 Oct 2025 10:18:17 -0000
-Message-Id: <176052349789.482827.2006274913145307629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 15 Oct 2025 10:18:31 -0000
+Message-Id: <176052351124.483031.14697182068594845176@gitolite.kernel.org>
 
---===============8961013612396429270==
+--===============7881557246586422361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 1c72d9c3e0c61468de878d906a65d4cc845718fb
-    log: revlist-3a8660878839-1c72d9c3e0c6.txt
+  - ref: refs/tags/v6.1.156
+    old: 0000000000000000000000000000000000000000
+    new: 9cf93db389ea74809ec1f98df133a199c5aa9e0f
+  - ref: refs/tags/v6.12.53
+    old: 0000000000000000000000000000000000000000
+    new: c03d2eebe1ae3fc4571d0b6c6fa880d6a9e8975c
+  - ref: refs/tags/v6.17.3
+    old: 0000000000000000000000000000000000000000
+    new: f4b756a52c29ce3909c06bba248acf31d1276597
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
+  - ref: refs/tags/v6.6.112
+    old: 0000000000000000000000000000000000000000
+    new: bc91af79ae048f9ef965625559b930e6871c59c0
 
---===============8961013612396429270==
+--===============7881557246586422361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1760523553 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1760523491-e4606256ecf0b7d94a0ccb9fa15b9357fbb6d6de
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760523551 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1760523488-97f863a68ceff3795e5004ed77e902e10f6d61de
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 1c72d9c3e0c61468de878d906a65d4cc845718fb refs/heads/review-ilpo-next
+0000000000000000000000000000000000000000 9cf93db389ea74809ec1f98df133a199c5aa9e0f refs/tags/v6.1.156
+0000000000000000000000000000000000000000 c03d2eebe1ae3fc4571d0b6c6fa880d6a9e8975c refs/tags/v6.12.53
+0000000000000000000000000000000000000000 f4b756a52c29ce3909c06bba248acf31d1276597 refs/tags/v6.17.3
+0000000000000000000000000000000000000000 cb6649f6217c0331b885cf787f1d175963e2a1d2 refs/tags/v6.18-rc1
+0000000000000000000000000000000000000000 bc91af79ae048f9ef965625559b930e6871c59c0 refs/tags/v6.6.112
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaO91JwAKCRBZrE9hU+XO
-MfbzAP0Ro6Yxq6lnZzM7XtJFRPJsQ2riN0FV2ES1sQ+KHjo7gAD+LEJhBm+rp+Fq
-v68BKQXfu+MQU4c05qEK++YTl37XMQM=
-=sFIb
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjvdR8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uNwP/3j7b94cP5UlWIT5UDSD
+drPkCimV45sgnPp+7alDtsmfHR+CLVpmiwFbX1mCrrAIBZmgLL+B0sX6Vlq2BkIO
+qK6aQ+Gc17fjNLd12wRjHnCpOhPj7aSbtdJbuvJfLXYVqb6CRb1FXFVJA/BZHWiv
+1N3lSlR9nG9k+TO2xw9l/H9zVIUk4pki1aPQT9pcERSLCZBt2GyqEGtj5S5G4m8Z
+G02DQN/efFL8oL/Sl/jpQ4k1RembsYaeAh6eg9Dp4mWWJA6O2vS5JLViWzCtCeB8
+2KH9erC9RePXWxFlf6pAJy0/8fTIGKGhWeE+YhOl2QqIw+jr2L3rA5I6t/wRh0HQ
+v1TrpIHDxkIK5c8n8gdaw26IdHcFnz7iGN9hn0x8eY9HHt8B0EJqFN2f+SCmEGlK
+FWMGWW0fiIPHcvLUYd0Nb0gErc5ztPNkPhXUORMqTsldlt8AnhH0UdwQqAkhr1uq
+nIO8or1Em2sLTbNXCScS5vf++8aZVTgCrVMpfSKTZInjQf+7JmE+P8J2zOvrLU7G
+lS2kwgoJh8CvvBhQBulHjJjWEGCQp/danOSZBWbhCZDoIx4aso6PysxIFYUBlaBz
+78VimsKiLVhJXC3Coxx9+/4NiLvGjJKtkdnXIT+WRPc126Emm7VHZLexNeRuCDmI
+Dgu3GvPNNm+prvkXH5j4J/FL
+=pJrm
 -----END PGP SIGNATURE-----
 
---===============8961013612396429270==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-1c72d9c3e0c6.txt
-
-32647324c77012b7aed7ef48752909510d3c7ec7 platform/x86/amd: hfi: Remove unused cpumask from cpuinfo struct
-0254329897495c42646144376230add710078937 platform/x86/amd: hfi: Remove redundant assignment to .owner
-644004565d4cda479995fa9e72c00d62ca084e08 platform/x86: lg-laptop: Add support for the HDAP opregion field
-0bd0f9833196d76666fd2f58524ebfff7ee2628b platform/x86/amd/hsmp: Replace amd_num_nodes() with topology_max_packages()
-644ab3bc98ee386f178d5209ae8170b3fac591aa platform/x86:intel/pmc: Update Arrow Lake telemetry GUID
-3b603955f2423cf668ebd5ba670019a5b4960cc5 platform/x86:intel/pmc: Add support for multiple DMU GUIDs
-a32f7d76e3cd7c4170db44d109661d657cfa5e21 platform/x86:intel/pmc: Add DMU GUID to Arrow Lake U/H
-7848154c3a11fb3ffbffd150f2185f97b5a6595a platform/x86:intel/pmc: Rename PMC index variable to pmc_idx
-c2bc11f1f204ef916ec96e45cf329e42873b37d6 platform/x86:intel/pmc: Relocate lpm_req_guid to pmc_reg_map
-1c72d9c3e0c61468de878d906a65d4cc845718fb platform/x86:intel/pmc: Remove redundant has_die_c6 variable
-
---===============8961013612396429270==--
+--===============7881557246586422361==--
