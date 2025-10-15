@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3306190908564512963=="
+Content-Type: multipart/mixed; boundary="===============3914490293274235969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 15 Oct 2025 22:42:03 -0000
-Message-Id: <176056812361.1208998.11422944979165798450@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 22:42:05 -0000
+Message-Id: <176056812505.1209166.15032360029310075179@gitolite.kernel.org>
 
---===============3306190908564512963==
+--===============3914490293274235969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 550b531346a7e4e7ad31813d0d1d6a6d8c10a06f
-    new: a95cef0711e982917b1043d17873ddad9d8970a1
-    log: revlist-550b531346a7-a95cef0711e9.txt
+  - ref: refs/heads/mm-unstable
+    old: 1f55cbc9cdeee317986b807be2b0f9f03517f3f2
+    new: e68d9177094354e4b26e93678e0c23db385a6508
+    log: revlist-1f55cbc9cdee-e68d91770943.txt
 
---===============3306190908564512963==
+--===============3914490293274235969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-550b531346a7-a95cef0711e9.txt
+Content-Disposition: attachment; filename=revlist-1f55cbc9cdee-e68d91770943.txt
 
 c97513cddcfc235f2522617980838e500af21d01 hung_task: fix warnings caused by unaligned lock pointers
 f0c5118ebb0eb7e4fd6f0d2ace3315ca141b317f mm/damon/sysfs: catch commit test ctx alloc failure
@@ -116,38 +116,5 @@ eca0bd7d9a76c0f8fea0f3e3bcaf349c823d1027 lib/test_hmm: add zone device private T
 651cb3be20696ddc920750ee2859bb5de67e54c9 mm/huge_memory: add pmd folio to ds_queue in do_huge_zero_wp_pmd()
 0c8e1c87ed581c613e221955096d0169e9e0ffe3 mm/khugepaged: unify pmd folio installation with map_anon_folio_pmd()
 e68d9177094354e4b26e93678e0c23db385a6508 mm-khugepaged-unify-pmd-folio-installation-with-map_anon_folio_pmd-fix
-226bd607415c3d5b9d659cf001e3d13096f337b9 mm/page_alloc: clarify batch tuning in zone_batchsize
-6eac8e84e7f26667b0ef14a97c6169a05550c7f0 mm/page_alloc: prevent reporting pcp->batch = 0
-b85e94ff99c577c23bc924205ae2f91551c06f53 mm/hugetlb: create hstate_is_gigantic_no_runtime helper
-907b59e73ec4b373c062f3e05bd9d5d53ba22c80 mm/hugetlb: allow overcommitting gigantic hugepages
-a2220d0edbe4d395612a12a8c566889cb4e40851 mm: always call rmap_walk() on locked folios
-9083375f6f4f95e552ecdf0cde05b04ce95e2b03 mm/userfaultfd: don't lock anon_vma when performing UFFDIO_MOVE
-2ba9fedc6db4180b78897dd1f4eb5a19b3e6216f kasan: remove __kasan_save_free_info wrapper
-1b31ade6d99a0a2b84f2ea46fad1de63de4ab986 kasan: cleanup of kasan_enabled() checks
-e99415919e7d8ecd68e46d1311ee937c24db80d8 mm/page_owner: rename proc-prefixed variables for clarity
-034afca791598a09f674ba40994240ca9cb2b7b4 mm/page_owner: simplify zone iteration logic in init_early_allocated_pages()
-dd257d65b6cf4b270cb8f1ad34e6cded81d048f6 mm: vmalloc: WARN_ON if mapping size is not PAGE_SIZE aligned
-c57573ceb7e0073a4ca2dc37ac92a4ed0a89bfab mm: vmalloc: fix uninitialized value issue
-def5253bc620e2b6cd14f8ea585e720d1dccdeb2 mm/swap: do not choose swap device according to numa node
-4943d81079bbc366220c4cd60c1ec6ab3225decb mm-swap-do-not-choose-swap-device-according-to-numa-node-fix
-0bd7303c82ba3c6b20374e7f999cb2fbc44a6ae4 mm/swap: select swap device with default priority round robin
-c99bad5966984ac41a1406ca17ea7e0a59e82c00 mm/huge_memory: only get folio_order() once during __folio_split()
-5ef390829aad82edec11183f6d625bca44a68871 vmalloc: update __vmalloc_node_noprof() documentation
-cd42d82bd06e566f089bb1b3ba421286d83dff5e mm: remove the BOUNCE config option
-2e8e37214dd980eb92b96aadd6d84380f3345661 drivers/base/node: fold register_node() into register_one_node()
-140c38f66f91ea3c8a8fa6f1da44be613e3f440a drivers/base/node: fold unregister_node() into unregister_one_node()
-d2d5a0ea09b525c94da36340337d1cafa6fafad8 mm/page_alloc/vmstat: simplify refresh_cpu_vm_stats change detection
-7d41ccaded3091ad936e92f5e63e155e3e83aca7 mm/page_alloc: batch page freeing in decay_pcp_high
-2c5f020aec80c440d6bcf1a8387e68a76eb9b3b2 mm/page_alloc: batch page freeing in free_frozen_page_commit
-59f9ccb6dc65413334c27858159e30432aa832fe mm-page_alloc-batch-page-freeing-in-free_frozen_page_commit-fix
-26c47bb78c7f4230f7f9c1c2ddc6712513d050bd mm/huge_memory: cache folio attribute in __split_unmapped_folio()
-32e8b427545dabee2c9906c2f0929040c5590b67 mm/huge_memory: update folio stat after successful split
-9c35c43c1a0bb668fda87a51e7c180b40f3cc401 mm/huge_memory: optimize and simplify folio stat update after split
-a6449e084e6e9f0c5676e870e5a13b2e862fa603 mm/huge_memory: optimize old_order derivation during folio splitting
-d5d265ab8349eb9876219ff50210c0fc3d96993b mm/huge_memory: remove redundant split_order != new_order check in uniform_split
-1c4158574de3f271bc518938a65d91174fc4f9c6 mempool: clarify behavior of mempool_alloc_preallocated()
-b627a3bf0623861ff58a1a28225eed026d23f193 mm: mprotect: always skip dma pinned folio in prot_numa_skip()
-b547a49a785be410ac646d872cb428203ee2fcae mm: mprotect: avoid unnecessary struct page accessing if pte_protnone()
-a95cef0711e982917b1043d17873ddad9d8970a1 mm: huge_memory: use folio_skip_prot_numa() for pmd folio
 
---===============3306190908564512963==--
+--===============3914490293274235969==--
