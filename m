@@ -1,53 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3282141955526019331=="
+Content-Type: multipart/mixed; boundary="===============3590092432401147551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 15 Oct 2025 16:20:39 -0000
-Message-Id: <176054523963.873894.18430306586405154579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 15 Oct 2025 16:26:20 -0000
+Message-Id: <176054558049.879012.735072817901340879@gitolite.kernel.org>
 
---===============3282141955526019331==
+--===============3590092432401147551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: b5e980e88f315c5fdd2ce98c4684ae5f6c861129
-    new: 3484c83c123017051a973aa260ace247f60de2ae
-    log: revlist-b5e980e88f31-3484c83c1230.txt
+  - ref: refs/notes/commits
+    old: ddf83d3f079baddfe29f1cb9e81cee513ebb2f88
+    new: c9e157364277502b196f1e906a6372dd556b00fc
+    log: revlist-ddf83d3f079b-c9e157364277.txt
 
---===============3282141955526019331==
+--===============3590092432401147551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5e980e88f31-3484c83c1230.txt
+Content-Disposition: attachment; filename=revlist-ddf83d3f079b-c9e157364277.txt
 
-2b92b98cc4765fbb0748742e7e0dd94d15d6f178 ASoC: SOF: Don't print the monolithic topology name if function topology may be used
-d25de16477657f9eddd4be9abd409515edcc3b9e ASoC: soc-acpi: make some variables of acpi adr and link adr non-const
-ea97713903784286ef1ce45456f404ed288f19b1 ASoC: soc_sdw_utils: add name_prefix to asoc_sdw_codec_info struct
-7196fc4e482928a276da853e2687f31cd8ea2611 ASoC: Intel: export sof_sdw_get_tplg_files
-5ed60e45c59d66e61586a10433e2b5527d4d72b5 ASoC: soc_sdw_utils: export asoc_sdw_get_dai_type
-6937ff42f28a13ffdbe2d1f5b9a51a35f626e93a ASoC: SOF: add platform name into sof_intel_dsp_desc
-99c159279c6dfa2c4867c7f76875f58263f8f43b ASoC: SOF: don't check the existence of dummy topology
-5226d19d4cae5398caeb93a6052bfb614e0099c7 ASoC: SOF: Intel: use sof_sdw as default SDW machine driver
-9797329220a2c6622411eb9ecf6a35b24ce09d04 ASoC: sof-function-topology-lib: escalate the log when missing function topoplogy
-4d410ba9aa275e7990a270f63ce436990ace1bea dt-bindings: sound: Update ADMAIF bindings for tegra264
-bb940b13998c40d55e186f0cf5d65c592ea1677a ASoC: SOF: Don't print the monolithic topology name if function topology may be used
-3180c7b1575d635851f0ceab6bdb176bb15e69dd ASoC: soc-acpi: make some variables of acpi adr and link adr non-const
-aa1ee85ce3576defd29f2a389d7508d2036af977 ASoC: soc_sdw_utils: add name_prefix to asoc_sdw_codec_info struct
-55f8b5a96597a7b88c323a7de7228f9eae8c9943 ASoC: Intel: export sof_sdw_get_tplg_files
-506cbe36a2ac7b504a2362476dc53cd548b7a29e ASoC: soc_sdw_utils: export asoc_sdw_get_dai_type
-0d202ae0256e8e7dcea862ead5904fa27cf4ce6a ASoC: SOF: add platform name into sof_intel_dsp_desc
-225d70b8074502acee3943bf0c2e839e867cd38c ASoC: SOF: don't check the existence of dummy topology
-7f47685b150dbc20f881d029a7366a81b1d66322 ASoC: SOF: Intel: use sof_sdw as default SDW machine driver
-7e7e2c6e2a1cb250f8d03bb99eed01f6d982d5dd ASoC: sof-function-topology-lib: escalate the log when missing function topoplogy
-cee2c8396d9c8e834fe28929bc1d8153d7e9897f ASoC: use sof_sdw as default Intel SOF SDW machine
-c1afb0350069c3be137b5692923ad13d69648970 Add tegra264 audio device tree support
-79c36ecfc8994011ab0a973d3b4148aa5d9e0c91 ASoC: use sof_sdw as default Intel SOF SDW machine
-3484c83c123017051a973aa260ace247f60de2ae Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
+b907ab14c95505968715322e8eedc9b168a23dac Notes added by 'git notes add'
+3d3cd2742c9ba9389323b874c3aadb4456a8eeed Notes added by 'git notes add'
+6858a019046eb19a1b8418bd6b7fac454f5abfa4 Notes added by 'git notes add'
+239377470ba9cc410ddaa583e6c0a420755ca213 Notes added by 'git notes add'
+e767c2bcf26db700ad78fcc71037c253126d7f57 Notes added by 'git notes add'
+ea9b571bd3e245de6180e3408369fa7426f2443e Notes added by 'git notes add'
+adb7992f3a7756afc88e94ceda0d391c6acf915c Notes added by 'git notes add'
+7fd98538e902d4353c1bd0d083a925e730ea0f6f Notes added by 'git notes add'
+72352d699bb8535dac0ae7b470f979b3f1c4d078 Notes added by 'git notes add'
+c864b337cd2b09de0eb47037c844657ceedd6518 Notes added by 'git notes add'
+860f6257e8a4233d9b96ce1f00e98ba3473f970a Notes added by 'git notes add'
+dba294e3d20e0e66f4ffa954edabff0b2f739788 Notes added by 'git notes add'
+b1af3a58504f5f247a1da7942e1941c859f18d20 Notes added by 'git notes add'
+bccd6312600d3f0193ab8745f88a3f9efbfb4ce9 Notes added by 'git notes add'
+81c955038833897e0856dbd597067adfcfa82e4a Merged notes from FETCH_HEAD into refs/notes/commits
+30e66ca387672c3faa1d23abaabe7d80a3d182b4 Notes added by 'git notes copy'
+4effd37927df2c7b009e601ad67385c56b10cb71 Notes added by 'git notes copy'
+c38b359ca5ffc392a1d0b296242d80ac9338c909 Notes added by 'git notes copy'
+73fbb134f0f24e1ff1114c3180b32586822f2eb0 Notes added by 'git notes copy'
+cd495f1e936f824b4fee10cf38acb74896e04472 Notes added by 'git notes copy'
+53c360576b978c9ced41543a5b6b29c8b97685bd Notes added by 'git notes copy'
+c9e157364277502b196f1e906a6372dd556b00fc Notes added by 'git notes copy'
 
---===============3282141955526019331==--
+--===============3590092432401147551==--
