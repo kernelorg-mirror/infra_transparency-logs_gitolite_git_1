@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9183112908700717352=="
+Content-Type: multipart/mixed; boundary="===============2187833226395852875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 15 Oct 2025 20:51:02 -0000
-Message-Id: <176056146222.1116145.4862410319192814540@gitolite.kernel.org>
+Date: Wed, 15 Oct 2025 20:51:04 -0000
+Message-Id: <176056146495.1116296.6327193916857376040@gitolite.kernel.org>
 
---===============9183112908700717352==
+--===============2187833226395852875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
-    old: 264d6afe01bf7a193e5af7e676524e4b609a19bb
-    new: 6b00103dfdaf7ec387ab330c6f4b92c9519a335f
-    log: revlist-264d6afe01bf-6b00103dfdaf.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: c760dcaba6db2a6d996490cda709903f87b3ccdd
+    new: 211142ba6e4b85765e65edcd66d6336b3e960e70
+    log: revlist-c760dcaba6db-211142ba6e4b.txt
 
---===============9183112908700717352==
+--===============2187833226395852875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-264d6afe01bf-6b00103dfdaf.txt
+Content-Disposition: attachment; filename=revlist-c760dcaba6db-211142ba6e4b.txt
 
 0393dbae79ccb280c202af53bdae033edf963975 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
 f3f272c15fda99b9a222d3d79d00a2c38dd6536e NFSD: Add array bounds-checking in nfsd_iter_read()
@@ -50,5 +50,20 @@ d79252c2757d60659db18d4d71acbfb95bde6677 NFSD: Relocate the xdr_reserve_space_ve
 cc7ce9bae34ac3653c4df0607e72fd832cc0891f sunrpc: allocate a separate bvec array for socket sends
 d215a4004362b6a046e508de58800f91476f5a08 NFSD: Enable return of an updated stable_how to NFS clients
 6b00103dfdaf7ec387ab330c6f4b92c9519a335f NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+3a9448f2c6df1db513325c54a21550cd208c5c6a xfs: apply rt extent alignment constraints to CoW extsize hint
+32048ac5a3938f4ee9f1c3f2ed6b02b1a77b4de3 xfs: rearrange code in xfs_inode_item_precommit
+a661795cc4350918e86db4d1cd99ce8e4b4687bb xfs: rework datasync tracking and execution
+74861cf99aa08b6ef9fb43e61ba7172afe3a9d87 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+ff26c8f3c80756f7dee517eb07223a72a8110128 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+aa57b69ccb98b0b6d844440b0fb1386f0232333d Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+ef523e81014f36548c24dfacddae3b5381ad94a0 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+b4902debe5ccbecefb55ec7e89b61bd103f53958 Merge branch 'kernel-6.12.24/xfs' into kernel-6.12.24/main
+672b44311c7f6909647f881b19ca8b6e4b59d2cc Merge branch 'kernel-6.12.24/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.24/main
+748f9437387b829ea2d187151b907d356347bbaf Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.24/main
+4fbcd52e1b584a07e1121ca6410435bd37dae2cb Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.18-1' into kernel-6.12.24/main
+b531cce50341069ad6056d2d4d5b20626e167c86 Merge branch 'kernel-6.12.24/nfs-next' into kernel-6.12.24/main
+0736255534e98792f853b9e5385e1bc151f72463 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+5bcc8b461b3a410a5ed4bbe5515912400e85ca40 Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+211142ba6e4b85765e65edcd66d6336b3e960e70 Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
 
---===============9183112908700717352==--
+--===============2187833226395852875==--
