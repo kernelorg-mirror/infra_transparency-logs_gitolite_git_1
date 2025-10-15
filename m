@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3984884420121648849=="
+Content-Type: multipart/mixed; boundary="===============8938093830042477248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 15 Oct 2025 12:12:01 -0000
-Message-Id: <176053032149.639781.11164912365425358853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 15 Oct 2025 12:12:29 -0000
+Message-Id: <176053034998.640069.16871556959674359970@gitolite.kernel.org>
 
---===============3984884420121648849==
+--===============8938093830042477248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.19
-    old: 4412ab501677606436e5c49e41151a1e6eac7ac0
-    new: 92a42edd347c3b5a9045bb137a33204c6ddc0803
-    log: revlist-4412ab501677-92a42edd347c.txt
+  - ref: refs/heads/for-next
+    old: 947720f6dda9d85e49903ebee40b14d0d418a2fa
+    new: 44afd6d728ba0204e1b0ff2fcb83d95c717042a7
+    log: revlist-947720f6dda9-44afd6d728ba.txt
 
---===============3984884420121648849==
+--===============8938093830042477248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1760530381 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1760530316-1ffd30079f896a4dfc22871efad7338d32f49d41
-
-4412ab501677606436e5c49e41151a1e6eac7ac0 92a42edd347c3b5a9045bb137a33204c6ddc0803 refs/heads/spi-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjvj80ACgkQJNaLcl1U
-h9C76gf6A/VN/GYOnXuWD7NCNJkCmEgLA9slvUAgO25rUjT0KqM3ubRF22VEG9Oi
-Z7Ffk1C4E2E1wFoflyDGEsuwXrYYbQjM8yEiaTjnicYWtB2UxFwpwGeiYDoewS4A
-cluWxQgynhkLFGAcCBy9nSxwHdPxs2VeUSwnRqJeND4oxTiPbpDChOMIovYjK5dy
-81gRFETFVolJ4dV1/kTiBMfiIm8DeOvnEOKlQ//50MWD2GGIw4EtJHNrSq6oshCZ
-abCujpMh6bF8RcA3gEDsOaFPJGaAWaE1dTz2bOJsqK5ehiLcScXydjmYrSlHe8pT
-4HtcCD4KqT6fLzstOu44JNaszCwdrA==
-=vjdx
------END PGP SIGNATURE-----
-
---===============3984884420121648849==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4412ab501677-92a42edd347c.txt
+Content-Disposition: attachment; filename=revlist-947720f6dda9-44afd6d728ba.txt
 
 b926b15547d29a88932de3c24a05c12826fc1dbc spi: dw: rename the spi controller to ctlr
 fe8cc44dd173cde5788ab4e3730ac61f3d316d9c spi: dw: add target mode support
@@ -63,5 +38,6 @@ b83fb1b14c06bdd765903ac852ba20a14e24f227 spi: offload: Add offset parameter
 a758314f71ba90cca2a5813bbf96c4954a15b613 spi: offload: Add offset parameter
 7d9c2924f61dcabcbc5868bec6054ab4f4de01d1 spi: aspeed: Improve clock, timing and address
 92a42edd347c3b5a9045bb137a33204c6ddc0803 Add target mode support for the DesignWare SPI
+44afd6d728ba0204e1b0ff2fcb83d95c717042a7 Merge remote-tracking branch 'spi/for-6.19' into spi-next
 
---===============3984884420121648849==--
+--===============8938093830042477248==--
