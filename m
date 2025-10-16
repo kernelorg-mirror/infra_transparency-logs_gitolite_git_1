@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4204816083871372970=="
+Content-Type: multipart/mixed; boundary="===============5456348869534983520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Oct 2025 12:41:59 -0000
-Message-Id: <176061851947.1945291.4026501619082130365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 16 Oct 2025 12:45:21 -0000
+Message-Id: <176061872145.1949126.15464273955882418525@gitolite.kernel.org>
 
---===============4204816083871372970==
+--===============5456348869534983520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 4179a2ef73293c5d15a8ed72d29db42094a2227a
-    new: 2de18f6eae9bf2744686e597cabf463661642cd9
-    log: |
-         2de18f6eae9bf2744686e597cabf463661642cd9 6.17-stable patches
-         
+  - ref: refs/heads/kdevops
+    old: 1841ade40a49896c3a9c4248314cc044dbe710d6
+    new: 03f87a2d72de984e5fc27fcfcdd5fd11fbfe9fb8
+    log: revlist-1841ade40a49-03f87a2d72de.txt
 
---===============4204816083871372970==
+--===============5456348869534983520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1841ade40a49-03f87a2d72de.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760618580 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1760618517-1424b5aee03e1d0e90d3b43a992bacfcf625ba5e
+48a4051f52cd88a18c324145c260491868117eea vfs: recall-only directory delegations for knfsd
+c7abe2a7f16bb860b148beec2715e790b28e23d5 filelock: push the S_ISREG check down to ->setlease handlers
+f12e45420ee06763e2ea8ebdf7057f69e120ffdd vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
+235e972260cd065bf4a77c8f6b063b46362d6020 vfs: allow mkdir to wait for delegation break on parent
+c4e21a9611a4bc4f372cacc156264291dae3af03 vfs: allow rmdir to wait for delegation break on parent
+d605623de4938bdae90e853728e9cebf5c0c29a2 vfs: break parent dir delegations in open(..., O_CREAT) codepath
+4ab0e0484b249b12f76bc37746c3385d5c51852a vfs: make vfs_create break delegations on parent directory
+354451c071339e227af9d36116dea1c7513bc5ee vfs: make vfs_mknod break delegations on parent directory
+07464ea061fb39d137ae29f57c2b14492416f711 filelock: lift the ban on directory leases in generic_setlease
+9f66d2075f93ffd8a2a31a848d2c46cdb22d2524 nfsd: allow filecache to hold S_IFDIR files
+5ec793f84ae496d6769c0fb20e0ad67d006759fd nfsd: allow DELEGRETURN on directories
+3001c4daa1b4e13a5aa5087e939f2e3cfa6fc178 nfsd: wire up GET_DIR_DELEGATION handling
+903c3dc265c4f0925640804233d7ea91817382f3 NFS: Add support for sending GDD_GETATTR
+d5710156af00606019bf033c8e51246bf1d6860e NFS: Request a directory delegation on GETATTR
+03f87a2d72de984e5fc27fcfcdd5fd11fbfe9fb8 nfs: skip dentry revalidation when parent dir has a delegation
 
-4179a2ef73293c5d15a8ed72d29db42094a2227a 2de18f6eae9bf2744686e597cabf463661642cd9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjw6FQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zGkP/089RFhSV9SZ+YUx9zu0
-9keGuaeKc2cANrsQhYoGDRWipknF0Vm4n5BYy1HZxwMOIrxRkVRaaUQ+fkN7K5qH
-Q4+kvETQOuaA60b4AHGNEjHGStyBj6k7eNyflxUcK/+69rKhX+VMy1Y0TUdftvVi
-7dfoh4yFRb0v061ptJLMRjK+i21m+pPOMM7OlXZBhx53Rh8TOo9q7CWNUOH2Hn4s
-KH7pL9pWFiO2fYTXnmz1ZDiBMFrgpoYzlXhr67rwZz6Q/fL5USskFvHjlyauxbIH
-JfD8BiF4G/hYCThCh5/Jl/oymdzYYRzj+TsOtQsNiuUAT3B3S1LklC7hmT3CWRH0
-IY1CDLaACxF/krxjoxHMCF6yAj+3wQO/snb44BN0w/TU1GwIqI5V1yff2Xu/Ksrg
-YVblGu8nn+TCcb4FvhEodB1UGi5NC7KPikI8eOIC3dH+pQxHVAWuB7IvHSx5Zvvd
-J6I05BOW803mt1bmUwbxS5T6lJUjEH6Fyc30DfK5DJznvpeT5/2cT2YN0cUWSM4u
-+KPVXK+9+tNQwMa1yewe7PwCOXKXu3TePhSK+4Uv8Dvn+iJo2O6I1wk5OJPW4myT
-F9djb34bJQuQTxb6PgaXLeuhnTlAXoYBeMbb5yLfki1g0gFsT5Uwy0Zl5UI18GP5
-Z4NT/11T57+ml84gRwBMdpbB
-=mUdl
------END PGP SIGNATURE-----
-
---===============4204816083871372970==--
+--===============5456348869534983520==--
