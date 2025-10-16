@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Thu, 16 Oct 2025 11:11:53 -0000
-Message-Id: <176061311341.1863086.15117365853393364071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pchotard/sti
+Date: Thu, 16 Oct 2025 11:25:19 -0000
+Message-Id: <176061391919.1874902.461270640469244272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/pchotard/sti
+user: pchotard
 changes:
-  - ref: refs/heads/counter-next
-    old: 109ff654934a4752f8875ded672efd1fbfe4d31d
-    new: b462fcd08dd589d9cf9eb7f9d8fc7777b5c5521d
-    log: |
-         b462fcd08dd589d9cf9eb7f9d8fc7777b5c5521d MAINTAINERS: Update Intel Quadrature Encoder Peripheral maintainer
-         
+  - ref: refs/tags/Essais
+    old: 0000000000000000000000000000000000000000
+    new: 6ea6d07057e8268f9fd9ea63e9e3f8813d774369
