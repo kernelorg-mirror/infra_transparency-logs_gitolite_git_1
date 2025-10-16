@@ -1,49 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2111301206750883096=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 16 Oct 2025 10:37:49 -0000
-Message-Id: <176061106967.1834298.7645357623796130679@gitolite.kernel.org>
-
---===============2111301206750883096==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Thu, 16 Oct 2025 10:44:26 -0000
+Message-Id: <176061146651.1840058.4452926246318216459@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/fixes
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 34cbd6e07fddf36e186c8bf26a456fb7f50af44e
+  - ref: refs/heads/dmabuf-vfio-v6
+    old: a4dd17580539da8bf9ff9a8f577b12e210858eef
+    new: 21377ba71d27186581e8ae67e7c434fc57fe82c8
     log: |
-         a49c4d48c3b60926e6a8cec217bf95aa65388ecc platform/x86: alienware-wmi-wmax: Fix NULL pointer dereference in sleep handlers
-         a7b4747d8e0e7871c3d4971cded1dcc9af6af9e9 platform/mellanox: mlxbf-pmc: add sysfs_attr_init() to count_clock init
-         f4f868baf292550acbfc35839213de9da0d9e8ab MAINTAINERS: add Denis Benato as maintainer for asus notebooks
-         34cbd6e07fddf36e186c8bf26a456fb7f50af44e platform/x86: alienware-wmi-wmax: Add AWCC support to Dell G15 5530
+         2dabb1c85f49e9d3c0f76d8ebda3b5b1d30192a4 vfio/pci: Allow MMIO regions to be exported through dma-buf
+         1439f7599880e94583fc10079f0a41c85bfc6ca0 PCI/P2PDMA: Separate the mmap() support from the core logic
+         1c9e782af927ff0d0b977727a93cb6dfd0bf67a1 PCI/P2PDMA: Simplify bus address mapping API
+         e93a976c7b33a2759c5af0fe9e4cd9e47d8427be PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
+         5529ffed2e9b8a2f59726df23c37f3b0c8c44bc9 PCI/P2PDMA: Export pci_p2pdma_map_type() function
+         69af3c6633fe322e81f0868b82751c07d6cd94a2 types: move phys_vec definition to common header
+         5ca96cdad8139b63a25669122f36ab42387fbd29 vfio: Export vfio device get and put registration helpers
+         5c2469df6a6d8d3a416a77cbd046f9078ef80481 vfio/pci: Share the core device pointer while invoking feature functions
+         ee378ce55c52245b0f994ebb67614f50ac11829a vfio/pci: Enable peer-to-peer DMA transactions by default
+         21377ba71d27186581e8ae67e7c434fc57fe82c8 vfio/pci: Add dma-buf export support for MMIO regions
          
-
---===============2111301206750883096==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1760611126 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1760611063-6af28f6b42fd0e06f3590e29cdb7680299b202f0
-
-3a8660878839faadb4f1a6dd72c3179c1df56787 34cbd6e07fddf36e186c8bf26a456fb7f50af44e refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaPDLOwAKCRBZrE9hU+XO
-MbNsAQD//OaI4LaHZTJIUpZLQiWossQ6mz8GSeiJM9cxfmSIDgEA4sIiK5rUMAIH
-5+MesHRM1lKO7ockzrqb9Zz2V424LwU=
-=WyNO
------END PGP SIGNATURE-----
-
---===============2111301206750883096==--
