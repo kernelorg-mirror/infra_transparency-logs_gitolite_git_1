@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0926410676449466924=="
+Content-Type: multipart/mixed; boundary="===============1589334265345313060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Oct 2025 13:16:49 -0000
-Message-Id: <176062060997.1977782.16013737802738384985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 16 Oct 2025 13:16:53 -0000
+Message-Id: <176062061318.1977881.17896902103249326108@gitolite.kernel.org>
 
---===============0926410676449466924==
+--===============1589334265345313060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: ee4cc031e1767406b09aa9cebdd237e517f72940
-    new: 9dc473f7d379448b4cf5e2afd76a23d869399fa3
+  - ref: refs/heads/slab/for-next-fixes
+    old: a9297fb4e2b87c0fcf8bae78cd7c2c7105497228
+    new: 86f54f9b6c17d6567c69e3a6fed52fdf5d7dbe93
     log: |
-         9dc473f7d379448b4cf5e2afd76a23d869399fa3 5.4-stable patches
+         86f54f9b6c17d6567c69e3a6fed52fdf5d7dbe93 slab: reset slab->obj_ext when freeing and it is OBJEXTS_ALLOC_FAIL
          
 
---===============0926410676449466924==
+--===============1589334265345313060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760620671 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1760620607-dd042679cf34d75ba4d7fd0207bea8fbaf280233
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1760620672 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1760620609-5b1bef95346d3998b8ae65d0a3a7925f4c4b05d9
 
-ee4cc031e1767406b09aa9cebdd237e517f72940 9dc473f7d379448b4cf5e2afd76a23d869399fa3 refs/heads/master
+a9297fb4e2b87c0fcf8bae78cd7c2c7105497228 86f54f9b6c17d6567c69e3a6fed52fdf5d7dbe93 refs/heads/slab/for-next-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjw8H8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qDYQALTMp/kFUO5SaxcGHV+x
-4fGknprxsEGIgSxv4sDQLcp6Yaov4Ac+ou6icoSpwaDc7jWTQvrljmxu6tZ0QLOn
-GvpmO8aKtM4JAulR6MWiLPPVyMz7e6qWr468ycq8FxEOqzg1vMve0VY5LetSf/VB
-LLSq4Oq/33+n5cMolcwGNU0bv6LujGCf6dZN7CVuoIBzWkBqsvqM5dZ+Cb01S2Su
-9JYfXmxIEhhwNZPkpCeAMQJt57So0cjIZwNlVaJNomurCg3DVKo+JBwRgVwDrl1K
-0U7AJ20sp90lRwks3QxlYLFVV/V4WXIu9nXUIb985/Ze+pg5i/9d9+BNKIxnqXKx
-vxJC3eRd4SWbiw2mmyONhPCjrL3D2e9Jr7rwPpOLMrVokAPpY1lGMaPjaGMTvxtW
-u5+DRIj9xVrA4C34LOdeif78qrdnj5MPvrdGpfhyQmxzlSsMMV8SwnSWf2MfpXeB
-xIojI31PCM75cW/8SpPWXrCJsIrxq2T3xvBGtffN3kjNC5ZMLCO7RxcEjDxRgM9F
-n5sQCOEa54Rc9ElF411t9DiJ8a1YtsmZ0OGpC1useokvicEalIFWzm0aNbMyVrBB
-gBjLSoWVJTgN8R0miWXdwbudxaBmhg68Ak5kpNlDkGoCIquF/d/7HfAJu3Nvzh2L
-Wc6t/YQRvtNdhEWHsy7yWweC
-=eb+p
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmjw8IAbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaw34H/j6BuIQdK8IIGqW3jQ8b
++LcY192uj7HNj3GcSuaFwbQXsHR4ldBVjMyjWskTOYZw6CTLP1KpfFDbR+y6f25/
+uCXqL15k60dC6O3i2TtCtV3iSn7DV+L+U+N3MrsSlWeHcmOLYm4ZqpFes340x/5X
+RKTNIH2Vi/Wip4YD1O50U93a/0bnIIVeZoopQSd/6bQh4YVPNgoJQTZk4ASCOqQ2
+BwpamUIMhnnZRYpt7rxAGnmypqNZ/xkPI2+/sW9ssqgG7cCD/FEN3ou8nhYL8I+M
+fykNq7b4kiB71llVmm88BYl6RhhnH8HTujqOvH/QLGj8hNAeozGUp8cnRv5PrKo6
+jLw=
+=ADxB
 -----END PGP SIGNATURE-----
 
---===============0926410676449466924==--
+--===============1589334265345313060==--
