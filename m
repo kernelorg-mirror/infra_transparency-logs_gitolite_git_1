@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 16 Oct 2025 14:49:14 -0000
-Message-Id: <176062615474.2081724.7070390999962512698@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6301232704598171209=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 Oct 2025 14:51:56 -0000
+Message-Id: <176062631680.2084959.10651201951187261755@gitolite.kernel.org>
+
+--===============6301232704598171209==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 411b39bd1ac68c44f9e3c7dce5e095f6a71598c1
-    new: eba11116f39533d2e38cc5898014f2c95f32d23a
+  - ref: refs/heads/master
+    old: 9fbdbe7883e68c9cfc12c6eb205f1ae2b0c4b20b
+    new: e8dbf90a54f4a7ef0d537e997349ab37e85d8715
     log: |
-         d5896130a8781de5ac8970dbb7083ce4cd6fe57a dt-bindings: gpio: add QIXIS FPGA based GPIO controller
-         ae495810cffe29c3c30a757bd48b0bb035fc3098 gpio: regmap: add the .fixed_direction_output configuration parameter
-         e88500247dc3267787abc837848b001c1237f692 gpio: add QIXIS FPGA GPIO controller
-         9f0fa1801fe4503eb119a4523a59a494768fda5d gpio: pca953x: enable latch only on edge-triggered inputs
-         f75db6f7f907c10bf4d45a6cfdae03bb1b631841 gpio: tegra186: Use generic macro for port definitions
-         9631a10083d843b57b371d406235e2f2a3e49285 gpio: tegra186: Add support for Tegra410
-         8d0d46da40c878d082b92771355faba8036aecc7 gpio: mm-lantiq: Drop legacy-of-mm-gpiochip.h header from GPIO driver
-         eba11116f39533d2e38cc5898014f2c95f32d23a gpiolib: of: Get rid of <linux/gpio/legacy-of-mm-gpiochip.h>
+         e8dbf90a54f4a7ef0d537e997349ab37e85d8715 6.1-stable patches
          
+
+--===============6301232704598171209==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760626378 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1760626314-e1b6004eb6df0aab15d24aa707fd4e7d29a9c513
+
+9fbdbe7883e68c9cfc12c6eb205f1ae2b0c4b20b e8dbf90a54f4a7ef0d537e997349ab37e85d8715 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjxBsobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OFkP/3ojOMhqwPwp5qDUHW0w
+WHCaT8lVU1nIx3NtTV5QpLtQS07ra8CsnKf6znhtIXaW0D8N7kzDDZp9co4FLLH5
+6YvIuADjeBYLLclhgnIE9Nd5owrG2pTdfOUdYtcyQtNnQdKIp2rS3AD3+OhjRQY+
+IlS64JjjuCnx1YjjqurHGVKTc4XD41cTcBt3rn1GknwbSVGok50x7I2aB4gdiA3Y
+TelZPYf1b6v7If7OBtDiw68LUxE+g0YmxE0Ld+77u+p5ILyoY+tE61I0C/WYFSpJ
+Igv9JYIYoJPEgXHNthA8m6FV/dVXYR2j0BC+qg6IopM4ZohfeHiqoLTR8ewtP/Qb
+cXPiSeNB0FNLpQ/W8CtBZHdJZW/W4FwndOerWXkcFNj2dxj9WIYffgUuze5wEA/2
+nqI0xjbEkMDp5KVnRpotgWjxOa124LkHz5KtHINQxGLGGzK1HLRrMIfdRcoSG85k
+SjoEt1NHq7etju59j/wxEQUkc5E/EUOEgCR2XqHXNpzNP1d8A9c2AdyzdNyMJILD
+9yhxbvWZUQxUXguZez5NgSgg0gocWdtVEoKOPNAN33Yn4TlX3sVcZEUvdknGRCIN
+bT/MKWPxAMTjdESr0G+jXrWJ1jy1dWrgwK7yTkzTg4IziCMA+qemgul/Oo5EadQy
+vfE1GHTwGZhoma27WySdAjNs
+=X5pB
+-----END PGP SIGNATURE-----
+
+--===============6301232704598171209==--
