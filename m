@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 16 Oct 2025 08:15:13 -0000
-Message-Id: <176060251312.1704884.18202397681706348264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Thu, 16 Oct 2025 08:17:05 -0000
+Message-Id: <176060262503.1706026.2436216449297610530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/experimental
-    old: 96c2db8ab43608fab800ed96aa2bf382bd219c24
-    new: dff11bb472521eec380399519f1ad7bb2cce8185
+  - ref: refs/heads/main
+    old: 63a6986d7aaedebd972044e9e880ba9ea5ee7e50
+    new: 15d78e5799eea7ec5ea9c5897ae95aaa0ce8970c
     log: |
-         e67d0b4f743c31239c8a8f8cb964d069a5c40599 erofs-utils: lib: switch to vfile interfaces for compression
-         8567ccf14fd6b91f8318a6164804956428f8daae erofs-utils: lib: refine erofs_write_unencoded_data()
-         dff11bb472521eec380399519f1ad7bb2cce8185 erofs-utils: lib: introduce directory writer
+         15d78e5799eea7ec5ea9c5897ae95aaa0ce8970c kexec-tools 2.0.32
          
+  - ref: refs/heads/master
+    old: 63a6986d7aaedebd972044e9e880ba9ea5ee7e50
+    new: 15d78e5799eea7ec5ea9c5897ae95aaa0ce8970c
+    log: |
+         15d78e5799eea7ec5ea9c5897ae95aaa0ce8970c kexec-tools 2.0.32
+         
+  - ref: refs/tags/v2.0.32
+    old: 0000000000000000000000000000000000000000
+    new: 0aaa7c8789fd4bfab29fd83ac2b7a4333b5e4ab8
