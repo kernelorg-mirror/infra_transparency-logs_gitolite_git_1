@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 16 Oct 2025 00:31:04 -0000
-Message-Id: <176057466480.1323071.328187682152552035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 16 Oct 2025 00:32:42 -0000
+Message-Id: <176057476293.1323916.13463674291451068004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 6c8d4bf0f989742923a86e300a8840b38831616f
-    new: 1ab16cff026d3a21a9e2236228fa2e64bfb2af8d
+  - ref: refs/heads/main
+    old: 31474f7b7b1448e3fe95dfbe85c4d3a8149c09a0
+    new: 8eeeb7c4e9d106b4bbc295692a38f6f4c536f67d
     log: |
-         8dc4aabc96f233c248d51c0b8aa92a6143309807 patches/next: categories cleanup
-         1ab16cff026d3a21a9e2236228fa2e64bfb2af8d patches/next: complete obsolete target sysfs support implementation
+         8eeeb7c4e9d106b4bbc295692a38f6f4c536f67d fix(policy): secret parsing
          
