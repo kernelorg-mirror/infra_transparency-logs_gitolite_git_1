@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 16 Oct 2025 00:09:37 -0000
-Message-Id: <176057337768.1284296.251113821572883487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 16 Oct 2025 00:15:24 -0000
+Message-Id: <176057372493.1308487.11581686329761835821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/notes/signatures/tar
-    old: df141e38bb7afae2965360027b5d8f58055e8c68
-    new: cd723637b2750f30db72b8b40d39dcd0c374dc00
+  - ref: refs/heads/main
+    old: bfdd74166a639930baaba27a8d729edaacd46907
+    new: bc384963bc18e4f21cf8615b57cbbc9c5e0d309a
     log: |
-         cd723637b2750f30db72b8b40d39dcd0c374dc00 Notes added by 'git notes add'
+         bc384963bc18e4f21cf8615b57cbbc9c5e0d309a MAINTAINERS: new entry for IPv6 IOAM
          
