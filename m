@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/maint-scripts
-Date: Thu, 16 Oct 2025 09:26:03 -0000
-Message-Id: <176060676347.1769980.13585780700037578955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 16 Oct 2025 09:26:07 -0000
+Message-Id: <176060676743.1770120.7956027647703487961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/maint-scripts
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
+  - ref: refs/heads/for-linus
+    old: 356f5e418ca3ee85d9e010fb3b1b956d7fa9015f
+    new: c6fceaf166479c05f7d3158ef08e78ae3e3dfa23
+  - ref: refs/heads/for-next
+    old: 356f5e418ca3ee85d9e010fb3b1b956d7fa9015f
+    new: c6fceaf166479c05f7d3158ef08e78ae3e3dfa23
   - ref: refs/heads/master
-    old: df72771be130a78bae750d6bf7a894290b723d37
-    new: f57c2e009ea5956c44f15e20833294dc67e0d75c
+    old: 9b6186b7be5bf21b326a9a651500c1a829cd9618
+    new: 775536bb9f85495d0de70915040c3077a62e8287
     log: |
-         3d24a8e8774ac1c9c30457e2b5bb201215e884ff Final branches for v6.18-rc1
-         f57c2e009ea5956c44f15e20833294dc67e0d75c Initial branches for v6.19-rc1
+         775536bb9f85495d0de70915040c3077a62e8287 Merge branch 'for-linus'
          
