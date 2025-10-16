@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0733532307443610090=="
+Content-Type: multipart/mixed; boundary="===============3580803072292810013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 16 Oct 2025 15:04:51 -0000
-Message-Id: <176062709149.2096325.4187100318880628567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 16 Oct 2025 15:05:04 -0000
+Message-Id: <176062710459.2098399.16918129318199226530@gitolite.kernel.org>
 
---===============0733532307443610090==
+--===============3580803072292810013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 1fdbb3ff1233e204e26f9f6821ae9c125a055229
     new: 2433b84761658ef123ae683508bc461b07c5b0f0
     log: revlist-1fdbb3ff1233-2433b8476165.txt
-  - ref: refs/heads/stable
-    old: 9b332cece987ee1790b2ed4c989e28162fa47860
-    new: 7ea30958b3054f5e488fa0b33c352723f7ab3a2a
-    log: revlist-9b332cece987-7ea30958b305.txt
-  - ref: refs/tags/next-20250716
-    old: 4d088c49d1e49e0149aa66908c3e8722af68ed07
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20251016
     old: 0000000000000000000000000000000000000000
     new: 18ffc9eacb541fa128e9e529f8fd6c6e795624f0
 
---===============0733532307443610090==
+--===============3580803072292810013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -602,33 +595,4 @@ e0b7ced1a603f394610f28f709d1e986a823e9e4 Merge branch 'next' of https://git.kern
 41c625bedce857fd2b63810ac38f8de567d08ddd Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 2433b84761658ef123ae683508bc461b07c5b0f0 Add linux-next specific files for 20251016
 
---===============0733532307443610090==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b332cece987-7ea30958b305.txt
-
-15623c860c93aac71d22e7bedb7661ff2d3418de nsfs: handle inode number mismatches gracefully in file handles
-deafd21efdd106f9744e2339e0c70c0f4ba565c3 fs: update comment in init_file()
-d68a29a6a229f8b4f3b19dbcd0bb02881316d642 rust: file: add intra-doc link for 'EBADF'
-154d1e7ad9e5ce4b2aaefd3862b3dba545ad978d dax: skip read lock assertion for read-only filesystems
-56094ad3eaa21e6621396cc33811d8f72847a834 vfs: Don't leak disconnected dentries on umount
-a779e27f24aeb679969ddd1fdd7f636e22ddbc1e coredump: fix core_pattern input validation
-4dd5b5ac089bb6ea719b7ffb748707ac9cbce4e4 Revert "fs: make vfs_fileattr_[get|set] return -EOPNOTSUPP"
-d90ad28e8aa482e397150e22f3762173d918a724 fs: return EOPNOTSUPP from file_setattr/file_getattr syscalls
-b2796286a6d5f47bf271739c9e589f3a98835a25 Merge patch series "Fix to EOPNOTSUPP double conversion in ioctl_setflags()"
-7933a585d70ee496fa341b50b8b0a95b131867ff ovl: remove redundant IOCB_DIO_CALLER_COMP clearing
-3c652c3a71de1d30d72dc82c3bead8deb48eb749 jbd2: ensure that all ongoing I/O complete before freeing blocks
-328a782cb138029182e521c08f50eb1587db955d ext4: wait for ongoing I/O to complete before freeing blocks
-4b471b736ea1ce08113a12bd7dcdaea621b0f65f ext4, doc: fix and improve directory hash tree description
-1d3ad183943b38eec2acf72a0ae98e635dc8456b ext4: detect invalid INLINE_DATA + EXTENTS flag combination
-971843c511c3c2f6eda96c6b03442913bfee6148 ext4: free orphan info with kvfree
-c065b6046b3493a878c2ceb810aed845431badb4 Use CONFIG_EXT4_FS instead of CONFIG_EXT3_FS in all of the defconfigs
-0f5878834d6ce97426219b64c02a2c4081419d53 rust: bitmap: clean Rust 1.92.0 `unused_unsafe` warning
-7e85ac9da1acc591bd5269f2b890ed1994c42e96 PM / devfreq: rockchip-dfi: switch to FIELD_PREP_WM16 macro
-66f8e4df003e61b72fdc794ed0ec8378d74a9a4a Merge tag 'ext4_for_linus-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-1f4a222b0e334540343fbb5d3eac4584a6bfe180 Remove long-stale ext3 defconfig option
-5a6f65d1502551f84c158789e5d89299c78907c7 Merge tag 'bitmap-for-v6.18-rc2' of https://github.com/norov/linux
-7ea30958b3054f5e488fa0b33c352723f7ab3a2a Merge tag 'vfs-6.18-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-
---===============0733532307443610090==--
+--===============3580803072292810013==--
