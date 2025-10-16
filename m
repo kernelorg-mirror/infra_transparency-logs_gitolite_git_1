@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 16 Oct 2025 09:26:26 -0000
-Message-Id: <176060678676.1770468.15643454568951449771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 16 Oct 2025 09:29:52 -0000
+Message-Id: <176060699280.1773048.15757884079906416897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: df844320a077ab1b5b052351e084855ed2ea0afe
-    new: 20b93a0088a595bceed4a026d527cbbac4e876c5
+  - ref: refs/notes/commits
+    old: 5020c207c1029a8dce7833638a08a72ceacbab74
+    new: 6927b8e0c46466d62911a9d308889c37bc8d74e8
     log: |
-         2290ab43b9d8eafb8046387f10a8dfa2b030ba46 firmware: arm_scmi: Account for failed debug initialization
-         289ce7e9a5e1a52ac7e522a3e389dc16be08d7a4 include: trace: Fix inflight count helper on failed initialization
-         092b9e2ce6dd63d2f36822751a51957412706986 firmware: arm_scmi: Skip RAW initialization on failure
-         20b93a0088a595bceed4a026d527cbbac4e876c5 firmware: arm_scmi: Fix premature SCMI_XFER_FLAG_IS_RAW clearing in raw mode
+         13971b81ad36c62793de945d5d1cc6e632301c9b Notes added by 'git notes add'
+         c2b784180ee940f27ada50b9cf0118a152ad8331 Notes added by 'git notes add'
+         0a4ebcd6205d44cdfafc24e5c020d7d1dcdbf3ed Notes added by 'git notes add'
+         1976b4fef38fea543b7d24fd1c2201c82969de20 Notes added by 'git notes add'
+         73d3b8d3bd0fc7b4746d33835fa6e2322d920f8d Notes added by 'git notes add'
+         c70dbf7661a0f0ef7aa47790feb5bb615a92effb Notes added by 'git notes add'
+         d423ec5ded9a99c60ad4fdb252140b67903a79a7 Notes added by 'git notes add'
+         7a7c9e2b78986e796a528234a1c574807650b387 Notes added by 'git notes add'
+         d228cd6be0448d16ee3aa83223567d7ac83e18c2 Notes added by 'git notes add'
+         ff4503f7d42afbc95b6a9544cd476e8f8991f531 Notes added by 'git notes add'
+         6927b8e0c46466d62911a9d308889c37bc8d74e8 Notes added by 'git notes add'
          
