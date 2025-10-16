@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6924761492123075007=="
+Content-Type: multipart/mixed; boundary="===============0293511991805393071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 16 Oct 2025 23:28:59 -0000
-Message-Id: <176065733964.2535979.14167981506384145643@gitolite.kernel.org>
+Date: Thu, 16 Oct 2025 23:29:02 -0000
+Message-Id: <176065734214.2536717.8894039990375414504@gitolite.kernel.org>
 
---===============6924761492123075007==
+--===============0293511991805393071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 690ec36d34e9b4fe33b4131bf1c9a1dfa349f720
-    new: 2f96a72e27b7bfaaf3a5a4b0f7fb53c1835df7c8
-    log: revlist-690ec36d34e9-2f96a72e27b7.txt
+  - ref: refs/heads/mm-unstable
+    old: abd519a726a0771a1c8fd8a4585a89200745305c
+    new: 689ce2a70fcdbbbe8409ea9964c8bd1ea5b64761
+    log: revlist-abd519a726a0-689ce2a70fcd.txt
 
---===============6924761492123075007==
+--===============0293511991805393071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-690ec36d34e9-2f96a72e27b7.txt
+Content-Disposition: attachment; filename=revlist-abd519a726a0-689ce2a70fcd.txt
 
 8489569461b96e58477c06db22d31d7435a08a79 mm/mremap: correctly account old mapping after MREMAP_DONTUNMAP remap
 c80912bcd7953eb2ee784acb92fd853a0bf3636e mm/damon/core: fix list_add_tail() call on damon_call()
@@ -135,24 +135,5 @@ c73db41599c2b6be315f14aeba89661b0ff83dd7 mm/page_alloc/vmstat: simplify refresh_
 4bfa8dcb4576902e07e446ba71f8d1bf9de9573f mm/page_alloc: batch page freeing in decay_pcp_high
 8b9ad1f5dfd2f0b48fe557ae9534562b125c59dd mm/page_alloc: batch page freeing in free_frozen_page_commit
 689ce2a70fcdbbbe8409ea9964c8bd1ea5b64761 mm-page_alloc-batch-page-freeing-in-free_frozen_page_commit-fix
-524bf586694389c71df17940d56040cc733a789a mempool: clarify behavior of mempool_alloc_preallocated()
-7685b7fab99d56248d4dfd76ed37be4f67a64e17 mm: mprotect: always skip dma pinned folio in prot_numa_skip()
-4e87bb36e1948e9a8287035625fab3c3fe2c5e83 mm: mprotect: avoid unnecessary struct page accessing if pte_protnone()
-8e0d55e772e17a74ec6472577a5e8cb9b4dfee47 mm: huge_memory: use folio_skip_prot_numa() for pmd folio
-b403e7e898aeeae2053ab4490ffde38a3b502fbb mm/page_isolation: clarify FIXME around shrink_slab() in memory hotplug
-6a5ba500fcd42e1141386ac00839b3034bd484be mm/page_alloc: simplify and cleanup pcp locking
-f4ee8f83ceb66756407ba0ca63beb584037417d3 tools/mm: use <stdbool.h> in page_owner_sort.c
-8ef03e179bb868e7f81edd04ff3f70f01075ddc5 mm/khugepaged: fix comment for default scan sleep duration
-3942d882a433e6d77b51ac85d024d7e188ca763a mm: thp: replace folio_memcg() with folio_memcg_charged()
-e968c58a85bf75e2a931e5bcf981c655f5ed6723 mm: thp: introduce folio_split_queue_lock and its variants
-ba69c7a2b897ae68e0555e82a4c1cb2d7d4ed3b7 mm: thp: use folio_batch to handle THP splitting in deferred_split_scan()
-48a225be4d50e584ab2451771bb98d4980ad424c mm: thp: reparent the split queue during memcg offline
-8dc37a378aebe21ed15de980c62d77d6b7f48542 memcg: net: track network throttling due to memcg memory pressure
-5a47d2e3eeb52075e1f77bde923cb3c460e53336 tools/mm/page_owner_sort: add help option support
-0f22abd9096ee1be0c276e1cbcfa585f2ff3c1dc mm/migrate_device: add tracepoints for debugging
-2a61c064e3804b0be7fbbd0639e7c2aba7eb1290 mm/khugepaged: guard is_zero_pfn() calls with pte_present()
-193a93931767166fce7be1878f05910cc230ec81 ksm: use range-walk function to jump over holes in scan_get_next_rmap_item
-1ed9d7d33c2011b17f46e6de4a81d894fb59797c mm/huge_memory: cache folio attribute in __split_unmapped_folio()
-2f96a72e27b7bfaaf3a5a4b0f7fb53c1835df7c8 mm/huge_memory: optimize and simplify __split_unmapped_folio() logic
 
---===============6924761492123075007==--
+--===============0293511991805393071==--
