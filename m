@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3987089874468033330=="
+Content-Type: multipart/mixed; boundary="===============9087704621726188785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 16 Oct 2025 18:46:55 -0000
-Message-Id: <176064041510.2296178.14798429326124070837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 16 Oct 2025 18:46:58 -0000
+Message-Id: <176064041863.2296297.4794461174835748691@gitolite.kernel.org>
 
---===============3987089874468033330==
+--===============9087704621726188785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 760951dd19c2ebf55214e0cb259e4494098dfc9b
     new: 0b7d9b25e4bc2e478c9d06281a65f930769fca09
     log: |
@@ -26,28 +26,28 @@ changes:
          0b7d9b25e4bc2e478c9d06281a65f930769fca09 spi: airoha: fix reading/writing of flashes with more than one plane per lun
          
 
---===============3987089874468033330==
+--===============9087704621726188785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1760640475 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1760640412-6b4bab62169c07094b7c0ebdc64ddb3c08138c24
+pusher C3F436CA30F5D8EB 1760640479 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1760640416-1b352a186b80e0360e7278bfa75455a516567ae0
 
-760951dd19c2ebf55214e0cb259e4494098dfc9b 0b7d9b25e4bc2e478c9d06281a65f930769fca09 refs/heads/for-6.18
+760951dd19c2ebf55214e0cb259e4494098dfc9b 0b7d9b25e4bc2e478c9d06281a65f930769fca09 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjxPdsACgkQJNaLcl1U
-h9C/nAf/XL53s6pfpZQclpRYy+WfRsolsCIb4QyMYhpF0xO58ZZFSrH6C2n//E7h
-hFHlSfYmz99WQ7KA9CFJnrQEjmNzqPdbvVqENpzxeqno5gR8mgvbeZbT9THMGO2j
-T0Md1h+60n0aIloXKAN8zpmuQYVCiSChIIHrtOyt856ZbSPbn6RdoR0At59CTz/q
-JAi9pTzNsyB1rNmwKJjVNNo50FKT26nzEhJlLslhZDxekyayzdbRE4lpL2YKeBIE
-qj3aFNBgN8BuSunyr4X5B1LcIv8nAZ6J84nobc9TppWizl6ZZF6yPImkUscDel6T
-dSc+6Jc6+fUUdAh9naQgu517lIOs1w==
-=gi8g
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjxPd8ACgkQJNaLcl1U
+h9DwJgf/XX7HsjsyJLiOEMgt8QullK4RdxbFwsqAdMMDaNNEjFpzjAWKtvvTPFUK
+79aUc3IhRQJ3Xm7qiamFuz+QMnnIPzDOeoOqqP8MHjBDwETgLrVnlsI/zIknHHnU
+O4TpQrhB7hede8mVv7RNvAVC1EH4GR1MiyuwgX/e05AZeXvEm5919puXejHcuGRT
+ZN1D3B9H12OEEZOyaHZnSGlpA+1dw7TTePiRDprqqfnU1eSbfLN1OB61lvpz+ep8
+QDiCth8OvlZLhg5L4KyI+YRCpvDGbV90ESrYcCESRsOw6caeNVkfk72aPjygr6cC
+MRAb3Le7S+7ilfWmBnnueiypS/VltA==
+=WyJy
 -----END PGP SIGNATURE-----
 
---===============3987089874468033330==--
+--===============9087704621726188785==--
