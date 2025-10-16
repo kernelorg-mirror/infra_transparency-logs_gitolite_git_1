@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 16 Oct 2025 18:28:09 -0000
-Message-Id: <176063928997.2278783.5224787754725050952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Thu, 16 Oct 2025 18:29:32 -0000
+Message-Id: <176063937262.2279932.6970006910470049217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 7e4c3a1fafde6676827fff4fcdf621b4fe96d4c1
-    new: b89088ff5a7ac2955496fec36ff1433867f27c0b
-    log: |
-         4a8d4b1d4b8abcc0d73b924d4d15828dd2ead301 nfsd: Use MD5 library instead of crypto_shash
-         b89088ff5a7ac2955496fec36ff1433867f27c0b siw: Enable try_gso
-         
+  - ref: refs/tags/i2c-for-6.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 69fb142e5b59aa42665c0a7ba1473d501bcf90f3
