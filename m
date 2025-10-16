@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7902463740336717389=="
+Content-Type: multipart/mixed; boundary="===============8622771939126631288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 16 Oct 2025 18:19:00 -0000
-Message-Id: <176063874074.2270193.13946690300465970440@gitolite.kernel.org>
+Date: Thu, 16 Oct 2025 18:20:55 -0000
+Message-Id: <176063885532.2273041.10402782825006747743@gitolite.kernel.org>
 
---===============7902463740336717389==
+--===============8622771939126631288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 98ac9cc4b4452ed7e714eddc8c90ac4ae5da1a09
-    log: revlist-3a8660878839-98ac9cc4b445.txt
+  - ref: refs/heads/dev
+    old: 9d5c4f5c7a2c7677e1b3942772122b032c265aae
+    new: c9cd50d5aaf8afe43d139121ad5f3ad95beddfe1
+    log: revlist-9d5c4f5c7a2c-c9cd50d5aaf8.txt
 
---===============7902463740336717389==
+--===============8622771939126631288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-98ac9cc4b445.txt
+Content-Disposition: attachment; filename=revlist-9d5c4f5c7a2c-c9cd50d5aaf8.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -74,8 +74,6 @@ a5a51bf4e9b7354ce7cd697e610d72c1b33fd949 btrfs: do not assert we found block gro
 fec9b9d3ced39f16be8d7afdf81f4dd2653da319 btrfs: fix memory leaks when rejecting a non SINGLE data profile without an RST
 e92c2941204de7b62e9c2deecfeb9eaefe54a22a btrfs: tree-checker: fix bounds check in check_inode_extref()
 8aec9dbf2db2e958de5bd20e23b8fbb8f2aa1fa6 btrfs: send: fix -Wflex-array-member-not-at-end warning in struct send_ctx
-1ee889fdf409ce68c1e3b62912333a5cc69acaa0 f2fs: don't call iput() from f2fs_drop_inode()
-9d5c4f5c7a2c7677e1b3942772122b032c265aae f2fs: fix wrong block mapping for multi-devices
 fcb8b32a68fd40b0440cb9468cf6f6ab9de9f3c5 dpll: zl3073x: Handle missing or corrupted flash configuration
 25718fdcbdd2dadd15fc8b684df59b43970b91ed net: gro_cells: Use nested-BH locking for gro_cell
 70f92ab97042f243e1c8da1c457ff56b9b3e49f1 r8169: fix packet truncation after S4 resume on RTL8168H/RTL8111H
@@ -130,5 +128,8 @@ ef25485516b09db57493f5e78b3358db7cbdcaa0 Merge tag 'ata-6.18-rc2' of git://git.k
 05de41f3e26237bc34822268f958be1820bf968b Merge tag 'v6.18-rc1-smb-server-fixes' of git://git.samba.org/ksmbd
 9f388a653c8a481cbdbdedca081a1f9f3ba204a2 Merge tag 'for-6.18-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 98ac9cc4b4452ed7e714eddc8c90ac4ae5da1a09 Merge tag 'f2fs-fix-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+5d431cc8759bd62ccdb45f196317ea6e93b83fee f2fs: maintain one time GC mode is enabled during whole zoned GC cycle
+9a25aeb2be7a268c671cdf9ecc43c4a00b710af5 f2fs: set default valid_thresh_ratio to 80 for zoned devices
+c9cd50d5aaf8afe43d139121ad5f3ad95beddfe1 f2fs: use folio_nr_pages() instead of shift operation
 
---===============7902463740336717389==--
+--===============8622771939126631288==--
