@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 16 Oct 2025 16:44:17 -0000
-Message-Id: <176063305758.2185980.12191150480346037235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Thu, 16 Oct 2025 16:46:12 -0000
+Message-Id: <176063317276.2188690.13770200931062015009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/tags/for-6.18-rc1-tag
-    old: 0000000000000000000000000000000000000000
-    new: 701295fefb3926cfe5029ac9b1a20a205ab71c14
+  - ref: refs/heads/master
+    old: f3d75a725a3efbb5ba4822d3f1b835c6ae08c464
+    new: cd98035a31bcefff91d221aa25df2b7b98da243d
+    log: |
+         cd98035a31bcefff91d221aa25df2b7b98da243d runlatex.sh: Detect fvextra versions with known minor regression
+         
