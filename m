@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8520117674226795684=="
+Content-Type: multipart/mixed; boundary="===============0296159436447247897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Oct 2025 14:23:15 -0000
-Message-Id: <176062459577.2058393.8251853468876542449@gitolite.kernel.org>
+Date: Thu, 16 Oct 2025 14:24:56 -0000
+Message-Id: <176062469655.2059896.7007953638159107847@gitolite.kernel.org>
 
---===============8520117674226795684==
+--===============0296159436447247897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 442ef28cdbec709ae5e5d32c41a9c40fd7ca2498
-    new: 13896b32f0e78fc4945f0c97fe9f03a9afae6ee5
+    old: 13896b32f0e78fc4945f0c97fe9f03a9afae6ee5
+    new: 9fbdbe7883e68c9cfc12c6eb205f1ae2b0c4b20b
     log: |
-         13896b32f0e78fc4945f0c97fe9f03a9afae6ee5 6.12-stable patches
+         9fbdbe7883e68c9cfc12c6eb205f1ae2b0c4b20b drop cpufreq-cppc-avoid-using-cpufreq_eternal-as-transition-delay.patch from older queues
          
 
---===============8520117674226795684==
+--===============0296159436447247897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760624657 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760624758 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1760624593-8f41604bc678bc1f712920894f8a883af086d586
+nonce 1760624694-df01914414505396f35f4695226b5af995b7eabf
 
-442ef28cdbec709ae5e5d32c41a9c40fd7ca2498 13896b32f0e78fc4945f0c97fe9f03a9afae6ee5 refs/heads/master
+13896b32f0e78fc4945f0c97fe9f03a9afae6ee5 9fbdbe7883e68c9cfc12c6eb205f1ae2b0c4b20b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjxABEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DWgP/0HPkw4goL5FzxK/UaM6
-xCmsYJdu0BJyRur2FHLkGTG4OPC46QkvON0nLLcNXVINcADWYc4Q//n8WftFOZ/+
-/cPJ2qFO4A/jjAlJMk87d47oJRSOvTlQloBJb739+OYmKd09FLzr7WOHz9pVvLcz
-d/XoE9iOgD9EkdYljipY+GMw/A+gj3n9VnJpufkLgQnbdMdGBXwLHN+SUkAa29c3
-vkX077AYdNZoCPsbyPGzHbA4+mznhxgKxmp/GCQgd01xEbY/pawZqWpSn4KskQlg
-EyNLqsh/hRgk/Dhw8FwpZO+Z2y5oXGOLcicvysO4eEddbHjgWwE27zCur5CV5R2D
-fRnzz8rbkFYNouySkdDg062sQ7HAGXEyvfAZOYUhD9TmcxqYz46j7VaC380NYmbP
-9J1Mn9yWQx5c6EhfGqfdOz+J0ILEVl3BhuZ/rokGbi1Fah07kQ6jhPSH40MO9UD9
-50wBYFFo+vKrxbNXj4mb17SWznYpsfgHrNdTpLMp6019BSjjE5t+At2vDJkijfqs
-DGHappcUFXD/k1vKBvNwWfoHs7kR2F0f4dmtPu9FxTc4arrTyB6Sum/Sx5wC0hGS
-9qSDNHnKnIBDtDO9h3KI3yhT/tDVIXkBVVx2NGP4HUFb4WItKLPwCWL67XgIqbbF
-VQwjkpOxCuLb9Qwapof4RKqW
-=5bNi
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjxAHYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BX8QAKCQYOhz/WqTxidkBmHx
+Xeg5u+jQXoGNfAjI0PIrtpHViW6zj/3QKXMSGTmYbTgMyhYCLojDQ5UpeMVjvplN
+Fwt4V2W7E4h5X0eN1lt5JycB4/llMN1/j3PWOBqIUmUTGPDLAZE7GeOdyAGHol6K
+/dsAukMdYQz9FM1Lgr7k7qbw/m9OZ74F02tRwDpWB0qIvSCzzrdpznPdJipaD8PY
+NOUQ0rB5RKBDWhNZ9GoyDsc23/Q0SL7WkFCH1rdpC8VfPLa84dPxa6nonbuTfHhj
+waE/lwVEhDsMrwIGeoIojdpxWOdLrItVfA6A2seZILJXXcJoHGynccq/JiCCg2Ht
+AFX0IQ5xLBybuXEEugMqsSLzvdz2iww6o2+qMhmu01u/0u+nmt5MVUXvCEqekirO
+GB4K3T4FvLB6EsWx7YjpyJKPG4YAR/hUzRCPP1H3VEnzSUezlyqiH6zfOVuJvGNp
+uTDVAhuT+pGNi69ygAJAwwRBpiq6fx7W7xGh6PaORjl012LKt63sNjllaEs/AFwR
+mZc5JFnJ+6qBRkS8HDnoMz8qRuWi+yzKh8oburanb/e3DQxCrxFg8heublK1C1Cf
+vaK6w6lJ/7tFG8TjTcIwGSb5+N+wBzrmJMW4GU6+EC6f5rwn/yxi5enxX4G7JzvM
+HJzBMwnmDNwZcD4UgJX1nMbR
+=vjdV
 -----END PGP SIGNATURE-----
 
---===============8520117674226795684==--
+--===============0296159436447247897==--
