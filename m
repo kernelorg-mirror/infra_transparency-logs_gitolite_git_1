@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 16 Oct 2025 18:23:18 -0000
-Message-Id: <176063899855.2274245.8217520943202516539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 16 Oct 2025 18:25:55 -0000
+Message-Id: <176063915534.2277650.4195631960506544134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/ksmbd-pending
-    old: 27199266b5971dd2e75156b46a7d9bbc4b62f06c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/for-netdev
+    old: 0000000000000000000000000000000000000000
+    new: 17074d30e2730b876ad000e00b70f0c5bd0cfbb5
