@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6374438328072663233=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 16 Oct 2025 09:10:23 -0000
-Message-Id: <176060582329.1754789.2950067132641656508@gitolite.kernel.org>
-
---===============6374438328072663233==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 16 Oct 2025 09:13:05 -0000
+Message-Id: <176060598525.1756251.5422568858778325574@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 0d38fe24361d39612ca0c45fb7ff169f7cfdf4a0
-    new: a87755e0a8b17442aa3c6f3da9e5addf701ce306
+  - ref: refs/heads/locking/core
+    old: bc46a565798322686d367c09b790a43a5b6fd847
+    new: 5d732537cc88d34ff7f370bf11dc7f0c649bdd3d
     log: |
-         a87755e0a8b17442aa3c6f3da9e5addf701ce306 6.1-stable patches
+         ff5efe4d2f5ee36c7bf302a53517bef54a7a27bd atomic: Skip alignment check for try_cmpxchg() old arg
+         c628b9f47d3039a131644504dcae46acbc9b7788 documentation: seqlock: fix the wrong documentation of read_seqbegin_or_lock/need_seqretry
+         1bc5d8cefd0d9768dc03c83140dd54c552bea470 seqlock: Introduce scoped_seqlock_read()
+         cc581c0c07487bf7cf405e39a65554ada2747f65 seqlock: Change thread_group_cputime() to use scoped_seqlock_read()
+         77db8554bcf8fad581e83f6c98a1c92ef61a9afb seqlock: Change do_task_stat() to use scoped_seqlock_read()
+         5d732537cc88d34ff7f370bf11dc7f0c649bdd3d seqlock: Change do_io_accounting() to use scoped_seqlock_read()
          
-
---===============6374438328072663233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760605884 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1760605821-538d7db98a5bf79e458fc2e192cfc8e45b6fb1ef
-
-0d38fe24361d39612ca0c45fb7ff169f7cfdf4a0 a87755e0a8b17442aa3c6f3da9e5addf701ce306 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjwtrwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bdQP/RQJhm8QoyQBmEEhN52i
-Lj8T6qEo1Myq6hQlNVxv726hFQgptRqDnJ8/D+tdLsRuPoqHlXXgdXw7c9PZlsQM
-wEmUPx4Lgd9Ayjt7FY338l09UzK/Dl1nrpE2aB6RW1XIV1402qPGFo4dfYNTxv/H
-HiyGrce4no7009yerXCubBpfwCN8hMIzyy1GmgSE+iFLnn1NxHyEyt0rQ7IG+2DF
-MfsTfGucrdlrjq8rXWLiyyrwIy3QpgBQb+VEwUGqygL1LsCjPQBI2SYBIZW/3AKS
-hNdnx37NGzjrZMtYylm+ssPwrswfFc+AjBvSM5EbecUUEWDXrVT7XnJErR4rF2bg
-Oz83xiH4q9W1Nx8HtjIs0xn/hURSzdpctc2ZU0+FggwJ5aRKh7QA2HHJBrKzyyJF
-p8Y7o6qMNOIEZElAiFKGG4A1nqc+yNJ3foEDgRd/nA7kk6yElKDNBoBWuTiR1s9z
-jZ9zM1i4QTn+7dr9w8Ik2DyIrDcXXw8TJUhXWpQIVoM83ETIPZFSoPvm9uSVuIEc
-kzYeaI92Yt/AP90R/Pg3qO/vF6+1d3pgVzwEYHe2HjenHeOQPCwkdj65oOaOerzH
-NbzNBui2xGx7FWtWJIhsXNssjaP4ubGNfOO39N8t9qIAtiM2jBW7I98vf8L8KgDR
-Z0n8DD9P4d3BzwH6ZEG6VpZj
-=B7Vu
------END PGP SIGNATURE-----
-
---===============6374438328072663233==--
