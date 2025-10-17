@@ -1,32 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Fri, 17 Oct 2025 05:16:35 -0000
-Message-Id: <176067819509.2828983.3713620738137103229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Fri, 17 Oct 2025 05:25:04 -0000
+Message-Id: <176067870466.2836844.2026794942065282416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-linus
-    old: 8b87f67b4c87452e21721887fa8dec1f4c6b2b7c
-    new: 7363096a5a08f8740c9075ecfc51945375c304bc
+  - ref: refs/heads/block-with-mmio-v1
+    old: 306658e5853d85769d3e8b15ed460387e2cfee5a
+    new: c84b7db6249f549365140b25ca5cce92001f5171
     log: |
-         c6d99e488117201c63efd747ce17b80687c3f5a9 Input: goodix - add support for ACPI ID GDIX1003
-         7363096a5a08f8740c9075ecfc51945375c304bc Input: goodix - remove setting of RST pin to input
-         
-  - ref: refs/heads/master
-    old: c7866ee0a9ddd9789faadf58cdac6abd7aabf045
-    new: 295e3beead10e96c1feda7ed145113bb9191e296
-    log: |
-         295e3beead10e96c1feda7ed145113bb9191e296 Input: cyttsp5 - use %pe format specifier
-         
-  - ref: refs/heads/next
-    old: c7866ee0a9ddd9789faadf58cdac6abd7aabf045
-    new: 295e3beead10e96c1feda7ed145113bb9191e296
-    log: |
-         295e3beead10e96c1feda7ed145113bb9191e296 Input: cyttsp5 - use %pe format specifier
+         a62542d933bcffd3c9629642b5eb558473ace042 block: Enable proper MMIO memory handling for P2P DMA
+         8bee1a5c892165acca777745c8872e63b8d12c6e blk-mq-dma: migrate to dma_map_phys instead of map_page
+         654f74e9a7806f0d9977d55dc10f5fb3011b0bbe nvme-pci: unmap MMIO pages with appropriate interface
+         c84b7db6249f549365140b25ca5cce92001f5171 block-dma: properly take MMIO path
          
