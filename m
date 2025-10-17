@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6769579189075131334=="
+Content-Type: multipart/mixed; boundary="===============5925123058395581108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 17 Oct 2025 14:56:44 -0000
-Message-Id: <176071300402.3365720.14350852456924456674@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 14:57:57 -0000
+Message-Id: <176071307712.3366413.15179299114762283357@gitolite.kernel.org>
 
---===============6769579189075131334==
+--===============5925123058395581108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/heads/rseq/perf-v5
-    old: e3b7b19a67850538a1b2561621973ffde582706c
-    new: 51c802b31f45c6ae9e3977046224c563f36e5657
-    log: revlist-e3b7b19a6785-51c802b31f45.txt
+  - ref: refs/heads/rseq/cid-v2
+    old: 91b56b5f28ac0ccc802ce8705bd6051eaeebf1c9
+    new: 9b085f00eda02f2029d34cae8f2e5fa79b518fcc
+    log: revlist-91b56b5f28ac-9b085f00eda0.txt
 
---===============6769579189075131334==
+--===============5925123058395581108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3b7b19a6785-51c802b31f45.txt
+Content-Disposition: attachment; filename=revlist-91b56b5f28ac-9b085f00eda0.txt
 
 a2ea0de0c0ec10a8067370b2cd010b212fa4aae6 ARM: uaccess: Implement missing __get_user_asm_dword()
 8a11b882116beef393869847146efc8164df4b82 uaccess: Provide ASM GOTO safe wrappers for unsafe_*_user()
@@ -69,5 +69,24 @@ eb770c4bbd0a557877cc18dd072411e33efbab47 rseq: Rework the TIF_NOTIFY handler
 1bfd3fc65c52624a522de0f1b8d35bd550fe1d17 entry: Split up exit_to_user_mode_prepare()
 4f3e6b4a96a09fe4cfd756c62056d2726faba407 rseq: Split up rseq_exit_to_user_mode()
 51c802b31f45c6ae9e3977046224c563f36e5657 rseq: Switch to TIF_RSEQ if supported
+06e18e1d546b0075f85f62ea12d9d101141c9d40 sched/mmcid: Revert the complex CID management
+3e967052149b1267598e9ea48503277a159173d1 sched/mmcid: Use proper data structures
+6de043f65349bc974188d68ffa9ddbdf259c8c63 sched/mmcid: Cacheline align MM CID storage
+4b9f4db378cc7234bb9ff837bafcdc969225ff7f sched: Fixup whitespace damage
+cf3d37c10f13412672ab01f1bf438334f69609ee sched/mmcid: Move scheduler code out of global header
+dea425c9dc2bbb416e389123319e165ed6f6d6e4 sched/mmcid: Prevent pointless work in mm_update_cpus_allowed()
+6487565db94b7c37de9b6bc605c10a915d95ee11 cpumask: Introduce cpumask_or_weight()
+7a3f953ad530d3cfbf493d707df04e78d92360e9 sched/mmcid: Use cpumask_or_weight()
+4b29e7b368c3c2eaa534e5185a86ee14f494d6d6 sched/mmcid: Convert mm CID mask to a bitmap
+6a86bca135ead579ab3a215a7baa670f2df688b5 signal: Move MMCID exit out of sighand lock
+c4330cac5aae3baffd088b43e61964e4f199b488 sched/mmcid: Move initialization out of line
+805f18db5eac7c1d2c49c443a468a46fce1dda5a sched/mmcid: Provide precomputed maximal value
+e017608f4c65032cf58846d0556af7a8ccba3c25 sched/mmcid: Serialize sched_mm_cid_fork()/exit() with a mutex
+fec6f988403e6eb694cfca0262b6cbd3dc554782 sched/mmcid: Introduce per task/CPU ownership infrastrcuture
+94b416b221904523f1058d42dc01ce7b13e68bb8 sched/mmcid: Provide new scheduler CID mechanism
+e2f7f980bc1b4203ce7f5f9a47ab6e8ce3af8fce sched/mmcid: Provide CID ownership mode fixup functions
+ae330c531552c5082aa5caa5529d207a67be1d2c irqwork: Move data struct to a types header
+e639d3502600b6e15a29199908979df66fec2cba sched/mmcid: Implement deferred mode change
+9b085f00eda02f2029d34cae8f2e5fa79b518fcc sched/mmcid: Switch over to the new mechanism
 
---===============6769579189075131334==--
+--===============5925123058395581108==--
