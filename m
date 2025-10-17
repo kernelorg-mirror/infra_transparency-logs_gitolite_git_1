@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 17 Oct 2025 18:33:30 -0000
-Message-Id: <176072601007.3558793.6184566852439192757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
+Date: Fri, 17 Oct 2025 18:46:38 -0000
+Message-Id: <176072679855.3570445.13781463980294084342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/morse/linux
+user: morse
 changes:
-  - ref: refs/heads/master
-    old: 7c33e97a6ef5d84e98b892c3e00c6d1678d20395
-    new: a1e83d4c0361f4b0e3b7ef8b603bf5e5ef60af86
-    log: |
-         a1e83d4c0361f4b0e3b7ef8b603bf5e5ef60af86 selftests/bpf: Fix redefinition of 'off' as different kind of symbol
-         
+  - ref: refs/heads/mpam/snapshot/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 06bc552a3b617fd4d75560d1921dd6fb91893293
