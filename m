@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2983967532785399152=="
+Content-Type: multipart/mixed; boundary="===============8066692492926244001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 03:38:22 -0000
-Message-Id: <176067230260.2747892.12448071273601113348@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 03:38:25 -0000
+Message-Id: <176067230533.2748047.14389738050562149637@gitolite.kernel.org>
 
---===============2983967532785399152==
+--===============8066692492926244001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/dontcache
-    old: a0833be295d169867885cf62653b3d1bc54f8d42
-    new: 30df5cc5653a8966fee66e2da5d8ff927040a069
-    log: revlist-a0833be295d1-30df5cc5653a.txt
+  - ref: refs/heads/kernel-6.12.53/xfs
+    old: bdc01d5750a05c84f20cef7dbd20b4f171b4fcde
+    new: a7915cfb7ab26d78e4f1cbfbde709c0e43b9a843
+    log: revlist-bdc01d5750a0-a7915cfb7ab2.txt
 
---===============2983967532785399152==
+--===============8066692492926244001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0833be295d1-30df5cc5653a.txt
+Content-Disposition: attachment; filename=revlist-bdc01d5750a0-a7915cfb7ab2.txt
 
 d1820a10b6e014b4fede863f35efb2b9f5f38e89 Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
 1136b6aa2d11fc24113de93b404dbadd21b4a72f Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
@@ -142,5 +142,8 @@ bbb2e42d7673f404f5709d5ec52fe5ac46451b4b fs: add STATX_DIO_READ_ALIGN
 9f3a0bbafe1fc5a2c7099c41d3dff9388e5d788b xfs: cleanup xfs_vn_getattr
 52fc1c62fca8fb845e72ec31a87073bee17ecd1e xfs: report the correct read/write dio alignment for reflinked inodes
 30df5cc5653a8966fee66e2da5d8ff927040a069 xfs: report larger dio alignment for COW inodes
+6521a83bbfe940ed3abe80b213fe1ebf9bdc47aa xfs: apply rt extent alignment constraints to CoW extsize hint
+ec1e2e3cb7bcee96e77f511d7c23b2cb310d3511 xfs: rearrange code in xfs_inode_item_precommit
+a7915cfb7ab26d78e4f1cbfbde709c0e43b9a843 xfs: rework datasync tracking and execution
 
---===============2983967532785399152==--
+--===============8066692492926244001==--
