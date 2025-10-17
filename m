@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6613539208729431933=="
+Content-Type: multipart/mixed; boundary="===============4171246633867741833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 17 Oct 2025 17:55:12 -0000
-Message-Id: <176072371233.3525347.16803267030205734904@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 17:59:18 -0000
+Message-Id: <176072395853.3527606.5579206590387317285@gitolite.kernel.org>
 
---===============6613539208729431933==
+--===============4171246633867741833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 6f3b6e91f7201e248d83232538db14d30100e9c7
-    log: revlist-3a8660878839-6f3b6e91f720.txt
+  - ref: refs/heads/pcc_updates
+    old: 99c6db37254fdc800daf2a254be7c77d69eaa24f
+    new: 0a9211f2ca0f0a9b16700c7da33317a7b16479e6
+    log: revlist-99c6db37254f-0a9211f2ca0f.txt
 
---===============6613539208729431933==
+--===============4171246633867741833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-6f3b6e91f720.txt
+Content-Disposition: attachment; filename=revlist-99c6db37254f-0a9211f2ca0f.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -229,5 +229,11 @@ e96687c6d3b7814e6516dfa732946d3f40142819 Merge tag 'drm-fixes-2025-10-17' of htt
 cf1ea8854e4fb1341c08f66e6c91da97d038ab6a Merge tag 'mmc-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 0c8df15f758a69a7bf88ecf9b7f95dc7db2c463c Merge tag 'block-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 6f3b6e91f7201e248d83232538db14d30100e9c7 Merge tag 'io_uring-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+52c8497c2202e1b8f020875a9ab8f0da0e8c7b6e Revert "mailbox/pcc: support mailbox management of the shared buffer"
+10f90d2a980c6893727a3d0c73f8c06795ef977b mailbox: pcc: Wire up ->last_tx_done() for PCC channels
+016819259f13a6b345bc588cd37155da8789b829 mailbox: pcc: Set txdone_irq/txdone_poll based on PCCT flags
+203d9c51f256ce4b3728d2e720dabf5edf87fd9e mailbox: pcc: Mark Tx as complete in PCC IRQ handler
+0d9391b740a69ff8a4ac5c8fddc4d37711ddeedd mailbox: pcc: Initialize SHMEM before binding the channel with the client
+0a9211f2ca0f0a9b16700c7da33317a7b16479e6 mailbox: pcc: Clear any pending responder interrupts before enabling it
 
---===============6613539208729431933==--
+--===============4171246633867741833==--
