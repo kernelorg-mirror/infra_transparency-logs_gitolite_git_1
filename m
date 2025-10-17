@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Fri, 17 Oct 2025 22:25:40 -0000
-Message-Id: <176073994041.3756371.14775876512371151475@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 22:25:49 -0000
+Message-Id: <176073994960.3756557.9274912899692445018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: f60e8686d90483f64ee47790c9aa51d6ea23caee
-    new: 852bfe55e2117a25c16a20b81212a6f716c0ba4a
+  - ref: refs/heads/hyperv-next
+    old: 0f60b8508ca2ac685e0400cd802d1251a9d67ee4
+    new: 8d214d52ab5777adccdf30db1e8feea1629b499b
     log: |
-         852bfe55e2117a25c16a20b81212a6f716c0ba4a mshv: Fix deposit memory in MSHV_ROOT_HVCALL
+         81c37e72bf148d641d916a37f3565a7a2bec28e6 MAINTAINERS: Add Long Li as a Hyper-V maintainer
+         8d214d52ab5777adccdf30db1e8feea1629b499b x86: mshyperv: Remove duplicate asm/msr.h header
          
