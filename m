@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8066692492926244001=="
+Content-Type: multipart/mixed; boundary="===============1840302706759130500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 03:38:25 -0000
-Message-Id: <176067230533.2748047.14389738050562149637@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 03:38:28 -0000
+Message-Id: <176067230847.2748175.14658068929695713839@gitolite.kernel.org>
 
---===============8066692492926244001==
+--===============1840302706759130500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/xfs
-    old: bdc01d5750a05c84f20cef7dbd20b4f171b4fcde
-    new: a7915cfb7ab26d78e4f1cbfbde709c0e43b9a843
-    log: revlist-bdc01d5750a0-a7915cfb7ab2.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-next-thru-nfsd-6.17-1
+    old: 3b5cc897262e44251395ca4a0d737c7084ccd8b3
+    new: 8700b62e0ec13d151597546a0dbd1d08e26e8a63
+    log: revlist-3b5cc897262e-8700b62e0ec1.txt
 
---===============8066692492926244001==
+--===============1840302706759130500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdc01d5750a0-a7915cfb7ab2.txt
+Content-Disposition: attachment; filename=revlist-3b5cc897262e-8700b62e0ec1.txt
 
 d1820a10b6e014b4fede863f35efb2b9f5f38e89 Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
 1136b6aa2d11fc24113de93b404dbadd21b4a72f Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
@@ -142,8 +142,37 @@ bbb2e42d7673f404f5709d5ec52fe5ac46451b4b fs: add STATX_DIO_READ_ALIGN
 9f3a0bbafe1fc5a2c7099c41d3dff9388e5d788b xfs: cleanup xfs_vn_getattr
 52fc1c62fca8fb845e72ec31a87073bee17ecd1e xfs: report the correct read/write dio alignment for reflinked inodes
 30df5cc5653a8966fee66e2da5d8ff927040a069 xfs: report larger dio alignment for COW inodes
-6521a83bbfe940ed3abe80b213fe1ebf9bdc47aa xfs: apply rt extent alignment constraints to CoW extsize hint
-ec1e2e3cb7bcee96e77f511d7c23b2cb310d3511 xfs: rearrange code in xfs_inode_item_precommit
-a7915cfb7ab26d78e4f1cbfbde709c0e43b9a843 xfs: rework datasync tracking and execution
+9519c4b9963f236548ea5621c607f26b0a398da2 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+b7c534b71504566b38cade437c35ae543db9f272 NFSD: release read access of nfs4_file when a write delegation is returned
+ff0d8a4fab5bf72c9a94e409efb346cd8a5c064c sunrpc: simplify xdr_init_encode_pages
+7a1c5c95c07aec37b054346f8d9e8f0f81687770 sunrpc: simplify xdr_partial_copy_from_skb
+78e200c5d89188ea9e4d09ddbbf7e2380ad2a8f6 sunrpc: unexport csum_partial_copy_to_xdr
+23e25e3707107b1a7fc8a65411d588c338deac29 sunrpc: new tracepoints around svc thread wakeups
+ab869c3424b40ce117459239035e3e25b8d05c80 nfsd: Change the type of ek_fsidtype from int to u8 and use kstrtou8
+321be5b4e7d4cb11ca93e5dfd0c8adccc0f13e1f NFSD: Rename a function parameter
+4bd51b3745ce5ebbf39188d810ce073e743dee8c NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort
+ae0d0efdf543133baf4aa48b8594ceeccc5b4f32 NFSD: Remove the cap on number of operations per NFSv4 COMPOUND
+6cfdf0cfbb94341996abb3d11ef5ab9e17a999d2 nfsd: Use correct error code when decoding extents
+4ebe6340fc33c3a35cad9c845019577ba81c6863 NFSD: Remove definition for trace_nfsd_file_unhash_and_queue
+7785beb00d3658fd8b6133c5141efe20f656f2df NFSD: Remove definitions for unused trace_nfsd_file_lru trace points
+d8c1be2101f08593143de67cb3fa9c1db440608b NFSD: Remove definition for trace_nfsd_file_gc_recent
+eefd8bb66096f2434414c3ad5deadc46e8612002 NFSD: Remove definition for trace_nfsd_ctl_maxconn
+9800b1cf4219fe883331f7c92f9507944a88feb4 NFSD: Clean up kdoc for nfsd_file_put_local()
+f8d9d72692abec4a006c3027d060c24e74260591 NFSD: Clean up kdoc for nfsd_open_local_fh()
+80d8ee40a3990a33a59cddcfd9b407bf9a73ddc1 NFSD: Use vfs_iocb_iter_read()
+0842f3c5e36a679b046023ecb76b12be4d8426b0 NFSD: Use vfs_iocb_iter_write()
+e63b6cad777e0afbb27e526c004b82eacb7a94c0 NFSD: Avoid multiple -Wflex-array-member-not-at-end warnings
+437ba4c1e49230adff9e4dd2de3f6626edb5e378 Revert "NFSD: Force all NFSv4.2 COPY requests to be synchronous"
+5758eaf7f7a58312e18582293f03ebf85357c614 NFSD: Access a knfsd_fh's fsid by pointer
+9d3dcd541e2735906ea43e58afa4ff9fffa87ca4 NFSD: Simplify struct knfsd_fh
+9aebbd0ea4d932336e072b596c5aa8506ded4402 sunrpc: fix handling of unknown auth status codes
+d9531dd6ec0fa3fe5fcdc3908f6e2d977bc9a5ae sunrpc: remove SVC_SYSERR
+cc204d63f238a3fc2d40f03d85edbf5c3b2d28cd sunrpc: reset rq_accept_statp when starting a new RPC
+d5e14b29b5f28ebcc5d94505c8642351a0484824 sunrpc: return better error in svcauth_gss_accept() on alloc failure
+f84ae7914c08f3840d7990022a3bc4c7f547e7ce sunrpc: rearrange struct svc_rqst for fewer cachelines
+814e3d43d86e9c492c5d114eb59ce1f7b427fc10 sunrpc: make svc_tcp_sendmsg() take a signed sentp pointer
+9d162490854ecaf2e2397433a334cd69517a5a9d nfsd: Drop dprintk in blocklayout xdr functions
+4c0915f2a4709622e4ea050ffa93abe25974b629 nfsd: don't set the ctime on delegated atime updates
+8700b62e0ec13d151597546a0dbd1d08e26e8a63 nfsd: avoid ref leak in nfsd_open_local_fh()
 
---===============8066692492926244001==--
+--===============1840302706759130500==--
