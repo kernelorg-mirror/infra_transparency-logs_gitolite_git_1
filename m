@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0277057959814980108=="
+Content-Type: multipart/mixed; boundary="===============0035051846525773018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 03:38:45 -0000
-Message-Id: <176067232581.2748859.18213223917215866686@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 03:38:48 -0000
+Message-Id: <176067232857.2749007.5087502677822887762@gitolite.kernel.org>
 
---===============0277057959814980108==
+--===============0035051846525773018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
-    old: 12fbbeed31c040196e4a395c26d31b46b6c5aa27
-    new: 715805901d7ca1483d287912382c076272952f53
-    log: revlist-12fbbeed31c0-715805901d7c.txt
+  - ref: refs/heads/kernel-6.12.53/main
+    old: d2bd4a0dc3b5c9405f335bb5d7e96605dd820b29
+    new: e7d49193618d463617a3d7a9cf740938531e5b67
+    log: revlist-d2bd4a0dc3b5-e7d49193618d.txt
 
---===============0277057959814980108==
+--===============0035051846525773018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12fbbeed31c0-715805901d7c.txt
+Content-Disposition: attachment; filename=revlist-d2bd4a0dc3b5-e7d49193618d.txt
 
 d1820a10b6e014b4fede863f35efb2b9f5f38e89 Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
 1136b6aa2d11fc24113de93b404dbadd21b4a72f Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
@@ -142,6 +142,9 @@ bbb2e42d7673f404f5709d5ec52fe5ac46451b4b fs: add STATX_DIO_READ_ALIGN
 9f3a0bbafe1fc5a2c7099c41d3dff9388e5d788b xfs: cleanup xfs_vn_getattr
 52fc1c62fca8fb845e72ec31a87073bee17ecd1e xfs: report the correct read/write dio alignment for reflinked inodes
 30df5cc5653a8966fee66e2da5d8ff927040a069 xfs: report larger dio alignment for COW inodes
+6521a83bbfe940ed3abe80b213fe1ebf9bdc47aa xfs: apply rt extent alignment constraints to CoW extsize hint
+ec1e2e3cb7bcee96e77f511d7c23b2cb310d3511 xfs: rearrange code in xfs_inode_item_precommit
+a7915cfb7ab26d78e4f1cbfbde709c0e43b9a843 xfs: rework datasync tracking and execution
 9519c4b9963f236548ea5621c607f26b0a398da2 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
 b7c534b71504566b38cade437c35ae543db9f272 NFSD: release read access of nfs4_file when a write delegation is returned
 ff0d8a4fab5bf72c9a94e409efb346cd8a5c064c sunrpc: simplify xdr_init_encode_pages
@@ -329,5 +332,16 @@ aacd7e285050e81ed991213cb4389056fcd6c670 SUNRPC: Improve "fragment too large" wa
 fd04941ca9e7299fb657a7ce0953e8e7aaeae8d4 sunrpc: allocate a separate bvec array for socket sends
 5825ce45c4e47d4d46e9bccd797b50aa30b941ba NFSD: Enable return of an updated stable_how to NFS clients
 715805901d7ca1483d287912382c076272952f53 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+7dce1f95deb7c8e4af9c2f91ce2eaf6cc0cc275b Merge branch 'kernel-6.12.53/nvme' into kernel-6.12.53/main
+23dc6c9024b11da6dda17f41207f25bdadf2c3aa Merge branch 'kernel-6.12.53/localio' into kernel-6.12.53/main
+d7065795036825c71018b128ca848b06dc4d479f Merge branch 'kernel-6.12.53/nfs' into kernel-6.12.53/main
+a36e3a5ca838c4f6e1dcaac6ca3b72b4bac42003 Merge branch 'kernel-6.12.53/dontcache' into kernel-6.12.53/main
+63ccb857f204404d25492b84e0399dd41655ea8c Merge branch 'kernel-6.12.53/xfs' into kernel-6.12.53/main
+2d79526b1550f848878e1cb4e86142dc7f986a73 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.53/main
+1f341550f0abd54cf35676bcbfa5e4acf33abd26 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.53/main
+d6b3603bc31cf77fa29de83bb0e0dfebedc5e1ef Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.18-1' into kernel-6.12.53/main
+87765a3776253c47659633694beab3a362b0f654 Merge branch 'kernel-6.12.53/nfsd-next' into kernel-6.12.53/main
+20f618391b56826d12e9155de191885db0dac815 Merge branch 'kernel-6.12.53/nfsd-testing' into kernel-6.12.53/main
+e7d49193618d463617a3d7a9cf740938531e5b67 Merge branch 'kernel-6.12.53/nfsd-testing-snitm' into kernel-6.12.53/main
 
---===============0277057959814980108==--
+--===============0035051846525773018==--
