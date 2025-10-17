@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2774863152459543759=="
+Content-Type: multipart/mixed; boundary="===============0326520641807316704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 17 Oct 2025 07:21:26 -0000
-Message-Id: <176068568604.2936915.9572013070165925672@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 07:21:58 -0000
+Message-Id: <176068571882.2937476.16148713135090968305@gitolite.kernel.org>
 
---===============2774863152459543759==
+--===============0326520641807316704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/fixes
     old: 959c58491d04e9611fcc58d209f05795975816d7
     new: b63599c5ce9e66c230671eb4cacf62de10b0483d
     log: revlist-959c58491d04-b63599c5ce9e.txt
 
---===============2774863152459543759==
+--===============0326520641807316704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a429b76114aaca3ef1aff4cd469dcf025431bd11 erofs: fix crafted invalid cases for en
 049583a59b92eea078221d807b1d8c8ec637102e erofs: avoid infinite loops due to corrupted subpage compact indexes
 b63599c5ce9e66c230671eb4cacf62de10b0483d erofs: consolidate z_erofs_extent_lookback()
 
---===============2774863152459543759==--
+--===============0326520641807316704==--
