@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 00:54:20 -0000
-Message-Id: <176066246029.2605477.16299262566409007608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Fri, 17 Oct 2025 01:02:34 -0000
+Message-Id: <176066295469.2616695.6165524389075605435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/kernel-6.12.53/baseline
-    old: b133494b91deffea3d90629baf17a0e2b184f349
-    new: 2540c25a13668b60d51e084bcbe8e6e101610390
+  - ref: refs/heads/master
+    old: 79c9def4c59595dc42227a95e8b1a866ed0acce5
+    new: a753cd18d4920c700494438ff8764be630d72686
     log: |
-         d02fa419472949c1b736fcd16cb7a3dcd520baca kernel-6.12.53-0
-         5f40f4824a2d6870e09de4f640048177b7be54ac redhat: re-enable building perf, libperf and bpftool except on ARM
-         4ab6fb88506e1f7602a9b052f242ceed0b735707 redhat: new configs needed for v6.12.53
-         2540c25a13668b60d51e084bcbe8e6e101610390 [redhat] configs: do not try to set CONFIG_CRYPTO_CHACHA20_P10
+         14244a49c421b10cc6b9663d70b85e523d3671d6 hkml_monitor: set filtering dates to be timezone aware
+         bbd911c59fb6b700b27da9cc02469942a88b17ef hkml_list: set MailListFilter.keywords_for as 'each' by default on constructor
+         11ee6e41d0b40eb55179c709c4e69d09b55c16f2 hkml_list: raise exception for unexpected MailListFilter.keywords_for
+         a753cd18d4920c700494438ff8764be630d72686 release_note: update for next release
          
