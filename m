@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2598015872075219993=="
+Content-Type: multipart/mixed; boundary="===============8739966312912902540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 17 Oct 2025 05:43:08 -0000
-Message-Id: <176067978853.2850926.11505992919511636677@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 05:43:33 -0000
+Message-Id: <176067981357.2851262.11177451319785221761@gitolite.kernel.org>
 
---===============2598015872075219993==
+--===============8739966312912902540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c568ed9286ded82dd8e0afd63a02a0a9d7b473b5
-    new: 2b2a31bd67be08e9bbeda7a1b2fddee8f77a9902
-    log: revlist-c568ed9286de-2b2a31bd67be.txt
+    old: 2b2a31bd67be08e9bbeda7a1b2fddee8f77a9902
+    new: b77bfa2cdc119f273d005333b92c6119cbc6a6dd
+    log: revlist-2b2a31bd67be-b77bfa2cdc11.txt
+  - ref: refs/heads/tip/urgent
+    old: 31be4f0030c9a40b3631d2e79b8b7d88c7c94fcc
+    new: 313b020faa1e435ce8174fb47030a30fb2f4aa5b
+    log: revlist-31be4f0030c9-313b020faa1e.txt
 
---===============2598015872075219993==
+--===============8739966312912902540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c568ed9286de-2b2a31bd67be.txt
+Content-Disposition: attachment; filename=revlist-2b2a31bd67be-b77bfa2cdc11.txt
+
+eccf470b86fb807dd1358f41e5719ec5846d90fd Merge branch into tip/master: 'perf/urgent'
+e3670d4c88f59d9c811ee7078a25f10f6808c851 Merge branch into tip/master: 'sched/urgent'
+313b020faa1e435ce8174fb47030a30fb2f4aa5b Merge branch into tip/master: 'x86/urgent'
+1cb22510257497b35913ab181244182ece0b6e48 Merge branch into tip/master: 'core/bugs'
+76bdf45f2ba9ef83e15fa17190375bcc3943371f Merge branch into tip/master: 'irq/drivers'
+8af94282146dcea480cd2a3530ddc36b8bfeb5f2 Merge branch into tip/master: 'irq/msi'
+f8514ca150c50e007c9aa85ee518cb5a9456511e Merge branch into tip/master: 'objtool/core'
+b2d2cda707e54791e002c195e58bed015760db2e Merge branch into tip/master: 'perf/core'
+738901d363b3658bc8613c2e696ea6691ed024d5 Merge branch into tip/master: 'sched/core'
+2681ae82b642235ad722c24524bd85683deb6bc7 Merge branch into tip/master: 'x86/cache'
+ec469197624e705e87ab112aef97114dde36140a Merge branch into tip/master: 'x86/cleanups'
+6832a248713a75f969c1264479d52d7cdc3910d2 Merge branch into tip/master: 'x86/core'
+a64377de5eb971ed7a0434b32b93feceaa8d8226 Merge branch into tip/master: 'x86/cpu'
+48c6c93761dda0ad5eb2b60093991e95076f64ea Merge branch into tip/master: 'x86/entry'
+5d4115099ffef09acd1d96b4f22ba3971fb18a01 Merge branch into tip/master: 'x86/microcode'
+b77bfa2cdc119f273d005333b92c6119cbc6a6dd Merge branch into tip/master: 'x86/sgx'
+
+--===============8739966312912902540==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-31be4f0030c9-313b020faa1e.txt
 
 15623c860c93aac71d22e7bedb7661ff2d3418de nsfs: handle inode number mismatches gracefully in file handles
 deafd21efdd106f9744e2339e0c70c0f4ba565c3 fs: update comment in init_file()
@@ -104,6 +131,7 @@ df5a1f4aeb6ff5e7c5ac47d16a347f03509dd441 MAINTAINERS: add myself as maintainer f
 1f4a222b0e334540343fbb5d3eac4584a6bfe180 Remove long-stale ext3 defconfig option
 5a6f65d1502551f84c158789e5d89299c78907c7 Merge tag 'bitmap-for-v6.18-rc2' of https://github.com/norov/linux
 bfdd74166a639930baaba27a8d729edaacd46907 gve: Check valid ts bit on RX descriptor before hw timestamping
+e6416c2dfe23c9a6fec881fda22ebb9ae486cfc5 x86/CPU/AMD: Prevent reset reasons from being retained across reboot
 7ea30958b3054f5e488fa0b33c352723f7ab3a2a Merge tag 'vfs-6.18-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 bc384963bc18e4f21cf8615b57cbbc9c5e0d309a MAINTAINERS: new entry for IPv6 IOAM
 0c3f2e62815a43628e748b1e4ad97a1c46cce703 tg3: prevent use of uninitialized remote_adv and local_adv variables
@@ -124,6 +152,8 @@ ef25485516b09db57493f5e78b3358db7cbdcaa0 Merge tag 'ata-6.18-rc2' of git://git.k
 05de41f3e26237bc34822268f958be1820bf968b Merge tag 'v6.18-rc1-smb-server-fixes' of git://git.samba.org/ksmbd
 9f388a653c8a481cbdbdedca081a1f9f3ba204a2 Merge tag 'for-6.18-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 98ac9cc4b4452ed7e714eddc8c90ac4ae5da1a09 Merge tag 'f2fs-fix-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-2b2a31bd67be08e9bbeda7a1b2fddee8f77a9902 Merge branch 'linus'
+eccf470b86fb807dd1358f41e5719ec5846d90fd Merge branch into tip/master: 'perf/urgent'
+e3670d4c88f59d9c811ee7078a25f10f6808c851 Merge branch into tip/master: 'sched/urgent'
+313b020faa1e435ce8174fb47030a30fb2f4aa5b Merge branch into tip/master: 'x86/urgent'
 
---===============2598015872075219993==--
+--===============8739966312912902540==--
