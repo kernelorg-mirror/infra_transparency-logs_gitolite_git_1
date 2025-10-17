@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 17 Oct 2025 21:08:32 -0000
-Message-Id: <176073531255.3690893.5605692346408870113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Fri, 17 Oct 2025 21:15:13 -0000
+Message-Id: <176073571365.3698095.486592378051169833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: bfa09566c5da58bf87dde6411250f1344ce91415
+  - ref: refs/heads/main
+    old: 8c7f36583cab6946ae6acf63baf78e8a99b8df30
+    new: 3c8229130b2ae9edce15542b712a4b2618e67bc8
     log: |
-         e0234cc06e20fc79124f088fa78fd8a196fa6f66 i2c: designware: Remove i2c_dw_remove_lock_support()
-         bfa09566c5da58bf87dde6411250f1344ce91415 i2c: busses: bcm2835: convert from round_rate() to determine_rate()
+         3c8229130b2ae9edce15542b712a4b2618e67bc8 refactor!: overhaul session handling
          
