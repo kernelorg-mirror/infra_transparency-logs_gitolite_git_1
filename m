@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2690481595925130185=="
+Content-Type: multipart/mixed; boundary="===============3871838593034684600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Fri, 17 Oct 2025 10:01:36 -0000
-Message-Id: <176069529630.3073734.9887347006018162271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Fri, 17 Oct 2025 10:01:37 -0000
+Message-Id: <176069529784.3073826.5965931753917562960@gitolite.kernel.org>
 
---===============2690481595925130185==
+--===============3871838593034684600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
+repo: pub/scm/utils/mdadm/mdadm
 user: mtkaczyk
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: d764c4829947923142a83251296d04edaee7d2f7
     new: ca10248139610ffb53fe90224333513dcc3ca155
     log: revlist-d764c4829947-ca1024813961.txt
 
---===============2690481595925130185==
+--===============3871838593034684600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ c425cdc9297a1f27f664b19a9d9386b43d92f7b3 mdadm: modify the order of free_super_x
 b67f6f01c8c1638bca5c2c9327720b2b8197768f mdadm: Fix memory leak issue in Manage_stop()
 ca10248139610ffb53fe90224333513dcc3ca155 mdadm: Fix memory leak issue in load_ddf_local()
 
---===============2690481595925130185==--
+--===============3871838593034684600==--
