@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4402805032578917632=="
+Content-Type: multipart/mixed; boundary="===============4369478550379605984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 03:38:40 -0000
-Message-Id: <176067232027.2748676.10639590266285672269@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 03:38:43 -0000
+Message-Id: <176067232313.2748781.5463071772025047741@gitolite.kernel.org>
 
---===============4402805032578917632==
+--===============4369478550379605984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-next
-    old: ba3e51de50c657d34650ab60fcb5c34181569477
-    new: 897f8b5289989fb6d87f66c3a89930a82ee3a2bb
-    log: revlist-ba3e51de50c6-897f8b528998.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing
+    old: c853d03aa11b5fa141fc01978c2fc6fe34ecc054
+    new: fd04941ca9e7299fb657a7ce0953e8e7aaeae8d4
+    log: revlist-c853d03aa11b-fd04941ca9e7.txt
 
---===============4402805032578917632==
+--===============4369478550379605984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba3e51de50c6-897f8b528998.txt
+Content-Disposition: attachment; filename=revlist-c853d03aa11b-fd04941ca9e7.txt
 
 d1820a10b6e014b4fede863f35efb2b9f5f38e89 Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
 1136b6aa2d11fc24113de93b404dbadd21b4a72f Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
@@ -306,5 +306,26 @@ ee6e0df608dc4b87a4b546a43ef34f2237c9a48b nfsd: delete unnecessary NULL check in 
 68c2914aeb79dabe2a2686cdf8ceb6825e6238af SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
 63fbaecafb2d2e905f16f63b1f0b24267ba2585a nfsd: discard nfserr_dropit
 897f8b5289989fb6d87f66c3a89930a82ee3a2bb nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+e97fa8780e797f6d664e484288459e590ba2cc4e NFSD: Add array bounds-checking in nfsd_iter_read()
+325cdd1865e49449cf8f641cc6932f1184e4e8f0 svcrdma: Release transport resources synchronously
+399619afe98c3efca8df1ff39eaa276e4531065e nfsd: delete unreachable confusing code in nfs4_open_delegation()
+ce24294c4cf2de271264f68661229a7d85fc46f7 NFSD: Define actions for the new time_deleg FATTR4 attributes
+85b943d41e8ba8822b74502f3f062630b7b6445c NFSD: Fix crash in nfsd4_read_release()
+21588b7920431439c08e746837913652f491190b nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+ad7b10dcc5554c4bdc7a2d282207a5377a766c83 NFSD: Update comment documenting unsupported fattr4 attributes
+e582d069c725bb4d206f82d856ce3e70840247ac Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+130ce0562f6d96f1216a430a22ffa3199d4e8745 svcrdma: Increase the server's default RPC/RDMA credit grant
+46da1d4a082e5f85ba860aa1de0a5334570c72ae NFSD/blocklayout: Fix minlength check in proc_layoutget
+03980c96808b07d8664b531fb45b3ec6f888a5f6 NFSD/blocklayout: Extract extent mapping from proc_layoutget
+e133599fdbbf3ba68fbc89fbb4e0cc624c09164d NFSD/blocklayout: Introduce layout content structure
+1fd8bdf9966b5386cb76931eee9dffecb2ed948e NFSD/blocklayout: Support multiple extents per LAYOUTGET
+d9148f6b76d4393c80b96b164e1eb122021b87fe nfsd: fix refcount leak in nfsd_set_fh_dentry()
+9bd6243b7d352631d95421d16627818601820852 NFSD: Prevent a NULL pointer dereference in fh_getattr()
+ed2a4feade1a1a7ae59fc1e4d199ee73deee1e1a NFSD: pass nfsd_file to nfsd_iter_read()
+60d655beedf0b7956fd74e9b1df5855145842408 NFSD: Relocate the xdr_reserve_space_vec() call site
+0b44b0713ea548fbff27d235a7f67f5f295642a2 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+aacd7e285050e81ed991213cb4389056fcd6c670 SUNRPC: Improve "fragment too large" warning
+34026afd4e995ffdb2e1c9a9369e7e91d3a340eb nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
+fd04941ca9e7299fb657a7ce0953e8e7aaeae8d4 sunrpc: allocate a separate bvec array for socket sends
 
---===============4402805032578917632==--
+--===============4369478550379605984==--
