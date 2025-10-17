@@ -1,40 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0445109944700935257=="
+Content-Type: multipart/mixed; boundary="===============0633988026790777980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 17 Oct 2025 18:59:44 -0000
-Message-Id: <176072758469.3581866.13640334433207071784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 17 Oct 2025 19:05:40 -0000
+Message-Id: <176072794036.3588034.15503668032409505317@gitolite.kernel.org>
 
---===============0445109944700935257==
+--===============0633988026790777980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: c686d7000e7c1e61c802898e9c06344fb0ad3afb
-    new: 0cdb2b1b7edaefb54773d790c7b5c2e4ac7db60d
-    log: revlist-c686d7000e7c-0cdb2b1b7eda.txt
+  - ref: refs/heads/nova/next
+    old: a2e0726d0055f5bea7946999a337d397b6eba19a
+    new: b7d652eb410d496759e322b7a72850b63a631747
+    log: revlist-a2e0726d0055-b7d652eb410d.txt
 
---===============0445109944700935257==
+--===============0633988026790777980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c686d7000e7c-0cdb2b1b7eda.txt
+Content-Disposition: attachment; filename=revlist-a2e0726d0055-b7d652eb410d.txt
 
-661856ca131c8bf6724905966e02149805660abe spi: airoha: remove unnecessary restriction length
-7350f8dc15bfbb7abf1ce4babea6fcace1c574c5 spi: airoha: remove unnecessary switch to non-dma mode
-233a22687411ea053a4b169c07324ee6aa33bf38 spi: airoha: unify dirmap read/write code
-80b09137aeab27e59004383058f8cc696a9ee048 spi: airoha: support of dualio/quadio flash reading commands
-70eec454f2d6cdfab547c262781acd38328e11a1 spi: airoha: avoid setting of page/oob sizes in REG_SPI_NFI_PAGEFMT
-d1ff30df1d9a4eb4c067795abb5e2a66910fd108 spi: airoha: reduce the number of modification of REG_SPI_NFI_CNFG and REG_SPI_NFI_SECCUS_SIZE registers
-fb81b5cecb8553e3ca2b45288cf340d43c9c2991 spi: airoha: set custom sector size equal to flash page size
-902c0ea18a97b1a6eeee5799cb1fd9a79ef9208e spi: airoha: avoid reading flash page settings from SNFI registers during driver startup
-0743acf746a81e0460a56fd5ff847d97fa7eb370 spi: airoha: buffer must be 0xff-ed before writing
-0cdb2b1b7edaefb54773d790c7b5c2e4ac7db60d spi: airoha: driver fixes & improvements
+d4a364929930378bdfc56ce6a25e8159fbdf8ff7 ============= Starting point of next posting =============
+563beda2a8625b725c11ac333e933ff89ab3e70f docs: rust: Fix a few grammatical errors
+2000aef0d70cc55c3b31a49be3b93bb9ae39a8c0 gpu: nova-core: Add support to convert bitfield to underlying type
+a8fae26de9c81bc961973875516ec3f95e3d4023 docs: gpu: nova-core: Document GSP RPC message queue architecture
+9191bfb0b16ab37a9be4f3dfa91308c1aa91579b docs: gpu: nova-core: Document the PRAMIN aperture mechanism
+f60aecf1c1b562ea0a8bb18784d63167f6fdda49 docs: gpu: nova-core: Document the VFN interrupt architecture
+8255f6ca1cb63afa9f63aa145da853bcf3433721 gpu: nova-core: Add VFN interrupt controller support
+30fd3b0152fca6cae09b3be88100cd415b3f76ad gpu: nova-core: Add support for managing GSP falcon interrupts
+07e5a6bac9c52440e1080a40849dab9fc4026270 nova-core: mm: Add support to use PRAMIN windows to write to VRAM
+086844692e920261fecc69e31adfe49dbe02547d nova-core: mm: Add data structures for page table management
+b7d652eb410d496759e322b7a72850b63a631747 Address all TODO before posting
 
---===============0445109944700935257==--
+--===============0633988026790777980==--
