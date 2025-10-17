@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6407382308164297562=="
+Content-Type: multipart/mixed; boundary="===============2664654421710164363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 17 Oct 2025 21:57:26 -0000
-Message-Id: <176073824615.3731336.9816731958114243918@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 21:57:28 -0000
+Message-Id: <176073824837.3731415.7812989745019662450@gitolite.kernel.org>
 
---===============6407382308164297562==
+--===============2664654421710164363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,126 +15,115 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 6133ad6d0e527ed8f8d4a32e1ff50e78cae52d78
-    new: 5b3768ae16a07c141cc03932c5c774f8dfcdd6ef
-    log: revlist-6133ad6d0e52-5b3768ae16a0.txt
+  - ref: refs/heads/master
+    old: 98ac9cc4b4452ed7e714eddc8c90ac4ae5da1a09
+    new: 6f3b6e91f7201e248d83232538db14d30100e9c7
+    log: revlist-98ac9cc4b445-6f3b6e91f720.txt
 
---===============6407382308164297562==
+--===============2664654421710164363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6133ad6d0e52-5b3768ae16a0.txt
+Content-Disposition: attachment; filename=revlist-98ac9cc4b445-6f3b6e91f720.txt
 
-32dbe4744df9755ce2c7633f4f68d1ea403e69d5 ==== numa_memcg_used_bp DAMOS quota goal metric ====
-3b86bda7f0d2783893bdf21306da5f4fde6091bc mm/damon: document damos_quota_goal->nid use case
-efd08b10603f0ce0f96f505a0e1d2d2b5b954e0c mm/damon: add DAMOS quota goal type for per-memcg per-node memory usage
-494e018f509fae514091ddfb6e8ce52e761d4925 mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_USED_BP
-43f0c28e0fdd926376fc129cde3412e4836fb4cb mm/damon/sysfs-schemes: implement path file under quota goal directory
-d382c8ce07b35651839d152cebee91a0c35f3b66 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_USED_BP
-22b0aa4a21b1e3eab87313de0b11bd043950ff11 mm/damon/core: add DAMOS quota gaol metric for per-memcg per-numa free memory
-c144240804dad0bb413c6bf813d8d46ecfcdc10c mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-5314c09e977c075570b4cfc103084b4973fcfcb2 Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_{USED,FREE}_BP
-64b389164640e3f52f7344a2018965288eb26793 Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
-87b9a96d3b9b79aae02fc4713023ab942305b0c9 Docs/ABI/damon: document DAMOS quota goal path file
-ff3e0b9bc30b10bed9a5cc9143428d2e3438dccc === hacks in progress ===
-63030b83c8f614c64a249088a4b16f7ac057cc33 ==== mm/damon: support pin-point targets removal ====
-b3046d728bd33e8e17b01bb9634d8d3285191dec mm/damon/core: add damon_target->obsolete for pin-point removal
-162401d639b8e18e4fadb074a71ad798125b6e59 mm/damon/sysfs: test commit input against realistic destination
-074a308ec840c944781bd744a331681703b9d546 mm/damon/sysfs: implement obsolete_target file
-63bb9351509437a662bd337b2afcb7aad01bf7e0 Docs/admin-guide/mm/damon/usage: document obsolete_target file
-ac1a9e7a5b6b7e14b06820e8a5a31cd8d7b6f6f7 Docs/ABI/damon: document obsolete_target sysfs file
-d322d3545a2325cdf19c17f7a0ce03041e10179f ==== fault/report-based monitoring for per-cpu and write ====
-8eea23d3f29943d8d65721b7ac5ae51eb6f609c3 mm/damon/core: introduce damon_report_access()
-f22c2e3ae4dd72723ce6284937a6abaa3b523a99 mm/damon/core: add eligible_report() ops callback
-c76086b2a26f499574930b7e1a5f3313adb9fdbe mm/damon/vaddr: implement eligible_report()
-00138d83bf3474f42250523a291d31bbccdde84e mm/damon/core: read received access reports
-1c769afa15edb39dc00a97bbf56a3111b31d10db mm/memory: implement MM_CP_DAMON
-2a590658aa57bf8a8f67c60ee9d39c447f9f1b70 mm/damon: implement paddr_fault operations set
-bbff8a72afafbf1c49525bc86162664ab63417dd mm/damon/sysfs: support paddr_fault
-793717143619564899a33793c2199beddf95ee01 mm/damon: introduce damon_operations_attrs for operations set control
-19bc62c139c0e29a32a8e84801ee369b5340411f mm/damon/core: use reports based on ops_attrs.use_reports
-15625a4c2660f559b799ae6168dbdf1f84f1d0c8 mm/damon/paddr: use ops_attrs.use_reports to determine what source to use
-76958693f757d310a2e5258b97d42eef07a9d2e3 mm/damon/paddr: remove paddr_fault
-d15f51098652293c5f40ff1a9fee99eb74f89a66 mm/damon/sysfs: implement ops_attrs directory and use_reports file
-64d9c6ec092674b5e789f44c0dbbddcef4d6492c mm/damon/sysfs: connect use_reports to core layer
-c2c4cbbee47e52ad68ec85616079fa676a0af57d mm/damon: add operations_attrs->write_only
-a2e233a6dc1ce2e2861f775c9a242a7aba65d497 mm/damon: add damon_access_report->is_write
-66fb7e50aafc413ef1464fa1e78a6260fa204f63 mm/memory: set damon_access_report->is_write from do_damon_page()
-3bee6ad0e0cc0dd698c5ce9226269d7130a63e73 mm/damon: pass opeartions_attrs to damon_operations->eligible_report
-59e1ba63a014e9308fbfdff90197741caae6df40 mm/damon/paddr: implement write-only handling eligible_report()
-e57510d14a0c5907f68225e297176ec9982a153f mm/damon/sysfs: implement write_only file under operations_attrs
-a0ce996475ee1dfff053cb0af3d153d0a05b23f0 mm/damon/sysfs: pass write_only to core
-84a994a68e4f907b2e425ef249d480a1a2f5bc6e mm/damon: add damon_access_report->cpuid
-def461f2ac932aa6fe55b998e91e5519a28eb07c mm/memory: set damon_access_report->cpu
-40e677716ad1e546e74fe109e3349695b38e5dff mm/damon: add ops_attrs->cpus
-6c66039bc14ac9e5aeaa8f9836f0d7fe2c8d39c9 mm/damon/sysfs: support ops_attrs->cpus
-cf9fe1a0bc6cce7f3c39cb7a791fc3f33e74b8a9 mm/damon/paddr: filter reports based on cpus
-971b7fb88847d09c3abe5bbcee4df7984007c497 mm/damon: add damon_access_report->tid
-248b86a9124ce1260d730960d89d060346e0985e mm/memory: report tid of the fault-caused access to DAMON
-ff7f9d4d00d73f00cb1f0859567dc1ce888318b1 mm/damon: extend damon_operations_attrs for per-threads monitoring
-f4485952c98b80cf473da3edf86512f9cf3d9d19 mm/damon/paddr: support damon_operations_attrs->tids
-6389f2cb7dcd6f49bd56280e202e8a74e995244a mm/damon/sysfs: implement ops_attrs->tids file for thread ids
-a57470066b63cc5b299338090487187b31486ed1 mm/damon/sysfs: setup ops_attrs->tids
-1d412ed30c138dc4ea31f04a91a974184c1cb3b0 mm/damon/core: deallocate ops_attrs->tids from destroy_ctx()
-7997d1fbee89289b60fc797fed5bb7d8a9f4c056 mm/damon/sysfs: implement tids reading
-b702b65c8e92436a948e8d49e495877d666a7d71 ==== docs for DAMON and mm ====
-850bef468588040f0861ec4f608756089f928d6c Docs/mm/damon/design: add table of contents for overall and DAMOS
-3ee72dc94f4d395fc65ab480421e71f75f9478f0 Docs/process/2.Process: Update mm tree URL
-270f94c4e6453a37632dc0a7fc14717af2b7b924 Docs/mm/damon/design: add API link to damon_ctx
-fc1aeed67f4c6de3f69a9108e3bd9c0fc4c1dcda ==== ACMA ====
-81121a7760135b94222f1cc9546d47ac3bf4260b mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-39e7a9b538bb65e3ebefe1125506c394c4b2a5d4 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-e1c7eaae3ee41c7622a5a65993fb23f08d0ce90f mm/page_reporting: implement a function for reporting specific pfn range
-7a9277bc4a324b3b54efac7aa708fca770074ec6 mm/damon/acma: implement scale down feature
-7feebc70661e28bd6d7f7b716fd0688b27f93dab mm/damon/acma: implement scale up feature
-be65e91657414406934ad99072cde982c8255f21 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-50a3dc6743b60bb40731771f1d0a3ac247941745 === commits aiming not to be posted ===
-38b5e1d6fc129457a185c024486378c7de48dfbc mm/damon: Add debug code
-c6243ce8eaaf5531bf8fc6c563d1dd21f29f69f2 mm/damon/core: add debugging log for intervals auto-tuning
-2dac8f82e55ce477c488e5d4584437e4e5246079 mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-bd41b380315174294d5a419e698bfca8895bee7d mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-6c429873a0d2834c8552608e4990e8619cda476d mm/damon/core: add todo for DAMOS interval validation
-df7af19258b8c9f8140ed846721ca30db735a9ee mm/damon/core: add debugging-purpose log of tuned esz
-43e511aabfc6d23fb7343dd4c40060c1a2339ca6 Add debug log for PSI
-602b24ba1c9bed1d36012c4808e2aa4e8e43e69a mm/damon/core: add debug log for reset_regions()
-ea8fdcb498b5566b6569f741fcffdf33233ef34b ==== lru_sort advancing ====
-71b3cf4c73d3637ec22d28a375fd557baa4f52af mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-2c287c01c1afaff3bae77f3abdb73a491b259621 mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-2ccfd4f22576286d9b08e49c369771998948edbc Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-4ad67a21f515f12db8f909f5ef209474923b316f mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-be247c3704fbd502a351fc5807b8a10d0b22b896 mm/damon/lru_sort: consider age for quota prioritization
-201210a9b8c037f488b26eb916b7611778b00095 mm/damon/lru_sort: support young page filters
-93ecafbbdfd06f7d126bd095fdf021e49ca51d37 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-1fe2e6ce507ce7a46e1afcbc6d7d5f5fc3a3fd2b mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-d566239b072b719f0af4fc3a46baf1aa57d66c15 Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-5730c20b419d81f2342134881528155a5a06f0f3 mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-b85d63b142ef337645f69ee732623e39bf9d476b Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-3fa2f7d02ebf84b036c3c8fe605c8eb83b38349b ==== kunut improvements ====
-7837024ae5cbdbc39074663aa1398359ee5785fc mm/damon/core: pass migrate_dests to damos_commit_dests()
-8dc28abb71556f5c745fb504bbb0c1594a0badce mm/damon/tests/core-kunit: use '1' instead of DAMON_MIN_REGION
-812f8ae8ff4edd35889e10cbba420b9380e42f92 ==== add kunit tests ====
-cb082ab2460b5354d339982bf81007aadfcadf4d mm/damon/tests/core-kunit: add damos_commit_quota_goal() test
-9deb00bae64fc2607284fd0bd99c196d841f9935 mm/damon/tests/core-kunit: add damos_commit_quota_goals() test
-5ea5b712eb8a55b61bdf608197102e43761ce099 mm/damon/tests/core-kunit: add damos_commit_quota() test
-37939eb02d22f7b9b6f0c17e5b29a3ec7544440f mm/damon/tests/core-kunit: add damos_commit_dests() test
-379881bed154afb509c72c40bd0859865de635ad mm/damon/tests/core-kunit: add damos_commit() test
-3b5bbcb21ca1a36fb64e7d036e9c927ff894a89b mm/damon/tests/core-kunit: add todo for commit_filter test
-901434feae24d8e7d5bcdc39835a4666cc2abfe5 mm/damon/tests/core-kunit: add target and ctx commit tests
-f973aa897d6c76008d07e010b813913d1f7a1c78 ==== misc cleanup ====
-d55ec2d6086c8030f0235ad8aacdad1ce9641fe4 Docs/admin-guide/mm/damon/usage: clarify empty target regions commit behavior
-8a23afdc9972cab95bd352e8f2e733651a1d65f2 Docs/admin-guide/mm/damon/reclaim: document addr_unit parameter
-9bc51ff68e85f29fd80a0d762ef44293f48b88e6 Docs/admin-guide/mm/damon/lru_sort: document addr_unit parameter
-f0d1b509eeccf101833b55c866fdbb2d77ee6d6f Docs/admin-guide/mm/damon/stat: document aggr_interval_us parameter
-1d525f6d8e6ae14086048224e705b36f65adce52 Docs/admin-guide/mm/damon/stat: document negative idle time
-c1b0d89f9ee3016834307a05eb249447dec62423 Docs/admin-guide/mm/damon/stat: fix damon_stat_monitoring_accuracy_overhead label
-485e73e1ea2b1e9da76afd33129bf5d713581c2e Docs/mm/damon/design: fix wrong link to intervals goal section
-215bf73bb17eb6da9945c9c99820b417623fde05 mm/damon/core: fix wrong comment of damon_call() return timing
-788d04f925f76e8b2cbc1679edc82418b38c8bb4 mm/damon: rename damos core filter helpers to have word core
-b987c0c75f635f29f66d3e5f8f9dbbcf4d5aa095 mm/damon: rename damos->filters to damos->core_filters
-51d6de605d6dea92545a6ccc7f451fabd94c0195 ==== uncategorized ====
-ff013b585522fa01b1ce2026752ca38571df35e2 mm/damon/core: add an hacking idea concept interface prototype
-7ddad7184a28a7a3f327919959ddf0d42847f5df mm/damon: add trace event for intervals score
-5b3768ae16a07c141cc03932c5c774f8dfcdd6ef mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
+e07e10ae83bdf429f59c8c149173a8c4f29c481e drm/panthor: Ensure MCU is disabled on suspend
+bb642e2d300ee27dcede65cda7ffc47a7047bd69 nvme-multipath: Skip nr_active increments in RETRY disposition
+8527bbb33936340525a3504a00932b2f8fd75754 ALSA: hda: cs35l41: Fix NULL pointer dereference in cs35l41_get_acpi_mute_state()
+1cf11d80db5df805b538c942269e05a65bcaf5bc ALSA: hda: Fix missing pointer check in hda_component_manager_init function
+30b3211aa24161856134b2c2ea2ab1c6eb534b36 ALSA: hda/intel: Add MSI X870E Tomahawk to denylist
+77908b81766781dfcd086878aefc29f5db8dae6a ALSA: usb-audio: apply quirk for Huawei Technologies Co., Ltd. CM-Q3
+db74b04edce1bc86b9a5acc724c7ca06f427ab60 drm/bridge: lt9211: Drop check for last nibble of version register
+5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
+66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
+6079165e6e027c03e06556ff3df0ed03a34d68f0 ASoC: dt-bindings: qcom,sm8250: Add QCS615 sound card
+dee4ef0ebe4dee655657ead30892aeca16462823 ASoC: qcom: sc8280xp: Add support for QCS615
+53a3c6e222836a23e8e0693395584aefc456dca6 ASoC: tas2781: Support more newly-released amplifiers tas58xx in the driver
+7e6cfa3e94cf8278ee3170dc0b81fc6db1287e28 ASoC: tas2781: Update ti,tas2781.yaml for adding tas58xx
+6370a996f308ea3276030769b7482b346e7cc7c1 ASoC: codecs: Fix gain setting ranges for Renesas IDT821034 codec
+7e8242405b94ceac6db820de7d4fd9318cbc1219 rpmb: move rpmb_frame struct and constants to common header
+6e54919cb541fdf1063b16f3254c28d01bc9e5ff ASoC: nau8821: Cancel jdet_work before handling jack ejection
+9273aa85b35cc02d0953a1ba3b7bd694e5a2c10e ASoC: nau8821: Generalize helper to clear IRQ status
+a698679fe8b0fec41d1fb9547a53127a85c1be92 ASoC: nau8821: Consistently clear interrupts before unmasking
+2b4eda7bf7d8a4e2f7575a98f55d8336dec0f302 ASoC: nau8821: Add DMI quirk to bypass jack debounce circuit
+ee70bacef1c6050e4836409927294d744dbcfa72 ASoC: nau8821: Avoid unnecessary blocking in IRQ handler
+1696b0cfcf004a3af34ffe4c57a14e837ef18144 drm/i915/guc: Skip communication warning on reset in progress
+760039c95c78490c5c66ef584fcd536797ed6a2f drm/i915/frontbuffer: Move bo refcounting intel_frontbuffer_{get,release}()
+86af6b90e0556fcefbc6e98eb78bdce90327ee76 drm/i915/fb: Fix the set_tiling vs. addfb race, again
+9858ea4c29c283f0a8a3cdbb42108d464ece90a8 Revert "drm/amd/display: Only restore backlight after amdgpu_dm_init or dm_resume"
+5c05bcf6ae7732da1bd4dc1958d527b5f07f216a drm/amd/pm: Disable MCLK switching on SI at high pixel clocks
+7bdd91abf0cb3ea78160e2e78fb58b12f6a38d55 drm/amd: Disable ASPM on SI
+5d55ed19d4190d2c210ac05ac7a53f800a8c6fe5 drm/amdgpu: remove two invalid BUG_ON()s
+8f74c70be57527d7b79e2ecf6de1a154d148254d drm/amdgpu: block CE CS if not explicitely allowed by module option
+357d90be2c7aaa526a840cddffd2b8d676fe75a6 drm/amdgpu: fix handling of harvesting for ip_discovery firmware
+1f22fcb88bfef26a966e9eb242c692c6bf253d47 drm/amdgpu: handle wrap around in reemit handling
+ff780f4f80323148d43198f2052c14160c8428d3 drm/amdgpu: set an error on all fences from a bad context
+6df8e84aa6b5b1812cc2cacd6b3f5ccbb18cda2b drm/amdgpu: use atomic functions with memory barriers for vm fault info
+ef38b4eab146715bc68d45029257f5e69ea3f2cd drm/amdgpu: drop unused structures in amdgpu_drm.h
+6917112af2ba36c5f19075eb9f2933ffd07e55bf drm/amd/powerplay: Fix CIK shutdown temperature
+74de0eaa00eac2e0cbad1dda6dcf8f44ab27629e drm/amdgpu: fix bit shift logic
+33cc891b56b93cad1a83263eaf2e417436f70c82 drm/amdgpu: hide VRAM sysfs attributes on GPUs without VRAM
+883f309add55060233bf11c1ea6947140372920f drm/amdgpu: Fix NULL pointer dereference in VRAM logic for APU devices
+d0de79f66a80eeb849033fae34bd07a69ce72235 drm/amdgpu: fix gfx12 mes packet status return check
+8745ca5efb2aad0b6591d9b8cd48573ea49c929d drm/amdgpu: fix initialization of doorbell array for detect and hang
+0ef930e1faca6418316e5b9a3b4d1f6ae9e5b240 drm/amdgpu: fix hung reset queue array memory allocation
+277bb0f83e98261018ddd82b7ab8154bb9b93237 drm/amdgpu: enable suspend/resume all for gfx 12
+079ae5118e1f0dcf5b1ab68ffdb5760b06ed79a2 drm/amdkfd: fix suspend/resume all calls in mes based eviction path
+927069c4ac2cd1a37efa468596fb5b8f86db9df0 Revert "io_uring/rw: drop -EOPNOTSUPP check in __io_complete_rw_common()"
+2b929b6eec0c7c45eb554256d349c16c0ba1df3c ALSA: usb-audio: add mixer_playback_min_mute quirk for Logitech H390
+e5ae8d1eb08a3e27fff4ae264af4c8056d908639 drm/xe: Increase global invalidation timeout to 1000us
+7ac74613e5f2ef3450f44fd2127198662c2563a9 drm/xe: Don't allow evicting of BOs in same VM in array of VM binds
+d30203739be798d3de5c84db3060e96f00c54e82 drm/xe: Move rebar to be done earlier
+1117e7d1e8e66bf7e40291178b829a8513f83a7a drm/xe/migrate: Fix an error path
+7413e9f2be6b2b0caff9c517efa123d988914bba drm/xe: Handle mixed mappings and existing VRAM on atomic faults
+1852d27aa998272696680607b65a2ceac966104e drm/xe: Enable media sampler power gating
+9f64b3cd051b825de0a2a9f145c8e003200cedd5 drm/xe/guc: Check GuC running state before deregistering exec queue
+095232711f23179053ca26bcf046ca121a91a465 drm/draw: fix color truncation in drm_draw_fill24
+7f38a1487555604bc4e210fa7cc9b1bce981c40e drm/rockchip: vop2: use correct destination rectangle height check
+48a710760e10a4f36e11233a21860796ba204b1e Merge drm/drm-fixes into drm-misc-fixes
+ae11e08c3d0c78d08dac4cea30bf39ede2130b03 i2c: Remove redundant pm_runtime_mark_last_busy() calls
+72f437e674e54f1c143dccc67e5556d8d5acb241 i2c: usbio: Add ACPI device-id for MTL-CVF devices
+867537094124b0736ca2a40193de94fc5dc0b8d3 dt-bindings: i2c: Convert apm,xgene-slimpro-i2c to DT schema
+d41f68dff783d181a8fd462e612bda0fbab7f735 ALSA: firewire: amdtp-stream: fix enum kernel-doc warnings
+fd6e385528d8f85993b7bfc6430576136bb14c65 accel/qaic: Fix bootlog initialization ordering
+11f08c30a3e4157305ba692f1d44cca5fc9a8fca accel/qaic: Treat remaining == 0 as error in find_and_map_user_pages()
+52e59f7740ba23bbb664914967df9a00208ca10c accel/qaic: Synchronize access to DBC request queue head & tail pointer
+7e091add9c433bab6912228799bf508e2414acc3 nvme-auth: update sc_c in host response
+6f719373b943a955fee6fc2012aed207b65e2854 drm/ast: Blank with VGACR17 sync enable, always clear VGACRB6 sync off
+28412b489b088fb88dff488305fd4e56bd47f6e4 ALSA: usb-audio: Fix NULL pointer deference in try_to_register_card
+57b00ab3d33d2b177bf45d568fa1e6203cd099b6 ASoC: sdw_utils: add rt1321 part id to codec_info_list
+d5cda96d0130effd4255f7c5e720a58760a032a4 ASoC: codecs: wcd938x-sdw: remove redundant runtime pm calls
+dc96cefef0d3032c69e46a21b345c60e56b18934 blk-mq: fix stale tag depth for shared sched tags in blk_mq_update_nr_requests()
+08823e89e3e269bf4c4a20b4c24a8119920cc7a4 block: Remove elevator_lock usage from blkg_conf frozen operations
+be7cab44ed099566c605a8dac686c3254db01b35 io_uring: protect mem region deregistration
+437c23357d897f5b5b7d297c477da44b56654d46 io_uring: fix unexpected placement on same size resizing
+95355766e5871e9cdc574be5a3b115392ad33aea drm/i915/psr: Deactivate PSR only on LNL and when selective fetch enabled
+2aab1f993c8cb753ccb3d5b848cd758e2e87d965 drm/gpuvm: Fix kernel-doc warning for drm_gpuvm_map_req.map
+fcd298fdc2a32f1d90cdf9a452c5c5fdc6e8d137 ASoC: dt-bindings: Add compatible string fsl,imx-audio-tlv320
+7a37291ed40a33a5f6c3d370fdde5ee0d8f7d0e4 ASoC: max98090/91: fixed max98091 ALSA widget powering up/down
+5726b68473f7153a7f6294185e5998b7e2a230a2 ASoC: amd/sdw_utils: avoid NULL deref when devm_kasprintf() fails
+18d6b1743eafeb3fb1e0ea5a2b7fd0a773d525a8 io_uring/rw: check for NULL io_br_sel when putting a buffer
+7987b93e3a11a7a95ddf2b21563d3286661b999c drm/xe/svm: Ensure data will be migrated to system if indicated by madvise.
+6d36f65ba551d28710c3e1aaceecacf19df0cd8f drm/xe/kunit: Fix kerneldoc for parameterized tests
+6a91af25cdbce2086d85cc4994cf791bda3a2c90 drm/xe/migrate: don't misalign current bytes
+225bc03d85427e7e3821d6f99f4f2d4a09350dda drm/xe/evict: drop bogus assert
+9af61fc91486c7ba93cf1ec3bd381978cac8308c ALSA: usb-audio: add volume quirks for MS LifeChat LX-3000
+c6fceaf166479c05f7d3158ef08e78ae3e3dfa23 ALSA: usb-audio: fix vendor quirk for Logitech H390
+62ef9b2a01a0af5199986a2466dace54b8703b3e ASoC: Add QCS615 sound card support
+f1a450f9e17d341f69f8fb19f6d13ef9f1aa508b ASoC: nau8821: Fix IRQ handling and improve jack
+5801e65206b065b0b2af032f7f1eef222aa2fd83 drm/sched: Fix potential double free in drm_sched_job_add_resv_dependencies
+ec2e0fb07d789976c601bec19ecced7a501c3705 Merge tag 'asoc-fix-v6.18-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+5a869d017793399fd1d2609ff27e900534173eb3 nvme/tcp: handle tls partially sent records in write_space()
+f0624c6646435c1b56652193cce3e34062d50e3f Merge tag 'nvme-6.18-2025-10-16' of git://git.infradead.org/nvme into block-6.18
+f69f31e5a7b885c7953a165a56f351e7b4e9e613 Merge tag 'drm-intel-fixes-2025-10-16' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+520133b0ba97fbc4b2b92daa66fed9b279550021 Merge tag 'amd-drm-fixes-6.18-2025-10-16' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+d6dd930a6b3d177cda9aa8dfdcc6b2c7dda4d78a Merge tag 'drm-misc-fixes-2025-10-16' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+62cab426d0e340cd38893227c279705cc9e8416a Merge tag 'drm-xe-fixes-2025-10-16' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+2a786348004b34c5f61235d51c40c1c718b1f8f9 ALSA: hda/realtek: Fix mute led for HP Omen 17-cb0xxx
+389dfd9db6384026fef50afdbf91bcc41446e032 Merge tag 'i2c-for-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+e96687c6d3b7814e6516dfa732946d3f40142819 Merge tag 'drm-fixes-2025-10-17' of https://gitlab.freedesktop.org/drm/kernel
+1422424187a548c24825645410fb7f691c2df47f Merge tag 'sound-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+cf1ea8854e4fb1341c08f66e6c91da97d038ab6a Merge tag 'mmc-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+0c8df15f758a69a7bf88ecf9b7f95dc7db2c463c Merge tag 'block-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+6f3b6e91f7201e248d83232538db14d30100e9c7 Merge tag 'io_uring-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 
---===============6407382308164297562==--
+--===============2664654421710164363==--
