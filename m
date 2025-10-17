@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7455738302371185192=="
+Content-Type: multipart/mixed; boundary="===============7089142702646259023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 03:38:31 -0000
-Message-Id: <176067231165.2748281.11808766461795189351@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 03:38:34 -0000
+Message-Id: <176067231474.2748365.5762875061883666728@gitolite.kernel.org>
 
---===============7455738302371185192==
+--===============7089142702646259023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfs-next-thru-nfs-for-6.17-3
-    old: 6e6e562b76e94fab62d0afd9e7c3e800b10f6341
-    new: 2388f70037b80bc04b2feb672316c2f56d6e87bf
-    log: revlist-6e6e562b76e9-2388f70037b8.txt
+  - ref: refs/heads/kernel-6.12.53/nfs-next-thru-nfs-for-6.18-1
+    old: c1389740914739fe91042ccad4ecf2cd75988343
+    new: e1c440e32f204e16e91cc88d733a7f872965946c
+    log: revlist-c13897409147-e1c440e32f20.txt
 
---===============7455738302371185192==
+--===============7089142702646259023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e6e562b76e9-2388f70037b8.txt
+Content-Disposition: attachment; filename=revlist-c13897409147-e1c440e32f20.txt
 
 d1820a10b6e014b4fede863f35efb2b9f5f38e89 Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
 1136b6aa2d11fc24113de93b404dbadd21b4a72f Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
@@ -212,5 +212,47 @@ bc089cb9602b18151a93ea25721631a1363d9e8e nfs/localio: avoid bouncing LOCALIO if 
 4e88ccca2b7449ca9391c00c5976381948d54b95 NFSv4.2: Protect copy offload and clone against 'eof page pollution'
 41dbe4e2beae0af9a235a07af16e0b02650eacf3 NFS: Fix the marking of the folio as up to date
 2388f70037b80bc04b2feb672316c2f56d6e87bf Revert "SUNRPC: Don't allow waiting for exiting tasks"
+70043d3446d3421260a7a0f42f05b0b86dc93d00 block: check for valid bio while splitting
+312a818d8879180ef0805d55c2766187872ec552 block: add size alignment to bio_iov_iter_get_pages
+db640dd54f94fa2a432967b1280625b35ed33914 block: align the bio after building it
+6ccc3080f01221093247ad3ef4f6e92c0e549cce block: simplify direct io validity check
+caa71d8702fb54280c2fba7547abeccda92916b4 iomap: simplify direct io validity check
+0cc2e8e67f40d7f5d43895b7494bd2fa75040fa3 block: remove bdev_iter_is_aligned
+56bc1372bd9c4fb71b5e3bfe8e07c553259226d5 blk-integrity: use simpler alignment check
+4cfbff082d1819dd713bb89fb886e268149c4597 iov_iter: remove iov_iter_is_aligned
+2f0e5ba4f1fd8f87dfdb648617a7a22bfc1376f0 nfs: add tracepoints to nfs_file_read() and nfs_file_write()
+1ceee7de8f0c274d64e049a1547d4388b495f220 nfs: new tracepoints around write handling
+e4991d354f2038a3a81175f312097796ef45f11c nfs: more in-depth tracing of writepage events
+83a0768583c86cddce8f95e416278432ea2247af nfs: add tracepoints to nfs_writepages()
+d4865a41a2c402431dcb194d4b32b8455c2ead19 nfs: cleanup tracepoint declarations
+639edcf07a3c560429366d79a8701995352b9e99 sunrpc: remove dfprintk_cont() and dfprintk_rcu_cont()
+4ffecf78c349cd950739b17740abe6af5e2dada4 sunrpc: add a Kconfig option to redirect dfprintk() output to trace buffer
+8330f6be2314063a3be41424c89565690826e196 NFSv4: handle ERR_GRACE on delegation recalls
+623cbd03d1e7dbd705ead90a8bc0853e894bc240 NFSv4: fix "prefered"->"preferred"
+cb3a73689a7fc6b60e58866af0d5669f5f9daee9 NFSv4.1: fix mount hang after CREATE_SESSION failure
+5c23419c8e7b929b0343043b1c08616ac5675217 NFS: Remove rpcbind cleanup for NFSv4.0 callback
+47ae944fc8438a36672cf35a81e2c55a4fb6086d SUNRPC: Move the svc_rpcb_cleanup() call sites
+22bc82abda79e3cf52ec127d438a81099e8232f4 nfs: remove NFS_WBACK_BUSY()
+ba60024d08e95705ce827346fbe158fcd3046a04 SUNRPC: Remove redundant __GFP_NOWARN
+8c185e8071d22fd60b817c348f28125ed53b7daa SUNRPC: Introduce xdr_set_scratch_folio()
+da6980850e724f4d7f7e36175b3387cff5b9d678 NFS: Update readdir to use a scratch folio
+7efb8ec219b00c04d6a0d1218d372f65b1a2a559 NFS: Update getacl to use xdr_set_scratch_folio()
+1d5dd8ccfbe0dd88a477a2a09a23928de7ad2300 NFS: Update listxattr to use xdr_set_scratch_folio()
+59325e9bf3813fefa5f6a58c96963db72390966f NFS: Update the blocklayout to use xdr_set_scratch_folio()
+879933aaf9371727c1fa77b330647d3c2c107646 NFS: Update the filelayout to use xdr_set_scratch_folio()
+5a1d855343dc860f74d28bdd85b147cf9dd61f3c NFS: Update the flexfilelayout driver to use xdr_set_scratch_folio()
+060510ab249a3bcc671b22fa4c1a8d6ff4ce90c3 SUNRPC: Update svcxdr_init_decode() to call xdr_set_scratch_folio()
+8966929c6b59e2d7feb314bb24dccd4042d54096 SUNRPC: Update gssx_accept_sec_context() to use xdr_set_scratch_folio()
+e9ac48aef7a16ba9de4a049b8e0c22a95795bc85 nfs4_setup_readdir(): insufficient locking for ->d_parent->d_inode dereferencing
+119d22204919f1cef8489b8a9d98a375166ec3e6 sunrpc: unexport rpc_malloc() and rpc_free()
+f5243fcf733c5e50f5a838efee0c6a2ac4d0c5ed NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+3d5743fefa17a54fea2d9fe343b19c84ad86020c nfs/localio: make trace_nfs_local_open_fh more useful
+6d5796b2ba7dbceb99d6a5549d1859eb2f88c945 nfs/localio: avoid issuing misaligned IO using O_DIRECT
+7ea19bb3c88714c2c0c1dc2574b7fb55a8dc596d nfs/localio: refactor iocb and iov_iter_bvec initialization
+c77d5fdcb6d6eb6a072302e7b0f8961e58d0b3b0 nfs/localio: refactor iocb initialization
+6152daf9fbd6fadb95a115f5c7f294bf063bc89d nfs/localio: add proper O_DIRECT support for READ and WRITE
+a95f0b88d34bda763aeca125583d92282784fd78 nfs/localio: add tracepoints for misaligned DIO READ and WRITE support
+cff3d9c432a8facca0cbde31e456636ec8d29825 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+e1c440e32f204e16e91cc88d733a7f872965946c Add CONFIG_SUNRPC_DEBUG_TRACE=n to default config
 
---===============7455738302371185192==--
+--===============7089142702646259023==--
