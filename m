@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4678123273533338977=="
+Content-Type: multipart/mixed; boundary="===============2770343789951383600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 17 Oct 2025 10:56:51 -0000
-Message-Id: <176069861125.3138245.717349336626817790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 17 Oct 2025 10:56:54 -0000
+Message-Id: <176069861465.3138362.14776356018053859468@gitolite.kernel.org>
 
---===============4678123273533338977==
+--===============2770343789951383600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 433e294c3c5b5d2020085a0e36c1cb47b694690a
     new: fb25114cd760c13cf177d9ac37837fafcc9657b5
     log: |
          fb25114cd760c13cf177d9ac37837fafcc9657b5 regulator: sy7636a: add gpios and input regulator
          
 
---===============4678123273533338977==
+--===============2770343789951383600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1760698672 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1760698609-7919a7421bdfde28a3dff20026ec159e92740519
+pusher C3F436CA30F5D8EB 1760698675 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1760698612-a3bbbd610639888f759953e172c6701d7ec320ed
 
-433e294c3c5b5d2020085a0e36c1cb47b694690a fb25114cd760c13cf177d9ac37837fafcc9657b5 refs/heads/for-6.19
+433e294c3c5b5d2020085a0e36c1cb47b694690a fb25114cd760c13cf177d9ac37837fafcc9657b5 refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjyITAACgkQJNaLcl1U
-h9DoiQf/QwqsDOOqMy39fqVsHYvHAi31offSusnI7jtlnDCR//s3ABZqzoI9gqUQ
-aO3VIHM0PBXiR4E5OVOVEj/MIuY7YZdPtReyrWEq0zbxvprvuSURphfF9x2tPIhL
-WVOkczzieNZWkuB69F4X7KPYw0r+o02S1xJI6b8l7ydL+X4Sq9dnsCd98L1rliFR
-M/hyvoxIA6sgH9tXuMFxuiqjPvn++G7pC2JSlFm69jAtOrNCzVMYyJ7q3BLGtoHj
-OyEJxDwZXF5x0KOSiP20tGckleLhgFrwQtm8+kep2AhoAQlIyOcNtjki4D683vv/
-8GrLeWEpQKpevaGkw63jQiVLd36+cg==
-=GzA5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmjyITMACgkQJNaLcl1U
+h9Ba1gf9Hoj+lz5nfOBTr3jPb2HwKKklfURKLxKvCXlul+WHpt/A7kQqAVEEmpBb
+wtRnO8WWeBsXSRsT94XmZ4LbLktJGwxQOYjsIuBNe45M7oRbVOoJD/psl944S08w
+5GT4fBeF71n0C+xCFiCv1hQYqdILX6TK+z39LSUU93wSatZcVmLzXjzCJlo6GfiK
+UaZve4R9aT9u92Z9lzC8aoEdFDdg8qHzMaUyzxcljjQFuZTsEkTKdL6Cc9RIf4B1
+mJYkBL3kI4BDlf/mBw+ruJuQ8OCn8aHit5FWPYaCbI+uVX/1cWs3N7ChquW361s0
+3RrA45I4dApDDLGgRD6NPQZFLvQeOQ==
+=ysbs
 -----END PGP SIGNATURE-----
 
---===============4678123273533338977==--
+--===============2770343789951383600==--
