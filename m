@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4369478550379605984=="
+Content-Type: multipart/mixed; boundary="===============0277057959814980108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 03:38:43 -0000
-Message-Id: <176067232313.2748781.5463071772025047741@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 03:38:45 -0000
+Message-Id: <176067232581.2748859.18213223917215866686@gitolite.kernel.org>
 
---===============4369478550379605984==
+--===============0277057959814980108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing
-    old: c853d03aa11b5fa141fc01978c2fc6fe34ecc054
-    new: fd04941ca9e7299fb657a7ce0953e8e7aaeae8d4
-    log: revlist-c853d03aa11b-fd04941ca9e7.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
+    old: 12fbbeed31c040196e4a395c26d31b46b6c5aa27
+    new: 715805901d7ca1483d287912382c076272952f53
+    log: revlist-12fbbeed31c0-715805901d7c.txt
 
---===============4369478550379605984==
+--===============0277057959814980108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c853d03aa11b-fd04941ca9e7.txt
+Content-Disposition: attachment; filename=revlist-12fbbeed31c0-715805901d7c.txt
 
 d1820a10b6e014b4fede863f35efb2b9f5f38e89 Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
 1136b6aa2d11fc24113de93b404dbadd21b4a72f Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
@@ -327,5 +327,7 @@ ed2a4feade1a1a7ae59fc1e4d199ee73deee1e1a NFSD: pass nfsd_file to nfsd_iter_read(
 aacd7e285050e81ed991213cb4389056fcd6c670 SUNRPC: Improve "fragment too large" warning
 34026afd4e995ffdb2e1c9a9369e7e91d3a340eb nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
 fd04941ca9e7299fb657a7ce0953e8e7aaeae8d4 sunrpc: allocate a separate bvec array for socket sends
+5825ce45c4e47d4d46e9bccd797b50aa30b941ba NFSD: Enable return of an updated stable_how to NFS clients
+715805901d7ca1483d287912382c076272952f53 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 
---===============4369478550379605984==--
+--===============0277057959814980108==--
