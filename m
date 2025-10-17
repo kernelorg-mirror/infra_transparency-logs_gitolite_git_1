@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6483877744675394147=="
+Content-Type: multipart/mixed; boundary="===============2983967532785399152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Oct 2025 03:38:19 -0000
-Message-Id: <176067229965.2747729.5774757973083262982@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 03:38:22 -0000
+Message-Id: <176067230260.2747892.12448071273601113348@gitolite.kernel.org>
 
---===============6483877744675394147==
+--===============2983967532785399152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfs
-    old: 4993a0ea4941417fc0e9e214c4c54533d29f2cad
-    new: 7c6cd49321be59f4f9f5d6c1686b8059f36118ae
-    log: revlist-4993a0ea4941-7c6cd49321be.txt
+  - ref: refs/heads/kernel-6.12.53/dontcache
+    old: a0833be295d169867885cf62653b3d1bc54f8d42
+    new: 30df5cc5653a8966fee66e2da5d8ff927040a069
+    log: revlist-a0833be295d1-30df5cc5653a.txt
 
---===============6483877744675394147==
+--===============2983967532785399152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4993a0ea4941-7c6cd49321be.txt
+Content-Disposition: attachment; filename=revlist-a0833be295d1-30df5cc5653a.txt
 
 d1820a10b6e014b4fede863f35efb2b9f5f38e89 Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
 1136b6aa2d11fc24113de93b404dbadd21b4a72f Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
@@ -116,5 +116,31 @@ c2aa4ecde7a6fe05972c60b787beaee76c94fb42 nfs_localio: duplicate nfs_close_local_
 b765d03b686dc7280d0131bbaa50bb22c4720b5a NFSD: Avoid corruption of a referring call list
 b7ec26bbe6a9e694b9433a70445fc1f24c9c4615 SUNRPC: Cleanup/fix initial rq_pages allocation
 7c6cd49321be59f4f9f5d6c1686b8059f36118ae sunrpc: fix loop in gss seqno cache
+296d3d88fb577409d917ae8f5ab3b9d5ca9ac791 mm/filemap: change filemap_create_folio() to take a struct kiocb
+2e84e4aefdc492dd3b597368a160918c0a8ee806 mm/filemap: use page_cache_sync_ra() to kick off read-ahead
+1931b3e2f0b43933ec5cc3f1d5e9b3c5811c02e3 mm/readahead: add folio allocation helper
+6990c4bf916b074ce73364ffcb86e0ce4a67dce3 mm: add PG_dropbehind folio flag
+b5d5afe11fbaa6dc882c1e1a071d14295e485916 mm/readahead: add readahead_control->dropbehind member
+e5617841140db0e69d39784b0c527fff4efb7992 mm/truncate: add folio_unmap_invalidate() helper
+3f65bba8a0023c2d32c623a663bf26b2bf85a638 fs: add RWF_DONTCACHE iocb and FOP_DONTCACHE file_operations flag
+b7453be419072e5ef70e9f510954acbde394b199 mm/filemap: add read support for RWF_DONTCACHE
+1557c634a49f7be19d8d2232a4515e22543ed20b mm/filemap: drop streaming/uncached pages when writeback completes
+ed86f4d2a96ee8ad29a9aeb0f0b8c6340fc90281 mm/filemap: add filemap_fdatawrite_range_kick() helper
+329dad54481eaa0ccb35a78c683d239281b9f102 mm: call filemap_fdatawrite_range_kick() after IOCB_DONTCACHE issue
+2985d779875838f50cad2a422677d08f1ef38501 mm: add FGP_DONTCACHE folio creation flag
+1844d7963728e60d75999636ec8fbbd5e016434a iomap: make buffered writes work with RWF_DONTCACHE
+0b3b5894e8a1b868482c8d270ed8251b70e5f5fc xfs: flag as supporting FOP_DONTCACHE
+c6cf4dec76d827546a4ceee22e7c5aa0aca824f7 Disable FOP_DONTCACHE for now due to bugs
+212a31886c4f33c0eec8cb7c57ee28d602ee9d01 mm/filemap: gate dropbehind invalidate on folio !dirty && !writeback
+7d7d94751c431c5332f903114ce25b648929cef5 mm/filemap: use filemap_end_dropbehind() for read invalidation
+01cf83e52ec2a0c4bac9f192464b41873efded3d Revert "Disable FOP_DONTCACHE for now due to bugs"
+1074c9febc94816c4f97610cd7ca982d8b85a430 mm/filemap: unify read/write dropbehind naming
+cb132bee5d8f7cb3c4f9aeae2bdcfc7520a5e4e8 mm/filemap: unify dropbehind flag testing and clearing
+1953d85db2ff1786f4e082ccbd61c6986882004c iomap: don't lose folio dropbehind state for overwrites
+8eb8a07982e4ab34c7b84b4cb713a32e8ed59039 fs: reformat the statx definition
+bbb2e42d7673f404f5709d5ec52fe5ac46451b4b fs: add STATX_DIO_READ_ALIGN
+9f3a0bbafe1fc5a2c7099c41d3dff9388e5d788b xfs: cleanup xfs_vn_getattr
+52fc1c62fca8fb845e72ec31a87073bee17ecd1e xfs: report the correct read/write dio alignment for reflinked inodes
+30df5cc5653a8966fee66e2da5d8ff927040a069 xfs: report larger dio alignment for COW inodes
 
---===============6483877744675394147==--
+--===============2983967532785399152==--
