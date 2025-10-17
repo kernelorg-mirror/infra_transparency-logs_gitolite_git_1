@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Fri, 17 Oct 2025 05:03:16 -0000
-Message-Id: <176067739604.2817005.5552182335410965300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 17 Oct 2025 05:07:54 -0000
+Message-Id: <176067767431.2821294.5256050211588319260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-next
-    old: b5dd162282164dc202541ce6551cf705d345820e
-    new: a5c59a29239c35c28c6dd9f712b5ac4bc01b1bc5
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: e060c7297882b12012bac8001264a7c9fe61e2f5
+    new: 72d66ab1afebcf30675859ff89c00303ea9a1c85
     log: |
-         8b811220eb294ae30634af6597e1d992f5ff9193 dt-bindings: arm: aspeed: add Meta Yosemite5 board
-         a5c59a29239c35c28c6dd9f712b5ac4bc01b1bc5 ARM: dts: aspeed: yosemite5: Add Meta Yosemite5 BMC
+         72d66ab1afebcf30675859ff89c00303ea9a1c85 cpufreq: dt-platdev: Add JH7110S SOC to the allowlist
          
