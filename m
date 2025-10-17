@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7586160770331569289=="
+Content-Type: multipart/mixed; boundary="===============2491769811672020539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 17 Oct 2025 07:45:50 -0000
-Message-Id: <176068715072.2958509.15023525598267283185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 17 Oct 2025 07:47:55 -0000
+Message-Id: <176068727597.2959564.6197184888212814374@gitolite.kernel.org>
 
---===============7586160770331569289==
+--===============2491769811672020539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5883bbe37f68496418c2c8b00a5a6d3b7225802b
-    new: 73ab8676c757355925bcf7ffd721c4b4d99cfe1c
+  - ref: refs/heads/driver-core-linus
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: c7fbb8218b4ad35fec0bd2256d2b9c8d60331f33
     log: |
-         73ab8676c757355925bcf7ffd721c4b4d99cfe1c 6.6-stable patches
+         74b84d1be0220b99405c16a4a3e1e503e3bd8387 driver core: fw_devlink: Don't warn about sync_state() pending
+         a91c8096590bd7801a26454789f2992094fe36da devcoredump: Fix circular locking dependency with devcd->mutex.
+         c7fbb8218b4ad35fec0bd2256d2b9c8d60331f33 sysfs: check visibility before changing group attribute ownership
          
 
---===============7586160770331569289==
+--===============2491769811672020539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760687212 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1760687148-a908db39b4b8b7c9e1b477429e1f1f981f015d10
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760687335 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1760687272-5d022bc68e7119db4e1ce0ff7941574059d7149f
 
-5883bbe37f68496418c2c8b00a5a6d3b7225802b 73ab8676c757355925bcf7ffd721c4b4d99cfe1c refs/heads/master
+3a8660878839faadb4f1a6dd72c3179c1df56787 c7fbb8218b4ad35fec0bd2256d2b9c8d60331f33 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjx9GwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HQgP/3convUuW6ad8yXPBY2c
-WLRDunKwL2oDtUh/dOpTo6IX3q203l2t3noQ4s7trdO5IUB+HmJm12aZQH1qQ7I/
-iFNXVk/bL9gP3WtgU8DJSINeYJunnozLTWenh6qTm88sgzrtsQEnV/8FfoYdyV7O
-xYHM+nPUwMFUBURlPFUe+Xl6vXW3CYUZ588HyIErHe572xrGgUh3w5LbQspkhzPE
-agje/1HYG8BOz25iPfF+PsnHvVSrzWvZa9FajvXyplx6x6W2Bjl/994lXbK2NNyW
-/iXHoViNbbXTuUhqm26sQzMbEvc5h2SrVDcELpkTvD/3klX/RuMZMko1MRWJLGXY
-3Q+0YpOP6msZJkIHEJ5y2O9aP3a9uSqmyN7v3tsoFuOOE6kF88gN6nyJ2je/c8no
-o7fg01KQoQdaZUThvzYE67q1O2zCHHKeK01evgWtT3Ivv+00mUhxhgAbU7rb6kTS
-fjx5MLBPfayf7SyMpfK8VFhcVlOOkky4z9a2wSl+80ber3iGzLxdIHGm4U/lqi+z
-MwxeCdBVk1inSXDgUy/wQ/2LlCqxwaCV5Qr/2n1KD9Rj0i8IgEx9PDcZEFlcslF9
-1rnPjkslq/1VBcrX/rmGUYYBcgahHx+Hzsq9uNkXaQWhjSx+Qw1md/nG9kiDLGn/
-00U0QVfNTFMsIXZAtMm9KQpC
-=e+jt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmjx9OcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ry8QAM01StXnWzjcwEeM0Pux
+/rjwmZnuJADb/deP8JZNi8up/buSNMijOYARS7E41LiHFSeNyV6w+N5yWs5sNMqg
+YO8cq0iw2LX1wWHrlunf+yvECGm0La9VtbVbphzb7e/B/+7QLvY4SdfI5ks1On+z
+hPP/ZWgLMeVEUqvXShfCTDcG1nE4PpJhCNDsJHTpHGanCoCqXB2GCdcAxlJHNrYk
+1oyCZzKshdr3w6G7K1lS5iuF9tZBmDTUM4QPq13k7PTqe34YL9zT5gvyUPAGZiTZ
+w16eG1nLlMh4uMYZ5u1LnKlIevwcZG91awvde5xUKSRYUYbt39BxkPb27DATVxKB
+yoZ+HeabseYFdp3innoWoLqi1NDt5QEO+f5/50PMESvBemVVlbIpK11HM+5ci/4r
+3mpy93irfDT4LPu3ijD+HQbNM+gACudREL9aDt4Fo72JEsrpVFgllTkWnRRpKwdA
+llkW236u5tXybFD6fRUgfsl7e2lZbDsqe2oFXDFpeK9nbq2Ymm/Gfjw/RYIrgDz0
+gIkKqz6NYdbkANvhTiVetqFhmfnAfPUqcIx/QQcoJshgWso7ipG49lTo3DI/f6d3
+1XO8HgrkZSuFFMlxMo5HjEDwBv1qFl936A08nrtL/g/5+BAsl7gshmUUdPLEaymm
+JyjIFPvGipOY6FsYB6Y/9cDL
+=O9af
 -----END PGP SIGNATURE-----
 
---===============7586160770331569289==--
+--===============2491769811672020539==--
