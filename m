@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 17 Oct 2025 12:11:36 -0000
-Message-Id: <176070309607.3205063.1776513874080267398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 17 Oct 2025 12:28:25 -0000
+Message-Id: <176070410568.3217941.3453908175982750758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: fb25114cd760c13cf177d9ac37837fafcc9657b5
-    new: 5263cd81578f99a00b2dd7de1da2b570b96a1b7c
+  - ref: refs/heads/experimental
+    old: dff11bb472521eec380399519f1ad7bb2cce8185
+    new: c16df072941f225a45b928c60da7fc364d4247f8
     log: |
-         835dfb12fc389f36eb007657f163bd1c539dcd45 regulator: dt-bindings: rpmh-regulator : Add compatibles for PMH01XX & PMCX0102
-         1356c98ef911e14ccfaf374800840ce5bdcb3bbd regulator: dt-bindings: rpmh-regulator: Update pmic-id DT prop info for new CMD-DB
-         6a8cdef7dc2a4c0dbde3f7d7100b3d99712a766b regulator: rpmh-regulator: Add support for new resource name format
-         65efe5404d151767653c7b7dd39bd2e7ad532c2d regulator: rpmh-regulator: Add RPMH regulator support for Glymur
-         5263cd81578f99a00b2dd7de1da2b570b96a1b7c rpmh-regulators: Update rpmh-regulator driver and
+         53255c7b3ddc185aa9c68edfcc748ab2f7fba230 erofs-utils: lib: fix erofs_io_sendfile() again
+         c16df072941f225a45b928c60da7fc364d4247f8 erofs-utils: mkfs: support directory compression
          
