@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5911458092444786304=="
+Content-Type: multipart/mixed; boundary="===============4138730239980673583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 17 Oct 2025 19:37:50 -0000
-Message-Id: <176072987051.3615405.3219382070404195441@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 19:38:35 -0000
+Message-Id: <176072991514.3615886.7385238945919415379@gitolite.kernel.org>
 
---===============5911458092444786304==
+--===============4138730239980673583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 31cc71d4b3c626f2830f62dfb5525b944417ac8f
-    new: 2fd6dbd5360cc821d35e6960d7e73eb478f4511a
-    log: revlist-31cc71d4b3c6-2fd6dbd5360c.txt
+    old: 2fd6dbd5360cc821d35e6960d7e73eb478f4511a
+    new: 63170620468cd3470e8ed9a248a884c850f1cc65
+    log: revlist-2fd6dbd5360c-63170620468c.txt
+  - ref: refs/heads/tip/urgent
+    old: 313b020faa1e435ce8174fb47030a30fb2f4aa5b
+    new: 4c4a7c57415567ccab3a62f68a9f3ace1a367db7
+    log: revlist-313b020faa1e-4c4a7c574155.txt
 
---===============5911458092444786304==
+--===============4138730239980673583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31cc71d4b3c6-2fd6dbd5360c.txt
+Content-Disposition: attachment; filename=revlist-2fd6dbd5360c-63170620468c.txt
+
+64f32194486a197557518f4cfc2e405e08a95419 Merge branch into tip/master: 'perf/urgent'
+ee6ad899a693ff305717802840ffed703f2ad7b9 Merge branch into tip/master: 'sched/urgent'
+4c4a7c57415567ccab3a62f68a9f3ace1a367db7 Merge branch into tip/master: 'x86/urgent'
+96e55372751a0eb0f6b13a95281fc064f48bf169 Merge branch into tip/master: 'core/bugs'
+cfe1ec7e942f089406efc45e8bb28091cc39321f Merge branch into tip/master: 'irq/drivers'
+40dd3dc224bf75460c1a55a3e9c35e17b82a5df5 Merge branch into tip/master: 'irq/msi'
+16440da14a6d248fea7a7fe93691194ce8119ff5 Merge branch into tip/master: 'objtool/core'
+19ef6bbebd3b6a937a03e270a3c85be3a7f0a416 Merge branch into tip/master: 'perf/core'
+09ca8daa846d8eeeafb1197c4ef7e568cb36a4ca Merge branch into tip/master: 'sched/core'
+43ce6f797ffcf839f8dfbb3c99eaee1ee489d7df Merge branch into tip/master: 'x86/cache'
+96ee2a32df8fd54a757b6a19f9551aa978f7e519 Merge branch into tip/master: 'x86/cleanups'
+7b593a900e4bf84299246b64fb9a0db53c9817ea Merge branch into tip/master: 'x86/core'
+57b76f968a0097f8088aa84734d4328a171b37be Merge branch into tip/master: 'x86/cpu'
+ad6bdb1baad3f322f091ced6246fd2313b200988 Merge branch into tip/master: 'x86/entry'
+0442c25b3a5702795d332586c13499b83fe6863f Merge branch into tip/master: 'x86/microcode'
+63170620468cd3470e8ed9a248a884c850f1cc65 Merge branch into tip/master: 'x86/sgx'
+
+--===============4138730239980673583==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-313b020faa1e-4c4a7c574155.txt
 
 e07e10ae83bdf429f59c8c149173a8c4f29c481e drm/panthor: Ensure MCU is disabled on suspend
 bb642e2d300ee27dcede65cda7ffc47a7047bd69 nvme-multipath: Skip nr_active increments in RETRY disposition
@@ -125,6 +152,8 @@ e96687c6d3b7814e6516dfa732946d3f40142819 Merge tag 'drm-fixes-2025-10-17' of htt
 cf1ea8854e4fb1341c08f66e6c91da97d038ab6a Merge tag 'mmc-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 0c8df15f758a69a7bf88ecf9b7f95dc7db2c463c Merge tag 'block-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 6f3b6e91f7201e248d83232538db14d30100e9c7 Merge tag 'io_uring-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-2fd6dbd5360cc821d35e6960d7e73eb478f4511a Merge branch 'linus'
+64f32194486a197557518f4cfc2e405e08a95419 Merge branch into tip/master: 'perf/urgent'
+ee6ad899a693ff305717802840ffed703f2ad7b9 Merge branch into tip/master: 'sched/urgent'
+4c4a7c57415567ccab3a62f68a9f3ace1a367db7 Merge branch into tip/master: 'x86/urgent'
 
---===============5911458092444786304==--
+--===============4138730239980673583==--
