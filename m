@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 17 Oct 2025 10:57:10 -0000
-Message-Id: <176069863008.3138837.2734019975861895240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Fri, 17 Oct 2025 11:18:49 -0000
+Message-Id: <176069992924.3155528.3764895208133009734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/regulator-6.19
-    old: fb25114cd760c13cf177d9ac37837fafcc9657b5
-    new: 5263cd81578f99a00b2dd7de1da2b570b96a1b7c
+  - ref: refs/heads/for-next
+    old: 6212f5165b6848e336fe48aea054ac108595aad9
+    new: 1d281e3481d27308ce3b8929b7d7aef19930d915
     log: |
-         835dfb12fc389f36eb007657f163bd1c539dcd45 regulator: dt-bindings: rpmh-regulator : Add compatibles for PMH01XX & PMCX0102
-         1356c98ef911e14ccfaf374800840ce5bdcb3bbd regulator: dt-bindings: rpmh-regulator: Update pmic-id DT prop info for new CMD-DB
-         6a8cdef7dc2a4c0dbde3f7d7100b3d99712a766b regulator: rpmh-regulator: Add support for new resource name format
-         65efe5404d151767653c7b7dd39bd2e7ad532c2d regulator: rpmh-regulator: Add RPMH regulator support for Glymur
-         5263cd81578f99a00b2dd7de1da2b570b96a1b7c rpmh-regulators: Update rpmh-regulator driver and
+         a31a3baa6c3b7bbc3c1eeacf9fb98dc290073277 gfs2: A minor GL_NOBLOCK cleanup
+         7e81625a5157e093edab06ee2a30658dfb7ea38d gfs2: Get rid of had_lock in gfs2_drevalidate
+         1d281e3481d27308ce3b8929b7d7aef19930d915 gfs2: Use GL_NOBLOCK flag for non-blocking lookups
          
