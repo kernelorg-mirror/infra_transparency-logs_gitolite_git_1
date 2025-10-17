@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0326520641807316704=="
+Content-Type: multipart/mixed; boundary="===============3351136488139708043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 17 Oct 2025 07:21:58 -0000
-Message-Id: <176068571882.2937476.16148713135090968305@gitolite.kernel.org>
+Date: Fri, 17 Oct 2025 07:22:36 -0000
+Message-Id: <176068575645.2937962.4035501959279614992@gitolite.kernel.org>
 
---===============0326520641807316704==
+--===============3351136488139708043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/fixes
-    old: 959c58491d04e9611fcc58d209f05795975816d7
-    new: b63599c5ce9e66c230671eb4cacf62de10b0483d
-    log: revlist-959c58491d04-b63599c5ce9e.txt
+  - ref: refs/heads/master
+    old: f83ec76bf285bea5727f478a68b894f5543ca76e
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-f83ec76bf285-3a8660878839.txt
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
 
---===============0326520641807316704==
+--===============3351136488139708043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-959c58491d04-b63599c5ce9e.txt
+Content-Disposition: attachment; filename=revlist-f83ec76bf285-3a8660878839.txt
 
+6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
+e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
+3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1047,8 +1053,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-a429b76114aaca3ef1aff4cd469dcf025431bd11 erofs: fix crafted invalid cases for encoded extents
-049583a59b92eea078221d807b1d8c8ec637102e erofs: avoid infinite loops due to corrupted subpage compact indexes
-b63599c5ce9e66c230671eb4cacf62de10b0483d erofs: consolidate z_erofs_extent_lookback()
 
---===============0326520641807316704==--
+--===============3351136488139708043==--
