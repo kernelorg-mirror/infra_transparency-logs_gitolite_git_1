@@ -1,44 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8767779457140560656=="
+Content-Type: multipart/mixed; boundary="===============8849181143487610769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 17 Oct 2025 15:48:33 -0000
-Message-Id: <176071611309.3412564.17911499247154204148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 17 Oct 2025 15:53:00 -0000
+Message-Id: <176071638009.3416897.14803253275653184113@gitolite.kernel.org>
 
---===============8767779457140560656==
+--===============8849181143487610769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 6b01039e430a55f425b64a544fe1cd0437b8462a
-    new: 828aeac92901c1f31b51ae0b9d792b9af5bd3e27
-    log: revlist-6b01039e430a-828aeac92901.txt
-  - ref: refs/heads/for-6.19/intel-ish-v2
-    old: 0000000000000000000000000000000000000000
-    new: 5677aa6a08c1df8bc1ec71516fe1ced9b7cb545f
+  - ref: refs/heads/master
+    old: cf1ea8854e4fb1341c08f66e6c91da97d038ab6a
+    new: 6f3b6e91f7201e248d83232538db14d30100e9c7
+    log: revlist-cf1ea8854e4f-6f3b6e91f720.txt
 
---===============8767779457140560656==
+--===============8849181143487610769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b01039e430a-828aeac92901.txt
+Content-Disposition: attachment; filename=revlist-cf1ea8854e4f-6f3b6e91f720.txt
 
-5329fc30cbeabbd8593e5afc3e0f7a5cf86c6ceb HID: logitech-dj: Add support for a new lightspeed receiver iteration
-55cafcac080a882fbeea1a49a7338211ff2494db HID: logitech-hidpp: Silence protocol errors on newer lightspeed receivers
-aba7963544d47d82cdf36602a6678a093af0299d HID: logitech-hidpp: Do not assume FAP in hidpp_send_message_sync()
-0d30dae38fe01cd1de358c6039a0b1184689fe51 HID: intel-ish-hid: Use dedicated unbound workqueues to prevent resume blocking
-011aa2aa2c4c2b3356c32f195f306df6e177ac38 HID: intel-ish-hid: Add ishtp_get_connection_state() interface
-3cbf6544b0af61e8f9201f2c4c82fdaf2b5f3dd3 HID: intel-ishtp-hid: Clear suspended flag only after connected on resume
-bd1b9a8df598882c69403ee83ba2903b45f9d607 HID: intel-ish-ipc: Reset clients state on resume from D3
-9e097dc9df8027a590dbca503d8b52e1a86024d7 HID: intel-ish-hid: ipc: Always schedule FW reset work on RESET_NOTIFY/ACK
-507561b00ac2481eaf5fd790801f2ca135f23ff0 HID: intel-ish-hid: Use IPC RESET instead of void message in ish_wakeup()
-5677aa6a08c1df8bc1ec71516fe1ced9b7cb545f HID: intel-ish-hid: ipc: Separate hibernate callbacks in dev_pm_ops
-828aeac92901c1f31b51ae0b9d792b9af5bd3e27 Merge branches 'for-6.18/upstream-fixes', 'for-6.19/intel-ish-v2', 'for-6.19/logitech', 'for-6.19/uclogic' and 'for-6.19/winwing' into for-next
+bb642e2d300ee27dcede65cda7ffc47a7047bd69 nvme-multipath: Skip nr_active increments in RETRY disposition
+927069c4ac2cd1a37efa468596fb5b8f86db9df0 Revert "io_uring/rw: drop -EOPNOTSUPP check in __io_complete_rw_common()"
+7e091add9c433bab6912228799bf508e2414acc3 nvme-auth: update sc_c in host response
+dc96cefef0d3032c69e46a21b345c60e56b18934 blk-mq: fix stale tag depth for shared sched tags in blk_mq_update_nr_requests()
+08823e89e3e269bf4c4a20b4c24a8119920cc7a4 block: Remove elevator_lock usage from blkg_conf frozen operations
+be7cab44ed099566c605a8dac686c3254db01b35 io_uring: protect mem region deregistration
+437c23357d897f5b5b7d297c477da44b56654d46 io_uring: fix unexpected placement on same size resizing
+18d6b1743eafeb3fb1e0ea5a2b7fd0a773d525a8 io_uring/rw: check for NULL io_br_sel when putting a buffer
+5a869d017793399fd1d2609ff27e900534173eb3 nvme/tcp: handle tls partially sent records in write_space()
+f0624c6646435c1b56652193cce3e34062d50e3f Merge tag 'nvme-6.18-2025-10-16' of git://git.infradead.org/nvme into block-6.18
+0c8df15f758a69a7bf88ecf9b7f95dc7db2c463c Merge tag 'block-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+6f3b6e91f7201e248d83232538db14d30100e9c7 Merge tag 'io_uring-6.18-20251016' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 
---===============8767779457140560656==--
+--===============8849181143487610769==--
