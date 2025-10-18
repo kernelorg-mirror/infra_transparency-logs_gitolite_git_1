@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 18 Oct 2025 16:49:07 -0000
-Message-Id: <176080614787.475366.625753792374492665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sat, 18 Oct 2025 17:09:23 -0000
+Message-Id: <176080736399.491637.3129858304779523490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/testing
-    old: c86725732293fc1736c7e3eaf25ffce03c858325
-    new: aa8d94ad30aef932dcd48c91ca546f6481b4069a
-    log: |
-         aa8d94ad30aef932dcd48c91ca546f6481b4069a iio: adc: ti_am335x_adc: Limit step_avg to valid range for gcc complains
-         
+  - ref: refs/heads/main
+    old: ddbd177caa937d67ced974a2d338fe1eb1cb7097
+    new: 54c7a82e4d8881600e780cf108429bfb4adff7dc
