@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7888624021181830574=="
+Content-Type: multipart/mixed; boundary="===============8325446570754166971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 18 Oct 2025 02:56:09 -0000
-Message-Id: <176075616995.3982074.4678915950508357715@gitolite.kernel.org>
+Date: Sat, 18 Oct 2025 02:56:11 -0000
+Message-Id: <176075617141.3982212.13144780415187628393@gitolite.kernel.org>
 
---===============7888624021181830574==
+--===============8325446570754166971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2f96a72e27b7bfaaf3a5a4b0f7fb53c1835df7c8
-    new: 70a5a3e6564acf07f7299e3e11f3eac0b207db48
-    log: revlist-2f96a72e27b7-70a5a3e6564a.txt
+  - ref: refs/heads/mm-unstable
+    old: 689ce2a70fcdbbbe8409ea9964c8bd1ea5b64761
+    new: 593609b026ef42759336ca5cc3ff6ddf06a9e2f6
+    log: revlist-689ce2a70fcd-593609b026ef.txt
 
---===============7888624021181830574==
+--===============8325446570754166971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f96a72e27b7-70a5a3e6564a.txt
+Content-Disposition: attachment; filename=revlist-689ce2a70fcd-593609b026ef.txt
 
 78ac22bc9fe214f7126360ebf468a96dc37f3950 mm/mremap: correctly account old mapping after MREMAP_DONTUNMAP remap
 f17169b792f8709d09e9eb4fcae7e084bfc6594c mm/damon/core: fix list_add_tail() call on damon_call()
@@ -135,22 +135,5 @@ f2b41db7afdc781e6674f8efe038b0363c022cde mm/khugepaged: fix comment for default 
 bc4a2cc18fb0139600326184c4e538448b4879b9 mm: thp: use folio_batch to handle THP splitting in deferred_split_scan()
 b7af8056d99b8aab78a27dfabcfbb11dcaad1a27 mm: thp: reparent the split queue during memcg offline
 593609b026ef42759336ca5cc3ff6ddf06a9e2f6 memcg: net: track network throttling due to memcg memory pressure
-6f3d033d62bc85f404530a038fafd6951145e943 tools/mm/page_owner_sort: add help option support
-a61ca1246ad369fdd4638a3629e809f5c5833edb mm/migrate_device: add tracepoints for debugging
-536449a24d5798429a25460db171e3e290c56c29 mm/khugepaged: guard is_zero_pfn() calls with pte_present()
-ac000e85cd8ef16760015ef5257f8c00d2f6b8ab mm/huge_memory: cache folio attribute in __split_unmapped_folio()
-901b93134953a76d3e4188213d20cebce30646b9 mm/huge_memory: optimize and simplify __split_unmapped_folio() logic
-68ae25dba79a2e4ef91fa8cf55b8fc898fc90a8d mm: vmscan: filter out the dirty file folios for node_reclaim()
-eb4c124e130d6bd1e114ce8c9bce9443c4437dbf mm: vmscan: simplify the logic for activating dirty file folios
-e4f6754f2d67fc5f59c2e65c3fdc3cbde51458c7 mm/damon: document damos_quota_goal->nid use case
-53b2116b63f7da11b115286e8d1a04723ec83c46 mm/damon: add DAMOS quota goal type for per-memcg per-node memory usage
-cf754c7a1416723365f71c253a51e99db86ddd8c mm/damon/core: implement DAMOS_QUOTA_NODE_MEMCG_USED_BP
-db2249ebe8ab66c766841adf82ac1b65d3ac9c36 mm/damon/sysfs-schemes: implement path file under quota goal directory
-94e3567fdce3ed7f0f6566a3d61d8a37f527c366 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_USED_BP
-1232849bb32ae173dad8bc2e53f0073431d40bfd mm/damon/core: add DAMOS quota gaol metric for per-memcg per-numa free memory
-cf38438f7a096f076c8bdbf7c7e98a4439694634 mm/damon/sysfs-schemes: support DAMOS_QUOTA_NODE_MEMCG_FREE_BP
-3503ddaa59a6da106479381cd440aac7eb59f674 Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_{USED,FREE}_BP
-4e84e96e1e10181a8eaa1ccb0e45725d050b7f81 Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
-70a5a3e6564acf07f7299e3e11f3eac0b207db48 Docs/ABI/damon: document DAMOS quota goal path file
 
---===============7888624021181830574==--
+--===============8325446570754166971==--
