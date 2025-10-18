@@ -1,45 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============7926062456573803278=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 18 Oct 2025 16:30:49 -0000
-Message-Id: <176080504942.460976.2039598038710402103@gitolite.kernel.org>
-
---===============7926062456573803278==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 18 Oct 2025 16:37:21 -0000
+Message-Id: <176080544126.465929.11313396199029377021@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/tip/urgent
-    old: 4c4a7c57415567ccab3a62f68a9f3ace1a367db7
-    new: 799798fb9fc0ee6d4df9588659a2b60629d2751d
-    log: revlist-4c4a7c574155-799798fb9fc0.txt
-
---===============7926062456573803278==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c4a7c574155-799798fb9fc0.txt
-
-812258ff4166bcd41c7d44707e0591f9ae32ac8c rust: cfi: only 64-bit arm and x86 support CFI_CLANG
-781380d2cdef34559a0125ca6464b90bfc01594f riscv: kgdb: Ensure that BUFMAX > NUMREGBYTES
-ae9e9f3d67dcef7582a4524047b01e33c5185ddb RISC-V: clear hot-unplugged cores from all task mm_cpumasks to avoid rfence errors
-c199745d3ac3f836515a5734a6ca5c6f55a8809b riscv: entry: fix typo in comment 'instruciton' -> 'instruction'
-9e68bd803fac49274fde914466fd3b07c4d602c8 riscv: kprobes: Fix probe address validation
-69a8b62a7aa1e54ff7623064f6507fa29c1d0d4e riscv: acpi: avoid errors caused by probing DT devices when ACPI is used
-7882d2c45ccba538cddb0615a893a008dd2efcde riscv: Respect dependencies of ARCH_HAS_ELF_CORE_EFLAGS
-852947be66b826c3d0ba328e19a3559fdf7ac726 riscv: kprobes: convert one final __ASSEMBLY__ to __ASSEMBLER__
-e9ad390a4812fd60c1da46823f7a6f84f2411f0c arm64/sysreg: Fix GIC CDEOI instruction encoding
-ea0d55ae4b3207c33691a73da3443b1fd379f1d2 arm64: debug: always unmask interrupts in el0_softstp()
-fe69107ec7d8b946ab413cfe118984dac8f1a0d8 Merge tag 'riscv-for-linux-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-f406055cb18c6e299c4a783fc1effeb16be41803 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-e271417de4f0c4bbf7f2bc778e71b270920bbc4d Merge branch into tip/master: 'perf/urgent'
-c89b8581cd0c0264d2c6aeaa9b0f8249b4067bdc Merge branch into tip/master: 'sched/urgent'
-799798fb9fc0ee6d4df9588659a2b60629d2751d Merge branch into tip/master: 'x86/urgent'
-
---===============7926062456573803278==--
+  - ref: refs/heads/for-linus
+    old: 2a786348004b34c5f61235d51c40c1c718b1f8f9
+    new: 1386d16761c0b569efedb998f56c1ae048a086e2
+    log: |
+         1386d16761c0b569efedb998f56c1ae048a086e2 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 2-in-1 14AKP10
+         
+  - ref: refs/heads/for-next
+    old: 2a786348004b34c5f61235d51c40c1c718b1f8f9
+    new: 28bcb2169693d6e02642c45ddc3ca63cd8a4e1f2
+    log: |
+         1386d16761c0b569efedb998f56c1ae048a086e2 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 2-in-1 14AKP10
+         28bcb2169693d6e02642c45ddc3ca63cd8a4e1f2 ALSA: dice: add support for TASCAM IF-FW/DM MkII
+         
+  - ref: refs/heads/master
+    old: 400bbecd81795cb445d077742287b07547e56621
+    new: 2cfe70b297a148902da3832c2b883f431955e480
+    log: |
+         1386d16761c0b569efedb998f56c1ae048a086e2 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 2-in-1 14AKP10
+         5cfc87108de159c00e5f8c319cbaa8795881aa2d Merge branch 'for-linus'
+         28bcb2169693d6e02642c45ddc3ca63cd8a4e1f2 ALSA: dice: add support for TASCAM IF-FW/DM MkII
+         2cfe70b297a148902da3832c2b883f431955e480 Merge branch 'for-next'
+         
