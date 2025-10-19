@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sun, 19 Oct 2025 20:22:10 -0000
-Message-Id: <176090533026.2090864.16762411444902979359@gitolite.kernel.org>
+Date: Sun, 19 Oct 2025 20:23:38 -0000
+Message-Id: <176090541846.2091583.2549398986381285220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: b56a0ef0875a2584cb74d1db653a7a60df97e48e
-    new: c74793425844cbd955d755b1ca5bbf63799b91c7
+    old: c74793425844cbd955d755b1ca5bbf63799b91c7
+    new: 91c622ece2f42bd54662db95192a296868aa024d
     log: |
-         c74793425844cbd955d755b1ca5bbf63799b91c7 feat(unseal): report auth failures
+         91c622ece2f42bd54662db95192a296868aa024d refactor(reset-lock): don't print anything on success
          
