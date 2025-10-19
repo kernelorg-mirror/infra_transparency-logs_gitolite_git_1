@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7592571273021334086=="
+Content-Type: multipart/mixed; boundary="===============0089674540014529364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 19 Oct 2025 01:20:50 -0000
-Message-Id: <176083685080.891973.9980776919498228684@gitolite.kernel.org>
+Date: Sun, 19 Oct 2025 01:21:01 -0000
+Message-Id: <176083686187.892261.3365947879872144599@gitolite.kernel.org>
 
---===============7592571273021334086==
+--===============0089674540014529364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 48a97ffc6c826640907d13b199e29008f4fe2c15
+  - ref: refs/heads/for-next
+    old: 39e9d5f63075f4d54e3b59b8238478c32af92755
     new: 50de48a4dde753d3e88f3326234db22ca6f16c6c
-    log: revlist-48a97ffc6c82-50de48a4dde7.txt
+    log: revlist-39e9d5f63075-50de48a4dde7.txt
 
---===============7592571273021334086==
+--===============0089674540014529364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48a97ffc6c82-50de48a4dde7.txt
+Content-Disposition: attachment; filename=revlist-39e9d5f63075-50de48a4dde7.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -271,6 +271,7 @@ e603a342cf7ecd64ef8f36207dfe1caacb9e2583 selftests/bpf: make arg_parsing.c more 
 57b00ab3d33d2b177bf45d568fa1e6203cd099b6 ASoC: sdw_utils: add rt1321 part id to codec_info_list
 d5cda96d0130effd4255f7c5e720a58760a032a4 ASoC: codecs: wcd938x-sdw: remove redundant runtime pm calls
 5fb750e8a9ae123b2034771b864b8a21dbef65cd bpf: Replace bpf_map_kmalloc_node() with kmalloc_nolock() to allocate bpf_async_cb structures.
+48a97ffc6c826640907d13b199e29008f4fe2c15 bpf: Consistently use bpf_rcu_lock_held() everywhere
 6fced056d2cc8d01b326e6fcfabaacb9850b71a4 smb/server: fix possible memory leak in smb2_read()
 379510a815cb2e64eb0a379cb62295d6ade65df0 smb/server: fix possible refcount leak in smb2_sess_setup()
 88f170814fea74911ceab798a43cbd7c5599bed4 ksmbd: fix recursive locking in RPC handle list access
@@ -383,4 +384,4 @@ e67bb0da332c6058b29a9c46cc4035647d049a0c Merge tag 'pci-v6.18-fixes-2' of git://
 1c64efcb083c48c85227cb4d72ab137feef2cdac Merge tag 'rust-rustfmt' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 50de48a4dde753d3e88f3326234db22ca6f16c6c Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf at 6.18-rc2
 
---===============7592571273021334086==--
+--===============0089674540014529364==--
