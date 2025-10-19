@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 19 Oct 2025 08:48:46 -0000
-Message-Id: <176086372682.1252043.10816696567217135444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 19 Oct 2025 10:31:35 -0000
+Message-Id: <176086989500.1334001.4758396732243143680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 295189ebf1c337e20d4bea77358134d9a5b89345
-    new: d26a0fa57e36bb19c91cfacfb90cbdc0d9955718
+  - ref: refs/heads/main
+    old: 4a94c2b775bc5ba21373580c2178aba4de0fd917
+    new: 7fd8ebaf75780044931ead0fcfb1b1e0db097380
     log: |
-         0fb6e48f01aa478661d210b57452f42041214006 iio: humditiy: hdc3020: fix units for temperature and humidity measurement
-         d26a0fa57e36bb19c91cfacfb90cbdc0d9955718 iio: humditiy: hdc3020: fix units for thresholds and hysteresis
+         7fd8ebaf75780044931ead0fcfb1b1e0db097380 feat(command): introduce --auth-value and --policy-digest
          
