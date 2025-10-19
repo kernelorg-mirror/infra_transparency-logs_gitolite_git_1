@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3193867713530563929=="
+Content-Type: multipart/mixed; boundary="===============7795288934880211794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 19 Oct 2025 14:48:17 -0000
-Message-Id: <176088529756.1765473.11596643655519971111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 19 Oct 2025 15:02:23 -0000
+Message-Id: <176088614330.1826470.12134828866651968618@gitolite.kernel.org>
 
---===============3193867713530563929==
+--===============7795288934880211794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 19542354324df79422a3822a598fc23920e1edd5
-    new: 889a0c0589b75390dd15f84d29731c51b423ec36
-    log: |
-         889a0c0589b75390dd15f84d29731c51b423ec36 update records based on new stable releases
-         
+    old: 1c64efcb083c48c85227cb4d72ab137feef2cdac
+    new: d9043c79ba68a089f95bb4344ab0232c3585f9f1
+    log: revlist-1c64efcb083c-d9043c79ba68.txt
 
---===============3193867713530563929==
+--===============7795288934880211794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1c64efcb083c-d9043c79ba68.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760885359 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1760885296-de3635910944796dfa712b7e3cdc15079a6f1355
+15292f1b4c55a3a7c940dbcb6cb8793871ed3d92 x86/resctrl: Fix miscount of bandwidth event when reactivating previously unavailable RMID
+f25785f9b088ed65089dd0d0034da52858417839 x86/mm: Fix overflow in __cpa_addr()
+83b0177a6c4889b3a6e865da5e21b2c9d97d0551 x86/mm: Fix SMP ordering in switch_mm_irqs_off()
+62685ab071de7c39499212bff19f1b5bc0148bc7 uprobe: Move arch_uprobe_optimize right after handlers execution
+ebfc8542ad62d066771e46c8aa30f5624b89cad8 perf/core: Fix address filter match with backing files
+8818f507a9391019a3ec7c57b1a32e4b386e48a5 perf/core: Fix MMAP event path names with backing files
+fa4f4bae893fbce8a3edfff1ab7ece0c01dc1328 perf/core: Fix MMAP2 event device with backing files
+ee6e44dfe6e50b4a5df853d933a96bdff5309e6e sched/deadline: Stop dl_server before CPU goes offline
+17e3e88ed0b6318fde0d1c14df1a804711cab1b5 sched/fair: Fix pelt lost idle time detection
+e6416c2dfe23c9a6fec881fda22ebb9ae486cfc5 x86/CPU/AMD: Prevent reset reasons from being retained across reboot
+c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+343b4b44a10f6e383bd829ba130024cfde2a08d4 Merge tag 'perf_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
-19542354324df79422a3822a598fc23920e1edd5 889a0c0589b75390dd15f84d29731c51b423ec36 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj0+m8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6oIP/iu9EgQ9SFdT1zJdPUf4
-zsCXr7T8B/vtFsu4+MrxSeWITnym0k9bOcIM71Q9pyrt2XfugbuP9PGsEGIQ9mB7
-pqeGeDprkHGdn6XKZ6G02MazLOO1c5lcO4V1NDs+Yt4F8MMz+dGPWuSNVDeTyS8k
-aFaym8XQT1rcOtmpbZ4UoqzJn/grP6aPEsWwGKzV2T8PDI7e49LNIrZpC+9kYERq
-PYO2YpDIlr2skDW2Ba85SP60+G2w+dc23FISa/2mFhS94W5ZWR0O0T9lLWUyRx79
-XcXD23fdsrQXqo+vfQEeinWUyO22ZXr1kuczZ2jcgiOytU8LoVxo3vyp7cKd8XcF
-OtirminfMRmrGBPEVeO9XQO+3I15Jm8BCWAhArUfgoqYn21ngSUhLkFTGnJwk7je
-TBN7ity4cQorvsfu3eYYNPVi1AunBaX0TSi545gzMLh/rjdl4Nt+60Pylw5ooBb6
-X791nhl3klhHkJlobZUf/tJtYvlfoIBF8dSx3ydUJT2782m9fucKsCH2SMOyPHB4
-f3e54JXcXPkMTYYLi8thiiWGQymiu78q9c/k6QckbHPKlo7dLlEKWkFeOiswstPv
-lOdmVotMKWe0C+Qhgj0NT5kP5EinckY/4n8JGan9F/rOOl9ujpg988YESintdrWj
-mfZxuzA1eBsVvKtXcj8hGGaa
-=yrjJ
------END PGP SIGNATURE-----
-
---===============3193867713530563929==--
+--===============7795288934880211794==--
