@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 19 Oct 2025 02:27:14 -0000
-Message-Id: <176084083486.945564.15322712198069397667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sun, 19 Oct 2025 03:36:33 -0000
+Message-Id: <176084499396.1003417.5342578425139366084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/for-next
-    old: 7a9f475d52b0719d3991fd0a9976a1776744639e
-    new: 7361c864852f07b39f5e571447060bd4d758a998
+  - ref: refs/heads/tmp.perf-tools-next
+    old: b4a63b0e73709bb8eb1a5ed10599fb2256f7ba5f
+    new: b8308511f6e090db769e35b958e2fb9714e5456f
     log: |
-         4f8543b5f20f851cedbb23f8eade159871d84e2a selftests/bpf: Fix selftest verif_scale_strobemeta failure with llvm22
-         b74938a3bd3761f0797ad988eaab17efda5cfd83 samples/bpf: Fix spelling typos in samples/bpf
-         7361c864852f07b39f5e571447060bd4d758a998 selftests/bpf: Fix list_del() in arena list
+         ad1a008bf0d01747a84e0090ac3aa6aa44ff8f54 perf trace: Don't synthesize mmaps unless callchains are enabled
+         a3ef39eb975d4ba1bd1a29b7dcc4e76d6745b305 perf ilist: Don't display deprecated events
+         5960aab556c6b727e56b8446c813ff18fcc845d4 perf python: Add PMU argument to parse_metrics
+         98f3e85c475e6a118432671c210167c6176d6fcc perf ilist: Add PMU information to metrics
+         b8308511f6e090db769e35b958e2fb9714e5456f perf stat bperf cgroup: Increase MAX_EVENTS from 32 to 1024
          
