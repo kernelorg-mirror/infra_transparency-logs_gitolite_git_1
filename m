@@ -1,43 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7795288934880211794=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 19 Oct 2025 15:02:23 -0000
-Message-Id: <176088614330.1826470.12134828866651968618@gitolite.kernel.org>
-
---===============7795288934880211794==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 19 Oct 2025 15:03:09 -0000
+Message-Id: <176088618986.1826910.5185315690659001741@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 1c64efcb083c48c85227cb4d72ab137feef2cdac
-    new: d9043c79ba68a089f95bb4344ab0232c3585f9f1
-    log: revlist-1c64efcb083c-d9043c79ba68.txt
-
---===============7795288934880211794==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c64efcb083c-d9043c79ba68.txt
-
-15292f1b4c55a3a7c940dbcb6cb8793871ed3d92 x86/resctrl: Fix miscount of bandwidth event when reactivating previously unavailable RMID
-f25785f9b088ed65089dd0d0034da52858417839 x86/mm: Fix overflow in __cpa_addr()
-83b0177a6c4889b3a6e865da5e21b2c9d97d0551 x86/mm: Fix SMP ordering in switch_mm_irqs_off()
-62685ab071de7c39499212bff19f1b5bc0148bc7 uprobe: Move arch_uprobe_optimize right after handlers execution
-ebfc8542ad62d066771e46c8aa30f5624b89cad8 perf/core: Fix address filter match with backing files
-8818f507a9391019a3ec7c57b1a32e4b386e48a5 perf/core: Fix MMAP event path names with backing files
-fa4f4bae893fbce8a3edfff1ab7ece0c01dc1328 perf/core: Fix MMAP2 event device with backing files
-ee6e44dfe6e50b4a5df853d933a96bdff5309e6e sched/deadline: Stop dl_server before CPU goes offline
-17e3e88ed0b6318fde0d1c14df1a804711cab1b5 sched/fair: Fix pelt lost idle time detection
-e6416c2dfe23c9a6fec881fda22ebb9ae486cfc5 x86/CPU/AMD: Prevent reset reasons from being retained across reboot
-c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-343b4b44a10f6e383bd829ba130024cfde2a08d4 Merge tag 'perf_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-
---===============7795288934880211794==--
+  - ref: refs/heads/main
+    old: 6a622c5be15194b5c859320097f6a91829193b21
+    new: dab85f574002f7451996e870d0b3e78d56d9c1c8
+    log: |
+         dab85f574002f7451996e870d0b3e78d56d9c1c8 feat(command): evict
+         
