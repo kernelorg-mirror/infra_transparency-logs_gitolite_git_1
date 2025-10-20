@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2611541822292936641=="
+Content-Type: multipart/mixed; boundary="===============0757680110660118501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 20 Oct 2025 16:08:04 -0000
-Message-Id: <176097648424.3206508.2743676859015280757@gitolite.kernel.org>
+Date: Mon, 20 Oct 2025 16:08:29 -0000
+Message-Id: <176097650904.3206824.1436575737432898859@gitolite.kernel.org>
 
---===============2611541822292936641==
+--===============0757680110660118501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 48277906603528a1fd1946bf0f141b2fd4f84e46
-    new: a0b7780602b1b196f47e527fec82166a7e67c4d0
+  - ref: refs/tags/mkp-scsi-staging
+    old: 371dafae229bc9cce7dbb6984f4eb0eaf010519b
+    new: a7748d00a50c1a0a9cc446e55de48061d786d4f3
     log: |
-         a0b7780602b1b196f47e527fec82166a7e67c4d0 scsi: core: Fix a regression triggered by scsi_host_busy()
+         11956e4b912167459ffc51d66f56341a97a94323 scsi: isci: Avoid -Wflex-array-member-not-at-end warning
+         81cb6c228ff877ca0046a432ea831788590633ff scsi: megaraid_sas: Avoid a couple -Wflex-array-member-not-at-end warnings
+         05e66c18e3fd27b4b017ff02e4a7a908274ff755 scsi: smartpqi: Prefer kmalloc_array() over kmalloc()
+         79a2287c1df4896d4f930a24c0dc77571959d3b3 scsi: ufs: dt-bindings: exynos: Add power-domains
          
 
---===============2611541822292936641==
+--===============0757680110660118501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1760976546 -0400
+pusher 75C5DE3D 1760976551 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1760976482-87034b01d8c87ba81a25a5256576fc3dc57955a4
+nonce 1760976488-5d306da634acb1d9a4c2af0dcc392473112c8eae
 
-48277906603528a1fd1946bf0f141b2fd4f84e46 a0b7780602b1b196f47e527fec82166a7e67c4d0 refs/heads/fixes
+371dafae229bc9cce7dbb6984f4eb0eaf010519b a7748d00a50c1a0a9cc446e55de48061d786d4f3 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj2XqIACgkQ7ulgGnXF
-3j0bxBAAlAfxSA4iFgISwItsGOfSMNd8qfD4yeQLT4G4BQgtrf4kY2Ey66eEbA0t
-tdvX90Sq2FMS7FmkS3SRrOcIQletZ80M2cjZLQsD0uxP1jV7apf0IbL7LgZB2EuK
-rlYcmMpjR1iTpeHPoxBMZ/mW5YcWdrqzMtCpo05HQFcpcxKIrF4Gl4U/HLhBLw+e
-0ylCLQKBuuMzrrQXHCS8XPshNBNONYx6Z1VQp26T4U4StOQI2edAzwnZ0dfpTfiC
-aFZWF7Akg/QiWx87AbsH3iKIsf2v/Sm1ax/RsrYBVYlP0WjhhN/kZAP4gzSojoq3
-TSJ34/zQqfDpxIXgAAG+f5P7R8DtE+6ts1SEu7Jav0G85ilXyjpVKYQHFMK/ALIw
-q3RE51IAq3NmEZYRQtUetHJ2SWyohfiPAd7hqHbZP7OHg/fDkvs4nXFlY+Kc2YO/
-vq9q7yBI28BhfIQL54TRWKw+xAKFMoJniVPf1guvOAPchWFEcf9z2gH5r9xvKiko
-DnaSs+b8UBOPTgOvLgyYv61w+9naimajyQVHuiB5N7HtBPKV/mFHVh8d9uOoSO1i
-xof7m1Gea/HgqtTNQ1om+2fWru7M9VhBNQ2lCkXRIjkinofnk/ORFt3QOrtbajBo
-qFXDiQTolhxCBXBQocj1FQ1qoZXtko0QhbRZAmz/HQg33xFkN0o=
-=bVs2
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj2XqgACgkQ7ulgGnXF
+3j3T0A/+O07wjnTzTiIBi6OEVFUNUDKTh0AuZ8ZNqiiDUT6niQcpY2HYQNihJ3q0
+Cg1I0x02fhgBBjY7pUCCZ+aJcwG6wkag88eLV16KeW9qZ4VtpbL6TV4X+YxumGp2
+g/e7g4Wnkm01hN3KAO3qFx3qU+lPpwA05ME5HyT7Lv0pkmSArVlnI9EmASJ9vWBD
+DOKGA15jguGxBxRg3baP5LJKV1t5IseT4ShjrLVOcBFumU0tBIiWeJtj5OHy149f
+RwbhkZRpMGE9ZcvLOm6xV44hGkBclv2q+dGR+Hc9gwyXuuAyCqSK8TQZGmQkQUkZ
+NYQR7o7V7gPnGvn7dSOTA3pBzWUoxQwSbKtAi2i8USHDvpk3pHsc7RgLyNPeNnUB
+axgjhXQkSA9ioQOL5F2XLFbccQI0D95QAJF3YebcQ1SPXRm84fQYVs9PIDlx2+wT
+2KycOsBhSH8S0ThZ3MNzmswxVzdFqgJtDgz/qb49apqe0vjLpfS37G3bHn5Qw9fT
+ngORK5ej8yKpwazSgYJnCbGxoQoR1U+jnXBmms4Z77wuk0hf0V1tQMkSz0X5i772
+NgYOzhc9buo47+LDWeK3pmfovrOLe4MOg3NCYny/R7gw8/c4qbHakMRw0ZQR2QI6
+8Hr76kNF4HkdsmsgxDjC8bN52yW2zoQLu+OqajDH4l/6mANzY4c=
+=YpxU
 -----END PGP SIGNATURE-----
 
---===============2611541822292936641==--
+--===============0757680110660118501==--
