@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4864281435650217430=="
+Content-Type: multipart/mixed; boundary="===============1434557002146396591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 20 Oct 2025 19:07:44 -0000
-Message-Id: <176098726474.3372685.12738252662969206640@gitolite.kernel.org>
+Date: Mon, 20 Oct 2025 19:07:47 -0000
+Message-Id: <176098726793.3372766.8892373190008542302@gitolite.kernel.org>
 
---===============4864281435650217430==
+--===============1434557002146396591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1c51450f1afff1e7419797720df3fbd9ccbf610c
     new: 88224095b4e512b027289183f432c0e84925d648
     log: revlist-1c51450f1aff-88224095b4e5.txt
 
---===============4864281435650217430==
+--===============1434557002146396591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -525,4 +525,4 @@ a57627626636c20399f0c45ea1d16e6283affc91 net: dsa: lantiq_gswip: put a more desc
 1f89ed0ebf2696d1d8fa7625e26c692aa153774a net: dsa: lantiq_gswip: treat VID 0 like the PVID
 88224095b4e512b027289183f432c0e84925d648 Merge branch 'net-dsa-lantiq_gswip-clean-up-and-improve-vlan-handling'
 
---===============4864281435650217430==--
+--===============1434557002146396591==--
