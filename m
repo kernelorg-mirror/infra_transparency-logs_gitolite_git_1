@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Mon, 20 Oct 2025 23:22:56 -0000
-Message-Id: <176100257677.3595617.1492054971796502486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Mon, 20 Oct 2025 23:26:06 -0000
+Message-Id: <176100276616.3599422.1182434650017957040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/turbostat
-    old: 6cb9bf6c01be9e0b3d09c0ef249cafe925f3a279
-    new: 2d53d66894165993acc0863b12437d839c7e71a3
+  - ref: refs/heads/main
+    old: a96dbabae6583bb91c8f456655ec16f50ec84e17
+    new: 1f7a590339106ad02538468817de7538ef1e8410
     log: |
-         aa00b7a31a3825f2f4f81e9ad34d03ba4f9ec9cb tools/power turbostat: Regression fix Uncore MHz printed in hex
-         96af172c163867d18552978a11576ea2c8571834 tools/power turbostat: Add Wildcat Lake and Nova Lake support
-         317fb7c4d7a27df15bfa82665081345388d3f9e9 tools/power turbostat: Refactor added column header printing
-         8242fc53a0004af80912fe93cbd27873b3a169a2 tools/power turbostat: Refactor added-counter value printing code
-         24750b92dfb3f970f0479aff80f2b8d9cf20444e tools/power turbostat.8: Update example
-         2d53d66894165993acc0863b12437d839c7e71a3 tools/power turbostat: Refactor floating point printout code
+         2f04e9d6913c3c60c25c44a2d025c1932214c208 refactor(cache): simplify implementation
+         083a37542f0270fdf964ac8d66a7c713531fa90c refactor(unseal): simplify implementation
+         1f7a590339106ad02538468817de7538ef1e8410 fix(certificate): tpm:<hex>
          
