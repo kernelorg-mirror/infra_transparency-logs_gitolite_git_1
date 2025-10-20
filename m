@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 20 Oct 2025 19:47:44 -0000
-Message-Id: <176098966481.3409979.12954096868837931384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 20 Oct 2025 19:48:08 -0000
+Message-Id: <176098968870.3410314.17656383348973865120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main-pending
-    old: c8f3998bad48a8cbcbe9c11a8da6165285cec8fb
-    new: 51e8d86f0866283836cb07bea63ea9aff4ba43e6
+  - ref: refs/heads/master
+    old: 211ddde0823f1442e4ad052a2f30f050145ccada
+    new: 6548d364a3e850326831799d7e3ea2d7bb97ba08
     log: |
-         38e3a9408496540f3a1dbbfc2ea7e495e14e03d7 wifi: ath12k: Add MODULE_FIRMWARE() entries
-         3de1c4f2f83578f74a3ec2dd5ccb94d0c3aa4039 Merge branch 'ath-next'
-         c100649666faf231e00b1d29cc475889ec2ac9d8 Merge branch 'ath-current'
-         7b089e96918313899115d247cab77712117107ce Merge remote-tracking branch 'mhi/mhi-next'
-         c7d48028a85a836caa0b292368c9ef04537715f7 Add localversion-wireless-testing-ath
-         004cea191e37d29d7c81d733c8d70e53c18e6a2a spi: amlogic: fix spifc build error
-         cfa945b31b79b17872b060f66e9406fa3b32c87c wifi: ath10k: Support for FTM TLV test commands
-         51e8d86f0866283836cb07bea63ea9aff4ba43e6 Merge branch 'pending' into main-pending
+         93a4b36ef3cf4ce5e6a7e7a7686181de76e246a1 cgroup: Fix seqcount lockdep assertion in cgroup freezer
+         48b77733d0dbaf8cd0a122712072f92b2d95d894 expfs: Fix exportfs_can_encode_fh() for EXPORT_FH_FID
+         a7c4bb43bfdc2b9f06ee9d036028ed13a83df42a fs/notify: call exportfs_encode_fid with s_umount
+         3f9c60f4d3cc3e7f4dd7cac05011ea06d512050f selftests: cgroup: add values_close_report helper
+         4cdde87d723a0552f475c8c6b0db472a6945125f selftests: cgroup: Use values_close_report in test_cpu
+         0fbbcab7f9082cdc233da5e5e353f69830f11956 cgroup/misc: fix misc_res_type kernel-doc warning
+         380cb5d3533cddd93050d72d65f7b1fc997823f7 Merge tag 'fsnotify_for_v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+         6548d364a3e850326831799d7e3ea2d7bb97ba08 Merge tag 'cgroup-for-6.18-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
          
-  - ref: refs/tags/ath-pending-202510201933
-    old: 0000000000000000000000000000000000000000
-    new: 51e8d86f0866283836cb07bea63ea9aff4ba43e6
