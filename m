@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 20 Oct 2025 05:09:24 -0000
-Message-Id: <176093696475.2535780.5761064494579467632@gitolite.kernel.org>
+Date: Mon, 20 Oct 2025 05:09:52 -0000
+Message-Id: <176093699287.2536190.9227819767251298898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: f43b66def987c482f15d2c68bdc2b8ae413022dd
-    new: bb808124328add79455765d862abf21ec240752f
+    old: bb808124328add79455765d862abf21ec240752f
+    new: 53b6b405eeb5904ca88e31f12c083bdea9dfb49b
     log: |
-         bb808124328add79455765d862abf21ec240752f feat(command): virtual
+         53b6b405eeb5904ca88e31f12c083bdea9dfb49b chore: bump version to 0.11.22
          
