@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Mon, 20 Oct 2025 16:44:04 -0000
-Message-Id: <176097864468.3241442.15659469986839688578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+Date: Mon, 20 Oct 2025 16:51:57 -0000
+Message-Id: <176097911703.3248761.1784350371728635274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+user: aalbersh
 changes:
-  - ref: refs/heads/kdevops
-    old: 2e5e872c7e70ed46344cce6bc10aab5cb0cd244a
-    new: 862d0141080a68a05a4c1f374da4f13be3e5dcde
-    log: |
-         862d0141080a68a05a4c1f374da4f13be3e5dcde generic: add test for directory leases
-         
+  - ref: refs/tags/v6.15.0
+    old: 0000000000000000000000000000000000000000
+    new: 5bf01e20660de8570cdc111bf6daa424f7784282
