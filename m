@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 20 Oct 2025 20:39:00 -0000
-Message-Id: <176099274032.3454135.17808283804747378028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 20 Oct 2025 20:42:38 -0000
+Message-Id: <176099295810.3457547.15348537920184864528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: d35d2e414ea0fd31d596c87076404722b783ee2f
-    new: f927ea2a3b056e4e285660f2b0ac6a8c94c877ee
+  - ref: refs/heads/for-next
+    old: 0c38c3519bc32abcbf5a685a5f6e09e04256c02e
+    new: eb9010abe21c87f5acf48a0acb96cd512e32c149
     log: |
-         f927ea2a3b056e4e285660f2b0ac6a8c94c877ee feat(policy): infix "and" and "or" expressions
+         eb9010abe21c87f5acf48a0acb96cd512e32c149 dt-bindings: bus: don't check node names
          
