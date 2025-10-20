@@ -1,74 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8833122213977982997=="
+Content-Type: multipart/mixed; boundary="===============4806463822066500149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Mon, 20 Oct 2025 19:35:30 -0000
-Message-Id: <176098893067.3399626.9964397190975593240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Mon, 20 Oct 2025 19:36:37 -0000
+Message-Id: <176098899735.3400303.200657998164687336@gitolite.kernel.org>
 
---===============8833122213977982997==
+--===============4806463822066500149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/linux
-user: tnguy
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-8f5ae30d69d7-3a8660878839.txt
+  - ref: refs/heads/rseq/perf
+    old: 0ebe124897768fa69e448b1f5f9dfe3ea6627377
+    new: b6457e921bcafc6d4a8639c85025c81da60c7d90
+    log: revlist-0ebe12489776-b6457e921bca.txt
 
---===============8833122213977982997==
+--===============4806463822066500149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-0ebe12489776-b6457e921bca.txt
 
-6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
-e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
-3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-722df25ddf4f13e303dcc4cd65b3df5b197a79e6 Merge tag 'kernel-6.18-rc1.clone3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5484a4ea7a1f208b886b58dd55cc55f418930f8a Merge tag 'vfs-6.18-rc1.afs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message in probe()
-18b19abc3709b109676ffd1f48dcd332c2e477d4 Merge tag 'namespace-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-263e777ee3e00d628ac2660f68c82aeab14707b3 Merge tag 'vfs-6.18-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-449c2b302c8e200558619821ced46cc13cdb9aa6 Merge tag 'vfs-6.18-rc1.async' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-2804359536275d8d5f92eb1949102eca4153ea1e net: ethtool: remove duplicated mm.o from Makefile
-29be241d11748dbcd9981587a85afa734942c885 docs: networking: phy: clarify abbreviation "PAL"
-ee916dccd4df6e2fd19c3606c4735282b72f1473 Unbreak 'make tools/*' for user-space targets
-285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
-f2c61db29f277b9c80de92102fc532cc247495cd Remove bcachefs core code
-f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
-0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
-60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
-a40eb50a9566318a138b3e222fc4fe04e3932cda Merge tag 'gfs2-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-e445fba2d76369d72b497ecadf6b9787930693d9 Merge tag 'xfs-merge-6.18' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-98a4f5b7359205ced1b6a626df3963bf7c5e5052 PCI: xilinx-nwl: Fix ECAM programming
-a9401710a5f5681abd2a6f21f9e76bc9f2e81891 Merge tag 'v6.18-rc-part1-smb3-common' of git://git.samba.org/ksmbd
-b3e1c7855e8e1c4d77685ce4a8cd9cdd576058eb Merge tag 'hfs-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/vdubeyko/hfs
-5928397f5739fb94559350575826d94fa8c35929 Merge tag 'erofs-for-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-a769648f464c9f453b3dc5c2bb8559b28c5d78a1 Merge tag 'dlm-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
-d60ac92c105fd8c09224b92c3e34dd03327ba3f4 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-e2fffe1d958b3660bc4e07e6542d97b6cc168826 Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-d8768fb12a14c30436bd0466b4fc28edeef45078 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-1896ce8eb6c61824f6c1125d69d8fda1f44a22f8 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-b2ec5ca9d5c2c019e2316f7ba447596d1dcd8fde Merge tag 'amd-drm-next-6.18-2025-09-26' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-8c1ed3021883f5e49f74dfb41ce0a24e5d07fdf0 Merge tag 'ffs-const-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-50157eaa0c13bb5aac5cc45330bf055d95d4af57 Merge tag 'execve-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-a240a79d435ae7206a5c5101033f3f81d68bc3b4 Merge tag 'seccomp-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-96ccc93744f8260f62841ee1de7153bb1b8cfd83 ixgbe: fix typos and docstring inconsistencies
-a5ba183bdeeeedd5f5b683c02561072848258496 Merge tag 'hardening-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-7ce48d497475d7222bd8258c5c055eb7d928793c net: stmmac: est: Drop frames causing HLBS error
-de17376cad9706911f2d5a58a8c0f02b9665025d net: stmmac: tc: Add HLBS drop count to taprio stats
-3806446f609e111abf10b9a28c9e9762fafe56f4 Merge branch 'net-stmmac-drop-frames-causing-hlbs-error'
-2b235765e9d4426cf56d7fd1a331f81a4dbbd85a scm: use masked_user_access_begin() in put_cmsg()
 1fb0e471611dc6a79dee609a7e0037eb1d124400 net: remove one stac/clac pair from move_addr_to_user()
 b9bd25f47eb79c9eb275e3d9ac3983dc88577dd4 idpf: fix mismatched free function for dma_alloc_coherent
 e129e479f2e444eaccd822717d418119d39d3d5c Merge tag 'pstore-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -1050,5 +1007,48 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
+b88b3c8231acb4e5cf440104063d7eaf7c848da8 ARM: uaccess: Implement missing __get_user_asm_dword()
+821a44ce12faf3d9375e05194242162bd4d0c272 uaccess: Provide ASM GOTO safe wrappers for unsafe_*_user()
+227a9a48be5d752c0a6854d1454c42fd670c1f3e x86/uaccess: Use unsafe wrappers for ASM GOTO
+b67c9b7fb1b30d640660ab755788cb570bef9647 powerpc/uaccess: Use unsafe wrappers for ASM GOTO
+d1ed4edf406f2daf83165c903a318bf59fb84d86 riscv/uaccess: Use unsafe wrappers for ASM GOTO
+1ef533545d283dd668ce24ac11aac481fe82b653 s390/uaccess: Use unsafe wrappers for ASM GOTO
+8b873a13c9abf2267d28fd44db3604967b555267 uaccess: Provide scoped masked user access regions
+a46b5212139d6845336bc63fe3bb7acc04d910d2 uaccess: Provide put/get_user_masked()
+aca83eba9715acf1aeb336e552920e4fb1bf9098 coccinelle: misc: Add scoped_masked_$MODE_access() checker script
+a38a6764e1ea60d2271e4b5e98a67e733105841e futex: Convert to scoped masked user access
+a89f69b0098a7200a40a826c894ea4a2ae2851ff x86/futex: Convert to scoped masked user access
+3677d3821b7baf12fbc58b327b1c5370e47828df select: Convert to scoped masked user access
+e708524e4731a5fcc6891f458106b0894ab832a4 rseq: Avoid pointless evaluation in __rseq_notify_resume()
+6d23a4d1c5ca6a08a6f9ea2009859dc76294b25a rseq: Condense the inline stubs
+d470650d905bdee974ff2257289f3ae4e9a4ca1c rseq: Move algorithm comment to top
+6402b65ab06cc05aa9483184a9eef58a7c7806b6 rseq: Remove the ksig argument from rseq_handle_notify_resume()
+1e40c56ab8837feff2aafb856cf5036b1bffd440 rseq: Simplify registration
+d114be68d79ce9c10872aae37adbddb3e73bc067 rseq: Simplify the event notification
+2bc6caadc4a6375d1d277b2f4f7ca2d06b5613c1 rseq, virt: Retrigger RSEQ after vcpu_run()
+da83380e24c15133499d3189606adcb7f607b10f rseq: Avoid CPU/MM CID updates when no event pending
+65fedd86dcb0fe8dad8c2286212579ed7b19a711 rseq: Introduce struct rseq_data
+65faac24fdf76471adcd6bcf14aa0075e97aeb9f entry: Cleanup header
+c3bb7c17d2e7146ead4aedf6deb32fcb22a359fc entry: Remove syscall_enter_from_user_mode_prepare()
+e2a39fac936024e381a4888894f85fe753092fc7 entry: Inline irqentry_enter/exit_from/to_user_mode()
+19d7219f43aefe84f388966dc4d7aee7cc5bb6ad sched: Move MM CID related functions to sched.h
+b041179017e2d0c86806338c88c66788690ae001 rseq: Cache CPU ID and MM CID values
+b7ed604c7ab0ad418d64140cc0cc7fba7216d4eb rseq: Record interrupt from user space
+ca63d97583f0cd2a5f942ca964764ec1d29a8d03 rseq: Provide tracepoint wrappers for inline code
+5bf88687984413dc21ebfbdcea89f1e63235e9e7 rseq: Expose lightweight statistics in debugfs
+5dbdd00bcde96a5b66d9f9ee4b2124b90ed8d3fc rseq: Provide static branch for runtime debugging
+4b6bff9cb7bae31d53b12c242c6e0063e1fad056 rseq: Provide and use rseq_update_user_cs()
+7218ee81b8a81ca039395765c681dd335b6a692b rseq: Replace the original debug implementation
+9a6bdcd9b48b2060760b6e3e6951a7c1486864eb rseq: Make exit debugging static branch based
+fe374ebb29a3a8929f129f33acf146faada0a776 rseq: Use static branch for syscall exit debug when GENERIC_IRQ_ENTRY=y
+de7d5904b69f03cddc053a38e7dc3ee4f747e268 rseq: Provide and use rseq_set_ids()
+5038e9e1fd22f139ac6815dde767186fd0e4773d rseq: Separate the signal delivery path
+4b28a645f6a2610318b249ed267b93d7832320ff rseq: Rework the TIF_NOTIFY handler
+a1900fadf5c4d5c21ff810bb2d40e9cc7abe6c8c rseq: Optimize event setting
+f03d8c806016a2d04f166f94e171e5224cf46208 rseq: Implement fast path for exit to user
+3cbbe13199da19656beaa912366be1d55b092155 rseq: Switch to fast path processing on exit to user
+c3d9f700ad8d8c3776e474e7bfa03e85e40c15ae entry: Split up exit_to_user_mode_prepare()
+a8b3f532c016f17f598a0b52c53f8e69cf3692c4 rseq: Split up rseq_exit_to_user_mode()
+b6457e921bcafc6d4a8639c85025c81da60c7d90 rseq: Switch to TIF_RSEQ if supported
 
---===============8833122213977982997==--
+--===============4806463822066500149==--
