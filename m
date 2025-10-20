@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2366397107090887332=="
+Content-Type: multipart/mixed; boundary="===============2757183496921132848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Mon, 20 Oct 2025 22:56:33 -0000
-Message-Id: <176100099372.3573326.11906286606693341965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Mon, 20 Oct 2025 22:56:43 -0000
+Message-Id: <176100100363.3573631.2195445955500666596@gitolite.kernel.org>
 
---===============2366397107090887332==
+--===============2757183496921132848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/for-next
-    old: 2a918911ed3d0841923525ed0fe707762ee78844
+    old: 479bec4cb39a1bfb2e5d3e3959d660f61399cad4
     new: 211ddde0823f1442e4ad052a2f30f050145ccada
-    log: revlist-2a918911ed3d-211ddde0823f.txt
+    log: revlist-479bec4cb39a-211ddde0823f.txt
 
---===============2366397107090887332==
+--===============2757183496921132848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a918911ed3d-211ddde0823f.txt
+Content-Disposition: attachment; filename=revlist-479bec4cb39a-211ddde0823f.txt
 
 71feffa9c08675f65192a6b0d6ce168c620ba49a perf powerpc: Add event name as vpa-dtl of PERF_TYPE_SYNTH type to present DTL samples
 cd1c3b730a2a0455b405d7ecbd02a63b51cdc04b perf powerpc: Allocate and setup aux buffer queue to help co-relate with other events across CPU's
@@ -1051,4 +1051,4 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 
---===============2366397107090887332==--
+--===============2757183496921132848==--
