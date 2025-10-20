@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7980870163289062495=="
+Content-Type: multipart/mixed; boundary="===============6657720642080922015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 20 Oct 2025 02:59:26 -0000
-Message-Id: <176092916632.2423162.15044594756698997305@gitolite.kernel.org>
+Date: Mon, 20 Oct 2025 02:59:58 -0000
+Message-Id: <176092919887.2423816.6921138051722933852@gitolite.kernel.org>
 
---===============7980870163289062495==
+--===============6657720642080922015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: e460f42e4b18228acd12fbae51ba34a4512f295b
-    new: 86bf111181e5c3b9137bc6dd65ff9d7fd96b840c
-    log: revlist-e460f42e4b18-86bf111181e5.txt
+  - ref: refs/heads/nfsd-testing
+    old: 65781849241e77b322d31b262f1d33e4d43ece6d
+    new: e1376102dd597ed11d4487422f2621becae58836
+    log: revlist-65781849241e-e1376102dd59.txt
 
---===============7980870163289062495==
+--===============6657720642080922015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e460f42e4b18-86bf111181e5.txt
+Content-Disposition: attachment; filename=revlist-65781849241e-e1376102dd59.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -394,5 +394,36 @@ d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' 
 bfcd21f3cf541236e5ec1707fa6af12331939343 nfsd: change nfs4_client_to_reclaim() to allocate data
 2409aa6d756bc6c6f2c7e3cc346feca42bb51514 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
 86bf111181e5c3b9137bc6dd65ff9d7fd96b840c NFSD: Add array bounds-checking in nfsd_iter_read()
+2bf57953c1f84004938fd0a94ccfb86b15b29720 nfsd: delete unreachable confusing code in nfs4_open_delegation()
+f03a126476746258c1fe8ec0e50279dd5685e7bb NFSD: Define actions for the new time_deleg FATTR4 attributes
+78eb85b3b4a248a6105e59c7fb1708b8690dcd5f NFSD: Fix crash in nfsd4_read_release()
+a0542ea2180c11a55c9f60c00f61a03caad16611 nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+ca14707e7537c453e85c6c39e0e51c982846fe69 NFSD: Update comment documenting unsupported fattr4 attributes
+1937d720da0d43e31ecf7182d6ea12f59f553a71 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+381e44039c43ce267919b6bd0a0767f5e00de2de svcrdma: Increase the server's default RPC/RDMA credit grant
+2ab5d9c1f664b8f7171a0a53550bc960effe2a5d NFSD/blocklayout: Fix minlength check in proc_layoutget
+49e3e2b2751c9d8c7b42b33e19fa341f7773d456 NFSD/blocklayout: Extract extent mapping from proc_layoutget
+0d70eb9e6e5771c8361fb2750e653f3275854ea3 NFSD/blocklayout: Introduce layout content structure
+95e044a0e18d6dff60d7d02f1492037ab2a3afea NFSD/blocklayout: Support multiple extents per LAYOUTGET
+04b1584d43fc76b4df9b244ee9d640127f0003b6 nfsd: fix refcount leak in nfsd_set_fh_dentry()
+f320dec0612da78e974720e1e94f01f2e9f7366b NFSD: Prevent a NULL pointer dereference in fh_getattr()
+d701e53234cb525e9501fe9e0e760513637d5a97 NFSD: pass nfsd_file to nfsd_iter_read()
+4cb6006bf3cacda75aa872464938ccda151ef473 NFSD: Relocate the xdr_reserve_space_vec() call site
+bad36a40973789570281d7c9a1dde4be31787b71 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+fd3f37a63bc25d1c2783741eb3fce446cff1da3d SUNRPC: Improve "fragment too large" warning
+f00e9e99c6724b24e2bb47d372873ef2f206d351 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
+24b03400ea435f7adccc88300662283dd961f056 sunrpc: allocate a separate bvec array for socket sends
+54e5ae54cca1082736c1999da8addf15c7ebedf7 NFSD: Add a subsystem policy document
+59b2aca787826111fd9d2b2ad68e205093825bc7 NFSD: free copynotify stateid in nfs4_free_ol_stateid()
+1dc751977df677e61d4a2e72a7aeb8d147e61bc0 NFSD: Skip close replay processing if XDR encoding fails
+ab252f597d120db2d4612497151bfa6b7980e3ed NFSD: Never cache a COMPOUND when the SEQUENCE operation fails
+c2c7708991b2596d977d25f8fd8ed13a3c49deae nfsd: ensure SEQUENCE replay sends a valid reply.
+0e674284855ed911449303ce7e628b3b8f5c0a17 nfsd: stop pretending that we cache the SEQUENCE reply.
+5bfdf15f4b89ffcf09143a5053efc6c999ea872e Revert "SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it"
+1756d15e3c6b11a28b56b05cf055ad83762a426a nfsd: Use MD5 library instead of crypto_shash
+84833cf36dd6e63090ebb535d29a495c4d540ef3 NFSD: Enable return of an updated stable_how to NFS clients
+a18992157867606f0867a97221fb4292a8a615f4 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+171a04b871ab26b13a3a4001d9694f1f87bbe661 svcrdma: Mark Read chunks
+e1376102dd597ed11d4487422f2621becae58836 siw: Enable try_gso
 
---===============7980870163289062495==--
+--===============6657720642080922015==--
