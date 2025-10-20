@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 20 Oct 2025 17:50:51 -0000
-Message-Id: <176098265166.3304674.5383165730007519360@gitolite.kernel.org>
+Date: Mon, 20 Oct 2025 17:51:29 -0000
+Message-Id: <176098268909.3305079.3784475178533104005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: e5ace6770cb223a660c6f80623f0a3c61d10cc11
     new: 89cba586b8b4cde09c44b1896624720ea29f0205
     log: |
