@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 20 Oct 2025 21:05:07 -0000
-Message-Id: <176099430800.3479276.7880739435561198511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Mon, 20 Oct 2025 21:24:21 -0000
+Message-Id: <176099546128.3493788.4679386383913121448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 427ef6067b67dad073040928163167d97e8b7be0
-    new: 8f57474e1eeac2cd72e753c488f21ae9a31d4e94
+  - ref: refs/heads/main
+    old: f927ea2a3b056e4e285660f2b0ac6a8c94c877ee
+    new: c7534a166abed177e807acae0b42a6366a4906b6
     log: |
-         8f57474e1eeac2cd72e753c488f21ae9a31d4e94 foo
+         c7534a166abed177e807acae0b42a6366a4906b6 feat(policy): infix "and" and "or" expressions
          
