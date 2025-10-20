@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 20 Oct 2025 02:19:23 -0000
-Message-Id: <176092676372.2390604.3841099581635774532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Mon, 20 Oct 2025 02:34:09 -0000
+Message-Id: <176092764978.2402734.11132194922654124691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/main
-    old: 4a52395c387615101919162412ec43ab6c4763fc
-    new: 27a4340f53595a15c43ccda7f32fefe8f262d6a1
+  - ref: refs/heads/bugfix/syzbot
+    old: 0cf2ac1ea93d35c16c33d365e1714f3d607f18d1
+    new: 00c625d6bc56d25e1cceeb33cf1a1ec989cdc538
     log: |
-         27a4340f53595a15c43ccda7f32fefe8f262d6a1 feat!(key): virtual handles
+         00c625d6bc56d25e1cceeb33cf1a1ec989cdc538 f2fs: fix to avoid updating compression context during writeback
          
