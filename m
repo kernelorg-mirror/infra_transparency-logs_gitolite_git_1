@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Mon, 20 Oct 2025 16:12:38 -0000
-Message-Id: <176097675838.3211458.6224049740604310867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Mon, 20 Oct 2025 16:13:30 -0000
+Message-Id: <176097681052.3211958.243398527038758352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/kdevops
-    old: 16881dff9c8b58cd0bcc4678c3af5f49bd1aef5d
-    new: 8dc7ba79e7e3c48f43ac9d25c44204138b787c83
+  - ref: refs/heads/drvdata
+    old: 73a63fb82811a3c039bb09510c6c987c15b61f5d
+    new: 52042815638989ebc3b93cbacdc1e44495eb5656
     log: |
-         8dc7ba79e7e3c48f43ac9d25c44204138b787c83 locktest: add support for testing directory leases
+         52042815638989ebc3b93cbacdc1e44495eb5656 samples: rust: auxiliary: illustrate driver interaction
          
