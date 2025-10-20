@@ -1,34 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 20 Oct 2025 15:23:22 -0000
-Message-Id: <176097380277.3162772.10285894609548660612@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0101881636242017044=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 20 Oct 2025 15:26:32 -0000
+Message-Id: <176097399237.3166450.14361621551059526139@gitolite.kernel.org>
+
+--===============0101881636242017044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: a0c7e6546060fc3278e71843970f3e33335c5de9
-    new: 14eda75be3bbc8a19bd011c8ad390b61ac3088a8
+  - ref: refs/heads/master
+    old: 61d19b37dcf054f1310d74cf147e99952f0a9cb6
+    new: 08e064d28bf6423aec88cabeacb514f027dd4ae7
     log: |
-         9e38dc1abce6fb776d4b6731ccc64ad25e525d39 dt-bindings: vendor-prefixes: Document LinkEase
-         fc3cd4021eeecb9adbe030b8cf32587126775d8e dt-bindings: arm: rockchip: Add LinkEase EasePi R1
-         deaefeaf3df433d50935b9a85076041040f06d74 arm64: dts: rockchip: add LinkEase EasePi R1
-         ff29a83cda0f6eebb57d14f0a6456e3d1e5dc7c3 dt-bindings: arm: rockchip: Add 100ASK DShanPi A1
-         d809417c5a4012feb4379cd1767549b3568906e3 arm64: dts: rockchip: add DTs for 100ASK DShanPi A1
-         14eda75be3bbc8a19bd011c8ad390b61ac3088a8 Merge branch 'v6.19-armsoc/dts64' into for-next
+         08e064d28bf6423aec88cabeacb514f027dd4ae7 assign some 6.16.10 cve ids
          
-  - ref: refs/heads/v6.19-armsoc/dts64
-    old: 047bac0be317e68b89d0deed4f659f8e080df6e8
-    new: d809417c5a4012feb4379cd1767549b3568906e3
-    log: |
-         9e38dc1abce6fb776d4b6731ccc64ad25e525d39 dt-bindings: vendor-prefixes: Document LinkEase
-         fc3cd4021eeecb9adbe030b8cf32587126775d8e dt-bindings: arm: rockchip: Add LinkEase EasePi R1
-         deaefeaf3df433d50935b9a85076041040f06d74 arm64: dts: rockchip: add LinkEase EasePi R1
-         ff29a83cda0f6eebb57d14f0a6456e3d1e5dc7c3 dt-bindings: arm: rockchip: Add 100ASK DShanPi A1
-         d809417c5a4012feb4379cd1767549b3568906e3 arm64: dts: rockchip: add DTs for 100ASK DShanPi A1
-         
+
+--===============0101881636242017044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1760974052 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1760973988-d2ddf4059158158c537fd83d97b701f074d2a83f
+
+61d19b37dcf054f1310d74cf147e99952f0a9cb6 08e064d28bf6423aec88cabeacb514f027dd4ae7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj2VOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LcUQAJSF3FwLdh+b9tx2lZL6
+NKDvh4zFO4pKQ5PLpBwovOzEBnckYWMeEHRIhBsGJH8ginXEymsrYJ7xjori3kOA
+OJ8AklZvzB0IBh9pD+z/O6LlUrxZcW6Web80GVrd5ddEedwefGwBnEA5Q7p+rRzs
+QMwwcb9R/PDfL6gNhNLMMeHKiiTu1p9RAf9F5Mqv771+jj16wXcUVj4cNq2W6ZE2
+IEEqWl0PRfizcLkCQn59BFmwQ45yD5HPY7FJ4bBEgWtBRO+N+BN0rfXQ8qQqj+4X
+lpMob2Y0hPKmmpYyMFGijhvWMQ4gmEX0R1bEzKIEE8MXJe/tgwoUBG5fFemnJtbC
+0hwk51QMFW6JDDCQv8AMv13daySaE2cyeTqCWf3YeTsORnFJalg1kQQ5/ZNn1/Qb
+eOg7k8zWTPLwGdyKRKPu7+lCcBDqiUA2sevxG8EMFRd4V+AD04qLnKVG2lIJiqKW
+pk88f84ERVaGkwnw+DyaNWjCU2uBhsEltrjnGtwRMK0Uj48HVgbnaspluiD4jYE9
+yD7j28Q8qfQHQ+RyKXBOkU9lsWDMccuJtQs8w7qCkfG7aUg4yMSg/2jH2Xuqaq3Z
+GZXNPt6JTd2D6eL1WED1coB1F8kHUPei5CCWP0gdcb2OC+TSCjdBhdn1uZ6Kvoqn
+KtwtpBmke8M6BzT7TIoqd8J/
+=XvCo
+-----END PGP SIGNATURE-----
+
+--===============0101881636242017044==--
