@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0073937169556656095=="
+Content-Type: multipart/mixed; boundary="===============7680328193038174093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 20 Oct 2025 18:58:11 -0000
-Message-Id: <176098669178.3362966.13523111118903472272@gitolite.kernel.org>
+Date: Mon, 20 Oct 2025 18:58:16 -0000
+Message-Id: <176098669658.3363141.9820850851150906001@gitolite.kernel.org>
 
---===============0073937169556656095==
+--===============7680328193038174093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: fea8cdf6738a8b25fccbb7b109b440795a0892cb
     new: ffff5c8fc2af2218a3332b3d5b97654599d50cde
     log: revlist-fea8cdf6738a-ffff5c8fc2af.txt
 
---===============0073937169556656095==
+--===============7680328193038174093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e0caeb24f538c3c9c94f471882ceeb43d9dc2739 net: bonding: update the slave array fo
 902e81e679d86846a2404630d349709ad9372d0d dpaa2-eth: fix the pointer passed to PTR_ALIGN on Tx path
 ffff5c8fc2af2218a3332b3d5b97654599d50cde net: phy: realtek: fix rtl8221b-vm-cg name
 
---===============0073937169556656095==--
+--===============7680328193038174093==--
