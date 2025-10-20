@@ -1,42 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============6941667342030384892=="
+Content-Type: multipart/mixed; boundary="===============0761268026116059214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Mon, 20 Oct 2025 06:55:32 -0000
-Message-Id: <176094333237.2682192.16829299419136792719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 20 Oct 2025 06:55:33 -0000
+Message-Id: <176094333383.2682253.1971320051343958932@gitolite.kernel.org>
 
---===============6941667342030384892==
+--===============0761268026116059214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/uaccess/masked
-    old: d4a61657b1719fd76b8850eae226e6d321affd65
-    new: 04abf1f7d930dc73165f1bee297a6a4dfa404635
-    log: revlist-d4a61657b171-04abf1f7d930.txt
+  - ref: refs/heads/for-next
+    old: f5cc08b0aeae1e481d5c5e36e3e1a8b3efc91ac8
+    new: a76a6c93b52977fa9bbd56d4b5b1b6e3b8495e3b
+    log: |
+         be017f9a21cf465329b26f8d4d45c32bd6f0a011 Merge branch 'for-v6.19/soc-samsung-exynos-acpm' into next/drivers
+         a76a6c93b52977fa9bbd56d4b5b1b6e3b8495e3b Merge branch 'next/drivers' into for-next
+         
+  - ref: refs/heads/next/drivers
+    old: 8b9cd112f1ac8d72244b189654e693012ea8dfe0
+    new: be017f9a21cf465329b26f8d4d45c32bd6f0a011
+    log: |
+         83c4e3c39b2b55afe56ed0d14b93b5f219350c81 dt-bindings: firmware: google,gs101-acpm-ipc: add ACPM clocks
+         84a222d1b369ba83f8947948670f775367e653f1 firmware: exynos-acpm: add DVFS protocol
+         bad0d1260b6dc229657b942400c5fc4f257f50cd firmware: exynos-acpm: register ACPM clocks pdev
+         40498a74205371400a5b0088acb886ac47a523aa clk: samsung: add Exynos ACPM clock driver
+         ad97aba3e64f8e474ecbce0c4e08486023ce8ab2 MAINTAINERS: add ACPM clock bindings and driver
+         be017f9a21cf465329b26f8d4d45c32bd6f0a011 Merge branch 'for-v6.19/soc-samsung-exynos-acpm' into next/drivers
+         
 
---===============6941667342030384892==
+--===============0761268026116059214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4a61657b171-04abf1f7d930.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4e08065ee31f37532485b2bc3cbf44b5e73ccd6d ARM: uaccess: Implement missing __get_user_asm_dword()
-f8a9671937e9a29f4a48778726ae916e3a927951 uaccess: Provide ASM GOTO safe wrappers for unsafe_*_user()
-3e5f9d8cde70f62031ac31edbd074378a8672251 x86/uaccess: Use unsafe wrappers for ASM GOTO
-fdbbbd75d56896f2695ab45dde3fc2f238dee794 powerpc/uaccess: Use unsafe wrappers for ASM GOTO
-277795d8b74dada6b1834a33072f1c1bd598e1cf riscv/uaccess: Use unsafe wrappers for ASM GOTO
-949020979a3fb3a85e2688e9e59367efc95ee345 s390/uaccess: Use unsafe wrappers for ASM GOTO
-0f0e9adaded7d73bbdc1fa02789a6d389af94029 uaccess: Provide scoped masked user access regions
-4bb343a4596e4d5c99fd288e6a9b2c05a782299d uaccess: Provide put/get_user_masked()
-e4b3eb10d47b0c4a3a789429681482288609c3cf coccinelle: misc: Add scoped_masked_$MODE_access() checker script
-11056a070246e02d1b7d07dae27a741a80d86703 futex: Convert to scoped masked user access
-8b3c06be2cc341f46d3ed4a152124b18a8d3d3f0 x86/futex: Convert to scoped masked user access
-04abf1f7d930dc73165f1bee297a6a4dfa404635 select: Convert to scoped masked user access
+certificate version 0.1
+pusher krzk@kernel.org 1760943395 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1760943331-7ae6cb134feaa9459b002e6905f0dd4886739cfc
 
---===============6941667342030384892==--
+f5cc08b0aeae1e481d5c5e36e3e1a8b3efc91ac8 a76a6c93b52977fa9bbd56d4b5b1b6e3b8495e3b refs/heads/for-next
+8b9cd112f1ac8d72244b189654e693012ea8dfe0 be017f9a21cf465329b26f8d4d45c32bd6f0a011 refs/heads/next/drivers
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmj13SMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1620D/wKdJeqEKf7tgq1JZ3HrxkDybfPstV2j8z1
+GJsvsnhO+aPk2FaECtfIHGhUHHqwHvIhiV6B6OOU5hXG0X28HMIxlz4YZme6vt5+
+vchGWotDqBF8b9GsypMXSDrIbeqQEJyy9MPA2kvWglrEStiwcEdHuPnO9607leZU
+4qPeX5UmrkppoXPY9nxZeBjSUDx1g380d68+6yGcR5LTwFevhx6aLO+jJdEM4cW0
+1M6jdZW49DKVnp8d36qQwzt1E6aLE+sdsqzlgBXuf7gd7anAAXTEtiu3DWxkpea1
+YUR1l7UezUVCvDndnPBIq87icoAL+E30T93PnvNbo5gDQfQO2gKZTREGDsu9Qoh0
+gKCjBOi/I4G9G3cbKLAaE9umQ33hdLCsVpOsXIGWXU0ZqNHZ9Wd8WRzhn3Wway0g
+eP2jFQepHhavzGR3wqNt8Hi3jsA2lehES5GQQcJKEiDn1PWcA004x/zQCUGVRITC
+8psQ0caff7ffaBSp+5CRO/kjSYaxpqBizoFdXat0KpEiOjyUPy8xcMgmzw8kXgaa
+iOyMMjvzufcwwlQBN8f8kJILi059q/XmjCbi/RgoyJR1/AJLirQg/Q1o5Cq6LV2S
+rYSWeFySPzFL1byV8T0Gow7OuVMvqRpGpDWWpU7qsj1ry43suk0k50OK+8gLihEM
+pKmds+aEIw==
+=zjUn
+-----END PGP SIGNATURE-----
+
+--===============0761268026116059214==--
