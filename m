@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 20 Oct 2025 14:19:15 -0000
-Message-Id: <176096995559.3102556.15242202904246804466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Mon, 20 Oct 2025 14:20:05 -0000
+Message-Id: <176097000597.3104972.5453969577541297533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/kvm-arm64-per-vcpu-fgt
-    old: 0000000000000000000000000000000000000000
-    new: 641983f30789c513b15c04cc68d9e769c22b9807
+  - ref: refs/heads/timers/core
+    old: 08f04e40c010549208f054cf3328d91a04465325
+    new: 5866896c5846ef6500c63b5406ed81638622328b
+    log: |
+         e9dec99782d5ba045ee39552c3bcdca83171ec40 timers/migration: Fix NUMA tree above 64 CPUs
+         5866896c5846ef6500c63b5406ed81638622328b timers/migration: Remove dead code handling idle CPU checking for remote timers
+         
