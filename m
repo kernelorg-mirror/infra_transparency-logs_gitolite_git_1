@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 20 Oct 2025 04:30:57 -0000
-Message-Id: <176093465746.2504654.7722854298911025102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Mon, 20 Oct 2025 04:43:40 -0000
+Message-Id: <176093542035.2513843.16127979089249067623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ad83f3b7155db28e82de24dbaa1af2b8f5d972a3
-    new: 800201997a509c298e74696da3586d82b1a2b6f4
+  - ref: refs/heads/void-gfp/v2
+    old: 5bc4806712d9e97f6b0344869d11b529287dc037
+    new: 0288549114cf6eb45ac09a2daf7b9f4e9302a3d7
     log: |
-         800201997a509c298e74696da3586d82b1a2b6f4 perf parse-events: Make X modifier more respectful of groups
+         0288549114cf6eb45ac09a2daf7b9f4e9302a3d7 mm, treewide: make addr parameter of free_pages() void *
          
