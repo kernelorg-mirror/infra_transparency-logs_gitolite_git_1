@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matttbe/net-next
-Date: Mon, 20 Oct 2025 15:54:13 -0000
-Message-Id: <176097565379.3193227.11852977351228380663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Mon, 20 Oct 2025 15:54:24 -0000
+Message-Id: <176097566423.3193497.14563769605480095754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matttbe/net-next
-user: matttbe
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/v5.15-gnu11
+  - ref: refs/heads/dev/gic-v5-acpi
     old: 0000000000000000000000000000000000000000
-    new: 85f634bb352f4072bfc0d7b766ef8bb302567f91
+    new: 2507aff522df8a03ac3b31cfd2f5cf564bf77be1
