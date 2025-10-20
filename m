@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 20 Oct 2025 15:12:34 -0000
-Message-Id: <176097315460.3151809.17720668930225264795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 20 Oct 2025 15:14:47 -0000
+Message-Id: <176097328759.3153711.10201990814087577410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/usb-linus
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 71c07570b918f000de5d0f7f1bf17a2887e303b5
-    log: |
-         71c07570b918f000de5d0f7f1bf17a2887e303b5 USB: serial: option: add UNISOC UIS7720
-         
+  - ref: refs/heads/20251020_mika_westerberg_spi_intel_add_support_for_arrow_lake_h_and_wildcat_lake
+    old: 0000000000000000000000000000000000000000
+    new: f7e37affbc9085f2b77ccb6596521a44eabf7505
