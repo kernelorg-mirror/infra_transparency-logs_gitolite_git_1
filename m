@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 20 Oct 2025 23:33:47 -0000
-Message-Id: <176100322790.3604612.18388969726721907129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 20 Oct 2025 23:42:06 -0000
+Message-Id: <176100372640.3612543.15202962918821133690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 1f7a590339106ad02538468817de7538ef1e8410
-    new: e5921d375fe0f9ababaf78a69d86c9706773c52a
+    old: ffff5c8fc2af2218a3332b3d5b97654599d50cde
+    new: a73ca0449bcb7c238097cc6a1bf3fd82a78374df
     log: |
-         e5921d375fe0f9ababaf78a69d86c9706773c52a fix(evict): make arguments positional
+         a73ca0449bcb7c238097cc6a1bf3fd82a78374df selftests: net: fix server bind failure in sctp_vrf.sh
          
