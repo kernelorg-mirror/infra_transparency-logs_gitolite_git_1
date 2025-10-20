@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2797243898201924329=="
+Content-Type: multipart/mixed; boundary="===============8443840849603507355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 20 Oct 2025 17:55:40 -0000
-Message-Id: <176098294044.3309258.12805975386307723049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 20 Oct 2025 18:05:35 -0000
+Message-Id: <176098353593.3317932.7481030205647207527@gitolite.kernel.org>
 
---===============2797243898201924329==
+--===============8443840849603507355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/timers/urgent
-    old: e895f8e29119c8c966ea794af9e9100b10becb88
-    new: 39a9ed0fb6dac58547afdf9b6cb032d326a3698f
-    log: revlist-e895f8e29119-39a9ed0fb6da.txt
+  - ref: refs/heads/for-rc
+    old: 43f6bee02196e56720dd68eea847d213c6e69328
+    new: 211ddde0823f1442e4ad052a2f30f050145ccada
+    log: revlist-43f6bee02196-211ddde0823f.txt
 
---===============2797243898201924329==
+--===============8443840849603507355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e895f8e29119-39a9ed0fb6da.txt
+Content-Disposition: attachment; filename=revlist-43f6bee02196-211ddde0823f.txt
 
+71feffa9c08675f65192a6b0d6ce168c620ba49a perf powerpc: Add event name as vpa-dtl of PERF_TYPE_SYNTH type to present DTL samples
 cd1c3b730a2a0455b405d7ecbd02a63b51cdc04b perf powerpc: Allocate and setup aux buffer queue to help co-relate with other events across CPU's
 8644834a482a94e7da391a09af4d7f3672a5a400 perf powerpc: Process the DTL entries in queue and deliver samples
 a0dfb18f7d20ae0b7b5f513fd65882af105bb771 perf script: Enable to present DTL entries
@@ -1049,6 +1050,5 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 343b4b44a10f6e383bd829ba130024cfde2a08d4 Merge tag 'perf_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
-39a9ed0fb6dac58547afdf9b6cb032d326a3698f timekeeping: Fix aux clocks sysfs initialization loop bound
 
---===============2797243898201924329==--
+--===============8443840849603507355==--
