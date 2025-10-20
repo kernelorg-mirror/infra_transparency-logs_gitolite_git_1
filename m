@@ -1,100 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0408538167506280208=="
+Content-Type: multipart/mixed; boundary="===============5391584674921681236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 20 Oct 2025 11:48:13 -0000
-Message-Id: <176096089378.2966456.11622768477856356868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 20 Oct 2025 11:50:30 -0000
+Message-Id: <176096103020.2969791.8588796543055698877@gitolite.kernel.org>
 
---===============0408538167506280208==
+--===============5391584674921681236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 4ff71af020ae59ae2d83b174646fc2ad9fcd4dc4
-    new: 634ec1fc7982efeeeeed4a7688b0004827b43a21
-    log: revlist-4ff71af020ae-634ec1fc7982.txt
+    old: 94aced6ed9e2630bae0b5631e384a5302c4b6783
+    new: 55db64ddd6a12c5157a61419a11a18fc727e8286
+    log: revlist-94aced6ed9e2-55db64ddd6a1.txt
 
---===============0408538167506280208==
+--===============5391584674921681236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1760960929 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1760960865-46bbc0a77a6a8d5ffc9bc48a4fed3efd8043c04a
+pusher 7BF9099A 1760961065 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1760961001-d91ff2a49dc537da6de7d02afc73525a441c31d5
 
-4ff71af020ae59ae2d83b174646fc2ad9fcd4dc4 634ec1fc7982efeeeeed4a7688b0004827b43a21 refs/heads/main
+94aced6ed9e2630bae0b5631e384a5302c4b6783 55db64ddd6a12c5157a61419a11a18fc727e8286 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmj2IaEACgkQ10qiO8sP
-aADycg/+JqY3XCEBlsE3dUZJWk8OBi0ohXGqij3rpkYZLM8ufOAwOEYY4jZ/w+bO
-A3qpSFRMX2CC9LJpnaiuBdCarAJrZHHlZIAjNm1P8A7rF53VJNogMo5gbd3SWKdP
-7uTb89kuRpaUyJ9Em2710O9vtsoNtUOPhhhzqDoXyz7HRAD+/d00twQsllPqBWzL
-P7aRE/H24vn1059QXQGAkx17RBJSYvv1TGNRYB5Kpzi5moljbbo21GMAVmQ/9WeJ
-sTVZrHdY4hZjyzQFtZgCEaj6+TUBtBjeOu/3C4Z4ETicCbvDjEgu4WtgoB3tmb7o
-D6eDH0Pn7What8CeG53A4Za72RKvFb+5AYgFg/pCBnBvwPkDNCxVzk8fwwWyOMKu
-G03AxQF7L8j93HBosGccxobOKDe+uDrqWa95Vze6OJsyi4Ob8Zoqut24pLGxvHFT
-ObESc+rJnHR+vTcNMgUlOIjhyVDKX9/4VfKVGp/JCkWreYn90LDwspIw4xJjmkWD
-K3ejujITcNntC5+i+1I3iwrHvlZgwk7lQPgYy5vPw9N/CqirgEhpovhmlFJxh/pz
-75l3UP6d6U+Ya2CZ1Vvkf3VbG0EvCaRU9v647YB2cWrcPEZhNZNTG41l31/xbSwI
-fp/QUfRb47N4CU2XRWzhL541dzInXON39KRuHSqmsZf291E2mPs=
-=GpZP
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmj2IikACgkQ10qiO8sP
+aAA/Ng//faC/8NhjtgS1ty84kNFpiIb/b2yMF25Iutv2Npdv5VPl1yGfLNdnDmUn
+agunh1NySGkw6Y644Lw9PtSzXvRC/u8i1YOANzUXSzkqud2oNrZEcXQiSflN7LmQ
+ZABaUDvylSmhnWcqiDXj6UxuhsnJdfP5sU4vLzi3eqwMriJtLoDoU93cdOXDzhYc
+QCVAezfU69jzy2htlxbeO20HcFDkVfOtjOQYJLZnIICAu7fSz8tnkqsZ2mnGF7WY
+X6i/+jCzUXklxJo5NE4QberrQYJ02mCgWtxBCSNlUqFWn39dzEHtgrYrkChRHTPK
+jtyf4Ss7wAcXAENSSxz4Pmw6tbCHbYu9fa3Q/KN/m4ThZM3YfQJ9gv/icUFvU9X3
+Dxhv77QntPk1Y8JJV4zBISj9aBjZFVFndL9uBrKMhYKzkWsE7AYTLFNK3/fnk9oI
+mEsKUk0zAdA8tiHQUxWyWLn0sfEbr0mcALP6YroymFaljXUn+RqzuSr391XaUyUo
+PznzcvAclM1htW+Vw03ThzHIA2csnPHXYlP8cv55AJQkxLU5WsZvFOMafS6PAOPT
++KQ9lzwFMYpZ8Vu0W3C0VA1eScWEWImeAw58dzlqoyYhRWxka7iduE9TXbhrBLmh
+O0d4H3S/RH7uFQWTRD8SAYOWpQnd+QIIzSJl7YNAeyR4ZVTB/0I=
+=yyep
 -----END PGP SIGNATURE-----
 
---===============0408538167506280208==
+--===============5391584674921681236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ff71af020ae-634ec1fc7982.txt
+Content-Disposition: attachment; filename=revlist-94aced6ed9e2-55db64ddd6a1.txt
 
-feafee284579d29537a5a56ba8f23894f0463f3d Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-377ea331281f2c63dc281a6ea2dc318e4e1fc2d1 Merge tag 'mlx5-next-lag' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
-b1f0349bd6d320c382df2e7f6fc2ac95c85f2b18 net/mlx5: Stop polling for command response if interface goes down
-79a0e32b32ac4e4f9e4bb22be97f371c8c116c88 net/mlx5: pagealloc: Fix reclaim race during command interface teardown
-5cfbe7ebfa42fd3c517a701dab5bd73524da9088 net/mlx5: fw reset, add reset timeout work
-eb11f02f3151e86f41bb15cc47b7400e91c07a4f Merge branch 'mlx5-misc-fixes-2025-09-28'
-a680581f6a131fd8c62d284ed4a24d4bc1cc553e dpll: add phase-offset-avg-factor device attribute to netlink spec
-e28d5a68b6519ec6b2118a3f604295b5534eeb51 dpll: add phase_offset_avg_factor_get/set callback ops
-9363b4837659d1b7ee04cfa714373ce4b4b8269f dpll: zl3073x: Allow to configure phase offset averaging factor
-c5cb31c99257aacd5cc2ff72a3b6f0c660046c9b Merge branch 'dpll-add-phase-offset-averaging-factor'
-cb7e3669c683669d93139184adff68a7d9000536 Merge tag 'riscv-for-linus-6.18-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-f1004b2f19d7e9add9d707f64d9fcbc50f67921b Merge tag 'm68k-for-v6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-9cc220a422113f665e13364be1411c7bba9e3e30 Merge tag 's390-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-02696ac0906540715dd4a0bb86b1117a1d00da4e smb: client: add tcon information to smb2_reconnect() debug messages
-8e979aab34d766986f6d14f50cebf5f5dd87ab8e smb: Use arc4 library instead of duplicate arc4 code
-998a67b954680f26f3734040aeeed08642d49721 smb: client: fix crypto buffers in non-linear memory
-417552999d0b6681ac30e117ae890828ca7e46b3 Merge tag 'powerpc-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-30d4efb2f5a515a60fe6b0ca85362cbebea21e2f Merge tag 'for-linus-6.18-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-6dfba108387bf4e71411b3da90b2d5cce48ba054 exfat: limit log print for IO error
-79c1587b6cda74deb0c86fc7ba194b92958c793c exfat: validate cluster allocation bits of the allocation bitmap
-2c88607ac82d1e375e4c85577fe54e69b0be43a9 exfat: drop redundant conversion to bool
-cb8d6d4aa015a8dace68d129baf7a4d7042a667d exfat: Remove unnecessary parentheses
-9fd688678dd86e3be32a35e3b2c5cc3ef0c4e257 exfat: optimize allocation bitmap loading time
-e6fd5d3a431708df8f43d970bd3ba8a70a034fd5 exfat: support modifying mount options via remount
-29c063658d532dfad22d4ef8aea9a494037ceab1 exfat: combine iocharset and utf8 option setup
-d01579d590f72d2d91405b708e96f6169f24775a exfat: Add support for FS_IOC_{GET,SET}FSLABEL
-7bd80ed89d72285515db673803b021469ba71ee8 Documentation: net: add flow control guide and document ethtool API
-5b66169f6be4847008c0aea50885ff0632151479 bonding: fix xfrm offload feature setup on active-backup mode
-99e4c35eada98d5959e61e7d3e049f64b2f0e4e1 selftests: bonding: add ipsec offload test
-38b04ed7072e54086102eae2d05d03ffcdb4b695 6pack: drop redundant locking and refcounting
-9c328f54741bd5465ca1dc717c84c04242fac2e1 net: nfc: nci: Add parameter validation for packet data
-2aff4420efc2910e905ee5b000e04e87422aebc4 net: enetc: initialize SW PIR and CIR based HW PIR and CIR values
-2ade91705b596b7b6b7de84c0ca59eced7acd1f6 tipc: adjust tipc_nodeid2string() to return string length
-a1b501a8c6a87c9265fd03bd004035199e2e8128 page_pool: Clamp pool size to max 16K pages
-e211c463b748c4e2e8364c10bc216ca775fcc943 net: phy: stop exporting phy_driver_unregister
-49ac3d7826936b30eaa5dbe1bec6dad58f7d2476 net: phy: annotate linkmode initializers as not used after init phase
-df7dcf5ebf347fd9d59ce2ccf40dd48b2d106144 net: sfp: don't include swphy.h
-9ebef94cf67967fd739eb90289b5b2c7774bd551 net: sfp: improve poll interval handling
-74662f9f92b67c0ca55139c5aa392da0f0a26c08 ALSA: hda/hdmi: Add pin fix for HP ProDesk model
 2a918911ed3d0841923525ed0fe707762ee78844 iommufd: Register iommufd mock devices with fwspec
 f857478d62066ee94831a5e0679fc18c246cd534 netdevsim: a basic test PSP implementation
 8a5f956a9fb7d74fff681145082acfad5afa6bb8 selftests: drv-net: base device access API test
@@ -1052,20 +1013,41 @@ c5705a2a4aa35350e504b72a94b5c71c3754833c Octeontx2-af: Fix missing error code in
 75527d61d60d493d1eb064f335071a20ca581f54 r8152: add error handling in rtl8152_driver_init
 295ce1eb36ae47dc862d6c8a1012618a25516208 tcp: fix tcp_tso_should_defer() vs large RTT
 bd5afca115f181c85f992d42a57cd497bc823ccb net: airoha: Take into account out-of-order tx completions in airoha_dev_xmit()
+3dacc900c00bad7275ee8c096dbcaab699d83e36 hdlc_ppp: fix potential null pointer in ppp_cp_event logging
+53615ad26e9789bfcdf3a4dccbcecb15294ea024 netmem: replace __netmem_clear_lsb() with netmem_to_nmdesc()
+16a2206354d169bfd13552ad577e07ce66e439ab net/hsr: add protocol version to fill_info output
 4f86eb0a38bc719ba966f155071a6f0594327f34 selftests: net: check jq command is supported
 5bd0116d92a7849b12f0b4c8199d53aa80e449bc Merge tag 'for-linus-6.18-2' of https://github.com/cminyard/linux-ipmi
 9b332cece987ee1790b2ed4c989e28162fa47860 Merge tag 'nfsd-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+0513a3f97b96aaf41e91e02bc3b5d08c9dce5bfa net: bridge: correct debug message function name in br_fill_ifinfo
+e0aa115271394d68992e4a0369479e3632038c2a eth: fbnic: fix various typos in comments and strings
+bdec4271e8081fed339759c45f1db81ea7f8f8ed net: dsa: b53: implement port isolation support
 df5a1f4aeb6ff5e7c5ac47d16a347f03509dd441 MAINTAINERS: add myself as maintainer for b53
+10c4b4f60f5d0dbd29fa819be76e888501c7b729 net: mdio: use macro module_driver to avoid boilerplate code
+c3527eeb65cfe6fb93f9e06bc0429616a3a23592 eth: fealnx: fix typo in comments
 7f0fddd817ba6daebea1445ae9fab4b6d2294fa8 net: core: fix lockdep splat on device unregister
+331f8a8bea22aecf99437f3561453a85f40026de net: airoha: Add missing stats to ethtool_eth_mac_stats
+fc4fed9054ef5b5269d4395dd9db36fe98fce9e3 net: airoha: Add get_link ethtool callback
+6033d2a2468e07ec90bb153ea7c6c3bc2170c1e0 Merge branch 'net-airoha-add-some-new-ethtool-bits'
 0f5878834d6ce97426219b64c02a2c4081419d53 rust: bitmap: clean Rust 1.92.0 `unused_unsafe` warning
 7e85ac9da1acc591bd5269f2b890ed1994c42e96 PM / devfreq: rockchip-dfi: switch to FIELD_PREP_WM16 macro
 66f8e4df003e61b72fdc794ed0ec8378d74a9a4a Merge tag 'ext4_for_linus-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 1f4a222b0e334540343fbb5d3eac4584a6bfe180 Remove long-stale ext3 defconfig option
 5a6f65d1502551f84c158789e5d89299c78907c7 Merge tag 'bitmap-for-v6.18-rc2' of https://github.com/norov/linux
+6378e25ee1ca2ed687eee78eff7bd588d52a4e14 dt-bindings: net: dsa: nxp,sja1105: Add optional clock
+1c51450f1afff1e7419797720df3fbd9ccbf610c tcp: better handle TCP_TX_DELAY on established flows
+6ddb811a579f87b8506344020002d396f814f7c8 net: add SK_WMEM_ALLOC_BIAS constant
+d365c9bca35cdeb534aac279c81d1fc9730bb100 net: control skb->ooo_okay from skb_set_owner_w()
+2ddef3462b3a5d62e5485e22ce128a5c02276438 net: add /proc/sys/net/core/txq_reselection_ms control
+4a7708443dec13b074bc43855f494358fedbd3c0 net: allow busy connected flows to switch tx queues
+4ca05145d4f8bee76fb8c5309799587347bebac4 Merge branch 'net-deal-with-sticky-tx-queues'
 bfdd74166a639930baaba27a8d729edaacd46907 gve: Check valid ts bit on RX descriptor before hw timestamping
+a8e846b8d93de748485653dd8a6a8efd8f5d7613 r8152: Advertise software timestamp information.
+378e6523ebb1e80b3955b7675cfe40b07028d085 net: bcmgenet: remove unused platform code
 7ea30958b3054f5e488fa0b33c352723f7ab3a2a Merge tag 'vfs-6.18-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 bc384963bc18e4f21cf8615b57cbbc9c5e0d309a MAINTAINERS: new entry for IPv6 IOAM
 0c3f2e62815a43628e748b1e4ad97a1c46cce703 tg3: prevent use of uninitialized remote_adv and local_adv variables
+e5b670e5439bda09ea7e3dd3dd32edb2f367c0d3 net: remove obsolete WARN_ON(refcount_read(&sk->sk_refcnt) == 1)
 ce5af41e3234425a40974696682163edfd21128c tls: trim encrypted message to match the plaintext on short splice
 b014a4e066c555185b7c367efacdc33f16695495 tls: wait for async encrypt in case of error during latter iterations of sendmsg
 b6fe4c29bb51cf239ecf48eacf72b924565cb619 tls: always set record_type in tls_process_cmsg
@@ -1075,10 +1057,28 @@ f95fce1e953b8a7af3fbad84aaffe92804196e2d selftests: net: tls: add tests for cmsg
 3667e9b442b95b021189db793b9156552f918e99 selftests: tls: add test for short splice due to full skmsg
 cf51d617c3829bd85666380be348aed71a1c44df Merge branch 'tls-misc-bugfixes'
 1a8fed52f7be14e45785e8e54d0d0b50fc17dbd8 netdevsim: set the carrier when the device goes up
+e1f5bb196f0b0eee197e06d361f8ac5f091c2963 net: bcmasp: Add support for PHY-based Wake-on-LAN
+f197902cd21ae833850679b216bb62c0d056bbb3 net: pse-pd: pd692x0: Replace __free macro with explicit kfree calls
+6fa1f8b64a47edd7d8420d8fd1008507aee2853e net: pse-pd: pd692x0: Separate configuration parsing from hardware setup
+8f3d044b34fe99b894046edb84605456195cabc0 net: pse-pd: pd692x0: Preserve PSE configuration across reboots
+1ecd74955641d72b3af5c67968cbc81635ded453 Merge branch 'preserve-pse-pd692x0-configuration-across-reboots'
+9fbafbfa5b992187d6e4bc85dd0479eb660b3cc1 dt-bindings: net: airoha: npu: Add AN7583 support
+0850ae496d534847ec2c26744521c1bce04ec59d net: airoha: npu: Add airoha_npu_soc_data struct
+4478596f71d92060c9093bdf1d2d940881f41bcc net: airoha: npu: Add 7583 SoC support
+cb85ca4c0a349e246cd35161088aa3689ae5c580 Merge branch 'net-airoha-npu-introduce-support-for-airoha-7583-npu'
 5e655aaddaa37e6c5a103d2854cb561552d710be Merge tag 'linux-can-fixes-for-6.18-20251014' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 8d93ff40d49d70e05c82a74beae31f883fe0eaf8 net: usb: lan78xx: fix use of improperly initialized dev->chipid in lan78xx_reset
+4bd451f4c2851eee7b6e17bb6fd6c9caaadbdc18 net: fbnic: Fix page chunking logic when PAGE_SIZE > 4K
+75b350839b9e6a0ee73b5a4835a8c61e68851ae8 net: fbnic: Allow builds for all 64 bit architectures
+6608b952ae8f3c3e425a87a7495237716bca4915 Merge branch 'add-aarch64-support-for-fbnic'
+00922eeaca3c5c2001781bcad40e0bd54d0fdbb6 dt-bindings: net: Convert amd,xgbe-seattle-v1a to DT schema
+af3fce9f1bb41cdca32b24e7f19a902b7fe2906a net: txgbe: expend SW-FW mailbox buffer size to identify QSFP module
+1f863ce5c71276710a7689c88bf4003fa5173998 net: txgbe: optimize the flow to setup PHY for AML devices
+a058de9262f4d0e58b8ed1d4a05758bbb92cc10e net: txgbe: rename txgbe_get_phy_link()
+ef672e4665dddf0b7ee395f47b3db0425c995b4a Merge branch 'txgbe-feat-new-aml-firmware'
 6de1dec1c166c7f7324ce52ccfdf43e2fa743b19 udp: do not use skb_release_head_state() before skb_attempt_defer_free()
 ef25485516b09db57493f5e78b3358db7cbdcaa0 Merge tag 'ata-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 634ec1fc7982efeeeeed4a7688b0004827b43a21 Merge tag 'net-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+55db64ddd6a12c5157a61419a11a18fc727e8286 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0408538167506280208==--
+--===============5391584674921681236==--
