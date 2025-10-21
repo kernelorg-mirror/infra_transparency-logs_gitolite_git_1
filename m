@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8959659133962778582=="
+Content-Type: multipart/mixed; boundary="===============5653224373322389193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 21 Oct 2025 16:03:52 -0000
-Message-Id: <176106263263.296850.16800909870847507722@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 16:03:55 -0000
+Message-Id: <176106263585.296968.4791951854320599214@gitolite.kernel.org>
 
---===============8959659133962778582==
+--===============5653224373322389193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing
-    old: fd04941ca9e7299fb657a7ce0953e8e7aaeae8d4
-    new: 06ed2d06dcb968ad1439a7ee24498dfbba943d46
-    log: revlist-fd04941ca9e7-06ed2d06dcb9.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
+    old: 715805901d7ca1483d287912382c076272952f53
+    new: 74af10d220ca7fb81776e9fb7ccb8ef588ceb3c2
+    log: revlist-715805901d7c-74af10d220ca.txt
 
---===============8959659133962778582==
+--===============5653224373322389193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd04941ca9e7-06ed2d06dcb9.txt
+Content-Disposition: attachment; filename=revlist-715805901d7c-74af10d220ca.txt
 
 08ee77c2d8f9c34365f736fbfbb4869b875ee64c NFSv4/flexfiles: Remove cred local variable dependency
 5b78b4f6fec06350236d4ac2582dbfbc8b635f4a NFSv4/flexfiles: Use ds_commit_idx when marking a write commit
@@ -112,5 +112,8 @@ f1105390263aeb4f3edb89bcde6db533cdc9e780 NFSD: Implement NFSD_IO_DIRECT for NFS 
 a6d2d8308b19602772057c500c59520ec93f6c28 SUNRPC: Improve "fragment too large" warning
 6342faf6d3c5cf0a10a9233123ceae8669296d34 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
 06ed2d06dcb968ad1439a7ee24498dfbba943d46 sunrpc: allocate a separate bvec array for socket sends
+c83158cea29085b831e042c7ea70d8e91b727f05 NFSD: Enable return of an updated stable_how to NFS clients
+e572814d35be1491887b295f546487b1017f09f1 NFSD: Refactor nfsd_vfs_write()
+74af10d220ca7fb81776e9fb7ccb8ef588ceb3c2 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 
---===============8959659133962778582==--
+--===============5653224373322389193==--
