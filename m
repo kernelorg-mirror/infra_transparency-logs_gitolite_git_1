@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5260139773188170822=="
+Content-Type: multipart/mixed; boundary="===============4592624849970289353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 21 Oct 2025 09:49:51 -0000
-Message-Id: <176104019196.4165692.11760085784165937581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Tue, 21 Oct 2025 09:50:03 -0000
+Message-Id: <176104020331.4166640.253577137209991996@gitolite.kernel.org>
 
---===============5260139773188170822==
+--===============4592624849970289353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 64826db1e2e177b58dcbc7cf1e1379527be2185a
-    new: 7afd5335d6fffa21dddd6a80859dd038988422e7
-    log: revlist-64826db1e2e1-7afd5335d6ff.txt
+  - ref: refs/heads/for-backlight-next
+    old: ba3b29a639fe5173033914db6ee58d8d9bb86aba
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    log: revlist-ba3b29a639fe-3a8660878839.txt
 
---===============5260139773188170822==
+--===============4592624849970289353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64826db1e2e1-7afd5335d6ff.txt
+Content-Disposition: attachment; filename=revlist-ba3b29a639fe-3a8660878839.txt
 
+6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
+e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
+3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1045,10 +1050,5 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-e39d87fd288c38994f9fcb670423d9c0e481f792 dt-bindings: leds: arc,arc2c0608: Convert to DT Schema
-3b6eaa3db567d0f90ef1fc46424a19c23922b0be leds: Use fwnode_for_each_child_node() instead
-98888f6d9f53dbd01553de0a60fa4dea35f21962 leds: flash: Use fwnode_get_next_child_node() instead
-2a7ee990196ff7ccf3de3e152ecc67215b22c318 dt-bindings: leds: Add default-brightness property to common.yaml
-7afd5335d6fffa21dddd6a80859dd038988422e7 leds: lp55xx_common: Enable use without FW_LOADER_USER_HELPER
 
---===============5260139773188170822==--
+--===============4592624849970289353==--
