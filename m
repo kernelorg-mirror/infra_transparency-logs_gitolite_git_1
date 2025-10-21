@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 21 Oct 2025 10:54:24 -0000
-Message-Id: <176104406470.26316.6440231788155553538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 21 Oct 2025 11:12:06 -0000
+Message-Id: <176104512682.41116.4302202409434646080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: d362ac87b2b75e4cb18c71126896a1ddb27c42a6
-    new: 5b5231fafeabcc7eae492e591f47de13c2b0913e
-    log: |
-         5b5231fafeabcc7eae492e591f47de13c2b0913e pwm: max7360: Clean MAX7360 code
-         
+  - ref: refs/heads/testing/wfamnae-next20251021
+    old: 0000000000000000000000000000000000000000
+    new: 732346d865dcd047d7acccd0725246f9a883b37d
