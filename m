@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 21 Oct 2025 13:57:25 -0000
-Message-Id: <176105504564.188310.16547608404547283528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 21 Oct 2025 14:08:34 -0000
+Message-Id: <176105571454.197063.5316521719657286639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: d1d7998df9d7d3ee20bcfc876065fa897b11506d
-    new: 3ff9bcecce83f12169ab3e42671bd76554ca521a
-    log: |
-         3ff9bcecce83f12169ab3e42671bd76554ca521a net: avoid extra access to sk->sk_wmem_alloc in sock_wfree()
-         
+  - ref: refs/heads/fileT9Ts5i
+    old: 7e1906643a7374529af74b013bba35e4fa4e6ffc
+    new: 0000000000000000000000000000000000000000
