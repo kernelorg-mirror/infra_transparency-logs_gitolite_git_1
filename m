@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 21 Oct 2025 20:53:13 -0000
-Message-Id: <176107999360.557052.2209105323001827610@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 20:58:08 -0000
+Message-Id: <176108028864.561257.767321237531991965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 19479a774f66eae8699097a5f2a2e0e15d8c2a78
-    new: 0ab6604c6a9393dfa02d27a57f75f18fd1fd945f
+  - ref: refs/heads/for-linus
+    old: 16fbaba2b78f3adb3ae44a765b5c9ed08779be59
+    new: ff7f198526387c62b67e70e76bcf41a0b6662118
     log: |
-         99f988953f07484a2c4801c1d3493282f60effd8 dt-bindings: PCI: mediatek: Convert to YAML schema
-         6d55d5a7f34b04b3a55dd90a6c3cea5a686e089f dt-bindings: PCI: mediatek: Add support for Airoha AN7583
-         04305367fab7ec9c98eeba315ad09c8b20abce93 PCI: mediatek: Convert bool to single quirks entry and bitmap
-         2d58bc777728bfc37aa35dce7b90e72296cceb9f PCI: mediatek: Use generic MACRO for TPVPERL delay
-         09150ab1a7d204e8d03edb286f906c8d55168644 PCI: mediatek: Add support for Airoha AN7583 SoC
-         a3a9c3b9b388efcb2529c5a44e30e2dca974df26 Merge branch 'pci/dt-binding'
-         fca81f264f95ba8f62de091e9cae271e9e4d5a9b Merge branch 'pci/controller/ixp4xx'
-         85f2c1512750bef4eb6293f9b2099279299fb6d8 Merge branch 'pci/controller/mediatek'
-         ce7a8dd91532021f70808931ea8481459c48657a Merge branch 'pci/controller/rcar-gen2'
-         bf28665e49f479a13dda28e5a75f39bac25289fb Merge branch 'pci/controller/sg2042'
-         0ab6604c6a9393dfa02d27a57f75f18fd1fd945f Merge branch 'pci/controller/xilinx-dma'
+         f3d23c37b383d1b2d68dfbb5dfe09aaf6074ee10 MIPS: Malta: Fix keyboard resource preventing i8042 driver from registering
+         6598d210f5464840f22afe47f6a8687d50c7eb0a MIPS: Malta: Fix PCI southbridge legacy resource reservations
+         ff7f198526387c62b67e70e76bcf41a0b6662118 MIPS: Malta: Use pcibios_align_resource() to block io range
          
