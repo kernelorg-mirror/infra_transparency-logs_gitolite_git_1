@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2136312351979160097=="
+Content-Type: multipart/mixed; boundary="===============4104636903244445067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Oct 2025 17:10:02 -0000
-Message-Id: <176106660275.359127.6066918334224564301@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 17:10:08 -0000
+Message-Id: <176106660821.360092.13396986201072994676@gitolite.kernel.org>
 
---===============2136312351979160097==
+--===============4104636903244445067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 5dba2ba1f36abdb20a3a25a29fffbd2e74f5fafd
-    new: 369519462afe2f51bcb200fc62f72290d0b5b76e
-    log: revlist-5dba2ba1f36a-369519462afe.txt
+  - ref: refs/heads/1GbE
+    old: 88224095b4e512b027289183f432c0e84925d648
+    new: 3ff9bcecce83f12169ab3e42671bd76554ca521a
+    log: revlist-88224095b4e5-3ff9bcecce83.txt
 
---===============2136312351979160097==
+--===============4104636903244445067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dba2ba1f36a-369519462afe.txt
+Content-Disposition: attachment; filename=revlist-88224095b4e5-3ff9bcecce83.txt
 
 9271d0ea07c27e6f482f20b615c2a4bba991e68c can: m_can: add support for optional reset
 f968a24cad3da72fdff12a0ae5ac0b679439cca1 can: treewide: remove can_change_mtu()
@@ -97,43 +97,5 @@ c71a7a861ef02aa2bebb18c2f3385aa3f19094e0 net: airoha: Select default ppe cpu por
 e4e5ce823bdd4601bd75ae7c206ae35e7c2fa60b net: airoha: Add AN7583 SoC support
 d1d7998df9d7d3ee20bcfc876065fa897b11506d Merge branch 'net-airoha-add-an7583-ethernet-controller-support'
 3ff9bcecce83f12169ab3e42671bd76554ca521a net: avoid extra access to sk->sk_wmem_alloc in sock_wfree()
-e0a42ca0947a355a7a39f9d3f27a7f37bf25ab85 ice: fix lane number calculation
-76d5b39e06898ecd3009866cf2b91d720abffe10 ice: Allow 100M speed for E825C SGMII device
-c508cf7c17dcc5349962ce68e605c1f5d8898307 ice: Fix enable_cnt imbalance on resume
-2e0656b88a04401eb01af8d82b372c29396a9a77 ice: Fix enable_cnt imbalance on PCIe error recovery
-9d7540b22d85e6dadc8740d8168e0020f6e3f764 i40e: Fix enable_cnt imbalance on PCIe error recovery
-931a238525d8ec551d551dc09d4c54e25eabe567 ice: add flow parsing for GTP and new protocol field support
-b569300bb3e2098c1e1d25f855bbd77418ced67f ice: add virtchnl and VF context support for GTP RSS
-6153317d0693120cfdbe61d59569ef96f473cb6b ice: improve TCAM priority handling for RSS profiles
-b30b0d98f66dbe1a23efb71d34012da2188d3eca ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
-51e5e66f14e8fe5299319603a8a859b26249f86a iavf: add RSS support for GTP protocol via ethtool
-416078740ea1c54549496b8840e424d550826482 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-d7426f5a065f3c47f7b3958304fc16e369877fa4 ice: add recovery clock and clock 1588 control for E825c
-be8070bb87a78725d9d6e04a689f690550f3bdfa devlink: Add new "max_mac_per_vf" generic device param
-fa1509871df2cf13f9b769a380ccec62451f1c15 i40e: support generic devlink param "max_mac_per_vf"
-654d29f0eaca8060e903576c3d21105fcc68a486 ice: enforce RTNL assumption of queue NAPI manipulation
-fe93675130dd681654f462e8a2feb772a422d9a3 ice: move service task start out of ice_init_pf()
-476761ab73a8b469476e68c91b544af12e65145a ice: move ice_init_interrupt_scheme() prior ice_init_pf()
-b322eab9467c20f38b8f3a7473a83846606e395c ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
-e419743c9809c7bcde48fbdbc9c5720b154210ea ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
-0fc0cd0af0ee8512261aa3c7181dcde47c83010c ice: move ice_init_pf() out of ice_init_dev()
-866c820fb577935ccf039835276c7e566706495a ice: extract ice_init_dev() from ice_init()
-6c3ad6256fb9d24978fdd4beb8e61a1d648ae436 ice: move ice_deinit_dev() to the end of deinit paths
-7b9fabd29068cfe5c4e62a45ca5284b714c49452 ice: remove duplicate call to ice_deinit_hw() on error paths
-d4802bc742d968c716db52c2a66d67324a6cc1a3 igc: power up the PHY before the link test
-8831ad27e5e4ceff6637cfbfab442840abb2a16c ixgbe: preserve RSS indirection table across admin down/up
-193cc885dab448a8ccc8decc8f31694c5676cc3d idpf: remove duplicate defines in IDPF_CAP_RSS
-2f0b24336564236a0a21ad5eed0db83ab675f9d8 ice: remove legacy Rx and construct SKB
-7bffff69e14e3b9a857db2f68b844f5af2f66e81 ice: drop page splitting and recycling
-79f89cd556e3437c4d984e956602b65c9a7e5b53 ice: switch to Page Pool
-b199b46921102457155f7373fc8549a04d644899 idpf: fix memory leak of flow steer list on rmmod
-6e8becf2bdd072449c25d9a63ab09646ada539fb idpf: fix issue with ethtool -n command display
-743268f2e48c2ed71086f7760f9a8de5070b5327 ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
-fcd31186d0aefc3bd1d574a5f3f7aa483a9e0842 ice: add TS PLL control for E825 devices
-b232d34238563d506c2b82779b34fd7741787a3d ice: implement configurable header split for regular Rx
-737c6df60380199e263c22a681b8d7445f4674da ice: fix destination CGU for dual complex E825
-c5ee271dd8c2d4140dd1b7b63276ccede9d89a9e ice: add support for unmanaged DPLL on E830 NIC
-f5abf3ba66e62b97ca5610cf69ee45becfa9ab75 idpf: fix possible vport_config NULL pointer deref in remove
-369519462afe2f51bcb200fc62f72290d0b5b76e libie: depend on DEBUG_FS when building LIBIE_FWLOG
 
---===============2136312351979160097==--
+--===============4104636903244445067==--
