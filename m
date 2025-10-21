@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1434037035809127614=="
+Content-Type: multipart/mixed; boundary="===============1673587886381064302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 21 Oct 2025 11:25:44 -0000
-Message-Id: <176104594467.53917.2026291368913849909@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 11:25:50 -0000
+Message-Id: <176104595021.54202.4827208711890514604@gitolite.kernel.org>
 
---===============1434037035809127614==
+--===============1673587886381064302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg-ro
-    old: d27f7101454f2c849e50f0a1a4ddfdb5a20b08de
+  - ref: refs/heads/kdevops
+    old: 1fe66e11bc8440fdda126ec2e814e899eeb18554
     new: 6f6f600e75128a47aa445458e8485a3962540760
-    log: revlist-d27f7101454f-6f6f600e7512.txt
+    log: revlist-1fe66e11bc84-6f6f600e7512.txt
 
---===============1434037035809127614==
+--===============1673587886381064302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d27f7101454f-6f6f600e7512.txt
+Content-Disposition: attachment; filename=revlist-1fe66e11bc84-6f6f600e7512.txt
 
 34d053a10b0761fab60bb54f5c4e0bea17d9517e vfs: recall-only directory delegations for knfsd
 df8410814ad148feea8547c78b263edfc85ceba4 filelock: push the S_ISREG check down to ->setlease handlers
@@ -41,4 +41,4 @@ a1be1bbdf75d3cc4356d7e529867bd7cc6b81354 vfs: make vfs_symlink() break delegatio
 effe5d2496550d72bd510d92cbbce4be2ce56a4d nfsd: wire up GET_DIR_DELEGATION handling
 6f6f600e75128a47aa445458e8485a3962540760 vfs: expose directory delegations support to userland
 
---===============1434037035809127614==--
+--===============1673587886381064302==--
