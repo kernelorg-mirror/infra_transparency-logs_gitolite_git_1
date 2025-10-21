@@ -1,41 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0666156855070064728=="
+Content-Type: multipart/mixed; boundary="===============3910106187073164845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 21 Oct 2025 03:06:17 -0000
-Message-Id: <176101597793.3793776.14159490733445058063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 21 Oct 2025 03:06:28 -0000
+Message-Id: <176101598858.3794044.4372001349317632904@gitolite.kernel.org>
 
---===============0666156855070064728==
+--===============3910106187073164845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 606da5bb165594c052ee11de79bf05bc38bc1aa6
     new: fe45352cd106ae41b5ad3f0066c2e54dbb2dfd70
     log: revlist-606da5bb1655-fe45352cd106.txt
-  - ref: refs/heads/stable
-    old: d9043c79ba68a089f95bb4344ab0232c3585f9f1
-    new: 6548d364a3e850326831799d7e3ea2d7bb97ba08
-    log: |
-         93a4b36ef3cf4ce5e6a7e7a7686181de76e246a1 cgroup: Fix seqcount lockdep assertion in cgroup freezer
-         48b77733d0dbaf8cd0a122712072f92b2d95d894 expfs: Fix exportfs_can_encode_fh() for EXPORT_FH_FID
-         a7c4bb43bfdc2b9f06ee9d036028ed13a83df42a fs/notify: call exportfs_encode_fid with s_umount
-         3f9c60f4d3cc3e7f4dd7cac05011ea06d512050f selftests: cgroup: add values_close_report helper
-         4cdde87d723a0552f475c8c6b0db472a6945125f selftests: cgroup: Use values_close_report in test_cpu
-         0fbbcab7f9082cdc233da5e5e353f69830f11956 cgroup/misc: fix misc_res_type kernel-doc warning
-         211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
-         380cb5d3533cddd93050d72d65f7b1fc997823f7 Merge tag 'fsnotify_for_v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-         6548d364a3e850326831799d7e3ea2d7bb97ba08 Merge tag 'cgroup-for-6.18-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-         
-  - ref: refs/tags/next-20250721
-    old: 646913c97f56d0fc3199ad259d59553dfb89e412
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20251021
     old: 0000000000000000000000000000000000000000
     new: 853c202e4aec8006c2c1367b052c9f8949db019a
@@ -43,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ffee675aceb9f44b0502a8bec912abb0c4f4af62
 
---===============0666156855070064728==
+--===============3910106187073164845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -887,4 +870,4 @@ fcae52d1f4c3d9a57722216d3297787b41b9f011 Merge branch 'next' of https://git.kern
 4f1aeae056dcbd225e0c0e0d0e4ba62e68c48cb9 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 fe45352cd106ae41b5ad3f0066c2e54dbb2dfd70 Add linux-next specific files for 20251021
 
---===============0666156855070064728==--
+--===============3910106187073164845==--
