@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Oct 2025 21:52:24 -0000
-Message-Id: <176108354474.605872.16367321270629976942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 21 Oct 2025 22:01:22 -0000
+Message-Id: <176108408279.613740.3505514432353236423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/dev-queue
-    old: 369519462afe2f51bcb200fc62f72290d0b5b76e
-    new: ef0baeeb16d8c15727dcd02ed7a68161b84ee41f
+  - ref: refs/heads/for-6.19/io_uring
+    old: 5b6d8a032e807c48a843fb81d9e3d74391f731ea
+    new: 31dc41afdef21f264364288a30013b538c46152e
     log: |
-         ef0baeeb16d8c15727dcd02ed7a68161b84ee41f ixgbe: Add 10G-BX support
+         31dc41afdef21f264364288a30013b538c46152e io_uring: add support for IORING_SETUP_SQE_MIXED
+         
+  - ref: refs/heads/for-next
+    old: dbafbca3143264f43b71a0ee79e931403d50ab20
+    new: b3d21c45acdd1e3c9d532cb333f74be9fb448b70
+    log: |
+         31dc41afdef21f264364288a30013b538c46152e io_uring: add support for IORING_SETUP_SQE_MIXED
+         b3d21c45acdd1e3c9d532cb333f74be9fb448b70 Merge branch 'for-6.19/io_uring' into for-next
          
