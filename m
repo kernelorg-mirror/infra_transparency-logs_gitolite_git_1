@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0597761604276033417=="
+Content-Type: multipart/mixed; boundary="===============5402552639477417487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 21 Oct 2025 01:34:10 -0000
-Message-Id: <176101045031.3715489.15887839789684204228@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 01:34:11 -0000
+Message-Id: <176101045179.3715639.11174165775433781797@gitolite.kernel.org>
 
---===============0597761604276033417==
+--===============5402552639477417487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 70a5a3e6564acf07f7299e3e11f3eac0b207db48
-    new: 4baaa9d46d73643c04a65ea03552c61c44883389
-    log: revlist-70a5a3e6564a-4baaa9d46d73.txt
+  - ref: refs/heads/mm-unstable
+    old: 593609b026ef42759336ca5cc3ff6ddf06a9e2f6
+    new: 8841ba63f874d5dc05fc4beb47788406be96fd5c
+    log: revlist-593609b026ef-8841ba63f874.txt
 
---===============0597761604276033417==
+--===============5402552639477417487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70a5a3e6564a-4baaa9d46d73.txt
+Content-Disposition: attachment; filename=revlist-593609b026ef-8841ba63f874.txt
 
 891b089e8c1210e61d72a74430db4a5be64466b5 mm/mremap: correctly account old mapping after MREMAP_DONTUNMAP remap
 188d598b4fc430af5c88b84f449748f2f1e01947 mm/damon/core: fix list_add_tail() call on damon_call()
@@ -151,25 +151,5 @@ ec44ba2040fe7d5da158698397b612f8644a91c5 mm/damon/core: add DAMOS quota gaol met
 02fbe861d82f20163bb95c321320bef69e335e3d Docs/mm/damon/design: document DAMOS_QUOTA_NODE_MEMCG_{USED,FREE}_BP
 33efda80469170fd8df3b7cf7f48798826dd5288 Docs/admin-guide/mm/damon/usage: document DAMOS quota goal path file
 8841ba63f874d5dc05fc4beb47788406be96fd5c Docs/ABI/damon: document DAMOS quota goal path file
-6ce301c9ffd728e6b1acbcabbf0a19888d9ca25f mm/khugepaged: guard is_zero_pfn() calls with pte_present()
-851bb17c8ffbd4cddbc4c00552ea3aacfb0f4417 mm/damon: add a min_sz_region parameter to damon_set_region_biggest_system_ram_default()
-c83632bc5d122e13f4050d6b4736bb9971cdc6aa mm/damon/reclaim: use min_sz_region for core address alignment when setting regions
-9cf994ddc2fb2618db99ca4aa58183c083d6bb2c mm/shmem: update shmem to use mmap_prepare
-76558d564d37855cac7fbb9b9f7916f139729658 device/dax: update devdax to use mmap_prepare
-b28715af52a02d00f04986a90c62e73b1cdea950 mm/vma: remove unused function, make internal functions static
-7c7fd9c56292687ecd09eec59028e370dad3efd0 mm: add vma_desc_size(), vma_desc_pages() helpers
-f3ccf34eb22ba397a60e7b275dddcb9ac35432af relay: update relay to use mmap_prepare
-012b5682554d5929b6972c7825f2b0d3f4a22433 mm/vma: rename __mmap_prepare() function to avoid confusion
-d068a49b21a666c79786f0453745b8ef5765a614 mm: add remap_pfn_range_prepare(), remap_pfn_range_complete()
-6d5af3aa5a5d7dbc69dbda54924b8bb73581c825 mm: abstract io_remap_pfn_range() based on PFN
-cf238c2f2e7773e13e8ac8e259493d2bae8cf6de mm: introduce io_remap_pfn_range_[prepare, complete]()
-92f3ad2622c2ef78790da3bdbb5e61e7a38120c9 mm: add ability to take further action in vm_area_desc
-407ad6930a155da5fadda15c53c6ed4e019f489e doc: update porting, vfs documentation for mmap_prepare actions
-e5649b9b83084f0a553b6515a4aa239901a6a0ce mm/hugetlbfs: update hugetlbfs to use mmap_prepare
-388fc446d9d13d980b2cdfc7a2be7a02668f5da8 mm: add shmem_zero_setup_desc()
-d962b744a5a284a99824fe7c663101b2fb99cdf3 mm: update mem char driver to use mmap_prepare
-f0198beec1ad6da52b85b7e9b7e62787d24633c8 mm: update resctl to use mmap_prepare
-d0c3e982621ee7fe64f52a3693d431d106540128 vmalloc: separate gfp_mask adjunctive parentheses in __vmalloc_node_noprof() kernel-doc comment
-4baaa9d46d73643c04a65ea03552c61c44883389 mm/vmalloc: use kmalloc_array() instead of kmalloc()
 
---===============0597761604276033417==--
+--===============5402552639477417487==--
