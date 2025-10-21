@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4229229396808145771=="
+Content-Type: multipart/mixed; boundary="===============6420160425616452713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 21 Oct 2025 13:49:57 -0000
-Message-Id: <176105459769.181146.528581311086182427@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 13:51:41 -0000
+Message-Id: <176105470133.183510.461837910531918200@gitolite.kernel.org>
 
---===============4229229396808145771==
+--===============6420160425616452713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/dt
+  - ref: refs/heads/fixes
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 0e85936a9d492acf6ff9519a5f630a7fedb62f7f
-    log: revlist-3a8660878839-0e85936a9d49.txt
+    new: 90c82941adf1986364e0f82c35cf59f2bf5f6a1d
+    log: revlist-3a8660878839-90c82941adf1.txt
 
---===============4229229396808145771==
+--===============6420160425616452713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-0e85936a9d49.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-90c82941adf1.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -389,7 +389,6 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 343b4b44a10f6e383bd829ba130024cfde2a08d4 Merge tag 'perf_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
-cc32134d9d401534559907759c7d40bb1d3c18c8 dt-bindings: power: qcom,rpmpd: document the Kaanapali RPMh Power Domains
-0e85936a9d492acf6ff9519a5f630a7fedb62f7f dt-bindings: power: qcom,rpmpd: add new RPMH levels
+90c82941adf1986364e0f82c35cf59f2bf5f6a1d pmdomain: samsung: plug potential memleak during probe
 
---===============4229229396808145771==--
+--===============6420160425616452713==--
