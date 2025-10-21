@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1324067011533387318=="
+Content-Type: multipart/mixed; boundary="===============8049125709320540315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Tue, 21 Oct 2025 00:47:07 -0000
-Message-Id: <176100762754.3667706.3863783460471359357@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 00:48:34 -0000
+Message-Id: <176100771475.3668427.15847632691580260204@gitolite.kernel.org>
 
---===============1324067011533387318==
+--===============8049125709320540315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/ext2/e2fsprogs
 user: tytso
 changes:
-  - ref: refs/heads/master
-    old: 4b02eb164221c079b428566499343af2766c2ec3
-    new: 13dfdf2410648c361dfd49b28d7dbeac8a580532
-    log: revlist-4b02eb164221-13dfdf241064.txt
-  - ref: refs/heads/next
+  - ref: refs/heads/maint
     old: 4b02eb164221c079b428566499343af2766c2ec3
     new: 13dfdf2410648c361dfd49b28d7dbeac8a580532
     log: revlist-4b02eb164221-13dfdf241064.txt
 
---===============1324067011533387318==
+--===============8049125709320540315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +47,4 @@ cc09f5bb67474e2b2f29f0a6211552757707ce6e fuse2fs: spot check clean journals
 e352b2ad17457306e6c1c0254df53f9c29981438 fuse2fs: mount norecovery if main block device is readonly
 13dfdf2410648c361dfd49b28d7dbeac8a580532 Merge tag 'fuse2fs-fixes_2025-10-17' into next
 
---===============1324067011533387318==--
+--===============8049125709320540315==--
