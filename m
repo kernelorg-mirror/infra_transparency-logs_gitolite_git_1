@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5653224373322389193=="
+Content-Type: multipart/mixed; boundary="===============2341640476981355143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 21 Oct 2025 16:03:55 -0000
-Message-Id: <176106263585.296968.4791951854320599214@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 16:03:59 -0000
+Message-Id: <176106263972.297460.14664115795061686609@gitolite.kernel.org>
 
---===============5653224373322389193==
+--===============2341640476981355143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
-    old: 715805901d7ca1483d287912382c076272952f53
-    new: 74af10d220ca7fb81776e9fb7ccb8ef588ceb3c2
-    log: revlist-715805901d7c-74af10d220ca.txt
+  - ref: refs/heads/kernel-6.12.53/main
+    old: 3d9051ae118907265c72d258cb003c0586b7c6c4
+    new: 3bd9d1c12277b46f10846ffc6f0abbd79cc167ea
+    log: revlist-3d9051ae1189-3bd9d1c12277.txt
 
---===============5653224373322389193==
+--===============2341640476981355143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-715805901d7c-74af10d220ca.txt
+Content-Disposition: attachment; filename=revlist-3d9051ae1189-3bd9d1c12277.txt
 
 08ee77c2d8f9c34365f736fbfbb4869b875ee64c NFSv4/flexfiles: Remove cred local variable dependency
 5b78b4f6fec06350236d4ac2582dbfbc8b635f4a NFSv4/flexfiles: Use ds_commit_idx when marking a write commit
@@ -39,6 +39,10 @@ d49879491afa626fe61a380714c2191aef9599e8 NFSv4/flexfiles: Update layout stats & 
 262fd5fa9ac8b6b8d9610541c8b293696324a107 NFS4: Apply delay_retrans to async operations
 817b25a4891480f4281d4ddd7f1fbdcd99da2a95 NFS: check if suid/sgid was cleared after a write as needed
 049b82d731c2954eaf4204b99ce12867045157cb NFS4: Fix state renewals missing after boot
+7c28e36dcb921f0d371c3238c6da861cdfc30e4f pnfs: Fix TLS logic in _nfs4_pnfs_v3_ds_connect()
+954af3917818382df817856425787f0876d3b4ef pnfs: Fix TLS logic in _nfs4_pnfs_v4_ds_connect()
+71778c4e38d49a85eb0439adfddfae5506f5ffe3 pnfs: Set transport security policy to RPC_XPRTSEC_NONE unless using TLS
+8773f15044fbd6a50ad54d85a7581b0dcfa1bf86 NFS: Check the TLS certificate fields in nfs_match_client()
 0a342854f53ba54002cb7bfe4a02acdd930b3b35 timekeeping: Add interfaces for handling timestamps with a floor value
 abc637d237b18c969cca4c8ca2f154e762302321 timekeeping: Add percpu counter for tracking floor swap events
 0046da9f73d89ff9ac5d0c9a028f33fd380043b1 fs: add infrastructure for multigrain timestamps
@@ -115,5 +119,18 @@ a6d2d8308b19602772057c500c59520ec93f6c28 SUNRPC: Improve "fragment too large" wa
 c83158cea29085b831e042c7ea70d8e91b727f05 NFSD: Enable return of an updated stable_how to NFS clients
 e572814d35be1491887b295f546487b1017f09f1 NFSD: Refactor nfsd_vfs_write()
 74af10d220ca7fb81776e9fb7ccb8ef588ceb3c2 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+8c6e45c312c2bbe3181b3f26ea19432ace4e6b3f Merge branch 'kernel-6.12.53/nvme' into kernel-6.12.53/main
+12763757c674cdf9eea5ecc61d0598577c055ad4 Merge branch 'kernel-6.12.53/localio' into kernel-6.12.53/main
+d6836daf6b467a92ca73520adea1733dc4fc3b42 Merge branch 'kernel-6.12.53/nfs' into kernel-6.12.53/main
+2140ab371d98124461d4c3310756cc6fe988c73d Merge branch 'kernel-6.12.53/dontcache' into kernel-6.12.53/main
+687ce66bfc7af9416b22979b6fdfc05c9f55ea41 Merge branch 'kernel-6.12.53/xfs' into kernel-6.12.53/main
+47926176d2c87305792566acd42d8945cc96f7b2 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.53/main
+12b5b82a3bc6662f828764dc3f148f5d08ec55bb Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.53/main
+4b367e89f89fe2179ab363f18fdf880e072079a6 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.18-2' into kernel-6.12.53/main
+0112b167a2e5eb3061bf4f00dbb99a659d998204 Merge branch 'kernel-6.12.53/nfs-testing' into kernel-6.12.53/main
+85c96528ad874aec9f631153e0989d25956635d1 Merge branch 'kernel-6.12.53/nfsd-next' into kernel-6.12.53/main
+b6dff6f80ce9d42adaf9a0bd7897fc8851d107df Merge branch 'kernel-6.12.53/nfsd-testing' into kernel-6.12.53/main
+52875d7b09c83ae64600ab34b49b9b89f2eea438 Merge branch 'kernel-6.12.53/nfsd-testing-snitm' into kernel-6.12.53/main
+3bd9d1c12277b46f10846ffc6f0abbd79cc167ea kernel-6.12.53-1
 
---===============5653224373322389193==--
+--===============2341640476981355143==--
