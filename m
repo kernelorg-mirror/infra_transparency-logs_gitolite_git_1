@@ -1,61 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============1423653615182769506=="
+Content-Type: multipart/mixed; boundary="===============5896731831164555286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 21 Oct 2025 22:05:24 -0000
-Message-Id: <176108432441.617783.13819596150741780944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Tue, 21 Oct 2025 22:07:33 -0000
+Message-Id: <176108445367.618825.9685080093054870906@gitolite.kernel.org>
 
---===============1423653615182769506==
+--===============5896731831164555286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: af33b4800265a66076eaeb11686e888411912bbc
-    new: 14749b22dd8f2246511c6622c2a4646adfc5b184
-    log: |
-         25b2834cc974729229afcd308f127995405f85c5 lib: bridge: avoid redefinition of in6_addr
-         1e5705447c2e29f0cf658d778410c0d0d5246c14 uapi: update headers to 6.18-rc1
-         6f7779ad4ef63e09acbfe84ecc308be044b77607 netshaper: Add netshaper command
-         54921a4bf20f1e13d509a76e49b83c6362c66e55 netshaper: update include files
-         e7d4c060a938e6ebc376b2d6d679a7dfdf28dd62 dcb: fix tc-maxrate unit conversions
-         14749b22dd8f2246511c6622c2a4646adfc5b184 mptcp: add implicit flag to the 'ip mptcp' inline help
-         
+  - ref: refs/heads/debugfs_blobs
+    old: 957271af3b09c857cd54b20f77db2504ac775597
+    new: 30967aef989311223e381f83034d10a99ce13030
+    log: revlist-957271af3b09-30967aef9893.txt
 
---===============1423653615182769506==
+--===============5896731831164555286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-957271af3b09-30967aef9893.txt
 
-certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1761084387 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1761084323-cb5ba86d8f547ddfc1f5580fd20780d17c2c582c
+651692d32c21a9165db60a9bc74600074cd4ed99 rust: pci: implement TryInto<IrqRequest<'a>> for IrqVector<'a>
+3c2e31d717ac89c59e35e98a7910a6daa9f15a06 rust: pci: move I/O infrastructure to separate file
+e6901808a3b28d8bdabfa98a618b2eab6f8798e8 rust: pci: move IRQ infrastructure to separate file
+d9fa589880005dfefefadcd13dd0657989ca6511 rust: fs: add new type file::Offset
+49f2731050556934d4a439941ebd3991c8dc6e3b rust: uaccess: add UserSliceReader::read_slice_partial()
+2a3e0ea0a0d119fa8634a84dc818ee39204eff01 rust: uaccess: add UserSliceReader::read_slice_file()
+f94c3c320eee5558aec172099ef8eb83ebf11775 rust: uaccess: add UserSliceWriter::write_slice_partial()
+65f8b1f96bc162cd6d1a2b2915b02405c1c03eb7 rust: uaccess: add UserSliceWriter::write_slice_file()
+c74f1eab0cb090793d9619f632cd92c6da1fecbb rust: debugfs: support for binary large objects
+c7d826969ac6a66eec0e0da46841eb27fd730d33 rust: debugfs: support blobs from smart pointers
+0071affa5a79492b8406b27442c13a29280f77e0 samples: rust: debugfs: add example for blobs
+ba64c6fc7007797fcb96642bd26a375a78b471fd rust: debugfs: support binary large objects for ScopedDir
+30967aef989311223e381f83034d10a99ce13030 samples: rust: debugfs_scoped: add example for blobs
 
-af33b4800265a66076eaeb11686e888411912bbc 14749b22dd8f2246511c6622c2a4646adfc5b184 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmj4A+MbHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+xvoQAK4WP62fzFVKbkYdojJt
-LoeyPnLpn4Z9RmXq9Zudda/Q7EpagbPtvlqHh4q5tzWiLmU3mj+MrP7kdnHINnJA
-lyxSfbuj/zDhBVtxrs84vKUDLw7ZU9X5Z+jt6WueTV4T10ZSXlLloQBp1rizDD49
-pXUPdZ1ltTXAv3dxACjeA8MDMJaTmTyqtWv53nGE+aSE1Zu1ZAIe4hXm9MnXimfQ
-gRcHMHj8X/nHO5mLtGxuJpUVseKRzShALHIc2r6kpuIiFHuYh547zr9C0QCQQuFB
-WIWsG75mc5WX9l5PfBuLFz99o85+9kzcq/deRx8LwgVJCKCmu2fktcYX0ydoqtmZ
-9APAvxAmtZVh8q97+4+Cg+93C32YSYIS9TtU2TcAmaYL6ZujnI48qbfKEyuzNUvb
-jl6oWCaflw+YnDi42MenXu5mkHo+ZLhinci9uDxg5XjX5sDq4Tmahhmon2hHtaxv
-kttizGuLcgqteWC/7iz4WJz0qa+fvBJBkOp8WpB0Doum+5COIlaQtU5g86XavnBY
-KJIWMpluFVTxKhRNO+rs01YXMVpub0lxmvS1DQYWB4CKIIv4FoO+ukx0OfRWU6xV
-Ziur97kdroML24ClPMq2SAd4ir66TrUCovsYMcSRXDSJSNC78t5j3BZK1NPu087O
-aO+m+sL9URKNFtLoCtrjlLBe
-=/1ct
------END PGP SIGNATURE-----
-
---===============1423653615182769506==--
+--===============5896731831164555286==--
