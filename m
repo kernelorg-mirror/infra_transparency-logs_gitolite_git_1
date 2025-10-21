@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 21 Oct 2025 13:14:04 -0000
-Message-Id: <176105244498.150290.18171637255091700046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 21 Oct 2025 13:21:29 -0000
+Message-Id: <176105288964.157348.8806521094135666034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: b436b9b7cd604d4ae7a6cf15bf637613135d6f26
-    new: 2ff2fa7efd8373bfeb76fe9e3ea311ff1f881bbc
-    log: |
-         f062c4d74a4005d98ffc4e74cdf4f7025af4f430 NFSD: Refactor nfsd_vfs_write()
-         d8053e0391c03b2dd99d629d9702f634380a4b57 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
-         a9db1ddfbfa70618710cead04a5d332fa434202c svcrdma: Mark Read chunks
-         2ff2fa7efd8373bfeb76fe9e3ea311ff1f881bbc siw: Enable try_gso
-         
+  - ref: refs/heads/gpio/for-current
+    old: 0d3f95740ced3acb6171cdec8c5bef336b0cabdb
+    new: d37623132a6347b4ab9e2179eb3f2fa77863c364
