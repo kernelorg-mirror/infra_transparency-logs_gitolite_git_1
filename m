@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 21 Oct 2025 09:21:16 -0000
-Message-Id: <176103847651.4141763.16159642342111644737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 21 Oct 2025 09:22:52 -0000
+Message-Id: <176103857261.4142772.885945078489885998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/dev
-    old: 878e67d491d13e23a19e29af224b775728f166df
-    new: f43a3678b04ca652ac3b5613984e0c3557edcf05
+  - ref: refs/heads/for-next
+    old: 211ddde0823f1442e4ad052a2f30f050145ccada
+    new: 3bfae8297367cb1a3e32a55cf441b2a570ab8bcd
     log: |
-         0b0451253510d56798ab23485dbdd5ec87aa60c7 erofs-utils: lib: fix a misuse of `params->all_fragments`
-         84458571dd572c204665cc423ee6938ea97b1516 erofs-utils: mkfs: separate pnid fixup for incremental builds from `validnid`
-         d87e98a9914d3ca9165e67f3011043fbc62d501b erofs-utils: lib: unexport "erofs/fragments.h"
-         a05915aaec558784455b4de96756ea169c15dbce erofs-utils: lib: switch to vfile interfaces for fragments
-         e67d0b4f743c31239c8a8f8cb964d069a5c40599 erofs-utils: lib: switch to vfile interfaces for compression
-         8567ccf14fd6b91f8318a6164804956428f8daae erofs-utils: lib: refine erofs_write_unencoded_data()
-         dff11bb472521eec380399519f1ad7bb2cce8185 erofs-utils: lib: introduce directory writer
-         53255c7b3ddc185aa9c68edfcc748ab2f7fba230 erofs-utils: lib: fix erofs_io_sendfile() again
-         c16df072941f225a45b928c60da7fc364d4247f8 erofs-utils: mkfs: support directory compression
-         f43a3678b04ca652ac3b5613984e0c3557edcf05 erofs-utils: fix to return correct err in z_erofs_fill_inode_lazy
+         914f377075d646b4695a7868ba090f4c714dfd4b xfs: Improve CONFIG_XFS_RT Kconfig help
+         b00bcb190eef35ae4da3c424b8a72f287e69f650 xfs: do not tightly pack-write large files
+         f5caeb3689ea2d8a8c0790d9eea68b63e8f15496 xfs: XFS_ONLINE_SCRUB_STATS should depend on DEBUG_FS
+         6bd754bbd0b134f14bbb543a6c23a1e91d04ab0d xfs: don't set bt_nr_sectors to a negative number
+         7806b6a3301d3b81138d870775064a3266fb8dd8 xfs: always warn about deprecated mount options
+         43f2f9ec576d3ced8cf0c74af5e41f8254d7f5d4 xfs: quietly ignore deprecated mount options
+         778fce1346b3a7d84f496eec9ee8dc81d5345092 xfs: avoid busy loops in GCD
+         3ad676ac030472c3efd796b282845640b78ceed9 xfs: cache open zone in inode->i_private
+         3bfae8297367cb1a3e32a55cf441b2a570ab8bcd xfs: don't use __GFP_NOFAIL in xfs_init_fs_context
          
