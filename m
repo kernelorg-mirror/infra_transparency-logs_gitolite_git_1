@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============3813988116926171477=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 21 Oct 2025 16:03:44 -0000
-Message-Id: <176106262411.296537.1107330852025381622@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 16:03:49 -0000
+Message-Id: <176106262936.296717.17281225065074442435@gitolite.kernel.org>
+
+--===============3813988116926171477==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,6 +15,81 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfs-testing
-    old: 0000000000000000000000000000000000000000
-    new: 8773f15044fbd6a50ad54d85a7581b0dcfa1bf86
+  - ref: refs/heads/kernel-6.12.53/nfsd-next
+    old: 897f8b5289989fb6d87f66c3a89930a82ee3a2bb
+    new: 870e75e60cd6b0d16994f38ce3d5e9a8ce8da96b
+    log: revlist-897f8b528998-870e75e60cd6.txt
+
+--===============3813988116926171477==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-897f8b528998-870e75e60cd6.txt
+
+08ee77c2d8f9c34365f736fbfbb4869b875ee64c NFSv4/flexfiles: Remove cred local variable dependency
+5b78b4f6fec06350236d4ac2582dbfbc8b635f4a NFSv4/flexfiles: Use ds_commit_idx when marking a write commit
+22f0d3a1ace4ba119330f156837181ee4e7755f0 NFSv4/flexfiles: Add data structure support for striped layouts
+7d89f84629c8fca7c31439e76d9efa9204785b0f NFSv4/flexfiles: Update low level helper functions to be DS stripe aware.
+08a5c52af5a11e77b436c872285954331ce28b40 NFSv4/flexfiles: Read path updates for striped layouts
+e40d92a5cda824f9ba41704ba53e404b47bffb72 NFSv4/flexfiles: Commit path updates for striped layouts
+14e18f5c3099f5af87fe4974dae2a1ecff5f7039 NFSv4/flexfiles: Write path updates for striped layouts
+d49879491afa626fe61a380714c2191aef9599e8 NFSv4/flexfiles: Update layout stats & error paths for striped layouts
+96a936ef3547c9d2d785a39f46e18004a98f2699 NFSv4/flexfiles: Add support for striped layouts
+73e2051dda9f6b9dec0c42e212856e50073048d2 NFSv4/flexfiles: fix to allocate mirror->dss before use
+262fd5fa9ac8b6b8d9610541c8b293696324a107 NFS4: Apply delay_retrans to async operations
+817b25a4891480f4281d4ddd7f1fbdcd99da2a95 NFS: check if suid/sgid was cleared after a write as needed
+049b82d731c2954eaf4204b99ce12867045157cb NFS4: Fix state renewals missing after boot
+0a342854f53ba54002cb7bfe4a02acdd930b3b35 timekeeping: Add interfaces for handling timestamps with a floor value
+abc637d237b18c969cca4c8ca2f154e762302321 timekeeping: Add percpu counter for tracking floor swap events
+0046da9f73d89ff9ac5d0c9a028f33fd380043b1 fs: add infrastructure for multigrain timestamps
+ad6c00898f005a3ebeceb18d0e3d8059240b2b5d fs: have setattr_copy handle multigrain timestamps appropriately
+b4f1e347ba1a4cae1a3d05d4fa369d3f2ec23dbf fs: handle delegated timestamps in setattr_copy_mgtime
+b122628048a60f5b82ea7644e8ace6334535e1cb fs: tracepoints around multigrain timestamp events
+c26af39e54d2b34b1e78d6af51d1e811b139e86a fs: add percpu counters for significant multigrain timestamp events
+3551f4d7a7b6c96f6dbdf6567c0cff2f2f3ad1a9 Documentation: add a new file documenting multigrain timestamps
+a552422534237d36ff336528ebc2574d8b31c0ef xfs: switch to multigrain timestamps
+49670308d5bbf861e67342ea4c3ef3c9e1406e65 ext4: switch to multigrain timestamps
+75e19c78acbb368a1eb91be31e35dafd1a2e51a3 btrfs: convert to multigrain timestamps
+90e5a829cc2827c3113fc4d6c20f7268140c52a1 tmpfs: add support for multigrain timestamps
+8c2188cb6d6fe8c5ab2735c81ea4fd249016f509 NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+0c1dc634f9fab0237de2389a8cddb2d966d14cd6 NFSD: Move the fh_getattr() helper
+c3b62f0d2383d126b6b3712b536c6c52374c6423 sunrpc: delay pc_release callback until after the reply is sent
+738aed5760b2a62966e9ee0e1b97f526e555e11a nfsd: discard nfsd_file_get_local()
+692f9695a862f7173ec5ce216da7f74b18230fde sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+d8f9a41eae44a1bd0df6c3f08b595c2eb72479fa NFSD: Rework encoding and decoding of nfsd4_deviceid
+2f661103772543e8fda9f19b88c667c542830662 NFSD: Minor cleanup in layoutcommit processing
+90755987c83c96ae600d71f88fa8fbff00f1bb6b NFSD: Minor cleanup in layoutcommit decoding
+b7c7316b20507b9fa81647bac8005686a7b56393 NFSD: Implement large extent array support in pNFS
+0d106ed32f41dcdeb193e79684b002e041606014 NFSD: Fix last write offset handling in layoutcommit
+337e6f9d59ed218c8a4e2f91a0a50e7002f52ee0 nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
+56f9bf4f8dd5f26cb7cc49514b557f526fc1ca9c nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
+43de90d3fc09ec8b5895cd1fa961468e19c4da12 vfs: add ATTR_CTIME_SET flag
+fd2d1c3329ba1640d7ea3e39e36373c734ab3547 nfsd: use ATTR_CTIME_SET for delegated ctime updates
+cce319c79781d10f0e91a3cf39a02cc71f1178ec nfsd: track original timestamps in nfs4_delegation
+6fe9b9620d8f7e22777a56a005bbaba59d24d266 nfsd: fix SETATTR updates for delegated timestamps
+259046c7d9250a436338e06c5e8dc2e0fdde6b1d nfsd: fix timestamp updates in CB_GETATTR
+e72ca11ffbb52fbaabb1c1863981b168cbdb8543 nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
+8b360153e29998d5f5ecb8ecd588c47916fa2a84 lockd: Remove space before newline
+c335cc85ac5f0c2e2d94b4aad6efe95e71ea0329 nfsd: Replace open-coded conversion of bytes to hex
+80755ac50114779d16dc039d49006087953c7fe8 nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
+c4bb058290ac53529f09bc343de09e381b248194 NFSD: Fix destination buffer size in nfsd4_ssc_setup_dul()
+76c9c580c962d1f82f790f63fa14a6be4254032f nfsd: decouple the xprtsec policy check from check_nfsd_access()
+f94583495b935d165c6ae3c02c8dcd744ee3ee9c sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
+9aaebc1334caf14f2ff3c18db421d7a795746c2e sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+55f4a92212a1ec32be4c292da4308efbefc4c692 NFSD: Drop redundant conversion to bool
+a407dc7a72cdf396b5fcef218d1631bc38b1d665 nfsd: unregister with rpcbind when deleting a transport
+a4ec5db6844b286926552ef7f6a2489bc98b5688 NFSD: Delay adding new entries to LRU
+f32374344010773378e8981129b874d0831243c6 NFSD: Reduce DRC bucket size
+329e542142cddd90f9d235607df91f13970064eb nfsd: nfserr_jukebox in nlm_fopen should lead to a retry
+77d1846142725c3e2dde4cbdb07f6886180ae6e8 nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
+af26f7343c8373cb7abefbb82a62c1c517f1b46b sunrpc: fix "occurence"->"occurrence"
+31e731c29756ac0a2e862a1ce18a5002e6ea01ff NFSD: Disallow layoutget during grace period
+5fb9a13bf8b5ad87ae8704a012d61c354c5a882a NFSD: Allow layoutcommit during grace period
+38ad5b8f5ad16a16cc124d5cb64d7bc2fc884280 nfsd: delete unnecessary NULL check in __fh_verify()
+23dbf016748d33aa8bb0370b2d4da582b6eeb7cc NFSD: Do the grace period check in ->proc_layoutget
+43c5af10030baf820b50bb8d4f26ffb25a118c9a NFSD: Add io_cache_{read,write} controls to debugfs
+fcfdf145c5d2da63664c48f624f9564d40ee47a5 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
+ea971d6128aab66dabfae0445eb1e1fa4ad0779a nfsd: discard nfserr_dropit
+870e75e60cd6b0d16994f38ce3d5e9a8ce8da96b nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+
+--===============3813988116926171477==--
