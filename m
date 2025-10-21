@@ -1,26 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 21 Oct 2025 11:17:52 -0000
-Message-Id: <176104547280.46192.5060457107058356139@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1434037035809127614=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 21 Oct 2025 11:25:44 -0000
+Message-Id: <176104594467.53917.2026291368913849909@gitolite.kernel.org>
+
+--===============1434037035809127614==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
-    new: 6548d364a3e850326831799d7e3ea2d7bb97ba08
-    log: |
-         93a4b36ef3cf4ce5e6a7e7a7686181de76e246a1 cgroup: Fix seqcount lockdep assertion in cgroup freezer
-         48b77733d0dbaf8cd0a122712072f92b2d95d894 expfs: Fix exportfs_can_encode_fh() for EXPORT_FH_FID
-         a7c4bb43bfdc2b9f06ee9d036028ed13a83df42a fs/notify: call exportfs_encode_fid with s_umount
-         3f9c60f4d3cc3e7f4dd7cac05011ea06d512050f selftests: cgroup: add values_close_report helper
-         4cdde87d723a0552f475c8c6b0db472a6945125f selftests: cgroup: Use values_close_report in test_cpu
-         0fbbcab7f9082cdc233da5e5e353f69830f11956 cgroup/misc: fix misc_res_type kernel-doc warning
-         380cb5d3533cddd93050d72d65f7b1fc997823f7 Merge tag 'fsnotify_for_v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-         6548d364a3e850326831799d7e3ea2d7bb97ba08 Merge tag 'cgroup-for-6.18-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-         
+  - ref: refs/heads/dir-deleg-ro
+    old: d27f7101454f2c849e50f0a1a4ddfdb5a20b08de
+    new: 6f6f600e75128a47aa445458e8485a3962540760
+    log: revlist-d27f7101454f-6f6f600e7512.txt
+
+--===============1434037035809127614==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d27f7101454f-6f6f600e7512.txt
+
+34d053a10b0761fab60bb54f5c4e0bea17d9517e vfs: recall-only directory delegations for knfsd
+df8410814ad148feea8547c78b263edfc85ceba4 filelock: push the S_ISREG check down to ->setlease handlers
+5fcfcd74c1b738c05fdfa5eb067be66a4645c05e vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
+e4b4b39631198144e7e77af47b4e4b8dece34b82 vfs: allow mkdir to wait for delegation break on parent
+66a60efc83b8899ab6072c46280d65dc12924a0e vfs: allow rmdir to wait for delegation break on parent
+5130c49eeeedcd00afa16333c0fe727c310d9a1f vfs: break parent dir delegations in open(..., O_CREAT) codepath
+65de97e1c9df3de5df8f1cffae23a9c6bd4b90e9 vfs: make vfs_create break delegations on parent directory
+d6814347b10adaff7f5832e53e6ead2052fcc787 vfs: make vfs_mknod break delegations on parent directory
+a1be1bbdf75d3cc4356d7e529867bd7cc6b81354 vfs: make vfs_symlink() break delegations on parent dir
+579bfd245cdf848aa3e4c3dfd89115e56debc2a2 filelock: lift the ban on directory leases in generic_setlease
+15a9d25df9670e10c6aa6331fbdb756c9709253d nfsd: allow filecache to hold S_IFDIR files
+73d99a084c2e36167ed89888d1d6ae96eff1d1f5 nfsd: allow DELEGRETURN on directories
+effe5d2496550d72bd510d92cbbce4be2ce56a4d nfsd: wire up GET_DIR_DELEGATION handling
+6f6f600e75128a47aa445458e8485a3962540760 vfs: expose directory delegations support to userland
+
+--===============1434037035809127614==--
