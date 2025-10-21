@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Tue, 21 Oct 2025 21:06:22 -0000
-Message-Id: <176108078299.569034.9579954875501644408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 21 Oct 2025 21:26:45 -0000
+Message-Id: <176108200535.585343.1338678480072361914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: dbd0cf204fe6ba7ba226153d1d90369019b90164
-    new: b330f98ff238ad9446574965d09cab33736519d5
+  - ref: refs/heads/master
+    old: 8f57474e1eeac2cd72e753c488f21ae9a31d4e94
+    new: 0c65c1c25fc49f418b5a187a9ddb0e4672652107
     log: |
-         b330f98ff238ad9446574965d09cab33736519d5 firewire: core: use cleanup function to release cached configuration ROM
+         0c65c1c25fc49f418b5a187a9ddb0e4672652107 foo
          
