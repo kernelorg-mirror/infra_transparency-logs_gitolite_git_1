@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============7030124009027553174=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 21 Oct 2025 17:39:23 -0000
-Message-Id: <176106836333.383320.12961886815638437691@gitolite.kernel.org>
-
---===============7030124009027553174==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 21 Oct 2025 17:41:45 -0000
+Message-Id: <176106850572.386091.5368753745033941621@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: be54db4a8a89011ecb07b36042ed2736664ab00d
-    new: 08122de70a808e277cef7f0b1aef4cb328af2d83
+  - ref: refs/heads/driver-core-testing
+    old: e6901808a3b28d8bdabfa98a618b2eab6f8798e8
+    new: 0242623384c767b1156b61b67894b4ecf6682b8b
     log: |
-         08122de70a808e277cef7f0b1aef4cb328af2d83 Update 35D5CD577C1E6010 (Drew Fustini)
+         fc2b38de4c01710ecb9ebb9ecdce9a7bf433e9a8 add `[pin_]init_scope` to execute code before creating an initializer
+         0242623384c767b1156b61b67894b4ecf6682b8b rust: driver: let probe() return impl PinInit<Self, Error>
          
-
---===============7030124009027553174==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1761068426 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1761068362-1dfcd76fb7e5bd08dfcad63a28d7a9f248003947
-
-be54db4a8a89011ecb07b36042ed2736664ab00d 08122de70a808e277cef7f0b1aef4cb328af2d83 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaPfFigAKCRC2xBzjVmSZ
-bA56AQDcVQ8N5vJU1bJAEoMFXfv68sWkeOHj6705G1PHuyBc2AD/Vu9WJrIVu2uJ
-gW43r26eRBN3Jt/F0nblswWYCjuRwgc=
-=zngd
------END PGP SIGNATURE-----
-
---===============7030124009027553174==--
