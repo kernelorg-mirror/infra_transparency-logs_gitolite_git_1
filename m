@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3813988116926171477=="
+Content-Type: multipart/mixed; boundary="===============8959659133962778582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 21 Oct 2025 16:03:49 -0000
-Message-Id: <176106262936.296717.17281225065074442435@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 16:03:52 -0000
+Message-Id: <176106263263.296850.16800909870847507722@gitolite.kernel.org>
 
---===============3813988116926171477==
+--===============8959659133962778582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-next
-    old: 897f8b5289989fb6d87f66c3a89930a82ee3a2bb
-    new: 870e75e60cd6b0d16994f38ce3d5e9a8ce8da96b
-    log: revlist-897f8b528998-870e75e60cd6.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing
+    old: fd04941ca9e7299fb657a7ce0953e8e7aaeae8d4
+    new: 06ed2d06dcb968ad1439a7ee24498dfbba943d46
+    log: revlist-fd04941ca9e7-06ed2d06dcb9.txt
 
---===============3813988116926171477==
+--===============8959659133962778582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-897f8b528998-870e75e60cd6.txt
+Content-Disposition: attachment; filename=revlist-fd04941ca9e7-06ed2d06dcb9.txt
 
 08ee77c2d8f9c34365f736fbfbb4869b875ee64c NFSv4/flexfiles: Remove cred local variable dependency
 5b78b4f6fec06350236d4ac2582dbfbc8b635f4a NFSv4/flexfiles: Use ds_commit_idx when marking a write commit
@@ -91,5 +91,26 @@ af26f7343c8373cb7abefbb82a62c1c517f1b46b sunrpc: fix "occurence"->"occurrence"
 fcfdf145c5d2da63664c48f624f9564d40ee47a5 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
 ea971d6128aab66dabfae0445eb1e1fa4ad0779a nfsd: discard nfserr_dropit
 870e75e60cd6b0d16994f38ce3d5e9a8ce8da96b nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+db42e0ca570f239f6ae062aa587a0ea9a732b681 NFSD: Add array bounds-checking in nfsd_iter_read()
+8125f76976073ae96098b82837a808d9d788110b svcrdma: Release transport resources synchronously
+5c73de2948f7e6062fa8e6fe1b63180b6e96dabd nfsd: delete unreachable confusing code in nfs4_open_delegation()
+737b39e57692e74b36abf2f759f408410a76d82a NFSD: Define actions for the new time_deleg FATTR4 attributes
+2e7ae5124fd23550d99cda312d20c3e33b4bf1f2 NFSD: Fix crash in nfsd4_read_release()
+14ab07566a37b65cc9d5e53fee35834f1d31f00e nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+ae1caef9d71a959138a17b88ec9d191e1fc9f3c4 NFSD: Update comment documenting unsupported fattr4 attributes
+b736377d552387f32e6059dd176a860ed505d060 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+ccff9ea7f1dc2ff5ea4c18c3fc9645a05076d00b svcrdma: Increase the server's default RPC/RDMA credit grant
+b27f6e30f83893d34992c7a8991162221184469a NFSD/blocklayout: Fix minlength check in proc_layoutget
+af7440559b726ddfbb8953b1f2d5729677fa3236 NFSD/blocklayout: Extract extent mapping from proc_layoutget
+92e62b613f374bd69eef4f6cd02871753e6bad0a NFSD/blocklayout: Introduce layout content structure
+8867b4deda7b244c2ef71171706c442185a74059 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+57d995f087b1eb72f41bab1e45d5b6190588b19d nfsd: fix refcount leak in nfsd_set_fh_dentry()
+f14df6c477caa2977a4e4be8bb3a7c67b5727d68 NFSD: Prevent a NULL pointer dereference in fh_getattr()
+0e726e33d920575c87c03289777014de63300eca NFSD: pass nfsd_file to nfsd_iter_read()
+c335a9e4208f178dec0b0c3122e0d3d49f0e35b4 NFSD: Relocate the xdr_reserve_space_vec() call site
+f1105390263aeb4f3edb89bcde6db533cdc9e780 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+a6d2d8308b19602772057c500c59520ec93f6c28 SUNRPC: Improve "fragment too large" warning
+6342faf6d3c5cf0a10a9233123ceae8669296d34 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
+06ed2d06dcb968ad1439a7ee24498dfbba943d46 sunrpc: allocate a separate bvec array for socket sends
 
---===============3813988116926171477==--
+--===============8959659133962778582==--
