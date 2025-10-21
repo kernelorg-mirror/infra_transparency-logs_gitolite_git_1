@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 21 Oct 2025 21:26:45 -0000
-Message-Id: <176108200535.585343.1338678480072361914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 21 Oct 2025 21:29:57 -0000
+Message-Id: <176108219773.587454.13275054286838216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 8f57474e1eeac2cd72e753c488f21ae9a31d4e94
-    new: 0c65c1c25fc49f418b5a187a9ddb0e4672652107
+  - ref: refs/heads/controller/xilinx-dma
+    old: 3c89f1ab6fc7296ec10909b88f5e3d4c06c4778b
+    new: 2002478e50345d5a7417ab7afd89181d98efddb3
     log: |
-         0c65c1c25fc49f418b5a187a9ddb0e4672652107 foo
+         2002478e50345d5a7417ab7afd89181d98efddb3 PCI: xilinx-xdma: Enable INTx interrupts
          
