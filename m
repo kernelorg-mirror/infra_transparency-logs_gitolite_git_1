@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4689696449502008951=="
+Content-Type: multipart/mixed; boundary="===============0316924137377007591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 21 Oct 2025 15:14:14 -0000
-Message-Id: <176105965457.254613.3193152657152561820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 21 Oct 2025 15:14:18 -0000
+Message-Id: <176105965812.254798.9424332078184609541@gitolite.kernel.org>
 
---===============4689696449502008951==
+--===============0316924137377007591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 0b7d9b25e4bc2e478c9d06281a65f930769fca09
     new: f7e37affbc9085f2b77ccb6596521a44eabf7505
     log: |
@@ -25,28 +25,28 @@ changes:
          f7e37affbc9085f2b77ccb6596521a44eabf7505 spi: intel-pci: Add support for Intel Wildcat Lake SPI serial flash
          
 
---===============4689696449502008951==
+--===============0316924137377007591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761059716 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1761059652-e7bc5e0bfd2962b4e40e6473840f790a77b223fa
+pusher C3F436CA30F5D8EB 1761059720 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761059655-17cbcbd04ecbc7d1c4034a9bd84e21183289c1cd
 
-0b7d9b25e4bc2e478c9d06281a65f930769fca09 f7e37affbc9085f2b77ccb6596521a44eabf7505 refs/heads/for-6.18
+0b7d9b25e4bc2e478c9d06281a65f930769fca09 f7e37affbc9085f2b77ccb6596521a44eabf7505 refs/heads/spi-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj3o4QACgkQJNaLcl1U
-h9BISAf/TBplUM+Y3wr53Woqj9agNap+83na2+whVdWmkC9++kVdUBWz4YrHJgjT
-zFo0PjFDgSVC7V23m1NNLcA/FgdgmYdrMz1R9VhC+iu4cPYaNWA/V+Hwqb2RGeyc
-l8oCCW+g9W2FX6wvuV6ICha8mewIG9Jbzx/xRWcj1jrQHjb3eFNuk130fK47QrCQ
-CP2gTQWqbWFTyq15tt1Y+d1OgqqLxqSqJXy+XMCbzzvspJ/EQ7upL3q1nPgXvK7d
-Re4TZt4rDr7t3Yx4NCdrf0SCgRDCPOc5dadwSF8rcfBEHAefb+19YDMvdRFwxi3N
-2RLEH038hbbsM4xm6q1H5GNFhvprOA==
-=WMnz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj3o4gACgkQJNaLcl1U
+h9BAbAf/Zjp2dbseaWutR305xs9PN/v7brBN31+urrpWVXWjOHjrzSXRIsPgqlVE
+i4ImcGWLHovzhMRN7IJ77ZOp9b6LYrxTsceeoB2GIaQzHkBhMVy0xraTuJfWT07x
+oXncyLWKJOqqBzlGrD1h2pOa9F7Dyypd9d5DMWeMO+aYsD6okMXobGocLQIa/RQY
+RxqCI7zSgWuxd2zUDrot3rZ7pH+hUEQnv+R2ZzDbglaoR79atEhHHlLjVUILswFE
+9fH7i9GbFzIobwo/8FVpCcLM7gU9Nfw3ZOsudaXfhhaV970JIWsQSdCeZ+765Jiv
+nkzcnyfArWav0VRAwYk25yc04c4uiQ==
+=BmT3
 -----END PGP SIGNATURE-----
 
---===============4689696449502008951==--
+--===============0316924137377007591==--
