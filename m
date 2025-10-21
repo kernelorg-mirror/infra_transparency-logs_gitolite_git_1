@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3528970017559807920=="
+Content-Type: multipart/mixed; boundary="===============2078667893222218940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Tue, 21 Oct 2025 08:34:19 -0000
-Message-Id: <176103565941.4061935.12897319354974438774@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 08:36:22 -0000
+Message-Id: <176103578217.4064487.18106938249248632470@gitolite.kernel.org>
 
---===============3528970017559807920==
+--===============2078667893222218940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/heads/rseq/perf
+  - ref: refs/heads/rseq/perf-v5
     old: b6457e921bcafc6d4a8639c85025c81da60c7d90
     new: 3adaf1f58eb5a8c6c7464ec637d091e6f90135ab
     log: revlist-b6457e921bca-3adaf1f58eb5.txt
 
---===============3528970017559807920==
+--===============2078667893222218940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ c6965d84ef325a39bb0dc52bdd69e005191aedbe rseq: Optimize event setting
 0fe0e4e21bbab7eca3d8cdc25630ed3995a229cc rseq: Split up rseq_exit_to_user_mode()
 3adaf1f58eb5a8c6c7464ec637d091e6f90135ab rseq: Switch to TIF_RSEQ if supported
 
---===============3528970017559807920==--
+--===============2078667893222218940==--
