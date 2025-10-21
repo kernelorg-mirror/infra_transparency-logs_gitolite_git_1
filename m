@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 21 Oct 2025 10:49:20 -0000
-Message-Id: <176104376043.22029.357436995867055478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 21 Oct 2025 10:54:24 -0000
+Message-Id: <176104406470.26316.6440231788155553538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/main
-    old: f584239a9ed25057496bf397c370cc5163dde419
-    new: 49d34f3dd8519581030547eb7543a62f9ab5fa08
+  - ref: refs/heads/pwm/for-next
+    old: d362ac87b2b75e4cb18c71126896a1ddb27c42a6
+    new: 5b5231fafeabcc7eae492e591f47de13c2b0913e
     log: |
-         49d34f3dd8519581030547eb7543a62f9ab5fa08 net: ethernet: ti: am65-cpts: fix timestamp loss due to race conditions
+         5b5231fafeabcc7eae492e591f47de13c2b0913e pwm: max7360: Clean MAX7360 code
          
