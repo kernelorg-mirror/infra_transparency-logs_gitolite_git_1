@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 21 Oct 2025 11:36:38 -0000
-Message-Id: <176104659877.64320.11157197034034012713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 21 Oct 2025 11:43:53 -0000
+Message-Id: <176104703345.69626.6012114459438315820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: fdbb53d318aa94a094434e5f226617f0eb1e8f22
-    new: 6b03360fe9f4e6fd43419487d659c9bd26215953
-    log: |
-         248adfe32bfd75afbcb8f6d4b68f7e0a9fb2c438 ASoC: cs530x: Correct log message with expected variable
-         6b03360fe9f4e6fd43419487d659c9bd26215953 Add support for Cirrus Logic CS530x DAC and CODEC
-         
+  - ref: refs/tags/v6.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ffee675aceb9f44b0502a8bec912abb0c4f4af62
