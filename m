@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0104331723098804488=="
+Content-Type: multipart/mixed; boundary="===============5484580897498291865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 21 Oct 2025 08:40:53 -0000
-Message-Id: <176103605358.4069038.1826047535482565624@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 08:41:15 -0000
+Message-Id: <176103607551.4069408.14283740707197495926@gitolite.kernel.org>
 
---===============0104331723098804488==
+--===============5484580897498291865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 2c67301584f2671e320236df6bbe75ae09feb4d0
     new: f584239a9ed25057496bf397c370cc5163dde419
     log: revlist-2c67301584f2-f584239a9ed2.txt
 
---===============0104331723098804488==
+--===============5484580897498291865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -431,4 +431,4 @@ afd5ba577c10639f62e8120df67dc70ea4b61176 net/mlx5e: RX, Fix generating skb from 
 bbca8678466032fa32453cebfb9194c8d15c3f1a Merge branch 'fix-generating-skb-from-non-linear-xdp_buff-for-mlx5'
 f584239a9ed25057496bf397c370cc5163dde419 net/smc: fix general protection fault in __smc_diag_dump
 
---===============0104331723098804488==--
+--===============5484580897498291865==--
