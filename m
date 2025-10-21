@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4104636903244445067=="
+Content-Type: multipart/mixed; boundary="===============3280066118215582301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Oct 2025 17:10:08 -0000
-Message-Id: <176106660821.360092.13396986201072994676@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 17:10:10 -0000
+Message-Id: <176106661063.360191.11317681770346253816@gitolite.kernel.org>
 
---===============4104636903244445067==
+--===============3280066118215582301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 88224095b4e512b027289183f432c0e84925d648
     new: 3ff9bcecce83f12169ab3e42671bd76554ca521a
     log: revlist-88224095b4e5-3ff9bcecce83.txt
 
---===============4104636903244445067==
+--===============3280066118215582301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ e4e5ce823bdd4601bd75ae7c206ae35e7c2fa60b net: airoha: Add AN7583 SoC support
 d1d7998df9d7d3ee20bcfc876065fa897b11506d Merge branch 'net-airoha-add-an7583-ethernet-controller-support'
 3ff9bcecce83f12169ab3e42671bd76554ca521a net: avoid extra access to sk->sk_wmem_alloc in sock_wfree()
 
---===============4104636903244445067==--
+--===============3280066118215582301==--
