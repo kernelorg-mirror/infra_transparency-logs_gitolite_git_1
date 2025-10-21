@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Tue, 21 Oct 2025 07:31:47 -0000
-Message-Id: <176103190722.4010900.876016348191975827@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 07:31:56 -0000
+Message-Id: <176103191643.4011207.7075732805176897613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
 user: linusw
 changes:
-  - ref: refs/heads/b4/fix-amlogic-a4
-    old: 685ae15e2d7340076a8e5028d38fc211036f8938
+  - ref: refs/heads/b4/output-value-just-value
+    old: 92065594b2ddb6242e2d9e2bb52665ac8b673b46
     new: 0000000000000000000000000000000000000000
