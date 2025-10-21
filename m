@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7074694186746749623=="
+Content-Type: multipart/mixed; boundary="===============4310466991344901375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 21 Oct 2025 11:44:06 -0000
-Message-Id: <176104704665.70419.10157405243852613028@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 11:44:23 -0000
+Message-Id: <176104706326.70710.15429702943911568179@gitolite.kernel.org>
 
---===============7074694186746749623==
+--===============4310466991344901375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 8ed4a4814535ac117a7ffe37bae2e91cb7c47c4b
-    new: 7563bac2cd8f70c289d73428b711ee9ba46c8a73
-    log: revlist-8ed4a4814535-7563bac2cd8f.txt
+  - ref: refs/heads/fixes
+    old: 2b2e8c36795c6c44c40687ad4588329e143b2c97
+    new: a7b17ece4032dd86bb411297f2169dda395cdc3c
+    log: revlist-2b2e8c36795c-a7b17ece4032.txt
 
---===============7074694186746749623==
+--===============4310466991344901375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ed4a4814535-7563bac2cd8f.txt
+Content-Disposition: attachment; filename=revlist-2b2e8c36795c-a7b17ece4032.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -389,18 +389,5 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 a7b17ece4032dd86bb411297f2169dda395cdc3c mmc: wmt-sdmmc: fix compile test default
-f7f37154889e7bd11105ef9e9a1ed15e5675d030 mmc: core: remove uselss memalloc_noio_save
-ad41223b185a0e72bfb7a8de7b20c6b1dff239f5 mmc: renesas_sdhi: enable bigger data ports where available
-db7e0ad68a663785e6435ec56eed2715dd9d0fa0 dt-bindings: mmc: sdhci-msm: Add Kaanapali compatible
-24f8929f2ae819db89b4a58b83c7270e53ef3840 mmc: use octal file permissions instead of symbolic
-27e08eee012bd3452ad7463602bb20003d4855ff dt-bindings: mmc: sdhci-msm: Add sm8750 compatible
-c763d39f444d8a81d6da4e1aaa252f0eaa1caf6e dt-bindings: mmc: Add support for BCM72116 and BCM74371 SD host controller
-5ef9101006585253724ad6e37418516f83c4b75f mmc: sdhci-brcmstb: move SDIO_CFG_CQ_CAPABILITY define
-4d92506eb5939929467d9cf5149442e91374fa0b mmc: sdhci-brcmstb: clear CFG_OP_DLY when using HS200
-eea94bdd99521dda8e1886b1b169b60446342204 mmc: sdhci-brcmstb: Add BCM74371 support
-b7e614802e3f3cddf284af1de6ff0b0871d580de mmc: sdhci-brcmstb: save and restore registers during PM
-cb24b4a9d903c96440bc5634e8eafe2ff9b84432 mmc: dw_mmc: Use dma_set_mask_and_coherent() helper
-7ce67e2179806e88ee17fe9b95315d3b303815ba mmc: sdhci-of-arasan: Omit a variable reassignment in sdhci_arasan_probe()
-7563bac2cd8f70c289d73428b711ee9ba46c8a73 mmc: Merge branch fixes into next
 
---===============7074694186746749623==--
+--===============4310466991344901375==--
