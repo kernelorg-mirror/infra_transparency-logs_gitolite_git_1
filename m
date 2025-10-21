@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8746502204164203791=="
+Content-Type: multipart/mixed; boundary="===============3437770926285260271=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 21 Oct 2025 13:13:58 -0000
-Message-Id: <176105243805.149440.10390951357706903334@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 13:14:04 -0000
+Message-Id: <176105244415.150197.12005269399240302234@gitolite.kernel.org>
 
---===============8746502204164203791==
+--===============3437770926285260271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
+  - ref: refs/heads/dir-deleg-ro
     old: a09ade2fe87ff6b509538fb0213b537dd7d54738
     new: 3605415f6d0f5f241daedc78ed018ae361ab74ff
     log: revlist-a09ade2fe87f-3605415f6d0f.txt
 
---===============8746502204164203791==
+--===============3437770926285260271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -445,4 +445,4 @@ e84931e085e84d53107581e51a9ac39d26dd2d36 vfs: make vfs_create break delegations 
 30400fd87075aea2c6e99a9cc51705d180c5af69 nfsd: wire up GET_DIR_DELEGATION handling
 3605415f6d0f5f241daedc78ed018ae361ab74ff vfs: expose directory delegations support to userland
 
---===============8746502204164203791==--
+--===============3437770926285260271==--
