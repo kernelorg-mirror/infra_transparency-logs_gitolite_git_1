@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 21 Oct 2025 20:47:56 -0000
-Message-Id: <176107967661.552495.17853039043883179989@gitolite.kernel.org>
+Date: Tue, 21 Oct 2025 20:53:13 -0000
+Message-Id: <176107999360.557052.2209105323001827610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,18 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
   - ref: refs/heads/next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 19479a774f66eae8699097a5f2a2e0e15d8c2a78
+    old: 19479a774f66eae8699097a5f2a2e0e15d8c2a78
+    new: 0ab6604c6a9393dfa02d27a57f75f18fd1fd945f
     log: |
-         dfbf19c47a01eda5df4d476d64a273e1188ea5a1 dt-bindings: PCI: dwc: rockchip: Add RK3528 variant
-         bc427cd81b2a42be41be87c976cdc847f44353bf dt-bindings: PCI: qcom,pcie-sm8550: Add Kaanapali compatible
-         d2713dfda04ebc824c2c72f225a817e370dfa99f PCI: ixp4xx: Guard ARM32-specific hook_fault_code()
-         932ec9dff6da40382ee63049a11a6ff047bdc259 PCI: sg2042: Fix a reference count issue in sg2042_pcie_remove()
-         d312742f686582e6457070bcfd24bee8acfdf213 PCI: rcar-gen2: Drop ARM dependency from PCI_RCAR_GEN2
-         3c89f1ab6fc7296ec10909b88f5e3d4c06c4778b PCI: xilinx-xdma: Enable INTx interrupts
-         97085e2e4da3c916345398305dfe0073825cc9ef Merge branch 'pci/dt-binding'
-         d287c93c12163f80594dcfbb82003ea5b94a86e7 Merge branch 'pci/controller/ixp4xx'
-         d2b071f7eb2301ab35634f3a7113ec3f0abfe14b Merge branch 'pci/controller/rcar-gen2'
-         c1230546b2077ee7398a8f88b17b1963efdd3d0c Merge branch 'pci/controller/sg2042'
-         19479a774f66eae8699097a5f2a2e0e15d8c2a78 Merge branch 'pci/controller/xilinx-dma'
+         99f988953f07484a2c4801c1d3493282f60effd8 dt-bindings: PCI: mediatek: Convert to YAML schema
+         6d55d5a7f34b04b3a55dd90a6c3cea5a686e089f dt-bindings: PCI: mediatek: Add support for Airoha AN7583
+         04305367fab7ec9c98eeba315ad09c8b20abce93 PCI: mediatek: Convert bool to single quirks entry and bitmap
+         2d58bc777728bfc37aa35dce7b90e72296cceb9f PCI: mediatek: Use generic MACRO for TPVPERL delay
+         09150ab1a7d204e8d03edb286f906c8d55168644 PCI: mediatek: Add support for Airoha AN7583 SoC
+         a3a9c3b9b388efcb2529c5a44e30e2dca974df26 Merge branch 'pci/dt-binding'
+         fca81f264f95ba8f62de091e9cae271e9e4d5a9b Merge branch 'pci/controller/ixp4xx'
+         85f2c1512750bef4eb6293f9b2099279299fb6d8 Merge branch 'pci/controller/mediatek'
+         ce7a8dd91532021f70808931ea8481459c48657a Merge branch 'pci/controller/rcar-gen2'
+         bf28665e49f479a13dda28e5a75f39bac25289fb Merge branch 'pci/controller/sg2042'
+         0ab6604c6a9393dfa02d27a57f75f18fd1fd945f Merge branch 'pci/controller/xilinx-dma'
          
