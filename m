@@ -1,74 +1,144 @@
-Content-Type: multipart/mixed; boundary="===============3574983178479870807=="
+Content-Type: multipart/mixed; boundary="===============6017889825368583769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 22 Oct 2025 17:13:13 -0000
-Message-Id: <176115319313.1606939.13398518670357298440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 22 Oct 2025 17:17:28 -0000
+Message-Id: <176115344878.1611142.365745962743118337@gitolite.kernel.org>
 
---===============3574983178479870807==
+--===============6017889825368583769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-6.19/block
-    old: 5c5028ee594ce5f907ca6ad1c32cca6a15098464
-    new: 4ae8efb4f907383a16abf3c59b353763e31ae106
-    log: revlist-5c5028ee594c-4ae8efb4f907.txt
-  - ref: refs/heads/for-next
-    old: 8f7463c3f0cda867cd0e970b742dfdad2d37efe7
-    new: e275f6b8366a9feeb2d9f5850752e9ba12c22dce
-    log: revlist-8f7463c3f0cd-e275f6b8366a.txt
+  - ref: refs/heads/main-pending
+    old: 51e8d86f0866283836cb07bea63ea9aff4ba43e6
+    new: e88c7a0409b877fa463cfdbcfdf33e27fcdc5734
+    log: revlist-51e8d86f0866-e88c7a0409b8.txt
+  - ref: refs/tags/ath-pending-202510221653
+    old: 0000000000000000000000000000000000000000
+    new: e88c7a0409b877fa463cfdbcfdf33e27fcdc5734
 
---===============3574983178479870807==
+--===============6017889825368583769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c5028ee594c-4ae8efb4f907.txt
+Content-Disposition: attachment; filename=revlist-51e8d86f0866-e88c7a0409b8.txt
 
-a65988a0ad047dbdb8a1eb6f07540b980858b522 blktrace: only calculate trace length once
-472eca538358fc8a56884a8adb0cc6047bf05cf3 blktrace: factor out recording a blktrace event
-04678e72e95f4165d58442b3ed108e06605984df blktrace: split out relaying a blktrace event
-70e3c62b891281b94b9d449a381e033ce592acc8 blktrace: untangle if/else sequence in __blk_add_trace
-370cd70a402f972f6d7a7e54ba5a82d1a72c762f blktrace: change the internal action to 64bit
-42da88a724d8a3b92ade35ae2ef4d5e5a491df2d blktrace: split do_blk_trace_setup into two functions
-0d8627cc936de8ea04f3cc1e6921c63fb72cc199 blktrace: add definitions for blk_user_trace_setup2
-113cbd62824afdf62d2f3f092809cf37cc7f1dd8 blktrace: pass blk_user_trace2 to setup functions
-c44347d606260f36a81f6d8415a5af33cb3015fa blktrace: add definitions for struct blk_io_trace2
-915bb53860c3a6cc3dd2c9a5e0d1988ada0e377d blktrace: differentiate between blk_io_trace versions
-67bfa74d81bae9271f6ec72d2058d081732949cb blktrace: move trace_note to blk_io_trace2
-4d8bc7bd4f73c6b34ba29d3e8277864c6e0a44a7 blktrace: move ftrace blk_io_tracer to blk_io_trace2
-f9ee38bbf70fb20584625849a253c8652176fa66 blktrace: add block trace commands for zone operations
-1c164fcc1b08e75f1cad1532718f09cddc0ddebe blktrace: expose ZONE APPEND completions to blktrace
-3f6722816a73e2017599d965683dbe71833afd7a blktrace: trace zone write plugging operations
-4ae8efb4f907383a16abf3c59b353763e31ae106 blktrace: handle BLKTRACESETUP2 ioctl
+0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
+4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
+15623c860c93aac71d22e7bedb7661ff2d3418de nsfs: handle inode number mismatches gracefully in file handles
+deafd21efdd106f9744e2339e0c70c0f4ba565c3 fs: update comment in init_file()
+d68a29a6a229f8b4f3b19dbcd0bb02881316d642 rust: file: add intra-doc link for 'EBADF'
+154d1e7ad9e5ce4b2aaefd3862b3dba545ad978d dax: skip read lock assertion for read-only filesystems
+56094ad3eaa21e6621396cc33811d8f72847a834 vfs: Don't leak disconnected dentries on umount
+a779e27f24aeb679969ddd1fdd7f636e22ddbc1e coredump: fix core_pattern input validation
+e2c69490dda5d4c9f1bfbb2898989c8f3530e354 ipmi: Fix handling of messages with provided receive message pointer
+2a27f6a8fb5722223d526843040f747e9b0e8060 can: gs_usb: increase max interface to U8_MAX
+a12f0bc764da3781da2019c60826f47a6d7ed64f can: gs_usb: gs_make_candev(): populate net_device->dev_port
+ba569fb07a7e9e9b71e9282e27e993ba859295c2 can: m_can: m_can_plat_remove(): add missing pm_runtime_disable()
+3d9db29b45f970d81acf61cf91a65442efbeb997 can: m_can: m_can_handle_state_errors(): fix CAN state transition to Error Active
+4942c42fe1849e6d68dfb5b36ccba344a9fac016 can: m_can: m_can_chip_config(): bring up interface in correct state
+a9e30a22d6f23a2684c248871cad4c3061181639 can: m_can: fix CAN state in system PM
+ca965a70ea57cd12f19a422a28a97aab5e1d031b Merge patch series "can: m_can: fix pm_runtime and CAN state handling"
+49836ff2f37dd6d52bfe3153c0bcbd96025a6100 can: m_can: replace Dong Aisheng's old email address
+f3426ac54c42c3260096ddc50b5470eb179fb06a dpll: zl3073x: Increase maximum size of flash utility
+4dd5b5ac089bb6ea719b7ffb748707ac9cbce4e4 Revert "fs: make vfs_fileattr_[get|set] return -EOPNOTSUPP"
+d90ad28e8aa482e397150e22f3762173d918a724 fs: return EOPNOTSUPP from file_setattr/file_getattr syscalls
+b2796286a6d5f47bf271739c9e589f3a98835a25 Merge patch series "Fix to EOPNOTSUPP double conversion in ioctl_setflags()"
+7933a585d70ee496fa341b50b8b0a95b131867ff ovl: remove redundant IOCB_DIO_CALLER_COMP clearing
+4b47a8601b71ad98833b447d465592d847b4dc77 NFSD: Define a proc_layoutcommit for the FlexFiles layout type
+3c652c3a71de1d30d72dc82c3bead8deb48eb749 jbd2: ensure that all ongoing I/O complete before freeing blocks
+328a782cb138029182e521c08f50eb1587db955d ext4: wait for ongoing I/O to complete before freeing blocks
+4b471b736ea1ce08113a12bd7dcdaea621b0f65f ext4, doc: fix and improve directory hash tree description
+1d3ad183943b38eec2acf72a0ae98e635dc8456b ext4: detect invalid INLINE_DATA + EXTENTS flag combination
+971843c511c3c2f6eda96c6b03442913bfee6148 ext4: free orphan info with kvfree
+d5d790ba1558dbb8d179054f514476e2ee970b8e net: usb: lan78xx: Fix lost EEPROM write timeout error(-ETIMEDOUT) in lan78xx_write_raw_eeprom
+3abc0e55ea1fa2250e52bc860e8f24b2b9a2093a net: mtk: wed: add dma mask limitation and GFP_DMA32 for device with more than 4GB DRAM
+65946eac6d888d50ae527c4e5c237dbe5cc3a2f2 net: dlink: handle dma_map_single() failure properly
+68a052239fc4b351e961f698b824f7654a346091 selftests: drv-net: update remaining Python init files
+0b4b77eff5f8cd9be062783a1c1e198d46d0a753 doc: fix seg6_flowlabel path
+12d724f2852d094d68dccaf5101e0ef89a971cde ata: libata-core: relax checks in ata_read_log_directory()
+c282993ccd97ad627d213645dc485086de034647 can: remove false statement about 1:1 mapping between DLC and length
+b5746b3e8ea4a8a4df776e0864322028d4f5e4b1 can: add Transmitter Delay Compensation (TDC) documentation
+a3c35f8270c175f164dd74960c437d1edc8a291a Merge patch series "can: add Transmitter Delay Compensation (TDC) documentation"
+93a27b5891b8194a8c083c9a80d2141d4bf47ba8 can: j1939: add missing calls in NETDEV_UNREGISTER notification handler
+fcb8b32a68fd40b0440cb9468cf6f6ab9de9f3c5 dpll: zl3073x: Handle missing or corrupted flash configuration
+25718fdcbdd2dadd15fc8b684df59b43970b91ed net: gro_cells: Use nested-BH locking for gro_cell
+70f92ab97042f243e1c8da1c457ff56b9b3e49f1 r8169: fix packet truncation after S4 resume on RTL8168H/RTL8111H
+e4d0c909bf8328d986bf3aadba0c33a72b5ae30d net: phy: bcm54811: Fix GMII/MII/MII-Lite selection
+21f4d45eba0b2dcae5dbc9e5e0ad08735c993f16 net/ip6_tunnel: Prevent perpetual tunnel growth
+a3f8c0a273120fd2638f03403e786c3de2382e72 idpf: cleanup remaining SKBs in PTP flows
+53f0eb62b4d23d40686f2dd51776b8220f2887bb ixgbevf: fix getting link speed data for E610 devices
+f7f97cbc03a470ce405d48dedb7f135713caa0fa ixgbe: handle IXGBE_VF_GET_PF_LINK_STATE mailbox operation
+a7075f501bd33c93570af759b6f4302ef0175168 ixgbevf: fix mailbox API compatibility by negotiating supported features
+823be089f9c8ab136ba382b516aedd3f7ac854bd ixgbe: handle IXGBE_VF_FEATURES_NEGOTIATE mbox cmd
+5feef67b646d8f5064bac288e22204ffba2b9a4a ixgbe: fix too early devlink_free() in ixgbe_remove()
+d1d5df4691e4322656024fc374d0faec4387aa0f Merge branch 'intel-wired-lan-driver-updates-2025-10-01-idpf-ixgbe-ixgbevf'
+2c67301584f2671e320236df6bbe75ae09feb4d0 net: phy: realtek: Avoid PHYCR2 access if PHYCR2 not present
+c065b6046b3493a878c2ceb810aed845431badb4 Use CONFIG_EXT4_FS instead of CONFIG_EXT3_FS in all of the defconfigs
+2616222e423398bb374ffcb5d23dea4ba2c3e524 amd-xgbe: Avoid spurious link down messages during interface toggle
+c5705a2a4aa35350e504b72a94b5c71c3754833c Octeontx2-af: Fix missing error code in cgx_probe()
+327cd4b68b4398b6c24f10eb2b2533ffbfc10185 usbnet: Fix using smp_processor_id() in preemptible code warnings
+75527d61d60d493d1eb064f335071a20ca581f54 r8152: add error handling in rtl8152_driver_init
+295ce1eb36ae47dc862d6c8a1012618a25516208 tcp: fix tcp_tso_should_defer() vs large RTT
+bd5afca115f181c85f992d42a57cd497bc823ccb net: airoha: Take into account out-of-order tx completions in airoha_dev_xmit()
+4f86eb0a38bc719ba966f155071a6f0594327f34 selftests: net: check jq command is supported
+5bd0116d92a7849b12f0b4c8199d53aa80e449bc Merge tag 'for-linus-6.18-2' of https://github.com/cminyard/linux-ipmi
+9b332cece987ee1790b2ed4c989e28162fa47860 Merge tag 'nfsd-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+df5a1f4aeb6ff5e7c5ac47d16a347f03509dd441 MAINTAINERS: add myself as maintainer for b53
+7f0fddd817ba6daebea1445ae9fab4b6d2294fa8 net: core: fix lockdep splat on device unregister
+0f5878834d6ce97426219b64c02a2c4081419d53 rust: bitmap: clean Rust 1.92.0 `unused_unsafe` warning
+7e85ac9da1acc591bd5269f2b890ed1994c42e96 PM / devfreq: rockchip-dfi: switch to FIELD_PREP_WM16 macro
+66f8e4df003e61b72fdc794ed0ec8378d74a9a4a Merge tag 'ext4_for_linus-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+1f4a222b0e334540343fbb5d3eac4584a6bfe180 Remove long-stale ext3 defconfig option
+5a6f65d1502551f84c158789e5d89299c78907c7 Merge tag 'bitmap-for-v6.18-rc2' of https://github.com/norov/linux
+bfdd74166a639930baaba27a8d729edaacd46907 gve: Check valid ts bit on RX descriptor before hw timestamping
+7ea30958b3054f5e488fa0b33c352723f7ab3a2a Merge tag 'vfs-6.18-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+bc384963bc18e4f21cf8615b57cbbc9c5e0d309a MAINTAINERS: new entry for IPv6 IOAM
+0c3f2e62815a43628e748b1e4ad97a1c46cce703 tg3: prevent use of uninitialized remote_adv and local_adv variables
+ce5af41e3234425a40974696682163edfd21128c tls: trim encrypted message to match the plaintext on short splice
+b014a4e066c555185b7c367efacdc33f16695495 tls: wait for async encrypt in case of error during latter iterations of sendmsg
+b6fe4c29bb51cf239ecf48eacf72b924565cb619 tls: always set record_type in tls_process_cmsg
+b8a6ff84abbcbbc445463de58704686011edc8e1 tls: wait for pending async decryptions if tls_strp_msg_hold fails
+7f846c65ca11e63d2409868ff039081f80e42ae4 tls: don't rely on tx_work during send()
+f95fce1e953b8a7af3fbad84aaffe92804196e2d selftests: net: tls: add tests for cmsg vs MSG_MORE
+3667e9b442b95b021189db793b9156552f918e99 selftests: tls: add test for short splice due to full skmsg
+cf51d617c3829bd85666380be348aed71a1c44df Merge branch 'tls-misc-bugfixes'
+1a8fed52f7be14e45785e8e54d0d0b50fc17dbd8 netdevsim: set the carrier when the device goes up
+5e655aaddaa37e6c5a103d2854cb561552d710be Merge tag 'linux-can-fixes-for-6.18-20251014' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+8d93ff40d49d70e05c82a74beae31f883fe0eaf8 net: usb: lan78xx: fix use of improperly initialized dev->chipid in lan78xx_reset
+6de1dec1c166c7f7324ce52ccfdf43e2fa743b19 udp: do not use skb_release_head_state() before skb_attempt_defer_free()
+ef25485516b09db57493f5e78b3358db7cbdcaa0 Merge tag 'ata-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+634ec1fc7982efeeeeed4a7688b0004827b43a21 Merge tag 'net-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+77e67d5daaf155f7d0f99f4e797c4842169ec19e wifi: iwlwifi: fix potential use after free in iwl_mld_remove_link()
+607844761454e3c17e928002e126ccf21c83f6aa wifi: mac80211: reset FILS discovery and unsol probe resp intervals
+a2a69add80411dd295c9088c1bcf925b1f4e53d7 bcma: don't register devices disabled in OF
+d3697884672887ced9127be877c9d3d831fb1110 Merge tag 'ath-current-20251006' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+1e1801cab6c7f302baec2a0fe3afe25458d0be7e MAINTAINERS: wcn36xx: Add linux-wireless list
+3776c685ebe5f43e9060af06872661de55e80b9a wifi: brcmfmac: fix crash while sending Action Frames in standalone AP Mode
+ed6a47346ec69e7f1659e0a1a3558293f60d5dd7 wifi: mac80211: fix key tailroom accounting leak
+249e1443e3d57e059925bdb698f53e4d008fc106 wifi: nl80211: call kfree without a NULL check
+69e4b75a5b90ef74300c283c0aafe8d41daf13a8 Merge tag 'iwlwifi-fixes-2025-10-19' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+54be197109762d2a3c2b23d44e960ce7a43a3798 wifi: ath10k: Support for FTM TLV test commands
+2ef034ee790d0272a66c082ce177f68761ae81b9 Merge branch 'ath-next'
+11e19841d9851cab6698457cc7c44cb4dd74970a Merge branch 'ath-current'
+90ed10ae6790a999f629a1880a5826902486378d Merge remote-tracking branch 'mhi/mhi-next'
+504bdccbde44be1a41cdef759e3c10542387e3bf Add localversion-wireless-testing-ath
+210fa0fea21179f7556e814473cad9e1bc4858f3 spi: amlogic: fix spifc build error
+e42d9842ff3a0e9028b9414bad54f7bf911a5416 wifi: ath11k: fix VHT MCS assignment
+86a05263aceafe9069960482cab8c1c56ace148b wifi: ath11k: fix peer HE MCS assignment
+662227f64be2a3390d66b8c49f59f11c26ae900b wifi: ath11k: relocate some Tx power related functions in mac.c
+29e8d651ccdfb92764e44cfda79a836dbdc93281 wifi: ath11k: wrap ath11k_mac_op_get_txpower() with lock-aware internal helper
+67db533ebe2c5bbdb0c4af5abee0d1256044e03b wifi: ath11k: add support for Tx Power insertion in RRM action frame
+203e9dfb67e008a3a81dc035efd23c0f13f0ac5b wifi: ath11k: advertise NL80211_FEATURE_TX_POWER_INSERTION
+15e5d6821cfb025d5d3bea67e350a4c5620f6ed5 wifi: ath12k: add support for BSS color change
+e45b1478f905aea694378e148867b4e58e5edadf wifi: ath12k: restore register window after global reset
+fa1c7f17dd8854a9640207241276ae1dfe52373a wifi: ath12k: Assert base_lock is held before allocating REO update element
+e88c7a0409b877fa463cfdbcfdf33e27fcdc5734 Merge branch 'pending' into main-pending
 
---===============3574983178479870807==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f7463c3f0cd-e275f6b8366a.txt
-
-a65988a0ad047dbdb8a1eb6f07540b980858b522 blktrace: only calculate trace length once
-472eca538358fc8a56884a8adb0cc6047bf05cf3 blktrace: factor out recording a blktrace event
-04678e72e95f4165d58442b3ed108e06605984df blktrace: split out relaying a blktrace event
-70e3c62b891281b94b9d449a381e033ce592acc8 blktrace: untangle if/else sequence in __blk_add_trace
-370cd70a402f972f6d7a7e54ba5a82d1a72c762f blktrace: change the internal action to 64bit
-42da88a724d8a3b92ade35ae2ef4d5e5a491df2d blktrace: split do_blk_trace_setup into two functions
-0d8627cc936de8ea04f3cc1e6921c63fb72cc199 blktrace: add definitions for blk_user_trace_setup2
-113cbd62824afdf62d2f3f092809cf37cc7f1dd8 blktrace: pass blk_user_trace2 to setup functions
-c44347d606260f36a81f6d8415a5af33cb3015fa blktrace: add definitions for struct blk_io_trace2
-915bb53860c3a6cc3dd2c9a5e0d1988ada0e377d blktrace: differentiate between blk_io_trace versions
-67bfa74d81bae9271f6ec72d2058d081732949cb blktrace: move trace_note to blk_io_trace2
-4d8bc7bd4f73c6b34ba29d3e8277864c6e0a44a7 blktrace: move ftrace blk_io_tracer to blk_io_trace2
-f9ee38bbf70fb20584625849a253c8652176fa66 blktrace: add block trace commands for zone operations
-1c164fcc1b08e75f1cad1532718f09cddc0ddebe blktrace: expose ZONE APPEND completions to blktrace
-3f6722816a73e2017599d965683dbe71833afd7a blktrace: trace zone write plugging operations
-4ae8efb4f907383a16abf3c59b353763e31ae106 blktrace: handle BLKTRACESETUP2 ioctl
-e275f6b8366a9feeb2d9f5850752e9ba12c22dce Merge branch 'for-6.19/block' into for-next
-
---===============3574983178479870807==--
+--===============6017889825368583769==--
