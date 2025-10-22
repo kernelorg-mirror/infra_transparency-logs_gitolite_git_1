@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 22 Oct 2025 21:14:36 -0000
-Message-Id: <176116767637.1817160.7522358385111179466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Wed, 22 Oct 2025 21:15:12 -0000
+Message-Id: <176116771261.1819284.3722928190427073563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 526ee2d822daab4f3934fad9ff49cc46e0e72061
-    new: ac1280211e1c41704c756fd1bc5512f92010b3f0
+  - ref: refs/heads/main
+    old: 1d018905b9975dd9363cdb496e993c1b7efcf5be
+    new: d8804b86b9796dab2d86a3ac29f188b5d24da63f
     log: |
-         d30ea149386168d3b1a3fb213523ca6512c07e9f kbuild: Use objtree for module signing key path
-         5cbfb4da7e063cb82b1ab044465aeff4542a436d kbuild: doc: improve KBUILD_BUILD_TIMESTAMP documentation
-         ac1280211e1c41704c756fd1bc5512f92010b3f0 kbuild: uapi: reuse KBUILD_USERCFLAGS
+         f9e3f7c78475250141d3905c4bf5428f09ad3228 refactor: cleanup error handling
+         d8804b86b9796dab2d86a3ac29f188b5d24da63f chore: bump version 0.11.31
          
