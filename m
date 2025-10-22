@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9174299942294700292=="
+Content-Type: multipart/mixed; boundary="===============1073490656338621518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 22 Oct 2025 00:46:24 -0000
-Message-Id: <176109398432.753699.4181477893814797823@gitolite.kernel.org>
+Date: Wed, 22 Oct 2025 00:46:25 -0000
+Message-Id: <176109398571.753837.4875005798075921552@gitolite.kernel.org>
 
---===============9174299942294700292==
+--===============1073490656338621518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4baaa9d46d73643c04a65ea03552c61c44883389
-    new: 7aeadf2a13943e0efa44d885e1d09ec7430262d1
-    log: revlist-4baaa9d46d73-7aeadf2a1394.txt
+  - ref: refs/heads/mm-unstable
+    old: 8841ba63f874d5dc05fc4beb47788406be96fd5c
+    new: 69298ec80f7e3fd915a519b8b3bd63da4cb0a986
+    log: revlist-8841ba63f874-69298ec80f7e.txt
 
---===============9174299942294700292==
+--===============1073490656338621518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4baaa9d46d73-7aeadf2a1394.txt
+Content-Disposition: attachment; filename=revlist-8841ba63f874-69298ec80f7e.txt
 
 0e59f47c15cec4cd88c51c5cda749607b719c82b mm/mremap: correctly account old mapping after MREMAP_DONTUNMAP remap
 c3fa5b1bfd8380d935fa961f2ac166bdf000f418 mm/damon/core: fix list_add_tail() call on damon_call()
@@ -159,13 +159,5 @@ da21d4cc38ddf060f670f3ad29ce9eae70efb0ea doc: update porting, vfs documentation 
 e51f55e02dd491ad593e45ded91c39695f1e5778 mm: add shmem_zero_setup_desc()
 af551ae59efdbde00ca70194a099b79ec8b03083 mm: update mem char driver to use mmap_prepare
 69298ec80f7e3fd915a519b8b3bd63da4cb0a986 mm: update resctl to use mmap_prepare
-9650a17a83b10069c5d7db760ab1aa12f17e782b vmalloc: separate gfp_mask adjunctive parentheses in __vmalloc_node_noprof() kernel-doc comment
-73e51edb6ec89c62d0cf4dde9d8874f48b03d633 mm/vmalloc: use kmalloc_array() instead of kmalloc()
-748b6a2a3938517dc9f7716289eed4102c133ccf mm/damon/sysfs: remove misleading todo comment in nid_show()
-70baed6563a0f9f0e619fbe31a5b8c989852652b mm/khugepaged: factor out common logic in [scan,alloc]_sleep_millisecs_store()
-aea2c1a1909a75047b8aa39a9444c02f37814a03 mm: remove reference to destructor in comment in calculate_sizes()
-481fd4ada2b3601e191fc63a82d235ae61a08e5e mm/vmstat: fix indentation in fold_diff function
-3dc3044583020bdd57316f4e592f81a2b0909f9f mm-vmstat-fix-indentation-in-fold_diff-function-fix
-7aeadf2a13943e0efa44d885e1d09ec7430262d1 mm/vmalloc: request large order pages from buddy allocator
 
---===============9174299942294700292==--
+--===============1073490656338621518==--
