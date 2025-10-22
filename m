@@ -1,56 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============7623634002015944664=="
+Content-Type: multipart/mixed; boundary="===============4097435000062248817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 22 Oct 2025 06:06:03 -0000
-Message-Id: <176111316361.1027343.8388595893212175176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 22 Oct 2025 06:07:03 -0000
+Message-Id: <176111322373.1028238.13543539772944063161@gitolite.kernel.org>
 
---===============7623634002015944664==
+--===============4097435000062248817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: cfec502b3d091ff7c24df6ccf8079470584315a0
-    new: 2eead19334516c8e9927c11b448fbe512b1f18a1
+  - ref: refs/heads/for-next
+    old: d936df18a917be1007fde2b08461f5d95c261ce5
+    new: 8ebc2add3e2d076adc5cc3e8c9bef268f7f1cb31
     log: |
-         2eead19334516c8e9927c11b448fbe512b1f18a1 arch_topology: Fix incorrect error check in topology_parse_cpu_capacity()
+         6837c006d4e72d6add451411bcf407e0dea4ad25 firmware: exynos-acpm: add empty method to allow compile test
+         8c79c80ff3366095fbb5b133e1fe032ccb70c3e9 dt-bindings: soc: samsung: exynos-sysreg: add power-domains
+         af17f9f0bb46e553e2e8101e75e1a87e410b382e dt-bindings: soc: samsung: exynos-sysreg: add gs101 hsi0 and misc compatibles
+         b6430552c8cd95e90bb842ce2f421e7a5381859f Merge branch 'for-v6.19/soc-samsung-exynos-acpm' into next/clk
+         7a27a9002a259bdbe50225c444fb89803970d53c Merge branch 'for-v6.19/soc-samsung-exynos-acpm' into for-next
+         8ebc2add3e2d076adc5cc3e8c9bef268f7f1cb31 Merge branches 'next/clk' and 'next/drivers' into for-next
+         
+  - ref: refs/heads/for-v6.19/soc-samsung-exynos-acpm
+    old: ad97aba3e64f8e474ecbce0c4e08486023ce8ab2
+    new: 6837c006d4e72d6add451411bcf407e0dea4ad25
+    log: |
+         6837c006d4e72d6add451411bcf407e0dea4ad25 firmware: exynos-acpm: add empty method to allow compile test
+         
+  - ref: refs/heads/next/clk
+    old: d669ec6be0b1965c67248407d87c848b1b7c12ae
+    new: b6430552c8cd95e90bb842ce2f421e7a5381859f
+    log: |
+         83c4e3c39b2b55afe56ed0d14b93b5f219350c81 dt-bindings: firmware: google,gs101-acpm-ipc: add ACPM clocks
+         84a222d1b369ba83f8947948670f775367e653f1 firmware: exynos-acpm: add DVFS protocol
+         bad0d1260b6dc229657b942400c5fc4f257f50cd firmware: exynos-acpm: register ACPM clocks pdev
+         40498a74205371400a5b0088acb886ac47a523aa clk: samsung: add Exynos ACPM clock driver
+         ad97aba3e64f8e474ecbce0c4e08486023ce8ab2 MAINTAINERS: add ACPM clock bindings and driver
+         6837c006d4e72d6add451411bcf407e0dea4ad25 firmware: exynos-acpm: add empty method to allow compile test
+         b6430552c8cd95e90bb842ce2f421e7a5381859f Merge branch 'for-v6.19/soc-samsung-exynos-acpm' into next/clk
          
 
---===============7623634002015944664==
+--===============4097435000062248817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761113225 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1761113161-3c8c50949f5df9df90700af500216647db7a0a63
+pusher krzk@kernel.org 1761113285 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1761113220-3dfc78691c5084f4872dfb8995053bbf5b181aec
 
-cfec502b3d091ff7c24df6ccf8079470584315a0 2eead19334516c8e9927c11b448fbe512b1f18a1 refs/heads/driver-core-linus
+d936df18a917be1007fde2b08461f5d95c261ce5 8ebc2add3e2d076adc5cc3e8c9bef268f7f1cb31 refs/heads/for-next
+ad97aba3e64f8e474ecbce0c4e08486023ce8ab2 6837c006d4e72d6add451411bcf407e0dea4ad25 refs/heads/for-v6.19/soc-samsung-exynos-acpm
+d669ec6be0b1965c67248407d87c848b1b7c12ae b6430552c8cd95e90bb842ce2f421e7a5381859f refs/heads/next/clk
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj4dIkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QM0P/j9sf3qpRXIPTpH1fEx6
-p8znOZYH6m6qP0EIN5HNkA94TegHE55/ze26hJ31P2V9XHSIzGkCARXEnzLEDGoN
-zyVrb9VipzopVBgWhTEk6MVEQennkHPUbNxNcYIuy4YSuJPmHnC9zQL3uBqblCQn
-bCXb7tf6xQQbVbyja98XBdkynyu6C+RiN3qm97OObsahI/jVP4n46JXYu8cWNhG0
-41QK0ogL5y9Gty1hn/Oo8MtxjIPSaHXPEdAm5l7B5nojB0hj+gzmXcVQdf6YTExs
-uMYRk0jf58XrTMmtVSkuhzdkSNwazDGfWmvFCB8S7n60N0OKvHXuAzHMM8Ed+1GN
-STCcRVj+/yMZDtzUPKGP9nueIGyKFNEN7EcoFwlc0Wmaq9AYdWS81a8/UyE3q3zL
-idU8cSZukLJuCfE3g7HHO6m21Gtl82f0/b1Hs4etaALwTqpHvdhjFXFZUFAdURYP
-i719hWSF2CVz+g1YdaEOfWdpR8kg+5VTMkWN1dANGhDgTCONphh9PCtJ8n1ZV7Dk
-KzKnBD+eksrFJmGKbKACDNhnIJb4Et1TzJMaRYW7TL25m+dQ7gOJL2LGNmoNXpfh
-FM1wbAA4EDngz3dN15eb+LKiY9nfBb7gJ+OgnIB2L+3ANcWRZdnaB1Btu9ont6Zu
-LtfQKFEZYaxn21gRTsfV2wmT
-=BrG/
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmj4dMUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xXrEACOUbKeFsHbGGWlRagn/CyLoctFtVGvohvC
+F8KDwghkKUoUcVcG67bP5TKi+Z4nQCj6dNz76WigOhi2u/bTdF+8W0T4lfsXRomE
+qBtkpuPCiCyBABYuwTOgT+3osyne0eglZmvrVnhgaLW6b7GiPEVKJ2Qzo4Olsq+I
+HUQZ2XGMyikuJKtmGgSqp3z10Oj7/vvWbqyCgmrne4Wjmrg3z2v7nBqxga7jpPj/
+vxsFW76Sz4aZf+PL1Dn2MNGbvt5VZo+lDi/R1oG6bB2SOxRItywp8mJz9OldCjAW
+XmYNVhWYDGhtJYumncHeTD4cXIS8I0U61YJeWEHsGAXT+cHHVuAWRMSHYhmxFsHE
+X4sNbHwai1tco0pCeMXNJB4xc3KvLhloUsszIb5TYDuxSFA6hQctPwRRLIgWmNl9
+ZtDTrS1GTmsfgqPvqbWLVH1TFGbmI2MgG7y5gTi4oFUuVgmZjr5s0KeDFNEO4McQ
+O5uT/IZ5L2K4ooS+T2GxH+TGYk1Ddey8sc92IJ9K6U1kMAPmU2QrTNSjGOHO7iCI
+GDFBWtQH+G47sMULFQG6B39Tpp2RoDn+NYWdfT1OzKPIhGhaVEoUKXNrH1EE+FsU
+WqieJir5C3ZDfUTqcHCcAYLt0WA7iVD4SSbxaJFKbJoX60kWnRguPBFei2uRoZxR
+4EvKTEbNFQ==
+=V+5A
 -----END PGP SIGNATURE-----
 
---===============7623634002015944664==--
+--===============4097435000062248817==--
