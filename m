@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9129612107394958930=="
+Content-Type: multipart/mixed; boundary="===============0177700842419284679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Wed, 22 Oct 2025 05:36:44 -0000
-Message-Id: <176111140423.1001167.11251055602759448196@gitolite.kernel.org>
+Date: Wed, 22 Oct 2025 05:36:46 -0000
+Message-Id: <176111140683.1001388.9891908360173968138@gitolite.kernel.org>
 
---===============9129612107394958930==
+--===============0177700842419284679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 211ddde0823f1442e4ad052a2f30f050145ccada
     log: revlist-3a8660878839-211ddde0823f.txt
 
---===============9129612107394958930==
+--===============0177700842419284679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761111467 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761111470 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1761111403-2d4786a725f8ab11e6c3ef36f36e39675fb2eeab
+nonce 1761111405-3ab15e94ba23523fcfeae548d784c6ce3262c36e
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 211ddde0823f1442e4ad052a2f30f050145ccada refs/heads/main
+3a8660878839faadb4f1a6dd72c3179c1df56787 211ddde0823f1442e4ad052a2f30f050145ccada refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj4basbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xB8P/0HJpPcyB9zAa8Z56iyp
-PIYHPPUCjUICFamuHJKW6zbsnCZMacVzsokmg2kqRK/2uNTI5F9OafvF/59HLY2d
-0KnrRztM5Ts658c6WctPfluS26CqDVD/rWq7BQX1zgl1xcHcvE/6OFb88J+5cQKp
-eM8tW4PGEQJ3utFJQeFyjb0SYViPvuSjBewT2m4YopTzae3lBsn6YD1RVdOqPAW+
-MMjqItgUUtC4SVFxfE6+NIz+qRRbdT0sZsJrSgeuncxBnfvc/tAWGNw6nMakF5eY
-xAPD2kgzN1fU5QJ/Wa+x1eHF/APkZgB+G02Qt1XBRsiQDckbKWI/yzWFpmOuzlsL
-7RrwXHczVCw1zCS/xJxyaHkMP9PhNSc19CHLNLMXBpPqVv3zxBHH4SVCzC4sp114
-YFn8m+QYq8O2RsP+q/O/xbnQsLPO4A30ww3M2dSNxUtryEHVCdJ7Zxs81/p3mupY
-oBsjZq3vludP3RJcwe8P68WjmGSNkYFQEklioBrNobm3tlaW2biBnnO8c0MOJacK
-/FQ7ahQ6DVVtc0iEmgXs1hjzQWqIuTTiagu43rIs/+kmU41RGZwZHbekZkANmOTu
-q9XFDG4tOCBKzjtA/PdSr69rB8rUom0D/QR4C3c4m/n+F5BPW3h/6LJBJZx+aj3Z
-oLXA9ny9KzxA3NPJOV8vj2gT
-=J4ei
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj4ba4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VUUP/1yH0EBG0dxXlHdfPIVg
+GbV8d/P0EVeimWgD8G5+7WkWKEHlvXohKksG76BOcSlRyH8MphdHreMF2G/9aWP3
+v2Eb85LKg2eqmchOXfvXFban1nDc54Mkz/eYGxiYMvjfnwDj5tCXmf2h50GpHMpu
+B6/yOVkgyMEl9+7ZNlCGrT2RRcObAQgV8loMGPKqaFf59VEcJwc5RN15i+R4O8Vt
+1XzYDlxS7wxtKS7L1b2NgSgVsQQjScQvvQgIUMYGW1JN1PiWYy6yhRmUiu0GoeHf
+l4PpCEplmaDo6ouaJNHrUO4Qn+zGKwSTMuhmLXof4jkQAsqXzDjKZmI+uXK3wYVF
+JgjI9ohgU/CN2bgp0KmnOWIhXbrzkZ0vy3jye7KFqF688HUu85/oFw38AbIwApCl
+Aq4O4PuMwjYCneZ/d2PBwUYvoKv0Eeai0guaAsqBHAo2R9+8KGyi63Z2NikiQYEC
+oiY1hVP9AeMjbZz3YKQ8nWObzZN1CFJHBitjKkNC56x3GaeBoWw4nkrfnbr/Nx7n
+q5y2zkzEZN8d9H8TmBn5NeULXsq7ZvUo0v4/DhhnSpD5otsdxuIoGJxQvePRGcpx
+rMBsbC8lQSb+pq9s4foeFXDQGdWENB2fMACSyXuLogpLZnttPVV/4Q/ZGfob+6nf
+Mgw5bHmH9nDvndkSPfn+eDTM
+=e7x+
 -----END PGP SIGNATURE-----
 
---===============9129612107394958930==
+--===============0177700842419284679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -421,4 +421,4 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 
---===============9129612107394958930==--
+--===============0177700842419284679==--
