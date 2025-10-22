@@ -1,16 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Wed, 22 Oct 2025 05:38:18 -0000
-Message-Id: <176111149870.1002371.1922155315462743747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 22 Oct 2025 05:40:19 -0000
+Message-Id: <176111161991.1005600.5678489805955230954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/dev
-    old: 0000000000000000000000000000000000000000
-    new: bdf013eb8c842f04fa6508fa472b20ac0e76bc30
+  - ref: refs/heads/master
+    old: f584239a9ed25057496bf397c370cc5163dde419
+    new: f2bc8231fd43a02f9d97252b3435869727054d60
+    log: |
+         8d2a2a49c30f67a480fa9ed25e08436a446f057e xfrm: drop SA reference in xfrm_state_update if dir doesn't match
+         10deb69864840ccf96b00ac2ab3a2055c0c04721 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+         5502bc4746e86bfe91ecbe0ed1ad53cb17673920 xfrm: make state as DEAD before final put when migrate fails
+         7f02285764790e0ff1a731b4187fa3e389ed02c7 xfrm: call xfrm_dev_state_delete when xfrm_state_migrate fails to add the state
+         1dcf617bec5cb85f68ca19969e7537ef6f6931d3 xfrm: set err and extack on failure to create pcpu SA
+         f2bc8231fd43a02f9d97252b3435869727054d60 xfrm: check all hash buckets for leftover states during netns deletion
+         
