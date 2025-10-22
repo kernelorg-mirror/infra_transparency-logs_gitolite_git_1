@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 22 Oct 2025 21:49:10 -0000
-Message-Id: <176116975045.1846486.2241343282582669021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 22 Oct 2025 21:52:03 -0000
+Message-Id: <176116992385.1849824.17563597027406617972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 63f373f73ce6ffea62c9dd03309a96bdebff7ff0
-    new: 18a0ebda3e087065c25ccb0d62c5e4bbec36b5e9
+  - ref: refs/heads/for-6.19
+    old: 987e00035c0e68bc0d44dec811cc9c26310b5bff
+    new: 70d8ca72917ecceec72ae5a7ad21ff4cba82b3bb
     log: |
-         71671e4a2dee80fff9d6bccaf3cde96e4301f6c3 foo
-         18a0ebda3e087065c25ccb0d62c5e4bbec36b5e9 foo
+         70d8ca72917ecceec72ae5a7ad21ff4cba82b3bb sched_ext: Use rhashtable_lookup() instead of rhashtable_lookup_fast()
+         
+  - ref: refs/heads/for-next
+    old: 66b35b4246e35de4f1a6c8d5b5ceb5752df26d6c
+    new: f5e6827710ff5b0d9aae28a41f31a63dfacc7757
+    log: |
+         70d8ca72917ecceec72ae5a7ad21ff4cba82b3bb sched_ext: Use rhashtable_lookup() instead of rhashtable_lookup_fast()
+         f5e6827710ff5b0d9aae28a41f31a63dfacc7757 Merge branch 'for-6.19' into for-next
          
