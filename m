@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6830038174658139446=="
+Content-Type: multipart/mixed; boundary="===============6574728331794008795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 22 Oct 2025 10:26:47 -0000
-Message-Id: <176112880784.1249288.12492129659804479253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 22 Oct 2025 11:03:26 -0000
+Message-Id: <176113100610.1278019.1639685557423007328@gitolite.kernel.org>
 
---===============6830038174658139446==
+--===============6574728331794008795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/staging-testing
-    old: b8b4b51be76e8c017aaed9a3503c18e70a1f38f7
-    new: ea629075eb59be7d86762efbc07817ce490c2d21
-    log: |
-         ea629075eb59be7d86762efbc07817ce490c2d21 staging: nvec: remove NVEC_PS2_DEBUG and dead debug macro
-         
+  - ref: refs/tags/platform-drivers-x86-v6.18-2
+    old: 0000000000000000000000000000000000000000
+    new: 43ff785bf97afde4c3d0f95c06bb43e7df9f3837
 
---===============6830038174658139446==
+--===============6574728331794008795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761128869 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1761128805-6b7a0ebbb655d7d90fee404636a4281711c556da
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1761131067 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1761131002-bb5e9ccc52df544c82505f89e1ccc69fb239807a
 
-b8b4b51be76e8c017aaed9a3503c18e70a1f38f7 ea629075eb59be7d86762efbc07817ce490c2d21 refs/heads/staging-testing
+0000000000000000000000000000000000000000 43ff785bf97afde4c3d0f95c06bb43e7df9f3837 refs/tags/platform-drivers-x86-v6.18-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj4saUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KeIQAKjW4ln1WgMPsugEd2Tb
-reLMUHHO8vRk1UQdcrI9dJTPJbbFNf8BjV7xZzhp/XKNgo71Hcp67Xyq9eXNpb9T
-WzgICIGUlVLquJRtFJE+TunZR7WP/KFriJJ/mPLBSH2cG+U7kYcHOxmTy2GpSheR
-GxLn97tqCsQduwqoMVgz7eHsdK1k1uLLNFsVz8zfPsfeaLllQigTev4hodMmMDJ2
-AcMQmsVO8THGvoBcCDRT/2O25bdUs8WPuh/IxY3Qcg2omQtg80ZiV3HaLlV37DNj
-ReegTjxZrw7RJ8zYZ4OhqNuZHft/Gl7XjS51E81PzbcksFDA1NpMKltTFYMOpcft
-FUMlfBKGl/CNVjNYlxijsYQ1/zl6dFJUczfWAxf0U0zZGbSfYhdHd/wWMIIno5Jd
-azJ1nrLiCNPVSXCVK8mhi6Bq2h9Bq7lSqqhkPj29NSlHTpNbMr2oeSyhGOCtojMp
-PvOrAPHy/29urg+r1V0KJDuuUknyzhtKTwiDdnMXBNuJH9SEtbYgpnS2PyNHvDNw
-mYtPQeTg7B6LkKrxntKQDNNzrLp5xMrceklPUYSLJKBiVYy3C96dHpFZVaADbMan
-7yRYcnxnZH4mjDZQRn+KOyRQcTS+dzaFGHvXETIAjgFBrTsJnkyiJA46flBiiniy
-fdmmlneKcM2brpDEL0yLc45c
-=oWO6
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaPi6PQAKCRBZrE9hU+XO
+MTodAQCcodUEI6O/0FA5w1s+EKl95vh2YdGLR4HyByVBPi6ODAEAhFaHV5Qd4/0/
+m0OkV5DKN6vwUljRKndkOl9sc1o8qgo=
+=c1gQ
 -----END PGP SIGNATURE-----
 
---===============6830038174658139446==--
+--===============6574728331794008795==--
