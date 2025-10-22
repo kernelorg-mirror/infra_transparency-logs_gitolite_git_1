@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6969571234596624013=="
+Content-Type: multipart/mixed; boundary="===============5364776003517875277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 22 Oct 2025 02:32:41 -0000
-Message-Id: <176110036155.848555.662222962103861279@gitolite.kernel.org>
+Date: Wed, 22 Oct 2025 02:33:08 -0000
+Message-Id: <176110038855.848898.4576674368213286987@gitolite.kernel.org>
 
---===============6969571234596624013==
+--===============5364776003517875277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a7748d00a50c1a0a9cc446e55de48061d786d4f3
-    new: 362346d3d6d751271c2b9ed60a9af1fb776953c3
-    log: revlist-a7748d00a50c-362346d3d6d7.txt
+  - ref: refs/heads/6.19/scsi-staging
+    old: 79a2287c1df4896d4f930a24c0dc77571959d3b3
+    new: 5d8afd46c5a2de9f8356817483f83e11f134e6e6
+    log: revlist-79a2287c1df4-5d8afd46c5a2.txt
 
---===============6969571234596624013==
+--===============5364776003517875277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761100400 -0400
+pusher 75C5DE3D 1761100428 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761100336-13ccf56418ee981c48e4b10ab767defeb87f3fd7
+nonce 1761100364-57d6c984ebfc847d173ae1e543310886936e2d3c
 
-a7748d00a50c1a0a9cc446e55de48061d786d4f3 362346d3d6d751271c2b9ed60a9af1fb776953c3 refs/tags/mkp-scsi-staging
+79a2287c1df4896d4f930a24c0dc77571959d3b3 5d8afd46c5a2de9f8356817483f83e11f134e6e6 refs/heads/6.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj4QnAACgkQ7ulgGnXF
-3j1kvxAAg2Ptkal5EbIiAwghGfUQ0DgFz/kk8HMrvF9RCqh3gcs7F+Pw6suRnyeq
-fPZqrJyeHY1fmgclvU+47Qj4Xmi9bv7mhssf8RxKA1G4b5TDHq470XtIWVmk5qMC
-axGQDUpOr5TdWH8hJcXhCWFGycFTfH10PdKw0lbd+NUX3KRvLq3M5rYEAkCXXGvv
-b6MfEZIUOXKXQNEkLHEDkrfpCfFMi/0GM5H1+2ehimdqe8aMlS5XKk5FRSNaAxJb
-UBfUk5uZkhODG/Vs9Ua7lapA4cVj0P7cbRoqhlQqx1gCP7wjUzuH4U+0Seq2cDSZ
-XLbkWewv5mhrfLGB91oWD7MVPZsbym92KFHV/xz6Ba29BeaSP9CRYJUKQf3udO8v
-Fqb5nrnoYTiJ2v2RpFrxl2GwX6bbld0pBjPo3e63dwq5Oa8sys167f7Tx1bBNy3Q
-LHlHhw67a4F9sJiAXJBvnez62KdcGZwfLCp2BrF/wwx6yYBBd9LVTp6DF21GFChI
-Ku/UYjyFuaBvFBGkrCfp5sooP1ujq5Uczrj8oM0FZW0irQB21da32zJy/32fpUKb
-ouNERrxcfcfPhWkW2gvFnR+ReuWz6qgSf+GVhWXyct4nQCLq1itsJ4pgPOoRaHFp
-+JnnkgkDScdA0bHIWBLt6fIWpAtdI7DgpNe0CtOZhXPqRANM22U=
-=kvzD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj4QowACgkQ7ulgGnXF
+3j3kPBAAlceTxd35REdePciM8QuqDpcrz9rfPfXUJHr4v0/abD/wRQPSE84ZTBZ2
+9Md2XK10O1ICyRYylensWyjd02LXzPSTY8c/LnK/34TTCJc9w7XQu5M1eXAJeO53
+p/6bp3ND+WFJRLgd2tzNHiyUGQRtj380EQJADQvN8/EnHCmfFLuFnmQ6qSi9BVnG
+d2S3UgYUdoOCqBPKd5U0ntEk01XCZBb7v05Blm+D5tbUpPoR7WDSlUUFHdFttVHl
+4s/h5BqkIfKS2UMAMy6skK1dTHkwqG5Q0ygsyyaCgKlcalkiMaBtIRVt0IwbeX12
+4TwaqrCZkQ9gBi7VZTpv0NodhjS2GN3PT5K/TNRFcC4OZrF5GEslvoM9nSAD3XIL
+G7jK0CDMx2x+MjMNhPBN0ZEK+ZrOwZgw6DK7QeXDOUwrSsmaSTMir9BpJ7g3qAKu
+jP5zMHJDzYz2/XHbfPkChbhX12sG45XtgX54ybnLbtA6ydacaObD8SgX+PBrYr4q
+t6rC/W4NrT3rzgEyBpbhGyPUAQ7a6PwlDHfzuoqgG1RIaLHM3JMiwL9bMGc7iJhl
+awAH324NoEsuFSluMA7hLxkdOzx+VUYcgqoj6n7EwRjRt2JlvbdJcBZ7iAONpteM
+LVHDLBGhzC8pgCLCluOsCilp6m3PY7KM5zcb5HNpKQGAf3+lSnk=
+=mEWj
 -----END PGP SIGNATURE-----
 
---===============6969571234596624013==
+--===============5364776003517875277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7748d00a50c-362346d3d6d7.txt
+Content-Disposition: attachment; filename=revlist-79a2287c1df4-5d8afd46c5a2.txt
 
 3d0d1c7a5c9981ca35e2976337c0b6c9e644d269 scsi: fnic: Self-assignment of intr_time_type has no effect
 ce085ecdba23a5d5462877d884ecff3ffceaad22 scsi: core: Do not declare scsi_cmnd pointers const
@@ -83,4 +83,4 @@ ce76e339e37de448a1f96e2762fed88571a31f42 scsi: ufs: core: Remove a goto label fr
 7a399b5ae49c04df4b1ff64bdde99d1b6447ce88 scsi: ufs: core: Simplify ufshcd_mcq_sq_cleanup() using guard()
 5d8afd46c5a2de9f8356817483f83e11f134e6e6 Merge patch series "Eight small UFS patches"
 
---===============6969571234596624013==--
+--===============5364776003517875277==--
