@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3830130679611605363=="
+Content-Type: multipart/mixed; boundary="===============3206444715791870453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 22 Oct 2025 02:31:37 -0000
-Message-Id: <176110029755.847319.16445611440056652249@gitolite.kernel.org>
+Date: Wed, 22 Oct 2025 02:32:02 -0000
+Message-Id: <176110032239.847825.14787509929845663854@gitolite.kernel.org>
 
---===============3830130679611605363==
+--===============3206444715791870453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: a0b7780602b1b196f47e527fec82166a7e67c4d0
-    new: d54c676d4fe0543d1642ab7a68ffdd31e8639a5d
+  - ref: refs/tags/mkp-scsi-queue
+    old: 2f1131aaf5efc6fa66b1afaacecb9dac77bffa4d
+    new: 71890d2035c0fb1cb12d3dca720b59449c900e26
     log: |
-         e23ef4f22db30a1e49c8b060e4ebc9dc9ca99c49 scsi: ufs: core: Fix error handler host_sem issue
-         6fe4c679dde3075cb481beb3945269bb2ef8b19a scsi: ufs: core: Initialize value of an attribute returned by uic cmd
-         35bc3c8ee319083333b758355ffd739a96af5c00 scsi: ufs: core: Declare tx_lanes witout initialization
-         d54c676d4fe0543d1642ab7a68ffdd31e8639a5d scsi: core: Fix the unit attention counter implementation
+         11956e4b912167459ffc51d66f56341a97a94323 scsi: isci: Avoid -Wflex-array-member-not-at-end warning
+         81cb6c228ff877ca0046a432ea831788590633ff scsi: megaraid_sas: Avoid a couple -Wflex-array-member-not-at-end warnings
+         05e66c18e3fd27b4b017ff02e4a7a908274ff755 scsi: smartpqi: Prefer kmalloc_array() over kmalloc()
+         79a2287c1df4896d4f930a24c0dc77571959d3b3 scsi: ufs: dt-bindings: exynos: Add power-domains
          
 
---===============3830130679611605363==
+--===============3206444715791870453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761100359 -0400
+pusher 75C5DE3D 1761100365 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761100295-5872220f70214aad3b9465e90ef1c567c70f7449
+nonce 1761100301-8f4115457be6bd6315ed2b821239841f3ce58c6c
 
-a0b7780602b1b196f47e527fec82166a7e67c4d0 d54c676d4fe0543d1642ab7a68ffdd31e8639a5d refs/heads/fixes
+2f1131aaf5efc6fa66b1afaacecb9dac77bffa4d 71890d2035c0fb1cb12d3dca720b59449c900e26 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj4QkcACgkQ7ulgGnXF
-3j2S8w//RVwPSObN37+u3JaB7QU2tv6ZSSM5gj+5Ypnuw/IJCcoDNyh9JH6vhz2W
-VQTGGCdpSC3+1feAKvb1mzkILWeTtbLgUdnkR7qHDLBwJWr4NPSGznmz+0qtk7Sj
-y5+2uQ38/XnbFatGQBXSX0Vz5uc+B2J2tTpwibun0RDDrSDtAVMVI7ya8DO76vde
-XxVcw2q/Krc0GIic10fFrqWJU9thejnsUiEMcCyIMDc5kb2S7x8UKk9/u6sxsyXE
-b2AAdbem+fsnhXEy+izj1D9WlcraUxyRjhEJmkwJQfvorGpWcJ8cEEhwuPZCCkI7
-Vq1tUVJtfq0cEBHdn0AOhU9j7l04oYGyT1Y+rC5Aj2YNEuR8Xzsz3zRA7yLaELK1
-cPg+/ybO3AwieUuZk1tyWS+8AcFIiZUwS7YlFczTn0joUok7nhLdEzlNqbpeLfSf
-75pSiF4GOhTvKo+oh6KrveUDZdY0xDTxYHzjn7ZZEBIOTq81pIKxS8UFywSdAPJf
-d8oCak5cLYEYNltqCRgjsLrc/nRFXXl618ZfslYf+jmisabIU+dmqCD20rgqZJi2
-TeYXjRb5/5F/kDN/yM089lsbTmE3eR3ne2gjzE7Jlfn39CmPGQYczZYgTP6gUQEl
-wtcDA3DnlbUpjde2eLD6NFpzhaVqepNCUaybe7YB28PcDTTAbHE=
-=kvSN
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj4Qk0ACgkQ7ulgGnXF
+3j0Cvw/9Ft+pl/NHOhtdX5AvsO9DYvvQ3tJHon165b1t7jPx+eZKjzNLH7f2e5pe
+5AGtdK++yP8C1vOolejozdDhT8JeIIc8APgSdQ5gAqHUpuBLvSdQCFekIlnzq1rQ
+INNYBHD4bTpVBm02rUXhMVFUrYRl6QIuLrqArZGoyhZC4V1M/0p37uI3MxOWF3ec
+nOZI7yAf3w+v6TdKsV9JutZjVnoiw2kO2dw56NtR/O77lwWXPJeKNgJKwTTB9PVK
+B07Zww3mn/9Pclowt1RWgx+6q/QWjOutimMEzjPWf0D2GZq3Ax3XYrvzBmm3zIK7
+YKDCnS7/OdqxZjUcdvs8N17Jq5a9l/+9wD0HPB5GgQ+hccinuDAnzNNLg5Jqu0x8
+MsmJkIdZyf6QwwRvCnIGgk5xXftOvqx3iTOKxB9Od6iPGd4FRJWyrmYMmNNax12P
+IRF6ltka/nDcXrA5AqsnuFGMuHxJjOjEKra5y5DelLXgZKVR9QcEJxfI8dxvu42p
+8K72gQDgedG6Y+bxgniPxIgNqhbh8EjHZ8BK1KqYPb2qQoA89uTi1qLi9gO/iPta
+EHlUBY7zW+4NdTHq34dWJSosslRK2u+PepIC0KlwXDmZWREutLd3NIcWruZEoiob
+YdvBRL2KTibFcmScnTXunyRcmNbpNu3YjZ0j0eFS8i7w4CKFV3Q=
+=zDsd
 -----END PGP SIGNATURE-----
 
---===============3830130679611605363==--
+--===============3206444715791870453==--
