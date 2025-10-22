@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Wed, 22 Oct 2025 13:08:54 -0000
-Message-Id: <176113853429.1386784.12665966913531676018@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7145959535416675085=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 22 Oct 2025 13:16:18 -0000
+Message-Id: <176113897814.1394411.2768117110402310724@gitolite.kernel.org>
+
+--===============7145959535416675085==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/gicv5-host-acpi
-    old: b3b998e442889f21a72f4b6818ac05334e9a9c6a
-    new: f8572173b29090d284cc2b3d3419da6e7b0e9896
+  - ref: refs/heads/master
+    old: f58803b25c235cbf80d1f0a948a02d07dbb8e81c
+    new: 2de9dfc1a876ec5227f6f55cdc5186956fa2af46
     log: |
-         f9e7e5a86f96a5b2855f1b3267043bb2e7524e38 ACPICA: Add Arm IORT IWB node definitions
-         112dcaecea50c83e974305c9059eb462b93fbc62 ACPICA: Add GICv5 MADT structures
-         bca73566b2046b909740a3c4486fdb7810442629 irqdomain: Add parent field to irqchip_fwid
-         8b8b5ef5c7e9d7601d78b90db6dbc56957e5812c PCI/MSI: Add ACPI/IORT MSI controller/RID mapping implementation
-         d961ea9d1656542037949f092abe92ec478a460a irqchip/gic-v5: Add ACPI IRS probing
-         af8acaea89b7d2265a336d4073e17aca5d6c5b60 irqchip/gic-v5: Add ACPI ITS probing
-         f8572173b29090d284cc2b3d3419da6e7b0e9896 irq/gic-v5: Add ACPI IWB probing
+         2de9dfc1a876ec5227f6f55cdc5186956fa2af46 add gsd review 13 from greg
          
+
+--===============7145959535416675085==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761139041 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1761138977-a617de1282cb76da5cb0ef9b4111121899093fce
+
+f58803b25c235cbf80d1f0a948a02d07dbb8e81c 2de9dfc1a876ec5227f6f55cdc5186956fa2af46 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj42WIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1F0QAL+D3tnQ9Bmb39h/xkl3
+upgTVMPRE+64bqPFeAKrUspeIbwrJlHECY8SSsi3etWPIT+rpPvPSfgCAhzWtxuA
+pWQUNx14SJbeBwHDxBGjwDLPJLc10mzUD9Q9WSMw9zFolCGG8WbPFyDSzQMYLM1S
+xdqvPrc9hsMz9+4rGiP8326kRc+8F08az7SCv+3qKuQwt31jAc+uv/hzg0Wb4aCT
+eH/17aktCIIxX0zSQwocI6/QBdsriGI/G/g+bYv7laL+MZ0BOAIwqVNrE56V3tHu
+79LInHHDxYLsCcp/nXi4KuLSwVBraEhvt4p2Alxg4Xt4Ki0KWjgUfz62msNgQuYx
+tsIeoVzKKNO97O+I7kC/VY7oB/UwuOjfQ1Kp70N/md9tK+6S6egXvPMFz/PLWNZZ
+q8yxPjfJb86LsdSumrUFfSkjFY6j0ZMXSYAnfJEChUT7iN//Iy8p64lI70vInEgB
+6+F/q64P37dw6FkZcLi5hPRmiEgX8gw7qGWA+8r16qvPq86GFLZEUG9tQd0p8e9I
+yqnfI8MyDg7Kz9+fOkxM0s9YxYDhs0g90tI9wpQW9uFb/7wtMNZTNWOzXmDPWhfP
+WQ3k2SKFh6jnCAnoGcypuHJn4QrexiA3sw5KJUUuo9AMLXgEx5t5OwmDAAj+JNWf
+1G+ghR1CiyriyY+ZSt6B+CCk
+=cAUr
+-----END PGP SIGNATURE-----
+
+--===============7145959535416675085==--
