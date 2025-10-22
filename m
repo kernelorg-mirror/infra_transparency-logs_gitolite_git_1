@@ -1,36 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============5079192013390069574=="
+Content-Type: multipart/mixed; boundary="===============8462109626091901243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Wed, 22 Oct 2025 23:29:08 -0000
-Message-Id: <176117574841.1936151.2413438569999097019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 22 Oct 2025 23:29:37 -0000
+Message-Id: <176117577760.1936822.2182840208340973806@gitolite.kernel.org>
 
---===============5079192013390069574==
+--===============8462109626091901243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 4f7b54e17eddac93c78151ffc80b8437ab11c90b
-    log: revlist-3a8660878839-4f7b54e17edd.txt
+    old: c6f0a830ef4bffc8eedd7ddb307bfba4929cd3e1
+    new: 094e94d13b606b820e3d1383e3a361f680ff023a
+    log: revlist-c6f0a830ef4b-094e94d13b60.txt
   - ref: refs/heads/dev-staging
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 211ddde0823f1442e4ad052a2f30f050145ccada
     log: revlist-3a8660878839-211ddde0823f.txt
   - ref: refs/heads/next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 4f7b54e17eddac93c78151ffc80b8437ab11c90b
-    log: revlist-3a8660878839-4f7b54e17edd.txt
-  - ref: refs/heads/stable-6.18
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 211ddde0823f1442e4ad052a2f30f050145ccada
-    log: revlist-3a8660878839-211ddde0823f.txt
+    old: c6f0a830ef4bffc8eedd7ddb307bfba4929cd3e1
+    new: 094e94d13b606b820e3d1383e3a361f680ff023a
+    log: revlist-c6f0a830ef4b-094e94d13b60.txt
   - ref: refs/tags/v6.18-rc1
     old: 0000000000000000000000000000000000000000
     new: cb6649f6217c0331b885cf787f1d175963e2a1d2
@@ -38,11 +34,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ffee675aceb9f44b0502a8bec912abb0c4f4af62
 
---===============5079192013390069574==
+--===============8462109626091901243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-4f7b54e17edd.txt
+Content-Disposition: attachment; filename=revlist-c6f0a830ef4b-094e94d13b60.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -407,9 +403,9 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 343b4b44a10f6e383bd829ba130024cfde2a08d4 Merge tag 'perf_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
-4f7b54e17eddac93c78151ffc80b8437ab11c90b audit: fix comment misindentation in audit.h
+094e94d13b606b820e3d1383e3a361f680ff023a memfd,selinux: call security_inode_init_security_anon()
 
---===============5079192013390069574==
+--===============8462109626091901243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -779,4 +775,4 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 
---===============5079192013390069574==--
+--===============8462109626091901243==--
