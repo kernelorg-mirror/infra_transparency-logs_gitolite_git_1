@@ -1,59 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============4779136104022815989=="
+Content-Type: multipart/mixed; boundary="===============2184663839793846955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 22 Oct 2025 10:05:08 -0000
-Message-Id: <176112750898.1230262.11147977093732813360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 22 Oct 2025 10:06:41 -0000
+Message-Id: <176112760163.1231010.6820365115735593427@gitolite.kernel.org>
 
---===============4779136104022815989==
+--===============2184663839793846955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/tty-testing
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
-    new: 18bdfccf3c30b208b65b890f75ecc76fcb79e224
+  - ref: refs/heads/fixes
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: 0dac0b74c32a1cc55f508dd95478637b15f4fdb3
     log: |
-         85f17e130dc7189acf03eb0f8e2455c4ea2c4f9e dt-bindings: serial: samsung: Add compatible for ARTPEC-9 SoC
-         fd3d4f5a62b1e2b0b4c3f16c2904b3af512648d6 dt-bindings: serial: samsung: add samsung,exynos8890-uart compatible
-         08a0dd5a465814233cf39a87bf746dc44d0ab571 serial: ar933x: Add polling support
-         18bdfccf3c30b208b65b890f75ecc76fcb79e224 tty: serial: fsl_lpuart: Add missing wakeup event reporting
+         0dac0b74c32a1cc55f508dd95478637b15f4fdb3 MAINTAINERS: Update Krzysztof Kozlowski's email
+         
+  - ref: refs/heads/for-next
+    old: 8ebc2add3e2d076adc5cc3e8c9bef268f7f1cb31
+    new: 73f7017e663620a616171cc80d62504a624dc4de
+    log: |
+         0dac0b74c32a1cc55f508dd95478637b15f4fdb3 MAINTAINERS: Update Krzysztof Kozlowski's email
+         73f7017e663620a616171cc80d62504a624dc4de Merge branch 'fixes' into for-next
          
 
---===============4779136104022815989==
+--===============2184663839793846955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761127570 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1761127505-5abb4af492954851d006e5461729925af8a32cc4
+pusher krzk@kernel.org 1761127664 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1761127599-636788a053149f8bad148eb12df286a0b503be6e
 
-211ddde0823f1442e4ad052a2f30f050145ccada 18bdfccf3c30b208b65b890f75ecc76fcb79e224 refs/heads/tty-testing
+3a8660878839faadb4f1a6dd72c3179c1df56787 0dac0b74c32a1cc55f508dd95478637b15f4fdb3 refs/heads/fixes
+8ebc2add3e2d076adc5cc3e8c9bef268f7f1cb31 73f7017e663620a616171cc80d62504a624dc4de refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj4rJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xuIQAKa5RLjHhpX5psRRlmVb
-afggxpveCYN/ThO13Po75uSB21WGDEGe9XNXRLjW1EAbWbYtNOaBItUPDcWWhm1I
-kLR+b9lj53fz59qtzIuNhZdpfr9qqU5pRZalviPyllo4iUlind1zpHAQiI4sLBk/
-zDUOhUegXzK3RapnuvKc289mWaRqm+TzwiVN8VbCO2i67nuuogtpMLkPOys6BqrZ
-T9zZ7fF/4TZWereKeNvs/6nC1I5yQM88a8klWiwhZM3u6ErNQDhLgaYkke2sPuT9
-9rkI2GC+uj1tJRmesWHy2VNRK/vewrcO+85I7RQEuUFlR/BhW0g4JI2KwXOy+PjY
-L2/bELKTdvfXk1bhBgAjReMcL9Bwy5ejhSl8ZxfsvqRiTsmh6j3kYl000STJDju3
-5/cKYsGcsF+WpbA93qXkCY1UXe8xlf0vcIK4RDGelAFykZr25D9faK+3FnNgwDLj
-VmRTdGghOssw1I9O5Xhs+eGd9X76CCzfa7phZG5CjUJYKr/C92dSl0O2ZR7a7pZQ
-wI4RHGK+5RTMRHp/Vwq4/+KgQJst0bj6tm6M7TNGw+j3cDUnRBSmBHRSSNzzYrl3
-gw1LnpJY/e/CKPkP77tETvrekj1PoLq5ZNVUqqlXq0lwLzUtnwNFF3f6pG5RHTFI
-buk2ROB2TS5Td3eUxBtbAciz
-=fRM2
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmj4rPAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12DtD/9Q6An/+zaEcLuoyppeBkYvGxqft2iDCbGn
+4N8EBzzPOWVKn0sOp9zBcZxgK/DyKCnxtO3Y07KMmYkhQnVLDK5bTJlVajx6kiMQ
+tK4KeqI5uuSP6gXS3ocgQXKpiGXf/ROwAuaPJDOCuHw3DAHsNMDILFEnxLfIqYX3
+8NPZFPBDuIDI/UYnLjRbdwPbeYMt0SexQszonSnsOCUvkGswoqgD9KW80xQ9leRH
+T63SIA0zXDDLJpVVSyabduNmJZFF/g/31ftTTApchhv/6KDUtI314rTDRRC5ZUcI
+jowUsKeMi4jM95dfXubMhvJE54uRv7qDsJ3ijGBidWcPiYHoM/BV+m9WzMTnQmHr
+MIgvKmMXqrfVJvUHX/4RHg/jJFDrTqza5WE84ytpCRW2gR3XyrKWpQegYxESlTxC
+E0/vV4U5rFhmQDVYxiIBwv9bwqBrZ2YLvKh8lCMM1Y9atH4902gHtMQQAeulqBop
+PhSo60JSuiuVfFyAjVvAIq7SfRDy6AQDjGBwgA/vBpRvkOBWC72K4IyuPdB1O4hJ
+o0tM/iyqPeR+JG3p/mVuckyJEjY3nRlagDAk6GkNSupkVlWMc2z0or0ViLmgp3nN
+PKR2CFGsETQMiMQQbW55tx8dVXTa4tvmXIfHrDXtm+O2Tixd3fHz5QlKkmjg7iUA
+KfF28zL1nQ==
+=JYPL
 -----END PGP SIGNATURE-----
 
---===============4779136104022815989==--
+--===============2184663839793846955==--
