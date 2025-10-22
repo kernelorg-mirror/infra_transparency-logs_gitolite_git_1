@@ -1,1383 +1,479 @@
-Content-Type: multipart/mixed; boundary="===============2568703662148951967=="
+Content-Type: multipart/mixed; boundary="===============3084564923738759665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Wed, 22 Oct 2025 23:44:17 -0000
-Message-Id: <176117665722.1951808.4940327505209879358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
+Date: Wed, 22 Oct 2025 23:50:38 -0000
+Message-Id: <176117703861.1958381.16618975972891728359@gitolite.kernel.org>
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
 user: djwong
 changes:
+  - ref: refs/heads/capture-mount-failures
+    old: 5458ece9e0d12cc8d99472b2df7f27665854940b
+    new: 4179e60810791eda125f7c2731735ba0f51aa88c
+    log: revlist-5458ece9e0d1-4179e6081079.txt
+  - ref: refs/heads/coredump-capture
+    old: 571610c0abb0bd37915282a1be6263b47df9bbb1
+    new: 2bab14151780ae3c56e4d1d9822421fc9e19ee1b
+    log: revlist-571610c0abb0-2bab14151780.txt
   - ref: refs/heads/djwong-wtf
-    old: 3e08f72bca307d0eb59aab209e1942c9dded4088
-    new: 8d69f5e796ce7b075472132534116542462e149b
-    log: revlist-3e08f72bca30-8d69f5e796ce.txt
-  - ref: refs/heads/fuse-fixes
-    old: 9f559f6425c6381e62cff1ab9e4f658d860734f6
-    new: 5967947ba7dfa08cdd873bbe03e54284beb90ad9
-    log: revlist-9f559f6425c6-5967947ba7df.txt
-  - ref: refs/heads/fuse-iomap-attrs
-    old: 946308101f9ff2327118d0def2b12f9c23762b1e
-    new: 3c117c2e4a7489f8b49015846c7092e1b002ad8e
-    log: revlist-946308101f9f-3c117c2e4a74.txt
-  - ref: refs/heads/fuse-iomap-cache
-    old: d99d22fc6cf61ca8305842acb7a7e1ff96fdd28d
-    new: 280e05f1083a0d0eeab16cf64d12e6587d2b414d
-    log: revlist-d99d22fc6cf6-280e05f1083a.txt
-  - ref: refs/heads/fuse-iomap-fileio
-    old: 05f180788b8b34cab913d5b5eda14c7cb629623b
-    new: 3c1caf047f9cd1e65bd72005b4178d941b1ffbfe
-    log: revlist-05f180788b8b-3c1caf047f9c.txt
-  - ref: refs/heads/fuse-iomap-prep
-    old: 08d5c6b619fe1319e32f950add94c18f9be76d7f
-    new: ee6222fc1b6ce907bda55afd144875547f61ac0e
-    log: revlist-08d5c6b619fe-ee6222fc1b6c.txt
-  - ref: refs/heads/fuse-root-nodeid
-    old: efa99ef53866aab898cf2ede6dc0562a0d367f22
-    new: 24c73771d1c386648649afce6e0434ed6e2fb9f6
-    log: revlist-efa99ef53866-24c73771d1c3.txt
-  - ref: refs/heads/fuse-service-container
-    old: 6793b05fc759d0bd28e716c1e35077819e00f374
-    new: 8ae30781e9bea2e46353eafa1d14957bad7be27d
-    log: revlist-6793b05fc759-8ae30781e9be.txt
+    old: decf914a90371dba4645082f1eabf2655eb1d4f7
+    new: 65f0ff3a3c94ee3e714d77752bd9268e026f75b0
+    log: revlist-decf914a9037-65f0ff3a3c94.txt
+  - ref: refs/heads/fuse2fs
+    old: e10f119f3e91f99d69855d4fd1b134e849806462
+    new: bee67cee90962c2720a7ff3e9f9a02740c970be9
+    log: revlist-e10f119f3e91-bee67cee9096.txt
+  - ref: refs/heads/fuzz-baseline
+    old: 3cd54352cd0d80ab5fc08e2c2cf9da0eca774712
+    new: d186c938e85e624335647223c30e5f763fa20c91
+    log: revlist-3cd54352cd0d-d186c938e85e.txt
   - ref: refs/heads/health-monitoring
-    old: f75c67800437323e2a53189b782cca77a765afc9
-    new: 4fc58c9501357927dc7f255289e29aec30832430
-    log: revlist-f75c67800437-4fc58c950135.txt
-  - ref: refs/heads/iomap-fuse-prep
-    old: 8237e5098137350b935678ae03f11c74140eeaf8
-    new: bb7f21f9bbbb53e003056637edbf088653a8da5f
-    log: revlist-8237e5098137-bb7f21f9bbbb.txt
-  - ref: refs/heads/xfs-6.18-fixes
-    old: 84c27ec102acd6fa1ee26271322ae31762bca49c
-    new: 019189176ed5a15b245cfb1aa0162a2c49651b29
-    log: |
-         e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-         6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-         d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-         019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-         
-  - ref: refs/tags/djwong-wtf_2025-10-22
-    old: d361018cd9d78db2dfb4df922ef17ad7d1d755b6
-    new: 1f720b1e1d5aeadb0a17a26149014c785f8e9009
-    log: revlist-d361018cd9d7-1f720b1e1d5a.txt
-  - ref: refs/tags/fuse-fixes_2025-10-22
-    old: 590f2e6daf082a6d1f1e47b47a11eed7e879ddd2
-    new: e2441bd4e12d7cee9a1f648c31141c3139b0ccba
-    log: revlist-590f2e6daf08-e2441bd4e12d.txt
-  - ref: refs/tags/fuse-iomap-attrs_2025-10-22
-    old: ccbbbd86c5cd2bf44e1157b5f1f2c8aa13118f25
-    new: 1acba19cd57277049f80086d85f0e90359a176cc
-    log: revlist-ccbbbd86c5cd-1acba19cd572.txt
-  - ref: refs/tags/fuse-iomap-cache_2025-10-22
-    old: d1b937c84acdf96bb7c01a4398457cd0d664c830
-    new: 710e7e2e0130666456035b98554553bd5586eca0
-    log: revlist-d1b937c84acd-710e7e2e0130.txt
-  - ref: refs/tags/fuse-iomap-fileio_2025-10-22
-    old: 74b195bd6b28fdb0ad9ed3ce4dd09b7ba1bc39de
-    new: eb1cc822b744c2b80895b351bda352b99d17294a
-    log: revlist-74b195bd6b28-eb1cc822b744.txt
-  - ref: refs/tags/fuse-iomap-prep_2025-10-22
-    old: 691a848350350caf7c548019458c5c4b9825060d
-    new: d61310a35c10b50d289a37d0c20753615c5296c2
-    log: revlist-691a84835035-d61310a35c10.txt
-  - ref: refs/tags/fuse-root-nodeid_2025-10-22
-    old: d33eeca7216228c3d1c71c755f05da44669525b6
-    new: 88f20c01cb89e8ddf76da319819a1ca3c28973bd
-    log: revlist-d33eeca72162-88f20c01cb89.txt
-  - ref: refs/tags/fuse-service-container_2025-10-22
-    old: fbb2ab669ff150b5e08c1d1fc9b6340eb4cd82bb
-    new: a436084c0d74a72cd4d8ae6533915950fcb30d33
-    log: revlist-fbb2ab669ff1-a436084c0d74.txt
+    old: 4bf9e1492f1b5a044b4a9a11589c88b40a7842d7
+    new: a0f788c6adab49bdb517e3ee6f7e59e5eb0b97ed
+    log: revlist-4bf9e1492f1b-a0f788c6adab.txt
+  - ref: refs/heads/logwrites-fix-zeroing
+    old: 6e22681c4c987a1f24dd66a27d155ee804dc053d
+    new: f96f503f272401e0739136e13b320254198c4bac
+    log: revlist-6e22681c4c98-f96f503f2724.txt
+  - ref: refs/heads/random-fixes
+    old: 06f74ea8113c93d10f8a3bbe6f37e73efb471bfe
+    new: 4c4eb3426837c7708547a8d1165ba9471bc9a351
+    log: revlist-06f74ea8113c-4c4eb3426837.txt
+  - ref: refs/heads/upgrade-newer-features
+    old: 7c81cd8aae941c76a06395919857cf33f53a74fa
+    new: 150570db62b15a2712a04373b2537bcef44474fe
+    log: revlist-7c81cd8aae94-150570db62b1.txt
+  - ref: refs/heads/upgrade-older-features
+    old: 6043ceb2416ad3f72a5c92f00320eacc08b20fdc
+    new: 2b92dd1db008e3b3dc4422c1af35b5655a4d4d49
+    log: revlist-6043ceb2416a-2b92dd1db008.txt
+  - ref: refs/tags/random-fixes_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: c0c4bab7de185abbb88afb81db7b0e0ce9fbb143
+  - ref: refs/tags/coredump-capture_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: f4585a086e5de04721745edf4df3d80d3b879fe9
+  - ref: refs/tags/logwrites-fix-zeroing_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: 8dc9109a0832efff615555c636916f79bf61f19c
+  - ref: refs/tags/upgrade-older-features_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: affd33ab81eb2d0abac3d0e0f6256f02a3bdbbda
+  - ref: refs/tags/capture-mount-failures_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: df815ad5bf24dfdd5efbdd6bb2de274d500fbdd9
   - ref: refs/tags/health-monitoring_2025-10-22
-    old: f6ed1d9fc5ef9d5076b6e5492bedcf2bdcadc8f1
-    new: 62426087c11c46bdf24e3e7ae35fd3bb8002b5b0
-    log: revlist-f6ed1d9fc5ef-62426087c11c.txt
-  - ref: refs/tags/iomap-fuse-prep_2025-10-22
-    old: f847f25a98ae648daf783eab96e63250a8bb4328
-    new: 16e23cc9d014943dd11e7d87fb7f0369731c2e45
-    log: revlist-f847f25a98ae-16e23cc9d014.txt
-  - ref: refs/tags/xfs-6.18-fixes_2025-10-22
-    old: 35834d7abdaf8b3298a8d1f86761affabda6b48d
-    new: edd9e29865875e98c79d28099e89f894e398cc74
-    log: |
-         e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-         6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-         d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-         019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-         
+    old: 0000000000000000000000000000000000000000
+    new: 3db00f9333b812c6ff6883e800485f56ddd60394
+  - ref: refs/tags/upgrade-newer-features_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: 1cb3eede24322dd749d8e81bc426f8461ac70150
+  - ref: refs/tags/fuse2fs_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: cbf080a53793ea92a451104bcd4d999c4357d9f3
+  - ref: refs/tags/fuzz-baseline_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: b43a93e12b1f6db7e67051b612a45341718dba29
+  - ref: refs/tags/djwong-wtf_2025-10-22
+    old: 0000000000000000000000000000000000000000
+    new: ecfabe5457288dfe1deb0f717afa240e4e9621ce
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e08f72bca30-8d69f5e796ce.txt
+Content-Disposition: attachment; filename=revlist-5458ece9e0d1-4179e6081079.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
-940d20eb8d1a2b1b120f3787297006fe8d859ac2 fuse: cache iomaps
-d60714af037f3c012b8f2620aff93d33823e4716 fuse_trace: cache iomaps
-388185f21df8d11e723dbc574e13cacd6ccb5bd5 fuse: use the iomap cache for iomap_begin
-9d8a545627a341ba412a9cf61ed7856be069557a fuse_trace: use the iomap cache for iomap_begin
-4e08bf0d7e1725bb6534ab63ea88280f7f14c07b fuse: invalidate iomap cache after file updates
-8e3931be1de750343e9fa9488fd94eb6e26ae11d fuse_trace: invalidate iomap cache after file updates
-3d9ff3eaacd2cce9fb69f93b7c63b15d77f6cf4d fuse: enable iomap cache management
-636bd9dc7d53caf5d709649269cd73f3c348ffdb fuse_trace: enable iomap cache management
-6ad95b2129184ddb266cad24326fd26166e5a541 fuse: overlay iomap inode info in struct fuse_inode
-280e05f1083a0d0eeab16cf64d12e6587d2b414d fuse: enable iomap
-28d625f380a54781144d228a7122f181190a06f7 fuse: allow privileged mount helpers to pre-approve iomap usage
-8ae30781e9bea2e46353eafa1d14957bad7be27d fuse: set iomap backing device block size
-8d69f5e796ce7b075472132534116542462e149b xfs: upgrade filesystem features
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
+2b92dd1db008e3b3dc4422c1af35b5655a4d4d49 xfs: test upgrading old features
+7f96236239078394d27089e4b653082ce11a3643 treewide: convert all $MOUNT_PROG to _mount
+4179e60810791eda125f7c2731735ba0f51aa88c check: capture dmesg of mount failures if test fails
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f559f6425c6-5967947ba7df.txt
+Content-Disposition: attachment; filename=revlist-571610c0abb0-2bab14151780.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-946308101f9f-3c117c2e4a74.txt
+Content-Disposition: attachment; filename=revlist-decf914a9037-65f0ff3a3c94.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
+2b92dd1db008e3b3dc4422c1af35b5655a4d4d49 xfs: test upgrading old features
+7f96236239078394d27089e4b653082ce11a3643 treewide: convert all $MOUNT_PROG to _mount
+4179e60810791eda125f7c2731735ba0f51aa88c check: capture dmesg of mount failures if test fails
+f26c0fd41cda4e423c37c6082311ee40a5dbadf4 xfs: test health monitoring code
+569a9e5ad60238d546de358d5e42b7d8388f196c xfs: test for metadata corruption error reporting via healthmon
+6fe94d7b59b43f4a70f4104fe27aaac1a3ce9b58 xfs: test io error reporting via healthmon
+a0f788c6adab49bdb517e3ee6f7e59e5eb0b97ed xfs: test new xfs_healer daemon
+3984dd3fe0715ff901b05e07b00ae241c284c9aa xfs/1856: add metadir upgrade to test matrix
+fc27b0c0cdff8fbabb010d22e90068613f1524bf xfs/1856: add rtrmapbt upgrade to test matrix
+8d214e3e885237df0a4f5f742dc74dd5e3c98c71 xfs/1856: add rtreflink upgrade to test matrix
+150570db62b15a2712a04373b2537bcef44474fe xfs/1856: tweak need_metadir for zoned filesystems
+9b28b8907e866b368c45f08406161be00fc2e67c misc: adapt tests to handle the fuse ext[234] drivers
+bffa1cbe1b5cf05d305bd2f0f23a81f0545684b0 generic/740: don't run this test for fuse ext* implementations
+96273041d27279524ca6e701febe95190fe48f2d ext/052: use popdir.pl for much faster directory creation
+25babb333107c78199e8d5276253283c4a3c6126 common/rc: skip test if swapon doesn't work
+7317787bc25b9d5dc80c562c3cbbf22c4c8280ed common/rc: streamline _scratch_remount
+1eeaa2f3cb17d4638db63c9f7bf678444ae4a0f0 ext/039: require metadata journalling
+366e6044a24f205f9b47976771581bca90578547 populate: don't check for htree directories on fuse.ext4
+7a77a3962aa436aedba7873048b1319f0abd12c7 misc: convert _scratch_mount -o remount to _scratch_remount
+bd6068686f7adc282fad4da8f92cc53f12a77aa2 misc: use explicitly $FSTYP'd mount calls
+dda1f072434b0118f60a5cd4d984c5542b77810f common/ext4: explicitly format with $FSTYP
+be4b555fc69793490a632bec9e0b8a8a1f72bec9 tests/ext*: refactor open-coded _scratch_mkfs_sized calls
+84753e0f73f7ac1578b277af9646717c98f417b3 generic/732: disable for fuse.ext4
+47e198afc5bd357f3528cdc8299c37f4dd3f5823 defrag: fix ext4 defrag ioctl test
+0e4d6c81244b197f156ab48f43d00b813fc7ffcb misc: explicitly require online resize support
+f798835566229e42ff7bc307486d52013e59c697 ext4/004: disable for fuse2fs
+3f1f7548c23970d1893160967610b0823a02e75c generic/679: disable for fuse2fs
+3a672fab6cb8e4590a9834521d9b889f58d25967 ext4/045: don't run the long dirent test on fuse2fs
+4f69bc589267f7926254a812074dd554d4e818a8 generic/338: skip test if we can't mount with strictatime
+229d56a4b442d7297dc3a2563f2618f2b5f7a035 generic/563: fuse doesn't support cgroup-aware writeback accounting
+1b354810fbd5b73ac4dd6241795850169bcf2d5c misc: use a larger buffer size for pwrites
+42d263452f3a75ad221e94fd3264bf6b844fbb46 ext4/046: don't run this test if dioread_nolock not supported
+eede7dfe9f8bca2082cf207175e6314fde9f9f59 generic/631: don't run test if we can't mount overlayfs
+b88bda801f29b1be8c4b886c08085636b3fd63ea generic/{409,410,411,589}: check for stacking mount support
+61e88a154f1d8948448f8c62033a62f3d618f937 generic: add _require_hardlinks to tests that require hardlinks
+b3fe5b49b3e567e578af13c0e1eb5009e6e4dc15 ext4/001: check for fiemap support
+1fa01495e7799df6d66b3e522a7e6e146386f795 generic/622: check that strictatime/lazytime actually work
+7827ddff972d639228855079a682425478f1cabf generic/050: skip test because fuse2fs doesn't have stable output
+6373db3069191bdc78bb8a4e9dd26d139f9b05e5 generic/405: don't stall on mkfs asking for input
+ec7d25f88f6413c57d115308cc1d03022cd9caf1 ext4/006: fix this test
+0a7acda93c85dd5d75777e04d82e34023ec60127 ext4/009: fix ENOSPC errors
+c25b20bc9fd607dd7c856a1077a38d5be0f05b39 ext4/022: enabl
+38e26448e5b1d9026cb5e44702f41169f57e60f3 generic/730: adapt test for fuse filesystems
+bee67cee90962c2720a7ff3e9f9a02740c970be9 fuse2fs: hack around weird corruption problems
+7d49bbb561d0b44149bbd7c6258b19c2ae6f9ee5 xfs: online fuzz test known output
+eacdc8e8bfaf3c66feeb68d1f1aab327fb86fed0 xfs: offline fuzz test known output
+f45a4d3260df1138a41ede8994d4c640ad2250ad xfs: norepair fuzz test known output
+d186c938e85e624335647223c30e5f763fa20c91 xfs: bothrepair fuzz test known output
+12be017a97540cd0087b78a0cb9c2ca9e6af93f5 debug some arm problem
+881db115f9ef57045f760f026b28bf9bf376a124 generic/230: extend grace period to 6 seconds
+6ab6e040d059a2225d362ff40f92dc5e00ff274f does this fix the writeback invalidation test on arm64?
+df680966f2ff85d18c52c950aa19449139d96b47 force local definition until we stabilize abi
+8c77b9aee23be620dd96e5b4c5b3f997a1c02fb1 revert commit 790f4d8444fa4b ("xfs: new EOF fragmentation tests")
+65f0ff3a3c94ee3e714d77752bd9268e026f75b0 selftest: add tests for dmesg and mount failure collection
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d99d22fc6cf6-280e05f1083a.txt
+Content-Disposition: attachment; filename=revlist-e10f119f3e91-bee67cee9096.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
-940d20eb8d1a2b1b120f3787297006fe8d859ac2 fuse: cache iomaps
-d60714af037f3c012b8f2620aff93d33823e4716 fuse_trace: cache iomaps
-388185f21df8d11e723dbc574e13cacd6ccb5bd5 fuse: use the iomap cache for iomap_begin
-9d8a545627a341ba412a9cf61ed7856be069557a fuse_trace: use the iomap cache for iomap_begin
-4e08bf0d7e1725bb6534ab63ea88280f7f14c07b fuse: invalidate iomap cache after file updates
-8e3931be1de750343e9fa9488fd94eb6e26ae11d fuse_trace: invalidate iomap cache after file updates
-3d9ff3eaacd2cce9fb69f93b7c63b15d77f6cf4d fuse: enable iomap cache management
-636bd9dc7d53caf5d709649269cd73f3c348ffdb fuse_trace: enable iomap cache management
-6ad95b2129184ddb266cad24326fd26166e5a541 fuse: overlay iomap inode info in struct fuse_inode
-280e05f1083a0d0eeab16cf64d12e6587d2b414d fuse: enable iomap
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
+2b92dd1db008e3b3dc4422c1af35b5655a4d4d49 xfs: test upgrading old features
+7f96236239078394d27089e4b653082ce11a3643 treewide: convert all $MOUNT_PROG to _mount
+4179e60810791eda125f7c2731735ba0f51aa88c check: capture dmesg of mount failures if test fails
+f26c0fd41cda4e423c37c6082311ee40a5dbadf4 xfs: test health monitoring code
+569a9e5ad60238d546de358d5e42b7d8388f196c xfs: test for metadata corruption error reporting via healthmon
+6fe94d7b59b43f4a70f4104fe27aaac1a3ce9b58 xfs: test io error reporting via healthmon
+a0f788c6adab49bdb517e3ee6f7e59e5eb0b97ed xfs: test new xfs_healer daemon
+3984dd3fe0715ff901b05e07b00ae241c284c9aa xfs/1856: add metadir upgrade to test matrix
+fc27b0c0cdff8fbabb010d22e90068613f1524bf xfs/1856: add rtrmapbt upgrade to test matrix
+8d214e3e885237df0a4f5f742dc74dd5e3c98c71 xfs/1856: add rtreflink upgrade to test matrix
+150570db62b15a2712a04373b2537bcef44474fe xfs/1856: tweak need_metadir for zoned filesystems
+9b28b8907e866b368c45f08406161be00fc2e67c misc: adapt tests to handle the fuse ext[234] drivers
+bffa1cbe1b5cf05d305bd2f0f23a81f0545684b0 generic/740: don't run this test for fuse ext* implementations
+96273041d27279524ca6e701febe95190fe48f2d ext/052: use popdir.pl for much faster directory creation
+25babb333107c78199e8d5276253283c4a3c6126 common/rc: skip test if swapon doesn't work
+7317787bc25b9d5dc80c562c3cbbf22c4c8280ed common/rc: streamline _scratch_remount
+1eeaa2f3cb17d4638db63c9f7bf678444ae4a0f0 ext/039: require metadata journalling
+366e6044a24f205f9b47976771581bca90578547 populate: don't check for htree directories on fuse.ext4
+7a77a3962aa436aedba7873048b1319f0abd12c7 misc: convert _scratch_mount -o remount to _scratch_remount
+bd6068686f7adc282fad4da8f92cc53f12a77aa2 misc: use explicitly $FSTYP'd mount calls
+dda1f072434b0118f60a5cd4d984c5542b77810f common/ext4: explicitly format with $FSTYP
+be4b555fc69793490a632bec9e0b8a8a1f72bec9 tests/ext*: refactor open-coded _scratch_mkfs_sized calls
+84753e0f73f7ac1578b277af9646717c98f417b3 generic/732: disable for fuse.ext4
+47e198afc5bd357f3528cdc8299c37f4dd3f5823 defrag: fix ext4 defrag ioctl test
+0e4d6c81244b197f156ab48f43d00b813fc7ffcb misc: explicitly require online resize support
+f798835566229e42ff7bc307486d52013e59c697 ext4/004: disable for fuse2fs
+3f1f7548c23970d1893160967610b0823a02e75c generic/679: disable for fuse2fs
+3a672fab6cb8e4590a9834521d9b889f58d25967 ext4/045: don't run the long dirent test on fuse2fs
+4f69bc589267f7926254a812074dd554d4e818a8 generic/338: skip test if we can't mount with strictatime
+229d56a4b442d7297dc3a2563f2618f2b5f7a035 generic/563: fuse doesn't support cgroup-aware writeback accounting
+1b354810fbd5b73ac4dd6241795850169bcf2d5c misc: use a larger buffer size for pwrites
+42d263452f3a75ad221e94fd3264bf6b844fbb46 ext4/046: don't run this test if dioread_nolock not supported
+eede7dfe9f8bca2082cf207175e6314fde9f9f59 generic/631: don't run test if we can't mount overlayfs
+b88bda801f29b1be8c4b886c08085636b3fd63ea generic/{409,410,411,589}: check for stacking mount support
+61e88a154f1d8948448f8c62033a62f3d618f937 generic: add _require_hardlinks to tests that require hardlinks
+b3fe5b49b3e567e578af13c0e1eb5009e6e4dc15 ext4/001: check for fiemap support
+1fa01495e7799df6d66b3e522a7e6e146386f795 generic/622: check that strictatime/lazytime actually work
+7827ddff972d639228855079a682425478f1cabf generic/050: skip test because fuse2fs doesn't have stable output
+6373db3069191bdc78bb8a4e9dd26d139f9b05e5 generic/405: don't stall on mkfs asking for input
+ec7d25f88f6413c57d115308cc1d03022cd9caf1 ext4/006: fix this test
+0a7acda93c85dd5d75777e04d82e34023ec60127 ext4/009: fix ENOSPC errors
+c25b20bc9fd607dd7c856a1077a38d5be0f05b39 ext4/022: enabl
+38e26448e5b1d9026cb5e44702f41169f57e60f3 generic/730: adapt test for fuse filesystems
+bee67cee90962c2720a7ff3e9f9a02740c970be9 fuse2fs: hack around weird corruption problems
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05f180788b8b-3c1caf047f9c.txt
+Content-Disposition: attachment; filename=revlist-3cd54352cd0d-d186c938e85e.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
+2b92dd1db008e3b3dc4422c1af35b5655a4d4d49 xfs: test upgrading old features
+7f96236239078394d27089e4b653082ce11a3643 treewide: convert all $MOUNT_PROG to _mount
+4179e60810791eda125f7c2731735ba0f51aa88c check: capture dmesg of mount failures if test fails
+f26c0fd41cda4e423c37c6082311ee40a5dbadf4 xfs: test health monitoring code
+569a9e5ad60238d546de358d5e42b7d8388f196c xfs: test for metadata corruption error reporting via healthmon
+6fe94d7b59b43f4a70f4104fe27aaac1a3ce9b58 xfs: test io error reporting via healthmon
+a0f788c6adab49bdb517e3ee6f7e59e5eb0b97ed xfs: test new xfs_healer daemon
+3984dd3fe0715ff901b05e07b00ae241c284c9aa xfs/1856: add metadir upgrade to test matrix
+fc27b0c0cdff8fbabb010d22e90068613f1524bf xfs/1856: add rtrmapbt upgrade to test matrix
+8d214e3e885237df0a4f5f742dc74dd5e3c98c71 xfs/1856: add rtreflink upgrade to test matrix
+150570db62b15a2712a04373b2537bcef44474fe xfs/1856: tweak need_metadir for zoned filesystems
+9b28b8907e866b368c45f08406161be00fc2e67c misc: adapt tests to handle the fuse ext[234] drivers
+bffa1cbe1b5cf05d305bd2f0f23a81f0545684b0 generic/740: don't run this test for fuse ext* implementations
+96273041d27279524ca6e701febe95190fe48f2d ext/052: use popdir.pl for much faster directory creation
+25babb333107c78199e8d5276253283c4a3c6126 common/rc: skip test if swapon doesn't work
+7317787bc25b9d5dc80c562c3cbbf22c4c8280ed common/rc: streamline _scratch_remount
+1eeaa2f3cb17d4638db63c9f7bf678444ae4a0f0 ext/039: require metadata journalling
+366e6044a24f205f9b47976771581bca90578547 populate: don't check for htree directories on fuse.ext4
+7a77a3962aa436aedba7873048b1319f0abd12c7 misc: convert _scratch_mount -o remount to _scratch_remount
+bd6068686f7adc282fad4da8f92cc53f12a77aa2 misc: use explicitly $FSTYP'd mount calls
+dda1f072434b0118f60a5cd4d984c5542b77810f common/ext4: explicitly format with $FSTYP
+be4b555fc69793490a632bec9e0b8a8a1f72bec9 tests/ext*: refactor open-coded _scratch_mkfs_sized calls
+84753e0f73f7ac1578b277af9646717c98f417b3 generic/732: disable for fuse.ext4
+47e198afc5bd357f3528cdc8299c37f4dd3f5823 defrag: fix ext4 defrag ioctl test
+0e4d6c81244b197f156ab48f43d00b813fc7ffcb misc: explicitly require online resize support
+f798835566229e42ff7bc307486d52013e59c697 ext4/004: disable for fuse2fs
+3f1f7548c23970d1893160967610b0823a02e75c generic/679: disable for fuse2fs
+3a672fab6cb8e4590a9834521d9b889f58d25967 ext4/045: don't run the long dirent test on fuse2fs
+4f69bc589267f7926254a812074dd554d4e818a8 generic/338: skip test if we can't mount with strictatime
+229d56a4b442d7297dc3a2563f2618f2b5f7a035 generic/563: fuse doesn't support cgroup-aware writeback accounting
+1b354810fbd5b73ac4dd6241795850169bcf2d5c misc: use a larger buffer size for pwrites
+42d263452f3a75ad221e94fd3264bf6b844fbb46 ext4/046: don't run this test if dioread_nolock not supported
+eede7dfe9f8bca2082cf207175e6314fde9f9f59 generic/631: don't run test if we can't mount overlayfs
+b88bda801f29b1be8c4b886c08085636b3fd63ea generic/{409,410,411,589}: check for stacking mount support
+61e88a154f1d8948448f8c62033a62f3d618f937 generic: add _require_hardlinks to tests that require hardlinks
+b3fe5b49b3e567e578af13c0e1eb5009e6e4dc15 ext4/001: check for fiemap support
+1fa01495e7799df6d66b3e522a7e6e146386f795 generic/622: check that strictatime/lazytime actually work
+7827ddff972d639228855079a682425478f1cabf generic/050: skip test because fuse2fs doesn't have stable output
+6373db3069191bdc78bb8a4e9dd26d139f9b05e5 generic/405: don't stall on mkfs asking for input
+ec7d25f88f6413c57d115308cc1d03022cd9caf1 ext4/006: fix this test
+0a7acda93c85dd5d75777e04d82e34023ec60127 ext4/009: fix ENOSPC errors
+c25b20bc9fd607dd7c856a1077a38d5be0f05b39 ext4/022: enabl
+38e26448e5b1d9026cb5e44702f41169f57e60f3 generic/730: adapt test for fuse filesystems
+bee67cee90962c2720a7ff3e9f9a02740c970be9 fuse2fs: hack around weird corruption problems
+7d49bbb561d0b44149bbd7c6258b19c2ae6f9ee5 xfs: online fuzz test known output
+eacdc8e8bfaf3c66feeb68d1f1aab327fb86fed0 xfs: offline fuzz test known output
+f45a4d3260df1138a41ede8994d4c640ad2250ad xfs: norepair fuzz test known output
+d186c938e85e624335647223c30e5f763fa20c91 xfs: bothrepair fuzz test known output
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08d5c6b619fe-ee6222fc1b6c.txt
+Content-Disposition: attachment; filename=revlist-4bf9e1492f1b-a0f788c6adab.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
+2b92dd1db008e3b3dc4422c1af35b5655a4d4d49 xfs: test upgrading old features
+7f96236239078394d27089e4b653082ce11a3643 treewide: convert all $MOUNT_PROG to _mount
+4179e60810791eda125f7c2731735ba0f51aa88c check: capture dmesg of mount failures if test fails
+f26c0fd41cda4e423c37c6082311ee40a5dbadf4 xfs: test health monitoring code
+569a9e5ad60238d546de358d5e42b7d8388f196c xfs: test for metadata corruption error reporting via healthmon
+6fe94d7b59b43f4a70f4104fe27aaac1a3ce9b58 xfs: test io error reporting via healthmon
+a0f788c6adab49bdb517e3ee6f7e59e5eb0b97ed xfs: test new xfs_healer daemon
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efa99ef53866-24c73771d1c3.txt
+Content-Disposition: attachment; filename=revlist-6e22681c4c98-f96f503f2724.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6793b05fc759-8ae30781e9be.txt
+Content-Disposition: attachment; filename=revlist-06f74ea8113c-4c4eb3426837.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
-940d20eb8d1a2b1b120f3787297006fe8d859ac2 fuse: cache iomaps
-d60714af037f3c012b8f2620aff93d33823e4716 fuse_trace: cache iomaps
-388185f21df8d11e723dbc574e13cacd6ccb5bd5 fuse: use the iomap cache for iomap_begin
-9d8a545627a341ba412a9cf61ed7856be069557a fuse_trace: use the iomap cache for iomap_begin
-4e08bf0d7e1725bb6534ab63ea88280f7f14c07b fuse: invalidate iomap cache after file updates
-8e3931be1de750343e9fa9488fd94eb6e26ae11d fuse_trace: invalidate iomap cache after file updates
-3d9ff3eaacd2cce9fb69f93b7c63b15d77f6cf4d fuse: enable iomap cache management
-636bd9dc7d53caf5d709649269cd73f3c348ffdb fuse_trace: enable iomap cache management
-6ad95b2129184ddb266cad24326fd26166e5a541 fuse: overlay iomap inode info in struct fuse_inode
-280e05f1083a0d0eeab16cf64d12e6587d2b414d fuse: enable iomap
-28d625f380a54781144d228a7122f181190a06f7 fuse: allow privileged mount helpers to pre-approve iomap usage
-8ae30781e9bea2e46353eafa1d14957bad7be27d fuse: set iomap backing device block size
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f75c67800437-4fc58c950135.txt
+Content-Disposition: attachment; filename=revlist-7c81cd8aae94-150570db62b1.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
+2b92dd1db008e3b3dc4422c1af35b5655a4d4d49 xfs: test upgrading old features
+7f96236239078394d27089e4b653082ce11a3643 treewide: convert all $MOUNT_PROG to _mount
+4179e60810791eda125f7c2731735ba0f51aa88c check: capture dmesg of mount failures if test fails
+f26c0fd41cda4e423c37c6082311ee40a5dbadf4 xfs: test health monitoring code
+569a9e5ad60238d546de358d5e42b7d8388f196c xfs: test for metadata corruption error reporting via healthmon
+6fe94d7b59b43f4a70f4104fe27aaac1a3ce9b58 xfs: test io error reporting via healthmon
+a0f788c6adab49bdb517e3ee6f7e59e5eb0b97ed xfs: test new xfs_healer daemon
+3984dd3fe0715ff901b05e07b00ae241c284c9aa xfs/1856: add metadir upgrade to test matrix
+fc27b0c0cdff8fbabb010d22e90068613f1524bf xfs/1856: add rtrmapbt upgrade to test matrix
+8d214e3e885237df0a4f5f742dc74dd5e3c98c71 xfs/1856: add rtreflink upgrade to test matrix
+150570db62b15a2712a04373b2537bcef44474fe xfs/1856: tweak need_metadir for zoned filesystems
 
---===============2568703662148951967==
+--===============3084564923738759665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8237e5098137-bb7f21f9bbbb.txt
+Content-Disposition: attachment; filename=revlist-6043ceb2416a-2b92dd1db008.txt
 
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
+fe376ddb4584af7ee23e76b136aba7df43b9583a generic/427: try to ensure there's some free space before we do the aio test
+014b22fca5e681b770fe9cf0c0f8241471563b01 common/rc: fix _require_xfs_io_shutdown
+ed005f00f1bd1521ebed3f068ee66c5015f32e46 generic/742: avoid infinite loop if no fiemap results
+9ba6ed1f60c314c16b0791b431cd6386dfacacd4 generic/{482,757}: skip test if there are no FUA writes
+236a3089c8de56f573fac3958f0f59faadc1165f generic/772: actually check for file_getattr special file support
+a04ef4ae0838e18463163db77c4432d5d18e055a common/filter: fix _filter_file_attributes to handle src/file_attr.c file flags
+6d71a7e9494977aad3b3fa5c416c679276a726e2 common/attr: fix _require_noattr2
+6da0d78746c3d54747c82d13ab8bbb709b155ee6 common: fix _require_xfs_io_command pwrite -A for various blocksizes
+ed7316a60a175f09f6da1114aac54870408aa56d generic/778: fix severe performance problems
+8b22a7a547319be32777078d40634521a662a0de check: line up stdout columns
+4c4eb3426837c7708547a8d1165ba9471bc9a351 fsx: don't print messages when atomic writes are explicitly disabled
+0277dd618ecf8fa6023ea2a6bee6e81452c8b0fb fsstress: don't abort when stat(".") returns EIO
+2bab14151780ae3c56e4d1d9822421fc9e19ee1b check: collect core dumps from systemd-coredump
+ec88aaccf13633b9aee8be14873596d269ae3712 logwrites: warn if we don't think read after discard returns zeroes
+b94fe69af59968e24a870329b08beae5e0adc98f logwrites: use BLKZEROOUT if it's available
+f96f503f272401e0739136e13b320254198c4bac logwrites: only use BLKDISCARD if we know discard zeroes data
+2b92dd1db008e3b3dc4422c1af35b5655a4d4d49 xfs: test upgrading old features
 
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d361018cd9d7-1f720b1e1d5a.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
-940d20eb8d1a2b1b120f3787297006fe8d859ac2 fuse: cache iomaps
-d60714af037f3c012b8f2620aff93d33823e4716 fuse_trace: cache iomaps
-388185f21df8d11e723dbc574e13cacd6ccb5bd5 fuse: use the iomap cache for iomap_begin
-9d8a545627a341ba412a9cf61ed7856be069557a fuse_trace: use the iomap cache for iomap_begin
-4e08bf0d7e1725bb6534ab63ea88280f7f14c07b fuse: invalidate iomap cache after file updates
-8e3931be1de750343e9fa9488fd94eb6e26ae11d fuse_trace: invalidate iomap cache after file updates
-3d9ff3eaacd2cce9fb69f93b7c63b15d77f6cf4d fuse: enable iomap cache management
-636bd9dc7d53caf5d709649269cd73f3c348ffdb fuse_trace: enable iomap cache management
-6ad95b2129184ddb266cad24326fd26166e5a541 fuse: overlay iomap inode info in struct fuse_inode
-280e05f1083a0d0eeab16cf64d12e6587d2b414d fuse: enable iomap
-28d625f380a54781144d228a7122f181190a06f7 fuse: allow privileged mount helpers to pre-approve iomap usage
-8ae30781e9bea2e46353eafa1d14957bad7be27d fuse: set iomap backing device block size
-8d69f5e796ce7b075472132534116542462e149b xfs: upgrade filesystem features
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-590f2e6daf08-e2441bd4e12d.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ccbbbd86c5cd-1acba19cd572.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1b937c84acd-710e7e2e0130.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
-940d20eb8d1a2b1b120f3787297006fe8d859ac2 fuse: cache iomaps
-d60714af037f3c012b8f2620aff93d33823e4716 fuse_trace: cache iomaps
-388185f21df8d11e723dbc574e13cacd6ccb5bd5 fuse: use the iomap cache for iomap_begin
-9d8a545627a341ba412a9cf61ed7856be069557a fuse_trace: use the iomap cache for iomap_begin
-4e08bf0d7e1725bb6534ab63ea88280f7f14c07b fuse: invalidate iomap cache after file updates
-8e3931be1de750343e9fa9488fd94eb6e26ae11d fuse_trace: invalidate iomap cache after file updates
-3d9ff3eaacd2cce9fb69f93b7c63b15d77f6cf4d fuse: enable iomap cache management
-636bd9dc7d53caf5d709649269cd73f3c348ffdb fuse_trace: enable iomap cache management
-6ad95b2129184ddb266cad24326fd26166e5a541 fuse: overlay iomap inode info in struct fuse_inode
-280e05f1083a0d0eeab16cf64d12e6587d2b414d fuse: enable iomap
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74b195bd6b28-eb1cc822b744.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-691a84835035-d61310a35c10.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d33eeca72162-88f20c01cb89.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbb2ab669ff1-a436084c0d74.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-c16104a0b42cc8a0003847dd5f65db46e6c961b7 fuse: move the passthrough-specific code back to passthrough.c
-ee6222fc1b6ce907bda55afd144875547f61ac0e fuse_trace: move the passthrough-specific code back to passthrough.c
-f5feac8b8c35477fe5b4725189c5c3395efb94d6 fuse: implement the basic iomap mechanisms
-95178bd1b6f6cb88dfd9f1502a4631693cf66348 fuse_trace: implement the basic iomap mechanisms
-b739fff870384fd239abfd99ecee6bc47640794d fuse: make debugging configurable at runtime
-bd21c848a6752970972909e8cbcf30663c900d4e fuse: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-432e51b098a74a93caa69e4e830acf923c591918 fuse_trace: adapt FUSE_DEV_IOC_BACKING_{OPEN,CLOSE} to add new iomap devices
-a99d8ca558cd7f7f545e9ccdca4c6af377d18447 fuse: flush events and send FUSE_SYNCFS and FUSE_DESTROY on unmount
-0764dae5f2e1fca59f1e0dc27be28fb7fa03faf7 fuse: create a per-inode flag for toggling iomap
-2a398edad79d05526882b2ec33a312d5377a0905 fuse_trace: create a per-inode flag for toggling iomap
-97b8d14d37c751b9d106cd4f52cb0c30c6948b8c fuse: isolate the other regular file IO paths from iomap
-4ab44ce0d3c19562d74a2edfcca535906974d6c8 fuse: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-20ce4fb5b1f8535d5f06f4b59b1ba4a2e2c8df20 fuse_trace: implement basic iomap reporting such as FIEMAP and SEEK_{DATA,HOLE}
-8b4cac915a2b72440e95fdf6f8fbd00d73754d36 fuse: implement direct IO with iomap
-37e5c3f0405ccbf5d7381248fe866a4aedf967a0 fuse_trace: implement direct IO with iomap
-6a828f3356235cb762ae80fb110665b2a5ffb227 fuse: implement buffered IO with iomap
-c4898cd45977bc8ee366be3476c5654a635b98eb fuse_trace: implement buffered IO with iomap
-868d084347a4731ce20d2b7e650059baabd9d57b fuse: implement large folios for iomap pagecache files
-e98a713e4d9255a66786a6591ac1c987ff8db2ab fuse: use an unrestricted backing device with iomap pagecache io
-3bac02b3fbf572373a70cacc89b88bcf19f214fb fuse: advertise support for iomap
-91cef1c04d9e67c50a933ee79486cb7303e15cf1 fuse: query filesystem geometry when using iomap
-0b705e1e51b5476127a517a31a9c2f05c57440ef fuse_trace: query filesystem geometry when using iomap
-96792f0d321a186afe505c93700cd29048298fe6 fuse: implement fadvise for iomap files
-3dad1ab27f8f2be053b991eb947239f342449bdf fuse: invalidate ranges of block devices being used for iomap
-61fdd61b0284ff8083aa9210fe407a80cf6a096d fuse_trace: invalidate ranges of block devices being used for iomap
-08758fddfd793d53d08ec444668c8a882d6aa91e fuse: implement inline data file IO via iomap
-a6ca7db8a3ff2577276fbb79f7352e3deca44303 fuse_trace: implement inline data file IO via iomap
-3736484ebc639e51c46440d745a0c16a6836418f fuse: allow more statx fields
-7ff8db1c961f8b4be1b36cf0c17729a771c324c6 fuse: support atomic writes with iomap
-76cf575d2b44573021ba00d94af9ff1db8005c7e fuse_trace: support atomic writes with iomap
-bbdbcc54c29cd92c8d922298ce569a5479bd4df7 fuse: disable direct reclaim for any fuse server that uses iomap
-3c1caf047f9cd1e65bd72005b4178d941b1ffbfe fuse: enable swapfile activation on iomap
-830c8bba039a7f4ba3c5ee8c484c2a9786dc90ca fuse: make the root nodeid dynamic
-e1f38bf017367da326200ac3013283c579250703 fuse_trace: make the root nodeid dynamic
-24c73771d1c386648649afce6e0434ed6e2fb9f6 fuse: allow setting of root nodeid
-dbeaa3d21ea67a19761983cce8879949fb69d8bc fuse: enable caching of timestamps
-6d5e8a390681741739b950754c3d657d33da42a6 fuse: force a ctime update after a fileattr_set call when in iomap mode
-053a06fbd78b2ae9ab7647b7d37f05c5a0b86192 fuse: allow local filesystems to set some VFS iflags
-b70be8260ae84584b293801f04fa79b7a7b1025e fuse_trace: allow local filesystems to set some VFS iflags
-12addf1b33cf295648a6de3723028f848704502d fuse: cache atime when in iomap mode
-87d1187731c17662ce0db2e5f3040927472a90cc fuse: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-de12d4f7dee192d3e65e6db1e9f578c5eaec1f8e fuse_trace: let the kernel handle KILL_SUID/KILL_SGID for iomap filesystems
-74a270373ec6ca4a3530ea0f857349d2017babda fuse: update ctime when updating acls on an iomap inode
-3c117c2e4a7489f8b49015846c7092e1b002ad8e fuse: always cache ACLs when using iomap
-940d20eb8d1a2b1b120f3787297006fe8d859ac2 fuse: cache iomaps
-d60714af037f3c012b8f2620aff93d33823e4716 fuse_trace: cache iomaps
-388185f21df8d11e723dbc574e13cacd6ccb5bd5 fuse: use the iomap cache for iomap_begin
-9d8a545627a341ba412a9cf61ed7856be069557a fuse_trace: use the iomap cache for iomap_begin
-4e08bf0d7e1725bb6534ab63ea88280f7f14c07b fuse: invalidate iomap cache after file updates
-8e3931be1de750343e9fa9488fd94eb6e26ae11d fuse_trace: invalidate iomap cache after file updates
-3d9ff3eaacd2cce9fb69f93b7c63b15d77f6cf4d fuse: enable iomap cache management
-636bd9dc7d53caf5d709649269cd73f3c348ffdb fuse_trace: enable iomap cache management
-6ad95b2129184ddb266cad24326fd26166e5a541 fuse: overlay iomap inode info in struct fuse_inode
-280e05f1083a0d0eeab16cf64d12e6587d2b414d fuse: enable iomap
-28d625f380a54781144d228a7122f181190a06f7 fuse: allow privileged mount helpers to pre-approve iomap usage
-8ae30781e9bea2e46353eafa1d14957bad7be27d fuse: set iomap backing device block size
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6ed1d9fc5ef-62426087c11c.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-
---===============2568703662148951967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f847f25a98ae-16e23cc9d014.txt
-
-e9280db5f37a4467794c3a397260a4d7e03a6d6f xfs: don't set bt_nr_sectors to a negative number
-6655899bba0dcfb181a4ef1ea1e8cc38c2331117 xfs: always warn about deprecated mount options
-d6ba1e1f77dce9765368ef075a2ee7a894ef050d xfs: loudly complain about defunct mount options
-019189176ed5a15b245cfb1aa0162a2c49651b29 xfs: fix locking in xchk_nlinks_collect_dir
-38d91703652622660b25ec249aa326c7105f79c6 docs: remove obsolete links in the xfs online repair documentation
-6a83aa7a6c9ef3f6cedaefa381745e56ec282140 docs: discuss autonomous self healing in the xfs online repair design doc
-2424ba4eca572e2081ed0673d40f67b7d2dc1f48 xfs: create debugfs uuid aliases
-6d3ca4c0496f029a44f6bb9c8f927c1e9dd8fe36 xfs: create hooks for monitoring health updates
-80f7fc1f9e614008d11b1c73070d6128a18f949c xfs: create a filesystem shutdown hook
-5cdb1c1b9b6e516d93418a4532feb5d8766e2cc3 xfs: create hooks for media errors
-2a9de689d695432f8cec25c42a0fcc887ec75d1b iomap: report buffered read and write io errors to the filesystem
-085c2a915c282ff48256bd711702910372ff37df iomap: report directio read and write errors to callers
-e86d7f74e19de015fd99ad33544914fa231fcdc1 xfs: create file io error hooks
-6e618299753fb6c1e6879ba9151e1925bbb63821 xfs: create a special file to pass filesystem health to userspace
-5e362c6dc68e48a2f1df6471dfca4ec77782636b xfs: create event queuing, formatting, and discovery infrastructure
-3eb945e83af40701c696a782ba16e372dca1d368 xfs: report metadata health events through healthmon
-a34733905352fb8e14c252839f74d59c2244baee xfs: report shutdown events through healthmon
-1660a47c411f38c4aefc50e49cf5024929106afd xfs: report media errors through healthmon
-2126772057c1fcba6e61e687bf503cd9be087453 xfs: report file io errors through healthmon
-cd51722ec917fa2508fafdddc723a6bef65a0101 xfs: allow reconfiguration of the health monitoring device
-baad9f66b828f26c68f1479bf875cfc69ff0beb9 xfs: validate fds against running healthmon
-9c5c961e68e9b73057a3e04c6e83e26865ad0de3 xfs: add media error reporting ioctl
-4fc58c9501357927dc7f255289e29aec30832430 xfs: send uevents when major filesystem events happen
-1dc28f075fcf616ab597f788075b5c563005338b fuse: flush pending fuse events before aborting the connection
-947c2a90d2438dd5b7ae93f2c94acb9266837167 fuse: signal that a fuse inode should exhibit local fs behaviors
-23d033fcc8fa32775e78f83d5c5991a6faa7816a fuse: implement file attributes mask for statx
-a419ce7441a4c6382d42504a2079af0715271169 fuse: update file mode when updating acls
-5967947ba7dfa08cdd873bbe03e54284beb90ad9 fuse: propagate default and file acls on creation
-bb7f21f9bbbb53e003056637edbf088653a8da5f iomap: allow NULL swap info bdev when activating swapfile
-
---===============2568703662148951967==--
+--===============3084564923738759665==--
