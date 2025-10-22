@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 22 Oct 2025 22:45:20 -0000
-Message-Id: <176117312012.1898515.16288853129528872423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 22 Oct 2025 22:53:48 -0000
+Message-Id: <176117362813.1903850.8121835277506387179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/master
-    old: 18a0ebda3e087065c25ccb0d62c5e4bbec36b5e9
-    new: 34939d6cf9c5fd039f7410d26c1f5918161fc3ff
+  - ref: refs/heads/probes/for-next
+    old: 1ad2a9aa300227191305567b07e36f98e38afdb3
+    new: 0ae030b8418167703179246ce2071d4486c8f884
     log: |
-         34939d6cf9c5fd039f7410d26c1f5918161fc3ff foo
+         31ed9ae88cc781d3b5f2ddf32eaeff83174290d7 tracing: fprobe: optimization for entry only case
+         0ae030b8418167703179246ce2071d4486c8f884 lib/test_fprobe: add testcase for mixed fprobe
          
