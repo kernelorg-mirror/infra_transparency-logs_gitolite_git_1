@@ -1,41 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0300857282726670497=="
+Content-Type: multipart/mixed; boundary="===============7280140698809972811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 22 Oct 2025 09:24:23 -0000
-Message-Id: <176112506328.1192530.16318086423637813215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Wed, 22 Oct 2025 09:43:03 -0000
+Message-Id: <176112618374.1207659.5800865549600471184@gitolite.kernel.org>
 
---===============0300857282726670497==
+--===============7280140698809972811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 7f0f877672b7189f20a2429b323ddd475e5d8acd
-    new: 942bd13e8089c40dc74bad293c7fb95032d2f658
-    log: revlist-7f0f877672b7-942bd13e8089.txt
+  - ref: refs/heads/uaccess/scoped
+    old: 1cf2424a46917f9376d094d3bfe3103a789f3e28
+    new: a343a4690bbbc8fb2d343c64ea640e50f79c6774
+    log: revlist-1cf2424a4691-a343a4690bbb.txt
 
---===============0300857282726670497==
+--===============7280140698809972811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f0f877672b7-942bd13e8089.txt
+Content-Disposition: attachment; filename=revlist-1cf2424a4691-a343a4690bbb.txt
 
-468b97554107a9be2d43bdce9ee12862b1520e2f tests: optstr: test redundant commas
-7b62b2dd72d4f004e66234cc63abf8da94e1926e losetup: add error feedback for --remove command
-04619aacdb31ecdf451f07fa2cf93b67387c1638 lib/loopdev: introduce loopcxt_get_device_nr() helper
-8008075ce50114478cc1d4c9411e9a2439cac6bf losetup: make --remove a long-only option with mutual exclusivity
-7190e6a44e366f4daddad0930500de49f402c60e losetup: improve --remove documentation
-19cd36ebc2e227b2a93c70207b213da58f7be5e2 lostup: report EACCES on loop-control
-787f8251b539ad6c3cd1098ab155980afe611867 losetup: improve command line option processing
-be33a6786b82dc456be347d2b366661100101793 mount: improve --all documentation regarding swap areas
-d59e09cc0fb98268196cbf48080a74094e69d1a6 mount: add note about systemd and --all historical context
-11ca5a90f2f345e7831fb991f1ddf5c5da2b0f77 Merge branch 'PR/losetup-remove' of https://github.com/karelzak/util-linux-work
-942bd13e8089c40dc74bad293c7fb95032d2f658 Merge branch 'optstr-test' of https://github.com/crobinso/util-linux
+44d591f6d0f17efa9fc9fe6c3df1ef1057c4755b ARM: uaccess: Implement missing __get_user_asm_dword()
+175b39982c1687c93aaf6ed0e2c502b6c9f643c7 uaccess: Provide ASM GOTO safe wrappers for unsafe_*_user()
+44f4ed2b3c0390f7745a1f423ea405c8a0e405c6 x86/uaccess: Use unsafe wrappers for ASM GOTO
+938ea6b9dd1f3d34661dda296cfa047721e4a41b powerpc/uaccess: Use unsafe wrappers for ASM GOTO
+6fe0adaab0b49e8f8bb71b5f8c073b7314bbfb91 riscv/uaccess: Use unsafe wrappers for ASM GOTO
+c17c75d17eea46e153c2a9a5ff0415ba74d7da54 s390/uaccess: Use unsafe wrappers for ASM GOTO
+73e1efc20ca8eca00545f5a09d6b37f0f2c978bc uaccess: Provide scoped user access regions
+28960d262fa8af3348f6c69f44ea2c52d6921084 uaccess: Provide put/get_user_scoped()
+8a27d04f02c5e3be7c4ac7f7b7a146f6c125f8cb coccinelle: misc: Add scoped_masked_$MODE_access() checker script
+836bc2ae2606ed7563607c51122dd01b04e7ae1d futex: Convert to scoped user access
+e589afbb4c54af8106c7c92a15e221bff09544cc x86/futex: Convert to scoped user access
+a343a4690bbbc8fb2d343c64ea640e50f79c6774 select: Convert to scoped user access
 
---===============0300857282726670497==--
+--===============7280140698809972811==--
