@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 22 Oct 2025 16:02:15 -0000
-Message-Id: <176114893503.1544977.1664872155204989637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Wed, 22 Oct 2025 16:03:32 -0000
+Message-Id: <176114901263.1545615.10578155907802668864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/block-6.18
-    old: 81ccca31214e11ea2b537fd35d4f66d7cf46268e
-    new: 4c8cf6bd28d6fea23819f082ddc8063fd6fa963a
+  - ref: refs/heads/usb-linus
+    old: 71c07570b918f000de5d0f7f1bf17a2887e303b5
+    new: 89205c60c0fc96b73567a2e9fe27ee3f59d01193
     log: |
-         4c8cf6bd28d6fea23819f082ddc8063fd6fa963a block: require LBA dma_alignment when using PI
+         89205c60c0fc96b73567a2e9fe27ee3f59d01193 USB: serial: option: add Quectel RG255C
          
