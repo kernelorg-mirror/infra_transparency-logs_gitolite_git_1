@@ -1,32 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8462109626091901243=="
+Content-Type: multipart/mixed; boundary="===============1710532271616578224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 22 Oct 2025 23:29:37 -0000
-Message-Id: <176117577760.1936822.2182840208340973806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Wed, 22 Oct 2025 23:30:16 -0000
+Message-Id: <176117581652.1938738.16813715873017357510@gitolite.kernel.org>
 
---===============8462109626091901243==
+--===============1710532271616578224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: c6f0a830ef4bffc8eedd7ddb307bfba4929cd3e1
-    new: 094e94d13b606b820e3d1383e3a361f680ff023a
-    log: revlist-c6f0a830ef4b-094e94d13b60.txt
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: dfa024bc3f67a97e1a975dd66b83af8b3845eb19
+    log: revlist-3a8660878839-dfa024bc3f67.txt
   - ref: refs/heads/dev-staging
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 211ddde0823f1442e4ad052a2f30f050145ccada
     log: revlist-3a8660878839-211ddde0823f.txt
   - ref: refs/heads/next
-    old: c6f0a830ef4bffc8eedd7ddb307bfba4929cd3e1
-    new: 094e94d13b606b820e3d1383e3a361f680ff023a
-    log: revlist-c6f0a830ef4b-094e94d13b60.txt
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: dfa024bc3f67a97e1a975dd66b83af8b3845eb19
+    log: revlist-3a8660878839-dfa024bc3f67.txt
+  - ref: refs/heads/stable-6.18
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: 211ddde0823f1442e4ad052a2f30f050145ccada
+    log: revlist-3a8660878839-211ddde0823f.txt
   - ref: refs/tags/v6.18-rc1
     old: 0000000000000000000000000000000000000000
     new: cb6649f6217c0331b885cf787f1d175963e2a1d2
@@ -34,11 +38,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ffee675aceb9f44b0502a8bec912abb0c4f4af62
 
---===============8462109626091901243==
+--===============1710532271616578224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6f0a830ef4b-094e94d13b60.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-dfa024bc3f67.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -403,9 +407,42 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 343b4b44a10f6e383bd829ba130024cfde2a08d4 Merge tag 'perf_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
-094e94d13b606b820e3d1383e3a361f680ff023a memfd,selinux: call security_inode_init_security_anon()
+a5e7c17c810052e94dae36f1a976a052f4490458 lsm: split the notifier code out into lsm_notifier.c
+67a4b6a89b99aff0883114e4ecba4b11aedc29a5 lsm: split the init code out into lsm_init.c
+e02578561d47567be26e603c6d27c10a5aa4c2c4 lsm: consolidate lsm_allowed() and prepare_lsm() into lsm_prepare()
+37f788f65528611f4482e2135d11ca34afb25828 lsm: introduce looping macros for the initialization code
+cb1513db7a6ed82d22853608d78bbf72ad8c67c1 lsm: integrate report_lsm_order() code into caller
+92ed3500c9a91f43e094c9b8fb4bab9976565d74 lsm: integrate lsm_early_cred() and lsm_early_task() into caller
+faabedcd6e88ca1f65ef45d711d2e0c7288fd551 lsm: rename ordered_lsm_init() to lsm_init_ordered()
+9f9dc69e06ecbc61e7a50b823b82a78daf130dc0 lsm: replace the name field with a pointer to the lsm_id struct
+592b104f9b516b2c22cb23a2f4c34486fdb21bae lsm: rename the lsm order variables for consistency
+250898ca335f337bc032a9693dc0a30a1cb85825 lsm: rework lsm_active_cnt and lsm_idlist[]
+935d508d4d7ab9d19c603bd7eb2937249551d507 lsm: get rid of the lsm_names list and do some cleanup
+2d67172612fd9df2c4d08533515ef483cb526dd9 lsm: rework the LSM enable/disable setter/getter functions
+a748372a282ae1e23d5d4b14a3e190c28764cfd2 lsm: rename exists_ordered_lsm() to lsm_order_exists()
+24a9c58978ee368cbd796a03cb6e8ade6e0b6f5f lsm: rename/rework append_ordered_lsm() into lsm_order_append()
+752db06571816a3870b17814882425318b5ec0ef lsm: rename/rework ordered_lsm_parse() to lsm_order_parse()
+291271e691740003021cf5b48fa7cf7e3371eaa7 lsm: cleanup the LSM blob size code
+27be5600fe852c52d5b70f4ac9406879b39c864e lsm: cleanup initialize_lsm() and rename to lsm_init_single()
+45a41d1394aa2ed0305f0560f93bb87be7192481 lsm: fold lsm_init_ordered() into security_init()
+450705334f698990804b470437f3014cee979486 lsm: add/tweak function header comment blocks in lsm_init.c
+5137e583ba2635b82667dc63cb35305750420411 lsm: cleanup the debug and console output in lsm_init.c
+ac3c47cece27014e34d2ec561d72c0a7c7de50a9 lsm: output available LSMs when debugging
+3423c6397ce21356c3c2fac0b2727d428d96cfa4 lsm: group lsm_order_parse() with the other lsm_order_*() functions
+cdc028812f727907d1575cf454a5f01ddffa7750 lsm: introduce an initcall mechanism into the LSM framework
+b0374e79a83c89f2a85f39364e215ac749ea2f31 loadpin: move initcalls to the LSM framework
+d934f97db827ac44a84edf399d6b7a3946fe1cf1 ipe: move initcalls to the LSM framework
+06643d5584f9efa19804d17435169a63412b4eae smack: move initcalls to the LSM framework
+9484ae129593d16d6a9cac0fe54beebe1aa32458 tomoyo: move initcalls to the LSM framework
+d3ba8f80894a855a432515a7378aeccd4e655c47 safesetid: move initcalls to the LSM framework
+7cbe113537514ef00734e593fe76cc5ad8582f91 apparmor: move initcalls to the LSM framework
+77ebff0607c558e543f806f63be08e109b20e3eb lockdown: move initcalls to the LSM framework
+82fe7932e84f618c6ec217203606f0c27ebef94b ima,evm: move initcalls to the LSM framework
+3156bc814f21a976b25c1b4981dcb0f558302b27 selinux: move initcalls to the LSM framework
+4ab5efcc2829a38a3adcfdd9cd0c0e0eb6fb6939 lsm: consolidate all of the LSM framework initcalls
+dfa024bc3f67a97e1a975dd66b83af8b3845eb19 lsm: add a LSM_STARTED_ALL notification event
 
---===============8462109626091901243==
+--===============1710532271616578224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -775,4 +812,4 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 
---===============8462109626091901243==--
+--===============1710532271616578224==--
