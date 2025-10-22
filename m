@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Wed, 22 Oct 2025 20:49:22 -0000
-Message-Id: <176116616275.1794359.9251699259983856027@gitolite.kernel.org>
+Date: Wed, 22 Oct 2025 20:50:59 -0000
+Message-Id: <176116625981.1796953.15902619276910289632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: dab3ee4e2f3d517a56d44ab5380eb5b4a200c5bb
-    new: 63ef7916002c4c71e018ac3c3aa49980b1ab7c96
+    old: 63ef7916002c4c71e018ac3c3aa49980b1ab7c96
+    new: 54927108014ab77998b959ab5c40e9d4d3dd6f6b
     log: |
-         96ab9efc4fc66c14e6dc2939a90d29c4c5c0677b fix(cli):  cache file issues
-         63ef7916002c4c71e018ac3c3aa49980b1ab7c96 refactor: cleanup error handling
+         54927108014ab77998b959ab5c40e9d4d3dd6f6b refactor: cleanup error handling
          
