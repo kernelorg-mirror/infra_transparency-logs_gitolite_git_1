@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Wed, 22 Oct 2025 08:03:35 -0000
-Message-Id: <176112021595.1124688.15438552562185899160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 22 Oct 2025 08:04:37 -0000
+Message-Id: <176112027745.1126094.18097978663295883307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: mkorenbl
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/fixes
-    old: 77e67d5daaf155f7d0f99f4e797c4842169ec19e
-    new: 3802f25a6b5d3dc2eb1900aff2cd11cf5a05b346
+  - ref: refs/heads/next-rc
+    old: 0f41997b1b2b769b73415512d2afaae80630e4fe
+    new: f477af0cfa0487eddec66ffe10fd9df628ba6f52
     log: |
-         3802f25a6b5d3dc2eb1900aff2cd11cf5a05b346 wifi: iwlwifi: fix aux ROC time event iterator usage
+         bd721ec7dedcc24ced51559e42a39140b59dfd08 xfs: don't set bt_nr_sectors to a negative number
+         630785bfbe12c3ee3ebccd8b530a98d632b7e39d xfs: always warn about deprecated mount options
+         3e7ec343f066cb3b6916239680ab6ad44537b453 xfs: loudly complain about defunct mount options
+         f477af0cfa0487eddec66ffe10fd9df628ba6f52 xfs: fix locking in xchk_nlinks_collect_dir
          
