@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 22 Oct 2025 16:03:32 -0000
-Message-Id: <176114901263.1545615.10578155907802668864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 22 Oct 2025 16:12:14 -0000
+Message-Id: <176114953459.1553696.10590058612359979834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/usb-linus
-    old: 71c07570b918f000de5d0f7f1bf17a2887e303b5
-    new: 89205c60c0fc96b73567a2e9fe27ee3f59d01193
+  - ref: refs/heads/dev
+    old: 63162810c64fb2a83c7e0a741a127cc7ad43bc8c
+    new: 65ae2c252217fd1fcb6b8b20e68831105f39edf6
     log: |
-         89205c60c0fc96b73567a2e9fe27ee3f59d01193 USB: serial: option: add Quectel RG255C
+         d215ae6edf3554aadfeb05338a23d1ec6a188a14 rcutorture: Permit kvm-again.sh to re-use the build directory
+         92d7803496b4eef5175add29a3924d63791773fa locktorture: Fix memory leak in param_set_cpumask()
+         9fd72c44f5f68dacfc12b0d4bd1d6aed76d1a9fd rcu: use WRITE_ONCE() for ->next and ->pprev of hlist_nulls
+         65ae2c252217fd1fcb6b8b20e68831105f39edf6 refscale: Add local_irq_disable() and local_irq_save() readers
          
