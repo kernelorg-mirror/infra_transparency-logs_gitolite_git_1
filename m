@@ -1,64 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2184663839793846955=="
+Content-Type: multipart/mixed; boundary="===============0012933919092473011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 22 Oct 2025 10:06:41 -0000
-Message-Id: <176112760163.1231010.6820365115735593427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 22 Oct 2025 10:07:08 -0000
+Message-Id: <176112762878.1231583.11482645662462819200@gitolite.kernel.org>
 
---===============2184663839793846955==
+--===============0012933919092473011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 0dac0b74c32a1cc55f508dd95478637b15f4fdb3
+  - ref: refs/heads/tty-testing
+    old: 18bdfccf3c30b208b65b890f75ecc76fcb79e224
+    new: b7cefdb6633824fc4f2e3165974b1aefc343f3b1
     log: |
-         0dac0b74c32a1cc55f508dd95478637b15f4fdb3 MAINTAINERS: Update Krzysztof Kozlowski's email
-         
-  - ref: refs/heads/for-next
-    old: 8ebc2add3e2d076adc5cc3e8c9bef268f7f1cb31
-    new: 73f7017e663620a616171cc80d62504a624dc4de
-    log: |
-         0dac0b74c32a1cc55f508dd95478637b15f4fdb3 MAINTAINERS: Update Krzysztof Kozlowski's email
-         73f7017e663620a616171cc80d62504a624dc4de Merge branch 'fixes' into for-next
+         d55f3d2375ceeb08330d30f1e08196993c0b6583 tty: serial: imx: Only configure the wake register when device is set as wakeup source
+         0cfadf4bcd283de6d5cb06748dfb1d65e993dbf9 tty: serial: imx: Add missing wakeup event reporting
+         b7cefdb6633824fc4f2e3165974b1aefc343f3b1 serial: 8250_pcilib: Replace deprecated PCI functions
          
 
---===============2184663839793846955==
+--===============0012933919092473011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1761127664 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1761127599-636788a053149f8bad148eb12df286a0b503be6e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761127690 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1761127625-2018c9ea4f3c3ec4d8e7271d2fc252cac915ea09
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 0dac0b74c32a1cc55f508dd95478637b15f4fdb3 refs/heads/fixes
-8ebc2add3e2d076adc5cc3e8c9bef268f7f1cb31 73f7017e663620a616171cc80d62504a624dc4de refs/heads/for-next
+18bdfccf3c30b208b65b890f75ecc76fcb79e224 b7cefdb6633824fc4f2e3165974b1aefc343f3b1 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmj4rPAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12DtD/9Q6An/+zaEcLuoyppeBkYvGxqft2iDCbGn
-4N8EBzzPOWVKn0sOp9zBcZxgK/DyKCnxtO3Y07KMmYkhQnVLDK5bTJlVajx6kiMQ
-tK4KeqI5uuSP6gXS3ocgQXKpiGXf/ROwAuaPJDOCuHw3DAHsNMDILFEnxLfIqYX3
-8NPZFPBDuIDI/UYnLjRbdwPbeYMt0SexQszonSnsOCUvkGswoqgD9KW80xQ9leRH
-T63SIA0zXDDLJpVVSyabduNmJZFF/g/31ftTTApchhv/6KDUtI314rTDRRC5ZUcI
-jowUsKeMi4jM95dfXubMhvJE54uRv7qDsJ3ijGBidWcPiYHoM/BV+m9WzMTnQmHr
-MIgvKmMXqrfVJvUHX/4RHg/jJFDrTqza5WE84ytpCRW2gR3XyrKWpQegYxESlTxC
-E0/vV4U5rFhmQDVYxiIBwv9bwqBrZ2YLvKh8lCMM1Y9atH4902gHtMQQAeulqBop
-PhSo60JSuiuVfFyAjVvAIq7SfRDy6AQDjGBwgA/vBpRvkOBWC72K4IyuPdB1O4hJ
-o0tM/iyqPeR+JG3p/mVuckyJEjY3nRlagDAk6GkNSupkVlWMc2z0or0ViLmgp3nN
-PKR2CFGsETQMiMQQbW55tx8dVXTa4tvmXIfHrDXtm+O2Tixd3fHz5QlKkmjg7iUA
-KfF28zL1nQ==
-=JYPL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj4rQobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qioP/0Tj74PUnq5AXVPkJFdm
+Z5deRZKg5I4iHm+K9CKk9Zz9pjDxiZMJLKSXPJ//Yu1GO1N8w80G2MgeBVuE6SH/
+eDz5aRJ/9Bh6MkvqHC2kJZreDxyDkzVGur56RNV+PB4k/jTv2awY94Pl9KqnT18Y
+GC4JHSOfxkKqmyleOuvScVWuhBESKHZUWReCW72L5uo0h4QlDDZsER0s3+A0vaNU
+xomAOPCcUpTwWZrU1VjdysjbdmrIN3o8ZvHq8BIPWlT3jHTrpgor4izcqacGDAYA
+6X4/QcSsoDWN9/+CAVd/bxlmHOFE/xaKKubaHzhpnz0t7dNMSE/luvWUq7iYqv6J
+quWovsP1dIUD1p+910bdRc9cuSfB+hx8ddqSlZq5C3yqQItIxTau4F+1WiGgPoE/
++56xLMJq8BIYram8CMjHT6gPgivrwJPuw46t1lEClVouZ0xTp7Ihv3Q5je6IX91A
+EwvwpFEQ+d3eUTbbY5YE8uLtqxi2FWlE47VeKiChxQC82kJlZ4U5nyXCLTHBFN8Z
+8B+tUt5WZiG2nq1xQGs3Tfk6rnscktZnwD0v6eV1IFtHCbSFmLtCnAWWx7SV6pPx
+NvjdCL04Ni8WWrUMxzGvanXkuFcmFZgGW4d+ZDZnM0OzpJi77YBUbmfYKABI+4ak
+Bpu4ys3XQvtLn/7cCZZ7qWZN
+=yKOj
 -----END PGP SIGNATURE-----
 
---===============2184663839793846955==--
+--===============0012933919092473011==--
