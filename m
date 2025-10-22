@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 22 Oct 2025 01:51:22 -0000
-Message-Id: <176109788206.814854.15091905712016390090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Wed, 22 Oct 2025 02:28:07 -0000
+Message-Id: <176110008739.843234.8274397692338089186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: ace01f57d31a8922b0101817958ab12112f83152
-    new: 63f373f73ce6ffea62c9dd03309a96bdebff7ff0
+    old: 2d744fbaa440c59572893c2b63f717c6e4662d5f
+    new: c3ddf45d9afaab85d3b7db0dc7bfd1aafb8fde50
     log: |
-         63f373f73ce6ffea62c9dd03309a96bdebff7ff0 foo
+         c3ddf45d9afaab85d3b7db0dc7bfd1aafb8fde50 libcap: Add build ldflags to _makenames rule
          
