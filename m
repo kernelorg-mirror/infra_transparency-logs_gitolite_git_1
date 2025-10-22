@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 22 Oct 2025 13:38:45 -0000
-Message-Id: <176114032580.1415630.17793103540399197359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 22 Oct 2025 13:41:38 -0000
+Message-Id: <176114049898.1419243.6411307744637109247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-6.19/block
-    old: e5a82249d88c7063c4ac998704b0ae5784013976
-    new: 5c5028ee594ce5f907ca6ad1c32cca6a15098464
+  - ref: refs/heads/master
+    old: f9dce2067c2d58fb9a3a06a2142866ac68c2d1b0
+    new: dc74e655038878e16215546e0c23b27917b0ab47
     log: |
-         5c5028ee594ce5f907ca6ad1c32cca6a15098464 block: rename min_segment_size
-         
-  - ref: refs/heads/for-next
-    old: a48f5bd65c39a00cf108e8177ad2c02f9fefc1bc
-    new: 6c0c4a7c79283e2d740d6073f1da25a880da7715
-    log: |
-         5c5028ee594ce5f907ca6ad1c32cca6a15098464 block: rename min_segment_size
-         6c0c4a7c79283e2d740d6073f1da25a880da7715 Merge branch 'for-6.19/block' into for-next
+         1a5264d0c46ec433b18dfc5dfe5133ac5318e699 Bluetooth: btusb: Add new VID/PID 2b89/6275 for RTL8761BUV
+         dc74e655038878e16215546e0c23b27917b0ab47 Bluetooth: btusb: Reclassify Qualcomm WCN6855 debug packets
          
