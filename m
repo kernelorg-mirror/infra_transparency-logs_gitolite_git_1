@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5452749216284129014=="
+Content-Type: multipart/mixed; boundary="===============8168981512270392462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 22 Oct 2025 20:30:30 -0000
-Message-Id: <176116503007.1780008.13441031544119509010@gitolite.kernel.org>
+Date: Wed, 22 Oct 2025 20:30:32 -0000
+Message-Id: <176116503233.1780091.7840508310238126867@gitolite.kernel.org>
 
---===============5452749216284129014==
+--===============8168981512270392462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 3ff9bcecce83f12169ab3e42671bd76554ca521a
     new: 962ac5ca99a5c3e7469215bf47572440402dfd59
     log: revlist-3ff9bcecce83-962ac5ca99a5.txt
 
---===============5452749216284129014==
+--===============8168981512270392462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ ca4709843b7e72f96976cd6b35bca148a4071673 net: dsa: tag_yt921x: add support for M
 91f76771dba0e5ec9ef74e55eb50f2855ce583a3 bnxt_en: support PPS in/out on all pins
 962ac5ca99a5c3e7469215bf47572440402dfd59 net: macb: Remove duplicate linux/inetdevice.h header
 
---===============5452749216284129014==--
+--===============8168981512270392462==--
