@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 23 Oct 2025 12:04:57 -0000
-Message-Id: <176122109756.2631867.13659159128236704865@gitolite.kernel.org>
+Date: Thu, 23 Oct 2025 12:05:18 -0000
+Message-Id: <176122111866.2633772.406366919869001141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-next
-    old: d5376026f9269601e239545e2ec4aea0cc62bf2a
-    new: 3233741c0be59dd224e797deb2dd1621695ac95c
+    old: 3233741c0be59dd224e797deb2dd1621695ac95c
+    new: 897396b418d1720aac39585b208aada708b5b433
     log: |
-         ed2bd02d24947e36c9438bee1449d9bf87671b16 gpio: regmap: Force writes for aliased data regs
-         3233741c0be59dd224e797deb2dd1621695ac95c gpio: regmap: Bypass cache for aliased inputs
+         897396b418d1720aac39585b208aada708b5b433 gpio: regmap: Bypass cache for aliased inputs
          
