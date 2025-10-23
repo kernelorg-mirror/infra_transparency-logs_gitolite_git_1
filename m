@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4802888447084124249=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 23 Oct 2025 14:19:12 -0000
-Message-Id: <176122915213.2752188.14512959919030338835@gitolite.kernel.org>
-
---===============4802888447084124249==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 23 Oct 2025 14:20:10 -0000
+Message-Id: <176122921069.2758735.18010335610751264749@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 0b277fdff054edd4c2c4f7b1f1a7a8f1c327c632
-    new: 1825a2bee1ea0cc9e4dfe5d47d738909c2cb7857
+  - ref: refs/heads/main
+    old: f7c877e7535260cc7a21484c994e8ce7e8cb6780
+    new: cb68d1e5c51870601be9394fbb5751fc6532c78e
     log: |
-         1825a2bee1ea0cc9e4dfe5d47d738909c2cb7857 Notes added by 'git notes add'
+         399d10934740ae8cdaa4e3245f7c5f6c332da844 net: phy: micrel: always set shared->phydev for LAN8814
+         b2284768c6b32aa224ca7d0ef0741beb434f03aa virtio-net: zero unused hash fields
+         bb65e0c141f879cdf54db11ae446ee3605fb54d5 net/mlx5: Add PPHCR to PCAM supported registers mask
+         d58a9a917aa39b10250ec16cb9c24e942cbc77d3 net/mlx5e: Skip PPHCR register query if not supported by the device
+         8f82f89550daafc8ca3ba74c389ae1b4afdd75c8 net/mlx5: Refactor devcom to return NULL on failure
+         664f76be38a18c61151d0ef248c7e2f3afb4f3c7 net/mlx5: Fix IPsec cleanup over MPV device
+         cb68d1e5c51870601be9394fbb5751fc6532c78e Merge branch 'mlx5-misc-fixes-2025-10-22'
          
-
---===============4802888447084124249==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761229215 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1761229150-011e9cf37680e20f50ba06ff033e61dd5aab7f6f
-
-0b277fdff054edd4c2c4f7b1f1a7a8f1c327c632 1825a2bee1ea0cc9e4dfe5d47d738909c2cb7857 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj6OZ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rkEP/21/sTUGCQpdpB1ZFDSx
-ncXnJ3TBToLSpF1VkcbIZQ1qf67OBB/DRz/LQmBmrVRMGHLuWSCyy3jWjUPX8XDA
-U/uTygs7nxAJwVr3D0YONcqtclIzK2lgJr0ymRyBHpsv3AzDd2MzBrOOKVjlEpkz
-YOP4vXIqIWfGylOtNA/oiEFAhLuN9Z0lNYoTrl4K618UotHWX3k63NCXHK3cpOr4
-Hk+40aMUYroF71YIjdy4go3ErWtOec8Lg3T5KaxVNiCRBFh6YDqopJ6QJmuhemTX
-KIhi6x1dCWE7PNA9qAdQMXxIQpJSHCt5UiP0BssGeTAtga6LExvDPcLjDJT30p8D
-tttslra30IeIPi+/T8eulNJlP/xYm8TSCApkq5Cde1nD8oE8Fts5ch/i31Ezn3wb
-uql0gG1RD4FRmzzs+TdlbDpDKGDHyTZ8XwPDEH5FYUAjQluXSuMtoCmGDY1v4mNV
-QZZtDHRH+nwVP/U9DAg5I46B5rac2wnDvwwxZMNkcEGllj/UeCOgnlQ7PCzOV9/4
-eO1zalHuzSSTJ7Aui2C9DOlvz1+nw/XFoCGxK3odI6M+lwEigPHlJcfUDaNHAQiW
-S9BqDFClz38j60t3bliqp13QUmTF22wLzTq7qujYcZp2Hb1cLsbq52Wi8pjliYp8
-3HM24DoDYr9GsktAyMKYBWzU
-=UBAC
------END PGP SIGNATURE-----
-
---===============4802888447084124249==--
