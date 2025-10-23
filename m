@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7732453859734618713=="
+Content-Type: multipart/mixed; boundary="===============2084470455405899925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 23 Oct 2025 18:09:28 -0000
-Message-Id: <176124296882.3113946.13516411594488253695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 23 Oct 2025 18:09:31 -0000
+Message-Id: <176124297183.3114059.2860761860250238504@gitolite.kernel.org>
 
---===============7732453859734618713==
+--===============2084470455405899925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 3293d3d7b08872cf174bb768b890655f1b22526a
     new: 61eb4112a8fbed999e3906a6c35e0731cf688c43
     log: |
          61eb4112a8fbed999e3906a6c35e0731cf688c43 ASoC: soc_sdw_utils: add cs35l57 support
          
 
---===============7732453859734618713==
+--===============2084470455405899925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761243031 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1761242966-85d78ed90f7af9d6443a407df47065c0b8232c84
+pusher C3F436CA30F5D8EB 1761243034 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761242969-082dd318b9f8d5e642d25410115df4e2cd70553d
 
-3293d3d7b08872cf174bb768b890655f1b22526a 61eb4112a8fbed999e3906a6c35e0731cf688c43 refs/heads/for-6.18
+3293d3d7b08872cf174bb768b890655f1b22526a 61eb4112a8fbed999e3906a6c35e0731cf688c43 refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj6b5cACgkQJNaLcl1U
-h9BnGQf+LG1u93ja3pGke3jI0HJRAiOpnmsO/DwvIG0IodMuqghk5kanD3usCSrN
-2W/kzQ8ZRf2gDO5KevrquzPgegYMJK+SJTUT0/u/Qb/QlTE5ppQtaF7XEgtAx/NI
-LX4lVRaUyqI2R5Y/FiTZT4kY1XCQqzjQ87GE27sFgj8xvvhfct0bHBceJhTSeGRS
-sRJZnrrA4b+O2ReEgQFvDW5YSU9oDn5P+WO4x0grQ13XYWxMp9H2sgO/IAUF59R7
-wEGo3t2qlEwuWxNQXLj1ERcwSgIPk4Mc3c8a0N3xBlZ3xh8wxnBXRxorEU2PCD0I
-/hW+DOCPrq7lHw/uscCuMyf/Yi/hPQ==
-=tayD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj6b5oACgkQJNaLcl1U
+h9CWeAf8DfopThsB/4hhFwD1jtl93NuLATIl1E6ekDa2zlEeNU3veTWlZZ7LsxfS
+EMIUhN5aO/Xj/kOg5fZiKTyzsEZPsvtoexZI59+r3aQKTRwB0WIsKWPa+AVXMwcG
+r+4jm+8/mUGQilB0sNyFpj0uiEzn7uU/C5e2PWEFyXFYIm9GqfIGZRzDP2rdisnF
+0e1JuPcbwU8xdHaPzXZEleTE4yFMzly1ptOIRcDhK2anOWy7asW3TZ+3CqLOaGQ3
+cQl5jnYCVJP055N5WUzJ5X0OV/j73K60ryueg3OJ3HqmGoovZswedffb0T5AIB6b
+Vw84rpSyv1IZSRFARFH8SeKSntJbDQ==
+=oQb8
 -----END PGP SIGNATURE-----
 
---===============7732453859734618713==--
+--===============2084470455405899925==--
