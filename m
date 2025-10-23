@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0766947106701796899=="
+Content-Type: multipart/mixed; boundary="===============4630176736745963806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 23 Oct 2025 00:42:26 -0000
-Message-Id: <176118014686.1999711.11423574724731904954@gitolite.kernel.org>
+Date: Thu, 23 Oct 2025 00:42:28 -0000
+Message-Id: <176118014844.1999898.17143526836543865577@gitolite.kernel.org>
 
---===============0766947106701796899==
+--===============4630176736745963806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 63f84ba525ea04ef376eac851efce2f82dd05f21
-    new: 2183c135f1550d85233cee150d7dec363a212740
-    log: revlist-63f84ba525ea-2183c135f155.txt
+  - ref: refs/heads/mm-unstable
+    old: ea3d6e0879a1b88d58ff1c3dda087e4a4215eb21
+    new: 5b5c3e53c939318f6a0698c895c7ec40758bff6a
+    log: revlist-ea3d6e0879a1-5b5c3e53c939.txt
 
---===============0766947106701796899==
+--===============4630176736745963806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63f84ba525ea-2183c135f155.txt
+Content-Disposition: attachment; filename=revlist-ea3d6e0879a1-5b5c3e53c939.txt
 
 0dbe59ee8d3eefc83288afb59e70afecc2565af8 mm/huge_memory: do not change split_huge_page*() target order silently
 cfaa891a3a20f448b8098b63cdfa4bf112aef5fb kho: warn and fail on metadata or preserved memory in scratch area
@@ -165,34 +165,5 @@ f2fc75a1f3ae132aad797ada8b84efed33d94b07 mm/vmalloc: use kmalloc_array() instead
 d85682a6512fca8da6e4c311e4eaaa1497f8afb5 mm-vmstat-fix-indentation-in-fold_diff-function-fix
 2a32afc98aa4043259d20e3d0c1520033d66ae0b mm/vmalloc: request large order pages from buddy allocator
 5b5c3e53c939318f6a0698c895c7ec40758bff6a memcg: manually uninline __memcg_memory_event
-fdd686801e59418ced9434dee1a10761958db705 iommu: disable SVA when CONFIG_X86 is set
-116899bcbebea8914342ce918e9a57f8b7503be9 mm: add a ptdesc flag to mark kernel page tables
-9b10a84dbec53323ded89bd9cf3ee4d802aba09e mm: actually mark kernel page table pages
-e261837cea38aaabfc5806ad68a72f56344725d6 x86/mm: use 'ptdesc' when freeing PMD pages
-bc447823b81341103f0babec70d12638aca11b2e mm: introduce pure page table freeing function
-3efd894bff6bf45a2c266f45a3c34f88688f4f23 x86/mm: use pagetable_free()
-07d076a0fb6b6ce72f273f2d1574e2b6610eef01 mm: introduce deferred freeing for kernel page tables
-61f8a0dc73577ad578cc4fdefe6c58d8400ee45f iommu/sva: invalidate stale IOTLB entries for kernel address space
-9def9a50771dc30c4e4918c188d8a6d61c1d4f5e khugepaged: rename hpage_collapse_* to collapse_*
-e3e6df506f0e13854e242b4a0354a66c6d573d94 introduce collapse_single_pmd to unify khugepaged and madvise_collapse
-8253d45cf6f88fef1a60f0b58e5f2e6c14943a43 khugepaged: generalize hugepage_vma_revalidate for mTHP support
-fe117eee2584b8c58fdc57ee6aeae6bb64b55de6 khugepaged: generalize alloc_charge_folio()
-9b752caae0ffadf52319ae5e0dcb55bd90f94cfe khugepaged: generalize __collapse_huge_page_* for mTHP support
-0f325770693ae7fdb0ba19166e3b08a1aea04149 khugepaged: introduce collapse_max_ptes_none helper function
-f28d0af4afd96c4c817e3e4daf866476087066fc khugepaged: generalize collapse_huge_page for mTHP collapse
-201484c3b22f1a118832fe0d37b8b8a3b9039281 khugepaged: skip collapsing mTHP to smaller orders
-4bed9907c8996bcc986c642b2083fd9d65ab27fd khugepaged: add per-order mTHP collapse failure statistics
-a9be751b041416269cbc47837e6f6bbd4f0bda16 khugepaged: improve tracepoints for mTHP orders
-468ef97a1c4e802b2c9d79a9510d5425e395ab9f khugepaged: introduce collapse_allowable_orders helper function
-8387af7962dd62a2a2cdb741e702b476da440ff0 khugepaged: introduce mTHP collapse support
-87e20c994e1fdb6595aea46726c79187530d08e0 khugepaged: avoid unnecessary mTHP collapse attempts
-cbbc7ebe48c5351372405eb2beab0b6852b910da khugepaged: run khugepaged for all orders
-8226835471293c8350bdc81da9d2b81ac577f8a7 Documentation: mm: update the admin guide for mTHP collapse
-0fac994f0f9b5c9d4d53079f173797d031e614b3 ksm: use range-walk function to jump over holes in scan_get_next_rmap_item
-735129bb71d4c65a37196d5ada2acb54306a3f89 mm/debug_vm_pgtable: add [pte|pmd]_mkwrite_novma() tests
-b1aeaf4154c2aa89e41cd74f737ae8fd862006c5 mm/huge_memory: avoid reinvoking folio_test_anon()
-a7a4b2deef201ec419b851fbb487a961166bb1a8 mm/huge_memory: update folio stat after successful split
-68f73cf2650fa07a50253fad7e62b7cd5ead6fb7 mm/huge_memory: optimize and simplify folio stat update after split
-2183c135f1550d85233cee150d7dec363a212740 mm/huge_memory: optimize old_order derivation during folio splitting
 
---===============0766947106701796899==--
+--===============4630176736745963806==--
