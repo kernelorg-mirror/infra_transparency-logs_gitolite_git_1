@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 23 Oct 2025 11:09:05 -0000
-Message-Id: <176121774581.2579961.1501175955736303076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 23 Oct 2025 11:10:08 -0000
+Message-Id: <176121780865.2583617.9118111950661467799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 86e735a9a1e4fc39814fa0bf5b96279afb94a326
-    new: ec076c48a85073e79485e8e81fd624810d6d143e
+    old: c0178eec8884231a5ae0592b9fce827bccb77e86
+    new: 10843e1492e474c02b91314963161731fa92af91
     log: |
-         c2087f880be123e23118b43f511329607762230d linux-firmware: update firmware for MT7920 WiFi device
-         ec076c48a85073e79485e8e81fd624810d6d143e Merge branch 'robot/patch-0-1761186139' into 'main'
+         10843e1492e474c02b91314963161731fa92af91 net: bonding: fix possible peer notify event loss or dup issue
          
