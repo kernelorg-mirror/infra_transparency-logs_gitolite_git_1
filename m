@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 23 Oct 2025 23:50:39 -0000
-Message-Id: <176126343985.3413402.2429828770632213308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 23 Oct 2025 23:53:16 -0000
+Message-Id: <176126359675.3414647.11416223478103763142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 266ee584e55eed108583ab4f45b5de734522502d
-    new: 5121062e83453221cca7bb1163fe9234757c1697
-    log: |
-         103541e6a5854b08a25e4caa61e990af1009a52e rv: Fully convert enabled_monitors to use list_head as iterator
-         3d62f95bd8450cebb4a4741bf83949cd54edd4a3 rv: Make rtapp/pagefault monitor depends on CONFIG_MMU
-         5121062e83453221cca7bb1163fe9234757c1697 Merge tag 'trace-rv-v6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
+  - ref: refs/heads/for-6.18
+    old: 61eb4112a8fbed999e3906a6c35e0731cf688c43
+    new: 6b03360fe9f4e6fd43419487d659c9bd26215953
