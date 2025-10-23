@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7952934645269896047=="
+Content-Type: multipart/mixed; boundary="===============2689239846258336838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 23 Oct 2025 16:20:58 -0000
-Message-Id: <176123645897.3018287.1894587755994436620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 23 Oct 2025 16:21:03 -0000
+Message-Id: <176123646311.3018444.12163749456864933474@gitolite.kernel.org>
 
---===============7952934645269896047==
+--===============2689239846258336838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regulator-6.18
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 211ddde0823f1442e4ad052a2f30f050145ccada
     log: revlist-3a8660878839-211ddde0823f.txt
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 5263cd81578f99a00b2dd7de1da2b570b96a1b7c
     new: d054cc3a2ccfb19484f3b54d69b6e416832dc8f4
     log: |
@@ -28,32 +28,32 @@ changes:
          d054cc3a2ccfb19484f3b54d69b6e416832dc8f4 regulator: rpmh-regulator: Add RPMH regulator support for PMR735D
          
 
---===============7952934645269896047==
+--===============2689239846258336838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761236521 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1761236456-561edc087a5cae15a0a7ee778a660dc50f277211
+pusher C3F436CA30F5D8EB 1761236525 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761236460-65bd42804daafcddd0a222bcff6b4602cc04ed6e
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 211ddde0823f1442e4ad052a2f30f050145ccada refs/heads/for-6.18
-5263cd81578f99a00b2dd7de1da2b570b96a1b7c d054cc3a2ccfb19484f3b54d69b6e416832dc8f4 refs/heads/for-6.19
+3a8660878839faadb4f1a6dd72c3179c1df56787 211ddde0823f1442e4ad052a2f30f050145ccada refs/heads/regulator-6.18
+5263cd81578f99a00b2dd7de1da2b570b96a1b7c d054cc3a2ccfb19484f3b54d69b6e416832dc8f4 refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj6VikACgkQJNaLcl1U
-h9A+zwf6AhZ5DDScBmyzdsAMJQi1SozVK1uEfuFnpj7RPCRZj01h56xO1trvKZ+/
-Ngb4tFqNvdgpUq6eECuU+Tn598tOyzKA46UdLFNN2Up8bzoN9CsS8TbD+IeTdMJK
-lRpH++kIM3ZdgCF4N7/Jx52XDt/84s4Dh9XcOuokT16doaBPwX9wfW65zo+pKmDE
-YWktI/f2RblFxOrUa3sIdvNqvN8B3uqWDXmZ/o7p7Q4g0vJHrTTVRMgsfKTbRE26
-dW2P3i5P6E9Qp0/tQeLo4EtlNNSfS8v6CY1sThxWiHaBU49lO5ColOq8yu1+yCWX
-mMbXR+0bEiehcl9dLIaOQKPwjN7rlA==
-=rk3U
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj6Vi0ACgkQJNaLcl1U
+h9Ceqgf9G9jSSCej+lSpmy0p1m0aVpORp8aXLaAqwT1judyboHSbmdBRsMnzHi2G
+9ketL+iFa7kTsNS6Q5zQysFygDGy5+fzl2tiUDchHhisEgE/oP3DHk5vZJ3rqVOP
+z7t90GYwxfBlFdBSlAkIZFtdSj/G8DZ2YEfdtVsxF7f+I/eDmK33SSZfO2Ys9/KY
+mrQfRZACBlDX47/dhEk7kRqIisUOKC5M6rJEWByg+qnRzL9QHKYdOJ+rP++K1Jod
+s/g3FDzT42aXSnfNk1oIoTVcT4rufWfahZxAUFuBvyz+UIg5QHfSU9FxfRt8Jpft
+cKvfG9PZ79g7bzTe734o3x1yhqL2Rg==
+=moNs
 -----END PGP SIGNATURE-----
 
---===============7952934645269896047==
+--===============2689239846258336838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -423,4 +423,4 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 
---===============7952934645269896047==--
+--===============2689239846258336838==--
