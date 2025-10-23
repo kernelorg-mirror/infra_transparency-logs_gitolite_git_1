@@ -1,63 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============6598471573279046376=="
+Content-Type: multipart/mixed; boundary="===============0697510674037855617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 23 Oct 2025 06:17:17 -0000
-Message-Id: <176120023737.2284565.2753628877493044849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 23 Oct 2025 06:24:37 -0000
+Message-Id: <176120067794.2290595.2988781536381574878@gitolite.kernel.org>
 
---===============6598471573279046376==
+--===============0697510674037855617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/tty-next
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
-    new: 7553f5173ec3f01d7452a80ba82bef60d3ba29b7
-    log: |
-         85f17e130dc7189acf03eb0f8e2455c4ea2c4f9e dt-bindings: serial: samsung: Add compatible for ARTPEC-9 SoC
-         fd3d4f5a62b1e2b0b4c3f16c2904b3af512648d6 dt-bindings: serial: samsung: add samsung,exynos8890-uart compatible
-         08a0dd5a465814233cf39a87bf746dc44d0ab571 serial: ar933x: Add polling support
-         18bdfccf3c30b208b65b890f75ecc76fcb79e224 tty: serial: fsl_lpuart: Add missing wakeup event reporting
-         d55f3d2375ceeb08330d30f1e08196993c0b6583 tty: serial: imx: Only configure the wake register when device is set as wakeup source
-         0cfadf4bcd283de6d5cb06748dfb1d65e993dbf9 tty: serial: imx: Add missing wakeup event reporting
-         b7cefdb6633824fc4f2e3165974b1aefc343f3b1 serial: 8250_pcilib: Replace deprecated PCI functions
-         7553f5173ec3f01d7452a80ba82bef60d3ba29b7 selftests/tty: add TIOCSTI test suite
-         
+  - ref: refs/heads/master
+    old: dd72c8fcf6d35de5d6d976f20dc1ae84ce7af08b
+    new: 43e9ad0c55a369ecc84a4788d06a8a6bfa634f1c
+    log: revlist-dd72c8fcf6d3-43e9ad0c55a3.txt
 
---===============6598471573279046376==
+--===============0697510674037855617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-dd72c8fcf6d3-43e9ad0c55a3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761200301 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1761200236-3b07d6618283873d005f7f05182d438de90188dd
+b69ffeaa0ae43892683113b3f4ddf156398738b9 scsi: storvsc: Prefer returning channel with the same CPU as on the I/O issuing CPU
+987da233b2982c686a8ea5cd4c76f0bd5e957ee3 scsi: qla4xxx: Fix typos in comments
+120642726ecb1b7a266f5c21bec90821e1154509 scsi: libfc: Prevent integer overflow in fc_fcp_recv_data()
+6dfc353af575e33c94f5d740f7b0569fa9b784d9 scsi: ufs: qcom: dt-bindings: Document the Kaanapali UFS controller
+7c3321f3d279eda7f7d622312ffdbb889f3bec97 scsi: ufs: phy: dt-bindings: Add QMP UFS PHY compatible for Kaanapali
+48277906603528a1fd1946bf0f141b2fd4f84e46 Merge branch '6.18/scsi-queue' into 6.18/scsi-fixes
+c97513cddcfc235f2522617980838e500af21d01 hung_task: fix warnings caused by unaligned lock pointers
+f0c5118ebb0eb7e4fd6f0d2ace3315ca141b317f mm/damon/sysfs: catch commit test ctx alloc failure
+139e7a572af0b45f558b5e502121a768dc328ba8 mm/damon/sysfs: dealloc commit test ctx always
+03521c892bb8d0712c23e158ae9bdf8705897df8 dma-debug: don't report false positives with DMA_BOUNCE_UNALIGNED_KMALLOC
+c83aab85e18103a6dc066b4939e2c92a02bb1b05 mm: don't spin in add_stack_record when gfp flags don't allow
+78a63493f8e352296dbc7cb7b3f4973105e8679e ocfs2: clear extent cache after moving/defragmenting extents
+841a8bfcbad94bb1ba60f59ce34f75259074ae0d mm: prevent poison consumption when splitting THP
+0e59f47c15cec4cd88c51c5cda749607b719c82b mm/mremap: correctly account old mapping after MREMAP_DONTUNMAP remap
+c3fa5b1bfd8380d935fa961f2ac166bdf000f418 mm/damon/core: fix list_add_tail() call on damon_call()
+4ba5a8a7faa647ada8eae61a36517cf369f5bbe4 vmw_balloon: indicate success when effectively deflating during migration
+cec944dd329fbefee907da95c298719d900d4787 hugetlbfs: move lock assertions after early returns in huge_pmd_unshare()
+7071537159be845a5c4ed5fb7d3db25aa4bd04a3 mm/damon/core: fix potential memory leak by cleaning ops_filter in damon_destroy_scheme
+7eca961dd7188f20fdf8ce9ed5018280f79b2438 mm/damon/core: use damos_commit_quota_goal() for new goal commit
+9aa12167ef1149d9980713b120ddcb31cf17222d csky: abiv2: adapt to new folio flags field
+0f3ad9c6105f32d1755c0bd54a7f98c892f3ceb7 Merge tag 'mm-hotfixes-stable-2025-10-22-12-43' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+43e9ad0c55a369ecc84a4788d06a8a6bfa634f1c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
-211ddde0823f1442e4ad052a2f30f050145ccada 7553f5173ec3f01d7452a80ba82bef60d3ba29b7 refs/heads/tty-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj5yK0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TvIP/A8N8pnQuXwN32Q65nOZ
-3Z4ci0urj0Qmxi1ViFKPtCBvd3ODWbPqRPkdWBBfrYQRtmfBMQ7b+X1g20g/RJ4g
-ZKMnRENQbhGTvS7FjQ2GXEZ1bEaD2urAtYrfy/MkHlBp531qPT546mXoaSgFwilo
-/LYg0r3rV55yRVSK/EH2+FVAxWGqItV8Q1G9o2YOhgDxObF6Gs2ipB3mOGTYPEJE
-ShaMa4rsXz3hp0NyBbcEX3dSpRhJIgVb7On7fhkaMhT0pRmnvyN8CEG9E2ZcVo3M
-iNVDXjFthwyQzYG13yi/mUiINiwiI68wtLX/L7EkiNaoR6rTB37YHAVuZqBwxhkd
-k2lYZb6v8RSAzDqHW9HeCd/3UuP5Hfj99TSMzib7zl1uIQMO0iWrq87UpGI/lTDT
-DBYFvAbLKFHPPYuTHgbY39AU2akLc932biDWzVeOMjfRUaSuYZoiv8c5CWvvgIP9
-/uhaZp3jU56IrnjQCQkEPAZpMyFpW30DyNkR9Q/QzmSSuRxp6xfTsrS2YQWWF0bh
-BoNWn7BqWk7KQe9XPcMpYmd4A8BxxPZyoLOAIk6ovNKR304J3lXUonGCjxY9s5dk
-XyFgEqh3Op4xejl58bCKJhYUv2K01AeUgxslW/y2s05Hx5tgKhRVEQE1Hny4hY75
-eZhfaGQJ2+smtQ5DLNKzyy9W
-=ebOd
------END PGP SIGNATURE-----
-
---===============6598471573279046376==--
+--===============0697510674037855617==--
