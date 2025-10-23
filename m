@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4949211342203236348=="
+Content-Type: multipart/mixed; boundary="===============6571655783571002162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 23 Oct 2025 04:02:58 -0000
-Message-Id: <176119217819.2175153.1034533388746651806@gitolite.kernel.org>
+Date: Thu, 23 Oct 2025 04:02:59 -0000
+Message-Id: <176119217985.2175266.13781530932661391048@gitolite.kernel.org>
 
---===============4949211342203236348==
+--===============6571655783571002162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-6.19
-    old: 8abe970efea56f44773713cf91032cd2fd4d8c01
-    new: 415aad75c7e5cdb72e0672dc1159be1a99535ecd
-    log: revlist-8abe970efea5-415aad75c7e5.txt
-  - ref: refs/heads/drivers-for-6.19
-    old: edd548dc64a699d71ea4f537f815044e763d01e1
-    new: 2286e18e3937c69cc103308a8c1d4898d8a7b04f
-    log: |
-         6773cb33e7a7191ae7ae490af279596c91a828cc soc: qcom: pmic_glink: Add support for SOCCP remoteproc channels
-         f5f1e5abb649d0a532ebc72f4196b4818585d20b dt-bindings: cache: qcom,llcc: Document the Kaanapali LLCC
-         c88b6ee3ba3c7bf6386ea0e6de8111acc3d832bc soc: qcom: llcc-qcom: Add support for Kaanapali
-         b5c16ea57b030b8e9428ec726e26219dfe05c3d9 soc: qcom: ocmem: fix device leak on lookup
-         94124bf253d24b13e89c45618a168d5a1d8a61e7 soc: qcom: pbs: fix device leak on lookup
-         abac241e1d5da20332160b29b23f357016abe3e1 soc: qcom: socinfo: arrange the socinfo_image_names array in alphabetical order
-         dcbce2c23e5edcba2ac538e7a53d0e3d1a21f975 soc: qcom: socinfo: add the missing entries to the smem image table
-         2286e18e3937c69cc103308a8c1d4898d8a7b04f soc: qcom: gsbi: fix double disable caused by devm
-         
-  - ref: refs/heads/arm64-fixes-for-6.18
-    old: 0000000000000000000000000000000000000000
-    new: 28803705b552a0a711fa849490f14dca2bc5296e
-  - ref: refs/heads/arm64-for-6.19
-    old: 0000000000000000000000000000000000000000
-    new: c352f94002ad3fff2a01ced66edb97e73a625bdf
+  - ref: refs/heads/for-next
+    old: ae17b8af6f4a5880a026363edb053d2438cfa960
+    new: 68fde90d39c394bff4148cf250fddc6dbe2ce155
+    log: revlist-ae17b8af6f4a-68fde90d39c3.txt
 
---===============4949211342203236348==
+--===============6571655783571002162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8abe970efea5-415aad75c7e5.txt
+Content-Disposition: attachment; filename=revlist-ae17b8af6f4a-68fde90d39c3.txt
 
+28803705b552a0a711fa849490f14dca2bc5296e arm64: dts: qcom: ipq5424: correct the TF-A reserved memory to 512K
+fcf8517850bf8f015bb7308c8520375938caea5c arm64: dts: qcom: x1e80100: Extend the gcc input clock list
+e38c92b8770038153045b97955988d06cb9567f9 arm64: dts: qcom: msm8916-samsung-rossa: Move touchscreen to common device tree
+78473494a7bc7f4a10c4948e10ca95b4419cb1be arm64: dts: qcom: pmi8950: Add missing VADC channels
+c26a725087b00c8b9d67ab7cf983c2a26d4b6f56 arm64: dts: qcom: pmi8950: Fix VADC channel scaling factors
+30f89840f1d95f98b18882975487ff4ea90c96a4 arm64: dts: qcom: apq8096-db820c: Specify zap shader location
 d8f1121ebf4036884fc9ab1968f606523dd1c1fe clk: qcom: camcc-sm8550: Specify Titan GDSC power domain as a parent to other
 a76ce61d7225934b0a52c8172a8cd944002a8c6f clk: qcom: camcc-sm6350: Specify Titan GDSC power domain as a parent to other
 ee2867ca99e2b5b6788ff421f7e784d9a0da426f clk: qcom: camcc-sdm845: Specify Titan GDSC power domain as a parent to other
@@ -55,6 +42,7 @@ fc3985b21f86db33e4ec8a820d211e4e505c9048 clk: qcom: camcc-sm8250: Specify Titan 
 e090dc10c65eac35dcdb7c1b9cd6adcf0b590d3a dt-bindings: clock: dispcc-sm6350: Add MDSS_CORE & MDSS_RSCC resets
 ff71d2d85de70ac7aa86f914ff87fb460ab8d14a Merge branch '20250919-sm6350-mdss-reset-v1-1-48dcac917c73@fairphone.com' into clk-for-6.19
 502099e9c832c95b485835ff58a5f735d9d956a1 clk: qcom: dispcc-sm6350: Add MDSS_CORE & MDSS_RSCC resets
+c352f94002ad3fff2a01ced66edb97e73a625bdf Merge branch '20250919-sm6350-mdss-reset-v1-1-48dcac917c73@fairphone.com' into arm64-for-6.19
 2238840342af8e8d37a9355f0a2ad4285c32f854 dt-bindings: clock: sm7150-dispcc: Add MDSS_CORE reset
 e3e5eb9c2fac124287363b105a3436b9921f7249 Merge branch '20250919-sm7150-dispcc-fixes-v1-1-308ad47c5fce@mainlining.org' into clk-for-6.19
 176465fd8c4e2cbb4410b5a66f6ba74ed491d2a5 clk: qcom: dispcc-sm7150: Add MDSS_CORE reset
@@ -77,5 +65,14 @@ d08882c66d7a929c321cfaca9dee64e40eba3bd2 clk: qcom: gcc-ipq5424: Add gpll0_out_a
 fd0b632efbbdf427678a7a880abeb828bc4633fe clk: qcom: Add NSS clock controller driver for IPQ5424
 ab0e13141d679fdffdd3463a272c5c1b10be1794 clk: qcom: camcc-sm6350: Fix PLL config of PLL2
 415aad75c7e5cdb72e0672dc1159be1a99535ecd clk: qcom: camcc-sm7150: Fix PLL config of PLL2
+6773cb33e7a7191ae7ae490af279596c91a828cc soc: qcom: pmic_glink: Add support for SOCCP remoteproc channels
+f5f1e5abb649d0a532ebc72f4196b4818585d20b dt-bindings: cache: qcom,llcc: Document the Kaanapali LLCC
+c88b6ee3ba3c7bf6386ea0e6de8111acc3d832bc soc: qcom: llcc-qcom: Add support for Kaanapali
+b5c16ea57b030b8e9428ec726e26219dfe05c3d9 soc: qcom: ocmem: fix device leak on lookup
+94124bf253d24b13e89c45618a168d5a1d8a61e7 soc: qcom: pbs: fix device leak on lookup
+abac241e1d5da20332160b29b23f357016abe3e1 soc: qcom: socinfo: arrange the socinfo_image_names array in alphabetical order
+dcbce2c23e5edcba2ac538e7a53d0e3d1a21f975 soc: qcom: socinfo: add the missing entries to the smem image table
+2286e18e3937c69cc103308a8c1d4898d8a7b04f soc: qcom: gsbi: fix double disable caused by devm
+68fde90d39c394bff4148cf250fddc6dbe2ce155 Merge branches 'arm64-fixes-for-6.18', 'arm64-for-6.19', 'clk-for-6.19' and 'drivers-for-6.19' into for-next
 
---===============4949211342203236348==--
+--===============6571655783571002162==--
