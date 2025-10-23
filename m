@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============6543067838785830777=="
+Content-Type: multipart/mixed; boundary="===============6598471573279046376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 23 Oct 2025 05:45:45 -0000
-Message-Id: <176119834584.2260030.4069998833309975485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 23 Oct 2025 06:17:17 -0000
+Message-Id: <176120023737.2284565.2753628877493044849@gitolite.kernel.org>
 
---===============6543067838785830777==
+--===============6598471573279046376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 61d68f1b87db861f8461378834ad04e2001509c0
-    new: 303734751ed997061658b49c37bb9f7d5809b08c
+  - ref: refs/heads/tty-next
+    old: 211ddde0823f1442e4ad052a2f30f050145ccada
+    new: 7553f5173ec3f01d7452a80ba82bef60d3ba29b7
     log: |
-         303734751ed997061658b49c37bb9f7d5809b08c reject CVE-2023-53701 as it is a duplicate.
+         85f17e130dc7189acf03eb0f8e2455c4ea2c4f9e dt-bindings: serial: samsung: Add compatible for ARTPEC-9 SoC
+         fd3d4f5a62b1e2b0b4c3f16c2904b3af512648d6 dt-bindings: serial: samsung: add samsung,exynos8890-uart compatible
+         08a0dd5a465814233cf39a87bf746dc44d0ab571 serial: ar933x: Add polling support
+         18bdfccf3c30b208b65b890f75ecc76fcb79e224 tty: serial: fsl_lpuart: Add missing wakeup event reporting
+         d55f3d2375ceeb08330d30f1e08196993c0b6583 tty: serial: imx: Only configure the wake register when device is set as wakeup source
+         0cfadf4bcd283de6d5cb06748dfb1d65e993dbf9 tty: serial: imx: Add missing wakeup event reporting
+         b7cefdb6633824fc4f2e3165974b1aefc343f3b1 serial: 8250_pcilib: Replace deprecated PCI functions
+         7553f5173ec3f01d7452a80ba82bef60d3ba29b7 selftests/tty: add TIOCSTI test suite
          
 
---===============6543067838785830777==
+--===============6598471573279046376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761198407 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1761198342-6e8ee01c42129cf0069a54d4e4fb2afe15e4ce24
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761200301 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1761200236-3b07d6618283873d005f7f05182d438de90188dd
 
-61d68f1b87db861f8461378834ad04e2001509c0 303734751ed997061658b49c37bb9f7d5809b08c refs/heads/master
+211ddde0823f1442e4ad052a2f30f050145ccada 7553f5173ec3f01d7452a80ba82bef60d3ba29b7 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj5wUcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ES8P/2p2Bo6tq1pJPHaKNs1m
-wCoixcI+qWnomA5mON/WQ4/bb7n2i/5kH1er6nZSEMBvcJVpfAA0cEevq54CPGqU
-Kvqx8DtAHiapDzxwV9pksCU4jZPA2P3oMKtF+3s5XiciPo3M8jVlXvJzWYWQCh++
-ONBhJSC52EUq47+Ta159M8QA5UZhqlUUpFaOS+Ep6+RWc43DjowudCgCKWC4F97M
-Pjn20UMiCUu/TiyNccTc6YVwPBdL+ageQBR0F2kg/GCMwk6IEExNrQ+sOVKSp9k4
-rZqU1L74tkxevnvE1fxPq9g8GfvQN0oRWuUw3Ai/mgmMqe+eC8eGb9U2rY/6oVK2
-8G2ITkvc818DAepLg/FqWadrHbwly8tAX4xPAyq1GXJsL++FsoIg/EOp1rie5qzH
-7qRjO0mqxK0Yj3+juc2CFq8be2bMt+xpCLGznfcLul9Z2SV1mS07G1IlicTLxFNi
-sRbPWBQNrtzJLawfOe6yZ2e7MqvbwgTDniLNe8xx71ubq0s5AbevgYqTyyUhw1/h
-M9h3IJpV81yLsDIdczFPOl7zVOOTySmY9KrCG5/KH2e0LhR1ybVrSqIlPm244oVK
-JW8OcQUjIMQNXkidzpQiY4hBsUokThobNVljVkmJsvBK5CYF1pvWQ+ZRqYs4O2c2
-nzoxb6gUxXTr8fREvr7EqYUu
-=ODYG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj5yK0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TvIP/A8N8pnQuXwN32Q65nOZ
+3Z4ci0urj0Qmxi1ViFKPtCBvd3ODWbPqRPkdWBBfrYQRtmfBMQ7b+X1g20g/RJ4g
+ZKMnRENQbhGTvS7FjQ2GXEZ1bEaD2urAtYrfy/MkHlBp531qPT546mXoaSgFwilo
+/LYg0r3rV55yRVSK/EH2+FVAxWGqItV8Q1G9o2YOhgDxObF6Gs2ipB3mOGTYPEJE
+ShaMa4rsXz3hp0NyBbcEX3dSpRhJIgVb7On7fhkaMhT0pRmnvyN8CEG9E2ZcVo3M
+iNVDXjFthwyQzYG13yi/mUiINiwiI68wtLX/L7EkiNaoR6rTB37YHAVuZqBwxhkd
+k2lYZb6v8RSAzDqHW9HeCd/3UuP5Hfj99TSMzib7zl1uIQMO0iWrq87UpGI/lTDT
+DBYFvAbLKFHPPYuTHgbY39AU2akLc932biDWzVeOMjfRUaSuYZoiv8c5CWvvgIP9
+/uhaZp3jU56IrnjQCQkEPAZpMyFpW30DyNkR9Q/QzmSSuRxp6xfTsrS2YQWWF0bh
+BoNWn7BqWk7KQe9XPcMpYmd4A8BxxPZyoLOAIk6ovNKR304J3lXUonGCjxY9s5dk
+XyFgEqh3Op4xejl58bCKJhYUv2K01AeUgxslW/y2s05Hx5tgKhRVEQE1Hny4hY75
+eZhfaGQJ2+smtQ5DLNKzyy9W
+=ebOd
 -----END PGP SIGNATURE-----
 
---===============6543067838785830777==--
+--===============6598471573279046376==--
