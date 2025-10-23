@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8838057579276227705=="
+Content-Type: multipart/mixed; boundary="===============3662930696429713848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Thu, 23 Oct 2025 16:45:27 -0000
-Message-Id: <176123792768.3039658.6498383041712547774@gitolite.kernel.org>
+Date: Thu, 23 Oct 2025 16:45:54 -0000
+Message-Id: <176123795487.3040021.17445893340762691473@gitolite.kernel.org>
 
---===============8838057579276227705==
+--===============3662930696429713848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: f46c3365836ae512df5c888ab120c25d8dfe5998
+  - ref: refs/heads/master
+    old: 3bd49149dae7237b931b09d87d00b2aef8f7af93
     new: fa02bbaa8909f185dc036247adbee70cf4452a3d
-    log: revlist-f46c3365836a-fa02bbaa8909.txt
+    log: revlist-3bd49149dae7-fa02bbaa8909.txt
 
---===============8838057579276227705==
+--===============3662930696429713848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f46c3365836a-fa02bbaa8909.txt
+Content-Disposition: attachment; filename=revlist-3bd49149dae7-fa02bbaa8909.txt
 
+7940c4420b5dc0ea61c5297059b61d92dbebc018 f2fs-tools: remove unnecessary alignment for blocks_for_ssa
+4cf123276cca541085e746278a408d8e66cfde8b README: fix build instruction
+72da0375e98ed21e9f8ba1be8ee48624b29ed92d fsck.f2fs: recognize STOP_CP_REASON_CORRUPTED_NID
+a81f507616dda447fa9021b4601167590b06faa6 inject.f2fs: support inject inode.i_xattr_nid
+f84c91af80f11b8b48e44bdbeb40445bd0904c0d resize.f2fs: print resize size
+5f48720c71e0a8545ee7aac01d390622691f142b f2fs_io: measure a fsync latency
+60385790d515000e4382477afbfbc4ed56125f4f f2fs_io: measure atomic operation latency with random write
+40a14ace4533c22d4b7e363c0edafee49c45dae9 f2fs_io: add mlock to measure the read speed
+3770cac99729191a84e24f47617cdcf5da0ac472 f2fs_io: add dontcache to measure RWF_DONTCACHE speed
+f46c3365836ae512df5c888ab120c25d8dfe5998 f2fs_io: let's try to get contigous memory if possible
 615036fbc4e6c471a83663c30d689620cb36d574 f2fs_io: calculate IO bandwidth vs. mlock latency
 3e7ab52999a718a206c6831634c8aba5123a0302 fsck.f2fs: do not finish/reset zone if dry-run is true
 5b47f954317886e8f39f7db7e6074de0fe9c16b5 f2fs-tools: add option N to answer no for all questions
@@ -41,4 +51,4 @@ cc220301ba7d2a483cc08e05362d46fd2f032b93 f2fs-tools: add and export lookup_sit_i
 fb9e7a8b4d3ff6590a58caece1ef204475f55088 inject.f2fs: add members in inject_node
 fa02bbaa8909f185dc036247adbee70cf4452a3d inject.f2fs: add member `filename' in inject_dentry
 
---===============8838057579276227705==--
+--===============3662930696429713848==--
