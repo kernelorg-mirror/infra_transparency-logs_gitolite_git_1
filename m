@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 23 Oct 2025 01:28:49 -0000
-Message-Id: <176118292959.2043505.7000536002698413691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Thu, 23 Oct 2025 01:37:30 -0000
+Message-Id: <176118345072.2052670.3984590178534617697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 962ac5ca99a5c3e7469215bf47572440402dfd59
-    new: 26ab9830beabda863766be4a79dc590c7645f4d9
+  - ref: refs/heads/0.11.x
+    old: a4ec299f57436016a4413a443f773e9b1e44c5b3
+    new: db84d46269308021e4bd713bf48ce4d99460835a
     log: |
-         26ab9830beabda863766be4a79dc590c7645f4d9 net: stmmac: replace has_xxxx with core_type
+         db84d46269308021e4bd713bf48ce4d99460835a refactor(buffer): convert to TPM2B on-wire format
          
