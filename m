@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Thu, 23 Oct 2025 20:44:23 -0000
-Message-Id: <176125226352.3249657.5481745058230394437@gitolite.kernel.org>
+Date: Thu, 23 Oct 2025 20:47:10 -0000
+Message-Id: <176125243088.3252719.4565233115483502152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
 user: linusw
 changes:
-  - ref: refs/heads/gemini-ethernet
-    old: 0d4a64034a2ef90e637b31ae3e6b4644033dd86b
+  - ref: refs/heads/gemini-fixes
+    old: 9aeec4e0b1cc7008fdff8d8c3e0ab2e771cb1158
     new: 0000000000000000000000000000000000000000
