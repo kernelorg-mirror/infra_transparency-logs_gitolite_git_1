@@ -1,21 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 23 Oct 2025 12:14:35 -0000
-Message-Id: <176122167542.2640596.16321630107684648062@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2716993707660868191=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 23 Oct 2025 12:17:17 -0000
+Message-Id: <176122183769.2643478.17653497094741275301@gitolite.kernel.org>
+
+--===============2716993707660868191==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/ari_no_bus_dev
-    old: ef47d9e4fbab2df192a355d1e711b839b60c66ce
-    new: b90b0c5d17b0da082d1cd1ed682d64ef67d6e26c
+  - ref: refs/heads/slab/for-next-fixes
+    old: 263c1b0a608cbe5ccf5d432d543c006695e3efa9
+    new: 9a56517caf117e639035363826d3dcb4bf1800fb
     log: |
-         25b3fd4140b3e25423a54d91975c339a2b41c2bc PCI: Fix isolated function probing and enable ARI for s390
-         ceb465730d3f7426381b9dc695c5e859f67a9f96 PCI: Fix isolated PCI function probing with ARI and SR-IOV
-         b90b0c5d17b0da082d1cd1ed682d64ef67d6e26c PCI: s390: Handle ARI on bus without associated struct pci_dev
+         9a56517caf117e639035363826d3dcb4bf1800fb slab: fix slab accounting imbalance due to defer_deactivate_slab()
          
+
+--===============2716993707660868191==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1761221897 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1761221832-dd1c26a6f6b4b0495edd7f51b874d61d8d28c010
+
+263c1b0a608cbe5ccf5d432d543c006695e3efa9 9a56517caf117e639035363826d3dcb4bf1800fb refs/heads/slab/for-next-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmj6HQkbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiagY4H/RrBjG/aGz38rMw8JgNh
+rNj1tUUjCZ6CmuuxMwVY/rXbUeFEplMCZwp6H4F09n8+I2mk+NKgwhkun+gvXghs
+g8BiVxLhRKr8sw0Y3gx4+PDOKwFqEpxhMBcI2zTt57BM1qkUQGm7XqeTaGidMZ2S
+Hb3SV1u+EOOvCLghMd4Ltdsu32qZEtXSZGSDpjzwVvZLOI1u/FnCeQqYWy24ZlDJ
+8O/FUelPisyNBhFAGVLGN+58F8scypzg4SbDqnQ4jqPQRHUPx+O0CNUv+N+h9pb6
+5T4SnPsBRs3Fu7vn2yM8g39p3S+WvRu5QvcgkKq7oTKQSKJLRgRvYnTVXvr5Myw/
+6ME=
+=npC3
+-----END PGP SIGNATURE-----
+
+--===============2716993707660868191==--
