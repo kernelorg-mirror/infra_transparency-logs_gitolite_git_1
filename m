@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 23 Oct 2025 22:56:07 -0000
-Message-Id: <176126016770.3367833.2182126074043724802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 23 Oct 2025 23:14:37 -0000
+Message-Id: <176126127731.3381865.15034755445287184530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/kbuild-fixes
-    old: a16758f0142ab10ad6cd1f8ecec8f9fd379fa6c5
-    new: 3423b2866797c42a856b0325c70c2755b454902f
+  - ref: refs/heads/dev
+    old: e30cfac822c75c1e3e7f8d8fe33cbef76d693b7d
+    new: 04923cdeee9c10594c7c3fee673e276b308346bd
     log: |
-         dfab67879bed6800cc512e320167b969ebc6d5a9 MAINTAINERS: Update Kconfig section
-         3423b2866797c42a856b0325c70c2755b454902f KMSAN: Restore dynamic check for '-fsanitize=kernel-memory'
+         16a844cf0daef1e6303da4eb7a3522c36fd8dba3 refscale: Add non-atomic per-CPU increment readers
+         04923cdeee9c10594c7c3fee673e276b308346bd torture: Permit negative kvm.sh --kconfig numberic arguments
          
