@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7147246363502899184=="
+Content-Type: multipart/mixed; boundary="===============3251637135284007024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 23 Oct 2025 07:15:13 -0000
-Message-Id: <176120371388.2334488.10078616424060786231@gitolite.kernel.org>
+Date: Thu, 23 Oct 2025 07:15:50 -0000
+Message-Id: <176120375040.2334920.16993394341627293706@gitolite.kernel.org>
 
---===============7147246363502899184==
+--===============3251637135284007024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 498d0c5952c81b562523fca7d157be0702894ad5
-    new: 5d26e5c24a32bc15d1b1d6aa9a750632ecd49bca
-    log: revlist-498d0c5952c8-5d26e5c24a32.txt
+    old: 5d26e5c24a32bc15d1b1d6aa9a750632ecd49bca
+    new: db4bce9b769c5034f70cb16fcb1afe956fd7cc65
+    log: revlist-5d26e5c24a32-db4bce9b769c.txt
+  - ref: refs/heads/tip/urgent
+    old: 2837ca3d7d2e30d55e626b43b58b135fc37c4026
+    new: 596b40e5e421bb00673e7517549bbbd0143ec275
+    log: revlist-2837ca3d7d2e-596b40e5e421.txt
 
---===============7147246363502899184==
+--===============3251637135284007024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-498d0c5952c8-5d26e5c24a32.txt
+Content-Disposition: attachment; filename=revlist-5d26e5c24a32-db4bce9b769c.txt
+
+64ac8db29fb2777d2803eaba666e203ea421d9d8 Merge branch into tip/master: 'objtool/urgent'
+cbac92c956a1f1abb960217158bab5c61b7fa5b4 Merge branch into tip/master: 'sched/urgent'
+a756bbf95f897abae37dfad422d3ccee9ae94db7 Merge branch into tip/master: 'timers/urgent'
+596b40e5e421bb00673e7517549bbbd0143ec275 Merge branch into tip/master: 'x86/urgent'
+c655ce86552a76751ccee6b7e986983a9806ad0b Merge branch into tip/master: 'core/bugs'
+275592b2d04644876cb1f0354fb82aae73813de0 Merge branch into tip/master: 'irq/drivers'
+6b10a5ff3672ddd37d2bcd7599de6fee351ff6cb Merge branch into tip/master: 'irq/msi'
+59c0b89cb4374ac724ad135a9285300cb0a68bfe Merge branch into tip/master: 'locking/core'
+9ef57f0a1e6d02658df3e56fd470c9197f4eb9e0 Merge branch into tip/master: 'objtool/core'
+d188177092fc10f9f136da617f5f173b59fde852 Merge branch into tip/master: 'perf/core'
+34663a328b85f2aa882b14cadc145b9445269806 Merge branch into tip/master: 'sched/core'
+c28ace82ebcb6f5d2f44f19b60485a3b87d037e4 Merge branch into tip/master: 'x86/apic'
+21eb303f0bf593c9335d51bf1a78f38bc814b0dd Merge branch into tip/master: 'x86/cache'
+3e4a402fb4d6659e8903544d2189543cf8daca68 Merge branch into tip/master: 'x86/cleanups'
+eeaaca2d3068b5808890d3dfcbf03ea3244d3d6a Merge branch into tip/master: 'x86/core'
+e24cd9918bf5cc914952cb3b0920b2481b9e0ebf Merge branch into tip/master: 'x86/cpu'
+2e2f3260decccbc83015a1604add2feb28914da5 Merge branch into tip/master: 'x86/entry'
+ac3291810e480d3d54590f8fbedda74aba2f283e Merge branch into tip/master: 'x86/microcode'
+db4bce9b769c5034f70cb16fcb1afe956fd7cc65 Merge branch into tip/master: 'x86/sgx'
+
+--===============3251637135284007024==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2837ca3d7d2e-596b40e5e421.txt
 
 b69ffeaa0ae43892683113b3f4ddf156398738b9 scsi: storvsc: Prefer returning channel with the same CPU as on the I/O issuing CPU
 987da233b2982c686a8ea5cd4c76f0bd5e957ee3 scsi: qla4xxx: Fix typos in comments
@@ -54,11 +84,17 @@ cec944dd329fbefee907da95c298719d900d4787 hugetlbfs: move lock assertions after e
 e13d315ae077bb7c3c6027cc292401bc0f4ec683 erofs: avoid infinite loops due to corrupted subpage compact indexes
 2a13fc417f493e28bdd368785320dd4c2b3d732e erofs: consolidate z_erofs_extent_lookback()
 43c36a56ccf6d9b07b4b3f4f614756e687dcdc01 Revert "fs/9p: Refresh metadata in d_revalidate for uncached mode too"
+0e4a169d1a2b630c607416d9e3739d80e176ed67 sched/fair: Start a cfs_rq on throttled hierarchy with PELT clock throttled
+dbdf2a7feb422f9bacfd12774e624cf26f503eb0 objtool/rust: add one more `noreturn` Rust function
+49c98f30f4021b560676a336f8a46a4f642eee2b objtool: Fix failure when being compiled on x32 system
 9ea7460217423f07febe273307a5f3b6b1303b29 Merge tag '9p-for-6.18-rc3-v2' of https://github.com/martinetd/linux
 250a17e8f9555f5c5207581068ebfa2aa1f540a2 Merge tag 'erofs-for-6.18-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 dd72c8fcf6d35de5d6d976f20dc1ae84ce7af08b Merge tag 'platform-drivers-x86-v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 0f3ad9c6105f32d1755c0bd54a7f98c892f3ceb7 Merge tag 'mm-hotfixes-stable-2025-10-22-12-43' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 43e9ad0c55a369ecc84a4788d06a8a6bfa634f1c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-5d26e5c24a32bc15d1b1d6aa9a750632ecd49bca Merge branch 'linus'
+64ac8db29fb2777d2803eaba666e203ea421d9d8 Merge branch into tip/master: 'objtool/urgent'
+cbac92c956a1f1abb960217158bab5c61b7fa5b4 Merge branch into tip/master: 'sched/urgent'
+a756bbf95f897abae37dfad422d3ccee9ae94db7 Merge branch into tip/master: 'timers/urgent'
+596b40e5e421bb00673e7517549bbbd0143ec275 Merge branch into tip/master: 'x86/urgent'
 
---===============7147246363502899184==--
+--===============3251637135284007024==--
