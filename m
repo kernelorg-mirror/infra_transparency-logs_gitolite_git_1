@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Fri, 24 Oct 2025 14:48:22 -0000
-Message-Id: <176131730279.4174893.2004558771578327036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Fri, 24 Oct 2025 14:51:29 -0000
+Message-Id: <176131748913.4178787.4964884198225775015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/next
-    old: fda2253ceb145800589a36b40134cc99d324bc3e
-    new: 1ff1f0db6aec80eae1639eff31b5875632d539c0
+  - ref: refs/heads/b4/gicv5-host-acpi
+    old: 85bc157e1077f835149f51da42305ba799d1f5ae
+    new: 3aa3a717700f0d1c986a5b644a0de9da021dd42c
     log: |
-         66901bc7df137767cb08cd993d3de390b6257522 dt-bindings: power: Add MT8196 GPU frequency control binding
-         67050181b172af5e491997593ce47a42a902a91f pmdomain: Merge branch dt into next
-         1ff1f0db6aec80eae1639eff31b5875632d539c0 pmdomain: mediatek: Add support for MFlexGraphics
+         d913ba3c3ef72106047ead2811180c342e1a78e1 PCI/MSI: Make the pci_msi_map_rid_ctlr_node() interface firmware agnostic
+         f37b6e1f04c036486695dcf36aff4ae756466957 irqchip/gic-v5: Add ACPI IRS probing
+         ec604e99bf0a0dd3fb64a6de9b15023756c0bf82 irqchip/gic-v5: Add ACPI ITS probing
+         3aa3a717700f0d1c986a5b644a0de9da021dd42c irq/gic-v5: Add ACPI IWB probing
          
