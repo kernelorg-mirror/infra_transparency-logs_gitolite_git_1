@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 24 Oct 2025 01:13:45 -0000
-Message-Id: <176126842510.3489810.5828562488020865015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 24 Oct 2025 01:40:39 -0000
+Message-Id: <176127003972.3514309.7050980336254558044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: ec538867a376c10161decc24318ab25a503622c7
-    new: 9ff86092655f7a22cc115188e3bf1b88ef49ec9e
+  - ref: refs/heads/for-next
+    old: ea6e633aa6ba94ff978ebb5e60011c7e6e090bcd
+    new: 47824e8aaa12772ddcdeeb6d39e78066e832483f
     log: |
-         9ff86092655f7a22cc115188e3bf1b88ef49ec9e net: rmnet: Use section heading markup for packet format subsections
+         6f1cbf6d6fd13fc169dde14e865897924cdc4bbd io_uring: fix buffer auto-commit for multishot uring_cmd
+         47824e8aaa12772ddcdeeb6d39e78066e832483f Merge branch 'io_uring-6.18' into for-next
+         
+  - ref: refs/heads/io_uring-6.18
+    old: c5efc6a0b3940381d67887302ddb87a5cf623685
+    new: 6f1cbf6d6fd13fc169dde14e865897924cdc4bbd
+    log: |
+         6f1cbf6d6fd13fc169dde14e865897924cdc4bbd io_uring: fix buffer auto-commit for multishot uring_cmd
          
