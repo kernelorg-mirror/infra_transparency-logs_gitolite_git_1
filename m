@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1192560032308432783=="
+Content-Type: multipart/mixed; boundary="===============4962305047612453162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 24 Oct 2025 05:00:47 -0000
-Message-Id: <176128204780.3682322.6758870927065022258@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 05:00:49 -0000
+Message-Id: <176128204929.3682463.1335846551435314637@gitolite.kernel.org>
 
---===============1192560032308432783==
+--===============4962305047612453162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2183c135f1550d85233cee150d7dec363a212740
-    new: 752c460b5865d87117095c915addcce7a68296f2
-    log: revlist-2183c135f155-752c460b5865.txt
+  - ref: refs/heads/mm-unstable
+    old: 5b5c3e53c939318f6a0698c895c7ec40758bff6a
+    new: 813c0fa931ce6e163f066f6ecc030bc2f10782c4
+    log: revlist-5b5c3e53c939-813c0fa931ce.txt
 
---===============1192560032308432783==
+--===============4962305047612453162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2183c135f155-752c460b5865.txt
+Content-Disposition: attachment; filename=revlist-5b5c3e53c939-813c0fa931ce.txt
 
 682f17889e76f32ed11709df34047a940cfa3975 mm/huge_memory: do not change split_huge_page*() target order silently
 9c357a95eaabb99e6251e19c174e99d1f7c6664f kho: warn and fail on metadata or preserved memory in scratch area
@@ -178,40 +178,5 @@ a2dfb2b76f5dfae4f66144605d72a8de41851bb6 x86/mm: use 'ptdesc' when freeing PMD p
 cb88a11d0a2fc1f05087b6e06201c9d7507a85e3 x86/mm: use pagetable_free()
 7214194eaec2fa76ec7720a7d4f9dd714e3bc416 mm: introduce deferred freeing for kernel page tables
 813c0fa931ce6e163f066f6ecc030bc2f10782c4 iommu/sva: invalidate stale IOTLB entries for kernel address space
-265974ce2864179f5521e8da816e0d4e7ff939fd khugepaged: rename hpage_collapse_* to collapse_*
-7a1160e58c9df43590aa1af1979519cd31615571 introduce collapse_single_pmd to unify khugepaged and madvise_collapse
-adf2045caf82ac179e3c1b867093a60afb3805e7 khugepaged: generalize hugepage_vma_revalidate for mTHP support
-d900ab70b10ab2b1b17f36c1ec7caad8e0be8bf2 khugepaged: generalize alloc_charge_folio()
-596fb792254ea401c08b4a924b08a5628062ce5f khugepaged: generalize __collapse_huge_page_* for mTHP support
-d61053e29b1114ba820eb07e40563c1f2b908f0f khugepaged: introduce collapse_max_ptes_none helper function
-afa568a7dad8e027c4ec0e6381055b93985059d4 khugepaged: generalize collapse_huge_page for mTHP collapse
-2e89079bd8f5b0d989c9fcb716aa0dc4247fbf46 khugepaged: skip collapsing mTHP to smaller orders
-2c6da6454861863621c51df330a7906124884b84 khugepaged: add per-order mTHP collapse failure statistics
-876bccc2cc0a28f887397b431d83d08e3e93144c khugepaged: improve tracepoints for mTHP orders
-118f92b416ebac81368f061bac6d48c64c3b167d khugepaged: introduce collapse_allowable_orders helper function
-016502e02ff9eada4671890b2e6ff80fdc4ca409 khugepaged: introduce mTHP collapse support
-d74517a00e17a7dc4a5222b1eb6dbd33206f5f7b khugepaged: avoid unnecessary mTHP collapse attempts
-46c8887d2ceb5c0c1b1d3dd8d24993f2bc42f1e3 khugepaged: run khugepaged for all orders
-87542672651f1444226e5b06b185ef72c8b68494 Documentation: mm: update the admin guide for mTHP collapse
-dbed79c22324c535fdd2ee753609935685e60d41 mm/debug_vm_pgtable: add [pte|pmd]_mkwrite_novma() tests
-d19fd21bc801e5bfc75888e2620232c356bbdafc mm/huge_memory: avoid reinvoking folio_test_anon()
-be4682abd0c1105a35ed2264da1416175ed38cb8 mm/huge_memory: update folio stat after successful split
-aef609c5c5f46a1af0a86e707ec14b76f96d3330 mm/huge_memory: optimize and simplify folio stat update after split
-3ab9e0a03837e29973e953d5471c860ec482b901 mm/huge_memory: optimize old_order derivation during folio splitting
-4a33fa97aa56505de011498a1e8694753af7496d mm, swap: do not perform synchronous discard during allocation
-5629d3143f811498e7a199d9d2ce891ddbaa2a1d mm, swap: rename helper for setup bad slots
-b16b484e6d021a0bb7be55611424dcb7ad8d0813 mm, swap: cleanup swap entry allocation parameter
-d72202e82ab2bcad5eb45d3662335abf872c4c2a mm/migrate, swap: drop usage of folio_index
-b8d23a23174424f4c3de8a651f33c817efe52d9c mm, swap: remove redundant argument for isolating a cluster
-81ab7632bc433674a4ebe13284025aa5b1f490ed mm: shmem/tmpfs hugepage defaults config choice
-8993ad447a32a436c4750a193ce1eddb9e42b3e0 mm/damon/core: add damon_target->obsolete for pin-point removal
-74192a63e9b0647920a5ea48c2a4b20761015c1e mm/damon/sysfs: test commit input against realistic destination
-211b81c416fdf69adaed728db43805b0d14d258f mm/damon/sysfs: implement obsolete_target file
-4314811828ce1f5ad2ce45518d96a1e465468108 Docs/admin-guide/mm/damon/usage: document obsolete_target file
-e91dd153cb8ac3b4804ae042452ece1357dfd45c Docs/ABI/damon: document obsolete_target sysfs file
-129fc0c15bdd20a165435532f866f060e48dc0af selftests/damon/_damon_sysfs: support obsolete_target file
-6b634307b794def80f699580d577465e2da3ab67 drgn_dump_damon_status: dump damon_target->obsolete
-9b4ab688c39b3d56bd6206937defa1f3b14d54e1 sysfs.py: extend assert_ctx_committed() for monitoring targets
-752c460b5865d87117095c915addcce7a68296f2 selftests/damon/sysfs: add obsolete_target test
 
---===============1192560032308432783==--
+--===============4962305047612453162==--
