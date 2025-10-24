@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 24 Oct 2025 16:23:44 -0000
-Message-Id: <176132302495.66297.16345641499015644303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Fri, 24 Oct 2025 16:24:50 -0000
+Message-Id: <176132309045.67591.1443189190139567067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 5121062e83453221cca7bb1163fe9234757c1697
-    new: 6fab32bb6508abbb8b7b1c5498e44f0c32320ed5
+  - ref: refs/heads/main
+    old: 9f57fa0d98cf3e678d46a794a3b1d9b5d77dbf08
+    new: 7cd7c8f4ad07e978304fce6b361c478a45090706
     log: |
-         6fab32bb6508abbb8b7b1c5498e44f0c32320ed5 MAINTAINERS: add Mark Brown as a linux-next maintainer
+         7cd7c8f4ad07e978304fce6b361c478a45090706 refactor(delete): open code delete_tpm_handles
          
