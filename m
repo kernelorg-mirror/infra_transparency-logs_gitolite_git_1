@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5560723483352969735=="
+Content-Type: multipart/mixed; boundary="===============8339885912678759669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 24 Oct 2025 10:40:08 -0000
-Message-Id: <176130240840.3961177.6995100296629961060@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 10:48:45 -0000
+Message-Id: <176130292513.3966555.9580900733852607563@gitolite.kernel.org>
 
---===============5560723483352969735==
+--===============8339885912678759669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,33 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: 7e4b8d4b350aeef41986a257ff976d9d185f37a2
-    new: 7f434e1d9a17ca5f567c9796c9c105a65c18db9a
-    log: |
-         7f434e1d9a17ca5f567c9796c9c105a65c18db9a slab: Fix obj_ext mistakenly considered NULL due to race condition
-         
+  - ref: refs/tags/slab-for-6.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 2870e3662f7ea02590e000ded77c67930683a63d
 
---===============5560723483352969735==
+--===============8339885912678759669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1761302465 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1761302986 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1761302400-83380fb24b03e121b345160a365c24b295a2e23a
+nonce 1761302921-daf98cbf2691a7cf62378d38a969337a06f59d76
 
-7e4b8d4b350aeef41986a257ff976d9d185f37a2 7f434e1d9a17ca5f567c9796c9c105a65c18db9a refs/heads/slab/for-next-fixes
+0000000000000000000000000000000000000000 2870e3662f7ea02590e000ded77c67930683a63d refs/tags/slab-for-6.18-rc3
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmj7V8EbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia/nkIAJn+GknJ4howOCR3ySay
-5SZ9t/zdLo+1Xj+NU88AgOoEVxa21q1lL6+Yj66OxiQAfVHyiYgJFxp3qf9sy/mQ
-IZjpu8DvwM5CdgLkyZfwGMpcFop1Q/128FdwpRFx08B2sRIXcNbR/o6n6LBJS2ky
-S5YV7ZGJG8ODno8CHrSkYugEoM0e51Pg/ozJD9GRce7Od/r+IYduxOhT6lf3Zh8a
-fUoRsFiplSl45UQq4wGgu+U6KhOXrd4nmkNR43qdKKJyHjPKMUPQy181CBzLBvo9
-O9VeIbXGx/wsRXUpQqCi565geP30ixmeOQfTrSe2yIPODV+u5ZSgAGI29aEL7o/+
-9H4=
-=Mco5
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmj7WcobFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaveQH/2BALn5t43ffkgXQEMxP
+V433kNkOh6AiyFzB5zHQM2u6IFZqQyesReROoQctjW9kr6AW1NmnX98RZo5Gt6+D
+t0khVNHktNPYgaI9kB8/S76NJYtxmVnK7GE9kWiNZBLghzvVeAY7AzuFNja8y1z4
+1RHylHb6Xw4SBWzTrG8EePsaL/Lqlpe1/bbMG8n2PDIFLYvulnx6H5FDUMdM0mpD
+9U8hFNDIwYiiQ2/QGoiyQNImfkYdT/fyDZ0ACC2jt5lZ9wHmbckynDBP4q0KWJ7t
+uQWeil+vzc5llNRivMb9bzil6naSOaVYKuXHXCQvbe4HBw6xYZpZFGzHAn9jqLEY
+kg8=
+=FuNP
 -----END PGP SIGNATURE-----
 
---===============5560723483352969735==--
+--===============8339885912678759669==--
