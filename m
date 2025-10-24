@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1636969211958471417=="
+Content-Type: multipart/mixed; boundary="===============7699972365476615426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Fri, 24 Oct 2025 19:24:02 -0000
-Message-Id: <176133384276.221866.16344911462284446853@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 19:24:06 -0000
+Message-Id: <176133384629.222002.1988621739245091640@gitolite.kernel.org>
 
---===============1636969211958471417==
+--===============7699972365476615426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-current
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
+  - ref: refs/heads/for-next
+    old: a1f692fd69ccdbe1e492d366788b63227d429753
     new: 211ddde0823f1442e4ad052a2f30f050145ccada
-    log: revlist-8f5ae30d69d7-211ddde0823f.txt
+    log: revlist-a1f692fd69cc-211ddde0823f.txt
 
---===============1636969211958471417==
+--===============7699972365476615426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-211ddde0823f.txt
+Content-Disposition: attachment; filename=revlist-a1f692fd69cc-211ddde0823f.txt
 
 71feffa9c08675f65192a6b0d6ce168c620ba49a perf powerpc: Add event name as vpa-dtl of PERF_TYPE_SYNTH type to present DTL samples
 cd1c3b730a2a0455b405d7ecbd02a63b51cdc04b perf powerpc: Allocate and setup aux buffer queue to help co-relate with other events across CPU's
@@ -1051,4 +1051,4 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 
---===============1636969211958471417==--
+--===============7699972365476615426==--
