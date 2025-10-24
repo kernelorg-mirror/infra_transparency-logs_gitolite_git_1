@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5211367449331301919=="
+Content-Type: multipart/mixed; boundary="===============2158992810339632158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 24 Oct 2025 17:48:19 -0000
-Message-Id: <176132809967.142022.3473345331706439897@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 17:48:24 -0000
+Message-Id: <176132810449.142162.7727036643730904371@gitolite.kernel.org>
 
---===============5211367449331301919==
+--===============2158992810339632158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 2b7553db91f8ec446248fd59884f4b40452a3c3e
     new: f0a24b2547cfdd5ec85a131e386a2ce4ff9179cb
     log: revlist-2b7553db91f8-f0a24b2547cf.txt
 
---===============5211367449331301919==
+--===============2158992810339632158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ ec538867a376c10161decc24318ab25a503622c7 net: unix: remove outdated BSD behavior
 b0911b9e014004d3e617e8bba27000f521a26422 net: dsa: lantiq_gswip: harmonize gswip_mii_mask_*() parameters
 f0a24b2547cfdd5ec85a131e386a2ce4ff9179cb Merge branch 'net-dsa-lantiq_gswip-use-regmap-for-register-access'
 
---===============5211367449331301919==--
+--===============2158992810339632158==--
