@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7135164006570770249=="
+Content-Type: multipart/mixed; boundary="===============4280742652799948667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 24 Oct 2025 12:40:35 -0000
-Message-Id: <176130963578.4064927.9812978363778352041@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 12:48:29 -0000
+Message-Id: <176131010962.4070247.17832388460850923695@gitolite.kernel.org>
 
---===============7135164006570770249==
+--===============4280742652799948667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: d227a8b3e715963b7c034971c3b467d5430a2cab
-    new: 389597581e3ef46940476f2d59c9ac7f9a26b113
+    old: 389597581e3ef46940476f2d59c9ac7f9a26b113
+    new: be83d83664e9f6fa035e96fb9187f9e7898659e4
     log: |
-         30a34716562ee7871593158684d4495aa2aebd4a dt-bindings: usb: qcom,snps-dwc3: Add the SM8750 compatible
-         389597581e3ef46940476f2d59c9ac7f9a26b113 usb: dwc3: Allow usb role swich control from userspace
+         dacd0ca666461e3b79059b7830403ae436157bf1 usb: typec: ucsi_glink: Update request/response buffers to be packed
+         4dad394ce3b60a903452f45c4bd90cb220362ba9 usb: typec: ucsi_glink: Increase buffer size to support UCSI v2
+         be83d83664e9f6fa035e96fb9187f9e7898659e4 Merge patch series "usb: typec: ucsi_glink: Add support UCSI v2"
          
 
---===============7135164006570770249==
+--===============4280742652799948667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761309698 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761310172 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1761309633-89f33b9b6b3b9db5595f4832bb811f1f7f5010b1
+nonce 1761310107-63e191980b44bb4a84206a1a82dfd6932552f2ee
 
-d227a8b3e715963b7c034971c3b467d5430a2cab 389597581e3ef46940476f2d59c9ac7f9a26b113 refs/heads/usb-testing
+389597581e3ef46940476f2d59c9ac7f9a26b113 be83d83664e9f6fa035e96fb9187f9e7898659e4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj7dAIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/nEP/1ZxbM6W/Xl7TrndHZPE
-l6xHj259ZvfLeLx0LBJL3NlofmhLMpFmftXOFY5SaBXUG+fl+y0DLs9uHhX/Pa/2
-SnNwYPxaonpUL+3DsBy84asBxbnj/yz4C56Dy/kKnMf/sPxgO32bVvPBXS21Nx6/
-+xu6F5vlX5v1MRVEaI9Nf6yE3GyquTSc/H6fNe8towWiwQVQXXl33xJCKw9hcvQK
-5XoxxW0FmPmI6nITRRwfYfKmQXQiThjAJZwg2DUXd/wLVFw+1fdymkTwf75s7x3f
-iLt70mkxZcBhzmqyBxhS/0xlW9bnYaZ5WrtdQIJ8vqR5y4px0bA9rf0QJ8XUbg/u
-9emkXEeb+FMroGoH2QeGU21mTlqBsKkTIUmeql0uCLMU0g0BsrUliA51zr4W43Qn
-G2NCS1Cxy6Vbde1FGc1UmLBVZRyc0oUDG2mz4Xzf97nUWsFMM4a1SOrj3AJiBKyt
-jADjzPnMu9hYqWPFLbGg3k1XFJJGWNveB7vVQv98wR+NRsZ/zc5tQjDjGy/AJGyj
-J0A0TZ8XG7vCwv88j6RtB3gj+9B90Rhtkbl6/R64eI2KCwv2HFibEVaYdPYnJSY6
-jWbbbP8ECK5NcY/SsWotZzG0SZTGJYa5KVtNAu/SJbECVbwpocAAfMzn386IQaeL
-ksJUuuyMPnbU88gwLWCVugmw
-=5K1W
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj7ddwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kj0P/3xJwkR/IzaQbb/cnluN
+VyWoIpz6s5MhuzNn8AW/WMNvB+yZVtaMDNJZ3nXw47teEd77wrx5DC+8QfCzHzDN
+v8J03txV+c0TCXdtD7tgSH/r85+EEhPH3Dao6n847RzUu49TE1F1eQV5FXbOT/jz
+/6rl2wiJx3ZSNV/VNgl7Z1jtJ4i8lw1lWmousclRQkkjs0fSrvJtNb4YDuuRSZI6
+PIDcM56t18VcoiN92W3yOoJx5wVRhophT/Gtta7JjCeXpNjv6NdH0kfnKud7McrQ
+RiWgAXaXSDaiZajESBNnY1wvidPRHhvhjjIaEPGgwi+5jdg1nNa1q6JK/HEM0kLs
+6EBC6QSXnuGi/bmOyiDfu2Y3AXmLrEpqyN+On5Q36TQLcpIlWHDLRaE5ZTeGhYE4
+ULWAaEtN283MZKT4YPDH0+xjCQKNw09ViEgqqlGCiS02SKEScP9ZfKaGibJU8ZbN
+ECC+8gyLWvn/etyH3CU6hxq+vIFMBfv5c5/+4Vnk8Qpc4GCl62tG12bnBkGUdWNJ
+alKkIfyLJKKAWxccbHz1imqTHqmJFEXE5BNrJlSzQwzc0j3IvJAAPNYF+TiQBvA/
+hUGZ7ikiSJcMqBRq79MSOs0P8hoEzQpDFUCio5+49ne+BsCR59VzYhZsLja2JdSp
+I51E1XIRD6UFa7ptV2O5DXEO
+=2G7u
 -----END PGP SIGNATURE-----
 
---===============7135164006570770249==--
+--===============4280742652799948667==--
