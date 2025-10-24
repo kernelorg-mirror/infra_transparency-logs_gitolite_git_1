@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6891983884211695506=="
+Content-Type: multipart/mixed; boundary="===============0461123185437202531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 24 Oct 2025 21:22:46 -0000
-Message-Id: <176134096663.320369.5359089929716833244@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 21:22:59 -0000
+Message-Id: <176134097910.320616.5337519806994032887@gitolite.kernel.org>
 
---===============6891983884211695506==
+--===============0461123185437202531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 98ac9cc4b4452ed7e714eddc8c90ac4ae5da1a09
-    new: d2818517e3486d11c9bd55aca3e14059e4c69886
-    log: revlist-98ac9cc4b445-d2818517e348.txt
+  - ref: refs/heads/dev
+    old: c9cd50d5aaf8afe43d139121ad5f3ad95beddfe1
+    new: e4384545e22024d39edc13c63433f37e31960671
+    log: revlist-c9cd50d5aaf8-e4384545e220.txt
 
---===============6891983884211695506==
+--===============0461123185437202531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98ac9cc4b445-d2818517e348.txt
+Content-Disposition: attachment; filename=revlist-c9cd50d5aaf8-e4384545e220.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -476,5 +476,8 @@ c1a1c0d32d5b6dd219f9b9e7c51ed4c69882fe62 Merge tag 'gpio-fixes-for-v6.18-rc3' of
 66cd8e9cb81015a2ec7f9dfb83db7d7915587eef Merge tag 'slab-for-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 812e7eb2b0741bb4a94f2b8c9b789ba5d693eedf Merge tag 'io_uring-6.18-20251023' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 d2818517e3486d11c9bd55aca3e14059e4c69886 Merge tag 'block-6.18-20251023' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+e462fc48ceb8224811c3224650afed05cb7f0872 f2fs: maintain one time GC mode is enabled during whole zoned GC cycle
+81464df36094340395cadc9235e24eb4defa8c43 f2fs: set default valid_thresh_ratio to 80 for zoned devices
+e4384545e22024d39edc13c63433f37e31960671 f2fs: use folio_nr_pages() instead of shift operation
 
---===============6891983884211695506==--
+--===============0461123185437202531==--
