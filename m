@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4079074193980172396=="
+Content-Type: multipart/mixed; boundary="===============1875928897547937613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 24 Oct 2025 03:07:26 -0000
-Message-Id: <176127524659.3587418.4669144443903306850@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 03:07:53 -0000
+Message-Id: <176127527374.3587699.6646704489368767822@gitolite.kernel.org>
 
---===============4079074193980172396==
+--===============1875928897547937613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 362346d3d6d751271c2b9ed60a9af1fb776953c3
-    new: ad25def1cbff3b46850c9c62a9c0216dad0e5360
-    log: revlist-362346d3d6d7-ad25def1cbff.txt
+  - ref: refs/heads/6.19/scsi-staging
+    old: 5d8afd46c5a2de9f8356817483f83e11f134e6e6
+    new: e9ff858c9adff26f5d2f77d3575e39fb1470027c
+    log: revlist-5d8afd46c5a2-e9ff858c9adf.txt
 
---===============4079074193980172396==
+--===============1875928897547937613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761275290 -0400
+pusher 75C5DE3D 1761275317 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761275225-85491b3af96fbf147c424c7ed96bab9b82cb3271
+nonce 1761275249-ef11a385dce75cd336b874dcd95d49644d12e3b0
 
-362346d3d6d751271c2b9ed60a9af1fb776953c3 ad25def1cbff3b46850c9c62a9c0216dad0e5360 refs/tags/mkp-scsi-staging
+5d8afd46c5a2de9f8356817483f83e11f134e6e6 e9ff858c9adff26f5d2f77d3575e39fb1470027c refs/heads/6.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67ZoACgkQ7ulgGnXF
-3j0Emg//a2FGt8G0oHcaLFVc/Q3EyhKfo+ch0e44gpXvlG/4RtEre43NwlUnFvRE
-DQQPdhDyyJMr8F9pfC17kFNf0PIwNwdx2A3KCKdZEbNWHL/ryAidCeelYO6/WaHO
-pPiy0xPUU8CFiU7/KatKfUOtHCEyDhJzv8IrYG0fVuH8biGimmGbHN9P9MmBDhyf
-u5jtDUZ7/nBQlz1IDgrPyMjXa6B4QpZELVyvsuxg4lgAxIGrseDVAHvWpIKW1tpl
-rA3kBNg0lZM/GtnVMmN8zkrPxV8n+xDSeQJ54iveUTAeU9P9httTQvjA5OPkJ0kV
-bFz99Kb4p1nffn9bdS3uKWvecCM0qsxK09d2ntebHQ2w/N2374OoWvoMu28HdzvG
-2c5h3NNBL/zmeoEiMu+WqYwc8tOR9BVTV6qgyxr9dVHBTvAcN+diFrQMBlcpD+/a
-ZbqZDjCnrwpKxT3lG7f/Qvf4P5ibmbhscKgykowmYkGfpddqXi/m7ktmsNV2DrdV
-2GGft9VzkzcvMKETNtd7KG7kM+ZfPbkRHxILt53pMUa6/7179n0EEJAHdXnfHN1g
-bAiJDi0efHv6ZI+wBjS6ntzP+hflbG6fOjFKBf3APFOAOvetxkEabqy3ocXo7YWf
-Z4ULHuUdSeZxaJw9Abi6GQmJJnSd0fcuEJgQOWWO6O0h8soOHzE=
-=oFyT
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67bUACgkQ7ulgGnXF
+3j3Qew/8D1ulSrppPe2cm6pT9jPt1Uqj5aPCPTK3wJQQJ091Prwbg1mTNMAmSbRG
+LU19kAmEQOR19c+EEWEaLPSQpaUBTGRb4scVbyQ5CrjSjLuGDsOPimLqGviKh0Ad
+8fhdiLJfXpGGlsMKUcTfIFM9fC6P5+XabCl7DItUopVQnF4q74qiVpSquVYfNwfn
+QbMd77M8W7VLHwhgkIDWdKVE7+iBhrGj7LSg4KLGMGjbhO/tf37ANYMGbszUm5k6
+oc01tICZiJ/+YdlWBS72ZsLO8VhSK+VjAKQI/QFRmHEaNNgqqHhRE+d13b+KRBid
+VcF0VCL962y1Vt9Q3ILwRVjz1hLD8tgqodeXkEjVT+nKthNFNQPGYlqez0XAjpnf
+x3C2jlFeyb6WelOndrbcGKJ7OEqakxSqy/yqtwYRwx9MUcW2nxgSxEB9pPIzY15K
+qB+8vkpe+ZbXkTYwMAR83W2f16WwyMeRT4kNRudh/Bq/9QJszIjaUB6rYbwDmrVZ
+mcsP3roLZqmuKhPTmgoEFqghovJs67Ub8vemeNC7L2xkTKMO0e/JkYE/6n733CXu
+5FgnTjkkYP697Fbe1nEcmJQLFKf//lqJ9+Wq2QE1uoNNqyWP4mVOFsE8PPz8EUDY
+wMZqE8Sad+csFZ1JAvE/T70G//RxxNgVk1jrD0W5r1cxZXGJDng=
+=Z8+1
 -----END PGP SIGNATURE-----
 
---===============4079074193980172396==
+--===============1875928897547937613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-362346d3d6d7-ad25def1cbff.txt
+Content-Disposition: attachment; filename=revlist-5d8afd46c5a2-e9ff858c9adf.txt
 
 7b2c4224faa7bc6cdaf1fb6106ec7b46c63a28cb scsi: ufs: core: Improve documentation in include/ufs/ufshci.h
 b3b0842bcb0696e25b1977238ce2907a4c02d8c4 scsi: ufs: core: Change the type of uic_command::cmd_active
@@ -68,4 +68,4 @@ bb798c1f43c0010d792b93dc9cbb9cef7a052f61 scsi: advansys: Don't call asc_prt_scsi
 e414748b7e83673cc777ce33e44d90e5157d687f scsi: aacraid: Improve code readability
 e9ff858c9adff26f5d2f77d3575e39fb1470027c scsi: qla4xxx: Use correct variable in memset for clarity
 
---===============4079074193980172396==--
+--===============1875928897547937613==--
