@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3884144782009474248=="
+Content-Type: multipart/mixed; boundary="===============3576475828067175789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 24 Oct 2025 03:06:32 -0000
-Message-Id: <176127519264.3586408.2083428651624320155@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 03:06:56 -0000
+Message-Id: <176127521638.3586815.5636773637337955861@gitolite.kernel.org>
 
---===============3884144782009474248==
+--===============3576475828067175789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 71890d2035c0fb1cb12d3dca720b59449c900e26
-    new: 017131c52feee5fe6aca6d74516732903da70c6d
-    log: revlist-71890d2035c0-017131c52fee.txt
+  - ref: refs/heads/6.19/scsi-queue
+    old: 79a2287c1df4896d4f930a24c0dc77571959d3b3
+    new: ea0e278a5c5500be1fdfc1be68c63de4c31513fc
+    log: revlist-79a2287c1df4-ea0e278a5c55.txt
 
---===============3884144782009474248==
+--===============3576475828067175789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761275236 -0400
+pusher 75C5DE3D 1761275260 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761275171-1a865836c3daa844ca93f0f8b89504ce987e2149
+nonce 1761275195-61a22ffd9d546d1b5a53f66470f2a47a5645d1fd
 
-71890d2035c0fb1cb12d3dca720b59449c900e26 017131c52feee5fe6aca6d74516732903da70c6d refs/tags/mkp-scsi-queue
+79a2287c1df4896d4f930a24c0dc77571959d3b3 ea0e278a5c5500be1fdfc1be68c63de4c31513fc refs/heads/6.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67WQACgkQ7ulgGnXF
-3j1wUA/5AbpZBdqGFRgeXGvEU7dsuE2LtfCP/1SJZVzgEJBOpkfGP/V6c/CG/5yy
-kDbpuI9jt2kv7Vr/o5C5zlxHLPxjI2Cr5j9pVvMtZedo4m57ZbzXvhL/NBvn0D3r
-VsML6TyQQVngQhNFXznK2zmwOeJle9v7VKZanvNqtYH342QJ3KBFD/vnkPx3eJOf
-3IDuN4xz9sG7rnvbv2x5aAkL202ldnWNV85j5GYjuMJTItBJlkYg255qTaM8nbGB
-6E1gor5DmU3iO79ZrteFIDJwtcFHARf3/Xohn4Hw0pEgSq56TFFtzyo4dIgYAjlF
-GogQ3a1URlvqm9vGDhwh67RcSLCsGpJaxKDe3g3wSkMLehcQp9Ws2XGT9st3y359
-s8Ad0/VTstk6CYYC7KjvnLnQsQLX9HK/tIovKeJ2PMt18LngTJuVxqWXPfuuROjF
-u2AWwdeNHFdJJmjkw+dSyStnJyX4rErtsy6NexzlGW4uFpyZDCTNgR2g/bjQnKbO
-cc9pg7zBPiR9MMe5EcMyf3b70fn2vPUp29LGmCgW84zib0Xu0KPlSkX3hKenQoIV
-WRsrffcLMp7Tc4z7C2bD3wq2fOy4qDu5r5rX86A0FtRYjNSs/C50sLMC4wWLO4RP
-p6CL5NFyUyH8BMghoHHVt/5GzJALjDoXB1ookVD9FxDy/PcFMr4=
-=aQGk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67XwACgkQ7ulgGnXF
+3j0rGw//SC0EIgyv5XSU6LRoA0Vy42+QlX4lNfLHliYOJyPCW0y2/TOflmOTMHN/
+Vh7Ff5+ZQI/+53vQHDIBjPxh6BjkWUhhO1HwvSm1JPdhIHDYdS8JRuTjT5rNKdRd
+UNJeAxO+8+1IU0dY58tYa9hgh2gxMVbpcRF+bg45Uc3RFf7IKq02r3mn6trPag+b
+W2ItL9C8d9ntGCqhFucA1H090vDaXjoEhEfYI6Uv0fKccIw8R7LvPppLug8e/bSe
+AWsHeHqMQx6EuffBcDpxD7VRpqHq+W2rRXadWDVcaUZUP4z/T5qvgd4Er8LoAuoU
+W7hJasrrx1ZwhnlTewA9A5Nq0AYAwrWrjXO8IE2rAQOc5tBNDpjRhQhNLm2pZQZ2
+jAAPMF00rhetwLqar8BQ+lkh42uEnB3VTkfaI9yehve8JmCkTtb6ZFLmshoEX3BE
+M5RltadD0r5SnoDFKpgT2XcOlOwciQuOnQNkgUSyisk0JMwcP0shn5kLyb7zfTvu
+sjavJxlTuVyps85QDxCK2X7tLN/4p1DnTKIZmWTy5FajBx2bTIixytmIz68eQyNE
+iy9LcPJ4kh4MHp30EgxdKt7Zppkb99PYTdzwmjG17LvTrGbKQxrKE4wkUbNiOpk4
+pl/uieSPHO7WYUPxfs7loA5HHSUoxhaKX6HDlcEAKGgB/5JHKRI=
+=iyFN
 -----END PGP SIGNATURE-----
 
---===============3884144782009474248==
+--===============3576475828067175789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71890d2035c0-017131c52fee.txt
+Content-Disposition: attachment; filename=revlist-79a2287c1df4-ea0e278a5c55.txt
 
 3d0d1c7a5c9981ca35e2976337c0b6c9e644d269 scsi: fnic: Self-assignment of intr_time_type has no effect
 ce085ecdba23a5d5462877d884ecff3ffceaad22 scsi: core: Do not declare scsi_cmnd pointers const
@@ -74,4 +74,4 @@ f8e82ae65eaf347fb8924a1d9c544da7bcb9f798 scsi: ufs: core: Remove UFS_DEVICE_QUIR
 36e6daa543d9f3025e20bad0d875a4bfef525a3f Merge patch series "Enhance UFS Mediatek Driver"
 ea0e278a5c5500be1fdfc1be68c63de4c31513fc scsi: qla1280: Fix compiler warnings (DEBUG mode)
 
---===============3884144782009474248==--
+--===============3576475828067175789==--
