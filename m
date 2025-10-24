@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0461123185437202531=="
+Content-Type: multipart/mixed; boundary="===============7219848501435129777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 24 Oct 2025 21:22:59 -0000
-Message-Id: <176134097910.320616.5337519806994032887@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 21:23:11 -0000
+Message-Id: <176134099159.320896.11847226852692198161@gitolite.kernel.org>
 
---===============0461123185437202531==
+--===============7219848501435129777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: c9cd50d5aaf8afe43d139121ad5f3ad95beddfe1
-    new: e4384545e22024d39edc13c63433f37e31960671
-    log: revlist-c9cd50d5aaf8-e4384545e220.txt
+  - ref: refs/heads/dev-test
+    old: fbc71cb39de1a651c5ff405f5fc31c8faa835009
+    new: 3d8e69a13b78cb5d71d960bedf22df9f393af84a
+    log: revlist-fbc71cb39de1-3d8e69a13b78.txt
 
---===============0461123185437202531==
+--===============7219848501435129777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9cd50d5aaf8-e4384545e220.txt
+Content-Disposition: attachment; filename=revlist-fbc71cb39de1-3d8e69a13b78.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -479,5 +479,17 @@ d2818517e3486d11c9bd55aca3e14059e4c69886 Merge tag 'block-6.18-20251023' of git:
 e462fc48ceb8224811c3224650afed05cb7f0872 f2fs: maintain one time GC mode is enabled during whole zoned GC cycle
 81464df36094340395cadc9235e24eb4defa8c43 f2fs: set default valid_thresh_ratio to 80 for zoned devices
 e4384545e22024d39edc13c63433f37e31960671 f2fs: use folio_nr_pages() instead of shift operation
+0cbac2b1c0be82b04607eefed046d46be2f852ab f2fs: Perform sanity check before unlinking directory inode
+9001d7d1cdc68eb6c5c45ca23185974316b0dd97 f2fs: Use mapping->gfp_mask to get file cache for writing
+9212d0e4fa662ed882940576e1eaa2d10316e645 f2fs: fix to do sanity check on node folio during its writeback
+772aafd7186ea001e11de8d149f95c8eeb908cd3 f2fs: fix to do sanity check on node footer in {read,write}_end_io
+6628208165c188a4b4b2c4181f44fca56dbc4d07 f2fs: clean up w/ bio_add_folio_nofail()
+d1acedc3297f05caa447c2457e06bf0abf902aa5 f2fs: convert add_ipu_page() to use folio
+148639e18e817f873d7d0fdc67cc2bb8732ce014 f2fs: use f2fs_filemap_get_folio() instead of f2fs_pagecache_get_page()
+13ec7422f067fd7e271aec72cb1fd71cdb39c577 f2fs: use f2fs_filemap_get_folio() to support fault injection
+1e26ae8041ca5b87b38b6ac004cd41eb7ffe2ce1 f2fs: fix to avoid potential deadlock
+cb9519aa77c8fe24de3c6809beb62c0c9490f58b f2fs: fix to avoid updating zero-sized extent in extent cache
+b9dcd29fae038b58974e510428775af76c23182b f2fs: fix to avoid updating compression context during writeback
+3d8e69a13b78cb5d71d960bedf22df9f393af84a f2fs: use global inline_xattr_slab instead of per-sb slab cache
 
---===============0461123185437202531==--
+--===============7219848501435129777==--
