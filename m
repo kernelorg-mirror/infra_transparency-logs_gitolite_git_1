@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5470526270012344510=="
+Content-Type: multipart/mixed; boundary="===============1636969211958471417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Fri, 24 Oct 2025 19:23:57 -0000
-Message-Id: <176133383730.221192.8822829251222879227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Fri, 24 Oct 2025 19:24:02 -0000
+Message-Id: <176133384276.221866.16344911462284446853@gitolite.kernel.org>
 
---===============5470526270012344510==
+--===============1636969211958471417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
   - ref: refs/heads/for-current
@@ -20,7 +20,7 @@ changes:
     new: 211ddde0823f1442e4ad052a2f30f050145ccada
     log: revlist-8f5ae30d69d7-211ddde0823f.txt
 
---===============5470526270012344510==
+--===============1636969211958471417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
 
---===============5470526270012344510==--
+--===============1636969211958471417==--
