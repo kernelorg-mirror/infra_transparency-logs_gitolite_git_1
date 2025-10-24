@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0635216326962119179=="
+Content-Type: multipart/mixed; boundary="===============3085108256653629932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 24 Oct 2025 03:05:39 -0000
-Message-Id: <176127513915.3585587.14598213716858911613@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 03:06:03 -0000
+Message-Id: <176127516310.3585915.433971668109034581@gitolite.kernel.org>
 
---===============0635216326962119179==
+--===============3085108256653629932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 9155e67045e15ba8303d82180dcfa3ce4de25e65
-    new: db261d0c68a3f10ff8e977f03eca6afca68188db
+  - ref: refs/heads/6.18/scsi-fixes
+    old: d54c676d4fe0543d1642ab7a68ffdd31e8639a5d
+    new: c0e37ac6a5d4c4bc33b9c4408d22714fe370a1b0
     log: |
          5127be409c6c3815c4a7d8f6d88043e44f9b9543 scsi: ufs: ufs-qcom: Fix UFS OCP issue during UFS power down (PC=3)
          c74dc8ab47c1ec3927f63ca83b542c363249b3d8 scsi: ufs: core: Fix a race condition related to the "hid" attribute group
          c0e37ac6a5d4c4bc33b9c4408d22714fe370a1b0 scsi: ufs: core: Reduce link startup failure logging
          
 
---===============0635216326962119179==
+--===============3085108256653629932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761275182 -0400
+pusher 75C5DE3D 1761275207 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761275117-9e3a849ad9f0cd0570e9bdf91a4582e93fbcba15
+nonce 1761275142-28a6c2fd9e09e59399e5071e07878b2c217f7722
 
-9155e67045e15ba8303d82180dcfa3ce4de25e65 db261d0c68a3f10ff8e977f03eca6afca68188db refs/tags/mkp-scsi-fixes
+d54c676d4fe0543d1642ab7a68ffdd31e8639a5d c0e37ac6a5d4c4bc33b9c4408d22714fe370a1b0 refs/heads/6.18/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67S4ACgkQ7ulgGnXF
-3j3QUQ//Rg+g2vEWNY78LtCOldtpjyDgbvGRbQrWLzEEDgkW9la3xTO2cp052y3n
-gQsxTZfGULhquaowgE2f57pldbebS+HLMb/uUnAanKti7DtXg6aoaeIjzdvkbVB8
-vi1ZP/1BU0BwmHBNQOm8bP4Jbcd3vnzwnIEe0/oaGqF0hbyak1S8RAnV1TQjLKan
-GEI+tvXJcMvbxHQGsUYoFekqMhG6rauTEQKVD42jEuhBk2p0nU7VmP34W2/Pszot
-Ub3X9ped35cvSxuyIF2oFASv52Y4o9sLRzknafUIvVuIX3QmDNb4peqCmpnwwYgy
-UV+xgKWFX/OyJkSXzhac674g/t7fnpSRsgoeqyyflGKZBQ/CTZ5GbkKXk2GzokQ/
-Ad6c9g3PScdUa6IWBKkMUuuAEeGiiAONVKi4moWv9+TWO86+zrq/sSydOFb3Cz7n
-znL5mPXh+pb9OEsbFG9wwrJRxW5K6BL4KB3YuGQltPHMiwaWtWs4cvV/uQnh3xAt
-0M1TtxajwP2fDUPx8CLP2XTS6OuWIm9vbKQ2G8AsZMp/+RiJXRI8byVlMKAR7kT3
-CDiZ/B4Q7/WGytTAYiPnN+ucRTiajOlxYXUET4S1Oxj47geJwXtbg42CbVekiCeZ
-SxAOhnN8XhtgSqf6g0eUYTJJQPGuQ9orY2s+6bshCYDkQ9B0zhU=
-=QPb0
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67UcACgkQ7ulgGnXF
+3j1jRBAAgMXlcmqQNjGiVwRRfrlgKfv8rUPR8Lj2nUCPjecnpUTQvCquS20+FIfD
+2ma3e9V4TycXsgDXAgGito/Rn0tIjm29E6QHk6zd9qCgoFba+3a/vlX8u5hD9ueu
+X19T0aWH6nx1UZdIvI+pVhKteE2Y5is84DJsYTeMnNnQoR8ZboanBKM5z0nFKkY4
+Mx3iKKc5xz6EY4G0kGZRG+Oh6dI3Sb5ph/0hqHdngOtOnRGFXu0ppA7E5unjvds3
+iq732PhZpy+ZqaiKctlI1ETW02elpLjT4tGmiLBfyMzkCzDjlSDC3tm7wTZXI5eu
+SXBOnRPn125TOur1T53jenceAqaWziMmdRUsGLNKYXzfV/8K0Y0/MF3qtsTRuSEz
+bFTPNSsYnL0J4i6AlChtAkJUrlcPhbtjItE7ED5rjVUKgCTkpJuHWvoqCAZwBGMv
+xWtjFsfm16D8bF1eh2MroT+QSm/DPsfh2688AjPTxJZq1mvOWLL59ec48l21yVbu
+hv7RANlFZBrLVUGZNw7QYe7lBcokYyAKew4WH+/+Ng6GRN+SmtJIN+DZbTDxu7fC
+MMuyBIL//yMLpw8qy2zVbDn45mENlOzLLav9lhup7Cb5UHQbIprjKBNqpz/NdJnH
+b2/0dKIX+8/UYircQINRLJgfO1TqLxGX6fMdlVsMApTYN6+aXus=
+=0rR9
 -----END PGP SIGNATURE-----
 
---===============0635216326962119179==--
+--===============3085108256653629932==--
