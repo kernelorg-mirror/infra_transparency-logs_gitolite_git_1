@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 24 Oct 2025 16:43:41 -0000
-Message-Id: <176132422127.84071.16823757990002797294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 24 Oct 2025 16:44:30 -0000
+Message-Id: <176132427049.85027.7319665855967563142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 08a001adf867321dd1cb1e5e99e5ede3dc23ee49
-    new: f3f6bc97852f90aa573d89ceaea7e36f02c45a08
+  - ref: refs/heads/master
+    old: 7221b9caf84b3294688228a19273d74ea19a2ee4
+    new: 8ce93aabbf75171470e3d1be56bf1a6937dc5db8
     log: |
-         f3f6bc97852f90aa573d89ceaea7e36f02c45a08 refactor(load): remove --parent
+         8ce93aabbf75171470e3d1be56bf1a6937dc5db8 bpf: Conditionally include dynptr copy kfuncs
          
