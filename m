@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 24 Oct 2025 13:07:35 -0000
-Message-Id: <176131125544.4087318.17479758255930191638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
+Date: Fri, 24 Oct 2025 13:18:10 -0000
+Message-Id: <176131189094.4095861.4803553740517652836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/sysctl/sysctl
+user: joel.granados
 changes:
-  - ref: refs/tags/spi-fix-v6.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c79b35509376aea4d44be51f65246c6f3c084678
+  - ref: refs/heads/sysctl-testing
+    old: a366636b179ac9f6328cbae6491416240cd95f78
+    new: 1fde5c389560f7c1e5fb5e65ea500202a1888711
+    log: |
+         1fde5c389560f7c1e5fb5e65ea500202a1888711 sysctl: fix kernel-doc format warning
+         
