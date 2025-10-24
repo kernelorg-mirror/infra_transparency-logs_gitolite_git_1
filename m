@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0004598273483125798=="
+Content-Type: multipart/mixed; boundary="===============2683932056275472047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 24 Oct 2025 17:44:55 -0000
-Message-Id: <176132789530.137959.14311337274348767728@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 17:45:00 -0000
+Message-Id: <176132790019.138115.16065963831495166590@gitolite.kernel.org>
 
---===============0004598273483125798==
+--===============2683932056275472047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: ab431bc39741e9d9bd3102688439e1864c857a74
     new: 1ab665817448c31f4758dce43c455bd4c5e460aa
     log: revlist-ab431bc39741-1ab665817448.txt
 
---===============0004598273483125798==
+--===============2683932056275472047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ a83155cc4ec5dd8c99edb541dc12d3bd8e97eae9 Merge tag 'wireless-2025-10-23' of http
 420c84c330d1688b8c764479e5738bbdbf0a33de usbnet: Prevents free active kevent
 1ab665817448c31f4758dce43c455bd4c5e460aa virtio-net: drop the multi-buffer XDP packet in zerocopy
 
---===============0004598273483125798==--
+--===============2683932056275472047==--
