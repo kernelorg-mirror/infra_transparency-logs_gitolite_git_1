@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3756537505003314447=="
+Content-Type: multipart/mixed; boundary="===============9095907242295038398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 24 Oct 2025 13:00:56 -0000
-Message-Id: <176131085676.4082231.15362108901581536364@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 13:01:03 -0000
+Message-Id: <176131086306.4082494.1945078303704197059@gitolite.kernel.org>
 
---===============3756537505003314447==
+--===============9095907242295038398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dt/next
     old: b766598b9beb680b5458929593f374275e3474d6
     new: 3ca16d5d887d76132be68533acabfd668e25d8da
     log: revlist-b766598b9beb-3ca16d5d887d.txt
 
---===============3756537505003314447==
+--===============9095907242295038398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ e0788bbe943dcbe2ef0497df05ce93ad95122163 dt-bindings: gpu: mali-bifrost: Add com
 08bc33687cc21da42b7f9c109ba1d72889d09840 dt-bindings: arm: Add missing AMD Seattle SoC platforms
 3ca16d5d887d76132be68533acabfd668e25d8da dt-bindings: arm: Add missing LGE SoC platforms
 
---===============3756537505003314447==--
+--===============9095907242295038398==--
