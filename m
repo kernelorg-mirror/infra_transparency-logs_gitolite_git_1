@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Fri, 24 Oct 2025 16:02:00 -0000
-Message-Id: <176132172067.46380.5780211556377468787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Fri, 24 Oct 2025 16:07:23 -0000
+Message-Id: <176132204376.50919.486014268159690216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 243ce64b2b371cdf2cbc39c9422cb3047cab6de7
+  - ref: refs/heads/main
+    old: 8d95ca1d8b10c128788ce980b4a2c4e740750ef3
+    new: bd349a9702b62bcacac9562da3bd831d21b80061
     log: |
-         243ce64b2b371cdf2cbc39c9422cb3047cab6de7 backlight: Do not include <linux/fb.h> in header file
+         bd349a9702b62bcacac9562da3bd831d21b80061 feat: create a spinner module
          
