@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 24 Oct 2025 17:26:38 -0000
-Message-Id: <176132679877.122097.9847691477281201172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 24 Oct 2025 17:33:59 -0000
+Message-Id: <176132723965.127890.18200742950948996219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: af8a2b99fd1f3dd5d2b5862df78ee0a0ee1f8b76
-    new: f63037a3f252522504774c98960282fb776ef3ca
+  - ref: refs/heads/dev
+    old: 04923cdeee9c10594c7c3fee673e276b308346bd
+    new: a11b4eb3cb61e3b7852ad8279c31f1b7cc424a94
     log: |
-         a91f1b63486628a48f55974d635406aedd027200 Bluetooth: hci_event: validate skb length for unknown CC opcode
-         f63037a3f252522504774c98960282fb776ef3ca dt-bindings: net: Convert Marvell 8897/8997 bindings to DT schema
+         a11b4eb3cb61e3b7852ad8279c31f1b7cc424a94 refscale: Do not diable interrupts for tests involving local_bh_enable()
          
