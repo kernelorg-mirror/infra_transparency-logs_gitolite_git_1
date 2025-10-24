@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 24 Oct 2025 16:07:23 -0000
-Message-Id: <176132204376.50919.486014268159690216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 24 Oct 2025 16:09:08 -0000
+Message-Id: <176132214851.52242.12333129055135906963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 8d95ca1d8b10c128788ce980b4a2c4e740750ef3
-    new: bd349a9702b62bcacac9562da3bd831d21b80061
+    old: 3baf8afe4b3ac98eccf1f04facf4bb48b51d5df6
+    new: 9b899c779b8add9764bc0ae55d17962a7443361d
     log: |
-         bd349a9702b62bcacac9562da3bd831d21b80061 feat: create a spinner module
+         7bcedf5c907e7037c3c1f7aee2b0d7f15d9205de qcom: add ADSP firmware for kaanapali platform
+         9b899c779b8add9764bc0ae55d17962a7443361d Merge branch '1024-adsp-knp' into 'main'
          
