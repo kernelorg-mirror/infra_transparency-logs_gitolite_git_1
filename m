@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5964316181658491422=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Oct 2025 11:08:11 -0000
-Message-Id: <176130409178.3984005.15392592196128939996@gitolite.kernel.org>
-
---===============5964316181658491422==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 24 Oct 2025 11:12:54 -0000
+Message-Id: <176130437458.3988407.6005943139647976069@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: 310bf433c01f78e0756fd5056a43118a2f77318c
-    new: 2528c15f314ece50218d1273654f630d74109583
+  - ref: refs/heads/syscon-rework-5
+    old: 6fc02409aff5856a7b7a7bde13e9a2e2ebb22dbc
+    new: 2f43cdd65dc3d38a0872eafa60e5e43c5ebf9f88
     log: |
-         2528c15f314ece50218d1273654f630d74109583 ASoC: max98090/91: adding DAPM routing for digital output for max98091
+         5a036103292ba4297d456607fdced2e8d4cf4e2f reset: mpfs: add non-auxiliary bus probing
+         a1e3bc8ec881ffabf1e9c27cb7bde36fa3871664 dt-bindings: clk: microchip: mpfs: remove first reg region
+         1c03215f47c13f5598763dbe90c522346820e18a clk: microchip: mpfs: use regmap for clocks
+         e78fb41c97cf93f116de51f3f7e9c8fd0f285c24 riscv: dts: microchip: fix mailbox description
+         2e53121dfc963dce51f92e49ee33c937abfd4c90 riscv: dts: microchip: convert clock and reset to use syscon
+         18dc66e68e5f93cae09f8b6d8562325149cbece0 MAINTAINERS: add new soc drivers to Microchip RISC-V entry
+         2f43cdd65dc3d38a0872eafa60e5e43c5ebf9f88 MAINTAINERS: rename Microchip RISC-V entry
          
-
---===============5964316181658491422==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1761304154 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1761304089-aebd296e273594dbef821163acae4268cf6f70fc
-
-310bf433c01f78e0756fd5056a43118a2f77318c 2528c15f314ece50218d1273654f630d74109583 refs/heads/asoc-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj7XloACgkQJNaLcl1U
-h9AItgf9FO/m26mL+X4WPs02fherg6d+lPDti8dinOgVdyd6M5u6iXS5uKvYRxzh
-T7yWkj8bO0WrhRM/yHpcJtyD3GJRkAgZzztEd2ip3FoLK44inVuNAaJ06SaiRkIB
-oBR93wFrW8wUrp12kYW9B9fmLVUPnM/MAQjWxNfxVwvIMkGu3jXGcggCiaSJipA6
-BVxQBvafsxeh4On3szc33rT18Pwe+PYlR0oCC/vQ+GOYQ+92NUbznC1DEFgzggBw
-I9A03aEmZ86WUABrscLQPl9/JRX1rWfOhtkF9vogKIff/hx/Lj8Kgqc9QURcSjzZ
-20U5bJ7FOlYf0WZscouQ0Rvij/7fNA==
-=iTaW
------END PGP SIGNATURE-----
-
---===============5964316181658491422==--
