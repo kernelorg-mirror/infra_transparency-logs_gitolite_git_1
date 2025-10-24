@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6185605154838520670=="
+Content-Type: multipart/mixed; boundary="===============4079074193980172396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 24 Oct 2025 03:07:01 -0000
-Message-Id: <176127522110.3587096.7680577254265483388@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 03:07:26 -0000
+Message-Id: <176127524659.3587418.4669144443903306850@gitolite.kernel.org>
 
---===============6185605154838520670==
+--===============4079074193980172396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,56 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 79a2287c1df4896d4f930a24c0dc77571959d3b3
-    new: ea0e278a5c5500be1fdfc1be68c63de4c31513fc
-    log: revlist-79a2287c1df4-ea0e278a5c55.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 362346d3d6d751271c2b9ed60a9af1fb776953c3
+    new: ad25def1cbff3b46850c9c62a9c0216dad0e5360
+    log: revlist-362346d3d6d7-ad25def1cbff.txt
 
---===============6185605154838520670==
+--===============4079074193980172396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761275284 -0400
+pusher 75C5DE3D 1761275290 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761275219-e80fb02b828f667d5f934b179d78cf80881a7ee3
+nonce 1761275225-85491b3af96fbf147c424c7ed96bab9b82cb3271
 
-79a2287c1df4896d4f930a24c0dc77571959d3b3 ea0e278a5c5500be1fdfc1be68c63de4c31513fc refs/heads/queue
+362346d3d6d751271c2b9ed60a9af1fb776953c3 ad25def1cbff3b46850c9c62a9c0216dad0e5360 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67ZQACgkQ7ulgGnXF
-3j2FnA//ZNnM7hxIGD/13G2Ij9Y6f2Km4unw8wswwRstlbcoceD2QPSCUwmi5TsY
-9x0WjPXAW3Ny0cQ+Q6thZv/ZZHmhpjgQj/IZ45BhBPM01JeZVdQH+he/b80nUQDT
-mQV/7pufy5yFOhvIRw3Wb0Daz0WkyBK7BWSeteJCjjq+zlP062kTHFq7HBiJ0lGB
-N2VOR9OJHwdcK3piCrNMEXHpKr4kd8UJo+JrIkWGpm0l6zWR/g4kbkXhiOS3eETa
-RXC+3QMM7nOVAPBZhiVzOKTCeNy+mVnnutvUEM8u4FrpFAAkOcCoUttgTAXPasTD
-FNVhTEPvW5pm18SELOxV586QDTsoks5jjKH5mj4OXjytZPK+jYisbX6YugWBSl/X
-GV3fUzDIFYFqhB4PVyljOMoiJ5rPZmn9m8NJVIctmSCuaVYoid4qaO9KdK8VHpqr
-jSSbWa/UuvDwMw+aqfzUK5Rlw+nOPyW0D4HCt5v+8MhDhjU7krMwKUrezFBUf3sx
-3Jd1YJNH2DkGsCuniCkcEvR1aV73dyViGHOqCJei1znIjl91SKHHgkgZz87Lsapm
-nZG44eeUwGitMCAljsvKpa88ZcUVRGOhvoabeStFhGYpJARdzSmuVQdyalPvwi/z
-lifupEDZuvaUfAqJ5Dg6kNRerDhKEwR4+wVvDDr0jYMzlp8Q2bM=
-=8urW
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmj67ZoACgkQ7ulgGnXF
+3j0Emg//a2FGt8G0oHcaLFVc/Q3EyhKfo+ch0e44gpXvlG/4RtEre43NwlUnFvRE
+DQQPdhDyyJMr8F9pfC17kFNf0PIwNwdx2A3KCKdZEbNWHL/ryAidCeelYO6/WaHO
+pPiy0xPUU8CFiU7/KatKfUOtHCEyDhJzv8IrYG0fVuH8biGimmGbHN9P9MmBDhyf
+u5jtDUZ7/nBQlz1IDgrPyMjXa6B4QpZELVyvsuxg4lgAxIGrseDVAHvWpIKW1tpl
+rA3kBNg0lZM/GtnVMmN8zkrPxV8n+xDSeQJ54iveUTAeU9P9httTQvjA5OPkJ0kV
+bFz99Kb4p1nffn9bdS3uKWvecCM0qsxK09d2ntebHQ2w/N2374OoWvoMu28HdzvG
+2c5h3NNBL/zmeoEiMu+WqYwc8tOR9BVTV6qgyxr9dVHBTvAcN+diFrQMBlcpD+/a
+ZbqZDjCnrwpKxT3lG7f/Qvf4P5ibmbhscKgykowmYkGfpddqXi/m7ktmsNV2DrdV
+2GGft9VzkzcvMKETNtd7KG7kM+ZfPbkRHxILt53pMUa6/7179n0EEJAHdXnfHN1g
+bAiJDi0efHv6ZI+wBjS6ntzP+hflbG6fOjFKBf3APFOAOvetxkEabqy3ocXo7YWf
+Z4ULHuUdSeZxaJw9Abi6GQmJJnSd0fcuEJgQOWWO6O0h8soOHzE=
+=oFyT
 -----END PGP SIGNATURE-----
 
---===============6185605154838520670==
+--===============4079074193980172396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79a2287c1df4-ea0e278a5c55.txt
+Content-Disposition: attachment; filename=revlist-362346d3d6d7-ad25def1cbff.txt
 
-3d0d1c7a5c9981ca35e2976337c0b6c9e644d269 scsi: fnic: Self-assignment of intr_time_type has no effect
-ce085ecdba23a5d5462877d884ecff3ffceaad22 scsi: core: Do not declare scsi_cmnd pointers const
-bfe0d22f12559f44bf27ae88b9c4a9f8fdae65d0 scsi: ufs: core: Update CQ Entry to UFS 4.1 format
-8627f322cb7b6f1f9f7a78bd9c79b82534fbc9c9 scsi: ufs: core: Support dumping CQ entry in MCQ Mode
-f8e82ae65eaf347fb8924a1d9c544da7bcb9f798 scsi: ufs: core: Remove UFS_DEVICE_QUIRK_DELAY_AFTER_LPM quirk
-4760b639b43c107c8bfccd658478bbb3152fa56f scsi: ufs: core: Replace hard coded vcc-off delay with a variable
-1c6279dc2597118902f89ff251180294fa85f5bf Merge patch series "Remove UFS_DEVICE_QUIRK_DELAY_AFTER_LPM quirk"
-7162536410768ec6b219524c36d3a871ff97adf8 scsi: ufs: host: mediatek: Correct clock scaling with PM QoS flow
-55ce691dc75a356e4b7c552505ce0a427c72f3af scsi: ufs: host: mediatek: Adjust clock scaling for PM flow
-16b42c4281ae536a6ceda97303d9820ac5741293 scsi: ufs: host: mediatek: Handle clock scaling for high gear in PM flow
-1fd05367d5b1a5edd3d14c966a5f510e5b8a0c5e scsi: ufs: host: mediatek: Adjust sync length for FASTAUTO mode
-014de20bb36ba03e0e0b0a7e0a1406ab900c9fda scsi: ufs: host: mediatek: Fix shutdown/suspend race condition
-9b2b03b36168bcda298546b121d6ecc530d01d25 scsi: ufs: host: mediatek: Remove duplicate function
-4fb4c835a92b6dfa3a461102ba0943b416ae7e55 scsi: ufs: host: mediatek: Add support for new platform with MMIO_OTSD_CTR
-9ce37e94c30090d26df26b1bbb2fa9c51ede7651 scsi: ufs: host: mediatek: Support new features for MT6991
-36e6daa543d9f3025e20bad0d875a4bfef525a3f Merge patch series "Enhance UFS Mediatek Driver"
-ea0e278a5c5500be1fdfc1be68c63de4c31513fc scsi: qla1280: Fix compiler warnings (DEBUG mode)
+7b2c4224faa7bc6cdaf1fb6106ec7b46c63a28cb scsi: ufs: core: Improve documentation in include/ufs/ufshci.h
+b3b0842bcb0696e25b1977238ce2907a4c02d8c4 scsi: ufs: core: Change the type of uic_command::cmd_active
+a332735a53d6877f0d4fe28bc9263864da3dd470 scsi: ufs: core: Remove UFS_DEV_COMP
+b30006b5bec1dcba207bc42e7f7cd96a568acc27 scsi: ufs: core: Move the ufshcd_enable_intr() declaration
+047f190494a010d402b13f31bf37b2b16bf5720a scsi: ufs: core: Remove a goto label from ufshcd_uic_cmd_compl()
+bfe5f5dacfbab96a6424c3bb376557bf0d8e4a20 scsi: ufs: core: Simplify ufshcd_mcq_sq_cleanup() using guard()
+a7480fda0f0fdd0d094d750359a67c7df2d6fa7f Merge patch series "Eight small UFS patches"
+dcc98c11364e19df1b4b49d75a04149f99c1b348 scsi: core: Minor comment fixes for scsi_host_busy()
+bb798c1f43c0010d792b93dc9cbb9cef7a052f61 scsi: advansys: Don't call asc_prt_scsi_host() -> scsi_host_busy()
+e414748b7e83673cc777ce33e44d90e5157d687f scsi: aacraid: Improve code readability
+e9ff858c9adff26f5d2f77d3575e39fb1470027c scsi: qla4xxx: Use correct variable in memset for clarity
 
---===============6185605154838520670==--
+--===============4079074193980172396==--
