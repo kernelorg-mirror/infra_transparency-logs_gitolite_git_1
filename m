@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 24 Oct 2025 16:33:40 -0000
-Message-Id: <176132362091.74691.8096167777892314804@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 16:35:32 -0000
+Message-Id: <176132373214.77902.17438617666529064698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 7cd7c8f4ad07e978304fce6b361c478a45090706
-    new: 660f1106325412488a5bc282558548717554ef00
+    old: 660f1106325412488a5bc282558548717554ef00
+    new: 6cf9e169fdeb30af95946ace644a7024c0a6b0db
     log: |
-         70ed491686ee89766c02bab2f3ebf42be1eaf24b feat: create a spinner module
-         6a9d74aeaf2eac9648a1e3f7fec3e830b97aff8b refactor(auth): consolidate auth parsing
-         0ba5d2a3d8cae401d192c19e315386710b80da80 refactor(delete): open code delete_tpm_handles
-         660f1106325412488a5bc282558548717554ef00 refactor(session_cache): use Path::try_exists
+         1c19a230cae66cb9291eb181c87d84dc3ae02bb1 feat: create a spinner module
+         85e7bb73aa9b36a7935a961ce8468110f8941efa refactor(auth): consolidate auth parsing
+         73ab2857c46c07541e2597c5fa919c228d4a9213 refactor(delete): open code delete_tpm_handles
+         6cf9e169fdeb30af95946ace644a7024c0a6b0db refactor(session_cache): use Path::try_exists
          
