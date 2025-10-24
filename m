@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3189989089803541181=="
+Content-Type: multipart/mixed; boundary="===============5421302975246077706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 24 Oct 2025 19:38:39 -0000
-Message-Id: <176133471941.233933.15371445109692431910@gitolite.kernel.org>
+Date: Fri, 24 Oct 2025 20:18:01 -0000
+Message-Id: <176133708183.266043.634336482957702602@gitolite.kernel.org>
 
---===============3189989089803541181==
+--===============5421302975246077706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,18 +13,18 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+user: bp
 changes:
-  - ref: refs/heads/core/core
-    old: 3ec09344b01a15901ba824e877a0562ed8103e27
-    new: 70e0a80a1f3580ccf5bc1f34dbb433c67d9d8d00
-    log: revlist-3ec09344b01a-70e0a80a1f35.txt
+  - ref: refs/heads/x86/mm
+    old: 86e6815b316ec0ea8c4bb3c16a033219a52b6060
+    new: 5385dec724ab4582df5b1fb2184c8b42ea547b3d
+    log: revlist-86e6815b316e-5385dec724ab.txt
 
---===============3189989089803541181==
+--===============5421302975246077706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ec09344b01a-70e0a80a1f35.txt
+Content-Disposition: attachment; filename=revlist-86e6815b316e-5385dec724ab.txt
 
 cd1c3b730a2a0455b405d7ecbd02a63b51cdc04b perf powerpc: Allocate and setup aux buffer queue to help co-relate with other events across CPU's
 8644834a482a94e7da391a09af4d7f3672a5a400 perf powerpc: Process the DTL entries in queue and deliver samples
@@ -1049,6 +1049,6 @@ c7864eeaa4b743bffe4abb396a03b9d4730195fe Merge tag 'x86_urgent_for_v6.18_rc2' of
 343b4b44a10f6e383bd829ba130024cfde2a08d4 Merge tag 'perf_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d9043c79ba68a089f95bb4344ab0232c3585f9f1 Merge tag 'sched_urgent_for_v6.18_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 211ddde0823f1442e4ad052a2f30f050145ccada Linux 6.18-rc2
-70e0a80a1f3580ccf5bc1f34dbb433c67d9d8d00 treewide: Remove in_irq()
+5385dec724ab4582df5b1fb2184c8b42ea547b3d x86/mm: Unify __phys_addr_symbol()
 
---===============3189989089803541181==--
+--===============5421302975246077706==--
