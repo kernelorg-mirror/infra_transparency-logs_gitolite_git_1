@@ -1,43 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============7489036420701388097=="
+Content-Type: multipart/mixed; boundary="===============1010778290433110529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 25 Oct 2025 19:54:06 -0000
-Message-Id: <176142204645.1424207.17196177255071745504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 25 Oct 2025 20:32:41 -0000
+Message-Id: <176142436174.1455060.12080705502042062096@gitolite.kernel.org>
 
---===============7489036420701388097==
+--===============1010778290433110529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/wip-sha3
-    old: 38e1f1c83e67e1d4b8f0d410d2bc5c24919e5bc7
-    new: 670f787817d174aea75df0aa019dace4a0a6ab6e
-    log: revlist-38e1f1c83e67-670f787817d1.txt
+  - ref: refs/heads/next
+    old: 957e857840d173bc081717036ed363986cdd07be
+    new: c86b5aa3668388d836111640f3c7e2c5d697aac4
+    log: revlist-957e857840d1-c86b5aa36683.txt
 
---===============7489036420701388097==
+--===============1010778290433110529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38e1f1c83e67-670f787817d1.txt
+Content-Disposition: attachment; filename=revlist-957e857840d1-c86b5aa36683.txt
 
-77f5dab5226c0be885df3ada40d82751a0611453 lib/crypto: sha3: Add SHA-3 support
-1e34ba2c358f2402f9c7a6990da1b29c3f3c217a lib/crypto: sha3: Move SHA3 Iota step mapping into round function
-bd427c3e673cc06a7c096c45a9369c707e324b36 lib/crypto: tests: Add SHA3 kunit tests
-8b6299bb4c4b1ccc1a685ec7a3c728e11b1fb002 lib/crypto: tests: Add additional SHAKE tests
-d1129fed5b8c8cd0c276167455a9d82a7e7a588e lib/crypto: sha3: Add FIPS cryptographic algorithm self-test
-121f145d0e595992d810d6a73ae5d0739c743c78 crypto: arm64/sha3 - Update sha3_ce_transform() to prepare for library
-a73279c97f0ad80ff23409600adcddf224e023c5 lib/crypto: arm64/sha3: Migrate optimized code into library
-0e030458babadc4456904f3d93c441e4eb58d737 lib/crypto: s390/sha3: Add optimized Keccak functions
-614999576c96a74156c83036a6c507ead7e66162 lib/crypto: sha3: Support arch overrides of one-shot digest functions
-244ca08883b1f7fb8c9fa7394968b0a6db3dffea lib/crypto: s390/sha3: Add optimized one-shot SHA-3 digest functions
-fdadab9df9583202484c811391835599404ddfbc crypto: jitterentropy - Use default sha3 implementation
-7fb345d07a2aa15c664ad772853208c5555b0912 crypto: sha3 - Reimplement using library API
-670f787817d174aea75df0aa019dace4a0a6ab6e s390/crypto: Remove superseded SHA-3 code
+061ba1c18d9da309c151975ea4f9c25296e41546 _damon/add_childs_target(): use local variable ctx
+1b1688a20c66b76dcb2c39d0010f9708b7a4e0f9 _damon/commit(): cleanup obsolete target sysfs files
+2437853ee2b7943e800f01c9dc8af277493cf644 _damon/add_childs_target(): do nothing for target regions fixed ops
+3a340e12493c0ea482f48ca943cd78babaa31438 _damon: rename add_childs_target() to add_commit_vaddr_child_targets()
+9a8ad586ca1195710a0b5655e3e0eb8217233f74 _damon: split child targets in-damo update logic
+6bc1228b5c9289eaa6f1e03f711e8faf7ab86101 _damon_sysfs: add a function for optimzied feature check that can fail
+e7b8bfc40983fe6c53b913d823954607b4001f94 _damon: add 'obsolte_target' feature to the featres list
+fd0dcd8f1b8f0a2f4be9b483508594a02ea00b83 _damon_sysfs: check obsolete_target feature support
+0ec30630cac668be41d431cae14d22588499327d _damon_sysfs/read_feature_support(): support obsolete_target
+c86b5aa3668388d836111640f3c7e2c5d697aac4 _damon/add_vaddr_child_targets(): manage monitorign resutls correctly on obsolete_target supporting kernel
 
---===============7489036420701388097==--
+--===============1010778290433110529==--
