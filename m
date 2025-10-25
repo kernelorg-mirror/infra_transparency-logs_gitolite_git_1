@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 25 Oct 2025 02:14:33 -0000
-Message-Id: <176135847334.559771.11330625708281135458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 25 Oct 2025 03:20:46 -0000
+Message-Id: <176136244641.614973.16106162261372099196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/mellanox/linux
+user: saeed
 changes:
-  - ref: refs/heads/main
-    old: 1ab665817448c31f4758dce43c455bd4c5e460aa
-    new: 84a905290cb4c3d9a71a9e3b2f2e02e031e7512f
+  - ref: refs/heads/mlx5-next
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: eea31f21dce10814e34dc7ef7ed5136269c7bb59
     log: |
-         84a905290cb4c3d9a71a9e3b2f2e02e031e7512f net: phy: dp83867: Disable EEE support as not implemented
+         eea31f21dce10814e34dc7ef7ed5136269c7bb59 {rdma,net}/mlx5: Query vports mac address from device
          
