@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Sat, 25 Oct 2025 11:49:15 -0000
-Message-Id: <176139295590.1030816.13108655886397654221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Sat, 25 Oct 2025 11:49:25 -0000
+Message-Id: <176139296547.1031111.14579271330855517861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: fa717fce4dabe7dc291b30e243cfc0b52576cee6
-    new: f17f1b16e90581d1a1d95781f94b8c57d5b43af1
+  - ref: refs/heads/for-leds-next
+    old: 26fe74d598c32e7bc6f150edfc4aa43e1bee55db
+    new: c06a017439110debd335b6864bc2d69835624235
     log: |
-         be8512ed15826a24f4599ac48dd6168f9647d47d mfd: da9055: Fix missing regmap_del_irq_chip() in error path
-         f17f1b16e90581d1a1d95781f94b8c57d5b43af1 dt-bindings: mfd: dlg,da9063: Allow wakeup-source property
+         c06a017439110debd335b6864bc2d69835624235 leds: upboard: Fix module alias
          
