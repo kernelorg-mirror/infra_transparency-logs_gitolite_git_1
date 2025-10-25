@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 25 Oct 2025 17:11:44 -0000
-Message-Id: <176141230408.1294105.4098238960188346447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sat, 25 Oct 2025 17:15:28 -0000
+Message-Id: <176141252819.1298070.592438287783591648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/todo
-    old: 7ddb9a9d5d51a6c6dfac4b661d7c5a3e9758cd0a
-    new: d9ba542c73dfcddd1e30ffd5bf81e1c1182af8d9
+  - ref: refs/heads/main
+    old: 64fc7c915044f7b1b423dcce1c9f31000058a9f4
+    new: 30d6ed6f62a241b40e4ad81016c918b9854cf956
     log: |
-         d9ba542c73dfcddd1e30ffd5bf81e1c1182af8d9 What's cooking (2025/10 #09)
+         30d6ed6f62a241b40e4ad81016c918b9854cf956 refactor(load): remove --parent
          
