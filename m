@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0327595523760175655=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 26 Oct 2025 17:53:08 -0000
-Message-Id: <176150118803.2580652.944387962677624000@gitolite.kernel.org>
-
---===============0327595523760175655==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 26 Oct 2025 17:54:54 -0000
+Message-Id: <176150129486.2582161.16646401954682983139@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: 2528c15f314ece50218d1273654f630d74109583
-    new: c17fa4cbc546c431ccf13e9354d5d9c1cd247b7c
+  - ref: refs/heads/asoc-6.18
+    old: 61eb4112a8fbed999e3906a6c35e0731cf688c43
+    new: ad68c0536cfc28c161593ca4c896a6e74435394b
     log: |
-         2914f6ea90772ce4a8311a6d5b3ab94e3cd31b12 ASoC: soc_sdw_utils: add cs35l57 support
-         c17fa4cbc546c431ccf13e9354d5d9c1cd247b7c ASoC: sdw_utils: add name_prefix for rt1321 part id
+         cfca1637bc2b6b1e4f191d2f0b25f12402fbbb26 ASoC: Intel: avs: Unprepare a stream when XRUN occurs
+         845f716dc5f354c719f6fda35048b6c2eca99331 ASoC: Intel: avs: Disable periods-elapsed work when closing PCM
+         64007ad3e2a0e0a0ded8b2c6a72c0bb7883d3a33 ASoC: Intel: avs: Use snd_codec format when initializing probe
+         d9fbe5b0bf7e2d1e20d53e4e2274f9f61bdcca98 ASoC: fsl_sai: fix bit order for DSD format
+         ba3a5e1aeaa01ea67067d725710a839114214fc6 ASoC: fsl_micfil: correct the endian format for DSD
+         79a6f2da168543c0431ade57428f673c19c5b72f ASoC: mediatek: Fix double pm_runtime_disable in remove functions
+         a35551a32d8686c0a33a580ebb8c8d6652b7971f ASoC: Intel: avs: Set of streaming fixes
+         ad68c0536cfc28c161593ca4c896a6e74435394b ASoC: fsl: correct the bit order issue for DSD
          
-
---===============0327595523760175655==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1761501251 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1761501184-e195ee19bb3b3b2b18bb8c9269370e7af57f085d
-
-2528c15f314ece50218d1273654f630d74109583 c17fa4cbc546c431ccf13e9354d5d9c1cd247b7c refs/heads/asoc-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmj+YEMACgkQJNaLcl1U
-h9DHbQf+Nd2Xa7O9AuizHX35qCBFUIenvT8/8LAenUJJtNI+k/IoLp/CkZZK7iDb
-HH03p0f7PY/tyvnBXuXuqUwcBtnnuFwrbXwH6bo6h65u1k0gFh6F5xock+x0jGD7
-JEc0xfsU5qFqT4/+361uVo7/1ojE/jUYK+f99TQtzhY5GTlv1Dy8xHZyoqYWoY63
-wSjPAAPiA1MpMFP8Y7uzL3r/09MVPJ8l07Uy1ioHJGETIVOP4ThGM6svd6z582+D
-CNm97ddw8UtL6D5GiW7SDys2r72EsFuzJD4JhtwfFI+8ernIWluMSoFUlIBtBdET
-FvXHA+Q0JrgpXfUPdev/9GPlFMw3GQ==
-=vwLM
------END PGP SIGNATURE-----
-
---===============0327595523760175655==--
