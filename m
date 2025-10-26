@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
-Date: Sun, 26 Oct 2025 13:01:00 -0000
-Message-Id: <176148366096.2285140.17972787074236577457@gitolite.kernel.org>
+Date: Sun, 26 Oct 2025 13:01:02 -0000
+Message-Id: <176148366263.2285222.10999293411068065571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/android-os
 user: mkorenbl
 changes:
-  - ref: refs/heads/chromeos-6.6__release/core87_preview
-    old: a45e773c2a7fa7901a39f6c091bd423d1aa14f1b
+  - ref: refs/heads/chromeos-6.6__release/core88-83
+    old: c67cfff6fb8d2aaa9712814f34854438854901fb
     new: 0000000000000000000000000000000000000000
