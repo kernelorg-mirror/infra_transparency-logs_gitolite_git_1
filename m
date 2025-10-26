@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Sun, 26 Oct 2025 20:59:36 -0000
-Message-Id: <176151237650.2732375.875444947585072912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
+Date: Sun, 26 Oct 2025 21:03:05 -0000
+Message-Id: <176151258558.2735502.9951742376896969907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/iwlwifi/android-os
+user: mkorenbl
 changes:
-  - ref: refs/heads/dt/next
-    old: dd279aa6536513740d1dab47c66966ea7ea6ca78
-    new: 3788bc342c7aadc69e9b35688b7b4ab9c8aa7da3
-    log: |
-         3788bc342c7aadc69e9b35688b7b4ab9c8aa7da3 dt-bindings: Remove extra blank lines
-         
+  - ref: refs/tags/android16-6.12-desktop__release/core98-2025-09-21
+    old: e88c4769ae2ca57072123d31c6ccbfa4dd4e08ad
+    new: 0000000000000000000000000000000000000000
