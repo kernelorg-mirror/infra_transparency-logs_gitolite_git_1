@@ -1,57 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2423302034132512903=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 26 Oct 2025 09:51:49 -0000
-Message-Id: <176147230909.2095140.8053923683767899498@gitolite.kernel.org>
-
---===============2423302034132512903==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 26 Oct 2025 09:54:46 -0000
+Message-Id: <176147248686.2096959.6963175809174952281@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 4f5693dfdb91ddb37269613f74ef347b1b7fa71a
-    new: e1414b2034ce4a8d542d5448749dac3674444460
+  - ref: refs/heads/kvm-arm64/vgic-lr-overflow-WIP
+    old: bf16fbc8952625d09fb302d74e03964cb13f6eca
+    new: b11683233ba9871a60f27cd5d99e017c92d5382c
     log: |
-         101d853bef8312a0eaac51a7f8636ac50f0da923 proposed: Add Ruiqi's results for v6.17.3
-         e1414b2034ce4a8d542d5448749dac3674444460 update cvelistV5
+         3f517b51cba1838b4ea1fe1316b510e0c4ea6fbd KVM: arm64: Handle deactivation via ICV_DIR_EL1 traps
+         69296acd42e353eed221aee699d4f74912643946 KVM: arm64: Set ICH_HCR_EL2.TDIR when EOImode==1 and active interrupts overflow
+         c471f90ee1860129764204d67159696571bcc82c KVM: arm64: Move undeliverable interrupts to the end of ap_list
+         f6109cf005e042c5f2e3deae85fc4773355b2b71 KVM: arm64: Decouple ICH_HCR_EL2 programming from LRs being loaded
+         e10665668a980f717bcad17c964e34da77328d23 KVM: arm64: Add SPI tracking to handle asymmetric deactivation
+         b11683233ba9871a60f27cd5d99e017c92d5382c selftest hacks
          
-
---===============2423302034132512903==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761472370 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1761472306-9753e0f700b0603d16ac6925f29b2244ca329bb9
-
-4f5693dfdb91ddb37269613f74ef347b1b7fa71a e1414b2034ce4a8d542d5448749dac3674444460 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj973IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qBwQAJoVtX90NS1w1nXFTNL5
-AbCX6pJJiFgsY3QQ2XSEahalqWC10JH5gupg/acyj9GpHgTGphNDpD4IJswAoId+
-L4L/4ATjwqXf6KqTg4hpR9YSuG6ig/TavT3/0heo9aysZKvGPqUaPOvhCutlHhph
-BmqjR6Nk7ctAf500QkYN48HYVQNH1GTthKiMaaa43BSR3aoV4Bfpj+F/n0g1JvHV
-3FiG8GyQ03+v8BAzIi1q7RUWx9GoNldiixAk0+VQdAOpmgACKNAlN4Tjff8ZVH8v
-iMqNxmTMODvsA6YLzlbBBLcYXOwq3orFVgAow5UfAX+sUzzDYTReRKZtBjKs5boZ
-FACeQezV55Sy9OMlVsLV46MYaeNlyttj8UdRS8xX6Xl8UKnqto0FivkwMpPtfPTu
-f0Z8gb1ByKHdCly9zqS/kAnQ8F+zE1oA+q/bUwL6dzZ4tZV8f18HUWOSsQDCz3HW
-3cco3ZQOK2nLoB0rB1DlZZ0MFiozGOFYeX+p9URuzUgMzttVNFTiCqINNItF0/kc
-j5oPZDSq3IBaCe9GoB1RWxt3cA1hancT/2NleQuEC79FGop6Gthw5pQGs33asvyu
-4Cz9VWcsWVN8ml3kXqQ2RxlI9hwcxGjzilLYOPzIDj5EBCSEE+OgjxIbIyYPEXhT
-kXKgX9LxJ0UREAH6hNHmcqwv
-=Af6p
------END PGP SIGNATURE-----
-
---===============2423302034132512903==--
