@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3005866580191370280=="
+Content-Type: multipart/mixed; boundary="===============7473596931086329200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 27 Oct 2025 07:17:21 -0000
-Message-Id: <176154944146.3296577.2404036924498203463@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 07:17:29 -0000
+Message-Id: <176154944936.3296750.13245466443060101350@gitolite.kernel.org>
 
---===============3005866580191370280==
+--===============7473596931086329200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: d518314a1fa4e980a227d1b2bda1badf433cb932
-    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-d518314a1fa4-dcb6fa37fd7b.txt
+  - ref: refs/heads/tty-next
+    old: 7553f5173ec3f01d7452a80ba82bef60d3ba29b7
+    new: 4e68ae36422e85ec1a86aded26a211319649426d
+    log: revlist-7553f5173ec3-4e68ae36422e.txt
 
---===============3005866580191370280==
+--===============7473596931086329200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761549506 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761549511 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1761549439-fa983333c3ccb58a7af708b26e48b2a6c6b02074
+nonce 1761549445-44a104ef6e6e006efbf5c8f9b4e2ec7816059a5e
 
-d518314a1fa4e980a227d1b2bda1badf433cb932 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/tty-linus
+7553f5173ec3f01d7452a80ba82bef60d3ba29b7 4e68ae36422e85ec1a86aded26a211319649426d refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/HMIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mYgP/j1KbzVX19yWU2dl/KEg
-b9zegi5Vbb1jzZ7gE2a0gtAnHEqXia/J/3bL+xyWwRlaMafEUnhuZVLgk7dESgqq
-du7b143OLHwVhAHCRAoTU9M4HoiDOGPceTEXL5MSWwx+qwwz7HmVVeCOpiH8S6G3
-piQx/nrJvMWjcGfLlDR6aWFpTLYAPHefVqJadPPCKOm2sdkxdv+zgwlVKgksn+a9
-16ARVFKupzVLYZruSscvzg9h9/EGRLwk5IN3yhdYHflbgTeFRG7A8u5wgRETLxhL
-qdBic7uY08ZcJNvpO3iTEIhe3OpAsMMmzEv+qV4PVpiYySce+WUElYQO5tdzfQqB
-JRmjNYuq6WcNBFHxHWTZcMUteXiZb3Hb4STCRxN96Pij2yvgl9KOefOwKBCk6LRi
-Mvt7JQqHfS7NJbs4Nky7+o8/gTAfJ0hHxmFSu3KvkDJH5mSuL3i9IenBSPeD0WKB
-3H9DSBWoglvDLUfNoRHft0osgjuNZr6tAkwJd2OaORBmT5wxXPR0JDPW+XVZ1Wyg
-tLpR1FwswDjA9MuJzC+lFktYYWS9zaolk/v0XTwY+LE9ynZQD+9vUWfOMq+rGQBC
-mJ8gfy0CC47hmNGa26wZyI5JpfrFyvrxb1R0cVJe24+1FmbzGFMnJIIMgVZLJVdP
-mQDUCFKruW6DlXE/fGIMURKV
-=ii4p
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/HMcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lPEP/2+aQeYt0WBRg2/a/d0V
+m8VWPv//SFZ5uHc3eDayiccHF7dAFCi58eUW8u63BLyJzFYe1jhO4uFUvhGET3bh
+bQP4ki7URqDJMcm2XWz4MHrGSZmrWKpy9AK4TPlV8ptKY9Nyg49WICu233meMLkZ
+VG2VK74IxrMZ0x1Y0QQ/Zq00Xr0DkhYdFeO2csYhMF2aobbnAXR0OOcvVVVShFWK
+a/nMR2OeQ0krRiTFdDUfgm7lbUrHS6hTDEL4KcqgMtxoXQBl9zLYBIHiRI4fVOpE
+dw48GScs2yr5PzJS60PpX64rKlpfANoHpMxoFlPaFYyUB5gYSH69s+jSgw3HFqGP
+73SbMQEA1Xan74ZiX5RPJWtOXFc53ZA7EJhqMXC6nLkGAZdf+4a9e6NjC/HknWGT
++7gH0gSQvaWUmwQistBx1QAncGyzs/g//c6iAfaaqKErMJ/nh/EoKOGn8RwctodT
+tEIU5mRRP9YcaEF41sO3P0kBvgw2WZM+FIhEbe/Cj9QOwJWiLXu9VOZE9Kc78xC/
+dopF5qLlZjhdQAHNvKKynm7BzfaqucjLPWflLh72AKP7z7feASfzxY5gBp05szuP
+ZFUY+rR65LAESOea/uMKI36J3sWXGdkejQW3zrLEQ9zJ9Nh+VOFSfsvz+ivxnRqi
+W6G5afyqDARda15Q06f4cNXB
+=4/Vz
 -----END PGP SIGNATURE-----
 
---===============3005866580191370280==
+--===============7473596931086329200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d518314a1fa4-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-7553f5173ec3-4e68ae36422e.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -263,6 +263,12 @@ bd721ec7dedcc24ced51559e42a39140b59dfd08 xfs: don't set bt_nr_sectors to a negat
 3e7ec343f066cb3b6916239680ab6ad44537b453 xfs: loudly complain about defunct mount options
 f477af0cfa0487eddec66ffe10fd9df628ba6f52 xfs: fix locking in xchk_nlinks_collect_dir
 db82b8dbf5f06d7b1abec4e1326ed8c02fa16897 PM: runtime: Fix conditional guard definitions
+ef8fef45c74b5a0059488fda2df65fa133f7d7d0 tty: serial: sh-sci: fix RSCI FIFO overrun handling
+e7cbce761fe3fcbcb49bcf30d4f8ca5e1a9ee2a0 serial: 8250_exar: add support for Advantech 2 port card with Device ID 0x0018
+1c05bf6c0262f946571a37678250193e46b1ff0f serial: sc16is7xx: remove useless enable of enhanced features
+ea9f6d316782bf36141df764634a53d085061091 dt-bindings: serial: sh-sci: Fix r8a78000 interrupts
+daeb4037adf7d3349b4a1fb792f4bc9824686a4b serial: 8250_dw: handle reset control deassert error
+d518314a1fa4e980a227d1b2bda1badf433cb932 serial: 8250_mtk: Enable baud clock and manage in runtime PM
 0e4a169d1a2b630c607416d9e3739d80e176ed67 sched/fair: Start a cfs_rq on throttled hierarchy with PELT clock throttled
 dbdf2a7feb422f9bacfd12774e624cf26f503eb0 objtool/rust: add one more `noreturn` Rust function
 49c98f30f4021b560676a336f8a46a4f642eee2b objtool: Fix failure when being compiled on x32 system
@@ -380,5 +386,6 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
+4e68ae36422e85ec1a86aded26a211319649426d Merge 6.18-rc3 into tty-next
 
---===============3005866580191370280==--
+--===============7473596931086329200==--
