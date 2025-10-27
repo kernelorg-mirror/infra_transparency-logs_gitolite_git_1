@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7092286937634387850=="
+Content-Type: multipart/mixed; boundary="===============0087493779705290157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 27 Oct 2025 14:14:56 -0000
-Message-Id: <176157449617.3700628.1537024863458293561@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 14:14:57 -0000
+Message-Id: <176157449745.3700729.9396762845901413906@gitolite.kernel.org>
 
---===============7092286937634387850==
+--===============0087493779705290157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 752c460b5865d87117095c915addcce7a68296f2
-    new: b227c04932039bccc21a0a89cd6df50fa57e4716
-    log: revlist-752c460b5865-b227c0493203.txt
+  - ref: refs/heads/mm-unstable
+    old: 813c0fa931ce6e163f066f6ecc030bc2f10782c4
+    new: 304e6330af13d3e30c1104a36b23a5bab2b07f88
+    log: revlist-813c0fa931ce-304e6330af13.txt
 
---===============7092286937634387850==
+--===============0087493779705290157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-752c460b5865-b227c0493203.txt
+Content-Disposition: attachment; filename=revlist-813c0fa931ce-304e6330af13.txt
 
 7f3b853a615562225e6482f6c578afc74ccff91c mm/huge_memory: do not change split_huge_page*() target order silently
 eaf3dc9843ee2ce99e2a929c5c4cbaeadf4def8c kho: warn and fail on metadata or preserved memory in scratch area
@@ -197,21 +197,5 @@ c1ef73ccfb1feba72dd9f666e4b1b2734f01f5a8 Docs/admin-guide/mm/damon/stat: fix a t
 508092319c74b2e9a7c2831112f506562f9b4285 Docs/admin-guide/mm/damon/lru_sort: document addr_unit parameter
 8fc84dc1587fc6efbbe04bbbd05be38e323d8780 Docs/admin-guide/mm/damon/stat: document aggr_interval_us parameter
 304e6330af13d3e30c1104a36b23a5bab2b07f88 Docs/admin-guide/mm/damon/stat: document negative idle time
-c0d4bfd8a8d018059f23e93d72beb87d86c2ce2f mm: shmem/tmpfs hugepage defaults config choice
-32b837f13bd5c28a364a007e13b19ec61d7b5744 mm/damon/core: add damon_target->obsolete for pin-point removal
-d620095260771c3078d5f0fde4bcdebe5f0544fb mm/damon/sysfs: test commit input against realistic destination
-53d57109515d7b0d56da2ab3e55fa4709d197206 mm/damon/sysfs: implement obsolete_target file
-86c9637c045d7f0af08e211337a16276f7e1465f Docs/admin-guide/mm/damon/usage: document obsolete_target file
-b4cdd91e035568d46bbb39dd879853ad51f42a2c Docs/ABI/damon: document obsolete_target sysfs file
-5aa7c37c2efdb2447f67434cec523935207ab239 selftests/damon/_damon_sysfs: support obsolete_target file
-e3b67043cc6737ec694666dbed9806824d5ed9a1 drgn_dump_damon_status: dump damon_target->obsolete
-f5e00e11b6b835dfa7bcf389f059f89112f842d9 sysfs.py: extend assert_ctx_committed() for monitoring targets
-b6bb0052b44ccf7f2b37b1a12f60afd679eeacf3 selftests/damon/sysfs: add obsolete_target test
-81f888f52141f0d833078da2c9605409253ab545 MAINTAINERS: add include/linux/pgalloc.h to MM CORE section
-3706bacd915491c78b82967c0710ef3373103e49 treewide: include linux/pgalloc.h instead of asm/pgalloc.h
-d026744a5e8a49a8dc07b604319a838ffece2a33 mm/vma: small VMA lock cleanups
-3bb7ebd0f2a3fe0cfe338386099e0e8c3e705df9 mm/vmscan: skip increasing kswapd_failures when reclaim was boosted
-9efdd6ac4cdc4bc27d8f6c638db3421cee24de92 mm/truncate: unmap large folio on split failure
-b227c04932039bccc21a0a89cd6df50fa57e4716 mm: make INVALID_PHYS_ADDR a generic macro
 
---===============7092286937634387850==--
+--===============0087493779705290157==--
