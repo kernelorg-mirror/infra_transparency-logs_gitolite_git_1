@@ -1,48 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6070414590609576534=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Oct 2025 08:24:22 -0000
-Message-Id: <176155346206.3392275.14709083575046500047@gitolite.kernel.org>
-
---===============6070414590609576534==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Mon, 27 Oct 2025 08:27:59 -0000
+Message-Id: <176155367935.3395977.4829642924238208361@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: 14176ea93a11dd009640bfe9615af9339b34488d
-    new: b1d3202df9683f6ca7b3cd90a44218f52a285e72
-    log: revlist-14176ea93a11-b1d3202df968.txt
-
---===============6070414590609576534==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14176ea93a11-b1d3202df968.txt
-
-80841b2a449ce37f6abd865846806c381a36b4ce Merge branch into tip/master: 'core/bugs'
-d40a22c10c77d64133082091e317dad516b99b64 Merge branch into tip/master: 'core/core'
-1c24866a6097ccde14a00bdcaa2270b6e29eb982 Merge branch into tip/master: 'irq/drivers'
-e9b63e124fb4d0cbe38ab8a59ada1fd0fd970d28 Merge branch into tip/master: 'irq/msi'
-436adfe349f3d7fd86dbbde0a4fc08adac698cbf Merge branch into tip/master: 'locking/core'
-f2dae87a57f9fb2dbf422a11076ef8db5e6ff9b4 Merge branch into tip/master: 'objtool/core'
-e7129356af7601d8c5322a6c1b031cbd100ead26 Merge branch into tip/master: 'perf/core'
-97bed0d586f57670333daf5a2ad34b5c68b618f1 Merge branch into tip/master: 'sched/core'
-a5a8d96e1fba3a77a7511aac154f71416277b5e0 Merge branch into tip/master: 'x86/apic'
-4a88b5865f1ff3acd7616fbd2550e67726ce92dc Merge branch into tip/master: 'x86/bugs'
-ae9ee5b71279b4ce2fc72521eef0b5007998ffcd Merge branch into tip/master: 'x86/cache'
-841c34d1ce64247063dd3a11991ca8c024c08077 Merge branch into tip/master: 'x86/cleanups'
-19b8ac3fbf47eedca29f5091dca39fcac9237864 Merge branch into tip/master: 'x86/core'
-24b3a70f62c8161e43f431689bca36efd0d7ef2e Merge branch into tip/master: 'x86/cpu'
-5b28ecd704428ffde02346899e489395e3f9e325 Merge branch into tip/master: 'x86/entry'
-8af887be08e1782a5ba77422165c48e9284b2f32 Merge branch into tip/master: 'x86/microcode'
-e40c897f15980e9e5fde9364652d71a4f6c05b55 Merge branch into tip/master: 'x86/mm'
-b1d3202df9683f6ca7b3cd90a44218f52a285e72 Merge branch into tip/master: 'x86/sgx'
-
---===============6070414590609576534==--
+  - ref: refs/heads/usb-next
+    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+    new: 53002803832be8cfea1466ce8d568014e9de29d6
+    log: |
+         b6e0b3016187446ddef9edac03cd9d544ac63f11 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+         d432df758f92c4c28aac409bc807fd1716167577 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+         66b1c554a83dbe30db382c527890fead49e777f5 USB: serial: belkin_sa: clean up tiocmset()
+         ddf81605809652228469275f8598cf7d55450bdc USB: serial: kobil_sct: clean up tiocmset()
+         e41de6124e0aac03e7c83f6972810e59ccb27fba USB: serial: kobil_sct: clean up device type checks
+         754640d85566ffccfae489cd0c16de57bdf88140 USB: serial: kobil_sct: add control request helpers
+         d99bdbb0d3e4928dfc5c8dfd017483055ed792c1 USB: serial: kobil_sct: clean up set_termios()
+         53002803832be8cfea1466ce8d568014e9de29d6 USB: serial: kobil_sct: drop unnecessary initialisations
+         
