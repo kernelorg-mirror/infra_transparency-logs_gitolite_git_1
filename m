@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2211266868683152913=="
+Content-Type: multipart/mixed; boundary="===============0883582063384872625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 27 Oct 2025 01:55:03 -0000
-Message-Id: <176153010345.2978332.16424872727302485468@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 01:56:55 -0000
+Message-Id: <176153021572.2979553.18036633518156187528@gitolite.kernel.org>
 
---===============2211266868683152913==
+--===============0883582063384872625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 8dcc66ad379ec0642fb281c45ccfd7d2d366e53f
-    new: 1f7110b12cac389e4dd21d7fad42b4471090caec
-    log: revlist-8dcc66ad379e-1f7110b12cac.txt
-  - ref: refs/heads/master
-    old: 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d
-    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: |
-         dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
-         
-  - ref: refs/tags/v6.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0edde068997bc3c41f122c9941143a39d604a0dc
+  - ref: refs/heads/testing
+    old: cdd9165c5f6ecc7c981d3dd8b77492d0c11c86df
+    new: bc0422ae3a466270f5587321af984042d16975f7
+    log: revlist-cdd9165c5f6e-bc0422ae3a46.txt
 
---===============2211266868683152913==
+--===============0883582063384872625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dcc66ad379e-1f7110b12cac.txt
+Content-Disposition: attachment; filename=revlist-cdd9165c5f6e-bc0422ae3a46.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
 3b63efa21bc6acc1a0fadd1dd0f0e1988a4c0177 tee: QCOMTEE should depend on ARCH_QCOM
 4092fc5f35cecb01d59b2cdf7740b203eac6948a spi: dt-bindings: cadence: add soc-specific compatible strings for zynqmp and versal-net
-93a4b36ef3cf4ce5e6a7e7a7686181de76e246a1 cgroup: Fix seqcount lockdep assertion in cgroup freezer
-48b77733d0dbaf8cd0a122712072f92b2d95d894 expfs: Fix exportfs_can_encode_fh() for EXPORT_FH_FID
 ee795e82e10197c070efd380dc9615c73dffad6c spi: rockchip-sfc: Fix DMA-API usage
-a7c4bb43bfdc2b9f06ee9d036028ed13a83df42a fs/notify: call exportfs_encode_fid with s_umount
 b69ffeaa0ae43892683113b3f4ddf156398738b9 scsi: storvsc: Prefer returning channel with the same CPU as on the I/O issuing CPU
 987da233b2982c686a8ea5cd4c76f0bd5e957ee3 scsi: qla4xxx: Fix typos in comments
 120642726ecb1b7a266f5c21bec90821e1154509 scsi: libfc: Prevent integer overflow in fc_fcp_recv_data()
@@ -76,18 +64,12 @@ aa960b597600bed80fe171729057dd6aa188b5b5 arm64: dts: broadcom: bcm2712: Define V
 8607edcd1748503f4f58e66ca0216170f260c79b usb: xhci-pci: Fix USB2-only root hub registration
 f3d12ec847b945d5d65846c85f062d07d5e73164 xhci: dbc: fix bogus 1024 byte prefix if ttyDBC read races with stall event
 2bbd38fcd29670e46c0fdb9cd0e90507a8a1bf6a xhci: dbc: enable back DbC in resume if it was enabled before suspend
-a49c4d48c3b60926e6a8cec217bf95aa65388ecc platform/x86: alienware-wmi-wmax: Fix NULL pointer dereference in sleep handlers
-a7b4747d8e0e7871c3d4971cded1dcc9af6af9e9 platform/mellanox: mlxbf-pmc: add sysfs_attr_init() to count_clock init
-f4f868baf292550acbfc35839213de9da0d9e8ab MAINTAINERS: add Denis Benato as maintainer for asus notebooks
-34cbd6e07fddf36e186c8bf26a456fb7f50af44e platform/x86: alienware-wmi-wmax: Add AWCC support to Dell G15 5530
 6b6e03106163458716c47df2baa9ad08ed4ddb0e spi: amlogic: fix spifc build error
 85d7dda5a9f665ea579741ec873a8841f37e8943 cpufreq/amd-pstate: Fix a regression leading to EPP 0 after hibernate
 2290ab43b9d8eafb8046387f10a8dfa2b030ba46 firmware: arm_scmi: Account for failed debug initialization
 289ce7e9a5e1a52ac7e522a3e389dc16be08d7a4 include: trace: Fix inflight count helper on failed initialization
 092b9e2ce6dd63d2f36822751a51957412706986 firmware: arm_scmi: Skip RAW initialization on failure
 20b93a0088a595bceed4a026d527cbbac4e876c5 firmware: arm_scmi: Fix premature SCMI_XFER_FLAG_IS_RAW clearing in raw mode
-3f9c60f4d3cc3e7f4dd7cac05011ea06d512050f selftests: cgroup: add values_close_report helper
-4cdde87d723a0552f475c8c6b0db472a6945125f selftests: cgroup: Use values_close_report in test_cpu
 760951dd19c2ebf55214e0cb259e4494098dfc9b spi: spi-nxp-fspi: few fix for flexspi
 c97513cddcfc235f2522617980838e500af21d01 hung_task: fix warnings caused by unaligned lock pointers
 f0c5118ebb0eb7e4fd6f0d2ace3315ca141b317f mm/damon/sysfs: catch commit test ctx alloc failure
@@ -108,13 +90,11 @@ d0d3e9c2867b32c9c70e39e74b9425871cf0042a net: gro: clear skb_shinfo(skb)->hwtsta
 1b0124ad5039678a9dfafb6aafef6f430a246b91 net: rmnet: Fix checksum offload header v5 and aggregation packet formatting
 bf29555f5bdc017bac22ca66fcb6c9f46ec8788f rtnetlink: Allow deleting FDB entries in user namespace
 7f864458e9a6d2000b726d14b3d3a706ac92a3b0 net: stmmac: dwmac-rk: Fix disabling set_clock_selection
-a429b76114aaca3ef1aff4cd469dcf025431bd11 erofs: fix crafted invalid cases for encoded extents
 74b84d1be0220b99405c16a4a3e1e503e3bd8387 driver core: fw_devlink: Don't warn about sync_state() pending
 a91c8096590bd7801a26454789f2992094fe36da devcoredump: Fix circular locking dependency with devcd->mutex.
 c7fbb8218b4ad35fec0bd2256d2b9c8d60331f33 sysfs: check visibility before changing group attribute ownership
 4eabd0d8791eaf9a7b114ccbf56eb488aefe7b1f drm/panthor: Fix kernel panic on partial unmap of a GPU VA region
 1d4e7d9f6b7e4e45ec8ca03ae1bbc6ae7165b6f0 Merge tag 'tee-qcomtee-fixes-for-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/jenswi/linux-tee into arm/fixes
-0fbbcab7f9082cdc233da5e5e353f69830f11956 cgroup/misc: fix misc_res_type kernel-doc warning
 17679ac6df6c4830ba711835aa8cf961be36cfa1 btrfs: directly free partially initialized fs_info in btrfs_check_leaked_roots()
 1fabe43b4e1a97597ec5d5ffcd2b7cf96e654b8f btrfs: send: fix duplicated rmdir operations when using extrefs
 cfec502b3d091ff7c24df6ccf8079470584315a0 rust: device: fix device context of Device::parent()
@@ -155,10 +135,7 @@ fc2bc2623e3a099165b02d13567d21fabb5ea54d Revert "PCI: qcom: Prepare for the DWC 
 789e46fbfca1875671717a20a916ca1a920268e4 drm/i915/panic: fix panic structure allocation memory leak
 39a9ed0fb6dac58547afdf9b6cb032d326a3698f timekeeping: Fix aux clocks sysfs initialization loop bound
 10fad4012234a7dea621ae17c0c9486824f645a0 Revert "cpuidle: menu: Avoid discarding useful information"
-380cb5d3533cddd93050d72d65f7b1fc997823f7 Merge tag 'fsnotify_for_v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-6548d364a3e850326831799d7e3ea2d7bb97ba08 Merge tag 'cgroup-for-6.18-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 f3f313c51148668d3c44f1119762325ce2c0715b ACPI: property: Fix argument order in __acpi_node_get_property_reference()
-b2c37c1168f537900158c860174001d055d8d583 MAINTAINERS: Update Alex Williamson's email address
 5da6fb6356362c7eb40ed931b27abc31b3582950 cifs: Add a couple of missing smb3_rw_credits tracepoints
 a73ca0449bcb7c238097cc6a1bf3fd82a78374df selftests: net: fix server bind failure in sctp_vrf.sh
 9a3c0d6834194b6e3cce4ffbb55f800c6cb58c86 drm/xe: Retain vma flags when recreating and splitting vmas for madvise
@@ -190,7 +167,6 @@ bec947cbe9a65783adb475a5fb47980d7b4f4796 drm/amd/display: increase max link coun
 72a1eb3cf573ab957ae412f0efb0cf6ff0876234 drm/amd/display: use GFP_NOWAIT for allocation in interrupt handler
 6e3a4754717a74e931a9f00b5f953be708e07acb ACPICA: Work around bogus -Wstringop-overread warning since GCC 11
 143937ca51cc6ae2fccc61a1cb916abb24cd34f5 arm64, mm: avoid always making PTE dirty in pte_mkwrite()
-552c50713f273b494ac6c77052032a49bc9255e2 Merge tag 'vfio-v6.18-rc3' of https://github.com/awilliam/linux-vfio
 0e59f47c15cec4cd88c51c5cda749607b719c82b mm/mremap: correctly account old mapping after MREMAP_DONTUNMAP remap
 c3fa5b1bfd8380d935fa961f2ac166bdf000f418 mm/damon/core: fix list_add_tail() call on damon_call()
 4ba5a8a7faa647ada8eae61a36517cf369f5bbe4 vmw_balloon: indicate success when effectively deflating during migration
@@ -198,8 +174,6 @@ cec944dd329fbefee907da95c298719d900d4787 hugetlbfs: move lock assertions after e
 7071537159be845a5c4ed5fb7d3db25aa4bd04a3 mm/damon/core: fix potential memory leak by cleaning ops_filter in damon_destroy_scheme
 7eca961dd7188f20fdf8ce9ed5018280f79b2438 mm/damon/core: use damos_commit_quota_goal() for new goal commit
 9aa12167ef1149d9980713b120ddcb31cf17222d csky: abiv2: adapt to new folio flags field
-e13d315ae077bb7c3c6027cc292401bc0f4ec683 erofs: avoid infinite loops due to corrupted subpage compact indexes
-2a13fc417f493e28bdd368785320dd4c2b3d732e erofs: consolidate z_erofs_extent_lookback()
 e84cb860ac3ce67ec6ecc364433fd5b412c448bc mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
 d68460bc31f9c8c6fc81fbb56ec952bec18409f1 selftests: mptcp: join: mark 'flush re-add' as skipped if not supported
 973f80d715bd2504b4db6e049f292e694145cd79 selftests: mptcp: join: mark implicit tests as skipped if not supported
@@ -211,7 +185,6 @@ c5394b8b7a92c5013d2917591e28e938fe7ff2a2 net: gro_cells: fix lock imbalance in g
 2653e9c5dda5a320310aae8f0abba6fc1be40eec Merge tag 'linux-can-fixes-for-6.18-20251020' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 5523508258d390fd55b25c1c0f99c092f23a39e9 net: dlink: use dev_kfree_skb_any instead of dev_kfree_skb
 d63f0391d6c7b75e1a847e1a26349fa8cad0004d net: hibmcge: select FIXED_PHY
-43c36a56ccf6d9b07b4b3f4f614756e687dcdc01 Revert "fs/9p: Refresh metadata in d_revalidate for uncached mode too"
 7959ffbec062c35bda02aa635d21ac45dbfacd80 nvmem: rcar-efuse: add missing MODULE_DEVICE_TABLE
 70ad06df73a9796026b197d84ead751e096618c7 misc: amd-sbi: Clarify that this is a BMC driver
 410d6c2ad4d1a88efa0acbb9966693725b564933 mei: me: add wildcat lake P DID
@@ -247,9 +220,6 @@ dbdf2a7feb422f9bacfd12774e624cf26f503eb0 objtool/rust: add one more `noreturn` R
 1b824134261d2db08fb6583ccbd05cb71861bd53 spi: dt-bindings: spi-rockchip: Add RK3506 compatible
 119aaeed0b6729293f41ea33be05ecd27a947d48 of/irq: Add msi-parent check to of_msi_xlate()
 c71af4d6d56665e04634babfc45dce3d9ab58285 of/irq: Fix OF node refcount in of_msi_get_domain()
-9ea7460217423f07febe273307a5f3b6b1303b29 Merge tag '9p-for-6.18-rc3-v2' of https://github.com/martinetd/linux
-250a17e8f9555f5c5207581068ebfa2aa1f540a2 Merge tag 'erofs-for-6.18-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-dd72c8fcf6d35de5d6d976f20dc1ae84ce7af08b Merge tag 'platform-drivers-x86-v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 89205c60c0fc96b73567a2e9fe27ee3f59d01193 USB: serial: option: add Quectel RG255C
 4c8cf6bd28d6fea23819f082ddc8063fd6fa963a block: require LBA dma_alignment when using PI
 bf5570590a981d0659d0808d2d4bcda21b27a2a5 MIPS: Malta: Fix keyboard resource preventing i8042 driver from registering
@@ -359,5 +329,41 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 1f7110b12cac389e4dd21d7fad42b4471090caec hwmon: (gpd-fan) Fix compilation error in non-ACPI builds
+631b684a6c14cdf43dd0633b9f66f5831c77701e possible circular locking dependency backtrace seen when enabling PREEMPT_RT
+47d8ae88361122c2b562242db895e3e5febdf9ee ARM: dts: aspeed: fuji-data64: Enable mac3 controller
+2e3ec2fd8bec84e16cf03df67b7d3e9a7f9c2961 libie: depend on DEBUG_FS when building LIBIE_FWLOG
+012efc759e29a150116269e04dc354b01d7fedd5 nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+6614016a2bb23c7579aca047a9ecd89873952a1c power: supply: intel_dc_ti_battery: fix 64bit divisions
+abd1cc5d4964b0a6938e192664f945b2414aa05a Revert "parisc: Add initial kernel-side perf_event support"
+634204353f9bf15093f2ccafa7a71f0c99ebce60 hwmon: (g762) Simplify clock initialization
+e39403e536d0cf57b843b183c14296b1513a9e2f hwmon: (g762) Drop platform data support
+5e008c26fbea775fba259a5f11f58f43610e3428 hwmon: (g762) Reorder include files to be in alphabetic order
+bf3706ba6ec20be6a44536bdc8f0967f578749fd hwmon: (g762) Use bit operations
+a296acb019e236d2bf16a9a22afe2a475abc38a8 hwmon: (g762) Make chip configuration devicetree independent
+982d7e6d69f59134958f8327b0890f7744d54ff4 hwmon: (spd5118) Add I3C support
+5428933f89561f89e7d97d479ab7da51e84c4a08 hwmon: (emc2103) Reorder include files to alphabetic order
+cb0c2f5e96bf79192ffee619c6d5b2fc0bd8dde3 hwmon: (emc2103) Basic regmap conversion
+b9c9d72271ee501971bef61e61c28f994b39e23a hwmon: (emc2103) Convert to use with_info API, and use regmap for caching
+6b408c7630c523053ce119f746feb1b8c61c6a73 hwmon: (g762) Convert to use regmap
+58533fea355edc828a47160a5d9a02d8824e76ef hwmon: (emc2103) Support for additional fan and pwm attributes
+b9fe75b033590d97c7230d6001fa9cdc26ff58bb hwmon: (g762) Convert to with_info API
+2036be32f87d69e5695017f27f8c63c1f522a12e hwmon: (emc2103) Add support for additional temperature attributes
+8d2ffac4d34d04bf73c3de54226323edc4b6e431 hwmon: (g762) Update devicetree bindings document reference
+e7ee5271ff873937285ede4e1a221d212d232c69 hwmon: (emc2103) Rework diode fault detection
+b300f5bee0720e685d5c18d3d49b2b0e4adeda7e hwmon: (max16065) Reorder include files to alphabetic order
+0f0ae9c1fec071d730bedd7e63eb6ef28f2990b9 hwmon: (max16065) Use bit operations
+b94798f48d84b3a33b9cf5e32b775bab16662170 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+558b7e36e73bd298fcbf62220e51c8961cb44996 hwmon: (ltc4282) Fix reading the minimum alarm voltage
+4a27f234773856abd636d30df67cf155e02157fe hwmon: (pmbus/mp2975) Eliminate dead code
+416b27f73a8d1458aec6381318d970d2617ed40a Merge branch 'hwmon-next' into hwmon-staging
+0c1810cc3c7624f022d80c9b73b5620de2f2212a Merge branch 'hwmon' into hwmon-staging
+7905763fbb5a0c1dd8815705a04d9b9c1a8559dc Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+4f594077e1d6cf91200b308dae13752fadbfe638 Merge branch 'hwmon-g762' into hwmon-staging
+122fab1eefaa94792e6af609371d2ad1dac84dc6 Merge branch 'hwmon-emc2103' into hwmon-staging
+4ba54b8f27f54a9e5468f1bda6eeb697a8735fec Merge branch 'hwmon-max16065' into hwmon-staging
+c08a79d796fe39107c39be3c44764cced760ed7f Merge branch 'hwmon-fixes' into hwmon-staging
+9da454e261622335d17811c1fc39675aaa69ba8f Merge branch 'hwmon-lock' into hwmon-staging
+dd05d9076149f7b8061c3b1b9510810e51988971 Merge branch 'hwmon-staging' into testing
+bc0422ae3a466270f5587321af984042d16975f7 Merge branch 'fixes-v6.18' into testing
 
---===============2211266868683152913==--
+--===============0883582063384872625==--
