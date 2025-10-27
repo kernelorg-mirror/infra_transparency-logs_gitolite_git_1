@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1607328958075647680=="
+Content-Type: multipart/mixed; boundary="===============6097995305321881106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Oct 2025 06:48:25 -0000
-Message-Id: <176154770598.3268100.14152797964829102364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 27 Oct 2025 07:00:45 -0000
+Message-Id: <176154844584.3279535.1116106971793889122@gitolite.kernel.org>
 
---===============1607328958075647680==
+--===============6097995305321881106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: d48fb15e6ad142e0577428a8c5028136e10c7b3d
-    new: c428900703aaa528bf141358551287f87e5b2b93
-    log: revlist-d48fb15e6ad1-c428900703aa.txt
+  - ref: refs/heads/main
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+    log: revlist-3a8660878839-dcb6fa37fd7b.txt
 
---===============1607328958075647680==
+--===============6097995305321881106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761547770 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1761547704-ba5eb427a6f817bd5d2183015ba2adb02158591d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761548508 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1761548442-8231108a09ee488de8bdf8135234975a95cc4fe5
 
-d48fb15e6ad142e0577428a8c5028136e10c7b3d c428900703aaa528bf141358551287f87e5b2b93 refs/heads/char-misc-testing
+3a8660878839faadb4f1a6dd72c3179c1df56787 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/FfobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AQ0P+wTeMq09yLVvWdaa7U2x
-JHfsbcrc4CyP4+XtnkMFi2Q/3yd2B9SNGTl3xYIoaFis/3+q878Xj3JOg0BMc5ft
-0vm69ttBHG9IMbEIWLpyBnGp+e4zWsannzjEqQvsmeGJbDS6RBarPiJr5rX+kvuo
-+ZtZaT2zRbt6VTwCtwk/2aJ3HkD2nVNXv6CBriis3OlsHkU4Iq99zbcyF+uUfL4+
-+6zfcS9Eiyxuqkr+9Ab1PMHSmW62jfbZyzvhE5350UUYn9LYYPBLaMOI0ClzcMRm
-XYV81LsnvdDiWOh3xl0Riel9k+AQbragiGgKXC4q0aSlaW6f+gIHc0S6n0TU2h1a
-VFJ8BqKqQQsMK3ft0Lb8qeKIpV+DRK5BsAIWTVtn6rqsO4l8+xvU+BiKHOZukPDT
-O7x+Yb8OZ4UYR1t9N1xVvMgKPVbvtXMGdcVWJBaekZXAWo628L+MxdW81Vx3qJuI
-i3ybPDiSA06fayDHx3c97EcOioSi4wC20MpKvnCCO9hiltfhbpFMUA82Yu/vwujw
-aTVSwenQVMKvWBz90O53/o5DNatJINVTYZ8kfAQU7q+FDnbYjL1QsceZk/UJpTMG
-ASSnpDiXyIMm1H9AMAX7TDs1K+amRkX0+k8AT12SZbkR/DJDULCY4CMHEuh25gdJ
-+YWpxBDSJOS4vGPM3/Cf2Djj
-=v1ek
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/GNwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QPAP/RDbnFiIszvFdg4RKbk6
+gjF3dzj4cVWw+uhkKf6Utkb7EvvMmDc1NtxUbImktrYj4OIyrTQjr0yINDHidEDE
+010+YqTWH1t32QyyXU6xrYW3BR/Qt9PvXwRQRZV/z+g66Kwn5D0CxQBNwIVRSr/6
+KyboWJUf1fBPHgvT2naB/XT3j9aIrEfRrVsCN8iFXDaM+gmBv6ytm7rJs3XeMTzM
+J/amomEzbB15OgsVd2FGiGIDeTYdmgsuWGFNLYQKlKBclUTi8tBx77pbls+qM0XM
+b0i9H2VBHvP6P/XRomeAsMw1Lv+/E23L37XmgafLExfzpWlgy2Lz7SP7OTHCRBfT
+uSs6Bgm0sNcVLVUCPPjDcNLBisIMqClaQlfkpbciSKDF21uZ3GRM3/+en+1t1fGO
+VePMh6YcrH7bhi6sISQoi9ZmJpvg6ZKUlKa4Cnrr6h1AO8qpfpo3hnPjulN0TsJY
+QT6NXdaIDU0L3QUY2UofJyk5WxHtKcneXoq0ycHkcPZol8EJKXy5oKE414CsrAEB
+RWU3GKuUJ12bd8DUHrZZZ8wt/tYLhKJeXPfwEy3Q1qtBoUNIDNkxZDLn6IRDJmsc
+H5wA5qQlg69uQuI0/VikVVVXxSbvGNy6spl3q70/G7LW1cMegYIq6W8nWtoxAWop
+b93WwGLjVz0GYbpaUCUzFpXq
+=5gjj
 -----END PGP SIGNATURE-----
 
---===============1607328958075647680==
+--===============6097995305321881106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d48fb15e6ad1-c428900703aa.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-dcb6fa37fd7b.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -749,6 +749,5 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
-c428900703aaa528bf141358551287f87e5b2b93 Merge 6.18-rc3 into char-misc-next
 
---===============1607328958075647680==--
+--===============6097995305321881106==--
