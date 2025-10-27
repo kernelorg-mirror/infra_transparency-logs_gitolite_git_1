@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 27 Oct 2025 15:18:55 -0000
-Message-Id: <176157833595.3757532.17240640648478874713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Mon, 27 Oct 2025 15:20:10 -0000
+Message-Id: <176157841040.3760920.18398849251109984000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/main
-    old: a8dc7cc9f63a58d63fb9de939d9439607435320f
-    new: c3078b8bbd9a5029287062052b01dac198732ea5
+  - ref: refs/heads/for-next
+    old: 812f223fe9be03dc22abb85240b6f075135d2386
+    new: 2602949b22330f1275138e2b5aea5d49126b9757
     log: |
-         c3078b8bbd9a5029287062052b01dac198732ea5 refactor(convert): Convert::create_external_key
+         2602949b22330f1275138e2b5aea5d49126b9757 tools/nolibc: x86: fix section mismatch caused by asm "mem*" functions
          
