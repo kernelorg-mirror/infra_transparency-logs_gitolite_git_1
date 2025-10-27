@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 27 Oct 2025 15:16:19 -0000
-Message-Id: <176157817968.3755959.3935845797497814569@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 15:17:16 -0000
+Message-Id: <176157823652.3756756.408351726663568078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: mani
 changes:
   - ref: refs/heads/endpoint
-    old: 25423cda145f9ed6ee4a72d9f2603ac2a4685e74
-    new: ea7ed055481951f24b88ff300128090eeae6bebf
+    old: ea7ed055481951f24b88ff300128090eeae6bebf
+    new: dc693d60664470ec47188c328055d80e8ce7ea44
     log: |
-         6c8087b9178081cfb9b44958f8f75de64861efbf PCI: endpoint: Rename aligned_size to mem_size
-         a3148fb0904122f65ee960a2dcfb4d1120c78b29 PCI: endpoint: Add helper function pci_epf_get_bar_required_size()
-         c7e2a39969bbdcbd86bc10465b6be704e7bd0518 PCI: endpoint: Add API pci_epf_assign_bar_space()
-         ea7ed055481951f24b88ff300128090eeae6bebf PCI: endpoint: pci-epf-vntb: Add MSI doorbell support
+         483768846d66c04354898f00bcdaad58a3763be2 PCI: endpoint: Rename 'epf_bar::aligned_size' to 'epf_bar:mem_size'
+         f71e2b67b51dcb2fd8c6d566230f17a735770bee PCI: endpoint: Add pci_epf_get_required_bar_size() helper
+         0bfc6758f213a701bd662982de86f0032b51f18c PCI: endpoint: Add pci_epf_assign_bar_space() API
+         dc693d60664470ec47188c328055d80e8ce7ea44 PCI: endpoint: pci-epf-vntb: Add MSI doorbell support
          
