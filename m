@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0878048297856952878=="
+Content-Type: multipart/mixed; boundary="===============8309594374642543715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 27 Oct 2025 00:13:00 -0000
-Message-Id: <176152398060.2890153.2222381099748701557@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 00:14:58 -0000
+Message-Id: <176152409834.2891826.7147311254632945415@gitolite.kernel.org>
 
---===============0878048297856952878==
+--===============8309594374642543715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
-    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-211ddde0823f-dcb6fa37fd7b.txt
+  - ref: refs/heads/nfsd-next
+    old: 90ea3f4fbb0f6be94d5c98fd53ceab1169c98b95
+    new: a2b7f44d33e9b2df17bb5f15bd0bb258ea2b6115
+    log: revlist-90ea3f4fbb0f-a2b7f44d33e9.txt
 
---===============0878048297856952878==
+--===============8309594374642543715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-211ddde0823f-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-90ea3f4fbb0f-a2b7f44d33e9.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -355,5 +355,11 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
+b43ae7e6c4832e3d1c8d71db0d2a1af724414e58 svcrdma: Release transport resources synchronously
+b3bbcd3680cc4339d19a9c885a6b066e75f64d19 nfsd: move name lookup out of nfsd4_list_rec_dir()
+d243e51c819b7825e2c47779a17e925364f808ce nfsd: change nfs4_client_to_reclaim() to allocate data
+6d809b1fee85f6e9c672f8add1918f5346ca122e nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+2b1683051459aa57c1414351c39514465bc908db NFSD: Add array bounds-checking in nfsd_iter_read()
+a2b7f44d33e9b2df17bb5f15bd0bb258ea2b6115 nfsd: delete unreachable confusing code in nfs4_open_delegation()
 
---===============0878048297856952878==--
+--===============8309594374642543715==--
