@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6375286108887328642=="
+Content-Type: multipart/mixed; boundary="===============2081528353128903768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 27 Oct 2025 07:09:28 -0000
-Message-Id: <176154896868.3287921.17168575303278322185@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 07:09:33 -0000
+Message-Id: <176154897309.3288094.5080386287554856371@gitolite.kernel.org>
 
---===============6375286108887328642==
+--===============2081528353128903768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+  - ref: refs/heads/staging-linus
+    old: b1aabb8ef09b4cf0cc0c92ca9dfd19482f3192c1
     new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-3a8660878839-dcb6fa37fd7b.txt
+    log: revlist-b1aabb8ef09b-dcb6fa37fd7b.txt
 
---===============6375286108887328642==
+--===============2081528353128903768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761549033 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761549037 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1761548967-496699ee9b3605861e5d12051e612a8cbbe62f4a
+nonce 1761548971-2a4aa00b3ead97e29fb47c3ba78b2f2e7fe7e708
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/main
+b1aabb8ef09b4cf0cc0c92ca9dfd19482f3192c1 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/GukbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZfcQAItkLJHI01tuSR4cfH3/
-idfxUBpIy3s6uPnmuqwyv8BlS78+yAYQm8S9ewgvGvxBWbnsncG1VCddEalZjzhW
-lS8QMVF3kuNdL56usU3q7VerpeHRgyzPPGXo1/rro1czAy7dgQlhIk3zROlQ4wcU
-9C1JtVM+fhVAX0lD3BuFOTxh/yJlXLPDptPse6+og4G4GUAvAprPXZKv9uKiCaNN
-HnCneZRr7grlqs3M3GvDEWHrGFX1ci3y23+kGb0nZJpE8owSYADL/E+58OdlQFm0
-K0l6NGixvfIFb5hIUnTgzOTvF2zj90QOYyLzGfvk91eITpjaTS3GPxuJ3iMp2UaR
-KmK50bYtvrwLsBSRHzqItTbCK9gPLBrh4OsyNwAthgvrfSQvIx72+hhty/RuGhuf
-Nrzz7GPcwGwipFmJtDckKjy09zgwhUTr3PW3F/1ummMJ2gAOKjLQYteFXppmRNJs
-kK+n+o+ZB8UJtkWWecONkDAezTLGigh3E+bdLVUOsgu4hsnJBk1M4aVTOLfG1GjK
-xnkkXI0nEVpbTBRONprR+W8JfNciFcD1qkkVmaLVj3qMjJsNyR3C+pP9tM9T+nrm
-0hqxdMNpoIhr3gtWWp8Ga1pH9pLyMSe4uG5CP4kJr238rRFhbdGUt67ABDuqF+HF
-wfJnihwCvWcM1VGzm7M3R5lI
-=El8D
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/Gu0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X9YQAILE5CUnk6/76sjtSN1f
+TePa8u4tMYNhxmNraM/Ot81pCYkvK2c99X1VOAXfURfluZu+hCcW3MNEkaT9gpU9
+Z/lZHhLyV7hFuU2jx1Ke/PL7w5c2GdCvh8H5tw1shZTU/imoLYW9HWk/srFx9vCu
+yPaU462D5+SRQuQrGrFpnInPJWU3Zv0JlAFagu2RDjuaPBpl9ffrnhpj+aH5wSxJ
+saytHf/GdxwOfNvfJrT1M0QUWIOHDlxmB0rDCS/fxFh4q+0YwFDQmnDLxbnRN6OG
+b/MK4VpMdPcCPu4WhbgT+rmpRtk2R+aa9SQG0OOAMSNJhBnAUScyVh+aYsWnS907
+0mgnLnWS8TdX/kosoCwyfJ5uXsQ95rjjGDtKJIEKIk21KGfoG/Jm7j2t5At6H4CH
+yjjL1k/cK3uOGiZrr7BRTzqWHu+VEo+Pf9o0kHJ0WNyn1xea6dPsazHi7PBXnbMg
+oXZ/hpD2ZpwDAKaYpiOPkYic2U9V7iwPS1jXa3EVFnkH4pQREq4y7ko+ryt4rEww
+CP60VPVzUM12/Lu04yoH2kRsT7lJ2X+c8lk3OcP9uchEFJ8bHA0Zr5mUsIxj9KpC
+dv6dS2aTO1H6zyWZSHscvI4/I27oq+L14AuEM4GsS63FgE4huqjMuBbm6bA7W6WO
+1YQcRdgikTEah5vQSSUIPfTZ
+=rtcf
 -----END PGP SIGNATURE-----
 
---===============6375286108887328642==
+--===============2081528353128903768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-b1aabb8ef09b-dcb6fa37fd7b.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -146,10 +146,6 @@ bd8c3ce6d7a205b3ba3ef9815db4c6932290ec59 dt-bindings: usb: switch: split out por
 dddc0f71485f1f29f236e387632181bcc09019a0 usb: misc: Add x86 dependency for Intel USBIO driver
 51cb04abd39097209b871e95ffa7e8584ce7dcba dt-bindings: usb: qcom,snps-dwc3: Fix bindings for X1E80100
 66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
-d3c4c1f29aadccf2f43530bfa1e60a6d8030fd4a staging: gpib: Fix no EOI on 1 and 2 byte writes
-92a2b74a6b5a5d9b076cd9aa75e63c6461cbd073 staging: gpib: Fix sending clear and trigger events
-aaf2af1ed147ef49be65afb541a67255e9f60d15 staging: gpib: Return -EINTR on device clear
-b1aabb8ef09b4cf0cc0c92ca9dfd19482f3192c1 staging: gpib: Fix device reference leak in fmh_gpib driver
 7e69a24b6b35d4ffd54dd702047a01f5858b3e45 rust_binder: clean `clippy::mem_replace_with_default` warning
 c7c090af371775106360c9e7a7c35b718311c3f9 rust_binder: remove warning about orphan mappings
 bfe144da06b002cccf314769c45ecccb69501c48 rust_binder: freeze_notif_done should resend if wrong state
@@ -750,4 +746,4 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 
---===============6375286108887328642==--
+--===============2081528353128903768==--
