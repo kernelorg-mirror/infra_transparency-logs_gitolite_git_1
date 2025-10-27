@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1786733531123138921=="
+Content-Type: multipart/mixed; boundary="===============7451791146240521828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 27 Oct 2025 09:21:40 -0000
-Message-Id: <176155690036.3443564.12282605207909065085@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 09:22:10 -0000
+Message-Id: <176155693064.3444117.8182637953515597584@gitolite.kernel.org>
 
---===============1786733531123138921==
+--===============7451791146240521828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 18a7e218cfcdca6666e1f7356533e4c988780b57
     new: bfe62db5422b1a5f25752bd0877a097d436d876d
     log: revlist-18a7e218cfcd-bfe62db5422b.txt
 
---===============1786733531123138921==
+--===============7451791146240521828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e774c91dca451bcf6eb4ca05d6bef977f88ceff6 dt-bindings: net: snps,dwmac: Sync list
 384d8426329531fe1952549266fa3a7444dc6c31 MAINTAINERS: add dwmac-rk glue driver to the main Rockchip entry
 bfe62db5422b1a5f25752bd0877a097d436d876d Merge branch 'dwmac-support-for-rockchip-rk3506'
 
---===============1786733531123138921==--
+--===============7451791146240521828==--
