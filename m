@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3017170552102270084=="
+Content-Type: multipart/mixed; boundary="===============9077530749774083443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 27 Oct 2025 13:26:10 -0000
-Message-Id: <176157157036.3654998.9572197961749258052@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 13:26:12 -0000
+Message-Id: <176157157287.3655093.14328194652794360649@gitolite.kernel.org>
 
---===============3017170552102270084==
+--===============9077530749774083443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 874a45eb782511dabfcff2aa88dc5424fa0ea138
-    new: d3429178ee51dd7155445d15a5ab87a45fae3c73
-    log: revlist-874a45eb7825-d3429178ee51.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: c6162da3b21ed23514b321d9fe104d014b3a8fcc
+    new: 8738d626030fa518b5fbca42b8d23455e7ec5dce
+    log: revlist-c6162da3b21e-8738d626030f.txt
 
---===============3017170552102270084==
+--===============9077530749774083443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-874a45eb7825-d3429178ee51.txt
+Content-Disposition: attachment; filename=revlist-c6162da3b21e-8738d626030f.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -718,14 +718,6 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
-4cdcdbe504541f56c2fed9e4d62b4099626aa598 i2c: designware: Remove i2c_dw_remove_lock_support()
-e308a27c653acb7fac55b6adf7907af8ef1c9952 i2c: busses: bcm2835: convert from round_rate() to determine_rate()
-faef2789bdb40067523563d414d5eb611c535cab i2c: pcf8584: Remove debug macros from i2c-algo-pcf.c
-2e38abef127da288666c8d25a1290e5e1af0d395 i2c: pcf8584: Fix do not use assignment inside if conditional
-acff9f26664e3f93e5e98f4d7170cc32d87f53e4 i2c: designware: Omit a variable reassignment in dw_i2c_plat_probe()
-b4cc81803033cbfd67fed1db7d8914bc5f299106 i2c: stm32: Omit two variable reassignments in stm32_i2c_dma_request()
-90f690a4f5f962d90483e7f689261d9179e6fbbe i2c: i801: Add support for Intel Diamond Rapids
-3f124b4ef8d8a8e8cbf94672fb4ce5bf498b3ed1 dt-bindings: i2c: i2c-rk3x: Add compatible string for RK3506
-d3429178ee51dd7155445d15a5ab87a45fae3c73 i2c: designware: Disable SMBus interrupts to prevent storms from mis-configured firmware
+8738d626030fa518b5fbca42b8d23455e7ec5dce i2c: fix reference leak in MP2 PCI device
 
---===============3017170552102270084==--
+--===============9077530749774083443==--
