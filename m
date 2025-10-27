@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 27 Oct 2025 18:11:06 -0000
-Message-Id: <176158866693.3911278.4125703829955301024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 27 Oct 2025 18:21:07 -0000
+Message-Id: <176158926740.3919663.9747191135668384998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/lockless-lookup
-    old: ea97503a8572de125d1e08b9e007032530d69612
-    new: 2649adb3fbda1c2785d95d22f08fb620db92029b
+  - ref: refs/heads/perf-tools-next
+    old: 3e98f0203e10bc9d379852faf424f769ef5049a6
+    new: ab29ff9f6fe06d23c16b5565fcae96bad21be900
     log: |
-         933e1a123a20aea1f23a2bad7825a24790424c05 Revert "gfs2: Add GL_NOBLOCK flag"
-         2f4082a8298f0419aa025e89fb884c988fb70473 gfs2: No d_revalidate op for "lock_nolock" mounts
-         729e5b2e9e00ced81f1c3246152327e9ece61d3b gfs2: Get rid of had_lock in gfs2_drevalidate
-         670c91b1a4d5d1728e4099cf7d86ec034a6e0d80 gfs2: Use unique tokens in gfs2_revalidate
-         2649adb3fbda1c2785d95d22f08fb620db92029b gfs2: Enable lockless lookup in gfs2_permission
+         be806f06adfb2ec587b3b1076d1812b1f1032ac2 perf stat: Add/fix bperf cgroup max events workarounds
+         ab29ff9f6fe06d23c16b5565fcae96bad21be900 perf auxtrace: Add auxtrace_synth_id_range_start() helper
          
