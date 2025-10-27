@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8387232289489240054=="
+Content-Type: multipart/mixed; boundary="===============2731149766204058202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Mon, 27 Oct 2025 16:41:23 -0000
-Message-Id: <176158328307.3833813.3132756683903280076@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 16:41:50 -0000
+Message-Id: <176158331084.3834136.7600842020191340453@gitolite.kernel.org>
 
---===============8387232289489240054==
+--===============2731149766204058202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iommu/linux
 user: joro
 changes:
-  - ref: refs/heads/next
-    old: 5f4b8c03f41782f37d278946296d9443a7194153
+  - ref: refs/heads/master
+    old: 1961a281578f7580b1dee99e17e2793f0bc2cd8f
     new: 8f650600a37e73424c5f36b75b8be7373e3e0ba2
-    log: revlist-5f4b8c03f417-8f650600a37e.txt
+    log: revlist-1961a281578f-8f650600a37e.txt
 
---===============8387232289489240054==
+--===============2731149766204058202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f4b8c03f417-8f650600a37e.txt
+Content-Disposition: attachment; filename=revlist-1961a281578f-8f650600a37e.txt
 
 c6006b8ca14dcc604567be99fc4863e6e11ab6e3 Merge tag 'usb-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 59697e061f6aec86d5738cd4752e16520f1d60dc Merge tag 'staging-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
@@ -1051,4 +1051,4 @@ fd714986e4e46effa6697b13d32918fc59608ccb iommu: Pass in old domain to attach_dev
 fbcf539840350f4b9b0a14e03ff97d1edbd4a75c iommu: tegra: enable compile testing
 8f650600a37e73424c5f36b75b8be7373e3e0ba2 Merge branches 'mediatek', 'nvidia/tegra' and 'core' into next
 
---===============8387232289489240054==--
+--===============2731149766204058202==--
