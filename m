@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4211843064888748879=="
+Content-Type: multipart/mixed; boundary="===============7712701040893278740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Oct 2025 06:48:12 -0000
-Message-Id: <176154769246.3267748.2024625652992922802@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 06:48:23 -0000
+Message-Id: <176154770303.3267975.3451466023261503979@gitolite.kernel.org>
 
---===============4211843064888748879==
+--===============7712701040893278740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a8cc9e5fcb0e2eef21513a4fec888f5712cb8162
-    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-a8cc9e5fcb0e-dcb6fa37fd7b.txt
+  - ref: refs/heads/char-misc-next
+    old: d48fb15e6ad142e0577428a8c5028136e10c7b3d
+    new: c428900703aaa528bf141358551287f87e5b2b93
+    log: revlist-d48fb15e6ad1-c428900703aa.txt
 
---===============4211843064888748879==
+--===============7712701040893278740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761547757 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761547762 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1761547690-e4b0698af6b3c831c183e06649cc926f62b3a586
+nonce 1761547696-e49b1fafe6f0a2cb0610d2f1b5fe10b0c2ae8b8c
 
-a8cc9e5fcb0e2eef21513a4fec888f5712cb8162 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/char-misc-linus
+d48fb15e6ad142e0577428a8c5028136e10c7b3d c428900703aaa528bf141358551287f87e5b2b93 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/Fe0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XiQP/RWZ18uKCY6BZD4Bb3pD
-on1SRZ9mTtqjFFfT5TLC4X5MKeyRppdXhJc0EBbZ9K/ayoipUwdxx0TVhDoA9AH8
-Ompvh2WFjn7ljd456AQdl7rcEBXS2ID+LbPRKckOorrzg2UOv/yyX7Ulg2ZK+KxU
-uRqUSImPqiADr6lae8kq/0S8fcqqAfoZtESihkpH1BGJhZ1jPlZoKseVHBKIuLnD
-3AfNjHJn6pFnQ8IGG8wkCYfG+AW1kfe5eb4toEKoAzHRzw/82yXyvd71npBreHWz
-YfyyP/QPWt6ysDx0msnD1y4hmmzf4xruOt4ktM0tG5gCtHNe1HKociNbt4Ek25Pj
-XuACJt5k/lBmtvBoqgR0kTy3b1ipPMU+eUCao9wJERo/DWZLURUZy88kFHS1vzNI
-+HxOwgw5bazQbPa6TKmxWShaf2yy4j6+53hjdm6oOwogPR5xZqc0o1hfmJJ5pgN3
-CNh/yF8yb7w90SuL72745Qla8+FNxRxINxWfK30VFeB/mJYQUxoA1kWOSoIelJDe
-94FB3m9KbBE/AdtFivPgu4SEe9gq8DMxVtwbQ/DRY5eWrz8jB96lx5Mn3Lw8zwqH
-9qS5UtmlKWAJZLkfogCUBekNhf5d6uneVDkjHA4TclSPmGaoJe6GtKWoJpXqudmg
-t8QxKVHlPMDOZaRudgN8g4le
-=wh+p
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/FfIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3CAP/1T7S/lDnRTYtF+lf/Jb
+ItU+L2OwMedPxnRV/1JO2IvmwAohZ8v1WXOfK28l4HI+oKSpJfPbFi2axx3YQCv/
+brRdpJpe364fJ96nv4g+Db6NJSOaT1o4LO5MADdxph7eEAXs/ISJc6rAF9gHFat7
+ubJwKaMLUSC4B+iGWkyPzknDv8/IhKzWxj2suvHd9xcZE0bR7/o2xW0udrkE6b6X
+91+H1aIKKdWIH0Wax1FG1QSmhEALZjqPjy30+K63cLO+rP/EO3ljDR2KNGbcL6Bm
+gok7GOl6TawlR0yVEEdvNy9CderglRSsqcoKSE5DabyosuYRz/3CMkcQpn/rhZCp
+Q5L3VKuNuRkGgqJqjqnv91A01rI0p/WPYrTKZN9D9aSBfOMZ7uZpefegCBr+Bery
+pFZmTCe8khb/73z/vZ2Cn+Lvbqjk7FN/InwvHPLYyUtVigVdkBqXPRAjGyF13t6Z
+9PS2OLbT2sGM7FsLKkRJVgOAAB1+HIpyMlGXy1PmvE9roYdoHISbxHQpVgRLAGZg
+q5Mp0tz4NWVKC+oIInx9Cm8cNbjyJmUCe+6aoDoend2+BX3w68mpJ+TA4nG3cVrY
+Vxk0w6gvdEh1Z/WK2gsCNhWv3JtJuo1932i35xlPnLcYUOZewZZ635zSsJis5uaQ
+bYZS/rryM1jpaPYz9ZhV9v9q
+=fYAU
 -----END PGP SIGNATURE-----
 
---===============4211843064888748879==
+--===============7712701040893278740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8cc9e5fcb0e-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-d48fb15e6ad1-c428900703aa.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -150,6 +150,12 @@ d3c4c1f29aadccf2f43530bfa1e60a6d8030fd4a staging: gpib: Fix no EOI on 1 and 2 by
 92a2b74a6b5a5d9b076cd9aa75e63c6461cbd073 staging: gpib: Fix sending clear and trigger events
 aaf2af1ed147ef49be65afb541a67255e9f60d15 staging: gpib: Return -EINTR on device clear
 b1aabb8ef09b4cf0cc0c92ca9dfd19482f3192c1 staging: gpib: Fix device reference leak in fmh_gpib driver
+7e69a24b6b35d4ffd54dd702047a01f5858b3e45 rust_binder: clean `clippy::mem_replace_with_default` warning
+c7c090af371775106360c9e7a7c35b718311c3f9 rust_binder: remove warning about orphan mappings
+bfe144da06b002cccf314769c45ecccb69501c48 rust_binder: freeze_notif_done should resend if wrong state
+99559e5bb4c6795824b6531ad61519c1d9500079 rust_binder: don't delete FreezeListener if there are pending duplicates
+b5ce7a5cc50f4c283d0bfa5cc24fe864cb9a3400 rust_binder: report freeze notification only when fully frozen
+7557f189942571821a09879edfcdfdafefe4d67f binder: Fix missing kernel-doc entries in binder.c
 11fb1a82aefa6f7fea6ac82334edb5639b9927df firmware: arm_ffa: Add support for IMPDEF value in the memory access descriptor
 6079165e6e027c03e06556ff3df0ed03a34d68f0 ASoC: dt-bindings: qcom,sm8250: Add QCS615 sound card
 dee4ef0ebe4dee655657ead30892aeca16462823 ASoC: qcom: sc8280xp: Add support for QCS615
@@ -597,6 +603,16 @@ c5394b8b7a92c5013d2917591e28e938fe7ff2a2 net: gro_cells: fix lock imbalance in g
 5523508258d390fd55b25c1c0f99c092f23a39e9 net: dlink: use dev_kfree_skb_any instead of dev_kfree_skb
 d63f0391d6c7b75e1a847e1a26349fa8cad0004d net: hibmcge: select FIXED_PHY
 43c36a56ccf6d9b07b4b3f4f614756e687dcdc01 Revert "fs/9p: Refresh metadata in d_revalidate for uncached mode too"
+7959ffbec062c35bda02aa635d21ac45dbfacd80 nvmem: rcar-efuse: add missing MODULE_DEVICE_TABLE
+70ad06df73a9796026b197d84ead751e096618c7 misc: amd-sbi: Clarify that this is a BMC driver
+410d6c2ad4d1a88efa0acbb9966693725b564933 mei: me: add wildcat lake P DID
+fff111bf45cbeeb659324316d68554e35d350092 misc: fastrpc: Fix dma_buf object leak in fastrpc_map_lookup
+98718e80af0bb1cd80f4bfe565dd60c57debad51 mei: late_bind: Fix -Wincompatible-function-pointer-types-strict
+87b318ba81dda2ee7b603f4f6c55e78ec3e95974 comedi: fix divide-by-zero in comedi_buf_munge()
+2463ae285e5c162686fb19e822fb6b535e6e728a mei: txe: fix initialization order
+d90eeb8ecd227c204ab6c34a17b372bd950b7aa2 binder: remove "invalid inc weak" check
+4b1270902609ef0d935ed2faa2ea6d122bd148f5 most: usb: Fix use-after-free in hdm_disconnect
+a8cc9e5fcb0e2eef21513a4fec888f5712cb8162 most: usb: hdm_probe: Fix calling put_device() before device initialization
 2eead19334516c8e9927c11b448fbe512b1f18a1 arch_topology: Fix incorrect error check in topology_parse_cpu_capacity()
 00aaae60faf554c27c95e93d47f200a93ff266ef gpio: regmap: add the .fixed_direction_output configuration parameter
 2ba5772e530f73eb847fb96ce6c4017894869552 gpio: idio-16: Define fixed direction of the GPIO lines
@@ -733,5 +749,6 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
+c428900703aaa528bf141358551287f87e5b2b93 Merge 6.18-rc3 into char-misc-next
 
---===============4211843064888748879==--
+--===============7712701040893278740==--
