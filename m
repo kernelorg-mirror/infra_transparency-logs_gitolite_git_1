@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6108199073522413895=="
+Content-Type: multipart/mixed; boundary="===============1686001480469783441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 27 Oct 2025 08:16:41 -0000
-Message-Id: <176155300175.3385546.17748291818776143665@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 08:16:49 -0000
+Message-Id: <176155300916.3385742.206816120183079695@gitolite.kernel.org>
 
---===============6108199073522413895==
+--===============1686001480469783441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 622865c73ae30f254abdf182f4b66cccbe3e0f10
+  - ref: refs/heads/master
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-622865c73ae3-dcb6fa37fd7b.txt
+    log: revlist-3a8660878839-dcb6fa37fd7b.txt
 
---===============6108199073522413895==
+--===============1686001480469783441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-622865c73ae3-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-dcb6fa37fd7b.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -498,6 +498,7 @@ a09a5aa8bf258ddc99a22c30f17fe304b96b5350 hwmon: (cgbc-hwmon) Add missing NULL ch
 e607ef686ab95fbcb0dfd16f49aea7918be626e1 smb: client: allocate enough space for MR WRs and ib_drain_qp()
 103541e6a5854b08a25e4caa61e990af1009a52e rv: Fully convert enabled_monitors to use list_head as iterator
 3d62f95bd8450cebb4a4741bf83949cd54edd4a3 rv: Make rtapp/pagefault monitor depends on CONFIG_MMU
+71c07570b918f000de5d0f7f1bf17a2887e303b5 USB: serial: option: add UNISOC UIS7720
 e46ee2f07e5848d7ec7aec38b72476dc7941b048 spi: intel: Add support for 128M component density
 bc25c6e0a4880b5ad70c31fe1466f30c9e4c8f52 spi: intel-pci: Add support for Arrow Lake-H SPI serial flash
 f7e37affbc9085f2b77ccb6596521a44eabf7505 spi: intel-pci: Add support for Intel Wildcat Lake SPI serial flash
@@ -609,6 +610,7 @@ c71af4d6d56665e04634babfc45dce3d9ab58285 of/irq: Fix OF node refcount in of_msi_
 9ea7460217423f07febe273307a5f3b6b1303b29 Merge tag '9p-for-6.18-rc3-v2' of https://github.com/martinetd/linux
 250a17e8f9555f5c5207581068ebfa2aa1f540a2 Merge tag 'erofs-for-6.18-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 dd72c8fcf6d35de5d6d976f20dc1ae84ce7af08b Merge tag 'platform-drivers-x86-v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+89205c60c0fc96b73567a2e9fe27ee3f59d01193 USB: serial: option: add Quectel RG255C
 4c8cf6bd28d6fea23819f082ddc8063fd6fa963a block: require LBA dma_alignment when using PI
 bf5570590a981d0659d0808d2d4bcda21b27a2a5 MIPS: Malta: Fix keyboard resource preventing i8042 driver from registering
 1d5d1663619d5a367be538f6a1be1cf5bd2cf494 MIPS: Malta: Fix PCI southbridge legacy resource reservations
@@ -642,6 +644,7 @@ b1055678a0160b2952c322ad1b61805562698f99 gpiolib: acpi: Use %pe when passing an 
 10843e1492e474c02b91314963161731fa92af91 net: bonding: fix possible peer notify event loss or dup issue
 b62bd2cf7e991efbc823665e54dd7d7d8372c33b Merge branches 'pm-cpuidle' and 'pm-cpufreq'
 114cbd67db825bfa42bc6c34875fc8409e5bba72 Merge branch 'acpi-property'
+622865c73ae30f254abdf182f4b66cccbe3e0f10 USB: serial: option: add Telit FN920C04 ECM compositions
 4c4e6ea4a120cc5ab58e437c6ba123cbfc357d45 gpio: ljca: Fix duplicated IRQ mapping
 c5efc6a0b3940381d67887302ddb87a5cf623685 io_uring: correct __must_hold annotation in io_install_fixed_file
 f6ceec6434b5efff62cecbaa2ff74fc29b96c0c6 net: datagram: introduce datagram_poll_queue for custom receive queues
@@ -716,4 +719,4 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 
---===============6108199073522413895==--
+--===============1686001480469783441==--
