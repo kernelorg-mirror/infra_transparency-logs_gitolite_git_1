@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9022270727183129221=="
+Content-Type: multipart/mixed; boundary="===============5930475747736784777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 27 Oct 2025 08:17:08 -0000
-Message-Id: <176155302812.3386314.3560053580575443078@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 08:17:14 -0000
+Message-Id: <176155303495.3386551.14212068405771088475@gitolite.kernel.org>
 
---===============9022270727183129221==
+--===============5930475747736784777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/gnss-next
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
     log: revlist-3a8660878839-dcb6fa37fd7b.txt
 
---===============9022270727183129221==
+--===============5930475747736784777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -719,4 +719,4 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 
---===============9022270727183129221==--
+--===============5930475747736784777==--
