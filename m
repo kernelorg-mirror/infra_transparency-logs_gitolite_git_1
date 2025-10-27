@@ -1,63 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3094404380023553042=="
+Content-Type: multipart/mixed; boundary="===============0506787898233416756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 27 Oct 2025 10:34:50 -0000
-Message-Id: <176156129097.3504459.18064386857240887264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
+Date: Mon, 27 Oct 2025 10:37:36 -0000
+Message-Id: <176156145647.3507304.6539639787106246574@gitolite.kernel.org>
 
---===============3094404380023553042==
+--===============0506787898233416756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
+repo: pub/scm/linux/kernel/git/jberg/iw
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 55db64ddd6a12c5157a61419a11a18fc727e8286
-    new: 88de08348af8ce15dc563e0ebb5553eddd821c06
+    old: 5e2f68476a06d78538171c5baf3b371292b7d1dc
+    new: b9f9dda5898bd03ae679922e424097f556351790
     log: |
-         428ea708b714ba09c96da5722fb1c8b86af509d1 wifi: rt2x00: check retval for of_get_mac_address
-         a392cde88d19af917740d27e13115447d3b21a06 wifi: cfg80211/mac80211: validate radio frequency range for monitor mode
-         a3b16dfe79eecafea0e058b038bb506ed9bd2c89 wifi: mac80211_hwsim: advertise puncturing feature support
-         8f24be708829854560e1db9f765c51305b046183 wifi: mac80211: reset CRC valid after CSA
-         ad55aa3ad8f843b2600db322d312f9f28d79568e wifi: mac80211: get probe response chan via ieee80211_get_channel_khz
-         bca76b875d0530658f3ba1bc946dbae1974f14c3 wifi: cfg80211: default S1G chandef width to 1MHz
-         cc18fffa3a51792637169872886df3407bd5bb84 wifi: mac80211: fix missing RX bitrate update for mesh forwarding path
-         7cc986c04a9b07d91684f7e326fa5b960215bc97 wifi: cfg80211: Add debugfs support for multi-radio wiphy
-         88de08348af8ce15dc563e0ebb5553eddd821c06 wifi: cfg80211: Add parameters to radio-specific debugfs directories
+         a6d8307f094b9bfeb6e7fdd6a13b89cb3a9e4d59 iw: util: support parsing link id
+         0bf3baf1f79b345eae40e5f0b7e6639707f39100 iw: bitrate: refactor description
+         c62dc398aa2406bd2dd0aa28ecb34cf4d3a2e1af iw: bitrate: support EHT rate/gi/ltf
+         0df0ae77e7f5d2af9cd5221b76bb14368496b9f9 iw: bitrate: support link id
+         b9f9dda5898bd03ae679922e424097f556351790 iw: connect: Add support for WPA3 SAE association
          
 
---===============3094404380023553042==
+--===============0506787898233416756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1761561326 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1761561260-7ba4225a585de99790922ce961b906334ed8a25f
+pusher 7BF9099A 1761561517 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
+nonce 1761561451-236bde964b13415aae4e0e451e02cfccad1b5624
 
-55db64ddd6a12c5157a61419a11a18fc727e8286 88de08348af8ce15dc563e0ebb5553eddd821c06 refs/heads/main
+5e2f68476a06d78538171c5baf3b371292b7d1dc b9f9dda5898bd03ae679922e424097f556351790 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmj/Su4ACgkQ10qiO8sP
-aACobQ//SLV5hRdqiFMHFheotOkGsQDDtc+Faq2kkb8HMJiQXpRjSQ+HlLVd4/6Q
-kTLkGp4fVwYHViEC9bpf3XmWTfT80f+BhwHeADtocNybkkRqejy0T0E2NNYBlcA3
-tf0arqyQ9kraKlWqClb69hK78GDnHJvJ+MRBdyjSCE4i5gyfJy3T5AqkJ2/55/Xh
-iSFYMcwKmCzUa3Ovha7orzTCAhxmwnumaiAcDObppwZ3e15k1yxwIGf9exEhZa7z
-IQVyUsfX0xJQHtiq0f5eCMf03l8MWb2Szg3COcgKRTX3svNIbq3TjVzm366B95dl
-DpEDfibukXBkNNDjwm2ZPY/Q0Ac0TwFQUuLhA+hOWvP4SvUUwdAFeR7JKzFl1cp8
-uDz8o2jDMeDmYavE9nYmDLLmh0tNk5Oz+y5hkprPKsaJmJ8uk9DZh136kbeaoufG
-SCXxxirzEx7GR7EVu7CysLhnlZqAEm+J/dM0rS5s8FqCpjD7JyziD+7p6iidqOLR
-QEsxwlA88XFwPJ1hdr47RgJykaZFSaw4r6lfPJuhgrE51FeKAqx/wWWhtQxkunT1
-vP+moqpDIkBdJi2yfgkFdXALn3fYs98dDiYC9aGQopKvN+ZLXp0fEBdGNFTzXtYQ
-p+KSGuXyuDFjG5FvI5kBJT28Sg2qTuK3zNTr3xmvJFnBQG0PkZw=
-=iM1A
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmj/S60ACgkQ10qiO8sP
+aAA6eA/9GJn1PNyaPESiQGt1M+2XdbuXKP+dqLhrqwRh/2qHdzurFUxazmNMsFi0
+xEPXh2WyKLKsQ126JKv4TDXSY2Rh759FG3/cbPLrmMl1brMGP2HZHmjogV1gZiIQ
+uq5utwHUf19cUMCNOYVmrTtuq7HV5g7MGziFDQGfNWfnj+pvl61GW3S768q8fBrD
+ZOXz/D66xonOrBt6AZODidbcyiXGJs3EBPaTm8TDAps8YxCB/I1x265fJ3fzj4M5
+nhkSWVF+MbloDtMya2+itmtTxHlMSoJsYd58HD2r7wDL8N+tGjvBH090oXxYkHgc
+O4ZaVIJPmcywFPn+KkEBvoLc2cgwQxX4oQTTcOUuS5CW1g22jvNmk+asYNPZTyU1
++BWHpZq+FnTls/wu7DNwObTsZ0CXWoek2Fmw7bQirRc9mOu1dTlcQLMjQQQSXanc
+500oqvhw/CIhZBehCabWGCQv83u/J3eJv2lk26T7fn8GAGp20UfSk+BJ0wFTTUl+
+3ij66POSo+Jor9TAG86bSRGfX2pCKuONlLtY2wxeA1Yr0UwxBjyYwlE0bG9b6LWW
+sXatd9zNDKqJuQGWILuWKhcVJcd1uaCQdbV/uxnwpL8U1FYZy+5grMUQJgmPHlEV
+sU/Kwae03nQaEB3Hi0ub6GSevF5awiPUeZhU+vvSBL5BED1rLlo=
+=0ePu
 -----END PGP SIGNATURE-----
 
---===============3094404380023553042==--
+--===============0506787898233416756==--
