@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
-Date: Mon, 27 Oct 2025 10:50:22 -0000
-Message-Id: <176156222241.3518533.3206306242064496701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Mon, 27 Oct 2025 11:10:46 -0000
+Message-Id: <176156344605.3534763.5542344240291849866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 user: mkorenbl
 changes:
-  - ref: refs/heads/master
-    old: 8d8c6e9d9eb5402295c434603007377487458fef
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/iwlwifi-next-2025-10-27
+    old: 0000000000000000000000000000000000000000
+    new: a296a847a61fc9f6f4c84f6a0f2b3e4a2eb5eca3
