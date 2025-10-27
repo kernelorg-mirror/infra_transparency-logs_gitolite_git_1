@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 27 Oct 2025 23:53:11 -0000
-Message-Id: <176160919139.7996.4787850283451543371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Mon, 27 Oct 2025 23:55:43 -0000
+Message-Id: <176160934346.11293.11278780034505011210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 84a905290cb4c3d9a71a9e3b2f2e02e031e7512f
-    new: 65f9c4c5888913c2cf5d2fc9454c83f9930d537d
+    old: 261c249848ff6c8862051a9b50cecd273f9b19a4
+    new: 591986d6c0f6ba6efabb633497a9e7203546fc43
     log: |
-         65f9c4c5888913c2cf5d2fc9454c83f9930d537d tools: ynl: fix string attribute length to include null terminator
+         db437dac413237cb5ae242c0f30f5c566e5a0c7f refactor(job): hmac sessions
+         78ccf407c2519cf33723263de363fb515ca824fa refactor(delete): simplify
+         fbc50dc95853ae831547913239476c8c0ffd642f refactor(command): simplify
+         31a1664834d77e8cf23c9fad1cf3492c18c9661c refactor(cli): change --parent and --auth scope
+         763748acc27feeda153007eb8fba37190d9a122e refactor(command): make parent positional parameter
+         896a21a8fa84632fc4112e9de8d9aa7576fbdd75 refactor(command): merge 'certificate' into 'memory' subcommand
+         591986d6c0f6ba6efabb633497a9e7203546fc43 fix(evict): mutable borrow
          
