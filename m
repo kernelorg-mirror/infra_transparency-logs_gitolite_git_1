@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 27 Oct 2025 22:47:05 -0000
-Message-Id: <176160522547.4146268.10498397143310466688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Mon, 27 Oct 2025 22:55:14 -0000
+Message-Id: <176160571448.4153799.4792422099641605317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/work.persistency
-    old: e39d613e8790d99eae2e949a53e022b1b8c3166e
-    new: 351a7251a6e88fe774c9218e7766343591f101c2
+  - ref: refs/heads/main
+    old: 297ad20d0a5e0aeaa2d2751bef94a5dd529dd1bb
+    new: b34d584e12f007f1872f8475e2d20e871669acbe
     log: |
-         351a7251a6e88fe774c9218e7766343591f101c2 d_make_discardable(): warn if given a non-persistent dentry
+         b34d584e12f007f1872f8475e2d20e871669acbe refactor(command): make parent positional parameter
          
