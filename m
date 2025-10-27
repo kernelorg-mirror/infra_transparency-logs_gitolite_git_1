@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7758414734101882476=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 27 Oct 2025 16:44:53 -0000
-Message-Id: <176158349395.3836678.3214997634215790351@gitolite.kernel.org>
-
---===============7758414734101882476==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Mon, 27 Oct 2025 16:48:15 -0000
+Message-Id: <176158369558.3839762.14385378419646654634@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/dev-queue
-    old: baadb4a230147554e41a794c34554b9a5df2463f
-    new: edb398fb4fdd9e1d5f9c13fade50cf022a59cdbe
-    log: revlist-baadb4a23014-edb398fb4fdd.txt
-
---===============7758414734101882476==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-baadb4a23014-edb398fb4fdd.txt
-
-84a905290cb4c3d9a71a9e3b2f2e02e031e7512f net: phy: dp83867: Disable EEE support as not implemented
-6df2be5921e8d35cda4ff7bb9b7fc854bfefc14d ice: fix lane number calculation
-f1360d76513d35ba80977690d6c0ce705f82d61b ice: fix fwlog after driver reinit
-2c1776f312b213b4c071fec92aa405e07cfe9ffa ice: Fix enable_cnt imbalance on resume
-7fcba13607db91959aa46fe8369c2e9a87313c12 ice: Fix enable_cnt imbalance on PCIe error recovery
-f3124b70d3521d363ae0ac0db5f7341aee8982a4 i40e: Fix enable_cnt imbalance on PCIe error recovery
-3706f6dbebfa77669f86ff3e16ca455a5fd78795 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-43e33f2cd4f3a8cb20a2a33e722f44f15d37186f igc: power up the PHY before the link test
-f81f1891e7e726608e0431eb05f23513bac36a98 ice: fix destination CGU for dual complex E825
-65f142c52ed084ea79e8849079d0159a3fe24c87 igc: fix race condition in TX timestamp read for register 0
-a08bb86a5f0432742eb06ee3804c254a919a8b2d idpf: fix memory leak of flow steer list on rmmod
-507124b0f5cc12e3778aa0a20f0d08ec1cb17f12 idpf: fix issue with ethtool -n command display
-21766a8fe0db977bc3b196beade1a08679f05982 igb: use EOPNOTSUPP instead of ENOTSUPP in igb_get_sset_count()
-47f0bc8b61d1122992d2661c027982fd87fcccb2 igc: use EOPNOTSUPP instead of ENOTSUPP in igc_ethtool_get_sset_count()
-178a392e0f6f21c9ad46c594b232ea16494a5aac ixgbe: use EOPNOTSUPP instead of ENOTSUPP in ixgbe_ptp_feature_enable()
-f512a66652b08b7f44865e99b0cb62f066027de0 idpf: fix LAN memory regions command on some NVMs
-505597af782d9c3d9076ac5684f4f33f19132eac ice: fix usage of logical PF id
-b14da17474d7cca602b86206a84c414e2587030d idpf: fix possible vport_config NULL pointer deref in remove
-8928a76fc43b0dd15c187b752cde2a77f243d5f5 libie: depend on DEBUG_FS when building LIBIE_FWLOG
-edb398fb4fdd9e1d5f9c13fade50cf022a59cdbe ice: fix PTP cleanup on driver removal in error path
-
---===============7758414734101882476==--
+  - ref: refs/heads/b4/gicv5-host-acpi
+    old: 4db977a706c8465cddd7caa323df05234e141276
+    new: ad3118329bf85f5311eba340489a6bb1b82b32b9
+    log: |
+         148cb6d7c7aab14fcb1a2bb5a114940fa0b59bd0 irqchip/gic-v5: Code first ACPI boot support
+         cdef27e39956a52083c9da52a5463af11bbb9f7f ACPICA: Add GICv5 MADT structures
+         72afc02381d90a5f41b43478e359f0132994a0ec ACPICA: Add Arm IORT IWB node definitions
+         0363cfd35b074a5c7b88610b81736a99279c4a98 irqdomain: Add parent field to irqchip_fwid
+         46662c085f13a2714f2a552116d3716f24abfaec PCI/MSI: Make the pci_msi_map_rid_ctlr_node() interface firmware agnostic
+         7303a8d5834500af4f858ef22a88236f34e24b0e irqchip/gic-v5: Add ACPI IRS probing
+         68ede9ec3fa29d4d8afd84567dfa09c6d4efde48 irqchip/gic-v5: Add ACPI ITS probing
+         ad3118329bf85f5311eba340489a6bb1b82b32b9 irqchip/gic-v5: Add ACPI IWB probing
+         
