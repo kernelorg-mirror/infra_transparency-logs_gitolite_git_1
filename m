@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2143871132449842525=="
+Content-Type: multipart/mixed; boundary="===============7999344748251857082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 27 Oct 2025 17:15:25 -0000
-Message-Id: <176158532566.3865949.9738007307442540224@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 17:15:30 -0000
+Message-Id: <176158533020.3866051.15755241606792582398@gitolite.kernel.org>
 
---===============2143871132449842525==
+--===============7999344748251857082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: f0a24b2547cfdd5ec85a131e386a2ce4ff9179cb
     new: bfe62db5422b1a5f25752bd0877a097d436d876d
     log: revlist-f0a24b2547cf-bfe62db5422b.txt
 
---===============2143871132449842525==
+--===============7999344748251857082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ e774c91dca451bcf6eb4ca05d6bef977f88ceff6 dt-bindings: net: snps,dwmac: Sync list
 384d8426329531fe1952549266fa3a7444dc6c31 MAINTAINERS: add dwmac-rk glue driver to the main Rockchip entry
 bfe62db5422b1a5f25752bd0877a097d436d876d Merge branch 'dwmac-support-for-rockchip-rk3506'
 
---===============2143871132449842525==--
+--===============7999344748251857082==--
