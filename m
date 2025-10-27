@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3973709491434809234=="
+Content-Type: multipart/mixed; boundary="===============4871891795452876026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Oct 2025 02:29:27 -0000
-Message-Id: <176153216740.3006246.6509915256382410587@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 02:30:07 -0000
+Message-Id: <176153220751.3008376.13512250938963686952@gitolite.kernel.org>
 
---===============3973709491434809234==
+--===============4871891795452876026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8d309ae354d6b5537f6c716ca5c411ece5bd78c0
-    new: 2e722210e689973d5431e81334eb7325317f82f4
-    log: revlist-8d309ae354d6-2e722210e689.txt
+    old: 2e722210e689973d5431e81334eb7325317f82f4
+    new: 14176ea93a11dd009640bfe9615af9339b34488d
+    log: revlist-2e722210e689-14176ea93a11.txt
+  - ref: refs/heads/tip/urgent
+    old: f4d34a10015c6766d178dc411cc6badca928b51c
+    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+    log: revlist-f4d34a10015c-dcb6fa37fd7b.txt
+  - ref: refs/tags/v6.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0edde068997bc3c41f122c9941143a39d604a0dc
 
---===============3973709491434809234==
+--===============4871891795452876026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d309ae354d6-2e722210e689.txt
+Content-Disposition: attachment; filename=revlist-2e722210e689-14176ea93a11.txt
+
+11ea34cdd287a9581591c0c7abee1d344c5d3785 Merge branch into tip/master: 'core/bugs'
+387ebca426b977577fca87fef0c2bccd28a43e0e Merge branch into tip/master: 'core/core'
+39028749277ca19b0d1c8f5da554458e79584ab3 Merge branch into tip/master: 'irq/drivers'
+e7cfd71f23fbbfdbf7d67a381535e291b0e3d940 Merge branch into tip/master: 'irq/msi'
+6ae7c5329efdce66cdb4d61cd4e32e3762c2fb5c Merge branch into tip/master: 'locking/core'
+d8b4b45e4c086cf0a64b71ab4771b72c3daac936 Merge branch into tip/master: 'objtool/core'
+4c95940951a9daf0ce8da89d9c0687adebfced9c Merge branch into tip/master: 'perf/core'
+c753ead7c1f7f9069f17aac9734b04de556c57a5 Merge branch into tip/master: 'sched/core'
+498ae34cb9f01974bf70651f6bdd50586c6ea965 Merge branch into tip/master: 'x86/apic'
+b65d2c76ecba2c1b21dae5153ddcdb912e0c01e7 Merge branch into tip/master: 'x86/bugs'
+63f149fdbb41755f4fcb9512405b3e26573a5b8d Merge branch into tip/master: 'x86/cache'
+3e1a7164578f74db5e7d2da1f0321e2b16cf2354 Merge branch into tip/master: 'x86/cleanups'
+e00996be1949430622068d540b5faffe09cd84cb Merge branch into tip/master: 'x86/core'
+311a02cfd016897f99252b38f5cd75cca7c99a39 Merge branch into tip/master: 'x86/cpu'
+191a3f4b5e3b8edb7b6539356ba597cda35c1153 Merge branch into tip/master: 'x86/entry'
+dc8d4a69f977b9ee8c541495829a6eedc856ef70 Merge branch into tip/master: 'x86/microcode'
+7eb35926320503ff340188f2a091e0dcac2f6f19 Merge branch into tip/master: 'x86/mm'
+14176ea93a11dd009640bfe9615af9339b34488d Merge branch into tip/master: 'x86/sgx'
+
+--===============4871891795452876026==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f4d34a10015c-dcb6fa37fd7b.txt
 
 268eb6fb908bc82ce479e4dba9a2cad11f536c9c dt-bindings: usb: dwc3-imx8mp: dma-range is required only for imx8mp
 2758246d287549e1088eae350654160cbf4d424f usb: dwc3: Don't call clk_bulk_disable_unprepare() twice
@@ -77,6 +109,5 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
-2e722210e689973d5431e81334eb7325317f82f4 Merge branch 'linus'
 
---===============3973709491434809234==--
+--===============4871891795452876026==--
