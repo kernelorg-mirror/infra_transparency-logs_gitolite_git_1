@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2176151345208133471=="
+Content-Type: multipart/mixed; boundary="===============1208253475702119754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 27 Oct 2025 22:33:18 -0000
-Message-Id: <176160439836.4132767.18321102345890153423@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 22:33:19 -0000
+Message-Id: <176160439992.4132884.17800010634663757994@gitolite.kernel.org>
 
---===============2176151345208133471==
+--===============1208253475702119754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.19
-    old: 0903296efd0b4e17c8d556ce8c33347147301870
-    new: d5e86096feb689c9f5d9aa07c913747ba430a600
-    log: revlist-0903296efd0b-d5e86096feb6.txt
-  - ref: refs/heads/drivers-for-6.19
-    old: 2286e18e3937c69cc103308a8c1d4898d8a7b04f
-    new: 4648c70f2ee3636585d536d8272279e312180798
-    log: |
-         9b21c3bd24803e4ebab9f91bd812aa10576d8220 soc: qcom: ubwc: Add configuration Glymur platform
-         457129aa3610f46bfa6f97725de731345d4aaef0 dt-bindings: arm: qcom,ids: Add SoC ID for SM8850
-         4648c70f2ee3636585d536d8272279e312180798 soc: qcom: socinfo: Add SM8850 SoC ID
-         
-  - ref: refs/heads/arm64-defconfig-for-6.19
-    old: 0000000000000000000000000000000000000000
-    new: f5474a34080ed199d3dff2a7b2cd912296376598
+  - ref: refs/heads/for-next
+    old: 9ced5994cf5c65a684fd8fdddc33afe225700c01
+    new: ccc411a3dd249fa6d638c582df3bf150c36eb82c
+    log: revlist-9ced5994cf5c-ccc411a3dd24.txt
 
---===============2176151345208133471==
+--===============1208253475702119754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0903296efd0b-d5e86096feb6.txt
+Content-Disposition: attachment; filename=revlist-9ced5994cf5c-ccc411a3dd24.txt
 
 fe9829de17d3c01072cb45ef564b33101c62f58b arm64: dts: qcom: lemans-evk-camera: Add DT overlay
 44562f5918907b2e0d7e265540afebe7a42c48d2 arm64: dts: qcom: qcs615: Add OSM l3 interconnect provider node and CPU OPP tables to scale DDR/L3
@@ -84,6 +73,7 @@ bfc5cabaa4979f6645c851759b4242f9efe4f106 dt-bindings: arm: qcom: Document Huawei
 aab69794b55d7f60d94305961be264cd230112ba arm64: dts: qcom: Add support for Huawei MateBook E 2019
 bc42d98593535ccca739f67d9b9cb859f4e13304 dt-bindings: arm: qcom: Add Asus ZenFone 2 Laser/Selfie
 42621cbb3afd47e1e3000abe2da8ac33286fff4f arm64: dts: qcom: msm8939-asus-z00t: add initial device tree
+94c3d824c50ef3009c7ac62485cbcd3aac9690a0 arm64: defconfig: Enable two Novatek display panels for MTP8750 and Tianma
 03eb18495d2d91214e840064641eade208fcd8c7 arm64: dts: qcom: qcm6490-shift-otter: Fix sorting and indentation
 a206ee34db2eff05d3d58214ba2e827824b2bc7b arm64: dts: qcom: qcm6490-shift-otter: Remove thermal zone polling delays
 f404fdcb50021fdad6bc734d69468cc777901a80 arm64: dts: qcom: qcm6490-shift-otter: Add missing reserved-memory
@@ -105,6 +95,8 @@ fb48d3f3abba9a7bca2814fa2e9db8ac5b9e16b9 arm64: dts: qcom: sc8280xp: Fix shifted
 78db965913f70f72a71dd41992dd7885fca6084c arm64: dts: qcom: sm8550: Add description of MCLK pins
 3f857377578740f73fbead7f154a56db20e05f82 arm64: dts: qcom: sm8550-qrd: Enable CAMSS and S5K3M5 camera sensor
 08ce5274038ae7ad2b9e90bbcbeabe7548ec425b arm64: dts: qcom: sm8550-hdk: Add SM8550-HDK Rear Camera Card overlay
+415837986320ec94a0ecf4a85f95bca13575f81c arm64: defconfig: Enable configs for Fairphone 3, 4, 5 smartphones
+9b21c3bd24803e4ebab9f91bd812aa10576d8220 soc: qcom: ubwc: Add configuration Glymur platform
 a829f6f2e8a727409d2b896bff244d33ef21fe29 arm64: dts: qcom: Add initial support for MSM8937
 1a614267281fa477b7d1eeb7b225f106161eb739 dt-bindings: arm: qcom: Add Xiaomi Redmi 3S
 2144f6d57d8ef8b0c73bd97d8e5f2783e67afc35 arm64: dts: qcom: Add Xiaomi Redmi 3S
@@ -121,9 +113,13 @@ e19dc81263853d7fb41944db9fe7a54400c0b1b0 arm64: dts: qcom: sdm845-shift-axolotl:
 f8d21b5e4caa7a8e06cf6c08d85f6e992562a667 arm64: dts: qcom: qcm2290: add APR and its services
 1fc30731562bb45e53e09d40fc69bc4364310b6e arm64: dts: qcom: qcm2290: add LPASS LPI pin controller
 acb854eba80dceb12329cbe162122491f13a8a2a arm64: dts: qcom: qrb2210-rb1: add HDMI/I2S audio playback support
+f5474a34080ed199d3dff2a7b2cd912296376598 arm64: defconfig: Add M31 eUSB2 PHY config
+457129aa3610f46bfa6f97725de731345d4aaef0 dt-bindings: arm: qcom,ids: Add SoC ID for SM8850
+4648c70f2ee3636585d536d8272279e312180798 soc: qcom: socinfo: Add SM8850 SoC ID
 ec9d588391761a08aab5eb4523a48ef3df2c910f arm64: dts: qcom: sm6350: Fix wrong order of freq-table-hz for UFS
 06d262bcdb3bc86805739de1c484761f0a59a453 arm64: dts: qcom: sm6350: Add OPP table support to UFSHC
 c1a45887a36ef7ded3fb4bac59d4a3445098b04b arm64: dts: qcom: sm6350: Add interconnect support to UFS
 d5e86096feb689c9f5d9aa07c913747ba430a600 arm64: dts: qcom: ipq5424: add cooling maps for CPU thermal zones
+ccc411a3dd249fa6d638c582df3bf150c36eb82c Merge branches 'arm64-defconfig-for-6.19', 'arm64-fixes-for-6.18', 'arm64-for-6.19', 'clk-for-6.19' and 'drivers-for-6.19' into for-next
 
---===============2176151345208133471==--
+--===============1208253475702119754==--
