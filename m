@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2520772981006338841=="
+Content-Type: multipart/mixed; boundary="===============5893801214326169223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 27 Oct 2025 07:02:33 -0000
-Message-Id: <176154855396.3280846.17458089123775480911@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 07:02:41 -0000
+Message-Id: <176154856188.3281129.16948477228798828930@gitolite.kernel.org>
 
---===============2520772981006338841==
+--===============5893801214326169223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 2eead19334516c8e9927c11b448fbe512b1f18a1
-    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-2eead1933451-dcb6fa37fd7b.txt
+  - ref: refs/heads/driver-core-next
+    old: aad1577ab950d1ad46e0dd0915bfbaf9fa9160e4
+    new: 37022410f4a3cc11614626a58cd08bcf8ea529e9
+    log: revlist-aad1577ab950-37022410f4a3.txt
 
---===============2520772981006338841==
+--===============5893801214326169223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761548618 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761548623 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1761548551-494ed08aefd2fd8eb6f228ad1cfd08a423b2a272
+nonce 1761548558-c0d2025b5d6a1a28a13dead8d90b537e06046efe
 
-2eead19334516c8e9927c11b448fbe512b1f18a1 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/driver-core-linus
+aad1577ab950d1ad46e0dd0915bfbaf9fa9160e4 37022410f4a3cc11614626a58cd08bcf8ea529e9 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/GUobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+69oQALdIYt+9eiZaonNXiTCU
-ATXMBdHir/1IfCbmLTJ9kGBMQ96xlS0x9fZOQ84sxHbOsSwFbq4/9Hz+g3iIPpZH
-I4pkOGbF617YJSUt7QHAxJHQkj9pdvuzETE4C2kCLyQcBlPHgAiaRQ2Wow/+CN7K
-2n/TKCcu7jtpsCM+9SINakpiZVNsN/ecYfvXClT5F2QoZLR9PduEQYNaH9cdDymw
-k1p2/PbGc0xcmR5PpFprDT1h+Vt78WxCdQJSakN8uTP6xMKXoYnzX4mN4c3hkF5L
-E+2I2erqCvUbQ54RgtoNS6cos60bUsnrMImQaqc1JodexCIQ4WHAH08wSC4IZLdl
-KDojCtkNhlTHuGnRAsj6HcJ19sCO5q0jHNBtpgfTvNuFZaDpZL/9F59TOvfzQnh6
-xmiW+3CNYAiluIFRonfCoo29EDpLm1GYoVm05zvD3CKKStDUaxIhmK05lcb+rn5f
-Pd3HOUx87SKLqLcfmsJXiV1bXKZ6A6mUoLWIZskFbSav6eJCfaEm8pA9O20lbFgd
-L2V6t0sqbgo/PZgsEtiR/DIIoTIu325kkB/vuEl3lRbbOLh7NOHgf99yS8j9viFZ
-Ion44Jytns85803DFQXDf+9jwl40XNjjjleG3kFomZ3AcelHh3TLW/teFur5LfmX
-OzKlcn2VwWbinc4t6DyXnib7
-=Eah6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/GU8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OKQQALqab8rHrXwyrfiILdAV
+xtcsjduIb3KfBEn+rZM9kQWqW6L8tVW37+iYwrvoE+mim/nUC2pgKS/5ocGpb7Ca
+aGzT/O9x9ekNiFTBd9aNwcKu8swTmE+GYPmzeTvImdk+MFTUK5CTEb/74m0X7LSz
+QLkx+rbPzhva+jm0Nt+pc9qW+O/xrDmh31Jb0UycLLW5qQSvX+NSYmoBsstzwv4I
+dor+zMn0yLCxuQlebn7MuR2CNyM8Q+Tm/uwNN7SLcycudzv+2QA+m2I33Nwfk2fY
+T3NLna4JofhknvtSoJ8M6sThRi+qehYza1CJYT/sFMG/iliOCUF0TtHuAtB49XUb
+rZJArjaik0cY1n+aR5KZwxLtDwDRFD2Gew78Zey29Wn5OLzMVez7buQJCgx0rv8M
+wW4ylE4mU9QILaeNqvr8QfXP24XMGVa682+95fHvwMR1LDxRnr6LqkPPco+ODxtI
+6yRvvDZABNrlMyvn2lhjRnL/ZYeqE/NXx79bBghcsTM6fBAJe+o8zrHJT5Ad/Obl
+fyv1/An9TFmCLqbO35vqQx0UNdIijErOKMZiQ6cddo+I+91vj1sd+YnUDaoqvjvU
+r1oDU/NJiLEzwNnRPSnuazLqRSAJ2I5bMJ/oAmAaqkiDgxH96G0+ppKLb+UP62PJ
+2MxM65eKsqD2cU+OIfQaonTw
+=q183
 -----END PGP SIGNATURE-----
 
---===============2520772981006338841==
+--===============5893801214326169223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eead1933451-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-aad1577ab950-37022410f4a3.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -459,6 +459,9 @@ d6dd930a6b3d177cda9aa8dfdcc6b2c7dda4d78a Merge tag 'drm-misc-fixes-2025-10-16' o
 62cab426d0e340cd38893227c279705cc9e8416a Merge tag 'drm-xe-fixes-2025-10-16' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 7f864458e9a6d2000b726d14b3d3a706ac92a3b0 net: stmmac: dwmac-rk: Fix disabling set_clock_selection
 a429b76114aaca3ef1aff4cd469dcf025431bd11 erofs: fix crafted invalid cases for encoded extents
+74b84d1be0220b99405c16a4a3e1e503e3bd8387 driver core: fw_devlink: Don't warn about sync_state() pending
+a91c8096590bd7801a26454789f2992094fe36da devcoredump: Fix circular locking dependency with devcd->mutex.
+c7fbb8218b4ad35fec0bd2256d2b9c8d60331f33 sysfs: check visibility before changing group attribute ownership
 1f1d3e1d094db732d22b892227bf1e1ac3a8ca04 rust: bitmap: fix formatting
 4eabd0d8791eaf9a7b114ccbf56eb488aefe7b1f drm/panthor: Fix kernel panic on partial unmap of a GPU VA region
 1d4e7d9f6b7e4e45ec8ca03ae1bbc6ae7165b6f0 Merge tag 'tee-qcomtee-fixes-for-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/jenswi/linux-tee into arm/fixes
@@ -478,6 +481,7 @@ e9ad390a4812fd60c1da46823f7a6f84f2411f0c arm64/sysreg: Fix GIC CDEOI instruction
 ea0d55ae4b3207c33691a73da3443b1fd379f1d2 arm64: debug: always unmask interrupts in el0_softstp()
 7c33e97a6ef5d84e98b892c3e00c6d1678d20395 bpf: Do not disable preemption in bpf_test_run().
 a1e83d4c0361f4b0e3b7ef8b603bf5e5ef60af86 selftests/bpf: Fix redefinition of 'off' as different kind of symbol
+cfec502b3d091ff7c24df6ccf8079470584315a0 rust: device: fix device context of Device::parent()
 fe69107ec7d8b946ab413cfe118984dac8f1a0d8 Merge tag 'riscv-for-linux-6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 f406055cb18c6e299c4a783fc1effeb16be41803 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 50bd33f6b3922a6b760aa30d409cae891cec8fb5 net: enetc: fix the deadlock of enetc_mdio_lock
@@ -609,6 +613,7 @@ fff111bf45cbeeb659324316d68554e35d350092 misc: fastrpc: Fix dma_buf object leak 
 d90eeb8ecd227c204ab6c34a17b372bd950b7aa2 binder: remove "invalid inc weak" check
 4b1270902609ef0d935ed2faa2ea6d122bd148f5 most: usb: Fix use-after-free in hdm_disconnect
 a8cc9e5fcb0e2eef21513a4fec888f5712cb8162 most: usb: hdm_probe: Fix calling put_device() before device initialization
+2eead19334516c8e9927c11b448fbe512b1f18a1 arch_topology: Fix incorrect error check in topology_parse_cpu_capacity()
 00aaae60faf554c27c95e93d47f200a93ff266ef gpio: regmap: add the .fixed_direction_output configuration parameter
 2ba5772e530f73eb847fb96ce6c4017894869552 gpio: idio-16: Define fixed direction of the GPIO lines
 0fd7e7a1ad7c5fb8801a9c1661fc4e1ae4d9b655 btrfs: fix delayed_node ref_tracker use after free
@@ -744,5 +749,6 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
+37022410f4a3cc11614626a58cd08bcf8ea529e9 Merge 6.18-rc3 into driver-core-next
 
---===============2520772981006338841==--
+--===============5893801214326169223==--
