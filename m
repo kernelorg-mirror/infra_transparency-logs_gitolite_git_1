@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 27 Oct 2025 14:02:21 -0000
-Message-Id: <176157374122.3686797.7440339546679815317@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 14:02:32 -0000
+Message-Id: <176157375273.3686980.7540152126704532358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath12k-ng
-    old: 25122460e7f96864a80b59ffe6c953911516d3b3
+  - ref: refs/heads/pending-ath12k-ng
+    old: 5df9630a1b386e20181aeca9ea9622db45dd1018
     new: 6633dca572d8f599b0a1ead0f145a52049ec7709
     log: |
          07174dc94269758e271cba01680a8fecf35169dd wifi: ath12k: Move DP related functions from peer.c to dp_peer.c file
