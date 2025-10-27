@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5500692478319514447=="
+Content-Type: multipart/mixed; boundary="===============4323348958197996224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 27 Oct 2025 07:32:50 -0000
-Message-Id: <176155037016.3309520.12442687956472341987@gitolite.kernel.org>
+Date: Mon, 27 Oct 2025 07:32:55 -0000
+Message-Id: <176155037575.3309689.2612356246136264526@gitolite.kernel.org>
 
---===============5500692478319514447==
+--===============4323348958197996224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+  - ref: refs/heads/usb-linus
+    old: a1b866f2018748282fa026eb4c92d032dfda11a9
     new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-3a8660878839-dcb6fa37fd7b.txt
+    log: revlist-a1b866f20187-dcb6fa37fd7b.txt
 
---===============5500692478319514447==
+--===============4323348958197996224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761550434 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761550440 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1761550369-d6a1bc8353c6e1ed5c8c5daa3fe7969e7aa31172
+nonce 1761550373-af10bb125e589d0569175c33165b2e5f5151f5ac
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/main
+a1b866f2018748282fa026eb4c92d032dfda11a9 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/IGIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+02EP/jxV+vs89sFa0hAFhzLK
-j/hbMNH/I9271aI160H5rO0DtSe0ZoTegJ9PPl4LjymlwsDfOFcWv425y3K8x3uf
-4NuQnHpt2OVlKT8gKMYQOh+Pj433SEFxsyunUK6MM5KDCEbwXuJnNyKewe6krtml
-hSlekAwtxsJj64z1OPvYA/x3GcvIPmB7JM6lQw5tcKFnmu3UNCKvuA2gdY++YcBL
-Dih1oz5wprCAq4gMBicX/4g7d0acDHzHxXQjki3RIqlTBUH1en+Bt2EivaZOqihp
-JZL849I2VUd6Q1ut6HxiQmuU6TDQVpRS/KB9yr6UikWhSs+aNk8+aLlE2wfE6Tcx
-1ytJ2IwfyZCkPFuBFk4FlPUFvrXBFCcBYapL2NaP/Hb3m1ZQpkX0ZSDvOxAji0u6
-QG2XE8QkcHvjYMgsilTV0UBK2DNyEZRgKV0NGf08SZzFjhZrCEpDHg7D4NnZhUhp
-TsC/EQAOpD2fgWIavPCR6nsUTk1STznVy+h2zXu2gB3LY8Q5m1gzxIpvY5AlzTut
-ADElGp/6G/fUrRyIHN6vmtZTFPUYaBIDLGh3cC1DADIJMQ+TXUDQYtHqM8zhq9Kv
-48YqYZiYSIx8DNDyTfLvlsym/4vuYPr9e6daAkQLbMIJYCpJYMXwM8/ujeam+yV5
-0Y92gL23mWtPiooDkQaZiGH/
-=4hDz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmj/IGgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4D8P/04cBpGG8TvsbFeHFWkp
+pMbNtxbgO7LcX0MsXguERSlN+eqQff2wm4Xijnlq7KQyHAePRvh3nD3V31zEozlv
+hJpRgIEPNO5ic54wIQtTlVJtjHo8N3s1BfOqQ13WYPqKrLM4cUMjupJ8eti9tvxa
+nR9gRx37OmEZ7JU6shjaZIp0o+gxcliAbEhjQ2qKUTCAf2s7JLuSfF2BkyWbqFGE
+7KR2ogOLYkkR0EbyhNEADJWkF1mrwRH86b6EztHwCs6NbX84UZonFVLdAms+Bfco
+MyOHqvn6IgbGqMxLuziFT6sT4ySTX26HujENsZ3DvC3iqm6HezY97Arjy8SlgLM3
+szPdvai8xOqUMomsDmEnU83pG2Jsa1TCIsB4pL17Fw5eT8m+SM/Bhk8PYIq8AOXg
+dBkPINHljzioxi0fAn30rAFjb/b+OAsPdlBermaU25MdRgU4fG5r8+e4LX7kBjoa
+YvFvR8y+uOD+SMB9ohqwrzsuKt2VVdMdeehrx23LZmfhYWbhpiYmmdLGnbaplQzD
+bXf3EaujZqb8iI4aQUEUi1vZ+reV+EHhdN4yqmhA7KHuSTIRsznDEq+sG2qLmy1Z
+5QRzM9UFXMXqI7zUq/VoiwBpLGaSg7X4DTw23w1CaqFB8OHoERhhZEktc7SiBFps
+ts3SmeSrAOp+Mqyt8uOaAE7b
+=hZsm
 -----END PGP SIGNATURE-----
 
---===============5500692478319514447==
+--===============4323348958197996224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-a1b866f20187-dcb6fa37fd7b.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -140,11 +140,6 @@ ef3e73a917ec7d080e0fb0e4015098a4fb0f1cff powerpc/pseries/msi: Fix NULL pointer d
 0843ba458439f38efdc14aa359c14ad0127edb01 powerpc/fadump: skip parameter area allocation when fadump is disabled
 12d724f2852d094d68dccaf5101e0ef89a971cde ata: libata-core: relax checks in ata_read_log_directory()
 5ec6f9434225e18496a393f920b03eb46d67d71d ALSA: hda/realtek: Add quirk entry for HP ZBook 17 G6
-268eb6fb908bc82ce479e4dba9a2cad11f536c9c dt-bindings: usb: dwc3-imx8mp: dma-range is required only for imx8mp
-2758246d287549e1088eae350654160cbf4d424f usb: dwc3: Don't call clk_bulk_disable_unprepare() twice
-bd8c3ce6d7a205b3ba3ef9815db4c6932290ec59 dt-bindings: usb: switch: split out ports definition
-dddc0f71485f1f29f236e387632181bcc09019a0 usb: misc: Add x86 dependency for Intel USBIO driver
-51cb04abd39097209b871e95ffa7e8584ce7dcba dt-bindings: usb: qcom,snps-dwc3: Fix bindings for X1E80100
 66233e583d1e00b1742d1ba36ae31568109ba6bd ALSA: hda/tas2781: Set tas2781_hda::tasdevice_priv::chip_id as TAS5825 in case of tas5825
 d3c4c1f29aadccf2f43530bfa1e60a6d8030fd4a staging: gpib: Fix no EOI on 1 and 2 byte writes
 92a2b74a6b5a5d9b076cd9aa75e63c6461cbd073 staging: gpib: Fix sending clear and trigger events
@@ -289,9 +284,6 @@ d1d5df4691e4322656024fc374d0faec4387aa0f Merge branch 'intel-wired-lan-driver-up
 c065b6046b3493a878c2ceb810aed845431badb4 Use CONFIG_EXT4_FS instead of CONFIG_EXT3_FS in all of the defconfigs
 ca88ecdce5f51874a7c151809bd2c936ee0d3805 arm64: Revamp HCR_EL2.E2H RES1 detection
 095232711f23179053ca26bcf046ca121a91a465 drm/draw: fix color truncation in drm_draw_fill24
-8607edcd1748503f4f58e66ca0216170f260c79b usb: xhci-pci: Fix USB2-only root hub registration
-f3d12ec847b945d5d65846c85f062d07d5e73164 xhci: dbc: fix bogus 1024 byte prefix if ttyDBC read races with stall event
-2bbd38fcd29670e46c0fdb9cd0e90507a8a1bf6a xhci: dbc: enable back DbC in resume if it was enabled before suspend
 2616222e423398bb374ffcb5d23dea4ba2c3e524 amd-xgbe: Avoid spurious link down messages during interface toggle
 7f38a1487555604bc4e210fa7cc9b1bce981c40e drm/rockchip: vop2: use correct destination rectangle height check
 62685ab071de7c39499212bff19f1b5bc0148bc7 uprobe: Move arch_uprobe_optimize right after handlers execution
@@ -529,7 +521,6 @@ a09a5aa8bf258ddc99a22c30f17fe304b96b5350 hwmon: (cgbc-hwmon) Add missing NULL ch
 e607ef686ab95fbcb0dfd16f49aea7918be626e1 smb: client: allocate enough space for MR WRs and ib_drain_qp()
 103541e6a5854b08a25e4caa61e990af1009a52e rv: Fully convert enabled_monitors to use list_head as iterator
 3d62f95bd8450cebb4a4741bf83949cd54edd4a3 rv: Make rtapp/pagefault monitor depends on CONFIG_MMU
-71c07570b918f000de5d0f7f1bf17a2887e303b5 USB: serial: option: add UNISOC UIS7720
 e46ee2f07e5848d7ec7aec38b72476dc7941b048 spi: intel: Add support for 128M component density
 bc25c6e0a4880b5ad70c31fe1466f30c9e4c8f52 spi: intel-pci: Add support for Arrow Lake-H SPI serial flash
 f7e37affbc9085f2b77ccb6596521a44eabf7505 spi: intel-pci: Add support for Intel Wildcat Lake SPI serial flash
@@ -618,9 +609,6 @@ a8cc9e5fcb0e2eef21513a4fec888f5712cb8162 most: usb: hdm_probe: Fix calling put_d
 2ba5772e530f73eb847fb96ce6c4017894869552 gpio: idio-16: Define fixed direction of the GPIO lines
 0fd7e7a1ad7c5fb8801a9c1661fc4e1ae4d9b655 btrfs: fix delayed_node ref_tracker use after free
 ada7d45b568abe4f1fd9c53d66e05fbea300674b btrfs: ref-verify: fix IS_ERR() vs NULL check in btrfs_build_ref_tree()
-37b9dd0d114a0e38c502695e30f55a74fb0c37d0 usb: raw-gadget: do not limit transfer length
-dfc2cf4dcaa03601cd4ca0f7def88b2630fca6ab usb/core/quirks: Add Huawei ME906S to wakeup quirk
-2d8713f807a49b8a67c221670e50ae04967e915d tcpm: switch check for role_sw device with fw_node
 bd721ec7dedcc24ced51559e42a39140b59dfd08 xfs: don't set bt_nr_sectors to a negative number
 630785bfbe12c3ee3ebccd8b530a98d632b7e39d xfs: always warn about deprecated mount options
 3e7ec343f066cb3b6916239680ab6ad44537b453 xfs: loudly complain about defunct mount options
@@ -641,7 +629,6 @@ c71af4d6d56665e04634babfc45dce3d9ab58285 of/irq: Fix OF node refcount in of_msi_
 9ea7460217423f07febe273307a5f3b6b1303b29 Merge tag '9p-for-6.18-rc3-v2' of https://github.com/martinetd/linux
 250a17e8f9555f5c5207581068ebfa2aa1f540a2 Merge tag 'erofs-for-6.18-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 dd72c8fcf6d35de5d6d976f20dc1ae84ce7af08b Merge tag 'platform-drivers-x86-v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-89205c60c0fc96b73567a2e9fe27ee3f59d01193 USB: serial: option: add Quectel RG255C
 4c8cf6bd28d6fea23819f082ddc8063fd6fa963a block: require LBA dma_alignment when using PI
 bf5570590a981d0659d0808d2d4bcda21b27a2a5 MIPS: Malta: Fix keyboard resource preventing i8042 driver from registering
 1d5d1663619d5a367be538f6a1be1cf5bd2cf494 MIPS: Malta: Fix PCI southbridge legacy resource reservations
@@ -675,7 +662,6 @@ b1055678a0160b2952c322ad1b61805562698f99 gpiolib: acpi: Use %pe when passing an 
 10843e1492e474c02b91314963161731fa92af91 net: bonding: fix possible peer notify event loss or dup issue
 b62bd2cf7e991efbc823665e54dd7d7d8372c33b Merge branches 'pm-cpuidle' and 'pm-cpufreq'
 114cbd67db825bfa42bc6c34875fc8409e5bba72 Merge branch 'acpi-property'
-622865c73ae30f254abdf182f4b66cccbe3e0f10 USB: serial: option: add Telit FN920C04 ECM compositions
 4c4e6ea4a120cc5ab58e437c6ba123cbfc357d45 gpio: ljca: Fix duplicated IRQ mapping
 c5efc6a0b3940381d67887302ddb87a5cf623685 io_uring: correct __must_hold annotation in io_install_fixed_file
 f6ceec6434b5efff62cecbaa2ff74fc29b96c0c6 net: datagram: introduce datagram_poll_queue for custom receive queues
@@ -716,7 +702,6 @@ ef3330b99c01bda53f2a189b58bed8f6b7397f28 genirq/manage: Add buslock back in to e
 0cdf7f6fa671460004952707bc52715a53dda113 Merge tag 'drm-misc-fixes-2025-10-23' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 adb0971a1acd462078f159059cc7380338e41cce Merge tag 'drm-intel-fixes-2025-10-23' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 18b1ce0b29c41833363b58ad030b76dabf984899 Merge tag 'drm-xe-fixes-2025-10-23' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-a1b866f2018748282fa026eb4c92d032dfda11a9 Merge tag 'usb-serial-6.18-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 7209ff310083315386570bf8d001a0845fe7ab8c of/irq: Export of_msi_xlate() for module usage
 84dfce65a7ae7b11c7b13285a1b23e9a94ad37b7 x86/bugs: Remove dead code which might prevent from building
 b2a578f3127ab9ef80114cef9b20a2b42a8ee77a soc: officially expand maintainership team
@@ -750,4 +735,4 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 
---===============5500692478319514447==--
+--===============4323348958197996224==--
