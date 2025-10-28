@@ -1,22 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 28 Oct 2025 09:53:55 -0000
-Message-Id: <176164523586.554835.17661120276855643804@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8717977156578178351=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Tue, 28 Oct 2025 09:56:53 -0000
+Message-Id: <176164541346.576531.7636159768781108723@gitolite.kernel.org>
+
+--===============8717977156578178351==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/main
-    old: 19ab0a22efbd824f342a794a5c61bce7842daef5
-    new: 0bc4059cc55d18b3e54fb6d0ed9c394f149217d8
+  - ref: refs/heads/virtio/msg
+    old: fd82b1499469cc6705f5eced93d09d758e44de2a
+    new: 6159bd34e85ea00f4611b6ff0a5adddaa7956f23
     log: |
-         a71e367773482a78566abd862dfee9cc3bb9332e net: txgbe: support RX desc merge mode
-         eb57b16d90d3ec9eee17b0e66026507cd09a2734 net: txgbe: support TX head write-back mode
-         eaed17770637af6d35d9b5465d91f1256a5eaacf net: txgbe: support RSC offload
-         0bc4059cc55d18b3e54fb6d0ed9c394f149217d8 Merge branch 'implement-more-features-for-txgbe-devices'
+         9752a840dd62b0ccbf36ea8b6852d810883b447a virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
+         a4d343e030bf285d7a9a48c801fa5424d5ca6eaa virtio-msg: Add support for loopback bus
+         00775ac2cc9dd757fef5fdd4cec0509fed101869 virtio-msg: ffa: Poll for events if indirect messages aren't supported
+         6159bd34e85ea00f4611b6ff0a5adddaa7956f23 virtio-msg: ffa: Add support for DMA ops and memory sharing
          
+  - ref: refs/heads/virtio/msg-xen
+    old: afe530c4172afac688330b1446b47052ad59fb1d
+    new: 27143c677cd93a347826a8702540f4b7cdb0d14e
+    log: revlist-afe530c4172a-27143c677cd9.txt
+
+--===============8717977156578178351==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-afe530c4172a-27143c677cd9.txt
+
+9752a840dd62b0ccbf36ea8b6852d810883b447a virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
+a4d343e030bf285d7a9a48c801fa5424d5ca6eaa virtio-msg: Add support for loopback bus
+00775ac2cc9dd757fef5fdd4cec0509fed101869 virtio-msg: ffa: Poll for events if indirect messages aren't supported
+6159bd34e85ea00f4611b6ff0a5adddaa7956f23 virtio-msg: ffa: Add support for DMA ops and memory sharing
+846fd1196e5e327b32db4f061825b56b9e15b58c virtio-msg: ffa: Add support for passive mode
+27c619b32853559a63477ef1f762d5499b11c018 HACK: firmware: arm_ffa: Partitions can come online after the host
+440b3e7735746f13043586398615e77147cb8eb7 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
+8d1fc26e2f13344cd4d4f0552d6f0eaaade83913 vsock: Add memory sharing support
+decfdf205515878f22b1732b01676d89a2109808 TEMP: defconfig: Reset
+723df59292974f6803278531638052afdb090de9 TEMP: defconfig: Enable virtio-msg + qemu/xen options
+4f64fcc6e861a14545fe5db70aad90a562f6dc49 TEMP: defconfig: vsock support
+27143c677cd93a347826a8702540f4b7cdb0d14e TEMP: defconfig: Enable INITRAMFS for guest kernel
+
+--===============8717977156578178351==--
