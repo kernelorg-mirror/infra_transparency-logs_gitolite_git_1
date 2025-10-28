@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7933459888779475760=="
+Content-Type: multipart/mixed; boundary="===============5230682070299521616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Oct 2025 16:53:24 -0000
-Message-Id: <176167040467.943134.17010412911979954204@gitolite.kernel.org>
+Date: Tue, 28 Oct 2025 16:53:27 -0000
+Message-Id: <176167040720.943214.14015944290104955220@gitolite.kernel.org>
 
---===============7933459888779475760==
+--===============5230682070299521616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: bfe62db5422b1a5f25752bd0877a097d436d876d
     new: cebba694d26d29467615c641a8fefd5b2cd4a1aa
     log: revlist-bfe62db5422b-cebba694d26d.txt
 
---===============7933459888779475760==
+--===============5230682070299521616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ d7d5eca4de565f95ac6760dceced123881b4c2bd Merge branch 'net-macb-eyeq5-support'
 6920fa0c764dbdd35d311d4df986226bb48165f6 net: stmmac: Add a devlink attribute to control timestamping mode
 cebba694d26d29467615c641a8fefd5b2cd4a1aa Merge branch 'net-stmmac-add-support-for-coarse-timestamping'
 
---===============7933459888779475760==--
+--===============5230682070299521616==--
