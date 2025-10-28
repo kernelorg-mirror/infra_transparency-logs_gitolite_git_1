@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 28 Oct 2025 21:43:01 -0000
-Message-Id: <176168778143.1198160.6696765760662136322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 28 Oct 2025 21:49:40 -0000
+Message-Id: <176168818004.1203943.14500957671929178933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-6.19
-    old: dcb938c4532872b42f1615b12776b9e6caf8ed91
-    new: b7d4b28db7da89de1d03316c4e67b5a47390fcd3
+  - ref: refs/heads/master
+    old: fd57572253bc356330dbe5b233c2e1d8426c66fd
+    new: 8eefed8f65cc17c31fdf4ab32292b794b34893ad
     log: |
-         b7d4b28db7da89de1d03316c4e67b5a47390fcd3 sched_ext: Use SCX_TASK_READY test instead of tryget_task_struct() during class switch
-         
-  - ref: refs/heads/for-next
-    old: c569cd62691c63119f58efc52a2ee359b3c2ea70
-    new: e0fe6fdc6201ce2070caa7c69c2cdb6f5373cfaf
-    log: |
-         b7d4b28db7da89de1d03316c4e67b5a47390fcd3 sched_ext: Use SCX_TASK_READY test instead of tryget_task_struct() during class switch
-         e0fe6fdc6201ce2070caa7c69c2cdb6f5373cfaf Merge branch 'for-6.19' into for-next
+         4f76435fd517981f01608678c06ad9718a86ee98 NFSD: Define actions for the new time_deleg FATTR4 attributes
+         abb1f08a2121dd270193746e43b2a9373db9ad84 NFSD: Fix crash in nfsd4_read_release()
+         29cdfb4950702bb849f70f7e3b58b4eeb5c1441c nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+         3e7f011c255582d7c914133785bbba1990441713 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+         8eefed8f65cc17c31fdf4ab32292b794b34893ad Merge tag 'nfsd-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
          
