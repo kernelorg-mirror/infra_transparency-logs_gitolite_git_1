@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7294988364107753231=="
+Content-Type: multipart/mixed; boundary="===============5719938311146634986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 28 Oct 2025 19:02:18 -0000
-Message-Id: <176167813839.1056478.17701070365984653867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 28 Oct 2025 19:18:42 -0000
+Message-Id: <176167912209.1069431.3647664345158062183@gitolite.kernel.org>
 
---===============7294988364107753231==
+--===============5719938311146634986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: e8129644ccfcc068e78c1c5fced0c5d6a59b2c25
-    new: 0d5ee06d63024fffaf1e722c1fade19e88ef0cbc
-    log: revlist-e8129644ccfc-0d5ee06d6302.txt
+  - ref: refs/heads/testme
+    old: 1646eb5cd8b35d2561135a03a56ccab8fc9b2894
+    new: 388eff894d6bc5f921e9bfff0e4b0ab2684a96e9
+    log: revlist-1646eb5cd8b3-388eff894d6b.txt
 
---===============7294988364107753231==
+--===============5719938311146634986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8129644ccfc-0d5ee06d6302.txt
+Content-Disposition: attachment; filename=revlist-1646eb5cd8b3-388eff894d6b.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -148,7 +148,6 @@ f7e37affbc9085f2b77ccb6596521a44eabf7505 spi: intel-pci: Add support for Intel W
 81ccca31214e11ea2b537fd35d4f66d7cf46268e nbd: override creds to kernel when calling sock_{send,recv}msg()
 a1978b692a3953241842a89eaa0026158f306cf1 PCI: dwc: Use custom pci_ops for root bus DBI vs ECAM config access
 fc2bc2623e3a099165b02d13567d21fabb5ea54d Revert "PCI: qcom: Prepare for the DWC ECAM enablement"
-19de7113bfac33ba92c004a9b510612bb745cfa0 x86,fs/resctrl: Fix NULL pointer dereference with events force-disabled in mbm_event mode
 789e46fbfca1875671717a20a916ca1a920268e4 drm/i915/panic: fix panic structure allocation memory leak
 39a9ed0fb6dac58547afdf9b6cb032d326a3698f timekeeping: Fix aux clocks sysfs initialization loop bound
 10fad4012234a7dea621ae17c0c9486824f645a0 Revert "cpuidle: menu: Avoid discarding useful information"
@@ -178,9 +177,7 @@ ca3d643a970139f5456f90dd555a0955752d70cb xfs: cache open zone in inode->i_privat
 0f41997b1b2b769b73415512d2afaae80630e4fe xfs: don't use __GFP_NOFAIL in xfs_init_fs_context
 c4d35e635f3a65aec291a6045cae8c99cede5bba gpio: 104-idio-16: Define maximum valid register address offset
 d37623132a6347b4ab9e2179eb3f2fa77863c364 gpio: pci-idio-16: Define maximum valid register address offset
-876f0d43af78639790bee0e57b39d498ae35adcf x86/microcode: Fix Entrysign revision check for Zen1/Naples
 49d34f3dd8519581030547eb7543a62f9ab5fa08 net: ethernet: ti: am65-cpts: fix timestamp loss due to race conditions
-204ced4108f5d38f6804968fd9543cc69c3f8da6 x86/bugs: Qualify RETBLEED_INTEL_MSG
 6ed8bfd24ce1cb31742b09a3eb557cd008533eec slab: Avoid race on slab->obj_exts in alloc_slab_obj_exts
 89939cf252d80237ed380c1d20575ecfe56ff894 drm/amd/display: Fix NULL pointer dereference
 bec947cbe9a65783adb475a5fb47980d7b4f4796 drm/amd/display: increase max link count and fix link->enc NULL pointer access
@@ -355,56 +352,8 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
-b43ae7e6c4832e3d1c8d71db0d2a1af724414e58 svcrdma: Release transport resources synchronously
-b3bbcd3680cc4339d19a9c885a6b066e75f64d19 nfsd: move name lookup out of nfsd4_list_rec_dir()
-d243e51c819b7825e2c47779a17e925364f808ce nfsd: change nfs4_client_to_reclaim() to allocate data
-6d809b1fee85f6e9c672f8add1918f5346ca122e nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
-2b1683051459aa57c1414351c39514465bc908db NFSD: Add array bounds-checking in nfsd_iter_read()
-a2b7f44d33e9b2df17bb5f15bd0bb258ea2b6115 nfsd: delete unreachable confusing code in nfs4_open_delegation()
-eca6371fd425f0a2b416472e6ed7b6227d8342a8 NFSD: Define actions for the new time_deleg FATTR4 attributes
-6055363a9ea0f6514bdf1b496386f311f9cfc56a NFSD: Fix crash in nfsd4_read_release()
-778630514ec02ca1831a3d9633c69e19d668bcf7 nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
-bd708e3cb75e42a5709eb2f2c504cb5e4b984b59 NFSD: Update comment documenting unsupported fattr4 attributes
-5e2e3f7c6bbc74437a0bbf806bc3128b9f7fb334 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
-25e032818e424a4666e954b54d633298998f37a2 svcrdma: Increase the server's default RPC/RDMA credit grant
-aea3087bcc7f49edaa52e8c8778beac72b506353 NFSD/blocklayout: Fix minlength check in proc_layoutget
-d7c468914eaa5e4f7679af6f105d4dd88326ad7d NFSD/blocklayout: Extract extent mapping from proc_layoutget
-2223da9cf638bb38e6b77989adcc6539f8dde9a4 NFSD/blocklayout: Introduce layout content structure
-08eb48822f53087e8b45e7f6c598558013ec8a5a NFSD/blocklayout: Support multiple extents per LAYOUTGET
-910483e4f7160a3a0a7aad2b014d2d309583f2e9 nfsd: fix refcount leak in nfsd_set_fh_dentry()
-596aceaaaacf7b12f8ca16eabbeab9d69cb624d0 NFSD: Prevent a NULL pointer dereference in fh_getattr()
-20b046a1696323656bacd2e51adc693fd2688f51 NFSD: pass nfsd_file to nfsd_iter_read()
-92de65671d8ff9e993aa813791e77d267e1b021e NFSD: Relocate the xdr_reserve_space_vec() call site
-46c42fad83f5224299cf59fc1d7eca333000b5f4 NFSD: Implement NFSD_IO_DIRECT for NFS READ
-9267d64298de507d3014be0bea3fa19c6bd228f3 SUNRPC: Improve "fragment too large" warning
-96bbeb8dae3780035419031d000d7fbb62a3738e nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
-6cb690bf364ad0ebdf95345083be7ff54dd828a9 sunrpc: allocate a separate bvec array for socket sends
-25b8234caa97f743ddc82f8868cf11fa291e1ed9 NFSD: Add a subsystem policy document
-1f1b99a34953c5cea1f7b73d67232eab0bdd6908 NFSD: free copynotify stateid in nfs4_free_ol_stateid()
-d57d40db19d6c6ba686621e95e335d657f302b44 NFSD: Skip close replay processing if XDR encoding fails
-82ab451411ccfc998366669023556a26e170065e NFSD: Never cache a COMPOUND when the SEQUENCE operation fails
-93acecf2bb07fadb7c853ac15c4f2585714d53b5 nfsd: ensure SEQUENCE replay sends a valid reply.
-2314139c80a6df8c81bf21650f024f9d3834c334 nfsd: stop pretending that we cache the SEQUENCE reply.
-5dadbfbf8e67f9ac3a674a8429fd4e4098d75eda Revert "SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it"
-355ea384bc5746cfea9d698988cdffe13f69a109 nfsd: Use MD5 library instead of crypto_shash
-8de08004f1ba1535a31427a8a2bd51da76fb81da MAINTAINERS: add a nfsd blocklayout reviewer
-2e5e38449461e9232d7bd195a10c37814b5e0a94 lockd: don't allow locking on reexported NFSv2/3
-27cd5638964a071039702f27e43778a8029743f4 xdrgen: Generalize/harden pathname construction
-2500cb0b6f52636614dfac07bb5bf34e17f8078e xdrgen: Make the xdrgen script location-independent
-56a954b7a9b5a5740d5fa442a065949b017aa030 xdrgen: Fix the variable-length opaque field decoder template
-33489817c0df12155eb3bfc86edca8fc64d204f6 xdrgen: handle _XdrString in union encoder/decoder
-1320bb94ef935b2a43dfb4fc9c18d5088ab8b4da NFSD: Make FILE_SYNC WRITEs comply with spec
-85c067ade6eabfe3e56c7c8a02eef8e6c2443a58 NFSD: Enable return of an updated stable_how to NFS clients
-47bc1ffc97512e60bf62bb27981f8e96c2ecabcc NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
-7e87378211b11dfcad52273cfb4cc062fb9558c6 NFSD: Remove specific error handling
-7c478864dea55bd96d855c1f135ef9ad0addcbe9 NFSD: Remove alignment size checking
-0669493b055fa6cd576fb8357a2c44e4b81b6138 NFSD: Clean up struct nfsd_write_dio
-e3b2aa0eaec0b52d090c689748a5716337f21816 NFSD: Introduce struct nfsd_write_dio_seg
-60384e24da05181855751924088d5a8da856024e NFSD: Simplify nfsd_iov_iter_aligned_bvec()
-837a74eb90e906ba88b633c70e70c12f3e1a64c6 NFSD: Handle both offset and memory alignment for direct I/O
-bf43b52f9755a1f51facca126615faefed03bb7d NFSD: Combine direct I/O feasibility check with iterator setup
-4370758dd8e2b511e1a00753cc107c385fc57903 NFSD: Handle kiocb->ki_flags correctly
-4f6d69792e7a359645a6f6058cb1cc8ac5475699 NFSD: Refactor nfsd_vfs_write
-0d5ee06d63024fffaf1e722c1fade19e88ef0cbc siw: Enable try_gso
+8a9fb5129e8e64d24543ebc70de941a2d77a9e77 x86/microcode/AMD: Limit Entrysign signature checking to known generations
+607b9fb2ce248cc5b633c5949e0153838992c152 x86/CPU/AMD: Add RDSEED fix for Zen5
+388eff894d6bc5f921e9bfff0e4b0ab2684a96e9 x86/fpu: Ensure XFD state on signal delivery
 
---===============7294988364107753231==--
+--===============5719938311146634986==--
