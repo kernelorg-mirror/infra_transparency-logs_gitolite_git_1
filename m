@@ -1,35 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 28 Oct 2025 11:33:48 -0000
-Message-Id: <176165122889.662192.13002273338255280077@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7971275840313453862=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 28 Oct 2025 11:34:25 -0000
+Message-Id: <176165126502.663356.14064750038601856502@gitolite.kernel.org>
+
+--===============7971275840313453862==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 0d19a7a1b3c1eedd66966cfee0c3ce42f3bb4841
-    new: d6e9920588cf094d2a89409fc444878781fe4e9c
+  - ref: refs/heads/master
+    old: d48abd1b777644f21992a9407e00dd31a493081f
+    new: 20b7293d8891207c964554e05cc1d76c6d2c66ec
     log: |
-         0670b9ad4d9c17461ce63761b02b4b594bec8916 ACPI: fan: Add basic notification support
-         3d4ca76369782e9a55a6c07d4fdc492f9a731cdb ACPI: fan: Add hwmon notification support
-         a5c2fcd82e04a6eea8f6097b473d5ec34413eeeb ACPI: fan: Add support for Microsoft fan extensions
-         d6e9920588cf094d2a89409fc444878781fe4e9c Merge branches 'acpi-battery', 'acpi-misc', 'acpi-tad' and 'acpi-fan-next' into linux-next
+         20b7293d8891207c964554e05cc1d76c6d2c66ec finish up 6.17.3 review from greg
          
-  - ref: refs/heads/linux-next
-    old: 6edd14546125695c7d559f82b36c2ebed9d0c199
-    new: d6e9920588cf094d2a89409fc444878781fe4e9c
-    log: |
-         86bfd21a0baf0111f62f195c2bff11d25f4bd410 ACPI: battery: Drop redundant locking
-         040beccb038b7a7dec60ef20383278347a2aa09e rust: acpi: replace `core::mem::zeroed` with `pin_init::zeroed`
-         f9f5e22b75b87a98e7645cb1f27c7b457c3c7edb ACPI: TAD: Rearrange runtime PM operations in acpi_tad_remove()
-         58ca21d591994c4d1f9cb522397533927feef262 ACPI: TAD: Improve runtime PM using guard macros
-         0670b9ad4d9c17461ce63761b02b4b594bec8916 ACPI: fan: Add basic notification support
-         3d4ca76369782e9a55a6c07d4fdc492f9a731cdb ACPI: fan: Add hwmon notification support
-         a5c2fcd82e04a6eea8f6097b473d5ec34413eeeb ACPI: fan: Add support for Microsoft fan extensions
-         d6e9920588cf094d2a89409fc444878781fe4e9c Merge branches 'acpi-battery', 'acpi-misc', 'acpi-tad' and 'acpi-fan-next' into linux-next
-         
+
+--===============7971275840313453862==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761651326 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1761651261-2ab8a0a029f2a8e34026e979f092dfe1ab912e13
+
+d48abd1b777644f21992a9407e00dd31a493081f 20b7293d8891207c964554e05cc1d76c6d2c66ec refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkAqn4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eYkP/jEfW6D1AxBjZ3r4CC0y
+Bhr+Xsgnrab/7+UbWho4LjHhsceyfSZF4BCZUNI8pB2s/b0aHx7HwhsMUBtnystl
+G0Y2v3tk7Dl+KupLSYT4UXHTuUSH1hZFgKcz7J3SObDwpos3Q+Ps0kOTnM4fQMqG
+6GVkwxihdiGrE/KKAsOpKcxi5fejhIZ9XdSm02+WCE3GR/wxay8Y+pEGvMqVr4LI
+FT4YBsmZyyQaOeOqlyIPuJvHaK4GBaSLErGOcJPKFJ/WbaF4Wwunapa7dwRyhbZA
+MX62EKynqmlimHVnvQ82aMmVITXNXSzC144U7FjPkloFPJNYnG6dNeG1dFnXNMGz
+HewnHWZn/uFU2lwWM8oS/W05GVRgI9RhkzlWcGUtJ1qvAMlNUmzcsTyFiDbTlDSa
+y4uKutqhoJbkUoW9nz915GEGkwEMMymbKn8i9VV12dNNHzacZDXYIvrdXH5YDVUX
+jSoFZ1gr09h4v8ghc1Csv/Sual+jrsvi4mcQdBWxMVKRZRsH0BGkBd07sSGUkuzw
+D8rktePo+9XTnlYTNCl85pkMXHHf1E9y2sZZX4oYyUA5WLnUbDSxN4OKJsePSrr3
+1FqgzvbE/4/nqorvhZpEOkQwKmldPggKb8qFzNipAvlWlysxN3027xv+dhXIF1ju
+u2NRofeM7oD7LcI/OIBYpA2C
+=tCSI
+-----END PGP SIGNATURE-----
+
+--===============7971275840313453862==--
