@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1486240099223363564=="
+Content-Type: multipart/mixed; boundary="===============0962049366148912969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 28 Oct 2025 17:24:02 -0000
-Message-Id: <176167224245.971165.12897218009673876307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Oct 2025 17:24:10 -0000
+Message-Id: <176167225033.971377.43933490420523853@gitolite.kernel.org>
 
---===============1486240099223363564==
+--===============0962049366148912969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regmap-6.18
     old: 434f7349a1f00618a620b316f091bd13a12bc8d2
     new: 48cbf50531d8eca15b8a811717afdebb8677de9b
     log: |
          48cbf50531d8eca15b8a811717afdebb8677de9b regmap: irq: Correct documentation of wake_invert flag
          
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regmap-6.19
     old: 211ddde0823f1442e4ad052a2f30f050145ccada
     new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
     log: revlist-211ddde0823f-dcb6fa37fd7b.txt
 
---===============1486240099223363564==
+--===============0962049366148912969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761672306 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1761672239-a813f8f75c72845c89c5de709c23a68b67c61c36
+pusher C3F436CA30F5D8EB 1761672314 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761672243-1d3ed0e42ee2921f9e65bbee6568763cbb395766
 
-434f7349a1f00618a620b316f091bd13a12bc8d2 48cbf50531d8eca15b8a811717afdebb8677de9b refs/heads/for-6.18
-211ddde0823f1442e4ad052a2f30f050145ccada dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/for-6.19
+434f7349a1f00618a620b316f091bd13a12bc8d2 48cbf50531d8eca15b8a811717afdebb8677de9b refs/heads/regmap-6.18
+211ddde0823f1442e4ad052a2f30f050145ccada dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/regmap-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkA/HIACgkQJNaLcl1U
-h9AP2Af/Yt0Aq2x2GyX7yI+Oi5e9G1FBuCMsriCa4tlC4ncTm53lIy7LeqOmHQDu
-CFIQACITUTHWYgExVtdq4VQeQ9x3NW+yloKi8jT+y5JLmtZ6Bgvf3Rj0EkLwGYZ5
-cYgLDhiNRG+8+dfrVTKrwWiFQNNu7AY1FtnsK5/QWRVV1Bb5VWTUqNAaC0DL/dyX
-EiZP8kUHuT0VcoXVa1mtSULj7kPjcAJuQCJfkv/GTRAhY3e91dg7unzPybjg663j
-06dMAqarhB9Bx2uneBIG02n+U5yaZgeH9yZISfmmupQGRWhAvihLGh8AN7+iSygD
-WLclwvSMgJ7Rx5nckWmW9cMatYV/mw==
-=F7Lx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkA/HoACgkQJNaLcl1U
+h9CCmQf/amt8/lZveF1UGsGg+2+yU5MYlzhsuEQDKhLmQtC2CAAXKG/lhR0eldmA
+DeUy2wv7YDCBUNg0KdDxS3PaooUiKoAWrgW8DCzmyTytG+Qqc0BLCI9dUYAmSikH
+kKbWMhhxQRB4+NNUU1XNK+4oy16WpCPyMYFrCNqQ2exq4fcPiuQU8KE6LpG+AzCf
+Jbakr3lAieA8qq4AVTf60rsfu/sdToW4z1EJg/WSrAow9aOyKi+Wi68or2cDaEB8
+OdU1mJu7zQl1pjDPENEQH4h67yc8VRClL1pisHTbdilWmTn+vUVqdMz5VeWPq674
+eaHGHiNj13Hvbg4C1+APBeRFOwxJ/w==
+=ixO1
 -----END PGP SIGNATURE-----
 
---===============1486240099223363564==
+--===============0962049366148912969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -388,4 +388,4 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 
---===============1486240099223363564==--
+--===============0962049366148912969==--
