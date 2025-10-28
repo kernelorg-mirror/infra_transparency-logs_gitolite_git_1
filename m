@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8405502631461663697=="
+Content-Type: multipart/mixed; boundary="===============0650417172145217476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 28 Oct 2025 16:42:32 -0000
-Message-Id: <176166975208.932953.11793462223220730084@gitolite.kernel.org>
+Date: Tue, 28 Oct 2025 16:47:08 -0000
+Message-Id: <176167002820.937236.16646056197673123543@gitolite.kernel.org>
 
---===============8405502631461663697==
+--===============0650417172145217476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: edb398fb4fdd9e1d5f9c13fade50cf022a59cdbe
-    new: ef64c81a42b56fb4d3ec849471926aec77a0af87
-    log: revlist-edb398fb4fdd-ef64c81a42b5.txt
+  - ref: refs/heads/1GbE
+    old: 84a905290cb4c3d9a71a9e3b2f2e02e031e7512f
+    new: 210b35d6a7ea415494ce75490c4b43b4e717d935
+    log: revlist-84a905290cb4-210b35d6a7ea.txt
 
---===============8405502631461663697==
+--===============0650417172145217476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edb398fb4fdd-ef64c81a42b5.txt
+Content-Disposition: attachment; filename=revlist-84a905290cb4-210b35d6a7ea.txt
 
 f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
 09b0cd1297b4dbfe736aeaa0ceeab2265f47f772 Bluetooth: hci_sync: fix race in hci_cmd_sync_dequeue_once
@@ -48,24 +48,5 @@ e3a0ca09acbe697245f944ee92b956db58a0ed09 MAINTAINERS: mark ISDN subsystem as orp
 e3966940559d52aa1800a008dcfeec218dd31f88 tools: ynl: avoid print_field when there is no reply
 520ad9e96937e825a117e9f00dd35a3e199d67b5 dpll: spec: add missing module-name and clock-id to pin-get reply
 210b35d6a7ea415494ce75490c4b43b4e717d935 dt-bindings: net: sparx5: Narrow properly LAN969x register space windows
-dc615d6d5ed6141b893961ce86d8199f0624a1e9 ice: fix lane number calculation
-e55826399481e21023e205c609d8e9e3e3eab545 ice: fix fwlog after driver reinit
-5cc507628bab526b036fff480cca7f1a0358acf2 ice: Fix enable_cnt imbalance on resume
-ab5c29852da86ddb1be25fc8e85887be081e1aa7 ice: Fix enable_cnt imbalance on PCIe error recovery
-3c0894ba90c0f151b884a7ac985810272e31954d i40e: Fix enable_cnt imbalance on PCIe error recovery
-7fcc5ca40c040bd7562c4de3bfb04623dbe2d467 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
-5a6ced991d48157a050260e519bca6d388469711 igc: power up the PHY before the link test
-ef0b8b6d8c44a0e1c589b9e80fbd4f8082f68f27 ice: fix destination CGU for dual complex E825
-675f1bb0adc5e0957edc12a537558efa2c0429f0 igc: fix race condition in TX timestamp read for register 0
-e25af5c930bd203dd093226e3e53d57b5f7eed9e idpf: fix memory leak of flow steer list on rmmod
-4268e7010d7c8d8d966d53a91c50ac1b4bc0d1a7 idpf: fix issue with ethtool -n command display
-483ff655ba3d799225dcd8f275ea735b2066b697 igb: use EOPNOTSUPP instead of ENOTSUPP in igb_get_sset_count()
-77d505c55d6a440d6b729e11c520d9acd5c7c3a8 igc: use EOPNOTSUPP instead of ENOTSUPP in igc_ethtool_get_sset_count()
-d0a0b4b40f47cbe7112e63e233968e9e35434f85 ixgbe: use EOPNOTSUPP instead of ENOTSUPP in ixgbe_ptp_feature_enable()
-793f13a70eafbd6d70bb390b445b2aa7ff615942 idpf: fix LAN memory regions command on some NVMs
-ccea5697e7730cef0c6798ed20f3042625db46d4 ice: fix usage of logical PF id
-889fea56088d92c9bbdac86a800d5e9921679ec2 idpf: fix possible vport_config NULL pointer deref in remove
-8bdecde2edd9d8f7958394e4c94d77e800dd367a libie: depend on DEBUG_FS when building LIBIE_FWLOG
-ef64c81a42b56fb4d3ec849471926aec77a0af87 ice: fix PTP cleanup on driver removal in error path
 
---===============8405502631461663697==--
+--===============0650417172145217476==--
