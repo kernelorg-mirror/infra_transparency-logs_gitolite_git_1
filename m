@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1773023837042401521=="
+Content-Type: multipart/mixed; boundary="===============6434515301728180459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 28 Oct 2025 16:47:13 -0000
-Message-Id: <176167003349.937489.3260119210424167348@gitolite.kernel.org>
+Date: Tue, 28 Oct 2025 16:47:17 -0000
+Message-Id: <176167003794.937585.13765350800463169211@gitolite.kernel.org>
 
---===============1773023837042401521==
+--===============6434515301728180459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 84a905290cb4c3d9a71a9e3b2f2e02e031e7512f
     new: 210b35d6a7ea415494ce75490c4b43b4e717d935
     log: revlist-84a905290cb4-210b35d6a7ea.txt
 
---===============1773023837042401521==
+--===============6434515301728180459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ e3966940559d52aa1800a008dcfeec218dd31f88 tools: ynl: avoid print_field when ther
 520ad9e96937e825a117e9f00dd35a3e199d67b5 dpll: spec: add missing module-name and clock-id to pin-get reply
 210b35d6a7ea415494ce75490c4b43b4e717d935 dt-bindings: net: sparx5: Narrow properly LAN969x register space windows
 
---===============1773023837042401521==--
+--===============6434515301728180459==--
