@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0964916513988261418=="
+Content-Type: multipart/mixed; boundary="===============7389828584521149995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Oct 2025 14:25:39 -0000
-Message-Id: <176166153988.809379.9876177252528745599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Oct 2025 14:25:42 -0000
+Message-Id: <176166154294.809478.3251435215506135114@gitolite.kernel.org>
 
---===============0964916513988261418==
+--===============7389828584521149995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: d29479abaded34b2b1dab2e17efe96a65eba3d61
     new: f034c16a4663eaf3198dc18b201ba50533fb5b81
     log: |
          f034c16a4663eaf3198dc18b201ba50533fb5b81 ASoC: spacemit: add failure check for spacemit_i2s_init_dai()
          
 
---===============0964916513988261418==
+--===============7389828584521149995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761661604 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1761661538-2c3164197874f5b6e987a21cff4f63445f41f155
+pusher C3F436CA30F5D8EB 1761661607 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761661541-ed00a171b079117f9f62c0445ce17090e22b8c7b
 
-d29479abaded34b2b1dab2e17efe96a65eba3d61 f034c16a4663eaf3198dc18b201ba50533fb5b81 refs/heads/for-6.19
+d29479abaded34b2b1dab2e17efe96a65eba3d61 f034c16a4663eaf3198dc18b201ba50533fb5b81 refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkA0qQACgkQJNaLcl1U
-h9Bt3wf9Hrkh9Z3FK0QwT/BtvysXpj65/WvubDnMka0SWgRD47av9u0cT2gFMvJB
-L8Agg64tMjBglLgenCoz2C51GYR0eMQwDLL9afv78lW2CLN206aAHc7bl8FLrEWc
-ibR7cwXQ6AFuuQ9l/9yu62RujwnCC3U3i7mRmmzGtUXogJmqtlXzJzIalrm/5Udx
-a3L8j9sad8sdCzepPo1hoFYamoagl8E2x49bHWz+hv4fzu9OSlDO3lotY4OCuT21
-64/rGgyNq37lGt2Y3g2gwAvzaXdrr8lXHSnT6ZIAEZboXgiysWA0dDzi8L6JEU4l
-2f2ZyFeN46f2Is1vrqwstzEgyAsbmg==
-=Hpsr
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkA0qcACgkQJNaLcl1U
+h9BK0gf9EkPavvzfZU9B+PDgI1434LlQOTDAevC4RYn1+5AmFNUfGoC3PCsCWa/q
+ggACj6NNdWqVLyjkmrVnwgE8ctTBhgNOD1roVaYS060Jo12ZJEGqPzXXaxK3hjUG
+qN920UqYtMDww4W83v3xufUG8VapSNz2w3xrzmXw9VwgErjF2ECEEQenva2rZNsA
+8ybzNP+2zU9qJz+Qq6kGg4n0n6ZNGnL4ro5eDd2TRi0784YctURl5ANNYxde5rU+
+2tHekdn0cvc8k2jM4g6iDSBJ6o++aIIaNnnD+sN1Mgm4vl+tV1V2A0KyUWYjEbKV
+zHcOH7o73qPVQPSg8RhT2O0TMN71ZQ==
+=2Vlm
 -----END PGP SIGNATURE-----
 
---===============0964916513988261418==--
+--===============7389828584521149995==--
