@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/martin.lau/bpf-next
-Date: Tue, 28 Oct 2025 18:16:44 -0000
-Message-Id: <176167540406.1017967.9022051580023692992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/stalld/stalld
+Date: Tue, 28 Oct 2025 18:21:06 -0000
+Message-Id: <176167566662.1022169.13073138865612600588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/martin.lau/bpf-next
-user: martin.lau
+repo: pub/scm/utils/stalld/stalld
+user: clrkwllms
 changes:
-  - ref: refs/heads/ls.rqspin.v2.2
+  - ref: refs/tags/v1.24.1
     old: 0000000000000000000000000000000000000000
-    new: 077d04d4853e226ab654f86757607186b6ad24d1
+    new: 1595611f939dcf4cab35271984b4f8852e051699
