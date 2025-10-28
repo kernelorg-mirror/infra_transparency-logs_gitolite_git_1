@@ -1,40 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2046169909464655372=="
+Content-Type: multipart/mixed; boundary="===============1378994198170062623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 28 Oct 2025 03:42:34 -0000
-Message-Id: <176162295427.209355.5148136650050822407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 28 Oct 2025 03:42:43 -0000
+Message-Id: <176162296362.209670.5386285139889567000@gitolite.kernel.org>
 
---===============2046169909464655372==
+--===============1378994198170062623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 8fec172c82c2b5f6f8e47ab837c1dc91ee3d1b87
     new: f7d2388eeec24966fc4d5cf32d706f0514f29ac5
     log: revlist-8fec172c82c2-f7d2388eeec2.txt
-  - ref: refs/heads/stable
-    old: 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d
-    new: fd57572253bc356330dbe5b233c2e1d8426c66fd
-    log: |
-         54e96258a6930909b690fd7e8889749231ba8085 sched_ext: Mark scx_bpf_dsq_move_set_[slice|vtime]() with KF_RCU
-         efeeaac9ae9763f9c953e69633c86bc3031e39b5 sched_ext: Sync error_irq_work before freeing scx_sched
-         a8ad873113d3fe01f9b5d737d4b0570fa36826b0 sched_ext: defer queue_balance_callback() until after ops.dispatch
-         14c1da3895a116f4e32c20487046655f26d3999b sched_ext: Allocate scx_kick_cpus_pnt_seqs lazily using kvzalloc()
-         05e63305c85c88141500f0a2fb02afcfba9396e1 sched_ext: Fix scx_kick_pseqs corruption on concurrent scheduler loads
-         a3c4a0a42e61aad1056a3d33fd603c1ae66d4288 sched_ext: fix flag check for deferred callbacks
-         dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
-         fd57572253bc356330dbe5b233c2e1d8426c66fd Merge tag 'sched_ext-for-6.18-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-         
-  - ref: refs/tags/next-20250728
-    old: 9f62cde0c43e9b7ebf2eb448b82144d1a1456a61
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20251028
     old: 0000000000000000000000000000000000000000
     new: 33b5a67d76ce575ea38bc3de55719a6cdf42287d
@@ -42,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 0edde068997bc3c41f122c9941143a39d604a0dc
 
---===============2046169909464655372==
+--===============1378994198170062623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -884,4 +868,4 @@ dfc0b322db0ee5bc6b108b2f45a54cccb6b69a05 Merge branch 'for-next' of https://git.
 e3f23473b1ccf1fed1d9c8b44c9812c5b5482f79 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 f7d2388eeec24966fc4d5cf32d706f0514f29ac5 Add linux-next specific files for 20251028
 
---===============2046169909464655372==--
+--===============1378994198170062623==--
