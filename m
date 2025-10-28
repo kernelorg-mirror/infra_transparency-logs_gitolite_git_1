@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Oct 2025 12:26:51 -0000
-Message-Id: <176165441172.708906.8060822146004455306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 28 Oct 2025 12:43:03 -0000
+Message-Id: <176165538340.721959.12015516019728802845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-linus
-    old: d914ec6f07548f7c13a231a4f526e043e736e82e
-    new: c8b8804760eb0c4c0c7c2b500380ab3fa9f92b5a
+  - ref: refs/heads/main
+    old: 51f322550b1b7660fb8be655d82a68e49fdd60f5
+    new: 968822086b74dd0a3df693f9d179bd4fe508faf9
     log: |
-         c8b8804760eb0c4c0c7c2b500380ab3fa9f92b5a ASoC: Fix build for sdw_utils
-         
-  - ref: refs/heads/for-next
-    old: bdb39abdfa9177ad5d13d627740afe85cd51a635
-    new: 727829e89bde9c94ab2bcb02da1101f8a512701e
-    log: |
-         c8b8804760eb0c4c0c7c2b500380ab3fa9f92b5a ASoC: Fix build for sdw_utils
-         727829e89bde9c94ab2bcb02da1101f8a512701e Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
+         182663bbff784e88cf7acbae7c53c6c5e0cb9ca4 dibs: Remove reset of static vars in dibs_init()
+         968822086b74dd0a3df693f9d179bd4fe508faf9 dibs: Use subsys_initcall()
          
