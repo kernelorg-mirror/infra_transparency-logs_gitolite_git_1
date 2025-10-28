@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 28 Oct 2025 18:07:00 -0000
-Message-Id: <176167482092.1009585.13434811392223991637@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3614278368711608425=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 28 Oct 2025 18:12:33 -0000
+Message-Id: <176167515367.1014069.4849995318019309324@gitolite.kernel.org>
+
+--===============3614278368711608425==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev-test
-    old: 3d8e69a13b78cb5d71d960bedf22df9f393af84a
-    new: b6b13a2973a571f4e4b941c9bd52f2881adbb970
+  - ref: refs/heads/review-ilpo-fixes
+    old: 4173edb076b3ae30d734d55fce0ebac63139b656
+    new: bd34bf518a5ffeb8eb7c8b9907ba97b606166f7b
     log: |
-         628bcb8a56deefbd7619cbeeb66f70c21e533e07 f2fs: invalidate dentry cache on failed whiteout creation
-         73496625627e59e6b8c898bb6f62b69a8963517f f2fs: change the unlock parameter of f2fs_put_page to bool
-         6f2540b03f4899188844708b85648e0e9ba1e517 f2fs: fix to propagate error from f2fs_enable_checkpoint()
-         525a38bbcf4a8e5009134e785cd0924d3cfa1476 f2fs: block cache/dio write during f2fs_enable_checkpoint()
-         b6b13a2973a571f4e4b941c9bd52f2881adbb970 f2fs: ensure node page reads complete before f2fs_put_super() finishes
+         bd34bf518a5ffeb8eb7c8b9907ba97b606166f7b platform: x86: Kconfig: fix minor typo in help for WIRELESS_HOTKEY
          
+
+--===============3614278368711608425==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1761675217 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1761675150-c83bd1d8cd5377661baaed3f13b22f538ced2321
+
+4173edb076b3ae30d734d55fce0ebac63139b656 bd34bf518a5ffeb8eb7c8b9907ba97b606166f7b refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaQEH0gAKCRBZrE9hU+XO
+MZZ6AQDT4bors7MovqwvOibGnBRC3XTYdcKNt1M1gDWB6vVZ3gD/cIvCEdvDgbAp
+Rpl/MzI3nW3+32cLsGDeEY9qSGLzzAo=
+=6u2w
+-----END PGP SIGNATURE-----
+
+--===============3614278368711608425==--
