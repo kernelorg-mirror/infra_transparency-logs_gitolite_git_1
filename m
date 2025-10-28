@@ -1,61 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0835075578829673112=="
+Content-Type: multipart/mixed; boundary="===============2546042257424426032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 28 Oct 2025 14:35:13 -0000
-Message-Id: <176166211350.819546.12284077281377406453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 28 Oct 2025 14:35:27 -0000
+Message-Id: <176166212797.819802.13460492399636206996@gitolite.kernel.org>
 
---===============0835075578829673112==
+--===============2546042257424426032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/usb-testing
-    old: e2d2bd6d61a4f288bf38d9236c3ca3e34b84d3dd
-    new: 14934421dc8be364e2a7506dccf1222c45ecca24
-    log: |
-         b9d87b41f96fa2993bc86f3613ea57c5e5e5f389 dt-bindings: usb: qcom,snps-dwc3: Add Glymur compatible
-         abf640a2436f3cd21f3d63eeccb332b4056adb9e xen/usb: Constify struct hc_driver
-         7915d513e22db3226bfc7d5428b6dd6faa3ce181 usb: dwc3: apple: Only support a single reset controller
-         e67a353d6b6f4636f044993f9c624ea67d7df071 usb: mtu3: fix misspelled words
-         bf3371dfe3c4e735fd5a1e0c5506bce1bd418a56 usb: mtu3: fix invalid kernel-doc in mtu3.h
-         14934421dc8be364e2a7506dccf1222c45ecca24 usb: typec: ucsi: Add SET_POWER_LEVEL UCSI command to debugfs
-         
+  - ref: refs/heads/dmabuf-vfio-v6
+    old: a875abf568c7d5f6ce914f8018e238bcdf732726
+    new: fb38b23f75200b16ba4b02b9b045044963f99c65
+    log: revlist-a875abf568c7-fb38b23f7520.txt
 
---===============0835075578829673112==
+--===============2546042257424426032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a875abf568c7-fb38b23f7520.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761662175 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1761662108-f5118d7071fdaa962bc4b5fde9f5233839a38f16
+b4d32c6d67f62f17979bd056b961ecda58a60a09 nvme-pci: Use size_t for length fields to handle larger sizes
+a622924d8ee52917c92d6cfd0aa7710dba6770c3 vfio/pci: Allow MMIO regions to be exported through dma-buf
+18dce1fbbc75d1a1f4bf57352245f33ab1f2d567 PCI/P2PDMA: Separate the mmap() support from the core logic
+c385488f4895de353ffd1a3b74e65433d608d754 PCI/P2PDMA: Simplify bus address mapping API
+2e8637911c1ded22dc284ca67b93ea538c521328 PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
+f0a6f0282214fb3a037eaa557ef3e08c8c663d3a PCI/P2PDMA: Export pci_p2pdma_map_type() function
+4137258a3063382814c94ddda509620cbe886c82 types: move phys_vec definition to common header
+aa3abf896d2afc45596d6fd9870aa9fe1018effe vfio: Export vfio device get and put registration helpers
+6c4eb08a4b68ea29c08fc562b74083adc8df23dc vfio/pci: Share the core device pointer while invoking feature functions
+20630d47e7d1ad67837574ddc1a0618c92e8399d vfio/pci: Enable peer-to-peer DMA transactions by default
+8b55f45bffee40baab6615afd2e3110e783a86a6 vfio/pci: Add dma-buf export support for MMIO regions
+fb38b23f75200b16ba4b02b9b045044963f99c65 vfio: selftests: Add DMABUF test
 
-e2d2bd6d61a4f288bf38d9236c3ca3e34b84d3dd 14934421dc8be364e2a7506dccf1222c45ecca24 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkA1N8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cFMP/RHxsn7iEu2Dv5pxXH91
-xtu7X9p6MpKVN5YnLQ8sNrDO+PyEjsIMf0xmrjpsKT10XBCiocs5TGpbjqjukrFh
-mzkS01DyEICzJpoG5n6fVXxDyfSlpgesi+lbYd+tJicjCxRLGzyVIGuXnhn+GnQV
-yePX+UlHZRPn8VhLbPjhmoB1GLzQvutThduO2O4wVkrhxgw7lblFYJ+U7gfre5Rw
-+MqMsU/rZRty/hn5OJ88XgtA5hYHg27/TuZbQHQf8ukunI40VA5iBzb3yf4HQ6ko
-H6Mq3qagecQe8wXfH0Cxgw7CrFhaWAQpzUnVwpAgLaZFR3m9+AX4DVb1nwlf12Uv
-ZTcgJRrFYS4oLiXVApOfiqJjOk4mfZO8gQJ3stk1oBqvQbSEy/xrUfti7h3DKqC6
-aMS1o/LHVz29xGNADZyQX0ApxNuOhCfrhyAJJZOSoBLlxdCTQpRqtyga5qFvJZnN
-pAsPh5uWclTBooVDsc89K9jRuQVGBMTMey96ww0BIC2wbmXkuf07XfmAfIoEViyi
-Y8IN5E+uzwV1yk+Zq2RpfiKux7NUGIQ5Pc5uIK6Lywj7Sdm3odLIiIokthe0Gj77
-fpGuuOkXrSK/TjeC6SW6A7Jr9pBxz1uLPd2XUiya4lth020Ktk9znDepvmx6rkda
-yYBIjcY1WzxKoed4HC4lMb6o
-=RzDm
------END PGP SIGNATURE-----
-
---===============0835075578829673112==--
+--===============2546042257424426032==--
