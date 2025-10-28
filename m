@@ -1,62 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0962049366148912969=="
+Content-Type: multipart/mixed; boundary="===============6546513329012839152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 28 Oct 2025 17:24:10 -0000
-Message-Id: <176167225033.971377.43933490420523853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 28 Oct 2025 17:24:27 -0000
+Message-Id: <176167226735.971651.12525727520354302755@gitolite.kernel.org>
 
---===============0962049366148912969==
+--===============6546513329012839152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.18
+  - ref: refs/heads/for-linus
     old: 434f7349a1f00618a620b316f091bd13a12bc8d2
     new: 48cbf50531d8eca15b8a811717afdebb8677de9b
     log: |
          48cbf50531d8eca15b8a811717afdebb8677de9b regmap: irq: Correct documentation of wake_invert flag
          
-  - ref: refs/heads/regmap-6.19
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
-    new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-211ddde0823f-dcb6fa37fd7b.txt
+  - ref: refs/heads/for-next
+    old: 434f7349a1f00618a620b316f091bd13a12bc8d2
+    new: 49280f673d20a1a2b54ebb6c780e6e6f389bd3a6
+    log: revlist-434f7349a1f0-49280f673d20.txt
 
---===============0962049366148912969==
+--===============6546513329012839152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1761672314 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1761672243-1d3ed0e42ee2921f9e65bbee6568763cbb395766
-
-434f7349a1f00618a620b316f091bd13a12bc8d2 48cbf50531d8eca15b8a811717afdebb8677de9b refs/heads/regmap-6.18
-211ddde0823f1442e4ad052a2f30f050145ccada dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa refs/heads/regmap-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkA/HoACgkQJNaLcl1U
-h9CCmQf/amt8/lZveF1UGsGg+2+yU5MYlzhsuEQDKhLmQtC2CAAXKG/lhR0eldmA
-DeUy2wv7YDCBUNg0KdDxS3PaooUiKoAWrgW8DCzmyTytG+Qqc0BLCI9dUYAmSikH
-kKbWMhhxQRB4+NNUU1XNK+4oy16WpCPyMYFrCNqQ2exq4fcPiuQU8KE6LpG+AzCf
-Jbakr3lAieA8qq4AVTf60rsfu/sdToW4z1EJg/WSrAow9aOyKi+Wi68or2cDaEB8
-OdU1mJu7zQl1pjDPENEQH4h67yc8VRClL1pisHTbdilWmTn+vUVqdMz5VeWPq674
-eaHGHiNj13Hvbg4C1+APBeRFOwxJ/w==
-=ixO1
------END PGP SIGNATURE-----
-
---===============0962049366148912969==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-211ddde0823f-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-434f7349a1f0-49280f673d20.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -387,5 +361,7 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 40282418e17e194fe70478025387cf89f8cfaf8e Merge tag 'staging-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
+48cbf50531d8eca15b8a811717afdebb8677de9b regmap: irq: Correct documentation of wake_invert flag
+49280f673d20a1a2b54ebb6c780e6e6f389bd3a6 Merge remote-tracking branch 'regmap/for-6.19' into regmap-next
 
---===============0962049366148912969==--
+--===============6546513329012839152==--
