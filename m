@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4578804891805029714=="
+Content-Type: multipart/mixed; boundary="===============2244625892143656416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Oct 2025 15:55:37 -0000
-Message-Id: <176166693784.889977.9133094633764597358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Oct 2025 15:55:43 -0000
+Message-Id: <176166694335.890147.5115480724538540033@gitolite.kernel.org>
 
---===============4578804891805029714==
+--===============2244625892143656416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: f034c16a4663eaf3198dc18b201ba50533fb5b81
     new: ac479277c24c859553a6db340aa1518d320bc5e2
     log: revlist-f034c16a4663-ac479277c24c.txt
 
---===============4578804891805029714==
+--===============2244625892143656416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761667001 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1761666934-5c3625ac921a6069a1af692148d60746203ad114
+pusher C3F436CA30F5D8EB 1761667006 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761666939-1528c97606c319918df97c25f7de48294a4a32e8
 
-f034c16a4663eaf3198dc18b201ba50533fb5b81 ac479277c24c859553a6db340aa1518d320bc5e2 refs/heads/for-6.19
+f034c16a4663eaf3198dc18b201ba50533fb5b81 ac479277c24c859553a6db340aa1518d320bc5e2 refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkA57kACgkQJNaLcl1U
-h9Ak8Af/XhQ6wRCBCawOe/554bpcc0qCwL2keIM6QCO2CU9KLEJPjO+Ocu3/Pt3y
-Hhyluv0yCqT4Rh6XRE+Uahc7CAJYRqxPqyrRC2+1apbpt5dpPuLHC43PXF8nEUbI
-6A5KvE6VKhfiFo87WBPOb5iiArGJsBnsPL+i3Dr7O9rd4VmeOyjbRchDWH8GFw+X
-kHMNjhmfvvLQYXgwrI4vaKDhQx7B/4za3lDt7FWjpYuWt6VEyXKVENDeFtqBTUxi
-r3lNJ58vpAJUNWfFb6JoE75XkxXULvTsKi+n3IbCqJsZfrr26jOwxGX4LR/thBMs
-E96ZMIBqPZqiXRHvBh3BP1Sij99Kog==
-=AfQp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkA574ACgkQJNaLcl1U
+h9BKEgf/bwLuZkjndr2I/NAJ7zXV+PUED+iQgVMgHqRleWHLymqRxCiEn32oKwzj
++NfqLqJFJlOLwWDgig7Oxzhb9GSizw/gIkQYtsJl0Y1GbstoVoT1fBJTmo++r2kc
+7hLFgcuXKBderbrO3IRffxXGqp3MB2Ns6gfsvKB+zhAjqsL1H47HXit6TDwRcTTr
+6OtgSBn2Gb/Z+PkhX1jUMCA3VEcLBpvGGFCbl2N+04zljXnJGdC7BCsnVUBbxmNw
+uf6TNvzFCifzWjAIIEfqzU4YD+/GcI9piIcLUYBE28gid6N68gXiw57f8Bv+H+d2
+IIl21g6c1fjG6cs+lW9MgVizXgIbwg==
+=UO9f
 -----END PGP SIGNATURE-----
 
---===============4578804891805029714==
+--===============2244625892143656416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -416,4 +416,4 @@ a4619aadb308db0418b56b237019dc5ab928aa0b ALSA: cs35l56: Add support for factory 
 060028c7fcdd7bc1c6ed61fb25380c0d6c36475b ASoC: spacemit: fix build warning and error
 ac479277c24c859553a6db340aa1518d320bc5e2 Add support for Cirrus Logic CS530x DAC and CODEC
 
---===============4578804891805029714==--
+--===============2244625892143656416==--
