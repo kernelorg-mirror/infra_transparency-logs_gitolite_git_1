@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2546042257424426032=="
+Content-Type: multipart/mixed; boundary="===============8701183902088919450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 28 Oct 2025 14:35:27 -0000
-Message-Id: <176166212797.819802.13460492399636206996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 28 Oct 2025 14:36:58 -0000
+Message-Id: <176166221868.820820.7543654367736691123@gitolite.kernel.org>
 
---===============2546042257424426032==
+--===============8701183902088919450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dmabuf-vfio-v6
-    old: a875abf568c7d5f6ce914f8018e238bcdf732726
-    new: fb38b23f75200b16ba4b02b9b045044963f99c65
-    log: revlist-a875abf568c7-fb38b23f7520.txt
+  - ref: refs/heads/usb-testing
+    old: 14934421dc8be364e2a7506dccf1222c45ecca24
+    new: 18514fd70ea4ca9de137bb3bceeac1bac4bcad75
+    log: |
+         18514fd70ea4ca9de137bb3bceeac1bac4bcad75 usb: typec: ucsi: Add support for orientation
+         
 
---===============2546042257424426032==
+--===============8701183902088919450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a875abf568c7-fb38b23f7520.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b4d32c6d67f62f17979bd056b961ecda58a60a09 nvme-pci: Use size_t for length fields to handle larger sizes
-a622924d8ee52917c92d6cfd0aa7710dba6770c3 vfio/pci: Allow MMIO regions to be exported through dma-buf
-18dce1fbbc75d1a1f4bf57352245f33ab1f2d567 PCI/P2PDMA: Separate the mmap() support from the core logic
-c385488f4895de353ffd1a3b74e65433d608d754 PCI/P2PDMA: Simplify bus address mapping API
-2e8637911c1ded22dc284ca67b93ea538c521328 PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
-f0a6f0282214fb3a037eaa557ef3e08c8c663d3a PCI/P2PDMA: Export pci_p2pdma_map_type() function
-4137258a3063382814c94ddda509620cbe886c82 types: move phys_vec definition to common header
-aa3abf896d2afc45596d6fd9870aa9fe1018effe vfio: Export vfio device get and put registration helpers
-6c4eb08a4b68ea29c08fc562b74083adc8df23dc vfio/pci: Share the core device pointer while invoking feature functions
-20630d47e7d1ad67837574ddc1a0618c92e8399d vfio/pci: Enable peer-to-peer DMA transactions by default
-8b55f45bffee40baab6615afd2e3110e783a86a6 vfio/pci: Add dma-buf export support for MMIO regions
-fb38b23f75200b16ba4b02b9b045044963f99c65 vfio: selftests: Add DMABUF test
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761662281 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1761662214-586b9782c69e328bfb2cf49afe0c3e646cd81b45
 
---===============2546042257424426032==--
+14934421dc8be364e2a7506dccf1222c45ecca24 18514fd70ea4ca9de137bb3bceeac1bac4bcad75 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkA1UkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h7sP/2gPFGDtTOPfO04sc6dC
+xiH70XQzTrGHRziWgXU+exqu7gEPXrSbKJ2j2wvcmVGWVOz2GhA9JgAEhzFUOTmk
+SzmIsUQB3MwP56zBZ1ZddFthotWlykUMd00lWFD2qkkkSw907jrk/VfUZcNiCMjm
+iEmSz2EPmHJDtn/kb7ARdjjv4tgo3LC0I+Fvy8N2z3rzX9E+i4sSZlHF6f5rsMnt
+I6OdWOqsTCytza6L42wF/GsHDvTZjOvv+gswtKXN4Vu7TNsJjkxFJajLEJjYP5pi
+dy5ZV30rhvgNvnsHS7HKP+cHKqv1TSylftSAeuqb7yqpws+0o7SF2oECa+bIMAdV
+TsozuQWE2re/BDGKo2TV0IfOez6h3RaDaUGGDZhofkyV6l/XqpCF36y1aP4rAXVk
+1CGa2LhtLEQdKJX+CCm5CBrRHWgv6OveIU/h55Q0NEv0RepLDnDuvs6EyENHA1RX
+o1aTZv4eT1dhCgifz9RCGKTb0iiLAMgETkSt6R1EKFphlj+Tr9ci1AkjJ4LrjbLj
+Pwf5OcDd+smXNme9ZKeO97UTZlnsj1EeRb08fsVqsc02H+ho82vyGbpImpSKeeC9
+N7beR2LE8fBnePFdFQhGvc1LGZrgkQfFmHxgOVij9lG/+YuAixuybRglxqv/KHCX
+TMEn2lGJeIbUAZs7vD26QLcO
+=9Oma
+-----END PGP SIGNATURE-----
+
+--===============8701183902088919450==--
