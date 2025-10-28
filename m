@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6587894204875028031=="
+Content-Type: multipart/mixed; boundary="===============2622423728618040636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 28 Oct 2025 17:17:43 -0000
-Message-Id: <176167186316.964739.7796354464412674729@gitolite.kernel.org>
+Date: Tue, 28 Oct 2025 17:17:55 -0000
+Message-Id: <176167187532.964966.6871814960545389089@gitolite.kernel.org>
 
---===============6587894204875028031==
+--===============2622423728618040636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
+  - ref: refs/heads/next
     old: 800348aa34b2bc40d558bb17b6719c51fac0b6de
     new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
     log: revlist-800348aa34b2-dcb6fa37fd7b.txt
 
---===============6587894204875028031==
+--===============2622423728618040636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 
---===============6587894204875028031==--
+--===============2622423728618040636==--
