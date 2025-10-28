@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 28 Oct 2025 23:40:56 -0000
-Message-Id: <176169485653.1298518.13241539202670664903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 28 Oct 2025 23:47:07 -0000
+Message-Id: <176169522734.1303342.9598589992680006167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: 0000000000000000000000000000000000000000
-    new: 7364c9cbff0d5be05eb5e25261ad6caba5ff38a3
+  - ref: refs/heads/master
+    old: bff9aa04f5ddf55a723238bca9be370b1547dc8c
+    new: 2ca1a51777ad096312c63f84ea4c1257fec4a1c6
+    log: |
+         9ced28101634733b28f35c2d3673fa2e555d0d01 foo
+         2ca1a51777ad096312c63f84ea4c1257fec4a1c6 foo
+         
