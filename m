@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8010894635899712770=="
+Content-Type: multipart/mixed; boundary="===============3499525303666391489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 28 Oct 2025 04:27:11 -0000
-Message-Id: <176162563144.247063.14083010178438668842@gitolite.kernel.org>
+Date: Tue, 28 Oct 2025 04:27:15 -0000
+Message-Id: <176162563572.247228.10756249530243377266@gitolite.kernel.org>
 
---===============8010894635899712770==
+--===============3499525303666391489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: b227c04932039bccc21a0a89cd6df50fa57e4716
-    new: ba2c3a1751ad0aace7d307fd17a08a676f3ae44d
-    log: revlist-b227c0493203-ba2c3a1751ad.txt
+  - ref: refs/heads/mm-unstable
+    old: 304e6330af13d3e30c1104a36b23a5bab2b07f88
+    new: fd1b7cd18085ced720500840b200a206e814c8bf
+    log: revlist-304e6330af13-fd1b7cd18085.txt
 
---===============8010894635899712770==
+--===============3499525303666391489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b227c0493203-ba2c3a1751ad.txt
+Content-Disposition: attachment; filename=revlist-304e6330af13-fd1b7cd18085.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -890,8 +890,5 @@ e16f5c867199b5d43cd4ff1d5d449cb1c5e4cb97 sysfs.py: extend assert_ctx_committed()
 dea030c5039a6101f769db8270d0474e750dcfff MAINTAINERS: add include/linux/pgalloc.h to MM CORE section
 0075fd4d3ead77311509d6f74e391a9db1063184 treewide: include linux/pgalloc.h instead of asm/pgalloc.h
 fd1b7cd18085ced720500840b200a206e814c8bf mm/vma: small VMA lock cleanups
-9fc688dee9f02a4568b66f64a03d3973d26b24b7 mm/vmscan: skip increasing kswapd_failures when reclaim was boosted
-efb35a18a8ed6245fcb449aa24d387d8dd3d463a mm: make INVALID_PHYS_ADDR a generic macro
-ba2c3a1751ad0aace7d307fd17a08a676f3ae44d mm: vmstat: output reserved_highatomic and free_highatomic in zoneinfo
 
---===============8010894635899712770==--
+--===============3499525303666391489==--
