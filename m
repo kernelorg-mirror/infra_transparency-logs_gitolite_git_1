@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 28 Oct 2025 01:01:36 -0000
-Message-Id: <176161329665.72053.4884674670018836399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Tue, 28 Oct 2025 01:07:11 -0000
+Message-Id: <176161363117.77140.8862857985233386433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/main
-    old: 46a499aaf8c27476fd05e800f3e947bfd71aa724
-    new: 855e43164e95bf6559ab2b53b28e0f95887ff099
+  - ref: refs/heads/fixes
+    old: c42458fcf54b3d0bc2ac06667c98dceb43831889
+    new: 44aa25c000b41d7afcb030ac1b8a38f06dabef0a
     log: |
-         f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
-         855e43164e95bf6559ab2b53b28e0f95887ff099 Merge tag 'batadv-net-pullrequest-20251024' of https://git.open-mesh.org/linux-merge
+         217660325580d51c350726159703b2fcec2b95e3 riscv: tests: Rename kprobes_test_riscv to kprobes_riscv
+         5fada1605733a427feff45147cef9455ce29620f riscv: tests: Make RISCV_KPROBES_KUNIT tristate
+         44aa25c000b41d7afcb030ac1b8a38f06dabef0a riscv: asm: use .insn for making custom instructions
          
