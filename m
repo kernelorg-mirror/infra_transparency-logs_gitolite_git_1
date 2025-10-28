@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3212230080931351534=="
+Content-Type: multipart/mixed; boundary="===============3235391417219903754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 28 Oct 2025 12:14:41 -0000
-Message-Id: <176165368192.697480.9842736173035816658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Oct 2025 12:14:45 -0000
+Message-Id: <176165368500.697755.13761209430076798304@gitolite.kernel.org>
 
---===============3212230080931351534==
+--===============3235391417219903754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 01313661b248c5ba586acae09bff57077dbec0a5
     new: dc74a00c7661a14a672ea7660caca5c4aa661a79
     log: revlist-01313661b248-dc74a00c7661.txt
 
---===============3212230080931351534==
+--===============3235391417219903754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761653746 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1761653679-e33a1d619d0f4ed9527fe937d1020464a239b917
+pusher C3F436CA30F5D8EB 1761653749 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761653682-e4e0abb561be9665bf91b59da67e96bafc75ee3c
 
-01313661b248c5ba586acae09bff57077dbec0a5 dc74a00c7661a14a672ea7660caca5c4aa661a79 refs/heads/for-6.19
+01313661b248c5ba586acae09bff57077dbec0a5 dc74a00c7661a14a672ea7660caca5c4aa661a79 refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkAs/IACgkQJNaLcl1U
-h9A86Af/RCfOqsQE8xm5tZZnrHgevDxsQGWjVZ6SuZ5C3RtnH55U5umbOo7pgt7y
-ZtY8UD9/AyasmzSVVWMfwPrY92trNm05cmeW0xHpUObbiStzf2s3/4KQEcU+5JTx
-/AW3FWw+lQ158lcEwM2XyP1wxdWJ60UCFyqmw6z8AcD3Rq1+BIbwRAisu8TtvaAZ
-p6AZd7iqCjlPg1RaE6hPdw3+CvmjG8qLEVxqIOj00R6GGEUwQDxOMDFzaonLM5cX
-1f41FAxeQrxOK9KKncuZZstC+55A4dQ6CuqRWxQusrVmKHAfA3Nfj2IlH02BhWP0
-cJdxlCFhetUAwQH2OyBGjLVGIHPW4Q==
-=fy/Z
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkAs/UACgkQJNaLcl1U
+h9BQ8Af/Y+0jS6hUjVYEPWJS+mQ5IBMIxH3GFodtW6vTfCAlH6K65j2jxyKN2sIl
+4kfENbmoZgu5uQ0MOFxbOXbjHWJOBlnHvixbwySz13hBMtFEPyD8kuBRzTBNEUzr
+COeQaAHDnwzf5K5aBMbYRo8UkjE6VuRn3fUgGvQCOLmryoSTMTC83b16LUrwyNDR
+9IH7VkVBKdPLZft1SKHGoSc3xx17kPKtgipDeuvsR9nxgyLJ+ZI+59gCuUopI5kj
+Xh27D8o1Dq/3TIFv/KUOajm5xXt2uDv89Bec5tNQz2EUCkccFhM9gSWop3JKwLVk
+Su9iGOhTgdigM5NseFN/w32TMW+y7g==
+=xji+
 -----END PGP SIGNATURE-----
 
---===============3212230080931351534==
+--===============3235391417219903754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -747,4 +747,4 @@ dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 4c33cef58965eb655a0ac8e243aa323581ec025f regulator: pca9450: link regulator inputs to supply groups
 dc74a00c7661a14a672ea7660caca5c4aa661a79 regulator: pca9450: add input supply links
 
---===============3212230080931351534==--
+--===============3235391417219903754==--
