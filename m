@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 28 Oct 2025 08:58:41 -0000
-Message-Id: <176164192163.505958.12527787563526321618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Tue, 28 Oct 2025 09:01:06 -0000
+Message-Id: <176164206677.509353.17584259389693472503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/locking/core
-    old: 37d0472c8ac441af8bc10fc4959ad9d62dd5fa4c
-    new: b94d45b6bbb42571ec225d3be0e7457c8765a5b4
+  - ref: refs/heads/imx/fixes
+    old: 9bab9019faa549f1311029fc674bb6233f2553ee
+    new: 6504297872c7a5d0d06247970d32940eba26b8b3
     log: |
-         b94d45b6bbb42571ec225d3be0e7457c8765a5b4 seqlock: Allow KASAN to fail optimizing
+         6504297872c7a5d0d06247970d32940eba26b8b3 arm64: dts: imx8mp-kontron: Fix USB OTG role switching
          
