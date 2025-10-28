@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 28 Oct 2025 16:34:45 -0000
-Message-Id: <176166928541.924315.6257443447073842699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 28 Oct 2025 16:34:53 -0000
+Message-Id: <176166929390.924538.17369168186965671774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/lockless-lookup
-    old: a66e9d6fdb9b278ba2198bb73dfbc421dd297973
-    new: 857cc5bcd501dc6d2799f72410898f42846e7b2e
+  - ref: refs/heads/mtd/next
+    old: 9d4d01a293ad98044c731886f1c27978a4d1f263
+    new: 3e9c49d4c3063dcf7ddcdea4c5e3aa21eae359d0
     log: |
-         4488b7afe63034596d6a9a676cb1d98c926e222f gfs2: No d_revalidate op for "lock_nolock" mounts
-         49bdc7b1c1d2e8846cf86eef03cc6624a6ebf986 gfs2: Get rid of had_lock in gfs2_drevalidate
-         c340871a02b000e9b5c3dc4fbb72705f7c801aba gfs2: Use unique tokens for gfs2_revalidate
-         7146ef30ec2722c86ac698b4d6105b5cf8f21209 gfs2: Enable non-blocking lookup in gfs2_permission
-         857cc5bcd501dc6d2799f72410898f42846e7b2e Revert "gfs2: Add GL_NOBLOCK flag"
+         3e9c49d4c3063dcf7ddcdea4c5e3aa21eae359d0 mtd: intel-dg: wake card on operations
          
