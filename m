@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3523534289225625320=="
+Content-Type: multipart/mixed; boundary="===============8164499526935541814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Tue, 28 Oct 2025 16:32:38 -0000
-Message-Id: <176166915862.922465.9282454511237496714@gitolite.kernel.org>
+Date: Tue, 28 Oct 2025 16:34:05 -0000
+Message-Id: <176166924505.923640.5069369910335928904@gitolite.kernel.org>
 
---===============3523534289225625320==
+--===============8164499526935541814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: frederic
 changes:
-  - ref: refs/heads/rcu/fixes
-    old: 1dc1e0b9d694eb9016d3105ca4ba8bd90eba888a
-    new: d1e6d2773898c7a1c19e12619d303920d32a9cd0
-    log: revlist-1dc1e0b9d694-d1e6d2773898.txt
+  - ref: refs/heads/rcu/torture
+    old: c229d579d047f9c4fb4d6c37d9d04b88a398e461
+    new: 70458d3d3cdb1521c1386726a40b53ef406ccaab
+    log: revlist-c229d579d047-70458d3d3cdb.txt
 
---===============3523534289225625320==
+--===============8164499526935541814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dc1e0b9d694-d1e6d2773898.txt
+Content-Disposition: attachment; filename=revlist-c229d579d047-70458d3d3cdb.txt
 
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1049,6 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
-d1e6d2773898c7a1c19e12619d303920d32a9cd0 rcu: Add a small-width RCU watching counter debug option
+70458d3d3cdb1521c1386726a40b53ef406ccaab rcutorture: Make TREE04 use CONFIG_RCU_DYNTICKS_TORTURE
 
---===============3523534289225625320==--
+--===============8164499526935541814==--
