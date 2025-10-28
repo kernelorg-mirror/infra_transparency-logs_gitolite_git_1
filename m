@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3856077149889334423=="
+Content-Type: multipart/mixed; boundary="===============5836011080009789518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Oct 2025 16:47:28 -0000
-Message-Id: <176167004811.937857.12160392760682154208@gitolite.kernel.org>
+Date: Tue, 28 Oct 2025 16:47:48 -0000
+Message-Id: <176167006867.938178.6922905890687399734@gitolite.kernel.org>
 
---===============3856077149889334423==
+--===============5836011080009789518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bfe62db5422b1a5f25752bd0877a097d436d876d
-    new: cebba694d26d29467615c641a8fefd5b2cd4a1aa
-    log: revlist-bfe62db5422b-cebba694d26d.txt
+  - ref: refs/heads/dev-queue
+    old: ee2f6ce9c8a9e682a3d612bfb1890bf6337e2e6a
+    new: d8b36e97d7fedc358d86e695a6acc64d162244bd
+    log: revlist-ee2f6ce9c8a9-d8b36e97d7fe.txt
 
---===============3856077149889334423==
+--===============5836011080009789518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfe62db5422b-cebba694d26d.txt
+Content-Disposition: attachment; filename=revlist-ee2f6ce9c8a9-d8b36e97d7fe.txt
 
 e5ae07b2ef86ee5bcb90a1c933c9d5ac1a0e33be batman-adv: Start new development cycle
 ed5730f3f733659a4a023a5f1e767365fe341648 batman-adv: use skb_crc32c() instead of skb_seq_read()
@@ -77,5 +77,54 @@ d7d5eca4de565f95ac6760dceced123881b4c2bd Merge branch 'net-macb-eyeq5-support'
 792000fbcd0ca32f358c4e14eaa40a73690be24c net: stmmac: Move subsecond increment configuration in dedicated helper
 6920fa0c764dbdd35d311d4df986226bb48165f6 net: stmmac: Add a devlink attribute to control timestamping mode
 cebba694d26d29467615c641a8fefd5b2cd4a1aa Merge branch 'net-stmmac-add-support-for-coarse-timestamping'
+e8a06f7a965e1c5af4ee69bb8541cf03308cb0f9 ice: fix lane number calculation
+10c8c1b59402bf75c94d6dc3e545f07f53754144 ice: Allow 100M speed for E825C SGMII device
+1585f724333afbace22b56a6f7f9d36df1da9d5d ice: Fix enable_cnt imbalance on resume
+c3e0d42d7c768827565af11396ea3fda5e72daa2 ice: Fix enable_cnt imbalance on PCIe error recovery
+f09bd4fc42d5450c6f710232a107ff2694b2fa79 i40e: Fix enable_cnt imbalance on PCIe error recovery
+a475c1adfa2042dec02d4d7de578c10f921664d4 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+35b498522dcfb90797f93598669100c72fd19e75 ice: add recovery clock and clock 1588 control for E825c
+ce3ee4d0ee8eb14c7d16551eacc9dd1d4d2e7d71 devlink: Add new "max_mac_per_vf" generic device param
+3139c76436bd47a090e548d112574e2f25d6ee1b i40e: support generic devlink param "max_mac_per_vf"
+c19793906152a0ad4427a1cdfc4cdd7679ae7d19 ice: enforce RTNL assumption of queue NAPI manipulation
+92b5acd3e828ded6c15c7dae69e948eb7adb3d61 ice: move service task start out of ice_init_pf()
+4704d13314f8d3cab4958bd2499b69e79632e062 ice: move ice_init_interrupt_scheme() prior ice_init_pf()
+d627d741a8509802454c842d0c8cdfb5453282f5 ice: ice_init_pf: destroy mutexes and xarrays on memory alloc failure
+e260448ca37e9bbd58db6a6769d14c3c14773795 ice: move udp_tunnel_nic and misc IRQ setup into ice_init_pf()
+6f56a5964c51978f55d2c8cb3c6a5d0ca6ebab35 ice: move ice_init_pf() out of ice_init_dev()
+5371acb0b6e145b95727ae49cbc43b0772085dc6 ice: extract ice_init_dev() from ice_init()
+942c67a48dd0290bfa8b2f4e501b100f5b4ac110 ice: move ice_deinit_dev() to the end of deinit paths
+107a1236ccb4d3ddabea37dd638130d706cb3045 ice: remove duplicate call to ice_deinit_hw() on error paths
+0927b9afceddd927fb1880cf39a5041c4fdef831 igc: power up the PHY before the link test
+4244faa8658829e5410c2b8202d2ca12f55f81b5 idpf: remove duplicate defines in IDPF_CAP_RSS
+565260ffecc95b14cf8ed65792dc3a021952fbfa ice: remove legacy Rx and construct SKB
+33dfd563aa02f9d3e9a3d24fc16ac27996619b38 ice: drop page splitting and recycling
+def40673fdaa4950f91538a662fcf357f997981b ice: switch to Page Pool
+daf04637d308241a1f803d3fb5a1407051f44d01 idpf: fix memory leak of flow steer list on rmmod
+801d49d6b4b815d039262d87559d73ea48a53fe3 idpf: fix issue with ethtool -n command display
+0583eccbf13a369957367daa5768b766e7f3d3db ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
+64b6d302cf30e97e75c59b6c4cdfecfa6fa27616 ice: add TS PLL control for E825 devices
+5ecefb3a00618bedc96c6bbab21c24ad70456f00 ice: implement configurable header split for regular Rx
+e59ac9df9f8d61c042d7120204152a900a996894 ice: fix destination CGU for dual complex E825
+69c8172039fed42371f98844fd8624ea0b9e4a0a idpf: fix possible vport_config NULL pointer deref in remove
+5763e42af825025234eec07d179d33a51246b771 libie: depend on DEBUG_FS when building LIBIE_FWLOG
+f22cfd0ee15ecf705a6a9f734794bb2d0c6a9459 ixgbe: Add 10G-BX support
+39692e3c79a57f7f566cc31c6b6570950ce8ef64 idpf: add support for IDPF PCI programming interface
+59145b298049959d0544843f234267b9348b0dc2 i40e: avoid redundant VF link state updates
+aaab607e58598ab0ed339ece623aca32d3bf67fd ice: fix PTP cleanup on driver removal in error path
+3966aa18796532957024605b4e9fa0ac9ec41e03 ice: unify PHY FW loading status handler for E800 devices
+6e054dcd6a6a45e382a4f4864c3f0a3cbda65e34 ixgbe: fix typos in ixgbe driver comments
+bc3042b6012731ad5e9a52b32bfdd27f1078e43e igbvf: fix misplaced newline in VLAN add warning message
+6de22ecd3cc12d9d99f8d40d7f36e3fdbfc7b8c6 idpf: convert vport state to bitmap
+749845eda6b1be0665915d322e86e746b115dd02 idpf: introduce local idpf structure to store virtchnl queue chunks
+cf2ba470bd4d2b03890d1b23eac68020d2e2bd62 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+51c73df69979088a86017a120cb89a61d347bf38 idpf: move queue resources to idpf_q_vec_rsrc structure
+0bfcaa426b235881ee10939288fcdef4e22d11f9 idpf: move some iterator declarations inside for loops
+bc6647e7b4fb45ae34c471f84a4a0017195d9ec1 idpf: reshuffle idpf_vport struct members to avoid holes
+fbcf70d72690800d4b16a7329406241a870bebb4 idpf: add rss_data field to RSS function parameters
+fd5f9a809a8f50a26d17b6156d64f6b6d5adca12 idpf: remove vport pointer from queue sets
+08bd68739e1300257ca8346821479d9a90c5b9b1 idpf: generalize send virtchnl message API
+77a07a212835da2abf0eafcf7b522f55e8359b4d idpf: avoid calling get_rx_ptypes for each vport
+d8b36e97d7fedc358d86e695a6acc64d162244bd idpf: generalize mailbox API
 
---===============3856077149889334423==--
+--===============5836011080009789518==--
