@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 28 Oct 2025 02:03:35 -0000
-Message-Id: <176161701586.127479.5349997602806778050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 28 Oct 2025 02:46:57 -0000
+Message-Id: <176161961766.162677.14663008651700163099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 1764e4c91c26889abb37503bf73d8f8b217f8641
-    new: 0c47cb7d419ad452cb89d753cc7bb654ed08efe0
+    old: ff880798de39251aa5e28ab389c16d294b7af658
+    new: f9db3a38224ec560d7adc5f2163946839d1b649f
     log: |
-         3dbd23dea7ef783a6dc152cf8aa866a3d04f19d4 foo
-         d31a52ac04933a93459e34968801790e54f9d34e foo
-         0c47cb7d419ad452cb89d753cc7bb654ed08efe0 foo
+         feeaf1346f80ffb181b6f9b739628103aa73b067 bpf: Add overwrite mode for BPF ring buffer
+         8f7a86ecde429709da5851043ab2e0b8236cfd29 selftests/bpf: Add overwrite mode test for BPF ring buffer
+         f9db3a38224ec560d7adc5f2163946839d1b649f selftests/bpf/benchs: Add overwrite mode benchmark for BPF ring buffer
          
