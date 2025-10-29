@@ -1,53 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0538105333041674013=="
+Content-Type: multipart/mixed; boundary="===============7788354283803014598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Wed, 29 Oct 2025 05:51:12 -0000
-Message-Id: <176171707279.1613633.17950971523435930692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Wed, 29 Oct 2025 06:00:48 -0000
+Message-Id: <176171764826.1621625.2568912444723022331@gitolite.kernel.org>
 
---===============0538105333041674013==
+--===============7788354283803014598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 6159bd34e85ea00f4611b6ff0a5adddaa7956f23
-    new: 3aaabe1c7cfb8fd2d8bc87720cbd4935784b0d9d
-    log: |
-         a4438adcd9e8b814d4e13ea26f4a1944e26761f3 virtio-msg: Add optional userspace interface for message I/O
-         75f1013dbda43041228627392cba48a76932a695 virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
-         5838da235f6fe389bf87e17514c475a23288d3f7 virtio-msg: Add support for loopback bus
-         0af1ebca35c1d3d5f19b8c563c9b0489bab9d920 virtio-msg: ffa: Poll for events if indirect messages aren't supported
-         3aaabe1c7cfb8fd2d8bc87720cbd4935784b0d9d virtio-msg: ffa: Add support for DMA ops and memory sharing
-         
-  - ref: refs/heads/virtio/msg-xen
-    old: 27143c677cd93a347826a8702540f4b7cdb0d14e
-    new: 90fa0f32f9a9e7bb6f21148c92b4dd2cc3452fa6
-    log: revlist-27143c677cd9-90fa0f32f9a9.txt
+  - ref: refs/heads/ti-k3-dts-next
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+    new: 3b9b526376bc608deba03b33a37b02011b680259
+    log: revlist-3a8660878839-3b9b526376bc.txt
 
---===============0538105333041674013==
+--===============7788354283803014598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27143c677cd9-90fa0f32f9a9.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-3b9b526376bc.txt
 
-a4438adcd9e8b814d4e13ea26f4a1944e26761f3 virtio-msg: Add optional userspace interface for message I/O
-75f1013dbda43041228627392cba48a76932a695 virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
-5838da235f6fe389bf87e17514c475a23288d3f7 virtio-msg: Add support for loopback bus
-0af1ebca35c1d3d5f19b8c563c9b0489bab9d920 virtio-msg: ffa: Poll for events if indirect messages aren't supported
-3aaabe1c7cfb8fd2d8bc87720cbd4935784b0d9d virtio-msg: ffa: Add support for DMA ops and memory sharing
-f7caeb1948f59b9708249be206d9abbe019b515e virtio-msg: ffa: Add support for passive mode
-dcfc39bd191caa6d287634b2bec35f742debefc1 HACK: firmware: arm_ffa: Partitions can come online after the host
-c03929d0945af671c5eb361b93042108feb13b7e HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-963d9379b17603c51b6579dffc60927bc5daa979 vsock: Add memory sharing support
-f5d5625bdbceac18a247f35ae1278e9f55abf45d TEMP: defconfig: Reset
-9870f9aec3658294b94f85b16d3ce07e95ed2b62 TEMP: defconfig: Enable virtio-msg + qemu/xen options
-fad0528f2c684a9f2dbcef781bbe60ec8729cb84 TEMP: defconfig: vsock support
-90fa0f32f9a9e7bb6f21148c92b4dd2cc3452fa6 TEMP: defconfig: Enable INITRAMFS for guest kernel
+76546090b1726118cd6fb3db7159fc2a3fdda8a0 arm64: dts: ti: k3-am62p: Fix memory ranges for GPU
+779ea073dba35a8f29c8403684c6e0177504775b arm64: dts: ti: k3-am62: Add support for AM625 OLDI IO Control
+a00ee8014d5b6bb00bc41d7fc947fd52f53c9209 arm64: dts: ti: k3-am625: Add OLDI support
+67106d217170161383b22c964192448a46fd13fc arm64: dts: ti: k3-am62: Add RNG node
+102194dce876fc163838b15d0620d6ab3783438e rm64: dts: ti: k3-j722s-evm: explicitly use PLL1_HSDIV6 audio refclk
+9dee9cb2df0800c0c52e73b3d01032b013297cb9 arm64: dts: ti: k3-j722s-main: fix the audio refclk source
+12875d01b05f7a99f5d4898941498454f52d5501 dt-bindings: arm: ti: Add Kontron SMARC-sAM67 module
+c70ed9eaa13eb02f5fcf9effba5bbc5f19d97e86 arm64: dts: ti: Add support for Kontron SMARC-sAM67
+d6bfeab6b4ec16b7996e29505f7d60686bc80911 arm64: dts: ti: sa67: add overlay for the ADS2 carrier
+bfa48d98129a211ab9234b39a0197fe44bae3d86 arm64: dts: ti: k3-am62d2-evm: Fix regulator properties
+d56ff69ce1c03a9a9439be5a642edeff0ecc0d8e arm64: dts: ti: k3-am62d2-evm: Fix PMIC padconfig
+3b9b526376bc608deba03b33a37b02011b680259 arm64: dts: ti: k3-am62d2-evm: Enable PMIC
 
---===============0538105333041674013==--
+--===============7788354283803014598==--
