@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8935296095243458764=="
+Content-Type: multipart/mixed; boundary="===============5555656391306792801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 29 Oct 2025 05:12:52 -0000
-Message-Id: <176171477256.1581085.10715071138129059372@gitolite.kernel.org>
+Date: Wed, 29 Oct 2025 05:13:01 -0000
+Message-Id: <176171478138.1581306.9391268224732787750@gitolite.kernel.org>
 
---===============8935296095243458764==
+--===============5555656391306792801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/untested.efivarfs
-    old: 0b03ab163f764c1ad3c211afaa1b07b5ac2a9daa
-    new: 1ce9ff696dbf8116a8bc541b3349afd178b1d35e
-    log: revlist-0b03ab163f76-1ce9ff696dbf.txt
+  - ref: refs/heads/work.persistency
+    old: 3c9c3bf7a8255ac9ba3f5d286a3b2429a26b17e2
+    new: 2655e9b485168d05114a00b94d46e6251ac2f799
+    log: revlist-3c9c3bf7a825-2655e9b48516.txt
 
---===============8935296095243458764==
+--===============5555656391306792801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b03ab163f76-1ce9ff696dbf.txt
+Content-Disposition: attachment; filename=revlist-3c9c3bf7a825-2655e9b48516.txt
 
 169e21a93bd26a7d7d53c7b86dc54bd739e02579 fuse_ctl_add_conn(): fix nlink breakage in case of early failure
 38096a6d98d75a4e3ce74024765d2c2189b077d0 tracefs: fix a leak in eventfs_create_events_dir()
@@ -76,9 +76,5 @@ bc2af222a1c540b740cae8a136243ed92707d63e get rid of kill_litter_super()
 5933f818a04e3ccfa06291c41fba2f42f4460538 convert securityfs
 a99f4c1f7f0ab88dcab4d1ccc81d6d3761aea540 kill securityfs_recursive_remove()
 2655e9b485168d05114a00b94d46e6251ac2f799 d_make_discardable(): warn if given a non-persistent dentry
-e2bfbf87fb0912720f45872d47818b258c25b9cc efivarfs: simplify the (re)scanning of variables on mount/unfreeze
-e73a221e62a0982f5e132ba49315aa826a33ef87 sanitize efivar_init()
-5326d6eef81e2a74b82c3489da3741cabb772a8f efivarfs_get_inode(): get rid of 'dir' argument
-1ce9ff696dbf8116a8bc541b3349afd178b1d35e efivarfs_create_dentry(): fold into its sole caller
 
---===============8935296095243458764==--
+--===============5555656391306792801==--
