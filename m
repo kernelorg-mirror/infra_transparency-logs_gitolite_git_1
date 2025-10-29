@@ -1,42 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============3871712193976040092=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 29 Oct 2025 06:01:14 -0000
-Message-Id: <176171767484.1622108.14018380378759420253@gitolite.kernel.org>
-
---===============3871712193976040092==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Wed, 29 Oct 2025 06:19:50 -0000
+Message-Id: <176171879006.1636024.10013520101540431065@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/heads/ti-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 3b9b526376bc608deba03b33a37b02011b680259
-    log: revlist-3a8660878839-3b9b526376bc.txt
-
---===============3871712193976040092==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-3b9b526376bc.txt
-
-76546090b1726118cd6fb3db7159fc2a3fdda8a0 arm64: dts: ti: k3-am62p: Fix memory ranges for GPU
-779ea073dba35a8f29c8403684c6e0177504775b arm64: dts: ti: k3-am62: Add support for AM625 OLDI IO Control
-a00ee8014d5b6bb00bc41d7fc947fd52f53c9209 arm64: dts: ti: k3-am625: Add OLDI support
-67106d217170161383b22c964192448a46fd13fc arm64: dts: ti: k3-am62: Add RNG node
-102194dce876fc163838b15d0620d6ab3783438e rm64: dts: ti: k3-j722s-evm: explicitly use PLL1_HSDIV6 audio refclk
-9dee9cb2df0800c0c52e73b3d01032b013297cb9 arm64: dts: ti: k3-j722s-main: fix the audio refclk source
-12875d01b05f7a99f5d4898941498454f52d5501 dt-bindings: arm: ti: Add Kontron SMARC-sAM67 module
-c70ed9eaa13eb02f5fcf9effba5bbc5f19d97e86 arm64: dts: ti: Add support for Kontron SMARC-sAM67
-d6bfeab6b4ec16b7996e29505f7d60686bc80911 arm64: dts: ti: sa67: add overlay for the ADS2 carrier
-bfa48d98129a211ab9234b39a0197fe44bae3d86 arm64: dts: ti: k3-am62d2-evm: Fix regulator properties
-d56ff69ce1c03a9a9439be5a642edeff0ecc0d8e arm64: dts: ti: k3-am62d2-evm: Fix PMIC padconfig
-3b9b526376bc608deba03b33a37b02011b680259 arm64: dts: ti: k3-am62d2-evm: Enable PMIC
-
---===============3871712193976040092==--
+  - ref: refs/heads/master
+    old: 9e8c67fa3e9faad04dde2e6e286950eaf7bb5cbe
+    new: 61a463705f02b617239969c269e4882bcb5af035
+    log: |
+         61a463705f02b617239969c269e4882bcb5af035 wireless-regdb: Update regulatory info for Malaysia (MY) for 2025
+         
