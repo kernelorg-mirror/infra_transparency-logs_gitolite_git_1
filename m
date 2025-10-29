@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 29 Oct 2025 15:03:21 -0000
-Message-Id: <176175020136.2292547.4864670692751947267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 29 Oct 2025 15:11:58 -0000
+Message-Id: <176175071893.2300347.4278758993955212197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: ccc411a3dd249fa6d638c582df3bf150c36eb82c
-    new: a848dc715cb68be0c5f850a9d1222a8322dcc473
+  - ref: refs/heads/ath-current
+    old: a7716c9d922d6245b308e92824b95831bde44553
+    new: 9222582ec524707fbb9d076febead5b6a07611ed
     log: |
-         b54c412b511c8bc8e71fd09a766bd95528d94840 arm64: dts: qcom: sc8280xp-x13s: enable camera privacy indicator
-         7cb69f89700d031f6984b787a918bc5825c067cd arm64: dts: qcom: qcs615-ride: Set drive strength for wlan-en-state pin
-         6d49c6ede81516121b7dbf840040775f8da9333f dt-bindings: firmware: qcom,scm: Document Glymur scm
-         67445dc8a8060309eeb7aebbc41fa0e58302fc09 arm64: dts: qcom: qcm2290: Fix camss register prop ordering
-         74c2c1e0d0784a13d0709e6ec4dbac3ab1f29f97 arm64: dts: qcom: x1e80100-crd: Add charge limit nvmem
-         12fe71e70fb73dcc2286788625d66a0e5fb0874d Merge branch '20251014-qcom_ipq5424_nsscc-v7-2-081f4956be02@quicinc.com' into HEAD
-         e7a1bf542c3b254e4f3e8981e2b769f5c7424960 arm64: dts: qcom: ipq5424: Add NSS clock controller node
-         a848dc715cb68be0c5f850a9d1222a8322dcc473 Merge branches 'arm64-defconfig-for-6.19', 'arm64-fixes-for-6.18', 'arm64-for-6.19', 'clk-for-6.19' and 'drivers-for-6.19' into for-next
+         3b8694e56f6b69aaba1cffdf0c0760cd76712422 Merge tag 'ath-current-20251027' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+         7ceba45a6658ce637da334cd0ebf27f4ede6c0fe wifi: cfg80211: add an hrtimer based delayed work item
+         dfa865d490b1bd252045463588a91a4d3c82f3c8 wifi: mac80211: use wiphy_hrtimer_work for ttlm_work
+         3f654d53dff565095d83a84e3b6187526dadf4c8 wifi: mac80211: use wiphy_hrtimer_work for ml_reconf_work
+         fbc1cc6973099f45e4c30b86f12b4435c7cb7d24 wifi: mac80211: use wiphy_hrtimer_work for csa.switch_work
+         9222582ec524707fbb9d076febead5b6a07611ed Revert "wifi: ath12k: Fix missing station power save configuration"
          
