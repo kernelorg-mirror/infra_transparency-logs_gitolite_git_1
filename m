@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 29 Oct 2025 15:53:10 -0000
-Message-Id: <176175319078.2335660.16417523073650033327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
+Date: Wed, 29 Oct 2025 16:12:16 -0000
+Message-Id: <176175433628.2351847.16277608389426101690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/aegl/linux
+user: aegl
 changes:
-  - ref: refs/heads/master
-    old: e156a4b12811f17c43193674df689a0016c3092f
-    new: 6d9ae347cfacc9df209c3a218d2e50dd3b9bd36b
-    log: |
-         6d9ae347cfacc9df209c3a218d2e50dd3b9bd36b SPONSORS: Two sponsors didn't renew this year
-         
+  - ref: refs/heads/rdt-aet-v13
+    old: 0000000000000000000000000000000000000000
+    new: 4875379a4a47baab5f25a738282fde79fff9679c
