@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8742512353926229386=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 29 Oct 2025 13:03:21 -0000
-Message-Id: <176174300145.2087048.10587438680460642975@gitolite.kernel.org>
-
---===============8742512353926229386==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 29 Oct 2025 13:03:28 -0000
+Message-Id: <176174300853.2087163.17837780439831340959@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 4b4eb040e1ae75a45cc334b717a9119f034f59b1
-    new: 3f7d2904efb762921d34206eaf50513c72b93ecf
-    log: |
-         3f7d2904efb762921d34206eaf50513c72b93ecf Notes added by 'git notes add'
-         
-
---===============8742512353926229386==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761743065 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1761742998-5ba31973475521bee37e25c869482a93b86e8229
-
-4b4eb040e1ae75a45cc334b717a9119f034f59b1 3f7d2904efb762921d34206eaf50513c72b93ecf refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkCENkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B90P/RPS/4scYkfg++u1lq1f
-dTuUT/jaw7HBw8U70v1IbKFXaoZTaEg9uDyhK5C3Q4YoHkWLTgy49eeuRY7sKrvR
-WSIOfLsORXCNq6/zr0R4joawPcGyyPRlyT6UQ0oKGPKlzm623/WA38BPcbsnrNJ5
-FuzsNJ9fZa5roqzMdf4836Tj0xAckxZKGMeLAQ/zhFtd8aVND9uNGptUZpSlnYA6
-dZ4d5C+Kgddra2gFh8Z9j9RepfEtTWFcED0KsF3GoU+VHT5x3yvghiCZ8nh0QiAb
-5UZOYB7swsYwSKmQwd6oY9KIX9ERMWGeTDkhr6MQ0ZFCqB8tDRwM/2vWCZ/ZT49f
-EC8Kw/9dqxEqLT7Rrs/lIoj8GXyHC6zcz6RuSEZ0YroaDSCycVqTbWZDSxWhWHLe
-fxRVFAP0msOP0YnE687Mp5AVSOOtm9eK/j/mo9U9GlBo3srWuiRXlrMG2AKnIZ9S
-v3Gn73bCALMxbDcBl1TZ08snZlD3A8HOP2Bk+ts8KK9AkticNeJw1IOl6F2zKkAc
-WGZUTtNsl4BdbNyJRiFgV5VovFj+hyL0/DD0skEVWBOL4sCdgFC+m/L27ZKeJsGH
-EJSlJfMYlt+FZJ+jtkbpKMCgVNNJLvyT1IZgIu8fbU40YBHHJoeDebwxr3y5Rdjq
-Hbl5JwPDJfrmrjpE3aDUFz92
-=tIHT
------END PGP SIGNATURE-----
-
---===============8742512353926229386==--
+  - ref: refs/heads/file7uuvlQ
+    old: 0000000000000000000000000000000000000000
+    new: 28039efa4d8e8bbf98b066133a906bd4e307d496
+  - ref: refs/heads/fileOXujMf
+    old: 0000000000000000000000000000000000000000
+    new: e7dbfe6f15b4df34bb169d180bd10f1a3c043814
+  - ref: refs/heads/fileSooqb3
+    old: 0000000000000000000000000000000000000000
+    new: 863b2fa39f32759c5417b34ff51012111fd8df50
+  - ref: refs/heads/v2_20251029_herve_codina_add_support_for_an_external_master_clock_in_the_cirrus_cs4271_codec
+    old: 0000000000000000000000000000000000000000
+    new: 2f0c582621a0698270929433f58ac092e5e213ab
+  - ref: refs/heads/v6_20251029_sander_regmap_introduce_validity_info_for_flat_cache
+    old: 0000000000000000000000000000000000000000
+    new: e062bdfdd6adbb2dee7751d054c1d8df63ddb8b8
