@@ -1,25 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 29 Oct 2025 21:51:10 -0000
-Message-Id: <176177467083.2640887.7392284401222105228@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5525994700229920368=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 29 Oct 2025 22:00:37 -0000
+Message-Id: <176177523750.2648979.15876453412665923736@gitolite.kernel.org>
+
+--===============5525994700229920368==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/lockless-lookup
-    old: 857cc5bcd501dc6d2799f72410898f42846e7b2e
-    new: 6b2762ab7d0797615acf6cc111740dd9d5cdc1cb
+  - ref: refs/heads/for-6.19
+    old: eda4a53f8fe021328c468175a02da8d7ad155494
+    new: e2ff7154813a3834692703852604b2099ecf043a
     log: |
-         64eef174fb67a4b0dfcb73c2dc469a8c228b68d2 gfs2: No longer thaw filesystems during a withdraw
-         258896a8969dd85f3ccab87fae20b042cbcee8df gfs2: Clean up SDF_JOURNAL_LIVE handling
-         7b068aa4a79a857d46af50cd56452d40fdc45446 gfs2: No d_revalidate op for "lock_nolock" mounts
-         8836763e0e1da2727e3b47498dbe6c9edae65036 gfs2: Get rid of had_lock in gfs2_drevalidate
-         0c9b53c34b0f11de90a286655771debff315c31c gfs2: Use unique tokens for gfs2_revalidate
-         5302f90e0dfcb645d201bee59c58ef41401165fd gfs2: Enable non-blocking lookup in gfs2_permission
-         6b2762ab7d0797615acf6cc111740dd9d5cdc1cb Revert "gfs2: Add GL_NOBLOCK flag"
+         e2ff7154813a3834692703852604b2099ecf043a ASoC: tas2783: Fix build for SoundWire API update
          
+
+--===============5525994700229920368==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1761775302 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1761775235-f1967cbdc212261e36426c9e0213841e259f146e
+
+eda4a53f8fe021328c468175a02da8d7ad155494 e2ff7154813a3834692703852604b2099ecf043a refs/heads/for-6.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkCjsYACgkQJNaLcl1U
+h9CidQf9GjwqUSkaUnR3gEdXMuyWNitFyveWiGT3hkRLGE2j4SO4Gip+Vyf52n+j
+gM91o8jSxB2yoRo3xXWMO29TLBcKf3oMlV0eTukjtm+jT+YLxGp2yd4vwxXwrYuq
+g7YL+d9F/Myu5bOrBHMcZL6miBPpLhdVBlTQIYc5NJQYtakSPhl2hqzszN2EfJZq
+UbJLCLzPQ7ZXd3Z6LSRegCKkDWzwKp+BvXvdG/SdZBxGNEikFs94FNSs88wrfRgI
+CtZwBZ8c1VQ+6zXQlryR+uLgGxf6HIpnUupbrN3Z3WZm61PswswuCuBPVjkNz814
+fLLrW7S3+49WuTDmURU/fhrmlE2MsA==
+=xEpx
+-----END PGP SIGNATURE-----
+
+--===============5525994700229920368==--
