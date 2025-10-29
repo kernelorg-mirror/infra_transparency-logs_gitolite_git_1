@@ -1,33 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 29 Oct 2025 15:29:02 -0000
-Message-Id: <176175174214.2315564.17134655190531062785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Wed, 29 Oct 2025 15:41:22 -0000
+Message-Id: <176175248297.2326315.14312262058620099829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-6.19
-    old: b7d4b28db7da89de1d03316c4e67b5a47390fcd3
-    new: a3f5d48222532484c1e85ef27cc6893803e4cd17
-    log: |
-         f4fa7c25f632cd925352b4d46f245653a23b1d1a sched_ext: Fix use of uninitialized variable in scx_bpf_cpuperf_set()
-         2d697e5f5a036d5705d570ce55a140832e92d25c Merge branch 'for-6.18-fixes' into for-6.19
-         180b4ac3420c4b4e03c75b7077beb854af9282da sched_ext: Split schedule_deferred() into locked and unlocked variants
-         8803e6a7fb687795ab4326f3e96e9f666605d883 sched_ext: Factor out reenq_local() from scx_bpf_reenqueue_local()
-         a3f5d48222532484c1e85ef27cc6893803e4cd17 sched_ext: Allow scx_bpf_reenqueue_local() to be called from anywhere
-         
   - ref: refs/heads/for-next
-    old: 7d0b67afb2821dc6a2b6a3bf7c8546fc3041d557
-    new: 21a0bb22a2322be41fd76a12e399fcb16d07afaf
+    old: 2602949b22330f1275138e2b5aea5d49126b9757
+    new: 4bb30188c787176f934aab71872f7c5f43ae6d6f
     log: |
-         2d697e5f5a036d5705d570ce55a140832e92d25c Merge branch 'for-6.18-fixes' into for-6.19
-         180b4ac3420c4b4e03c75b7077beb854af9282da sched_ext: Split schedule_deferred() into locked and unlocked variants
-         8803e6a7fb687795ab4326f3e96e9f666605d883 sched_ext: Factor out reenq_local() from scx_bpf_reenqueue_local()
-         a3f5d48222532484c1e85ef27cc6893803e4cd17 sched_ext: Allow scx_bpf_reenqueue_local() to be called from anywhere
-         21a0bb22a2322be41fd76a12e399fcb16d07afaf Merge branch 'for-6.19' into for-next
+         089c0a9853ae6b297adf6e2f3b94e4f75dc1f97f tools/nolibc: remove outdated comment about __sysret() in mmap()
+         c485ca3aff2442adea4c08ceb5183e671ebed22a tools/nolibc/stdio: let perror work when NOLIBC_IGNORE_ERRNO is set
+         4ada5679f18dbbe92d87c37a842c3368e6ab5e4a tools/nolibc/dirent: avoid errno in readdir_r
+         fbd1b7f6b322a63b21ebbf00c732a17bb8bdb5d4 tools/nolibc: implement %m if errno is not defined
+         2cb6cc8361da803ede847ed1ca8afeb3af6df6ff tools/nolibc: use __fallthrough__ rather than fallthrough
+         3d66c4e14fbf4d59ca4665391d133655fa668042 tools/nolibc: add option to disable runtime
+         4bb30188c787176f934aab71872f7c5f43ae6d6f tools/nolibc: add uio.h with readv and writev
          
