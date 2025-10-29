@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Wed, 29 Oct 2025 06:19:50 -0000
-Message-Id: <176171879006.1636024.10013520101540431065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Wed, 29 Oct 2025 06:30:29 -0000
+Message-Id: <176171942977.1646098.12939697351574403469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/master
-    old: 9e8c67fa3e9faad04dde2e6e286950eaf7bb5cbe
-    new: 61a463705f02b617239969c269e4882bcb5af035
+  - ref: refs/heads/bugfix/common
+    old: ffd21bf791143957f6ff1fc14d7dbd6e8466b320
+    new: ae9f7071a174361ed606c61d6a5121e9ad7010cf
     log: |
-         61a463705f02b617239969c269e4882bcb5af035 wireless-regdb: Update regulatory info for Malaysia (MY) for 2025
+         ae9f7071a174361ed606c61d6a5121e9ad7010cf f2fs: fix to access i_size w/ i_size_read()
          
