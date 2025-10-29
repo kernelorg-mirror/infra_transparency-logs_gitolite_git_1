@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/xfstests-dev
-Date: Wed, 29 Oct 2025 11:52:24 -0000
-Message-Id: <176173874410.1972482.9008943091119307589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dash/dash
+Date: Wed, 29 Oct 2025 11:56:04 -0000
+Message-Id: <176173896475.1976457.16226215297100820339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/xfstests-dev
-user: chao
+repo: pub/scm/utils/dash/dash
+user: herbert
 changes:
-  - ref: refs/heads/wip
-    old: a17a17fa9283a87de4c819472f823c845d0b3bd1
-    new: 8b1c50d68cc5d33605b8e89fdd340c56371a6b57
+  - ref: refs/heads/master
+    old: 85ae9ea3b7a9d5bc4e95d1bacf3446c545b6ed8b
+    new: 5139d6a27763fc0be386e15634db21e45598b299
     log: |
-         3c352d64b1439191c480c99ecf103eccc436f571 f2fs/023: test sanity check condition w/ error injection
-         d85436f6fc59bc7ca5c537f1d4799828e39aa666 f2fs/030: test recovery w/ sqlite transaction
-         8b1c50d68cc5d33605b8e89fdd340c56371a6b57 fsx: check pwritev2(,RWF_DONTCACHE)in test_dontcache_io as well
+         22377664e7bea4cbb1e1cd8139b9bff0cb56c9de builtin: Keep backslash on quotes outside of dollarsq
+         a768fcc0aafbe50a37d2d06bba23eb6671d3a9b3 Release 0.5.13.1.
+         5139d6a27763fc0be386e15634db21e45598b299 shell: Fix unsigned char promotion and truncation
          
