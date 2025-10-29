@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 29 Oct 2025 01:31:07 -0000
-Message-Id: <176170146763.1400614.4935222361615009910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 29 Oct 2025 01:33:12 -0000
+Message-Id: <176170159251.1401771.2204817271226868521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: bf1efd8abe9d88483ce66beee2f7d91c912d874a
-    new: 48020362ff42aa331e8b4dc81fc18efd10a1247a
+  - ref: refs/heads/main
+    old: 210b35d6a7ea415494ce75490c4b43b4e717d935
+    new: 36fedc44e37e811f25666c600bce4bc027290226
     log: |
-         48020362ff42aa331e8b4dc81fc18efd10a1247a patches/next: rebase to latest mm-new
+         36fedc44e37e811f25666c600bce4bc027290226 dpll: fix device-id-get and pin-id-get to return errors properly
          
