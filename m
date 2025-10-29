@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 29 Oct 2025 02:51:42 -0000
-Message-Id: <176170630229.1468675.9395649654928246589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 29 Oct 2025 03:26:39 -0000
+Message-Id: <176170839991.1496978.11489911658065890066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/experimental
-    old: d65e00d2cf3faff669eaa82647310181ff0d5d9d
-    new: 6c2a000782b253fbfd030c1a75b27df9e6e634b6
+  - ref: refs/heads/objtool/urgent
+    old: eac98885a32d2147ced45dd992aa6142fa8ab829
+    new: 3d22415f7b8e06a64e0873b21f48389290eeaa49
     log: |
-         6c2a000782b253fbfd030c1a75b27df9e6e634b6 erofs-utils: lib: add test for s3erofs_prepare_url()
+         3d22415f7b8e06a64e0873b21f48389290eeaa49 objtool: Fix skip_alt_group() for non-alternative STAC/CLAC
          
