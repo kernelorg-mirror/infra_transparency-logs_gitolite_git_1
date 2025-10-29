@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3869037935880777658=="
+Content-Type: multipart/mixed; boundary="===============4096030038004743858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 29 Oct 2025 17:42:59 -0000
-Message-Id: <176175977968.2429940.11201758392343434200@gitolite.kernel.org>
+Date: Wed, 29 Oct 2025 17:43:02 -0000
+Message-Id: <176175978208.2430041.11316952961036723069@gitolite.kernel.org>
 
---===============3869037935880777658==
+--===============4096030038004743858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: cebba694d26d29467615c641a8fefd5b2cd4a1aa
     new: a8abe8e210c175b1d5a7e53df069e107b65c13cb
     log: revlist-cebba694d26d-a8abe8e210c1.txt
 
---===============3869037935880777658==
+--===============4096030038004743858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ e9ce7f493ee89380725ef3d872bca00bd9dfcee9 Merge branch '100GbE' of git://git.kern
 61958b33ef0bab1c1874c933cd3910f495526782 net: phy: realtek: Add RTL8224 cable testing support
 a8abe8e210c175b1d5a7e53df069e107b65c13cb net: phy: motorcomm: Add support for PHY LEDs on YT8531
 
---===============3869037935880777658==--
+--===============4096030038004743858==--
