@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 29 Oct 2025 02:47:07 -0000
-Message-Id: <176170602750.1464536.3862036509509404874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 29 Oct 2025 02:51:42 -0000
+Message-Id: <176170630229.1468675.9395649654928246589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/bugfix/common
-    old: a587251687a4b73a9d3b36d1595d486970928f6e
-    new: ffd21bf791143957f6ff1fc14d7dbd6e8466b320
+  - ref: refs/heads/experimental
+    old: d65e00d2cf3faff669eaa82647310181ff0d5d9d
+    new: 6c2a000782b253fbfd030c1a75b27df9e6e634b6
     log: |
-         628bcb8a56deefbd7619cbeeb66f70c21e533e07 f2fs: invalidate dentry cache on failed whiteout creation
-         73496625627e59e6b8c898bb6f62b69a8963517f f2fs: change the unlock parameter of f2fs_put_page to bool
-         6f2540b03f4899188844708b85648e0e9ba1e517 f2fs: fix to propagate error from f2fs_enable_checkpoint()
-         525a38bbcf4a8e5009134e785cd0924d3cfa1476 f2fs: block cache/dio write during f2fs_enable_checkpoint()
-         b6b13a2973a571f4e4b941c9bd52f2881adbb970 f2fs: ensure node page reads complete before f2fs_put_super() finishes
-         ffd21bf791143957f6ff1fc14d7dbd6e8466b320 f2fs: access i_size w/ i_size_read()
+         6c2a000782b253fbfd030c1a75b27df9e6e634b6 erofs-utils: lib: add test for s3erofs_prepare_url()
          
