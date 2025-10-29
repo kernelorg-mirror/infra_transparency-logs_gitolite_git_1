@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 29 Oct 2025 11:21:02 -0000
-Message-Id: <176173686274.1945048.7494347796331615844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 29 Oct 2025 11:24:04 -0000
+Message-Id: <176173704487.1947122.15635671596956516288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: cef39ff51bfd016d7079baefbf2a39f0fed7549b
-    new: 1411f78d518e043fbbc761409313db3be4bc038b
+  - ref: refs/heads/main
+    old: e108b6d08f4b397e6d630049fa2d9dcf3cd11f27
+    new: bfc84303530a1cdd603fc40aa25b4452f10870dc
     log: |
-         5fa8cf151aaf9fc5141690ba6743f29fc799f13e man/man3/[umax]abs.3: Document umaxabs(3)
-         aa5b244e3fa1cd0e401718de2e30a37f03ec5ef8 man/man3/opendir.3: ERRORS: Document that long file names result in ENAMETOOLONG
-         ec1e7fdf368ea0ef21fb3f576d28fbebc6eb26aa man/man7/tcp.7: Add TCP_SAVE_SYN and TCP_SAVED_SYN
-         2650af2a073cc68daef344d08d4da6d59224dd7c man/man2/pidfd_open.2: Document PIDFD_THREAD
-         9c41cc21f296bea2c643895104412b0fa8eda823 man/man2/pidfd_send_signal.2: Describe flags
-         1411f78d518e043fbbc761409313db3be4bc038b man/man3/alloca.3: wfix
+         b63c322f293e2919ad5b8d0e74a971aaa8fbe80e mediatek MT7925: update bluetooth firmware to 20251015213201
+         0fc31ad67f09af0c2d18d97324ed4288a83d3843 linux-firmware: update firmware for MT7925 WiFi device
+         bfc84303530a1cdd603fc40aa25b4452f10870dc Merge branch 'mt7925' into 'main'
          
