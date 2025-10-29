@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 28 Oct 2025 23:47:45 -0000
-Message-Id: <176169526593.1303741.714380081368553782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 29 Oct 2025 00:00:08 -0000
+Message-Id: <176169600889.1315081.8378163529782636291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/untested.efivarfs
-    old: 0000000000000000000000000000000000000000
-    new: 0b03ab163f764c1ad3c211afaa1b07b5ac2a9daa
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 2fee899c068c159e486e62623afe9e2a4975bd79
+    new: 352864787458d31420b446154a165145f150d1f0
+    log: |
+         352864787458d31420b446154a165145f150d1f0 perf test workload: Add thread count argument to thloop
+         
