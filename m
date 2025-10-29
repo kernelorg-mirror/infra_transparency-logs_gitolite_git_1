@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 29 Oct 2025 01:55:27 -0000
-Message-Id: <176170292714.1421657.17996686374985926383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 29 Oct 2025 02:01:57 -0000
+Message-Id: <176170331742.1426536.1106785537587051716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/main
-    old: d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4
-    new: 40c17a02de41f12dd713309c7d2546117c577d29
-    log: |
-         40c17a02de41f12dd713309c7d2546117c577d29 dpll: zl3073x: Fix output pin registration
-         
+  - ref: refs/heads/clist-proto
+    old: 0000000000000000000000000000000000000000
+    new: 84ed07eee17164cb7fbeceb33321d1432f1ece15
