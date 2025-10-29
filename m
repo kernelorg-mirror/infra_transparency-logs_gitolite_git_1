@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 29 Oct 2025 01:42:11 -0000
-Message-Id: <176170213169.1409779.16749343302171135808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 29 Oct 2025 01:42:14 -0000
+Message-Id: <176170213448.1409891.7088933949221737599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 36fedc44e37e811f25666c600bce4bc027290226
-    new: d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4
+    old: e9ce7f493ee89380725ef3d872bca00bd9dfcee9
+    new: 61958b33ef0bab1c1874c933cd3910f495526782
     log: |
-         d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4 net: cxgb4/ch_ipsec: fix potential use-after-free in ch_ipsec_xfrm_add_state() callback
+         61958b33ef0bab1c1874c933cd3910f495526782 net: phy: realtek: Add RTL8224 cable testing support
          
