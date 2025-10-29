@@ -1,57 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0439172278416573676=="
+Content-Type: multipart/mixed; boundary="===============8066074689058268040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 29 Oct 2025 13:47:53 -0000
-Message-Id: <176174567309.2228699.2750095793072629205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 29 Oct 2025 14:12:58 -0000
+Message-Id: <176174717838.2248709.2287877262772824892@gitolite.kernel.org>
 
---===============0439172278416573676==
+--===============8066074689058268040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 73425f867aef0d8f8c079ac3d9929ca6e2a36f7d
-    new: 0813102d4ceadb7b65eb7d3eb53df5f4cf4609ec
-    log: |
-         f1df62f682c5bff4283e7a423de6ec09ca8a9df9 strip the new mbox file
-         0813102d4ceadb7b65eb7d3eb53df5f4cf4609ec update cvelistV5
-         
+  - ref: refs/heads/nfsd-testing
+    old: 0d5ee06d63024fffaf1e722c1fade19e88ef0cbc
+    new: 39637c3c1a96ad02bbfd70e20e6c5a72be891064
+    log: revlist-0d5ee06d6302-39637c3c1a96.txt
 
---===============0439172278416573676==
+--===============8066074689058268040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0d5ee06d6302-39637c3c1a96.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761745738 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1761745672-04b06af5345c53d410d9e4e13a87400afd08c1e4
+254aee26a4007ef05ed28fb434b9a1d4f749f17d xdrgen: handle _XdrString in union encoder/decoder
+d294f34f1c246491fe3cc5e8aa79396a5a973e83 NFSD: Make FILE_SYNC WRITEs comply with spec
+91eb187bf5b1d49e471d4db3446f2ef7b1caa244 NFSD: Enable return of an updated stable_how to NFS clients
+b9c1cd2b5d61331c8c3a4f50944b0f1764aa754a NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+81bb9f2883e8f99f488df665be8a90bfc4c34e15 NFSD: Remove specific error handling
+d639ac899a8578aa156c75d981699abdb6d3ca50 NFSD: Remove alignment size checking
+c8d97ea995e3545a41450928941fa666f06056dd NFSD: Clean up struct nfsd_write_dio
+16ce8658f09ad186d5330cb9c6483ce11c50bc1b NFSD: Introduce struct nfsd_write_dio_seg
+dfc64aa8f40ef3d29415701224f61b6e6c3f1f3f NFSD: Simplify nfsd_iov_iter_aligned_bvec()
+73fddb47d5e25e72f39f9e1d46fe380208813eb4 NFSD: Handle both offset and memory alignment for direct I/O
+6942a0a172cfabc41e532fcc0570c55c9783f042 NFSD: Combine direct I/O feasibility check with iterator setup
+99b45924407c331750813d558f3425ff0f0aa5c3 NFSD: Handle kiocb->ki_flags correctly
+fe472a4c219cb1279285d0cb6ee8cac0e27045be NFSD: Refactor nfsd_vfs_write
+39637c3c1a96ad02bbfd70e20e6c5a72be891064 siw: Enable try_gso
 
-73425f867aef0d8f8c079ac3d9929ca6e2a36f7d 0813102d4ceadb7b65eb7d3eb53df5f4cf4609ec refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkCG0obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pLYP/1wv20gsBTxR+ly4sxui
-a+1PR4CULwaV6j+zqXx/E6eCSyA6vdMX1OM9xRLevJvsAfkv5u45fEKfD4fPWPxv
-vgyte9/Ejpf2YscUMxrABjQ8yWQzJ5VEQEDIozVmTz19HIW/ZPCJO4h7Hdw5QzCW
-pzXNHwah/b4hXssYgOCq4Uds7QI4LYzWMZURVv7qveNeCVJJ5iCOiy6DMVTd8Hou
-7noWm1n+BWfLN0cQYbd+JhBHLQ6bsvDUSXXykw30Tpl0fVQSIK0I/s5YHRSzS66l
-DaZsrptGCK8sKkJJ3wisVPXT6AvcMaUOzxQjd/1D5E/uSeSmDZEyK7ZQzwQQGD41
-ODgtiUUbk2zrhXDQ5b12726RPK7smz6iF+0Fj8WAbYOwzBpflVuxVQ77wH1QzxAk
-/CBrpCB41YMwUkqWMkZmuIcqpbQ7g1DAfEzhA4pgc8+0yAF4kfI9TT3bDTyg8G7z
-c4momWFnkxDxHq1QuZV7Urm+BE8ZOXI/OjkuE+fb5exX0Ntx50s04TFpKTfJT6iL
-pd63NxQmVEy2lAiR3eooAwUA9XiIWl5WlojSzn38vI9v7VE1XWvEbsOmev31zDG4
-3s0UKn1bMxRUvaWE0mC+4lF+D1yIYulotFub2sTMxRwca1J1a9Ykx4w8BdqGpqvP
-PMo0hW47CCxOwNM4BMPzA/ZX
-=RFUp
------END PGP SIGNATURE-----
-
---===============0439172278416573676==--
+--===============8066074689058268040==--
