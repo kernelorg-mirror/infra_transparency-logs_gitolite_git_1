@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7788354283803014598=="
+Content-Type: multipart/mixed; boundary="===============3871712193976040092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 29 Oct 2025 06:00:48 -0000
-Message-Id: <176171764826.1621625.2568912444723022331@gitolite.kernel.org>
+Date: Wed, 29 Oct 2025 06:01:14 -0000
+Message-Id: <176171767484.1622108.14018380378759420253@gitolite.kernel.org>
 
---===============7788354283803014598==
+--===============3871712193976040092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
+  - ref: refs/heads/ti-next
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 3b9b526376bc608deba03b33a37b02011b680259
     log: revlist-3a8660878839-3b9b526376bc.txt
 
---===============7788354283803014598==
+--===============3871712193976040092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ bfa48d98129a211ab9234b39a0197fe44bae3d86 arm64: dts: ti: k3-am62d2-evm: Fix regu
 d56ff69ce1c03a9a9439be5a642edeff0ecc0d8e arm64: dts: ti: k3-am62d2-evm: Fix PMIC padconfig
 3b9b526376bc608deba03b33a37b02011b680259 arm64: dts: ti: k3-am62d2-evm: Enable PMIC
 
---===============7788354283803014598==--
+--===============3871712193976040092==--
