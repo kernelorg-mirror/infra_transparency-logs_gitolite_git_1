@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 29 Oct 2025 15:11:58 -0000
-Message-Id: <176175071893.2300347.4278758993955212197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 29 Oct 2025 15:15:51 -0000
+Message-Id: <176175095108.2304334.10391609444523426123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/ath-current
-    old: a7716c9d922d6245b308e92824b95831bde44553
-    new: 9222582ec524707fbb9d076febead5b6a07611ed
+  - ref: refs/heads/for-6.18-fixes
+    old: a3c4a0a42e61aad1056a3d33fd603c1ae66d4288
+    new: f4fa7c25f632cd925352b4d46f245653a23b1d1a
     log: |
-         3b8694e56f6b69aaba1cffdf0c0760cd76712422 Merge tag 'ath-current-20251027' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-         7ceba45a6658ce637da334cd0ebf27f4ede6c0fe wifi: cfg80211: add an hrtimer based delayed work item
-         dfa865d490b1bd252045463588a91a4d3c82f3c8 wifi: mac80211: use wiphy_hrtimer_work for ttlm_work
-         3f654d53dff565095d83a84e3b6187526dadf4c8 wifi: mac80211: use wiphy_hrtimer_work for ml_reconf_work
-         fbc1cc6973099f45e4c30b86f12b4435c7cb7d24 wifi: mac80211: use wiphy_hrtimer_work for csa.switch_work
-         9222582ec524707fbb9d076febead5b6a07611ed Revert "wifi: ath12k: Fix missing station power save configuration"
+         f4fa7c25f632cd925352b4d46f245653a23b1d1a sched_ext: Fix use of uninitialized variable in scx_bpf_cpuperf_set()
+         
+  - ref: refs/heads/for-next
+    old: e0fe6fdc6201ce2070caa7c69c2cdb6f5373cfaf
+    new: 7d0b67afb2821dc6a2b6a3bf7c8546fc3041d557
+    log: |
+         f4fa7c25f632cd925352b4d46f245653a23b1d1a sched_ext: Fix use of uninitialized variable in scx_bpf_cpuperf_set()
+         7d0b67afb2821dc6a2b6a3bf7c8546fc3041d557 Merge branch 'for-6.18-fixes' into for-next
          
