@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 29 Oct 2025 20:41:59 -0000
-Message-Id: <176177051945.2579694.16819962563841897418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Wed, 29 Oct 2025 20:43:51 -0000
+Message-Id: <176177063153.2580702.7173852699919881364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/for-6.19
-    old: a3f5d48222532484c1e85ef27cc6893803e4cd17
-    new: 34423456443c5cf5ad5180155f7d40f96b836194
+  - ref: refs/heads/main
+    old: 9de6f78d1dbad678743ceb154a66cb3381c3edce
+    new: e55659948fdd4f32d9ecb00f5a0b760f1c9f5d20
     log: |
-         34423456443c5cf5ad5180155f7d40f96b836194 sched_ext/tools: Restore backward compat with v6.12 kernels
-         
-  - ref: refs/heads/for-next
-    old: 21a0bb22a2322be41fd76a12e399fcb16d07afaf
-    new: 28bc243f3ffea80747a8523be8ec529e0b55cce2
-    log: |
-         34423456443c5cf5ad5180155f7d40f96b836194 sched_ext/tools: Restore backward compat with v6.12 kernels
-         28bc243f3ffea80747a8523be8ec529e0b55cce2 Merge branch 'for-6.19' into for-next
+         e55659948fdd4f32d9ecb00f5a0b760f1c9f5d20 build: bump tpm2-protocol to 0.13.1
          
