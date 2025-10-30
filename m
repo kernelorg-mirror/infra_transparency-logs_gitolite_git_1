@@ -1,27 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 30 Oct 2025 18:21:39 -0000
-Message-Id: <176184849953.3735644.11332520647910268773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 30 Oct 2025 18:42:17 -0000
+Message-Id: <176184973764.3751711.2018582327385193365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 8243aa14d774d308804e4fbef7fd5091874671dd
-    new: 8b39dcc552df10be6b5e08f11c4d49b094d8c496
+  - ref: refs/heads/arm64-defconfig-for-6.19
+    old: f5474a34080ed199d3dff2a7b2cd912296376598
+    new: 5f37788adedd2da5475d6b1786295c07faf3d718
     log: |
-         2618849f31e7cf51fadd4a5242458501a6d5b315 btrfs: ensure no dirty metadata is written back for an fs with errors
-         f260c6aff0b8af236084012d14f9f1bf792ea883 btrfs: fix memory leak of qgroup_list in btrfs_add_qgroup_relation
-         953902e4fb4c373c81a977f78e40f9f93a79e20f btrfs: set inode flag BTRFS_INODE_COPY_EVERYTHING when logging new name
-         3b1a4a59a2086badab391687a6a0b86e03048393 btrfs: mark dirty extent range for out of bound prealloc extents
-         4089d325ca817deecf0ff8c7ac733c72a5aa1de1 Merge branch 'misc-6.18' into for-next-current-v6.17-20251030
-         f9d271fb3464bf93bb5090c6030058ca78fa3879 Merge branch 'b-for-next' into for-next-next-v6.18-20251030
-         39096514eec575290e8199e92012d8b20216976f Merge branch 'misc-next' into for-next-next-v6.18-20251030
-         0eba3af4462c9f10f31c669e70c08107af1ca954 Merge branch 'for-next-current-v6.17-20251030' into for-next-20251030
-         8b39dcc552df10be6b5e08f11c4d49b094d8c496 Merge branch 'for-next-next-v6.18-20251030' into for-next-20251030
+         5f37788adedd2da5475d6b1786295c07faf3d718 arm64: defconfig: Enable SCSI UFS Crypto and Block Inline encryption drivers
+         
+  - ref: refs/heads/arm64-for-6.19
+    old: 0b4bbf0514fce4acf34676dd107c01dba7f96c33
+    new: 2377626fd216ebdf17294ac0cabc27614fff07d1
+    log: |
+         f85592223d5bf983b6c495f33cfa0344a9930d5b arm64: dts: qcom: sdm670: create common zap-shader node
+         8464b804bd35cf4068e3a7cd19163c0f8a063852 arm64: dts: qcom: sdm845: create common zap-shader node
+         e3f81bdd46dc4120e9ee373aa8794b84c7dfd2f1 arm64: dts: qcom: sc8180x: create common zap-shader node
+         6e9612ced0c90fc19d9b27508f84ebcf5718b8a2 arm64: dts: qcom: sc8280xp: create common zap-shader node
+         00d3f7b0536dec3b5660e25d0767f61ee38941a7 arm64: dts: qcom: sm8250: drop duplicate memory-region defs
+         d994ae0427a83087bedcfbb8afabe620529ef594 arm64: dts: qcom: sc7180: add gpu_zap_shader label
+         2377626fd216ebdf17294ac0cabc27614fff07d1 arm64: dts: qcom: add gpu_zap_shader label
          
