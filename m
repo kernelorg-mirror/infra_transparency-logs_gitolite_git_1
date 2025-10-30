@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2219506897103932634=="
+Content-Type: multipart/mixed; boundary="===============7487819525495543441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 30 Oct 2025 16:48:27 -0000
-Message-Id: <176184290743.3653072.1188796846098239232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 30 Oct 2025 16:48:30 -0000
+Message-Id: <176184291095.3653207.2091462869264830074@gitolite.kernel.org>
 
---===============2219506897103932634==
+--===============7487819525495543441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: e73b743bfe8a6ff4e05b5657d3f7586a17ac3ba0
     new: db66398fb03ee3599ec7387ceb5121b95e648eb3
     log: revlist-e73b743bfe8a-db66398fb03e.txt
 
---===============2219506897103932634==
+--===============7487819525495543441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1761842971 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1761842905-9f9a95514ec92517a9390b72dd68bb8627755d24
+pusher C3F436CA30F5D8EB 1761842975 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1761842908-1d100dccfbf8f54aee622cfa6ca79436e0688131
 
-e73b743bfe8a6ff4e05b5657d3f7586a17ac3ba0 db66398fb03ee3599ec7387ceb5121b95e648eb3 refs/heads/for-6.19
+e73b743bfe8a6ff4e05b5657d3f7586a17ac3ba0 db66398fb03ee3599ec7387ceb5121b95e648eb3 refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkDlxsACgkQJNaLcl1U
-h9A7hAf/d6uzfGP51TvxqzEpPJuDtsZ5kLIKxnDI9mahNIXZ7tdHTvXXdiR/GaVC
-Tj+J83exHkRQVGEpX+27fQiuHl+b0sVN5YoQ+5GuywrC21518Eb94FayTzsjyln4
-stwIgPyDYsxFLgos7MOpc3ON7wepDgrGn0H9J5IU5hyhZDQgpAZNG7CQPGu9eTm/
-iEWg8qhzlFNKVgZ4rZJsd3lRsptnet7EtlAXY9VRJMtzJJezD/CvYawHAlR3uaue
-VLjQHRU3WeeJjulLElgNwoCoVUv74P8jd6eKv15oGv5hQuUKOL1KSQkJkFxmSx3f
-KJXYgnnsO7EmuRAHWcPF6O/nX3TRKg==
-=YzDz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkDlx8ACgkQJNaLcl1U
+h9D+LAf/V+ZKNyxl0RVtFVh4N1w2sldq2J/s3CUOMHEiDMBgR/7TW8RamEgm7nHd
+V5cY4cSnwy0GKod3mPKBbTYT3A+tmraBGRGrv3e2sZbHn9HpRTpe5KiVp0p5AA2D
+S22G78QuAXk7h8Hx9tRqgc2NiuMp/1tgWeUMD/zx47wEm773uEX7j6Kh/1x8SGAw
+eiSGR8CYnvTFfyhXXALOLP1mA3gAx2vyIM+Gj/u3qPYHKi0o3suTQOpgbyXm+PAL
++9YTOMp9nEVNURj5NHErHTQEOKwnXGK3lgWFidP2i9VOW//dzlQU5Ue9XpiXqE/z
+c+3U7erLVvRlE266PcKEQ7HS7XwArw==
+=oovn
 -----END PGP SIGNATURE-----
 
---===============2219506897103932634==
+--===============7487819525495543441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ cf6bf51b53252284bafc7377a4d8dbf10f048b4d ASoC: cs4271: Add support for the exter
 3d8096fd378b0b4dae356e6f037d03da83f559d2 ASoC: qcom: sdw: fix memory leak
 db66398fb03ee3599ec7387ceb5121b95e648eb3 Add support for an external Master Clock in the
 
---===============2219506897103932634==--
+--===============7487819525495543441==--
