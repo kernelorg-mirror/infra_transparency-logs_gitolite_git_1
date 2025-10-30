@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2606568818646874027=="
+Content-Type: multipart/mixed; boundary="===============6978606809643239686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 30 Oct 2025 05:47:45 -0000
-Message-Id: <176180326533.3057484.15002936977836869966@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 05:47:46 -0000
+Message-Id: <176180326657.3057559.3372819877612636032@gitolite.kernel.org>
 
---===============2606568818646874027==
+--===============6978606809643239686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f30d294530d939fa4b77d61bc60f25c4284841fa
-    new: 2dba1418fcb4c709e7f8f8de2fb0286db0e34d37
-    log: revlist-f30d294530d9-2dba1418fcb4.txt
+  - ref: refs/heads/mm-unstable
+    old: 6dc43bd9cd531584c0fad6634143f164cd901164
+    new: 6aa6d90e93f014449827943b9d7e1a4af4783d14
+    log: revlist-6dc43bd9cd53-6aa6d90e93f0.txt
 
---===============2606568818646874027==
+--===============6978606809643239686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f30d294530d9-2dba1418fcb4.txt
+Content-Disposition: attachment; filename=revlist-6dc43bd9cd53-6aa6d90e93f0.txt
 
 e68a354fbce765f0ba8dc05b2d87408b347bb552 mm/huge_memory: do not change split_huge_page*() target order silently
 d2eb0b52c8a99848f02d4ceb08f720210991d148 kho: warn and fail on metadata or preserved memory in scratch area
@@ -219,17 +219,5 @@ b92a04a89cb109043ebaac0b5de44681854a8041 sysfs.py: extend assert_ctx_committed()
 0f977b586be174785162cbd51e378aa6a3afbd40 MAINTAINERS: add include/linux/pgalloc.h to MM CORE section
 b3802cf4795ac5b4374ebdff0a570303c58a5320 treewide: include linux/pgalloc.h instead of asm/pgalloc.h
 6aa6d90e93f014449827943b9d7e1a4af4783d14 mm/vma: small VMA lock cleanups
-04d7ce3818bfbdef4eac98fa244869eeddb4617a mm/vmscan: skip increasing kswapd_failures when reclaim was boosted
-75c06603fbdef34ae81161009ae7be668ff5b666 mm: make INVALID_PHYS_ADDR a generic macro
-18ef7affdd18f7556ccddb9d2e7fca5c3226a846 mm: vmstat: output reserved_highatomic and free_highatomic in zoneinfo
-b293b62021d1ca492510a70be4773ed18bda937e Revert "mm/ksm: convert break_ksm() from walk_page_range_vma() to folio_walk"
-8238ef63131729d8b2b354f886195789fdce9aa6 ksm: perform a range-walk in break_ksm
-81f5d0ebfc51bcc3735dde8e9976aaabfdf16b05 ksm: replace function unmerge_ksm_pages with break_ksm
-05bafcaf977c3e6428efcf6bb4e483d15146b228 mm/swap: do not choose swap device according to numa node
-a9279049804972c68e1abe498dfc3ca469df1cbf mm/swap: select swap device with default priority round robin
-2b80822e8892191b0d1af0be1c0ea74bc933cb73 mm: convert memory block states (MEM_*) macros to enum
-38841b34b29ca9a18620e5c6fbf62886c545edd6 mm: change type of state in struct memory_block
-48dbe97ad8f09b621e4ca1e401af6981f3fb5b15 mm-change-type-of-state-in-struct-memory_block-fix
-2dba1418fcb4c709e7f8f8de2fb0286db0e34d37 mm: change type of parameter for memory_notify
 
---===============2606568818646874027==--
+--===============6978606809643239686==--
