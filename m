@@ -1,17 +1,17 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Thu, 30 Oct 2025 09:53:20 -0000
-Message-Id: <176181800076.3283709.8756385388747908668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Thu, 30 Oct 2025 09:53:22 -0000
+Message-Id: <176181800217.3283786.13362486690775522712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
+repo: pub/scm/utils/mdadm/mdadm
 user: mtkaczyk
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: ca10248139610ffb53fe90224333513dcc3ca155
     new: 3822896af21e9ab19d507ffefe2c10fc7f556e32
     log: |
