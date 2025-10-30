@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7472117172599511149=="
+Content-Type: multipart/mixed; boundary="===============3727165002482579487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 30 Oct 2025 17:44:51 -0000
-Message-Id: <176184629176.3702276.559710504335375532@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 17:44:54 -0000
+Message-Id: <176184629424.3702449.3277979798647750211@gitolite.kernel.org>
 
---===============7472117172599511149==
+--===============3727165002482579487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8df206f7b63611dbaeb8628661d87fe994dcdf71
     new: 51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c
     log: revlist-8df206f7b636-51e5ad549c43.txt
 
---===============7472117172599511149==
+--===============3727165002482579487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ a38eeecfe3232283c0ae34d0f4302e5a3e60f3ee Merge branch 'net-stmmac-fixes-for-stmm
 6a2108c78069fda000729b88c97b1eba0405e6d7 net: devmem: refresh devmem TX dst in case of route invalidation
 51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c net: sctp: fix KMSAN uninit-value in sctp_inq_pop
 
---===============7472117172599511149==--
+--===============3727165002482579487==--
