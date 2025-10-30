@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1307046744641759242=="
+Content-Type: multipart/mixed; boundary="===============5574200058713204125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 30 Oct 2025 21:56:09 -0000
-Message-Id: <176186136945.3918785.12854296580330998776@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 21:56:17 -0000
+Message-Id: <176186137748.3918980.2340570130582172996@gitolite.kernel.org>
 
---===============1307046744641759242==
+--===============5574200058713204125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 197498315de711140bcc4722fdeb7c1761777100
+  - ref: refs/heads/pending
+    old: 6ec4b9a3f24bae202406989e7d63cadbc5b831cb
     new: 059ca8fd692b67a77fb89e9d4e8f57cf08e32b08
-    log: revlist-197498315de7-059ca8fd692b.txt
+    log: revlist-6ec4b9a3f24b-059ca8fd692b.txt
 
---===============1307046744641759242==
+--===============5574200058713204125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-197498315de7-059ca8fd692b.txt
+Content-Disposition: attachment; filename=revlist-6ec4b9a3f24b-059ca8fd692b.txt
 
 be5febd51c478bc8e24ad3480435f2754a403b14 wifi: ath12k: fix potential memory leak in ath12k_wow_arp_ns_offload()
 00575bb44b2c2aa53d0a768de2b80c9c1af0174d wifi: ath12k: fix reusing m3 memory
@@ -40,4 +40,4 @@ e70515039d44be61b6a73aafb401d141b0034d12 wifi: ath12k: unassign arvif on scan vd
 877f9c22fdf424c657de757bfe8543cf77461324 wifi: ath10k: use = {} to initialize pm_qos_request instead of memset
 059ca8fd692b67a77fb89e9d4e8f57cf08e32b08 wifi: ath10k: use = {} to initialize bmi_target_info instead of memset
 
---===============1307046744641759242==--
+--===============5574200058713204125==--
