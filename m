@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8961840092622331238=="
+Content-Type: multipart/mixed; boundary="===============3160353350405073579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Oct 2025 18:09:34 -0000
-Message-Id: <176184777449.3724696.12311976989696381373@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 18:09:41 -0000
+Message-Id: <176184778147.3724909.5012529213157071561@gitolite.kernel.org>
 
---===============8961840092622331238==
+--===============3160353350405073579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: a8abe8e210c175b1d5a7e53df069e107b65c13cb
     new: 7ea7694495db8ec2e80b601f967865263b44b16a
     log: revlist-a8abe8e210c1-7ea7694495db.txt
 
---===============8961840092622331238==
+--===============3160353350405073579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ aef3cdb47bbbef9fea9512ed6c02d64394449d53 net/smc: make wr buffer count configura
 8f736087e52f1cd4234b871c137f5a3eb0d2741a net/smc: handle -ENOMEM from smc_wr_alloc_link_mem gracefully
 7ea7694495db8ec2e80b601f967865263b44b16a Merge branch 'net-smc-make-wr-buffer-count-configurable'
 
---===============8961840092622331238==--
+--===============3160353350405073579==--
