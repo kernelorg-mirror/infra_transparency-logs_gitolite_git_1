@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 30 Oct 2025 01:20:34 -0000
-Message-Id: <176178723437.2828059.5707793225656533183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 30 Oct 2025 01:25:14 -0000
+Message-Id: <176178751463.2832251.9061379797787915408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: d28c0e49210b585c6f995eeb80b3df500e488a58
-    new: 5701d5aefa19a48c4eb14625a740027ac82657f8
+  - ref: refs/heads/main
+    old: 091e1410b4aa28ebcaf3ba63b289ccd38c653dfe
+    new: 6279a8779bfa1d66d7db9ba98f6b8cd3e13eb440
     log: |
-         5701d5aefa19a48c4eb14625a740027ac82657f8 bpf: Use kmalloc_nolock() in bpf streams
+         6279a8779bfa1d66d7db9ba98f6b8cd3e13eb440 refactor: migrate to tpm2-policy
          
