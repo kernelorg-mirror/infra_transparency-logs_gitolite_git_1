@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 30 Oct 2025 14:33:56 -0000
-Message-Id: <176183483625.3533907.13760667889323476449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 30 Oct 2025 14:51:58 -0000
+Message-Id: <176183591857.3549545.2929265668223755893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 8d4c59fa7266ea3cd2bd73deff7f86d717754f80
-    new: 3b752b209a5ded460bd863e62d3d8195e6fdae14
+  - ref: refs/heads/irq/ppi-affinity
+    old: 38e6adbb965d2a6c9a2d0bb7d6fb22d60e8d120a
+    new: ab01ace9701a46300c4a2d55109d846301e96b7b
     log: |
-         3b752b209a5ded460bd863e62d3d8195e6fdae14 patches/next: add Quanmin's jiffies initial value issues fix
+         ab01ace9701a46300c4a2d55109d846301e96b7b genirq: Fix percpu_devid irq affinity documentation
          
