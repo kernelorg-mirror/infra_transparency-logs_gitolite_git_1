@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 30 Oct 2025 13:43:11 -0000
-Message-Id: <176183179141.3487751.15393089712637093526@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 13:52:51 -0000
+Message-Id: <176183237125.3495837.17365578125461175092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
   - ref: refs/heads/dmabuf-vfio-v6
-    old: e63de451bb77fab0bc849b4d38fc4c916468f0b3
-    new: 7c69b02c51f4920ca33fb5fc6e66cf0e66472210
+    old: 7c69b02c51f4920ca33fb5fc6e66cf0e66472210
+    new: 7046cc4bbb2794c4c262bbe57ec802d2a0ffee67
     log: |
-         c21b9b0160573b627af6826547e1e020a87dac1a dma-buf: provide phys_vec to scatter-gather mapping routine
-         ff045070e9a8a755025498a1cf11b8cf7b4bf3fe vfio: Export vfio device get and put registration helpers
-         8a37ef3dd345abada7df0642af203a46378ea752 vfio/pci: Share the core device pointer while invoking feature functions
-         6a79d6e3baf3e47a4d6b9db715ee741133bf47dd vfio/pci: Enable peer-to-peer DMA transactions by default
-         8878856969217ce024015a2375bec40f99057ac0 vfio/pci: Add dma-buf export support for MMIO regions
-         7c69b02c51f4920ca33fb5fc6e66cf0e66472210 vfio: selftests: Add DMABUF test
+         2edb89b4dfa58d343569abfeee962986a9fd757b dma-buf: provide phys_vec to scatter-gather mapping routine
+         f0578fafd78c6acb31ddc24aa57e1d62a62c8640 vfio: Export vfio device get and put registration helpers
+         7e2c1e4d98598c96efa38f84d059a7d86bf20327 vfio/pci: Share the core device pointer while invoking feature functions
+         50014361fc9b50ea0d80d923a9e8dd673c7d4785 vfio/pci: Enable peer-to-peer DMA transactions by default
+         1816ead9b05575dbfd9664bfbf6dbfd38ecb6938 vfio/pci: Add dma-buf export support for MMIO regions
+         7046cc4bbb2794c4c262bbe57ec802d2a0ffee67 vfio: selftests: Add DMABUF test
          
