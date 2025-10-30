@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3826940311711696964=="
+Content-Type: multipart/mixed; boundary="===============5150171766488542607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 30 Oct 2025 06:30:49 -0000
-Message-Id: <176180584946.3094193.5495531754235987119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 30 Oct 2025 06:30:59 -0000
+Message-Id: <176180585977.3094503.17222016008695063268@gitolite.kernel.org>
 
---===============3826940311711696964==
+--===============5150171766488542607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f9ba12abc5282bf992f9a9ae87ad814fd03a0270
     new: 131f3d9446a6075192cdd91f197989d98302faa6
     log: revlist-f9ba12abc528-131f3d9446a6.txt
-  - ref: refs/heads/stable
-    old: fd57572253bc356330dbe5b233c2e1d8426c66fd
-    new: e53642b87a4f4b03a8d7e5f8507fc3cd0c595ea6
-    log: |
-         4f76435fd517981f01608678c06ad9718a86ee98 NFSD: Define actions for the new time_deleg FATTR4 attributes
-         abb1f08a2121dd270193746e43b2a9373db9ad84 NFSD: Fix crash in nfsd4_read_release()
-         29cdfb4950702bb849f70f7e3b58b4eeb5c1441c nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
-         3e7f011c255582d7c914133785bbba1990441713 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
-         6f40e50ceb99fc8ef37e5c56e2ec1d162733fef0 ksmbd: transport_ipc: validate payload size before reading handle
-         975f05a7647720b6a82dac73463eaeca3067de71 smb: server: call smb_direct_post_recv_credits() when the negotiation is done
-         f574069c5c55ebe642f899a01c8f127d845fd562 smb: server: let smb_direct_cm_handler() call ib_drain_qp() after smb_direct_disconnect_rdma_work()
-         8eefed8f65cc17c31fdf4ab32292b794b34893ad Merge tag 'nfsd-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-         e53642b87a4f4b03a8d7e5f8507fc3cd0c595ea6 Merge tag 'v6.18-rc3-smb-server-fixes' of git://git.samba.org/ksmbd
-         
-  - ref: refs/tags/next-20250730
-    old: 6621a11e89669bc36f05921aec1e019f24a93118
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20251030
     old: 0000000000000000000000000000000000000000
     new: d78b0fee454c25d292fb6343253eca06d7634fd9
 
---===============3826940311711696964==
+--===============5150171766488542607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -867,4 +850,4 @@ eb0e82661f77e447fe0c54108fa14ee8f2c9884a Merge branch 'for-next/kspp' of https:/
 b524e4d6bc3c69b49845f7975c332b5b571320f4 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 131f3d9446a6075192cdd91f197989d98302faa6 Add linux-next specific files for 20251030
 
---===============3826940311711696964==--
+--===============5150171766488542607==--
