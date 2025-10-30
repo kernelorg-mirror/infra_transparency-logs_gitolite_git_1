@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 30 Oct 2025 09:27:52 -0000
-Message-Id: <176181647215.3242187.18280920512042663430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Thu, 30 Oct 2025 09:29:34 -0000
+Message-Id: <176181657457.3243779.7575212352372440894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 3cde66094575a5b1310a7631d28761bd3dfcea63
-    new: bac88be0d2a83daf761129828e7ae3c79cc260c2
+  - ref: refs/heads/for-next
+    old: f53a19d0f0eb42cb99b4b5cb171ef0ce914903c1
+    new: 860a0efbb95de468b17c86ed5cf8d90ee4bc5d7b
     log: |
-         7e061b462b3d43a1f85519f5aebdc77cbbe648c0 gpio: mmio: use lock guards
-         13172171f5c44df67e8882d983fb50d9b27477ad gpio: mmio: drop the "bgpio" prefix
-         bac88be0d2a83daf761129828e7ae3c79cc260c2 gpio: mm-lantiq: update kernel docs
+         781bb149dae361eab5c8c1ece4d4c8ea953ecbf9 soc: mediatek: mtk-socinfo: Add entry for MT8391AV/AZA Genio 720
+         877788ee3169e9fe31a0a556f11633f5533d7aa4 Merge branch 'v6.18-next/soc' into for-next
+         4459d667a3d7001d1c1703dc79c87db1808cdde2 dt-bindings: soc: mediatek: pwrap: Add compatible for MT8189 SoC
+         860a0efbb95de468b17c86ed5cf8d90ee4bc5d7b Merge branch 'v6.18-next/soc' into for-next
          
