@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 30 Oct 2025 01:15:11 -0000
-Message-Id: <176178691105.2822576.13363829824615423916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 30 Oct 2025 01:15:27 -0000
+Message-Id: <176178692791.2822862.853014960238765337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: e2e668bd81066086fc5a676c8dcb8121a7d84d98
-    new: 5913e936f6d5d348e33190885131c4f4eaa4bc4b
+  - ref: refs/heads/main
+    old: aada6cab48936c7acd98d2df10909f7dd8affcc8
+    new: 36e1d1d71cde2cc15cf99f2da9d909c80ed7312b
     log: |
-         5913e936f6d5d348e33190885131c4f4eaa4bc4b selftests/bpf: Fix intermittent failures in file_reader test
+         36e1d1d71cde2cc15cf99f2da9d909c80ed7312b refactor: migrate tpm2-policy
          
