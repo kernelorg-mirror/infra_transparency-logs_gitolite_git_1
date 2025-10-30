@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5492641388076467699=="
+Content-Type: multipart/mixed; boundary="===============4654710533149020858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 30 Oct 2025 14:09:35 -0000
-Message-Id: <176183337500.3509130.17349742895963603813@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 14:10:35 -0000
+Message-Id: <176183343524.3511460.8404647384627562305@gitolite.kernel.org>
 
---===============5492641388076467699==
+--===============4654710533149020858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
+  - ref: refs/heads/ti-next
     old: 548b7af3c463b211461e9da2730535874bbbccbd
     new: 671c852fc53d1b6f5eccdb03c1889a484c9d1996
     log: revlist-548b7af3c463-671c852fc53d.txt
 
---===============5492641388076467699==
+--===============4654710533149020858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a3a74f9b15f020952a4c9e4eb3a0b44241827b73 arm64: dts: ti: k3-j722s-main: fix the 
 33a2c98caba8a45d2da0c7678f14b036b5d8d750 arm64: dts: ti: k3-am68-phycore-som: Add pmic label
 671c852fc53d1b6f5eccdb03c1889a484c9d1996 arm64: dts: ti: k3-j784s4: Fix I2C pinmux pull configuration
 
---===============5492641388076467699==--
+--===============4654710533149020858==--
