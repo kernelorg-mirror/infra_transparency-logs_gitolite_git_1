@@ -1,24 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 30 Oct 2025 13:52:51 -0000
-Message-Id: <176183237125.3495837.17365578125461175092@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5492641388076467699=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Thu, 30 Oct 2025 14:09:35 -0000
+Message-Id: <176183337500.3509130.17349742895963603813@gitolite.kernel.org>
+
+--===============5492641388076467699==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/dmabuf-vfio-v6
-    old: 7c69b02c51f4920ca33fb5fc6e66cf0e66472210
-    new: 7046cc4bbb2794c4c262bbe57ec802d2a0ffee67
-    log: |
-         2edb89b4dfa58d343569abfeee962986a9fd757b dma-buf: provide phys_vec to scatter-gather mapping routine
-         f0578fafd78c6acb31ddc24aa57e1d62a62c8640 vfio: Export vfio device get and put registration helpers
-         7e2c1e4d98598c96efa38f84d059a7d86bf20327 vfio/pci: Share the core device pointer while invoking feature functions
-         50014361fc9b50ea0d80d923a9e8dd673c7d4785 vfio/pci: Enable peer-to-peer DMA transactions by default
-         1816ead9b05575dbfd9664bfbf6dbfd38ecb6938 vfio/pci: Add dma-buf export support for MMIO regions
-         7046cc4bbb2794c4c262bbe57ec802d2a0ffee67 vfio: selftests: Add DMABUF test
-         
+  - ref: refs/heads/ti-k3-dts-next
+    old: 548b7af3c463b211461e9da2730535874bbbccbd
+    new: 671c852fc53d1b6f5eccdb03c1889a484c9d1996
+    log: revlist-548b7af3c463-671c852fc53d.txt
+
+--===============5492641388076467699==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-548b7af3c463-671c852fc53d.txt
+
+b2f45bdc185f687fbbfef838eb49320ad07602b4 arm64: dts: ti: k3-j722s-evm: explicitly use PLL1_HSDIV6 audio refclk
+a3a74f9b15f020952a4c9e4eb3a0b44241827b73 arm64: dts: ti: k3-j722s-main: fix the audio refclk source
+22e1d0d8cda783bee95de578cbda3ad0da8a3eb4 dt-bindings: arm: ti: Add Kontron SMARC-sAM67 module
+1c3c4df06f9dee41bff60b93d9f0e67500f798f7 arm64: dts: ti: Add support for Kontron SMARC-sAM67
+0114330e7f92ae4f643fca62e6004631018f48d0 arm64: dts: ti: sa67: add overlay for the ADS2 carrier
+0103435072bf5c54bb43d1a9376d08396c825827 arm64: dts: ti: k3-am62d2-evm: Fix regulator properties
+394b02210a81c06c4cb879d65ba83d0f1c468c84 arm64: dts: ti: k3-am62d2-evm: Fix PMIC padconfig
+50856649d6d6df88266a34955a03a693f5629499 arm64: dts: ti: k3-am62d2-evm: Enable PMIC
+1d10e0e78c2eb91ea62e0a497de1d29f535351f9 arm64: dts: ti: var-som-am62p: Refactor IPC configuration into common dtsi
+6f41007cf80d94b689fe4d7e07535dcd427802e7 arm64: dts: ti: var-som-am62p: Add support for WM8904 audio codec
+397dae3cecd7bfa8e77fa18edc38a69b9459811c arm64: dts: ti: var-som-am62p: Add support for ADS7846 touchscreen
+5ccb63373d6568d9f99e927b23bc758a4b102a34 arm64: dts: ti: k3-am642-evm: Add DMA support for TSCADC
+33a2c98caba8a45d2da0c7678f14b036b5d8d750 arm64: dts: ti: k3-am68-phycore-som: Add pmic label
+671c852fc53d1b6f5eccdb03c1889a484c9d1996 arm64: dts: ti: k3-j784s4: Fix I2C pinmux pull configuration
+
+--===============5492641388076467699==--
