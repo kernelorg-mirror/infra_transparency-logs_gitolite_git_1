@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9196658175694093608=="
+Content-Type: multipart/mixed; boundary="===============5371110792491392708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 30 Oct 2025 22:54:29 -0000
-Message-Id: <176186486970.3969633.1999284502384839530@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 22:54:32 -0000
+Message-Id: <176186487259.3969822.3275634027217207363@gitolite.kernel.org>
 
---===============9196658175694093608==
+--===============5371110792491392708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
-    old: 74af10d220ca7fb81776e9fb7ccb8ef588ceb3c2
-    new: 88a1072e873a0bdb86d1811c74be87922a358a3c
-    log: revlist-74af10d220ca-88a1072e873a.txt
+  - ref: refs/heads/kernel-6.12.53/main
+    old: 5109489d5c2f3ad245bc485754553c6fc388842b
+    new: 20adffa1734bf94eee84b5f7bdd3ee43afec0e1f
+    log: revlist-5109489d5c2f-20adffa1734b.txt
 
---===============9196658175694093608==
+--===============5371110792491392708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74af10d220ca-88a1072e873a.txt
+Content-Disposition: attachment; filename=revlist-5109489d5c2f-20adffa1734b.txt
 
+325e7899f36bed6777ee7b3825e1fc181830e655 nfs/localio: remove unecessary ENOTBLK handling in DIO WRITE support
+6a4f8efdb68cb800b4414f43728c4257c8444567 nfs/localio: add refcounting for each iocb IO associated with NFS pgio header
+47d5b1cd423fb8374fae46f3e690427256541d16 nfs/localio: backfill missing partial read support for misaligned DIO
+c98b3ba7641d5bfa845d569e8bb100cef61ae313 nfs/localio: Ensure DIO WRITE's IO on stable storage upon completion
+f1d1de8aa4aafcbdb6125894e9e24d12e181fccd nfs/localio: do not issue misaligned DIO out-of-order
 3b14f968ae489f06824e9cf909b43ddbf38980c9 NFSD: Define a proc_layoutcommit for the FlexFiles layout type
 1d314d97f3f82756da763726859c375884ec34d5 NFSD: Define actions for the new time_deleg FATTR4 attributes
 17240d745e45f7c8e9db6635a073915f2f7ebc99 NFSD: Fix crash in nfsd4_read_release()
@@ -77,5 +82,23 @@ b911543591268573b381f11f6f855e5550341d3e NFSD: Combine direct I/O feasibility ch
 455cd474a625abdd2faaf1de7db2451dca89eb20 NFSD: Refactor nfsd_vfs_write
 49032a5f59030d0574ec303f0837e2ad2ca2ece3 nfsd: avoid using DONTCACHE for misaligned DIO's buffered IO fallback
 88a1072e873a0bdb86d1811c74be87922a358a3c NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+cdfa9c042e2398b32983ce4398c026d0a6e58806 xfs: eliminate lockdep false positives in xfs_attr_shortform_list
+bda8df8c5051aa5ba540d941bd804821f9142fca Merge branch 'kernel-6.12.53/nvme' into kernel-6.12.53/main
+2047c6563d9bb42e5025ae6dc82887edd7a76d83 Merge branch 'kernel-6.12.53/localio' into kernel-6.12.53/main
+8b2d579b5bdab04a171b7fee93a65ed86aca4e58 Merge branch 'kernel-6.12.53/nfs' into kernel-6.12.53/main
+1b8c622cfaf1d7b990d328ea8165cee859b886fb Merge branch 'kernel-6.12.53/dontcache' into kernel-6.12.53/main
+7fe7b8bb504f3a19931e4e40cf14cedaff182a56 Merge branch 'kernel-6.12.53/xfs' into kernel-6.12.53/main
+e35cf3069d8a63ea5c17fb44d54b9394cbf89ff9 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.53/main
+62674660167bbb2d9df33c68c9e85077bd74459a Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.53/main
+91bce3c8c9c7778a8fa92cbd22db635574ca3eb8 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.18-2' into kernel-6.12.53/main
+2fa7ba1578e527947c5d4dceba5f43f15a50c3d9 Merge branch 'kernel-6.12.53/nfs-testing' into kernel-6.12.53/main
+c5855ceb1dc882411debc6d0af91b2e902f23ae6 Merge branch 'kernel-6.12.53/nfs-testing-snitm' into kernel-6.12.53/main
+44c4f1559d195885aec63c2d436347fd3203946a Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.18-2' into kernel-6.12.53/main
+797c115b8fad6e8f1435114153465a04a3e3d6a4 Merge branch 'kernel-6.12.53/nfsd-next' into kernel-6.12.53/main
+dfbd2b0bff4b121388ccf92292f0f6af870b10ca Merge branch 'kernel-6.12.53/nfsd-testing' into kernel-6.12.53/main
+699070a08aac5a710d2c61d302d3c4a5b59f3b26 Merge branch 'kernel-6.12.53/nfsd-testing-snitm' into kernel-6.12.53/main
+d5f0b1d576c4e5e7c51dec7fd6ddedfc6f74227e kernel-6.12.53-1
+345432c068414771ac0a7b161ebbb96dd706c314 kernel-6.12.53-2
+20adffa1734bf94eee84b5f7bdd3ee43afec0e1f kernel-6.12.53-3
 
---===============9196658175694093608==--
+--===============5371110792491392708==--
