@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6963632737574662518=="
+Content-Type: multipart/mixed; boundary="===============7797610626888539525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Oct 2025 17:45:30 -0000
-Message-Id: <176184633039.3704667.8394788766602524487@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 17:45:48 -0000
+Message-Id: <176184634840.3704932.5029280139535112243@gitolite.kernel.org>
 
---===============6963632737574662518==
+--===============7797610626888539525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: a8abe8e210c175b1d5a7e53df069e107b65c13cb
-    new: 7ea7694495db8ec2e80b601f967865263b44b16a
-    log: revlist-a8abe8e210c1-7ea7694495db.txt
+  - ref: refs/heads/dev-queue
+    old: 3583c6b822460c4e70828fc4683c88b9ef717305
+    new: d32bf2335ae824a23adfbf368d61de62d0ee9587
+    log: revlist-3583c6b82246-d32bf2335ae8.txt
 
---===============6963632737574662518==
+--===============7797610626888539525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8abe8e210c1-7ea7694495db.txt
+Content-Disposition: attachment; filename=revlist-3583c6b82246-d32bf2335ae8.txt
 
 f58abec23da51f03ffe25f9464f2ce2d1a2a592a net: ipv4: Remove extern udp_v4_early_demux()/tcp_v4_early_demux() in .c files
 fc18b6e98cce2380e8f31b0e5089b11ceecb541d net: stmmac: move version handling into own function
@@ -73,5 +73,46 @@ ea7d0d60ebc9bddf3ad768557dfa1495bc032bf6 Merge branch 'add-cn20k-nix-and-npa-con
 aef3cdb47bbbef9fea9512ed6c02d64394449d53 net/smc: make wr buffer count configurable
 8f736087e52f1cd4234b871c137f5a3eb0d2741a net/smc: handle -ENOMEM from smc_wr_alloc_link_mem gracefully
 7ea7694495db8ec2e80b601f967865263b44b16a Merge branch 'net-smc-make-wr-buffer-count-configurable'
+b653d4c70672f94b14ae30678463dbfc6852104e ice: fix lane number calculation
+272a2fd017da330c32256692f2b2c8149d9dc7ba ice: Allow 100M speed for E825C SGMII device
+66fe6699fdd6092eb3e15ff528118756d6e1a6ff ice: Fix enable_cnt imbalance on resume
+1fa617b5db5e569759ce77e82a08806e13c8aea6 ice: Fix enable_cnt imbalance on PCIe error recovery
+19de055ed9e0b13bd5399c1f3154f2b36001d32a i40e: Fix enable_cnt imbalance on PCIe error recovery
+df2307c7e64a628f771abc7e3d1768ef694b27e1 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+251054af781bc1e0fb2652c79da9d8880d234f30 ice: add recovery clock and clock 1588 control for E825c
+dff809c4502972dcc5cb71f4bdf5e22af646cc01 igc: power up the PHY before the link test
+ece6a886db84343eafec470e96fef1683dc1d7cb idpf: remove duplicate defines in IDPF_CAP_RSS
+97b6e219170ced30ad130a3f6822548fd42df691 ice: remove legacy Rx and construct SKB
+4f4499e32ab2329bb040bee774f57eb1b501d982 ice: drop page splitting and recycling
+27ec2d2e3bf4a5edc79259bc8dea17810f11d129 ice: switch to Page Pool
+5591a2fc4419fdaea3ceb20192f9fcc42689dec3 idpf: fix memory leak of flow steer list on rmmod
+ee4b0643d912a07b99299c76086212cfdaa239e6 idpf: fix issue with ethtool -n command display
+15f7804a5e892fe239d6387641912e91428f219a ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
+7d269b238b07e8acb25fa2739b5285bc0937dcf9 ice: add TS PLL control for E825 devices
+e7719d190234b8ff75bfd73807da5d15f4f25936 ice: implement configurable header split for regular Rx
+452af30ac2293f0e3813314ccb5591b57aac478b ice: fix destination CGU for dual complex E825
+b4cc85caa8d88c17aea8ee7607cc1b41cf1a31d8 idpf: fix possible vport_config NULL pointer deref in remove
+3277d6b2498d19fb5d6ff0efd3fc795182cd5840 libie: depend on DEBUG_FS when building LIBIE_FWLOG
+d80fcb2cc3ac145e80722cf97c564b85cff34b09 ixgbe: Add 10G-BX support
+785ff46506388726f0313842859bec6537f8ae2e idpf: add support for IDPF PCI programming interface
+5cdc511cfe468019e7a1488c3de5c1f64f834649 i40e: avoid redundant VF link state updates
+ab2886cdf6edbe81556f5a03bcf435f0460ca550 ice: fix PTP cleanup on driver removal in error path
+ce0e15b5520b184799dd65cf1132a3cbf4cf9aba ice: unify PHY FW loading status handler for E800 devices
+16fac158d5cee6708900d7fbca8b89537bb9f686 ixgbe: fix typos in ixgbe driver comments
+67cc394540b647eecccd03acffd4424b86c4b565 igbvf: fix misplaced newline in VLAN add warning message
+708e28ed775c6f22872c3234b898cf59c5b0a01c idpf: convert vport state to bitmap
+da3bb74652d535229976d63dceb20dd6b06e6db6 idpf: introduce local idpf structure to store virtchnl queue chunks
+5038bbe156ed378c63470ef5f02591a86c412d05 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+f0a113ddfd84ef2aeb598b4392968f67bbfebb2c idpf: move queue resources to idpf_q_vec_rsrc structure
+7af0c58962a1c146a1e92587c6e34d35ef43ca18 idpf: move some iterator declarations inside for loops
+3163cc9f889c6ba3013714a017a6ac4a0ff6c0a5 idpf: reshuffle idpf_vport struct members to avoid holes
+d9dd6ce5d9b28fcf7afd7e9216705b4e5b20936b idpf: add rss_data field to RSS function parameters
+fbde5f61531728ad7b404a406c2392cc91b286bd idpf: remove vport pointer from queue sets
+76ef23c7b2ce73fe05566b3d5f9d2312804ee6c7 idpf: generalize send virtchnl message API
+7dae311cd4d855bc917d7793b22ade5c14c4d405 idpf: avoid calling get_rx_ptypes for each vport
+5540d6449369a64808a810a45c7b28e24f8054d5 idpf: generalize mailbox API
+7f554ff614d5e08b4d4a85a10a7b1f3e5f25bb10 idpf: correct queue index in Rx allocation error messages
+529aab4b5bae6372e2de4825a2b4e8ff00f35031 devlink: Add new "max_mac_per_vf" generic device param
+d32bf2335ae824a23adfbf368d61de62d0ee9587 i40e: support generic devlink param "max_mac_per_vf"
 
---===============6963632737574662518==--
+--===============7797610626888539525==--
