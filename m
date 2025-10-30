@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Oct 2025 00:56:00 -0000
-Message-Id: <176178576054.2800804.14071863377930042173@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 01:00:15 -0000
+Message-Id: <176178601503.2805861.7436517252125444277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 53110232c95ff56067fd96c75a1a1c53d10dcd98
-    new: 9311e9540a8b406d9f028aa87fb072a3819d4c82
+    old: 9311e9540a8b406d9f028aa87fb072a3819d4c82
+    new: 298574936a6c4ebbe655e15d971ddb1a96c7dc0b
     log: |
-         da2522df3fcc6f57068470cbdcd6516d9eb76b37 net: mctp: Fix tx queue stall
-         9311e9540a8b406d9f028aa87fb072a3819d4c82 selftests: net: use BASH for bareudp testing
+         298574936a6c4ebbe655e15d971ddb1a96c7dc0b net: phy: dp83869: fix STRAP_OPMODE bitmask
          
