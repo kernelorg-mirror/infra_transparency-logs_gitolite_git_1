@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 30 Oct 2025 15:55:05 -0000
-Message-Id: <176183970558.3605109.12888277091232822274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 30 Oct 2025 15:57:46 -0000
+Message-Id: <176183986680.3606376.4586661777509677282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/pending
-    old: ff79d35c3919fe67d3e7dd4d94dfd5c60dbef197
-    new: d861b9c4c7c39afaec901baf3d1cdb2639cce67f
-    log: |
-         d861b9c4c7c39afaec901baf3d1cdb2639cce67f wifi: ath12k: fix reusing m3 memory
-         
+  - ref: refs/heads/fbdev-6.18-2
+    old: 0000000000000000000000000000000000000000
+    new: 7073c7fc8d8ba47194e5fc58fcafc0efe7586e9b
