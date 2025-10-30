@@ -1,19 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 30 Oct 2025 22:20:16 -0000
-Message-Id: <176186281698.3940723.9629597834625231195@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7887693213764928306=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 30 Oct 2025 22:20:43 -0000
+Message-Id: <176186284376.3941122.1504223856882374896@gitolite.kernel.org>
+
+--===============7887693213764928306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
   - ref: refs/heads/main
-    old: 43ee036eead628f6e774f68b3c15002bb607b4a9
-    new: c2b3e7ad275aa846c8b286a79314ded728a87443
-    log: |
-         c2b3e7ad275aa846c8b286a79314ded728a87443 refactor: migrate to tpm2-crypto 0.2.1
-         
+    old: 43d31f3f26f766f357e95513ba75c5126ce17d4b
+    new: 6a5812e1623723adb18e6217d512274ef0d84015
+    log: revlist-43d31f3f26f7-6a5812e16237.txt
+  - ref: refs/tags/ath-202510302158
+    old: 0000000000000000000000000000000000000000
+    new: 6a5812e1623723adb18e6217d512274ef0d84015
+
+--===============7887693213764928306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-43d31f3f26f7-6a5812e16237.txt
+
+be5febd51c478bc8e24ad3480435f2754a403b14 wifi: ath12k: fix potential memory leak in ath12k_wow_arp_ns_offload()
+00575bb44b2c2aa53d0a768de2b80c9c1af0174d wifi: ath12k: fix reusing m3 memory
+088a099690e4c0d291db505013317ab5dd58b4d5 wifi: ath12k: fix error handling in creating hardware group
+770bff79424beec2edb8e7cc63b0e8d1b1a927a3 wifi: ath12k: generalize GI and LTF fixed rate functions
+ec1d9b79be5df30f1998f37a49bf14d34ecd6c50 wifi: ath12k: add EHT rate handling to existing set rate functions
+6c95151e2e776462de6b6fd9e577865e8b32203e wifi: ath12k: Add EHT MCS/NSS rates to Peer Assoc
+ab31a9b73c95ca8a1b527a0d9fd9192a27acb26f wifi: ath12k: Add EHT fixed GI/LTF
+5ee9cb2c236b45c4d58d6d464a12d985e453576b wifi: ath12k: add EHT rates to ath12k_mac_op_set_bitrate_mask()
+09486128caef9efd88794c8aaa1e9ab16b16f383 wifi: ath12k: Set EHT fixed rates for associated STAs
+448bf7b51426bcca54b5ac1ddd1045a36c9d1dea wifi: ath12k: enforce vdev limit in ath12k_mac_vdev_create()
+e70515039d44be61b6a73aafb401d141b0034d12 wifi: ath12k: unassign arvif on scan vdev create failure
+877f9c22fdf424c657de757bfe8543cf77461324 wifi: ath10k: use = {} to initialize pm_qos_request instead of memset
+059ca8fd692b67a77fb89e9d4e8f57cf08e32b08 wifi: ath10k: use = {} to initialize bmi_target_info instead of memset
+0abb89cb8657a10205aa6d8096d96d40fa0c5b54 Merge branch 'ath-next'
+c7856ba4638a188aefec217d2fb4970c5dab791e Merge branch 'ath-current'
+751aa7a1a657ff505eac396db449fcb5bc1216c0 Merge remote-tracking branch 'mhi/mhi-next'
+a8f48ee1c229b7e90a613b3aabb47453af45c71a Add localversion-wireless-testing-ath
+6a5812e1623723adb18e6217d512274ef0d84015 spi: amlogic: fix spifc build error
+
+--===============7887693213764928306==--
