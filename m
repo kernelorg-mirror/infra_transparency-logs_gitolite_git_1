@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Thu, 30 Oct 2025 09:53:27 -0000
-Message-Id: <176181800726.3284042.12556738563975960857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 30 Oct 2025 10:07:22 -0000
+Message-Id: <176181884284.3296341.4801665764020767490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: ca10248139610ffb53fe90224333513dcc3ca155
-    new: 3822896af21e9ab19d507ffefe2c10fc7f556e32
-    log: |
-         804a6a6b5747eed8794a6b007279dc8e09432270 mdadm/Incremental: wait a while before removing a member
-         abb9a2b097c940251673eba5f074638b10ceb26e mdadm/sysfs: close fd before return
-         868376e030349417bc6c858dec565ae0d9808b60 Update README.md
-         d354d314db86379f18a4ccd35af9f6e56635b61d mdadm: Create array with sync del gendisk mode
-         6fa6c4b915f6bc024cf481d137569a255001a84a mdadm/Assemble: alloc superblock in Assemble
-         3822896af21e9ab19d507ffefe2c10fc7f556e32 github: disable self-runners
-         
+  - ref: refs/heads/kbuild-6.19.fms.extension
+    old: 0000000000000000000000000000000000000000
+    new: 0c5751cbdd7cd6c87c648fb6917c9d27215c7876
