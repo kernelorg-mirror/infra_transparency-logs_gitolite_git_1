@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6415771904502668622=="
+Content-Type: multipart/mixed; boundary="===============2374634963092114466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 30 Oct 2025 03:33:20 -0000
-Message-Id: <176179520032.2946937.4472780368381138502@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 03:33:44 -0000
+Message-Id: <176179522401.2947286.8952775021915788521@gitolite.kernel.org>
 
---===============6415771904502668622==
+--===============2374634963092114466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: ad25def1cbff3b46850c9c62a9c0216dad0e5360
-    new: c1c7d70f72a3129117211bd55f3967d84205e5ae
+  - ref: refs/heads/6.19/scsi-staging
+    old: e9ff858c9adff26f5d2f77d3575e39fb1470027c
+    new: 525a411f9a5ff736bf017c36823aefda93eeae36
     log: |
          754c6f539effa8ad332e305e34665849638fa40f scsi: ufs: dt-bindings: amd-versal2: Add UFS Host Controller for AMD Versal Gen 2 SoC
          00b3e8480be7a49203594bd1fdb4fd46f3b69d59 scsi: firmware: xilinx: Add support for secure read/write ioctl interface
@@ -28,33 +28,33 @@ changes:
          525a411f9a5ff736bf017c36823aefda93eeae36 scsi: ufs: dt-bindings: qcom: Drop redundant "reg" constraints
          
 
---===============6415771904502668622==
+--===============2374634963092114466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761795245 -0400
+pusher 75C5DE3D 1761795269 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761795178-59ba26200edaba8f2dfc0e8c73bebe6c3b9aa169
+nonce 1761795203-28bb1a933b7d78f02c71bdc2a71823c44e3b3f65
 
-ad25def1cbff3b46850c9c62a9c0216dad0e5360 c1c7d70f72a3129117211bd55f3967d84205e5ae refs/tags/mkp-scsi-staging
+e9ff858c9adff26f5d2f77d3575e39fb1470027c 525a411f9a5ff736bf017c36823aefda93eeae36 refs/heads/6.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkC3K0ACgkQ7ulgGnXF
-3j0ZQw//SPmfv2sW5Nu62pzeL6QgKzZnpkSiNiahDoLtiD5Q0ay3Vwc3qbL6k8GQ
-Dd76ArzKGBXnHR3YXNRpxkQquU5pqzMGE0G+u/xc4sVj0REp4XKCW81b1nnjggcq
-kMA/eER+6VxL0hsjTOxGUYc/Eu2ldPAYwUyomhVrDQPVEXpCB+BVO8wlk0gQk4Kz
-0ZSB7Np8nZK9U4g4jWm1hdzPmNcz5PQrYZYjSM/zLXsk2G0cQTXkSog0vGXVrNeI
-WlHdDgvGFsXnUhdE7mPG3SfdufZzi8Kc2mBZW4cnMoB00OMb0APsxSLD3bhRTyN2
-cLwxvZ8YzWBFBAUOHcZxBAD7oQNR5UFNDe0srC0qFoD+Wph33DGTwqEVQfnosE59
-f79DyywELvgkTzCOButb/sJQGvc2Ck2b+xO0Zk8p61wbiIyeHtdzHRC0M5zVL9Di
-OChaiUX8QuC9xll3L5dDLSZpebapejbOipdTSACyXe25yoJndSjqXt2QKhcdw8oq
-eYIeyV8DBqWYGUdyI5Sv3zfE0+wKucLB4VyX/NFXs432NSrvbZbiZglJZrOyqA30
-4VLWzMhoAOlU1aTgbRqhOPyYgIhagRuEgYnXDgLpvXJupRNy08WYFZanm61DxnBb
-8JlXqIyJK/HbRch+q08NbfrLtmpWDV6d2xDVOrjnUtn/5WY+wBM=
-=lw5f
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkC3MUACgkQ7ulgGnXF
+3j2WuQ/9G+ZIqFEuMfHZhieoPGr6nXYbkTnxg4I1+hmx27Ehrj8/MpQHMcANKefc
+f65mW+DdItL3rqghME0zS7TSkbuAEVV7ODlwvUwAB+vLypfIwoxequEhe1d4Dept
+TuejD+v7oIqEZBt8tDLYGruHe+BJPPtMryX8sbTkQIuaNT6cgBZ1YifjLfObd9SO
+77vBjZ1GLQq4hVN3kv2EuDltjseQKCT7I38KBAR/GX8ndYfDK08CAHgJ6leQ9Ro3
+rRUcWh/DN0/DGtvla5uj099n8DYPd7LWxF0NTuMtb6iXRrBlbOEEHT/5JpVZ6axj
+mn8Q5LuMI9RzMPJCDX8iERSHv97nxGNrDuCJZtT9aqlGcICwc+auPziCkK4pJCZC
+nvQ4ZxhRfGAloBSMQiVblQyRH+t5G/Q7+Ip/3E57MFQlARXAM0OSyC94nsnRUpZi
+sdrhN9AiTkL6qdwh/jprRR7T95VQQB7lozms8Y8eiR20kNs67G8l4+ccHwf1HqrX
+F+Hx4V5aWG1jdOvs83o+QMWuQ7c5FoUtOIer2S75iYg2Mtx/X97cgPfteAHskMvr
+gR0PcXJfDLcFq/eL3+3m9XwImoFv5YBh2IK+AfJS2RNbcnsj8nvrB83JCgMjJ2FQ
+j+X/YH3hfNQDgJOgq6NCGKUoYMs2j9qc2yBJY0sJzfzltwAxYt8=
+=6Ode
 -----END PGP SIGNATURE-----
 
---===============6415771904502668622==--
+--===============2374634963092114466==--
