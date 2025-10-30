@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6741393191682624574=="
+Content-Type: multipart/mixed; boundary="===============7835485354750830773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Thu, 30 Oct 2025 21:32:22 -0000
-Message-Id: <176185994279.3897867.13018236783903593276@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 21:34:34 -0000
+Message-Id: <176186007430.3899292.11331361115169404283@gitolite.kernel.org>
 
---===============6741393191682624574==
+--===============7835485354750830773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 987707b36a648f523a406694a373400242a135ad
-    new: 5124e80cd9c022650fca48d6bd6f22817dc9d739
+    old: 5124e80cd9c022650fca48d6bd6f22817dc9d739
+    new: cd02dd5555dc1358b7ec528a98cf61789f96080b
     log: |
-         5124e80cd9c022650fca48d6bd6f22817dc9d739 Add basic docs and prep for korgalore.docs.kernel.org
+         cd02dd5555dc1358b7ec528a98cf61789f96080b Update README.md to remove redundant info
          
 
---===============6741393191682624574==
+--===============7835485354750830773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1761860008 -0400
+pusher B6C41CE35664996C! 1761860139 -0400
 pushee gitolite.kernel.org:pub/scm/utils/korgalore/korgalore
-nonce 1761859941-8827bf76e52fb0d808a441e635e7235e9d848792
+nonce 1761860073-dcc843d33bed1bb34cfdbe26e8dd4af515bea638
 
-987707b36a648f523a406694a373400242a135ad 5124e80cd9c022650fca48d6bd6f22817dc9d739 refs/heads/master
+5124e80cd9c022650fca48d6bd6f22817dc9d739 cd02dd5555dc1358b7ec528a98cf61789f96080b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQPZqAAKCRC2xBzjVmSZ
-bP3XAQDIJNu2Lm2oxEDe97GJBLpZuQROoqDKFrmktNmjmMycLgEAgWRuUz4Ufp39
-ZhxjaLmJHFU34d4iE+v97YbOdXhEegg=
-=m+wL
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQPaKwAKCRC2xBzjVmSZ
+bIa3APwLWpea+Rddv2FGIiqVaU393owAhaGziGrdwVIX1HgCSQEAnukUDE5FrjBE
+a6AijvvJqmZ3qDjvn5w+3pUMZt0iLgI=
+=uHpt
 -----END PGP SIGNATURE-----
 
---===============6741393191682624574==--
+--===============7835485354750830773==--
