@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 30 Oct 2025 15:52:42 -0000
-Message-Id: <176183956206.3601827.14555594139410856033@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 15:55:05 -0000
+Message-Id: <176183970558.3605109.12888277091232822274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: 197498315de711140bcc4722fdeb7c1761777100
-    new: ff79d35c3919fe67d3e7dd4d94dfd5c60dbef197
+    old: ff79d35c3919fe67d3e7dd4d94dfd5c60dbef197
+    new: d861b9c4c7c39afaec901baf3d1cdb2639cce67f
     log: |
-         ff79d35c3919fe67d3e7dd4d94dfd5c60dbef197 wifi: ath12k: fix potential memory leak in ath12k_wow_arp_ns_offload()
+         d861b9c4c7c39afaec901baf3d1cdb2639cce67f wifi: ath12k: fix reusing m3 memory
          
