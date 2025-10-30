@@ -1,22 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 30 Oct 2025 21:52:30 -0000
-Message-Id: <176186115003.3915082.7807904509271955278@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1307046744641759242=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 30 Oct 2025 21:56:09 -0000
+Message-Id: <176186136945.3918785.12854296580330998776@gitolite.kernel.org>
+
+--===============1307046744641759242==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/socfpga_dts_for_v6.19
-    old: 3637309e6015b24b5d99f93c549b33e2114eb8c3
-    new: d07eddcd456e9d61b30bd0798321f6d2997ae6d6
-    log: |
-         b8fb4cbe0a8a0efdbb911a55cd6cc27abdc7a477 arm64: dts: socfpga: stratix10-swvp: fix dtbs_check warnings swvp
-         4bb2d0f87cd7cde92d1f5970086f120b51042968 arm64: dts: socfpga: agilex: fix dtbs_check warning for clock manager
-         d37c471666b57b0f4a17294978a78640f712d4af arm64: dts: socfpga: agilex: fix dtbs_check warning for NAND
-         d07eddcd456e9d61b30bd0798321f6d2997ae6d6 arm64: dts: socfpga: agilex5: add VGIC maintenance interrupt
-         
+  - ref: refs/heads/ath-next
+    old: 197498315de711140bcc4722fdeb7c1761777100
+    new: 059ca8fd692b67a77fb89e9d4e8f57cf08e32b08
+    log: revlist-197498315de7-059ca8fd692b.txt
+
+--===============1307046744641759242==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-197498315de7-059ca8fd692b.txt
+
+be5febd51c478bc8e24ad3480435f2754a403b14 wifi: ath12k: fix potential memory leak in ath12k_wow_arp_ns_offload()
+00575bb44b2c2aa53d0a768de2b80c9c1af0174d wifi: ath12k: fix reusing m3 memory
+088a099690e4c0d291db505013317ab5dd58b4d5 wifi: ath12k: fix error handling in creating hardware group
+770bff79424beec2edb8e7cc63b0e8d1b1a927a3 wifi: ath12k: generalize GI and LTF fixed rate functions
+ec1d9b79be5df30f1998f37a49bf14d34ecd6c50 wifi: ath12k: add EHT rate handling to existing set rate functions
+6c95151e2e776462de6b6fd9e577865e8b32203e wifi: ath12k: Add EHT MCS/NSS rates to Peer Assoc
+ab31a9b73c95ca8a1b527a0d9fd9192a27acb26f wifi: ath12k: Add EHT fixed GI/LTF
+5ee9cb2c236b45c4d58d6d464a12d985e453576b wifi: ath12k: add EHT rates to ath12k_mac_op_set_bitrate_mask()
+09486128caef9efd88794c8aaa1e9ab16b16f383 wifi: ath12k: Set EHT fixed rates for associated STAs
+448bf7b51426bcca54b5ac1ddd1045a36c9d1dea wifi: ath12k: enforce vdev limit in ath12k_mac_vdev_create()
+e70515039d44be61b6a73aafb401d141b0034d12 wifi: ath12k: unassign arvif on scan vdev create failure
+877f9c22fdf424c657de757bfe8543cf77461324 wifi: ath10k: use = {} to initialize pm_qos_request instead of memset
+059ca8fd692b67a77fb89e9d4e8f57cf08e32b08 wifi: ath10k: use = {} to initialize bmi_target_info instead of memset
+
+--===============1307046744641759242==--
