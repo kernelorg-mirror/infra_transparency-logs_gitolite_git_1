@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4792356991171107908=="
+Content-Type: multipart/mixed; boundary="===============2448828733904276199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 30 Oct 2025 17:44:57 -0000
-Message-Id: <176184629702.3702561.1271532542500662904@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 17:44:59 -0000
+Message-Id: <176184629939.3702696.2341180819286159127@gitolite.kernel.org>
 
---===============4792356991171107908==
+--===============2448828733904276199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: f82acf6fb42115c87d3809968a2e0ab2fedba15b
+  - ref: refs/heads/200GbE
+    old: 8df206f7b63611dbaeb8628661d87fe994dcdf71
     new: 51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c
-    log: revlist-f82acf6fb421-51e5ad549c43.txt
+    log: revlist-8df206f7b636-51e5ad549c43.txt
 
---===============4792356991171107908==
+--===============2448828733904276199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f82acf6fb421-51e5ad549c43.txt
+Content-Disposition: attachment; filename=revlist-8df206f7b636-51e5ad549c43.txt
 
-36fedc44e37e811f25666c600bce4bc027290226 dpll: fix device-id-get and pin-id-get to return errors properly
-d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4 net: cxgb4/ch_ipsec: fix potential use-after-free in ch_ipsec_xfrm_add_state() callback
-40c17a02de41f12dd713309c7d2546117c577d29 dpll: zl3073x: Fix output pin registration
-12d2303db892d397373e2af40758cbd97309ec37 net: hibmcge: fix rx buf avl irq is not re-enabled in irq_handle issue
-71eb8d1e07562b43bebc0c2721699814b43fd83d net: hibmcge: remove unnecessary check for np_link_fail in scenarios without phy.
-7e2958aee59ceb30ef153387741d12385b712250 net: hibmcge: fix the inappropriate netif_device_detach()
-8df206f7b63611dbaeb8628661d87fe994dcdf71 Merge branch 'bug-fixes-for-the-hibmcge-ethernet-driver'
+e9840461317e1bf0628b164de54632754d5f6a44 ice: fix lane number calculation
+45076413063cf5e0e25fd3f7f89fc90338b161c8 ice: fix destination CGU for dual complex E825
+9a0f81fc64b2ba80ce768cd6e680c0f440723464 ice: fix usage of logical PF id
+85308d999c4b4162a742c9ec5ef954226c3b48d9 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+81fb1fe75c672db905b54f4ab744552121099a24 igc: power up the PHY before the link test
+bc73c5885c606f5e48dd4222eba0361fa0f146ca igb: use EOPNOTSUPP instead of ENOTSUPP in igb_get_sset_count()
+21d08d1c4c29f9795fbc678011c85f72931e22c1 igc: use EOPNOTSUPP instead of ENOTSUPP in igc_ethtool_get_sset_count()
+f82acf6fb42115c87d3809968a2e0ab2fedba15b ixgbe: use EOPNOTSUPP instead of ENOTSUPP in ixgbe_ptp_feature_enable()
 514f1dc8f2ca3101e04cdf452e53baca3a76e544 netfilter: nft_ct: enable labels for get case too
 8d96dfdcabef00e28f0c851b1502adb679dfc6d9 netfilter: nft_connlimit: fix possible data race on connection count
 90918e3b6404c2a37837b8f11692471b4c512de2 netfilter: nft_ct: add seqadj extension for natted connections
@@ -67,4 +68,4 @@ a38eeecfe3232283c0ae34d0f4302e5a3e60f3ee Merge branch 'net-stmmac-fixes-for-stmm
 6a2108c78069fda000729b88c97b1eba0405e6d7 net: devmem: refresh devmem TX dst in case of route invalidation
 51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c net: sctp: fix KMSAN uninit-value in sctp_inq_pop
 
---===============4792356991171107908==--
+--===============2448828733904276199==--
