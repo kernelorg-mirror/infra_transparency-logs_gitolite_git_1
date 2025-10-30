@@ -1,50 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3728444704103172553=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 30 Oct 2025 11:07:17 -0000
-Message-Id: <176182243773.3350458.17340623655074849986@gitolite.kernel.org>
-
---===============3728444704103172553==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 30 Oct 2025 11:07:27 -0000
+Message-Id: <176182244768.3350824.9188228673803681473@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.19
-    old: dc74a00c7661a14a672ea7660caca5c4aa661a79
-    new: 28039efa4d8e8bbf98b066133a906bd4e307d496
+  - ref: refs/heads/for-linus
+    old: 45f5c9eec43a9bf448f46562f146810831916cc9
+    new: 5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b
     log: |
-         28039efa4d8e8bbf98b066133a906bd4e307d496 MAINTAINERS: remove obsolete file entry in DIALOG SEMICONDUCTOR DRIVERS
+         22897e568646de5907d4981eae6cc895be2978d1 ASoC: renesas: rz-ssi: Use proper dma_buffer_pos after resume
+         5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b ASoC: dt-bindings: pm4125-sdw: correct number of soundwire ports
          
-
---===============3728444704103172553==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1761822502 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1761822435-5333af7f17ceab223b14bfb7d5cacd422e2efa71
-
-dc74a00c7661a14a672ea7660caca5c4aa661a79 28039efa4d8e8bbf98b066133a906bd4e307d496 refs/heads/regulator-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkDRyYACgkQJNaLcl1U
-h9DS/wf/Y/UwBfaM6FLmxazN7l6wgWWbIzF6lApl517tqUIC96/iqv5i3PGmfjI1
-9RrIkTzSpbtG228gMVEJCE9avD88dJ2VrCyk4opy+rmMzTLLw52fMAsLynt/b13x
-D6V1iQObjt/AE3NhAa/Zz7W0MEdqK4x/52i92/dZdFqojDTppqHOwZzdxRZAKEBB
-tkXi2Y5NhV8lutUGQR+V98YcF6d4GJbtFTJKkiza4MzaDLoAgnQLoUH0RugTTu6V
-KnO4OKrhLJBGJWKtp7vi3hUihVgfxaQ72ueY0S1GfHGc06GhZkywuVwg2FyOoKpV
-8SHPgjC+KqbmKg/BkwdoYsGGHwAa7g==
-=AgU9
------END PGP SIGNATURE-----
-
---===============3728444704103172553==--
+  - ref: refs/heads/for-next
+    old: 255b4ed8b2ee82978c2b0e92699a164498e58ebf
+    new: 25adc5933d83d2fd991e9fb826d8035e427544e5
+    log: |
+         22897e568646de5907d4981eae6cc895be2978d1 ASoC: renesas: rz-ssi: Use proper dma_buffer_pos after resume
+         5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b ASoC: dt-bindings: pm4125-sdw: correct number of soundwire ports
+         541aecd34383a85eaf7c8556779466e394554fed ASoC: SOF: pcm: Set the PCM device name for HDMI
+         2b4d53eb5cf32c5b7b7616f23f08471fd8b3708e ASoC: SOF: Intel: select SND_SOC_SDW_UTILS in SND_SOC_SOF_HDA_GENERIC
+         20bcda681f8597e86070a4b3b12d1e4f541865d3 ASoC: codecs: va-macro: fix revision checking
+         25adc5933d83d2fd991e9fb826d8035e427544e5 Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
+         
