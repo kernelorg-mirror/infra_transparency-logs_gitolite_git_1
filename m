@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Oct 2025 01:00:15 -0000
-Message-Id: <176178601503.2805861.7436517252125444277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 Oct 2025 01:02:34 -0000
+Message-Id: <176178615499.2810052.16586608953162842635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 9311e9540a8b406d9f028aa87fb072a3819d4c82
-    new: 298574936a6c4ebbe655e15d971ddb1a96c7dc0b
+    old: afb8f6567a5b4bb4e673608048939fef854b8709
+    new: b8a7826e4b1aab3fabb29cbf0b73da9993d356de
     log: |
-         298574936a6c4ebbe655e15d971ddb1a96c7dc0b net: phy: dp83869: fix STRAP_OPMODE bitmask
+         b8a7826e4b1aab3fabb29cbf0b73da9993d356de net: sched: Don't use WARN_ON_ONCE() for -ENOMEM in tcf_classify().
          
