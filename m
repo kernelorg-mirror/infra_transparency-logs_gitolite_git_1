@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2785563636771498354=="
+Content-Type: multipart/mixed; boundary="===============5871892848276370440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 30 Oct 2025 03:31:52 -0000
-Message-Id: <176179511273.2945327.17683516321976821090@gitolite.kernel.org>
+Date: Thu, 30 Oct 2025 03:32:16 -0000
+Message-Id: <176179513662.2945791.6894011119531849761@gitolite.kernel.org>
 
---===============2785563636771498354==
+--===============5871892848276370440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: db261d0c68a3f10ff8e977f03eca6afca68188db
-    new: 7a45814090ca7f6f6cb5e31a4c0ea2efa91a2f85
+  - ref: refs/heads/6.18/scsi-fixes
+    old: c0e37ac6a5d4c4bc33b9c4408d22714fe370a1b0
+    new: a2b32bc1d9e359a9f90d0de6af16699facb10935
     log: |
          f838d624fd1183e07db86f3138bcd05fd7630a1e scsi: ufs: core: Revert "Make HID attributes visible"
          bb44826c3bdbf1fa3957008a04908f45e5666463 scsi: ufs: ufs-pci: Fix S0ix/S3 for Intel controllers
@@ -27,33 +27,33 @@ changes:
          a2b32bc1d9e359a9f90d0de6af16699facb10935 scsi: ufs: core: Fix invalid probe error return value
          
 
---===============2785563636771498354==
+--===============5871892848276370440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1761795151 -0400
+pusher 75C5DE3D 1761795181 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1761795085-7d01943d2b0e2480dec7b8e62de588983679644b
+nonce 1761795115-fc4a966fc6296740eb4215b704a9371f1be1eb1b
 
-db261d0c68a3f10ff8e977f03eca6afca68188db 7a45814090ca7f6f6cb5e31a4c0ea2efa91a2f85 refs/tags/mkp-scsi-fixes
+c0e37ac6a5d4c4bc33b9c4408d22714fe370a1b0 a2b32bc1d9e359a9f90d0de6af16699facb10935 refs/heads/6.18/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkC3E8ACgkQ7ulgGnXF
-3j2A6g//VD1GJSsQMn3IRIF06fnclKxcPWSc4cSPM57cKdryW4NGOf1APJLeugw8
-ltoatgCKch0QuRzQVPGkcW/xGdxTFNWHlgorHJGTI4NeEt6/hDvCGtXVAY13V1M9
-MUK/m2FcuPrwFwmV3WXJ9oNhIL3MiAPxTNuNFWKe74Pm8EqK9IRN41FaL9zjpAP3
-CfkHN2VWeTGMxhgg/g06vuAfFYs8n7pevXJxdnAJR0h0KA6phoUr4dxfdhsrsvMq
-tsd/1rDNEJvRuAKiMbiNRtDGDWDIP88ZtQmjgtNL0FU9uStOTraCDEu09qNrxZAw
-qgyNWjSworDVFlsGG2s0fJupUhyvmbdAnx2tZdYFoU3KygNGfEUPoos66tV3hCnH
-vVloRMbUgBXpLbgLfRQRnRbow6ZUQeZatPjZwO6ZzQTkIRsOz5Tzw8ms1/VjhHBV
-UCP/otCL1vD9x3o5fAEVHZyxsgc75lVuaxwqW7K4Z8vtNyvi7ha6yx4qS5TTIPZ5
-5XpnI68Po+tduSkJx8Yll8hXctKpxf85ynwjQloAmmjHEezWa1zKxlDnIII58L8Z
-DSYe64zkSSnpnrcPyWCBZnbug99/JxRVeGNV2kNlp1vSj7zZi9n5UDgqLH4TVfXk
-oCjO38pBxUSbUjDvMHkegIYxFa4/521xCwOxg+ZyARl6ZIA9ZcQ=
-=nuUx
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkC3G0ACgkQ7ulgGnXF
+3j38GRAAi1URnDD+lsscVuHhBAHB5q+9zBslD+2CaHTGRyU3ZusjFtXnYXzaTAUA
+MkyfTzCfrIA3hBB8e8f85JHhM7RTXQOgbKWhC5/eDB+QEUJ/c9Zqk9tRdUM0Q6yV
+zQnC7yl6QtOrPGlPAKgw81moM4Cb6i2bAGXhpXRsiwvlRdLXmNz0OFzD6Dz0Ed33
+jXrTfJxRTQLT8EWHVhoIe6FclPS4E2DzP+41/j2NqYqkATOOwZB4EgPKn+zPCCPy
+UjTkMH8kF7JU5o8rr81HNLVLZuQeBC4O03e2w8osqX/H1og56bvCSu1gnKpxPmfC
+aUI7RftNHmQmEnSzJaZrSITUq4O+R9KUE1/qVV9DjvPqFC3Gh2VVmyS0PrMXu7FY
+M0n9jMVdZi/4yPQ1Ov4hyxYQP6k8r1GTcXhU+QtwaDCW5h49taCBcg6SXhrg7rv9
+shDQ8AbZBz+52xVHAvrwSUdTkr7IorgM10N6NyhcvGpvw9eKM2HyTkco7JIhWvRT
+D4JGDutRTYn1xxo1fpmJiMrKVoNdW1+VUqnB6JXg85SOVZfSlo211zUZuCF6zPxx
+DaGkgb5Xg4/3N1Nq2jrEW4sYW1mKwzsmrOsIQ/NhZDwDNq3A/IukdH1rS+dE5UN+
+TPHS0aS1NeV4rMCFA4nhhFrXfv8uvTM1rKVF1LQDFN3DoLKOyM4=
+=uAIN
 -----END PGP SIGNATURE-----
 
---===============2785563636771498354==--
+--===============5871892848276370440==--
