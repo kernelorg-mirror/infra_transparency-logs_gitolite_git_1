@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6499499917062036401=="
+Content-Type: multipart/mixed; boundary="===============6720985956554355801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 31 Oct 2025 15:45:16 -0000
-Message-Id: <176192551675.644891.1929541351187140443@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 15:45:18 -0000
+Message-Id: <176192551802.645022.4367751267533418809@gitolite.kernel.org>
 
---===============6499499917062036401==
+--===============6720985956554355801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2dba1418fcb4c709e7f8f8de2fb0286db0e34d37
-    new: df412f2f12d492234da858e4dbaeabed9ecff3c4
-    log: revlist-2dba1418fcb4-df412f2f12d4.txt
+  - ref: refs/heads/mm-unstable
+    old: 6aa6d90e93f014449827943b9d7e1a4af4783d14
+    new: 2f595519c7b0ef9c048758fc0cf239c369e76e5a
+    log: revlist-6aa6d90e93f0-2f595519c7b0.txt
 
---===============6499499917062036401==
+--===============6720985956554355801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2dba1418fcb4-df412f2f12d4.txt
+Content-Disposition: attachment; filename=revlist-6aa6d90e93f0-2f595519c7b0.txt
 
 fefe2250a535f818a8f3fac2e12756362b84ae16 mm/huge_memory: do not change split_huge_page*() target order silently
 f9c71209233bb4d405e8224990917ebf6ae67c7d kho: warn and fail on metadata or preserved memory in scratch area
@@ -229,14 +229,5 @@ dff9032411376c1cd63a092b70b3ec38ec3cdd26 mm: vmstat: output reserved_highatomic 
 fb906024eac0c04922e77e28b96f784bc1ebacc0 Revert "mm/ksm: convert break_ksm() from walk_page_range_vma() to folio_walk"
 45556cb4cf03522526c6e944782a43b1079ad023 ksm: perform a range-walk in break_ksm
 2f595519c7b0ef9c048758fc0cf239c369e76e5a ksm: replace function unmerge_ksm_pages with break_ksm
-7c2c20bb82d8d4deaa5df4756023e211535116a6 mm/swap: do not choose swap device according to numa node
-e95527c16956172805f848d813a4fba2e8ffb182 mm/swap: select swap device with default priority round robin
-335d2ee1a09033332f16738b551273b8b81bcb18 mm: convert memory block states (MEM_*) macros to enum
-c1e82396312a8d9eac835eb314a54543fe4a12cc mm: change type of state in struct memory_block
-9e8a8b0eaf9236bccc72899cb0bc2693ebccea7a mm-change-type-of-state-in-struct-memory_block-fix
-4261a93a423b230361cb7fa1847d29f8ad5475d0 mm: change type of parameter for memory_notify
-6f040d210df7b70041b40a4d8719789480f1d166 mm/huge_memory: add split_huge_page_to_order()
-46325fc7af239cdce658bb2e42e112a7951a7339 mm/memory-failure: improve large block size folio handling.
-df412f2f12d492234da858e4dbaeabed9ecff3c4 mm/huge_memory: fix kernel-doc comments for folio_split() and related.
 
---===============6499499917062036401==--
+--===============6720985956554355801==--
