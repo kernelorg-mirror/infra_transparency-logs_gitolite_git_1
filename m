@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4504469993775176449=="
+Content-Type: multipart/mixed; boundary="===============1375202898916146558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 31 Oct 2025 12:32:42 -0000
-Message-Id: <176191396215.474464.13470923466273818017@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 12:34:32 -0000
+Message-Id: <176191407260.476142.10365470728303246483@gitolite.kernel.org>
 
---===============4504469993775176449==
+--===============1375202898916146558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,191 +16,200 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/5.10
-    old: a163faf9c3e4940620214861fa8bfe37ce4baf5e
-    new: e761aadd6ff7bc3f3485e5116f5aea1dff9f86a7
+    old: e761aadd6ff7bc3f3485e5116f5aea1dff9f86a7
+    new: c38b4ae751c6188974374c01d0f86b26e5a278fb
     log: |
-         d199d7cb4c8102c031a6a96448778b113ec2fa11 net/sched: sch_qfq: Fix null-deref in agg_dequeue
-         6a93c11c368d31f42dc6a9c715e6d726f70b2e88 x86/bugs: Fix reporting of LFENCE retpoline
-         b65db12b478f36228f4982dc239d1676c00b52ab btrfs: always drop log root tree reference in btrfs_replay_log()
-         e761aadd6ff7bc3f3485e5116f5aea1dff9f86a7 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+         706610177389427131dfcd04ab5de999ce4132c6 net/sched: sch_qfq: Fix null-deref in agg_dequeue
+         04a9ef90f84e6108bae3e285f2d30cb23e546a59 x86/bugs: Fix reporting of LFENCE retpoline
+         8c3b0d657d7bcbb5b0c8a861f807703078020fbc btrfs: always drop log root tree reference in btrfs_replay_log()
+         c38b4ae751c6188974374c01d0f86b26e5a278fb btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
          
   - ref: refs/heads/queue/5.15
-    old: 35b064773bb9ee808b1e96d6a46d1e11f3da2123
-    new: bef86533aa65b1f3e202b9526c2ef8feb39fb58a
+    old: bef86533aa65b1f3e202b9526c2ef8feb39fb58a
+    new: f7ebcfe0890792516dae9e1930b7565f6ea8edda
     log: |
-         2458b0f5046ca37b0d5c6941862b8d96ff452b1d net/sched: sch_qfq: Fix null-deref in agg_dequeue
-         845642474ba0f7c96d87741c8d3815be2d58704a x86/bugs: Fix reporting of LFENCE retpoline
-         62aa42273f2e5a6b7131ec9806ac3e019314f642 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
-         b7dce286e01e762034a649b32d813c78160ec0fd btrfs: always drop log root tree reference in btrfs_replay_log()
-         bef86533aa65b1f3e202b9526c2ef8feb39fb58a btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+         bc07150d401e8725b80f0e5eef6fbb201e4a5c5a net/sched: sch_qfq: Fix null-deref in agg_dequeue
+         f4d9c156d8f32172380dc3d2a8547e049b6d8cd3 x86/bugs: Fix reporting of LFENCE retpoline
+         9e5c7b9280980c52f135e2e8afada0db6a63aba1 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
+         77e03ba38cbb1e4deb3d4db274f112fb87ddb3e3 btrfs: always drop log root tree reference in btrfs_replay_log()
+         f7ebcfe0890792516dae9e1930b7565f6ea8edda btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
          
   - ref: refs/heads/queue/5.4
-    old: 83c079cb3cfb6366954740c938ed2d1ebc139c8c
-    new: 2e653ddfaff5149c645fede3fc0476e0535eadd1
+    old: 2e653ddfaff5149c645fede3fc0476e0535eadd1
+    new: 250b4cdf8f0a22d3c19b70a24efb816be10db7f3
     log: |
-         c780ddbafde0b631c33af62b01fc6b8e16d8f913 net/sched: sch_qfq: Fix null-deref in agg_dequeue
-         c1b778aef745aef85a5ffc52ef395c82c8bf3b11 x86/bugs: Fix reporting of LFENCE retpoline
-         2e653ddfaff5149c645fede3fc0476e0535eadd1 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+         377a1a60bd4010b59c6b1c94e28f37ba234b3efb net/sched: sch_qfq: Fix null-deref in agg_dequeue
+         ebdde6bae92e17a79297a329cbe7356b60467bea x86/bugs: Fix reporting of LFENCE retpoline
+         250b4cdf8f0a22d3c19b70a24efb816be10db7f3 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
          
   - ref: refs/heads/queue/6.1
-    old: bb977538abb775b4a9cad2cf7d0a7abedfc5660f
-    new: 884afd4d0a242acfbb38bcf2409ee4956ac8c534
-    log: revlist-bb977538abb7-884afd4d0a24.txt
+    old: 884afd4d0a242acfbb38bcf2409ee4956ac8c534
+    new: 1d7aa2abce40001fcca778d0bbbaaaab3f38a0a0
+    log: revlist-884afd4d0a24-1d7aa2abce40.txt
   - ref: refs/heads/queue/6.12
-    old: 4fec28b87094b9f344c457af04e9987d2a33bcb0
-    new: 644830dd78ad7169c808568524ad6e222e0212db
-    log: revlist-4fec28b87094-644830dd78ad.txt
+    old: 644830dd78ad7169c808568524ad6e222e0212db
+    new: e23f9aa3e70ab1051980021699ee864034082fbf
+    log: revlist-644830dd78ad-e23f9aa3e70a.txt
   - ref: refs/heads/queue/6.17
-    old: ddd10f1e6789e943591a1168f447e7230b941339
-    new: 4608627c6ea7959bf0ff7359c3f06d659a7b70a6
-    log: revlist-ddd10f1e6789-4608627c6ea7.txt
+    old: 4608627c6ea7959bf0ff7359c3f06d659a7b70a6
+    new: a31cf11051a01dbb4e590a480031e8f998640aa6
+    log: revlist-4608627c6ea7-a31cf11051a0.txt
   - ref: refs/heads/queue/6.6
-    old: 99223b28a5ce070ada6f867af673666a363d0c51
-    new: 7fb04686137fb70520738809aebe7d4e95d1c672
-    log: revlist-99223b28a5ce-7fb04686137f.txt
+    old: 7fb04686137fb70520738809aebe7d4e95d1c672
+    new: 156a800137e3a1b09fc14e897050c155553d2d6b
+    log: revlist-7fb04686137f-156a800137e3.txt
 
---===============4504469993775176449==
+--===============1375202898916146558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb977538abb7-884afd4d0a24.txt
+Content-Disposition: attachment; filename=revlist-884afd4d0a24-1d7aa2abce40.txt
 
-59c282ac87d9af2936cb31e76dac015e007e518c net/sched: sch_qfq: Fix null-deref in agg_dequeue
-170a5a817ccd881c36d4273fba1b2bbee47dadc8 perf: Have get_perf_callchain() return NULL if crosstask and user are set
-9dc350e4654ed53f5355befa67a49cd255be7788 x86/bugs: Fix reporting of LFENCE retpoline
-bf81a0354d64440b3f6a1565b2e86fe0da371683 EDAC/mc_sysfs: Increase legacy channel support to 16
-815a8aa1314e5c0d6b3628cc719164e2e4534881 btrfs: zoned: refine extent allocator hint selection
-d7e2fae9f3d559f8383fdb2fc0a2d3c50c16dbe1 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
-443d6201c6977caa1830a45fe06c3e0428e88daa btrfs: always drop log root tree reference in btrfs_replay_log()
-987e7d8cfb89d0d76de24f74e8312b6e8264016c btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
-42f3b290c8223ce273f7ed70b945a05c0977b22b arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
-143ad3180895dd84f53b131df6d1887b08b1d0f1 mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
-0a729fa5be3c7cd44a5d802fe88c3d92f876bbd9 dt-bindings: usb: dwc3-imx8mp: dma-range is required only for imx8mp
-2e0812d688fff815e4e69dd85f0813a603eb824a selftests: mptcp: disable add_addr retrans in endpoint_tests
-2b68dcd40ac26637d9e78133e4bd1a27e606d613 selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
-3ff02b5ec8f5342e1da72c1c4b8f440a3dd7bb09 xhci: dbc: Provide sysfs option to configure dbc descriptors
-78e341d16e700d8c52cfa4fa72077cb79328deb8 xhci: dbc: poll at different rate depending on data transfer activity
-935ed99f42848bab835af169e8691e05035bb8e9 xhci: dbc: Allow users to modify DbC poll interval via sysfs
-534c827b6d555fa4bce9143cdea9f2be31351d73 xhci: dbc: Improve performance by removing delay in transfer event polling.
-a7465b5fcb77a43f7de711214b672a32cadcc330 xhci: dbc: Avoid event polling busyloop if pending rx transfers are inactive.
-e95a3de7424e8fba1b3790a06f85fb5812c1387a xhci: dbc: fix bogus 1024 byte prefix if ttyDBC read races with stall event
-8b2af6bd619404f024822e338f53f02e876c3858 serial: sc16is7xx: remove unused to_sc16is7xx_port macro
-9a3c07d13ba5d8949b48a3eddcfaa969dcb1d277 serial: sc16is7xx: reorder code to remove prototype declarations
-c3d32f0f41b6e82a607f4531fa49674d6dd94005 serial: sc16is7xx: refactor EFR lock
-884afd4d0a242acfbb38bcf2409ee4956ac8c534 serial: sc16is7xx: remove useless enable of enhanced features
+0dec50228217e05abe01e7fe9a76ad5c6758ac19 net/sched: sch_qfq: Fix null-deref in agg_dequeue
+cfa2fa002fa25c65ff2d005ec460206936b223fc perf: Have get_perf_callchain() return NULL if crosstask and user are set
+6cd3dc6533931bb9a40879d9e6e24ae4e3d03917 x86/bugs: Fix reporting of LFENCE retpoline
+4f1544a66ca9fedff9d11568483c6b785d5b8bf0 EDAC/mc_sysfs: Increase legacy channel support to 16
+f1f4a88e80828e9469aa61bf5f0e3e9c0511ba1c btrfs: zoned: refine extent allocator hint selection
+ff4cace3211b22d636ad33c780ece4be1b48d482 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
+36178be3cc459ec8281afb91e9a38567e3d91808 btrfs: always drop log root tree reference in btrfs_replay_log()
+818c6d425af9ec8ba9b4c197ea1c7728c3062d64 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+ca268bb5b7c398ef38dd4668683beb7116a2817e arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
+0e1e6fee876820256efbcefc03ac9b2c85cf5adc mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
+3d3f0d2f99f48f2279b3f57ddfcf8b7c82b497f1 dt-bindings: usb: dwc3-imx8mp: dma-range is required only for imx8mp
+e9384d1823cdd9b3d0b4fc52ad700aa01f695535 selftests: mptcp: disable add_addr retrans in endpoint_tests
+7e3a3fd70582a5a16fa4ce933fcaad95d434ddf0 selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
+9b62bf1c9047d11759e646c5959257afe0f8a369 xhci: dbc: Provide sysfs option to configure dbc descriptors
+90575d07683f529f003a50aac4565f9fd5f8fe9b xhci: dbc: poll at different rate depending on data transfer activity
+eaf492271eed0fad47a2e5146d62617911287161 xhci: dbc: Allow users to modify DbC poll interval via sysfs
+2d058886a78659b8103317ec6cc239e3a91393ef xhci: dbc: Improve performance by removing delay in transfer event polling.
+1f8fd7ed94accb46fa7597e65245a90e9ae896e4 xhci: dbc: Avoid event polling busyloop if pending rx transfers are inactive.
+67f27e6b05323e0b19aaf2fffe979bbfff973468 xhci: dbc: fix bogus 1024 byte prefix if ttyDBC read races with stall event
+67ea7eca3de72f33fb19c7e650634f4e58e418d4 serial: sc16is7xx: remove unused to_sc16is7xx_port macro
+cfd4a10fe5348ae66ad615090164b855c7477ae9 serial: sc16is7xx: reorder code to remove prototype declarations
+0f49133a90313f4a1bac5f656a3c3680cfe046e5 serial: sc16is7xx: refactor EFR lock
+1d7aa2abce40001fcca778d0bbbaaaab3f38a0a0 serial: sc16is7xx: remove useless enable of enhanced features
 
---===============4504469993775176449==
+--===============1375202898916146558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fec28b87094-644830dd78ad.txt
+Content-Disposition: attachment; filename=revlist-644830dd78ad-e23f9aa3e70a.txt
 
-3df20749fbbe1066378a870b353968709a4579c5 net/sched: sch_qfq: Fix null-deref in agg_dequeue
-6301c9df762f18f072879ff8cdcbf37ae3a39e98 audit: record fanotify event regardless of presence of rules
-9d459f13c277a1d3d7e639c44eccec267104d6b5 perf/x86/intel: Add ICL_FIXED_0_ADAPTIVE bit into INTEL_FIXED_BITS_MASK
-c012ce29e5879e973316d5ba402410b1e8f4f962 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
-d62d354f33f9c1d84c6c984b8e48ea26635bfff3 perf: Have get_perf_callchain() return NULL if crosstask and user are set
-11268ed2fea09b7fe80df31e06dc29ef4435e2a8 perf: Skip user unwind if the task is a kernel thread
-81192fb8662fa274fb66cc22842aafc126cd9a53 seccomp: passthrough uprobe systemcall without filtering
-a557fdc770111361f5485ad44549a02501cce8ff x86/bugs: Report correct retbleed mitigation status
-668c67a0b5d38cb3501b8b447c6d5b88dc5a2616 x86/bugs: Fix reporting of LFENCE retpoline
-cf3deea7a0ebb33b3a20911cefb1f4c578fc4b6a EDAC/mc_sysfs: Increase legacy channel support to 16
-e211ad8fc4399fb356e152e034b6d277afc4f26e cpuset: Use new excpus for nocpu error check when enabling root partition
-1c7498623396ecaa04ac506f7824a418e6bfa851 btrfs: abort transaction on specific error places when walking log tree
-c7dd1f228f74cb42c6c7a94a2ed193921a941a7c btrfs: abort transaction in the process_one_buffer() log tree walk callback
-aa825304e59379abacf0111a6c3cd68c415ad497 btrfs: zoned: return error from btrfs_zone_finish_endio()
-8ab6f8af53c54ec599b758fe777e9f384a227929 btrfs: zoned: refine extent allocator hint selection
-c8de7e5ea1740a71a5d92f0467904a742af02122 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
-b04c94ebe10326f6ed5b234c9359836d8193c02d btrfs: always drop log root tree reference in btrfs_replay_log()
-7bc5c3db673b12c2fa8cd25a45fa362863181986 btrfs: use level argument in log tree walk callback replay_one_buffer()
-867de143c76d92ac3869649a443412b617900d81 btrfs: abort transaction if we fail to update inode in log replay dir fixup
-0ebd23961a9ba6fece5d97b906fff0c4fb9f1429 btrfs: tree-checker: add inode extref checks
-d9829a9115bb6056f795a95650b5243842dd77bb btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
-dcf1a64b229c9934c04589c33f533b558ee600ec sched_ext: Make qmap dump operation non-destructive
-e317b9272f76365ff59255b4defdcd6387e020f2 arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
-cfbb9ab5d3cbaa7b792fadefe14f4cb2a4f6dd4f docs: kdoc: handle the obsolescensce of docutils.ErrorString()
-72894f0e65ffc3657d798d3abcbc21b12c5dbff0 selftests: mptcp: disable add_addr retrans in endpoint_tests
-0a7c9fd17ca765c9d4d0d9870f6260338c9041e1 selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
-eae6bc240e9efc64e657298116071e15662f750c mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
-6fc842f01d6cfa3f305425313487a87733bb3606 f2fs: fix to avoid panic once fallocation fails for pinfile
-c2b7bbcee743c61b777b61aadd9a8e4d14c8877a wifi: cfg80211: Add missing lock in cfg80211_check_and_end_cac()
-e6f58c651a14e8305a51e7e377974d86bd2d2272 bonding: return detailed error when loading native XDP fails
-644830dd78ad7169c808568524ad6e222e0212db bonding: check xdp prog when set bond mode
+afd8fde1e0637b519b58d8fbdecb42cb0f502f22 net/sched: sch_qfq: Fix null-deref in agg_dequeue
+f74d3479798d0e387d61c41113f33688009878f1 audit: record fanotify event regardless of presence of rules
+4f04355aa97f54eefe259285f4b03b1bc249275e perf/x86/intel: Add ICL_FIXED_0_ADAPTIVE bit into INTEL_FIXED_BITS_MASK
+b8eb0dc4509051bfd858a86b66150e391f938935 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
+f60e3fdd002fea1df60d859729c4ffbe0f8b56d9 perf: Have get_perf_callchain() return NULL if crosstask and user are set
+071d49da610c8998e59ab5eac04c69cc5902592e perf: Skip user unwind if the task is a kernel thread
+253144d17d8cf8dec433be0b7134f851d529a23d seccomp: passthrough uprobe systemcall without filtering
+f6fd0a3a66069788d06d4b358c197026accc1a62 x86/bugs: Report correct retbleed mitigation status
+4ec336432fac0e0584a029ee74657bf8fee1ba60 x86/bugs: Fix reporting of LFENCE retpoline
+31dd392d6ca08d00ac74e4d351cd917eda0bb477 EDAC/mc_sysfs: Increase legacy channel support to 16
+01c8319a3ed4e92ace771f3186cfbd1e9c77772e cpuset: Use new excpus for nocpu error check when enabling root partition
+50f3383ed2acaf9ab086dddead7b6050079c0452 btrfs: abort transaction on specific error places when walking log tree
+a51e4f3cc5b7f9ca7a2cafbece0211728a2e8019 btrfs: abort transaction in the process_one_buffer() log tree walk callback
+44d79d552c2d4b1e9d7ab792c0607ea6eca4b6cf btrfs: zoned: return error from btrfs_zone_finish_endio()
+a130d93414b4e93131dbb5f17119496f5cd3ed03 btrfs: zoned: refine extent allocator hint selection
+29beacffb58bb4d4cdc5030869006a37411070b5 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
+75b817525dfd45b59aec3e51d503944cd70b3878 btrfs: always drop log root tree reference in btrfs_replay_log()
+bfa2e849a5b3acf27bf8bd5a246818638d93be34 btrfs: use level argument in log tree walk callback replay_one_buffer()
+5fea909808df8bd2d331afc516b838f6bef9fd42 btrfs: abort transaction if we fail to update inode in log replay dir fixup
+8912e9720e4b3dcec9aadc97658ec3c63858e184 btrfs: tree-checker: add inode extref checks
+66d41634d06e6f03abec4190ab6669262926351f btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+4ef0509bb14e0e3156ecf49c6164de860a4a23af sched_ext: Make qmap dump operation non-destructive
+0870b90218adf1bfa1c7e278e46418c668e8a34a arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
+874a1ab1c9277188285abdbeb56a376c0ceed873 docs: kdoc: handle the obsolescensce of docutils.ErrorString()
+4818cfa7ee40d493d2f625444ba3940860065af1 selftests: mptcp: disable add_addr retrans in endpoint_tests
+24c0b7ea0abec6b30348e0bb6b862d7e61e02e11 selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
+d19470a27f4b28f6ab4214ce1eaa6286af8501c8 mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
+72772faaa86be806bbbc8f40f6cc662690bf0393 f2fs: fix to avoid panic once fallocation fails for pinfile
+4565c73043274e5d35d32d35f6f96996a6f15746 wifi: cfg80211: Add missing lock in cfg80211_check_and_end_cac()
+1ac03b2e80a691bfb250a8f7140a58f497a2028b bonding: return detailed error when loading native XDP fails
+06b1533015079fb99cd14718ea48db13c64c1260 bonding: check xdp prog when set bond mode
+896a8f4b49c4a3a9d9320a2fcbe20e9f2bf63d68 bits: add comments and newlines to #if, #else and #endif directives
+9e15201004323112e4da5ef25741da9380678f12 bits: introduce fixed-type GENMASK_U*()
+bfb16cc8099db1c63fb60da48973bbeb7b3d7030 gpio: regmap: Allow to allocate regmap-irq device
+5a54d2e6bab7a078c6154e13856215a42e13a556 gpio: regmap: add the .fixed_direction_output configuration parameter
+038fd11401b4d05a6b6853fa21e30c58bba3aeec gpio: idio-16: Define fixed direction of the GPIO lines
+b106cdd718465a45cc831c351b3ebfbba2e054e4 iommu/vt-d: Avoid use of NULL after WARN_ON_ONCE
+2b78553e72a0d4457b33a2362d21e7008f5cf9a1 wifi: ath12k: fix read pointer after free in ath12k_mac_assign_vif_to_vdev()
+09e9cb4005c55f014fc4e053cbc4465ab20e9c54 udmabuf: fix a buf size overflow issue during udmabuf creation
+e23f9aa3e70ab1051980021699ee864034082fbf sfc: fix NULL dereferences in ef100_process_design_param()
 
---===============4504469993775176449==
+--===============1375202898916146558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ddd10f1e6789-4608627c6ea7.txt
+Content-Disposition: attachment; filename=revlist-4608627c6ea7-a31cf11051a0.txt
 
-49b56440eb1875692fbeaab16ef6b3244551e34e sched_ext: Move internal type and accessor definitions to ext_internal.h
-3e3bcd301e24c15c838ac5bd7f0154e86b470b54 sched_ext: Put event_stats_cpu in struct scx_sched_pcpu
-57760ee165c68ad3db54297846d05831c8658352 sched_ext: Sync error_irq_work before freeing scx_sched
-a074d8a0dfa707ecf8974eb258ab7848c1fa8ea7 timekeeping: Fix aux clocks sysfs initialization loop bound
-00f53ecc02dc0580c62ccbb1205c62a4130d43f4 x86/bugs: Report correct retbleed mitigation status
-67e718903cd75411c0f1a46db77eec48c68e5879 x86/bugs: Qualify RETBLEED_INTEL_MSG
-ec8af791dccb991c065bc7af613abb75d78d0a3c genirq/chip: Add buslock back in to irq_set_handler()
-ce8dec05c5114313580f598f604b78685ca46ca8 genirq/manage: Add buslock back in to __disable_irq_nosync()
-65e260e5e8b19d72e67f7083e81eaa6926014112 genirq/manage: Add buslock back in to enable_irq()
-7e3f5d1ea9bb9d6295befe78d1e0befa9157589f audit: record fanotify event regardless of presence of rules
-ad8ca0891326fc72f496592cb08edd0a580187b1 EDAC/ie31200: Add two more Intel Alder Lake-S SoCs for EDAC support
-26466a07004248c6500644747d7b644972f8bb6d perf/x86/intel: Add ICL_FIXED_0_ADAPTIVE bit into INTEL_FIXED_BITS_MASK
-60e117945df73f60b84c9fd0c4174d9b99874055 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
-37938bf227a71ef4b545a2bed9f021c880f308c8 perf: Have get_perf_callchain() return NULL if crosstask and user are set
-96f5fabc9d96a3fef84236a1e33df8fba2a46834 perf: Skip user unwind if the task is a kernel thread
-57c3c7c5b3275b9b4283cf46f297fef6586b7236 EDAC: Fix wrong executable file modes for C source files
-e70387cf52f1f115ec62c8d89a6d0c49c435529d seccomp: passthrough uprobe systemcall without filtering
-df5315471f682af8cb5aaaa3d0938b4c2ed1f029 sched_ext: Keep bypass on between enable failure and scx_disable_workfn()
-c1d4a8d628982d04ae5ca97cf63bb7a1aed99044 x86/bugs: Add attack vector controls for VMSCAPE
-6d0fe3789cedd2383e0c3b44ca62eae8c943ef6c sched/fair: update_cfs_group() for throttled cfs_rqs
-e51312c28f933cfcd77cc8938195ebc0d239fa37 x86/bugs: Fix reporting of LFENCE retpoline
-75225abb1d7091771625c81bc6fba9401e7ce5e8 EDAC/mc_sysfs: Increase legacy channel support to 16
-ae1dd67b3317c51c8063822ad193e38725974bab cpuset: Use new excpus for nocpu error check when enabling root partition
-3e8fc81457fb75b34e8f2854393fd4eba59c0bc1 btrfs: abort transaction on specific error places when walking log tree
-be63017daf5a982cda42d8692fdb56a87e47f3d5 btrfs: abort transaction in the process_one_buffer() log tree walk callback
-f7e9ba3379b9c7813e23f8982e15b9a9a5663842 btrfs: zoned: return error from btrfs_zone_finish_endio()
-0ce4a5f004fd578d36e3b1704c199190f0454c3d btrfs: zoned: refine extent allocator hint selection
-369272a334d2f46a8110211032ebd10a4eb7c9ec btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
-bbd6a93b61ad88945b46dd252c8ef3f9da5d1b96 btrfs: always drop log root tree reference in btrfs_replay_log()
-0c550717284ff4ff8e53761eb9b0f44e973d7e64 btrfs: use level argument in log tree walk callback replay_one_buffer()
-2263efaddd124dcbca2b67360d538c84ade6f683 btrfs: abort transaction if we fail to update inode in log replay dir fixup
-a153b35ee5d6c5a1b7589c39560a0b57937685fe btrfs: tree-checker: add inode extref checks
-ac56836e0c1cdc1a65080e3adc4281c43d9e52fd btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
-90b904c7cd181fb524f3d489456797a2bcea083b sched_ext: Make qmap dump operation non-destructive
-4608627c6ea7959bf0ff7359c3f06d659a7b70a6 arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
+dba152221b2310858066f596ea3466791475bee2 sched_ext: Move internal type and accessor definitions to ext_internal.h
+0acab3794fbb6ce7b97382e2a3e9bb6b00e3cbf5 sched_ext: Put event_stats_cpu in struct scx_sched_pcpu
+10e91d664a37bb9c63191457195af7b677d7d940 sched_ext: Sync error_irq_work before freeing scx_sched
+94e37a4256ed7297336fbea7327d1a3e2afe37c4 timekeeping: Fix aux clocks sysfs initialization loop bound
+b8e8a8404feca5bad56cfe16ed05a680f79f61b2 x86/bugs: Report correct retbleed mitigation status
+9aa6a03fdc258c6f9073f54aefb474cd4d6a0105 x86/bugs: Qualify RETBLEED_INTEL_MSG
+beaa423654211ccb2f5a293662dd16f84a5cc83d genirq/chip: Add buslock back in to irq_set_handler()
+a1802438d614871d34b9a8ab81d6fd29f6a2a620 genirq/manage: Add buslock back in to __disable_irq_nosync()
+2075aeb260aa704c377dfd18dd7a20d3273c4f4e genirq/manage: Add buslock back in to enable_irq()
+a02ec3f06a07658b514ddd1b11c7b488838aa0aa audit: record fanotify event regardless of presence of rules
+da7e31496943a6361ac4f09ff3878e4c86d3dbc3 EDAC/ie31200: Add two more Intel Alder Lake-S SoCs for EDAC support
+05c59ce6a45c79435908599f0cc5bb01762c8f4f perf/x86/intel: Add ICL_FIXED_0_ADAPTIVE bit into INTEL_FIXED_BITS_MASK
+86db587aa40492974bf86af4b02df9f4c9af83f4 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
+6d5dee76443f1a66e14a4b691e8cb61f998f0c2f perf: Have get_perf_callchain() return NULL if crosstask and user are set
+1791ab3c81e70e5edac7eadcd6497cded24838dd perf: Skip user unwind if the task is a kernel thread
+683827586cff2107aa09fd5aefb28b541177db32 EDAC: Fix wrong executable file modes for C source files
+a59d501b12845daee6341c56cf044b7b5dd8bae8 seccomp: passthrough uprobe systemcall without filtering
+f6c034fb2d866d5a90227eb3c9c804cc644c4ca0 sched_ext: Keep bypass on between enable failure and scx_disable_workfn()
+274f14f66b121a233ed6f61b8c48154e05cde36d x86/bugs: Add attack vector controls for VMSCAPE
+9cbf13bf1d93616e48a63060f5ab7f831382c7b3 sched/fair: update_cfs_group() for throttled cfs_rqs
+e83f93ae717fb37ce0138c9c7268af18ddd5ab68 x86/bugs: Fix reporting of LFENCE retpoline
+5fcd24e0a238259b08e819c0cb5dec87b7f0ca84 EDAC/mc_sysfs: Increase legacy channel support to 16
+b5648a7211ae2e6104c2f28ce5bde325bbc4269c cpuset: Use new excpus for nocpu error check when enabling root partition
+a0fa4ea5ab35d54acf6e544d1bfedc8d30ed2c76 btrfs: abort transaction on specific error places when walking log tree
+fe8b24510abdce0e42963a1208bdb319f9dd4635 btrfs: abort transaction in the process_one_buffer() log tree walk callback
+18bf44181d794d07a7a8ebdc30107f745077dbe7 btrfs: zoned: return error from btrfs_zone_finish_endio()
+16842c17b48101e1369134b49562412f494ca72b btrfs: zoned: refine extent allocator hint selection
+f16c3de343e2040bba722cfa2aab860a2384d1c6 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
+0239b0fed166f35e9de409496b2ce48218202692 btrfs: always drop log root tree reference in btrfs_replay_log()
+6f5fc151d589cadac061d7bca1e94d0778cfb6bb btrfs: use level argument in log tree walk callback replay_one_buffer()
+2cde1eaaf4d439b69ea2a385d28c156ce63f396a btrfs: abort transaction if we fail to update inode in log replay dir fixup
+4770bfa499f51694d8f09af0ff598a584079a242 btrfs: tree-checker: add inode extref checks
+b1a2baf40a1cb97b0763124c7bdaf50557f153f2 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+52b1491e4e7e03a15cf379fde0e30af8fcd0175c sched_ext: Make qmap dump operation non-destructive
+a31cf11051a01dbb4e590a480031e8f998640aa6 arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
 
---===============4504469993775176449==
+--===============1375202898916146558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99223b28a5ce-7fb04686137f.txt
+Content-Disposition: attachment; filename=revlist-7fb04686137f-156a800137e3.txt
 
-324e954b8295b9fda7d3408140c716ad043ecd25 net/sched: sch_qfq: Fix null-deref in agg_dequeue
-6ebf51f8ccff63876fb1eb5cdfac9691ba7e74ac audit: record fanotify event regardless of presence of rules
-6c87447b3e075278393b2c6107b1802c25c853b1 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
-c9208918ee5de2467288ffba84530d6cc1c20c5e perf: Have get_perf_callchain() return NULL if crosstask and user are set
-0d2b5eb6433e96e227e73f9ca3f73d22ed7703b2 perf: Skip user unwind if the task is a kernel thread
-19ce1dade6c6e72d1d01daf4e189fb7ebd588e45 x86/bugs: Report correct retbleed mitigation status
-dc2113039980cd152cf86a8d8e506e03cd9f5fe6 x86/bugs: Fix reporting of LFENCE retpoline
-ab0e200faef2c090da0fa203193979f581511864 EDAC/mc_sysfs: Increase legacy channel support to 16
-129a69534b87a7c3b8b0da7664e644087d8989ab btrfs: zoned: return error from btrfs_zone_finish_endio()
-4e5dd628be16015964a3b7fa4684ba35d61e4367 btrfs: zoned: refine extent allocator hint selection
-bd8dcf9227203fd788224a6668cca7e62ac2724b btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
-76244bd64bc752cd867640166d31be9c7c79a3ca btrfs: always drop log root tree reference in btrfs_replay_log()
-42c475d246a9302adbe54d0334cbc8fcd0ec8114 btrfs: use level argument in log tree walk callback replay_one_buffer()
-40f2a7c16b0dad79a2d284a54c39f207b23b4707 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
-7a308b7622cea3c1a240c2f8e65cfa8fcee5aeee arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
-192a7272fd2c0c66b265e789c776842db0f17a75 mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
-5fb84b9794ed08b6c353f5046ded23d88b78fd46 selftests: mptcp: disable add_addr retrans in endpoint_tests
-581c20ca81893c0f1d6a498bf620c4c934581b7c selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
-8c3a2f1e9837811454fd37540fcc142b768ffcd9 serial: sc16is7xx: remove unused to_sc16is7xx_port macro
-0103f9378489eb74ea9b8d206eb5975742af4311 serial: sc16is7xx: reorder code to remove prototype declarations
-af5a620aa8395bc392c39c201f3ce5b6142b9145 serial: sc16is7xx: refactor EFR lock
-3e7e65ebb7176de79bdb42e803949f840853a7bd serial: sc16is7xx: remove useless enable of enhanced features
-689ee38447d6294772d5ae8ce32c7755c7c3d402 xhci: dbc: poll at different rate depending on data transfer activity
-afd7e0c2f2ce0e492309c2ec6e499a9a66451718 xhci: dbc: Allow users to modify DbC poll interval via sysfs
-e8a4cd8ba5efa086c75293b197bb9a38a9706f1f xhci: dbc: Improve performance by removing delay in transfer event polling.
-6fdeb5d620845ab725c77a01a38e6bbbea2c4d65 xhci: dbc: Avoid event polling busyloop if pending rx transfers are inactive.
-7fb04686137fb70520738809aebe7d4e95d1c672 xhci: dbc: fix bogus 1024 byte prefix if ttyDBC read races with stall event
+d4dd8b3128566b786331ea0e32272d81dc547916 net/sched: sch_qfq: Fix null-deref in agg_dequeue
+27c19d2b224a36f717249bd7c01637a7677e8f40 audit: record fanotify event regardless of presence of rules
+6c881293a65b965c93170a1a957042d8d2cbbffd perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
+2deed815ac3540047e091b09e7d43699b0545e4d perf: Have get_perf_callchain() return NULL if crosstask and user are set
+96f8f88f92e7be0cd835758935476cbeb99a7e2f perf: Skip user unwind if the task is a kernel thread
+205439df3218103698f4206730d4409dc19ae7c4 x86/bugs: Report correct retbleed mitigation status
+8e486175da186b06193c61b7f2cccb88e9b7765a x86/bugs: Fix reporting of LFENCE retpoline
+dfafd0e0a9f8f40b196f5902ebd26832794801db EDAC/mc_sysfs: Increase legacy channel support to 16
+f36297fec142685bb2c781ec0912081a371ea2b8 btrfs: zoned: return error from btrfs_zone_finish_endio()
+84a856747782295ec830f78e16aae98b60db98df btrfs: zoned: refine extent allocator hint selection
+018ab8feb9844769101993f35df0ab659925ee5e btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
+1aee3d52169f42ad9f00460296d151d113b0ed60 btrfs: always drop log root tree reference in btrfs_replay_log()
+f22fc4bd3ab7ea5a0bbaa6d47c26abef895ddcde btrfs: use level argument in log tree walk callback replay_one_buffer()
+db71d439567a8c1464bf6482fcaa1802234f6582 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+b96443bd07622f252193661359ad2706ba1fc33d arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
+2a1ef7f3a1954002abda9543e11293f011330885 mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
+ab29c45e78324d6f81a9b6ece6e58c3e0de77a84 selftests: mptcp: disable add_addr retrans in endpoint_tests
+1a7d2c07c3b54df4edc9d08fa3f70754888e471e selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
+2debca0b2c7ec0c8dab5f027542e250991d3989a serial: sc16is7xx: remove unused to_sc16is7xx_port macro
+4bb0bb1ffe0d5452bb192ceab457df7255f6156a serial: sc16is7xx: reorder code to remove prototype declarations
+99be513c6bb20cef00f64c8217353517e96814a7 serial: sc16is7xx: refactor EFR lock
+5b56bb90e072f2256847238881cbac390e748290 serial: sc16is7xx: remove useless enable of enhanced features
+3567d5ebfac75ae2c2e5e612a7f5d6e9960b0e4f xhci: dbc: poll at different rate depending on data transfer activity
+349354e5845932fb0713f0de0a37e68292ef6f5a xhci: dbc: Allow users to modify DbC poll interval via sysfs
+32085d09ccd89bc92c31e256ec99855af0518498 xhci: dbc: Improve performance by removing delay in transfer event polling.
+1799c83c7b4a255ff436fbc9c1fe447e98922e29 xhci: dbc: Avoid event polling busyloop if pending rx transfers are inactive.
+156a800137e3a1b09fc14e897050c155553d2d6b xhci: dbc: fix bogus 1024 byte prefix if ttyDBC read races with stall event
 
---===============4504469993775176449==--
+--===============1375202898916146558==--
