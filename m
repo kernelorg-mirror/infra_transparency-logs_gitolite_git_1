@@ -1,105 +1,188 @@
-Content-Type: multipart/mixed; boundary="===============5932967610676779564=="
+Content-Type: multipart/mixed; boundary="===============8939486844053841260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 31 Oct 2025 18:00:36 -0000
-Message-Id: <176193363638.764235.8267199945351813825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 31 Oct 2025 18:01:15 -0000
+Message-Id: <176193367536.764695.2871152456500799105@gitolite.kernel.org>
 
---===============5932967610676779564==
+--===============8939486844053841260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/rseq/slice
-    old: c46f12a1166058764da8e84a215a6b66cae2fe0a
-    new: 874a2fa8d31bc2c56ed1aa21938ece6198d478e3
-    log: revlist-c46f12a11660-874a2fa8d31b.txt
+  - ref: refs/heads/master
+    old: e53642b87a4f4b03a8d7e5f8507fc3cd0c595ea6
+    new: b909d77359b82821e1c6b6a3a8a51b355b06fdb5
+    log: revlist-e53642b87a4f-b909d77359b8.txt
 
---===============5932967610676779564==
+--===============8939486844053841260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c46f12a11660-874a2fa8d31b.txt
+Content-Disposition: attachment; filename=revlist-e53642b87a4f-b909d77359b8.txt
 
-3a1038ba680ec456f16351b4e3c6070bd188f3ba ARM: uaccess: Implement missing __get_user_asm_dword()
-038f075116cff94748fabffcbf82098dfb30e4ea uaccess: Provide ASM GOTO safe wrappers for unsafe_*_user()
-184d3e95d9462fd19d3f2af9faec78956d8111c1 x86/uaccess: Use unsafe wrappers for ASM GOTO
-7ff2ded4692389e9ccb4b488b3f80115a17538af powerpc/uaccess: Use unsafe wrappers for ASM GOTO
-0df75de22faf60074269148a57285b12eb6a8bfb riscv/uaccess: Use unsafe wrappers for ASM GOTO
-ef05392b145d26e37062a4c7eaee59f1f411e910 s390/uaccess: Use unsafe wrappers for ASM GOTO
-65a32ab4860d435c86821202089423a8f42bb43f arm64: uaccess: Use unsafe wrappers for ASM GOTO
-a358449984ac2d022e881f03ed8b7747e496341e uaccess: Provide scoped user access regions
-69f87c3fcb35840505e8be598e1e4e6517e8df09 uaccess: Provide put/get_user_inline()
-bd1fc775833b49270b84d6255da876915f71df8e futex: Convert to get/put_user_inline()
-c99320850813e8dba65093fddebdd7163440df3d x86/futex: Convert to scoped user access
-021f01f969e2a3ef3a719bdd3a0d214c0b584b3c select: Convert to scoped user access
-b4ed0b57d56d1b1c9160dd7f140bf8fb2323203c rseq: Avoid pointless evaluation in __rseq_notify_resume()
-f65db5db36d10c63ec0dc13f244284aa7eb31802 rseq: Condense the inline stubs
-cb8169c245266278bd985246f16df69ad5bdde5c rseq: Move algorithm comment to top
-a61fda4c2123951f4c73c535cf70071260f8d3df rseq: Remove the ksig argument from rseq_handle_notify_resume()
-ef20b2b04a9ce22aef2944ad8ebd7663ac4c87d6 rseq: Simplify registration
-9d921fbd433ecb4f1f5f586421e4922ddd7bc493 rseq: Simplify the event notification
-ec75d0631c312e68fbc9b5e38c53da91d5243821 rseq, virt: Retrigger RSEQ after vcpu_run()
-acf708e68f8edaeba5a4088da46372f83e117a17 rseq: Avoid CPU/MM CID updates when no event pending
-46c35c93b1c4234e50754e6d012befd54ecda107 rseq: Introduce struct rseq_data
-c356a6429465d172853013a6d45d3e67d3d06bdd entry: Cleanup header
-3572912b7e56383b955f46f824cf9373015e6434 entry: Remove syscall_enter_from_user_mode_prepare()
-be6545e7aeda45d9a7333272462f8eb3c5ff2cff entry: Inline irqentry_enter/exit_from/to_user_mode()
-0dda3f99e5f974d8bed450bf4afa80b279b99122 sched: Move MM CID related functions to sched.h
-f0f9afb48e0340686be67b8548da06052f469f2f rseq: Cache CPU ID and MM CID values
-a5a5d2f505b7a33229e0d251de1c74d861e0751f rseq: Record interrupt from user space
-47ea620da35a7a12cf75d8a1c2ce3ba41a9492d4 rseq: Provide tracepoint wrappers for inline code
-499ac6482432fb5ec19223936589ae10d914ee81 rseq: Expose lightweight statistics in debugfs
-5427acb1737e85f6e032da5c2074e714560cf6bb rseq: Provide static branch for runtime debugging
-cc0b3be8ba4bdea1847b0bed8f2a3e765eb353a5 rseq: Provide and use rseq_update_user_cs()
-a01215b17a24a8dca02feabacb1d2052e39d321c rseq: Replace the original debug implementation
-09cc0d20444f42bbd81163158a18da0c53cdc7ff rseq: Make exit debugging static branch based
-4b5ec179c68ae7d480faafb839052346c3b83b2d rseq: Use static branch for syscall exit debug when GENERIC_IRQ_ENTRY=y
-f5eebbbd6d10ed5bc9671c3161d991d39e543f96 rseq: Provide and use rseq_set_ids()
-c22ebf0105960b087284eae04d61813ecc58f1cd rseq: Separate the signal delivery path
-5722c941e8d7a718c0d3031a1bc211f0747db9b1 rseq: Rework the TIF_NOTIFY handler
-b510f525e611aac4d963177fdf2f4d0717ce86ab rseq: Optimize event setting
-4861736c35bbdc3906543af958c448761746cf86 rseq: Implement fast path for exit to user
-d9113feb93793ab621e1e888ae6ec74aac8848a8 rseq: Switch to fast path processing on exit to user
-06c18dbc87a05c620970d9a3f5554fc842194b73 entry: Split up exit_to_user_mode_prepare()
-69e129357cdfb93679d0ad85fc75e9f029f772ad rseq: Split up rseq_exit_to_user_mode()
-6d14ef50a349c71843aadc4408ab0964a773847c rseq: Switch to TIF_RSEQ if supported
-a68f8bdf7e9213d805bbc6f500363a75077ff72b sched/mmcid: Revert the complex CID management
-9fe9843732a533958b8203c05029a7a3dd61a477 sched/mmcid: Use proper data structures
-e51d4f6fd1593852d81add62d841b6e5dfb4ae9a sched/mmcid: Cacheline align MM CID storage
-76e3eca73026ee43d5647c243cc75fd9407f2ae9 sched: Fixup whitespace damage
-6ee2a613c2fb782c6853bda88c4ec29a812c2e9b sched/mmcid: Move scheduler code out of global header
-21777cbc91c4527f78fb023af7653a40ed0c1c6b sched/mmcid: Prevent pointless work in mm_update_cpus_allowed()
-fb2a1879dfb41ec2f5c7425344814f15178301c9 cpumask: Introduce cpumask_weighted_or()
-0cddbf2623f0ea778560abf604697fe8e56ccb55 sched/mmcid: Use cpumask_weighted_or()
-062451b0e7535f465e755354d2a410c841bfc2a4 cpumask: Cache num_possible_cpus()
-adc1d776630c5dfdc78eea1d180c8be157ac7a77 sched/mmcid: Convert mm CID mask to a bitmap
-7c29fcb8efeb55d903fc3c2d4b873bf18baf337e signal: Move MMCID exit out of sighand lock
-e19798910aee6f7d0fc0a0f53391aa905edc4405 sched/mmcid: Move initialization out of line
-e5a8f39aef1dc48a6e3fdd8bf82a1c3f0dcb3094 sched/mmcid: Provide precomputed maximal value
-928df55ae58d651c9bb108b3bd6d316f159be0bc sched/mmcid: Serialize sched_mm_cid_fork()/exit() with a mutex
-b5f419971a3559fccdf37b2f344d57d0d5080d09 sched/mmcid: Introduce per task/CPU ownership infrastructure
-735e937f7ee0aaf219c3819d330e7b5ccb314bd6 sched/mmcid: Provide new scheduler CID mechanism
-0f0be5ef4e3b7beba63290745003abce754d0570 sched/mmcid: Provide CID ownership mode fixup functions
-e4a73c0b2576e39eb0c2049ca8a7633dc5ea9356 irqwork: Move data struct to a types header
-356cc744bd41d6593dff0dc6787a3cfb7c9bd238 sched/mmcid: Implement deferred mode change
-870c1793316eddb6f8c9814f830f237e6e1c40ee sched/mmcid: Switch over to the new mechanism
-67626b268acd88e93276a0bdec171ff8f25a1117 sched: Provide and use set_need_resched_current()
-a1ea1b20cf1431e11f15f6f6f2caab0d78c14ddb rseq: Add fields and constants for time slice extension
-52ec76054623ee7fe8ad0e54863b21a96926e8b9 rseq: Provide static branch for time slice extensions
-59ddc03de41b24ba9e02afaa863d23fbd1a713fa rseq: Add statistics for time slice extensions
-0e6b274ac0de05492771281bea6d03ae8cfe7d63 rseq: Add prctl() to enable time slice extensions
-ef1afea659a53179177efe816ab75e0ad9cc5306 rseq: Implement sys_rseq_slice_yield()
-65dff337ff416413c6f511ccd42223b1cc5a0fc8 rseq: Implement syscall entry work for time slice extensions
-f89a3b0504a91de05ca8aef2d2e358e2f2772749 rseq: Implement time slice extension enforcement timer
-557155354e7dcea21dd3dd7f6db1e9713553dac0 rseq: Reset slice extension when scheduled
-e00328c419f4c8112ba44c6af5b2097e2b5f374c rseq: Implement rseq_grant_slice_extension()
-06abadd5a70f894c608715ac35cc89744b6aeadb entry: Hook up rseq time slice extension
-874a2fa8d31bc2c56ed1aa21938ece6198d478e3 selftests/rseq: Implement time slice extension test
+f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
+2e9c1da4ee9d0acfca2e0a3d78f3d8cb5802da1b wifi: ath10k: Fix memory leak on unsupported WMI command
+0eb002c93c3b47f88244cecb1e356eaeab61a6bf wifi: ath11k: Add missing platform IDs for quirk table
+92282074e1d2e7b6da5c05fe38a7cc974187fe14 wifi: ath12k: free skb during idr cleanup callback
+9c78e747dd4fee6c36fcc926212e20032055cf9d wifi: ath11k: avoid bit operation on key flags
+1386d16761c0b569efedb998f56c1ae048a086e2 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 2-in-1 14AKP10
+7963891f7c9c6f759cc9ab7da71406b4234f3dd6 ALSA: usb-audio: fix control pipe direction
+77e67d5daaf155f7d0f99f4e797c4842169ec19e wifi: iwlwifi: fix potential use after free in iwl_mld_remove_link()
+248adfe32bfd75afbcb8f6d4b68f7e0a9fb2c438 ASoC: cs530x: Correct log message with expected variable
+ec20584f25233bfe292c8e18f9a429dfaff58a49 ASoC: cs-amp-lib-test: Fix missing include of kunit/test-bug.h
+ef30cb1304f033eaee3b46e22b8f523446db8f53 ASoC: amd: acp: Add ACP7.0 match entries for cs35l56 and cs42l43
+bf6fb4a272739e0d1b2c570276324142517d1905 ASOC: max98090/91: fix for filter configuration: AHPF removed DMIC2_HPF added
+3bcdbc221d676f871e23da30fd485a76728f55c7 ASoC: Intel: soc-acpi-intel-ptl-match: Remove cs42l43 match from sdw link3
+fdbb53d318aa94a094434e5f226617f0eb1e8f22 ASoC: qdsp6: q6asm: do not sleep while atomic
+607844761454e3c17e928002e126ccf21c83f6aa wifi: mac80211: reset FILS discovery and unsol probe resp intervals
+a2a69add80411dd295c9088c1bcf925b1f4e53d7 bcma: don't register devices disabled in OF
+d3697884672887ced9127be877c9d3d831fb1110 Merge tag 'ath-current-20251006' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+1e1801cab6c7f302baec2a0fe3afe25458d0be7e MAINTAINERS: wcn36xx: Add linux-wireless list
+3776c685ebe5f43e9060af06872661de55e80b9a wifi: brcmfmac: fix crash while sending Action Frames in standalone AP Mode
+ed6a47346ec69e7f1659e0a1a3558293f60d5dd7 wifi: mac80211: fix key tailroom accounting leak
+249e1443e3d57e059925bdb698f53e4d008fc106 wifi: nl80211: call kfree without a NULL check
+69e4b75a5b90ef74300c283c0aafe8d41daf13a8 Merge tag 'iwlwifi-fixes-2025-10-19' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+a0b7780602b1b196f47e527fec82166a7e67c4d0 scsi: core: Fix a regression triggered by scsi_host_busy()
+2551a1eedc09f5a86f94b038dc1bb16855c256f1 kunit: test_dev_action: Correctly cast 'priv' pointer to long*
+6b03360fe9f4e6fd43419487d659c9bd26215953 Add support for Cirrus Logic CS530x DAC and CODEC
+e23ef4f22db30a1e49c8b060e4ebc9dc9ca99c49 scsi: ufs: core: Fix error handler host_sem issue
+6fe4c679dde3075cb481beb3945269bb2ef8b19a scsi: ufs: core: Initialize value of an attribute returned by uic cmd
+35bc3c8ee319083333b758355ffd739a96af5c00 scsi: ufs: core: Declare tx_lanes witout initialization
+d54c676d4fe0543d1642ab7a68ffdd31e8639a5d scsi: core: Fix the unit attention counter implementation
+3293d3d7b08872cf174bb768b890655f1b22526a ASoC: sdw_utils: add name_prefix for rt1321 part id
+b90cafb438874e1419c14dfbcaf60ec7fc6ea353 selftests/cachestat: add tmpshmcstat file to .gitignore
+920aa3a7705a061cb3004572d8b7932b54463dbf selftests: cachestat: Fix warning on declaration under label
+20594cd104abaaabb676c7a2915b150ae5ff093d ACPI: button: Call input_free_device() on failing input device registration
+3ac2939bc4341ac28700a2ed0c345ba7e7bdb6fd crypto: s390/phmac - Do not modify the req->nbytes value
+3c9bf72cc1ced1297b235f9422d62b613a3fdae9 crypto: aspeed - fix double free caused by devm
+79816d4b9e9b9bb03d5d871c04c97b1bce102b14 Revert "PM: sleep: Make pm_wakeup_clear() call more clear"
+cfca1637bc2b6b1e4f191d2f0b25f12402fbbb26 ASoC: Intel: avs: Unprepare a stream when XRUN occurs
+845f716dc5f354c719f6fda35048b6c2eca99331 ASoC: Intel: avs: Disable periods-elapsed work when closing PCM
+64007ad3e2a0e0a0ded8b2c6a72c0bb7883d3a33 ASoC: Intel: avs: Use snd_codec format when initializing probe
+d9fbe5b0bf7e2d1e20d53e4e2274f9f61bdcca98 ASoC: fsl_sai: fix bit order for DSD format
+ba3a5e1aeaa01ea67067d725710a839114214fc6 ASoC: fsl_micfil: correct the endian format for DSD
+8f067aa59430266386b83c18b983ca583faa6a11 ACPI: video: Fix use-after-free in acpi_video_switch_brightness()
+79a6f2da168543c0431ade57428f673c19c5b72f ASoC: mediatek: Fix double pm_runtime_disable in remove functions
+a83155cc4ec5dd8c99edb541dc12d3bd8e97eae9 Merge tag 'wireless-2025-10-23' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+420c84c330d1688b8c764479e5738bbdbf0a33de usbnet: Prevents free active kevent
+1ab665817448c31f4758dce43c455bd4c5e460aa virtio-net: drop the multi-buffer XDP packet in zerocopy
+58764259ebe0c9efd569194444629f6b26f86583 ACPI: fan: Use ACPI handle when retrieving _FST
+d91a1d129b63614fa4c2e45e60918409ce36db7e ACPI: fan: Use platform device for devres-related actions
+a35551a32d8686c0a33a580ebb8c8d6652b7971f ASoC: Intel: avs: Set of streaming fixes
+ad68c0536cfc28c161593ca4c896a6e74435394b ASoC: fsl: correct the bit order issue for DSD
+09b0cd1297b4dbfe736aeaa0ceeab2265f47f772 Bluetooth: hci_sync: fix race in hci_cmd_sync_dequeue_once
+f0c200a4a537f8f374584a974518b0ce69eda76c Bluetooth: ISO: Fix BIS connection dst_type handling
+77343b8b4f87560f8f03e77b98a81ff3a147b262 Bluetooth: btmtksdio: Add pmctrl handling for BT closed state during reset
+0d92808024b4e9868cef68d16f121d509843e80e Bluetooth: HCI: Fix tracking of advertisement set/instance 0x00
+e8785404de06a69d89dcdd1e9a0b6ea42dc6d327 Bluetooth: MGMT: fix crash in set_mesh_sync and set_mesh_complete
+76e20da0bd00c556ed0a1e7250bdb6ac3e808ea8 Revert "Bluetooth: L2CAP: convert timeouts to secs_to_jiffies()"
+c403da5e98b04a2aec9cfb25cbeeb28d7ce29975 Bluetooth: ISO: Fix another instance of dst_type handling
+057b6ca5961203f16a2a02fb0592661a7a959a84 Bluetooth: btintel_pcie: Fix event packet loss issue
+b489556a856d31f1eb73972150f371d2e4ce1de8 Bluetooth: fix corruption in h4_recv_buf() after cleanup
+857eb0fabc389be5159e0e17d84bc122614b5b98 Bluetooth: hci_conn: Fix connection cleanup with BIG with 2 or more BIS
+751463ceefc3397566d03c8b64ef4a77f5fd88ac Bluetooth: hci_core: Fix tracking of periodic advertisement
+91d35ec9b3956d6b3cf789c1593467e58855b03a Bluetooth: rfcomm: fix modem control handling
+84a905290cb4c3d9a71a9e3b2f2e02e031e7512f net: phy: dp83867: Disable EEE support as not implemented
+f765fdfcd8b5bce92c6aa1a517ff549529ddf590 cifs: fix typo in enable_gcm_256 module parameter
+75cdae446ddffe0a6a991bbb146dee51d9d4c865 ALSA: usb-audio: don't log messages meant for 1810c when initializing 1824c
+d914ec6f07548f7c13a231a4f526e043e736e82e ASoC: rt721: fix prepare clock stop failed
+db86f55bf81a3a297be05ee8775ae9a8c6e3a599 cpuidle: governors: menu: Select polling state in some more cases
+28935ee5e4789ad86c08ba9f2426edd6203d13fa ALSA: hda/realtek: Fix mute led for HP Victus 15-fa1xxx (MB 8C2D)
+8080c67dd57cb968150b668ecbd4a4e4afd56ad4 kunit: prevent log overwrite in param_tests
+dc131bcd8d9219f7da533918abcb0d32951b7702 ACPI: MRRM: Check revision of MRRM table
+543d35004007a06ef247acf2fc55efa8388aa741 ACPI: SPCR: Check for table version when using precise baudrate
+65f9c4c5888913c2cf5d2fc9454c83f9930d537d tools: ynl: fix string attribute length to include null terminator
+b3cf2d14cff5587a250f3b65ee0d36f556d23074 Merge tag 'for-net-2025-10-24' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+e3a0ca09acbe697245f944ee92b956db58a0ed09 MAINTAINERS: mark ISDN subsystem as orphan
+03ca7c8c42be913529eb9f188278114430c6abbd net: hns3: return error code when function fails
+46a499aaf8c27476fd05e800f3e947bfd71aa724 sfc: fix potential memory leak in efx_mae_process_mport()
+855e43164e95bf6559ab2b53b28e0f95887ff099 Merge tag 'batadv-net-pullrequest-20251024' of https://git.open-mesh.org/linux-merge
+e3966940559d52aa1800a008dcfeec218dd31f88 tools: ynl: avoid print_field when there is no reply
+520ad9e96937e825a117e9f00dd35a3e199d67b5 dpll: spec: add missing module-name and clock-id to pin-get reply
+210b35d6a7ea415494ce75490c4b43b4e717d935 dt-bindings: net: sparx5: Narrow properly LAN969x register space windows
+c8b8804760eb0c4c0c7c2b500380ab3fa9f92b5a ASoC: Fix build for sdw_utils
+b2dd1d0d322dce5f331961c927e775b84014d5ab ASoC: fsl_sai: Fix sync error in consumer mode
+45f5c9eec43a9bf448f46562f146810831916cc9 ASoC: soc_sdw_utils: remove cs42l43 component_name
+5c76f9961c170552c1d07c830b5e145475151600 smb: client: fix potential cfid UAF in smb2_query_info_compound
+e9840461317e1bf0628b164de54632754d5f6a44 ice: fix lane number calculation
+45076413063cf5e0e25fd3f7f89fc90338b161c8 ice: fix destination CGU for dual complex E825
+9a0f81fc64b2ba80ce768cd6e680c0f440723464 ice: fix usage of logical PF id
+85308d999c4b4162a742c9ec5ef954226c3b48d9 ixgbe: fix memory leak and use-after-free in ixgbe_recovery_probe()
+81fb1fe75c672db905b54f4ab744552121099a24 igc: power up the PHY before the link test
+bc73c5885c606f5e48dd4222eba0361fa0f146ca igb: use EOPNOTSUPP instead of ENOTSUPP in igb_get_sset_count()
+21d08d1c4c29f9795fbc678011c85f72931e22c1 igc: use EOPNOTSUPP instead of ENOTSUPP in igc_ethtool_get_sset_count()
+f82acf6fb42115c87d3809968a2e0ab2fedba15b ixgbe: use EOPNOTSUPP instead of ENOTSUPP in ixgbe_ptp_feature_enable()
+18cd0a9c7aaf880502e4aff3ea30022f97d6c103 video: fb: Fix typo in comment in fb.h
+eb53368f8d6e2dfba84c8a94d245719bcf9ae270 fbdev: valkyriefb: Fix reference count leak in valkyriefb_init
+5f566c0ac51cd2474e47da68dbe719d3acf7d999 fbdev: pvr2fb: Fix leftover reference to ONCHIP_NR_DMA_CHANNELS
+18c4ef4e765a798b47980555ed665d78b71aeadf fbdev: bitblit: bound-check glyph index in bit_putcs*
+a1f3058930745d2b938b6b4f5bd9630dc74b26b7 fbcon: Set fb_display[i]->mode to NULL when the mode is released
+7073c7fc8d8ba47194e5fc58fcafc0efe7586e9b fbdev: atyfb: Check if pll_ops->init_pll failed
+36fedc44e37e811f25666c600bce4bc027290226 dpll: fix device-id-get and pin-id-get to return errors properly
+d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4 net: cxgb4/ch_ipsec: fix potential use-after-free in ch_ipsec_xfrm_add_state() callback
+40c17a02de41f12dd713309c7d2546117c577d29 dpll: zl3073x: Fix output pin registration
+12d2303db892d397373e2af40758cbd97309ec37 net: hibmcge: fix rx buf avl irq is not re-enabled in irq_handle issue
+71eb8d1e07562b43bebc0c2721699814b43fd83d net: hibmcge: remove unnecessary check for np_link_fail in scenarios without phy.
+7e2958aee59ceb30ef153387741d12385b712250 net: hibmcge: fix the inappropriate netif_device_detach()
+8df206f7b63611dbaeb8628661d87fe994dcdf71 Merge branch 'bug-fixes-for-the-hibmcge-ethernet-driver'
+514f1dc8f2ca3101e04cdf452e53baca3a76e544 netfilter: nft_ct: enable labels for get case too
+8d96dfdcabef00e28f0c851b1502adb679dfc6d9 netfilter: nft_connlimit: fix possible data race on connection count
+90918e3b6404c2a37837b8f11692471b4c512de2 netfilter: nft_ct: add seqadj extension for natted connections
+22897e568646de5907d4981eae6cc895be2978d1 ASoC: renesas: rz-ssi: Use proper dma_buffer_pos after resume
+5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b ASoC: dt-bindings: pm4125-sdw: correct number of soundwire ports
+35e4a69b2003f20a69e7d19ae96ab1eef1aa8e8d PM: sleep: Allow pm_restrict_gfp_mask() stacking
+f3903ec76ae6afcdba0347681d1dda005fb145cd MAINTAINERS: Update KUnit email address for Rae Moar
+f99c579211f5c77da6750b90c6bec9b264188120 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+a6f0459aadf1b41a9b9fae02006b1db024d60856 mptcp: fix subflow rcvbuf adjust
+24990d89c23de4dbef6b0b3d58383cafefdd6983 trace: tcp: add three metrics to trace_tcp_rcvbuf_grow()
+b1e014a1f3275a6f3d0f2b30b8117447fc3915f5 tcp: add newval parameter to tcp_rcvbuf_grow()
+aa251c84636c326471ca9d53723816ba8fffe2bf tcp: fix too slow tcp_rcvbuf_grow() action
+bcc843bb0e7468de7f2de8bc2e3fa5a54dd1f3d0 Merge branch 'tcp-fix-receive-autotune-again'
+a4384d786e38d5ff172f0908aae01c2c30719245 nfp: xsk: fix memory leak in nfp_net_alloc()
+a43303809868b22bd1303739ba334e982b234d45 Documentation: netconsole: Remove obsolete contact people
+00764aa5c9bbb2044eb04d6d78584a436666b231 netconsole: Fix race condition in between reader and writer of userdata
+27b0e701d3872ba59c5b579a9e8a02ea49ad3d3b mptcp: drop bogus optimization in __mptcp_check_push()
+8e04ce45a8db7a080220e86e249198fa676b83dc mptcp: fix MSG_PEEK stream corruption
+a824084b98d8a1dbd6e85d0842a8eb5e73467f59 mptcp: restore window probe
+fe11dfa10919ce594682c76f5f648a0840d80a2b mptcp: zero window probe mib
+ac345c5fff55262a51dad43bf8724c3d5d1fb006 Merge branch 'mptcp-various-rare-sending-issues'
+dc89548c6926d68dfdda11bebc1a5258bc41d887 net: usb: asix_devices: Check return value of usbnet_get_endpoints
+53110232c95ff56067fd96c75a1a1c53d10dcd98 net/mlx5: Don't zero user_count when destroying FDB tables
+da2522df3fcc6f57068470cbdcd6516d9eb76b37 net: mctp: Fix tx queue stall
+9311e9540a8b406d9f028aa87fb072a3819d4c82 selftests: net: use BASH for bareudp testing
+298574936a6c4ebbe655e15d971ddb1a96c7dc0b net: phy: dp83869: fix STRAP_OPMODE bitmask
+fac56c4651ae95f3f2b468c2cf1884cf0e6d18c1 smb: client: handle lack of IPC in dfs_cache_refresh()
+895ad6f7083b0c9f1902b23b84136298a492cbeb smb: client: call smbd_destroy() in the same splace as kernel_sock_shutdown()/sock_release()
+e98cda764aa9c27f6810d08bd7bf2e8071535990 Merge tag 'nf-25-10-29' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+34892cfec0c2d96787c4be7bda0d5f18d7dacf85 net: tls: Change async resync helpers argument
+c15d5c62ab313c19121f10e25d4fec852bd1c40c net: tls: Cancel RX async resync request on rcd_delta overflow
+426e9da3b28404b1edcbae401231fb378150d99d net/mlx5e: kTLS, Cancel RX async resync request in error flows
+0dd1be4fe06a1f3a14a517446b49afaa6ac5fa94 Merge branch 'tls-introduce-and-use-rx-async-resync-request-cancel-function'
+c657f86106c8729240e1f50a62c6606b578ecf20 net: stmmac: vlan: Disable 802.1AD tag insertion offload
+ded9813d17d3dd50a08e7a2ca1495769ef9c6673 net: stmmac: Consider Tx VLAN offload tag length for maxSDU
+48b2e323c018c4c908ae5acabff326647bab5240 net: stmmac: est: Fix GCL bounds checks
+a38eeecfe3232283c0ae34d0f4302e5a3e60f3ee Merge branch 'net-stmmac-fixes-for-stmmac-tx-vlan-insert-and-est'
+6a2108c78069fda000729b88c97b1eba0405e6d7 net: devmem: refresh devmem TX dst in case of route invalidation
+4f4c654f5a0f6560b938a5ab05ec5940aa6c1c29 ALSA: hda/realtek: Enable mic on Vaio RPL
+51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c net: sctp: fix KMSAN uninit-value in sctp_inq_pop
+390db60f8e2bd21fae544917eb3a8618265c058c Merge tag 'asoc-fix-v6.18-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+590c5cd10675a6ae49f6019502dec5c87aba07e4 Merge branches 'pm-cpuidle' and 'pm-sleep'
+8907226bed1ebd10d069f6f70ff0aaa8840f3267 Merge branches 'acpi-button', 'acpi-video' and 'acpi-fan'
+e5763491237ffee22d9b554febc2d00669f81dee Merge tag 'net-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+a4819ac1913e78e41c8406df481a661d9469c350 Merge tag 'fbdev-for-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+a5dbbb39e11d50a8c426b8d88f5b12031fee49f3 Merge tag 'pm-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+a5355e98accb20d8ea06008fd8fb5755cc52e8c0 Merge tag 'acpi-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+1806838686ef74cde74e590d13984dec7c0233d6 Merge tag 'linux_kselftest-kunit-fixes-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+d127176862a93c4b3216bda533d2bee170af5e71 Merge tag 'linux_kselftest-fixes-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+2d51cb1792c7b1d8d5daf55cc3eecf19ddc4500c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+3ad81aa52085a7e67edfa4bc8f518e5962196bb3 Merge tag 'v6.18-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+58fdd8484c05a19942690008304228ad784771e9 Merge tag 'sound-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+b909d77359b82821e1c6b6a3a8a51b355b06fdb5 Merge tag '6.18-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============5932967610676779564==--
+--===============8939486844053841260==--
