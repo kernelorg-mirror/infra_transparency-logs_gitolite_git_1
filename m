@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7882457459929522215=="
+Content-Type: multipart/mixed; boundary="===============2248308000655577898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 31 Oct 2025 03:37:53 -0000
-Message-Id: <176188187377.22917.3868883494461707036@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 03:37:56 -0000
+Message-Id: <176188187627.23070.4954804303433906463@gitolite.kernel.org>
 
---===============7882457459929522215==
+--===============2248308000655577898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: cc7ce9bae34ac3653c4df0607e72fd832cc0891f
-    new: ea1aac61e973c9ea0d24ae7cf790933079831052
-    log: revlist-cc7ce9bae34a-ea1aac61e973.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: 6b00103dfdaf7ec387ab330c6f4b92c9519a335f
+    new: 118f2604f776f56d060409f3bc89766d48807758
+    log: revlist-6b00103dfdaf-118f2604f776.txt
 
---===============7882457459929522215==
+--===============2248308000655577898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc7ce9bae34a-ea1aac61e973.txt
+Content-Disposition: attachment; filename=revlist-6b00103dfdaf-118f2604f776.txt
 
 9ceae8c7862d2d4c604d30d80b8770f6b8ecdd18 NFSD: Define a proc_layoutcommit for the FlexFiles layout type
 b7d64505dc984d7483e96a06de614b344578c07c NFSD: Define actions for the new time_deleg FATTR4 attributes
@@ -75,5 +75,7 @@ daa460c29dbf5e6192aa93b7a0e6ef74290e85ca NFSD: Simplify nfsd_iov_iter_aligned_bv
 ee1822aa68c86664ea2812843da626bbc97a844e NFSD: Combine direct I/O feasibility check with iterator setup
 01cde126cd6c891ebf10a8ec74c2b9533e11ab7c NFSD: Handle kiocb->ki_flags correctly
 ea1aac61e973c9ea0d24ae7cf790933079831052 NFSD: Refactor nfsd_vfs_write
+aea7035a057084ca03a9e9435135c69d93ab4681 nfsd: avoid using DONTCACHE for misaligned DIO's buffered IO fallback
+118f2604f776f56d060409f3bc89766d48807758 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
 
---===============7882457459929522215==--
+--===============2248308000655577898==--
