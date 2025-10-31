@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8781941282445528804=="
+Content-Type: multipart/mixed; boundary="===============8858888896207042240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 31 Oct 2025 08:23:58 -0000
-Message-Id: <176189903846.256143.16603730732949876297@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 08:24:26 -0000
+Message-Id: <176189906664.256500.15736437220723410037@gitolite.kernel.org>
 
---===============8781941282445528804==
+--===============8858888896207042240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1ce877718b476c52d44ab2ded698ec4142fb1e1a
-    new: 34264494bad28fdfdd9a0efda1ef5a7780360b2b
-    log: revlist-1ce877718b47-34264494bad2.txt
+    old: 34264494bad28fdfdd9a0efda1ef5a7780360b2b
+    new: deda68429c7767b1b64859418dc611f191264a75
+    log: revlist-34264494bad2-deda68429c77.txt
+  - ref: refs/heads/tip/urgent
+    old: 5fa908c89fc14885ed0cc5f58738c2cae6de5318
+    new: 84ec67363f3e64e407d658ff8507952032c2065a
+    log: revlist-5fa908c89fc1-84ec67363f3e.txt
 
---===============8781941282445528804==
+--===============8858888896207042240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ce877718b47-34264494bad2.txt
+Content-Disposition: attachment; filename=revlist-34264494bad2-deda68429c77.txt
+
+1454686e633e27403bd22eb195b352d9616cec16 Merge branch into tip/master: 'perf/urgent'
+84ec67363f3e64e407d658ff8507952032c2065a Merge branch into tip/master: 'x86/urgent'
+3e2070b6b475ceda1bf52b0c3ab215a1fe70325f Merge branch into tip/master: 'core/bugs'
+e026956688307d09da1e8409a403ff52d01e2d8f Merge branch into tip/master: 'core/core'
+e7a01ec20048ad7cf48b04718f333e6b20c0a06e Merge branch into tip/master: 'core/rseq'
+9830ea84676f450b706ae6514c250ad830760d57 Merge branch into tip/master: 'irq/core'
+55b2121b13bbbab581483e430ebb0b351986fe46 Merge branch into tip/master: 'irq/drivers'
+14d377d7710e13fe6f3ecdf817d8f206a89dee65 Merge branch into tip/master: 'irq/msi'
+066b3cd63e9042e6ce66755329921c9c42449d10 Merge branch into tip/master: 'locking/core'
+65939fd82d0126d2083f5c6633b30a71c2663e68 Merge branch into tip/master: 'objtool/core'
+7720fbfe4b466abcae71f8589ca968db55fb6335 Merge branch into tip/master: 'perf/core'
+6ab4f95bfeea81ce88df2e3172950a0d3b625889 Merge branch into tip/master: 'sched/core'
+3a83601cf57894b23fa94fbdb3437355badb6057 Merge branch into tip/master: 'x86/apic'
+081660e9ada7269cc9c972402934c5b3acc62030 Merge branch into tip/master: 'x86/bugs'
+5f43694a8677700ff556db21833c13f7d6614b84 Merge branch into tip/master: 'x86/cache'
+11bfc399e5fe7b203a5b68291fab8d888c2296e2 Merge branch into tip/master: 'x86/cleanups'
+1923d3830f6876c7071ddd83cd32e4a9d76a50dd Merge branch into tip/master: 'x86/core'
+ba419fb2b6df20fe622b053c16ea455e8b23700d Merge branch into tip/master: 'x86/cpu'
+0e0db160351c6a3e8f0e2b3742acd3b901870b8a Merge branch into tip/master: 'x86/entry'
+d5a2e47320f446b7c117301e2e2a0e093a2524c1 Merge branch into tip/master: 'x86/microcode'
+d02c88758222b3790ee5a10821008fe31d09ba76 Merge branch into tip/master: 'x86/mm'
+deda68429c7767b1b64859418dc611f191264a75 Merge branch into tip/master: 'x86/sgx'
+
+--===============8858888896207042240==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5fa908c89fc1-84ec67363f3e.txt
 
 f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
 2e9c1da4ee9d0acfca2e0a3d78f3d8cb5802da1b wifi: ath10k: Fix memory leak on unsupported WMI command
@@ -141,6 +174,7 @@ a5dbbb39e11d50a8c426b8d88f5b12031fee49f3 Merge tag 'pm-6.18-rc4' of git://git.ke
 a5355e98accb20d8ea06008fd8fb5755cc52e8c0 Merge tag 'acpi-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 1806838686ef74cde74e590d13984dec7c0233d6 Merge tag 'linux_kselftest-kunit-fixes-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 d127176862a93c4b3216bda533d2bee170af5e71 Merge tag 'linux_kselftest-fixes-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-34264494bad28fdfdd9a0efda1ef5a7780360b2b Merge branch 'linus'
+1454686e633e27403bd22eb195b352d9616cec16 Merge branch into tip/master: 'perf/urgent'
+84ec67363f3e64e407d658ff8507952032c2065a Merge branch into tip/master: 'x86/urgent'
 
---===============8781941282445528804==--
+--===============8858888896207042240==--
