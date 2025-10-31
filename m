@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Fri, 31 Oct 2025 10:14:43 -0000
-Message-Id: <176190568372.352268.485503186770741900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 31 Oct 2025 10:16:04 -0000
+Message-Id: <176190576440.354562.10831417541300159753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fustini/linux
-user: fustini
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/thead-dt-for-next
-    old: a9fb9c7e3bcd3107605e300680b95ad9615b3500
-    new: e698f3e02dc6c4667b8ca60cc775b385b2321eba
+  - ref: refs/heads/objtool/urgent
+    old: 49c98f30f4021b560676a336f8a46a4f642eee2b
+    new: 2c132efb3a443ab22f3b05e547ccc42bf2ee5abf
     log: |
-         e698f3e02dc6c4667b8ca60cc775b385b2321eba riscv: dts: thead: Add reset controllers of more subsystems for TH1520
+         2c132efb3a443ab22f3b05e547ccc42bf2ee5abf objtool: Fix skip_alt_group() for non-alternative STAC/CLAC
          
