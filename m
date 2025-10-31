@@ -1,32 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Fri, 31 Oct 2025 12:38:09 -0000
-Message-Id: <176191428966.479462.9968151102086237225@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9126932478144244345=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 31 Oct 2025 12:39:07 -0000
+Message-Id: <176191434748.480693.10449674958602126955@gitolite.kernel.org>
+
+--===============9126932478144244345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/lockless-lookup
-    old: f77b6be32a2bde8def988a8024874bb3a2900147
-    new: 263e4c3aa5c39aaeae4ca029df97e57c2e35fb0e
+  - ref: refs/heads/master
+    old: 114b4c6b5745f4e29094285f9db9533518dda3cc
+    new: c65298b65156b55fe68a42dcf5fcd19ebfe70c5d
     log: |
-         a99f688a43f838742d1586a63168715c9fedf555 gfs2: No longer thaw filesystems during a withdraw
-         9689fb6f29fe5f8ece99e8e81b4f4236f0eef8b9 gfs2: Clean up SDF_JOURNAL_LIVE flag handling
-         023618732c7c8a09090f680049d49ff11d247ca6 gfs2: No d_revalidate op for "lock_nolock" mounts
-         488ad78ebaa9d7cb700bbbaea39c2102ea43ec92 gfs2: Get rid of had_lock in gfs2_drevalidate
-         31c8816f7b7e1e0be19b5e99cad862a30128619c gfs2: Use unique tokens for gfs2_revalidate
-         1aa5ac1f7702fb9768ac9551ac23968b0a67ce0d gfs2: Enable non-blocking lookup in gfs2_permission
-         263e4c3aa5c39aaeae4ca029df97e57c2e35fb0e Revert "gfs2: Add GL_NOBLOCK flag"
+         c65298b65156b55fe68a42dcf5fcd19ebfe70c5d proposed: Add Ruiqi's results for v6.17.4
          
-  - ref: refs/heads/withdraw
-    old: 258896a8969dd85f3ccab87fae20b042cbcee8df
-    new: 9689fb6f29fe5f8ece99e8e81b4f4236f0eef8b9
-    log: |
-         a99f688a43f838742d1586a63168715c9fedf555 gfs2: No longer thaw filesystems during a withdraw
-         9689fb6f29fe5f8ece99e8e81b4f4236f0eef8b9 gfs2: Clean up SDF_JOURNAL_LIVE flag handling
-         
+
+--===============9126932478144244345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761914412 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1761914346-e8589577f58a13913c0361a6aef9bcd125d98102
+
+114b4c6b5745f4e29094285f9db9533518dda3cc c65298b65156b55fe68a42dcf5fcd19ebfe70c5d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkEriwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S18QAI7M0IBipbqyfKVFrWr6
+FoJwsQJ4DKfCMCMxWa2ZzxIOcG7n4Ioi/y75b9NarzLS/1a43PORrCBZGtkVQRD0
+QHwvlTx9p/XQFBHtDtZQM3JG1yz7+BAbM0lKk8Ojr6zFpq7iyKMxw4dCTw8Mr6cl
+i+OHWL4NjPHYjFMpdMULtiQiNW5gBbAIKr2RyrFUNp9lyHTORaZxOKLLZOqYWbXI
+RV6JcPYRYcZKWTv/dfNaC/LXQMEZM817xbuOnaN2qXfFk/m8UEGaCYgMDeFxcNzp
+DEZerUXVo1N0aMzzNq+1BhagVUAyPthf/FlT/sU5dDAWJWXS5JsUY0jOBDpodHtn
+ZX2rg3dKH43Tsos/GJ/qnjrPE6Q58z1zFT0xgqibEIkSocqK9KqIvkXVbaCMeUuU
+yMbCbL2+BVrm+ZqcdZ6IinGpZLb5fJ+pHDrvrufRGssN90Mqw7kcB9/uZ6E4AgG/
+gd11r4IOcGawjZOYKWU1YJhZDlt81ijmlgbB9g2TelgOFk0rK+Wrxhe2Jouo+s+L
+YESiCZXyStupUXFb+uc1ik5SBUwvWT+lJvC5/mxdJ9GVmWRudDH2bZ8BAlnpW9UQ
+ZOP/qvwSODMHhTLUbqUeSShP4EiIjBYkjO9p1Gj9vyrJjjDiZbjVsuH7E7WVT+s5
+xwwqe4gHhojk0sP1/4UbIpL6
+=UbuA
+-----END PGP SIGNATURE-----
+
+--===============9126932478144244345==--
