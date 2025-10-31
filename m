@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 31 Oct 2025 23:10:57 -0000
-Message-Id: <176195225799.1029153.311442035755745641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 31 Oct 2025 23:25:14 -0000
+Message-Id: <176195311489.1041240.3478264242372906638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/scx
-    old: c85b20782a410d4474ba86afd46e2a490ddf3340
-    new: 63eecf6a142ae5ff8a201f19aef0d479a172c62b
+  - ref: refs/heads/main
+    old: 1a2352ad82b515035efe563f997ef8f5ca4f8080
+    new: 54133f9b4b53ffa2204eb27cfc9d50072c9a52d2
     log: |
-         63eecf6a142ae5ff8a201f19aef0d479a172c62b sched_ext: Fix ops.select_cpu() stale dispatch state
+         54133f9b4b53ffa2204eb27cfc9d50072c9a52d2 net: mana: Support HW link state events
          
