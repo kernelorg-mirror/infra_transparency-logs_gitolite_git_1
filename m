@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5549646086610424565=="
+Content-Type: multipart/mixed; boundary="===============8158177461499744759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 31 Oct 2025 17:06:23 -0000
-Message-Id: <176193038334.716926.17144086142551994419@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 17:06:26 -0000
+Message-Id: <176193038610.717023.7376109067448455499@gitolite.kernel.org>
 
---===============5549646086610424565==
+--===============8158177461499744759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7ea7694495db8ec2e80b601f967865263b44b16a
     new: 1a2352ad82b515035efe563f997ef8f5ca4f8080
     log: revlist-7ea7694495db-1a2352ad82b5.txt
 
---===============5549646086610424565==
+--===============8158177461499744759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -378,4 +378,4 @@ e5763491237ffee22d9b554febc2d00669f81dee Merge tag 'net-6.18-rc4' of git://git.k
 0d0eb186421d0886ac466008235f6d9eedaf918e cxgb4: flower: add support for fragmentation
 1a2352ad82b515035efe563f997ef8f5ca4f8080 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5549646086610424565==--
+--===============8158177461499744759==--
