@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 31 Oct 2025 02:13:26 -0000
-Message-Id: <176187680652.4145218.17385340152313632865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 31 Oct 2025 02:24:44 -0000
+Message-Id: <176187748486.4154704.15604745066977397569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/kbuild-next
-    old: c260df04ed79d1c53a2bccafd7ff8427f3051cd2
-    new: 934cd53e16693fedaeff13d8e63a5e2c389bcb9a
+  - ref: refs/heads/main
+    old: 12a7c6a9931f6e33e1942133bc6d767d77312cd7
+    new: 0d0eb186421d0886ac466008235f6d9eedaf918e
     log: |
-         a6773e6932cbfbc0e123bc0529ea27f2a8abb833 jfs: Rename _inline to avoid conflict with clang's '-fms-extensions'
-         c4781dc3d1cf0e017e1f290607ddc56cfe187afc Kbuild: enable -fms-extensions
-         e066b73bd881f75df58ab729a72c1206ed9e1773 kbuild: Add '-fms-extensions' to areas with dedicated CFLAGS
-         934cd53e16693fedaeff13d8e63a5e2c389bcb9a Merge branch 'kbuild-ms-extensions' into kbuild-next
+         0d0eb186421d0886ac466008235f6d9eedaf918e cxgb4: flower: add support for fragmentation
          
