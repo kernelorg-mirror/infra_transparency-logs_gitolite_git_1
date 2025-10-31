@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8366975316940420129=="
+Content-Type: multipart/mixed; boundary="===============9143548695147915943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 31 Oct 2025 13:46:11 -0000
-Message-Id: <176191837119.539078.7694613774797646272@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 13:46:13 -0000
+Message-Id: <176191837325.539229.12821716047545977168@gitolite.kernel.org>
 
---===============8366975316940420129==
+--===============9143548695147915943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: df70e44fa05b01476a78d0f6a210354784ff0992
-    new: 7cff6f90359ff252b16857e213d163dc8b6e0ea4
+  - ref: refs/heads/linux-5.15.y
+    old: cc5ec87693063acebb60f587e8a019ba9b94ae0e
+    new: da65c319aa9d97bcadb708790f5aff92b31e7328
     log: |
-         aa0b71e76e687a3a4cb5c410c8acbcf149701aef net/sched: sch_qfq: Fix null-deref in agg_dequeue
-         5cfeb67a934eaee9f84502c1e734603cb946e8ab x86/bugs: Fix reporting of LFENCE retpoline
-         43eda8fe1f6f8d03476607b0b6ec8c8739ccdfd4 btrfs: always drop log root tree reference in btrfs_replay_log()
-         669493bfccb358fbc241994d1abdbed8c85bd5bb btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
-         7cff6f90359ff252b16857e213d163dc8b6e0ea4 Linux 5.10.247-rc1
+         2cee5276300fc82213dd3480be4fdc36a7d9336b net/sched: sch_qfq: Fix null-deref in agg_dequeue
+         60ce7d7bfe998eadbd4f50d2a0e6246e077f3750 x86/bugs: Fix reporting of LFENCE retpoline
+         5b180cd622820f0124367bc39eecedb89c13199c btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
+         44f50da060da16d04339d3bd79bc75299d1ad78c btrfs: always drop log root tree reference in btrfs_replay_log()
+         82260f16deb1ed23e23e81e32796a93d3877eb10 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+         da65c319aa9d97bcadb708790f5aff92b31e7328 Linux 5.15.197-rc1
          
 
---===============8366975316940420129==
+--===============9143548695147915943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761918435 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761918437 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1761918368-eda31ec2a955b643e978a2605bae38f287e45eab
+nonce 1761918370-0b3aa57b6b91717a9fd6807dd6a6576683ca3028
 
-df70e44fa05b01476a78d0f6a210354784ff0992 7cff6f90359ff252b16857e213d163dc8b6e0ea4 refs/heads/linux-5.10.y
+cc5ec87693063acebb60f587e8a019ba9b94ae0e da65c319aa9d97bcadb708790f5aff92b31e7328 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkEveMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C20QAJpX2Y5LV7fMJN9CB5MA
-14GRo7aGPA4XEjbKLEUSKHcQZZlyryz+Xwi5p326aQ71loAwgfImcXGNvkGPUbvr
-ouyNU+XqRyQeK5MBO9jbvd+93LesHsRmRf6CRZCTy0pzggSe/N6I3xdMX3lV22as
-UFyXjwaig+3GumslHN0ubB2HzcUK0SrhAkfip6TllCabq67KCqIeQjMsbe8TE96c
-oyZ33EcdQYU6WcZA0BorccmU4ERKxReKkihpu1TqhT/7TRUtfZfjJfFXy0WoZwqT
-KFqvIgaEmm2mz5xsEGhzPruQcFnHsuZtTaBy9LyR+BW8AbZzcbD9WsksGtRKg75I
-R1BtiA+ID/LckiYyT3wX3wDiouEi1/eMPIln/qD8+dRgdrqyYtUN1MgagRtDpS9H
-3mQvNF5Qt8N2okbwP82M6BOor8UMV4CMosWTFR4jRpPohTKXkO3QhSLbJNMbA6qR
-YA0EYzzXctfNHhesmtGJbAfmV1IiX28/4k70hwD9nfIRBdBX0bbI9ZU9xsL4w4gt
-4+EPJvwEIKsiCewig+H1NKh/Jsx5vt4BrKGPC3p+5Z+xkZhHeQUtlj0lfmUtzq5H
-lU6KDueJB7+SRi9JcFLcB9ErT+zcbA6VJ+Ij7bccg0CGgY7u4+GZ1HqvcK4dcwk+
-a3W1kBiA1Rj6GHgP+vC3L2d7
-=eJwj
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkEveUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oHUQAM/w4egLKMg2FvTsxCMI
+kJ/EKgpPI9uP0BoCJPSXgi0rutg0H04V2m3RyZOKY2Ev21g+ezzKmBVnd6sYv+ZH
+AJQqjIC/PSjDjBCWgioHFD3mI1AMHEdKOmbL932a+xdQWS8p974VQKmiijP34x9d
+74OwpjqBuO8n/smjck53HhOITJXa6HlNBmCjE3SAOCjHos3zA3DekA9XbAW2ZL8A
+adLRzEydclCZyIa5NxtJqY88TNbtTtr7Lhuui983PzyRnUplSGcAisuiIBXsleAf
+GUlUsNuCqNfIsOegjrEjvSgpwGfvC2E7Q+Ag55r1P5Lro+WlFDWfk91zKanHJuyp
+Pr3qVEyykHj7IVygN+rI0j41hxrgNrUHKUDoFv2xGr1EtBzi6+0V0W4v9REZJo7S
+4S9WUGAx7I9fc8lYIGkSAAVtY/z0owoQ6nMiv3k6e4wOtbwAfdSW9xRhhnmFsgmD
+Tfw/rhfIb6nCmKZAxAg/Ed81Ek8XCyLcqmWGBY3Hl2K5fwXCY4XUzM1U2BDYLGcO
+thJVHlHIterrm2c2udACALZIzISdcC4vs6eji58VK1dT0wWUxwDSFQlld1O6a9rg
+tghMnz15kuqZs0CnPuQKTzp6iYPxaKVoqXTOhEtIG410JLO+j4UXULousSJTC71e
+kS2SKrelJ0fHFF/po6ewFy62
+=Jegu
 -----END PGP SIGNATURE-----
 
---===============8366975316940420129==--
+--===============9143548695147915943==--
