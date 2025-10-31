@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5600511094445537073=="
+Content-Type: multipart/mixed; boundary="===============9221206539411402277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Fri, 31 Oct 2025 11:05:12 -0000
-Message-Id: <176190871296.397668.12532325041153044238@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 11:05:25 -0000
+Message-Id: <176190872590.397939.7645784454416994536@gitolite.kernel.org>
 
---===============5600511094445537073==
+--===============9221206539411402277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 18a7e218cfcdca6666e1f7356533e4c988780b57
+  - ref: refs/heads/testing
+    old: 568e4ad6166ba4f49c48737c0975bd1f9fc3bde3
     new: 0d0eb186421d0886ac466008235f6d9eedaf918e
-    log: revlist-18a7e218cfcd-0d0eb186421d.txt
+    log: revlist-568e4ad6166b-0d0eb186421d.txt
 
---===============5600511094445537073==
+--===============9221206539411402277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18a7e218cfcd-0d0eb186421d.txt
+Content-Disposition: attachment; filename=revlist-568e4ad6166b-0d0eb186421d.txt
 
 73bc073d4270b6b227d5545fc277c1f09a26a77a Merge tag 'drm-xe-next-fixes-2025-10-03' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
 b69ffeaa0ae43892683113b3f4ddf156398738b9 scsi: storvsc: Prefer returning channel with the same CPU as on the I/O issuing CPU
@@ -1051,4 +1051,4 @@ ecca75ae5ae66d13f701c4a6523644d51946ddec selftests: drv-net: replace the nsim ri
 12a7c6a9931f6e33e1942133bc6d767d77312cd7 Merge tag 'nf-next-25-10-30' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 0d0eb186421d0886ac466008235f6d9eedaf918e cxgb4: flower: add support for fragmentation
 
---===============5600511094445537073==--
+--===============9221206539411402277==--
