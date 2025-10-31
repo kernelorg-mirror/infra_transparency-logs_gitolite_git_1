@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4468046222238209610=="
+Content-Type: multipart/mixed; boundary="===============5932967610676779564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 31 Oct 2025 17:46:01 -0000
-Message-Id: <176193276135.752089.2715422918487040852@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 18:00:36 -0000
+Message-Id: <176193363638.764235.8267199945351813825@gitolite.kernel.org>
 
---===============4468046222238209610==
+--===============5932967610676779564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/heads/rseq/cid
-    old: 789ff6e7cc5aa423473eb135f94812fe77b8aeab
-    new: 870c1793316eddb6f8c9814f830f237e6e1c40ee
-    log: revlist-789ff6e7cc5a-870c1793316e.txt
+  - ref: refs/heads/rseq/slice
+    old: c46f12a1166058764da8e84a215a6b66cae2fe0a
+    new: 874a2fa8d31bc2c56ed1aa21938ece6198d478e3
+    log: revlist-c46f12a11660-874a2fa8d31b.txt
 
---===============4468046222238209610==
+--===============5932967610676779564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-789ff6e7cc5a-870c1793316e.txt
+Content-Disposition: attachment; filename=revlist-c46f12a11660-874a2fa8d31b.txt
 
 3a1038ba680ec456f16351b4e3c6070bd188f3ba ARM: uaccess: Implement missing __get_user_asm_dword()
 038f075116cff94748fabffcbf82098dfb30e4ea uaccess: Provide ASM GOTO safe wrappers for unsafe_*_user()
@@ -89,5 +89,17 @@ b5f419971a3559fccdf37b2f344d57d0d5080d09 sched/mmcid: Introduce per task/CPU own
 e4a73c0b2576e39eb0c2049ca8a7633dc5ea9356 irqwork: Move data struct to a types header
 356cc744bd41d6593dff0dc6787a3cfb7c9bd238 sched/mmcid: Implement deferred mode change
 870c1793316eddb6f8c9814f830f237e6e1c40ee sched/mmcid: Switch over to the new mechanism
+67626b268acd88e93276a0bdec171ff8f25a1117 sched: Provide and use set_need_resched_current()
+a1ea1b20cf1431e11f15f6f6f2caab0d78c14ddb rseq: Add fields and constants for time slice extension
+52ec76054623ee7fe8ad0e54863b21a96926e8b9 rseq: Provide static branch for time slice extensions
+59ddc03de41b24ba9e02afaa863d23fbd1a713fa rseq: Add statistics for time slice extensions
+0e6b274ac0de05492771281bea6d03ae8cfe7d63 rseq: Add prctl() to enable time slice extensions
+ef1afea659a53179177efe816ab75e0ad9cc5306 rseq: Implement sys_rseq_slice_yield()
+65dff337ff416413c6f511ccd42223b1cc5a0fc8 rseq: Implement syscall entry work for time slice extensions
+f89a3b0504a91de05ca8aef2d2e358e2f2772749 rseq: Implement time slice extension enforcement timer
+557155354e7dcea21dd3dd7f6db1e9713553dac0 rseq: Reset slice extension when scheduled
+e00328c419f4c8112ba44c6af5b2097e2b5f374c rseq: Implement rseq_grant_slice_extension()
+06abadd5a70f894c608715ac35cc89744b6aeadb entry: Hook up rseq time slice extension
+874a2fa8d31bc2c56ed1aa21938ece6198d478e3 selftests/rseq: Implement time slice extension test
 
---===============4468046222238209610==--
+--===============5932967610676779564==--
