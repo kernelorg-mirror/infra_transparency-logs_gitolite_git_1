@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 31 Oct 2025 17:12:51 -0000
-Message-Id: <176193077182.723357.10565521043291262486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/martin.lau/bpf-next
+Date: Fri, 31 Oct 2025 17:13:36 -0000
+Message-Id: <176193081645.723834.2126800252067169537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/martin.lau/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/tags/v6.12.53-4
-    old: 0000000000000000000000000000000000000000
-    new: 147f097c1f94aff43406706474ccf75489d15c09
+  - ref: refs/heads/ls.rqspin.v2.2
+    old: b735af227349c9ef167cae8acf8bc8864e13f636
+    new: 9d324a13446bbfeb3a6dc05e75ddf17288a3b063
+    log: |
+         9d324a13446bbfeb3a6dc05e75ddf17288a3b063 [DONT PUSH]
+         
