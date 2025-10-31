@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
-Date: Fri, 31 Oct 2025 16:41:02 -0000
-Message-Id: <176192886262.694835.11408851246863168655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 31 Oct 2025 16:47:02 -0000
+Message-Id: <176192922208.699466.5403708386581264328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
-user: jarkko
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/main
-    old: 1199975eb22611e8068108b4e852b43317c64904
-    new: 6b3bac7bcc7ca1614d81140885024d9d53cdf8b9
-    log: |
-         6b3bac7bcc7ca1614d81140885024d9d53cdf8b9 fix: error messages
-         
+  - ref: refs/tags/s390-6.18-3
+    old: 0000000000000000000000000000000000000000
+    new: e763d12d7c4cb3f2a953d98a95d97e8498276597
