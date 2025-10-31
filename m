@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6438677231194399526=="
+Content-Type: multipart/mixed; boundary="===============4379897802476983319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Fri, 31 Oct 2025 17:06:01 -0000
-Message-Id: <176193036159.716355.5362551585060029071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 31 Oct 2025 17:06:17 -0000
+Message-Id: <176193037757.716665.16906788601017733582@gitolite.kernel.org>
 
---===============6438677231194399526==
+--===============4379897802476983319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 91d35ec9b3956d6b3cf789c1593467e58855b03a
-    new: 8d59fba49362c65332395789fd82771f1028d87e
-    log: revlist-91d35ec9b395-8d59fba49362.txt
+  - ref: refs/heads/dev-queue
+    old: d32bf2335ae824a23adfbf368d61de62d0ee9587
+    new: ae65494ff96d48880587518c8f206d729f9b6987
+    log: revlist-d32bf2335ae8-ae65494ff96d.txt
 
---===============6438677231194399526==
+--===============4379897802476983319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91d35ec9b395-8d59fba49362.txt
+Content-Disposition: attachment; filename=revlist-d32bf2335ae8-ae65494ff96d.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -32,6 +32,10 @@ f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inact
 3b63efa21bc6acc1a0fadd1dd0f0e1988a4c0177 tee: QCOMTEE should depend on ARCH_QCOM
 4092fc5f35cecb01d59b2cdf7740b203eac6948a spi: dt-bindings: cadence: add soc-specific compatible strings for zynqmp and versal-net
 ee795e82e10197c070efd380dc9615c73dffad6c spi: rockchip-sfc: Fix DMA-API usage
+2e9c1da4ee9d0acfca2e0a3d78f3d8cb5802da1b wifi: ath10k: Fix memory leak on unsupported WMI command
+0eb002c93c3b47f88244cecb1e356eaeab61a6bf wifi: ath11k: Add missing platform IDs for quirk table
+92282074e1d2e7b6da5c05fe38a7cc974187fe14 wifi: ath12k: free skb during idr cleanup callback
+9c78e747dd4fee6c36fcc926212e20032055cf9d wifi: ath11k: avoid bit operation on key flags
 18a5f1af596e6ba22cd40ada449063041f3ce6d4 spi: dw-mmio: add error handling for reset_control_deassert()
 268eb6fb908bc82ce479e4dba9a2cad11f536c9c dt-bindings: usb: dwc3-imx8mp: dma-range is required only for imx8mp
 2758246d287549e1088eae350654160cbf4d424f usb: dwc3: Don't call clk_bulk_disable_unprepare() twice
@@ -92,6 +96,7 @@ d2721bb165b3ee00dd23525885381af07fec852a RISC-V: Don't print details of CPUs dis
 5d15d2ad36b0f7afab83ca9fc8a2a6e60cbe54c4 riscv: hwprobe: Fix stale vDSO data for late-initialized keys at boot
 2dc99ea2727640b2fe12f9aa0e38ea2fc3cbb92d riscv: cpufeature: avoid uninitialized variable in has_thead_homogeneous_vlenb()
 b7776a802f2f80139f96530a489dd00fd7089eda riscv: hwprobe: avoid uninitialized variable use in hwprobe_arch_id()
+77e67d5daaf155f7d0f99f4e797c4842169ec19e wifi: iwlwifi: fix potential use after free in iwl_mld_remove_link()
 41de7440e6a00b8e70a068c50e3fba2f56302e8a hwmon: (pmbus/max34440) Update adpm12160 coeff due to latest FW
 ab0fd09d25e1d706e1ffc240f5cf66dcc89eeb49 hwmon: (gpd-fan) Fix return value when platform_get_resource() fails
 72ac14851012d45dcbb9d3533e372e33001b873e hwmon: (gpd-fan) Fix error handling in gpd_fan_probe()
@@ -101,6 +106,14 @@ a09a5aa8bf258ddc99a22c30f17fe304b96b5350 hwmon: (cgbc-hwmon) Add missing NULL ch
 e607ef686ab95fbcb0dfd16f49aea7918be626e1 smb: client: allocate enough space for MR WRs and ib_drain_qp()
 103541e6a5854b08a25e4caa61e990af1009a52e rv: Fully convert enabled_monitors to use list_head as iterator
 3d62f95bd8450cebb4a4741bf83949cd54edd4a3 rv: Make rtapp/pagefault monitor depends on CONFIG_MMU
+607844761454e3c17e928002e126ccf21c83f6aa wifi: mac80211: reset FILS discovery and unsol probe resp intervals
+a2a69add80411dd295c9088c1bcf925b1f4e53d7 bcma: don't register devices disabled in OF
+d3697884672887ced9127be877c9d3d831fb1110 Merge tag 'ath-current-20251006' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+1e1801cab6c7f302baec2a0fe3afe25458d0be7e MAINTAINERS: wcn36xx: Add linux-wireless list
+3776c685ebe5f43e9060af06872661de55e80b9a wifi: brcmfmac: fix crash while sending Action Frames in standalone AP Mode
+ed6a47346ec69e7f1659e0a1a3558293f60d5dd7 wifi: mac80211: fix key tailroom accounting leak
+249e1443e3d57e059925bdb698f53e4d008fc106 wifi: nl80211: call kfree without a NULL check
+69e4b75a5b90ef74300c283c0aafe8d41daf13a8 Merge tag 'iwlwifi-fixes-2025-10-19' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 71c07570b918f000de5d0f7f1bf17a2887e303b5 USB: serial: option: add UNISOC UIS7720
 e46ee2f07e5848d7ec7aec38b72476dc7941b048 spi: intel: Add support for 128M component density
 bc25c6e0a4880b5ad70c31fe1466f30c9e4c8f52 spi: intel-pci: Add support for Arrow Lake-H SPI serial flash
@@ -207,6 +220,9 @@ f4cb02832060ffece6f2f49133592ce7054ac057 Merge tag 'ffa-fix-6.18' of git://git.k
 e58794dbf7706af931153ef402c03d61de6ba714 Merge tag 'arm-soc/for-6.18/devicetree-arm64-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
 5121062e83453221cca7bb1163fe9234757c1697 Merge tag 'trace-rv-v6.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6fab32bb6508abbb8b7b1c5498e44f0c32320ed5 MAINTAINERS: add Mark Brown as a linux-next maintainer
+a83155cc4ec5dd8c99edb541dc12d3bd8e97eae9 Merge tag 'wireless-2025-10-23' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+420c84c330d1688b8c764479e5738bbdbf0a33de usbnet: Prevents free active kevent
+1ab665817448c31f4758dce43c455bd4c5e460aa virtio-net: drop the multi-buffer XDP packet in zerocopy
 246aca5b2a2c4ad3e75c2eff616f5532019a92d2 firewire: core: fix __must_hold() annotation
 df5192d9bb0e38bf831fb93e8026e346aa017ca8 PCI/ASPM: Enable only L0s and L1 for devicetree platforms
 6f1cbf6d6fd13fc169dde14e865897924cdc4bbd io_uring: fix buffer auto-commit for multishot uring_cmd
@@ -222,6 +238,18 @@ adb0971a1acd462078f159059cc7380338e41cce Merge tag 'drm-intel-fixes-2025-10-23' 
 18b1ce0b29c41833363b58ad030b76dabf984899 Merge tag 'drm-xe-fixes-2025-10-23' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 a1b866f2018748282fa026eb4c92d032dfda11a9 Merge tag 'usb-serial-6.18-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 7209ff310083315386570bf8d001a0845fe7ab8c of/irq: Export of_msi_xlate() for module usage
+09b0cd1297b4dbfe736aeaa0ceeab2265f47f772 Bluetooth: hci_sync: fix race in hci_cmd_sync_dequeue_once
+f0c200a4a537f8f374584a974518b0ce69eda76c Bluetooth: ISO: Fix BIS connection dst_type handling
+77343b8b4f87560f8f03e77b98a81ff3a147b262 Bluetooth: btmtksdio: Add pmctrl handling for BT closed state during reset
+0d92808024b4e9868cef68d16f121d509843e80e Bluetooth: HCI: Fix tracking of advertisement set/instance 0x00
+e8785404de06a69d89dcdd1e9a0b6ea42dc6d327 Bluetooth: MGMT: fix crash in set_mesh_sync and set_mesh_complete
+76e20da0bd00c556ed0a1e7250bdb6ac3e808ea8 Revert "Bluetooth: L2CAP: convert timeouts to secs_to_jiffies()"
+c403da5e98b04a2aec9cfb25cbeeb28d7ce29975 Bluetooth: ISO: Fix another instance of dst_type handling
+057b6ca5961203f16a2a02fb0592661a7a959a84 Bluetooth: btintel_pcie: Fix event packet loss issue
+b489556a856d31f1eb73972150f371d2e4ce1de8 Bluetooth: fix corruption in h4_recv_buf() after cleanup
+857eb0fabc389be5159e0e17d84bc122614b5b98 Bluetooth: hci_conn: Fix connection cleanup with BIG with 2 or more BIS
+751463ceefc3397566d03c8b64ef4a77f5fd88ac Bluetooth: hci_core: Fix tracking of periodic advertisement
+91d35ec9b3956d6b3cf789c1593467e58855b03a Bluetooth: rfcomm: fix modem control handling
 84dfce65a7ae7b11c7b13285a1b23e9a94ad37b7 x86/bugs: Remove dead code which might prevent from building
 b2a578f3127ab9ef80114cef9b20a2b42a8ee77a soc: officially expand maintainership team
 c1a1c0d32d5b6dd219f9b9e7c51ed4c69882fe62 Merge tag 'gpio-fixes-for-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -257,6 +285,15 @@ dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 6f40e50ceb99fc8ef37e5c56e2ec1d162733fef0 ksmbd: transport_ipc: validate payload size before reading handle
 975f05a7647720b6a82dac73463eaeca3067de71 smb: server: call smb_direct_post_recv_credits() when the negotiation is done
 f574069c5c55ebe642f899a01c8f127d845fd562 smb: server: let smb_direct_cm_handler() call ib_drain_qp() after smb_direct_disconnect_rdma_work()
+428ea708b714ba09c96da5722fb1c8b86af509d1 wifi: rt2x00: check retval for of_get_mac_address
+a392cde88d19af917740d27e13115447d3b21a06 wifi: cfg80211/mac80211: validate radio frequency range for monitor mode
+a3b16dfe79eecafea0e058b038bb506ed9bd2c89 wifi: mac80211_hwsim: advertise puncturing feature support
+8f24be708829854560e1db9f765c51305b046183 wifi: mac80211: reset CRC valid after CSA
+ad55aa3ad8f843b2600db322d312f9f28d79568e wifi: mac80211: get probe response chan via ieee80211_get_channel_khz
+bca76b875d0530658f3ba1bc946dbae1974f14c3 wifi: cfg80211: default S1G chandef width to 1MHz
+cc18fffa3a51792637169872886df3407bd5bb84 wifi: mac80211: fix missing RX bitrate update for mesh forwarding path
+7cc986c04a9b07d91684f7e326fa5b960215bc97 wifi: cfg80211: Add debugfs support for multi-radio wiphy
+88de08348af8ce15dc563e0ebb5553eddd821c06 wifi: cfg80211: Add parameters to radio-specific debugfs directories
 fd57572253bc356330dbe5b233c2e1d8426c66fd Merge tag 'sched_ext-for-6.18-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 65f9c4c5888913c2cf5d2fc9454c83f9930d537d tools: ynl: fix string attribute length to include null terminator
 b3cf2d14cff5587a250f3b65ee0d36f556d23074 Merge tag 'for-net-2025-10-24' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
@@ -287,6 +324,15 @@ d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4 net: cxgb4/ch_ipsec: fix potential use-
 514f1dc8f2ca3101e04cdf452e53baca3a76e544 netfilter: nft_ct: enable labels for get case too
 8d96dfdcabef00e28f0c851b1502adb679dfc6d9 netfilter: nft_connlimit: fix possible data race on connection count
 90918e3b6404c2a37837b8f11692471b4c512de2 netfilter: nft_ct: add seqadj extension for natted connections
+9e314a3c525c91c1e918546f472585cdbd44fbd1 ice: remove legacy Rx and construct SKB
+3a4f419f750946181e3d6a339a1ef1942c5b5685 ice: drop page splitting and recycling
+93f53db9f9dc4a16b40ecd18e6d338ad57e4b670 ice: switch to Page Pool
+8adfcfd6a2eedbe4007ad6732bed829f41ec720f ice: implement configurable header split for regular Rx
+ba2807b869a16d36b8bc76efa774fe433b3c45de ice: Allow 100M speed for E825C SGMII device
+a7ae783da0b919550e260aebfca1c6ef030b99a4 i40e: avoid redundant VF link state updates
+5d9b400e6f7e2bfb2bd80709e03a6db42e34076b idpf: remove duplicate defines in IDPF_CAP_RSS
+6ef670d833a8f3b142cb80739135c56ade8a25b0 ixgbe: fix typos in ixgbe driver comments
+9157b8a88c0bd769808caaecce4b8c96bd826304 igbvf: fix misplaced newline in VLAN add warning message
 f99c579211f5c77da6750b90c6bec9b264188120 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 a6f0459aadf1b41a9b9fae02006b1db024d60856 mptcp: fix subflow rcvbuf adjust
 24990d89c23de4dbef6b0b3d58383cafefdd6983 trace: tcp: add three metrics to trace_tcp_rcvbuf_grow()
@@ -316,10 +362,54 @@ ded9813d17d3dd50a08e7a2ca1495769ef9c6673 net: stmmac: Consider Tx VLAN offload t
 48b2e323c018c4c908ae5acabff326647bab5240 net: stmmac: est: Fix GCL bounds checks
 a38eeecfe3232283c0ae34d0f4302e5a3e60f3ee Merge branch 'net-stmmac-fixes-for-stmmac-tx-vlan-insert-and-est'
 6a2108c78069fda000729b88c97b1eba0405e6d7 net: devmem: refresh devmem TX dst in case of route invalidation
+0a119c68d0e6b64f460516ad832a7f171be55594 net: wireless: Remove redundant pm_runtime_mark_last_busy() calls
+db82ddeaf42b93799a52df347284062893ea2ad6 wifi: mac80211: add RX flag to report radiotap VHT information
+ec81b33b23bed73d7f407dc2079867a3f271aba0 wifi: rt2x00: add nvmem eeprom support
+508dfc1f2ccdc480893332aaeb5e8d076769f7c3 wifi: mac80211: Allow HT Action frame processing on 6 GHz when HE is supported
 51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c net: sctp: fix KMSAN uninit-value in sctp_inq_pop
+320d80eeb22219bc1dd14780113c36e11dad7c04 netfilter: nf_tables: use C99 struct initializer for nft_set_iter
+2b749f257645c54f8659bddbdb5b2ede999bec00 netfilter: conntrack: disable 0 value for conntrack_max setting
+57347d58a4011551e7d0e030f2f12e4d1a28feb6 netfilter: fix typo in nf_conntrack_l4proto.h comment
+4920abacb1daf78fa7a4cd6d18f598ebced67ad1 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+ecca75ae5ae66d13f701c4a6523644d51946ddec selftests: drv-net: replace the nsim ring test with a drv-net one
+1659b441b6dbc536f8265c49d5b3d6b817894b5f Merge tag 'wireless-next-2025-10-30' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
+12a7c6a9931f6e33e1942133bc6d767d77312cd7 Merge tag 'nf-next-25-10-30' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 e5763491237ffee22d9b554febc2d00669f81dee Merge tag 'net-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-5c5f1f64681cc889d9b13e4a61285e9e029d6ab5 Bluetooth: hci_event: validate skb length for unknown CC opcode
-1c21cf89a66413eb04b2d22c955b7a50edc14dfa Bluetooth: btrtl: Fix memory leak in rtlbt_parse_firmware_v2()
-8d59fba49362c65332395789fd82771f1028d87e Bluetooth: MGMT: Fix OOB access in parse_adv_monitor_pattern()
+0d0eb186421d0886ac466008235f6d9eedaf918e cxgb4: flower: add support for fragmentation
+1a2352ad82b515035efe563f997ef8f5ca4f8080 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+21363138d61af790ea124cd9f6ce8546f2f4d32e ice: Fix enable_cnt imbalance on resume
+6973f96066d0eb53cd4798149470916e8d633f98 ice: Fix enable_cnt imbalance on PCIe error recovery
+c24133738dfc7a4a818f7e24e12d1cc52b8887df i40e: Fix enable_cnt imbalance on PCIe error recovery
+b308d143a708d72c6e1495eda060202e4ab4346b ice: add recovery clock and clock 1588 control for E825c
+843f7e4c35674a7cf2accd45fab8390fe805daeb idpf: fix memory leak of flow steer list on rmmod
+56b2192bcadc57ebf6adec2c2069fc401097a5ec idpf: fix issue with ethtool -n command display
+c238b033be4a43fd5f89a7b49d7d9dbfba49338a ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
+48c9219420a3b48c320ce451ea86f850eebb154e ice: add TS PLL control for E825 devices
+93ac0a8944af5abf10a420ad8e532cc8a18b584a idpf: fix possible vport_config NULL pointer deref in remove
+b984e233d3682cd51875bbae09ab32732db9a314 libie: depend on DEBUG_FS when building LIBIE_FWLOG
+cf2c842763154d2a3054950b20d8023167312d00 ixgbe: Add 10G-BX support
+6ea2668c77ae6e80adeb10a0c98753800d6580f4 idpf: add support for IDPF PCI programming interface
+393e551b7f6cbd1e8f85a8a9040b63e34f1c8628 ice: fix PTP cleanup on driver removal in error path
+2e1a4dc87aac27ba2bfe6f88a37e0ecf70d39e6b ice: unify PHY FW loading status handler for E800 devices
+c424402369d31a15603b668287b7718b2a118185 idpf: convert vport state to bitmap
+4455fff883985ea2fad94f6879b274ab32bf2c17 idpf: introduce local idpf structure to store virtchnl queue chunks
+f445b725c5cb3ba29b58ed414966922c32993e5e idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+6fc2f492ac1e5029b3268908f6855c984b058497 idpf: move queue resources to idpf_q_vec_rsrc structure
+d5b536c7c588d778e121a5da8c4bb2fd708ede4e idpf: move some iterator declarations inside for loops
+a71a4fa11a39678d4f6bc42ddb9eecd87d5fa530 idpf: reshuffle idpf_vport struct members to avoid holes
+ce2ce3dfd35da77e18cf7db88176638518e5cac2 idpf: add rss_data field to RSS function parameters
+4844591fb0683345768636bcdda54e1d4b45b289 idpf: remove vport pointer from queue sets
+c0fbad3b63c87fa7c397e3b4cff00213d40e07d9 idpf: generalize send virtchnl message API
+304063cff0f7792cf3090e3b1d194a34dec0638b idpf: avoid calling get_rx_ptypes for each vport
+e566b96725b144b11ed0d8e11373dc8c41029851 idpf: generalize mailbox API
+a185ef34d57a4b899c1c3f13e73b9ab22e4c3889 idpf: correct queue index in Rx allocation error messages
+312fb05e8e27fee4cb749f8727c573cacc5d247c devlink: Add new "max_mac_per_vf" generic device param
+33fe9d80f950799c0e3535621e6527f7a24f99e8 i40e: support generic devlink param "max_mac_per_vf"
+7a9b38bc2a41cf61a610bc13fa9d217ff812224f ice: add flow parsing for GTP and new protocol field support
+9d09756ea239c087302a848fae4ad9689795130a ice: add virtchnl and VF context support for GTP RSS
+7c0777b1631beabc600ce4741ab956ffe7355e0b ice: improve TCAM priority handling for RSS profiles
+1a71067b337acf28f04cffb4037731b45c061446 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
+a916eeaa1fc016e598a1289b24c20db86ad8ec33 iavf: add RSS support for GTP protocol via ethtool
+ae65494ff96d48880587518c8f206d729f9b6987 ice: add support for unmanaged DPLL on E830 NIC
 
---===============6438677231194399526==--
+--===============4379897802476983319==--
