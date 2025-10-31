@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 31 Oct 2025 01:29:41 -0000
-Message-Id: <176187418165.4106284.12551661592022272632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Fri, 31 Oct 2025 01:41:58 -0000
+Message-Id: <176187491811.4118774.13029852338625527156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/kbuild-ms-extensions
-    old: c4781dc3d1cf0e017e1f290607ddc56cfe187afc
-    new: e066b73bd881f75df58ab729a72c1206ed9e1773
+  - ref: refs/heads/for-next
+    old: e4ee0bb077cd7d70207647a0106f6ea6a74c2636
+    new: c862381bd03ad4d999e0f1b3f8d1119ed7aa2e96
     log: |
-         e066b73bd881f75df58ab729a72c1206ed9e1773 kbuild: Add '-fms-extensions' to areas with dedicated CFLAGS
+         c862381bd03ad4d999e0f1b3f8d1119ed7aa2e96 platform/chrome: cros_ec_lightbar: Check if ec supports suspend commands
          
