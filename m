@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4379897802476983319=="
+Content-Type: multipart/mixed; boundary="===============5549646086610424565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 31 Oct 2025 17:06:17 -0000
-Message-Id: <176193037757.716665.16906788601017733582@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 17:06:23 -0000
+Message-Id: <176193038334.716926.17144086142551994419@gitolite.kernel.org>
 
---===============4379897802476983319==
+--===============5549646086610424565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d32bf2335ae824a23adfbf368d61de62d0ee9587
-    new: ae65494ff96d48880587518c8f206d729f9b6987
-    log: revlist-d32bf2335ae8-ae65494ff96d.txt
+  - ref: refs/heads/1GbE
+    old: 7ea7694495db8ec2e80b601f967865263b44b16a
+    new: 1a2352ad82b515035efe563f997ef8f5ca4f8080
+    log: revlist-7ea7694495db-1a2352ad82b5.txt
 
---===============4379897802476983319==
+--===============5549646086610424565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d32bf2335ae8-ae65494ff96d.txt
+Content-Disposition: attachment; filename=revlist-7ea7694495db-1a2352ad82b5.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -377,39 +377,5 @@ ecca75ae5ae66d13f701c4a6523644d51946ddec selftests: drv-net: replace the nsim ri
 e5763491237ffee22d9b554febc2d00669f81dee Merge tag 'net-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 0d0eb186421d0886ac466008235f6d9eedaf918e cxgb4: flower: add support for fragmentation
 1a2352ad82b515035efe563f997ef8f5ca4f8080 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-21363138d61af790ea124cd9f6ce8546f2f4d32e ice: Fix enable_cnt imbalance on resume
-6973f96066d0eb53cd4798149470916e8d633f98 ice: Fix enable_cnt imbalance on PCIe error recovery
-c24133738dfc7a4a818f7e24e12d1cc52b8887df i40e: Fix enable_cnt imbalance on PCIe error recovery
-b308d143a708d72c6e1495eda060202e4ab4346b ice: add recovery clock and clock 1588 control for E825c
-843f7e4c35674a7cf2accd45fab8390fe805daeb idpf: fix memory leak of flow steer list on rmmod
-56b2192bcadc57ebf6adec2c2069fc401097a5ec idpf: fix issue with ethtool -n command display
-c238b033be4a43fd5f89a7b49d7d9dbfba49338a ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
-48c9219420a3b48c320ce451ea86f850eebb154e ice: add TS PLL control for E825 devices
-93ac0a8944af5abf10a420ad8e532cc8a18b584a idpf: fix possible vport_config NULL pointer deref in remove
-b984e233d3682cd51875bbae09ab32732db9a314 libie: depend on DEBUG_FS when building LIBIE_FWLOG
-cf2c842763154d2a3054950b20d8023167312d00 ixgbe: Add 10G-BX support
-6ea2668c77ae6e80adeb10a0c98753800d6580f4 idpf: add support for IDPF PCI programming interface
-393e551b7f6cbd1e8f85a8a9040b63e34f1c8628 ice: fix PTP cleanup on driver removal in error path
-2e1a4dc87aac27ba2bfe6f88a37e0ecf70d39e6b ice: unify PHY FW loading status handler for E800 devices
-c424402369d31a15603b668287b7718b2a118185 idpf: convert vport state to bitmap
-4455fff883985ea2fad94f6879b274ab32bf2c17 idpf: introduce local idpf structure to store virtchnl queue chunks
-f445b725c5cb3ba29b58ed414966922c32993e5e idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
-6fc2f492ac1e5029b3268908f6855c984b058497 idpf: move queue resources to idpf_q_vec_rsrc structure
-d5b536c7c588d778e121a5da8c4bb2fd708ede4e idpf: move some iterator declarations inside for loops
-a71a4fa11a39678d4f6bc42ddb9eecd87d5fa530 idpf: reshuffle idpf_vport struct members to avoid holes
-ce2ce3dfd35da77e18cf7db88176638518e5cac2 idpf: add rss_data field to RSS function parameters
-4844591fb0683345768636bcdda54e1d4b45b289 idpf: remove vport pointer from queue sets
-c0fbad3b63c87fa7c397e3b4cff00213d40e07d9 idpf: generalize send virtchnl message API
-304063cff0f7792cf3090e3b1d194a34dec0638b idpf: avoid calling get_rx_ptypes for each vport
-e566b96725b144b11ed0d8e11373dc8c41029851 idpf: generalize mailbox API
-a185ef34d57a4b899c1c3f13e73b9ab22e4c3889 idpf: correct queue index in Rx allocation error messages
-312fb05e8e27fee4cb749f8727c573cacc5d247c devlink: Add new "max_mac_per_vf" generic device param
-33fe9d80f950799c0e3535621e6527f7a24f99e8 i40e: support generic devlink param "max_mac_per_vf"
-7a9b38bc2a41cf61a610bc13fa9d217ff812224f ice: add flow parsing for GTP and new protocol field support
-9d09756ea239c087302a848fae4ad9689795130a ice: add virtchnl and VF context support for GTP RSS
-7c0777b1631beabc600ce4741ab956ffe7355e0b ice: improve TCAM priority handling for RSS profiles
-1a71067b337acf28f04cffb4037731b45c061446 ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
-a916eeaa1fc016e598a1289b24c20db86ad8ec33 iavf: add RSS support for GTP protocol via ethtool
-ae65494ff96d48880587518c8f206d729f9b6987 ice: add support for unmanaged DPLL on E830 NIC
 
---===============4379897802476983319==--
+--===============5549646086610424565==--
