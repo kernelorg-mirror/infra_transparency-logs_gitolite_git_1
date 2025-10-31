@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1832390293005145665=="
+Content-Type: multipart/mixed; boundary="===============3366722155436226004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 31 Oct 2025 13:59:17 -0000
-Message-Id: <176191915795.550843.17882133733368075809@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 13:59:19 -0000
+Message-Id: <176191915939.550912.6104441741318355435@gitolite.kernel.org>
 
---===============1832390293005145665==
+--===============3366722155436226004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,82 +16,87 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.17.y
-    old: 0c55fb07a6de43d36b9e719d2683de60570b877d
-    new: 8d618497d36de095c44917cdf7e1855a4f7e1922
-    log: revlist-0c55fb07a6de-8d618497d36d.txt
+  - ref: refs/heads/linux-6.12.y
+    old: fa58bc92ab7d52799fe64f74d9733e86da2f57aa
+    new: a9e5fa7ba918ea19f7a7f155daefa0b05231c3f6
+    log: revlist-fa58bc92ab7d-a9e5fa7ba918.txt
 
---===============1832390293005145665==
+--===============3366722155436226004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761919221 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761919223 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1761919154-03a54d301bf523ad8669685c299971c2c5a1bf87
+nonce 1761919156-fc3ef3bf4ce3b714debefbda1fafb73e06aae794
 
-0c55fb07a6de43d36b9e719d2683de60570b877d 8d618497d36de095c44917cdf7e1855a4f7e1922 refs/heads/linux-6.17.y
+fa58bc92ab7d52799fe64f74d9733e86da2f57aa a9e5fa7ba918ea19f7a7f155daefa0b05231c3f6 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkEwPUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lGoQALdaHv1B0tqJQvGxgWeJ
-1azAjh2Dnjgw5+RanVuVCk+RF580453cPRpZwdTt5ZPWn8x+geYehJXFxRCOtcur
-V/X7iQPcLwdgLGhzoyf0JhXONuFQgC3c6+/gzPu6dhnnaV7jbl86+bs2TKZE9ipr
-mGX4Aqk4V1fvW13emqwFOK8DYSn/AbsC6rtDYMM29Con5ZkYUceJnJnsnoLV65Jl
-FdEb+/xiwac33R7vdgkspW1RTcUqHvq8HPzLZW3+I/mut1q9THM6RIBG80KaosHg
-GeS/cjEZH03uxKxLgJCrVS7tfJuL6/ygn4N6c1sq1Ysu0cXhCqMQBwy95iLmer58
-VkwJdG2sbN5x6T/yftjMTJGsNnBc6Ia6nniTx/dlEbFcBKICkQp9bby+EpIFwIyJ
-YSxYkHV/oJOKDGb8abJ88c8LR75012tprc3Esaw9SBDo6ZldnjPxPcwZhpWDMeTw
-Fd5qlgv99wGk78Q+k9LRUIt1haiQ1+ZPGNgVean6tTn8PmzzeIO1G4FAO4q4CJZo
-xGV2SmP3rmqnFnGNmrLVxZnaiLuUx9Vi2KLEqNrCqmHl3cEH0wBPRL/Zs1morvDx
-33l9B/2DhDUpRpTFhAgMEu4ZyO7uUjCwQZhlMxN/Iq2VO+yrHWb06OvtLEqe3Num
-sAWghkjVAqn076V2qnwbjyFj
-=+GCu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkEwPcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UWIP/33cIfsuYRIGOxVS5LeX
+IWB2kZLrngdekrZUeuNiYvkmrMm3U8n6zf5Obo+uhTzTjtVD/UiNLESW2x1O9aPk
+jtP9H8gr3uV/xU2Ap0HSecY6cWOchpml6foqRyhrA5NuVNG7/6aric+PrMG0jtQ3
+mtsKOBzFUF2ZugOkwale0+FWQuA8dLMlX0Q0i0uOQzueuKvyd1T9YK+HxMK75ots
+qdrb00rM+0/A8TwAWG4x2tqw7ZFJTZNqEI7EMoSv+pLIGsgaDVPhbJ7IA7T9c5ab
+f8UzIsxAYvjafHIrhVPv3YpxsZ4nbScHO8c7OFOEuLrT33GI1OwXb4NxvSjTYBT6
+T78JhhR+McfoQtG00c/weRJDKFdXNvSv2MkEF4oRpNbMofqvh6i6nHml880yENP2
+6aaLnyoO5AZ8xZsq4+rTOxvTkfQWTp6U+YqAaBCJ3+2gJWbjyQVeDjJtGRQbQKQ4
+O8p1qnJZbD4C+TLua+L3u2zET2+crCSKn6hJ+MCY8NHXDxOjeaXTgGBmXLv64arR
+rgpb98pnAGzkguOIYq/Nz7BvtaBBDQLuh7QPC0249WXz5WpAt80RAadldwjbGNV1
++4bQj4gH/8iBZ+NtIr4FgQrXRfK7OVHmKwTIL4CRBxPSjnGpahcB7L0NSgXAd93t
+0yuqtApN7IAA5Yi7EM8jaiCz
+=7QS2
 -----END PGP SIGNATURE-----
 
---===============1832390293005145665==
+--===============3366722155436226004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c55fb07a6de-8d618497d36d.txt
+Content-Disposition: attachment; filename=revlist-fa58bc92ab7d-a9e5fa7ba918.txt
 
-4b8bc27112c842bcd87a081001b3d9db320b98da sched_ext: Move internal type and accessor definitions to ext_internal.h
-c6fe1ae116bb9870dc978c0c0b0fac7f83719460 sched_ext: Put event_stats_cpu in struct scx_sched_pcpu
-5b7a0c74689aa1e3270674588bcd1b1530f78e98 sched_ext: Sync error_irq_work before freeing scx_sched
-d9d3d27ed5327cb423e4c1f72164aa831d94ae16 timekeeping: Fix aux clocks sysfs initialization loop bound
-eabb3248a2066a5c973c29718523461bcf2db765 x86/bugs: Report correct retbleed mitigation status
-b56a646b56983b5cd550aa4b1aeafb6b689a67c9 x86/bugs: Qualify RETBLEED_INTEL_MSG
-98fd3f57316ab56aacfa66341942372b4d95c638 genirq/chip: Add buslock back in to irq_set_handler()
-0900e746b22d42d160f8cda627d818fdc57841f6 genirq/manage: Add buslock back in to __disable_irq_nosync()
-4a5d88faed48a67338048f783329a1e105a42a8e genirq/manage: Add buslock back in to enable_irq()
-51d43735a5dc5d4187120ecb95f9ae3e93c9e0dc audit: record fanotify event regardless of presence of rules
-60678459619e8e8368c16451e7b5ba34924ace94 EDAC/ie31200: Add two more Intel Alder Lake-S SoCs for EDAC support
-81081c9a6bc230a3191aa0336c93c041e4af43cf perf/x86/intel: Add ICL_FIXED_0_ADAPTIVE bit into INTEL_FIXED_BITS_MASK
-35d397cc6abab80387f94cff49b125b786d80be0 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
-52a447eb588134cfed1b44f8c1eb5733bb3de0de perf: Have get_perf_callchain() return NULL if crosstask and user are set
-5fbb5c50721998faff1b4edbc5714772794aa4ec perf: Skip user unwind if the task is a kernel thread
-625cd5560a36728bb8cb6a85e0196f35ba2416e0 EDAC: Fix wrong executable file modes for C source files
-f2ba42590f716fd8a646f9515e242b17427c477f seccomp: passthrough uprobe systemcall without filtering
-cc7551d09db46be0816cf6fa7bb8c0f128c720b0 sched_ext: Keep bypass on between enable failure and scx_disable_workfn()
-6e19d4de47839a9f159422e0b62affd022355933 x86/bugs: Add attack vector controls for VMSCAPE
-47799cb4765347f09f9c90c88e7d0ee1bb0ac1ca sched/fair: update_cfs_group() for throttled cfs_rqs
-cc9d9f0f32faf50c5bcd604c6f21784ae33c2665 x86/bugs: Fix reporting of LFENCE retpoline
-9649766f7ec7ecdcab46ec26ce4a4f980f0126d5 EDAC/mc_sysfs: Increase legacy channel support to 16
-c40b6c6780069fc845a1c722b6f5df37ba0b49f4 cpuset: Use new excpus for nocpu error check when enabling root partition
-eac214a13370bd4a7bda6be6add810f5fa225b59 btrfs: abort transaction on specific error places when walking log tree
-f6e2c27c11e462b61d9b49e4368a9e9516b16667 btrfs: abort transaction in the process_one_buffer() log tree walk callback
-26280a1a695f23f69db37343f15f8c1fac5831af btrfs: zoned: return error from btrfs_zone_finish_endio()
-5015d1f4248bdf2a483dc642109c4763efd5122d btrfs: zoned: refine extent allocator hint selection
-db19b8bd8c3d4f0e66389d35849b1b5b58052802 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
-f988503e6812020175c587865a38a1b6d25ff666 btrfs: always drop log root tree reference in btrfs_replay_log()
-95df3b8efea1a43bf0f9c2454e4c1ba507c79d29 btrfs: use level argument in log tree walk callback replay_one_buffer()
-01b12ef8519f9ee15832dc67ea4c58a7b4e55dd0 btrfs: abort transaction if we fail to update inode in log replay dir fixup
-69c2b5ba01cd0d8c45f94f8bf48194e15fa953b9 btrfs: tree-checker: add inode extref checks
-ed15711c5d7f7f707320cf4458108f2b1e429ea0 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
-5a2f263d89ad8970d2ed497e6f761708ca1dee7a sched_ext: Make qmap dump operation non-destructive
-601252870d9b16758b6d35a1f2de05b99a3f43a7 arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
-8d618497d36de095c44917cdf7e1855a4f7e1922 Linux 6.17.7-rc1
+7aa29780f4d1872b3231f25cb4085ad264e39bde net/sched: sch_qfq: Fix null-deref in agg_dequeue
+8384c8cb4ab63436d29599bb033add827c4b430d audit: record fanotify event regardless of presence of rules
+3c1e416c3cd141c610e1313b0e6e57ea5b534c90 perf/x86/intel: Add ICL_FIXED_0_ADAPTIVE bit into INTEL_FIXED_BITS_MASK
+93df2dbfa2617d56fca7d2bf15132d3a82650e45 perf: Use current->flags & PF_KTHREAD|PF_USER_WORKER instead of current->mm == NULL
+d96074f5c9ccad8d44a3b243e1f88283ea5d2f8f perf: Have get_perf_callchain() return NULL if crosstask and user are set
+b78147427352e4837d48cb1c4b5b8de68f4dd33e perf: Skip user unwind if the task is a kernel thread
+8b986171c80c04661ff192ccb5a5c23b89ccdd73 seccomp: passthrough uprobe systemcall without filtering
+cf03c14068b0b3faf9c4f01683d718bc5f196c92 x86/bugs: Report correct retbleed mitigation status
+95e55336d837fd03aa4670fd640d5a05ad3534c1 x86/bugs: Fix reporting of LFENCE retpoline
+46f3da6b3c29f2ed1cdd508da2b4067d774ff6c0 EDAC/mc_sysfs: Increase legacy channel support to 16
+8fc689940708ce060c8334d1b8fedd3fcb0b0159 cpuset: Use new excpus for nocpu error check when enabling root partition
+d632670453c2f282b7ed3aa1c8b75ec4675f9595 btrfs: abort transaction on specific error places when walking log tree
+689d3bcd78df506965e5e7d5b072cba517513236 btrfs: abort transaction in the process_one_buffer() log tree walk callback
+a86bf299609c296f407fff0ba430c73e79588735 btrfs: zoned: return error from btrfs_zone_finish_endio()
+e182a772d278b2dcf6faa2b0ce9587067c2a8c7b btrfs: zoned: refine extent allocator hint selection
+45ffa9f0b50884ffcca71768a0fde69285cca148 btrfs: scrub: replace max_t()/min_t() with clamp() in scrub_throttle_dev_io()
+13ac7c11c8775cd838cc1659be4ce9a5cd2def9d btrfs: always drop log root tree reference in btrfs_replay_log()
+1f50d54be49551efcd9cd8ecf0fc599816261569 btrfs: use level argument in log tree walk callback replay_one_buffer()
+f3232e7edcffc97a79ac9fb71734c64cba3479c8 btrfs: abort transaction if we fail to update inode in log replay dir fixup
+adc5d8e7340ae593491e7552e33813debaab1ba6 btrfs: tree-checker: add inode extref checks
+a00e167cb128fc28e09bec97531ec07fe1c2d432 btrfs: use smp_mb__after_atomic() when forcing COW in create_pending_snapshot()
+895ff04caf5437f304c31d798193cd7d1ebd55d2 sched_ext: Make qmap dump operation non-destructive
+458614960d506d2873f51ed9a96a469e6ee17071 arch: Add the macro COMPILE_OFFSETS to all the asm-offsets.c
+630b68b45b561723e6bcb75135032245f743a25c docs: kdoc: handle the obsolescensce of docutils.ErrorString()
+e19f82851aacf0020f6a6e5dbad2faf92cefc303 selftests: mptcp: disable add_addr retrans in endpoint_tests
+f07e077cb29e02c3fdc7db8c507f62b01820a229 selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
+1b022ad888d779ad80b25c1df86234dd953e876e mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
+37ee42b58020f67c0a33780df30a70ae31bb8361 f2fs: fix to avoid panic once fallocation fails for pinfile
+8db0dda0ff90bb87c085f5723afa52cf72e40422 wifi: cfg80211: Add missing lock in cfg80211_check_and_end_cac()
+9a3df85114303ffea0903950c438a4753b34ae8b bonding: return detailed error when loading native XDP fails
+d9be368b86ed05e5019ddf0ac3ba61954fbb73e7 bonding: check xdp prog when set bond mode
+e0040bdab75599872ade283ee7cdd409a3060271 bits: add comments and newlines to #if, #else and #endif directives
+b6247879a8f97e7f51a410884efe6f285189df28 bits: introduce fixed-type GENMASK_U*()
+e6f6f04d5fd3af7d8ab7e460f2c3c36362510a87 gpio: regmap: Allow to allocate regmap-irq device
+7450e5dcf74ac126e0ce0c225648fef1a8a58994 gpio: regmap: add the .fixed_direction_output configuration parameter
+5ac1138715a35f36df299cba46974c9e539a208e gpio: idio-16: Define fixed direction of the GPIO lines
+ab52a03816d6361ad5ec359fdbdd35133f70c4f3 iommu/vt-d: Avoid use of NULL after WARN_ON_ONCE
+183ae72f501bd6b0d188abdbd8336bc4dadfea25 wifi: ath12k: fix read pointer after free in ath12k_mac_assign_vif_to_vdev()
+9c3a98c06744b056e85089858baa632e42c4a114 udmabuf: fix a buf size overflow issue during udmabuf creation
+a1778558db5d974872a37563ca05420d8d11b836 sfc: fix NULL dereferences in ef100_process_design_param()
+a9e5fa7ba918ea19f7a7f155daefa0b05231c3f6 Linux 6.12.57-rc1
 
---===============1832390293005145665==--
+--===============3366722155436226004==--
