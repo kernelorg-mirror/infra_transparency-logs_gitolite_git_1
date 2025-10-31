@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 31 Oct 2025 19:32:47 -0000
-Message-Id: <176193916727.841254.10524525547849707893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 31 Oct 2025 19:47:03 -0000
+Message-Id: <176194002317.853132.2877188272080974845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/main
-    old: b7904323e76b074c59f113ca423e76d90da26875
-    new: 284987ab6c974c338e54852abcfaf2ed69b852d3
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 352864787458d31420b446154a165145f150d1f0
+    new: 01bc5d2f0d7db895739fccfbdf69cf68dddb9072
     log: |
-         5c5f1f64681cc889d9b13e4a61285e9e029d6ab5 Bluetooth: hci_event: validate skb length for unknown CC opcode
-         1c21cf89a66413eb04b2d22c955b7a50edc14dfa Bluetooth: btrtl: Fix memory leak in rtlbt_parse_firmware_v2()
-         8d59fba49362c65332395789fd82771f1028d87e Bluetooth: MGMT: Fix OOB access in parse_adv_monitor_pattern()
-         284987ab6c974c338e54852abcfaf2ed69b852d3 Merge tag 'for-net-2025-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+         553d18c98a896094b99a01765b9698b204183d49 perf lock contention: Load kernel map before lookup
+         163e5f2b96632b7fb2eaa965562aca0dbdf9f996 perf record: skip synthesize event when open evsel failed
+         1d7f783809fc5fdd60c9cc4f5c880d0c9e47857d perf vendor events arm64: Fix typo in Ampere eMag json file
+         0d1e63183d5ce63f7a57a99cbee1018f2a72d202 perf vendor events AmpereOneX: Fix spelling typo in the metrics file
+         915c31f0e69255897225d244e04374082d36de7f perf trace: Increase syscall handler map size to 1024
+         01bc5d2f0d7db895739fccfbdf69cf68dddb9072 perf tools: Cache counter names for raw samples on s390
          
