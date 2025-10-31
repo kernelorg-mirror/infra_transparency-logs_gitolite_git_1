@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 31 Oct 2025 23:00:23 -0000
-Message-Id: <176195162380.1020490.9345060132300315630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 31 Oct 2025 23:10:57 -0000
+Message-Id: <176195225799.1029153.311442035755745641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/rtc-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 384150d7a5b60c1086790a8ee07b0629f906cca2
+  - ref: refs/heads/scx
+    old: c85b20782a410d4474ba86afd46e2a490ddf3340
+    new: 63eecf6a142ae5ff8a201f19aef0d479a172c62b
     log: |
-         384150d7a5b60c1086790a8ee07b0629f906cca2 rtc: amlogic-a4: fix double free caused by devm
+         63eecf6a142ae5ff8a201f19aef0d479a172c62b sched_ext: Fix ops.select_cpu() stale dispatch state
          
