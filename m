@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 31 Oct 2025 09:00:02 -0000
-Message-Id: <176190120206.287570.16105545069523893647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 31 Oct 2025 09:05:47 -0000
+Message-Id: <176190154766.293187.9768606967182108467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/main
-    old: c2b3e7ad275aa846c8b286a79314ded728a87443
-    new: f952358e47e0c24f4154570216e2e46d6af02c02
+  - ref: refs/heads/for-6.18/upstream-fixes
+    old: 53f731f5bba0cf03b751ccceb98b82fadc9ccd1e
+    new: 534ca75e8e3b713514b3f2da85dab96831cf5b2a
     log: |
-         f952358e47e0c24f4154570216e2e46d6af02c02 fix(policy): don't create temporary sessions in policy_or
+         534ca75e8e3b713514b3f2da85dab96831cf5b2a HID: hid-input: Extend Elan ignore battery quirk to USB
+         
+  - ref: refs/heads/for-next
+    old: b4e30a056d772f0566b5d3fef35a7f320aee7948
+    new: 14bfcff66624a7a6395271e7a1e3bb000a556e8f
+    log: |
+         534ca75e8e3b713514b3f2da85dab96831cf5b2a HID: hid-input: Extend Elan ignore battery quirk to USB
+         14bfcff66624a7a6395271e7a1e3bb000a556e8f Merge branch 'for-6.18/upstream-fixes' into for-next
          
