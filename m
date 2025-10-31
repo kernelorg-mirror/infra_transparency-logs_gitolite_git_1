@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0876190919431374313=="
+Content-Type: multipart/mixed; boundary="===============2947205821857498394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 31 Oct 2025 16:14:33 -0000
-Message-Id: <176192727378.669676.7034961065461862219@gitolite.kernel.org>
+Date: Fri, 31 Oct 2025 16:14:36 -0000
+Message-Id: <176192727622.669794.8113588304440646965@gitolite.kernel.org>
 
---===============0876190919431374313==
+--===============2947205821857498394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c
     new: e5763491237ffee22d9b554febc2d00669f81dee
     log: revlist-51e5ad549c43-e5763491237f.txt
 
---===============0876190919431374313==
+--===============2947205821857498394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -260,4 +260,4 @@ fd57572253bc356330dbe5b233c2e1d8426c66fd Merge tag 'sched_ext-for-6.18-rc3-fixes
 e53642b87a4f4b03a8d7e5f8507fc3cd0c595ea6 Merge tag 'v6.18-rc3-smb-server-fixes' of git://git.samba.org/ksmbd
 e5763491237ffee22d9b554febc2d00669f81dee Merge tag 'net-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0876190919431374313==--
+--===============2947205821857498394==--
