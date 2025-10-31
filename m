@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1241887613354272975=="
+Content-Type: multipart/mixed; boundary="===============2554304591822612779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 31 Oct 2025 09:41:14 -0000
-Message-Id: <176190367418.323544.14487966470716141845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 31 Oct 2025 09:44:06 -0000
+Message-Id: <176190384642.325308.11267548534594273575@gitolite.kernel.org>
 
---===============1241887613354272975==
+--===============2554304591822612779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: 1ec7c47617af373f378161b963d1138100521d9a
-    new: 2182e0ac412537fe8d6a14281be959bf5224445f
-    log: |
-         2182e0ac412537fe8d6a14281be959bf5224445f assign CVE-2025-40106 on request
-         
+    old: 275a9a3f9b6a2158bfb7826074b72d5bdfb2ac35
+    new: 7d4bc0a01fa745f321a3b8b4ab95ff146e63a6c4
+    log: revlist-275a9a3f9b6a-7d4bc0a01fa7.txt
 
---===============1241887613354272975==
+--===============2554304591822612779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-275a9a3f9b6a-7d4bc0a01fa7.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1761903737 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1761903671-d44a2a5f720ae0dd3dc129493887fcc5bcd5c208
+85e1a7ec61d9829af5897da421eb135c6cc73e07 crypto: aead - Add support for on-stack AEAD req allocation
+4fbfd7b206b1aa3fedfe8e82a8d3b8daca007d57 crypto: ti - Add support for AES-XTS in DTHEv2 driver
+841940df6f6eb825af9f15a1587fb3b28fe3cb4f dt-bindings: crypto: amd,ccp-seattle-v1a: Allow 'iommus' property
+12ad5b2346f905a3962b4aee701191b7a8d1905a keys: Annotate struct asymmetric_key_id with __counted_by
+eeb4e7758514de98bba956530ec2e2ea19464dfd dt-bindings: rng: add google,gs101-trng compatible
+d2e5c78b73fcc8c3bfec461448e16941c5e9d0dc crypto: qce - Provide dev_err_probe() status on DMA failure
+b340b0672f0c5d756c33f19b8e1b5768a066c300 crypto: hisilicon/qm - add the save operation of eqe and aeqe
+caf8da34149d6b87dac6a2260653a5694e333123 crypto: hisilicon/qm - add concurrency protection for variable err_threshold
+84de89e0fd7240d9ee98fb6d4e4b1fdecc740bc0 crypto: hisilicon/sgl - remove unnecessary checks for curr_hw_sgl error
+4b2da0e4e0b932afd8b613ee2e4ffedb0c68ae56 crypto: hisilicon/qm - add missing default in switch in qm_vft_data_cfg
+7d4bc0a01fa745f321a3b8b4ab95ff146e63a6c4 crypto: qat - use simple_strtoull to improve qat_uclo_parse_num
 
-1ec7c47617af373f378161b963d1138100521d9a 2182e0ac412537fe8d6a14281be959bf5224445f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkEhHkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jJEP/30E7ZUPYaUq7MvPXls8
-qrnKkhxqCLN7loTFzElQNLfTYZ2tov2F0j9wXheTrMFlJmc69k/oWQOQ55XXufcR
-v3cuItW77CV8ILGoRzXNNlxdQhuvz85Ev3D11ATA8Bx0XVoFgCQ1+YWSXIABK7o9
-ta5jIDN8Nj+eN1djUPEmDKaizvezFia0PHoXyJx4ZDRCopJLtzAx1OAwWSOy8wd2
-5eKD3T9RNYrpxjYbTlVyQIdIBRZqQt5DGyDU+IxZqopPOYnYOepH97Gkk5hM0nep
-gid3Gic1urLqk41hirZGTRnz15iO6M9xuiaGRb2Y4ewKxCGzak1gX2zIFKa/oB+6
-V6Ba5H0F5E2vDxhrkHIcV1nIgSc898D2/W09aK90Jn65rpOfaENH9zOT6QkyhNXA
-YnxEL8sQk2wF70dc7CDHdGD9wdb/rB31aJW1X4oqQLVyVEPHa57SQ1Zcf7vy74EC
-TeBy0NnC6c4S4ZDDohDC3NN0KoUL2O05vwBf8zieNBc19ily3SRZiKECIlQI51NJ
-Zv6rBjKRDw1ZCY8zDuzfG0Jwo6LD0RAhnDUSNMF+3Et/X6N8wZTl3jyBQahkSTvp
-6zyLDshYGHLSEL8fSB8eqQRwuD+QUnUDCAZrjPiPayTDd71KgShFk3zpzqiPDWb0
-DziKjbTBX6B3ebBvjVIWGpla
-=lZrZ
------END PGP SIGNATURE-----
-
---===============1241887613354272975==--
+--===============2554304591822612779==--
