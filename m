@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Sat, 01 Nov 2025 12:26:42 -0000
-Message-Id: <176200000263.1689791.8618445113469259360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Sat, 01 Nov 2025 12:28:34 -0000
+Message-Id: <176200011466.1690727.7995881696041136871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/broonie/regmap
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: f2bc8231fd43a02f9d97252b3435869727054d60
-    new: 59630e2ccd728703cc826e3a3515d70f8c7a766c
-    log: |
-         082ef944e55da8a9a8df92e3842ca82a626d359a xfrm: Check inner packet family directly from skb_dst
-         61fafbee6cfed283c02a320896089f658fa67e56 xfrm: Determine inner GSO type from packet inner protocol
-         59630e2ccd728703cc826e3a3515d70f8c7a766c xfrm: Prevent locally generated packets from direct output in tunnel mode
-         
+  - ref: refs/tags/regmap-fix-v6.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 842b5b69225714df9dc7a48d6f1a39ff0067fe89
