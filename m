@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6015465726245111523=="
+Content-Type: multipart/mixed; boundary="===============4312843603369715708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 01 Nov 2025 06:25:15 -0000
-Message-Id: <176197831561.1396503.14037189143604615161@gitolite.kernel.org>
+Date: Sat, 01 Nov 2025 06:26:28 -0000
+Message-Id: <176197838856.1397277.296050140012463144@gitolite.kernel.org>
 
---===============6015465726245111523==
+--===============4312843603369715708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: cf877313884469baf2f68c6aa22c5dcf9d93e0a0
-    new: a845d56c332f9f9d8ce41011802bcd748a046d96
-    log: revlist-cf8773138844-a845d56c332f.txt
+    old: a845d56c332f9f9d8ce41011802bcd748a046d96
+    new: b968d58c081ac21a013a0c02235081ad7c19f436
+    log: revlist-a845d56c332f-b968d58c081a.txt
+  - ref: refs/heads/tip/urgent
+    old: 3375a6b6f4de9049b15563a08fb3fa72c8a825c1
+    new: 4f637dd0fa9525cb47ab5382e60c36a6bf4afb7c
+    log: revlist-3375a6b6f4de-4f637dd0fa95.txt
 
---===============6015465726245111523==
+--===============4312843603369715708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf8773138844-a845d56c332f.txt
+Content-Disposition: attachment; filename=revlist-a845d56c332f-b968d58c081a.txt
+
+284c3914ab11fccb72c3340f63e47bb1a94273df Merge branch into tip/master: 'objtool/urgent'
+5a5de8cc61113f87236790e5a01cae90675f6749 Merge branch into tip/master: 'perf/urgent'
+4f637dd0fa9525cb47ab5382e60c36a6bf4afb7c Merge branch into tip/master: 'x86/urgent'
+c26f49e73c0742f82106e7cdd81dcba74e4c303c Merge branch into tip/master: 'core/bugs'
+4be7e2766eb494eb7a687b12dd41c7838a26162c Merge branch into tip/master: 'core/core'
+7cc40ffdbcf76a507808ef1b2e268435b176961b Merge branch into tip/master: 'irq/core'
+4621623af637dcc9237c8ee7704e95443666678f Merge branch into tip/master: 'irq/drivers'
+1d2d291d0e9224a9748338d282e96096caf423d1 Merge branch into tip/master: 'irq/msi'
+89fd8dcc8e650c3ada850c5b99c9c4d9d8ddbffd Merge branch into tip/master: 'locking/core'
+6adebe48d4c9a22894a504bcf879146baa085d1f Merge branch into tip/master: 'objtool/core'
+8a9424d5aaa60748ce4b2ef586941cdb925041bd Merge branch into tip/master: 'perf/core'
+d4975befa953561a30ded967579ab155ece68718 Merge branch into tip/master: 'sched/core'
+0609415297a6a9948d954050ec5397405d0b8950 Merge branch into tip/master: 'x86/apic'
+71eceff5fa9bc3183f9621943413d985b3fc9d2b Merge branch into tip/master: 'x86/bugs'
+8546b6dbb572285a440e0c4b142d26b2fbdd3b4c Merge branch into tip/master: 'x86/cache'
+ea4fd4fc859f3549b18d6db50bd1b73113bc2389 Merge branch into tip/master: 'x86/cleanups'
+926adc27d81425a61d7a629856cf0311c2739eeb Merge branch into tip/master: 'x86/core'
+49a39788e6f188f24c2abc5f2fdd418289680e68 Merge branch into tip/master: 'x86/cpu'
+c24948a60a585b2f5d5532edcb4e04d823bfd06f Merge branch into tip/master: 'x86/entry'
+92a0410aad363129c7215a47824064d3ebb8ad5f Merge branch into tip/master: 'x86/microcode'
+8a9f31973556e021040adc4e20ad3a8094007211 Merge branch into tip/master: 'x86/mm'
+ad21b1b0eac1cac54bbe12a28e7a1d8d3ebaa16f Merge branch into tip/master: 'x86/sev'
+b968d58c081ac21a013a0c02235081ad7c19f436 Merge branch into tip/master: 'x86/sgx'
+
+--===============4312843603369715708==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3375a6b6f4de-4f637dd0fa95.txt
 
 c34e08ba6c0037a72a7433741225b020c989e4ae drm/msm: Fix GEM free for imported dma-bufs
 830d68f2cb8ab6fb798bb9555016709a9e012af0 drm/msm: Fix pgtable prealloc error path
@@ -126,16 +160,11 @@ fac56c4651ae95f3f2b468c2cf1884cf0e6d18c1 smb: client: handle lack of IPC in dfs_
 4f4c654f5a0f6560b938a5ab05ec5940aa6c1c29 ALSA: hda/realtek: Enable mic on Vaio RPL
 390db60f8e2bd21fae544917eb3a8618265c058c Merge tag 'asoc-fix-v6.18-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 0b39ca457241aeca07a613002512573e8804f93a blk-crypto: use BLK_STS_INVAL for alignment errors
-0ccf30fc64acca8e43a54a4f54fb3a4f155d4692 x86/smpboot: Mark native_play_dead() as __noreturn
-5eccd322390e20ca2385f4a4b34ab60e7258ad48 objtool: Remove unneeded semicolon
-9249bcdea0c6db4f450a9267aa6da5b4dd4153ca x86/boot: Move boot_*msr helpers to asm/shared/msr.h
 3257bd193fa1702791978d8418c9a96e3def082c drm/imx: parallel-display: convert to devm_drm_bridge_alloc() API
 bf7e97910b9f4d9679e075a39be371a4ed65dbd4 drm/imx: parallel-display: add the bridge before attaching it
 64e2f60f355e556337fcffe80b9bcff1b22c9c42 s390: Disable ARCH_WANT_OPTIMIZE_HUGETLB_VMEMMAP
-92ad6505a4b5e28afcc8cf5f4dd3fd137e58026b x86/sev: Include XSS value in GHCB CPUID request
 a9fb41b5def8e1e0103d5fd1453787993587281e drm/ast: Clear preserved bits from register output value
 08d33390248f9e248bca970afc731a16aad4e348 Merge tag 'nvme-6.18-2025-10-30' of git://git.infradead.org/nvme into block-6.18
-6568f14cb5ae68cd6c612604ca0c89301cf3a0d0 vmlinux.lds: Exclude .text.startup and .text.exit from TEXT_MAIN
 2d51cb1792c7b1d8d5daf55cc3eecf19ddc4500c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 3ad81aa52085a7e67edfa4bc8f518e5962196bb3 Merge tag 'v6.18-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 58fdd8484c05a19942690008304228ad784771e9 Merge tag 'sound-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -155,16 +184,11 @@ a5beb58e53092f77b89181bec9d30c8bdced3103 Merge tag 'block-6.18-20251031' of git:
 437aa64c8e32b724fc6d60100ef0eb313d32c88f PCI: Do not size non-existing prefetchable window
 39bcf0f7d415fee440d2eba877b9b618cbd6d824 Merge tag 'vfio-v6.18-rc4' of https://github.com/awilliam/linux-vfio
 f414f9fd68797182f8de4e1cd9855b6b28abde99 Merge tag 'pci-v6.18-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-68c4c159a0db4409a5d6b5f4703d71b89a96f06a genirq: Fix percpu_devid irq affinity documentation
-9ea2b810d51ae662cc5b5578f9395cb620a34a26 genirq/proc: Fix race in show_irq_affinity()
 ec0b62ccc986c06552c57f54116171cfd186ef92 Merge tag 'drm-fixes-2025-10-31' of https://gitlab.freedesktop.org/drm/kernel
 9b041a4b66b3b62c30251e700b5688324cf66625 x86/mm: Ensure clear_page() variants always have __kcfi_typeid_ symbols
 ba36dd5ee6fd4643ebbf6ee6eefcecf0b07e35c7 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-7d24f8d6de6b68536bda007959752ba378723d3d Merge branch into tip/master: 'objtool/urgent'
-20a0885847b03ec1fd6467bd81e94b9580ae6c11 Merge branch into tip/master: 'x86/urgent'
-104a26560fa4917343fd8ef3952a356264828404 Merge branch into tip/master: 'irq/core'
-f75efe4aca48699e061d42bd294af04edbf1ecb5 Merge branch into tip/master: 'objtool/core'
-8d816e4a1faa8cb95c12fbb3c5f6d24303825a42 Merge branch into tip/master: 'x86/sev'
-a845d56c332f9f9d8ce41011802bcd748a046d96 Merge branch 'linus'
+284c3914ab11fccb72c3340f63e47bb1a94273df Merge branch into tip/master: 'objtool/urgent'
+5a5de8cc61113f87236790e5a01cae90675f6749 Merge branch into tip/master: 'perf/urgent'
+4f637dd0fa9525cb47ab5382e60c36a6bf4afb7c Merge branch into tip/master: 'x86/urgent'
 
---===============6015465726245111523==--
+--===============4312843603369715708==--
