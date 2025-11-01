@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 01 Nov 2025 07:24:07 -0000
-Message-Id: <176198184789.1448885.14273793902404764420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Sat, 01 Nov 2025 07:45:14 -0000
+Message-Id: <176198311492.1467178.16211271782166772528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/tags/x86-urgent-2025-11-01
-    old: 0000000000000000000000000000000000000000
-    new: efeda750f47a27b0666104c073eedbb6c8570493
+  - ref: refs/heads/pwm/for-next
+    old: 3a4a308c069ac68286b5301438084fb5bef3b582
+    new: 61d7c2f94d391594de08d8a52a7c2630d2f3d263
+    log: |
+         61d7c2f94d391594de08d8a52a7c2630d2f3d263 pwm: airoha: Add support for EN7581 SoC
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 3a4a308c069ac68286b5301438084fb5bef3b582
+    new: 61d7c2f94d391594de08d8a52a7c2630d2f3d263
+    log: |
+         61d7c2f94d391594de08d8a52a7c2630d2f3d263 pwm: airoha: Add support for EN7581 SoC
+         
