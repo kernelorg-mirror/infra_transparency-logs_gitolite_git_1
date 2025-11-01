@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/linux-stk
-Date: Sat, 01 Nov 2025 16:24:20 -0000
-Message-Id: <176201426092.1885435.1705113285921394687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 01 Nov 2025 16:33:39 -0000
+Message-Id: <176201481982.1892640.15165965835285084850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/linux-stk
-user: klassert
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/ipsec-next-eesp
-    old: fa9a4d81ced22a6e43b1043d9a0c74aa2ce494ac
-    new: 70a1d798449153ced3867adafa57fd086267312e
-    log: |
-         70a1d798449153ced3867adafa57fd086267312e Don't count crypto_aead_authsize twice
-         
+  - ref: refs/tags/kbuild-ms-extensions-6.19
+    old: 6b9c5a7f033b846f4d90622d1206596a2d97b4aa
+    new: 0000000000000000000000000000000000000000
