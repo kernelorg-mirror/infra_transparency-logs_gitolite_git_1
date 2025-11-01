@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0373926306805897541=="
+Content-Type: multipart/mixed; boundary="===============8769557872478342376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 01 Nov 2025 20:15:35 -0000
-Message-Id: <176202813511.2075827.9754202964609281620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sat, 01 Nov 2025 20:15:40 -0000
+Message-Id: <176202814005.2076006.4609246531768197896@gitolite.kernel.org>
 
---===============0373926306805897541==
+--===============8769557872478342376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/perf-tools
@@ -20,7 +20,7 @@ changes:
     new: ccaba800e78f2ac1e3a407b623653149bf9c0763
     log: revlist-ec714e371f22-ccaba800e78f.txt
 
---===============0373926306805897541==
+--===============8769557872478342376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba36dd5ee6fd4643ebbf6ee6eefcecf0b07e35c7 Merge tag 'bpf-fixes' of git://git.kern
 e0acec3369ca7071d14196c33e7bef35f61f9cde tools headers x86: Sync table due to introducion of uprobe syscall
 ccaba800e78f2ac1e3a407b623653149bf9c0763 tools headers x86 cpufeatures: Sync with the kernel sources
 
---===============0373926306805897541==--
+--===============8769557872478342376==--
