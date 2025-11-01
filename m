@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 01 Nov 2025 07:05:56 -0000
-Message-Id: <176198075648.1433370.7147610198324968118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+Date: Sat, 01 Nov 2025 07:07:16 -0000
+Message-Id: <176198083617.1434110.2929144270718610829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+user: jarkko
 changes:
-  - ref: refs/tags/objtool-urgent-2025-11-01
-    old: 0000000000000000000000000000000000000000
-    new: 0cfa532f152d0a83602a8605bbd229f1f91e0f49
+  - ref: refs/heads/main
+    old: 64648fd21ce930ecf9d2c3f6aa42f1384ede8a25
+    new: 5a6466dcd301cf28afd892d6713180c62b99d973
+    log: |
+         5a6466dcd301cf28afd892d6713180c62b99d973 fix: multi-pcr parsing
+         
