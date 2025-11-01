@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8639827827826962902=="
+Content-Type: multipart/mixed; boundary="===============0373926306805897541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 01 Nov 2025 20:15:16 -0000
-Message-Id: <176202811697.2075447.6601106850381038680@gitolite.kernel.org>
+Date: Sat, 01 Nov 2025 20:15:35 -0000
+Message-Id: <176202813511.2075827.9754202964609281620@gitolite.kernel.org>
 
---===============8639827827826962902==
+--===============0373926306805897541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: ec714e371f22f716a04e6ecb2a24988c92b26911
     new: ccaba800e78f2ac1e3a407b623653149bf9c0763
     log: revlist-ec714e371f22-ccaba800e78f.txt
 
---===============8639827827826962902==
+--===============0373926306805897541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba36dd5ee6fd4643ebbf6ee6eefcecf0b07e35c7 Merge tag 'bpf-fixes' of git://git.kern
 e0acec3369ca7071d14196c33e7bef35f61f9cde tools headers x86: Sync table due to introducion of uprobe syscall
 ccaba800e78f2ac1e3a407b623653149bf9c0763 tools headers x86 cpufeatures: Sync with the kernel sources
 
---===============8639827827826962902==--
+--===============0373926306805897541==--
