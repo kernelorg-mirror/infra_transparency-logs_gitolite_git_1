@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0268658165935583847=="
+Content-Type: multipart/mixed; boundary="===============3415825317704250611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 01 Nov 2025 14:52:14 -0000
-Message-Id: <176200873405.1810237.4585817642804734096@gitolite.kernel.org>
+Date: Sat, 01 Nov 2025 14:52:16 -0000
+Message-Id: <176200873668.1810314.14771697858551034592@gitolite.kernel.org>
 
---===============0268658165935583847==
+--===============3415825317704250611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-fixes
-    old: 217efb440933bf97a78ef328b211d8a39f4ff171
+  - ref: refs/heads/at91-next
+    old: 5a410e87e09e29f92cec7a7beb0d5ed2ce31824c
     new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-217efb440933-3a8660878839.txt
+    log: revlist-5a410e87e09e-3a8660878839.txt
 
---===============0268658165935583847==
+--===============3415825317704250611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-217efb440933-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-5a410e87e09e-3a8660878839.txt
 
 6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 
---===============0268658165935583847==--
+--===============3415825317704250611==--
