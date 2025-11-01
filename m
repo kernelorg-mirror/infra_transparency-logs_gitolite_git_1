@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 01 Nov 2025 04:13:24 -0000
-Message-Id: <176197040485.1284997.8952114283387802676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 01 Nov 2025 04:24:26 -0000
+Message-Id: <176197106624.1294456.15913846887051366505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/dev
-    old: 933d5e423c93790f1df7f90f015104973d4c1a7c
-    new: 313dd1ac72573cbb04130fc2d15a5e1e577292fd
+  - ref: refs/heads/kbuild-fixes
+    old: cf20852500d2895d1db22b69d87281aca2e7b5d0
+    new: 43c2931a95e6b295bfe9e3b90dbe0f7596933e91
     log: |
-         0dc8c71e740b79defbb7a2fd4d8762582915b60b Revert "arm64: Separately select LSE for per-CPU atomics"
-         313dd1ac72573cbb04130fc2d15a5e1e577292fd arm64: Use cache prefetch to speed up LSE atomics
+         3927c4a1084c48ef97f11281a0a43ecb2cb4d6f1 kconfig/mconf: Initialize the default locale at startup
+         43c2931a95e6b295bfe9e3b90dbe0f7596933e91 kconfig/nconf: Initialize the default locale at startup
          
