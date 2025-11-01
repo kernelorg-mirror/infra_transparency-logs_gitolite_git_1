@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8563518827370694895=="
+Content-Type: multipart/mixed; boundary="===============8128427353322831894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 01 Nov 2025 18:23:18 -0000
-Message-Id: <176202139802.1982779.18067079258031418071@gitolite.kernel.org>
+Date: Sat, 01 Nov 2025 18:23:19 -0000
+Message-Id: <176202139925.1982882.4327736296772899279@gitolite.kernel.org>
 
---===============8563518827370694895==
+--===============8128427353322831894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: df412f2f12d492234da858e4dbaeabed9ecff3c4
-    new: 6892b9e5cbf66002aa7796097ef0c9d957a86fc7
-    log: revlist-df412f2f12d4-6892b9e5cbf6.txt
+  - ref: refs/heads/mm-unstable
+    old: 2f595519c7b0ef9c048758fc0cf239c369e76e5a
+    new: 9ef7b034116354ee75502d1849280a4d2ff98a7c
+    log: revlist-2f595519c7b0-9ef7b0341163.txt
 
---===============8563518827370694895==
+--===============8128427353322831894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df412f2f12d4-6892b9e5cbf6.txt
+Content-Disposition: attachment; filename=revlist-2f595519c7b0-9ef7b0341163.txt
 
 f9ceef805ccb31341d4bd202b743afa0908259d5 mm/huge_memory: do not change split_huge_page*() target order silently
 4039a00022d42ac3d68b2eea63066bc9f7ef89ce kho: warn and fail on metadata or preserved memory in scratch area
@@ -235,17 +235,5 @@ bb1ff0e4e1dc764d0c7efadf83659658614d77b3 mm/swap: select swap device with defaul
 a5e14670ec7f418fea04ab1f9810e824bf94a171 mm: change type of state in struct memory_block
 a847bfd3ab5de74f9e61328f112edd4bb2a9afaf mm-change-type-of-state-in-struct-memory_block-fix
 9ef7b034116354ee75502d1849280a4d2ff98a7c mm: change type of parameter for memory_notify
-824b3039f7c666f0110b364c12da16ebb5d4bea9 Revert "mm/ksm: convert break_ksm() from walk_page_range_vma() to folio_walk"
-72ac3cad8263f4876e9797c7f75af34082c646bc ksm: perform a range-walk in break_ksm
-f3cdf03d759666d491b887e8e3ca281bc8295ed7 ksm: replace function unmerge_ksm_pages with break_ksm
-e885fc823e5b5d5ba20ed902e7488d2aebc09fb8 mm/huge_memory: add split_huge_page_to_order()
-021268765411c5ce5360cc13d730c3edffc37e7b mm/memory-failure: improve large block size folio handling
-5a794ed27080cd7334fe1d8e2eb52fee390307d6 mm/huge_memory: fix kernel-doc comments for folio_split() and related
-4406bd7ed88b02ef50e2036b94138d9569f9282c mm/huge_memory: kernel-doc fixup
-41ab03c896de97fb63554a6b4a573e8f06a8c466 mm, swap: fix memory leak in setup_clusters() error path
-747ad1af7fb9a93f50ae356ed95e282bca3aa95e mm, swap: use SWP_SOLIDSTATE to determine if swap is rotational
-67c9de9834618ebf8b821a159b962cac40a0d5bc mm, swap: remove redundant comment for read_swap_cache_async
-a09faec0168ae4dc33b527e21913c3f9df63ad07 mm: swap: change swap_alloc_slow() to void
-6892b9e5cbf66002aa7796097ef0c9d957a86fc7 mm: swap: remove scan_swap_map_slots() references from comments
 
---===============8563518827370694895==--
+--===============8128427353322831894==--
