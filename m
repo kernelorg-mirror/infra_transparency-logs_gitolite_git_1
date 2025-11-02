@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Sun, 02 Nov 2025 21:03:58 -0000
-Message-Id: <176211743811.3450680.9200510654767501069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Sun, 02 Nov 2025 21:13:18 -0000
+Message-Id: <176211799816.3458244.12125735355979776956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: wtarreau
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/for-next
-    old: 926b414bee0745368b59d33ccd0643296a690951
-    new: 7534b9bfe691836eb7ab66332505629a4bfa4eed
+  - ref: refs/heads/icc-next
+    old: 10ae71c96e7c53c678a8cf0bd724d76ce739f9c4
+    new: 41aa8dd5b19c447686b68e6730d348ecc0373143
     log: |
-         7534b9bfe691836eb7ab66332505629a4bfa4eed tools/nolibc: clean up outdated comments in generic arch.h
+         7463f5ad36d8073a0e740433faf97f030d226398 dt-bindings: interconnect: document the RPMh Network-On-Chip interconnect in Kaanapali SoC
+         c7f8ff611a14be1cc7591b6aa0d66d5f71f5c4ac interconnect: qcom: add Kaanapali interconnect provider driver
+         41aa8dd5b19c447686b68e6730d348ecc0373143 Merge branch 'icc-kaanapali' into icc-next
          
