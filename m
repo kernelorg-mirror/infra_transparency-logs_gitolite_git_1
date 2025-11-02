@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-Date: Sun, 02 Nov 2025 20:20:44 -0000
-Message-Id: <176211484426.3417376.6948468911068981760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Sun, 02 Nov 2025 21:03:58 -0000
+Message-Id: <176211743811.3450680.9200510654767501069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-user: jarkko
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: wtarreau
 changes:
-  - ref: refs/tags/0.3.8
-    old: 0000000000000000000000000000000000000000
-    new: 020b63e7b5b3dcbb5e6da6afcd9e09bcccf1d5c8
+  - ref: refs/heads/for-next
+    old: 926b414bee0745368b59d33ccd0643296a690951
+    new: 7534b9bfe691836eb7ab66332505629a4bfa4eed
+    log: |
+         7534b9bfe691836eb7ab66332505629a4bfa4eed tools/nolibc: clean up outdated comments in generic arch.h
+         
