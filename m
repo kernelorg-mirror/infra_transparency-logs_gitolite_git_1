@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-Date: Sun, 02 Nov 2025 11:54:01 -0000
-Message-Id: <176208444125.2828457.3480417103116263721@gitolite.kernel.org>
+Date: Sun, 02 Nov 2025 11:54:25 -0000
+Message-Id: <176208446534.2828805.14644927851199296665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 226cbc09ad8a6bd584fe52f765a00733dc2168da
-    new: 05d0f5f810e897dff2e1d86b231a479dcb5b43ae
+    old: 05d0f5f810e897dff2e1d86b231a479dcb5b43ae
+    new: 799841776c46501978f6d297f30eb82a2298cf7a
     log: |
-         d0d3aa79309eca34b35f40a2a342484d676edb98 fix: remove password sanitization
-         05d0f5f810e897dff2e1d86b231a479dcb5b43ae refactor: reuse Handle::from_str in Auth::from_str
+         799841776c46501978f6d297f30eb82a2298cf7a build: bump version to 0.3.3
          
