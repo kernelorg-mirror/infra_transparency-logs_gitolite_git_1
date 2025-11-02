@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 02 Nov 2025 14:39:06 -0000
-Message-Id: <176209434682.3134550.9193190621113859700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Sun, 02 Nov 2025 14:40:16 -0000
+Message-Id: <176209441683.3136959.10322912790189875120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: 386c0c1bb05a67f081edba9792501c9d54cc5b98
-    new: 2a9d0cc447126e41bf32d132595b944557f1f112
+  - ref: refs/heads/for-next
+    old: 44bf8bbe29fd50ed2b8dfd1873bd22f76ca2f4d9
+    new: 926b414bee0745368b59d33ccd0643296a690951
     log: |
-         26e2e05e06f653fbb6eee0417894f1b05f21f8a8 cve_classifier: use semcode
-         2a9d0cc447126e41bf32d132595b944557f1f112 sasha: review v6.17.6
+         1868c027b6527abfa9ab8172a905acc5809849ee tools/nolibc: make the "headers" target install all supported archs
+         926b414bee0745368b59d33ccd0643296a690951 tools/nolibc: clean up outdated comments in generic arch.h
          
