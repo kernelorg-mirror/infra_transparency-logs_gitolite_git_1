@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 02 Nov 2025 19:47:28 -0000
-Message-Id: <176211284887.3388875.16480169192989701467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 02 Nov 2025 20:13:35 -0000
+Message-Id: <176211441548.3409817.8161288182004857666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 691d401c7e0e5ea34ac6f8151bc0696db1b2500a
-    new: 6146a0f1dfae5d37442a9ddcba012add260bceb0
+  - ref: refs/heads/main
+    old: 558fd78ea6b9467e9102cd140ff8e62344b87d73
+    new: e3613f55812213ad82644f3a4ccca7d6c85023b5
     log: |
-         6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
+         e3613f55812213ad82644f3a4ccca7d6c85023b5 refactor: migrate tpm2-policy-language 0.3.6 and tpm2-protocol 0.13.0
          
-  - ref: refs/tags/v6.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
