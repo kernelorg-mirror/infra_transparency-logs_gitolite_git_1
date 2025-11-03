@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 03 Nov 2025 15:29:58 -0000
-Message-Id: <176218379846.247051.14427661573744253184@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 15:30:31 -0000
+Message-Id: <176218383173.248991.9705843505138934314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/for-6.19/block
-    old: 77220f6d18a22b0b5d73b5d2156609b0aa21a7c5
-    new: bc49af56eea866c34d21bf582f65b02fc8c06ec3
+  - ref: refs/heads/for-6.19/io_uring
+    old: 8cd5a59e4d512c6e1df47bf8ce60f7d16e4b3c18
+    new: 20fb3d05a34b55c8ec28ec3d3555e70c5bc0c72d
     log: |
-         bc49af56eea866c34d21bf582f65b02fc8c06ec3 blktrace: add support for REQ_OP_WRITE_ZEROES tracing
+         4531d165ee39edb315b42a4a43e29339fa068e51 io_uring: only call io_should_terminate_tw() once for ctx
+         c33e779aba6804778c1440192a8033a145ba588d io_uring: add wrapper type for io_req_tw_func_t arg
+         20fb3d05a34b55c8ec28ec3d3555e70c5bc0c72d io_uring/uring_cmd: avoid double indirect call in task work dispatch
          
   - ref: refs/heads/for-next
-    old: 3d5066b99ccf2587d74ebf20c2d2ae3e489de9a2
-    new: 03de205b67b50359265f49e8cc8a298a29cdd812
+    old: 03de205b67b50359265f49e8cc8a298a29cdd812
+    new: 0fb22abffd787801d86c100cbc7baa8df8265043
     log: |
-         bc49af56eea866c34d21bf582f65b02fc8c06ec3 blktrace: add support for REQ_OP_WRITE_ZEROES tracing
-         03de205b67b50359265f49e8cc8a298a29cdd812 Merge branch 'for-6.19/block' into for-next
+         4531d165ee39edb315b42a4a43e29339fa068e51 io_uring: only call io_should_terminate_tw() once for ctx
+         c33e779aba6804778c1440192a8033a145ba588d io_uring: add wrapper type for io_req_tw_func_t arg
+         20fb3d05a34b55c8ec28ec3d3555e70c5bc0c72d io_uring/uring_cmd: avoid double indirect call in task work dispatch
+         0fb22abffd787801d86c100cbc7baa8df8265043 Merge branch 'for-6.19/io_uring' into for-next
          
