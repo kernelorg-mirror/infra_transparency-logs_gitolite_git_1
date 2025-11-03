@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-Date: Mon, 03 Nov 2025 07:34:36 -0000
-Message-Id: <176215527693.4038060.10854387722605808606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 03 Nov 2025 08:11:55 -0000
+Message-Id: <176215751508.4068376.954686333034357683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-user: jarkko
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/main
-    old: 18fca0a34dd1b19ab06f8480751ec87108049178
-    new: 897cc2a1ac7b5999632274f1428615e6805647fb
+  - ref: refs/heads/master
+    old: 0586567f9babe224e272b371648ad43f14476ba8
+    new: b1c7a2850906427fd04ec080c9c9b92330164400
     log: |
-         897cc2a1ac7b5999632274f1428615e6805647fb fix: revert previous policy secret fixes
+         867498ab616106557f99e3805a73dcdc2084911c dt-bindings: net: sparx5: Narrow properly LAN969x register space windows
+         5eef9306d2b23a49555c57f831ad364b61b99956 ASoC: dt-bindings: pm4125-sdw: correct number of soundwire ports
+         7a964ccce3bc3839c2e02e71e1fea4ce4281efb9 Merge tag 'net-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+         ec884da0ca6b23e05e0623f5ccdf056de857cf6d Merge tag 'sound-6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+         b1c7a2850906427fd04ec080c9c9b92330164400 Merge tag 'v6.18-rc4-dts-raw'
          
