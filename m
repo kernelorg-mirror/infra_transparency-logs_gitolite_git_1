@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3239547426811849506=="
+Content-Type: multipart/mixed; boundary="===============2756622680595014452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 03 Nov 2025 03:28:39 -0000
-Message-Id: <176214051941.3835844.13002166706177502869@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 03:29:03 -0000
+Message-Id: <176214054304.3836645.14624980205360298012@gitolite.kernel.org>
 
---===============3239547426811849506==
+--===============2756622680595014452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: c1c7d70f72a3129117211bd55f3967d84205e5ae
-    new: 1fdbc78ecf41476917bd98aafb1e9a6da5086d8b
-    log: revlist-c1c7d70f72a3-1fdbc78ecf41.txt
+  - ref: refs/heads/6.19/scsi-staging
+    old: 525a411f9a5ff736bf017c36823aefda93eeae36
+    new: bb8222b6f3586168f66ae5678fdca3179af60821
+    log: revlist-525a411f9a5f-bb8222b6f358.txt
 
---===============3239547426811849506==
+--===============2756622680595014452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1762140565 -0500
+pusher 75C5DE3D 1762140589 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1762140498-5b4afdfa2d8a5764c92b3061dbe28fbc05419f3c
+nonce 1762140522-32339f6fee2332bdc38381c96da209bb0bf48e54
 
-c1c7d70f72a3129117211bd55f3967d84205e5ae 1fdbc78ecf41476917bd98aafb1e9a6da5086d8b refs/tags/mkp-scsi-staging
+525a411f9a5ff736bf017c36823aefda93eeae36 bb8222b6f3586168f66ae5678fdca3179af60821 refs/heads/6.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkIIZUACgkQ7ulgGnXF
-3j2UgA//UPdCzlJZEDoN2i2AGIKgKhwQdVGz9smQ99KQF0CFyUNKnblY9mgO5eE9
-mz/tmta+yiVq1nLP9O/B4O+IRYI693bXoA/0PSs3x5N0yyWBVfPdsWdojGjYQ/4k
-edeZZMgWBb3SX9tn9gSHaKW/Ti2Bl96mW8+TZIYmf9+nYZ6LQzGx4yvmpoDmrkz5
-nFGyRfYR80Y42evYSHcSfWyjCyL7YtA98difyddDIAxFsdrPt4n3/dXhKLqJ/L4r
-zHNW5OblVH5X+ulekPH/++FVwOBA8nRwzcfJfzml7dL191dPFHjbjRd7UqbyVwI+
-uYLkp1qz89sKZcgJvtVNmyM6meWB9BTCRID3aTm89aX1CRpp9IOCT1pBaZun8Gu2
-u1QK5e9141K5m6z0fR/giDpiAQHUFDAtmgZuzgD0NfjPL3DXA2BruJMpocQuItwo
-iuk0K8BBvzhmc86XHPAErnxK9Whraxaxvde1NpSO+qf8Imhez+GWQEw8h52PXps6
-jjLCwYUU0LgbF/OUa7KKpQGaZ/UFiI7mVGDXMTQnBScV8hZXnXBR/h0wbAdc7o78
-Yu1K/nh2oOHamqMFMkPWVHake15WSttCnRSbPLdEFon4VT8jHy+mZIhYyVKmYrTX
-SPuikgK90VNk3rOOXHFWV5c1OXVsbPWYeNM/A8CMMyJZDe191s8=
-=/jq5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkIIa0ACgkQ7ulgGnXF
+3j3l3BAAid1SoXbYk3lgxYLLxdFmeX5xtvhjMOIlik5ThvEhAVegj15O98xl/w4I
+JKvPL3E2x/ZJ456aH8bEqcDFgpeNtUGjqVtkr7ydTOrmmqxflHsZDMeJq2S/HZUw
+5xFUPDOs736LkYJiu7MCMishNxXhv4tY2aS/QUdPS4a9LiS/WkfpFUZmcfQu3ySv
+fyoe+i/n4+FX3PPo1sVWAWMrKpZQPRkLjpvINtAZBZEItqjohzyLf5311Io8Ejjd
+h1j9fehlztmEWf/fg/yxMEFYz+44AU+wSH03PIosEduhNbMZMj8hU+0DmM1eExI1
+kUK0CtBod4qoWopiN1ckpwKZUUga7rhoRn/1RD/psyqYPXfZsTqW85i+Ey+9wo88
+O6xf52q5ou2AoeuXHiWU50wjMdOVMl7R3BkJBqCCLRNgf0riFtxqXL/81dQzSSyM
+1P3rwuNQ8y2+nQJJP15N+6bulceK3q5JLnPOik2t9df96aV7ydJiAjDiqU059qVE
+Jnau5qTDRiaTjzrTRktoGLL6UcJnuCdMUzYvtBmDnLd443KvyGHLRvwArN01O205
+YbJdCxga2g3mkfoGFZMhr5wYMR9f8O0/7dmhoy4aG5GcbdAk22yLWZSeOJCyHaw2
+yYeJqidKOdn3QfOAWqnb0aaie/DWae8NQSefZbsoXuzAVqe+Soo=
+=y5KI
 -----END PGP SIGNATURE-----
 
---===============3239547426811849506==
+--===============2756622680595014452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1c7d70f72a3-1fdbc78ecf41.txt
+Content-Disposition: attachment; filename=revlist-525a411f9a5f-bb8222b6f358.txt
 
 3434be392051a2fdb295df3cfe07bf75235250a0 scsi: target: Rename target_configure_unmap_from_queue()
 d505447b8d78f4d81a67d492ac72b8d3a1805e72 scsi: target: Add atomic se_device fields
@@ -75,4 +75,4 @@ ed6b97a79577db9bf9d7b21fd623f24f499e3acc scsi: target: Create and use macro help
 bbb490053173b737604a87af03f2113fb1c279a0 scsi: target: Move LUN stats to per-CPU
 bb8222b6f3586168f66ae5678fdca3179af60821 Merge patch series "target: RW/num_cmds stats improvements"
 
---===============3239547426811849506==--
+--===============2756622680595014452==--
