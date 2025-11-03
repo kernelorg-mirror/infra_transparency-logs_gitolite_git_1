@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3213205290996911918=="
+Content-Type: multipart/mixed; boundary="===============7134319326434833790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 03 Nov 2025 21:20:11 -0000
-Message-Id: <176220481112.558770.9232534243713232596@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 21:20:13 -0000
+Message-Id: <176220481343.558867.9879998877069456938@gitolite.kernel.org>
 
---===============3213205290996911918==
+--===============7134319326434833790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e5763491237ffee22d9b554febc2d00669f81dee
     new: d7d2fcf7ae31471b4e08b7e448b8fd0ec2e06a1b
     log: revlist-e5763491237f-d7d2fcf7ae31.txt
 
---===============3213205290996911918==
+--===============7134319326434833790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ d01f8136d46b925798abcf86b35a4021e4cfb8bb selftests: netdevsim: Fix ethtool-coale
 c211f5d7cbd5cb34489d526648bb9c8ecc907dee net: vlan: sync VLAN features with lower device
 d7d2fcf7ae31471b4e08b7e448b8fd0ec2e06a1b netconsole: Acquire su_mutex before navigating configs hierarchy
 
---===============3213205290996911918==--
+--===============7134319326434833790==--
