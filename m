@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 03 Nov 2025 19:54:32 -0000
-Message-Id: <176219967239.483824.17948169241620092811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Mon, 03 Nov 2025 19:55:41 -0000
+Message-Id: <176219974164.486026.469386714571830035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 288b766eb9b1fa25838664839e1e919e029d4753
-    new: c41a9bd3d244b296f6779f57fdbeaab1e5b854b0
+  - ref: refs/heads/main
+    old: 11d4bc041d01a38824ae07a48d5fd42684501a9f
+    new: d2380b88c5f9e7fe39ff7b8603c444e0f0468e8f
     log: |
-         b1f02f005a2e01287cdb627e1c03c3deb73c5163 Documentation: power: Add document on debugging shutdown hangs
-         c41a9bd3d244b296f6779f57fdbeaab1e5b854b0 Merge branch 'pm-sleep' into bleeding-edge
+         d2380b88c5f9e7fe39ff7b8603c444e0f0468e8f feat: revamp for 0.15.0
          
