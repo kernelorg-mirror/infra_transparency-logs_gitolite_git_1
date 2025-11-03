@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1503784526958555340=="
+Content-Type: multipart/mixed; boundary="===============4539512336597197235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 03 Nov 2025 04:32:15 -0000
-Message-Id: <176214433597.3887744.2546781759615484983@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 04:35:50 -0000
+Message-Id: <176214455058.3891442.431059223958110457@gitolite.kernel.org>
 
---===============1503784526958555340==
+--===============4539512336597197235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 3bf692888f2707392872a69cd125c800778e72e2
-    new: bb163a3997477c84c3e0cde42de7dba62bce3be8
-    log: revlist-3bf692888f27-bb163a399747.txt
+  - ref: refs/heads/master
+    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+    new: 6146a0f1dfae5d37442a9ddcba012add260bceb0
+    log: revlist-dcb6fa37fd7b-6146a0f1dfae.txt
+  - ref: refs/tags/v6.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
 
---===============1503784526958555340==
+--===============4539512336597197235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bf692888f27-bb163a399747.txt
+Content-Disposition: attachment; filename=revlist-dcb6fa37fd7b-6146a0f1dfae.txt
 
 f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
 2e9c1da4ee9d0acfca2e0a3d78f3d8cb5802da1b wifi: ath10k: Fix memory leak on unsupported WMI command
@@ -314,7 +317,5 @@ e3e0141d3dc55eb71792dd703e3f726cc29a6430 Merge tag 'x86-urgent-2025-11-01' of gi
 bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 691d401c7e0e5ea34ac6f8151bc0696db1b2500a Merge tag 'spi-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
-083d7af3350e04c428256a3bd10003f63151b6b1 MAINTAINERS: erofs: add myself as reviewer
-bb163a3997477c84c3e0cde42de7dba62bce3be8 erofs: avoid infinite loop due to incomplete zstd-compressed data
 
---===============1503784526958555340==--
+--===============4539512336597197235==--
