@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6595206204100262839=="
+Content-Type: multipart/mixed; boundary="===============0630234464760770844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 03 Nov 2025 10:12:52 -0000
-Message-Id: <176216477271.4168975.3219844127011224442@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 10:12:59 -0000
+Message-Id: <176216477941.4169254.3799694316243460244@gitolite.kernel.org>
 
---===============6595206204100262839==
+--===============0630234464760770844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 05e2c3bca80965d3cb05e7128a05b4cd9b20b73c
-    new: 5b75dfcae059408cc7454bcfb3d7b2111ea831fd
-    log: revlist-05e2c3bca809-5b75dfcae059.txt
+  - ref: refs/heads/m68k-queue
+    old: 5276cef90998bf3a61bb0ee9f8d9df3a4c25f22a
+    new: ba11d71cb5e03d18d99eb3c0a2ef13f3bd3a932e
+    log: revlist-5276cef90998-ba11d71cb5e0.txt
 
---===============6595206204100262839==
+--===============0630234464760770844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05e2c3bca809-5b75dfcae059.txt
+Content-Disposition: attachment; filename=revlist-5276cef90998-ba11d71cb5e0.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -643,7 +643,8 @@ e3e0141d3dc55eb71792dd703e3f726cc29a6430 Merge tag 'x86-urgent-2025-11-01' of gi
 bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 691d401c7e0e5ea34ac6f8151bc0696db1b2500a Merge tag 'spi-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
-ac0f8b348c1732715be49d29f8167c442a1aa236 Merge tag 'v6.18-rc3'
-5b75dfcae059408cc7454bcfb3d7b2111ea831fd Merge tag 'v6.18-rc4'
+7e42ea335ecf16b4005b7640b57de519f0162714 m68k: atari: usb: Add ISP1160 USB host controller support
+d77cea584a91f167768bfac16b07356c47ac87d8 m68k: atari: Update Kconfig.bus help text
+ba11d71cb5e03d18d99eb3c0a2ef13f3bd3a932e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6595206204100262839==--
+--===============0630234464760770844==--
