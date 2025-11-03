@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8920679442090880155=="
+Content-Type: multipart/mixed; boundary="===============6394196605205825877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 03 Nov 2025 19:17:41 -0000
-Message-Id: <176219746155.451795.7812588847805361194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 03 Nov 2025 19:17:57 -0000
+Message-Id: <176219747794.452063.12677188635195489580@gitolite.kernel.org>
 
---===============8920679442090880155==
+--===============6394196605205825877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
 
---===============8920679442090880155==
+--===============6394196605205825877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -650,4 +650,4 @@ bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of 
 691d401c7e0e5ea34ac6f8151bc0696db1b2500a Merge tag 'spi-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
 
---===============8920679442090880155==--
+--===============6394196605205825877==--
