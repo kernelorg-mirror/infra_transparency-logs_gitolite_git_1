@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 03 Nov 2025 16:56:56 -0000
-Message-Id: <176218901612.327722.14887878866569136702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+Date: Mon, 03 Nov 2025 17:02:49 -0000
+Message-Id: <176218936927.332538.11599592138013495508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: e1e9d861e2f9a56d080e8375ab1d6d786e1aa1bc
-    new: 2747d929617743ecba08eeeb310283b4be681383
+  - ref: refs/heads/main
+    old: acbaf753de9d71c2010c8d8803cb8d8e1d3d3782
+    new: b3a38fb16c734426fba3be0ca722a28c849c50c3
     log: |
-         2747d929617743ecba08eeeb310283b4be681383 Bluetooth: MGMT: cancel mesh send timer when hdev removed
+         b3a38fb16c734426fba3be0ca722a28c849c50c3 feat!: revamp the crate
          
