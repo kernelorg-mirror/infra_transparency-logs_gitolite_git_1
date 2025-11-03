@@ -1,19 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 03 Nov 2025 17:18:23 -0000
-Message-Id: <176219030399.346305.2347269323046286613@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0194350397785052960=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 03 Nov 2025 17:19:09 -0000
+Message-Id: <176219034963.347239.6552475287440603127@gitolite.kernel.org>
+
+--===============0194350397785052960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: a9b5d445d64b3dadb5b1b00fc44fe589ce408f45
-    new: 3d3f104afaac9e104f1e1fe0afd31192d7084aa0
-    log: |
-         3d3f104afaac9e104f1e1fe0afd31192d7084aa0 sasha: review v6.17.7
-         
+  - ref: refs/heads/libcrypto-pending
+    old: 89b23249ddb500adba687c90e6c8f581a4751187
+    new: 0ce35f6d0454d138bbc2c309d8e104176e15d50d
+    log: revlist-89b23249ddb5-0ce35f6d0454.txt
+
+--===============0194350397785052960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-89b23249ddb5-0ce35f6d0454.txt
+
+0e253e250ed0e46f5ff6962c840157da9dab48cd crypto: x86/aes-gcm-vaes-avx2 - initialize full %rax return register
+863ee5a3aa9111da80f87cda1f9d716055f4c11a crypto: s390/sha3 - Rename conflicting functions
+414121190348edc3da26505fc1e6c7d8f2d75fae crypto: arm64/sha3 - Rename conflicting function
+58873ecf091bd816e088f233ddbd3e74ffae04e3 lib/crypto: sha3: Add SHA-3 support
+334f653f239359b19963f6fb33ae9962caeba8a5 lib/crypto: sha3: Move SHA3 Iota step mapping into round function
+3c936e6f4a0077c253890bd6de58ca57b64333a9 lib/crypto: sha3: Add FIPS cryptographic algorithm self-test
+66f120bdb0ac1fef8e34f05b5045d24b785b2577 crypto: arm64/sha3 - Update sha3_ce_transform() to prepare for library
+1695b4197fe332b992d9eab882cb4046cfaa5884 lib/crypto: arm64/sha3: Migrate optimized code into library
+f05509303b2bf132d62cabbdfcd5d1722f764ea3 lib/crypto: s390/sha3: Add optimized Keccak functions
+02ff5c1042fa1f2cf73ce0c41ed55ec3f5ef9b44 crypto: jitterentropy - Use default sha3 implementation
+9a503ad576a5f3bb6c23b352b6e7967f4443d44d crypto: sha3 - Reimplement using library API
+1ff55db4e3cae14293545b234a0e5f8d0e5c669e crypto: s390/sha3 - Remove superseded SHA-3 code
+b9c0cc7fb95bdc0b08da4f426a3eb0ba3d91a5ad lib/crypto: arm/blake2s: Fix some comments
+f067815da238a0e0a88cd9ada3fad45b0c35319a lib/crypto: arm, arm64: Drop filenames from file comments
+013a50a3f17ad4850315c6cef52e8319da756d7f lib/crypto: x86/blake2s: Fix 32-bit arg treated as 64-bit
+5590986ca709d289ea566a7a1ab1579413db73e9 lib/crypto: x86/blake2s: Drop check for nblocks == 0
+4abb92545fda06c97cc8a9c6cad1248b84b7a310 lib/crypto: x86/blake2s: Use local labels for data
+98ea8f3783d4285b47993fd9c032e71c30a706ae lib/crypto: x86/blake2s: Improve readability
+005bd4d94abec832db73c7c9b4ef5951cf6082f7 lib/crypto: x86/blake2s: Avoid writing back unchanged 'f' value
+f4d6697ac64bef3a3ea26c658970849b8ec3c285 lib/crypto: x86/blake2s: Use vpternlogd for 3-input XORs
+3e074c0abf131daffd5c8853916c1c46ca23f49c lib/crypto: tests: Add KUnit tests for BLAKE2b
+e856d9336a62081e55d5ba55088825d3e0ba5b73 lib/crypto: tests: Add SHA3 kunit tests
+453255ffefc1b48ba1b74d1d039d8580c5e61678 lib/crypto: tests: Add additional SHAKE tests
+e046e1d2a90d9adb0f46e72397cbf346b1ba8825 Merge remote-tracking branch 'ebiggers/libcrypto-aes-gcm' into libcrypto-next
+5cd0471fee745c6b6150a6986791c13a29333556 lib/crypto: sha3: Support arch overrides of one-shot digest functions
+0ce35f6d0454d138bbc2c309d8e104176e15d50d lib/crypto: s390/sha3: Add optimized one-shot SHA-3 digest functions
+
+--===============0194350397785052960==--
