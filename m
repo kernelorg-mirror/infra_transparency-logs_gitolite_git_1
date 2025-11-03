@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Mon, 03 Nov 2025 06:38:07 -0000
-Message-Id: <176215188782.3989965.13928715065293865400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Mon, 03 Nov 2025 06:59:51 -0000
+Message-Id: <176215319139.4007616.3535888908086804206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/wip
-    old: 47836db7a8e182cc1481b6686f48cd8b28d83069
-    new: 50a87ee930481784dec579a9052b5938ca2fccea
+  - ref: refs/heads/locking
+    old: cbce0966b2c1f7cc06b410bac3d96ae003a7bc8a
+    new: 86ddc08ce23c1dbdde0a42aff8fc6abc4d7dd155
     log: |
-         ee9e19623951640d0c5d199b79e6d1aee7296cbc f2fs-tools: fix to return error value correctly
-         a34e621194778e12539ed8398bf67776dff9ac98 f2fs_io: support freeze/thaw
-         50a87ee930481784dec579a9052b5938ca2fccea f2fs_io: ranndread: support block device
+         86ddc08ce23c1dbdde0a42aff8fc6abc4d7dd155 rwsem: clean up code
          
