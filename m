@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-Date: Mon, 03 Nov 2025 07:26:04 -0000
-Message-Id: <176215476445.4031366.15365864475025365382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 03 Nov 2025 07:26:35 -0000
+Message-Id: <176215479578.4031762.106810279530745014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-user: jarkko
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/0.3.10
-    old: 2243b7461db7b3adbd32afc24ad9f7ea7717d495
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
