@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 03 Nov 2025 22:07:29 -0000
-Message-Id: <176220764987.599731.4730819155336089788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 03 Nov 2025 22:14:14 -0000
+Message-Id: <176220805471.605153.17721843528221258575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/200GbE
-    old: 01cc760632b875c4ad0d8fec0b0c01896b8a36d4
-    new: 6f0659e5ed798cda605367694314c189335d45b1
+  - ref: refs/heads/irq/core
+    old: 51d0656959bcdb743232f9b530b4cca569e74e7f
+    new: 3d02464f7b12d3244f2fbc210afcdd0cdb7da4f7
     log: |
-         6f0659e5ed798cda605367694314c189335d45b1 idpf: add support for IDPF PCI programming interface
+         3d02464f7b12d3244f2fbc210afcdd0cdb7da4f7 irqchip/sifive-plic: Fix call to __plic_toggle() in M-Mode code path
          
