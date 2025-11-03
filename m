@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-Date: Mon, 03 Nov 2025 17:37:44 -0000
-Message-Id: <176219146413.363184.6329351020459120565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 03 Nov 2025 17:39:01 -0000
+Message-Id: <176219154149.364356.8843234283170250219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-user: jarkko
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: b3a38fb16c734426fba3be0ca722a28c849c50c3
-    new: a5ef2e36c9e83efb20bb8ae5fec1514151e40d9b
+    old: 04b323bb64f9ad0e4ce52efeb62c45f24b64ccbd
+    new: 4a1728d0f464fbd73560239e2d907f8f3f5614a0
     log: |
-         a5ef2e36c9e83efb20bb8ae5fec1514151e40d9b feat!: revamp the crate
+         7742578435dd7240560bbeb76cf98286bcd4938e linux-firmware: Create audio folder in ti folder, and move all the audio firmwares into it
+         4a1728d0f464fbd73560239e2d907f8f3f5614a0 Merge branch 'robot/patch-1-1762131560' into 'main'
          
