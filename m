@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Mon, 03 Nov 2025 16:43:01 -0000
-Message-Id: <176218818145.312713.17807176706655052964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+Date: Mon, 03 Nov 2025 16:43:08 -0000
+Message-Id: <176218818846.312995.1416080520894177099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: d6bf24a0605373346e8a6cdff5dd67e7160c5c9b
-    new: b544c7c5c7cbd7515076445d4785e756c578bd96
+    old: 528f82df5546894a76d29ef7f9260c88ad600aa1
+    new: 4652d6718f23b79e6808beff096e0c5e29ce3bc9
     log: |
-         b544c7c5c7cbd7515076445d4785e756c578bd96 ip-xfrm: add pcpu-num support
-         
-  - ref: refs/heads/master
-    old: d6bf24a0605373346e8a6cdff5dd67e7160c5c9b
-    new: b544c7c5c7cbd7515076445d4785e756c578bd96
-    log: |
-         b544c7c5c7cbd7515076445d4785e756c578bd96 ip-xfrm: add pcpu-num support
+         4652d6718f23b79e6808beff096e0c5e29ce3bc9 feat!: revamp the crate
          
