@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 03 Nov 2025 18:04:12 -0000
-Message-Id: <176219305237.388251.13904849310108059838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+Date: Mon, 03 Nov 2025 18:04:43 -0000
+Message-Id: <176219308315.388823.15265870213340815886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: acme
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+user: jarkko
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: 549042f16716b4c72bfa9813d9e38f352c539dad
-    new: 7f17ef0d47b9aa01b89a92b2514fbfe800d8aeca
+  - ref: refs/heads/main
+    old: e2b18f3d41444979a7c5f19f934c856d2ae634ff
+    new: 57e6e0c1f3cc432eeb234fa2f43da632ff6d6164
     log: |
-         7f17ef0d47b9aa01b89a92b2514fbfe800d8aeca perf symbols: Handle '1' symbols in /proc/kallsyms
+         57e6e0c1f3cc432eeb234fa2f43da632ff6d6164 feat!: revamp the crate
          
