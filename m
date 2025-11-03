@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4922483788521071589=="
+Content-Type: multipart/mixed; boundary="===============6933780052918892921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 03 Nov 2025 21:24:34 -0000
-Message-Id: <176220507469.562435.704929851044255851@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 21:24:37 -0000
+Message-Id: <176220507700.562596.1085218553613715997@gitolite.kernel.org>
 
---===============4922483788521071589==
+--===============6933780052918892921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1a2352ad82b515035efe563f997ef8f5ca4f8080
     new: 01cc760632b875c4ad0d8fec0b0c01896b8a36d4
     log: revlist-1a2352ad82b5-01cc760632b8.txt
 
---===============4922483788521071589==
+--===============6933780052918892921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ a7aca10c0091d511030ec7907667e1448869b71c Documentation: netconsole: Separate lit
 718878c7f763b6e9b63320f886ae75027831ef13 Merge branch 'dpll-add-support-for-phase-adjustment-granularity'
 01cc760632b875c4ad0d8fec0b0c01896b8a36d4 Documentation: ARCnet: Update obsolete contact info
 
---===============4922483788521071589==--
+--===============6933780052918892921==--
