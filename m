@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5580604929460550627=="
+Content-Type: multipart/mixed; boundary="===============1222860496941754700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 03 Nov 2025 21:11:15 -0000
-Message-Id: <176220427568.549908.7577896306370531141@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 21:11:23 -0000
+Message-Id: <176220428369.550143.3539573767612376755@gitolite.kernel.org>
 
---===============5580604929460550627==
+--===============1222860496941754700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: e5763491237ffee22d9b554febc2d00669f81dee
-    new: d7d2fcf7ae31471b4e08b7e448b8fd0ec2e06a1b
-    log: revlist-e5763491237f-d7d2fcf7ae31.txt
+  - ref: refs/heads/dev-queue
+    old: c7b034554dca65847b1df0e6e2ceafa8b93e142c
+    new: 14a648e374d73300073c428e9c98d9f0fd0c29f8
+    log: revlist-c7b034554dca-14a648e374d7.txt
 
---===============5580604929460550627==
+--===============1222860496941754700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5763491237f-d7d2fcf7ae31.txt
+Content-Disposition: attachment; filename=revlist-c7b034554dca-14a648e374d7.txt
 
 2469bb6a6af944755a7d7daf66be90f3b8decbf9 Revert "wifi: ath10k: avoid unnecessary wait for service ready message"
 3b8694e56f6b69aaba1cffdf0c0760cd76712422 Merge tag 'ath-current-20251027' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
@@ -49,5 +49,16 @@ f8e8486702abb05b8c734093aab1606af0eac068 selftests/net: use destination options 
 d01f8136d46b925798abcf86b35a4021e4cfb8bb selftests: netdevsim: Fix ethtool-coalesce.sh fail by installing ethtool-common.sh
 c211f5d7cbd5cb34489d526648bb9c8ecc907dee net: vlan: sync VLAN features with lower device
 d7d2fcf7ae31471b4e08b7e448b8fd0ec2e06a1b netconsole: Acquire su_mutex before navigating configs hierarchy
+e5782238936157850b254a8bce50f782a4f51c4e ice: fix fwlog after driver reinit
+611ac974cbca081e7461032957ad13e07d24e2d9 ice: Fix enable_cnt imbalance on resume
+4e08b07609d1a567a174eff418007a7d3077dd12 ice: Fix enable_cnt imbalance on PCIe error recovery
+219ef444e778f6542a0394c2d182a8fe8969be1c i40e: Fix enable_cnt imbalance on PCIe error recovery
+20efa2fb57abc8d2af773ed6e9395d9f8f008f53 igc: fix race condition in TX timestamp read for register 0
+fb72d58014bc7de51f03674c2da94cf1c0c771bf idpf: fix memory leak of flow steer list on rmmod
+440b9b8d3ee030c78613a497a10555c1c7e31da2 idpf: fix issue with ethtool -n command display
+befb97f9ba3b2a3fb2f2657a4ce042755bb5a69e idpf: fix LAN memory regions command on some NVMs
+f315d6ae97193f5c4db05495f374efbe961dffc6 idpf: fix possible vport_config NULL pointer deref in remove
+355d7c2d1c5517fbcd33a4e817309ca75efabe69 libie: depend on DEBUG_FS when building LIBIE_FWLOG
+14a648e374d73300073c428e9c98d9f0fd0c29f8 ice: fix PTP cleanup on driver removal in error path
 
---===============5580604929460550627==--
+--===============1222860496941754700==--
