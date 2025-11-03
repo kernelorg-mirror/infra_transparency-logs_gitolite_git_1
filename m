@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8430907129891065651=="
+Content-Type: multipart/mixed; boundary="===============7954745876155440232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Nov 2025 14:44:07 -0000
-Message-Id: <176218104735.203327.12438395425716184634@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 14:44:25 -0000
+Message-Id: <176218106545.203610.17442668617998712165@gitolite.kernel.org>
 
---===============8430907129891065651==
+--===============7954745876155440232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/core/rseq
-    old: 69c8e3d1610588d677faaa6035e1bd5de9431d6e
-    new: 139772de6a9857e60dc49ae1f7f75452847daede
-    log: revlist-69c8e3d16105-139772de6a98.txt
+  - ref: refs/tags/core-scoped-uaccess
+    old: 9ba7c9a6b2ff2424a4035403fc12c948efdcff0a
+    new: 6ec821f050e2e539cf3e57ff294d451c84a83aaf
+    log: revlist-9ba7c9a6b2ff-6ec821f050e2.txt
 
---===============8430907129891065651==
+--===============7954745876155440232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69c8e3d16105-139772de6a98.txt
+Content-Disposition: attachment; filename=revlist-9ba7c9a6b2ff-6ec821f050e2.txt
 
 f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
 2e9c1da4ee9d0acfca2e0a3d78f3d8cb5802da1b wifi: ath10k: Fix memory leak on unsupported WMI command
@@ -326,38 +326,5 @@ ffe194fdea838ff55bcf76462c359f4cd733891a uaccess: Provide put/get_user_inline()
 103ee619d2955cbddab3d13c87113aa9a42601c5 futex: Convert to get/put_user_inline()
 3f126054fc5d299606857851c7e678c6664c14cc x86/futex: Convert to scoped user access
 6ec821f050e2e539cf3e57ff294d451c84a83aaf select: Convert to scoped user access
-92cd030734580b8d44443e3006f804a59eb281dd rseq: Avoid pointless evaluation in __rseq_notify_resume()
-a096aaa7b909f5857892e49f23505be01dc091dd rseq: Condense the inline stubs
-02cde183ec67135d7ac01898c0ab77e29ad2c19f rseq: Move algorithm comment to top
-fd41ddc3ac6329c242faefccadabbdfa8512fee4 rseq: Remove the ksig argument from rseq_handle_notify_resume()
-ae3051d908dda0409d18d8e31a3b89023376ada3 rseq: Simplify registration
-6f9a08b9988964d7e3fea0860c6e1c8f89a35269 rseq: Simplify the event notification
-2016e8735ac1c36ac7c1afbfe0645d723f147644 rseq, virt: Retrigger RSEQ after vcpu_run()
-d3fd8e5061bf3506c0cbf974536855470bd142b9 rseq: Avoid CPU/MM CID updates when no event pending
-45c4a917848e90a269d1e1839a9a5fad15333771 rseq: Introduce struct rseq_data
-d73c292f40b4ebb8369f5d0273b4dd5fc229b707 entry: Cleanup header
-5e7be1e23bd119d8403cbe3110cfe2ce40306ffe entry: Remove syscall_enter_from_user_mode_prepare()
-0df6b9bcdd0f3536b4bb7b2dc828e75f07fcface entry: Inline irqentry_enter/exit_from/to_user_mode()
-73b4efcabadc3278686af88b792bee8355f3f09e sched: Move MM CID related functions to sched.h
-30c6409e123ce98429798c34595227dbe0496c1c rseq: Cache CPU ID and MM CID values
-60cbf3a8e3b17637498dbe5a13c58008ecec09ba rseq: Record interrupt from user space
-19eaf4863bb5f11740e4ce264683d33e9f651ae3 rseq: Provide tracepoint wrappers for inline code
-5f58b34aae52d285674b5f99f6b1bd42e737e190 rseq: Expose lightweight statistics in debugfs
-01395f041c84fd0be161efbaba3a76dabc16125e rseq: Provide static branch for runtime debugging
-693b9917c8b1879bf954b5cbb72da1bd07466282 rseq: Provide and use rseq_update_user_cs()
-502c6554c7c32040cd02ab1779a1eb1ffb371a2f rseq: Replace the original debug implementation
-10ad7e96d88c286e018c4507add219bbef55bfcf rseq: Make exit debugging static branch based
-457dc0a3ef5b3cd51c1497638feccb4db5e7943c rseq: Use static branch for syscall exit debug when GENERIC_IRQ_ENTRY=y
-5371d55ceec76a7e172d8c5187c0ae7e70784cc7 rseq: Provide and use rseq_set_ids()
-f1cad05fc4a1d00251c06d80c71b2b0d758c3346 rseq: Separate the signal delivery path
-0dbdcc20a5c80e1d540f004b49d550c60b19fb5d rseq: Rework the TIF_NOTIFY handler
-472a7fb937b82ed1dbafb48f1ae46acac123eba6 rseq: Optimize event setting
-968b4673b3cbaaa027feed243ea6c0f791b3b3a8 rseq: Implement fast path for exit to user
-4be94db4a3c16346303e226bdc85dcfa0c403437 rseq: Switch to fast path processing on exit to user
-835baf7a6a1cf1ca8ade0dc22599e44beb764846 entry: Split up exit_to_user_mode_prepare()
-a2fc232771d36c41d1fc4efe005578bcf3e060c7 rseq: Split up rseq_exit_to_user_mode()
-117f37ad484af20ab014e990b238ff04c43ba636 rseq: Switch to TIF_RSEQ if supported
-cb1c1678a082df8c1ff50430439ddfd3e4ad87db cleanup: Always inline everything
-139772de6a9857e60dc49ae1f7f75452847daede x86/ptrace: Always inline trivial accessors
 
---===============8430907129891065651==--
+--===============7954745876155440232==--
