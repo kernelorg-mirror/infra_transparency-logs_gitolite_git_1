@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-Date: Mon, 03 Nov 2025 17:53:12 -0000
-Message-Id: <176219239272.378767.10315275600342096552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 03 Nov 2025 18:04:06 -0000
+Message-Id: <176219304621.388014.13166302726078354471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-user: jarkko
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: b6d529330dac78c211c24510b676a979d7cb6b80
-    new: e2b18f3d41444979a7c5f19f934c856d2ae634ff
+  - ref: refs/heads/tmp.perf-tools
+    old: 549042f16716b4c72bfa9813d9e38f352c539dad
+    new: 7f17ef0d47b9aa01b89a92b2514fbfe800d8aeca
     log: |
-         e2b18f3d41444979a7c5f19f934c856d2ae634ff feat!: revamp the crate
+         7f17ef0d47b9aa01b89a92b2514fbfe800d8aeca perf symbols: Handle '1' symbols in /proc/kallsyms
          
