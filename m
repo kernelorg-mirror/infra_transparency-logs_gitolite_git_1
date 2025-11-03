@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============5173651001938380779=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 03 Nov 2025 20:46:56 -0000
-Message-Id: <176220281664.526896.15425552614765187977@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 20:47:01 -0000
+Message-Id: <176220282193.527110.6661591416034265382@gitolite.kernel.org>
+
+--===============5173651001938380779==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,10 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfs-testing-snitm
-    old: c98b3ba7641d5bfa845d569e8bb100cef61ae313
-    new: 2b68e86a61ac2806f11be48e118bbbb32e0f7942
-    log: |
-         daaac84901b84a688af9afc808451aff2249adc5 nfs/localio: Remove alignment size checking in nfs_is_local_dio_possible
-         2b68e86a61ac2806f11be48e118bbbb32e0f7942 nfs/localio: do not issue misaligned DIO out-of-order
-         
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing
+    old: 594de815dcdd2ba2199375ae30598052441e7ab8
+    new: 4f5156b8cf42789c44da74b8fab9704ad7e6df7c
+    log: revlist-594de815dcdd-4f5156b8cf42.txt
+
+--===============5173651001938380779==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-594de815dcdd-4f5156b8cf42.txt
+
+8d1a2e89e5ec0561262a0693c41bf4c088c069aa NFSD: Make FILE_SYNC WRITEs comply with spec
+265b9b98d380a1ffebbb9cde627d781bfc066b4a NFSD: Enable return of an updated stable_how to NFS clients
+b4220b509403cd03d1ca5fd98168636d30c206a9 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+9b49faf0eb3a26ff72511d791379b1523ced4ece NFSD: Remove specific error handling
+c764652c2125e0713255789596926119c73def96 NFSD: Remove alignment size checking
+d627b3bacec49630c74bcbb0778067157f8b8901 NFSD: Clean up struct nfsd_write_dio
+d0622523a06655d33490e250b245e9372cbaf442 NFSD: Introduce struct nfsd_write_dio_seg
+b4066f3ebefd4f8e9805ffba2b988cfbf74dccb6 NFSD: Simplify nfsd_iov_iter_aligned_bvec()
+a75a9d9ba2882e6deac5700190f615ac5b9e646b NFSD: Combine direct I/O feasibility check with iterator setup
+9250f3e832e6630cb3d4a4d74d9b6248fc17d7d7 NFSD: Handle kiocb->ki_flags correctly
+f035497d451afacf88d0264b24c14df80084e095 NFSD: Refactor nfsd_vfs_write
+4f5156b8cf42789c44da74b8fab9704ad7e6df7c NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+
+--===============5173651001938380779==--
