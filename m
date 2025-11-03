@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Mon, 03 Nov 2025 18:23:35 -0000
-Message-Id: <176219421581.405661.1425078148595525993@gitolite.kernel.org>
+Date: Mon, 03 Nov 2025 18:24:43 -0000
+Message-Id: <176219428322.406723.3461872726555979908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 0e0fce0470277537f6c44e98a46f62b38c366b2f
-    new: c7f28b85d763637cc0cd5476f77e877772bf6979
+    old: c7f28b85d763637cc0cd5476f77e877772bf6979
+    new: 67d949bc1e677dbba82693f87dd034f6ce18f7a2
     log: |
-         c7f28b85d763637cc0cd5476f77e877772bf6979 refactor: migrate tpm2-policy and tpm2-crypto to 0.4.x
+         67d949bc1e677dbba82693f87dd034f6ce18f7a2 chore: bump version 0.2.0
          
