@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 03 Nov 2025 23:28:42 -0000
-Message-Id: <176221252261.670467.12048992408419719654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 03 Nov 2025 23:34:36 -0000
+Message-Id: <176221287634.675730.9287558944953857237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/dev-queue
-    old: 14a648e374d73300073c428e9c98d9f0fd0c29f8
-    new: bcaff094d82902ace7988c97c5fe285671355c9d
+  - ref: refs/heads/driver-core-testing
+    old: b0b7301b004301afe920b3d08caa6171dd3f4011
+    new: fde40a558dbd4945bba03cd7f425feab4c92e1d1
     log: |
-         bcaff094d82902ace7988c97c5fe285671355c9d iavf: fix off-by-one issues in iavf_config_rss_reg()
+         fde40a558dbd4945bba03cd7f425feab4c92e1d1 rust: usb: fix broken call to T::disconnect()
          
