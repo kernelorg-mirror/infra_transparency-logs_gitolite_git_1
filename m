@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Tue, 04 Nov 2025 13:44:02 -0000
-Message-Id: <176226384264.1388644.11097217728506405748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 04 Nov 2025 13:51:20 -0000
+Message-Id: <176226428088.1395709.15825130934199429315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: joro
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/amd/amd-vi
-    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    new: a0c7005333f9a968abb058b1d77bbcd7fb7fd1e7
+  - ref: refs/heads/linus
+    old: 6146a0f1dfae5d37442a9ddcba012add260bceb0
+    new: c9cfc122f03711a5124b4aafab3211cf4d35a2ac
     log: |
-         a0c7005333f9a968abb058b1d77bbcd7fb7fd1e7 iommu/amd: Fix potential out-of-bounds read in iommu_mmio_show
+         79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
+         2618849f31e7cf51fadd4a5242458501a6d5b315 btrfs: ensure no dirty metadata is written back for an fs with errors
+         f260c6aff0b8af236084012d14f9f1bf792ea883 btrfs: fix memory leak of qgroup_list in btrfs_add_qgroup_relation
+         953902e4fb4c373c81a977f78e40f9f93a79e20f btrfs: set inode flag BTRFS_INODE_COPY_EVERYTHING when logging new name
+         3b1a4a59a2086badab391687a6a0b86e03048393 btrfs: mark dirty extent range for out of bound prealloc extents
+         8bb886cb8f3a2811430ddb7d9838e245c57e7f7c Merge tag 'edac_urgent_for_v6.18_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+         c9cfc122f03711a5124b4aafab3211cf4d35a2ac Merge tag 'for-6.18-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
          
