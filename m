@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0032014557590975268=="
+Content-Type: multipart/mixed; boundary="===============4822753503970995292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 04 Nov 2025 15:04:16 -0000
-Message-Id: <176226865680.1458291.9301099774719370447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 04 Nov 2025 15:04:22 -0000
+Message-Id: <176226866284.1458502.608643505702532932@gitolite.kernel.org>
 
---===============0032014557590975268==
+--===============4822753503970995292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 252abf2d07d33b1c70a59ba1c9395ba42bbd793e
     new: 9de2057bbdfb58f4d9bb1476135317cd3fe6aa52
     log: revlist-252abf2d07d3-9de2057bbdfb.txt
 
---===============0032014557590975268==
+--===============4822753503970995292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762268722 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1762268654-ceb49144df040b9efa904d99b191800a579dfcc1
+pusher C3F436CA30F5D8EB 1762268728 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1762268660-88856f65ce34e9d704ed04ac7be429dccc36facb
 
-252abf2d07d33b1c70a59ba1c9395ba42bbd793e 9de2057bbdfb58f4d9bb1476135317cd3fe6aa52 refs/heads/for-6.19
+252abf2d07d33b1c70a59ba1c9395ba42bbd793e 9de2057bbdfb58f4d9bb1476135317cd3fe6aa52 refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkKFjIACgkQJNaLcl1U
-h9BbMQf/cs4E1sA75S/PqISvFciFtQlAknxPlZsB91TsKP9nO7b2sk30QmwW5/0L
-UhcoGH5fHbu/cMtcPaid0BxZ2zjD7MevyAikOwMENp8jAHCUby/MhBVPyPQNRY3J
-XjHX/w0ZQMqpVwtKn1UAFHlnfzEPEJQJcH+QgTc18wRFPnA6h9uwXXKDlUTNgePX
-FAPdGp0e9A6PEhariOymdS9BvoA71wADWozvL/2lIYKoHn5yoYgpzQufY1GurXiH
-p7thkcbeOJmUkyjJnoiKqh4X9SYQGeBX7Ezp++1PcnnEIWXHZp6RebK4lCKkr662
-e4zBuD0Q6l8lTNrwaAXAC5cMQI6tcw==
-=j/gI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkKFjgACgkQJNaLcl1U
+h9D07wf/YoEHHDmviAf4PXU+QrrsWsVwmtTAGWcwlN+gQjMmSMr5aX79AyEwjY7a
+tv2ingyMiSGFqdR6QOIcUhdwq2sd3sQuXcyLG9CzT6fK5muC2XhoHYQQTLKgSVPG
+0V9s4M7yVvgWUuokHFKzUB/0Ij/hdG+j1dMstPI4EAzKGhQ3hHtd6Zsanl9TK1QX
+ZnyvaDkPFDAVJpARd0tHt9X5y2IvT/i8hPGkIsRRj13gX/Pm6M7Z/peCEo+LLF+s
+7GmDaYugtHf4uDH10dXPIUFwqsf8MgD2BxHbeU34F2omM8yZOz0dEs5dwUf4cov6
+CgxfI7d0QEoBTR63DH8lxbVISZPV4Q==
+=R8D7
 -----END PGP SIGNATURE-----
 
---===============0032014557590975268==
+--===============4822753503970995292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -344,4 +344,4 @@ a2d4691b3fec6a2360e4ec953d06819ea055c3e7 regulator: pf9453: change the device ID
 2ecc8c089802e033d2e5204d21a9f467e2517df9 regulator: pf9453: remove unused I2C_LT register
 9de2057bbdfb58f4d9bb1476135317cd3fe6aa52 regulator: pf9453: optimize PMIC PF9453 driver
 
---===============0032014557590975268==--
+--===============4822753503970995292==--
