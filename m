@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3950129995021253428=="
+Content-Type: multipart/mixed; boundary="===============2681071313521920560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 04 Nov 2025 16:44:24 -0000
-Message-Id: <176227466469.1546706.14129255445296770790@gitolite.kernel.org>
+Date: Tue, 04 Nov 2025 16:44:26 -0000
+Message-Id: <176227466692.1546794.14085112827722456646@gitolite.kernel.org>
 
---===============3950129995021253428==
+--===============2681071313521920560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: d7d2fcf7ae31471b4e08b7e448b8fd0ec2e06a1b
     new: e120f46768d98151ece8756ebd688b0e43dc8b29
     log: revlist-d7d2fcf7ae31-e120f46768d9.txt
 
---===============3950129995021253428==
+--===============2681071313521920560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ de0337d641bfa5b6d6b489e479792f1039274e84 net: ionic: map SKB after pseudo-header
 59b20b15c112867f28a12a24aa25f14549db02e4 sctp: make sctp_transport_init() void
 e120f46768d98151ece8756ebd688b0e43dc8b29 net: usb: qmi_wwan: initialize MAC header offset in qmimux_rx_fixup
 
---===============3950129995021253428==--
+--===============2681071313521920560==--
