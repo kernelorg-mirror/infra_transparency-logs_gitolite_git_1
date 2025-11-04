@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Tue, 04 Nov 2025 06:33:06 -0000
-Message-Id: <176223798641.1032058.9833740801672992989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 04 Nov 2025 07:59:51 -0000
+Message-Id: <176224319186.1101667.8611471405846506326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/patches-in-queue
+  - ref: refs/tags/scoped-uaccess
     old: 0000000000000000000000000000000000000000
-    new: 5b75444bc9123f261e0aa95f72328af4c827786a
+    new: de23cc8ccadb545b8a0d25db08d3a9bb73e96edf
