@@ -1,21 +1,78 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 04 Nov 2025 15:12:27 -0000
-Message-Id: <176226914786.1465803.13051313054390712017@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5867522007131661519=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 04 Nov 2025 15:18:29 -0000
+Message-Id: <176226950920.1470992.9665811979016774834@gitolite.kernel.org>
+
+--===============5867522007131661519==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/main
-    old: 27cb3de7f43ac0263474d87a2c84d96f904d73e2
-    new: 255d75ef029f33f75fcf5015052b7302486f7ad2
-    log: |
-         462280043466b2bc74483c56a5d5316ff6b16380 xsk: do not enable/disable irq when grabbing/releasing xsk_tx_list_lock
-         30ed05adca4a05c50594384cff18910858dd1d35 xsk: use a smaller new lock for shared pool case
-         255d75ef029f33f75fcf5015052b7302486f7ad2 Merge branch 'xsk-minor-optimizations-around-locks'
-         
+  - ref: refs/heads/vfs.all
+    old: 772417c273acdf2b25de4b5f9e3c711937fc99b5
+    new: c84cf85c7f3844ac431f7f88c2528f7cfe735636
+    log: revlist-772417c273ac-c84cf85c7f38.txt
+
+--===============5867522007131661519==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-772417c273ac-c84cf85c7f38.txt
+
+4e97bae1b412cd6ed8053b3d8a242122952985cc cleanup: fix scoped_class()
+4c7ceeb62d3330b6fb2b549ae833a92c0f481f3e cred: add kernel_cred() helper
+40314c2818b700da695c9686348be7aef9e156a2 cred: make init_cred static
+ae40e6c65791f47c76cc14d0cce2707fe6053f72 cred: add scoped_with_kernel_creds()
+b9e3594e70193c84066b868e7a1eb38263d9a999 firmware: don't copy kernel creds
+4601b7923d1b51b3788581b890a0d4d105a137de nbd: don't copy kernel creds
+0f0e7cee3496cc053c7a1a15a428b585d6b7e897 target: don't copy kernel creds
+1ad5b411afc327ae50e569dbfa15774e0baefa68 unix: don't copy creds
+e0876bde29c42c5de8ad087b5df7cd27b29defec Merge patch series "creds: add {scoped_}with_kernel_creds()"
+019e52e8d324d568e71730946beb11e7b275ff08 cred: add scoped_with_creds() guards
+84c1a329b4fce8e51958cd4f27bd62743b892a7d aio: use credential guards
+4f0a4825786a114898b6f10a1ffe95ac0402e57e backing-file: use credential guards for reads
+f119feaa06586aed78b98b13ac9bcfac942c583e backing-file: use credential guards for writes
+c3076d146e312af1ee2eff0287e298cf20774b39 backing-file: use credential guards for splice read
+b688171f910e22d1a32dec24bae8dbecbf2fe395 backing-file: use credential guards for splice write
+6e1d1c1fa7b1a8d318ccb5f4f64b2a2b5803cf1c backing-file: use credential guards for mmap
+ff2044cd277d8d2d6d6ea609d5a10fcbe68a23f9 binfmt_misc: use credential guards
+5e88d1aadcd20a8e2cf317839cac0c94006cee64 erofs: use credential guards
+94afb627dfc2ed8819a9eaa0ff51f0dd24839da8 nfs: use credential guards in nfs_local_call_read()
+bff3c841f7bde5604b26e8ea755728b8e329c6d5 nfs: use credential guards in nfs_local_call_write()
+f41799b2e1697779748bb0a15d4aafffe9d2f8dd nfs: use credential guards in nfs_idmap_get_key()
+c5c92c624aeb90d708db276ce2dd57db11fdb823 smb: use credential guards in cifs_get_spnego_key()
+5db84abd2afb822594291faea8b6a1336c74db44 act: use credential guards in acct_write_process()
+b66c7af4d86de00db3c28294467bf986083dc963 cgroup: use credential guards in cgroup_attach_permissions()
+4037e28cd47e5a860ea23214024bcbe8a7585d81 net/dns_resolver: use credential guards in dns_query()
+a85787996aa97412223ff1975f5cd44b592e2f5f Merge patch series "credentials guards: the easy cases"
+c8ad3098e1272444b6c75910d6196a36f5c8bc17 cred: add prepare credential guard
+4c5941ca1104d58a94e59100ebde97a162e72de4 sev-dev: use guard for path
+89c545e29ecd6252968611b3ee2599034b911dd8 sev-dev: use prepare credential guard
+a5f40c848a5ae5e594f0a02b6db8cdba59a2b195 sev-dev: use override credential guards
+fc41aa4e4e828e88f0d4d496ff355b21f1b9fd5a coredump: move revert_cred() before coredump_cleanup()
+fc9677922e8d5363d94cf57737ac3b4fe7bb433f coredump: pass struct linux_binfmt as const
+fafe1aa50c62d09c2dd9f43ff8a9e901642f6063 coredump: mark struct mm_struct as const
+d8bb3b23a165d7308def1ac061006959dc571bb5 coredump: split out do_coredump() from vfs_coredump()
+70d30b11db170f85589d27485fb8b49f0c20a8f0 coredump: use prepare credential guard
+28e0760dca0a5decc541be64856301358212007a coredump: use override credential guard
+b6e818fb1d9ca691371cf78795eab5055c798fde trace: use prepare credential guard
+b7d9e67bbc85e8755c43d0ec870c90a4b22116f2 trace: use override credential guard
+7d06dc5065bea4b1d9abd1937bd8cf196b76dd7d Merge patch series "credential guards: credential preparation"
+bc63e48d2bc3ef75357e4f4cd48c4524dfda84fe Merge branch 'vfs.fixes' into vfs.all
+4d8ba3eb96229c513feb211e21ca070f7b09a8a6 Merge branch 'vfs-6.19.iomap' into vfs.all
+0215d91e443eb8e83df8929b467d80e61b50c0df Merge branch 'vfs-6.19.misc' into vfs.all
+1c341c41b0d6418f5132a4b5344b06861c19b5aa Merge branch 'vfs-6.19.inode' into vfs.all
+71d5d5491d6c0cf2c96d96145c1a50f8dc634dcb Merge branch 'vfs-6.19.writeback' into vfs.all
+080d1f309dc006dca87d4266be19454f4c8a4b35 Merge branch 'namespace-6.19' into vfs.all
+b851a74f14d08f62dc58c27b0cbe9f5fb718ae84 Merge branch 'vfs-6.19.coredump' into vfs.all
+25a398c414431f4ac6748e76ac267947bbd44434 Merge branch 'vfs-6.19.folio' into vfs.all
+c84cf85c7f3844ac431f7f88c2528f7cfe735636 Merge branch 'kernel-6.19.cred' into vfs.all
+
+--===============5867522007131661519==--
