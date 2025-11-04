@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 04 Nov 2025 21:48:02 -0000
-Message-Id: <176229288221.1798722.1843040889234480699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 04 Nov 2025 21:54:28 -0000
+Message-Id: <176229326885.1804180.11067459455761486543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-6.19
-    old: 7900aa699c34401cf5d0c701d9ef72880ddc1a83
-    new: d723f36e014d296d668b577c0c69cc37be75e6d2
+  - ref: refs/heads/main
+    old: 6a5812e1623723adb18e6217d512274ef0d84015
+    new: 84fefb5d974f189d24c8c3f62bfd745dbfd1eb50
     log: |
-         023af03caed8c1c7b863b912b661bb76a8c13c24 sched_ext: Move __SCX_DSQ_ITER_ALL_FLAGS BUILD_BUG_ON to the right place
-         d723f36e014d296d668b577c0c69cc37be75e6d2 sched_ext: Minor cleanups to scx_task_iter
+         67791f073a552053a335269e0d8919b59f6284a1 Merge branch 'ath-next'
+         2b05eefd5b987baba21832c7604a03c7418744ff Merge branch 'ath-current'
+         65b821fe4118cd9f8e73bc4597abbcc0d1e6c41b Merge remote-tracking branch 'mhi/mhi-next'
+         cb4ffaebf2c6e83f7271e2571daeed9b210869a7 Add localversion-wireless-testing-ath
+         d7f85c685956024a466416e0b4236b83b993fcbe spi: amlogic: fix spifc build error
+         84fefb5d974f189d24c8c3f62bfd745dbfd1eb50 drm/i915/panic: fix panic structure allocation memory leak
          
-  - ref: refs/heads/for-next
-    old: 181209925d2319fc124b62ec4b6a32f80c7d3923
-    new: 336194a7ccc9ba99e8128562e0ec9d34fce8d634
-    log: |
-         023af03caed8c1c7b863b912b661bb76a8c13c24 sched_ext: Move __SCX_DSQ_ITER_ALL_FLAGS BUILD_BUG_ON to the right place
-         d723f36e014d296d668b577c0c69cc37be75e6d2 sched_ext: Minor cleanups to scx_task_iter
-         336194a7ccc9ba99e8128562e0ec9d34fce8d634 Merge branch 'for-6.19' into for-next
-         
+  - ref: refs/tags/ath-202511041707
+    old: 0000000000000000000000000000000000000000
+    new: 84fefb5d974f189d24c8c3f62bfd745dbfd1eb50
