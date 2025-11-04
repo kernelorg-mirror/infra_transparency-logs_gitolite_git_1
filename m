@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 04 Nov 2025 22:21:46 -0000
-Message-Id: <176229490648.1828187.3466541637863699349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 04 Nov 2025 22:24:17 -0000
+Message-Id: <176229505718.1829785.12587010264700026433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b3387b312226788db111050ca51d0fb321509d6a
-    new: 4cb4897bb49a4caf4246c72c24b743d44e7f52d5
+  - ref: refs/heads/dev-queue
+    old: d2ec803cb62b15924e354d60721eebfd988fd5c0
+    new: c5acd2847bb5371988d6b5c165b0776967cc7da2
     log: |
-         4f596acc260e691a2e348f64230392f3472feea3 libbpf: Fix parsing of multi-split BTF
-         cc77a203896edbfecb566538e7046b882a971999 selftests/bpf: Test parsing of (multi-)split BTF
-         4cb4897bb49a4caf4246c72c24b743d44e7f52d5 Merge branch 'multi-split-btf-fixes-and-test'
+         c5acd2847bb5371988d6b5c165b0776967cc7da2 ice: use netif_get_num_default_rss_queues()
          
