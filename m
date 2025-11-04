@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Tue, 04 Nov 2025 04:44:38 -0000
-Message-Id: <176223147827.941644.18134209816785458283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 04 Nov 2025 04:59:18 -0000
+Message-Id: <176223235805.953760.12170178552386476216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/svc_driver_for_v6.19
-    old: 9a24022ac30fbff59b37b0f7baf387255011c2ee
-    new: 158ed7064c1697ef65b707da0b9a7405724e43d6
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 01bc5d2f0d7db895739fccfbdf69cf68dddb9072
+    new: 4df43709370cc18e9b09aa8049a6ab1f780af77e
     log: |
-         158ed7064c1697ef65b707da0b9a7405724e43d6 firmware: stratix10-rsu: replace scnprintf() with sysfs_emit() in *_show() functions
+         371d32394e538a759a1a7bb475de67424c1d633b perf evsel: Remove unused metric_events variable
+         5faa23cdab412ad2c65d18c30f78d6489ec7c9de perf metricgroup: Update comment on location of metric_event list
+         3bae9228a5503f7fb6464e895c3f542221ce9395 perf metricgroup: Missed free on error path
+         3f02cebe130260fbfe6e2028d252d63503ba99a8 perf metricgroup: When copy metrics copy default information
+         4df43709370cc18e9b09aa8049a6ab1f780af77e perf jevents: Make all tables static
          
