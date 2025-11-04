@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8241293370184238465=="
+Content-Type: multipart/mixed; boundary="===============6023226773533787494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 04 Nov 2025 13:22:48 -0000
-Message-Id: <176226256877.1367248.15541231471934401003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 04 Nov 2025 13:22:56 -0000
+Message-Id: <176226257605.1367478.3629826143804719276@gitolite.kernel.org>
 
---===============8241293370184238465==
+--===============6023226773533787494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regulator-6.18
     old: 47a0925ee4bd2689f0aef4dbd67dd46442fe1ca2
     new: 6146a0f1dfae5d37442a9ddcba012add260bceb0
     log: revlist-47a0925ee4bd-6146a0f1dfae.txt
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 28039efa4d8e8bbf98b066133a906bd4e307d496
     new: 252abf2d07d33b1c70a59ba1c9395ba42bbd793e
     log: |
          252abf2d07d33b1c70a59ba1c9395ba42bbd793e regulator: Small cleanup in of_get_regulation_constraints()
          
 
---===============8241293370184238465==
+--===============6023226773533787494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762262634 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1762262565-e83ef35b6b8d23c1fe983c34df110770cc5ed240
+pusher C3F436CA30F5D8EB 1762262641 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1762262572-9996b6a65ceef4bbaf04baa9eb0dee0d5708a43b
 
-47a0925ee4bd2689f0aef4dbd67dd46442fe1ca2 6146a0f1dfae5d37442a9ddcba012add260bceb0 refs/heads/for-6.18
-28039efa4d8e8bbf98b066133a906bd4e307d496 252abf2d07d33b1c70a59ba1c9395ba42bbd793e refs/heads/for-6.19
+47a0925ee4bd2689f0aef4dbd67dd46442fe1ca2 6146a0f1dfae5d37442a9ddcba012add260bceb0 refs/heads/regulator-6.18
+28039efa4d8e8bbf98b066133a906bd4e307d496 252abf2d07d33b1c70a59ba1c9395ba42bbd793e refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkJ/moACgkQJNaLcl1U
-h9CBvQf/dTpYA28FHqfSPSzcWsKqBMFMWNTicBwnu/LRoRn6agwDoAHJ3lC6pP/B
-7gyOgM0EhSD8A3f+d4hq1+2uQzuTLZI4RktBhhz0eg9bil4J3ZMKVEMiDzKRq4uD
-oNNu1uMX0J8lLRq/hcjbm5UX6y+IJEGHuHSApT/ovW+XBObgblWoqNszFnWhFtcr
-wTI8gSSLhn/wC26Ttvmu0ZUwkQSPeo9h8ydkLeeJH6dMSEgYKw2Mm854gUWcqFuN
-864fAQcuR+3Ka1q7XlSZUa7R56N7WjexgydS4YiHAY9S9pTuEnPoVvCdsNdEPVk5
-QoH/UjNpTGFz4Opx9MRQpnnOtUsEJQ==
-=CGYU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkJ/nEACgkQJNaLcl1U
+h9DQtAgAg/5DALTnc/vmy3W5/dKr8CPwm0N9Ergx6irhMQj372z/f28HuS0T7reR
+YFPkq2DDg8dGSGMBfgpNW7uHci98mg1P+0ccu4qceAJJuzEabVC+ETvVxVgsReb3
+NduvkmJ11NY032tl8nmJVpnnoOzv/KptCcPqxVtYzA5g0HEflXaM18nwJBS99Rr5
+GZYLdqXKWO7WgMr5+OcsHhANtDlM9HiCMECIfhM8dmTC2QrKaed0dXh8HEE9Royh
+WRXwwTJQGBZQDMGQk2uzVXCQk/Yi6zwPICW6p0JXR9/PovRjsM7lu7ywPQIYRlkt
+RLufJDHE9/VEgQpWLPujfhW6q1RX/w==
+=Dnyj
 -----END PGP SIGNATURE-----
 
---===============8241293370184238465==
+--===============6023226773533787494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -346,4 +346,4 @@ bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of 
 691d401c7e0e5ea34ac6f8151bc0696db1b2500a Merge tag 'spi-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
 
---===============8241293370184238465==--
+--===============6023226773533787494==--
