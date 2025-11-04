@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8553088048849781695=="
+Content-Type: multipart/mixed; boundary="===============8705473214890161402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 04 Nov 2025 23:00:54 -0000
-Message-Id: <176229725402.1860923.15803083850922337400@gitolite.kernel.org>
+Date: Tue, 04 Nov 2025 23:01:04 -0000
+Message-Id: <176229726446.1861164.11855974604865299625@gitolite.kernel.org>
 
---===============8553088048849781695==
+--===============8705473214890161402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/fixes
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    log: revlist-8f5ae30d69d7-3a8660878839.txt
+  - ref: refs/heads/for-next
+    old: 462bfcbe8834d8deb893e6d1a9a6edcd7d7782f1
+    new: a7ff0bbbbe3420b4ea033a12c87f927218bbb6fb
+    log: revlist-462bfcbe8834-a7ff0bbbbe34.txt
 
---===============8553088048849781695==
+--===============8705473214890161402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-3a8660878839.txt
+Content-Disposition: attachment; filename=revlist-462bfcbe8834-a7ff0bbbbe34.txt
 
-6c7ca6a02f8f9549a438a08a23c6327580ecf3d6 mount: handle NULL values in mnt_ns_release()
-e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
-3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56e7b310717697109998966cb3c4d3e490d09200 Merge tag 'vfs-6.18-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-029a4eb589129450f2735df825f784dd7e8c4c63 Merge tag 'vfs-6.18-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e571372101522fa91735dac6d30a160b2abe600c Merge tag 'vfs-6.18-rc1.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-df897265c0c6fc4b758b07f3a756e96b6f2ab81f Merge tag 'vfs-6.18-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-b786405685087912601e24d94c1670523c829137 Merge tag 'vfs-6.18-rc1.workqueue' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-722df25ddf4f13e303dcc4cd65b3df5b197a79e6 Merge tag 'kernel-6.18-rc1.clone3' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5484a4ea7a1f208b886b58dd55cc55f418930f8a Merge tag 'vfs-6.18-rc1.afs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-cfcd6cab2f33c24a68517f9e3131480b4000c2be PCI: j721e: Fix incorrect error message in probe()
-18b19abc3709b109676ffd1f48dcd332c2e477d4 Merge tag 'namespace-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-263e777ee3e00d628ac2660f68c82aeab14707b3 Merge tag 'vfs-6.18-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-449c2b302c8e200558619821ced46cc13cdb9aa6 Merge tag 'vfs-6.18-rc1.async' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-2804359536275d8d5f92eb1949102eca4153ea1e net: ethtool: remove duplicated mm.o from Makefile
-29be241d11748dbcd9981587a85afa734942c885 docs: networking: phy: clarify abbreviation "PAL"
-ee916dccd4df6e2fd19c3606c4735282b72f1473 Unbreak 'make tools/*' for user-space targets
-285654d58a747eb431ee538c803c077d90525674 Revert "scsi: qla2xxx: Fix memcpy() field-spanning write issue"
-f2c61db29f277b9c80de92102fc532cc247495cd Remove bcachefs core code
 f966e02ae52192928d544262ee7a68611e333031 scsi: ufs: core: Fix runtime suspend error deadlock
 0ba7a254afd037cfc2b656f379c54b43c6e574e8 scsi: ufs: core: Fix PM QoS mutex initialization
 60cd16a3b7439ccb699d0bf533799eeb894fd217 scsi: mvsas: Fix use-after-free bugs in mvs_work_queue
@@ -1050,5 +1031,24 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 8765f467912ff0d4832eeaf26ae573792da877e7 Merge tag 'irq_urgent_for_v6.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3dd7b8123544402be76bea82af43d2de4b9226d8 Merge tag 'i2c-for-6.18-rc1-hotfix' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
+9c95fc710b0d05f797db9e26d56524efa74f8978 ARM: dts: am33xx: Add missing serial console speed
+905664e27647224b2f5f29a1825c3d6bff3fc49c ARM: dts: omap: rework Baltos LED nodes
+473de5d3466f879b84a9d063fa34acdd9e895d76 ARM: dts: ti: omap: am335x-baltos: add a regulator for the mPCIe slot
+d0c4b1723c419a18cb434903c7754954ecb51d35 ARM: dts: am335x-netcom-plus-2xx: add missing GPIO labels
+ae18c465b3ae0879a023b4a89c032064afb78234 ARM: OMAP2+: Fix falg->flag typo in omap_smc2()
+3f61783920504b2cf99330b372d82914bb004d8e ti-sysc: allow OMAP2 and OMAP4 timers to be reserved on AM33xx
+6cf18454d7caf5a56776f6011ab9c6bca823c7e7 dt-bindings: omap: add AM335x-based TQMa335x SOM and MBa335x board
+c579ced456db4b95c55491574788c03618cf88d1 ARM: dts: omap: AM33xx: add cpu label
+5267fcd180b170d39cd2017f62e332a26311534a ARM: dts: omap: Add support for TQMa335x/MBa335x
+c8763978aa4f72ededff3adfafd5e35661862168 MAINTAINERS: Add entry for TQ-Systems AM335 device trees
+f7f3bc18300a230e0f1bfb17fc8889435c1e47f5 ARM: dts: omap3: beagle-xm: Correct obsolete TWL4030 power compatible
+3862123e9b56663c7a3e4a308e6e65bffe44f646 ARM: dts: omap3: n900: Correct obsolete TWL4030 power compatible
+810c5ef6efe9a2be3203a50de781d9050e8b9920 arm: omap2plus_defconfig: enable ext4 directly
+bb2ffb47d82229a4f54ca6a83784fa288914803b arm: dts: ti: omap: am335x-pepper: Fix vmmc-supply property typo
+9485ba8ab325c4b420ec92661f15ed14741bb9d1 arm: dts: ti: omap: Drop unnecessary properties for SDHCI node
+333fa35fbd1f20b0d8a4af3b236fd9f52f3431b2 dt-bindings: mmc: ti,omap2430-sdhci: convert to DT schema
+7d9ebbffc545033897aeb30f2a0a45ead1668bf1 ARM: multi_v7_defconfig: Enable TI PRU Ethernet driver
+ec76c5bb5718b0082fcea18249691955b4172672 Merge branch 'omap-for-v6.19/soc' into tmp/omap-next-20251104.150047
+a7ff0bbbbe3420b4ea033a12c87f927218bbb6fb Merge branch 'omap-for-v6.19/drivers' into tmp/omap-next-20251104.150047
 
---===============8553088048849781695==--
+--===============8705473214890161402==--
