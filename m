@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Tue, 04 Nov 2025 23:26:43 -0000
-Message-Id: <176229880359.1882560.11943000974030472226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 04 Nov 2025 23:31:05 -0000
+Message-Id: <176229906571.1886905.16521775732780191316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/dev-queue
-    old: 04b323bb64f9ad0e4ce52efeb62c45f24b64ccbd
-    new: a5562b185307153cc32ece290d75fdb5a375f2e7
+  - ref: refs/heads/master
+    old: 1d53d83fcf4e30f287bec6120363ee20168480b1
+    new: c56102c5d8ac9eead1a5c827d41f08f8ce56266c
     log: |
-         7742578435dd7240560bbeb76cf98286bcd4938e linux-firmware: Create audio folder in ti folder, and move all the audio firmwares into it
-         4a1728d0f464fbd73560239e2d907f8f3f5614a0 Merge branch 'robot/patch-1-1762131560' into 'main'
-         5a689a2fb8376e13ec097f3d78d03df31a18b1f0 linux-firmware: Update firmware file for Intel BlazarI core
-         a976b0aa25c90fc3b196b50ad99a5b4399a5295e linux-firmware: Update firmware file for Intel BlazarU core
-         a5562b185307153cc32ece290d75fdb5a375f2e7 Merge branch 'main' into 'main'
+         c56102c5d8ac9eead1a5c827d41f08f8ce56266c Fixes for all trees
          
