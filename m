@@ -1,29 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Tue, 04 Nov 2025 19:34:52 -0000
-Message-Id: <176228489258.1690047.7730286900075818436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 04 Nov 2025 19:49:48 -0000
+Message-Id: <176228578815.1702031.536986978556962447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/superm1/backlight-property
-    old: 7c582ef8d3214f934fd2ef20e4130b2447e75a5e
-    new: e4d449a5f359fa7af06a7984f5e31875f8bee9dc
+  - ref: refs/heads/dir-deleg-ro
+    old: 92dcb7653003dc74edf29f07347d19271d629818
+    new: 92b2b6f9d4745fb639e935b1725e27dfa47b8f34
     log: |
-         86906d8e08d7311d2f66f834a933c0d22e118ca9 Revert "backlight: Remove notifier"
-         fa281953e39fd692efcebf966f6b7e1b5a8b17c8 backlight: use static initializers
-         e5432381950b1f8a19c336e87252462e9656123a backlight: add kernel-internal backlight API
-         5c77477d2a070db4503c59080a6134a9cddac915 backlight: expose the current brightness in the new kernel API
-         3c53f1d5865691253a429d54b800dd0b26f64a5d drm: link connectors to backlight devices
-         fc5f0c2527a6f6bd2175665a59f7c41ea0e164b5 drm: handle dpms for drm backlight
-         75305e466724170d47e9d2eb4cd1aa5ed849d756 DRM: Add support for client and driver indicating support for luminance
-         0cd323aa3a19f7f05e63b7a4976aa53de648eef6 drm/amd: Indicate driver supports luminance
-         a71dbe065c51e4aa405955639428fa7ce3452dde drm/amd/display: Allow backlight registration to fail
-         665aef715cdce41659dae4ad2955ad7c2eb01d44 drm/amd/display: use drm backlight
-         e4d449a5f359fa7af06a7984f5e31875f8bee9dc rename to luminance and add atomic prop
+         8ea2e5fcc52e59f41e7eaf8b0ef3cb993baec909 vfs: add struct createdata for passing arguments to vfs_create()
+         ec5f1030e0e4261d05e56aeb8638fd3bd1b63d57 vfs: make vfs_create break delegations on parent directory
+         8f0ecd103494bb998cf8fa6bf22b641c5f708d89 vfs: make vfs_mknod break delegations on parent directory
+         6b7806703d2fdcc22d19485cc9e8a69dbf2aefa0 vfs: make vfs_symlink break delegations on parent dir
+         c96d31a146046f64343af4a342a5721a95039b45 filelock: lift the ban on directory leases in generic_setlease
+         b31ae2b3a8cd351790521c6be269246cf88aab7d nfsd: allow filecache to hold S_IFDIR files
+         6743c370c099fec003e2a4e8faf4803b9482fa68 nfsd: allow DELEGRETURN on directories
+         bd1064bd03ad811e24de4e7acccad7c4f958d003 nfsd: wire up GET_DIR_DELEGATION handling
+         92b2b6f9d4745fb639e935b1725e27dfa47b8f34 vfs: expose delegation support to userland
          
