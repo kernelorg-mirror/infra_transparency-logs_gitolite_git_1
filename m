@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0955755743891443574=="
+Content-Type: multipart/mixed; boundary="===============4934011759183960591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 04 Nov 2025 08:13:47 -0000
-Message-Id: <176224402755.1112808.16041258572963355832@gitolite.kernel.org>
+Date: Tue, 04 Nov 2025 08:14:15 -0000
+Message-Id: <176224405540.1113852.14024774080108150822@gitolite.kernel.org>
 
---===============0955755743891443574==
+--===============4934011759183960591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/core/rseq
-    old: 139772de6a9857e60dc49ae1f7f75452847daede
-    new: 1fe4002cf7f23d70c79bda429ca2a9423ebcfdfa
-    log: revlist-139772de6a98-1fe4002cf7f2.txt
+  - ref: refs/heads/master
+    old: 7a0fcb37e71fd4de6ace71c34efb2505d00b021b
+    new: 6c3b9433268fe5a4acd4777c8b08725c05e02a87
+    log: revlist-7a0fcb37e71f-6c3b9433268f.txt
 
---===============0955755743891443574==
+--===============4934011759183960591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-139772de6a98-1fe4002cf7f2.txt
+Content-Disposition: attachment; filename=revlist-7a0fcb37e71f-6c3b9433268f.txt
 
+79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
+2618849f31e7cf51fadd4a5242458501a6d5b315 btrfs: ensure no dirty metadata is written back for an fs with errors
+f260c6aff0b8af236084012d14f9f1bf792ea883 btrfs: fix memory leak of qgroup_list in btrfs_add_qgroup_relation
+953902e4fb4c373c81a977f78e40f9f93a79e20f btrfs: set inode flag BTRFS_INODE_COPY_EVERYTHING when logging new name
+3b1a4a59a2086badab391687a6a0b86e03048393 btrfs: mark dirty extent range for out of bound prealloc extents
+0a4b61d9c2e496b5f0a10e29e355a1465c8738bb x86/amd_node: Fix AMD root device caching
+44c5b6768e3a1385fdf3b10893404bc5a2c1248a ARM: uaccess: Implement missing __get_user_asm_dword()
+3eb6660f26d13acdbcb9241ac3e95d44419f2284 uaccess: Provide ASM GOTO safe wrappers for unsafe_*_user()
+14219398e3e1ce774d47b2dd55852d9b693cc6e1 x86/uaccess: Use unsafe wrappers for ASM GOTO
+5002dd53144f82d43eba778c927adfa7d429c16a powerpc/uaccess: Use unsafe wrappers for ASM GOTO
+0988ea18c6244da3dc35cfc0ad621531d0e1508a riscv/uaccess: Use unsafe wrappers for ASM GOTO
+43cc54d8dbe6b761bd2672bf9bb46e5290e90277 s390/uaccess: Use unsafe wrappers for ASM GOTO
+3d02464f7b12d3244f2fbc210afcdd0cdb7da4f7 irqchip/sifive-plic: Fix call to __plic_toggle() in M-Mode code path
+8bb886cb8f3a2811430ddb7d9838e245c57e7f7c Merge tag 'edac_urgent_for_v6.18_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+c9cfc122f03711a5124b4aafab3211cf4d35a2ac Merge tag 'for-6.18-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 2db48d8bf87d3cb9d968e73623efc1c5a02523e7 arm64: uaccess: Use unsafe wrappers for ASM GOTO
 e497310b4ffb559e1149ee89470d5c518d234ddf uaccess: Provide scoped user access regions
 b2cfc0cd68b830dde80fce2406580e258a1e976d uaccess: Provide put/get_user_inline()
@@ -65,5 +80,9 @@ e2d4f42271155045a49b89530f2c06ad8e9f1a1e rseq: Rework the TIF_NOTIFY handler
 32034df66b5f49626aa450ceaf1849a08d87906e rseq: Switch to TIF_RSEQ if supported
 323d93f0432edb5415c79bd35e15e5754a76e486 cleanup: Always inline everything
 1fe4002cf7f23d70c79bda429ca2a9423ebcfdfa x86/ptrace: Always inline trivial accessors
+6e94065c58b1766958b4821681d1f68fb4e66ee7 Merge branch into tip/master: 'x86/urgent'
+79dcccb76b5da12db6c297fba7614a25a56d45ec Merge branch into tip/master: 'irq/core'
+fa789ef4dd4e98bf1430a7ceed44cef303f665f3 Merge branch into tip/master: 'core/rseq'
+6c3b9433268fe5a4acd4777c8b08725c05e02a87 Merge branch 'linus'
 
---===============0955755743891443574==--
+--===============4934011759183960591==--
