@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 04 Nov 2025 17:13:04 -0000
-Message-Id: <176227638416.1572001.11472643471053841647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+Date: Tue, 04 Nov 2025 17:17:35 -0000
+Message-Id: <176227665586.1576124.8191526680767263088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+user: jarkko
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 2e99dc43b224d4991ca9fc3c427a361bbaafbd39
-    new: f8003bf7e5089412f1fab2474d9f3f1b114b0f3b
+  - ref: refs/heads/main
+    old: 9c5f7984a51f77cc5b003bcdf3adf4968e16e9fd
+    new: 2abcea53253f832c0be0c1066826c4972216a495
     log: |
-         f8003bf7e5089412f1fab2474d9f3f1b114b0f3b pwm: mediatek: Make use of struct_size macro
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: 2e99dc43b224d4991ca9fc3c427a361bbaafbd39
-    new: f8003bf7e5089412f1fab2474d9f3f1b114b0f3b
-    log: |
-         f8003bf7e5089412f1fab2474d9f3f1b114b0f3b pwm: mediatek: Make use of struct_size macro
+         2abcea53253f832c0be0c1066826c4972216a495 feat!: store command list as a list of TPM frames
          
