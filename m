@@ -1,53 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1057253014330209957=="
+Content-Type: multipart/mixed; boundary="===============4414948580429455832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 04 Nov 2025 21:34:32 -0000
-Message-Id: <176229207274.1787276.3942744056845547430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Tue, 04 Nov 2025 21:44:03 -0000
+Message-Id: <176229264351.1795146.9874323619248369925@gitolite.kernel.org>
 
---===============1057253014330209957==
+--===============4414948580429455832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab-fms-cleanup
-    old: e401df7388463ed094dca0ba9c7bac58b1ee4cc7
-    new: b15bc64d6a8b2e6ec13ac5b554140b68e5de07a1
+  - ref: refs/heads/master
+    old: c58ac92b27c0a83831fcc2aec26fefb873a0683c
+    new: 08c69e85b7c59368bb4745e6f5fc6ec3ec311f84
     log: |
-         64db088c48cdbd7909c1b1c5b8d6c378419e1ac8 slab: move counters union to freelist_aba_t
-         3a160d1efcde0130f8cb3f71df79626f9ee960eb slab: use freelist_aba_t for local variables instead of struct slab
-         b15bc64d6a8b2e6ec13ac5b554140b68e5de07a1 slub: use freelist_aba_t in relevant function arguments
+         08c69e85b7c59368bb4745e6f5fc6ec3ec311f84 Add ability to recover after rebases
          
 
---===============1057253014330209957==
+--===============4414948580429455832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1762292136 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1762292068-3a9a4cd935e9a5b03b63ec89a4b6f3e1f1071ff2
+pusher B6C41CE35664996C! 1762292710 -0500
+pushee gitolite.kernel.org:pub/scm/utils/korgalore/korgalore
+nonce 1762292642-3ef1a152636215e5d3bc3c81e98516c5f0646039
 
-e401df7388463ed094dca0ba9c7bac58b1ee4cc7 b15bc64d6a8b2e6ec13ac5b554140b68e5de07a1 refs/heads/slab-fms-cleanup
+c58ac92b27c0a83831fcc2aec26fefb873a0683c 08c69e85b7c59368bb4745e6f5fc6ec3ec311f84 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkKcagbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaFx0H/iU4u+veGAUG3RMjlpv0
-ez09uzyOOtQQrjvFGeTRNoTRXIC11q0Pgqz17ePzETMrCquy47juzDJHX8wv263k
-q4kdwlIPrkxqnRRMIp2NVuu9gElu2Ko8VtBY5kgFT+dNA2wVBhMxmRCZ1SVEbxvT
-3VBfkkevi3lUHKn4chSz2qd5RNy0ZCYaWzVyE21O0zJeuhtZGxQf7NgT0JWZNl8m
-u9uSLwW0hGN0Uu0LpnZG3pTMtQLyZB2MTAVu+rYGTRV2NcpYib1E9dhqqPks5O8U
-tla0GyMPKtBNR1yOmcuzcEjkzvyIZ1wHct6RFM32omC4UJR+4eRMdGIAUK3wsW51
-JpE=
-=Lz61
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQpz5gAKCRC2xBzjVmSZ
+bN4pAQDNAJUHAGEGtNddnEWboHSQvs74bCV+WpBU8OAVP0IBWgD/VT1ymCIza0ed
+YOQwZdhr7wtkpgOL2jM7Xg8MyYJ/7ws=
+=coX5
 -----END PGP SIGNATURE-----
 
---===============1057253014330209957==--
+--===============4414948580429455832==--
