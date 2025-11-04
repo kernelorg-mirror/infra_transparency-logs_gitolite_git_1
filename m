@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1047342192488302338=="
+Content-Type: multipart/mixed; boundary="===============6578230353499840347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 04 Nov 2025 16:51:51 -0000
-Message-Id: <176227511195.1555136.372614000166526555@gitolite.kernel.org>
+Date: Tue, 04 Nov 2025 16:51:54 -0000
+Message-Id: <176227511430.1555337.16185242747688620277@gitolite.kernel.org>
 
---===============1047342192488302338==
+--===============6578230353499840347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 01cc760632b875c4ad0d8fec0b0c01896b8a36d4
     new: 255d75ef029f33f75fcf5015052b7302486f7ad2
     log: revlist-01cc760632b8-255d75ef029f.txt
 
---===============1047342192488302338==
+--===============6578230353499840347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ fd93ed77efe4735cd2b9a3fbccd5e199ced19bba net: phy: dp83td510: add MSE interface 
 30ed05adca4a05c50594384cff18910858dd1d35 xsk: use a smaller new lock for shared pool case
 255d75ef029f33f75fcf5015052b7302486f7ad2 Merge branch 'xsk-minor-optimizations-around-locks'
 
---===============1047342192488302338==--
+--===============6578230353499840347==--
