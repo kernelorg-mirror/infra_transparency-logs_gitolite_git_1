@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1634095601538861187=="
+Content-Type: multipart/mixed; boundary="===============3597076691270418188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 04 Nov 2025 13:22:28 -0000
-Message-Id: <176226254834.1366849.13007057394198829683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 04 Nov 2025 13:22:37 -0000
+Message-Id: <176226255754.1367066.7906676463796112702@gitolite.kernel.org>
 
---===============1634095601538861187==
+--===============3597076691270418188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b
     new: 8da0efc3da9312b65f5cbf06e57d284f69222b2e
     log: revlist-5e5c8aa73d99-8da0efc3da93.txt
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: db66398fb03ee3599ec7387ceb5121b95e648eb3
     new: 84194c66aaf78fed150edb217b9f341518b1cba2
     log: |
@@ -31,32 +31,32 @@ changes:
          84194c66aaf78fed150edb217b9f341518b1cba2 ASoC: codecs: aw88261: pass pointer directly instead of passing the address
          
 
---===============1634095601538861187==
+--===============3597076691270418188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762262613 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1762262545-650bde59b166d79dea59118f403218a185d3a7ce
+pusher C3F436CA30F5D8EB 1762262622 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1762262552-c303642ecb1f3ad7976a8edeb4ec7168239b0d4f
 
-5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b 8da0efc3da9312b65f5cbf06e57d284f69222b2e refs/heads/for-6.18
-db66398fb03ee3599ec7387ceb5121b95e648eb3 84194c66aaf78fed150edb217b9f341518b1cba2 refs/heads/for-6.19
+5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b 8da0efc3da9312b65f5cbf06e57d284f69222b2e refs/heads/asoc-6.18
+db66398fb03ee3599ec7387ceb5121b95e648eb3 84194c66aaf78fed150edb217b9f341518b1cba2 refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkJ/lUACgkQJNaLcl1U
-h9Ag2gf7BIoong1DIvt0xZKuTS4mAj6jSmTnuM2Usko24MFfa54uqoSELEyfZplo
-d7aQu/AR1FPHYurNEDr70Nii1JIXi+XNMqasEVJGKk40kFeu6nIa0/4sxxbBzmBs
-JsjUs1sKFBnbmbJ11yCIFeL1UJFiIclYP+2qSfu41VWtMYNSvYbT3qT2XtQfQ1ek
-L31yo14mzYr2dm3+aAAW2e7Eb3KVlUHbsYia27JhQaeoKdSsNRrNbOitd+3H9TAA
-CGVT/KZPUP3n77SfDpbh5YI4wvbC6V7PSttVxeSAJK/Lm6jhg7VMh0DPmAwrdsr7
-sTi8FW7sU1oRJj+yc5lTFX5zZ6fZEw==
-=Damx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkJ/l4ACgkQJNaLcl1U
+h9CF0Qf9FY+ZR31tosfkzTQONpReCHyoBAGkcaNY/MB3sfcaBSNZf5FtN/pVUrtQ
+QrHhniU5nqUCDWNDihcH/dgg9u7NewAA+au3czdGUAZiFTi2RnspU47qaUiWJiRl
+Q35FvsvwXgc6BgfYLGuHSeIVafSyG6n9m0uYzPHpL4+bTBOmHInPHA5OvI0TO7te
+rWj+hh7YzWNN6u0FCgKImZ2Dj0gao3Z2a1+QCdF0SqYZJu6yyBHYCXmzYLei/5Oo
+VohJvEKD0wdPqFyXMoK4QEIzUkrcnE9khdVLpSaz/O5ol0Hr3t+up5VtBsP/94tk
+/RNSVJ4iGOoHdNDglGqEa96tkwad/w==
+=1i0P
 -----END PGP SIGNATURE-----
 
---===============1634095601538861187==
+--===============3597076691270418188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -659,4 +659,4 @@ bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of 
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
 8da0efc3da9312b65f5cbf06e57d284f69222b2e ASoC: doc: cs35l56: Update firmware filename description for B0 silicon
 
---===============1634095601538861187==--
+--===============3597076691270418188==--
