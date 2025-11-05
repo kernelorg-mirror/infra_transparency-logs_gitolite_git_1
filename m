@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 05 Nov 2025 13:28:39 -0000
-Message-Id: <176234931993.2722614.7082662392173014566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 05 Nov 2025 13:55:52 -0000
+Message-Id: <176235095266.2746199.5971192884972204799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/fileXjbcrp
-    old: 0000000000000000000000000000000000000000
-    new: 2e9ed847dac9ac642449482aee8ad425c79c8ee4
-  - ref: refs/heads/v11_20251027_angelogioacchino_delregno_add_support_mt6316_6363_mt6373_pmics_regulators_and_mfd
-    old: 0000000000000000000000000000000000000000
-    new: 3c36965df80801344850388592e95033eceea05b
-  - ref: refs/heads/v2_20251023_srinivas_kandagatla_asoc_qcom_q6dsp_fixes_and_updates
-    old: 0000000000000000000000000000000000000000
-    new: 655079ac8a7721ac215a0596e3f33b740e01144a
-  - ref: refs/heads/v3_20251028_wangweidong_a_rework_the_awinic_driver
-    old: 0000000000000000000000000000000000000000
-    new: 6911f5ed5253f3a0deaa3dea2e9e8cfa4324048e
+  - ref: refs/heads/kdevops
+    old: 92b2b6f9d4745fb639e935b1725e27dfa47b8f34
+    new: af60ab6ebb0ed0242d20eee0e8ebf847a1edac23
+    log: |
+         3a6d6f1e917a002263af6a34e00fc59578e882e0 vfs: clean up argument list for vfs_create()
+         3600fec14460dcf782f383905e687861349cb34e vfs: make vfs_create break delegations on parent directory
+         9fe9292fd507b16bd0d32235f456ccc3ecda4c91 vfs: make vfs_mknod break delegations on parent directory
+         72a104ef782bca091d79c55861c65b240a6777b4 vfs: make vfs_symlink break delegations on parent dir
+         f7172d3a637a34f1b7ae1832586bc68fcacb65d1 filelock: lift the ban on directory leases in generic_setlease
+         4b34eb1356f41a4792b7eef93444a9ae04751be3 nfsd: allow filecache to hold S_IFDIR files
+         b37dc4a5e70e0662af3b957411d2910836d81a67 nfsd: allow DELEGRETURN on directories
+         a2ebc7e63c77cb623fba8ec2f0219da0b707cee4 nfsd: wire up GET_DIR_DELEGATION handling
+         af60ab6ebb0ed0242d20eee0e8ebf847a1edac23 vfs: expose delegation support to userland
+         
