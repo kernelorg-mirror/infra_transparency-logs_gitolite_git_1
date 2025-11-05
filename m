@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 05 Nov 2025 19:15:52 -0000
-Message-Id: <176237015270.3047904.10369751299620166441@gitolite.kernel.org>
+Date: Wed, 05 Nov 2025 19:16:26 -0000
+Message-Id: <176237018660.3048280.9317684624690394323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/heads/kbuild-next-rebase-option-c
-    old: 4f53d9c939bc4a3d3992e97f46e6fd18418a19be
+  - ref: refs/heads/kbuild-next
+    old: 934cd53e16693fedaeff13d8e63a5e2c389bcb9a
     new: 1757c2b5240a2024b66f1e712faacbfd04c18158
     log: |
+         75d16ec7822819f6387495dde77aa65d4d36736e Merge branch 'kbuild/kbuild-ms-extensions' into kbuild-next
          a0c1e8613e185fe5413e160a67555b004feae05b btrfs: send: make use of -fms-extensions for defining struct fs_path
          10ad235cc3717b7464d13ae55fd5e78a74861ee4 kbuild: Use objtree for module signing key path
          30829ab30b40dd1672a70dfe292017c86696a003 kbuild: doc: improve KBUILD_BUILD_TIMESTAMP documentation
