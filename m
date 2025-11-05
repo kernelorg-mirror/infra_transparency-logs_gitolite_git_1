@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5387051717163287030=="
+Content-Type: multipart/mixed; boundary="===============8369821777428449863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 05 Nov 2025 21:14:02 -0000
-Message-Id: <176237724223.3183699.8226782326192764449@gitolite.kernel.org>
+Date: Wed, 05 Nov 2025 21:14:04 -0000
+Message-Id: <176237724499.3183896.15754148079543259112@gitolite.kernel.org>
 
---===============5387051717163287030==
+--===============8369821777428449863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing
-    old: 4f5156b8cf42789c44da74b8fab9704ad7e6df7c
-    new: 448cb0bbb891f2c7a039366b7decefd56fe863e4
-    log: revlist-4f5156b8cf42-448cb0bbb891.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
+    old: 146ec9385e5398b55db85e24a9c792f1413e7462
+    new: df4b9c7fa2aca1f6894192f53cc0e41a919a4517
+    log: revlist-146ec9385e53-df4b9c7fa2ac.txt
 
---===============5387051717163287030==
+--===============8369821777428449863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f5156b8cf42-448cb0bbb891.txt
+Content-Disposition: attachment; filename=revlist-146ec9385e53-df4b9c7fa2ac.txt
 
 e3ca8aea22a31ce460045ae96a708a47cf655da8 svcrdma: Release transport resources synchronously
 d34dbf8284d351c32d35c811cc63732cde7b8145 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
@@ -64,5 +64,6 @@ ad6f4898ff96739e5651ce6bd50d6ef18e5b6b88 xdrgen: Generalize/harden pathname cons
 453289ab2e25aeccc1f9c624effdfc64e491f633 NFSD: Enable return of an updated stable_how to NFS clients
 a03982d4f8684dd4b35730e232ed21fa7cb83560 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 448cb0bbb891f2c7a039366b7decefd56fe863e4 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+df4b9c7fa2aca1f6894192f53cc0e41a919a4517 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
 
---===============5387051717163287030==--
+--===============8369821777428449863==--
