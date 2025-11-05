@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Wed, 05 Nov 2025 17:02:38 -0000
-Message-Id: <176236215807.2910620.16178184672491924986@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6133059935285644079=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Wed, 05 Nov 2025 17:03:39 -0000
+Message-Id: <176236221992.2911172.2816539833412552031@gitolite.kernel.org>
+
+--===============6133059935285644079==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: db5d5b9a07c35510ca1abe56c986c554d022e8f5
+  - ref: refs/heads/master
+    old: aafd3698e6b1f99e403b287d98f1034a92b20b59
+    new: 9a4686167501284712a788410fdb2e832c6c029c
     log: |
-         8b6322da3c1fd814c2293525f69b776b80fc6895 nvmem: layouts: fix nvmem_layout_bus_uevent
-         466b5ef60fa7619f638fe08201ed9b66d0737556 dt-bindings: nvmem: qfprom: Add sa8775p compatible
-         2150cd7ffd14a39fb56c2b3cbfcc6dbf629b7643 dt-bindings: nvmem: Support MediaTek MT8189 evb board efuse
-         0cf064be87a6ae0708f171c6b863b26ba9453054 nvmem: Add driver for the eeprom in qnap-mcu controllers
-         db5d5b9a07c35510ca1abe56c986c554d022e8f5 Merge branches 'nvmem-fixes' and 'nvmem-for-6.19' into nvmem-for-next
+         9a4686167501284712a788410fdb2e832c6c029c Add systemd-python to requirements
          
+
+--===============6133059935285644079==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1762362286 -0500
+pushee gitolite.kernel.org:pub/scm/utils/korgalore/korgalore
+nonce 1762362219-240b8135892522ebdf38ae51214b6bce322c4956
+
+aafd3698e6b1f99e403b287d98f1034a92b20b59 9a4686167501284712a788410fdb2e832c6c029c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQuDrwAKCRC2xBzjVmSZ
+bMViAQDK1u2Xg+xBnwx9ZE1ou5lJOJwd4sVv4UM4jlOABq1HfAEAz8gE4odcYQxO
+aAzWFOGLHTas2NGlOyhxBwlc/RR+cAw=
+=Tgq6
+-----END PGP SIGNATURE-----
+
+--===============6133059935285644079==--
