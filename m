@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8732268722062528839=="
+Content-Type: multipart/mixed; boundary="===============8258692515811414199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 05 Nov 2025 16:24:16 -0000
-Message-Id: <176235985621.2878714.15876649536498605691@gitolite.kernel.org>
+Date: Wed, 05 Nov 2025 16:27:14 -0000
+Message-Id: <176236003488.2881633.6711639996885984996@gitolite.kernel.org>
 
---===============8732268722062528839==
+--===============8258692515811414199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 96f1f8cf89ca1de16470fd9ac4a427bc1073b190
-    new: dc8571408d9095a81892a764c0b19a19bf0aa7b3
+    old: dc8571408d9095a81892a764c0b19a19bf0aa7b3
+    new: dbd4a17e7b45297551a63ffc8c89d6aba107af0e
     log: |
-         dc8571408d9095a81892a764c0b19a19bf0aa7b3 Expand vars on Gmail credentials/token files
+         dbd4a17e7b45297551a63ffc8c89d6aba107af0e gmail: use console() mode
          
 
---===============8732268722062528839==
+--===============8258692515811414199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1762359923 -0500
+pusher B6C41CE35664996C! 1762360101 -0500
 pushee gitolite.kernel.org:pub/scm/utils/korgalore/korgalore
-nonce 1762359855-7e835970f59481b5940a3cf1fb5bd336a849a8cd
+nonce 1762360034-7699b2c4c7ada79078d248df88113b2c456e4cca
 
-96f1f8cf89ca1de16470fd9ac4a427bc1073b190 dc8571408d9095a81892a764c0b19a19bf0aa7b3 refs/heads/master
+dc8571408d9095a81892a764c0b19a19bf0aa7b3 dbd4a17e7b45297551a63ffc8c89d6aba107af0e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQt6cwAKCRC2xBzjVmSZ
-bAAZAQCSBr9PlcFQVZDI933t/ddEHEl6ZggeNiswmDBklQFVWQD9EiKxUgV6DOt8
-8sIEz6FkD3v6ilmN2bWPdRNj8GDIggQ=
-=SL01
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQt7JQAKCRC2xBzjVmSZ
+bMWZAQD6sFTxpOLLTaVdoc1AiFsbkD0KHXVDFN5Hzf2USYYq2wD+LVk1GXQ1Rc7k
+rDNXHi8iQdYd6PZwWLeZEJ9p2+rVEQk=
+=jsuP
 -----END PGP SIGNATURE-----
 
---===============8732268722062528839==--
+--===============8258692515811414199==--
