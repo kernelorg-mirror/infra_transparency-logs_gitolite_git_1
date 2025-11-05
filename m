@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 05 Nov 2025 06:28:36 -0000
-Message-Id: <176232411699.2294305.9223157762785269350@gitolite.kernel.org>
+Date: Wed, 05 Nov 2025 06:28:46 -0000
+Message-Id: <176232412623.2294554.1711032061749461481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfs-testing-snitm
-    old: 2b68e86a61ac2806f11be48e118bbbb32e0f7942
-    new: d15701f3acf50783d7e02ef505017b2f8b88dcad
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
+    old: 06f8aa3e9d0e951b6356379dbd6cf4728492f2ea
+    new: c63925e505f9a22591323a4034a289077ce4d973
     log: |
-         464da0ff2315fe932e56eeb5eedb34c3b3c996d1 nfs/localio: Remove alignment size checking in nfs_is_local_dio_possible
-         d15701f3acf50783d7e02ef505017b2f8b88dcad nfs/localio: do not issue misaligned DIO out-of-order
+         5d45312aec7140d937e5b25b5e885b96ddcb0b2b NFSD: avoid DONTCACHE for misaligned ends of misaligned DIO WRITE
+         66cd75191a6adead3eedadd0f024c470bc957058 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+         c63925e505f9a22591323a4034a289077ce4d973 NFSD: update Documentation/filesystems/nfs/nfsd-io-modes.rst
          
