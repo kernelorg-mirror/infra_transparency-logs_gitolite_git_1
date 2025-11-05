@@ -1,87 +1,94 @@
-Content-Type: multipart/mixed; boundary="===============0991400881535438606=="
+Content-Type: multipart/mixed; boundary="===============5117825015889311130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 05 Nov 2025 11:17:56 -0000
-Message-Id: <176234147660.2591711.11137062771870547010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Wed, 05 Nov 2025 11:18:20 -0000
+Message-Id: <176234150016.2592105.2936229796412962620@gitolite.kernel.org>
 
---===============0991400881535438606==
+--===============5117825015889311130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
   - ref: refs/heads/master
-    old: 2b39601117d2cf14cf15e98337d85fbe5df1ab9b
-    new: 8411fdb92360d0b4d3337492a25ee2de7fb6c425
-    log: revlist-2b39601117d2-8411fdb92360.txt
-  - ref: refs/heads/tip/urgent
-    old: 02d7ba924ed2ed43131a133d98884bfdcf38b9c1
-    new: ee3ad4d055896a19512b654547c8d1e1f3edf088
-    log: revlist-02d7ba924ed2-ee3ad4d05589.txt
+    old: b36829b46f7fd18b2267b21b5d981e22e019fda4
+    new: 5974c20e9b6568e6a46f9b1849756ebbbe544fb5
+    log: revlist-b36829b46f7f-5974c20e9b65.txt
+  - ref: refs/heads/next
+    old: 9c9f5644e8e2c6162bb174e6986dd161c8a7e5b0
+    new: 75d9ef7cf1e694e5c0fb387be99f04acc7f864a4
+    log: revlist-9c9f5644e8e2-75d9ef7cf1e6.txt
 
---===============0991400881535438606==
+--===============5117825015889311130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b39601117d2-8411fdb92360.txt
+Content-Disposition: attachment; filename=revlist-b36829b46f7f-5974c20e9b65.txt
 
-0fc2f8c86bac5f52733a0f9e97e1b86631fbe805 Merge branch into tip/master: 'perf/urgent'
-ee3ad4d055896a19512b654547c8d1e1f3edf088 Merge branch into tip/master: 'x86/urgent'
-217fdc8115709e392328f2e23b80b277f0fb6595 Merge branch into tip/master: 'core/bugs'
-68bdc13207e9f997b8ca6e216f3a54a76e28990c Merge branch into tip/master: 'core/core'
-4ed3455d98cf4a7f52994c67283d2a107471131c Merge branch into tip/master: 'core/rseq'
-3f28be347bba559227527b408cc0abf7975c88fd Merge branch into tip/master: 'irq/core'
-0944692c000abce203a80b70da98f0cfd54a5352 Merge branch into tip/master: 'irq/drivers'
-bdee9db18e96d3d36adecde6c8826974e0139b40 Merge branch into tip/master: 'irq/msi'
-3507e464e00c7c5509c3c17f865f7b3728effb84 Merge branch into tip/master: 'locking/core'
-717d72d50371bde4dc5758280a3575e643de9b89 Merge branch into tip/master: 'objtool/core'
-8375dadb8d4c6de0dc916ea50b376d9d946ce544 Merge branch into tip/master: 'perf/core'
-835f45519cc231395663de87c70c5e28b8462bc8 Merge branch into tip/master: 'sched/core'
-81dc7ac5caa848bff58ef41adc31bde93e406770 Merge branch into tip/master: 'timers/core'
-3e6083361040f3bd741238b760fa8349e946912e Merge branch into tip/master: 'timers/vdso'
-09d29522844f9578661964156e068e114b82ffe3 Merge branch into tip/master: 'x86/apic'
-028aca0fd7db22dc49594fb6268ef8377e4c23b3 Merge branch into tip/master: 'x86/bugs'
-d725c0c2869a1a6abbc6dc7b76df10343f4d9d23 Merge branch into tip/master: 'x86/cache'
-5d8b28a51ba147799d3ecd7488ab01a6c0502adc Merge branch into tip/master: 'x86/cleanups'
-cbc39c3b3ef3418cf6f323a2a3afa2d7c934204b Merge branch into tip/master: 'x86/core'
-9f90a596c442beebb32a88e8ce773992b8a4eb73 Merge branch into tip/master: 'x86/cpu'
-cbac819a1c2bed46cc9b3aeb91a00523b1e5f9b4 Merge branch into tip/master: 'x86/entry'
-386d469535a81d4d5eb99d48967ba9705ad04480 Merge branch into tip/master: 'x86/microcode'
-363b5312ffad9de9576483979ecc90fbc293b3c4 Merge branch into tip/master: 'x86/mm'
-5f99bf4d1ea219ba8d182d10238be3e407f6efcc Merge branch into tip/master: 'x86/sev'
-8411fdb92360d0b4d3337492a25ee2de7fb6c425 Merge branch into tip/master: 'x86/sgx'
+7c5b184db7145fd417785377337bd15c4fe1d0f4 genpt: Generic Page Table base API
+ab0b572847acb551ee3f0f7ed1477f060c44598a genpt: Add Documentation/ files
+cdb39d9185795b744dab4d4d782f2fe3f5eca10c iommupt: Add the basic structure of the iommu implementation
+879ced2bab1ba95e98fac56c9503791183bc7cbb iommupt: Add the AMD IOMMU v1 page table format
+9d4c274cd7d5e1b6b9e116e155f16bcd208237d8 iommupt: Add iova_to_phys op
+7c53f4238aa8bfb476e177263133ead2eeb8d55d iommupt: Add unmap_pages op
+dcd6a011a8d523a114af2360a8753de5bd60c139 iommupt: Add map_pages op
+4a00f943489103b4b9edff9f39bd484efbfb15fa iommupt: Add read_and_clear_dirty op
+1dd4187f53c35165262691795109879e37ddca62 iommupt: Add a kunit test for Generic Page Table
+e5359dcc617a2174d834bab4083340196615d8bd iommupt: Add a mock pagetable format for iommufd selftest to use
+e93d5945ed5bb086431e83eed7ab98b6c058cc0b iommufd: Change the selftest to use iommupt instead of xarray
+aef5de756ea871ab44e3a1a87be6c944e6587c51 iommupt: Add the x86 64 bit page table format
+789a5913b29c2558a4a80b8740a2523f75285507 iommu/amd: Use the generic iommu page table
+2fdf6db436e3071a8e4c9c3e67674448a13860d4 iommu/amd: Remove AMD io_pgtable support
+bc5233c0904eb116a4bd94e10cd3666733216063 iommupt: Add a kunit test for the IOMMU implementation
+36ae67b13976f8fe1fed2bbbc45ed09d0d113d45 iommu/pages: Add support for incoherent IOMMU page table walkers
+bcc64b57b48e1c79fe6a53fec3427e14bc2054e7 iommupt: Add basic support for SW bits in the page table
+aefd967dab6469f5b827b59e50016a760dcc1fbc iommupt: Use the incoherent start/stop functions for PT_FEAT_DMA_INCOHERENT
+efa03dab7ce4ed786b131f412440e2fd45fba11f iommupt: Flush the CPU cache after any writes to the page table
+5448c1558f60d4051c90938f2878c6fb20e2982a iommupt: Add the Intel VT-d second stage page table format
+1978fac28168bc3e6a66afb9c41ec0f1e8dafa0f iommupt/x86: Set the dirty bit only for writable PTEs
+ef7bfe5bbffdcfa033beeeb068c6317f71730679 iommupt/x86: Support SW bits and permit PT_FEAT_DMA_INCOHERENT
+d373449d8e97891434db0c64afca79d903c1194e iommu/vt-d: Use the generic iommu page table
+101a2854110fa8787226dae1202892071ff2c369 iommu/vt-d: Follow PT_FEAT_DMA_INCOHERENT into the PASID entry
+6303c0187f03ab47c748302f020789558d825f70 iommupt: Add a kunit test for the SW bits
+75d9ef7cf1e694e5c0fb387be99f04acc7f864a4 Merge branches 'arm/smmu/updates', 'arm/smmu/bindings', 'mediatek', 'nvidia/tegra', 'amd/amd-vi' and 'core' into next
+5974c20e9b6568e6a46f9b1849756ebbbe544fb5 Merge branch 'next'
 
---===============0991400881535438606==
+--===============5117825015889311130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02d7ba924ed2-ee3ad4d05589.txt
+Content-Disposition: attachment; filename=revlist-9c9f5644e8e2-75d9ef7cf1e6.txt
 
-512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
-c90fad3e4157f943b6d5842d3ceb20b32e566986 media: ivtv: Fix invalid access to file *
-88de89f184661ebb946804a5abdf2bdec7f0a7ab RDMA/bnxt_re: Fix a potential memory leak in destroy_gsi_sqp
-8d158f47f1f33d8747e80c3afbea5aa337e59d41 RDMA/irdma: Fix SD index calculation
-5575b7646b94c0afb0f4c0d86e00e13cf3397a62 RDMA/irdma: Set irdma_cq cq_num field during CQ create
-d8713158faad0fd4418cb2f4e432c3876ad53a1f RDMA/uverbs: Fix umem release in UVERBS_METHOD_CQ_CREATE
-7df699c2132f36359f8f79e6a163c3b3fe0b0e3d media: v4l2-subdev / pdx86: int3472: Use "privacy" as con_id for the privacy LED
-758dbc756aad429da11c569c0d067f7fd032bcf7 media: uvcvideo: Use heuristic to find stream entity
-27afd6e066cfd80ddbe22a4a11b99174ac89cced media: videobuf2: forbid remove_bufs when legacy fileio is active
-c4b67b514af8c2d73c64b36e0cd99e9b26b9ac82 RDMA/hns: Fix recv CQ and QP cache affinity
-f5a7cbea5411668d429eb4ffe96c4063fe8dac9e RDMA/hns: Fix the modification of max_send_sge
-fe9622011f955e35ba84d3af7b2f2fed31cf8ca1 RDMA/hns: Fix wrong WQE data when QP wraps around
-b8c9aab4c738e5e9814915768ac6c184fe36ab93 RDMA/hns: Remove an extra blank line
-320258783765316d2baae99c26e461ee634054fe RDMA/irdma: Fix vf_id size to u16 to avoid overflow
-b8126205dbe01e22b0d10c8be132bb53bf3399c1 MAINTAINERS: Update irdma maintainers
-f1fdffe0afea02ba783acfe815b6a60e7180df40 x86/CPU/AMD: Add missing terminator for zen5_rdseed_microcode
-17d85f33a83b84e7d36bc3356614ae06c90e7a08 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-284922f4c563aa3a8558a00f2a05722133237fe8 x86: uaccess: don't use runtime-const rewriting in modules
-1c353dc8d962de652bc7ad2ba2e63f553331391c Merge tag 'media/v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-0fc2f8c86bac5f52733a0f9e97e1b86631fbe805 Merge branch into tip/master: 'perf/urgent'
-ee3ad4d055896a19512b654547c8d1e1f3edf088 Merge branch into tip/master: 'x86/urgent'
+7c5b184db7145fd417785377337bd15c4fe1d0f4 genpt: Generic Page Table base API
+ab0b572847acb551ee3f0f7ed1477f060c44598a genpt: Add Documentation/ files
+cdb39d9185795b744dab4d4d782f2fe3f5eca10c iommupt: Add the basic structure of the iommu implementation
+879ced2bab1ba95e98fac56c9503791183bc7cbb iommupt: Add the AMD IOMMU v1 page table format
+9d4c274cd7d5e1b6b9e116e155f16bcd208237d8 iommupt: Add iova_to_phys op
+7c53f4238aa8bfb476e177263133ead2eeb8d55d iommupt: Add unmap_pages op
+dcd6a011a8d523a114af2360a8753de5bd60c139 iommupt: Add map_pages op
+4a00f943489103b4b9edff9f39bd484efbfb15fa iommupt: Add read_and_clear_dirty op
+1dd4187f53c35165262691795109879e37ddca62 iommupt: Add a kunit test for Generic Page Table
+e5359dcc617a2174d834bab4083340196615d8bd iommupt: Add a mock pagetable format for iommufd selftest to use
+e93d5945ed5bb086431e83eed7ab98b6c058cc0b iommufd: Change the selftest to use iommupt instead of xarray
+aef5de756ea871ab44e3a1a87be6c944e6587c51 iommupt: Add the x86 64 bit page table format
+789a5913b29c2558a4a80b8740a2523f75285507 iommu/amd: Use the generic iommu page table
+2fdf6db436e3071a8e4c9c3e67674448a13860d4 iommu/amd: Remove AMD io_pgtable support
+bc5233c0904eb116a4bd94e10cd3666733216063 iommupt: Add a kunit test for the IOMMU implementation
+36ae67b13976f8fe1fed2bbbc45ed09d0d113d45 iommu/pages: Add support for incoherent IOMMU page table walkers
+bcc64b57b48e1c79fe6a53fec3427e14bc2054e7 iommupt: Add basic support for SW bits in the page table
+aefd967dab6469f5b827b59e50016a760dcc1fbc iommupt: Use the incoherent start/stop functions for PT_FEAT_DMA_INCOHERENT
+efa03dab7ce4ed786b131f412440e2fd45fba11f iommupt: Flush the CPU cache after any writes to the page table
+5448c1558f60d4051c90938f2878c6fb20e2982a iommupt: Add the Intel VT-d second stage page table format
+1978fac28168bc3e6a66afb9c41ec0f1e8dafa0f iommupt/x86: Set the dirty bit only for writable PTEs
+ef7bfe5bbffdcfa033beeeb068c6317f71730679 iommupt/x86: Support SW bits and permit PT_FEAT_DMA_INCOHERENT
+d373449d8e97891434db0c64afca79d903c1194e iommu/vt-d: Use the generic iommu page table
+101a2854110fa8787226dae1202892071ff2c369 iommu/vt-d: Follow PT_FEAT_DMA_INCOHERENT into the PASID entry
+6303c0187f03ab47c748302f020789558d825f70 iommupt: Add a kunit test for the SW bits
+75d9ef7cf1e694e5c0fb387be99f04acc7f864a4 Merge branches 'arm/smmu/updates', 'arm/smmu/bindings', 'mediatek', 'nvidia/tegra', 'amd/amd-vi' and 'core' into next
 
---===============0991400881535438606==--
+--===============5117825015889311130==--
