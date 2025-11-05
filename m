@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2909602848541861317=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 05 Nov 2025 17:11:39 -0000
-Message-Id: <176236269915.2919456.1057980053996614286@gitolite.kernel.org>
-
---===============2909602848541861317==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 05 Nov 2025 17:12:59 -0000
+Message-Id: <176236277900.2920180.4968652557964954834@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 9a4686167501284712a788410fdb2e832c6c029c
-    new: ba84564980c5bc525cec8e7f657de6fa4835a5af
+  - ref: refs/heads/devel
+    old: 99224c151c19b74e1930d236dd348b6b22a607a5
+    new: 59d2d28f2269dfb89d64828fd330bc32113fd036
     log: |
-         ba84564980c5bc525cec8e7f657de6fa4835a5af Drop support for systemd journal
+         59d2d28f2269dfb89d64828fd330bc32113fd036 pinctrl: cix: sky1: Provide pin control dummy states
          
-
---===============2909602848541861317==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1762362766 -0500
-pushee gitolite.kernel.org:pub/scm/utils/korgalore/korgalore
-nonce 1762362698-a93d102e54443dfcb44a50796ee119f27dbd8a86
-
-9a4686167501284712a788410fdb2e832c6c029c ba84564980c5bc525cec8e7f657de6fa4835a5af refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQuFjgAKCRC2xBzjVmSZ
-bL6PAQCWCOwpKUxVnUlur0zGCXi0kEMG40mPfHAEldF0TjBe/AD/f4qy3NrGsnlP
-BE0QNf4pihHfAW1NJBeCZskjW3hGzQs=
-=e95C
------END PGP SIGNATURE-----
-
---===============2909602848541861317==--
+  - ref: refs/heads/for-next
+    old: 2aea4b47e7a5ef171645302b036fa5fb21837274
+    new: 2157a9edc3d23f209ade2f61247edc70b59f0824
+    log: |
+         59d2d28f2269dfb89d64828fd330bc32113fd036 pinctrl: cix: sky1: Provide pin control dummy states
+         2157a9edc3d23f209ade2f61247edc70b59f0824 Merge branch 'devel' into for-next
+         
+  - ref: refs/heads/b4/cix-dummies
+    old: 0000000000000000000000000000000000000000
+    new: f755bb823852078331080ebe1d998831a524a59b
