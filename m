@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6610128137551586173=="
+Content-Type: multipart/mixed; boundary="===============6114788931593972641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 05 Nov 2025 22:05:21 -0000
-Message-Id: <176238032186.3229219.11490399322115694504@gitolite.kernel.org>
+Date: Wed, 05 Nov 2025 22:11:15 -0000
+Message-Id: <176238067596.3233901.11547867566559524696@gitolite.kernel.org>
 
---===============6610128137551586173==
+--===============6114788931593972641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,74 +15,53 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs-6.19.fs_header
-    old: 1943722fbbe6c5170ca236d267421ce59e1de70e
-    new: 5b8ed52866e3d19e02860c7cf1d6bbbd70b619e9
+  - ref: refs/heads/kernel-6.19.cred
+    old: 7d06dc5065bea4b1d9abd1937bd8cf196b76dd7d
+    new: c8e00cdc7425d5c60fd1ce6e7f71e5fb1b236991
     log: |
-         e0b62a4dee24e9176f2c4be52a1b47fe1d97c560 fs: add fs/super_types.h header
-         f7b3d14165222a3ad9c4d0d31dfa81e396751801 fs: add fs/super.h header
-         723cd9872dc1335639eb99422b1722697552a09a Merge patch series "fs: start to split up fs.h"
-         5b8ed52866e3d19e02860c7cf1d6bbbd70b619e9 fs: inline current_umask() and move it to fs_struct.h
+         b7b4f7554bcc6b9ee0ec0404999bf080adad1f3c sev-dev: use override credential guards
+         eb937201bad03bf2f25ac630979e521fbb5e2a07 coredump: move revert_cred() before coredump_cleanup()
+         1ec760fb42404dd7257d1c73dd68295a0d1a974f coredump: pass struct linux_binfmt as const
+         313a335057f0894e6e59290d4e7fb8b35ec250e6 coredump: mark struct mm_struct as const
+         af9803d4b8ca3f59ec66bb6b1557e40a18bc5599 coredump: split out do_coredump() from vfs_coredump()
+         8ed3473c5a8b356c8af950a29d5620be337c3cab coredump: use prepare credential guard
+         545985dd3701988c95cba9a8f895631de2039b21 coredump: use override credential guard
+         2ed6a34de9851dcd4db8441a33882b168261be88 trace: use prepare credential guard
+         06765b6efc463ce4d3c0c80a3cc2c888dc902dfa trace: use override credential guard
+         c8e00cdc7425d5c60fd1ce6e7f71e5fb1b236991 Merge patch series "credential guards: credential preparation"
          
-  - ref: refs/heads/vfs-6.19.guards
-    old: 75627e62aeac1025b57b69fa49275a1c2a630539
-    new: 73fd0dba0beb1d2d1695ee5452eac8dfabce3f9e
-    log: revlist-75627e62aeac-73fd0dba0beb.txt
   - ref: refs/heads/vfs.all
-    old: 3742991d3be2fa7808d3e569366a10d7eb287b55
-    new: f745bfb4acaa05a087365acb495c80e1a338a034
-    log: revlist-3742991d3be2-f745bfb4acaa.txt
+    old: f745bfb4acaa05a087365acb495c80e1a338a034
+    new: e90fbb585e649de5a3d9834fc3f9089fa2b087e6
+    log: revlist-f745bfb4acaa-e90fbb585e64.txt
 
---===============6610128137551586173==
+--===============6114788931593972641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75627e62aeac-73fd0dba0beb.txt
+Content-Disposition: attachment; filename=revlist-f745bfb4acaa-e90fbb585e64.txt
 
-e0b62a4dee24e9176f2c4be52a1b47fe1d97c560 fs: add fs/super_types.h header
-f7b3d14165222a3ad9c4d0d31dfa81e396751801 fs: add fs/super.h header
-723cd9872dc1335639eb99422b1722697552a09a Merge patch series "fs: start to split up fs.h"
-5b8ed52866e3d19e02860c7cf1d6bbbd70b619e9 fs: inline current_umask() and move it to fs_struct.h
-8e4d576ed3ff917eda65b989ba56b02d9a3894f9 fs: add super_write_guard
-a5e3d0be9e401de325de0104038da375a3e82e61 btrfs: use super write guard in btrfs_reclaim_bgs_work()
-e79a4512cc8703521b7132bcbb27a1245dac6f55 btrfs: use super write guard btrfs_run_defrag_inode()
-6e5b78cb17c2a76c8c9f1d0874e377debfacbf88 btrfs: use super write guard in sb_start_write()
-2774bac21f26d8cc1cd66386b6f357ec6120bc94 ext4: use super write guard in write_mmp_block()
-b7b8aca68e2e857ec16fe67ed6e1d8b3eafc2653 btrfs: use super write guard in relocating_repair_kthread()
-97f9d2d282c9f5647784301b4bed82f825e1c2d6 open: use super write guard in do_ftruncate()
-ab5f296076f3cd43470e2f70db61c9fd258db85b xfs: use super write guard in xfs_file_ioctl()
-73fd0dba0beb1d2d1695ee5452eac8dfabce3f9e Merge patch series "fs: introduce super write guard"
+b7b4f7554bcc6b9ee0ec0404999bf080adad1f3c sev-dev: use override credential guards
+eb937201bad03bf2f25ac630979e521fbb5e2a07 coredump: move revert_cred() before coredump_cleanup()
+1ec760fb42404dd7257d1c73dd68295a0d1a974f coredump: pass struct linux_binfmt as const
+313a335057f0894e6e59290d4e7fb8b35ec250e6 coredump: mark struct mm_struct as const
+af9803d4b8ca3f59ec66bb6b1557e40a18bc5599 coredump: split out do_coredump() from vfs_coredump()
+8ed3473c5a8b356c8af950a29d5620be337c3cab coredump: use prepare credential guard
+545985dd3701988c95cba9a8f895631de2039b21 coredump: use override credential guard
+2ed6a34de9851dcd4db8441a33882b168261be88 trace: use prepare credential guard
+06765b6efc463ce4d3c0c80a3cc2c888dc902dfa trace: use override credential guard
+c8e00cdc7425d5c60fd1ce6e7f71e5fb1b236991 Merge patch series "credential guards: credential preparation"
+25816ffe16cac7913c241eb91d6662d7aec1e296 Merge branch 'vfs.fixes' into vfs.all
+0b8aa37b218225c4ad772aede32a9d68050b9131 Merge branch 'vfs-6.19.iomap' into vfs.all
+d09c6160d2b90d1391611a7ba28ddb6ea1b996ec Merge branch 'vfs-6.19.misc' into vfs.all
+0f31c85edd5df3a6bf8bb474399daa6e1b146301 Merge branch 'vfs-6.19.inode' into vfs.all
+8bf8176d51fe3a3ee08d6598b80a0d1767a07253 Merge branch 'vfs-6.19.writeback' into vfs.all
+fb86e571b7977faa0ef5b02a7ae1f72d5a73b160 Merge branch 'namespace-6.19' into vfs.all
+2ef71cae9ca1167bf0f79ca4b0c80ca9568b25a3 Merge branch 'vfs-6.19.coredump' into vfs.all
+9bbd1c4a70bccd813cdecc78a4c346fa8ccc2d9a Merge branch 'vfs-6.19.folio' into vfs.all
+ab854015ea2fdd04955fee8b0f3e77e81cbfff77 Merge branch 'kernel-6.19.cred' into vfs.all
+93c97d060f40db5f72249536c94e0de32b707549 Merge branch 'vfs-6.19.fs_header' into vfs.all
+d11442a9ef83a79591910e269d9eba50e39bd91b Merge branch 'vfs-6.19.guards' into vfs.all
+e90fbb585e649de5a3d9834fc3f9089fa2b087e6 Merge branch 'vfs-6.19.minix' into vfs.all
 
---===============6610128137551586173==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3742991d3be2-f745bfb4acaa.txt
-
-e0b62a4dee24e9176f2c4be52a1b47fe1d97c560 fs: add fs/super_types.h header
-f7b3d14165222a3ad9c4d0d31dfa81e396751801 fs: add fs/super.h header
-723cd9872dc1335639eb99422b1722697552a09a Merge patch series "fs: start to split up fs.h"
-5b8ed52866e3d19e02860c7cf1d6bbbd70b619e9 fs: inline current_umask() and move it to fs_struct.h
-8e4d576ed3ff917eda65b989ba56b02d9a3894f9 fs: add super_write_guard
-a5e3d0be9e401de325de0104038da375a3e82e61 btrfs: use super write guard in btrfs_reclaim_bgs_work()
-e79a4512cc8703521b7132bcbb27a1245dac6f55 btrfs: use super write guard btrfs_run_defrag_inode()
-6e5b78cb17c2a76c8c9f1d0874e377debfacbf88 btrfs: use super write guard in sb_start_write()
-2774bac21f26d8cc1cd66386b6f357ec6120bc94 ext4: use super write guard in write_mmp_block()
-b7b8aca68e2e857ec16fe67ed6e1d8b3eafc2653 btrfs: use super write guard in relocating_repair_kthread()
-97f9d2d282c9f5647784301b4bed82f825e1c2d6 open: use super write guard in do_ftruncate()
-ab5f296076f3cd43470e2f70db61c9fd258db85b xfs: use super write guard in xfs_file_ioctl()
-73fd0dba0beb1d2d1695ee5452eac8dfabce3f9e Merge patch series "fs: introduce super write guard"
-4d28374d026ba28b15f76602c66b3e2f40b4c532 Merge branch 'vfs.fixes' into vfs.all
-e41b0570b961f28b87cf95e35f280bf4e8c818ca Merge branch 'vfs-6.19.iomap' into vfs.all
-321a97dae337d3b178f070a5d5aab2fd3b32031e Merge branch 'vfs-6.19.misc' into vfs.all
-a6124df538c59abc9089e8138c48cc334b8cf702 Merge branch 'vfs-6.19.inode' into vfs.all
-13af3de150923dec176502a88ae48f75ee6302c7 Merge branch 'vfs-6.19.writeback' into vfs.all
-186488aed19d8b1ce0a725c7dc55b8a649e18397 Merge branch 'namespace-6.19' into vfs.all
-fbfa5d0f5aac512eb11e425590daddb00362988c Merge branch 'vfs-6.19.coredump' into vfs.all
-d3d0273cf2c0d19d3c847cae7b974fcac37da1a3 Merge branch 'vfs-6.19.folio' into vfs.all
-cb16d1fab77069075424e1abf77a2b1d20fe0ab7 Merge branch 'kernel-6.19.cred' into vfs.all
-23ab098dafb20852c4d76324f32e8a3259eabc90 Merge branch 'vfs-6.19.fs_header' into vfs.all
-b42ff1f12d37086a61ea281b117393131b793fc6 Merge branch 'vfs-6.19.guards' into vfs.all
-f745bfb4acaa05a087365acb495c80e1a338a034 Merge branch 'vfs-6.19.minix' into vfs.all
-
---===============6610128137551586173==--
+--===============6114788931593972641==--
