@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8369821777428449863=="
+Content-Type: multipart/mixed; boundary="===============2118576145345035865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 05 Nov 2025 21:14:04 -0000
-Message-Id: <176237724499.3183896.15754148079543259112@gitolite.kernel.org>
+Date: Wed, 05 Nov 2025 21:14:08 -0000
+Message-Id: <176237724833.3184026.10727057730338549246@gitolite.kernel.org>
 
---===============8369821777428449863==
+--===============2118576145345035865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
-    old: 146ec9385e5398b55db85e24a9c792f1413e7462
-    new: df4b9c7fa2aca1f6894192f53cc0e41a919a4517
-    log: revlist-146ec9385e53-df4b9c7fa2ac.txt
+  - ref: refs/heads/kernel-6.12.53/main
+    old: 130ed26a46aefee08fb6478317b37cb4bf082efd
+    new: 5d6af84069be54ce0323bf804ac0deb712172e3c
+    log: revlist-130ed26a46ae-5d6af84069be.txt
 
---===============8369821777428449863==
+--===============2118576145345035865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-146ec9385e53-df4b9c7fa2ac.txt
+Content-Disposition: attachment; filename=revlist-130ed26a46ae-5d6af84069be.txt
 
 e3ca8aea22a31ce460045ae96a708a47cf655da8 svcrdma: Release transport resources synchronously
 d34dbf8284d351c32d35c811cc63732cde7b8145 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
@@ -65,5 +65,25 @@ ad6f4898ff96739e5651ce6bd50d6ef18e5b6b88 xdrgen: Generalize/harden pathname cons
 a03982d4f8684dd4b35730e232ed21fa7cb83560 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 448cb0bbb891f2c7a039366b7decefd56fe863e4 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
 df4b9c7fa2aca1f6894192f53cc0e41a919a4517 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+e04c473aa8620e1373f4d308ec74128c3f0bf9c7 Merge branch 'kernel-6.12.53/nvme' into kernel-6.12.53/main
+6462c93183f130fc81fbe3a56235ff53b30597c2 Merge branch 'kernel-6.12.53/localio' into kernel-6.12.53/main
+607b16d814fccc728ae4d62f83ede14c6e70521a Merge branch 'kernel-6.12.53/nfs' into kernel-6.12.53/main
+6d040eeb928cd569f4006552035daa81faa48788 Merge branch 'kernel-6.12.53/dontcache' into kernel-6.12.53/main
+6c75d6d2b363d4ff55a78e13a3fa752fea35df3a Merge branch 'kernel-6.12.53/xfs' into kernel-6.12.53/main
+84495b00b4c9b55ef302fc83b26b3440e0752e37 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.53/main
+bcf07d45195615a3bfcc3a42de511e4fe8be9479 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.53/main
+7bac22dbe7a97e2f4f956d6e6b7b1914b6fef352 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.18-2' into kernel-6.12.53/main
+aae3a8d1c6600f919c69223823e812ce2154dfe5 Merge branch 'kernel-6.12.53/nfs-testing' into kernel-6.12.53/main
+850542e6f8e1639a801b8857c43685f42638d5ce Merge branch 'kernel-6.12.53/nfs-testing-snitm' into kernel-6.12.53/main
+41d1cd4b5225f2b1f32136ea645b1c107007dcec Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.18-2' into kernel-6.12.53/main
+abefd88d8359cc038c8fb6fffbf6236c6130d112 Merge branch 'kernel-6.12.53/nfsd-next' into kernel-6.12.53/main
+ee749f9950dad6b0ea88916901db5f188da45fa3 Merge branch 'kernel-6.12.53/nfsd-testing' into kernel-6.12.53/main
+b7987c379c8eeee6ee439c726a17e8235d8c7b53 Merge branch 'kernel-6.12.53/nfsd-testing-snitm' into kernel-6.12.53/main
+9fdd16c94604c308c91cc17115f5d6c7cd194909 kernel-6.12.53-1
+2137e964f393c32f07487c738f464fd9f6cbe58d kernel-6.12.53-2
+fd2c151ab2150cb004ef53c21a39906c88c3edd8 kernel-6.12.53-3
+b789962c089946e179980ba6ad5969317ab9a732 kernel-6.12.53-4
+d8fd98260d04830ec9e926067f5c682903b1b59f kernel-6.12.53-5
+5d6af84069be54ce0323bf804ac0deb712172e3c kernel-6.12.53-5
 
---===============8369821777428449863==--
+--===============2118576145345035865==--
