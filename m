@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5102757096889460441=="
+Content-Type: multipart/mixed; boundary="===============7280941800313779413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Wed, 05 Nov 2025 17:32:49 -0000
-Message-Id: <176236396940.2940594.1932987368423829569@gitolite.kernel.org>
+Date: Wed, 05 Nov 2025 17:33:08 -0000
+Message-Id: <176236398878.2940934.8561249637350149219@gitolite.kernel.org>
 
---===============5102757096889460441==
+--===============7280941800313779413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,29 @@ repo: pub/scm/linux/kernel/git/pinchartl/linux
 user: pinchartl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/next/media/imx
-    old: 459a5cb152047448c8b8bdc73dd3e2519e36db0b
+  - ref: refs/heads/next/media/uvc
+    old: 8c40efeda94108d65c52038ea82ee83b2fb933e2
     new: 0000000000000000000000000000000000000000
 
---===============5102757096889460441==
+--===============7280941800313779413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1762364027 +0200
+pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1762364048 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1762363961-498a7bc568034d4abf561ab07a27e6b35c321ba0
+nonce 1762363981-cba1e8a8798b2117d3e03f02272a67ef6fe56c45
 
-459a5cb152047448c8b8bdc73dd3e2519e36db0b 0000000000000000000000000000000000000000 refs/heads/next/media/imx
+8c40efeda94108d65c52038ea82ee83b2fb933e2 0000000000000000000000000000000000000000 refs/heads/next/media/uvc
 -----BEGIN PGP SIGNATURE-----
 
-iJgEABYKAEAWIQR4BAIqOLfRP0FzjDaF8ZZQYUJL4QUCaQuKeyIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEIXxllBhQkvhhVYA/R1G6/UET6At
-L4LtX8QWgFeXWg23TSquTNSeRVIFhMsLAP956l5qTauBPnd5vi8lONaWL5GJhKPM
-q16EjkhB6wzRCg==
-=4O94
+iJgEABYKAEAWIQR4BAIqOLfRP0FzjDaF8ZZQYUJL4QUCaQuKkCIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEIXxllBhQkvhcK8BAIfUNH8D/070
+AIDyDoXquTpe++jbcii8Du49h3Nc8MMyAQDDzXGWf8nxi6ymYQ1T+n223Oy5pEup
+fK41FmQ5n3KTBA==
+=4QG3
 -----END PGP SIGNATURE-----
 
---===============5102757096889460441==--
+--===============7280941800313779413==--
