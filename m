@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 05 Nov 2025 01:28:47 -0000
-Message-Id: <176230612777.1995924.607061729592657726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/fsverity-utils
+Date: Wed, 05 Nov 2025 01:29:50 -0000
+Message-Id: <176230619073.1997396.2808834914513048332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/fs/fsverity/fsverity-utils
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: a7ff0bbbbe3420b4ea033a12c87f927218bbb6fb
-    new: 25e10e2c94da2c7d18d72bd32d60d26d0c29232e
+  - ref: refs/heads/master
+    old: ee7d74d75a727463046bf380b3de9e602a6e2b40
+    new: 96d12bd0d34a034d6e0b85512422f0d6df3c7c4a
     log: |
-         a77b6c1f37d8ce067d91cb8822ee57db9f1dee9a ARM: multi_v7_defconfig: Enable TI PRU Ethernet driver
-         fd713cc7f656f7538d80bd7ec99bbfcf24f1352c Merge branch 'omap-for-v6.19/soc' into tmp/omap-next-20251104.172924
-         25e10e2c94da2c7d18d72bd32d60d26d0c29232e Merge branch 'omap-for-v6.19/drivers' into tmp/omap-next-20251104.172924
+         96ae25847b2b749b091abe224e1ed7c2f24dfe49 run-tests.sh: Relax sensitivity of memory leak test
+         b67b38269d7d99062f99ffbf1fc740960d82a8d5 run-tests.sh: Update build commands for latest BoringSSL
+         7c7b5abf9e1d79d87abb0faabc914fe62bdfc81e Add release notes for 1.7
+         96d12bd0d34a034d6e0b85512422f0d6df3c7c4a v1.7
          
