@@ -1,26 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 05 Nov 2025 19:16:26 -0000
-Message-Id: <176237018660.3048280.9317684624690394323@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1116681818730951382=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 05 Nov 2025 19:31:26 -0000
+Message-Id: <176237108641.3061657.17295346732963355937@gitolite.kernel.org>
+
+--===============1116681818730951382==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 934cd53e16693fedaeff13d8e63a5e2c389bcb9a
-    new: 1757c2b5240a2024b66f1e712faacbfd04c18158
-    log: |
-         75d16ec7822819f6387495dde77aa65d4d36736e Merge branch 'kbuild/kbuild-ms-extensions' into kbuild-next
-         a0c1e8613e185fe5413e160a67555b004feae05b btrfs: send: make use of -fms-extensions for defining struct fs_path
-         10ad235cc3717b7464d13ae55fd5e78a74861ee4 kbuild: Use objtree for module signing key path
-         30829ab30b40dd1672a70dfe292017c86696a003 kbuild: doc: improve KBUILD_BUILD_TIMESTAMP documentation
-         5c005243e37c458c996b55a6277f196092eecf68 kbuild: uapi: reuse KBUILD_USERCFLAGS
-         6fc6bd3d40c52013e1c0c23c8414d4b7340933f5 MAINTAINERS, .mailmap: Update mail address for Nicolas Schier
-         970acbc7a43845ea254ddffff5a1c9101b4ea551 kbuild: Rename Makefile.extrawarn to Makefile.warn
-         1757c2b5240a2024b66f1e712faacbfd04c18158 kbuild: uapi: Drop types.h check from headers_check.pl
-         
+  - ref: refs/heads/master
+    old: 1c353dc8d962de652bc7ad2ba2e63f553331391c
+    new: dc77806cf3b4788d328fddf245e86c5b529f31a2
+    log: revlist-1c353dc8d962-dc77806cf3b4.txt
+
+--===============1116681818730951382==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1c353dc8d962-dc77806cf3b4.txt
+
+f0f7a3f542c1698edb69075f25a3f846207facba platform/x86: int3472: Fix double free of GPIO device during unregister
+7f7d28c69eda3692bcf102b7096b93fd45c75b1d MAINTAINERS: Update int3472 maintainers
+8f3eaad9812f62e7006ad08602444b32c3101824 Input: Add keycodes for electronic privacy screen on/off hotkeys
+4173edb076b3ae30d734d55fce0ebac63139b656 platform/x86: dell-wmi-base: Handle electronic privacy screen on/off events
+bd34bf518a5ffeb8eb7c8b9907ba97b606166f7b platform: x86: Kconfig: fix minor typo in help for WIRELESS_HOTKEY
+ff4d2ef3874773c9c6173b0f099372bf62252aaf rust: devres: fix private intra-doc link
+09b1704f5b02c18dd02b21343530463fcfc92c54 rust: condvar: fix broken intra-doc link
+16c43a56b79e2c3220b043236369a129d508c65a rust: kbuild: treat `build_error` and `rustdoc` as kernel objects
+fad472efab0a805dd939f017c5b8669a786a4bcf rust: kbuild: workaround `rustdoc` doctests modifier bug
+789521b4717fd6bd85164ba5c131f621a79c9736 rust: kbuild: support `-Cjump-tables=n` for Rust 1.93.0
+5624d4c3781673da84e6144c359803ca31b66214 Merge tag 'platform-drivers-x86-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+dc77806cf3b4788d328fddf245e86c5b529f31a2 Merge tag 'rust-fixes-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
+
+--===============1116681818730951382==--
