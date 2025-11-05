@@ -1,43 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8511781018351165494=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 05 Nov 2025 14:59:48 -0000
-Message-Id: <176235478896.2801855.6735112613306221682@gitolite.kernel.org>
-
---===============8511781018351165494==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 05 Nov 2025 15:05:26 -0000
+Message-Id: <176235512622.2808078.7669751662465190810@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/tags/v0.1.0
-    old: 0000000000000000000000000000000000000000
-    new: 1bb9953cc608d587f5650b9159725f77d69dcde1
-
---===============8511781018351165494==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1762354856 -0500
-pushee gitolite.kernel.org:pub/scm/utils/korgalore/korgalore
-nonce 1762354788-75372c976b687790c275cfb3987d4b1ffd535f58
-
-0000000000000000000000000000000000000000 1bb9953cc608d587f5650b9159725f77d69dcde1 refs/tags/v0.1.0
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaQtmqAAKCRC2xBzjVmSZ
-bLPnAP0XvMRnyBoK3sf2KEy7JbJ1BICNYvV56/qQasemApHL1gD+NfE96kRi5UPk
-GGpEXdnydh+Sd5ASU7VyrbbZRTxkBQY=
-=bQ82
------END PGP SIGNATURE-----
-
---===============8511781018351165494==--
+  - ref: refs/heads/for-6.19/block
+    old: 3f5b1169d2ab20ed14271654799121232b9eb9d7
+    new: f68ff6bc0d0893d959aac39c662895096d866c84
+    log: |
+         eef09f742be2a89126742f9f6f6a0d5d7c83cba8 block: blocking mempool_alloc doesn't fail
+         ec7f31b2a2d3bf6b9e4d4b8cd156587f1d0607d5 block: make bio auto-integrity deadlock safe
+         f68ff6bc0d0893d959aac39c662895096d866c84 Merge branch 'autopi-deadlock' into for-6.19/block
+         
+  - ref: refs/heads/for-next
+    old: 88e5f3c82190f1f4391618a49a61e99606a3fc00
+    new: ad998b55b23d88fd87952278b23239b2e8c200d4
+    log: |
+         eef09f742be2a89126742f9f6f6a0d5d7c83cba8 block: blocking mempool_alloc doesn't fail
+         ec7f31b2a2d3bf6b9e4d4b8cd156587f1d0607d5 block: make bio auto-integrity deadlock safe
+         f68ff6bc0d0893d959aac39c662895096d866c84 Merge branch 'autopi-deadlock' into for-6.19/block
+         ad998b55b23d88fd87952278b23239b2e8c200d4 Merge branch 'for-6.19/block' into for-next
+         
