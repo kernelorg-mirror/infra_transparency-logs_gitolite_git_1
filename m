@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1159040633043711030=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 06 Nov 2025 09:00:35 -0000
-Message-Id: <176241963560.3780670.9047966094189617884@gitolite.kernel.org>
-
---===============1159040633043711030==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Thu, 06 Nov 2025 09:07:18 -0000
+Message-Id: <176242003815.3785454.12857381244205615800@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/driver-core-next
-    old: fde40a558dbd4945bba03cd7f425feab4c92e1d1
-    new: 1bf5b90cd2f984e5d6ff6fd30d5d85f9f579b6f0
-    log: revlist-fde40a558dbd-1bf5b90cd2f9.txt
-
---===============1159040633043711030==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fde40a558dbd-1bf5b90cd2f9.txt
-
-ad68b55a9ed0e5ce16508cb10081a73ea8f4bbef rust: add udelay() function
-46f045db5a94cd50b24dc1449bdd444e4473b28b rust: Add read_poll_timeout_atomic function
-db7bd1affa852b61dbc0d2ae2809f0f5bf2e3d9d rust: fs: add file::Offset type alias
-f2af7b01b05545fff1cea0768c14e2da552a56ee rust: uaccess: add UserSliceReader::read_slice_partial()
-5829e330482b67a14c8c6d2d500431846d493d67 rust: uaccess: add UserSliceReader::read_slice_file()
-86150533476774ee6ad5875e764ff6acc9a2e48a rust: uaccess: add UserSliceWriter::write_slice_partial()
-0ddceba2701e7012646f6df6d32c4e4b7c4dc938 rust: uaccess: add UserSliceWriter::write_slice_file()
-9c804d9cf2dbe90cfde89c905b45aacbd07ee537 rust: debugfs: support for binary large objects
-a9fca8a7b2c5078c00960866d2a512b8cea7ce3b rust: debugfs: support blobs from smart pointers
-52af0c37964be5a685cfd7aa4127bdd29d629cc7 samples: rust: debugfs: add example for blobs
-35bd14d929af1b16f58d7b786c52187628427922 rust: debugfs: support binary large objects for ScopedDir
-f656279afde16afee3ac163b90584ddceacb4e61 samples: rust: debugfs_scoped: add example for blobs
-1bf5b90cd2f984e5d6ff6fd30d5d85f9f579b6f0 rust: auxiliary: fix false positive warning for missing a safety comment
-
---===============1159040633043711030==--
+  - ref: refs/heads/v6.18-next/dts64
+    old: b88827cb0bd1a192855db40494970bbdd7aad939
+    new: 9b2d2beaefcfa17259fdbce16d59d660894147cb
+    log: |
+         0e5d9e529383688deccce632c713692e53b31cf6 arm64: dts: mediatek: mt7988: Disable 2.5G phy and enable at board layer
+         f397471a6a8c2b621e1fd06430fc528ab3925422 arm64: dts: mediatek: mt7988: Add devicetree for BananaPi R4 Pro
+         dec929e61a42ed5d6717d3ec2b6a7734c2ab825b arm64: dts: mediatek: mt7988a-bpi-r4-pro: Add PCIe overlays
+         a58c368067417f3d89b92ccc18fa0bb610b34349 arm64: dts: mediatek: mt7988a-bpi-r4pro: Add mmc overlays
+         869b3bb5ada2b1632ad0372df5789f07ff53fa68 arm64: dts: mediatek: mt7981b-openwrt-one: Enable SPI NOR
+         9b2d2beaefcfa17259fdbce16d59d660894147cb arm64: dts: mediatek: mt7981b-openwrt-one: Enable software leds
+         
