@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 06 Nov 2025 22:58:18 -0000
-Message-Id: <176246989801.353732.14866138347694826794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 06 Nov 2025 23:03:00 -0000
+Message-Id: <176247018058.358032.15713407788262819345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-linus
-    old: a9225f034618643d411ce4f85bf4c48b86fe9aec
-    new: 2b8258e8694f49b247b611933149c59c79013393
-    log: |
-         104d4d21faddad336bf37712c1852d3810c9e7f6 PCI/ASPM: Cache Link Capabilities so quirks can override them
-         2b8258e8694f49b247b611933149c59c79013393 PCI/ASPM: Avoid L0s and L1 on Freescale Root Ports
-         
+  - ref: refs/tags/nova-sequencer-init-done-v3
+    old: 0000000000000000000000000000000000000000
+    new: e4e32806e3d93997c386ae8969fa1deed4534be9
