@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3076265978916930423=="
+Content-Type: multipart/mixed; boundary="===============8030849494855925154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 06 Nov 2025 12:22:13 -0000
-Message-Id: <176243173389.3950949.5552675541463746387@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 12:27:42 -0000
+Message-Id: <176243206233.3955322.1619187877596971132@gitolite.kernel.org>
 
---===============3076265978916930423==
+--===============8030849494855925154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,27 +17,31 @@ user: ij
 git_push_cert_status: E
 changes:
   - ref: refs/heads/review-ilpo-fixes
-    old: 836a26660b97c62b1ed734e38a78bd20949dfa22
-    new: f945afe01c6768dcfed7868c671a26e1164c2284
+    old: f945afe01c6768dcfed7868c671a26e1164c2284
+    new: 9c8249cfdf5aa2b843b0cbef81eb0898493694fe
+    log: |
+         afc0f9ee9e1684288cbcb57b93f7e225eb8b6c44 platform/x86/intel/vsec: Add support for Wildcat Lake
+         9c8249cfdf5aa2b843b0cbef81eb0898493694fe platform/x86:intel/pmc: Enable SSRAM support for Wildcat Lake
+         
 
---===============3076265978916930423==
+--===============8030849494855925154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1762431797 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1762432128 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1762431728-40587376f1d4e24055f84af7f5c5e112947aa0d9
+nonce 1762432059-a1ac49af212b791f206b52b63c80dbcea015efca
 
-836a26660b97c62b1ed734e38a78bd20949dfa22 f945afe01c6768dcfed7868c671a26e1164c2284 refs/heads/review-ilpo-fixes
+f945afe01c6768dcfed7868c671a26e1164c2284 9c8249cfdf5aa2b843b0cbef81eb0898493694fe refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaQyTOQAKCRBZrE9hU+XO
-MYs9AP4+MPXs3iBXy3y214rjfu7y6T/Q+Yi/+X3SUGJkoEWsOgD/WuLa0T95KhvR
-sVQTfM2fEzeqjpgWffsTceSNOSlnyAc=
-=4I3s
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaQyUgQAKCRBZrE9hU+XO
+MRU3AP0df0Tl/Q/ucTTzlJsJ4VW4n+6qhx/1ttG4+t7eIeQdKQEAkP491KO9OMpu
+IP7c3E/8pfs8LqJZGbWYkkKb5CtIcg8=
+=SNE3
 -----END PGP SIGNATURE-----
 
---===============3076265978916930423==--
+--===============8030849494855925154==--
