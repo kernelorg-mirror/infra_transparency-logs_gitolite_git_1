@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 06 Nov 2025 10:48:52 -0000
-Message-Id: <176242613231.3866908.1314163308743514703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/cix
+Date: Thu, 06 Nov 2025 11:27:11 -0000
+Message-Id: <176242843118.3898564.5915390960871273312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/peter.chen/cix
+user: peter.chen
 changes:
-  - ref: refs/heads/for-linus
-    old: b98b69c38512c3a8277c83b2d07674fd1ff59625
-    new: 82420bd4e17bdaba8453fbf9e10c58c9ed0c9727
+  - ref: refs/heads/cix/dt
+    old: 81c89a9a2600cc72cce2285a467f0432cf92d704
+    new: 1f0de24c547d19adbdba338072fe19a01e87b9b1
     log: |
-         82420bd4e17bdaba8453fbf9e10c58c9ed0c9727 ALSA: hda/hdmi: Fix breakage at probing nvhdmi-mcp driver
-         
-  - ref: refs/heads/master
-    old: ca8a59c8a8500399d9304b38ac7e0c7a34a3d919
-    new: 1cbdd628c6522442eb9fcb6c4e74133a1f2707fe
-    log: |
-         82420bd4e17bdaba8453fbf9e10c58c9ed0c9727 ALSA: hda/hdmi: Fix breakage at probing nvhdmi-mcp driver
-         1cbdd628c6522442eb9fcb6c4e74133a1f2707fe Merge branch 'for-linus'
+         74178bb23c6bdca547c8c6bad89f3338f1af89be arm64: dts: cix: add DT nodes for SPI
+         1f0de24c547d19adbdba338072fe19a01e87b9b1 arm64: dts: cix: Add pinctrl nodes for sky1
          
