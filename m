@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2495998336432922650=="
+Content-Type: multipart/mixed; boundary="===============2277948653480831000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 06 Nov 2025 11:30:16 -0000
-Message-Id: <176242861629.3904656.8685769197311418702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 06 Nov 2025 11:30:23 -0000
+Message-Id: <176242862388.3904911.7539431434951878481@gitolite.kernel.org>
 
---===============2495998336432922650==
+--===============2277948653480831000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: e7dbfe6f15b4df34bb169d180bd10f1a3c043814
     new: 3cd2018e15b3d66d2187d92867e265f45ad79e6f
     log: revlist-e7dbfe6f15b4-3cd2018e15b3.txt
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/spi-6.19
     old: ecd0de438c1f0ee86cf8f6d5047965a2a181444b
     new: 2f538ef9f6f7c3d700c68536f21447dfc598f8c8
     log: revlist-ecd0de438c1f-2f538ef9f6f7.txt
 
---===============2495998336432922650==
+--===============2277948653480831000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762428681 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1762428613-fc870df8f1ceb320829697a01065c91392884a3b
+pusher C3F436CA30F5D8EB 1762428689 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1762428620-3892e350523d537428fdf4a51b2e270318c5561e
 
-e7dbfe6f15b4df34bb169d180bd10f1a3c043814 3cd2018e15b3d66d2187d92867e265f45ad79e6f refs/heads/for-6.18
-ecd0de438c1f0ee86cf8f6d5047965a2a181444b 2f538ef9f6f7c3d700c68536f21447dfc598f8c8 refs/heads/for-6.19
+e7dbfe6f15b4df34bb169d180bd10f1a3c043814 3cd2018e15b3d66d2187d92867e265f45ad79e6f refs/heads/spi-6.18
+ecd0de438c1f0ee86cf8f6d5047965a2a181444b 2f538ef9f6f7c3d700c68536f21447dfc598f8c8 refs/heads/spi-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkMhwkACgkQJNaLcl1U
-h9A0rgf9EXa64eqr5ExYuhTJ+0a1zWxv0oKZ/lsfdC0adb1FKowSBJ8GKUKEJHrJ
-lWaWN3M2G14mv98TnGUOBecT0J5m/aDvBngxzcT881fuWfGlCEM+qs8YiHWrob8S
-RevzniBzqTpt+9lvXhyST/0i4gGrBe6d+aTS2EGxjYLFC6b9PFUcktZ/zlujWwuE
-I9+E/CMCjfobu02dVItDOl5NzyXku69gNLPzxtLuoWOH9oDO9p8xeZvHRdlUK3AP
-dwdOTfGJZSFs5KoaaaZl8R7hZWOyJE3Qy5o/RFqZNWaqOykNRBK3tXpFuHYeAbTz
-jUIKeJXduTjr+WEDQbrGR4ye6HR/Nw==
-=rHEN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkMhxEACgkQJNaLcl1U
+h9DWkAf/RI6OGxHRZoOyIAs+Radxiyn/GQmN5q8Clq9ZRlrVotbLQ+wGjsSQEE5S
+Dzp03ybUEI9RpDA/PaK6fgaE0XR5HfTyZ2ASIA0A6dsGKFHjtPGU4lAJZJ3ZhQha
+OeDbVd8e9Hgf01Vd8bILe5RoGrpZ3LujmYLrzicv6aHIMuGa2XYJdhHf4TBceTQv
+KQqo8kw3fW86033OTCNe1PaQ9KmgZ0up1U0YRMDEFXFp22mxVtktth84GQI8lvoJ
+yz7vdB83yX6CX1aXZFonjEpMFBICs6FkG7Dh4XfDoFslHmn6u8QYhYHVcVrKq01k
+hBK7Qlg9ZCI/1R8goTvr6VdyXsi/EQ==
+=wY8r
 -----END PGP SIGNATURE-----
 
---===============2495998336432922650==
+--===============2277948653480831000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -345,7 +345,7 @@ bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of 
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
 3cd2018e15b3d66d2187d92867e265f45ad79e6f spi: Try to get ACPI GPIO IRQ earlier
 
---===============2495998336432922650==
+--===============2277948653480831000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1323,4 +1323,4 @@ b4e002d8a7cee3b1d70efad0e222567f92a73000 spi: tegra210-quad: Fix timeout handlin
 8b6faa7fddf0ae69c5f1a9315a64edee6f022037 spi: tegra210-quad: Improve timeout handling under
 2f538ef9f6f7c3d700c68536f21447dfc598f8c8 spi: aspeed: Use devm_iounmap() to unmap devm_ioremap() memory
 
---===============2495998336432922650==--
+--===============2277948653480831000==--
