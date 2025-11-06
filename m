@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7844561421023887986=="
+Content-Type: multipart/mixed; boundary="===============6986129552430109361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Nov 2025 23:51:03 -0000
-Message-Id: <176247306312.405005.1221292809501462076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 06 Nov 2025 23:51:12 -0000
+Message-Id: <176247307227.405222.15768316260844694627@gitolite.kernel.org>
 
---===============7844561421023887986==
+--===============6986129552430109361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 84f5526e4dce0a44d050ceb1b1bf21d43016d91b
-    new: 3dc8c73365d3ca25c99e7e1a0f493039d7291df5
+  - ref: refs/heads/for-6.19
+    old: 1044821176a64a8dc7f861e878506cde34c8b658
+    new: 6bd1ad97eb790570c167d4de4ca59fbc9c33722a
     log: |
-         3dc8c73365d3ca25c99e7e1a0f493039d7291df5 ASoC: codecs: va-macro: fix resource leak in probe error path
+         6bd1ad97eb790570c167d4de4ca59fbc9c33722a regulator: pf9453: Fix kernel doc for mux_poll()
          
 
---===============7844561421023887986==
+--===============6986129552430109361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762473128 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1762473060-f6e6676c0638726a43317f4a3bf0d82ee5ba4e24
+pusher C3F436CA30F5D8EB 1762473138 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1762473070-95f5c3b075a004fada923201e1dc7d4e75297075
 
-84f5526e4dce0a44d050ceb1b1bf21d43016d91b 3dc8c73365d3ca25c99e7e1a0f493039d7291df5 refs/heads/asoc-6.18
+1044821176a64a8dc7f861e878506cde34c8b658 6bd1ad97eb790570c167d4de4ca59fbc9c33722a refs/heads/for-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkNNKgACgkQJNaLcl1U
-h9CKYQf+IrXjJaEo8O91+RULbCyYwv+HlPmIJ6W507OawfRbcvYqFxjLEP9CdOWz
-uTPW/dR6t3i2QurAIpNgkariQsH4blVewM6tKSyCr1pyUnAyzFSSvNpLr6RvEWda
-AO9VLuqeAPn5ukAhRbcI6gvtdIwJJGSxKmf0Lop46LdIVnhjLkOAti4z7ux77/2j
-AY6Li6PSphzW598Y36AidbJqYRVCDEf+dOsibPlKa/Qk8CGpErniCjyDaPwe5BNw
-JYM+NdNwO22nJCwb9M+OuJO9F+xZ2DrDbWn/JBC3Dr/nXg017IEcFmfLgQNm14qe
-RggkhqbsNC2i5rtpiF4H/0MPJvEvBA==
-=CXHN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkNNLIACgkQJNaLcl1U
+h9A5qwf7BKm5nkvZYwlKMBWYuK7GqKvCCv/heASwgCXN1i9pNN/SLqfjd/k4rDPF
+r3pd9W2sKFOlPI+2aetfDHwqEorZpkXQHraxzdwpYuA6cufhKYHQzrh5yDY9JpAm
+gkDx3XHBjeOdnqg/Jt/fJqHS5qy26bNqXdv31e+zBlOt3fLidYx+uoyjnAcHQ4Tp
+zXd5S7TFRNOOW29KyuoztarZz1/UtvFl/lK8HQDuWTsuwEdOcJ644fotUw0Y9quK
+GChe3A69xEVqxJzd8IDNHP2x44SavnEIh7GMxN9uCTeeOvogLKudLWgQco0pQQ9d
+ZzHkz+aqnng2KRdXGf1DPRn1FTB6qg==
+=1GF3
 -----END PGP SIGNATURE-----
 
---===============7844561421023887986==--
+--===============6986129552430109361==--
