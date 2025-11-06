@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 06 Nov 2025 23:15:18 -0000
-Message-Id: <176247091812.372804.17722636237477074338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 06 Nov 2025 23:24:32 -0000
+Message-Id: <176247147276.379401.11232726993326739136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: 14f868fd141a3b2f9664bfb25911e1fe8d35c6a6
-    new: ec5819b882813d7f55d91f829bd586e640891d20
+    old: b54a8e130c0204330de0787d81b28d2a0c9dc871
+    new: 6f1f4c1638fe95637a43699892c036c9ae908d9a
     log: |
-         ec5819b882813d7f55d91f829bd586e640891d20 github/stale: Fix not removing stale tag when an issue is updated
+         38e36514fcb01ff1cce84cd77a93906f233a4cb8 selftests/bpf: Systematically add SO_REUSEADDR in start_server_addr
+         5b7d6c91986e98b4cab5d1f7bdcf392a42d1057b selftests/bpf: Use start_server_str rather than start_reuseport_server in tc_tunnel
+         6f1f4c1638fe95637a43699892c036c9ae908d9a Merge branch 'selftests-bpf-enfoce-so_reuseaddr-in-basic-test-servers'
          
