@@ -1,43 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2776817817375655306=="
+Content-Type: multipart/mixed; boundary="===============3050112322670320808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 06 Nov 2025 01:54:57 -0000
-Message-Id: <176239409721.3427639.7695440859207752364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 06 Nov 2025 01:57:00 -0000
+Message-Id: <176239422070.3430116.16207390012976779578@gitolite.kernel.org>
 
---===============2776817817375655306==
+--===============3050112322670320808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 4cb4897bb49a4caf4246c72c24b743d44e7f52d5
-    new: b54a8e130c0204330de0787d81b28d2a0c9dc871
-    log: revlist-4cb4897bb49a-b54a8e130c02.txt
+    old: 17d85f33a83b84e7d36bc3356614ae06c90e7a08
+    new: dc77806cf3b4788d328fddf245e86c5b529f31a2
+    log: revlist-17d85f33a83b-dc77806cf3b4.txt
 
---===============2776817817375655306==
+--===============3050112322670320808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cb4897bb49a-b54a8e130c02.txt
+Content-Disposition: attachment; filename=revlist-17d85f33a83b-dc77806cf3b4.txt
 
-b4ce5923e780d6896d4aaf19de5a27652b8bf1ea bpf, x86: add new map type: instructions array
-18a187bf258421b3d7c0ba32b2e1fde2fdf0f112 bpftool: Recognize insn_array map type
-cbef91de0271b3d0c965a9eee5c33d49db24cd20 libbpf: Recognize insn_array map type
-218edd6db6b984d09d9965553b1742f42138754b selftests/bpf: add selftests for new insn_array map
-30ec0ec09bf53e3309c02e79dc325a4d1244bd4b bpf: support instructions arrays with constants blinding
-ae48162a667b79fba19296e5f2ee4d6602c809f5 selftests/bpf: test instructions arrays with blinding
-5bef46ac9c574d6d37d53dd802f7dbf677141fc2 bpf, x86: allow indirect jumps to r8...r15
-493d9e0d608339a32f568504d5fd411a261bb0af bpf, x86: add support for indirect jumps
-bc414d35831bffae725b249c8650669ed100e5f7 bpf: disasm: add support for BPF_JMP|BPF_JA|BPF_X
-dd3fd3c965595a3ae8f4d70df6c42931b2fdfd24 libbpf: support llvm-generated indirect jumps
-ccbdb48ce5cd50733578c20b0c6860666c3d2a69 selftests/bpf: add new verifier_gotox test
-ac4d838ce122324b327f69d6de97c96442fcc6ba selftests/bpf: add C-level selftests for indirect jumps
-b54a8e130c0204330de0787d81b28d2a0c9dc871 Merge branch 'bpf-indirect-jumps'
+512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
+c90fad3e4157f943b6d5842d3ceb20b32e566986 media: ivtv: Fix invalid access to file *
+7df699c2132f36359f8f79e6a163c3b3fe0b0e3d media: v4l2-subdev / pdx86: int3472: Use "privacy" as con_id for the privacy LED
+758dbc756aad429da11c569c0d067f7fd032bcf7 media: uvcvideo: Use heuristic to find stream entity
+27afd6e066cfd80ddbe22a4a11b99174ac89cced media: videobuf2: forbid remove_bufs when legacy fileio is active
+f0f7a3f542c1698edb69075f25a3f846207facba platform/x86: int3472: Fix double free of GPIO device during unregister
+7f7d28c69eda3692bcf102b7096b93fd45c75b1d MAINTAINERS: Update int3472 maintainers
+8f3eaad9812f62e7006ad08602444b32c3101824 Input: Add keycodes for electronic privacy screen on/off hotkeys
+4173edb076b3ae30d734d55fce0ebac63139b656 platform/x86: dell-wmi-base: Handle electronic privacy screen on/off events
+bd34bf518a5ffeb8eb7c8b9907ba97b606166f7b platform: x86: Kconfig: fix minor typo in help for WIRELESS_HOTKEY
+ff4d2ef3874773c9c6173b0f099372bf62252aaf rust: devres: fix private intra-doc link
+09b1704f5b02c18dd02b21343530463fcfc92c54 rust: condvar: fix broken intra-doc link
+16c43a56b79e2c3220b043236369a129d508c65a rust: kbuild: treat `build_error` and `rustdoc` as kernel objects
+fad472efab0a805dd939f017c5b8669a786a4bcf rust: kbuild: workaround `rustdoc` doctests modifier bug
+789521b4717fd6bd85164ba5c131f621a79c9736 rust: kbuild: support `-Cjump-tables=n` for Rust 1.93.0
+284922f4c563aa3a8558a00f2a05722133237fe8 x86: uaccess: don't use runtime-const rewriting in modules
+1c353dc8d962de652bc7ad2ba2e63f553331391c Merge tag 'media/v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+5624d4c3781673da84e6144c359803ca31b66214 Merge tag 'platform-drivers-x86-v6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+dc77806cf3b4788d328fddf245e86c5b529f31a2 Merge tag 'rust-fixes-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 
---===============2776817817375655306==--
+--===============3050112322670320808==--
