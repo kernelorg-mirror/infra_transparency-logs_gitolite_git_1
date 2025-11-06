@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3080097775514725557=="
+Content-Type: multipart/mixed; boundary="===============6083568121810560664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 06 Nov 2025 16:52:29 -0000
-Message-Id: <176244794934.4189760.16607664206146531952@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 16:52:31 -0000
+Message-Id: <176244795174.4189931.14922074404051357540@gitolite.kernel.org>
 
---===============3080097775514725557==
+--===============6083568121810560664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: e120f46768d98151ece8756ebd688b0e43dc8b29
     new: 3534e03e0ec2e00908765549828a69df5ebefb91
     log: revlist-e120f46768d9-3534e03e0ec2.txt
 
---===============3080097775514725557==
+--===============6083568121810560664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ ee87c63f9b2a418f698d79c2991347e31a7d2c27 net: bridge: fix MST static key usage
 13fef4fb0536c80e8c4a77e69fe0b5deeb7c331b Merge branch 'net-bridge-fix-two-mst-bugs'
 3534e03e0ec2e00908765549828a69df5ebefb91 selftests/vsock: avoid false-positives when checking dmesg
 
---===============3080097775514725557==--
+--===============6083568121810560664==--
