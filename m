@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3850238674128169562=="
+Content-Type: multipart/mixed; boundary="===============8604175636610702910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Nov 2025 23:51:19 -0000
-Message-Id: <176247307965.405400.13656644475376068713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 06 Nov 2025 23:51:28 -0000
+Message-Id: <176247308836.405637.1331855713662706051@gitolite.kernel.org>
 
---===============3850238674128169562==
+--===============8604175636610702910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.19
-    old: 1044821176a64a8dc7f861e878506cde34c8b658
-    new: 6bd1ad97eb790570c167d4de4ca59fbc9c33722a
+  - ref: refs/heads/for-6.18
+    old: 3cd2018e15b3d66d2187d92867e265f45ad79e6f
+    new: 86d57d9c07d54e8cb385ffe800930816ccdba0c1
     log: |
-         6bd1ad97eb790570c167d4de4ca59fbc9c33722a regulator: pf9453: Fix kernel doc for mux_poll()
+         86d57d9c07d54e8cb385ffe800930816ccdba0c1 spi: imx: keep dma request disabled before dma transfer setup
          
 
---===============3850238674128169562==
+--===============8604175636610702910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762473145 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1762473077-fda760ea4b22537804e0bac89100285c3c368406
+pusher C3F436CA30F5D8EB 1762473154 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1762473086-0c6e24fde446cd811f519f710f97c281c4cd4357
 
-1044821176a64a8dc7f861e878506cde34c8b658 6bd1ad97eb790570c167d4de4ca59fbc9c33722a refs/heads/regulator-6.19
+3cd2018e15b3d66d2187d92867e265f45ad79e6f 86d57d9c07d54e8cb385ffe800930816ccdba0c1 refs/heads/for-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkNNLkACgkQJNaLcl1U
-h9A/zQf+P5gnMHhraJ5NtB2Wt9R270LtsdX5tJ+EeZvbCju1PzdZcno1n4QDaTiv
-RzXck52a6R/6KwEn4NzOEGFgVQ7IGwDDxhUQLVY1AQR/SB7v3OKhfU8mOcM5WMNp
-FsIZZUncYqIh+a9PXmdZW/nxjopWqnDcFQGPRLIz6RIe2bJICTvil/bGRYgdL2gj
-pIIO6XVyghu0TRbHq1awDJyLeoISNNOGuoM2obehrxh7u4UdWNaeZu8m4oTAV1oB
-kqtaLuLlBkwU3LtyKzpeUQypuD1e+t3jya6Gqm8Ice4cQTYFTdVoRfHI3LHVLwyU
-nMRyvqqfldWeKEYQYMrW0jvejyci/Q==
-=4yYe
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkNNMIACgkQJNaLcl1U
+h9BD+Af9FnYwYzQwJKfXp17cuynCBwGPnnB/cNG0oG9rj6pGjq+Xt2POJTxAvI7w
+170a/xSHkJqBP3EsCJf6UaZ6dfVauPk8SIjZVHyJVe8T5fncOkXsrZQRHKLCSgNr
+6qiWzccnp8HKcpcae7UGx0noWIcN0O5qJWNYAoGsRFI7RULQRw+cs9VygRvB6EER
+RazEU1X4nlQX4n89YkVX8KyL7lTHASthRQuncBk2PDJsARpirpxQ7L8j2cxAlDxJ
+MlrgbDP1//z2Qg0W6VBbKrz9sPeKgBQfHGxBk2CAGBm8VA/LU256ihx3uQ73kJyK
+8XN3DamXeWnkWWdtS52zzkxagC3BDA==
+=li4P
 -----END PGP SIGNATURE-----
 
---===============3850238674128169562==--
+--===============8604175636610702910==--
