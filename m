@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3438058447621991098=="
+Content-Type: multipart/mixed; boundary="===============3080097775514725557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 06 Nov 2025 16:52:26 -0000
-Message-Id: <176244794694.4189680.7251449975872130709@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 16:52:29 -0000
+Message-Id: <176244794934.4189760.16607664206146531952@gitolite.kernel.org>
 
---===============3438058447621991098==
+--===============3080097775514725557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: 023706bf0514e288fc7d26fdf5a13801c8bb499a
+  - ref: refs/heads/40GbE
+    old: e120f46768d98151ece8756ebd688b0e43dc8b29
     new: 3534e03e0ec2e00908765549828a69df5ebefb91
-    log: revlist-023706bf0514-3534e03e0ec2.txt
+    log: revlist-e120f46768d9-3534e03e0ec2.txt
 
---===============3438058447621991098==
+--===============3080097775514725557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-023706bf0514-3534e03e0ec2.txt
+Content-Disposition: attachment; filename=revlist-e120f46768d9-3534e03e0ec2.txt
 
 9222582ec524707fbb9d076febead5b6a07611ed Revert "wifi: ath12k: Fix missing station power save configuration"
 c3838262b824c71c145cd3668722e99a69bc9cd9 virtio_net: fix alignment for virtio_net_hdr_v1_hash
@@ -58,4 +58,4 @@ ee87c63f9b2a418f698d79c2991347e31a7d2c27 net: bridge: fix MST static key usage
 13fef4fb0536c80e8c4a77e69fe0b5deeb7c331b Merge branch 'net-bridge-fix-two-mst-bugs'
 3534e03e0ec2e00908765549828a69df5ebefb91 selftests/vsock: avoid false-positives when checking dmesg
 
---===============3438058447621991098==--
+--===============3080097775514725557==--
