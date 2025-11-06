@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6887095216460768842=="
+Content-Type: multipart/mixed; boundary="===============0497587264676077853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 06 Nov 2025 17:05:03 -0000
-Message-Id: <176244870310.9767.8765057612723454718@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 17:05:09 -0000
+Message-Id: <176244870975.10246.6124110344115740112@gitolite.kernel.org>
 
---===============6887095216460768842==
+--===============0497587264676077853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/100GbE
     old: 255d75ef029f33f75fcf5015052b7302486f7ad2
     new: 13068e9d57264d0a86b8195817a01155ba33d230
     log: revlist-255d75ef029f-13068e9d5726.txt
 
---===============6887095216460768842==
+--===============0497587264676077853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -178,4 +178,4 @@ f47b0c11829ac4dcb73caa899bcde37d9a9c7c89 Merge branch 'amd-xgbe-introduce-suppor
 0cc4b846159184892f4210c440daeb97cbe9583a s390/ctcm: Use info level for handshake UC_RCRESET
 13068e9d57264d0a86b8195817a01155ba33d230 idpf: add support for IDPF PCI programming interface
 
---===============6887095216460768842==--
+--===============0497587264676077853==--
