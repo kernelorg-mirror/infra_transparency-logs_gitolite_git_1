@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Nov 2025 15:30:11 -0000
-Message-Id: <176244301124.4114813.14865945299621355336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 06 Nov 2025 15:32:56 -0000
+Message-Id: <176244317699.4116225.15224688789938717463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 96baf482ca1f69f0da9d10a5bd8422c87ea9039e
-    new: 067bf016e99ad72aa4ff869d6dec1fd62a9c6202
+  - ref: refs/heads/ath-next
+    old: 2f6adeaf92c4ea4adf5a91b87497ba13bb057996
+    new: 2977567b244f056d86658160659f06cd6c78ba3d
     log: |
-         067bf016e99ad72aa4ff869d6dec1fd62a9c6202 bonding: fix NULL pointer dereference in actor_port_prio setting
+         bd6ec8111e6546d01f16bb113aee1fcada6e86a9 wifi: ath12k: Make firmware stats reset caller-driven
+         2977567b244f056d86658160659f06cd6c78ba3d wifi: ath12k: Fix timeout error during beacon stats retrieval
          
