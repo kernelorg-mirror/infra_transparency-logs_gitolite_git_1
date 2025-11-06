@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5912600045124211313=="
+Content-Type: multipart/mixed; boundary="===============8775934529556276276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 06 Nov 2025 16:52:59 -0000
-Message-Id: <176244797933.4191044.9469378842094010596@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 16:53:17 -0000
+Message-Id: <176244799702.4191310.10550706759554487177@gitolite.kernel.org>
 
---===============5912600045124211313==
+--===============8775934529556276276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 255d75ef029f33f75fcf5015052b7302486f7ad2
-    new: 13068e9d57264d0a86b8195817a01155ba33d230
-    log: revlist-255d75ef029f-13068e9d5726.txt
+  - ref: refs/heads/dev-queue
+    old: c5acd2847bb5371988d6b5c165b0776967cc7da2
+    new: 0673bc27e712567ea34c2c707c0abab6de4815c2
+    log: revlist-c5acd2847bb5-0673bc27e712.txt
 
---===============5912600045124211313==
+--===============8775934529556276276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-255d75ef029f-13068e9d5726.txt
+Content-Disposition: attachment; filename=revlist-c5acd2847bb5-0673bc27e712.txt
 
 4077d7fb27be990a8ddcff9b49f7e1788a960f3a wifi: wcn36xx: Remove unused wcn36xx_smd_update_scan_params
 f35a07a4842a88801d9182b1a76d178bfa616978 wifi: ath10k: move recovery check logic into a new work
@@ -177,5 +177,44 @@ d7735c6bb2310f7ca8235af7f946e6c8716cdb5e amd-xgbe: add ethtool split header self
 f47b0c11829ac4dcb73caa899bcde37d9a9c7c89 Merge branch 'amd-xgbe-introduce-support-for-ethtool-selftests'
 0cc4b846159184892f4210c440daeb97cbe9583a s390/ctcm: Use info level for handshake UC_RCRESET
 13068e9d57264d0a86b8195817a01155ba33d230 idpf: add support for IDPF PCI programming interface
+1d0394a979b6938d47c8a6cb7156a609607eb757 ice: Fix enable_cnt imbalance on resume
+b56c8ba26d6d82d33a0cd5d66b8f1094aa63ea9e ice: Fix enable_cnt imbalance on PCIe error recovery
+36224bfc64d469a39cd291a1207474408ae25d42 i40e: Fix enable_cnt imbalance on PCIe error recovery
+b4b40adb69aec8a2ab1d24f172a64cd1f179e3e4 ice: add recovery clock and clock 1588 control for E825c
+0f7b7dab721573593d6acc8c5fb8de203a65ffb3 idpf: fix memory leak of flow steer list on rmmod
+950471518fb58d7080b7e9df85db7b40d389ceb1 idpf: fix issue with ethtool -n command display
+c961c3f42a6f05739587a5146386e3443281b1a9 ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
+804e1829aa8cc1633fb3d5d2172ae31d9ed8af8f ice: add TS PLL control for E825 devices
+cb8d21ce675bf7b4232a5c4e778fcc8d56b14581 idpf: fix possible vport_config NULL pointer deref in remove
+b3389b16a9bfe11eb4b13bf65706a94541e40572 libie: depend on DEBUG_FS when building LIBIE_FWLOG
+f69c1412371e90d7d6bb18049d1179bba3a362af ixgbe: Add 10G-BX support
+5abb14771eebef92925e3f4e34a368878c7e74c2 ice: fix PTP cleanup on driver removal in error path
+78244287bae925da3e9ee4a8ab69ab2cf75dbbe3 ice: unify PHY FW loading status handler for E800 devices
+7bcb410f863823b86e3dfbfd5994479abda3944f idpf: convert vport state to bitmap
+9eab368886a6d00df84d3cbffcb65f646c5f5a78 idpf: introduce local idpf structure to store virtchnl queue chunks
+e5a4360645cf4af1eab1b65a195dbe7d41dd1858 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+b77e1506444d2c390e61683165bb5655df5751e4 idpf: move queue resources to idpf_q_vec_rsrc structure
+0078e148e59d9f6d48e97c392d52508c3106c9e6 idpf: move some iterator declarations inside for loops
+454d2587ff5d14db0392decff4d7fb98fc15edac idpf: reshuffle idpf_vport struct members to avoid holes
+48daf55b57d3b0f0406741b4d019b41af5ec5a1c idpf: add rss_data field to RSS function parameters
+2853f2bfbbb450b352acd224380d1928e45d692a idpf: remove vport pointer from queue sets
+2352a4867f604d7c179d14118f5b60321010d069 idpf: generalize send virtchnl message API
+9582b388165bcbbbe9f2011b63d189202ac3fb90 idpf: avoid calling get_rx_ptypes for each vport
+a7f09d37a6a552d7359cb56b40cdeb2403049299 idpf: generalize mailbox API
+2fad0d654ab2564c95777450373e378b2c5cfce2 idpf: correct queue index in Rx allocation error messages
+c693d5b3c70590fedaf63ba40672a01d3f1741ee devlink: Add new "max_mac_per_vf" generic device param
+00be8045d3dff9c88d281be2761060ec25ef3c4c i40e: support generic devlink param "max_mac_per_vf"
+67e58d856dbde8abfc0f5b481c8cfd15e6a78f6d ice: add support for unmanaged DPLL on E830 NIC
+0ba3453e59356da1950b0614ffcda6cf12317376 ice: add flow parsing for GTP and new protocol field support
+591f2ce3d6e92907d0548f953d4cde4243747bc2 ice: add virtchnl definitions and static data for GTP RSS
+ef122ffc8b6d2d1e36129c300fe1bfb78ed763b2 ice: implement GTP RSS context tracking and configuration
+e6cf134c4a68aa50b5584ca1a19f09346486e36b ice: improve TCAM priority handling for RSS profiles
+9111b3011c1d223ba6b8dfcdf3a07a5b23118dee ice: Extend PTYPE bitmap coverage for GTP encapsulated flows
+e8bdf3e3ef2f5150adb965379ec541f663ec7a13 iavf: add RSS support for GTP protocol via ethtool
+8104c2a649852738c324390a88940359507df7b5 iavf: fix off-by-one issues in iavf_config_rss_reg()
+59e532f653e41d6f201bca6ad5303e3c585ee0db igc: prepare for RSS key get/set support
+90f7de4d63d2dbdfb95e40623313285cce52d40b igc: expose RSS key via ethtool get_rxfh
+10e5c12ea22d5fb89ba01e900b5bc07a2038d941 igc: allow configuring RSS key via ethtool set_rxfh
+0673bc27e712567ea34c2c707c0abab6de4815c2 ice: use netif_get_num_default_rss_queues()
 
---===============5912600045124211313==--
+--===============8775934529556276276==--
