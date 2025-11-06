@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 06 Nov 2025 23:52:27 -0000
-Message-Id: <176247314711.406964.12499680177249901181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 06 Nov 2025 23:52:40 -0000
+Message-Id: <176247316036.407263.6812904688286338835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: dd5a1d090f18669cb9ad753bd16bce4b754e3106
-    new: 8c5410cd9198431480bfd8927e97c4cb430747f2
+  - ref: refs/heads/for-linus
+    old: 3cd2018e15b3d66d2187d92867e265f45ad79e6f
+    new: 86d57d9c07d54e8cb385ffe800930816ccdba0c1
     log: |
-         40a7c5db9020079547358f486ef12d57c1a7aa1f dt-bindings: regulator: Document MediaTek MT6316 PMIC Regulators
-         a87a7b3530728fb7477a74c27fc27e060bf5684f regulator: Add support for MediaTek MT6316 SPMI PMIC Regulators
-         d0f9f5b7a3356b43f78b37b9cc3671ecc7469356 dt-bindings: regulator: Document MediaTek MT6363 PMIC Regulators
-         3c36965df80801344850388592e95033eceea05b regulator: Add support for MediaTek MT6363 SPMI PMIC Regulators
-         1044821176a64a8dc7f861e878506cde34c8b658 Add support MT6316/6363/MT6373 PMICs regulators
-         6bd1ad97eb790570c167d4de4ca59fbc9c33722a regulator: pf9453: Fix kernel doc for mux_poll()
-         8c5410cd9198431480bfd8927e97c4cb430747f2 Merge remote-tracking branch 'regulator/for-6.19' into regulator-next
+         86d57d9c07d54e8cb385ffe800930816ccdba0c1 spi: imx: keep dma request disabled before dma transfer setup
+         
+  - ref: refs/heads/for-next
+    old: 6fc9bea28af18c77440e66b93b1c58add20cb81d
+    new: 043224ffae9d9fef50bdf035f448055d6031f5ac
+    log: |
+         86d57d9c07d54e8cb385ffe800930816ccdba0c1 spi: imx: keep dma request disabled before dma transfer setup
+         55d03b5b5bdd04daf9a35ce49db18d8bb488dffb spi: imx: remove CLK calculation and check for target mode
+         043224ffae9d9fef50bdf035f448055d6031f5ac Merge remote-tracking branch 'spi/for-6.19' into spi-next
          
