@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 06 Nov 2025 14:22:35 -0000
-Message-Id: <176243895582.4053992.2790685660331121877@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 14:23:11 -0000
+Message-Id: <176243899115.4054366.15149923567676844999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 020d5dc57874e58d3ebae398f3fe258f029e3d06
-    new: c1287d67c3a91aa19e4d9bbd3ad943cfbfa6bed4
+  - ref: refs/heads/for-next
+    old: c23f812adcb9c793b94c92019f554a8622238bed
+    new: 85c8904db33896ac2ef435bd13952f475084da89
     log: |
          73c4b5d728265a6b019c3aba6d7ea2329ca4785a s390: Add Dat-Enhancement facility 1 to architecture level set
          220d8e10d69a30db7d9cbd0d3483a739768ed16c s390/mm: Remove cpu_has_idte()
@@ -24,7 +24,6 @@ changes:
          eb3a9b405b85e872d6f3dac427b7faa01e7e724e s390/smp: Mark pcpu_delegate() and smp_call_ipl_cpu() as __noreturn
          8840cc45209b3224cb17a44c0ff4f95760baf761 s390/hiperdispatch: Decrease steal time threshold
          c1287d67c3a91aa19e4d9bbd3ad943cfbfa6bed4 s390/sclp_mem: Consider global memory_hotplug.memmap_on_memory setting
+         3fa32e7af9fae53088a7e649e6f2740ba2233e45 Merge branch 'fixes' into for-next
+         85c8904db33896ac2ef435bd13952f475084da89 Merge branch 'features' into for-next
          
-  - ref: refs/heads/dat-enhancement-1
-    old: 0000000000000000000000000000000000000000
-    new: 68807a894f0c1cb294a568d8e53c1a77ceaf0c6f
