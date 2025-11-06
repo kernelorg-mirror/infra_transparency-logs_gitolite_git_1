@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Nov 2025 15:15:07 -0000
-Message-Id: <176244210737.4101380.6297787371703715064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 06 Nov 2025 15:29:11 -0000
+Message-Id: <176244295140.4112337.3601422656961945385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 7d1988a943850c584e8e2e4bcc7a3b5275024072
-    new: 96baf482ca1f69f0da9d10a5bd8422c87ea9039e
+  - ref: refs/heads/ath-current
+    old: 4c740c4d8bac5569c5bf5f86db65ce779178f9a2
+    new: 9065b968752334f972e0d48e50c4463a172fc2a7
     log: |
-         96baf482ca1f69f0da9d10a5bd8422c87ea9039e net: dsa: microchip: Fix reserved multicast address table programming
+         9065b968752334f972e0d48e50c4463a172fc2a7 wifi: ath11k: zero init info->status in wmi_process_mgmt_tx_comp()
          
