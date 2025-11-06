@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 06 Nov 2025 14:05:30 -0000
-Message-Id: <176243793078.4039300.1275427719740739401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 06 Nov 2025 14:05:37 -0000
+Message-Id: <176243793746.4039527.8678707406311918841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/main
-    old: 0567c84d683d1f38dc41928eec786ec5c02bf7b4
-    new: f47b0c11829ac4dcb73caa899bcde37d9a9c7c89
+  - ref: refs/heads/sched/core
+    old: 6c654c168e65f060f6bbc0efb12ed80f55b01d4d
+    new: dc45c4d57d798058ab59df5e0e891e640011b218
     log: |
-         6b47af35a6dded074ff583361f6d6668dd7a401d net: selftests: export packet creation helpers for driver use
-         862a64c83faf7708e7e79498193ff5270543a68d amd-xgbe: introduce support ethtool selftest
-         42b06fcc878d08785a0c44d2af42c8db453487e2 amd-xgbe: add ethtool phy loopback selftest
-         d7735c6bb2310f7ca8235af7f946e6c8716cdb5e amd-xgbe: add ethtool split header selftest
-         9c11b6b1abcd328136fc0cbc381734d6815d1c16 amd-xgbe: add ethtool jumbo frame selftest
-         f47b0c11829ac4dcb73caa899bcde37d9a9c7c89 Merge branch 'amd-xgbe-introduce-support-for-ethtool-selftests'
+         367d4a010c97bd0cfebf7c7c372b9e9aa92aa046 sched/proxy: Yield the donor task
+         aadf16d34efc3e91db1e53048552c0a8af781fd5 sched/core: Optimize core cookie matching check
+         5867d65647b93b12a0c037432461602eed6b272c sched/core: Add comment explaining force-idle vruntime snapshots
+         dc561bca2ae9e4784fdac313796ff0e44eb1cb7a sched/eevdf: Fix min_vruntime vs avg_vruntime
+         7d8a2649025dffdbd3adaad5836b7d9c4d6b290a sched/core: Remove double update_rq_clock() in __set_cpus_allowed_ptr_locked()
+         150aa026301bb388b02c0250a1edafabe0e0230b sched/deadline: Fix dl_server time accounting
+         35178725403f78279e181851522c55a292dd80d6 sched/deadline: Fix dl_server stop condition
+         dc45c4d57d798058ab59df5e0e891e640011b218 sched/deadline: Document dl_server
          
