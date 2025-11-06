@@ -1,51 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1445148424156754878=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 06 Nov 2025 07:12:30 -0000
-Message-Id: <176241315013.3691309.6596945553600027728@gitolite.kernel.org>
-
---===============1445148424156754878==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 06 Nov 2025 07:22:55 -0000
+Message-Id: <176241377500.3700052.9630591101010554211@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: 136fe0cba6aca506f116f7cbd41ce1891d17fa85
-    new: c379b745e12a99f0a54bafaaf75fc710614511ce
+  - ref: refs/heads/wip/leon-for-next
+    old: 3626f29cea23480a34a79d4b649770274cb5d904
+    new: 512c83265796d613f21255c766839eaed1c1cc79
     log: |
-         c379b745e12a99f0a54bafaaf75fc710614511ce slab: prevent infinite loop in kmalloc_nolock() with debugging
+         da58d4223b1690dd47652aa4b5227f39ab139b76 RDMA/irdma: Take a lock before moving SRQ tail in poll_cq
+         f673fb3449fcd8afdd7f67277217a93b2fcba435 RDMA/core: RDMA/mlx5: replace use of system_unbound_wq with system_dfl_wq
+         e60c5583b661da65b09bfd6ae91126607397490e RDMA/core: WQ_PERCPU added to alloc_workqueue users
+         5f93287fa9d0db9bad0251e526dead4aed448288 hfi1: WQ_PERCPU added to alloc_workqueue users
+         5267feda50680c73e33b118dbebfb961d6a864bd RDMA/mlx4: WQ_PERCPU added to alloc_workqueue users
+         7196156b0ce3dc4cdbda5c09897708b2e1081de1 IB/rdmavt: WQ_PERCPU added to alloc_workqueue users
+         512c83265796d613f21255c766839eaed1c1cc79 IB/rdmavt: rdmavt_qp.h: clean up kernel-doc comments
          
-
---===============1445148424156754878==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1762413214 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1762413145-4837df064b2d9dd188fdea0bac380217f3ed4734
-
-136fe0cba6aca506f116f7cbd41ce1891d17fa85 c379b745e12a99f0a54bafaaf75fc710614511ce refs/heads/slab/for-next-fixes
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkMSp4bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaUVUH/jQAhp3F2NlpM18uItWw
-wdGo6NNgA+EcTXLezIkC33WloM04C+56KvTl6GfE7kSLooVVbeM2YzWIPb0sHqiu
-a4cbpGvWgqzyKuU/VFXsLQ7FD44aGcoggYRiyiqyKvS8iRnImxCTMepkBgqFPIuO
-UnlchwoqM74eyn2WbknEvFOEK50yrZeKlTEmeuiegO+VdPSE8aSmSBBIYgs0O5zy
-858kI2lv7ixiL++XR4Of6oiT2AQ9aeNf/YJMPlvhecNRZcsGhQsHuflPbb1V+DW6
-7i/jsITX48WtOEHDx6DsKegBDInarcDnGSHLTnlz0Ty94HFNUYuVAHnFSL1vhx7T
-Ffo=
-=1/Ok
------END PGP SIGNATURE-----
-
---===============1445148424156754878==--
