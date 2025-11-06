@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 06 Nov 2025 22:23:45 -0000
-Message-Id: <176246782578.319823.14569598578189395756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 06 Nov 2025 22:24:01 -0000
+Message-Id: <176246784122.320671.14781975507475450399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-linus
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: a9225f034618643d411ce4f85bf4c48b86fe9aec
+  - ref: refs/tags/scsi-fixes
+    old: cf02dcc42cdc03077abde120113a2d71fdcc7f9d
+    new: 0925603fa696495c83270cb7170502d575a65e52
     log: |
-         6f35a75237114375e89299e4cc314cd2ad36b287 PCI/ASPM: Cache Link Capabilities so quirks can override them
-         a9225f034618643d411ce4f85bf4c48b86fe9aec PCI/ASPM: Avoid L0s and L1 on Freescale Root Ports
+         5127be409c6c3815c4a7d8f6d88043e44f9b9543 scsi: ufs: ufs-qcom: Fix UFS OCP issue during UFS power down (PC=3)
+         c74dc8ab47c1ec3927f63ca83b542c363249b3d8 scsi: ufs: core: Fix a race condition related to the "hid" attribute group
+         c0e37ac6a5d4c4bc33b9c4408d22714fe370a1b0 scsi: ufs: core: Reduce link startup failure logging
+         f838d624fd1183e07db86f3138bcd05fd7630a1e scsi: ufs: core: Revert "Make HID attributes visible"
+         bb44826c3bdbf1fa3957008a04908f45e5666463 scsi: ufs: ufs-pci: Fix S0ix/S3 for Intel controllers
+         d34caa89a132cd69efc48361d4772251546fdb88 scsi: ufs: core: Add a quirk to suppress link_startup_again
+         d968e99488c4b08259a324a89e4ed17bf36561a4 scsi: ufs: ufs-pci: Set UFSHCD_QUIRK_PERFORM_LINK_STARTUP_ONCE for Intel ADL
+         a2b32bc1d9e359a9f90d0de6af16699facb10935 scsi: ufs: core: Fix invalid probe error return value
          
