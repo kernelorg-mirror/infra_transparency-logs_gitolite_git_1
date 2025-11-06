@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 06 Nov 2025 07:22:55 -0000
-Message-Id: <176241377500.3700052.9630591101010554211@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 07:23:05 -0000
+Message-Id: <176241378516.3700307.11566399393600744261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 3626f29cea23480a34a79d4b649770274cb5d904
+  - ref: refs/heads/for-next
+    old: 0f68a4877a062cd227718eba95d552e0144b3fbf
     new: 512c83265796d613f21255c766839eaed1c1cc79
     log: |
          da58d4223b1690dd47652aa4b5227f39ab139b76 RDMA/irdma: Take a lock before moving SRQ tail in poll_cq
