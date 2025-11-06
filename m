@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 06 Nov 2025 23:04:00 -0000
-Message-Id: <176247024052.358973.7862296570198214229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 06 Nov 2025 23:05:18 -0000
+Message-Id: <176247031834.362743.15911155631556562352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: a992c95bb9d3a339b1463aa996efa838645daa57
-    new: b055b3e245423cbdce0a9f9e7b7768495bc01dc0
+  - ref: refs/heads/master
+    old: 654c4f5755e7ea4dafd34ec3b5498d3a961d1825
+    new: f82bc288a8d80042198b0c29fb82f283a7fd4d44
     log: |
-         95cd295ec62887a161f7cfc7a508ec7561d469af qcom: add SOCCP firmware for kaanapali platform
-         b055b3e245423cbdce0a9f9e7b7768495bc01dc0 Merge branch 'soccp-114' into 'main'
+         070ef3d7e96eb09c03a0c2b2a213fc436d4bb462 monitor: Decode Bluetooth 6.0 version
+         7fe16b6dfd1f05b75bdb6678a408dfd31533fce6 emulator: Add support for LL Extended Feature Set
+         69e5da687980ea29dd833887616f0e30d9c0b876 mgmt-tester: Add tests for 5.2 and 6.0 Bluetooth version
+         f82bc288a8d80042198b0c29fb82f283a7fd4d44 bass: Fix no setting state delegator IO is closed
          
