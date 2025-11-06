@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 06 Nov 2025 22:24:01 -0000
-Message-Id: <176246784122.320671.14781975507475450399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 06 Nov 2025 22:34:01 -0000
+Message-Id: <176246844119.329056.5467720096013011038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: cf02dcc42cdc03077abde120113a2d71fdcc7f9d
-    new: 0925603fa696495c83270cb7170502d575a65e52
+  - ref: refs/heads/main
+    old: c9098ec99f5565468a97b59729c0a4f3002b3756
+    new: a992c95bb9d3a339b1463aa996efa838645daa57
     log: |
-         5127be409c6c3815c4a7d8f6d88043e44f9b9543 scsi: ufs: ufs-qcom: Fix UFS OCP issue during UFS power down (PC=3)
-         c74dc8ab47c1ec3927f63ca83b542c363249b3d8 scsi: ufs: core: Fix a race condition related to the "hid" attribute group
-         c0e37ac6a5d4c4bc33b9c4408d22714fe370a1b0 scsi: ufs: core: Reduce link startup failure logging
-         f838d624fd1183e07db86f3138bcd05fd7630a1e scsi: ufs: core: Revert "Make HID attributes visible"
-         bb44826c3bdbf1fa3957008a04908f45e5666463 scsi: ufs: ufs-pci: Fix S0ix/S3 for Intel controllers
-         d34caa89a132cd69efc48361d4772251546fdb88 scsi: ufs: core: Add a quirk to suppress link_startup_again
-         d968e99488c4b08259a324a89e4ed17bf36561a4 scsi: ufs: ufs-pci: Set UFSHCD_QUIRK_PERFORM_LINK_STARTUP_ONCE for Intel ADL
-         a2b32bc1d9e359a9f90d0de6af16699facb10935 scsi: ufs: core: Fix invalid probe error return value
+         f2a23165093fdd528f20ac61b5b16f55b2e8a1d9 i915: Update GUC to v70.53.0 for DG2, MTL
+         9444af1a20eb24a39dba0eb0c511ee47c9d2631f xe: Update GUC to v70.53.0 for BMG, LNL, PTL
+         a992c95bb9d3a339b1463aa996efa838645daa57 Merge branch 'intel/guc-v70530' into 'main'
          
