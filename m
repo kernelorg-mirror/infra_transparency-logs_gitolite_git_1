@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 06 Nov 2025 15:57:35 -0000
-Message-Id: <176244465527.4138082.3644282690189619624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 06 Nov 2025 16:08:30 -0000
+Message-Id: <176244531058.4146570.3538757521303235133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: pratyush
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 604cf6a40157abba4677dea9834de8df9047d798
+  - ref: refs/heads/main
+    old: 5ee13398d73da0bfabc36a5d49cb3000d9e145e4
+    new: b8dde4754a29e7119cefd21f2f5c5d2a8a6026e0
     log: |
-         aee8c4d9d48d661624d72de670ebe5c6b5687842 mtd: spi-nor: winbond: Add support for W25Q01NWxxIQ chips
-         a607e676c8b9258eabc3fc88f45bcd70ea178b41 mtd: spi-nor: winbond: Add support for W25Q01NWxxIM chips
-         71c239348d9fbdb1f0d6f36013f1697cc06c3e9c mtd: spi-nor: winbond: Add support for W25Q02NWxxIM chips
-         f21d2c7d37553b24825918f2f61df123e182b712 mtd: spi-nor: winbond: Add support for W25H512NWxxAM chips
-         1df1fdbc7e63350b2962dc7d87ded124ee26f3ad mtd: spi-nor: winbond: Add support for W25H01NWxxAM chips
-         604cf6a40157abba4677dea9834de8df9047d798 mtd: spi-nor: winbond: Add support for W25H02NWxxAM chips
+         9065b968752334f972e0d48e50c4463a172fc2a7 wifi: ath11k: zero init info->status in wmi_process_mgmt_tx_comp()
+         bd6ec8111e6546d01f16bb113aee1fcada6e86a9 wifi: ath12k: Make firmware stats reset caller-driven
+         2977567b244f056d86658160659f06cd6c78ba3d wifi: ath12k: Fix timeout error during beacon stats retrieval
+         f403bf0d4491435c2acc9c6c364ed843d2b7732c Merge branch 'ath-next'
+         34bb0ad823c97a0405a8d1a282a1c201f524ea4c Merge branch 'ath-current'
+         904dfa51416934688128229400905839143e9b34 Merge remote-tracking branch 'mhi/mhi-next'
+         b8dde4754a29e7119cefd21f2f5c5d2a8a6026e0 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202511061536
+    old: 0000000000000000000000000000000000000000
+    new: b8dde4754a29e7119cefd21f2f5c5d2a8a6026e0
