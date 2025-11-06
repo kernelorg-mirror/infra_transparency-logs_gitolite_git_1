@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 06 Nov 2025 13:25:38 -0000
-Message-Id: <176243553842.4005436.4570480796016896894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 06 Nov 2025 13:26:37 -0000
+Message-Id: <176243559793.4005919.17993725765316268779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
-  - ref: refs/heads/for-next
-    old: 0db22d7ee462c42c1284e98d47840932792c1adb
-    new: d8a823c6f04ef03e3bd7249d2e796da903e7238d
+  - ref: refs/heads/master
+    old: 3d3f104afaac9e104f1e1fe0afd31192d7084aa0
+    new: a45330231848c571e7e655403bb6da18ad6d9e83
     log: |
-         8d54eacd82a0623a963e0c150ad3b02970638b0d xfs: fix delalloc write failures in software-provided atomic writes
-         8d7bba1e8314013ecc817a91624104ceb9352ddc xfs: fix various problems in xfs_atomic_write_cow_iomap_begin
-         f5714a3c1a5658251360603231efe1bee21f9c2c xfs: fix a rtgroup leak when xfs_init_zone fails
-         21ab5179aafa2ded7f3851bfe7e043f8a3b6199d xfs: fix zone selection in xfs_select_open_zone_mru
-         d8a823c6f04ef03e3bd7249d2e796da903e7238d xfs: free xfs_busy_extents structure when no RT extents are queued
+         9af76d4ed058b13dd55aaf8fa163aafca4a92157 cve_review: Improve performance by removing a superfluous 'git' call
+         f9a35218a223c327b8b248d9ddad465da10573e7 proposed: Add Lee's v6.17.2 results
+         a45330231848c571e7e655403bb6da18ad6d9e83 proposed: Add Lee's v6.17.3 results
          
