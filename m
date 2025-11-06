@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 06 Nov 2025 15:29:11 -0000
-Message-Id: <176244295140.4112337.3601422656961945385@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 15:29:29 -0000
+Message-Id: <176244296973.4112563.10002047826149980739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-current
-    old: 4c740c4d8bac5569c5bf5f86db65ce779178f9a2
-    new: 9065b968752334f972e0d48e50c4463a172fc2a7
+  - ref: refs/heads/pending
+    old: 979633e18c6a7859c1a1eb1c33f7bb67a007e23e
+    new: 6a00998cf6ee5b49aee6cd564bda9d0d36f19dbc
     log: |
-         9065b968752334f972e0d48e50c4463a172fc2a7 wifi: ath11k: zero init info->status in wmi_process_mgmt_tx_comp()
+         c30cd980c2e0313972ce72b55e7dbca70953ff1d wifi: ath12k: Make firmware stats reset caller-driven
+         6a00998cf6ee5b49aee6cd564bda9d0d36f19dbc wifi: ath12k: Fix timeout error during beacon stats retrieval
          
