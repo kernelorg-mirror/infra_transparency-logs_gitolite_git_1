@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 06 Nov 2025 13:26:37 -0000
-Message-Id: <176243559793.4005919.17993725765316268779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 06 Nov 2025 13:30:28 -0000
+Message-Id: <176243582892.4010101.14096944536613229265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: 3d3f104afaac9e104f1e1fe0afd31192d7084aa0
-    new: a45330231848c571e7e655403bb6da18ad6d9e83
-    log: |
-         9af76d4ed058b13dd55aaf8fa163aafca4a92157 cve_review: Improve performance by removing a superfluous 'git' call
-         f9a35218a223c327b8b248d9ddad465da10573e7 proposed: Add Lee's v6.17.2 results
-         a45330231848c571e7e655403bb6da18ad6d9e83 proposed: Add Lee's v6.17.3 results
-         
+  - ref: refs/tags/xfs-fixes-6.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: ff7a427bf61f6f1741ee94fdc7fc7693a85718ad
