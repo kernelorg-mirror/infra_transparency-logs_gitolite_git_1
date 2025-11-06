@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 06 Nov 2025 21:14:45 -0000
-Message-Id: <176246368590.258799.11391341012994741587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 06 Nov 2025 21:19:34 -0000
+Message-Id: <176246397450.263432.17157992796753866078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/dev
-    old: 8b801f1e9b3815342f78f59203394cb24f326c4d
-    new: b7a0a647a22e1b02cf26b37880760155507a926f
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing
+    old: 9b5ab965466fc615674c1261fc320f0d6b36a39c
+    new: 2f60883d6f962d04fc4405291a95421d2696ae36
     log: |
-         3f5fc38409c320ef6eac3032729391361d1a229c rcutorture: Parallelize kvm-series.sh guest-OS execution
-         b7a0a647a22e1b02cf26b37880760155507a926f memory-barriers.txt: Sort wait_event* and wait_on_bit* list alphabetically
+         2f60883d6f962d04fc4405291a95421d2696ae36 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
          
-  - ref: refs/heads/dev.2025.11.05b
-    old: 0000000000000000000000000000000000000000
-    new: 8e808de43edd0c3e83c4d09e6ebe1ca338c3e1a6
