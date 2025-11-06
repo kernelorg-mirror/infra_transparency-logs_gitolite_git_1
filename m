@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 06 Nov 2025 02:36:16 -0000
-Message-Id: <176239657673.3462785.18001296868676510088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 06 Nov 2025 03:09:47 -0000
+Message-Id: <176239858756.3489187.9224402298212196739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: 9b73cdad58893d2f88682c50275384c4b3b684f6
-    new: 9158447f09aae33e85744517d9d4a1812bb39007
+  - ref: refs/heads/kernel-6.12.53/nfs-testing-snitm
+    old: d15701f3acf50783d7e02ef505017b2f8b88dcad
+    new: 0bdb34bdfe29dcb32c7a0d6bd9918cd61844e9df
     log: |
-         93d46ea3e984323fae0e5d2919cf5817e1297d41 net: stmmac: socfpga: Agilex5 EMAC platform configuration
-         4c00476d44804db3c16838299b87a11741cd0dbd net: stmmac: socfpga: Enable TBS support for Agilex5
-         e28988aef70f8f993d93a62161a202e930cfce55 net: stmmac: socfpga: Enable TSO for Agilex5 platform
-         fd8c4f6454963aa7ea895657472aa57f33779d57 net: stmmac: socfpga: Add hardware supported cross-timestamp
-         9158447f09aae33e85744517d9d4a1812bb39007 Merge branch 'net-stmmac-socfpga-add-agilex5-platform-support-and-enhancements'
+         0bdb34bdfe29dcb32c7a0d6bd9918cd61844e9df nfs/localio: do not issue misaligned DIO out-of-order
          
