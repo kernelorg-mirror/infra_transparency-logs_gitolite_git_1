@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 06 Nov 2025 15:04:10 -0000
-Message-Id: <176244145043.4090997.13164980123118941450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 06 Nov 2025 15:15:07 -0000
+Message-Id: <176244210737.4101380.6297787371703715064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/perf-no-topology-build
-    old: 17b4337459d6ee7fe41ca8380ed29e076553582c
-    new: 6253a514b739a935e2e3a69696562527a84382ff
+  - ref: refs/heads/main
+    old: 7d1988a943850c584e8e2e4bcc7a3b5275024072
+    new: 96baf482ca1f69f0da9d10a5bd8422c87ea9039e
     log: |
-         9da7e7d76a2d57e734343a650f4bd6a4e9dbaa6e EDITME: cover title for perf-no-topology-build
-         6253a514b739a935e2e3a69696562527a84382ff perf: Add stub definition of topology_core_has_smt()
+         96baf482ca1f69f0da9d10a5bd8422c87ea9039e net: dsa: microchip: Fix reserved multicast address table programming
          
