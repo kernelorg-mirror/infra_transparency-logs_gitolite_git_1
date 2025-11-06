@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4185406930717147943=="
+Content-Type: multipart/mixed; boundary="===============4330674783615437410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Nov 2025 11:29:50 -0000
-Message-Id: <176242859075.3902335.17485227025428391310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 06 Nov 2025 11:30:00 -0000
+Message-Id: <176242860005.3902683.12934102325071272147@gitolite.kernel.org>
 
---===============4185406930717147943==
+--===============4330674783615437410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: c4e68959af66df525d71db619ffe44af9178bb22
-    new: aa897ffc396b48cc39eee133b6b43175d0df9eb5
+  - ref: refs/heads/for-6.18
+    old: 6146a0f1dfae5d37442a9ddcba012add260bceb0
+    new: 636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13
     log: |
-         aa897ffc396b48cc39eee133b6b43175d0df9eb5 ASoC: dt-bindings: ti,pcm1862: convert to dtschema
+         636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13 regulator: fixed: fix GPIO descriptor leak on register failure
          
 
---===============4185406930717147943==
+--===============4330674783615437410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762428656 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1762428588-4af4b4ad2c06a042fdae2b1bd3db50d2ab387e8d
+pusher C3F436CA30F5D8EB 1762428665 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1762428597-29ab6ad5b892b550b0746849e6240de4f60e5b79
 
-c4e68959af66df525d71db619ffe44af9178bb22 aa897ffc396b48cc39eee133b6b43175d0df9eb5 refs/heads/asoc-6.19
+6146a0f1dfae5d37442a9ddcba012add260bceb0 636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13 refs/heads/for-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkMhvAACgkQJNaLcl1U
-h9D5vgf6Aolv5fEe5aFgQ4Z4OFsSpTck1yNMGLNBe9OM/oNfRtkWs2JAfDtIzto6
-ln+wVwEMdvIWZKzWpDLkX5aoVz2IXcg4swaTDT+bkCj15tudx7+4O216PUuBVYdO
-weAh3/cTMmoxfGLEn41IVOQhwBM1QmqlPY7cz84FJN5Xh7OxSzkJGJi+CL02dw0P
-WZEITvBu2QUilkaDRzFPA8pSWSGt+rl7NNraAasRc0uW39YoWZcAWwexIxp6fn6G
-IaZpURyxyhzo0qSc8LWo1M+8UaR/IBEP0C24AcGxRuodvDnKbh/yBpPP9+QTfpP/
-JRAfMN9iQsQLHDp42pAUDYX/p43+Jw==
-=nFh8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkMhvkACgkQJNaLcl1U
+h9BQNQf+IqYHyhJxkxovbebjxti+f+RViQyN1RcxeAldq82pGCWOm5kAncxoegai
+W4vnxgTU1pMcU8W0VpcDfROlR2pjTghpmabFunf41g7LIw7uGmh5Zg1MtgnlT9iR
+VLQ3wd8clG2OeJZQegJTTWoAk0kB1ArtbXvMpdzGznkwBBOQCN/Mzh7sd8R+7kKh
+/ndvsVOsR3EsdS455GsUWE5jWq+sUtGLbFInv575DIHCKoUtNLKf05kC9bCsU3dO
+fZJkmUZFTQgBzH/DzLphzYvU6eN0AOgo5EzUPPu0TJT7HNQMezi+bikH1Zip5HZD
+8dEY770+f3G4nh6mtgrnd7YqCNiY/g==
+=14m6
 -----END PGP SIGNATURE-----
 
---===============4185406930717147943==--
+--===============4330674783615437410==--
