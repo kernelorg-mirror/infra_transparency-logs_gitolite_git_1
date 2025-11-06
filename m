@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7516132548476930220=="
+Content-Type: multipart/mixed; boundary="===============3233828760772562026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 06 Nov 2025 03:41:10 -0000
-Message-Id: <176240047045.3518045.10524243032752612250@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 03:41:13 -0000
+Message-Id: <176240047330.3518133.13167100171432469127@gitolite.kernel.org>
 
---===============7516132548476930220==
+--===============3233828760772562026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
-    old: 00ebe29e321c71d11b57a34588a9c0475747b2e1
-    new: 1a5c5342949f4bbf45449dfb218dd683906cc0b7
-    log: revlist-00ebe29e321c-1a5c5342949f.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: a227c86100b96a895da8130c032772160a3620c9
+    new: a157681335e355244a60e03f10dc2d25978566b7
+    log: revlist-a227c86100b9-a157681335e3.txt
 
---===============7516132548476930220==
+--===============3233828760772562026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00ebe29e321c-1a5c5342949f.txt
+Content-Disposition: attachment; filename=revlist-a227c86100b9-a157681335e3.txt
 
+0406cfa2992a8a4fb20f155a64a4ef848983f6b1 nfs/localio: Remove alignment size checking in nfs_is_local_dio_possible
+f8bf7d4f51b0a8d875ec41890d65deedae5f98a4 nfs/localio: do not issue misaligned DIO out-of-order
 08ca3fd0464ef4209faaf62e6b8c0b97bf5194b0 svcrdma: Release transport resources synchronously
 99711e91ca165ed4a4d1649ae7e708fa41439a06 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
 aaa51bab61d986b241ec419c7e909351f846f059 NFSD: Add array bounds-checking in nfsd_iter_read()
@@ -65,5 +67,47 @@ b3a3801d7521e4fac9062f545d33f020df9ec5ed NFSD: Make FILE_SYNC WRITEs comply with
 60b4241fa15382de3fec4ba484828bfb253928fd NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 9b5ab965466fc615674c1261fc320f0d6b36a39c NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
 1a5c5342949f4bbf45449dfb218dd683906cc0b7 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+7f9b61782848cf25ad778b619b4a38990ac92c6b Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+0f92fea3d42a48d96677ffb07d29853de1f8ad6f Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+f14f232a41d57423ce2448ab2857f958e374b3dc Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+52ea068e880241d63032f51985258365c4b9a0c9 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+ba0d6de4cca93ecfbb279aef8f03b229f23160da Merge branch 'kernel-6.12.24/xfs' into kernel-6.12.24/main
+1c88323385aa29ee5b8024c48accfa2963aa7767 Merge branch 'kernel-6.12.24/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.24/main
+cfe57efb675504ed40daf602a89d0eabe96b9cc4 Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.24/main
+9b28eb59925c108764faa832d4f1b91e208ab929 Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.18-2' into kernel-6.12.24/main
+0be1f5bb7faa38e19aecb916967b6efd30b966cc Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+41d96500c2722c1b5e6658d082630f3de69d6816 Merge branch 'kernel-6.12.24/nfsd-next-thru-nfsd-6.18-2' into kernel-6.12.24/main
+26d4d18e5c3555eef258f4a2350406904067a095 Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+cb11773142e79a29559b04e3c389111da07a6ea2 Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+9eff5cf1ff5697b3c6ad783aecc0540ba89ad4a2 Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+0bbd37c575ca82a3c4df7618a8af006e79df737f kernel-6.12.24-1
+84f3d950c86330541ccf5782c60b35fd65c4a6dd kernel-6.12.24-2
+a0a1e7f033a193f9063c1497ca61e21b536037c0 kernel-6.12.24-3
+6e42f50b4d7d1d8576dbbf4125ac7ec923b48b73 kernel-6.12.24-4
+805786e997e038a1b378354f69bc206d54673c7c kernel-6.12.24-5
+ea16392685d926f1b1b7496b20c2faff75e23e6b kernel-6.12.24-6
+a8a073b615ebd078397aa976b07cb2394918644d kernel-6.12.24-7
+6aa3aefcd2e6a4fc9c8899212fb89d1a82e6d893 kernel-6.12.24-8
+b8017fd9573588352244429cfe3e59ae2682eefc kernel-6.12.24-9
+65306d59e21785132a5e7daebf8d89da5e5eb66c kernel-6.12.24-10
+85eabbac08b283763fa4a7959d4f2fe940d16cdf kernel-6.12.24-11
+f79459b3667115b5feca87bd1b909373e2f9e37b kernel-6.12.24-12
+4dc494e37e29c2fbe9c6dbadc198ac23ea080f98 kernel-6.12.24-13
+8eca3fb4101d94be06035b400e055b430e4df63e kernel-6.12.24-14
+e2f97502a12e47ca7baa9f34a1c4ce84987d733d kernel-6.12.24-15
+2b0161bdd2f570a94e7c773bed1a6b98dc374c71 kernel-6.12.24-16
+5a57993712a018764430fb26db0ed3cb6d07b424 kernel-6.12.24-17
+bf8c25ae38cef3ae46b6c0b9083c8ccaa68f6264 kernel-6.12.24-18
+37e897e537ec53c7b0bd1c158f8ebe881e3ad4d9 kernel-6.12.24-19
+a541cb8faa4df2cf3062b82ff1472738939cc742 kernel-6.12.24-20
+5fbc3caf2d10158237fdd8aeb794e5063f25cd23 kernel-6.12.24-21
+ddebbb01dc48f837eb5fbeaf7480d4adb5dc88d7 kernel-6.12.24-22
+09ea69f4fb47b87a9e8a14a5f49c2bb7d22e9de2 kernel-6.12.24-23
+c62b2dff3ba47f0e7ccadd0ac977877e1ae29034 kernel-6.12.24-24
+786912b12d52f51c5a301ca21697c665ea83cc48 kernel-6.12.24-25
+602544a1a30291609d0d5762fcaff59ec777c4e3 kernel-6.12.24-26
+d59b2be0d3d82b906d5d591fee05caaffb56056e kernel-6.12.24-27
+cb5697d15a3e0429c6ce42e96c34026f0ebe8aee kernel-6.12.24-28
+a157681335e355244a60e03f10dc2d25978566b7 kernel-6.12.24-29
 
---===============7516132548476930220==--
+--===============3233828760772562026==--
