@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2616388746786178152=="
+Content-Type: multipart/mixed; boundary="===============1982404683172641775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 06 Nov 2025 17:05:45 -0000
-Message-Id: <176244874505.11216.6281968525370238673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 06 Nov 2025 17:05:51 -0000
+Message-Id: <176244875137.11434.16234590194054736530@gitolite.kernel.org>
 
---===============2616388746786178152==
+--===============1982404683172641775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 249d96b492efb7a773296ab2c62179918301c146
     new: 84f5526e4dce0a44d050ceb1b1bf21d43016d91b
     log: |
@@ -25,28 +25,28 @@ changes:
          84f5526e4dce0a44d050ceb1b1bf21d43016d91b ASoC: tas2783A: Fix issues in firmware parsing
          
 
---===============2616388746786178152==
+--===============1982404683172641775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762448811 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1762448743-fc520c9e5895c1f7c8e7f93c5374a0e37ba79147
+pusher C3F436CA30F5D8EB 1762448817 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1762448749-f4cae1ac905b58c9c73a3d369bf2a0a2a834d5b7
 
-249d96b492efb7a773296ab2c62179918301c146 84f5526e4dce0a44d050ceb1b1bf21d43016d91b refs/heads/for-6.18
+249d96b492efb7a773296ab2c62179918301c146 84f5526e4dce0a44d050ceb1b1bf21d43016d91b refs/heads/asoc-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkM1asACgkQJNaLcl1U
-h9CPhgf/Xyc6mtWx9WNpTdm5M5hnzr9MISRztoeEn4XyrJBiYdn98uzJFEfhZGEh
-OGBC0Ipyvf0Bjc+5zDLlQc5CFbJRfkMhlmAAXKp8R6LqS2uI5NgaDWPhpZrKR6jo
-oPaBmW1W5IoT6QO924mGVd0tqRlqS91UHUfxYd8apyvIn88VANyWwH9LJo2BydjA
-ODG+QlvBwBwjhiNhIrK3joTCmivdPnTfBhI9LtH7VYo5uSmTh5IbqhGUfDp4/vab
-WQoWKdcQgKaVISl5a8HgBEfnuSUYsWH7TRbndkdrKXE+mcOkjDdd9AgIxEp3ZrPJ
-wWbS1YLPJKBL8RU05gbMITMYvk/zGQ==
-=6m9X
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkM1bEACgkQJNaLcl1U
+h9CFfgf+J6zyVYc4LpFH443teqRH4jev6ltO9LACj3YmNGiZf7ZzO3liGzw1B13t
+yosnfEY20AxmxyOEM8NRPhpqYYOh2u9JnOHbCJWbjAQheiSkquunBd05d5V6M1Fh
+XTha0Mxh5IR9POwzrrbL0JdSkc7n67AsANfbTi/IjLhF+RXB06rrQ1fsIyUK18l6
+mgJHit041p6szU1ANCY7CQvqnzjSuehextuxexTDlGOw/QV7ot4vesloOIDbbY/p
+QiSsieNU+j2/bU6sytr1ckBBhZGZTDLnLrgGnZArRgAA3Hn/qfoL09oen8VALm42
+ELYpsBmGqT1zTmugu1gZfMEFBCHASA==
+=LlFb
 -----END PGP SIGNATURE-----
 
---===============2616388746786178152==--
+--===============1982404683172641775==--
