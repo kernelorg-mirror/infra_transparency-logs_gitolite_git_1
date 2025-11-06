@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2874374432207000110=="
+Content-Type: multipart/mixed; boundary="===============7680117522480769037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 06 Nov 2025 11:29:06 -0000
-Message-Id: <176242854626.3900946.16011903952592109931@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 11:29:18 -0000
+Message-Id: <176242855844.3901166.11926811755699973974@gitolite.kernel.org>
 
---===============2874374432207000110==
+--===============7680117522480769037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-6.18
-    old: 47a0925ee4bd2689f0aef4dbd67dd46442fe1ca2
-    new: 636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13
-    log: revlist-47a0925ee4bd-636f4618b1cd.txt
+  - ref: refs/heads/spi-6.18
+    old: e7dbfe6f15b4df34bb169d180bd10f1a3c043814
+    new: 3cd2018e15b3d66d2187d92867e265f45ad79e6f
+    log: revlist-e7dbfe6f15b4-3cd2018e15b3.txt
 
---===============2874374432207000110==
+--===============7680117522480769037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47a0925ee4bd-636f4618b1cd.txt
+Content-Disposition: attachment; filename=revlist-e7dbfe6f15b4-3cd2018e15b3.txt
 
 f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
 2e9c1da4ee9d0acfca2e0a3d78f3d8cb5802da1b wifi: ath10k: Fix memory leak on unsupported WMI command
@@ -214,7 +214,6 @@ d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4 net: cxgb4/ch_ipsec: fix potential use-
 0ba6502ce167fc3d598c08c2cc3b4ed7ca5aa251 perf/x86/intel: Fix KASAN global-out-of-bounds warning
 b796a8feb7cb094ee998931a96cd6152a9d3022e perf/x86/intel: Add PMU support for WildcatLake
 f4c12e5cefc8ec2eda93bc17ea734407228449ab perf/x86/intel/uncore: Add uncore PMU support for Wildcat Lake
-e7dbfe6f15b4df34bb169d180bd10f1a3c043814 spi: intel: Add support for Oak Stream SPI serial flash
 07ad45e06b4039adf96882aefcb1d3299fb7c305 s390/mm: Fix memory leak in add_marker() when kvrealloc() fails
 514f1dc8f2ca3101e04cdf452e53baca3a76e544 netfilter: nft_ct: enable labels for get case too
 8d96dfdcabef00e28f0c851b1502adb679dfc6d9 netfilter: nft_connlimit: fix possible data race on connection count
@@ -262,6 +261,7 @@ a38eeecfe3232283c0ae34d0f4302e5a3e60f3ee Merge branch 'net-stmmac-fixes-for-stmm
 51e5ad549c43b557c7da1e4d1a1dcf061b4a5f6c net: sctp: fix KMSAN uninit-value in sctp_inq_pop
 847ebc4476714f81d7dea73e5ea69448d7fe9d3a x86/CPU/AMD: Extend Zen6 model range
 89216c9051ef6635f1514f8e0d2f9cd63b37a3b6 x86/cpu: Add/fix core comments for {Panther,Nova} Lake
+47a0925ee4bd2689f0aef4dbd67dd46442fe1ca2 regulator: bd718x7: Fix voltages scaled by resistor divider
 390db60f8e2bd21fae544917eb3a8618265c058c Merge tag 'asoc-fix-v6.18-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 0b39ca457241aeca07a613002512573e8804f93a blk-crypto: use BLK_STS_INVAL for alignment errors
 3257bd193fa1702791978d8418c9a96e3def082c drm/imx: parallel-display: convert to devm_drm_bridge_alloc() API
@@ -313,6 +313,6 @@ e3e0141d3dc55eb71792dd703e3f726cc29a6430 Merge tag 'x86-urgent-2025-11-01' of gi
 bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 691d401c7e0e5ea34ac6f8151bc0696db1b2500a Merge tag 'spi-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
-636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13 regulator: fixed: fix GPIO descriptor leak on register failure
+3cd2018e15b3d66d2187d92867e265f45ad79e6f spi: Try to get ACPI GPIO IRQ earlier
 
---===============2874374432207000110==--
+--===============7680117522480769037==--
