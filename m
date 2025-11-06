@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0013008522615516838=="
+Content-Type: multipart/mixed; boundary="===============0641149129648413732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 06 Nov 2025 01:08:43 -0000
-Message-Id: <176239132316.3385826.5406514129024994407@gitolite.kernel.org>
+Date: Thu, 06 Nov 2025 01:08:44 -0000
+Message-Id: <176239132453.3385987.2051651556368079645@gitolite.kernel.org>
 
---===============0013008522615516838==
+--===============0641149129648413732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: d12306c1f7a0d1126b1d078b0de5932f111e0f55
-    new: bddad78f51e7ddc3e46c7f997053db6c6b92ac90
-    log: revlist-d12306c1f7a0-bddad78f51e7.txt
+  - ref: refs/heads/mm-unstable
+    old: bf6f0f96122d1bdc4c8465c47b9a8a1659eaa181
+    new: 7714abfc299f39635e5372e618bb9ab24c2dd108
+    log: revlist-bf6f0f96122d-7714abfc299f.txt
 
---===============0013008522615516838==
+--===============0641149129648413732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d12306c1f7a0-bddad78f51e7.txt
+Content-Disposition: attachment; filename=revlist-bf6f0f96122d-7714abfc299f.txt
 
 f12b69d8f22824a07f17c1399c99757072de73e0 batman-adv: Release references to inactive interfaces
 2e9c1da4ee9d0acfca2e0a3d78f3d8cb5802da1b wifi: ath10k: Fix memory leak on unsupported WMI command
@@ -544,54 +544,5 @@ f88c84a8257753c56893128e85d21aa3f0aad4d9 mm/huge_memory: fix kernel-doc comments
 ee973a44d58361afe9d2ea44da5e5639bc555928 mm, swap: remove redundant comment for read_swap_cache_async
 4a19a7431564db8a5c04afceda052069694aea49 mm: swap: change swap_alloc_slow() to void
 7714abfc299f39635e5372e618bb9ab24c2dd108 mm: swap: remove scan_swap_map_slots() references from comments
-0b89ca82731c5999afdb28f3cbeb32310d5b40c4 mm: correctly handle UFFD PTE markers
-a299e145cc6d5c24c9de316e9e1cfcadde06aa3f mm: introduce leaf entry type and use to simplify leaf entry logic
-71fc3e02681ae5f2bcc7c13354ccb47696e244cb mm-introduce-leaf-entry-type-and-use-to-simplify-leaf-entry-logic-fix
-4da185be17e56b39689ed34f49d24fede536edde mm: avoid unnecessary uses of is_swap_pte()
-0a5a6702c8d004398d15adbd9363f63a0080f0b9 mm: eliminate uses of is_swap_pte() when leafent_from_pte() suffices
-04fe21e72e5e6f677c8a74028ec32a4fc0e7f54b mm: use leaf entries in debug pgtable + remove is_swap_pte()
-4897cd51a6113afe66c33a081826d753d73df200 fs/proc/task_mmu: refactor pagemap_pmd_range()
-0532f991923619fee771afdcdc344340c5c50b2f mm: avoid unnecessary use of is_swap_pmd()
-5cb35376b7070c454e9672be16f7da10ad207610 mm/huge_memory: refactor copy_huge_pmd() non-present logic
-e56a467d1371ba4db191d1ced5529a0e3bebd1ed mm/huge_memory: refactor change_huge_pmd() non-present logic
-25987a8049403783e1ecfe3130aa6b0f36966367 mm: replace pmd_to_swp_entry() with leafent_from_pmd()
-17151dc4469e8162920131494dd8a5f4fadebc75 mm-replace-pmd_to_swp_entry-with-leafent_from_pmd-fix
-773ef34363389b28d583482fb8829e415484d395 mm: introduce pmd_is_huge() and use where appropriate
-2937d285ef82429998f3f4b4b59420c04d81dcd9 mm: remove remaining is_swap_pmd() users and is_swap_pmd()
-1f6b5c19e951cf43716ddf4d938ab7b9c7360167 mm: remove non_swap_entry() and use leaf entry helpers instead
-22c71014671636de43a1499301012b20f821be32 mm-remove-non_swap_entry-and-use-leaf-entry-helpers-instead-fix
-e52dc0ee2912cbff3a3d17b11f72f2cac04ebd26 mm: remove is_hugetlb_entry_[migration, hwpoisoned]()
-41bd5274e45867a3e0474f30281c9838b221a220 mm: eliminate further swapops predicates
-b01d99bcff3d17f475698d81466c8a0ea8dd7ac3 mm: replace remaining pte_to_swp_entry() with leafent_from_pte()
-2f6e6a71d28a4cd238ee083a968a424a97b2e732 mm/debug: fix missing space in case statement
-51d10552202dd2438bb8b0d586a7955f96797d8c mm: change ghes code to allow poison of non-struct pfn
-4c268fa02e345397810f9ca3276a8c0d1278bbd3 mm: handle poisoning of pfn without struct pages
-27788059de99ad803e595073f58ca06a24b071a5 vfio/nvgrace-gpu: register device memory for poison handling
-bee8f2b1776bbd7aaa2ec70cb58b5ff0adab5448 mm/damon/tests/core-kunit: fix memory leak in damon_test_set_filters_default_reject()
-9050a12248c0480456c5218c005fd58d6eb257bf mm/damon/tests/core-kunit: handle allocation failures in damon_test_regions()
-2c58c1cc03776825f92639b5ead3d44b0c280019 mm/damon/tests/core-kunit: handle memory failure from damon_test_target()
-901ed24a2cfcfba92997d100eb81b2de54f36f57 mm/damon/tests/core-kunit: handle memory alloc failure from damon_test_aggregate()
-16c7d3d0da9369fb0711dba0e7eb39e6857d11c8 mm/damon/tests/core-kunit: handle alloc failures on damon_test_split_at()
-3cc72a58d82707185e71c98b4c28bf4499a9f233 mm/damon/tests/core-kunit: handle alloc failures on damon_test_merge_two()
-6f1ef5ab31d38a8cce3d0ca2b9179aba4a4911a8 mm/damon/tests/core-kunit: handle alloc failures on dasmon_test_merge_regions_of()
-6fc45dde677a3cd6d28086eb19f2432d89dc8f28 mm/damon/tests/core-kunit: handle alloc failures on damon_test_split_regions_of()
-1d389765e8cccccc04b4283c126b2d0451452984 mm/damon/tests/core-kunit: handle alloc failures in damon_test_ops_registration()
-b108a57cbfd53aa72bf738a941ea2e860ce406a7 mm/damon/tests/core-kunit: handle alloc failures in damon_test_set_regions()
-e38f733e93f8ccfa00b0dfba2edecb8e937d3c5e mm/damon/tests/core-kunit: handle alloc failures in damon_test_update_monitoring_result()
-ca5a498b3a156533b5f84a99fa5eb8492762dcdf mm/damon/tests/core-kunit: handle alloc failure on damon_test_set_attrs()
-6c8878e764e49b683e8329c14871835fe96c1614 mm/damon/tests/core-kunit: handle alloc failres in damon_test_new_filter()
-50c3d455333d2a6eea039ee36e7484887bd72b25 mm/damon/tests/core-kunit: handle alloc failure on damos_test_commit_filter()
-104aa680be3f934fd1e64616b1aacf68f3fadece mm/damon/tests/core-kunit: handle alloc failures on damos_test_filter_out()
-be142f8ddcace09e386f5584dae52eba9a587b03 mm/damon/tests/core-kunit: handle alloc failures on damon_test_set_filters_default_reject()
-e52e2bece36ea40263454568ba0bc002911114c1 mm/damon/tests/vaddr-kunit: handle alloc failures on damon_do_test_apply_three_regions()
-e4377bac4e9a8bf6976d55019197e34f097024f9 mm/damon/tests/vaddr-kunit: handle alloc failures in damon_test_split_evenly_fail()
-6480c53404c452a98af889956c0ed2eb0e25cb5a mm/damon/tests/vaddr-kunit: handle alloc failures on damon_test_split_evenly_succ()
-f86e746f969871bfd16bb021b2177775f315b228 mm/damon/tests/sysfs-kunit: handle alloc failures on damon_sysfs_test_add_targets()
-1aa5acaffaf79f0f0089e2f77f3227e608d086b6 mm/damon/tests/core-kunit: remove unnecessary damon_ctx variable on damon_test_split_at()
-9d6badb18cd0cadb23bce7240b518974842ae8da mm/damon/tests/core-kunit: remove unused ctx in damon_test_split_regions_of()
-328b39db10190d4237eb58d764b6520d8fc11d4e mm: kill mm_wr_locked from unmap_vmas() and unmap_single_vma()
-6617689d9806610a3b21705eeb4c53e459e98dcb mm/hugetlb: extract sysfs into hugetlb_sysfs.c
-ee729c83fc68cdeca1a4133be1bbeac2d3a19e60 mm/hugetlb: extract sysctl into hugetlb_sysctl.c
-bddad78f51e7ddc3e46c7f997053db6c6b92ac90 selftest/vm_util: remove unused variables
 
---===============0013008522615516838==--
+--===============0641149129648413732==--
