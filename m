@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 06 Nov 2025 22:53:39 -0000
-Message-Id: <176246961990.348705.8513935047643264825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 06 Nov 2025 22:55:04 -0000
+Message-Id: <176246970419.351768.3418517364602565985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-6.19
-    old: be04e96ba911fac1dc4c7f89ebb42018d167043f
-    new: 9311e6c29b348b005e79228ef6facd38ebcc73f9
-    log: |
-         9311e6c29b348b005e79228ef6facd38ebcc73f9 cgroup: Fix sleeping from invalid context warning on PREEMPT_RT
-         
-  - ref: refs/heads/for-next
-    old: 908f2a35a9fbc78658c334c574c4f4ed033dd050
-    new: 0177641333d8fff16903771a4d0055711a48b9a6
-    log: |
-         9311e6c29b348b005e79228ef6facd38ebcc73f9 cgroup: Fix sleeping from invalid context warning on PREEMPT_RT
-         0177641333d8fff16903771a4d0055711a48b9a6 Merge branch 'for-6.19' into for-next
-         
+  - ref: refs/heads/fileU6p21A
+    old: 0000000000000000000000000000000000000000
+    new: 6951be397ca8b8b167c9f99b5a11c541148c38cb
+  - ref: refs/heads/fileVA1t6u
+    old: 0000000000000000000000000000000000000000
+    new: 4e92abd0a11b91af3742197a9ca962c3c00d0948
