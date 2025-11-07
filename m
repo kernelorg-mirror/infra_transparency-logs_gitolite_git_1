@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 07 Nov 2025 15:57:54 -0000
-Message-Id: <176253107484.1289215.11948331383974512298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 07 Nov 2025 15:58:15 -0000
+Message-Id: <176253109563.1289524.16181476211965541301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 8c5410cd9198431480bfd8927e97c4cb430747f2
-    new: e06cf1c4a58d201d2e1e49138a20e81fc816b65c
+  - ref: refs/heads/for-linus
+    old: 86d57d9c07d54e8cb385ffe800930816ccdba0c1
+    new: 939edfaa10f1d22e6af6a84bf4bd96dc49c67302
     log: |
-         b6f4bd64f453183954184ffbc2b89d73ed8fb135 regulator: irq_helper: replace use of system_wq with system_dfl_wq
-         2089f086303b773e181567fd8d5df3038bd85937 regulator: mt6363: Remove unneeded semicolon
-         e06cf1c4a58d201d2e1e49138a20e81fc816b65c Merge remote-tracking branch 'regulator/for-6.19' into regulator-next
+         939edfaa10f1d22e6af6a84bf4bd96dc49c67302 spi: xilinx: increase number of retries before declaring stall
+         
+  - ref: refs/heads/for-next
+    old: 7058c9ef08643ad50c62b1886e6b45c37cc3a8ea
+    new: 555ab9f99879ecf2a41e39416852a1d3a5137138
+    log: |
+         939edfaa10f1d22e6af6a84bf4bd96dc49c67302 spi: xilinx: increase number of retries before declaring stall
+         555ab9f99879ecf2a41e39416852a1d3a5137138 Merge remote-tracking branch 'spi/for-6.19' into spi-next
          
