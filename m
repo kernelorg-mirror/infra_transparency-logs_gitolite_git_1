@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7838289614632026900=="
+Content-Type: multipart/mixed; boundary="===============3260837908733889645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 07 Nov 2025 10:14:04 -0000
-Message-Id: <176251044493.961476.8085385771071310982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 07 Nov 2025 10:14:13 -0000
+Message-Id: <176251045394.961721.11584912838478908272@gitolite.kernel.org>
 
---===============7838289614632026900==
+--===============3260837908733889645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/spi-6.19
     old: 4e92abd0a11b91af3742197a9ca962c3c00d0948
     new: 4a58f60df578bb55a1d0adca0c356e03b2818de1
     log: |
@@ -30,28 +30,28 @@ changes:
          4a58f60df578bb55a1d0adca0c356e03b2818de1 spi: enable the SpacemiT K1 SoC QSPI
          
 
---===============7838289614632026900==
+--===============3260837908733889645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762510511 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1762510442-3570035cb6c172b0fb86f7ab78f04ff8f4892447
+pusher C3F436CA30F5D8EB 1762510520 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1762510449-98030abf43f70668608e149e99fbb4e97f768355
 
-4e92abd0a11b91af3742197a9ca962c3c00d0948 4a58f60df578bb55a1d0adca0c356e03b2818de1 refs/heads/for-6.19
+4e92abd0a11b91af3742197a9ca962c3c00d0948 4a58f60df578bb55a1d0adca0c356e03b2818de1 refs/heads/spi-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkNxq8ACgkQJNaLcl1U
-h9DXLQf+L0GWMT7MXs6XznTRoGYnv3Frd9cYO++c2Nw5ZH/F9+ir+mQZamhkyYMv
-SeCQ0D66EPvrV/FOCr/GjVwT09oU3dW/HDkGWmcAUUZ/uz83UGxRoN9fNKj7BbiB
-zzoVz/SwA+kh+yGoH1dps7dS9pTPf5mlBPSLvMQNjHh3C34CjDCtsWXA30z/84pM
-DZ2zk+p+lG2cJupEEULO9h0MoRyaNcTNuMmaMCrDBLBELrcODo/+irUL38sMRyL3
-5JoGvPczrxMAp5zJNJQ9Od2alblbosFkbT+nMY/wmHDgHEv8qPgbvBqEpIFwbKef
-nNmpiFeQFWsvJi8w62v5OerPgM5xHg==
-=LQvc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkNxrgACgkQJNaLcl1U
+h9CPJQf+OmlKHwePeF4qDFX+YqnuCajX9ZdUurXO4v7W8iw3Hnza7+Vbz1iWxuvg
+9mq4TRkFKMoxf6zuzYyTT5YLejUAP2attoaq945DiGjxWjIFZii+gvTe6c3GMnH2
+CCmi+vhNwRVholwwOmGKefRIyhF00iYJCwcy2p7GsEcyiJEn6wjF760KZg71vER3
+/n8Ibs5LAEDQ/JxtWkHCaq5Wzd/dPLtV1tr3mOKsWf+m59oKG23hNjrpVGkfLG2+
+Syy4wpkxQwK5MGpMLPooswDdV3FKhZ3nlkHacViCeVYt0EUvrsCmo5I0kVqybObr
+8y/qEOKHVYqBbkqHdM1qXbrTu7OO5g==
+=3CBh
 -----END PGP SIGNATURE-----
 
---===============7838289614632026900==--
+--===============3260837908733889645==--
