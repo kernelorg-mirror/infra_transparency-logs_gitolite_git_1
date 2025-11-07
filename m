@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Fri, 07 Nov 2025 18:14:37 -0000
-Message-Id: <176253927766.1413933.16623834195745422618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Fri, 07 Nov 2025 18:27:11 -0000
+Message-Id: <176254003161.1425226.1251828140201488720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/hyperv-next
-    old: f9ecca7f901744f9091134ccb5b2b6b04dbba7f6
-    new: 99310d8c930db87014238c89d500f31af58e4554
+  - ref: refs/heads/kbuild-fixes
+    old: 2a27ec4f4acc3a713252209c45404029e1d0ef20
+    new: 9818af18db4bfefd320d0fef41390a616365e6f7
     log: |
-         1d3e17a54e133317be8060a841380fea383c7dc5 mshv: add WQ_PERCPU to alloc_workqueue users
-         a9aeb54736634fc3b1ae30227c2624eb2b6c7940 mshv: Fix create memory region overlap check
-         99310d8c930db87014238c89d500f31af58e4554 mshv: Allow mappings that overlap in uaddr
+         9818af18db4bfefd320d0fef41390a616365e6f7 compiler_types: Move unused static inline functions warning to W=2
          
