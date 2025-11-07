@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2707238274749554227=="
+Content-Type: multipart/mixed; boundary="===============1319226757038562469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Fri, 07 Nov 2025 17:46:27 -0000
-Message-Id: <176253758729.1388812.2359264704496142434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 07 Nov 2025 17:46:42 -0000
+Message-Id: <176253760266.1389117.11230943635190043716@gitolite.kernel.org>
 
---===============2707238274749554227==
+--===============1319226757038562469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/master
-    old: b6dad5178ceaf23f369c3711062ce1f2afc33644
+    old: 789b4a41c247ed654322a6150815025b5497cad0
     new: da32d155f4a8937952ca6fd55d3270fec1c3799f
-    log: revlist-b6dad5178cea-da32d155f4a8.txt
+    log: revlist-789b4a41c247-da32d155f4a8.txt
 
---===============2707238274749554227==
+--===============1319226757038562469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6dad5178cea-da32d155f4a8.txt
+Content-Disposition: attachment; filename=revlist-789b4a41c247-da32d155f4a8.txt
 
 9bebb8924b27f06e7072f0b18a5f78cef561c810 smb: client: improve logic in allocate_mr_list()
 c8478502960eb8fb9847b36a66380adf421cdc62 smb: client: improve logic in smbd_register_mr()
@@ -1051,4 +1051,4 @@ a80abfbb1013ffec7aa7e574b5ba9bcf02bd5462 Merge tag 'slab-for-6.18-rc5' of git://
 5b95a50001f1fbcae6b7fe211a02f37a04dd9a4b Merge tag 'trace-v6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 da32d155f4a8937952ca6fd55d3270fec1c3799f Merge tag 'gpio-fixes-for-v6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============2707238274749554227==--
+--===============1319226757038562469==--
