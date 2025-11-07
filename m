@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 07 Nov 2025 09:32:47 -0000
-Message-Id: <176250796764.926498.5769229754869308170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 07 Nov 2025 09:33:05 -0000
+Message-Id: <176250798568.926825.14699744366587408255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 20306927b25c15145579fc1c6af46b8be313ad69
-    new: 0346ea52b7e8d9851ba46ea12a7790ef4441affb
+    old: 043224ffae9d9fef50bdf035f448055d6031f5ac
+    new: f06de475631c30e13b059eebec96dc994307f5f5
     log: |
-         4db4ce15706d6423cc4cac4b05114b0469507bad ASoC: stm32: dfsdm: don't use %pK through printk
-         6951be397ca8b8b167c9f99b5a11c541148c38cb ASoC: codecs: pm4125: remove duplicate code
-         0346ea52b7e8d9851ba46ea12a7790ef4441affb Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
+         4e92abd0a11b91af3742197a9ca962c3c00d0948 spi: imx: add i.MX51 ECSPI target mode support
+         f06de475631c30e13b059eebec96dc994307f5f5 Merge remote-tracking branch 'spi/for-6.19' into spi-next
          
