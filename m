@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2657345951943818709=="
+Content-Type: multipart/mixed; boundary="===============2490515503674265813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 07 Nov 2025 17:14:40 -0000
-Message-Id: <176253568032.1357413.1927334015001457881@gitolite.kernel.org>
+Date: Fri, 07 Nov 2025 17:14:42 -0000
+Message-Id: <176253568280.1357493.7200252329204665057@gitolite.kernel.org>
 
---===============2657345951943818709==
+--===============2490515503674265813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 3534e03e0ec2e00908765549828a69df5ebefb91
     new: 74d4432421a3e2669fbccc08c0f4fc2980bf0e39
     log: revlist-3534e03e0ec2-74d4432421a3.txt
 
---===============2657345951943818709==
+--===============2490515503674265813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -250,4 +250,4 @@ dc77806cf3b4788d328fddf245e86c5b529f31a2 Merge tag 'rust-fixes-6.18' of git://gi
 c2c2ccfd4ba72718266a56f3ecc34c989cb5b7a0 Merge tag 'net-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 74d4432421a3e2669fbccc08c0f4fc2980bf0e39 docs: netlink: Couple of intro-specs documentation fixes
 
---===============2657345951943818709==--
+--===============2490515503674265813==--
