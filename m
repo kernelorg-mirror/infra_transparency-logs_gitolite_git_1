@@ -1,50 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0074356876256594768=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 07 Nov 2025 15:06:15 -0000
-Message-Id: <176252797518.1241787.10404581047908114272@gitolite.kernel.org>
-
---===============0074356876256594768==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Fri, 07 Nov 2025 15:06:43 -0000
+Message-Id: <176252800340.1242145.10710028823898194286@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/heads/for-6.18
-    old: 3dc8c73365d3ca25c99e7e1a0f493039d7291df5
-    new: 29528c8e643bb0c54da01237a35010c6438423d2
+  - ref: refs/heads/master
+    old: 5974c20e9b6568e6a46f9b1849756ebbbe544fb5
+    new: d22ff9a783a792263baca22f80a64cfc7ec319ea
     log: |
-         29528c8e643bb0c54da01237a35010c6438423d2 ASoC: tas2781: fix getting the wrong device number
+         6573d552e28c22f5f7b7eedce3ac7c2677032b13 Documentation: genpt: Don't use code block marker before iommu_amdv1.c include listing
+         e4dfaf25df1210af6776b6672191cf5e32ba5529 iommupt: Describe @bitnr parameter
+         5cb637d9425d7c6282b9f7470d273e4ecac6efb8 iommupt: Documentation fixes
+         9ad648017b1813a05c4ce899e5e454ec3adb1dfe iommu/iommupt: Fix build error in genericpt unit-tests
+         91920a9d87f5192c56ba5bf3e133aeb3576b705d Merge branches 'arm/smmu/updates', 'arm/smmu/bindings', 'mediatek', 'nvidia/tegra', 'amd/amd-vi' and 'core' into next
+         d22ff9a783a792263baca22f80a64cfc7ec319ea Merge branch 'next'
          
-
---===============0074356876256594768==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1762528041 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1762527966-03bac4a0191e1e9e7b30431cdfa0430aa9dbe3ff
-
-3dc8c73365d3ca25c99e7e1a0f493039d7291df5 29528c8e643bb0c54da01237a35010c6438423d2 refs/heads/for-6.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkOCykACgkQJNaLcl1U
-h9B+/gf/UDlSVuavcI3ooPHIgQS4Nb7T0TWY+Lxcb4vFI3OQ3Lleh8uKmntZqDlj
-PnUd6cb5mksfmuZV40uirRe1Woa3RhPunL8NkCmstJMILUYTzk5znRj9WngdWLJ8
-cObapN/JfPEseulJqJrF/irbGuc9dP523G4v4wMPG9oKQRYZl2X4/CY7P+IGeIwK
-3wc9xf4fKPbVVUxzAPnPYUyj0k7Bz7fzB7o/sGWSsbpWYW9TzSusj0RDmHaAvryh
-FB37IpyIWhPRZnz0WTZw0LLp8aCRkyJph3uW8jCmgtkHg5znyhGbHkQoVOEm1aZO
-TYIrReWpDR3dAZfRSKuWezWMt7Z2bg==
-=MTQh
------END PGP SIGNATURE-----
-
---===============0074356876256594768==--
+  - ref: refs/heads/next
+    old: 75d9ef7cf1e694e5c0fb387be99f04acc7f864a4
+    new: 91920a9d87f5192c56ba5bf3e133aeb3576b705d
+    log: |
+         6573d552e28c22f5f7b7eedce3ac7c2677032b13 Documentation: genpt: Don't use code block marker before iommu_amdv1.c include listing
+         e4dfaf25df1210af6776b6672191cf5e32ba5529 iommupt: Describe @bitnr parameter
+         5cb637d9425d7c6282b9f7470d273e4ecac6efb8 iommupt: Documentation fixes
+         9ad648017b1813a05c4ce899e5e454ec3adb1dfe iommu/iommupt: Fix build error in genericpt unit-tests
+         91920a9d87f5192c56ba5bf3e133aeb3576b705d Merge branches 'arm/smmu/updates', 'arm/smmu/bindings', 'mediatek', 'nvidia/tegra', 'amd/amd-vi' and 'core' into next
+         
