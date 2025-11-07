@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2383354516101764646=="
+Content-Type: multipart/mixed; boundary="===============1115340014939021906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 07 Nov 2025 18:42:39 -0000
-Message-Id: <176254095979.1439138.4663290737247595136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 07 Nov 2025 18:42:56 -0000
+Message-Id: <176254097683.1439454.4582722395052860051@gitolite.kernel.org>
 
---===============2383354516101764646==
+--===============1115340014939021906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: da32d155f4a8937952ca6fd55d3270fec1c3799f
     log: revlist-c9cfc122f037-da32d155f4a8.txt
 
---===============2383354516101764646==
+--===============1115340014939021906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -202,4 +202,4 @@ a80abfbb1013ffec7aa7e574b5ba9bcf02bd5462 Merge tag 'slab-for-6.18-rc5' of git://
 5b95a50001f1fbcae6b7fe211a02f37a04dd9a4b Merge tag 'trace-v6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 da32d155f4a8937952ca6fd55d3270fec1c3799f Merge tag 'gpio-fixes-for-v6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============2383354516101764646==--
+--===============1115340014939021906==--
