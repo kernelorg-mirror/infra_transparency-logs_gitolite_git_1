@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 07 Nov 2025 22:44:20 -0000
-Message-Id: <176255546067.1688032.9926621263942950030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Fri, 07 Nov 2025 22:46:24 -0000
+Message-Id: <176255558479.1690521.5548114403129789127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: e06cf1c4a58d201d2e1e49138a20e81fc816b65c
-    new: 7db7d6de27387166327c2350fab4e9e2ef4fae4d
+  - ref: refs/heads/dev
+    old: 4f7b54e17eddac93c78151ffc80b8437ab11c90b
+    new: c8a3dfe7315945ebcc80ed5be8267920b609649a
     log: |
-         fb1ebb10468da414d57153ddebaab29c38ef1a78 regulator: core: disable supply if enabling main regulator fails
-         7db7d6de27387166327c2350fab4e9e2ef4fae4d Merge remote-tracking branch 'regulator/for-6.19' into regulator-next
+         77563f3d4704206c8f6626852365591aa4e0b779 audit: Use kzalloc() instead of kmalloc()/memset() in audit_krule_to_data()
+         c8a3dfe7315945ebcc80ed5be8267920b609649a audit: merge loops in __audit_inode_child()
+         
+  - ref: refs/heads/next
+    old: 4f7b54e17eddac93c78151ffc80b8437ab11c90b
+    new: c8a3dfe7315945ebcc80ed5be8267920b609649a
+    log: |
+         77563f3d4704206c8f6626852365591aa4e0b779 audit: Use kzalloc() instead of kmalloc()/memset() in audit_krule_to_data()
+         c8a3dfe7315945ebcc80ed5be8267920b609649a audit: merge loops in __audit_inode_child()
          
