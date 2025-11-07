@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7532805845923520223=="
+Content-Type: multipart/mixed; boundary="===============7838289614632026900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 07 Nov 2025 09:42:09 -0000
-Message-Id: <176250852919.935971.7095478770617170189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 07 Nov 2025 10:14:04 -0000
+Message-Id: <176251044493.961476.8085385771071310982@gitolite.kernel.org>
 
---===============7532805845923520223==
+--===============7838289614632026900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: f8003bf7e5089412f1fab2474d9f3f1b114b0f3b
-    new: 3bce60baca4620ab4038a14a23b5cf162daeb6fe
-    log: revlist-f8003bf7e508-3bce60baca46.txt
-  - ref: refs/heads/pwm/th1520
-    old: 0000000000000000000000000000000000000000
-    new: 6d64bbf09c94defce38c91b2fa8fc33f2cd051e7
-  - ref: refs/heads/pwm/rust-base
-    old: 0000000000000000000000000000000000000000
-    new: 4594dea300d0769165667c2dada6a39a1f0617b8
-  - ref: refs/heads/pwm/rust-module-namespace
-    old: 0000000000000000000000000000000000000000
-    new: 739ad9be61e5f53dbd8d7d7e80723d0799ff077c
+  - ref: refs/heads/for-6.19
+    old: 4e92abd0a11b91af3742197a9ca962c3c00d0948
+    new: 4a58f60df578bb55a1d0adca0c356e03b2818de1
+    log: |
+         bd352547df647be8a1e6c9d4ca2b54b459f3abc1 spi: dt-bindings: fsl-qspi: support SpacemiT K1
+         873a46141460d209bb62eaa0dc9e7b67bff924a6 spi: dt-bindings: fsl-qspi: add optional resets
+         106d7641e55a472e7523c1f525c77fb6d420064d spi: fsl-qspi: add optional reset support
+         6b398c1d3da7a673b13b1857f9fff4c15ee20cef spi: fsl-qspi: switch predicates to bool
+         1797d254f5c4b46b295527a635af7321a3fe1318 spi: fsl-qspi: add a clock disable quirk
+         56931105074fe7e5fc9d54e3163df3b95075643c spi: fsl-qspi: introduce sfa_size devtype data
+         abc9a349b87ac0fd3ba8787ca00971b59c2e1257 spi: fsl-qspi: support the SpacemiT K1 SoC
+         4a58f60df578bb55a1d0adca0c356e03b2818de1 spi: enable the SpacemiT K1 SoC QSPI
+         
 
---===============7532805845923520223==
+--===============7838289614632026900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8003bf7e508-3bce60baca46.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-739ad9be61e5f53dbd8d7d7e80723d0799ff077c rust: macros: Add support for 'imports_ns' to module!
-ce284f882022ebcb953984c7eccf4fc4eb531978 pwm: Export `pwmchip_release` for external use
-7b3dce814a15bc5d9fb6124cd945291012c4ebb9 rust: pwm: Add Kconfig and basic data structures
-d8046cd50879db371bbf6220477ec521692ab2f6 rust: pwm: Add complete abstraction layer
-264b501bb40dd22e8c4ab2c8a3378e32c2e04ec6 rust: pwm: Add module_pwm_platform_driver! macro
-a69a54f8dffb105b2df2e606b4c9f61127d006ac rust: pwm: Drop wrapping of PWM polarity and state
-620ea925ed117175ca686a1128055f0f17c2c838 pwm: mediatek: Convert to waveform API
-1de67e5f3b0b1a5c25548ea512d359bdaaf20737 pwm: airoha: Add support for EN7581 SoC
-51da5f0613fca5f0ccd7cb147b83696e64f6d4e3 pwm: mediatek: Remove unneeded semicolon
-47f37e1bc68848995212160fd9e8475f78ce33bc pwm: mediatek: Make use of struct_size macro
-4594dea300d0769165667c2dada6a39a1f0617b8 rust: pwm: Fix broken intra-doc link
-218e70745241c0350f65694372abe14927519378 pwm: Add Rust driver for T-HEAD TH1520 SoC
-6b06f9fa10b7d9b64fb23d702d66cddd36c956bb dt-bindings: pwm: thead: Add T-HEAD TH1520 PWM controller
-a0b5818abec005f2ebeb444bc4a96a14273c9f22 pwm: Fix Rust formatting
-0875c59f6e163e95f4f42d6570d546dd732d8e1b pwm: th1520: Fix clippy warning for redundant struct field init
-6d64bbf09c94defce38c91b2fa8fc33f2cd051e7 pwm: th1520: Use module_pwm_platform_driver! macro
-3bce60baca4620ab4038a14a23b5cf162daeb6fe Merge branch 'pwm/th1520' into pwm/for-next
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1762510511 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1762510442-3570035cb6c172b0fb86f7ab78f04ff8f4892447
 
---===============7532805845923520223==--
+4e92abd0a11b91af3742197a9ca962c3c00d0948 4a58f60df578bb55a1d0adca0c356e03b2818de1 refs/heads/for-6.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkNxq8ACgkQJNaLcl1U
+h9DXLQf+L0GWMT7MXs6XznTRoGYnv3Frd9cYO++c2Nw5ZH/F9+ir+mQZamhkyYMv
+SeCQ0D66EPvrV/FOCr/GjVwT09oU3dW/HDkGWmcAUUZ/uz83UGxRoN9fNKj7BbiB
+zzoVz/SwA+kh+yGoH1dps7dS9pTPf5mlBPSLvMQNjHh3C34CjDCtsWXA30z/84pM
+DZ2zk+p+lG2cJupEEULO9h0MoRyaNcTNuMmaMCrDBLBELrcODo/+irUL38sMRyL3
+5JoGvPczrxMAp5zJNJQ9Od2alblbosFkbT+nMY/wmHDgHEv8qPgbvBqEpIFwbKef
+nNmpiFeQFWsvJi8w62v5OerPgM5xHg==
+=LQvc
+-----END PGP SIGNATURE-----
+
+--===============7838289614632026900==--
