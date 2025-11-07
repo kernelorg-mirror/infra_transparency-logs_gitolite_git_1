@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8599825443666284025=="
+Content-Type: multipart/mixed; boundary="===============6048108581768033482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 07 Nov 2025 17:01:25 -0000
-Message-Id: <176253488597.1347108.495928226644641520@gitolite.kernel.org>
+Date: Fri, 07 Nov 2025 17:14:35 -0000
+Message-Id: <176253567535.1357158.14410404894579098004@gitolite.kernel.org>
 
---===============8599825443666284025==
+--===============6048108581768033482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: b9eb2286367e86d9032b039491f65592a0fe3e83
-    new: cc1bfcd4e543eb4d0c6a04788271f265e573ac39
-    log: revlist-b9eb2286367e-cc1bfcd4e543.txt
+  - ref: refs/heads/1GbE
+    old: 3534e03e0ec2e00908765549828a69df5ebefb91
+    new: 74d4432421a3e2669fbccc08c0f4fc2980bf0e39
+    log: revlist-3534e03e0ec2-74d4432421a3.txt
 
---===============8599825443666284025==
+--===============6048108581768033482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9eb2286367e-cc1bfcd4e543.txt
+Content-Disposition: attachment; filename=revlist-3534e03e0ec2-74d4432421a3.txt
 
 c34e08ba6c0037a72a7433741225b020c989e4ae drm/msm: Fix GEM free for imported dma-bufs
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
@@ -249,16 +249,5 @@ c9cfc122f03711a5124b4aafab3211cf4d35a2ac Merge tag 'for-6.18-rc4-tag' of git://g
 dc77806cf3b4788d328fddf245e86c5b529f31a2 Merge tag 'rust-fixes-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 c2c2ccfd4ba72718266a56f3ecc34c989cb5b7a0 Merge tag 'net-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 74d4432421a3e2669fbccc08c0f4fc2980bf0e39 docs: netlink: Couple of intro-specs documentation fixes
-90c5e360ff626abdaba8cc9555dde949f22bdd53 ice: fix fwlog after driver reinit
-bd904bea97eed391fd64c2b2ab52dbd2579dd485 ice: Fix enable_cnt imbalance on resume
-b7bbb19288c9b759963f5c9c7c2e952207d23add ice: Fix enable_cnt imbalance on PCIe error recovery
-5c5b7a152805f1badbea3471a84ce59fb6d158eb i40e: Fix enable_cnt imbalance on PCIe error recovery
-3bdd6298895a4f9fbd92a80632efb499bf4075d7 igc: fix race condition in TX timestamp read for register 0
-a14405b8aea2f3f1b52cf16d631ddea8f05e85fb idpf: fix memory leak of flow steer list on rmmod
-8315bf9b9cdfa76ab7bcb51be9ef4714be2c2297 idpf: fix issue with ethtool -n command display
-67f485ca069e8edfdf9de0632fff2f329eacd3f5 idpf: fix LAN memory regions command on some NVMs
-26b46ccfddbf3df0e1e1b5b5464f4bd5d3c2f01d idpf: fix possible vport_config NULL pointer deref in remove
-4764b8534d206191ea0b42b0490ded47741ff273 ice: fix PTP cleanup on driver removal in error path
-cc1bfcd4e543eb4d0c6a04788271f265e573ac39 iavf: fix off-by-one issues in iavf_config_rss_reg()
 
---===============8599825443666284025==--
+--===============6048108581768033482==--
