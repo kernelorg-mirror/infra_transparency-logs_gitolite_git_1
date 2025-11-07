@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Fri, 07 Nov 2025 19:37:52 -0000
-Message-Id: <176254427211.1508012.2283072731368743534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 07 Nov 2025 19:45:11 -0000
+Message-Id: <176254471124.1515445.6131038928618751546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 675d009f452bba5856ebfc30c008b7ed7db3e8f7
-    new: 5571941f4e37fad65379bf6ca0aa81ed323fc3c1
+  - ref: refs/heads/bleeding-edge
+    old: 80b043c0d7ac42079d912c8c436c95ecc77e16c8
+    new: 3fe2b0901cce079bd1c0a14ce539f9189f3a5347
     log: |
-         1b0c27433b0341a6e4e45a25daf9b183333b81ec refactor(error): refine error handlinge
-         5571941f4e37fad65379bf6ca0aa81ed323fc3c1 refactor: rename TpmBodyMarshal TpmMarshalBody
+         13a96342d59f4edbe237245e84c418c045b66188 thermal: intel: Select INT340X_THERMAL from INTEL_SOC_DTS_THERMAL
+         966c9e65ba5246d5874a9f6ac5f318f7f50aea89 ACPI: DPTF: Remove int340x thermal scan handler
+         3fe2b0901cce079bd1c0a14ce539f9189f3a5347 Merge branch 'thermal-intel' into bleeding-edge
          
