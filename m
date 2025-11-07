@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 07 Nov 2025 03:22:16 -0000
-Message-Id: <176248573666.587154.268663947370491614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Fri, 07 Nov 2025 03:23:45 -0000
+Message-Id: <176248582536.587831.4225767631532634593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
   - ref: refs/heads/master
-    old: 69891d9eca6afa062a821be75bc65177b7918834
-    new: 6909bea42362ee8bdaf3580c67504689eeb91f6f
+    old: 5362f82401213928e41ac4924f8bc75e3aae5479
+    new: 05dac0d9957c2241d791dfe923a8f53d535d5490
     log: |
-         6909bea42362ee8bdaf3580c67504689eeb91f6f patches/next: rebase to latest mm-new
+         a6a98bbe69e4bffc4523ec85c3ea3f2e07c76be9 kvm-xfstests: add sensible defaults for kvm-xfstests -c {virtiofs,9p}
+         6c9e01048e909ea0993510acab73b7f5290c5680 test-appliance:	exclude test groups for features not supported in virtiofs
+         05dac0d9957c2241d791dfe923a8f53d535d5490 kernel-config: add CONFIG_CRYPTO_SHA512 explicitly for v6.12+
          
