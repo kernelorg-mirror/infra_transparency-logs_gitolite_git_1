@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0627552516401040183=="
+Content-Type: multipart/mixed; boundary="===============1543664505956705434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 07 Nov 2025 03:21:37 -0000
-Message-Id: <176248569787.586312.9389166913043756630@gitolite.kernel.org>
+Date: Fri, 07 Nov 2025 03:21:39 -0000
+Message-Id: <176248569924.586423.2575840057084761911@gitolite.kernel.org>
 
---===============0627552516401040183==
+--===============1543664505956705434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 60fec00df9ad5d349393621d2c3628e525f2a237
-    new: 756286532afce5edd931f67ca1a9a47d99c570a7
-    log: revlist-60fec00df9ad-756286532afc.txt
+  - ref: refs/heads/mm-unstable
+    old: 3b80c3df7d1a6387f78cd6d16b3658c2120bfdd9
+    new: 6eaef69305337c72937055e0038b4f6d104231d9
+    log: revlist-3b80c3df7d1a-6eaef6930533.txt
 
---===============0627552516401040183==
+--===============1543664505956705434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60fec00df9ad-756286532afc.txt
+Content-Disposition: attachment; filename=revlist-3b80c3df7d1a-6eaef6930533.txt
 
 32438bc0a60cd14fc52c10861022aa2701f35406 mm/huge_memory: do not change split_huge_page*() target order silently
 b49549b098d069ba29de941fd0215991ac8fbddd kho: warn and fail on metadata or preserved memory in scratch area
@@ -297,17 +297,5 @@ afa83533dbb36e258dea76df5ef99b0f202b4300 mm/damon/tests/vaddr-kunit: handle allo
 75cea99fd55ee47d987823fc8ca45a80de27dec8 mm/damon/tests/sysfs-kunit: handle alloc failures on damon_sysfs_test_add_targets()
 29c8ea7ac98fe4a03c24ffc484f838c55b767479 mm/damon/tests/core-kunit: remove unnecessary damon_ctx variable on damon_test_split_at()
 6eaef69305337c72937055e0038b4f6d104231d9 mm/damon/tests/core-kunit: remove unused ctx in damon_test_split_regions_of()
-16b38e02a5c3d1c6c9b7a7b2ec1676b2938484ba mm: kill mm_wr_locked from unmap_vmas() and unmap_single_vma()
-7cbaa4e43a8ea212ef54e1040bedfe94b5751fcd lib/alloc_tag: use %pe format specifier
-4a735cae4d694dba6bcfbc17d319118182f72790 hugetlb: optimise hugetlb_folio_init_tail_vmemmap()
-8480ab5f17f9a66cde56adad184f82bc6184252e migrate: optimise alloc_migration_target()
-612b5113d6ccabffa213b9dfbed547e5a649f94d mm/migrate: fix zidx type
-d77b4d264428d192ac20d3561beab2ec9861b55f memory_hotplug: optimise try_offline_memory_block()
-8813c6cf9caaa12f07ecffbede080f98b2e6aec2 mm: constify __dump_folio() arguments
-4e0b55898fcba68b95217ca0fef0d1ccf907686f mm/huge_memory: introduce enum split_type for clarity
-9ab443ad223b448ff276b4ecefe7aeb4760ffe92 mm-huge_memory-introduce-enum-split_type-for-clarity-fix
-ba224a5482e6e446b90776ccd34b8d1955b7dd9c mm/huge_memory: merge uniform_split_supported() and non_uniform_split_supported()
-de8a6cd2b5d149f5bf8cc290d922db2f1a6bf92c mm/hugetlb: extract sysfs into hugetlb_sysfs.c
-756286532afce5edd931f67ca1a9a47d99c570a7 mm/hugetlb: extract sysctl into hugetlb_sysctl.c
 
---===============0627552516401040183==--
+--===============1543664505956705434==--
