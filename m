@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2554278270604542472=="
+Content-Type: multipart/mixed; boundary="===============1270235026324184678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Nov 2025 17:33:29 -0000
-Message-Id: <176253680942.1375499.6945500504468116470@gitolite.kernel.org>
+Date: Fri, 07 Nov 2025 17:33:32 -0000
+Message-Id: <176253681211.1375578.7825229903986566091@gitolite.kernel.org>
 
---===============2554278270604542472==
+--===============1270235026324184678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 13068e9d57264d0a86b8195817a01155ba33d230
     new: c6934c4e049c8a7f2b7fab620c04bc5dfbd947c1
     log: revlist-13068e9d5726-c6934c4e049c.txt
 
---===============2554278270604542472==
+--===============1270235026324184678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -352,4 +352,4 @@ e43791f40b814d00b8e2be41f9d2bc2a97246d6d net: rtsn: Use common defines for time 
 6fc33710cd6c55397e606eeb544bdf56ee87aae5 Merge branch 'net-renesas-cleanup-usage-of-gptp-flags'
 c6934c4e049c8a7f2b7fab620c04bc5dfbd947c1 netlink: specs: netdev add missing stats to qstat-get
 
---===============2554278270604542472==--
+--===============1270235026324184678==--
