@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6928821548743577120=="
+Content-Type: multipart/mixed; boundary="===============5537035027701665391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Fri, 07 Nov 2025 17:45:10 -0000
-Message-Id: <176253751041.1388078.1343515394100918265@gitolite.kernel.org>
+Date: Fri, 07 Nov 2025 17:46:18 -0000
+Message-Id: <176253757800.1388597.458462699169595554@gitolite.kernel.org>
 
---===============6928821548743577120==
+--===============5537035027701665391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: 7f17ef0d47b9aa01b89a92b2514fbfe800d8aeca
     new: da32d155f4a8937952ca6fd55d3270fec1c3799f
     log: revlist-7f17ef0d47b9-da32d155f4a8.txt
 
---===============6928821548743577120==
+--===============5537035027701665391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -227,4 +227,4 @@ a80abfbb1013ffec7aa7e574b5ba9bcf02bd5462 Merge tag 'slab-for-6.18-rc5' of git://
 5b95a50001f1fbcae6b7fe211a02f37a04dd9a4b Merge tag 'trace-v6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 da32d155f4a8937952ca6fd55d3270fec1c3799f Merge tag 'gpio-fixes-for-v6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============6928821548743577120==--
+--===============5537035027701665391==--
