@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Fri, 07 Nov 2025 19:30:06 -0000
-Message-Id: <176254380635.1502780.13422457010373418879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Fri, 07 Nov 2025 19:37:52 -0000
+Message-Id: <176254427211.1508012.2283072731368743534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/edac-for-next
-    old: a1edab7c97954a6488a094999a6ebe5c6de73a10
-    new: 3e424474311023e23df18d495337addf91b90e59
+  - ref: refs/heads/main
+    old: 675d009f452bba5856ebfc30c008b7ed7db3e8f7
+    new: 5571941f4e37fad65379bf6ca0aa81ed323fc3c1
     log: |
-         2cf95b9baa52262bfb645cb3c04f902dd50c29e2 EDAC/versalnet: Handle split messages for non-standard errors
-         3e424474311023e23df18d495337addf91b90e59 Merge ras/edac-urgent into for-next
+         1b0c27433b0341a6e4e45a25daf9b183333b81ec refactor(error): refine error handlinge
+         5571941f4e37fad65379bf6ca0aa81ed323fc3c1 refactor: rename TpmBodyMarshal TpmMarshalBody
          
