@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 07 Nov 2025 19:21:09 -0000
-Message-Id: <176254326970.1475407.4529327891954319363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 07 Nov 2025 19:22:07 -0000
+Message-Id: <176254332722.1475984.2512779663338724408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 220cdf3c158c32c27d667e33e42684a83821d71d
-    new: fc29068ee8c23716ef8e97c8cf7af1079abcbefd
-    log: |
-         fc29068ee8c23716ef8e97c8cf7af1079abcbefd mmc: renesas_sdhi: Set the SDBUF after reset
-         
+  - ref: refs/tags/parisc-for-6.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 0e2aee83c330e0cf6969ed6df6c839e06f2fd609
