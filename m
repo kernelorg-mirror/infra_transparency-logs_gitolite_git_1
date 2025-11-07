@@ -1,41 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8639314374247450481=="
+Content-Type: multipart/mixed; boundary="===============1119678988540360205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 07 Nov 2025 15:44:13 -0000
-Message-Id: <176253025348.1275948.785413509152758064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 07 Nov 2025 15:48:50 -0000
+Message-Id: <176253053026.1279820.4120688676385721755@gitolite.kernel.org>
 
---===============8639314374247450481==
+--===============1119678988540360205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: b98c94eed4a975e0c80b7e90a649a46967376f58
-    new: 8e8ae788964aa2573b4335026db4068540fa6a86
-    log: revlist-b98c94eed4a9-8e8ae788964a.txt
+  - ref: refs/heads/for-6.18
+    old: 86d57d9c07d54e8cb385ffe800930816ccdba0c1
+    new: 939edfaa10f1d22e6af6a84bf4bd96dc49c67302
+    log: |
+         939edfaa10f1d22e6af6a84bf4bd96dc49c67302 spi: xilinx: increase number of retries before declaring stall
+         
 
---===============8639314374247450481==
+--===============1119678988540360205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b98c94eed4a9-8e8ae788964a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-535fdfc5a228524552ee8810c9175e877e127c27 arm64: Use load LSE atomics for the non-return per-CPU atomic operations
-eeb8c19896952e18fb538ec76e603884070a6c6a Revert "ACPI: Suppress misleading SPCR console message when SPCR table is absent"
-7991fda619f7251994ab364f03f3e6fc0aa143d9 arm64: acpi: Drop message logging SPCR default console
-0ec364c0c95fc85bcbc88f1a9a06ebe83c88e18c arm64: kprobes: check the return value of set_memory_rox()
-ce2b3a50ad922abbba36425343a1bcec46903a26 arm64: mm: Don't sleep in split_kernel_leaf_mapping() when in atomic context
-40a292f701474f7c21b27911677485efa233e94e arm64: mm: Optimize range_split_to_ptes()
-53357f14f924a06cced46069755bb10c2a6891c1 arm64: mm: Tidy up force_pte_mapping()
-62e72463ca714073962eda450e80c5d71dfb0dcb arm64: proton-pack: Drop print when !CONFIG_MITIGATE_SPECTRE_BRANCH_HISTORY
-7f1635737823a6c0c412ccf3767a12bec642c10f arm64: proton-pack: Fix hard lockup due to print in scheduler context
-6d4a0fbd34a40c9f877b136de874dc3498031309 arm64: Fail module loading if dynamic SCS patching fails
-8e8ae788964aa2573b4335026db4068540fa6a86 arm64: Reject modules with internal alternative callbacks
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1762530596 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1762530528-176d5030fe2f9da26ac5e26f4809116e502686ff
 
---===============8639314374247450481==--
+86d57d9c07d54e8cb385ffe800930816ccdba0c1 939edfaa10f1d22e6af6a84bf4bd96dc49c67302 refs/heads/for-6.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkOFSQACgkQJNaLcl1U
+h9B8Tgf9HicYyYj6ytk4t++AGh687PDnAAU1RYfQIyRLjRBFmVEWbQBEq2OwyEbe
+5gg8z7mJhCWlzroaTKQNuZ8xcIt4LRxfm84awu5IYFieAI8602PiffcgRa8ueH4Y
+mk4kDxdt2EnCUjij47Ktnp8EdMpjsy7YYX3ap/ooIM0sEI/j/VRu+6hiFpcugQ7E
+Eee0hD/H2Pz0Bxs8IhmXkl+Q+64XsOzY+eRD6yYYBJEwS1ihh/o6oK648Quifu57
+je9U+X+7SwUmoC0KsuyHoFQPRfbOYUOZtke56MOOzWA7WeO5dWCYuS4P0TQqALCN
+9l29IZ1xjgpkRgRcYhD+J8MFXqANww==
+=78Rj
+-----END PGP SIGNATURE-----
+
+--===============1119678988540360205==--
