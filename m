@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 07 Nov 2025 15:58:28 -0000
-Message-Id: <176253110805.1289755.14598381090493378217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 07 Nov 2025 16:00:37 -0000
+Message-Id: <176253123784.1293147.10611287040146110632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/timers/vdso
-    old: 4c6736970fbf35aa65512ce7f82abd970f133c8e
-    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
+  - ref: refs/heads/main
+    old: 6fc33710cd6c55397e606eeb544bdf56ee87aae5
+    new: c6934c4e049c8a7f2b7fab620c04bc5dfbd947c1
+    log: |
+         c6934c4e049c8a7f2b7fab620c04bc5dfbd947c1 netlink: specs: netdev add missing stats to qstat-get
+         
