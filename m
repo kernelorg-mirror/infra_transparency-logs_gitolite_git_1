@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0673772110144913922=="
+Content-Type: multipart/mixed; boundary="===============3669388605957736659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 07 Nov 2025 09:35:10 -0000
-Message-Id: <176250811056.930165.14890069725782370535@gitolite.kernel.org>
+Date: Fri, 07 Nov 2025 09:35:18 -0000
+Message-Id: <176250811825.930350.17164240820959260160@gitolite.kernel.org>
 
---===============0673772110144913922==
+--===============3669388605957736659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 8dc5245673cf7f33743e5c0d2a4207c0b8df3067
+  - ref: refs/heads/loongarch-next
+    old: 032676ff8217cab3273da56ee774b64c46b56b5e
     new: 077127913e597beeac20cbbd651ad0b3db808aaf
-    log: revlist-8dc5245673cf-077127913e59.txt
+    log: revlist-032676ff8217-077127913e59.txt
 
---===============0673772110144913922==
+--===============3669388605957736659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dc5245673cf-077127913e59.txt
+Content-Disposition: attachment; filename=revlist-032676ff8217-077127913e59.txt
 
 18a7e218cfcdca6666e1f7356533e4c988780b57 Merge tag 'net-6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 80b7065ec19485943fa00d60f27b447c3f17069c Merge tag '9p-for-6.18-rc1' of https://github.com/martinetd/linux
@@ -1051,4 +1051,4 @@ bace25596d22eadad5748a24a0ceb4a3b9a4f399 LoongArch: KVM: Add delay until timer i
 a8c45a68efc4ee2e8395280bdd45f78bc6eb82ce LoongArch: KVM: Skip PMU checking on vCPU context switch
 077127913e597beeac20cbbd651ad0b3db808aaf LoongArch: KVM: Fix max supported vCPUs set with EIOINTC
 
---===============0673772110144913922==--
+--===============3669388605957736659==--
