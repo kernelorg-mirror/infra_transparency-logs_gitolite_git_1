@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 08 Nov 2025 02:22:08 -0000
-Message-Id: <176256852812.1921099.13878216389070948780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 08 Nov 2025 02:26:20 -0000
+Message-Id: <176256878005.1925354.3155117174909860803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 74d4432421a3e2669fbccc08c0f4fc2980bf0e39
-    new: 4da4e4bde1c453ac5cc2dce5def81d504ae257ee
+  - ref: refs/heads/master
+    old: 7c65c65485adebc1a1c3e9042a1d8dad7a498ecd
+    new: 7230c3460c02876514a3a71fc7a16986ac152462
     log: |
-         4da4e4bde1c453ac5cc2dce5def81d504ae257ee strparser: Fix signed/unsigned mismatch bug
+         7230c3460c02876514a3a71fc7a16986ac152462 Drop media-adv7180-add-missing-lock-in-suspend-callback.patch from 5.15
          
