@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0763389488711772766=="
+Content-Type: multipart/mixed; boundary="===============1154537046565012665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 08 Nov 2025 02:11:58 -0000
-Message-Id: <176256791807.1911622.7645315063736056154@gitolite.kernel.org>
+Date: Sat, 08 Nov 2025 02:11:59 -0000
+Message-Id: <176256791998.1911746.12780077823270907824@gitolite.kernel.org>
 
---===============0763389488711772766==
+--===============1154537046565012665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 756286532afce5edd931f67ca1a9a47d99c570a7
-    new: 02dafa01ec9a00c3758c1c6478d82fe601f5f1ba
-    log: revlist-756286532afc-02dafa01ec9a.txt
+  - ref: refs/heads/mm-unstable
+    old: 6eaef69305337c72937055e0038b4f6d104231d9
+    new: 4450d244e9f4d8b2fc5e217bb0de3fad983db346
+    log: revlist-6eaef6930533-4450d244e9f4.txt
 
---===============0763389488711772766==
+--===============1154537046565012665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-756286532afc-02dafa01ec9a.txt
+Content-Disposition: attachment; filename=revlist-6eaef6930533-4450d244e9f4.txt
 
 797c690d3016bc2f9d6021e6eda6f5709ccfa9c7 mm/huge_memory: do not change split_huge_page*() target order silently
 dfe2083bed2e61e6d5fab07fe6c07328722ca31d kho: warn and fail on metadata or preserved memory in scratch area
@@ -300,27 +300,5 @@ c38ae1799ef2985b066a7848b2514ee354dcdd24 mm/damon/tests/vaddr-kunit: handle allo
 f6f7c338d42c2a7ead2178f808244280dcf47fde mm/damon/tests/sysfs-kunit: handle alloc failures on damon_sysfs_test_add_targets()
 f60a9b54dd6908ed45324d3098a3dff5995433bd mm/damon/tests/core-kunit: remove unnecessary damon_ctx variable on damon_test_split_at()
 4450d244e9f4d8b2fc5e217bb0de3fad983db346 mm/damon/tests/core-kunit: remove unused ctx in damon_test_split_regions_of()
-fe4c4564f105bd771b838ddb73518871d318df5a mm: kill mm_wr_locked from unmap_vmas() and unmap_single_vma()
-b1830385e5fc2ec3551eccf50100d8dd2a15d3f4 lib/alloc_tag: use %pe format specifier
-c93598e06211c558e33609dd4c4b605a7a646279 hugetlb: optimise hugetlb_folio_init_tail_vmemmap()
-57786b9547094cd0de34982fa91c9c69c7c449db migrate: optimise alloc_migration_target()
-911b77e371735500d0f7f1583c52c66224a3e7a3 mm/migrate: fix zidx type
-54f2dd894390876371ee9d353680ef85fc030cb7 memory_hotplug: optimise try_offline_memory_block()
-b51755959b85ac0e167594b34bb36b784ca267ad mm: constify __dump_folio() arguments
-e47818a7e2006bd1d9521ba79ede2bf5d3fbe87a mm/huge_memory: introduce enum split_type for clarity
-b346e6ba35f40102dc9290b1c5327bf3fc11d0ed mm-huge_memory-introduce-enum-split_type-for-clarity-fix
-55d65c99084886bedb303e5c74d60edcc7fc4f6d mm/huge_memory: merge uniform_split_supported() and non_uniform_split_supported()
-53f3025934e425fa0f5beb577e7ab46d4b3f0230 mm/hugetlb: extract sysfs into hugetlb_sysfs.c
-d0ca24fac86748c0c7c32bb3bfed3ad0ea53043b mm/hugetlb: extract sysctl into hugetlb_sysctl.c
-9925fea0247282982a6ef62ecec5b8306ed08e94 mm: introduce VM_MAYBE_GUARD and make visible in /proc/$pid/smaps
-bf91f4ed2a530f2e55e7b202c1692a4c682888d6 mm: add atomic VMA flags and set VM_MAYBE_GUARD as such
-65a90fb7d6c3c7968bb76dc31853740ef8074bf7 mm: implement sticky VMA flags
-fa60f8212a1597f7be610d5ae8bf53f9f802a00a mm: introduce copy-on-fork VMAs and make VM_MAYBE_GUARD one
-85de428c7ca1b71457690b95e162662d0edb2792 mm: set the VM_MAYBE_GUARD flag on guard region install
-327dde61eea4064fe59bdd52307331797cb99803 tools/testing/vma: add VMA sticky userland tests
-501ce1f054eaf93977542fb4844519278cbebf32 tools/testing/selftests/mm: add MADV_COLLAPSE test case
-13234c71b1c48d8b32e2f0cc06f57abcba2d3cbc tools/testing/selftests/mm: add smaps visibility guard region test
-f79f666e7dc7d7e301b098ff1a6c4b55bb550860 mm: refine __{pgd,p4d,pud,pmd,pte}_alloc_one_*() about HIGHMEM
-02dafa01ec9a00c3758c1c6478d82fe601f5f1ba mm: memcg: dump memcg protection info on oom or alloc failures
 
---===============0763389488711772766==--
+--===============1154537046565012665==--
