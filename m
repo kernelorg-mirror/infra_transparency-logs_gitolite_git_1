@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 08 Nov 2025 03:01:25 -0000
-Message-Id: <176257088591.1956253.8901339534131951467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 08 Nov 2025 03:01:43 -0000
+Message-Id: <176257090399.1956475.10270039427438911379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 01c87d7f48b4f9b8be0950ed4de5d345632bd564
-    new: fd9557c3606bb683c01a6c7627e915b539b9a8df
+    old: ad17e7e92a7c52ce70bb764813fcf99464f96903
+    new: 96a9178a29a6b84bb632ebeb4e84cf61191c73d5
     log: |
-         fd9557c3606bb683c01a6c7627e915b539b9a8df net: add prefetch() in skb_defer_free_flush()
+         96a9178a29a6b84bb632ebeb4e84cf61191c73d5 net: phy: micrel: lan8814 fix reset of the QSGMII interface
          
