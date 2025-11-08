@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Sat, 08 Nov 2025 21:57:53 -0000
-Message-Id: <176263907376.2900947.9056908571917547444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 08 Nov 2025 22:14:46 -0000
+Message-Id: <176264008610.2914204.2340868736827130366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/i3c/next
-    old: fba0e56ee7524995b1fc9d1e90602496fc09d80f
-    new: ddb37d5b130e173090c861b4d1c20a632fb49d7a
+  - ref: refs/heads/for-next
+    old: 1aa4524c0c1b54842c4c0a370171d11b12d0709b
+    new: 3317aaca33dc6620d3dcc46216061df33bfff7db
     log: |
-         ddb37d5b130e173090c861b4d1c20a632fb49d7a i3c: mipi-i3c-hci-pci: Add support for Intel Nova Lake-S I3C
+         3317aaca33dc6620d3dcc46216061df33bfff7db parisc: remove unneeded semicolon in perf_regs.c
          
