@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3349185811167172032=="
+Content-Type: multipart/mixed; boundary="===============4591976560910782294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 09 Nov 2025 10:00:33 -0000
-Message-Id: <176268243374.3494582.7594655972636847764@gitolite.kernel.org>
+Date: Sun, 09 Nov 2025 10:01:20 -0000
+Message-Id: <176268248000.3495090.8195121547616661549@gitolite.kernel.org>
 
---===============3349185811167172032==
+--===============4591976560910782294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 937a62a5d69519208f59d4a6c8c46e7bc77b6eba
-    new: f91afbbad4cb11bda3d2b98589e233302331f2be
-    log: revlist-937a62a5d695-f91afbbad4cb.txt
+    old: f91afbbad4cb11bda3d2b98589e233302331f2be
+    new: 5322b728568c41b4e5120ec656ded6ebe05ef727
+    log: revlist-f91afbbad4cb-5322b728568c.txt
 
---===============3349185811167172032==
+--===============4591976560910782294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-937a62a5d695-f91afbbad4cb.txt
+Content-Disposition: attachment; filename=revlist-f91afbbad4cb-5322b728568c.txt
 
-b1c9390f0a44566f7cbd2db979e2ca5393767d49 Revert "rtc: tps6586x: Fix initial enable_irq/disable_irq balance"
-0d510778c2f4913b5ca062b8a538929bff94e0be Revert "rtc: cpcap: Fix initial enable_irq/disable_irq balance"
-734e99623c5b65bf2c03e35978a0b980ebc3c2f8 smb: client: fix potential UAF in smb2_close_cached_fid()
-b540de9e3b4fab3b9e10f30714a6f5c1b2a50ec3 smb: client: fix refcount leak in smb2_set_path_attr
-8d54eacd82a0623a963e0c150ad3b02970638b0d xfs: fix delalloc write failures in software-provided atomic writes
-8d7bba1e8314013ecc817a91624104ceb9352ddc xfs: fix various problems in xfs_atomic_write_cow_iomap_begin
-f5714a3c1a5658251360603231efe1bee21f9c2c xfs: fix a rtgroup leak when xfs_init_zone fails
-21ab5179aafa2ded7f3851bfe7e043f8a3b6199d xfs: fix zone selection in xfs_select_open_zone_mru
-d8a823c6f04ef03e3bd7249d2e796da903e7238d xfs: free xfs_busy_extents structure when no RT extents are queued
-4012abe8a78fbb8869634130024266eaef7081fe smb: client: validate change notify buffer before copy
-146eb58629f45f8297e83d69e64d4eea4b28d972 io_uring: fix regbuf vector size truncation
-411336159064c5e89e8b89d30c6855db4bb92814 Revert "drm/nouveau: set DMA mask before creating the flush page"
-e284d5118ac3e430da32820215c08b2787de8eef Merge tag 'xfs-fixes-6.18-rc5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-3636cfa745e6a4ff0142e29068750439059867b0 Merge tag 'io_uring-6.18-20251107' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-e6f55fe790a698aba6f98bf6ae4f1c04246c5040 Merge tag 'locking-urgent-2025-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-133262cae98fcc0d36fec97213b69268eb166fd5 Merge tag 'perf-urgent-2025-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0d7bee10beeb59b1133bf5a4749b17a4ef3bbb01 Merge tag 'x86-urgent-2025-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7bb4d6512545a792a6cd8d6c8be5718920b9b11a Merge tag 'v6.18rc4-SMB-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-162f24cbb0f6ec596e7e9f3e91610d79dc805229 rtc: rx8025: fix incorrect register reference
-41d318c47fa2090dbca7329037e5d63abeddebdf Merge tag 'rtc-6.18-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-439fc29dfd3b9c072dfff292d91cfa2f6cfb702b Merge tag 'drm-fixes-2025-11-09' of https://gitlab.freedesktop.org/drm/kernel
-f91afbbad4cb11bda3d2b98589e233302331f2be Merge branch 'linus'
+91b74dc496cf62b20b6a4527f12d3c5640d0011b Merge branch into tip/master: 'core/bugs'
+1d7b5dc2e5786eb8c324f80d88408c0121542100 Merge branch into tip/master: 'core/core'
+d1e81c263e1f78b1aa39fd7a30d780c4e22ad218 Merge branch into tip/master: 'core/rseq'
+b36b2783186eaa3cc822441853d34a9d598a9f28 Merge branch into tip/master: 'irq/core'
+50f4f31b40a787cf91c2a4152613b3c0e2cfe3d6 Merge branch into tip/master: 'irq/drivers'
+5e264b3183c724a8896d6c764cdbf602335cd1aa Merge branch into tip/master: 'irq/msi'
+2093e4bb44f5d22632c05b4e0623dfe6f6d61f1b Merge branch into tip/master: 'locking/core'
+4ad94d821cfd92d0059b1bc86f7951632d6c8635 Merge branch into tip/master: 'objtool/core'
+65ef0f936637c19b6cb56c15a516dd4784102a7b Merge branch into tip/master: 'perf/core'
+3fca79085dc69285590ab3368f15a775ada9b11a Merge branch into tip/master: 'ras/core'
+3923a20e291b5c07f0d83900c381afbdb596e037 Merge branch into tip/master: 'sched/core'
+92a63e740fafb4acb5afc49114eaeff6dbdb63d6 Merge branch into tip/master: 'timers/core'
+411730ce3e65e144dce261586b8601ad6712f4df Merge branch into tip/master: 'x86/apic'
+fee64310fed4192c9c9091e21ba5328c938ae269 Merge branch into tip/master: 'x86/bugs'
+77dfcaf411957c7e400034b09d8cf039009e36cb Merge branch into tip/master: 'x86/cache'
+e5425d0df65529ef14295404cdb9f80d77835e73 Merge branch into tip/master: 'x86/cleanups'
+b49a8e7c985beb84943e881c367f3abb20a3542a Merge branch into tip/master: 'x86/core'
+39e7ceb786846517cf6d9d6a4c19bde6ab4e03ec Merge branch into tip/master: 'x86/cpu'
+b6a0e506e1a708f50d9c92b0016958b0d6cea1b2 Merge branch into tip/master: 'x86/entry'
+7ee85f7c14f4f7d6bc5109a533192989e66b4923 Merge branch into tip/master: 'x86/microcode'
+188e560f49ea85a011ecd1c6748599a20db88112 Merge branch into tip/master: 'x86/misc'
+bff257769d1f94b55c88b8892c5f8855c49eb218 Merge branch into tip/master: 'x86/mm'
+78b9f98721aa9e58c440c53117536d788cb8793b Merge branch into tip/master: 'x86/sev'
+5322b728568c41b4e5120ec656ded6ebe05ef727 Merge branch into tip/master: 'x86/sgx'
 
---===============3349185811167172032==--
+--===============4591976560910782294==--
