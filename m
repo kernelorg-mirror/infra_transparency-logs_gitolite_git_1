@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0259464852303596808=="
+Content-Type: multipart/mixed; boundary="===============7109919180338928600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 09 Nov 2025 02:18:18 -0000
-Message-Id: <176265469823.3110837.16933300176817981707@gitolite.kernel.org>
+Date: Sun, 09 Nov 2025 02:24:14 -0000
+Message-Id: <176265505474.3115869.7076297258359700199@gitolite.kernel.org>
 
---===============0259464852303596808==
+--===============7109919180338928600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 495df2da6944477d282d5cc0c13174d06e25b310
-    new: 23413fe138e05eef7f7cc86eaf2acf7ab7d8a628
+    old: 23413fe138e05eef7f7cc86eaf2acf7ab7d8a628
+    new: bd10acae08aeb9cd2f555acdbacb98b9fbb02a27
     log: |
-         de4cbbdf2d98a6f94dfc116247798d6600936335 staging: rtl8723bs: remove todo/note and duplicated EFUSE_CTRL macro
-         79b67612605096c0008e71f23f3820c7c117ba11 staging: rtl8723bs: use ether_addr_copy() for MAC address copying
-         70421f9bd8554c183877f2fe1fb95e7011f7a021 staging: vchiq_arm: delete unnecessary check
-         3a3fd27e06c38933f248eddf8e2ca328c24f0b07 staging: sm750fb: align sm750_hw_cursor_set_size() arguments
-         23413fe138e05eef7f7cc86eaf2acf7ab7d8a628 staging: sm750fb: avoid chained assignment in setcolreg()
+         90204a38a760b6445690e32f82b0b0e8ba857d29 staging: vc04_services: Drop bcm2835-camera driver
+         e31d4d647038ddec3185a6e1fd27001599b27756 staging: vchiq_arm: Remove bcm2835_camera from vchiq
+         3d2115ea5d14154fbf83112f5e505bf3b24984a8 staging: vchiq_arm: Improve inline documentation
+         bf9f0b00bb7fd0470c1255bcc8e76c81d122a609 include: linux: Destage VCHIQ interface headers
+         b178ad64edf4cc4ba7fa86de9060ffcc7fc04ffb staging: vc04_services: Cleanup VCHIQ TODO entries
+         aa125180c673881f88b528600b57865dc158b3a7 platform/raspberrypi: Destage VCHIQ interface
+         bd10acae08aeb9cd2f555acdbacb98b9fbb02a27 platform/raspberrypi: Destage VCHIQ MMAL driver
          
 
---===============0259464852303596808==
+--===============7109919180338928600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762654764 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762655119 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1762654695-7dbd3d3a1520091749a06a516df3317d4781b15e
+nonce 1762655050-2ed48bf8a59f8723ecd76d988721474678e3a752
 
-495df2da6944477d282d5cc0c13174d06e25b310 23413fe138e05eef7f7cc86eaf2acf7ab7d8a628 refs/heads/staging-testing
+23413fe138e05eef7f7cc86eaf2acf7ab7d8a628 bd10acae08aeb9cd2f555acdbacb98b9fbb02a27 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkP+iwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wT4QANXkjK9jtIS44mLSTHRH
-TYPnjpZJPvsgHQadYWhSF1HXs5OaKEW2rTRzdbal+J0ctJVn+dvL+EzBBT33OCj+
-9DLaDbiIHldLd7VVtIG/Yc3KAjkUNv4u/VHw/Uga5PmeZkHKQwDmSBmy4SDV6mpv
-k/wJsVgYVMTPRDsDj/22GiE7ktOzfiLshHl0V/8uL2bcN50BZacyVluAWqoKfy1L
-zc10MusPiH7fkixmstP+iMTAObo9mGNJ+UjJE2WKzHwYEp6ExtArLGgizUpQemw3
-wib7nKpzSxYYXjQZwNKDDYqFDJMbvqdi+VGfuyFPUKry/ZgGOT9R/KJsnGyCqoRC
-k5tonOITo8kRNMhUbqzZCw4XvMk8KyUezWI3C+ZJ8hwPzoi7c6bY3yD4mgdoIAZt
-YCAE9hZkX23+9iRLd2imSzxLbj+lng3QvlGE54t00ukwL5EcYW5R7u0F4VRZ8RCD
-YCs6tqeKhrD+URJIn+wZRTZGqR4/qWvLchOyNov1yC4BZCq0Ccc41YARS/DcJI56
-lcVYNmRM96QIs0l5RDQqi+8oOiBqP0VJtd2FnF9bivl/bUufPXfww9i+GaB2jPSi
-43QuB3iklyAZw60enzcmFtSyfDFFPWbNNy3t9Vd+rUtNQe4ZXrP1etR4ncWZsaLi
-FPNnU4LQAfbWNQZ7Cq4uHyd9
-=EOcF
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkP+48bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N9oP/2C+OOP/AxB2oGvQaP9Z
+e2hYztr92UU/rLQR0IAdmsioS4uYy+eRiI0lgBLzVZMrhSbPlxzhs+NOVaJeC9l4
+Uj4fmltO0GSClWX/0RaY6DpQFPW8deySbu0o5i/GEJga+qr18TDPFst+ttTeCTqY
+/1rJ6c2gf4J/h8LIvY1kFOBiNOuWrvYnZxTIP7K4N/bK6sj/b8pA2LHGKImLh7Nz
+Ih7+lEgkHVqkABJsB1MEcRt/2O+ymPl7dmxdJlLQpJTc6s1l+7n8YC0zDUqCsqh0
+T+nrv+EmMXbw2v0/GhqVQuA5h3hkUO3OGmk5f4cGMrxhKB4o/d20Wkml2/pjNE2m
+J44Edr9JLZZjdNdhlkwh5NXUrRY7ebCVn6WD7/RYx5u8I/Yvg8xgt2bK/8+8KxIB
+HiUvkHKTqSyjJrmbqL3PAA41UyD+o4T41aj0rlOG81/d8YrEOvi/FOnNtxAlr5/U
+nX29fksouRPKy2zU4wZEg8XeenvXJZ0AbHHVjKxNhprDt+M8IkyjP8ZNA4M7td/6
+r9rNjVtNKKMdKxWt74PXvVcfErQSCLUh3pqthLMKXB4deZ8MO2l9GjXkEb5V05HI
+ajFDE/YezRzTGM0XwJnP/mvejxU4/HlRFhS/z1/JOwbGU3XBoDJf9t7beZTIrOHo
+XAS7HeFj/lkRhLzUCw6tg5eA
+=Jcf6
 -----END PGP SIGNATURE-----
 
---===============0259464852303596808==--
+--===============7109919180338928600==--
