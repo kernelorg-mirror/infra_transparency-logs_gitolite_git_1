@@ -1,59 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============3512514940978377541=="
+Content-Type: multipart/mixed; boundary="===============5980207451464994688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 09 Nov 2025 04:38:40 -0000
-Message-Id: <176266312008.3229891.16143162335498164182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sun, 09 Nov 2025 04:45:16 -0000
+Message-Id: <176266351646.3237117.9715352328417778799@gitolite.kernel.org>
 
---===============3512514940978377541==
+--===============5980207451464994688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: a45330231848c571e7e655403bb6da18ad6d9e83
-    new: 032feb04d03ac24e45c8df3e65c21de90a90ce62
+  - ref: refs/heads/seen
+    old: 4d513770a01b0eaa3fad5d2387922a338979b9da
+    new: 7c0aa635bd129524a7ffdfdab17d2fffb1fcc487
+    log: revlist-4d513770a01b-7c0aa635bd12.txt
+  - ref: refs/notes/amlog
+    old: a229fa25a7e29426eeb98d347f0862d0de1d6495
+    new: 1c39ff949328e3d7b1f285cc0bb53761fc39958b
     log: |
-         4ca88f65d012ba4f339f48f3364c4300095ca874 assign some 6.17.2 cve ids
-         06a5a7e47308cd511d1709466ff9209d810295ae strip the new mbox files
-         604f66f8a41d42224fbd28776d55d7cea5b93706 mark 6.17.2 review as completed
-         032feb04d03ac24e45c8df3e65c21de90a90ce62 update cvelistV5
+         1c39ff949328e3d7b1f285cc0bb53761fc39958b amlog
          
 
---===============3512514940978377541==
+--===============5980207451464994688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4d513770a01b-7c0aa635bd12.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762663185 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1762663117-f3718e418c518467abab8b46066a94bbf8dc457f
+a2ab102c9f1a0bc59a168baab7bdc60801a43101 doc: add an explanation of Git's data model
+fc12e71e6fd6e86cbc52e0907990ebc4cc0bfaef Merge branch 'ps/packed-git-in-object-store' into jch
+ce873b25f31caeceb91bd3ffff0c2c6cd3c618ee Merge branch 'tc/last-modified-active-paths-optimization' into jch
+3960ee5e031156c18e89404089d82292f565e6ea Merge branch 'ps/ref-peeled-tags' into jch
+8802bd6cf2e44e091440a1a6eb48873a147fcf5b Merge branch 'kn/refs-optim-cleanup' into jch
+bf3857a9c373cde0d4ab606605133a80b2444b39 Merge branch 'tu/credential-wincred-makefile-update' into jch
+972a1f6a3064ed9dede6a2dae91bb1cda3e98494 Merge branch 'dk/meson-html-dir' into jch
+7c07f3576d45c1ce1f1bd3d09cd7f643194e3d02 Merge branch 'dk/make-git-contacts-executable' into jch
+05bf5737f89aa559954b3adf16856afa8a81e1b9 ### match next
+508bb217228d898656114dd9c33d3f9c0a11a138 Merge branch 'sa/replay-atomic-ref-updates' into jch
+14088b9edc5d101a114e7b8b8f35a47c8be8a116 Merge branch 'en/ort-rename-another-fix' into jch
+f2414e11feb8833fd51dc7dee11b1c99c0a54821 Merge branch 'kn/maintenance-is-needed' into jch
+118d083586fa6af4a800572bd93664032ed3ba04 Merge branch 'qj/doc-http-bad-want-response' into jch
+e1d539359294ce4e0c1f7ce402e0eada5f5e4870 Merge branch 'jc/whitespace-incomplete-line' into jch
+84b7a6e7cfc1f99473a651fbcda28816e2d2e270 Merge branch 'ps/ref-peeled-tags-fixes' into jch
+1d210232cd120b48b8c70e9fd4bc700be130fc03 Merge branch 'jc/exclude-with-gitignore' into seen
+6783005a005972e834ebebbedf8562f0a5777070 Merge branch 'ar/submodule-gitdir-tweak' into seen
+937cdc2e52bed6f827bfcd5ce5d5dc7fd89f9197 Merge branch 'ms/doc-worktree-side-by-side' into seen
+374eaa29420f6c01755fc579e08032fdb9962a7c Merge branch 'ps/history' into seen
+4c8213226998072b685c7d7ffbf8550c6119b66d Merge branch 'en/xdiff-cleanup-2' into seen
+0cea3ad7186bbdc21864fbabfd19cdf3ae08d9cb Merge branch 'ar/run-command-hook' into seen
+33127befef189c86174ed7172c4956418c5ac3de Merge branch 'lo/repo-info-all' into seen
+80027a591c95119a95a5c3fa827fcbe29369e011 Merge branch 'ad/blame-diff-algorithm' into seen
+673f731b7a3573bef1c78a366b150e01b9606284 Merge branch 'bc/sha1-256-interop-02' into seen
+77c26cef25dda1f4aa1743e5b08063e711c83d10 Merge branch 'ps/object-source-loose' into seen
+60f8ade254763597bc52ae425fc7abb0ea3c57ae Merge branch 'lc/rebase-trailer' into seen
+9808ebb69252ccc4601285727bdf56e9e5a1da3e Merge branch 'je/doc-data-model' into seen
+7c0aa635bd129524a7ffdfdab17d2fffb1fcc487 Merge branch 'je/doc-reset' into seen
 
-a45330231848c571e7e655403bb6da18ad6d9e83 032feb04d03ac24e45c8df3e65c21de90a90ce62 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkQGxEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xocP/2uVRI4vZmE1M7t3AD+u
-HpjChKFD2aIoF/YoFUEHiWBHcPBOyXxD/VgNOJN8gFYTw3zYOQoj5vGbHx8O0ISA
-KDGkzz2vJAJnX5bKcHEvr3liIep2F/Whgjc7bAbWDftnT+Vr9m3Bxdx5d7fkUImi
-xxXf/1LkTzAtcWgzrTUUDkxZkHOitXHF8zihSvij2NHE8AiWpg/D3H6v6I0bvMqn
-f3tvYtGVlqeGOUmrYRdRSGON/1ROc7GmXUqDGMrtwpFJgUv18idssYDFyXaxvLEP
-owTNv4tN0RsEPyO4X0X8/IFTfPL1EpYwirFMTR4LcmwgEpY0arAhLwmN285goBBN
-KqAbClzsJ8cCigmQh0TMSOIJ5x7aM9Xvl8Tweu7T+K3NjAH3KBpuC2PNzg+k19/q
-Xm3fwpLqr1dPXZIh22uGU5K5AobR51YN1mZSp5vqL8Qg3bLvgx4+5vlxNazX+26J
-hAzLO24HTaLpzdZbTmRr048JVXilffhxhrldwT+s5mcCXgrDVXGzQ2FV70OAMtWZ
-SWvPIV8Aq2sft/fhYajtK0noVOUBCmKWER/NwuU7ho8sXzWC5M74f3glesk4i5CQ
-KtKo3TT0SZd10cppElgBqX5soHwEhkNQlGHi2M7u1lXM2+yRiqwv7EIp7eO72As2
-bBgJYaiseg6pMhmLlLgBqhGc
-=MRNt
------END PGP SIGNATURE-----
-
---===============3512514940978377541==--
+--===============5980207451464994688==--
