@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1707802671905374791=="
+Content-Type: multipart/mixed; boundary="===============1920501590462466248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 09 Nov 2025 01:54:38 -0000
-Message-Id: <176265327880.3090409.9488277415681959990@gitolite.kernel.org>
+Date: Sun, 09 Nov 2025 01:56:12 -0000
+Message-Id: <176265337256.3092962.11879888701592526563@gitolite.kernel.org>
 
---===============1707802671905374791==
+--===============1920501590462466248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: ad8415a85703a0cc415aef5682c99ed2d9facaf5
-    new: 8c13a7323b847c0370aec66f655e2596a2174a17
+    old: 8c13a7323b847c0370aec66f655e2596a2174a17
+    new: 46b28d2fbd13148981d91246bc0e13f4fc055987
     log: |
-         b69dfcab6894b1fed5362a364411502a7469fce3 xhci: fix stale flag preventig URBs after link state error is cleared
-         f6bb3b67be9af0cfb90075c60850b6af5338a508 xhci: dbgtty: Fix data corruption when transmitting data form DbC to host
-         8c13a7323b847c0370aec66f655e2596a2174a17 xhci: sideband: Fix race condition in sideband unregister
+         41e99fe2005182139b1058db71f0d241f8f0078c usb: storage: Fix memory leak in USB bulk transport
+         40f8d17eed7533ed2bbb5e3cc680049b19411b2e drivers/usb/dwc3: fix PCI parent check
+         c57ce99ec6cb55b53910b6b3d7437f80159ff9d8 usb: dwc3: pci: add support for the Intel Nova Lake -S
+         46b28d2fbd13148981d91246bc0e13f4fc055987 usb: dwc3: pci: Sort out the Intel device IDs
          
 
---===============1707802671905374791==
+--===============1920501590462466248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762653344 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762653438 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1762653275-5297a7cfe783842687cf7bc0ed1680fbdca7f00a
+nonce 1762653369-407d68b2a856f4cbbb8bf539fd3e29dac2a7da50
 
-ad8415a85703a0cc415aef5682c99ed2d9facaf5 8c13a7323b847c0370aec66f655e2596a2174a17 refs/heads/usb-linus
+8c13a7323b847c0370aec66f655e2596a2174a17 46b28d2fbd13148981d91246bc0e13f4fc055987 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkP9KAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b8sP/1KpaO2FxnmWTNZu5c1A
-KQSgKPo6nrb6H5DI1PQz1GrbJKABfDmX7exjS3fvwPZDgEXS3W3S8cfXRKVtMVFd
-e5EbiKAIiec9ARqS1oATLIwi3q+K3WJMXDakjyqscD2jnjhH0P5gttprBuIe9iW6
-N6D4KVgxLsrzefZB+akFfJJiTS0i29Mk1rjNUBVHf9yR8RvUKbBfZUedxty29TKy
-nOZilosteYRfCP/Apwy6zD9Fd5tECUodkG9nEoXOZQsJkICZDIPXRzyTrQ2P4zB8
-eNqMPjYyP1D3+snRFmCYvtlc+Bprr+4nImzxdmICMTo6fEpeO1A+7pd2HhEx4YI9
-DivJ88kjApQ0Zkrsz1Rl7zkSf3y18m7C3+yAAO3q5nVLWKL31kyGgh6Cd7UhrYkY
-BK7a9zPP4x1tVe77tZvN+IW0nYvG111OffyLUs7W/Hwrs1ptBcVUIUXzD7S/qhdr
-0gHXX8D2B6AQVYMxfVqeVnynRh7Tkf8HKw5drh51vY0t30YJJYfRovT9wa1tEEz5
-0RHDZS2odtWeaDS+kfRvfmBeiS7ShYCn6yA4kZuF91e5TpDzJ/DNZc90CTTeztCe
-cFdJKwOkhybKpSv8SJmC1z8GJbC0aAnP5aXyK3ndaceC5aNLecrvrhUVZpA9+JHh
-n1n3+53500rTJ6pVxNb7BEN/
-=U2Fq
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkP9P4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z78QAKYZxU3pBaO/fVOiQmzF
+auorm46Jd1NPunufEpgX1NHEJbxy0s8xe7Zofy6j9WHlA1GPBAYem6KLn+nohRkl
+cDemDkcxsetwydD8ou+2/n8PNLy4F+5+p2jEmQZyIIcnXIIk+cJk8ctlbkUip7P7
+ogp6zY8i+4CpCYHbIcwhW6L9cpFZjBOp6lQ8ozppT8baDNUHHr7H0SkaiAmrjclv
+6I1zSxvyngCRgCpyFY0QIUI5g4wd+lzl60+qagaUyhNI1O5m8HJcla93JJLFo38y
+oy39qedYk9fqMxUA/4dCo4RiTYFJ+LrxB1woeT7X2SrQJ974y4zzF1HkNuGGOzgF
+xSfNierKGj4T+whpL0fWu43mFW9f05oavKXPFXdQjynBOOYM3Hm+r2Js+8c3Xj4O
+WzpEVC3mfRICBUncAvZ+ZeCpitATXM4y5Vga2KifWh8XGV1RIT8Bg0scICGGhAEz
+Nwu3NnzD67T9xM48OONwGzsFteLodJrFEGavPcB4tF4ZpLX6JqeDCgGuV52u/C2d
+o+vurZYbwF23LoWUv5rOKKbsSFu9rAqrrwJJsmeC4C+aX1BS/fMjBSNVY7Kt6sc5
+mGq1qsviFUIhC537Rj2G8S/gKg8B+SbnmWwnBv/EsZC9E+VXdGhrQcsReg3lff4P
+4b/rymo5kimSan8Gk2fnlbZY
+=gKZa
 -----END PGP SIGNATURE-----
 
---===============1707802671905374791==--
+--===============1920501590462466248==--
