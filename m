@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0639287326854057136=="
+Content-Type: multipart/mixed; boundary="===============2804879698294690060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Sun, 09 Nov 2025 20:19:37 -0000
-Message-Id: <176271957764.4001126.14363794673536451185@gitolite.kernel.org>
+Date: Sun, 09 Nov 2025 20:20:26 -0000
+Message-Id: <176271962662.4003215.18217072282703185073@gitolite.kernel.org>
 
---===============0639287326854057136==
+--===============2804879698294690060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
 user: agruen
 changes:
-  - ref: refs/heads/lockless-lookup
-    old: 1da96dcf7d7c1dc4291d3e39bf5bacc97e2ad94c
+  - ref: refs/heads/for-next
+    old: ec4bbeef12d88d99dca91240a55ff3705da33cc1
     new: c002e7c9fc39df10e9a0e70067bb8b9c8bc5f21e
-    log: revlist-1da96dcf7d7c-c002e7c9fc39.txt
+    log: revlist-ec4bbeef12d8-c002e7c9fc39.txt
 
---===============0639287326854057136==
+--===============2804879698294690060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1da96dcf7d7c-c002e7c9fc39.txt
+Content-Disposition: attachment; filename=revlist-ec4bbeef12d8-c002e7c9fc39.txt
 
 c3454ac0367fbc38b2558fbd6c7d25acdee71c50 gfs2: Use bio_add_folio_nofail()
 4a640bba8441dedf1329d8a944bc7f77b03551d8 gfs2: Add clean argument to lm_unmount hook
@@ -57,4 +57,4 @@ f612ec48a470884f57c6232c8972af5c22cd9dcb gfs2: No d_revalidate op for "lock_nolo
 c340fbdbac420230e72c271104873425daefa4cc gfs2: Enable non-blocking lookup in gfs2_permission
 c002e7c9fc39df10e9a0e70067bb8b9c8bc5f21e Revert "gfs2: Add GL_NOBLOCK flag"
 
---===============0639287326854057136==--
+--===============2804879698294690060==--
