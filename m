@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6362933709416077711=="
+Content-Type: multipart/mixed; boundary="===============7908996453070727867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 09 Nov 2025 12:56:25 -0000
-Message-Id: <176269298506.3639700.11472320141426638690@gitolite.kernel.org>
+Date: Sun, 09 Nov 2025 12:58:28 -0000
+Message-Id: <176269310847.3640805.1972942078700805644@gitolite.kernel.org>
 
---===============6362933709416077711==
+--===============7908996453070727867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 4bb2ce20ea54e6d4e2d8c9e9894ef7969f1b97f0
     new: 698dcf54282a221588281b2e1e6107707cc61f37
     log: revlist-4bb2ce20ea54-698dcf54282a.txt
 
---===============6362933709416077711==
+--===============7908996453070727867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ e5191f62a67aada464ff2c4ab6d96a657b1486aa iio: adc: ade9000: convert to use maple
 52d182b2ff99d5e50e763ad5a5a874da3b49434f iio: light: apds9306: convert to use maple tree register cache
 698dcf54282a221588281b2e1e6107707cc61f37 iio: light: apds9960: convert to use maple tree register cache
 
---===============6362933709416077711==--
+--===============7908996453070727867==--
