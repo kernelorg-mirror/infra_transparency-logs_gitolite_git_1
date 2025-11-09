@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0162906988991739497=="
+Content-Type: multipart/mixed; boundary="===============8676605914962100790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 09 Nov 2025 08:58:07 -0000
-Message-Id: <176267868740.3443440.946002193667827077@gitolite.kernel.org>
+Date: Sun, 09 Nov 2025 08:58:14 -0000
+Message-Id: <176267869439.3443626.10245881137154663881@gitolite.kernel.org>
 
---===============0162906988991739497==
+--===============8676605914962100790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: b8126205dbe01e22b0d10c8be132bb53bf3399c1
     new: da32d155f4a8937952ca6fd55d3270fec1c3799f
     log: revlist-b8126205dbe0-da32d155f4a8.txt
 
---===============0162906988991739497==
+--===============8676605914962100790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a80abfbb1013ffec7aa7e574b5ba9bcf02bd5462 Merge tag 'slab-for-6.18-rc5' of git://
 5b95a50001f1fbcae6b7fe211a02f37a04dd9a4b Merge tag 'trace-v6.18-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 da32d155f4a8937952ca6fd55d3270fec1c3799f Merge tag 'gpio-fixes-for-v6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============0162906988991739497==--
+--===============8676605914962100790==--
