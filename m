@@ -1,59 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0111610546221381282=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sun, 09 Nov 2025 08:40:05 -0000
-Message-Id: <176267760505.3429679.14229234367955861802@gitolite.kernel.org>
-
---===============0111610546221381282==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 09 Nov 2025 08:52:24 -0000
+Message-Id: <176267834466.3438914.9938631652818331140@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 1821859f21005c62a02251b6dc2e0452ad44281d
-    new: b7778d525fe14d1d671a7036ab62a3b72488a4f9
-    log: revlist-1821859f2100-b7778d525fe1.txt
-
---===============0111610546221381282==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1821859f2100-b7778d525fe1.txt
-
-2308de27c03d8ed75b28dab2354eb02c5f8e69be f2fs: Use mapping->gfp_mask to get file cache for writing
-b63e02895b26ccebb44d4730f97f848504e5ff5c f2fs: fix to do sanity check on node folio during its writeback
-3bae3cbbf1a83506398469f2c9af293e6f956ba3 f2fs: fix to do sanity check on node footer in {read,write}_end_io
-6862f6948aa33478fde70630fc4a6a70a42047f4 f2fs: clean up w/ bio_add_folio_nofail()
-22de407ee7fdc85fe6c2f856fad2a9350f81564b f2fs: convert add_ipu_page() to use folio
-10005e36127b8e8a468b646ece372025d722048c f2fs: use f2fs_filemap_get_folio() instead of f2fs_pagecache_get_page()
-4c797efec1a48dc7d3b483b0f503ba254b6c0f62 f2fs: use f2fs_filemap_get_folio() to support fault injection
-7976ef973cab876578ff9355d96c3b2d582bfbd2 f2fs: fix to avoid potential deadlock
-cbd96c6e304f542304cffd7e08fc3e2e99acf417 f2fs: fix to avoid updating zero-sized extent in extent cache
-dc460f40c8f3b37ec6d44efb8515b32375cebf53 f2fs: fix to avoid updating compression context during writeback
-670b676d83438f0ff7487b876055ac77219e4f34 f2fs: use global inline_xattr_slab instead of per-sb slab cache
-5e8c6aae36ad2d18e23ce1fd4522a0876ae3c09d f2fs: invalidate dentry cache on failed whiteout creation
-096c6cf89318a1624e05c078de999f52d84718eb f2fs: change the unlock parameter of f2fs_put_page to bool
-9e2d7d763a3c3fcd2f9d058a087e0a06adbe838d f2fs: fix to propagate error from f2fs_enable_checkpoint()
-ba4591f78dc122238385d15415125b5dd4540228 f2fs: block cache/dio write during f2fs_enable_checkpoint()
-9758386996065be99a270d69a3751b70da158aa9 f2fs: ensure node page reads complete before f2fs_put_super() finishes
-1797093bfc96815f7d887aca78fec67f90c98fd3 f2fs: fix to access i_size w/ i_size_read()
-f10e76889502e1aed1e54c6aa515683ea423c7b8 f2fs: fix uninitialized one_time_gc in victim_sel_policy
-5dc50bdb96e1084357515b99908d84e6c52294dc f2fs: ensure minimum trim granularity accounts for all devices
-7b4827ce2d2a5789267f3506dd57bd2251301f4c f2fs: Rename f2fs_unlink exit label
-d43f8de77d6cab466bcea45731f86dd76ce0071e f2fs: Add sanity checks before unlinking and loading inodes
-e9b020f3803a13d43d528d65b5ec0cd256f75f0a f2fs: revert summary entry count from 2048 to 512 in 16kb block support
-791897eb65601d85e8051a6e2e872518efee9b43 f2fs: fix age extent cache insertion skip on counter overflow
-ec8eeee5c1de3b2c363fdc7781f3f2634d3bc41b f2fs: add fadvise tracepoint
-7f738ae785f68cf98e6808dad39ef2dce0554134 f2fs: fix return value of f2fs_recover_fsync_data()
-c1079e9030e4313806c5e35749feb4af360e53d2 f2fs: fix to detect recoverable inode during dryrun of find_fsync_dnodes()
-a449ee7ddcca8af707616ba21a43109ba3aaa132 f2fs: use killable function to be aware of SIGKILL
-81b390b60d56bb5780f2ee2b53a8b1c0b9c8152a f2fs: avoid read for write on summary page for 4k-sized page
-b7778d525fe14d1d671a7036ab62a3b72488a4f9 [WIP] f2fs: cache entire summary block in curseg
-
---===============0111610546221381282==--
+  - ref: refs/heads/for-linus
+    old: 82420bd4e17bdaba8453fbf9e10c58c9ed0c9727
+    new: 7a39c723b7472b8aaa2e0a67d2b6c7cf1c45cafb
+    log: |
+         7a39c723b7472b8aaa2e0a67d2b6c7cf1c45cafb ALSA: hda/tas2781: Add new quirk for HP new projects
+         
+  - ref: refs/heads/master
+    old: 468b3abb137995bdfc40204058a5906f2aa17a63
+    new: 0e8eb28c64e3a5872e66faad896acca933b1580e
+    log: |
+         7a39c723b7472b8aaa2e0a67d2b6c7cf1c45cafb ALSA: hda/tas2781: Add new quirk for HP new projects
+         0e8eb28c64e3a5872e66faad896acca933b1580e Merge branch 'for-linus'
+         
