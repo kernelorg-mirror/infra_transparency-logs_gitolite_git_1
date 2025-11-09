@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
-Date: Sun, 09 Nov 2025 19:15:34 -0000
-Message-Id: <176271573417.3948326.7730308404185260537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 09 Nov 2025 19:18:18 -0000
+Message-Id: <176271589847.3949852.11759186769485180494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-misc
-user: sre
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/thinkpad-t14s-x1e
-    old: f0ea5cf7c67429f282b807e03618ce55dccbcc14
-    new: eae45d62d39b940bb5b1b2e08f12e150f414da41
+  - ref: refs/heads/master
+    old: 439fc29dfd3b9c072dfff292d91cfa2f6cfb702b
+    new: f850568efe3a7a9ec4df357cfad1f997f0058924
     log: |
-         51337757ae8c14979ba080d70ab87725647cc3ea platform: arm64: thinkpad-t14s-ec: fix IRQ race condition
-         3b0e84cc133c49ea1f87afb28ce90ea82b9f7928 platform: arm64: thinkpad-t14s-ec: sleep after EC access
-         4a92f813da3e3c5c4afcec11d2355fd1ee16bf9c platform: arm64: thinkpad-t14s-ec: add system PM hooks
-         e874ba10c044b075e1534087466fb2f9cd1eebd5 platform: arm64: thinkpad-t14s-ec: add suspend handler for keyboard backlight
-         eae45d62d39b940bb5b1b2e08f12e150f414da41 [DBG] test T14s EC suspend bits
+         6a0dddc53f6f04281b27254a7d940fb9bb2d5a3b i2c: muxes: pca954x: Fix broken reset-gpio usage
+         a26a6c93edfeee82cb73f55e87d995eea59ddfe8 kbuild: Strip trailing padding bytes from modules.builtin.modinfo
+         9818af18db4bfefd320d0fef41390a616365e6f7 compiler_types: Move unused static inline functions warning to W=2
+         002621a4df3c166fab1427e8e502bc15acc26b13 kbuild: Let kernel-doc.py use PYTHON3 override
+         3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+         f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
          
