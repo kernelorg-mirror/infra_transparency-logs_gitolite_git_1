@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy
-Date: Sun, 09 Nov 2025 20:56:32 -0000
-Message-Id: <176272179239.4032368.14638154259553806164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
+Date: Sun, 09 Nov 2025 20:57:46 -0000
+Message-Id: <176272186676.4033181.17318961168003858496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 800a047f7a8f645acec14701e6e009ecb0e1d777
-    new: 0bafb79629bca4d41635191ae0d87e3f5819e633
+    old: f50e694c51e6dfd8988e5617290d30432c3ffd1d
+    new: 0cca5285b11f1782691a21610b89690b565696d2
     log: |
-         0bafb79629bca4d41635191ae0d87e3f5819e633 feat!: re-define error type
+         0cca5285b11f1782691a21610b89690b565696d2 feat!: introduce `EccCurve` and `Hash` types
          
