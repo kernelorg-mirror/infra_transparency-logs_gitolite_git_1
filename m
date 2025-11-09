@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5486879055046240217=="
+Content-Type: multipart/mixed; boundary="===============3129145770277106002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sun, 09 Nov 2025 08:02:16 -0000
-Message-Id: <176267533613.3398474.16502121030707920004@gitolite.kernel.org>
+Date: Sun, 09 Nov 2025 08:02:33 -0000
+Message-Id: <176267535341.3398880.8001991545750547950@gitolite.kernel.org>
 
---===============5486879055046240217==
+--===============3129145770277106002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: e8b5e083c3e73961951f939b1a4fb7f37dedf3a9
     new: 7b5f3a458d79f2cfb94df081d0a6f60da179d8f9
     log: revlist-e8b5e083c3e7-7b5f3a458d79.txt
 
---===============5486879055046240217==
+--===============3129145770277106002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -291,4 +291,4 @@ ee72ef6c3c218f77186602d94477de4b3762d869 LoongArch: KVM: Add delay until timer i
 46feb40d39724ad875fdd2a9163a02141122d2a3 LoongArch: KVM: Skip PMU checking on vCPU context switch
 7b5f3a458d79f2cfb94df081d0a6f60da179d8f9 LoongArch: KVM: Fix max supported vCPUs set with EIOINTC
 
---===============5486879055046240217==--
+--===============3129145770277106002==--
