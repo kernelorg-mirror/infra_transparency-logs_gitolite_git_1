@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
-Date: Sun, 09 Nov 2025 02:49:08 -0000
-Message-Id: <176265654876.3138606.8508548886588555756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sun, 09 Nov 2025 02:51:47 -0000
+Message-Id: <176265670751.3141456.10913006061156081137@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
-user: jarkko
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/tags/0.5.0
+  - ref: refs/tags/kbuild-fixes-6.18-3
     old: 0000000000000000000000000000000000000000
-    new: d6104b4f63ec78d3031262e78018dfba6dd05798
-  - ref: refs/tags/0.5.1
-    old: 0000000000000000000000000000000000000000
-    new: 4219ad27dcae9296933d1ce9978868b6444ee05a
+    new: f899bbed238da378211ab7e96b2b8775d1ebec5f
