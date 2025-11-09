@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9029096080680310589=="
+Content-Type: multipart/mixed; boundary="===============8542243630966768193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 09 Nov 2025 02:10:40 -0000
-Message-Id: <176265424019.3104947.3339799184846036277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 09 Nov 2025 02:14:33 -0000
+Message-Id: <176265447394.3107189.4248877360948375244@gitolite.kernel.org>
 
---===============9029096080680310589==
+--===============8542243630966768193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 46b28d2fbd13148981d91246bc0e13f4fc055987
-    new: 23379a17334fc24c4a9cbd9967d33dcd9323cc7c
+  - ref: refs/heads/char-misc-linus
+    old: 1ebc180d2b9066043226299cecc42c1ea146ac8e
+    new: baadf2a5c26e802a46573eaad331b427b49aaa36
     log: |
-         e4f5ce990818d37930cd9fb0be29eee0553c59d9 usb: gadget: f_eem: Fix memory leak in eem_unwrap
-         23379a17334fc24c4a9cbd9967d33dcd9323cc7c usb: typec: ucsi: psy: Set max current to zero when disconnected
+         96cf8500934e0ce2a6c486f1dbc3b1fff12f7a5e slimbus: ngd: Fix reference count leak in qcom_slim_ngd_notify_slaves
+         baadf2a5c26e802a46573eaad331b427b49aaa36 most: usb: fix double free on late probe failure
          
 
---===============9029096080680310589==
+--===============8542243630966768193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762654306 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1762654237-0d9b3fa2a4c1c7c24b575a7f25f02676fd3d5752
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762654540 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1762654471-887d049e6af767f1acaf07583f1d97694978c01a
 
-46b28d2fbd13148981d91246bc0e13f4fc055987 23379a17334fc24c4a9cbd9967d33dcd9323cc7c refs/heads/usb-linus
+1ebc180d2b9066043226299cecc42c1ea146ac8e baadf2a5c26e802a46573eaad331b427b49aaa36 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkP+GIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ni4P/3Y17bBpKlGhGL3KGPac
-HygO9EredY/leskKaD7hY68DGpShauU/oDuK7DjIWPJn+gXr+4kVG8C90dkHeCix
-44zCHwy8wTYf65gXYvqidlivX6zGYaiWzKcFYn04rcMgH97BWGw1FNOvNe5JvqJd
-45NNjAw3hQAEPjmqhEX/RKONUqs+cAlJcjY6A9R/d9siCTL8V01amXeOP2iqtfqT
-9oXIBKc+b7Ctt+CPQHlvvZ01/5IeWChxgjOKbFUf5Tmgspl0m7rUDFwOuH/lwIul
-FUmlVeCgAe70NETZ/rjtHukDe3hZR3DjCaZbydOtiJrBLackWtiVLVO5yhEN4oEq
-PHvltk+92mrn3roAa1KklxzSnCWYDuFkES/vzrbVD4qvPrzLmlsCV2JryAKwhuVr
-H0P3NOj2fkENdkhfnLaoQzDDD79dMx8+fLYw4y8tQkBvBugqQlw2gVDguRv9CUIB
-2pNl0zq9wmWUgEhSyBvc5YpLj1DlZuytrzV6oPcpNPLg5AM+S1t27ls/1oJ0NfUk
-swmvy4kpRM7VbYYHYt12aqqNePLpjhLw5pvx8TTiid62A4lKVmkKnmDdvqTOQ3Sc
-LSH0Bqu0bc0kgn0oolNQu+nRLJi96yajZ/dNuGQq00R3T4BqeSI6XN+JsdN5FUXl
-FK8UvriGGE4DekxOIG93Hbdi
-=B8dn
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkP+UwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+roEP/0JSp470YwpItYZFBL4n
+FQUxpQv8Nju5wv5WiZD+RG6M9oxnVhl9VMTeHp/hp11bkuZq0kQbSoKigzIDmAQK
+PbSGSsHHCUyp+KQp/vSv4QrWxGrW01osgF3dlOTO0DA42vk9Pu8Fe1kZdgYt90NW
+R8pBluTQvFcm182BxPaIj2RZogWs6tPHMfqynI0ZdNo+r0/DbmFCEEHcgawNh0RC
+mvWZ/FWVZe2Zuip9jF9peRJS53k61pMeJpEi+i9IVMMFFZD/Yxlxo4Fx8qwVZQpm
+XOdB8cDiIpMmiq502ovFsALjhkuVEkJda8TGu4AX+aZs+aC8f6gAXeVNqGTXqYbI
+HU0MI7aiXG6xfT1XTwf2mDQlf8kAkznrFcNxnv+z6Alb2w+J3rfOMkndthc/kAew
+StX5Y9sc4Is3bY1TOMG7wL34IWSQokYI5VQMbC/AccHKzg1CUnCkDMmvIb79cK7S
+jNCBcRyV2lTmrA8LxaOqVZFQYQYhxbm/Bxypt7RLhlN9tDKJNbDyWQtI8cfiw8xj
+algSdp4ynhTgd+UTzJu4WomHnLe/WvEheI9pGz/An97gVIGQ6zQnwcKngXUVGbYQ
+ZoDyqntWDj2CZvvUEE/LHv2/tfvG356m0OeAOHsXh0OtSw4TcXjWvNLwjRNJ6MeP
+TxtIuFHIA+4+U0qM96is9y3A
+=Egmq
 -----END PGP SIGNATURE-----
 
---===============9029096080680310589==--
+--===============8542243630966768193==--
