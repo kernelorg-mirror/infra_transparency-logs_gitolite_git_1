@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 09 Nov 2025 19:18:18 -0000
-Message-Id: <176271589847.3949852.11759186769485180494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
+Date: Sun, 09 Nov 2025 19:19:51 -0000
+Message-Id: <176271599149.3951289.932546775743696489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sre/linux-misc
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: 439fc29dfd3b9c072dfff292d91cfa2f6cfb702b
-    new: f850568efe3a7a9ec4df357cfad1f997f0058924
+  - ref: refs/heads/thinkpad-t14s-x1e
+    old: eae45d62d39b940bb5b1b2e08f12e150f414da41
+    new: 66dbe64721d2c8d8dacd89efab3a4a8391a0aa57
     log: |
-         6a0dddc53f6f04281b27254a7d940fb9bb2d5a3b i2c: muxes: pca954x: Fix broken reset-gpio usage
-         a26a6c93edfeee82cb73f55e87d995eea59ddfe8 kbuild: Strip trailing padding bytes from modules.builtin.modinfo
-         9818af18db4bfefd320d0fef41390a616365e6f7 compiler_types: Move unused static inline functions warning to W=2
-         002621a4df3c166fab1427e8e502bc15acc26b13 kbuild: Let kernel-doc.py use PYTHON3 override
-         3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
-         f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         752b2978a79a39c85e53823ef48f901487f8f0d8 platform: arm64: thinkpad-t14s-ec: sleep after EC access
+         97449a849c347294e779970e1af0ea0cb479fc45 platform: arm64: thinkpad-t14s-ec: add system PM hooks
+         fa57d004cf4fbc774795cab543320edded067993 platform: arm64: thinkpad-t14s-ec: add suspend handler for keyboard backlight
+         66dbe64721d2c8d8dacd89efab3a4a8391a0aa57 [DBG] test T14s EC suspend bits
          
