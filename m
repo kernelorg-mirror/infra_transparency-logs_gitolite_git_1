@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 09 Nov 2025 15:03:03 -0000
-Message-Id: <176270058324.3742021.8296422898106490058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Sun, 09 Nov 2025 15:44:06 -0000
+Message-Id: <176270304602.3775608.1664813074740498890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/testing
-    old: 69f5dcaa990e3f43c89fc5cec4ae92ececdb12f3
-    new: 9d8b88ffb773470ea3a324b67e77e64c0fa8400d
+  - ref: refs/heads/main
+    old: ae1f676767596211e4a9c210fe3ae5f253a63c97
+    new: 4c876b1e9a90e13d7c30aea0ea2d2e920e1606a1
     log: |
-         436cd7712598e9ca07c76f14d1531a1f6c3c502f dt-bindings: iio: adc: Add AST2700 ADC compatible strings
-         9d8b88ffb773470ea3a324b67e77e64c0fa8400d iio: adc: aspeed: Add AST2700 ADC support
+         317cec9f27a77d11b6be6402a126387037ce011b fixup
+         4c876b1e9a90e13d7c30aea0ea2d2e920e1606a1 refactor!(error): re-define error variants
          
