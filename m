@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 10 Nov 2025 05:23:09 -0000
-Message-Id: <176275218948.314278.17125885016647096387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Mon, 10 Nov 2025 05:52:57 -0000
+Message-Id: <176275397733.338608.12660630184195885331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/master
-    old: 040db6ed0ca88a6e6a0b04dca5ce858349bf3a3d
-    new: 6dcbe67e5c3f9ddedfc4c02b1a4d3276b6831d2e
+  - ref: refs/heads/socfpga_dts_for_v6.19
+    old: aef9703dcbf8a816af06a30e51a0f9e3773086e3
+    new: b2ca9aabff363211e65241db174a7cba0ec5b4eb
     log: |
-         a23fb3950c1a9860b2d345205a4fce7322c3b831 foo
-         58b38e196aa1f05fb165a5440c5a15a02f0a63bf foo
-         9437520729bb26e0feb656d95921d843fa34632f foo
-         6dcbe67e5c3f9ddedfc4c02b1a4d3276b6831d2e foo
+         dd94481408ba0e3b68c42d3ee986d83215a9fac9 dt-bindings: firmware: svc: Add IOMMU support for Agilex5
+         b2ca9aabff363211e65241db174a7cba0ec5b4eb arm64: dts: intel: Add Agilex5 SVC node with memory region
          
