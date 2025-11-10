@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 10 Nov 2025 11:33:21 -0000
-Message-Id: <176277440162.626124.17573835307872074615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+Date: Mon, 10 Nov 2025 11:36:26 -0000
+Message-Id: <176277458687.629954.1951356689569523048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+user: jarkko
 changes:
-  - ref: refs/heads/usb-linus
-    old: 2d8ab771d5316de64f3bb920b82575c58eb00b1b
-    new: 523bf0a59e674b52e4b5607a2aba655fbfa20ff2
+  - ref: refs/heads/main
+    old: 726aefbcf20598d5294118322246f8fbc7cfb7ae
+    new: f27b4f80df2077a8206332b8e04c737263e6a296
     log: |
-         523bf0a59e674b52e4b5607a2aba655fbfa20ff2 USB: serial: option: add support for Rolling RW101R-GL
+         f27b4f80df2077a8206332b8e04c737263e6a296 refactor(error): rename UnexpectedToken to InvalidToken
          
