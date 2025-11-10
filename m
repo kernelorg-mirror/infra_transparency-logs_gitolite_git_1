@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2476677981528177353=="
+Content-Type: multipart/mixed; boundary="===============5103791775521941937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 10 Nov 2025 23:37:40 -0000
-Message-Id: <176281786002.1265957.9990941867657252453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 10 Nov 2025 23:37:55 -0000
+Message-Id: <176281787579.1266288.13433559510224331049@gitolite.kernel.org>
 
---===============2476677981528177353==
+--===============5103791775521941937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.18
-    old: 29528c8e643bb0c54da01237a35010c6438423d2
-    new: eb2d6774cc0d9d6ab8f924825695a85c14b2e0c2
+  - ref: refs/heads/for-6.18
+    old: 939edfaa10f1d22e6af6a84bf4bd96dc49c67302
+    new: 66e9feb03e7cf8983b1d0c540e2dad90d5146d48
     log: |
-         eb2d6774cc0d9d6ab8f924825695a85c14b2e0c2 ASoC: SDCA: bug fix while parsing mipi-sdca-control-cn-list
+         66e9feb03e7cf8983b1d0c540e2dad90d5146d48 spi: Add TODO comment about ACPI GPIO setup
          
 
---===============2476677981528177353==
+--===============5103791775521941937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1762817926 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1762817857-2f79420e854f310d91cb9a0a3753844e9f80e101
+pusher C3F436CA30F5D8EB 1762817942 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1762817873-b626887c089ca9d960c159cf474181ca8a378c8a
 
-29528c8e643bb0c54da01237a35010c6438423d2 eb2d6774cc0d9d6ab8f924825695a85c14b2e0c2 refs/heads/asoc-6.18
+939edfaa10f1d22e6af6a84bf4bd96dc49c67302 66e9feb03e7cf8983b1d0c540e2dad90d5146d48 refs/heads/for-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkSd4YACgkQJNaLcl1U
-h9CHFgf/bvpTo84kKEN4eKPS+p/823UU1MZjY+/lxF+G2w2mbUpUdvtHleUeAJeX
-C99aELPKrLjD5mId4kfnk6loV9VPgmDVHaS6FEUBAs7D1k6sqXtQFlKFdFaFWglz
-yTFBesDGX4trEEnLhgQKeXDiAe8+W57gYWDQLwjZuxERpSU0aQPo1t6ZrPQKdAVp
-alssio92uo0O2bkHHDNSgHMDxn63I5kRzFOAwN6d7qOCHdkUudMIvw6rzympbjr7
-epzHc0SV03iD1Ovdj3Fqv1HS1s8L8yzs5RwOVjYju3wK09CojUXUEtkRC0hvehYO
-r2FuffqfKFHeg4gXhbB5Ig28TOrKMg==
-=NCXu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkSd5YACgkQJNaLcl1U
+h9BuLQgAgStnawcETEPUxVrpDqyXscsKn6OgtVBmjbHwucUKfbrdOfNor8v6KUnj
+B1DD+PElP5s8stvHHz/mehxeO1nzaqQYRHkluVsVJTwYAagzzJWcu5fs8xZ7STsf
+nUwtQG5u3JYS/7/YG6pdFdeU4wV0eBAvim1/5i3tbzE2Gh6rdoRezgTXV/4KyDD6
+JIRpgbCrVeRvKk7CnMPBONTuRnYfDBo4Rrq626jiRbxoiQ1vR5foQL003WUDfaEq
+vtOuXhds+BvmCX7tQL1IgmZUahKk6iaG7RcW+KcN1QQNDsDBoqbM1Wnqas+ZfGPJ
+0OMjqm5lMuwEceHugNaKmk9l4OaOtA==
+=vm7P
 -----END PGP SIGNATURE-----
 
---===============2476677981528177353==--
+--===============5103791775521941937==--
