@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8447294866585190075=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 10 Nov 2025 14:14:46 -0000
-Message-Id: <176278408643.766294.7494753671144862313@gitolite.kernel.org>
-
---===============8447294866585190075==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 10 Nov 2025 14:16:00 -0000
+Message-Id: <176278416056.768654.12258189254410729453@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: cec551ec79c2f287d1eb048f70fe4bff66cc7d41
-    new: ff49362eca17114bf36240f7531c2060127778d1
+  - ref: refs/heads/sched/newidle
+    old: f343dc1975db1aed74877c24ed28667d1a8a1323
+    new: 2e338341727f1737d7fbb46a9a1b8b8493c3a15e
     log: |
-         ff49362eca17114bf36240f7531c2060127778d1 platform/x86: alienware-wmi-wmax: Simplify FW profile to pprof matching
+         8136d5c799932160737ad1e879b4bb99fb4c3968 sched/fair: Revert max_newidle_lb_cost bump
+         9ea12b9853d440e6101c8dfdca20207d6ed39445 sched/fair: Small cleanup to sched_balance_newidle()
+         640721e010c21140f23172f668217cef0dce874f sched/fair: Small cleanup to update_newidle_cost()
+         2e338341727f1737d7fbb46a9a1b8b8493c3a15e sched/fair: Proportional newidle balance
          
-
---===============8447294866585190075==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1762784152 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1762784083-67585c8ad43c832ff28eaae5966394f96b403caa
-
-cec551ec79c2f287d1eb048f70fe4bff66cc7d41 ff49362eca17114bf36240f7531c2060127778d1 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaRHzmgAKCRBZrE9hU+XO
-MaOgAP4o7P6W6mvmrLMXNyuLI6/n9rtjRZOEsQjF4usu4OsvswEAwQuVCjMEr4Le
-TIcKzAGXi5lJhADSOaZo+KdiZwD9uQ4=
-=uorx
------END PGP SIGNATURE-----
-
---===============8447294866585190075==--
