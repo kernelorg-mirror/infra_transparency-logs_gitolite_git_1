@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5344490875950204850=="
+Content-Type: multipart/mixed; boundary="===============8993812787423111841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 10 Nov 2025 15:55:44 -0000
-Message-Id: <176279014435.860280.6727700753347045526@gitolite.kernel.org>
+Date: Mon, 10 Nov 2025 15:55:45 -0000
+Message-Id: <176279014566.860404.4863125539645289854@gitolite.kernel.org>
 
---===============5344490875950204850==
+--===============8993812787423111841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 02dafa01ec9a00c3758c1c6478d82fe601f5f1ba
-    new: 8017f1fc873a78f54df02521b4d150f7101916ae
-    log: revlist-02dafa01ec9a-8017f1fc873a.txt
+  - ref: refs/heads/mm-unstable
+    old: 4450d244e9f4d8b2fc5e217bb0de3fad983db346
+    new: 93586dc935e66238548478e051973357955db6e1
+    log: revlist-4450d244e9f4-93586dc935e6.txt
 
---===============5344490875950204850==
+--===============8993812787423111841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02dafa01ec9a-8017f1fc873a.txt
+Content-Disposition: attachment; filename=revlist-4450d244e9f4-93586dc935e6.txt
 
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
 512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
@@ -555,22 +555,5 @@ c6c315c842687f50e12abb1e542113ec96490ebd hugetlb: optimise hugetlb_folio_init_ta
 47338822759ca13fbaa324237e61fb877cfa135a mm/migrate: fix zidx type
 17b5e6f927a2f13a27030658430b66ed81e7688c memory_hotplug: optimise try_offline_memory_block()
 93586dc935e66238548478e051973357955db6e1 mm: constify __dump_folio() arguments
-e8346500a3eb91acc3603d4498eb38af71a26924 mm/huge_memory: introduce enum split_type for clarity
-b49e126450dfe010491f43a6337b3c2c1dc64c0a mm-huge_memory-introduce-enum-split_type-for-clarity-fix
-684c5a76d4c9715ac1245d3c64f121e86b7e1e05 mm/huge_memory: merge uniform_split_supported() and non_uniform_split_supported()
-56d1ea97fec7277cf8b1b5fa224d21cb9900efc9 mm/hugetlb: extract sysfs into hugetlb_sysfs.c
-ba2584957f55e2247dcafa24554d6cbe92cc3f89 mm/hugetlb: extract sysctl into hugetlb_sysctl.c
-7cf30d9129b9a5dffb61092c8da59fcad1b56805 mm: introduce VM_MAYBE_GUARD and make visible in /proc/$pid/smaps
-ec5f063185690353f0eec93fb613b7d5fb15b28a mm: add atomic VMA flags and set VM_MAYBE_GUARD as such
-ee1bc2a4781ae1d9fed772d61875971329ff2455 mm: implement sticky VMA flags
-b619a2f4ddfd512d469695c4d4bdf1a46b1c3acd mm: introduce copy-on-fork VMAs and make VM_MAYBE_GUARD one
-828ecfd06132bade184a102a2a5d63f6c1aec96c mm: set the VM_MAYBE_GUARD flag on guard region install
-a03c69a75b35151de50e4ed22cfbf9fdfdb81f7b tools/testing/vma: add VMA sticky userland tests
-b078ce52b7b9bc52f9cb86ef791ed263489bc0d3 tools/testing/selftests/mm: add MADV_COLLAPSE test case
-a395b0753b940c5856f252ab2be4153ee16a32ec tools/testing/selftests/mm: add smaps visibility guard region test
-899eda88fe50f3b409e9453800b54dde3cf8fabb mm: refine __{pgd,p4d,pud,pmd,pte}_alloc_one_*() about HIGHMEM
-242c3b58d979b3b794398b01a54365dae38ac252 mm: memcg: dump memcg protection info on oom or alloc failures
-41d684e543948a5fc33a6961a0cd4104df58ac94 mm/hmm/test: fix error handling in dmirror_device_init
-8017f1fc873a78f54df02521b4d150f7101916ae Revert "mm, swap: avoid redundant swap device pinning"
 
---===============5344490875950204850==--
+--===============8993812787423111841==--
