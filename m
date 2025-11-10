@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4058211407168928103=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 10 Nov 2025 16:24:57 -0000
-Message-Id: <176279189765.887224.4907688268108414369@gitolite.kernel.org>
-
---===============4058211407168928103==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 10 Nov 2025 16:37:59 -0000
+Message-Id: <176279267964.898289.13587162687689695736@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: e32c402533cc68abe20fcf3246b9ff53e1f96021
-    new: 772ada50282b0c80343c8989147db816961f571d
+  - ref: refs/heads/main
+    old: 74d4432421a3e2669fbccc08c0f4fc2980bf0e39
+    new: 96a9178a29a6b84bb632ebeb4e84cf61191c73d5
     log: |
-         4acbfcf11cbe6c46c42091b49875c7002b0bff3d ASoC: dt-bindings: consolidate simple audio codec to trivial-codec.yaml
-         772ada50282b0c80343c8989147db816961f571d ASoC: cs35l56: Alter error codes for calibration routine
+         4da4e4bde1c453ac5cc2dce5def81d504ae257ee strparser: Fix signed/unsigned mismatch bug
+         57531b3416448d1ced36a2a974a4085ec43d57b0 selftests: net: local_termination: Wait for interfaces to come up
+         ad17e7e92a7c52ce70bb764813fcf99464f96903 net: fec: correct rx_bytes statistic for the case SHIFT16 is set
+         96a9178a29a6b84bb632ebeb4e84cf61191c73d5 net: phy: micrel: lan8814 fix reset of the QSGMII interface
          
-
---===============4058211407168928103==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1762791964 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1762791894-2005f9b7f924999d7a3038261a6c8790efcb5ccb
-
-e32c402533cc68abe20fcf3246b9ff53e1f96021 772ada50282b0c80343c8989147db816961f571d refs/heads/asoc-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkSEh0ACgkQJNaLcl1U
-h9BuEAf7BmPF9wLh5suvHrApn8bB4djNqSZQ0EqfGXofkkyK4DFU9TsL/oHlYTjV
-50m0MMugCTnE6vRo/hO9yTfL8olcJIT4ENIFE8rDVX3VibHUJ46vcaRrB0ZTA4XR
-eevilC3PI3kb6k1A3Xhs6Mgc14BaaC7whkU6HcUTSlCC764amdeE0V0/ujRCA1WO
-w23bmD+8HgkVZdrghAzJ6SjRMtC77YH3zIrqe0w7HYZif4PjBGYkwYCY2Ysghb2V
-NCpN4gTjuhWyxJLL1zQ6M0qqNN4APmez33V4XQ5xcHdRupmk+L35rf9bkZVJE9wr
-MTTGjA2YfDf7DmrLqZuAIurZocn5hw==
-=SLZB
------END PGP SIGNATURE-----
-
---===============4058211407168928103==--
