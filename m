@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 10 Nov 2025 23:38:43 -0000
-Message-Id: <176281792384.1267065.17795092296405856535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Mon, 10 Nov 2025 23:43:49 -0000
+Message-Id: <176281822912.1271609.1354846909817026809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/for-linus
-    old: 939edfaa10f1d22e6af6a84bf4bd96dc49c67302
-    new: 66e9feb03e7cf8983b1d0c540e2dad90d5146d48
+  - ref: refs/heads/main
+    old: caf44b64e7d7629c1c91e42e75b5b22e486f33f3
+    new: 3a245f9cd2a89e2d42834fd888ad9d60d5edbd76
     log: |
-         66e9feb03e7cf8983b1d0c540e2dad90d5146d48 spi: Add TODO comment about ACPI GPIO setup
-         
-  - ref: refs/heads/for-next
-    old: 555ab9f99879ecf2a41e39416852a1d3a5137138
-    new: 8b93110579692f591bd0369abeca24eacff0c083
-    log: |
-         66e9feb03e7cf8983b1d0c540e2dad90d5146d48 spi: Add TODO comment about ACPI GPIO setup
-         8b93110579692f591bd0369abeca24eacff0c083 Merge remote-tracking branch 'spi/for-6.19' into spi-next
+         69f517b13bb26ad5537b3c519fe94d1cfe2c286c feat(error): `CommandError::PolicyDenied`
+         3a245f9cd2a89e2d42834fd888ad9d60d5edbd76 build: swap `env_logger` to `tracing`
          
