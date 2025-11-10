@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Mon, 10 Nov 2025 02:08:09 -0000
-Message-Id: <176274048903.156124.14103676371759676834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 10 Nov 2025 03:03:34 -0000
+Message-Id: <176274381430.200028.7368448587744928569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-user: jarkko
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 326c2ab2bf6e31555d105861f7972021fae8efb9
-    new: b0260ff90f14b9e9688f017bb9065969d1ef81f8
+  - ref: refs/heads/experimental
+    old: 871bf352b74bc7f35d2411ab29e5ca260c79737a
+    new: 0964d7de95073399af226d148a96ae32f64951e7
     log: |
-         b0260ff90f14b9e9688f017bb9065969d1ef81f8 refactor: migrate to tpm2-policy-langauge 0.5.1
+         0964d7de95073399af226d148a96ae32f64951e7 erofs-utils: lib: add more tests for s3erofs_prepare_url()
          
