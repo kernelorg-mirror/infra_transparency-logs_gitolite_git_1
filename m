@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 10 Nov 2025 17:42:03 -0000
-Message-Id: <176279652355.954863.15670559893193800654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Mon, 10 Nov 2025 17:42:56 -0000
+Message-Id: <176279657684.955611.15057618091127567967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-next
-    old: 07600a0ae3e3aa263979501d794d2f6834e7768e
-    new: f982fbb1a6ca3553c15763ad9eb2beeae78d3684
-    log: |
-         5a3d530caab22c235c994b38a860549da04171a4 remoteproc: mediatek: Change the snprintf() checking
-         f982fbb1a6ca3553c15763ad9eb2beeae78d3684 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
-         
+  - ref: refs/heads/b4/jump_label-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: ae26f899a267f9159aed6821a21b8cc456ffab4c
