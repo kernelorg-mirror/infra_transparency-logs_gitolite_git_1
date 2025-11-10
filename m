@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2710219705351567099=="
+Content-Type: multipart/mixed; boundary="===============5633480379803119021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 10 Nov 2025 14:25:04 -0000
-Message-Id: <176278470478.778818.15044861834093233901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 10 Nov 2025 14:34:47 -0000
+Message-Id: <176278528735.785913.3256905307084289858@gitolite.kernel.org>
 
---===============2710219705351567099==
+--===============5633480379803119021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 90bb7582ff5d246a5ea082207c4e61406cf5631f
-    new: 04ecb25c51b49dab592a3776b4f6d8858835e28e
-    log: revlist-90bb7582ff5d-04ecb25c51b4.txt
+  - ref: refs/heads/slab/for-6.19/freelist_aba_t_cleanups
+    old: 0000000000000000000000000000000000000000
+    new: ae5da60db8bd8f243875ff43351e8469f226c439
 
---===============2710219705351567099==
+--===============5633480379803119021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90bb7582ff5d-04ecb25c51b4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8489bd5ff7bebcdb43c30632e62f422909bc3047 Merge tag 'v6.18-rc5' into x86/microcode, to resolve conflicts
-59cc4cdb5f9bf5eb06ebc9478367671647f8ecc7 Merge branch into tip/master: 'core/bugs'
-bdac683dc27aba15ca7d43096edec98c97fc9d3c Merge branch into tip/master: 'core/core'
-5ff2ea864bf107bcb9abb97cc7a88428a1a25729 Merge branch into tip/master: 'core/rseq'
-a309117aa39e3a762583ac29c33e06d17ab4f6f6 Merge branch into tip/master: 'irq/core'
-c9f7e6fd409b63016eb0c39e4f4f4de1db910e2c Merge branch into tip/master: 'irq/drivers'
-fa42675f2c105b314309c959f654be77a9e51c3b Merge branch into tip/master: 'irq/msi'
-8ab0c50798b199e4c0bb5c5c87e86fe4b976f032 Merge branch into tip/master: 'locking/core'
-53fdef9a8e9377d77a1070678cab2c266faa13e5 Merge branch into tip/master: 'objtool/core'
-c6f09da99833a894b2fd29fe2e75e27d4e05cdcd Merge branch into tip/master: 'perf/core'
-c5906306b17f930fa16a2316675fa832fab62de5 Merge branch into tip/master: 'ras/core'
-b22242bc018f53040ca063b74e3848ebf68a4702 Merge branch into tip/master: 'sched/core'
-70195faa0d442df46f2365389e0408d1f9589e75 Merge branch into tip/master: 'timers/core'
-d7d05977b0f5eff41df03a75e9d74f7facfa5923 Merge branch into tip/master: 'x86/apic'
-34cb8261169578cb476934fce74d619e42337d50 Merge branch into tip/master: 'x86/bugs'
-64d73b990bdffe4042e5df02a138eb9bd9066934 Merge branch into tip/master: 'x86/build'
-dace5a78b44076ab151fa21301f3038393c6a9be Merge branch into tip/master: 'x86/cache'
-0f9364acbd7361325202bbab0d8f6f59caede163 Merge branch into tip/master: 'x86/cleanups'
-a60e1804cb3a5f592feb2819bb5def44d0870cd6 Merge branch into tip/master: 'x86/core'
-056060a960b8d3599b737678a918ada5e8c66953 Merge branch into tip/master: 'x86/cpu'
-7262b01777ac324c2fe8a5f88b550f93e3d22876 Merge branch into tip/master: 'x86/entry'
-303402cbb2d61c0e510e13f763289f9f355b7ba7 Merge branch into tip/master: 'x86/microcode'
-d5b0aaf8048ae9729922735c990e3786b98a13a4 Merge branch into tip/master: 'x86/misc'
-9a11c9efbc5e05fc5300bb90b270477a8072b973 Merge branch into tip/master: 'x86/mm'
-cc10b73c604c37b5c665cd235662cf6e1e59a814 Merge branch into tip/master: 'x86/sev'
-04ecb25c51b49dab592a3776b4f6d8858835e28e Merge branch into tip/master: 'x86/sgx'
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1762785351 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1762785282-652806360f60725891b72ac380e95582b015ff3d
 
---===============2710219705351567099==--
+0000000000000000000000000000000000000000 ae5da60db8bd8f243875ff43351e8469f226c439 refs/heads/slab/for-6.19/freelist_aba_t_cleanups
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkR+EcbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiasQcH/RNgvxy1yTXOyBugloPk
+tz1AkmL3bg/uhFgZfj6guLWj/DSzA4hNGhnIQ4QKY3NXXPVrzBewUlo4S51IFLFh
++VXO+Ey6yLI6Z/jmWLFWhagC4nDa72nQJalwanCD+R04AA6wIwyZVskDQiSfbMfo
+Yu0onqwdNtie7YvqrTvY6HbX6VHjmiwrA8mBT4ddCPi/mZkzJDtDiY/SDfhPxqH7
+QkgXgqQaDBkrPjN/2io+FHHa3kpEoH9JSjVS5VXDgT4Ez0HSInPwfAZ90IBBdWm/
+DtKQS2i60L8OjzILalcTIXVWe3kAFI0xG1oRnxO0mGWVv8AVWgkMjTAx1ngUHGUE
+Y9Q=
+=Ke6y
+-----END PGP SIGNATURE-----
+
+--===============5633480379803119021==--
