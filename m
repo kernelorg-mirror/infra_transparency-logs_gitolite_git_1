@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 10 Nov 2025 16:39:21 -0000
-Message-Id: <176279276113.899771.12800926587101218277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 10 Nov 2025 16:39:44 -0000
+Message-Id: <176279278469.900030.571268288640453182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 9d531e65d5055482edb17399732e78ad21200091
-    new: 54daba93e83e1fd6d591cb3890eece4cfe3b36a9
+  - ref: refs/heads/1GbE
+    old: 74d4432421a3e2669fbccc08c0f4fc2980bf0e39
+    new: 96a9178a29a6b84bb632ebeb4e84cf61191c73d5
     log: |
-         4acbfcf11cbe6c46c42091b49875c7002b0bff3d ASoC: dt-bindings: consolidate simple audio codec to trivial-codec.yaml
-         772ada50282b0c80343c8989147db816961f571d ASoC: cs35l56: Alter error codes for calibration routine
-         54daba93e83e1fd6d591cb3890eece4cfe3b36a9 Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
+         4da4e4bde1c453ac5cc2dce5def81d504ae257ee strparser: Fix signed/unsigned mismatch bug
+         57531b3416448d1ced36a2a974a4085ec43d57b0 selftests: net: local_termination: Wait for interfaces to come up
+         ad17e7e92a7c52ce70bb764813fcf99464f96903 net: fec: correct rx_bytes statistic for the case SHIFT16 is set
+         96a9178a29a6b84bb632ebeb4e84cf61191c73d5 net: phy: micrel: lan8814 fix reset of the QSGMII interface
          
