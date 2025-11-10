@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3191122319470320666=="
+Content-Type: multipart/mixed; boundary="===============7315727186009732417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Nov 2025 09:44:13 -0000
-Message-Id: <176276785392.532851.17848432183965100838@gitolite.kernel.org>
+Date: Mon, 10 Nov 2025 09:44:19 -0000
+Message-Id: <176276785917.533065.17897647882111285062@gitolite.kernel.org>
 
---===============3191122319470320666==
+--===============7315727186009732417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 5b75dfcae059408cc7454bcfb3d7b2111ea831fd
-    new: 08e3e49c7411b6d09598e2c133ff2dbe492c0a37
-    log: revlist-5b75dfcae059-08e3e49c7411.txt
+  - ref: refs/heads/m68k-queue
+    old: ba11d71cb5e03d18d99eb3c0a2ef13f3bd3a932e
+    new: 2c0222aa9f29796ea59f4cd6e2e788007c7ef2ef
+    log: revlist-ba11d71cb5e0-2c0222aa9f29.txt
 
---===============3191122319470320666==
+--===============7315727186009732417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b75dfcae059-08e3e49c7411.txt
+Content-Disposition: attachment; filename=revlist-ba11d71cb5e0-2c0222aa9f29.txt
 
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
 512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
@@ -281,6 +281,8 @@ b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of 
 3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
-08e3e49c7411b6d09598e2c133ff2dbe492c0a37 Merge tag 'v6.18-rc5'
+4911ed728cb15d547d2fa1e61df8485e3019283b m68k: atari: usb: Add ISP1160 USB host controller support
+229a6fd02e2157e1955282e7bdeac37f24df6161 m68k: atari: Update Kconfig.bus help text
+2c0222aa9f29796ea59f4cd6e2e788007c7ef2ef m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3191122319470320666==--
+--===============7315727186009732417==--
