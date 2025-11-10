@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8612802479906417967=="
+Content-Type: multipart/mixed; boundary="===============2519283610247216101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 10 Nov 2025 14:22:49 -0000
-Message-Id: <176278456902.775066.15723634490769209371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 10 Nov 2025 14:24:24 -0000
+Message-Id: <176278466407.776330.2006772643986819841@gitolite.kernel.org>
 
---===============8612802479906417967==
+--===============2519283610247216101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 738ac6af2c3db51d4222aab56cbc675f10b7d343
-    new: e97ca35f196b6c2dd8e6195a61ba7cc2fd665cee
-    log: revlist-738ac6af2c3d-e97ca35f196b.txt
+  - ref: refs/heads/x86/microcode
+    old: 67760efa1428c66632a8b901be388aa741e1f02c
+    new: 8489bd5ff7bebcdb43c30632e62f422909bc3047
+    log: revlist-67760efa1428-8489bd5ff7be.txt
 
---===============8612802479906417967==
+--===============2519283610247216101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-738ac6af2c3d-e97ca35f196b.txt
+Content-Disposition: attachment; filename=revlist-67760efa1428-8489bd5ff7be.txt
 
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
 512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
@@ -110,7 +110,6 @@ ff4d2ef3874773c9c6173b0f099372bf62252aaf rust: devres: fix private intra-doc lin
 09b1704f5b02c18dd02b21343530463fcfc92c54 rust: condvar: fix broken intra-doc link
 eb3182ef0405ff2f6668fd3e5ff9883f60ce8801 perf/core: Fix system hang caused by cpu-clock usage
 4a372798e12cc777918db90c06e11c80e90bd001 dt-bindings: gpio: ti,twl4030: Correct the schema $id path
-0a4b61d9c2e496b5f0a10e29e355a1465c8738bb x86/amd_node: Fix AMD root device caching
 b4cd8f94ae7e5b0d83041b186258eba0c8f7c5f7 drm/imagination: Optionally depend on POWER_SEQUENCING
 e5d527be7e6984882306b49c067f1fec18920735 gpio: swnode: don't use the swnode's name as the key for GPIO lookup
 2f6115ad8864cf3f48598f26c74c7c8e5c391919 gpiolib: fix invalid pointer access in debugfs
@@ -159,7 +158,6 @@ fd9f30d1038ee1624baa17a6ff11effe5f7617cb parisc: Avoid crash due to unaligned ac
 d24822e1471d68a6eceee67809b5956d59482cb5 ksmbd: detect RDMA capable lower devices when bridge and vlan netdev is used
 e6187655acfa2dd566ea2aed4522083f0bb940c3 ksmbd: detect RDMA capable netdevs include IPoIB
 734e99623c5b65bf2c03e35978a0b980ebc3c2f8 smb: client: fix potential UAF in smb2_close_cached_fid()
-f1fdffe0afea02ba783acfe815b6a60e7180df40 x86/CPU/AMD: Add missing terminator for zen5_rdseed_microcode
 2b81082ad37cc3f28355fb73a6a69b91ff7dbf20 lib/crypto: curve25519-hacl64: Fix older clang KASAN workaround for GCC
 44e8241c51f762aafa50ed116da68fd6ecdcc954 lib/crypto: arm/curve25519: Disable on CPU_BIG_ENDIAN
 789521b4717fd6bd85164ba5c131f621a79c9736 rust: kbuild: support `-Cjump-tables=n` for Rust 1.93.0
@@ -250,7 +248,6 @@ a18033f1309cdfd6772799a9b9e72a098c52268b Merge tag 'mediatek-drm-fixes-20251105'
 95af8f4fdce8349a5fe75264007f1af2aa1082ea drm/xe/guc: Synchronize Dead CT worker with unbind
 9cd27eec872f0b95dcdd811edc39d2d32e4158c8 drm/xe: Move declarations under conditional branch
 b11a020d914c3b7628f56a9ea476a5b03679489b drm/xe: Do clean shutdown also when using flr
-d23550efc6800841b4d1639784afaebdea946ae0 x86/microcode/AMD: Add more known models to entry sign checking
 0995c2fc39b0f998d40f5d276f67ae22fc1c37c3 drm/xe: Enforce correct user fence signaling order using
 53afec2c8fb2a562222948cb1c2aac48598578c9 tracing/tools: Fix incorrcet short option in usage text for --threads
 cff0a1be08ae4ee609362fc6500cec4724e79e18 Merge tag 'v6.18-rc4-smb-server-fixes' of git://git.samba.org/ksmbd
@@ -281,21 +278,6 @@ b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of 
 3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
-5d6b91908621f8f72dbaf14c87e6b157292d1739 svcrdma: Release transport resources synchronously
-8a25e05a98abc5ee405a4a251c9ee5a18e5455eb nfsd: move name lookup out of nfsd4_list_rec_dir()
-b6623a4f588f9d520b3275af5936be2f5a298aba nfsd: change nfs4_client_to_reclaim() to allocate data
-94e572f4cfaca4d85fd001d604066341b4dcaf18 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
-7ac3be9e56d8337cf2a49004166fff2ecf5a9de4 NFSD: Add array bounds-checking in nfsd_iter_read()
-39e156df837bd2c461333340eef3cb387118386e nfsd: delete unreachable confusing code in nfs4_open_delegation()
-cbaeb3c4b9725f2c568dfeef9b8833d187884dd7 NFSD: Update comment documenting unsupported fattr4 attributes
-dd1265ee95b7c103f980a908a3357d10316570e0 svcrdma: Increase the server's default RPC/RDMA credit grant
-847ebb842b43bd7a9ad7d3d64a0ff7672c85bfbb NFSD/blocklayout: Fix minlength check in proc_layoutget
-6b5afd1992296892e31f7a49aa51fbd4e8ff976f NFSD/blocklayout: Extract extent mapping from proc_layoutget
-3b14d57c36132248bd16d53b7c8d2d01c497204e NFSD/blocklayout: Introduce layout content structure
-a57c7312973af05ef718d65ddcc4a7cb955ab426 NFSD/blocklayout: Support multiple extents per LAYOUTGET
-ce350550b4cf4af9731222600867d936985b03db NFSD: pass nfsd_file to nfsd_iter_read()
-38dd5c11ff525b738bda0d0605133c4cf4bb4e1d NFSD: Relocate the xdr_reserve_space_vec() call site
-3e2965cdc4ae488c3177c6fa7792601dd5388aa2 NFSD: Implement NFSD_IO_DIRECT for NFS READ
-e97ca35f196b6c2dd8e6195a61ba7cc2fd665cee SUNRPC: Improve "fragment too large" warning
+8489bd5ff7bebcdb43c30632e62f422909bc3047 Merge tag 'v6.18-rc5' into x86/microcode, to resolve conflicts
 
---===============8612802479906417967==--
+--===============2519283610247216101==--
