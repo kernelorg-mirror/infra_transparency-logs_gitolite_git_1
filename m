@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3411905868691497564=="
+Content-Type: multipart/mixed; boundary="===============7025739070797142084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 10 Nov 2025 09:11:37 -0000
-Message-Id: <176276589796.505425.3115686149786429846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 10 Nov 2025 09:11:52 -0000
+Message-Id: <176276591204.505650.2039999752894268842@gitolite.kernel.org>
 
---===============3411905868691497564==
+--===============7025739070797142084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c
     log: revlist-6146a0f1dfae-e9a6fb0bcdd7.txt
 
---===============3411905868691497564==
+--===============7025739070797142084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -282,4 +282,4 @@ b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of 
 f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
 
---===============3411905868691497564==--
+--===============7025739070797142084==--
