@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 10 Nov 2025 12:21:08 -0000
-Message-Id: <176277726824.670747.11526951978099368477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Mon, 10 Nov 2025 12:21:31 -0000
+Message-Id: <176277729199.671057.8462027182838962559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/for-next
-    old: f10f4006e547f013ff1d7421f771a47356b39f68
-    new: 48f9c9c1188bdc2181db30561d833ce857332d82
+  - ref: refs/heads/next
+    old: 060d111e8a562e2a9b158c773de9a9edb06a7279
+    new: bd4fae181ee0123a89b809e5cb209e17b25116dd
     log: |
-         cc3bad11de6e0d6012460487903e7167d3e73957 printk_ringbuffer: Fix check of valid data size when blk_lpos overflows
-         394aa576c0b783ae728d87ed98fe4f1831dfd720 printk_ringbuffer: Create a helper function to decide whether more space is needed
-         48f9c9c1188bdc2181db30561d833ce857332d82 Merge branch 'for-6.19' into for-next
+         b0a5ed77780cc4e4a3aca4ce676d180f20fcf158 amba: bus: Drop dev_pm_domain_detach() call
+         bd4fae181ee0123a89b809e5cb209e17b25116dd pmdomain: mediatek: convert from clk round_rate() to determine_rate()
          
