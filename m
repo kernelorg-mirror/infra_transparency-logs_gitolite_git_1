@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 10 Nov 2025 08:56:47 -0000
-Message-Id: <176276500722.492227.8926419495152482865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 10 Nov 2025 09:00:57 -0000
+Message-Id: <176276525718.496504.5709784282666384162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/stm32-next
-    old: e40b061cd379f4897e705d17cf1b4572ad0f3963
-    new: c23cb4565ad8b976613f3bb91017feb6532c341c
+  - ref: refs/heads/master
+    old: 5322b728568c41b4e5120ec656ded6ebe05ef727
+    new: 06af526ec3653efb2ff09b7d8d5a38a8ab393c02
     log: |
-         c23cb4565ad8b976613f3bb91017feb6532c341c ARM: dts: stm32: lxa: drop unnecessary vusb_d/a-supply
+         780813d7018067f2796f023b56b51385970be460 x86/math-emu: Fix div_Xsig() prototype
+         06af526ec3653efb2ff09b7d8d5a38a8ab393c02 Merge branch into tip/master: 'x86/build'
          
