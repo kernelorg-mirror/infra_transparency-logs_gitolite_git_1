@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4494291454231546955=="
+Content-Type: multipart/mixed; boundary="===============4211005350259392936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 10 Nov 2025 16:48:55 -0000
-Message-Id: <176279333521.908913.3117985258150496929@gitolite.kernel.org>
+Date: Mon, 10 Nov 2025 16:48:57 -0000
+Message-Id: <176279333746.909054.10677166631349067166@gitolite.kernel.org>
 
---===============4494291454231546955==
+--===============4211005350259392936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c6934c4e049c8a7f2b7fab620c04bc5dfbd947c1
     new: a0c3aefb08cd81864b17c23c25b388dba90b9dad
     log: revlist-c6934c4e049c-a0c3aefb08cd.txt
 
---===============4494291454231546955==
+--===============4211005350259392936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ e3c8f25cf2aa3f2547da26e7a46424c016550d31 net: stmmac: sti: use ->set_phy_intf_se
 7c46332810d4b6a550094a257481e5f46d217b25 Merge branch 'net-stmmac-lpc18xx-and-sti-convert-to-set_phy_intf_sel'
 a0c3aefb08cd81864b17c23c25b388dba90b9dad Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============4494291454231546955==--
+--===============4211005350259392936==--
