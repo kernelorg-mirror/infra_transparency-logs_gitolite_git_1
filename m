@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 10 Nov 2025 12:21:31 -0000
-Message-Id: <176277729199.671057.8462027182838962559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+Date: Mon, 10 Nov 2025 12:21:46 -0000
+Message-Id: <176277730661.671312.15041910111378528875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 060d111e8a562e2a9b158c773de9a9edb06a7279
-    new: bd4fae181ee0123a89b809e5cb209e17b25116dd
+  - ref: refs/heads/main
+    old: fcbd1d9b27f01bb84c2ad48e3dd248ae6788ccb0
+    new: 2a62c61eb5cc5390c48e70ab7e1cedf80061cf36
     log: |
-         b0a5ed77780cc4e4a3aca4ce676d180f20fcf158 amba: bus: Drop dev_pm_domain_detach() call
-         bd4fae181ee0123a89b809e5cb209e17b25116dd pmdomain: mediatek: convert from clk round_rate() to determine_rate()
+         9b8f1b8a652175ae2d771783c0a23c4918c3dd4e feat: permanent handles
+         2a62c61eb5cc5390c48e70ab7e1cedf80061cf36 chore: bump version to 0.5.2
          
