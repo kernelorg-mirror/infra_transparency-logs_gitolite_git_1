@@ -1,61 +1,62 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-Date: Mon, 10 Nov 2025 01:46:06 -0000
-Message-Id: <176273916623.136237.12982432184002818123@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0008000630041112964=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Mon, 10 Nov 2025 01:49:53 -0000
+Message-Id: <176273939305.138564.11278900691684848894@gitolite.kernel.org>
+
+--===============0008000630041112964==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-user: jarkko
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/0.1.0
-    old: 0000000000000000000000000000000000000000
-    new: dbed7219a838c49f7b9a5c2995aa13fb344fb9c4
-  - ref: refs/tags/0.2.0
-    old: 0000000000000000000000000000000000000000
-    new: abffdb3f796edc8907e8535aa8af9aa944851cb5
-  - ref: refs/tags/0.2.1
-    old: 0000000000000000000000000000000000000000
-    new: f7f9c63fa0be5f77dded22d51c6b273f37f6bc8c
-  - ref: refs/tags/0.3.0
-    old: 0000000000000000000000000000000000000000
-    new: fc4773b9f75ce37873a5137baf5c802c766a4331
-  - ref: refs/tags/0.3.1
-    old: 0000000000000000000000000000000000000000
-    new: 2b3910ecaae4898cdf55d8aa8bef5a5c83823612
-  - ref: refs/tags/0.3.2
-    old: 0000000000000000000000000000000000000000
-    new: 5e3d107b4e1c9468ea2db38b3c26230ded9393cf
-  - ref: refs/tags/0.3.3
-    old: 0000000000000000000000000000000000000000
-    new: 89313573806178a564f3bd3645941d9ce50594a3
-  - ref: refs/tags/0.3.4
-    old: 0000000000000000000000000000000000000000
-    new: af213c4a4b6127f74b1159657f4033a20c1271df
-  - ref: refs/tags/0.3.5
-    old: 0000000000000000000000000000000000000000
-    new: cf2ee4ff70255db9fcf56a842e721e4e519c2cf2
-  - ref: refs/tags/0.3.6
-    old: 0000000000000000000000000000000000000000
-    new: fe727ee33526820995d4e770c814f5ef2c9c95a7
-  - ref: refs/tags/0.3.7
-    old: 0000000000000000000000000000000000000000
-    new: 7cb6214eaf4c0374857c8c158b58e25d7a5dd893
-  - ref: refs/tags/0.3.8
-    old: 0000000000000000000000000000000000000000
-    new: 020b63e7b5b3dcbb5e6da6afcd9e09bcccf1d5c8
-  - ref: refs/tags/0.3.9
-    old: 0000000000000000000000000000000000000000
-    new: 8fa018d03504780a730405c750186e973e86b59b
-  - ref: refs/tags/0.4.0
-    old: 0000000000000000000000000000000000000000
-    new: 788dcbb6a595f29b702684d60c511da9bf7b3db1
-  - ref: refs/tags/0.5.0
-    old: 0000000000000000000000000000000000000000
-    new: 84314e353a8bbd58c67845845780e0df14845495
-  - ref: refs/tags/0.5.1
-    old: 0000000000000000000000000000000000000000
-    new: 10f44d9200fe1b97536130991be1d78304991b04
+  - ref: refs/heads/main
+    old: 439fc29dfd3b9c072dfff292d91cfa2f6cfb702b
+    new: e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c
+    log: |
+         6a0dddc53f6f04281b27254a7d940fb9bb2d5a3b i2c: muxes: pca954x: Fix broken reset-gpio usage
+         a26a6c93edfeee82cb73f55e87d995eea59ddfe8 kbuild: Strip trailing padding bytes from modules.builtin.modinfo
+         9818af18db4bfefd320d0fef41390a616365e6f7 compiler_types: Move unused static inline functions warning to W=2
+         002621a4df3c166fab1427e8e502bc15acc26b13 kbuild: Let kernel-doc.py use PYTHON3 override
+         3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+         f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
+         
+
+--===============0008000630041112964==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762739458 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1762739388-430abbd6ac31c37e679638e807a776af8911f81e
+
+439fc29dfd3b9c072dfff292d91cfa2f6cfb702b e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkRRQIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+50AQALEwTF93Yno+qg5/+FSD
+v39/G0nq5mey6lTqvaGLeazt9Vx0jSA1Yz8QxGDV1IDNTAFNkKW7hLvzDcKZmyeF
+Cpm9Q+/Tc9repHitYJkcTUZ6peqXf6gotJehXkO7Iij5SV43kUAtQKmBvk48Tju5
+84/E/6AnxLope1v9h7+Ga4PwFUpe4B0J0Po7dporcLSS4wiclRhNZHIDkGO4eB7X
+czWoyIpjYvhMnOhocc2hkscpdAcKLKVuNpjp3MB5NY1foclPZBK3qZyb0pRN6c8d
+njvq3vCbAAWqprQLZVU2DnhyMDQJB+n4WvzUprPZWC+VioH5CnwmVY+84Qp6wdLt
+mRUkzd+S/3dcHj/aa2BykScaKyxG/ZNUhoLzS32EftRK0znT308Ixs8MVJUIfIKz
+xghtALJdtDz4DaUord6oLmKJwT8P8Zz77fSWT8dzaa6cIdCqa63bzQF0G/mzG6Kz
+JZtimv6rwSasxQvEBBUvhHPtLSaUebCsfsuqpTWMhfuAVN1X7nElx78Qg2dfmteU
+OIqtEz1Dk6kBvj5SxbUoQ6uQPAEx0DgJrt8CaUrfEMgW8/gRZQl9qvlrTZUug2Or
+ap/DHLmEWcEKhqQKyOMVEJtxOAPa6IPRJUONn8aQEiltlMzDSu093TQDwYbt5mSv
+MoHHdPRVgq8eA9YMc/NJJ7D6
+=lC7Q
+-----END PGP SIGNATURE-----
+
+--===============0008000630041112964==--
