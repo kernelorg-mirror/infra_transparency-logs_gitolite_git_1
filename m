@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 10 Nov 2025 20:33:08 -0000
-Message-Id: <176280678801.1100279.2523278587888680932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 10 Nov 2025 20:53:06 -0000
+Message-Id: <176280798625.1116935.9025778492305257123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 59e5396a25793eb6cb32763163e975c242ef3eef
-    new: 9063119bdaee8c1bea4350971d02cc649076c4ff
-    log: |
-         c1b7e4ae360b7c0ee77fc3149b43a9c81dfe69e0 Bluetooth: btusb: add new custom firmwares
-         9063119bdaee8c1bea4350971d02cc649076c4ff Bluetooth: btrtl: Avoid loading the config file on security chips
-         
+  - ref: refs/heads/scx-bypass-scalability-v2
+    old: 0000000000000000000000000000000000000000
+    new: 27ab0bfd9e10121f25b6dd1b5500c7b627c5d215
