@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 10 Nov 2025 12:18:58 -0000
-Message-Id: <176277713831.667820.16542285646165045737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+Date: Mon, 10 Nov 2025 12:20:46 -0000
+Message-Id: <176277724659.670432.10093318148564115712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+user: jarkko
 changes:
-  - ref: refs/heads/for-6.19
-    old: af205a9b6837b453137bf41a78732480b6128096
-    new: 394aa576c0b783ae728d87ed98fe4f1831dfd720
+  - ref: refs/heads/main
+    old: c51d76586b9757b52cbee21009d32208e4fa1b30
+    new: fcbd1d9b27f01bb84c2ad48e3dd248ae6788ccb0
     log: |
-         cc3bad11de6e0d6012460487903e7167d3e73957 printk_ringbuffer: Fix check of valid data size when blk_lpos overflows
-         394aa576c0b783ae728d87ed98fe4f1831dfd720 printk_ringbuffer: Create a helper function to decide whether more space is needed
+         5f3eb546bedd422781873db2395e0310765b62d0 chore: bump version to 0.5.2
+         fcbd1d9b27f01bb84c2ad48e3dd248ae6788ccb0 feat: permanent handles
          
