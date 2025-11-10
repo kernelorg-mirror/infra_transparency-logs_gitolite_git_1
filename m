@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2519283610247216101=="
+Content-Type: multipart/mixed; boundary="===============8643225594830962143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 10 Nov 2025 14:24:24 -0000
-Message-Id: <176278466407.776330.2006772643986819841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 10 Nov 2025 14:24:40 -0000
+Message-Id: <176278468030.776560.8498797697143881277@gitolite.kernel.org>
 
---===============2519283610247216101==
+--===============8643225594830962143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/x86/microcode
-    old: 67760efa1428c66632a8b901be388aa741e1f02c
-    new: 8489bd5ff7bebcdb43c30632e62f422909bc3047
-    log: revlist-67760efa1428-8489bd5ff7be.txt
+  - ref: refs/heads/nfsd-testing
+    old: 85c3188b173dc964eef12230866c15518aef6437
+    new: 7158c532e216ff3467814b8d0816b978bef8a524
+    log: revlist-85c3188b173d-7158c532e216.txt
 
---===============2519283610247216101==
+--===============8643225594830962143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67760efa1428-8489bd5ff7be.txt
+Content-Disposition: attachment; filename=revlist-85c3188b173d-7158c532e216.txt
 
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
 512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
@@ -110,6 +110,7 @@ ff4d2ef3874773c9c6173b0f099372bf62252aaf rust: devres: fix private intra-doc lin
 09b1704f5b02c18dd02b21343530463fcfc92c54 rust: condvar: fix broken intra-doc link
 eb3182ef0405ff2f6668fd3e5ff9883f60ce8801 perf/core: Fix system hang caused by cpu-clock usage
 4a372798e12cc777918db90c06e11c80e90bd001 dt-bindings: gpio: ti,twl4030: Correct the schema $id path
+0a4b61d9c2e496b5f0a10e29e355a1465c8738bb x86/amd_node: Fix AMD root device caching
 b4cd8f94ae7e5b0d83041b186258eba0c8f7c5f7 drm/imagination: Optionally depend on POWER_SEQUENCING
 e5d527be7e6984882306b49c067f1fec18920735 gpio: swnode: don't use the swnode's name as the key for GPIO lookup
 2f6115ad8864cf3f48598f26c74c7c8e5c391919 gpiolib: fix invalid pointer access in debugfs
@@ -158,6 +159,7 @@ fd9f30d1038ee1624baa17a6ff11effe5f7617cb parisc: Avoid crash due to unaligned ac
 d24822e1471d68a6eceee67809b5956d59482cb5 ksmbd: detect RDMA capable lower devices when bridge and vlan netdev is used
 e6187655acfa2dd566ea2aed4522083f0bb940c3 ksmbd: detect RDMA capable netdevs include IPoIB
 734e99623c5b65bf2c03e35978a0b980ebc3c2f8 smb: client: fix potential UAF in smb2_close_cached_fid()
+f1fdffe0afea02ba783acfe815b6a60e7180df40 x86/CPU/AMD: Add missing terminator for zen5_rdseed_microcode
 2b81082ad37cc3f28355fb73a6a69b91ff7dbf20 lib/crypto: curve25519-hacl64: Fix older clang KASAN workaround for GCC
 44e8241c51f762aafa50ed116da68fd6ecdcc954 lib/crypto: arm/curve25519: Disable on CPU_BIG_ENDIAN
 789521b4717fd6bd85164ba5c131f621a79c9736 rust: kbuild: support `-Cjump-tables=n` for Rust 1.93.0
@@ -248,6 +250,7 @@ a18033f1309cdfd6772799a9b9e72a098c52268b Merge tag 'mediatek-drm-fixes-20251105'
 95af8f4fdce8349a5fe75264007f1af2aa1082ea drm/xe/guc: Synchronize Dead CT worker with unbind
 9cd27eec872f0b95dcdd811edc39d2d32e4158c8 drm/xe: Move declarations under conditional branch
 b11a020d914c3b7628f56a9ea476a5b03679489b drm/xe: Do clean shutdown also when using flr
+d23550efc6800841b4d1639784afaebdea946ae0 x86/microcode/AMD: Add more known models to entry sign checking
 0995c2fc39b0f998d40f5d276f67ae22fc1c37c3 drm/xe: Enforce correct user fence signaling order using
 53afec2c8fb2a562222948cb1c2aac48598578c9 tracing/tools: Fix incorrcet short option in usage text for --threads
 cff0a1be08ae4ee609362fc6500cec4724e79e18 Merge tag 'v6.18-rc4-smb-server-fixes' of git://git.samba.org/ksmbd
@@ -278,6 +281,51 @@ b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of 
 3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
-8489bd5ff7bebcdb43c30632e62f422909bc3047 Merge tag 'v6.18-rc5' into x86/microcode, to resolve conflicts
+5d6b91908621f8f72dbaf14c87e6b157292d1739 svcrdma: Release transport resources synchronously
+8a25e05a98abc5ee405a4a251c9ee5a18e5455eb nfsd: move name lookup out of nfsd4_list_rec_dir()
+b6623a4f588f9d520b3275af5936be2f5a298aba nfsd: change nfs4_client_to_reclaim() to allocate data
+94e572f4cfaca4d85fd001d604066341b4dcaf18 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+7ac3be9e56d8337cf2a49004166fff2ecf5a9de4 NFSD: Add array bounds-checking in nfsd_iter_read()
+39e156df837bd2c461333340eef3cb387118386e nfsd: delete unreachable confusing code in nfs4_open_delegation()
+cbaeb3c4b9725f2c568dfeef9b8833d187884dd7 NFSD: Update comment documenting unsupported fattr4 attributes
+dd1265ee95b7c103f980a908a3357d10316570e0 svcrdma: Increase the server's default RPC/RDMA credit grant
+847ebb842b43bd7a9ad7d3d64a0ff7672c85bfbb NFSD/blocklayout: Fix minlength check in proc_layoutget
+6b5afd1992296892e31f7a49aa51fbd4e8ff976f NFSD/blocklayout: Extract extent mapping from proc_layoutget
+3b14d57c36132248bd16d53b7c8d2d01c497204e NFSD/blocklayout: Introduce layout content structure
+a57c7312973af05ef718d65ddcc4a7cb955ab426 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+ce350550b4cf4af9731222600867d936985b03db NFSD: pass nfsd_file to nfsd_iter_read()
+38dd5c11ff525b738bda0d0605133c4cf4bb4e1d NFSD: Relocate the xdr_reserve_space_vec() call site
+3e2965cdc4ae488c3177c6fa7792601dd5388aa2 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+e97ca35f196b6c2dd8e6195a61ba7cc2fd665cee SUNRPC: Improve "fragment too large" warning
+b3da9b141578d958b41b4c0c84b0226470e170ab nfsd: fix refcount leak in nfsd_set_fh_dentry()
+ca59c2e680711f9721fad6ed83f6245932a89d35 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
+3661d56bca06702fb9b2536da825f9c11167a43a sunrpc: allocate a separate bvec array for socket sends
+1ef59d12aaa8a72180eb23f49988ec81842968f6 NFSD: Add a subsystem policy document
+171e42754280c95b1276f372419ad7e4c55f9a5e NFSD: free copynotify stateid in nfs4_free_ol_stateid()
+27f9ab3c7674b3b59bd17600ca156295563b8b47 NFSD: Skip close replay processing if XDR encoding fails
+57d741cef692b004b48e4a53cdf569ee17de1322 NFSD: Never cache a COMPOUND when the SEQUENCE operation fails
+ecaec7a34175e42e7c92e210c6a37903e37b4cc1 nfsd: ensure SEQUENCE replay sends a valid reply.
+48990a0923a7fdfa79adf651a7b80b166ad9bbaa nfsd: stop pretending that we cache the SEQUENCE reply.
+8e482e75875393e468d8d4f57d1f86b42d42cb84 Revert "SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it"
+6f018e8f5f36e81a7a1ada46f45baca01ae5e6ac nfsd: Use MD5 library instead of crypto_shash
+73c6f39e63e8ffb1260f856f0a784924d1e62080 MAINTAINERS: add a nfsd blocklayout reviewer
+d0884e08e2463f83e8d12d493258dc6efa840f9d lockd: don't allow locking on reexported NFSv2/3
+9bf0a55668d0aec5025357bace5a6a2de404d795 xdrgen: Generalize/harden pathname construction
+e25931e3ff12bd7784f1e059bf48076f0cdcb025 xdrgen: Make the xdrgen script location-independent
+8e2145382ceb9358a36eb7a6fcbca86b89cd6dcf xdrgen: Fix the variable-length opaque field decoder template
+97312a9b65c8b01294c8db1b1ee03a46ff019f25 xdrgen: handle _XdrString in union encoder/decoder
+f4ba859c6c4829adc9acc5272f23db99317d6079 xdrgen: Fix union declarations
+b9f9ab7c050ecb23a6e43c917919c1bf58184150 xdrgen: Don't generate unnecessary semicolon
+fe9b310024c7aceba6c65026f36cc2a9d238d53e NFSD: don't start nfsd if sv_permsocks is empty
+400fa080117ea8865f8c8c2608fce25066407515 NFSD: use correct reservation type in nfsd4_scsi_fence_client
+77a74ffe1b1fb434aa2d28936271b44f647f9e0e NFSD: Add trace point for SCSI fencing operation.
+b15d87f68fc48479d1fe8e974ab5a4d0be7ca74b SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
+e531ca5d1a7a67c5e5cbb40d6c213253122b2601 svcrdma: use rc_pageoff for memcpy byte offset
+2c3aef7ccdf854fa991a0a24010c097ad862edc5 svcrdma: return 0 on success from svc_rdma_copy_inline_range
+5df70ada2d663b0da55704ec9679e5d1085e21da svcrdma: bound check rq_pages index in inline path
+2ea359e74a73cd91af797eec7bd402b1871452f5 NFSD: Make FILE_SYNC WRITEs comply with spec
+b1e21422eb32c5dd50b26e335a4a9d25e3db0a59 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+ab6836a39b558c74fad3d2899ef179424e187799 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+7158c532e216ff3467814b8d0816b978bef8a524 siw: Enable try_gso
 
---===============2519283610247216101==--
+--===============8643225594830962143==--
