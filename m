@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-Date: Mon, 10 Nov 2025 11:36:26 -0000
-Message-Id: <176277458687.629954.1951356689569523048@gitolite.kernel.org>
+Date: Mon, 10 Nov 2025 11:41:50 -0000
+Message-Id: <176277491024.634925.9643699781792948133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 726aefbcf20598d5294118322246f8fbc7cfb7ae
-    new: f27b4f80df2077a8206332b8e04c737263e6a296
+    old: f27b4f80df2077a8206332b8e04c737263e6a296
+    new: 4ffdefe8c1ebfc7a123472870128523c4dc0c341
     log: |
-         f27b4f80df2077a8206332b8e04c737263e6a296 refactor(error): rename UnexpectedToken to InvalidToken
+         4ffdefe8c1ebfc7a123472870128523c4dc0c341 refactor(error): update variant to PcrBankMissing(Hash)
          
