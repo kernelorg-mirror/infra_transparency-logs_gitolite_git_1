@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Tue, 11 Nov 2025 13:27:45 -0000
-Message-Id: <176286766560.1991672.16853611370138497666@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 13:27:51 -0000
+Message-Id: <176286767193.1991932.8009423581019762093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/kexec/kexec-tools
 user: horms
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 15d78e5799eea7ec5ea9c5897ae95aaa0ce8970c
     new: 8ac3a7e08957fcb3fa59c9fc4e9c283b9a072ce6
     log: |
