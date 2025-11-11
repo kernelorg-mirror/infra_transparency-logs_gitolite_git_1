@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Tue, 11 Nov 2025 01:17:56 -0000
-Message-Id: <176282387632.1363589.5605557615083605824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 11 Nov 2025 01:19:18 -0000
+Message-Id: <176282395822.1365031.2077195863248455074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 9f8eb7cf9322053a38268dac5c49f6333649fe22
-    new: 16d95451194c5abb2d019e6386744f6110f15678
+  - ref: refs/heads/main
+    old: 762e7e174da91cf4babfe77e45bc6b67334b1503
+    new: 41d0c31be29fdee2535028ce70a6661e3a67bb25
     log: |
-         16d95451194c5abb2d019e6386744f6110f15678 Revert "hkml_sync: sync cached list outputs data"
+         41d0c31be29fdee2535028ce70a6661e3a67bb25 tools: ynl: call nested attribute free function for indexed arrays
          
