@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 11 Nov 2025 13:35:16 -0000
-Message-Id: <176286811602.1999199.11641237701480635695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Tue, 11 Nov 2025 13:36:54 -0000
+Message-Id: <176286821475.1999988.1735965219199282332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/kdevops
-    old: 09c510940e06183a5cbf8b92f8e1a8a6741da709
-    new: 8ccab045474a7b29cfad0504adf0234dd4007462
+  - ref: refs/heads/main
+    old: 8ac3a7e08957fcb3fa59c9fc4e9c283b9a072ce6
+    new: 86c3d1f7b646832e962af371b23af18a4f3c2105
     log: |
-         8ccab045474a7b29cfad0504adf0234dd4007462 vfs: remove the "excl" argument from the iops->create
+         eb8609a293631e9f62269a4f1d84f47fef446f07 kexec/ifdown.c: Use AF_NETLINK instead of AF_INET
+         86c3d1f7b646832e962af371b23af18a4f3c2105 kexec/ifdown.c: Hide error if sockets are disabled
+         
+  - ref: refs/heads/master
+    old: 8ac3a7e08957fcb3fa59c9fc4e9c283b9a072ce6
+    new: 86c3d1f7b646832e962af371b23af18a4f3c2105
+    log: |
+         eb8609a293631e9f62269a4f1d84f47fef446f07 kexec/ifdown.c: Use AF_NETLINK instead of AF_INET
+         86c3d1f7b646832e962af371b23af18a4f3c2105 kexec/ifdown.c: Hide error if sockets are disabled
          
