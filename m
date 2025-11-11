@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Nov 2025 18:20:17 -0000
-Message-Id: <176288521775.2249461.8054377177639812578@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 18:46:05 -0000
+Message-Id: <176288676596.2270459.17690790132373073964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20251111_yung_chuan_liao_asoc_intel_machine_driver_updates_for_6_19
-    old: 873bc94689d832878befbcadc10b6ad5bb4e0027
+  - ref: refs/heads/20251111_rf_asoc_cs35l56_support_for_restoring_calibration_on_chromeos
+    old: 32172cf3cb543a04c41a1677c97a38e60cad05b6
     new: 0000000000000000000000000000000000000000
