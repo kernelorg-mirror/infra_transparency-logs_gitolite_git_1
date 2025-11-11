@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 11 Nov 2025 17:21:34 -0000
-Message-Id: <176288169456.2198127.15112632041325255557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 11 Nov 2025 17:23:20 -0000
+Message-Id: <176288180058.2199188.2729487376526954698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 081006b7c8e19406dc6674c6b6d086764d415b5c
-    new: e279039c3ec3708707961daa7234e4a5fd645ad3
-    log: |
-         e279039c3ec3708707961daa7234e4a5fd645ad3 perf symbol: Remove unneeded semicolon
-         
+  - ref: refs/tags/ath-next-20251111
+    old: 12f7313d1babe38f1897455532bd1e321cb76e75
+    new: 0000000000000000000000000000000000000000
