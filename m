@@ -1,86 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6453832062419318955=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 11 Nov 2025 03:12:26 -0000
-Message-Id: <176283074629.1466394.6800254619672029137@gitolite.kernel.org>
-
---===============6453832062419318955==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
+Date: Tue, 11 Nov 2025 03:13:52 -0000
+Message-Id: <176283083221.1467148.496636621835005693@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mdraid/linux
+user: yukuai
 changes:
-  - ref: refs/heads/for-next
-    old: bb8222b6f3586168f66ae5678fdca3179af60821
-    new: c53a741a7fd4b8e9d07acf1861b5e4a188c6585a
-    log: revlist-bb8222b6f358-c53a741a7fd4.txt
-
---===============6453832062419318955==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1762830814 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1762830744-b41afc0b74f878b3b9a6d1e63f80b6e093509bf8
-
-bb8222b6f3586168f66ae5678fdca3179af60821 c53a741a7fd4b8e9d07acf1861b5e4a188c6585a refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkSqd4ACgkQ7ulgGnXF
-3j1iow/7BGHNCMIhF2MASuwD1RJ+UNsBpiIQ16fPlhk5nEwsFJDwAQiMaCshLwlp
-hsfSsA3PPcEU09/Fx8LMhLym6Qf9lSDtguW3RYbJoQE3iLdY9F06iau32UHVTSyt
-cPQ0yosVzuQ8SXpCTjRIulLJct38azw46olpGip3kjORP4+XT+dxs75B0I4RIhwu
-lOgdfW/Z2JL0DS3X3xLyoCxbZY0vRrei1zUiqFwDu3akOuM8GGbLqB+mYso0KIcX
-xqZXXDx271rmqhxrmhwi+dThB4pvSWgZiCJgP28lAkB8fVOk0vdnB4iAOOtcQNS2
-PU6VfcGBYZ4omQDhGR1/QxFNjqMNIO2LlhM2/zEw+zaqWa92mWqnd/LODK23wmbu
-iHMdUeCAaHS95k0G5Z7O0JRkHyaLOeh+0IP9t/jBHkDwSlNDzsm/bZkJAdAkyijc
-M6R9UFZdGN8P/oICuiDmKPUjnWAKAyBpvv+kvOKY/2GtJXcOR1Wy9InaTZgryDkQ
-zsyuAzvERVF6KIg/fidmIMoACq33Ct+fUonGpHtjCetjItsAH2D+/PincZpUwqAv
-zIBkg7P/+Qg9JoELXKVxUeWMjxAZ3ppcTM69lMt9QYhupJOUGhj/95WbdctXP7Yp
-xCsknPoCI0v6M5TS6h8n65hHVIsQLkw+rdc326ORg8l912pHhfg=
-=w29q
------END PGP SIGNATURE-----
-
---===============6453832062419318955==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb8222b6f358-c53a741a7fd4.txt
-
-20da637eb545b04753e20c675cfe97b04c7b600b scsi: stex: Fix reboot_notifier leak in probe error path
-ad4716ad48d4f1da4f991a1707f2230f4a97bff1 scsi: dt-bindings: phy: mediatek,ufs-phy: Update maintainer information in mediatek,ufs-phy.yaml
-b37d70c0df85e217a868ecdf535500ff926427ae scsi: st: Separate st-unique ioctl handling from SCSI common ioctl handling
-d27418aaf8bcb21f3f9b54a57427a0ae4f025bf7 scsi: st: Skip buffer flush for information ioctls
-57565f97b0eaf56934c5d40f8673d1873cfd11cf scsi: fcoe: Add WQ_PERCPU to alloc_workqueue() users
-02880c083c13143ecf7c624808eda7980f843368 scsi: ufs: ti-j721e: Add suspend-resume support
-f3ecbba1aa715fd22234df3d2f3a0ecf7c458e36 scsi: smartpqi: Add timeout value to RAID path requests to physical devices
-b518e86d1a70a88f6592a7c396cf1b93493d1aab scsi: smartpqi: Fix device resources accessed after device removal
-48e6b7e708029cea451e53a8c16fc8c16039ecdc scsi: smartpqi: Add support for Hurray Data new controller PCI device
-4cec99e83d924045e68418034ced62a6e5f3b513 scsi: smartpqi: Update version to 2.1.36-026
-e15710242e3f84cebb8bc1665da2ac46355ea6ba Merge patch series "smartpqi updates"
-051d4b65e839c1b5dd43469b291cd1199d16bc68 scsi: lpfc: Update various NPIV diagnostic log messaging
-f7a302e4759c521fe57c7319e40549697424393d scsi: lpfc: Revise discovery related function headers and comments
-3c228061c80df4ea63c2d5ca2c781323885bac7a scsi: lpfc: Remove redundant NULL ptr assignment in lpfc_els_free_iocb()
-6f81582b7a9deb3ab10354e801b3ea5cec92b06c scsi: lpfc: Ensure unregistration of rpis for received PLOGIs
-23f4906729a0064e734fb9da2ed02e8fbbf8db00 scsi: lpfc: Fix leaked ndlp krefs when in point-to-point topology
-0b8b15a0b74dafe4b184dfae120d715172960ae5 scsi: lpfc: Modify kref handling for Fabric Controller ndlps
-07caedc6a3887938813727beafea40f07c497705 scsi: lpfc: Fix reusing an ndlp that is marked NLP_DROPPED during FLOGI
-683df5fc3ec5b9bd2596f84d120c4fda8151fd09 scsi: lpfc: Allow support for BB credit recovery in point-to-point topology
-191da2c71b13b1975d8759f852b0ce9bbc913545 scsi: lpfc: Add capability to register Platform Name ID to fabric
-d45fdc6cdd7370ce2c8eb55b65af34594cdd9d7e scsi: lpfc: Update lpfc version to 14.4.0.12
-5b5dedf0073ce22393ee5a7f12d439fe297ceec4 Merge patch series "Update lpfc to revision 14.4.0.12"
-8fdfdb1488162c195f3f0af10b7bc2b8b42928c5 scsi: sd: Add manage_restart device attribute to scsi_disk
-ce6d26b5330c5de4f458143e9675984e367f6a40 scsi: ata: Use ACPI methods to power on disks
-8c59fc1c90df7ff29565d9743f0e61180e9ee00d scsi: ata: Stop disk on restart if ACPI power resources are found
-c53a741a7fd4b8e9d07acf1861b5e4a188c6585a Merge patch series "Support power resources defined in acpi on ata"
-
---===============6453832062419318955==--
+  - ref: refs/heads/md-6.19
+    old: 25976c314f6596254c9b1e2291d94393b7d5ae81
+    new: a811db39198817c91b60adb5e2a8f8bfe76012e4
+    log: |
+         3d7b1dbaa09877db78560d8020ea4d1c972720b9 MAINTAINERS: Update Yu Kuai's E-mail address
+         cc394b94dc40b661efc9895665abf03640ffff2d md: delete mddev kobj before deleting gendisk kobj
+         0dc76205549b4c25705e54345f211b9f66e018a0 md: fix rcu protection in md_wakeup_thread
+         082d680faf262cd52b51ca0b8dcbc7a9f311c220 Factor out code into md_should_do_recovery()
+         7fc8f632e68cd4db3bfee11ff7aa2ac731c5147a md/md-linear: Enable atomic writes
+         46caa40534fcab1b341455b156c2bcf3674a6bdc md/md-llbitmap: Remove unneeded semicolon
+         90e3bb44c0a86e245d8e5c6520206fa113acb1ee md: avoid repeated calls to del_gendisk
+         a811db39198817c91b60adb5e2a8f8bfe76012e4 md/raid5: remove redundant __GFP_NOWARN
+         
