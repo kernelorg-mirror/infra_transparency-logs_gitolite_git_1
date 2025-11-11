@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Tue, 11 Nov 2025 12:18:50 -0000
-Message-Id: <176286353036.1930055.10118641765172188469@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 12:19:12 -0000
+Message-Id: <176286355236.1930960.8549764975657637402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/gmonaco/linux
 user: gmonaco
 changes:
   - ref: refs/tags/rv-6.19-next
-    old: e8e7c22b51b3c587749a8700be1fbf2f565887e9
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 674fb4c9b6e1664a6c32d78cbae2171b48ceba43
