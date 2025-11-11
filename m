@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7191778943402926345=="
+Content-Type: multipart/mixed; boundary="===============7755566710059510676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Tue, 11 Nov 2025 11:26:53 -0000
-Message-Id: <176286041376.1881051.13995919774267029300@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 11:29:22 -0000
+Message-Id: <176286056223.1882772.13805565774053797427@gitolite.kernel.org>
 
---===============7191778943402926345==
+--===============7755566710059510676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 971199ad2a0f1b2fbe14af13369704aff2999988
+  - ref: refs/heads/for-next
+    old: b16c25489ecac01cf42482f2e13224db68a85042
     new: 4427259cc7f7571a157fbc9b5011e1ef6fe0a4a8
-    log: revlist-971199ad2a0f-4427259cc7f7.txt
+    log: revlist-b16c25489eca-4427259cc7f7.txt
 
---===============7191778943402926345==
+--===============7755566710059510676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-971199ad2a0f-4427259cc7f7.txt
+Content-Disposition: attachment; filename=revlist-b16c25489eca-4427259cc7f7.txt
 
 7f38a1487555604bc4e210fa7cc9b1bce981c40e drm/rockchip: vop2: use correct destination rectangle height check
 62685ab071de7c39499212bff19f1b5bc0148bc7 uprobe: Move arch_uprobe_optimize right after handlers execution
@@ -1051,4 +1051,4 @@ e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
 4ea7c1717f3f2344f7a1cdab4f5875cfa89c87a9 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4427259cc7f7571a157fbc9b5011e1ef6fe0a4a8 Merge tag 'riscv-for-linus-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============7191778943402926345==--
+--===============7755566710059510676==--
