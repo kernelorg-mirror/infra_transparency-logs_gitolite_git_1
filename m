@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0691289549736137774=="
+Content-Type: multipart/mixed; boundary="===============5190979623850113422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 11 Nov 2025 15:42:25 -0000
-Message-Id: <176287574540.2110903.5875168983291441613@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 15:48:51 -0000
+Message-Id: <176287613115.2115634.16338533798207404336@gitolite.kernel.org>
 
---===============0691289549736137774==
+--===============5190979623850113422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/clk/imx
     old: 14be8b7b6cbc0a072c749e46e28d66e0ea6d0857
     new: 9d97a2fe48ae77976baff441edd5b30ea4e179c0
     log: revlist-14be8b7b6cbc-9d97a2fe48ae.txt
 
---===============0691289549736137774==
+--===============5190979623850113422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 25b47635f8729e9536d2652774bd509532eaa522 clk: imx: Add some delay before deassert the reset
 9d97a2fe48ae77976baff441edd5b30ea4e179c0 clk: imx: imx8mp-audiomix: use devm_auxiliary_device_create() to simple code
 
---===============0691289549736137774==--
+--===============5190979623850113422==--
