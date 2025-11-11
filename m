@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Tue, 11 Nov 2025 14:11:29 -0000
-Message-Id: <176287028953.2032438.5613826522469478827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 11 Nov 2025 14:17:24 -0000
+Message-Id: <176287064441.2037006.3087734963959956988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 6ea7b3104fc22ecd720de91b2b3e9ddeb5953c31
-    new: cd8dbd9ef600435439bb0e70af0a1d9e2193aecb
+  - ref: refs/heads/main
+    old: ed6b5632e0acc247cf483da1ba40201258af46ff
+    new: e5eba42f01340f73888dfe560be2806057c25913
     log: |
-         485e0626e58768f3c53ba61ab9e09d6b60a455f4 Bluetooth: hci_event: Fix not handling PA Sync Lost event
-         cd8dbd9ef600435439bb0e70af0a1d9e2193aecb Bluetooth: btrtl: Avoid loading the config file on security chips
+         e5eba42f01340f73888dfe560be2806057c25913 mlx5: Fix default values in create CQ
          
