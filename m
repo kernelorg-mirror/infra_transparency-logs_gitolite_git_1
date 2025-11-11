@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 11 Nov 2025 22:54:35 -0000
-Message-Id: <176290167506.2480357.5685362123514675599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Tue, 11 Nov 2025 22:59:42 -0000
+Message-Id: <176290198214.2485032.5933185476479479794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 7dd1506e8393c73225d2a383f912eff1b55b0fd3
-    new: d183be8145aa94d7680d33a585ca1bdfe1b769de
+    old: ef063cd193ce0cee635685e716635529fb35df14
+    new: 33d4bfca97ce26249be344f86bede1eed52b37c7
     log: |
-         d183be8145aa94d7680d33a585ca1bdfe1b769de foo
+         33d4bfca97ce26249be344f86bede1eed52b37c7 Revert "hkml_cache: add a prefix for identifying key type"
          
