@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Tue, 11 Nov 2025 07:20:40 -0000
-Message-Id: <176284564085.1675849.10296411148398826479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 11 Nov 2025 08:06:12 -0000
+Message-Id: <176284837248.1712227.15641915453049711410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
-user: srini
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: 79d84af332094852614b15638f7ffe18f5f7966e
-    new: 4bb909aa44edc254a35bd29b4f63f7c430494b24
+  - ref: refs/tags/clist-v2-checkpoint-5
+    old: 0000000000000000000000000000000000000000
+    new: 690a87dcbfe827d39a60f066521db571a2b69600
