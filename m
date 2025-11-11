@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 11 Nov 2025 20:20:44 -0000
-Message-Id: <176289244447.2351020.1622036042269562304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 11 Nov 2025 20:38:04 -0000
+Message-Id: <176289348481.2364125.11179155136616320272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: c9ec102212095db236bef1f022d5e49ec29a87bf
-    new: cfb81046a57c889580480805ccfdb672858d55bf
+  - ref: refs/heads/fixes-togreg
+    old: fbe23e3ca052cf446d1e058eed8a0cffab8cd675
+    new: 74f97a46835664c28bc34c0bba58c6b3eaaaa648
     log: |
-         73f0769ebfc6473be084f0c52db25d2973097dd4 ARM: dts: ti/omap: fix incorrect compatible string in internal eeprom node
-         be437e627fe2af6b825ad3c1dfd5e20545017d19 Merge branch 'omap-for-v6.19/soc' into tmp/omap-next-20251111.121837
-         cfb81046a57c889580480805ccfdb672858d55bf Merge branch 'omap-for-v6.19/drivers' into tmp/omap-next-20251111.121837
+         3aa385a9c75c09b59dcab2ff76423439d23673ab iio: accel: bmc150: Fix irq assumption regression
+         74f97a46835664c28bc34c0bba58c6b3eaaaa648 iio: adc: at91-sama5d2_adc: Fix potential use-after-free in sama5d2_adc driver
          
