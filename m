@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Tue, 11 Nov 2025 12:50:53 -0000
-Message-Id: <176286545309.1959779.17509067704199887350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 11 Nov 2025 13:09:02 -0000
+Message-Id: <176286654231.1973654.7467881342853163602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/kdevops
-    old: aebaf2ea7c8fdb6476e9341973625638e183c1e3
-    new: 7d8fb47540a6173382e3d53977595ea581343fd1
+  - ref: refs/notes/signatures/tar
+    old: bc61cfa704bdc3e2aa49226162df134d19d3250f
+    new: a3b68a3417c314c9a178ae1a495abef02e3e189d
     log: |
-         7d8fb47540a6173382e3d53977595ea581343fd1 generic: add test for directory delegations
+         a3b68a3417c314c9a178ae1a495abef02e3e189d Notes added by 'git notes add'
          
