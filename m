@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5641090278032557051=="
+Content-Type: multipart/mixed; boundary="===============0794953498504519105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Tue, 11 Nov 2025 10:00:44 -0000
-Message-Id: <176285524432.1808221.1816098144725644329@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 10:00:58 -0000
+Message-Id: <176285525807.1808534.16424711621065022755@gitolite.kernel.org>
 
---===============5641090278032557051==
+--===============0794953498504519105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
+  - ref: refs/heads/for-next
     old: f3c6353d801a9826e234ad477af08b09a98d888b
     new: a5d908e0ec05bd4f5dd818160f0252861879a5a2
     log: |
          a5d908e0ec05bd4f5dd818160f0252861879a5a2 w1: omap-hdq: Remove redundant pm_runtime_mark_last_busy() calls
          
 
---===============5641090278032557051==
+--===============0794953498504519105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1762855312 +0100
+pusher krzk@kernel.org 1762855325 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1762855242-ed182a19c391f73c21f41d66e68af43bd438c8ab
+nonce 1762855256-0a69dedaba3f2e67fc5fba8ad063c44a148ad9ec
 
-f3c6353d801a9826e234ad477af08b09a98d888b a5d908e0ec05bd4f5dd818160f0252861879a5a2 refs/heads/w1-next
+f3c6353d801a9826e234ad477af08b09a98d888b a5d908e0ec05bd4f5dd818160f0252861879a5a2 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkTCZAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1y3CD/sEZe0UXo/U5vVJwLd98+D+QoVVcyWbV0DE
-fW/vW8TVMUYFH99twqSPzI9Fml+kwFvn20/dpdOznTDtFuyR5LIN3GaN8XBQBJ+A
-Twyg5yrO1wweSPY/7Wmqscwu5oDgHyzx0YuJg44hbDACvAGocR4az4l1u26NzFan
-blnaw8c+kWELSEF4RUzzjUmXAFJPE+D/1LSi1Ba7TV1now3QJWApxBXyJxdN8Hk+
-IIVtV6oVwbpJF0SpnY1tUY9kAw6qcDOC1mF0VoGfqdQd7tRLFKJilaT/tCf/EbFE
-EXhbt/KNyJVqDDiWrs+VVvOKgxlG8oGuYqRKZhqxP5nXE8TlDgoGec1abFtKhXAS
-S4S0nL2pjA5UmF1d2WssxNYnuGTJhnotS42E1nS0ViCzsW4s3E7Nhkstu/B8OBR6
-RJrfxwKOVt93wUAdfbSTpk5uKbCxNHCYnWwkV4dEfp/2PdKPbzfSzUIlSXoSaiRa
-2IZ1NiwD10zWRJNTa55ud6GM/7xQdPf7zngex8AoK4QSYdNrU4+TuyGnM2vnT7S8
-C0YHxZw9Sush07MzNvKWE8Vv1mfRe4vXdwvwKVsPPdb44zDxmv7uH+/0zP640HFb
-BHY5Rxx/6Ds+f40vPP+I5UICbODbtLKs4pVEadZNMv2luPqeQnvG9AImTRIVjbmS
-n2OuBac69A==
-=rGxt
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkTCZ0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18vgD/9aOEAhH+QlfeRlsXReWij/fz3bG7+rXLNw
+NghGXsUEmHDcpnWu0j8MJQr833VMjEEydLKNeUihuddz2lAPVgIYu6AxMC5o6/OA
+eANrAimUzAoFi2PvGo9WqD47u21q0OGajlVKuUVwd2giDtnp+sRJ0gvx/aIOX5wP
+0S6gnoPUOUdTLBoKzG5DOzXBjDXtE4DHRkHQ9WnrqSMNV9G/BcNv0h98sz7SgG1f
+iVRVoWBhDr5DxK5wNTspM3T5iptNW4v+14ziiMUPt0hYIuvxVSYdkU8kG4tgcoT2
+4TjNqLpqZ9Zx6ufwntwzEwhciiN9+myl9CCWXyBrM1Pc8W/s/xLOkP9w66Xq18ES
+d7Oump6ii/EZVNGCTvo7w9xYO+YTzhR1Oskjzlqd32BNLOsD8lDkvaA1JG2fZ8vj
+sryQknmRrdXMOXwnAogkwL7rAgEQoSYp8fp0ORu1PcNqtPncna/dOqxn/ZTXju7g
+DthMzaLwZzgl5sStNikD9uYnJZ05gtwr5+j0yqrTjJJbma+IyYMl7qZKoq54M7hx
+BSf/G8DUOTnlVgsjjcgvj8QAbCVLF7T/XrQNcuSThHpV8nbFrymt1Pd9Hm76HMNt
+TDzXe2Dgqt1UVXoPDkqeliIaI9+cjitHu3Rf7gGwmlBkcPV5qQ5xMtPmNWtI6vDP
+z3tJGy001Q==
+=WOLp
 -----END PGP SIGNATURE-----
 
---===============5641090278032557051==--
+--===============0794953498504519105==--
