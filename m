@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 11 Nov 2025 16:57:54 -0000
-Message-Id: <176288027447.2177551.15454366045796824756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 11 Nov 2025 16:58:55 -0000
+Message-Id: <176288033501.2178586.14619610096860738518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 402f4a673e1ceae4e80449a48b286dba9f99d6ab
-    new: 1088d49b626487777913079bef0db3adef4bfb4a
-    log: |
-         1088d49b626487777913079bef0db3adef4bfb4a riscv: dts: microchip: enable qspi adc/mmc-spi-slot on BeagleV Fire
-         
+  - ref: refs/tags/clist-v2-checkpoint-6
+    old: 0000000000000000000000000000000000000000
+    new: 52b09d216acb6cf26b8d968e5ff0a04774c57476
