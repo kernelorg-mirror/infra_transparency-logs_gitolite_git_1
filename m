@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6708118029753631332=="
+Content-Type: multipart/mixed; boundary="===============0032428721936479353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 11 Nov 2025 11:56:58 -0000
-Message-Id: <176286221849.1909489.16249998402527419489@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 11:57:10 -0000
+Message-Id: <176286223004.1909700.18001941307888572877@gitolite.kernel.org>
 
---===============6708118029753631332==
+--===============0032428721936479353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
+  - ref: refs/heads/mips-fixes
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c
     log: revlist-3a8660878839-e9a6fb0bcdd7.txt
 
---===============6708118029753631332==
+--===============0032428721936479353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of 
 f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
 
---===============6708118029753631332==--
+--===============0032428721936479353==--
