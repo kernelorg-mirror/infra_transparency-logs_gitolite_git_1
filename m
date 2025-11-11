@@ -1,44 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7136300681866751448=="
+Content-Type: multipart/mixed; boundary="===============6495324335337930114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Tue, 11 Nov 2025 15:16:07 -0000
-Message-Id: <176287416794.2088394.11464063738282097250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 11 Nov 2025 15:34:16 -0000
+Message-Id: <176287525671.2102806.4240814508824646629@gitolite.kernel.org>
 
---===============7136300681866751448==
+--===============6495324335337930114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 6d7fac6a90732a11f9ffed67fef3b3217ae05901
-    new: 6ddda62d3627f735de2e2fdb319b1d5962c5abe5
-    log: revlist-6d7fac6a9073-6ddda62d3627.txt
+  - ref: refs/heads/ath12k-ng
+    old: f87034a7576f918f2e60a14f17185b492e91580d
+    new: 7cd7392a07782b8ad4aa6360e4be1967af2eab04
+    log: revlist-f87034a7576f-7cd7392a0778.txt
 
---===============7136300681866751448==
+--===============6495324335337930114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d7fac6a9073-6ddda62d3627.txt
+Content-Disposition: attachment; filename=revlist-f87034a7576f-7cd7392a0778.txt
 
-ca2ef31957e21194907cdfae6995da1eb1f5905d rteval: Fix spelling of 'occurrences' in measurement modules
-fbdf84d07a512b49be5287e0f326a0ae0dd9082e rteval: Fix typo in comment
-e18cc3a11f982609cba26da5a341ecb457630ebd rteval: Remove unused function remove_offline
-c27f77bf1c401efab7a046c532470d9ba45b1519 rteval: timerlat: Fix typo in log message
-3aa64cc2846fbcfcf7597fffa9ae3eeea0ecc7c3 rteval: cyclictest: Fix typo in comment
-0830a556300ec44551bb78f0b1a2a687ac06d1f9 rteval: rtevalConfig: Remove redundant 'is True' comparison
-544566d95a75e4b3b7ee7a5e1e47dd7e7e34a132 rteval: Clean up MANIFEST.in and fix newnet.py copyright header
-9372adb02e36bbd7c18bd349da597fcb0ab1740b rteval: Add pyproject.toml for modern Python packaging
-252812951e95186970483e621988f5eb3f23cae0 rteval: Improve argparse implementation and remove manual sys.argv parsing
-c1b53e67373a0f6aa12e87e023b4f0010c199679 rteval: timerlat: Add dma_latency option with default value of 0
-f744268696413b3b371fbf9d09a8006895dfb8a0 rteval: Add --measurement-module command-line argument
-b1f220090fea58d754bc825f3d9548b21a7718db rteval: Add unit tests for --measurement-module argument
-696fb9ce4a67dff4f48fd168f2ad334803f915bb rteval: Introduce E2E tests with output checking
-6ddda62d3627f735de2e2fdb319b1d5962c5abe5 rteval: Remove outdated TODO file
+24b21a9be2c999b51aaec50ede4b2ca1dffb0ebd wifi: ath12k: Move monitor ring processing to Wi-Fi 7 module
+e00164657ce8a347a24d49a4aa4dd96aaf50a580 wifi: ath12k: Move monitor status processing to Wi-Fi 7 module
+906b5ac9c2b5dd2512a515b0c74a6905973fba04 wifi: ath12k: Move MPDU pop functionality to Wi-Fi 7 module
+e475119ba2510c66138261d72d797e63c73eea02 wifi: ath12k: Move RX status TLV parsing to Wi-Fi 7 module
+52758ff7b50a7d8b06d23c7f2a42ae85b559f682 wifi: ath12k: Move TX monitor functionality to Wi-Fi 7 module
+f4bcbaebf4112c8f6320e208b67b2281dad5d5e1 wifi: ath12k: Move HT/VHT SIG processing to Wi-Fi 7 module
+dde5748c2940b4b47bba9c42e086a90fbe43b5ea wifi: ath12k: Move HE SIG processing to Wi-Fi 7 module
+00b67b7c44b47b6ace2291e903d21ea7b6261179 wifi: ath12k: Move EHT SIG processing to Wi-Fi 7 module
+e5419861e4155ae32d739308e713f7bf6663d632 wifi: ath12k: Move remaining SIG TLV parsing to Wi-Fi 7 module
+5db19c48841397c5b5732a1aeb81fc6cdcdfc5c2 wifi: ath12k: Move MU user processing to Wi-Fi 7 module
+965aea91545a03cc14439ebe57519497925f5ad4 wifi: ath12k: Move MSDU END TLV processing to Wi-Fi 7 module
+7cd7392a07782b8ad4aa6360e4be1967af2eab04 wifi: ath12k: Remove Wi-Fi 7 header dependencies from common ath12k module
 
---===============7136300681866751448==--
+--===============6495324335337930114==--
