@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 11 Nov 2025 21:16:21 -0000
-Message-Id: <176289578199.2399039.356587569365738086@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 21:19:46 -0000
+Message-Id: <176289598614.2401199.12576601569804389916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,8 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
   - ref: refs/heads/irq/drivers
-    old: 45cc441de72e61b92d5eed5a9851a0301a7469de
-    new: 47a4ebbf91d31782113e7def707b53953bae3050
+    old: 47a4ebbf91d31782113e7def707b53953bae3050
+    new: 7083e142256f92d079d2749e002f2f2499e5f63c
     log: |
-         b90ac5fe3285aa8bed625375d1df959c4c9a2cdb dt-bindings: interrupt-controller: Add Anlogic DR1V90 PLIC
-         579951da64253e9592d21e54b1535e0119df78ab dt-bindings: interrupt-controller: Add Anlogic DR1V90 ACLINT MSWI
-         a1c3a7d7ee0291e6bbc89192cb942cbebadb31fe dt-bindings: interrupt-controller: Add Anlogic DR1V90 ACLINT SSWI
-         47a4ebbf91d31782113e7def707b53953bae3050 irqchip/aclint-sswi: Add Nuclei UX900 support
+         7083e142256f92d079d2749e002f2f2499e5f63c dt-bindings: interrupt-controller: aspeed,ast2700: Correct #interrupt-cells and interrupts count
          
