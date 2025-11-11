@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0613085309140338336=="
+Content-Type: multipart/mixed; boundary="===============6191501014253886548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 11 Nov 2025 03:16:33 -0000
-Message-Id: <176283099361.1471197.3814462989244015697@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 03:17:20 -0000
+Message-Id: <176283104074.1472078.1713381207685590395@gitolite.kernel.org>
 
---===============0613085309140338336==
+--===============6191501014253886548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: eddb5ba91b289faa15117d4fc1c2fb223f3493c2
+  - ref: refs/heads/devfreq-fixes
+    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
     new: 6146a0f1dfae5d37442a9ddcba012add260bceb0
-    log: revlist-eddb5ba91b28-6146a0f1dfae.txt
+    log: revlist-1b237f190eb3-6146a0f1dfae.txt
 
---===============0613085309140338336==
+--===============6191501014253886548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eddb5ba91b28-6146a0f1dfae.txt
+Content-Disposition: attachment; filename=revlist-1b237f190eb3-6146a0f1dfae.txt
 
 e07e10ae83bdf429f59c8c149173a8c4f29c481e drm/panthor: Ensure MCU is disabled on suspend
 bb642e2d300ee27dcede65cda7ffc47a7047bd69 nvme-multipath: Skip nr_active increments in RETRY disposition
@@ -1051,4 +1051,4 @@ bfeeb4a1bdf5d255ea885f16be80968d1f31281b Merge tag 'regulator-fix-v6.18-rc3' of 
 691d401c7e0e5ea34ac6f8151bc0696db1b2500a Merge tag 'spi-fix-v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 6146a0f1dfae5d37442a9ddcba012add260bceb0 Linux 6.18-rc4
 
---===============0613085309140338336==--
+--===============6191501014253886548==--
