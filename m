@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3831904253493277901=="
+Content-Type: multipart/mixed; boundary="===============6468103448057146301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 11 Nov 2025 03:19:28 -0000
-Message-Id: <176283116839.1473815.12676179704247315731@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 03:20:10 -0000
+Message-Id: <176283121004.1476083.1361622815281466530@gitolite.kernel.org>
 
---===============3831904253493277901==
+--===============6468103448057146301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 94d885eb8ffe15b3eb4abe92e03d852fce8ba81f
+  - ref: refs/heads/extcon-fixes
+    old: 1b237f190eb3d36f52dffe07a40b5eb210280e00
     new: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
-    log: revlist-94d885eb8ffe-dcb6fa37fd7b.txt
+    log: revlist-1b237f190eb3-dcb6fa37fd7b.txt
 
---===============3831904253493277901==
+--===============6468103448057146301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94d885eb8ffe-dcb6fa37fd7b.txt
+Content-Disposition: attachment; filename=revlist-1b237f190eb3-dcb6fa37fd7b.txt
 
 7c738cb4ca678e70c4583ab35587f30bfae823e5 Merge tag 'x86_entry_for_6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 86bcf7be1e26f2d7277df90857d93ce0ebc11370 Merge tag 'riscv-for-linus-6.18-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
@@ -1051,4 +1051,4 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 4bb1f7e19c4a1d6eeb52b80acff5ac63edd1b91d Merge tag 'char-misc-6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 
---===============3831904253493277901==--
+--===============6468103448057146301==--
