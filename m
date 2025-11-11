@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4824880985527200914=="
+Content-Type: multipart/mixed; boundary="===============5999356130841500281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 11 Nov 2025 02:44:11 -0000
-Message-Id: <176282905136.1440923.16081506731238875616@gitolite.kernel.org>
+Date: Tue, 11 Nov 2025 02:44:12 -0000
+Message-Id: <176282905264.1441032.16318284258122253067@gitolite.kernel.org>
 
---===============4824880985527200914==
+--===============5999356130841500281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 8017f1fc873a78f54df02521b4d150f7101916ae
-    new: 565d240810a6c9689817a9f3d08f80adf488ca59
-    log: revlist-8017f1fc873a-565d240810a6.txt
+  - ref: refs/heads/mm-unstable
+    old: 93586dc935e66238548478e051973357955db6e1
+    new: 18327a7b7d9292fa039a0db849878278fb52936a
+    log: revlist-93586dc935e6-18327a7b7d92.txt
 
---===============4824880985527200914==
+--===============5999356130841500281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8017f1fc873a-565d240810a6.txt
+Content-Disposition: attachment; filename=revlist-93586dc935e6-18327a7b7d92.txt
 
 9e3d1795ad1f47d959c9f01cec904c727ce09927 mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 c3966242c194ca50d8cf415964178fefa78aa07f crash: fix crashkernel resource shrink
@@ -263,49 +263,5 @@ fa7e4b9326a11d3036480e706be3c351768340c0 mm-huge_memory-introduce-enum-split_typ
 2e50483ebf7b1c80e553a434c2abdd9b7b1ef5ef mm/huge_memory: merge uniform_split_supported() and non_uniform_split_supported()
 c14b9eada33018f979dae00962d78b8abfd75cec mm/hugetlb: extract sysfs into hugetlb_sysfs.c
 18327a7b7d9292fa039a0db849878278fb52936a mm/hugetlb: extract sysctl into hugetlb_sysctl.c
-fe2f58a1c54d80ab838bf82e6ea0891977dd1da1 mm: correctly handle UFFD PTE markers
-c1891ddb680c9099c919480630b926488c25dcfa mm: introduce leaf entry type and use to simplify leaf entry logic
-fe7ba759ed79ae8d92c33442225a6690b243e8b6 mm: avoid unnecessary uses of is_swap_pte()
-12e5e0c9ba2e4234607e712a056606a9a4b5175e mm: eliminate is_swap_pte() when softleaf_from_pte() suffices
-ca9fc415a3fb02f43355cacb872e5fe851a2ae70 mm: use leaf entries in debug pgtable + remove is_swap_pte()
-a357b3fed1a8e375170a88fd054b1abe37088c83 fs/proc/task_mmu: refactor pagemap_pmd_range()
-e7cb5e4993f269a8a44dc41a0ba981b3e12ace38 mm: avoid unnecessary use of is_swap_pmd()
-418a96de48e21bc4b8426ee241bb501119d33a59 mm/huge_memory: refactor copy_huge_pmd() non-present logic
-01b43824a297ce73ff440592ed32f50e8f214c26 mm/huge_memory: refactor change_huge_pmd() non-present logic
-f462f5f893ae6e232c2dc3c5113571110b66a411 mm: replace pmd_to_swp_entry() with softleaf_from_pmd()
-e67883b1dd995ce732d5292e5b6ada8b9d624d9e mm: introduce pmd_is_huge() and use where appropriate
-14fa185444a555bf8b42a1edcfd7cfd00e3ab6ad mm: remove remaining is_swap_pmd() users and is_swap_pmd()
-6ca16698068a4479f2ecbc9769bfc57547f6db5d mm: remove non_swap_entry() and use softleaf helpers instead
-5b716d3dbbe8b9fc38f0e62c831486cb0a0e2bc2 mm: remove is_hugetlb_entry_[migration, hwpoisoned]()
-fabafcf9f1933371bb0c3c5f9c1057bf9328074f mm: eliminate further swapops predicates
-e01d7d4e8af26cda9ad4be22e7cbe11914375739 mm: replace remaining pte_to_swp_entry() with softleaf_from_pte()
-da86686cd7e805c56ac86726d6848d3c8105a633 mm: introduce VM_MAYBE_GUARD and make visible in /proc/$pid/smaps
-33ed633870e22baa0f253f4918ab19aafd1c6dee mm: add atomic VMA flags and set VM_MAYBE_GUARD as such
-69107d4673d2671ca057552226c9ddf1875d995e mm-add-atomic-vma-flags-and-set-vm_maybe_guard-as-such-fix
-8eab69a60f0f6538c237e8bd4985b395345e4aeb mm: implement sticky VMA flags
-c0c206199703712e50d4769dc70c0032851dd570 mm: introduce copy-on-fork VMAs and make VM_MAYBE_GUARD one
-f9dfe5acec6cd7a3ef7e8d577132cf836c215a42 mm: set the VM_MAYBE_GUARD flag on guard region install
-65e9f4549414d5bf96eb049bc3c67a5cee0c5459 mm-set-the-vm_maybe_guard-flag-on-guard-region-install-fix
-4701328b28dec991a8b2def991ed0ca3226d2ebe mm-set-the-vm_maybe_guard-flag-on-guard-region-install-fix-fix
-e7c8647d159ad1acc79193ae654c9e0568bfc3f1 tools/testing/vma: add VMA sticky userland tests
-e00c67a4faa80187318f7f942e602ec439265d11 tools/testing/selftests/mm: add MADV_COLLAPSE test case
-95b21e2b3ad8d5db343eda4c53084c472efffc9a tools/testing/selftests/mm: add smaps visibility guard region test
-dc9b555ac5b24e81f4c7064be060cd06085738da mm: remove unnecessary __GFP_HIGHMEM in __p*d_alloc_one_*()
-3ee349e17ae0a0343b0ef45677dcb2256830c93f mm: memcg: dump memcg protection info on oom or alloc failures
-5766d5e3b899781bb383e062b18d620fa822888d mm/hmm/test: fix error handling in dmirror_device_init
-efa80e639c91975b0fce02fe0c8f34c864a73b98 Revert "mm, swap: avoid redundant swap device pinning"
-ec541a7843a1f088d205f42d37e1befd4a2ece61 mm: rename walk_page_range_mm()
-87daa79458a9e7ec73ac8b817f4c3d347d59348f mm/madvise: allow guard page install/remove under VMA lock
-fdf8cb2f53520057627d18597242f340661ccd55 mm/vmalloc: warn on invalid vmalloc gfp flags
-bf6061009c48acbe63ab2eaa890a69f73126547a mm/vmalloc: add a helper to optimize vmalloc allocation gfps
-2ec684aa5acd4c83515950b5182ed184c1e744b0 mm/vmalloc: cleanup large_gfp in vm_area_alloc_pages()
-6b814668c5160681ddb437f790044e979a3ad832 mm/vmalloc: cleanup gfp flag use in new_vmap_block()
-322303d5c883fa210718c20b72a0e1b7037357ef mm: vmstat: correct the comment above preempt_disable_nested()
-940bef37808db91589617528ba3e2072c7b3caa2 mm: thp: replace folio_memcg() with folio_memcg_charged()
-f92119a66dc884bde62a360b02d0326cc06f4d8a mm: thp: introduce folio_split_queue_lock and its variants
-35af471f26df66e2bc8b8c9bc856f0a063398f5b mm: thp: use folio_batch to handle THP splitting in deferred_split_scan()
-1a8103633353652ade88ffeb8b261b443287e556 mm: thp: reparent the split queue during memcg offline
-ed913f9c4b93e44ad1a98a528a59546fd6c23dec mm: add vma_start_write_killable()
-565d240810a6c9689817a9f3d08f80adf488ca59 mm: use vma_start_write_killable() in dup_mmap()
 
---===============4824880985527200914==--
+--===============5999356130841500281==--
