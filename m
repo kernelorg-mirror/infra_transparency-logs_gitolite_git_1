@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 11 Nov 2025 16:30:29 -0000
-Message-Id: <176287862902.2153318.17394855726902243093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Tue, 11 Nov 2025 16:32:59 -0000
+Message-Id: <176287877964.2154831.11743234613080572558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/sched/core
-    old: d1c962d7502a8e87fbea7f309d64325e22676fdc
-    new: 01b8bdbaab2bc141443d687c10854ab80e03f6ee
+  - ref: refs/heads/master
+    old: 16d95451194c5abb2d019e6386744f6110f15678
+    new: 030fd2995388d5381be26b41b4f0eac14c83e2fe
     log: |
-         01b8bdbaab2bc141443d687c10854ab80e03f6ee sched/fair: Skip sched_balance_running cmpxchg when balance is not due
+         030fd2995388d5381be26b41b4f0eac14c83e2fe hkml_view_mails: fix wrong count() usage for inferring finish of the list
          
