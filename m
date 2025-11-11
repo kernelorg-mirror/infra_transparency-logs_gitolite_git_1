@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0794953498504519105=="
+Content-Type: multipart/mixed; boundary="===============7195454838793605256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Tue, 11 Nov 2025 10:00:58 -0000
-Message-Id: <176285525807.1808534.16424711621065022755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 11 Nov 2025 10:02:25 -0000
+Message-Id: <176285534536.1809300.10572154684385073653@gitolite.kernel.org>
 
---===============0794953498504519105==
+--===============7195454838793605256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
   - ref: refs/heads/for-next
-    old: f3c6353d801a9826e234ad477af08b09a98d888b
-    new: a5d908e0ec05bd4f5dd818160f0252861879a5a2
-    log: |
-         a5d908e0ec05bd4f5dd818160f0252861879a5a2 w1: omap-hdq: Remove redundant pm_runtime_mark_last_busy() calls
-         
+    old: 512c83265796d613f21255c766839eaed1c1cc79
+    new: a338d6e849ab31f32c08b4fcac11c0c72afbb150
+    log: revlist-512c83265796-a338d6e849ab.txt
 
---===============0794953498504519105==
+--===============7195454838793605256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-512c83265796-a338d6e849ab.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1762855325 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1762855256-0a69dedaba3f2e67fc5fba8ad063c44a148ad9ec
+eea31f21dce10814e34dc7ef7ed5136269c7bb59 {rdma,net}/mlx5: Query vports mac address from device
+cf274907901115d7cec71bc89fbfac8842ee57dd RDMA/bnxt_re: Add a debugfs entry for CQE coalescing tuning
+7b8a8ec20cfce2298f6737089f5d17407ea346b4 PCI/TPH: Expose pcie_tph_get_st_table_loc()
+2d838c11e10e9169cae4f7778345c11b5447ef05 net/mlx5: Add direct ST mode support for RDMA
+6948417b3f1fafbeab85c051f8dba5e305a8f9c4 net/mlx5: Add OTHER_ESWITCH HW capabilities
+3b848dec7e821bace785b9e405bf1884c077635a net/mlx5: fs, Add other_eswitch support for steering tables
+583b4fe1c19d978bb787e0adf9ce469cb7f68455 net/mlx5: fs, set non default device per namespace
+d06ccdc9529235130798b519f6519103d83a7272 Add other eswitch support
+3506242da07156e6804c061554bd01d77c1b463b RDMA/mlx5: Change default device for LAG slaves in RDMA TRANSPORT namespaces
+5939decc64f6b9099c2c356d75047c66a6639e00 RDMA/mlx5: Add other_eswitch support for devx destruction
+f277662b734e96bf38ce7d422b091f53df3ff8cb RDMA/mlx5: Refactor _get_prio() function
+6e79e210058e8f95fb3824e33b781960851ae7d1 RDMA/mlx5: Add other eswitch support to userspace tables
+5dd68a59145e6a7dd96e07ffbf5bdc486e6cc8a2 RDMA/irdma: Remove unused CQ registry
+65d21dee533755ae8fff7450328c93599c36b092 IB/iser: add WQ_PERCPU to alloc_workqueue users
+5c467151f6197dd7b8c36b33310b288a52bcca3d IB/isert: add WQ_PERCPU to alloc_workqueue users
+a338d6e849ab31f32c08b4fcac11c0c72afbb150 RDMA/rtrs: server: Fix error handling in get_or_create_srv
 
-f3c6353d801a9826e234ad477af08b09a98d888b a5d908e0ec05bd4f5dd818160f0252861879a5a2 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkTCZ0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18vgD/9aOEAhH+QlfeRlsXReWij/fz3bG7+rXLNw
-NghGXsUEmHDcpnWu0j8MJQr833VMjEEydLKNeUihuddz2lAPVgIYu6AxMC5o6/OA
-eANrAimUzAoFi2PvGo9WqD47u21q0OGajlVKuUVwd2giDtnp+sRJ0gvx/aIOX5wP
-0S6gnoPUOUdTLBoKzG5DOzXBjDXtE4DHRkHQ9WnrqSMNV9G/BcNv0h98sz7SgG1f
-iVRVoWBhDr5DxK5wNTspM3T5iptNW4v+14ziiMUPt0hYIuvxVSYdkU8kG4tgcoT2
-4TjNqLpqZ9Zx6ufwntwzEwhciiN9+myl9CCWXyBrM1Pc8W/s/xLOkP9w66Xq18ES
-d7Oump6ii/EZVNGCTvo7w9xYO+YTzhR1Oskjzlqd32BNLOsD8lDkvaA1JG2fZ8vj
-sryQknmRrdXMOXwnAogkwL7rAgEQoSYp8fp0ORu1PcNqtPncna/dOqxn/ZTXju7g
-DthMzaLwZzgl5sStNikD9uYnJZ05gtwr5+j0yqrTjJJbma+IyYMl7qZKoq54M7hx
-BSf/G8DUOTnlVgsjjcgvj8QAbCVLF7T/XrQNcuSThHpV8nbFrymt1Pd9Hm76HMNt
-TDzXe2Dgqt1UVXoPDkqeliIaI9+cjitHu3Rf7gGwmlBkcPV5qQ5xMtPmNWtI6vDP
-z3tJGy001Q==
-=WOLp
------END PGP SIGNATURE-----
-
---===============0794953498504519105==--
+--===============7195454838793605256==--
