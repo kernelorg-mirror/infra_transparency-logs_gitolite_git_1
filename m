@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Nov 2025 12:40:43 -0000
-Message-Id: <176286484395.1951142.15692526971727101700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Tue, 11 Nov 2025 12:50:53 -0000
+Message-Id: <176286545309.1959779.17509067704199887350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/20251111_yung_chuan_liao_asoc_intel_machine_driver_updates_for_6_19
-    old: 0000000000000000000000000000000000000000
-    new: 873bc94689d832878befbcadc10b6ad5bb4e0027
+  - ref: refs/heads/kdevops
+    old: aebaf2ea7c8fdb6476e9341973625638e183c1e3
+    new: 7d8fb47540a6173382e3d53977595ea581343fd1
+    log: |
+         7d8fb47540a6173382e3d53977595ea581343fd1 generic: add test for directory delegations
+         
