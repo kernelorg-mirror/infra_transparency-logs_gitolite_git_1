@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 12 Nov 2025 19:40:28 -0000
-Message-Id: <176297642856.3567607.13455417308960023094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 12 Nov 2025 19:46:29 -0000
+Message-Id: <176297678960.3572268.2158387597721004796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: a8e9455cb812e3939b988862e5466930ac0467a4
+  - ref: refs/heads/block-with-mmio-v4
+    old: 7864361d4ab2c051679754bc898867ee021000eb
+    new: 332cfa94b7c3c6afb0f90f7e40ec7b9bff631f77
     log: |
-         032a11b90c426d34dbb0868fb3aff2d8e37a3059 ARM: at91: remove unnecessary of_platform_default_populate calls
-         bf862ea21bf8c0f8f8d7bb3c2ded1fb33e95f5ab mtd: nand: atmel: Defer probe if SRAM is missing
-         a8e9455cb812e3939b988862e5466930ac0467a4 ARM: imx6: Drop of_platform_default_populate()
+         391a6ce6f915906441a017f7ebbb8957fda67e19 block: Enable proper MMIO memory handling for P2P DMA
+         2a78876163c18485ca511e3a6b0a5f23c803beb1 nvme-pci: migrate to dma_map_phys instead of map_page
+         332cfa94b7c3c6afb0f90f7e40ec7b9bff631f77 block-dma: properly take MMIO path
          
