@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Wed, 12 Nov 2025 15:20:36 -0000
-Message-Id: <176296083639.3342483.6254657155151122022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 12 Nov 2025 15:22:08 -0000
+Message-Id: <176296092895.3343376.1113065204347109585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: a20723ba548ec14809be789411e2074fdda405fa
-    new: 7f02319577d7760ab30f1bf11db98df554fae5a3
+  - ref: refs/heads/trace/for-next
+    old: 3a0d5bc76ff482c6e0c20f66f2b32e5dcf8238fe
+    new: ecef4b5565a7653df68f2fee7cdcb174e561f0b3
     log: |
-         54cfccd750655dcfca631be220a46ff147edbe52 opensslmissing: fix openssl-3.0 doesn't have auto-digestmax
-         b2bd69680377bdbe926e2eaf5b1fcfbc14a9b230 Fix testing for boxes with both software tpms
-         1330daf901adc96d0d343540cdbb2351708d1155 configure: separate out building the provider from openssl-3
-         1d678e9bba9366f4001370056b9e77a664426f54 tests: fix tests for Ubuntu
-         7f02319577d7760ab30f1bf11db98df554fae5a3 Version 4.4.3
+         7157062bb46c8bcfba3a7d77f91fc4795bff1316 tracing: Report wrong dynamic event command
+         428add559b6923f13acc591913cda3467be98dfd tracing: Have tracer option be instance specific
+         76680d0d2825900f23bf35290ab2b80bdf3a8e4a tracing: Have function tracer define options per instance
+         ecef4b5565a7653df68f2fee7cdcb174e561f0b3 tracing: Have function graph tracer define options per instance
          
