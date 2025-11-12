@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 12 Nov 2025 11:13:00 -0000
-Message-Id: <176294598084.3125517.545813653466866858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 12 Nov 2025 11:18:34 -0000
+Message-Id: <176294631421.3130234.462425480437638549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 3451707754a2b0785861a0bc79d77401fc4e6ae5
-    new: c7664ad15290fa80aeec6ec356fa0a0c1c5380d7
+    old: 2d3d763d75d6524932b7e8cb4dcb15ca2da39b1a
+    new: ab2e709600f3dc456b882628c1d490e7a3e7fa8f
     log: |
-         9929dffce5ed7e2988e0274f4db98035508b16d9 perf/x86/intel: Fix and clean up intel_pmu_drain_arch_pebs() type use
-         c7664ad15290fa80aeec6ec356fa0a0c1c5380d7 Merge branch into tip/master: 'perf/core'
+         ab2e709600f3dc456b882628c1d490e7a3e7fa8f chmem: improve messages
          
