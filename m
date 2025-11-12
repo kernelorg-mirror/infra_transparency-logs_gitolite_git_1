@@ -1,648 +1,139 @@
-Content-Type: multipart/mixed; boundary="===============6390598271884647812=="
+Content-Type: multipart/mixed; boundary="===============0566358357670908197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-Date: Wed, 12 Nov 2025 21:12:45 -0000
-Message-Id: <176298196557.3644856.843073683215247709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 12 Nov 2025 21:13:38 -0000
+Message-Id: <176298201864.3645418.16655766257832354820@gitolite.kernel.org>
 
---===============6390598271884647812==
+--===============0566358357670908197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-user: djwong
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/default-features
-    old: 9ad91bbccce5445634e0e1411159d5ca60eb86fc
-    new: 0d644230d0b0bb4779f5a4259af24b6958c67fd2
-    log: revlist-9ad91bbccce5-0d644230d0b0.txt
-  - ref: refs/heads/djwong-wtf
-    old: 76455952e537c70f8f0c661fe0ce7dc1360fdab4
-    new: f63a0560cc2782c5b2c9abec7cae2c90c4bcc9c7
-    log: revlist-76455952e537-f63a0560cc27.txt
-  - ref: refs/heads/health-monitoring
-    old: 1fdd7e090727abb9bd315d4331b0572bab2351a8
-    new: 0c579dbb40509d9c7641a3f8db7538c5925976d5
-    log: revlist-1fdd7e090727-0c579dbb4050.txt
-  - ref: refs/heads/libxfs-6.18-sync
-    old: 7912fb9b35f80bd9eff956c20b35c316e3976e65
-    new: 110c650613999e72d24eb62b2b91aae1c7440a32
-    log: revlist-7912fb9b35f8-110c65061399.txt
-  - ref: refs/heads/random-fixes
-    old: c87817055d8598f52569ad49146900b86a988165
-    new: 1e6da53ca1d8f56f915eac5c8ca30e43db911aac
+  - ref: refs/heads/main
+    old: 621415c8b5371a4734315232a780dd8282f6fe4f
+    new: 99bd5a5c9f74abfe81196d96b8467d0d1d4723c5
     log: |
-         757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-         1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
+         2a04e8c293766a4976ceceb4c663dd2963e0339e last-modified: implement faster algorithm
+         99bd5a5c9f74abfe81196d96b8467d0d1d4723c5 Merge branch 'tc/last-modified-active-paths-optimization'
          
-  - ref: refs/heads/upgrade-newer-features
-    old: 04d4b52aee91710ec0ef6de2649da5feb28713e2
-    new: 68ef96352e5ff2586f4286d88cc46ac789f824d9
-    log: revlist-04d4b52aee91-68ef96352e5f.txt
-  - ref: refs/tags/default-features_2025-11-12
-    old: 308f962bfccacf039f70de47440c2092a0221389
-    new: 602faba9bddcaf903e6f2d8fa00fe32596ab59b1
-    log: revlist-308f962bfcca-602faba9bddc.txt
-  - ref: refs/tags/djwong-wtf_2025-11-12
-    old: 60104fb11e05f232e13567f7c0673c86458910c6
-    new: 453cc890ba8a9fdb37f601c00c7bc1cbd7d0320f
-    log: revlist-60104fb11e05-453cc890ba8a.txt
-  - ref: refs/tags/health-monitoring_2025-11-12
-    old: 3bad55cb584ff3ac99b277c671875101babf918f
-    new: 3397bd7934fd198ec64b370153d3d2ebcfbd1295
-    log: revlist-3bad55cb584f-3397bd7934fd.txt
-  - ref: refs/tags/libxfs-6.18-sync_2025-11-12
-    old: 186a929a0c27c33c45ac88915a3402ce581db877
-    new: b0ac115dc0ccae000df8baf5e90f35531044ecd4
-    log: revlist-186a929a0c27-b0ac115dc0cc.txt
-  - ref: refs/tags/origin/for-next_2025-11-12
-    old: a4322f7c24070f27e5c321f075509f4e0b186880
-    new: 83e852c2e9e657267fdf465939bbccd4a571eabe
-  - ref: refs/tags/random-fixes_2025-11-12
-    old: 86ca850517de1568695e3c4b99d45841614c2cc9
-    new: cb56e23ea6bd1c5fe3f99a408e77a234759de526
+  - ref: refs/heads/master
+    old: 621415c8b5371a4734315232a780dd8282f6fe4f
+    new: 99bd5a5c9f74abfe81196d96b8467d0d1d4723c5
     log: |
-         757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-         1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
+         2a04e8c293766a4976ceceb4c663dd2963e0339e last-modified: implement faster algorithm
+         99bd5a5c9f74abfe81196d96b8467d0d1d4723c5 Merge branch 'tc/last-modified-active-paths-optimization'
          
-  - ref: refs/tags/upgrade-newer-features_2025-11-12
-    old: a666a0781b859820f6e9f01616fa314c30439726
-    new: dd2e4fd6e9e5a9bb8742326ec306413697cf68f1
-    log: revlist-a666a0781b85-dd2e4fd6e9e5.txt
+  - ref: refs/heads/next
+    old: 7b8f6cc65fe471fcb24062876ba07252c1a0696d
+    new: 030905368a4ab507c60f51f4b5109c6b0a3cd378
+    log: |
+         99bd5a5c9f74abfe81196d96b8467d0d1d4723c5 Merge branch 'tc/last-modified-active-paths-optimization'
+         030905368a4ab507c60f51f4b5109c6b0a3cd378 Sync with 'master'
+         
+  - ref: refs/heads/seen
+    old: f22e8f52fc22c1a55d808a86c777ea26a5abf8db
+    new: 4772be8edde5af8afe62e66fca71aa3a61d356fb
+    log: revlist-f22e8f52fc22-4772be8edde5.txt
+  - ref: refs/notes/amlog
+    old: a4b1ca5729f80f64d4abc8f0605aa4b0b1cb17a8
+    new: 6d9164129fc116ff927547f4036da42b83665cd9
+    log: revlist-a4b1ca5729f8-6d9164129fc1.txt
 
---===============6390598271884647812==
+--===============0566358357670908197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ad91bbccce5-0d644230d0b0.txt
+Content-Disposition: attachment; filename=revlist-f22e8f52fc22-4772be8edde5.txt
 
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
+8e47d2276c4bc447003af80a8318203e2cb59b69 compat/mmap: mark unused argument in git_munmap()
+b73892a558446eecefc3683aa1efbae0bcd9fe67 pack-bitmap: handle name-hash lookups in incremental bitmaps
+0073e4fe403d53d28a68485771cbbdabbec5a1e9 Makefile: turn on NO_MMAP when building with ASan
+5ed279f208344712de15c13b925ac2b887c20bb8 cache-tree: avoid strtol() on non-string buffer
+2ceefbb0a2a2f873014829a824041eace3dcc089 fsck: assert newline presence in fsck_ident()
+f9374c2a02de2ac68222db06c70bb8e80f790069 fsck: avoid strcspn() in fsck_ident()
+20485ca907d34fe4dc7ed847b8beb0487bc8d961 fsck: remove redundant date timestamp check
+98861f8156e25c8d4d271a65f4a6d2e53e483dff fsck: avoid parse_timestamp() on buffer that isn't NUL-terminated
+839644ce9c810ce19c5dc6a47b059e7f4660121d t: enable ASan's strict_string_checks option
+42ed0468663dd493c0a0e00edc83b668369157d6 attr: avoid recursion when expanding attribute macros
+99bd5a5c9f74abfe81196d96b8467d0d1d4723c5 Merge branch 'tc/last-modified-active-paths-optimization'
+f8ba67bc8938717555841b38656cab769cbca2b4 Merge branch 'ps/packed-git-in-object-store' into jch
+54b268637a00774ca44323150770d02fe47853ef Merge branch 'ps/ref-peeled-tags' into jch
+82a042b414ab0e24659e1b0f52cb7ef7c8422b74 Merge branch 'kn/refs-optim-cleanup' into jch
+76cb5468d75f19c995576938621a9d3cb738987d Merge branch 'ps/ref-peeled-tags-fixes' into jch
+0b508ca35ef0bcde652c2f848a6a0d1a3cbfa08d ### match next
+b38e2c51824a0167890076c71f9198eebe033604 Merge branch 'rs/diff-quiet-no-rename' into jch
+0181e425bc41c9583fe41c6268c422372de20791 Merge branch 'kn/maintenance-is-needed' into jch
+24c5f5fba1d1767a5f74ff6ca63a8d93df44f7e4 Merge branch 'jc/gitattributes-whitespace-no-indent-fix' into jch
+27e02ab6c79b23d12cfde27461b2bd50944c598d Merge branch 'sa/replay-atomic-ref-updates' into jch
+2ebd3eb5575e5da1912b0a3994f5e6c6b37cb8b2 Merge branch 'en/ort-rename-another-fix' into jch
+8be40f6793cb15b88ef2efe464f96691c7b34554 Merge branch 'qj/doc-http-bad-want-response' into jch
+0767769b923e98b7875020cc95ffb158c8dac0e4 Merge branch 'jc/whitespace-incomplete-line' into jch
+d767fada3245766dfef9d56651a1311e95b5cd62 Merge branch 'ps/object-source-loose' into jch
+53fb7a03b706e8598467280a34499c163adc0902 Merge branch 'jk/attr-macroexpand-wo-recursion' into jch
+146dd72706fdcd2cb32302bbcc60c9f976e00944 Merge branch 'jk/asan-bonanza' into jch
+f35c2f100823343dd28dfa39ce2ca52a8c18de9f Merge branch 'jc/exclude-with-gitignore' into seen
+b6cd76d5239ea986adfeb3a7dafdc481e352d721 Merge branch 'ar/submodule-gitdir-tweak' into seen
+e7d9664c24585a91c2eadadc1abe421da57e6939 Merge branch 'ms/doc-worktree-side-by-side' into seen
+13d32f8e54e1d1074cf5b09f3c45b8fb57318a0c Merge branch 'ps/history' into seen
+be781cbf09274e67c2460eb2c221083c6f3bf298 Merge branch 'en/xdiff-cleanup-2' into seen
+a0655dcffba5007e9b127f7392b0fe1ebec7c304 Merge branch 'ar/run-command-hook' into seen
+834ec70b75f3ee015941ca06afbf0c4f73ddc27a Merge branch 'lo/repo-info-all' into seen
+f961b13b64def9b071b5fcdf974346b9d2500c30 Merge branch 'ad/blame-diff-algorithm' into seen
+e480021570aef44c5735c81373914919fe9d42ce Merge branch 'bc/sha1-256-interop-02' into seen
+278d0bed07c9bd3b431fed339d6315dc4291c79f Merge branch 'lc/rebase-trailer' into seen
+dee80940b123ad7006e0497391d8c160ae15ba1b doc: add an explanation of Git's data model
+7903e1fe656eb01ebc45218336c23416d9a4d92d Merge branch 'je/doc-data-model' into seen
+4772be8edde5af8afe62e66fca71aa3a61d356fb Merge branch 'je/doc-reset' into seen
 
---===============6390598271884647812==
+--===============0566358357670908197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76455952e537-f63a0560cc27.txt
+Content-Disposition: attachment; filename=revlist-a4b1ca5729f8-6d9164129fc1.txt
 
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
-0f4f35fea1db82ea4a512d2b3a06c81189366097 xfs: create hooks for monitoring health updates
-2e9cc8c104299cc6c50a4deccacb5aee148b18b3 xfs: create a special file to pass filesystem health to userspace
-1a42f80d9c1118980a0269ec2bc8f366daccf793 xfs: create event queuing, formatting, and discovery infrastructure
-19e72ec4e7eea7bf2e90497ac88921e5993f43f4 xfs: report metadata health events through healthmon
-19aaa0f3dead0893d3704c468eb631c22b66f1bd xfs: report shutdown events through healthmon
-f3e81dd3b620652d3ff025a34c88ee52aefdd19f xfs: report media errors through healthmon
-3f07b91372c719f3ea3c1629d135e3e720b3436b xfs: report file io errors through healthmon
-b8b6e560149aecd565b9f4afec10ffa6d9ce99fb xfs: validate fds against running healthmon
-3c5135d7139cb1bdf00022ec5dc5c86219a6b70f xfs: add media error reporting ioctl
-cb797c23d48b30cb38083c79a93a53ae3840227d libfrog: add a function to grab the path from an open fd and a file handle
-69ed6f6b84bdc86e24762b6d4dc060cc1d43ca91 libfrog: create healthmon event log library functions
-77e7fbef706c876d9b7cae8639b6b3e1d3687b9a man2: document the healthmon ioctl
-1636ac06be899354c2691b8f9459d3b5f716d408 man2: document the media error reporting ioctl
-20cee5aa16609e7a1121efab8473e23e5e60e0d0 xfs_io: monitor filesystem health events
-8e6381898b921873a92ae2af28dc968b92d27a30 xfs_io: add a media error reporting command
-70dde83f2b192881d57810195e02c92103f2ebc8 xfs_healer: create daemon to listen for health events
-0a28bbb244c052907e52cfb04c2def4a946fc843 xfs_healer: enable repairing filesystems
-792fd6447924a8a7238ef39e6bb022cdc1bd7e1e xfs_healer: check for fs features needed for effective repairs
-6d2c661f7df7e625e8e58e617784c476ac1e4064 xfs_healer: use getparents to look up file names
-5e05f000f65bc55e8681550ee7a0c54a1b310d78 builddefs: refactor udev directory specification
-e4b09d8e726929a5fba27cd8b2b251c51b0333fe xfs_healer: create a background monitoring service
-3dcf543d301909bfea74e94ed267d46cf64f7630 xfs_healer: don't start service if kernel support unavailable
-c0deab1631f4395530e91bc8505edbbf074f4079 xfs_healer: use the autofsck fsproperty to select mode
-b817531b83cdee94fb530d2d5e0d19debf885263 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-afde0f827422d8397b381da09b291a9a690f6fb4 xfs_healer: use getmntent to find moved filesystems
-b036b41652b452457287d11eab4def6907cb3d95 xfs_healer: validate that repair fds point to the monitored fs
-d55c399cdd7e300f12c723a88140bae99b7fd4b8 xfs_healer: add a manual page
-52921b54f9b2550110bd40d730a65b3e4855aecc xfs_scrub: report media scrub failures to the kernel
-ece1d33c30fb34ae690fac1b286f4c21df19d98a debian: enable xfs_healer on the root filesystem by default
-0c579dbb40509d9c7641a3f8db7538c5925976d5 debian/control: listify the build dependencies
-c5c070a1ae107f68a0b6cd7572b2fc86aad51ba6 xfs_repair: allow sysadmins to add free inode btree indexes
-c08354ed916ec9491e0342eb09c5da3be349c1cc xfs_repair: allow sysadmins to add reflink
-e31aa2383439e5e8aa179815045fa9b2cfa73e07 xfs_repair: allow sysadmins to add reverse mapping indexes
-16760f18cfab4ab0457ff0f5177a1665c1e16fbd xfs_repair: upgrade an existing filesystem to have parent pointers
-65c0d0f9b118fb03c874d7310c4a5990fd05a8b4 xfs_repair: allow sysadmins to add metadata directories
-c2f3d2b14aa0e07cb8ded6e57df9e12952765990 xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-3254c6c594ef873c9b0613b080b951efc232d4f3 xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-65557e5d32261840983c545b83333bc198ff08b7 xfs_repair: allow sysadmins to add realtime reflink
-df6fb0b8977ec0bdde9b152878db09a8c22d4c1a xfs_repair: skip free space checks when upgrading
-68ef96352e5ff2586f4286d88cc46ac789f824d9 xfs_repair: allow adding rmapbt to reflink filesystems
-f23e331e3cc8ba1d15902eefdb5a14c664631fc0 xfs_db: add merkle tree geometry calculations
-e6a75608116f6f220ff808349fdd434a7f0709fb mkfs: allow specification of default options via configuration file
-03d574477cd76a02dfa2b446fa506a33416fc840 xfs: upgrade filesystem features
-1d7bb2e1e77b7cfaedbdd2dbf430b02a11b7255f debug xfs/422 rmap shutdowns
-1bc8d85a81d9e43610843bb39c2155fbcc770a5f xfs_scrub: retry threaded phase4 repairs
-d3b95bc74a70915c97cc28c934cd850b0061a2bd xfs_scrub: quiet down unicrash warnings about weird names
-aa601663fe3cabbbe331f360243448ee8561a341 xfs_scrub: complain about case-insensitive names
-f63a0560cc2782c5b2c9abec7cae2c90c4bcc9c7 xfs_scrub/healer: enable everything via a systemd preset file
+22b8b3690ae5511eab50a9ed00aa311821a1e27c Notes added by 'git notes add'
+b4481a40a9f34d482e0d18c0045d5bba856e9c3c Notes added by 'git notes add'
+7e3e31c18a6035e995b744b96ceafc24bfd5fb9a Notes added by 'git notes add'
+a8b5d393217bb2346983f2e5a7ddb940c381bcdf Notes added by 'git notes add'
+fa6e10dcc935ab60988e66cdccef3d051ddf82d2 Notes added by 'git notes add'
+489498ff2c10c8a4bf57ad2b975a45b412a1646d Notes added by 'git notes add'
+c3f52c53037ec13daf517f992dd5094943d239cc Notes added by 'git notes add'
+477d373e371bf316f7361b8e3433b26cce8f573e Notes added by 'git notes add'
+ba0cf5d9dc790e0f4653e15db2964440c38f7dd5 Notes added by 'git notes add'
+bb86bac6af5f12b0bba1dbf4f38e180e6def4c98 Notes added by 'git notes add'
+0b8e84899bc4d2b3bdb4c1d98f5ba602e65ec3a7 Notes added by 'git notes add'
+82ac83f473c7106646a82eef8c2a7fc9ded03c51 Notes added by 'git notes add'
+f467e4135bbba354835e87873ef7bacdab27b78c Notes added by 'git notes add'
+6c0b078a48c668c008569ab11290439a06e6c0d0 Notes added by 'git notes add'
+f0de7676dc67adad2c40c26f81a30ff511edbe6f Notes added by 'git notes add'
+6e6bea34aefc9062d74ce94cc0e915fdb4b6d60d Notes added by 'git notes add'
+9f372d9de8e219196fda370e6c2f13d9003e1b61 Notes added by 'git notes add'
+6d8bd22a77d89bba2a2d67c255b59567e7b9f8ae Notes added by 'git notes add'
+d4c3c1fc78cf6ab35c3823819c13d6562cd966be Notes added by 'git notes add'
+ee340b99b6fa2df4b923b4b66df5888c37ae5108 Notes added by 'git notes add'
+08fffc8b7ff761f7848a6ecc47803e86754a8701 Notes added by 'git notes add'
+0e2e9b1e27833605850be2a44b2c89f55567ae80 Notes added by 'git notes add'
+f380583ce48a59aa6e0da5bfb79cffe428bdf4eb Notes added by 'git notes add'
+ed2acd840302322f266ae3444c09980fa0b7ae8b Notes added by 'git notes add'
+9b431c2cf043f49db3560470f47a329490efcd64 Notes added by 'git notes add'
+c9c1062c3c468fedabbcd8b950334eb6139dc6a7 Notes added by 'git notes add'
+3ea729ccb9d4957cbc2ef94e92db45debb5646b4 Notes added by 'git notes add'
+f869d716de18dda75382fc114edd804546e337b5 Notes added by 'git notes add'
+7351f813acb1cffb63d39219db5b7aea62d12f6d Notes added by 'git notes add'
+7a2f804357a0ea429a445cb24739a50e9bfad43b Notes added by 'git notes add'
+280ecd307dccd52c45b93ffa2e795d2832214765 Notes added by 'git notes add'
+aaf7f9f36bc7459063880acdcd79ea8dc6902338 Notes added by 'git notes add'
+f2e6ab4815603f005ded195fcb062bbc80683ea4 Notes added by 'git notes add'
+0c244be71389cdb77f592f0cf096ec7756f0be4e Notes added by 'git notes add'
+260d105adc4354bae354044a0778057ef809f93b Notes added by 'git notes add'
+ab4c6703b69e21d2da09f8f8100d114dc9f15a2f Notes added by 'git notes add'
+4b9b0e67bf1c8ed96582234e2bf5bf838f05a44f Notes added by 'git notes copy'
+6d9164129fc116ff927547f4036da42b83665cd9 Notes added by 'git notes add'
 
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fdd7e090727-0c579dbb4050.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
-0f4f35fea1db82ea4a512d2b3a06c81189366097 xfs: create hooks for monitoring health updates
-2e9cc8c104299cc6c50a4deccacb5aee148b18b3 xfs: create a special file to pass filesystem health to userspace
-1a42f80d9c1118980a0269ec2bc8f366daccf793 xfs: create event queuing, formatting, and discovery infrastructure
-19e72ec4e7eea7bf2e90497ac88921e5993f43f4 xfs: report metadata health events through healthmon
-19aaa0f3dead0893d3704c468eb631c22b66f1bd xfs: report shutdown events through healthmon
-f3e81dd3b620652d3ff025a34c88ee52aefdd19f xfs: report media errors through healthmon
-3f07b91372c719f3ea3c1629d135e3e720b3436b xfs: report file io errors through healthmon
-b8b6e560149aecd565b9f4afec10ffa6d9ce99fb xfs: validate fds against running healthmon
-3c5135d7139cb1bdf00022ec5dc5c86219a6b70f xfs: add media error reporting ioctl
-cb797c23d48b30cb38083c79a93a53ae3840227d libfrog: add a function to grab the path from an open fd and a file handle
-69ed6f6b84bdc86e24762b6d4dc060cc1d43ca91 libfrog: create healthmon event log library functions
-77e7fbef706c876d9b7cae8639b6b3e1d3687b9a man2: document the healthmon ioctl
-1636ac06be899354c2691b8f9459d3b5f716d408 man2: document the media error reporting ioctl
-20cee5aa16609e7a1121efab8473e23e5e60e0d0 xfs_io: monitor filesystem health events
-8e6381898b921873a92ae2af28dc968b92d27a30 xfs_io: add a media error reporting command
-70dde83f2b192881d57810195e02c92103f2ebc8 xfs_healer: create daemon to listen for health events
-0a28bbb244c052907e52cfb04c2def4a946fc843 xfs_healer: enable repairing filesystems
-792fd6447924a8a7238ef39e6bb022cdc1bd7e1e xfs_healer: check for fs features needed for effective repairs
-6d2c661f7df7e625e8e58e617784c476ac1e4064 xfs_healer: use getparents to look up file names
-5e05f000f65bc55e8681550ee7a0c54a1b310d78 builddefs: refactor udev directory specification
-e4b09d8e726929a5fba27cd8b2b251c51b0333fe xfs_healer: create a background monitoring service
-3dcf543d301909bfea74e94ed267d46cf64f7630 xfs_healer: don't start service if kernel support unavailable
-c0deab1631f4395530e91bc8505edbbf074f4079 xfs_healer: use the autofsck fsproperty to select mode
-b817531b83cdee94fb530d2d5e0d19debf885263 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-afde0f827422d8397b381da09b291a9a690f6fb4 xfs_healer: use getmntent to find moved filesystems
-b036b41652b452457287d11eab4def6907cb3d95 xfs_healer: validate that repair fds point to the monitored fs
-d55c399cdd7e300f12c723a88140bae99b7fd4b8 xfs_healer: add a manual page
-52921b54f9b2550110bd40d730a65b3e4855aecc xfs_scrub: report media scrub failures to the kernel
-ece1d33c30fb34ae690fac1b286f4c21df19d98a debian: enable xfs_healer on the root filesystem by default
-0c579dbb40509d9c7641a3f8db7538c5925976d5 debian/control: listify the build dependencies
-
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7912fb9b35f8-110c65061399.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04d4b52aee91-68ef96352e5f.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
-0f4f35fea1db82ea4a512d2b3a06c81189366097 xfs: create hooks for monitoring health updates
-2e9cc8c104299cc6c50a4deccacb5aee148b18b3 xfs: create a special file to pass filesystem health to userspace
-1a42f80d9c1118980a0269ec2bc8f366daccf793 xfs: create event queuing, formatting, and discovery infrastructure
-19e72ec4e7eea7bf2e90497ac88921e5993f43f4 xfs: report metadata health events through healthmon
-19aaa0f3dead0893d3704c468eb631c22b66f1bd xfs: report shutdown events through healthmon
-f3e81dd3b620652d3ff025a34c88ee52aefdd19f xfs: report media errors through healthmon
-3f07b91372c719f3ea3c1629d135e3e720b3436b xfs: report file io errors through healthmon
-b8b6e560149aecd565b9f4afec10ffa6d9ce99fb xfs: validate fds against running healthmon
-3c5135d7139cb1bdf00022ec5dc5c86219a6b70f xfs: add media error reporting ioctl
-cb797c23d48b30cb38083c79a93a53ae3840227d libfrog: add a function to grab the path from an open fd and a file handle
-69ed6f6b84bdc86e24762b6d4dc060cc1d43ca91 libfrog: create healthmon event log library functions
-77e7fbef706c876d9b7cae8639b6b3e1d3687b9a man2: document the healthmon ioctl
-1636ac06be899354c2691b8f9459d3b5f716d408 man2: document the media error reporting ioctl
-20cee5aa16609e7a1121efab8473e23e5e60e0d0 xfs_io: monitor filesystem health events
-8e6381898b921873a92ae2af28dc968b92d27a30 xfs_io: add a media error reporting command
-70dde83f2b192881d57810195e02c92103f2ebc8 xfs_healer: create daemon to listen for health events
-0a28bbb244c052907e52cfb04c2def4a946fc843 xfs_healer: enable repairing filesystems
-792fd6447924a8a7238ef39e6bb022cdc1bd7e1e xfs_healer: check for fs features needed for effective repairs
-6d2c661f7df7e625e8e58e617784c476ac1e4064 xfs_healer: use getparents to look up file names
-5e05f000f65bc55e8681550ee7a0c54a1b310d78 builddefs: refactor udev directory specification
-e4b09d8e726929a5fba27cd8b2b251c51b0333fe xfs_healer: create a background monitoring service
-3dcf543d301909bfea74e94ed267d46cf64f7630 xfs_healer: don't start service if kernel support unavailable
-c0deab1631f4395530e91bc8505edbbf074f4079 xfs_healer: use the autofsck fsproperty to select mode
-b817531b83cdee94fb530d2d5e0d19debf885263 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-afde0f827422d8397b381da09b291a9a690f6fb4 xfs_healer: use getmntent to find moved filesystems
-b036b41652b452457287d11eab4def6907cb3d95 xfs_healer: validate that repair fds point to the monitored fs
-d55c399cdd7e300f12c723a88140bae99b7fd4b8 xfs_healer: add a manual page
-52921b54f9b2550110bd40d730a65b3e4855aecc xfs_scrub: report media scrub failures to the kernel
-ece1d33c30fb34ae690fac1b286f4c21df19d98a debian: enable xfs_healer on the root filesystem by default
-0c579dbb40509d9c7641a3f8db7538c5925976d5 debian/control: listify the build dependencies
-c5c070a1ae107f68a0b6cd7572b2fc86aad51ba6 xfs_repair: allow sysadmins to add free inode btree indexes
-c08354ed916ec9491e0342eb09c5da3be349c1cc xfs_repair: allow sysadmins to add reflink
-e31aa2383439e5e8aa179815045fa9b2cfa73e07 xfs_repair: allow sysadmins to add reverse mapping indexes
-16760f18cfab4ab0457ff0f5177a1665c1e16fbd xfs_repair: upgrade an existing filesystem to have parent pointers
-65c0d0f9b118fb03c874d7310c4a5990fd05a8b4 xfs_repair: allow sysadmins to add metadata directories
-c2f3d2b14aa0e07cb8ded6e57df9e12952765990 xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-3254c6c594ef873c9b0613b080b951efc232d4f3 xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-65557e5d32261840983c545b83333bc198ff08b7 xfs_repair: allow sysadmins to add realtime reflink
-df6fb0b8977ec0bdde9b152878db09a8c22d4c1a xfs_repair: skip free space checks when upgrading
-68ef96352e5ff2586f4286d88cc46ac789f824d9 xfs_repair: allow adding rmapbt to reflink filesystems
-
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-308f962bfcca-602faba9bddc.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
-
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60104fb11e05-453cc890ba8a.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
-0f4f35fea1db82ea4a512d2b3a06c81189366097 xfs: create hooks for monitoring health updates
-2e9cc8c104299cc6c50a4deccacb5aee148b18b3 xfs: create a special file to pass filesystem health to userspace
-1a42f80d9c1118980a0269ec2bc8f366daccf793 xfs: create event queuing, formatting, and discovery infrastructure
-19e72ec4e7eea7bf2e90497ac88921e5993f43f4 xfs: report metadata health events through healthmon
-19aaa0f3dead0893d3704c468eb631c22b66f1bd xfs: report shutdown events through healthmon
-f3e81dd3b620652d3ff025a34c88ee52aefdd19f xfs: report media errors through healthmon
-3f07b91372c719f3ea3c1629d135e3e720b3436b xfs: report file io errors through healthmon
-b8b6e560149aecd565b9f4afec10ffa6d9ce99fb xfs: validate fds against running healthmon
-3c5135d7139cb1bdf00022ec5dc5c86219a6b70f xfs: add media error reporting ioctl
-cb797c23d48b30cb38083c79a93a53ae3840227d libfrog: add a function to grab the path from an open fd and a file handle
-69ed6f6b84bdc86e24762b6d4dc060cc1d43ca91 libfrog: create healthmon event log library functions
-77e7fbef706c876d9b7cae8639b6b3e1d3687b9a man2: document the healthmon ioctl
-1636ac06be899354c2691b8f9459d3b5f716d408 man2: document the media error reporting ioctl
-20cee5aa16609e7a1121efab8473e23e5e60e0d0 xfs_io: monitor filesystem health events
-8e6381898b921873a92ae2af28dc968b92d27a30 xfs_io: add a media error reporting command
-70dde83f2b192881d57810195e02c92103f2ebc8 xfs_healer: create daemon to listen for health events
-0a28bbb244c052907e52cfb04c2def4a946fc843 xfs_healer: enable repairing filesystems
-792fd6447924a8a7238ef39e6bb022cdc1bd7e1e xfs_healer: check for fs features needed for effective repairs
-6d2c661f7df7e625e8e58e617784c476ac1e4064 xfs_healer: use getparents to look up file names
-5e05f000f65bc55e8681550ee7a0c54a1b310d78 builddefs: refactor udev directory specification
-e4b09d8e726929a5fba27cd8b2b251c51b0333fe xfs_healer: create a background monitoring service
-3dcf543d301909bfea74e94ed267d46cf64f7630 xfs_healer: don't start service if kernel support unavailable
-c0deab1631f4395530e91bc8505edbbf074f4079 xfs_healer: use the autofsck fsproperty to select mode
-b817531b83cdee94fb530d2d5e0d19debf885263 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-afde0f827422d8397b381da09b291a9a690f6fb4 xfs_healer: use getmntent to find moved filesystems
-b036b41652b452457287d11eab4def6907cb3d95 xfs_healer: validate that repair fds point to the monitored fs
-d55c399cdd7e300f12c723a88140bae99b7fd4b8 xfs_healer: add a manual page
-52921b54f9b2550110bd40d730a65b3e4855aecc xfs_scrub: report media scrub failures to the kernel
-ece1d33c30fb34ae690fac1b286f4c21df19d98a debian: enable xfs_healer on the root filesystem by default
-0c579dbb40509d9c7641a3f8db7538c5925976d5 debian/control: listify the build dependencies
-c5c070a1ae107f68a0b6cd7572b2fc86aad51ba6 xfs_repair: allow sysadmins to add free inode btree indexes
-c08354ed916ec9491e0342eb09c5da3be349c1cc xfs_repair: allow sysadmins to add reflink
-e31aa2383439e5e8aa179815045fa9b2cfa73e07 xfs_repair: allow sysadmins to add reverse mapping indexes
-16760f18cfab4ab0457ff0f5177a1665c1e16fbd xfs_repair: upgrade an existing filesystem to have parent pointers
-65c0d0f9b118fb03c874d7310c4a5990fd05a8b4 xfs_repair: allow sysadmins to add metadata directories
-c2f3d2b14aa0e07cb8ded6e57df9e12952765990 xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-3254c6c594ef873c9b0613b080b951efc232d4f3 xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-65557e5d32261840983c545b83333bc198ff08b7 xfs_repair: allow sysadmins to add realtime reflink
-df6fb0b8977ec0bdde9b152878db09a8c22d4c1a xfs_repair: skip free space checks when upgrading
-68ef96352e5ff2586f4286d88cc46ac789f824d9 xfs_repair: allow adding rmapbt to reflink filesystems
-f23e331e3cc8ba1d15902eefdb5a14c664631fc0 xfs_db: add merkle tree geometry calculations
-e6a75608116f6f220ff808349fdd434a7f0709fb mkfs: allow specification of default options via configuration file
-03d574477cd76a02dfa2b446fa506a33416fc840 xfs: upgrade filesystem features
-1d7bb2e1e77b7cfaedbdd2dbf430b02a11b7255f debug xfs/422 rmap shutdowns
-1bc8d85a81d9e43610843bb39c2155fbcc770a5f xfs_scrub: retry threaded phase4 repairs
-d3b95bc74a70915c97cc28c934cd850b0061a2bd xfs_scrub: quiet down unicrash warnings about weird names
-aa601663fe3cabbbe331f360243448ee8561a341 xfs_scrub: complain about case-insensitive names
-f63a0560cc2782c5b2c9abec7cae2c90c4bcc9c7 xfs_scrub/healer: enable everything via a systemd preset file
-
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bad55cb584f-3397bd7934fd.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
-0f4f35fea1db82ea4a512d2b3a06c81189366097 xfs: create hooks for monitoring health updates
-2e9cc8c104299cc6c50a4deccacb5aee148b18b3 xfs: create a special file to pass filesystem health to userspace
-1a42f80d9c1118980a0269ec2bc8f366daccf793 xfs: create event queuing, formatting, and discovery infrastructure
-19e72ec4e7eea7bf2e90497ac88921e5993f43f4 xfs: report metadata health events through healthmon
-19aaa0f3dead0893d3704c468eb631c22b66f1bd xfs: report shutdown events through healthmon
-f3e81dd3b620652d3ff025a34c88ee52aefdd19f xfs: report media errors through healthmon
-3f07b91372c719f3ea3c1629d135e3e720b3436b xfs: report file io errors through healthmon
-b8b6e560149aecd565b9f4afec10ffa6d9ce99fb xfs: validate fds against running healthmon
-3c5135d7139cb1bdf00022ec5dc5c86219a6b70f xfs: add media error reporting ioctl
-cb797c23d48b30cb38083c79a93a53ae3840227d libfrog: add a function to grab the path from an open fd and a file handle
-69ed6f6b84bdc86e24762b6d4dc060cc1d43ca91 libfrog: create healthmon event log library functions
-77e7fbef706c876d9b7cae8639b6b3e1d3687b9a man2: document the healthmon ioctl
-1636ac06be899354c2691b8f9459d3b5f716d408 man2: document the media error reporting ioctl
-20cee5aa16609e7a1121efab8473e23e5e60e0d0 xfs_io: monitor filesystem health events
-8e6381898b921873a92ae2af28dc968b92d27a30 xfs_io: add a media error reporting command
-70dde83f2b192881d57810195e02c92103f2ebc8 xfs_healer: create daemon to listen for health events
-0a28bbb244c052907e52cfb04c2def4a946fc843 xfs_healer: enable repairing filesystems
-792fd6447924a8a7238ef39e6bb022cdc1bd7e1e xfs_healer: check for fs features needed for effective repairs
-6d2c661f7df7e625e8e58e617784c476ac1e4064 xfs_healer: use getparents to look up file names
-5e05f000f65bc55e8681550ee7a0c54a1b310d78 builddefs: refactor udev directory specification
-e4b09d8e726929a5fba27cd8b2b251c51b0333fe xfs_healer: create a background monitoring service
-3dcf543d301909bfea74e94ed267d46cf64f7630 xfs_healer: don't start service if kernel support unavailable
-c0deab1631f4395530e91bc8505edbbf074f4079 xfs_healer: use the autofsck fsproperty to select mode
-b817531b83cdee94fb530d2d5e0d19debf885263 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-afde0f827422d8397b381da09b291a9a690f6fb4 xfs_healer: use getmntent to find moved filesystems
-b036b41652b452457287d11eab4def6907cb3d95 xfs_healer: validate that repair fds point to the monitored fs
-d55c399cdd7e300f12c723a88140bae99b7fd4b8 xfs_healer: add a manual page
-52921b54f9b2550110bd40d730a65b3e4855aecc xfs_scrub: report media scrub failures to the kernel
-ece1d33c30fb34ae690fac1b286f4c21df19d98a debian: enable xfs_healer on the root filesystem by default
-0c579dbb40509d9c7641a3f8db7538c5925976d5 debian/control: listify the build dependencies
-
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-186a929a0c27-b0ac115dc0cc.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-
---===============6390598271884647812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a666a0781b85-dd2e4fd6e9e5.txt
-
-757ddfc595a9f2a6c3dea6783517b63c03f8bfdf xfs_db: document the rtsb command
-1e6da53ca1d8f56f915eac5c8ca30e43db911aac man2: fix getparents ioctl manpage
-eebd8c5cdfecb6fe87ecdd73b21a9bcf82288b31 xfs: remove deprecated mount options
-9e767f9262302b2e3e1a86dfbb7cd1b5d6fb12d8 xfs: remove deprecated sysctl knobs
-095cd5904e2ab979b26d0f97924480d9b88aa15b xfs: remove the xlog_op_header_t typedef
-a7721e83adff70a039122e448055b86209cb7c06 xfs: remove the xfs_trans_header_t typedef
-6a96ce6aa4073e380bdecb38a6736cb9d1bd0003 xfs: remove the xfs_extent_t typedef
-908554613c2a56d6e4fabf5f2cc5660685c306df xfs: remove the xfs_extent32_t typedef
-4e631e87f217d3d2fbcc38d7fbace99632e679dc xfs: remove the xfs_extent64_t typedef
-876d5377d65bb4757a3d12ea018df882c5e60d4f xfs: remove the xfs_efi_log_format_t typedef
-aa873a6f0887e593ee865ec0274916d9f06b2e9d xfs: remove the xfs_efi_log_format_32_t typedef
-39bc12e5bdfb780f3249e4f1dce89d34a35b8e19 xfs: remove the xfs_efi_log_format_64_t typedef
-1ff3983e63c2ded4f0f451efeec83c163379cc2e xfs: remove the xfs_efd_log_format_t typedef
-3550ca2b9207092cb9f1691f9575570ab7be767f xfs: remove the unused xfs_efd_log_format_32_t typedef
-76bae90b426d60e23ddc40a9ff495840e5cc8407 xfs: remove the unused xfs_efd_log_format_64_t typedef
-b409539d3c5f73547a9f3b69e89603f9f49ddf91 xfs: remove the unused xfs_buf_log_format_t typedef
-174a33b5e91f4ebb95e9b491ce6e3045e65139ae xfs: remove the unused xfs_dq_logformat_t typedef
-ce20061637f5d987f47587e95fde4482009a8bdf xfs: remove the unused xfs_qoff_logformat_t typedef
-13e7ef09405118e0ffaa3031c726184a370f6826 xfs: remove the unused xfs_log_iovec_t typedef
-ca3500884c3659073f6609a6385d7ca5a83f42f8 xfs: fix log CRC mismatches between i386 and other architectures
-96ed50e48a8cea52e2a6e4dea1b6708725ffad24 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
-7fc13ef54ffefdf4df75680bf2c14a7178499a2f xfs: remove the expr argument to XFS_TEST_ERROR
-88cc31c35dc2992f5fc63373f12bd80bcbd58ea5 xfs: centralize error tag definitions
-8165cd765f7c0eb1f1efc648f4f411e8a7d287d7 xfs: improve default maximum number of open zones
-110c650613999e72d24eb62b2b91aae1c7440a32 xfs: prevent gc from picking the same zone twice
-14f56eafa353dd540b39a58fdd12fd7c01feef41 mkfs: enable new features by default
-0d644230d0b0bb4779f5a4259af24b6958c67fd2 mkfs: add 2025 LTS config file
-0f4f35fea1db82ea4a512d2b3a06c81189366097 xfs: create hooks for monitoring health updates
-2e9cc8c104299cc6c50a4deccacb5aee148b18b3 xfs: create a special file to pass filesystem health to userspace
-1a42f80d9c1118980a0269ec2bc8f366daccf793 xfs: create event queuing, formatting, and discovery infrastructure
-19e72ec4e7eea7bf2e90497ac88921e5993f43f4 xfs: report metadata health events through healthmon
-19aaa0f3dead0893d3704c468eb631c22b66f1bd xfs: report shutdown events through healthmon
-f3e81dd3b620652d3ff025a34c88ee52aefdd19f xfs: report media errors through healthmon
-3f07b91372c719f3ea3c1629d135e3e720b3436b xfs: report file io errors through healthmon
-b8b6e560149aecd565b9f4afec10ffa6d9ce99fb xfs: validate fds against running healthmon
-3c5135d7139cb1bdf00022ec5dc5c86219a6b70f xfs: add media error reporting ioctl
-cb797c23d48b30cb38083c79a93a53ae3840227d libfrog: add a function to grab the path from an open fd and a file handle
-69ed6f6b84bdc86e24762b6d4dc060cc1d43ca91 libfrog: create healthmon event log library functions
-77e7fbef706c876d9b7cae8639b6b3e1d3687b9a man2: document the healthmon ioctl
-1636ac06be899354c2691b8f9459d3b5f716d408 man2: document the media error reporting ioctl
-20cee5aa16609e7a1121efab8473e23e5e60e0d0 xfs_io: monitor filesystem health events
-8e6381898b921873a92ae2af28dc968b92d27a30 xfs_io: add a media error reporting command
-70dde83f2b192881d57810195e02c92103f2ebc8 xfs_healer: create daemon to listen for health events
-0a28bbb244c052907e52cfb04c2def4a946fc843 xfs_healer: enable repairing filesystems
-792fd6447924a8a7238ef39e6bb022cdc1bd7e1e xfs_healer: check for fs features needed for effective repairs
-6d2c661f7df7e625e8e58e617784c476ac1e4064 xfs_healer: use getparents to look up file names
-5e05f000f65bc55e8681550ee7a0c54a1b310d78 builddefs: refactor udev directory specification
-e4b09d8e726929a5fba27cd8b2b251c51b0333fe xfs_healer: create a background monitoring service
-3dcf543d301909bfea74e94ed267d46cf64f7630 xfs_healer: don't start service if kernel support unavailable
-c0deab1631f4395530e91bc8505edbbf074f4079 xfs_healer: use the autofsck fsproperty to select mode
-b817531b83cdee94fb530d2d5e0d19debf885263 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-afde0f827422d8397b381da09b291a9a690f6fb4 xfs_healer: use getmntent to find moved filesystems
-b036b41652b452457287d11eab4def6907cb3d95 xfs_healer: validate that repair fds point to the monitored fs
-d55c399cdd7e300f12c723a88140bae99b7fd4b8 xfs_healer: add a manual page
-52921b54f9b2550110bd40d730a65b3e4855aecc xfs_scrub: report media scrub failures to the kernel
-ece1d33c30fb34ae690fac1b286f4c21df19d98a debian: enable xfs_healer on the root filesystem by default
-0c579dbb40509d9c7641a3f8db7538c5925976d5 debian/control: listify the build dependencies
-c5c070a1ae107f68a0b6cd7572b2fc86aad51ba6 xfs_repair: allow sysadmins to add free inode btree indexes
-c08354ed916ec9491e0342eb09c5da3be349c1cc xfs_repair: allow sysadmins to add reflink
-e31aa2383439e5e8aa179815045fa9b2cfa73e07 xfs_repair: allow sysadmins to add reverse mapping indexes
-16760f18cfab4ab0457ff0f5177a1665c1e16fbd xfs_repair: upgrade an existing filesystem to have parent pointers
-65c0d0f9b118fb03c874d7310c4a5990fd05a8b4 xfs_repair: allow sysadmins to add metadata directories
-c2f3d2b14aa0e07cb8ded6e57df9e12952765990 xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-3254c6c594ef873c9b0613b080b951efc232d4f3 xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-65557e5d32261840983c545b83333bc198ff08b7 xfs_repair: allow sysadmins to add realtime reflink
-df6fb0b8977ec0bdde9b152878db09a8c22d4c1a xfs_repair: skip free space checks when upgrading
-68ef96352e5ff2586f4286d88cc46ac789f824d9 xfs_repair: allow adding rmapbt to reflink filesystems
-
---===============6390598271884647812==--
+--===============0566358357670908197==--
