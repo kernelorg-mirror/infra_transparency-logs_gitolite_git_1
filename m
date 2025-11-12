@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 12 Nov 2025 01:01:13 -0000
-Message-Id: <176290927378.2592254.9518332037674292690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 12 Nov 2025 01:06:07 -0000
+Message-Id: <176290956720.2597196.9993774548962125907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 68cc6ec3ac2960f0871421c16e49cba826fdff52
-    new: da8fcfba0854dbe0b0eca465d35620c9cf4c89c1
+  - ref: refs/heads/master
+    old: 6d6d69b86ab7f7e78b6306f35c1ecbad331f98aa
+    new: e736a602fdcf8ff57537b2f692a745eb331c74c8
     log: |
-         da8fcfba0854dbe0b0eca465d35620c9cf4c89c1 perf stat: Align metric output without events
+         e736a602fdcf8ff57537b2f692a745eb331c74c8 defer/hazptr: Add steps to move from refctr to hazptr
          
