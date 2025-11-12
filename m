@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mattst88/alpha
-Date: Wed, 12 Nov 2025 02:03:37 -0000
-Message-Id: <176291301766.2648475.12576608167280274037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 12 Nov 2025 02:04:00 -0000
+Message-Id: <176291304052.2649234.8561606930193985170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mattst88/alpha
-user: mattst88
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/alpha-fixes-v6.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: b9c40efb73ba78072cc597c011a627d75b4b05a2
+  - ref: refs/heads/main
+    old: 7a6fa4f89e8d13b36a6259fd963aecfedf8726ba
+    new: 0345552a653ce5542affeb69ac5aa52177a5199b
+    log: |
+         0345552a653ce5542affeb69ac5aa52177a5199b net_sched: limit try_bulk_dequeue_skb() batches
+         
