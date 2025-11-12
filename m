@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 12 Nov 2025 23:20:20 -0000
-Message-Id: <176298962080.3759494.15361823804414040549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 12 Nov 2025 23:23:40 -0000
+Message-Id: <176298982036.3761402.11069118811266159042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: ace6516aee0e6e811b00c6e3dac05b88331e8d6e
-    new: c7c1ccbf44ceda001dabb97029b4fc9b91893588
-    log: |
-         c7c1ccbf44ceda001dabb97029b4fc9b91893588 foo
-         
+  - ref: refs/heads/objtool-todo-2
+    old: 0000000000000000000000000000000000000000
+    new: 52da8acbef4bc8221871067b0d7183ceec651bc8
