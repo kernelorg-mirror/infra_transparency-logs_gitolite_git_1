@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 12 Nov 2025 12:33:05 -0000
-Message-Id: <176295078539.3194584.12864943518268988856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 12 Nov 2025 12:39:02 -0000
+Message-Id: <176295114216.3200591.18067183868036312907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: c3db48bd29cdd0144fcdbaf452bb52eed541434b
-    new: b48793efe4da9020a8850c57f965fe8a47624e86
-    log: |
-         b48793efe4da9020a8850c57f965fe8a47624e86 feat: API update for 0.15.0
-         
+  - ref: refs/heads/gpio/for-next
+    old: bef5a1b01bdf83c0cba7f1eb817deae90cab33ca
+    new: b6d31cd41814a33c1a22b8c676131820440cc44e
