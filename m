@@ -1,52 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6354768408646482726=="
+Content-Type: multipart/mixed; boundary="===============8893714737289259654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 12 Nov 2025 11:48:42 -0000
-Message-Id: <176294812291.3155818.11530307432284813151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 12 Nov 2025 11:49:17 -0000
+Message-Id: <176294815708.3156843.9938253482513818239@gitolite.kernel.org>
 
---===============6354768408646482726==
+--===============8893714737289259654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/wireless-next-2025-11-12
-    old: 0000000000000000000000000000000000000000
-    new: b8a0bcf2ded219c694fa4dffe9b2891de531660f
+  - ref: refs/heads/usb-linus
+    old: 23379a17334fc24c4a9cbd9967d33dcd9323cc7c
+    new: 2e558d86e0975fdfb048bd600e253993edc068fe
+    log: |
+         2d8ab771d5316de64f3bb920b82575c58eb00b1b USB: serial: ftdi_sio: add support for u-blox EVK-M101
+         523bf0a59e674b52e4b5607a2aba655fbfa20ff2 USB: serial: option: add support for Rolling RW101R-GL
+         2e558d86e0975fdfb048bd600e253993edc068fe Merge tag 'usb-serial-6.18-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         
 
---===============6354768408646482726==
+--===============8893714737289259654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1762948164 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1762948094-4e8bcf9e4fa97a425661219422923282890f47f4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1762948224 -0500
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1762948154-927233cbe061e868b6e038a1cf275b1c789b7fde
 
-0000000000000000000000000000000000000000 b8a0bcf2ded219c694fa4dffe9b2891de531660f refs/tags/wireless-next-2025-11-12
+23379a17334fc24c4a9cbd9967d33dcd9323cc7c 2e558d86e0975fdfb048bd600e253993edc068fe refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmkUdEQACgkQ10qiO8sP
-aACs1Q//cvyGH3xArA3OUUuldmdxmJ4pWvonyTbYG1CPzBpzusxwkbaKIUQjdlGl
-ixLzaNzpNrHchJXM0chVMQfWHiJMUPySIW07/qHEtDBhGLihnWGfAsDCtIdBZvwg
-5GedVDbta81UuUFeYHNqINGt10xTc4QJpBaffz6RrUOvoNIO0UayIXQhV7AHIcKa
-+UxcjIyjqX3A8GWHK/gPOPkGOh1sE1ehKFtmDdKDnYjwFV6n6ce8fF9chq9aV+Jg
-rw1OPsMzDqtaO5cdRxayrdiGzUdjgi3OFXUWfHKDbxsAXEcvbTeHU1AMzdAq/WOP
-45p6/wEJQYzwzwrFWXmvitgZr7HLajngWeqwDQGkrxbGEe/HYRKs5oST+Yvth7wx
-qtTknY3ZMR3Y9raN020i2Zo4Of+TEvStOiYNKmHfbPGGZC4E5VoMy/VjaxvQjLTN
-w2zZFzJbuuvh/0HkXIkOyD0gxO4WbIQD5kih82XkKThYMsMqCVZVhSsH4o0CpfIO
-upXBkyKcSZD49oxZYu9jeHo86f+acsDhEfdXdGalchKzoDOQFfAgbiwB6lsEa6vJ
-ZkfEJlyaGdO+juE4BrJv3FxINX7H+7W58gPnxKBqzBy6iOg6d6VE/mcZ1QH3Z0qc
-TTA3n7LgoWeMFdCHLkQKJZL6eay0/NYou4Yt+0/HPFMGh0KJ7C0=
-=EVCL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkUdIAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RdsP/0DmckjAp5h07gHowS1T
+Dw1yyD8Kqva2dvxb7uEfXA+u5ujcuBrHT9wEe3rN1a57jFJYTugC6QWAmfXM/zuc
+zGf2RLDlE1ymo4JnPkHq/4KPQL/LDAswmpeI8CAeJkP+vFhfeph9iNrPPmtdUORu
+yYRQwBJzVq1+UlSkXQTp774+VBYj7y/GXXWBPf/1s81BaSPsnfXLqkoxBd8R2LrB
++hWQkVgX+D2CvhjVcTClwpWJd9IzeTsLuSzVE7+fcHUY0EBKEbtdd6fsxzMQTizA
+Qx8xwwN8mfKklIjbqSXTvFqPSJWhO7pXM4RUdMRshIM0lirP0BHqBe5dV9DRiCzk
+ZrLRI0/KIAz4/YHANcyBpOc5Iv5bRPlvNdjGHSdez7bgUywFaMhSI+Vka/+dt7go
+Q2TzaLiHndam19GhPISD4s3CUiFb1q+VztT9dPGvTmS7njJDn1GYK6ZfMV/4XswN
+j1xZqopNNbUmYhxO6ZykHf3J6C0v+iWHA5sG4KwIXkqSvz/lxmFeFgQTWN/3LpWF
+ygyLP0Dwb7A+5F1XjxC0eiehPDR9vL2eGkwkVOzZUCw1BlNOrHsQZA4bl9JzfwZP
+/tX83rZk8ItGNaXc473uBiOUs2V2iqAgGUntIAWuEVwvxXXC6yhsc1viWqttYkqK
+6g0iy0ostj2XBDImwc4Adc4o
+=QmHk
 -----END PGP SIGNATURE-----
 
---===============6354768408646482726==--
+--===============8893714737289259654==--
