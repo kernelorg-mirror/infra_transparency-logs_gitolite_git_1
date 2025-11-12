@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 12 Nov 2025 13:31:42 -0000
-Message-Id: <176295430240.3244261.5166176032362013615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Wed, 12 Nov 2025 13:40:08 -0000
+Message-Id: <176295480823.3251984.16851622306636045408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/probes/for-next
-    old: 80f88cce542ae25577d5e0af28a60aab14c72c49
-    new: 5810077b5219b31fb44d3a7c6572eca770adc4dd
+  - ref: refs/heads/main
+    old: a6637bab11edf54e2de32b3b14b3af5c65a79250
+    new: f2947c819482d3630a51c98e6993495fb4ff0b96
     log: |
-         e667152e0064acf1a308a1816719008e29bec76f tracing: fprobe: Fix to init fprobe_ip_table earlier
-         2c67dc457bc67367dc8fcd8f471ce2d5bb5f7b2b tracing: fprobe: optimization for entry only case
-         08ed5c81f6058bd7d6cd28d1750667ad3ceee3d1 lib/test_fprobe: add testcase for mixed fprobe
-         cd06078a38aaedfebbf8fa0c009da0f99f4473fb tracing: fprobe: use ftrace if CONFIG_DYNAMIC_FTRACE_WITH_ARGS
-         5810077b5219b31fb44d3a7c6572eca770adc4dd selftests: tracing: Update fprobe selftest for ftrace based fprobe
+         f2947c819482d3630a51c98e6993495fb4ff0b96 feat: API update for 0.15.0
          
