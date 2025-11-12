@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 12 Nov 2025 11:18:34 -0000
-Message-Id: <176294631421.3130234.462425480437638549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Wed, 12 Nov 2025 11:23:17 -0000
+Message-Id: <176294659765.3134529.6322065456093999808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 2d3d763d75d6524932b7e8cb4dcb15ca2da39b1a
-    new: ab2e709600f3dc456b882628c1d490e7a3e7fa8f
+  - ref: refs/heads/main
+    old: d55f19b3ebae7ea2c058bf4a36727f604c38c1df
+    new: a280044493ef10b83c1cc2c355318b53b3ca3745
     log: |
-         ab2e709600f3dc456b882628c1d490e7a3e7fa8f chmem: improve messages
+         a280044493ef10b83c1cc2c355318b53b3ca3745 fix(data): TpmCc::PolicyOR to TpmCc::PolicyOr
          
