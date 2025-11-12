@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 12 Nov 2025 22:26:15 -0000
-Message-Id: <176298637553.3711905.14195588152028696128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 12 Nov 2025 22:38:06 -0000
+Message-Id: <176298708693.3720852.17568025679504257558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/main
-    old: 0e0f46f74cafd7b8a61854bf2891dd4df62113fe
-    new: 5f07195676a5123da1cd27a7f0b1eeb5f534245b
+  - ref: refs/heads/text-startup-3
+    old: 129580add077a3212f185bdfadef8e0065c165a0
+    new: 9a4cd056b6523d6cd00ee745d19b9b17f86390f2
     log: |
-         4539972c1ecff72c0133ee8a898c428c3945dc3f Merge branch 'ath-next'
-         e8000bcc1519f99a54fba1678e42b0c59dcbca3a Merge branch 'ath-current'
-         80cdbafd87083e0da35971afb438e5f8715d6d6f Merge remote-tracking branch 'mhi/mhi-next'
-         3adc59d834a68964e981d9cd7ad369d94b687929 Add localversion-wireless-testing-ath
-         5f07195676a5123da1cd27a7f0b1eeb5f534245b kbuild: Strip trailing padding bytes from modules.builtin.modinfo
+         d66d2ab679b8c0cbe1c65ceb9dd1d09ef1cef0e0 drivers/xen/xenbus: Fix split() section placement with AutoFDO
+         9a4cd056b6523d6cd00ee745d19b9b17f86390f2 objtool: Warn on functions with ambiguous -ffunction-sections section names
          
-  - ref: refs/tags/ath-202511122151
-    old: 0000000000000000000000000000000000000000
-    new: 5f07195676a5123da1cd27a7f0b1eeb5f534245b
