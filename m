@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 12 Nov 2025 08:25:08 -0000
-Message-Id: <176293590882.2976463.16012486055346223877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Wed, 12 Nov 2025 08:30:23 -0000
+Message-Id: <176293622378.2981061.12832269545356709223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/tags/usb-serial-6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 99c876f81ad3a5949816acf056d0c855bc41d0ec
+  - ref: refs/heads/main
+    old: 192571cb021db6d773853e8d673339ef5aa5ec2d
+    new: 02fd32e84a48a9790945e6fdbcb93452a8ada20a
+    log: |
+         02fd32e84a48a9790945e6fdbcb93452a8ada20a refactor(key): remove deprecated error variants
+         
