@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 12 Nov 2025 14:46:29 -0000
-Message-Id: <176295878918.3311008.6521086550354793395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 12 Nov 2025 14:48:17 -0000
+Message-Id: <176295889781.3312140.7494517197561943525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/e2
-    old: 0000000000000000000000000000000000000000
-    new: a879cfb41053acfcf88ec959b4dbc595a6fc2105
+  - ref: refs/heads/main
+    old: 0345552a653ce5542affeb69ac5aa52177a5199b
+    new: ac1499fcd40fe06479e9b933347b837ccabc2a40
+    log: |
+         ac1499fcd40fe06479e9b933347b837ccabc2a40 ipv4: route: Prevent rt_bind_exception() from rebinding stale fnhe
+         
