@@ -1,55 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5770771769982264013=="
+Content-Type: multipart/mixed; boundary="===============5457724208013483695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 12 Nov 2025 11:35:08 -0000
-Message-Id: <176294730860.3145659.7093568584845768312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Wed, 12 Nov 2025 11:44:00 -0000
+Message-Id: <176294784084.3151902.13956398987545408744@gitolite.kernel.org>
 
---===============5770771769982264013==
+--===============5457724208013483695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: c7664ad15290fa80aeec6ec356fa0a0c1c5380d7
-    new: 2f70cdbd7c203778da0fcb3b71c0eea722ff2948
-    log: revlist-c7664ad15290-2f70cdbd7c20.txt
+  - ref: refs/tags/wireless-2025-11-12
+    old: 0000000000000000000000000000000000000000
+    new: 3e783b6cf40bb56fd95021d77914a6eb47ba31f9
 
---===============5770771769982264013==
+--===============5457724208013483695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7664ad15290-2f70cdbd7c20.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-034c0f5ba46529dc11573f1a4c26d63a65cdea7b Merge branch into tip/master: 'core/bugs'
-3017dcc2938e17b46abb43a9b62fcc91415af04c Merge branch into tip/master: 'core/core'
-98e259a2f89af00a17dea7130bed69bad5829dac Merge branch into tip/master: 'core/rseq'
-ec936e076d6f4e5bbd86f300603e26b0cfe639ba Merge branch into tip/master: 'irq/core'
-275139234e4412c45e093f1f7e25b0773481f2fa Merge branch into tip/master: 'irq/drivers'
-97306cc0d641486d8d71d6dda18845ca8e4a1a5d Merge branch into tip/master: 'irq/msi'
-8e028a96fed91f08ded2adbeeef07996579ca010 Merge branch into tip/master: 'locking/core'
-1570a1c396667b047b85090b26a90dbb766858df Merge branch into tip/master: 'objtool/core'
-afb0a17d9f2288f26702f66b9a1a8e5573ea56dc Merge branch into tip/master: 'perf/core'
-a87ba4618afa5764ea9e7106884de44db498aef7 Merge branch into tip/master: 'ras/core'
-b60660edf8f67950cb6137efb7497e3f4381da91 Merge branch into tip/master: 'sched/core'
-0a80281f977646d03c5a39391e7a4af60bd55c33 Merge branch into tip/master: 'timers/core'
-35ce41d966bb40f53d98c99fc5c298ff58c1caed Merge branch into tip/master: 'x86/apic'
-671b44c983ae7225581fc3162fbc9ccbe9269e72 Merge branch into tip/master: 'x86/bugs'
-9ebdf6d9acbe1e37b148483bb1a5312f54820517 Merge branch into tip/master: 'x86/build'
-185915fabfeb0b9b5a15b447c5d513c6853e02ce Merge branch into tip/master: 'x86/cache'
-df78d66597bc05c70f11cbc0f597aa1d48f16c9b Merge branch into tip/master: 'x86/cleanups'
-3b5a8fa52655906bab28505dba6e59ca895a9fe5 Merge branch into tip/master: 'x86/core'
-3d609bfecb7dab0976dbff10ec7edf3e8aa98fac Merge branch into tip/master: 'x86/cpu'
-9989c12ad3845c9c3626d06bdf85dbf687723dd1 Merge branch into tip/master: 'x86/entry'
-3eae64a13a26ed24edce663d454a81bea6358736 Merge branch into tip/master: 'x86/microcode'
-2d7e7518b203dc97013981fcd78c67012aad3295 Merge branch into tip/master: 'x86/misc'
-a036cc45ab8c3b1fdaea243dc8e3639268d84a23 Merge branch into tip/master: 'x86/mm'
-bddb72cd77795739bf6d530e9109f09412814fc8 Merge branch into tip/master: 'x86/sev'
-2f70cdbd7c203778da0fcb3b71c0eea722ff2948 Merge branch into tip/master: 'x86/sgx'
+certificate version 0.1
+pusher 7BF9099A 1762947881 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1762947812-d3c6fbe3842ec532aab5e3945f8b19999525cbe3
 
---===============5770771769982264013==--
+0000000000000000000000000000000000000000 3e783b6cf40bb56fd95021d77914a6eb47ba31f9 refs/tags/wireless-2025-11-12
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmkUcykACgkQ10qiO8sP
+aAANlQ//bc94jmg87QowOvYrosV+G+oYTaz4T/3hhiYjERLxK7uwsv4NHZ6hJxeb
+2sMeYQqY8MvAT5GBnZIudqqfDXE1Ft/4qbrNfPNNSnisf1VjC9hdvrKZqJ/oLS8v
+3S4bJI/FEqEuPTRYJ7nx9Whw7saOIyeS0QI8LsLagpdKPV4899P1rFWImZmBlmI+
+VtQGhJPc7w4/YWNvVbAFoyBCGZB1Wj8HCklhoa3ZiHF/IcOWgQ1HMUk0W3RGINsm
+TIciEsjKP5elu/kELTlgERPyqvdRPEnIX50XAjRpDmHbVKCXoLHw4u2NJLbmxVuO
+TVrel44ArckkiSk08i3CXtPOfUahdDBmwb4Iuz5R8dFxJLZWQJQ4T6us9GJmwDUK
+t5c0DHjxv2nhG+Thvbb2Fx7DBljQbs8dKXPmcvTBKozMVmSqMjY8+PQTWCXlZCPF
+iQxCmOcBXg2O8V/UttaxBOsghE6n/vow6qqk7BPeGkvHP5KEayEic3mFGRYJ+zs3
+c2h/Nq9KmZ9gaFFPs12xTSm3MFz1X2z6UADs7SlKCvBW1Sqz2cpyrp3+IhSwlbqf
+bHRrJXQ79jQ/HJ8UOZmN4QkPAfqyNNp4BnPNRFr0lI+NnEn9RFTXPxg+CChzRmZk
+fRwNz2uAAO7gmuHlKSK9QKqcW+Jmu7LHt/lQt4T/ujm5IBYFwqk=
+=U5wa
+-----END PGP SIGNATURE-----
+
+--===============5457724208013483695==--
