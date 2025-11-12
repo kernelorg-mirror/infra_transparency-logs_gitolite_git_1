@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 12 Nov 2025 17:14:28 -0000
-Message-Id: <176296766818.3442472.16060840974384516295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 12 Nov 2025 17:16:04 -0000
+Message-Id: <176296776414.3444833.1788467552015301040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/anlogic-initial
-    old: 12cbb612fa1e6c94e1c9ffaca3334143e2075966
-    new: e6195b944089b779f421d390ad3422e05356f275
+  - ref: refs/heads/main
+    old: 26b8986a18c1f8c277659340e59c59d5f17d927f
+    new: 1479493c91fc14b8387db01c0442cd1508c325e6
     log: |
-         e6195b944089b779f421d390ad3422e05356f275 MAINTAINERS: Setup support for Anlogic tree
+         1479493c91fc14b8387db01c0442cd1508c325e6 r8169: add support for RTL8125K
          
