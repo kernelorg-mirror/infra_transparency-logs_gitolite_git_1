@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 12 Nov 2025 12:10:04 -0000
-Message-Id: <176294940409.3175212.7583238574234998271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Wed, 12 Nov 2025 12:13:39 -0000
+Message-Id: <176294961953.3177123.15907088920683490549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 4e5cba5bb6f37ceaba6a2628a171cbede02f969c
-    new: a49a9f4555bde0b008f2225620ae1b2480d2b627
+  - ref: refs/heads/main
+    old: a280044493ef10b83c1cc2c355318b53b3ca3745
+    new: c3db48bd29cdd0144fcdbaf452bb52eed541434b
     log: |
-         a49a9f4555bde0b008f2225620ae1b2480d2b627 RDMA/irdma: Remove redundant NULL check of udata in irdma_create_user_ah()
+         c3db48bd29cdd0144fcdbaf452bb52eed541434b feat: API update for 0.15.0
          
