@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 12 Nov 2025 06:31:35 -0000
-Message-Id: <176292909501.2876684.11168396434456124626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
+Date: Wed, 12 Nov 2025 06:36:32 -0000
+Message-Id: <176292939293.2881035.1356077573897625762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+user: chao
 changes:
-  - ref: refs/heads/review-andy
-    old: 396f45a34e83cf2e228bf40ef64bbbdbfd86a758
-    new: 885b92bad87aed46a75cfd6f6924a2fda4af2166
+  - ref: refs/heads/wip
+    old: 50a87ee930481784dec579a9052b5938ca2fccea
+    new: 1ee20e218f7e17ef8949c0c30fceee04a81dbefa
     log: |
-         ce884de219de43deac6c482590d677872bf358ff pinctrl: cedarfork: Switch to INTEL_GPP() macro
-         d772897c7cfd8b158c3997b00ddbd9b5671b4fa4 pinctrl: denverton: Switch to INTEL_GPP() macro
-         6c7a9976998d97f9ec9eb84e490f5a65fa2bd479 pinctrl: emmitsburg: Switch to INTEL_GPP() macro
-         dd0c7bffe3d1c03b5e191d648f0ccc17bffe37e3 pinctrl: cherryview: Switch to INTEL_GPP() macro
-         cc4e46fa76afcb4fc56b801c9577dc60a64a00d6 pinctrl: elkhartlake: Switch to INTEL_GPP() macro
-         885b92bad87aed46a75cfd6f6924a2fda4af2166 Merge patch series "pinctrl: intel: Convert the rest to use INTEL_GPP()"
+         0081400c568b374b3d701d76fd09ab8de57ee809 f2fs-tools: revert summary entry count from 2048 to 512 in 16kb block support
+         d2b0739a93b3257aecff161871e4cebc44954270 f2fs_io: support freeze/thaw
+         18ee7fc787aa373ab6d0d05d1f6f2cb3e4a94513 f2fs_io: ranndread: support block device
+         6ee0064b52fd87f7159464861694a38cec43adb1 f2fs-tools: fix to return error value correctly
+         1ee20e218f7e17ef8949c0c30fceee04a81dbefa f2fs_io: fix to keep output order of do_read() for forward compatibility
          
