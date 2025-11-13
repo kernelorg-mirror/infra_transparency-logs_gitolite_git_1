@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1597412456168357192=="
+Content-Type: multipart/mixed; boundary="===============0483912801493968193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 13 Nov 2025 17:51:32 -0000
-Message-Id: <176305629296.543779.4625333251420234798@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 17:51:35 -0000
+Message-Id: <176305629528.543916.12449130990620218544@gitolite.kernel.org>
 
---===============1597412456168357192==
+--===============0483912801493968193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 96a9178a29a6b84bb632ebeb4e84cf61191c73d5
     new: 94909c53e442474a432c57c96b99d99357ac3593
     log: revlist-96a9178a29a6-94909c53e442.txt
 
---===============1597412456168357192==
+--===============0483912801493968193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -92,4 +92,4 @@ fe82c4f8a228d3b3ec2462ea2d43fa532a20ac67 Merge tag 'wireless-2025-11-12' of http
 b2c26c82f7a94ec4da096f370e3612ee14424450 hsr: Follow standard for HSRv0 supervision frames
 94909c53e442474a432c57c96b99d99357ac3593 Merge branch 'hsr-send-correct-hsrv0-supervision-frames'
 
---===============1597412456168357192==--
+--===============0483912801493968193==--
