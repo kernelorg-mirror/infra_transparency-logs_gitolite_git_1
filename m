@@ -1,36 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 13 Nov 2025 16:29:38 -0000
-Message-Id: <176305137864.469590.7110546239745577073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 13 Nov 2025 16:34:53 -0000
+Message-Id: <176305169358.473998.16442898206440745108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/for-6.19/block
-    old: c3f42a6de708db6891879547b29cd0d84ad83c92
-    new: 8e1bf774ab18157cb8041628f2661aa12e425914
+  - ref: refs/heads/next
+    old: 1f2805b6eef104df3125143c949b391f6122e5b9
+    new: 8b536f4ea4706f6e06db0567c18ce3f1c41c3f67
     log: |
-         232143b605387b372dee0ec7830f93b93df5f67d block: unify elevator tags and type xarrays into struct elv_change_ctx
-         04728ce90966c54417fd8120a3820104d18ba68d block: move elevator tags into struct elevator_resources
-         61019afdf6ac17c8e8f9c42665aa1fa82f04a3e2 block: introduce alloc_sched_data and free_sched_data elevator methods
-         0315476e78c050048e80f66334a310e5581b46bb block: use {alloc|free}_sched data methods
-         d4c3ef56a1618cb7d55a4be74a09cda09165745a block: define alloc_sched_data and free_sched_data methods for kyber
-         8e1bf774ab18157cb8041628f2661aa12e425914 Merge branch 'elevator-switch-6.19' into for-6.19/block
-         
-  - ref: refs/heads/for-next
-    old: 1b092e7c609724ee033a4b87309ae79bfe26bf14
-    new: 03ac56078819dbd38fa15c4bf40e6d1c94ed6fa0
-    log: |
-         232143b605387b372dee0ec7830f93b93df5f67d block: unify elevator tags and type xarrays into struct elv_change_ctx
-         04728ce90966c54417fd8120a3820104d18ba68d block: move elevator tags into struct elevator_resources
-         61019afdf6ac17c8e8f9c42665aa1fa82f04a3e2 block: introduce alloc_sched_data and free_sched_data elevator methods
-         0315476e78c050048e80f66334a310e5581b46bb block: use {alloc|free}_sched data methods
-         d4c3ef56a1618cb7d55a4be74a09cda09165745a block: define alloc_sched_data and free_sched_data methods for kyber
-         8e1bf774ab18157cb8041628f2661aa12e425914 Merge branch 'elevator-switch-6.19' into for-6.19/block
-         03ac56078819dbd38fa15c4bf40e6d1c94ed6fa0 Merge branch 'for-6.19/block' into for-next
+         7a7ff77a19d2ff1038d2f41c132c4a23a9d2962a btf_encoder: Remove encoder pointer from btf_encoder_func_state
+         2385c55f293b9d8d6c6c20465950a80684deb43a btf_encoder: Refactor btf_encoder__add_func_proto
+         8b536f4ea4706f6e06db0567c18ce3f1c41c3f67 btf_encoder: Factor out BPF kfunc emission
          
