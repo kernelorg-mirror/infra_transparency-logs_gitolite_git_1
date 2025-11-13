@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 13 Nov 2025 23:16:03 -0000
-Message-Id: <176307576313.992565.4692698055675647043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Thu, 13 Nov 2025 23:20:42 -0000
+Message-Id: <176307604200.996897.9313029503659803739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/for-next
-    old: d121c2516cdea4248deeab12880aeb225c5b51e5
-    new: 73ae77335a8204b134035ad8f6f43b8249d7b6f4
+  - ref: refs/heads/linux-6.1.y-cip
+    old: e355296ee79d25ea6258c8724700388af783ad12
+    new: 96d7629c58446450601d61df43f474d3568c06de
     log: |
-         baa18d577cd445145039e731d3de0fa49ca57204 arm64: dts: rockchip: disable HS400 on RK3588 Tiger
-         b5414520793e68d266fdd97a84989d9831156aad arm64: dts: rockchip: fix PCIe 3.3V regulator voltage on orangepi-5
-         73ae77335a8204b134035ad8f6f43b8249d7b6f4 Merge branch 'v6.18-armsoc/dtsfixes' into for-next
-         
-  - ref: refs/heads/v6.18-armsoc/dtsfixes
-    old: 264152a97edf9f1b7ed5372e4033e46108e41422
-    new: b5414520793e68d266fdd97a84989d9831156aad
-    log: |
-         baa18d577cd445145039e731d3de0fa49ca57204 arm64: dts: rockchip: disable HS400 on RK3588 Tiger
-         b5414520793e68d266fdd97a84989d9831156aad arm64: dts: rockchip: fix PCIe 3.3V regulator voltage on orangepi-5
+         96d7629c58446450601d61df43f474d3568c06de arm64: dts: renesas: r9a09g057: Add ICU node
          
