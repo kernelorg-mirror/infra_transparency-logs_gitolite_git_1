@@ -1,58 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6275355400015189129=="
+Content-Type: multipart/mixed; boundary="===============8191619710539732584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Thu, 13 Nov 2025 10:51:21 -0000
-Message-Id: <176303108115.179587.7353624193552493144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 13 Nov 2025 11:12:30 -0000
+Message-Id: <176303235016.196034.7775866507874418964@gitolite.kernel.org>
 
---===============6275355400015189129==
+--===============8191619710539732584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/virtio/msg
-    old: eef4db93d4fd08ced6ec7dc6976ec30a227dfdfc
-    new: 550e181de8b2628e40d083c5451e065a10c49dcd
-    log: |
-         089daac1c4d30d1d3be6a748834e9eaaf7a9f63c virtio: Add support for virtio-msg transport
-         24a6c672ce96a733c1d0a85142615c7759cad5d8 virtio-msg: Add optional userspace interface for message I/O
-         0100ec1847cb809f8ca44ba58c2c3a9c93bc7776 virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
-         4b9d06e534a1853ec9ba6684946f08d0d49fed45 virtio-msg: Add support for loopback bus
-         9633e46cce73cda8e63934f8ec6ffc9b4e7fdd40 virtio-msg: ffa: Poll for events if indirect messages aren't supported
-         f96eade7f788ec5afe7694fd3c6c9766b61d33dd virtio-msg: ffa: Add support for DMA ops and memory sharing
-         e3dcf1394428ad5d5fa769f89685abcb1fb09566 vsock: Add memory sharing support
-         550e181de8b2628e40d083c5451e065a10c49dcd virtio-msg: ffa: Add DMA Heap
-         
-  - ref: refs/heads/virtio/msg-xen
-    old: 6dd03c98aa1ddbf351b98eb8d281d340623e98e4
-    new: ae788d48dc099c908270c98636a634c142330e0c
-    log: revlist-6dd03c98aa1d-ae788d48dc09.txt
+  - ref: refs/heads/slab/for-6.19/memdesc_prep
+    old: 0000000000000000000000000000000000000000
+    new: f8a3939ca12aadac805280915b0f7ea02173b66b
 
---===============6275355400015189129==
+--===============8191619710539732584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dd03c98aa1d-ae788d48dc09.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-089daac1c4d30d1d3be6a748834e9eaaf7a9f63c virtio: Add support for virtio-msg transport
-24a6c672ce96a733c1d0a85142615c7759cad5d8 virtio-msg: Add optional userspace interface for message I/O
-0100ec1847cb809f8ca44ba58c2c3a9c93bc7776 virtio-msg: Add support for FF-A (Firmware Framework for Arm) bus
-4b9d06e534a1853ec9ba6684946f08d0d49fed45 virtio-msg: Add support for loopback bus
-9633e46cce73cda8e63934f8ec6ffc9b4e7fdd40 virtio-msg: ffa: Poll for events if indirect messages aren't supported
-f96eade7f788ec5afe7694fd3c6c9766b61d33dd virtio-msg: ffa: Add support for DMA ops and memory sharing
-e3dcf1394428ad5d5fa769f89685abcb1fb09566 vsock: Add memory sharing support
-550e181de8b2628e40d083c5451e065a10c49dcd virtio-msg: ffa: Add DMA Heap
-157af69e2bba908331aa7b91779c5f243d1b3d21 virtio-msg: ffa: Add support for passive mode
-f7d54eb208ad9f61a595af22d2c2852aa0499e6e HACK: firmware: arm_ffa: Partitions can come online after the host
-84f09c96b4a73064e5b80fad7d732b5fe05f66fb HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-55a70e025877f7df259a1933495541aeb76e2534 TEMP: defconfig: Reset
-a31a5aa9154583253e329c8b1a2cc07ae27ddcf1 TEMP: defconfig: Enable virtio-msg + qemu/xen options
-2e3f493b43686aca4e3a1174149c4f5d2580e1d9 TEMP: defconfig: vsock support
-ae788d48dc099c908270c98636a634c142330e0c TEMP: defconfig: Enable INITRAMFS for guest kernel
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1763032415 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1763032345-3bdf67dce2d23afe52823c3733d60b35e70e8b36
 
---===============6275355400015189129==--
+0000000000000000000000000000000000000000 f8a3939ca12aadac805280915b0f7ea02173b66b refs/heads/slab/for-6.19/memdesc_prep
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkVvV8bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaR20H/it/VfkNJagsJErhwtpV
+cKz/Cy8KtxDl8uftZT9OnZWtp76Dt/MdEM3hI+8X7MeLnm9xoLj2F/q5VIyGnprk
+1Qzp2mLbtiLcrAPDxdtWMGe8yV+T0/vobc3ODiBnv3qomsGk1rM4eg1zGeQQagTG
+8Pqq7fWERaK0Fadjnqv2gYVxQCdSa7wUodFuXVKUQ51d1UQpJ2KddObHcmqZ4M8K
+5YJ6iIqqL2/K24ojEtJmLM9z8cQJEn3z3DGaPtLF4uX5Ff+7LOxek10myagJuLHN
+/6+IPD1EfS551iS0gJyaO8Gz+NXt78TKiSlfJtY1YBH5co7jg5ORcDLr2ln1XBXl
+mw4=
+=KXaN
+-----END PGP SIGNATURE-----
+
+--===============8191619710539732584==--
