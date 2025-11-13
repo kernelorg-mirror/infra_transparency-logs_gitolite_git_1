@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5114853052499549504=="
+Content-Type: multipart/mixed; boundary="===============5179019552906641946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 13 Nov 2025 01:25:05 -0000
-Message-Id: <176299710533.3869497.13938764395694695016@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 01:25:06 -0000
+Message-Id: <176299710658.3869592.780233018515069139@gitolite.kernel.org>
 
---===============5114853052499549504==
+--===============5179019552906641946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: fd02d3dc072f4cdea54751308dfc927083e83348
-    new: ea53cb52f919ba635f3def4a6b5bf749d718b2f7
-    log: revlist-fd02d3dc072f-ea53cb52f919.txt
+  - ref: refs/heads/mm-unstable
+    old: 9835506e139732fa1b55aea3ed4e3ec3dd499f30
+    new: f58b4cb6b0c11172a25c2ade23477f55596d7138
+    log: revlist-9835506e1397-f58b4cb6b0c1.txt
 
---===============5114853052499549504==
+--===============5179019552906641946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd02d3dc072f-ea53cb52f919.txt
+Content-Disposition: attachment; filename=revlist-9835506e1397-f58b4cb6b0c1.txt
 
 0cbd3f2f2da4330710521242f36a9ebc5c0762e6 mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 452069a2878ab0af766b64aa4a689bd54ee81f58 crash: fix crashkernel resource shrink
@@ -283,40 +283,5 @@ d07527057098a3d32e758e90290a07b4f53d3da0 mm: introduce pmd_is_huge() and use whe
 263708aec24ba1c6a5d3f698fc87eecd038a7528 mm: remove is_hugetlb_entry_[migration, hwpoisoned]()
 3c0e27829c7f3e68ad72915c10ac72001fa5a80b mm: eliminate further swapops predicates
 f58b4cb6b0c11172a25c2ade23477f55596d7138 mm: replace remaining pte_to_swp_entry() with softleaf_from_pte()
-017a5a470bf7e8b0515cfc8b66207e1117506ee4 Revert "mm, swap: avoid redundant swap device pinning"
-dddd480e7b1870e617eccf0ae54c26544d46e537 mm: rename walk_page_range_mm()
-87ab9ed401e2586e8363a28c509cd858d8c90d6d mm/madvise: allow guard page install/remove under VMA lock
-fb8d3f48d60fa19d2105cf463f8ae27d131feaa9 mm: vmstat: correct the comment above preempt_disable_nested()
-11100f5ae1b2a414a15a6a89ba566d851a57ae8e mm: thp: replace folio_memcg() with folio_memcg_charged()
-07782966407f95c848e6e8b0c8e4313d4b870820 mm: thp: introduce folio_split_queue_lock and its variants
-b8e6a66ef4b384272a380b0a6a75af034aae5589 mm: thp: use folio_batch to handle THP splitting in deferred_split_scan()
-90bd43cc43a531086cc694f5e6ec707bf8801ff8 mm: thp: reparent the split queue during memcg offline
-c61412334aec2f06adc1771d26b0a82130b8df0c mm: add vma_start_write_killable()
-7fe187c64abd85a4b8a9aa23116566813a65f06b mm: use vma_start_write_killable() in dup_mmap()
-f8dd45c88cabf09d05bf96ca8603b8bc9eea2f04 mm/damon/tests/core-kunit: remove dynamic allocs on damos_test_commit_filter()
-a40c509e8da339c3411844a00594a36ab527590f mm/damon/tests/core-kunit: split out damos_test_commit_filter() core logic
-1a0ed729b135b6eaaadf0fc4257d66d024be404a mm/damon/tests/core-kunit: extend damos_test_commit_filter_for() for union fields
-7373488f8cde52f34c8fb7361c7059d9bb66ba6e mm/damon/tests/core-kunit: add test cases to damos_test_commit_filter()
-e10c8c8bd3e2438020d2e20c08ae09a7c6dc77fb mm/damon/tests/core-kunit: add damos_commit_quota_goal() test
-5ef18f7da656114fa3cc1f63bb8ffccefd71d5b3 mm/damon/tests/core-kunit: add damos_commit_quota_goals() test
-6f811e429c2133cc9c9f510cdc9e3be4d4db104e mm/damon/tests/core-kunit: add damos_commit_quota() test
-1badb100f85a71c92d8cfd1df447cd33894f713c mm/damon/core: pass migrate_dests to damos_commit_dests()
-72cdda9197576804d056a6324425116739944871 mm/damon/tests/core-kunit: add damos_commit_dests() test
-4477c18fb01e52f287ee71eeac3ec09a6f820afc mm/damon/tests/core-kunit: add damos_commit() test
-b8f02c0e300be0c91656c7b628b87bfc1b59aab4 mm/damon/tests/core-kunit: add damon_commit_target_regions() test
-121334089b5c29f7faaecb46801cd32c3f9015ef selftests/mm/uffd: remove static address usage in shmem_allocate_area()
-72df9bc0fd3fbe6d373900fa61551782529f3662 mm/damon: rename damos core filter helpers to have word core
-d946b7a60a6b5e5e7b95e7a16e3f51e71b5b0852 mm/damon: rename damos->filters to damos->core_filters
-cdefd1a3e3d9a806c44ec32c34789eb62847e84f mm/damon/vaddr: cleanup using pmd_trans_huge_lock()
-55e8d5fd3e0d04e26abeda661e94552fd2db8240 mm/damon/vaddr: use vm_normal_folio{,_pmd}() instead of damon_get_folio()
-ea300096014a4583cb672e03ed6659a665dfbe0a mm/damon/vaddr: consistently use only pmd_entry for damos_migrate
-411914735bcf7706db6508def7cda4596c7d3346 mm/damon/tests/core-kunit: remove DAMON_MIN_REGION redefinition
-511d26568d30584fc20dcc4609d219117e08b97f selftests/damon/sysfs.py: merge DAMON status dumping into commitment assertion
-1b47fd376bd9ade0e4d6276b39a03c19080241ff Docs/mm/damon/maintainer-profile: fix a typo on mm-untable link
-278ffd260d5dfcfb169d27585211be2db7be4289 Docs/mm/damon/maintainer-profile: fix grammatical errors
-d51120eeb08531a10a6b1434379cb4b976a46d29 mm/vmalloc: warn on invalid vmalloc gfp flags
-ef9271855452d9ced52025ef4d85846e9f517079 mm/vmalloc: add a helper to optimize vmalloc allocation gfps
-5feb6bcc1b7fc878a5b5a843c20edd939d04306d mm/vmalloc: cleanup large_gfp in vm_area_alloc_pages()
-ea53cb52f919ba635f3def4a6b5bf749d718b2f7 mm/vmalloc: cleanup gfp flag use in new_vmap_block()
 
---===============5114853052499549504==--
+--===============5179019552906641946==--
