@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Thu, 13 Nov 2025 21:51:13 -0000
-Message-Id: <176307067329.916318.7684989137734345922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 13 Nov 2025 21:51:57 -0000
+Message-Id: <176307071732.916788.13424037848236482756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 7f6fa735230924104b978d8267802b30cba5c439
-    new: 4cb12a855b331bd6d2b00f30f064a83e554d0bdf
+  - ref: refs/heads/main
+    old: ea5b7b039c8354c022515ff5e0946f843c3f4a00
+    new: 05670f78720b706a56844ca70b2f2aa29d6ca1c1
     log: |
-         4cb12a855b331bd6d2b00f30f064a83e554d0bdf s2idle: Look at the socket level for telling how many CPUs are present
+         05670f78720b706a56844ca70b2f2aa29d6ca1c1 feat: migrate to tpm2-tpmkey 0.5.4
          
