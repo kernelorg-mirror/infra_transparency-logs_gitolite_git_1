@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3078399664475404901=="
+Content-Type: multipart/mixed; boundary="===============7861070860986491052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 13 Nov 2025 18:04:36 -0000
-Message-Id: <176305707612.554842.14950711005924422646@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 18:04:38 -0000
+Message-Id: <176305707863.554923.15928124709592238415@gitolite.kernel.org>
 
---===============3078399664475404901==
+--===============7861070860986491052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a0c3aefb08cd81864b17c23c25b388dba90b9dad
     new: f694d215d34035cc64b1d176fd82db0d1f2428d4
     log: revlist-a0c3aefb08cd-f694d215d340.txt
 
---===============3078399664475404901==
+--===============7861070860986491052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -175,4 +175,4 @@ b63945b0c5b5de78712f843ce4a1f5c2ad83e6d0 Merge tag 'linux-can-next-for-6.19-2025
 d0af55df5a786cb8f11ca1923cd7dc8b2af01309 net: stmmac: clean up stmmac_reset()
 f694d215d34035cc64b1d176fd82db0d1f2428d4 net: stmmac: always allocate mac_device_info
 
---===============3078399664475404901==--
+--===============7861070860986491052==--
