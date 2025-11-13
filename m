@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 13 Nov 2025 16:53:21 -0000
-Message-Id: <176305280139.490712.6735311518862609730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Thu, 13 Nov 2025 16:53:43 -0000
+Message-Id: <176305282329.490955.10020754408115311876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/master
-    old: 6fa9041b7177f6771817b95e83f6df17b147c8c6
-    new: 2ccec5944606ee1389abc7ee41986825c6ceb574
+  - ref: refs/heads/ti-k3-dts-next
+    old: c984dd0ecde05e2464cdad00ccd699da48552a3a
+    new: 00fb4c73b67d36783c5ab95a830f0cf0142b9fc3
     log: |
-         083d7af3350e04c428256a3bd10003f63151b6b1 MAINTAINERS: erofs: add myself as reviewer
-         f2a12cc3b97f062186568a7b94ddb7aa2ef68140 erofs: avoid infinite loop due to incomplete zstd-compressed data
-         e904d81ad1c04394e1cda4610de799a006cc141c smb: server: rdma: avoid unmapping posted recv on accept failure
-         98a5fd31cbf72d46bf18e50b3ab0ce86d5f319a9 ksmbd: close accepted socket when per-IP limit rejects connection
-         55286b1e1bf4ce55f61ad2816d4ff8a7861a8cbb smb: server: let smb_direct_disconnect_rdma_connection() turn CREATED into DISCONNECTED
-         967a72fa7f6b77eb9f65c7365487662a4d04dbe4 Merge tag 'v6.18-rc5-smb-server-fixes' of git://git.samba.org/ksmbd
-         2ccec5944606ee1389abc7ee41986825c6ceb574 Merge tag 'erofs-for-6.18-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+         2f6ef830a756f58312b3f3bbe3c1edb739e84ec5 dt-bindings: arm: ti: add Toradex Aquila AM69
+         39ac6623b1d85fdc8b142c26991339fcad270606 arm64: dts: ti: Add Aquila AM69 Support
+         9f748a6177e1fba8b27588e6ac6721e129f097de arm64: dts: ti: am69-aquila: Add Clover
+         b70d9d7dac873a3a101a1063db2bc97fa2dc29fa dt-bindings: arm: ti: Add binding for AM62L SoCs
+         5f016758b0ab5ff8cd5952fc7a25d409d7cb73a3 arm64: dts: ti: k3-am62l: add initial infrastructure
+         00fb4c73b67d36783c5ab95a830f0cf0142b9fc3 arm64: dts: ti: k3-am62l: add initial reference board file
          
