@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6410206715465280062=="
+Content-Type: multipart/mixed; boundary="===============2289637554475223226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 13 Nov 2025 09:06:57 -0000
-Message-Id: <176302481726.93663.17152322800028595472@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 09:16:10 -0000
+Message-Id: <176302537077.101571.8450783191918561904@gitolite.kernel.org>
 
---===============6410206715465280062==
+--===============2289637554475223226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,39 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.19/sheaves_cleanups
-    old: f51919b7e9660d91b51773ef85917ec75be14993
-    new: 4c0a17e28340e458627d672564200406e220d6a3
+  - ref: refs/heads/slab/for-6.19/freelist_aba_t_cleanups
+    old: ae5da60db8bd8f243875ff43351e8469f226c439
+    new: c33196c9429a1db5bc6cded27b6286f341ad6be0
     log: |
-         ea6b5e5778b1dc58b1909e4badd3e180ddae7418 slab: move kfence_alloc() out of internal bulk alloc
-         1ce20c28eafdc101164a4bfedd2ea818eb137de7 slab: handle pfmemalloc slabs properly with sheaves
-         31e0886fd57d426d18a239dd55e176032c9c1cb0 slub: remove CONFIG_SLUB_TINY specific code paths
-         4c0a17e28340e458627d672564200406e220d6a3 slab: prevent recursive kmalloc() in alloc_empty_sheaf()
+         b244358e9a1cd61276b8785b1b4275f1f45a1dc2 slab: separate struct freelist_tid from kmem_cache_cpu
+         3993ca9d6495e1e4d6fdaffc1bba0271059940c4 slab: turn freelist_aba_t to a struct and fully define counters there
+         32cf9f21828a752a364b2698ec66f8532cd66c52 slab: use struct freelist_counters for local variables instead of struct slab
+         c33196c9429a1db5bc6cded27b6286f341ad6be0 slab: use struct freelist_counters as parameters in relevant functions
          
 
---===============6410206715465280062==
+--===============2289637554475223226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1763024882 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1763025437 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1763024811-3416c69f2db108630dde5a597ae17d55b1d84a29
+nonce 1763025367-e4154e1a76959ce1ae78cfc92a5d28b24996e299
 
-f51919b7e9660d91b51773ef85917ec75be14993 4c0a17e28340e458627d672564200406e220d6a3 refs/heads/slab/for-6.19/sheaves_cleanups
+ae5da60db8bd8f243875ff43351e8469f226c439 c33196c9429a1db5bc6cded27b6286f341ad6be0 refs/heads/slab/for-6.19/freelist_aba_t_cleanups
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkVn/IbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaon0H/28OlQE5Hd9NSfJ2A2/H
-BYox5wqSsBxZr7s57xDPzVhxCfARvk66UigeYh5LHX+XtwvEgfIcRH5L6OKkqV/S
-aiBM0+lQpWNEEG1AzUJW+Le7zXN6s5A5jSgEB5eQA88xX44X6TF7LqQU7FV/NCdV
-tycTkbW25JdIz8FF+itcAzH++PE5vofPioZGvjHU1JRAQrhZ8o1RcPwZ00kVIwra
-rBh+D3WeexlIzNukiEd2qs6PBkzU9MOroRFxZ6HGCoxhOOpoUGVA3b4uEvv1CVo3
-vx2hWrs4RnWlpw2xq2Qg2GEhnTIKr994Hy5H797TvsywT/FB4svogcy8Ob+RvgAj
-7F8=
-=0gaJ
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkVoh0bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaPlYH/1su2MQT5CbiGb8DaRa6
+jysg8NZth0jyhR4G9U5HZvJqieBjwLzv/27yHV5PrFZ8mtih+aYKtBytQvdBYK4T
+FNkR4dpFVrvkHaWm28J4/caUygbuoGr9xAV0BfMqMicc63nR1TiRC7WM/ShdcQLX
+geAWT3tyJu3MQdjJtiaIoes/IFH/+j8uCVxYytGTJYtG5j8i6ytxqAySPJZmpIk/
+mUXGvpRcb4RkFhZM1svfgUFUc4k9DjbA3aMjO+T7JyvjO4NEEJKrIJJpJDEuPpfR
+GJTqNZs28tsju6B/z2LqonnrNN61+g7qsVBu+Re7u2Ze+4Kuj770955CPTQ0ye1V
+bx4=
+=DDJe
 -----END PGP SIGNATURE-----
 
---===============6410206715465280062==--
+--===============2289637554475223226==--
