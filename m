@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3892504408448744076=="
+Content-Type: multipart/mixed; boundary="===============4548347142678269529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 13 Nov 2025 00:08:19 -0000
-Message-Id: <176299249912.3798674.17977259037126581639@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 00:08:21 -0000
+Message-Id: <176299250128.3798806.15801747389256488584@gitolite.kernel.org>
 
---===============3892504408448744076==
+--===============4548347142678269529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing
-    old: e10d025a7b7a383bbbeb1eaed918f0fd61ed722f
-    new: 47c09405eaf98cdfd6ab184c982938d0ca38c03e
-    log: revlist-e10d025a7b7a-47c09405eaf9.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
+    old: a97d12eb0148339e018bf6526f92df0e299f4518
+    new: 14959ba91b94021cfa0ff56919ded06b7258ff91
+    log: revlist-a97d12eb0148-14959ba91b94.txt
 
---===============3892504408448744076==
+--===============4548347142678269529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e10d025a7b7a-47c09405eaf9.txt
+Content-Disposition: attachment; filename=revlist-a97d12eb0148-14959ba91b94.txt
 
 37f2158435e8beb7a58582ff68b2aba3972867e5 nfsd: fix refcount leak in nfsd_set_fh_dentry()
 89abeb3d11f7f448404b6b11b7d90d5505cb9e2c nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
@@ -66,5 +66,9 @@ ad5567030c4cdd919f1ca1c3304554eabfebe4fe NFSD: Add trace point for SCSI fencing 
 649fe347db7118fb0f48f3d44804619e6802dcd2 NFSD: Make FILE_SYNC WRITEs comply with spec
 e14ac637548c5e0dfb175ea6fb1785a8d4873856 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 47c09405eaf98cdfd6ab184c982938d0ca38c03e NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+6508e37b52c505e4017c2b4faec7ee170e16ade1 NFSD: add NFSD_IO_DIRECT heuristic for small IO
+e712ed8f7d223e7f9ebae634f65e6f6dda958e39 NFSD: Enable return of an updated stable_how to NFS clients
+6d07a8509f2116e6b1fc075086e51037ccb9dc95 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+14959ba91b94021cfa0ff56919ded06b7258ff91 NFSD: add nfsd_direct_misaligned_num_pages modparam
 
---===============3892504408448744076==--
+--===============4548347142678269529==--
