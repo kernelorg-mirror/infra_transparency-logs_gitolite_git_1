@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Thu, 13 Nov 2025 05:11:32 -0000
-Message-Id: <176301069240.4097072.2554188886367342747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Thu, 13 Nov 2025 05:39:23 -0000
+Message-Id: <176301236378.4118330.13509752616674681573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/linux-bcache
-user: colyli
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-next
-    old: f0772b2199513db673dd91a2a98b15e9a5ec2100
-    new: e1e04af3d5a60aa6459b3bedf8db12cfc9696923
+  - ref: refs/heads/socfpga_dts_for_v6.19
+    old: 1aa4ee5338cbca1c5118d5a09b523d3818dddc2f
+    new: 5e7235d122f059f7f3b335d50227d74047d0c7da
     log: |
-         45613750c92b20b7b0693c8fd28b4634550f38c7 bcache: replace use of system_wq with system_percpu_wq
-         62a0cc38704287d3997b0b5597f35f2ee7693a3d bcache: WQ_PERCPU added to alloc_workqueue users
-         e1e04af3d5a60aa6459b3bedf8db12cfc9696923 bcache: Avoid -Wflex-array-member-not-at-end warning
+         5e7235d122f059f7f3b335d50227d74047d0c7da arm64: dts: intel: agilex5: Add Altera compatible for I3C controllers
          
