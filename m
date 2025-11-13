@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 13 Nov 2025 23:23:36 -0000
-Message-Id: <176307621658.998292.1563643001892116614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 13 Nov 2025 23:33:18 -0000
+Message-Id: <176307679855.1024504.9491478520524878707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: 1f2c83cc9df00f9694aa21974a4af4d4cfb5cd0e
-    new: 4376293e37db004b789aef8a28d69956e0ac4068
+  - ref: refs/heads/master
+    old: 82f57643766fcd1b96f81fd09a12cfeb3855d614
+    new: 4aa31ed7900cd1d686742b7ba64378b14a18d343
     log: |
-         4376293e37db004b789aef8a28d69956e0ac4068 arm64: dts: renesas: r9a09g057: Add ICU node
+         4aa31ed7900cd1d686742b7ba64378b14a18d343 foo
          
