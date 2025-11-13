@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 13 Nov 2025 10:31:34 -0000
-Message-Id: <176302989457.163236.338886811953991231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Thu, 13 Nov 2025 10:50:07 -0000
+Message-Id: <176303100757.178920.10477956443251406366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
   - ref: refs/heads/master
-    old: 6b3b6e59c4f8584806cbed63b1593fd56d54cb71
-    new: 939ba8c5b81cbaf37781d7aa4849170860124a5e
+    old: 51ee1d95fae950323b62d3f31b14dc1e0e436762
+    new: 2458ab2797bfd43d4ffc555127856a3cdf49a5db
     log: |
-         68ec5df1d8946dd805d6ab67666a38331223f3a1 Documentation: xfrm_device: Wrap iproute2 snippets in literal code block
-         340e2a73866557ad1f902273d534e9a81efccbd2 Documentation: xfrm_device: Use numbered list for offloading steps
-         840188d276a34e8883fd4b64a4a39f7b3eec0f28 Documentation: xfrm_device: Separate hardware offload sublists
-         a397b259c17379f74158b86dd7fc4e3a7d53fc57 Documentation: xfrm_sync: Properly reindent list text
-         01ad7831fbb28b3903fa3eb4e029f5a5d6690924 Documentation: xfrm_sync: Trim excess section heading characters
-         c08b786b8295fbbd1e8ac99320126fd5dd8b965c Documentation: xfrm_sysctl: Trim trailing colon in section heading
-         7276e7ae569b1ce2ac2e3341107703216a290398 Documentation: xfrm_sync: Number the fifth section
-         03e23b18c720bdb628ccfbbb3faf4486c0413354 net: Move XFRM documentation into its own subdirectory
-         939ba8c5b81cbaf37781d7aa4849170860124a5e MAINTAINERS: Add entry for XFRM documentation
+         80983dcc236050e16be3b5b877e372673201832d Add keymap for Norwegian Apple ISO keyboard (mac-no.map)
+         2458ab2797bfd43d4ffc555127856a3cdf49a5db Merge branch 'github-pull-146'
          
