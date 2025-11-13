@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3724344811948668058=="
+Content-Type: multipart/mixed; boundary="===============3388020530018246375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 13 Nov 2025 06:52:06 -0000
-Message-Id: <176301672678.4176842.16301203552933033750@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 06:53:12 -0000
+Message-Id: <176301679265.4177599.13798987882648642099@gitolite.kernel.org>
 
---===============3724344811948668058==
+--===============3388020530018246375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3a84c6aae549588fa3bb53c9bb51e71aa09f3039
-    new: 38049e18aa07990c26432e6a040e607251031fd2
-    log: revlist-3a84c6aae549-38049e18aa07.txt
+    old: 38049e18aa07990c26432e6a040e607251031fd2
+    new: 494e97d540775896d51b040969c9669ddfbc22a1
+    log: revlist-38049e18aa07-494e97d54077.txt
+  - ref: refs/heads/tip/urgent
+    old: 24172e0d79900908cf5ebf366600616d29c9b417
+    new: 6fa9041b7177f6771817b95e83f6df17b147c8c6
+    log: revlist-24172e0d7990-6fa9041b7177.txt
 
---===============3724344811948668058==
+--===============3388020530018246375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a84c6aae549-38049e18aa07.txt
+Content-Disposition: attachment; filename=revlist-38049e18aa07-494e97d54077.txt
+
+d6d5e4ee0a2761b889a21f4c6a8075552bc01aee Merge branch into tip/master: 'core/bugs'
+ec29742c876747986a581e78316cc5812263691d Merge branch into tip/master: 'core/core'
+c47ae47ccbe8f6b306a0c0a6858a9e58ea595b2f Merge branch into tip/master: 'core/rseq'
+6269d1da05e2ca6f57a54586f3826893f60c6545 Merge branch into tip/master: 'irq/core'
+2938ba3dc03bf59ad4aa3934e5ca605bebae57e3 Merge branch into tip/master: 'irq/drivers'
+95c2799b3d2ac159bde84a33b918b5f60931c4a6 Merge branch into tip/master: 'irq/msi'
+86cc000b5d8488ff38ac1c72c0c0e12501f82031 Merge branch into tip/master: 'locking/core'
+3219c905f194a5eebfd3229b6b859728d5eeacee Merge branch into tip/master: 'objtool/core'
+2f5e5d09669c1627c1161c0a6305f1ddae7d7372 Merge branch into tip/master: 'perf/core'
+1b0364732e80fd502b0d0ed2d7a69fb6812f30f4 Merge branch into tip/master: 'ras/core'
+2669717d3e467900484d17669de1e5f09f6a817c Merge branch into tip/master: 'sched/core'
+0cda6a142f1ccb24961f669d266c6b1468880b79 Merge branch into tip/master: 'timers/core'
+b9d6b7283598082e6e4d7e81aa318a9bca2ffa58 Merge branch into tip/master: 'x86/apic'
+1aec16891c80791dbfc3437bca3c7f9732793615 Merge branch into tip/master: 'x86/bugs'
+674efa91b97694b6497d50bd73637ccf4069bc64 Merge branch into tip/master: 'x86/build'
+c0501da9f950f9d16540d00210cc3d852bd04419 Merge branch into tip/master: 'x86/cache'
+d235e359f112ad3fa9bffae1025061b00b50b807 Merge branch into tip/master: 'x86/cleanups'
+62ec07b0d24064290b29fcb01b373ac2f585bd5f Merge branch into tip/master: 'x86/core'
+1da27b7fa8bf9fcdbc6f19b91b4d047fb2158415 Merge branch into tip/master: 'x86/cpu'
+a59b9a3b1352c1aee703fc7356ee9195777b0e00 Merge branch into tip/master: 'x86/entry'
+e6c9861c2cb9aefa8be338e3409339daf8153e5e Merge branch into tip/master: 'x86/microcode'
+4abd550f1845a131f5e47a5582798415c96b9f5c Merge branch into tip/master: 'x86/misc'
+e0bea3960bd65fd3e00ffcb52252016691676b76 Merge branch into tip/master: 'x86/mm'
+7f8a7662ee6d3b28e967ae4a4d3b028900608979 Merge branch into tip/master: 'x86/sev'
+494e97d540775896d51b040969c9669ddfbc22a1 Merge branch into tip/master: 'x86/sgx'
+
+--===============3388020530018246375==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-24172e0d7990-6fa9041b7177.txt
 
 23ee8a2563a0f24cf4964685ced23c32be444ab8 dma-mapping: benchmark: Restore padding to ensure uABI remained consistent
 8a7348a9ed70bda1c1f51d3f1815bcbdf9f3b38c nfsd: fix refcount leak in nfsd_set_fh_dentry()
@@ -56,6 +92,5 @@ d58041d2c63e09a1c9083e0e9f4151e487c4e16a MAINTAINERS: Add Magnus Lindholm as mai
 e927c520e1ba6b6a0b2022adf5ba455ee1553fc1 Merge tag 'loongarch-fixes-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 92385a075a01124100edc581e3b8285268d8591e Merge tag 'dma-mapping-6.18-2025-11-12' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 6fa9041b7177f6771817b95e83f6df17b147c8c6 Merge tag 'nfsd-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-38049e18aa07990c26432e6a040e607251031fd2 Merge branch 'linus'
 
---===============3724344811948668058==--
+--===============3388020530018246375==--
