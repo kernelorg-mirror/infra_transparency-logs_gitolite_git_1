@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6377725820328444881=="
+Content-Type: multipart/mixed; boundary="===============5283140562110140806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 13 Nov 2025 22:56:14 -0000
-Message-Id: <176307457475.975494.14885863818823226263@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 22:56:31 -0000
+Message-Id: <176307459176.975827.14794673758075921596@gitolite.kernel.org>
 
---===============6377725820328444881==
+--===============5283140562110140806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: c428900703aaa528bf141358551287f87e5b2b93
     new: 41289b4834c8542075a3955bfaa7b455e3345439
     log: revlist-c428900703aa-41289b4834c8.txt
 
---===============6377725820328444881==
+--===============5283140562110140806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1763074642 -0500
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1763074661 -0500
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1763074572-8fa93c8ed9d955a7337f50b979e10dd351565408
+nonce 1763074591-b00e0f4df3d6f47f50715551738499b6344cde4c
 
-c428900703aaa528bf141358551287f87e5b2b93 41289b4834c8542075a3955bfaa7b455e3345439 refs/heads/char-misc-testing
+c428900703aaa528bf141358551287f87e5b2b93 41289b4834c8542075a3955bfaa7b455e3345439 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkWYlIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EH0P/0YTL+yPuMKiDehFoiDv
-WEX4Hkm0Oy/fEeA69Mw3WzAYF8Iwy/PXD/7oaztNmBzFTO38H7O/2vtOMQBRAj1e
-pAfmiji1MpMuQbL0lFLKBgk9T6BsvHRrVnw5oh5zbPUfwnfuq3bkmCwF+t6Auaio
-WzIACn+Gd+Us87MAJjj6jBeZYsNO7RryaPZirAndcu+iY7WHYbbFvElUhZKt+40e
-S7hzB/v0h27M72ChntQEXnggM1fzGmZgn9SpBDJ4ZiuK8by/GdDfb5zKMm5iEQsY
-e0plZtBKXVSjt+YhIx9zWql8wJedadLxjm69MblzGHbRhQ5q0A8SvmyyBkoNzSjM
-lF747vgKtmemNRW2VNUlXBmJ5DOTFpyZMcrpbTAX0EVBGPwC8xTiqNAyawRit5LH
-8qMr7eO+zGebQaUFj8UwUnWMN8+woT9wKCkwtszLK4qm0ABjfXjZtPT3EcqHyHLd
-2q0m19+BmiJt6kvtli2loNPO9GEitt/1/o6B0T9P5zdzz5ZGH4HyICgdtgD0MCA0
-PsW/6+S0A+sFl89oEXj28Xwqn6IhmNHE2BBPmYbAPBn3dvDTJV+Lg6fiG0p+k+iY
-kOHlzCbujhXgT0awobd0UXhmR4Hz5ByRGu6F0ztOja72JFHLXgElfYn21jrva2rO
-0FnJNjubf40+aLtaxoTJcLsy
-=R4gM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkWYmUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MzUQAKhRP421nkzDPB7tatmZ
+yiEQQDXalsUcwD9PxZ4xjYKUa3jp+ksHBryjgk7KoDd7dWihmsPIDsRXNevumFWB
+ao6CZqxPiXsiG9+mcBxGcnZyiTp42nWgNLhJo3vJZ/JgpDfEMQRj2LEmGVmy0Rb6
+TEKt6W9hoT4delYwe8CdmSpmJHc2B7TEJHF0B6PjweBfGRoBhHJteyhlY1LSRxMd
+Os+UyHVbq01GacgAz48t8jsEdxTvt+952f+drgytkFFxcCCYTHZ8wZOkEqWGJeUD
+ptZvCh5H3ytqqTppK3OPOSXG1T8CHeokwjrk5kxcIxh8LaGvrjou72i1OfvHjFbv
+QqNg7pAEdifKiV2iNhywXM1S687OI6O9Cxo7mvhPGehbLZo1t7GsIsFEXLIdZ+aF
+a1MzIbB2I/1bUIcTlzGeA7gS6gyryN/i2Hrk2vo9DL6TOdaCeeSML5bRzQTNbAye
+urXPn73HMTBHaJT/rswRIJQTfsjrsA4fgoe401NC2NpIOSr1syb90OJP4vQk1gph
+bxUz0AcSyU/Lj538yh0lU7KIZw9trTaqb8c3pfNmBVvajV7KwcAXHBhXm8rJ7O3E
+y/qickZUyKCh8XAu3SFbwd4uGMgXhlsmeXgRI9H726NpRg6qtcH7mcwwn2SjPLYY
+80iGiebln9LmUwWaksJXHtvo
+=jtZe
 -----END PGP SIGNATURE-----
 
---===============6377725820328444881==
+--===============5283140562110140806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ ec52379341a1209826c3e0ae53674393724d2071 firmware: stratix10-svc: Add support fo
 e3d63f4ef3691036e6d30c4f951d3661d461576d Merge tag 'peci-next-6.19-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/iwi/linux into char-misc-next
 41289b4834c8542075a3955bfaa7b455e3345439 Merge tag 'socfpga_firmware_updates_for_v6.19' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into char-misc-next
 
---===============6377725820328444881==--
+--===============5283140562110140806==--
