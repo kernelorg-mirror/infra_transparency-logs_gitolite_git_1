@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 13 Nov 2025 16:18:30 -0000
-Message-Id: <176305071047.459340.15873440834086138028@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 16:29:38 -0000
+Message-Id: <176305137864.469590.7110546239745577073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,33 +12,25 @@ repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
   - ref: refs/heads/for-6.19/block
-    old: 7b2038b1b1d4322a851ce7ee378ebf85a03bb1a1
-    new: c3f42a6de708db6891879547b29cd0d84ad83c92
+    old: c3f42a6de708db6891879547b29cd0d84ad83c92
+    new: 8e1bf774ab18157cb8041628f2661aa12e425914
     log: |
-         0c72e9fcc156caaf123a6291321bc9bd74cd1b61 bcache: get rid of discard code from journal
-         b4056afbd4b90f5bdbdc53cca2768f9b8872a2dd bcache: remove discard code from alloc.c
-         73a004f83cf024e785b74243ba9817a329423379 bcache: drop discard sysfs interface
-         7bf90cd740bf87dd1692cf74d49bb1dc849dcd11 bcache: remove discard sysfs interface document
-         70bc173ce06be90b026bb00ea175567c91f006e4 bcache: reduce gc latency by processing less nodes and sleep less time
-         21194c44b6bdf50a27a0e065683d94bae16f69cb bcache: remove redundant __GFP_NOWARN
-         fd82071814d06c7b760fe8d90b932d8a66cffc63 bcache: replace use of system_wq with system_percpu_wq
-         c0c808214249c32a8961999e0779b953095b0074 bcache: WQ_PERCPU added to alloc_workqueue users
-         699122b590ebbc450737eebde3ab8f5b871cc7f0 bcache: Avoid -Wflex-array-member-not-at-end warning
-         c3f42a6de708db6891879547b29cd0d84ad83c92 Merge branch 'bcache-updates-6.19' into for-6.19/block
+         232143b605387b372dee0ec7830f93b93df5f67d block: unify elevator tags and type xarrays into struct elv_change_ctx
+         04728ce90966c54417fd8120a3820104d18ba68d block: move elevator tags into struct elevator_resources
+         61019afdf6ac17c8e8f9c42665aa1fa82f04a3e2 block: introduce alloc_sched_data and free_sched_data elevator methods
+         0315476e78c050048e80f66334a310e5581b46bb block: use {alloc|free}_sched data methods
+         d4c3ef56a1618cb7d55a4be74a09cda09165745a block: define alloc_sched_data and free_sched_data methods for kyber
+         8e1bf774ab18157cb8041628f2661aa12e425914 Merge branch 'elevator-switch-6.19' into for-6.19/block
          
   - ref: refs/heads/for-next
-    old: eabdf8cd6e8576f632c6a35758b4998f7001ca00
-    new: 1b092e7c609724ee033a4b87309ae79bfe26bf14
+    old: 1b092e7c609724ee033a4b87309ae79bfe26bf14
+    new: 03ac56078819dbd38fa15c4bf40e6d1c94ed6fa0
     log: |
-         0c72e9fcc156caaf123a6291321bc9bd74cd1b61 bcache: get rid of discard code from journal
-         b4056afbd4b90f5bdbdc53cca2768f9b8872a2dd bcache: remove discard code from alloc.c
-         73a004f83cf024e785b74243ba9817a329423379 bcache: drop discard sysfs interface
-         7bf90cd740bf87dd1692cf74d49bb1dc849dcd11 bcache: remove discard sysfs interface document
-         70bc173ce06be90b026bb00ea175567c91f006e4 bcache: reduce gc latency by processing less nodes and sleep less time
-         21194c44b6bdf50a27a0e065683d94bae16f69cb bcache: remove redundant __GFP_NOWARN
-         fd82071814d06c7b760fe8d90b932d8a66cffc63 bcache: replace use of system_wq with system_percpu_wq
-         c0c808214249c32a8961999e0779b953095b0074 bcache: WQ_PERCPU added to alloc_workqueue users
-         699122b590ebbc450737eebde3ab8f5b871cc7f0 bcache: Avoid -Wflex-array-member-not-at-end warning
-         c3f42a6de708db6891879547b29cd0d84ad83c92 Merge branch 'bcache-updates-6.19' into for-6.19/block
-         1b092e7c609724ee033a4b87309ae79bfe26bf14 Merge branch 'for-6.19/block' into for-next
+         232143b605387b372dee0ec7830f93b93df5f67d block: unify elevator tags and type xarrays into struct elv_change_ctx
+         04728ce90966c54417fd8120a3820104d18ba68d block: move elevator tags into struct elevator_resources
+         61019afdf6ac17c8e8f9c42665aa1fa82f04a3e2 block: introduce alloc_sched_data and free_sched_data elevator methods
+         0315476e78c050048e80f66334a310e5581b46bb block: use {alloc|free}_sched data methods
+         d4c3ef56a1618cb7d55a4be74a09cda09165745a block: define alloc_sched_data and free_sched_data methods for kyber
+         8e1bf774ab18157cb8041628f2661aa12e425914 Merge branch 'elevator-switch-6.19' into for-6.19/block
+         03ac56078819dbd38fa15c4bf40e6d1c94ed6fa0 Merge branch 'for-6.19/block' into for-next
          
