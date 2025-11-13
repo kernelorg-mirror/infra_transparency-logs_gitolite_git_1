@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 13 Nov 2025 13:03:22 -0000
-Message-Id: <176303900265.291580.1397697455275841201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 13 Nov 2025 13:03:46 -0000
+Message-Id: <176303902657.291837.6883929911152549631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 6fa9041b7177f6771817b95e83f6df17b147c8c6
-    new: 2ccec5944606ee1389abc7ee41986825c6ceb574
+  - ref: refs/heads/irq/drivers
+    old: 7083e142256f92d079d2749e002f2f2499e5f63c
+    new: 1d787348123b34166ad2cccf12c9c00beb4ee3ae
     log: |
-         083d7af3350e04c428256a3bd10003f63151b6b1 MAINTAINERS: erofs: add myself as reviewer
-         f2a12cc3b97f062186568a7b94ddb7aa2ef68140 erofs: avoid infinite loop due to incomplete zstd-compressed data
-         e904d81ad1c04394e1cda4610de799a006cc141c smb: server: rdma: avoid unmapping posted recv on accept failure
-         98a5fd31cbf72d46bf18e50b3ab0ce86d5f319a9 ksmbd: close accepted socket when per-IP limit rejects connection
-         55286b1e1bf4ce55f61ad2816d4ff8a7861a8cbb smb: server: let smb_direct_disconnect_rdma_connection() turn CREATED into DISCONNECTED
-         967a72fa7f6b77eb9f65c7365487662a4d04dbe4 Merge tag 'v6.18-rc5-smb-server-fixes' of git://git.samba.org/ksmbd
-         2ccec5944606ee1389abc7ee41986825c6ceb574 Merge tag 'erofs-for-6.18-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+         e4ca1520081bc67b2a1a01a5ad4013a82300e06e dt-bindings: interrupt-controller: Add support for Amlogic S6 S7 and S7D SoCs
+         fc584d871c1641949594ccf12a48bb226636b189 irqchip/meson-gpio: Add support for Amlogic S6 S7 and S7D SoCs
+         4b6111d677c7ff87a52e83e639fadb8b09d38707 arm64: dts: amlogic: Add gpio_intc node for Amlogic S6 SoCs
+         c864e6872127a3eb3acfe59c84c8cb619436dd9f arm64: dts: amlogic: Add gpio_intc node for Amlogic S7 SoCs
+         1d787348123b34166ad2cccf12c9c00beb4ee3ae arm64: dts: amlogic: Add gpio_intc node for Amlogic S7D SoCs
          
