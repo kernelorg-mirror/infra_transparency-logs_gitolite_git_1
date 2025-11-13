@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1757443679949541929=="
+Content-Type: multipart/mixed; boundary="===============3078399664475404901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 13 Nov 2025 17:52:04 -0000
-Message-Id: <176305632422.544832.13539857044938155210@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 18:04:36 -0000
+Message-Id: <176305707612.554842.14950711005924422646@gitolite.kernel.org>
 
---===============1757443679949541929==
+--===============3078399664475404901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: a67879a4fdb7ee0aba866a3eb20a79885370c879
-    new: 8660b7053967dd1f60c08c1396fef6f949edb6f1
-    log: revlist-a67879a4fdb7-8660b7053967.txt
+  - ref: refs/heads/1GbE
+    old: a0c3aefb08cd81864b17c23c25b388dba90b9dad
+    new: f694d215d34035cc64b1d176fd82db0d1f2428d4
+    log: revlist-a0c3aefb08cd-f694d215d340.txt
 
---===============1757443679949541929==
+--===============3078399664475404901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a67879a4fdb7-8660b7053967.txt
+Content-Disposition: attachment; filename=revlist-a0c3aefb08cd-f694d215d340.txt
 
 4f6b0435c613fdb76d85bb4aae009309a8ce8784 can: convert generic HW timestamp ioctl to ndo_hwtstamp callbacks
 336e2232583018c7f386fbc33c8944922a18d7ba can: peak_canfd: convert to use ndo_hwtstamp callbacks
@@ -174,27 +174,5 @@ b63945b0c5b5de78712f843ce4a1f5c2ad83e6d0 Merge tag 'linux-can-next-for-6.19-2025
 9f07af1d274223a4314b5e2e6d395a78166c24c5 net: phy: fixed_phy: initialize the link status as up
 d0af55df5a786cb8f11ca1923cd7dc8b2af01309 net: stmmac: clean up stmmac_reset()
 f694d215d34035cc64b1d176fd82db0d1f2428d4 net: stmmac: always allocate mac_device_info
-b460f422ee5f4fcb4bef312b766da94b150f615e ice: Fix enable_cnt imbalance on resume
-acdcd11e6fd1904e367204e5349a20a4fcbed4c5 ice: Fix enable_cnt imbalance on PCIe error recovery
-f20e669fe1a97132e38ca2c3715326ab7de4af6e i40e: Fix enable_cnt imbalance on PCIe error recovery
-c4c50e5e6d8b6403c28f77d0a8f4ef60dc17a95d ice: add recovery clock and clock 1588 control for E825c
-c1b6172b8485dc2dac1414103f4a284ace18f28a idpf: fix memory leak of flow steer list on rmmod
-c0c6bc06b74e78460d06fe1066b64046de2b110e idpf: fix issue with ethtool -n command display
-9783e3de430a50cd94ca6cc8b0aef33f0039a6dc ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
-0a65b9a1f38131e686af8c7136ef018149cac06a ice: add TS PLL control for E825 devices
-ed4d83eee32289afb5dda9de218197c0c1ec8bd7 idpf: fix possible vport_config NULL pointer deref in remove
-6371d3a6842ec803be39d971ab27722fa1156d5c ixgbe: Add 10G-BX support
-61bf04e06ec767911c435a8d779906e3b084e195 ice: fix PTP cleanup on driver removal in error path
-b9de516cf3e0b5347141933a9063f78b145a5a4c ice: unify PHY FW loading status handler for E800 devices
-17259b395f4505f5126a271f19382b6ed7bb9bc6 idpf: convert vport state to bitmap
-433b68b091e37a2951368468c8788e972a95194f idpf: correct queue index in Rx allocation error messages
-813471a0ef2486337338425a4f26c339174014aa ice: add support for unmanaged DPLL on E830 NIC
-fb0b417653016ce2dbc08cb7010a6ef6adc5c77b iavf: fix off-by-one issues in iavf_config_rss_reg()
-c7773b78de0dc555568e20d158f12ae78fe9b108 igc: prepare for RSS key get/set support
-5cfae268c05ac24b975cc463384e8936052161b7 igc: expose RSS key via ethtool get_rxfh
-5bfa33667c5390df09e1ac31bc1c100605955c5b igc: allow configuring RSS key via ethtool set_rxfh
-4bd2c7ad9a082d272649e829005ae2472e7a8495 ice: use netif_get_num_default_rss_queues()
-692a125a91008fa36b793afcc78e00c612c56cf1 idpf: cap maximum Rx buffer size
-8660b7053967dd1f60c08c1396fef6f949edb6f1 ixgbevf: ixgbevf_q_vector clean up
 
---===============1757443679949541929==--
+--===============3078399664475404901==--
