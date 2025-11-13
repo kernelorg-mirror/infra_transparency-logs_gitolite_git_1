@@ -1,70 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3855440530300992528=="
+Content-Type: multipart/mixed; boundary="===============9143062786745818506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 13 Nov 2025 18:21:34 -0000
-Message-Id: <176305809471.570517.17953697576683105459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 13 Nov 2025 18:23:56 -0000
+Message-Id: <176305823686.572316.17914105349648096659@gitolite.kernel.org>
 
---===============3855440530300992528==
+--===============9143062786745818506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.19/arm64/dt
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: ba40f7b52556b8b5b7bbecd9e32342701c089428
+  - ref: refs/heads/slab/for-next-fixes
+    old: ef928a723be7d8051bc5ef7448d82b90f4802055
+    new: 2c1350c220af44e07172715323350d83f4ecb82d
     log: |
-         25937d399be2ee9852103a41aaca42d91b140d79 dt-bindings: power: Add power domain IDs for Tegra264
-         ce121914f38aaa59504e20a1a625e5988fc6ead4 arm64: tegra: Mark Jetson Xavier NX's PHY as a wakeup source
-         ccec1069246ad121c1cbb6494d75140d512a9b5b dt-bindings: arm: tegra: Document Jetson Nano Devkits
-         c0ff2845849c73e8f32bb3f35e1f799b47173dc7 Merge branch 'for-6.19/dt-bindings' into for-6.19/arm64/dt
-         700c48a438f3bd686b6fb066ad5b14fd13ba0cf9 arm64: tegra: Add Tegra186 pin controllers
-         0867951a1c9230074f61a045d19d76a406e20489 arm64: tegra: Add Tegra264 audio support
-         ba97758a63b78f7e494ebdfb74ba8a8af702a33a arm64: tegra: Add NVIDIA Jetson Nano 2GB Developer Kit support
-         21ef26d0e71f053e809926d45b86b0afbc3686bb arm64: tegra: Add pinctrl definitions for pcie-ep nodes
-         ba40f7b52556b8b5b7bbecd9e32342701c089428 arm64: tegra: Move HDA into the correct bus
+         2c1350c220af44e07172715323350d83f4ecb82d mm/slub: fix memory leak in free_to_pcs_bulk()
          
-  - ref: refs/heads/for-6.19/dt-bindings
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: ccec1069246ad121c1cbb6494d75140d512a9b5b
-    log: |
-         25937d399be2ee9852103a41aaca42d91b140d79 dt-bindings: power: Add power domain IDs for Tegra264
-         ccec1069246ad121c1cbb6494d75140d512a9b5b dt-bindings: arm: tegra: Document Jetson Nano Devkits
-         
-  - ref: refs/heads/for-6.19/syscore
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 19debadfa11b4a51888b07727426a20359879558
-    log: |
-         19debadfa11b4a51888b07727426a20359879558 syscore: Pass context data to callbacks
-         
-  - ref: refs/heads/for-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 8bd0139eafc366018c36bb153df3d63ac8f5e90d
-    log: revlist-3a8660878839-8bd0139eafc3.txt
 
---===============3855440530300992528==
+--===============9143062786745818506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-8bd0139eafc3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-25937d399be2ee9852103a41aaca42d91b140d79 dt-bindings: power: Add power domain IDs for Tegra264
-ce121914f38aaa59504e20a1a625e5988fc6ead4 arm64: tegra: Mark Jetson Xavier NX's PHY as a wakeup source
-ccec1069246ad121c1cbb6494d75140d512a9b5b dt-bindings: arm: tegra: Document Jetson Nano Devkits
-c0ff2845849c73e8f32bb3f35e1f799b47173dc7 Merge branch 'for-6.19/dt-bindings' into for-6.19/arm64/dt
-700c48a438f3bd686b6fb066ad5b14fd13ba0cf9 arm64: tegra: Add Tegra186 pin controllers
-0867951a1c9230074f61a045d19d76a406e20489 arm64: tegra: Add Tegra264 audio support
-ba97758a63b78f7e494ebdfb74ba8a8af702a33a arm64: tegra: Add NVIDIA Jetson Nano 2GB Developer Kit support
-21ef26d0e71f053e809926d45b86b0afbc3686bb arm64: tegra: Add pinctrl definitions for pcie-ep nodes
-ba40f7b52556b8b5b7bbecd9e32342701c089428 arm64: tegra: Move HDA into the correct bus
-19debadfa11b4a51888b07727426a20359879558 syscore: Pass context data to callbacks
-9ad2917419e11235fb3d0fb6b5a7e3470456500d Merge branch for-6.19/syscore into for-next
-52fbad16b6596b9f7ad910aad21f288ccf29f481 Merge branch for-6.19/dt-bindings into for-next
-8bd0139eafc366018c36bb153df3d63ac8f5e90d Merge branch for-6.19/arm64/dt into for-next
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1763058301 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1763058231-15184327a0df76b82e818f6647a10c108da66109
 
---===============3855440530300992528==--
+ef928a723be7d8051bc5ef7448d82b90f4802055 2c1350c220af44e07172715323350d83f4ecb82d refs/heads/slab/for-next-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkWIn0bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaMScH/3fiiNe8Sr++jphTAEQK
+wYFHwlgMizZ6vORZaGmippu096sqs/Ik6bp5+g3OJbqhEFyeTnXSM7A3bVa8QJsE
+V7+Lf5+OrbdQ7zgMXBISYSpXKtvbiPclAVUf+Zbd4uwoSLBX0dbQdB4TRWlFkFcQ
+h5M8IBP+X0v6gethvcuswIf2gjR1iz/kN5JyPEZ/HUnhR+Jy/d/+QekqiPwmNhvQ
+gQ+vk1pHl+CoWeXQtUOQj7aLZUztaZLLYlTG2/eCHZtr83JBSvnGk3yzh9cpmFsa
+jqNab1uQmqpCarXt4UMJgpooScov1xS5bNIlXXotiMMq2v2tpNPb+ZqQUuvibTzx
+SYs=
+=q32a
+-----END PGP SIGNATURE-----
+
+--===============9143062786745818506==--
