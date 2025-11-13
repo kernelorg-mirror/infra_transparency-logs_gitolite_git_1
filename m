@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0821314960611659328=="
+Content-Type: multipart/mixed; boundary="===============0307819513664872180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 13 Nov 2025 02:39:37 -0000
-Message-Id: <176300157749.3934506.10479106353858770374@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 02:39:42 -0000
+Message-Id: <176300158206.3934692.11199619859999922982@gitolite.kernel.org>
 
---===============0821314960611659328==
+--===============0307819513664872180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 3fe61f4bd78900c9e226e5af42e84878f0e64e53
-    new: 49bc3265e6987928f0d54ce133b91dc4032835d6
-    log: revlist-3fe61f4bd789-49bc3265e698.txt
+  - ref: refs/heads/6.19/scsi-queue
+    old: bb8222b6f3586168f66ae5678fdca3179af60821
+    new: c53a741a7fd4b8e9d07acf1861b5e4a188c6585a
+    log: revlist-bb8222b6f358-c53a741a7fd4.txt
 
---===============0821314960611659328==
+--===============0307819513664872180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1763001575 -0500
+pusher 75C5DE3D 1763001650 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1763001505-88c8fcb72df505c63030d3e79be1332270abf51a
+nonce 1763001580-602fa38848f388c075480a06b125609f89dc138b
 
-3fe61f4bd78900c9e226e5af42e84878f0e64e53 49bc3265e6987928f0d54ce133b91dc4032835d6 refs/tags/mkp-scsi-queue
+bb8222b6f3586168f66ae5678fdca3179af60821 c53a741a7fd4b8e9d07acf1861b5e4a188c6585a refs/heads/6.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkVROcACgkQ7ulgGnXF
-3j1IZg/9FxXPCN+dCqcJBGC224+lX6swzFv03tnMWePNHGBglBfKdj3gZul7hoR8
-Ew3arfpyZ/MVIi/fowNjhsyJVTzD/+EYgaTf9xoB15W6s630deiZpofB6wOD/Nnk
-Gf1OZzed76/GHA/0BVBGXazDBdp/WNeXiYcCwsYZg6eBZ5vS+hvzAluROjjWIApM
-Ua7k2KmdgsyY5GCDOXWt80Lob/zxJMcvBgkn8e7QqPMQEwVqm+jrcj751FpDQ365
-XuBu6J2+89/9BZNsmKZVC6nAmaTEnZuy/hndEpLO+mv01yzmQPhWn93ap0wrB5T/
-MoL3ZDqfmvQik63xxNZSWzfH0mKea19D6h4L3AV9wk873bcSFxRhdrZkzeaKe6Fy
-VaA5SBj9+eWq6Zdp6SdOFQUDFG7clHdM18V1tut96RPhb/XecMEa2xFGCkn9/rrz
-q1xY7Dd33AmqkPoYutZCGCOk6+25GjowEwJH+vMw1Pzk+qaMsWTWjKVKoQhDtSyX
-/uTnkHtDKOQhHE1EkQH2nVLR54WFGKaDq0LczbKws3XUcbxVVGdNofu9kPE6jURk
-y8bEGDJc/IHjQgyIj6Mg0puV3lGiaDESdynzD7ACQlcLXgVMSBoMG1usOHK80IMX
-xRioYHk4AlMLYfsKsFZHK9k1k9RUwgMuSw6BsgZ2Yj6HtUDRaK4=
-=9pjs
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkVRTIACgkQ7ulgGnXF
+3j3tFQ//X3VoEpD5CwuD5Rj1Ww55IcdpJt+y74kCxSgD0BoNI+2YVy0KlHpd94fB
+acJi6G0k8P32u1RubQD5GTa77WjU8cosGYOSq7ex8CHfIUUsRYixplebzvZuf9Xb
+35y68EaeJ/oQafGO5/8ckE2hTEMEbXhziQEl0IIyoPsTPh0t5kJe9CQ4fGGsYgg6
+oklynhVbiIn19qDCcLNc1nJ9cm79gj7T9Cv/rkrcPfmtegm96o7rs5rP2dwEjpcW
+3gQ4sYwSZlAJmfP0G3aP5Y951iZkBfpk6b+yIK2HpFo6i/SV5GEesL29HMwVdwVH
+tHksgZMcY/9wZGxJSudgHAInbZdb3LFjipebys+DnKk6W5W6+LRhlgeGR9JR1FIC
+4NdbPbf+23Ogmt6yijwtzM1XqfO/0GIhmbiBaRk4D09SjwnNxIRTmA3uxypdaL3D
+BI8j0dNIozRTiP2N1q7q3YxBHFMOrFeio9+n4NbTlEWiFWTW1ARLLKuUfZ6YsUzr
+j8JeuCR4x5zmHa4XLqgCvtEbIQDZiDPjZCZzeVtghxOr7wJlB25KjJRarWSSwvHE
++wqV/RTmY7VOYYODAGi5smXNCtrEPE8KaXA7/2troecpoIRsawgQ52TONS/j9hEN
+asvbd7YqzQ+5Tz0uYYF0lc8h5+3RPvAwNZHCzQsDVwr4EdSUJKg=
+=J29m
 -----END PGP SIGNATURE-----
 
---===============0821314960611659328==
+--===============0307819513664872180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fe61f4bd789-49bc3265e698.txt
+Content-Disposition: attachment; filename=revlist-bb8222b6f358-c53a741a7fd4.txt
 
 20da637eb545b04753e20c675cfe97b04c7b600b scsi: stex: Fix reboot_notifier leak in probe error path
 ad4716ad48d4f1da4f991a1707f2230f4a97bff1 scsi: dt-bindings: phy: mediatek,ufs-phy: Update maintainer information in mediatek,ufs-phy.yaml
@@ -83,4 +83,4 @@ ce6d26b5330c5de4f458143e9675984e367f6a40 scsi: ata: Use ACPI methods to power on
 8c59fc1c90df7ff29565d9743f0e61180e9ee00d scsi: ata: Stop disk on restart if ACPI power resources are found
 c53a741a7fd4b8e9d07acf1861b5e4a188c6585a Merge patch series "Support power resources defined in acpi on ata"
 
---===============0821314960611659328==--
+--===============0307819513664872180==--
