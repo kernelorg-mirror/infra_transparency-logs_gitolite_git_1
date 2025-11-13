@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 13 Nov 2025 01:26:11 -0000
-Message-Id: <176299717186.3870542.11235439225185915497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 13 Nov 2025 01:28:14 -0000
+Message-Id: <176299729422.3871687.14388866280601977018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/seq-v4-checkpoint-13
-    old: 0000000000000000000000000000000000000000
-    new: 63e7391280b3fd4242e6d92817145e2b2f39ea23
+  - ref: refs/heads/dev
+    old: b67d89eab5bc4f7eca0055d01230bbd44c255b9d
+    new: 00042e13490eea7df01b2e8d17a22311721690e2
+    log: |
+         d4bedcb7aded16b09530f102c849bc835eb6bfd6 EXP refscale: Make scale_type=bh safe for PREEMPT_RT kernels
+         00042e13490eea7df01b2e8d17a22311721690e2 torture: Include commit discription in testid.txt
+         
