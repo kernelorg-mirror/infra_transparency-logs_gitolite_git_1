@@ -1,68 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8967098422771674273=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 13 Nov 2025 16:10:21 -0000
-Message-Id: <176305022110.453615.13421355407269930109@gitolite.kernel.org>
-
---===============8967098422771674273==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 13 Nov 2025 16:18:30 -0000
+Message-Id: <176305071047.459340.15873440834086138028@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 100b79dbe78e452b665a50156204088c2ed2a0a6
-    new: c95a48ef76a7c8fb6bab12fb8c3cc09ccd28d593
-    log: revlist-100b79dbe78e-c95a48ef76a7.txt
-
---===============8967098422771674273==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1763050287 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1763050216-46dd05dd428d2ce1f03cd9cdad34c1e245da2541
-
-100b79dbe78e452b665a50156204088c2ed2a0a6 c95a48ef76a7c8fb6bab12fb8c3cc09ccd28d593 refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmkWAy8bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaeyoH/je5F8CCQVL0a8EYR/rZ
-I44yhz5nuwcX2GVa7zobdIPw6RyRyXL38dZ9M0FHSioyJGfJOg5pZmMDPPEgbTuo
-QnXboNiavxzdBuvdBXcLfBUkq0MCA0JcfqbVYz8PTmeZRRsv2kazadt73OPvNVc5
-J2jkkGxTFR3PnrPEPDlrz4PLgLrbNy3cctvnAtF/nT8hGKgXkVn1ujFFgGupGPwT
-5JYg0DkdlGc2dmkNYsmauJsCzA2jgsUMFkAiHZFSP/NpOweZ5+EjZWq7kJ9lvsyE
-cFHCuVkfovfbCX4QL5V3MijJEZTMkg71u/X/mdbNgt+HkDoQdTOOMzkn0yEMV+KP
-b70=
-=KAH1
------END PGP SIGNATURE-----
-
---===============8967098422771674273==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-100b79dbe78e-c95a48ef76a7.txt
-
-0f2620ffc41d117cc28bc053efe2dc837cf748dd fault-inject: make enum fault_flags available unconditionally
-e9939cebc0be8dabb1798b357e9dadf6398fa859 mm: improve kerneldoc comments for __alloc_pages_bulk
-5c829783e5f8dbb7ca6fce50c5c4a33f7c75d0d4 mempool: improve kerneldoc comments
-b77fc08e393b77883bcb71825cfd49e44da44022 mempool: add error injection support
-3d2492401d3cdb8e9e1276c3af5f1cd0c8a2b076 mempool: factor out a mempool_adjust_gfp helper
-1d091d2c5bf34eeeb10f9a3188e0f081e0f8c034 mempool: factor out a mempool_alloc_from_pool helper
-022e94e2c304505973d00dedca4b1432c231fbf6 mempool: add mempool_{alloc,free}_bulk
-844ccbf663c22bbe069dc060a3c3940ee9322e80 mempool: legitimize the io_schedule_timeout in mempool_alloc_from_pool
-984cbd4ff0c3c5cef8f6fef7d529637ff8fce114 mempool: remove mempool_{init,create}_kvmalloc_pool
-1d733dfd2cc17d6107fdda74f7c5423100fea209 mempool: de-typedef
-36dce04e9d76d8ba91c55968fb5c85c40a7b0b3e mempool: drop the file name in the top of file comment
-c95a48ef76a7c8fb6bab12fb8c3cc09ccd28d593 Merge branch 'slab/for-6.19/mempool_alloc_bulk' into slab/for-next
-
---===============8967098422771674273==--
+  - ref: refs/heads/for-6.19/block
+    old: 7b2038b1b1d4322a851ce7ee378ebf85a03bb1a1
+    new: c3f42a6de708db6891879547b29cd0d84ad83c92
+    log: |
+         0c72e9fcc156caaf123a6291321bc9bd74cd1b61 bcache: get rid of discard code from journal
+         b4056afbd4b90f5bdbdc53cca2768f9b8872a2dd bcache: remove discard code from alloc.c
+         73a004f83cf024e785b74243ba9817a329423379 bcache: drop discard sysfs interface
+         7bf90cd740bf87dd1692cf74d49bb1dc849dcd11 bcache: remove discard sysfs interface document
+         70bc173ce06be90b026bb00ea175567c91f006e4 bcache: reduce gc latency by processing less nodes and sleep less time
+         21194c44b6bdf50a27a0e065683d94bae16f69cb bcache: remove redundant __GFP_NOWARN
+         fd82071814d06c7b760fe8d90b932d8a66cffc63 bcache: replace use of system_wq with system_percpu_wq
+         c0c808214249c32a8961999e0779b953095b0074 bcache: WQ_PERCPU added to alloc_workqueue users
+         699122b590ebbc450737eebde3ab8f5b871cc7f0 bcache: Avoid -Wflex-array-member-not-at-end warning
+         c3f42a6de708db6891879547b29cd0d84ad83c92 Merge branch 'bcache-updates-6.19' into for-6.19/block
+         
+  - ref: refs/heads/for-next
+    old: eabdf8cd6e8576f632c6a35758b4998f7001ca00
+    new: 1b092e7c609724ee033a4b87309ae79bfe26bf14
+    log: |
+         0c72e9fcc156caaf123a6291321bc9bd74cd1b61 bcache: get rid of discard code from journal
+         b4056afbd4b90f5bdbdc53cca2768f9b8872a2dd bcache: remove discard code from alloc.c
+         73a004f83cf024e785b74243ba9817a329423379 bcache: drop discard sysfs interface
+         7bf90cd740bf87dd1692cf74d49bb1dc849dcd11 bcache: remove discard sysfs interface document
+         70bc173ce06be90b026bb00ea175567c91f006e4 bcache: reduce gc latency by processing less nodes and sleep less time
+         21194c44b6bdf50a27a0e065683d94bae16f69cb bcache: remove redundant __GFP_NOWARN
+         fd82071814d06c7b760fe8d90b932d8a66cffc63 bcache: replace use of system_wq with system_percpu_wq
+         c0c808214249c32a8961999e0779b953095b0074 bcache: WQ_PERCPU added to alloc_workqueue users
+         699122b590ebbc450737eebde3ab8f5b871cc7f0 bcache: Avoid -Wflex-array-member-not-at-end warning
+         c3f42a6de708db6891879547b29cd0d84ad83c92 Merge branch 'bcache-updates-6.19' into for-6.19/block
+         1b092e7c609724ee033a4b87309ae79bfe26bf14 Merge branch 'for-6.19/block' into for-next
+         
