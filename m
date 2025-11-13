@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4548347142678269529=="
+Content-Type: multipart/mixed; boundary="===============1751500086771121598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 13 Nov 2025 00:08:21 -0000
-Message-Id: <176299250128.3798806.15801747389256488584@gitolite.kernel.org>
+Date: Thu, 13 Nov 2025 00:08:23 -0000
+Message-Id: <176299250356.3798891.12110745209628031261@gitolite.kernel.org>
 
---===============4548347142678269529==
+--===============1751500086771121598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
-    old: a97d12eb0148339e018bf6526f92df0e299f4518
-    new: 14959ba91b94021cfa0ff56919ded06b7258ff91
-    log: revlist-a97d12eb0148-14959ba91b94.txt
+  - ref: refs/heads/kernel-6.12.53/main
+    old: df13897682a9b9cf952f3488fdac84f797ecc283
+    new: c5b21a124d0ca9e6d089237ccef5541e184a20f3
+    log: revlist-df13897682a9-c5b21a124d0c.txt
 
---===============4548347142678269529==
+--===============1751500086771121598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a97d12eb0148-14959ba91b94.txt
+Content-Disposition: attachment; filename=revlist-df13897682a9-c5b21a124d0c.txt
 
 37f2158435e8beb7a58582ff68b2aba3972867e5 nfsd: fix refcount leak in nfsd_set_fh_dentry()
 89abeb3d11f7f448404b6b11b7d90d5505cb9e2c nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
@@ -70,5 +70,26 @@ e14ac637548c5e0dfb175ea6fb1785a8d4873856 NFSD: Implement NFSD_IO_DIRECT for NFS 
 e712ed8f7d223e7f9ebae634f65e6f6dda958e39 NFSD: Enable return of an updated stable_how to NFS clients
 6d07a8509f2116e6b1fc075086e51037ccb9dc95 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
 14959ba91b94021cfa0ff56919ded06b7258ff91 NFSD: add nfsd_direct_misaligned_num_pages modparam
+e2a98e6b68e987dccc0636878897f029fed86712 Merge branch 'kernel-6.12.53/nvme' into kernel-6.12.53/main
+de10eb9cf27eaccee0da768321f19b8de184a29e Merge branch 'kernel-6.12.53/localio' into kernel-6.12.53/main
+fc41daf052222ffb8bfd6c06ae03b42f568c0ba2 Merge branch 'kernel-6.12.53/nfs' into kernel-6.12.53/main
+bff6770511f64ccbeaa4ef87afd06044517bc302 Merge branch 'kernel-6.12.53/dontcache' into kernel-6.12.53/main
+38ee92f0dfae710d9986d0091d3365d89b7eb32e Merge branch 'kernel-6.12.53/xfs' into kernel-6.12.53/main
+37a78b716d1eb623a5c02ec043a9b6bcc109b712 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.53/main
+ffd1500a43cf7ccaa8edb79e819680f967e04d4e Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.53/main
+4f3949fd5fdbb5b07d08bc02a59dc04af7c0f723 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.18-2' into kernel-6.12.53/main
+7606f58aa547fed319c25cc5aa4a2f1c39da46d5 Merge branch 'kernel-6.12.53/nfs-testing' into kernel-6.12.53/main
+5c87e8a1bed300f58bef8be559f4fb1fa23df344 Merge branch 'kernel-6.12.53/nfs-testing-snitm' into kernel-6.12.53/main
+8412201d25ad1a66acb39ea5125b78c082d51cb7 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.18-3' into kernel-6.12.53/main
+d9fe793ff65074548df822233abae24633db89b4 Merge branch 'kernel-6.12.53/nfsd-next' into kernel-6.12.53/main
+99e3e55cd16ccafabcf1015666acf32ae55610eb Merge branch 'kernel-6.12.53/nfsd-testing' into kernel-6.12.53/main
+89444396e8ad5cb572d6a675cd0d6038f6b6a493 Merge branch 'kernel-6.12.53/nfsd-testing-snitm' into kernel-6.12.53/main
+375195d3f8b59d2e29adaa817ff63b9241cec164 kernel-6.12.53-1
+a992d109fa7e2c0b2df5aa4af3d805888d126e3f kernel-6.12.53-2
+7668dbc3e627330b751a81d58a43c69b1cfdc1ae kernel-6.12.53-3
+52d08c14482349442374eecf00a5d66f5ccc9fcb kernel-6.12.53-4
+71e396d32fe009fa17234a4011fa97ee92cbac63 kernel-6.12.53-5
+042d7bcbae3a69731c1fad7eeda0b5d9865f6961 kernel-6.12.53-6
+c5b21a124d0ca9e6d089237ccef5541e184a20f3 kernel-6.12.53-7
 
---===============4548347142678269529==--
+--===============1751500086771121598==--
