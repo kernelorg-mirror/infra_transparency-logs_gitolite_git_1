@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 13 Nov 2025 19:03:30 -0000
-Message-Id: <176306061016.606376.15204323383342986742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 13 Nov 2025 19:08:19 -0000
+Message-Id: <176306089982.610681.8214056235644946448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
-    old: 999e9bc953e321651d69556fdd5dfd178f96f128
-    new: e0431ff998bd32dcc1e591a45b4e156fcb0325a3
-    log: |
-         170a3ef6052cfa2462b3bb572a6bb985bf83d21e firmware: ti_sci: Support transfers without response
-         e0431ff998bd32dcc1e591a45b4e156fcb0325a3 firmware: ti_sci: Partial-IO support
-         
-  - ref: refs/heads/ti-next
-    old: 48799b0a6a3c8e32690805ce6ba02ab3e8ae15e9
-    new: 884de3538ffe4b1ef9d9bfb8c4853c6a1fc113ad
-    log: |
-         170a3ef6052cfa2462b3bb572a6bb985bf83d21e firmware: ti_sci: Support transfers without response
-         e0431ff998bd32dcc1e591a45b4e156fcb0325a3 firmware: ti_sci: Partial-IO support
-         884de3538ffe4b1ef9d9bfb8c4853c6a1fc113ad Merge branch 'ti-drivers-soc-next' into ti-next
-         
+  - ref: refs/heads/20251105_a_dutta_ospi_pm_runtime_fixes
+    old: 0000000000000000000000000000000000000000
+    new: 10eaa4c4a257944e9b30d13fda7d09164a70866d
+  - ref: refs/heads/fileAJgWHi
+    old: 0000000000000000000000000000000000000000
+    new: 8d63e85c5b50f1dbfa0ccb214bd91fe5d7e2e860
+  - ref: refs/heads/v3_20251031_jun_guo_spi_cadence_support_transmission_with_bits_per_word_of_16_and_32
+    old: 0000000000000000000000000000000000000000
+    new: 4e00135b2dd1d7924a58bffa551b6ceb3bd836f2
+  - ref: refs/heads/v3_20251031_srinivas_kandagatla_asoc_codecs_lpass_macro_complete_sm6115_support
+    old: 0000000000000000000000000000000000000000
+    new: 8ff3dcb0e8a8bf6c41f23ed4aa62d066d3948a10
