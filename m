@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 13 Nov 2025 15:44:47 -0000
-Message-Id: <176304868743.427977.7669935641434561061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 13 Nov 2025 15:46:03 -0000
+Message-Id: <176304876316.430240.3949727873658770076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/net-6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 13770b0850b5594381a3c3b964b4b9b26a8d2e7c
+  - ref: refs/heads/master
+    old: 0ac1c81a2fd41cfca366d4cd943af1beafe57e83
+    new: 611709b0869e8b0cce2fbfbfc2da00693d27ac2f
+    log: |
+         611709b0869e8b0cce2fbfbfc2da00693d27ac2f Drop queue-5.15/mptcp-drop-bogus-optimization-in-__mptcp_check_push.patch
+         
