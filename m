@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 14 Nov 2025 23:22:57 -0000
-Message-Id: <176316257701.2291722.391586941242028446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devsec/tsm
+Date: Fri, 14 Nov 2025 23:23:09 -0000
+Message-Id: <176316258985.2291996.10374512461289306131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/devsec/tsm
+user: djbw
 changes:
-  - ref: refs/heads/dev-queue
-    old: 4ccf7ea9a6d7d7d9bf45f76534cbc1de39faa98e
-    new: e1a135cd05cda36d340a30de59ffa7d5b655f62f
+  - ref: refs/heads/next
+    old: a4438f06b1db15ce3d831ce82b8767665638aa2a
+    new: f7ae6d4ec6520a901787cbab273983e96d8516da
     log: |
-         eae111c8119b4ca2f63d83f375971d672997b77a idpf: introduce local idpf structure to store virtchnl queue chunks
-         03a4c1642f8fea7705a4baada3239d42dddd3f7b idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
-         1251803dbd110228e16509e53563755151dfafa0 idpf: move queue resources to idpf_q_vec_rsrc structure
-         b141c3cbbd661908c6abeaf6434322827f5ad992 idpf: move some iterator declarations inside for loops
-         a75a86960c8780d195806ea10b92d5c56ac69f01 idpf: reshuffle idpf_vport struct members to avoid holes
-         284e088adc32d8eb8d0f07e0aef53d0080cd363a idpf: add rss_data field to RSS function parameters
-         d3fc56dac6727111f1272a7ee86b21d710793b8e idpf: remove vport pointer from queue sets
-         6f749b75a9108f37e0f3d21d12b219f776e23713 idpf: generalize send virtchnl message API
-         26fd81fbf4045a4a3897e8efc7af233af02a67a4 idpf: avoid calling get_rx_ptypes for each vport
-         e1a135cd05cda36d340a30de59ffa7d5b655f62f idpf: generalize mailbox API
+         110c155e8a684d8b2423a72cfde147903881f765 drivers/virt: Drop VIRT_DRIVERS build dependency
+         e5b5f8b7c26f72fe86b59979e51d8e6cf36ea903 PCI/TSM: Drop stub for pci_tsm_doe_transfer()
+         c16af019d9d6d23f211c82b5561f2ecd2a7dff54 resource: Introduce resource_assigned() for discerning active resources
+         f86e51399c2a911a5b01d441de513f17bf773856 PCI/IDE: Add Address Association Register setup for downstream MMIO
+         079115370d00c78ef69b31dd15def90adf2aa579 PCI/IDE: Initialize an ID for all IDE streams
+         50cbec192f5317e29be993e2a634bbbdfcf0230e PCI/TSM: Add pci_tsm_bind() helper for instantiating TDIs
+         c316c75d57fbb34e2305690813f4dbec9311f2b0 PCI/TSM: Add pci_tsm_guest_req() for managing TDIs
+         f7ae6d4ec6520a901787cbab273983e96d8516da PCI/TSM: Add 'dsm' and 'bound' attributes for dependent functions
          
