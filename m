@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 14 Nov 2025 10:57:11 -0000
-Message-Id: <176311783128.1627383.14811878634336534998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 14 Nov 2025 11:26:44 -0000
+Message-Id: <176311960499.1651509.12114725725761013402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/pwm/fixes
-    old: f6f486e74ab4b6e2415f0fab8dde72f22478747a
-    new: f84fd5bec502447df145f31734793714690ce27f
-    log: |
-         f84fd5bec502447df145f31734793714690ce27f pwm: adp5585: Correct mismatched pwm chip info
-         
+  - ref: refs/tags/kvmarm-fixes-6.18-3
+    old: 0000000000000000000000000000000000000000
+    new: 1571b3b671bb3ba062c263f34adcc8b1ade3dc5d
