@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0238593628709248926=="
+Content-Type: multipart/mixed; boundary="===============4426671983482009281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 14 Nov 2025 17:46:35 -0000
-Message-Id: <176314239580.1997956.6271871913872153190@gitolite.kernel.org>
+Date: Fri, 14 Nov 2025 17:46:38 -0000
+Message-Id: <176314239835.1998040.7186877504215567044@gitolite.kernel.org>
 
---===============0238593628709248926==
+--===============4426671983482009281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 94909c53e442474a432c57c96b99d99357ac3593
     new: 407a06507c2358554958e8164dc97176feddcafc
     log: revlist-94909c53e442-407a06507c23.txt
 
---===============0238593628709248926==
+--===============4426671983482009281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -290,4 +290,4 @@ d0309c054362a235077327b46f727bc48878a3bc Merge tag 'net-6.18-rc6' of git://git.k
 f796a8dec9beafcc0f6f0d3478ed685a15c5e062 net: core: prevent NULL deref in generic_hwtstamp_ioctl_lower()
 407a06507c2358554958e8164dc97176feddcafc mlxsw: spectrum: Fix memory leak in mlxsw_sp_flower_stats()
 
---===============0238593628709248926==--
+--===============4426671983482009281==--
