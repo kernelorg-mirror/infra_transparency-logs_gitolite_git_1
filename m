@@ -1,18 +1,18 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 14 Nov 2025 23:29:29 -0000
-Message-Id: <176316296987.2299213.12950326086878188772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 14 Nov 2025 23:30:08 -0000
+Message-Id: <176316300867.2301479.12073993955243582452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
+repo: pub/scm/linux/kernel/git/tip/tip
 user: daveh
 changes:
-  - ref: refs/heads/testme
-    old: 868bcf95831cab3699786a97a06e82a34ad25b59
+  - ref: refs/heads/x86/sgx
+    old: 0f2753efc5baff2f0b2a921fe77990c7b12955dc
     new: f2f22721aca46cebb63c589eefda843721908833
     log: |
          75801ca620a6ba9f3da7d4e3d3a8ad10811c579e x86/sgx: Add a missing colon in kernel-doc markup for "struct sgx_enclave_run"
