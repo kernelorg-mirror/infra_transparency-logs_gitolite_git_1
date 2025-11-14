@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5839831119879627841=="
+Content-Type: multipart/mixed; boundary="===============3083900285244056398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 14 Nov 2025 01:44:21 -0000
-Message-Id: <176308466120.1144960.5339261613095788450@gitolite.kernel.org>
+Date: Fri, 14 Nov 2025 01:44:22 -0000
+Message-Id: <176308466245.1145053.1124793085944774025@gitolite.kernel.org>
 
---===============5839831119879627841==
+--===============3083900285244056398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ea53cb52f919ba635f3def4a6b5bf749d718b2f7
-    new: d09eaf415c87eeb6172968f29fc6ad5c94f38cc4
-    log: revlist-ea53cb52f919-d09eaf415c87.txt
+  - ref: refs/heads/mm-unstable
+    old: f58b4cb6b0c11172a25c2ade23477f55596d7138
+    new: 1c571d1c4c7e042c3c313d1a2058a17848ccebac
+    log: revlist-f58b4cb6b0c1-1c571d1c4c7e.txt
 
---===============5839831119879627841==
+--===============3083900285244056398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea53cb52f919-d09eaf415c87.txt
+Content-Disposition: attachment; filename=revlist-f58b4cb6b0c1-1c571d1c4c7e.txt
 
 6154b26de3cd39c4ce5b51b73f837686b65299ba mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 b98ec5364e8ea75ddce87e3778ca9636e2b3f2e0 crash: fix crashkernel resource shrink
@@ -316,13 +316,5 @@ de7f371ede4dc1a4be3121ac7937f904e12eee0b mm/damon/vaddr: consistently use only p
 8b16a506130fb6b6f091dceb3517bb8849416cba selftests/damon/sysfs.py: merge DAMON status dumping into commitment assertion
 f46b554bdf94ab1f7398795fd050dca24f29e493 Docs/mm/damon/maintainer-profile: fix a typo on mm-untable link
 1c571d1c4c7e042c3c313d1a2058a17848ccebac Docs/mm/damon/maintainer-profile: fix grammatical errors
-b59e962c9ac8956c5dcc229802d650299af45c66 mm/vmalloc: warn on invalid vmalloc gfp flags
-be0048905d0f87e3e6023c95e5598b8ebee334b8 mm/vmalloc: add a helper to optimize vmalloc allocation gfps
-bcb30b30d432c832323e09e0e096bcb6266e5ecf mm/vmalloc: cleanup large_gfp in vm_area_alloc_pages()
-0108b310c92263a8ce4796c1a1ee3227b758ce81 mm/vmalloc: cleanup gfp flag use in new_vmap_block()
-0b9cbed6b9b4cc4583d7cfb257f4a18d0ec6c619 zram: introduce writeback bio batching support
-1b79a65fd135035775364552af57708a3e59c607 zram: add writeback batch size device attr
-4ab0f2daf30a375040a1e933bf5ffe1f1f8fa193 zram: take write lock in wb limit store handlers
-d09eaf415c87eeb6172968f29fc6ad5c94f38cc4 zram: drop wb_limit_lock
 
---===============5839831119879627841==--
+--===============3083900285244056398==--
