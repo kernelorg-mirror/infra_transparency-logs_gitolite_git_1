@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5377749823907148207=="
+Content-Type: multipart/mixed; boundary="===============8417957668224548951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 14 Nov 2025 17:03:53 -0000
-Message-Id: <176313983336.1959726.9459463403041292766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 14 Nov 2025 17:03:56 -0000
+Message-Id: <176313983689.1959880.11624227668537984673@gitolite.kernel.org>
 
---===============5377749823907148207==
+--===============8417957668224548951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/spi-6.18
     old: 66e9feb03e7cf8983b1d0c540e2dad90d5146d48
     new: 10eaa4c4a257944e9b30d13fda7d09164a70866d
     log: |
          f1eb4e792bb1ee3dcdffa66f8a83a4867cda2dd3 spi: spi-cadence-quadspi: Enable pm runtime earlier to avoid imbalance
          10eaa4c4a257944e9b30d13fda7d09164a70866d spi: spi-cadence-quadspi: Remove duplicate pm_runtime_put_autosuspend() call
          
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/spi-6.19
     old: 1d562ba0aa7df81335bf96c02be77efe8d5bab87
     new: c94f134729491ab60fc68fcd919821014334db97
     log: revlist-1d562ba0aa7d-c94f13472949.txt
 
---===============5377749823907148207==
+--===============8417957668224548951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1763139901 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1763139830-4c265555c9910460a92e97ab0dfc3b1c683de370
+pusher C3F436CA30F5D8EB 1763139905 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1763139834-e46b51fd982bcca23af8ede6d871de2192497260
 
-66e9feb03e7cf8983b1d0c540e2dad90d5146d48 10eaa4c4a257944e9b30d13fda7d09164a70866d refs/heads/for-6.18
-1d562ba0aa7df81335bf96c02be77efe8d5bab87 c94f134729491ab60fc68fcd919821014334db97 refs/heads/for-6.19
+66e9feb03e7cf8983b1d0c540e2dad90d5146d48 10eaa4c4a257944e9b30d13fda7d09164a70866d refs/heads/spi-6.18
+1d562ba0aa7df81335bf96c02be77efe8d5bab87 c94f134729491ab60fc68fcd919821014334db97 refs/heads/spi-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkXYT0ACgkQJNaLcl1U
-h9CrMgf/UkQmry5ph/EzpPBEFPls8gAB68gnQl3oG2XboVtfu6tGZg5o1xBWRn5Y
-OK05TJAw+yk3AobWW7Mw40GIyTtvOwRrvZXaeLtWZknjNa8YxhvxnSQ67tAheGbE
-/n0H4N7dqvXRUpcOpPCcWV92g03Mw/x77bn1bFeKqbnIMMV44XQeOi8Gl3z/pj9c
-6LrEKMcelvfnMVUBRWPM57CUSBaiHSQRqHnIVATRlZPnCEBMtoj16QTQYL9D0csO
-v2PEqqHVFkJNhWj+zjL54+b1qkZc90lYgDrc1LNszHtrvUgJg1c6IQ77OIqHZnds
-mBmo9IUb1khrRDZq/ct9Jtzay1xE3w==
-=ylUA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkXYUEACgkQJNaLcl1U
+h9BcvQf8DQEmfhftLlCbsOvA7nzbAmjG3N0jYN5vXBsGu//y2O5SOyTsEiWQ7kzA
+CLDL2ZAVV15OUjnjQzg/UZPxjtFav63dUY2+izn8dxQpYlC4MTiGcFAVffcruTsb
+iOOgpXTrxXrwGWu/yTVqws2yn4PkwCARDJ+Wh+2pT6X/ETDMbDieDr9pDRN4C8+I
+Luia1WkfzvnaRCz6S8zvEqixkaoRvhMCgkrvHpgeDk0avlmGdN3dPFPHwm10l2qz
+E7Qziv6KQs4Sfl+nozoXEL7Tz5OHFttk6XpbglNFqfVrkShPcOj4PYo9IBiHxW0m
+kLd/AeHfSuj5WuU/h+4fyUu5jHqwKg==
+=0ff6
 -----END PGP SIGNATURE-----
 
---===============5377749823907148207==
+--===============8417957668224548951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -322,4 +322,4 @@ e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
 af330925a18ff483adace1c4ed2dcc975a31d5c0 spi-cadence: support transmission with
 c94f134729491ab60fc68fcd919821014334db97 Add support for Microchip CoreSPI Controller
 
---===============5377749823907148207==--
+--===============8417957668224548951==--
