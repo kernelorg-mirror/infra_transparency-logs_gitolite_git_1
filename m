@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sergeh/linux
-Date: Fri, 14 Nov 2025 06:08:39 -0000
-Message-Id: <176310051954.1363396.13005563424997860870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+Date: Fri, 14 Nov 2025 06:28:51 -0000
+Message-Id: <176310173111.1379687.4046105350105714425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sergeh/linux
-user: sergeh
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
+user: jarkko
 changes:
-  - ref: refs/heads/2025-11-14/test-cleanup
-    old: 0000000000000000000000000000000000000000
-    new: feb4257f59e8d0cd88e7cb3fa6212f4e9daeaba8
+  - ref: refs/heads/main
+    old: a0381b2546b640722afa107174daee235c5ead25
+    new: c2ece889749923f4ab76260ea478a125396dc8a4
+    log: |
+         c2ece889749923f4ab76260ea478a125396dc8a4 feat(error): emit OutOfMemory when write is full
+         
