@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
-Date: Fri, 14 Nov 2025 14:39:29 -0000
-Message-Id: <176313116962.1818336.13429310754813231558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 14 Nov 2025 14:40:36 -0000
+Message-Id: <176313123682.1820497.6694517841878992940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
-user: jarkko
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/main
-    old: 4c4139c04b71ffb6d7a341b5448ed66431c341c0
-    new: b2a4d85d0e419e74c06647d4e4c5c88b52fe9b92
+  - ref: refs/heads/cifs-next
+    old: 51526a18ef3eb60454da93c35110c67e86f06705
+    new: 29e729b4debaf2d5e2b7a7212998982175571f37
     log: |
-         b2a4d85d0e419e74c06647d4e4c5c88b52fe9b92 feat: TryFrom<Nid> for EccCurve
+         ff1b78056bf80a4277ed05317da8e7cc8f7b7e4b cifs: Remove the server pointer from smb_message
+         17235fb261200aa2e30771b0e308b59bafda963c cifs: Use netfs_alloc/free_folioq_buffer()
+         29e729b4debaf2d5e2b7a7212998982175571f37 cifs: Don't need state locking in smb2_get_mid_entry()
          
