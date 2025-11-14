@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 14 Nov 2025 08:26:23 -0000
-Message-Id: <176310878375.1482019.16966095739886404641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 14 Nov 2025 08:30:44 -0000
+Message-Id: <176310904434.1486345.14665937505866200995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/stm32-next
-    old: c23cb4565ad8b976613f3bb91017feb6532c341c
-    new: 22f0ae971cf5536349521853737d3e06203286d8
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 4376293e37db004b789aef8a28d69956e0ac4068
+    new: b3b7da3e4cc2c45898146ce9f79147f0ae820e4c
     log: |
-         22f0ae971cf5536349521853737d3e06203286d8 arm64: dts: st: Add memory-region-names property for stm32mp257f-ev1
+         b3b7da3e4cc2c45898146ce9f79147f0ae820e4c CIP: Bump version suffix to -cip13 after updates with latest cip
          
