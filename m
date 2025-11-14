@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 14 Nov 2025 14:46:43 -0000
-Message-Id: <176313160335.1827413.6216401293085834785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+Date: Fri, 14 Nov 2025 14:53:26 -0000
+Message-Id: <176313200636.1832671.3855613820181855162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
+user: jarkko
 changes:
-  - ref: refs/heads/v3_20251031_jun_guo_spi_cadence_support_transmission_with_bits_per_word_of_16_and_32
-    old: 4e00135b2dd1d7924a58bffa551b6ceb3bd836f2
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 0e94ece2457e0fb0dee62402df54a51f7a9eec1e
+    new: ee278f07b4fc3f16a971b1d6568826ad56d3a43d
+    log: |
+         ee278f07b4fc3f16a971b1d6568826ad56d3a43d build: bump tpm2-crypto to 0.6.1
+         
