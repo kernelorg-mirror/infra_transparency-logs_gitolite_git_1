@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9171542293182063411=="
+Content-Type: multipart/mixed; boundary="===============7749789555158926903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Nov 2025 06:32:32 -0000
-Message-Id: <176310195257.1384228.10704744849592531965@gitolite.kernel.org>
+Date: Fri, 14 Nov 2025 06:33:09 -0000
+Message-Id: <176310198956.1384698.14092966745756256947@gitolite.kernel.org>
 
---===============9171542293182063411==
+--===============7749789555158926903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,53 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c63516048bb0732496b0c6977f1397c1b999521d
-    new: 45af6c5482b5c0e99d32766efe34e2c22507b22b
-    log: revlist-c63516048bb0-45af6c5482b5.txt
+    old: 45af6c5482b5c0e99d32766efe34e2c22507b22b
+    new: 438be5bb46f4be6e78cef7c3400f20d77f03c734
+    log: revlist-45af6c5482b5-438be5bb46f4.txt
+  - ref: refs/heads/tip/urgent
+    old: 6fa9041b7177f6771817b95e83f6df17b147c8c6
+    new: 802bdeefcbce8a7c8f307b2625f1365cfded0c1e
+    log: revlist-6fa9041b7177-802bdeefcbce.txt
 
---===============9171542293182063411==
+--===============7749789555158926903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c63516048bb0-45af6c5482b5.txt
+Content-Disposition: attachment; filename=revlist-45af6c5482b5-438be5bb46f4.txt
+
+754afe4fac5f5dc63b8d4e8f9128c3397a7cd64a Merge branch into tip/master: 'core/urgent'
+802bdeefcbce8a7c8f307b2625f1365cfded0c1e Merge branch into tip/master: 'x86/urgent'
+9d9882d960eab274c3a74c4b12c5ce30cee03cba Merge branch into tip/master: 'core/bugs'
+d885dbb5f6ea965a50c6627b796ef5cb07273cef Merge branch into tip/master: 'core/core'
+2a821c8a85e240fb815d5776a52ff6495c1cb312 Merge branch into tip/master: 'core/rseq'
+89975f2015b343015a5d8ae3d38cc855278a61b1 Merge branch into tip/master: 'irq/core'
+759499ea33fc6f609a236f6f1faa2cbf50dc4353 Merge branch into tip/master: 'irq/drivers'
+6c95ada3be8509b0c370650a6f022a5e6f93b548 Merge branch into tip/master: 'irq/msi'
+263f3ebdf32ab067e4452c80711381301475061e Merge branch into tip/master: 'locking/core'
+b8cde0892f9a3506469bd8273a23989a0639d59e Merge branch into tip/master: 'objtool/core'
+f756219a90e9c424a66fc6667a93b2fcfd480d13 Merge branch into tip/master: 'perf/core'
+14d062dbf53ce1b5ebb262234fb0df4ae7f409b6 Merge branch into tip/master: 'ras/core'
+6dca776725bc74d99d973033fce52ed0853b8dc0 Merge branch into tip/master: 'sched/core'
+21bceec4c46b8ebe13c7fa7918d5ac2ec0fba22d Merge branch into tip/master: 'timers/core'
+4043fcc26f29aa0bf019061d2f8e15065491ab49 Merge branch into tip/master: 'x86/apic'
+dd0d8f5b86067870556d99eca425e76ca6379c20 Merge branch into tip/master: 'x86/bugs'
+af38dad32c6a02f476f0a7f9cd12c87b2140858e Merge branch into tip/master: 'x86/build'
+c06a6a5eda88b0f5371c8bcc3965121fd28d9231 Merge branch into tip/master: 'x86/cache'
+0f6b36fb2c8f30c20b5fa5621e29d2ada865783a Merge branch into tip/master: 'x86/cleanups'
+2dfcc289e29f292bf02af62d31e849f0e0970928 Merge branch into tip/master: 'x86/core'
+8f32c4aaa4f7e43685e01172496cf7e9705d8d1f Merge branch into tip/master: 'x86/cpu'
+78e3400c6ad42b3ba9190ab4cf32800708ab7023 Merge branch into tip/master: 'x86/entry'
+06d39f017ce51cf18e90c3c3ecc70c92803405f0 Merge branch into tip/master: 'x86/microcode'
+c330384754c33cd40270285d2b2ec752b5254a05 Merge branch into tip/master: 'x86/misc'
+15e6dbe2dd26c8801d1920c7f20336f3e58c0389 Merge branch into tip/master: 'x86/mm'
+850d300bad6def5f49f9f0ec59558bad2d28c035 Merge branch into tip/master: 'x86/sev'
+438be5bb46f4be6e78cef7c3400f20d77f03c734 Merge branch into tip/master: 'x86/sgx'
+
+--===============7749789555158926903==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6fa9041b7177-802bdeefcbce.txt
 
 083d7af3350e04c428256a3bd10003f63151b6b1 MAINTAINERS: erofs: add myself as reviewer
 9065b968752334f972e0d48e50c4463a172fc2a7 wifi: ath11k: zero init info->status in wmi_process_mgmt_tx_comp()
@@ -119,6 +157,8 @@ c55a8e24cd129b6d8fed20e3d63c10c2263e2fc8 hwmon: (gpd-fan) initialize EC on drive
 96a3a03abf3d8cc38cd9cb0d280235fbcf7c3f7f hsr: Fix supervision frame sending on HSRv0
 b2c26c82f7a94ec4da096f370e3612ee14424450 hsr: Follow standard for HSRv0 supervision frames
 94909c53e442474a432c57c96b99d99357ac3593 Merge branch 'hsr-send-correct-hsrv0-supervision-frames'
+ebd4469e7af61019daaf904fdcba07a9ecd18440 entry: Fix ifndef around arch_xfer_to_guest_mode_handle_work() stub
+0a8fb03fe7b0abab0ff16522e2625163183e7ae4 MAINTAINERS: Update name spelling
 cbcff934fa7deb670d9545a3aad4d07e8f1e4f3c mm/slub: fix memory leak in free_to_pcs_bulk()
 d0309c054362a235077327b46f727bc48878a3bc Merge tag 'net-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 8b4a014e2865a970c18c1e9bba2b5c5a7322045f Merge tag 'linux_kselftest-fixes-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
@@ -129,6 +169,7 @@ d0309c054362a235077327b46f727bc48878a3bc Merge tag 'net-6.18-rc6' of git://git.k
 aecba2e013ab79dde441dfc81a32792ced229539 Merge tag 'pm-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 01814e11e5e9878f26cfeb4ad4be791525757e30 Merge tag 'hwmon-for-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 6da43bbeb6918164f7287269881a5f861ae09d7e Merge tag 'vfio-v6.18-rc6' of https://github.com/awilliam/linux-vfio
-45af6c5482b5c0e99d32766efe34e2c22507b22b Merge branch 'linus'
+754afe4fac5f5dc63b8d4e8f9128c3397a7cd64a Merge branch into tip/master: 'core/urgent'
+802bdeefcbce8a7c8f307b2625f1365cfded0c1e Merge branch into tip/master: 'x86/urgent'
 
---===============9171542293182063411==--
+--===============7749789555158926903==--
