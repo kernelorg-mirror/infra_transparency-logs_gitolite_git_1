@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 14 Nov 2025 01:03:08 -0000
-Message-Id: <176308218861.1107620.2142965875892469721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Fri, 14 Nov 2025 01:15:03 -0000
+Message-Id: <176308290394.1120031.14592523067153176471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: aecba2e013ab79dde441dfc81a32792ced229539
-    new: 6da43bbeb6918164f7287269881a5f861ae09d7e
+  - ref: refs/heads/perf/defer-callchain-v3
+    old: 8a17a08c76dacd78db2bd1f24cf3f41f2f3f44b2
+    new: 89cc601c8219b8c064f181e79c8ac407c180f6ad
     log: |
-         7c44656ab3ea6f8429027ed14c23b314502e2541 vfio: selftests: add iova range query helpers
-         a77fa0b9222d2f23a764061a3be18e6bc738672e vfio: selftests: fix map limit tests to use last available iova
-         ce0e3c403e00e9e03e80aca6570bf936a44279e2 vfio: selftests: add iova allocator
-         d323ad739666761646048fca587734f4ae64f2c8 vfio: selftests: replace iova=vaddr with allocated iovas
-         9efb297c520f392ab04bc45544a03770c98c3798 hwmon: (gpd-fan) Fix compilation error in non-ACPI builds
-         c55a8e24cd129b6d8fed20e3d63c10c2263e2fc8 hwmon: (gpd-fan) initialize EC on driver load for Win 4
-         01814e11e5e9878f26cfeb4ad4be791525757e30 Merge tag 'hwmon-for-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-         6da43bbeb6918164f7287269881a5f861ae09d7e Merge tag 'vfio-v6.18-rc6' of https://github.com/awilliam/linux-vfio
+         f862dba742ce5762e7173184850387e5bd24e64e perf tools: Minimal DEFERRED_CALLCHAIN support
+         6b8cd7390144ee26033f27d2ba3cdd6212c25a3b perf record: Enable defer_callchain for user callchains
+         055e2ced0596abc9ac122186eb90a4dcebb246f6 perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
+         89cc601c8219b8c064f181e79c8ac407c180f6ad perf tools: Merge deferred user callchains
          
