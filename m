@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 14 Nov 2025 21:55:43 -0000
-Message-Id: <176315734383.2219284.17902405012270528875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Fri, 14 Nov 2025 21:58:42 -0000
+Message-Id: <176315752253.2220605.857605155449927267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/tags/bpf-fixes
+  - ref: refs/tags/rust-fixes-6.18-2
     old: 0000000000000000000000000000000000000000
-    new: 46e2bad941fa0bcf1202386fe78fca8cee9572b1
+    new: 4a5806f7ebca7455a16acbba52967778ddf9f184
