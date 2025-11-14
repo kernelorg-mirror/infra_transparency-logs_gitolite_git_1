@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4741416229439454285=="
+Content-Type: multipart/mixed; boundary="===============4082521721937596676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 14 Nov 2025 12:45:13 -0000
-Message-Id: <176312431317.1718577.10385306551194256682@gitolite.kernel.org>
+Date: Fri, 14 Nov 2025 12:45:27 -0000
+Message-Id: <176312432719.1718838.7395660845086528335@gitolite.kernel.org>
 
---===============4741416229439454285==
+--===============4082521721937596676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: c1287d67c3a91aa19e4d9bbd3ad943cfbfa6bed4
-    new: 52a1f73d1733e6d5bf2cbfa93296207e542cdea7
-    log: revlist-c1287d67c3a9-52a1f73d1733.txt
+  - ref: refs/heads/for-next
+    old: 85c8904db33896ac2ef435bd13952f475084da89
+    new: 785277e9439a5a7f632564fe6a38087cc9784411
+    log: revlist-85c8904db338-785277e9439a.txt
 
---===============4741416229439454285==
+--===============4082521721937596676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1287d67c3a9-52a1f73d1733.txt
+Content-Disposition: attachment; filename=revlist-85c8904db338-785277e9439a.txt
 
 abc524caa1382a56f82d07d0621b7fa80f33e207 s390/pai_crypto: Rename variable cfm_dbg
 c124208b74a66713d2743089ae1c55a1661e8cd9 s390/pai_crypto: Rename member paicrypt_map::page
@@ -58,5 +58,7 @@ d17901e8e8ddef130222c5e087854811d9fdaff4 s390/pai: Calculate size of reserved PA
 37450e0994f717d8f621b1dfc1c713f9c66cf59c s390/processor: Add __forward_psw() helper
 a603a0039965ee66d7e521bacf8161d3109bfd75 s390/uprobes: Use __forward_psw() instead of private implementation
 52a1f73d1733e6d5bf2cbfa93296207e542cdea7 s390/fault: Print unmodified PSW address on protection exception
+a5188d0f8db40be549d2d43a59605eefcfda1d1d Merge branch 'fixes' into for-next
+785277e9439a5a7f632564fe6a38087cc9784411 Merge branch 'features' into for-next
 
---===============4741416229439454285==--
+--===============4082521721937596676==--
