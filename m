@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1559929382316762254=="
+Content-Type: multipart/mixed; boundary="===============6674696229627169328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 14 Nov 2025 02:16:52 -0000
-Message-Id: <176308661206.1173539.4402746148627338568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Fri, 14 Nov 2025 02:17:05 -0000
+Message-Id: <176308662537.1173824.17390411788301752960@gitolite.kernel.org>
 
---===============1559929382316762254==
+--===============6674696229627169328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/perf-tools
@@ -20,7 +20,7 @@ changes:
     new: b72b8132d8fd2d6bf5b420a03d4fc553980c3a92
     log: revlist-da32d155f4a8-b72b8132d8fd.txt
 
---===============1559929382316762254==
+--===============6674696229627169328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -299,4 +299,4 @@ d0206db94b36c998c11458cfdae2f45ba20bc4fb perf lock: Fix segfault due to missing 
 3c723f449723db2dc2b75b7efe03c2a76e4c09f0 perf test: Fix lock contention test
 b72b8132d8fd2d6bf5b420a03d4fc553980c3a92 perf libbfd: Ensure libbfd is initialized prior to use
 
---===============1559929382316762254==--
+--===============6674696229627169328==--
