@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sergeh/linux
-Date: Fri, 14 Nov 2025 20:21:02 -0000
-Message-Id: <176315166267.2135612.2466796044151356332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Fri, 14 Nov 2025 20:23:27 -0000
+Message-Id: <176315180725.2136925.4872742204757602968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sergeh/linux
-user: sergeh
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/2025-11-14/test-cleanup
-    old: feb4257f59e8d0cd88e7cb3fa6212f4e9daeaba8
-    new: c7e4133e0fab3d99d89750144c200dd15f605665
+  - ref: refs/heads/main
+    old: 86ff0cdf55ad2d487fb838f3ffe98f7c41bb1c0c
+    new: 461917783010545581b4b9caf4107897b7c8765a
     log: |
-         c7e4133e0fab3d99d89750144c200dd15f605665 Clarify the rootid_owns_currentns
+         461917783010545581b4b9caf4107897b7c8765a refactor: remove policy module
          
