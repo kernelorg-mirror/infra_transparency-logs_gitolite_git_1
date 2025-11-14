@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1121879821379852314=="
+Content-Type: multipart/mixed; boundary="===============6917372672443170075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 14 Nov 2025 18:07:38 -0000
-Message-Id: <176314365846.2015738.5338578562545588538@gitolite.kernel.org>
+Date: Fri, 14 Nov 2025 18:07:41 -0000
+Message-Id: <176314366109.2015835.11168908915017592820@gitolite.kernel.org>
 
---===============1121879821379852314==
+--===============6917372672443170075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f694d215d34035cc64b1d176fd82db0d1f2428d4
     new: df58ee7d8faf353ebf5d4703c35fcf3e578e9b1b
     log: revlist-f694d215d340-df58ee7d8faf.txt
 
---===============1121879821379852314==
+--===============6917372672443170075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -370,4 +370,4 @@ eb47c5c4888d86d4f2bfd1513f4cf79a920e65b5 net: phy: mscc: Add support for PHY LED
 df397943196f7ff396beb41449583b4629ee99e2 net: phy: mscc: Handle devm_phy_package_join() failure in vsc85xx_probe_common()
 df58ee7d8faf353ebf5d4703c35fcf3e578e9b1b Merge branch 'net-phy-mscc-add-support-for-phy-led-control'
 
---===============1121879821379852314==--
+--===============6917372672443170075==--
