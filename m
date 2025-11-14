@@ -1,63 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8417957668224548951=="
+Content-Type: multipart/mixed; boundary="===============1350942370359391350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 14 Nov 2025 17:03:56 -0000
-Message-Id: <176313983689.1959880.11624227668537984673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 14 Nov 2025 17:05:01 -0000
+Message-Id: <176313990144.1960837.17843180747199678816@gitolite.kernel.org>
 
---===============8417957668224548951==
+--===============1350942370359391350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.18
-    old: 66e9feb03e7cf8983b1d0c540e2dad90d5146d48
-    new: 10eaa4c4a257944e9b30d13fda7d09164a70866d
-    log: |
-         f1eb4e792bb1ee3dcdffa66f8a83a4867cda2dd3 spi: spi-cadence-quadspi: Enable pm runtime earlier to avoid imbalance
-         10eaa4c4a257944e9b30d13fda7d09164a70866d spi: spi-cadence-quadspi: Remove duplicate pm_runtime_put_autosuspend() call
-         
-  - ref: refs/heads/spi-6.19
-    old: 1d562ba0aa7df81335bf96c02be77efe8d5bab87
-    new: c94f134729491ab60fc68fcd919821014334db97
-    log: revlist-1d562ba0aa7d-c94f13472949.txt
+  - ref: refs/heads/for-next
+    old: e62ab9ddfe82a2d81bf369fc741e308bdc8c27b9
+    new: ef86ca232318d6b2e11f172e790a22ce816f88d0
+    log: revlist-e62ab9ddfe82-ef86ca232318.txt
 
---===============8417957668224548951==
+--===============1350942370359391350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1763139905 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1763139834-e46b51fd982bcca23af8ede6d871de2192497260
-
-66e9feb03e7cf8983b1d0c540e2dad90d5146d48 10eaa4c4a257944e9b30d13fda7d09164a70866d refs/heads/spi-6.18
-1d562ba0aa7df81335bf96c02be77efe8d5bab87 c94f134729491ab60fc68fcd919821014334db97 refs/heads/spi-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkXYUEACgkQJNaLcl1U
-h9BcvQf8DQEmfhftLlCbsOvA7nzbAmjG3N0jYN5vXBsGu//y2O5SOyTsEiWQ7kzA
-CLDL2ZAVV15OUjnjQzg/UZPxjtFav63dUY2+izn8dxQpYlC4MTiGcFAVffcruTsb
-iOOgpXTrxXrwGWu/yTVqws2yn4PkwCARDJ+Wh+2pT6X/ETDMbDieDr9pDRN4C8+I
-Luia1WkfzvnaRCz6S8zvEqixkaoRvhMCgkrvHpgeDk0avlmGdN3dPFPHwm10l2qz
-E7Qziv6KQs4Sfl+nozoXEL7Tz5OHFttk6XpbglNFqfVrkShPcOj4PYo9IBiHxW0m
-kLd/AeHfSuj5WuU/h+4fyUu5jHqwKg==
-=0ff6
------END PGP SIGNATURE-----
-
---===============8417957668224548951==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d562ba0aa7d-c94f13472949.txt
+Content-Disposition: attachment; filename=revlist-e62ab9ddfe82-ef86ca232318.txt
 
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
 512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
@@ -314,12 +281,16 @@ b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of 
 3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
-55b5d192bab5e152bda8f8cefe837c4ed0ec60c5 dt-bindings: spi: spi-cadence: update DT binding docs to support cix sky1 SoC
-4e00135b2dd1d7924a58bffa551b6ceb3bd836f2 spi: spi-cadence: supports transmission with bits_per_word of 16 and 32
-71c814e98696f2cd53e9e6cef7501c2d667d4c5a spi: microchip: rename driver file and internal identifiers
-8ce9a2ed153bcaa750aa494e91ce2e70c3b0cdc5 spi: dt-binding: document Microchip CoreSPI
-059f545832be85d29ac9ccc416a16f647aa78485 spi: add support for microchip "soft" spi controller
-af330925a18ff483adace1c4ed2dcc975a31d5c0 spi-cadence: support transmission with
-c94f134729491ab60fc68fcd919821014334db97 Add support for Microchip CoreSPI Controller
+7c63b5a8ed972a2c8c03d984f6a43349007cea93 ASoC: codecs: lpass-tx-macro: fix SM6115 support
+65d03e84d8b8e42cf4636fcabb81c9b130cec710 ASoC: dt-bindings: qcom,lpass-rx-macro: Add sm6115 LPASS RX
+5a0438622b49df1e723960ac9c0bf75e04370fdc ASoC: dt-bindings: qcom,lpass-va-macro: re-arrange clock-names
+675f41b8d1675d9a51a6dcb978ff76b95cbb4b92 ASoC: dt-bindings: qcom,lpass-va-macro: Add sm6115 LPASS VA
+893e2fd509e968cc1d76caadee0f5d2f2c72f137 ASoC: codecs: lpass-va-macro: add SM6115 compatible
+8ff3dcb0e8a8bf6c41f23ed4aa62d066d3948a10 ASoC: codecs: lpass-rx-macro: add SM6115 compatible
+fd94857a934cbe613353810a024c84d54826ead3 ASoC: codecs: pm4125: Fix potential conflict when probing two devices
+e65b871c9b5af9265aefc5b8cd34993586d93aab ASoC: codecs: pm4125: Remove irq_chip on component unbind
+c2561572031a1a0ac94d1112fd9b768f65d9bdd5 ASoC: codecs: lpass-macro: complete sm6115 support
+05b0e94153e313132b594783fa6a3fe9e0100595 ASoC: codecs: pm4125: Two minor fixes for
+ef86ca232318d6b2e11f172e790a22ce816f88d0 Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
 
---===============8417957668224548951==--
+--===============1350942370359391350==--
