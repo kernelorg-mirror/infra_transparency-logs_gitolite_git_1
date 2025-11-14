@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 14 Nov 2025 20:33:24 -0000
-Message-Id: <176315240495.2146453.547434926355006670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Fri, 14 Nov 2025 20:45:25 -0000
+Message-Id: <176315312528.2157530.7218879676595609136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/tmp.master
-    old: 1f2805b6eef104df3125143c949b391f6122e5b9
-    new: 8b536f4ea4706f6e06db0567c18ce3f1c41c3f67
+  - ref: refs/heads/master
+    old: b623c36bf5fb449ba3205769befcc4f494f03956
+    new: 1a655b7b610776de23a659a42694a70d4f5ece53
     log: |
-         7a7ff77a19d2ff1038d2f41c132c4a23a9d2962a btf_encoder: Remove encoder pointer from btf_encoder_func_state
-         2385c55f293b9d8d6c6c20465950a80684deb43a btf_encoder: Refactor btf_encoder__add_func_proto
-         8b536f4ea4706f6e06db0567c18ce3f1c41c3f67 btf_encoder: Factor out BPF kfunc emission
+         eb0935fd16f38d554dd1118b2c9c9956f31830d6 TODO: add an idea for absolute path based cache key handling
+         439b3895b190020a2e1a66fbef7711a181e45b66 TODO: add an item to fix
+         1a655b7b610776de23a659a42694a70d4f5ece53 TODO: add more items to do
          
