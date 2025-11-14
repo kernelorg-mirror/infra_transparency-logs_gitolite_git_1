@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8403224655340247346=="
+Content-Type: multipart/mixed; boundary="===============0078862909443565658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Nov 2025 15:53:41 -0000
-Message-Id: <176313562175.1889815.1418675064176333326@gitolite.kernel.org>
+Date: Fri, 14 Nov 2025 16:00:00 -0000
+Message-Id: <176313600058.1895651.14411435749809486705@gitolite.kernel.org>
 
---===============8403224655340247346==
+--===============0078862909443565658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/irq/urgent
-    old: ef3330b99c01bda53f2a189b58bed8f6b7397f28
-    new: 14473a1f88596fd729e892782efc267c0097dd1d
-    log: revlist-ef3330b99c01-14473a1f8859.txt
+  - ref: refs/heads/timers/urgent
+    old: 39a9ed0fb6dac58547afdf9b6cb032d326a3698f
+    new: e0fd4d42e27f761e9cc82801b3f183e658dc749d
+    log: revlist-39a9ed0fb6da-e0fd4d42e27f.txt
 
---===============8403224655340247346==
+--===============0078862909443565658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef3330b99c01-14473a1f8859.txt
+Content-Disposition: attachment; filename=revlist-39a9ed0fb6da-e0fd4d42e27f.txt
 
 b14bb2e7821bdd133afeb5e623fd6c5a2273ecf6 tee: qcom: prevent potential off by one read
 a9ee2c461e5c361545f0c45e9f149159ba369c64 tee: qcom: return -EFAULT instead of -EINVAL if copy_from_user() fails
@@ -191,7 +191,6 @@ fc2bc2623e3a099165b02d13567d21fabb5ea54d Revert "PCI: qcom: Prepare for the DWC 
 a0b7780602b1b196f47e527fec82166a7e67c4d0 scsi: core: Fix a regression triggered by scsi_host_busy()
 19de7113bfac33ba92c004a9b510612bb745cfa0 x86,fs/resctrl: Fix NULL pointer dereference with events force-disabled in mbm_event mode
 789e46fbfca1875671717a20a916ca1a920268e4 drm/i915/panic: fix panic structure allocation memory leak
-39a9ed0fb6dac58547afdf9b6cb032d326a3698f timekeeping: Fix aux clocks sysfs initialization loop bound
 2551a1eedc09f5a86f94b038dc1bb16855c256f1 kunit: test_dev_action: Correctly cast 'priv' pointer to long*
 10fad4012234a7dea621ae17c0c9486824f645a0 Revert "cpuidle: menu: Avoid discarding useful information"
 380cb5d3533cddd93050d72d65f7b1fc997823f7 Merge tag 'fsnotify_for_v6.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
@@ -400,6 +399,9 @@ d91a1d129b63614fa4c2e45e60918409ce36db7e ACPI: fan: Use platform device for devr
 7df699c2132f36359f8f79e6a163c3b3fe0b0e3d media: v4l2-subdev / pdx86: int3472: Use "privacy" as con_id for the privacy LED
 758dbc756aad429da11c569c0d067f7fd032bcf7 media: uvcvideo: Use heuristic to find stream entity
 27afd6e066cfd80ddbe22a4a11b99174ac89cced media: videobuf2: forbid remove_bufs when legacy fileio is active
+5d7e45dd670e42df4836afeaa9baf9d41ca4b434 genirq/chip: Add buslock back in to irq_set_handler()
+56363e25f79fe83e63039c5595b8cd9814173d37 genirq/manage: Add buslock back in to __disable_irq_nosync()
+ef3330b99c01bda53f2a189b58bed8f6b7397f28 genirq/manage: Add buslock back in to enable_irq()
 a35551a32d8686c0a33a580ebb8c8d6652b7971f ASoC: Intel: avs: Set of streaming fixes
 ad68c0536cfc28c161593ca4c896a6e74435394b ASoC: fsl: correct the bit order issue for DSD
 7f434e1d9a17ca5f567c9796c9c105a65c18db9a slab: Fix obj_ext mistakenly considered NULL due to race condition
@@ -895,6 +897,6 @@ b5c0946029200d93f1239d3f310efa3f075abf79 Merge tag 'sched-urgent-2025-11-08' of 
 3461e958c1052111f9729d74861cdf44fa2eda61 Merge tag 'kbuild-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 f850568efe3a7a9ec4df357cfad1f997f0058924 Merge tag 'i2c-for-6.18-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c Linux 6.18-rc5
-14473a1f88596fd729e892782efc267c0097dd1d irqchip/riscv-intc: Add missing free() callback in riscv_intc_domain_ops
+e0fd4d42e27f761e9cc82801b3f183e658dc749d posix-timers: Plug potential memory leak in do_timer_create()
 
---===============8403224655340247346==--
+--===============0078862909443565658==--
