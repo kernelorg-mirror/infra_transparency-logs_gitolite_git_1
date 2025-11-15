@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 15 Nov 2025 23:16:31 -0000
-Message-Id: <176324859153.3482639.13110236354261048690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Sat, 15 Nov 2025 23:23:18 -0000
+Message-Id: <176324899864.3487859.16398612153125955545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: aa9dbce1efcc030b52c4046b2f707861513ee88a
-    new: 83b2a97b96c6edd4fc94d6845fc9c4ab761c89ec
+  - ref: refs/heads/perf/defer-callchain-v4
+    old: a03b68e77e18f1ecf25ce4bb7fbc5a2221e1bb20
+    new: d276d5b61f699a7b0bb746c4b6672b1412d987a7
     log: |
-         83b2a97b96c6edd4fc94d6845fc9c4ab761c89ec patches/next: rebase to latest mm-new
+         3e1116973f28a8e11b205518de3e297947b363ca perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
+         d276d5b61f699a7b0bb746c4b6672b1412d987a7 perf tools: Merge deferred user callchains
          
