@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8418566223972858666=="
+Content-Type: multipart/mixed; boundary="===============1531887715096449984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 15 Nov 2025 09:20:27 -0000
-Message-Id: <176319842717.2791366.13226150856261217700@gitolite.kernel.org>
+Date: Sat, 15 Nov 2025 09:21:06 -0000
+Message-Id: <176319846666.2791797.10227126058068740132@gitolite.kernel.org>
 
---===============8418566223972858666==
+--===============1531887715096449984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,57 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a1c6ed8bd8d22c86f0c488a4715b9960c1ce07f5
-    new: 43c5a64ec513c59f1c753696835f60f858f81c61
-    log: revlist-a1c6ed8bd8d2-43c5a64ec513.txt
+    old: 43c5a64ec513c59f1c753696835f60f858f81c61
+    new: f24fe355e9c1f20be9938312d147599a944bc998
+    log: revlist-43c5a64ec513-f24fe355e9c1.txt
+  - ref: refs/heads/tip/urgent
+    old: 802bdeefcbce8a7c8f307b2625f1365cfded0c1e
+    new: 3548adc26cd80f1569bb27c7bc4da6fcf5f77513
+    log: revlist-802bdeefcbce-3548adc26cd8.txt
 
---===============8418566223972858666==
+--===============1531887715096449984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1c6ed8bd8d2-43c5a64ec513.txt
+Content-Disposition: attachment; filename=revlist-43c5a64ec513-f24fe355e9c1.txt
+
+4053382b56be1e895af8b799601db454fbfda819 Merge branch into tip/master: 'core/urgent'
+42224a2e75e8889e423344d59d1eb51ea50af99f Merge branch into tip/master: 'irq/urgent'
+0d5b60ae0becc7ce9a292ac922c4cba9f511af5c Merge branch into tip/master: 'timers/urgent'
+3548adc26cd80f1569bb27c7bc4da6fcf5f77513 Merge branch into tip/master: 'x86/urgent'
+c49e4735eeda3e09a9a7426ee83a7e822f2c6148 Merge branch into tip/master: 'core/bugs'
+98341fe3fdc39a97f1170f142cf8b029dfeabe54 Merge branch into tip/master: 'core/core'
+7d3b04d5b24cdd52abbde33d7761a1ab83be1ba0 Merge branch into tip/master: 'core/rseq'
+493c9f1f9e62f235ae6d8a8fcc10dec2348dc4e5 Merge branch into tip/master: 'irq/core'
+0cbadea74dc9b84a8a24f2543b735b8d45a4f4a2 Merge branch into tip/master: 'irq/drivers'
+0ac4816ecbd10cb5525a29b763d5c2dfb33f7bf2 Merge branch into tip/master: 'irq/msi'
+a878b1f0d8d723b73a86c3d3bc711261c8b27db1 Merge branch into tip/master: 'locking/core'
+00e9ac9ffdea5967147e5ba33776caab46ff6049 Merge branch into tip/master: 'locking/futex'
+7f5ac24c38d225b0a331f126e0870506aeb3e459 Merge branch into tip/master: 'objtool/core'
+0a67c1be59d32558ba8735277d9c20f1c772c214 Merge branch into tip/master: 'perf/core'
+8f528e111fde2b1cfe4b56115e38430e864d3b2f Merge branch into tip/master: 'ras/core'
+4ada93632751969365509ab654c248183f4d5542 Merge branch into tip/master: 'sched/core'
+b8366f3198e011d6e82abf012646f3b0451435fc Merge branch into tip/master: 'timers/core'
+47cc0a3fdeae3a7d9c2020011e034a0560958266 Merge branch into tip/master: 'x86/apic'
+577651a5e74e447310c1d13a2175be7be4e2c592 Merge branch into tip/master: 'x86/boot'
+e47f58f1e4d66c7ee6670d55b19a43cbe2b30c43 Merge branch into tip/master: 'x86/bugs'
+5528dd67bfe3f7cb6f9ab14ab440912af4120ce8 Merge branch into tip/master: 'x86/build'
+f42ce075220aaede034e7958a565386a13691a71 Merge branch into tip/master: 'x86/cache'
+67045be7b28b8eca51848007e92ec58ae283d950 Merge branch into tip/master: 'x86/cleanups'
+b96f4d32e144de8b018fbc1f30a9e25cb75c1e98 Merge branch into tip/master: 'x86/core'
+d6d56f260214919460a9c8749deed0764e72ef29 Merge branch into tip/master: 'x86/cpu'
+74872e2dd8ce0fccc11c7290ed71b0c974eadcdc Merge branch into tip/master: 'x86/entry'
+476ca22ca5a4d139bc9efb677844325844372cc3 Merge branch into tip/master: 'x86/microcode'
+5f13035040ff7e6eea3cd69275cc399907622a2a Merge branch into tip/master: 'x86/misc'
+5a6cef7fc0187511fbf3b64f09ef36fdb370426e Merge branch into tip/master: 'x86/mm'
+e23d30f912448af4d318e8b61b4a528bce000bbc Merge branch into tip/master: 'x86/sev'
+f24fe355e9c1f20be9938312d147599a944bc998 Merge branch into tip/master: 'x86/sgx'
+
+--===============1531887715096449984==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-802bdeefcbce-3548adc26cd8.txt
 
 a7b17ece4032dd86bb411297f2169dda395cdc3c mmc: wmt-sdmmc: fix compile test default
 90c82941adf1986364e0f82c35cf59f2bf5f6a1d pmdomain: samsung: plug potential memleak during probe
@@ -125,7 +167,11 @@ cb730e4ac1b4dca09d364fd83464ebd29547a4ef selftests/bpf: Add mptcp test with sock
 538e0110fedc6d7321fbd79594395469bf2749e3 Merge tag 'drm-intel-fixes-2025-11-13' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 362a7d4fd5c473d43c498e68e13ff7acf8ca4ccf Merge tag 'drm-xe-fixes-2025-11-13' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 fa3c727e05996811a2a57c5114e88200c05b6161 Merge tag 'asoc-fix-v6.18-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+e1a97a627cd01d73fac5dd054d8f3de601ef2781 x86/CPU/AMD: Add additional fixed RDSEED microcode revisions
+dd14022a7ce96963aa923e35cf4bcc8c32f95840 x86/microcode/AMD: Add Zen5 model 0x44, stepping 0x1 minrev
 21a9ab5b90b3716a631d559e62818029b4e7f5b7 ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
+14473a1f88596fd729e892782efc267c0097dd1d irqchip/riscv-intc: Add missing free() callback in riscv_intc_domain_ops
+e0fd4d42e27f761e9cc82801b3f183e658dc749d posix-timers: Plug potential memory leak in do_timer_create()
 95baf63fe81e5fc91d194019f5aec8ecd9c50bb6 Merge tag 'v6.18-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 b86caedd0b2c6e86c3fbaf5a04e5f9161b5688fd Merge tag 'v6.18-p5' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 4ef92743625818932b9c320152b58274c05e5053 bpf: Add bpf_prog_run_data_pointers()
@@ -144,6 +190,9 @@ d5c1b4b43249bfa038df2f63e2d506bbf6e07df9 Merge tag 'drm-fixes-2025-11-15' of htt
 a752782a2843323d2c04ee6ab79531d027072e88 Merge tag 'rust-fixes-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 cbba5d1b53fb82209feacb459edecb1ef8427119 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 7a0892d2836e12cc61b6823f888629a3eb64e268 Merge tag 'pci-v6.18-fixes-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-43c5a64ec513c59f1c753696835f60f858f81c61 Merge branch 'linus'
+4053382b56be1e895af8b799601db454fbfda819 Merge branch into tip/master: 'core/urgent'
+42224a2e75e8889e423344d59d1eb51ea50af99f Merge branch into tip/master: 'irq/urgent'
+0d5b60ae0becc7ce9a292ac922c4cba9f511af5c Merge branch into tip/master: 'timers/urgent'
+3548adc26cd80f1569bb27c7bc4da6fcf5f77513 Merge branch into tip/master: 'x86/urgent'
 
---===============8418566223972858666==--
+--===============1531887715096449984==--
