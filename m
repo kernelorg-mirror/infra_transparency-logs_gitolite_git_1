@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 15 Nov 2025 02:35:19 -0000
-Message-Id: <176317411983.2457636.7254612534804526090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 15 Nov 2025 02:48:17 -0000
+Message-Id: <176317489768.2466693.2631192102786589584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 04ca7a69a35b060ecee60a9923e9891f5dd92eca
-    new: c7b6dd2a8a024d11a8edf03ba01491ce843cce37
+  - ref: refs/heads/master
+    old: 4f7bc83b983743b439e36b4d30883a87b371cba3
+    new: 6cc73f35406cae1f053e984e8de40e6dc9681446
     log: |
-         ebb07edf97383e6821e7263d17cf6b591603c47b net: stmmac: rk: replace HIWORD_UPDATE() with GRF_FIELD()
-         764ebe423ef946daaa63336b14dc71a942507982 net: stmmac: rk: convert all bitfields to GRF_FIELD*()
-         5e37047f745b1a705ba7a1b580b5e5fe2bfd5993 net: stmmac: rk: use PHY_INTF_SEL_x constants
-         1188741cb5a29187a93ee908274f7034e81486f6 net: stmmac: rk: use PHY_INTF_SEL_x in functions
-         c7b6dd2a8a024d11a8edf03ba01491ce843cce37 Merge branch 'net-stmmac-rk-use-phy_intf_sel_x'
+         d946f3c98328171fa50ddb908593cf833587f725 bpf: Check skb->transport_header is set in bpf_skb_check_mtu
+         6cc73f35406cae1f053e984e8de40e6dc9681446 selftests/bpf: Test bpf_skb_check_mtu(BPF_MTU_CHK_SEGS) when transport_header is not set
          
