@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-Date: Sat, 15 Nov 2025 18:31:56 -0000
-Message-Id: <176323151645.3245847.10737975040344792928@gitolite.kernel.org>
+Date: Sat, 15 Nov 2025 18:32:30 -0000
+Message-Id: <176323155084.3246379.13554265388514732620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 57c32fb14c5608c04ac58ef8cbbff0591773b08c
-    new: f5c2408520c941a126033f6558f0dda7ffb43530
+    old: f5c2408520c941a126033f6558f0dda7ffb43530
+    new: 6a54f4744df3390182c9fbed8cb05e91708952d8
     log: |
-         f5c2408520c941a126033f6558f0dda7ffb43530 refactor: rename Handle to TpmHandleRef
+         6a54f4744df3390182c9fbed8cb05e91708952d8 chore: bump version 0.7.2
          
