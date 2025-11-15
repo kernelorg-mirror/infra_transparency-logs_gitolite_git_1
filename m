@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1085018353010693419=="
+Content-Type: multipart/mixed; boundary="===============4189888161383281394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sat, 15 Nov 2025 11:57:40 -0000
-Message-Id: <176320786094.2916209.3361147100898153717@gitolite.kernel.org>
+Date: Sat, 15 Nov 2025 11:57:54 -0000
+Message-Id: <176320787475.2916471.11093202648429219131@gitolite.kernel.org>
 
---===============1085018353010693419==
+--===============4189888161383281394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/testing
     old: 209ff7af79bf495e6c3d300bf3dea6aeea973bc7
     new: c9dfb92de0738eb7fe6a591ad1642333793e8b6e
     log: revlist-209ff7af79bf-c9dfb92de073.txt
 
---===============1085018353010693419==
+--===============4189888161383281394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ebb07edf97383e6821e7263d17cf6b591603c47b net: stmmac: rk: replace HIWORD_UPDATE(
 c7b6dd2a8a024d11a8edf03ba01491ce843cce37 Merge branch 'net-stmmac-rk-use-phy_intf_sel_x'
 c9dfb92de0738eb7fe6a591ad1642333793e8b6e Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 
---===============1085018353010693419==--
+--===============4189888161383281394==--
