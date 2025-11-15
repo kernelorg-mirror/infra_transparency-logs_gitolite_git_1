@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4452997237377567736=="
+Content-Type: multipart/mixed; boundary="===============5080197139522258732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 15 Nov 2025 23:16:03 -0000
-Message-Id: <176324856301.3482120.9635409518025676260@gitolite.kernel.org>
+Date: Sat, 15 Nov 2025 23:16:04 -0000
+Message-Id: <176324856428.3482198.5086446712722039106@gitolite.kernel.org>
 
---===============4452997237377567736==
+--===============5080197139522258732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2d6056031e53ef9309ce5a140c330daf83c5a93b
-    new: 41218ede767f6b218185af65ce919d0cade75f6b
-    log: revlist-2d6056031e53-41218ede767f.txt
+  - ref: refs/heads/mm-unstable
+    old: dcff17d5ffff1f6e6bcbd5827877fddda04ff6db
+    new: ca42aa2fdd88739b931d888e52de227def160f23
+    log: revlist-dcff17d5ffff-ca42aa2fdd88.txt
 
---===============4452997237377567736==
+--===============5080197139522258732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d6056031e53-41218ede767f.txt
+Content-Disposition: attachment; filename=revlist-dcff17d5ffff-ca42aa2fdd88.txt
 
 39231e8d6ba7f794b566fd91ebd88c0834a23b98 mm: fix MAX_FOLIO_ORDER on powerpc configs with hugetlb
 00fbff75c5acb4755f06f08bd1071879c63940c5 crash: fix crashkernel resource shrink
@@ -325,18 +325,5 @@ fac16cc3ce41b73cfd9c6cca85671194f9822899 selftests/damon/sysfs.py: merge DAMON s
 8a8d52648b7b3819ba06c66d1637d873d7f117c4 zram: add writeback batch size device attr
 f73b16e86c0a21457dd5bddc04eb1be7c90e8811 zram: take write lock in wb limit store handlers
 ca42aa2fdd88739b931d888e52de227def160f23 zram: drop wb_limit_lock
-9b90732f9d6fc1379dfec9b9c56835bab3815189 mm: propagate VM_SOFTDIRTY on merge
-4f31d9490f80c9a41342995b04dd4ae9f0bd5e0d testing/selftests/mm: add soft-dirty merge self-test
-6b5cf80df01a695d6166e7a8ebc7dc4cd41c028d mm: declare VMA flags by bit
-442bf392cb2178a44668d2c8255c84a3f439087e mm-declare-vma-flags-by-bit-fix
-a6fa3502656b26b194b81f5b08d771af4dafe93d mm-declare-vma-flags-by-bit-fix-2
-ba4c7bd9c253a447f9ad12e674076535f3421d45 mm: simplify and rename mm flags function for clarity
-1a641fc7c0d429362bad05f780d66047b5f6d274 tools/testing/vma: eliminate dependency on vma->__vm_flags
-020ddd57816a9af1e6799e4a7c4145e277736cbc mm: introduce VMA flags bitmap type
-cefa22f5d9723c55929aaf09e9cc232da88a3958 mm/khugepaged: remove redundant clearing of struct collapse_control
-ea4747b87b2df8504cccc785effdca3e805dd1f7 mm/khugepaged: continue to collapse on SCAN_PMD_NONE
-b11c9bab2d17dddd6ae73c229ec98ade9390e003 mm/khugepaged: unify SCAN_PMD_NONE and SCAN_PMD_NULL into SCAN_NO_PTE_TABLE
-a235ee66a4e60fad658017dc3988d7cdc35d6c16 mm: shmem: allow fallback to smaller large orders for tmpfs mmap() access
-41218ede767f6b218185af65ce919d0cade75f6b mm/huge_memory.c: introduce folio_split_unmapped
 
---===============4452997237377567736==--
+--===============5080197139522258732==--
