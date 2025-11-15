@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/rbootd
-Date: Sat, 15 Nov 2025 19:12:19 -0000
-Message-Id: <176323393921.3279936.1400431002805756964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 15 Nov 2025 19:49:50 -0000
+Message-Id: <176323619010.3309618.2251616334140655382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/rbootd
-user: deller
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 2db5de7889bcaed4d77639b12d892c3e312a4bb3
-    new: 690ddd1564239c66b348d5d1b9f09329355b6d04
+  - ref: refs/heads/v6.19-armsoc/dts64
+    old: e99d922d37351ddcd6e1d3f4623340db547c8398
+    new: 4e8cb8e0328a4b3ba17905f0051ac98ab709c3ab
     log: |
-         690ddd1564239c66b348d5d1b9f09329355b6d04 Makefile: Do not warn on old-style function definitions
+         eaf661552b0f67278d8af4d42e6a5f97ceb0281f arm64: dts: rockchip: fixes vcc3v3_s0 supply for 100ASK DshanPi A1
+         4e8cb8e0328a4b3ba17905f0051ac98ab709c3ab arm64: dts: rockchip: fixes audio for 100ASK DshanPi A1
          
