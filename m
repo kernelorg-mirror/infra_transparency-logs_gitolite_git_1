@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Sun, 16 Nov 2025 09:07:12 -0000
-Message-Id: <176328403234.3959696.8227996511178105838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 16 Nov 2025 10:22:07 -0000
+Message-Id: <176328852797.4019225.9777678879531748069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 340d4b66512ae57a44e28bdcf15b1c051c3d35e0
-    new: ad89d5265165f554cd7353eeddfd2d6c4c544d51
-    log: |
-         ad89d5265165f554cd7353eeddfd2d6c4c544d51 CHANGES: old CHANGES update
-         
+  - ref: refs/tags/v6.18-rockchip-dtsfixes1
+    old: 0000000000000000000000000000000000000000
+    new: 3822715e9fb006ea316d94d4f26ff6623136d45a
