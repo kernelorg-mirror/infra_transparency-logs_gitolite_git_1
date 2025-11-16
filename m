@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sun, 16 Nov 2025 00:42:34 -0000
-Message-Id: <176325375455.3551350.4858030779783920399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 16 Nov 2025 01:27:58 -0000
+Message-Id: <176325647871.3589010.12089928748002332075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 0cc3a0a424cfe3e693c71c7b67a54e988c543cea
-    new: 069385d8190887e9d23aa7bf364514799255b0e8
+  - ref: refs/heads/main
+    old: 305855d5eb8784fcc8398a24dbcb85a7ef5a5442
+    new: 53c6abfe873797915c5881add80d265cb64991a5
     log: |
-         069385d8190887e9d23aa7bf364514799255b0e8 hkml_open: fix wrap_line() module name
+         53c6abfe873797915c5881add80d265cb64991a5 feat(device): refresh_key
          
