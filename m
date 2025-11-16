@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============1407812039907327344=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 Nov 2025 16:50:10 -0000
-Message-Id: <176331181082.142587.6598203835885449121@gitolite.kernel.org>
+Date: Sun, 16 Nov 2025 16:54:51 -0000
+Message-Id: <176331209148.145212.18407139650174134583@gitolite.kernel.org>
+
+--===============1407812039907327344==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,9 +16,29 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f24fe355e9c1f20be9938312d147599a944bc998
-    new: 1ca7356ad68839f3b5b3701c36ab36e6c048614a
-    log: |
-         e67997021fd0d73f230ee0473da3ad4e3d3ce37c x86/bugs: Get rid of the forward declarations
-         1ca7356ad68839f3b5b3701c36ab36e6c048614a Merge branch into tip/master: 'x86/bugs'
-         
+    old: 1ca7356ad68839f3b5b3701c36ab36e6c048614a
+    new: 0fa824c1af3f7cf81f56540f5adf119c7e0fdc17
+    log: revlist-1ca7356ad688-0fa824c1af3f.txt
+
+--===============1407812039907327344==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1ca7356ad688-0fa824c1af3f.txt
+
+2cf95b9baa52262bfb645cb3c04f902dd50c29e2 EDAC/versalnet: Handle split messages for non-standard errors
+fd3ecda38fe0cb713d167b5477d25f6b350f0514 EDAC/altera: Handle OCRAM ECC enable after warm reset
+281326be67252ac5794d1383f67526606b1d6b13 EDAC/altera: Use INTTEST register for Ethernet and USB SBE injection
+37339122a7801660dce11abd817af82cc4bef163 firewire: core: Initialize topology_map.lock
+31475b88110c4725b4f9a79c3a0d9bbf97e69e1c s390/mm: Fix __ptep_rdp() inline assembly
+e256f7b4e57d9f1149efd0e7745f77d8e615177b Merge tag 'core-urgent-2025-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fa3ade5e8e247e39bd192c92f9d1c1d08e0e61a4 Merge tag 'irq-urgent-2025-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bb1a6ddcfaa54b156e6e2ac61a986c4f5f8cb841 Merge tag 'timers-urgent-2025-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b8a2c32b22de691cceb835f1de306f2a8c1dd0c8 Merge tag 'x86-urgent-2025-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f824272b6e3fe24950abc527136e8140f67b0b23 Merge tag 's390-6.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+1107aac1ad7f445a83604b14af7be47f1a795c66 firewire: core: fix to update generation field in topology map
+87751e715e23ede7386fb57a1a8593aa9830b21f Merge tag 'edac_urgent_for_v6.18_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+7254a2b52279091683e0228095118ee69ce9742f Merge tag 'firewire-fixes-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+0fa824c1af3f7cf81f56540f5adf119c7e0fdc17 Merge branch 'linus'
+
+--===============1407812039907327344==--
