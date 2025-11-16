@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Nov 2025 15:10:31 -0000
-Message-Id: <176330583199.61615.15437880141583169344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 16 Nov 2025 16:10:09 -0000
+Message-Id: <176330940912.109858.16043853410526004342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: f824272b6e3fe24950abc527136e8140f67b0b23
-    new: 7254a2b52279091683e0228095118ee69ce9742f
+  - ref: refs/heads/testing
+    old: c76ba4b2644424b8dbacee80bb40991eac29d39e
+    new: f9e05791642810a0cf6237d39fafd6fec5e0b4bb
     log: |
-         2cf95b9baa52262bfb645cb3c04f902dd50c29e2 EDAC/versalnet: Handle split messages for non-standard errors
-         fd3ecda38fe0cb713d167b5477d25f6b350f0514 EDAC/altera: Handle OCRAM ECC enable after warm reset
-         281326be67252ac5794d1383f67526606b1d6b13 EDAC/altera: Use INTTEST register for Ethernet and USB SBE injection
-         37339122a7801660dce11abd817af82cc4bef163 firewire: core: Initialize topology_map.lock
-         1107aac1ad7f445a83604b14af7be47f1a795c66 firewire: core: fix to update generation field in topology map
-         87751e715e23ede7386fb57a1a8593aa9830b21f Merge tag 'edac_urgent_for_v6.18_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-         7254a2b52279091683e0228095118ee69ce9742f Merge tag 'firewire-fixes-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+         0de73abe5f5c2b58d66d6dcb7d44df05b0f73684 iio: buffer: use dma_buf_unmap_attachment_unlocked() helper
+         47e4b1ca441cc4f1d9db13ff5e9b89e53aae0198 iio: mpl3115: use get_unaligned_be24() to retrieve pressure data
+         6062cd20cbea6006d30af50e6f7d2a8722baa81b iio: mpl3115: add threshold events support
+         28b53b35c037c05bfedd28ef027e80a1b505f4aa iio: ABI: document pressure event attributes
+         02d44a1b64f11cdbcd5349063f149309c42a9fa5 iio: pressure: Arrange Makefile alphabetically
+         f9e05791642810a0cf6237d39fafd6fec5e0b4bb staging: iio: adt7316: replace sprintf() with sysfs_emit()
          
