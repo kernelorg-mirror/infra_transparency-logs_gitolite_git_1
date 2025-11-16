@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 16 Nov 2025 16:10:09 -0000
-Message-Id: <176330940912.109858.16043853410526004342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Sun, 16 Nov 2025 16:25:21 -0000
+Message-Id: <176331032156.122744.10246840618764350069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/testing
-    old: c76ba4b2644424b8dbacee80bb40991eac29d39e
-    new: f9e05791642810a0cf6237d39fafd6fec5e0b4bb
+  - ref: refs/heads/for-next
+    old: daef239013f16adf659eb9a24b386513e22ab20a
+    new: 23d03ad91f47e85685f64880efcc76c37202d242
     log: |
-         0de73abe5f5c2b58d66d6dcb7d44df05b0f73684 iio: buffer: use dma_buf_unmap_attachment_unlocked() helper
-         47e4b1ca441cc4f1d9db13ff5e9b89e53aae0198 iio: mpl3115: use get_unaligned_be24() to retrieve pressure data
-         6062cd20cbea6006d30af50e6f7d2a8722baa81b iio: mpl3115: add threshold events support
-         28b53b35c037c05bfedd28ef027e80a1b505f4aa iio: ABI: document pressure event attributes
-         02d44a1b64f11cdbcd5349063f149309c42a9fa5 iio: pressure: Arrange Makefile alphabetically
-         f9e05791642810a0cf6237d39fafd6fec5e0b4bb staging: iio: adt7316: replace sprintf() with sysfs_emit()
+         97e047f44d347a4f4033c0b62f77a15a9deaf750 trace/pid_list: optimize pid_list->lock contention
+         0d5077c73aceb51ef10d096160dd62a11db2f3e4 MAINTAINERS: Add Tomas Glozar as a maintainer to RTLA tool
+         6479325eca0148d417a82f0edcb37b58c4c0cf0a tracing: Have function graph tracer option funcgraph-irqs be per instance
+         4132886e1b74d031a1de8f0e9bac44056cf57304 tracing: Move graph-time out of function graph options
+         5abb6ccb58f0626a0b7577908bcb698b18812eed tracing: Have function graph tracer option sleep-time be per instance
+         bc089c47250e8923892873809471e54e05919d80 tracing: Convert function graph set_flags() to use a switch() statement
+         d6c3d26ea44e75415c94da47f3f017c7f24e8ab8 Merge latency/for-next
+         cd777d142bbf55795ee18f4751a6d63100289eda Merge probes/for-next
+         cf790f03fef75a9ea446e4d6061902e46d462c1f Merge tools/for-next
+         23d03ad91f47e85685f64880efcc76c37202d242 Merge unused-tracepoints/for-next
          
