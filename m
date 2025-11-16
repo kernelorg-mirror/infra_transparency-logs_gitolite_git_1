@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6624036088159861529=="
+Content-Type: multipart/mixed; boundary="===============4335938525369973943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 16 Nov 2025 23:18:45 -0000
-Message-Id: <176333512539.458034.3895167111831059739@gitolite.kernel.org>
+Date: Sun, 16 Nov 2025 23:20:17 -0000
+Message-Id: <176333521732.461054.2102065735214567255@gitolite.kernel.org>
 
---===============6624036088159861529==
+--===============4335938525369973943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c
-    new: 6a23ae0a96a600d1d12557add110e0bb6e32730c
-    log: revlist-e9a6fb0bcdd7-6a23ae0a96a6.txt
+  - ref: refs/heads/nfsd-testing
+    old: 8157e48a6a9435c7d1528cc42fb328a30aac1846
+    new: f130d30634b0f26c66aed59e2dd77177c8f39e6c
+    log: revlist-8157e48a6a94-f130d30634b0.txt
 
---===============6624036088159861529==
+--===============4335938525369973943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9a6fb0bcdd7-6a23ae0a96a6.txt
+Content-Disposition: attachment; filename=revlist-8157e48a6a94-f130d30634b0.txt
 
 ea138a607709bf72c162f62d2a670fe899d73daa RISC-V: KVM: Fix check for local interrupts on riscv32
 873f10cf8e4d59605bc38fa1051dea8ee56fe3be RISC-V: KVM: Read HGEIP CSR on the correct cpu
@@ -393,5 +393,44 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 7ba45f15049b4442c932ca2499aec739bb6bdbcf Merge tag 'mm-hotfixes-stable-2025-11-16-10-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
+bf94dea7fd4e6708d1a784be23db65eff84d82f1 svcrdma: Release transport resources synchronously
+89bd77cf436bf25e448817a662ebf76515f22863 nfsd: move name lookup out of nfsd4_list_rec_dir()
+4552f4e3f2c96597914f07b060d5c5db84420ddd nfsd: change nfs4_client_to_reclaim() to allocate data
+b5fc406bc730806662429272300fb56e4e6592d8 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+ccd608e29b7a73b7bee45b06bfeef088a97c4c92 NFSD: Add array bounds-checking in nfsd_iter_read()
+bfce8e4273d81a1d056ed3d79a27e1b2c4f60759 nfsd: delete unreachable confusing code in nfs4_open_delegation()
+166274a2456e5de9dc7e63a0818f7b842f218a5c NFSD: Update comment documenting unsupported fattr4 attributes
+566a414558aec1ab263ab8709fa783dfa2e34325 svcrdma: Increase the server's default RPC/RDMA credit grant
+3524b021b0ec620a76c89aee78e9d4b4130fb711 NFSD/blocklayout: Fix minlength check in proc_layoutget
+a1dce715c64d4376321b5534366ae48fd7d14bcc NFSD/blocklayout: Extract extent mapping from proc_layoutget
+0cd0d15d47f9e1a77ff64aedb2dbcf1c100e4006 NFSD/blocklayout: Introduce layout content structure
+cc6c40e09d7b1c559bdf42f0fe99b16eb7cfc5e3 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+803bc849f0039291f546ba0e2237faebeb5c073e NFSD: pass nfsd_file to nfsd_iter_read()
+d7de37d6d7ccfac9321d8cc4f36fc85dfadad54a NFSD: Relocate the xdr_reserve_space_vec() call site
+d686e64e931c594af8b27597f6bf04944c857ed7 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+ebd3330d1ca8844b0a0dba060d223523a186a5f9 SUNRPC: Improve "fragment too large" warning
+6b3b697d65d46a0f640216a3f6c72856c159c567 sunrpc: allocate a separate bvec array for socket sends
+3a1ce35030e1e0e35bc38db5e0be0165945f7e7f NFSD: Add a subsystem policy document
+6cc8c023a62b86763b1c703762d1d819194e99de nfsd: stop pretending that we cache the SEQUENCE reply.
+377c0011055db83991c430961b639465d29ffb23 nfsd: Use MD5 library instead of crypto_shash
+656a8cfc7dd7ea3a2411760ed79bd56bc310f377 MAINTAINERS: add a nfsd blocklayout reviewer
+6bf89fc365580cf7410c738d73796b59b0014532 lockd: don't allow locking on reexported NFSv2/3
+8834c6b64b342894af79e3c3f0591646bbfbd4e8 xdrgen: Generalize/harden pathname construction
+738e2273e3f20a20fd500e55f89a9c1f98e2b64c xdrgen: Make the xdrgen script location-independent
+41317f14367c9bf0513637a1b5a4dca2820c0570 xdrgen: Fix the variable-length opaque field decoder template
+9757c79d3238d5c66b6abd7e7c4efabf8b8c9f1f xdrgen: handle _XdrString in union encoder/decoder
+ac85c1a23e72ca06eba99309002cdaf2da160a8d xdrgen: Fix union declarations
+d26020db93f68c312cfd9cf7607ab19312b3d516 xdrgen: Don't generate unnecessary semicolon
+1712cf2f9e512b5ef14ae741d4465ab07bf0ebe6 NFSD: don't start nfsd if sv_permsocks is empty
+252bec3bd23344064a417aeb1ccb7505145ac6e6 NFSD: use correct reservation type in nfsd4_scsi_fence_client
+70f13147abf9548aaccb1ef3372b6b8160910c93 NFSD: Add trace point for SCSI fencing operation.
+6114b1e6ad477547cf86192af11ad5655db6a42d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
+4dc341da5bc276b2965668a4c86b7f33506296e1 svcrdma: use rc_pageoff for memcpy byte offset
+25c352667ba51352a7516f3ba04d53671eb1364f svcrdma: return 0 on success from svc_rdma_copy_inline_range
+90407e6f3ea6ecb82907018107e2e69879f158ff svcrdma: bound check rq_pages index in inline path
+070188117d51fcea37d44556287171d63304798c NFSD: Make FILE_SYNC WRITEs comply with spec
+dea1aed45f1f1177bf1324345f7a3a42b5301c13 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+033e406a694ea571544472407154d7e8b8d87b80 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+f130d30634b0f26c66aed59e2dd77177c8f39e6c nfsd: Mark variable __maybe_unused to avoid W=1 build break
 
---===============6624036088159861529==--
+--===============4335938525369973943==--
