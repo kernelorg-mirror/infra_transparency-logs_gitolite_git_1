@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 Nov 2025 19:59:41 -0000
-Message-Id: <176332318194.296222.14970745171009374080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
+Date: Sun, 16 Nov 2025 20:21:05 -0000
+Message-Id: <176332446527.314453.954918081207437210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
+user: jarkko
 changes:
-  - ref: refs/heads/x86/boot
-    old: 1c7ac68c05bc0327d725dd10aa05f5120f868250
-    new: 845ed7e04d9ae0146d5e003a5defd90eb95535fc
+  - ref: refs/heads/main
+    old: 1ab38ef5a383372821add3759aa11b0902639870
+    new: fb72a55c2bda20bda8c658d5d25f55851bc45cc2
     log: |
-         845ed7e04d9ae0146d5e003a5defd90eb95535fc x86/acpi/boot: Correct acpi_is_processor_usable() check again
+         30238292d53ac8097e2ffcf57a3fe96064f24e50 fix: set SIZE properly
+         fb72a55c2bda20bda8c658d5d25f55851bc45cc2 docs: fix inconsistencies
          
