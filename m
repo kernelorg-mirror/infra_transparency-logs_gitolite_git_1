@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 16 Nov 2025 18:42:28 -0000
-Message-Id: <176331854852.234411.13013701146514700818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 16 Nov 2025 18:56:40 -0000
+Message-Id: <176331940061.246129.17535304277539391255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: e7023f4b0aa364b0311e0bf89f5030435c328e8e
-    new: 59468c2c65cf1573a0c2f433e7151dc86e92065b
+  - ref: refs/heads/dev
+    old: 8b6753ddeaa69d04d6ff8b3bee0bf81a0607d396
+    new: 38cc1fc7cc9d7c9ed5275c1e78256431da7721c5
     log: |
-         59468c2c65cf1573a0c2f433e7151dc86e92065b foo
+         8bf3dcd8242192b8f8b12d90e0bc3e01943d2060 fixup! rcutorture: Add a textbook-style trivial preemptible RCU
+         38cc1fc7cc9d7c9ed5275c1e78256431da7721c5 fixup! rcutorture: Add a textbook-style trivial preemptible RCU
          
