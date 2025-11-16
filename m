@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 16 Nov 2025 23:43:18 -0000
-Message-Id: <176333659816.478310.2893517403422337528@gitolite.kernel.org>
+Date: Sun, 16 Nov 2025 23:43:51 -0000
+Message-Id: <176333663140.478772.15766536846258672491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: f130d30634b0f26c66aed59e2dd77177c8f39e6c
-    new: c8341d5bf36f685c48e32dc179e95fcd126206e4
-    log: |
-         c8341d5bf36f685c48e32dc179e95fcd126206e4 siw: Enable try_gso
-         
+  - ref: refs/heads/nfsv3-xdrgen
+    old: 0000000000000000000000000000000000000000
+    new: 6158ace3b663c4e9ab201f2cc644f4290fa30905
