@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sun, 16 Nov 2025 02:22:35 -0000
-Message-Id: <176325975574.3635734.1643710171268881392@gitolite.kernel.org>
+Date: Sun, 16 Nov 2025 02:26:25 -0000
+Message-Id: <176325998524.3639517.7586575846798629068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 5e818e7d4e75cbfc61523de70af49db40fa6556b
-    new: c82151f0be9c22d6cdf1d20629805c8b51b6c807
+    old: c82151f0be9c22d6cdf1d20629805c8b51b6c807
+    new: d5c78c0050975fca3d34e88ac2a5f6fc5bd0b6f2
     log: |
-         c82151f0be9c22d6cdf1d20629805c8b51b6c807 feat(vtpm): Marshal/Unmarshal error variants
+         d5c78c0050975fca3d34e88ac2a5f6fc5bd0b6f2 refactor(vtpm): simplify HandleNotFound error variant
          
