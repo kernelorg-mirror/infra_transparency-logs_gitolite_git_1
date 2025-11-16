@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 16 Nov 2025 12:27:00 -0000
-Message-Id: <176329602004.4123885.15233547245088978189@gitolite.kernel.org>
+Date: Sun, 16 Nov 2025 12:29:46 -0000
+Message-Id: <176329618613.4125923.12803213664767562274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
   - ref: refs/heads/for-linus
-    old: 2ea68aed6b0d327c78755c954827f25452e42f3f
-    new: 37339122a7801660dce11abd817af82cc4bef163
+    old: 37339122a7801660dce11abd817af82cc4bef163
+    new: 1107aac1ad7f445a83604b14af7be47f1a795c66
     log: |
-         37339122a7801660dce11abd817af82cc4bef163 firewire: core: Initialize topology_map.lock
+         1107aac1ad7f445a83604b14af7be47f1a795c66 firewire: core: fix to update generation field in topology map
          
