@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sun, 16 Nov 2025 02:31:11 -0000
-Message-Id: <176326027181.3644210.4062701690446345845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 16 Nov 2025 03:11:23 -0000
+Message-Id: <176326268396.3676040.874313083801220472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: acc2c276128c533e14e26a8a085647c59b9250be
-    new: 6364960fe18587df118caf3d156fece8fe0ae1ff
+  - ref: refs/heads/dev
+    old: 3f88db888f59ce2317a2cee8c8bf788dc10751af
+    new: 8b6753ddeaa69d04d6ff8b3bee0bf81a0607d396
     log: |
-         6364960fe18587df118caf3d156fece8fe0ae1ff refactor(vtpm): simplify HandleNotFound error variant
+         8b6753ddeaa69d04d6ff8b3bee0bf81a0607d396 rcutorture: Add a textbook-style trivial preemptible RCU
          
