@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7015798222436659207=="
+Content-Type: multipart/mixed; boundary="===============5821992664778318302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sun, 16 Nov 2025 13:12:39 -0000
-Message-Id: <176329875981.4160532.9963403821707513703@gitolite.kernel.org>
+Date: Sun, 16 Nov 2025 13:13:50 -0000
+Message-Id: <176329883079.4161162.16437709885720290942@gitolite.kernel.org>
 
---===============7015798222436659207==
+--===============5821992664778318302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/bindings
-    old: 2346a408b4f2b8f9ea3778deb40a91c774e463b6
-    new: 88f717c042bba8189dc0a11e5ac1ea7215bc69ce
-    log: |
-         21906e6f52b25340dc4c5de48a878c9ea7c13b72 dt-bindings: arm: fsl: Add PHYTEC phyBOARD-Segin-i.MX91 board
-         88f717c042bba8189dc0a11e5ac1ea7215bc69ce dt-bindings: arm: fsl: add Skov Rev.C HDMI support
-         
-  - ref: refs/heads/imx/defconfig
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 910ab02fbbfe1621a13b366b3761b6dd9d499c32
-    log: |
-         ef2429fe38a6cd9477871aa322347be352ad41a3 arm64: defconfig: Enable i.MX95 drivers for pinctrl, Ethernet and PCIe
-         193c1baab081104916e061e97e7be7343e097399 ARM: mxs_defconfig: enable sound drivers for imx28-amarula-rmm
-         910ab02fbbfe1621a13b366b3761b6dd9d499c32 arm64: defconfig: enable i.MX AIPSTZ driver
-         
-  - ref: refs/heads/imx/dt
-    old: adf6a5a275af6f75972e6d068ed9af4d50fd7493
-    new: 6f813b7814d305cac27b81d5cabe3ebdebd1d8f2
-    log: |
-         2f185905da8a617ea9177f34ec6ee7a73f83109a ARM: dts: imx28-amarula-rmm: add I2S audio
-         e58a4296807b24c271fb6677188d4b5ce49558cb ARM: dts: imx: e70k02: add sy7636
-         c8bf7740aad9b58ddab17501e9a9d6c951a59a03 ARM: dts: imx6dl-yapp43: Enable pwm-beeper on boards with speaker
-         35d7230cebc1cdf1ca7a9508a81e0e961f385907 ARM: dts: imx6dl-yapp4: Model the RGB LED as a single multi-led part
-         6f813b7814d305cac27b81d5cabe3ebdebd1d8f2 ARM: dts: imx6qdl: make VAR-SOM SoM SoC-agnostic
-         
-  - ref: refs/heads/imx/dt64
-    old: 8f76686bbdc87035eefc56a700f6788ce84f0e26
-    new: cfb65b7721c4e3c9941b4d5d70f5f5b1baf867ff
-    log: revlist-8f76686bbdc8-cfb65b7721c4.txt
-  - ref: refs/heads/imx/fixes
-    old: 1b03346314b791ad966d3c6d59253328226a2b2d
-    new: e89ee35567d3d465ef0715953170be72f5ef1d4c
-    log: |
-         e89ee35567d3d465ef0715953170be72f5ef1d4c arm64: dts: imx8qm-mek: fix mux-controller select/enable-gpios polarity
-         
+  - ref: refs/heads/for-next
+    old: 8c32f2f15cb9df2664556911dec59332d9c1942c
+    new: 351f701f756bffebd6224922c66025bd1f925f80
+    log: revlist-8c32f2f15cb9-351f701f756b.txt
 
---===============7015798222436659207==
+--===============5821992664778318302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f76686bbdc8-cfb65b7721c4.txt
+Content-Disposition: attachment; filename=revlist-8c32f2f15cb9-351f701f756b.txt
 
 dd93ee01a5056876be537b5bbb4a4a646b50982b arm64: dts: imx95-15x15-evk: Add supports-clkreq property to PCIe M.2 port
 756d0ef76e8a3ab36e05ec03e876935d526c8d37 arm64: dts: imx95-19x19-evk: Add supports-clkreq property to PCIe M.2 port
@@ -78,6 +47,10 @@ a2c79d55bd838b3d71e08e21f43b4b48cdc83c6f arm64: dts: imx8-apalis: add thermal no
 4a5977155584f0f4f757f884ee992e97bfc0932c arm64: dts: imx8-apalis: specify adc reference voltage regulator
 aa6f6799f9091721b559d4872db9e199ba4069ba arm64: dts: imx8-apalis: rename wifi regulator
 4c9cf0b3f1b795e05606fa54888a2b4dced39d64 arm64: dts: imx8-apalis: use startup-delay-us for wifi regulator
+ef2429fe38a6cd9477871aa322347be352ad41a3 arm64: defconfig: Enable i.MX95 drivers for pinctrl, Ethernet and PCIe
+193c1baab081104916e061e97e7be7343e097399 ARM: mxs_defconfig: enable sound drivers for imx28-amarula-rmm
+2f185905da8a617ea9177f34ec6ee7a73f83109a ARM: dts: imx28-amarula-rmm: add I2S audio
+21906e6f52b25340dc4c5de48a878c9ea7c13b72 dt-bindings: arm: fsl: Add PHYTEC phyBOARD-Segin-i.MX91 board
 33583fa58e431415c1b0a95e3d02988955373086 arm64: dts: freescale: Add phyBOARD-Segin-i.MX91 support
 aab882780ab1aad9e89c3cab8cb374a0a03aa75b arm64: dts: imx8mm-phyboard-polis: Use GPL-2.0-or-later OR MIT
 4b73a1bd864208b6db66ffd534b3a67fd574469e arm64: dts: imx8mm-phyboard-polis: move mipi bridge to som
@@ -87,6 +60,7 @@ f7a77fb14c7fc2da5a5495bca35b63d7172fce3e arm64: dts: imx8mm-phyboard-polis-peb-a
 3b0bf0659551e9df4f3d28a5ce92ea1c51f275a2 arm64: dts: imx8mm-phyboard-polis-peb-av-10: Fix audio codec reset pin ctl
 af21bfd1f7ce1cc05d0ee2e698efba28e4cc6c6b arm64: dts: freescale: imx93-phyboard-nash: Add jtag overlay
 09b33db32e1df762feb64725a11d3eb9eab0b25f arm64: dts: freescale: imx93-phyboard-nash: Add pwm-fan overlay
+e58a4296807b24c271fb6677188d4b5ce49558cb ARM: dts: imx: e70k02: add sy7636
 2984af793281bc269fc8de3a204400fbfdbe42a7 arm64: dts: imx8qm-mek: add state_100mhz and state_200mhz for usdhc
 64b60a72801103b1c9d6f7d1529b4ff7521f7b68 arm64: dts: imx8qm-mek: assign double SD bus frequency for usdhc1
 a8eebe6195234c01aa558da18be16ff2fb996feb arm64: dts: imx8qm-mek: add lpuart1 and bluetooth node
@@ -130,12 +104,23 @@ e0a89694d518f59ad330819a677bd5e096638f81 arm64: dts: imx95-tqma9596sa: add gpio 
 7287836c1df9c8c2831fa0142471ce8876a06228 arm64: dts: imx8qm-apalis: add pwm used by the backlight
 97a5766d629089e7960e99e73d7d3ed5ef588500 arm64: dts: freescale: Add GMAC Ethernet for S32G2 EVB and RDB2 and S32G3 RDB3
 db3f2e210617d8a7f124988b7f0a39d9b333059f arm64: dts: imx8mp: Add missing LED enumerators for DH electronics i.MX8M Plus DHCOM on PDK2
+c8bf7740aad9b58ddab17501e9a9d6c951a59a03 ARM: dts: imx6dl-yapp43: Enable pwm-beeper on boards with speaker
+35d7230cebc1cdf1ca7a9508a81e0e961f385907 ARM: dts: imx6dl-yapp4: Model the RGB LED as a single multi-led part
 c8ecfe2fc8bcb4dae5e61a46fa0d6828170b1a9f arm64: dts: imx8mp-skov: add Rev.C HDMI support
+88f717c042bba8189dc0a11e5ac1ea7215bc69ce dt-bindings: arm: fsl: add Skov Rev.C HDMI support
+910ab02fbbfe1621a13b366b3761b6dd9d499c32 arm64: defconfig: enable i.MX AIPSTZ driver
 a9b86b0e18ba9d7a372cebd28891685a589dea69 arm64: dts: imx8mp: convert 'aips5' to 'aipstz5'
 a8756b1027b5ab31e416a8b975436c7d16b91263 arm64: dts: imx8mp: make 'dsp' node depend on 'aips5'
+6f813b7814d305cac27b81d5cabe3ebdebd1d8f2 ARM: dts: imx6qdl: make VAR-SOM SoM SoC-agnostic
+e89ee35567d3d465ef0715953170be72f5ef1d4c arm64: dts: imx8qm-mek: fix mux-controller select/enable-gpios polarity
 5d541f57e33c7931886bef45a544a27c067bb403 arm64: dts: mba8mx: Add MicIn routing
 539f63a739cf843191869bd42dfc7431faa8295c arm64: dts: mba8xx: Add MicIn routing
 8188d5511932f0daeaada9bbb87fddf6ba3d5ba3 arm64: dts: mb-smarc-2: Add MicIn routing
 cfb65b7721c4e3c9941b4d5d70f5f5b1baf867ff arm64: dts: freescale: tqma9352: Add vcc-supply for spi-nor
+78f470ad9c6bec7288c05f1eaf69f520e3af9757 Merge branch 'imx/drivers' into for-next
+9c641df3ba003cb60cd99d601b744d3f34b13473 Merge branch 'imx/bindings' into for-next
+7e0171729ab72137b68eb8642ef6f84e13642caa Merge branch 'imx/dt' into for-next
+c73e0436e40fa2c7255d93767f018505e301ccac Merge branch 'imx/dt64' into for-next
+351f701f756bffebd6224922c66025bd1f925f80 Merge branch 'imx/defconfig' into for-next
 
---===============7015798222436659207==--
+--===============5821992664778318302==--
