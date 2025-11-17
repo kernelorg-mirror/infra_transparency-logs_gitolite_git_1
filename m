@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 17 Nov 2025 09:10:53 -0000
-Message-Id: <176337065397.951048.2418114933290620028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
+Date: Mon, 17 Nov 2025 09:20:28 -0000
+Message-Id: <176337122883.959050.14425488665269480270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/jenswi/linux-tee
+user: jenswi
 changes:
-  - ref: refs/heads/python-v2.4.x
-    old: 0000000000000000000000000000000000000000
-    new: e1d5096c6d83bffbc18c9218ca42bffa045e4d75
+  - ref: refs/heads/next
+    old: 8a6b5e90893d7f247c62e31911eef91eb4c3b0f4
+    new: eb4bb32c8117c0c7c8d093c06a565fd3d5dbeb0f
+    log: |
+         e19d7f7e92e061707252eab2b71d2c3be09b2e96 tee: qcomtee: initialize result before use in release worker
+         eb4bb32c8117c0c7c8d093c06a565fd3d5dbeb0f Merge branch 'qcomtee_fixes_for_6.18' into next
+         
