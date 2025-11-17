@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Mon, 17 Nov 2025 11:51:04 -0000
-Message-Id: <176338026475.1112084.4521731442728450570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Mon, 17 Nov 2025 11:51:47 -0000
+Message-Id: <176338030703.1112441.72662557261713599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-user: jarkko
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/main
-    old: 14da8f4c1484a412626c8f3e8d3c862cecb7d4e4
-    new: 8bed9854f73227018b42e8fe6bdf4a2a8076619f
-    log: |
-         8bed9854f73227018b42e8fe6bdf4a2a8076619f refactor: rename Error to TpmKeyError
-         
+  - ref: refs/tags/imx-bindings-6.19
+    old: 0000000000000000000000000000000000000000
+    new: 44c574a1b2f8d9ce8d14ee8e048b8c1554b2e1fa
