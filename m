@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7713502314454162843=="
+Content-Type: multipart/mixed; boundary="===============4178381256236153593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 17 Nov 2025 16:11:28 -0000
-Message-Id: <176339588896.1402739.239296849055526028@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 16:11:30 -0000
+Message-Id: <176339589021.1402869.5987161429818474019@gitolite.kernel.org>
 
---===============7713502314454162843==
+--===============4178381256236153593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 41218ede767f6b218185af65ce919d0cade75f6b
-    new: a1a57ed825dc7a4b4db59908474a56c53e5131fc
-    log: revlist-41218ede767f-a1a57ed825dc.txt
+  - ref: refs/heads/mm-unstable
+    old: ca42aa2fdd88739b931d888e52de227def160f23
+    new: 2a8f76e458003cf7845de28a2b010f5c093d75c0
+    log: revlist-ca42aa2fdd88-2a8f76e45800.txt
 
---===============7713502314454162843==
+--===============4178381256236153593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41218ede767f-a1a57ed825dc.txt
+Content-Disposition: attachment; filename=revlist-ca42aa2fdd88-2a8f76e45800.txt
 
 3407caccb898a3c4b6bdca4754146b595c960c31 Merge branch 'mm-hotfixes-stable' into mm-stable to be able to merge "mm: introduce deferred freeing for kernel page tables" into mm-stable.
 37d17925480404f1293f24d027fbf3c9975603d7 mm/thp: drop follow_devmap_pmd() default stub
@@ -320,18 +320,5 @@ f08b7910f21d76db0c7615384fc408a4faf8736b mm/vmalloc: cleanup large_gfp in vm_are
 139c185131bfaea30160b4d4658c2ad6fc8cb22b zram: add writeback batch size device attr
 a5a9c6011c01d33b91354c3d773eaa11c50605a8 zram: take write lock in wb limit store handlers
 2a8f76e458003cf7845de28a2b010f5c093d75c0 zram: drop wb_limit_lock
-3d1d595ceade621343d28fbf41d3328382f0301d mm: propagate VM_SOFTDIRTY on merge
-aca264e7ee293f111327afc499abaf39ded4bd9a testing/selftests/mm: add soft-dirty merge self-test
-6b91d26a45577b7eace4f38fdd25e0ba3339e724 mm: declare VMA flags by bit
-43d9edd8521110a27159d72d4eb426a1d52fbd7c mm-declare-vma-flags-by-bit-fix
-6b3c2e96d389198d98dc0ac73e359d4912aff96d mm-declare-vma-flags-by-bit-fix-2
-70840cf6c3b6e42328ae871c7b75a11add74e64a mm: simplify and rename mm flags function for clarity
-3cc3055ac2f1ee9961e9f60fc50ee17062a93d15 tools/testing/vma: eliminate dependency on vma->__vm_flags
-4256db8530226ba9ae86d7f563f9edf80879ed9c mm: introduce VMA flags bitmap type
-af25745e38fe601b57a7c2574f1263db010a9a7f mm/khugepaged: remove redundant clearing of struct collapse_control
-474354dbc01ab67c123da1c510db0e024e86e226 mm/khugepaged: continue to collapse on SCAN_PMD_NONE
-b75aa09ffd7270a237eea18fa73df404a17bccac mm/khugepaged: unify SCAN_PMD_NONE and SCAN_PMD_NULL into SCAN_NO_PTE_TABLE
-4dbc43b914912c3ace017120869e0993962d950a mm: shmem: allow fallback to smaller large orders for tmpfs mmap() access
-a1a57ed825dc7a4b4db59908474a56c53e5131fc mm/huge_memory.c: introduce folio_split_unmapped
 
---===============7713502314454162843==--
+--===============4178381256236153593==--
