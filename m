@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Mon, 17 Nov 2025 15:13:11 -0000
-Message-Id: <176339239199.1345713.1100668331157694338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 17 Nov 2025 15:13:13 -0000
+Message-Id: <176339239328.1345768.3414232288609206193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-user: jarkko
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: aa2c18b366890300caef22ac6e00cbc8e335e8a5
-    new: 1de3ddbb4961c2843c842842544f9acc5478059c
+  - ref: refs/heads/master
+    old: ab0d1457d584bb893a49dfa184ee274af41cb98b
+    new: b7e2ffff8af4a61985e1eaba6d101b9d7c3e67b1
     log: |
-         1de3ddbb4961c2843c842842544f9acc5478059c tests: expand test suite
+         b7e2ffff8af4a61985e1eaba6d101b9d7c3e67b1 Fixes for all trees
          
