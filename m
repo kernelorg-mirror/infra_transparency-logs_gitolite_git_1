@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 17 Nov 2025 16:14:12 -0000
-Message-Id: <176339605298.1405269.5953933146096468719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Mon, 17 Nov 2025 16:15:47 -0000
+Message-Id: <176339614751.1407886.6201292532303744264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: c70930b35502786b8d8876b6e4e4b89b1905e021
-    new: 58534f5fcc075089eec682f155962c01a0183ab5
+  - ref: refs/heads/main
+    old: 44717938f454a3ce088a194b4e0235937364890e
+    new: ec20bda1b7cf5e7328d1782a44adebbfd4a578ae
     log: |
-         d0ce35d0a4fe945e72b57be84d6e4e59c28e87d3 nfsd: fix memory leak in nfsd_create_serv error paths
-         58534f5fcc075089eec682f155962c01a0183ab5 siw: Enable try_gso
+         ec20bda1b7cf5e7328d1782a44adebbfd4a578ae feat: TaskState::resolve_policy
          
