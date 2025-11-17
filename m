@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 17 Nov 2025 16:49:11 -0000
-Message-Id: <176339815177.1439805.1494913335950870493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 17 Nov 2025 16:50:09 -0000
+Message-Id: <176339820907.1442230.1188611837402939843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/todo
-    old: 650eea4f39c130c381f80d17811a32052f8ca73c
-    new: cb4b603d9736ee77e4fef18c143f9418dbd41b2c
+  - ref: refs/heads/spi-6.19
+    old: c94f134729491ab60fc68fcd919821014334db97
+    new: 118eb2cb97b8fc0d515bb0449495959247db58f0
     log: |
-         cb4b603d9736ee77e4fef18c143f9418dbd41b2c What's cooking (2025/11 #05)
+         118eb2cb97b8fc0d515bb0449495959247db58f0 spi: bcm63xx: drop wrong casts in probe()
          
