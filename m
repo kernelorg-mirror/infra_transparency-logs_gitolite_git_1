@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5390840585729053847=="
+Content-Type: multipart/mixed; boundary="===============5427235570107398929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 17 Nov 2025 19:28:07 -0000
-Message-Id: <176340768786.1584045.11157430457496755575@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 19:29:10 -0000
+Message-Id: <176340775051.1585083.6711226599224152377@gitolite.kernel.org>
 
---===============5390840585729053847==
+--===============5427235570107398929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/experimental/intel_pstate/ptl
-    old: 227158bd2619b1451ad7e59f9b1d0ba95c8e02d5
-    new: 772d4e421b0704c74c5d0532b435b4cdb3cc16c1
-    log: revlist-227158bd2619-772d4e421b07.txt
+  - ref: refs/heads/experimental/intel_pstate/ptl+default_eas
+    old: 93d1323950c073da670710d507e94f8137af3c41
+    new: 593d2393133ae0664c173c5c47ff1eb5ffa96795
+    log: revlist-93d1323950c0-593d2393133a.txt
 
---===============5390840585729053847==
+--===============5427235570107398929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-227158bd2619-772d4e421b07.txt
+Content-Disposition: attachment; filename=revlist-93d1323950c0-593d2393133a.txt
 
 79c0a2b7abc906c7cf3c793256c6b638d7dc477f EDAC/versalnet: Fix off by one in handle_error()
 512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
@@ -662,5 +662,6 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 c677bba0185199c1b4270ccd466210d7601ae769 cpufreq: intel_pstate: hybrid: Change platform data representation
 115c44cca158add01bb7cd897ac83a867908f266 cpufreq: intel_pstate: hybrid: Platform-specific EM support
 772d4e421b0704c74c5d0532b435b4cdb3cc16c1 cpufreq: intel_pstate: hybrid: Chip-specific EM for Panther Lake
+593d2393133ae0664c173c5c47ff1eb5ffa96795 Merge branch 'experimental/cpufreq' into experimental/intel_pstate/ptl+default_eas
 
---===============5390840585729053847==--
+--===============5427235570107398929==--
