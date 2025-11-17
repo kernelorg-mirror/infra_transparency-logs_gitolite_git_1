@@ -1,53 +1,127 @@
-Content-Type: multipart/mixed; boundary="===============7496420906746179410=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 17 Nov 2025 13:48:12 -0000
-Message-Id: <176338729280.1269261.8338529316927595536@gitolite.kernel.org>
-
---===============7496420906746179410==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 17 Nov 2025 13:50:18 -0000
+Message-Id: <176338741863.1272833.192045447820428808@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: c8341d5bf36f685c48e32dc179e95fcd126206e4
-    new: c70930b35502786b8d8876b6e4e4b89b1905e021
-    log: revlist-c8341d5bf36f-c70930b35502.txt
-
---===============7496420906746179410==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8341d5bf36f-c70930b35502.txt
-
-8320b75b2b8bf94d4d4f1b59f75ec8dd7188dc76 NFS: nfsd-maintainer-entry-profile: Inline function name prefixes
-fceb8734e7f1e5dd698c03403ff500923e0fd612 nfsd: stop pretending that we cache the SEQUENCE reply.
-78cd170d035fe9b0372c0527f1613ddde8296667 nfsd: Use MD5 library instead of crypto_shash
-f8dd848bd6e1af491d5ae7ba721a0aebde634220 MAINTAINERS: add a nfsd blocklayout reviewer
-8d5b67944b283e5f0aa25a0b6186a9060e9354c2 lockd: don't allow locking on reexported NFSv2/3
-5dc153b8ad8776ee91a98ffbe0b0c3f0a3156033 xdrgen: Generalize/harden pathname construction
-0277fc4649f23233163ef04bbaa0a37cc2ed99ca xdrgen: Make the xdrgen script location-independent
-4aed9038723ed2f3d54768394f19e92a62b8e953 xdrgen: Fix the variable-length opaque field decoder template
-3a71ecc4ec76d75d29679802dcca00a4e1c88619 xdrgen: handle _XdrString in union encoder/decoder
-5dde481e15e09ce85fe1d0bf6b0b317fad522c58 xdrgen: Fix union declarations
-19d51efd859993524dfddad6bd0f4302eefcd702 xdrgen: Don't generate unnecessary semicolon
-5e0dd22886595f21f42a25c32a043eed643c9d30 NFSD: don't start nfsd if sv_permsocks is empty
-f96e48fabec3d5fa513291ca51873486edfa4abe NFSD: use correct reservation type in nfsd4_scsi_fence_client
-f1d296c265d5b07781cf8e7d75c3cf94da603d80 NFSD: Add trace point for SCSI fencing operation.
-2f18920a10219890843dae6d5281774c26704245 SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
-7c4838af9516a15597bfc0d289969614cc8c3dc8 svcrdma: use rc_pageoff for memcpy byte offset
-832bad0ccae6ff554a045a879964a5bb92bc72fb svcrdma: return 0 on success from svc_rdma_copy_inline_range
-ebc17c63625e70cfccfd4b7b561cbdcf6150963b svcrdma: bound check rq_pages index in inline path
-6ec4faf1b26b56fc6cc533a7a276b6c011f0e307 NFSD: Make FILE_SYNC WRITEs comply with spec
-05816326362a41855559ed274357582754e8e805 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
-a08d04bb600362a0c8749d5abc727000982f5ff2 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
-b8bc90f3fa40eb16584c2fc715fe7f631a8d2c62 nfsd: Mark variable __maybe_unused to avoid W=1 build break
-c70930b35502786b8d8876b6e4e4b89b1905e021 siw: Enable try_gso
-
---===============7496420906746179410==--
+  - ref: refs/heads/main
+    old: 296eb39c60bd85228930caaea4bb1d2a766b7544
+    new: c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df
+    log: |
+         5490d28aa470c3f21e8060be4a46dfefe4c66e20 Drop never used code in storage wrapper utils.
+         fbd295259c7746aedf4ba278f1be501092f9ebd3 ci: remove ubuntu
+         c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df Set devel version.
+         
+  - ref: refs/heads/master
+    old: 296eb39c60bd85228930caaea4bb1d2a766b7544
+    new: c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df
+    log: |
+         5490d28aa470c3f21e8060be4a46dfefe4c66e20 Drop never used code in storage wrapper utils.
+         fbd295259c7746aedf4ba278f1be501092f9ebd3 ci: remove ubuntu
+         c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df Set devel version.
+         
+  - ref: refs/merge-requests/819/merge
+    old: 6299ec1646ce12b5748fed12ed9bef609cdc788b
+    new: 5ce5b49143a9756db3d18fbc114ebb07b9993111
+    log: |
+         296eb39c60bd85228930caaea4bb1d2a766b7544 Changes to support PHMAC with integritysetup and cryptsetup
+         5490d28aa470c3f21e8060be4a46dfefe4c66e20 Drop never used code in storage wrapper utils.
+         fbd295259c7746aedf4ba278f1be501092f9ebd3 ci: remove ubuntu
+         c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df Set devel version.
+         5ce5b49143a9756db3d18fbc114ebb07b9993111 Merge branch 'tcrypt-argon2' into 'main'
+         
+  - ref: refs/merge-requests/832/merge
+    old: 6568f2243382c225d64b0573c00610db94844b1f
+    new: f3bd25b4b8dc20046cdfc0e7a7ec154bd9784ad2
+    log: |
+         296eb39c60bd85228930caaea4bb1d2a766b7544 Changes to support PHMAC with integritysetup and cryptsetup
+         5490d28aa470c3f21e8060be4a46dfefe4c66e20 Drop never used code in storage wrapper utils.
+         fbd295259c7746aedf4ba278f1be501092f9ebd3 ci: remove ubuntu
+         c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df Set devel version.
+         f3bd25b4b8dc20046cdfc0e7a7ec154bd9784ad2 Merge branch 'opal-sum' into 'main'
+         
+  - ref: refs/merge-requests/842/merge
+    old: c54647c1414dbdd558ae364cb747574bc9a7da09
+    new: 6ffe3e08428e54f43adfed5f09e73c6f0b9976ce
+    log: |
+         296eb39c60bd85228930caaea4bb1d2a766b7544 Changes to support PHMAC with integritysetup and cryptsetup
+         5490d28aa470c3f21e8060be4a46dfefe4c66e20 Drop never used code in storage wrapper utils.
+         fbd295259c7746aedf4ba278f1be501092f9ebd3 ci: remove ubuntu
+         c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df Set devel version.
+         6ffe3e08428e54f43adfed5f09e73c6f0b9976ce Merge branch 'support-clearkey' into 'main'
+         
+  - ref: refs/merge-requests/851/merge
+    old: 891f155b45e8183c9804f7d758434aa52438889b
+    new: f55984ed0fd5e6a7af89578835b7e1866b4cd19c
+    log: |
+         296eb39c60bd85228930caaea4bb1d2a766b7544 Changes to support PHMAC with integritysetup and cryptsetup
+         5490d28aa470c3f21e8060be4a46dfefe4c66e20 Drop never used code in storage wrapper utils.
+         fbd295259c7746aedf4ba278f1be501092f9ebd3 ci: remove ubuntu
+         c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df Set devel version.
+         f55984ed0fd5e6a7af89578835b7e1866b4cd19c Merge branch 'add_debian_unstable' into 'main'
+         
+  - ref: refs/merge-requests/852/merge
+    old: 97df343bfb28d2d03e822ed3f2ee57d537e44f93
+    new: da47565f0620c20d43e86c69de663de621d6ec73
+    log: |
+         296eb39c60bd85228930caaea4bb1d2a766b7544 Changes to support PHMAC with integritysetup and cryptsetup
+         5490d28aa470c3f21e8060be4a46dfefe4c66e20 Drop never used code in storage wrapper utils.
+         fbd295259c7746aedf4ba278f1be501092f9ebd3 ci: remove ubuntu
+         c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df Set devel version.
+         da47565f0620c20d43e86c69de663de621d6ec73 Merge branch 'dm-verity-status' into 'main'
+         
+  - ref: refs/heads/fips-check
+    old: 0000000000000000000000000000000000000000
+    new: c678a7c1d6bb9f26185dc7b314c3c73503ac8e50
+  - ref: refs/heads/fix-tabs
+    old: 0000000000000000000000000000000000000000
+    new: 3f873b02e56175e62d8cd5a46c48659667508e8a
+  - ref: refs/merge-requests/855/head
+    old: 0000000000000000000000000000000000000000
+    new: 5490d28aa470c3f21e8060be4a46dfefe4c66e20
+  - ref: refs/merge-requests/855/merge
+    old: 0000000000000000000000000000000000000000
+    new: c0ac0cca8e0ee2a5794be45dbfe5606b7fff9cdb
+  - ref: refs/merge-requests/856/head
+    old: 0000000000000000000000000000000000000000
+    new: 3f873b02e56175e62d8cd5a46c48659667508e8a
+  - ref: refs/merge-requests/856/merge
+    old: 0000000000000000000000000000000000000000
+    new: 67d3c749ce2d086b102ad9db877137dbf2e6e9cc
+  - ref: refs/merge-requests/857/head
+    old: 0000000000000000000000000000000000000000
+    new: c678a7c1d6bb9f26185dc7b314c3c73503ac8e50
+  - ref: refs/merge-requests/857/merge
+    old: 0000000000000000000000000000000000000000
+    new: 7be68f076241f981d9541ac33d4f16bba4b1b2f5
+  - ref: refs/merge-requests/858/head
+    old: 0000000000000000000000000000000000000000
+    new: fbd295259c7746aedf4ba278f1be501092f9ebd3
+  - ref: refs/merge-requests/858/merge
+    old: 0000000000000000000000000000000000000000
+    new: eaf96758508ccfef1b6aaeaa49eb2f74f29f337d
+  - ref: refs/merge-requests/859/head
+    old: 0000000000000000000000000000000000000000
+    new: bbc053682afec762efd6a787f1986727c7c7bf6f
+  - ref: refs/merge-requests/859/merge
+    old: 0000000000000000000000000000000000000000
+    new: c8a2a8f1be7dabdb2c800ded8cf353c09cbdf37f
+  - ref: refs/merge-requests/860/head
+    old: 0000000000000000000000000000000000000000
+    new: c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df
+  - ref: refs/merge-requests/860/merge
+    old: 0000000000000000000000000000000000000000
+    new: fe900312ad6e79f8117c1f07c2383b8b0e23b6ad
+  - ref: refs/merge-requests/861/head
+    old: 0000000000000000000000000000000000000000
+    new: ddf147bf2cead3763da16e5c8f67689c82f4d4aa
+  - ref: refs/merge-requests/861/merge
+    old: 0000000000000000000000000000000000000000
+    new: 195c1da7ff4164ce6a07b56b06e61608fa0d1c2a
