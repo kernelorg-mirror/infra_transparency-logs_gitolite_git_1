@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 17 Nov 2025 20:04:52 -0000
-Message-Id: <176340989265.1614974.15345737556355361498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 17 Nov 2025 20:28:04 -0000
+Message-Id: <176341128478.1633625.10039407065872928836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/kdevops
-    old: 2f558adcfe862888ffb9780519c1a605347bde51
-    new: e9fa235be5ca9a25e67e7320f34066b8dd6b3b73
+  - ref: refs/heads/driver-core-next
+    old: ededb7bcdfdbcfbb7af93e3a543165a9553e1683
+    new: dd6ff5cf56fb183fce605ca6a5bfce228cd8888b
     log: |
-         e9fa235be5ca9a25e67e7320f34066b8dd6b3b73 filelock: add a new lm_open_conflict operation
+         919b72922717e396be9435c83916b9969505bd23 rust: io: define ResourceSize as resource_size_t
+         dfd67993044f507ba8fd6ee9956f923ba4b7e851 rust: io: move ResourceSize to top-level io module
+         ee2776e54b2666f99ef5e3ad0b60889e1500dada rust: scatterlist: import ResourceSize from kernel::io
+         dd6ff5cf56fb183fce605ca6a5bfce228cd8888b rust: io: add typedef for phys_addr_t
          
