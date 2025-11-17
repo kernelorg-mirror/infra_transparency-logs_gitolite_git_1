@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 17 Nov 2025 15:30:28 -0000
-Message-Id: <176339342848.1365682.9350273556734598538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-device
+Date: Mon, 17 Nov 2025 15:31:39 -0000
+Message-Id: <176339349925.1366242.5459827820385189593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-device
+user: jarkko
 changes:
-  - ref: refs/tags/sched_ext-for-6.18-rc6-fixes
-    old: 0000000000000000000000000000000000000000
-    new: c6152b50e3b27d88e72e1f7a55397165113d03a6
+  - ref: refs/heads/main
+    old: 45e4b5ada4c9189c65945590de2400ae09316026
+    new: 32ad58d085b3892de92530b10f3523f6228ebd6c
+    log: |
+         32ad58d085b3892de92530b10f3523f6228ebd6c chore: bump version to 0.1.1
+         
