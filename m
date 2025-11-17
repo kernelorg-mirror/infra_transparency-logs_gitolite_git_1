@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6309707455907691344=="
+Content-Type: multipart/mixed; boundary="===============1673228671503049559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 17 Nov 2025 00:56:36 -0000
-Message-Id: <176334099631.540613.914407965100224395@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 00:57:02 -0000
+Message-Id: <176334102294.540972.16025093052596336861@gitolite.kernel.org>
 
---===============6309707455907691344==
+--===============1673228671503049559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt64
-    old: cfb65b7721c4e3c9941b4d5d70f5f5b1baf867ff
-    new: 691d5ccb42df69472cb2aa5d9bf72940739c9648
-    log: revlist-cfb65b7721c4-691d5ccb42df.txt
+  - ref: refs/heads/for-next
+    old: 351f701f756bffebd6224922c66025bd1f925f80
+    new: e127c2c20d9681c2ea1b495753ab98b43b38ae9b
+    log: revlist-351f701f756b-e127c2c20d96.txt
 
---===============6309707455907691344==
+--===============1673228671503049559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfb65b7721c4-691d5ccb42df.txt
+Content-Disposition: attachment; filename=revlist-351f701f756b-e127c2c20d96.txt
 
 046cb64923e8c05a8fb656baffcd8c3fc67fb688 arm64: dts: imx95-tqma9596sa: fix TPM5 pinctrl node name
 461be3802562b2d41250b40868310579a32f32c1 arm64: dts: imx95-tqma9596sa: reduce maximum FlexSPI frequency to 66MHz
@@ -55,5 +55,10 @@ d1da1068bc31d211d158b413cd1897ea94692ade arm64: dts: imx8mp: Add missing LED enu
 c3184d2ecf1d9c7cf6f2af6802b96115cbdfbc44 arm64: dts: mba8xx: Add MicIn routing
 e9c909657d1627568a6d5b6472c63f9183b9c0ec arm64: dts: mb-smarc-2: Add MicIn routing
 691d5ccb42df69472cb2aa5d9bf72940739c9648 arm64: dts: freescale: tqma9352: Add vcc-supply for spi-nor
+c8e03fb5b8eed4f4e8d505ba56a13180f3154c5b Merge branch 'imx/drivers' into for-next
+0883bd09e600536fdfa65fd23a4ab57efb1656c0 Merge branch 'imx/bindings' into for-next
+f84d836e0d8d2516b27eee0a14e6117337d580b9 Merge branch 'imx/dt' into for-next
+69107f81475a6c236df2ac002bf0221cd327464e Merge branch 'imx/dt64' into for-next
+e127c2c20d9681c2ea1b495753ab98b43b38ae9b Merge branch 'imx/defconfig' into for-next
 
---===============6309707455907691344==--
+--===============1673228671503049559==--
