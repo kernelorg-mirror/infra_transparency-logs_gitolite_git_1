@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1302129731224040231=="
+Content-Type: multipart/mixed; boundary="===============7052596956466486594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 17 Nov 2025 21:00:25 -0000
-Message-Id: <176341322536.1664424.6435410379586092262@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 21:00:28 -0000
+Message-Id: <176341322818.1664598.753580244547208954@gitolite.kernel.org>
 
---===============1302129731224040231==
+--===============7052596956466486594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfs-testing
-    old: 8773f15044fbd6a50ad54d85a7581b0dcfa1bf86
-    new: 79d4f452bbc2e81d8114e05c1e05dfc9008e9697
-    log: revlist-8773f15044fb-79d4f452bbc2.txt
+  - ref: refs/heads/kernel-6.12.53/nfs-testing-snitm
+    old: 0bdb34bdfe29dcb32c7a0d6bd9918cd61844e9df
+    new: 1c71809ac7fc5982357214d57ba7d00029e93092
+    log: revlist-0bdb34bdfe29-1c71809ac7fc.txt
 
---===============1302129731224040231==
+--===============7052596956466486594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8773f15044fb-79d4f452bbc2.txt
+Content-Disposition: attachment; filename=revlist-0bdb34bdfe29-1c71809ac7fc.txt
 
 5676a6e459e99e504bd5d61e62e5a9682c4e0d73 pnfs: Fix TLS logic in _nfs4_pnfs_v3_ds_connect()
 cf78b46b92dd51b6da4b54010b578aff5cc8817c pnfs: Fix TLS logic in _nfs4_pnfs_v4_ds_connect()
@@ -48,5 +48,6 @@ f85a3b2efb759ee95d4992f436840fa80a105e30 slightly simplify nfs_atomic_open()
 c31d22d242552e2c66496378ee0623fa58659cd8 NFS: sysfs: fix leak when nfs_client kobject add fails
 b466a06a89a40d0e66977385bb4268133e2e579d NFSv4: Fix an incorrect parameter when calling nfs4_call_sync()
 79d4f452bbc2e81d8114e05c1e05dfc9008e9697 NFS: Fix LTP test failures when timestamps are delegated
+1c71809ac7fc5982357214d57ba7d00029e93092 nfs/localio: Remove alignment size checking in nfs_is_local_dio_possible
 
---===============1302129731224040231==--
+--===============7052596956466486594==--
