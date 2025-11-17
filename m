@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1457007871537979407=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 17 Nov 2025 10:49:28 -0000
-Message-Id: <176337656873.1038511.15991038036793263163@gitolite.kernel.org>
-
---===============1457007871537979407==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Mon, 17 Nov 2025 10:52:58 -0000
+Message-Id: <176337677872.1041607.4371155097331334282@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/tags/w1-drv-6.19
-    old: 0000000000000000000000000000000000000000
-    new: eef6ed9a9d66d12c65261ded73aac0d668820958
-
---===============1457007871537979407==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1763376638 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1763376566-e33ff0acba3048b2ed7c40996121b48de9084dc0
-
-0000000000000000000000000000000000000000 eef6ed9a9d66d12c65261ded73aac0d668820958 refs/tags/w1-drv-6.19
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmka/f4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11woD/9BBNfKayQEWlvVSUUBPy/909FsOIG/hmcx
-dgSlI/gtQ8F0ZvtkEHteVaBLB+6ZJjBYR+y5eJoQ95RGrw8KbVzDuw0MGXPOWSgX
-4alA35jYmKGbvQ8iSXES2VyPppXZ+3k55FYY0xgs+jzgvOc+7wQu3ugcxULglxVf
-8ZRStbBYjwxjIXZ4YFXNftp68jXLYKMYH1X8M6RV3NAmeNOalFEA66umA8v4LUf5
-GJ2644Tgme/ivTNB8nAi3tZKM9Br8QAlN01LPDGzwTmOQo2tYsyZUVuVwbEQqysb
-PD60b2RpOCeVT8+BDQ5I/jK7WERGt/G4XNJd+Xarn4e8yOPX6NplmaenEz0owf2P
-ZSRRb2feSDdJ+anNpJuovDuwAVz6odVN/K1LtBmIzzCL9QExzFPap0Nj7X/i92tm
-B1dT1jj2Xi/s9dErWHJCS5OrdvBenqduEfDpUnJHpXtRHbi5ov2f+rYnYlSkvnXS
-xelepAiI/eCeS1GpVHmjXnsVBh640yuFZqQ5wbB0LfxaehUQ4ZjVjOKbnzMbeElY
-wVW65zoqJgILNToeGX1XfX42/uabayqU2zrVQWoDznJC5UXhq7AFbuiKeKGdVAGO
-qPYk0P97Y054xNiwKVdrwvsY+xyDcpumtE2lWBsZhDjT0EHqhoL0EZNYqrdhMiAD
-BRh+fDhSAA==
-=caMq
------END PGP SIGNATURE-----
-
---===============1457007871537979407==--
+  - ref: refs/heads/mtd/next
+    old: c95de73da12bf4586b7bcd6b23a6968c21991cc7
+    new: 64ef5f454e167bb66cf70104f033c3d71e6ef9c0
+    log: |
+         a697c671cc317aac3714ac735a336346af15d025 mtd: maps: pcmciamtd: fix potential memory leak in pcmciamtd_detach()
+         64ef5f454e167bb66cf70104f033c3d71e6ef9c0 mtd: mtdpart: ignore error -ENOENT from parsers on subpartitions
+         
+  - ref: refs/heads/nand/next
+    old: 88fd4e4deae87fa66e0e00e2bf6a4c362d241215
+    new: b98994cb9bc24f5c7575c86650f96c384576fdfa
+    log: |
+         1f3dcfe5fcf57739b4a82811c12e55c48d794f86 mtd: rawnand: lpc32xx_slc: Convert to use devm_gpiod_get_optional()
+         b98994cb9bc24f5c7575c86650f96c384576fdfa mtd: spinand: esmt: add support for F50L1G41LC
+         
