@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 17 Nov 2025 14:14:30 -0000
-Message-Id: <176338887002.1291890.5407354739955745894@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 14:17:11 -0000
+Message-Id: <176338903114.1294953.16900994083986010031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-next
-    old: 2e186bebfd70041342308857400ef6437af0dbb7
-    new: f56976d09be9c73bf8992de48fa4f035043423c2
+    old: f56976d09be9c73bf8992de48fa4f035043423c2
+    new: 05b21e696ad5deafd9744ec9b191dddcfa331ce8
     log: |
-         f56976d09be9c73bf8992de48fa4f035043423c2 drm/mediatek: Fix probe memory leak
+         05b21e696ad5deafd9744ec9b191dddcfa331ce8 drm/mediatek: Fix probe device leaks
          
