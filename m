@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 17 Nov 2025 23:24:02 -0000
-Message-Id: <176342184222.1787177.3268700838139412104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 17 Nov 2025 23:43:15 -0000
+Message-Id: <176342299519.1802469.14435531637419818142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/objtool/core
-    old: 45630ac97b19b8d3194763fe7f54bb3b498f3728
-    new: 57acac814b8d08af2ebc18c5d4f92ce8b6897725
+  - ref: refs/heads/riscv-cache-for-next
+    old: 44986c2ebac30397d7f744eeb375f0c139543ae7
+    new: d52341da4db0cd993d3549aa20cbdf063b412c3b
     log: |
-         57acac814b8d08af2ebc18c5d4f92ce8b6897725 objtool: fix the check for dead_end function with multiple sibliing calls
+         d52341da4db0cd993d3549aa20cbdf063b412c3b dt-bindings: cache: sifive,ccache0: add a pic64gx compatible
          
