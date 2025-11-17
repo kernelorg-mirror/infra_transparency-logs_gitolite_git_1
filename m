@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 17 Nov 2025 19:02:01 -0000
-Message-Id: <176340612117.1561463.14807972148005939235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 17 Nov 2025 19:03:46 -0000
+Message-Id: <176340622602.1562363.12830006254563080155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: c1493c32d7da270329d0ac2ca02117b905c04362
-    new: 8a41ac3fde997137d374791a93a49d9a3abac0e0
+  - ref: refs/heads/hwmon-next
+    old: 93a8cb5b69c92e3ad173ed6dba3796bb2976ccbe
+    new: b286d66631bb3da75a949ac685ac1c50aed9c9b7
     log: |
-         f1afca6a097bdc5a2a21508146875bab322dbe48 shared/bap: fix channel allocation logic in bt_bap_select()
-         0c56d482fd20c86d4a33cc91e117fc2af96ef570 shared/bap: fix packet length comparison to ATT MTU in bap_queue_req()
-         231372ca5e1545eb505dd22be1ff28d89b68fd22 bap: don't configure endpoints of all codecs at once
-         a1f8862a38a5f8d29565cd8c84f9880a740ae95e shared/tester: better debug output on io memcmp failure
-         7858675e62818bae52300c24440e5fa4af68394c test-bap: make PDU macros parametrizable
-         8a41ac3fde997137d374791a93a49d9a3abac0e0 test-bap: add audio configuration selection and streaming tests
+         b340412a3b22b60b5e19cce8726940c7b5b14439 mfd: macsmc: Add new __SMC_KEY macro
+         862fa23acc678343986ab39e7f6c2ceaf14f34c2 Documentation/hwmon: Fix broken datasheet links for zl6100
+         d5c0ae872e2ec16280245a2f7a1edab8ba11be24 Merge tag 'ib-mfd-hwmon-v6.19' into hwmon-next
+         a5f6ffe5fced89c04ae883350b3720e965d696dd hwmon: Add Apple Silicon SMC hwmon driver
+         b286d66631bb3da75a949ac685ac1c50aed9c9b7 hwmon: (k10temp) Add AMD Steam Deck APU ID
          
