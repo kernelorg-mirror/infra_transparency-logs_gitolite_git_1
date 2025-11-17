@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7808661984280905764=="
+Content-Type: multipart/mixed; boundary="===============7352965788577646963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 17 Nov 2025 21:00:37 -0000
-Message-Id: <176341323741.1664942.2114262573166078870@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 21:00:40 -0000
+Message-Id: <176341324007.1665059.11454442256108834778@gitolite.kernel.org>
 
---===============7808661984280905764==
+--===============7352965788577646963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-testing
-    old: 47c09405eaf98cdfd6ab184c982938d0ca38c03e
-    new: dba14250af3088b9044df235fe386c83dc39ac9d
-    log: revlist-47c09405eaf9-dba14250af30.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing-snitm
+    old: 7b674eab934c42957cbf60b2da00e038d36cf46e
+    new: 5d95ce58213f69fe033845e46d1d53d30958b8bb
+    log: revlist-7b674eab934c-5d95ce58213f.txt
 
---===============7808661984280905764==
+--===============7352965788577646963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47c09405eaf9-dba14250af30.txt
+Content-Disposition: attachment; filename=revlist-7b674eab934c-5d95ce58213f.txt
 
 5676a6e459e99e504bd5d61e62e5a9682c4e0d73 pnfs: Fix TLS logic in _nfs4_pnfs_v3_ds_connect()
 cf78b46b92dd51b6da4b54010b578aff5cc8817c pnfs: Fix TLS logic in _nfs4_pnfs_v4_ds_connect()
@@ -149,5 +149,9 @@ f1571031b1d2ffb76bf5afd7e5cc1e75e18dbc98 svcrdma: bound check rq_pages index in 
 3b3a3e04408b679956e337669c2127e2928d9695 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 bc7c528d538817c82766e1edb8f232fe09c4a255 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
 dba14250af3088b9044df235fe386c83dc39ac9d nfsd: Mark variable __maybe_unused to avoid W=1 build break
+5c3fe049f075504d347cb5b606dd535f4b118074 NFSD: add NFSD_IO_DIRECT heuristic for small IO
+93d34bd09983437654390c76aa4acb8081fb8de8 NFSD: Enable return of an updated stable_how to NFS clients
+50f68b70719640122cd1ef886d43617efe00805c NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+5d95ce58213f69fe033845e46d1d53d30958b8bb NFSD: add nfsd_direct_misaligned_num_pages modparam
 
---===============7808661984280905764==--
+--===============7352965788577646963==--
