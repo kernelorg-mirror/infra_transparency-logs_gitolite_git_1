@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6890104254059518393=="
+Content-Type: multipart/mixed; boundary="===============5679349038875428629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 17 Nov 2025 17:24:05 -0000
-Message-Id: <176340024548.1473291.15073754312340647265@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 17:24:15 -0000
+Message-Id: <176340025502.1473742.16580145457437539975@gitolite.kernel.org>
 
---===============6890104254059518393==
+--===============5679349038875428629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: e0f5d8e3fe94825445d7e50fc3b07d5eb4c77bb0
-    new: 42f6380fed3f641e6a39a234d5d233889636800b
-    log: revlist-e0f5d8e3fe94-42f6380fed3f.txt
+  - ref: refs/heads/dt/next
+    old: 2095878ef17d1d08cb7d8509263b7ff66eeb4f16
+    new: c7496597adbd85fb1d7293d2938ba21f12c212e4
+    log: revlist-2095878ef17d-c7496597adbd.txt
 
---===============6890104254059518393==
+--===============5679349038875428629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0f5d8e3fe94-42f6380fed3f.txt
+Content-Disposition: attachment; filename=revlist-2095878ef17d-c7496597adbd.txt
 
 e544bc7548df5e462190b8f143eac10b9dd5b94b dt-bindings: bus: Convert cznic,moxtet to DT schema
 45a8d350e72cc98e91bce2c20d4f26a8d9ccfffa dt-bindings: arm: Convert Marvell CP110 System Controller to DT schema
@@ -50,6 +50,5 @@ b012c2ac3745a9d446a2338fb10214ad82df1327 of: overlay: Avoid spurious error messa
 a18b0c924870c050222c71c2b3a8fb341a21f961 dt-bindings: thermal: Drop db8500-thermal.txt
 8b9ef71400a382fc5ad5ef98e9a3d11d02be784e dt-bindings: dma: Convert apm,xgene-storm-dma to DT schema
 c7496597adbd85fb1d7293d2938ba21f12c212e4 of/address: Remove the incorrect and misleading comment
-42f6380fed3f641e6a39a234d5d233889636800b kbuild: Ensure .dtbo targets are applied to a base .dtb
 
---===============6890104254059518393==--
+--===============5679349038875428629==--
