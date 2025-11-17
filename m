@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3473127628191956018=="
+Content-Type: multipart/mixed; boundary="===============8573254492558276155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 17 Nov 2025 09:29:13 -0000
-Message-Id: <176337175344.966653.11188240483536725816@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 09:29:21 -0000
+Message-Id: <176337176115.966904.16439778873522741219@gitolite.kernel.org>
 
---===============3473127628191956018==
+--===============8573254492558276155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 08e3e49c7411b6d09598e2c133ff2dbe492c0a37
-    new: 0ad9a06eabc5976fe4b521278941509d124d02dc
-    log: revlist-08e3e49c7411-0ad9a06eabc5.txt
+  - ref: refs/heads/m68k-queue
+    old: 2c0222aa9f29796ea59f4cd6e2e788007c7ef2ef
+    new: d9377e7d14d3c0556b5bc45f2707b3e30e088e7b
+    log: revlist-2c0222aa9f29-d9377e7d14d3.txt
 
---===============3473127628191956018==
+--===============8573254492558276155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08e3e49c7411-0ad9a06eabc5.txt
+Content-Disposition: attachment; filename=revlist-2c0222aa9f29-d9377e7d14d3.txt
 
 ea138a607709bf72c162f62d2a670fe899d73daa RISC-V: KVM: Fix check for local interrupts on riscv32
 873f10cf8e4d59605bc38fa1051dea8ee56fe3be RISC-V: KVM: Read HGEIP CSR on the correct cpu
@@ -393,6 +393,8 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 7ba45f15049b4442c932ca2499aec739bb6bdbcf Merge tag 'mm-hotfixes-stable-2025-11-16-10-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
-0ad9a06eabc5976fe4b521278941509d124d02dc Merge tag 'v6.18-rc6'
+d38d5e4722f6cc9ea4d878f53e8ae744a9aac3f3 m68k: atari: usb: Add ISP1160 USB host controller support
+80dd083d161e53b44730c3508bb3a4f8114c5030 m68k: atari: Update Kconfig.bus help text
+d9377e7d14d3c0556b5bc45f2707b3e30e088e7b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3473127628191956018==--
+--===============8573254492558276155==--
