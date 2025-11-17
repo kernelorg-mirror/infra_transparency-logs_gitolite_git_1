@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 17 Nov 2025 16:33:11 -0000
-Message-Id: <176339719177.1423094.1818560495655542182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-device
+Date: Mon, 17 Nov 2025 16:34:03 -0000
+Message-Id: <176339724319.1424014.11965101062724710532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-device
+user: jarkko
 changes:
-  - ref: refs/heads/renesas/x5h/mfis-mfd
-    old: 2ab455b9355069a0a1e9675be86584277f00120f
-    new: b134f0d51abedd5a07d056515de465b9db56021d
+  - ref: refs/heads/main
+    old: 50e3eb92a003f3a12b6be5c32352345c6923aa7d
+    new: 2722d8f843a9c768de0f05dc63666e50b3c3744b
     log: |
-         3cb31c7b08851a35fe59f253312e6d64c94fc7b6 V4H test
-         a6ab663b3dbf34517edbaa62a7a9fae78ae3abcb WIP DTS
-         b134f0d51abedd5a07d056515de465b9db56021d WIP mfd
+         511817d68c528f4d24bc768ba870cb49ea19cae2 perf: allocate per-instance response buffer
+         2722d8f843a9c768de0f05dc63666e50b3c3744b tests: add error test suite
          
