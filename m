@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Mon, 17 Nov 2025 11:55:53 -0000
-Message-Id: <176338055324.1116800.13873858662462454999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
+Date: Mon, 17 Nov 2025 12:00:16 -0000
+Message-Id: <176338081670.1121065.7959107897062391228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
+user: jarkko
 changes:
-  - ref: refs/heads/socfpga_dts_for_v6.19
-    old: 44964e81d12809d3a909c9a81068753bb95ef954
-    new: 38eff72f2d3a83475d70ac3a1280b5051d1e46b0
+  - ref: refs/heads/main
+    old: beebf39c88af21f38cd10124b335d0c7bf33a50c
+    new: 1931134229cd8fde2f394fa897a0a2999404b2a6
     log: |
-         38eff72f2d3a83475d70ac3a1280b5051d1e46b0 arm64: dts: socfpga: agilex5: update qspi partitions for 013b board
+         ff8a6bf212f643c002f858b5912cefbe2133d760 tests(cache): implement test suite
+         1931134229cd8fde2f394fa897a0a2999404b2a6 fix: clippy errors
          
