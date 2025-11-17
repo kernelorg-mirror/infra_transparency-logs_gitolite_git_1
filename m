@@ -1,46 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============3622283637455328049=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 17 Nov 2025 15:21:53 -0000
-Message-Id: <176339291347.1356202.11145451524237161563@gitolite.kernel.org>
-
---===============3622283637455328049==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 17 Nov 2025 15:21:58 -0000
+Message-Id: <176339291805.1356400.6560177334994763073@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
+  - ref: refs/heads/main
+    old: c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df
+    new: bbc053682afec762efd6a787f1986727c7c7bf6f
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         
   - ref: refs/heads/master
-    old: 7254a2b52279091683e0228095118ee69ce9742f
-    new: 6a23ae0a96a600d1d12557add110e0bb6e32730c
-    log: revlist-7254a2b52279-6a23ae0a96a6.txt
-
---===============3622283637455328049==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7254a2b52279-6a23ae0a96a6.txt
-
-85c894a80ac46aa177df04e0a33bcad409b7d64f perf header: Write bpf_prog (infos|btfs)_cnt to data file
-a09e5967ad6819379fd31894634d7aed29c18409 perf build: Don't fail fast path feature detection when binutils-devel is not available
-84003ab3d0ca3717e4b36071c3c5f8b3c70e317c tools headers UAPI: Sync KVM's vmx.h with the kernel to pick SEAMCALL exit reason
-d0206db94b36c998c11458cfdae2f45ba20bc4fb perf lock: Fix segfault due to missing kernel map
-3c723f449723db2dc2b75b7efe03c2a76e4c09f0 perf test: Fix lock contention test
-b72b8132d8fd2d6bf5b420a03d4fc553980c3a92 perf libbfd: Ensure libbfd is initialized prior to use
-39231e8d6ba7f794b566fd91ebd88c0834a23b98 mm: fix MAX_FOLIO_ORDER on powerpc configs with hugetlb
-00fbff75c5acb4755f06f08bd1071879c63940c5 crash: fix crashkernel resource shrink
-3470715e5c22578c6ea4098b256d5a904e12eef2 MAINTAINERS: update David Hildenbrand's email address
-f1d47cafe513b5552a5b20a7af0936d9070a8a78 mm/huge_memory: fix folio split check for anon folios in swapcache
-a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
-216158f063fe24fb003bd7da0cd92cd6e2c4d48b selftests/user_events: fix type cast for write_index packed member in perf_test
-1c2a936edd71e133f2806e68324ec81a4eb07588 mm, swap: fix potential UAF issue for VMA readahead
-7ba45f15049b4442c932ca2499aec739bb6bdbcf Merge tag 'mm-hotfixes-stable-2025-11-16-10-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
-
---===============3622283637455328049==--
+    old: c9fd8b5ed46eb25fa8a2f2a5cd9584161b6bb3df
+    new: bbc053682afec762efd6a787f1986727c7c7bf6f
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         
+  - ref: refs/merge-requests/819/merge
+    old: 5ce5b49143a9756db3d18fbc114ebb07b9993111
+    new: dcabc1bb2a9687c8027dd51c29dbffa10a335015
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         dcabc1bb2a9687c8027dd51c29dbffa10a335015 Merge branch 'tcrypt-argon2' into 'main'
+         
+  - ref: refs/merge-requests/832/merge
+    old: f3bd25b4b8dc20046cdfc0e7a7ec154bd9784ad2
+    new: 563e76cb47b7675a3c673082ec6b5c865756f298
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         563e76cb47b7675a3c673082ec6b5c865756f298 Merge branch 'opal-sum' into 'main'
+         
+  - ref: refs/merge-requests/842/merge
+    old: 6ffe3e08428e54f43adfed5f09e73c6f0b9976ce
+    new: a98290ca8d61dae672996ca1b94ce6dc0ebfaa3d
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         a98290ca8d61dae672996ca1b94ce6dc0ebfaa3d Merge branch 'support-clearkey' into 'main'
+         
+  - ref: refs/merge-requests/851/merge
+    old: f55984ed0fd5e6a7af89578835b7e1866b4cd19c
+    new: cd0ad501ce18fa3bd75d7f402ae9ffaeba3c6e4c
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         cd0ad501ce18fa3bd75d7f402ae9ffaeba3c6e4c Merge branch 'add_debian_unstable' into 'main'
+         
+  - ref: refs/merge-requests/852/merge
+    old: da47565f0620c20d43e86c69de663de621d6ec73
+    new: b669a488f2af47b312060c88bf3fa34949e37ac4
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         b669a488f2af47b312060c88bf3fa34949e37ac4 Merge branch 'dm-verity-status' into 'main'
+         
+  - ref: refs/merge-requests/856/merge
+    old: 67d3c749ce2d086b102ad9db877137dbf2e6e9cc
+    new: 7e5d3d1f505f4a53f619fc5c1c43eabed132f732
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         7e5d3d1f505f4a53f619fc5c1c43eabed132f732 Merge branch 'fix-tabs' into 'main'
+         
+  - ref: refs/merge-requests/857/merge
+    old: 7be68f076241f981d9541ac33d4f16bba4b1b2f5
+    new: 9f22b2e1245a66a153785f188eb9da2e20bb3132
+    log: |
+         bbc053682afec762efd6a787f1986727c7c7bf6f Do not read test hotzone device repeatadly.
+         9f22b2e1245a66a153785f188eb9da2e20bb3132 Merge branch 'fips-check' into 'main'
+         
