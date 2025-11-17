@@ -1,19 +1,40 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Mon, 17 Nov 2025 05:16:06 -0000
-Message-Id: <176335656654.756677.13133092436183076944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Mon, 17 Nov 2025 05:23:57 -0000
+Message-Id: <176335703727.762557.8264690305595267130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/master
-    old: 4cb12a855b331bd6d2b00f30f064a83e554d0bdf
-    new: 65a2dcdd95224424e8e444a0a65a7b5c3ec40ad2
-    log: |
-         65a2dcdd95224424e8e444a0a65a7b5c3ec40ad2 Extend VARIANT_ID check to support both workstation and kde editions
-         
+  - ref: refs/tags/docs-6.18
+    old: 0000000000000000000000000000000000000000
+    new: 6b6dc898b29fc88b689e1a79c54b16ab8bacb04d
+  - ref: refs/tags/v6.17
+    old: 0000000000000000000000000000000000000000
+    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
+  - ref: refs/tags/v6.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f3c5631f70e434e318c44001e2417d4770f06cd0
+  - ref: refs/tags/v6.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89d926fa53d0a6c257c4e8ac1c00c3d9a194ef31
+  - ref: refs/tags/v6.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
+  - ref: refs/tags/v6.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 38018d744897d57a1fe8023770d32d622a61611b
+  - ref: refs/tags/v6.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 0124ee3e78e4adb40db91280f3e468373e48928e
+  - ref: refs/tags/v6.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
+  - ref: refs/tags/v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
