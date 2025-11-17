@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7160942975039428866=="
+Content-Type: multipart/mixed; boundary="===============1991616710786202504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 17 Nov 2025 15:03:42 -0000
-Message-Id: <176339182215.1334983.5460051787679551427@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 15:03:51 -0000
+Message-Id: <176339183118.1335275.5470929819885775499@gitolite.kernel.org>
 
---===============7160942975039428866==
+--===============1991616710786202504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: b72b8132d8fd2d6bf5b420a03d4fc553980c3a92
     new: 6a23ae0a96a600d1d12557add110e0bb6e32730c
     log: revlist-b72b8132d8fd-6a23ae0a96a6.txt
 
---===============7160942975039428866==
+--===============1991616710786202504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -195,4 +195,4 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
 
---===============7160942975039428866==--
+--===============1991616710786202504==--
