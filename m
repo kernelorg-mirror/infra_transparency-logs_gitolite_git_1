@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4415099817010117162=="
+Content-Type: multipart/mixed; boundary="===============3279023343118957048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 17 Nov 2025 06:49:02 -0000
-Message-Id: <176336214258.829783.5880896560060606885@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 06:50:30 -0000
+Message-Id: <176336223001.832285.4263871251830854666@gitolite.kernel.org>
 
---===============4415099817010117162==
+--===============3279023343118957048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 76eeb9b8de9880ca38696b2fb56ac45ac0a25c6c
+  - ref: refs/heads/linux-next
+    old: 9d52b0b41be5b932a0a929c10038f1bb04af4ca5
     new: 6a23ae0a96a600d1d12557add110e0bb6e32730c
-    log: revlist-76eeb9b8de98-6a23ae0a96a6.txt
+    log: revlist-9d52b0b41be5-6a23ae0a96a6.txt
 
---===============4415099817010117162==
+--===============3279023343118957048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76eeb9b8de98-6a23ae0a96a6.txt
+Content-Disposition: attachment; filename=revlist-9d52b0b41be5-6a23ae0a96a6.txt
 
 3e7f011c255582d7c914133785bbba1990441713 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
 4e9077638301816a7d73fa1e1b4c1db4a7e3b59c bpf: Sync pending IRQ work before freeing ring buffer
@@ -1051,4 +1051,4 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
 
---===============4415099817010117162==--
+--===============3279023343118957048==--
