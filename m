@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3370122414613614314=="
+Content-Type: multipart/mixed; boundary="===============5493292939364000946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 17 Nov 2025 21:06:45 -0000
-Message-Id: <176341360530.1671539.10388027108614389922@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 21:06:47 -0000
+Message-Id: <176341360768.1671622.15639037703546888447@gitolite.kernel.org>
 
---===============3370122414613614314==
+--===============5493292939364000946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: df58ee7d8faf353ebf5d4703c35fcf3e578e9b1b
     new: c9dfb92de0738eb7fe6a591ad1642333793e8b6e
     log: revlist-df58ee7d8faf-c9dfb92de073.txt
 
---===============3370122414613614314==
+--===============5493292939364000946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ ebb07edf97383e6821e7263d17cf6b591603c47b net: stmmac: rk: replace HIWORD_UPDATE(
 c7b6dd2a8a024d11a8edf03ba01491ce843cce37 Merge branch 'net-stmmac-rk-use-phy_intf_sel_x'
 c9dfb92de0738eb7fe6a591ad1642333793e8b6e Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 
---===============3370122414613614314==--
+--===============5493292939364000946==--
