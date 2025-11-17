@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4316775194945011410=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 17 Nov 2025 15:46:47 -0000
-Message-Id: <176339440740.1380695.17977403603460643761@gitolite.kernel.org>
-
---===============4316775194945011410==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Mon, 17 Nov 2025 15:52:01 -0000
+Message-Id: <176339472104.1385563.1271358771665003644@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/togreg
-    old: d16d1c2553248f9b859b86c94344d8b81f0297cd
-    new: f9e05791642810a0cf6237d39fafd6fec5e0b4bb
-    log: revlist-d16d1c255324-f9e057916428.txt
-
---===============4316775194945011410==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d16d1c255324-f9e057916428.txt
-
-8775ebd25abcdedb6f3ddf1c3ad69277f9b76081 dt-bindings: iio: accel: adxl380: add new supported parts
-0ecad1964315bf171d4eb0874da65e3a7aeb1b3d iio: accel: adxl380: add support for ADXL318 and ADXL319
-f5d203467a31798191365efeb16cd619d2c8f23a iio: core: add missing mutex_destroy in iio_dev_release()
-b0e6871415b25f5e84a79621834e3d0c9d4627a6 iio: core: Clean up device correctly on iio_device_alloc() failure
-c76ba4b2644424b8dbacee80bb40991eac29d39e iio: core: Replace lockdep_set_class() + mutex_init() by combined call
-0de73abe5f5c2b58d66d6dcb7d44df05b0f73684 iio: buffer: use dma_buf_unmap_attachment_unlocked() helper
-47e4b1ca441cc4f1d9db13ff5e9b89e53aae0198 iio: mpl3115: use get_unaligned_be24() to retrieve pressure data
-6062cd20cbea6006d30af50e6f7d2a8722baa81b iio: mpl3115: add threshold events support
-28b53b35c037c05bfedd28ef027e80a1b505f4aa iio: ABI: document pressure event attributes
-02d44a1b64f11cdbcd5349063f149309c42a9fa5 iio: pressure: Arrange Makefile alphabetically
-f9e05791642810a0cf6237d39fafd6fec5e0b4bb staging: iio: adt7316: replace sprintf() with sysfs_emit()
-
---===============4316775194945011410==--
+  - ref: refs/heads/shazptr-v2
+    old: 4367a116c2067e86855b5df1068e57f065e0573e
+    new: 904b8eaf21a993852b97d086d8d7a21916090cb9
+    log: |
+         8bff98a1d376d89543685d34eb53265a3f0bd7b5 shazptr: Add refscale test
+         0f67f9576d5a46be12d8d0fd5f0e2edcb9c4c3a3 shazptr: Add refscale test for wildcard
+         31a43aa06d630ad79d471b02aee3348e369e6ba8 shazptr: Avoid synchronize_shaptr() busy waiting
+         e7f2191d8844a83632c9613279c2b121779bacb5 shazptr: Allow skip self scan in synchronize_shaptr()
+         3f4e17918026904dee9c5a0df8306fc8975d3b23 rcuscale: Allow rcu_scale_ops::get_gp_seq to be NULL
+         f3d382f1e899f2f8f8c50c71d4c98ac8f387aaab rcuscale: Add tests for simple hazard pointers
+         904b8eaf21a993852b97d086d8d7a21916090cb9 locking/lockdep: Use shazptr to protect the key hashlist
+         
