@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4560780950678680987=="
+Content-Type: multipart/mixed; boundary="===============6384983287838433837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 17 Nov 2025 21:00:31 -0000
-Message-Id: <176341323159.1664718.8175232064820446200@gitolite.kernel.org>
+Date: Mon, 17 Nov 2025 21:00:34 -0000
+Message-Id: <176341323456.1664804.8764347239926919779@gitolite.kernel.org>
 
---===============4560780950678680987==
+--===============6384983287838433837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-next-thru-nfsd-6.18-3
-    old: d2a610ae6f3f0f3efbe0c96250c788d00e8b87c3
-    new: 43ab6b9c56552a5a96454a1b1fe2795eaec6b2a5
-    log: revlist-d2a610ae6f3f-43ab6b9c5655.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-next
+    old: 29cf6daf997bd184533fea93860228921f2b5415
+    new: 98a0e710835f00e97fe055773567b5aeb518c438
+    log: revlist-29cf6daf997b-98a0e710835f.txt
 
---===============4560780950678680987==
+--===============6384983287838433837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2a610ae6f3f-43ab6b9c5655.txt
+Content-Disposition: attachment; filename=revlist-29cf6daf997b-98a0e710835f.txt
 
 5676a6e459e99e504bd5d61e62e5a9682c4e0d73 pnfs: Fix TLS logic in _nfs4_pnfs_v3_ds_connect()
 cf78b46b92dd51b6da4b54010b578aff5cc8817c pnfs: Fix TLS logic in _nfs4_pnfs_v4_ds_connect()
@@ -111,5 +111,24 @@ b700b837af9ed3a2f604b527e2c96f25447e7f86 NFSD: Skip close replay processing if X
 9a81eeb49639a93a122e8d854c043c6e47ea274e NFSD: Never cache a COMPOUND when the SEQUENCE operation fails
 cf6df6e7fd050224a67eab3466b2c70861967d3a nfsd: ensure SEQUENCE replay sends a valid reply.
 43ab6b9c56552a5a96454a1b1fe2795eaec6b2a5 Revert "SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it"
+d9f0f1aac0f1efe23cedcc6b39a62ad4e5a0fe16 svcrdma: Release transport resources synchronously
+5f643576464de892b5814217ea03ee3eec622c07 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+40c6ee6e4eb3b17e7a321e94013da750cfffc89d NFSD: Add array bounds-checking in nfsd_iter_read()
+4a67b79caeacbb40c40d0f17ed3993ac5306a93f nfsd: delete unreachable confusing code in nfs4_open_delegation()
+9955f083f1f658ddc782d13bd2547aee16145377 NFSD: Update comment documenting unsupported fattr4 attributes
+79b6a9871c9632e772c5e7d6a91c1d4752b44411 svcrdma: Increase the server's default RPC/RDMA credit grant
+bd505e1e07e27a2e4aacdad6fa638b4d2efbfa04 NFSD/blocklayout: Fix minlength check in proc_layoutget
+26741531c9e26cbe27ca6d9a891030a7c613538a NFSD/blocklayout: Extract extent mapping from proc_layoutget
+1f2020535ba1e68357e6720743eb8020466396c9 NFSD/blocklayout: Introduce layout content structure
+8978698f65fd483e821ee932adfe5b2a05e1e0b0 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+148e333850b0e7781052795739d0eb3aa32e1575 NFSD: pass nfsd_file to nfsd_iter_read()
+ba36abec9f7cba60797e477218408ea326995549 NFSD: Relocate the xdr_reserve_space_vec() call site
+313045df58a49b18027e183ff2abe45d74bd1889 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+4df221af0d2449b55a40e04fe32edf335310ea5c SUNRPC: Improve "fragment too large" warning
+963d36783f98aedfcf56e05ba924fbcb92d156c8 sunrpc: allocate a separate bvec array for socket sends
+7fb0887f1c4a5ac6a601f4858cd95b21969a1e14 NFSD: Add a subsystem policy document
+bd41be2594404b2fcb0a4c740ba20fc235302c7d NFS: nfsd-maintainer-entry-profile: Inline function name prefixes
+1e95f6c5ff50dba926081f6ce02c60f91080575d nfsd: stop pretending that we cache the SEQUENCE reply.
+98a0e710835f00e97fe055773567b5aeb518c438 nfsd: Use MD5 library instead of crypto_shash
 
---===============4560780950678680987==--
+--===============6384983287838433837==--
