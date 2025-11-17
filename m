@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 17 Nov 2025 18:11:08 -0000
-Message-Id: <176340306858.1519728.10677555205975370050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 17 Nov 2025 18:20:25 -0000
+Message-Id: <176340362528.1527916.13127381837729421910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/next
-    old: 33bedb92d26b746f00269fd5d04aab74480d2a06
-    new: 7ec9db66cc552f2f8a6779c16d01a2a01eccedde
+  - ref: refs/heads/nfsd-testing
+    old: 58534f5fcc075089eec682f155962c01a0183ab5
+    new: 4e49a9c017512c1fd39d1ae80f8b79bd62cb5a47
     log: |
-         fa59c35167afdba043efcc80cf460863868141e7 cxl/test: Standardize CXL auto region size
-         4b1c0466c8fbe23d688a1f54584670a9d1dceabd cxl/test: Add cxl_test CFMWS support for extended linear cache
-         68f4a852e18329e84bb5d36168a45b0a52cdf236 cxl/test: Add support for acpi extended linear cache
-         7ec9db66cc552f2f8a6779c16d01a2a01eccedde Merge branch 'for-6.19/cxl-elc-test' into cxl-for-next
+         2e95f4b271f0f05dee95078162b4dd83c4a06edd NFSD: Clear SECLABEL in the suppattr_exclcreat bitmap
+         e9ce9275fed9f9a9f4aae50bba344a0842dd644b NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+         21f6c30aa8d2baef850c5809dd9ae265533f1886 NFSD: Clean up nfsd4_check_open_attributes()
+         4e49a9c017512c1fd39d1ae80f8b79bd62cb5a47 siw: Enable try_gso
          
