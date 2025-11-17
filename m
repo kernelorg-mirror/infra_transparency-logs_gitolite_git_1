@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 17 Nov 2025 16:12:01 -0000
-Message-Id: <176339592106.1403371.2526784764565338419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 17 Nov 2025 16:14:12 -0000
+Message-Id: <176339605298.1405269.5953933146096468719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 83b2a97b96c6edd4fc94d6845fc9c4ab761c89ec
-    new: 0c41ed18fce69d291739782cbc2ca3ff31410caa
+  - ref: refs/heads/nfsd-testing
+    old: c70930b35502786b8d8876b6e4e4b89b1905e021
+    new: 58534f5fcc075089eec682f155962c01a0183ab5
     log: |
-         b1247271e4f694ba443eedb10980ab96fb1036cc todo: add non-DAMON issues
-         a566f31b8c6e0d946970991463a45747f024d987 patches/posted: add misc cleanup fix
-         1ebe0f97d97fc703feed9170744909039aacfafa patches/next: add misc cleanup fix
-         0c41ed18fce69d291739782cbc2ca3ff31410caa patches/next: rebase to latest mm-new
+         d0ce35d0a4fe945e72b57be84d6e4e59c28e87d3 nfsd: fix memory leak in nfsd_create_serv error paths
+         58534f5fcc075089eec682f155962c01a0183ab5 siw: Enable try_gso
          
