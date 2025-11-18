@@ -1,65 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============6995907902019865937=="
+Content-Type: multipart/mixed; boundary="===============2439389971826443082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Nov 2025 08:11:36 -0000
-Message-Id: <176345349624.2234181.794277000334179733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 18 Nov 2025 08:17:35 -0000
+Message-Id: <176345385599.2238953.17753469328352155104@gitolite.kernel.org>
 
---===============6995907902019865937==
+--===============2439389971826443082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 20ca8040bae90c6bf4ccf32d9ce7b840cc3a86dc
-    new: 7883192c7ce6896534b6ab7bdb6edc14ade03340
-    log: revlist-20ca8040bae9-7883192c7ce6.txt
+  - ref: refs/heads/next-test
+    old: fb2ff9fa72e20a75cab0ffc9dc8735de68ed4d0d
+    new: 5b3a426affbd30a4293d284ab0d37164a4064531
+    log: revlist-fb2ff9fa72e2-5b3a426affbd.txt
 
---===============6995907902019865937==
+--===============2439389971826443082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20ca8040bae9-7883192c7ce6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0778ac7df5137d5041783fadfc201f8fd55a1d9b fs: Fix uninitialized 'offp' in statmount_string()
-2c2b67af5f5f77fc68261a137ad65dcfb8e52506 hostfs: Fix only passing host root in boot stage with new mount
-e4185bed738da755b191aa3f2e16e8b48450e1b8 mtdchar: fix integer overflow in read/write ioctls
-9225f02ff201837e1443076f37a3c008140d1835 mtd: nand: realtek-ecc: Fix a IS_ERR() vs NULL bug in probe
-0d9c80aa572182d4b1464826cd77aa8973213216 mtd: nand: MTD_NAND_ECC_REALTEK should depend on HAS_DMA
-9631350885929819d4e46c6521df35960b472ef3 mtd: rawnand: realtek: Make rtl_ecc_engine_ops const
-5c56bf214af85ca042bf97f8584aab2151035840 mtd: rawnand: cadence: fix DMA device NULL pointer dereference
-330e2c514823008b22e6afd2055715bc46dd8d55 afs: Fix dynamic lookup to fail on cell lookup failure
-34ab4c75588c07cca12884f2bf6b0347c7a13872 bfs: Reconstruct file type when loading from disk
-9db8d46712d274a27d1d22c38e70211f20d508c2 mnt: Remove dead code which might prevent from building
-f4fa7c25f632cd925352b4d46f245653a23b1d1a sched_ext: Fix use of uninitialized variable in scx_bpf_cpuperf_set()
-a1d3bc606bf5c3b3ea811cc2019df6285d75b00f mtd: spinand: fmsh: remove QE bit for FM25S01A flash
-97315e7c901a1de60e8ca9b11e0e96d0f9253e18 mtd: onenand: Pass correct pointer to IRQ handler
-63b5aa01da0f38cdbd97d021477258e511631497 vfat: fix missing sb_min_blocksize() return value checks
-f2c1f631630e01821fe4c3fdf6077bc7a8284f82 exfat: check return value of sb_min_blocksize in exfat_read_boot_sector
-e106e269c5cb38315eb0a0e7e38f71e9b20c8c66 isofs: check the return value of sb_min_blocksize() in isofs_fill_super
-124af0868ec6929ba838fb76d25f00c06ba8fc0d xfs: check the return value of sb_min_blocksize() in xfs_fs_fill_super
-c014021253d77cd89b2d8788ce522283d83fbd40 virtio-fs: fix incorrect check for fsvq->kobj
-8637fa89e678422995301ddb20b74190dffcccee block: add __must_check attribute to sb_min_blocksize()
-90f601b497d76f40fa66795c3ecf625b6aced9fd binfmt_misc: restore write access before closing files opened by open_exec()
-75fdd57499a392e97fc0cff8df64e44472c07f2f Merge patch series "sb_min_blocksize() fixes"
-a3f8f8662771285511ae26c4c8d3ba1cd22159b9 power: always freeze efivarfs
-78f0e33cd6c939a555aa80dbed2fec6b333a7660 fs/namespace: correctly handle errors returned by grab_requested_mnt_ns
-3cd1548a278c7d6a9bdef1f1866e7cf66bfd3518 shmem: fix tmpfs reconfiguration (remount) when noswap is set
-12741624645e098b2234a5ae341045a97473caf1 fs: add iput_not_last()
-56325e8c68c0724d626f665773a5005dcf44e329 landlock: fix splats from iput() after it started calling might_sleep()
-e9d50b78fdfe675b038ddaec7a139dbe3082174c Merge patch series "fs: add iput_not_last()"
-5f02151c411dda46efcc5dc57b0845efcdcfc26d sched_ext: Fix unsafe locking in the scx_dump_state()
-c87488a12393a23f8a1b9850b989b386c58cac3f sched/ext: convert scx_tasks_lock to raw spinlock
-a257e974210320ede524f340ffe16bf4bf0dda1e sched_ext: Fix possible deadlock in the deferred_irq_workfn()
-36c6f3c03d104faf1aa90922f2310549c175420f sched_ext: Use IRQ_WORK_INIT_HARD() to initialize rq->scx.kick_cpus_irq_work
-e97c61885bfe3919ed1f7d56bf05d3ffef392ccb Merge tag 'mtd/fixes-for-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-418592a04021baf5fcfbd0b7b7c5330bb135d10f Merge tag 'sched_ext-for-6.18-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-e7c375b181600caf135cfd03eadbc45eb530f2cb Merge tag 'vfs-6.18-rc7.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-7883192c7ce6896534b6ab7bdb6edc14ade03340 Merge branch 'linus'
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1763453892 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1763453820-a4c085d292204ddbe96c979779e30f31152c0125
 
---===============6995907902019865937==--
+fb2ff9fa72e20a75cab0ffc9dc8735de68ed4d0d 5b3a426affbd30a4293d284ab0d37164a4064531 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmkcK8QACgkQpnEsdPSH
+ZJTF1g/+IF87SCFMRgbh7SDjryggb426WQIcSM/LowhjkzqWmkLzkrhFQWN/r6BM
+9Olc7j/uvyqnjRjHy58ocNiv2MijaydAtU3wsW61jQ4TXkPGEpTaYMDfnYNFVI9B
+Nsdms83O97ChezNAR+NsrnBc2upiT/LMGJnRrte/y9ZSC+frjw3e+80KnOJWFpU6
+PSsDZZTz0WNRzjXnEyMrj2NE4h6FoDKT6X80sgUct4pqlNkLuUVHI/aqpFgmmdH8
+n75N58hR53R54VwA1cltemSeRvXySSY7zOUpLLbInJWvhM7qBakUcbMd9dE17ILw
+3hX8rK6WvA7FgxjzVsdInUiQxdWfLNMCtReOf9GVAGWqB8xpWWEUr14g/DGdNR7Q
+BmdmHs9LZ2vZirQnFTTvL/NY5P/L3Rl7+iFXyiJcrmfY+2qmQzChG74qkjNBlrUO
+cpGykF/HmqxA50340YYTqgylzlXNQjDIefgM8W7VqXCNwWlp7sz4qZfMRxv8FHn1
+shm+WaIXDbLA+hf0Fq2Ww0JRLZMK+Kmty+Ytzcry8s3tytXS10Wk6ox0flioS2dh
+60cOOo5whJZaYdf5RsymP+FQjSnT1F+36I3Uqd/XXTdnzLHEyzBOuSwcMsUB7BlA
+zD6Aac79NzdLwh5EqUCnZJ3antr947X08y8uKugWHwVHZB1PIEA=
+=0dqO
+-----END PGP SIGNATURE-----
+
+--===============2439389971826443082==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fb2ff9fa72e2-5b3a426affbd.txt
+
+78fc63ffa7813e33681839bb33826c24195f0eb7 powerpc, mm: Fix mprotect on book3s 32-bit
+00312419f0863964625d6dcda8183f96849412c6 powerpc/64s/slb: Fix SLB multihit issue during SLB preload
+17b45ccf09882e0c808ad2cf62acdc90ad968746 powerpc/64s/hash: Restrict stress_hpt_struct memblock region to within RMA limit
+eae40a6da63faa9fb63ff61f8fa2b3b57da78a84 powerpc/64s/ptdump: Fix kernel_hash_pagetable dump for ISA v3.00 HPTE format
+178dd2ee2b72817a67a8814c35a65fd901b325ba powerpc/64s/hash: Fix phys_addr_t printf format in htab_initialize()
+fec40fe7e6dc08c97370420301377ee031199a6d powerpc/64s/hash: Improve hash mmu printk messages
+b80691e25ec632d020b90eb9de3af0f956dff0a0 powerpc/64s/hash: Hash hpt_order should be only available with Hash MMU
+b296fda58d1d095c95c8207b09856b2ceafa1397 powerpc/64s/hash: Update directMap page counters for Hash
+6394f0e8abe7ca3132faa1321c97c53d0994aecc powerpc/64s/pgtable: Enable directMap counters in meminfo for Hash
+3d44be297e7e01357b95dd13d2b335e6550ccfcd powerpc/ptdump: Dump PXX level info for kernel_page_tables
+2a492d6b38c2943c9d2f9008f31a8bb3afc3a40b powerpc/64s/slb: Make preload_add return type as void
+5b3a426affbd30a4293d284ab0d37164a4064531 powerpc/64s/slb: Add no_slb_preload early cmdline param
+
+--===============2439389971826443082==--
