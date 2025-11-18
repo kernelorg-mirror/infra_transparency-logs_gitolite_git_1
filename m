@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 18 Nov 2025 01:22:48 -0000
-Message-Id: <176342896843.1889714.14575614707290375022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 18 Nov 2025 01:31:25 -0000
+Message-Id: <176342948517.1898011.10916250253564857330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 6a9c13b04b35132f81d196538a75c69a25dc41bf
-    new: e388af2592c81448108b62c345332052df9afee8
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 5ad14ed5b125483b1b07dbf8ca763f8349625837
+    new: 289815011c91dc6532d3fff7ca1c5f0bea08b474
     log: |
-         e388af2592c81448108b62c345332052df9afee8 foo
+         289815011c91dc6532d3fff7ca1c5f0bea08b474 perf stat: Display metric-only for 0 counters
          
