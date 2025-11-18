@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 18 Nov 2025 18:46:00 -0000
-Message-Id: <176349156052.2791610.11708154695979922245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 18 Nov 2025 18:48:26 -0000
+Message-Id: <176349170666.2792945.17473866647154607744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: 486a25d25a4b3888f8d03f0d4b9d62211b5b38ae
-    new: 5a7903c042697ad52d99ccafb5d998a40bd60944
+  - ref: refs/heads/testme
+    old: f2f22721aca46cebb63c589eefda843721908833
+    new: d5cb9574391cc0a4683c22944d00d0ad76a224d3
     log: |
-         afef3555df21a7632832da817222b6225c0f536c Bluetooth: hci_core: Fix triggering cmd_timer for HCI_OP_NOP
-         5a7903c042697ad52d99ccafb5d998a40bd60944 Bluetooth: HCI: Add support for LL Extended Feature Set
+         ddde4abaa0ecc8395e0fcfa3e92f65d481890cc8 x86/cpufeatures: Make X86_FEATURE leaf 17 Linux-specific
+         7baadd463e147fdcb6d3a091d85e23f89832569c x86/cpufeatures: Enumerate the LASS feature bits
+         e39c5387adebf2839aaf5779cdd09a3506963fc5 x86/cpu: Add an LASS dependency on SMAP
+         d9a96cc18bec65c39822ee0a1672d7dc3fda150a x86/asm: Introduce inline memcpy and memset
+         b3a7e973abe6fe3b56adb39be52a4bdaefe14b65 x86/alternatives: Disable LASS when patching kernel code
+         731d43750cf8d3c67df7aabc78cc567c6d684111 x86/kexec: Disable LASS during relocate kernel
+         42fea0a3a707249cf88ee24aece1dfaba4953b97 x86/traps: Communicate a LASS violation in #GP message
+         c9129cf0f0447cdf195df0c79b87940f266d3767 selftests/x86: Update the negative vsyscall tests to expect a #GP
+         d5cb9574391cc0a4683c22944d00d0ad76a224d3 x86/cpu: Enable LASS during CPU initialization
          
