@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6685005989045181099=="
+Content-Type: multipart/mixed; boundary="===============5305377063107259876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 Nov 2025 12:46:44 -0000
-Message-Id: <176347000481.2467343.10524623068616235705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 18 Nov 2025 12:46:53 -0000
+Message-Id: <176347001311.2467591.2880276114631713831@gitolite.kernel.org>
 
---===============6685005989045181099==
+--===============5305377063107259876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 360b3730f8eab6c4467c6cca4cb0e30902174a63
     new: 2196e8172bee2002e9baaa0d02b2f9f2dd213949
     log: revlist-360b3730f8ea-2196e8172bee.txt
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: 05b0e94153e313132b594783fa6a3fe9e0100595
     new: 20772c4e0f0b58211ebdddfb8606694677c4c4c8
     log: revlist-05b0e94153e3-20772c4e0f0b.txt
 
---===============6685005989045181099==
+--===============5305377063107259876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1763470072 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1763470001-6c4794f0b36b297722027db35d24e8ebfc10a6fe
+pusher C3F436CA30F5D8EB 1763470081 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1763470009-2b22189035d4ec006fc765b0afbf04542d457a15
 
-360b3730f8eab6c4467c6cca4cb0e30902174a63 2196e8172bee2002e9baaa0d02b2f9f2dd213949 refs/heads/for-6.18
-05b0e94153e313132b594783fa6a3fe9e0100595 20772c4e0f0b58211ebdddfb8606694677c4c4c8 refs/heads/for-6.19
+360b3730f8eab6c4467c6cca4cb0e30902174a63 2196e8172bee2002e9baaa0d02b2f9f2dd213949 refs/heads/asoc-6.18
+05b0e94153e313132b594783fa6a3fe9e0100595 20772c4e0f0b58211ebdddfb8606694677c4c4c8 refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkcavgACgkQJNaLcl1U
-h9BalAgAgQC0t4W69CArh3i4rCqHtYDJRHA0dsr41mlp7B16mrnFu1lH5i2KMHQP
-MIwm070iBBVVMkL/TFfgrbbtKUWuhJR4AMudy4lv+ZRtq0Q81gzPl8aIG57MgJIx
-36PVEezZGf1Z/0Qxe0hFIJmBBhY3GV/TgYdENdsrgEhIzdJ8f9I3rFnv89nlF58g
-G2pCtCLn1M5J4+QEL9L4nGBrMsHKCKMv4VumFlsj0L7K1PEjE3nB/DVo9JwdLHfx
-7DaZWjbJwYjiUhNS0gisvCrQlDh1ovwuVfhgJYy5oIIGg0CCTAvbOOmyJSGKaj0Q
-t8dDU5yhIcu/rFlXIJwNtvSyXyTwsg==
-=25Mw
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkcawEACgkQJNaLcl1U
+h9Bt2gf/WLbyQ8JIQBxlnaAG6Z2NEEAZX8HC7cUO5PnrUVclU6HKiL1jHDSQjJoh
+R/MCADy4EHbxBfeuoTKDcCl13v/mKorQzaFwj1jdqyUiK0Cwzd1/wW0tbRwBZxOl
+PtoJy1yHyzMZNM4yXXSZ5xDsDuH3Kiu5+o1JeCZ8AuI0IFNWlGkOY7+SV5y39lHx
+05ctrrGWUmAOvep5WP0rQ24FGayfAWja3t0v6y2e6HzdnxFpa1g+bQriGUdW+SlA
+mHcu3soFNjYJye89lOpNA4/Vvw33TmUXCne0Zzi66eP9O3REWRDwOyNafvbyhG7B
+mZ+hcvrVoaa4nvR8G3IuhJNOFkdX+Q==
+=l5Kf
 -----END PGP SIGNATURE-----
 
---===============6685005989045181099==
+--===============5305377063107259876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -672,7 +672,7 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 578ccfe344c5f421c2c6343b872995b397ffd3ff ASoC: codecs: wcd937x: Fix error handling in wcd937x codec driver
 2196e8172bee2002e9baaa0d02b2f9f2dd213949 ASoC: codecs: Fix error handling in pm4125 audio codec driver
 
---===============6685005989045181099==
+--===============5305377063107259876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1044,4 +1044,4 @@ dd9896d41fdf1050934d6a46a1c5ca2164284e72 ASoC: Intel: avs: Allow the topology to
 d5c8b7902a41625ea328b52c78ebe750fbf6fef7 ASoC: Intel: avs: Honor NHLT override when setting up a path
 20772c4e0f0b58211ebdddfb8606694677c4c4c8 ASoC: Intel: avs: Allow for NHLT configuration
 
---===============6685005989045181099==--
+--===============5305377063107259876==--
