@@ -1,45 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============7721939175741531576=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 18 Nov 2025 21:47:36 -0000
-Message-Id: <176350245669.2951060.312802698026131945@gitolite.kernel.org>
-
---===============7721939175741531576==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 18 Nov 2025 21:59:48 -0000
+Message-Id: <176350318846.2960880.15967725428514541665@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
+  - ref: refs/heads/for-6.19/block
+    old: 87e8cc12f020d998533b7e99b9e3578ff29d65b2
+    new: caebce24f6a7f8315b1b87505b74066efb592d92
+    log: |
+         152c331bcd805eddd520979c51cea46582e260fc block: plug attempts to batch allocate tags multiple times
+         42adb2d4ef24d2834cbd3bb96a6660826ae763da fs: Add the __data_racy annotation to backing_dev_info.ra_pages
+         935a20d1bebf6236076785fac3ff81e3931834e9 block: Remove queue freezing from several sysfs store callbacks
+         caebce24f6a7f8315b1b87505b74066efb592d92 Revert "block: consider discard merge last"
+         
   - ref: refs/heads/for-next
-    old: a12dacb5d1ea5dee30f16aada518ebfee58302e9
-    new: 6fc5c6e08a48a232aa887b9ed07af5539c8812e4
-    log: revlist-a12dacb5d1ea-6fc5c6e08a48.txt
-
---===============7721939175741531576==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a12dacb5d1ea-6fc5c6e08a48.txt
-
-d425aef66e62221fa6bb0ccb94296df29e4cc107 arm64: dts: rockchip: Set correct pinctrl for I2S1 8ch TX on odroid-m1
-e179de737d13ad99bd19ea0fafab759d4074a425 arm64: dts: rockchip: Fix PCIe power enable pin for BigTreeTech CB2 and Pi2
-05b80cd1f37db042e074ecc7ee0d39869fed2f52 arm64: dts: rockchip: Remove non-functioning CPU OPPs from RK3576
-afb5f84b216d14a71e2962ed569edcea30cf9763 arm64: dts: rockchip: Drop 'rockchip,grf' prop from tsadc on rk3328
-b3fd04e23f6e4496f5a2279466a33fbdc83500f0 arm64: dts: rockchip: Make RK3588 GPU OPP table naming less generic
-26f0f122f92f2e8c384c08a05956417bfb5f6fbe arm64: dts: rockchip: Fix indentation on rk3399 haikou demo dtso
-08d70143e3033d267507deb98a5fd187df3e6640 arm64: dts: rockchip: include rk3399-base instead of rk3399 in rk3399-op1
-03c7e964a02e388ee168c804add7404eda23908c arm64: dts: rockchip: Fix vccio4-supply on rk3566-pinetab2
-a59e927ff46a967f84ddf94e89cbb045810e8974 arm64: dts: rockchip: Fix USB power enable pin for BTT CB2 and Pi2
-264152a97edf9f1b7ed5372e4033e46108e41422 arm64: dts: rockchip: drop reset from rk3576 i2c9 node
-baa18d577cd445145039e731d3de0fa49ca57204 arm64: dts: rockchip: disable HS400 on RK3588 Tiger
-b5414520793e68d266fdd97a84989d9831156aad arm64: dts: rockchip: fix PCIe 3.3V regulator voltage on orangepi-5
-c10519c8c88629e3e0e7f822c67e5286eb97c836 Merge tag 'v6.18-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-7a601324ac9828468291151d220edb47a6a82449 MAINTAINERS: sync omap devicetree maintainers with omap platform
-6fc5c6e08a48a232aa887b9ed07af5539c8812e4 Merge branch 'arm/fixes' into for-next
-
---===============7721939175741531576==--
+    old: a1dad28e9823ad734288d4e13e4bde1f4111a745
+    new: 7c949186201349100ac3ebbff2cc63a5c9942079
+    log: |
+         152c331bcd805eddd520979c51cea46582e260fc block: plug attempts to batch allocate tags multiple times
+         42adb2d4ef24d2834cbd3bb96a6660826ae763da fs: Add the __data_racy annotation to backing_dev_info.ra_pages
+         935a20d1bebf6236076785fac3ff81e3931834e9 block: Remove queue freezing from several sysfs store callbacks
+         caebce24f6a7f8315b1b87505b74066efb592d92 Revert "block: consider discard merge last"
+         7c949186201349100ac3ebbff2cc63a5c9942079 Merge branch 'for-6.19/block' into for-next
+         
