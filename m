@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0309538179177551621=="
+Content-Type: multipart/mixed; boundary="===============5412105925941346724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 18 Nov 2025 09:57:26 -0000
-Message-Id: <176345984681.2322074.14934063245063486835@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 09:57:45 -0000
+Message-Id: <176345986533.2322367.10757379679071204206@gitolite.kernel.org>
 
---===============0309538179177551621==
+--===============5412105925941346724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,77 +15,43 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
-  - ref: refs/heads/master
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    new: e7c375b181600caf135cfd03eadbc45eb530f2cb
-    log: revlist-a64dcfb451e2-e7c375b18160.txt
-  - ref: refs/tags/v6.16
-    old: 0000000000000000000000000000000000000000
-    new: 8ec6d99a41e3d1dbdff2bdb3aa42951681e1e76c
-  - ref: refs/tags/v6.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7204503c922cfdb4fcfce4a4ab61f4558a01a73b
-  - ref: refs/tags/v6.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 88bf743cabe5793d24f831ef8240a0bf90e5fd44
-  - ref: refs/tags/v6.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 47633099a672fc7bfe604ef454e4f116e2c954b1
-  - ref: refs/tags/v6.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d2792fee7bfca1cf5e6738856fe2af4b56f26cdd
-  - ref: refs/tags/v6.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 75083cd99c8261eec695596813cc261a523ab32b
-  - ref: refs/tags/v6.17
-    old: 0000000000000000000000000000000000000000
-    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
-  - ref: refs/tags/v6.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 062b3e4a1f880f104a8d4b90b767788786aa7b78
-  - ref: refs/tags/v6.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: f3c5631f70e434e318c44001e2417d4770f06cd0
-  - ref: refs/tags/v6.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89d926fa53d0a6c257c4e8ac1c00c3d9a194ef31
-  - ref: refs/tags/v6.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
-  - ref: refs/tags/v6.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 38018d744897d57a1fe8023770d32d622a61611b
-  - ref: refs/tags/v6.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0124ee3e78e4adb40db91280f3e468373e48928e
-  - ref: refs/tags/v6.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
-  - ref: refs/tags/v6.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
-  - ref: refs/tags/v6.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ffee675aceb9f44b0502a8bec912abb0c4f4af62
-  - ref: refs/tags/v6.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0edde068997bc3c41f122c9941143a39d604a0dc
-  - ref: refs/tags/v6.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
-  - ref: refs/tags/v6.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 62ad2b01b0c7dba966c6843b77e99b06a3b12d27
-  - ref: refs/tags/v6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
+  - ref: refs/heads/next
+    old: 6dde339a3df80a57ac3d780d8cfc14d9262e2acd
+    new: 1d80ca4ab4b220013e9794c1c4abebe1df6272e2
+    log: revlist-6dde339a3df8-1d80ca4ab4b2.txt
 
---===============0309538179177551621==
+--===============5412105925941346724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-e7c375b18160.txt
+Content-Disposition: attachment; filename=revlist-6dde339a3df8-1d80ca4ab4b2.txt
 
+cec944dd329fbefee907da95c298719d900d4787 hugetlbfs: move lock assertions after early returns in huge_pmd_unshare()
+7071537159be845a5c4ed5fb7d3db25aa4bd04a3 mm/damon/core: fix potential memory leak by cleaning ops_filter in damon_destroy_scheme
+7eca961dd7188f20fdf8ce9ed5018280f79b2438 mm/damon/core: use damos_commit_quota_goal() for new goal commit
+9aa12167ef1149d9980713b120ddcb31cf17222d csky: abiv2: adapt to new folio flags field
+e13d315ae077bb7c3c6027cc292401bc0f4ec683 erofs: avoid infinite loops due to corrupted subpage compact indexes
+2a13fc417f493e28bdd368785320dd4c2b3d732e erofs: consolidate z_erofs_extent_lookback()
+e84cb860ac3ce67ec6ecc364433fd5b412c448bc mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
+d68460bc31f9c8c6fc81fbb56ec952bec18409f1 selftests: mptcp: join: mark 'flush re-add' as skipped if not supported
+973f80d715bd2504b4db6e049f292e694145cd79 selftests: mptcp: join: mark implicit tests as skipped if not supported
+c3496c052ac36ea98ec4f8e95ae6285a425a2457 selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
+a9649dfbe552a42a3781fb681d93a2f510565954 selftests: mptcp: join: mark laminar tests as skipped if not supported
+9ab614bc818a93810c27f3e1b4c072e087f8500a Merge branch 'mptcp-handle-late-add_addr-selftests-skip'
+c5394b8b7a92c5013d2917591e28e938fe7ff2a2 net: gro_cells: fix lock imbalance in gro_cells_receive()
+86c48f50bababbb45622616b48385aa94bfadf5f Documentation: networking: ax25: update the mailing list info.
+2653e9c5dda5a320310aae8f0abba6fc1be40eec Merge tag 'linux-can-fixes-for-6.18-20251020' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+e23ef4f22db30a1e49c8b060e4ebc9dc9ca99c49 scsi: ufs: core: Fix error handler host_sem issue
+6fe4c679dde3075cb481beb3945269bb2ef8b19a scsi: ufs: core: Initialize value of an attribute returned by uic cmd
+35bc3c8ee319083333b758355ffd739a96af5c00 scsi: ufs: core: Declare tx_lanes witout initialization
+d54c676d4fe0543d1642ab7a68ffdd31e8639a5d scsi: core: Fix the unit attention counter implementation
+881a9c9cb7856b24e390fad9f59acfd73b98b3b2 bpf: Do not audit capability check in do_jit()
+5523508258d390fd55b25c1c0f99c092f23a39e9 net: dlink: use dev_kfree_skb_any instead of dev_kfree_skb
+d63f0391d6c7b75e1a847e1a26349fa8cad0004d net: hibmcge: select FIXED_PHY
+43c36a56ccf6d9b07b4b3f4f614756e687dcdc01 Revert "fs/9p: Refresh metadata in d_revalidate for uncached mode too"
+7959ffbec062c35bda02aa635d21ac45dbfacd80 nvmem: rcar-efuse: add missing MODULE_DEVICE_TABLE
+70ad06df73a9796026b197d84ead751e096618c7 misc: amd-sbi: Clarify that this is a BMC driver
+410d6c2ad4d1a88efa0acbb9966693725b564933 mei: me: add wildcat lake P DID
 fff111bf45cbeeb659324316d68554e35d350092 misc: fastrpc: Fix dma_buf object leak in fastrpc_map_lookup
 98718e80af0bb1cd80f4bfe565dd60c57debad51 mei: late_bind: Fix -Wincompatible-function-pointer-types-strict
 87b318ba81dda2ee7b603f4f6c55e78ec3e95974 comedi: fix divide-by-zero in comedi_buf_munge()
@@ -107,10 +73,6 @@ bd721ec7dedcc24ced51559e42a39140b59dfd08 xfs: don't set bt_nr_sectors to a negat
 f477af0cfa0487eddec66ffe10fd9df628ba6f52 xfs: fix locking in xchk_nlinks_collect_dir
 db82b8dbf5f06d7b1abec4e1326ed8c02fa16897 PM: runtime: Fix conditional guard definitions
 a28352cf2d2f8380e7aca8cb61682396dca7a991 mmc: sdhci-of-dwcmshc: Change DLL_STRBIN_TAPNUM_DEFAULT to 0x4
-e4185bed738da755b191aa3f2e16e8b48450e1b8 mtdchar: fix integer overflow in read/write ioctls
-9225f02ff201837e1443076f37a3c008140d1835 mtd: nand: realtek-ecc: Fix a IS_ERR() vs NULL bug in probe
-0d9c80aa572182d4b1464826cd77aa8973213216 mtd: nand: MTD_NAND_ECC_REALTEK should depend on HAS_DMA
-9631350885929819d4e46c6521df35960b472ef3 mtd: rawnand: realtek: Make rtl_ecc_engine_ops const
 ef8fef45c74b5a0059488fda2df65fa133f7d7d0 tty: serial: sh-sci: fix RSCI FIFO overrun handling
 e7cbce761fe3fcbcb49bcf30d4f8ca5e1a9ee2a0 serial: 8250_exar: add support for Advantech 2 port card with Device ID 0x0018
 1c05bf6c0262f946571a37678250193e46b1ff0f serial: sc16is7xx: remove useless enable of enhanced features
@@ -162,7 +124,6 @@ c0178eec8884231a5ae0592b9fce827bccb77e86 net: hsr: prevent creation of HSR devic
 3c9bf72cc1ced1297b235f9422d62b613a3fdae9 crypto: aspeed - fix double free caused by devm
 e4a77f9c85a528b3289c1d9570d6d73a7b5f847b gpiolib: acpi: Make set debounce errors non fatal
 b1055678a0160b2952c322ad1b61805562698f99 gpiolib: acpi: Use %pe when passing an error pointer to dev_err()
-5c56bf214af85ca042bf97f8584aab2151035840 mtd: rawnand: cadence: fix DMA device NULL pointer dereference
 72ed55b4c335703c203b942972558173e1e5ddee smb: client: get rid of d_drop() in cifs_do_rename()
 4b1d7f62225a2fd024b2df5675515557169f17e7 cifs: Call the calc_signature functions directly
 64c9471aa9ded2440bf182b1c71d3f93f80b2f85 cifs: #include cifsglob.h before trace.h to allow structs in tracepoints
@@ -409,18 +370,14 @@ d8d2b1f81530988abe2e2bfaceec1c5d30b9a0b4 net: cxgb4/ch_ipsec: fix potential use-
 0ba6502ce167fc3d598c08c2cc3b4ed7ca5aa251 perf/x86/intel: Fix KASAN global-out-of-bounds warning
 b796a8feb7cb094ee998931a96cd6152a9d3022e perf/x86/intel: Add PMU support for WildcatLake
 f4c12e5cefc8ec2eda93bc17ea734407228449ab perf/x86/intel/uncore: Add uncore PMU support for Wildcat Lake
-330e2c514823008b22e6afd2055715bc46dd8d55 afs: Fix dynamic lookup to fail on cell lookup failure
 e7dbfe6f15b4df34bb169d180bd10f1a3c043814 spi: intel: Add support for Oak Stream SPI serial flash
 07ad45e06b4039adf96882aefcb1d3299fb7c305 s390/mm: Fix memory leak in add_marker() when kvrealloc() fails
-34ab4c75588c07cca12884f2bf6b0347c7a13872 bfs: Reconstruct file type when loading from disk
 514f1dc8f2ca3101e04cdf452e53baca3a76e544 netfilter: nft_ct: enable labels for get case too
 8d96dfdcabef00e28f0c851b1502adb679dfc6d9 netfilter: nft_connlimit: fix possible data race on connection count
 90918e3b6404c2a37837b8f11692471b4c512de2 netfilter: nft_ct: add seqadj extension for natted connections
 22897e568646de5907d4981eae6cc895be2978d1 ASoC: renesas: rz-ssi: Use proper dma_buffer_pos after resume
 5e5c8aa73d99f1daa9f2ec1474b7fc1a6952764b ASoC: dt-bindings: pm4125-sdw: correct number of soundwire ports
-9db8d46712d274a27d1d22c38e70211f20d508c2 mnt: Remove dead code which might prevent from building
 9222582ec524707fbb9d076febead5b6a07611ed Revert "wifi: ath12k: Fix missing station power save configuration"
-f4fa7c25f632cd925352b4d46f245653a23b1d1a sched_ext: Fix use of uninitialized variable in scx_bpf_cpuperf_set()
 edce042da7984586ea5c7ed18ea5f58002afb969 drm/xe: Fix uninitialized return value from xe_validation_guard()
 35e4a69b2003f20a69e7d19ae96ab1eef1aa8e8d PM: sleep: Allow pm_restrict_gfp_mask() stacking
 b3fbda1a630a9439c885b2a5dc5230cc49a87e9e drm/xe: Do not wake device during a GT reset
@@ -565,8 +522,6 @@ ff4d2ef3874773c9c6173b0f099372bf62252aaf rust: devres: fix private intra-doc lin
 09b1704f5b02c18dd02b21343530463fcfc92c54 rust: condvar: fix broken intra-doc link
 083d7af3350e04c428256a3bd10003f63151b6b1 MAINTAINERS: erofs: add myself as reviewer
 eb3182ef0405ff2f6668fd3e5ff9883f60ce8801 perf/core: Fix system hang caused by cpu-clock usage
-a1d3bc606bf5c3b3ea811cc2019df6285d75b00f mtd: spinand: fmsh: remove QE bit for FM25S01A flash
-97315e7c901a1de60e8ca9b11e0e96d0f9253e18 mtd: onenand: Pass correct pointer to IRQ handler
 4a372798e12cc777918db90c06e11c80e90bd001 dt-bindings: gpio: ti,twl4030: Correct the schema $id path
 0a4b61d9c2e496b5f0a10e29e355a1465c8738bb x86/amd_node: Fix AMD root device caching
 8da0efc3da9312b65f5cbf06e57d284f69222b2e ASoC: doc: cs35l56: Update firmware filename description for B0 silicon
@@ -671,14 +626,6 @@ ea0714d61dea6e00b853a0116d0afe2b2fe70ef3 bpf:add _impl suffix for bpf_task_work_
 487df8b698345dd5a91346335f05170ed5f29d4e drm/sched: Fix deadlock in drm_sched_entity_kill_jobs_cb
 636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13 regulator: fixed: fix GPIO descriptor leak on register failure
 a50f7456f853ec3a6f07cbe1d16ad8a8b2501320 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-63b5aa01da0f38cdbd97d021477258e511631497 vfat: fix missing sb_min_blocksize() return value checks
-f2c1f631630e01821fe4c3fdf6077bc7a8284f82 exfat: check return value of sb_min_blocksize in exfat_read_boot_sector
-e106e269c5cb38315eb0a0e7e38f71e9b20c8c66 isofs: check the return value of sb_min_blocksize() in isofs_fill_super
-124af0868ec6929ba838fb76d25f00c06ba8fc0d xfs: check the return value of sb_min_blocksize() in xfs_fs_fill_super
-c014021253d77cd89b2d8788ce522283d83fbd40 virtio-fs: fix incorrect check for fsvq->kobj
-8637fa89e678422995301ddb20b74190dffcccee block: add __must_check attribute to sb_min_blocksize()
-90f601b497d76f40fa66795c3ecf625b6aced9fd binfmt_misc: restore write access before closing files opened by open_exec()
-75fdd57499a392e97fc0cff8df64e44472c07f2f Merge patch series "sb_min_blocksize() fixes"
 3cd2018e15b3d66d2187d92867e265f45ad79e6f spi: Try to get ACPI GPIO IRQ earlier
 c74619e7602e88a0239cd4999571dd31081e9adf wifi: mac80211_hwsim: Limit destroy_on_close radio removal to netgroup
 4c740c4d8bac5569c5bf5f86db65ce779178f9a2 Merge tag 'ath-current-20251103' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
@@ -996,13 +943,7 @@ f4c737d44969c38dac2478039d353edddffd120d wifi: iwlwifi: fix aux ROC time event i
 3592c0083fb29cca13cd9978b8844d58b4eff548 wifi: iwlwifi: mvm: fix beacon template/fixed rate
 1a222625b468effd13d1ebb662c36a41c28a835a wifi: iwlwifi: mld: always take beacon ies in link grading
 a35f64a216ca1c9e3c3f0f91fdb54ef9515a7fe7 Merge tag 'iwlwifi-fixes-2025-11-12' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-a3f8f8662771285511ae26c4c8d3ba1cd22159b9 power: always freeze efivarfs
 f6fdd77b3e0d519a2535a1e923558cd07d9acda9 ALSA: hda/tas2781: Correct the wrong project ID
-78f0e33cd6c939a555aa80dbed2fec6b333a7660 fs/namespace: correctly handle errors returned by grab_requested_mnt_ns
-3cd1548a278c7d6a9bdef1f1866e7cf66bfd3518 shmem: fix tmpfs reconfiguration (remount) when noswap is set
-12741624645e098b2234a5ae341045a97473caf1 fs: add iput_not_last()
-56325e8c68c0724d626f665773a5005dcf44e329 landlock: fix splats from iput() after it started calling might_sleep()
-e9d50b78fdfe675b038ddaec7a139dbe3082174c Merge patch series "fs: add iput_not_last()"
 f2687d3cc9f905505d7b510c50970176115066a2 drm/i915/dp_mst: Disable Panel Replay
 ac1499fcd40fe06479e9b933347b837ccabc2a40 ipv4: route: Prevent rt_bind_exception() from rebinding stale fnhe
 7c44656ab3ea6f8429027ed14c23b314502e2541 vfio: selftests: add iova range query helpers
@@ -1010,10 +951,8 @@ a77fa0b9222d2f23a764061a3be18e6bc738672e vfio: selftests: fix map limit tests to
 ce0e3c403e00e9e03e80aca6570bf936a44279e2 vfio: selftests: add iova allocator
 d323ad739666761646048fca587734f4ae64f2c8 vfio: selftests: replace iova=vaddr with allocated iovas
 2d0e88f3fd1dcb37072d499c36162baf5b009d41 io_uring/rsrc: don't use blk_rq_nr_phys_segments() as number of bvecs
-5f02151c411dda46efcc5dc57b0845efcdcfc26d sched_ext: Fix unsafe locking in the scx_dump_state()
 4b747cc628d8f500d56cf1338280eacc66362ff3 cpufreq: intel_pstate: Check IDA only before MSR_IA32_PERF_CTL writes
 fe82c4f8a228d3b3ec2462ea2d43fa532a20ac67 Merge tag 'wireless-2025-11-12' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-c87488a12393a23f8a1b9850b989b386c58cac3f sched/ext: convert scx_tasks_lock to raw spinlock
 9efb297c520f392ab04bc45544a03770c98c3798 hwmon: (gpd-fan) Fix compilation error in non-ACPI builds
 c55a8e24cd129b6d8fed20e3d63c10c2263e2fc8 hwmon: (gpd-fan) initialize EC on driver load for Win 4
 214291cbaaceeb28debd773336642b1fca393ae0 acpi/hmat: Fix lockdep warning for hmem_register_resource()
@@ -1038,7 +977,6 @@ b2c26c82f7a94ec4da096f370e3612ee14424450 hsr: Follow standard for HSRv0 supervis
 ebd4469e7af61019daaf904fdcba07a9ecd18440 entry: Fix ifndef around arch_xfer_to_guest_mode_handle_work() stub
 0a8fb03fe7b0abab0ff16522e2625163183e7ae4 MAINTAINERS: Update name spelling
 fbade4bd08ba52cbc74a71c4e86e736f059f99f7 mptcp: Disallow MPTCP subflows from sockmap
-a257e974210320ede524f340ffe16bf4bf0dda1e sched_ext: Fix possible deadlock in the deferred_irq_workfn()
 cbcff934fa7deb670d9545a3aad4d07e8f1e4f3c mm/slub: fix memory leak in free_to_pcs_bulk()
 d0309c054362a235077327b46f727bc48878a3bc Merge tag 'net-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 8b4a014e2865a970c18c1e9bba2b5c5a7322045f Merge tag 'linux_kselftest-fixes-6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
@@ -1106,9 +1044,11 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 7ba45f15049b4442c932ca2499aec739bb6bdbcf Merge tag 'mm-hotfixes-stable-2025-11-16-10-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
-36c6f3c03d104faf1aa90922f2310549c175420f sched_ext: Use IRQ_WORK_INIT_HARD() to initialize rq->scx.kick_cpus_irq_work
-e97c61885bfe3919ed1f7d56bf05d3ffef392ccb Merge tag 'mtd/fixes-for-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-418592a04021baf5fcfbd0b7b7c5330bb135d10f Merge tag 'sched_ext-for-6.18-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-e7c375b181600caf135cfd03eadbc45eb530f2cb Merge tag 'vfs-6.18-rc7.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+f0c02fe6ad93ed530b6b74c8ef7f97451c9c2eb9 landlock: Fix handling of disconnected directories
+7e29f3bdbcc0b67103781e18d326725a2aad9f52 selftests/landlock: Add tests for access through disconnected paths
+59a6e73adb482c610dfd2b9d936d2330626ebbe5 selftests/landlock: Add disconnected leafs and branch test suites
+80dee6d6772db7bd1c466eae64353d3d988df673 landlock: Minor comments improvements
+31657f69d4ce69a0cafde58cf9af0ddf6cd4b4fd landlock: Make docs in cred.h and domain.h visible
+1d80ca4ab4b220013e9794c1c4abebe1df6272e2 selftests/landlock: Fix makefile header list
 
---===============0309538179177551621==--
+--===============5412105925941346724==--
