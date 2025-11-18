@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 18 Nov 2025 11:36:07 -0000
-Message-Id: <176346576777.2407435.2537763742450735199@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 11:36:15 -0000
+Message-Id: <176346577545.2407603.3342766443079176757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20251115_cezary_rojewski_asoc_intel_avs_allow_for_nhlt_configuration_override
-    old: d5c8b7902a41625ea328b52c78ebe750fbf6fef7
+  - ref: refs/heads/v2_20251114_chin_ting_kuo_spi_aspeed_add_ast2700_soc_support_and_quad_spi_handling_update
+    old: 9e510e677090bb794b46348b10e1c8038286e00a
     new: 0000000000000000000000000000000000000000
