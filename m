@@ -1,51 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============4144611530547408015=="
+Content-Type: multipart/mixed; boundary="===============3403231136016234896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 18 Nov 2025 08:09:36 -0000
-Message-Id: <176345337690.2231487.11729857775193149830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 18 Nov 2025 08:11:11 -0000
+Message-Id: <176345347144.2233869.15114596671970418740@gitolite.kernel.org>
 
---===============4144611530547408015==
+--===============3403231136016234896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 22003a136d8b75e2d486af6e23ba4009d143e185
-    new: db30233361f94e1a84450c607989bdb671100fb6
-    log: |
-         fa0498f8047536b877819ce4ab154d332b243d43 platform/x86: hp-wmi: Add Omen MAX 16-ah0xx fan support and thermal profile
-         6f91ad24c6639220f2edb0ad8edb199b43cc3b22 platform/x86: alienware-wmi-wmax: Add AWCC support to Alienware 16 Aurora
-         ddf5ffff3a5fe95bed178f5554596b93c52afbc9 platform/x86/intel/hid: Add Nova Lake support
-         d8bb447efc5622577994287dc77c684fa8840b30 platform/x86/intel/speed_select_if: Convert PCIBIOS_* return codes to errnos
-         444a9256f8d106e08a6bc2dc8ef28a8699e4b3ba platform/x86: acer-wmi: Ignore backlight event
-         db30233361f94e1a84450c607989bdb671100fb6 platform/x86: intel-uncore-freq: fix all header kernel-doc warnings
-         
+  - ref: refs/heads/master
+    old: 6f85aad74a70d17919a64ecd93037aa51c08698d
+    new: 20ca8040bae90c6bf4ccf32d9ce7b840cc3a86dc
+    log: revlist-6f85aad74a70-20ca8040bae9.txt
 
---===============4144611530547408015==
+--===============3403231136016234896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6f85aad74a70-20ca8040bae9.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1763453443 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1763453371-ae38a1b9d6e158e0aebaf258fbd11caff9c0bf60
+3324b2180c17b21c31c16966cc85ca41a7c93703 sched/fair: Skip sched_balance_running cmpxchg when balance is not due
+522fb20fbdbe48ed98f587d628637ff38ececd2d sched/fair: Have SD_SERIALIZE affect newidle balancing
+aaab6bb54ab9bc4c37ff33b816031918d2760517 sched: Increase sched_tick_remote timeout
+aceccac58ad76305d147165788ea6b939bef179b sched/fair: Enable scheduler feature NEXT_BUDDY
+e837456fdca81899a3c8e47b3fd39e30eae6e291 sched/fair: Reimplement NEXT_BUDDY to align with EEVDF goals
+d206fbad9328ddb68ebabd7cf7413392acd38081 sched/fair: Revert max_newidle_lb_cost bump
+e78e70dbf603c1425f15f32b455ca148c932f6c1 sched/fair: Small cleanup to sched_balance_newidle()
+08d473dd8718e4a4d698b1113a14a40ad64a909b sched/fair: Small cleanup to update_newidle_cost()
+33cf66d88306663d16e4759e9d24766b0aaa2e17 sched/fair: Proportional newidle balance
+6d66db9b3ddcda2695e66714faf48f9282f4fd86 Merge branch into tip/master: 'core/bugs'
+e4a18fe64cdb9a7548a94d005556768bf21a5aa5 Merge branch into tip/master: 'core/core'
+18c70ad090a06b800a6c2d763e963295453ddafc Merge branch into tip/master: 'core/rseq'
+ed84127b7e63ce8c94595e68e7f201be4beaa94e Merge branch into tip/master: 'irq/core'
+3144cff53b9bb923e7d114f1529538990acfcd98 Merge branch into tip/master: 'irq/drivers'
+fa0ca1668c62e62385014fb2fef05340c8ac2dad Merge branch into tip/master: 'irq/msi'
+d1448f27b19af171929bf18626a9598e92b9f215 Merge branch into tip/master: 'locking/core'
+7f525d59d51f384bf58912afa45d32cbc2fafa8a Merge branch into tip/master: 'locking/futex'
+f9fc09259a8520f34c482b03c803122aa1bd4225 Merge branch into tip/master: 'objtool/core'
+0904f8c77419bff50a70c61cdfb053dd7624ae79 Merge branch into tip/master: 'perf/core'
+c3391e0b7f897ba724e8464b392464997d57e817 Merge branch into tip/master: 'ras/core'
+d5dab48f4562f83ac810bb24755bf885f8c12881 Merge branch into tip/master: 'sched/core'
+c4b5459e1e491468e66854d59e996fe96ceaec70 Merge branch into tip/master: 'timers/core'
+d53be01dfb96a73efb8a45f1873f0f6ec21c5c31 Merge branch into tip/master: 'x86/apic'
+82a78e0b48a2014e870f08142c3aaeeb71d0073c Merge branch into tip/master: 'x86/boot'
+266a596cf67455b24bac5532fcce25732a498825 Merge branch into tip/master: 'x86/bugs'
+65f1dfeb45f0bff7f938919e8b2469b3e1cd4170 Merge branch into tip/master: 'x86/build'
+8767db079573422addbd0200d202957d610cc0ef Merge branch into tip/master: 'x86/cache'
+4e80bc7e621133a61741ab4231f4e44ed855fac2 Merge branch into tip/master: 'x86/cleanups'
+70d077042ebde82e82c6d1fa2f41a5e7881b6f04 Merge branch into tip/master: 'x86/core'
+72bfcd65b0183be06c8922dbb3b4556461d20544 Merge branch into tip/master: 'x86/cpu'
+688dd8930f8d6d104283c231b0797476d8f8a2cc Merge branch into tip/master: 'x86/entry'
+3526c21d37a7769036a822bfd67f880209a2cabe Merge branch into tip/master: 'x86/microcode'
+4c5c69a11862e701f314556ab6f5ea7bb447bb66 Merge branch into tip/master: 'x86/misc'
+a713f29c1bc4b6368b087650b7737ca18d5287f4 Merge branch into tip/master: 'x86/mm'
+b436655ce11bedd93ce211770d2776bb63254af4 Merge branch into tip/master: 'x86/sev'
+20ca8040bae90c6bf4ccf32d9ce7b840cc3a86dc Merge branch into tip/master: 'x86/sgx'
 
-22003a136d8b75e2d486af6e23ba4009d143e185 db30233361f94e1a84450c607989bdb671100fb6 refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaRwqBwAKCRBZrE9hU+XO
-MZuQAQCUj27fdFWXweR79WVexH82T2vGyGhK8ZcHpRMv6C5HJgEAyGn/bn2eUvXw
-M2UcmK8U9Geber+KJjVMj7IxYcaOqAY=
-=UpCy
------END PGP SIGNATURE-----
-
---===============4144611530547408015==--
+--===============3403231136016234896==--
