@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6437003907625628519=="
+Content-Type: multipart/mixed; boundary="===============7751092471197907306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 18 Nov 2025 22:18:39 -0000
-Message-Id: <176350431986.2977493.8114104920936234858@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 22:18:43 -0000
+Message-Id: <176350432338.2977682.14702249232907200877@gitolite.kernel.org>
 
---===============6437003907625628519==
+--===============7751092471197907306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
-    old: 321c98a3a9d8f91867ea6e95d0a4ecab620b9241
-    new: f6c5ed3d9f9f9faa88e368e60fbacaad180dfc70
-    log: revlist-321c98a3a9d8-f6c5ed3d9f9f.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: cd942c1c5572221df6036dae6943b2d3ef0354d7
+    new: 45336e8243c24d2a588bf46ea3f8bf29631d4c68
+    log: revlist-cd942c1c5572-45336e8243c2.txt
 
---===============6437003907625628519==
+--===============7751092471197907306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-321c98a3a9d8-f6c5ed3d9f9f.txt
+Content-Disposition: attachment; filename=revlist-cd942c1c5572-45336e8243c2.txt
 
-01bca52bae96cc721536be73fa18616933449fc5 NFSv4/flexfiles: Remove cred local variable dependency
-509f3910f407f8d72bb3d4d01f9f084e53238a1d NFSv4/flexfiles: Use ds_commit_idx when marking a write commit
-77bdc07a6753bae4b3cfa2bb20bcd4899debec37 NFSv4/flexfiles: Add data structure support for striped layouts
-81e3207e0e3e16e34c6d0f0c8b773c9a4c0d153a NFSv4/flexfiles: Update low level helper functions to be DS stripe aware.
-70cdc00215e3278dd449b1e8e9d29d3ae9f6f391 NFSv4/flexfiles: Read path updates for striped layouts
-52baef9666c7dbd56bbc4f56d02cb68ba3e23d3b NFSv4/flexfiles: Commit path updates for striped layouts
-a4610c16f014191949b3630d554fa7a2d29eb7e3 NFSv4/flexfiles: Write path updates for striped layouts
-623c837ccf13a41c624a78c13bf6b5c2ae81251d NFSv4/flexfiles: Update layout stats & error paths for striped layouts
-9020f034a9740c9f23b134bd0a0adf0ed4f7b712 NFSv4/flexfiles: Add support for striped layouts
-750342c414eec23d7670be6b17b4c89aaad73b10 NFSv4/flexfiles: fix to allocate mirror->dss before use
-440a629c0a7eb4740dc3972ac29ac3719bbe4b8f NFS4: Apply delay_retrans to async operations
-26e5063ec8abfe3f7db7231daaaec1284c4b5dc7 NFS: check if suid/sgid was cleared after a write as needed
-48aaf3bd968cec0e1fe9bdb172c851c3636eef92 NFS4: Fix state renewals missing after boot
 36dc2cc78b72c420af4a3c8be7e6b0fb493dfeb5 pnfs: Fix TLS logic in _nfs4_pnfs_v3_ds_connect()
 247e20df0475cf563e3f29c624232131eb90cfe3 pnfs: Fix TLS logic in _nfs4_pnfs_v4_ds_connect()
 5acc22f4907047137f2baad3e4cbe8da6ac67e2a pnfs: Set transport security policy to RPC_XPRTSEC_NONE unless using TLS
@@ -61,6 +48,10 @@ cb8c92b7efbb05ca897ea9772e0e9abf26c31b69 NFSv2/v3: Fix error handling in nfs_ato
 d769c96a1c0a055d8cbabdad625d1e5cb248e595 NFS: sysfs: fix leak when nfs_client kobject add fails
 b777dbdcd8d94a6d0b52e3e2afad6dbdc498e30a NFSv4: Fix an incorrect parameter when calling nfs4_call_sync()
 3d63a2bc9e36628589f5c5739017b47a57ff2155 NFS: Fix LTP test failures when timestamps are delegated
+e5b98a2d8c0972b2321faec90e2393948c6b164c nfs/localio: Remove alignment size checking in nfs_is_local_dio_possible
+4735fb143e89bb02056e30f542cf88888dfbe9bc VFS: shift dentry_create
+9bd9fd2961ac727e007978ede35f8afa4b51f64e VFS: Prepare atomic_open for dentry_create
+d06d9bf5708d63791a91600abe96acab98c84752 VFS/knfsd: Use atomic_open
 947a39ec16ee6e538ecb560dbaf8430ee0ace5a6 timekeeping: Add interfaces for handling timestamps with a floor value
 35b26fedbe90daa8fcffe9d7c9e8b8cc7e065664 timekeeping: Add percpu counter for tracking floor swap events
 9165b7af5986009b2c62318973b60b6cf8e67188 fs: add infrastructure for multigrain timestamps
@@ -159,5 +150,47 @@ dafe8a52b125c142fb271b82662a93af70fe651d NFSD: Implement NFSD_IO_DIRECT for NFS 
 0b530e7ac5e14c9b642e213812927b7de2bc0f2d NFSD: add NFSD_IO_DIRECT heuristic for small IO
 31ccdbc6d906cb81bd3447d2e421ee915e567d3a NFSD: Enable return of an updated stable_how to NFS clients
 f6c5ed3d9f9f9faa88e368e60fbacaad180dfc70 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+4d39cd1840565833b8476f9ffab29e0ddffa9a45 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+25d5a646ee2ad07da52ab2f4fe50914ba3c94224 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+0a122e71d7d53f71885a1c18b7afe88f10d4fb34 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+bd45a7dee1f48339fd71b6ea30b0edcaff681d18 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+43da78e45faa4dc1511c0e6921c091eeb31444e8 Merge branch 'kernel-6.12.24/xfs' into kernel-6.12.24/main
+ab83dbb6be35c2e3118b4f02f80002587b206fd1 Merge branch 'kernel-6.12.24/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.24/main
+697e8f96c9cc9186f6a44f4f68c0f92aea8836d0 Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.24/main
+c777fc8a1cb60626732827e11d8e7ffd3d422edd Merge branch 'kernel-6.12.24/nfs-next-thru-nfs-for-6.18-3' into kernel-6.12.24/main
+b9040035f12ccd5b230f48ba38ca869d55d94e2f Merge branch 'kernel-6.12.24/nfs-testing-snitm' into kernel-6.12.24/main
+4ed1472c28c5d0f1a2c1a3ac1fcc9f447724668e Merge branch 'kernel-6.12.24/nfsd-next' into kernel-6.12.24/main
+54c5c9737b34025de80fe141992d1a000f7761fc Merge branch 'kernel-6.12.24/nfsd-testing' into kernel-6.12.24/main
+31e6e82c16e7b34fe14a24fb6d5d59bc64fef4ab Merge branch 'kernel-6.12.24/nfsd-testing-snitm' into kernel-6.12.24/main
+5a04149924c05eb670ea05aaaa6a7d143741bf1c kernel-6.12.24-1
+e7b71ae4f23ffd596f734c833e075f12e275cf1f kernel-6.12.24-2
+ddff3c2a7de62b34e190553f2b3cdaeb3309e3af kernel-6.12.24-3
+80a61b59237b7dcd16eece5685240677a80e3f7a kernel-6.12.24-4
+9a9508852f3ba7c19be213d6d546cea39c4523ef kernel-6.12.24-5
+c145990d9c77a857ca304ca9a1e77468ca218cba kernel-6.12.24-6
+bde0f1ec8db890bf45b95e43203a4b1f40c86108 kernel-6.12.24-7
+48a849aa67162e67f8fbd06cdf7d8aac5590fddd kernel-6.12.24-8
+2203781ebf8628ac0d63cf9aba4e54fdbff94247 kernel-6.12.24-9
+5885bbb9d86bcc27bf4d265e86420f905e6dd68d kernel-6.12.24-10
+66bf1e206cfbdc3939be123a82f5d4fa8cf81046 kernel-6.12.24-11
+34cfe840d88761a53f317dec174c711b13c6d15a kernel-6.12.24-12
+d1f3110e46f92c803d2ab10af91a5ccca2615838 kernel-6.12.24-13
+274ce58bf79d3a6cc849bc722258e168546c676e kernel-6.12.24-14
+a39b212536be77e107cb3a42d9d3ea251ec52141 kernel-6.12.24-15
+946a8dee19ec104ab88dec7a5fe36b573fae59ad kernel-6.12.24-16
+8248661fa96b727a0c457a30a835de063e4b4189 kernel-6.12.24-17
+0534e63cb4445f85fecb76f171e4be77e656aaaa kernel-6.12.24-18
+00f161a37d4c1d9df21443c6988edd9083203dc2 kernel-6.12.24-19
+29a2a4895eff27afe824a56fce6c12e24c709fba kernel-6.12.24-20
+1d8a567340986df4b24858b7fab047e8b5024aca kernel-6.12.24-21
+4a6dd40997f2e6c731c6345a1a1b8d95ac115942 kernel-6.12.24-22
+4f243f17b15b7d3eaae20f4118b35d47bf6f0727 kernel-6.12.24-23
+49653b049fee7452572c07fe13bf8a4264765dff kernel-6.12.24-24
+019807e60c3e20416f1a45a8ebb6b5548e910ddd kernel-6.12.24-25
+e921d0ca02eabbf30f4a50a7182272d59fbb377b kernel-6.12.24-26
+38db7bfc152fa4bee75bd50b670defec9b794dd8 kernel-6.12.24-27
+9f50db3525a4aef018971433955fc802a10f77cb kernel-6.12.24-28
+fb8779c509d60519d797dd2e180f164a72e52a76 kernel-6.12.24-29
+45336e8243c24d2a588bf46ea3f8bf29631d4c68 kernel-6.12.24-30
 
---===============6437003907625628519==--
+--===============7751092471197907306==--
