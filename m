@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 18 Nov 2025 18:38:32 -0000
-Message-Id: <176349111230.2782682.13537098211953416564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Tue, 18 Nov 2025 18:40:37 -0000
+Message-Id: <176349123798.2786075.15161026692151871059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/dm-6.19
-    old: cc63e5ad047c309809a07339c345aeda740a3357
-    new: f687e1f23acd8e644c43693745bd3e5efbdf8ae3
+  - ref: refs/heads/for-mfd-next
+    old: 30ed024fb0768e9353f21d1d9e6960b7028acdfa
+    new: 65a4ee23e057f60d25c3436acd88f2f169f780c2
     log: |
-         f5422e201a441b0af0c0e8a0fd784d7783bb70da dm-verity: disable recursive forward error correction
-         c7a980df2dee55ef2f7844d3847b90920fb5450d dm-verity: fix unreliable memory allocation
-         e83f8f146ecc27180a79b5a80bc7ae3ae68ed94a dm-verity: remove useless mempool
-         f9c68e4ce3c38849066b82256226701cffc3ed8e dm: test for REQ_ATOMIC in dm_accept_partial_bio()
-         f687e1f23acd8e644c43693745bd3e5efbdf8ae3 dm-crypt: enable DM_TARGET_ATOMIC_WRITES
+         b73d5593bfde6bf570d55bcff3576e35cdf4ec9a mfd: syscon: Return -EPROBE_DEFER if the syscon is not found
+         02a3bf382418e517dfb3072d0567dfda6c7b280d dt-bindings: mfd: qcom,spmi-pmic: Document PMIV0104
+         d2b09520a1d0f217637cf6d4fdd8a19a0f2f7ef3 dt-bindings: mfd: qcom-spmi-pmic: Document PM7550 PMIC
+         70a6d820c898fc02abb7433820ed1494431d1acf MAINTAINERS: Update PF1550 driver email address
+         5c17042d6ce7490477eb11b7f90983adbcb5fa0c MAINTAINERS: Adjust file entry in NXP PF1550 PMIC MFD DRIVER
+         65a4ee23e057f60d25c3436acd88f2f169f780c2 dt-bindings: mfd: twl: Enable power button also for TWL603X
          
