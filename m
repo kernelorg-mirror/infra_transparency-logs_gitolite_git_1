@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7542343789966338554=="
+Content-Type: multipart/mixed; boundary="===============5373245957614281905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 18 Nov 2025 22:33:31 -0000
-Message-Id: <176350521105.2992006.2626705605476837947@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 22:33:33 -0000
+Message-Id: <176350521368.2992139.8524920563856507790@gitolite.kernel.org>
 
---===============7542343789966338554==
+--===============5373245957614281905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-testing
-    old: 312936f85d9dd198dd3bdad520b8c36e26815823
-    new: 6a2a24e363365251f76bcdaa763f94a6af2dc86e
-    log: revlist-312936f85d9d-6a2a24e36336.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing-snitm
+    old: f6c5ed3d9f9f9faa88e368e60fbacaad180dfc70
+    new: 42faefa58b957b2658edc49250cf704f06e40127
+    log: revlist-f6c5ed3d9f9f-42faefa58b95.txt
 
---===============7542343789966338554==
+--===============5373245957614281905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312936f85d9d-6a2a24e36336.txt
+Content-Disposition: attachment; filename=revlist-f6c5ed3d9f9f-42faefa58b95.txt
 
 0511682261ae46f871a8818c9f33eb495fe32d41 nfsd: fix refcount leak in nfsd_set_fh_dentry()
 92ac4f0389ba1a52e26a89e5d58c54432b22fe71 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
@@ -71,5 +71,8 @@ a7119d81d64afcb6e5794f419ea4ed719baa5b89 NFSD: Make FILE_SYNC WRITEs comply with
 852d2db066c416a0e402bbd72d9f01544438b971 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
 716d5d2410b53a21363635f94b6a299aa415f1b5 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
 6a2a24e363365251f76bcdaa763f94a6af2dc86e nfsd: Mark variable __maybe_unused to avoid W=1 build break
+89a171b778b08334ab2948ae26d958cda5380fd4 NFSD: add NFSD_IO_DIRECT heuristic for small IO
+cd39b6dac17597486d5c7a331e0fcbd817fcc0ea NFSD: Enable return of an updated stable_how to NFS clients
+42faefa58b957b2658edc49250cf704f06e40127 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
 
---===============7542343789966338554==--
+--===============5373245957614281905==--
