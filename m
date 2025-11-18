@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 18 Nov 2025 23:31:55 -0000
-Message-Id: <176350871530.3046836.12206265495577920494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 18 Nov 2025 23:32:01 -0000
+Message-Id: <176350872197.3047065.12632432306442150493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
   - ref: refs/heads/next
-    old: b5bea8cee55c50117e08675a2c15f35a6bef2472
-    new: ea5514e300568cbe8f19431c3e424d4791db8291
+    old: 2ea7215187c5759fc5d277280e3095b350ca6a50
+    new: a0af896ca68880d66705ebaa6197c642d463adc6
     log: |
-         b6369daf0d6a96db5048edd26b07fc1aaed77dd1 cxl/test: Remove ret_limit race condition in mock_get_event()
-         f1840efdb2bf4f8d0e698eebec8f676c6d745c6d cxl/test: Assign overflow_err_count from log->nr_overflow
-         ea5514e300568cbe8f19431c3e424d4791db8291 Merge branch 'for-6.19/cxl-misc' into cxl-for-next
+         3c14fb1b1c88e2215dc7029a3f628186fc9573f7 KVM: arm64: GICv3: Don't advertise ICH_HCR_EL2.En==1 when no vgic is configured
+         8be00d1ba3a1305469f6747d0285c4496a6855ee KVM: arm64: GICv3: Completely disable trapping on vcpu exit
+         34586ff891523dc8479aa7c087bc45970fafc5a4 KVM: arm64: GICv3: nv: Resync LRs/VMCR/HCR early for better MI emulation
+         22c299785240bb8a1beadbc5321208a8dd65f066 KVM: arm64: GICv3: Remove vgic_hcr workaround handling leftovers
+         54cf1341324a1da852840fe1948a50dba6b6b644 KVM: arm64: GICv3: Force exit to sync ICH_HCR_EL2.En
+         a0af896ca68880d66705ebaa6197c642d463adc6 Merge branch 'kvm-arm64/vgic-lr-overflow' into kvmarm/next
          
