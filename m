@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 18 Nov 2025 14:43:22 -0000
-Message-Id: <176347700242.2574316.2959152946343967108@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 14:49:13 -0000
+Message-Id: <176347735318.2579582.5894736710982847196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,44 +11,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: b1a7fe6679f5e9eab8f55d9a12f7b97cb6958e5d
-    new: 303b2a8aac74c7c013779265b937f71de5da61fc
-    log: |
-         14936312b704a69cb0f76d0e66c3fb3afab13d28 PM: sleep: core: Fix runtime PM enabling in device_resume_early()
-         1398ee3d72147d5b0bcdd43bc8310dbb8f67c042 Merge branch 'pm-cpuidle' into linux-next
-         6e479d144c020f08a8b45474f008b112560cd979 Merge branch 'pm-sleep-fixes' into fixes
-         24fee24689bdbecaa4c84d936efe17e1e920494c Merge branch 'fixes' into linux-next
-         303b2a8aac74c7c013779265b937f71de5da61fc Merge branch 'pm-sleep' into linux-next
-         
   - ref: refs/heads/fixes
-    old: 6a23ae0a96a600d1d12557add110e0bb6e32730c
-    new: 6e479d144c020f08a8b45474f008b112560cd979
+    old: 6e479d144c020f08a8b45474f008b112560cd979
+    new: 75d2d277cb8eb9d013eae73cfaa85fe03671e0d0
     log: |
-         14936312b704a69cb0f76d0e66c3fb3afab13d28 PM: sleep: core: Fix runtime PM enabling in device_resume_early()
-         6e479d144c020f08a8b45474f008b112560cd979 Merge branch 'pm-sleep-fixes' into fixes
+         f384497a76ed9539f70f6e8fe81a193441c943d2 PM: sleep: core: Fix runtime PM enabling in device_resume_early()
+         75d2d277cb8eb9d013eae73cfaa85fe03671e0d0 Merge branch 'pm-sleep-fixes' into fixes
          
   - ref: refs/heads/linux-next
-    old: 213a25ea89bce50df3714c59ac5318a8265b281b
-    new: 303b2a8aac74c7c013779265b937f71de5da61fc
+    old: 303b2a8aac74c7c013779265b937f71de5da61fc
+    new: cf6cad7bd296979448aa25e3cf643013b7e3ccbc
     log: |
-         3a5d64646ee8b28a724a434cbc3b594f127c7be2 cpuidle: governors: teo: Fix tick_intercepts handling in teo_update()
-         46fc75a29b7034d1971afcbdf47b88926a46b1ea PM: hibernate: Clean up kernel-doc comment style usage
-         14936312b704a69cb0f76d0e66c3fb3afab13d28 PM: sleep: core: Fix runtime PM enabling in device_resume_early()
-         1398ee3d72147d5b0bcdd43bc8310dbb8f67c042 Merge branch 'pm-cpuidle' into linux-next
-         6e479d144c020f08a8b45474f008b112560cd979 Merge branch 'pm-sleep-fixes' into fixes
-         24fee24689bdbecaa4c84d936efe17e1e920494c Merge branch 'fixes' into linux-next
-         303b2a8aac74c7c013779265b937f71de5da61fc Merge branch 'pm-sleep' into linux-next
+         f384497a76ed9539f70f6e8fe81a193441c943d2 PM: sleep: core: Fix runtime PM enabling in device_resume_early()
+         cdb6ed6f4167b1fca7bc795e7a2ed2cf730f1b6e Merge branches 'pm-cpuidle' and 'pm-sleep' into linux-next
+         75d2d277cb8eb9d013eae73cfaa85fe03671e0d0 Merge branch 'pm-sleep-fixes' into fixes
+         cf6cad7bd296979448aa25e3cf643013b7e3ccbc Merge branch 'fixes' into linux-next
          
   - ref: refs/heads/testing
-    old: 213a25ea89bce50df3714c59ac5318a8265b281b
-    new: 303b2a8aac74c7c013779265b937f71de5da61fc
+    old: 303b2a8aac74c7c013779265b937f71de5da61fc
+    new: 4d54170cfc01e276d360b9a9157f925dd2b6f63f
     log: |
-         3a5d64646ee8b28a724a434cbc3b594f127c7be2 cpuidle: governors: teo: Fix tick_intercepts handling in teo_update()
-         46fc75a29b7034d1971afcbdf47b88926a46b1ea PM: hibernate: Clean up kernel-doc comment style usage
-         14936312b704a69cb0f76d0e66c3fb3afab13d28 PM: sleep: core: Fix runtime PM enabling in device_resume_early()
-         1398ee3d72147d5b0bcdd43bc8310dbb8f67c042 Merge branch 'pm-cpuidle' into linux-next
-         6e479d144c020f08a8b45474f008b112560cd979 Merge branch 'pm-sleep-fixes' into fixes
-         24fee24689bdbecaa4c84d936efe17e1e920494c Merge branch 'fixes' into linux-next
-         303b2a8aac74c7c013779265b937f71de5da61fc Merge branch 'pm-sleep' into linux-next
+         58075aec92a8141fd7f42e1c36d1bc54552c015e powercap: intel_rapl: Add support for Nova Lake processors
+         f384497a76ed9539f70f6e8fe81a193441c943d2 PM: sleep: core: Fix runtime PM enabling in device_resume_early()
+         cdb6ed6f4167b1fca7bc795e7a2ed2cf730f1b6e Merge branches 'pm-cpuidle' and 'pm-sleep' into linux-next
+         75d2d277cb8eb9d013eae73cfaa85fe03671e0d0 Merge branch 'pm-sleep-fixes' into fixes
+         cf6cad7bd296979448aa25e3cf643013b7e3ccbc Merge branch 'fixes' into linux-next
+         4d54170cfc01e276d360b9a9157f925dd2b6f63f Merge branch 'pm-powercap' into testing
          
