@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5576545886189367049=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 Nov 2025 23:12:23 -0000
-Message-Id: <176350754355.3028225.6845015550810857859@gitolite.kernel.org>
-
---===============5576545886189367049==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+Date: Tue, 18 Nov 2025 23:12:36 -0000
+Message-Id: <176350755642.3028652.11896865483275982507@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+user: jarkko
 changes:
-  - ref: refs/heads/spi-6.19
-    old: f2fb3f7bdf8b996ef7bd1ecc13c93c4dfc9b0d2a
-    new: bd79452b39c21599e2cff42e9fbeb182656b6f6a
+  - ref: refs/heads/main
+    old: dc81a6f974a519a7974d74eb897c524011d87060
+    new: b8282076e8688c8b204dafdd180eb28ec294233e
     log: |
-         4dbb5f6e1b4eed64037d4462977c196acab2af16 spi: imx: add 16/32 bits per word support for target PIO mode
-         bd79452b39c21599e2cff42e9fbeb182656b6f6a MAINTAINERS: adjust file entry in RISC-V MICROCHIP SUPPORT
+         2a157b713eba9c31f70ca0da610993309163ccb5 feat: dyn TpmKeyCommand trait
+         4757e04c61e91f6881c457f42bb03837c8d69548 chore: bump version to 0.8.0
+         956b5bbe9e9dd1857a71d5e5354ed4b0d4b797bf refactor: move asn1 code to asn1.rs
+         b8282076e8688c8b204dafdd180eb28ec294233e refactor: remove TryFrom<&[u8]> for TpmKey
          
-
---===============5576545886189367049==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1763507613 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1763507541-e7ff5be4362469f785c264b9316be3978d4ac58d
-
-f2fb3f7bdf8b996ef7bd1ecc13c93c4dfc9b0d2a bd79452b39c21599e2cff42e9fbeb182656b6f6a refs/heads/spi-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkc/Z0ACgkQJNaLcl1U
-h9Aekgf/V5coAHVRyoTVKgvAI7QmcaE/sNMdTkY5bHo+FFqwAaPElds/9cSzHyvQ
-2fZ7dCaQT9TCjbUgC3cvbK/yyPz9zp15yNI8o5rtyICqtb9/Dh15YaAyTReyCuu5
-ZPhYeYETw16vJ2q2MVCohBLNeNLppbiU+T46kWit5YiT1ktxtwCBpWq9oN4+MEU4
-rOqLF+q+O3+nE/Huh5tUu1i3YoU7jlxL7OoxEuTK8pR4oDIDVYlW3C9+v7CbAAMp
-czNFQeKAMs6ATRyxPQiduCX2pPg9tw0PSnv4WXyN5wVOd7cAFegCkQ1rOfZs5laI
-nDWToBQd0bIsqxPlJp3H8stb58zX2A==
-=YFw8
------END PGP SIGNATURE-----
-
---===============5576545886189367049==--
