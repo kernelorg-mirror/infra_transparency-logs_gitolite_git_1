@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 18 Nov 2025 23:26:33 -0000
-Message-Id: <176350839317.3042173.7777471467371070430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Tue, 18 Nov 2025 23:31:55 -0000
+Message-Id: <176350871530.3046836.12206265495577920494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/for-6.19/block
-    old: caebce24f6a7f8315b1b87505b74066efb592d92
-    new: 8e1d91c2582d2b60d62616649546bb132fff566b
+  - ref: refs/heads/next
+    old: b5bea8cee55c50117e08675a2c15f35a6bef2472
+    new: ea5514e300568cbe8f19431c3e424d4791db8291
     log: |
-         8e1d91c2582d2b60d62616649546bb132fff566b block: remove the declaration of elevator_init_mq function
-         
-  - ref: refs/heads/for-next
-    old: 7c949186201349100ac3ebbff2cc63a5c9942079
-    new: ca289ffd261b82b4fd0c4373c38f0be5d8b621c0
-    log: |
-         8e1d91c2582d2b60d62616649546bb132fff566b block: remove the declaration of elevator_init_mq function
-         ca289ffd261b82b4fd0c4373c38f0be5d8b621c0 Merge branch 'for-6.19/block' into for-next
+         b6369daf0d6a96db5048edd26b07fc1aaed77dd1 cxl/test: Remove ret_limit race condition in mock_get_event()
+         f1840efdb2bf4f8d0e698eebec8f676c6d745c6d cxl/test: Assign overflow_err_count from log->nr_overflow
+         ea5514e300568cbe8f19431c3e424d4791db8291 Merge branch 'for-6.19/cxl-misc' into cxl-for-next
          
