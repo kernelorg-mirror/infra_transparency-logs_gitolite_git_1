@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-Date: Tue, 18 Nov 2025 14:24:50 -0000
-Message-Id: <176347589002.2557286.1859631858716513431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Tue, 18 Nov 2025 14:25:47 -0000
+Message-Id: <176347594706.2559426.3755276637465472138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-user: jarkko
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/tags/0.8.1
-    old: 0000000000000000000000000000000000000000
-    new: a6645b61dd8b2d32ea66f688a414df40f2e92162
+  - ref: refs/heads/kdevops
+    old: baba70bfc0449f0ec3c900f92ddcfbc0e16963fd
+    new: 4d2c3cb48afcab0d28253caea06c3f469f9b4b74
+    log: |
+         4d2c3cb48afcab0d28253caea06c3f469f9b4b74 generic: add tests for file delegations
+         
