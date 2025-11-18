@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Tue, 18 Nov 2025 18:40:46 -0000
-Message-Id: <176349124675.2786380.18326258439873395554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 18 Nov 2025 18:42:33 -0000
+Message-Id: <176349135304.2787534.15422413857543244948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 67d8eed26eadb1edd4873d24889be26aa9b73fe5
-    new: c0379d8e9b6a11e7c071e1c42c2fb6b7b98e7aba
-    log: |
-         88a8e9b49ee80a9aafc1e0b8c6cf0884f63eefbb backlight: aw99706: Add support for Awinic AW99706 backlight
-         c0379d8e9b6a11e7c071e1c42c2fb6b7b98e7aba dt-bindings: leds: backlight: Add Awinic AW99706 backlight
-         
+  - ref: refs/heads/pwrctrl-tc9563
+    old: 0000000000000000000000000000000000000000
+    new: 72359837ad0d3f2cbc1364d1cba84357d6d38615
