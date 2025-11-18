@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Tue, 18 Nov 2025 22:45:24 -0000
-Message-Id: <176350592422.3004400.3937009069054463919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Tue, 18 Nov 2025 22:46:50 -0000
+Message-Id: <176350601018.3005078.5080541400319194177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-user: jarkko
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/main
-    old: fe0e9d412c09b1b676798f5e58a2f09bc6fa1a97
-    new: b173037151327dcbf394e0bb0469f6f1978f2ec2
+  - ref: refs/heads/next
+    old: 7ec9db66cc552f2f8a6779c16d01a2a01eccedde
+    new: b5bea8cee55c50117e08675a2c15f35a6bef2472
     log: |
-         3cda4b1a08d774c8e39937bdb83e0fe1c04df485 refactor: move asn1 code to asn1.rs
-         b173037151327dcbf394e0bb0469f6f1978f2ec2 refactor: remove TryFrom<&[u8]> for TpmKey
+         26c5b0d9c080ff753c66de0b19d6e3e014a24877 cxl/test: remove unused mock function for cxl_rcd_component_reg_phys()
+         b5bea8cee55c50117e08675a2c15f35a6bef2472 Merge branch 'for-6.19/cxl-misc' into cxl-for-next
          
