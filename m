@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8167983672864740054=="
+Content-Type: multipart/mixed; boundary="===============5660699418381785090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 18 Nov 2025 21:20:26 -0000
-Message-Id: <176350082607.2929315.7134813548332153425@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 21:20:28 -0000
+Message-Id: <176350082840.2929428.2060252447692732047@gitolite.kernel.org>
 
---===============8167983672864740054==
+--===============5660699418381785090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c9dfb92de0738eb7fe6a591ad1642333793e8b6e
     new: a057e8e4ac5b1ddd12be590e2e039fa08d0c8aa4
     log: revlist-c9dfb92de073-a057e8e4ac5b.txt
 
---===============8167983672864740054==
+--===============5660699418381785090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ f356a66b87bb19e5370dee469ec32e0094ac9da3 gve: Wrap struct xdp_buff
 1b42e07af1ee65d10ee72f90d6fbd02a9b53208c gve: Add Rx HWTS metadata to AF_XDP ZC mode
 a057e8e4ac5b1ddd12be590e2e039fa08d0c8aa4 Merge branch 'gve-implement-xdp-hw-rx-timestamping-support-for-dq'
 
---===============8167983672864740054==--
+--===============5660699418381785090==--
