@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 18 Nov 2025 12:18:58 -0000
-Message-Id: <176346833860.2442649.7924439464043470521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 18 Nov 2025 12:33:43 -0000
+Message-Id: <176346922304.2455577.1421726070035164173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: pratyush
 changes:
-  - ref: refs/heads/main
-    old: 53adb2085ca81337df2db20b96898b1980e310ff
-    new: 53dce114cc5d289aafdf5bc8a717a064cc466e01
+  - ref: refs/heads/spi-nor/next
+    old: 7f77c561e22783387af91cd16f3a4324a99c9a4f
+    new: 5008c3ec3f891456e74f8dab882fcd5bc515d327
     log: |
-         b7dee782236fa82ddd3844498438116b0444d9e5 rtl_nic: add firmware rtl9151a-1
-         53dce114cc5d289aafdf5bc8a717a064cc466e01 Merge branch 'robot/patch-0-1763433586' into 'main'
+         5008c3ec3f891456e74f8dab882fcd5bc515d327 mtd: spi-nor: core: Check read CR support
          
