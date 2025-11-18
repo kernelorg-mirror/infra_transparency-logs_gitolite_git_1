@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 18 Nov 2025 18:42:33 -0000
-Message-Id: <176349135304.2787534.15422413857543244948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Tue, 18 Nov 2025 18:43:52 -0000
+Message-Id: <176349143270.2788679.1984030633774711152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/pwrctrl-tc9563
-    old: 0000000000000000000000000000000000000000
-    new: 72359837ad0d3f2cbc1364d1cba84357d6d38615
+  - ref: refs/heads/kdevops
+    old: a8f505e8ddb4e57cd5681f44f4cb800e46c9c64e
+    new: 53ebb84850167d8891c902a83d6785c0f6e6a65e
+    log: |
+         53ebb84850167d8891c902a83d6785c0f6e6a65e generic: add tests for file delegations
+         
