@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 18 Nov 2025 08:18:48 -0000
-Message-Id: <176345392828.2239570.17818762924921770948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 18 Nov 2025 08:29:47 -0000
+Message-Id: <176345458757.2249025.11407169475136195202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/xfs-6.19-merge
-    old: bf3b8e915215ef78319b896c0ccc14dc57dac80f
-    new: 9b0305968d60a7672a7db29c07cfbe03bc5ae3ab
-    log: |
-         9b0305968d60a7672a7db29c07cfbe03bc5ae3ab xfs: remove the unused bv field in struct xfs_gc_bio
-         
+  - ref: refs/tags/stm32-dt-for-v6.19-1
+    old: 0000000000000000000000000000000000000000
+    new: 8f2ea2f8365be978ef81f77d48db830a337e0ff6
