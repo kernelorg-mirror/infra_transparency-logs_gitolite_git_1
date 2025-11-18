@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5121840768497522903=="
+Content-Type: multipart/mixed; boundary="===============7721939175741531576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 18 Nov 2025 21:46:13 -0000
-Message-Id: <176350237342.2950226.7806088513303837499@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 21:47:36 -0000
+Message-Id: <176350245669.2951060.312802698026131945@gitolite.kernel.org>
 
---===============5121840768497522903==
+--===============7721939175741531576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 124c98b10001a35928a379593c7aacb3cbef6659
-    new: 7a601324ac9828468291151d220edb47a6a82449
-    log: revlist-124c98b10001-7a601324ac98.txt
+  - ref: refs/heads/for-next
+    old: a12dacb5d1ea5dee30f16aada518ebfee58302e9
+    new: 6fc5c6e08a48a232aa887b9ed07af5539c8812e4
+    log: revlist-a12dacb5d1ea-6fc5c6e08a48.txt
 
---===============5121840768497522903==
+--===============7721939175741531576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-124c98b10001-7a601324ac98.txt
+Content-Disposition: attachment; filename=revlist-a12dacb5d1ea-6fc5c6e08a48.txt
 
 d425aef66e62221fa6bb0ccb94296df29e4cc107 arm64: dts: rockchip: Set correct pinctrl for I2S1 8ch TX on odroid-m1
 e179de737d13ad99bd19ea0fafab759d4074a425 arm64: dts: rockchip: Fix PCIe power enable pin for BigTreeTech CB2 and Pi2
@@ -40,5 +40,6 @@ baa18d577cd445145039e731d3de0fa49ca57204 arm64: dts: rockchip: disable HS400 on 
 b5414520793e68d266fdd97a84989d9831156aad arm64: dts: rockchip: fix PCIe 3.3V regulator voltage on orangepi-5
 c10519c8c88629e3e0e7f822c67e5286eb97c836 Merge tag 'v6.18-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
 7a601324ac9828468291151d220edb47a6a82449 MAINTAINERS: sync omap devicetree maintainers with omap platform
+6fc5c6e08a48a232aa887b9ed07af5539c8812e4 Merge branch 'arm/fixes' into for-next
 
---===============5121840768497522903==--
+--===============7721939175741531576==--
