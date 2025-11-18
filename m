@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 18 Nov 2025 17:43:29 -0000
-Message-Id: <176348780910.2734245.7457347624938022866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+Date: Tue, 18 Nov 2025 17:48:56 -0000
+Message-Id: <176348813617.2739164.16470163720247467159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+user: jarkko
 changes:
-  - ref: refs/heads/dm-6.19
-    old: 5fc2367120ce3116cedad3cfc6ad8769da00487a
-    new: cc63e5ad047c309809a07339c345aeda740a3357
+  - ref: refs/heads/main
+    old: 4e89b460719b03aad4e04109b77d93be7950021d
+    new: 49d24d07f49ec3d8f86f01b2e8598be167ee6157
     log: |
-         c82faa893418f584da8f38f9cbdda4533f49fd55 dm: Don't warn if IMA_DISABLE_HTABLE is not enabled
-         ae97648e14f7907f4b0e0b295eb2fdcf43806f9d dm verity fec: Expose corrected block count via status
-         61c73e8de99370ad0ee96ef6d65d8e35d302c5c1 dm mpath: enable DM_TARGET_ATOMIC_WRITES
-         7fa3e7d114abc9cc71cc35d768e116641074ddb4 dm-ebs: Mark full buffer dirty even on partial write
-         cc63e5ad047c309809a07339c345aeda740a3357 dm-bufio: align write boundary on logical and physical block size
+         49d24d07f49ec3d8f86f01b2e8598be167ee6157 feat: add object_name parameter to TpmPolicyCommand::from_command
          
