@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0414788824225631584=="
+Content-Type: multipart/mixed; boundary="===============7542343789966338554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 18 Nov 2025 22:33:28 -0000
-Message-Id: <176350520826.2991801.12811760596375856211@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 22:33:31 -0000
+Message-Id: <176350521105.2992006.2626705605476837947@gitolite.kernel.org>
 
---===============0414788824225631584==
+--===============7542343789966338554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfsd-next
-    old: 547595793d5339d79076cb95b5f7ee86f77e6da6
-    new: e968057e7c7416be7213d64b1852ee1cff4967aa
-    log: revlist-547595793d53-e968057e7c74.txt
+  - ref: refs/heads/kernel-6.12.24/nfsd-testing
+    old: 312936f85d9dd198dd3bdad520b8c36e26815823
+    new: 6a2a24e363365251f76bcdaa763f94a6af2dc86e
+    log: revlist-312936f85d9d-6a2a24e36336.txt
 
---===============0414788824225631584==
+--===============7542343789966338554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-547595793d53-e968057e7c74.txt
+Content-Disposition: attachment; filename=revlist-312936f85d9d-6a2a24e36336.txt
 
 0511682261ae46f871a8818c9f33eb495fe32d41 nfsd: fix refcount leak in nfsd_set_fh_dentry()
 92ac4f0389ba1a52e26a89e5d58c54432b22fe71 nfsd: add missing FATTR4_WORD2_CLONE_BLKSIZE from supported attributes
@@ -52,5 +52,24 @@ e37b1e0913cbd2a46b274c17fef113629ccf46c6 sunrpc: allocate a separate bvec array 
 786a3d86ee576959a4f0cce1ce196b738bcd03b4 NFS: nfsd-maintainer-entry-profile: Inline function name prefixes
 3bc28e606702572b81636b3f9e1b383fc09ec608 nfsd: stop pretending that we cache the SEQUENCE reply.
 e968057e7c7416be7213d64b1852ee1cff4967aa nfsd: Use MD5 library instead of crypto_shash
+de80185b4c33fc78c04673b1cd159667ab10221f MAINTAINERS: add a nfsd blocklayout reviewer
+5f8a8af1315d4fd079e9ecdbcb2f0346d11eea62 lockd: don't allow locking on reexported NFSv2/3
+9b18d32b5df2a7cacc2a0a1d13c354121a68b353 xdrgen: Generalize/harden pathname construction
+330bdde15b74de94472bc292c483fa93e306d2c4 xdrgen: Make the xdrgen script location-independent
+9b7acc8fe42fff709fda2b4da69d43c4bd1a5808 xdrgen: Fix the variable-length opaque field decoder template
+922550260913005c25b33d0957241af84ff81869 xdrgen: handle _XdrString in union encoder/decoder
+bb64570eccfe57762aadd8455c2406541e9e1aa2 xdrgen: Fix union declarations
+3fe42a9919fbdc1d44c5db6cd0e866fb9c6c2c40 xdrgen: Don't generate unnecessary semicolon
+996f2c5c487363c160a79cce6d6ccafd926f1960 NFSD: don't start nfsd if sv_permsocks is empty
+5f73d4161a7eeb636279727cf585fe5cd423a9cc NFSD: use correct reservation type in nfsd4_scsi_fence_client
+20dc86b1a9fb9a8e855a0313d4ce56f40894c794 NFSD: Add trace point for SCSI fencing operation.
+bb6022a23a5b8d25d522c3e14607ab611d379f03 SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
+6bd4e2aa6543f2c8a7d3dac61ec83518d5e5e197 svcrdma: use rc_pageoff for memcpy byte offset
+2a17f17e2d431f560f536c14220e3572724b12bd svcrdma: return 0 on success from svc_rdma_copy_inline_range
+ac9138a5826157f2bad706af4c1a55f9829a0d42 svcrdma: bound check rq_pages index in inline path
+a7119d81d64afcb6e5794f419ea4ed719baa5b89 NFSD: Make FILE_SYNC WRITEs comply with spec
+852d2db066c416a0e402bbd72d9f01544438b971 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+716d5d2410b53a21363635f94b6a299aa415f1b5 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+6a2a24e363365251f76bcdaa763f94a6af2dc86e nfsd: Mark variable __maybe_unused to avoid W=1 build break
 
---===============0414788824225631584==--
+--===============7542343789966338554==--
