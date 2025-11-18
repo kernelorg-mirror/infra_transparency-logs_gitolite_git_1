@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5479597424875196783=="
+Content-Type: multipart/mixed; boundary="===============7127762525127426745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 18 Nov 2025 02:16:52 -0000
-Message-Id: <176343221227.1937315.14425483379514610343@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 02:16:53 -0000
+Message-Id: <176343221353.1937490.1407469691447963577@gitolite.kernel.org>
 
---===============5479597424875196783==
+--===============7127762525127426745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a1a57ed825dc7a4b4db59908474a56c53e5131fc
-    new: 056b93566a3509aecf3761fe4e76b444a1cf7886
-    log: revlist-a1a57ed825dc-056b93566a35.txt
+  - ref: refs/heads/mm-unstable
+    old: 2a8f76e458003cf7845de28a2b010f5c093d75c0
+    new: ffac53cdb231aaac262b3ccd3cb6956bb4145380
+    log: revlist-2a8f76e45800-ffac53cdb231.txt
 
---===============5479597424875196783==
+--===============7127762525127426745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1a57ed825dc-056b93566a35.txt
+Content-Disposition: attachment; filename=revlist-2a8f76e45800-ffac53cdb231.txt
 
 56db95e2b31f716af623d39a230499860938f905 mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 5b826a4b203ff4746d3f458bf57c525ba32209b3 kernel/kexec: change the prototype of kimage_map_segment()
@@ -163,16 +163,5 @@ d1aeb92dd1a0aaf2abc73159253bd223fb02507b zram: introduce writeback bio batching 
 dd9ef17c7f6aa5497664857995f9eb7e950b4f49 zram: add writeback batch size device attr
 1eecdfd9c8c23d88906da7ee5147c737a35a54b5 zram: take write lock in wb limit store handlers
 ffac53cdb231aaac262b3ccd3cb6956bb4145380 zram: drop wb_limit_lock
-c1155441550febad136297542273c0231b3ab53c mm: shmem: allow fallback to smaller large orders for tmpfs mmap() access
-fe9fa9d9cc44054d27ddbdb0d2da9663d4257ea3 mm/huge_memory.c: introduce folio_split_unmapped
-178afc5405b6ff6386adb4fd8b2d430c991e5afa mm-huge_memoryc-introduce-folio_split_unmapped-v2
-f85af87c802e66a837fba9a1610804a9fbfbed92 selftests/mm: gup_test: stop testing FOLL_TOUCH
-596ed8307a9cfae298f8baa90690c3a037dc738c selftests/mm: gup_test: fix comment regarding origin of FOLL_WRITE
-e82ab3acc350114e17a816a7e33a579fce17bf10 memcg: use mod_node_page_state to update stats
-c9d213e6e491699ef93946c6b00017b23dcad19d memcg: remove __mod_lruvec_kmem_state
-69a97d0c2e8ef38d3030c9bbcc90aed1971c0fa2 memcg: remove __mod_lruvec_state
-0390f1e9cea1c3f4cd524a0260d9c58656bb2d08 memcg: remove __lruvec_stat_mod_folio
-2b518a0221dd5cbadef4b0eb45a3e9f662f1153d mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
-056b93566a3509aecf3761fe4e76b444a1cf7886 mm/vmalloc: warn only once when vmalloc detect invalid gfp flags
 
---===============5479597424875196783==--
+--===============7127762525127426745==--
