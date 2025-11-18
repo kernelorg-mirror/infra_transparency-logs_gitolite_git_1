@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 18 Nov 2025 05:01:54 -0000
-Message-Id: <176344211451.2079544.6587558127584351624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 18 Nov 2025 06:22:44 -0000
+Message-Id: <176344696441.2143800.8993542088916837462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/v4.persistency
+  - ref: refs/tags/ipsec-2025-11-18
     old: 0000000000000000000000000000000000000000
-    new: eb028c33451af08bb34f45c6be6967ef1c98cbd1
+    new: c6c94f44cfa1dd0707d5c2c737b7522fb63847a5
