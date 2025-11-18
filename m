@@ -1,27 +1,347 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Tue, 18 Nov 2025 18:48:26 -0000
-Message-Id: <176349170666.2792945.17473866647154607744@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4073667190112185245=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 18 Nov 2025 18:49:12 -0000
+Message-Id: <176349175283.2793946.5193356940996127954@gitolite.kernel.org>
+
+--===============4073667190112185245==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testme
-    old: f2f22721aca46cebb63c589eefda843721908833
-    new: d5cb9574391cc0a4683c22944d00d0ad76a224d3
-    log: |
-         ddde4abaa0ecc8395e0fcfa3e92f65d481890cc8 x86/cpufeatures: Make X86_FEATURE leaf 17 Linux-specific
-         7baadd463e147fdcb6d3a091d85e23f89832569c x86/cpufeatures: Enumerate the LASS feature bits
-         e39c5387adebf2839aaf5779cdd09a3506963fc5 x86/cpu: Add an LASS dependency on SMAP
-         d9a96cc18bec65c39822ee0a1672d7dc3fda150a x86/asm: Introduce inline memcpy and memset
-         b3a7e973abe6fe3b56adb39be52a4bdaefe14b65 x86/alternatives: Disable LASS when patching kernel code
-         731d43750cf8d3c67df7aabc78cc567c6d684111 x86/kexec: Disable LASS during relocate kernel
-         42fea0a3a707249cf88ee24aece1dfaba4953b97 x86/traps: Communicate a LASS violation in #GP message
-         c9129cf0f0447cdf195df0c79b87940f266d3767 selftests/x86: Update the negative vsyscall tests to expect a #GP
-         d5cb9574391cc0a4683c22944d00d0ad76a224d3 x86/cpu: Enable LASS during CPU initialization
-         
+  - ref: refs/heads/for-6.19
+    old: 20772c4e0f0b58211ebdddfb8606694677c4c4c8
+    new: 0140fc11893bf22928a6f6ebcea96315671d75dc
+    log: revlist-20772c4e0f0b-0140fc11893b.txt
+
+--===============4073667190112185245==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1763491787 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1763491717-143d488b450a22a162107f66d770733f08e0557c
+
+20772c4e0f0b58211ebdddfb8606694677c4c4c8 0140fc11893bf22928a6f6ebcea96315671d75dc refs/heads/for-6.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkcv8sACgkQJNaLcl1U
+h9AiBgf/TZP+VPovmiHHtDFqzHmTuUaWhVbVzN8a6rbCXZI7/pQ4VpPrT/vG31j3
+v+KpHo//oZkdg0YPAO9uzYPdrwqRXVht/AqTRs5BfTMhW9fbdqAX9rnNuJCVgZpm
+Gxzn6yDn3OViJ8pWXfum95pwPovgPVffG0uxoCt+s8bycZIdo+KsZ/8CdDNW9c3r
+vTWtH/iWpsI1se4Jp2xbsCi17Ykl1m2MP+DO99uWdoNQU2oLnlgSjPPVwGCyegPZ
+3AJSNByKrEqQ+uSBUlnUPHpYa500WHGf7mrmw+rnJNRiK+/byH60e8gqqa9SzbYQ
+lFaAnuaH8GTykxzJHMtBAqKJp3LZAg==
+=+xqF
+-----END PGP SIGNATURE-----
+
+--===============4073667190112185245==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-20772c4e0f0b-0140fc11893b.txt
+
+d6b8ebab363bf3dd46cf4d64727910d648bd35cf ASoC: arizona-haptics: convert to snd_soc_dapm_xxx()
+91f20e5167d38eb943a087e3087927d1ce7a5c78 ASoC: arizona-micsupp: convert to snd_soc_dapm_xxx()
+64f90b329ffadae00b187ac797837ba598289707 ASoC: audio_codec: convert to snd_soc_dapm_xxx()
+ed71deee195d5d2478363d606b0fbe5665e99d7f ASoC: audio_helper: convert to snd_soc_dapm_xxx()
+ee0f171f4b9d21af0b202cec35c44c1eaf6e0beb ASoC: audio_topology: convert to snd_soc_dapm_xxx()
+4d5c668c268b7812ff15452d303974ce247ad378 ASoC: soc.h: convert to snd_soc_dapm_xxx()
+8855eb7d29400fb7b2882da33725db2801c410e4 ASoC: asoc.h: convert to snd_soc_dapm_xxx()
+6b1b50ed3c9409a85ff28335ca9b471ed399e652 ASoC: amd: acp-mach-common: convert to snd_soc_dapm_xxx()
+170bc7a0e26ca3d36f543db4111cb7195137c145 ASoC: amd: acp3x-es83xx: convert to snd_soc_dapm_xxx()
+b42c7f40d2aa8be24601eaa80c672e2c34742c18 ASoC: amd: acp5x-mach: convert to snd_soc_dapm_xxx()
+f3e9bca581321403c9614a075002e29d8e29c60d ASoC: atmel: sam9g20_wm8731: convert to snd_soc_dapm_xxx()
+6d2188983a12e036531ecc67d89c6e1388855ea1 ASoC: atmel: tse850-pcm5142: convert to snd_soc_dapm_xxx()
+cdc8feb84f7f22a9b21483b706382cea3cd248cd ASoC: codecs: ab8500: convert to snd_soc_dapm_xxx()
+946d58ae54f8cd9ead30571a71c75a3981d7862a ASoC: codecs: 88pm860x: convert to snd_soc_dapm_xxx()
+e765581ceba401ef62329a4699403d00cb17ce2b ASoC: codecs: ad1836: convert to snd_soc_dapm_xxx()
+696713199ea5128a3d031a45f275bbfd275b87db ASoC: codecs: ad193x: convert to snd_soc_dapm_xxx()
+4a9eb06f9b36ca43106e6e12231b5171a660e4ce ASoC: codecs: adau1761: convert to snd_soc_dapm_xxx()
+f7a7e796a36f487758a9444408cef41f94460158 ASoC: codecs: adau1781: convert to snd_soc_dapm_xxx()
+09ff5df2edbea67256209eb814bca4570436b7c6 ASoC: codecs: adau17x1: convert to snd_soc_dapm_xxx()
+bdd43845598cae0591f0203d6e70f510c4af852d ASoC: codecs: adau1977: convert to snd_soc_dapm_xxx()
+31f28cda703d442b75c4ae9f3d0855d787c6e909 ASoC: codecs: adau7118: convert to snd_soc_dapm_xxx()
+87bb65464be16f83e5a7a6642f33084b6ce22d2d ASoC: codecs: adav80x: convert to snd_soc_dapm_xxx()
+7a7ecd8d0a428e96f9271ea59b067b2a5c318de9 ASoC: codecs: ak4641: convert to snd_soc_dapm_xxx()
+797e4164fe55a03db19930ae94d021173c8e726b ASoC: codecs: alc5623: convert to snd_soc_dapm_xxx()
+335f0d947f52113110e2ed2ad2c030050d220ad8 ASoC: codecs: arizona-jack: convert to snd_soc_dapm_xxx()
+0ad0505f61402ddcd08d3a6c8f741f0e1487bdc0 ASoC: codecs: audio-iio-aux: convert to snd_soc_dapm_xxx()
+7bb1edac96067d523a30b4ef5808d21c86725f64 ASoC: codecs: aw88261: convert to snd_soc_dapm_xxx()
+57bea9f5f02e76cb81d84de17576faf336526167 ASoC: codecs: aw88395: convert to snd_soc_dapm_xxx()
+cc1bb5d435d601035be92d98295cea0b973ae5c2 ASoC: codecs: cpcap: convert to snd_soc_dapm_xxx()
+436a4d82d2460926aa2a772acf5399accedfbc00 ASoC: codecs: cs35l33: convert to snd_soc_dapm_xxx()
+f0962b1a35043b8d0e3384b7004f3785b7c7ffd0 ASoC: codecs: cs35l41: convert to snd_soc_dapm_xxx()
+4bac87b4742d479384ee133c0b591db9234acf0e ASoC: codecs: cs35l45: convert to snd_soc_dapm_xxx()
+bccf1a2e2a7819f2f9caebd5a135fe119f09dbd1 ASoC: codecs: cs35l56: convert to snd_soc_dapm_xxx()
+efdc8c78a5191c85096ee772a36330ca280873ce ASoC: codecs: cs4234: convert to snd_soc_dapm_xxx()
+098931e46c0ed4e0203bcdc626ff94bcd58dbf36 ASoC: codecs: cs42l43-jack: convert to snd_soc_dapm_xxx()
+5dc2dcbb10614ca77b32340d88d24cef47cd8d58 ASoC: codecs: cs42l43: convert to snd_soc_dapm_xxx()
+c9ba54d36ac20fd94c9479e8b82b32610a4cb979 ASoC: codecs: cs42l51: convert to snd_soc_dapm_xxx()
+4d01421647562d3f16319d79197d2afa8f3f1c84 ASoC: codecs: cs42l52: convert to snd_soc_dapm_xxx()
+770f17143988f1804d24cb5ab5a4bb9087a715b2 ASoC: codecs: cs42l56: convert to snd_soc_dapm_xxx()
+2bed4e2a81bcc1e59eb747d0a51e46a24bf3a1b3 ASoC: codecs: cs42l73: convert to snd_soc_dapm_xxx()
+75dc6bf1d4dd08d78dd9568eeb041a3e0787084d ASoC: codecs: cs42xx8: convert to snd_soc_dapm_xxx()
+4db61b8cd50441c846ac8e6afb53781f62f92029 ASoC: codecs: cs47l15: convert to snd_soc_dapm_xxx()
+729a995620ca34f589135f9852d2ef1c9ee7ebb2 ASoC: codecs: cs47l24: convert to snd_soc_dapm_xxx()
+80ac220583627912ef478a25e22b02bd813d5268 ASoC: codecs: cs47l35: convert to snd_soc_dapm_xxx()
+ce99b1dd71340e78d5f8f94af1fdf929bc386b61 ASoC: codecs: cs47l85: convert to snd_soc_dapm_xxx()
+638d7077e67f03926f94201f5508c886d0683adc ASoC: codecs: cs47l90: convert to snd_soc_dapm_xxx()
+4c0f28830a4f96487cccfb0e8b78efd628766d91 ASoC: codecs: cs47l92: convert to snd_soc_dapm_xxx()
+97062ef891393c82107cf44a0eb50c6e1a399e18 ASoC: codecs: cs48l32: convert to snd_soc_dapm_xxx()
+7fdcd1d1add9c3abc1379563c98bcfcc5ce26343 ASoC: codecs: cs530x: convert to snd_soc_dapm_xxx()
+fa2defb800d7c7b67fa7d9fa95824b7780a90575 ASoC: codecs: cs53l30: convert to snd_soc_dapm_xxx()
+78ad27bc554d33963fa829632c789ab8fb191a09 ASoC: codecs: cx20442: convert to snd_soc_dapm_xxx()
+e6f48607ac801864b99ff93e5193f3f422d55f7b ASoC: codecs: cs2072x: convert to snd_soc_dapm_xxx()
+0a87517ae3e7af2019f80e32df01252dd8604080 ASoC: codecs: da7213: convert to snd_soc_dapm_xxx()
+12223b4534dd70bc13d792a836f53369db89caa1 ASoC: codecs: da7218: convert to snd_soc_dapm_xxx()
+aaf1f90c99d920f8ab95413cab7abc627316fdf6 ASoC: codecs: da7219-aad: convert to snd_soc_dapm_xxx()
+96b0a24773849ca2d051a552a19eee262f1f7444 ASoC: codecs: da7219: convert to snd_soc_dapm_xxx()
+476fb171ed43ce544d54cd082ec56df2e8f8aa5d ASoC: codecs: da732x: convert to snd_soc_dapm_xxx()
+464ac2a1085749dbfeee899ac06d51bea7ef1041 ASoC: codecs: da9055: convert to snd_soc_dapm_xxx()
+82e5de78dbdeec04257d8bdba8465217ad9447d9 ASoC: codecs: es7134: convert to snd_soc_dapm_xxx()
+c475f3468361bb37815aa5beaac056568d18fb56 ASoC: codecs: es8311: convert to snd_soc_dapm_xxx()
+1505741d727e210650c7f2cbe16ab450f0b1b0bf ASoC: codecs: es8316: convert to snd_soc_dapm_xxx()
+eec3b674f2a5c2334d2f1a2200b231975277e2c9 ASoC: codecs: es8326: convert to snd_soc_dapm_xxx()
+a5511a6e10f1e1462d61aec8420d6ac4cd9e3efe ASoC: codecs: es8328: convert to snd_soc_dapm_xxx()
+2e20e32c2e3ac17aae4f53ce6205a5d8bf34e895 ASoC: codecs: es8389: convert to snd_soc_dapm_xxx()
+4b9ac2be5fc62ea65c032c3e6e554e60757e5944 ASoC: codecs: hda: convert to snd_soc_dapm_xxx()
+a3151663d0274f79c52bb7ae11e69c0dad1f2267 ASoC: codecs: hdac_hda: convert to snd_soc_dapm_xxx()
+f2d57e22b51c0aa1b2d222b30c07cdf80e4a6ca5 ASoC: codecs: hdac_hdmi: convert to snd_soc_dapm_xxx()
+b4403cf77e39c2d0e2694b1cf5311683cbfac789 ASoC: codecs: hdmi-codec: convert to snd_soc_dapm_xxx()
+f4435734559b8b4bd2dd6c457705b8a22baca0a9 ASoC: codecs: jz4740: convert to snd_soc_dapm_xxx()
+f7e9d040d2b3243f9682c21ac7dda77a54b03c62 ASoC: codecs: jz4760: convert to snd_soc_dapm_xxx()
+daaf102aee4069d2fcaa4da60949b6e02f845c37 ASoC: codecs: jz4770: convert to snd_soc_dapm_xxx()
+45da4a452aeb4f5f44bcbf50079291b70bec9dc5 ASoC: codecs: lm49453: convert to snd_soc_dapm_xxx()
+16d4e8616e78e5edbcb99268050b431afcfe4610 ASoC: codecs: lpass-rx-macro: convert to snd_soc_dapm_xxx()
+3df33a9e0faae857dc4c594a915404afa6a7a8f8 ASoC: codecs: lpass-tx-macro: convert to snd_soc_dapm_xxx()
+5328d3d6b68d1819c199555aff88edad3ccd8bf3 ASoC: codecs: lpass-va-macro: convert to snd_soc_dapm_xxx()
+af9a1da6c3ae130fc44f218293410859f39bbd80 ASoC: codecs: lpass-wsa-macro: convert to snd_soc_dapm_xxx()
+0682c592ec98ba18ac65d1cd4b9c345e2995c121 ASoC: codecs: madera: convert to snd_soc_dapm_xxx()
+9c3c02de4883862fdccbc38943ade051fc0de0e2 ASoC: codecs: max98088: convert to snd_soc_dapm_xxx()
+6ef8e2f7e5eb6933e0897575e7869741ac34e302 ASoC: codecs: max98090: convert to snd_soc_dapm_xxx()
+2e20be4b48c1d2886ff11147b302caab76f3c4b7 ASoC: codecs: max98095: convert to snd_soc_dapm_xxx()
+2dcb4f1d27e9c7a610ca40ac37d2dd177db35a52 ASoC: codecs: max98373: convert to snd_soc_dapm_xxx()
+f97289522b7910921d771af00b7c0ec915f4e21f ASoC: codecs: max98390: convert to snd_soc_dapm_xxx()
+bbbd507ab3c76f0ed262a29af89f36177a43d65b ASoC: codecs: max98396: convert to snd_soc_dapm_xxx()
+a7ab96cf1366f2e35d05b1e773db2a4c1b5e4a45 ASoC: codecs: max9850: convert to snd_soc_dapm_xxx()
+46fb094b54c89ddf314f7e807e5457be9b185bbc ASoC: codecs: max9867: convert to snd_soc_dapm_xxx()
+e195aad3cd473030ff696fdecb76a04d11f1d3b4 ASoC: codecs: ml26124: convert to snd_soc_dapm_xxx()
+4ddf34b148dfb08d47b3e920fdf831eabd973130 ASoC: codecs: mt6357: convert to snd_soc_dapm_xxx()
+ea9d164c67245f5d94da8d46eac1de25fd1059d6 ASoC: codecs: mt6358: convert to snd_soc_dapm_xxx()
+f72c526d2e7a512ab969c3492a365633f5ff2f33 ASoC: codecs: mt6359: convert to snd_soc_dapm_xxx()
+588dc19b1246fc05bd62b3471a01b19cafdc3809 ASoC: codecs: nau8810: convert to snd_soc_dapm_xxx()
+0314d78729a936de02f97daabd8756eb361922d4 ASoC: codecs: nau8821: convert to snd_soc_dapm_xxx()
+8000e233e920062dc08222fc6911e13c193d7719 ASoC: codecs: nau8822: convert to snd_soc_dapm_xxx()
+3eca632e86ac79012fbbeb3b7753d345f0baad04 ASoC: codecs: nau8824: convert to snd_soc_dapm_xxx()
+42f4ff0c0b21ac72ae3af23c67ce51209809e2a4 ASoC: codecs: nau8825: convert to snd_soc_dapm_xxx()
+d1b06d4a37c301a09403746f1d12bdcaeed40830 ASoC: codecs: pcm186x: convert to snd_soc_dapm_xxx()
+02dbbb7e982a6873f81e69e4fef59a42decb7b1a ASoC: codecs: pcm512x: convert to snd_soc_dapm_xxx()
+2d8a091725e6f71c87a7ae35e51550693afdef77 ASoC: codecs: rk3308: convert to snd_soc_dapm_xxx()
+5b35bb517f27fc2401ec3cfd8c02a127627a0188 ASoC: codecs: rt1011: convert to snd_soc_dapm_xxx()
+8b1c56ae39d3bf304ab0c8de456e8f02081be9ed ASoC: codecs: rt1015: convert to snd_soc_dapm_xxx()
+7d6ca6db9b6ee95adfdfabe84819b3b1900dfc05 ASoC: codecs: rt274: convert to snd_soc_dapm_xxx()
+c2b942fbf952d734646352ff56f04bea6c151d3a ASoC: codecs: rt286: convert to snd_soc_dapm_xxx()
+11c256c49d75c3d795339c93f52a19a202db5a15 ASoC: codecs: rt298: convert to snd_soc_dapm_xxx()
+ca6cd3d3f1d7f98908dbc8342a28663346067b9a ASoC: codecs: rt5514: convert to snd_soc_dapm_xxx()
+cffb8638191684198b4e696393c678498791c590 ASoC: codecs: rt5516: convert to snd_soc_dapm_xxx()
+ab7963a3adc1dec9dd6efb9f4755fedb9b56d35d ASoC: codecs: rt5631: convert to snd_soc_dapm_xxx()
+c3282edee7bd18cde6cfdf31a918dbd112dd794b ASoC: codecs: rt5640: convert to snd_soc_dapm_xxx()
+cd0cd7e57d2b300d3d63cb9befa9edcf3e05ad68 ASoC: codecs: rt5645: convert to snd_soc_dapm_xxx()
+d6abe1e31fef77aab57f252c842acb92517ba9d3 ASoC: codecs: rt5651: convert to snd_soc_dapm_xxx()
+2049f715599eb677722a2e91d3616c4feff0e1fc ASoC: codecs: rt5659: convert to snd_soc_dapm_xxx()
+453dfd1c9b486f2289d60871ee11fa05809303ab ASoC: codecs: rt5660: convert to snd_soc_dapm_xxx()
+82d779d150ed27232c940a7908c0f42c248a981f ASoC: codecs: rt5663: convert to snd_soc_dapm_xxx()
+0c8392fd64e8be4fab28d8f568582f4cd7092196 ASoC: codecs: rt5665: convert to snd_soc_dapm_xxx()
+60b6a547a88313022ca10af6a3029891bc638b1d ASoC: codecs: rt5668: convert to snd_soc_dapm_xxx()
+9bcc76f58217c1701deeb4b4092e54dc64ce38bc ASoC: codecs: rt5670: convert to snd_soc_dapm_xxx()
+6ad9058c495691f004e8e697e1acbb2b4775c7e2 ASoC: codecs: rt5677: convert to snd_soc_dapm_xxx()
+cf3937987c18980c3dffc456c91fc1f7b1cec4ca ASoC: codecs: rt5682: convert to snd_soc_dapm_xxx()
+e727c8d01a5d6049e756fc15dfec08fbf4f7b0cf ASoC: codecs: rt5682s: convert to snd_soc_dapm_xxx()
+1b30118264fc75f164ebf8a9888a16ddd2ebb3d4 ASoC: codecs: rt700: convert to snd_soc_dapm_xxx()
+49a22e9811e1524cf4ee6c84e795526104f4fc3c ASoC: codecs: rt711-sdca: convert to snd_soc_dapm_xxx()
+6db8ba3439c995a08def399f9eda4e1d2b95afa8 ASoC: codecs: rt711: convert to snd_soc_dapm_xxx()
+52239c555cbd7369b4009dbf72791f0bb56469b6 ASoC: codecs: rt712-sdca-dmic: convert to snd_soc_dapm_xxx()
+24bca18098187d56257a938dfcae2673f8fa847a ASoC: codecs: rt712-sdca: convert to snd_soc_dapm_xxx()
+6254032a219c7581df8203b31480f06a2babd46d ASoC: codecs: rt715-sdca: convert to snd_soc_dapm_xxx()
+bdc210a4485b640b65f3cf9cfd6fbe1e564e7645 ASoC: codecs: rt715: convert to snd_soc_dapm_xxx()
+46db12032942a47d6c2b1158633514a739f780eb ASoC: codecs: rt721-sdca: convert to snd_soc_dapm_xxx()
+128cd2206689ebddb6f7a9682f5671190a570a56 ASoC: codecs: simple-mux: convert to snd_soc_dapm_xxx()
+636819c3962b9a2377bfdd3baa11e187cba39916 ASoC: codecs: sma1303: convert to snd_soc_dapm_xxx()
+5d9958b2eff8ef283bb70fd0ae82cc6e65372876 ASoC: codecs: sma1307: convert to snd_soc_dapm_xxx()
+12cdef76abbbd5209829e73cc58d44a0921deeda ASoC: codecs: ssm2518: convert to snd_soc_dapm_xxx()
+b637319d1fdc3686b669ab9c0ec6faee5e8954c2 ASoC: codecs: ssm2602: convert to snd_soc_dapm_xxx()
+664ae39314732223786b1c94ac6031b01886fc84 ASoC: codecs: ssm4567: convert to snd_soc_dapm_xxx()
+8454435315e5a6e2f8e531b5ec038c6db4d6ebfe ASoC: codecs: sta32x: convert to snd_soc_dapm_xxx()
+f8b494b28806efc8e6dece1f66f30c371376788c ASoC: codecs: sta350: convert to snd_soc_dapm_xxx()
+ca7f864f91bff158a697349dae2c81afae2b3073 ASoC: codecs: sta529: convert to snd_soc_dapm_xxx()
+88539900888437c446f44b8248797b958e10d14f ASoC: codecs: tas571x: convert to snd_soc_dapm_xxx()
+a9b239d098dbbfa8dd0cc56001cfc80053da1317 ASoC: codecs: tas6424: convert to snd_soc_dapm_xxx()
+eeb152d9636f3a1355ce1d2bdc481cb70e0ca2bb ASoC: codecs: tlv320adc3xxx: convert to snd_soc_dapm_xxx()
+1ddafb83a431b2d4c847b2640b352cfca0d1b077 ASoC: codecs: tlv320aic31xx: convert to snd_soc_dapm_xxx()
+0da5d1fb00c1108e543fa94c92419006a1008d84 ASoC: codecs: tlv320aic32x4: convert to snd_soc_dapm_xxx()
+cf61841233bd0c905b3493f879b45fa9f7d44ff4 ASoC: codecs: tlv320aic3x: convert to snd_soc_dapm_xxx()
+3affdae134871f7be7d28fe5a763f2a17d1c18ab ASoC: codecs: tlv320dac33: convert to snd_soc_dapm_xxx()
+00246ae603ef2ee4765fd71923519849a1690286 ASoC: codecs: twl4030: convert to snd_soc_dapm_xxx()
+c5b5f6d75ecc87eb543ca8e867ca1585c03b242a ASoC: codecs: twl6040: convert to snd_soc_dapm_xxx()
+697f92e637d1c0de9ec9d1dc31a6fa3c921be831 ASoC: codecs: uda1380: convert to snd_soc_dapm_xxx()
+46f360c51cfeb7b29340815885e4a7e82b411bc8 ASoC: codecs: wcd9335: convert to snd_soc_dapm_xxx()
+7b10c284495c7f9a666f7057351e67d6bc9c54bd ASoC: codecs: wcd934x: convert to snd_soc_dapm_xxx()
+2416360daf6e17c10af12f40139bfa84c99f7f2f ASoC: codecs: wcd937x: convert to snd_soc_dapm_xxx()
+c13e3d24dbe84b398bc9e5ea767e4d3515b06771 ASoC: codecs: wm0010: convert to snd_soc_dapm_xxx()
+0ba0819b8fb4ea27d700e5784e150217e2d9f295 ASoC: codecs: wm5100: convert to snd_soc_dapm_xxx()
+eba22be8d911dea8132ae6bf8e83e26740e068b2 ASoC: codecs: wm5102: convert to snd_soc_dapm_xxx()
+a3de4a9c3e0627989efe88ea31f422f1da896dcc ASoC: codecs: wm5110: convert to snd_soc_dapm_xxx()
+62d12a8e945605468a8d119960c988014c44f6c0 ASoC: codecs: wm8350: convert to snd_soc_dapm_xxx()
+863a396f09f559344e41ccaf2cab6aea12bcc3bc ASoC: codecs: wm8400: convert to snd_soc_dapm_xxx()
+098c486f07000c70fe18abd879a0abdb96ccfc23 ASoC: codecs: wm8510: convert to snd_soc_dapm_xxx()
+8df50a4f2f9faaf336d3640174a828e9b979544b ASoC: codecs: wm8523: convert to snd_soc_dapm_xxx()
+dde23aa355aa0fc1fbafd40dc53ffb2d67a7e8b9 ASoC: codecs: wm8580: convert to snd_soc_dapm_xxx()
+9e1666651224267179d1e4f1e366cd526c384ae8 ASoC: codecs: wm8711: convert to snd_soc_dapm_xxx()
+3f553ac8005e07e7c3d84edfdc08727439e4f5c7 ASoC: codecs: wm8728: convert to snd_soc_dapm_xxx()
+da9ad75afba487013bd4345d4b77477f35ed25ec ASoC: codecs: wm8731: convert to snd_soc_dapm_xxx()
+04b80a9aa21f2d02ac6ccbfacc33eb0827eb9899 ASoC: codecs: wm8737: convert to snd_soc_dapm_xxx()
+c153d6da9cde3efc5fbfcf39515d224c2b6ad48f ASoC: codecs: wm8750: convert to snd_soc_dapm_xxx()
+23805d059a597b001bd5e3655ee0bae652142944 ASoC: codecs: wm8753: convert to snd_soc_dapm_xxx()
+92a3e4bb1813cd5eaba1050b9d82356b17daca2e ASoC: codecs: wm8770: convert to snd_soc_dapm_xxx()
+acee6bda8872f715dcc6d3ff1fe387606d752661 ASoC: codecs: wm8776: convert to snd_soc_dapm_xxx()
+1b6934ca2a68bca2d6a776497f47ba319419d7dd ASoC: codecs: wm8804: convert to snd_soc_dapm_xxx()
+4f9d291e6828aa92503988e319b175c0fa3303af ASoC: codecs: wm8900: convert to snd_soc_dapm_xxx()
+5b08edab386559a7d8549fa94688ea3878e9574f ASoC: codecs: wm8903: convert to snd_soc_dapm_xxx()
+3f2848403a817345c2d0984c49f128fc9dc28b3b ASoC: codecs: wm8904: convert to snd_soc_dapm_xxx()
+a5a6abd02d100913327a150e764dbc29045970a1 ASoC: codecs: wm8940: convert to snd_soc_dapm_xxx()
+5d1a88f50569d1c4637fe29620e6d194f7e50014 ASoC: codecs: wm8955: convert to snd_soc_dapm_xxx()
+aa57703fd738d0d9f1328d44bc6b9ee82daf0326 ASoC: codecs: wm8960: convert to snd_soc_dapm_xxx()
+8d27adc88a5461b08990d33a16d215e3e7e890dc ASoC: codecs: wm8961: convert to snd_soc_dapm_xxx()
+58fc7681c470d39332f01aae88b2259e613e53e3 ASoC: codecs: wm8962: convert to snd_soc_dapm_xxx()
+8efb94a90e6558a2aeffac518e7b7479fdaa14d9 ASoC: codecs: wm8971: convert to snd_soc_dapm_xxx()
+8268a73d6c93b9cadf323bb9ef92fd01d4eb6529 ASoC: codecs: wm8974: convert to snd_soc_dapm_xxx()
+21bb118ea37adc40027771b1f45a246eb3956265 ASoC: codecs: wm8978: convert to snd_soc_dapm_xxx()
+19bf3fb9baf235cca9f9bb52cee488662e5bba0c ASoC: codecs: wm8983: convert to snd_soc_dapm_xxx()
+d4ed7da08c767437400b2550092b7ea67cfac294 ASoC: codecs: wm8985: convert to snd_soc_dapm_xxx()
+7881b033afa1a2f6ec587dabfe2e12d0bfdef022 ASoC: codecs: wm8988: convert to snd_soc_dapm_xxx()
+4e111f49809959bd568cf68bea83155908872164 ASoC: codecs: wm8990: convert to snd_soc_dapm_xxx()
+6f917e47db4984e784a5245b4e3f35ca16b01ccf ASoC: codecs: wm8991: convert to snd_soc_dapm_xxx()
+69532b4263a264c5bf9ad11046ad1acb2ab3534e ASoC: codecs: wm8993: convert to snd_soc_dapm_xxx()
+10d5d21a3379b56a0655609918fcc4b4ccb4909d ASoC: codecs: wm8994: convert to snd_soc_dapm_xxx()
+0e8d0789ded09e681cb3ba48beaceca125d441f5 ASoC: codecs: wm8995: convert to snd_soc_dapm_xxx()
+9050b9a872a9bb78874ff6b7ba933ca0a90dcecd ASoC: codecs: wm8996: convert to snd_soc_dapm_xxx()
+1a8870e2e2eeb7819ad540f0027faec500833351 ASoC: codecs: wm8997: convert to snd_soc_dapm_xxx()
+8a19eabf16304642a1c281f6676b7248b234ca1d ASoC: codecs: wm8998: convert to snd_soc_dapm_xxx()
+fef5517fff15652903f56f153938eaf93c2c53a0 ASoC: codecs: wm9081: convert to snd_soc_dapm_xxx()
+2cc325972373bf86f561eaec45680d4ab957e4eb ASoC: codecs: wm9090: convert to snd_soc_dapm_xxx()
+c2bdc0301db723b67b9c6cbd572f8df4b473cc4a ASoC: codecs: wm9712: convert to snd_soc_dapm_xxx()
+2f558a84ced9e7ad6d5e53617d6848df9696ecd9 ASoC: codecs: wm9713: convert to snd_soc_dapm_xxx()
+0e435dd54f5e3f4077ae3c8db1d1c3c2e5823a8a ASoC: codecs: wm_adsp: convert to snd_soc_dapm_xxx()
+e70ef8a90d431157ad1b314a78125aab50eeda3e ASoC: codecs: wm_hubs: convert to snd_soc_dapm_xxx()
+7fb390727decac201fc9370bb14b17d91c334da6 ASoC: fsl: fsl-asoc-card: convert to snd_soc_dapm_xxx()
+21838f53f47e2fa4dfdda71a9bc895f599e7cf9f ASoC: fsl: imx-rpmsg: convert to snd_soc_dapm_xxx()
+1014ec36b43a997a8d8fcf68728d1fd6c891b004 ASoC: generic: audio-graph-card: convert to snd_soc_dapm_xxx()
+194c43841d9e5695837789f288889ca02c023074 ASoC: intel: atom: sst-atom-controls: convert to snd_soc_dapm_xxx()
+2988abc11bb7c4cf756b4197de0879ed92bb39bf ASoC: intel: avs: da7219: convert to snd_soc_dapm_xxx()
+8c827c1c78b7260bfdd33cd8ddf82e3c19c24bb2 ASoC: intel: avs: es8336: convert to snd_soc_dapm_xxx()
+84496142859a4c66aab3d82ce110952541614ef3 ASoC: intel: avs: nau8825: convert to snd_soc_dapm_xxx()
+2f8d6a86936e10bb65042f2c4da8c84e164b3693 ASoC: intel: avs: rt274: convert to snd_soc_dapm_xxx()
+dd929092b3122a9cfd1f7115c4eecdb7944c45a8 ASoC: intel: avs: rt5514: convert to snd_soc_dapm_xxx()
+4cc345c56b2458d449bf2479cb72afbb8e9dfc1c ASoC: intel: avs: rt5640: convert to snd_soc_dapm_xxx()
+6603016167aace5d4c78bdfa5eb1f928a42d7e47 ASoC: intel: avs: control: convert to snd_soc_dapm_xxx()
+738a0014640cc1a2ee75d66e13327db87fca8a58 ASoC: intel: avs: pcm: convert to snd_soc_dapm_xxx()
+e3c9bc1f31214f33e24fae70ade0d748ed5cba95 ASoC: intel: boards: bdw-rt5677: convert to snd_soc_dapm_xxx()
+9c082ab3ebb8baa1f9f17a5c4a85d2345f5b305c ASoC: intel: boards: bytcht_cx2072x: convert to snd_soc_dapm_xxx()
+d02bbabec7e330346b85a43c0f89ee61144985a8 ASoC: intel: boards: bytcht_es8316: convert to snd_soc_dapm_xxx()
+e6995aa8165571c0f85ca259de15edde713bfa7c ASoC: intel: boards: bytcr_rt5640: convert to snd_soc_dapm_xxx()
+575eb51c72251f73d21408829ed39b8b03e67894 ASoC: intel: boards: bytcr_rt5651: convert to snd_soc_dapm_xxx()
+2990b658ed446abd3b509854e2b266eaef666ac5 ASoC: intel: boards: bytcr_wm5102: convert to snd_soc_dapm_xxx()
+8c62a765be9ece320dd4da00dcd038f6b83ea2f2 ASoC: intel: boards: cht_bsw_max98090_ti: convert to snd_soc_dapm_xxx()
+61907c9a0d25200ea4681a0ae6b2f7c7673ea5bb ASoC: intel: boards: cht_bsw_rt5645: convert to snd_soc_dapm_xxx()
+be0c2c4010c2e641772408c2bce1649e5db20f2f ASoC: intel: boards: cht_bsw_rt5672: convert to snd_soc_dapm_xxx()
+a30381e9cc2d32d8e0d4077cfa6aab0c70d34105 ASoC: intel: boards: sof_board_helpers: convert to snd_soc_dapm_xxx()
+5969275804b8f033618ff8f7309b016deb5e5117 ASoC: intel: boards: sof_cirrus_common: convert to snd_soc_dapm_xxx()
+638d14a0a0658f7fd8b868ebb93289d21fb64006 ASoC: intel: boards: sof_da7219: convert to snd_soc_dapm_xxx()
+beb865ab8e5a2d92ae11daca23bdfa51aea587cb ASoC: intel: boards: sof_es8336: convert to snd_soc_dapm_xxx()
+f1ead097d7ddb7014215518f290e49e7fc374266 ASoC: intel: boards: sof_maxim_common: convert to snd_soc_dapm_xxx()
+9defa941d828ad48bb24249363b0f956b3dd3770 ASoC: intel: boards: sof_nau8825: convert to snd_soc_dapm_xxx()
+9c95183d4e0cd557bcae21608b03ae9cf0eb87cb ASoC: intel: boards: sof_nuvoton_common: convert to snd_soc_dapm_xxx()
+85216ea34568352c7c06ba7152ab1e9ccc73eff7 ASoC: intel: boards: sof_pcm512x: convert to snd_soc_dapm_xxx()
+8124fe3d5b254a0c17da853591616c8d8ee602e7 ASoC: intel: boards: sof_realtek_common: convert to snd_soc_dapm_xxx()
+5a3c54a94c9101ce126cae1fe21df0cab5d80c63 ASoC: intel: boards: sof_rt5682: convert to snd_soc_dapm_xxx()
+063e91a9141e708fe07a2a06d50fb0b3ed1ecbea ASoC: mediatek: mtk-afe-platform-driver: convert to snd_soc_dapm_xxx()
+b63f223ce0d402237ef339b8482ecc627320df3d ASoC: mediatek: mtk-dsp-sof-common: convert to snd_soc_dapm_xxx()
+aa851ed8746e20d4123efad82fa4ea3dd1f2b14e ASoC: mediatek: mt8186-mt6366-common: convert to snd_soc_dapm_xxx()
+771f522d64303751f976d888a9d6160a345042e2 ASoC: mediatek: mt8186-mt6366: convert to snd_soc_dapm_xxx()
+af535c76426ebbd3df12a804fa6da5b9e8c0339e ASoC: mediatek: mt8188-mt6359: convert to snd_soc_dapm_xxx()
+8d5a933224b59fa5a4d540f37b77fee5d22b3eb9 ASoC: mediatek: mt8195-mt6359: convert to snd_soc_dapm_xxx()
+ab947ebd0e06b1bba68702cadec93359371f0c16 ASoC: mediatek: mt8365-afe-pcm: convert to snd_soc_dapm_xxx()
+047191ae16d336b5343b3eec1ad3532dedacee2d ASoC: meson: aiu-acodec-ctrl: convert to snd_soc_dapm_xxx()
+6c65a8c3ad82616e6654c82ec0da33233e6f4e02 ASoC: meson: aiu-codec-ctrl: convert to snd_soc_dapm_xxx()
+32fc5bf2ea987504d10afe329727ab8c6fd8c836 ASoC: meson: axg-spdifout: convert to snd_soc_dapm_xxx()
+0c02abd9f443565b00f79f5d84166d610200b1a5 ASoC: meson: axg-tdm-interface: convert to snd_soc_dapm_xxx()
+6a995aaaa4b63c324116f03adb94985654a6cb6e ASoC: meson: g12a-toacodec: convert to snd_soc_dapm_xxx()
+74c772546632500f64a4fc4b318cde9f87a29cf6 ASoC: meson: g12a-tohdmitx: convert to snd_soc_dapm_xxx()
+a0593f6d1200bb17b69f85e89a9c6c6bcb2966b2 ASoC: meson: t9015: convert to snd_soc_dapm_xxx()
+22219a4af85457a7ab8fdfa925a1fa2bffe66dd2 ASoC: pxa: spitz: convert to snd_soc_dapm_xxx()
+8686dd09358b92c2d3dc7b6d0cc893d1d72ef628 ASoC: qcom: q6routing: convert to snd_soc_dapm_xxx()
+f74aa1e909e7ea960effb5d054cb9ff7e39d84b8 ASoC: qcom: q6usb: convert to snd_soc_dapm_xxx()
+a4230eea80ddb9d08e4098f980ddf1d22bbc18ef ASoC: qcom: topology: convert to snd_soc_dapm_xxx()
+cacd21b61750c998f74e3d6aabfca1315298e699 ASoC: qcom: sc7180: convert to snd_soc_dapm_xxx()
+26de56c382450acd5d397631f490dc2d50e7a9c4 ASoC: rockchip: rk3288_hdmi_analog: convert to snd_soc_dapm_xxx()
+256cfc79911658a90caa7655e88c255255068ad1 ASoC: rockchip: rockchip_max98090: convert to snd_soc_dapm_xxx()
+02697e7049ddca90e128a89ca276e3ccaeff447a ASoC: samsung: aries_wm8994: convert to snd_soc_dapm_xxx()
+857c31f15cef81745855a53262b021bec95ca7a8 ASoC: samsung: bells: convert to snd_soc_dapm_xxx()
+c9d3bcafc711794efe493b7ad26ff704d560b725 ASoC: samsung: littlemill: convert to snd_soc_dapm_xxx()
+eac123525d4214d4ef4d751cb48649130b4cf51f ASoC: samsung: lowland: convert to snd_soc_dapm_xxx()
+311c12f7031d845c27e383f2987e53a35b684e5c ASoC: samsung: midas_wm1811: convert to snd_soc_dapm_xxx()
+620fd65ec496b4fe0f49f3b6bc1fd1f890432fd6 ASoC: samsung: smdk_wm8994: convert to snd_soc_dapm_xxx()
+d1cca4a46f6dfad9a383e5aa30dd8a63833d7a82 ASoC: samsung: speyside: convert to snd_soc_dapm_xxx()
+b6ba1a11ea626dd82672e06ffa7809beb671277a ASoC: samsung: tm2_wm5110: convert to snd_soc_dapm_xxx()
+1c4143ea606a60a11d623a0bd751c8b0af0119e0 ASoC: samsung: tobermory: convert to snd_soc_dapm_xxx()
+5a2b4ddc2cf7f150328f4d1ae617b62a3a3df45c ASoC: sdca: sdca_asoc: convert to snd_soc_dapm_xxx()
+cb5aaf1bab5f7ef98f04eea303eb39ed05325dfe ASoC: sdw_utils: soc_sdw_bridge_cs35l56: convert to snd_soc_dapm_xxx()
+574a59412d32e8e094e636feeaa4d29b55d35410 ASoC: sdw_utils: soc_sdw_cs42l42: convert to snd_soc_dapm_xxx()
+97a57e6ea996a773b278106755368755a9c2dc18 ASoC: sdw_utils: soc_sdw_cs42l43: convert to snd_soc_dapm_xxx()
+d0764e1476da99ad781745b5b6a7d583cbf1d7e5 ASoC: sdw_utils: soc_sdw_cs_amp: convert to snd_soc_dapm_xxx()
+fbada860c48112083c6212d2a0df5e4d919998c9 ASoC: sdw_utils: soc_sdw_dmic: convert to snd_soc_dapm_xxx()
+f39ee5784bb848d320e7e387ef2c11ef21c97e83 ASoC: sdw_utils: soc_sdw_maxim: convert to snd_soc_dapm_xxx()
+9abf16750a7bb052799229b5cff5b14459d3bb21 ASoC: sdw_utils: soc_sdw_rt5682: convert to snd_soc_dapm_xxx()
+6353596bb18588c5d24c96501081c1ef9cce5754 ASoC: sdw_utils: soc_sdw_rt700: convert to snd_soc_dapm_xxx()
+5fca4f6a958c51f2c82d0838735b1cc6ba4da3dd ASoC: sdw_utils: soc_sdw_rt711: convert to snd_soc_dapm_xxx()
+805759446d9e8f278881f03d5b4b6bcacf9f0ce3 ASoC: sdw_utils: soc_sdw_rt_amp: convert to snd_soc_dapm_xxx()
+d10755f895eb295738c4db23ab970f8acaebd7ce ASoC: sdw_utils: soc_sdw_rt_mf_sdca: convert to snd_soc_dapm_xxx()
+2bcf4235819c22b8a6dcbae9d9101d6202ea949c ASoC: sdw_utils: soc_sdw_rt_sdca_jack_common: convert to snd_soc_dapm_xxx()
+fdc5ce7f7272e59a1c32919b1ba8ab73d1bc28ab ASoC: sdw_utils: soc_sdw_ti_amp: convert to snd_soc_dapm_xxx()
+5b54c4ae6c880024699a7c0391991e45ca053477 ASoC: sdw_utils: soc_sdw_utils: convert to snd_soc_dapm_xxx()
+e758b08d7170ee96e3461cec5c5b33e9aff5a75e ASoC: soc-core: convert to snd_soc_dapm_xxx()
+b10489e9da2850bcaa53117df1331dc371df8d35 ASoC: soc-dapm: convert to snd_soc_dapm_xxx()
+0813e864070dd6fca79619bb4f99e38c97422383 ASoC: soc-jack: convert to snd_soc_dapm_xxx()
+eb802ba07bcc1fbcf637b9ccf1ffcdc74277cca4 ASoC: soc-pcm: convert to snd_soc_dapm_xxx()
+088fa2cc7c4c4ec80a293692456f48c43b4da0e7 ASoC: soc-topology: convert to snd_soc_dapm_xxx()
+49b476efceb52a8cefd4e1c74672b55826680c4e ASoC: sof-client-probes: convert to snd_soc_dapm_xxx()
+bc8ec019290f00d605423db6ba5fd9db81e83bac ASoC: sunxi: sun4i-codec: convert to snd_soc_dapm_xxx()
+fd73d62f5f8b61bd396e4e4185ba2f8ad3a712db ASoC: sunxi: sun50i-codec-analog: convert to snd_soc_dapm_xxx()
+d4dfae0a980c30ecb4c9c3bd90d36171735dcc79 ASoC: sunxi: sun8i-codec-analog: convert to snd_soc_dapm_xxx()
+f0762675a23396e80a30fdb6d71a89dcfb972154 ASoC: sunxi: sun8i-codec: convert to snd_soc_dapm_xxx()
+0019f120bfe862a583aa1a4347c1761e947e0054 ASoC: tegra: tegra210_ahub: convert to snd_soc_dapm_xxx()
+03258f7765e8c0210ea35b865f8e5c03fd9ccab9 ASoC: tegra: tegra_asoc_machine: convert to snd_soc_dapm_xxx()
+a6aa027dffef1b6d6ebc9ef87210493bcf7abf22 ASoC: tegra: tegra_wm8903: convert to snd_soc_dapm_xxx()
+cf3c9aa075313898ac1669d0214946f0af84d18b ASoC: ti: ams-delta: convert to snd_soc_dapm_xxx()
+9188f03aa5157abbe8eba3130df4381245fe4cd0 ASoC: ti: davinci-evm: convert to snd_soc_dapm_xxx()
+a3fc90c52ad0d525918aa5039cb07d937dc1d841 ASoC: ti: j721e-evm: convert to snd_soc_dapm_xxx()
+9b5a1d32da7e343e8fbdfbc536770544551ef59b ASoC: ti: n810: convert to snd_soc_dapm_xxx()
+4fb45e5d4abda09bfd805b08fa3446686aa3c6bb ASoC: ti: omap-abe-twl6040: convert to snd_soc_dapm_xxx()
+42e142c842cb9c7dbde569ff137974e76d1a0e67 ASoC: ti: omap-twl4030: convert to snd_soc_dapm_xxx()
+c69951603150c2b08f69feb8eb2475d58c1ef7cd ASoC: ti: omap3pandora: convert to snd_soc_dapm_xxx()
+fefd4e0b26392ab7676b13b597166b6478eec4c6 ASoC: ti: rx51: convert to snd_soc_dapm_xxx()
+4422df6782eb7aa9725a3c09d9ba3c38ecc85df4 ASoC: ux500: mop500_ab8500: convert to snd_soc_dapm_xxx()
+0140fc11893bf22928a6f6ebcea96315671d75dc ASoC: convert to snd_soc_dapm_xxx()
+
+--===============4073667190112185245==--
