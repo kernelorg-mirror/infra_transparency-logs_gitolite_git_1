@@ -1,50 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1996858336760640401=="
+Content-Type: multipart/mixed; boundary="===============2384707356943515704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Tue, 18 Nov 2025 15:22:32 -0000
-Message-Id: <176347935247.2610139.15151078878531356046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 18 Nov 2025 15:30:04 -0000
+Message-Id: <176347980429.2617543.1483397477812023070@gitolite.kernel.org>
 
---===============1996858336760640401==
+--===============2384707356943515704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/rseq/cid
-    old: 74ad3cb1e66ac38c2b02c12f7a9c491927059310
-    new: 4424bdda7a5b89bb3818490c5ce000ffe45ad1de
-    log: revlist-74ad3cb1e66a-4424bdda7a5b.txt
+  - ref: refs/heads/next
+    old: 989019c969a2be5fcf52a184dbc2e47febb8a2e2
+    new: dcbce328d3a2d87770133834210cf328c083d480
+    log: revlist-989019c969a2-dcbce328d3a2.txt
 
---===============1996858336760640401==
+--===============2384707356943515704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74ad3cb1e66a-4424bdda7a5b.txt
+Content-Disposition: attachment; filename=revlist-989019c969a2-dcbce328d3a2.txt
 
-64197055cbde45f02f6cc6d68bcd92a170948605 sched/mmcid: Revert the complex CID management
-113ca91067e026d4ff222574ab188846b1e70357 sched/mmcid: Use proper data structures
-96a5a7bc847209fcee8846847f34e312b8e7ede1 sched/mmcid: Cacheline align MM CID storage
-05c492a9f8a8e3ac8da805f140a8a4f840bd092b sched: Fixup whitespace damage
-1088a540b823e0cddf6b1b13e1f815e563414382 sched/mmcid: Move scheduler code out of global header
-f169b13935e40fe2d45bcb5c2a7e7f87a906fd11 sched/mmcid: Prevent pointless work in mm_update_cpus_allowed()
-04ecd1100bf428a4525368d2399f75ea86cc88d4 cpumask: Introduce cpumask_weighted_or()
-ca8827299a329d0b74eb7d0f87123d5b7f370fa1 sched/mmcid: Use cpumask_weighted_or()
-53bba47b2393820080d8012a813440169916ca70 cpumask: Cache num_possible_cpus()
-7a9069d58e5d1c24fdf086f2872e5dc475282bc5 sched/mmcid: Convert mm CID mask to a bitmap
-a760ebb3503976f782150acf7ae625a7ed788bef signal: Move MMCID exit out of sighand lock
-3b8bcd7c4e1b6c9f306092822441c78cecebe005 sched/mmcid: Move initialization out of line
-7732270be28d9ed6eef73c1c6afac996b6421c5c sched/mmcid: Provide precomputed maximal value
-b0e95cee007b7fc2e44a8e6121524d502382c482 sched/mmcid: Serialize sched_mm_cid_fork()/exit() with a mutex
-1f370e24e8506fbb3892977e719af57dcad816c8 sched/mmcid: Introduce per task/CPU ownership infrastructure
-a87ca2b747ca44bbe6ec2c55986ef3a4512e046e sched/mmcid: Provide new scheduler CID mechanism
-d478a1f276a4242515410175aad451b8a79c4c87 sched/mmcid: Provide CID ownership mode fixup functions
-9bf441dee10e87f6c005eebebd21752f3b1ef49e irqwork: Move data struct to a types header
-f8bd604eb4aa96cbc5b882cd7429f59b49bc7518 sched/mmcid: Implement deferred mode change
-4424bdda7a5b89bb3818490c5ce000ffe45ad1de sched/mmcid: Switch over to the new mechanism
+59472e8c2943b01a44ff1c4d9247c0025fe1acff mmc: meson-mx-sdio: Switch to regmap for register access
+c0184b2f793b40bf1f6be17bab84c9abf3d368f9 mmc: meson-mx-sdio: Use devm_clk_get_enabled()
+b63f8fc1d0891c5fa35963ba465a24eb71367c00 mmc: meson-mx-sdio: Refactor internal clock initialization
+baa74c2144278bab503ab14d1d115de62eacfaf0 mmc: meson-mx-sdio: Use devm_mmc_alloc_host() helper
+3241cde4702b67482ea0654099196f9b81ecbb65 mmc: meson-mx-sdio: Use dev_err_probe() where appropriate
+38fffa9510827e1861ad0a5f0392148bc2aec5e6 mmc: meson-mx-sdio: Fix indentation in meson_mx_mmc_irq_thread()
+1bed7f954865ceab45c8949017517c02e3f5cae3 mmc: meson-mx-sdio: Ignore disabled "mmc-slot" child-nodes
+7b6e6c4a117e0abb38f3afb9ddfd6d169e6fb2e4 dt-bindings: mmc: am654: Simplify dma-coherent property
+15213383a3d9195db582729ab3feb923605b6f63 mmc: renesas_sdhi: Deassert the reset signal on probe
+50371ef025a433f782c04dfdd3b59251831a8be3 mmc: renesas_sdhi: Switch to SYSTEM_SLEEP_PM_OPS()/RUNTIME_PM_OPS() and pm_ptr()
+dcbce328d3a2d87770133834210cf328c083d480 mmc: renesas_sdhi: Add suspend/resume hooks
 
---===============1996858336760640401==--
+--===============2384707356943515704==--
