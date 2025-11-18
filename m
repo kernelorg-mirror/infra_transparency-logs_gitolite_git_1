@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 18 Nov 2025 14:14:09 -0000
-Message-Id: <176347524959.2545428.8580604348209966246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 18 Nov 2025 14:15:01 -0000
+Message-Id: <176347530166.2546243.16409939939478642756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: 885b92bad87aed46a75cfd6f6924a2fda4af2166
-    new: 8daf70e6aa4118fa71a9eb5f361f1a29567e12ed
+  - ref: refs/heads/tip/tip
+    old: fb36b95abb5d340fe30d47edc26795069ff986a6
+    new: 91b788bdb9a4b19a90312beb11f0e9e4db089b32
     log: |
-         2f61c00972193d014185655e533a809d824cef47 pinctrl: intel: Export intel_gpio_add_pin_ranges()
-         3bcfd55bedfc62e73cc36395e77a67827116cfcd pinctrl: cherryview: Convert to use intel_gpio_add_pin_ranges()
-         8daf70e6aa4118fa71a9eb5f361f1a29567e12ed Merge patch series "pinctrl: intel: Export intel_gpio_add_pin_ranges() and use it"
+         91b788bdb9a4b19a90312beb11f0e9e4db089b32 Add core/uaccess to merge the preparatory bits for PPC
          
