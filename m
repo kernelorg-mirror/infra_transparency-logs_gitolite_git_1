@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 18 Nov 2025 06:39:33 -0000
-Message-Id: <176344797304.2157723.4396063360650752827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 18 Nov 2025 06:40:27 -0000
+Message-Id: <176344802754.2159900.138511017121191517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 9322c4787ca5c7853c6daafbacfc150787ea04f7
-    new: e96498a103492c791562ee7a58beb3bb5ef5e4c8
+    old: 4722981cca373a338bbcf3a93ecf7144a892b03b
+    new: 7dc211c1159d991db609bdf4b0fb9033c04adcbc
     log: |
-         e96498a103492c791562ee7a58beb3bb5ef5e4c8 patches/next: a few work on page faults monitoring
+         7dc211c1159d991db609bdf4b0fb9033c04adcbc bpf: Fix invalid prog->stats access when update_effective_progs fails
          
