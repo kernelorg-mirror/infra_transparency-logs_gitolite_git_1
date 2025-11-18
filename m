@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0015405032229149302=="
+Content-Type: multipart/mixed; boundary="===============2502397183831548612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 18 Nov 2025 21:17:27 -0000
-Message-Id: <176350064781.2925245.12461727135412688791@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 21:17:44 -0000
+Message-Id: <176350066428.2925511.11678605327007483609@gitolite.kernel.org>
 
---===============0015405032229149302==
+--===============2502397183831548612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c9dfb92de0738eb7fe6a591ad1642333793e8b6e
-    new: a057e8e4ac5b1ddd12be590e2e039fa08d0c8aa4
-    log: revlist-c9dfb92de073-a057e8e4ac5b.txt
+  - ref: refs/heads/dev-queue
+    old: 3da442bde1f0106922481ed513c4b0c83a4f9365
+    new: f96861c98a614c988d4a8c70f388a0c6dccfa72a
+    log: revlist-3da442bde1f0-f96861c98a61.txt
 
---===============0015405032229149302==
+--===============2502397183831548612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9dfb92de073-a057e8e4ac5b.txt
+Content-Disposition: attachment; filename=revlist-3da442bde1f0-f96861c98a61.txt
 
 467c3f008d0cafe8c21af7ad9f3036c1a15ec13d mlx4: extract GRXRINGS from .get_rxnfc
 945499665f63197801b64fabb0bccf9d15ed09bf mlx5: extract GRXRINGS from .get_rxnfc
@@ -86,5 +86,43 @@ f356a66b87bb19e5370dee469ec32e0094ac9da3 gve: Wrap struct xdp_buff
 66adaf1021282edcb9be50bea5ea5aa78afda527 gve: Prepare bpf_xdp_metadata_rx_timestamp support
 1b42e07af1ee65d10ee72f90d6fbd02a9b53208c gve: Add Rx HWTS metadata to AF_XDP ZC mode
 a057e8e4ac5b1ddd12be590e2e039fa08d0c8aa4 Merge branch 'gve-implement-xdp-hw-rx-timestamping-support-for-dq'
+ecc7599114e983ae281c212897fbac26796ba0a6 ice: Fix enable_cnt imbalance on resume
+26737f96af5641575977b28c14e0b238fbe0226b ice: Fix enable_cnt imbalance on PCIe error recovery
+b98752a68f638f3166312b49c51bcf7ba2114d20 i40e: Fix enable_cnt imbalance on PCIe error recovery
+09a36ad858a3e8936da25e48b337e1457959a979 idpf: fix memory leak of flow steer list on rmmod
+92c5f764da7e637f9b8f530a71e9645793480d54 idpf: fix issue with ethtool -n command display
+a79c9082938143be9280e09d9baea7f6e451cf7b ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
+016a9af149f66f1fb7ff12cddf1bdee14279a202 idpf: fix possible vport_config NULL pointer deref in remove
+b614899fe1946df573c18602c9dbeb008aa13b79 ixgbe: Add 10G-BX support
+50540c62b218b2ee48c5bbe08eb98361a5d70ebd ice: fix PTP cleanup on driver removal in error path
+4fcceb88a18d3fb300ee93d371f94d7aa52f6a84 ice: unify PHY FW loading status handler for E800 devices
+d28c276dbdbe2a0e119eec25ba4469b5d119ee2d idpf: keep the netdev when a reset fails
+0bd869b96dbfc3309aaed444322c19aca00c774f idpf: detach and close netdevs while handling a reset
+eae751beb57499d0516b63b43831bfe9fc786c94 idpf: fix memory leak in idpf_vport_rel()
+56eb3f7020b96b70dcfbf5d3acc0b015903c1c75 idpf: fix memory leak in idpf_vc_core_deinit()
+01e8690897857f227378b337d56b9e68d81edebc idpf: convert vport state to bitmap
+b7bdcfd2678d2b3e6204b0cdffcb103ed675248c idpf: correct queue index in Rx allocation error messages
+e9bda206a653dbc3b50119de13b3d623801fa00b iavf: fix off-by-one issues in iavf_config_rss_reg()
+2fe1e305ad39d3333a403e25460d87f30b042cab igc: prepare for RSS key get/set support
+c0662bb8b147c7d0bf335d6930eef3a19a0fddd8 igc: expose RSS key via ethtool get_rxfh
+30115abd4f76c342f8f34df7dcea92b1a46c0c7f igc: allow configuring RSS key via ethtool set_rxfh
+52b0eaf9cde5250273f362c6118069ec845915ad ice: use netif_get_num_default_rss_queues()
+044f31e572a13a072f282b5013e5043428ff053d idpf: cap maximum Rx buffer size
+d0fdc9b879c62e3e378e1cce00a689b834f88df5 ixgbevf: ixgbevf_q_vector clean up
+5544178d42b49caed4cda3d8a5f6a42aab7fb8d7 ice: fix comment typo and correct module format string
+1845d931b764958cb8c39ee03ac6e9256c594aa9 iavf: clarify VLAN add/delete log messages and lower log level
+a7077e5568bf368019d5bd803108591928187e2a idpf: reduce mbx_task schedule delay to 300us
+86fbc16b851f628568f6576098b81546a15f4241 i40e: fix src IP mask checks and memcpy argument names in cloud filter
+29c428142eebb7afcdbbb680f70d5ff9eb02f1f2 idpf: introduce local idpf structure to store virtchnl queue chunks
+d0b68758526b811ebd6ce4093e37bfcde6cda133 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+2eb15f0714e5be3056eb797f75dd67857fb9ef31 idpf: move queue resources to idpf_q_vec_rsrc structure
+e5d974300f89093f5861ba6a16a413d1caec441a idpf: move some iterator declarations inside for loops
+dbf2a41e15f7b9338759b3d3393c0e6d0648180a idpf: reshuffle idpf_vport struct members to avoid holes
+834f2523253db0709b58ab790dfef20a27c9e482 idpf: add rss_data field to RSS function parameters
+58d6029f2e3a017d9671579766e59133e17c3c72 idpf: remove vport pointer from queue sets
+1a80fae400b460b399763a1a0062a7a321a27374 idpf: generalize send virtchnl message API
+25656caa63704e98aaf6dc3b4516995910a88ffe idpf: avoid calling get_rx_ptypes for each vport
+f113e373e151b6f1f25eb32317b401a983bf02d2 idpf: generalize mailbox API
+f96861c98a614c988d4a8c70f388a0c6dccfa72a e1000e: Remove unneeded checks
 
---===============0015405032229149302==--
+--===============2502397183831548612==--
