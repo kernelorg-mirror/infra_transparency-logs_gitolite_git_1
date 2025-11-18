@@ -1,40 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6301996127939847370=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 18 Nov 2025 00:16:40 -0000
-Message-Id: <176342500006.1830879.2606273586624374466@gitolite.kernel.org>
-
---===============6301996127939847370==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 18 Nov 2025 00:57:54 -0000
+Message-Id: <176342747445.1863353.1451117187226395023@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/riscv-soc-for-next
-    old: 01ad0927f243a45b4e9e6772e71032ac9312fd1f
-    new: 0e56677e58409bb081dcf3006981d5c7c8cca3d6
-    log: revlist-01ad0927f243-0e56677e5840.txt
-
---===============6301996127939847370==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01ad0927f243-0e56677e5840.txt
-
-d52341da4db0cd993d3549aa20cbdf063b412c3b dt-bindings: cache: sifive,ccache0: add a pic64gx compatible
-f49ae86483c494ddc793d889f6df5ea68d138569 memregion: Drop unused IORES_DESC_* parameter from cpu_cache_invalidate_memregion()
-b43652d867cf2a5f31b14e3d9a320ad01fca0992 memregion: Support fine grained invalidate by cpu_cache_invalidate_memregion()
-1bbcb337cc4f3fe7a7ad7319d835c183d72d517d lib: Support ARCH_HAS_CPU_CACHE_INVALIDATE_MEMREGION
-e527dd1a2dd22c60b06f21634487cd6262284358 arm64: Select GENERIC_CPU_CACHE_MAINTENANCE
-d8a98d588b129d347ad5be1ec5921210c292905b MAINTAINERS: Add Jonathan Cameron to drivers/cache and add lib/cache_maint.c + header
-1c0af2737d9e07c036274f1b2f4f6e6dd2ed4536 cache: Make top level Kconfig menu a boolean dependent on RISCV
-ce97c1c84029215eb628542f395ea23631766968 cache: Support cache maintenance for HiSilicon SoC Hydra Home Agent
-40b923c2b5892aae3e2e374f937621bce21ca61d MAINTAINERS: refer to intended file in STANDALONE CACHE CONTROLLER DRIVERS
-0e56677e58409bb081dcf3006981d5c7c8cca3d6 Merge branch 'riscv-cache-for-next' into riscv-soc-for-next
-
---===============6301996127939847370==--
+  - ref: refs/heads/main
+    old: c9dfb92de0738eb7fe6a591ad1642333793e8b6e
+    new: 40ea40853da9c3fa03d52c2998998d103b80f593
+    log: |
+         467c3f008d0cafe8c21af7ad9f3036c1a15ec13d mlx4: extract GRXRINGS from .get_rxnfc
+         945499665f63197801b64fabb0bccf9d15ed09bf mlx5: extract GRXRINGS from .get_rxnfc
+         122ac16b8c95423da011e4c07a818138cb297ed9 Merge branch 'net-mlx-migrate-to-new-get_rx_ring_count-ethtool-api'
+         0135333914d63181f823bd340ae96737c8a820ca eth: fbnic: Configure RDE settings for pause frame
+         40ea40853da9c3fa03d52c2998998d103b80f593 tools: ynltool: remove -lmnl from link flags
+         
