@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Tue, 18 Nov 2025 19:00:22 -0000
-Message-Id: <176349242250.2806690.1811059804691138301@gitolite.kernel.org>
+Date: Tue, 18 Nov 2025 19:18:20 -0000
+Message-Id: <176349350054.2820405.8550082876648049516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
 user: jlayton
 changes:
   - ref: refs/heads/kdevops
-    old: 30d94ee415b075f5daf184a2d5ef001418c97401
-    new: 97f226511f69b130673fea768a4ddc6a00836563
+    old: 97f226511f69b130673fea768a4ddc6a00836563
+    new: 8344e6c26754a281f91ddcaaba65dd202877f37d
     log: |
-         97f226511f69b130673fea768a4ddc6a00836563 generic: add tests for file delegations
+         8344e6c26754a281f91ddcaaba65dd202877f37d generic: add tests for file delegations
          
