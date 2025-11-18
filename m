@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 18 Nov 2025 15:05:26 -0000
-Message-Id: <176347832649.2595166.17376370413735850935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Tue, 18 Nov 2025 15:11:07 -0000
+Message-Id: <176347866796.2599777.3172197723731843354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 68e727dc371c33ee706d635d566c2926d3af47b5
-    new: fcb6b576dd0524a4e5a0071cd82855f548a0f743
+  - ref: refs/heads/main
+    old: 324dbcf05857026e2ca39f7638d55dfc2008ce39
+    new: dd56b497175b2e1bd560a6c5d51e80fa1e5b9d86
     log: |
-         fcb6b576dd0524a4e5a0071cd82855f548a0f743 proposed: Add Lee's v6.17.7 results
+         dd56b497175b2e1bd560a6c5d51e80fa1e5b9d86 refactor(create): simplify resolve_policy
          
