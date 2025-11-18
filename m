@@ -1,24 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 18 Nov 2025 19:52:18 -0000
-Message-Id: <176349553862.2851563.2763566850565509220@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7203069107435730620=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 18 Nov 2025 20:03:09 -0000
+Message-Id: <176349618922.2860345.15246230389558617875@gitolite.kernel.org>
+
+--===============7203069107435730620==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e7c375b181600caf135cfd03eadbc45eb530f2cb
-    new: 8b690556d8fe074b4f9835075050fba3fb180e93
+    old: a6db3f06ce9836a7fc8921f588452804fc62bed1
+    new: a8dcc291d36c8fbe6390a762e24e9c37b836887b
     log: |
-         0f559cd91e37b7978e4198ca2fbf7eb95df11361 KVM: arm64: Finalize ID registers only once per VM
-         85592114ffda568b507bc2b04f5e9afbe7c13b62 KVM: arm64: VHE: Compute fgt traps before activating them
-         5bebe8de19264946d398ead4e6c20c229454a552 mm/huge_memory: Fix initialization of huge zero folio
-         b82ebaf298643cad497ef8daf263c0652d486eec Merge tag 'kvmarm-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-         3fa05f96fc08dff5e846c2cc283a249c1bf029a1 KVM: SVM: Fix redundant updates of LBR MSR intercepts
-         8b690556d8fe074b4f9835075050fba3fb180e93 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+         9c26a0853b500ab60f27303554a6079bdc981397 Update shtab requirement to >=1.8
+         1548a44348e599a8c0a0db7f6d7e9eac8979b347 Merge patch "Update shtab requirement to >=1.8"
+         a8dcc291d36c8fbe6390a762e24e9c37b836887b Update latest requirements.txt
          
+
+--===============7203069107435730620==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1763496259 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1763496188-6d0ded4214e06e73b4e318a6e15212fd1596f587
+
+a6db3f06ce9836a7fc8921f588452804fc62bed1 a8dcc291d36c8fbe6390a762e24e9c37b836887b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaRzRQwAKCRC2xBzjVmSZ
+bEExAP9BmTV2tNUm2hMZQdd0id5gLPaDjf6PEIcI/gePdbGnmAEAwpSyEgOYL+YG
+nsW9C4avXFORFSKE/T2aPElT8KB/Jgs=
+=wfnu
+-----END PGP SIGNATURE-----
+
+--===============7203069107435730620==--
