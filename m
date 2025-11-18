@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Tue, 18 Nov 2025 12:33:43 -0000
-Message-Id: <176346922304.2455577.1421726070035164173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 18 Nov 2025 12:36:38 -0000
+Message-Id: <176346939822.2459003.10763953627406166147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: pratyush
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 7f77c561e22783387af91cd16f3a4324a99c9a4f
-    new: 5008c3ec3f891456e74f8dab882fcd5bc515d327
+  - ref: refs/heads/gpio/for-next
+    old: 67f9b828d4e5e47caf3472a399c25c3c0ddc824a
+    new: bb7c963d0008f6d652ca7c7aa1aedae3d03425c7
     log: |
-         5008c3ec3f891456e74f8dab882fcd5bc515d327 mtd: spi-nor: core: Check read CR support
+         bb7c963d0008f6d652ca7c7aa1aedae3d03425c7 dt-bindings: gpio: mpfs-gpio: Add pic64gx GPIO compatibility
          
