@@ -1,61 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3859377805095242286=="
+Content-Type: multipart/mixed; boundary="===============1803299184637667962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 19 Nov 2025 12:14:28 -0000
-Message-Id: <176355446849.3729355.16016991650805347968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 19 Nov 2025 12:14:45 -0000
+Message-Id: <176355448525.3729866.12287927450470223004@gitolite.kernel.org>
 
---===============3859377805095242286==
+--===============1803299184637667962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
   - ref: refs/heads/for-next
-    old: 9b23effed3a9604e3544ceed51b280d2efeba79f
-    new: 870f6ca955ea3f23b4d7824c815c81180a6d7c48
-    log: |
-         11cfb42e9e1a3fb641137e0033f10a5263d3d751 dt-bindings: clock: Add ARTPEC-9 clock controller
-         234db9f34c4c82f54c94326e92bdfd6304f4a2a4 clk: samsung: Add clock PLL support for ARTPEC-9 SoC
-         66a62a2358c8a91dbd88e18d6d0f8d35c7b2d220 clk: samsung: artpec-9: Add initial clock support for ARTPEC-9 SoC
-         dfb59d7319915926a5606ffbccdb924b09f08cdb dt-bindings: samsung: exynos-pmu: Add compatible for ARTPEC-9 SoC
-         62f9c9186bbeb8909a2a6cadf79fb4c3efd9a5f1 Merge branch 'next/drivers' into for-next
-         870f6ca955ea3f23b4d7824c815c81180a6d7c48 Merge branch 'next/clk' into for-next
-         
+    old: 2a06478d37be903ea6226377ebd50446534336b0
+    new: a123316660af2fbdcd576b6890e6787d536b81db
+    log: revlist-2a06478d37be-a123316660af.txt
 
---===============3859377805095242286==
+--===============1803299184637667962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2a06478d37be-a123316660af.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1763554538 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1763554466-f07d37bdff9b02016d93bce3305e77b7353e2264
+ee156994e5a4c67bdbd1ed4d1ef0b84be9a6bd86 RISC-V: Enable HOTPLUG_PARALLEL for secondary CPUs
+089c7253deb3393b650b757411813294b2231d66 riscv: Remove __GFP_HIGHMEM masking
+5c7b33388967d24ab31fa8656d09016454243f64 riscv: pgtable: Use riscv_has_extension_unlikely
+7d4a828833518e547140be5b585f5886a8f016af riscv: checksum: Use riscv_has_extension_likely
+9dde1c24b5f66af2c21ddda34b9aa33523bcab00 riscv: hweight: Use riscv_has_extension_likely
+0833dd5e42a4d0e732ad943053fd88af19aa5ba6 riscv: bitops: Use riscv_has_extension_likely
+48f7471166a0c94877cb6878bb298bb0991fd5ff riscv: cmpxchg: Use riscv_has_extension_likely
+0d665d57cc2100173a5c07e0affc7b518f273b16 raid6: riscv: Prevent compiler from breaking inline vector assembly code
+59ec5b825fa307bcfa13e251bdcfefdbaea5b008 raid6: riscv: Allow code to be compiled in userspace
+596c3f2dc94f6ba766d72da68e6b79d12a2447e1 raid6: test: Add support for RISC-V
+f8e257e4d54975ade261702d090c02d2ffda1d78 riscv: ptrace: Optimize the allocation of vector regset
+92678c40038b825b45579aa364a91e7fc346d019 selftests: riscv: Add test for the Vector ptrace interface
+0597b9c8627e8a55bb79d4b0f48555ce3c52b904 riscv: Add ISA extension parsing for Zalasr
+6e2a0ff70abea291e01c31f6a603e004ca3fa446 dt-bindings: riscv: Add Zalasr ISA extension description
+d5e20628a8828bab2cf76fe8392a6e7cbdeb34e0 riscv: hwprobe: Export Zalasr extension
+c4139ea6717c7d498e292bfb8a3781767f94fddc riscv: Introduce Zalasr instructions
+22813b82af1e2f0f81ee7d31d35b18a388d02873 riscv: hwprobe: Expose Zicbop extension and its block size
+b291b9de3182e1e2f233f4f0bf2dd3ce46c1ad4f selftests/riscv: Add Zicbop prefetch test
+7bba38249b8a5ca4ba5e08cdff65bbb64985b4f8 riscv: add SBI SSE extension definitions
+b52179e6de7d0e86ea3c7f6e190535863967783c riscv: add support for SBI Supervisor Software Events extension
+5ffe60d26107c1803a587a1836eb8e6f7cd65e9d drivers: firmware: add riscv SSE support
+c6f3f04d2a9c3172fe8ba2216355f3e635d91697 perf: RISC-V: add support for SSE event
+a123316660af2fbdcd576b6890e6787d536b81db selftests/riscv: add SSE test module
 
-9b23effed3a9604e3544ceed51b280d2efeba79f 870f6ca955ea3f23b4d7824c815c81180a6d7c48 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkdtOoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11cFD/9K00kZ9Ypj8yKyiWkWgXxzPgh3ay7boNXq
-zYBeFkvAjQ8VN10Qyy7r2SWUQx5z42Giad0CA3bcaKis2pFj7W8Jo8vsY5oMpED/
-oUjXvVJx/b6JugsUy9+pJworeOkT+QDfwgrp7JCCjiMm+dEVds+K1B7mnf58U5tY
-sipBtow8WWr+2rpKp9DpzaZijvW2wb9fan/hkyaHO/x+hTrRCNBAoqGFUQb4kDmR
-dteIZYmoFUeIfzh55N+UZqkemMcqF5qkNWvk+GvMYT+W0jaPbgzO+sAUrNpvmd+F
-LewEaFwTMhhQY7kw3OjG/lW07OB4khBmQsrXmJgS/H2PTTeQaJXgh87ti7jBM1K0
-GYKqN//UmXGxCmkcLLs9CdWWDpc6efrWj2Y8GIPYMqM/9z7ytrQt05LlSF70FI5l
-7+bFMntir6JtIkFKOrX3MIGEKaEA3CA97hpGCG9SIRqYdtLhdWw4YXat+NvJF8qZ
-4O7i2NffIgq4e8pD3+nrxiZ6ERom0FCNTR5SYBvAaXuxPzRo1Y5mkdeofMMX20PF
-ftYeWgPvRy2KNzWE1ty22bl2ONp80k4L8jt6GtINYRsyU0WFdkM9t6O7H1QeycKc
-EoECZtO6t4rdWVxBBz7Hhy2j5+cQkZ0Luj7ciI1qRgmkCCceI2iOaD7To0pbBptv
-OlZ+DZ6WZA==
-=c+DA
------END PGP SIGNATURE-----
-
---===============3859377805095242286==--
+--===============1803299184637667962==--
