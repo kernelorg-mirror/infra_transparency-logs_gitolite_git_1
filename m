@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4904653849946282649=="
+Content-Type: multipart/mixed; boundary="===============1709393704802626963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 19 Nov 2025 18:14:23 -0000
-Message-Id: <176357606377.4107530.8563222315773199941@gitolite.kernel.org>
+Date: Wed, 19 Nov 2025 18:14:26 -0000
+Message-Id: <176357606620.4107622.12640186723234175708@gitolite.kernel.org>
 
---===============4904653849946282649==
+--===============1709393704802626963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a057e8e4ac5b1ddd12be590e2e039fa08d0c8aa4
     new: 865a5d1a29be48875ff68c6ba7e8377180ab8e33
     log: revlist-a057e8e4ac5b-865a5d1a29be.txt
 
---===============4904653849946282649==
+--===============1709393704802626963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ b5adada61e02c19fce48641283f0031d28981066 net: stmmac: stmmac_is_jumbo_frm() len 
 bf351bbec57fd4d09177974f762cf553a5ef8663 net: stmmac: stmmac_is_jumbo_frm() returns boolean
 865a5d1a29be48875ff68c6ba7e8377180ab8e33 Merge branch 'net-stmmac-sanitise-stmmac_is_jumbo_frm'
 
---===============4904653849946282649==--
+--===============1709393704802626963==--
