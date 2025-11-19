@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 19 Nov 2025 17:27:04 -0000
-Message-Id: <176357322480.4065979.15370077317472380170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
+Date: Wed, 19 Nov 2025 17:35:09 -0000
+Message-Id: <176357370990.4073688.6959804480566368622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/pjw/riscv
+user: pjw
 changes:
-  - ref: refs/heads/master
-    old: 0678f5630429a5049d7663703b897e1bf8d13cd1
-    new: fdeee1cc7f3568235e9bd89421e757ba1c49cc83
+  - ref: refs/heads/experimental/cfi-v23-pjw
+    old: 5b60d8b8c6a92af443fb975859c3685dbea0d99d
+    new: 993f19aed4f4911858a681dbe28fc2699f1767ae
     log: |
-         f84fd5bec502447df145f31734793714690ce27f pwm: adp5585: Correct mismatched pwm chip info
-         fdeee1cc7f3568235e9bd89421e757ba1c49cc83 Merge tag 'pwm/for-6.18-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+         c88af3fbe8c7b8894163c49b73a6e1cdfdb7c839 riscv: Documentation for landing pad / indirect branch tracking
+         34e5fd6ff2e4292a6d8bb6cdc40bf3792639eca6 riscv: Documentation for shadow stack
+         993f19aed4f4911858a681dbe28fc2699f1767ae kselftest/riscv: kselftest for user mode cfi
          
