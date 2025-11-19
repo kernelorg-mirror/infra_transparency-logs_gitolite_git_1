@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3195195347305206445=="
+Content-Type: multipart/mixed; boundary="===============5280982444169005247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Wed, 19 Nov 2025 17:06:23 -0000
-Message-Id: <176357198307.4047450.9483270171907279880@gitolite.kernel.org>
+Date: Wed, 19 Nov 2025 17:07:04 -0000
+Message-Id: <176357202497.4047888.12276139967297634942@gitolite.kernel.org>
 
---===============3195195347305206445==
+--===============5280982444169005247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: e0b972121a1508cf96681452ebf2b24f80943215
-    new: 0346625cd7f125d056e1424e98d0037a1baa4614
-    log: revlist-e0b972121a15-0346625cd7f1.txt
-  - ref: refs/tags/v6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
+  - ref: refs/heads/fixes
+    old: bbde14682eba21d86f5f3d6fe2d371b1f97f1e61
+    new: 6a23ae0a96a600d1d12557add110e0bb6e32730c
+    log: revlist-bbde14682eba-6a23ae0a96a6.txt
 
---===============3195195347305206445==
+--===============5280982444169005247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0b972121a15-0346625cd7f1.txt
+Content-Disposition: attachment; filename=revlist-bbde14682eba-6a23ae0a96a6.txt
 
+4f76435fd517981f01608678c06ad9718a86ee98 NFSD: Define actions for the new time_deleg FATTR4 attributes
+abb1f08a2121dd270193746e43b2a9373db9ad84 NFSD: Fix crash in nfsd4_read_release()
+29cdfb4950702bb849f70f7e3b58b4eeb5c1441c nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+3e7f011c255582d7c914133785bbba1990441713 Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+4e9077638301816a7d73fa1e1b4c1db4a7e3b59c bpf: Sync pending IRQ work before freeing ring buffer
+552c50713f273b494ac6c77052032a49bc9255e2 Merge tag 'vfio-v6.18-rc3' of https://github.com/awilliam/linux-vfio
+0e59f47c15cec4cd88c51c5cda749607b719c82b mm/mremap: correctly account old mapping after MREMAP_DONTUNMAP remap
+c3fa5b1bfd8380d935fa961f2ac166bdf000f418 mm/damon/core: fix list_add_tail() call on damon_call()
+4ba5a8a7faa647ada8eae61a36517cf369f5bbe4 vmw_balloon: indicate success when effectively deflating during migration
+cec944dd329fbefee907da95c298719d900d4787 hugetlbfs: move lock assertions after early returns in huge_pmd_unshare()
+7071537159be845a5c4ed5fb7d3db25aa4bd04a3 mm/damon/core: fix potential memory leak by cleaning ops_filter in damon_destroy_scheme
+7eca961dd7188f20fdf8ce9ed5018280f79b2438 mm/damon/core: use damos_commit_quota_goal() for new goal commit
+9aa12167ef1149d9980713b120ddcb31cf17222d csky: abiv2: adapt to new folio flags field
+e13d315ae077bb7c3c6027cc292401bc0f4ec683 erofs: avoid infinite loops due to corrupted subpage compact indexes
+2a13fc417f493e28bdd368785320dd4c2b3d732e erofs: consolidate z_erofs_extent_lookback()
+e84cb860ac3ce67ec6ecc364433fd5b412c448bc mptcp: pm: in-kernel: C-flag: handle late ADD_ADDR
+d68460bc31f9c8c6fc81fbb56ec952bec18409f1 selftests: mptcp: join: mark 'flush re-add' as skipped if not supported
+973f80d715bd2504b4db6e049f292e694145cd79 selftests: mptcp: join: mark implicit tests as skipped if not supported
+c3496c052ac36ea98ec4f8e95ae6285a425a2457 selftests: mptcp: join: mark 'delete re-add signal' as skipped if not supported
+a9649dfbe552a42a3781fb681d93a2f510565954 selftests: mptcp: join: mark laminar tests as skipped if not supported
+9ab614bc818a93810c27f3e1b4c072e087f8500a Merge branch 'mptcp-handle-late-add_addr-selftests-skip'
 c5394b8b7a92c5013d2917591e28e938fe7ff2a2 net: gro_cells: fix lock imbalance in gro_cells_receive()
 86c48f50bababbb45622616b48385aa94bfadf5f Documentation: networking: ax25: update the mailing list info.
 2653e9c5dda5a320310aae8f0abba6fc1be40eec Merge tag 'linux-can-fixes-for-6.18-20251020' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
@@ -1032,26 +1050,5 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 7ba45f15049b4442c932ca2499aec739bb6bdbcf Merge tag 'mm-hotfixes-stable-2025-11-16-10-40' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
-35cfef3ccb8654489d0b962260e8bbdb4b2665e0 pmdomain: Merge branch dt into next
-4acbfb6c116be5989d5a0e38a48deca2d5b8bb92 PM: wakeup: Add out-of-band system wakeup support for devices
-3b7685da41838eda57f56e804014091769a93700 pmdomain: core: Allow power-off for out-of-band wakeup-capable devices
-dfdcfc19fe16f9a0612a119d7a741ed4d7206427 usb: chipidea: core: detach power domain for ci_hdrc platform device
-854825367a1d28b3b6c757134460d0fe29a0b4a6 usb: chipidea: ci_hdrc_imx: Set out of band wakeup for i.MX95
-198576665b3c2762174969a739ef98807a21a935 usb: dwc3: imx8mp: Set out of band wakeup for i.MX95
-72b0a7b34b40cbc877edf1f70520953767fb4583 pmdomain: qcom: rpmhpd: Add RPMh power domain support for Kaanapali
-88914db077b6c2920b29a3ec76109a2fd3cf8d38 pmdomain: mediatek: Add support for Hardware Voter power domains
-8e98badec1d5e1ab7755a2cdfd092c8623f86ee5 pmdomain: mediatek: Add support for secure HWCCF infra power on
-5437b2813f8f8ed02ec2bca78de08a35fbaea85c pmdomain: mediatek: Add support for MT8196 SCPSYS power domains
-56b0d23017ec127163f7851f8ee6c88cec7f1599 pmdomain: mediatek: Add support for MT8196 HFRPSYS power domains
-47c7b3c24b42f27eccbb1b181c33619774e46474 pmdomain: rockchip: Add support for RV1126B
-e938ef83a025a385f441467bf8443bc803a3d1e6 cpuidle: psci: Replace deprecated strcpy in psci_idle_init_cpu
-19e668e81e273b43b28608e8e05f4fb090a32f5a pmdomain: mediatek: Fix build-errors
-f08e7a4e8d6ac4de677727af352ea33c6ce9f444 pmdomain: mediatek: Add support for MFlexGraphics
-b0671a5fd3201efc5dd38254f1917cbbd805936c pmdomain: mediatek: mtk-mfg: select MAILBOX in Kconfig
-d4aa5960025ab0946c96be050586cdd2346c6471 pmdomain: bcm: bcm2835-power: Prepare to support BCM2712
-3ee4082545fe0867e2fe951b68f7a7f9217240fe amba: bus: Drop dev_pm_domain_detach() call
-80ed617a62fe076bbfe700c8289fc2118d724821 pmdomain: mediatek: convert from clk round_rate() to determine_rate()
-ccde6525183c5489de293cf91a441585fff3c847 smp: Introduce a helper function to check for pending IPIs
-0346625cd7f125d056e1424e98d0037a1baa4614 pmdomain: Extend the genpd governor for CPUs to account for IPIs
 
---===============3195195347305206445==--
+--===============5280982444169005247==--
