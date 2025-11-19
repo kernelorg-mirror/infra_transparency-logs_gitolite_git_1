@@ -1,46 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8698137906512622467=="
+Content-Type: multipart/mixed; boundary="===============3147074191327878277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 19 Nov 2025 20:33:05 -0000
-Message-Id: <176358438539.31935.13529413770891894709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 19 Nov 2025 20:35:21 -0000
+Message-Id: <176358452175.35339.1323045303095967293@gitolite.kernel.org>
 
---===============8698137906512622467==
+--===============3147074191327878277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 87f85c627eafec464848d2a44b7cb4144d86afda
-    new: 3826fb7f62f14b792ae931643e14fdcf6c5011a9
-    log: |
-         3826fb7f62f14b792ae931643e14fdcf6c5011a9 Add A517E546D65D3396 (Xiu Jianfeng)
-         
+  - ref: refs/heads/dmabuf-vfio-v9
+    old: e34e6bf6ca8682bcadece7fd348b4fb644cf1a75
+    new: db3931096cdbf1eb3a9613cee5f6fbb6c9298ea1
+    log: revlist-e34e6bf6ca86-db3931096cdb.txt
 
---===============8698137906512622467==
+--===============3147074191327878277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e34e6bf6ca86-db3931096cdb.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1763584456 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1763584384-1d2300109ea5088c52e8ef5aeffde5c6ccde365e
+c15bf0ecb80ca339e35a1e3beace1d2203079fba vfio/pci: Allow MMIO regions to be exported through dma-buf
+879d3069b8a053ef089e929332573b18765995bd PCI/P2PDMA: Separate the mmap() support from the core logic
+fe3dbcb752441a4d9982c7ef586c32b66e177e45 PCI/P2PDMA: Simplify bus address mapping API
+d23f07c49dd8e126f71bfae647b88faa3ae36fb7 PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
+d0c25a9da76b8af42a5100f2613651f1f70f6ab1 PCI/P2PDMA: Provide an access to pci_p2pdma_map_type() function
+7bd86d548537407792f18344481ea3d4d3dc480b PCI/P2PDMA: Document DMABUF model
+3804343f783199391badaf254462b10a53a2d08e dma-buf: provide phys_vec to scatter-gather mapping routine
+bf2306c206b3f9acbf8d5ff316637cd27e16963a vfio: Export vfio device get and put registration helpers
+69dc1c3e864aaebb3c9bed24bf7ea8ec52c593a5 vfio/pci: Share the core device pointer while invoking feature functions
+5618b00aba5d4560ecb31477c8e5723d9c6749ce vfio/pci: Enable peer-to-peer DMA transactions by default
+70d6ab45f2f60d26d709666fa84ca8e7fbf7d2eb vfio/pci: Add dma-buf export support for MMIO regions
+5a05cdafb2d5a57b8736afbc0bccb8bd8014ed98 vfio/nvgrace: Support get_dmabuf_phys
+2a2c847715f841861227d48242c18f6c5d531088 vfio: selftests: Add DMABUF test
+db3931096cdbf1eb3a9613cee5f6fbb6c9298ea1 vfio/pci: Prevent exporters with pinned interface
 
-87f85c627eafec464848d2a44b7cb4144d86afda 3826fb7f62f14b792ae931643e14fdcf6c5011a9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaR4pyAAKCRC2xBzjVmSZ
-bOvFAP4/A2ZyYStvJeSn4tV+lqhAiaQ/k8Xx87GefkKr2YXHTgD+LM/AkzK4GzYh
-9IfDPz2CZ4W7ZBUEKJT8rMzcO65sgQo=
-=yqxu
------END PGP SIGNATURE-----
-
---===============8698137906512622467==--
+--===============3147074191327878277==--
