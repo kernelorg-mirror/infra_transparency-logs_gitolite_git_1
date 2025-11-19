@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Wed, 19 Nov 2025 11:03:00 -0000
-Message-Id: <176355018054.3665508.13631067474293425601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 19 Nov 2025 11:06:58 -0000
+Message-Id: <176355041879.3669398.13355303841643458581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 1bd4e4575f5e65d1b4b3e2415c3ce11506d5ec92
-    new: f8af09e293fd8f8179fa303bc837b8d6970a540b
+  - ref: refs/heads/gpio/for-next
+    old: 8ad236f8a457c88906261411bcafa1a91fa96124
+    new: 5ef5f3c2245e13c62adf4cb0980cdd7bd72c59d0
     log: |
-         f8af09e293fd8f8179fa303bc837b8d6970a540b refactor(error): rename BufferTooLarge as TooManyBytes
+         5ef5f3c2245e13c62adf4cb0980cdd7bd72c59d0 Documentation: gpio: Add a compatibility and feature list for PCA953x
          
