@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4705592314926811509=="
+Content-Type: multipart/mixed; boundary="===============0061926868033415276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 19 Nov 2025 05:06:05 -0000
-Message-Id: <176352876594.3341316.16901607272276546952@gitolite.kernel.org>
+Date: Wed, 19 Nov 2025 05:06:07 -0000
+Message-Id: <176352876786.3341475.8088765772014703682@gitolite.kernel.org>
 
---===============4705592314926811509==
+--===============0061926868033415276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 056b93566a3509aecf3761fe4e76b444a1cf7886
-    new: febb34c02328efb88170cb9481f1b08c7190d642
-    log: revlist-056b93566a35-febb34c02328.txt
+  - ref: refs/heads/mm-unstable
+    old: ffac53cdb231aaac262b3ccd3cb6956bb4145380
+    new: 102494e6776f316b6cf2924976681d790f278cf1
+    log: revlist-ffac53cdb231-102494e6776f.txt
 
---===============4705592314926811509==
+--===============0061926868033415276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-056b93566a35-febb34c02328.txt
+Content-Disposition: attachment; filename=revlist-ffac53cdb231-102494e6776f.txt
 
 fa43cde6d8f68952c0a7c104926b27ea20ba9147 mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 fbfd05c9a24d06b9a04372e485ef1f25f87a8be8 kernel/kexec: change the prototype of kimage_map_segment()
@@ -168,18 +168,5 @@ c6cdf79d388f769898105d8006abeaafda0a86b6 memcg: use mod_node_page_state to updat
 e49038afa11a872a1450626a3e45a6ffe3200339 memcg: remove __mod_lruvec_kmem_state
 2d10ebb90c4f91cd87fa9c73f341539031d48c34 memcg: remove __mod_lruvec_state
 102494e6776f316b6cf2924976681d790f278cf1 memcg: remove __lruvec_stat_mod_folio
-64cee44d6a53a1aa453db2d3c48c572018d5e319 mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
-68c4801564a5f61b1316dff94c5af3df2485cc86 mm/vmalloc: warn on invalid vmalloc gfp flags
-e6c60b466e7e3c102b318e667ba41f61d1398e00 mm/vmalloc: add a helper to optimize vmalloc allocation gfps
-a07b64ab9b2a6ce8342d9b5b0119dadc62e44612 mm/vmalloc: cleanup large_gfp in vm_area_alloc_pages()
-8079dd84cb3b5be8adab7fdfddfb6ff5d7e8169a mm/vmalloc: cleanup gfp flag use in new_vmap_block()
-fd3cd82df4941cee487f612d47655b11f7debdcd mm/vmalloc: warn only once when vmalloc detect invalid gfp flags
-73e38d684add4ea19e79f3a08b2a2655f833a3c8 mm/vmalloc: fix build error
-b265821e1f2b170e63b2d1bd3c100733a3be5190 mm: softdirty: add pgtable_supports_soft_dirty()
-197764fbc3c8018ceecbedc1763f3844c74298d2 mm: userfaultfd: add pgtable_supports_uffd_wp()
-a7a23aac8d2cfc1ba997b5608a77afd958c05496 riscv: add RISC-V Svrsw60t59b extension support
-6515c169113775b05da6c50c627c93e16556ea24 riscv: mm: add soft-dirty page tracking support
-70fb50ba613fdd4d00c14ed608f64270f51b0bec riscv: mm: add userfaultfd write-protect support
-febb34c02328efb88170cb9481f1b08c7190d642 dt-bindings: riscv: Add Svrsw60t59b extension description
 
---===============4705592314926811509==--
+--===============0061926868033415276==--
