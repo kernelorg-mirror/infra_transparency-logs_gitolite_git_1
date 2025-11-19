@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3086413172373203212=="
+Content-Type: multipart/mixed; boundary="===============7567549528793314844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 19 Nov 2025 18:11:03 -0000
-Message-Id: <176357586385.4105035.9798069572011924121@gitolite.kernel.org>
+Date: Wed, 19 Nov 2025 18:11:06 -0000
+Message-Id: <176357586615.4105157.10060724425754385275@gitolite.kernel.org>
 
---===============3086413172373203212==
+--===============7567549528793314844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 0f08f0b0fb5e674b48f30e86c103760204a1d3f3
     new: 106a67494c53c56f55a2bd0757be0edb6eaa5407
     log: revlist-0f08f0b0fb5e-106a67494c53.txt
 
---===============3086413172373203212==
+--===============7567549528793314844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ d47515af6cccd7484d8b0870376858c9848a18ec net/mlx5: Clean up only new IRQ glue on
 e1bb28bf13f41af5d7cc48359d1755cbcda4d502 selftest: af_unix: Add test for SO_PEEK_OFF.
 106a67494c53c56f55a2bd0757be0edb6eaa5407 Merge branch 'af_unix-fix-so_peek_off-bug-in-unix_stream_read_generic'
 
---===============3086413172373203212==--
+--===============7567549528793314844==--
