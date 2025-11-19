@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 19 Nov 2025 01:34:48 -0000
-Message-Id: <176351608850.3157490.1458813773068140394@gitolite.kernel.org>
+Date: Wed, 19 Nov 2025 01:36:47 -0000
+Message-Id: <176351620769.3160041.13083331571633273451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a057e8e4ac5b1ddd12be590e2e039fa08d0c8aa4
-    new: 6770eaad75ae039b620e9dc05f62dcbcfc2e5085
+    old: 6770eaad75ae039b620e9dc05f62dcbcfc2e5085
+    new: f4e3402f59ac5e6e629d8b94c3760414fb0f37bf
     log: |
-         6770eaad75ae039b620e9dc05f62dcbcfc2e5085 tools: ynltool: ignore *.d deps files
+         f4e3402f59ac5e6e629d8b94c3760414fb0f37bf dt-bindings: net: cdns,macb: Add pic64gx compatibility
          
