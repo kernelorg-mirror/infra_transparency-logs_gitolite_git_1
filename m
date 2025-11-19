@@ -1,70 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============2954248918198948933=="
+Content-Type: multipart/mixed; boundary="===============8558433175974584853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 19 Nov 2025 17:37:23 -0000
-Message-Id: <176357384342.4074650.4094327401087889004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 19 Nov 2025 17:49:01 -0000
+Message-Id: <176357454164.4084083.9892632971727115303@gitolite.kernel.org>
 
---===============2954248918198948933==
+--===============8558433175974584853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: fdeee1cc7f3568235e9bd89421e757ba1c49cc83
-    new: 23cb64fb76257309e396ea4cec8396d4a1dbae68
-    log: revlist-fdeee1cc7f35-23cb64fb7625.txt
+  - ref: refs/heads/main
+    old: af4810bd90d1cf0beacb3420e48afa8d5df1054f
+    new: fe13aa9b983014c27d5074230e2616be001629d9
+    log: revlist-af4810bd90d1-fe13aa9b9830.txt
 
---===============2954248918198948933==
+--===============8558433175974584853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdeee1cc7f35-23cb64fb7625.txt
+Content-Disposition: attachment; filename=revlist-af4810bd90d1-fe13aa9b9830.txt
 
-d425aef66e62221fa6bb0ccb94296df29e4cc107 arm64: dts: rockchip: Set correct pinctrl for I2S1 8ch TX on odroid-m1
-e179de737d13ad99bd19ea0fafab759d4074a425 arm64: dts: rockchip: Fix PCIe power enable pin for BigTreeTech CB2 and Pi2
-05b80cd1f37db042e074ecc7ee0d39869fed2f52 arm64: dts: rockchip: Remove non-functioning CPU OPPs from RK3576
-afb5f84b216d14a71e2962ed569edcea30cf9763 arm64: dts: rockchip: Drop 'rockchip,grf' prop from tsadc on rk3328
-b3fd04e23f6e4496f5a2279466a33fbdc83500f0 arm64: dts: rockchip: Make RK3588 GPU OPP table naming less generic
-ce121914f38aaa59504e20a1a625e5988fc6ead4 arm64: tegra: Mark Jetson Xavier NX's PHY as a wakeup source
-85893094535cced32b33766e283240164a5b11f8 ARM: dts: aspeed: fuji-data64: Enable mac3 controller
-62bf7708fe80ec0db14b9179c25eeeda9f81e9d0 ARM: dts: imx6ull-engicam-microgea-rmm: fix report-rate-hz value
-f31e261712a0d107f09fb1d3dc8f094806149c83 ARM: dts: imx51-zii-rdu1: Fix audmux node names
-26f0f122f92f2e8c384c08a05956417bfb5f6fbe arm64: dts: rockchip: Fix indentation on rk3399 haikou demo dtso
-6f37469a933030692741710db809722076f71973 memory: tegra210: Fix incorrect client ids
-ff7b5a27438275e4fd8c4809d815638c829fe520 arm: imx_v6_v7_defconfig: enable ext4 directly
-ec4daace64a44b53df76f0629e82684ef09ce869 arm64: dts: imx8-ss-img: Avoid gpio0_mipi_csi GPIOs being deferred
-1eb42bacd7cebede5d317569e4b874b54e5c41d6 arm64: dts: imx95: Fix MSI mapping for PCIe endpoint nodes
-6504297872c7a5d0d06247970d32940eba26b8b3 arm64: dts: imx8mp-kontron: Fix USB OTG role switching
-08d70143e3033d267507deb98a5fd187df3e6640 arm64: dts: rockchip: include rk3399-base instead of rk3399 in rk3399-op1
-03c7e964a02e388ee168c804add7404eda23908c arm64: dts: rockchip: Fix vccio4-supply on rk3566-pinetab2
-9c16e4d216d8103a8178bbe070eb21f779f190c0 arm64: defconfig: Fix V3D deferred probe timeout
-3d1c795bdef43363ed1ff71e3f476d86c22e059b ARM: dts: BCM53573: Fix address of Luxul XAP-1440's Ethernet PHY
-997c06330fd5c2e220b692f2a358986c6c8fd5a2 reset: imx8mp-audiomix: Fix bad mask values
-a7da9c6a2fc08b6ad1a2e9aebbb14bcc59320374 arm64: dts: broadcom: Assign clock rates in eth node for RPi5
-5e44c5a2cc84bed6b92cdfd9c567fcdb9f792604 arm64: dts: broadcom: bcm2712: rpi-5: Add ethernet0 alias
-a59e927ff46a967f84ddf94e89cbb045810e8974 arm64: dts: rockchip: Fix USB power enable pin for BTT CB2 and Pi2
-aaf46c6a6df6052881c2e75cba65aeb6f1cfa88a tee: <uapi/linux/tee.h: fix all kernel-doc issues
-264152a97edf9f1b7ed5372e4033e46108e41422 arm64: dts: rockchip: drop reset from rk3576 i2c9 node
-baa18d577cd445145039e731d3de0fa49ca57204 arm64: dts: rockchip: disable HS400 on RK3588 Tiger
-b5414520793e68d266fdd97a84989d9831156aad arm64: dts: rockchip: fix PCIe 3.3V regulator voltage on orangepi-5
-3e40c919816d56ec877c90f61522d6bc2d34c398 Merge tag 'tegra-for-6.18-arm64-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
-dc00a9fea282d325edb58977062f043c94e23c7d Merge tag 'aspeed-6.18-fixes-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
-64bdb49f2dc928d20b48b19380354d885bbc9de7 Merge tag 'memory-controller-drv-fixes-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into arm/fixes
-ec0ca4be116ad7efb08cd23acc1ff29b04d9cf52 MAINTAINERS: Update Krzysztof Kozlowski's email
-f4f012b0ee1d401adfc85cbd5dacd6adf35004c4 Merge tag 'imx-fixes-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-020e792ca39b516ab1cbec757641491735d7d696 Merge tag 'arm-soc/for-6.18/defconfig-arm64-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
-7b52117eea0c58e53d973429b25414985d70fb1b Merge tag 'arm-soc/for-6.18/devicetree-fixes-part2' of https://github.com/Broadcom/stblinux into arm/fixes
-c3216f1d62e17c60d323aaa39e57ce9e5226def7 Merge tag 'reset-fixes-for-v6.18' of https://git.pengutronix.de/git/pza/linux into arm/fixes
-4e08ec0054a96875f74dd32631575e5778bede03 Merge tag 'arm-soc/for-6.18/devicetree-arm64-fixes-v2' of https://github.com/Broadcom/stblinux into arm/fixes
-124c98b10001a35928a379593c7aacb3cbef6659 Merge tag 'tee-fix-for-v6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/jenswi/linux-tee into arm/fixes
-c10519c8c88629e3e0e7f822c67e5286eb97c836 Merge tag 'v6.18-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-7a601324ac9828468291151d220edb47a6a82449 MAINTAINERS: sync omap devicetree maintainers with omap platform
-23cb64fb76257309e396ea4cec8396d4a1dbae68 Merge tag 'soc-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+59c101ad56d34ae7962eb222c40eba8dac10d540 amdgpu: add vce1 firmware
+72eabbcf8945ca4300ac7a318fbb5957f9e47de0 amdgpu: update aldebaran firmware
+6622157825564d2f11a644eebb7cb6beff8776d1 amdgpu: update dimgrey cavefish firmware
+2e749805f26bfcbc4ccf9ef2837064ef4232ff5f amdgpu: update beige goby firmware
+df7ad95b388bf1408097d48cd0ad01fe651e2f5b amdgpu: update GC 11.0.1 firmware
+7f4f67696c51e713ecd358f25e35b93c4c087e34 amdgpu: update PSP 13.0.4 firmware
+cf102ce55053617d58e3c8aad7947990970f820c amdgpu: update VCN 4.0.2 firmware
+1c5716794ac6bb25c20852f7cbb2d56aae43f301 amdgpu: update GC 11.5.0 firmware
+bafad280328cc4238b25003a5260dce6516bdfa8 amdgpu: update PSP 14.0.0 firmware
+e6d6584a618ab600434975e00e3952b56230d460 amdgpu: update VCN 4.0.5 firmware
+e281c8286079630e558243b3ef4eedabfd3f6f8c amdgpu: update GC 11.0.4 firmware
+4f77f6c847761a6b21ead76b63945bdc24c085da amdgpu: update PSP 13.0.11 firmware
+85173cf441ec93d8947ec7ddcdd1648a720dcf8d amdgpu: update GC 11.5.1 firmware
+77e84ba0b2dbb2bd70c6f0f75ceb484c2801eda8 amdgpu: update PSP 14.0.1 firmware
+d9f867fa205b1fee4c408da66a4270f41a9eb5e1 amdgpu: update VCN 4.0.6 firmware
+86faa583fbdb956bc8d216b940ef87da1f620d83 amdgpu: update GC 9.4.3 firmware
+e378955cf3ed48d68402f3aa14a51b3ae6584cef amdgpu: update PSP 13.0.6 firmware
+8f041792d7234c8f51f495ff019a2f5f7b646701 amdgpu: update SDMA 4.4.2 firmware
+522d9e12207bb714f20135b06bddf7bcf0227054 amdgpu: update VCN 4.0.3 firmware
+2f28317f7e3923305a151489948278a1061d97b5 amdgpu: update green sardine firmware
+71857dd04b143f44d39cbbb194d5fb384d1aa138 amdgpu: update GC 11.5.2 firmware
+5176cb313398955413a607a1becb139253f65d14 amdgpu: update PSP 14.0.4 firmware
+1b6afb6a7efbde44539e4fe9cb8c910369ee8ef7 amdgpu: update GC 11.5.3 firmware
+ae59315f6c03bd5fc947f3eecdf21356b9fe555c amdgpu: update PSP 14.0.5 firmware
+7cd8bd09ad5c07bac00f97aa7994929fc390d92b amdgpu: update GC 9.4.4 firmware
+e092a40e7f6d7decc7937ca4533221ebe101b77e amdgpu: update PSP 13.0.14 firmware
+4d69373e4f8d6f8ee8847717dad2381477ef8198 amdgpu: update GC 9.5.0 firmware
+60456ab4b07532dc39b40eaadaa98e04c73e58ba amdgpu: update PSP 13.0.12 firmware
+8f25606de7ccfe2082581721e6c4eadce7fbdbdd amdgpu: update VCN 5.0.1 firmware
+7b7e771fb2f7db060b268f26d5392041ac205f07 amdgpu: update navi10 firmware
+649d7fdf1d4ed5e34384a15905028284d37cacbf amdgpu: update navi12 firmware
+ea80880af0ed7123da7be72ca202fa1f484bf76d amdgpu: update navi14 firmware
+fcc1130d0510b15f4833481a6ca5dd43da8b8910 amdgpu: update sienna cichlid firmware
+87eae0321d6d15ea25814e8d610b7b89330fa30a amdgpu: update navy flounder firmware
+c4f4863f7db065ebb2bb5398b10d34ae35f2725f amdgpu: update GC 11.0.0 firmware
+4567a327551fbb562bec3afa0b1ca342ca8e85cf amdgpu: update PSP 13.0.0 firmware
+37e6b3808abf819ce67bc729e4fc5a10585e6f9f amdgpu: update SMU 13.0.0 firmware
+fff12585de36b62744570b0d3d923cae05a980ca amdgpu: update VCN 4.0.0 firmware
+de657c55c334ab5e3a7339b19913dc23e00ad401 amdgpu: update PSP 13.0.0 kicker firmware
+51df8d90d0b668efb2d4358b89302445c2d5db05 amdgpu: update smu 13.0.0 kicker firmware
+e063d1e8fec5f5c5b87ef40d590b805851faafd2 amdgpu: update GC 11.0.3 firmware
+2c961a06a4860af956c6c82dad07c33c90df4109 amdgpu: update PSP 13.0.10 firmware
+e54655337b9f96a55705165cb40e204ea2a6778e amdgpu: update SDMA 6.0.3 firmware
+5bdf63c32ed9b41ff5f0f7f525408c584b4e0d44 amdgpu: update SMU 13.0.10 firmware
+870a03682058b1baf72de88ea6f067c5f3c8fe44 amdgpu: update GC 11.0.2 firmware
+65e62c306034e6080fb865f87ac89a8c236384fd amdgpu: update PSP 13.0.7 firmware
+e2ce9e78f0d63581644bc6504db8c246415c1448 amdgpu: update smu 13.0.7 firmware
+e961005571127c5a39929c617c7db3367b795ad0 amdgpu: update VCN 4.0.4 firmware
+b2fdc1bd241e2c5a2af51effcf810e232a7bccae amdgpu: update GC 12.0.0 firmware
+c3c6345875f18028c01829ac6f2a70f0b448e094 amdgpu: update PSP 14.0.2 firmware
+4a2eda3fe051289787e9ad50072aa405d34fd5be amdgpu: update SMU 14.0.2 firmware
+90e45a48f8419c7754d443bd0ff6519f85c2c09a amdgpu: update GC 12.0.1 firmware
+d714bc8d2e6144d574e53816c303d8d4d19bb176 amdgpu: update PSP 14.0.3 firmware
+b8ee4087b3534bcde9012961331fede56fcb720a amdgpu: update SMU 14.0.3 firmware
+69c122001d455e1b66df489de0303dfad0de08ae amdgpu: update VCN 5.0.0 firmware
+aaa7079598fa871acb7cd6dde9d01d12af607bad amdgpu: update GC 10.3.6 firmware
+3719d638b955be575f7730a85f75171e1998f8b2 amdgpu: update PSP 13.0.5 firmware
+4c44a08fa5bcffa26891eb4362fc2e281e39b1a9 amdgpu: update VCN 3.1.2 firmware
+96e217e08b13fabe5b721c0a859ef27d5dd0968c amdgpu: update yellow carp firmware
+f7e13466f3cb56b0e3a00d66b095fb5e121d7b29 amdgpu: update renoir firmware
+1e069e319b1d24aefb6707ed5608160d6bd55a05 amdgpu: update vangogh firmware
+a58d54daedbb92cbe400ba2cae784a7cd113e497 amdgpu: update vega10 firmware
+42ea1f79b1da7f770f9eced1252343ef7aea769e amdgpu: update vega12 firmware
+9aa00eca20c4e0ede90b919a520dc0102eede810 amdgpu: update vega20 firmware
+fe13aa9b983014c27d5074230e2616be001629d9 Merge branch 'robot/pr-0-1763574314' into 'main'
 
---===============2954248918198948933==--
+--===============8558433175974584853==--
