@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Wed, 19 Nov 2025 20:14:44 -0000
-Message-Id: <176358328490.14518.12258076339603624064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 19 Nov 2025 20:20:11 -0000
+Message-Id: <176358361103.20681.5406117319558173631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-user: jarkko
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 3139cbe9890cb60d0b5f75afd4e5665513b54538
-    new: 63fec2dd309e8c48e30c6762e53a354279063536
+  - ref: refs/heads/master
+    old: 4aa24b0639dd5faf1d08c446d7fed5fa99336c66
+    new: be870006283babe065fd987bc1eb3d519ba58dd0
     log: |
-         2ae950f02b3be29e63bfac553193bf928a01be52 feat: VtpmPolicy
-         63fec2dd309e8c48e30c6762e53a354279063536 refactor: store persistent map at construction
+         be870006283babe065fd987bc1eb3d519ba58dd0 test/resize-rings: ensure T_EXIT_SKIP is properly passed back
          
