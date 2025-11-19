@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Wed, 19 Nov 2025 17:00:18 -0000
-Message-Id: <176357161842.4042292.6766048518941783356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 19 Nov 2025 17:01:26 -0000
+Message-Id: <176357168658.4042856.15921873759011722955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/sysdarch
-user: jarkko
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/main
-    old: 9cff6a10b4ab625008f593f78fde5f357bb82228
-    new: 01986390de0f704c542c07dd2831a0de583fe773
+  - ref: refs/heads/for-next
+    old: 0debe6461571e905b3b2d05c610c53c82e0217e2
+    new: 5109461bc5c715abf9b6bb6e85fd4b6a359a9a25
     log: |
-         01986390de0f704c542c07dd2831a0de583fe773 Initial commit
+         5109461bc5c715abf9b6bb6e85fd4b6a359a9a25 Merge branch 'rproc-next' into for-next
          
