@@ -1,50 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============5724917464580263504=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 19 Nov 2025 11:27:15 -0000
-Message-Id: <176355163517.3688415.4458042089843524667@gitolite.kernel.org>
-
---===============5724917464580263504==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 19 Nov 2025 11:27:44 -0000
+Message-Id: <176355166466.3689087.8763158059054509289@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.19
-    old: bd79452b39c21599e2cff42e9fbeb182656b6f6a
-    new: d9813cd23d5a7b254cc1b1c1ea042634d8da62e6
+  - ref: refs/heads/for-next
+    old: 58c797ae24eec9556589827dc5371fde5b199cdb
+    new: 17be8ffa108effe174cc1f9425dc98addfc94180
     log: |
          d9813cd23d5a7b254cc1b1c1ea042634d8da62e6 spi: sophgo: Fix incorrect use of bus width value macros
+         17be8ffa108effe174cc1f9425dc98addfc94180 Merge remote-tracking branch 'spi/for-6.19' into spi-next
          
-
---===============5724917464580263504==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1763551704 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1763551632-65691944557ba9636b2d8939e2c5eb68b694a828
-
-bd79452b39c21599e2cff42e9fbeb182656b6f6a d9813cd23d5a7b254cc1b1c1ea042634d8da62e6 refs/heads/spi-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkdqdgACgkQJNaLcl1U
-h9BCWAf+NI+LeTvNgyXvc4Ppz3z2laQoFBaZuWiJ0BuvvuWGRviQXZDBNKBlKSth
-ddKV3zGXYe+m/8/lRYhHSr7sw9zK65Wk0i4OLvNKRg7qdIm3ITtzDlYjMhR+t7U7
-3Dsb6aM3mSpRdNqxt4of1xqUmA12EK0sCMU/Au02XdkhJcyZ5vhq8/GjA/BLFSZP
-Oe+fSIRbp8IFxdW38bijDqCgUqcUax8M9TzZBEwZ62RGzZCCVasSfYBn09G/Ce9e
-I8DgbRRgDNTx4DVgTyBkcbVdoCXSaqwuLKKxRglssLygfKLKs8gepskMHxsk+T9v
-C7/RgpjpIC+PxQAQkef3MNlLyHZxbw==
-=cDp9
------END PGP SIGNATURE-----
-
---===============5724917464580263504==--
