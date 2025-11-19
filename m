@@ -1,51 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7104425690518299918=="
+Content-Type: multipart/mixed; boundary="===============3508263186893332699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 19 Nov 2025 12:48:38 -0000
-Message-Id: <176355651828.3760450.18028853018147852747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 19 Nov 2025 12:51:15 -0000
+Message-Id: <176355667529.3764056.3281694795715660920@gitolite.kernel.org>
 
---===============7104425690518299918==
+--===============3508263186893332699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: 48e3694ae7fae347c1193c84f384f4ea41086075
-    new: ace38521705bd79a47e5f46b6bae6dc044f3cfdc
-    log: revlist-48e3694ae7fa-ace38521705b.txt
+  - ref: refs/heads/for-next
+    old: 609b3c052b3601611afa4045049c2b63e3b6038a
+    new: 37072829b4843b0e7603384cb4b9c6c555c0ecd4
+    log: revlist-609b3c052b36-37072829b484.txt
 
---===============7104425690518299918==
+--===============3508263186893332699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48e3694ae7fa-ace38521705b.txt
+Content-Disposition: attachment; filename=revlist-609b3c052b36-37072829b484.txt
 
-bccd5937447f8a2c9db0e4a92e5ecb641b8ce7de lib/vsprintf: Add specifier for printing struct timespec64
-46ac6f51e55caa0ae6cf0f4e73d3ab812f9555c4 ceph: Switch to use %ptSp
-98e41fb0eccc7328cd9e189ba1236127369b11f0 libceph: Switch to use %ptSp
-c6e049b6212b9af146074a10bb8949437bd4e4ed dma-buf: Switch to use %ptSp
-fbd3aad6e034e90ac99661946b8594a995b8a23f drm/amdgpu: Switch to use %ptSp
-9d2a48c3a7029532294d3c5d32a4791ea737aa0f drm/msm: Switch to use %ptSp
-083364667d4e24a04e375b8c5ff22b4cb674aced drm/vblank: Switch to use %ptSp
-51d3654916ccc65a2d217ec7c6e68131a2703772 drm/xe: Switch to use %ptSp
-81e3db7ead99564169f975b05b96d4a2149dcf31 e1000e: Switch to use %ptSp
-64acc20ec9c743be6f0376a7c6635a5130f2e3c4 igb: Switch to use %ptSp
-0cfc283d18bc5ca215ed2131bd3dfe4ef6c66585 ipmi: Switch to use %ptSp
-5a1df7219d89cf53ca44688ac253e392615f0d15 media: av7110: Switch to use %ptSp
-12158d6747de1573afaabef97ea56013279292bb mmc: mmc_test: Switch to use %ptSp
-b8edf4fbb285b7adf83f4c25e779d81c33238c3a net: dsa: sja1105: Switch to use %ptSp
-3bc02fe0b82acaf660513789b9ae081a71cd4166 PCI: epf-test: Switch to use %ptSp
-b1e7286eeef33ac8a0b686230c250c416b36d200 pps: Switch to use %ptSp
-4e7c8ab42e19663b426b8e091f210be26b18ca70 ptp: ocp: Switch to use %ptSp
-ed40532ccdfb4fe8762a7844643d9edff1f314fd s390/dasd: Switch to use %ptSp
-d710741f833fec1b7e9fcbf37e9b25590e65134d scsi: fnic: Switch to use %ptSp
-7b040d45718e8605906124f1e2c9537223b99890 scsi: snic: Switch to use %ptSp
-ace38521705bd79a47e5f46b6bae6dc044f3cfdc tracing: Switch to use %ptSp
+960f9821a3dcd8091419f8e782dc48f2aeaf066e btrfs: disable various operations on encrypted inodes
+895d0859f57a8b60b05670768999197476a60338 btrfs: disable verity on encrypted inodes
+c6ff58650e8db132719916eecf8170313481dc82 btrfs: add orig_logical to btrfs_bio for encryption
+08972de7889750a4c10ca39a54ef240ccf6ca840 btrfs: don't rewrite ret from inode_permission
+07ddb2dd1b83deedf6cac5e542d65d5b4520dc90 btrfs: don't search back for dir inode item in INO_LOOKUP_USER
+b3c9f757a56654961b2f752dd17a9ba506fd6a1a btrfs: === misc-next on b-for-next ===
+f1ca3e9f78da181315f860a82ba91b946891c8ee btrfs: fallback to buffered IO if the data profile has duplication
+2f670584136925eef7ddbee040338dd55b2fe29c Merge branch 'misc-6.18' into for-next-current-v6.17-20251119
+7321a3b69f960b88537065a8acead9c37895c9aa Merge branch 'b-for-next' into for-next-next-v6.18-20251119
+5592e62551fee673dbde2dcef43c39f38fecef2b Merge branch 'misc-next' into for-next-next-v6.18-20251119
+3f2c707f57020071ddd88c5bcb4af0feaa29cf77 Merge branch 'for-next-current-v6.17-20251119' into for-next-20251119
+37072829b4843b0e7603384cb4b9c6c555c0ecd4 Merge branch 'for-next-next-v6.18-20251119' into for-next-20251119
 
---===============7104425690518299918==--
+--===============3508263186893332699==--
