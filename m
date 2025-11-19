@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 19 Nov 2025 02:35:43 -0000
-Message-Id: <176351974323.3215827.4414961280622543571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 19 Nov 2025 02:42:58 -0000
+Message-Id: <176352017893.3220870.3929621408567843436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.19/io_uring
-    old: f8f115baae2d83e7b5931114d294d8b7fc8f9642
-    new: f779ac0b8784858c3700f6660d606f436c62157a
+  - ref: refs/heads/main
+    old: 616d8604392e25223fc2c0043c4744d4688b4890
+    new: 1064d521d177023358b3b516f250faa714415a6d
     log: |
-         f779ac0b8784858c3700f6660d606f436c62157a io_uring/register: use correct location for io_rings_layout
-         
-  - ref: refs/heads/for-next
-    old: ca289ffd261b82b4fd0c4373c38f0be5d8b621c0
-    new: 2ee75e816e13927fb7144e9f4da465ecbffa6303
-    log: |
-         f779ac0b8784858c3700f6660d606f436c62157a io_uring/register: use correct location for io_rings_layout
-         2ee75e816e13927fb7144e9f4da465ecbffa6303 Merge branch 'for-6.19/io_uring' into for-next
+         4abe51dba69f1d72a13ba3b5d0dcc237cdd71404 tools: ynl: Add MAC address parsing support
+         1064d521d177023358b3b516f250faa714415a6d netlink: specs: support ipv4-or-v6 for dual-stack fields
          
