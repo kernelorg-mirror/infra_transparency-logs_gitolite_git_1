@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 19 Nov 2025 09:18:59 -0000
-Message-Id: <176354393953.3557976.3297677628733960342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-device
+Date: Wed, 19 Nov 2025 09:23:00 -0000
+Message-Id: <176354418050.3561807.12888409511668763923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-device
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 4482d5eb78171a8a7019e7767c64547a413a3c52
-    new: f3cc29e60563eabb4bd662071fae3cf134aa53bd
+  - ref: refs/heads/main
+    old: 265d1d315f80d2ef1d510885ea6e75b17bd1932a
+    new: 97f66f9bf4b290afe2dc12cccb7fab583f49139f
     log: |
-         376c18f30e226854062ff0a6eebc6af4ea62456b lib/vsprintf: Deduplicate special hex number specifier data
-         f3cc29e60563eabb4bd662071fae3cf134aa53bd Merge branch 'for-6.19' into for-next
+         97f66f9bf4b290afe2dc12cccb7fab583f49139f refactor: refine API
          
