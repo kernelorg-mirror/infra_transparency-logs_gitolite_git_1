@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Wed, 19 Nov 2025 08:49:38 -0000
-Message-Id: <176354217826.3531671.15646917393466781462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 19 Nov 2025 08:50:00 -0000
+Message-Id: <176354220086.3532070.16059956906705914464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-user: jarkko
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/main
-    old: e720e34ee8821b73b25cb11a7db32904f2716cf6
-    new: 12a386da2e551e8e1a039088c6554b331f91d071
+  - ref: refs/heads/for-linus-6.19
+    old: 6a23ae0a96a600d1d12557add110e0bb6e32730c
+    new: a73d4a055622d0973e371382b16a13f9795ffec7
     log: |
-         12a386da2e551e8e1a039088c6554b331f91d071 perf(handle): avoid string allocations
+         6fec913ff1c9811e35e1bb64779efce9bb41b7ec drivers/xen/xenbus: Simplify return statement in join()
+         a73d4a055622d0973e371382b16a13f9795ffec7 drivers/xen/xenbus: Replace deprecated strcpy in xenbus_transaction_end
          
