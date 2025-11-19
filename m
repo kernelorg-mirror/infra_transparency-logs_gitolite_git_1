@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Wed, 19 Nov 2025 20:29:44 -0000
-Message-Id: <176358418488.28144.3849709669546761662@gitolite.kernel.org>
+Date: Wed, 19 Nov 2025 20:30:39 -0000
+Message-Id: <176358423907.30344.17634751188471296492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 63fec2dd309e8c48e30c6762e53a354279063536
-    new: bdde13719ed3f23b2de0e4558fe9cc52a1efea9e
+    old: bdde13719ed3f23b2de0e4558fe9cc52a1efea9e
+    new: 782f73bbe8907ad50c132739c34aa41fc68eb29f
     log: |
-         bdde13719ed3f23b2de0e4558fe9cc52a1efea9e feat(command): populate TPM2_PolicySecret from cache state
+         782f73bbe8907ad50c132739c34aa41fc68eb29f feat(command): populate TPM2_PolicySecret from cache state
          
