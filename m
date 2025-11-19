@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1308777145085768962=="
+Content-Type: multipart/mixed; boundary="===============2710999939170924732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 19 Nov 2025 03:36:24 -0000
-Message-Id: <176352338473.3267406.9457930854273051926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 19 Nov 2025 03:36:53 -0000
+Message-Id: <176352341370.3267815.13044041969485242749@gitolite.kernel.org>
 
---===============1308777145085768962==
+--===============2710999939170924732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 187dac290bfd0741b9d7d5490af825c33fd9baa4
     new: fe4d0dea039f2befb93f27569593ec209843b0f5
     log: revlist-187dac290bfd-fe4d0dea039f.txt
-  - ref: refs/heads/stable
-    old: e7c375b181600caf135cfd03eadbc45eb530f2cb
-    new: 8b690556d8fe074b4f9835075050fba3fb180e93
-    log: |
-         0f559cd91e37b7978e4198ca2fbf7eb95df11361 KVM: arm64: Finalize ID registers only once per VM
-         85592114ffda568b507bc2b04f5e9afbe7c13b62 KVM: arm64: VHE: Compute fgt traps before activating them
-         5bebe8de19264946d398ead4e6c20c229454a552 mm/huge_memory: Fix initialization of huge zero folio
-         b82ebaf298643cad497ef8daf263c0652d486eec Merge tag 'kvmarm-fixes-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-         3fa05f96fc08dff5e846c2cc283a249c1bf029a1 KVM: SVM: Fix redundant updates of LBR MSR intercepts
-         8b690556d8fe074b4f9835075050fba3fb180e93 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-         
-  - ref: refs/tags/next-20250819
-    old: 73df59e80dc7cab098b4581b89459d18f8410c7d
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20251119
     old: 0000000000000000000000000000000000000000
     new: 404d8266c9be375f6dc2ba7ba57b06204bc2b3fa
 
---===============1308777145085768962==
+--===============2710999939170924732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1068,4 +1054,4 @@ e53e9fb2c58eee22b9cbe1e65a425b5f54f44d79 Merge branch 'caps-next' of https://git
 0fea5b2155dc2a2e0d77a622091fa4a0afc9d001 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 fe4d0dea039f2befb93f27569593ec209843b0f5 Add linux-next specific files for 20251119
 
---===============1308777145085768962==--
+--===============2710999939170924732==--
