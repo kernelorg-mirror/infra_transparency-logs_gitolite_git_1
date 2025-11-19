@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 19 Nov 2025 20:40:12 -0000
-Message-Id: <176358481247.40364.1736769825413881961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Wed, 19 Nov 2025 20:42:08 -0000
+Message-Id: <176358492888.41248.17373466731823732355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/heads/dmabuf-vfio-v9
-    old: db3931096cdbf1eb3a9613cee5f6fbb6c9298ea1
-    new: 52403092d18a527f576f28d1877b667d2de7d18e
+  - ref: refs/heads/master
+    old: 6a1714b28bc97c1b871984d15858986803128ab3
+    new: f7af9eda61e9543948115eab2216e9a22c0e467c
     log: |
-         de0f8e25c84459abaab2c04148d637c44762340b PCI/P2PDMA: Document DMABUF model
-         f5ad2cd2594543a3f272988c34946424024e8343 dma-buf: provide phys_vec to scatter-gather mapping routine
-         d71334046ae0b53f0dc9b178ee88efc39ea839f1 vfio: Export vfio device get and put registration helpers
-         bfb70682ee148ba4c99b19737ab85ffe7b8aad90 vfio/pci: Share the core device pointer while invoking feature functions
-         204759d7bd88dfbaafb981f9983c9870d6ec15f8 vfio/pci: Enable peer-to-peer DMA transactions by default
-         942abe18b027bdb81eb3e16b6e40fd75ccce49ec vfio/pci: Add dma-buf export support for MMIO regions
-         d6bfb3e5f66537fb1945d4e1ad943f5c27ff18ba vfio/nvgrace: Support get_dmabuf_phys
-         da4efea382a47920344fe8cfafec9b787722c453 vfio: selftests: Add DMABUF test
-         52403092d18a527f576f28d1877b667d2de7d18e vfio/pci: Prevent exporters with pinned interface
+         569db584d7b53060cd18c5e375b5e8b02231ffbe include/, share/: Remove a2s(), a2u(), str2s(), str2u()
+         995da8ed9dc1b559b3ac57667646253f6614ef1e include/, src/: Implement str2*() as macros
+         256b577cc7aa05896de5460e78ab5b12db44d40f include/, share/, src/: Reduce headers
+         13e59bfb9571123de4fa4f940603dc51260540a5 include/a2i/str2i.h: Add missing include
+         c16d407601d7d1f5bf89dcd296a99a40a1b85c8e include/a2i/strtoi/: Add external visibility
+         ba5f9169450916ddb3cd7f66ad8e7f522c8c2a15 include/, src/: a2i_strto*(): const-qualify $1
+         39ab905b42b6d570568e867a6eb1753379325273 man/man3/a2s.3: Undocument *_nc() and *_c() functions
+         f7af9eda61e9543948115eab2216e9a22c0e467c include/, src/: Reimplement a2i() with a statement expression
          
