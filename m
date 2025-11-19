@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 19 Nov 2025 10:40:42 -0000
-Message-Id: <176354884286.3628888.3023832819375745913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 19 Nov 2025 10:46:49 -0000
+Message-Id: <176354920929.3633466.6301349133725799899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: a5d51e02d6fa550aed4b31ed67d230e82a771ed5
-    new: cda323dbda76600bf9761970d58517648f0de67d
+  - ref: refs/heads/linux-6.12.y-cip
+    old: b3b7da3e4cc2c45898146ce9f79147f0ae820e4c
+    new: adf678773b7aa2dd7512e2ee1862bf56f27cc5c2
     log: |
-         cda323dbda76600bf9761970d58517648f0de67d pwm: bcm2835: Make sure the channel is enabled after pwm_request()
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: a5d51e02d6fa550aed4b31ed67d230e82a771ed5
-    new: cda323dbda76600bf9761970d58517648f0de67d
-    log: |
-         cda323dbda76600bf9761970d58517648f0de67d pwm: bcm2835: Make sure the channel is enabled after pwm_request()
+         adf678773b7aa2dd7512e2ee1862bf56f27cc5c2 arm64: dts: renesas: Add CN15 eMMC and SD overlays for RZ/V2H and RZ/V2N EVKs
          
