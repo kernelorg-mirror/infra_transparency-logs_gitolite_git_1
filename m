@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Wed, 19 Nov 2025 14:55:04 -0000
-Message-Id: <176356410414.3874751.10873944928568423007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 19 Nov 2025 14:55:08 -0000
+Message-Id: <176356410855.3874965.8763632669614445027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/kdevops
-    old: 9b3c17a949481b2407a2556c194afabf27f2d9b6
-    new: 77bdb5bbd04c1d8bac41d01d55e33991a3169d9b
+  - ref: refs/heads/master
+    old: 1819d1f7c1f48e4d394400f471557faecc9f2517
+    new: 395be82a59e763728520e513c0a449d817da25ed
     log: |
-         77bdb5bbd04c1d8bac41d01d55e33991a3169d9b generic: add tests for file delegations
+         395be82a59e763728520e513c0a449d817da25ed Bluetooth: btintel_pcie: Introduce HCI Driver protocol
          
