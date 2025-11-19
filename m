@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Wed, 19 Nov 2025 20:42:08 -0000
-Message-Id: <176358492888.41248.17373466731823732355@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5261640169486936528=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 19 Nov 2025 20:42:41 -0000
+Message-Id: <176358496138.41785.3623370742005676324@gitolite.kernel.org>
+
+--===============5261640169486936528==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6a1714b28bc97c1b871984d15858986803128ab3
-    new: f7af9eda61e9543948115eab2216e9a22c0e467c
+    old: 3826fb7f62f14b792ae931643e14fdcf6c5011a9
+    new: 46919aac69f3a17fe4670d995440341466a14c66
     log: |
-         569db584d7b53060cd18c5e375b5e8b02231ffbe include/, share/: Remove a2s(), a2u(), str2s(), str2u()
-         995da8ed9dc1b559b3ac57667646253f6614ef1e include/, src/: Implement str2*() as macros
-         256b577cc7aa05896de5460e78ab5b12db44d40f include/, share/, src/: Reduce headers
-         13e59bfb9571123de4fa4f940603dc51260540a5 include/a2i/str2i.h: Add missing include
-         c16d407601d7d1f5bf89dcd296a99a40a1b85c8e include/a2i/strtoi/: Add external visibility
-         ba5f9169450916ddb3cd7f66ad8e7f522c8c2a15 include/, src/: a2i_strto*(): const-qualify $1
-         39ab905b42b6d570568e867a6eb1753379325273 man/man3/a2s.3: Undocument *_nc() and *_c() functions
-         f7af9eda61e9543948115eab2216e9a22c0e467c include/, src/: Reimplement a2i() with a statement expression
+         46919aac69f3a17fe4670d995440341466a14c66 Add 484E60985E24A94E (Thomas Glozar)
          
+
+--===============5261640169486936528==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1763585032 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1763584960-d35b336b8ed33eb51d31ea56aafcdb3f4f9a208a
+
+3826fb7f62f14b792ae931643e14fdcf6c5011a9 46919aac69f3a17fe4670d995440341466a14c66 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaR4sCAAKCRC2xBzjVmSZ
+bGp3AQCHIcpc1D2tHJ1Veo8CW9VwfCepUKeCPKJBCzMRWHOq/wEAnhqjDDVFgAxh
+h6arSg///n5oKG1cO6qcwyYQLIJ/aQ4=
+=lszk
+-----END PGP SIGNATURE-----
+
+--===============5261640169486936528==--
