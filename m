@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
-Date: Wed, 19 Nov 2025 16:50:57 -0000
-Message-Id: <176357105793.4033339.4330803594457794111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 19 Nov 2025 16:51:16 -0000
+Message-Id: <176357107614.4033604.728033635541368573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pjw/riscv
-user: pjw
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/experimental/cfi-v23-pjw
-    old: 0000000000000000000000000000000000000000
-    new: 2afd5f9c829473bd302cd3d9fdbbb8986e2318b5
+  - ref: refs/heads/rpmsg-next
+    old: 7bf986927f318138ba2b91a423243640cf9e17b7
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
