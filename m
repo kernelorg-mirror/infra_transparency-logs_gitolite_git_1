@@ -1,39 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 19 Nov 2025 16:16:33 -0000
-Message-Id: <176356899392.3999829.672802983726314456@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0070536668111393781=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 19 Nov 2025 16:19:19 -0000
+Message-Id: <176356915939.4001640.13937402729848994954@gitolite.kernel.org>
+
+--===============0070536668111393781==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/for-linus
-    old: c83fc13960643c4429cd9dfef1321e6430a81b47
-    new: 5719a189c9345977c16f10874fd5102f70094d8f
-    log: |
-         5719a189c9345977c16f10874fd5102f70094d8f ALSA: hda/cirrus fix cs420x MacPro 6,1 inverted jack detection
-         
-  - ref: refs/heads/for-next
-    old: 9c3af1b2f73cc72f5035bc9372c18b3780e1f258
-    new: ad5f82ab04bcad56de85723bdd48e44b70a16948
-    log: |
-         945865a0ddf3e3950aea32e23e10d815ee9b21bc ALSA: hda/tas2781: fix speaker id retrieval for multiple probes
-         18a4895370a79a3efb4a53ccd1efffef6c5b634e ALSA: hda/realtek: Add match for ASUS Xbox Ally projects
-         ad5f82ab04bcad56de85723bdd48e44b70a16948 ALSA: pcmtest: Replace deprecated strcpy with strscpy_pad in setup_patt_bufs
-         
-  - ref: refs/heads/master
-    old: add9dce4b5e5885fd08131a2c3b3906e54b152a3
-    new: fa52ce9b9ac9ab3fa7484d0cd6ad8bf6005caa85
-    log: |
-         945865a0ddf3e3950aea32e23e10d815ee9b21bc ALSA: hda/tas2781: fix speaker id retrieval for multiple probes
-         18a4895370a79a3efb4a53ccd1efffef6c5b634e ALSA: hda/realtek: Add match for ASUS Xbox Ally projects
-         2d936c0836a7d4c17ee287861a3bc89184aa99e3 Merge branch 'for-next'
-         5719a189c9345977c16f10874fd5102f70094d8f ALSA: hda/cirrus fix cs420x MacPro 6,1 inverted jack detection
-         ec5024604263bd975441a3699c0423c87852b516 Merge branch 'for-linus'
-         ad5f82ab04bcad56de85723bdd48e44b70a16948 ALSA: pcmtest: Replace deprecated strcpy with strscpy_pad in setup_patt_bufs
-         fa52ce9b9ac9ab3fa7484d0cd6ad8bf6005caa85 Merge branch 'for-next'
-         
+  - ref: refs/heads/rproc-next
+    old: 5a3d530caab22c235c994b38a860549da04171a4
+    new: 6f880e7bd103c38d583326f176db8aae8c8b71c2
+    log: revlist-5a3d530caab2-6f880e7bd103.txt
+
+--===============0070536668111393781==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5a3d530caab2-6f880e7bd103.txt
+
+3003773ad67ace7c2a0394efdca122824c709dd5 remoteproc: imx_dsp_rproc: Simplify power domain attach and error handling
+36951036a725271826773e7feb852496b16dc38d remoteproc: imx_dsp_rproc: Use devm_rproc_add() helper
+412060242303d3c6aae55b1e0b7d040c30bd207d remoteproc: imx_dsp_rproc: Use devm_pm_runtime_enable() helper
+e819a62d52030a26205ec09cba8797b6dc987a87 remoteproc: imx_dsp_rproc: Use dev_err_probe() for firmware and mode errors
+8049dc7b631e33a42d8413fe48b043113afa914c remoteproc: imx_dsp_rproc: Drop extra space
+606e4811694a334fe8a1190a4e1d8e62d4c582df remoteproc: imx_dsp_rproc: Use start/stop/detect_mode ops from imx_rproc_dcfg
+66395eac5d557d76a599858f6b67f7bf8a84a005 remoteproc: imx_dsp_rproc: Move imx_dsp_rproc_dcfg closer to imx_dsp_rproc_of_match
+9f356d1277343861810c1e762742cf383b639a3a remoteproc: imx_dsp_rproc: Simplify IMX_RPROC_MMIO switch case
+d5eb4d512fb70a6c85bb5a1ec8c6b642f45c518f remoteproc: imx_dsp_rproc: Simplify IMX_RPROC_SCU_API switch case
+3f5c1277a9e947d251983042bf406405a35a52cc remoteproc: imx_dsp_rproc: Simplify IMX_RPROC_RESET_CONTROLLER switch case
+5c33a631a5780df70e2b392539a98e4a624cd752 remoteproc: imx_rproc: Remove enum imx_rproc_method
+6f880e7bd103c38d583326f176db8aae8c8b71c2 remoteproc: imx_dsp_rproc: Simplify start/stop error handling
+
+--===============0070536668111393781==--
