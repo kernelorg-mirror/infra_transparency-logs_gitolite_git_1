@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2632255410591276972=="
+Content-Type: multipart/mixed; boundary="===============8858617004313135921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 19 Nov 2025 11:39:47 -0000
-Message-Id: <176355238751.3700074.18021631747345356046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 19 Nov 2025 11:40:01 -0000
+Message-Id: <176355240141.3700437.5450046868234745977@gitolite.kernel.org>
 
---===============2632255410591276972==
+--===============8858617004313135921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6a23ae0a96a600d1d12557add110e0bb6e32730c
     log: revlist-e9a6fb0bcdd7-6a23ae0a96a6.txt
 
---===============2632255410591276972==
+--===============8858617004313135921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -394,4 +394,4 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
 
---===============2632255410591276972==--
+--===============8858617004313135921==--
