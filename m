@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7784912397948380032=="
+Content-Type: multipart/mixed; boundary="===============3419131808786241200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Thu, 20 Nov 2025 11:35:10 -0000
-Message-Id: <176363851095.824263.9614019825533198172@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 11:41:19 -0000
+Message-Id: <176363887961.829030.4552786596725530543@gitolite.kernel.org>
 
---===============7784912397948380032==
+--===============3419131808786241200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
   - ref: refs/heads/ctx-analysis/dev
-    old: 18a04506999f3ae390b014381ceaa7f6583723be
-    new: 2071dfd962f31a24b6ceb41c8aae1d053f73041e
-    log: revlist-18a04506999f-2071dfd962f3.txt
+    old: 2071dfd962f31a24b6ceb41c8aae1d053f73041e
+    new: 4f2932a894a1aa685d7540805c87a7dde1ee40de
+    log: revlist-2071dfd962f3-4f2932a894a1.txt
 
---===============7784912397948380032==
+--===============3419131808786241200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18a04506999f-2071dfd962f3.txt
+Content-Disposition: attachment; filename=revlist-2071dfd962f3-4f2932a894a1.txt
 
-3ab7fa917f77fed7f27624fe169fcb92d2d41fc2 compiler-context-analysis: Add infrastructure for Context Analysis with Clang
-1419f80d5b29a1a338a57faf9f120546db30a747 compiler-context-analysis: Add test stub
-bfc2be7bb44af4f9a6746f983af298f4152697ae Documentation: Add documentation for Compiler-Based Context Analysis
-60948625841a7b7f52040eb20b7eaf05debc68c0 checkpatch: Warn about context_unsafe() without comment
-917e3d48cd17129079328364f4653516578210d7 cleanup: Basic compatibility with context analysis
-bc2df3c0652f927b3f25c6b533df829d41214013 lockdep: Annotate lockdep assertions for context analysis
-f001fae0c3276191277ea3e7aca6f6245bf0eedd locking/rwlock, spinlock: Support Clang's context analysis
-9eb02b1963b3cd06e95dc796d40af8b8325fd4d4 compiler-context-analysis: Change __cond_acquires to take return value
-fdebcf87636b8da049cc78fb3ce382be95385316 locking/mutex: Support Clang's context analysis
-1f768eafdc8e0540051b22938eb3e1a02e6712be locking/seqlock: Support Clang's context analysis
-38ad5f0761a641ee2e0db591306bd2570597460f bit_spinlock: Include missing <asm/processor.h>
-b4a75efc2a764eb67aa92e63cc6a8b5e3da0d100 bit_spinlock: Support Clang's context analysis
-90620ada6745e265fbb1bf2c9308f703019243e4 rcu: Support Clang's context analysis
-311910f33284bb9143535e4d6db2dbf5a7000178 srcu: Support Clang's context analysis
-99df53736f1736e301c106149d15db8225422c00 kref: Add context-analysis annotations
-3f50fad4029602bc14fdc7e2e8df49ca089c3a59 locking/rwsem: Support Clang's context analysis
-b66f5028f1cc48455afab5544b7a7c935c5c6dae locking/local_lock: Include missing headers
-b4954b81cafe462681e197788fc65720185811bc locking/local_lock: Support Clang's context analysis
-b604b5cc971661de590b94530b3a187e7873b2ef locking/ww_mutex: Support Clang's context analysis
-e4b5dfa3837d1bcce0e85c8e9b2d01625ed539ef debugfs: Make debugfs_cancellation a context guard struct
-ecb58b94b6e2ccad625ba651c90032253df0e04f compiler-context-analysis: Remove Sparse support
-84898fbb9c7d30db6eb5c8a3df538a49e9693a2f compiler-context-analysis: Remove __cond_lock() function-like helper
-2b6bc59e75794361e01d05208aeb62f5f49702f0 compiler-context-analysis: Introduce header suppressions
-f4036141f156a1e931b5e52ae6919608dfdced0d compiler: Let data_race() imply disabled context analysis
-456e4d0efd98581958d568bcd84f676f3ca2c3a9 MAINTAINERS: Add entry for Context Analysis
-7599a763bff7a5d58ee20c6009b69440b8bdd0b6 kfence: Enable context analysis
-6eb5520216ebd8e8301ffeb90a155f24ee27606c kcov: Enable context analysis
-b9779b9a8f40a152581a336d81cd04d9bd7aa9b9 kcsan: Enable context analysis
-f5c68691afff0a2e71d322e773aa733cc53e9cab stackdepot: Enable context analysis
-47b054e924791749cb7682d75a44ae45e25ac92a rhashtable: Enable context analysis
-30cb6ea9ed4490ccbe6a7b321cf2871b2eeec381 printk: Move locking annotation to printk.c
-f313ecea803a10f798fdf47f0813abc46c6ebabd security/tomoyo: Enable context analysis
-2ae82d5084c72880c6a0d4c29501ebbf646a5a30 crypto: Enable context analysis
-2071dfd962f31a24b6ceb41c8aae1d053f73041e sched: Enable context analysis for core.c and fair.c
+600c8024bd4e3d6ed373078d4ff49e6eeb93be7a Documentation: Add documentation for Compiler-Based Context Analysis
+bd5766fdda797f64177f523c9c4b6d1540d79a3c checkpatch: Warn about context_unsafe() without comment
+5a3650569ec1a60f7b6435d3663197f5ca53452c cleanup: Basic compatibility with context analysis
+8703cbd80883ca452d80706dc795d6f52df2b108 lockdep: Annotate lockdep assertions for context analysis
+e837975ffe3b6edc2da2d9ec2301e27bc5bf4118 locking/rwlock, spinlock: Support Clang's context analysis
+2a6ee52d6e4ccd0dc04804e7e6a27319276e8861 compiler-context-analysis: Change __cond_acquires to take return value
+b301b99b3ff41fa9db50cae6e33e6f2b292427f0 locking/mutex: Support Clang's context analysis
+8cecb9a75a6fa65b25f9c2096e4e81eef2be69b9 locking/seqlock: Support Clang's context analysis
+8afcf627d7186b7b5bfbe46d48086526c647c24f bit_spinlock: Include missing <asm/processor.h>
+2b6e334acf7eed355244626a0b5d9127394594fa bit_spinlock: Support Clang's context analysis
+75403fe0eddf1be6b6b291831435e568a577a0ea rcu: Support Clang's context analysis
+ce3a7f47338dcdd40e1e5464e67cc63772ede6fa srcu: Support Clang's context analysis
+fa39c7f9cd9b3414e46e55a60d518c38ae0c72b9 kref: Add context-analysis annotations
+3decb861d329775a72d50115c8c4d3318997bd9d locking/rwsem: Support Clang's context analysis
+369bbb3fdc07618e1db04789d947a7c62b6230d3 locking/local_lock: Include missing headers
+ce1175f5efd2729d33b842360657a44ed7249516 locking/local_lock: Support Clang's context analysis
+0b94e0e1a3be9560a0347a4f2258128e29bc60eb locking/ww_mutex: Support Clang's context analysis
+c0d099c4cc58ac8b6bad9d00896fd3edf293f798 debugfs: Make debugfs_cancellation a context guard struct
+78271c26a72ac5437b70d7e0a54927da39f9c125 compiler-context-analysis: Remove Sparse support
+605068589d30a2f62fb03a7570bbe13d056114bc compiler-context-analysis: Remove __cond_lock() function-like helper
+792f127428ffa69842f64a4f9acd9f1ad210f7db compiler-context-analysis: Introduce header suppressions
+1aca072fd66ba519ab14ebda43cce06adb5efd43 compiler: Let data_race() imply disabled context analysis
+1880925af3630261233f39db6f8f8bd770db59ae MAINTAINERS: Add entry for Context Analysis
+5a34be8a8738df195270bf1b29b355876f276afe kfence: Enable context analysis
+21811acc9a9dce4232bdfd63425e88b26f2682a8 kcov: Enable context analysis
+c4fdc0022e6223bfcb4a024b0e76e4ba32f64793 kcsan: Enable context analysis
+2bbf5a157393be533204cfb0c746a195086eb518 stackdepot: Enable context analysis
+468df0c55ef05e240e4d82fabde46dc29865a27b rhashtable: Enable context analysis
+df0f88a11ed6fb05c89882bcbe7a5b50592a56c8 printk: Move locking annotation to printk.c
+c524adf2bb54e3624f693d3cdc587a8cbfb4b5dc security/tomoyo: Enable context analysis
+72748b573b87b5e6a30705bc433d21cb25e35dab crypto: Enable context analysis
+4f2932a894a1aa685d7540805c87a7dde1ee40de sched: Enable context analysis for core.c and fair.c
 
---===============7784912397948380032==--
+--===============3419131808786241200==--
