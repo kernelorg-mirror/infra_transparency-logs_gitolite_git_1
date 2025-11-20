@@ -1,26 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 20 Nov 2025 08:45:02 -0000
-Message-Id: <176362830265.676513.14156550080158323499@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2457141782544051592=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Thu, 20 Nov 2025 08:51:35 -0000
+Message-Id: <176362869507.682502.18031674461134790579@gitolite.kernel.org>
+
+--===============2457141782544051592==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dmabuf-vfio-v9
-    old: d4283146f47b311ff07b0a933e332d4e663b4ae2
-    new: 09061b11c680a5382fe99b312e49eb13386b40ee
-    log: |
-         28d6b5fd615bc2c7f20d616d2f8079f793ad63f8 dma-buf: provide phys_vec to scatter-gather mapping routine
-         a6b128b61875d3a36a81f5035a517a767079d30b vfio: Export vfio device get and put registration helpers
-         e31ff8a824edf3a7721a0ba283ebe121b1e2b256 vfio/pci: Share the core device pointer while invoking feature functions
-         bca885eae7e1e5465ab6e444e7685ee36894717a vfio/pci: Enable peer-to-peer DMA transactions by default
-         00341d60f5fa23c6475dffe09588473d8b1ab61f vfio/pci: Add dma-buf export support for MMIO regions
-         dfc7a026953f52a25b725b123dc9e79da7e1f4f3 vfio/nvgrace: Support get_dmabuf_phys
-         faeba088ece854bb6afb07cb6230675fdd6039e6 vfio: selftests: Add DMABUF test
-         09061b11c680a5382fe99b312e49eb13386b40ee vfio/pci: Prevent exporters with pinned interface
-         
+  - ref: refs/tags/wireless-2025-11-20
+    old: 0000000000000000000000000000000000000000
+    new: bfb8846a05a61c5623a66e4bc8b5a17a698bd2bc
+
+--===============2457141782544051592==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1763628738 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1763628666-67009ea074f46a0e463803c59c01d7862587b1c2
+
+0000000000000000000000000000000000000000 bfb8846a05a61c5623a66e4bc8b5a17a698bd2bc refs/tags/wireless-2025-11-20
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmke1sIACgkQ10qiO8sP
+aACY4A/+KgIfJ7BUBTaoNHBP8DjfKksPqFvmK3RX1BIxlXhA6k1FvO8knSgPfIT6
+syGPCxRu2iAG2O0vZp1N15VI4oGCSFBKQ1V49AZUIDDcbM7uD+g8gD8eJyoQg3O+
+mOQ3VfjwLbtiQ7gjJLBFODkuSHU366AP0IcIjy5E4pQMyQ/3BcPKznHs+uAOqrvU
+VO4nx91kk4c+F7tSQ16Dqty0wyakb3RiYkk04EJAhTrKoGgO1Rfe5hrkp5D9teOX
+nPoJv5w4b0EvaAHIwlRlGzKn2XYgzoyib2pBg3x98jdZmKI54tfDq4Wck5b8Mcfx
+m4eq4oAxnL3Bt0KCVgGaCMcoIFx+YrnVbJkV74vOEHtkhQWhv2xZd7cOaWgTzIQQ
+QB0GG8hAuQT3SOGRIj0tPxSxz3vBgjGrGgyLvHHfhVNWTh5XzGIA4Wi6YztEnWXL
+X4B+TGZ+fQ5gitMMIEpzeMPHsBBmr66vLWht3duhZb/jyqaRbiH21RWsivTFtwqr
+JiCCukfi5YpyBCLKk2Gi78+5yWEFQbBa2oY0wu+lIYYJAqpJLSHBNqECEf+2GB3x
+EPxxOsYfIqIG3XGvkuY8+/E7MCKRJqB7qhHHqbBeRkvSDCYH4wmS/XgA617AVLGj
+mmX3V9aHesQ2LFruBbtQCU2w+kDoxx/XfNiISFp1DcAqXeWPzwk=
+=s1YF
+-----END PGP SIGNATURE-----
+
+--===============2457141782544051592==--
