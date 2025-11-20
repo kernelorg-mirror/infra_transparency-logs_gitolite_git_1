@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 20 Nov 2025 18:39:16 -0000
-Message-Id: <176366395691.1233863.13843888683052856079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 20 Nov 2025 18:42:19 -0000
+Message-Id: <176366413935.1236955.14000418183919261174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/dir-deleg-ro
-    old: e70044869d131198138991f64674636413080b22
-    new: cadb2c2d678b17fea41ee4ed98b005aa047b0834
+  - ref: refs/heads/master
+    old: 395be82a59e763728520e513c0a449d817da25ed
+    new: dd6dda907d099a11c5f9cfd7d12ea14714504993
     log: |
-         395ec34e2138e8fee8e62c3e0818aadc48da6911 vfs: expose delegation support to userland
-         a5dec23ce591e6f98e72ca370dee1bce4c468288 vfs: expose delegation support to userland
-         031ed7d1439a60a4b634dfe1d69362d41b63b77b filelock: add lease_dispose_list() helper
-         cadb2c2d678b17fea41ee4ed98b005aa047b0834 filelock: allow lease_managers to dictate what qualifies as a conflict
+         dd6dda907d099a11c5f9cfd7d12ea14714504993 Bluetooth: btusb: mediatek: Avoid btusb_mtk_claim_iso_intf() NULL deref
          
