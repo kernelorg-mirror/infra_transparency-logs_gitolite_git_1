@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Thu, 20 Nov 2025 07:47:42 -0000
-Message-Id: <176362486247.627480.10122982214587624751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Thu, 20 Nov 2025 08:04:52 -0000
+Message-Id: <176362589238.641200.17851539175928196258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: fbf90f4432a71a919bc6b749e4dc676120c97840
-    new: fee2f91b21cc51578307021d30a82aeabe4f6941
-  - ref: refs/heads/v6.19/arm64-dt
-    old: e490b52477b85ffc5bc8ae7124415345fb6a3f4e
-    new: 8b983ae355aab50942c72096beba30254c5078bd
+  - ref: refs/heads/fixes
+    old: 6a23ae0a96a600d1d12557add110e0bb6e32730c
+    new: 41274a509a4ef5b13b05e9d76896fa3417793a74
+    log: |
+         41274a509a4ef5b13b05e9d76896fa3417793a74 gpiolib: acpi: use min() instead of min_t()
+         
