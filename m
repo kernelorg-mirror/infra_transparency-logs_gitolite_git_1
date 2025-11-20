@@ -1,56 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7017024002751409293=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 20 Nov 2025 16:31:50 -0000
-Message-Id: <176365631061.1114487.5568166110361776713@gitolite.kernel.org>
-
---===============7017024002751409293==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 20 Nov 2025 16:32:03 -0000
+Message-Id: <176365632306.1114735.12901884316069757188@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 2afa538d152feef1e509d41ec34cf03ba594af07
-    new: 781e26e61b4bed258330b1040dd5b0dc606d5b84
-    log: |
-         781e26e61b4bed258330b1040dd5b0dc606d5b84 6.12-stable patches
-         
-
---===============7017024002751409293==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1763656381 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1763656308-885aba554343e81661eff2804288fa8a00626a5f
-
-2afa538d152feef1e509d41ec34cf03ba594af07 781e26e61b4bed258330b1040dd5b0dc606d5b84 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkfQr0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X4IP/05JzvNOJHg8fmlTaSHr
-cwZw4K7xLclWNhQyiA3tE2wfKiHMmxaXypTy5cs9b56XTSD0DVB8yTwqQjLWpAMn
-5vnEJ5gM2wQxem+RmmdcfUSHwfp2wJHZimRoTL8yaRccHP5jf0yn/UuEBp+RSZTR
-BePp8x/yR8dAN9pfUZMpKkzwtODcgMpGGQB97WTyxsX/RiawlUueqHrvvXBmsDG0
-CxMAK2gw9cRmJsAk6Cx+A3kh+yDXpsf6xE0vEFjK4dBIrFBf/QD1zbnwcUyYb938
-CMXObO6YT7v5jFJFV5QOf68tKPZ20Zm86xjYp+ADmnsdgT+Bz41KMkjbwK1YdIKI
-9ECx4D8oP/K+Jc4qXZVEh1HtAZzfF6DDqO+1ks0U2zUGC0mhzUzFJnUiUNXz03NH
-FZvG7I/KajAz91XCR+NpshDC5kA+d8NqpNjlfLciPQBV1ENWKHcZig9wVD7cY3KQ
-uPWnDXusbEPZSGpkr8CwQQNW793xPdtW0EFMRbjI28O6uzEmSa9LREJqJHnieqXt
-2eMwocq+bHhe6gHzu8utXxm66ak06q1BnIvI8fJAxp5KhiY8MFIbglYgK4p15xyz
-wEdyT8tOusIJI55peGbyB8oITqQXQOiIaFJOgqol9zkcR5l750l9YJZ15f4FB8nL
-HTRN5BhqrZb9nFQFOhvroA7L
-=bEO3
------END PGP SIGNATURE-----
-
---===============7017024002751409293==--
+  - ref: refs/heads/v3_20251114_biju_das_au_rz_g2l_ssi_full_duplex_fixes
+    old: 0000000000000000000000000000000000000000
+    new: 2bae7beda19f3b2dc6ab2062c94df19c27923712
+  - ref: refs/heads/v3_20251115_andreas_regulator_add_fp9931_jd9930
+    old: 0000000000000000000000000000000000000000
+    new: 12d821bd13d42e6de3ecb1c13918b1f06a3ee213
