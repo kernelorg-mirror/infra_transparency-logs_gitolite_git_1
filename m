@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4074074639029126060=="
+Content-Type: multipart/mixed; boundary="===============7593075196476248812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 20 Nov 2025 14:14:17 -0000
-Message-Id: <176364805740.981918.3775029333088946036@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 14:14:49 -0000
+Message-Id: <176364808958.982217.2156971014226956999@gitolite.kernel.org>
 
---===============4074074639029126060==
+--===============7593075196476248812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 237e74bfa261fb0cf75bd08c9be0c5094018ee20
     new: 677e6123e3d24adaa252697dc89740f2ac07664e
     log: revlist-237e74bfa261-677e6123e3d2.txt
 
---===============4074074639029126060==
+--===============7593075196476248812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -384,4 +384,4 @@ acf5de1b23b0275eb69f235c8e9f2cef19fa39a1 LoongArch: Fix NUMA node parsing with n
 a6b533adfc05ba15360631e019d3e18275080275 LoongArch: Don't panic if no valid cache info for PCI
 677e6123e3d24adaa252697dc89740f2ac07664e LoongArch: BPF: Disable trampoline for kernel module function trace
 
---===============4074074639029126060==--
+--===============7593075196476248812==--
