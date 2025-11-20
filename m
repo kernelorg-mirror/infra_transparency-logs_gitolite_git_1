@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3291279087528337423=="
+Content-Type: multipart/mixed; boundary="===============5088158157530913167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Thu, 20 Nov 2025 15:24:51 -0000
-Message-Id: <176365229139.1046080.10536604715439719074@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 15:25:21 -0000
+Message-Id: <176365232154.1048140.13265107003512197420@gitolite.kernel.org>
 
---===============3291279087528337423==
+--===============5088158157530913167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gmonaco/linux
 user: gmonaco
 changes:
-  - ref: refs/heads/rv_hybrid_automata
-    old: 8d76cda4933ddbd07bf083b417c6b6f771d0e612
-    new: fe5daf85f210fb8a0029aaebe632541fe419a959
-    log: revlist-8d76cda4933d-fe5daf85f210.txt
+  - ref: refs/heads/rv_dl_server
+    old: 00276090a3e031e5150a003d1df2df85719693ff
+    new: 6a5a47d0c597efe1c426b1642b4a05e3d4d26e33
+    log: revlist-00276090a3e0-6a5a47d0c597.txt
 
---===============3291279087528337423==
+--===============5088158157530913167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d76cda4933d-fe5daf85f210.txt
+Content-Disposition: attachment; filename=revlist-00276090a3e0-6a5a47d0c597.txt
 
-e23ef4f22db30a1e49c8b060e4ebc9dc9ca99c49 scsi: ufs: core: Fix error handler host_sem issue
-6fe4c679dde3075cb481beb3945269bb2ef8b19a scsi: ufs: core: Initialize value of an attribute returned by uic cmd
-35bc3c8ee319083333b758355ffd739a96af5c00 scsi: ufs: core: Declare tx_lanes witout initialization
-d54c676d4fe0543d1642ab7a68ffdd31e8639a5d scsi: core: Fix the unit attention counter implementation
-881a9c9cb7856b24e390fad9f59acfd73b98b3b2 bpf: Do not audit capability check in do_jit()
-5523508258d390fd55b25c1c0f99c092f23a39e9 net: dlink: use dev_kfree_skb_any instead of dev_kfree_skb
-d63f0391d6c7b75e1a847e1a26349fa8cad0004d net: hibmcge: select FIXED_PHY
-43c36a56ccf6d9b07b4b3f4f614756e687dcdc01 Revert "fs/9p: Refresh metadata in d_revalidate for uncached mode too"
 7959ffbec062c35bda02aa635d21ac45dbfacd80 nvmem: rcar-efuse: add missing MODULE_DEVICE_TABLE
 70ad06df73a9796026b197d84ead751e096618c7 misc: amd-sbi: Clarify that this is a BMC driver
 410d6c2ad4d1a88efa0acbb9966693725b564933 mei: me: add wildcat lake P DID
@@ -1050,5 +1042,13 @@ c27ba84f0450cb0ecf5bb421c92dadbadd1e5099 rv: Add support for per-object monitors
 6516a3ed7acb08ac13bc97ee1244b41bff5df83b verification/rvgen: Add support for per-obj monitors
 dec9df8c7e229b482d270213655653e6ba432cf2 rv: Add deadline monitors
 fe5daf85f210fb8a0029aaebe632541fe419a959 fixup dl idle
+e8a18dcff64705b9e319f84fcab06e3fd5183d77 sched/deadline: Fix dl_server time accounting
+5e02770b7cdcf8441196f2efe09e8c76966b2890 sched/deadline: Fix dl_server stop condition
+c393b6b4f663291171581c5ac9034089a4a3c12c sched/deadline: Document dl_server
+60f4f49b68d7365a615d83f549541620b5d761a3 rv: Add dl_server monitor
+605f2942683368fb9455fa82fc06c359becd3a90 dl model fixes and workarounds on start conditions
+63ad39c3afabf8692d7a3c030540a63a46971b80 Revert "dl model fixes and workarounds on start conditions"
+6046580d1da438a40a9b8c72c7526db9a9d5b8bd fixup some stuff
+6a5a47d0c597efe1c426b1642b4a05e3d4d26e33 rv: Add laxity monitor
 
---===============3291279087528337423==--
+--===============5088158157530913167==--
