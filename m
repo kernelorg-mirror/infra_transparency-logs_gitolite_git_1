@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 20 Nov 2025 11:16:45 -0000
-Message-Id: <176363740534.807754.18183274081565768824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 20 Nov 2025 11:20:05 -0000
+Message-Id: <176363760530.811687.7362700369007851264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/dmabuf-vfio-v10
-    old: 4452cd6ab1700c6d0e769c6197e2778937beaabc
-    new: 8481c58cb0415ac2c6f93fcdc92888472495ee9c
+  - ref: refs/heads/master
+    old: 142eedfb247710db65f127e9738d5ffab7e27cae
+    new: 8820d3486ad8c03098e30aa15efa9f915b0c179d
     log: |
-         56be3251729bf6e46acf3b561b4a54f62b584207 vfio: selftests: Add DMABUF test
-         8481c58cb0415ac2c6f93fcdc92888472495ee9c vfio/pci: Prevent exporters with pinned interface
+         c62bb65ad321eebea18f32f5529f8f0a085e57e2 kill: the situation where fd is opened but not closed
+         8820d3486ad8c03098e30aa15efa9f915b0c179d Merge branch 'master-branch-4' of https://github.com/Leefancy/util-linux
          
