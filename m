@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Nov 2025 09:41:48 -0000
-Message-Id: <176363170806.727466.13906489632999634098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 20 Nov 2025 09:47:46 -0000
+Message-Id: <176363206661.732420.8108550084629680213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/perf/urgent
-    old: a24074ca8840cf28fa50c40e957fdc50f29971b3
-    new: f1f96511b1c4c33e53f05909dd267878e0643a9a
-    log: |
-         f1f96511b1c4c33e53f05909dd267878e0643a9a perf: Fix 0 count issue of cpu-clock
-         
+  - ref: refs/tags/anlogic-initial-6.19-v2
+    old: 0000000000000000000000000000000000000000
+    new: 87db81db732625f356bfb40b680991354e9dfe9c
