@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Thu, 20 Nov 2025 05:56:32 -0000
-Message-Id: <176361819242.533620.2974741035980639077@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 05:57:58 -0000
+Message-Id: <176361827879.534424.9645281571218260149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
   - ref: refs/heads/mhi-next
-    old: 9e24bdfecdb071a3a42fb74be1ab503c958e2740
-    new: d44619821f46e724bca2a001fa7daa35d4e5602d
+    old: d44619821f46e724bca2a001fa7daa35d4e5602d
+    new: ac35e04f8000aaaf98635792464647e7a6f3422e
     log: |
-         d44619821f46e724bca2a001fa7daa35d4e5602d bus: mhi: host: pci_generic: Add Foxconn T99W760 modem
+         ac35e04f8000aaaf98635792464647e7a6f3422e bus: mhi: host: pci_generic: Add Foxconn T99W760 modem
          
