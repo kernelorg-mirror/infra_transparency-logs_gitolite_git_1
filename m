@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 20 Nov 2025 18:42:19 -0000
-Message-Id: <176366413935.1236955.14000418183919261174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/ksmap
+Date: Thu, 20 Nov 2025 18:43:04 -0000
+Message-Id: <176366418404.1237487.9710867001464851527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/docs/kernel/ksmap
+user: lindholm
 changes:
   - ref: refs/heads/master
-    old: 395be82a59e763728520e513c0a449d817da25ed
-    new: dd6dda907d099a11c5f9cfd7d12ea14714504993
+    old: f6299093c5fd089ed9c188f4ec761f20ae280a37
+    new: fbecc20a6dbbf237b151e1076c663e00e96272a8
     log: |
-         dd6dda907d099a11c5f9cfd7d12ea14714504993 Bluetooth: btusb: mediatek: Avoid btusb_mtk_claim_iso_intf() NULL deref
+         fbecc20a6dbbf237b151e1076c663e00e96272a8 users: add lindholm
          
