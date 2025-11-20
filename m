@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 20 Nov 2025 16:59:45 -0000
-Message-Id: <176365798565.1144184.6327218646225404228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 20 Nov 2025 17:00:22 -0000
+Message-Id: <176365802284.1146270.10941632563107612495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-6.19
-    old: 348d3c587ac6fa5aaa24ab5c71b7b5635c47e765
-    new: 06a7415cf24774baf1945fc28ea152e888bd72bb
+  - ref: refs/heads/master
+    old: 770858015b2c34b1033263ad43786881dda8943a
+    new: 5829b8e34595d8fd06c5a7ba1b3e06e345db6052
     log: |
-         06a7415cf24774baf1945fc28ea152e888bd72bb sched_ext: tools: Removing duplicate targets during non-cross compilation
-         
-  - ref: refs/heads/for-next
-    old: 70105f1035a0c7698f2f03025443830021414d98
-    new: 3d4dd4ed1a74bbf46740e452fc3814e1dcf532ef
-    log: |
-         06a7415cf24774baf1945fc28ea152e888bd72bb sched_ext: tools: Removing duplicate targets during non-cross compilation
-         3d4dd4ed1a74bbf46740e452fc3814e1dcf532ef Merge branch 'for-6.19' into for-next
+         5829b8e34595d8fd06c5a7ba1b3e06e345db6052 foo
          
