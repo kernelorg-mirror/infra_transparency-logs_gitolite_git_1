@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 20 Nov 2025 03:08:35 -0000
-Message-Id: <176360811514.394707.11091343451125873063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+Date: Thu, 20 Nov 2025 03:09:26 -0000
+Message-Id: <176360816627.395885.2704185214069085088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+user: jarkko
 changes:
-  - ref: refs/heads/socfpga_dts_for_v6.19
-    old: 38eff72f2d3a83475d70ac3a1280b5051d1e46b0
-    new: 46badfef57adc4ebbcd100b38c31baac50acf8cd
+  - ref: refs/heads/main
+    old: c04d653eaf67146ffa1da1b5adfc2556d7501b1b
+    new: adedf46c18bc1dda50abdd41e610bfd1e7aa3c33
     log: |
-         4be334e5744939b5bc918b47cebbca009e9c830d dt-bindings: fpga: stratix10: add support for Agilex5
-         46badfef57adc4ebbcd100b38c31baac50acf8cd arm64: dts: agilex5: add fpga-region and fpga-mgr nodes
+         adedf46c18bc1dda50abdd41e610bfd1e7aa3c33 build: bump tpm2-protocol to 0.15.8
          
