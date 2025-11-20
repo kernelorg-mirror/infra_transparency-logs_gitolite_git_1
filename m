@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7235621692039327059=="
+Content-Type: multipart/mixed; boundary="===============5757356335774303892=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Nov 2025 12:56:55 -0000
-Message-Id: <176364341579.914189.6620690972673262059@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 12:58:03 -0000
+Message-Id: <176364348396.915027.12266329952988752668@gitolite.kernel.org>
 
---===============7235621692039327059==
+--===============5757356335774303892==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,61 +15,40 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/core/rseq
-    old: 2635fb0f0973c57c45f03708d52e827ec99ac78e
-    new: 705d7cad382be9b3b52b89b220e77b17cf24322a
-    log: revlist-2635fb0f0973-705d7cad382b.txt
+  - ref: refs/heads/master
+    old: 269d3ca757292b7ba73cc5c574c89397c9a62225
+    new: 4dbd83ce0161690f6637fcfdfaae62d640dbedc7
+    log: revlist-269d3ca75729-4dbd83ce0161.txt
 
---===============7235621692039327059==
+--===============5757356335774303892==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2635fb0f0973-705d7cad382b.txt
+Content-Disposition: attachment; filename=revlist-269d3ca75729-4dbd83ce0161.txt
 
-79104becf42baeeb4a3f2b106f954b9fc7c10a3c sched/fair: Forfeit vruntime on yield
-382748c05e58a9f1935f5a653c352422375566ea sched/deadline: only set free_cpus for online runqueues
-06f2c90885e92992d1ce55d3f35b65b44d5ecc25 sched: Create architecture specific sched domain distances
-4d6dd05d07d00bc3bd91183dab4d75caa8018db9 sched/topology: Fix sched domain build error for GNR, CWF in SNC-3 mode
-82d6e01a0699800efd8b048eb584c907ccb47b7a sched/fair: Only update stats for allowed CPUs when looking for dst group
-e9139f765ac7048cadc9981e962acdf8b08eabf3 sched: Employ sched_change guards
-376f8963bbda5fee838eb1823b07562368104024 sched: Re-arrange the {EN,DE}QUEUE flags
-5e42d4c123ba9b89ce19b3aa7e22b7684cbfa49c sched/deadline: Prepare for switched_from() change
-637b0682821b144d5993211cf0a768b322138a69 sched: Fold sched_class::switch{ing,ed}_{to,from}() into the change pattern
-1ae5f5dfe5adc64a90b1b0ab5bd9bd7c9d140c28 sched: Cleanup sched_delayed handling for class switches
-6455ad5346c9cf755fa9dda6e326c4028fb3c853 sched: Move sched_class::prio_changed() into the change pattern
-942b8db965006cf655d356162f7091a9238da94e sched: Fix migrate_disable_switch() locking
-abfc01077df66593f128d966fdad1d042facc9ac sched: Fix do_set_cpus_allowed() locking
-b079d93796528053cde322f2ca838c2d21c297e7 sched: Rename do_set_cpus_allowed()
-650952d3fb3889b04cbda722351b5d6090a1c10b sched: Make __do_set_cpus_allowed() use the sched_change pattern
-46a177fb01e52ec0e3f9eab9b217a0f7c8909eeb sched: Add locking comments to sched_class methods
-5892cbd85dbf9059b8a3a7dd8ab64c0fce671029 sched: Match __task_rq_{,un}lock()
-d4c64207b88a60dd15a38c790bb73c0b6f9a8c40 sched: Cleanup the sched_change NOCLOCK usage
-73ec89a1ce4bce98f74b6520a95e64cd9986aae5 sched: Mandate shared flags for sched_change
-1e900f415c6082cd4bcdae4c92515d21fb389473 sched: Detect per-class runqueue changes
-50653216e4ff7a74c95b2ee9ec439916875556ec sched: Add support to pick functions to take rf
-4c95380701f58b8112f0b891de8d160e4199e19d sched/ext: Fold balance_scx() into pick_task_scx()
-73cbcfe255f7edca915d978a7d1b0a11f2d62812 sched/topology,x86: Fix build warning
-af13e5e437dc2eb8a3291aad70fc80d9cc78bc73 sched: Fix the do_set_cpus_allowed() locking fix
-977b9a00541929973fddfbc2f5e932469f7cdc81 Merge branch 'linus/master' into sched/core, to resolve conflict
-127b90315ca07ccad2618db7ba950a63e3b32d22 sched/proxy: Yield the donor task
-7f829bde94b1c97b1804fa5860e066ea49dbfca3 sched/core: Optimize core cookie matching check
-9359d9785d85bb53f1ff1738a59aeeec4b878906 sched/core: Add comment explaining force-idle vruntime snapshots
-79f3f9bedd149ea438aaeb0fb6a083637affe205 sched/eevdf: Fix min_vruntime vs avg_vruntime
-e40cea333e60c548e047eaddec6ca48c6632424b sched/core: Remove double update_rq_clock() in __set_cpus_allowed_ptr_locked()
-e636ffb9e31b4f7dde7fef5358669266b9ce02ec sched/deadline: Fix dl_server time accounting
-f5a538c07df26f5c601e41f7b9c7ade3e1e75803 sched/deadline: Fix dl_server stop condition
-2614069c5912e9d6f1f57c262face1b368fb8c93 sched/deadline: Document dl_server
-b4bfacd39216755c058f6d13c71c86a9bf5a1631 sched/deadline: Use cpumask_weight_and() in dl_bw_cpus
-65177ea9f64d7402a0b8028e0dbbd01e8a9d1b1d sched/deadline: Minor cleanup in select_task_rq_dl()
-3324b2180c17b21c31c16966cc85ca41a7c93703 sched/fair: Skip sched_balance_running cmpxchg when balance is not due
-522fb20fbdbe48ed98f587d628637ff38ececd2d sched/fair: Have SD_SERIALIZE affect newidle balancing
-aaab6bb54ab9bc4c37ff33b816031918d2760517 sched: Increase sched_tick_remote timeout
-aceccac58ad76305d147165788ea6b939bef179b sched/fair: Enable scheduler feature NEXT_BUDDY
-e837456fdca81899a3c8e47b3fd39e30eae6e291 sched/fair: Reimplement NEXT_BUDDY to align with EEVDF goals
-d206fbad9328ddb68ebabd7cf7413392acd38081 sched/fair: Revert max_newidle_lb_cost bump
-e78e70dbf603c1425f15f32b455ca148c932f6c1 sched/fair: Small cleanup to sched_balance_newidle()
-08d473dd8718e4a4d698b1113a14a40ad64a909b sched/fair: Small cleanup to update_newidle_cost()
-33cf66d88306663d16e4759e9d24766b0aaa2e17 sched/fair: Proportional newidle balance
-705d7cad382be9b3b52b89b220e77b17cf24322a Merge branch 'sched/core' into core/rseq, to resolve conflict
+f1f96511b1c4c33e53f05909dd267878e0643a9a perf: Fix 0 count issue of cpu-clock
+77d7dc8bef482e987036bc204136bbda552d95cd sched/mmcid: Revert the complex CID management
+8cea569ca785060b8c5cc7800713ddc3b1548a94 sched/mmcid: Use proper data structures
+be4463fa2c7185823d2989562162d578b45a89ae sched/mmcid: Cacheline align MM CID storage
+925b7847bb7d4eb523a7698b309e8441647796f2 sched: Fixup whitespace damage
+b08ef5fc8fa01ae5285bef5ff783bbb425d1fb08 sched/mmcid: Move scheduler code out of global header
+0d032a43ebeb9bf255cd7e3dad5f7a6371571648 sched/mmcid: Prevent pointless work in mm_update_cpus_allowed()
+437cb3ded25038d5280d21de489ce78c745118d5 cpumask: Introduce cpumask_weighted_or()
+79c11fb3da8581a2f222b290ce62a153ab1108fc sched/mmcid: Use cpumask_weighted_or()
+d0f23ccf6ba9e2cc202e9ad25a427b8e5ea3ca1e cpumask: Cache num_possible_cpus()
+472931e757fb3dfad1f78ce6f5abd821155433b2 sched/mmcid: Convert mm CID mask to a bitmap
+1497ac189541df3c7c344bca723a7597009a99f4 signal: Move MMCID exit out of sighand lock
+61c7810a91fb15cffaa0b44810b8074c5e8a125d sched/mmcid: Move initialization out of line
+3c7a7327102ca35b3081d1a7dde5819d0f5a5e08 sched/mmcid: Provide precomputed maximal value
+4c42755fe64a411d9f299c1f97e2d114698b6759 sched/mmcid: Serialize sched_mm_cid_fork()/exit() with a mutex
+1bcc335bb29457d402b4fb033673aa89eca8187b sched/mmcid: Introduce per task/CPU ownership infrastructure
+6fa1e9565d81095ac1c085601a4af8b18a04db1d sched/mmcid: Provide new scheduler CID mechanism
+340af997d25dab0f05c4de8399d656b112592a93 sched/mmcid: Provide CID ownership mode fixup functions
+2644779ec144d3e8cce5fed9623b47e70b3e0422 irqwork: Move data struct to a types header
+cba5e581161e379037a94f5a75d1a61bd1ccce3b sched/mmcid: Implement deferred mode change
+2635fb0f0973c57c45f03708d52e827ec99ac78e sched/mmcid: Switch over to the new mechanism
+8de700bed43dbccd26cfa539f92c72aab79b8740 Merge branch 'sched/core' into core/rseq, to resolve conflict
+716fddccee47a64b2c1b2c0406f53a4513c529e6 Merge branch into tip/master: 'perf/urgent'
+4dbd83ce0161690f6637fcfdfaae62d640dbedc7 Merge branch into tip/master: 'core/rseq'
 
---===============7235621692039327059==--
+--===============5757356335774303892==--
