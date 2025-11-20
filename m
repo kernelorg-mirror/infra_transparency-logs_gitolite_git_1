@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 20 Nov 2025 21:46:32 -0000
-Message-Id: <176367519257.1401982.3973662840666965119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Thu, 20 Nov 2025 21:55:15 -0000
+Message-Id: <176367571594.1410440.15858328230972459158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: 473a4707c62d4445eb7fff5998f232152299157d
-    new: bc5de60998adcef61376191083b0a40c345f7f83
+  - ref: refs/heads/dev-staging
+    old: 07784802fd9d62e5a0d6b8e3ca88f50ce89577ca
+    new: 211ddde0823f1442e4ad052a2f30f050145ccada
+  - ref: refs/heads/next
+    old: 530f467e2f34590f54759a339c8e7d23ea764462
+    new: cdcf0b369d400615355cdf8b389d7fdfa9fbc0a0
     log: |
-         7953794f741e94d30df9dafaaa4c031c85b891d6 HID: input: map HID_GD_Z to ABS_DISTANCE for stylus/pen
-         10c64d4ff42a9c59981382b0da44783ea76673b8 selftests/hid-tablet: add ABS_DISTANCE test for stylus/pen
-         bc5de60998adcef61376191083b0a40c345f7f83 Merge branch 'for-6.19/core' into for-next
+         3ded250b97c3ae94a642bc2e710a95700e72dfb0 selinux: rename the cred_security_struct variables to "crsec"
+         cdcf0b369d400615355cdf8b389d7fdfa9fbc0a0 Automated merge of 'dev' into 'next'
          
-  - ref: refs/heads/for-6.19/core
-    old: 0000000000000000000000000000000000000000
-    new: 10c64d4ff42a9c59981382b0da44783ea76673b8
+  - ref: refs/heads/stable-6.18
+    old: dde3a5d0f4dce1d1a6095e6b8eeb59b75d28fb3b
+    new: 3ded250b97c3ae94a642bc2e710a95700e72dfb0
+    log: |
+         3ded250b97c3ae94a642bc2e710a95700e72dfb0 selinux: rename the cred_security_struct variables to "crsec"
+         
