@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Nov 2025 19:17:51 -0000
-Message-Id: <176366627131.1271432.12853208804837008204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 20 Nov 2025 19:23:14 -0000
+Message-Id: <176366659410.1275891.9482504005939772799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/timers/core
-    old: 308bc2e33885df9288d3f1ed946a2b212e37db62
-    new: 7dec062cfcf27808dbb70a0b231d1a698792743d
+  - ref: refs/heads/tmp.perf-tools-next
+    old: d53b4996584b448c5427ba9ab3ec06ec43190043
+    new: 9bef5cead63d5d8fad3ba7ebaf26f3f4ee172c82
     log: |
-         8312cab5ff4702389a86129051eba6ea046a71a1 timers/migration: Rename 'online' bit to 'available'
-         a048ca5f00ebd5a44f8551d546a3cd81fed7a204 timers/migration: Add mask for CPUs available in the hierarchy
-         4c2374ed86847c71dab5602c7882d21a0d56a4c7 timers/migration: Use scoped_guard on available flag set/clear
-         22f8e41680efec63ead03d4693676587814f7a24 cgroup/cpuset: Rename update_unbound_workqueue_cpumask() to update_isolation_cpumasks()
-         185bccc79797d71477e672a1b2a2b7d0325044e7 sched/isolation: Force housekeeping if isolcpus and nohz_full don't leave any
-         b56651007fc018effe695a68d48caa6970b23094 cpumask: Add initialiser to use cleanup helpers
-         7dec062cfcf27808dbb70a0b231d1a698792743d timers/migration: Exclude isolated cpus from hierarchy
+         41b67ab3d2f5be9d0b6e5ba9cbec97c820fc50e8 perf test all metrics: Fully ignore Default metric failures
+         8cf9cca7f687044702228c51b8e3bb853a0e1b54 perf list: Print matching PMU events for --unit
+         58e0a81e76bf274afe7d24d80d7855a7642bb52a perf list: Share print state with JSON output
+         3ce77655f026a316442f23d47da6c5cd89c1fdac perf list: Support filtering in JSON output
+         9bef5cead63d5d8fad3ba7ebaf26f3f4ee172c82 perf: replace strcpy() with strncpy() in util/jitdump.c
          
