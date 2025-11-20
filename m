@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 20 Nov 2025 05:39:07 -0000
-Message-Id: <176361714778.518723.897662781603784446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Thu, 20 Nov 2025 05:56:32 -0000
+Message-Id: <176361819242.533620.2974741035980639077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/tags/damon/next-2025-11-19-21-40-on-v6.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d445d04338bdd79a9f34eef8df2b99b9804f234c
+  - ref: refs/heads/mhi-next
+    old: 9e24bdfecdb071a3a42fb74be1ab503c958e2740
+    new: d44619821f46e724bca2a001fa7daa35d4e5602d
+    log: |
+         d44619821f46e724bca2a001fa7daa35d4e5602d bus: mhi: host: pci_generic: Add Foxconn T99W760 modem
+         
