@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Thu, 20 Nov 2025 06:05:05 -0000
-Message-Id: <176361870541.542385.10070601342165701025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Thu, 20 Nov 2025 06:11:53 -0000
+Message-Id: <176361911395.547436.5368969485165993395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/tags/mhi-for-v6.19
-    old: 364c0027598e27ea60d68948cd553890f45da40b
-    new: 5e780b131fc78365e0c6c95c552d57443ff43d3c
+  - ref: refs/heads/ntfs-next
+    old: 4701140577594014962aca1f391a4f92c034addd
+    new: 0a9cc0550bdfdf98654865de47197d09935c8e0c
+    log: |
+         0a9cc0550bdfdf98654865de47197d09935c8e0c ntfsplus: add v2 changes
+         
