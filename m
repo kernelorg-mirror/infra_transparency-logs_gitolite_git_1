@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4017535848574984680=="
+Content-Type: multipart/mixed; boundary="===============7415202171398133531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 20 Nov 2025 10:36:33 -0000
-Message-Id: <176363499311.773201.14188092151335606355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 20 Nov 2025 10:36:45 -0000
+Message-Id: <176363500502.773425.167017737391827224@gitolite.kernel.org>
 
---===============4017535848574984680==
+--===============7415202171398133531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regulator-6.18
     old: 636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13
     new: 6a23ae0a96a600d1d12557add110e0bb6e32730c
     log: revlist-636f4618b1cd-6a23ae0a96a6.txt
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 21e68bcb1b0c688c2d9ca0d457922febac650ac1
     new: c22f7a5cd205492c48c6deb72f5efe2ae63c931e
     log: |
@@ -34,32 +34,32 @@ changes:
          c22f7a5cd205492c48c6deb72f5efe2ae63c931e gpio: improve support for shared GPIOs
          
 
---===============4017535848574984680==
+--===============7415202171398133531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1763635062 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1763634988-84d1c4ce5adbd0bf4ff4b634223359c9617c8a81
+pusher C3F436CA30F5D8EB 1763635074 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1763635000-84e9eac15b7c8a8abb3829b815c437502f582712
 
-636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13 6a23ae0a96a600d1d12557add110e0bb6e32730c refs/heads/for-6.18
-21e68bcb1b0c688c2d9ca0d457922febac650ac1 c22f7a5cd205492c48c6deb72f5efe2ae63c931e refs/heads/for-6.19
+636f4618b1cd96f6b5a2b8c7c4f665c8533ecf13 6a23ae0a96a600d1d12557add110e0bb6e32730c refs/heads/regulator-6.18
+21e68bcb1b0c688c2d9ca0d457922febac650ac1 c22f7a5cd205492c48c6deb72f5efe2ae63c931e refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmke73YACgkQJNaLcl1U
-h9C1kQf+PxnFXQ1VzqjgzfOLZGgDLeC7rHCn57v/xxU94WrJOprSOtWfM04Ny55z
-aaCmYSnocYJWvo516xk+1PokE8k2OHi57RyHeHAayZKNRSevNsCZALsKjnDPbwF5
-D97kBLYSQxFsBnlhb4ikJP1Ft4dQUnOk+STnmj14H3u2BFs0zKLId0umUOJrLZ3i
-67WZ9PefOLnJZ9ESPExSyazhSeUWgNytauGnmZKpa1VPUyqMvQYMkXnJdHIC14cm
-bR3f1zjC5GzXwEdvxcXuQLWoQrFI6G8V8WpfwPGI+MU+peo3StEDln+sTaFlybC7
-wlSbSwBTNumlLJ/5N8BYjP/3y8944A==
-=2VIO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmke74IACgkQJNaLcl1U
+h9AAPggAhA39yzpEJJVcVWS/NG5T52RKPm05jFlt8KQlaHIhY2ig3gnxxpdjV/j+
+9L5jkkmr56fP8urfv+b2wn+ffgCVz5J+53yQtsV7bxnUmNHMAPqeT5SUXfwrRGmG
+/rmfW3gELo2OWExywYevKatIrnNzUmpfzJtHQB1x4fmyvDPLPO+bXiNVNS3vtuNK
+bvbN4bwh2SKCrUS99owRAZBvhZl+FV8xLyN4YS90JzA6siAHzaowwIkV//BfJ9SL
+Wqh+FptcbY0tp/mW6sMVv+6epNcShk/4AQa00+2V5wa3Cyb4dQD0y9/kZUqxySJp
+9BuUTvUgJopzs4KdsPclQdHzSxRWVA==
+=NEmZ
 -----END PGP SIGNATURE-----
 
---===============4017535848574984680==
+--===============7415202171398133531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -687,4 +687,4 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 998ccc327b14c03861247540ff6f8135a5283621 Merge tag 'perf-tools-fixes-for-v6.18-2-2025-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 6a23ae0a96a600d1d12557add110e0bb6e32730c Linux 6.18-rc6
 
---===============4017535848574984680==--
+--===============7415202171398133531==--
