@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5757356335774303892=="
+Content-Type: multipart/mixed; boundary="===============3815095434784836985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Nov 2025 12:58:03 -0000
-Message-Id: <176364348396.915027.12266329952988752668@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 12:58:35 -0000
+Message-Id: <176364351565.915570.7542631944942131763@gitolite.kernel.org>
 
---===============5757356335774303892==
+--===============3815095434784836985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 269d3ca757292b7ba73cc5c574c89397c9a62225
-    new: 4dbd83ce0161690f6637fcfdfaae62d640dbedc7
-    log: revlist-269d3ca75729-4dbd83ce0161.txt
+    old: 4dbd83ce0161690f6637fcfdfaae62d640dbedc7
+    new: 3ae58be84607dbbe581cb1943ccbd09c3ae6e349
+    log: revlist-4dbd83ce0161-3ae58be84607.txt
+  - ref: refs/heads/tip/urgent
+    old: b9117425d78bcc1254455cff7a3c0c5296b28c1d
+    new: bbaaa09484b5c2d3e39778f5faf70ceb71980a76
+    log: |
+         f1f96511b1c4c33e53f05909dd267878e0643a9a perf: Fix 0 count issue of cpu-clock
+         bbaaa09484b5c2d3e39778f5faf70ceb71980a76 Merge branch into tip/master: 'perf/urgent'
+         
 
---===============5757356335774303892==
+--===============3815095434784836985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-269d3ca75729-4dbd83ce0161.txt
+Content-Disposition: attachment; filename=revlist-4dbd83ce0161-3ae58be84607.txt
 
-f1f96511b1c4c33e53f05909dd267878e0643a9a perf: Fix 0 count issue of cpu-clock
-77d7dc8bef482e987036bc204136bbda552d95cd sched/mmcid: Revert the complex CID management
-8cea569ca785060b8c5cc7800713ddc3b1548a94 sched/mmcid: Use proper data structures
-be4463fa2c7185823d2989562162d578b45a89ae sched/mmcid: Cacheline align MM CID storage
-925b7847bb7d4eb523a7698b309e8441647796f2 sched: Fixup whitespace damage
-b08ef5fc8fa01ae5285bef5ff783bbb425d1fb08 sched/mmcid: Move scheduler code out of global header
-0d032a43ebeb9bf255cd7e3dad5f7a6371571648 sched/mmcid: Prevent pointless work in mm_update_cpus_allowed()
-437cb3ded25038d5280d21de489ce78c745118d5 cpumask: Introduce cpumask_weighted_or()
-79c11fb3da8581a2f222b290ce62a153ab1108fc sched/mmcid: Use cpumask_weighted_or()
-d0f23ccf6ba9e2cc202e9ad25a427b8e5ea3ca1e cpumask: Cache num_possible_cpus()
-472931e757fb3dfad1f78ce6f5abd821155433b2 sched/mmcid: Convert mm CID mask to a bitmap
-1497ac189541df3c7c344bca723a7597009a99f4 signal: Move MMCID exit out of sighand lock
-61c7810a91fb15cffaa0b44810b8074c5e8a125d sched/mmcid: Move initialization out of line
-3c7a7327102ca35b3081d1a7dde5819d0f5a5e08 sched/mmcid: Provide precomputed maximal value
-4c42755fe64a411d9f299c1f97e2d114698b6759 sched/mmcid: Serialize sched_mm_cid_fork()/exit() with a mutex
-1bcc335bb29457d402b4fb033673aa89eca8187b sched/mmcid: Introduce per task/CPU ownership infrastructure
-6fa1e9565d81095ac1c085601a4af8b18a04db1d sched/mmcid: Provide new scheduler CID mechanism
-340af997d25dab0f05c4de8399d656b112592a93 sched/mmcid: Provide CID ownership mode fixup functions
-2644779ec144d3e8cce5fed9623b47e70b3e0422 irqwork: Move data struct to a types header
-cba5e581161e379037a94f5a75d1a61bd1ccce3b sched/mmcid: Implement deferred mode change
-2635fb0f0973c57c45f03708d52e827ec99ac78e sched/mmcid: Switch over to the new mechanism
-8de700bed43dbccd26cfa539f92c72aab79b8740 Merge branch 'sched/core' into core/rseq, to resolve conflict
-716fddccee47a64b2c1b2c0406f53a4513c529e6 Merge branch into tip/master: 'perf/urgent'
-4dbd83ce0161690f6637fcfdfaae62d640dbedc7 Merge branch into tip/master: 'core/rseq'
+705d7cad382be9b3b52b89b220e77b17cf24322a Merge branch 'sched/core' into core/rseq, to resolve conflict
+bbaaa09484b5c2d3e39778f5faf70ceb71980a76 Merge branch into tip/master: 'perf/urgent'
+87f77334d32a4206e2776991bd17b59a430a252b Merge branch into tip/master: 'core/bugs'
+0911170381632d5c75e72337680e556b14fe392a Merge branch into tip/master: 'core/core'
+e91c9ff70d7bef6baa8f11bf5392abe3bfa50c8f Merge branch into tip/master: 'core/rseq'
+d2994cc4f001e660551ee20e27f0875ef6b5224f Merge branch into tip/master: 'core/uaccess'
+8394bde38f0baeae42763989fe431accde8af5cc Merge branch into tip/master: 'irq/core'
+1b81535b2ca1cccd9ced1fc69a320f0f7de9c8f0 Merge branch into tip/master: 'irq/drivers'
+127070e7f26f9f2e2d2c7c9fa7a7b8822e806558 Merge branch into tip/master: 'irq/msi'
+468f14a4c5c9def982ae9a74344fa6f905a9b725 Merge branch into tip/master: 'locking/core'
+c1c78c3b0d65b700830f5bffdf80b6b4fc5ab627 Merge branch into tip/master: 'locking/futex'
+516b40267afd739380fd9167a995f7750a26f744 Merge branch into tip/master: 'objtool/core'
+625df8b00ff6c41e97238141f084ac1108454e7a Merge branch into tip/master: 'perf/core'
+b7d5ceeb1efb4be4bfcbf52c31e8c84e2c654477 Merge branch into tip/master: 'ras/core'
+cbf95147935d4f8eae45cb6c82614779970aefe1 Merge branch into tip/master: 'timers/core'
+3a4703e72e7fe16778e9d0edb59c7ff2295ab231 Merge branch into tip/master: 'x86/apic'
+04516f556cfe60eafce45f30f6e7ee84760408f9 Merge branch into tip/master: 'x86/boot'
+e18c3a0b16bbe6f87050ad4091ca0b75fc30e124 Merge branch into tip/master: 'x86/bugs'
+056f55bb967771ae8162ef196eedc2e6889f532d Merge branch into tip/master: 'x86/build'
+9e359e3befc9c4a8ae9da06d1bcdeed4792f8410 Merge branch into tip/master: 'x86/cache'
+99cdae0cd54438e53fa42a2cf3fa18edae8c47b5 Merge branch into tip/master: 'x86/cleanups'
+605eac206263190aa080526f98380fa947f20e85 Merge branch into tip/master: 'x86/core'
+5d63760cf5af3bc6a603334a353ae55181ebeab4 Merge branch into tip/master: 'x86/cpu'
+bae97b93909b545c15e0a56f79b3025708d30c3e Merge branch into tip/master: 'x86/entry'
+1da0a8bc3f8dad55f2ed6a696a95f9b0b7153462 Merge branch into tip/master: 'x86/microcode'
+ed1d175ee5a952c389d378650ac3502c729de6d8 Merge branch into tip/master: 'x86/misc'
+73eaf05073fef882671b781a514b4930c17c038a Merge branch into tip/master: 'x86/mm'
+b1a2fa6d34e27225c2b3f79840f198227af1f53d Merge branch into tip/master: 'x86/sev'
+3ae58be84607dbbe581cb1943ccbd09c3ae6e349 Merge branch into tip/master: 'x86/sgx'
 
---===============5757356335774303892==--
+--===============3815095434784836985==--
