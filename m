@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2379856904665186346=="
+Content-Type: multipart/mixed; boundary="===============3151458340687051333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 20 Nov 2025 04:10:27 -0000
-Message-Id: <176361182723.446388.17921770126760914928@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 04:10:31 -0000
+Message-Id: <176361183166.446562.296105867486226391@gitolite.kernel.org>
 
---===============2379856904665186346==
+--===============3151458340687051333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 49bc3265e6987928f0d54ce133b91dc4032835d6
-    new: eb62238e5c1e750dba06418fc4d5259ffd45f656
-    log: revlist-49bc3265e698-eb62238e5c1e.txt
+  - ref: refs/heads/6.19/scsi-queue
+    old: c53a741a7fd4b8e9d07acf1861b5e4a188c6585a
+    new: e360bb6dc843ffa59283705dd167478ea317567c
+    log: revlist-c53a741a7fd4-e360bb6dc843.txt
 
---===============2379856904665186346==
+--===============3151458340687051333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1763611878 -0500
+pusher 75C5DE3D 1763611901 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1763611806-94f606b03fe9557b08c2fd9bed00953b793cc37f
+nonce 1763611829-98c198c163411b41fffad6ca4b1a74894accdbbc
 
-49bc3265e6987928f0d54ce133b91dc4032835d6 eb62238e5c1e750dba06418fc4d5259ffd45f656 refs/tags/mkp-scsi-queue
+c53a741a7fd4b8e9d07acf1861b5e4a188c6585a e360bb6dc843ffa59283705dd167478ea317567c refs/heads/6.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkelOYACgkQ7ulgGnXF
-3j3I+xAAl1Z2AWOI92uLU3fWEbIiUxKzSbh9RnWnE7IkSRg57xYrJqsKI84LY9NQ
-I+7ntFA42MCQNAzyzMZHI0Zdy0ZnBOaWJc8sdEJR+Bhv4By9K9OShBaKC5NMcayG
-JIveq2CfVZrfWf1wIJMr58b1jZwRfDH/4ncbjSIsv1PVsV9JZkpxWtlm9Rx4tbv/
-dV81Ba2z3uh+TWCSMFnbyi1Bg7seHb88npogFP3wPb76HDGZ34st2qVP+rMuioDX
-JlCmGTXtCth694RC6p4osw3QddXkERdcs6ZI5xrAaRnjV5ga8jiTBfJR81UmTQ9p
-7H8duO8ZgcLZTEM3BZsxAsSmWhA0NOQVlp+17StB2qJY7FmqGRrbdRtbFV3eKOQm
-HJm/ynNNfhalj93jKens2071gFhltXxIBOn/57QnRnv1kaYT1gMcWXAUmiob7rHP
-6ovZ78GU9IIr3nATFLqNFcaR921KV49YXkfl8aobhQH0HW087Le4WXn9SdoeflqC
-UmdP3tRikzVqDDS6YC2JBA7XYBNOTebnvoLUK88GlsKlxK1RldDDDTgONsqB6m0Q
-mVPkK0XWaBmXSH5x3/gtPkVEo+jh8uY18E/VJ2/uaLbsiip4BdyT8tjoei30jxMM
-IE2TXXsTD9VDVYtHHgu1/QwzbhWSz8akaGS8pEnXImrCOByEm7E=
-=c2QO
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkelP0ACgkQ7ulgGnXF
+3j1viA//WohPOIvqaxGwner5vXxjHuvbE5EN9tYHa9fG41PDmjmxeGmO4+tGgCSq
+K0JCeQcLdPniO4jv3N1fd219qCD43HC1CNcErs4NAve+mUIgZ/KL4RHlvaLZ4Bba
+jZw6cpn2okiG0ZOr/buxj1Q40/aMaKko+wqPIIHESFVHf5DinjfmIadsblA+s+o/
+nleBfyOpMmYBR7GfmBrFxpAafNqizNJO/nkhVLoXj9GzA14xbzIMRgCJSboIZ68U
+5njF30i1H+mNjXuEoY8VfAl+rwYhfXpb0eoG2xa7OPoLcPC53FN1WAprmQIpv2LX
+qkKtEHkRwcGJAqXyBy23s3CyXvbV92mqxlbXt8HivX6KW6xqe5w9oJ83TMuSNCg6
+UFGupHB1I6X1vUYfrgjZM01zLwkQ8VJRdaS1+9WxSCjHEzjv+ERV5ZRIFxlWz8Ai
+64ZDP4RuQp88vD+KKptgcqeN+VvN5fn6YrEO7gIoiqKlKviLwpOyqfETR4o4PxaX
+ZYD/DfWMtLe6+GI578FTRn5QSWRH15azlQ6O1Rh2I45pzznR9Tk9zlG8Zh0mustp
+iSuX5IMZ0R/sYD5rWtlETHZjNLLervJyRNp19QjmcEvy6OMrEBfk4KwMz1wfjd59
+Cb7yDEXN/w3TfT6hvNHwDbC+JIwraiNexZ4C/4Y3C/EbN5OJIrM=
+=4MYO
 -----END PGP SIGNATURE-----
 
---===============2379856904665186346==
+--===============3151458340687051333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49bc3265e698-eb62238e5c1e.txt
+Content-Disposition: attachment; filename=revlist-c53a741a7fd4-e360bb6dc843.txt
 
 d604e1ec246d236deff57ac7e89e073dd911d60b scsi: core: Support allocating reserved commands
 21008cabc5d9bf2864ff244f4f94abebe3380947 scsi: core: Move two statements
@@ -124,4 +124,4 @@ f60b8957d8cc18c8913812e693593debc3829b77 scsi: qedi: Add WQ_PERCPU to alloc_work
 8d5cad38cf7da7848a2f4d7ca5adb4110b2cd968 scsi: pm80xx: Add WQ_PERCPU to alloc_workqueue() users
 e360bb6dc843ffa59283705dd167478ea317567c Merge patch series "replace old wq(s), added WQ_PERCPU to alloc_workqueue"
 
---===============2379856904665186346==--
+--===============3151458340687051333==--
