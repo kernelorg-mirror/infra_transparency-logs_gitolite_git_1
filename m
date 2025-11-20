@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 20 Nov 2025 12:59:27 -0000
-Message-Id: <176364356705.916983.487411169768832155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Thu, 20 Nov 2025 13:05:32 -0000
+Message-Id: <176364393202.923463.6520478124427098252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: frankja
 changes:
-  - ref: refs/heads/kvm-arm64/feat_idst
-    old: 0000000000000000000000000000000000000000
-    new: cd52e7f51a37860a3a77a63a2b3b10a1c1b755b1
+  - ref: refs/heads/next
+    old: 182a258b5ec4a45170e776d3a0c0bccfc4fab998
+    new: cd18223397ec9a943fb77472c1b9eb92c9299e4c
+    log: |
+         cd18223397ec9a943fb77472c1b9eb92c9299e4c KVM: s390: Add capability that forwards operation exceptions
+         
