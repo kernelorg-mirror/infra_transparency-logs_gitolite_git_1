@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Thu, 20 Nov 2025 02:56:23 -0000
-Message-Id: <176360738333.382925.1595439163186520985@gitolite.kernel.org>
+Date: Thu, 20 Nov 2025 02:56:34 -0000
+Message-Id: <176360739498.383151.9880312113207222942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: b0be60e6915e6f47e7cfa6bfb98af65da1c4860f
-    new: 4e94979cb63da5e5a0bcc9c783d11147be4fd538
+    old: 4e94979cb63da5e5a0bcc9c783d11147be4fd538
+    new: ba7fca226561cb38e74d407624ffb3288be2c308
     log: |
-         4e94979cb63da5e5a0bcc9c783d11147be4fd538 build(scripts): add release.sh
+         491ed7edb5a0064369790f1eab296efd2e2b2880 build(scripts): add release.sh
+         ba7fca226561cb38e74d407624ffb3288be2c308 chore: bump version to 0.3.0
          
