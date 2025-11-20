@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 20 Nov 2025 07:30:08 -0000
-Message-Id: <176362380822.614329.11259879333613228134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 20 Nov 2025 07:47:42 -0000
+Message-Id: <176362486247.627480.10122982214587624751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/dmabuf-vfio-v9
-    old: 0b3c37662ae88f3ccef39722b5c002a6474b52b7
-    new: 2482e41aa94c15a27e3aa2ac1d088e09a435c0cc
-    log: |
-         98c1524f71db2f4a8697062a9eb1b77f8cf549bf vfio/nvgrace: Support get_dmabuf_phys
-         3c93c93bb39bff7842450f17f137dd0f1695c07c vfio: selftests: Add DMABUF test
-         2482e41aa94c15a27e3aa2ac1d088e09a435c0cc vfio/pci: Prevent exporters with pinned interface
-         
+  - ref: refs/heads/for-next
+    old: fbf90f4432a71a919bc6b749e4dc676120c97840
+    new: fee2f91b21cc51578307021d30a82aeabe4f6941
+  - ref: refs/heads/v6.19/arm64-dt
+    old: e490b52477b85ffc5bc8ae7124415345fb6a3f4e
+    new: 8b983ae355aab50942c72096beba30254c5078bd
