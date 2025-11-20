@@ -1,42 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8998087099802796692=="
+Content-Type: multipart/mixed; boundary="===============6424325257755974135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 20 Nov 2025 04:07:47 -0000
-Message-Id: <176361166784.442346.14255577705092271152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Thu, 20 Nov 2025 04:09:34 -0000
+Message-Id: <176361177488.443884.1077476238565546354@gitolite.kernel.org>
 
---===============8998087099802796692==
+--===============6424325257755974135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e31a11be41cd134f245c01d1329e7bc89aba78fb
-    new: 4026310a042c6ea501db745b7f0f676687967045
-    log: revlist-e31a11be41cd-4026310a042c.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 2d5b73483d2d766ef2c723b5c1bbf9e77b4a40b7
+    new: 9421405ea926ee02e73191c7741416b4b7726064
+    log: |
+         90449f2d1e1f020835cba5417234636937dd657e scsi: sg: Do not sleep in atomic context
+         
 
---===============8998087099802796692==
+--===============6424325257755974135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e31a11be41cd-4026310a042c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5e15395f6d9ec07395866c5511f4b4ac566c0c9b mptcp: fix ack generation for fallback msk
-4f102d747cadd8f595f2b25882eed9bec1675fb1 mptcp: avoid unneeded subflow-level drops
-17393fa7b7086664be519e7230cb6ed7ec7d9462 mptcp: fix premature close in case of fallback
-1bba3f219c5e8c29e63afa3c1fc24f875ebec119 mptcp: do not fallback when OoO is present
-fff0c87996672816a84c3386797a5e69751c5888 mptcp: decouple mptcp fastclose from tcp close
-ae155060247be8dcae3802a95bd1bdf93ab3215d mptcp: fix duplicate reset on fastclose
-efff6cd53ac52827948298043270bb81ff17fdff selftests: mptcp: join: fastclose: remove flaky marks
-fb13c6bb810ca871964e062cf91882d1c83db509 selftests: mptcp: join: endpoints: longer timeout
-0e4ec14dc1ee4b1ec347729c225c3ca950f2bcf6 selftests: mptcp: join: userspace: longer timeout
-92e239e36d600002559074994a545fcfac9afd2d mptcp: fix address removal logic in mptcp_pm_nl_rm_addr
-0eee0fdf9b7b0baf698f9b426384aa9714d76a51 selftests: mptcp: add a check for 'add_addr_accepted'
-4026310a042c6ea501db745b7f0f676687967045 Merge branch 'mptcp-misc-fixes-for-v6-18-rc7'
+certificate version 0.1
+pusher 75C5DE3D 1763611816 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1763611744-e39d852fd7d7a28572f4d37ae62ffb2241c6ec42
 
---===============8998087099802796692==--
+2d5b73483d2d766ef2c723b5c1bbf9e77b4a40b7 9421405ea926ee02e73191c7741416b4b7726064 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkelKgACgkQ7ulgGnXF
+3j3h9g//XguQIt7p5ihHBfJJwldBaWHeoP3NriA+DgoJnEY+MaHFWxAX+XyVNi6J
+lCxUHsCTWqX4oYD5I459F3Dx6Mjv9cy0Fi2iUi7Wt/Z6RdpM6P8nxapeTPcsgvuw
+pBqpUXVek/q5+ZsNA7so05/JNgaSbD1AxCDRNRNNvDGqheF4DvmbdZDLXGKjdvIx
+ppffPqv1LsHf/LzIbSlrPG4vvy9RWcBC5qW66qIbClI1zkZ09sV3VnhqmCEuyoSa
+i7jhGUglgX2VlyOhgLII3heP9EeX1unVTKDrLsqtrpKniScMkcdHv24bX49f9mvB
+EAmhR0rjJ764Hz/BdWHJeNVd7yCrLEE3C1KGJxp8RsQ1NWStD9Ms/gSubb7QjowO
+E2v3oPgZDS7M8HQPtVVUpRGEWVsojKJmksv1Gq9Q4PPyziP9ZwBDe3G0kbp/L/Ds
+0EYABnFpRi3oPXnojwKFlwbX3X1rYtIofN4bMVNo2LpStJtJqwyw1st+AheCPy4T
+4EKrfpT1SxP70+TYikvM/bmT0ILRS5BUWooKIBdYVmN16XCgHE4fUZh3mAC5C4/z
+jkuqFHajFr74v01r2YOMxtSzrYQ18dG0qFt3yZ6RiOA3Gvv0jrIxnUgh0aqCUdWd
+nIbuH/zvjj7H6ogEgDternoDT4B2mzjcGj7yiSato5dP7LNYpfk=
+=LTnT
+-----END PGP SIGNATURE-----
+
+--===============6424325257755974135==--
