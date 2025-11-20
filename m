@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Thu, 20 Nov 2025 19:17:27 -0000
-Message-Id: <176366624761.1271104.9683636323636734951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 20 Nov 2025 19:17:51 -0000
+Message-Id: <176366627131.1271432.12853208804837008204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: 2d8482959efee5721456d199106b9c256c11b11b
-    new: 31b4d3af63f9afcb2661b9be554f0cf55c86573b
+  - ref: refs/heads/timers/core
+    old: 308bc2e33885df9288d3f1ed946a2b212e37db62
+    new: 7dec062cfcf27808dbb70a0b231d1a698792743d
     log: |
-         87506e44cb85cc1c2bf70b3d496b674178f219bd tools/nolibc: use 64-bit ino_t
-         d93d0593dd65b8cd72d6dc9bda7fc4982fd65afb tools/nolibc: handle 64-bit off_t for llseek
-         19c5a681b2262fe30c027aefb3df637f69df140f tools/nolibc: prefer the llseek syscall
-         e800e9446867c78eeccb790de68375d4fe77ab65 tools/nolibc: use 64-bit off_t
-         3e1da545db4c26c39955bd2eee2d71b62d1ba045 tools/nolibc: remove now superfluous overflow check in llseek
-         31b4d3af63f9afcb2661b9be554f0cf55c86573b tools/nolibc: remove more __nolibc_enosys() fallbacks
+         8312cab5ff4702389a86129051eba6ea046a71a1 timers/migration: Rename 'online' bit to 'available'
+         a048ca5f00ebd5a44f8551d546a3cd81fed7a204 timers/migration: Add mask for CPUs available in the hierarchy
+         4c2374ed86847c71dab5602c7882d21a0d56a4c7 timers/migration: Use scoped_guard on available flag set/clear
+         22f8e41680efec63ead03d4693676587814f7a24 cgroup/cpuset: Rename update_unbound_workqueue_cpumask() to update_isolation_cpumasks()
+         185bccc79797d71477e672a1b2a2b7d0325044e7 sched/isolation: Force housekeeping if isolcpus and nohz_full don't leave any
+         b56651007fc018effe695a68d48caa6970b23094 cpumask: Add initialiser to use cleanup helpers
+         7dec062cfcf27808dbb70a0b231d1a698792743d timers/migration: Exclude isolated cpus from hierarchy
          
