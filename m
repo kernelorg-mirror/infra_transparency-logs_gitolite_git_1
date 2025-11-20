@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 20 Nov 2025 21:12:31 -0000
-Message-Id: <176367315159.1371342.2862683391400497601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 20 Nov 2025 21:25:11 -0000
+Message-Id: <176367391143.1382860.8517445840859144678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/main
-    old: 068845274d10abfbbbebaa66386cf42423fc45ac
-    new: 15a206de7885e9a3c1d911420ac7b8e22a7e8c65
+  - ref: refs/heads/sched/core
+    old: 33cf66d88306663d16e4759e9d24766b0aaa2e17
+    new: c04507ac500e2cc8048000c2a849588227554e06
     log: |
-         2e80daad8fb08ae0acd94fc870b5a3be843fb739 task(refactor): remove nonce_tpm from TaskSession
-         15a206de7885e9a3c1d911420ac7b8e22a7e8c65 fix(memory): clippy error
+         c04507ac500e2cc8048000c2a849588227554e06 sched: Provide and use set_need_resched_current()
          
