@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Thu, 20 Nov 2025 21:26:29 -0000
-Message-Id: <176367398972.1383554.6953434145117538421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 20 Nov 2025 21:29:53 -0000
+Message-Id: <176367419324.1385890.14864057085952116779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev
-    old: 0e6ebf877843717ced4ada5c09c7196cede5054c
-    new: 9a948eefad594c42717f29824dd40d6dc0b7aa13
+  - ref: refs/heads/nfsd-next
+    old: 78cd170d035fe9b0372c0527f1613ddde8296667
+    new: 898f94465205e33295c29333a82a249b8f90aa74
     log: |
-         9a948eefad594c42717f29824dd40d6dc0b7aa13 lsm: use unrcu_pointer() for current->cred in security_init()
-         
-  - ref: refs/heads/next
-    old: 0e6ebf877843717ced4ada5c09c7196cede5054c
-    new: 9a948eefad594c42717f29824dd40d6dc0b7aa13
-    log: |
-         9a948eefad594c42717f29824dd40d6dc0b7aa13 lsm: use unrcu_pointer() for current->cred in security_init()
+         f6dcad1d748e192d8cd01d76736131ae913787af MAINTAINERS: add a nfsd blocklayout reviewer
+         898f94465205e33295c29333a82a249b8f90aa74 lockd: don't allow locking on reexported NFSv2/3
          
