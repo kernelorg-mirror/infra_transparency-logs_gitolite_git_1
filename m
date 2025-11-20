@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 20 Nov 2025 01:10:01 -0000
-Message-Id: <176360100176.286528.13495200017933205291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
+Date: Thu, 20 Nov 2025 01:19:30 -0000
+Message-Id: <176360157017.294897.2454586708416763742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
+user: jarkko
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 51d87d977ec4efe000ac662ac924f00b9d8a23ec
-    new: 36434959b6ea13d32343f4ec5fa3fb0d0120da2f
+  - ref: refs/heads/main
+    old: 6d4a4867601fc4bb5a44bee91a05630cca1471b9
+    new: 5c74a712fbd0c81ea30f246f90b04b94988a1779
     log: |
-         245cfbcd3d3b298c75e01946262b3ff2cf7d0796 perf maps: Avoid RC_CHK use after free
-         36434959b6ea13d32343f4ec5fa3fb0d0120da2f perf test maps: Additional maps__fixup_overlap_and_insert tests
+         0ab8a5e901c22e63025263809500d416d0684d75 feat: save policy as Vec<Box<dyn VtpmPolicyCommand>>
+         5c74a712fbd0c81ea30f246f90b04b94988a1779 fix(cache): remove from disk after removing keys
          
