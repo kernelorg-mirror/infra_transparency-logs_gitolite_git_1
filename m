@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 21 Nov 2025 15:34:07 -0000
-Message-Id: <176373924793.2369429.10380877881574131325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Fri, 21 Nov 2025 15:34:19 -0000
+Message-Id: <176373925979.2369655.16628233715419795378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/renesas/dt
-    old: 0000000000000000000000000000000000000000
-    new: 9d22a34a016313137b9e534a918f1f9aa790aa69
+  - ref: refs/heads/next-integrity-testing
+    old: c200892b46ba3df3dd210b7117a463ec283600c3
+    new: 738c9738e690f5cea24a3ad6fd2d9a323cf614f6
+    log: |
+         738c9738e690f5cea24a3ad6fd2d9a323cf614f6 ima: Handle error code returned by ima_filter_rule_match()
+         
