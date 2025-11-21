@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 21 Nov 2025 23:48:33 -0000
-Message-Id: <176376891301.2833161.4587562207320235407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 21 Nov 2025 23:52:08 -0000
+Message-Id: <176376912890.2837047.17993569435605670662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/tags/0.15.22
-    old: 0000000000000000000000000000000000000000
-    new: abec0abfe14b318b5b0ad0966eb447e4d84cab55
+  - ref: refs/notes/amlog
+    old: 8ca76aed623afa2a0051c7c05dca9a821bc7365b
+    new: 6afda605225ac2f077c520db46cdc3e42f4d6efd
+    log: |
+         6afda605225ac2f077c520db46cdc3e42f4d6efd Notes added by 'git notes add'
+         
