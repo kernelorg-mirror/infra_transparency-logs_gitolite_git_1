@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 21 Nov 2025 21:25:14 -0000
-Message-Id: <176376031499.2705106.14189742920920011450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 21 Nov 2025 21:25:42 -0000
+Message-Id: <176376034230.2705430.15302018070206229180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 417516ab89b47f01b865754ebe66c6bc5e5234ee
-    new: 77117bdbaff49abc9ca535da48729050fe1dfd48
-    log: |
-         77117bdbaff49abc9ca535da48729050fe1dfd48 tests: remove negative tests
-         
+  - ref: refs/heads/fileGfVJhz
+    old: df919994d323c7c86e32fa2745730136d58ada12
+    new: 0000000000000000000000000000000000000000
