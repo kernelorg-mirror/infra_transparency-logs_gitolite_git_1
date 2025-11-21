@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2688087587007016303=="
+Content-Type: multipart/mixed; boundary="===============7545685421162683007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 21 Nov 2025 21:16:37 -0000
-Message-Id: <176375979770.2695729.4367648671943517169@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 21:17:57 -0000
+Message-Id: <176375987707.2696546.7588649015822534109@gitolite.kernel.org>
 
---===============2688087587007016303==
+--===============7545685421162683007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: e9ff858c9adff26f5d2f77d3575e39fb1470027c
-    new: e360bb6dc843ffa59283705dd167478ea317567c
-    log: revlist-e9ff858c9adf-e360bb6dc843.txt
+  - ref: refs/heads/for-next
+    old: aec860a0d3d2b1e06ec33fa50514736b31f265d4
+    new: 87ff3a759db2e228c6c9f46dc86a1cda07958131
+    log: revlist-aec860a0d3d2-87ff3a759db2.txt
 
---===============2688087587007016303==
+--===============7545685421162683007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9ff858c9adf-e360bb6dc843.txt
+Content-Disposition: attachment; filename=revlist-aec860a0d3d2-87ff3a759db2.txt
 
 754c6f539effa8ad332e305e34665849638fa40f scsi: ufs: dt-bindings: amd-versal2: Add UFS Host Controller for AMD Versal Gen 2 SoC
 00b3e8480be7a49203594bd1fdb4fd46f3b69d59 scsi: firmware: xilinx: Add support for secure read/write ioctl interface
@@ -143,5 +143,8 @@ f60b8957d8cc18c8913812e693593debc3829b77 scsi: qedi: Add WQ_PERCPU to alloc_work
 2e2e559390db56c36ebaa8db82fd16a2e367dfb6 scsi: target: Add WQ_PERCPU to alloc_workqueue() users
 8d5cad38cf7da7848a2f4d7ca5adb4110b2cd968 scsi: pm80xx: Add WQ_PERCPU to alloc_workqueue() users
 e360bb6dc843ffa59283705dd167478ea317567c Merge patch series "replace old wq(s), added WQ_PERCPU to alloc_workqueue"
+90449f2d1e1f020835cba5417234636937dd657e scsi: sg: Do not sleep in atomic context
+8f42964790fe1aec98030566e36f088a078c5234 Merge branch 'fixes' into for-next
+87ff3a759db2e228c6c9f46dc86a1cda07958131 Merge branch 'misc' into for-next
 
---===============2688087587007016303==--
+--===============7545685421162683007==--
