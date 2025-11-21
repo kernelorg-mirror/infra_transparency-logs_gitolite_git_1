@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
-Date: Fri, 21 Nov 2025 02:29:38 -0000
-Message-Id: <176369217855.1653361.2916178398311594417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 21 Nov 2025 02:37:18 -0000
+Message-Id: <176369263843.1661693.3885423991819462779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexs/linux
-user: alexs
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/docs-next
-    old: cb56d3da170751ae7680713e7c05ca889185715d
-    new: 862f670205f718bf54a8f3b54b5ca28de33ff33e
+  - ref: refs/heads/main
+    old: b64ea1c5f4b7a5a8fcd223255ac0b748492cdb9f
+    new: a7687b292ef101b8fb21571eac418c90fab6f304
     log: |
-         6132026df02a6bb95dc3d909946234910f099b8a docs/zh_CN: Update the Chinese translation of kbuild.rst
-         a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182 docs/zh_CN: Add block/index.rst translation
-         dcb7fefe5296f6673da1d9101169a45d1fdc31da docs/zh_CN: Add blk-mq.rst translation
-         862f670205f718bf54a8f3b54b5ca28de33ff33e docs/zh_CN: Add data-integrity.rst translation
+         8b4e023d79b760d217dd1c462848c4a27fcc7677 ynl: samples: add tc filter example
+         491c5dc98b848c4781addd514caed95039e5366c net: ethtool: Add support for 1600Gbps speed
+         be3a435df74b3e84037fcc23ade68e01c4ed541f net/mlx5e: Add 1600Gbps link modes
+         5fb9a0b89e2ab959547cd684f497bd31bcb3261f bonding: 3ad: Add support for 1600G speed
+         a7687b292ef101b8fb21571eac418c90fab6f304 Merge branch 'net-add-1600gbps-1-6t-link-mode-support'
          
