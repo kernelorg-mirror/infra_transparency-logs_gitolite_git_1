@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0616102649021522087=="
+Content-Type: multipart/mixed; boundary="===============8132099563726444024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 21 Nov 2025 16:22:32 -0000
-Message-Id: <176374215258.2421067.16328755440192094122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 21 Nov 2025 16:22:39 -0000
+Message-Id: <176374215952.2421316.12197435633446070519@gitolite.kernel.org>
 
---===============0616102649021522087==
+--===============8132099563726444024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: fee6c075d28688b44adc9a4acad6977195ed6e22
-    new: 3efee7362dbf896072af1c1aaeaf9fd6e235c591
+  - ref: refs/heads/for-6.18
+    old: 295fe8406a357bc0abb901a21d1a554fd4dd1d05
+    new: 9f0c21bac5a8089e74b21d007e26fb4594b10d73
     log: |
-         3efee7362dbf896072af1c1aaeaf9fd6e235c591 ASoC: SDCA: Add stubs for FDL helper functions
+         9f0c21bac5a8089e74b21d007e26fb4594b10d73 spi: spi-fsl-lpspi: fix watermark truncation caused by type cast
          
 
---===============0616102649021522087==
+--===============8132099563726444024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1763742223 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1763742150-451f5f89c887a4a69e9f24673e6c65ab5e8ee747
+pusher C3F436CA30F5D8EB 1763742230 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1763742157-38b93ab66e3767c1ed70ef948311dfc47df37192
 
-fee6c075d28688b44adc9a4acad6977195ed6e22 3efee7362dbf896072af1c1aaeaf9fd6e235c591 refs/heads/asoc-6.19
+295fe8406a357bc0abb901a21d1a554fd4dd1d05 9f0c21bac5a8089e74b21d007e26fb4594b10d73 refs/heads/for-6.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkgkg8ACgkQJNaLcl1U
-h9AlfAf/U8ZEldyoSCxxkZh+U8bemS8BXidbrVV99dEollR8ld30kejH0WZtFBJV
-xYF2oLpEnqXHtI8GrHpE4gfS8jiHrrwdq1KjzxT2z10uRARYtkX+QS5fbpTV5DaG
-4+3jx1U9Ol40yKq6FAdf/FeTjo7DWfd6Bpc0tNzUz/s2lDV6gqsa9RLBRraPdpQ0
-ckuP1OHcVqGVlktmTqP3VKcK4e1YMkJ5J2qZRSYpQJH8qy3RI3m9V4zqr+M1fcHp
-2aQL8oUb5SSh20JT8vnalSyv08IRy+fN0ccnmacpvpulRoIH2EAupfGkX6HqdvLD
-fhv3cPsUgXHAMYlDOWUUVXxmeno6qA==
-=p8RN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkgkhYACgkQJNaLcl1U
+h9Bysgf/RKdZInTB5MqlcdnDFc/kirTMKfuZyqt7sVMsUzcqaeJug4MKXwJogeoY
+r/edmCRf64Ny0WzYRyOnJsttXeISrfsciJipv+9XFNJ4L60iUM484XHqdlmGuCIu
++0Px5VDvsV2/9eLgL6XqBmD5AmxuSZlMzG0JlypKpJNWjBjKikVwIlcSY8K+7gtv
+u4q2klIMaKpJ9A+CrbZa4gdFGORRte9WbqWm8z3IZvVfWkxiTqFcEy0sj8KL0eCK
+y66a2RkP0YpqRq6UACvWaNhJGGtqmtrGYZhiuKmmJhAgM6Bpxd5Tisn8McdMe/TF
+b6MLX1V//QNuEw7gKAdUlYVV9HPnEw==
+=wufB
 -----END PGP SIGNATURE-----
 
---===============0616102649021522087==--
+--===============8132099563726444024==--
