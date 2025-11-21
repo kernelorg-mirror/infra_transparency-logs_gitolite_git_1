@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1011000843736050437=="
+Content-Type: multipart/mixed; boundary="===============5995909623118722162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 21 Nov 2025 18:21:35 -0000
-Message-Id: <176374929547.2532483.9116020218668921134@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 18:21:38 -0000
+Message-Id: <176374929813.2532564.8131429667516354394@gitolite.kernel.org>
 
---===============1011000843736050437==
+--===============5995909623118722162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 106a67494c53c56f55a2bd0757be0edb6eaa5407
     new: a14602fcae17a3f1cb8a8521bedf31728f9e7e39
     log: revlist-106a67494c53-a14602fcae17.txt
 
---===============1011000843736050437==
+--===============5995909623118722162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -327,4 +327,4 @@ dc9e7e652f8d9220aaae35ecf2f71931d9e0fdc9 Merge tag 'wireless-2025-11-20' of http
 4b4749b7b4b3badabd0fa26f454782842db6ae53 net: atm: fix incorrect cleanup function call in error path
 a14602fcae17a3f1cb8a8521bedf31728f9e7e39 veth: reduce XDP no_direct return section to fix race
 
---===============1011000843736050437==--
+--===============5995909623118722162==--
