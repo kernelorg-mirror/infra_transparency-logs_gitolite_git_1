@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5241545332453486517=="
+Content-Type: multipart/mixed; boundary="===============5630456971734214740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 21 Nov 2025 18:21:13 -0000
-Message-Id: <176374927340.2531886.11477862098031865354@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 18:21:29 -0000
+Message-Id: <176374928974.2532193.3803508188318443463@gitolite.kernel.org>
 
---===============5241545332453486517==
+--===============5630456971734214740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: c55ae77e512e9b1deeb947ec88035c2031a62e5e
-    new: 8a82114f3eebbfd1c2285e6591a4bb09d40bf068
-    log: revlist-c55ae77e512e-8a82114f3eeb.txt
+  - ref: refs/heads/1GbE
+    old: 106a67494c53c56f55a2bd0757be0edb6eaa5407
+    new: a14602fcae17a3f1cb8a8521bedf31728f9e7e39
+    log: revlist-106a67494c53-a14602fcae17.txt
 
---===============5241545332453486517==
+--===============5630456971734214740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c55ae77e512e-8a82114f3eeb.txt
+Content-Disposition: attachment; filename=revlist-106a67494c53-a14602fcae17.txt
 
 d425aef66e62221fa6bb0ccb94296df29e4cc107 arm64: dts: rockchip: Set correct pinctrl for I2S1 8ch TX on odroid-m1
 e179de737d13ad99bd19ea0fafab759d4074a425 arm64: dts: rockchip: Fix PCIe power enable pin for BigTreeTech CB2 and Pi2
@@ -326,19 +326,5 @@ dc9e7e652f8d9220aaae35ecf2f71931d9e0fdc9 Merge tag 'wireless-2025-11-20' of http
 8e621c9a337555c914cf1664605edfaa6f839774 Merge tag 'net-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4b4749b7b4b3badabd0fa26f454782842db6ae53 net: atm: fix incorrect cleanup function call in error path
 a14602fcae17a3f1cb8a8521bedf31728f9e7e39 veth: reduce XDP no_direct return section to fix race
-688fed84187ea0d8243006393f4db7b40f227b52 ice: fix fwlog after driver reinit
-1c85bd3ee1230b8e71099a29e84852ac2d689636 ice: Fix enable_cnt imbalance on resume
-08e0b16bb0887691c84e8d16478aa2261b01828e ice: Fix enable_cnt imbalance on PCIe error recovery
-e5e78230a6111b1b31c0e5eedab2a7044c3c6ef9 i40e: Fix enable_cnt imbalance on PCIe error recovery
-86647fd91295fe75ed5a444bab75bfaa252e0dd3 idpf: fix memory leak of flow steer list on rmmod
-3a6a5e62b498f14d2928cfdc16a1c69ef2cba148 idpf: fix issue with ethtool -n command display
-ca6f1f9890a572abb9ced94b773628f9b61bb895 idpf: fix LAN memory regions command on some NVMs
-d2392bad589154ed4a887a7c125e2154f7cf974c iavf: fix off-by-one issues in iavf_config_rss_reg()
-f837922c9f6ce7137c5c91992a9d1c9272fec6cc idpf: cap maximum Rx buffer size
-69b4822e5765bd9fe8a1a73081164a7ad7f9c340 idpf: keep the netdev when a reset fails
-1fe3e43e429f4f38efb871132ee49fdc937dda6f idpf: detach and close netdevs while handling a reset
-f4019f10499f152dc8eb0e5191560eb956508597 idpf: fix memory leak in idpf_vport_rel()
-da46584b1741d0aaaf34cf37dce1287e2e3288b0 idpf: fix memory leak in idpf_vc_core_deinit()
-8a82114f3eebbfd1c2285e6591a4bb09d40bf068 i40e: fix src IP mask checks and memcpy argument names in cloud filter
 
---===============5241545332453486517==--
+--===============5630456971734214740==--
