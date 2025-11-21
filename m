@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 21 Nov 2025 19:18:46 -0000
-Message-Id: <176375272671.2584690.1039896816872660165@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 19:22:14 -0000
+Message-Id: <176375293463.2588709.2870154929227018742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
   - ref: refs/tags/clk-microchip-6.19
-    old: 7fd955782f66311d6272d5ca3f02d5827f01e0ec
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 296293af6c69a82632a14df79e1372ac5845a8cb
