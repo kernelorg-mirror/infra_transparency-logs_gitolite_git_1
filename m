@@ -1,24 +1,63 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 21 Nov 2025 14:15:54 -0000
-Message-Id: <176373455433.2294874.5238463667269975568@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7448663565522660783=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 21 Nov 2025 14:21:16 -0000
+Message-Id: <176373487654.2299486.14029028277802576413@gitolite.kernel.org>
+
+--===============7448663565522660783==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ip
-    old: 3d6a322c2085452ca22c57dd5569bd8f3fae4604
-    new: aa7056e4489a16f5a755643aedf299fd8ee0da26
+  - ref: refs/heads/usb-testing
+    old: a75a5b148b4e1d7c0525359be455d5a54024b714
+    new: 955a48a5353f4fe009704a9a4272a3adf627cd35
     log: |
-         ecf13f985b5df41c648ee38fa312765ce0d2e5bc man/man2const/IP_ADD_MEMBERSHIP.2const: Tweak after split
-         a09a044537cbbc5b0aee4e0d34112cf56a753f5f man/man7/ip.7, man/man2const/IP_ADD_SOURCE_MEMBERSHIP.2const: Split IP_ADD_SOURCE_MEMBERSHIP from ip(7)
-         9bbb66f3d682be5accea8122e61c984ae8c3d009 man/man2const/IP_ADD_SOURCE_MEMBERSHIP.2const: Tweak after split
-         1fe615bb7ff98db09cc9d492354ba423617e1d23 man/man2const/IP_ADD_SOURCE_MEMBERSHIP.2const, man/man2type/ip_mreq_source.2type, man/: Split struct ip_mreq_source from IP_ADD_SOURCE_MEMBERSHIP(2const)
-         b106d2a3c67f14bdcd4c77dc0131d16618993f3b man/man7/ip.7, man/man2const/IP_BIND_ADDRESS_NO_PORT.2const: Split IP_BIND_ADDRESS_NO_PORT from ip(7)
-         aa7056e4489a16f5a755643aedf299fd8ee0da26 man/man2const/IP_BIND_ADDRESS_NO_PORT.2const: Tweak after split
+         a5160af78be7fcf3ade6caab0a14e349560c96d7 usb: raw-gadget: cap raw_io transfer length to KMALLOC_MAX_SIZE
+         de7275cbc6171ce777fae7af444cf8efaf14258b drivers/usb/storage: use min() instead of min_t()
+         b43889fcae25c247f2ad8e4a304a04b22532767c dt-bindings: usb: dwc3-xilinx: Describe the reset constraint for the versal platform
+         e91bbe082878c9e9bcfddd68c5f823cf1f757f15 USB: add WQ_PERCPU to alloc_workqueue users
+         1052864d7d628f7c1f51cffea5ada554def31314 usb: typec: anx7411: add WQ_PERCPU to alloc_workqueue users
+         d53bdaae894768eccff55327d379e8c033ce30d8 dt-bindings: usb: ti,hd3ss3220: Add support for VBUS based on ID state
+         f8d2bf7c0c5d2e9eb1792587c3d29a4c5201634e usb: typec: hd3ss3220: Enable VBUS based on ID pin state
+         955a48a5353f4fe009704a9a4272a3adf627cd35 usb: usb-storage: No additional quirks need to be added to the EL-R12 optical drive.
          
+
+--===============7448663565522660783==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1763734945 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1763734873-c5501236123a441aef869f018b409a4c2129dd22
+
+a75a5b148b4e1d7c0525359be455d5a54024b714 955a48a5353f4fe009704a9a4272a3adf627cd35 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkgdaIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k3MP/2n4teypuHrz+SJwnunb
+nWdfAdgbxbOO+KQiBIBJ64H0Lnm972EcY/xGC7bvwhgOdgIUfiIvr6+9S/0VAJeo
+8BpBqbeaFm99aWHGlVa5DageVOnsw4E7DfOhIk5DFkY/qIA/WBqGE2doY2D9DxLa
+uNpPGYFrIH7R/1rpSgsEATo8smQojRuPNBgyXTPuzGGcYiIdA8u/bKYq+yQaHt1N
+bfxnC4N7LVH79ZiiSYoUXyQUEy1uskt2fdbgcLMt0/jGbs2vii3T4Po9xdy18DYq
+wMUjS+1P+LSlwTtpDXY0LHj3m6vdlUjTrkebFC//Ys7SEwWYs9Aa/ghPNwGHmjpc
+kYc2zxT5GdIW5T+M5sWotaPZ/PsmS2G0DSy4lAgnHl7RtqoiodfX+fuzyeb47418
+oizn8cx7H3F9nrboingJFb1kpudM69MriKxFelnuOWvVpbcatwTA67DKeXAPWPks
+AYx6RYaHseSrHG0nfStgUJv0CgUnK0UqvrfJbKufHgGSw0MkKwXRlRtRDaiLwugj
+wl+BP7/A2I9Ye0gsqKOhK4rWp0sTq45zYoSNI6mF6XWEIT20pF0VB0mYEnysnito
+pMwi50xjMCxbBlbgqc7jOYuWqH5atEHSez0Dl7ejtRrRyTl0jR3x3Yml1GTvEv8o
+AxWorP3trEZVygpggZcPGhf8
+=dw2Z
+-----END PGP SIGNATURE-----
+
+--===============7448663565522660783==--
