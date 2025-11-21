@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3351648963073843929=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 21 Nov 2025 09:56:33 -0000
-Message-Id: <176371899376.2063226.11345677918232454744@gitolite.kernel.org>
-
---===============3351648963073843929==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Fri, 21 Nov 2025 10:00:25 -0000
+Message-Id: <176371922550.2067285.6952808816840803187@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 83fc64aeaa563f8ab66f250905cce2c52663d53b
-    new: 1abaa9e9c181d77b88632f5d503b9925b7f3c83c
+  - ref: refs/heads/virtio/msg
+    old: 08dd2b103f56b89d12cb12ba1e816b2449a36ba2
+    new: 32138a86d9919ca28e597d5568784c5c26d4ce95
     log: |
-         1abaa9e9c181d77b88632f5d503b9925b7f3c83c 6.12-stable patches
+         32138a86d9919ca28e597d5568784c5c26d4ce95 vsock: Add shared-memory support for virtio and loopback
          
-
---===============3351648963073843929==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1763719064 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1763718991-f5b7ab857dbeef923522840181a53196efd7c841
-
-83fc64aeaa563f8ab66f250905cce2c52663d53b 1abaa9e9c181d77b88632f5d503b9925b7f3c83c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkgN5gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/FQP/jIjUeTXwfSepARmbiWr
-ANlA/MXrMGZ3Z0jOWzdugRgAJFwIjTt3PkKmIS9CYEckUP8Oy/EvZMhGNeNoNkF6
-SSfDY3+CdzQ4+N2RXAsWpEyYx3fRBPYlpzy4Utu00Ixbw+n2r1NzynwPFkVhecP4
-PazSAOAX9p9IWyJdHGpG3K+VZ1XIpdjS2FzfqRxhu8auFmCshy4mh90UFIRySmtJ
-UmkfuzRM08E6A35rgs5/CME4ZQd/BBvOTC8LzLJEO3HS5ZD7N09/W3CPz3h1DEsy
-77lFhpZgc14V/8uTy1KOJANHs/MLTvORpK23kcbQ/ym+Nogug1kAG2PuWhoC/QWA
-4dhAyOtyZAEOYf7j1y/TxX1Epw19FYFQ+SkqxG2NEeTKFmMzIu0DLCNprA7vHhDv
-qezfGasr+K/yvHhzWKtKEogR+BRpBS+OuiNqIWTRatjojsmEcwlvsRH0l7JBglA0
-E33KVpxXrSv+zVOEbVI1kgIQKjOaKCfR6iWwNz6WK2AT9EsDSJm4AFDnlRzPWBGJ
-P0AhGYGOKYYIUBSSgvj8MmINP8E3oMCRQMr41vij6I8LYskmJRxFPpmcW7uxpd+l
-gxRQ2HCRTWpWFIbiat8OaielSYfvkFxTlaD2D7P2qs3DB8beo8btJsy99Arv5nHa
-wVkApIc+TZqJ1M9JkF4Kyjrl
-=kcPc
------END PGP SIGNATURE-----
-
---===============3351648963073843929==--
+  - ref: refs/heads/virtio/msg-xen
+    old: 95c17db5b9869773628ce0da1687fc3b7b1d650e
+    new: 8d6b7b623852a5bc1d39af5ab57eac793f854123
+    log: |
+         32138a86d9919ca28e597d5568784c5c26d4ce95 vsock: Add shared-memory support for virtio and loopback
+         634e03334f16fd012bea39df16ba0b0bdfe01ffc virtio-msg: ffa: Add passive-mode host support
+         8e2a493fec9028ccaca59c3c3b48a569faad7393 DNU: firmware: arm_ffa: Keep host driver alive until guests enumerate
+         03cdbe89d25a3d5bb88247723d81112a6dad5017 DNU: firmware: arm_ffa: Force-match virtio-msg-ffa UUID
+         14143deef53e7a72b45d2f32080286a8739b06d6 DNU: defconfig: arm64: Reset to baseline
+         4c06d8f412acd522d4da6a6ce5bb1dd730b4f319 DNU: defconfig: arm64/x86_64: Enable virtio-msg and qemu/xen options
+         8d6b7b623852a5bc1d39af5ab57eac793f854123 DNU: defconfig: arm64: Enable built-in initramfs for guest testing
+         
