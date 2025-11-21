@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8165546258823706222=="
+Content-Type: multipart/mixed; boundary="===============0805094889942896435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 21 Nov 2025 18:02:00 -0000
-Message-Id: <176374812040.2513040.9497863286162483189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 21 Nov 2025 18:02:04 -0000
+Message-Id: <176374812428.2513180.1546602058936525312@gitolite.kernel.org>
 
---===============8165546258823706222==
+--===============0805094889942896435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 670500b41e543c5cb09eb9f7f0e4e26c5b5fdf7e
     new: fba27fe5aaf14e2aae1649a14309b77de2c9546c
     log: revlist-670500b41e54-fba27fe5aaf1.txt
 
---===============8165546258823706222==
+--===============0805094889942896435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1763748190 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1763748117-4a5b9319bdb5ea3d959b3a1e6fa0b2acccf563c2
+pusher C3F436CA30F5D8EB 1763748194 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1763748121-590e1d470b05ef2271b62e18756fd24d453477a5
 
-670500b41e543c5cb09eb9f7f0e4e26c5b5fdf7e fba27fe5aaf14e2aae1649a14309b77de2c9546c refs/heads/for-6.19
+670500b41e543c5cb09eb9f7f0e4e26c5b5fdf7e fba27fe5aaf14e2aae1649a14309b77de2c9546c refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkgqV4ACgkQJNaLcl1U
-h9CWqgf/SSuKj8RVGYdhTsiejVDxoA67WDSrjjTdDAVdMUuG9fV0lwECR8wxT8qP
-wpdPOVMirgOCX5h1wndxXayfQVAIa8uqDXcI9VwvaDE6EBfpOr1XW9qmn+uGx2Ub
-lDs/kat+rjllXuB/5AYtewNOgI2w4TDSe4IemCIR/w/SCuSWZkSOLMVTPdeZ3bbe
-/Yi/cN8RYbhcxs/TYXQwEhesMchfshJ00agbTziGCLZHb9t7pIGsrRYjdZr+4nl7
-mX2SiGqaQ8hufBbAcWsHcZjaaFYG9CtfyLhlM62i8TiRlrmLV+Y5zLD1Ulb2ABUy
-RTLar90pC3HJXUEwhstx21/lIcjxeQ==
-=3HVX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkgqWIACgkQJNaLcl1U
+h9Aqnwf+NbWA+1sBa1OB2lgQn6+sOlmZK+osi4J+ttWnriyZJ/A4izigL70lrR2h
+K4CmOBtr91Ob6uaGmgmmJcKRqS4LvY9RJji1NaWs+rRp/fEEKE7XYFuw7TJynyJo
+T8dI9hjcb5bHfpx7iC0qtwA8lx559pMtPEy7HiWgB+Th9GH5Rq7ezJUmOwma9gB5
+7RVHh35nmjWLZIeP2lyaUD4oS+YqLnhRgUCiJrfP0JXHVKePanJUEom+GmFJxscb
+gCgB8Mva7+EG2bR7cxn7xszYLrb5B5ZCaaxdEFbjxiZD7YCiF50WZ7WZBs/WOO01
+i+qbNBr+OpwqFIS4/fb+dQMsfowUTQ==
+=v5bw
 -----END PGP SIGNATURE-----
 
---===============8165546258823706222==
+--===============0805094889942896435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -678,4 +678,4 @@ a26ec8f3d4e56d4a7ffa301e8032dca9df0bbc05 lib/test_kho: check if KHO is enabled
 12d821bd13d42e6de3ecb1c13918b1f06a3ee213 regulator: Add FP9931/JD9930 driver
 fba27fe5aaf14e2aae1649a14309b77de2c9546c regulator: Add FP9931/JD9930
 
---===============8165546258823706222==--
+--===============0805094889942896435==--
