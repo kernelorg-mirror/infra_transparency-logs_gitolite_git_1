@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1233779178463889494=="
+Content-Type: multipart/mixed; boundary="===============5555012841424204376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Nov 2025 18:35:08 -0000
-Message-Id: <176375010863.2547310.16542465436065244241@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 18:35:11 -0000
+Message-Id: <176375011162.2547422.17735351994431605889@gitolite.kernel.org>
 
---===============1233779178463889494==
+--===============5555012841424204376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 865a5d1a29be48875ff68c6ba7e8377180ab8e33
     new: e2c20036a8879476c88002730d8a27f4e3c32d4b
     log: revlist-865a5d1a29be-e2c20036a887.txt
 
---===============1233779178463889494==
+--===============5555012841424204376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -459,4 +459,4 @@ b11d358bf8c306b18a86322d0d8d2549e971be97 net/mlx5: implement swp_l4_csum_mode vi
 8be656cfb931f79b3971407622422c62575abf90 selftest: netdevsim: test devlink default params
 e2c20036a8879476c88002730d8a27f4e3c32d4b Merge branch 'devlink-net-mlx5-implement-swp_l4_csum_mode-via-devlink-params'
 
---===============1233779178463889494==--
+--===============5555012841424204376==--
