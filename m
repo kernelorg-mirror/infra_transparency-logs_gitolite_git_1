@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 21 Nov 2025 02:25:23 -0000
-Message-Id: <176369192338.1650809.5989237585975130422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Fri, 21 Nov 2025 02:29:38 -0000
+Message-Id: <176369217855.1653361.2916178398311594417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/for-6.19
-    old: 318e18ed22e89397635e15095c014accaf47ed30
-    new: b1bcaed1e39a9e0dfbe324a15d2ca4253deda316
+  - ref: refs/heads/docs-next
+    old: cb56d3da170751ae7680713e7c05ca889185715d
+    new: 862f670205f718bf54a8f3b54b5ca28de33ff33e
     log: |
-         b1bcaed1e39a9e0dfbe324a15d2ca4253deda316 cpuset: Treat cpusets in attaching as populated
-         
-  - ref: refs/heads/for-next
-    old: 8a8b1c0c1194c0ff9831b9c71605029e1ff2bd89
-    new: 004d6fbaf4fce1eda2974f44362c0722be52da54
-    log: |
-         b1bcaed1e39a9e0dfbe324a15d2ca4253deda316 cpuset: Treat cpusets in attaching as populated
-         004d6fbaf4fce1eda2974f44362c0722be52da54 Merge branch 'for-6.19' into for-next
+         6132026df02a6bb95dc3d909946234910f099b8a docs/zh_CN: Update the Chinese translation of kbuild.rst
+         a41b1f1521d5d1cfdd983d38a5e02a2bf9b06182 docs/zh_CN: Add block/index.rst translation
+         dcb7fefe5296f6673da1d9101169a45d1fdc31da docs/zh_CN: Add blk-mq.rst translation
+         862f670205f718bf54a8f3b54b5ca28de33ff33e docs/zh_CN: Add data-integrity.rst translation
          
