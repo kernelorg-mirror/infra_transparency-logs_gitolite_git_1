@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 21 Nov 2025 18:02:26 -0000
-Message-Id: <176374814613.2513703.12099484982807898207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 21 Nov 2025 18:08:54 -0000
+Message-Id: <176374853402.2519316.13860891668120126506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: deb2a757c8f5121cfa8a426a394399f4e64f39e5
-    new: fba27fe5aaf14e2aae1649a14309b77de2c9546c
+  - ref: refs/heads/master
+    old: 7d0923533d26dc9cf8e7bcefc923dbcb419c5cd3
+    new: f2f0619cb0855448efb9ae303a63a96f3ce4aeaf
     log: |
-         0d360d54ea6d0fb3928205d6c67801d1719dd958 dt-bindings: vendor-prefixes: Add Fitipower
-         80bbdefdfb4174ff7e5d4f17658c845ef8f0b623 dt-bindings: regulator: Add Fitipower FP9931/JD9930
-         12d821bd13d42e6de3ecb1c13918b1f06a3ee213 regulator: Add FP9931/JD9930 driver
-         fba27fe5aaf14e2aae1649a14309b77de2c9546c regulator: Add FP9931/JD9930
+         f2f0619cb0855448efb9ae303a63a96f3ce4aeaf Drop rdma-irdma-update-kconfig.patch
          
