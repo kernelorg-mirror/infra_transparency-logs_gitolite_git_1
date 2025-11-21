@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4810868018603393337=="
+Content-Type: multipart/mixed; boundary="===============4886815882953107553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 21 Nov 2025 14:37:22 -0000
-Message-Id: <176373584270.2316460.10479064924481825768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 21 Nov 2025 14:37:25 -0000
+Message-Id: <176373584573.2316650.1770706725734019894@gitolite.kernel.org>
 
---===============4810868018603393337==
+--===============4886815882953107553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/spi-6.19
     old: d9813cd23d5a7b254cc1b1c1ea042634d8da62e6
     new: 43a3adb6dd39d98bf84e04569e7604be5e5c0d79
     log: |
@@ -24,28 +24,28 @@ changes:
          43a3adb6dd39d98bf84e04569e7604be5e5c0d79 spi: spidev: add compatible for arduino spi mcu interface
          
 
---===============4810868018603393337==
+--===============4886815882953107553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1763735913 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1763735840-ef5f718cb16f4f076c3c9c055a0fc775ca5c0232
+pusher C3F436CA30F5D8EB 1763735916 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1763735843-5cecb7b3078fe0cc221db6b91600fa2a1b6cc8c1
 
-d9813cd23d5a7b254cc1b1c1ea042634d8da62e6 43a3adb6dd39d98bf84e04569e7604be5e5c0d79 refs/heads/for-6.19
+d9813cd23d5a7b254cc1b1c1ea042634d8da62e6 43a3adb6dd39d98bf84e04569e7604be5e5c0d79 refs/heads/spi-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkgeWkACgkQJNaLcl1U
-h9BivQf+JjAymzLf9PZ5Y6y3FmSXYu2N53ikFb5q2yIGgzv0lEcyTK0PzB/tOs0W
-YT2cBhhJxUreEXFxanUIZ8NhPvrICAX9jT/fFmY7YCGURNg1lRryFqgNN5852VLi
-r4Xc7fkk4SCZm5wCgJZp2+7ZdU0W2/LDqZk/NMQQ0Uq7CdG9/Uww78lKdUq9ghgJ
-A1s59hpgFrnpdj9k/i1Eh8CHVA5ouUevGahLBWL5Su1PBwY7yv/ur6kazObmIqvU
-bjKot2CRZ08r51L/80p99T46ewTdxa8ylfHigRk+hlyhWkzaS6JM0i3pKh4vj2TB
-SmQFQZIkYj50RnTEM0GIFC3fc9LwGA==
-=rEHq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkgeWwACgkQJNaLcl1U
+h9DouQf+M8Do7zsj+HMxB9YKMzPPaoUzuQ55ctykwnzqGYfvep1YLpGIPnDRj+Ue
+u1pNRfPIxXu4rAW2adzBpZbdnzIZgrjDlt+++I3KIWovF6UXyZYWTtI7wwquaIt0
+gI6SYWbSBvBdJYQjV4/yyYyqCKbvxLxcX2eKSCgxKcx+9BIAr93wDhlbc140DwGp
+tVkti9XVkb2AC6CdSELx8qzut8rSjybAwxkr0qxictjFJ7j8y3ToJjs1J2ipO8pZ
+yH7trAusqorpoMKNtxIhJ28F5CWxa7gsoPdkg03S9w3Nos6m/D8zVPh/7iRNaikw
+lBcdWz9F8xpoOcFPVnPvrBsVZye7Qg==
+=59Rj
 -----END PGP SIGNATURE-----
 
---===============4810868018603393337==--
+--===============4886815882953107553==--
