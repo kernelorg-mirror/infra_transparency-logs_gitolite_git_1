@@ -1,74 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4410875368519617719=="
+Content-Type: multipart/mixed; boundary="===============0671258402498827435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 21 Nov 2025 10:22:06 -0000
-Message-Id: <176372052672.2088451.15751965318889193822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 21 Nov 2025 10:34:59 -0000
+Message-Id: <176372129986.2098471.7147810649766994571@gitolite.kernel.org>
 
---===============4410875368519617719==
+--===============0671258402498827435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/core/bugs
-    old: a53d0cf7f1cb3182ad533ff5cacfa5fd29c419ad
-    new: ac662411b075f1fb6608cd0af4f0cb0c26d9b4b9
-    log: revlist-a53d0cf7f1cb-ac662411b075.txt
+  - ref: refs/heads/objtool/core
+    old: cbcc0a19dc048239b6cc5b6b52536cd153963c9d
+    new: d15f0b6bc2bb22512209d3d9e10e30133592bf56
+    log: revlist-cbcc0a19dc04-d15f0b6bc2bb.txt
 
---===============4410875368519617719==
+--===============0671258402498827435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a53d0cf7f1cb-ac662411b075.txt
+Content-Disposition: attachment; filename=revlist-cbcc0a19dc04-d15f0b6bc2bb.txt
 
-4cdee7888f42f5573b380ddfa9da43208e759bdc objtool: Fix "unexpected end of section" warning for alternatives
-3e4b5f66cf1a7879a081f5044ff1796aa33cb999 objtool: Check for missing annotation entries in read_annotate()
-34244f784c6d062af184944a25f40ab50dfdb67a objtool: Const string cleanup
-31eca25f3a3b0de960ca9a478e5a4b2d0b2e8558 objtool: Clean up compiler flag usage
-72e4b6b44e9f53990315c6dd9fae2b2fc89c021a objtool: Remove .parainstructions reference
-96eceff331ea535b763b161df01300bbfd93b372 objtool: Convert elf iterator macros to use 'struct elf'
-25eac74b6bdbf6d15911b582e747e8ad12fcbf8f objtool: Add section/symbol type helpers
-4ea029389bf0cc44da6d3a24a520200e060ce6bf objtool: Mark .cold subfunctions
-c9e9b85d41f9079d6a10faabf70a0b18d5c0f177 objtool: Fix weak symbol hole detection for .cold functions
-a1526bcfcb6cb7cb601b9ff8e24d08881ef9afb8 objtool: Mark prefix functions
-a040ab73dfd1bc8198848a438f77497d8d03fba9 objtool: Simplify reloc offset calculation in unwind_read_hints()
-48f1bbaf2655c8178249cf10f1a50fac0a72e467 objtool: Avoid emptying lists for duplicate sections
-56754f0f46f6a36ba66e8c1b2878f7a4f1edfe3b objtool: Rename --Werror to --werror
-2b91479776b66cd815e339d420abbf4ae047bfb2 objtool: Resurrect --backup option
-935c0b6a059106c09bf5cdb70f42c1a8650843af objtool: Reindent check_options[]
-a05de0a772ce423895a3b07504a9ed93ae75e912 objtool: Refactor add_jump_destinations()
-02cf323a7ee07621f47369c547ae7c7505a7312a objtool: Simplify special symbol handling in elf_update_symbol()
-dd2c29aafde7653839791d3073515b62e5df1f4d objtool: Generalize elf_create_symbol()
-243e96385368fc5e31da4e9927a201a27a2ae936 objtool: Generalize elf_create_section()
-431dbabf2d9dd27cd597a9d1d4611e7ae64bf8bd objtool: Add elf_create_data()
-2c05ca02621837af7cd8fab6ae7421b9cd5dff6e objtool: Add elf_create_reloc() and elf_init_reloc()
-03c19a99ee69f4680d7da11c164ac655b4946b99 objtool: Add elf_create_file()
-3b92486fa1a905cf4be81c0b65961f547fcf7be3 objtool: Add annotype() helper
+bd5afca115f181c85f992d42a57cd497bc823ccb net: airoha: Take into account out-of-order tx completions in airoha_dev_xmit()
+a7cdc2086c19e435d4cec3f9393b5f46899c0468 HID: hid-debug: Fix spelling mistake "Rechargable" -> "Rechargeable"
+ee6e44dfe6e50b4a5df853d933a96bdff5309e6e sched/deadline: Stop dl_server before CPU goes offline
+17e3e88ed0b6318fde0d1c14df1a804711cab1b5 sched/fair: Fix pelt lost idle time detection
+ae11e08c3d0c78d08dac4cea30bf39ede2130b03 i2c: Remove redundant pm_runtime_mark_last_busy() calls
+72f437e674e54f1c143dccc67e5556d8d5acb241 i2c: usbio: Add ACPI device-id for MTL-CVF devices
+867537094124b0736ca2a40193de94fc5dc0b8d3 dt-bindings: i2c: Convert apm,xgene-slimpro-i2c to DT schema
+4f86eb0a38bc719ba966f155071a6f0594327f34 selftests: net: check jq command is supported
+d41f68dff783d181a8fd462e612bda0fbab7f735 ALSA: firewire: amdtp-stream: fix enum kernel-doc warnings
+512f0b7ebbc79d97d9485cd055902d439237e91f media: cx18: Fix invalid access to file *
+c90fad3e4157f943b6d5842d3ceb20b32e566986 media: ivtv: Fix invalid access to file *
+fd6e385528d8f85993b7bfc6430576136bb14c65 accel/qaic: Fix bootlog initialization ordering
+11f08c30a3e4157305ba692f1d44cca5fc9a8fca accel/qaic: Treat remaining == 0 as error in find_and_map_user_pages()
+52e59f7740ba23bbb664914967df9a00208ca10c accel/qaic: Synchronize access to DBC request queue head & tail pointer
+7e091add9c433bab6912228799bf508e2414acc3 nvme-auth: update sc_c in host response
+5bd0116d92a7849b12f0b4c8199d53aa80e449bc Merge tag 'for-linus-6.18-2' of https://github.com/cminyard/linux-ipmi
+9b332cece987ee1790b2ed4c989e28162fa47860 Merge tag 'nfsd-6.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+df90f6cd29d8c77be6de4f9adf9cbe42ce2f0016 slab: fix clearing freelist in free_deferred_objects()
+7f9ee5fc97e14682e36fe22ae2654c07e4998b82 bpf: test_run: Fix ctx leak in bpf_prog_test_run_xdp error path
+2e41e5a91a37202ff6743c3ae5329e106aeb1c6c cxl/acpi: Fix setup of memory resource in cxl_acpi_set_cache_size()
+0f6f1982cb28abf1b8a3a8ba906e2c6ade6a70e8 cxl: Set range param for region_res_match_cxl_range() as const
+f4d027921c811ff7fc16e4d03c6bbbf4347cf37a cxl: Fix match_region_by_range() to use region_res_match_cxl_range()
+257c4b03a2f7d8c15f79c79b09a561af9734f6c4 cxl/region: Use %pa printk format to emit resource_size_t
+05e63305c85c88141500f0a2fb02afcfba9396e1 sched_ext: Fix scx_kick_pseqs corruption on concurrent scheduler loads
+469276c06affdfd2d9e88c9f228bb81119ec1a20 PCI: Revert early bridge resource set up
+df5a1f4aeb6ff5e7c5ac47d16a347f03509dd441 MAINTAINERS: add myself as maintainer for b53
 a4bbb493a3247ef32f6191fd8b2a0657139f8e08 cxl/trace: Subtract to find an hpa_alias0 in cxl_poison events
-d2c60bde1c0fcac8b140e527546f80749ccd9c67 objtool: Move ANNOTATE* macros to annotate.h
-58f36a5756445dcd0a733504cd798955ebe968c1 objtool: Add ANNOTATE_DATA_SPECIAL
-aca282ab7e75dd3c1d14230146357a03bef12194 x86/asm: Annotate special section entries
-f6b740ef5f4724f95363ac0d664e88d221343fa1 objtool: Unify STACK_FRAME_NON_STANDARD entry sizes
-0d83da43b1e1c8ce19f2bb10f54a0fdf795364f7 objtool/klp: Add --checksum option to generate per-function checksums
-a3493b33384a01a1f0e38b420d1a4766aec903a6 objtool/klp: Add --debug-checksum=<funcs> to show per-instruction checksums
-dd590d4d57ebeeb826823c288741f2ed20f452af objtool/klp: Introduce klp diff subcommand for diffing object files
-7c2575a6406fb85946b05d8dcc856686d3156354 objtool/klp: Add --debug option to show cloning decisions
-ebe864b55304f74c4e1a8b6c899e34446b2be424 objtool/klp: Add post-link subcommand to finalize livepatch modules
-2058f6d1660edc4a9bda9bee627792b352121b10 objtool: Refactor prefix symbol creation code
-164c9201e1dad8d5c0c38f583dba81e4b6da9cc7 objtool: Add base objtool support for livepatch modules
-7ae60ff0b77f2e741049087a6d1beaf679b91a2c livepatch: Add CONFIG_KLP_BUILD
-f2c356d1d0f048e88c281a4178c8b2db138d3ac1 kbuild,objtool: Defer objtool validation step for CONFIG_KLP_BUILD
-abaf1f42ddd070662fb419aed29c985ea209bd88 livepatch/klp-build: Introduce fix-patch-lines script to avoid __LINE__ diff noise
-59adee07b568fb78e2bf07df1f22f3fe45b7240a livepatch/klp-build: Add stub init code for livepatch modules
-24ebfcd65a871df4555b98c49c9ed9a92f146113 livepatch/klp-build: Introduce klp-build script for generating livepatch modules
-2c2f0b8626917c48e4b12827d296a3c654612b90 livepatch/klp-build: Add --debug option to show cloning decisions
-78be9facfb5e711e5284ef1856401ea909eceeb2 livepatch/klp-build: Add --show-first-changed option to show function divergence
-b9976fa4649627c04dde26183333c3dcc90a0b76 livepatch: Introduce source code helpers for livepatch modules
 e603a342cf7ecd64ef8f36207dfe1caacb9e2583 selftests/bpf: make arg_parsing.c more robust to crashes
 7f0fddd817ba6daebea1445ae9fab4b6d2294fa8 net: core: fix lockdep splat on device unregister
 82ebecdc74ff555daf70b811d854b1f32a296bea exfat: fix improper check of dentry.stream.valid_size
@@ -155,7 +139,6 @@ c04e55b257b42f5eb5a2c5e92ebd043fd75fe3ab smb: client: Use MD5 library for SMB1 s
 225bc03d85427e7e3821d6f99f4f2d4a09350dda drm/xe/evict: drop bogus assert
 9af61fc91486c7ba93cf1ec3bd381978cac8308c ALSA: usb-audio: add volume quirks for MS LifeChat LX-3000
 c6fceaf166479c05f7d3158ef08e78ae3e3dfa23 ALSA: usb-audio: fix vendor quirk for Logitech H390
-00a155c691befdb10bea52c91d4c8c930bdaf73a Merge branch 'objtool/core' of https://git.kernel.org/pub/scm/linux/kernel/git/jpoimboe/linux
 62ef9b2a01a0af5199986a2466dace54b8703b3e ASoC: Add QCS615 sound card support
 f1a450f9e17d341f69f8fb19f6d13ef9f1aa508b ASoC: nau8821: Fix IRQ handling and improve jack
 5801e65206b065b0b2af032f7f1eef222aa2fd83 drm/sched: Fix potential double free in drm_sched_job_add_resv_dependencies
@@ -1037,18 +1020,35 @@ da6202139aef11c3c5881176e6e3184d88d8a0d9 serial: icom: Fix namespace collision a
 31863337138a0482d614f1090727dac87c936959 tty: synclink_gt: Fix namespace collision and startup() section placement with -ffunction-sections
 93863f3f859a626347ce2ec18947b11357b4ca14 kbuild: Check for functions with ambiguous -ffunction-sections section names
 11991999a20145b7f8af21202d0cac6b1f90a6e4 Revert "objtool: Warn on functions with ambiguous -ffunction-sections section names"
-2ace52718376fdb56aca863da2eebe70d7e2ddb1 Merge branch 'objtool/core'
-1be1fac648fe6184ef3d9a4b60a95eb53bffb0ee x86: Rework __bug_table helpers
-d292dbb5640c5b73b5ad889ae31fe889a2bf3137 bug: Add BUG_FORMAT infrastructure
-30b82568b04e279d0d99482db036f1bdfecac522 bug: Clean up CONFIG_GENERIC_BUG_RELATIVE_POINTERS
-5c47b7f3d1a9d7589026a201abb8ad445f029246 bug: Add BUG_FORMAT_ARGS infrastructure
-7d2c27a0ec5ecec980b623ded45758918c00b164 bug: Add report_bug_entry()
-3fd45b871fde00f4fac96318a136bd256ec0b90b bug: Implement WARN_ON() using __WARN_FLAGS()
-b9b2c455f462b67954bee5f17c3d68355d37586f bug: Allow architectures to provide __WARN_printf()
-c5d913fabb57e56177ce50f088dc8799fa39a585 x86/bug: Add BUG_FORMAT basics
-d1078e88c8196acfe440a00a5576745195f5815a x86/bug: Use BUG_FORMAT for DEBUG_BUGVERBOSE_DETAILED
-f038997c27f8b3626f244bb2e285bb49c1ec70c2 x86_64/bug: Implement __WARN_printf()
-74e8989703ff4c617c04b62f165dc545b6b9f589 x86/bug: Implement WARN_ONCE()
-ac662411b075f1fb6608cd0af4f0cb0c26d9b4b9 x86_64/bug: Inline the UD1
+211bd93b792dff996f07c5a74ceab3f655fc926f objtool: Move disassembly functions to a separated file
+3c43f51596462c995e4a5766812038bbd05c9732 objtool: Create disassembly context
+6b0168321a5f62a94f3d7912c0533310e06792ee objtool: Disassemble code with libopcodes instead of running objdump
+6032943d74a248a1c1d090ed724adc0c23ed480f tool build: Remove annoying newline in build output
+02f68b3509b8ff1d4bf932da19636e8b22e98c03 objtool: Print symbol during disassembly
+f41d228bfcc8514605f886ac04673a53e2267560 objtool: Store instruction disassembly result
+dee62d7f64626d27cbc7bb4b0393e0be7e8057b9 objtool: Disassemble instruction on warning or backtrace
+3017ac5209ec076a83ee4d7ab60ac616f5ec3458 objtool: Extract code to validate instruction from the validate branch loop
+70bf20c39fb95b4badbdb34ae27113963f6f9e99 objtool: Record symbol name max length
+d7eb36e1432dc7d0b1ffda034ee26dbfde7374ee objtool: Add option to trace function validation
+a221c1d86260b9623605ff2f3ff5f25220777f40 objtool: Trace instruction state changes during function validation
+83701b59c150c6ea3fc89f8b3ed9e2f5e151cded objtool: Improve register reporting during function validation
+85f3621e17b16e38a7513041b8bbe9da60e7ea65 objtool: Identify the different types of alternatives
+92f6b0a196aae213b36b319f631d326f4343d4ad objtool: Add functions to better name alternatives
+ab920f4772f30e9457202a0334c27e22289c0b8b objtool: Improve tracing of alternative instructions
+9135d288d0ea6ea446b30e986ff5d7b5509465c0 objtool: Do not validate IBT for .return_sites and .call_sites
+883213cdcf679b2bf6e3ad19710bb01af25c6371 objtool: Add the --disas=<function-pattern> action
+2655e132649f38e0cab499b258c67f7328194e74 objtool: Preserve alternatives order
+2091d7b68a5272c0f4cdd1bd85c0f7e71e25258a objtool: Print headers for alternatives
+591328916a4709efc94a735d6f7b3143f8b892aa objtool: Disassemble group alternatives
+ce0cc1a9dfc18221d20eb8d458d17538b71fb089 objtool: Print addresses with alternative instructions
+bc1c46df3691dd74b16ff261f9b81c376869e3ea objtool: Disassemble exception table alternatives
+5d0eb6a17e0de54ac48a8728c406480f8238bd60 objtool: Disassemble jump table alternatives
+2ba6872868c2d59c72ae80f8b8b7a93abd5ab8aa objtool: Fix address references in alternatives
+0dfa200ddd1bdef3f62624d4a859429c2cf94b8f objtool: Provide access to feature and flags of group alternatives
+0389b1488f6bceb056fd02e1c563aa054d00c57f objtool: Function to get the name of a CPU feature
+d4d02622c3eed370d92c678f2e1625d1ec98941a objtool: Improve naming of group alternatives
+a1c6c05887bac0ff4b161360cbb6f7f587b4db7b objtool: Compact output for alternatives with one instruction
+edf61f6929596963ca65ae7e93721c9eef8b99b3 objtool: Add wide output for disassembly
+d15f0b6bc2bb22512209d3d9e10e30133592bf56 objtool: Trim trailing NOPs in alternative
 
---===============4410875368519617719==--
+--===============0671258402498827435==--
