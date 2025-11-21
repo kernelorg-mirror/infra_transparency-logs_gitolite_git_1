@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0334183627970272513=="
+Content-Type: multipart/mixed; boundary="===============0958979818286335660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 21 Nov 2025 01:11:06 -0000
-Message-Id: <176368746615.1583632.11554548532539092960@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 01:11:07 -0000
+Message-Id: <176368746743.1583795.8824181230555941088@gitolite.kernel.org>
 
---===============0334183627970272513==
+--===============0958979818286335660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: febb34c02328efb88170cb9481f1b08c7190d642
-    new: 7f1dae318f81e508ef59835bc82bdf33e4cb1021
-    log: revlist-febb34c02328-7f1dae318f81.txt
+  - ref: refs/heads/mm-unstable
+    old: 102494e6776f316b6cf2924976681d790f278cf1
+    new: 3cc7f0cba07e37ecdac77d144fb8b58eca60e164
+    log: revlist-102494e6776f-3cc7f0cba07e.txt
 
---===============0334183627970272513==
+--===============0958979818286335660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-febb34c02328-7f1dae318f81.txt
+Content-Disposition: attachment; filename=revlist-102494e6776f-3cc7f0cba07e.txt
 
 d94d9293a1ecde99514026950ded294dd5562e30 mm: vmscan: remove folio_test_private() check in pageout()
 4f8961b29501f40a044bba56f61cc9b7e9bbdf94 mm: vmscan: simplify the folio refcount check in pageout()
@@ -169,21 +169,5 @@ d6cbe723c058e345051b4ec76b22efad06110a45 memcg: use mod_node_page_state to updat
 52dbc4d71a6f646e5f89a9dc87c9b2581f6c2b72 memcg: remove __mod_lruvec_kmem_state
 e405d04411f4efd1803d13eca36b6a6447c4871d memcg: remove __mod_lruvec_state
 3cc7f0cba07e37ecdac77d144fb8b58eca60e164 memcg: remove __lruvec_stat_mod_folio
-8991beb7191292df88bcc4731dca01311ef04cc9 mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
-4cc5e66a95fc311b139f035318e2e39832ee69a0 mm: softdirty: add pgtable_supports_soft_dirty()
-ae0206f241a8aa2f895710fa0375603cd35d8d44 mm: userfaultfd: add pgtable_supports_uffd_wp()
-0ece63325a00d6a1cac54e302f001bc2f73dc89e riscv: add RISC-V Svrsw60t59b extension support
-fc83052f43d567fce57125b355db78c6ba6ffd57 riscv: mm: add soft-dirty page tracking support
-2576c1118d336b3b2c1831fdb232f7d43131ec54 riscv: mm: add userfaultfd write-protect support
-d464a47675a511f974892da9bb8fa4c1506304e4 dt-bindings: riscv: Add Svrsw60t59b extension description
-f23ef358028b8f53b05471c955c47acb4f356190 mm/swap: fix wrong plist empty check in swap_alloc_slow()
-e69012f4c427e35c51b4dd47420c56eb073116b1 mm/memory-failure: remove the selection of RAS
-ed733b7028d398dfc6a0f6307acd7cf684fd7f3f mm: tweak __vma_enter_locked()
-e4d64571dda1a5c64e9458a0300ac1fdc36640b1 zram: fix the issue that the write - back limits might overflow
-39cdfe04452ae8124e647a5bee2f3f20428e63e1 mm, swap: fix memory leak in setup_clusters() error path
-bcd239e5e8252431a1d58b3175e2dbbc0b6e82ba mm, swap: use SWP_SOLIDSTATE to determine if swap is rotational
-083aca9c0ce0c97b424d5bbe90b66675cccc2fdb mm, swap: remove redundant comment for read_swap_cache_async
-807a14174d5c69f3433bdc5514a1219765792167 mm: swap: change swap_alloc_slow() to void
-7f1dae318f81e508ef59835bc82bdf33e4cb1021 mm: swap: remove scan_swap_map_slots() references from comments
 
---===============0334183627970272513==--
+--===============0958979818286335660==--
