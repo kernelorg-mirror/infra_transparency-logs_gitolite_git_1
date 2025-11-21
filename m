@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 21 Nov 2025 15:36:36 -0000
-Message-Id: <176373939678.2372875.4366036938395082401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Fri, 21 Nov 2025 15:37:57 -0000
+Message-Id: <176373947714.2373657.15996657196443394162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/exynos/dt
-    old: 0000000000000000000000000000000000000000
-    new: cad767a9af055c921e29b7b268f99e83c82baab3
+  - ref: refs/heads/main
+    old: 66431228104e4a5b616f5e4bfaa8257b3ca5744e
+    new: 9f964f745b661989ede931691a763db69ffab13d
+    log: |
+         9f964f745b661989ede931691a763db69ffab13d docs: update dependency graph
+         
