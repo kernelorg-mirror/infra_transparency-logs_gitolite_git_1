@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Fri, 21 Nov 2025 15:33:09 -0000
-Message-Id: <176373918976.2368262.11314046916103863263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 21 Nov 2025 15:34:07 -0000
+Message-Id: <176373924793.2369429.10380877881574131325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-user: jarkko
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/0.9.1
+  - ref: refs/heads/renesas/dt
     old: 0000000000000000000000000000000000000000
-    new: c51413ac8da8258eda4a2ca8179bcda4b4999ec5
+    new: 9d22a34a016313137b9e534a918f1f9aa790aa69
