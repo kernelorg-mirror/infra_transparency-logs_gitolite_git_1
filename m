@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Fri, 21 Nov 2025 14:23:12 -0000
-Message-Id: <176373499213.2300695.10068274794895185482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 21 Nov 2025 14:23:17 -0000
+Message-Id: <176373499742.2300889.17556366387548813018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/mvebu-dt64-6.19-1
-    old: 0000000000000000000000000000000000000000
-    new: 1c07cc7447724a770cbca44fff899b3036c06f2e
+  - ref: refs/heads/tmp
+    old: 4dc2aafa29ce8fc3c80e5bf5b39ab1e09a586b9e
+    new: 0000000000000000000000000000000000000000
