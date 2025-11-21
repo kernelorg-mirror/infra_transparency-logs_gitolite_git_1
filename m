@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 21 Nov 2025 11:52:24 -0000
-Message-Id: <176372594449.2168210.3199064808034440856@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 11:54:23 -0000
+Message-Id: <176372606301.2169846.16592654398816015664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/dm-6.18
-    old: a612d24e850b28c16384cf071636034935447e43
-    new: fe680d8c747f4e676ac835c8c7fb0f287cd98758
+  - ref: refs/heads/for-next
+    old: dae4fb87dbee3c7aec616afc0d9955f1d7c80781
+    new: 55206ce98c71d6828f48d10889a1d939e0360dc6
     log: |
-         fe680d8c747f4e676ac835c8c7fb0f287cd98758 dm-verity: fix unreliable memory allocation
+         a6ba77e4312bfec8ea29ddbcb57a135dc7f16b8b dm-verity: remove useless mempool
+         7f75a7c9213aa5233310b20b8a5b3fd590c4948a dm: test for REQ_ATOMIC in dm_accept_partial_bio()
+         324496d15fb22ed7b95906d75a1dddce11104e28 dm-crypt: enable DM_TARGET_ATOMIC_WRITES
+         55206ce98c71d6828f48d10889a1d939e0360dc6 dm-bufio: align write boundary on physical block size
          
