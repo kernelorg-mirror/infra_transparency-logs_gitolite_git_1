@@ -1,61 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============9039208023359132868=="
+Content-Type: multipart/mixed; boundary="===============1114473656913794946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Fri, 21 Nov 2025 07:03:12 -0000
-Message-Id: <176370859277.1879879.4306342422073376832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Fri, 21 Nov 2025 07:40:01 -0000
+Message-Id: <176371080149.1909432.10065227374653078593@gitolite.kernel.org>
 
---===============9039208023359132868==
+--===============1114473656913794946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 71b0b1f8c8523932e7c2ca408db94dde5d730eb8
-    new: 08dd2b103f56b89d12cb12ba1e816b2449a36ba2
-    log: |
-         6b0da2182d7037324975434b4e17687f4a4be38b of: reserved-memory: Add reserved_mem_device_init()
-         4b8cec3ad194545a6d62fcca02c0bbf26ac7195e dma-buf: Add shmem callbacks to dma_buf_ops
-         6e988e5aed5e1b95b34f78a3f455dbfcdb3466ae virtio: Add support for virtio-msg transport
-         d3f3f308b20b138cb901770337d94b2c0e9e7c21 virtio-msg: Add optional userspace message I/O interface
-         8214af23ff83f15a704e70c9d5b58355bfdec02b virtio-msg: Add FF-A bus transport implementation
-         4f25fdd3bb51356deebfd4aa825eb038065c0cfc virtio-msg: Add loopback bus for testing
-         318f3c06c85d8761d125b1fe1cd3627f06f306ba virtio-msg: ffa: Add DMA ops and memory sharing support
-         79e0d3039aaaee385796ff510fc6570c2ca73e55 virtio-msg: ffa: Add DMA-heap allocator
-         8a02e662513f9478469ba12c6b87fa38f7a396f2 virtio-msg: ffa: Poll events when indirect messages are unsupported
-         08dd2b103f56b89d12cb12ba1e816b2449a36ba2 vsock: Add DMA-based memory sharing support
-         
-  - ref: refs/heads/virtio/msg-xen
-    old: eb87bacd58afb393aa190b14b419807c33b5a3a9
-    new: 95c17db5b9869773628ce0da1687fc3b7b1d650e
-    log: revlist-eb87bacd58af-95c17db5b986.txt
+  - ref: refs/heads/dmabuf-vfio-v10
+    old: 8481c58cb0415ac2c6f93fcdc92888472495ee9c
+    new: 446ff966315f5e051a599be7e42b11edebce7fd3
+    log: revlist-8481c58cb041-446ff966315f.txt
 
---===============9039208023359132868==
+--===============1114473656913794946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb87bacd58af-95c17db5b986.txt
+Content-Disposition: attachment; filename=revlist-8481c58cb041-446ff966315f.txt
 
-6b0da2182d7037324975434b4e17687f4a4be38b of: reserved-memory: Add reserved_mem_device_init()
-4b8cec3ad194545a6d62fcca02c0bbf26ac7195e dma-buf: Add shmem callbacks to dma_buf_ops
-6e988e5aed5e1b95b34f78a3f455dbfcdb3466ae virtio: Add support for virtio-msg transport
-d3f3f308b20b138cb901770337d94b2c0e9e7c21 virtio-msg: Add optional userspace message I/O interface
-8214af23ff83f15a704e70c9d5b58355bfdec02b virtio-msg: Add FF-A bus transport implementation
-4f25fdd3bb51356deebfd4aa825eb038065c0cfc virtio-msg: Add loopback bus for testing
-318f3c06c85d8761d125b1fe1cd3627f06f306ba virtio-msg: ffa: Add DMA ops and memory sharing support
-79e0d3039aaaee385796ff510fc6570c2ca73e55 virtio-msg: ffa: Add DMA-heap allocator
-8a02e662513f9478469ba12c6b87fa38f7a396f2 virtio-msg: ffa: Poll events when indirect messages are unsupported
-08dd2b103f56b89d12cb12ba1e816b2449a36ba2 vsock: Add DMA-based memory sharing support
-0050bf8c043f2beb712a738916ee20011274cfdc virtio-msg: ffa: Add passive-mode host support
-9fde026b2199074c7f4bdd3a8f0f0d6510192178 DNU: firmware: arm_ffa: Keep host driver alive until guests enumerate
-bf104c5f0cb6964fa8e2673287babbdf797ca827 DNU: firmware: arm_ffa: Force-match virtio-msg-ffa UUID
-878abe92508f84f03eda18b2a9c2c80ba59b88c2 DNU: defconfig: arm64: Reset to baseline
-f2ed1fe111f51534f0f86ae5e6a7a2323b663c85 DNU: defconfig: arm64/x86_64: Enable virtio-msg and qemu/xen options
-95c17db5b9869773628ce0da1687fc3b7b1d650e DNU: defconfig: arm64: Enable built-in initramfs for guest testing
+ec896afe35351ab52ef509c705b8af5a481445bb vfio/pci: Allow MMIO regions to be exported through dma-buf
+76dccfcde97af6c39e070f1831fd963bfe26b687 PCI/P2PDMA: Separate the mmap() support from the core logic
+d4455ff3a0b73d61f13eef50d6f6116edc36e6d2 PCI/P2PDMA: Simplify bus address mapping API
+76782ce0b35adc77d370d8d2b02a85ab328fc33f PCI/P2PDMA: Refactor to separate core P2P functionality from memory allocation
+5976afbdbae588b76e82f59675641d421c2c9c3d PCI/P2PDMA: Provide an access to pci_p2pdma_map_type() function
+10d5a803ae361ef7117f2ba0e43615d943404f9f PCI/P2PDMA: Document DMABUF model
+259379c8c1359a0ffad38550fdc732ff7aa8e7d4 dma-buf: provide phys_vec to scatter-gather mapping routine
+724ae1222d42c6a94181348777c9df43eb860be4 vfio: Export vfio device get and put registration helpers
+2340e5735cad82082353de527854dd656c2eaadf vfio/pci: Share the core device pointer while invoking feature functions
+54026a0f20613cd17a82b5f17e821ccf0ad99568 vfio/pci: Enable peer-to-peer DMA transactions by default
+51c166e60931d314b242ac51013722fbc5a8038d vfio/pci: Add dma-buf export support for MMIO regions
+b68e8904c2d932d9919a4a3d24561b2a14539b50 vfio/nvgrace: Support get_dmabuf_phys
+f048afd527d59f4c70c7264965e4a46fd527e692 vfio: selftests: Add DMABUF test
+446ff966315f5e051a599be7e42b11edebce7fd3 vfio/pci: Prevent exporters with pinned interface
 
---===============9039208023359132868==--
+--===============1114473656913794946==--
