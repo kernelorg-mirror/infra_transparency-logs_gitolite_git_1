@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 21 Nov 2025 11:46:27 -0000
-Message-Id: <176372558772.2163132.6703785647224818375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglozar/linux
+Date: Fri, 21 Nov 2025 11:51:45 -0000
+Message-Id: <176372590584.2167596.12917743026416665216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/tglozar/linux
+user: tglozar
 changes:
-  - ref: refs/heads/dm-6.19
-    old: 9488f3c7c4c59506cb8f5d9dd8c1b3b1c3cd22f6
-    new: dae4fb87dbee3c7aec616afc0d9955f1d7c80781
+  - ref: refs/heads/rtla-for-next
+    old: 368434d20d021aac8071bd08b1a471c588ce9ccd
+    new: 3138df6f0cd04a75f8efa5b5270ba56d00a84ae6
     log: |
-         fce0ead1b7542095f042126b0259144f34d9db33 dm-verity: disable recursive forward error correction
-         95683222e2597be0f217778cd8431f5113275a46 dm-verity: fix unreliable memory allocation
-         aa5d35f223c7d0d79b35e5225e64944154ade186 dm-verity: remove useless mempool
-         3dd23544e7a3b3afbd8ac7d09cbab37b18f420a7 dm: test for REQ_ATOMIC in dm_accept_partial_bio()
-         7dea567ce6925440af08e21e534a10c69111c5ad dm-crypt: enable DM_TARGET_ATOMIC_WRITES
-         dae4fb87dbee3c7aec616afc0d9955f1d7c80781 dm-bufio: align write boundary on physical block size
+         d649e9f04cb0224817dac8190461ef1674e32b37 rtla/tests: Extend action tests to 5s
+         34c170ae5c3036ef879567a37409a2859e327342 rtla/tests: Fix osnoise test calling timerlat
+         8cbb25db81544f0bfc05c037ad61d3e70d031f88 tools/rtla: Add fatal() and replace error handling pattern
+         4e5e7210f9721796a21a4b2d646fa043a7d88fef tools/rtla: Replace timerlat_top_usage("...") with fatal("...")
+         8f4264e046ef75d35cfffeb7aadfc5d84717df3e tools/rtla: Replace timerlat_hist_usage("...") with fatal("...")
+         92b5b55e5e8eeed9094dc68cdbb1afe31dd0ff37 tools/rtla: Replace osnoise_top_usage("...") with fatal("...")
+         49c15794198ff03a4fa844f894f7e5d4bdbffcfc tools/rtla: Replace osnoise_hist_usage("...") with fatal("...")
+         7b71f3a6986c93defbb72bb6c143e04122720cb1 rtla: Fix -C/--cgroup interface
+         ddb6e42494e5c48c17e64f29b7674b9add486a19 rtla: Fix -a overriding -t argument
+         61f1fd5d69fde27cfc277d1f68a1e6e4f7265b4b rtla/tests: Don't rely on matching ^1ALL
+         3138df6f0cd04a75f8efa5b5270ba56d00a84ae6 rtla/timerlat: Exit top main loop on any non-zero wait_retval
          
