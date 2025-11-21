@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6214386897755099112=="
+Content-Type: multipart/mixed; boundary="===============0874211695518490974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 21 Nov 2025 08:39:20 -0000
-Message-Id: <176371436004.1958871.8434944903892659563@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 08:39:50 -0000
+Message-Id: <176371439048.1959492.13124160514079181665@gitolite.kernel.org>
 
---===============6214386897755099112==
+--===============0874211695518490974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,56 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6ebc53be1a73bf5419898ff2dc7e294ae54b89a4
-    new: 7dad09b62287f22e6c3847ef73262b333e13d8b5
-    log: revlist-6ebc53be1a73-7dad09b62287.txt
+    old: 7dad09b62287f22e6c3847ef73262b333e13d8b5
+    new: 312af7c9b3a7e9656f6e682274b020e1367b424f
+    log: revlist-7dad09b62287-312af7c9b3a7.txt
+  - ref: refs/heads/tip/urgent
+    old: bbaaa09484b5c2d3e39778f5faf70ceb71980a76
+    new: 43ea26ab74d30b5aea51d3d195e5a2d159c8a17c
+    log: revlist-bbaaa09484b5-43ea26ab74d3.txt
 
---===============6214386897755099112==
+--===============0874211695518490974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ebc53be1a73-7dad09b62287.txt
+Content-Disposition: attachment; filename=revlist-7dad09b62287-312af7c9b3a7.txt
+
+b5211bf31671f7210f3900244ab511e226bbacf4 Merge branch into tip/master: 'perf/urgent'
+43ea26ab74d30b5aea51d3d195e5a2d159c8a17c Merge branch into tip/master: 'timers/urgent'
+aaf87e60456c9a057960931ea2fb786fee7ab887 Merge branch into tip/master: 'core/bugs'
+bafb192ab5a8548ba250ce816a8d4d50a90ed923 Merge branch into tip/master: 'core/core'
+7f5d54ddab158b51fd6bcb3e890c0992d4b1bdaa Merge branch into tip/master: 'core/rseq'
+a4378b6ed2436e54f8fb1139fbac14eb2ed926c5 Merge branch into tip/master: 'core/uaccess'
+0ff2b76054e9fb2aa524a544505f954a13a6a38f Merge branch into tip/master: 'irq/core'
+4760f80e44737907ca33a1930465c3c6613615e2 Merge branch into tip/master: 'irq/drivers'
+352dca917fc1b3766073013e39d6db84189d40c9 Merge branch into tip/master: 'irq/msi'
+ce8c11a776f4e3dc3c08a83e6c52014af81d2d3b Merge branch into tip/master: 'locking/core'
+b7af113d7b45660d71653b929962a95ab06ea7c9 Merge branch into tip/master: 'locking/futex'
+7aa9b07457e5a4b5250dff04b54ce29b778f33d1 Merge branch into tip/master: 'objtool/core'
+99c2330e870b14adb862846c3a3ecc4ac902c8ed Merge branch into tip/master: 'perf/core'
+c1154c680318da1293c242bd8b8fe7360cc168a9 Merge branch into tip/master: 'ras/core'
+81fbd1a83d033bad4b46e613698e20cf6751f8a1 Merge branch into tip/master: 'sched/core'
+b42679f03a62213958e8981eff166c05dbe2a276 Merge branch into tip/master: 'timers/core'
+987ef9d2ed5e38e1c365aad63649b282d34b912e Merge branch into tip/master: 'x86/apic'
+a287a60d01cb8aa780084772f91a4a9b5a8414af Merge branch into tip/master: 'x86/boot'
+f11f31dfce53110690415441b7d17163a3e67e74 Merge branch into tip/master: 'x86/bugs'
+99b7e621415569a459fa7c8921327a30d58d155a Merge branch into tip/master: 'x86/build'
+15a23672627f3ee53118fa1112b0ce984ee36a92 Merge branch into tip/master: 'x86/cache'
+d5ebe5080d3194c42a3f90004539b43107993087 Merge branch into tip/master: 'x86/cleanups'
+1d70430ee36bdb527d70bdbfece90fc565a510d4 Merge branch into tip/master: 'x86/core'
+04fa78398baa1b23313d9401cd27f97fcef4c50c Merge branch into tip/master: 'x86/cpu'
+1bb30ad8da4f080ec318aaf65f33e7a336cfa3a3 Merge branch into tip/master: 'x86/entry'
+0600d43d080ac87d097298bc0177eb53824416f1 Merge branch into tip/master: 'x86/microcode'
+60f9143fc439a98435b4a533f3b7145176f42726 Merge branch into tip/master: 'x86/misc'
+e166148345e38b1e542d2d8fba18c885f978d29e Merge branch into tip/master: 'x86/mm'
+134b5be926be08cebe78d2d9535bd1fb792537f1 Merge branch into tip/master: 'x86/sev'
+312af7c9b3a7e9656f6e682274b020e1367b424f Merge branch into tip/master: 'x86/sgx'
+
+--===============0874211695518490974==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bbaaa09484b5-43ea26ab74d3.txt
 
 8d2a2a49c30f67a480fa9ed25e08436a446f057e xfrm: drop SA reference in xfrm_state_update if dir doesn't match
 10deb69864840ccf96b00ac2ab3a2055c0c04721 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
@@ -83,6 +124,7 @@ e1bb28bf13f41af5d7cc48359d1755cbcda4d502 selftest: af_unix: Add test for SO_PEEK
 106a67494c53c56f55a2bd0757be0edb6eaa5407 Merge branch 'af_unix-fix-so_peek_off-bug-in-unix_stream_read_generic'
 d2932a59c2d4fb364396f21df58431c44918dd47 ACPI: APEI: EINJ: Fix EINJV2 initialization and injection
 e31a11be41cd134f245c01d1329e7bc89aba78fb net: phylink: add missing supported link modes for the fixed-link
+807e0d187da4c0b22036b5e34000f7a8c52f6e50 tick/sched: Fix bogus condition in report_idle_softirq()
 e837b9091b277ae6f309d7e9fc93cb0308cf461f wifi: rtw89: hw_scan: Don't let the operating channel be last
 5e15395f6d9ec07395866c5511f4b4ac566c0c9b mptcp: fix ack generation for fallback msk
 4f102d747cadd8f595f2b25882eed9bec1675fb1 mptcp: avoid unneeded subflow-level drops
@@ -103,6 +145,7 @@ d70b592551ff23747e26e74081205babf8dba9b6 l2tp: reset skb control buffer on xmit
 dc9e7e652f8d9220aaae35ecf2f71931d9e0fdc9 Merge tag 'wireless-2025-11-20' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 7d277a7a58578dd62fd546ddaef459ec24ccae36 be2net: pass wrb_params in case of OS2BMC
 002541ef650b742a198e4be363881439bb9d86b4 vsock: Ignore signal/timeout on connect() if already established
+7b5ab04f035f829ed6008e4685501ec00b3e73c9 timekeeping: Fix resource leak in tk_aux_sysfs_init() error paths
 8e621c9a337555c914cf1664605edfaa6f839774 Merge tag 'net-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6ba3bb334835eeca7e2bd2db4c9dbb0343ebff4f Merge tag 'platform-drivers-x86-v6.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 1753d40dce2023405cafd9e3bec169674ed99e2d Merge tag 'acpi-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -110,6 +153,7 @@ dc9e7e652f8d9220aaae35ecf2f71931d9e0fdc9 Merge tag 'wireless-2025-11-20' of http
 7b6216baae751369195fa3c83d434d23bcda406a sched_ext: Fix scx_enable() crash on helper kthread creation failure
 c966813ea1206abc50a4447cb05cd7419e506806 Merge tag 'slab-for-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 fd95357fd8c6778ac7dea6c57a19b8b182b6e91f Merge tag 'sched_ext-for-6.18-rc6-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-7dad09b62287f22e6c3847ef73262b333e13d8b5 Merge branch 'linus'
+b5211bf31671f7210f3900244ab511e226bbacf4 Merge branch into tip/master: 'perf/urgent'
+43ea26ab74d30b5aea51d3d195e5a2d159c8a17c Merge branch into tip/master: 'timers/urgent'
 
---===============6214386897755099112==--
+--===============0874211695518490974==--
