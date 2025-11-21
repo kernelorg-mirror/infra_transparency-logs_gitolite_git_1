@@ -1,25 +1,70 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 21 Nov 2025 02:01:05 -0000
-Message-Id: <176369046589.1628736.9852282420977368557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+Date: Fri, 21 Nov 2025 02:02:13 -0000
+Message-Id: <176369053395.1629441.10944652472686980661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+user: andrea
 changes:
-  - ref: refs/heads/main
-    old: f15bcd071913dfa754cabb85e9fff4eded4e35b2
-    new: 22eaa206fcacc54e8bc0487c7667883df9200e57
-    log: |
-         f7ac9a0bbe3f15d0164ac09688e336933cb54a03 net: stmmac: dwc-qos-eth: simplify switch() in dwc_eth_dwmac_config_dt()
-         8c696659f47aa4f4e5f35808b416664378930dd9 net: stmmac: move common DMA AXI register bits to common.h
-         2704af20c8e5e7f5f1cfb56003d246a7936458f6 net: stmmac: provide common stmmac_axi_blen_to_mask()
-         6ff3310ca28298e363c78143b6a2f20312421f4e net: stmmac: move stmmac_axi_blen_to_mask() to stmmac_main.c
-         e676cc8561c86799f9e12f8cea550c226130821a net: stmmac: move stmmac_axi_blen_to_mask() to axi_blen init sites
-         efd3c8cc52bb9583183ebb83c8c55b23bf97cb2f net: stmmac: remove axi_blen array
-         22eaa206fcacc54e8bc0487c7667883df9200e57 Merge branch 'net-stmmac-simplify-axi_blen-handling'
-         
+  - ref: refs/tags/0.1.0
+    old: 0000000000000000000000000000000000000000
+    new: 68509303dfa3a9c64485bcb9ddddd1cc49a46da6
+  - ref: refs/tags/0.1.1
+    old: 0000000000000000000000000000000000000000
+    new: f814a0e95087787168fe8b1f5705d476cb91feb1
+  - ref: refs/tags/0.1.10
+    old: 0000000000000000000000000000000000000000
+    new: e10e84ffde7bfffdc0d4c5bc78cf4c03b5b4402b
+  - ref: refs/tags/0.1.2
+    old: 0000000000000000000000000000000000000000
+    new: c6f98a65de10c0125680917ad323dcf1cda9577f
+  - ref: refs/tags/0.1.3
+    old: 0000000000000000000000000000000000000000
+    new: 87558cae3fd8807f4ff39102f09883e28fbcbde9
+  - ref: refs/tags/0.1.4
+    old: 0000000000000000000000000000000000000000
+    new: b69f71dbf28dca39c7adf24f7ff7c8a5dbf7fcfb
+  - ref: refs/tags/0.1.5
+    old: 0000000000000000000000000000000000000000
+    new: 6b634626169622d2525611453fb237a0f1450157
+  - ref: refs/tags/0.1.6
+    old: 0000000000000000000000000000000000000000
+    new: 652a686a75446ac04000f1e0a476a150a1ce1af7
+  - ref: refs/tags/0.1.7
+    old: 0000000000000000000000000000000000000000
+    new: 9b834b62e56e5779bb06377a61b431345520f63b
+  - ref: refs/tags/0.1.8
+    old: 0000000000000000000000000000000000000000
+    new: 2d096473e623a1e3fae170d187a0a42074a581c5
+  - ref: refs/tags/0.1.9
+    old: 0000000000000000000000000000000000000000
+    new: 7a1c60c037562f2f225272de53c6292beaabb15e
+  - ref: refs/tags/0.2.0
+    old: 0000000000000000000000000000000000000000
+    new: a0966fdabe4111a18c77690076e1240d131938f6
+  - ref: refs/tags/0.2.1
+    old: 0000000000000000000000000000000000000000
+    new: 0eb9661c093b5d65e727863a675f117ef3e22410
+  - ref: refs/tags/0.2.2
+    old: 0000000000000000000000000000000000000000
+    new: 986c1ddb787fa1ec9b9f1ebfcba8f2730c566ba0
+  - ref: refs/tags/0.2.3
+    old: 0000000000000000000000000000000000000000
+    new: 38caa7d8be7c2a4c16474359e7b72896ee276f89
+  - ref: refs/tags/0.2.4
+    old: 0000000000000000000000000000000000000000
+    new: 08699ee9657351c0fbd89923a72dfb949283c612
+  - ref: refs/tags/0.2.5
+    old: 0000000000000000000000000000000000000000
+    new: ea9c99f3a7befad1228c6d8c9eb184845d21c79d
+  - ref: refs/tags/0.2.6
+    old: 0000000000000000000000000000000000000000
+    new: 8e3b82fd9dc3a368e496e2f0a4eb5a44e156347e
+  - ref: refs/tags/0.2.7
+    old: 0000000000000000000000000000000000000000
+    new: f187a39c4b7a52e5d749d9d044ba432437a7786b
