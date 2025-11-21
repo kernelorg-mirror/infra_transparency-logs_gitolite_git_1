@@ -1,46 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 21 Nov 2025 16:27:09 -0000
-Message-Id: <176374242935.2426598.11508116750189494767@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7806901793556785719=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 21 Nov 2025 16:38:39 -0000
+Message-Id: <176374311961.2435604.7842361642403927223@gitolite.kernel.org>
+
+--===============7806901793556785719==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3e12458dbce4b03eed226ff1b441eed1932119ed
-    new: a2544ac20ad9784a86fdd990602527d3b81dd32a
+  - ref: refs/heads/master
+    old: 46919aac69f3a17fe4670d995440341466a14c66
+    new: b415ee33f446ec730360fb208f5589b3d9ed8abc
     log: |
-         4effbfa9ed6e52cb7ea98acedc52907ccecc9246 Merge branches 'pm-cpuidle', 'pm-cpufreq' and 'pm-sleep' into linux-next
-         a2544ac20ad9784a86fdd990602527d3b81dd32a Merge branch 'thermal-intel' into linux-next
+         b415ee33f446ec730360fb208f5589b3d9ed8abc Update F903332F551A78E9 (Vignesh Raghavendra)
          
-  - ref: refs/heads/linux-next
-    old: d019d946bd0c7566efaf3992f5ed3bbff66a1633
-    new: a2544ac20ad9784a86fdd990602527d3b81dd32a
-    log: |
-         d834e68a0e8b4a3c673eb96d4d53e48f3c19a81e cpuidle: governors: teo: Simplify intercepts-based state lookup
-         8538e7ee09e2090335a91f43b81cafa4bb39402e docs: driver-api/thermal/intel_dptf: Add new workload type hint
-         1b541e10eea6ecea84431dd69d9052b12ed1f729 cpufreq: ACPI: Replace udelay() with usleep_range()
-         a857b530b355a9f2ded091b762207967a9a019f5 Merge back material related to system sleep for 6.19
-         bf8867eae17fde94d7081545cf90ca8d5aba690a PM: sleep: Add support for wakeup during filesystem sync
-         8e2d57e6539b1c2c9b76bc1726ac49384a96c04f PM: sleep: Call pm_sleep_fs_sync() instead of ksys_sync_helper()
-         4effbfa9ed6e52cb7ea98acedc52907ccecc9246 Merge branches 'pm-cpuidle', 'pm-cpufreq' and 'pm-sleep' into linux-next
-         a2544ac20ad9784a86fdd990602527d3b81dd32a Merge branch 'thermal-intel' into linux-next
-         
-  - ref: refs/heads/testing
-    old: d019d946bd0c7566efaf3992f5ed3bbff66a1633
-    new: a2544ac20ad9784a86fdd990602527d3b81dd32a
-    log: |
-         d834e68a0e8b4a3c673eb96d4d53e48f3c19a81e cpuidle: governors: teo: Simplify intercepts-based state lookup
-         8538e7ee09e2090335a91f43b81cafa4bb39402e docs: driver-api/thermal/intel_dptf: Add new workload type hint
-         1b541e10eea6ecea84431dd69d9052b12ed1f729 cpufreq: ACPI: Replace udelay() with usleep_range()
-         a857b530b355a9f2ded091b762207967a9a019f5 Merge back material related to system sleep for 6.19
-         bf8867eae17fde94d7081545cf90ca8d5aba690a PM: sleep: Add support for wakeup during filesystem sync
-         8e2d57e6539b1c2c9b76bc1726ac49384a96c04f PM: sleep: Call pm_sleep_fs_sync() instead of ksys_sync_helper()
-         4effbfa9ed6e52cb7ea98acedc52907ccecc9246 Merge branches 'pm-cpuidle', 'pm-cpufreq' and 'pm-sleep' into linux-next
-         a2544ac20ad9784a86fdd990602527d3b81dd32a Merge branch 'thermal-intel' into linux-next
-         
+
+--===============7806901793556785719==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1763743190 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1763743118-405002abee4e57113f646913ba52d867a7c04bd3
+
+46919aac69f3a17fe4670d995440341466a14c66 b415ee33f446ec730360fb208f5589b3d9ed8abc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaSCV1gAKCRC2xBzjVmSZ
+bEjWAQDuWU6b0yPxpbJLf3xaK+5FDEOaiSg6gDGvgwv4qaX3TgD/UUrE8CX2qhby
+6F7/Iiq4IZlv5cqRodrMdqkwgBBU9gU=
+=6n13
+-----END PGP SIGNATURE-----
+
+--===============7806901793556785719==--
