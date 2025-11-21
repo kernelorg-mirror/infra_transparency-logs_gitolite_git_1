@@ -1,133 +1,182 @@
-Content-Type: multipart/mixed; boundary="===============5324710919045933821=="
+Content-Type: multipart/mixed; boundary="===============8233025116600063979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 21 Nov 2025 22:11:32 -0000
-Message-Id: <176376309258.2747048.17745282497632913654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 21 Nov 2025 22:11:35 -0000
+Message-Id: <176376309547.2747154.704022451327022394@gitolite.kernel.org>
 
---===============5324710919045933821==
+--===============8233025116600063979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/pending
-    old: c99ebb6132595b4b288a413981197eb076547c5a
-    new: ced2ae3f24827e635f610d4d5cfa21482be1a47d
-    log: revlist-c99ebb613259-ced2ae3f2482.txt
+  - ref: refs/heads/main
+    old: 5e6e4854e086ba0025bc7dc11e6b475c92a2f556
+    new: debbc87557487aa9a8ed8a35367d17f8b4081c76
+    log: revlist-5e6e4854e086-debbc8755748.txt
+  - ref: refs/heads/master
+    old: 5e6e4854e086ba0025bc7dc11e6b475c92a2f556
+    new: debbc87557487aa9a8ed8a35367d17f8b4081c76
+    log: revlist-5e6e4854e086-debbc8755748.txt
+  - ref: refs/heads/next
+    old: a0afd4fd5b6e383e5e8b53cab34ee302052c4ea2
+    new: 69bfe50d7ab3d611eb8861d875b9930a95c74a24
+    log: |
+         fd7d79d068dd14a4d7a4a93f7bfd31cf24020aec repo: factor out field printing to dedicated function
+         155caac7d1fa981b21192c598cf9bbffdb5aea12 repo: add --all to git-repo-info
+         903b04a3e721f4afb337bd48890b69e16c04c5d6 doc: convert git fetch to synopsis style
+         c80a5ebce0e6afe3f9d3f5047f3de524386c40bb doc: convert git pull to synopsis style
+         f7316a66d36f39ed9e5be7a3ce0ecd7b71430ff5 doc: convert git push to synopsis style
+         3176576a5615c645aad04664fa0e70262a694761 Merge branch 'rs/diff-quiet-no-rename'
+         c62d2d381087b6ab0f485dc9d27346ff887600cc Merge branch 'kn/maintenance-is-needed'
+         7895a60969d59ce9805ce5c88921e13bc8215d8b Merge branch 'jc/gitattributes-whitespace-no-indent-fix'
+         debbc87557487aa9a8ed8a35367d17f8b4081c76 The second batch
+         bb6bddcfc77bc48b24dfa8ddf4906c5b710f959b Merge branch 'lo/repo-info-all' into next
+         eb9c1703c01288e5d3a6ee22b35ad8a4f0f3a5dc Merge branch 'ja/doc-synopsis-style' into next
+         69bfe50d7ab3d611eb8861d875b9930a95c74a24 Sync with 'master'
+         
+  - ref: refs/heads/seen
+    old: 985f664a7a767a3693c2ab15ed97a20de127bf16
+    new: 55402bd13f1b090d7253edb26a746696c70fe1f4
+    log: revlist-985f664a7a76-55402bd13f1b.txt
+  - ref: refs/notes/amlog
+    old: a2613a54e7d548de4d7cc5f0d14a4173c07f174a
+    new: 8ca76aed623afa2a0051c7c05dca9a821bc7365b
+    log: revlist-a2613a54e7d5-8ca76aed623a.txt
 
---===============5324710919045933821==
+--===============8233025116600063979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c99ebb613259-ced2ae3f2482.txt
+Content-Disposition: attachment; filename=revlist-5e6e4854e086-debbc8755748.txt
 
-f844982696f57d72e45f94608278f678a0f67b26 wifi: ath12k: Restructure PCI code to common and Wi-Fi 7 specific logic
-5e545696a398ae39f4c0c747a8ba0c7073037d1b wifi: ath12k: Move Copy Engine configuration to Wi-Fi 7 specific file
-d650b777858f38dbbd5bd2cb43c97eb261e95f9d wifi: ath12k: Move Wi-Fi 7 WMI configuration to dedicated file
-7f54938fc5253a89b962fc137ea725e3e3405757 wifi: ath12k: Move Wi-Fi 7 MHI configuration to dedicated file
-3f8d0eb8037b199e84c41c6ba687104ccbf076f3 wifi: ath12k: Rename hw.c to Wi-Fi 7 specific implementation file
-bca2b24d9dd98c06b61f6e15789b652b98ff7c87 wifi: ath12k: Rename ahb_hif_ops to reflect generic usage
-db2929711d705ed244f0f5a41441a6103ecc785c wifi: ath12k: Restructure ahb.c into common and Wi-Fi 7 specific modules
-387b587a861cf7864df93c99c123877d28100bb3 wifi: ath12k: Move Wi-Fi 7 specific init routines to dedicated file
-83cd89a9556a48d31d706f67854873cadbf80c0e wifi: ath12k: Move hw_init invocation to target-specific probe
-a72027045263f8261b47fc28e7b6da7571d8cbb5 wifi: ath12k: Modularize driver into common and Wi-Fi 7 specific components
-bce3b73d1ca744fc1c9cb92eec37b0dd209ae9a1 wifi: ath12k: Rename ath12k_* symbols to ath12k_wifi7_* for clarity
-6cbd171805be7443bbfdb8ff0a646348180eee35 wifi: ath12k: Remove HAL defines from shared PCI code
-0e487f03c6e5d8dd5b076b8b061e50e736ab2196 wifi: ath12k: Remove HAL define dependencies from shared AHB code
-dc722ea9ee13369b1d4687160206e6bde2e8c2e2 wifi: ath12k: Move hal_tx and hal_rx to wifi7 directory
-020225bbf4fb2fb23553ac9c65c8f50bb4d2fe74 wifi: ath12k: Move hal_tx.h file to wifi7 directory
-4f57d71862a7edef67de6c2072127dc1c8960a24 wifi: ath12k: Move hal_rx.h file to wifi7 directory
-2ec00a7747cb78b0c310ba1c8bc9893e53101569 wifi: ath12k: Move HAL Rx wrapper APIs to dp_rx.h
-1a6a4b6c9f0ea0740c86dda8b981b6d818433fe0 wifi: ath12k: Move Rx error related functions to wifi7 directory
-87a230ec2bfa15506b885e7ab958bf45b0036e8d wifi: ath12k: Move hal_desc.h file to wifi7 directory
-8658abc7139fc72d94959335becbabcd2b3c95a3 wifi: ath12k: Move rx_desc.h file to wifi7 directory
-8dc72a6f603e81050ebb3d8b4b2fc5fde0d9dd93 wifi: ath12k: Move rxdma ring config functions to wifi7 directory
-6b4954d3f0000cc687f263a151ec2c7ad38e00a8 wifi: ath12k: Move rx error and defrag functions to wifi7 directory
-a7cfbb18d411b186ff67f62215e53e125ccc93d6 wifi: ath12k: Move regular msdu processing functions to wifi7 directory
-5d2df2aa84303a187b82ca048ae28709bef85f77 wifi: ath12k: Move srng processing to wifi7 directory
-eb2120ae6ab5790527f3b3066410543c1b7a5ab4 wifi: ath12k: Separate arch specific part of RX APIs
-6c7ceff2bed9d69007d23883f12a1406e149a060 wifi: ath12k: Move arch specific REO functions to wifi7 directory
-52c555680bae89a5169810f1f12a06241c93ecb7 wifi: ath12k: Move arch specific rx tid and related functions to wifi7 directory
-8527d81ee622f509df11e4444c7d0901ac542174 wifi: ath12k: Move arch specific tx APIs to wifi7 directory
-a45d0e81b2429c26db6b1ee0d43ff62b12d41d1f wifi: ath12k: Move ath12k_dp_tx and related APIs to wifi7 directory
-d3ade00eb6d27dda5ba0026f5602f03b99df5a96 wifi: ath12k: Move HTT code in dp.h to newly introduced files
-71a3f92c512e1605a2ffdae94e4d4e3a6a63b90f wifi: ath12k: Move HTT Rx specific code to newly introduced files
-611297ee9faf6a28b1d553c41c4677052629cf6c wifi: ath12k: Move HTT Tx specific code to newly introduced files
-d637c58a29475d646f8decfbbc1d27fae999a449 wifi: ath12k: Move HTT specific code from dp.c to newly introduced files
-00139e4d7baf41e05b907846dbc53829421bb1fc wifi: ath12k: Remove non-compact TLV support from QCN
-4ae34800a70d2704ec3a55146c86c4355a4129f6 wifi: ath12k: Move the hal APIs to hardware specific files
-dd33e179466e4c0c5f74ebd838eedd9212cd3964 wifi: ath12k: unify HAL ops naming across chips
-52537339693789f3dd4ef7931f417ad641ee864b wifi: ath12k: Replace ops with direct calls for rxdma ring mask
-92541061a6fd4e6a0acd700e8544cb26f19570e8 wifi: ath12k: Move hal_rx_ops callbacks to hal_ops
-e8a1e49c63280e6266392cb4a9f879e22bad893a wifi: ath12k: Add new infra for the rx path
-0cdb09b19760f3464b3fbed782b59758124537c3 wifi: ath12k: Remove hal_rx_ops and merge into hal_ops
-972f34d54015a4a16aa9e6a081bafabb6f9bf95c wifi: ath12k: Change the API prefixes to ath12k_wifi7 in tx/rx
-3a52762b539f6eefa6f600ab58577ee09f26657a wifi: ath12k: Convert ath12k_dp member in ath12k_base to pointer
-614c23e24ee84d5cc2c1648941ee7156b4fb173f wifi: ath12k: Support arch-specific DP device allocation
-8042e30acd1f48aa7d79a9be3b64b04376b0014c wifi: ath12k: Rearrange DP fields in ath12k_hw_group struct
-914c890d3b905165afa17356bcf4e23352411486 wifi: ath12k: Add framework for hardware specific ieee80211_ops registration
-39538dc8860aa523dde38ab68a333cac4a98d9f2 wifi: ath12k: Add framework for hardware specific DP interrupt handler
-af66c7640cf94aa77314cf8d5e95141bdecbc1ee wifi: ath12k: Refactor ath12k_vif structure
-9e0ee04f818f42ec879b053e4b5d0c9c230415da wifi: ath12k: Refactor data path pdev struct
-c57176c0dad91a00bd20feb5f6dc4e8d575f4628 wifi: ath12k: Rearrange PPDU radio stats
-c0600b35e08db781511c2b35af2d2ec58bbfbdfd wifi: ath12k: Move srng config and hal_ops to hw specific hal files
-74ed243dad18366aeb836f40b921758e20d9d5b7 wifi: ath12k: Initialize desc_size through hal_init
-369cb192c2ecf1228df06adcf1aa5074aecd2902 wifi: ath12k: Initialize hal_ops through hal_init
-1c1d4b491d2085f6bdea90b0e021abf8e30f0457 wifi: ath12k: Move wbm_rbm_map to hw specific hal files
-492dea1892dacf1c1ee356c60465e7fcdc18cc97 wifi: ath12k: Move hal_params and regs to hal from hw
-a337bff1db715e67135a2e5fcb6ecafdcf81f8b7 wifi: ath12k: Add direct HAL pointer in ath12k_dp
-b38213660ab9ebf9d32db40ec0ec6691b6dd9d1a wifi: ath12k: Use hal handle instead of ab handle
-e9f00e22963e809a35999465036d3f58b126c1c6 wifi: ath12k: Move HAL CE setup and SRNG related APIs to wifi7 directory
-cb419f582f36873d31368835be34ec1500792dcb wifi: ath12k: Move HAL SRNG shadow config and get ring id APIs to wifi7 directory
-3d947cef0a51e19a779b201fd27885b31af19383 wifi: ath12k: Move HAL CE desc related APIs to wifi7 directory
-eba935ec922fd77a88ea2bed12d929afe340ee19 wifi: ath12k: Move HAL CE status and set link desc addr APIs to wifi7 directory
-356942d328a4d85969953353b4b9c1f0934918c5 wifi: ath12k: Move HAL Tx, REO and link idle setup related APIs to wifi7 directory
-17540a7c9b363e08eb417ffcd25c74226cbb131c wifi: ath12k: Move HAL REO and Rx buf related APIs to wifi7 directory
-ea23813a2e442f96a05d3d2ddf3d42c6005b1862 wifi: ath12k: Move HAL Cookie Conversion and RBM related APIs to wifi7 directory
-2bb41934527d3b132958e214d688cc525d0088c1 wifi: ath12k: Segregate the common and wifi7 specific structures
-6250af6073092f25bd2c104156e0808c03adb5b9 wifi: ath12k: Remove the unused ring inits in wcn
-49ba5debad420506eef9fcef38d1fdce41010901 wifi: ath12k: Rename hal_ops to ops
-25122460e7f96864a80b59ffe6c953911516d3b3 wifi: ath12k: Drop hal_ prefix from hardware register names
-07174dc94269758e271cba01680a8fecf35169dd wifi: ath12k: Move DP related functions from peer.c to dp_peer.c file
-9e0b56a33384c670501632810634553a767912d5 wifi: ath12k: Rename ath12k_peer to ath12k_dp_link_peer
-57ccca410237285f8f25a988655e6910cadc63f2 wifi: ath12k: Add hash table for ath12k_link_sta in ath12k_base
-0cafe8cc85665f29b28891f4b921bef1854c2e99 wifi: ath12k: Move ath12k_dp_link_peer list from ath12k_base to ath12k_dp
-a88cf5f71adfc5e7412a505ee0077628231c6d80 wifi: ath12k: Add hash table for ath12k_dp_link_peer
-ee16dcf573d5e3283fda601dd4bca6bc52251017 wifi: ath12k: Define ath12k_dp_peer structure & APIs for create & delete
-5525f12fa671a007c6c6044c861eee86de71b576 wifi: ath12k: Attach and detach ath12k_dp_link_peer to ath12k_dp_peer
-11157e0910fdc9ab8077af69fd4496b80d7c39a0 wifi: ath12k: Use ath12k_dp_peer in per packet Tx & Rx paths
-6633dca572d8f599b0a1ead0f145a52049ec7709 wifi: ath12k: Add lockdep warn for RCU
-73c928346d095533ac56569bdd57c55d3ca81c3f wifi: ath12k: Add callbacks in arch_ops for rx APIs
-775fe5acc18df4de4bad774faa50c88ee65882eb wifi: ath12k: Move DP device stats to ath12k_dp
-35fcf4fa196c9e30012b32a05c65762d5552a712 wifi: ath12k: Move DP specific link stats to DP link peer
-05774dffb974cef9fa48ee23a2f604396c96df3b wifi: ath12k: Add helper to free DP link peer
-c26f294fef2a4bf8c456e3d212bd7e1bd698efda wifi: ath12k: Move ieee80211_ops callback to the arch specific module
-c870602510242527813843115edd31b20db06702 wifi: ath12k: Remove the wifi7 header inclusions in common code
-d43133a38b0ccc5e53b9efd9aa30f29f9db0b57c wifi: ath12k: Move ath12k_dp_rx_frags_cleanup API to Wi-Fi 7
-147daefc59f007966b92e510b063d407850f2278 wifi: ath12k: Move ath12k_dp_rx_get_peer_id API to Wi-Fi 7
-951cca9cc68d67ff572db9de32a810a16d9bc1ad wifi: ath12k: Remove arch-specific HAL dependencies from common DP
-219dd14992fca65c33666712939f6bdf001722e2 wifi: ath12k: Build all the files in wifi7 directory into ath12k_wifi7.ko
-96b42732bc75de66c5e10c67d6a60967004ceead wifi: ath12k: Use dp objects in performance critical paths
-f87034a7576f918f2e60a14f17185b492e91580d wifi: ath12k: Replace lock/unlock with guard()
-24b21a9be2c999b51aaec50ede4b2ca1dffb0ebd wifi: ath12k: Move monitor ring processing to Wi-Fi 7 module
-e00164657ce8a347a24d49a4aa4dd96aaf50a580 wifi: ath12k: Move monitor status processing to Wi-Fi 7 module
-906b5ac9c2b5dd2512a515b0c74a6905973fba04 wifi: ath12k: Move MPDU pop functionality to Wi-Fi 7 module
-e475119ba2510c66138261d72d797e63c73eea02 wifi: ath12k: Move RX status TLV parsing to Wi-Fi 7 module
-52758ff7b50a7d8b06d23c7f2a42ae85b559f682 wifi: ath12k: Move TX monitor functionality to Wi-Fi 7 module
-f4bcbaebf4112c8f6320e208b67b2281dad5d5e1 wifi: ath12k: Move HT/VHT SIG processing to Wi-Fi 7 module
-dde5748c2940b4b47bba9c42e086a90fbe43b5ea wifi: ath12k: Move HE SIG processing to Wi-Fi 7 module
-00b67b7c44b47b6ace2291e903d21ea7b6261179 wifi: ath12k: Move EHT SIG processing to Wi-Fi 7 module
-e5419861e4155ae32d739308e713f7bf6663d632 wifi: ath12k: Move remaining SIG TLV parsing to Wi-Fi 7 module
-5db19c48841397c5b5732a1aeb81fc6cdcdfc5c2 wifi: ath12k: Move MU user processing to Wi-Fi 7 module
-965aea91545a03cc14439ebe57519497925f5ad4 wifi: ath12k: Move MSDU END TLV processing to Wi-Fi 7 module
-7cd7392a07782b8ad4aa6360e4be1967af2eab04 wifi: ath12k: Remove Wi-Fi 7 header dependencies from common ath12k module
-5a384854d81f83d59d812b54bfa27fd0e56e36f0 wifi: ath12k: add the missing RCU lock in ath12k_dp_tx_free_txbuf()
-a1e19289932aeef26085feb97597d624da6302ab wifi: ath12k: move firmware stats request outside of atomic context
-ced2ae3f24827e635f610d4d5cfa21482be1a47d Merge branch 'ath12k-ng' into pending
+4a1442a3363651d79f50ef592172f940e559eef7 Merge branch 'ps/ref-peeled-tags' into kn/maintenance-is-needed
+31177a8bb6ee0a733342e0d67ee2b0f4b29263a2 Merge branch 'kn/refs-optim-cleanup' into kn/maintenance-is-needed
+135f491f83d4763bdc61642eb0126ce2e6ada286 reftable/stack: return stack segments directly
+e35155588aa9f0355eb7e116ea418c189479f62d reftable/stack: add function to check if optimization is required
+f6c5ca387a7693b16158826d157178be0ba439dc refs: add a `optimize_required` field to `struct ref_storage_be`
+8c1ce2204cc755bdafec85aaa4ac9c5a686a8bf4 maintenance: add checking logic in `pack_refs_condition()`
+28b83e6f08ae022d54d79e518e72933ae0930091 maintenance: add 'is-needed' subcommand
+fa052367ef8f7829996ff15368d63edfff0e40c3 diff: disable rename detection with --quiet
+358e94dc7059500af09435112ef1d4e5f7692e52 .gitattributes: remove misspelled no-op whitespace attribute
+3176576a5615c645aad04664fa0e70262a694761 Merge branch 'rs/diff-quiet-no-rename'
+c62d2d381087b6ab0f485dc9d27346ff887600cc Merge branch 'kn/maintenance-is-needed'
+7895a60969d59ce9805ce5c88921e13bc8215d8b Merge branch 'jc/gitattributes-whitespace-no-indent-fix'
+debbc87557487aa9a8ed8a35367d17f8b4081c76 The second batch
 
---===============5324710919045933821==--
+--===============8233025116600063979==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-985f664a7a76-55402bd13f1b.txt
+
+15f4ec997b85bdf18aead5c5b7350809154e389e streaming: rename `git_istream` into `odb_read_stream`
+48531e6e56332245f3a9a9920b4a066046714625 streaming: drop the `open()` callback function
+15312c6b5079e5ffdf1bd1db519dca20be2323c6 streaming: propagate final object type via the stream
+6bdf7f3e391c346e851a56528a27e00470407734 streaming: explicitly pass packfile info when streaming a packed object
+5e50611d8a084c6e9579d8edcd2e0dea97f14d9f streaming: allocate stream inside the backend-specific logic
+1fa057256ec955c82b6d880e3693d89aea34d3ad streaming: create structure for in-core object streams
+8229642e30b971187181a974be81a3f4540373a5 streaming: create structure for loose object streams
+fa773f6aaf6353d8f1aff3e563314bb0a7fabad7 streaming: create structure for packed object streams
+00a390350029043a827c27bae1e710d078512deb streaming: create structure for filtered object streams
+aee13c0553c095a0eba3e336cdc851b76f09600f streaming: move zlib stream into backends
+6e3f37b0a2f76046caa575025267d44b5438026e packfile: introduce function to read object info from a store
+325339a00195049d4ca0e163ae82d06985551c76 streaming: rely on object sources to create object stream
+34dea516d804d63d9b29f984a03906606949f892 streaming: get rid of `the_repository`
+bc4676633477f871f0dac9ac389546432f7ebff3 streaming: make the `odb_read_stream` definition public
+cd12826a0dfa24104fb7194381bd36c23a2a830f streaming: move logic to read loose objects streams into backend
+d56cdfe695a7d38f0371c6de022e0ee8418e79b4 streaming: move logic to read packed objects streams into backend
+1cfc514e6bfbd6babacfef11f8332fd25e359be2 streaming: refactor interface to be object-database-centric
+3e74504d6cbe4371b1c0c8bfab858221fe13979b streaming: move into object database subsystem
+06523c6b0b5f81d5ed6b59bb78a86831a2224f39 streaming: drop redundant type and size pointers
+c3cf8e5907adb55380801007ff14f0e3b7cf7152 fetch: extract out reference committing logic
+9f6b7e08c0d882563de07960450f7980baf8e739 fetch: fix non-conflicting tags not being committed
+8d4278c8a2ef733d5894898c3ad1a9d65e575752 fetch: fix failed batched updates skipping operations
+3176576a5615c645aad04664fa0e70262a694761 Merge branch 'rs/diff-quiet-no-rename'
+c62d2d381087b6ab0f485dc9d27346ff887600cc Merge branch 'kn/maintenance-is-needed'
+7895a60969d59ce9805ce5c88921e13bc8215d8b Merge branch 'jc/gitattributes-whitespace-no-indent-fix'
+debbc87557487aa9a8ed8a35367d17f8b4081c76 The second batch
+713a7b05fa7db9b3306c62989cef6a6b23c25a31 Merge branch 'jk/attr-macroexpand-wo-recursion' into jch
+6a0669312e02a6047dd1aafb57c2de444c69a4f7 Merge branch 'bc/submodule-force-same-hash' into jch
+b65f2bf0876f9f9229fb5e593639d13c0070eaee Merge branch 'sa/replay-atomic-ref-updates' into jch
+49d4bb80eef02b0a35ef89e967b8c043c47da476 Merge branch 'qj/doc-http-bad-want-response' into jch
+dc479f825b99da778b0f499e37f575f773020943 Merge branch 'ps/object-source-loose' into jch
+f407ffd6c605ef011133b91102e56a764a20b2a0 Merge branch 'kh/doc-commit-extra-references' into jch
+ac6c331ea5a927b41ff2e65f1ebc9728997bc2a9 Merge branch 'kn/osxkeychain-idempotent-store-fix' into jch
+eddf0186946c6fb9aef9ba0978b55fee720bc810 Merge branch 'jx/repo-struct-utf8width-fix' into jch
+c386df703d3d0108f6e143473544ced6008f5844 Merge branch 'en/ort-rename-another-fix' into jch
+202677507a2934944ca1852748b57ceab15f4661 Merge branch 'ad/blame-diff-algorithm' into jch
+63f027b88b8f889fc5a814485b02309184f1a56a Merge branch 'rs/xmkstemp-simplify' into jch
+bf93aa332c70f3ddddbe05c4ba8919c7af3911ef Merge branch 'jk/test-mktemp-leakfix' into jch
+4d94e1e926a7483ad9452fdd8c5903ab9d0015bf Merge branch 'js/ci-github-setup-go-update' into jch
+fe055184771d539f9790a6672187d419566d4a5e Merge branch 'js/mingw-assign-comma-fix' into jch
+1cd69e44aab09547c865d15cd28828a4c37edd6d Merge branch 'js/cmake-libgit-fix' into jch
+c1a431a23e490bd6f3927ff2576a06f1dd7942f1 Merge branch 'js/wincred-get-credential-alloc-fix' into jch
+49b3a3a7cc63dee59be3aa481ede83731ef10cc7 Merge branch 'pw/worktree-list-display-width-fix' into jch
+92afab57ac64cd79d7fe0538b5c60d33d44753f4 Merge branch 'jk/ci-windows-meson-test-fix' into jch
+7d548919555ef396439fc4fdb662b2c94ade2d7f Merge branch 'lo/repo-info-all' into jch
+d121cd9b26fa214dd39164b5825f14f9e45f0257 Merge branch 'ja/doc-synopsis-style' into jch
+624e64a23c0007edb05850eb3c30bc2b83471072 ### match next
+54a75cac43a60aedd3578906ec208fd99cce236c Merge branch 'gf/win32-pthread-cond-wait-err' into jch
+4bd2347e0eb76cc7363988ab533458ba5dcb1bf3 Merge branch 'jc/whitespace-incomplete-line' into jch
+dc23d9cb78a0e0180917674db88a298be66554fa Merge branch 'je/doc-data-model' into jch
+e4538be791cc2f0fb7f8657e112054f8069cd00d Merge branch 'en/xdiff-cleanup-2' into jch
+af545348dd1c9222c6d3ddf0ce6133233a102e29 Merge branch 'kn/fix-fetch-backfill-tag-with-batched-ref-updates' into jch
+65d5bc00f2ed8ee2b1cccb8a3b4348dd46fc5f40 Merge branch 'jk/asan-bonanza' into jch
+7295f98fd24eb677ef56a0e1052553e380c3d546 Merge branch 'js/strip-scalar-too' into jch
+7118ec0b354973a7005669f20cf6ed6c4c89a982 Merge branch 'js/ci-show-breakage-in-dockerized-jobs' into jch
+7a9666a49d090fcd1e3f6ee6f20a81d40bfdc86e Merge branch 'jc/optional-path' into jch
+cf2c56d51ef96208a19fe05f417a6a87c94c4e36 Merge branch 'kh/doc-committer-date-is-author-date' into jch
+0aa248bd0a9d5ba6d4664707318df82d2657a65d Merge branch 'jc/exclude-with-gitignore' into seen
+cd020a3dffdf2bd7e831766f7a4f5a1d646bd977 Merge branch 'ms/doc-worktree-side-by-side' into seen
+c29e7413f117e47342d4b93e82709241b67c2f7b Merge branch 'ps/history' into seen
+7da723c8aa24e224228433e5ead8116de091ecfb Merge branch 'lc/rebase-trailer' into seen
+35603e57ea510b5d8e918d47e535c3ee918c7674 Merge branch 'je/doc-reset' into seen
+c1fc5d3361f00479334d488afa6f208e50a52012 Merge branch 'jc/submodule-add' into seen
+2e324a83deb5acaba8dd7955b60c652bd981768a Merge branch 'cc/fast-import-strip-if-invalid' into seen
+dec80680d6228542915dfd16f1854a526259ebe2 Merge branch 'ar/submodule-gitdir-tweak' into seen
+fc7d1b41078764bc3d829fdc7158acde1bab50e2 Merge branch 'ps/object-source-management' into seen
+ecc84b232593b3bb84902008f2839af84946f621 Merge branch 'ps/object-read-stream' into seen
+406c8e7c51f03476cd4e175c8f9175271d1529c2 Merge branch 'dw/config-global-list' into seen
+061c72af17dbb57b3a9cc75967ba3ec70c36812a Merge branch 'gf/win32-pthread-cond-init' into seen
+5889193c71df5e8c0b9d7fe1bb83c7d759914a59 Merge branch 'kn/ref-location' into seen
+3bbf02f6705ca8f4a1fb6ffc8965be4b2caade4d ### CI
+89d8df93e69a8fcc2aac1eca72e5258a10131711 Merge branch 'bc/sha1-256-interop-02' into seen
+55402bd13f1b090d7253edb26a746696c70fe1f4 Merge branch 'ar/run-command-hook' into seen
+
+--===============8233025116600063979==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a2613a54e7d5-8ca76aed623a.txt
+
+e66f35fcb5c3953411d8027ea057326f5c66af2b amlog
+3205c6b1973660b7c901609d3babc4355191408b Notes added by 'git notes add'
+094f25d4f0f4f3cf44dc059874ec9278acbb9ede Notes added by 'git notes add'
+0af982c5507d0b5704757248e8b284c6713e9347 Notes added by 'git notes add'
+889005340b23119d676948b026a945abd318f7eb Notes added by 'git notes add'
+794165a75c44de714ea974740d18924e083fa318 Notes added by 'git notes add'
+6ea0d3cf63402d01176c14172f0eacf967444fd6 Notes added by 'git notes add'
+b72ebc70e6cc4ca173733a521c49afde16551803 Notes added by 'git notes add'
+32efc45fd3ca7da2fd03c8a00790436f3e21ea78 Notes added by 'git notes add'
+46ad098baa7ad0cabdc7edb50c801b8485333073 Notes added by 'git notes add'
+44a16666a4f76652a9becfc7f08535db8ecff648 Notes added by 'git notes add'
+e611f3955cda593914c065626a014ac8e756c337 Notes added by 'git notes add'
+3b1ad4eddc5cb6104b7c801ac6db45336ed76248 Notes added by 'git notes add'
+0fdddc23858577585a7344d98065dec212152003 Notes added by 'git notes add'
+1769527323e97eb5f840beae142bd883552618e5 Notes added by 'git notes add'
+b804cfe1fec27de5228a78f1ba7e142d70890862 Notes added by 'git notes add'
+dcba02f567e6924fd8feabb8d63f65599a885b42 Notes added by 'git notes add'
+dd2c505c0d642bdfd31a90b902fbb476bcf1e94d Notes added by 'git notes add'
+a50000c0a534eb0d16bd60cc70925a6cc297340c Notes added by 'git notes add'
+fe48e70d60a44bb6fbe621a4b2d6a1cfb2bd0823 Notes added by 'git notes add'
+fed43c95eb156d5fa02cbd936fbf8518bbbf3fd9 Notes added by 'git notes add'
+3c74a7818a9cc2bd001fd6737541c5c357f03b47 Notes added by 'git notes add'
+8ca76aed623afa2a0051c7c05dca9a821bc7365b Notes added by 'git notes add'
+
+--===============8233025116600063979==--
