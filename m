@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Fri, 21 Nov 2025 16:12:53 -0000
-Message-Id: <176374157398.2406875.17402081599888413673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Fri, 21 Nov 2025 16:13:06 -0000
+Message-Id: <176374158647.2407112.7273528785979048407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-user: jarkko
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/main
-    old: 2349b8f508a0ba730fafc8f2a07c05836b0070bf
-    new: ec542dbdec3f2c3e201204071a49ac4f788544cf
-    log: |
-         ec542dbdec3f2c3e201204071a49ac4f788544cf build: update release.sh
-         
+  - ref: refs/tags/mhi-for-v6.19
+    old: 5e780b131fc78365e0c6c95c552d57443ff43d3c
+    new: 62e75defa1721c0e06eb87bc60b27682dc16bdd7
