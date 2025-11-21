@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0320804888936442961=="
+Content-Type: multipart/mixed; boundary="===============2376234789360389049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 21 Nov 2025 19:37:04 -0000
-Message-Id: <176375382468.2602177.11138386067597749255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 21 Nov 2025 19:37:22 -0000
+Message-Id: <176375384246.2602551.11270824483295415540@gitolite.kernel.org>
 
---===============0320804888936442961==
+--===============2376234789360389049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
 
---===============0320804888936442961==
+--===============2376234789360389049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -722,4 +722,4 @@ a07a003ce6d475014e71e1c4f52f4ed7146dd35e Merge tag 'io_uring-6.18-20251120' of g
 e3fe48f9bdf47e0de91ffb7ba10d94a6a7598e8f Merge tag 'v6.18-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 2eba5e05d9bcf4cdea995ed51b0f07ba0275794a Merge tag 'loongarch-fixes-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============0320804888936442961==--
+--===============2376234789360389049==--
