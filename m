@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 21 Nov 2025 19:58:39 -0000
-Message-Id: <176375511905.2623002.1347707974895708585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Fri, 21 Nov 2025 20:01:08 -0000
+Message-Id: <176375526853.2626558.16203754772978676475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/stm32/dt
+  - ref: refs/tags/selinux-pr-20251121
     old: 0000000000000000000000000000000000000000
-    new: a6961e2ced5190c68acd78a7e372de07f565fcd6
+    new: c9f2d5027e2eb4a4facb24b9c2d9d8e4a0d44d5e
