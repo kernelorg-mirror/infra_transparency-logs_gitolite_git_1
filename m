@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-device
-Date: Fri, 21 Nov 2025 22:26:46 -0000
-Message-Id: <176376400609.2761177.2585036478028796985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 21 Nov 2025 22:27:47 -0000
+Message-Id: <176376406792.2761793.15490617740031807083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-device
-user: jarkko
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/main
-    old: 382ef9fd9aec4c09aeeeb457570a248c934915c1
-    new: 2bf2d5be38848025c6bf9466781e17f19e9ceffb
+  - ref: refs/heads/ip
+    old: 8576bc3523aff0a4b3162e843a8122c75ee3b2ff
+    new: 4896aafc4059fdcdbfc87c63063f5d5a3f4b5b30
     log: |
-         2bf2d5be38848025c6bf9466781e17f19e9ceffb feat: timeout parameter
+         00971b6661daa48836d9068734a62944278a06ac man/man7/ip.7, man/man2const/IP_DROP_MEMBERSHIP.2const: Split IP_DROP_MEMBERSHIP from ip(7)
+         4896aafc4059fdcdbfc87c63063f5d5a3f4b5b30 man/man2const/IP_DROP_MEMBERSHIP.2const: Tweak after split
          
