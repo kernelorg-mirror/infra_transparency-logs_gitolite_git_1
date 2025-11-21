@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Fri, 21 Nov 2025 23:48:01 -0000
-Message-Id: <176376888108.2832649.13467205713360448434@gitolite.kernel.org>
+Date: Fri, 21 Nov 2025 23:48:28 -0000
+Message-Id: <176376890835.2832961.17285706692607832658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 0fc281e63332b620fca0860cc1a163590076fdde
-    new: eaa42c0fba073d69171d1a626c956399f9e86f50
+    old: eaa42c0fba073d69171d1a626c956399f9e86f50
+    new: ca7dd102594a2d79c5d6fa2d3e9cda3b492bc407
     log: |
-         eaa42c0fba073d69171d1a626c956399f9e86f50 feat(command): add --no-lock for disabling DA protection
+         ca7dd102594a2d79c5d6fa2d3e9cda3b492bc407 chore: bump version to 0.15.22
          
